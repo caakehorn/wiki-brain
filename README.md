@@ -8,7 +8,13 @@ compilation; you just feed it material.
 
 ## The app
 
-Double-click **Wiki.command** (or run `python3 app.py`). Your browser opens
+**To pin it in your Dock:** drag **Personal Wiki.app** onto the Dock. Click
+it any time to launch (or refocus) the wiki in your browser — clicking it
+again while it's already running just opens/reuses the tab, it never starts
+a second server.
+
+Alternatively, double-click **Wiki.command** (or run `python3 app.py`).
+Either way, your browser opens
 at `http://127.0.0.1:8477` with everything in one place:
 
 - **Browse** — read the whole wiki with rendered pages, clickable links,
