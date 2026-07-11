@@ -1,0 +1,212 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398991339,
+        "longitudeE7": -797252490,
+        "placeId": "ChIJ5b3XbzE-NYgRqufo3CdlI2E",
+        "address": "61 South Beeson Boulevard, Uniontown, Pennsylvania 15401, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 56.7723
+      },
+      "duration": {
+        "startTimestamp": "2015-08-08T22:33:56.905Z",
+        "endTimestamp": "2015-08-09T01:55:13.892Z"
+      },
+      "centerLatE7": 398978800,
+      "centerLngE7": -797245000,
+      "visitConfidence": 45,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398975471,
+        "longitudeE7": -797239078,
+        "placeId": "ChIJJ4438DM-NYgRocN8fhNHEI4",
+        "address": "58 E Fayette St, Uniontown, PA 15401, USA",
+        "name": "Mahoney\u0027s Bar \u0026 Grill",
+        "locationConfidence": 7.1982617
+      }, {
+        "latitudeE7": 398977890,
+        "longitudeE7": -797250575,
+        "placeId": "ChIJrb712TM-NYgRQIgMxnfu6WY",
+        "address": "26 E Fayette St, Uniontown, PA 15401, USA",
+        "name": "Fox\u0027s Pizza, Subs \u0026 More",
+        "locationConfidence": 5.299304
+      }, {
+        "latitudeE7": 398977890,
+        "longitudeE7": -797250575,
+        "placeId": "ChIJrb712TM-NYgRe8Ax8YMPNWE",
+        "address": "26 E Fayette St, Uniontown, PA 15401, USA",
+        "name": "Green Valley Art Glass",
+        "locationConfidence": 2.5828114
+      }, {
+        "latitudeE7": 398999035,
+        "longitudeE7": -797248137,
+        "placeId": "ChIJwayBFjE-NYgRkS4QxrbMyag",
+        "address": "8 E Church St, Uniontown, PA 15401, USA",
+        "name": "Herald Standard",
+        "locationConfidence": 2.0979395
+      }, {
+        "latitudeE7": 398982805,
+        "longitudeE7": -797238017,
+        "placeId": "ChIJTy8N8zE-NYgRzic4o7dc0gA",
+        "address": "47 E Fayette St, Uniontown, PA 15401, USA",
+        "name": "US Post Office",
+        "locationConfidence": 1.7105991
+      }, {
+        "latitudeE7": 398969354,
+        "longitudeE7": -797268733,
+        "placeId": "ChIJPy92RjI-NYgRf9jXLlgpgT8",
+        "address": "140 Beeson Ave, Uniontown, PA 15401, USA",
+        "name": "Unemployment Compensation Tax",
+        "locationConfidence": 1.4430233
+      }, {
+        "latitudeE7": 398963961,
+        "longitudeE7": -797272152,
+        "placeId": "ChIJN8mFXTI-NYgRaf0N4daSHQ4",
+        "address": "164 Beeson Ave, Uniontown, PA 15401, USA",
+        "name": "Lanzi Academy of Dance Inc",
+        "locationConfidence": 1.4115763
+      }, {
+        "latitudeE7": 398970458,
+        "longitudeE7": -797221568,
+        "placeId": "ChIJf6__EzQ-NYgR0IvAZfCcMGo",
+        "address": "80 E Fayette St, Uniontown, PA 15401, USA",
+        "name": "Coral Reef Tropicals",
+        "locationConfidence": 1.2261051
+      }, {
+        "latitudeE7": 398975471,
+        "longitudeE7": -797239078,
+        "placeId": "ChIJJ4438DM-NYgRjxJZQMIIREQ",
+        "address": "58 E Fayette St, Uniontown, PA 15401, USA",
+        "name": "Brass Rail",
+        "locationConfidence": 1.0757989
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 53,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398991339,
+        "longitudeE7": -797252490,
+        "placeId": "ChIJ5b3XbzE-NYgRqufo3CdlI2E",
+        "address": "61 South Beeson Boulevard, Uniontown, Pennsylvania 15401, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 56.7723
+      },
+      "endLocation": {
+        "latitudeE7": 398914877,
+        "longitudeE7": -797295230
+      },
+      "duration": {
+        "startTimestamp": "2015-08-09T01:55:13.892Z",
+        "endTimestamp": "2015-08-09T03:07:59.025Z"
+      },
+      "distance": 841,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398980064,
+          "lngE7": -797246475
+        }, {
+          "latE7": 398915405,
+          "lngE7": -797295074
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1033.4813701052635,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398914877,
+        "longitudeE7": -797295230
+      },
+      "endLocation": {
+        "latitudeE7": 398882830,
+        "longitudeE7": -797218615
+      },
+      "duration": {
+        "startTimestamp": "2015-08-09T03:07:59.025Z",
+        "endTimestamp": "2015-08-09T05:11:23.371Z"
+      },
+      "distance": 1170,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398915405,
+          "lngE7": -797295074
+        }, {
+          "latE7": 398882827,
+          "lngE7": -797219161
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 910.8074694202487,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2015-08-11T01:23:20.363Z",
+        "endTimestamp": "2015-08-11T01:52:04.374Z"
+      },
+      "distance": 20261,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 400265655,
+          "lngE7": -798761596
+        }, {
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 23480.73525675824,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }]
+}

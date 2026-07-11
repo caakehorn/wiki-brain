@@ -1,0 +1,4273 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712644,
+        "longitudeE7": -739557056,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 90.405045,
+        "calibratedProbability": 82.12506
+      },
+      "duration": {
+        "startTimestamp": "2019-12-01T23:57:09.286Z",
+        "endTimestamp": "2019-12-08T02:47:08.012Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407712300,
+      "centerLngE7": -739558633,
+      "visitConfidence": 96,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 5.332855,
+        "calibratedProbability": 4.8444314
+      }, {
+        "latitudeE7": 407712093,
+        "longitudeE7": -739563581,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 2.1837993,
+        "calibratedProbability": 1.9837902
+      }, {
+        "latitudeE7": 407715874,
+        "longitudeE7": -739560557,
+        "placeId": "ChIJZ_Xreb9YwokRkXcKcSWi8-k",
+        "address": "1462 2nd Ave, Between 76th and, E 77th St, New York, NY 10075, USA",
+        "name": "The Meatball Shop - Upper East Side",
+        "locationConfidence": 0.41004384,
+        "calibratedProbability": 0.3724889
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.3727044,
+        "calibratedProbability": 0.33856925
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 76,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407707230,
+        "longitudeE7": -739570108
+      },
+      "endLocation": {
+        "latitudeE7": 407691768,
+        "longitudeE7": -739581691
+      },
+      "duration": {
+        "startTimestamp": "2019-12-08T02:47:08.012Z",
+        "endTimestamp": "2019-12-08T02:49:22.234Z"
+      },
+      "distance": 197,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 83.44741463661194
+      }, {
+        "activityType": "STILL",
+        "probability": 8.768276870250702
+      }, {
+        "activityType": "CYCLING",
+        "probability": 2.831067703664303
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407707290,
+          "lngE7": -739570236
+        }, {
+          "latE7": 407701110,
+          "lngE7": -739574737
+        }, {
+          "latE7": 407691726,
+          "lngE7": -739581604
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJQxhPaMBYwokRF4jd4Exn4h0",
+          "duration": "26s"
+        }, {
+          "placeId": "ChIJxStcQcBYwokR-exIczUAb-4",
+          "duration": "26s"
+        }, {
+          "placeId": "ChIJ47gXSMBYwokRBwD-NXlL42I",
+          "duration": "26s"
+        }, {
+          "placeId": "ChIJqZJWNMBYwokRUWhbvIC2lUQ",
+          "duration": "26s"
+        }],
+        "distanceMeters": 197.72076076396067,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407707230,
+          "lngE7": -739570108,
+          "accuracyMeters": 21,
+          "timestamp": "2019-12-08T02:47:08.012Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407689423,
+        "longitudeE7": -739579667,
+        "placeId": "ChIJH_1qNcBYwokRWu7v4rcDpW8",
+        "address": "1396 2nd Ave, New York, NY 10021, USA",
+        "name": "CVS",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 45.212658,
+        "calibratedProbability": 29.41886
+      },
+      "duration": {
+        "startTimestamp": "2019-12-08T02:49:22.234Z",
+        "endTimestamp": "2019-12-08T02:58:50.813Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 407696250,
+      "centerLngE7": -739579050,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407699636,
+        "longitudeE7": -739579134,
+        "placeId": "ChIJBzlBQMBYwokRdxPvnfQzpdU",
+        "address": "74th And 2nd, 1411 2nd Ave 1st floor, New York, NY 10021, USA",
+        "name": "Smoke Zone N Vape Smoke Shop",
+        "locationConfidence": 27.928932,
+        "calibratedProbability": 18.172728
+      }, {
+        "latitudeE7": 407686869,
+        "longitudeE7": -739584429,
+        "placeId": "ChIJT3CZzMFYwokRiRpq9Un_B2M",
+        "address": "2nd Ave, New York, NY 10021, USA",
+        "name": "72 St",
+        "locationConfidence": 10.9011965,
+        "calibratedProbability": 7.0931635
+      }, {
+        "latitudeE7": 407712517,
+        "longitudeE7": -739558487,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 6.6299233,
+        "calibratedProbability": 4.313942
+      }, {
+        "latitudeE7": 407698030,
+        "longitudeE7": -739579280,
+        "placeId": "ChIJ68H4QMBYwokR42l6M4OIUCM",
+        "address": "1407 2nd avenue , between 73rd st \u0026, E 74th St, New York, NY 10021, USA",
+        "name": "Persepolis",
+        "locationConfidence": 2.027681,
+        "calibratedProbability": 1.3193666
+      }, {
+        "latitudeE7": 407699510,
+        "longitudeE7": -739578638,
+        "placeId": "ChIJfQ5BQMBYwokR7CxrwWOFFjw",
+        "address": "1411 2nd Ave, New York, NY 10021, USA",
+        "name": "Up Thai",
+        "locationConfidence": 1.5937686,
+        "calibratedProbability": 1.0370294
+      }, {
+        "latitudeE7": 407693264,
+        "longitudeE7": -739577738,
+        "placeId": "ChIJV1VTPcBYwokRkMJqQfg8jdE",
+        "address": "1402 2nd Ave, New York, NY 10021, USA",
+        "name": "La Esquina",
+        "locationConfidence": 1.4637775,
+        "calibratedProbability": 0.9524472
+      }, {
+        "latitudeE7": 407696608,
+        "longitudeE7": -739573855,
+        "placeId": "ChIJ0cmWNsBYwokRS4dJF1faU4I",
+        "address": "1408 2nd Ave, New York, NY 10021, USA",
+        "name": "Big Apple Wine \u0026 Spirits",
+        "locationConfidence": 1.1813931,
+        "calibratedProbability": 0.76870596
+      }, {
+        "latitudeE7": 407694240,
+        "longitudeE7": -739581560,
+        "placeId": "ChIJ90r0N8BYwokRT_Pu0DkD8Hk",
+        "address": "1399 2nd Ave, New York, NY 10021, USA",
+        "name": "Little Vincent\u0027s Pizza",
+        "locationConfidence": 0.9187451,
+        "calibratedProbability": 0.5978068
+      }, {
+        "latitudeE7": 407696987,
+        "longitudeE7": -739580666,
+        "placeId": "ChIJw9uiOMBYwokR7zqSs85PFUs",
+        "address": "1403 2nd Ave, New York, NY 10021, USA",
+        "name": "Sushi Gama",
+        "locationConfidence": 0.5868007,
+        "calibratedProbability": 0.38181803
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 37,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407700847,
+        "longitudeE7": -739576536
+      },
+      "endLocation": {
+        "latitudeE7": 407714067,
+        "longitudeE7": -739563366
+      },
+      "duration": {
+        "startTimestamp": "2019-12-08T02:58:50.813Z",
+        "endTimestamp": "2019-12-08T03:00:51.216Z"
+      },
+      "distance": 184,
+      "activityType": "WALKING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 67.09693670272827
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 10.6745146214962
+      }, {
+        "activityType": "CYCLING",
+        "probability": 9.679057449102402
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407700309,
+          "lngE7": -739575347
+        }, {
+          "latE7": 407701110,
+          "lngE7": -739574737
+        }, {
+          "latE7": 407713813,
+          "lngE7": -739563598
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJxStcQcBYwokR-exIczUAb-4",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJQxhPaMBYwokRF4jd4Exn4h0",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJv90unsBYwokRTGErubJys-Y",
+          "duration": "15s"
+        }],
+        "distanceMeters": 193.77186449621402,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407700847,
+          "lngE7": -739576536,
+          "accuracyMeters": 25,
+          "timestamp": "2019-12-08T02:58:50.813Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712644,
+        "longitudeE7": -739557056,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 91.27383,
+        "calibratedProbability": 81.17236
+      },
+      "duration": {
+        "startTimestamp": "2019-12-08T03:00:51.216Z",
+        "endTimestamp": "2019-12-09T21:22:15.516Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407713100,
+      "centerLngE7": -739560950,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407712093,
+        "longitudeE7": -739563581,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 5.881472,
+        "calibratedProbability": 5.2305574
+      }, {
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 1.0273911,
+        "calibratedProbability": 0.9136876
+      }, {
+        "latitudeE7": 407711292,
+        "longitudeE7": -739563140,
+        "placeId": "ChIJx40Yfr9YwokRAipeh3042ds",
+        "address": "1452 2nd Ave, New York, NY 10021, USA",
+        "name": "Iggy\u0027s",
+        "locationConfidence": 0.48420405,
+        "calibratedProbability": 0.4306162
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.44397637,
+        "calibratedProbability": 0.3948406
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 77,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407711525,
+        "longitudeE7": -739559364
+      },
+      "endLocation": {
+        "latitudeE7": 407790206,
+        "longitudeE7": -739543617
+      },
+      "duration": {
+        "startTimestamp": "2019-12-09T21:22:15.516Z",
+        "endTimestamp": "2019-12-09T21:31:03.624Z"
+      },
+      "distance": 1027,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 94.30075883865356
+      }, {
+        "activityType": "STILL",
+        "probability": 4.131044074892998
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.0154222138226032
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407711906,
+          "lngE7": -739559020
+        }, {
+          "latE7": 407714653,
+          "lngE7": -739563827
+        }, {
+          "latE7": 407733535,
+          "lngE7": -739550018
+        }, {
+          "latE7": 407766914,
+          "lngE7": -739525833
+        }, {
+          "latE7": 407790222,
+          "lngE7": -739543609
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJv90unsBYwokRTGErubJys-Y",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJl1wceb9YwokRFKb_J5WVOCA",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJLzBbd79YwokRBRpmG5UBMwc",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJJRaFEr9YwokRWS86l335h8M",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJxTGuEL9YwokRGmbJHW-1By8",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJ8zA7H79YwokRovb-v9atT3M",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJ8zA7H79YwokRptRE2FD3ZEs",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJb69S3r5YwokR3ZlaUw3pIbk",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJ68dg275YwokR7x24U6bYsyo",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJKZS3xb5YwokR6f5CtZ711pM",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJZSEYyL5YwokRuGtRX32kG3U",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJZSEYyL5YwokRyJKosFuglw0",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJE-lusr5YwokRhxcsZe33XHQ",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJBewt_rtYwokRhreOhXwTPYE",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJBewt_rtYwokRtwmPdu_8ENE",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJ2f068LtYwokR2eD8GEhmUfQ",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJJ0h3lLtYwokRNeUwOeL2Ww0",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJJ0h3lLtYwokRcbRvLXS_904",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJS7oportYwokRKDx6PcPy8PE",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJ47uzdrtYwokRgP6UErLuO2Y",
+          "duration": "43s"
+        }, {
+          "placeId": "ChIJxQCugrxYwokRFjWxdmRJm2c",
+          "duration": "43s"
+        }],
+        "distanceMeters": 1130.6387403325032,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407711525,
+          "lngE7": -739559364,
+          "accuracyMeters": 61,
+          "timestamp": "2019-12-09T21:22:15.516Z"
+        }, {
+          "latE7": 407731840,
+          "lngE7": -739550768,
+          "accuracyMeters": 78,
+          "timestamp": "2019-12-09T21:23:04.607Z"
+        }, {
+          "latE7": 407773953,
+          "lngE7": -739521347,
+          "accuracyMeters": 14,
+          "timestamp": "2019-12-09T21:29:03.490Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407790673,
+        "longitudeE7": -739540821,
+        "placeId": "ChIJncNdzo5fwokR0uIie_AdVrk",
+        "address": "1535 3rd Ave, New York, NY 10028, USA",
+        "name": "Papaya King",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 67.16975,
+        "calibratedProbability": 56.771126
+      },
+      "duration": {
+        "startTimestamp": "2019-12-09T21:31:03.624Z",
+        "endTimestamp": "2019-12-09T22:09:13.297Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 407789100,
+      "centerLngE7": -739543900,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407789293,
+        "longitudeE7": -739550067,
+        "placeId": "ChIJE1mdlLxYwokRhrdJXmG9Y_8",
+        "address": "154 East 86th St, New York, NY 10028, USA",
+        "name": "Shake Shack Upper East Side",
+        "locationConfidence": 10.45061,
+        "calibratedProbability": 8.83274
+      }, {
+        "latitudeE7": 407784896,
+        "longitudeE7": -739548914,
+        "placeId": "ChIJZ9kNirxYwokRhs30PBYZyoI",
+        "address": "185 E 85th St, New York, NY 10028, USA",
+        "name": "Park Lane Towers",
+        "locationConfidence": 8.959794,
+        "calibratedProbability": 7.572719
+      }, {
+        "latitudeE7": 407777328,
+        "longitudeE7": -739522781,
+        "placeId": "ChIJQ75KlYlYwokRN76w58GDi00",
+        "address": "240 East 86th St, New York, NY 10028, USA",
+        "name": "Fairway Market 86th Street",
+        "locationConfidence": 4.8248615,
+        "calibratedProbability": 4.0779195
+      }, {
+        "latitudeE7": 407793582,
+        "longitudeE7": -739539651,
+        "placeId": "ChIJt4u3PrxYwokRqlGx98inwIU",
+        "address": "1538 Third Ave, East 86th St, New York, NY 10028, USA",
+        "name": "AMC Orpheum 7",
+        "locationConfidence": 2.7372472,
+        "calibratedProbability": 2.313491
+      }, {
+        "latitudeE7": 407790872,
+        "longitudeE7": -739551706,
+        "placeId": "ChIJlefm6bxYwokRpye4KuetyN4",
+        "address": "150 East 86th St, New York, NY 10028, USA",
+        "name": "Barnes \u0026 Noble",
+        "locationConfidence": 1.8128396,
+        "calibratedProbability": 1.532192
+      }, {
+        "latitudeE7": 407792574,
+        "longitudeE7": -739540640,
+        "placeId": "ChIJcdD7YIxZwokRP-0PIAQj3cU",
+        "address": "1536 3rd Ave, New York, NY 10028, USA",
+        "name": "Chick-fil-A",
+        "locationConfidence": 1.2777165,
+        "calibratedProbability": 1.0799118
+      }, {
+        "latitudeE7": 407794910,
+        "longitudeE7": -739555890,
+        "placeId": "ChIJQYS66bxYwokRbNAEGzGNlAQ",
+        "address": "New York, NY 10028, USA",
+        "name": "86 St",
+        "locationConfidence": 0.68193275,
+        "calibratedProbability": 0.576362
+      }, {
+        "latitudeE7": 407794345,
+        "longitudeE7": -739547545,
+        "placeId": "ChIJf0n1k7xYwokR6SvWqiDdCDw",
+        "address": "159 East 86th St, New York, NY 10028, USA",
+        "name": "Foot Locker",
+        "locationConfidence": 0.62254643,
+        "calibratedProbability": 0.52616936
+      }, {
+        "latitudeE7": 407791584,
+        "longitudeE7": -739539614,
+        "placeId": "ChIJWX_PnrxYwokRXkKf9JcYVXU",
+        "address": "1534 3rd Ave, New York, NY 10128, USA",
+        "name": "Churutto",
+        "locationConfidence": 0.5602457,
+        "calibratedProbability": 0.47351345
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 54,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407785505,
+        "longitudeE7": -739539504
+      },
+      "endLocation": {
+        "latitudeE7": 407712154,
+        "longitudeE7": -739558652
+      },
+      "duration": {
+        "startTimestamp": "2019-12-09T22:09:13.297Z",
+        "endTimestamp": "2019-12-09T22:33:28.486Z"
+      },
+      "distance": 989,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 90.31547904014587
+      }, {
+        "activityType": "STILL",
+        "probability": 7.546719908714294
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.5472677536308765
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407786102,
+          "lngE7": -739540939
+        }, {
+          "latE7": 407778053,
+          "lngE7": -739546737
+        }, {
+          "latE7": 407711830,
+          "lngE7": -739558868
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ5Yu0hbxYwokRR67Xn5Q-7q0",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJzR4ZiLxYwokRreKBeJyj-VA",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJt40nZLxYwokRT8GsCwTZhCc",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJVQQ4QLxYwokRXGU_AqoYF2g",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJu8PXOrxYwokRmSVmI_ZT0yI",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJu8PXOrxYwokRuEWwpvexVE4",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJK3zdh75YwokR2nGQyoOopUU",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJc_h8Yr5YwokRCtU8Q5FuNXo",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJ3fBuYr5YwokRNByfBlw2sRA",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJKZSbYb5YwokRZNCMa6PBAo8",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJkeo7TL5YwokRidCV9HQcSUM",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJXf8pyL9YwokRuZc1Uw8jxg0",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJxw0djr9YwokRloo5MaEWL_4",
+          "duration": "181s"
+        }, {
+          "placeId": "ChIJv90unsBYwokRTGErubJys-Y",
+          "duration": "181s"
+        }],
+        "distanceMeters": 1061.3297727238805,
+        "travelMode": "WALK",
+        "confidence": 0.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407785505,
+          "lngE7": -739539504,
+          "accuracyMeters": 37,
+          "timestamp": "2019-12-09T22:09:13.297Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712644,
+        "longitudeE7": -739557056,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 98.27093,
+        "calibratedProbability": 85.63406
+      },
+      "duration": {
+        "startTimestamp": "2019-12-09T22:33:28.486Z",
+        "endTimestamp": "2019-12-10T17:09:35.105Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407712318,
+      "centerLngE7": -739558109,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 1.1492038,
+        "calibratedProbability": 1.0014254
+      }, {
+        "latitudeE7": 407712093,
+        "longitudeE7": -739563581,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.25195575,
+        "calibratedProbability": 0.21955624
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.11570255,
+        "calibratedProbability": 0.100824125
+      }, {
+        "latitudeE7": 407711571,
+        "longitudeE7": -739564340,
+        "placeId": "ChIJRY7bf79YwokR16QASZ9mYqs",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.04821845,
+        "calibratedProbability": 0.042017944
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 86,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 410287379,
+        "longitudeE7": -737546518,
+        "placeId": "ChIJWwL0jcNYwokRVCXGXtBSsgU",
+        "address": "525 E 68th St, New York, NY 10065, USA",
+        "name": "NewYork-Presbyterian Westchester Division",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 92.623985,
+        "calibratedProbability": 72.53031,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-12-10T17:09:35.105Z",
+        "endTimestamp": "2019-12-10T17:15:45.825Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 407643482,
+          "longitudeE7": -739542314,
+          "placeId": "ChIJ9U11jsNYwokRobbC1VoqVOQ",
+          "address": "525 E 68th St suite j-130, New York, NY 10065, USA",
+          "name": "Cornell Hospital",
+          "sourceInfo": {
+            "deviceTag": 1300737410
+          },
+          "locationConfidence": 34.931572,
+          "calibratedProbability": 34.44088,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2019-12-10T17:09:35.105Z",
+          "endTimestamp": "2019-12-10T17:15:45.825Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 407644500,
+        "centerLngE7": -739548100,
+        "visitConfidence": 87,
+        "otherCandidateLocations": [{
+          "latitudeE7": 407648104,
+          "longitudeE7": -739550078,
+          "placeId": "ChIJ12bCjMNYwokRTeV3ADvL0Ew",
+          "address": "1300 York Ave, New York, NY 10065, USA",
+          "name": "Weill Cornell Medicine",
+          "locationConfidence": 11.617306,
+          "calibratedProbability": 11.454115,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 407644945,
+          "longitudeE7": -739546207,
+          "placeId": "ChIJVyTcqsZYwokR8gIWBNyqhTs",
+          "address": "525 E 68th St Suite F01-170, New York, NY 10065, USA",
+          "name": "Walgreens at New York Presbyterian Hospital",
+          "locationConfidence": 10.1641035,
+          "calibratedProbability": 10.021326,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 407646499,
+          "longitudeE7": -739543198,
+          "placeId": "ChIJWwL0jcNYwokRVCXGXtBSsgU",
+          "address": "525 E 68th St, New York, NY 10065, USA",
+          "name": "NewYork-Presbyterian / Weill Cornell Medical Center",
+          "locationConfidence": 6.9115157,
+          "calibratedProbability": 6.8144283,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 407648024,
+          "longitudeE7": -739549804,
+          "placeId": "ChIJQznV18NYwokRapoKB8ZaY5Q",
+          "address": "1300 York Ave, New York, NY 10065, USA",
+          "name": "The Cornell Store at Weill Cornell Medicine",
+          "locationConfidence": 3.640511,
+          "calibratedProbability": 3.589372,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 407643316,
+          "longitudeE7": -739542559,
+          "placeId": "ChIJvXxyWMFYwokRUT2rlVHbCSg",
+          "address": "525 E 68th St, New York, NY 10065, USA",
+          "name": "Weill Cornell Medicine Hematology and Oncology",
+          "locationConfidence": 3.4853761,
+          "calibratedProbability": 3.4364161,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 407643558,
+          "longitudeE7": -739544852,
+          "placeId": "ChIJ0ZdWvMNYwokRlp1yKfaRjCY",
+          "address": "525 E 68th St, New York, NY 10065, USA",
+          "name": "Au Bon Pain",
+          "locationConfidence": 2.7748356,
+          "calibratedProbability": 2.7358568,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 407642850,
+          "longitudeE7": -739542580,
+          "placeId": "ChIJu7sYmMNYwokR4KHNy_TUG7s",
+          "address": "525 E 68th St #130, New York, NY 10065, USA",
+          "name": "Ny Presbyterian Hospital-Cornell: Francescone Steven A MD",
+          "locationConfidence": 2.4231484,
+          "calibratedProbability": 2.3891098,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 407642628,
+          "longitudeE7": -739552964,
+          "placeId": "ChIJu7sYmMNYwokRt3dYKrx9CZw",
+          "address": "525 E 68th St, New York, NY 10065, USA",
+          "name": "New York Presbyterian Hospital Hem",
+          "locationConfidence": 1.7832586,
+          "calibratedProbability": 1.7582088,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 407643535,
+          "longitudeE7": -739551627,
+          "placeId": "ChIJu7sYmMNYwokRjHmIEvvnTIg",
+          "locationConfidence": 1.6799473,
+          "calibratedProbability": 1.6563487,
+          "isCurrentLocation": true
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 28,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 407644500,
+      "centerLngE7": -739548100,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407643558,
+        "longitudeE7": -739544852,
+        "placeId": "ChIJ0ZdWvMNYwokRlp1yKfaRjCY",
+        "address": "525 E 68th St, New York, NY 10065, USA",
+        "name": "Au Bon Pain",
+        "locationConfidence": 6.8178444,
+        "calibratedProbability": 5.338794,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 407648120,
+        "longitudeE7": -739551620,
+        "placeId": "ChIJBZoYwMNYwokRTLFZQnFpDwg",
+        "address": "New York, NY 10065, USA",
+        "name": "York Av/E 69 St",
+        "locationConfidence": 0.50509244,
+        "calibratedProbability": 0.39551863,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 407642383,
+        "longitudeE7": -739552259,
+        "placeId": "ChIJ32UFvcNYwokRjcsEHsxOuGM",
+        "address": "501 E 68th St, New York, NY 10065, USA",
+        "locationConfidence": 0.02222108,
+        "calibratedProbability": 0.01740048,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 407640457,
+        "longitudeE7": -739550852,
+        "placeId": "ChIJV_-hhsNYwokR8aI3qCFI49k",
+        "address": "541 E 68th St, New York, NY 10065, USA",
+        "locationConfidence": 0.017922714,
+        "calibratedProbability": 0.014034594
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 78,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407644553,
+        "longitudeE7": -739548160
+      },
+      "endLocation": {
+        "latitudeE7": 407712837,
+        "longitudeE7": -739557480
+      },
+      "duration": {
+        "startTimestamp": "2019-12-10T17:15:45.825Z",
+        "endTimestamp": "2019-12-10T17:18:05.330Z"
+      },
+      "distance": 769,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 35.06079018115997
+      }, {
+        "activityType": "CYCLING",
+        "probability": 27.701011300086975
+      }, {
+        "activityType": "WALKING",
+        "probability": 24.161221086978912
+      }],
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 407711663,
+          "longitudeE7": -739558576,
+          "accuracyMetres": 111
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-12-10T17:22:52.065Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712644,
+        "longitudeE7": -739557056,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 97.02785,
+        "calibratedProbability": 75.73417
+      },
+      "duration": {
+        "startTimestamp": "2019-12-10T17:18:05.330Z",
+        "endTimestamp": "2019-12-11T16:22:20.664Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407712100,
+      "centerLngE7": -739558333,
+      "visitConfidence": 84,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 2.213389,
+        "calibratedProbability": 1.7276398
+      }, {
+        "latitudeE7": 407712093,
+        "longitudeE7": -739563581,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.30531833,
+        "calibratedProbability": 0.23831333
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.09147041,
+        "calibratedProbability": 0.071396366
+      }, {
+        "latitudeE7": 407711571,
+        "longitudeE7": -739564340,
+        "placeId": "ChIJRY7bf79YwokR16QASZ9mYqs",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.059461985,
+        "calibratedProbability": 0.04641249
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 84,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407721150,
+        "longitudeE7": -739559477
+      },
+      "endLocation": {
+        "latitudeE7": 407712364,
+        "longitudeE7": -739558380
+      },
+      "duration": {
+        "startTimestamp": "2019-12-11T16:22:20.664Z",
+        "endTimestamp": "2019-12-11T21:52:55.661Z"
+      },
+      "distance": 439,
+      "activityType": "WALKING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 52.08925008773804
+      }, {
+        "activityType": "STILL",
+        "probability": 45.14249265193939
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.0890145786106586
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407711372,
+          "lngE7": -739566192
+        }, {
+          "latE7": 407713050,
+          "lngE7": -739561767
+        }, {
+          "latE7": 407711791,
+          "lngE7": -739558792
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJv90unsBYwokRTGErubJys-Y",
+          "duration": "12907s"
+        }],
+        "distanceMeters": 87.22283736588992,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407713249,
+          "lngE7": -739557169,
+          "accuracyMeters": 65,
+          "timestamp": "2019-12-11T16:38:50.047Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712644,
+        "longitudeE7": -739557056,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 98.13353,
+        "calibratedProbability": 85.45104
+      },
+      "duration": {
+        "startTimestamp": "2019-12-11T21:52:55.661Z",
+        "endTimestamp": "2019-12-13T19:07:33.743Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407712000,
+      "centerLngE7": -739558438,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 1.212674,
+        "calibratedProbability": 1.0559516
+      }, {
+        "latitudeE7": 407712093,
+        "longitudeE7": -739563581,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.28091303,
+        "calibratedProbability": 0.24460864
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.12360419,
+        "calibratedProbability": 0.10762995
+      }, {
+        "latitudeE7": 407711571,
+        "longitudeE7": -739564340,
+        "placeId": "ChIJRY7bf79YwokR16QASZ9mYqs",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.05125495,
+        "calibratedProbability": 0.044630907
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 85,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407724765,
+        "longitudeE7": -739556737
+      },
+      "endLocation": {
+        "latitudeE7": 407735594,
+        "longitudeE7": -739549522
+      },
+      "duration": {
+        "startTimestamp": "2019-12-13T19:07:33.743Z",
+        "endTimestamp": "2019-12-13T19:08:12.563Z"
+      },
+      "distance": 134,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 91.53667688369751
+      }, {
+        "activityType": "STILL",
+        "probability": 7.242726534605026
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.8564908057451248
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407724647,
+          "lngE7": -739556427
+        }, {
+          "latE7": 407727432,
+          "lngE7": -739554443
+        }, {
+          "latE7": 407735633,
+          "lngE7": -739549560
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJJRaFEr9YwokRWS86l335h8M",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJxTGuEL9YwokRGmbJHW-1By8",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJ8zA7H79YwokRovb-v9atT3M",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJ8zA7H79YwokRptRE2FD3ZEs",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJb69S3r5YwokR3JlaUw3pIbk",
+          "duration": "7s"
+        }],
+        "distanceMeters": 142.91563529034804,
+        "travelMode": "WALK",
+        "confidence": 0.308215869878708
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407724765,
+          "lngE7": -739556737,
+          "accuracyMeters": 24,
+          "timestamp": "2019-12-13T19:07:33.743Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407739440,
+        "longitudeE7": -739549466,
+        "placeId": "ChIJ-4n8wr5YwokR2RhPgHmIGsc",
+        "address": "1535 2nd Ave, New York, NY 10075, USA",
+        "name": "Rite Aid",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 80.48608,
+        "calibratedProbability": 45.050964
+      },
+      "duration": {
+        "startTimestamp": "2019-12-13T19:08:12.563Z",
+        "endTimestamp": "2019-12-13T19:20:31.388Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 407738625,
+      "centerLngE7": -739548550,
+      "visitConfidence": 69,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407737607,
+        "longitudeE7": -739543822,
+        "placeId": "ChIJhXMX3L5YwokRMt7Qbe5AWLg",
+        "address": "1534 2nd Ave, New York, NY 10021, USA",
+        "name": "Lester\u0027s",
+        "locationConfidence": 8.057846,
+        "calibratedProbability": 4.5102677
+      }, {
+        "latitudeE7": 407777328,
+        "longitudeE7": -739522781,
+        "placeId": "ChIJQ75KlYlYwokRN76w58GDi00",
+        "address": "240 East 86th St, New York, NY 10028, USA",
+        "name": "Fairway Market 86th Street",
+        "locationConfidence": 4.1486354,
+        "calibratedProbability": 2.3221412
+      }, {
+        "latitudeE7": 407734638,
+        "longitudeE7": -739546150,
+        "placeId": "ChIJgbyS58FYwokRUcJRGDR8tPk",
+        "address": "1524 2nd Ave, New York, NY 10075, USA",
+        "name": "Duane Reade",
+        "locationConfidence": 3.4455016,
+        "calibratedProbability": 1.9285718
+      }, {
+        "latitudeE7": 407741850,
+        "longitudeE7": -739546700,
+        "placeId": "ChIJB1F_t75YwokRBrd_nLSTOKc",
+        "address": "245 E 80th St, New York, NY 10075, USA",
+        "name": "Starbucks",
+        "locationConfidence": 1.3101435,
+        "calibratedProbability": 0.73333466
+      }, {
+        "latitudeE7": 407744300,
+        "longitudeE7": -739545080,
+        "placeId": "ChIJ67CUx75YwokRv2WzmiltMsY",
+        "address": "1551 2nd Ave, New York, NY 10075, USA",
+        "name": "H\u0026H Bagels",
+        "locationConfidence": 1.0472752,
+        "calibratedProbability": 0.5861978
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 65,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407737399,
+        "longitudeE7": -739548819
+      },
+      "endLocation": {
+        "latitudeE7": 407772041,
+        "longitudeE7": -739522856
+      },
+      "duration": {
+        "startTimestamp": "2019-12-13T19:20:31.388Z",
+        "endTimestamp": "2019-12-13T19:24:25.082Z"
+      },
+      "distance": 443,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 80.14425039291382
+      }, {
+        "activityType": "STILL",
+        "probability": 18.374836444854736
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.1742815375328064
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407737197,
+          "lngE7": -739548339
+        }, {
+          "latE7": 407762718,
+          "lngE7": -739529953
+        }, {
+          "latE7": 407772254,
+          "lngE7": -739523086
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ68dg275YwokR7h24U6bYsyo",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJKZS3xb5YwokR6P5CtZ711pM",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJZSEYyL5YwokRuWtRX32kG3U",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJZSEYyL5YwokRyZKosFuglw0",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJE-lusr5YwokRhhcsZe33XHQ",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJBewt_rtYwokRh7eOhXwTPYE",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJBewt_rtYwokRtgmPdu_8ENE",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJ2f068LtYwokR2OD8GEhmUfQ",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJJ0h3lLtYwokRNOUwOeL2Ww0",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJJ0h3lLtYwokRcLRvLXS_904",
+          "duration": "23s"
+        }],
+        "distanceMeters": 440.13772351008186,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407757584,
+          "lngE7": -739532306,
+          "accuracyMeters": 19,
+          "timestamp": "2019-12-13T19:22:10.024Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407777328,
+        "longitudeE7": -739522781,
+        "placeId": "ChIJQ75KlYlYwokRN76w58GDi00",
+        "address": "240 E 86th St, New York, 10028, United States",
+        "name": "Fairway Market 86th Street",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 90.24283,
+        "calibratedProbability": 66.23715
+      },
+      "duration": {
+        "startTimestamp": "2019-12-13T19:24:25.082Z",
+        "endTimestamp": "2019-12-13T20:08:07.299Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 407774650,
+      "centerLngE7": -739525575,
+      "visitConfidence": 80,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407790673,
+        "longitudeE7": -739540821,
+        "placeId": "ChIJncNdzo5fwokR0uIie_AdVrk",
+        "address": "1535 3rd Ave, New York, NY 10028, USA",
+        "name": "Papaya King",
+        "locationConfidence": 2.1846843,
+        "calibratedProbability": 1.6035321
+      }, {
+        "latitudeE7": 407774680,
+        "longitudeE7": -739523994,
+        "placeId": "ChIJAecOmbtYwokROI76lqrPiZo",
+        "address": "1643 2nd Ave, New York, NY 10028, USA",
+        "name": "China Jade Szechuan Chili House",
+        "locationConfidence": 1.7910285,
+        "calibratedProbability": 1.3145934
+      }, {
+        "latitudeE7": 407775950,
+        "longitudeE7": -739522730,
+        "placeId": "ChIJ2ZKtmLtYwokRY78AjUFJ1oM",
+        "address": "1647 2nd Ave, New York, NY 10028, USA",
+        "name": "The Supply House",
+        "locationConfidence": 1.2874166,
+        "calibratedProbability": 0.9449483
+      }, {
+        "latitudeE7": 407776628,
+        "longitudeE7": -739530104,
+        "placeId": "ChIJZdmCnLtYwokRZ2B-YBNmmsU",
+        "address": "229 E 85th St, New York, NY 10028, USA",
+        "name": "United States Postal Service",
+        "locationConfidence": 0.8803186,
+        "calibratedProbability": 0.64614326
+      }, {
+        "latitudeE7": 407769760,
+        "longitudeE7": -739527980,
+        "placeId": "ChIJz010KndZwokRZWzV4lCaqIE",
+        "address": "1625 2nd Ave, New York, NY 10028, USA",
+        "name": "Van Leeuwen Ice Cream",
+        "locationConfidence": 0.5932679,
+        "calibratedProbability": 0.43545154
+      }, {
+        "latitudeE7": 407771339,
+        "longitudeE7": -739526158,
+        "placeId": "ChIJ__8bkbtYwokRfaucoPPUa4o",
+        "address": "1631 2nd Ave, New York, NY 10028, USA",
+        "name": "PQR",
+        "locationConfidence": 0.50586635,
+        "calibratedProbability": 0.37129983
+      }, {
+        "latitudeE7": 407772273,
+        "longitudeE7": -739519475,
+        "placeId": "ChIJXZK1vLtYwokRQYgox_larIY",
+        "address": "1640 2nd Ave, New York, NY 10028, USA",
+        "name": "Five Mile Stone",
+        "locationConfidence": 0.47372234,
+        "calibratedProbability": 0.3477065
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 75,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407777458,
+        "longitudeE7": -739525592
+      },
+      "endLocation": {
+        "latitudeE7": 407714328,
+        "longitudeE7": -739559448
+      },
+      "duration": {
+        "startTimestamp": "2019-12-13T20:08:07.299Z",
+        "endTimestamp": "2019-12-13T20:13:55.844Z"
+      },
+      "distance": 760,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 95.5853521823883
+      }, {
+        "activityType": "STILL",
+        "probability": 3.3421631902456284
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.7761459797620773
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407766075,
+          "lngE7": -739529037
+        }, {
+          "latE7": 407762374,
+          "lngE7": -739529113
+        }, {
+          "latE7": 407712631,
+          "lngE7": -739560699
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ2f068LtYwokR2eD8GEhmUfQ",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJBewt_rtYwokRtwmPdu_8ENE",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJBewt_rtYwokRhreOhXwTPYE",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJE-lusr5YwokRhxcsZe33XHQ",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJZSEYyL5YwokRyJKosFuglw0",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJZSEYyL5YwokRuGtRX32kG3U",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJKZS3xb5YwokR6f5CtZ711pM",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJ68dg275YwokR7x24U6bYsyo",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJb69S3r5YwokR3ZlaUw3pIbk",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJ8zA7H79YwokRptRE2FD3ZEs",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJ8zA7H79YwokRovb-v9atT3M",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJxTGuEL9YwokRGmbJHW-1By8",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJJRaFEr9YwokRWS86l335h8M",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJLzBbd79YwokRBRpmG5UBMwc",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJl1wceb9YwokRFKb_J5WVOCA",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJv90unsBYwokRTGErubJys-Y",
+          "duration": "16s"
+        }],
+        "distanceMeters": 701.3534751666814,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407749866,
+          "lngE7": -739538710,
+          "accuracyMeters": 33,
+          "timestamp": "2019-12-13T20:10:11.966Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712644,
+        "longitudeE7": -739557056,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 94.86219,
+        "calibratedProbability": 74.26446
+      },
+      "duration": {
+        "startTimestamp": "2019-12-13T20:13:55.844Z",
+        "endTimestamp": "2019-12-16T23:36:30.365Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407712547,
+      "centerLngE7": -739558682,
+      "visitConfidence": 85,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 3.8565977,
+        "calibratedProbability": 3.0192025
+      }, {
+        "latitudeE7": 407712093,
+        "longitudeE7": -739563581,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.5937043,
+        "calibratedProbability": 0.4647914
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.18454334,
+        "calibratedProbability": 0.14447287
+      }, {
+        "latitudeE7": 407710359,
+        "longitudeE7": -739564936,
+        "placeId": "ChIJqQMTgMBYwokR7HZwBu8zGu4",
+        "address": "1450 2nd Ave, New York, NY 10021, USA",
+        "name": "Mel\u0027s Burger Bar",
+        "locationConfidence": 0.07823373,
+        "calibratedProbability": 0.06124659
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 81,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407713097,
+        "longitudeE7": -739557844
+      },
+      "endLocation": {
+        "latitudeE7": 407774366,
+        "longitudeE7": -739526982
+      },
+      "duration": {
+        "startTimestamp": "2019-12-16T23:36:30.365Z",
+        "endTimestamp": "2019-12-16T23:41:06.023Z"
+      },
+      "distance": 731,
+      "activityType": "WALKING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 55.768829584121704
+      }, {
+        "activityType": "CYCLING",
+        "probability": 39.070433378219604
+      }, {
+        "activityType": "STILL",
+        "probability": 2.0484857261180878
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407711791,
+          "lngE7": -739558792
+        }, {
+          "latE7": 407773361,
+          "lngE7": -739524688
+        }, {
+          "latE7": 407774353,
+          "lngE7": -739526977
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJv90unsBYwokRTGErubJys-Y",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJl1wceb9YwokRFKb_J5WVOCA",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJLzBbd79YwokRBRpmG5UBMwc",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJJRaFEr9YwokRWS86l335h8M",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJxTGuEL9YwokRGmbJHW-1By8",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJ8zA7H79YwokRovb-v9atT3M",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJ8zA7H79YwokRptRE2FD3ZEs",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJb69S3r5YwokR3ZlaUw3pIbk",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJ68dg275YwokR7x24U6bYsyo",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJKZS3xb5YwokR6f5CtZ711pM",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJZSEYyL5YwokRuGtRX32kG3U",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJZSEYyL5YwokRyJKosFuglw0",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJE-lusr5YwokRhxcsZe33XHQ",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJBewt_rtYwokRhreOhXwTPYE",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJBewt_rtYwokRtwmPdu_8ENE",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJ2f068LtYwokR2eD8GEhmUfQ",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJJ0h3lLtYwokRNeUwOeL2Ww0",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJJ0h3lLtYwokRcbRvLXS_904",
+          "duration": "13s"
+        }],
+        "distanceMeters": 837.385640413111,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407741794,
+          "lngE7": -739547222,
+          "accuracyMeters": 37,
+          "timestamp": "2019-12-16T23:38:40.369Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407777328,
+        "longitudeE7": -739522781,
+        "placeId": "ChIJQ75KlYlYwokRN76w58GDi00",
+        "address": "240 E 86th St, New York, 10028, United States",
+        "name": "Fairway Market 86th Street",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 91.150665,
+        "calibratedProbability": 47.242695
+      },
+      "duration": {
+        "startTimestamp": "2019-12-16T23:41:06.023Z",
+        "endTimestamp": "2019-12-16T23:47:21.716Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 407773925,
+      "centerLngE7": -739525575,
+      "visitConfidence": 60,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407778890,
+        "longitudeE7": -739517900,
+        "placeId": "ChIJP0weCrtYwokRj3S4SxhyJkk",
+        "address": "300-398 East 86th St, New York, NY 10028, USA",
+        "name": "86 St",
+        "locationConfidence": 2.6872778,
+        "calibratedProbability": 1.3927956
+      }, {
+        "latitudeE7": 407773907,
+        "longitudeE7": -739523978,
+        "placeId": "ChIJuwqXmbtYwokRmzxGZYo3Hws",
+        "address": "1641 2nd Ave, New York, NY 10028, USA",
+        "name": "The Daisy",
+        "locationConfidence": 1.4944538,
+        "calibratedProbability": 0.77456397
+      }, {
+        "latitudeE7": 407790673,
+        "longitudeE7": -739540821,
+        "placeId": "ChIJncNdzo5fwokR0uIie_AdVrk",
+        "address": "1535 3rd Ave, New York, NY 10028, USA",
+        "name": "Papaya King",
+        "locationConfidence": 1.0984503,
+        "calibratedProbability": 0.5693184
+      }, {
+        "latitudeE7": 407774680,
+        "longitudeE7": -739523994,
+        "placeId": "ChIJAecOmbtYwokROI76lqrPiZo",
+        "address": "1643 2nd Ave, New York, NY 10028, USA",
+        "name": "China Jade Szechuan Chili House",
+        "locationConfidence": 0.68167686,
+        "calibratedProbability": 0.3533079
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 76,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407790673,
+        "longitudeE7": -739540821,
+        "placeId": "ChIJncNdzo5fwokR0uIie_AdVrk",
+        "address": "1535 3rd Ave, New York, NY 10028, USA",
+        "name": "Papaya King",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 74.67631,
+        "calibratedProbability": 54.954845
+      },
+      "duration": {
+        "startTimestamp": "2019-12-16T23:47:21.716Z",
+        "endTimestamp": "2019-12-17T00:16:57.917Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 407790440,
+      "centerLngE7": -739544200,
+      "visitConfidence": 88,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407789293,
+        "longitudeE7": -739550067,
+        "placeId": "ChIJE1mdlLxYwokRhrdJXmG9Y_8",
+        "address": "154 East 86th St, New York, NY 10028, USA",
+        "name": "Shake Shack Upper East Side",
+        "locationConfidence": 7.130172,
+        "calibratedProbability": 5.247146
+      }, {
+        "latitudeE7": 407784896,
+        "longitudeE7": -739548914,
+        "placeId": "ChIJZ9kNirxYwokRhs30PBYZyoI",
+        "address": "185 E 85th St, New York, NY 10028, USA",
+        "name": "Park Lane Towers",
+        "locationConfidence": 4.161194,
+        "calibratedProbability": 3.0622532
+      }, {
+        "latitudeE7": 407777328,
+        "longitudeE7": -739522781,
+        "placeId": "ChIJQ75KlYlYwokRN76w58GDi00",
+        "address": "240 East 86th St, New York, NY 10028, USA",
+        "name": "Fairway Market 86th Street",
+        "locationConfidence": 3.765062,
+        "calibratedProbability": 2.770737
+      }, {
+        "latitudeE7": 407793582,
+        "longitudeE7": -739539651,
+        "placeId": "ChIJt4u3PrxYwokRqlGx98inwIU",
+        "address": "1538 Third Ave, East 86th St, New York, NY 10028, USA",
+        "name": "AMC Orpheum 7",
+        "locationConfidence": 3.1538367,
+        "calibratedProbability": 2.3209317
+      }, {
+        "latitudeE7": 407790872,
+        "longitudeE7": -739551706,
+        "placeId": "ChIJlefm6bxYwokRpye4KuetyN4",
+        "address": "150 East 86th St, New York, NY 10028, USA",
+        "name": "Barnes \u0026 Noble",
+        "locationConfidence": 1.7569056,
+        "calibratedProbability": 1.2929198
+      }, {
+        "latitudeE7": 407792574,
+        "longitudeE7": -739540640,
+        "placeId": "ChIJcdD7YIxZwokRP-0PIAQj3cU",
+        "address": "1536 3rd Ave, New York, NY 10028, USA",
+        "name": "Chick-fil-A",
+        "locationConfidence": 1.738764,
+        "calibratedProbability": 1.2795693
+      }, {
+        "latitudeE7": 407794345,
+        "longitudeE7": -739547545,
+        "placeId": "ChIJf0n1k7xYwokR6SvWqiDdCDw",
+        "address": "159 East 86th St, New York, NY 10028, USA",
+        "name": "Foot Locker",
+        "locationConfidence": 0.9385898,
+        "calibratedProbability": 0.6907152
+      }, {
+        "latitudeE7": 407794910,
+        "longitudeE7": -739555890,
+        "placeId": "ChIJQYS66bxYwokRbNAEGzGNlAQ",
+        "address": "New York, NY 10028, USA",
+        "name": "86 St",
+        "locationConfidence": 0.74833125,
+        "calibratedProbability": 0.5507025
+      }, {
+        "latitudeE7": 407791584,
+        "longitudeE7": -739539614,
+        "placeId": "ChIJWX_PnrxYwokRXkKf9JcYVXU",
+        "address": "1534 3rd Ave, New York, NY 10128, USA",
+        "name": "Churutto",
+        "locationConfidence": 0.6171056,
+        "calibratedProbability": 0.4541326
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 60,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407790402,
+        "longitudeE7": -739545346
+      },
+      "endLocation": {
+        "latitudeE7": 407695901,
+        "longitudeE7": -739577353
+      },
+      "duration": {
+        "startTimestamp": "2019-12-17T00:16:57.917Z",
+        "endTimestamp": "2019-12-17T00:29:30.726Z"
+      },
+      "distance": 1259,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 82.0211112499237
+      }, {
+        "activityType": "STILL",
+        "probability": 9.35298576951027
+      }, {
+        "activityType": "CYCLING",
+        "probability": 7.531909644603729
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407790222,
+          "lngE7": -739545516
+        }, {
+          "latE7": 407767257,
+          "lngE7": -739526672
+        }, {
+          "latE7": 407719383,
+          "lngE7": -739559020
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJxQCugrxYwokRFzWxdmRJm2c",
+          "duration": "62s"
+        }, {
+          "placeId": "ChIJ47uzdrtYwokRgf6UErLuO2Y",
+          "duration": "62s"
+        }, {
+          "placeId": "ChIJS7oportYwokRKTx6PcPy8PE",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJJ0h3lLtYwokRcLRvLXS_904",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJJ0h3lLtYwokRNOUwOeL2Ww0",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJ2f068LtYwokR2OD8GEhmUfQ",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJBewt_rtYwokRtgmPdu_8ENE",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJBewt_rtYwokRh7eOhXwTPYE",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJE-lusr5YwokRhhcsZe33XHQ",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJZSEYyL5YwokRyZKosFuglw0",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJZSEYyL5YwokRuWtRX32kG3U",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJKZS3xb5YwokR6P5CtZ711pM",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJ68dg275YwokR7h24U6bYsyo",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJb69S3r5YwokR3JlaUw3pIbk",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJ8zA7H79YwokRp9RE2FD3ZEs",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJ8zA7H79YwokRo_b-v9atT3M",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJxTGuEL9YwokRG2bJHW-1By8",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJJRaFEr9YwokRWC86l335h8M",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJuUU5Q79YwokR3lcj3ATgMNc",
+          "duration": "20s"
+        }],
+        "distanceMeters": 1021.4780678602356,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407773342,
+          "lngE7": -739521310,
+          "accuracyMeters": 32,
+          "timestamp": "2019-12-17T00:18:13.485Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407689423,
+        "longitudeE7": -739579667,
+        "placeId": "ChIJH_1qNcBYwokRWu7v4rcDpW8",
+        "address": "1396 2nd Ave, New York, NY 10021, USA",
+        "name": "CVS",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 56.00252,
+        "calibratedProbability": 32.971996
+      },
+      "duration": {
+        "startTimestamp": "2019-12-17T00:29:30.726Z",
+        "endTimestamp": "2019-12-17T00:38:28.838Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 407694333,
+      "centerLngE7": -739578667,
+      "visitConfidence": 83,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407699636,
+        "longitudeE7": -739579134,
+        "placeId": "ChIJBzlBQMBYwokRdxPvnfQzpdU",
+        "address": "74th And 2nd, 1411 2nd Ave 1st floor, New York, NY 10021, USA",
+        "name": "Smoke Zone N Vape Smoke Shop",
+        "locationConfidence": 20.431929,
+        "calibratedProbability": 12.029485
+      }, {
+        "latitudeE7": 407686869,
+        "longitudeE7": -739584429,
+        "placeId": "ChIJT3CZzMFYwokRiRpq9Un_B2M",
+        "address": "2nd Ave, New York, NY 10021, USA",
+        "name": "72 St",
+        "locationConfidence": 11.84804,
+        "calibratedProbability": 6.9756417
+      }, {
+        "latitudeE7": 407712517,
+        "longitudeE7": -739558487,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 6.121334,
+        "calibratedProbability": 3.6039915
+      }, {
+        "latitudeE7": 407693264,
+        "longitudeE7": -739577738,
+        "placeId": "ChIJV1VTPcBYwokRkMJqQfg8jdE",
+        "address": "1402 2nd Ave, New York, NY 10021, USA",
+        "name": "La Esquina",
+        "locationConfidence": 2.2071712,
+        "calibratedProbability": 1.2994922
+      }, {
+        "latitudeE7": 407694240,
+        "longitudeE7": -739581560,
+        "placeId": "ChIJ90r0N8BYwokRT_Pu0DkD8Hk",
+        "address": "1399 2nd Ave, New York, NY 10021, USA",
+        "name": "Little Vincent\u0027s Pizza",
+        "locationConfidence": 0.7571905,
+        "calibratedProbability": 0.44580287
+      }, {
+        "latitudeE7": 407696608,
+        "longitudeE7": -739573855,
+        "placeId": "ChIJ0cmWNsBYwokRS4dJF1faU4I",
+        "address": "1408 2nd Ave, New York, NY 10021, USA",
+        "name": "Big Apple Wine \u0026 Spirits",
+        "locationConfidence": 0.560606,
+        "calibratedProbability": 0.3300619
+      }, {
+        "latitudeE7": 407691005,
+        "longitudeE7": -739578631,
+        "placeId": "ChIJEXPLsaFZwokRggZzIVKeiPM",
+        "address": "1400 2nd Ave, New York, NY 10021, USA",
+        "name": "Mission Ceviche",
+        "locationConfidence": 0.4552116,
+        "calibratedProbability": 0.26801
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 45,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407698140,
+        "longitudeE7": -739576695
+      },
+      "endLocation": {
+        "latitudeE7": 407712691,
+        "longitudeE7": -739563910
+      },
+      "duration": {
+        "startTimestamp": "2019-12-17T00:38:28.838Z",
+        "endTimestamp": "2019-12-17T00:41:34.347Z"
+      },
+      "distance": 194,
+      "activityType": "WALKING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 75.05460977554321
+      }, {
+        "activityType": "STILL",
+        "probability": 17.544282972812653
+      }, {
+        "activityType": "CYCLING",
+        "probability": 6.43405094742775
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407698211,
+          "lngE7": -739576950
+        }, {
+          "latE7": 407701110,
+          "lngE7": -739574737
+        }, {
+          "latE7": 407713050,
+          "lngE7": -739563674
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJxStcQcBYwokR-exIczUAb-4",
+          "duration": "40s"
+        }, {
+          "placeId": "ChIJQxhPaMBYwokRF4jd4Exn4h0",
+          "duration": "40s"
+        }, {
+          "placeId": "ChIJv90unsBYwokRTWErubJys-Y",
+          "duration": "21s"
+        }],
+        "distanceMeters": 215.93873130393325,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407698140,
+          "lngE7": -739576695,
+          "accuracyMeters": 63,
+          "timestamp": "2019-12-17T00:38:28.838Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712644,
+        "longitudeE7": -739557056,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 98.043816,
+        "calibratedProbability": 71.83994
+      },
+      "duration": {
+        "startTimestamp": "2019-12-17T00:41:34.347Z",
+        "endTimestamp": "2019-12-24T01:36:57.752Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407712375,
+      "centerLngE7": -739559700,
+      "visitConfidence": 75,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 1.0477498,
+        "calibratedProbability": 0.7677209
+      }, {
+        "latitudeE7": 407712093,
+        "longitudeE7": -739563581,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.49553338,
+        "calibratedProbability": 0.36309367
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.12712921,
+        "calibratedProbability": 0.09315177
+      }, {
+        "latitudeE7": 407710874,
+        "longitudeE7": -739561619,
+        "placeId": "ChIJA_aUfb9YwokRW4tDOBia3r0",
+        "address": "306 E 76th St, New York, NY 10021, USA",
+        "name": "The East Wing",
+        "locationConfidence": 0.045528863,
+        "calibratedProbability": 0.0333605
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 85,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407689423,
+        "longitudeE7": -739579667,
+        "placeId": "ChIJH_1qNcBYwokRWu7v4rcDpW8",
+        "address": "1396 2nd Ave, New York, NY 10021, USA",
+        "name": "CVS",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 56.26635,
+        "calibratedProbability": 22.378765
+      },
+      "duration": {
+        "startTimestamp": "2019-12-24T01:36:57.752Z",
+        "endTimestamp": "2019-12-24T01:43:36.803Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 407692400,
+      "centerLngE7": -739580700,
+      "visitConfidence": 69,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407686869,
+        "longitudeE7": -739584429,
+        "placeId": "ChIJT3CZzMFYwokRiRpq9Un_B2M",
+        "address": "2nd Ave, New York, NY 10021, USA",
+        "name": "72 St",
+        "locationConfidence": 28.00102,
+        "calibratedProbability": 11.136821
+      }, {
+        "latitudeE7": 407712517,
+        "longitudeE7": -739558487,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 6.6738296,
+        "calibratedProbability": 2.6543763
+      }, {
+        "latitudeE7": 407699636,
+        "longitudeE7": -739579134,
+        "placeId": "ChIJBzlBQMBYwokRdxPvnfQzpdU",
+        "address": "74th And 2nd, 1411 2nd Ave 1st floor, New York, NY 10021, USA",
+        "name": "Smoke Zone N Vape Smoke Shop",
+        "locationConfidence": 6.305379,
+        "calibratedProbability": 2.5078328
+      }, {
+        "latitudeE7": 407693264,
+        "longitudeE7": -739577738,
+        "placeId": "ChIJV1VTPcBYwokRkMJqQfg8jdE",
+        "address": "1402 2nd Ave, New York, NY 10021, USA",
+        "name": "La Esquina",
+        "locationConfidence": 0.5321613,
+        "calibratedProbability": 0.21165603
+      }, {
+        "latitudeE7": 407694240,
+        "longitudeE7": -739581560,
+        "placeId": "ChIJ90r0N8BYwokRT_Pu0DkD8Hk",
+        "address": "1399 2nd Ave, New York, NY 10021, USA",
+        "name": "Little Vincent\u0027s Pizza",
+        "locationConfidence": 0.45181915,
+        "calibratedProbability": 0.17970163
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 45,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407694737,
+        "longitudeE7": -739579084
+      },
+      "endLocation": {
+        "latitudeE7": 407359279,
+        "longitudeE7": -739893896
+      },
+      "duration": {
+        "startTimestamp": "2019-12-24T01:43:36.803Z",
+        "endTimestamp": "2019-12-24T01:59:43.961Z"
+      },
+      "distance": 4589,
+      "activityType": "IN_SUBWAY",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_SUBWAY",
+        "probability": 87.90368437767029
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.58256059885025
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 2.3749206215143204
+      }],
+      "transitPath": {
+        "transitStops": [{
+          "latitudeE7": 407736210,
+          "longitudeE7": -739598770,
+          "placeId": "ChIJ7fmIe5VYwokReqddWhnfbaw",
+          "address": "E 77th St, New York, NY 10075, USA",
+          "name": "77 Street Station"
+        }, {
+          "latitudeE7": 407346730,
+          "longitudeE7": -739899520,
+          "placeId": "ChIJGxFxxJhZwokRaAQ22S4T8GA",
+          "address": "New York, NY 10003, USA",
+          "name": "14 Street - Union Sq Station"
+        }],
+        "name": "6",
+        "hexRgbColor": "00933C",
+        "linePlaceId": "ChIJ82KAA19fwokR1IdVfl80T5A",
+        "source": "INFERRED",
+        "confidence": 0.7704785157406296,
+        "distanceMeters": 5080.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407358723,
+          "lngE7": -739892002,
+          "accuracyMeters": 83,
+          "timestamp": "2019-12-24T01:57:10.416Z"
+        }, {
+          "latE7": 407364607,
+          "lngE7": -739905341,
+          "accuracyMeters": 65,
+          "timestamp": "2019-12-24T01:57:19.050Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 4832.579625968001
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407353872,
+        "longitudeE7": -739885034,
+        "placeId": "ChIJgWBWFaBZwokRfOWdBPY5Y0o",
+        "address": "116 E 16th St, New York, NY 10003, USA",
+        "name": "The Stand Restaurant and Comedy Club",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 96.74736,
+        "calibratedProbability": 82.10586
+      },
+      "duration": {
+        "startTimestamp": "2019-12-24T01:59:43.961Z",
+        "endTimestamp": "2019-12-24T04:39:20.435Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407354275,
+      "centerLngE7": -739885700,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407353826,
+        "longitudeE7": -739884719,
+        "placeId": "ChIJB0qGTp9ZwokRg1Si-zHtkgM",
+        "address": "116 E 16th St, New York, NY 10003, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.0226474,
+        "calibratedProbability": 0.8678825
+      }, {
+        "latitudeE7": 407349290,
+        "longitudeE7": -739884480,
+        "placeId": "ChIJ6TrvSZ9ZwokRwi40amv6-f4",
+        "address": "17 Irving Pl, New York, NY 10003, USA",
+        "name": "Irving Plaza",
+        "locationConfidence": 0.48262388,
+        "calibratedProbability": 0.4095848
+      }, {
+        "latitudeE7": 407353826,
+        "longitudeE7": -739884719,
+        "placeId": "ChIJY88WO8tZwokRVtKt42b49Q4",
+        "address": "116 E 16th St, New York, NY 10003, USA",
+        "name": "Upstairs @ The Stand",
+        "locationConfidence": 0.29584205,
+        "calibratedProbability": 0.25107005
+      }, {
+        "latitudeE7": 407353276,
+        "longitudeE7": -739884724,
+        "placeId": "ChIJK9yFTp9ZwokRooTzYsEtmQ8",
+        "address": "116 E 16th St #7, New York, NY 10003, USA",
+        "name": "Astraea Foundation",
+        "locationConfidence": 0.26709285,
+        "calibratedProbability": 0.2266717
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 83,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407355209,
+        "longitudeE7": -739888374
+      },
+      "endLocation": {
+        "latitudeE7": 407712052,
+        "longitudeE7": -739568504
+      },
+      "duration": {
+        "startTimestamp": "2019-12-24T04:39:20.435Z",
+        "endTimestamp": "2019-12-24T05:00:42.683Z"
+      },
+      "distance": 5382,
+      "activityType": "IN_SUBWAY",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_SUBWAY",
+        "probability": 62.96665072441101
+      }, {
+        "activityType": "WALKING",
+        "probability": 25.15675723552704
+      }, {
+        "activityType": "STILL",
+        "probability": 5.006495490670204
+      }],
+      "transitPath": {
+        "transitStops": [{
+          "latitudeE7": 407357370,
+          "longitudeE7": -739905700,
+          "placeId": "ChIJGxFxxJhZwokRaAQ22S4T8GA",
+          "address": "New York, NY 10003, USA",
+          "name": "14 Street - Union Sq Station"
+        }, {
+          "latitudeE7": 407687990,
+          "longitudeE7": -739584270,
+          "placeId": "ChIJT3CZzMFYwokRiRpq9Un_B2M",
+          "address": "2nd Ave, New York, NY 10021, USA",
+          "name": "72 Street Subway Station"
+        }],
+        "name": "Q",
+        "hexRgbColor": "F2C40A",
+        "linePlaceId": "ChIJne21HJ9bwokR77uHJhgLfVE",
+        "source": "INFERRED",
+        "confidence": 0.9743585006825496,
+        "distanceMeters": 5987.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407544090,
+          "lngE7": -739870283,
+          "accuracyMeters": 65,
+          "timestamp": "2019-12-24T04:46:12.879Z"
+        }, {
+          "latE7": 407692306,
+          "lngE7": -739580594,
+          "accuracyMeters": 76,
+          "timestamp": "2019-12-24T04:54:38.716Z"
+        }, {
+          "latE7": 407712171,
+          "lngE7": -739561687,
+          "accuracyMeters": 70,
+          "timestamp": "2019-12-24T05:00:32.736Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 5406.96717139544
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712644,
+        "longitudeE7": -739557056,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 98.94947,
+        "calibratedProbability": 82.17525
+      },
+      "duration": {
+        "startTimestamp": "2019-12-24T05:00:42.683Z",
+        "endTimestamp": "2019-12-24T13:34:41.027Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407711941,
+      "centerLngE7": -739558778,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 0.7354246,
+        "calibratedProbability": 0.6107531
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.078324825,
+        "calibratedProbability": 0.06504696
+      }, {
+        "latitudeE7": 407712093,
+        "longitudeE7": -739563581,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.07035986,
+        "calibratedProbability": 0.05843224
+      }, {
+        "latitudeE7": 407699636,
+        "longitudeE7": -739579134,
+        "placeId": "ChIJBzlBQMBYwokRdxPvnfQzpdU",
+        "address": "74th And 2nd, 1411 2nd Ave 1st floor, New York, NY 10021, USA",
+        "name": "Smoke Zone N Vape Smoke Shop",
+        "locationConfidence": 0.037525553,
+        "calibratedProbability": 0.031164104
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712644,
+        "longitudeE7": -739557056,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 98.13497,
+        "calibratedProbability": 89.49552
+      },
+      "duration": {
+        "startTimestamp": "2019-12-25T14:01:46.228Z",
+        "endTimestamp": "2019-12-26T03:54:11.100Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407712050,
+      "centerLngE7": -739558950,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 1.3942506,
+        "calibratedProbability": 1.2715058
+      }, {
+        "latitudeE7": 407712093,
+        "longitudeE7": -739563581,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.16419977,
+        "calibratedProbability": 0.14974421
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.07248209,
+        "calibratedProbability": 0.06610102
+      }, {
+        "latitudeE7": 407711571,
+        "longitudeE7": -739564340,
+        "placeId": "ChIJRY7bf79YwokR16QASZ9mYqs",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.038393047,
+        "calibratedProbability": 0.03501306
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 85,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407712301,
+        "longitudeE7": -739558502
+      },
+      "endLocation": {
+        "latitudeE7": 407580102,
+        "longitudeE7": -739781434
+      },
+      "duration": {
+        "startTimestamp": "2019-12-26T03:54:11.100Z",
+        "endTimestamp": "2019-12-26T04:26:05.998Z"
+      },
+      "distance": 4611,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 49.938735365867615
+      }, {
+        "activityType": "WALKING",
+        "probability": 30.28995990753174
+      }, {
+        "activityType": "STILL",
+        "probability": 10.147804766893387
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407711334,
+          "lngE7": -739558715
+        }, {
+          "latE7": 407668724,
+          "lngE7": -739506683
+        }, {
+          "latE7": 407547836,
+          "lngE7": -739839782
+        }, {
+          "latE7": 407551727,
+          "lngE7": -739838562
+        }, {
+          "latE7": 407580947,
+          "lngE7": -739780807
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJv90unsBYwokRxKRb-cnvWE0",
+          "duration": "128s"
+        }, {
+          "placeId": "ChIJEa11qsBYwokRnmCKWUGin3U",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJEa11qsBYwokRK2bVNIyJPGI",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJVTUqyLhYwokR8tSJU9mavWw",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJEQS-xbhYwokR2dkyMyMpmvE",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJ-Y9pwrhYwokR23mLF0QOyRA",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJ-Y9pwrhYwokRIi0uCxBcAOE",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJtWZ28rhYwokRyK4qS_GGuig",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJDfhN9bhYwokRylLLZjA60ZU",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJDyn-X7hYwokR9fQv4LkxRdA",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJDyn-X7hYwokRymlh7EKaQUQ",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJs4k3abhYwokRUYL8PzC4mYI",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJv0CREbhYwokR0Z7iXii2LS8",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJV2b_ArhYwokR_L-hctDQDxw",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJ7SgqwMdYwokRiW85aplrwhE",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJ3-dKUsZYwokRDXSWwnykt7w",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJ7UQK9cZYwokR9amcLPEpguY",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJVfAoGMRYwokRuw7nX6EE61E",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJqehbbcRYwokReZCMPSE4t2o",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJddyCasNYwokRHK6O5mpovH0",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJE689Pd1YwokRZPzh0GPwZZY",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJ0yEeE91YwokRvK6OYa_sTwI",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJNzB1c91YwokR94QJG4ZfquY",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJ1_JCm91YwokRLMOCt4yO8pI",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJvYnAsuBYwokRmte-XWovMKE",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJrbBMuOBYwokRQiBelxAvlpA",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJG0ev5uFYwokR9qyE-Nie4k4",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJq5nI4uFYwokR6tTb0sniHrU",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJreb9_eFYwokRgo55HTChlqM",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJYX_YAOJYwokRrn1tygIOXd0",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJ-_7rDuJYwokRJGEw3_I6n9w",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJNViyDeJYwokRL6M5JJF11VA",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJfUqvkeJYwokRdGXchONYrEQ",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJ-ZC7n-JYwokRB3LeTflEir4",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJr2vSXR1ZwokRXnlKk7NxrjI",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJpVS7XB1ZwokREHVuMYGlblM",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJjZ1cRB1ZwokRIKJzbly-JNo",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJc0XkNx1ZwokRrFiVPF5x1Dg",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJR1rrKwNZwokRepkrnYbcVBM",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJXyJMMANZwokRGhoC-u8B70k",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJaS41OANZwokRMDuKslF0Jes",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJF_3_CANZwokRIk9u00W9qP8",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJWz7ArwNZwokRkXjrFDvnc_o",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJG8QAtgNZwokR5XkU_Yf8NUE",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJU-AIzQNZwokREXDdhS_zWNI",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJofVngAFZwokRw9JQxT0NDWE",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJSx-ogQFZwokR44WAEPvzVNc",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJ_2l9gQFZwokRC4P82E3MW1k",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJ7Uy8gwFZwokRWx6MpAbRHrM",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJM5NugwFZwokR3v5dixaWb6c",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJK1OrnAFZwokRhd9lkgnkPSM",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJV4ZkmwFZwokRpUe2bhrFXMY",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJG_-9mwFZwokR8wSmAKsnSPI",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJ12NwmQFZwokRQYOqgpi7Nuo",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJC8WpOABZwokRmQXOIOEyz0Q",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJ_YR6FQBZwokRcYLcDESkJ2g",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJ4xoyEgBZwokRlXjdPKWAnoQ",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJXRqTDgBZwokRNTdBfXn1eZ4",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJi9zMDgBZwokRvfdZ3l432uE",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJh7Rdr6pZwokRz5i3VtfdIWs",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJkQjDr6pZwokRwTN0DOjvOjU",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJRT5MsKpZwokRIDJD3y8L88A",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJ0ag6sapZwokR9L7bKa1es6k",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJ7fvPsqpZwokR4dGjc7k7Y4Y",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJJ7MeWlVYwokRD8p5lgMrR-A",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJjSiMiv9YwokRa7UiPV8KCuo",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJjSiMiv9YwokR3K4JIPF2kA8",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJYWFFa_9YwokRxlbPJAG9cgE",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJR7q-Pv9YwokRwHddw891Zos",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJRwt8Ov9YwokRqDNfTGBncW4",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJTQXFMf9YwokRYfD_x4rdGIE",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJ4UzsLf9YwokR3apzZO4-Z4A",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJ8fogLf9YwokRr06VRDWcxS0",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJZ_gt0_hYwokRMVJ-nFtzd2o",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJQUAV0_hYwokRY_ilsamgtDM",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJ62GD0_hYwokRoTtDwCTBDkE",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJu6eg1fhYwokR9PtDVlOasHY",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJpUQgK_lYwokRXK9yuJCBSlY",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJY75HK_lYwokRelCFqah43Sc",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJ1y-qLPlYwokR8KQatWQ-Hgk",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJT8cz0_5YwokRShjnsZsWMxw",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJZxjF0v5YwokRhjKRgan7x7I",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJ9aFmzf5YwokR0mHknWpeu78",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJAXJ5zP5YwokRbrzZq56tRxY",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJT5IGyv5YwokRZO7ewAU9vNo",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJC2w3sf5YwokRyqz05QNmp3w",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJVezQr_5YwokR_FzrdrOvOMs",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJK6mjr_5YwokRoF-9hwK6uqY",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJxV-mqP5YwokR8iyXkzFb70c",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJkzCmp_5YwokRvs9KTac6vLE",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJJ-3Npv5YwokRrKOT0txGUsQ",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJYRBqof5YwokRU_NOBHvKMi0",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJmzUhov5YwokRcO6VF_YzLd0",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJkROXmP5YwokR4OgKxenK9dw",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJv9Lzl_5YwokRDQnprHr1F2Y",
+          "duration": "44s"
+        }],
+        "distanceMeters": 4631.335153445593,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407546435,
+          "lngE7": -739839743,
+          "accuracyMeters": 65,
+          "timestamp": "2019-12-26T04:07:42.171Z"
+        }, {
+          "latE7": 407565533,
+          "lngE7": -739826914,
+          "accuracyMeters": 28,
+          "timestamp": "2019-12-26T04:11:23.998Z"
+        }]
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 407581664,
+          "longitudeE7": -739772139,
+          "accuracyMetres": 89
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-12-26T04:35:17.016Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407587402,
+        "longitudeE7": -739786736,
+        "placeId": "ChIJ9U1mz_5YwokRosza1aAk0jM",
+        "address": "45 Rockefeller Plaza, New York, NY 10111, USA",
+        "name": "Rockefeller Center",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 97.7664,
+        "calibratedProbability": 79.014854,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-12-26T04:26:05.998Z",
+        "endTimestamp": "2019-12-26T04:41:26.616Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407579100,
+      "centerLngE7": -739781333,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407581333,
+        "longitudeE7": -739771972,
+        "placeId": "ChIJcQM7oP5YwokRvrQ8ty1ULps",
+        "address": "611 5th Ave, New York, NY 10022, USA",
+        "name": "Saks Fifth Avenue",
+        "locationConfidence": 1.2888192,
+        "calibratedProbability": 1.0416243
+      }, {
+        "latitudeE7": 407576975,
+        "longitudeE7": -739794714,
+        "placeId": "ChIJnXA7-_5YwokREhmyUnpYI38",
+        "address": "22 W 48th St, New York, NY 10036, USA",
+        "name": "Duane Reade",
+        "locationConfidence": 0.324347,
+        "calibratedProbability": 0.2621374
+      }, {
+        "latitudeE7": 407578543,
+        "longitudeE7": -739785401,
+        "placeId": "ChIJjVxYk_5YwokR4iDa6cmIsug",
+        "address": "611 5th Ave, New York, NY 10022, New York, NY 10020, USA",
+        "name": "Saks Fifth Avenue Windows",
+        "locationConfidence": 0.25280413,
+        "calibratedProbability": 0.20431644,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 407578680,
+        "longitudeE7": -739780367,
+        "placeId": "ChIJI44fl_5YwokRCRTS_B5V35A",
+        "address": "608 5th Ave Third Floor, New York, NY 10020, USA",
+        "name": "608 FIFTH AVENUE",
+        "locationConfidence": 0.20603491,
+        "calibratedProbability": 0.16651753,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407580102,
+          "lngE7": -739781434,
+          "accuracyMeters": 28,
+          "timestamp": "2019-12-26T04:26:05.998Z"
+        }, {
+          "latE7": 407581664,
+          "lngE7": -739772139,
+          "accuracyMeters": 29,
+          "timestamp": "2019-12-26T04:35:17.016Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 80.1927478748833
+      },
+      "locationConfidence": 85,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407575603,
+        "longitudeE7": -739790574
+      },
+      "endLocation": {
+        "latitudeE7": 407713898,
+        "longitudeE7": -739566551
+      },
+      "duration": {
+        "startTimestamp": "2019-12-26T04:41:26.616Z",
+        "endTimestamp": "2019-12-26T05:00:56.659Z"
+      },
+      "distance": 4533,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 81.44391775131226
+      }, {
+        "activityType": "WALKING",
+        "probability": 9.50247198343277
+      }, {
+        "activityType": "STILL",
+        "probability": 4.242067784070969
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407576522,
+          "lngE7": -739789886
+        }, {
+          "latE7": 407583122,
+          "lngE7": -739852905
+        }, {
+          "latE7": 407582817,
+          "lngE7": -739853134
+        }, {
+          "latE7": 407559242,
+          "lngE7": -739866867
+        }, {
+          "latE7": 407520790,
+          "lngE7": -739775390
+        }, {
+          "latE7": 407699356,
+          "lngE7": -739604644
+        }, {
+          "latE7": 407714500,
+          "lngE7": -739566116
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJe9_27f5YwokR0IhdDLDdTWE",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJfei28v5YwokRiGyEXAPLrVg",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJrTrLjf5YwokRwgqRK4VSEjs",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJdSxqiv5YwokRCoCITOTaeCw",
+          "duration": "48s"
+        }, {
+          "placeId": "ChIJ6aizwVVYwokRYUvrYVkzPQk",
+          "duration": "95s"
+        }, {
+          "placeId": "ChIJu9kruVVYwokRE3OdCOUCU9Y",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJb_NQpVVYwokRwVD-EFxHtZU",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJowwgqVVYwokR3ZwLCfUBRlQ",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJMy3EAFVYwokRVTJZqYmKkcQ",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJ2X9A4VRYwokRT68mv0ygyQ4",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJ2X9A4VRYwokRdTB3KJWwfDg",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJdTzt3FRYwokRBhL8KU5NCOE",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJBRpnxVRYwokRsOVi1lnuMUo",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJm2YA0lRYwokR3-zsWQAXQn8",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJ0ag6sapZwokR9b7bKa1es6k",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJRT5MsKpZwokRITJD3y8L88A",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJkQjDr6pZwokRwDN0DOjvOjU",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJh7Rdr6pZwokRzpi3VtfdIWs",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJi9zMDgBZwokRvPdZ3l432uE",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJXRqTDgBZwokRNDdBfXn1eZ4",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJ4xoyEgBZwokRlHjdPKWAnoQ",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJ_YR6FQBZwokRcILcDESkJ2g",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJC8WpOABZwokRmAXOIOEyz0Q",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJ12NwmQFZwokRQIOqgpi7Nuo",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJG_-9mwFZwokR8gSmAKsnSPI",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJV4ZkmwFZwokRpEe2bhrFXMY",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJK1OrnAFZwokRhN9lkgnkPSM",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJM5NugwFZwokR3_5dixaWb6c",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJ7Uy8gwFZwokRWh6MpAbRHrM",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJ_2l9gQFZwokRCoP82E3MW1k",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJSx-ogQFZwokR4oWAEPvzVNc",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJofVngAFZwokRwtJQxT0NDWE",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJU-AIzQNZwokREHDdhS_zWNI",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJG8QAtgNZwokR5HkU_Yf8NUE",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJWz7ArwNZwokRkHjrFDvnc_o",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJlS8PqgNZwokRvWewh09Nhm0",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJQQ_N-wJZwokREEfW26b8udw",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJc8ge7QJZwokRTOEzBJBFe-w",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJu1mMlwJZwokRy81iY8V5L_I",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJEThMX_1YwokRKlcbR3S6Tzw",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJs4eZT_1YwokRkag2mEBfDFM",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJP4BFNP1YwokRHBNSa8Ycpkk",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJV8OO0-JYwokRV01QdZq-NcM",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJX1dOL-NYwokR-07JhodShf8",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJrfTEPuNYwokRQMBV3QmiWoQ",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJS5lRaONYwokRn_X6KBJmc-U",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJWwQXZONYwokRoHnbl3n4Pl8",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJhUKiYuNYwokRFGR4SGPHJjE",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJwTRTj-RYwokRClXD8xR0ofA",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJz5UFUeRYwokRo80DgUxdtgc",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJJ6r4uOVYwokR_Yt5wj2v_QQ",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJtWlmwOVYwokREzjJVTd2K6U",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ-YbG6-VYwokR28xyLoQUlX8",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ54Op7uVYwokRRT_1D1VDCAY",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJkaz07uVYwokRBRJrvyy2FiU",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJVXcx7uVYwokR-1JSElg3Kio",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJv0M58OVYwokR1QALOjWazLw",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ_UeI8OVYwokRHVWgRjHCpVM",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJC5M8Vu9YwokRL0-4IbSK8vA",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJTdldTe9YwokRtp622oWtkR8",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJH0XttehYwokR4vfEKSSt7SE",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJfVQyyehYwokRtFMyLZGHZBg",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ5ySK2uhYwokRltowWGNyDHE",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJuaqfIelYwokRo1boisIVwAY",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJaUKRFulYwokRCn-g3UbAofo",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJj7YRFOlYwokR2_ZOyLklPbA",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJj7YRFOlYwokROSgkxuo6aU8",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJjUM0E-lYwokROgBY7lMZ1Rg",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJycffcelYwokRZmmh3XwhsW0",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJycffcelYwokRMLfddIflWPA",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJz-S-LOpYwokRtefcFbqK9rg",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJP3U7MupYwokRpaGrdJ6v8nw",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJ2TPeN-pYwokRYdf8YuR8iMk",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJHTFfW-pYwokRBLU_vdhfkz4",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJJScci-pYwokRL-Ter3Ib-lE",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJ687MkOpYwokR_9r_aLHUhuU",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJ49QlpOpYwokR1r6Jv0SZ1Gc",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJxw0djr9YwokRl4o5MaEWL_4",
+          "duration": "102s"
+        }],
+        "distanceMeters": 3155.251188257129,
+        "travelMode": "DRIVE",
+        "confidence": 0.9733101853916697
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407584703,
+          "lngE7": -739857375,
+          "accuracyMeters": 57,
+          "timestamp": "2019-12-26T04:50:14.254Z"
+        }, {
+          "latE7": 407550639,
+          "lngE7": -739848374,
+          "accuracyMeters": 65,
+          "timestamp": "2019-12-26T04:52:16.267Z"
+        }, {
+          "latE7": 407520718,
+          "lngE7": -739777571,
+          "accuracyMeters": 65,
+          "timestamp": "2019-12-26T04:55:11.400Z"
+        }, {
+          "latE7": 407681549,
+          "lngE7": -739616852,
+          "accuracyMeters": 33,
+          "timestamp": "2019-12-26T05:00:37.673Z"
+        }]
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 407710707,
+          "longitudeE7": -739560169,
+          "accuracyMetres": 88
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-12-26T05:03:06.989Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712644,
+        "longitudeE7": -739557056,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 85.92072,
+        "calibratedProbability": 64.94314
+      },
+      "duration": {
+        "startTimestamp": "2019-12-26T05:00:56.659Z",
+        "endTimestamp": "2019-12-27T14:21:34.183Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407712025,
+      "centerLngE7": -739560825,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407712093,
+        "longitudeE7": -739563581,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 10.116928,
+        "calibratedProbability": 7.6468754
+      }, {
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 1.2940483,
+        "calibratedProbability": 0.97810584
+      }, {
+        "latitudeE7": 407711292,
+        "longitudeE7": -739563140,
+        "placeId": "ChIJx40Yfr9YwokRAipeh3042ds",
+        "address": "1452 2nd Ave, New York, NY 10021, USA",
+        "name": "Iggy\u0027s",
+        "locationConfidence": 0.88900334,
+        "calibratedProbability": 0.6719528
+      }, {
+        "latitudeE7": 407710874,
+        "longitudeE7": -739561619,
+        "placeId": "ChIJA_aUfb9YwokRW4tDOBia3r0",
+        "address": "306 E 76th St, New York, NY 10021, USA",
+        "name": "The East Wing",
+        "locationConfidence": 0.8745082,
+        "calibratedProbability": 0.6609966
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.52863264,
+        "calibratedProbability": 0.39956674
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 71,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407712340,
+        "longitudeE7": -739557839
+      },
+      "endLocation": {
+        "latitudeE7": 407692410,
+        "longitudeE7": -739579778
+      },
+      "duration": {
+        "startTimestamp": "2019-12-27T14:21:34.183Z",
+        "endTimestamp": "2019-12-27T14:21:51.534Z"
+      },
+      "distance": 288,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 87.39928603172302
+      }, {
+        "activityType": "CYCLING",
+        "probability": 7.482420653104782
+      }, {
+        "activityType": "STILL",
+        "probability": 2.7366038411855698
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407711639,
+          "lngE7": -739558486
+        }, {
+          "latE7": 407701110,
+          "lngE7": -739574737
+        }, {
+          "latE7": 407692832,
+          "lngE7": -739580841
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJv90unsBYwokRTGErubJys-Y",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJQxhPaMBYwokRF4jd4Exn4h0",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJxStcQcBYwokR-exIczUAb-4",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJ47gXSMBYwokRBwD-NXlL42I",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJqZJWNMBYwokRUWhbvIC2lUQ",
+          "duration": "2s"
+        }],
+        "distanceMeters": 338.24201838982646,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407712340,
+          "lngE7": -739557839,
+          "accuracyMeters": 38,
+          "timestamp": "2019-12-27T14:21:34.183Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407686869,
+        "longitudeE7": -739584429,
+        "placeId": "ChIJT3CZzMFYwokRiRpq9Un_B2M",
+        "address": "2nd Ave, New York, NY 10021, USA",
+        "name": "72 Street Subway Station",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 39.023273,
+        "calibratedProbability": 19.070587
+      },
+      "duration": {
+        "startTimestamp": "2019-12-27T14:21:51.534Z",
+        "endTimestamp": "2019-12-27T14:28:04.023Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 407692367,
+      "centerLngE7": -739581100,
+      "visitConfidence": 80,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407689423,
+        "longitudeE7": -739579667,
+        "placeId": "ChIJH_1qNcBYwokRWu7v4rcDpW8",
+        "address": "1396 2nd Ave, New York, NY 10021, USA",
+        "name": "CVS",
+        "locationConfidence": 35.08917,
+        "calibratedProbability": 17.147999
+      }, {
+        "latitudeE7": 407693836,
+        "longitudeE7": -739581646,
+        "placeId": "ChIJixgJN8BYwokRqvv-Bef1ays",
+        "address": "1397 2nd Ave, New York, NY 10021, USA",
+        "name": "The UPS Store",
+        "locationConfidence": 12.997635,
+        "calibratedProbability": 6.351916
+      }, {
+        "latitudeE7": 407712517,
+        "longitudeE7": -739558487,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 8.756427,
+        "calibratedProbability": 4.2792463
+      }, {
+        "latitudeE7": 407699636,
+        "longitudeE7": -739579134,
+        "placeId": "ChIJBzlBQMBYwokRdxPvnfQzpdU",
+        "address": "74th And 2nd, 1411 2nd Ave 1st floor, New York, NY 10021, USA",
+        "name": "Smoke Zone N Vape Smoke Shop",
+        "locationConfidence": 2.9219387,
+        "calibratedProbability": 1.427945
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 31,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "TRANSITIONAL"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407693187,
+        "longitudeE7": -739582587
+      },
+      "endLocation": {
+        "latitudeE7": 407710885,
+        "longitudeE7": -739557385
+      },
+      "duration": {
+        "startTimestamp": "2019-12-27T14:28:04.023Z",
+        "endTimestamp": "2019-12-27T14:35:24.496Z"
+      },
+      "distance": 308,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 91.28093123435974
+      }, {
+        "activityType": "STILL",
+        "probability": 4.568091779947281
+      }, {
+        "activityType": "CYCLING",
+        "probability": 3.1388062983751297
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407692527,
+          "lngE7": -739580993
+        }, {
+          "latE7": 407701110,
+          "lngE7": -739574737
+        }, {
+          "latE7": 407708702,
+          "lngE7": -739569244
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJqZJWNMBYwokRUWhbvIC2lUQ",
+          "duration": "22s"
+        }, {
+          "placeId": "ChIJ47gXSMBYwokRBwD-NXlL42I",
+          "duration": "22s"
+        }, {
+          "placeId": "ChIJxStcQcBYwokR-exIczUAb-4",
+          "duration": "22s"
+        }, {
+          "placeId": "ChIJQxhPaMBYwokRF4jd4Exn4h0",
+          "duration": "22s"
+        }],
+        "distanceMeters": 205.21861004253887,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407708657,
+          "lngE7": -739569205,
+          "accuracyMeters": 52,
+          "timestamp": "2019-12-27T14:30:16.812Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712644,
+        "longitudeE7": -739557056,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 97.539536,
+        "calibratedProbability": 80.58683
+      },
+      "duration": {
+        "startTimestamp": "2019-12-27T14:35:24.496Z",
+        "endTimestamp": "2019-12-27T22:36:30.249Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407712714,
+      "centerLngE7": -739559314,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 1.940887,
+        "calibratedProbability": 1.6035542
+      }, {
+        "latitudeE7": 407712093,
+        "longitudeE7": -739563581,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.16477747,
+        "calibratedProbability": 0.13613859
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.07524163,
+        "calibratedProbability": 0.06216438
+      }, {
+        "latitudeE7": 407711571,
+        "longitudeE7": -739564340,
+        "placeId": "ChIJRY7bf79YwokR16QASZ9mYqs",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.04272362,
+        "calibratedProbability": 0.03529811
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 85,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407705900,
+        "longitudeE7": -739547219
+      },
+      "endLocation": {
+        "latitudeE7": 407696821,
+        "longitudeE7": -739517020
+      },
+      "duration": {
+        "startTimestamp": "2019-12-27T22:36:30.249Z",
+        "endTimestamp": "2019-12-27T22:42:05.032Z"
+      },
+      "distance": 648,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 82.97329545021057
+      }, {
+        "activityType": "STILL",
+        "probability": 14.706045389175415
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.2645356357097626
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407706031,
+          "lngE7": -739547119
+        }, {
+          "latE7": 407695808,
+          "lngE7": -739518203
+        }, {
+          "latE7": 407696990,
+          "lngE7": -739517364
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJv90unsBYwokRxKRb-cnvWE0",
+          "duration": "148s"
+        }, {
+          "placeId": "ChIJfzToT8dYwokRGuiMdkunFGs",
+          "duration": "148s"
+        }, {
+          "placeId": "ChIJsf97b8dYwokRREN82-BbNwc",
+          "duration": "35s"
+        }],
+        "distanceMeters": 301.24580310443395,
+        "travelMode": "WALK",
+        "confidence": 0.8634849918332138
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407699520,
+          "lngE7": -739544381,
+          "accuracyMeters": 65,
+          "timestamp": "2019-12-27T22:38:56.299Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407700017,
+        "longitudeE7": -739517106,
+        "placeId": "ChIJt7UPZcdYwokRvP9_38iozO0",
+        "address": "1443 York Ave, New York, NY 10075, USA",
+        "name": "Gotham Pizza",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 82.78297,
+        "calibratedProbability": 58.57256
+      },
+      "duration": {
+        "startTimestamp": "2019-12-27T22:42:05.032Z",
+        "endTimestamp": "2019-12-27T22:51:51.235Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 407696900,
+      "centerLngE7": -739520100,
+      "visitConfidence": 83,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407698415,
+        "longitudeE7": -739519402,
+        "placeId": "ChIJWdv9ZcdYwokR9bumkUKCAgo",
+        "address": "1439 York Ave, New York, NY 10075, USA",
+        "name": "Le Moulin à Café",
+        "locationConfidence": 6.3887277,
+        "calibratedProbability": 4.5203037
+      }, {
+        "latitudeE7": 407696222,
+        "longitudeE7": -739519449,
+        "placeId": "ChIJNbKuacdYwokRKD_gl8GEw88",
+        "address": "1433 York Ave, New York, NY 10075, USA",
+        "name": "New York Health \u0026 Racquet Club",
+        "locationConfidence": 4.078633,
+        "calibratedProbability": 2.8858109,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 407700164,
+        "longitudeE7": -739537216,
+        "placeId": "ChIJOYerTcdYwokRpEFtj9N5edw",
+        "address": "404 E 76th St, New York, NY 10021, USA",
+        "name": "The Impala",
+        "locationConfidence": 2.2249904,
+        "calibratedProbability": 1.5742778
+      }, {
+        "latitudeE7": 407693872,
+        "longitudeE7": -739522321,
+        "placeId": "ChIJGftSQMdYwokR5u3fWGNTIn4",
+        "address": "1431 York Ave, New York, NY 10021, USA",
+        "name": "Fresh Food Corner",
+        "locationConfidence": 1.6073833,
+        "calibratedProbability": 1.1372938
+      }, {
+        "latitudeE7": 407692757,
+        "longitudeE7": -739521868,
+        "placeId": "ChIJJ_TtybhYwokRCf5XsDFpjCg",
+        "address": "1427 York Ave, New York, NY 10021, USA",
+        "name": "Subway",
+        "locationConfidence": 0.88576174,
+        "calibratedProbability": 0.62671506
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.60018843,
+        "calibratedProbability": 0.42465952
+      }, {
+        "latitudeE7": 407690971,
+        "longitudeE7": -739513436,
+        "placeId": "ChIJTRB5GsdYwokRK8z5FV4ZO6Q",
+        "address": "505 E 75th St, New York, NY 10021, USA",
+        "name": "Lycée Français De New York",
+        "locationConfidence": 0.45591965,
+        "calibratedProbability": 0.32258305
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 67,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712644,
+        "longitudeE7": -739557056,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 97.966545,
+        "calibratedProbability": 72.4653
+      },
+      "duration": {
+        "startTimestamp": "2019-12-27T22:51:51.235Z",
+        "endTimestamp": "2019-12-28T15:57:17.996Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 407711968,
+      "centerLngE7": -739558932,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 1.2197057,
+        "calibratedProbability": 0.90220946
+      }, {
+        "latitudeE7": 407712093,
+        "longitudeE7": -739563581,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.42031544,
+        "calibratedProbability": 0.31090498
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.124696486,
+        "calibratedProbability": 0.092237286
+      }, {
+        "latitudeE7": 407711571,
+        "longitudeE7": -739564340,
+        "placeId": "ChIJRY7bf79YwokR16QASZ9mYqs",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.05807778,
+        "calibratedProbability": 0.042959806
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 85,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407711702,
+        "longitudeE7": -739536172
+      },
+      "endLocation": {
+        "latitudeE7": 407695468,
+        "longitudeE7": -739577435
+      },
+      "duration": {
+        "startTimestamp": "2019-12-28T15:57:17.996Z",
+        "endTimestamp": "2019-12-28T16:00:11.409Z"
+      },
+      "distance": 434,
+      "activityType": "WALKING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 61.80816888809204
+      }, {
+        "activityType": "CYCLING",
+        "probability": 20.529964566230774
+      }, {
+        "activityType": "STILL",
+        "probability": 10.069015622138977
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407711601,
+          "lngE7": -739535980
+        }, {
+          "latE7": 407709007,
+          "lngE7": -739537811
+        }, {
+          "latE7": 407711639,
+          "lngE7": -739558486
+        }, {
+          "latE7": 407701110,
+          "lngE7": -739574737
+        }, {
+          "latE7": 407687530,
+          "lngE7": -739581298
+        }, {
+          "latE7": 407680892,
+          "lngE7": -739558486
+        }, {
+          "latE7": 407688903,
+          "lngE7": -739552688
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJEa11qsBYwokRKmbVNIyJPGI",
+          "duration": "98s"
+        }, {
+          "placeId": "ChIJEa11qsBYwokRn2CKWUGin3U",
+          "duration": "98s"
+        }, {
+          "placeId": "ChIJv90unsBYwokRxaRb-cnvWE0",
+          "duration": "371s"
+        }, {
+          "placeId": "ChIJv90unsBYwokRTGErubJys-Y",
+          "duration": "371s"
+        }, {
+          "placeId": "ChIJQxhPaMBYwokRF4jd4Exn4h0",
+          "duration": "183s"
+        }, {
+          "placeId": "ChIJxStcQcBYwokR-exIczUAb-4",
+          "duration": "183s"
+        }, {
+          "placeId": "ChIJ47gXSMBYwokRBwD-NXlL42I",
+          "duration": "183s"
+        }, {
+          "placeId": "ChIJqZJWNMBYwokRUWhbvIC2lUQ",
+          "duration": "183s"
+        }, {
+          "placeId": "ChIJw5pGrsFYwokRTzHdow4vO9I",
+          "duration": "730s"
+        }, {
+          "placeId": "ChIJnQREG8FYwokRBDKyBsOIbo8",
+          "duration": "128s"
+        }, {
+          "placeId": "ChIJnQREG8FYwokRoL1JtxOXgIg",
+          "duration": "128s"
+        }],
+        "distanceMeters": 288.80581565830414,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407711702,
+          "lngE7": -739536172,
+          "accuracyMeters": 17,
+          "timestamp": "2019-12-28T15:57:17.996Z"
+        }, {
+          "latE7": 407712490,
+          "lngE7": -739558005,
+          "accuracyMeters": 26,
+          "timestamp": "2019-12-28T15:59:25.819Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407689423,
+        "longitudeE7": -739579667,
+        "placeId": "ChIJH_1qNcBYwokRWu7v4rcDpW8",
+        "address": "1396 2nd Ave, New York, NY 10021, USA",
+        "name": "CVS",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 50.2347,
+        "calibratedProbability": 16.727053
+      },
+      "duration": {
+        "startTimestamp": "2019-12-28T16:00:11.409Z",
+        "endTimestamp": "2019-12-28T16:12:32.704Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 407685821,
+      "centerLngE7": -739582536,
+      "visitConfidence": 66,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407686869,
+        "longitudeE7": -739584429,
+        "placeId": "ChIJT3CZzMFYwokRiRpq9Un_B2M",
+        "address": "2nd Ave, New York, NY 10021, USA",
+        "name": "72 St",
+        "locationConfidence": 44.49228,
+        "calibratedProbability": 14.814953,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 407684190,
+        "longitudeE7": -739584150,
+        "placeId": "ChIJQVtL48FYwokRNIASi4coaoQ",
+        "address": "1386 2nd Ave, New York, NY 10021, USA",
+        "name": "Wo\u0027s Custom Tailoring",
+        "locationConfidence": 2.0630572,
+        "calibratedProbability": 0.68695277
+      }, {
+        "latitudeE7": 407699636,
+        "longitudeE7": -739579134,
+        "placeId": "ChIJBzlBQMBYwokRdxPvnfQzpdU",
+        "address": "74th And 2nd, 1411 2nd Ave 1st floor, New York, NY 10021, USA",
+        "name": "Smoke Zone N Vape Smoke Shop",
+        "locationConfidence": 0.5414201,
+        "calibratedProbability": 0.18028101
+      }, {
+        "latitudeE7": 407693836,
+        "longitudeE7": -739581646,
+        "placeId": "ChIJixgJN8BYwokRqvv-Bef1ays",
+        "address": "1397 2nd Ave, New York, NY 10021, USA",
+        "name": "The UPS Store",
+        "locationConfidence": 0.5227809,
+        "calibratedProbability": 0.17407456
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 41,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407689256,
+        "longitudeE7": -739553514
+      },
+      "endLocation": {
+        "latitudeE7": 407783129,
+        "longitudeE7": -739526745
+      },
+      "duration": {
+        "startTimestamp": "2019-12-28T16:12:32.704Z",
+        "endTimestamp": "2019-12-28T16:16:45.337Z"
+      },
+      "distance": 1134,
+      "activityType": "CYCLING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 40.73082506656647
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 24.213498830795288
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 13.32925260066986
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407688713,
+          "lngE7": -739552307
+        }, {
+          "latE7": 407721710,
+          "lngE7": -739528045
+        }, {
+          "latE7": 407782783,
+          "lngE7": -739526977
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJaz8fwcBYwokR7hP-I0cWo20",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJW6x1sMBYwokRV7ojGdW_0lA",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJEa11qsBYwokRnmCKWUGin3U",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJEa11qsBYwokRK2bVNIyJPGI",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJVTUqyLhYwokR8tSJU9mavWw",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJEQS-xbhYwokR2dkyMyMpmvE",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJEQS-xbhYwokRgXew7S_c-TY",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJhYWY3rhYwokRHkA7M6Qy7NM",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJhYWY3rhYwokRve3MQBekCgs",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJed8CGblYwokRdcO1QdCd7tI",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJed8CGblYwokRu6WoAtzZvcI",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJOXSTErlYwokRlFetPKyigOI",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJhw5Ud7lYwokRB8fVP4gV0R0",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJhw5Ud7lYwokRnNjSqPn4_ZI",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJKwiUKrpYwokRp1ep84ClYUs",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJ_eZWMLpYwokRjoxzsz_QGJ0",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJCbQRR7pYwokRLQuDlO5NBKw",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJCbQRR7pYwokRhsWvci8IkQs",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJg3QMQ7pYwokRb6Z0zbyD91M",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJgTqYVLpYwokR4bPNttbuRhc",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJVdIIq7tYwokRYElGTM52eFE",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJ47uzdrtYwokRgP6UErLuO2Y",
+          "duration": "23s"
+        }],
+        "distanceMeters": 1337.4595031479828,
+        "travelMode": "BICYCLE",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407737152,
+          "lngE7": -739516606,
+          "accuracyMeters": 71,
+          "timestamp": "2019-12-28T16:14:56.169Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407777328,
+        "longitudeE7": -739522781,
+        "placeId": "ChIJQ75KlYlYwokRN76w58GDi00",
+        "address": "240 E 86th St, New York, 10028, United States",
+        "name": "Fairway Market 86th Street",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 76.0269,
+        "calibratedProbability": 61.796688
+      },
+      "duration": {
+        "startTimestamp": "2019-12-28T16:16:45.337Z",
+        "endTimestamp": "2019-12-28T16:23:27.320Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 407783500,
+      "centerLngE7": -739527833,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407776628,
+        "longitudeE7": -739530104,
+        "placeId": "ChIJZdmCnLtYwokRZ2B-YBNmmsU",
+        "address": "229 E 85th St, New York, NY 10028, USA",
+        "name": "United States Postal Service",
+        "locationConfidence": 5.7955947,
+        "calibratedProbability": 4.7108135
+      }, {
+        "latitudeE7": 407790673,
+        "longitudeE7": -739540821,
+        "placeId": "ChIJncNdzo5fwokR0uIie_AdVrk",
+        "address": "1535 3rd Ave, New York, NY 10028, USA",
+        "name": "Papaya King",
+        "locationConfidence": 5.107219,
+        "calibratedProbability": 4.1512837
+      }, {
+        "latitudeE7": 407782666,
+        "longitudeE7": -739522552,
+        "placeId": "ChIJVaBrc7tYwokR2a6IWbz76Y4",
+        "address": "247 East 86th St, New York, NY 10028, USA",
+        "name": "Wells Fargo Bank",
+        "locationConfidence": 3.1580667,
+        "calibratedProbability": 2.5669608
+      }, {
+        "latitudeE7": 407778890,
+        "longitudeE7": -739517900,
+        "placeId": "ChIJP0weCrtYwokRj3S4SxhyJkk",
+        "address": "300-398 East 86th St, New York, NY 10028, USA",
+        "name": "86 St",
+        "locationConfidence": 3.0381749,
+        "calibratedProbability": 2.4695094
+      }, {
+        "latitudeE7": 407787620,
+        "longitudeE7": -739531190,
+        "placeId": "ChIJwY3K9YNYwokR3vnhiqPl88s",
+        "address": "205 East 86th St, New York, NY 10028, USA",
+        "name": "P.C. Richard \u0026 Son",
+        "locationConfidence": 2.4020808,
+        "calibratedProbability": 1.9524752
+      }, {
+        "latitudeE7": 407781315,
+        "longitudeE7": -739529963,
+        "placeId": "ChIJZfgscLtYwokRMawUOjCSaWM",
+        "address": "226 East 86th St, New York, NY 10028, USA",
+        "name": "Santander Bank Branch",
+        "locationConfidence": 1.1280378,
+        "calibratedProbability": 0.91689914
+      }, {
+        "latitudeE7": 407783636,
+        "longitudeE7": -739524839,
+        "placeId": "ChIJEeYycrtYwokRIIKhjzxePF0",
+        "address": "237 East 86th St, New York, NY 10028, USA",
+        "name": "Laytner\u0027s Linen \u0026 Home",
+        "locationConfidence": 0.5475894,
+        "calibratedProbability": 0.44509524
+      }, {
+        "latitudeE7": 407796707,
+        "longitudeE7": -739529499,
+        "placeId": "ChIJ155rWbtYwokRLX7PL1o55Vs",
+        "address": "1551 3rd Ave, New York, NY 10128, USA",
+        "name": "Whole Foods Market",
+        "locationConfidence": 0.5055399,
+        "calibratedProbability": 0.41091627
+      }, {
+        "latitudeE7": 407793582,
+        "longitudeE7": -739539651,
+        "placeId": "ChIJt4u3PrxYwokRqlGx98inwIU",
+        "address": "1538 Third Ave, East 86th St, New York, NY 10028, USA",
+        "name": "AMC Orpheum 7",
+        "locationConfidence": 0.46704105,
+        "calibratedProbability": 0.37962338
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 61,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 99.02282,
+        "calibratedProbability": 88.24967
+      },
+      "duration": {
+        "startTimestamp": "2019-12-28T16:23:27.320Z",
+        "endTimestamp": "2020-01-01T02:45:37.249Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407712250,
+      "centerLngE7": -739558350,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 0.68412113,
+        "calibratedProbability": 0.60969245
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.08707486,
+        "calibratedProbability": 0.07760159
+      }, {
+        "latitudeE7": 407712093,
+        "longitudeE7": -739563581,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.06364993,
+        "calibratedProbability": 0.056725163
+      }, {
+        "latitudeE7": 407699636,
+        "longitudeE7": -739579134,
+        "placeId": "ChIJBzlBQMBYwokRdxPvnfQzpdU",
+        "address": "74th And 2nd, 1411 2nd Ave 1st floor, New York, NY 10021, USA",
+        "name": "Smoke Zone N Vape Smoke Shop",
+        "locationConfidence": 0.03556605,
+        "calibratedProbability": 0.03169666
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}

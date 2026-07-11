@@ -1,0 +1,43 @@
+---
+domain: people
+page_type: entity
+status: active
+date_created: 2026-06-22
+date_modified: 2026-06-23
+sources: ["raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS_BOOTLOADER_v2.md", "wiki/legal/463-morgantown/overview.md", "wiki/legal/463-morgantown/timeline.md"]
+related: ["wiki/legal/463-morgantown/overview", "wiki/legal/463-morgantown/timeline", "wiki/legal/463-morgantown/risks", "wiki/people/suz", "wiki/people/arnu", "wiki/people/john-carney", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/self/facebook"]
+---
+
+# Jackson Alexander (Alexander Jackson)
+
+**Role:** Owner of 463 Morgantown St, Uniontown PA. Landlord / property owner for Dan + Suz move-in (caretaker/agent mixed role for Suz).
+
+## Roles & Ties Table
+
+| Entity | Role at 463 | Dates/Evidence | Financial/Legal Ties | Source |
+|--------|-------------|----------------|----------------------|--------|
+| Alexander Jackson (Jackson Alexander) | Owner / lessor | Move-in ~early 2026 (post 337 contingencies); no signed lease/POA at entry | Property title holder; potential lease/POA counterparty. Separate from BFS corp (building ownership distinct) | [[wiki/legal/463-morgantown/overview]], operating_manual, context-core |
+| Suz | Seller (337) / agent/tenant/caretaker (463) | 337 sale ~June 2026 (buyers Delverm $465k + Jeffries); 7-day vacate | Borrowing patterns ($750/wk cycles); mixed roles increase liability | raw/self/context-core/CONTEXT_CORE_EXPANDED.md §5; operating_manual |
+| Dan | Co-occupant (mixed) | Move with Suz; parallel BFS work | No direct title; exposure via mixed agent/tenant status | BFS_BOOTLOADER (housing background), context-core |
+| Arnu | Contractor (paint/mech work) | 2026-02-10 mention (no-show for paint); lien deadline ~2026-07-27 | Mechanics lien risk | message-csv 2026-02-10; timeline |
+| John Carney | Contractor | ~10-20% complete, unreachable | Incomplete work exposure | timeline, risks; "John carney thing" ref in Suz msg 2026-03-27 |
+| Felix | Worker/painter (supply-adjacent?) | 2026-02-10: showed for paint/homework with Elijah | N/A documented | message-csv Suz: "Felix showed up but Arnu didn’t... Felix is going to paint more" |
+
+## Timeline Snippets (from sources)
+
+- ~2026 pre-June: Move-in to 463 Morgantown by Dan + Suz (no signed lease or confirmed POA at entry). [[wiki/legal/463-morgantown/timeline]]
+- 2026-02-10: Arnu/Felix paint activity at property referenced in Suz comms (Elijah homework context).
+- ~2026-03-27: "John carney thing" analysis shared with Suz.
+- 2026-06: 337 Saratoga sale contingencies close (no confirmed post-close plan per core).
+- ~2026-07-27: Arnu mechanics lien deadline (critical risk node).
+- Ongoing: Elev8 remodel unrelated (BFS building).
+
+## Behavioral / Core Notes
+
+From [[wiki/self/context-core]]: 337 sale drives move; "no post-close plan". Mixed roles at 463 amplify vertical authority and low-trust patterns (Big30 Trust 9). Ties to synthesis [[wiki/mind/synthesis/work-power-dynamics]] and [[wiki/mind/synthesis/vertical-authority-skepticism]] (housing as extension of off-books / caretaker ambiguities parallel BFS extraction).
+
+Owner communications TBD per timeline. Property separate from BFS (gas/LC building ownership).
+
+**Cross-references:** [[wiki/legal/463-morgantown/overview]], [[wiki/people/suz]], [[wiki/people/arnu]], [[wiki/people/john-carney]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]] (recent activity/ingest), [[wiki/legal/bfs-dispute/overview]] (parallel disputes).
+
+**Notes:** Limited direct corpus on Jackson himself (no messages/comm details surfaced in reviewed dox); expand via owner comms or lease docs. Defer to raw legal ingest. Evidence primarily property/role references in core + message fragments.

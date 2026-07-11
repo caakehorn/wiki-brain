@@ -2,15 +2,16 @@
 
 The compiled second brain. Start here; each domain has its own index.
 
-| Domain | Covers | Index |
-|--------|--------|-------|
-| self | Identity, core biographical facts, documents | [wiki/self/index.md](wiki/self/index.md) |
-| timeline | Life periods and discrete events, in order | [wiki/timeline/index.md](wiki/timeline/index.md) |
-| people | Every person with a role in the story | [wiki/people/index.md](wiki/people/index.md) |
-| mind | Beliefs, ideology, values, psychological profile | [wiki/mind/index.md](wiki/mind/index.md) |
-| work | Career, projects, business history | [wiki/work/index.md](wiki/work/index.md) |
-| interests | Music, favorites, media, hobbies | [wiki/interests/index.md](wiki/interests/index.md) |
-| health | Physical and mental health history | [wiki/health/index.md](wiki/health/index.md) |
-| places | Homes, cities, significant locations | [wiki/places/index.md](wiki/places/index.md) |
+| Domain | Covers | Pages | Index |
+|--------|--------|-------|-------|
+| self | Identity, core biographical facts, digital footprint | 32 | [[wiki/self/index]] |
+| timeline | Life periods and discrete events, in order | 12 | [[wiki/timeline/index]] |
+| people | Every person with a role in the story (+ 97 contact stubs) | 52 | [[wiki/people/index]] |
+| mind | Beliefs, ideology, values, psychological profile | 22 | [[wiki/mind/index]] |
+| work | Career, projects, business history | 3 | [[wiki/work/index]] |
+| interests | Music production, favorites, media, taste profile | 33 | [[wiki/interests/index]] |
+| health | Physical and mental health history | 0 | [[wiki/health/index]] |
+| places | Homes, cities, significant locations | 0 | [[wiki/places/index]] |
+| legal | Disputes, property matters, legal history | 4 | [[wiki/legal/index]] |
 
 Meta: [log.md](log.md) — operation history · [queue.md](queue.md) — pending ingestion

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bin/wiki-lint *)",
+      "Bash(bin/wiki-status *)",
+      "Bash(bin/capture status *)",
+      "Bash(curl -s http://127.0.0.1:8477/*)",
+      "Read(//Users/Suzanne/wiki project/**)",
+      "mcp__Claude_Browser__read_page"
+    ]
+  }
+}

@@ -1,0 +1,4378 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872817,
+        "longitudeE7": -797222366,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "locationConfidence": 95.518456
+      },
+      "duration": {
+        "startTimestamp": "2016-01-05T08:11:39.999Z",
+        "endTimestamp": "2016-01-06T20:12:21.324Z"
+      },
+      "centerLatE7": 398874175,
+      "centerLngE7": -797221550,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398893833,
+        "longitudeE7": -797206844,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 1.7617749
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 1.369051
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.9240744
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.42664778
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 84,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398874168,
+        "longitudeE7": -797221152
+      },
+      "endLocation": {
+        "latitudeE7": 398873935,
+        "longitudeE7": -797221149
+      },
+      "duration": {
+        "startTimestamp": "2016-01-06T20:12:21.324Z",
+        "endTimestamp": "2016-01-06T21:52:20Z"
+      },
+      "distance": 3111,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING_NORDIC",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398874397,
+          "lngE7": -797218780
+        }, {
+          "latE7": 398874168,
+          "lngE7": -797218780
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2.5434519991702764,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872817,
+        "longitudeE7": -797222366,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "locationConfidence": 96.191414
+      },
+      "duration": {
+        "startTimestamp": "2016-01-06T21:52:20Z",
+        "endTimestamp": "2016-01-08T00:00:00Z"
+      },
+      "centerLatE7": 398874071,
+      "centerLngE7": -797221457,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 1.2156518
+      }, {
+        "latitudeE7": 398893833,
+        "longitudeE7": -797206844,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 1.1457529
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.8313584
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.6158232
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 85,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872817,
+        "longitudeE7": -797222366,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "locationConfidence": 95.55304
+      },
+      "duration": {
+        "startTimestamp": "2016-01-08T06:07:49.086Z",
+        "endTimestamp": "2016-01-08T17:41:32.329Z"
+      },
+      "centerLatE7": 398874250,
+      "centerLngE7": -797221675,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398893833,
+        "longitudeE7": -797206844,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 1.7536371
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 1.3492013
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.9192464
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.42487633
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 84,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398874088,
+        "longitudeE7": -797221497
+      },
+      "endLocation": {
+        "latitudeE7": 398873552,
+        "longitudeE7": -797222241
+      },
+      "duration": {
+        "startTimestamp": "2016-01-08T17:41:32.329Z",
+        "endTimestamp": "2016-01-08T20:35:16Z"
+      },
+      "distance": 7726,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING_NORDIC",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398874359,
+          "lngE7": -797218780
+        }, {
+          "latE7": 398873863,
+          "lngE7": -797218704
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 5.549076769256148,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872817,
+        "longitudeE7": -797222366,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "locationConfidence": 96.64831
+      },
+      "duration": {
+        "startTimestamp": "2016-01-08T20:35:16Z",
+        "endTimestamp": "2016-01-08T21:08:06Z"
+      },
+      "centerLatE7": 398872933,
+      "centerLngE7": -797222167,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 1.5834321
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 1.0006107
+      }, {
+        "latitudeE7": 398893833,
+        "longitudeE7": -797206844,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.76765007
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 85,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398872223,
+        "longitudeE7": -797222332
+      },
+      "endLocation": {
+        "latitudeE7": 398754492,
+        "longitudeE7": -797327534
+      },
+      "duration": {
+        "startTimestamp": "2016-01-08T21:08:06Z",
+        "endTimestamp": "2016-01-10T00:00:00Z"
+      },
+      "distance": 4408,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING_NORDIC",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 399006140,
+        "longitudeE7": -797287748
+      },
+      "endLocation": {
+        "latitudeE7": 398754492,
+        "longitudeE7": -797327534
+      },
+      "duration": {
+        "startTimestamp": "2016-01-10T00:19:07.866Z",
+        "endTimestamp": "2016-01-10T00:41:00.026Z"
+      },
+      "distance": 2818,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 399006233,
+          "lngE7": -797287139
+        }, {
+          "latE7": 398755111,
+          "lngE7": -797321472
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 4023.2509701140043,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398752574,
+        "longitudeE7": -797326570,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, Pennsylvania 15401-5645, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-10T00:41:00.026Z",
+        "endTimestamp": "2016-01-10T02:32:30Z"
+      },
+      "centerLatE7": 398753200,
+      "centerLngE7": -797328675,
+      "visitConfidence": 76,
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398752313,
+        "longitudeE7": -797329496
+      },
+      "endLocation": {
+        "latitudeE7": 398874839,
+        "longitudeE7": -797220533
+      },
+      "duration": {
+        "startTimestamp": "2016-01-10T02:32:30Z",
+        "endTimestamp": "2016-01-10T05:32:11.653Z"
+      },
+      "distance": 1649,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398753967,
+          "lngE7": -797321090
+        }, {
+          "latE7": 398875007,
+          "lngE7": -797218856
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2608.1994679769664,
+        "travelMode": "DRIVE",
+        "confidence": 0.8961695229437175
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872817,
+        "longitudeE7": -797222366,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 99.166
+      },
+      "duration": {
+        "startTimestamp": "2016-01-10T05:32:11.653Z",
+        "endTimestamp": "2016-01-10T19:16:09.451Z"
+      },
+      "centerLatE7": 398873625,
+      "centerLngE7": -797221300,
+      "visitConfidence": 76,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398893833,
+        "longitudeE7": -797206844,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.301182
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.2903767
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.17848393
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.06395489
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398874604,
+        "longitudeE7": -797221738
+      },
+      "endLocation": {
+        "latitudeE7": 398751976,
+        "longitudeE7": -797328165
+      },
+      "duration": {
+        "startTimestamp": "2016-01-10T19:16:09.451Z",
+        "endTimestamp": "2016-01-10T21:44:49.510Z"
+      },
+      "distance": 1638,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398874855,
+          "lngE7": -797218856
+        }, {
+          "latE7": 398753700,
+          "lngE7": -797321014
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2606.8445902236695,
+        "travelMode": "DRIVE",
+        "confidence": 0.9704074172571268
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398752574,
+        "longitudeE7": -797326570,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, Pennsylvania 15401-5645, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-10T21:44:49.510Z",
+        "endTimestamp": "2016-01-10T22:05:31.592Z"
+      },
+      "centerLatE7": 398752000,
+      "centerLngE7": -797328100,
+      "visitConfidence": 77,
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398752574,
+        "longitudeE7": -797326570,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, Pennsylvania 15401-5645, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 100.0
+      },
+      "endLocation": {
+        "latitudeE7": 398752662,
+        "longitudeE7": -797326402
+      },
+      "duration": {
+        "startTimestamp": "2016-01-10T22:05:31.592Z",
+        "endTimestamp": "2016-01-10T22:36:49Z"
+      },
+      "distance": 2688,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING_NORDIC",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398753700,
+          "lngE7": -797321014
+        }, {
+          "latE7": 398753738,
+          "lngE7": -797321014
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 0.42390866676400574,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398752574,
+        "longitudeE7": -797326570,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, Pennsylvania 15401-5645, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-10T22:36:49Z",
+        "endTimestamp": "2016-01-10T23:08:12.202Z"
+      },
+      "centerLatE7": 398752700,
+      "centerLngE7": -797327767,
+      "visitConfidence": 77,
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398752987,
+        "longitudeE7": -797329267
+      },
+      "endLocation": {
+        "latitudeE7": 398746192,
+        "longitudeE7": -797285077
+      },
+      "duration": {
+        "startTimestamp": "2016-01-10T23:08:12.202Z",
+        "endTimestamp": "2016-01-11T03:58:38.078Z"
+      },
+      "distance": 384,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398754539,
+          "lngE7": -797321243
+        }, {
+          "latE7": 398747062,
+          "lngE7": -797284774
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 348.5652323491549,
+        "travelMode": "WALK",
+        "confidence": 0.4286864489971851
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398746192,
+        "longitudeE7": -797285077
+      },
+      "endLocation": {
+        "latitudeE7": 398876748,
+        "longitudeE7": -797223642
+      },
+      "duration": {
+        "startTimestamp": "2016-01-11T03:58:38.078Z",
+        "endTimestamp": "2016-01-11T20:31:36.722Z"
+      },
+      "distance": 1543,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398747062,
+          "lngE7": -797284774
+        }, {
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2245.612112145017,
+        "travelMode": "DRIVE",
+        "confidence": 0.9965438311974575
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872817,
+        "longitudeE7": -797222366,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 99.06956
+      },
+      "duration": {
+        "startTimestamp": "2016-01-11T20:31:36.722Z",
+        "endTimestamp": "2016-01-12T00:40:25.055Z"
+      },
+      "centerLatE7": 398875633,
+      "centerLngE7": -797221733,
+      "visitConfidence": 76,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398893833,
+        "longitudeE7": -797206844,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.25090602
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.22827584
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.22678554
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.22447777
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398875635,
+        "longitudeE7": -797220543
+      },
+      "endLocation": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.92213
+      },
+      "duration": {
+        "startTimestamp": "2016-01-12T00:40:25.055Z",
+        "endTimestamp": "2016-01-12T01:22:01.407Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398875770,
+          "lngE7": -797219009
+        }, {
+          "latE7": 398753242,
+          "lngE7": -797309112
+        }, {
+          "latE7": 399020118,
+          "lngE7": -797544174
+        }, {
+          "latE7": 398921356,
+          "lngE7": -797331619
+        }, {
+          "latE7": 398874664,
+          "lngE7": -797218856
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 10182.419468788827,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 398752670,
+          "lngE7": -797309036,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-12T00:49:04.999Z"
+        }, {
+          "latE7": 399019318,
+          "lngE7": -797545547,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-12T00:58:58.011Z"
+        }, {
+          "latE7": 398920479,
+          "lngE7": -797331924,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-12T01:18:39.002Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.92213
+      },
+      "duration": {
+        "startTimestamp": "2016-01-12T01:22:01.407Z",
+        "endTimestamp": "2016-01-12T17:01:03.532Z"
+      },
+      "centerLatE7": 398874783,
+      "centerLngE7": -797220633,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398893833,
+        "longitudeE7": -797206844,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.34903097
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.33703053
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.20973785
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.18207715
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398875770,
+        "longitudeE7": -797220207
+      },
+      "endLocation": {
+        "latitudeE7": 398880197,
+        "longitudeE7": -797219755
+      },
+      "duration": {
+        "startTimestamp": "2016-01-12T17:01:03.532Z",
+        "endTimestamp": "2016-01-12T17:38:59.076Z"
+      },
+      "distance": 7536,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING_NORDIC",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398875885,
+          "lngE7": -797219009
+        }, {
+          "latE7": 399021453,
+          "lngE7": -797266616
+        }, {
+          "latE7": 398880653,
+          "lngE7": -797219696
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 4538.510143493034,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 399019508,
+          "lngE7": -797266388,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-12T17:14:36Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.950516
+      },
+      "duration": {
+        "startTimestamp": "2016-01-12T17:38:59.076Z",
+        "endTimestamp": "2016-01-12T22:37:29.178Z"
+      },
+      "centerLatE7": 398875413,
+      "centerLngE7": -797221588,
+      "visitConfidence": 74,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.29870182
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.26082623
+      }, {
+        "latitudeE7": 398893833,
+        "longitudeE7": -797206844,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.2516594
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.2382965
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398875918,
+        "longitudeE7": -797220547
+      },
+      "endLocation": {
+        "latitudeE7": 398995616,
+        "longitudeE7": -797288477
+      },
+      "duration": {
+        "startTimestamp": "2016-01-12T22:37:29.178Z",
+        "endTimestamp": "2016-01-12T22:42:43.956Z"
+      },
+      "distance": 1734,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398876075,
+          "lngE7": -797219085
+        }, {
+          "latE7": 398995475,
+          "lngE7": -797288131
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1898.5281491564122,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398991339,
+        "longitudeE7": -797252490,
+        "placeId": "ChIJ5b3XbzE-NYgRqufo3CdlI2E",
+        "address": "61 South Beeson Boulevard, Uniontown, Pennsylvania 15401, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 45.978565
+      },
+      "duration": {
+        "startTimestamp": "2016-01-12T22:42:43.956Z",
+        "endTimestamp": "2016-01-12T23:06:03.092Z"
+      },
+      "centerLatE7": 398996850,
+      "centerLngE7": -797286183,
+      "visitConfidence": 67,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398995889,
+        "longitudeE7": -797285218,
+        "placeId": "ChIJBzrw4jE-NYgRw_tC2g6B6Zg",
+        "address": "9 E Peter St, Uniontown, PA 15401, USA",
+        "name": "Heavenly Hair Beauty Supply",
+        "locationConfidence": 11.828357
+      }, {
+        "latitudeE7": 398998586,
+        "longitudeE7": -797288863,
+        "placeId": "ChIJt4EyIi4-NYgRIgstYoaxAhI",
+        "address": "99 Matthew Dr Ste 101, Uniontown, PA 15401, USA",
+        "name": "Sherwin-Williams Paint Store",
+        "locationConfidence": 4.4291344
+      }, {
+        "latitudeE7": 398996094,
+        "longitudeE7": -797288167,
+        "placeId": "ChIJoWKA4jE-NYgRmu6gyRLqg1M",
+        "address": "86 W Fayette St, Uniontown, PA 15401, USA",
+        "name": "Midtown Chiropractic Clinic",
+        "locationConfidence": 2.987041
+      }, {
+        "latitudeE7": 398996329,
+        "longitudeE7": -797288698,
+        "placeId": "ChIJBzrw4jE-NYgR2N5ijMWVQho",
+        "name": "Barrera\u0027s Shoe \u0026 Leather Repair",
+        "locationConfidence": 2.9728057
+      }, {
+        "latitudeE7": 398994405,
+        "longitudeE7": -797278723,
+        "placeId": "ChIJl__j7jE-NYgRskC4HEcY4hk",
+        "address": "55 Morgantown St, Uniontown, PA 15401, USA",
+        "name": "Sunoco Gas Station",
+        "locationConfidence": 2.9143434
+      }, {
+        "latitudeE7": 398996094,
+        "longitudeE7": -797288167,
+        "placeId": "ChIJoWKA4jE-NYgR8FPlxuUKMjU",
+        "address": "86 W Fayette St, Uniontown, PA 15401, USA",
+        "name": "Craig A. Weimer, DC",
+        "locationConfidence": 2.7072344
+      }, {
+        "latitudeE7": 398996671,
+        "longitudeE7": -797289513,
+        "placeId": "ChIJz6GHHi4-NYgR3xW1uVrUIcs",
+        "address": "109 W Fayette St, Uniontown, PA 15401, USA",
+        "name": "The Vapor Hut",
+        "locationConfidence": 2.1501713
+      }, {
+        "latitudeE7": 398999480,
+        "longitudeE7": -797281189,
+        "placeId": "ChIJc02a5zE-NYgR4wKcwWBQI9E",
+        "address": "60 Morgantown St, Uniontown, PA 15401, USA",
+        "name": "Saint Peter\u0027s Church",
+        "locationConfidence": 1.9941822
+      }, {
+        "latitudeE7": 399006569,
+        "longitudeE7": -797289291,
+        "placeId": "ChIJjXXCKS4-NYgRrVzb7vXm2nI",
+        "address": "105 W Main St, Uniontown, PA 15401, USA",
+        "name": "Meloni\u0027s Restaurant",
+        "locationConfidence": 1.7693746
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 44,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398995185,
+        "longitudeE7": -797284810
+      },
+      "endLocation": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.992935
+      },
+      "duration": {
+        "startTimestamp": "2016-01-12T23:06:03.092Z",
+        "endTimestamp": "2016-01-12T23:14:10.771Z"
+      },
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398994674,
+          "lngE7": -797285079
+        }, {
+          "latE7": 398972053,
+          "lngE7": -797264938
+        }, {
+          "latE7": 398874549,
+          "lngE7": -797218780
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1904.1359659745685,
+        "travelMode": "BICYCLE",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 398971825,
+          "lngE7": -797264328,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-12T23:09:10.263Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.992935
+      },
+      "duration": {
+        "startTimestamp": "2016-01-12T23:14:10.771Z",
+        "endTimestamp": "2016-01-12T23:55:08.082Z"
+      },
+      "centerLatE7": 398876380,
+      "centerLngE7": -797222280,
+      "visitConfidence": 72,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.3489599
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.34255615
+      }, {
+        "latitudeE7": 398893833,
+        "longitudeE7": -797206844,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.22461827
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.09092805
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.992935
+      },
+      "endLocation": {
+        "latitudeE7": 398753558,
+        "longitudeE7": -797328059
+      },
+      "duration": {
+        "startTimestamp": "2016-01-12T23:55:08.082Z",
+        "endTimestamp": "2016-01-13T00:01:41.002Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }, {
+          "latE7": 398754844,
+          "lngE7": -797321395
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2597.775062527156,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398752574,
+        "longitudeE7": -797326570,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, Pennsylvania 15401-5645, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-13T00:01:41.002Z",
+        "endTimestamp": "2016-01-13T00:44:50.938Z"
+      },
+      "centerLatE7": 398752980,
+      "centerLngE7": -797327200,
+      "visitConfidence": 77,
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398753628,
+        "longitudeE7": -797325360
+      },
+      "endLocation": {
+        "latitudeE7": 398874618,
+        "longitudeE7": -797219580
+      },
+      "duration": {
+        "startTimestamp": "2016-01-13T00:44:50.938Z",
+        "endTimestamp": "2016-01-13T00:49:50.002Z"
+      },
+      "distance": 1785,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398754425,
+          "lngE7": -797321243
+        }, {
+          "latE7": 398874702,
+          "lngE7": -797218856
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2616.8167769097477,
+        "travelMode": "DRIVE",
+        "confidence": 0.9991665245728895
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.972496
+      },
+      "duration": {
+        "startTimestamp": "2016-01-13T00:49:50.002Z",
+        "endTimestamp": "2016-01-14T00:51:29.912Z"
+      },
+      "centerLatE7": 398875868,
+      "centerLngE7": -797222889,
+      "visitConfidence": 72,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.35665974
+      }, {
+        "latitudeE7": 398875787,
+        "longitudeE7": -797203195,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.2816071
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.21402705
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.1752127
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.972496
+      },
+      "endLocation": {
+        "latitudeE7": 398991339,
+        "longitudeE7": -797252490,
+        "placeId": "ChIJ5b3XbzE-NYgRqufo3CdlI2E",
+        "address": "61 Beeson Ave, Uniontown, PA 15401, USA",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-14T00:51:29.912Z",
+        "endTimestamp": "2016-01-14T01:01:07Z"
+      },
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }, {
+          "latE7": 398972740,
+          "lngE7": -797239379
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1282.764050864951,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398991163,
+        "longitudeE7": -797252577,
+        "placeId": "ChIJ5b3XbzE-NYgRqufo3CdlI2E",
+        "address": "61 Beeson Ave, Uniontown, PA 15401, USA",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-14T01:01:07Z",
+        "endTimestamp": "2016-01-14T01:37:23Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398976698,
+        "longitudeE7": -797233637,
+        "placeId": "ChIJ5wvE-TM-NYgRJO9e5dOeeWk",
+        "address": "61 E Fayette St # 4, Uniontown, PA 15401, USA",
+        "name": "Fayette County Zoning Office",
+        "locationConfidence": 3.4040844
+      }, {
+        "latitudeE7": 398969354,
+        "longitudeE7": -797268733,
+        "placeId": "ChIJPy92RjI-NYgRf9jXLlgpgT8",
+        "address": "140 Beeson Ave, Uniontown, PA 15401, USA",
+        "name": "Unemployment Compensation Tax",
+        "locationConfidence": 2.202272
+      }, {
+        "latitudeE7": 398977890,
+        "longitudeE7": -797250575,
+        "placeId": "ChIJrb712TM-NYgRQIgMxnfu6WY",
+        "address": "26 E Fayette St, Uniontown, PA 15401, USA",
+        "name": "Fox\u0027s Pizza, Subs \u0026 More",
+        "locationConfidence": 1.4807897
+      }, {
+        "latitudeE7": 398982704,
+        "longitudeE7": -797249867,
+        "placeId": "ChIJySzd-jM-NYgR6QYPPHburEs",
+        "address": "50 E Fayette St, Uniontown, PA 15401, USA",
+        "name": "Marshall Monuments",
+        "locationConfidence": 0.58702725
+      }, {
+        "latitudeE7": 398974649,
+        "longitudeE7": -797236050,
+        "placeId": "ChIJeb_p8DM-NYgRj0jp2J7BNEM",
+        "address": "60 W Fayette St, Uniontown, PA 15401, USA",
+        "name": "A \u0026 I Fire Extinguisher Co",
+        "locationConfidence": 0.41381785
+      }, {
+        "latitudeE7": 398970458,
+        "longitudeE7": -797221568,
+        "placeId": "ChIJf6__EzQ-NYgR0IvAZfCcMGo",
+        "address": "80 E Fayette St, Uniontown, PA 15401, USA",
+        "name": "Coral Reef Tropicals",
+        "locationConfidence": 0.23732856
+      }, {
+        "latitudeE7": 398977318,
+        "longitudeE7": -797235391,
+        "placeId": "ChIJ1ao--jM-NYgRo0ZBh8rmH2E",
+        "locationConfidence": 0.23502782
+      }, {
+        "latitudeE7": 398981384,
+        "longitudeE7": -797244203,
+        "placeId": "ChIJbzamly0-NYgRO-Gbltq3MpI",
+        "address": "159D Morgantown St D, Uniontown, PA 15401, USA",
+        "name": "Laurel Games LLC",
+        "locationConfidence": 0.20308077
+      }, {
+        "latitudeE7": 398963961,
+        "longitudeE7": -797272152,
+        "placeId": "ChIJN8mFXTI-NYgRaf0N4daSHQ4",
+        "address": "164 Beeson Ave, Uniontown, PA 15401, USA",
+        "name": "Lanzi Academy of Dance Inc",
+        "locationConfidence": 0.17884418
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2017-11-03T11:44:49.657Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJ5b3XbzE-NYgRqufo3CdlI2E",
+            "address": "61 Beeson Ave, Uniontown, PA 15401, USA",
+            "locationConfidence": 87.58515
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["CONFIRM"],
+            "uiConfiguration": {
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJ5b3XbzE-NYgRqufo3CdlI2E",
+                "address": "61 Beeson Ave, Uniontown, PA 15401, USA",
+                "locationConfidence": 87.58515
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJ5wvE-TM-NYgRJO9e5dOeeWk",
+                "address": "61 E Fayette St # 4, Uniontown, PA 15401, USA",
+                "name": "Fayette County Zoning Office",
+                "locationConfidence": 3.4040844
+              }
+            }]
+          }
+        }
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398991339,
+        "longitudeE7": -797252490,
+        "placeId": "ChIJ5b3XbzE-NYgRqufo3CdlI2E",
+        "address": "61 Beeson Ave, Uniontown, PA 15401, USA",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "endLocation": {
+        "latitudeE7": 399000760,
+        "longitudeE7": -797164326,
+        "placeId": "ChIJGScBwjM-NYgRpcE4gMwSJC0",
+        "address": "Fayette, Pennsylvania, United States",
+        "name": "Uniontown",
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-14T01:37:23Z",
+        "endTimestamp": "2016-01-14T01:40:32.563Z"
+      },
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398979263,
+          "lngE7": -797243728
+        }, {
+          "latE7": 398969535,
+          "lngE7": -797292633
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 584.0603671627945,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 399000760,
+        "longitudeE7": -797164326,
+        "placeId": "ChIJGScBwjM-NYgRpcE4gMwSJC0",
+        "address": "Fayette, Pennsylvania, United States",
+        "name": "Uniontown",
+        "semanticType": "TYPE_ALIASED_LOCATION",
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-14T01:40:32.563Z",
+        "endTimestamp": "2016-01-14T02:18:14.142Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398968048,
+        "longitudeE7": -797298022,
+        "placeId": "ChIJEZt-mi0-NYgRpVjg8r_eyUk",
+        "address": "145 Morgantown St, Uniontown, PA 15401, USA",
+        "name": "Darby\u0027s Pub \u0026 Restaurant",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 53.62648
+      }, {
+        "latitudeE7": 398969354,
+        "longitudeE7": -797268733,
+        "placeId": "ChIJPy92RjI-NYgRf9jXLlgpgT8",
+        "address": "140 Beeson Ave, Uniontown, PA 15401, USA",
+        "name": "Unemployment Compensation Tax",
+        "locationConfidence": 8.594399
+      }, {
+        "latitudeE7": 398967252,
+        "longitudeE7": -797306667,
+        "placeId": "ChIJLWSOri0-NYgRTbP63I4bgbQ",
+        "name": "Xtreme Detailing",
+        "locationConfidence": 4.2571335
+      }, {
+        "latitudeE7": 398967170,
+        "longitudeE7": -797301410,
+        "placeId": "ChIJkzWmly0-NYgRiUjMdeVKzRA",
+        "name": "Christopher W. Lester, RPH",
+        "locationConfidence": 2.9484146
+      }, {
+        "latitudeE7": 398969422,
+        "longitudeE7": -797299679,
+        "placeId": "ChIJPcejly0-NYgRXcwh3UQiwm0",
+        "address": "127 Morgantown St, Uniontown, PA 15401, USA",
+        "name": "One Hour Martinizing",
+        "locationConfidence": 2.2669218
+      }, {
+        "latitudeE7": 398965221,
+        "longitudeE7": -797299034,
+        "placeId": "ChIJkzWmly0-NYgRFdcfwwomy4w",
+        "address": "159 Morgantown St, Uniontown, PA 15401, USA",
+        "name": "Hair Styles By Francie",
+        "locationConfidence": 2.044193
+      }, {
+        "latitudeE7": 398982801,
+        "longitudeE7": -797293400,
+        "placeId": "ChIJU2kY-i0-NYgRUH-h0XD0NFs",
+        "name": "Vucic Distributing Inc",
+        "locationConfidence": 1.7817734
+      }, {
+        "latitudeE7": 398969385,
+        "longitudeE7": -797301498,
+        "placeId": "ChIJY1xdvS0-NYgRuTqhcjx0XZw",
+        "name": "Hairdoz",
+        "locationConfidence": 1.6492484
+      }, {
+        "latitudeE7": 398964988,
+        "longitudeE7": -797298658,
+        "placeId": "ChIJkzWmly0-NYgR6hO2e5Kx_UU",
+        "address": "269 S Mt Vernon Ave, Uniontown, PA 15401, USA",
+        "name": "Laurel Physiatry",
+        "locationConfidence": 1.5841569
+      }, {
+        "latitudeE7": 398963961,
+        "longitudeE7": -797272152,
+        "placeId": "ChIJN8mFXTI-NYgRaf0N4daSHQ4",
+        "address": "164 Beeson Ave, Uniontown, PA 15401, USA",
+        "name": "Lanzi Academy of Dance Inc",
+        "locationConfidence": 1.4117336
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "AREA",
+      "lastEditedTimestamp": "2017-11-03T11:44:38.704Z",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398968988,
+        "longitudeE7": -797298727
+      },
+      "endLocation": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.77922
+      },
+      "duration": {
+        "startTimestamp": "2016-01-14T02:18:14.142Z",
+        "endTimestamp": "2016-01-14T02:20:33.868Z"
+      },
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398969345,
+          "lngE7": -797299957
+        }, {
+          "latE7": 398873977,
+          "lngE7": -797218704
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1564.3694254076343,
+        "travelMode": "BICYCLE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.77922
+      },
+      "duration": {
+        "startTimestamp": "2016-01-14T02:20:33.868Z",
+        "endTimestamp": "2016-01-15T01:26:10.282Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398876778,
+      "centerLngE7": -797222411,
+      "visitConfidence": 69,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.41933265
+      }, {
+        "latitudeE7": 398875787,
+        "longitudeE7": -797203195,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.30915415
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.28751984
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.20477061
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398875714,
+        "longitudeE7": -797220433
+      },
+      "endLocation": {
+        "latitudeE7": 398788100,
+        "longitudeE7": -797273902
+      },
+      "duration": {
+        "startTimestamp": "2016-01-15T01:26:10.282Z",
+        "endTimestamp": "2016-01-15T01:52:21.984Z"
+      },
+      "distance": 5684,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398875846,
+          "lngE7": -797219009
+        }, {
+          "latE7": 398994865,
+          "lngE7": -797281265
+        }, {
+          "latE7": 398955955,
+          "lngE7": -797275466
+        }, {
+          "latE7": 398753547,
+          "lngE7": -797320785
+        }, {
+          "latE7": 398765220,
+          "lngE7": -797257919
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1876.834233694488,
+        "travelMode": "BICYCLE",
+        "confidence": 0.9470126882866431
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 398994827,
+          "lngE7": -797279205,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-15T01:32:16.002Z"
+        }, {
+          "latE7": 398955765,
+          "lngE7": -797274933,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-15T01:34:49Z"
+        }, {
+          "latE7": 398750534,
+          "lngE7": -797323990,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-15T01:40:14Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398765123,
+        "longitudeE7": -797257721
+      },
+      "endLocation": {
+        "latitudeE7": 398788100,
+        "longitudeE7": -797273902
+      },
+      "duration": {
+        "startTimestamp": "2016-01-15T01:52:21.984Z",
+        "endTimestamp": "2016-01-15T05:14:12.382Z"
+      },
+      "distance": 290,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398765220,
+          "lngE7": -797257919
+        }, {
+          "latE7": 398787918,
+          "lngE7": -797274017
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 393.4770570816734,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398788100,
+        "longitudeE7": -797273902
+      },
+      "endLocation": {
+        "latitudeE7": 398875753,
+        "longitudeE7": -797221423
+      },
+      "duration": {
+        "startTimestamp": "2016-01-15T05:14:12.382Z",
+        "endTimestamp": "2016-01-15T05:17:50.052Z"
+      },
+      "distance": 1083,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398788108,
+          "lngE7": -797274017
+        }, {
+          "latE7": 398875999,
+          "lngE7": -797219009
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1479.5743210779137,
+        "travelMode": "BICYCLE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.78646
+      },
+      "duration": {
+        "startTimestamp": "2016-01-15T05:17:50.052Z",
+        "endTimestamp": "2016-01-16T01:17:15.010Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398876650,
+      "centerLngE7": -797222670,
+      "visitConfidence": 68,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.3509824
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.33788273
+      }, {
+        "latitudeE7": 398875787,
+        "longitudeE7": -797203195,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.28157648
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.24309434
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398876145,
+        "longitudeE7": -797220843
+      },
+      "endLocation": {
+        "latitudeE7": 398843678,
+        "longitudeE7": -797360186
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T01:17:15.010Z",
+        "endTimestamp": "2016-01-16T01:31:59.334Z"
+      },
+      "distance": 1242,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }, {
+          "latE7": 398844375,
+          "lngE7": -797358551
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2356.1187701081285,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 399241100,
+        "longitudeE7": -797267380,
+        "placeId": "ChIJUWiDFVkVNYgRKvshloNlUww",
+        "address": "627 Pittsburgh Road, Uniontown, Pennsylvania 15401, United States",
+        "name": "US Social Security Administration",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 8.277995
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T01:31:59.334Z",
+        "endTimestamp": "2016-01-16T01:46:35.009Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 398843600,
+      "centerLngE7": -797360167,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398843561,
+        "longitudeE7": -797361272,
+        "placeId": "ChIJJY-abtc_NYgR0XWbF0Sirek",
+        "address": "554 Morgantown Rd, Uniontown, PA 15401, USA",
+        "name": "Serafino Anthony",
+        "locationConfidence": 7.163322
+      }, {
+        "latitudeE7": 398843561,
+        "longitudeE7": -797361272,
+        "placeId": "ChIJJY-abtc_NYgRw1b3bFWjKtI",
+        "name": "Frazee Sam",
+        "locationConfidence": 7.163322
+      }, {
+        "latitudeE7": 398843561,
+        "longitudeE7": -797361272,
+        "placeId": "ChIJJY-abtc_NYgRv1xkvF6h4jE",
+        "name": "Woleslagle James S",
+        "locationConfidence": 7.163322
+      }, {
+        "latitudeE7": 398843561,
+        "longitudeE7": -797361272,
+        "placeId": "ChIJJY-abtc_NYgRGRTyNPDRdiQ",
+        "address": "554 Morgantown Rd, Uniontown, PA 15401, USA",
+        "name": "Martin Dennis",
+        "locationConfidence": 7.163322
+      }, {
+        "latitudeE7": 398843561,
+        "longitudeE7": -797361272,
+        "placeId": "ChIJJY-abtc_NYgRrK42X90J9Os",
+        "address": "554 Morgantown Rd, Uniontown, PA 15401, USA",
+        "name": "Wroble Dave",
+        "locationConfidence": 7.163322
+      }, {
+        "latitudeE7": 398843561,
+        "longitudeE7": -797361272,
+        "placeId": "ChIJJY-abtc_NYgRUlngGzG6BXA",
+        "address": "554 Morgantown Rd, Uniontown, PA 15401, USA",
+        "name": "Mitchell Mary",
+        "locationConfidence": 7.163322
+      }, {
+        "latitudeE7": 398843561,
+        "longitudeE7": -797361272,
+        "placeId": "ChIJJY-abtc_NYgRt53wQNdOaso",
+        "name": "De Clemente Joseph",
+        "locationConfidence": 7.163322
+      }, {
+        "latitudeE7": 398843561,
+        "longitudeE7": -797361272,
+        "placeId": "ChIJJY-abtc_NYgR5yGKGrWFl7c",
+        "address": "554 Morgantown Rd, Uniontown, PA 15401, USA",
+        "name": "Zinn Dianne M",
+        "locationConfidence": 7.163322
+      }, {
+        "latitudeE7": 398843561,
+        "longitudeE7": -797361272,
+        "placeId": "ChIJJY-abtc_NYgRhaBbWRUJlgM",
+        "name": "Zundel Marietta",
+        "locationConfidence": 7.163322
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 13,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398843608,
+        "longitudeE7": -797360183
+      },
+      "endLocation": {
+        "latitudeE7": 398906108,
+        "longitudeE7": -797244179
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T01:46:35.009Z",
+        "endTimestamp": "2016-01-16T02:01:16.422Z"
+      },
+      "distance": 1209,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398844299,
+          "lngE7": -797358474
+        }, {
+          "latE7": 398905715,
+          "lngE7": -797244262
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1781.719801961105,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398906108,
+        "longitudeE7": -797244179
+      },
+      "endLocation": {
+        "latitudeE7": 398875812,
+        "longitudeE7": -797220486
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T02:01:16.422Z",
+        "endTimestamp": "2016-01-16T02:45:15.999Z"
+      },
+      "distance": 392,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398905715,
+          "lngE7": -797244262
+        }, {
+          "latE7": 398875923,
+          "lngE7": -797219009
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 512.8897309986396,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398875812,
+        "longitudeE7": -797220486
+      },
+      "endLocation": {
+        "latitudeE7": 399086340,
+        "longitudeE7": -797344995
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T02:45:15.999Z",
+        "endTimestamp": "2016-01-16T08:15:17.006Z"
+      },
+      "distance": 9703,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING_NORDIC",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398875923,
+          "lngE7": -797219009
+        }, {
+          "latE7": 398996810,
+          "lngE7": -797294311
+        }, {
+          "latE7": 399085845,
+          "lngE7": -797343826
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 3341.5930134737964,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 398995323,
+          "lngE7": -797295761,
+          "accuracyMeters": 5,
+          "timestamp": "2016-01-16T07:57:47.476Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 399083740,
+        "longitudeE7": -797359360,
+        "placeId": "ChIJCy7_wCY-NYgReTWLHxWTrks",
+        "address": "115 Oakland Ave, Uniontown, PA 15401, USA",
+        "name": "St Anthony Friary",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 58.098682
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T08:15:17.006Z",
+        "endTimestamp": "2016-01-16T08:39:47.999Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 399090900,
+      "centerLngE7": -797347900,
+      "visitConfidence": 72,
+      "otherCandidateLocations": [{
+        "latitudeE7": 399098382,
+        "longitudeE7": -797350277,
+        "placeId": "ChIJmc5Iy0k-NYgRRXMFWzq5hiU",
+        "locationConfidence": 19.087067
+      }, {
+        "latitudeE7": 399088495,
+        "longitudeE7": -797320630,
+        "placeId": "ChIJEUuceSQ-NYgReCH5cUInzOs",
+        "address": "61 Arlington Ave, Uniontown, PA 15401, USA",
+        "name": "West Side Auto Repair",
+        "locationConfidence": 9.021191
+      }, {
+        "latitudeE7": 398971070,
+        "longitudeE7": -797157350,
+        "placeId": "ChIJV70gQyQ-NYgR4r_KFAaJ_5U",
+        "address": "297 E Main St, Uniontown, PA 15401, USA",
+        "name": "Lantz Funeral Home, Inc.",
+        "locationConfidence": 6.1225395
+      }, {
+        "latitudeE7": 399071348,
+        "longitudeE7": -797353636,
+        "placeId": "ChIJc5WMiCY-NYgRHFeUTuPsPhI",
+        "address": "72 Oakland Ave, Uniontown, PA 15401, USA",
+        "name": "A Advanced Chimney Sweeps",
+        "locationConfidence": 4.3121786
+      }, {
+        "latitudeE7": 399065720,
+        "longitudeE7": -797334980,
+        "placeId": "ChIJ0zn-zCU-NYgRk16fUerbrS0",
+        "address": "100 Gilmore St, Uniontown, PA 15401, USA",
+        "name": "Belfer Norman MD",
+        "locationConfidence": 2.009377
+      }, {
+        "latitudeE7": 399069373,
+        "longitudeE7": -797355082,
+        "placeId": "ChIJq2FwYiY-NYgRIAFBss2BONI",
+        "address": "68 Oakland Ave, Uniontown, PA 15401, USA",
+        "name": "Advance Roofing Concepts Inc",
+        "locationConfidence": 1.3489628
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 54,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 399083740,
+        "longitudeE7": -797359360,
+        "placeId": "ChIJCy7_wCY-NYgReTWLHxWTrks",
+        "address": "115 Oakland Ave, Uniontown, PA 15401, USA",
+        "name": "St Anthony Friary",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 58.098682
+      },
+      "endLocation": {
+        "latitudeE7": 398873186,
+        "longitudeE7": -797221844
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T08:39:47.999Z",
+        "endTimestamp": "2016-01-16T09:39:26.123Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING_NORDIC",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 399087562,
+          "lngE7": -797342605
+        }, {
+          "latE7": 398873481,
+          "lngE7": -797218627
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 3390.6454828915817,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 99.12187
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T09:39:26.123Z",
+        "endTimestamp": "2016-01-16T22:09:31.003Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398873733,
+      "centerLngE7": -797221500,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875787,
+        "longitudeE7": -797203195,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.29222018
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.2628457
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.25607887
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.06698686
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398874232,
+        "longitudeE7": -797220512
+      },
+      "endLocation": {
+        "latitudeE7": 399090784,
+        "longitudeE7": -797437483
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T22:09:31.003Z",
+        "endTimestamp": "2016-01-16T22:45:58.602Z"
+      },
+      "distance": 1820,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398874397,
+          "lngE7": -797218780
+        }, {
+          "latE7": 398904380,
+          "lngE7": -797236480
+        }, {
+          "latE7": 399015007,
+          "lngE7": -797304382
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2202.976944213826,
+        "travelMode": "WALK",
+        "confidence": 0.13549696851596046
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 398905373,
+          "lngE7": -797235718,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-16T22:32:36.606Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 399016652,
+        "longitudeE7": -797305673
+      },
+      "endLocation": {
+        "latitudeE7": 399090784,
+        "longitudeE7": -797437483
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T22:45:58.602Z",
+        "endTimestamp": "2016-01-16T23:04:19.004Z"
+      },
+      "distance": 1394,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 399013862,
+          "lngE7": -797306747
+        }, {
+          "latE7": 399090538,
+          "lngE7": -797437438
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1689.7105395444394,
+        "travelMode": "DRIVE",
+        "confidence": 0.9009394388115027
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 399090784,
+        "longitudeE7": -797437483
+      },
+      "endLocation": {
+        "latitudeE7": 399072546,
+        "longitudeE7": -797407947
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T23:04:19.004Z",
+        "endTimestamp": "2016-01-16T23:19:05.912Z"
+      },
+      "distance": 323,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 399090538,
+          "lngE7": -797437438
+        }, {
+          "latE7": 399072952,
+          "lngE7": -797407379
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 333.7187707641272,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 399072546,
+        "longitudeE7": -797407947
+      },
+      "endLocation": {
+        "latitudeE7": 398876765,
+        "longitudeE7": -797226776
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T23:19:05.912Z",
+        "endTimestamp": "2016-01-16T23:22:25.883Z"
+      },
+      "distance": 1756,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 399072952,
+          "lngE7": -797407379
+        }, {
+          "latE7": 398951683,
+          "lngE7": -797275619
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2035.9705602976248,
+        "travelMode": "BICYCLE",
+        "confidence": 0.9996932592187342
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398951421,
+        "longitudeE7": -797275766
+      },
+      "endLocation": {
+        "latitudeE7": 398876765,
+        "longitudeE7": -797226776
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T23:22:25.883Z",
+        "endTimestamp": "2016-01-16T23:37:25.430Z"
+      },
+      "distance": 929,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398951683,
+          "lngE7": -797275619
+        }, {
+          "latE7": 398881301,
+          "lngE7": -797225112
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1129.832461451982,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 99.08637
+      },
+      "duration": {
+        "startTimestamp": "2016-01-16T23:37:25.430Z",
+        "endTimestamp": "2016-01-17T01:58:32.015Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398877050,
+      "centerLngE7": -797226425,
+      "visitConfidence": 75,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.3402776
+      }, {
+        "latitudeE7": 398875787,
+        "longitudeE7": -797203195,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.28603697
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.22252114
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.06479219
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398875821,
+        "longitudeE7": -797222544
+      },
+      "endLocation": {
+        "latitudeE7": 398752531,
+        "longitudeE7": -797325724
+      },
+      "duration": {
+        "startTimestamp": "2016-01-17T01:58:32.015Z",
+        "endTimestamp": "2016-01-17T02:13:22Z"
+      },
+      "distance": 1629,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }, {
+          "latE7": 398753700,
+          "lngE7": -797321014
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2584.6482839276878,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398752531,
+        "longitudeE7": -797325724
+      },
+      "endLocation": {
+        "latitudeE7": 398711594,
+        "longitudeE7": -797422504
+      },
+      "duration": {
+        "startTimestamp": "2016-01-17T02:13:22Z",
+        "endTimestamp": "2016-01-17T03:17:06.422Z"
+      },
+      "distance": 943,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398753700,
+          "lngE7": -797321014
+        }, {
+          "latE7": 398711776,
+          "lngE7": -797417984
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 3167.0992965900828,
+        "travelMode": "WALK",
+        "confidence": 0.8598004439274014
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398711594,
+        "longitudeE7": -797422504
+      },
+      "endLocation": {
+        "latitudeE7": 398873570,
+        "longitudeE7": -797219555
+      },
+      "duration": {
+        "startTimestamp": "2016-01-17T03:17:06.422Z",
+        "endTimestamp": "2016-01-17T03:28:10.009Z"
+      },
+      "distance": 2498,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398711776,
+          "lngE7": -797417984
+        }, {
+          "latE7": 398873634,
+          "lngE7": -797218704
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 3607.734969459687,
+        "travelMode": "DRIVE",
+        "confidence": 0.8920861107987338
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.8525
+      },
+      "duration": {
+        "startTimestamp": "2016-01-17T03:28:10.009Z",
+        "endTimestamp": "2016-01-17T23:42:00.501Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398874557,
+      "centerLngE7": -797219643,
+      "visitConfidence": 76,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875787,
+        "longitudeE7": -797203195,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.41311812
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.41216937
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.25099248
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.07121913
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398874208,
+        "longitudeE7": -797221163
+      },
+      "endLocation": {
+        "latitudeE7": 398877461,
+        "longitudeE7": -797227134
+      },
+      "duration": {
+        "startTimestamp": "2016-01-17T23:42:00.501Z",
+        "endTimestamp": "2016-01-18T00:28:56.454Z"
+      },
+      "distance": 2360,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING_NORDIC",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398874435,
+          "lngE7": -797218780
+        }, {
+          "latE7": 398881416,
+          "lngE7": -797225646
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 124.25783571735137,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 99.07621
+      },
+      "duration": {
+        "startTimestamp": "2016-01-18T00:28:56.454Z",
+        "endTimestamp": "2016-01-18T23:48:16.119Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398874786,
+      "centerLngE7": -797222414,
+      "visitConfidence": 73,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.3427192
+      }, {
+        "latitudeE7": 398875787,
+        "longitudeE7": -797203195,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.29544812
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.22945905
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.056166228
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398874277,
+        "longitudeE7": -797221029
+      },
+      "endLocation": {
+        "latitudeE7": 398734005,
+        "longitudeE7": -797253347
+      },
+      "duration": {
+        "startTimestamp": "2016-01-18T23:48:16.119Z",
+        "endTimestamp": "2016-01-19T00:35:33.241Z"
+      },
+      "distance": 1583,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398874473,
+          "lngE7": -797218780
+        }, {
+          "latE7": 398733673,
+          "lngE7": -797250137
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2721.780086601041,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398734005,
+        "longitudeE7": -797253347
+      },
+      "endLocation": {
+        "latitudeE7": 398754657,
+        "longitudeE7": -797328386
+      },
+      "duration": {
+        "startTimestamp": "2016-01-19T00:35:33.241Z",
+        "endTimestamp": "2016-01-19T01:00:05Z"
+      },
+      "distance": 680,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398732910,
+          "lngE7": -797250747
+        }, {
+          "latE7": 398755111,
+          "lngE7": -797321472
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1025.4839400302258,
+        "travelMode": "WALK",
+        "confidence": 0.9678941583176245
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398752574,
+        "longitudeE7": -797326570,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, Pennsylvania 15401-5645, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-19T01:00:05Z",
+        "endTimestamp": "2016-01-19T04:52:30.060Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398753475,
+      "centerLngE7": -797327825,
+      "visitConfidence": 76,
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398753514,
+        "longitudeE7": -797325722
+      },
+      "endLocation": {
+        "latitudeE7": 398875119,
+        "longitudeE7": -797221950
+      },
+      "duration": {
+        "startTimestamp": "2016-01-19T04:52:30.060Z",
+        "endTimestamp": "2016-01-19T04:57:28Z"
+      },
+      "distance": 1637,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398754386,
+          "lngE7": -797321243
+        }, {
+          "latE7": 398875389,
+          "lngE7": -797218933
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2608.756273409452,
+        "travelMode": "BICYCLE",
+        "confidence": 0.9970897132321874
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.8032
+      },
+      "duration": {
+        "startTimestamp": "2016-01-19T04:57:28Z",
+        "endTimestamp": "2016-01-19T18:10:25.071Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398877071,
+      "centerLngE7": -797224800,
+      "visitConfidence": 70,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.40803167
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.34557587
+      }, {
+        "latitudeE7": 398875787,
+        "longitudeE7": -797203195,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.26018873
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.18300407
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398877599,
+        "longitudeE7": -797221809
+      },
+      "endLocation": {
+        "latitudeE7": 399005147,
+        "longitudeE7": -797248542
+      },
+      "duration": {
+        "startTimestamp": "2016-01-19T18:10:25.071Z",
+        "endTimestamp": "2016-01-19T18:12:55Z"
+      },
+      "distance": 6912,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398877639,
+          "lngE7": -797219161
+        }, {
+          "latE7": 399007225,
+          "lngE7": -797248840
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1889.3503388596034,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398991339,
+        "longitudeE7": -797252490,
+        "placeId": "ChIJ5b3XbzE-NYgRqufo3CdlI2E",
+        "address": "61 South Beeson Boulevard, Uniontown, Pennsylvania 15401, United States",
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-19T18:12:55Z",
+        "endTimestamp": "2016-01-19T18:24:06Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398999060,
+        "longitudeE7": -797247500,
+        "placeId": "ChIJwayBFjE-NYgRkS4QxrbMyag",
+        "address": "8 E Church St, Uniontown, PA 15401, USA",
+        "name": "Herald Standard",
+        "locationConfidence": 4.2005773
+      }, {
+        "latitudeE7": 399001511,
+        "longitudeE7": -797253062,
+        "placeId": "ChIJlTa4DzE-NYgR0MeoPVezPyE",
+        "address": "23 W Church Ave, Masontown, PA 15461, USA",
+        "name": "Parking Lot Supervisor",
+        "locationConfidence": 2.0817227
+      }, {
+        "latitudeE7": 398999989,
+        "longitudeE7": -797243091,
+        "placeId": "ChIJnZ4b4TY-NYgRCPhRLFvTK5c",
+        "address": "24 E Church St, Uniontown, PA 15401, USA",
+        "name": "BPOE",
+        "locationConfidence": 1.8465983
+      }, {
+        "latitudeE7": 399005470,
+        "longitudeE7": -797251789,
+        "placeId": "ChIJt0oOAzE-NYgRcUaiaml6vtA",
+        "address": "19 Beeson Ave, Uniontown, PA 15401, USA",
+        "name": "KeyBank",
+        "locationConfidence": 1.4617573
+      }, {
+        "latitudeE7": 399009870,
+        "longitudeE7": -797247573,
+        "placeId": "ChIJ-9ZP4DA-NYgRrI78ktbSPfY",
+        "address": "2 W Main St, Uniontown, PA 15401, USA",
+        "name": "Fayette County Election Bureau",
+        "locationConfidence": 0.9621447
+      }, {
+        "latitudeE7": 399010241,
+        "longitudeE7": -797247903,
+        "placeId": "ChIJ-9ZP4DA-NYgRavQWEAo02tI",
+        "address": "22 E Main St #5, Uniontown, PA 15401, USA",
+        "name": "Fayette County Domestic Relations",
+        "locationConfidence": 0.9330891
+      }, {
+        "latitudeE7": 399009870,
+        "longitudeE7": -797247573,
+        "placeId": "ChIJ-9ZP4DA-NYgRHS0h2i7nrWE",
+        "address": "22 E Main St #3, Uniontown, PA 15401, USA",
+        "name": "Fayette County Adult Probation",
+        "locationConfidence": 0.92674875
+      }, {
+        "latitudeE7": 399012031,
+        "longitudeE7": -797252285,
+        "placeId": "ChIJBc454TA-NYgRdjcLVE0hct4",
+        "address": "24 E Main St, Uniontown, PA 15401, USA",
+        "name": "Fayette County Emergency Management",
+        "locationConfidence": 0.7685354
+      }, {
+        "latitudeE7": 398997865,
+        "longitudeE7": -797251290,
+        "placeId": "ChIJZ08KDTE-NYgRk8P4uJL5bPw",
+        "address": "43 Beeson Ave, Uniontown, PA 15401, USA",
+        "name": "Janney Montgomery Scott LLC",
+        "locationConfidence": 0.72305757
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2017-11-03T11:45:40.086Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["CONFIRM"],
+            "uiConfiguration": {
+            }
+          }]
+        }
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398877599,
+        "longitudeE7": -797221809
+      },
+      "endLocation": {
+        "latitudeE7": 399005147,
+        "longitudeE7": -797248542
+      },
+      "duration": {
+        "startTimestamp": "2016-01-19T18:24:06.999Z",
+        "endTimestamp": "2016-01-19T18:37:42.395Z"
+      },
+      "distance": 6912,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 399001808,
+          "lngE7": -797249374
+        }, {
+          "latE7": 398753318,
+          "lngE7": -797308425
+        }, {
+          "latE7": 398955802,
+          "lngE7": -797275543
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 580.4385080589379,
+        "travelMode": "DRIVE",
+        "confidence": 0.9987199010803902
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 398753128,
+          "lngE7": -797308426,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-19T18:30:00.399Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398956932,
+        "longitudeE7": -797278538
+      },
+      "endLocation": {
+        "latitudeE7": 398876270,
+        "longitudeE7": -797220057
+      },
+      "duration": {
+        "startTimestamp": "2016-01-19T18:37:42.395Z",
+        "endTimestamp": "2016-01-19T18:45:06Z"
+      },
+      "distance": 815,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398955802,
+          "lngE7": -797275543
+        }, {
+          "latE7": 398986244,
+          "lngE7": -797257003
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 373.83312312426625,
+        "travelMode": "WALK",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398986129,
+        "longitudeE7": -797256376
+      },
+      "endLocation": {
+        "latitudeE7": 398876901,
+        "longitudeE7": -797220313
+      },
+      "duration": {
+        "startTimestamp": "2016-01-19T18:45:06Z",
+        "endTimestamp": "2016-01-19T18:48:47.487Z"
+      },
+      "distance": 80256,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398986244,
+          "lngE7": -797257003
+        }, {
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1618.2697434199013,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.67572
+      },
+      "duration": {
+        "startTimestamp": "2016-01-19T18:48:47.487Z",
+        "endTimestamp": "2016-01-19T18:57:27.999Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398879800,
+      "centerLngE7": -797224567,
+      "visitConfidence": 65,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.5241295
+      }, {
+        "latitudeE7": 398875787,
+        "longitudeE7": -797203195,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.30668512
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.2520519
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.24141085
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398986129,
+        "longitudeE7": -797256376
+      },
+      "endLocation": {
+        "latitudeE7": 398876901,
+        "longitudeE7": -797220313
+      },
+      "duration": {
+        "startTimestamp": "2016-01-19T18:57:27.999Z",
+        "endTimestamp": "2016-01-19T20:44:23Z"
+      },
+      "distance": 80256,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398881034,
+          "lngE7": -797223052
+        }, {
+          "latE7": 396561164,
+          "lngE7": -799498977
+        }, {
+          "latE7": 398994712,
+          "lngE7": -797288742
+        }, {
+          "latE7": 398987045,
+          "lngE7": -797266845
+        }, {
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 81753.56096830733,
+        "travelMode": "DRIVE",
+        "confidence": 0.995914447045832
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 396563263,
+          "lngE7": -799498672,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-19T19:29:52.999Z"
+        }, {
+          "latE7": 398997002,
+          "lngE7": -797289581,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-19T20:27:15.001Z"
+        }, {
+          "latE7": 398987198,
+          "lngE7": -797266769,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-19T20:37:55.403Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.7844
+      },
+      "duration": {
+        "startTimestamp": "2016-01-19T20:44:23Z",
+        "endTimestamp": "2016-01-20T17:40:50.167Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398877300,
+      "centerLngE7": -797224455,
+      "visitConfidence": 68,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.41793856
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.34613028
+      }, {
+        "latitudeE7": 398875787,
+        "longitudeE7": -797203195,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.26373664
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.18779619
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398872886,
+        "longitudeE7": -797220147
+      },
+      "endLocation": {
+        "latitudeE7": 398991339,
+        "longitudeE7": -797252490,
+        "placeId": "ChIJ5b3XbzE-NYgRqufo3CdlI2E",
+        "address": "61 South Beeson Boulevard, Uniontown, Pennsylvania 15401, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 54.326397
+      },
+      "duration": {
+        "startTimestamp": "2016-01-20T17:40:50.167Z",
+        "endTimestamp": "2016-01-20T18:17:34.003Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398873291,
+          "lngE7": -797218627
+        }, {
+          "latE7": 398955535,
+          "lngE7": -797275695
+        }, {
+          "latE7": 399012908,
+          "lngE7": -797243804
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2027.889886290052,
+        "travelMode": "DRIVE",
+        "confidence": 0.9965393294667514
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 398955116,
+          "lngE7": -797274628,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-20T18:15:09.406Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398991339,
+        "longitudeE7": -797252490,
+        "placeId": "ChIJ5b3XbzE-NYgRqufo3CdlI2E",
+        "address": "61 South Beeson Boulevard, Uniontown, Pennsylvania 15401, United States",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 54.326397
+      },
+      "duration": {
+        "startTimestamp": "2016-01-20T18:17:34.003Z",
+        "endTimestamp": "2016-01-20T18:27:56.260Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 399011575,
+      "centerLngE7": -797244100,
+      "visitConfidence": 76,
+      "otherCandidateLocations": [{
+        "latitudeE7": 399010241,
+        "longitudeE7": -797247903,
+        "placeId": "ChIJ-9ZP4DA-NYgRavQWEAo02tI",
+        "address": "22 E Main St #5, Uniontown, PA 15401, USA",
+        "name": "Fayette County Domestic Relations",
+        "locationConfidence": 4.046589
+      }, {
+        "latitudeE7": 399009870,
+        "longitudeE7": -797247573,
+        "placeId": "ChIJ-9ZP4DA-NYgRrI78ktbSPfY",
+        "address": "2 W Main St, Uniontown, PA 15401, USA",
+        "name": "Fayette County Election Bureau",
+        "locationConfidence": 3.8760886
+      }, {
+        "latitudeE7": 399009870,
+        "longitudeE7": -797247573,
+        "placeId": "ChIJ-9ZP4DA-NYgRHS0h2i7nrWE",
+        "address": "22 E Main St #3, Uniontown, PA 15401, USA",
+        "name": "Fayette County Adult Probation",
+        "locationConfidence": 3.7348533
+      }, {
+        "latitudeE7": 399015640,
+        "longitudeE7": -797245010,
+        "placeId": "ChIJD1tz3TA-NYgRfjXEFjB0OMc",
+        "address": "37 E Main St, Uniontown, PA 15401, USA",
+        "name": "State Theatre Center For the Arts",
+        "locationConfidence": 2.271496
+      }, {
+        "latitudeE7": 399012031,
+        "longitudeE7": -797252285,
+        "placeId": "ChIJBc454TA-NYgRdjcLVE0hct4",
+        "address": "24 E Main St, Uniontown, PA 15401, USA",
+        "name": "Fayette County Emergency Management",
+        "locationConfidence": 2.1935444
+      }, {
+        "latitudeE7": 399020095,
+        "longitudeE7": -797230297,
+        "placeId": "ChIJqc8AyjA-NYgRfXileCcIX1k",
+        "address": "12 Court St, Uniontown, PA 15401, USA",
+        "name": "Fayette County Prison",
+        "locationConfidence": 1.4185354
+      }, {
+        "latitudeE7": 399015293,
+        "longitudeE7": -797225477,
+        "placeId": "ChIJQW1p0jA-NYgR93gcz71BQIU",
+        "address": "61 E Main St # 3G, Uniontown, PA 15401, USA",
+        "name": "Fayette County Court Administration",
+        "locationConfidence": 1.3914393
+      }, {
+        "latitudeE7": 399017756,
+        "longitudeE7": -797226353,
+        "placeId": "ChIJr6O1_n8VNYgR6HXD0Mh-6hE",
+        "address": "61 E Main St #1h, Uniontown, PA 15401, USA",
+        "name": "Fayette County Commissioners",
+        "locationConfidence": 1.3768425
+      }, {
+        "latitudeE7": 399010559,
+        "longitudeE7": -797237630,
+        "placeId": "ChIJlex80DA-NYgR44C-AaFSbf0",
+        "address": "50 E Main St, Uniontown, PA 15401, USA",
+        "name": "Law Office of Jack W. Connor",
+        "locationConfidence": 1.2662889
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 51,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 399012033,
+        "longitudeE7": -797243679
+      },
+      "endLocation": {
+        "latitudeE7": 398752574,
+        "longitudeE7": -797326570,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, Pennsylvania 15401-5645, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-20T18:27:56.260Z",
+        "endTimestamp": "2016-01-20T18:44:35.999Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 399012908,
+          "lngE7": -797243804
+        }, {
+          "latE7": 398841629,
+          "lngE7": -797350540
+        }, {
+          "latE7": 398754539,
+          "lngE7": -797321243
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 3898.385438466554,
+        "travelMode": "DRIVE",
+        "confidence": 0.9867919117059682
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 398840179,
+          "lngE7": -797349472,
+          "accuracyMeters": 5,
+          "timestamp": "2016-01-20T18:34:00Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398752574,
+        "longitudeE7": -797326570,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, Pennsylvania 15401-5645, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-20T18:44:35.999Z",
+        "endTimestamp": "2016-01-20T20:51:57.010Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398753850,
+      "centerLngE7": -797326738,
+      "visitConfidence": 76,
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398752574,
+        "longitudeE7": -797326570,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, Pennsylvania 15401-5645, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 100.0
+      },
+      "endLocation": {
+        "latitudeE7": 399007590,
+        "longitudeE7": -797242816
+      },
+      "duration": {
+        "startTimestamp": "2016-01-20T20:51:57.010Z",
+        "endTimestamp": "2016-01-20T21:03:08.399Z"
+      },
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398755111,
+          "lngE7": -797321472
+        }, {
+          "latE7": 399007759,
+          "lngE7": -797242813
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 4053.603917894832,
+        "travelMode": "BICYCLE",
+        "confidence": 0.06837963342831858
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 399003276,
+        "longitudeE7": -797250468
+      },
+      "endLocation": {
+        "latitudeE7": 399004558,
+        "longitudeE7": -797249043
+      },
+      "duration": {
+        "startTimestamp": "2016-01-20T21:03:08.399Z",
+        "endTimestamp": "2016-01-20T21:11:13.141Z"
+      },
+      "distance": 281,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 399001731,
+          "lngE7": -797250213
+        }, {
+          "latE7": 399001884,
+          "lngE7": -797248535
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 14.409234803489506,
+        "travelMode": "WALK",
+        "confidence": 0.9975387765752585
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 399009739,
+        "longitudeE7": -797243863
+      },
+      "endLocation": {
+        "latitudeE7": 399010540,
+        "longitudeE7": -797284926
+      },
+      "duration": {
+        "startTimestamp": "2016-01-20T21:11:13.141Z",
+        "endTimestamp": "2016-01-20T21:21:37.455Z"
+      },
+      "distance": 365,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 399009742,
+          "lngE7": -797243881
+        }, {
+          "latE7": 399009590,
+          "lngE7": -797284851
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 467.53572007472957,
+        "travelMode": "BICYCLE",
+        "confidence": 0.9972600910701931
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 399010540,
+        "longitudeE7": -797284926
+      },
+      "endLocation": {
+        "latitudeE7": 399066145,
+        "longitudeE7": -797318751
+      },
+      "duration": {
+        "startTimestamp": "2016-01-20T21:21:37.455Z",
+        "endTimestamp": "2016-01-20T21:24:37Z"
+      },
+      "distance": 641,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 399009590,
+          "lngE7": -797284851
+        }, {
+          "latE7": 399051361,
+          "lngE7": -797322311
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 904.0154333603859,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 399051802,
+        "longitudeE7": -797322955
+      },
+      "endLocation": {
+        "latitudeE7": 398874496,
+        "longitudeE7": -797221605
+      },
+      "duration": {
+        "startTimestamp": "2016-01-20T21:24:37Z",
+        "endTimestamp": "2016-01-20T21:43:51.660Z"
+      },
+      "distance": 2440,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 399051361,
+          "lngE7": -797322311
+        }, {
+          "latE7": 399073791,
+          "lngE7": -797330322
+        }, {
+          "latE7": 399028320,
+          "lngE7": -797324295
+        }, {
+          "latE7": 398910293,
+          "lngE7": -797218780
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2490.326028186228,
+        "travelMode": "BICYCLE",
+        "confidence": 0.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 399074135,
+          "lngE7": -797332458,
+          "accuracyMeters": 10,
+          "timestamp": "2016-01-20T21:34:42.962Z"
+        }, {
+          "latE7": 399028168,
+          "lngE7": -797324677,
+          "accuracyMeters": 5,
+          "timestamp": "2016-01-20T21:36:55.400Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398910312,
+        "longitudeE7": -797218720
+      },
+      "endLocation": {
+        "latitudeE7": 398879176,
+        "longitudeE7": -797229793
+      },
+      "duration": {
+        "startTimestamp": "2016-01-20T21:43:51.660Z",
+        "endTimestamp": "2016-01-20T21:47:48.054Z"
+      },
+      "distance": 399,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398910293,
+          "lngE7": -797218780
+        }, {
+          "latE7": 398882064,
+          "lngE7": -797227859
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 405.5019621106323,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.88385
+      },
+      "duration": {
+        "startTimestamp": "2016-01-20T21:47:48.054Z",
+        "endTimestamp": "2016-01-20T22:40:16.098Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398877125,
+      "centerLngE7": -797225550,
+      "visitConfidence": 71,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 0.42904463
+      }, {
+        "latitudeE7": 398875787,
+        "longitudeE7": -797203195,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.25181094
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.23132575
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.20397113
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398872826,
+        "longitudeE7": -797222357,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 98.88385
+      },
+      "endLocation": {
+        "latitudeE7": 398752574,
+        "longitudeE7": -797326570,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, Pennsylvania 15401-5645, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-20T22:40:16.098Z",
+        "endTimestamp": "2016-01-20T23:11:30.147Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398881797,
+          "lngE7": -797227172
+        }, {
+          "latE7": 399143676,
+          "lngE7": -797521057
+        }, {
+          "latE7": 398799667,
+          "lngE7": -797315444
+        }, {
+          "latE7": 398755111,
+          "lngE7": -797321472
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2489.789050667021,
+        "travelMode": "DRIVE",
+        "confidence": 0.967284116381187
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 399141960,
+          "lngE7": -797520828,
+          "accuracyMeters": 5,
+          "timestamp": "2016-01-20T22:51:43.344Z"
+        }, {
+          "latE7": 398799515,
+          "lngE7": -797315521,
+          "accuracyMeters": 5,
+          "timestamp": "2016-01-20T23:08:33.612Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398752574,
+        "longitudeE7": -797326570,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, Pennsylvania 15401-5645, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2016-01-20T23:11:30.147Z",
+        "endTimestamp": "2016-01-21T02:17:58.067Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398753100,
+      "centerLngE7": -797326760,
+      "visitConfidence": 77,
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398753400,
+        "longitudeE7": -797325752
+      },
+      "endLocation": {
+        "latitudeE7": 399015514,
+        "longitudeE7": -797316563,
+        "placeId": "ChIJ0yAoAC8-NYgR5EDfGE9hCuo",
+        "address": "180 West Main Street, Uniontown, Pennsylvania 15401, United States",
+        "name": "Walgreens",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 17.676275
+      },
+      "duration": {
+        "startTimestamp": "2016-01-21T02:17:58.067Z",
+        "endTimestamp": "2016-01-21T02:29:14.184Z"
+      },
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398754272,
+          "lngE7": -797321166
+        }, {
+          "latE7": 399019927,
+          "lngE7": -797308273
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 4207.311744084147,
+        "travelMode": "BICYCLE",
+        "confidence": 0.9985005477595648
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 399015514,
+        "longitudeE7": -797316563,
+        "placeId": "ChIJ0yAoAC8-NYgR5EDfGE9hCuo",
+        "address": "180 West Main Street, Uniontown, Pennsylvania 15401, United States",
+        "name": "Walgreens",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 17.676275
+      },
+      "duration": {
+        "startTimestamp": "2016-01-21T02:29:14.184Z",
+        "endTimestamp": "2016-01-21T02:51:24.027Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 399018400,
+      "centerLngE7": -797307333,
+      "visitConfidence": 76,
+      "otherCandidateLocations": [{
+        "latitudeE7": 399009189,
+        "longitudeE7": -797302938,
+        "placeId": "ChIJgwwvSi4-NYgR3wVdmoX5heM",
+        "locationConfidence": 12.321215
+      }, {
+        "latitudeE7": 399015547,
+        "longitudeE7": -797316761,
+        "placeId": "ChIJpSO8_y4-NYgRkCMgPzezdRc",
+        "locationConfidence": 4.701847
+      }, {
+        "latitudeE7": 399012080,
+        "longitudeE7": -797287820,
+        "placeId": "ChIJD_4lKi4-NYgRo6F-9tAQZJY",
+        "address": "92 W Main St, Uniontown, PA 15401, USA",
+        "name": "Titlow Tavern \u0026 Grille",
+        "locationConfidence": 4.444171
+      }, {
+        "latitudeE7": 399008473,
+        "longitudeE7": -797288313,
+        "placeId": "ChIJjXXCKS4-NYgRrVzb7vXm2nI",
+        "address": "105 W Main St, Uniontown, PA 15401, USA",
+        "name": "Meloni\u0027s Restaurant",
+        "locationConfidence": 3.3028765
+      }, {
+        "latitudeE7": 399021185,
+        "longitudeE7": -797311585,
+        "placeId": "ChIJk3HwpS8-NYgRBvOhMsSr2NM",
+        "address": "6 Ben Lomond St, Uniontown, PA 15401, USA",
+        "name": "Lu Ann Prah, LPC",
+        "locationConfidence": 2.9906938
+      }, {
+        "latitudeE7": 399021185,
+        "longitudeE7": -797311585,
+        "placeId": "ChIJk3HwpS8-NYgRQ01H-jvKtZw",
+        "address": "6 Ben Lomond St, Uniontown, PA 15401, USA",
+        "name": "Stacey R. Glebes, MSW",
+        "locationConfidence": 2.9906938
+      }, {
+        "latitudeE7": 399017331,
+        "longitudeE7": -797324073,
+        "placeId": "ChIJqWoZHS8-NYgRUc9GCetRuIo",
+        "address": "196 W Main St, Uniontown, PA 15401, USA",
+        "name": "Dr. Pardo Lameda",
+        "locationConfidence": 2.9905362
+      }, {
+        "latitudeE7": 399020940,
+        "longitudeE7": -797311780,
+        "placeId": "ChIJk3HwpS8-NYgRkQbWfeF0oMY",
+        "address": "6 Ben Lomond St, Uniontown, PA 15401, USA",
+        "name": "Deborah S. Molchan, MS",
+        "locationConfidence": 2.7895312
+      }, {
+        "latitudeE7": 399020940,
+        "longitudeE7": -797311780,
+        "placeId": "ChIJk3HwpS8-NYgRZM8S4bUYJSw",
+        "address": "6 Ben Lomond St, Uniontown, PA 15401, USA",
+        "name": "Molchan \u0026 Associates Inc",
+        "locationConfidence": 2.7895312
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 21,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}

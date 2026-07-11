@@ -1,0 +1,59 @@
+{
+  "createdTime": "2014-04-02T20:39:00.965Z",
+  "modifiedTime": "2024-03-18T19:13:44.869Z",
+  "deviceSettings": [{
+    "deviceTag": 1639724752,
+    "reportingEnabled": true,
+    "legalCountryCode": "us",
+    "devicePrettyName": "iPhone",
+    "platformType": "IOS",
+    "deviceCreationTime": "2024-01-08T11:31:20.019Z",
+    "latestLocationReportingSettingChange": {
+      "reportingEnabledModificationTime": "2024-01-08T11:31:20.019Z"
+    },
+    "iosVersion": "17.4.1",
+    "deviceSpec": {
+      "device": "iPhone11,2"
+    },
+    "deviceActiveness": {
+      "hasSavedTimelineData": true,
+      "observedPlaceVisitsFor30PercentOfTheLast7d": false
+    }
+  }, {
+    "deviceTag": -2081738332,
+    "reportingEnabled": true,
+    "legalCountryCode": "us",
+    "devicePrettyName": "Socialist iPhone ",
+    "platformType": "IOS",
+    "deviceCreationTime": "2021-12-09T02:35:29.765Z",
+    "latestLocationReportingSettingChange": {
+      "reportingEnabledModificationTime": "2021-12-09T02:35:29.765Z"
+    },
+    "iosVersion": "15.1",
+    "deviceSpec": {
+      "device": "iPhone11,2"
+    },
+    "deviceActiveness": {
+      "hasSavedTimelineData": true
+    }
+  }],
+  "hasReportedLocations": true,
+  "hasSetRetention": false,
+  "storeVisitControl": {
+    "enabled": true,
+    "updateTime": "2022-07-20T06:55:42.925906467Z"
+  },
+  "encryptedBackupsControls": {
+    "-2081738332": {
+      "enabled": false
+    },
+    "1639724752": {
+      "enabled": false
+    }
+  },
+  "retentionControl": {
+    "retentionWindowDays": 2147483647
+  },
+  "timelineEnabled": true,
+  "timelineDeletionTime": "2023-10-20T04:01:27.888Z"
+}

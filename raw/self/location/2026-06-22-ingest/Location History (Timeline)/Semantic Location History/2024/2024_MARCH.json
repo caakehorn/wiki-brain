@@ -1,0 +1,124 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1639724752
+        },
+        "locationConfidence": 94.95963,
+        "calibratedProbability": 89.2242
+      },
+      "duration": {
+        "startTimestamp": "2024-03-21T18:29:01Z",
+        "endTimestamp": "2024-03-21T18:36:48Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407713100,
+      "centerLngE7": -739556925,
+      "visitConfidence": 96,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 1.1296698,
+        "calibratedProbability": 1.0614393
+      }, {
+        "latitudeE7": 407713507,
+        "longitudeE7": -739560591,
+        "placeId": "ChIJ1XqJe79YwokRoZR8J_t1GYU",
+        "address": "301 E 76th St, New York, NY 10021, USA",
+        "name": "Blossom Brows Threading Salon",
+        "locationConfidence": 0.35347378,
+        "calibratedProbability": 0.33212444
+      }, {
+        "latitudeE7": 407716455,
+        "longitudeE7": -739555651,
+        "placeId": "ChIJjdZy7o9ZwokR4e3862bIYyc",
+        "address": "Store, 304 E 77th St, New York, NY 10075, USA",
+        "name": "Brazilian Market NYC",
+        "locationConfidence": 0.3318639,
+        "calibratedProbability": 0.31181976
+      }, {
+        "latitudeE7": 407717059,
+        "longitudeE7": -739558370,
+        "placeId": "ChIJLZJqcb9YwokRWrUSUoUAUqA",
+        "address": "1470 2nd Ave, New York, NY 10075, USA",
+        "name": "TD Bank",
+        "locationConfidence": 0.32040823,
+        "calibratedProbability": 0.301056
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 81,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "Au Za\u0027atar, 1063 1st Ave., New York, NY 10022, United States",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "sourceInfo": {
+          "deviceTag": 1639724752
+        },
+        "locationConfidence": 90.103355,
+        "calibratedProbability": 81.30602
+      },
+      "duration": {
+        "startTimestamp": "2024-03-31T01:59:36Z",
+        "endTimestamp": "2024-03-31T02:02:26Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 407590752,
+      "centerLngE7": -739627163,
+      "visitConfidence": 96,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589658,
+        "longitudeE7": -739627039,
+        "placeId": "ChIJYRk44-ZYwokRNPCSGYoCTYY",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "The Greene Door",
+        "locationConfidence": 7.322774,
+        "calibratedProbability": 6.607807
+      }, {
+        "latitudeE7": 407592090,
+        "longitudeE7": -739626394,
+        "placeId": "ChIJ4Qov2mRZwokRq7cr4_3wK9c",
+        "address": "1065 1st Ave., New York, NY 10022, USA",
+        "name": "Sushi Ginza",
+        "locationConfidence": 1.1821637,
+        "calibratedProbability": 1.066742
+      }, {
+        "latitudeE7": 407593052,
+        "longitudeE7": -739625016,
+        "placeId": "ChIJWwJz_uZYwokRBVV6FyZ_Kgs",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Go Noodle",
+        "locationConfidence": 0.38150778,
+        "calibratedProbability": 0.34425887
+      }, {
+        "latitudeE7": 407591723,
+        "longitudeE7": -739620025,
+        "placeId": "ChIJFTW1AOdYwokRxcn0wNMDjuA",
+        "address": "1074 1st Ave., New York, NY 10022, USA",
+        "name": "Sutton Bar Room",
+        "locationConfidence": 0.22268721,
+        "calibratedProbability": 0.20094492
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 75,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}

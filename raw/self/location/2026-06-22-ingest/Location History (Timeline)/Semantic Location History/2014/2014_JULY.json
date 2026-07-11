@@ -1,0 +1,27 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-07-09T07:45:23.047Z",
+        "endTimestamp": "2014-07-11T01:39:17.451Z"
+      },
+      "distance": 255221,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }]
+}

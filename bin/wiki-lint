@@ -1,0 +1,118 @@
+#!/usr/bin/env python3
+"""Mechanical lint for the personal wiki. Exits 1 if errors found.
+
+Checks: frontmatter presence/fields, status vocabulary, broken wikilinks,
+orphan pages, oversized pages/indexes, sources that don't exist on disk.
+"""
+import os, re, sys, glob
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+WIKI = os.path.join(ROOT, "wiki")
+VALID_STATUS = {"active", "stable", "stub", "closed", "archived"}
+VALID_DOMAIN = {"self", "timeline", "people", "mind", "work", "interests", "health", "places", "legal"}
+VALID_TYPE = {"entity", "event", "concept", "period", "summary", "synthesis", "report", "chat", "note", "index"}
+PAGE_BUDGET = 8 * 1024
+INDEX_BUDGET = 8 * 1024
+MASTER_INDEX_BUDGET = 5 * 1024
+
+errors, warnings = [], []
+
+def fm_parse(text):
+    m = re.match(r"^---\n(.*?)\n---\n", text, re.S)
+    if not m:
+        return None
+    fm = {}
+    for line in m.group(1).splitlines():
+        kv = re.match(r"^(\w[\w_]*):\s*(.*)$", line)
+        if kv:
+            fm[kv.group(1)] = kv.group(2).strip()
+    return fm
+
+pages = sorted(glob.glob(os.path.join(WIKI, "**", "*.md"), recursive=True))
+rel = lambda p: os.path.relpath(p, ROOT)
+page_keys = set()          # normalized wikilink targets that exist
+for p in pages:
+    r = rel(p)[:-3]        # strip .md
+    page_keys.add(r)
+    page_keys.add(os.path.basename(r))
+
+inbound = {rel(p): 0 for p in pages}
+link_re = re.compile(r"\[\[([^\]|#]+)(?:[#|][^\]]*)?\]\]")
+
+# root master index is also a link source, though not a wiki/ page
+scan = list(pages)
+root_index = os.path.join(ROOT, "index.md")
+if os.path.exists(root_index):
+    scan.append(root_index)
+
+for p in scan:
+    r = rel(p)
+    text = open(p, encoding="utf-8", errors="replace").read()
+    is_contact_stub = "/people/contacts/" in r or "/archive/" in r
+    is_index = os.path.basename(p) == "index.md"
+
+    # size budgets
+    size = len(text.encode())
+    if is_index and r != "index.md" and size > INDEX_BUDGET:
+        warnings.append(f"{r}: index is {size//1024}KB (budget {INDEX_BUDGET//1024}KB) — likely session noise")
+    elif not is_index and size > PAGE_BUDGET and not is_contact_stub:
+        warnings.append(f"{r}: page is {size//1024}KB (budget 8KB) — consider splitting")
+
+    fm = fm_parse(text)
+    if fm is None:
+        if not is_index:
+            errors.append(f"{r}: missing frontmatter")
+    else:
+        st = fm.get("status", "")
+        if st not in VALID_STATUS:
+            errors.append(f"{r}: invalid status '{st}'")
+        dom = fm.get("domain", "")
+        if dom not in VALID_DOMAIN:
+            errors.append(f"{r}: invalid domain '{dom}'")
+        pt = fm.get("page_type", "")
+        if pt not in VALID_TYPE:
+            errors.append(f"{r}: invalid page_type '{pt}'")
+
+        # sources must exist on disk
+        for src in re.findall(r'"(raw/[^"]+)"', fm.get("sources", "")):
+            if "?" in src:
+                errors.append(f"{r}: source contains '?' — resolve it: {src}")
+                continue
+            path = src.replace("*", "")
+            if not (os.path.exists(os.path.join(ROOT, src)) or
+                    glob.glob(os.path.join(ROOT, src)) or
+                    os.path.exists(os.path.join(ROOT, os.path.dirname(path)))):
+                errors.append(f"{r}: source not on disk: {src}")
+
+    # wikilinks: broken targets + inbound counting (runs for every page,
+    # including frontmatter-less index files, which are a key link source)
+    body = re.sub(r"^---\n.*?\n---\n", "", text, flags=re.S)
+    for target in link_re.findall(body):
+        t = target.strip().rstrip("/")
+        key = t[:-3] if t.endswith(".md") else t
+        if key in page_keys or os.path.basename(key) in page_keys:
+            cand = key + ".md"
+            if cand in inbound and cand != r:
+                inbound[cand] += 1
+        elif key.startswith("wiki/"):
+            if os.path.isdir(os.path.join(ROOT, key)):
+                continue
+            warnings.append(f"{r}: broken wikilink [[{target.strip()}]]")
+
+# orphans (skip indexes, contacts, root-level meta)
+for p, n in sorted(inbound.items()):
+    if n == 0 and os.path.basename(p) != "index.md" and "/contacts/" not in p \
+       and p.count("/") > 1 and not p.endswith("lint-report.md"):
+        warnings.append(f"{p}: orphan — no inbound wikilinks")
+
+# master index budget
+mi = os.path.join(ROOT, "index.md")
+if os.path.exists(mi) and os.path.getsize(mi) > MASTER_INDEX_BUDGET:
+    warnings.append(f"index.md: master index over 5KB budget")
+
+print(f"wiki-lint: {len(pages)} pages, {len(errors)} errors, {len(warnings)} warnings\n")
+for e in errors:
+    print(f"ERROR   {e}")
+for w in warnings:
+    print(f"warning {w}")
+sys.exit(1 if errors else 0)

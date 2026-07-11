@@ -6,8 +6,9 @@ else about his personhood that can be stored as text. The human drops sources
 in; the agent (you) compiles knowledge out. You are the maintenance agent.
 
 A prior version of this project lives at `~/wiki project` (marked failed).
-Its raw archive and inbox contain real source material that may be migrated
-here over time — treat that directory as read-only reference.
+Its raw archive, compiled pages, and pending inbox were migrated here on
+2026-07-11 — treat that directory as read-only reference; nothing new
+should be filed there.
 
 ## Architecture — plain files, one direction of flow
 
@@ -24,10 +25,14 @@ uploaded    source      knowledge
 - **raw/** — immutable source archive, organized `raw/<domain>/<collection>/`.
   Never modify or delete anything here except when filing from inbox/.
 - **wiki/** — the compiled product, all regenerable from raw/. You own every
-  byte. Domains: `self` (identity, core facts), `timeline` (periods & events),
-  `people`, `mind` (beliefs, ideology, psychology, values), `work`,
-  `interests`, `health`, `places`. Add a domain only when several pages
-  clearly don't fit an existing one.
+  byte. Domains: `self` (identity, core facts, digital footprint), `timeline`
+  (periods & events), `people` (+ `people/contacts/` quarantine: auto-generated
+  stubs, never linked from prose), `mind` (beliefs, ideology, psychology,
+  values), `work`, `interests` (music production, favorites, taste),
+  `health`, `places`, `legal` (disputes, property matters). Add a domain only
+  when several pages clearly don't fit an existing one. `wiki/**/archive/`
+  holds pinned oversized artifacts (status `archived`) — exempt from budgets,
+  never updated.
 - **exports/** — output of `bin/export-corpus`; never hand-edit, gitignored.
 - **Meta files** (root): `index.md` master navigation, `log.md` append-only
   operation log, `queue.md` pending-ingest ledger.
@@ -72,18 +77,20 @@ pages over budget. Fix mechanically what you can; queue the rest.
 
 ```yaml
 ---
-domain: self | timeline | people | mind | work | interests | health | places
-page_type: entity | event | concept | period | summary | profile | note
-status: active | stable | stub | closed
+domain: self | timeline | people | mind | work | interests | health | places | legal
+page_type: entity | event | concept | period | summary | synthesis | profile | report | chat | note | index
+status: active | stable | stub | closed | archived
 date_created: YYYY-MM-DD
 date_modified: YYYY-MM-DD
-sources: []    # real raw/ paths that exist on disk
+sources: []    # real raw/ paths that exist on disk — bin/wiki-lint checks this
 related: []    # wiki page paths
 ---
 ```
 
 `active` = live situation · `stable` = accurate, settled · `stub` =
-placeholder · `closed` = formally ended. Default for finished pages: stable.
+placeholder · `closed` = formally ended · `archived` = pinned artifact in an
+archive/ dir, never update. Default for finished pages: stable, NOT archived.
+Run `bin/wiki-lint` before committing any ingest.
 
 ## Writing rules (v1 failed by ignoring these)
 

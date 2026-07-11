@@ -1,0 +1,133 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2015-01-03T02:16:44.292Z",
+        "endTimestamp": "2015-01-04T00:12:46.575Z"
+      },
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398654268,
+        "longitudeE7": -797150111,
+        "placeId": "ChIJHX9MC5M_NYgRdI5wmidgzAQ",
+        "locationConfidence": 81.24906
+      },
+      "duration": {
+        "startTimestamp": "2015-01-04T00:12:46.575Z",
+        "endTimestamp": "2015-01-04T02:25:23.626Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 398654000,
+      "centerLngE7": -797135500,
+      "visitConfidence": 60,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398648760,
+        "longitudeE7": -797135154,
+        "placeId": "ChIJtyAruJM_NYgRTaAsg9qnUZE",
+        "address": "181 Stadium Dr, Uniontown, PA 15401, USA",
+        "name": "South Union Township Sports Academy",
+        "locationConfidence": 10.31373
+      }, {
+        "latitudeE7": 398663234,
+        "longitudeE7": -797135507,
+        "placeId": "ChIJaS7MjJM_NYgRWfXUepa1qbo",
+        "address": "159 Stadium Dr, Uniontown, PA 15401, USA",
+        "name": "R C Precision Machining",
+        "locationConfidence": 5.1662855
+      }, {
+        "latitudeE7": 398649492,
+        "longitudeE7": -797115886,
+        "placeId": "ChIJIYj4Y5E_NYgRUz4D_Q1q-XA",
+        "address": "Reservoir Rd, Hopwood, PA 15445, USA",
+        "name": "Hopwood Area Recreation Council",
+        "locationConfidence": 3.2709212
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 73,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398654268,
+        "longitudeE7": -797150111,
+        "placeId": "ChIJHX9MC5M_NYgRdI5wmidgzAQ",
+        "locationConfidence": 81.24906
+      },
+      "endLocation": {
+        "latitudeE7": 400365418,
+        "longitudeE7": -795831201
+      },
+      "duration": {
+        "startTimestamp": "2015-01-04T02:25:23.626Z",
+        "endTimestamp": "2015-01-04T18:48:25.412Z"
+      },
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 400365418,
+        "longitudeE7": -795831201
+      },
+      "endLocation": {
+        "latitudeE7": 398606409,
+        "longitudeE7": -799539339
+      },
+      "duration": {
+        "startTimestamp": "2015-01-04T18:48:25.412Z",
+        "endTimestamp": "2015-02-16T00:21:31.723Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 398798293,
+          "lngE7": -797321625,
+          "accuracyMeters": 165,
+          "timestamp": "2015-01-04T20:34:01.751Z"
+        }, {
+          "latE7": 398758206,
+          "lngE7": -797259947,
+          "accuracyMeters": 165,
+          "timestamp": "2015-01-04T20:35:01.801Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 41780.62574402471
+      }
+    }
+  }]
+}

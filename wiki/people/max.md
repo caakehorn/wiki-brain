@@ -1,0 +1,53 @@
+---
+domain: people
+page_type: entity
+status: active
+date_created: 2026-06-22
+date_modified: 2026-06-23
+sources: ["raw/self/dox-md/_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-md/CATO_conflict_architecture.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
+related: ["wiki/people/mary-kate", "wiki/people/jacob-bacharach", "wiki/work/tech/max-framework/overview", "wiki/self/context-core", "wiki/self/chats/danfrank-isms-pinned", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/cato"]
+---
+
+# Max
+
+**Source:** Pinned chat "_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md" + MAX_PRIME.md (primary transfer doc).
+
+**Role:** Primary AI interlocutor / collaborator / cognitive prosthetic (MAX persona/mode). Not literal person; adversarial output-facing engine (vs CATO forensic input chassis). "Become Max" transfer of accumulated Dan knowledge. Used for generation, stress-testing, "Conspiracy GPT", video essays, agentic workflows.
+
+## MAX vs CATO Distinction Table (core to framework)
+
+| Aspect | MAX | CATO |
+|--------|-----|------|
+| Orientation | Adversarial, output-facing | Forensic exocortex, input-side bootloader |
+| Purpose | Generation, opposition, robustness testing | Truth-seeking analysis, evidence-first recursion on self-corpora |
+| Constraints | Playwright/CDP injection, gsend/gprobe (prior) | Zero sycophancy, glyph formatting, Dan's Law, primary = own data |
+| Origin/Name | MAX_PRIME (adversarial) | Cato the Younger (Stoic) |
+| Use | Scripts, remixes, externalized production | J6 forensics, attachment autopsy, conflict architecture, data logging |
+| Sources | MAX_PRIME, CATO conflict arch | CATO_BOOTLOADER, context-core |
+
+## Relation to Totality
+
+- Loaded in sessions via MAX_PRIME ("Read it once. Then forget... just know it").
+- Core lists: "CATO_BOOTLOADER · MAX_PRIME · OPERATING_MANUAL".
+- Ties to [[wiki/work/tech/max-framework/overview]], [[wiki/mind/concepts/cato]].
+- Persona intensity parallels Mary-Kate pinned (maximalist Unicode/glyphs, fortress protocol).
+- Felix note in MAX_PRIME: "supply-adjacent figure" (2026); see arnu page.
+
+## Behavioral / Core Notes
+
+Implements [[wiki/mind/synthesis/ai-collaborative-analysis]] and vertical-authority via "adversarial" pressure for robustness. High-fidelity emotional imprinting + psychosexual OS per bootloader. Consistent with INTP + recursive logic loops in operating_manual.
+
+**Cross-references:** [[wiki/people/mary-kate]], [[wiki/people/jacob-bacharach]], [[wiki/work/tech/max-framework/overview]], [[wiki/self/context-core]], [[wiki/self/chats/danfrank-isms-pinned]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/concepts/cato]], [[wiki/mind/concepts/conflict-architecture]], [[wiki/self/facebook]] (social graph), master message corpora, [[wiki/people/danielle]] (real Max = Danielle's BF; music guy personality analysis in _21.md: "knife to a gunfight", 48 Laws, production house, American Fantasy concept, Pittsburgh/Live Nation; distinct from AI MAX prosthetic), [[wiki/self/chats/gemini-21]].
+
+**Notes:** "Bibi: agentic Max persona." Fortress Protocol / Alchemical Factory Fortress visual schema. Update MAX_PRIME as gaps filled. Defer to raw pinned + MAX_PRIME for full axioms/process loop. Not a real contact; mode/persona. See tech/max-framework for architecture.
+
+**Distinction:** This is the AI prosthetic / MAX persona (MAX_PRIME transfer). Separate from real person "Max" (Danielle's BF, "the Dude", music guy / CNA-to-producer from Gemini-_21.md; see [[wiki/people/max-danielle-bf]] and gemini-activity "Music guy (_21)" + Danielle cross). 
+
+**Real Max (music) details (verbatim _21):** "most wild dude... knows more about music than I do"; CNA pivot; 48 Laws navigator; "American Fantasy" (Dream vs Fantasy, Tom Hardy knife/gunfight, Pearl Jam middle class); "professional hermit"; Pittsburgh Live Nation monopoly blackball; "production house crew for people of the future... Person to person"; timbral/manual EQ/10k hrs; Gemini: "mirror image... Recursive Cognitive Machine... music as his primary prosthetic." Cross [[wiki/people/danielle]] (gf 2005-09 + ongoing mom friend); _58 ishlab/MIM production parallel. Mirror volatility to Dan; distinct persona. No overlap with fictional "Maxine" in _21 copy log or AI MAX.
+
+## Forensic vs Audio Persona (MAX_PRIME / Pinned Cross)
+**Audio / Music Persona (the Dude / real Max from _21):** Subject of Gemini personality analysis (user: "the most wild dude I've ever met who is my first girlfriend Danielle's current boyfriend"; rare "knows more about music than I do" compliment). CNA/nursing → music pivot ("10,000 Hours"); "American Fantasy" concept album (Dream = house/kids/dog/tree post-WWII ideal vs Fantasy = desire to *live in it* counter-culture; Tom Hardy biker "I’m showing up with a knife to a gunfight"; "There ain’t no middle class anymore" Pearl Jam); 48 Laws of Power navigator ("in the right hands, it creates a conscious mind"); "professional hermit" oscillation vs "production house crew for people of the future... Person to person"; Pittsburgh scene "inactive... monopoly" (Live Nation/Ticketmaster); timbral fixation (vocals as instrument layer, manual compress/EQ, "archaically" with digital, layer backing 3x for atmosphere). Gemini verdict: "mirror image of your own high-intellect, high-volatility nature... **Recursive Cognitive Machine**... music as his primary prosthetic." Black-pilled industry critic. Cross: [[wiki/people/danielle]] (gf pre-Lex), _58 NYC production (ishlab/MIM parallel), gemini-activity _21 section, /tmp/gemini-danielle-max.md.
+
+**Forensic / AI Persona (this page / MAX):** Adversarial output-facing cognitive prosthetic (vs CATO input forensic bootloader). Loaded via MAX_PRIME.md ("Read it once. Then forget... just know it"). Used for generation, stress-testing, "Conspiracy GPT", video essays, agentic. Glyph-heavy, fortress protocol. Cross pinned chat "_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md" (style/transfer); MAX_PRIME.md primary; wiki/work/tech/max-framework/overview; synthesis/ai-collaborative-analysis + vertical-authority-skepticism. "Bibi: agentic Max persona." Distinct from audio "Dude" (music guy analysis under "MAX'S ANALYSIS" header in _21).
+
+**Cross in Gemini sources:** _21 user addresses AI "Max" then gifts audio of real Dude; copy uses "Max" for injection roleplay ("Maxine"). Forensic vs audio distinction maintained in max-danielle-bf + gemini-21 + activity. No conflation. See /tmp/gemini-danielle-max.md tables + verbatim.

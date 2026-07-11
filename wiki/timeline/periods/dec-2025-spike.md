@@ -1,0 +1,29 @@
+---
+domain: timeline
+page_type: period
+status: archived
+date_created: 2026-06-22
+date_modified: 2026-06-23
+date_range_start: 2025-12-01
+date_range_end: 2025-12-31
+sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/facebook/facebook-ihatedanfrank/"]
+related: ["wiki/mind/concepts/attachment-model", "wiki/people/annie", "wiki/timeline/events/timeline", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/self/facebook"]
+
+---
+
+# December 2025 Spike
+
+## Date range
+2025-12-01 to 2025-12-31
+
+## Defining characteristics
+4,657 messages (from annie_all_time_logs.csv terminal extract). Volume spike.
+
+## Data profile
+From LIFE calendar: 2025 total 259 events (high; Sep 97/Oct 58/Dec 35). Relationship 266 overall, cheating/affair 84. From annie_all_time_logs.csv (terminal extract): Dec 2025 peak **4,657 messages** (highest in extract). High mutual reinvestment confirmed before asymmetry. 37 CSVs + annie logs + FB cross.
+
+## Key events within period (from calendar samples + operating)
+High density in late 2025: relationship crises, health, financial. Contradicts narrative of mutual disengagement prior to June 2026 closure. 2025 high activity aligns with spike before collapse. Operating: Aug 2025 burning/wall; 2026-06-01 end.
+
+## Transition markers
+(End of spike period into 2026 closure 86 events + full goodbye per annie logs)

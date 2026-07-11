@@ -1,0 +1,486 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407702501,
+        "longitudeE7": -739540964
+      },
+      "endLocation": {
+        "latitudeE7": 407700075,
+        "longitudeE7": -739573561
+      },
+      "duration": {
+        "startTimestamp": "2020-02-06T16:52:46.961Z",
+        "endTimestamp": "2020-02-06T17:05:58.999Z"
+      },
+      "distance": 586,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 79.96893525123596
+      }, {
+        "activityType": "STILL",
+        "probability": 17.197591066360474
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.4987386763095856
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407702713,
+          "lngE7": -739541473
+        }, {
+          "latE7": 407692832,
+          "lngE7": -739548797
+        }, {
+          "latE7": 407700576,
+          "lngE7": -739573364
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJW6x1sMBYwokRV7ojGdW_0lA",
+          "duration": "96s"
+        }, {
+          "placeId": "ChIJaz8fwcBYwokR7hP-I0cWo20",
+          "duration": "96s"
+        }, {
+          "placeId": "ChIJI2HI88BYwokR1LqHq29REhc",
+          "duration": "123s"
+        }, {
+          "placeId": "ChIJI2HI88BYwokRPAqEiDk3ZvA",
+          "duration": "123s"
+        }, {
+          "placeId": "ChIJnfPAZ8BYwokRZk6vobF8OHo",
+          "duration": "123s"
+        }, {
+          "placeId": "ChIJnfPAZ8BYwokR-m_9CjIVO6w",
+          "duration": "123s"
+        }],
+        "distanceMeters": 373.36154524146787,
+        "travelMode": "WALK",
+        "confidence": 0.9993594099446949
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 96.67699,
+        "calibratedProbability": 77.33425
+      },
+      "duration": {
+        "startTimestamp": "2020-02-06T17:05:58.999Z",
+        "endTimestamp": "2020-02-08T18:08:51.003Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407710289,
+      "centerLngE7": -739561067,
+      "visitConfidence": 86,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 2.7684171,
+        "calibratedProbability": 2.2145236
+      }, {
+        "latitudeE7": 407712137,
+        "longitudeE7": -739563685,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.2285802,
+        "calibratedProbability": 0.18284681
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.050248343,
+        "calibratedProbability": 0.04019486
+      }, {
+        "latitudeE7": 407711571,
+        "longitudeE7": -739564340,
+        "placeId": "ChIJRY7bf79YwokR16QASZ9mYqs",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.038930032,
+        "calibratedProbability": 0.03114107
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 83,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407706578,
+        "longitudeE7": -739539609
+      },
+      "endLocation": {
+        "latitudeE7": 407696620,
+        "longitudeE7": -739545740
+      },
+      "duration": {
+        "startTimestamp": "2020-02-08T18:08:51.003Z",
+        "endTimestamp": "2020-02-08T18:22:33.998Z"
+      },
+      "distance": 764,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 37.5270277261734
+      }, {
+        "activityType": "CYCLING",
+        "probability": 32.42159187793732
+      }, {
+        "activityType": "STILL",
+        "probability": 21.383468806743622
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407706413,
+          "lngE7": -739539260
+        }, {
+          "latE7": 407710762,
+          "lngE7": -739567184
+        }, {
+          "latE7": 407696876,
+          "lngE7": -739546432
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJEa11qsBYwokRnmCKWUGin3U",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJEa11qsBYwokRK2bVNIyJPGI",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJuUU5Q79YwokR31cj3ATgMNc",
+          "duration": "230s"
+        }, {
+          "placeId": "ChIJLzBbd79YwokRBBpmG5UBMwc",
+          "duration": "57s"
+        }, {
+          "placeId": "ChIJl1wceb9YwokRFab_J5WVOCA",
+          "duration": "57s"
+        }, {
+          "placeId": "ChIJm8VdaMBYwokRVyCZL1XfEqc",
+          "duration": "47s"
+        }, {
+          "placeId": "ChIJnfPAZ8BYwokR-m_9CjIVO6w",
+          "duration": "47s"
+        }, {
+          "placeId": "ChIJnfPAZ8BYwokRZk6vobF8OHo",
+          "duration": "47s"
+        }, {
+          "placeId": "ChIJI2HI88BYwokRPAqEiDk3ZvA",
+          "duration": "47s"
+        }, {
+          "placeId": "ChIJI2HI88BYwokR1LqHq29REhc",
+          "duration": "47s"
+        }, {
+          "placeId": "ChIJaz8fwcBYwokR7hP-I0cWo20",
+          "duration": "44s"
+        }],
+        "distanceMeters": 816.087664708317,
+        "travelMode": "DRIVE",
+        "confidence": 0.5619874452545645
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 407696620,
+          "longitudeE7": -739545740,
+          "accuracyMetres": 74
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2020-02-08T18:22:33.998Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 86.91874,
+        "calibratedProbability": 75.43348
+      },
+      "duration": {
+        "startTimestamp": "2020-02-08T18:22:33.998Z",
+        "endTimestamp": "2020-02-27T10:41:46.090Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407704600,
+      "centerLngE7": -739551700,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 10.885363,
+        "calibratedProbability": 9.446994
+      }, {
+        "latitudeE7": 407708968,
+        "longitudeE7": -739540829,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 1.2199646,
+        "calibratedProbability": 1.0587611
+      }, {
+        "latitudeE7": 407712137,
+        "longitudeE7": -739563685,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.30357376,
+        "calibratedProbability": 0.2634602
+      }, {
+        "latitudeE7": 407700623,
+        "longitudeE7": -739547670,
+        "placeId": "ChIJHS-5pcBYwokRXs_t5FgR0hE",
+        "address": "370 E 76th St, New York, NY 10021, USA",
+        "name": "Newport East",
+        "locationConfidence": 0.15806578,
+        "calibratedProbability": 0.13717932
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 72,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 97.148026,
+        "calibratedProbability": 89.02479
+      },
+      "duration": {
+        "startTimestamp": "2020-02-29T06:35:53.329Z",
+        "endTimestamp": "2020-02-29T17:45:17.027Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407712267,
+      "centerLngE7": -739557467,
+      "visitConfidence": 96,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 1.4193581,
+        "calibratedProbability": 1.3006755
+      }, {
+        "latitudeE7": 407712137,
+        "longitudeE7": -739563685,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.6481371,
+        "calibratedProbability": 0.59394175
+      }, {
+        "latitudeE7": 407709059,
+        "longitudeE7": -739540870,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.21791181,
+        "calibratedProbability": 0.19969064
+      }, {
+        "latitudeE7": 407710874,
+        "longitudeE7": -739561619,
+        "placeId": "ChIJA_aUfb9YwokRW4tDOBia3r0",
+        "address": "306 E 76th St, New York, NY 10021, USA",
+        "name": "The East Wing",
+        "locationConfidence": 0.1904226,
+        "calibratedProbability": 0.1745
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 84,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407695577,
+        "longitudeE7": -739565300
+      },
+      "endLocation": {
+        "latitudeE7": 407697285,
+        "longitudeE7": -739547142
+      },
+      "duration": {
+        "startTimestamp": "2020-02-29T17:45:17.027Z",
+        "endTimestamp": "2020-02-29T18:00:31.866Z"
+      },
+      "distance": 644,
+      "activityType": "WALKING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 57.11914896965027
+      }, {
+        "activityType": "STILL",
+        "probability": 39.22673761844635
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.9148558378219604
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407711639,
+          "lngE7": -739558486
+        }, {
+          "latE7": 407700958,
+          "lngE7": -739543914
+        }, {
+          "latE7": 407696914,
+          "lngE7": -739577941
+        }, {
+          "latE7": 407701110,
+          "lngE7": -739574737
+        }, {
+          "latE7": 407703094,
+          "lngE7": -739559478
+        }, {
+          "latE7": 407701225,
+          "lngE7": -739555053
+        }, {
+          "latE7": 407697677,
+          "lngE7": -739546813
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJv90unsBYwokRxaRb-cnvWE0",
+          "duration": "584s"
+        }, {
+          "placeId": "ChIJW6x1sMBYwokRVrojGdW_0lA",
+          "duration": "224s"
+        }, {
+          "placeId": "ChIJaz8fwcBYwokR7xP-I0cWo20",
+          "duration": "224s"
+        }, {
+          "placeId": "ChIJLSdwVsBYwokRQHvU2DzQrI0",
+          "duration": "864s"
+        }, {
+          "placeId": "ChIJxStcQcBYwokR-exIczUAb-4",
+          "duration": "204s"
+        }, {
+          "placeId": "ChIJQxhPaMBYwokRF4jd4Exn4h0",
+          "duration": "204s"
+        }, {
+          "placeId": "ChIJvd46kMBYwokRxDKk9-Br-Rs",
+          "duration": "274s"
+        }, {
+          "placeId": "ChIJYUBRkMBYwokRDcrkrPUDKj8",
+          "duration": "274s"
+        }],
+        "distanceMeters": 1014.2562083182424,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407695656,
+          "lngE7": -739575043,
+          "accuracyMeters": 19,
+          "timestamp": "2020-02-29T17:50:54.899Z"
+        }, {
+          "latE7": 407702713,
+          "lngE7": -739559708,
+          "accuracyMeters": 26,
+          "timestamp": "2020-02-29T17:53:00.159Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 95.59226,
+        "calibratedProbability": 73.908325
+      },
+      "duration": {
+        "startTimestamp": "2020-02-29T18:00:31.866Z",
+        "endTimestamp": "2020-03-07T07:48:41.744Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407711780,
+      "centerLngE7": -739559620,
+      "visitConfidence": 83,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407710331,
+        "longitudeE7": -739550998,
+        "placeId": "ChIJ70vDn8BYwokR4HmfR6-HBOg",
+        "address": "349 E 76th St, New York, NY 10021, USA",
+        "name": "New York Sports Club",
+        "locationConfidence": 2.7135081,
+        "calibratedProbability": 2.0979817
+      }, {
+        "latitudeE7": 407712137,
+        "longitudeE7": -739563685,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.7251246,
+        "calibratedProbability": 0.5606389
+      }, {
+        "latitudeE7": 407709059,
+        "longitudeE7": -739540870,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.19789922,
+        "calibratedProbability": 0.1530082
+      }, {
+        "latitudeE7": 407711571,
+        "longitudeE7": -739564340,
+        "placeId": "ChIJRY7bf79YwokR16QASZ9mYqs",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.15083438,
+        "calibratedProbability": 0.11661944
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 82,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}

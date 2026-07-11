@@ -1,0 +1,63 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1639724752
+        },
+        "locationConfidence": 93.7218,
+        "calibratedProbability": 87.09883
+      },
+      "duration": {
+        "startTimestamp": "2024-04-14T23:25:23Z",
+        "endTimestamp": "2024-04-14T23:27:23Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407713096,
+      "centerLngE7": -739557257,
+      "visitConfidence": 96,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 2.567877,
+        "calibratedProbability": 2.3864148
+      }, {
+        "latitudeE7": 407715096,
+        "longitudeE7": -739560730,
+        "placeId": "ChIJYwAAe79YwokRAzRYCHUFTJY",
+        "address": "1460 2nd Ave, New York, NY 10075, USA",
+        "name": "Boqueria UES",
+        "locationConfidence": 0.6244162,
+        "calibratedProbability": 0.58029103
+      }, {
+        "latitudeE7": 407711203,
+        "longitudeE7": -739555975,
+        "placeId": "ChIJhyonXc1ZwokRYJti4YQ6zNk",
+        "address": "311 E 76th St, New York, NY 10021, USA",
+        "name": "Sin City Burger",
+        "locationConfidence": 0.47394434,
+        "calibratedProbability": 0.44045246
+      }, {
+        "latitudeE7": 407711111,
+        "longitudeE7": -739563889,
+        "placeId": "ChIJx40Yfr9YwokRAipeh3042ds",
+        "address": "1452 2nd Ave, New York, NY 10021, USA",
+        "name": "Iggy\u0027s",
+        "locationConfidence": 0.24062786,
+        "calibratedProbability": 0.22362359
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 80,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}

@@ -1,0 +1,55 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398872873,
+        "longitudeE7": -797222361,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Ave, Uniontown, Pennsylvania 15401-4716, United States",
+        "sourceInfo": {
+          "deviceTag": -804892115
+        },
+        "locationConfidence": 90.58082
+      },
+      "duration": {
+        "startTimestamp": "2016-02-25T04:32:02.662Z",
+        "endTimestamp": "2016-02-25T19:25:59Z"
+      },
+      "centerLatE7": 398879475,
+      "centerLngE7": -797224525,
+      "visitConfidence": 47,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398893833,
+        "longitudeE7": -797206844,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 3.4863524
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 2.8138642
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 1.789811
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 1.3291534
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 80,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}

@@ -1,0 +1,78 @@
+---
+domain: timeline
+page_type: event
+status: archived
+date_created: 2026-06-22
+date_modified: 2026-06-22
+date_range_start: 2026-06-01
+date_range_end: 2026-06-01
+sources:
+  - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
+  - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
+  - raw/self/dox-scan/Dan Profile.txt
+  - raw/self/message-csv/annie_all_time_logs.csv
+  - raw/self/message-csv/THE END FIGHT.csv
+  - raw/self/message-csv/END_FIGHT_full.csv
+related:
+  - wiki/people/annie
+  - wiki/mind/concepts/attachment-model
+  - wiki/mind/concepts/conflict-architecture
+  - wiki/timeline/periods/dec-2025-spike
+---
+
+# Group Chat Closure (June 1 2026)
+
+## What happened
+Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party relationship (Eli) and the active operation of a defamation campaign against Dan in Annie's social/peer network.
+
+The campaign included at minimum:
+- Rape narrative framing
+- "Junkie" framing
+
+This occurred concurrent with prior written denials of any third-party relationship (Nov 2025 and Feb 2026) that Dan had taken at face value in good faith.
+
+## When
+June 1 2026 (single anchoring date for closure).
+
+Terminal phase context: December 2025 volume spike (2,248 messages) had already demonstrated real reinvestment on Dan's side, followed by progressive asymmetry in engagement through early 2026.
+
+## People involved
+- [[wiki/people/annie]]
+- Dan
+- [[wiki/people/tuquick-17248123683]] (hostile third-party attacker who later defects)
+- Unnamed third party (Eli — previously documented)
+- Members of Annie's social/peer network (recipients and propagators of defamation narratives)
+
+## Significance
+External event required for model closure. The attachment system (autistic processing + weighted positive rhetoric) had no internal off-switch; 299 love affirmations with 0 explicit severance signals across the full corpus meant no counter-rule was ever available internally.
+
+The June 1 2026 confirmation provided the explicit external signal that the relationship status had changed and that a sustained deception + active defamation had been occurring.
+
+The defamation campaign running in parallel with private written denials elevated the moral weight beyond standard betrayal. Prior-notice and autism-amplifier factors apply: Dan had repeatedly offered lower-harm alternatives; Annie knew his processing architecture.
+
+See [[wiki/mind/concepts/attachment-model]] (no closure without explicit severance) and [[wiki/mind/concepts/conflict-architecture]] (halt-condition failure).
+
+## Related events
+- [[wiki/timeline/events/end-fight]] (detailed thread/CSV sequence leading into and including the June 1 closure)
+- [[wiki/timeline/events/eli-incident]] (the third-party relationship whose existence was confirmed)
+- December 2025 volume spike (last major mutual investment period)
+- Nov 2025 and Feb 2026 written denials (issued while defamation campaign was active)
+
+## Data Record
+| Signal | Value / Status |
+|--------|----------------|
+| Closure date | 2026-06-01 |
+| Confirmation vehicle | Group chat |
+| Messages in annie_all_time_logs extract on date | ~40 (clustered ~00:00 hour) |
+| Key verbatim (from logs + end fight CSV) | "Goodbye forever. This was not how it should have ended but. sic semper lupanis." (Annie); Dan: "I saved you from fucking DYING when you were shooting coke...", "Shame on you. Seriously...", "You are not capable of love...", "and you will never unring this bell." |
+| Context from annie logs | "eli" mentions: 388 across extract; "goodbye": 110; "lying": 150. Dec 2025 peak 4,657 msgs preceded the asymmetry. |
+
+**Sources added:** raw/self/message-csv/annie_all_time_logs.csv , raw/self/message-csv/THE END FIGHT.csv , raw/self/message-csv/END_FIGHT_full.csv (sequence details).
+| Third-party relationship confirmed | Yes (Eli) |
+| Defamation campaign confirmed | Yes (rape narrative + junkie framing active in social network) |
+| Written denials previously issued | 2 (Nov 2025, Feb 2026) |
+| Love affirmations (full corpus) | 299 |
+| Explicit severance signals | 0 |
+| Dec 2025 message volume | 2,248 (real reinvestment, contradicts mutual disengagement narrative) |
+
+The analytical outputs that survive closure are the concept pages and any downstream tooling (e.g., DANMODEL trained on the reaction-pair corpus).

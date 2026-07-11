@@ -1,0 +1,4986 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398875380,
+        "longitudeE7": -797220799
+      },
+      "endLocation": {
+        "latitudeE7": 398872347,
+        "longitudeE7": -797380227
+      },
+      "duration": {
+        "startTimestamp": "2017-01-01T02:05:25.251Z",
+        "endTimestamp": "2017-01-01T02:11:32.429Z"
+      },
+      "distance": 1699,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 82.51846895535083
+      }, {
+        "activityType": "CYCLING",
+        "probability": 7.8760708581967265
+      }, {
+        "activityType": "WALKING",
+        "probability": 6.348265203120991
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398875541,
+          "lngE7": -797219009
+        }, {
+          "latE7": 398873176,
+          "lngE7": -797379837
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJAV4hXMk_NYgRvEQfgSiSQpQ"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSOLrXILdlDg"
+        }, {
+          "placeId": "ChIJ1XZ_-8s_NYgRoaklDUMTR_o"
+        }, {
+          "placeId": "ChIJMb9rKMw_NYgR3sGIbiWhByQ"
+        }, {
+          "placeId": "ChIJ_5luNcw_NYgRci2KaRYmagY"
+        }, {
+          "placeId": "ChIJWf_AU8w_NYgR4YLo81yXSeg"
+        }, {
+          "placeId": "ChIJdzNM_8w_NYgRvisULUXckdI"
+        }, {
+          "placeId": "ChIJs00k_sw_NYgR6fDmvPaBCjU"
+        }, {
+          "placeId": "ChIJ5QGydM0_NYgRcEdLQvgAb_8"
+        }, {
+          "placeId": "ChIJxZ8zfM0_NYgRcDUWJT-lR1I"
+        }, {
+          "placeId": "ChIJ4TMzBdM_NYgR1aUQCXBX4fk"
+        }, {
+          "placeId": "ChIJSUK6EtM_NYgRng0LdnwOtbo"
+        }, {
+          "placeId": "ChIJ9dcdgdM_NYgRQAYtZl4SVuk"
+        }, {
+          "placeId": "ChIJ4wkgd9Q_NYgRptr1wHoG1pI"
+        }, {
+          "placeId": "ChIJBbkQ8dY_NYgRmM9EUziL2GE"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398869621,
+        "longitudeE7": -797371464,
+        "placeId": "ChIJvb6L_9Y_NYgRiFDKtkBP0Zc",
+        "address": "524 Morgantown St A, Uniontown, Pennsylvania 15401-5470, United States",
+        "name": "China Express",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 28.528036
+      },
+      "duration": {
+        "startTimestamp": "2017-01-01T02:11:32.429Z",
+        "endTimestamp": "2017-01-01T02:56:37.233Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 398872522,
+      "centerLngE7": -797379656,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398866604,
+        "longitudeE7": -797371374,
+        "placeId": "ChIJy88aANc_NYgRVltz6wIT6ts",
+        "address": "524 Morgantown St #530, Uniontown, PA 15401, USA",
+        "name": "James Grill",
+        "locationConfidence": 17.355764
+      }, {
+        "latitudeE7": 398865840,
+        "longitudeE7": -797368304,
+        "placeId": "ChIJmY2MAtc_NYgR0KLWMtEXIR8",
+        "address": "527 Morgantown St, Uniontown, PA 15401, USA",
+        "name": "Kirby Co",
+        "locationConfidence": 10.620331
+      }, {
+        "latitudeE7": 398869621,
+        "longitudeE7": -797371464,
+        "placeId": "ChIJvb6L_9Y_NYgRll20_sQPE3c",
+        "address": "524 Morgantown St # B, Uniontown, PA 15401, USA",
+        "name": "Scott-Lynn Square Boxes Packaging",
+        "locationConfidence": 10.309147
+      }, {
+        "latitudeE7": 398854647,
+        "longitudeE7": -797358782,
+        "placeId": "ChIJ7d19Fdc_NYgRAB4CrGuBhXM",
+        "address": "200 Francis St, Uniontown, PA 15401, USA",
+        "name": "Eddie\u0027s Tavern",
+        "locationConfidence": 8.873335
+      }, {
+        "latitudeE7": 398872157,
+        "longitudeE7": -797381961,
+        "placeId": "ChIJuaA6SdY_NYgR7r0vkBZFc20",
+        "address": "524 Braddock Ave, Uniontown, PA 15401, USA",
+        "locationConfidence": 8.52731
+      }, {
+        "latitudeE7": 398831649,
+        "longitudeE7": -797347114,
+        "placeId": "ChIJy3tMQVkVNYgRjGebqaZorlI",
+        "name": "Uniontown Shopping Center",
+        "locationConfidence": 3.2955146
+      }, {
+        "latitudeE7": 398869621,
+        "longitudeE7": -797371464,
+        "placeId": "ChIJvb6L_9Y_NYgRRjYjEeeAFhM",
+        "address": "524 Morgantown St # B, Uniontown, PA 15401, USA",
+        "name": "Scott Lynn Square 1 Hour Photo",
+        "locationConfidence": 2.2620904
+      }, {
+        "latitudeE7": 398891641,
+        "longitudeE7": -797360728,
+        "placeId": "ChIJ3b-oINQ_NYgR_Bve5gbc4X4",
+        "address": "456 Morgantown St, Uniontown, PA 15401, USA",
+        "name": "Little Caesars Pizza",
+        "locationConfidence": 1.4383197
+      }, {
+        "latitudeE7": 398843561,
+        "longitudeE7": -797361272,
+        "placeId": "ChIJbXeQbtc_NYgRJ5WuHloOaUA",
+        "name": "Bortz Jr Paul H",
+        "locationConfidence": 1.279228
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 30,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398873137,
+        "longitudeE7": -797378627
+      },
+      "endLocation": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443
+      },
+      "duration": {
+        "startTimestamp": "2017-01-01T02:56:37.233Z",
+        "endTimestamp": "2017-01-01T03:01:11.464Z"
+      },
+      "distance": 1769,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 88.570658389705
+      }, {
+        "activityType": "WALKING",
+        "probability": 7.917173982033105
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.3975055543164516
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398872871,
+          "lngE7": -797378692
+        }, {
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJBbkQ8dY_NYgRmc9EUziL2GE"
+        }, {
+          "placeId": "ChIJ4wkgd9Q_NYgRp9r1wHoG1pI"
+        }, {
+          "placeId": "ChIJ9dcdgdM_NYgRQQYtZl4SVuk"
+        }, {
+          "placeId": "ChIJSUK6EtM_NYgRnw0LdnwOtbo"
+        }, {
+          "placeId": "ChIJ4TMzBdM_NYgR1KUQCXBX4fk"
+        }, {
+          "placeId": "ChIJxZ8zfM0_NYgRcTUWJT-lR1I"
+        }, {
+          "placeId": "ChIJ5QGydM0_NYgRcUdLQvgAb_8"
+        }, {
+          "placeId": "ChIJs00k_sw_NYgR6PDmvPaBCjU"
+        }, {
+          "placeId": "ChIJdzNM_8w_NYgRvysULUXckdI"
+        }, {
+          "placeId": "ChIJWf_AU8w_NYgR4ILo81yXSeg"
+        }, {
+          "placeId": "ChIJ_5luNcw_NYgRcy2KaRYmagY"
+        }, {
+          "placeId": "ChIJMb9rKMw_NYgR38GIbiWhByQ"
+        }, {
+          "placeId": "ChIJ1XZ_-8s_NYgRoKklDUMTR_o"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSeLrXILdlDg"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 98.983536
+      },
+      "duration": {
+        "startTimestamp": "2017-01-01T03:01:11.464Z",
+        "endTimestamp": "2017-01-01T03:19:39.656Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398876943,
+      "centerLngE7": -797221200,
+      "visitConfidence": 70,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.9903859
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.013906541
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.0064010196
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.0036039883
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.0020060348
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 1.5831884E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398877360,
+        "longitudeE7": -797222100
+      },
+      "endLocation": {
+        "latitudeE7": 398869621,
+        "longitudeE7": -797371464
+      },
+      "duration": {
+        "startTimestamp": "2017-01-01T03:19:39.656Z",
+        "endTimestamp": "2017-01-01T03:24:12.125Z"
+      },
+      "distance": 1919,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 89.41174627135301
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.389668662612845
+      }, {
+        "activityType": "CYCLING",
+        "probability": 3.4472156712169975
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398877410,
+          "lngE7": -797219161
+        }, {
+          "latE7": 398870811,
+          "lngE7": -797370910
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJIQPf4cs_NYgRSOLrXILdlDg"
+        }, {
+          "placeId": "ChIJ1XZ_-8s_NYgRoaklDUMTR_o"
+        }, {
+          "placeId": "ChIJMb9rKMw_NYgR3sGIbiWhByQ"
+        }, {
+          "placeId": "ChIJ_5luNcw_NYgRci2KaRYmagY"
+        }, {
+          "placeId": "ChIJWf_AU8w_NYgR4YLo81yXSeg"
+        }, {
+          "placeId": "ChIJdzNM_8w_NYgRvisULUXckdI"
+        }, {
+          "placeId": "ChIJs00k_sw_NYgR6fDmvPaBCjU"
+        }, {
+          "placeId": "ChIJ5QGydM0_NYgRcEdLQvgAb_8"
+        }, {
+          "placeId": "ChIJxZ8zfM0_NYgRcDUWJT-lR1I"
+        }, {
+          "placeId": "ChIJ4TMzBdM_NYgR1aUQCXBX4fk"
+        }, {
+          "placeId": "ChIJSUK6EtM_NYgRng0LdnwOtbo"
+        }, {
+          "placeId": "ChIJ9dcdgdM_NYgRQAYtZl4SVuk"
+        }, {
+          "placeId": "ChIJ4wkgd9Q_NYgRptr1wHoG1pI"
+        }, {
+          "placeId": "ChIJBbkQ8dY_NYgRmM9EUziL2GE"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398869621,
+        "longitudeE7": -797371464,
+        "placeId": "ChIJvb6L_9Y_NYgRiFDKtkBP0Zc",
+        "address": "524 Morgantown St A, Uniontown, Pennsylvania 15401-5470, United States",
+        "name": "China Express",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 27.61144
+      },
+      "duration": {
+        "startTimestamp": "2017-01-01T03:24:12.125Z",
+        "endTimestamp": "2017-01-01T05:49:48Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 398871528,
+      "centerLngE7": -797379444,
+      "visitConfidence": 75,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398866604,
+        "longitudeE7": -797371374,
+        "placeId": "ChIJy88aANc_NYgRVltz6wIT6ts",
+        "address": "524 Morgantown St #530, Uniontown, PA 15401, USA",
+        "name": "James Grill",
+        "locationConfidence": 15.243095
+      }, {
+        "latitudeE7": 398865840,
+        "longitudeE7": -797368304,
+        "placeId": "ChIJmY2MAtc_NYgR0KLWMtEXIR8",
+        "address": "527 Morgantown St, Uniontown, PA 15401, USA",
+        "name": "Kirby Co",
+        "locationConfidence": 12.079508
+      }, {
+        "latitudeE7": 398870720,
+        "longitudeE7": -797380450,
+        "placeId": "ChIJDW9pTtY_NYgRLJ4w8gdAPF4",
+        "address": "20 Elm St, Uniontown, PA 15401, USA",
+        "locationConfidence": 11.151071
+      }, {
+        "latitudeE7": 398854647,
+        "longitudeE7": -797358782,
+        "placeId": "ChIJ7d19Fdc_NYgRAB4CrGuBhXM",
+        "address": "200 Francis St, Uniontown, PA 15401, USA",
+        "name": "Eddie\u0027s Tavern",
+        "locationConfidence": 7.843879
+      }, {
+        "latitudeE7": 398869621,
+        "longitudeE7": -797371464,
+        "placeId": "ChIJvb6L_9Y_NYgRll20_sQPE3c",
+        "address": "524 Morgantown St # B, Uniontown, PA 15401, USA",
+        "name": "Scott-Lynn Square Boxes Packaging",
+        "locationConfidence": 7.179668
+      }, {
+        "latitudeE7": 398869621,
+        "longitudeE7": -797371464,
+        "placeId": "ChIJvb6L_9Y_NYgRRjYjEeeAFhM",
+        "address": "524 Morgantown St # B, Uniontown, PA 15401, USA",
+        "name": "Scott Lynn Square 1 Hour Photo",
+        "locationConfidence": 3.6529999
+      }, {
+        "latitudeE7": 398831649,
+        "longitudeE7": -797347114,
+        "placeId": "ChIJy3tMQVkVNYgRjGebqaZorlI",
+        "name": "Uniontown Shopping Center",
+        "locationConfidence": 2.3435433
+      }, {
+        "latitudeE7": 398869566,
+        "longitudeE7": -797371628,
+        "placeId": "ChIJvb6L_9Y_NYgRY36sOvJ9hXk",
+        "address": "524 Morgantown St, Uniontown, PA 15401, USA",
+        "name": "T \u0026 T Nails",
+        "locationConfidence": 1.8788493
+      }, {
+        "latitudeE7": 398869621,
+        "longitudeE7": -797371464,
+        "placeId": "ChIJvb6L_9Y_NYgRcJDP678zaW8",
+        "address": "524 Morgantown St # C, Uniontown, PA 15401, USA",
+        "name": "Total Package Salon",
+        "locationConfidence": 1.6867372
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 29,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398869621,
+        "longitudeE7": -797371464
+      },
+      "endLocation": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443
+      },
+      "duration": {
+        "startTimestamp": "2017-01-01T05:49:48Z",
+        "endTimestamp": "2017-01-01T06:06:11.412Z"
+      },
+      "distance": 6592,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 81.40757170703262
+      }, {
+        "activityType": "WALKING",
+        "probability": 14.036726903225752
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.3927107223974777
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398870811,
+          "lngE7": -797370910
+        }, {
+          "latE7": 398650398,
+          "lngE7": -797084426
+        }, {
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJs5Jt_tY_NYgRjVtVS-vG24Q"
+        }, {
+          "placeId": "ChIJ01KJBtc_NYgR1FwBh_Q-8ns"
+        }, {
+          "placeId": "ChIJXSiQDNc_NYgRedIlWpwdy_Y"
+        }, {
+          "placeId": "ChIJv9Phbdc_NYgR8SJpiP0pN3A"
+        }, {
+          "placeId": "ChIJ18yYYNc_NYgRRcoSMimw8zc"
+        }, {
+          "placeId": "ChIJc02S49k_NYgRLyyD7m7xooI"
+        }, {
+          "placeId": "ChIJo-DD79k_NYgRWQ_Vf_ZwYPg"
+        }, {
+          "placeId": "ChIJ1zuf7Nk_NYgRs_OLFBKojiI"
+        }, {
+          "placeId": "ChIJ632Kdtk_NYgRWWKxHEHUMkQ"
+        }, {
+          "placeId": "ChIJu2cv1ts_NYgR5-RT4diRHos"
+        }, {
+          "placeId": "ChIJm2pp0Ns_NYgR9hSo9BDc5y0"
+        }, {
+          "placeId": "ChIJDbL6xds_NYgRs28jPJ1Kj0o"
+        }, {
+          "placeId": "ChIJ5wd7uNs_NYgR_U2vFNClJlw"
+        }, {
+          "placeId": "ChIJVx2fu9s_NYgRNAAHLbFK2nc"
+        }, {
+          "placeId": "ChIJFTnsQds_NYgRroHn5X2ar4U"
+        }, {
+          "placeId": "ChIJM_9RosQ_NYgR26leoWnsMek"
+        }, {
+          "placeId": "ChIJ3cWNosQ_NYgRUeofCD11zjQ"
+        }, {
+          "placeId": "ChIJb71Y6MQ_NYgRI4hW_5fYfJA"
+        }, {
+          "placeId": "ChIJqQ7T5MQ_NYgRxSkGdSqGqEk"
+        }, {
+          "placeId": "ChIJmetORsQ_NYgR5YIrKOZYRso"
+        }, {
+          "placeId": "ChIJyY402cY_NYgR2AoL9ANGSMQ"
+        }, {
+          "placeId": "ChIJs8PJLsc_NYgRmM-UUHRaB_U"
+        }, {
+          "placeId": "ChIJI8R1Scc_NYgRbhpx_P4kTtc"
+        }, {
+          "placeId": "ChIJuef9U8c_NYgRockHqYNNbM0"
+        }, {
+          "placeId": "ChIJV1PRsrg_NYgR8AsKBcJXrYE"
+        }, {
+          "placeId": "ChIJLUlKSr8_NYgRswXfn9dUtC4"
+        }, {
+          "placeId": "ChIJm1wVOL8_NYgROaTE_mJkKSM"
+        }, {
+          "placeId": "ChIJW3V8Pr8_NYgRzimrV86xizw"
+        }, {
+          "placeId": "ChIJ9wqQBr8_NYgRiD_T9YuR5CQ"
+        }, {
+          "placeId": "ChIJfVUoaL4_NYgRQIQ0f3hkPdU"
+        }, {
+          "placeId": "ChIJD9jRaL4_NYgRUBjrbRZNBIc"
+        }, {
+          "placeId": "ChIJt_Wl8Jc_NYgRCCVp6HjXqzk"
+        }, {
+          "placeId": "ChIJP3wki5c_NYgRBmCOy5xbgbE"
+        }, {
+          "placeId": "ChIJdWQDMZg_NYgRpkdEscwoJkk"
+        }, {
+          "placeId": "ChIJBXceXpc_NYgR67y-fpNpaeA"
+        }, {
+          "placeId": "ChIJYUkaz5A_NYgRpiCPkSlvjuc"
+        }, {
+          "placeId": "ChIJI_kv3ZA_NYgRG5mCErLQEGg"
+        }, {
+          "placeId": "ChIJ_TBMXJo_NYgR8tR3k0CxDJA"
+        }, {
+          "placeId": "ChIJC4ywSZo_NYgRRbRGauVV8Uk"
+        }, {
+          "placeId": "ChIJSXmi0Zs_NYgR60NUdV8R66M"
+        }, {
+          "placeId": "ChIJHxQeYZk_NYgRnK0YT8msV54"
+        }, {
+          "placeId": "ChIJB7YWbJk_NYgR37lUgA_eXjA"
+        }, {
+          "placeId": "ChIJ25bBCZk_NYgRpVG8NmFW9-Q"
+        }, {
+          "placeId": "ChIJ3c83r5k_NYgRhBwwgTwpKrI"
+        }, {
+          "placeId": "ChIJdbJ7s5k_NYgRFJDeJLW0fKE"
+        }, {
+          "placeId": "ChIJdWQDMZg_NYgRp0dEscwoJkk"
+        }, {
+          "placeId": "ChIJP3wki5c_NYgRB2COy5xbgbE"
+        }, {
+          "placeId": "ChIJt_Wl8Jc_NYgRCSVp6HjXqzk"
+        }, {
+          "placeId": "ChIJD9jRaL4_NYgRURjrbRZNBIc"
+        }, {
+          "placeId": "ChIJfVUoaL4_NYgRQYQ0f3hkPdU"
+        }, {
+          "placeId": "ChIJ9wqQBr8_NYgRiT_T9YuR5CQ"
+        }, {
+          "placeId": "ChIJW3V8Pr8_NYgRzymrV86xizw"
+        }, {
+          "placeId": "ChIJm1wVOL8_NYgROKTE_mJkKSM"
+        }, {
+          "placeId": "ChIJLUlKSr8_NYgRsgXfn9dUtC4"
+        }, {
+          "placeId": "ChIJV1PRsrg_NYgR8QsKBcJXrYE"
+        }, {
+          "placeId": "ChIJuef9U8c_NYgRoMkHqYNNbM0"
+        }, {
+          "placeId": "ChIJI8R1Scc_NYgRbxpx_P4kTtc"
+        }, {
+          "placeId": "ChIJs8PJLsc_NYgRmc-UUHRaB_U"
+        }, {
+          "placeId": "ChIJyY402cY_NYgR2QoL9ANGSMQ"
+        }, {
+          "placeId": "ChIJ-a_xf84_NYgR9cGlYxAJfIo"
+        }, {
+          "placeId": "ChIJMb9rKMw_NYgR38GIbiWhByQ"
+        }, {
+          "placeId": "ChIJ1XZ_-8s_NYgRoKklDUMTR_o"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSeLrXILdlDg"
+        }]
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 398650084,
+          "lngE7": -797086582,
+          "accuracyMeters": 10,
+          "timestamp": "2017-01-01T05:59:51.050Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 98.88495
+      },
+      "duration": {
+        "startTimestamp": "2017-01-01T06:06:11.412Z",
+        "endTimestamp": "2017-01-01T21:20:47.349Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398875367,
+      "centerLngE7": -797220833,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.0825683
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.015499673
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.008237073
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.006027893
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.0026427729
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 7.717309E-5
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443
+      },
+      "endLocation": {
+        "latitudeE7": 398752568,
+        "longitudeE7": -797326534
+      },
+      "duration": {
+        "startTimestamp": "2017-01-01T21:20:47.349Z",
+        "endTimestamp": "2017-01-01T21:26:22.620Z"
+      },
+      "distance": 1944,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 88.25432097849209
+      }, {
+        "activityType": "WALKING",
+        "probability": 6.553820167428132
+      }, {
+        "activityType": "CYCLING",
+        "probability": 3.585116791162711
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }, {
+          "latE7": 398753700,
+          "lngE7": -797321014
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJIQPf4cs_NYgRSOLrXILdlDg"
+        }, {
+          "placeId": "ChIJ1XZ_-8s_NYgRoaklDUMTR_o"
+        }, {
+          "placeId": "ChIJMb9rKMw_NYgR3sGIbiWhByQ"
+        }, {
+          "placeId": "ChIJ-a_xf84_NYgR9MGlYxAJfIo"
+        }, {
+          "placeId": "ChIJT77tos8_NYgRxTKQUDAumqI"
+        }, {
+          "placeId": "ChIJD4nD5sQ_NYgRxodC5lkfwxY"
+        }, {
+          "placeId": "ChIJb71Y6MQ_NYgRIohW_5fYfJA"
+        }, {
+          "placeId": "ChIJ3cWNosQ_NYgRUOofCD11zjQ"
+        }, {
+          "placeId": "ChIJ1WqmhMQ_NYgRZVLLAP44MQw"
+        }, {
+          "placeId": "ChIJb8Q1ecQ_NYgRxeD-eBlsVNI"
+        }, {
+          "placeId": "ChIJGaushMM_NYgRjHpjzhlnn3s"
+        }, {
+          "placeId": "ChIJW_l2_cI_NYgR9WDV3Fj9M-Y"
+        }, {
+          "placeId": "ChIJhUFOxsI_NYgR2b55nSfRsYU"
+        }, {
+          "placeId": "ChIJsTPNMN0_NYgRsFa_c4eA6BM"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398752571,
+        "longitudeE7": -797326571,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, PA 15401, USA",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2017-01-01T21:26:22.620Z",
+        "endTimestamp": "2017-01-02T01:04:56.584Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398813278,
+      "centerLngE7": -797276750,
+      "visitConfidence": 74,
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 88,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398753802,
+        "longitudeE7": -797323702
+      },
+      "endLocation": {
+        "latitudeE7": 398875163,
+        "longitudeE7": -797220081
+      },
+      "duration": {
+        "startTimestamp": "2017-01-02T01:04:56.584Z",
+        "endTimestamp": "2017-01-02T01:09:25.977Z"
+      },
+      "distance": 1993,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 92.9213135033661
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.093629274263055
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.905835866101083
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398754310,
+          "lngE7": -797321166
+        }, {
+          "latE7": 398875274,
+          "lngE7": -797218933
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJsTPNMN0_NYgRsVa_c4eA6BM"
+        }, {
+          "placeId": "ChIJhUFOxsI_NYgR2L55nSfRsYU"
+        }, {
+          "placeId": "ChIJW_l2_cI_NYgR9GDV3Fj9M-Y"
+        }, {
+          "placeId": "ChIJGaushMM_NYgRjXpjzhlnn3s"
+        }, {
+          "placeId": "ChIJb8Q1ecQ_NYgRxOD-eBlsVNI"
+        }, {
+          "placeId": "ChIJ1WqmhMQ_NYgRZFLLAP44MQw"
+        }, {
+          "placeId": "ChIJ3cWNosQ_NYgRUeofCD11zjQ"
+        }, {
+          "placeId": "ChIJb71Y6MQ_NYgRI4hW_5fYfJA"
+        }, {
+          "placeId": "ChIJD4nD5sQ_NYgRx4dC5lkfwxY"
+        }, {
+          "placeId": "ChIJT77tos8_NYgRxDKQUDAumqI"
+        }, {
+          "placeId": "ChIJ-a_xf84_NYgR9cGlYxAJfIo"
+        }, {
+          "placeId": "ChIJMb9rKMw_NYgR38GIbiWhByQ"
+        }, {
+          "placeId": "ChIJ1XZ_-8s_NYgRoKklDUMTR_o"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSeLrXILdlDg"
+        }, {
+          "placeId": "ChIJAV4hXMk_NYgRvUQfgSiSQpQ"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 98.87973
+      },
+      "duration": {
+        "startTimestamp": "2017-01-02T01:09:25.977Z",
+        "endTimestamp": "2017-01-02T21:39:59.253Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398874790,
+      "centerLngE7": -797220840,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.0873854
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.015735231
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.008273663
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.0061217193
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.0026729978
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 7.738821E-5
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398875175,
+        "longitudeE7": -797221019
+      },
+      "endLocation": {
+        "latitudeE7": 399082929,
+        "longitudeE7": -797440547
+      },
+      "duration": {
+        "startTimestamp": "2017-01-02T21:39:59.253Z",
+        "endTimestamp": "2017-01-02T21:52:30.850Z"
+      },
+      "distance": 4202,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 91.38566906264981
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.803855892193691
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.0381348524753722
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398875350,
+          "lngE7": -797218933
+        }, {
+          "latE7": 399059715,
+          "lngE7": -797490386
+        }, {
+          "latE7": 399084739,
+          "lngE7": -797438125
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJAV4hXMk_NYgRvEQfgSiSQpQ"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSOLrXILdlDg"
+        }, {
+          "placeId": "ChIJcRIm68s_NYgRI31vNtYWwo8"
+        }, {
+          "placeId": "ChIJc4agdcs_NYgRmswZl_u113I"
+        }, {
+          "placeId": "ChIJD8QPbcs_NYgRWXN5Wr-gxwE"
+        }, {
+          "placeId": "ChIJXUmxQMs_NYgRdZUldVSKQxA"
+        }, {
+          "placeId": "ChIJ9zeHTss_NYgRFaEzcfnb1nU"
+        }, {
+          "placeId": "ChIJ1TlZqsw_NYgRYgSJYGuNcds"
+        }, {
+          "placeId": "ChIJO5ecssw_NYgRo4aSLxpNeSw"
+        }, {
+          "placeId": "ChIJscVry8w_NYgRwL8vaAYVIRo"
+        }, {
+          "placeId": "ChIJyccaOzM-NYgR4-RbVcU9uNI"
+        }, {
+          "placeId": "ChIJN9SRIzM-NYgRDfRpph5dAas"
+        }, {
+          "placeId": "ChIJ3axu6TI-NYgRKX7cEsa2tX0"
+        }, {
+          "placeId": "ChIJgxV96zI-NYgRtru74hhhsCs"
+        }, {
+          "placeId": "ChIJ462lkzI-NYgR6yQAn1o-5GA"
+        }, {
+          "placeId": "ChIJAyNAkDI-NYgReppHgD2ix_4"
+        }, {
+          "placeId": "ChIJ-QhWgzI-NYgRBM3a5e73SXE"
+        }, {
+          "placeId": "ChIJO84HfC0-NYgRYIDws3jTFjg"
+        }, {
+          "placeId": "ChIJQ_apdy0-NYgR1kBdkfHrIe0"
+        }, {
+          "placeId": "ChIJg3vwpi0-NYgRjwxBpihK4f0"
+        }, {
+          "placeId": "ChIJLw0sry0-NYgR-7mM_OCCLOc"
+        }, {
+          "placeId": "ChIJcwiisi0-NYgRhXn_gFNjQFA"
+        }, {
+          "placeId": "ChIJqSv_SCw-NYgR2n6xSq471aw"
+        }, {
+          "placeId": "ChIJH6DtOCw-NYgRLCluH4Q4vwk"
+        }, {
+          "placeId": "ChIJJ97DPiw-NYgRRF5UWMBiEvg"
+        }, {
+          "placeId": "ChIJlRTePSw-NYgRF6lFSDSlBCc"
+        }, {
+          "placeId": "ChIJ42TzUyk-NYgR6jes081St3U"
+        }, {
+          "placeId": "ChIJiVhoQSk-NYgRxXzdvJIN9dc"
+        }, {
+          "placeId": "ChIJySHdgYcVNYgROTB6sijv6rY"
+        }, {
+          "placeId": "ChIJPxCb-YYVNYgRfc8kTdXApgA"
+        }, {
+          "placeId": "ChIJJfTMg4YVNYgRSOzPwnFvuLM"
+        }, {
+          "placeId": "ChIJrVA3LoQVNYgRpmCctApxDEs"
+        }, {
+          "placeId": "ChIJfcYlSIQVNYgRxsbRWZX-TuE"
+        }, {
+          "placeId": "ChIJXcx7xoUVNYgRgzkLl_PqRvs"
+        }, {
+          "placeId": "ChIJGyfD7oUVNYgRu35I3ge4880"
+        }, {
+          "placeId": "ChIJE4Qf7YUVNYgRgzDPZ51Gc3U"
+        }, {
+          "placeId": "ChIJuYN5koUVNYgRWUpYCbGwv2M"
+        }, {
+          "placeId": "ChIJHasTjoUVNYgRYcbojzFF2-k"
+        }, {
+          "placeId": "ChIJs_2gj4UVNYgR9zGm_GxZkAQ"
+        }, {
+          "placeId": "ChIJARa5hYUVNYgRp_PB9SwHYAg"
+        }, {
+          "placeId": "ChIJ_2gDhIUVNYgRch5AV8GjY9Y"
+        }, {
+          "placeId": "ChIJ6eEMgYUVNYgRABMz2j1mqcA"
+        }, {
+          "placeId": "ChIJlQkwgIUVNYgR6OsnaSmqufc"
+        }, {
+          "placeId": "ChIJ1xh2gI8VNYgRRvcHjyCUSKA"
+        }, {
+          "placeId": "ChIJR9rcgI8VNYgRpoGu9RKpbPA"
+        }, {
+          "placeId": "ChIJXezAho8VNYgRClf19fg3c7g"
+        }, {
+          "placeId": "ChIJ_3vQhY8VNYgR-USK6fJOFDw"
+        }, {
+          "placeId": "ChIJb_GBj48VNYgRs5rY4wT4uFU"
+        }, {
+          "placeId": "ChIJg7zUj48VNYgRX2_xo3Ix4e4"
+        }, {
+          "placeId": "ChIJ1VSFkY8VNYgR-Vt_qGM7so8"
+        }, {
+          "placeId": "ChIJF03rk48VNYgRizqwYFOtrv8"
+        }, {
+          "placeId": "ChIJRceSlI8VNYgRj4nTIQ2pOXg"
+        }, {
+          "placeId": "ChIJ7RbN6o8VNYgR1ZjyerkHP2E"
+        }, {
+          "placeId": "ChIJu9YuwI8VNYgRr53o5mOJ6ew"
+        }, {
+          "placeId": "ChIJpQGewY8VNYgRz0JjFJoGpuw"
+        }, {
+          "placeId": "ChIJUcHzw48VNYgRZ5WXIZ3TpUc"
+        }, {
+          "placeId": "ChIJc2jwxI8VNYgRBZWJhXxtIYM"
+        }, {
+          "placeId": "ChIJn0VLxY8VNYgRj5uMwuc-nVg"
+        }, {
+          "placeId": "ChIJ6QVd0I8VNYgRJVHAH7SrdnY"
+        }, {
+          "placeId": "ChIJcVg-0Y8VNYgRO99Ed0dmQDU"
+        }, {
+          "placeId": "ChIJK6Ia1I8VNYgRTZfmeKsBHps"
+        }, {
+          "placeId": "ChIJGYwB1Y8VNYgRNUbnNjhpdsE"
+        }, {
+          "placeId": "ChIJ-7WrKo4VNYgRhyp8P42f0Ag"
+        }, {
+          "placeId": "ChIJPV_W1ZEVNYgREUUMb7HRqKs"
+        }, {
+          "placeId": "ChIJn4SF15EVNYgRc3ueDSpKD3w"
+        }, {
+          "placeId": "ChIJ9ZxuJ44VNYgRwtZVqdm3cko"
+        }, {
+          "placeId": "ChIJ0VY6IY4VNYgRXxitINKzUcc"
+        }, {
+          "placeId": "ChIJnbs7Io4VNYgRYgVnCWLW58M"
+        }, {
+          "placeId": "ChIJdeI-GI4VNYgRccKEFPO7Ufs"
+        }, {
+          "placeId": "ChIJSRtAF44VNYgRo3SMG7bBWE0"
+        }, {
+          "placeId": "ChIJvYs-EY4VNYgRRqoy2EQDwcA"
+        }, {
+          "placeId": "ChIJZ84rEo4VNYgRMkV9eJAzooM"
+        }, {
+          "placeId": "ChIJc0k-Eo4VNYgRf98RbejFhHQ"
+        }, {
+          "placeId": "ChIJS1IVco4VNYgRYOz4ECZ58Jo"
+        }, {
+          "placeId": "ChIJjXtEfI4VNYgRjR1Zt3iLXfs"
+        }, {
+          "placeId": "ChIJOwL3ho4VNYgRO6FgKGL_rCE"
+        }, {
+          "placeId": "ChIJQUTDhY4VNYgRkTY3yA41OYw"
+        }, {
+          "placeId": "ChIJ9cR8hY4VNYgR---3RZlS7so"
+        }, {
+          "placeId": "ChIJod8YkI4VNYgR36phjDgmJ1Q"
+        }, {
+          "placeId": "ChIJt4ZVkI4VNYgRZ9ulYolSQfk"
+        }, {
+          "placeId": "ChIJk302kY4VNYgRKLVbr8Awjk8"
+        }, {
+          "placeId": "ChIJJ7PslY4VNYgRVg0iqU8XesQ"
+        }, {
+          "placeId": "ChIJL35rv44VNYgRfVcdh_PyAd0"
+        }, {
+          "placeId": "ChIJ4chQx44VNYgRu4Edgn-8Cf4"
+        }, {
+          "placeId": "ChIJw8mnx44VNYgRSBHUjA4TOIE"
+        }, {
+          "placeId": "ChIJt2Qmxo4VNYgR3SgVnJuh0_8"
+        }, {
+          "placeId": "ChIJa-TNyI4VNYgRBNQR2ca9IM4"
+        }, {
+          "placeId": "ChIJ-aS_zo4VNYgR8V91Ay2Ede8"
+        }, {
+          "placeId": "ChIJw3LLzY4VNYgRVQACGU2LBYI"
+        }, {
+          "placeId": "ChIJWZip0o4VNYgRGB7C0pWftTI"
+        }, {
+          "placeId": "ChIJyXtoLokVNYgR8L6aLP0Pdsw"
+        }, {
+          "placeId": "ChIJ9T2LOokVNYgRZElrnUvO0RA"
+        }]
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 399060879,
+          "lngE7": -797490277,
+          "accuracyMeters": 10,
+          "timestamp": "2017-01-02T21:46:34.266Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 399082798,
+        "longitudeE7": -797440122,
+        "placeId": "ChIJlcboB4wVNYgR1B-cEjK05js",
+        "address": "89 Restaurant Row, Uniontown, Pennsylvania 15401, United States",
+        "name": "Wendy\u0027s",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 94.17814,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-01-02T21:52:30.850Z",
+        "endTimestamp": "2017-01-02T21:59:11.524Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 399083333,
+      "centerLngE7": -797439733,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 399079385,
+        "longitudeE7": -797435741,
+        "placeId": "ChIJn1MaBYkVNYgRjRFB8QHbfNc",
+        "address": "79 Restaurant Row, Uniontown, PA 15401, USA",
+        "name": "Five Guys",
+        "locationConfidence": 3.7369878
+      }, {
+        "latitudeE7": 399086520,
+        "longitudeE7": -797434758,
+        "placeId": "ChIJtyJmcokVNYgRwyGRweZth-g",
+        "address": "519 W Main St, Uniontown, PA 15401, USA",
+        "name": "Eat\u0027n Park",
+        "locationConfidence": 1.3916584
+      }, {
+        "latitudeE7": 399081922,
+        "longitudeE7": -797428220,
+        "placeId": "ChIJG___p4kVNYgRkTs_zSbaIlo",
+        "address": "517 W Main St, Uniontown, PA 15401, USA",
+        "name": "Olive Garden",
+        "locationConfidence": 0.2758639
+      }, {
+        "latitudeE7": 399072856,
+        "longitudeE7": -797474198,
+        "placeId": "ChIJIWwr8IUVNYgRX_ETJ5uL9tU",
+        "address": "1368 Mall Run Rd, Uniontown, PA 15401, USA",
+        "name": "Uniontown Mall",
+        "locationConfidence": 0.25145927
+      }, {
+        "latitudeE7": 399104371,
+        "longitudeE7": -797449900,
+        "placeId": "ChIJsSfl_IsVNYgR6noOirbOk18",
+        "address": "Mt St Macrina Rd, Uniontown, PA 15401, USA",
+        "name": "Mt St Macrina",
+        "locationConfidence": 0.032747466
+      }, {
+        "latitudeE7": 399078470,
+        "longitudeE7": -797421222,
+        "placeId": "ChIJ66NF_IsVNYgRRNHB1HIrqzc",
+        "address": "515 W Main St, Uniontown, PA 15401, USA",
+        "name": "Red Lobster",
+        "locationConfidence": 0.029002074
+      }, {
+        "latitudeE7": 399080168,
+        "longitudeE7": -797476411,
+        "placeId": "ChIJZZ9E2oUVNYgR2k2nP1hXy6Y",
+        "address": "1224 Mall Run Rd Unit 224, Uniontown, PA 15401, USA",
+        "name": "Verizon",
+        "locationConfidence": 0.026209565
+      }, {
+        "latitudeE7": 399093840,
+        "longitudeE7": -797443970,
+        "placeId": "ChIJLdkbZokVNYgR_xseQjCILEE",
+        "address": "525 W Main St, Uniontown, PA 15401, USA",
+        "name": "Mattress Firm Uniontown Mall",
+        "locationConfidence": 0.020526592
+      }, {
+        "latitudeE7": 399066170,
+        "longitudeE7": -797459120,
+        "placeId": "ChIJoyiD7oUVNYgRb0DeGkHIm4U",
+        "address": "1500 Mall Run Rd, Uniontown, PA 15401, USA",
+        "name": "Sears",
+        "locationConfidence": 0.019262493
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 83,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 399083595,
+        "longitudeE7": -797439395
+      },
+      "endLocation": {
+        "latitudeE7": 398755199,
+        "longitudeE7": -797326195
+      },
+      "duration": {
+        "startTimestamp": "2017-01-02T21:59:11.524Z",
+        "endTimestamp": "2017-01-02T22:10:36.949Z"
+      },
+      "distance": 4669,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 88.70035506580655
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.736891050832677
+      }, {
+        "activityType": "CYCLING",
+        "probability": 3.6623990862868814
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 399084663,
+          "lngE7": -797437973
+        }, {
+          "latE7": 398957710,
+          "lngE7": -797383117
+        }, {
+          "latE7": 398755226,
+          "lngE7": -797321472
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJtRvva4kVNYgRbF1PqOPP150"
+        }, {
+          "placeId": "ChIJuSKPbYkVNYgR6rqhmHR-vUI"
+        }, {
+          "placeId": "ChIJL5v0hyc-NYgR7OeNmVmJ6kU"
+        }, {
+          "placeId": "ChIJZxnOiCc-NYgRYENXttLPBgY"
+        }, {
+          "placeId": "ChIJSwkIkic-NYgR8PRhu3bz9b0"
+        }, {
+          "placeId": "ChIJcwM8KyY-NYgRO_2ieDr8Yjc"
+        }, {
+          "placeId": "ChIJWZxfgig-NYgRXJUTreHOkKw"
+        }, {
+          "placeId": "ChIJc2qImyg-NYgR4SbcHHlXJtQ"
+        }, {
+          "placeId": "ChIJxWbJ-S4-NYgRLPGrzsCowwk"
+        }, {
+          "placeId": "ChIJgyjyoy4-NYgR-alZ4SChLxY"
+        }, {
+          "placeId": "ChIJJ7QZqC4-NYgREQhJBBVrvVI"
+        }, {
+          "placeId": "ChIJeQs6ASw-NYgRCKqhc0K9V7c"
+        }, {
+          "placeId": "ChIJkeIi8is-NYgR_fcCIrteI5Y"
+        }, {
+          "placeId": "ChIJ9c5B6So-NYgRlUuPQP8_Lkg"
+        }, {
+          "placeId": "ChIJk9_m7n8VNYgRnG5g33-Rt04"
+        }, {
+          "placeId": "ChIJfWy55X8VNYgR8t_A1S9TlJE"
+        }, {
+          "placeId": "ChIJScTDW9U_NYgRxpwxlKPWPmQ"
+        }, {
+          "placeId": "ChIJfYJ4R9U_NYgRnngCcDe74IA"
+        }, {
+          "placeId": "ChIJp5Vn2NQ_NYgRofaWJjY8HEk"
+        }, {
+          "placeId": "ChIJcZIIu9Q_NYgR6oX5ECJuWpI"
+        }, {
+          "placeId": "ChIJg7b1pNQ_NYgRQhDa3vGdlz8"
+        }, {
+          "placeId": "ChIJmUg8p9Q_NYgRu7nR2PTle7I"
+        }, {
+          "placeId": "ChIJT-SLW9M_NYgRP3eUhHmo3GA"
+        }, {
+          "placeId": "ChIJiX7FQ9M_NYgRXcnMugV_9_c"
+        }, {
+          "placeId": "ChIJ9dcdgdM_NYgRQAYtZl4SVuk"
+        }, {
+          "placeId": "ChIJ4wkgd9Q_NYgRptr1wHoG1pI"
+        }, {
+          "placeId": "ChIJBbkQ8dY_NYgRmM9EUziL2GE"
+        }, {
+          "placeId": "ChIJs5Jt_tY_NYgRjVtVS-vG24Q"
+        }, {
+          "placeId": "ChIJ01KJBtc_NYgR1FwBh_Q-8ns"
+        }, {
+          "placeId": "ChIJXSiQDNc_NYgRedIlWpwdy_Y"
+        }, {
+          "placeId": "ChIJv9Phbdc_NYgR8SJpiP0pN3A"
+        }, {
+          "placeId": "ChIJ18yYYNc_NYgRRcoSMimw8zc"
+        }, {
+          "placeId": "ChIJc02S49k_NYgRLyyD7m7xooI"
+        }, {
+          "placeId": "ChIJo-DD79k_NYgRWQ_Vf_ZwYPg"
+        }, {
+          "placeId": "ChIJ1zuf7Nk_NYgRs_OLFBKojiI"
+        }, {
+          "placeId": "ChIJ632Kdtk_NYgRWWKxHEHUMkQ"
+        }, {
+          "placeId": "ChIJu2cv1ts_NYgR5-RT4diRHos"
+        }, {
+          "placeId": "ChIJm2pp0Ns_NYgR9hSo9BDc5y0"
+        }, {
+          "placeId": "ChIJDbL6xds_NYgRs28jPJ1Kj0o"
+        }, {
+          "placeId": "ChIJ5wd7uNs_NYgR_U2vFNClJlw"
+        }, {
+          "placeId": "ChIJVx2fu9s_NYgRNAAHLbFK2nc"
+        }, {
+          "placeId": "ChIJFTnsQds_NYgRroHn5X2ar4U"
+        }, {
+          "placeId": "ChIJM_9RosQ_NYgR26leoWnsMek"
+        }, {
+          "placeId": "ChIJ1WqmhMQ_NYgRZVLLAP44MQw"
+        }, {
+          "placeId": "ChIJb8Q1ecQ_NYgRxeD-eBlsVNI"
+        }, {
+          "placeId": "ChIJGaushMM_NYgRjHpjzhlnn3s"
+        }, {
+          "placeId": "ChIJW_l2_cI_NYgR9WDV3Fj9M-Y"
+        }, {
+          "placeId": "ChIJhUFOxsI_NYgR2b55nSfRsYU"
+        }, {
+          "placeId": "ChIJsTPNMN0_NYgRsFa_c4eA6BM"
+        }]
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 398956054,
+          "lngE7": -797385979,
+          "accuracyMeters": 65,
+          "timestamp": "2017-01-02T22:04:11.444Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398752571,
+        "longitudeE7": -797326571,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, PA 15401, USA",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2017-01-02T22:10:36.949Z",
+        "endTimestamp": "2017-01-02T22:19:51.499Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398754033,
+      "centerLngE7": -797325367,
+      "visitConfidence": 77,
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 88,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398753590,
+        "longitudeE7": -797324580
+      },
+      "endLocation": {
+        "latitudeE7": 398875506,
+        "longitudeE7": -797222531
+      },
+      "duration": {
+        "startTimestamp": "2017-01-02T22:19:51.499Z",
+        "endTimestamp": "2017-01-02T22:37:57.423Z"
+      },
+      "distance": 4939,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 72.89889263942845
+      }, {
+        "activityType": "WALKING",
+        "probability": 16.10938464064871
+      }, {
+        "activityType": "CYCLING",
+        "probability": 8.836103360425794
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398754234,
+          "lngE7": -797321166
+        }, {
+          "latE7": 399004631,
+          "lngE7": -797309646
+        }, {
+          "latE7": 398875808,
+          "lngE7": -797219009
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJsTPNMN0_NYgRsVa_c4eA6BM"
+        }, {
+          "placeId": "ChIJhUFOxsI_NYgR2L55nSfRsYU"
+        }, {
+          "placeId": "ChIJW_l2_cI_NYgR9GDV3Fj9M-Y"
+        }, {
+          "placeId": "ChIJGaushMM_NYgRjXpjzhlnn3s"
+        }, {
+          "placeId": "ChIJb8Q1ecQ_NYgRxOD-eBlsVNI"
+        }, {
+          "placeId": "ChIJ1WqmhMQ_NYgRZFLLAP44MQw"
+        }, {
+          "placeId": "ChIJ3cWNosQ_NYgRUeofCD11zjQ"
+        }, {
+          "placeId": "ChIJb71Y6MQ_NYgRI4hW_5fYfJA"
+        }, {
+          "placeId": "ChIJD4nD5sQ_NYgRx4dC5lkfwxY"
+        }, {
+          "placeId": "ChIJT77tos8_NYgRxDKQUDAumqI"
+        }, {
+          "placeId": "ChIJ-a_xf84_NYgR9cGlYxAJfIo"
+        }, {
+          "placeId": "ChIJ_5luNcw_NYgRci2KaRYmagY"
+        }, {
+          "placeId": "ChIJWf_AU8w_NYgR4YLo81yXSeg"
+        }, {
+          "placeId": "ChIJdzNM_8w_NYgRvisULUXckdI"
+        }, {
+          "placeId": "ChIJ-We4-8w_NYgRMcuO5R115rA"
+        }, {
+          "placeId": "ChIJ_47X5Mw_NYgRsR91gt6iBtM"
+        }, {
+          "placeId": "ChIJU9w-5Mw_NYgRVIMUKsJ5FDs"
+        }, {
+          "placeId": "ChIJURIj28w_NYgRI5LcVqJy0YA"
+        }, {
+          "placeId": "ChIJyccaOzM-NYgR4-RbVcU9uNI"
+        }, {
+          "placeId": "ChIJN9SRIzM-NYgRDfRpph5dAas"
+        }, {
+          "placeId": "ChIJ3axu6TI-NYgRKX7cEsa2tX0"
+        }, {
+          "placeId": "ChIJgxV96zI-NYgRtru74hhhsCs"
+        }, {
+          "placeId": "ChIJ462lkzI-NYgR6yQAn1o-5GA"
+        }, {
+          "placeId": "ChIJAyNAkDI-NYgReppHgD2ix_4"
+        }, {
+          "placeId": "ChIJ-QhWgzI-NYgRBM3a5e73SXE"
+        }, {
+          "placeId": "ChIJO84HfC0-NYgRYIDws3jTFjg"
+        }, {
+          "placeId": "ChIJQ_apdy0-NYgR1kBdkfHrIe0"
+        }, {
+          "placeId": "ChIJg3vwpi0-NYgRjwxBpihK4f0"
+        }, {
+          "placeId": "ChIJLw0sry0-NYgR-7mM_OCCLOc"
+        }, {
+          "placeId": "ChIJcwiisi0-NYgRhXn_gFNjQFA"
+        }, {
+          "placeId": "ChIJqSv_SCw-NYgR2n6xSq471aw"
+        }, {
+          "placeId": "ChIJH6DtOCw-NYgRLCluH4Q4vwk"
+        }, {
+          "placeId": "ChIJJ97DPiw-NYgRRF5UWMBiEvg"
+        }, {
+          "placeId": "ChIJlRTePSw-NYgRF6lFSDSlBCc"
+        }, {
+          "placeId": "ChIJJ7QZqC4-NYgREAhJBBVrvVI"
+        }, {
+          "placeId": "ChIJgyjyoy4-NYgR-KlZ4SChLxY"
+        }, {
+          "placeId": "ChIJD3GxQy4-NYgRf17FNSmvdRE"
+        }, {
+          "placeId": "ChIJD5oh4zE-NYgR47-TAyrfjgE"
+        }, {
+          "placeId": "ChIJV4iG-zE-NYgRqPUyDvBxdgs"
+        }, {
+          "placeId": "ChIJQ_apdy0-NYgR10BdkfHrIe0"
+        }, {
+          "placeId": "ChIJO84HfC0-NYgRYYDws3jTFjg"
+        }, {
+          "placeId": "ChIJ-QhWgzI-NYgRBc3a5e73SXE"
+        }, {
+          "placeId": "ChIJAyNAkDI-NYgRe5pHgD2ix_4"
+        }, {
+          "placeId": "ChIJ462lkzI-NYgR6iQAn1o-5GA"
+        }, {
+          "placeId": "ChIJgxV96zI-NYgRt7u74hhhsCs"
+        }, {
+          "placeId": "ChIJ3axu6TI-NYgRKH7cEsa2tX0"
+        }, {
+          "placeId": "ChIJN9SRIzM-NYgRDPRpph5dAas"
+        }, {
+          "placeId": "ChIJyccaOzM-NYgR4uRbVcU9uNI"
+        }, {
+          "placeId": "ChIJscVry8w_NYgRwb8vaAYVIRo"
+        }, {
+          "placeId": "ChIJO5ecssw_NYgRooaSLxpNeSw"
+        }, {
+          "placeId": "ChIJ1TlZqsw_NYgRYwSJYGuNcds"
+        }, {
+          "placeId": "ChIJ9zeHTss_NYgRFKEzcfnb1nU"
+        }, {
+          "placeId": "ChIJXUmxQMs_NYgRdJUldVSKQxA"
+        }, {
+          "placeId": "ChIJD8QPbcs_NYgRWHN5Wr-gxwE"
+        }, {
+          "placeId": "ChIJc4agdcs_NYgRm8wZl_u113I"
+        }, {
+          "placeId": "ChIJcRIm68s_NYgRIn1vNtYWwo8"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSeLrXILdlDg"
+        }, {
+          "placeId": "ChIJAV4hXMk_NYgRvUQfgSiSQpQ"
+        }]
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 399004886,
+          "lngE7": -797309436,
+          "accuracyMeters": 10,
+          "timestamp": "2017-01-02T22:33:37.390Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 98.48832
+      },
+      "duration": {
+        "startTimestamp": "2017-01-02T22:37:57.423Z",
+        "endTimestamp": "2017-01-03T21:04:00.731Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398876350,
+      "centerLngE7": -797221350,
+      "visitConfidence": 76,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.4613806
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.0281175
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.012110514
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.0060333987
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.0038721876
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 1.68575E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398875663,
+        "longitudeE7": -797220712
+      },
+      "endLocation": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443
+      },
+      "duration": {
+        "startTimestamp": "2017-01-03T21:04:00.731Z",
+        "endTimestamp": "2017-01-03T21:18:23.999Z"
+      },
+      "distance": 3156,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 86.32893179311594
+      }, {
+        "activityType": "WALKING",
+        "probability": 9.360676149427832
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.836641568757034
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398875808,
+          "lngE7": -797219009
+        }, {
+          "latE7": 398994712,
+          "lngE7": -797288742
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJAV4hXMk_NYgRvEQfgSiSQpQ"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSOLrXILdlDg"
+        }, {
+          "placeId": "ChIJcRIm68s_NYgRI31vNtYWwo8"
+        }, {
+          "placeId": "ChIJc4agdcs_NYgRmswZl_u113I"
+        }, {
+          "placeId": "ChIJD8QPbcs_NYgRWXN5Wr-gxwE"
+        }, {
+          "placeId": "ChIJXUmxQMs_NYgRdZUldVSKQxA"
+        }, {
+          "placeId": "ChIJ9zeHTss_NYgRFaEzcfnb1nU"
+        }, {
+          "placeId": "ChIJ1TlZqsw_NYgRYgSJYGuNcds"
+        }, {
+          "placeId": "ChIJO5ecssw_NYgRo4aSLxpNeSw"
+        }, {
+          "placeId": "ChIJscVry8w_NYgRwL8vaAYVIRo"
+        }, {
+          "placeId": "ChIJyccaOzM-NYgR4-RbVcU9uNI"
+        }, {
+          "placeId": "ChIJN9SRIzM-NYgRDfRpph5dAas"
+        }, {
+          "placeId": "ChIJ3axu6TI-NYgRKX7cEsa2tX0"
+        }, {
+          "placeId": "ChIJgxV96zI-NYgRtru74hhhsCs"
+        }, {
+          "placeId": "ChIJ462lkzI-NYgR6yQAn1o-5GA"
+        }, {
+          "placeId": "ChIJAyNAkDI-NYgReppHgD2ix_4"
+        }, {
+          "placeId": "ChIJ-QhWgzI-NYgRBM3a5e73SXE"
+        }, {
+          "placeId": "ChIJO84HfC0-NYgRYIDws3jTFjg"
+        }, {
+          "placeId": "ChIJQ_apdy0-NYgR1kBdkfHrIe0"
+        }, {
+          "placeId": "ChIJD5oh4zE-NYgR47-TAyrfjgE"
+        }, {
+          "placeId": "ChIJV4iG-zE-NYgRqPUyDvBxdgs"
+        }, {
+          "placeId": "ChIJQ_apdy0-NYgR10BdkfHrIe0"
+        }, {
+          "placeId": "ChIJO84HfC0-NYgRYYDws3jTFjg"
+        }, {
+          "placeId": "ChIJ-QhWgzI-NYgRBc3a5e73SXE"
+        }, {
+          "placeId": "ChIJAyNAkDI-NYgRe5pHgD2ix_4"
+        }, {
+          "placeId": "ChIJ462lkzI-NYgR6iQAn1o-5GA"
+        }, {
+          "placeId": "ChIJgxV96zI-NYgRt7u74hhhsCs"
+        }, {
+          "placeId": "ChIJ3axu6TI-NYgRKH7cEsa2tX0"
+        }, {
+          "placeId": "ChIJN9SRIzM-NYgRDPRpph5dAas"
+        }, {
+          "placeId": "ChIJyccaOzM-NYgR4uRbVcU9uNI"
+        }, {
+          "placeId": "ChIJscVry8w_NYgRwb8vaAYVIRo"
+        }, {
+          "placeId": "ChIJO5ecssw_NYgRooaSLxpNeSw"
+        }, {
+          "placeId": "ChIJ1TlZqsw_NYgRYwSJYGuNcds"
+        }, {
+          "placeId": "ChIJ9zeHTss_NYgRFKEzcfnb1nU"
+        }, {
+          "placeId": "ChIJXUmxQMs_NYgRdJUldVSKQxA"
+        }, {
+          "placeId": "ChIJD8QPbcs_NYgRWHN5Wr-gxwE"
+        }, {
+          "placeId": "ChIJc4agdcs_NYgRm8wZl_u113I"
+        }, {
+          "placeId": "ChIJcRIm68s_NYgRIn1vNtYWwo8"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSeLrXILdlDg"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 98.0372
+      },
+      "duration": {
+        "startTimestamp": "2017-01-03T21:18:23.999Z",
+        "endTimestamp": "2017-01-03T22:19:44.137Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398880238,
+      "centerLngE7": -797225650,
+      "visitConfidence": 68,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.8337615
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.047713857
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.034489114
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.027462753
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.018712481
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 6.6063955E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 86,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398878700,
+        "longitudeE7": -797221247
+      },
+      "endLocation": {
+        "latitudeE7": 398874530,
+        "longitudeE7": -797221073
+      },
+      "duration": {
+        "startTimestamp": "2017-01-03T22:19:44.137Z",
+        "endTimestamp": "2017-01-04T00:26:09.032Z"
+      },
+      "distance": 11416,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 83.61812494894255
+      }, {
+        "activityType": "WALKING",
+        "probability": 11.541526496610683
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.8572764036354237
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398878746,
+          "lngE7": -797219238
+        }, {
+          "latE7": 398754081,
+          "lngE7": -797321090
+        }, {
+          "latE7": 398918647,
+          "lngE7": -797337646
+        }, {
+          "latE7": 398874702,
+          "lngE7": -797218856
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJIQPf4cs_NYgRSOLrXILdlDg"
+        }, {
+          "placeId": "ChIJ1XZ_-8s_NYgRoaklDUMTR_o"
+        }, {
+          "placeId": "ChIJMb9rKMw_NYgR3sGIbiWhByQ"
+        }, {
+          "placeId": "ChIJ-a_xf84_NYgR9MGlYxAJfIo"
+        }, {
+          "placeId": "ChIJT77tos8_NYgRxTKQUDAumqI"
+        }, {
+          "placeId": "ChIJD4nD5sQ_NYgRxodC5lkfwxY"
+        }, {
+          "placeId": "ChIJb71Y6MQ_NYgRIohW_5fYfJA"
+        }, {
+          "placeId": "ChIJ3cWNosQ_NYgRUOofCD11zjQ"
+        }, {
+          "placeId": "ChIJ1WqmhMQ_NYgRZVLLAP44MQw"
+        }, {
+          "placeId": "ChIJb8Q1ecQ_NYgRxeD-eBlsVNI"
+        }, {
+          "placeId": "ChIJGaushMM_NYgRjHpjzhlnn3s"
+        }, {
+          "placeId": "ChIJW_l2_cI_NYgR9WDV3Fj9M-Y"
+        }, {
+          "placeId": "ChIJhUFOxsI_NYgR2b55nSfRsYU"
+        }, {
+          "placeId": "ChIJsTPNMN0_NYgRsFa_c4eA6BM"
+        }, {
+          "placeId": "ChIJsTPNMN0_NYgRsVa_c4eA6BM"
+        }, {
+          "placeId": "ChIJhUFOxsI_NYgR2L55nSfRsYU"
+        }, {
+          "placeId": "ChIJW_l2_cI_NYgR9GDV3Fj9M-Y"
+        }, {
+          "placeId": "ChIJGaushMM_NYgRjXpjzhlnn3s"
+        }, {
+          "placeId": "ChIJb8Q1ecQ_NYgRxOD-eBlsVNI"
+        }, {
+          "placeId": "ChIJ1WqmhMQ_NYgRZFLLAP44MQw"
+        }, {
+          "placeId": "ChIJM_9RosQ_NYgR2qleoWnsMek"
+        }, {
+          "placeId": "ChIJFTnsQds_NYgRr4Hn5X2ar4U"
+        }, {
+          "placeId": "ChIJVx2fu9s_NYgRNQAHLbFK2nc"
+        }, {
+          "placeId": "ChIJ5wd7uNs_NYgR_E2vFNClJlw"
+        }, {
+          "placeId": "ChIJDbL6xds_NYgRsm8jPJ1Kj0o"
+        }, {
+          "placeId": "ChIJm2pp0Ns_NYgR9xSo9BDc5y0"
+        }, {
+          "placeId": "ChIJu2cv1ts_NYgR5uRT4diRHos"
+        }, {
+          "placeId": "ChIJ632Kdtk_NYgRWGKxHEHUMkQ"
+        }, {
+          "placeId": "ChIJ1zuf7Nk_NYgRsvOLFBKojiI"
+        }, {
+          "placeId": "ChIJo-DD79k_NYgRWA_Vf_ZwYPg"
+        }, {
+          "placeId": "ChIJc02S49k_NYgRLiyD7m7xooI"
+        }, {
+          "placeId": "ChIJ18yYYNc_NYgRRMoSMimw8zc"
+        }, {
+          "placeId": "ChIJv9Phbdc_NYgR8CJpiP0pN3A"
+        }, {
+          "placeId": "ChIJXSiQDNc_NYgReNIlWpwdy_Y"
+        }, {
+          "placeId": "ChIJ01KJBtc_NYgR1VwBh_Q-8ns"
+        }, {
+          "placeId": "ChIJs5Jt_tY_NYgRjFtVS-vG24Q"
+        }, {
+          "placeId": "ChIJBbkQ8dY_NYgRmc9EUziL2GE"
+        }, {
+          "placeId": "ChIJ4wkgd9Q_NYgRp9r1wHoG1pI"
+        }, {
+          "placeId": "ChIJ9dcdgdM_NYgRQQYtZl4SVuk"
+        }, {
+          "placeId": "ChIJSUK6EtM_NYgRnw0LdnwOtbo"
+        }, {
+          "placeId": "ChIJ4TMzBdM_NYgR1KUQCXBX4fk"
+        }, {
+          "placeId": "ChIJxZ8zfM0_NYgRcTUWJT-lR1I"
+        }, {
+          "placeId": "ChIJ5QGydM0_NYgRcUdLQvgAb_8"
+        }, {
+          "placeId": "ChIJs00k_sw_NYgR6PDmvPaBCjU"
+        }, {
+          "placeId": "ChIJdzNM_8w_NYgRvysULUXckdI"
+        }, {
+          "placeId": "ChIJWf_AU8w_NYgR4ILo81yXSeg"
+        }, {
+          "placeId": "ChIJ_5luNcw_NYgRcy2KaRYmagY"
+        }, {
+          "placeId": "ChIJMb9rKMw_NYgR38GIbiWhByQ"
+        }, {
+          "placeId": "ChIJ1XZ_-8s_NYgRoKklDUMTR_o"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSeLrXILdlDg"
+        }, {
+          "placeId": "ChIJAV4hXMk_NYgRvUQfgSiSQpQ"
+        }]
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 398753956,
+          "lngE7": -797321116,
+          "accuracyMeters": 57,
+          "timestamp": "2017-01-03T22:24:55.205Z"
+        }, {
+          "latE7": 398918880,
+          "lngE7": -797338169,
+          "accuracyMeters": 10,
+          "timestamp": "2017-01-03T22:42:29.999Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 97.895424
+      },
+      "duration": {
+        "startTimestamp": "2017-01-04T00:26:09.032Z",
+        "endTimestamp": "2017-01-04T18:55:42Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398873725,
+      "centerLngE7": -797220500,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.1595458
+      }, {
+        "latitudeE7": 398875240,
+        "longitudeE7": -797215820,
+        "placeId": "ChIJYamtYMk_NYgR0xhEBkWnC9s",
+        "address": "150 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.8980284
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.03388573
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.009829569
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.0022623271
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 9.263151E-4
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 1.00592326E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 86,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398873785,
+        "longitudeE7": -797220611
+      },
+      "endLocation": {
+        "latitudeE7": 398752431,
+        "longitudeE7": -797326192
+      },
+      "duration": {
+        "startTimestamp": "2017-01-04T18:55:42Z",
+        "endTimestamp": "2017-01-04T19:07:40.461Z"
+      },
+      "distance": 1899,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 75.28587807164922
+      }, {
+        "activityType": "CYCLING",
+        "probability": 12.303585586364028
+      }, {
+        "activityType": "WALKING",
+        "probability": 9.314605487005148
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398873977,
+          "lngE7": -797218704
+        }, {
+          "latE7": 398753700,
+          "lngE7": -797321014
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJAV4hXMk_NYgRvEQfgSiSQpQ"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSOLrXILdlDg"
+        }, {
+          "placeId": "ChIJ1XZ_-8s_NYgRoaklDUMTR_o"
+        }, {
+          "placeId": "ChIJMb9rKMw_NYgR3sGIbiWhByQ"
+        }, {
+          "placeId": "ChIJ-a_xf84_NYgR9MGlYxAJfIo"
+        }, {
+          "placeId": "ChIJT77tos8_NYgRxTKQUDAumqI"
+        }, {
+          "placeId": "ChIJD4nD5sQ_NYgRxodC5lkfwxY"
+        }, {
+          "placeId": "ChIJb71Y6MQ_NYgRIohW_5fYfJA"
+        }, {
+          "placeId": "ChIJ3cWNosQ_NYgRUOofCD11zjQ"
+        }, {
+          "placeId": "ChIJ1WqmhMQ_NYgRZVLLAP44MQw"
+        }, {
+          "placeId": "ChIJb8Q1ecQ_NYgRxeD-eBlsVNI"
+        }, {
+          "placeId": "ChIJGaushMM_NYgRjHpjzhlnn3s"
+        }, {
+          "placeId": "ChIJW_l2_cI_NYgR9WDV3Fj9M-Y"
+        }, {
+          "placeId": "ChIJhUFOxsI_NYgR2b55nSfRsYU"
+        }, {
+          "placeId": "ChIJsTPNMN0_NYgRsFa_c4eA6BM"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398752571,
+        "longitudeE7": -797326571,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, PA 15401, USA",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 85.5754
+      },
+      "duration": {
+        "startTimestamp": "2017-01-04T19:07:40.461Z",
+        "endTimestamp": "2017-01-04T19:18:47Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 398752433,
+      "centerLngE7": -797325300,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398767080,
+        "longitudeE7": -797333699,
+        "placeId": "ChIJTUzjMNw_NYgRiDgBjTA6baU",
+        "address": "96 Farmview Dr, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 14.424597
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 76,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398752593,
+        "longitudeE7": -797325479
+      },
+      "endLocation": {
+        "latitudeE7": 398993344,
+        "longitudeE7": -797278002
+      },
+      "duration": {
+        "startTimestamp": "2017-01-04T19:18:47Z",
+        "endTimestamp": "2017-01-04T20:19:56.414Z"
+      },
+      "distance": 3031,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 61.06202642208586
+      }, {
+        "activityType": "CYCLING",
+        "probability": 17.135229555110644
+      }, {
+        "activityType": "WALKING",
+        "probability": 17.001274116972944
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398753700,
+          "lngE7": -797321014
+        }, {
+          "latE7": 398991241,
+          "lngE7": -797279205
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJsTPNMN0_NYgRsVa_c4eA6BM"
+        }, {
+          "placeId": "ChIJhUFOxsI_NYgR2L55nSfRsYU"
+        }, {
+          "placeId": "ChIJW_l2_cI_NYgR9GDV3Fj9M-Y"
+        }, {
+          "placeId": "ChIJGaushMM_NYgRjXpjzhlnn3s"
+        }, {
+          "placeId": "ChIJb8Q1ecQ_NYgRxOD-eBlsVNI"
+        }, {
+          "placeId": "ChIJ1WqmhMQ_NYgRZFLLAP44MQw"
+        }, {
+          "placeId": "ChIJ3cWNosQ_NYgRUeofCD11zjQ"
+        }, {
+          "placeId": "ChIJb71Y6MQ_NYgRI4hW_5fYfJA"
+        }, {
+          "placeId": "ChIJD4nD5sQ_NYgRx4dC5lkfwxY"
+        }, {
+          "placeId": "ChIJT77tos8_NYgRxDKQUDAumqI"
+        }, {
+          "placeId": "ChIJ-a_xf84_NYgR9cGlYxAJfIo"
+        }, {
+          "placeId": "ChIJ_5luNcw_NYgRci2KaRYmagY"
+        }, {
+          "placeId": "ChIJWf_AU8w_NYgR4YLo81yXSeg"
+        }, {
+          "placeId": "ChIJdzNM_8w_NYgRvisULUXckdI"
+        }, {
+          "placeId": "ChIJ-We4-8w_NYgRMcuO5R115rA"
+        }, {
+          "placeId": "ChIJ_47X5Mw_NYgRsR91gt6iBtM"
+        }, {
+          "placeId": "ChIJU9w-5Mw_NYgRVIMUKsJ5FDs"
+        }, {
+          "placeId": "ChIJURIj28w_NYgRI5LcVqJy0YA"
+        }, {
+          "placeId": "ChIJyccaOzM-NYgR4-RbVcU9uNI"
+        }, {
+          "placeId": "ChIJN9SRIzM-NYgRDfRpph5dAas"
+        }, {
+          "placeId": "ChIJ3axu6TI-NYgRKX7cEsa2tX0"
+        }, {
+          "placeId": "ChIJgxV96zI-NYgRtru74hhhsCs"
+        }, {
+          "placeId": "ChIJ462lkzI-NYgR6yQAn1o-5GA"
+        }, {
+          "placeId": "ChIJAyNAkDI-NYgReppHgD2ix_4"
+        }, {
+          "placeId": "ChIJ-QhWgzI-NYgRBM3a5e73SXE"
+        }, {
+          "placeId": "ChIJO84HfC0-NYgRYIDws3jTFjg"
+        }, {
+          "placeId": "ChIJQ_apdy0-NYgR1kBdkfHrIe0"
+        }, {
+          "placeId": "ChIJV4iG-zE-NYgRqfUyDvBxdgs"
+        }, {
+          "placeId": "ChIJC-6m8TE-NYgRGopHnhU2btQ"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398994405,
+        "longitudeE7": -797278723,
+        "placeId": "ChIJl__j7jE-NYgRskC4HEcY4hk",
+        "address": "55 Morgantown Street, Uniontown, Pennsylvania 15401, United States",
+        "name": "Sunoco Gas Station",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 69.55403
+      },
+      "duration": {
+        "startTimestamp": "2017-01-04T20:19:56.414Z",
+        "endTimestamp": "2017-01-04T20:29:33.958Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 398993200,
+      "centerLngE7": -797277750,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398994405,
+        "longitudeE7": -797278723,
+        "placeId": "ChIJl__j7jE-NYgRzkOY3AebS6o",
+        "address": "55 Morgantown St, Uniontown, PA 15401, USA",
+        "name": "A Plus Mini Mart",
+        "locationConfidence": 23.021992
+      }, {
+        "latitudeE7": 398985103,
+        "longitudeE7": -797237076,
+        "placeId": "ChIJTy8N8zE-NYgRzic4o7dc0gA",
+        "address": "47 E Fayette St, Uniontown, PA 15401, USA",
+        "name": "United States Postal Service",
+        "locationConfidence": 1.3500459
+      }, {
+        "latitudeE7": 398996671,
+        "longitudeE7": -797289513,
+        "placeId": "ChIJz6GHHi4-NYgR3xW1uVrUIcs",
+        "address": "109 W Fayette St, Uniontown, PA 15401, USA",
+        "name": "The Vapor Hut",
+        "locationConfidence": 0.95384276
+      }, {
+        "latitudeE7": 398993963,
+        "longitudeE7": -797277433,
+        "placeId": "ChIJY8Qk_y0-NYgRG9fzyUJWGjg",
+        "name": "Citizens Bank",
+        "locationConfidence": 0.5343055,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 398991034,
+        "longitudeE7": -797275978,
+        "placeId": "ChIJeb_p8DM-NYgRj0jp2J7BNEM",
+        "address": "60 W Fayette St, Uniontown, PA 15401, USA",
+        "name": "A \u0026 I Fire Extinguisher Co",
+        "locationConfidence": 0.4531807
+      }, {
+        "latitudeE7": 398993888,
+        "longitudeE7": -797267854,
+        "placeId": "ChIJq-xrpDE-NYgR0rfiLtD8prY",
+        "address": "1070 Eberly Way, Lemont Furnace, PA 15456, USA",
+        "name": "Pennsylvania State Police Department",
+        "locationConfidence": 0.34962624
+      }, {
+        "latitudeE7": 398991339,
+        "longitudeE7": -797252490,
+        "placeId": "ChIJ5b3XbzE-NYgRqufo3CdlI2E",
+        "address": "61 Beeson Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.32361412
+      }, {
+        "latitudeE7": 398988010,
+        "longitudeE7": -797253460,
+        "placeId": "ChIJtXXHgTo-NYgR6MurXsCzp3M",
+        "address": "75 N Beeson Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.32156292
+      }, {
+        "latitudeE7": 398994320,
+        "longitudeE7": -797268605,
+        "placeId": "ChIJZSiwmTE-NYgRUQHPHeYnZ6c",
+        "address": "41 W Church St, Uniontown, PA 15401, USA",
+        "name": "Fayette County Assistance Office",
+        "locationConfidence": 0.26601768
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 63,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "TRANSITIONAL"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398993152,
+        "longitudeE7": -797277507
+      },
+      "endLocation": {
+        "latitudeE7": 398874321,
+        "longitudeE7": -797220918
+      },
+      "duration": {
+        "startTimestamp": "2017-01-04T20:29:33.958Z",
+        "endTimestamp": "2017-01-04T22:36:25.071Z"
+      },
+      "distance": 4417,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 79.09522143816373
+      }, {
+        "activityType": "WALKING",
+        "probability": 13.184784028920168
+      }, {
+        "activityType": "CYCLING",
+        "probability": 4.0864542991370545
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398991088,
+          "lngE7": -797278747
+        }, {
+          "latE7": 398874511,
+          "lngE7": -797218780
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJC-6m8TE-NYgRGopHnhU2btQ"
+        }, {
+          "placeId": "ChIJKdiJ3jM-NYgReoa4v86pm5s"
+        }, {
+          "placeId": "ChIJw9QI3jM-NYgR691eaOMf1RI"
+        }, {
+          "placeId": "ChIJp7oo5zM-NYgRNFdUmd3VA-U"
+        }, {
+          "placeId": "ChIJL01E5DM-NYgRDCBdop7tEC4"
+        }, {
+          "placeId": "ChIJid4dDzQ-NYgR8AgWZ6092QI"
+        }, {
+          "placeId": "ChIJSRjPYzQ-NYgRUzqhGrx6-BY"
+        }, {
+          "placeId": "ChIJrRFGYjQ-NYgRalN8oH1-ti8"
+        }, {
+          "placeId": "ChIJTyZ9YjQ-NYgRUE339o4Ndmc"
+        }, {
+          "placeId": "ChIJl86eiDQ-NYgRkjsHwyiBj4w"
+        }, {
+          "placeId": "ChIJo-PMhDQ-NYgRz8FWTaMaci8"
+        }, {
+          "placeId": "ChIJA7J2nDQ-NYgR6UJEBPUhGFc"
+        }, {
+          "placeId": "ChIJxa_wUzM-NYgRuqRzNj1aBP0"
+        }, {
+          "placeId": "ChIJ1TlZqsw_NYgRYwSJYGuNcds"
+        }, {
+          "placeId": "ChIJ9zeHTss_NYgRFKEzcfnb1nU"
+        }, {
+          "placeId": "ChIJXUmxQMs_NYgRdJUldVSKQxA"
+        }, {
+          "placeId": "ChIJD8QPbcs_NYgRWHN5Wr-gxwE"
+        }, {
+          "placeId": "ChIJc4agdcs_NYgRm8wZl_u113I"
+        }, {
+          "placeId": "ChIJcRIm68s_NYgRIn1vNtYWwo8"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSeLrXILdlDg"
+        }, {
+          "placeId": "ChIJAV4hXMk_NYgRvUQfgSiSQpQ"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 97.68916
+      },
+      "duration": {
+        "startTimestamp": "2017-01-04T22:36:25.071Z",
+        "endTimestamp": "2017-01-04T23:48:43Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398873825,
+      "centerLngE7": -797220700,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.274798
+      }, {
+        "latitudeE7": 398875240,
+        "longitudeE7": -797215820,
+        "placeId": "ChIJYamtYMk_NYgR0xhEBkWnC9s",
+        "address": "150 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.96744585
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.0389999
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.020200709
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.0051345397
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.004118087
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 1.427984E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 86,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398873481,
+        "longitudeE7": -797220609
+      },
+      "endLocation": {
+        "latitudeE7": 398876744,
+        "longitudeE7": -797221718
+      },
+      "duration": {
+        "startTimestamp": "2017-01-04T23:48:43Z",
+        "endTimestamp": "2017-01-05T01:40:23.833Z"
+      },
+      "distance": 1863,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 75.68221847150966
+      }, {
+        "activityType": "WALKING",
+        "probability": 18.9121118160614
+      }, {
+        "activityType": "RUNNING",
+        "probability": 1.1960356988457888
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398873672,
+          "lngE7": -797218704
+        }, {
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJAV4hXMk_NYgRvEQfgSiSQpQ"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 98.77665
+      },
+      "duration": {
+        "startTimestamp": "2017-01-05T01:40:23.833Z",
+        "endTimestamp": "2017-01-07T01:46:41.860Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398874675,
+      "centerLngE7": -797221300,
+      "visitConfidence": 76,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.1204983
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.050839636
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.039378278
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.008059442
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.004420049
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 1.5513819E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398876159,
+        "longitudeE7": -797220176
+      },
+      "endLocation": {
+        "latitudeE7": 398752571,
+        "longitudeE7": -797326571
+      },
+      "duration": {
+        "startTimestamp": "2017-01-07T01:46:41.860Z",
+        "endTimestamp": "2017-01-07T01:54:10.822Z"
+      },
+      "distance": 1513,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 82.14360974746029
+      }, {
+        "activityType": "CYCLING",
+        "probability": 10.103514063245306
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.119164423755054
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398876266,
+          "lngE7": -797219085
+        }, {
+          "latE7": 398753700,
+          "lngE7": -797321014
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJAV4hXMk_NYgRvEQfgSiSQpQ"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSOLrXILdlDg"
+        }, {
+          "placeId": "ChIJ1XZ_-8s_NYgRoaklDUMTR_o"
+        }, {
+          "placeId": "ChIJMb9rKMw_NYgR3sGIbiWhByQ"
+        }, {
+          "placeId": "ChIJ-a_xf84_NYgR9MGlYxAJfIo"
+        }, {
+          "placeId": "ChIJT77tos8_NYgRxTKQUDAumqI"
+        }, {
+          "placeId": "ChIJD4nD5sQ_NYgRxodC5lkfwxY"
+        }, {
+          "placeId": "ChIJb71Y6MQ_NYgRIohW_5fYfJA"
+        }, {
+          "placeId": "ChIJ3cWNosQ_NYgRUOofCD11zjQ"
+        }, {
+          "placeId": "ChIJ1WqmhMQ_NYgRZVLLAP44MQw"
+        }, {
+          "placeId": "ChIJb8Q1ecQ_NYgRxeD-eBlsVNI"
+        }, {
+          "placeId": "ChIJGaushMM_NYgRjHpjzhlnn3s"
+        }, {
+          "placeId": "ChIJW_l2_cI_NYgR9WDV3Fj9M-Y"
+        }, {
+          "placeId": "ChIJhUFOxsI_NYgR2b55nSfRsYU"
+        }, {
+          "placeId": "ChIJsTPNMN0_NYgRsFa_c4eA6BM"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398752571,
+        "longitudeE7": -797326571,
+        "placeId": "ChIJb99dud0_NYgR0U6Ut5A9-uk",
+        "address": "337 Saratoga Dr, Uniontown, PA 15401, USA",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2017-01-07T01:54:10.822Z",
+        "endTimestamp": "2017-01-07T03:10:18.620Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398753483,
+      "centerLngE7": -797323900,
+      "visitConfidence": 75,
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 88,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398754498,
+        "longitudeE7": -797321489
+      },
+      "endLocation": {
+        "latitudeE7": 398876594,
+        "longitudeE7": -797220139
+      },
+      "duration": {
+        "startTimestamp": "2017-01-07T03:10:18.620Z",
+        "endTimestamp": "2017-01-07T04:04:17.952Z"
+      },
+      "distance": 10696,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 85.22066154435899
+      }, {
+        "activityType": "WALKING",
+        "probability": 10.400158336051906
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.300174283897953
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398754539,
+          "lngE7": -797321243
+        }, {
+          "latE7": 399164695,
+          "lngE7": -797519149
+        }, {
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJsTPNMN0_NYgRsVa_c4eA6BM"
+        }, {
+          "placeId": "ChIJhUFOxsI_NYgR2L55nSfRsYU"
+        }, {
+          "placeId": "ChIJW_l2_cI_NYgR9GDV3Fj9M-Y"
+        }, {
+          "placeId": "ChIJGaushMM_NYgRjXpjzhlnn3s"
+        }, {
+          "placeId": "ChIJb8Q1ecQ_NYgRxOD-eBlsVNI"
+        }, {
+          "placeId": "ChIJ1WqmhMQ_NYgRZFLLAP44MQw"
+        }, {
+          "placeId": "ChIJM_9RosQ_NYgR2qleoWnsMek"
+        }, {
+          "placeId": "ChIJFTnsQds_NYgRr4Hn5X2ar4U"
+        }, {
+          "placeId": "ChIJVx2fu9s_NYgRNQAHLbFK2nc"
+        }, {
+          "placeId": "ChIJ5wd7uNs_NYgR_E2vFNClJlw"
+        }, {
+          "placeId": "ChIJDbL6xds_NYgRsm8jPJ1Kj0o"
+        }, {
+          "placeId": "ChIJm2pp0Ns_NYgR9xSo9BDc5y0"
+        }, {
+          "placeId": "ChIJu2cv1ts_NYgR5uRT4diRHos"
+        }, {
+          "placeId": "ChIJ632Kdtk_NYgRWGKxHEHUMkQ"
+        }, {
+          "placeId": "ChIJ1zuf7Nk_NYgRsvOLFBKojiI"
+        }, {
+          "placeId": "ChIJo-DD79k_NYgRWA_Vf_ZwYPg"
+        }, {
+          "placeId": "ChIJc02S49k_NYgRLiyD7m7xooI"
+        }, {
+          "placeId": "ChIJBV58gWIVNYgRSXJOjWDLfMQ"
+        }, {
+          "placeId": "ChIJt0gqiGIVNYgRUQL0CaIGMe8"
+        }, {
+          "placeId": "ChIJ93znUGIVNYgRG0C94djsIg0"
+        }, {
+          "placeId": "ChIJ01NipWMVNYgR8cXu34dfIlk"
+        }, {
+          "placeId": "ChIJvUQyomMVNYgR-gfn4DN8nMU"
+        }, {
+          "placeId": "ChIJBfnpz2QVNYgRAHQ1FcGsNpc"
+        }, {
+          "placeId": "ChIJyTysgHoVNYgRlZf_jM5bwEE"
+        }, {
+          "placeId": "ChIJUx4b3nYVNYgROgHpdcAAVZI"
+        }, {
+          "placeId": "ChIJS3BcQZ0VNYgROx-_XxlOH2w"
+        }, {
+          "placeId": "ChIJc2Pk8ic-NYgRun1NEwKsxhQ"
+        }, {
+          "placeId": "ChIJSwkIkic-NYgR8fRhu3bz9b0"
+        }, {
+          "placeId": "ChIJZxnOiCc-NYgRYUNXttLPBgY"
+        }, {
+          "placeId": "ChIJL5v0hyc-NYgR7eeNmVmJ6kU"
+        }, {
+          "placeId": "ChIJJ4WKcYkVNYgRJyOY22S7LGA"
+        }, {
+          "placeId": "ChIJF3j8bokVNYgRUp8w6OvkDx0"
+        }, {
+          "placeId": "ChIJF3j8bokVNYgRQyz2_ixw3XA"
+        }, {
+          "placeId": "ChIJEXQLZ4kVNYgRaGZHLDXqL9c"
+        }, {
+          "placeId": "ChIJTxoqa4wVNYgRIi7D8QNb6R0"
+        }, {
+          "placeId": "ChIJaZL9QIwVNYgR0kauQqnHj1Q"
+        }, {
+          "placeId": "ChIJh8tYQYwVNYgRmhIwRwku6bM"
+        }, {
+          "placeId": "ChIJe-5URIwVNYgRAGoSD_iHnbk"
+        }, {
+          "placeId": "ChIJVeJZqo0VNYgRJazXpbQ9BYk"
+        }, {
+          "placeId": "ChIJI6BaB40VNYgR3xln922iRNg"
+        }, {
+          "placeId": "ChIJNQhNBo0VNYgR_kcDE64H8p8"
+        }, {
+          "placeId": "ChIJj0CjbY0VNYgRGOaIFniadQo"
+        }, {
+          "placeId": "ChIJidQOqJIVNYgRtL2_BxM4V5A"
+        }, {
+          "placeId": "ChIJ2-_lq5IVNYgRTLVuXv6miAQ"
+        }, {
+          "placeId": "ChIJvwNmUu0VNYgRsG8CYmjupRo"
+        }, {
+          "placeId": "ChIJQysFou0VNYgRrCmiStYTY9M"
+        }, {
+          "placeId": "ChIJObFdVR0-NYgRliYMehnjn1g"
+        }, {
+          "placeId": "ChIJvwatmxo-NYgRMqgjBr11d5o"
+        }, {
+          "placeId": "ChIJXdVY-BA-NYgRXKAtpyuXPUc"
+        }, {
+          "placeId": "ChIJVZAa3RA-NYgREi4QVBACdJ0"
+        }, {
+          "placeId": "ChIJCzDfMhc-NYgRl5NcdAyKa5Y"
+        }, {
+          "placeId": "ChIJ6RDzFRc-NYgR24BRlkkhkrs"
+        }, {
+          "placeId": "ChIJExU4FBc-NYgRcbjJOivwZb4"
+        }, {
+          "placeId": "ChIJuTyrDhc-NYgRAu9rO__NG5s"
+        }, {
+          "placeId": "ChIJ5y7YpRc-NYgR4BifyfLrsCs"
+        }, {
+          "placeId": "ChIJ0eBzsBc-NYgRenqwWcJ7UkM"
+        }, {
+          "placeId": "ChIJF1gxthc-NYgR2NGKNgaH5zM"
+        }, {
+          "placeId": "ChIJ64gnzBc-NYgRoYF0aYO8al4"
+        }, {
+          "placeId": "ChIJGyXazRc-NYgRgXzKDmYhNDI"
+        }, {
+          "placeId": "ChIJExiO1Bc-NYgRe2K7K5tvbf4"
+        }, {
+          "placeId": "ChIJC42GoD0-NYgRRwjxgqait6k"
+        }, {
+          "placeId": "ChIJdWdcBz0-NYgRMcdL49RBdBI"
+        }, {
+          "placeId": "ChIJu2qv_zw-NYgRlaiuyDyWgg0"
+        }, {
+          "placeId": "ChIJIYmKojw-NYgRkmr3MhthKPI"
+        }, {
+          "placeId": "ChIJgdC43jo-NYgRDkZO38JO-8g"
+        }, {
+          "placeId": "ChIJS2wklTo-NYgR4v1zrEKntPs"
+        }, {
+          "placeId": "ChIJ066gljo-NYgRTFE8I_Ygk6s"
+        }, {
+          "placeId": "ChIJvyQDmDo-NYgRiIlxA048w3w"
+        }, {
+          "placeId": "ChIJWaABVy4-NYgRPgynVzcnkpM"
+        }, {
+          "placeId": "ChIJgyjyoy4-NYgR-alZ4SChLxY"
+        }, {
+          "placeId": "ChIJJ7QZqC4-NYgREQhJBBVrvVI"
+        }, {
+          "placeId": "ChIJlRTePSw-NYgRFqlFSDSlBCc"
+        }, {
+          "placeId": "ChIJJ97DPiw-NYgRRV5UWMBiEvg"
+        }, {
+          "placeId": "ChIJH6DtOCw-NYgRLSluH4Q4vwk"
+        }, {
+          "placeId": "ChIJqSv_SCw-NYgR236xSq471aw"
+        }, {
+          "placeId": "ChIJcwiisi0-NYgRhHn_gFNjQFA"
+        }, {
+          "placeId": "ChIJLw0sry0-NYgR-rmM_OCCLOc"
+        }, {
+          "placeId": "ChIJg3vwpi0-NYgRjgxBpihK4f0"
+        }, {
+          "placeId": "ChIJQ_apdy0-NYgR10BdkfHrIe0"
+        }, {
+          "placeId": "ChIJO84HfC0-NYgRYYDws3jTFjg"
+        }, {
+          "placeId": "ChIJ-QhWgzI-NYgRBc3a5e73SXE"
+        }, {
+          "placeId": "ChIJAyNAkDI-NYgRe5pHgD2ix_4"
+        }, {
+          "placeId": "ChIJ462lkzI-NYgR6iQAn1o-5GA"
+        }, {
+          "placeId": "ChIJgxV96zI-NYgRt7u74hhhsCs"
+        }, {
+          "placeId": "ChIJ3axu6TI-NYgRKH7cEsa2tX0"
+        }, {
+          "placeId": "ChIJN9SRIzM-NYgRDPRpph5dAas"
+        }, {
+          "placeId": "ChIJyccaOzM-NYgR4uRbVcU9uNI"
+        }, {
+          "placeId": "ChIJscVry8w_NYgRwb8vaAYVIRo"
+        }, {
+          "placeId": "ChIJO5ecssw_NYgRooaSLxpNeSw"
+        }, {
+          "placeId": "ChIJ1TlZqsw_NYgRYwSJYGuNcds"
+        }, {
+          "placeId": "ChIJ9zeHTss_NYgRFKEzcfnb1nU"
+        }, {
+          "placeId": "ChIJXUmxQMs_NYgRdJUldVSKQxA"
+        }, {
+          "placeId": "ChIJD8QPbcs_NYgRWHN5Wr-gxwE"
+        }, {
+          "placeId": "ChIJc4agdcs_NYgRm8wZl_u113I"
+        }, {
+          "placeId": "ChIJcRIm68s_NYgRIn1vNtYWwo8"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSeLrXILdlDg"
+        }]
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 399163639,
+          "lngE7": -797522310,
+          "accuracyMeters": 30,
+          "timestamp": "2017-01-07T03:19:58Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 98.91832
+      },
+      "duration": {
+        "startTimestamp": "2017-01-07T04:04:17.952Z",
+        "endTimestamp": "2017-01-07T21:07:17.939Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398876975,
+      "centerLngE7": -797219675,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.0514703
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.017295303
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.00890894
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.0020116968
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.0019302858
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 6.424635E-5
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398876594,
+        "longitudeE7": -797220139
+      },
+      "endLocation": {
+        "latitudeE7": 398876300,
+        "longitudeE7": -797219923
+      },
+      "duration": {
+        "startTimestamp": "2017-01-07T21:07:17.939Z",
+        "endTimestamp": "2017-01-07T21:37:23.771Z"
+      },
+      "distance": 6005,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 85.51424954597925
+      }, {
+        "activityType": "WALKING",
+        "probability": 9.691761895549709
+      }, {
+        "activityType": "CYCLING",
+        "probability": 2.1314807448730084
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 98.50207
+      },
+      "duration": {
+        "startTimestamp": "2017-01-07T21:37:23.771Z",
+        "endTimestamp": "2017-01-07T21:57:44.656Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398876300,
+      "centerLngE7": -797219900,
+      "visitConfidence": 64,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.4205981
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.043963086
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.020480221
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.0114241205
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.0013386382
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 1.2820661E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398876300,
+        "longitudeE7": -797219923
+      },
+      "endLocation": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443
+      },
+      "duration": {
+        "startTimestamp": "2017-01-07T21:57:44.656Z",
+        "endTimestamp": "2017-01-07T22:10:34.835Z"
+      },
+      "distance": 3200,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 82.57214147493315
+      }, {
+        "activityType": "WALKING",
+        "probability": 11.058120093229546
+      }, {
+        "activityType": "CYCLING",
+        "probability": 2.2862213480016824
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 98.59522
+      },
+      "duration": {
+        "startTimestamp": "2017-01-07T22:10:34.835Z",
+        "endTimestamp": "2017-01-07T22:44:42.056Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398875200,
+      "centerLngE7": -797220050,
+      "visitConfidence": 75,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.3148938
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.052437715
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.02415537
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.011419014
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.0017451554
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 1.2548311E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398877028,
+        "longitudeE7": -797220249
+      },
+      "endLocation": {
+        "latitudeE7": 398954931,
+        "longitudeE7": -797377645
+      },
+      "duration": {
+        "startTimestamp": "2017-01-07T22:44:42.056Z",
+        "endTimestamp": "2017-01-07T22:48:28.483Z"
+      },
+      "distance": 2155,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 91.69813821266024
+      }, {
+        "activityType": "WALKING",
+        "probability": 6.315891873333766
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.058491761903723
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398877029,
+          "lngE7": -797219161
+        }, {
+          "latE7": 398958511,
+          "lngE7": -797381973
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJIQPf4cs_NYgRSOLrXILdlDg"
+        }, {
+          "placeId": "ChIJcRIm68s_NYgRI31vNtYWwo8"
+        }, {
+          "placeId": "ChIJc4agdcs_NYgRmswZl_u113I"
+        }, {
+          "placeId": "ChIJD8QPbcs_NYgRWXN5Wr-gxwE"
+        }, {
+          "placeId": "ChIJXUmxQMs_NYgRdZUldVSKQxA"
+        }, {
+          "placeId": "ChIJ9zeHTss_NYgRFaEzcfnb1nU"
+        }, {
+          "placeId": "ChIJ1TlZqsw_NYgRYgSJYGuNcds"
+        }, {
+          "placeId": "ChIJO5ecssw_NYgRo4aSLxpNeSw"
+        }, {
+          "placeId": "ChIJscVry8w_NYgRwL8vaAYVIRo"
+        }, {
+          "placeId": "ChIJyccaOzM-NYgR4-RbVcU9uNI"
+        }, {
+          "placeId": "ChIJN9SRIzM-NYgRDfRpph5dAas"
+        }, {
+          "placeId": "ChIJ3axu6TI-NYgRKX7cEsa2tX0"
+        }, {
+          "placeId": "ChIJgxV96zI-NYgRtru74hhhsCs"
+        }, {
+          "placeId": "ChIJ462lkzI-NYgR6yQAn1o-5GA"
+        }, {
+          "placeId": "ChIJAyNAkDI-NYgReppHgD2ix_4"
+        }, {
+          "placeId": "ChIJ-QhWgzI-NYgRBM3a5e73SXE"
+        }, {
+          "placeId": "ChIJO84HfC0-NYgRYIDws3jTFjg"
+        }, {
+          "placeId": "ChIJQ_apdy0-NYgR1kBdkfHrIe0"
+        }, {
+          "placeId": "ChIJg3vwpi0-NYgRjwxBpihK4f0"
+        }, {
+          "placeId": "ChIJLw0sry0-NYgR-7mM_OCCLOc"
+        }, {
+          "placeId": "ChIJcwiisi0-NYgRhXn_gFNjQFA"
+        }, {
+          "placeId": "ChIJqSv_SCw-NYgR2n6xSq471aw"
+        }, {
+          "placeId": "ChIJH6DtOCw-NYgRLCluH4Q4vwk"
+        }, {
+          "placeId": "ChIJJ97DPiw-NYgRRF5UWMBiEvg"
+        }, {
+          "placeId": "ChIJlRTePSw-NYgRF6lFSDSlBCc"
+        }, {
+          "placeId": "ChIJeQs6ASw-NYgRCKqhc0K9V7c"
+        }, {
+          "placeId": "ChIJkeIi8is-NYgR_fcCIrteI5Y"
+        }, {
+          "placeId": "ChIJ9c5B6So-NYgRlUuPQP8_Lkg"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398956910,
+        "longitudeE7": -797377200,
+        "placeId": "ChIJ_yed5yo-NYgRtsBDTVCpzJo",
+        "address": "229 S Mount Vernon Ave, Uniontown, PA 15401-3227, United States",
+        "name": "Polish Club",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 91.87472
+      },
+      "duration": {
+        "startTimestamp": "2017-01-07T22:48:28.483Z",
+        "endTimestamp": "2017-01-08T03:53:46.447Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398957183,
+      "centerLngE7": -797379933,
+      "visitConfidence": 66,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398956840,
+        "longitudeE7": -797380230,
+        "placeId": "ChIJl1so6Co-NYgR9eDiaBxbZAc",
+        "address": "14 Edgemont Dr, Uniontown, PA 15401, USA",
+        "name": "Scott Tracy Psychological",
+        "locationConfidence": 2.0164192,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 398956840,
+        "longitudeE7": -797380230,
+        "placeId": "ChIJ47bU6So-NYgRxVRvgtGrRTc",
+        "address": "235 S Mt Vernon Ave, Uniontown, PA 15401, USA",
+        "locationConfidence": 1.8257108,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 398963729,
+        "longitudeE7": -797379650,
+        "placeId": "ChIJnbsV8Co-NYgRClZQ173BulI",
+        "name": "Super Clean Detail \u0026 Car Wash",
+        "locationConfidence": 0.75773805
+      }, {
+        "latitudeE7": 398949000,
+        "longitudeE7": -797368000,
+        "placeId": "ChIJAUnTRO4-NYgR4Cy3jAg_axs",
+        "address": "1122 Jumonville Rd, Uniontown, PA 15401, USA",
+        "name": "Coolspring Stone Supply Inc",
+        "locationConfidence": 0.45718133
+      }, {
+        "latitudeE7": 398950390,
+        "longitudeE7": -797386870,
+        "placeId": "ChIJ7XeUtyo-NYgRgPnarbzbhJM",
+        "name": "Labor \u0026 Ind Department",
+        "locationConfidence": 0.45506328
+      }, {
+        "latitudeE7": 398957031,
+        "longitudeE7": -797382719,
+        "placeId": "ChIJE3Rs6io-NYgR_JrbPn8yQ_0",
+        "name": "Charmed By Marcy",
+        "locationConfidence": 0.386903
+      }, {
+        "latitudeE7": 398968281,
+        "longitudeE7": -797368074,
+        "placeId": "ChIJ8Ytzqis-NYgRT-GBjjbZwho",
+        "name": "Sunset Bar",
+        "locationConfidence": 0.32959303
+      }, {
+        "latitudeE7": 398951710,
+        "longitudeE7": -797386440,
+        "placeId": "ChIJ7TsTuCo-NYgRz0O0zfu4Szc",
+        "address": "180 N Gallatin Ave, Uniontown, PA 15401, USA",
+        "name": "CPP Behavioral Health, Inc.",
+        "locationConfidence": 0.13450381
+      }, {
+        "latitudeE7": 398950390,
+        "longitudeE7": -797386870,
+        "placeId": "ChIJ7XeUtyo-NYgR2BBUlT25mEY",
+        "name": "Gulisel Construction Inc",
+        "locationConfidence": 0.09605454
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 81,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398959212,
+        "longitudeE7": -797379773
+      },
+      "endLocation": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443
+      },
+      "duration": {
+        "startTimestamp": "2017-01-08T03:53:46.447Z",
+        "endTimestamp": "2017-01-08T04:07:40.422Z"
+      },
+      "distance": 3692,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 85.73953546416588
+      }, {
+        "activityType": "WALKING",
+        "probability": 9.837994251859854
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.9031502349579645
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398959693,
+          "lngE7": -797380371
+        }, {
+          "latE7": 399060096,
+          "lngE7": -797389602
+        }, {
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ9c5B6So-NYgRlEuPQP8_Lkg"
+        }, {
+          "placeId": "ChIJkeIi8is-NYgR_PcCIrteI5Y"
+        }, {
+          "placeId": "ChIJeQs6ASw-NYgRCaqhc0K9V7c"
+        }, {
+          "placeId": "ChIJJ7QZqC4-NYgREAhJBBVrvVI"
+        }, {
+          "placeId": "ChIJgyjyoy4-NYgR-KlZ4SChLxY"
+        }, {
+          "placeId": "ChIJxWbJ-S4-NYgRLfGrzsCowwk"
+        }, {
+          "placeId": "ChIJc2qImyg-NYgR4CbcHHlXJtQ"
+        }, {
+          "placeId": "ChIJWZxfgig-NYgRXZUTreHOkKw"
+        }, {
+          "placeId": "ChIJcwM8KyY-NYgROv2ieDr8Yjc"
+        }, {
+          "placeId": "ChIJ-8UOmCc-NYgRwEcD4_35Qdo"
+        }, {
+          "placeId": "ChIJ25WIfRg-NYgRpk1y_q9V53U"
+        }, {
+          "placeId": "ChIJZzxFuxc-NYgRyZV9oQJuvcA"
+        }, {
+          "placeId": "ChIJ0eBzsBc-NYgRenqwWcJ7UkM"
+        }, {
+          "placeId": "ChIJF1gxthc-NYgR2NGKNgaH5zM"
+        }, {
+          "placeId": "ChIJ64gnzBc-NYgRoYF0aYO8al4"
+        }, {
+          "placeId": "ChIJGyXazRc-NYgRgXzKDmYhNDI"
+        }, {
+          "placeId": "ChIJExiO1Bc-NYgRe2K7K5tvbf4"
+        }, {
+          "placeId": "ChIJC42GoD0-NYgRRwjxgqait6k"
+        }, {
+          "placeId": "ChIJdWdcBz0-NYgRMcdL49RBdBI"
+        }, {
+          "placeId": "ChIJu2qv_zw-NYgRlaiuyDyWgg0"
+        }, {
+          "placeId": "ChIJIYmKojw-NYgRkmr3MhthKPI"
+        }, {
+          "placeId": "ChIJgdC43jo-NYgRDkZO38JO-8g"
+        }, {
+          "placeId": "ChIJS2wklTo-NYgR4v1zrEKntPs"
+        }, {
+          "placeId": "ChIJ066gljo-NYgRTFE8I_Ygk6s"
+        }, {
+          "placeId": "ChIJvyQDmDo-NYgRiIlxA048w3w"
+        }, {
+          "placeId": "ChIJWaABVy4-NYgRPgynVzcnkpM"
+        }, {
+          "placeId": "ChIJgyjyoy4-NYgR-alZ4SChLxY"
+        }, {
+          "placeId": "ChIJJ7QZqC4-NYgREQhJBBVrvVI"
+        }, {
+          "placeId": "ChIJlRTePSw-NYgRFqlFSDSlBCc"
+        }, {
+          "placeId": "ChIJJ97DPiw-NYgRRV5UWMBiEvg"
+        }, {
+          "placeId": "ChIJH6DtOCw-NYgRLSluH4Q4vwk"
+        }, {
+          "placeId": "ChIJqSv_SCw-NYgR236xSq471aw"
+        }, {
+          "placeId": "ChIJcwiisi0-NYgRhHn_gFNjQFA"
+        }, {
+          "placeId": "ChIJLw0sry0-NYgR-rmM_OCCLOc"
+        }, {
+          "placeId": "ChIJg3vwpi0-NYgRjgxBpihK4f0"
+        }, {
+          "placeId": "ChIJQ_apdy0-NYgR10BdkfHrIe0"
+        }, {
+          "placeId": "ChIJO84HfC0-NYgRYYDws3jTFjg"
+        }, {
+          "placeId": "ChIJ-QhWgzI-NYgRBc3a5e73SXE"
+        }, {
+          "placeId": "ChIJAyNAkDI-NYgRe5pHgD2ix_4"
+        }, {
+          "placeId": "ChIJ462lkzI-NYgR6iQAn1o-5GA"
+        }, {
+          "placeId": "ChIJgxV96zI-NYgRt7u74hhhsCs"
+        }, {
+          "placeId": "ChIJ3axu6TI-NYgRKH7cEsa2tX0"
+        }, {
+          "placeId": "ChIJN9SRIzM-NYgRDPRpph5dAas"
+        }, {
+          "placeId": "ChIJyccaOzM-NYgR4uRbVcU9uNI"
+        }, {
+          "placeId": "ChIJscVry8w_NYgRwb8vaAYVIRo"
+        }, {
+          "placeId": "ChIJO5ecssw_NYgRooaSLxpNeSw"
+        }, {
+          "placeId": "ChIJ1TlZqsw_NYgRYwSJYGuNcds"
+        }, {
+          "placeId": "ChIJ9zeHTss_NYgRFKEzcfnb1nU"
+        }, {
+          "placeId": "ChIJXUmxQMs_NYgRdJUldVSKQxA"
+        }, {
+          "placeId": "ChIJD8QPbcs_NYgRWHN5Wr-gxwE"
+        }, {
+          "placeId": "ChIJc4agdcs_NYgRm8wZl_u113I"
+        }, {
+          "placeId": "ChIJcRIm68s_NYgRIn1vNtYWwo8"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSeLrXILdlDg"
+        }]
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 399060768,
+          "lngE7": -797388690,
+          "accuracyMeters": 10,
+          "timestamp": "2017-01-08T03:56:57Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 98.839325
+      },
+      "duration": {
+        "startTimestamp": "2017-01-08T04:07:40.422Z",
+        "endTimestamp": "2017-01-09T20:20:56.011Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398876938,
+      "centerLngE7": -797222788,
+      "visitConfidence": 65,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.1253021
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.018039621
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.0066509717
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.006391526
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.0041185035
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 1.7365871E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443
+      },
+      "endLocation": {
+        "latitudeE7": 398872323,
+        "longitudeE7": -797221607
+      },
+      "duration": {
+        "startTimestamp": "2017-01-09T20:20:56.011Z",
+        "endTimestamp": "2017-01-09T20:33:54.482Z"
+      },
+      "distance": 4539,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 89.37513317712329
+      }, {
+        "activityType": "WALKING",
+        "probability": 7.2291867804598064
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.5613422185666292
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }, {
+          "latE7": 399013595,
+          "lngE7": -797039871
+        }, {
+          "latE7": 398873291,
+          "lngE7": -797218627
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJIQPf4cs_NYgRSOLrXILdlDg"
+        }, {
+          "placeId": "ChIJcRIm68s_NYgRI31vNtYWwo8"
+        }, {
+          "placeId": "ChIJc4agdcs_NYgRmswZl_u113I"
+        }, {
+          "placeId": "ChIJD8QPbcs_NYgRWXN5Wr-gxwE"
+        }, {
+          "placeId": "ChIJXUmxQMs_NYgRdZUldVSKQxA"
+        }, {
+          "placeId": "ChIJ9zeHTss_NYgRFaEzcfnb1nU"
+        }, {
+          "placeId": "ChIJ1TlZqsw_NYgRYgSJYGuNcds"
+        }, {
+          "placeId": "ChIJxa_wUzM-NYgRu6RzNj1aBP0"
+        }, {
+          "placeId": "ChIJA7J2nDQ-NYgR6EJEBPUhGFc"
+        }, {
+          "placeId": "ChIJo-PMhDQ-NYgRzsFWTaMaci8"
+        }, {
+          "placeId": "ChIJl86eiDQ-NYgRkzsHwyiBj4w"
+        }, {
+          "placeId": "ChIJTyZ9YjQ-NYgRUU339o4Ndmc"
+        }, {
+          "placeId": "ChIJrRFGYjQ-NYgRa1N8oH1-ti8"
+        }, {
+          "placeId": "ChIJSRjPYzQ-NYgRUjqhGrx6-BY"
+        }, {
+          "placeId": "ChIJyZsutDU-NYgREXDcU_4Zq_M"
+        }, {
+          "placeId": "ChIJEZmHuTU-NYgR2PRSINJTJtA"
+        }, {
+          "placeId": "ChIJBxCZ_DU-NYgRK73GZLMN91E"
+        }, {
+          "placeId": "ChIJ-YLDATY-NYgRs3JGA99tx_Q"
+        }, {
+          "placeId": "ChIJ_6Tk_Ek-NYgRte_d3qsBNLQ"
+        }, {
+          "placeId": "ChIJBRtg5Ek-NYgRluH0GaLvRls"
+        }, {
+          "placeId": "ChIJ49pq5kk-NYgRKRsHrG5jD50"
+        }, {
+          "placeId": "ChIJUb2bvkk-NYgRsuJOGqIzgEY"
+        }, {
+          "placeId": "ChIJJ-msI08-NYgRn65K-4wRLHI"
+        }, {
+          "placeId": "ChIJkZlwEE8-NYgR_AwNIH_iwfY"
+        }, {
+          "placeId": "ChIJ6X7mCU8-NYgRdYYLo7IE-lE"
+        }, {
+          "placeId": "ChIJm6wFvU8-NYgRG_HFHCdm3Vc"
+        }, {
+          "placeId": "ChIJuyRd6k8-NYgR59p6NBh29vs"
+        }, {
+          "placeId": "ChIJjVzGDVA-NYgRfM4sXT6FUmg"
+        }, {
+          "placeId": "ChIJhSmZc1A-NYgR_frrnELOkto"
+        }, {
+          "placeId": "ChIJN_KreVA-NYgRCxy_sfXzK4s"
+        }, {
+          "placeId": "ChIJ0_Fgd1o-NYgR_v2WO7CP6d8"
+        }, {
+          "placeId": "ChIJw4TnyVA-NYgRpBERb1V8qGk"
+        }, {
+          "placeId": "ChIJI1V43VA-NYgRnZtZOeBRgVo"
+        }, {
+          "placeId": "ChIJzXLF5lA-NYgRBWC5gMWhFVQ"
+        }, {
+          "placeId": "ChIJYeN241A-NYgRoPPCmMXu0es"
+        }, {
+          "placeId": "ChIJCaz8_FA-NYgR3CZCJDGCXBM"
+        }, {
+          "placeId": "ChIJJ_xo_lA-NYgR61L_yyDljf8"
+        }, {
+          "placeId": "ChIJn2fSVFA-NYgRtX4z8haI7l4"
+        }, {
+          "placeId": "ChIJwyQ_rVE-NYgRMIOhSxlvwQg"
+        }, {
+          "placeId": "ChIJw3Eds1E-NYgR4JGn7vY6Kjo"
+        }, {
+          "placeId": "ChIJJay8tVE-NYgRo0jJXge68c4"
+        }, {
+          "placeId": "ChIJx2zj1lE-NYgR9N4QDr1Vyck"
+        }, {
+          "placeId": "ChIJI6clKE4-NYgRBzSH3JqT3rw"
+        }, {
+          "placeId": "ChIJJ689Ok4-NYgRvFGaccDcGo4"
+        }, {
+          "placeId": "ChIJZ0KXRE4-NYgRfMyFcHkcry4"
+        }, {
+          "placeId": "ChIJOw298k4-NYgRKdbYdgNwA6A"
+        }, {
+          "placeId": "ChIJ6WQhZkk-NYgRf3o4_jqWO14"
+        }, {
+          "placeId": "ChIJ3SwYgkk-NYgRmNryCDZdaRM"
+        }, {
+          "placeId": "ChIJ_T3zgUk-NYgRm7UB32F0PCk"
+        }, {
+          "placeId": "ChIJqcSWEEo-NYgRmyCWfoJrWMg"
+        }, {
+          "placeId": "ChIJWXq1EUo-NYgRly01R0CCl-I"
+        }, {
+          "placeId": "ChIJ02sCijU-NYgRPBllbZWa7S0"
+        }, {
+          "placeId": "ChIJU9l5hDU-NYgRIDEtzTLWC8I"
+        }, {
+          "placeId": "ChIJK03ndzU-NYgRsT-3VhISYTE"
+        }, {
+          "placeId": "ChIJa9hIKss_NYgRHYKUpD4KJYI"
+        }, {
+          "placeId": "ChIJ-eGWKMs_NYgR_L_lPrnN_aw"
+        }, {
+          "placeId": "ChIJK-_wL8s_NYgRA4aSKgn-rQ4"
+        }, {
+          "placeId": "ChIJXUmxQMs_NYgRdJUldVSKQxA"
+        }, {
+          "placeId": "ChIJD8QPbcs_NYgRWHN5Wr-gxwE"
+        }, {
+          "placeId": "ChIJc4agdcs_NYgRm8wZl_u113I"
+        }, {
+          "placeId": "ChIJcRIm68s_NYgRIn1vNtYWwo8"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSeLrXILdlDg"
+        }, {
+          "placeId": "ChIJAV4hXMk_NYgRvUQfgSiSQpQ"
+        }]
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 399013131,
+          "lngE7": -797039730,
+          "accuracyMeters": 10,
+          "timestamp": "2017-01-09T20:25:30Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 99.10254
+      },
+      "duration": {
+        "startTimestamp": "2017-01-09T20:33:54.482Z",
+        "endTimestamp": "2017-01-09T21:25:13.819Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398874500,
+      "centerLngE7": -797220000,
+      "visitConfidence": 75,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.6170715
+      }, {
+        "latitudeE7": 398875240,
+        "longitudeE7": -797215820,
+        "placeId": "ChIJYamtYMk_NYgR0xhEBkWnC9s",
+        "address": "150 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.17674027
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.057778217
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.023421526
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.019497061
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.0027191928
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 2.3254959E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398876904,
+        "longitudeE7": -797219621
+      },
+      "endLocation": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443
+      },
+      "duration": {
+        "startTimestamp": "2017-01-09T21:25:13.819Z",
+        "endTimestamp": "2017-01-09T21:44:10.999Z"
+      },
+      "distance": 3042,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 79.13654064459367
+      }, {
+        "activityType": "WALKING",
+        "probability": 11.873860601958745
+      }, {
+        "activityType": "CYCLING",
+        "probability": 4.892454589236405
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 98.943375
+      },
+      "duration": {
+        "startTimestamp": "2017-01-09T21:44:10.999Z",
+        "endTimestamp": "2017-01-10T01:57:22.597Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398875560,
+      "centerLngE7": -797220660,
+      "visitConfidence": 76,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.7971372
+      }, {
+        "latitudeE7": 398875240,
+        "longitudeE7": -797215820,
+        "placeId": "ChIJYamtYMk_NYgR0xhEBkWnC9s",
+        "address": "150 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.18315752
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.027313141
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.026044818
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.019528037
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.0032190399
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 2.243705E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398876609,
+        "longitudeE7": -797219953
+      },
+      "endLocation": {
+        "latitudeE7": 398874481,
+        "longitudeE7": -797220402
+      },
+      "duration": {
+        "startTimestamp": "2017-01-10T01:57:22.597Z",
+        "endTimestamp": "2017-01-10T02:17:37.875Z"
+      },
+      "distance": 5660,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 89.02178133501873
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.815496892333098
+      }, {
+        "activityType": "CYCLING",
+        "probability": 2.6377516750288095
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }, {
+          "latE7": 398986968,
+          "lngE7": -797213363
+        }, {
+          "latE7": 398939399,
+          "lngE7": -797408370
+        }, {
+          "latE7": 398831596,
+          "lngE7": -797376251
+        }, {
+          "latE7": 398874626,
+          "lngE7": -797218856
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJIQPf4cs_NYgRSOLrXILdlDg"
+        }, {
+          "placeId": "ChIJcRIm68s_NYgRI31vNtYWwo8"
+        }, {
+          "placeId": "ChIJc4agdcs_NYgRmswZl_u113I"
+        }, {
+          "placeId": "ChIJD8QPbcs_NYgRWXN5Wr-gxwE"
+        }, {
+          "placeId": "ChIJXUmxQMs_NYgRdZUldVSKQxA"
+        }, {
+          "placeId": "ChIJ9zeHTss_NYgRFaEzcfnb1nU"
+        }, {
+          "placeId": "ChIJ1TlZqsw_NYgRYgSJYGuNcds"
+        }, {
+          "placeId": "ChIJxa_wUzM-NYgRu6RzNj1aBP0"
+        }, {
+          "placeId": "ChIJA7J2nDQ-NYgR6EJEBPUhGFc"
+        }, {
+          "placeId": "ChIJo-PMhDQ-NYgRzsFWTaMaci8"
+        }, {
+          "placeId": "ChIJl86eiDQ-NYgRkzsHwyiBj4w"
+        }, {
+          "placeId": "ChIJTyZ9YjQ-NYgRUU339o4Ndmc"
+        }, {
+          "placeId": "ChIJrRFGYjQ-NYgRa1N8oH1-ti8"
+        }, {
+          "placeId": "ChIJSRjPYzQ-NYgRUjqhGrx6-BY"
+        }, {
+          "placeId": "ChIJ6-l72TY-NYgRbzPH6CSwB_4"
+        }, {
+          "placeId": "ChIJZ_JV1zY-NYgRGrhfI7-O214"
+        }, {
+          "placeId": "ChIJE3U60TY-NYgR7AkPMoBsWy4"
+        }, {
+          "placeId": "ChIJyx4M0zY-NYgR0T6Xuurl1ug"
+        }, {
+          "placeId": "ChIJo8OKEDE-NYgRU6C-SSuHRdk"
+        }, {
+          "placeId": "ChIJBf3FDzE-NYgRXYLn42QZ7LU"
+        }, {
+          "placeId": "ChIJdQavDzE-NYgRDLMsk3GLZ-E"
+        }, {
+          "placeId": "ChIJnS5jpzE-NYgRTMKagW5Dkko"
+        }, {
+          "placeId": "ChIJhXcguzE-NYgR7F8bvOMf1WM"
+        }, {
+          "placeId": "ChIJsWkeujE-NYgR9iFRI-AYDN4"
+        }, {
+          "placeId": "ChIJ-XKNtzE-NYgRoIvLpp3507Y"
+        }, {
+          "placeId": "ChIJlafCtzE-NYgReFoXgkr0l5A"
+        }, {
+          "placeId": "ChIJtzS5yDE-NYgRXEDaLoEbb08"
+        }, {
+          "placeId": "ChIJW-KG2DE-NYgRlzy8Sxd2EO4"
+        }, {
+          "placeId": "ChIJT5vrJi4-NYgRI04EoNkyCV0"
+        }, {
+          "placeId": "ChIJD3GxQy4-NYgRfl7FNSmvdRE"
+        }, {
+          "placeId": "ChIJgyjyoy4-NYgR-alZ4SChLxY"
+        }, {
+          "placeId": "ChIJJ7QZqC4-NYgREQhJBBVrvVI"
+        }, {
+          "placeId": "ChIJeQs6ASw-NYgRCKqhc0K9V7c"
+        }, {
+          "placeId": "ChIJkeIi8is-NYgR_fcCIrteI5Y"
+        }, {
+          "placeId": "ChIJ9c5B6So-NYgRlUuPQP8_Lkg"
+        }, {
+          "placeId": "ChIJk9_m7n8VNYgRnG5g33-Rt04"
+        }, {
+          "placeId": "ChIJfWy55X8VNYgR8t_A1S9TlJE"
+        }, {
+          "placeId": "ChIJScTDW9U_NYgRxpwxlKPWPmQ"
+        }, {
+          "placeId": "ChIJfYJ4R9U_NYgRnngCcDe74IA"
+        }, {
+          "placeId": "ChIJp5Vn2NQ_NYgRofaWJjY8HEk"
+        }, {
+          "placeId": "ChIJcZIIu9Q_NYgR6oX5ECJuWpI"
+        }, {
+          "placeId": "ChIJg7b1pNQ_NYgRQhDa3vGdlz8"
+        }, {
+          "placeId": "ChIJmUg8p9Q_NYgRu7nR2PTle7I"
+        }, {
+          "placeId": "ChIJT-SLW9M_NYgRP3eUhHmo3GA"
+        }, {
+          "placeId": "ChIJiX7FQ9M_NYgRXcnMugV_9_c"
+        }, {
+          "placeId": "ChIJ9dcdgdM_NYgRQAYtZl4SVuk"
+        }, {
+          "placeId": "ChIJ4wkgd9Q_NYgRptr1wHoG1pI"
+        }, {
+          "placeId": "ChIJBbkQ8dY_NYgRmM9EUziL2GE"
+        }, {
+          "placeId": "ChIJs5Jt_tY_NYgRjVtVS-vG24Q"
+        }, {
+          "placeId": "ChIJ01KJBtc_NYgR1FwBh_Q-8ns"
+        }, {
+          "placeId": "ChIJXSiQDNc_NYgRedIlWpwdy_Y"
+        }, {
+          "placeId": "ChIJv9Phbdc_NYgR8SJpiP0pN3A"
+        }, {
+          "placeId": "ChIJ18yYYNc_NYgRRcoSMimw8zc"
+        }, {
+          "placeId": "ChIJBV58gWIVNYgRSXJOjWDLfMQ"
+        }, {
+          "placeId": "ChIJ9RqJhWIVNYgRH339JY3aoyA"
+        }, {
+          "placeId": "ChIJgQQMn2IVNYgRyBWlvJYletQ"
+        }, {
+          "placeId": "ChIJXSiQDNc_NYgReNIlWpwdy_Y"
+        }, {
+          "placeId": "ChIJ01KJBtc_NYgR1VwBh_Q-8ns"
+        }, {
+          "placeId": "ChIJs5Jt_tY_NYgRjFtVS-vG24Q"
+        }, {
+          "placeId": "ChIJBbkQ8dY_NYgRmc9EUziL2GE"
+        }, {
+          "placeId": "ChIJ4wkgd9Q_NYgRp9r1wHoG1pI"
+        }, {
+          "placeId": "ChIJ9dcdgdM_NYgRQQYtZl4SVuk"
+        }, {
+          "placeId": "ChIJSUK6EtM_NYgRnw0LdnwOtbo"
+        }, {
+          "placeId": "ChIJ4TMzBdM_NYgR1KUQCXBX4fk"
+        }, {
+          "placeId": "ChIJxZ8zfM0_NYgRcTUWJT-lR1I"
+        }, {
+          "placeId": "ChIJ5QGydM0_NYgRcUdLQvgAb_8"
+        }, {
+          "placeId": "ChIJs00k_sw_NYgR6PDmvPaBCjU"
+        }, {
+          "placeId": "ChIJdzNM_8w_NYgRvysULUXckdI"
+        }, {
+          "placeId": "ChIJWf_AU8w_NYgR4ILo81yXSeg"
+        }, {
+          "placeId": "ChIJ_5luNcw_NYgRcy2KaRYmagY"
+        }, {
+          "placeId": "ChIJMb9rKMw_NYgR38GIbiWhByQ"
+        }, {
+          "placeId": "ChIJ1XZ_-8s_NYgRoKklDUMTR_o"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSeLrXILdlDg"
+        }, {
+          "placeId": "ChIJAV4hXMk_NYgRvUQfgSiSQpQ"
+        }]
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 398986289,
+          "lngE7": -797214128,
+          "accuracyMeters": 10,
+          "timestamp": "2017-01-10T02:00:13Z"
+        }, {
+          "latE7": 398940253,
+          "lngE7": -797409424,
+          "accuracyMeters": 10,
+          "timestamp": "2017-01-10T02:06:42.001Z"
+        }, {
+          "latE7": 398832147,
+          "lngE7": -797376561,
+          "accuracyMeters": 10,
+          "timestamp": "2017-01-10T02:09:05Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 98.58157
+      },
+      "duration": {
+        "startTimestamp": "2017-01-10T02:17:37.875Z",
+        "endTimestamp": "2017-01-10T02:43:46.467Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398878050,
+      "centerLngE7": -797219775,
+      "visitConfidence": 69,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.9298702
+      }, {
+        "latitudeE7": 398875240,
+        "longitudeE7": -797215820,
+        "placeId": "ChIJYamtYMk_NYgR0xhEBkWnC9s",
+        "address": "150 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.32021666
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.10277842
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.03926268
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.021314284
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.0040745656
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 9.0917654E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443
+      },
+      "endLocation": {
+        "latitudeE7": 399007902,
+        "longitudeE7": -797230705
+      },
+      "duration": {
+        "startTimestamp": "2017-01-10T02:43:46.467Z",
+        "endTimestamp": "2017-01-10T02:47:04.362Z"
+      },
+      "distance": 1593,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 90.05242009897162
+      }, {
+        "activityType": "WALKING",
+        "probability": 7.235996951465154
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.0146493072195149
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }, {
+          "latE7": 399007377,
+          "lngE7": -797231063
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJIQPf4cs_NYgRSOLrXILdlDg"
+        }, {
+          "placeId": "ChIJcRIm68s_NYgRI31vNtYWwo8"
+        }, {
+          "placeId": "ChIJc4agdcs_NYgRmswZl_u113I"
+        }, {
+          "placeId": "ChIJD8QPbcs_NYgRWXN5Wr-gxwE"
+        }, {
+          "placeId": "ChIJXUmxQMs_NYgRdZUldVSKQxA"
+        }, {
+          "placeId": "ChIJ9zeHTss_NYgRFaEzcfnb1nU"
+        }, {
+          "placeId": "ChIJ1TlZqsw_NYgRYgSJYGuNcds"
+        }, {
+          "placeId": "ChIJxa_wUzM-NYgRu6RzNj1aBP0"
+        }, {
+          "placeId": "ChIJA7J2nDQ-NYgR6EJEBPUhGFc"
+        }, {
+          "placeId": "ChIJo-PMhDQ-NYgRzsFWTaMaci8"
+        }, {
+          "placeId": "ChIJl86eiDQ-NYgRkzsHwyiBj4w"
+        }, {
+          "placeId": "ChIJTyZ9YjQ-NYgRUU339o4Ndmc"
+        }, {
+          "placeId": "ChIJrRFGYjQ-NYgRa1N8oH1-ti8"
+        }, {
+          "placeId": "ChIJSRjPYzQ-NYgRUjqhGrx6-BY"
+        }, {
+          "placeId": "ChIJ6-l72TY-NYgRbzPH6CSwB_4"
+        }, {
+          "placeId": "ChIJZ_JV1zY-NYgRGrhfI7-O214"
+        }, {
+          "placeId": "ChIJE3U60TY-NYgR7AkPMoBsWy4"
+        }, {
+          "placeId": "ChIJyx4M0zY-NYgR0T6Xuurl1ug"
+        }, {
+          "placeId": "ChIJY1GtJjE-NYgRVWupvRn-bas"
+        }, {
+          "placeId": "ChIJATNc1TY-NYgRrpKa0B6yeDg"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 399001040,
+        "longitudeE7": -797229260,
+        "placeId": "ChIJafNu0jY-NYgRqgEpWlaEnvk",
+        "address": "52 E Church St, Uniontown, PA 15401-3531, United States",
+        "name": "Phil\u0027s Corner Store",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 60.35822
+      },
+      "duration": {
+        "startTimestamp": "2017-01-10T02:47:04.362Z",
+        "endTimestamp": "2017-01-10T03:06:38.667Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 399006775,
+      "centerLngE7": -797231075,
+      "visitConfidence": 76,
+      "otherCandidateLocations": [{
+        "latitudeE7": 399010559,
+        "longitudeE7": -797237630,
+        "placeId": "ChIJlex80DA-NYgR44C-AaFSbf0",
+        "address": "50 E Main St, Uniontown, PA 15401, USA",
+        "name": "Connor Jack W",
+        "locationConfidence": 9.222311
+      }, {
+        "latitudeE7": 399008449,
+        "longitudeE7": -797226340,
+        "placeId": "ChIJy_b9KDc-NYgRwa1qd1QF2Sk",
+        "name": "Fayette County Youth Soccer",
+        "locationConfidence": 4.7704954
+      }, {
+        "latitudeE7": 398991339,
+        "longitudeE7": -797252490,
+        "placeId": "ChIJ5b3XbzE-NYgRqufo3CdlI2E",
+        "address": "61 Beeson Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.9298909
+      }, {
+        "latitudeE7": 399016220,
+        "longitudeE7": -797210010,
+        "placeId": "ChIJE6-dDTc-NYgRwbdkih5OMqs",
+        "address": "125 E Main St, Uniontown, PA 15401, USA",
+        "name": "Beeson Court",
+        "locationConfidence": 1.436564
+      }, {
+        "latitudeE7": 399015293,
+        "longitudeE7": -797225477,
+        "placeId": "ChIJQW1p0jA-NYgR93gcz71BQIU",
+        "address": "61 E Main St # 3G, Uniontown, PA 15401, USA",
+        "name": "Fayette County Court Administration",
+        "locationConfidence": 1.410269
+      }, {
+        "latitudeE7": 398988010,
+        "longitudeE7": -797253460,
+        "placeId": "ChIJtXXHgTo-NYgR6MurXsCzp3M",
+        "address": "75 N Beeson Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.2661674
+      }, {
+        "latitudeE7": 399005775,
+        "longitudeE7": -797239062,
+        "placeId": "ChIJXf-tJjE-NYgRAUvCABbTZsM",
+        "address": "23 S Gallatin Ave, Uniontown, PA 15401, USA",
+        "name": "Echo Child Development Center",
+        "locationConfidence": 0.98514026
+      }, {
+        "latitudeE7": 399010257,
+        "longitudeE7": -797218476,
+        "placeId": "ChIJ06-IFzc-NYgRciI9UwSj1Ic",
+        "address": "107 E Main St, Uniontown, PA 15401, USA",
+        "name": "Davis \u0026 Davis Attorneys at Law",
+        "locationConfidence": 0.865148
+      }, {
+        "latitudeE7": 399007520,
+        "longitudeE7": -797224240,
+        "placeId": "ChIJYRvbJzc-NYgRfwiymnL2--c",
+        "address": "96 E Main St #200, Uniontown, PA 15401, USA",
+        "name": "Rbc Researce",
+        "locationConfidence": 0.8438428
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 56,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 399005610,
+        "longitudeE7": -797230468
+      },
+      "endLocation": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443
+      },
+      "duration": {
+        "startTimestamp": "2017-01-10T03:06:38.667Z",
+        "endTimestamp": "2017-01-10T03:12:02.060Z"
+      },
+      "distance": 1516,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 86.80221960161185
+      }, {
+        "activityType": "WALKING",
+        "probability": 8.666887630185306
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.7729770012244659
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 399006767,
+          "lngE7": -797229614
+        }, {
+          "latE7": 398876838,
+          "lngE7": -797219161
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJATNc1TY-NYgRrpKa0B6yeDg"
+        }, {
+          "placeId": "ChIJ66N42TY-NYgRJzZ42gYpNjw"
+        }, {
+          "placeId": "ChIJSRjPYzQ-NYgRUzqhGrx6-BY"
+        }, {
+          "placeId": "ChIJrRFGYjQ-NYgRalN8oH1-ti8"
+        }, {
+          "placeId": "ChIJTyZ9YjQ-NYgRUE339o4Ndmc"
+        }, {
+          "placeId": "ChIJl86eiDQ-NYgRkjsHwyiBj4w"
+        }, {
+          "placeId": "ChIJo-PMhDQ-NYgRz8FWTaMaci8"
+        }, {
+          "placeId": "ChIJA7J2nDQ-NYgR6UJEBPUhGFc"
+        }, {
+          "placeId": "ChIJxa_wUzM-NYgRuqRzNj1aBP0"
+        }, {
+          "placeId": "ChIJ1TlZqsw_NYgRYwSJYGuNcds"
+        }, {
+          "placeId": "ChIJ9zeHTss_NYgRFKEzcfnb1nU"
+        }, {
+          "placeId": "ChIJXUmxQMs_NYgRdJUldVSKQxA"
+        }, {
+          "placeId": "ChIJD8QPbcs_NYgRWHN5Wr-gxwE"
+        }, {
+          "placeId": "ChIJc4agdcs_NYgRm8wZl_u113I"
+        }, {
+          "placeId": "ChIJcRIm68s_NYgRIn1vNtYWwo8"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSeLrXILdlDg"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 398876708,
+        "longitudeE7": -797223443,
+        "placeId": "ChIJGXB6W8k_NYgRJlgyLmQUJU0",
+        "address": "155 Virginia Avenue, Uniontown, Pennsylvania 15401-4716, United States",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1541168403
+        },
+        "locationConfidence": 98.9194
+      },
+      "duration": {
+        "startTimestamp": "2017-01-10T03:12:02.060Z",
+        "endTimestamp": "2017-01-10T19:58:13.571Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 398875250,
+      "centerLngE7": -797220520,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 398875789,
+        "longitudeE7": -797221246,
+        "placeId": "ChIJeZ_LXsk_NYgRkz18MkF_t8U",
+        "address": "147 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.8290761
+      }, {
+        "latitudeE7": 398875240,
+        "longitudeE7": -797215820,
+        "placeId": "ChIJYamtYMk_NYgR0xhEBkWnC9s",
+        "address": "150 Virginia Ave, Uniontown, PA 15401, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.2191825
+      }, {
+        "latitudeE7": 398892828,
+        "longitudeE7": -797206845,
+        "placeId": "ChIJpf2ztss_NYgReAOX5GVX9n8",
+        "address": "22 1st Leith St, Uniontown, PA 15401, USA",
+        "name": "Houck Dance Studio",
+        "locationConfidence": 0.018840943
+      }, {
+        "latitudeE7": 398884331,
+        "longitudeE7": -797209562,
+        "placeId": "ChIJC4AU3ps-NYgRyXWMSQO1zxs",
+        "address": "61 Leith St, Uniontown, PA 15401, USA",
+        "name": "Stephens Flagging LLC",
+        "locationConfidence": 0.0059410944
+      }, {
+        "latitudeE7": 398889560,
+        "longitudeE7": -797240570,
+        "placeId": "ChIJ2Xx0Ecw_NYgR1OTETLkQ3vY",
+        "name": "Services",
+        "locationConfidence": 0.0037398585
+      }, {
+        "latitudeE7": 398875760,
+        "longitudeE7": -797203221,
+        "placeId": "ChIJBdrSgck_NYgR0GPPGwZVy-0",
+        "address": "Uniontown, PA 15401, USA",
+        "name": "Hope Chapel",
+        "locationConfidence": 0.0036427048
+      }, {
+        "latitudeE7": 398901786,
+        "longitudeE7": -797233670,
+        "placeId": "ChIJeYp0ecw_NYgRR2SCfNbtsQ8",
+        "name": "Brower Engineering LLC",
+        "locationConfidence": 1.7078574E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 398877131,
+        "longitudeE7": -797219917
+      },
+      "endLocation": {
+        "latitudeE7": 398874960,
+        "longitudeE7": -797220403
+      },
+      "duration": {
+        "startTimestamp": "2017-01-10T19:58:13.571Z",
+        "endTimestamp": "2017-01-10T21:50:37.237Z"
+      },
+      "distance": 113983,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 93.29659366459484
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.053433449566969
+      }, {
+        "activityType": "IN_WHEELCHAIR",
+        "probability": 0.3079106777279059
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 398877143,
+          "lngE7": -797219161
+        }, {
+          "latE7": 397324829,
+          "lngE7": -800578384
+        }, {
+          "latE7": 396289863,
+          "lngE7": -800011901
+        }, {
+          "latE7": 395941696,
+          "lngE7": -799816284
+        }, {
+          "latE7": 398875122,
+          "lngE7": -797218933
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJIQPf4cs_NYgRSOLrXILdlDg"
+        }, {
+          "placeId": "ChIJ1XZ_-8s_NYgRoaklDUMTR_o"
+        }, {
+          "placeId": "ChIJMb9rKMw_NYgR3sGIbiWhByQ"
+        }, {
+          "placeId": "ChIJ-a_xf84_NYgR9MGlYxAJfIo"
+        }, {
+          "placeId": "ChIJT77tos8_NYgRxTKQUDAumqI"
+        }, {
+          "placeId": "ChIJD4nD5sQ_NYgRxodC5lkfwxY"
+        }, {
+          "placeId": "ChIJb71Y6MQ_NYgRIohW_5fYfJA"
+        }, {
+          "placeId": "ChIJ3cWNosQ_NYgRUOofCD11zjQ"
+        }, {
+          "placeId": "ChIJM_9RosQ_NYgR2qleoWnsMek"
+        }, {
+          "placeId": "ChIJFTnsQds_NYgRr4Hn5X2ar4U"
+        }, {
+          "placeId": "ChIJVx2fu9s_NYgRNQAHLbFK2nc"
+        }, {
+          "placeId": "ChIJ5wd7uNs_NYgR_E2vFNClJlw"
+        }, {
+          "placeId": "ChIJDbL6xds_NYgRsm8jPJ1Kj0o"
+        }, {
+          "placeId": "ChIJm2pp0Ns_NYgR9xSo9BDc5y0"
+        }, {
+          "placeId": "ChIJu2cv1ts_NYgR5uRT4diRHos"
+        }, {
+          "placeId": "ChIJ632Kdtk_NYgRWGKxHEHUMkQ"
+        }, {
+          "placeId": "ChIJVzceN98_NYgRHhfueGJOu0c"
+        }, {
+          "placeId": "ChIJudMwfN8_NYgRoPsg94G0Yzc"
+        }, {
+          "placeId": "ChIJk4a06V8VNYgRmwr04BNTtB4"
+        }, {
+          "placeId": "ChIJ40IcvV8VNYgRuOvUmSnT_cc"
+        }, {
+          "placeId": "ChIJPzB9CV8VNYgRsJ981UW3DbA"
+        }, {
+          "placeId": "ChIJdzMMEV8VNYgRZipQOx71DWM"
+        }, {
+          "placeId": "ChIJiybgF18VNYgRbdlNPdCFKq4"
+        }, {
+          "placeId": "ChIJdSxZJF8VNYgR77DbfRIXn-c"
+        }, {
+          "placeId": "ChIJmRdB1V4VNYgRF8V_tQJyonA"
+        }, {
+          "placeId": "ChIJD2yscVkVNYgRCtpEAR77lY8"
+        }, {
+          "placeId": "ChIJexLZg1kVNYgRjrz4-YzO7QU"
+        }, {
+          "placeId": "ChIJcRPZg1kVNYgR0NoL4ZFaTxs"
+        }, {
+          "placeId": "ChIJeWfZhlkVNYgRNkT2yzkFaSQ"
+        }, {
+          "placeId": "ChIJNYKOI1oVNYgRRDS5YMEK7mw"
+        }, {
+          "placeId": "ChIJG_ehFFoVNYgRjqjhF8ThaVs"
+        }, {
+          "placeId": "ChIJPWQvbFoVNYgRizme8WmoWjo"
+        }, {
+          "placeId": "ChIJ-2g4ZVoVNYgR64YuhJtRXEM"
+        }, {
+          "placeId": "ChIJI0h3fVoVNYgRf2VYnRE_op8"
+        }, {
+          "placeId": "ChIJCxfhhloVNYgRjNm3JUvMczY"
+        }, {
+          "placeId": "ChIJndtsVblqNYgRpWu2Iws0ql0"
+        }, {
+          "placeId": "ChIJG9jz6fFqNYgRoiemUZJ4pFc"
+        }, {
+          "placeId": "ChIJXV6ZmExqNYgRv3RbF-r09dk"
+        }, {
+          "placeId": "ChIJWwENaUtqNYgRJcQTImO9NHI"
+        }, {
+          "placeId": "ChIJHW2sFEtqNYgR0q-1rgOAZ_Q"
+        }, {
+          "placeId": "ChIJge8AiilqNYgRcVZJzNTN99c"
+        }, {
+          "placeId": "ChIJwcRuauplNYgRlpYZOgdaNO0"
+        }, {
+          "placeId": "ChIJcRcPbeplNYgRKp5wj1g2dEE"
+        }, {
+          "placeId": "ChIJB0pDc-plNYgR-LPkzvPlkx0"
+        }, {
+          "placeId": "ChIJD6SvGcdlNYgRf5q_VMZnKss"
+        }, {
+          "placeId": "ChIJk_4lncdlNYgRENRbuZwZTi0"
+        }, {
+          "placeId": "ChIJ-wZ1wKZkNYgRBCyguBD9c18"
+        }, {
+          "placeId": "ChIJZT0y-aZkNYgRE2ewpLGlGLk"
+        }, {
+          "placeId": "ChIJkbEs5qdkNYgRYeFWs6H2tSE"
+        }, {
+          "placeId": "ChIJOwiFv7N8NYgRU_X11ZLD1JU"
+        }, {
+          "placeId": "ChIJIRrg6LN8NYgRd0hJwp1IBMw"
+        }, {
+          "placeId": "ChIJwSV2-MV8NYgRrYJLHc3ySc0"
+        }, {
+          "placeId": "ChIJB14WXtp8NYgRRHTVZFr9gjw"
+        }, {
+          "placeId": "ChIJuXF7zgZ9NYgRtbdSFyPV-TE"
+        }, {
+          "placeId": "ChIJedVrDLN9NYgRzkkZmbQNCEM"
+        }, {
+          "placeId": "ChIJj_2vE7N9NYgRDKuy7oL1vfE"
+        }, {
+          "placeId": "ChIJBxsuObN9NYgRNJxosTZv43g"
+        }, {
+          "placeId": "ChIJ_SyENrN9NYgR-BZLhZV4dgI"
+        }, {
+          "placeId": "ChIJdS_pyzd8NYgRRYpv2_evDIE"
+        }, {
+          "placeId": "ChIJIwAIuzd8NYgRl4HzoPsZOpk"
+        }, {
+          "placeId": "ChIJUSWoKjp8NYgRvSs-wEIfanI"
+        }, {
+          "placeId": "ChIJLe4g8Tt8NYgR-_hJwosc0UE"
+        }, {
+          "placeId": "ChIJrRrZEgt8NYgRHdM21Yub8O8"
+        }, {
+          "placeId": "ChIJPacdEgt8NYgRaIw7PzwGWWg"
+        }, {
+          "placeId": "ChIJ0cTmR2B5NYgRMne026t7vaQ"
+        }, {
+          "placeId": "ChIJLZoPWbd5NYgRvsNmiAD4m0o"
+        }, {
+          "placeId": "ChIJNUCME5x3NYgRZZ0251EvJHA"
+        }, {
+          "placeId": "ChIJ2aQOCZx3NYgR-w4ReNbMB7U"
+        }, {
+          "placeId": "ChIJN6wTWrd5NYgRaUKZuDhtQp0"
+        }, {
+          "placeId": "ChIJMSrQDvd7NYgRTRiYXm9QrkY"
+        }, {
+          "placeId": "ChIJH7qUjwt8NYgR4OBJGrNOvRg"
+        }, {
+          "placeId": "ChIJ2diOgwt8NYgRZkZGsUZXnro"
+        }, {
+          "placeId": "ChIJ5eOxgQt8NYgRqVr76KiLTb8"
+        }, {
+          "placeId": "ChIJnUK4fgx8NYgRgeW_COcDPXI"
+        }, {
+          "placeId": "ChIJ0Rw9bwx8NYgRnPbMmWeDHZw"
+        }, {
+          "placeId": "ChIJf0q7Ewx8NYgRsdHH1vmLQfQ"
+        }, {
+          "placeId": "ChIJx5kgBQx8NYgR8_01GiyzAE4"
+        }, {
+          "placeId": "ChIJQwrLqw58NYgRwMslRFQymI8"
+        }, {
+          "placeId": "ChIJ6cbG2Qd8NYgRsEpiCEJgEZ4"
+        }, {
+          "placeId": "ChIJbQ2K2gd8NYgR9mdFvU6LuPk"
+        }, {
+          "placeId": "ChIJ3Vqnowd8NYgRAoX95EC9yWU"
+        }, {
+          "placeId": "ChIJy0lApgd8NYgRJe7v9UQW9gw"
+        }, {
+          "placeId": "ChIJX3aV_wZ8NYgRx3vI0h2GtBg"
+        }, {
+          "placeId": "ChIJeSVR-gZ8NYgRdWRz2NNJPiE"
+        }, {
+          "placeId": "ChIJs4rI5AZ8NYgR_5jIY_kEYHY"
+        }, {
+          "placeId": "ChIJY7V5Agd8NYgRwCKucWPzpFs"
+        }, {
+          "placeId": "ChIJH1tCBwd8NYgRnGOdM2msp04"
+        }, {
+          "placeId": "ChIJVdGVqQd8NYgRQiTdM5Xmkc8"
+        }, {
+          "placeId": "ChIJy0lApgd8NYgRJO7v9UQW9gw"
+        }, {
+          "placeId": "ChIJ3Vqnowd8NYgRA4X95EC9yWU"
+        }, {
+          "placeId": "ChIJbQ2K2gd8NYgR92dFvU6LuPk"
+        }, {
+          "placeId": "ChIJ6cbG2Qd8NYgRsUpiCEJgEZ4"
+        }, {
+          "placeId": "ChIJQwrLqw58NYgRwcslRFQymI8"
+        }, {
+          "placeId": "ChIJx5kgBQx8NYgR8v01GiyzAE4"
+        }, {
+          "placeId": "ChIJf0q7Ewx8NYgRsNHH1vmLQfQ"
+        }, {
+          "placeId": "ChIJ0Rw9bwx8NYgRj_gQoGleOH4"
+        }, {
+          "placeId": "ChIJ0Rw9bwx8NYgR4gAvo2jFUho"
+        }, {
+          "placeId": "ChIJYWGzfAx8NYgRJSHPMYfSNXo"
+        }, {
+          "placeId": "ChIJzfwZgAt8NYgRQ-fhC2FLsgk"
+        }, {
+          "placeId": "ChIJ4y_kgQt8NYgR3epLemKYZ8w"
+        }, {
+          "placeId": "ChIJ4y_kgQt8NYgRJR_iAAKvh7M"
+        }, {
+          "placeId": "ChIJ-TIy8jt8NYgRjTDBb6dcin8"
+        }, {
+          "placeId": "ChIJN4vtyjd8NYgR4c6zsHdGbmU"
+        }, {
+          "placeId": "ChIJxVtXv0x8NYgRlv6VIILOVPQ"
+        }, {
+          "placeId": "ChIJMTsFNrN9NYgRZdXQJJ5nxVo"
+        }, {
+          "placeId": "ChIJn9ayOLN9NYgRLFOQRlZpACc"
+        }, {
+          "placeId": "ChIJPzokE7N9NYgRs5joo91TzJE"
+        }, {
+          "placeId": "ChIJP5i8DLN9NYgR3fRHMxIDvHs"
+        }, {
+          "placeId": "ChIJh2hVp7p9NYgRkITmU5BoGxg"
+        }, {
+          "placeId": "ChIJHeTmRq99NYgRtPoZUshwtkA"
+        }, {
+          "placeId": "ChIJWyADswZ9NYgR2KqtgJPf-M8"
+        }, {
+          "placeId": "ChIJhV2aKh19NYgRaLk9N9ZPqY0"
+        }, {
+          "placeId": "ChIJwTo2Z9p8NYgR3afEQgJFWsI"
+        }, {
+          "placeId": "ChIJ8_tV9M98NYgRUDjSNSc77A8"
+        }, {
+          "placeId": "ChIJHxEdXM98NYgRyNb1ljBmj1k"
+        }, {
+          "placeId": "ChIJMwASV898NYgRwXBMt7nikZo"
+        }, {
+          "placeId": "ChIJ4eL4AcZ8NYgRZQvm5wx9FAo"
+        }, {
+          "placeId": "ChIJKQ7067N8NYgRMhNhtY4xUPg"
+        }, {
+          "placeId": "ChIJ-zl5lbN8NYgRyIz-6ljXPQk"
+        }, {
+          "placeId": "ChIJMS5C-6ZkNYgRI85xfpmoybA"
+        }, {
+          "placeId": "ChIJC8FKx6ZkNYgRzrjdLhhcPPY"
+        }, {
+          "placeId": "ChIJASlyVaFkNYgRd7H2C2qbSBU"
+        }, {
+          "placeId": "ChIJm79yNu9kNYgRdy1yukRt9jg"
+        }, {
+          "placeId": "ChIJIYu1HbplNYgRV1fdOrohrGg"
+        }, {
+          "placeId": "ChIJxxHs9MdlNYgRD8WrrwVKDd8"
+        }, {
+          "placeId": "ChIJ27EP8sdlNYgRgwx27hnqgW4"
+        }, {
+          "placeId": "ChIJtzSEJcFlNYgRhkJPXWnrrYc"
+        }, {
+          "placeId": "ChIJi8ajP-plNYgRszvm1SexwIA"
+        }, {
+          "placeId": "ChIJLRVHFeplNYgRnBtaKHC5dag"
+        }, {
+          "placeId": "ChIJGWrXY-5lNYgRVsufcenOYyw"
+        }, {
+          "placeId": "ChIJeQRwBUtqNYgRd40HUHXdxC0"
+        }, {
+          "placeId": "ChIJHU4Bb0tqNYgR1dtt8bx5HGA"
+        }, {
+          "placeId": "ChIJ4UG86_FqNYgRvnLlf725dQI"
+        }, {
+          "placeId": "ChIJNzSTj7BqNYgRGSE_ePiOLRA"
+        }, {
+          "placeId": "ChIJ15L9o7FqNYgRgkjUn1-VonI"
+        }, {
+          "placeId": "ChIJtzc7sFEVNYgRra9Iyx_Q65s"
+        }, {
+          "placeId": "ChIJf4-aJ1oVNYgR38lXkspsXrU"
+        }, {
+          "placeId": "ChIJl_3BhlkVNYgRYRHYvv8t9JQ"
+        }, {
+          "placeId": "ChIJcRPZg1kVNYgR0doL4ZFaTxs"
+        }, {
+          "placeId": "ChIJexLZg1kVNYgRj7z4-YzO7QU"
+        }, {
+          "placeId": "ChIJD2yscVkVNYgRC9pEAR77lY8"
+        }, {
+          "placeId": "ChIJmRdB1V4VNYgRFsV_tQJyonA"
+        }, {
+          "placeId": "ChIJdSxZJF8VNYgR7rDbfRIXn-c"
+        }, {
+          "placeId": "ChIJiybgF18VNYgRbNlNPdCFKq4"
+        }, {
+          "placeId": "ChIJdzMMEV8VNYgRZypQOx71DWM"
+        }, {
+          "placeId": "ChIJPzB9CV8VNYgRsZ981UW3DbA"
+        }, {
+          "placeId": "ChIJ40IcvV8VNYgRuevUmSnT_cc"
+        }, {
+          "placeId": "ChIJk4a06V8VNYgRmgr04BNTtB4"
+        }, {
+          "placeId": "ChIJudMwfN8_NYgRofsg94G0Yzc"
+        }, {
+          "placeId": "ChIJVzceN98_NYgRHxfueGJOu0c"
+        }, {
+          "placeId": "ChIJ632Kdtk_NYgRWWKxHEHUMkQ"
+        }, {
+          "placeId": "ChIJu2cv1ts_NYgR5-RT4diRHos"
+        }, {
+          "placeId": "ChIJm2pp0Ns_NYgR9hSo9BDc5y0"
+        }, {
+          "placeId": "ChIJDbL6xds_NYgRs28jPJ1Kj0o"
+        }, {
+          "placeId": "ChIJ5wd7uNs_NYgR_U2vFNClJlw"
+        }, {
+          "placeId": "ChIJVx2fu9s_NYgRNAAHLbFK2nc"
+        }, {
+          "placeId": "ChIJFTnsQds_NYgRroHn5X2ar4U"
+        }, {
+          "placeId": "ChIJM_9RosQ_NYgR26leoWnsMek"
+        }, {
+          "placeId": "ChIJ3cWNosQ_NYgRUeofCD11zjQ"
+        }, {
+          "placeId": "ChIJb71Y6MQ_NYgRI4hW_5fYfJA"
+        }, {
+          "placeId": "ChIJD4nD5sQ_NYgRx4dC5lkfwxY"
+        }, {
+          "placeId": "ChIJT77tos8_NYgRxDKQUDAumqI"
+        }, {
+          "placeId": "ChIJ-a_xf84_NYgR9cGlYxAJfIo"
+        }, {
+          "placeId": "ChIJMb9rKMw_NYgR38GIbiWhByQ"
+        }, {
+          "placeId": "ChIJ1XZ_-8s_NYgRoKklDUMTR_o"
+        }, {
+          "placeId": "ChIJIQPf4cs_NYgRSeLrXILdlDg"
+        }, {
+          "placeId": "ChIJAV4hXMk_NYgRvUQfgSiSQpQ"
+        }]
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 396292849,
+          "lngE7": -800014050,
+          "accuracyMeters": 65,
+          "timestamp": "2017-01-10T20:59:07.408Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }]
+}

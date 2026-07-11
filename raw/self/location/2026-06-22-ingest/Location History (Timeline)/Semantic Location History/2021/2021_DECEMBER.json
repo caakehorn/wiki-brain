@@ -1,0 +1,5294 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 56.074905,
+        "calibratedProbability": 67.55085
+      },
+      "duration": {
+        "startTimestamp": "2021-12-01T10:09:31Z",
+        "endTimestamp": "2021-12-01T19:39:17Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 407712643,
+      "centerLngE7": -739557062,
+      "visitConfidence": 84,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407711791,
+        "longitudeE7": -739554448,
+        "placeId": "ChIJHwhfYb9YwokRyxep79xZIRQ",
+        "address": "341 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 3.2218933,
+        "calibratedProbability": 3.881266
+      }, {
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 1.5167177,
+        "calibratedProbability": 1.8271198
+      }, {
+        "latitudeE7": 407712079,
+        "longitudeE7": -739556369,
+        "placeId": "ChIJhyonXc1ZwokRYJti4YQ6zNk",
+        "address": "311 E 76th St, New York, NY 10021, USA",
+        "name": "Sin City Burger",
+        "locationConfidence": 0.6500006,
+        "calibratedProbability": 0.7830257
+      }, {
+        "latitudeE7": 407717488,
+        "longitudeE7": -739559393,
+        "placeId": "ChIJLZJqcb9YwokRWrUSUoUAUqA",
+        "address": "1470 2nd Ave, New York, NY 10075, USA",
+        "name": "TD Bank",
+        "locationConfidence": 0.3063202,
+        "calibratedProbability": 0.3690098
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 45,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2021-12-01T19:39:17Z",
+        "endTimestamp": "2021-12-02T03:23:49Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 39.322716,
+        "calibratedProbability": 43.467606
+      }, {
+        "latitudeE7": 407582638,
+        "longitudeE7": -739635233,
+        "placeId": "ChIJtYFNwuZYwokRabt0PRBrFyo",
+        "address": "358 E 57th St, New York, NY 10022, USA",
+        "name": "Neary\u0027s",
+        "locationConfidence": 9.555385,
+        "calibratedProbability": 10.562589
+      }, {
+        "latitudeE7": 407592805,
+        "longitudeE7": -739624065,
+        "placeId": "ChIJWwJz_uZYwokRgxB92TUmZuI",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Pa Pa",
+        "locationConfidence": 3.1806707,
+        "calibratedProbability": 3.5159357
+      }, {
+        "latitudeE7": 407579254,
+        "longitudeE7": -739634881,
+        "placeId": "ChIJ0dtMz-ZYwokRo0RsQAlsIyw",
+        "address": "1031 1st Ave., New York, NY 10022, USA",
+        "name": "Morton Williams Supermarkets",
+        "locationConfidence": 2.566817,
+        "calibratedProbability": 2.8373775
+      }, {
+        "latitudeE7": 407593854,
+        "longitudeE7": -739624809,
+        "placeId": "ChIJaX47_uZYwokRcfER-X1DZeY",
+        "address": "1071 1st Ave., New York, NY 10022, USA",
+        "name": "Adyar Ananda Bhavan",
+        "locationConfidence": 2.3474116,
+        "calibratedProbability": 2.5948453
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 1.3043412,
+        "calibratedProbability": 1.4418279
+      }, {
+        "latitudeE7": 407592580,
+        "longitudeE7": -739625770,
+        "placeId": "ChIJf9_P_eZYwokRWpnhxQWFGjs",
+        "address": "1067 1st Ave., New York, NY 10022, USA",
+        "name": "Eddy\u0027s Laundry \u0026 Dry Cleaners",
+        "locationConfidence": 1.0879455,
+        "calibratedProbability": 1.2026225
+      }, {
+        "latitudeE7": 407580667,
+        "longitudeE7": -739627620,
+        "placeId": "ChIJ8SOw3eZYwokRDWYeYFVzJkw",
+        "address": "400 E 57th St, New York, NY 10022, USA",
+        "name": "Stonehenge 57",
+        "locationConfidence": 0.8129035,
+        "calibratedProbability": 0.89858925
+      }, {
+        "latitudeE7": 407586551,
+        "longitudeE7": -739630182,
+        "placeId": "ChIJQ8pZAbNZwokRAmx2CmWZn_o",
+        "address": "1055 1st Ave., New York, NY 10022, USA",
+        "name": "Brooklyn Pizza Masters",
+        "locationConfidence": 0.77741814,
+        "calibratedProbability": 0.85936344
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2021-12-06T10:03:20.267Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+            "address": "1063 1st Ave., New York, NY 10022, USA",
+            "locationConfidence": 39.322716
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_LOCATION"],
+            "uiConfiguration": {
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "locationConfidence": 39.322716
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJtYFNwuZYwokRabt0PRBrFyo",
+                "address": "358 E 57th St, New York, NY 10022, USA",
+                "name": "Neary\u0027s",
+                "locationConfidence": 9.555385
+              }
+            }]
+          }
+        }
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407589817,
+        "longitudeE7": -739626409,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407708149,
+        "longitudeE7": -739548240,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-02T03:23:49.871Z",
+        "endTimestamp": "2021-12-02T03:28:18.002Z"
+      },
+      "distance": 1549,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 52.904367446899414
+      }, {
+        "activityType": "CYCLING",
+        "probability": 32.26633667945862
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 6.246133521199226
+      }, {
+        "activityType": "WALKING",
+        "probability": 3.3757850527763367
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 2.2605640813708305
+      }, {
+        "activityType": "STILL",
+        "probability": 1.8130017444491386
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.39953170344233513
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.22752489894628525
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.20812018774449825
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.17206401098519564
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.07227567257359624
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.034332129871472716
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.010842514893738553
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.00912033356144093
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 4.086201954578428E-6
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407590408,
+          "lngE7": -739626007
+        }, {
+          "latE7": 407597274,
+          "lngE7": -739618911
+        }, {
+          "latE7": 407707214,
+          "lngE7": -739548950
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJCf9cAudYwokRbZQq-NLSCyU",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJlfjJAOdYwokRmZsD8q5KUJc",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJG1oeqedYwokR3lvaNr_KnNU",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJeXVipedYwokRLGLPVIF_Vcw",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJ-d76uudYwokRT_ZXCowUuHU",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJWRdIuedYwokRlBO4X3lCPK8",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJdYrzwOdYwokRGBufWIh_Oq4",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJdYrzwOdYwokRR2vNLcnKrzI",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJi1VK4udYwokR557lQfR-5k0",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJq41CCOhYwokRp1Je2rQfbxo",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJ5Q8EBuhYwokRy_SGMP36UxA",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJ_dFvG-hYwokRaQ89RjcRaaU",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJkw0vnsJYwokR6uxylfvcLvM",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJAaA8hMJYwokR2AL0A8EzYQo",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJaR5pasJYwokRALqofbqw7Kk",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJf2gZPMJYwokR3cY3U7XrvlE",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJGyk5KMJYwokRkxrH01A_bxk",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJo8MWg8FYwokRmHLjmjxkf1Q",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJl2SQncFYwokRsZPWddS4kss",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJl2SQncFYwokRs6P3VfK7HZA",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJVd7YdMFYwokRSibeuuZx0oc",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJVd7YdMFYwokRga3gaDubXFw",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJD9cdDMFYwokRjyGIgpd57Us",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJnQREG8FYwokRBTKyBsOIbo8",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJnQREG8FYwokRob1JtxOXgIg",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJaz8fwcBYwokR7hP-I0cWo20",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJW6x1sMBYwokRV7ojGdW_0lA",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJEa11qsBYwokRnmCKWUGin3U",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJEa11qsBYwokRK2bVNIyJPGI",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJuUU5Q79YwokR31cj3ATgMNc",
+          "duration": "46s"
+        }, {
+          "placeId": "ChIJLzBbd79YwokRBBpmG5UBMwc",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJl1wceb9YwokRFab_J5WVOCA",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJv90unsBYwokRTWErubJys-Y",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJv90unsBYwokRxKRb-cnvWE0",
+          "duration": "20s"
+        }],
+        "distanceMeters": 2007.0960805399172,
+        "travelMode": "DRIVE",
+        "confidence": 0.9979311325686068
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 407712398,
+          "longitudeE7": -739557840,
+          "accuracyMetres": 70
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "FROM_RAW_LOCATION",
+        "timestamp": "2021-12-02T03:30:57.002Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 83.30167,
+        "calibratedProbability": 66.99087
+      },
+      "duration": {
+        "startTimestamp": "2021-12-02T03:28:18.002Z",
+        "endTimestamp": "2021-12-02T19:16:50.572Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407710400,
+      "centerLngE7": -739554967,
+      "visitConfidence": 84,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 5.7112584,
+        "calibratedProbability": 4.5929713
+      }, {
+        "latitudeE7": 407712079,
+        "longitudeE7": -739556369,
+        "placeId": "ChIJhyonXc1ZwokRYJti4YQ6zNk",
+        "address": "311 E 76th St, New York, NY 10021, USA",
+        "name": "Sin City Burger",
+        "locationConfidence": 1.0493149,
+        "calibratedProbability": 0.84385484
+      }, {
+        "latitudeE7": 407709059,
+        "longitudeE7": -739540870,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.99478465,
+        "calibratedProbability": 0.80000186
+      }, {
+        "latitudeE7": 407711791,
+        "longitudeE7": -739554448,
+        "placeId": "ChIJHwhfYb9YwokRyxep79xZIRQ",
+        "address": "341 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.6850993,
+        "calibratedProbability": 0.55095416
+      }, {
+        "latitudeE7": 407715096,
+        "longitudeE7": -739560730,
+        "placeId": "ChIJYwAAe79YwokRAzRYCHUFTJY",
+        "address": "1460 2nd Ave, New York, NY 10075, USA",
+        "name": "Boqueria UES",
+        "locationConfidence": 0.47903693,
+        "calibratedProbability": 0.3852396
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 68,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407708424,
+        "longitudeE7": -739570687,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407602925,
+        "longitudeE7": -739616714,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-02T19:16:50.572Z",
+        "endTimestamp": "2021-12-02T19:21:47Z"
+      },
+      "distance": 1274,
+      "activityType": "CYCLING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 45.45833468437195
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 31.38148784637451
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 6.28153383731842
+      }, {
+        "activityType": "STILL",
+        "probability": 5.782449245452881
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 3.625602275133133
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.761208266019821
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 1.8162375316023827
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 1.250589918345213
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 1.1966198682785034
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.2231573686003685
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.15892023220658302
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.03836359828710556
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.01739783911034465
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.008086421439656988
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 8.140959550928528E-6
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407708129,
+          "lngE7": -739570922
+        }, {
+          "latE7": 407615509,
+          "lngE7": -739636611
+        }, {
+          "latE7": 407602996,
+          "lngE7": -739616622
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJCxfICsBYwokRvB69_dEs8Mo",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJQxhPaMBYwokRF4jd4Exn4h0",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJxStcQcBYwokR-exIczUAb-4",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJ47gXSMBYwokRBwD-NXlL42I",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJqZJWNMBYwokRUWhbvIC2lUQ",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJ441UzsFYwokR01FcPdY2Iaw",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJ50sjAupYwokRNik7hWUfUOg",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ50sjAupYwokRnRX37dEVuak",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJR_SQ-OlYwokR598dpXgJOqQ",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJIwp1-ulYwokRmfSwzWQejF0",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJSWL37ulYwokRJoJh5YjO7-0",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJ736qwOlYwokRGKSUpplE5_k",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJJbV8t-lYwokRseyDqSXN7UY",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJX_J7TehYwokR9qJRGsWZyjo",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJQb0QUuhYwokRBKqK3-mYm7E",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJQ-2oUehYwokRGrR1ZFv4jC4",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJGawPWuhYwokRBqfOfDSs8Jg",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJQUepX-hYwokRuXy7Ak1ygcQ",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJC6eGiehYwokR9fHvghbbnrM",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJGRiBOOZYwokRf2TSnnJWx40",
+          "duration": "27s"
+        }, {
+          "placeId": "ChIJXTIvS-ZYwokRp0EO8HXtoNQ",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJXTIvS-ZYwokRLguBD70LALQ",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJC0LEsOdYwokRuB_u8YUUltY",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJozhQuudYwokRqqiCuhN6-eo",
+          "duration": "0s"
+        }],
+        "distanceMeters": 1437.6800615882532,
+        "travelMode": "BICYCLE",
+        "confidence": 1.0
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2021-12-02T19:21:47Z",
+        "endTimestamp": "2021-12-03T02:07:24Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 70.79039,
+        "calibratedProbability": 64.82461
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 3.2272325,
+        "calibratedProbability": 2.9552612
+      }, {
+        "latitudeE7": 407605117,
+        "longitudeE7": -739616478,
+        "placeId": "ChIJm1ijuedYwokRdF5C0nIuNZ0",
+        "address": "1099 1st Ave., New York, NY 10065, USA",
+        "name": "Luscious Thai",
+        "locationConfidence": 0.977092,
+        "calibratedProbability": 0.89474875
+      }, {
+        "latitudeE7": 407588680,
+        "longitudeE7": -739628680,
+        "placeId": "ChIJNT544-ZYwokRlcl-TrbwJIs",
+        "address": "1059 1st Ave. #2, New York, NY 10022, USA",
+        "name": "American First Liquors",
+        "locationConfidence": 0.65702105,
+        "calibratedProbability": 0.6016514
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2021-12-06T10:03:12.626Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+            "address": "1063 1st Ave., New York, NY 10022, USA",
+            "locationConfidence": 70.79039
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_LOCATION"],
+            "uiConfiguration": {
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "locationConfidence": 70.79039
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+                "address": "407 E 59th St, New York, NY 10022, USA",
+                "name": "T.J. Maxx",
+                "locationConfidence": 3.2272325
+              }
+            }]
+          }
+        }
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407604050,
+        "longitudeE7": -739615284,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407696197,
+        "longitudeE7": -739547789,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-03T02:07:24.026Z",
+        "endTimestamp": "2021-12-03T02:10:35.967Z"
+      },
+      "distance": 1171,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 47.61492609977722
+      }, {
+        "activityType": "STILL",
+        "probability": 19.700118899345398
+      }, {
+        "activityType": "CYCLING",
+        "probability": 19.61670070886612
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 6.745106726884842
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.688569158315659
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.6947614252567291
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.3017817158252001
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.22804394830018282
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.21449236664921045
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.08136405376717448
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.04589288437273353
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.029652257217094302
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.024470625794492662
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.014070738689042628
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 4.611299857515405E-5
+      }]
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 79.02612,
+        "calibratedProbability": 61.9036
+      },
+      "duration": {
+        "startTimestamp": "2021-12-04T01:45:50.624Z",
+        "endTimestamp": "2021-12-04T19:30:17.398Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407713080,
+      "centerLngE7": -739559740,
+      "visitConfidence": 85,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 6.0305147,
+        "calibratedProbability": 4.723888
+      }, {
+        "latitudeE7": 407712079,
+        "longitudeE7": -739556369,
+        "placeId": "ChIJhyonXc1ZwokRYJti4YQ6zNk",
+        "address": "311 E 76th St, New York, NY 10021, USA",
+        "name": "Sin City Burger",
+        "locationConfidence": 3.950245,
+        "calibratedProbability": 3.0943484
+      }, {
+        "latitudeE7": 407718333,
+        "longitudeE7": -739569570,
+        "placeId": "ChIJVVVZm79YwokRjma__5ePrx4",
+        "address": "231 E 76th St, New York, NY 10021, USA",
+        "name": "231 East 76th Street",
+        "locationConfidence": 1.1522582,
+        "calibratedProbability": 0.9025993
+      }, {
+        "latitudeE7": 407715096,
+        "longitudeE7": -739560730,
+        "placeId": "ChIJYwAAe79YwokRAzRYCHUFTJY",
+        "address": "1460 2nd Ave, New York, NY 10075, USA",
+        "name": "Boqueria UES",
+        "locationConfidence": 0.9770961,
+        "calibratedProbability": 0.76538944
+      }, {
+        "latitudeE7": 407711791,
+        "longitudeE7": -739554448,
+        "placeId": "ChIJHwhfYb9YwokRyxep79xZIRQ",
+        "address": "341 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.74299836,
+        "calibratedProbability": 0.5820135
+      }, {
+        "latitudeE7": 407714382,
+        "longitudeE7": -739568450,
+        "placeId": "ChIJEQrmuIJZwokRdxx2ZXSx_3s",
+        "address": "240 E 76th St, New York, NY 10021, USA",
+        "name": "The Eastmore",
+        "locationConfidence": 0.64972085,
+        "calibratedProbability": 0.50894636
+      }, {
+        "latitudeE7": 407707714,
+        "longitudeE7": -739572357,
+        "placeId": "ChIJz6VeesBYwokRNBYu4Sar8lw",
+        "address": "1439 2nd Ave, New York, NY 10021, USA",
+        "name": "THEP Thai Restaurant",
+        "locationConfidence": 0.56452143,
+        "calibratedProbability": 0.442207
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 64,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407643879,
+        "longitudeE7": -739614673,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407592002,
+        "longitudeE7": -739627439,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-04T19:30:17.398Z",
+        "endTimestamp": "2021-12-04T19:33:00Z"
+      },
+      "distance": 586,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 66.47487282752991
+      }, {
+        "activityType": "CYCLING",
+        "probability": 14.154234528541565
+      }, {
+        "activityType": "STILL",
+        "probability": 7.805140316486359
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.282524436712265
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 3.4611470997333527
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 2.931959182024002
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.3110514022409916
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.1988337142392993
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.10840237373486161
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.09849297348409891
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.09479513391852379
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.03904196200892329
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.02685707004275173
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.012644607340916991
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 8.268891349416663E-7
+      }],
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 407591225,
+          "longitudeE7": -739627249,
+          "accuracyMetres": 110
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "FROM_RAW_LOCATION",
+        "timestamp": "2021-12-04T19:39:24.007Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2021-12-04T19:33:00Z",
+        "endTimestamp": "2021-12-05T02:32:16Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 58.885406,
+        "calibratedProbability": 54.454895
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 2.6653757,
+        "calibratedProbability": 2.464834
+      }, {
+        "latitudeE7": 407593854,
+        "longitudeE7": -739624809,
+        "placeId": "ChIJaX47_uZYwokRcfER-X1DZeY",
+        "address": "1071 1st Ave., New York, NY 10022, USA",
+        "name": "Adyar Ananda Bhavan",
+        "locationConfidence": 1.9556444,
+        "calibratedProbability": 1.8085026
+      }, {
+        "latitudeE7": 407592805,
+        "longitudeE7": -739624065,
+        "placeId": "ChIJWwJz_uZYwokRgxB92TUmZuI",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Pa Pa",
+        "locationConfidence": 1.4942151,
+        "calibratedProbability": 1.381791
+      }, {
+        "latitudeE7": 407585186,
+        "longitudeE7": -739625004,
+        "placeId": "ChIJc1Ej4eZYwokRR3XJxxWkUPg",
+        "address": "1052-1055 1st Ave., New York, NY 10022, USA",
+        "name": "Duane Reade",
+        "locationConfidence": 1.3930311,
+        "calibratedProbability": 1.28822
+      }, {
+        "latitudeE7": 407588680,
+        "longitudeE7": -739628680,
+        "placeId": "ChIJNT544-ZYwokRlcl-TrbwJIs",
+        "address": "1059 1st Ave. #2, New York, NY 10022, USA",
+        "name": "American First Liquors",
+        "locationConfidence": 1.3428719,
+        "calibratedProbability": 1.2418348
+      }, {
+        "latitudeE7": 407592580,
+        "longitudeE7": -739625770,
+        "placeId": "ChIJf9_P_eZYwokRWpnhxQWFGjs",
+        "address": "1067 1st Ave., New York, NY 10022, USA",
+        "name": "Eddy\u0027s Laundry \u0026 Dry Cleaners",
+        "locationConfidence": 1.1271288,
+        "calibratedProbability": 1.0423242
+      }, {
+        "latitudeE7": 407576890,
+        "longitudeE7": -739607080,
+        "placeId": "ChIJS_SNoeFYwokRBv_bM_upjSY",
+        "locationConfidence": 1.1126405,
+        "calibratedProbability": 1.0289259
+      }, {
+        "latitudeE7": 407582020,
+        "longitudeE7": -739621800,
+        "placeId": "ChIJDRuVIOdYwokRpV54_y_qoX8",
+        "address": "417 E 57th St, New York, NY 10022, USA",
+        "name": "Sutton Marquis",
+        "locationConfidence": 1.0657568,
+        "calibratedProbability": 0.9855697
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2021-12-06T10:03:02.283Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+            "address": "1063 1st Ave., New York, NY 10022, USA",
+            "locationConfidence": 58.885406
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_LOCATION"],
+            "uiConfiguration": {
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "locationConfidence": 58.885406
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+                "address": "407 E 59th St, New York, NY 10022, USA",
+                "name": "T.J. Maxx",
+                "locationConfidence": 2.6653757
+              }
+            }]
+          }
+        }
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407679642,
+        "longitudeE7": -739554977,
+        "placeId": "ChIJ96VAH-hYwokR_arMDf6lSw0",
+        "address": "1352 1st Ave., New York, NY 10021, USA",
+        "name": "Duane Reade",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 21.177895,
+        "calibratedProbability": 4.992839
+      },
+      "duration": {
+        "startTimestamp": "2021-12-05T02:32:16.735Z",
+        "endTimestamp": "2021-12-05T19:34:22Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 407678719,
+      "centerLngE7": -739559671,
+      "visitConfidence": 58,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407672320,
+        "longitudeE7": -739560610,
+        "placeId": "ChIJpx0Xc8FYwokRWN-BdVOjXA0",
+        "address": "1330 1st Ave., New York, NY 10021, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 20.82032,
+        "calibratedProbability": 4.9085383
+      }, {
+        "latitudeE7": 407673413,
+        "longitudeE7": -739560416,
+        "placeId": "ChIJL9-kDMFYwokRWCczoF-Zgpo",
+        "address": "1330 1st Ave., New York, NY 10021, USA",
+        "name": "Lucile and Milton Coleman Tower",
+        "locationConfidence": 3.0276537,
+        "calibratedProbability": 0.71379083
+      }, {
+        "latitudeE7": 407690179,
+        "longitudeE7": -739579526,
+        "placeId": "ChIJH_1qNcBYwokRWu7v4rcDpW8",
+        "address": "1396 2nd Ave, New York, NY 10021, USA",
+        "name": "CVS",
+        "locationConfidence": 2.5758505,
+        "calibratedProbability": 0.607275
+      }, {
+        "latitudeE7": 407576890,
+        "longitudeE7": -739607080,
+        "placeId": "ChIJS_SNoeFYwokRBv_bM_upjSY",
+        "locationConfidence": 2.246505,
+        "calibratedProbability": 0.52962947
+      }, {
+        "latitudeE7": 407680776,
+        "longitudeE7": -739549865,
+        "placeId": "ChIJZzj3W8JZwokRi8KiRaRr7SU",
+        "address": "406 E 73rd St, New York, NY 10021, USA",
+        "name": "Oda House UES",
+        "locationConfidence": 2.2066355,
+        "calibratedProbability": 0.52023
+      }, {
+        "latitudeE7": 407671283,
+        "longitudeE7": -739568462,
+        "placeId": "ChIJBWQYnMFYwokR_Vk0Zndz1oY",
+        "address": "1321 1st Ave., New York, NY 10021, USA",
+        "name": "sweetgreen",
+        "locationConfidence": 1.693058,
+        "calibratedProbability": 0.39915043
+      }, {
+        "latitudeE7": 407567316,
+        "longitudeE7": -739542239,
+        "placeId": "ChIJRfm6EdxYwokRYAfRiLa0LJo",
+        "address": "61 Ed Koch Queensboro Bridge Path, New York, NY 10044, USA",
+        "name": "Ed Koch Queensboro Bridge",
+        "locationConfidence": 1.6785055,
+        "calibratedProbability": 0.3957196
+      }, {
+        "latitudeE7": 407582020,
+        "longitudeE7": -739621800,
+        "placeId": "ChIJDRuVIOdYwokRpV54_y_qoX8",
+        "address": "417 E 57th St, New York, NY 10022, USA",
+        "name": "Sutton Marquis",
+        "locationConfidence": 1.6611338,
+        "calibratedProbability": 0.39162406
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 13,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2021-12-05T19:34:22Z",
+        "endTimestamp": "2021-12-06T01:34:39Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 47.35767,
+        "calibratedProbability": 48.28119
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 1.9834955,
+        "calibratedProbability": 2.0221756
+      }, {
+        "latitudeE7": 407592805,
+        "longitudeE7": -739624065,
+        "placeId": "ChIJWwJz_uZYwokRgxB92TUmZuI",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Pa Pa",
+        "locationConfidence": 1.7736939,
+        "calibratedProbability": 1.8082826
+      }, {
+        "latitudeE7": 407593854,
+        "longitudeE7": -739624809,
+        "placeId": "ChIJaX47_uZYwokRcfER-X1DZeY",
+        "address": "1071 1st Ave., New York, NY 10022, USA",
+        "name": "Adyar Ananda Bhavan",
+        "locationConfidence": 1.4465774,
+        "calibratedProbability": 1.474787
+      }, {
+        "latitudeE7": 407590498,
+        "longitudeE7": -739621228,
+        "placeId": "ChIJV-aHBOdYwokRN7HhLdf7kqU",
+        "address": "1070 1st Ave., New York, NY 10022, USA",
+        "name": "Pink Moose",
+        "locationConfidence": 1.2248217,
+        "calibratedProbability": 1.2487068
+      }, {
+        "latitudeE7": 407588680,
+        "longitudeE7": -739628680,
+        "placeId": "ChIJNT544-ZYwokRlcl-TrbwJIs",
+        "address": "1059 1st Ave. #2, New York, NY 10022, USA",
+        "name": "American First Liquors",
+        "locationConfidence": 0.6743813,
+        "calibratedProbability": 0.68753237
+      }, {
+        "latitudeE7": 407593052,
+        "longitudeE7": -739625016,
+        "placeId": "ChIJWwJz_uZYwokRBVV6FyZ_Kgs",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Go Noodle",
+        "locationConfidence": 0.6719132,
+        "calibratedProbability": 0.68501616
+      }, {
+        "latitudeE7": 407679642,
+        "longitudeE7": -739554977,
+        "placeId": "ChIJ96VAH-hYwokR_arMDf6lSw0",
+        "address": "1352 1st Ave., New York, NY 10021, USA",
+        "name": "Duane Reade",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 21.177895,
+        "calibratedProbability": 4.992839
+      }, {
+        "latitudeE7": 407672320,
+        "longitudeE7": -739560610,
+        "placeId": "ChIJpx0Xc8FYwokRWN-BdVOjXA0",
+        "address": "1330 1st Ave., New York, NY 10021, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 20.82032,
+        "calibratedProbability": 4.9085383
+      }, {
+        "latitudeE7": 407673413,
+        "longitudeE7": -739560416,
+        "placeId": "ChIJL9-kDMFYwokRWCczoF-Zgpo",
+        "address": "1330 1st Ave., New York, NY 10021, USA",
+        "name": "Lucile and Milton Coleman Tower",
+        "locationConfidence": 3.0276537,
+        "calibratedProbability": 0.71379083
+      }, {
+        "latitudeE7": 407690179,
+        "longitudeE7": -739579526,
+        "placeId": "ChIJH_1qNcBYwokRWu7v4rcDpW8",
+        "address": "1396 2nd Ave, New York, NY 10021, USA",
+        "name": "CVS",
+        "locationConfidence": 2.5758505,
+        "calibratedProbability": 0.607275
+      }, {
+        "latitudeE7": 407576890,
+        "longitudeE7": -739607080,
+        "placeId": "ChIJS_SNoeFYwokRBv_bM_upjSY",
+        "locationConfidence": 2.246505,
+        "calibratedProbability": 0.52962947
+      }, {
+        "latitudeE7": 407680776,
+        "longitudeE7": -739549865,
+        "placeId": "ChIJZzj3W8JZwokRi8KiRaRr7SU",
+        "address": "406 E 73rd St, New York, NY 10021, USA",
+        "name": "Oda House UES",
+        "locationConfidence": 2.2066355,
+        "calibratedProbability": 0.52023
+      }, {
+        "latitudeE7": 407671283,
+        "longitudeE7": -739568462,
+        "placeId": "ChIJBWQYnMFYwokR_Vk0Zndz1oY",
+        "address": "1321 1st Ave., New York, NY 10021, USA",
+        "name": "sweetgreen",
+        "locationConfidence": 1.693058,
+        "calibratedProbability": 0.39915043
+      }, {
+        "latitudeE7": 407567316,
+        "longitudeE7": -739542239,
+        "placeId": "ChIJRfm6EdxYwokRYAfRiLa0LJo",
+        "address": "61 Ed Koch Queensboro Bridge Path, New York, NY 10044, USA",
+        "name": "Ed Koch Queensboro Bridge",
+        "locationConfidence": 1.6785055,
+        "calibratedProbability": 0.3957196
+      }, {
+        "latitudeE7": 407582020,
+        "longitudeE7": -739621800,
+        "placeId": "ChIJDRuVIOdYwokRpV54_y_qoX8",
+        "address": "417 E 57th St, New York, NY 10022, USA",
+        "name": "Sutton Marquis",
+        "locationConfidence": 1.6611338,
+        "calibratedProbability": 0.39162406
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2021-12-06T10:02:55.486Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+            "address": "1063 1st Ave., New York, NY 10022, USA",
+            "locationConfidence": 47.35767
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_LOCATION"],
+            "uiConfiguration": {
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "locationConfidence": 47.35767
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "name": "Au Za\u0027atar - Midtown East",
+                "locationConfidence": 23.450306
+              }
+            }]
+          }
+        }
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407590855,
+        "longitudeE7": -739647020,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407711684,
+        "longitudeE7": -739556593,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-06T01:34:39Z",
+        "endTimestamp": "2021-12-06T01:56:43.711Z"
+      },
+      "distance": 4397,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 57.602691650390625
+      }, {
+        "activityType": "STILL",
+        "probability": 27.675136923789978
+      }, {
+        "activityType": "CYCLING",
+        "probability": 7.553855329751968
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.977192774415016
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 2.121766097843647
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.221931353211403
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.22159665822982788
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.17720828764140606
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.16395737184211612
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.1463766791857779
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.07895867456682026
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.028616905910894275
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.018470542272552848
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.012173565482953563
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 7.56187603201397E-5
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407590637,
+          "lngE7": -739647140
+        }, {
+          "latE7": 407595252,
+          "lngE7": -739657974
+        }, {
+          "latE7": 407619934,
+          "lngE7": -739716491
+        }, {
+          "latE7": 407643356,
+          "lngE7": -739771881
+        }, {
+          "latE7": 407643356,
+          "lngE7": -739771881
+        }, {
+          "latE7": 407619819,
+          "lngE7": -739746932
+        }, {
+          "latE7": 407637710,
+          "lngE7": -739799118
+        }, {
+          "latE7": 407631225,
+          "lngE7": -739654388
+        }, {
+          "latE7": 407710723,
+          "lngE7": -739557266
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJs1JrmuZYwokRb9qYZaBosvo",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJMZLynOZYwokRtS_cwevAW_0",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJZY5FMeRYwokR3ykb142Or0Y",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJZY5FMeRYwokRshc8IihNbC0",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJfwSEAOVYwokRoAzPzZIJMxY",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJO1T1A-VYwokRcK0J6sX8a5I",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJO1T1A-VYwokRURbV4akZeiE",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJAUbRPOVYwokRDSxPtmpDohM",
+          "duration": "41s"
+        }, {
+          "placeId": "ChIJ9xo9MeVYwokRntGI24dDu6g",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJCQ4ryvpYwokRhBBLdCrDOdc",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJCQ4ryvpYwokRl9_zp62xBdA",
+          "duration": "28s"
+        }, {
+          "placeId": "ChIJ1Vfmk_pYwokRkX3JbpMJ9uI",
+          "duration": "40s"
+        }, {
+          "placeId": "ChIJtzDwcPpYwokR-bYwLyDzrOo",
+          "duration": "42s"
+        }, {
+          "placeId": "ChIJXXDnqfBYwokR0YZzYukW1i8",
+          "duration": "26s"
+        }, {
+          "placeId": "ChIJ22N0rfBYwokRVylSDKuHkzw",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJ02vEmfBYwokR_Eri6AFLBTk",
+          "duration": "65s"
+        }, {
+          "placeId": "ChIJpzDQePBYwokRTsSff3XfsrA",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJbZxthPpYwokRAKLdpvprf6w",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJxyNwWvpYwokR0OfgMnxysl8",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJdcfIOvpYwokRYzDQlJ2foro",
+          "duration": "74s"
+        }, {
+          "placeId": "ChIJr7fBkvlYwokR30UjCJxWpnM",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJ10jGxvlYwokROzM5Xj8OJEU",
+          "duration": "49s"
+        }, {
+          "placeId": "ChIJi-qLL_hYwokR9s97yZEZVt0",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJiT0_PPhYwokR66X-EHklOBY",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJG7JTRvhYwokRw5TAoCTBo3U",
+          "duration": "28s"
+        }, {
+          "placeId": "ChIJ3Y9No_lYwokRz9uN72To_9Y",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJi5vCKvpYwokROi5yqyKNUf0",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJRWJK0_tYwokRPtpwOZ-mA7U",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJx8FWr_tYwokRh14NrmhBIhM",
+          "duration": "48s"
+        }, {
+          "placeId": "ChIJm1zPE_tYwokRe5xOtRydTUM",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJm1zPE_tYwokRrS9XbmT-bgA",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJQ1FvP_tYwokRSoSRdccI6p8",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJS_acR_tYwokRSfaHLKdKlGE",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJr0FaS_tYwokRFd261_qaMuk",
+          "duration": "22s"
+        }, {
+          "placeId": "ChIJr0FaS_tYwokROORApXaQq6Q",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJwTXaouRYwokRmVvWIXaRREU",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJG0Zdm-RYwokRH9zR-DRF6gc",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJwTRTj-RYwokRClXD8xR0ofA",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJz5UFUeRYwokRo80DgUxdtgc",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJJ6r4uOVYwokR_Yt5wj2v_QQ",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJtWlmwOVYwokREzjJVTd2K6U",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJ-YbG6-VYwokR28xyLoQUlX8",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ54Op7uVYwokRRT_1D1VDCAY",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJkaz07uVYwokRBRJrvyy2FiU",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJVXcx7uVYwokR-1JSElg3Kio",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJv0M58OVYwokR1QALOjWazLw",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ_UeI8OVYwokRHVWgRjHCpVM",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ9zLx-eVYwokR4ByTboyIxcY",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ9zLx-eVYwokR5CQ3vxXqV7k",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJC5M8Vu9YwokRL0-4IbSK8vA",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJTdldTe9YwokRtp622oWtkR8",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJH0XttehYwokR4vfEKSSt7SE",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJfVQyyehYwokRtFMyLZGHZBg",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJ5ySK2uhYwokRltowWGNyDHE",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJuaqfIelYwokRo1boisIVwAY",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJaUKRFulYwokRCn-g3UbAofo",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJj7YRFOlYwokR2_ZOyLklPbA",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJj7YRFOlYwokROSgkxuo6aU8",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJjUM0E-lYwokROgBY7lMZ1Rg",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJycffcelYwokRZmmh3XwhsW0",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJycffcelYwokRMLfddIflWPA",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJz-S-LOpYwokRtefcFbqK9rg",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJP3U7MupYwokRpaGrdJ6v8nw",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJ2TPeN-pYwokRYdf8YuR8iMk",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJHTFfW-pYwokRBLU_vdhfkz4",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJJScci-pYwokRL-Ter3Ib-lE",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJPeKlkepYwokRkIOicwJuc4w",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJPeKlkepYwokRU58Yww2EJto",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJ687MkOpYwokR_9r_aLHUhuU",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJ49QlpOpYwokR1r6Jv0SZ1Gc",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJxw0djr9YwokRl4o5MaEWL_4",
+          "duration": "61s"
+        }, {
+          "placeId": "ChIJv90unsBYwokRTWErubJys-Y",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJv90unsBYwokRxKRb-cnvWE0",
+          "duration": "3s"
+        }],
+        "distanceMeters": 5783.480823215622,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407621994,
+          "lngE7": -739715042,
+          "accuracyMeters": 30,
+          "timestamp": "2021-12-06T01:36:52.999Z"
+        }, {
+          "latE7": 407641716,
+          "lngE7": -739771652,
+          "accuracyMeters": 65,
+          "timestamp": "2021-12-06T01:39:10.564Z"
+        }, {
+          "latE7": 407636871,
+          "lngE7": -739797821,
+          "accuracyMeters": 65,
+          "timestamp": "2021-12-06T01:42:56.945Z"
+        }]
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 407713872,
+          "longitudeE7": -739557203,
+          "accuracyMetres": 70
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "FROM_RAW_LOCATION",
+        "timestamp": "2021-12-06T02:00:15.999Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 87.90419,
+        "calibratedProbability": 70.462585
+      },
+      "duration": {
+        "startTimestamp": "2021-12-06T01:56:43.711Z",
+        "endTimestamp": "2021-12-07T19:12:47.287Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407711583,
+      "centerLngE7": -739557500,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 3.7263134,
+        "calibratedProbability": 2.986953
+      }, {
+        "latitudeE7": 407712079,
+        "longitudeE7": -739556369,
+        "placeId": "ChIJhyonXc1ZwokRYJti4YQ6zNk",
+        "address": "311 E 76th St, New York, NY 10021, USA",
+        "name": "Sin City Burger",
+        "locationConfidence": 2.9300265,
+        "calibratedProbability": 2.3486621
+      }, {
+        "latitudeE7": 407711791,
+        "longitudeE7": -739554448,
+        "placeId": "ChIJHwhfYb9YwokRyxep79xZIRQ",
+        "address": "341 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.4877932,
+        "calibratedProbability": 1.1925911
+      }, {
+        "latitudeE7": 407715096,
+        "longitudeE7": -739560730,
+        "placeId": "ChIJYwAAe79YwokRAzRYCHUFTJY",
+        "address": "1460 2nd Ave, New York, NY 10075, USA",
+        "name": "Boqueria UES",
+        "locationConfidence": 0.6659572,
+        "calibratedProbability": 0.5338206
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 73,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407712163,
+        "longitudeE7": -739558627,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407606099,
+        "longitudeE7": -739615777,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-07T19:12:47.287Z",
+        "endTimestamp": "2021-12-07T19:19:44.003Z"
+      },
+      "distance": 1303,
+      "activityType": "CYCLING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 60.197895765304565
+      }, {
+        "activityType": "STILL",
+        "probability": 15.433904528617859
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 13.690568506717682
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.372335389256477
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.5513358637690544
+      }, {
+        "activityType": "RUNNING",
+        "probability": 1.4855604618787766
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.8915585465729237
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.6734184455126524
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.31025754287838936
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.19768085330724716
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.1084306975826621
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.046750856563448906
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.029803754296153784
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.010482930520083755
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 2.02675408900177E-5
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407711524,
+          "lngE7": -739559097
+        }, {
+          "latE7": 407615509,
+          "lngE7": -739636611
+        }, {
+          "latE7": 407605018,
+          "lngE7": -739613265
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJv90unsBYwokRTGErubJys-Y",
+          "duration": "54s"
+        }, {
+          "placeId": "ChIJQxhPaMBYwokRF4jd4Exn4h0",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJxStcQcBYwokR-exIczUAb-4",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJ47gXSMBYwokRBwD-NXlL42I",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJqZJWNMBYwokRUWhbvIC2lUQ",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJ441UzsFYwokR01FcPdY2Iaw",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJ50sjAupYwokRNik7hWUfUOg",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ50sjAupYwokRnRX37dEVuak",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJR_SQ-OlYwokR598dpXgJOqQ",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJIwp1-ulYwokRmfSwzWQejF0",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJSWL37ulYwokRJoJh5YjO7-0",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJ736qwOlYwokRGKSUpplE5_k",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJJbV8t-lYwokRseyDqSXN7UY",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJX_J7TehYwokR9qJRGsWZyjo",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJQb0QUuhYwokRBKqK3-mYm7E",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJQ-2oUehYwokRGrR1ZFv4jC4",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJGawPWuhYwokRBqfOfDSs8Jg",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJQUepX-hYwokRuXy7Ak1ygcQ",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJC6eGiehYwokR9fHvghbbnrM",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJGRiBOOZYwokRf2TSnnJWx40",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJXTIvS-ZYwokRp0EO8HXtoNQ",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJXTIvS-ZYwokRLguBD70LALQ",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJC0LEsOdYwokRuB_u8YUUltY",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJozhQuudYwokRqqiCuhN6-eo",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJWRdIuedYwokRlBO4X3lCPK8",
+          "duration": "39s"
+        }],
+        "distanceMeters": 1608.6165130565043,
+        "travelMode": "BICYCLE",
+        "confidence": 1.0
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 62.143696,
+        "calibratedProbability": 37.15104
+      },
+      "duration": {
+        "startTimestamp": "2021-12-07T19:19:44.003Z",
+        "endTimestamp": "2021-12-08T02:40:54.089Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407589850,
+      "centerLngE7": -739626300,
+      "visitConfidence": 80,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "locationConfidence": 13.797596,
+        "calibratedProbability": 8.248545
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 6.7652063,
+        "calibratedProbability": 4.044408
+      }, {
+        "latitudeE7": 407567316,
+        "longitudeE7": -739542239,
+        "placeId": "ChIJRfm6EdxYwokRYAfRiLa0LJo",
+        "address": "61 Ed Koch Queensboro Bridge Path, New York, NY 10044, USA",
+        "name": "Ed Koch Queensboro Bridge",
+        "locationConfidence": 3.4905005,
+        "calibratedProbability": 2.0867076
+      }, {
+        "latitudeE7": 407580337,
+        "longitudeE7": -739604110,
+        "placeId": "ChIJg04caOdYwokRDPZzU0T5Zq4",
+        "locationConfidence": 2.6349301,
+        "calibratedProbability": 1.5752264
+      }, {
+        "latitudeE7": 407588680,
+        "longitudeE7": -739628680,
+        "placeId": "ChIJNT544-ZYwokRlcl-TrbwJIs",
+        "address": "1059 1st Ave. #2, New York, NY 10022, USA",
+        "name": "American First Liquors",
+        "locationConfidence": 1.9961555,
+        "calibratedProbability": 1.1933511
+      }, {
+        "latitudeE7": 407585186,
+        "longitudeE7": -739625004,
+        "placeId": "ChIJc1Ej4eZYwokRR3XJxxWkUPg",
+        "address": "1052-1055 1st Ave., New York, NY 10022, USA",
+        "name": "Duane Reade",
+        "locationConfidence": 1.4354095,
+        "calibratedProbability": 0.85812336
+      }, {
+        "latitudeE7": 407589543,
+        "longitudeE7": -739609735,
+        "placeId": "ChIJ6wuME-dYwokRG5SWdCkgyjo",
+        "address": "425 E 58th St, New York, NY 10022, USA",
+        "name": "The Sovereign",
+        "locationConfidence": 1.4205673,
+        "calibratedProbability": 0.84925026
+      }, {
+        "latitudeE7": 407591723,
+        "longitudeE7": -739620025,
+        "placeId": "ChIJFTW1AOdYwokRxcn0wNMDjuA",
+        "address": "1074 1st Ave., New York, NY 10022, USA",
+        "name": "Sutton Bar Room",
+        "locationConfidence": 0.75456655,
+        "calibratedProbability": 0.45109856
+      }, {
+        "latitudeE7": 407588867,
+        "longitudeE7": -739619189,
+        "placeId": "ChIJHdIQBedYwokRgSk8PYGdkPI",
+        "address": "405 E 58th St, New York, NY 10022, USA",
+        "name": "Bistro Vendôme",
+        "locationConfidence": 0.7165333,
+        "calibratedProbability": 0.42836136
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 50,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407587580,
+        "longitudeE7": -739621537,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407710499,
+        "longitudeE7": -739556084,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-08T02:40:54.089Z",
+        "endTimestamp": "2021-12-08T02:44:56.812Z"
+      },
+      "distance": 1505,
+      "activityType": "CYCLING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 54.39748167991638
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 31.077978014945984
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 5.545097216963768
+      }, {
+        "activityType": "WALKING",
+        "probability": 3.4989718347787857
+      }, {
+        "activityType": "STILL",
+        "probability": 2.3771457374095917
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.617301069200039
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.38816172163933516
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.37227452266961336
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.36258536856621504
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.23090587928891182
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.08360748179256916
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.029916115454398096
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.009391014464199543
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.009143622446572408
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 3.3536957744217943E-5
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407623700,
+          "lngE7": -739603036,
+          "accuracyMeters": 10,
+          "timestamp": "2021-12-08T02:42:20.999Z"
+        }, {
+          "latE7": 407684653,
+          "lngE7": -739555580,
+          "accuracyMeters": 10,
+          "timestamp": "2021-12-08T02:44:09.999Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 1505.0606791804162
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407712191,
+        "longitudeE7": -739558623,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407590943,
+        "longitudeE7": -739627229,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-08T19:17:54.927Z",
+        "endTimestamp": "2021-12-08T19:24:23.056Z"
+      },
+      "distance": 1466,
+      "activityType": "CYCLING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 33.046749234199524
+      }, {
+        "activityType": "STILL",
+        "probability": 32.25642442703247
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 22.382475435733795
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.74429726600647
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 3.381882980465889
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 1.5304558910429478
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 1.0264531709253788
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.541087007150054
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.3745837137103081
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.363738345913589
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.24302585516124964
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.06512049003504217
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.03133057907689363
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.012290883751120418
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 7.936225756566273E-5
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407711524,
+          "lngE7": -739559097
+        }, {
+          "latE7": 407662925,
+          "lngE7": -739602203
+        }, {
+          "latE7": 407590942,
+          "lngE7": -739627227
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJv90unsBYwokRTGErubJys-Y",
+          "duration": "48s"
+        }, {
+          "placeId": "ChIJQxhPaMBYwokRF4jd4Exn4h0",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJxStcQcBYwokR-exIczUAb-4",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJ47gXSMBYwokRBwD-NXlL42I",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJqZJWNMBYwokRUWhbvIC2lUQ",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJ441UzsFYwokR01FcPdY2Iaw",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJ50sjAupYwokRNik7hWUfUOg",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ50sjAupYwokRnRX37dEVuak",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJR_SQ-OlYwokR598dpXgJOqQ",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJIwp1-ulYwokRmfSwzWQejF0",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJSWL37ulYwokRJoJh5YjO7-0",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJ736qwOlYwokRGKSUpplE5_k",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJJbV8t-lYwokRseyDqSXN7UY",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJX_J7TehYwokR9qJRGsWZyjo",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJQb0QUuhYwokRBKqK3-mYm7E",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJQ-2oUehYwokRGrR1ZFv4jC4",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJGawPWuhYwokRBqfOfDSs8Jg",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJQUepX-hYwokRuXy7Ak1ygcQ",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJC6eGiehYwokR9fHvghbbnrM",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJF3xvFeZYwokR4AuKgM8qkFo",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJ92FOaeZYwokRHsGOnmDXvxY",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ-4bYbuZYwokR7RlK1vzXWNo",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJdUeCZeZYwokRnSo50xfbpqo",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJq3-3fOZYwokRQ_WOZncoWGI",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJEwNdfeZYwokRZVB2kgYj3IA",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJEwKSieZYwokRnlJ6WL-pg4o",
+          "duration": "33s"
+        }],
+        "distanceMeters": 1708.2534370504454,
+        "travelMode": "BICYCLE",
+        "confidence": 0.9907057287995557
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407589691,
+        "longitudeE7": -739626186,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407711816,
+        "longitudeE7": -739558595,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-09T03:03:07.999Z",
+        "endTimestamp": "2021-12-09T03:08:26.333Z"
+      },
+      "distance": 1472,
+      "activityType": "CYCLING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 79.53992486000061
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 14.482590556144714
+      }, {
+        "activityType": "STILL",
+        "probability": 1.929752342402935
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.6266444697976112
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 1.580444909632206
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.3477003425359726
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.2970886416733265
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.07197870872914791
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.04054238088428974
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.03365958109498024
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.028093918808735907
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.012460445577744395
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.005347220576368272
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.003769359682337381
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 1.9238173720736995E-6
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407590332,
+          "lngE7": -739625701
+        }, {
+          "latE7": 407602043,
+          "lngE7": -739615402
+        }, {
+          "latE7": 407711334,
+          "lngE7": -739558715
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJCf9cAudYwokRbZQq-NLSCyU",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJlfjJAOdYwokRmZsD8q5KUJc",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJG1oeqedYwokR3lvaNr_KnNU",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJeXVipedYwokRLGLPVIF_Vcw",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJ-d76uudYwokRT_ZXCowUuHU",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJWRdIuedYwokRlBO4X3lCPK8",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJdYrzwOdYwokRGBufWIh_Oq4",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJdYrzwOdYwokRR2vNLcnKrzI",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJi1VK4udYwokR557lQfR-5k0",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJq41CCOhYwokRp1Je2rQfbxo",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJ5Q8EBuhYwokRy_SGMP36UxA",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJ_dFvG-hYwokRaQ89RjcRaaU",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJkw0vnsJYwokR6uxylfvcLvM",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJAaA8hMJYwokR2AL0A8EzYQo",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJaR5pasJYwokRALqofbqw7Kk",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJf2gZPMJYwokR3cY3U7XrvlE",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJGyk5KMJYwokRkxrH01A_bxk",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJo8MWg8FYwokRmHLjmjxkf1Q",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJl2SQncFYwokRsZPWddS4kss",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJl2SQncFYwokRs6P3VfK7HZA",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJVd7YdMFYwokRSibeuuZx0oc",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJVd7YdMFYwokRga3gaDubXFw",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJD9cdDMFYwokRjyGIgpd57Us",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJnQREG8FYwokRBTKyBsOIbo8",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJnQREG8FYwokRob1JtxOXgIg",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJaz8fwcBYwokR7hP-I0cWo20",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJW6x1sMBYwokRV7ojGdW_0lA",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJEa11qsBYwokRnmCKWUGin3U",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJEa11qsBYwokRK2bVNIyJPGI",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJuUU5Q79YwokR31cj3ATgMNc",
+          "duration": "36s"
+        }, {
+          "placeId": "ChIJLzBbd79YwokRBBpmG5UBMwc",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJl1wceb9YwokRFab_J5WVOCA",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJv90unsBYwokRTWErubJys-Y",
+          "duration": "21s"
+        }],
+        "distanceMeters": 1910.338519848418,
+        "travelMode": "BICYCLE",
+        "confidence": 1.0
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 81.94249,
+        "calibratedProbability": 68.19506
+      },
+      "duration": {
+        "startTimestamp": "2021-12-11T02:15:58.509Z",
+        "endTimestamp": "2021-12-11T19:27:11.972Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407711057,
+      "centerLngE7": -739562943,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 13.998188,
+        "calibratedProbability": 11.649723
+      }, {
+        "latitudeE7": 407711111,
+        "longitudeE7": -739563889,
+        "placeId": "ChIJx40Yfr9YwokRAipeh3042ds",
+        "address": "1452 2nd Ave, New York, NY 10021, USA",
+        "name": "Iggy\u0027s",
+        "locationConfidence": 1.7188586,
+        "calibratedProbability": 1.430487
+      }, {
+        "latitudeE7": 407710359,
+        "longitudeE7": -739564936,
+        "placeId": "ChIJqQMTgMBYwokR7HZwBu8zGu4",
+        "address": "1450 2nd Ave, New York, NY 10021, USA",
+        "name": "Mel\u0027s Burger Bar",
+        "locationConfidence": 0.842537,
+        "calibratedProbability": 0.7011852
+      }, {
+        "latitudeE7": 407712079,
+        "longitudeE7": -739556369,
+        "placeId": "ChIJhyonXc1ZwokRYJti4YQ6zNk",
+        "address": "311 E 76th St, New York, NY 10021, USA",
+        "name": "Sin City Burger",
+        "locationConfidence": 0.25910357,
+        "calibratedProbability": 0.21563397
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 66,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407694655,
+        "longitudeE7": -739582744,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407589310,
+        "longitudeE7": -739626976,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-11T19:27:11.972Z",
+        "endTimestamp": "2021-12-11T19:35:19.487Z"
+      },
+      "distance": 1282,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 61.542510986328125
+      }, {
+        "activityType": "CYCLING",
+        "probability": 10.69619357585907
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 7.973693311214447
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 7.079237699508667
+      }, {
+        "activityType": "STILL",
+        "probability": 4.921812564134598
+      }, {
+        "activityType": "WALKING",
+        "probability": 3.611324727535248
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 2.378912642598152
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 1.0357053950428963
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.554788950830698
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.10691131465137005
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.06198179326020181
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.014389837451744825
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.013792912068311125
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.008727876411285251
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 1.6848106554334663E-5
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407696113,
+          "lngE7": -739581680
+        }, {
+          "latE7": 407627143,
+          "lngE7": -739678268
+        }, {
+          "latE7": 407590484,
+          "lngE7": -739626159
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJFY2WI8BYwokR-ybO8LRm51k",
+          "duration": "52s"
+        }, {
+          "placeId": "ChIJxce13epYwokR-oMe20F97LE",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJq2tTHetYwokRU6ZQTz7fIig",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJb2a6qetYwokRH8FhlSkrmQo",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJr2Ovu-tYwokRSkKj_BVAATE",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJpfrlwetYwokRWrmtqHH3i18",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJie354-tYwokRRGsfQSGYVVY",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJL-7oUOlYwokR6aD2iGS9doI",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJz0_8SulYwokRdwf65i3SyiA",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJrSrqze5YwokRUkm3dvIYnSw",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJrc76J-9YwokRZKXWk9rAhGA",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJ74l8JO9YwokRQpnRUwT0IBs",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJwV-sPe9YwokRtivEfLW7zDA",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJF4YAa-9YwokReICft7jSyjA",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJhWjAZO9YwokR2TZCyV8UC24",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJG7Vzh-VYwokRA_E7Jnuf6gg",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJESn-g-VYwokRu1rCdNnhmmk",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJ96whg-VYwokRZ4ze1KGJeig",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJHVSBneVYwokRYnaPEij5VJs",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJHVSBneVYwokRSfz3NV8c_iM",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJxWEddeVYwokRtIXEMEgAESQ",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJX6yUoOVYwokR6AQezYg3SrU",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJX6yUoOVYwokRXwUKPRZm6OQ",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJJyO7pOVYwokRATkr0DmrsBw",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJueDMu-VYwokRc8VI9o9z-GM",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJrX4uzuVYwokRa_Qq6Y5olAA",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ7V2f0eVYwokRpAYyIRJ3tOk",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJ7V2f0eVYwokR2gtTu0s1xAI",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJ8UXH0eVYwokRFWbx_1QaVA8",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJJXqf0eVYwokR_kVIuGmX9xU",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJEwNdfeZYwokRZVB2kgYj3IA",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJEwKSieZYwokRnlJ6WL-pg4o",
+          "duration": "15s"
+        }],
+        "distanceMeters": 2129.7130442255884,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 407589310,
+          "longitudeE7": -739626976,
+          "accuracyMetres": 125
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "FROM_RAW_LOCATION",
+        "timestamp": "2021-12-11T19:35:19.487Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2021-12-11T19:35:19.487Z",
+        "endTimestamp": "2021-12-12T02:15:28.073Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 50.369804,
+        "calibratedProbability": 49.169086
+      }, {
+        "latitudeE7": 407588680,
+        "longitudeE7": -739628680,
+        "placeId": "ChIJNT544-ZYwokRlcl-TrbwJIs",
+        "address": "1059 1st Ave. #2, New York, NY 10022, USA",
+        "name": "American First Liquors",
+        "locationConfidence": 4.0543184,
+        "calibratedProbability": 3.9576712
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 1.8564394,
+        "calibratedProbability": 1.8121854
+      }, {
+        "latitudeE7": 407593854,
+        "longitudeE7": -739624809,
+        "placeId": "ChIJaX47_uZYwokRcfER-X1DZeY",
+        "address": "1071 1st Ave., New York, NY 10022, USA",
+        "name": "Adyar Ananda Bhavan",
+        "locationConfidence": 1.0178552,
+        "calibratedProbability": 0.9935914
+      }, {
+        "latitudeE7": 407592805,
+        "longitudeE7": -739624065,
+        "placeId": "ChIJWwJz_uZYwokRgxB92TUmZuI",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Pa Pa",
+        "locationConfidence": 0.7644856,
+        "calibratedProbability": 0.7462617
+      }, {
+        "latitudeE7": 407585186,
+        "longitudeE7": -739625004,
+        "placeId": "ChIJc1Ej4eZYwokRR3XJxxWkUPg",
+        "address": "1052-1055 1st Ave., New York, NY 10022, USA",
+        "name": "Duane Reade",
+        "locationConfidence": 0.611341,
+        "calibratedProbability": 0.5967678
+      }, {
+        "latitudeE7": 407593052,
+        "longitudeE7": -739625016,
+        "placeId": "ChIJWwJz_uZYwokRBVV6FyZ_Kgs",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Go Noodle",
+        "locationConfidence": 0.58026844,
+        "calibratedProbability": 0.56643593
+      }, {
+        "latitudeE7": 407586551,
+        "longitudeE7": -739630182,
+        "placeId": "ChIJQ8pZAbNZwokRAmx2CmWZn_o",
+        "address": "1055 1st Ave., New York, NY 10022, USA",
+        "name": "Brooklyn Pizza Masters",
+        "locationConfidence": 0.55719393,
+        "calibratedProbability": 0.5439115
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2021-12-27T04:57:06.475Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+            "address": "1063 1st Ave., New York, NY 10022, USA",
+            "locationConfidence": 50.369804
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_LOCATION"],
+            "uiConfiguration": {
+              "uiPlaceVisitConfiguration": "YES_NO_OTHER_PLACE_VISIT"
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "locationConfidence": 50.369804
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "name": "Au Za\u0027atar - Midtown East",
+                "locationConfidence": 21.596153
+              }
+            }]
+          }
+        }
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407603636,
+        "longitudeE7": -739611453,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407706224,
+        "longitudeE7": -739538248,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-12T02:15:28.073Z",
+        "endTimestamp": "2021-12-12T02:24:32.001Z"
+      },
+      "distance": 1296,
+      "activityType": "CYCLING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 52.185118198394775
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 28.26288342475891
+      }, {
+        "activityType": "STILL",
+        "probability": 6.585478782653809
+      }, {
+        "activityType": "WALKING",
+        "probability": 6.348028779029846
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 4.240749776363373
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.2667527422308922
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.4302358254790306
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.2643320942297578
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.183607148937881
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.10868286481127143
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.07569932495243847
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.028402384486980736
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.012833681830670685
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.007191746408352628
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 4.5648526736385975E-6
+      }]
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2021-12-12T19:28:35.999Z",
+        "endTimestamp": "2021-12-13T02:01:43.101Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 46.412735,
+        "calibratedProbability": 55.71151
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 4.4831147,
+        "calibratedProbability": 5.381305
+      }, {
+        "latitudeE7": 407593854,
+        "longitudeE7": -739624809,
+        "placeId": "ChIJaX47_uZYwokRcfER-X1DZeY",
+        "address": "1071 1st Ave., New York, NY 10022, USA",
+        "name": "Adyar Ananda Bhavan",
+        "locationConfidence": 1.154104,
+        "calibratedProbability": 1.3853283
+      }, {
+        "latitudeE7": 407588680,
+        "longitudeE7": -739628680,
+        "placeId": "ChIJNT544-ZYwokRlcl-TrbwJIs",
+        "address": "1059 1st Ave. #2, New York, NY 10022, USA",
+        "name": "American First Liquors",
+        "locationConfidence": 0.82953393,
+        "calibratedProbability": 0.99573076
+      }, {
+        "latitudeE7": 407592805,
+        "longitudeE7": -739624065,
+        "placeId": "ChIJWwJz_uZYwokRgxB92TUmZuI",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Pa Pa",
+        "locationConfidence": 0.64347506,
+        "calibratedProbability": 0.7723951
+      }, {
+        "latitudeE7": 407596400,
+        "longitudeE7": -739623098,
+        "placeId": "ChIJEz2TqudYwokRony5hk_P4bA",
+        "address": "1079 1st Ave., New York, NY 10022, USA",
+        "name": "Under The Bridge",
+        "locationConfidence": 0.48556694,
+        "calibratedProbability": 0.5828501
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2021-12-27T04:56:50.033Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+            "address": "1063 1st Ave., New York, NY 10022, USA",
+            "locationConfidence": 46.412735
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_LOCATION"],
+            "uiConfiguration": {
+              "uiPlaceVisitConfiguration": "YES_NO_OTHER_PLACE_VISIT"
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "locationConfidence": 46.412735
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "name": "Au Za\u0027atar - Midtown East",
+                "locationConfidence": 11.61888
+              }
+            }]
+          }
+        }
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407593780,
+        "longitudeE7": -739652739,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407712997,
+        "longitudeE7": -739557490,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-13T02:01:43.101Z",
+        "endTimestamp": "2021-12-13T02:23:40.456Z"
+      },
+      "distance": 4468,
+      "activityType": "SKATEBOARDING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "SKATEBOARDING",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407635207,
+          "lngE7": -739746827,
+          "accuracyMeters": 10,
+          "timestamp": "2021-12-13T02:04:12.999Z"
+        }, {
+          "latE7": 407636490,
+          "lngE7": -739797124,
+          "accuracyMeters": 65,
+          "timestamp": "2021-12-13T02:07:08.983Z"
+        }, {
+          "latE7": 407604824,
+          "lngE7": -739705334,
+          "accuracyMeters": 30,
+          "timestamp": "2021-12-13T02:13:13.004Z"
+        }, {
+          "latE7": 407584051,
+          "lngE7": -739628463,
+          "accuracyMeters": 10,
+          "timestamp": "2021-12-13T02:15:57.002Z"
+        }, {
+          "latE7": 407661666,
+          "lngE7": -739564803,
+          "accuracyMeters": 30,
+          "timestamp": "2021-12-13T02:20:34.999Z"
+        }],
+        "source": "RESNAPPED_FOR_EDIT",
+        "distanceMeters": 4467.460660874041
+      },
+      "editConfirmationStatus": "CONFIRMED",
+      "lastEditedTimestamp": "2021-12-27T04:56:57.738Z",
+      "editActionMetadata": {
+        "activitySegment": {
+          "activityType": "IN_PASSENGER_VEHICLE",
+          "activityConfidence": 0.0
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_ACTIVITY_TYPE"],
+            "uiConfiguration": {
+            }
+          }]
+        }
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 76.9359,
+        "calibratedProbability": 67.2012
+      },
+      "duration": {
+        "startTimestamp": "2021-12-13T02:23:40.456Z",
+        "endTimestamp": "2021-12-14T19:00:04.814Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407713967,
+      "centerLngE7": -739565100,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 6.692806,
+        "calibratedProbability": 5.8459654
+      }, {
+        "latitudeE7": 407718333,
+        "longitudeE7": -739569570,
+        "placeId": "ChIJVVVZm79YwokRjma__5ePrx4",
+        "address": "231 E 76th St, New York, NY 10021, USA",
+        "name": "231 East 76th Street",
+        "locationConfidence": 1.4401741,
+        "calibratedProbability": 1.2579489
+      }, {
+        "latitudeE7": 407715096,
+        "longitudeE7": -739560730,
+        "placeId": "ChIJYwAAe79YwokRAzRYCHUFTJY",
+        "address": "1460 2nd Ave, New York, NY 10075, USA",
+        "name": "Boqueria UES",
+        "locationConfidence": 1.0972614,
+        "calibratedProbability": 0.958425
+      }, {
+        "latitudeE7": 407708656,
+        "longitudeE7": -739565749,
+        "placeId": "ChIJEfwHf8BYwokRzpIRFgb_rxk",
+        "address": "1446 2nd Ave, New York, NY 10021, USA",
+        "name": "Gristedes",
+        "locationConfidence": 1.0938904,
+        "calibratedProbability": 0.9554805
+      }, {
+        "latitudeE7": 407711111,
+        "longitudeE7": -739563889,
+        "placeId": "ChIJx40Yfr9YwokRAipeh3042ds",
+        "address": "1452 2nd Ave, New York, NY 10021, USA",
+        "name": "Iggy\u0027s",
+        "locationConfidence": 1.043165,
+        "calibratedProbability": 0.91117334
+      }, {
+        "latitudeE7": 407707714,
+        "longitudeE7": -739572357,
+        "placeId": "ChIJz6VeesBYwokRNBYu4Sar8lw",
+        "address": "1439 2nd Ave, New York, NY 10021, USA",
+        "name": "THEP Thai Restaurant",
+        "locationConfidence": 0.77160764,
+        "calibratedProbability": 0.6739761
+      }, {
+        "latitudeE7": 407710359,
+        "longitudeE7": -739564936,
+        "placeId": "ChIJqQMTgMBYwokR7HZwBu8zGu4",
+        "address": "1450 2nd Ave, New York, NY 10021, USA",
+        "name": "Mel\u0027s Burger Bar",
+        "locationConfidence": 0.7484661,
+        "calibratedProbability": 0.6537627
+      }, {
+        "latitudeE7": 407712079,
+        "longitudeE7": -739556369,
+        "placeId": "ChIJhyonXc1ZwokRYJti4YQ6zNk",
+        "address": "311 E 76th St, New York, NY 10021, USA",
+        "name": "Sin City Burger",
+        "locationConfidence": 0.47099873,
+        "calibratedProbability": 0.41140327
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 62,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407631156,
+        "longitudeE7": -739627311,
+        "placeId": "ChIJ0Qv_i-hYwokRFCW-B_Zzicc",
+        "address": "1191 2nd Ave, New York, NY 10065, USA",
+        "name": "Duane Reade",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 10.938555,
+        "calibratedProbability": 5.137026
+      },
+      "duration": {
+        "startTimestamp": "2021-12-14T19:00:04.814Z",
+        "endTimestamp": "2021-12-14T19:05:26.016Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 407684625,
+      "centerLngE7": -739586511,
+      "visitConfidence": 57,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407631622,
+        "longitudeE7": -739620646,
+        "placeId": "ChIJfbh6XuhYwokR2nDHUDbWdEg",
+        "address": "1208 2nd Ave, New York, NY 10065, USA",
+        "name": "The Health Nuts",
+        "locationConfidence": 3.66509,
+        "calibratedProbability": 1.7212201
+      }, {
+        "latitudeE7": 407686869,
+        "longitudeE7": -739584429,
+        "placeId": "ChIJT3CZzMFYwokRiRpq9Un_B2M",
+        "address": "2nd Ave, New York, NY 10021, USA",
+        "name": "72 St",
+        "locationConfidence": 3.3481467,
+        "calibratedProbability": 1.5723754
+      }, {
+        "latitudeE7": 407639862,
+        "longitudeE7": -739623318,
+        "placeId": "ChIJ1cEpWuhYwokR1n1k0qFBlY8",
+        "address": "1223 2nd Ave, New York, NY 10065, USA",
+        "name": "CVS",
+        "locationConfidence": 2.8680134,
+        "calibratedProbability": 1.3468926
+      }, {
+        "latitudeE7": 407634988,
+        "longitudeE7": -739620226,
+        "placeId": "ChIJHSlIWehYwokR52B6IcxDjBM",
+        "address": "1216 2nd Ave, New York, NY 10065, USA",
+        "name": "Barry\u0027s East 64th",
+        "locationConfidence": 2.8173664,
+        "calibratedProbability": 1.3231074
+      }, {
+        "latitudeE7": 407633490,
+        "longitudeE7": -739626744,
+        "placeId": "ChIJNZ0pi-hYwokRjd4DzYE-sr4",
+        "address": "1201 2nd Ave, New York, NY 10065, USA",
+        "name": "Veritable",
+        "locationConfidence": 2.3367026,
+        "calibratedProbability": 1.0973754
+      }, {
+        "latitudeE7": 407633762,
+        "longitudeE7": -739626627,
+        "placeId": "ChIJ40HpX-hYwokRhuWe0X-OQxk",
+        "address": "1207 2nd Ave, New York, NY 10065, USA",
+        "name": "Cedra Pharmacy",
+        "locationConfidence": 2.3083026,
+        "calibratedProbability": 1.084038
+      }, {
+        "latitudeE7": 407680698,
+        "longitudeE7": -739601111,
+        "placeId": "ChIJewBbcupYwokRnWJZb38OQOk",
+        "address": "217 E 70th St, New York, NY 10021, USA",
+        "name": "United States Postal Service",
+        "locationConfidence": 2.2563272,
+        "calibratedProbability": 1.0596291
+      }, {
+        "latitudeE7": 407633351,
+        "longitudeE7": -739627181,
+        "placeId": "ChIJZwFOi-hYwokRVWHRoiOPUJw",
+        "address": "245 E 63rd St #110, New York, NY 10065, USA",
+        "name": "New York Dental Office",
+        "locationConfidence": 1.9790984,
+        "calibratedProbability": 0.9294353
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 1,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2021-12-14T19:05:26.016Z",
+        "endTimestamp": "2021-12-16T02:22:12.070Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 63.122196,
+        "calibratedProbability": 69.13606
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 2.962087,
+        "calibratedProbability": 3.2442951
+      }, {
+        "latitudeE7": 407593854,
+        "longitudeE7": -739624809,
+        "placeId": "ChIJaX47_uZYwokRcfER-X1DZeY",
+        "address": "1071 1st Ave., New York, NY 10022, USA",
+        "name": "Adyar Ananda Bhavan",
+        "locationConfidence": 1.5170591,
+        "calibratedProbability": 1.6615945
+      }, {
+        "latitudeE7": 407592805,
+        "longitudeE7": -739624065,
+        "placeId": "ChIJWwJz_uZYwokRgxB92TUmZuI",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Pa Pa",
+        "locationConfidence": 1.2011997,
+        "calibratedProbability": 1.3156421
+      }, {
+        "latitudeE7": 407588680,
+        "longitudeE7": -739628680,
+        "placeId": "ChIJNT544-ZYwokRlcl-TrbwJIs",
+        "address": "1059 1st Ave. #2, New York, NY 10022, USA",
+        "name": "American First Liquors",
+        "locationConfidence": 0.9366842,
+        "calibratedProbability": 1.0259253
+      }, {
+        "latitudeE7": 407585186,
+        "longitudeE7": -739625004,
+        "placeId": "ChIJc1Ej4eZYwokRR3XJxxWkUPg",
+        "address": "1052-1055 1st Ave., New York, NY 10022, USA",
+        "name": "Duane Reade",
+        "locationConfidence": 0.5857348,
+        "calibratedProbability": 0.64153975
+      }, {
+        "latitudeE7": 407596198,
+        "longitudeE7": -739622720,
+        "placeId": "ChIJIcfWqudYwokRd4YM22ahEYs",
+        "address": "346 E 59th St, New York, NY 10022, USA",
+        "name": "Meng Flower Spa",
+        "locationConfidence": 0.45324987,
+        "calibratedProbability": 0.49643254
+      }, {
+        "latitudeE7": 407586551,
+        "longitudeE7": -739630182,
+        "placeId": "ChIJQ8pZAbNZwokRAmx2CmWZn_o",
+        "address": "1055 1st Ave., New York, NY 10022, USA",
+        "name": "Brooklyn Pizza Masters",
+        "locationConfidence": 1.5051395,
+        "calibratedProbability": 0.55057734
+      }, {
+        "latitudeE7": 407591723,
+        "longitudeE7": -739620025,
+        "placeId": "ChIJFTW1AOdYwokRxcn0wNMDjuA",
+        "address": "1074 1st Ave., New York, NY 10022, USA",
+        "name": "Sutton Bar Room",
+        "locationConfidence": 0.73800385,
+        "calibratedProbability": 0.2699605
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2021-12-27T04:56:23.017Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+            "address": "1063 1st Ave., New York, NY 10022, USA",
+            "locationConfidence": 63.122196
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_LOCATION"],
+            "uiConfiguration": {
+              "uiPlaceVisitConfiguration": "YES_NO_OTHER_PLACE_VISIT"
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "locationConfidence": 63.122196
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "name": "Au Za\u0027atar - Midtown East",
+                "locationConfidence": 4.8753037
+              }
+            }]
+          }
+        }
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407605806,
+        "longitudeE7": -739612556,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407713048,
+        "longitudeE7": -739556386,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-16T02:22:12.070Z",
+        "endTimestamp": "2021-12-16T02:29:01.004Z"
+      },
+      "distance": 1295,
+      "activityType": "SKATEBOARDING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "SKATEBOARDING",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407676862,
+          "lngE7": -739564804,
+          "accuracyMeters": 30,
+          "timestamp": "2021-12-16T02:24:40.999Z"
+        }],
+        "source": "RESNAPPED_FOR_EDIT",
+        "distanceMeters": 1295.1383467682979
+      },
+      "editConfirmationStatus": "CONFIRMED",
+      "lastEditedTimestamp": "2021-12-27T04:56:32.469Z",
+      "editActionMetadata": {
+        "activitySegment": {
+          "activityType": "CYCLING",
+          "activityConfidence": 0.0
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_ACTIVITY_TYPE"],
+            "uiConfiguration": {
+            }
+          }]
+        }
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 78.208885,
+        "calibratedProbability": 67.1159
+      },
+      "duration": {
+        "startTimestamp": "2021-12-16T02:29:01.004Z",
+        "endTimestamp": "2021-12-16T19:08:02.026Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407713600,
+      "centerLngE7": -739550550,
+      "visitConfidence": 88,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407709059,
+        "longitudeE7": -739540870,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 3.8122826,
+        "calibratedProbability": 3.2715561
+      }, {
+        "latitudeE7": 407711791,
+        "longitudeE7": -739554448,
+        "placeId": "ChIJHwhfYb9YwokRyxep79xZIRQ",
+        "address": "341 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.848434,
+        "calibratedProbability": 2.444418
+      }, {
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 2.765551,
+        "calibratedProbability": 2.373291
+      }, {
+        "latitudeE7": 407712079,
+        "longitudeE7": -739556369,
+        "placeId": "ChIJhyonXc1ZwokRYJti4YQ6zNk",
+        "address": "311 E 76th St, New York, NY 10021, USA",
+        "name": "Sin City Burger",
+        "locationConfidence": 2.1863081,
+        "calibratedProbability": 1.8762066
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 63,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407690377,
+        "longitudeE7": -739581203,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407591625,
+        "longitudeE7": -739625852,
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-16T19:08:02.026Z",
+        "endTimestamp": "2021-12-16T19:12:32.998Z"
+      },
+      "distance": 1186,
+      "activityType": "CYCLING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 57.379770278930664
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 24.77954924106598
+      }, {
+        "activityType": "STILL",
+        "probability": 6.542738527059555
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.323769360780716
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 3.226504474878311
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 2.445012331008911
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.39188554510474205
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.3616797272115946
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.23062569089233875
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.21188748069107533
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.07248120382428169
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.020272540859878063
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.008628069190308452
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.005185723421163857
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 5.444241324426002E-6
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407690620,
+          "lngE7": -739581832
+        }, {
+          "latE7": 407646369,
+          "lngE7": -739614181
+        }, {
+          "latE7": 407590637,
+          "lngE7": -739626541
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJqZJWNMBYwokRUWhbvIC2lUQ",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJ441UzsFYwokR01FcPdY2Iaw",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJ50sjAupYwokRNik7hWUfUOg",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ50sjAupYwokRnRX37dEVuak",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJR_SQ-OlYwokR598dpXgJOqQ",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJIwp1-ulYwokRmfSwzWQejF0",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJSWL37ulYwokRJoJh5YjO7-0",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJ736qwOlYwokRGKSUpplE5_k",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJJbV8t-lYwokRseyDqSXN7UY",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJX_J7TehYwokR9qJRGsWZyjo",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJQb0QUuhYwokRBKqK3-mYm7E",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJQ-2oUehYwokRGrR1ZFv4jC4",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJGawPWuhYwokRBqfOfDSs8Jg",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJQUepX-hYwokRuXy7Ak1ygcQ",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJC6eGiehYwokR9fHvghbbnrM",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJF3xvFeZYwokR4AuKgM8qkFo",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJ92FOaeZYwokRHsGOnmDXvxY",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ-4bYbuZYwokR7RlK1vzXWNo",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJdUeCZeZYwokRnSo50xfbpqo",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJq3-3fOZYwokRQ_WOZncoWGI",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJEwNdfeZYwokRZVB2kgYj3IA",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJEwKSieZYwokRnlJ6WL-pg4o",
+          "duration": "31s"
+        }],
+        "distanceMeters": 1363.14506815089,
+        "travelMode": "BICYCLE",
+        "confidence": 1.0
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2021-12-16T19:12:32.998Z",
+        "endTimestamp": "2021-12-16T21:54:31.719Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": 1181308969
+        },
+        "locationConfidence": 48.29922,
+        "calibratedProbability": 57.386627
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 7.399282,
+        "calibratedProbability": 8.791443
+      }, {
+        "latitudeE7": 407592805,
+        "longitudeE7": -739624065,
+        "placeId": "ChIJWwJz_uZYwokRgxB92TUmZuI",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Pa Pa",
+        "locationConfidence": 2.8458602,
+        "calibratedProbability": 3.3813033
+      }, {
+        "latitudeE7": 407593854,
+        "longitudeE7": -739624809,
+        "placeId": "ChIJaX47_uZYwokRcfER-X1DZeY",
+        "address": "1071 1st Ave., New York, NY 10022, USA",
+        "name": "Adyar Ananda Bhavan",
+        "locationConfidence": 2.2864983,
+        "calibratedProbability": 2.7166986
+      }, {
+        "latitudeE7": 407593052,
+        "longitudeE7": -739625016,
+        "placeId": "ChIJWwJz_uZYwokRBVV6FyZ_Kgs",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Go Noodle",
+        "locationConfidence": 1.9336677,
+        "calibratedProbability": 2.2974834
+      }, {
+        "latitudeE7": 407588680,
+        "longitudeE7": -739628680,
+        "placeId": "ChIJNT544-ZYwokRlcl-TrbwJIs",
+        "address": "1059 1st Ave. #2, New York, NY 10022, USA",
+        "name": "American First Liquors",
+        "locationConfidence": 0.81931514,
+        "calibratedProbability": 0.9734677
+      }, {
+        "latitudeE7": 407592580,
+        "longitudeE7": -739625770,
+        "placeId": "ChIJf9_P_eZYwokRWpnhxQWFGjs",
+        "address": "1067 1st Ave., New York, NY 10022, USA",
+        "name": "Eddy\u0027s Laundry \u0026 Dry Cleaners",
+        "locationConfidence": 0.5935239,
+        "calibratedProbability": 0.7051943
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2021-12-27T04:56:15.733Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+            "address": "1063 1st Ave., New York, NY 10022, USA",
+            "locationConfidence": 48.29922
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_LOCATION"],
+            "uiConfiguration": {
+              "uiPlaceVisitConfiguration": "YES_NO_OTHER_PLACE_VISIT"
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "locationConfidence": 48.29922
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+                "address": "407 E 59th St, New York, NY 10022, USA",
+                "name": "T.J. Maxx",
+                "locationConfidence": 7.399282
+              }
+            }]
+          }
+        }
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        },
+        "locationConfidence": 80.351006,
+        "calibratedProbability": 80.21353
+      },
+      "duration": {
+        "startTimestamp": "2021-12-26T11:57:14.999Z",
+        "endTimestamp": "2021-12-26T18:59:18.292Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407713600,
+      "centerLngE7": -739557600,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 1.6580576,
+        "calibratedProbability": 1.6552207
+      }, {
+        "latitudeE7": 407711791,
+        "longitudeE7": -739554448,
+        "placeId": "ChIJHwhfYb9YwokRyxep79xZIRQ",
+        "address": "341 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.0440476,
+        "calibratedProbability": 1.0422614
+      }, {
+        "latitudeE7": 407710870,
+        "longitudeE7": -739569350,
+        "placeId": "ChIJT63qgL9YwokR41WR0Lfv2dA",
+        "address": "1449 2nd Ave, New York, NY 10021, USA",
+        "name": "Starbucks",
+        "locationConfidence": 0.6836409,
+        "calibratedProbability": 0.6824712
+      }, {
+        "latitudeE7": 407719300,
+        "longitudeE7": -739564792,
+        "placeId": "ChIJ59aSdr9YwokRMEgy7blTM6o",
+        "address": "1475 2nd Ave, New York, NY 10075, USA",
+        "name": "Pick a Bagel",
+        "locationConfidence": 0.5595221,
+        "calibratedProbability": 0.5585648
+      }, {
+        "latitudeE7": 407715096,
+        "longitudeE7": -739560730,
+        "placeId": "ChIJYwAAe79YwokRAzRYCHUFTJY",
+        "address": "1460 2nd Ave, New York, NY 10075, USA",
+        "name": "Boqueria UES",
+        "locationConfidence": 0.453239,
+        "calibratedProbability": 0.45246354
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 65,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407713402,
+        "longitudeE7": -739557705,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407591507,
+        "longitudeE7": -739627534,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-26T18:59:18.292Z",
+        "endTimestamp": "2021-12-26T19:32:16.256Z"
+      },
+      "distance": 1477,
+      "activityType": "SKATEBOARDING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "SKATEBOARDING",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "lastEditedTimestamp": "2021-12-27T04:55:47.362Z",
+      "editActionMetadata": {
+        "activitySegment": {
+          "activityType": "WALKING",
+          "activityConfidence": 38.939109444618225
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_ACTIVITY_TYPE"],
+            "uiConfiguration": {
+            }
+          }]
+        }
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2021-12-26T19:32:16.256Z",
+        "endTimestamp": "2021-12-27T02:17:30.536Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        },
+        "locationConfidence": 54.727055,
+        "calibratedProbability": 43.37769
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 6.893293,
+        "calibratedProbability": 5.4637537
+      }, {
+        "latitudeE7": 407592805,
+        "longitudeE7": -739624065,
+        "placeId": "ChIJWwJz_uZYwokRgxB92TUmZuI",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Pa Pa",
+        "locationConfidence": 3.2414231,
+        "calibratedProbability": 2.569213
+      }, {
+        "latitudeE7": 407593854,
+        "longitudeE7": -739624809,
+        "placeId": "ChIJaX47_uZYwokRcfER-X1DZeY",
+        "address": "1071 1st Ave., New York, NY 10022, USA",
+        "name": "Adyar Ananda Bhavan",
+        "locationConfidence": 3.2246246,
+        "calibratedProbability": 2.555898
+      }, {
+        "latitudeE7": 407593052,
+        "longitudeE7": -739625016,
+        "placeId": "ChIJWwJz_uZYwokRBVV6FyZ_Kgs",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Go Noodle",
+        "locationConfidence": 1.5519017,
+        "calibratedProbability": 1.2300664
+      }, {
+        "latitudeE7": 407588680,
+        "longitudeE7": -739628680,
+        "placeId": "ChIJNT544-ZYwokRlcl-TrbwJIs",
+        "address": "1059 1st Ave. #2, New York, NY 10022, USA",
+        "name": "American First Liquors",
+        "locationConfidence": 1.3062979,
+        "calibratedProbability": 1.0353962
+      }, {
+        "latitudeE7": 407585186,
+        "longitudeE7": -739625004,
+        "placeId": "ChIJc1Ej4eZYwokRR3XJxxWkUPg",
+        "address": "1052-1055 1st Ave., New York, NY 10022, USA",
+        "name": "Duane Reade",
+        "locationConfidence": 0.9586177,
+        "calibratedProbability": 0.7598184
+      }, {
+        "latitudeE7": 407592090,
+        "longitudeE7": -739626394,
+        "placeId": "ChIJfZxU9LxZwokRSgBtU-JkoDc",
+        "address": "1065 1st Ave., New York, NY 10022, USA",
+        "name": "MC Bar",
+        "locationConfidence": 0.7306864,
+        "calibratedProbability": 0.5791558
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2021-12-27T04:55:36.299Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+            "address": "1063 1st Ave., New York, NY 10022, USA",
+            "locationConfidence": 54.727055
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_LOCATION"],
+            "uiConfiguration": {
+              "uiPlaceVisitConfiguration": "YES_NO_OTHER_PLACE_VISIT"
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "locationConfidence": 54.727055
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "name": "Au Za\u0027atar - Midtown East",
+                "locationConfidence": 18.64638
+              }
+            }]
+          }
+        }
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407590470,
+        "longitudeE7": -739626854,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407711363,
+        "longitudeE7": -739558841,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-27T02:17:30.536Z",
+        "endTimestamp": "2021-12-27T02:21:34.656Z"
+      },
+      "distance": 1488,
+      "activityType": "SKATEBOARDING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "SKATEBOARDING",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407670382,
+          "lngE7": -739565169,
+          "accuracyMeters": 32,
+          "timestamp": "2021-12-27T02:20:33.468Z"
+        }],
+        "source": "RESNAPPED_FOR_EDIT",
+        "distanceMeters": 1488.1028465780423
+      },
+      "editConfirmationStatus": "CONFIRMED",
+      "lastEditedTimestamp": "2021-12-27T04:55:41.070Z",
+      "editActionMetadata": {
+        "activitySegment": {
+          "activityType": "CYCLING",
+          "activityConfidence": 62.25358843803406
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_ACTIVITY_TYPE"],
+            "uiConfiguration": {
+            }
+          }]
+        }
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        },
+        "locationConfidence": 83.01891,
+        "calibratedProbability": 70.90799
+      },
+      "duration": {
+        "startTimestamp": "2021-12-27T02:21:34.656Z",
+        "endTimestamp": "2021-12-28T19:12:11.311Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407712500,
+      "centerLngE7": -739559900,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 7.7822266,
+        "calibratedProbability": 6.646944
+      }, {
+        "latitudeE7": 407712079,
+        "longitudeE7": -739556369,
+        "placeId": "ChIJhyonXc1ZwokRYJti4YQ6zNk",
+        "address": "311 E 76th St, New York, NY 10021, USA",
+        "name": "Sin City Burger",
+        "locationConfidence": 0.8254787,
+        "calibratedProbability": 0.70505667
+      }, {
+        "latitudeE7": 407715096,
+        "longitudeE7": -739560730,
+        "placeId": "ChIJYwAAe79YwokRAzRYCHUFTJY",
+        "address": "1460 2nd Ave, New York, NY 10075, USA",
+        "name": "Boqueria UES",
+        "locationConfidence": 0.6914183,
+        "calibratedProbability": 0.59055316
+      }, {
+        "latitudeE7": 407711111,
+        "longitudeE7": -739563889,
+        "placeId": "ChIJx40Yfr9YwokRAipeh3042ds",
+        "address": "1452 2nd Ave, New York, NY 10021, USA",
+        "name": "Iggy\u0027s",
+        "locationConfidence": 0.36490422,
+        "calibratedProbability": 0.31167147
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 68,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407712228,
+        "longitudeE7": -739558615,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407592815,
+        "longitudeE7": -739623758,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-28T19:12:11.311Z",
+        "endTimestamp": "2021-12-28T19:16:22.823Z"
+      },
+      "distance": 1452,
+      "activityType": "SKATEBOARDING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "SKATEBOARDING",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407677423,
+          "lngE7": -739590610,
+          "accuracyMeters": 22,
+          "timestamp": "2021-12-28T19:13:15.211Z"
+        }],
+        "source": "RESNAPPED_FOR_EDIT",
+        "distanceMeters": 1452.9161908273538
+      },
+      "editConfirmationStatus": "CONFIRMED",
+      "lastEditedTimestamp": "2021-12-29T05:50:23.653Z",
+      "editActionMetadata": {
+        "activitySegment": {
+          "activityType": "CYCLING",
+          "activityConfidence": 53.10393571853638
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_ACTIVITY_TYPE"],
+            "uiConfiguration": {
+            }
+          }]
+        }
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2021-12-28T19:16:22.823Z",
+        "endTimestamp": "2021-12-29T02:40:34.129Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        },
+        "locationConfidence": 64.181526,
+        "calibratedProbability": 41.23778
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 9.037299,
+        "calibratedProbability": 5.8066273
+      }, {
+        "latitudeE7": 407593854,
+        "longitudeE7": -739624809,
+        "placeId": "ChIJaX47_uZYwokRcfER-X1DZeY",
+        "address": "1071 1st Ave., New York, NY 10022, USA",
+        "name": "Adyar Ananda Bhavan",
+        "locationConfidence": 6.50585,
+        "calibratedProbability": 4.180125
+      }, {
+        "latitudeE7": 407593052,
+        "longitudeE7": -739625016,
+        "placeId": "ChIJWwJz_uZYwokRBVV6FyZ_Kgs",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Go Noodle",
+        "locationConfidence": 5.353979,
+        "calibratedProbability": 3.4400277
+      }, {
+        "latitudeE7": 407592805,
+        "longitudeE7": -739624065,
+        "placeId": "ChIJWwJz_uZYwokRgxB92TUmZuI",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Pa Pa",
+        "locationConfidence": 4.371084,
+        "calibratedProbability": 2.8085003
+      }, {
+        "latitudeE7": 407596400,
+        "longitudeE7": -739623098,
+        "placeId": "ChIJEz2TqudYwokRony5hk_P4bA",
+        "address": "1079 1st Ave., New York, NY 10022, USA",
+        "name": "Under The Bridge",
+        "locationConfidence": 1.6071141,
+        "calibratedProbability": 1.0325997
+      }, {
+        "latitudeE7": 407588867,
+        "longitudeE7": -739619189,
+        "placeId": "ChIJHdIQBedYwokRgSk8PYGdkPI",
+        "address": "405 E 58th St, New York, NY 10022, USA",
+        "name": "Bistro Vendôme",
+        "locationConfidence": 1.4203014,
+        "calibratedProbability": 0.9125692
+      }, {
+        "latitudeE7": 407590498,
+        "longitudeE7": -739621228,
+        "placeId": "ChIJV-aHBOdYwokRN7HhLdf7kqU",
+        "address": "1070 1st Ave., New York, NY 10022, USA",
+        "name": "Pink Moose",
+        "locationConfidence": 0.95252556,
+        "calibratedProbability": 0.6120148
+      }, {
+        "latitudeE7": 407594111,
+        "longitudeE7": -739618822,
+        "placeId": "ChIJodWAtPdZwokRCxD1pGBk4is",
+        "address": "1078 1st Ave., New York, NY 10022, USA",
+        "name": "Coco Pazzeria",
+        "locationConfidence": 0.913043,
+        "calibratedProbability": 0.58664656
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2021-12-29T05:50:28.837Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+            "address": "1063 1st Ave., New York, NY 10022, USA",
+            "locationConfidence": 64.181526
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_LOCATION"],
+            "uiConfiguration": {
+              "uiPlaceVisitConfiguration": "YES_NO_OTHER_PLACE_VISIT"
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "locationConfidence": 64.181526
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+                "address": "407 E 59th St, New York, NY 10022, USA",
+                "name": "T.J. Maxx",
+                "locationConfidence": 9.037299
+              }
+            }]
+          }
+        }
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407590587,
+        "longitudeE7": -739626251,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407706436,
+        "longitudeE7": -739546186,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-29T02:40:34.129Z",
+        "endTimestamp": "2021-12-29T02:45:35Z"
+      },
+      "distance": 1455,
+      "activityType": "SKATEBOARDING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "SKATEBOARDING",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "lastEditedTimestamp": "2021-12-29T05:50:33.020Z",
+      "editActionMetadata": {
+        "activitySegment": {
+          "activityType": "CYCLING",
+          "activityConfidence": 60.76195240020752
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_ACTIVITY_TYPE"],
+            "uiConfiguration": {
+            }
+          }]
+        }
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        },
+        "locationConfidence": 83.978745,
+        "calibratedProbability": 69.30332
+      },
+      "duration": {
+        "startTimestamp": "2021-12-29T02:45:35Z",
+        "endTimestamp": "2021-12-29T19:07:41.139Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407710375,
+      "centerLngE7": -739555575,
+      "visitConfidence": 83,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 5.046515,
+        "calibratedProbability": 4.164628
+      }, {
+        "latitudeE7": 407712079,
+        "longitudeE7": -739556369,
+        "placeId": "ChIJhyonXc1ZwokRYJti4YQ6zNk",
+        "address": "311 E 76th St, New York, NY 10021, USA",
+        "name": "Sin City Burger",
+        "locationConfidence": 0.5092607,
+        "calibratedProbability": 0.42026657
+      }, {
+        "latitudeE7": 407709059,
+        "longitudeE7": -739540870,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.4788839,
+        "calibratedProbability": 0.39519814
+      }, {
+        "latitudeE7": 407711111,
+        "longitudeE7": -739563889,
+        "placeId": "ChIJx40Yfr9YwokRAipeh3042ds",
+        "address": "1452 2nd Ave, New York, NY 10021, USA",
+        "name": "Iggy\u0027s",
+        "locationConfidence": 0.28509572,
+        "calibratedProbability": 0.23527478
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 68,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407712048,
+        "longitudeE7": -739558768,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407596231,
+        "longitudeE7": -739622245,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-29T19:07:41.139Z",
+        "endTimestamp": "2021-12-29T19:11:49.930Z"
+      },
+      "distance": 1414,
+      "activityType": "CYCLING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 46.64320349693298
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 30.339813232421875
+      }, {
+        "activityType": "STILL",
+        "probability": 12.91082352399826
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.902072250843048
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 3.0567411333322525
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.8729605004191399
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.6511876825243235
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.1909667393192649
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.1253851572982967
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.11765885865315795
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.08006501593627036
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.06233541062101722
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.023502609110437334
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.023269375378731638
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 1.5339182368734328E-5
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407675550,
+          "lngE7": -739593291,
+          "accuracyMeters": 35,
+          "timestamp": "2021-12-29T19:09:08.984Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 1414.3060665148
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2021-12-29T19:11:49.930Z",
+        "endTimestamp": "2021-12-30T03:23:21.618Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        },
+        "locationConfidence": 53.395508,
+        "calibratedProbability": 36.387314
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 8.837988,
+        "calibratedProbability": 6.022803
+      }, {
+        "latitudeE7": 407605117,
+        "longitudeE7": -739616478,
+        "placeId": "ChIJm1ijuedYwokRdF5C0nIuNZ0",
+        "address": "1099 1st Ave., New York, NY 10065, USA",
+        "name": "Luscious Thai",
+        "locationConfidence": 6.23932,
+        "calibratedProbability": 4.2518945
+      }, {
+        "latitudeE7": 407593854,
+        "longitudeE7": -739624809,
+        "placeId": "ChIJaX47_uZYwokRcfER-X1DZeY",
+        "address": "1071 1st Ave., New York, NY 10022, USA",
+        "name": "Adyar Ananda Bhavan",
+        "locationConfidence": 3.1435847,
+        "calibratedProbability": 2.1422513
+      }, {
+        "latitudeE7": 407603622,
+        "longitudeE7": -739608420,
+        "placeId": "ChIJCUFnlOdYwokRMadzL6i_dDA",
+        "address": "401 E 60th St, New York, NY 10022, USA",
+        "name": "Bridge Tower Place",
+        "locationConfidence": 2.3419662,
+        "calibratedProbability": 1.5959742
+      }, {
+        "latitudeE7": 407608395,
+        "longitudeE7": -739613094,
+        "placeId": "ChIJSy3qxudYwokRH7p488n9S44",
+        "address": "1111 1st Ave., New York, NY 10065, USA",
+        "name": "Daily Bagel",
+        "locationConfidence": 1.9193997,
+        "calibratedProbability": 1.3080089
+      }, {
+        "latitudeE7": 407608679,
+        "longitudeE7": -739606539,
+        "placeId": "ChIJl1fi6-dYwokRJBaJ8jJUELE",
+        "address": "1114 1st Ave., New York, NY 10065, USA",
+        "name": "Parking garage",
+        "locationConfidence": 1.9002006,
+        "calibratedProbability": 1.2949252
+      }, {
+        "latitudeE7": 407607044,
+        "longitudeE7": -739614141,
+        "placeId": "ChIJSy-nuOdYwokRiobr0i0mYaE",
+        "address": "1107 1st Ave. Front 1, New York, NY 10065, USA",
+        "name": "K \u0026 B Convenience Store",
+        "locationConfidence": 1.8653356,
+        "calibratedProbability": 1.2711658
+      }, {
+        "latitudeE7": 407596400,
+        "longitudeE7": -739623098,
+        "placeId": "ChIJEz2TqudYwokRony5hk_P4bA",
+        "address": "1079 1st Ave., New York, NY 10022, USA",
+        "name": "Under The Bridge",
+        "locationConfidence": 1.7202731,
+        "calibratedProbability": 1.1723105
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2022-01-02T06:05:04.502Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+            "address": "1063 1st Ave., New York, NY 10022, USA",
+            "locationConfidence": 53.395508
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_LOCATION"],
+            "uiConfiguration": {
+              "uiPlaceVisitConfiguration": "YES_NO_OTHER_PLACE_VISIT"
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "locationConfidence": 53.395508
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+                "address": "407 E 59th St, New York, NY 10022, USA",
+                "name": "T.J. Maxx",
+                "locationConfidence": 8.837988
+              }
+            }]
+          }
+        }
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407605707,
+        "longitudeE7": -739613755,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407710758,
+        "longitudeE7": -739557200,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-30T03:23:21.618Z",
+        "endTimestamp": "2021-12-30T03:27:49.374Z"
+      },
+      "distance": 1666,
+      "activityType": "SKATEBOARDING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "SKATEBOARDING",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407590861,
+          "lngE7": -739626823,
+          "accuracyMeters": 27,
+          "timestamp": "2021-12-30T03:24:00.166Z"
+        }, {
+          "latE7": 407654543,
+          "lngE7": -739578100,
+          "accuracyMeters": 25,
+          "timestamp": "2021-12-30T03:25:56.066Z"
+        }],
+        "source": "RESNAPPED_FOR_EDIT",
+        "distanceMeters": 1666.7377246597594
+      },
+      "editConfirmationStatus": "CONFIRMED",
+      "lastEditedTimestamp": "2022-01-02T06:05:07.314Z",
+      "editActionMetadata": {
+        "activitySegment": {
+          "activityType": "CYCLING",
+          "activityConfidence": 48.85033071041107
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_ACTIVITY_TYPE"],
+            "uiConfiguration": {
+            }
+          }]
+        }
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        },
+        "locationConfidence": 83.83283,
+        "calibratedProbability": 69.95585
+      },
+      "duration": {
+        "startTimestamp": "2021-12-30T03:27:49.374Z",
+        "endTimestamp": "2021-12-30T19:09:30.397Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407710300,
+      "centerLngE7": -739556325,
+      "visitConfidence": 85,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 4.0611496,
+        "calibratedProbability": 3.3889012
+      }, {
+        "latitudeE7": 407711791,
+        "longitudeE7": -739554448,
+        "placeId": "ChIJHwhfYb9YwokRyxep79xZIRQ",
+        "address": "341 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.0183954,
+        "calibratedProbability": 0.8498189
+      }, {
+        "latitudeE7": 407721927,
+        "longitudeE7": -739578382,
+        "placeId": "ChIJM0Jzk79YwokRjpa37fX88o0",
+        "address": "215 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.79535496,
+        "calibratedProbability": 0.6636986
+      }, {
+        "latitudeE7": 407712079,
+        "longitudeE7": -739556369,
+        "placeId": "ChIJhyonXc1ZwokRYJti4YQ6zNk",
+        "address": "311 E 76th St, New York, NY 10021, USA",
+        "name": "Sin City Burger",
+        "locationConfidence": 0.7053165,
+        "calibratedProbability": 0.58856434
+      }, {
+        "latitudeE7": 407711111,
+        "longitudeE7": -739563889,
+        "placeId": "ChIJx40Yfr9YwokRAipeh3042ds",
+        "address": "1452 2nd Ave, New York, NY 10021, USA",
+        "name": "Iggy\u0027s",
+        "locationConfidence": 0.48420563,
+        "calibratedProbability": 0.4040543
+      }, {
+        "latitudeE7": 407709059,
+        "longitudeE7": -739540870,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.46247813,
+        "calibratedProbability": 0.38592342
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 68,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407712024,
+        "longitudeE7": -739558789,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407590925,
+        "longitudeE7": -739626302,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-30T19:09:30.397Z",
+        "endTimestamp": "2021-12-30T19:15:44.291Z"
+      },
+      "distance": 2152,
+      "activityType": "SKATEBOARDING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "SKATEBOARDING",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407664075,
+          "lngE7": -739602145,
+          "accuracyMeters": 35,
+          "timestamp": "2021-12-30T19:11:54.526Z"
+        }, {
+          "latE7": 407631002,
+          "lngE7": -739624491,
+          "accuracyMeters": 35,
+          "timestamp": "2021-12-30T19:14:05.795Z"
+        }],
+        "source": "RESNAPPED_FOR_EDIT",
+        "distanceMeters": 1505.2139584986194
+      },
+      "editConfirmationStatus": "CONFIRMED",
+      "lastEditedTimestamp": "2022-01-02T06:04:55.654Z",
+      "editActionMetadata": {
+        "activitySegment": {
+          "activityType": "CYCLING",
+          "activityConfidence": 35.29582619667053
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_ACTIVITY_TYPE"],
+            "uiConfiguration": {
+            }
+          }]
+        }
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2021-12-30T19:15:44.291Z",
+        "endTimestamp": "2021-12-31T02:52:40.284Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        },
+        "locationConfidence": 66.856026,
+        "calibratedProbability": 68.993065
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 2.1072288,
+        "calibratedProbability": 2.1745858
+      }, {
+        "latitudeE7": 407593854,
+        "longitudeE7": -739624809,
+        "placeId": "ChIJaX47_uZYwokRcfER-X1DZeY",
+        "address": "1071 1st Ave., New York, NY 10022, USA",
+        "name": "Adyar Ananda Bhavan",
+        "locationConfidence": 1.445335,
+        "calibratedProbability": 1.4915348
+      }, {
+        "latitudeE7": 407588680,
+        "longitudeE7": -739628680,
+        "placeId": "ChIJNT544-ZYwokRlcl-TrbwJIs",
+        "address": "1059 1st Ave. #2, New York, NY 10022, USA",
+        "name": "American First Liquors",
+        "locationConfidence": 1.3574202,
+        "calibratedProbability": 1.4008099
+      }, {
+        "latitudeE7": 407592805,
+        "longitudeE7": -739624065,
+        "placeId": "ChIJWwJz_uZYwokRgxB92TUmZuI",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Pa Pa",
+        "locationConfidence": 1.1455318,
+        "calibratedProbability": 1.1821485
+      }, {
+        "latitudeE7": 407593052,
+        "longitudeE7": -739625016,
+        "placeId": "ChIJWwJz_uZYwokRBVV6FyZ_Kgs",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Go Noodle",
+        "locationConfidence": 0.8344774,
+        "calibratedProbability": 0.86115134
+      }, {
+        "latitudeE7": 407592580,
+        "longitudeE7": -739625770,
+        "placeId": "ChIJf9_P_eZYwokRWpnhxQWFGjs",
+        "address": "1067 1st Ave., New York, NY 10022, USA",
+        "name": "Eddy\u0027s Laundry \u0026 Dry Cleaners",
+        "locationConfidence": 0.78156793,
+        "calibratedProbability": 0.80655056
+      }, {
+        "latitudeE7": 407590498,
+        "longitudeE7": -739621228,
+        "placeId": "ChIJV-aHBOdYwokRN7HhLdf7kqU",
+        "address": "1070 1st Ave., New York, NY 10022, USA",
+        "name": "Pink Moose",
+        "locationConfidence": 0.7323574,
+        "calibratedProbability": 0.75576705
+      }, {
+        "latitudeE7": 407585186,
+        "longitudeE7": -739625004,
+        "placeId": "ChIJc1Ej4eZYwokRR3XJxxWkUPg",
+        "address": "1052-1055 1st Ave., New York, NY 10022, USA",
+        "name": "Duane Reade",
+        "locationConfidence": 0.5660537,
+        "calibratedProbability": 0.58414745
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2022-01-02T06:04:46.657Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+            "address": "1063 1st Ave., New York, NY 10022, USA",
+            "locationConfidence": 66.856026
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_LOCATION"],
+            "uiConfiguration": {
+              "uiPlaceVisitConfiguration": "YES_NO_OTHER_PLACE_VISIT"
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "locationConfidence": 66.856026
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "name": "Au Za\u0027atar - Midtown East",
+                "locationConfidence": 3.6051772
+              }
+            }]
+          }
+        }
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407590675,
+        "longitudeE7": -739626500,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407711424,
+        "longitudeE7": -739558216,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-31T02:52:40.284Z",
+        "endTimestamp": "2021-12-31T02:59:24.217Z"
+      },
+      "distance": 1494,
+      "activityType": "SKATEBOARDING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "SKATEBOARDING",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407677386,
+          "lngE7": -739559785,
+          "accuracyMeters": 22,
+          "timestamp": "2021-12-31T02:57:56.262Z"
+        }],
+        "source": "RESNAPPED_FOR_EDIT",
+        "distanceMeters": 1494.6718992663607
+      },
+      "editConfirmationStatus": "CONFIRMED",
+      "lastEditedTimestamp": "2022-01-02T06:04:49.383Z",
+      "editActionMetadata": {
+        "activitySegment": {
+          "activityType": "CYCLING",
+          "activityConfidence": 61.115074157714844
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_ACTIVITY_TYPE"],
+            "uiConfiguration": {
+            }
+          }]
+        }
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        },
+        "locationConfidence": 89.531624,
+        "calibratedProbability": 65.753395
+      },
+      "duration": {
+        "startTimestamp": "2021-12-31T17:37:10.933Z",
+        "endTimestamp": "2021-12-31T19:08:09.237Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407712250,
+      "centerLngE7": -739558450,
+      "visitConfidence": 74,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407712079,
+        "longitudeE7": -739556369,
+        "placeId": "ChIJhyonXc1ZwokRYJti4YQ6zNk",
+        "address": "311 E 76th St, New York, NY 10021, USA",
+        "name": "Sin City Burger",
+        "locationConfidence": 2.0722237,
+        "calibratedProbability": 1.5218728
+      }, {
+        "latitudeE7": 407711833,
+        "longitudeE7": -739562997,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 1.8983554,
+        "calibratedProbability": 1.3941813
+      }, {
+        "latitudeE7": 407715096,
+        "longitudeE7": -739560730,
+        "placeId": "ChIJYwAAe79YwokRAzRYCHUFTJY",
+        "address": "1460 2nd Ave, New York, NY 10075, USA",
+        "name": "Boqueria UES",
+        "locationConfidence": 0.62113863,
+        "calibratedProbability": 0.45617372
+      }, {
+        "latitudeE7": 407717488,
+        "longitudeE7": -739559393,
+        "placeId": "ChIJLZJqcb9YwokRWrUSUoUAUqA",
+        "address": "1470 2nd Ave, New York, NY 10075, USA",
+        "name": "TD Bank",
+        "locationConfidence": 0.5578514,
+        "calibratedProbability": 0.40969458
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 75,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407712429,
+        "longitudeE7": -739558416,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407592750,
+        "longitudeE7": -739625401,
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        }
+      },
+      "duration": {
+        "startTimestamp": "2021-12-31T19:08:09.237Z",
+        "endTimestamp": "2021-12-31T19:11:41.846Z"
+      },
+      "distance": 1465,
+      "activityType": "SKATEBOARDING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "SKATEBOARDING",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 407699294,
+          "lngE7": -739576421,
+          "accuracyMeters": 20,
+          "timestamp": "2021-12-31T19:08:44.496Z"
+        }],
+        "source": "RESNAPPED_FOR_EDIT",
+        "distanceMeters": 1465.0044278290873
+      },
+      "editConfirmationStatus": "CONFIRMED",
+      "lastEditedTimestamp": "2022-01-02T06:04:40.234Z",
+      "editActionMetadata": {
+        "activitySegment": {
+          "activityType": "CYCLING",
+          "activityConfidence": 52.480530738830566
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_ACTIVITY_TYPE"],
+            "uiConfiguration": {
+            }
+          }]
+        }
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJvVBJx45ZwokROqLKcQlndPM",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "name": "Au Za\u0027atar - Midtown East",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 100.0,
+        "calibratedProbability": 100.0
+      },
+      "duration": {
+        "startTimestamp": "2021-12-31T19:11:41.846Z",
+        "endTimestamp": "2022-01-01T02:29:51.785Z"
+      },
+      "placeConfidence": "USER_CONFIRMED",
+      "visitConfidence": 100,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407589866,
+        "longitudeE7": -739627516,
+        "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+        "address": "1063 1st Ave., New York, NY 10022, USA",
+        "sourceInfo": {
+          "deviceTag": -2081738332
+        },
+        "locationConfidence": 67.93766,
+        "calibratedProbability": 59.472424
+      }, {
+        "latitudeE7": 407593854,
+        "longitudeE7": -739624809,
+        "placeId": "ChIJaX47_uZYwokRcfER-X1DZeY",
+        "address": "1071 1st Ave., New York, NY 10022, USA",
+        "name": "Adyar Ananda Bhavan",
+        "locationConfidence": 3.284841,
+        "calibratedProbability": 2.87554
+      }, {
+        "latitudeE7": 407592805,
+        "longitudeE7": -739624065,
+        "placeId": "ChIJWwJz_uZYwokRgxB92TUmZuI",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Pa Pa",
+        "locationConfidence": 2.9583507,
+        "calibratedProbability": 2.5897312
+      }, {
+        "latitudeE7": 407593052,
+        "longitudeE7": -739625016,
+        "placeId": "ChIJWwJz_uZYwokRBVV6FyZ_Kgs",
+        "address": "1069 1st Ave., New York, NY 10022, USA",
+        "name": "Go Noodle",
+        "locationConfidence": 2.181814,
+        "calibratedProbability": 1.9099534
+      }, {
+        "latitudeE7": 407595404,
+        "longitudeE7": -739613510,
+        "placeId": "ChIJ6envdOdYwokRdtx7GTWRvz0",
+        "address": "407 E 59th St, New York, NY 10022, USA",
+        "name": "T.J. Maxx",
+        "locationConfidence": 1.7584158,
+        "calibratedProbability": 1.5393119
+      }, {
+        "latitudeE7": 407592580,
+        "longitudeE7": -739625770,
+        "placeId": "ChIJf9_P_eZYwokRWpnhxQWFGjs",
+        "address": "1067 1st Ave., New York, NY 10022, USA",
+        "name": "Eddy\u0027s Laundry \u0026 Dry Cleaners",
+        "locationConfidence": 0.5840717,
+        "calibratedProbability": 0.5112946
+      }, {
+        "latitudeE7": 407588680,
+        "longitudeE7": -739628680,
+        "placeId": "ChIJNT544-ZYwokRlcl-TrbwJIs",
+        "address": "1059 1st Ave. #2, New York, NY 10022, USA",
+        "name": "American First Liquors",
+        "locationConfidence": 0.569777,
+        "calibratedProbability": 0.49878109
+      }, {
+        "latitudeE7": 407590498,
+        "longitudeE7": -739621228,
+        "placeId": "ChIJV-aHBOdYwokRN7HhLdf7kqU",
+        "address": "1070 1st Ave., New York, NY 10022, USA",
+        "name": "Pink Moose",
+        "locationConfidence": 0.533483,
+        "calibratedProbability": 0.46700943
+      }, {
+        "latitudeE7": 407591723,
+        "longitudeE7": -739620025,
+        "placeId": "ChIJFTW1AOdYwokRxcn0wNMDjuA",
+        "address": "1074 1st Ave., New York, NY 10022, USA",
+        "name": "Sutton Bar Room",
+        "locationConfidence": 0.48232776,
+        "calibratedProbability": 0.42222825
+      }],
+      "editConfirmationStatus": "CONFIRMED",
+      "locationConfidence": 100,
+      "placeVisitType": "SINGLE_PLACE",
+      "locationAssertionType": "WITHIN_OR_AT",
+      "lastEditedTimestamp": "2022-01-02T06:04:30.067Z",
+      "placeVisitImportance": "MAIN",
+      "editActionMetadata": {
+        "placeVisitSegment": {
+          "location": {
+            "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+            "address": "1063 1st Ave., New York, NY 10022, USA",
+            "locationConfidence": 67.93766
+          }
+        },
+        "editHistory": {
+          "editEvent": [{
+            "editOperation": ["MODIFY_LOCATION"],
+            "uiConfiguration": {
+              "uiPlaceVisitConfiguration": "YES_NO_OTHER_PLACE_VISIT"
+            }
+          }]
+        },
+        "originalCandidates": {
+          "placeVisitSegment": {
+            "placeVisitCandidate": [{
+              "location": {
+                "placeId": "ChIJadlW4-ZYwokRLs_ZbYH3TY0",
+                "address": "1063 1st Ave., New York, NY 10022, USA",
+                "locationConfidence": 67.93766
+              }
+            }, {
+              "location": {
+                "placeId": "ChIJaX47_uZYwokRcfER-X1DZeY",
+                "address": "1071 1st Ave., New York, NY 10022, USA",
+                "name": "Adyar Ananda Bhavan",
+                "locationConfidence": 3.284841
+              }
+            }]
+          }
+        }
+      }
+    }
+  }]
+}

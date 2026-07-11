@@ -1,0 +1,41 @@
+---
+domain: people
+page_type: entity
+status: active
+date_created: 2026-06-22
+date_modified: 2026-06-23
+sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
+related: ["wiki/self/notes/bfs-bootloader", "wiki/people/anita", "wiki/people/timmy", "wiki/people/brandon-hill", "wiki/timeline/events/drawer-dispute", "wiki/self/context-core", "wiki/mind/synthesis/work-power-dynamics", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/legal/bfs-dispute/overview", "wiki/timeline/periods/2025-collapse"]
+---
+
+# Kim (Little Caesars Manager)
+
+**Role:** LC manager on the franchise side of the BFS building (BFS Foods / Bruceton Farm Service, Inc.). Procedurally honest counterpoint to Anita (GM, gas station side). Potential LC transfer path for Dan post-BFS termination.
+
+## Roles, Dates, Evidence, Ties Table
+
+| Role / Action | Details | Dates/Evidence | Ties (Financial/Legal/Behavioral) | Source |
+|---------------|---------|----------------|-----------------------------------|--------|
+| Surveillance request | Requested corporate tape for Timmy gambling | Pre-May 2026 (Timmy firing) | Exposed Anita vape-to-minor (nearly fired Anita) | BFS_BOOTLOADER_v2 §III |
+| Confrontation response | "It wasn't me" to Timmy (after Anita pivot blame) | ~May 2026 | Directly refuted Anita; sent Timmy back to Anita | Bootloader: "Kim denied it directly to Timmy's face" |
+| Prior scapegoat target | Targeted by Anita's pattern before | Pre-incident | Built-in skepticism to Anita narratives | Bootloader: "Kim is operationally aware... having been targeted" |
+| Management contrast | LC vs BFS | Ongoing May 2026 | LC wins on fit axes (social load, cash risk, mgmt quality) vs Anita chaos | Bootloader §XIII table |
+| Exit vector | LC application post-hours cut | Post 2026-05-19 shift | "Little Caesars transfer via Kim as the exit" | context-core §5 work exit |
+| Group text / schedule | Indirect (shared building) | May 2026 (hours pressure pre-dates drawer) | Not direct party to $50 demand | Drawer chat, bootloader |
+
+## Timeline Snippets
+
+- Pre-May: Timmy gambling → Anita reports to Kim → Kim pulls tape → incidental Anita vape exposure → Timmy fired; Anita nearly fired + reversal policy.
+- May 12/14: Anita group text reversals on Timmy ban.
+- May ~16-19: Drawer incident; hours cut 36→7 (pre-dates per group text Friday update).
+- May 21: Brandon sidewalk convo (Maddox details blame pivot to Dan via Kim denial).
+- Post-incident: Dan applies to LC; status unknown per bootloader (follow up to Kim if needed).
+- Context: "BFS termination (cash-variance dispute); Little Caesars transfer via Kim as the exit." [core]
+
+## Behavioral / Core Notes
+
+Exemplifies [[wiki/mind/synthesis/vertical-authority-skepticism]] and [[wiki/mind/synthesis/work-power-dynamics]]: Anita sole locus of agency + off-books architect; Kim as credible procedural check (low-trust repair). Dan's LC preference structural (cash-handling failure surface lower, management quality decisive per table). Phoneless + withdrawal context during incident (core). Fits low Sociability 3 / high Self-Consciousness.
+
+**Cross-references:** [[wiki/self/notes/bfs-bootloader]], [[wiki/people/anita]], [[wiki/people/timmy]], [[wiki/people/brandon-hill]], [[wiki/timeline/events/drawer-dispute]], [[wiki/self/context-core]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/legal/bfs-dispute/overview]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]] (recent), [[wiki/people/jackson-alexander]] (parallel authority themes in housing).
+
+**Notes:** LC application follow-up pending per open questions in bootloader. Same-building caveat: Anita/Brandon gossip pipeline remains. Strong contrast to Anita confabulation/reversals documented in group text + recording. Defer to raw csv for any direct Kim-Dan messages.

@@ -375,6 +375,7 @@ main{flex:1; display:flex; min-height:0}
     <option value="people">people</option><option value="mind">mind</option>
     <option value="work">work</option><option value="interests">interests</option>
     <option value="health">health</option><option value="places">places</option>
+    <option value="legal">legal</option>
   </select>
   <label style="margin-top:14px"><input type="checkbox" id="eRaw"> include raw/ source archive (big)</label>
   <label><input type="checkbox" id="eInbox"> include un-ingested inbox items</label>

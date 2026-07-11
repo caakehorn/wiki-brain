@@ -1,0 +1,220 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 96.976265,
+        "calibratedProbability": 80.87898
+      },
+      "duration": {
+        "startTimestamp": "2020-07-05T22:03:36.719Z",
+        "endTimestamp": "2020-07-06T00:27:31.033Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407715140,
+      "centerLngE7": -739559520,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407712137,
+        "longitudeE7": -739563685,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 0.99328244,
+        "calibratedProbability": 0.8284055
+      }, {
+        "latitudeE7": 407715881,
+        "longitudeE7": -739560690,
+        "placeId": "ChIJZ_Xreb9YwokRkXcKcSWi8-k",
+        "address": "1462 2nd Ave, Between 76th and, E 77th St, New York, NY 10075, USA",
+        "name": "The Meatball Shop - Upper East Side",
+        "locationConfidence": 0.77061665,
+        "calibratedProbability": 0.6427005,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 407715096,
+        "longitudeE7": -739560730,
+        "placeId": "ChIJYwAAe79YwokRAzRYCHUFTJY",
+        "address": "1460 2nd Ave, New York, NY 10075, USA",
+        "name": "Boqueria UES",
+        "locationConfidence": 0.6029388,
+        "calibratedProbability": 0.5028558
+      }, {
+        "latitudeE7": 407709059,
+        "longitudeE7": -739540870,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.2156094,
+        "calibratedProbability": 0.17981997
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 84,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 407712706,
+        "longitudeE7": -739557121,
+        "placeId": "ChIJaa1_Y79YwokRZCH_0K4hSCg",
+        "address": "307 E 76th St, New York, NY 10021, USA",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        },
+        "locationConfidence": 84.096504,
+        "calibratedProbability": 60.44474
+      },
+      "duration": {
+        "startTimestamp": "2020-07-07T01:18:38.970Z",
+        "endTimestamp": "2020-07-11T22:04:35.582Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 407715200,
+      "centerLngE7": -739567600,
+      "visitConfidence": 84,
+      "otherCandidateLocations": [{
+        "latitudeE7": 407712137,
+        "longitudeE7": -739563685,
+        "placeId": "ChIJZ0kHf79YwokRoyp64RkoMeQ",
+        "address": "1454 2nd Ave, New York, NY 10021, USA",
+        "name": "The Stumble Inn",
+        "locationConfidence": 13.25826,
+        "calibratedProbability": 9.529433
+      }, {
+        "latitudeE7": 407709059,
+        "longitudeE7": -739540870,
+        "placeId": "ChIJh6f1Vr9YwokRfFLjX-COPaI",
+        "address": "1471 1st Ave., New York, NY 10075, USA",
+        "name": "American Trash",
+        "locationConfidence": 0.5434706,
+        "calibratedProbability": 0.39062193
+      }, {
+        "latitudeE7": 407710359,
+        "longitudeE7": -739564936,
+        "placeId": "ChIJqQMTgMBYwokR7HZwBu8zGu4",
+        "address": "1450 2nd Ave, New York, NY 10021, USA",
+        "name": "Mel\u0027s Burger Bar",
+        "locationConfidence": 0.5328601,
+        "calibratedProbability": 0.38299558
+      }, {
+        "latitudeE7": 407718533,
+        "longitudeE7": -739570412,
+        "placeId": "ChIJVVVZm79YwokRjma__5ePrx4",
+        "address": "231 E 76th St, New York, NY 10021, USA",
+        "name": "231 East 76th Street",
+        "locationConfidence": 0.348053,
+        "calibratedProbability": 0.25016466
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 69,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 407712107,
+        "longitudeE7": -739558490,
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 407696492,
+        "longitudeE7": -739548075,
+        "sourceInfo": {
+          "deviceTag": 1300737410
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-07-28T19:14:21.372Z",
+        "endTimestamp": "2020-07-28T19:21:02.213Z"
+      },
+      "distance": 194,
+      "activityType": "WALKING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 43.644893169403076
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 30.283772945404053
+      }, {
+        "activityType": "STILL",
+        "probability": 8.681726455688477
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 6.609033048152924
+      }, {
+        "activityType": "CYCLING",
+        "probability": 4.181550815701485
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 2.2282617166638374
+      }, {
+        "activityType": "RUNNING",
+        "probability": 1.3588560745120049
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 1.2996526435017586
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.7322423625737429
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.6631056312471628
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.13448360841721296
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.08065104484558105
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.0731525884475559
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.022535496100317687
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.006075416604289785
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 407711639,
+          "lngE7": -739558486
+        }, {
+          "latE7": 407700958,
+          "lngE7": -739543914
+        }, {
+          "latE7": 407696228,
+          "lngE7": -739547424
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJv90unsBYwokRxaRb-cnvWE0",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJv90unsBYwokRxKRb-cnvWE0",
+          "duration": "250s"
+        }, {
+          "placeId": "ChIJW6x1sMBYwokRVrojGdW_0lA",
+          "duration": "119s"
+        }],
+        "distanceMeters": 269.6645328473265,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      }
+    }
+  }]
+}
