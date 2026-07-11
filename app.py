@@ -565,10 +565,12 @@ refresh().then(()=>open("index.md"));
 
 
 def main():
+    import os
     server = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
     url = f"http://127.0.0.1:{PORT}"
     print(f"Personal Wiki running at {url}  (Ctrl-C to stop)")
-    threading.Timer(0.6, lambda: webbrowser.open(url)).start()
+    if not os.environ.get("WIKI_APP_EXTERNAL_OPEN"):
+        threading.Timer(0.6, lambda: webbrowser.open(url)).start()
     try:
         server.serve_forever()
     except KeyboardInterrupt:
