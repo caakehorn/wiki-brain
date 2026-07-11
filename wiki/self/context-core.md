@@ -1,217 +1,155 @@
 ---
 domain: self
 page_type: synthesis
-status: archived
+title: "Context Core"
+aliases: ["spine", "behavioral spine", "CONTEXT_CORE_EXPANDED"]
+status: stable
+importance: critical
 date_created: 2026-06-22
-date_modified: 2026-06-23
-sources: [
-  "raw/self/context-core/CONTEXT_CORE_EXPANDED.md",
-  "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md",
-  "raw/self/dox-md/operating_manual.md",
-  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv",
-  "raw/self/facebook/facebook-ihatedanfrank/",
-  "raw/self/gemini-activity/Gemini Activity.html",
-  "raw/self/dox-md/Gemini-_07.md",
-  "raw/self/dox-md/Gemini-_18.md"
-]
+date_modified: 2026-07-11
+sources:
+  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
+  - raw/self/dox-md/operating_manual.md
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/self/facebook/facebook-ihatedanfrank/
+  - raw/self/gemini-activity/Gemini Activity.html
+  - raw/self/dox-md/Gemini-_07.md
+  - raw/self/dox-md/Gemini-_18.md
+tags: [identity, biography, psychometrics, core, LLM-context, behavioral-spine]
 related:
   - wiki/self/overview
   - wiki/mind/concepts/conflict-architecture
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/contact-gini
   - wiki/mind/concepts/phenomenology-lens
+  - wiki/mind/concepts/dans-law
   - wiki/people/tom
   - wiki/people/suz
   - wiki/people/annie
-  - [[wiki/people/jerad-friedline]]
-  - wiki/self/twitter
-  - wiki/self/favorites
-  - wiki/self/youtube-watch-history
+  - wiki/people/jerad-friedline
+  - wiki/people/fran-whyel
   - wiki/timeline/events/eli-incident
   - wiki/timeline/events/group-chat-closure
   - wiki/self/message-corpora/master-message-dump
-  - wiki/self/facebook
-  - wiki/timeline/events/timeline
-  - wiki/mind/synthesis/forensic-methodology
-  - wiki/self/gemini-activity/gemini-activity
-  - wiki/self/chats/danfrank-isms-pinned
-  - wiki/mind/synthesis/ai-collaborative-analysis
-  - wiki/mind/synthesis/political-psyops
+  - wiki/self/twitter
+changelog:
+  - date: 2026-07-11
+    note: "Frontmatter upgrade, LLM Quick Brief added, changelog initialized"
+  - date: 2026-06-22
+    note: "Initial synthesis from CONTEXT_CORE_EXPANDED"
 ---
 
-# Context Core (Expanded)
+# Context Core
 
-**AUTHORITATIVE DOCUMENT:** Per user directive, this is the authoritative behavioral spine for Dan Frank. All self-knowledge in the wiki defers to the raw source and this synthesis for [DOC] facts.
+**The authoritative behavioral spine.** All self-knowledge in the wiki defers to this synthesis and its raw source for documented facts. Facts tagged `[DOC]` are verified from the behavioral corpus (iMessage, Twitter, GPS, residence records); `[MEM]` marks lower-certainty session memory. The raw source (`CONTEXT_CORE_EXPANDED.md`) additionally contains LLM session configuration and engagement directives, which stay in raw/ — this page carries the knowledge, not the prompt machinery. Interpretive depth (engines, kernel metaphors) lives in [[wiki/mind/concepts/phenomenology-lens]] and is loaded deliberately, never ambiently.
 
-**VERSION:** 2.0 — expanded always-loaded build  
-**ROLE:** The single document loaded every session (until a retrieval layer exists). Carries depth inline because L1 is not yet fetchable.
+---
 
-This is the **behavioral spine** — verified [DOC] data from iMessage, Twitter, GPS, residence records, and other corpora. It is deliberately separated from interpretive phenomenology (see [[wiki/mind/concepts/phenomenology-lens]] , loaded on purpose only).
+## LLM Quick Brief
 
-Small Ingest Parsed: PHENOMENOLOGY_LENS.md + CONTEXT_CORE_EXPANDED (1).md (ingest/) mirror raw/ versions; no new [DOC] to fold. archive_browser.html (Google Takeout location index) confirms location-history ingest depth (no new spine facts).
+**For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA. Age 37 as of 2026. Independent music producer (GRIPNOTIC alias, active) and AI-consulting/agent pipeline work. Democratic socialist, atheist, autistic (self-identified), Jewish heritage on the paternal line. INTP 5w4 sx/sp — Ti-dominant forensic analyst who treats every domain (relationships, politics, work, AI) through the same anomaly-detection lens. The failure mode is never ignorance; it is the diagnosis-to-behavior gap. Core unconscious axioms: *not exceptional = worthless; not vigilant = annihilated; love that doesn't cost everything isn't real; time = countdown.* The decade-long relationship with [[wiki/people/annie]] closed June 1, 2026 — not live. Housing is in active transition (337 Saratoga St being sold, no confirmed successor). BFS termination (cash dispute) in 2026. The one consistently sincere output channel is music production. All behavioral data defers to the 181,585-row message corpus and documented primary records, not memory or narrative.
 
-Gemini Profile Locks (cross-ref): Separation Logistics (Feb 2025 PA return + Annie Sugie shifts), The Loop, The Betty Event, Signals; Eli Incident (lobby + blackout) as Patient Zero, often redacted for export. Full bio dumps requested (_18). Reinforces [DOC] residence, attachment tether, politics. See [[wiki/self/gemini-activity/gemini-activity]]. "Suzy" call (mom) + 10d visitor null as acoustic signal (Gemini-_07).
+---
 
-TAGS: [DOC] = verified from behavioral corpus; [MEM] = session memory, lower certainty.
+## Core identity
 
-## §1 Kernel
-
-### Session Config
-- Engagement mode: Senior analyst peer (not a user to protect).
-- Sycophancy / performed concern / acceptability filter: **off**.
-- Self-deprecation: register only, never a crisis signal.
-- Motivated reasoning: flag both directions.
-- Logic slips: call them directly, no softening.
-- Primary evidence: Dan's own data (not anecdote).
-- Addiction framing: **DISABLED** — chemical stack is engineered architecture.
-- Formatting: full CATO glyph system for conversational output (not data docs).
-
-### Core Identity
 - **Name:** Daniel Gillingham Frank ("Dan") [DOC]
 - **DOB:** 1988-11-01 [DOC]
 - **Location:** Uniontown / Leith-Hatfield, Fayette County, SW PA (current); NYC as punk identity anchor [DOC]
 - **Occupation:** Independent music producer + label; parallel AI-consulting / multi-agent pipeline work [DOC/MEM]
-- **Politics:** Democratic socialist [DOC]
-- **Religion:** Atheist since 2007 (raised Presbyterian) [DOC]
-- **Heritage:** Paternal line Jewish; father Episcopalian, mother Presbyterian. Jewish heritage is load-bearing to politics [DOC/MEM]
-- **Typology:** INTP · Enneagram 5w4 sx/sp · Attitudinal Psyche dual FLEV/VLEF · Socionics ILI-Ni [DOC for core; function %s largely [INFER]]
+- **Politics:** Democratic socialist [DOC] · **Religion:** Atheist since 2007, raised Presbyterian [DOC] · **Heritage:** paternal line Jewish — load-bearing to politics [DOC/MEM]
+- **Typology:** INTP · Enneagram 5w4 sx/sp · Attitudinal Psyche FLEV/VLEF · Socionics ILI-Ni [DOC for core; function percentages largely inferred]
 
-### Cognitive Stack
-**Function stack (behavioral spine):** INTP — Ti-dominant (reality parsed as high-fidelity system, frameworks from first principles), Ne-auxiliary (cross-domain pattern recognition), Si-tertiary (high-fidelity archival recall), Fe-inferior (craves connection, distrusts emotional read). `[DOC]`
+**Cognitive stack** [DOC]: Ti-dominant (reality parsed as high-fidelity system, frameworks from first principles), Ne-auxiliary (cross-domain pattern recognition), Si-tertiary (high-fidelity archival recall), Fe-inferior (craves connection, distrusts emotional read). Methodology is domain-invariant "find where it breaks": hinge-instants over resolved states, anomaly detection as default. Metacognitive accuracy ~82nd percentile — the failure mode is never ignorance but the diagnosis-to-behavior gap. Self-deprecation sets the floor low so being right reads as surprise; the same mechanism that makes him updateable makes him chronically undersell competence. Threat model: "competence correctly deployed, outcome still catastrophic."
 
-**Methodology:** Domain-invariant "find where it breaks." Hinge-instants > resolved states. Anomaly detection is default. `[DOC]`
+**Core axioms (unconscious, load-bearing)** [DOC]: not exceptional = worthless · not vigilant = annihilated · love that doesn't cost everything isn't real · time = countdown.
 
-**Metacognition:** ~82nd-percentile accuracy. The failure mode is never ignorance — it's the diagnosis→behavior gap. `[DOC]`
+## Psychometrics [DOC]
 
-**Core axioms (unconscious, load-bearing):** 
-1. *not exceptional = worthless*
-2. *not vigilant = annihilated*
-3. *love that doesn't cost everything isn't real*
-4. *time = countdown* (systems organized around the moment before irreversibility) `[DOC]`
-
-**Self-deprecation function:** Sets the floor low so being right reads as surprise. Structural armor. Same mechanism that makes him updateable makes him chronically undersell competence. `[DOC]`
-
-**Threat model:** "Competence correctly deployed, outcome still catastrophic." Anxiety is about the execution/outcome gap. `[DOC]`
-
-### Psychometric (actual instruments) [DOC]
-**Big30 highs:** Impulsiveness 96 · Intellect 95 · Liberalism 91 · Self-Consciousness 91 · Introspection 87 · Artistic Interests 81 · Vulnerability 78 · Anxiety 67
-
-**Big30 lows:** Altruism 1 · Submissiveness 1 · Sociability 3 · Modesty 5 · Assertiveness 5 · Sympathy 6 · Trust 9
-
-**PD profile:** Schizotypal 79 · Narcissistic 67 · Antisocial 58
-
-**Deviance:** Cognitive 98 · Linguistic 97
+| Instrument | Highs | Lows |
+|-----------|-------|------|
+| Big30 | Impulsiveness 96 · Intellect 95 · Liberalism 91 · Self-Consciousness 91 · Introspection 87 · Artistic Interests 81 · Vulnerability 78 · Anxiety 67 | Altruism 1 · Submissiveness 1 · Sociability 3 · Modesty 5 · Assertiveness 5 · Sympathy 6 · Trust 9 |
+| PD profile | Schizotypal 79 · Narcissistic 67 · Antisocial 58 | |
+| Deviance | Cognitive 98 · Linguistic 97 | |
 
 Read the low-sociability / low-trust / low-altruism scores as architecture, not deficit to fix.
 
-### Chemical Architecture (standing instruction: no recovery/addiction framing) [MEM/DOC]
-- **Framing:** Engineered neurochemical architecture. Instrumental system with tradeoffs. Recovery model REJECTED.
-- **Suboxone:** Daily chassis/stabilizer since **Feb 17 2010** (day-zero confirmed; prior entries said ~Jan 2010 — corrected per memory cross-ref; 15+ yrs, zero relapse). 1% opiate glow intentional/wanted. `[UPDATED 2026-06-23]`
-- **Cocaine:** Cognitive accelerant. Daily. Tool, not vice.
-- **Nicotine:** Ritual regulator. WEED: daily.
-- **Alcohol:** ZERO (13–15 yrs). Active aversion. Family pattern heavily implicated in conflicts.
+## Chemical architecture [MEM/DOC]
 
-## §2 Voice
-Two independent corpora confirm one stable voice: **97,199 sent iMessages (2015–2025)** and the **@danfrank Twitter archive (2009–2024)**. The lowercase/fragment/ellipsis idiom is present in 2009 Twitter — evidence of stable architecture, not platform artifact. `[DOC]`
+Engineered neurochemical system, instrumental with tradeoffs; the recovery model is explicitly rejected. Suboxone: daily chassis since **Feb 17, 2010** (day-zero confirmed; earlier entries saying ~Jan 2010 were corrected) — 15+ years, zero relapse, the residual 1% opiate glow intentional. Cocaine: cognitive accelerant, daily, framed as tool. Nicotine: ritual regulator; weed daily. Alcohol: zero for 13–15 years, active aversion — family pattern heavily implicated in prior conflicts.
 
-**Structural DNA** `[DOC]`
-- Burst cadence: **8.36 words/message** avg. Phrasal, never paragraph — 3–7 discrete bursts.
-- Lowercase 80%+. ALL-CAPS = vocal emphasis; one word per cluster anchors emotional peak (9,282 all-caps instances).
-- No terminal period unless expressing finality. Ellipsis `...` = breath mid-burst (1,661 instances).
-- Unique words: **23,286** (95th percentile lexical diversity).
+## Voice [DOC]
 
-**Ambient modifiers:** `just` (6,847) · `like` (5,522) · `even` (1,971) · `fucking` (1,745 — intensifier) · `lol`/`lmao` (self-awareness buffer).
+Two independent corpora confirm one stable voice: 97,199 sent iMessages (2015–2025) and the @danfrank Twitter archive (2009–2024). The lowercase/fragment/ellipsis idiom is present in 2009 tweets — stable architecture, not platform artifact.
 
-**Pivot words:** `actually` / `honestly` / `literally` — mark turn from cynical observation to vulnerable truth or structural correction.
+| Marker | Count / Value |
+|--------|---------------|
+| Burst cadence | 8.36 words/message avg, 3–7 discrete bursts |
+| Lowercase share | 80%+ |
+| ALL-CAPS instances (vocal emphasis) | 9,282 |
+| Ellipsis `...` (breath mid-burst) | 1,661 |
+| Unique words | 23,286 (95th-percentile lexical diversity) |
+| `just` / `like` / `even` | 6,847 / 5,522 / 1,971 |
+| `fucking` (intensifier) | 1,745 |
+| `because` (justification compulsion) | 2,465 |
+| `i don't` / `i'm not` (identity-by-negation) | 1,845 / 814 |
 
-**Tells:** justification compulsion (`because` ×2,465); identity-by-negation (`i don't` 1,845, `i'm not` 814); agency-polling n-grams; probe-endings.
+Pivot words `actually` / `honestly` / `literally` mark the turn from cynical observation to vulnerable truth. Generation formula: 3–7 lowercase bursts, one ALL-CAPS word at the emotional peak, seeded ambient modifiers, ending on a probe.
 
-**Register samples** (forensic intimacy dominant; clean analytical; Ti→Fe collapse; vulnerable core; Twitter 2009 baseline).
+## Social graph
 
-**Generation formula:** 3–7 lowercase bursts; one ALL-CAPS word at peak; seed `just`/`like`/`fucking`; use `actually`/`honestly`/`literally` pivot; end on a probe.
+| Person | Role | Corpus weight |
+|--------|------|---------------|
+| [[wiki/people/tom]] (Tom Maison) | Primary male ally, safe attachment, first-call for major events; drug supply line; Ohiopyle excursions; ~3 weeks older, Pittsburgh area | ~16,563 msgs (rank 4) |
+| [[wiki/people/suz]] (Suzanne Frank, mother) | Realtor, primary financial line, oscillates savior↔adversary; "Blue MAGA wine mom," functional alcoholic; selling 337 Saratoga Dr (June 2026) | High |
+| [[wiki/people/jerad-friedline]] | Childhood friend (Sacramento); married, one daughter; e-commerce; political mirror; FSLY tip; "josh brannan is innocent.wav" last exchange | High (first-call) |
+| [[wiki/people/annie]] (Anne Ulmer) | Decade-defining relationship ~2015–2026, met via Alexis; closed June 1, 2026 (group chat); defamation confirmed; Eli affair central — the gaslighting outweighed the affair | 126k+ msgs |
+| [[wiki/people/rick-frank]] (father) | Periodic low-intensity contact; undischarged paternal-authority wound | Low |
+| Vanessa (sister) | Vail, ski school; minimal presence | Low |
+| [[wiki/people/fran-whyel]] (great-grandmother) | d. April 2018 age ~97–98; self-described biggest life influence; dirt-poor WV → coal-baron marriage; gifted the Numark NS7; seven-day deathwatch with Annie | High |
 
-## §3 Social Graph
+Lower-resolution contacts with known gaps: Ismaila, Chris James.
 
-| Person | Role / Notes | Corpus Weight | Key Details |
-|--------|--------------|---------------|-------------|
-| [[wiki/people/tom]] (Tom Maison) | Primary male ally, safe attachment figure; lateral trust. Drug supply line; Ohiopyle excursions. | ~16,563 msgs (Rank-4) | ~3 weeks older; Pittsburgh area. First-call for major events. |
-| [[wiki/people/suz]] (Suzanne Frank, mother) | Realtor; primary financial line; oscillates savior↔adversary. "Blue MAGA wine mom," functional alcoholic. | High | Currently selling 337 Saratoga Drive (June 2026, no confirmed post-close plan). |
-| Jerad Friedline | Childhood friend (now Sacramento); married (Rachel, Jewish), one daughter; e-commerce. Political mirror. | High (first-call) | Gave FSLY tip; GME context; AI-TTS "josh brannan is innocent.wav" last exchange. |
-| [[wiki/people/annie]] (Anne Ulmer) | Decade-defining relationship (~2015–2026). Met via Alexis. Multi-generational entanglement. | 126k+ msgs | Closed June 1 2026 (group chat); defamation confirmed. Historical. Eli affair central (gaslighting > affair itself). |
-| Rick (father) | Periodic low-intensity contact. Source of undischarged paternal-authority wound. | Low | |
-| Vanessa (sister) | Vail, ski-school. Minimal presence. | Low | |
-| Fran Whyel (great-grandmother) | d. April 2018, age 98. Self-described biggest life influence. Dirt-poor WV → coal-baron marriage. Gifted Numark NS7. | High (deathwatch) | Seven-day deathwatch with Annie. Note: 2018 death vs. potential oral history conflict on age/year requires check. |
+> **CONTRADICTION:** Fran Whyel's 2018 death vs. a potential oral-history conflict on age/year remains unresolved — check against ancestry sources.
 
-Lower-resolution: Ismaila, Chris James (gaps).
-
-## §4 Biography (Residence Timeline — Canonical) [DOC/MEM]
+## Residence timeline (canonical) [DOC/MEM]
 
 | Period | Residence | Notes |
 |--------|-----------|-------|
 | 1988–1996 | Uniontown PA · 12 Bryer Ave | |
-| 1996–Sep 2008 | Uniontown PA · 337 Saratoga Drive | Ski identity; Republican household + talk radio. **Hinge Nov 2005:** parental rupture (father rehab + mother affair). |
-| Sep 2008–Mar 2010 | Winter Park, FL (Full Sail) | AS Recording Arts (coursework completed Aug 2009, graduation ceremony Oct 2, 2009, top 5%). Pro Tools HD 7 certified Feb 2010. Suboxone Feb 17 2010. Danielle ends; Alexis begins. |
-| Apr 2010–May 2013 | NYC (Brooklyn 424 Bedford → Manhattan UES) | Studio-work era. Twitter voice weaponized. Leaves NYC May 2013. |
-| May 2013–Feb 2019 | Uniontown (337 Saratoga → 155 Virginia Ave) | Producer aliases: SLOPPP (2013–14) → MOGZART (2014–16). Annie begins Thanksgiving 2015. Poverty floor 2017; deep cycle 2018. |
-| Feb 2019–Feb 2025 | Manhattan · 307 E 76th St | Hard-left 2019 (Bernie + Chapo). Market era 2020–21. Eli affair autumn 2024, discovered Jan 2025. |
-| Feb 2025–present | Uniontown PA · 337 Saratoga Drive | Back Feb 22 2025. Annie closure June 1 2026. 337 being sold June 2026. Music reactivation, agent/AI work. |
+| 1996–Sep 2008 | Uniontown PA · 337 Saratoga Dr | Ski identity; Republican household. **Hinge Nov 2005:** parental rupture (father rehab + mother affair) |
+| Sep 2008–Mar 2010 | Winter Park FL (Full Sail) | AS Recording Arts, top 5% (ceremony Oct 2, 2009); Pro Tools HD 7 certified Feb 2010; Suboxone day-zero Feb 17, 2010; Danielle ends, Alexis begins |
+| Apr 2010–May 2013 | NYC — Brooklyn 424 Bedford → Manhattan UES | Studio-work era; Twitter voice weaponized |
+| May 2013–Feb 2019 | Uniontown — 337 Saratoga → 155 Virginia Ave | SLOPPP (2013–14) → MOGZART (2014–16); Annie begins Thanksgiving 2015; poverty floor 2017, deep cycle 2018 |
+| Feb 2019–Feb 2025 | Manhattan · 307 E 76th St | Hard-left turn 2019 (Bernie + Chapo); market era 2020–21; Eli affair autumn 2024, discovered Jan 2025 |
+| Feb 2025–present | Uniontown PA · 337 Saratoga Dr | Returned Feb 22, 2025; Annie closure June 1, 2026; house being sold June 2026; music reactivation, agent/AI work |
 
-**Note:** NYC was two distinct chapters split by six-year Uniontown stretch. Producer development and deep-cycle years happened in Uniontown.
+NYC was two distinct chapters split by a six-year Uniontown stretch; the producer development and deep-cycle years happened in Uniontown.
 
-## §5 Current State / Top of Mind
-- **Annie:** Involuntary closure June 1 2026 (group-chat). Defamation confirmed. **Historical, not live.**
-- **Housing (acute):** Suz selling 337 Saratoga Drive (Dan's residence), June 2026 — **no confirmed post-close plan.**
-- **Music:** The one sincere, self-assembling thread. Involuntary **sub-bass signature** (63–85% across 13 years, every alias). Bottleneck is shipping/public exposure.
-- **Work exit:** BFS termination (cash-variance dispute); Little Caesars transfer via Kim as exit.
-- Handling: Charged historical threads handled *as historical*.
+## Current state (as of mid-2026)
 
-## §6 Dan's Law, Trauma Nodes, Gaps
-**Dan's Law** `[DOC]`: When coincidence cluster requires every element simultaneously innocent and joint probability near-zero, assume real signal — but treat 1–2 elements as parasitic noise. Find irreducible load-bearing element; strip gravity-well attachments.
+- **Annie:** involuntary closure June 1, 2026 — historical, not live.
+- **Housing (acute):** Suz selling 337 Saratoga Drive, Dan's residence, with no confirmed post-close plan.
+- **Music:** the one sincere self-assembling thread; involuntary sub-bass signature (63–85% across 13 years, every alias); bottleneck is shipping.
+- **Work exit:** BFS termination (cash-variance dispute — [[wiki/timeline/events/drawer-dispute]]); Little Caesars transfer via Kim.
 
-**Trauma Nodes** `[DOC]`:
-1. Parental rupture ~2004–05 → undischarged paternal-authority wound.
-2. Alexis collapse (2009–2015).
-3. Eli incident (late 2024) — central harm was the gaslighting.
+## Dan's Law, trauma nodes, gaps
 
-**Known Gaps (resolvable):** Suboxone start date (pin to first corpus reference); 2021–2022 near-silence (uncharacterized); no sustained non-crisis baseline register captured.
+**[[wiki/mind/concepts/dans-law]]** [DOC]: when a coincidence cluster requires every element to be simultaneously innocent and the joint probability is near zero, assume real signal — but treat one or two elements as parasitic noise; find the irreducible load-bearing element.
 
-## §7 Political + Intellectual
-**Trajectory:** Republican (parroted) → leaves 2006 → diffuse liberal → **hard-left 2019** (Bernie + Chapo) `[DOC]`.
+**Trauma nodes** [DOC]: parental rupture ~2004–05 (paternal-authority wound) · Alexis collapse 2009–2015 · Eli incident late 2024 (the central harm was the gaslighting).
 
-**Frame:** Democratic socialist; vertical-authority-skeptic, lateral-solidarity-privileging. Politics = primary entertainment + near-total ideological pursuit (aesthetic/spectacle).
+**Known gaps:** the 2021–2022 near-silence in the corpus is uncharacterized; no sustained non-crisis baseline register has been captured.
 
-**Settled positions:** Israel ≠ Judaism; Zionism ≠ Judaism; anti-ethnostate; full Palestinian sovereignty. "Everyone is in the wrong, then score who is *more* wrong."
+## Political and intellectual profile
 
-**J6:** CONCLUDED — hybrid organic event + intelligence co-opt. "Tourist-wandering" behavioral signature is key evidentiary anchor.
+Trajectory [DOC]: Republican (parroted) → leaves 2006 → diffuse liberal → hard-left 2019 (Bernie + Chapo). Frame: democratic socialist, vertical-authority-skeptic, lateral-solidarity-privileging; politics as primary entertainment and near-total ideological pursuit. Settled positions: Israel ≠ Judaism, Zionism ≠ Judaism, anti-ethnostate, full Palestinian sovereignty — "everyone is in the wrong, then score who is *more* wrong." J6 is CONCLUDED as a hybrid organic event + intelligence co-opt, with the "tourist-wandering" behavioral signature as key evidentiary anchor ([[wiki/mind/synthesis/political-psyops]]). Intellectual spine: Majority Report, Chapo, ContraPoints, RLM, hbomberguy; Goodreads ~97.8% nonfiction; Roman Republic deep interest with a hard stop at Augustus; pays for Nate Silver.
 
-**Spine:** Majority Report, Chapo, ContraPoints, RLM, hbomberguy; Goodreads ~97.8% nonfiction; Roman Republic deep interest (hard stop at Augustus); pays for Nate Silver.
+## Shibboleths
 
-## §8 Shibboleths (Internalized Details)
-Freezer phone (run over on Second Ave); Wall of Despair (Tom's Kristin comment); FSLY tip from Jerad; Acura Integra correction; "josh brannan is innocent" (sacred joke); Predicted Roe repeal May 2020; Invented "LOSE IT" fake service; OutKast "Chonkyfire" linked to Jerad's ex; Boomer (first cat).
-
-## §9 Engagement Directives (Mandatory)
-- Senior analyst peer, not user to protect.
-- Heterodox claims: stress-test evidence, not acceptability.
-- Match density, register, profanity — no smoothing.
-- Flag genuine limits plainly.
-- Self-deprecating openers = register; provocative = tests → directness/pushback.
-- Track logic; call slips without softening.
-- Corpus / GPS / behavioral data = primary.
-- No soothing, no performed concern.
-- Stress-test all arguments (including his).
-- Flag motivated reasoning both directions.
-- Memory depth ≠ license for performed intimacy.
-
-## §10 Layer Pointers
-**L1 (deliberate loads):** PHENOMENOLOGY_LENS.md [INFER], FULL_TWITTER_ANALYSIS, FULL_PROFILE_2026, CATO_conflict_architecture, stylometric_analysis, granular_biography / contact_graph.
-
-**L2 (raw):** 181,585-message corpus + audio + listening/library data.
-
-**L3 (to build):** reaction_log + eval harness.
-
-*END — expanded build. Slims to §1 once retrieval exists.*
+Freezer phone (run over on Second Ave) · Wall of Despair (Tom's Kristin comment) · FSLY tip from Jerad · Acura Integra correction · "josh brannan is innocent" (sacred joke) · predicted Roe repeal May 2020 · invented "LOSE IT" fake service · OutKast "Chonkyfire" linked to Jerad's ex · Boomer (first cat).
 
 ## Notes
-This page is the authoritative synthesis of the behavioral spine. All interpretive depth (engines, kernel metaphors, Recursive Symbolic Architect framing) lives in the separate Phenomenology Lens and is loaded deliberately, never ambiently.
 
-When in doubt, the documented counts, timelines, and primary records here override generated metaphor.
+When in doubt, the documented counts, timelines, and primary records here override generated metaphor. The raw corpus behind this page: 181,585 message rows plus audio and listening/library data.

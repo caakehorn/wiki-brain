@@ -1,6 +1,6 @@
 ---
 domain: self
-page_type: summary
+page_type: index
 status: stable
 date_created: 2026-07-11
 date_modified: 2026-07-11
@@ -9,6 +9,16 @@ related: []
 ---
 
 # self — index
+
+The self domain contains files and data detailing identity, core biographical facts, and the digital footprint of Dan Frank.
+
+---
+
+## LLM Quick Brief
+
+**For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA. Age 37. Recursive Symbolic Architect, music producer (GRIPNOTIC), and AI/agent workflow developer. INTP 5w4 sx/sp (Ti-Ne-Si-Fe), high impulsiveness, low sociability/trust. Democratic socialist with maternal roots in WV/PA and paternal Eastern European Jewish ancestry. Abstinent from alcohol (15+ years), utilizes Suboxone daily since Feb 17, 2010. Formative nodes: parental rupture (2004-05), Alexis relationship collapse (2009-15), Annie relationship (2015-2026) terminating after the Eli incident (discovered Jan 2025, closed June 1, 2026). Housing is currently in transition due to the sale of 337 Saratoga Drive. Works in AI systems/consulting following termination from BFS (2026). Sincere output channeled through sub-bass-heavy electronic music.
+
+---
 
 - [[wiki/self/ancestry]] — 23andMe personal genomics export combined with Ancestry.com GEDCOM family tree (sourced as "Daniel Frank…
 - [[wiki/self/context-core]] — This is the behavioral spine — verified [DOC] data from iMessage, Twitter, GPS, residence records, and…

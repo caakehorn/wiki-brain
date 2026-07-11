@@ -1,127 +1,156 @@
 ---
 domain: self
 page_type: summary
-status: archived
+status: active
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-07-11
 sources: [
   "raw/self/dox-scan/Dan Profile.txt",
   "raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx",
   "raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt",
   "raw/self/dox-scan/ANALYSIS_ SOCIAL DEVIANCES.rtf",
-  "raw/self/dox-scan/all_imessages_complete_dump.txt",
   "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md",
   "raw/self/dox-md/LIFE REPORT.md",
   "raw/self/dox-md/operating_manual.md",
-  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv",
   "raw/self/dox-md/FULL PROFILE 2026.md",
+  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv",
   "raw/self/facebook/facebook-ihatedanfrank/",
-  "raw/self/gemini-activity/Gemini Activity.html",
-  "raw/self/dox-md/Gemini-_00.md",
-  "raw/self/dox-md/Gemini-_02.md",
-  "raw/self/dox-md/Gemini-_07.md",
-  "raw/self/dox-md/Gemini-_13.md",
-  "raw/self/dox-md/Gemini-_18.md",
-  "raw/self/dox-md/Gemini-_21.md",
-  "raw/self/dox-md/Gemini-_21 copy.md"
+  "raw/self/gemini-activity/Gemini Activity.html"
 ]
 related: [
-  "wiki/mind/concepts/contact-gini",
-  "wiki/mind/concepts/conflict-architecture",
-  "wiki/mind/concepts/attachment-model",
+  "wiki/self/context-core",
   "wiki/mind/concepts/phenomenology-lens",
-  "wiki/timeline/events/timeline",
+  "wiki/mind/concepts/contact-gini",
+  "wiki/mind/concepts/attachment-model",
+  "wiki/mind/concepts/conflict-architecture",
   "wiki/self/message-corpora/master-message-dump",
-  "wiki/self/facebook",
-  "wiki/mind/synthesis/totality-themes",
-  "wiki/self/gemini-activity/gemini-activity",
-  "wiki/self/chats/danfrank-isms-pinned",
-  "wiki/self/chats/gemini-02",
-  "wiki/mind/synthesis/ai-collaborative-analysis",
+  "wiki/self/ancestry",
+  "wiki/self/location-history",
   "wiki/self/youtube-watch-history",
-  "wiki/self/location-history"
+  "wiki/self/twitter"
 ]
 ---
 
 # Self Overview
 
+The high-level self-model. All core behavioral facts defer to
+[[wiki/self/context-core]] (the authoritative spine); the interpretive
+framework (Recursive Symbolic Architect, Si-Ghost Kernel, defense engines)
+lives at [[wiki/mind/concepts/phenomenology-lens]] and should be used
+deliberately rather than as default ground truth.
+
+---
+
+## LLM Quick Brief
+
+**For context injection:** Daniel A. Frank ("Dan"), born November 1, 1988, Uniontown PA. Age 37. Recursive Symbolic Architect, music producer (GRIPNOTIC), and AI/agent workflow developer. INTP 5w4 sx/sp (Ti-Ne-Si-Fe), high impulsiveness, low sociability/trust. Democratic socialist with maternal roots in WV/PA and paternal Eastern European Jewish ancestry. Abstinent from alcohol (15+ years), utilizes Suboxone daily since Feb 17, 2010. Formative nodes: parental rupture (2004-05), Alexis relationship collapse (2009-15), Annie relationship (2015-2026) terminating after the Eli incident (discovered Jan 2025, closed June 1, 2026). Housing is currently in transition due to the sale of 337 Saratoga Drive. Works in AI systems/consulting following termination from BFS (2026). Sincere output channeled through sub-bass-heavy electronic music.
+
+---
+
 ## Identity
-Daniel A. Frank (Dan Frank). Recursive Symbolic Architect — high-intellect (95th percentile), high-impulsivity (96th percentile) INTP 5w4 sx/sp who treats life as a self-engineering project. Uses introspection, logic and taboo exploration to impose order on internal chaos and create meaning from collapse. Autistic (self-identified), Jewish, democratic socialist, 15+ year alcohol abstainer. b. November 1 1988, age 37. Uniontown PA.
 
-**Cognitive Type:** INTP (dominant Ti, secondary Ne, tertiary Si, inferior Fe). Attitudinal Psyche: FLEV (Alchemist) / VLEF (Inquisitor) influences.
+Daniel A. Frank (Dan Frank), born November 1, 1988, in Uniontown,
+Pennsylvania — age 37. Autistic (self-identified), Jewish heritage,
+democratic socialist, alcohol-abstinent for over fifteen years. He treats
+life as a self-engineering project: introspection, logic, and taboo
+exploration used to impose order on internal chaos and to create meaning
+from collapse. The self-descriptive title is "Recursive Symbolic Architect."
 
-**Core Axioms / Unconscious Beliefs:** “If I am not exceptional, I am worthless”; “If I am not vigilant, I will be annihilated”; “Love that doesn’t cost everything isn’t real.”
+Typology across the psychometric sources is consistent: INTP (dominant Ti,
+secondary Ne, tertiary Si, inferior Fe), Enneagram 5w4 sx/sp, with
+Attitudinal Psyche readings of FLEV ("Alchemist") and VLEF ("Inquisitor").
+Three core unconscious axioms recur across the analyses: "If I am not
+exceptional, I am worthless"; "If I am not vigilant, I will be annihilated";
+"Love that doesn't cost everything isn't real." The personal myth: a wounded
+genius fighting a stupid world, creating gods from wounds.
 
-**Personal Myth:** Wounded genius fighting a stupid world; creates gods from wounds; meaning through collapse.
+## Measured profile
 
-**Corpus Facts (re-mined [DOC] from LIFE calendar + CSVs + FB):**
-- LIFE_EVENTS_CALENDAR: 1,104 events extracted from 175k+ iMessages (2015-11-28 to 2026-03); Relationship 266 dominant category; 66 contacts.
-- Message master: Annie dual handles >48k msgs concentration (Gini 0.96 tie); 184k+ rows primary dump.
-- FB ihatedanfrank: Registered 2007-01-09; ~650 friends breadth; Annie deep thread in 403 messages.
-- Operating + FULL PROFILE: Detailed 2015 genesis (golf course), 10yr bond, typology INTP 5w4 sx/sp "Abyssal Architect".
-- Cross: See [[wiki/timeline/events/timeline]] for full samples, [[wiki/self/message-corpora/master-message-dump]] for tables, [[wiki/self/facebook]] for FB.
+| Measure | Value |
+|---------|-------|
+| Big30 — Impulsiveness | 96th percentile |
+| Big30 — Intellect | 95th percentile |
+| Big30 — Liberalism | 91st percentile |
+| Big30 — Self-Consciousness | 91st percentile |
+| Big30 — Introspection | 87th percentile |
+| Big30 — Altruism | 1st percentile |
+| Big30 — Sociability | 3rd percentile |
+| Big30 — Assertiveness | 5th percentile |
+| Big30 — Modesty | 5th percentile |
+| Cognitive functions | Ti 95–96%, Ne 80–84%, Si 50–57%, Fe ~10% |
+| Contact Gini | 0.961 — social redundancy statistically absent |
 
-**Heritage (from 23andMe export):** Paternal line Jewish immigrants — great-grandfather David J. Frank (b. 1892 Russia) and great-grandmother Sadie Harris (b. 1900 Austria) → grandfather Morley Jay Frank (1927 Brownsville PA – 1998 Hopwood) → father Rick. Maternal great-grandmother Fran Whyel (Jesse Frances Thomas Whyel Coldren, 1920 Fort Martin WV – 2018 Uniontown). Heavy Fayette County PA concentration (Uniontown, Brownsville, Hopwood) across generations, with WV roots on maternal side. Confirms core: "Paternal line Jewish; father Episcopalian, mother Presbyterian."
+The corpus behind these numbers is large: 184k+ message rows in the master
+dump, 1,104 life events extracted from 175k+ iMessages (2015–2026), roughly
+650 Facebook friends against a deep-thread concentration on a handful of
+people. Detail lives in [[wiki/self/message-corpora/master-message-dump]].
 
-The export also includes the actual DNA reports staged in ingest/ (Ancestry Composition - 23andMe.pdf and chromosome.pdf, copied to raw/self/ancestry/dna-reports/). These are graphical/image-based (no text extraction; visual ethnicity breakdown and chromosome paintings). Inspected and integrated: complement the tree (paternal Jewish line from Russia/Austria ggps should align with composition signal; chromosome data for segments). See [[wiki/self/ancestry]] (full DNA reports section), [[wiki/mind/synthesis/family-heritage-and-roots]], [[wiki/people/david-j-frank]], [[wiki/people/sadie-harris]], [[wiki/people/fran-whyel]]. These are graphical/browser-rendered; tree provides structured context. See [[wiki/self/ancestry]] (full DNA + tree section), [[wiki/people/david-j-frank]], [[wiki/people/sadie-harris]], [[wiki/people/fran-whyel]], [[wiki/mind/synthesis/family-heritage-and-roots]].
+## Heritage
 
-## Metrics
-- Contact Gini: 0.961 (redundancy net statistically absent)
-- Big30 notable: Impulsiveness 96%, Intellect 95%, Liberalism 91%, Self-Consciousness 91%, Introspection 87%; Altruism 1%, Sociability 3%, Assertiveness 5%, Submissiveness 1%, Modesty 5%
-- Enneagram: 5w4 sx/sp (sexual > self-preservation > social); health level below average.
+The paternal line is Eastern European Jewish: great-grandfather David J.
+Frank (b. 1892, Russia) and great-grandmother Sadie Harris (b. 1900,
+Austria), through grandfather Morley Jay Frank (1927 Brownsville PA – 1998
+Hopwood PA), to father Rick. The maternal line runs through great-grandmother
+Fran Whyel (1920 Fort Martin WV – 2018 Uniontown PA). Both lines concentrate
+heavily in Fayette County, Pennsylvania — Uniontown, Brownsville, Hopwood —
+with West Virginia roots on the maternal side. Father Episcopalian, mother
+Presbyterian. Full DNA reports and the family tree are synthesized at
+[[wiki/self/ancestry]] and [[wiki/mind/synthesis/family-heritage-and-roots]].
 
-**Cognitive Functions (approx):** Ti 95-96%, Ne 80-84%, Ni high latent, Si 50-57% (seat of Si-Ghost Kernel / Tyrant), Fe 10% valuing.
+## Formative history
 
-## Trauma Kernel & History
-**Si-Ghost Kernel (Tyrant):** Trauma-driven subsystem from past betrayals that hijacks resources.
+- **Parental rupture (~2004–2005).** Father entered rehab for cocaine
+  addiction; mother's affair with the dealer surfaced, ending the marriage.
+  Father later survived stage-4 throat cancer. The analyses treat this as
+  the origin of the encoded belief that intimacy leads to abandonment.
+  Detail: [[wiki/people/rick-frank]], [[wiki/people/suz]].
+- **Alexis collapse (2009–2015).** A six-year relationship ended in
+  financial collapse following a move to New York.
+- **Annie decade (2015–2025).** The dominant relationship of the corpus —
+  over 48k messages across dual handles. Genesis at a golf course in 2015;
+  ends through the Eli incident (below). See [[wiki/people/annie]] and
+  [[wiki/mind/synthesis/attachment-trauma-bond]].
+- **Eli incident (late 2024 / early 2025).** Found Annie unconscious with a
+  coworker ~80 minutes after her shift, location sharing disabled;
+  confrontation was met with violence. Corrective sources establish the
+  affair was sustained through autumn 2024 while Annie framed Dan's
+  suspicions as paranoia. See [[wiki/timeline/events/eli-incident]] and the
+  corrective addendum in sources.
 
-## Recent Ingest Cross-Refs (2026-06-22 batch)
-- [[wiki/timeline/events/drawer-dispute]]: BFS work termination incident — AM cash claim with procedural contradictions (no paper trail vs CSR report). Forensic lens applied; ties to low-trust vertical authority pattern.
-- [[wiki/self/chats/j6-chat]] + [[wiki/mind/synthesis/political-psyops]]: Narrow hybrid psyop on J6 (Babbitt + response anomalies); Claude updates to "warrants investigation." Aligns core §7. Gemini HTML adds ballistics (non-exiting lodged shot, no spray), "Operation Wildfall" Psy-Kill, inverted containment (Jan 2 2026).
-- [[wiki/self/chats/danfrank-isms-pinned]] + [[wiki/self/gemini-activity/gemini-activity]]: 77+ political/self nodes (zero-sum Trump, Sanders lost, Dem complicity, millennial bridge, China); Gemini DATA_LOGGED + lossless maps. 20.8 MB Gemini activity with overlapping forensic/political/AI themes. Profile locks (Separation Logistics, Loop, Betty Event, Signals, Eli redacted); Au Za'atar work lore (_00/_02); Suzy call + blackout (_07); bio dumps (_18); Eggie jailbreak (_21 copy); Bacharach neighborhood glitch (_13). Frequencies: annie 5658, eli 5524, forensic 1007, node 403+. Cross FB/ancestry (Au Za'atar, Uniontown/Saratoga). **2026-06-23 orchestrator:** unified master freq tables, node locking patterns, Tarik Fallous new page, Jacob Bacharach enhanced, full bio unification. See gemini-activity.md + /tmp/gemini-full-synthesis-report.md.
-- [[wiki/self/notes/manipulation-ethics]]: Master prompt for honest 100k+ msg forensic analysis (no softening, evidence + conclusions + confidence). Underpins wiki method and prior dox.
-- [[wiki/self/notes/jimmy-pop-pennsylvania]]: Music trends data — rock/guitar irrelevant post-1963 (streaming, charts, sales); defends electronic/non-guitar direction. Ties [[wiki/interests/favorites/music]] + sub-bass.
-- Synthesis pages (forensic-methodology, ai-collaborative-analysis, work-power-dynamics, totality-themes) derive cross-corpus conclusions: anomaly detection as default OS, AI as constrained external analyst, music as authentic thread, consistent low-trust forensic architecture across domains. All defer to [[wiki/self/context-core]] as spine.
-- Updated self/index, master index, log. Liberal page/topic expansion per directive.
-- Parental rupture ~2004-2005: Father (Rick) entered rehab for cocaine; mother (Suz) revealed affair with dealer → divorce; father survived stage-4 throat cancer. Encoded "intimacy leads to abandonment." Detailed in [[wiki/people/rick-frank]] and [[wiki/people/suz]]. Ties to family tree data showing multi-gen PA roots and core heritage notes.
-- Alexis collapse 2009-2015: 6-year relationship ended in financial collapse after NY move.
-- Eli Incident (late 2024 / early 2025): Discovered Annie unconscious with coworker Eli ~80 minutes after shift; location disabled. Confrontation met with violence. Per corrective sources: the affair was sustained and ongoing through autumn 2024; Annie actively gaslit Dan that suspicions were paranoia/mental illness. Dan later chose to believe her to return to "normal."
+## Chemical architecture
 
-## Chemical Architecture
-Deliberately engineered identity-integrated system (not viewed as pathology):
-- Suboxone: Daily stabilizer (chassis/OS) since January 2011.
-- Cocaine: Strategic cognitive/drive accelerator.
-- Nicotine: Ritual regulator / totem.
+A deliberately engineered, identity-integrated system — the sources are
+explicit that Dan does not frame this as pathology: Suboxone as daily
+stabilizer since February 17, 2010 (day-zero confirmed in
+[[wiki/self/context-core]]); cocaine as a strategic cognitive accelerator;
+nicotine as ritual regulator. He rejects the recovery-industry frame
+entirely.
 
-Rejects recovery industry; views substances as architecture of the throne.
+## Psychosexual and social profile
 
-## Psychosexual Profile
-Sex as recursive mythogenesis engine / church. Boundary testing, emotional consumption, taboo as ontology rupture. Voyeurism & orchestration (engineers scenarios); high intensity within relationships, low partner count. Experiments succeed under control, fail on unscripted violation.
+Sex functions as a recursive meaning-making engine — boundary testing,
+orchestration and voyeuristic engineering of scenarios, taboo as ontological
+rupture; high intensity within relationships, low partner count, with
+experiments succeeding under control and failing on unscripted violation.
+Socially and linguistically he is an extreme outlier (90+/100 on most
+measured axes): hyper-recursive metacognition, radical authenticity,
+rejection of algorithmic "midness," and a register mixing academic jargon
+with dirtbag-left slang.
 
-## Social / Linguistic Deviance
-Extreme outlier (90+ /100 on most axes): hyper-recursive metacognition, radical authenticity, rejection of midness/algorithmic content, hyper-specific academic + dirtbag-left slang.
+## Signatures and channels
 
-## Music Signature
-Sub-bass signature confirmed involuntary across 13 years and all aliases (63-85%).
+- **Music:** an involuntary sub-bass signature (63–85% presence) across all
+  four production aliases and 13 years — [[wiki/interests/music/concepts/sub-bass-signature]].
+- **Twitter/X (@danfrank):** "insufferable politics sicko" persona; AI
+  tooling experiments and music promotion — [[wiki/self/twitter]].
+- **YouTube:** 17k+ watched videos 2007–2025, dominated by political
+  news/podcast content — [[wiki/self/youtube-watch-history]].
+- **Location:** 6,227 logged visits 2014–2024 split PA 3,815 / NYC 2,301;
+  home bases 307 E 76th St NYC and Uniontown (337 Saratoga Dr, 155 Virginia
+  Ave) — [[wiki/self/location-history]].
 
-## Core Concepts
-- [[wiki/mind/concepts/contact-gini]]
-- [[wiki/mind/concepts/conflict-architecture]]
-- [[wiki/mind/concepts/attachment-model]]
+## Key periods
 
-## Key Periods
+- [[wiki/timeline/periods/2015-2016-annie-relationship-start]]
 - [[wiki/timeline/periods/2021-2023-employment-block]]
 - [[wiki/timeline/periods/dec-2025-spike]]
-
-## Public Channels
-- Twitter/X (@danfrank): "insufferable politics sicko" persona. AI tooling experiments (Grok Build agents, Claude), music promo (MOGZART), political commentary. See [[wiki/self/twitter]].
-- YouTube: 17k+ watched videos (2007–2025), heavily political/news/podcast (Majority Report, Vaush, LastWeekTonight, radio archives, MSNBC). See [[wiki/self/youtube-watch-history]].
-- Location History (Google Timeline): 6,227 visits 2014-2024 (PA 3,815 / NYC 2,301); home bases 307 E 76th NYC (1,082) + Uniontown 337 Saratoga/155 Virginia; peaks 2017-18 (2.8k), NYC transition 2019, resurgence 2022-23 sync YT. Ancestry PA/Fayette roots grounding. See [[wiki/self/location-history]].
-
-## Notes
-High-level self-model page. **All core facts defer to the authoritative [[wiki/self/context-core]] (the behavioral spine).**
-
-Synthesized from comprehensive 2025 analyses + 2026 twitter scrape + YouTube watch history. Link to all concept pages. Sources include longitudinal iMessage corpus, psychometric reports, relationship master records, @danfrank tweet samples, and YouTube export.
-
-The detailed interpretive "Phenomenology Lens" (Recursive Symbolic Architect, Si-Ghost Kernel, defense engines, supporting metaphors) is documented separately at [[wiki/mind/concepts/phenomenology-lens]]. Use deliberately; default to the behavioral spine for facts.
-
