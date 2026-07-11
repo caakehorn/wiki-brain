@@ -10,6 +10,9 @@ Its raw archive, compiled pages, and pending inbox were migrated here on
 2026-07-11 — treat that directory as read-only reference; nothing new
 should be filed there.
 
+## LLM Handoff & Coordination
+**CRITICAL:** At the start of every session or turn, you MUST read `LLM_HANDOFF.md` in the root directory to understand the current project state, recent changes, and immediate priorities. When you end your session, you MUST update `LLM_HANDOFF.md` by logging what you accomplished and setting the focus for the next model. This ensures seamless continuity across different models and sessions.
+
 ## Architecture — plain files, one direction of flow
 
 ```
