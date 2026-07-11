@@ -47,24 +47,41 @@ def stamp():
     return datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
 
 
-def save_note(body, title=None, tags=None):
+def save_note(body, title=None, tags=None, targets=None):
     INBOX.mkdir(exist_ok=True)
     title = (title or body.strip().splitlines()[0][:60]).strip()
     path = INBOX / f"{stamp()}_{slugify(title)}.md"
     words = len(body.split())
-    kind = "story" if words > 150 else "fact"
+    kind = "correction" if targets else ("story" if words > 150 else "fact")
     front = [
         "---",
         f"captured: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}",
         f"title: {title}",
         f"type: {kind}",
         f"tags: [{', '.join(tags or [])}]",
-        "source: wiki-app",
-        "---",
-        "",
     ]
+    if targets:
+        front.append(f"targets: [{', '.join(targets)}]")
+    front += ["source: wiki-app", "---", ""]
     path.write_text("\n".join(front) + body.strip() + "\n", encoding="utf-8")
     return {"saved": str(path.relative_to(ROOT)), "words": words, "kind": kind}
+
+
+def save_page(rel_path, content):
+    """Human edit of a wiki page through the app: write, touch
+    date_modified, and record the edit in log.md."""
+    p = safe(rel_path)
+    if not (str(p).startswith(str(WIKI) + "/") and p.suffix == ".md" and p.exists()):
+        raise PermissionError("can only edit existing wiki/*.md pages")
+    today = datetime.date.today().isoformat()
+    content = re.sub(r"(?m)^date_modified: .*$", f"date_modified: {today}",
+                     content, count=1)
+    p.write_text(content, encoding="utf-8")
+    log = ROOT / "log.md"
+    domain = rel_path.split("/")[1] if rel_path.count("/") >= 2 else "all"
+    with open(log, "a", encoding="utf-8") as f:
+        f.write(f"## [{today}] edit | {domain} | human edit via app: {rel_path}\n")
+    return {"saved": rel_path}
 
 
 def tree():
@@ -184,7 +201,14 @@ class Handler(BaseHTTPRequestHandler):
                     self.send(400, {"error": "empty note"})
                     return
                 self.send(200, save_note(d["body"], d.get("title") or None,
-                                         [t.strip() for t in d.get("tags", "").split(",") if t.strip()]))
+                                         [t.strip() for t in d.get("tags", "").split(",") if t.strip()],
+                                         d.get("targets") or None))
+            elif self.path == "/api/save":
+                d = self.body_json()
+                if not d.get("content", "").strip():
+                    self.send(400, {"error": "refusing to save an empty page"})
+                    return
+                self.send(200, save_page(d["path"], d["content"]))
             elif self.path == "/api/upload":
                 name = urllib.parse.unquote(self.headers.get("X-Filename", "upload.bin"))
                 name = Path(name).name  # strip any path components
@@ -320,6 +344,33 @@ main{flex:1; display:flex; min-height:0}
 .inb button:hover{color:#c0392b}
 .note{background:var(--chip); border-radius:10px; padding:12px 16px; font-size:13.5px;
   color:var(--muted); margin-top:22px}
+
+/* @-mention autocomplete + target chips */
+.acwrap{position:relative}
+#ac{position:absolute; left:0; right:0; z-index:10; background:var(--panel);
+  border:1px solid var(--line); border-radius:10px; box-shadow:0 8px 24px rgba(0,0,0,.15);
+  max-height:220px; overflow-y:auto; display:none}
+#ac div{padding:7px 12px; cursor:pointer; font-size:13.5px}
+#ac div .d{color:var(--muted); font-size:11.5px; margin-left:8px}
+#ac div.sel{background:var(--accent); color:var(--accent-ink)}
+#ac div.sel .d{color:var(--accent-ink); opacity:.75}
+#targets{display:flex; flex-wrap:wrap; gap:6px; margin-top:8px}
+.tchip{display:inline-flex; align-items:center; gap:6px; background:var(--chip);
+  border:1px solid var(--line); border-radius:20px; padding:3px 10px; font-size:12.5px}
+.tchip b{font-weight:600}
+.tchip button{border:0; background:none; color:var(--muted); cursor:pointer; font-size:13px; padding:0}
+.tchip button:hover{color:#c0392b}
+
+/* page editor */
+#editor{display:none}
+#editor textarea{width:100%; min-height:60vh; resize:vertical; padding:14px;
+  border:1px solid var(--line); border-radius:10px; background:var(--panel);
+  color:var(--ink); font:13px/1.5 ui-monospace, "SF Mono", Menlo, monospace}
+.editbar{display:flex; gap:10px; margin:12px 0}
+.pagefoot{margin-top:36px; padding-top:14px; border-top:1px solid var(--line)}
+.pagefoot button{border:1px solid var(--line); background:var(--panel); color:var(--muted);
+  font:inherit; font-size:13px; padding:6px 16px; border-radius:8px; cursor:pointer}
+.pagefoot button:hover{color:var(--accent); border-color:var(--accent)}
 </style>
 </head>
 <body>
@@ -348,8 +399,12 @@ main{flex:1; display:flex; min-height:0}
   <div class="sub2">Type a fact or a full story. It lands in the inbox as plain text, ready for ingestion into the wiki.</div>
   <label>Title <span style="text-transform:none">(optional — auto-generated from first line)</span></label>
   <input type="text" id="cTitle">
-  <label>Text</label>
-  <textarea id="cBody" placeholder="A quick fact, a memory, a full story…"></textarea>
+  <label>Text <span style="text-transform:none">(type <b>@</b> to reference a wiki page — the note becomes a correction/expansion of that page)</span></label>
+  <div class="acwrap">
+    <textarea id="cBody" placeholder="A quick fact, a memory, a full story… Type @ to target an existing page."></textarea>
+    <div id="ac"></div>
+  </div>
+  <div id="targets"></div>
   <label>Tags <span style="text-transform:none">(optional, comma-separated)</span></label>
   <input type="text" id="cTags" placeholder="childhood, family">
   <button class="btn" id="cSave">Save to inbox</button>
@@ -474,15 +529,38 @@ async function refresh(){
   add("Meta", TREE.meta.filter(f=>f.name!=="index.md"));
   renderInbox();
 }
+let RAW=null;
 async function open(path, highlight){
-  CUR=path;
+  CUR=path; RAW=null;
   document.querySelectorAll("#side a").forEach(a=>a.classList.toggle("on",a.dataset.path===path));
   const r=await api("/api/file?path="+encodeURIComponent(path));
   let html=`<div class="crumb">${esc(path)}</div>`;
+  const editable=/^wiki\/.+\.md$/.test(path) && !r.error && !r.binary && !r.dir;
   if(r.error) html+=`<p>${esc(r.error)}</p>`;
   else if(r.binary||r.dir||!/\.(md|txt)$/.test(path)) html+=`<pre>${esc(r.content)}</pre>`;
   else html+=md(r.content);
+  if(editable){
+    RAW=r.content;
+    html+=`<div class="pagefoot"><button id="editBtn">✎ Edit this page</button></div>
+      <div id="editor"><div class="editbar">
+        <button class="btn" id="editSave">Save</button>
+        <button class="btn ghost" id="editCancel">Cancel</button>
+        <span class="msg" id="editMsg" style="margin:0"></span></div>
+      <textarea id="editTa" spellcheck="false"></textarea></div>`;
+  }
   const c=$("#content"); c.innerHTML=html;
+  if(editable){
+    const foot=$("#editBtn").parentElement, ed=$("#editor"), ta=$("#editTa");
+    $("#editBtn").onclick=()=>{
+      ta.value=RAW; foot.style.display="none"; ed.style.display="block";
+      c.querySelectorAll(":scope > *:not(#editor):not(.crumb)").forEach(el=>el.style.display="none");
+      ta.focus(); };
+    $("#editCancel").onclick=()=>open(path);
+    $("#editSave").onclick=async()=>{
+      const r2=await api("/api/save",{method:"POST",body:JSON.stringify({path, content:ta.value})});
+      if(r2.error){ $("#editMsg").textContent="⚠ "+r2.error; }
+      else { await refresh(); open(path); } };
+  }
   if(highlight){ const rx=new RegExp(highlight.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi");
     c.querySelectorAll("p,li,td,h1,h2,h3,blockquote").forEach(el=>{
       if(rx.test(el.textContent)) el.innerHTML=el.innerHTML.replace(rx,m=>`<mark>${m}</mark>`); }); }
@@ -513,12 +591,67 @@ $("#q").oninput=()=>{ clearTimeout(debounce);
     c.querySelectorAll(".hit").forEach(el=>el.onclick=()=>open(hits[el.dataset.i].path,q));
   },250); };
 
-/* ---------- capture ---------- */
+/* ---------- capture: @-mention autocomplete + targets ---------- */
+let TGT=new Set(), acSel=0, acMatches=[], acStart=-1;
+const body=$("#cBody"), ac=$("#ac");
+
+function pageList(){
+  return TREE?TREE.wiki.map(f=>f.path.replace(/\.md$/,"")):[];
+}
+function renderTargets(){
+  const el=$("#targets"); el.innerHTML="";
+  for(const t of TGT){
+    const c=document.createElement("span"); c.className="tchip";
+    c.innerHTML=`<b>@${esc(t.split("/").slice(-1)[0].replace(/\.md$/,""))}</b> <span style="color:var(--muted)">${esc(t)}</span><button title="remove">✕</button>`;
+    c.querySelector("button").onclick=()=>{TGT.delete(t);renderTargets()};
+    el.appendChild(c); } }
+function hideAc(){ ac.style.display="none"; acMatches=[]; acStart=-1; }
+function showAc(q){
+  const ql=q.toLowerCase();
+  acMatches=pageList().filter(p=>p.toLowerCase().includes(ql))
+    .sort((a,b)=>{
+      const an=a.split("/").pop().toLowerCase().startsWith(ql)?0:1;
+      const bn=b.split("/").pop().toLowerCase().startsWith(ql)?0:1;
+      return an-bn||a.length-b.length; })
+    .slice(0,8);
+  if(!acMatches.length){ hideAc(); return; }
+  acSel=0;
+  ac.innerHTML=acMatches.map((p,i)=>
+    `<div class="${i===0?"sel":""}" data-i="${i}"><b>${esc(p.split("/").pop())}</b><span class="d">${esc(p)}</span></div>`).join("");
+  ac.style.display="block";
+  ac.style.top=Math.min(body.offsetHeight, 160)+"px";
+  ac.querySelectorAll("div[data-i]").forEach(d=>{
+    d.onmousedown=e=>{e.preventDefault();pickAc(+d.dataset.i)};
+    d.onmouseover=()=>{acSel=+d.dataset.i;paintAc()}; }); }
+function paintAc(){ ac.querySelectorAll("div[data-i]").forEach((d,i)=>d.classList.toggle("sel",i===acSel)); }
+function pickAc(i){
+  const p=acMatches[i]; if(!p)return;
+  const short="@"+p.split("/").pop();
+  body.value=body.value.slice(0,acStart)+short+body.value.slice(body.selectionStart);
+  const pos=acStart+short.length;
+  body.setSelectionRange(pos,pos); body.focus();
+  TGT.add(p+".md"); renderTargets(); hideAc(); }
+body.addEventListener("input",()=>{
+  const caret=body.selectionStart, text=body.value;
+  const at=text.lastIndexOf("@",caret-1);
+  if(at<0 || (at>0 && /[\w/]/.test(text[at-1]))){ hideAc(); return; }
+  const q=text.slice(at+1,caret);
+  if(/[\s@]/.test(q) || q.length>60){ hideAc(); return; }
+  acStart=at; showAc(q); });
+body.addEventListener("keydown",e=>{
+  if(ac.style.display!=="block")return;
+  if(e.key==="ArrowDown"){e.preventDefault();acSel=Math.min(acSel+1,acMatches.length-1);paintAc();}
+  else if(e.key==="ArrowUp"){e.preventDefault();acSel=Math.max(acSel-1,0);paintAc();}
+  else if(e.key==="Enter"||e.key==="Tab"){e.preventDefault();pickAc(acSel);}
+  else if(e.key==="Escape"){hideAc();} });
+body.addEventListener("blur",()=>setTimeout(hideAc,150));
+
 $("#cSave").onclick=async()=>{
   const r=await api("/api/capture",{method:"POST",body:JSON.stringify(
-    {title:$("#cTitle").value, body:$("#cBody").value, tags:$("#cTags").value})});
-  $("#cMsg").textContent=r.error?("⚠ "+r.error):`✓ saved ${r.saved} (${r.words} words, ${r.kind})`;
-  if(!r.error){ $("#cTitle").value=$("#cBody").value=$("#cTags").value=""; refresh(); } };
+    {title:$("#cTitle").value, body:$("#cBody").value, tags:$("#cTags").value,
+     targets:[...TGT]})});
+  $("#cMsg").textContent=r.error?("⚠ "+r.error):`✓ saved ${r.saved} (${r.words} words, ${r.kind}${TGT.size?", targets: "+[...TGT].join(", "):""})`;
+  if(!r.error){ $("#cTitle").value=$("#cBody").value=$("#cTags").value=""; TGT.clear(); renderTargets(); refresh(); } };
 
 const drop=$("#drop"), pick=$("#filePick");
 drop.onclick=()=>pick.click();

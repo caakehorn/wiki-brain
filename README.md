@@ -18,8 +18,12 @@ Either way, your browser opens
 at `http://127.0.0.1:8477` with everything in one place:
 
 - **Browse** — read the whole wiki with rendered pages, clickable links,
-  and full-text search
-- **Capture** — type facts or full stories; drag-and-drop any file to upload
+  and full-text search; every page has an **✎ Edit** button at the bottom
+  for direct fixes (edits are logged in log.md)
+- **Capture** — type facts or full stories; drag-and-drop any file to upload.
+  Type **@** to autocomplete a wiki page reference — the note is then saved
+  as a *correction/expansion targeting that page*, and ingestion applies it
+  there first
 - **Inbox** — see and manage what's waiting for ingestion
 - **Export** — one click bundles the corpus for LLMs, with a download link
 

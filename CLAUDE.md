@@ -50,6 +50,13 @@ Git is the history mechanism. Commit after every ingest with message
 ## The operations
 
 ### INGEST — one source per pass, never parallel
+Captured notes may carry `targets: [wiki/...paths]` in frontmatter (created by
+typing `@page` in the app's Capture tab). A targeted note is a correction or
+expansion of those specific pages: apply it there first (honoring the
+contradiction/revision rules), then file the note into raw/ as usual.
+Humans can also edit pages directly in the app; those edits appear in log.md
+as `edit | <domain> | human edit via app` — treat them as authoritative
+content but normalize formatting/frontmatter on the next pass over that page.
 Parallel "swarm" ingests destroyed v1 (fragment prose, duplicate entities,
 wrong statuses). Ingest ONE inbox item per pass, fully:
 1. Move it from inbox/ to the right `raw/<domain>/<collection>/`.
