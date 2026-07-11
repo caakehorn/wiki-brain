@@ -6,9 +6,23 @@ plain Markdown files. No apps, no databases, no APIs — just text files, two
 small scripts, and git for history. Claude (or any LLM agent) does the
 compilation; you just feed it material.
 
-## Adding material (the input tool)
+## The app
 
-Three ways, all landing in `inbox/`:
+Double-click **Wiki.command** (or run `python3 app.py`). Your browser opens
+at `http://127.0.0.1:8477` with everything in one place:
+
+- **Browse** — read the whole wiki with rendered pages, clickable links,
+  and full-text search
+- **Capture** — type facts or full stories; drag-and-drop any file to upload
+- **Inbox** — see and manage what's waiting for ingestion
+- **Export** — one click bundles the corpus for LLMs, with a download link
+
+It's a single Python file using only the standard library — nothing to
+install, runs entirely on your machine, touches only this folder.
+
+## Adding material from the terminal (optional)
+
+The same three ways also work as CLI commands, all landing in `inbox/`:
 
 ```bash
 bin/capture                     # type or paste a story; end with a "." line
@@ -47,6 +61,7 @@ ready to paste or upload into any LLM.
 ## Layout
 
 ```
+app.py     the app: capture + browse + search + export in one window
 inbox/     what you've added but hasn't been processed yet
 raw/       original sources, immutable archive
 wiki/      the compiled knowledge (the actual second brain)
