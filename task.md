@@ -13,12 +13,12 @@
 ## Phase 2: Mind / Concepts
 - [x] `wiki/mind/concepts/abyssal-architect.md` — prose rewrite
 - [x] `wiki/mind/concepts/attachment-model.md` — prose rewrite
-- [ ] `wiki/mind/concepts/conflict-architecture.md` — prose rewrite
-- [ ] `wiki/mind/concepts/dans-law.md` — prose rewrite
-- [ ] `wiki/mind/concepts/forensic-analysis.md` — prose rewrite
-- [ ] `wiki/mind/concepts/phenomenology-lens.md` — prose rewrite
+- [x] `wiki/mind/concepts/conflict-architecture.md` — prose rewrite
+- [x] `wiki/mind/concepts/dans-law.md` — prose rewrite
+- [x] `wiki/mind/concepts/forensic-analysis.md` — prose rewrite
+- [x] `wiki/mind/concepts/phenomenology-lens.md` — prose rewrite
 - [x] `wiki/mind/concepts/contact-gini.md` — prose rewrite
-- [ ] `wiki/mind/concepts/cato.md` — prose rewrite
+- [x] `wiki/mind/concepts/cato.md` — prose rewrite
 
 ## Phase 3: Mind / Synthesis
 - [ ] `wiki/mind/synthesis/forensic-methodology.md` — prose rewrite

@@ -39,6 +39,8 @@ related:
 
 Anne ("Annie") Ulmer was Dan's primary relationship partner from Thanksgiving 2015 to June 1, 2026, representing a total duration of ten years and seven months. This was the first relationship in Dan's documented history to trigger a full activation of his attachment system, a response not present in his prior relationships with [[wiki/people/danielle]] or [[wiki/people/lex]]. The couple met through Alexis, and Annie ended her previous relationship within twenty-four hours of their introduction. They cohabited for approximately eight years, first at 155 Virginia Avenue beginning in 2016, and later in New York City. This period of cohabitation ended with their return to Pennsylvania in February 2025, after which Annie unilaterally chose to live separately, dividing her time to serve as the primary caregiver for her grandmother. The relationship concluded during the group-chat event on June 1, 2026, which confirmed both her concealed relationship with Eli and an active defamation campaign against Dan. The message corpus generated throughout this relationship forms the empirical foundation of the broader forensic self-analysis project.
 
+During the 2018–2020 period, Annie also communicated heavily via an alternate phone number (+17249204125), which generated a dedicated 4,812-message thread centered on logistics, debt, and crisis management. This thread crossed heavily with Johnny's facilitation network (see [[wiki/people/johnny-dealer]]).
+
 ## Corpus Dimensions
 
 | Metric | Value |

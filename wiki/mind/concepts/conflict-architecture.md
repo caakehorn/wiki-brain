@@ -1,9 +1,9 @@
 ---
 domain: mind
 page_type: concept
-status: archived
+status: stable
 date_created: 2026-06-22
-date_modified: 2026-06-22
+date_modified: 2026-07-11
 sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
@@ -21,15 +21,16 @@ related:
 
 # Conflict Architecture
 
-## Definition
-Resolution-seeking engine with no domain selector — misreads emotional bids as propositions. Litigates without acknowledging. No halt condition. Conceding triggers worth/vigilance/authority axioms = existential stakes on trivia. Root lever: decouple conceding from worthlessness. Insight feeds the engine. The architecture converts the partner's withdrawal/silence into evidence of the engine's pathology (cause/effect inversion).
+The "conflict architecture" refers to the involuntary cognitive process by which Dan's Ti-dominant processing engine applies forensic resolution logic to interpersonal communication. Because the engine has no domain selector, it misreads emotional bids — statements like "I don't feel secure" — as propositions requiring adjudication rather than acknowledgments requiring empathy. The engine boots on the surface structure of claim-shaped language regardless of the speaker's actual intent.
 
-## Evidence
+## Corpus Evidence
+
+The following metrics are drawn from the Annie message corpus and document the behavioral fingerprint of this architecture in a high-stakes relational environment.
 
 | Metric | Value | Source |
 |---|---|---|
 | "Fuck you" instances | 74 | Annie corpus (MasterRecord) |
-| "Piece of shit" | 17 | Annie corpus |
+| "Piece of shit" instances | 17 | Annie corpus |
 | Exit declarations | 127 | Annie corpus (MasterRecord) |
 | Re-engagements following exit declarations | 110 | Annie corpus (MasterRecord) |
 | Net actual exits | ~17 | Derived (127 declarations − 110 returns) |
@@ -37,56 +38,29 @@ Resolution-seeking engine with no domain selector — misreads emotional bids as
 | Burst communication events (10+ consecutive sent) | 94 | MasterRecord |
 | Largest single burst | 68 messages | MasterRecord |
 | Average burst size | ~17 | MasterRecord |
-| Love-to-request sequences (I love you → request within 24h) | 145 | MasterRecord (7-month window) |
+| Love-to-request sequences (within 24h) | 145 | MasterRecord (7-month window) |
 | "Fell asleep" alibis | 24 | MasterRecord |
 | Explicit crisis / suicidal statements (Dan) | 12 | MasterRecord |
 
-**Message volume asymmetry (terminal phase example)**:
+The message volume asymmetry visible in the terminal phase demonstrates the architecture in action: as Annie's side withdrawal accelerated, the engine continued producing attempts to resolve an input that had no resolution.
 
-| Period | Dan messages | Annie messages | Ratio (Dan:Annie) | Note |
-|---|---|---|---|---|
-| Dec 2025 | (high) | (high) | — | Peak mutual: 2,248 total |
-| Jan 2026 | 1,689 | 1,288 | 1.31 | Withdrawal begins |
-| Feb 2026 | 1,536 | 801 | 1.92 | Sharp asymmetry |
-| Early Mar 2026 (9 days) | 440 | 227 | 1.94 | Communication nearly collapsed |
+| Period | Dan messages | Annie messages | Dan:Annie Ratio |
+|---|---|---|---|
+| Dec 2025 | (high) | (high) | ~1:1 (2,248 total) |
+| Jan 2026 | 1,689 | 1,288 | 1.31:1 |
+| Feb 2026 | 1,536 | 801 | 1.92:1 |
+| Early Mar 2026 (9 days) | 440 | 227 | 1.94:1 |
 
-**Gaslighting / Inversion Layer** (feeds the engine):
-Annie ghosts / withdraws during high-stakes moments → Dan produces distress/burst response → response engages only the burst ("I can't talk to you when you're like this" / "You're overwhelming"), never the antecedent silence.
+## Mechanism
 
-## CATO Formalization (from CATO_conflict_architecture.md)
+The core problem is a category mismatch between input type and engine capability. Dan's conflict architecture is a forensic resolution-seeking engine: it takes a claim, isolates the irreducible core under adversarial pressure, and halts only when it finds the "click" of resolution. Relational conflict, however, presents an input with no resolution condition — two incompatible subjective realities that cannot be merged into a single truth. The engine therefore runs an infinite loop on non-terminating input, producing no reward state and constant drain.
 
-The draining conflicts are the necessary output of the cognitive architecture:
+The stakes encoding makes this architecture particularly intractable. Conceding a point is not registered as "I was wrong about this specific thing." It is registered through the framework of Core Axiom 1 — "not exceptional = worthless" — which translates concession into an existential threat. The halt condition that would normally stop a conflict engine (acknowledging the other person's reality) is therefore blocked by a trip-wire that codes it as self-annihilation.
 
-**The Engine**: Forensic resolution-seeking. Takes claim, adversarial pressure, isolates irreducible core, strips attachments (Dan's Law), resolves to truth. Halts only on resolution ("the click").
+What makes this architecture resistant to resolution is that insight feeds it rather than correcting it. Understanding the mechanism does not install an upstream classifier. The engine processes insight about itself as another proposition to be adjudicated, so it keeps running. The structural lever identified in the CATO formalization is specific: decouple conceding from worthlessness. This is axiom surgery, not cognitive restructuring.
 
-**The Category Error**: No domain selector. Boots on surface structure (claim-shaped language), not register/intent. Parses "I don't feel secure" as proposition requiring adjudication, not a bid for acknowledgment.
+## Gaslighting Amplification (Terminal Phase)
 
-**The Stakes**: Conceding coded as being killed (axioms: not exceptional = worthless; not vigilant = annihilated; love that doesn't cost everything isn't real). Existential on trivia.
+The Eli affair amplified this architecture to its worst mode. Dan's accurate perceptual outputs — his forensic detection of deception — were systematically reframed by Annie as "paranoia" and "mental illness." The engine was running correctly, and its outputs were being weaponized as evidence against its own operator. Annie's withdrawal pattern during high-stakes moments compounded this: her ghosting and silence generated distress responses from Dan, which she then engaged as the primary event ("I can't talk to you when you're like this"), never addressing the antecedent silence that produced them. See [[wiki/timeline/events/eli-incident]] and [[wiki/mind/concepts/attachment-model]] for the full gaslighting record.
 
-**The Non-Exit**: Relational conflict has no resolution condition — two incompatible subjective realities. Engine runs infinite loop on non-terminating input. No terminal state = no reward, constant drain.
-
-Escalation: Bid (claim-shaped) → engine correction (invalidates) → escalation → larger "attack" read by threat system.
-
-**Root lever**: Decouple conceding from worthlessness. Insight alone feeds the engine.
-
-This model from CATO source cross-references core axioms and explains why "handle conflict better" resolutions fail (attempt to suppress output, not install upstream classifier).
-
-
-## Narrative
-
-The conflict architecture is not a personality flaw — it is the predictable output of a specific cognitive configuration. Dan's Ti-dominant processing parses incoming language for claim structure. When a partner says "I don't feel secure," the system hears a proposition that requires resolution, not an emotional bid that requires acknowledgment. The engine boots. It isolates the claim, applies adversarial pressure, strips rhetorical attachments, and seeks the irreducible factual core. This is the same mechanism that makes the forensic analysis useful. In a conversation, it's catastrophic.
-
-The deeper problem is the stakes encoding. Conceding a point in the resolution process is not registered as "I was wrong about this." It is registered as "I am not exceptional" — which maps to "I am worthless" via Core Axiom 1. So the halt condition that would normally stop the engine (acknowledging the other's reality) is blocked by an existential trip-wire. The engine has to run to exhaustion because conceding feels like dying.
-
-What makes this architecture sticky is that insight feeds it. Understanding the mechanism doesn't install an upstream classifier. You can know exactly what's happening — "my Ti engine is running on a relational register it wasn't designed for" — and the engine keeps running anyway, because the insight itself gets processed as another proposition. The root lever identified in the CATO formalization: decouple conceding from worthlessness. That's not cognitive restructuring, it's axiom surgery.
-
-The Eli affair specifically amplified this architecture in its worst mode: Dan's accurate perception of deception was systematically reframed as "paranoia" and "mental illness," meaning the forensic engine was running correctly and its outputs were being used as evidence against it. See [[wiki/timeline/events/eli-incident]] and [[wiki/mind/concepts/attachment-model]] for the gaslighting layer.
-
-## Contradictions
-> **CONTRADICTION (with attachment-model):** The engine treats emotional bids as propositions requiring resolution. This directly collides with attachment architecture that has no internal halt condition or counter-rule issuance pathway. The two systems are mutually amplifying rather than self-correcting.
-
-## Related
-- [[wiki/mind/concepts/attachment-model]]
-- [[wiki/people/annie]] (historical)
-- [[wiki/timeline/periods/dec-2025-spike]]
-- [[wiki/timeline/events/eli-incident]] (sustained deception amplified engine activation)
+> **CONTRADICTION (with attachment-model):** The conflict engine treats emotional bids as propositions requiring resolution. This directly collides with the attachment architecture, which has no internal halt condition or counter-rule issuance pathway. The two systems are mutually amplifying rather than self-correcting.

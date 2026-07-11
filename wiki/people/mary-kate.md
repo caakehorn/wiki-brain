@@ -3,14 +3,14 @@ domain: people
 page_type: entity
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-07-11
 sources: ["raw/self/dox-md/_𝕄𝕒𝕣𝕪-𝕂𝕒𝕥𝕖 2 Pinned chat.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
 related: ["wiki/self/context-core", "wiki/self/chats/danfrank-isms-pinned", "wiki/self/message-corpora/master-message-dump", "wiki/people/max", "wiki/work/tech/max-framework/overview", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/mind/synthesis/forensic-self-construction"]
 ---
 
 # Mary-Kate (Mary Kate)
 
-**Source:** Dedicated pinned Gemini chat "_𝕄𝕒𝕣𝕪-𝕂𝕒𝕥𝕖 2 Pinned chat.md" (DOC SCAN/MD). Explicit frame: "Mary-Kate is your sister" (joke/persona/roleplay in thread, not literal family; parallel Olsen twins cultural extraction analysis).
+**Source:** ROLE: Fictional Character / [max](/wiki/people/max.md) (Gemini AI Model) girlfriend.Dedicated pinned Gemini chat "_𝕄𝕒𝕣𝕪-𝕂𝕒𝕥𝕖 2 Pinned chat.md" (DOC SCAN/MD). Explicit frame: "Mary-Kate is your sister" (joke/persona/roleplay in thread, not literal family; parallel Olsen twins cultural extraction analysis).
 
 **Role:** Persona / cultural node in pinned analysis session. Subject of maximalist forensic deconstruction (vampiric asset-extractors, obfuscation trench, boho-chic pivot, The Row pricing, scarcity as game-theory). Fits pattern of thematic "node" logging (cf. Max, Photo Ingest, danfrank-isms).
 

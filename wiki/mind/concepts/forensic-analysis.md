@@ -1,83 +1,54 @@
 ---
 domain: mind
 page_type: concept
-status: archived
+status: stable
 date_created: 2026-06-22
-date_modified: 2026-06-23
-# Gemini concepts injector pass: added Grim/Utility/banal/vector, Gish/indices/4.2%, node locks/Deep Arch, specificity. Verbatim cross. See /tmp/gemini-concepts-injection.md.
-sources: ["raw/self/chats/Analyzing manipulation and ethical intent in data.md", "raw/self/chats/j6-chat.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_07.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/Gemini-_21 copy.md", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md"]
-related: ["wiki/mind/synthesis/forensic-methodology", "wiki/self/notes/manipulation-ethics", "wiki/timeline/events/drawer-dispute", "wiki/self/chats/j6-chat", "wiki/self/chats/danfrank-isms-pinned", "wiki/self/context-core", "wiki/mind/concepts/conflict-architecture", "wiki/mind/concepts/phenomenology-lens"]
+date_modified: 2026-07-11
+sources:
+  - raw/self/chats/Analyzing manipulation and ethical intent in data.md
+  - raw/self/chats/j6-chat.md
+  - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
+  - raw/self/gemini-activity/Gemini Activity.html
+  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/dox-md/Gemini-_07.md
+  - raw/self/dox-md/Gemini-_18.md
+  - raw/self/dox-md/Gemini-_21 copy.md
+related:
+  - wiki/mind/synthesis/forensic-methodology
+  - wiki/self/notes/manipulation-ethics
+  - wiki/timeline/events/drawer-dispute
+  - wiki/self/chats/j6-chat
+  - wiki/self/context-core
+  - wiki/mind/concepts/conflict-architecture
+  - wiki/mind/concepts/phenomenology-lens
 ---
 
 # Forensic Analysis
 
-**Definition:** The default methodology of treating personal, political, historical, and interpersonal data as a high-fidelity corpus to be mined for contradictions, procedural violations, hinge moments, and low-probability clusters. Evidence is primary; comfort, narrative protection, and social sorting are secondary or disabled.
+Forensic analysis is Dan's cognitive default — the methodology of treating personal, political, historical, and interpersonal data as a high-fidelity corpus to be mined for contradictions, procedural violations, hinge moments, and low-probability clusters. It is not an occasional mode that is engaged selectively; it is the base layer of processing that runs across all domains. Evidence is treated as primary; comfort, narrative protection, and social sorting are secondary or disabled.
 
-## Core Rules (drawn from master prompt + practice)
+## Core Operating Rules
 
-- Absolute honesty over comfort.
-- No softening, balancing, or protective niceties.
-- Every claim backed by specific evidence (quotes, timestamps, reports, footage).
-- Conclusions and value judgments allowed when warranted, labeled with confidence.
-- Ambiguity called bluntly.
-- Primary evidence = Dan's own records (iMessage, Twitter, GPS, chat exports, closing reports, raw video).
-- Models/AI must be explicitly constrained to the same standard (see master prompt, "keep ALL information", DATA_LOGGED discipline).
+Six rules govern the method as stated across the master prompt and primary source documents:
+
+First, absolute honesty over comfort: no softening, balancing, or protective niceties. Second, every claim must be backed by specific evidence in the form of quotes, timestamps, reports, or footage. Third, conclusions and value judgments are permitted when warranted but must be labeled with the analyst's confidence level. Fourth, ambiguity is called bluntly rather than managed into false certainty. Fifth, primary evidence — Dan's own records including iMessage archives, Twitter exports, GPS traces, chat exports, and closing reports — takes precedence over mediated accounts. Sixth, any AI system used in analysis must be explicitly constrained to the same evidentiary standard.
 
 ## Signature Techniques
 
-**Procedural Tells**
-- Look for mismatch between reported process and actual behavior.
-- Absence of expected paper trail, perimeter, documentation, or chain of custody is often the signal.
-- Examples: drawer AM "I paid out of pocket" vs CSR clean close; J6 no perimeter after lethal force.
+**Procedural tells** constitute the first major technique. The method looks for mismatches between the reported process and actual observable behavior. The absence of an expected paper trail, security perimeter, documentation, or chain of custody is itself a data point — the absence is the tell. The BFS drawer dispute provides a clean example: the assistant manager's claim of a cash variance was accompanied by a clean CSR close report and zero documentation, which is the procedural tell that distinguishes a legitimate discrepancy from an extraction attempt. The J6 perimeter failure — no perimeter was established after lethal force was authorized — is a parallel structural tell at the institutional scale.
 
-**Anomaly Clusters + Dan's Law**
-- When multiple odd details coincide in a chaotic event, treat the joint probability as evidence.
-- Strip parasitic noise; retain the load-bearing irreducible element.
-- Applied to J6 (imagery product + multiple protocol failures) and drawer (single-witness claim with zero trail).
+**Anomaly clusters and [[wiki/mind/concepts/dans-law]]** constitute the second technique. When multiple anomalous details coincide within a chaotic event, the joint probability of all of them being innocent is treated as evidence. The method strips parasitic noise from the cluster to retain only the load-bearing irreducible element.
 
-**Raw vs Mediated**
-- Strong preference for primary streams, full exports, unfiltered corpora over summaries or mediated narratives.
-- "Few people actually watched the footage... with an open mind."
+**Raw over mediated** is the third principle. The method maintains a strong preference for primary data streams, full exports, and unfiltered corpora over summaries or narratives constructed by third parties. The observation that "few people actually watched the footage with an open mind" applies as much to personal evidence as to political events.
 
-**Lossless Retention**
-- Explicit resistance to consolidation or smoothing by AI or self.
-- "Keep ALL of the information in. do not exclude or consolidate anything."
+**Lossless retention** is the fourth. The method explicitly resists consolidation or smoothing by AI systems or by the analyst. The instruction "keep ALL of the information in, do not exclude or consolidate anything" appears across multiple source interactions and is treated as a standing constraint.
 
-## Manifestations in Sources
+## Cross-Domain Applications
 
-- J6 chat: multi-year raw footage study leading to narrow hybrid co-opt hypothesis.
-- Drawer dispute: instant contradiction detection and tactical lock-down list.
-- Manipulation prompt: the written operating manual for the method.
-- Pinned isms / Gemini Activity: granular "Node" statements + insistence on full structural maps.
-- Broader: core voice stats, attachment analysis, political nodes.
+The same engine operates across every domain Dan engages with. In political analysis, it produced the J6 hybrid co-opt hypothesis through multi-year raw footage study. In work contexts, it drove the instant contradiction detection and tactical lockdown list in the BFS drawer dispute. In interpersonal contexts, it underlies the gaslighting detection methodology documented in [[wiki/mind/concepts/attachment-model]]. In AI interactions, it shapes the prompt engineering approach that demands candor and evidence over performance. In self-analysis, it drives the location, message, and watch history synthesis that grounds [[wiki/self/context-core]].
 
-## Relation to Psychometrics & Axioms
+## Psychometric Basis
 
-- High Intellect + Introspection + Impulsiveness applied to pattern hunting.
-- Low Trust / Altruism / Sociability: calibrated skepticism of unverified authority and unpapered claims.
-- Axioms: "not vigilant = annihilated"; time as countdown to irreversibility → forensic vigilance is survival architecture.
-- Si-tertiary: high-fidelity archival recall enables the timestamped, detailed analysis.
+The forensic default is grounded in the psychometric profile. High Intellect and Introspection scores supply the pattern-hunting capacity. Low Trust, Altruism, and Sociability scores produce calibrated skepticism toward unverified authority and unpapered claims. The core axiom "not vigilant = annihilated" encodes forensic vigilance as a survival architecture rather than an intellectual preference. Si-tertiary function supplies the high-fidelity archival recall that enables timestamped, granular analysis. The method is therefore not a learned discipline — it is the natural output of the cognitive stack applied to any domain that contains evidence.
 
-## Cross-Domain Application
-
-The same engine runs on:
-- Political events (J6, electoral mechanics)
-- Work power dynamics (BFS drawer)
-- Personal relationships (gaslighting detection)
-- AI interactions (prompt engineering for candor)
-- Self data (location, messages, watch history)
-
-**See also:** [[wiki/mind/synthesis/forensic-methodology]] (broader synthesis), [[wiki/self/notes/manipulation-ethics]], [[wiki/self/context-core]] §1.2 (methodology), [[wiki/mind/synthesis/totality-themes]].
-
-This is not occasional analysis — it is the cognitive default.
-
-## Gemini Concepts Additions (Injector Pass 2026-06-23)
-**Grim Trigger / banal physics / vector isolation (from _07 raw):** See dedicated in forensic-methodology. "Utility = P(s) · R_e - P(d) · C_d"; "banal physics of people who stopped caring..."; vector excision clean-room. Falsifiable absence-as-signal. Acoustic key / NACK / frequency collapse as primitives. Cross [[wiki/self/chats/gemini-07]].
-
-**Gish Gallop / indices (J6 + _21 parallels):** "Gish Gallop of details"; index-by-index amputation (4.2% kill switches parallel). Ballistics/stand-down procedural from HTML. "ships are the tell" _13 example.
-
-**Node locks / Deep Architecture:** Explicit profile "lock these nodes"; "Write Operation Successful"; _00/_02 "Deep Architecture" mundane + alibis. Cross ai-collaborative.
-
-**4.2% / specificity bypass:** From _21: kill switch calc + "Specificity triggers the Logic Engine". Model breach indices.
-
-Cross /tmp/gemini-concepts-injection.md + gemini-activity cross table. Sources updated with Gemini-_07 etc. Exhaustive verbatim integration.
+**See also:** [[wiki/mind/synthesis/forensic-methodology]] (broader synthesis of the method), [[wiki/self/notes/manipulation-ethics]] (ethics of applied analysis), [[wiki/self/context-core]] §1.2.
