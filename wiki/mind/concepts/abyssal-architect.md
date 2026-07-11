@@ -1,67 +1,49 @@
 ---
 domain: mind
 page_type: concept
-status: archived
+status: stable
 date_created: 2026-06-22
-date_modified: 2026-06-22
-sources: ["raw/self/dox-md/FULL PROFILE 2026.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md"]
-related: ["wiki/self/context-core", "wiki/mind/concepts/forensic-analysis", "wiki/mind/concepts/phenomenology-lens", "wiki/mind/synthesis/forensic-self-construction"]
+date_modified: 2026-07-11
+sources:
+  - raw/self/dox-md/FULL PROFILE 2026.md
+  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/dox-md/operating_manual.md
+related:
+  - wiki/self/context-core
+  - wiki/mind/concepts/forensic-analysis
+  - wiki/mind/concepts/phenomenology-lens
+  - wiki/mind/synthesis/forensic-self-construction
 ---
 
-# Abyssal Architect (INTP 5w4 sx/sp, ILI-Ni, RLUEI Archetype)
+# Abyssal Architect
 
-**Source:** FULL PROFILE 2026.md — comprehensive typology deconstruction.
+The "Abyssal Architect" (characterized by the INTP 5w4 sx/sp, ILI-Ni, and RLUEI typological stack) represents a core designation and psychological archetype deconstructed in the primary source document `FULL PROFILE 2026.md`. This profile encompasses several alternate labels, including the "Iconoclast," the "Dark Romantic," the "Abyssal Analyst," and the "Autistic Truth Seeker," operating along a Chaotic Neutral moral axis.
 
-**Core Designation:** The "Abyssal Architect," "Iconoclast," "Dark Romantic," "Abyssal Analyst," "Autistic Truth Seeker." Chaotic Neutral moral axis.
+## Psychometric and Typology Stack
 
-## Psychometric / Typology Stack
-- **MBTI:** INTP (Ti-Ne-Si-Fe)
-- **Enneagram:** 5w4 sx/sp (Sexual/Self-Preservation)
-- **Socionics:** ILI-Ni (Intuitive Logical Introvert, Intuitive subtype; "Critic" / Balzac)
-- **SLOAN/Big Five:** RLUEI (aligned with core Big30: high Intellect, Impulsiveness, Liberalism, Introspection; low Sociability, Altruism, Assertiveness)
-- Matches core §1.1: INTP · Enneagram 5w4 sx/sp · Socionics ILI-Ni
+The psychological profile of the Abyssal Architect is defined by a consistent typological stack across multiple diagnostic instruments:
+- **Myers-Briggs Type Indicator (MBTI):** The subject is classified as an INTP, exhibiting dominant Introverted Thinking (Ti), auxiliary Extraverted Intuition (Ne), tertiary Introverted Sensing (Si), and inferior Extraverted Feeling (Fe).
+- **Enneagram:** The subject is identified as a Type 5 with a 4 wing (5w4), operating under a Sexual/Self-Preservation (sx/sp) instinctual stacking.
+- **Socionics:** The profile aligns with the Intuitive Logical Introvert, Intuitive subtype (ILI-Ni), commonly referred to as the "Critic" or "Balzac."
+- **SLOAN/Big Five:** The RLUEI archetype corresponds to the high Intellect, Impulsiveness, Liberalism, and Introspection scores, paired with the low Sociability, Altruism, and Assertiveness values documented in the core psychometric data.
 
-## Key Mechanisms
+This typology directly expands upon the cognitive stack, Big Five psychometrics, and core unconscious axioms detailed in [[wiki/self/context-core]].
 
-**Ti Dominant as Existential Scalpel:**
-- Reductionist filter applied to self, social systems, cosmos.
-- Rejects social niceties, dogmas, comforting illusions for unvarnished truth.
-- Leads to philosophical nihilism, system deconstruction, "truth above comfort."
+## Cognitive and Instinctual Mechanisms
 
-**Ne Auxiliary as Paranoia Generator + Interdisciplinary Engine:**
-- Connects disparate domains (geology + mythology, machinery + music).
-- "What-if" dread under stress; overthinking.
-- Horrific implications tracing: "If this is true, then..."
+### The Cognitive Stack
+The cognitive functions of the INTP stack operate in a specific hierarchy:
+- **Introverted Thinking (Ti) as an Existential Scalpel:** Dominant Introverted Thinking applies a strict reductionist filter to the self, social structures, and the broader cosmos. It systematically rejects social niceties, dogmas, and comforting illusions in favor of unvarnished truth. This leads to a default state of philosophical nihilism and system deconstruction.
+- **Extraverted Intuition (Ne) as Pattern Recognition:** Auxiliary Extraverted Intuition serves as a cross-disciplinary engine that connects disparate fields, such as geology with mythology or machinery with music. Under stress, however, this function can generate paranoia and lead to exhaustive overthinking of horrific scenarios.
+- **Introverted Sensing (Si) and the Ti-Si Loop:** Tertiary Introverted Sensing manifests in a hyper-focus on routines, nostalgia, and sensory comforts, often occurring alongside physical self-neglect. When trapped in a Ti-Si loop, the subject replays past failures in detail, experiences temporal displacement such as nocturnal sleep schedules, and exhibits dietary extremes or sensory hypochondria.
+- **Extraverted Feeling (Fe) and the Social Blindspot:** Inferior Extraverted Feeling creates a persistent desire for connection paired with a lack of native social tools. This dynamic can produce a fragile persona, hypersensitivity to rejection, and immature emotional outbursts. It also results in a genuine blindness to social hierarchies, reputation management, and conventional etiquette. This contribution to the social blindspot often results in an "invisible genius" phenomenon, characterized by high intellectual output but low social recognition.
 
-**Si Tertiary + Ti-Si Loop:**
-- Hyper-focus on routines, nostalgia, sensory comforts amid self-neglect.
-- Replaying failures in detail; temporal displacement (nocturnal schedules).
-- Dietary extremes, sensory hypochondria.
+### Instinctual and Subtype Dynamics
+The instinctual stacking and wing structure introduce additional psychological tensions:
+- **The sx/sp Instinctual Tension:** The sexual (sx) instinct demands a fusion imperative, a craving for a soulmate, and total immersion, while the self-preservation (sp) instinct establishes a fortress of autonomy, resource hoarding, and cold withdrawal. This creates a push-pull dynamic of approach-avoidance. The subject may sabotage intimacy when it threatens personal autonomy, experiencing relief at the partner's absence followed by acute abandonment anxiety. Consequently, safe and distant communication mediums like digital messaging are strongly preferred.
+- **The Four Wing:** The Type 4 wing introduces aesthetic melancholy, a tendency to define identity through difference, and an attraction to tragic beauty. This manifests as an aristocratic alienation, where the subject perceives themselves as too refined for the mundane world yet functionally incompetent within it.
+- **The ILI-Ni Shift:** Within the Socionics framework, the shift to an intuitive subtype redirects cognitive focus from intellectual possibility to fatalistic inevitability. This produces a prophetic stillness and a vision of systemic decline, decay, or disaster. The creative Extraverted Thinking (Te) function criticizes external systems while simultaneously attempting to engineer functional replacements.
 
-**Inferior Fe + Social Blindspot (so-blind):**
-- Desire for connection but no native tools.
-- Fragile persona, rejection hypersensitivity, immature outbursts.
-- Genuine blindness to hierarchy, "reading the room," reputation.
-- "Invisible genius" phenomenon: high output, low recognition; operates outside tribes.
+## Structural Role and Forensic Integration
 
-**sx/sp Stacking Tension:**
-- sx: fusion imperative, soulmate craving, total immersion, "hot" intensity.
-- sp: fortress, autonomy, resource hoarding, "cold" withdrawal.
-- Push-pull: approach-avoidance, sabotage when intimacy threatens autonomy, relief at absence followed by abandonment anxiety.
-- Safe mediums (digital, letters) preferred.
-
-**4 Wing:** Aesthetic melancholy, identity through difference, tragic beauty, outsider as authentic. Aristocratic alienation (too refined + incompetent).
-
-**ILI-Ni Shift:** From Ne possibility to Ni inevitability. Prophetic stillness, vision of decline/decay/disaster. Fatalistic frameworks. Te creative: criticizes external systems while engineering replacements.
-
-## Relation to Core
-Direct expansion of core §1.2 Cognitive Stack, §1.3 Psychometrics (Big30 highs/lows), axioms (not exceptional = worthless; not vigilant = annihilated; time = countdown).
-"Failson / professional loser" self-deprecation as armor (core §1.2).
-Threat model around competence vs. outcome gap.
-
-## Forensic / Self-Construction Tie
-The archetype is built for the forensic default: Ti scalpel + Ni inevitability + so-blind irreverence + sx intensity produces the anomaly detection, procedural tells, lossless logging, and "honesty over comfort" seen across J6, drawer, manipulation prompt, Gemini nodes, message corpora.
-
-**Cross-references:** [[wiki/self/context-core]], [[wiki/mind/concepts/forensic-analysis]], [[wiki/mind/concepts/procedural-tells]], [[wiki/mind/concepts/dans-law]], [[wiki/mind/synthesis/forensic-self-construction]], [[wiki/self/message-corpora/master-message-dump]].
-
-This taxonomy is not decorative — it is the structural source code for the observed behavioral patterns.
+The Abyssal Architect taxonomy is not decorative; it represents the structural source code for the subject's observed behavioral patterns. The combination of a dominant Introverted Thinking scalpel, a fatalistic Socionics perspective, a social blindspot, and intense sexual instinctual energy produces the forensic default orientation observed throughout the corpus. This cognitive architecture underlies the subject's emphasis on anomaly detection, the identification of procedural tells, lossless data logging, and a preference for rigorous honesty over personal comfort. These traits are consistently expressed across diverse events, including political analyses, workplace disputes, and relationship post-mortems.

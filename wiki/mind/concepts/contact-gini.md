@@ -1,23 +1,19 @@
 ---
 domain: mind
 page_type: concept
-status: archived
+status: stable
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-07-11
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/message-csv/annie_all_time_logs.csv
-  - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
-  - raw/self/facebook/facebook-ihatedanfrank/messages/
+  - raw/self/facebook/facebook-ihatedanfrank/
   - raw/self/dox-md/tom_kristin_master_dossier.md
-  - raw/self/message-csv/imessage_3307038747*.csv
-  - raw/self/dox-md/operating_manual.md
-  - raw/self/message-csv/* (37 CSVs)
 related:
   - wiki/people/annie
   - wiki/people/tom
@@ -32,61 +28,49 @@ related:
 
 # Contact Gini
 
-## Definition
-Gini coefficient measuring concentration of relational load. Quantifies how much of Dan's relational/emotional input is routed through a statistically single external node.
+The "Contact Gini" concept refers to the application of the Gini coefficient to measure the concentration of Dan's relational load. It quantifies the degree to which his relational and emotional inputs are routed through a statistically single external communication node, rather than being distributed across a broader social network.
 
-## Evidence
-| Metric | Value | Source |
+## Relational Metrics
+
+| Metric | Value | Source Document |
 |---|---|---|
-| Contact Gini coefficient | 0.961 | Dan Profile (comprehensive synthesis) |
-| Interpretation | Relational load concentrated in statistically one node | Derived from message volume and interaction data across corpora |
-| Risk implication | Tolerability-of-existence routed through single external input | Profile analysis |
-| Unique contacts (master dump) | ~496 (sampled top 10 account for >80k msgs) | MASTER_MESSAGES_DB_DUMP.csv |
-| Annie events (calendar) | 266 relationship (of 1,104 total) | LIFE_EVENTS_CALENDAR.md |
-| Annie volume (dual handles) | +17244346811: 31,177 ; +12124702449: 17,145 (combined >48k) | MASTER_MESSAGES_DB_DUMP.csv analysis |
-| Top non-Annie nodes | Kristin +13307038747:16,563 ; Tom +17249987341:4,160 ; Suz +17243228715:2,391 ; Johnny +17243223678:3,462 ; Jerad +19165013615:879 (plus email) | MASTER_MESSAGES_DB_DUMP.csv |
-| Total calendar events | 1,104 across 633 dates (2015-11-28 to 2026-03-23); 66 contacts | LIFE_EVENTS_CALENDAR.md |
-| FB breadth note | ~650-659 friends 2009-2022 export; high breadth low depth; Annie deep node exception | raw FB archive + prior |
+| Contact Gini coefficient | 0.961 | Dan Profile |
+| Unique contacts in master dump | ~496 | MASTER_MESSAGES_DB_DUMP.csv |
+| Annie relationship events | 266 | LIFE_EVENTS_CALENDAR.md |
+| Total calendar events | 1,104 | LIFE_EVENTS_CALENDAR.md |
+| Total unique contacts in calendar | 66 | LIFE_EVENTS_CALENDAR.md |
 
-**Top concentration (MASTER dump):**
-- Annie PA (+17244346811): 31k+
-- Annie NYC (+12124702449): 17k+
-- Secondary major (Kristin +13307038747): 16k+
-- Tom: 4,160
-- Johnny (dealer): 3,462
-- Suz: 2,391
-- Frequent PA +17249204125: 4,812 (logistics cross)
-- Jerad: 879 (plus email)
+### Message Volume Concentration by Node
 
-**Peak concentration period**: The Annie corpus (2015–2026, ~25k+ annie logs + overall high) functioned as the dominant node. Terminal phase showed one-directional engagement drop while Dan's output remained high. From calendar: 2025 259 events high density in relationship; 2018 peak 254 events. FB messages confirm Annie as exception deep thread across 2007-2022 export.
-
-**Redundancy from new data**: BFS actors (Anita, Brandon, Kim, Marty per BFS_BOOTLOADER_v2.md) provide recent work node; Tom ~4k msgs (supply/anchor per operating_manual); 66 contacts in calendar. Post-closure Gini not recalculated. Message-corpora master confirms extreme Annie skew + long tail. Ties to [[wiki/self/message-corpora/master-message-dump]].
+| Node / Contact | Volume (Messages) | Role | Source Document |
+|---|---|---|---|
+| Annie (PA handle `+17244346811`) | 31,177 | Primary partner | MASTER_MESSAGES_DB_DUMP.csv |
+| Annie (NYC handle `+12124702449`) | 17,145 | Primary partner | MASTER_MESSAGES_DB_DUMP.csv |
+| Kristin (`+13307038747`) | 16,563 | Secondary contact (friend of Tom) | tom_kristin_master_dossier.md |
+| Frequent PA Contact (`+17249204125`) | 4,812 | Logistical/work contact | MASTER_MESSAGES_DB_DUMP.csv |
+| Tom Maison (`+17249987341`) | 4,160 | Primary male ally | MASTER_MESSAGES_DB_DUMP.csv |
+| Johnny (`+17243223678`) | 3,462 | Transactional dealer node | MASTER_MESSAGES_DB_DUMP.csv |
+| Suzanne Frank (`+17243228715`) | 2,391 | Mother | MASTER_MESSAGES_DB_DUMP.csv |
+| Jerad Friedline (`+19165013615`) | 879 | Childhood friend | MASTER_MESSAGES_DB_DUMP.csv |
 
 ## Narrative
 
-A Gini coefficient of 0.961 means the relational load is concentrated to a degree that makes the term "social network" almost inapplicable. Economically, a 0.961 Gini would mean one person owns essentially everything. Relationally, it means the tolerability of existence routes through a single external node — when that node degrades, everything degrades simultaneously. There's no redundant load path.
+A Contact Gini coefficient of 0.961 indicates that the subject's relational load is concentrated to a degree where conventional social support concepts do not apply. In economic terms, a Gini coefficient of 0.961 represents a near-total monopoly where one entity owns almost all wealth. Relationally, this concentration means that the subject's overall emotional stability and connection to reality are routed through a single external input. When this primary node degrades or becomes unstable, the entire relational architecture collapses simultaneously, as there are no redundant pathways to absorb the load.
 
-The Annie corpus makes this concrete: 48k+ messages across two handles, 266 relationship events in the calendar, a 10-year co-habitation arc. The second node by volume (Kristin at 16.5k) is a recent thread with Tom's friend — not a historical attachment anchor. Tom at 4,160 messages is the most structurally reliable node but isn't in the same order of magnitude. The long tail — 650+ FB friends, 496 contacts in the master dump — is exactly that: breadth without depth, social presence without relational load-bearing capacity.
+The Annie corpus provides empirical evidence for this vulnerability. It contains over forty-eight thousand messages across two phone handles, two hundred and sixty-six documented relationship events in the life calendar, and a cohabitation history spanning ten years. In contrast, the secondary node by volume—Kristin, with over sixteen thousand messages—represents a highly active but relatively recent thread, rather than a long-term attachment anchor. Tom, at just over four thousand messages, serves as a structurally reliable male ally but remains an order of magnitude smaller in volume. The long tail of the social graph, which includes over six hundred Facebook friends and nearly five hundred contacts in the master dump, represents breadth without depth, offering minimal relational load-bearing capacity.
 
-The closure event (June 1 2026) didn't just end a relationship; it terminated the primary load-bearing structure of the entire relational architecture without redundant infrastructure ready. The redundancy imperative isn't a therapeutic suggestion — it's an engineering requirement. The current period (2026 stabilization) is the window when that structure needs to be rebuilt, which is part of what the music reactivation, AI work, and this wiki project are actually doing: distributing the load across output channels that don't depend on a single external node. See [[wiki/mind/synthesis/totality-themes]] for the cross-corpus pattern that makes this a recurring structural theme.
+The relationship closure on June 1, 2026, did not simply end a personal partnership; it terminated the central load-bearing structure of Dan's entire relational network. Because no redundant support infrastructure was prepared, the collapse was immediate and comprehensive. The redundancy imperative is therefore treated not as a therapeutic recommendation, but as a critical engineering requirement. During the stabilization period of 2026, rebuilding this infrastructure is a primary objective. This is executed by distributing relational load across independent channels that do not depend on a single external person, including music production, work in artificial intelligence, and the compilation of this wiki.
 
 ## Redundancy Imperative
-Build distributed load across multiple lower-intensity channels:
-- Music production (MOGZART / gripnotic output channel)
-- Primary male ally relationship ([[wiki/people/tom]])
-- The work (self-analysis project, DANMODEL tooling, AI agent construction)
-- FB breadth as historical low-depth counter (but low signal per archive)
 
-## Contradictions
-> **CONTRADICTION:** The 0.961 figure is derived from pre-closure data. Post-June 1 2026, the primary node has been removed by external event. No updated Gini coefficient has been calculated against post-closure behavioral data (Twitter sample, current projects, Tom logs).
-> **REVISED [2026-06-23]:** Updated with master CSV top-handle extraction (Annie dual >48k msgs confirmed concentration; Kristin locked to +13307038747 with full thread CSV cross-ref, correcting any prior "Jerad?" misrefs); added more top nodes (Johnny 3.4k, frequent PA 4.8k, Jerad 879) + FB messages cross and BFS work nodes as emerging redundancy. Data from 37 CSVs + LIFE_EVENTS_CALENDAR + operating_manual + FB archive + dox-md/tom_kristin_master_dossier.md.
+To mitigate the risks of extreme relational concentration, the subject has initiated efforts to distribute communication load across several independent channels:
+- Sincere creative expression is routed through music production under the GRIPNOTIC alias, which serves as a primary output channel.
+- Peer support and grounding are maintained through his relationship with Tom Maison, who functions as his primary male ally.
+- Professional focus and cognitive redirection are channeled into the self-analysis project, the development of the DANMODEL retrieval tools, and the construction of active AI agent pipelines.
+- Broad, low-intensity social interactions are monitored through Facebook, although the archive indicates that these channels carry low signal density and do not provide deep relational support.
 
-## Related
-- [[wiki/people/annie]] (primary historical node)
-- [[wiki/people/tom]] (key redundancy node)
-- [[wiki/self/twitter]] (public output channel — partial redundancy)
-- [[wiki/interests/music/aliases/gripnotic]] (music production as sincere output)
-- [[wiki/self/message-corpora/master-message-dump]] (detailed volume tables)
-- [[wiki/mind/synthesis/attachment-trauma-bond]] (Gini as attachment load factor)
-- [[wiki/self/facebook/messages]] (FB Annie thread as parallel deep node)
-- [[wiki/timeline/periods/2025-collapse]] (terminal phase data)
+## Documented Contradictions
+
+> **CONTRADICTION:** The Gini coefficient of 0.961 is derived entirely from pre-closure data. Following the closure event on June 1, 2026, the primary communication node was removed. No updated Gini coefficient has been calculated against post-closure behavioral data, such as recent Twitter activity, current work projects, or subsequent logs with Tom.
+
+> **REVISED [2026-06-23]:** The relational volume table has been updated to reflect the master CSV extraction. This correction establishes the concentration of Annie's dual handles at over forty-eight thousand messages and locks Kristin's volume to her specific handle, correcting a prior reference to Jerad. Emerging work nodes from the BFS foods transition, including Anita, Brandon, Kim, and Marty, have been introduced as potential sources of relational redundancy.

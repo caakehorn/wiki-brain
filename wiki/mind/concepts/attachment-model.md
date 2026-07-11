@@ -1,9 +1,9 @@
 ---
 domain: mind
 page_type: concept
-status: archived
+status: stable
 date_created: 2026-06-22
-date_modified: 2026-06-22
+date_modified: 2026-07-11
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -13,66 +13,50 @@ related:
   - wiki/people/annie
   - wiki/timeline/events/eli-incident
   - wiki/timeline/events/group-chat-closure
-  - wiki/self/facebook (Eggie/Annie thread 2017-2021: video calls, baby talk, family conflict disclosure, logistics as primary attachment record; digital volume vs depth as safe tether)
+  - wiki/self/facebook
 ---
 
 # Attachment Model
 
-## Definition
-First full attachment activation: Annie (prior relationships — Danielle, Kelly, Alexis — never triggered full activation).
+The attachment model details the first documented instance of full attachment-system activation in Dan's history, which occurred during his relationship with Annie. His prior relationships with Danielle, Kelly, and Alexis did not trigger this level of psychological attachment. Within Dan's cognitive processing architecture, positive verbal expressions function as absolute rules that remain active until an explicit, unambiguous signal of severance is received. If no explicit severance signal is issued, the internal system is unable to generate a counter-rule to close the model, leaving the attachment loop active indefinitely.
 
-Autistic processing architecture: weighted positive rhetoric keeps rule active, no counter-rule issued, no model closure possible without explicit severance signal. The system requires an explicit severance signal to issue a counter-rule and close the model.
+This cognitive architecture is heavily influenced by a multi-generational family layer. A paternal authority wound was established by a parental rupture in 2005, when his father Rick entered rehabilitation and his parents separated, leading to subsequent low-intensity contact. A pattern of functional alcoholism also spans several generations of Dan's family. Conversely, his maternal great-grandmother, Fran Whyel, was his self-described largest life influence. This background encoded relational templates characterized by intermittent attachment, vertical suspicion, and an expectation of abandonment. Further details on these family influences are found in [[wiki/people/rick-frank]], [[wiki/people/fran-whyel]], [[wiki/people/suz]], and [[wiki/self/ancestry]].
 
-**Family/Parental Layer (from ancestry tree + core):** Paternal "undischarged paternal-authority wound" (Rick: low contact, 2005 rehab/rupture). Family pattern of functional alcoholism across generations (mother/grandmother/great-grandmother/father per core). Maternal great-grandmother Fran Whyel as "biggest life influence" (WV origin, gifted Numark NS7, deathwatch with Annie). Encodes templates of abandonment, vertical suspicion, and intermittent attachment. See [[wiki/people/rick-frank]], [[wiki/people/fran-whyel]], [[wiki/people/suz]], [[wiki/self/ancestry]].
+## Quantitative Corpus Indicators
 
-## Evidence
-
-| Signal | Count / Status | Source |
+| Indicator | Count | Source Document |
 |---|---|---|
-| Love affirmations (Annie to Dan) | 299 | Annie corpus (MasterRecord synthesis) |
-| Explicit severance signals (Annie to Dan) | 0 | Full 10-year corpus |
-| Relationship events (calendar) | 266 | LIFE_EVENTS_CALENDAR.md |
-| Cheating/affair subcat | 84 | LIFE_EVENTS_CALENDAR.md |
-| Pursuit-withdrawal cycles | Extensive (anxious-avoidant trap) | LIFE REPORT / Annie forensic |
-| Intermittent "I love you" crumbs | Documented | Annie forensic report |
+| Love affirmations from Annie to Dan | 299 | MasterRecord Synthesis |
+| Explicit severance signals from Annie to Dan | 0 | Full ten-year Annie Corpus |
+| Documented relationship events | 266 | LIFE_EVENTS_CALENDAR.md |
+| Cheating and affair subcategory events | 84 | LIFE_EVENTS_CALENDAR.md |
+| Written denials of a third-party relationship | 2 | MasterRecord Synthesis |
+| Sequences pairing an affection expression with a request | 145 | MasterRecord Synthesis |
+| Documented "fell asleep" alibis | 24 | MasterRecord Synthesis |
+| High-volume communication burst events | 94 | MasterRecord Synthesis |
 
-**From LIFE REPORT / forensic:** Pursuit-withdrawal trap, gaslighting, logistical tether as glue. "I love you" intermittency. sx/sp fusion without closure. No explicit severance until group chat June 1 2026.
+The complete lack of explicit severance signals across a ten-year corpus, combined with two hundred and ninety-nine love affirmations, meant that no internal data was available to generate a counter-rule. Consequently, the attachment model remained active until it was terminated by an external event.
 
-**Redundancy note:** Post-closure, model requires explicit counter-rule for closure per definition. 
-| Written denials of third-party relationship | 2 (Nov 2025, Feb 2026) | Corpus |
-| Actual confirmed third-party relationship | Yes (Eli) | Group chat closure 2026-06-01 |
-| 'I love you' → request within 24h sequences | 145 | MasterRecord (7-month terminal window) |
-| "Fell asleep" alibis | 24 | MasterRecord |
-| Burst events | 94 | MasterRecord |
+## Model Narrative
 
-**Closure requirement**: 0 explicit severance signals across 10 years + 299 love affirmations = no internal counter-rule ever available. Model remained active until external confirmation event.
+The attachment model describes the catastrophic interaction between Dan's rule-based processing architecture and a relationship that lacked a definitive conclusion. This mechanism is structural rather than pathological. Because the cognitive engine weights positive rhetoric heavily and requires a formal, explicit signal to terminate an active rule, the model stayed active throughout a fifteen-month terminal phase from August 2025 to June 2026. The system did not fail to perceive Annie's behavioral withdrawal; rather, it noted the behavioral withdrawal, found it inconsistent with the active attachment rule, and flagged the contradiction as an anomaly to be resolved rather than closing the model. Every instance where Annie said "I love you" while withdrawing behaviorally generated a data conflict that prevented closure.
 
-## Narrative
+This dynamic was further complicated by historical family patterns. The parental rupture of 2005 established a template where a trusted primary figure maintained a concealed alternate reality. Dan's relationship with Annie replicated this template, involving a trusted partner, sustained deception, and Dan choosing to accept verbal denials to preserve relational stability.
 
-The attachment model describes a simple but catastrophic interaction between Dan's autistic processing architecture and a decade of relationship dynamics with no clean termination signal. The mechanism is structural, not pathological: when you weight positive rhetoric heavily and your system requires an explicit counter-signal to close an open rule, the model stays active indefinitely. Annie issued 299 documented love affirmations across the corpus and zero explicit severance signals. The model had no data to close on.
+The core moral event of the relationship's terminal phase was the systematic erosion of Dan's perception, often described as gaslighting. Convincing a partner that their accurate observations are signs of paranoia or mental illness attacks their core capacity to understand reality. The closure event on June 1, 2026, provided the first explicit, verified data that allowed the cognitive system to generate a counter-rule and close the model.
 
-This is why the 15-month terminal phase (Aug 2025 – June 2026) persisted despite visible behavioral evidence of withdrawal. The system wasn't failing to read the signals — it was reading them correctly, finding them inconsistent with the open attachment rule, and flagging the inconsistency rather than resolving it by closing the model. Every time Annie said "I love you" while behaviorally withdrawing, the system got a data conflict, not a closure signal. The engine ran on.
+## Gaslighting Architecture
 
-The family layer compounds this. The parental rupture pattern (2005: trusted primary attachment figure maintaining a hidden alternate reality) seeded the template. The first relationship to fully activate the attachment system replicated that exact template — trusted partner, sustained hidden deception, Dan choosing to believe denials in order to return to normal. The repetition is architecturally overdetermined, not coincidental.
+The communication corpus demonstrates a systematic gaslighting architecture used to maintain relational stasis during active deception:
+- **Verbal Anchoring:** Annie maintained explicit verbal commitments, such as calling Dan her "soulmate" or telling him she loved him, while concurrently withdrawing physical presence, shared time, and fidelity.
+- **Semantic Drift:** The ten-year norm of mutual location sharing was unilaterally removed by Annie in August 2025, following a night spent at her former partner's residence. This removal was subsequently refed and reframed as Dan making a controlling demand.
+- **Cause-and-Effect Inversion:** Annie systematically responded to the distress caused by her withdrawal rather than the withdrawal itself, using phrases such as "I cannot talk to you when you are like this" to avoid addressing the underlying issues.
+- **Systematic Attacks on Reality:** While maintaining a relationship with Eli from at least August 2024, Annie repeatedly told Dan that his suspicions were insane, paranoid, or symptoms of mental illness. Dan explicitly documented that he chose to believe these assertions in order to return to a perceived normal life.
 
-The corrective addendum's key finding is the moral core: systematically convincing someone that their accurate perception is insanity is categorically different from other forms of betrayal. It attacks the perceiver's capacity to know reality, which is a different order of harm. The closure event (June 1 2026) is the first explicit data the system received that could generate a counter-rule.
+The central impact of this architecture was the subversion of Dan's cognitive stability. By targeting his capacity to verify reality, the deception inflicted a distinct category of psychological harm that went beyond simple infidelity.
 
-## Gaslighting Architecture (Sustained, during active deception)
-- **'I Love You' Anchor**: Verbal commitment maintained ("I love you", "soulmate") while behavioral elements (time, location, fidelity) were withdrawn.
-- **Semantic Drift**: 10-year mutual GPS/location norm unilaterally removed Aug 2025 (post ex night); reframed as Dan's new "controlling demand".
-- **Cause/Effect Inversion**: Silence/withdrawal precedes Dan distress → response targets only the distress ("I can't talk when you're like this"), never the antecedent.
-- **Active Reality-Attack (Eli phase)**: While affair was ongoing (sustained from ~Aug 2024), Annie repeatedly and forcefully told Dan his accurate suspicions were "insane" / "paranoia" / "mental illness". Dan explicitly chose to believe her account to return to "normal life" (May 27 2025 retrospective).
+## Documented Contradictions
 
-**Corrective Addendum key finding**: The sustained convincing of accurate perception = insanity is not one gaslighting item among others. It is the central moral event of the terminal phase because it attacks the perceiver's capacity to know reality.
+> **CONTRADICTION:** Annie issued written denials of third-party involvement in November 2025 and February 2026. These denials were issued while she was actively engaged in a relationship with Eli and conducting a defamation campaign within their shared peer network, creating a direct contradiction between her private assurances and her public actions.
 
-## Contradictions
-> **CONTRADICTION (with closure data):** Written denials (Nov 2025 / Feb 2026) were issued while the third-party relationship and defamation campaign were already active. Private denials directly contradicted contemporaneous public framing.
-
-> **REVISED 2026-06-22:** Prior versions treated Eli as "discovered incident" (Jan 2025). Corrective sources establish it was sustained concealment from at least autumn 2024. Updated in [[wiki/timeline/events/eli-incident]] and this page.
-
-## Related
-- [[wiki/people/annie]]
-- [[wiki/timeline/events/eli-incident]]
-- [[wiki/timeline/events/group-chat-closure]]
-- [[wiki/timeline/periods/dec-2025-spike]]
-- [[wiki/mind/concepts/conflict-architecture]]
+> **REVISED 2026-06-22:** Previous analyses characterized the relationship with Eli as an isolated incident discovered in January 2025. Corrective sources confirm that the relationship was a sustained concealment that began in at least autumn 2024. This timeline has been updated in [[wiki/timeline/events/eli-incident]] and the main entry for Annie.
