@@ -21,9 +21,9 @@
 - [x] `wiki/mind/concepts/cato.md` — prose rewrite
 
 ## Phase 3: Mind / Synthesis
-- [ ] `wiki/mind/synthesis/forensic-methodology.md` — prose rewrite
-- [ ] `wiki/mind/synthesis/attachment-trauma-bond.md` — prose rewrite
-- [ ] `wiki/mind/synthesis/totality-themes.md` — prose rewrite
+- [x] `wiki/mind/synthesis/forensic-methodology.md` — prose rewrite
+- [x] `wiki/mind/synthesis/attachment-trauma-bond.md` — prose rewrite
+- [x] `wiki/mind/synthesis/totality-themes.md` — prose rewrite
 - [ ] `wiki/mind/synthesis/lossless-retention.md` — prose rewrite
 - [ ] `wiki/mind/synthesis/millennial-digital-witness.md` — prose rewrite
 - [ ] `wiki/mind/synthesis/forensic-self-construction.md` — prose rewrite
