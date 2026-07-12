@@ -22,6 +22,12 @@
 ## 🚀 Current Focus & Next Steps
 **Continue Phase 3 (Mind / Synthesis)** — 7 files remain, see `task.md`. Then Phase 4 (People primary cast).
 
+**NEW USER DIRECTIVE (2026-07-11):** The user judges current page content "an okay start" but wants a deeper pass: pages "omit or look over the most important information" and the categorization needs redesign. Phase 9 added to task.md — a content-depth audit that goes back to raw/ sources per page instead of only polishing prose. When rewriting any page from here on, do not just restyle the existing text: re-read the page's raw/ sources and ask what the *most important* facts are, then lead with those.
+
+**Contact stubs:** `contact-review.md` (repo root) lists all 23 unnamed stubs with handles/samples for the user to name or DELETE (5 pre-marked as automated/spam). Process the user's decisions when they say so.
+
+**Subscription-independent ingestion now exists:** `INGEST_PROTOCOL.md` + `bin/ingest-pack` / `bin/ingest-apply` let ANY chat LLM run an ingestion via copy-paste. If you are not Claude Code, this is also how you can apply multi-file changes safely.
+
 Standing rules learned this cycle:
 - Commit your work before ending a session — do not leave the tree dirty.
 - Never write exports/corpus files into the repo root (exports/ is gitignored).

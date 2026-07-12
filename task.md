@@ -68,6 +68,11 @@
 - [ ] `wiki/legal/bfs-dispute/overview.md` — rewrite with status banner
 - [ ] `wiki/legal/463-morgantown/overview.md` — rewrite with status banner
 
+## Phase 9: Content-depth audit (USER DIRECTIVE 2026-07-11 — supersedes style-only polish)
+- [ ] Define per-domain "most important information" checklists with the user
+- [ ] Re-audit Phase 1–3 pages against raw/ sources (not just prose polish): does each page LEAD with what matters most?
+- [ ] Categorization redesign proposal (present options to user before restructuring)
+
 ## Phase 8: Indexes + Style Guide Files
 - [ ] `wiki/self/index.md`
 - [ ] `wiki/people/index.md`

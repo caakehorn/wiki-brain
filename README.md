@@ -46,10 +46,17 @@ You can also just drag files into `inbox/` yourself — same thing.
 
 ## Getting it into the wiki
 
-Open Claude Code in this folder and say **"ingest the inbox"**. It processes
-one item at a time: files the original into `raw/` (kept forever, never
-edited), then writes/updates the relevant wiki pages and commits. The rules
-it follows are in `CLAUDE.md`.
+Two ways — either works, both follow the same rules (`CLAUDE.md` +
+`STYLE_GUIDE.md`):
+
+1. **Claude Code:** open it in this folder and say "ingest the inbox."
+2. **Any LLM (no subscription needed):** `bin/ingest-pack` bundles an inbox
+   item into a single prompt; paste it into any chat model (ChatGPT, Gemini,
+   a local model), save the reply, and `bin/ingest-apply <reply>` validates
+   and applies it. Full details in `INGEST_PROTOCOL.md`.
+
+Either way, one item at a time: the original is filed into `raw/` (kept
+forever, never edited), then the relevant wiki pages are written or updated.
 
 ## Reading it
 
