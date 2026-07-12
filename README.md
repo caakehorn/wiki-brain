@@ -17,13 +17,20 @@ Alternatively, double-click **Wiki.command** (or run `python3 app.py`).
 Either way, your browser opens
 at `http://127.0.0.1:8477` with everything in one place:
 
-- **Browse** — read the whole wiki with rendered pages, clickable links,
-  and full-text search; every page has an **✎ Edit** button at the bottom
-  for direct fixes (edits are logged in log.md)
+- **Wiki** — browse with collapsible domain groups and full-text search;
+  every page has **✎ Edit** (in-place editor) and **Rename** in the toolbar.
+  Rename updates every link and `related:` reference across the wiki
+  automatically, and logs the operation.
 - **Capture** — type facts or full stories; drag-and-drop any file to upload.
   Type **@** to autocomplete a wiki page reference — the note is then saved
   as a *correction/expansion targeting that page*, and ingestion applies it
   there first
+- **Ingest** — the full any-LLM loop in the GUI: select an inbox item,
+  generate the prompt pack, copy it into any chat model, paste the reply
+  back, and apply (validated + linted, optional auto-commit)
+- **Sync** — header shows branch / uncommitted / ahead-behind state; the
+  Sync button commits, pulls --rebase, and pushes to GitHub. A red banner
+  warns if the GitHub repo is publicly visible.
 - **Inbox** — see and manage what's waiting for ingestion
 - **Export** — one click bundles the corpus for LLMs, with a download link
 
