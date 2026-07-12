@@ -1,0 +1,95 @@
+# Style Guide — Personal Wiki
+
+The binding rules for every page in `wiki/`. CLAUDE.md holds the operating
+process (ingest/query/lint); this file holds the page format. When the two
+disagree, this file wins on formatting, CLAUDE.md wins on process.
+`bin/wiki-lint` mechanically enforces the vocabularies below — run it before
+every commit.
+
+## Frontmatter
+
+Required fields, in this order:
+
+```yaml
+---
+domain: self | timeline | people | mind | work | interests | health | places | legal
+page_type: entity | event | concept | period | summary | synthesis | profile | report | chat | note | index
+status: active | stable | stub | closed | archived
+date_created: YYYY-MM-DD
+date_modified: YYYY-MM-DD
+sources: []    # real raw/ paths that exist on disk
+related: []    # wiki page paths (no .md extension needed)
+---
+```
+
+Optional fields (adopted 2026-07-11 — use when they add value, never
+invent new ones):
+
+```yaml
+title: "Human Title"        # when the filename isn't the natural title
+aliases: ["nickname", ...]  # alternate names/handles for search & dedupe
+tags: [topic, topic]        # cross-domain topical hooks
+importance: critical | high | normal   # triage for LLM context budgets
+changelog:                  # only on critical pages; newest first
+  - date: YYYY-MM-DD
+    note: "one line"
+```
+
+There is **no** `author-stub` / `artist-stub` / other invented page_type: a
+stub is `page_type: entity` (or the appropriate type) with `status: stub`.
+
+## Status vocabulary
+
+`active` = live situation, expect updates · `stable` = accurate, settled ·
+`stub` = placeholder awaiting real content · `closed` = formally ended ·
+`archived` = pinned artifact in an `archive/` dir, never updated, exempt
+from budgets. Default for a finished page is `stable`, not `archived`.
+
+## Prose rules
+
+1. **Complete sentences.** No dossier shorthand, no fragment chains. A page
+   must read as prose to a human opening it cold.
+2. **Tables hold numbers, prose holds meaning.** Never narrate a table's
+   contents in the surrounding text.
+3. **Paraphrase, don't transplant.** Verbatim source text stays in raw/;
+   quotes of one sentence or less only when the wording itself is evidence.
+4. **Page budget ~8 KB.** Bigger means it is two pages. Split by moving a
+   coherent subtopic to its own page, never by truncating.
+5. **No agent chatter anywhere.** No session notes, ingest logs, "/tmp/"
+   paths, model names, or "this pass did X" — that history lives in log.md
+   and the git log only.
+6. **One page per entity.** Grep for every known name/handle/alias before
+   creating a people page. Merge, never fork.
+7. **Contradictions are flagged, not overwritten:** inline
+   `> **CONTRADICTION:** ...` blockquote. Corrections get
+   `> **REVISED [YYYY-MM-DD]:** ...`.
+8. **Dates are absolute.** Convert relative time at write time; flag
+   uncertainty as `(~2019?)`.
+
+## LLM Quick Brief
+
+Pages marked `importance: critical` should open (after the intro paragraph)
+with an `## LLM Quick Brief` section: one dense paragraph written for
+direct context injection — who/what this page covers and the load-bearing
+facts, self-contained, with wikilinks. Keep it under 200 words. Do not add
+briefs to ordinary pages.
+
+## Linking
+
+- Wikilinks use full repo-relative paths without extension:
+  `[[wiki/people/annie]]`. Directory links (`[[wiki/people/contacts/]]`)
+  are allowed when the directory exists.
+- Every non-index page must be reachable from its domain index (the lint
+  orphan check enforces this).
+- `wiki/people/contacts/` is quarantine: auto-generated stubs, never linked
+  from prose. Promote a contact to a real page (move it out of contacts/)
+  once it's mentioned 3+ times in prose or the user asks.
+
+## Capture-note handling (ingest)
+
+Captured notes may carry `targets: [wiki/...]` (from @-mentions) — apply
+the note to those pages first. Square-bracket lines like
+`[RENAME PAGE TO x]` are **operator instructions to the ingesting model**,
+not content: execute them (honoring all rules above, e.g. link updates on
+rename), and do not copy the bracket text into any page. The note still
+gets the full synthesis treatment and is filed into raw/ afterward.

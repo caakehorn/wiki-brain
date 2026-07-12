@@ -104,6 +104,11 @@ Run `bin/wiki-lint` before committing any ingest.
 
 ## Writing rules (v1 failed by ignoring these)
 
+**`STYLE_GUIDE.md` in the root is the binding page-format spec** (frontmatter
+fields incl. optional title/aliases/tags/importance/changelog, LLM Quick
+Brief convention, capture bracket-instruction handling). The rules below are
+the short form; read the style guide before writing pages.
+
 1. **Complete sentences.** No dossier shorthand or fragment chains. Every
    page must read as prose to a human opening it cold.
 2. **Tables hold numbers, prose holds meaning.** Never repeat a table in prose.

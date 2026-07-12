@@ -1,6 +1,6 @@
 ---
 domain: interests
-page_type: author-stub
+page_type: entity
 status: active
 importance: high
 date_created: 2026-06-22
