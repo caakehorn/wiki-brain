@@ -15,19 +15,35 @@
 ## 🎯 Current Project Status
 - **Phase 1 (Core Spine):** Complete (`context-core.md`, `overview.md`, `index.md`).
 - **Phase 2 (Concepts):** Complete. All concepts rewritten to prose and stabilized.
-- **Contact Stubs Issue:** Resolved. 97 auto-generated contact stubs were cross-referenced against `contacts.csv`; 73 were successfully identified and renamed. Redundant collision files (Vanessa Frank, Annie Ulmer) were merged into their primary cast pages and deleted.
+- **Contact Stubs Issue:** Resolved. 97 stubs cross-referenced against `contacts.csv`; 73 renamed; collisions merged. 2 more (danielle-onesi, alexi-armel) merged into primary pages 2026-07-11. ~22 unidentified `contact-xxxxxx` stubs remain (await user identification).
+- **STYLE_GUIDE.md now EXISTS** (repo root) — it is the binding page-format spec. The extended frontmatter that earlier sessions introduced (title/aliases/tags/importance/changelog + LLM Quick Brief) is now official; invented page_types like `author-stub` are banned (use `status: stub`). `bin/wiki-lint` must pass (0 errors) before every commit.
+- **Phase 3 (Synthesis):** 5 of 12 done (forensic-methodology, attachment-trauma-bond, totality-themes, ai-collaborative-analysis, political-psyops).
 
 ## 🚀 Current Focus & Next Steps
-We are currently ready to begin **Phase 3 (Mind / Synthesis)** OR continue **Phase 4 (People)**.
-*Check `task.md` for the exact list of files.*
+**Continue Phase 3 (Mind / Synthesis)** — 7 files remain, see `task.md`. Then Phase 4 (People primary cast).
 
-**Immediate Next Tasks (Pick One):**
-1. **Phase 3 (Synthesis):** Begin rewriting the 10 synthesis files (e.g., `forensic-methodology.md`, `attachment-trauma-bond.md`). Convert fragmented bullet points into full prose sentences per the style guide.
-2. **Phase 4 (People):** Continue the primary cast rewrites (e.g., `fran-whyel.md`, `suz.md`, `rick-frank.md`).
+Standing rules learned this cycle:
+- Commit your work before ending a session — do not leave the tree dirty.
+- Never write exports/corpus files into the repo root (exports/ is gitignored).
+- Process inbox capture notes (especially `targets:` corrections and `[BRACKET]` operator instructions) BEFORE rewriting the pages they touch — see STYLE_GUIDE.md "Capture-note handling."
+- Renames must update every inbound link (`grep -r` before and after) and merge any matching `contacts/` stub.
 
 ---
 
 ## 📝 Session Log (Newest First)
+
+### [2026-07-11] - Session: Coordination Stabilization + Phase 3 Continuation
+* **Model:** Claude Fable 5 (Claude Code)
+* **Summary:**
+  - Audited the multi-model workflow; verdict: output good, coordination drifting. Fixes:
+  - Committed prior session's uncommitted Phase 3 work (3 synthesis rewrites + task.md).
+  - Untracked `corpus_2026-07-11.md` (1MB export accidentally committed to root); gitignored `corpus_*.md`.
+  - **Wrote `STYLE_GUIDE.md`** — codifies extended frontmatter, LLM Quick Brief, capture bracket-instructions; CLAUDE.md now points to it. Fixed 8 invalid page_types (`author-stub`/`artist-stub` → `entity`+`stub`); lint back to 0 errors.
+  - Added the two missing oversized pages to task.md Phase 3.
+  - **Ingested both capture corrections:** `danielle.md`→`danielle-onesi.md` (full name, "Dee", merged 44-msg contact stub) and `lex.md`→`alexis-armel.md` (aliases, merged 41-msg inbound-only stub, first-mention Alexis links added in 12 pages). All inbound links rewritten; notes filed to `raw/people/captures/`.
+  - **Phase 3:** rewrote `ai-collaborative-analysis.md` (21KB→7.6KB, worst v1 chatter in wiki) and `political-psyops.md` (11KB→6.9KB, triplicated J6 sections deduped).
+  - App renderer now supports `[[path|label]]` pipe links.
+* **Handoff Note:** Tree clean, lint 0 errors / 16 warnings (all size-budget). Next: remaining 7 Phase 3 synthesis files, then Phase 4. Inbox holds 3 items (saratoga-drive story, ANCESTRY_DNA.txt, takeout manifest) awaiting regular ingestion.
 
 ### [2026-07-11] - Session: Contact Stubs & Phase 2 Completion
 * **Model:** Gemini 3.1 Pro (High) / Antigravity
