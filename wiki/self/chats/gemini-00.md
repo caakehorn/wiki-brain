@@ -5,7 +5,7 @@ status: stable
 date_created: 2026-06-23
 date_modified: 2026-07-02
 sources: ["raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md"]
-related: ["wiki/self/chats/gemini-02", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid", "wiki/people/annie", "wiki/timeline/periods/2021-2023-employment-block", "wiki/mind/synthesis/work-power-dynamics", "wiki/self/gemini-activity/gemini-activity"]
+related: ["wiki/self/chats/gemini-02", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid", "wiki/people/annie-ulmer", "wiki/timeline/periods/2021-2023-employment-block", "wiki/mind/synthesis/work-power-dynamics", "wiki/self/gemini-activity/gemini-activity"]
 ---
 
 # Gemini Session 00 — Au Za'atar STORYTIME (Finale)
@@ -27,7 +27,7 @@ The closing volume of the Au Za'atar "STORYTIME" — a 781-line, glyph-styled fo
 
 **The tip siphon as "decentralized audit."** Dan reframes pocketing cash from his three-tables-a-week "Outside Guy" role at the end not as theft but as a "decentralized audit of the Au Za'atar revenue stream," rationalized through the staff's "radical skepticism" that the owners were stealing their labor via the tip-split system.
 
-**The Annie invariant.** The recurring contrast the session keeps returning to: [[wiki/people/annie]], "the literal avatar of reliability," was fired from her hosting job with zero notice while Dan survived 2.5 years by gaming the system — his gloss, "the universe rewards the sonofabitch over the proper."
+**The Annie invariant.** The recurring contrast the session keeps returning to: [[wiki/people/annie-ulmer]], "the literal avatar of reliability," was fired from her hosting job with zero notice while Dan survived 2.5 years by gaming the system — his gloss, "the universe rewards the sonofabitch over the proper."
 
 **The Valeria breach.** The session names the [[wiki/people/valeria-iglesias-cid]] episode the "Core Anomaly" — the only total security breach of the Annie relationship, the one time he "would have literally moved to Chile." Detail lives on Valeria's page.
 
@@ -37,4 +37,4 @@ Session 00 is the primary evidence for [[wiki/mind/synthesis/work-power-dynamics
 
 ## Related
 
-[[wiki/self/chats/gemini-02]] · [[wiki/people/tarik-fallous]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/people/annie]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/mind/synthesis/work-power-dynamics]] · [[wiki/self/gemini-activity/gemini-activity]]
+[[wiki/self/chats/gemini-02]] · [[wiki/people/tarik-fallous]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/people/annie-ulmer]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/mind/synthesis/work-power-dynamics]] · [[wiki/self/gemini-activity/gemini-activity]]

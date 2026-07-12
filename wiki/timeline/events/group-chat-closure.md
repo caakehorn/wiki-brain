@@ -14,7 +14,7 @@ sources:
   - raw/self/message-csv/THE END FIGHT.csv
   - raw/self/message-csv/END_FIGHT_full.csv
 related:
-  - wiki/people/annie
+  - wiki/people/annie-ulmer
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
   - wiki/timeline/periods/dec-2025-spike
@@ -37,7 +37,7 @@ June 1 2026 (single anchoring date for closure).
 Terminal phase context: December 2025 volume spike (2,248 messages) had already demonstrated real reinvestment on Dan's side, followed by progressive asymmetry in engagement through early 2026.
 
 ## People involved
-- [[wiki/people/annie]]
+- [[wiki/people/annie-ulmer]]
 - Dan
 - [[wiki/people/tuquick-17248123683]] (hostile third-party attacker who later defects)
 - Unnamed third party (Eli — previously documented)

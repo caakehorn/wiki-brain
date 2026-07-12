@@ -7,7 +7,7 @@ date_modified: 2026-06-23
 date_range_start: 2026-05-31
 date_range_end: 2026-06-01
 sources: ["raw/self/message-csv/THE END FIGHT.csv", "raw/self/message-csv/END_FIGHT_full.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
-related: ["wiki/people/annie", "wiki/timeline/events/group-chat-closure", "wiki/timeline/periods/2025-collapse", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/conflict-architecture"]
+related: ["wiki/people/annie-ulmer", "wiki/timeline/events/group-chat-closure", "wiki/timeline/periods/2025-collapse", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/conflict-architecture"]
 ---
 
 # The End Fight (May 31 – June 16 2026)
@@ -25,7 +25,7 @@ Dan's responses include finality declarations, shame, boundary on "poison pill",
 - 2026-06-15 to 2026-06-16: Post-closure epilogue (AI model, Spotify crate, Tuquick defection).
 
 ## People involved
-- [[wiki/people/annie]] (primary counterpart; +12124702449 handle dominant in sequence)
+- [[wiki/people/annie-ulmer]] (primary counterpart; +12124702449 handle dominant in sequence)
 - Dan (sent heavy output)
 - [[wiki/people/tuquick-17248123683]] (+17248123683; hostile third-party attacker who later defected)
 - Implicit: Eli (referenced in context of betrayal), Annie's network (defamation recipients)

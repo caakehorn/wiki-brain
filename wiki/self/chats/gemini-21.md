@@ -16,7 +16,7 @@ related: [
   "wiki/self/gemini-activity/gemini-activity",
   "wiki/self/chats/gemini-00",
   "wiki/self/chats/gemini-07",
-  "wiki/people/annie",
+  "wiki/people/annie-ulmer",
   "wiki/people/alexis-armel",
   "wiki/people/tom",
   "wiki/mind/synthesis/ai-collaborative-analysis",
@@ -78,7 +78,7 @@ related: [
 
 **Crosses + Synthesis Contribution:**
 - [[wiki/self/gemini-activity/gemini-activity]] (AI experiments + _21 section; J6 parallel indices).
-- [[wiki/people/annie]] (Eggie invocation + reliability avatar).
+- [[wiki/people/annie-ulmer]] (Eggie invocation + reliability avatar).
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] (injection lab, co-conspirator, feedback magic, prosthesis).
 - [[wiki/mind/synthesis/forensic-methodology]] (index deconstruct, breach models, 4.2% calc, game theory outcomes).
 - [[wiki/mind/synthesis/totality-themes]] + [[wiki/mind/synthesis/political-psyops]] (entropy injection, sandwich/psy-kill parallel, confusion latency Trojan).

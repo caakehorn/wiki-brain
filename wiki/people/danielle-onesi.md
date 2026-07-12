@@ -20,7 +20,7 @@ sources: [
 ]
 related: [
   "wiki/people/alexis-armel",
-  "wiki/people/annie",
+  "wiki/people/annie-ulmer",
   "wiki/people/tom",
   "wiki/self/gemini-activity/gemini-activity",
   "wiki/self/chats/gemini-21",
@@ -30,7 +30,7 @@ related: [
   "wiki/mind/synthesis/attachment-trauma-bond",
   "wiki/self/context-core",
   "wiki/people/max-danielle-bf",
-  "wiki/people/suz"
+  "wiki/people/suzanne-frank"
 ]
 ---
 
@@ -72,7 +72,7 @@ Full name Danielle Onesi, nickname "Dee." Dan's first girlfriend (pre-Lex/Alexis
 ## Notes
 - Signal: High in Gemini narrative/bio nodes (_21 audio + _58 photo + HTML ex/FB); low direct corpus volume (no dedicated message-csv/FB post cluster for historical; modern Uniontown "Danielle" 2025+ msgs e.g. "Danielle’s bringing coffee and donuts" / visits is separate local contact — disambig noted).
 - "Max"/"the Dude": Shorthand for BF in _21 analysis ("MAX'S ANALYSIS" header on Dude audio of concept album); actual prompt addresses AI as "Max". See [[wiki/people/max-danielle-bf]] + max.md section. CNA/nursing pivot, "American Fantasy" (house/kids/dog vs live-in fantasy, Tom Hardy biker "knife to a gunfight", Pearl Jam "no middle class", 48 Laws "conscious mind", "professional hermit", "production house crew for people of the future... Person to person"), timbral/10k hrs, Pittsburgh/Live Nation blackball. Mirror to Dan volatility ("Recursive Cognitive Machine").
-- Pre-2010s focus per task: Uniontown/Full Sail era as attachment baseline (pre high-vol Lex/Annie); photo as NYC hinge with Suz (see [[wiki/people/suz]]).
+- Pre-2010s focus per task: Uniontown/Full Sail era as attachment baseline (pre high-vol Lex/Annie); photo as NYC hinge with Suz (see [[wiki/people/suzanne-frank]]).
 - Cross James (2025 BF incident) vs _21 Dude: Sequential or distinct BFs (coke vs music focus); no contradiction in sources.
 - "Top 3" music compliment rarity noted by user.
 - See /tmp/gemini-danielle-max.md for full tables + verbatim extracts.
@@ -82,10 +82,10 @@ Pre-Lex/Annie anchor; Uniontown kernel (1988-2008 origin per core); music produc
 
 ## Related to annie/lex/tom/periods
 - [[wiki/people/alexis-armel]] (immediate successor post-cheat; NYC overlap post-2010 photo)
-- [[wiki/people/annie]] (post-Lex; Danielle as ongoing mom's friend + 2025 "Cat Debt"/withhold Game Theory)
+- [[wiki/people/annie-ulmer]] (post-Lex; Danielle as ongoing mom's friend + 2025 "Cat Debt"/withhold Game Theory)
 - [[wiki/people/tom]] (Uniontown cohort overlap pre/early Full Sail era)
 - [[wiki/timeline/periods/2015-2016-annie-relationship-start]], [[wiki/timeline/periods/2025-collapse]] (family refs), pre-NYC origin periods via core
-- [[wiki/self/gemini-activity/gemini-activity]] (people table + _21/_58 sections), [[wiki/self/chats/gemini-21]], [[wiki/self/chats/gemini-58]], [[wiki/people/max-danielle-bf]], [[wiki/people/suz]], [[wiki/mind/synthesis/attachment-trauma-bond]], [[wiki/self/context-core]]
+- [[wiki/self/gemini-activity/gemini-activity]] (people table + _21/_58 sections), [[wiki/self/chats/gemini-21]], [[wiki/self/chats/gemini-58]], [[wiki/people/max-danielle-bf]], [[wiki/people/suzanne-frank]], [[wiki/mind/synthesis/attachment-trauma-bond]], [[wiki/self/context-core]]
 
 **Verification:** Verbatim direct from _21/_58/HTML + /tmp/gemini-danielle-max.md tables. Consistent with 1988 bio, 2005-09 dates, 2010 NYC move, no raw mods. Tables-first. 
 

@@ -19,7 +19,7 @@ related:
   - wiki/mind/concepts/conflict-architecture
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/contact-gini
-  - wiki/people/annie
+  - wiki/people/annie-ulmer
   - wiki/timeline/events/eli-incident
   - wiki/self/twitter
   - wiki/self/favorites

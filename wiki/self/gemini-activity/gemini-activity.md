@@ -33,7 +33,7 @@ Corpus report on Dan's Gemini usage: a 21MB Google Takeout HTML activity log plu
 |-------|-------|----------------------|
 | ai / gemini | 40,360 | AI-meta: interfaces, control, injection, profile transfer |
 | data | 8,287 | Logging, profiles, retention, DATA_LOGGED tables |
-| annie / eggie | 5,658 | Primary relational anchor — see [[wiki/people/annie]] |
+| annie / eggie | 5,658 | Primary relational anchor — see [[wiki/people/annie-ulmer]] |
 | eli | 5,524 | NYC chaos node; deliberately redacted from profile exports — [[wiki/people/eli]] |
 | work / Au Za'atar | ~3,400 | 2021–24 NYC hospitality lore — [[wiki/timeline/periods/2021-2023-employment-block]] |
 | lock / profile / node | 3,702 (2,258 / 1,041 / 403) | Explicit "lock these nodes" memory-persistence commands |

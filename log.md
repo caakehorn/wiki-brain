@@ -34,3 +34,6 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 ## [2026-07-12] rename | people | wiki/people/suz.md -> wiki/people/suzanne-frank.md (25 pages relinked) via app
 ## [2026-07-12] rename | people | wiki/people/trin.md -> wiki/people/trinity-st-clair.md (2 pages relinked) via app
 ## [2026-07-12] edit | people | human edit via app: wiki/people/trinity-st-clair.md
+## [2026-07-12] rename | people | wiki/people/annie.md -> wiki/people/annie-ulmer.md (45 pages relinked) via app
+## [2026-07-12] rename | people | wiki/people/suz.md -> wiki/people/suzanne-frank.md (25 pages relinked) via app
+## [2026-07-12] rename | people | wiki/people/trin.md -> wiki/people/trinity-st-clair.md (2 pages relinked) via app

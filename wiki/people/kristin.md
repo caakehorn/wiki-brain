@@ -7,14 +7,18 @@ date_modified: 2026-07-02
 date_range_start: 2025-09-01
 date_range_end: 2025-12-10
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/self/dox-md/tom_kristin_master_dossier.md"]
-related: ["wiki/people/tom", "wiki/people/annie", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/attachment-trauma-bond"]
+related: ["wiki/people/tom", "wiki/people/annie-ulmer", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/attachment-trauma-bond"]
 ---
 
 # Kristin
 
 ## Identity
 
-Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] as "Tom's friend." An ex-Brooklyn librarian living in Pittsburgh, mother to a son (Kayden) she describes with acute guilt. She became Dan's most intense non-Annie messaging node during the late-2025 collapse: a flirtatious, sexual, high-volume thread that ran from September 1 to December 10, 2025 and ended in a hostile blockade involving threats of law enforcement. The relationship is a textbook instance of the redundancy impulse — an attempt to open a new attachment channel while the primary Annie thread was disintegrating.
+Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] as "Tom's friend." She became Dan's most intense non-Annie messaging node during the late-2025 collapse: a flirtatious, sexual, high-volume thread that ran from September 1 to December 10, 2025 and ended in a hostile blockade involving threats of law enforcement. The relationship is a textbook instance of the redundancy impulse — an attempt to open a new attachment channel while the primary Annie thread was disintegrating.
+
+She lives in a rural area outside the city — the corpus has her describing roads with "no fucking lights … for hundreds of miles" and her inability to drive at night — and pieces together income across three jobs: a pharmacy on weekends, DoorDash four days a week, and courthouse work she references having done twice as a legal secretary/legal assistant. She is a mother, and custody and court recur as live stressors in the thread.
+
+> **CONTRADICTION:** A prior version of this page described Kristin as "an ex-Brooklyn librarian living in Pittsburgh." The message corpus does not support this — it shows pharmacy, DoorDash, and courthouse legal-secretary work, and a rural (not Pittsburgh) residence. The librarian claim is unsourced and likely an error; corrected here pending confirmation.
 
 ## Corpus Dimensions
 
@@ -38,6 +42,30 @@ Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] a
 ## Attachment Context (from the Tom/Kristin dossier)
 
 The dossier frames Kristin primarily through her dynamic with Tom: maternal agony over Kayden, "brat"-style boundary testing, edge play, and chemical escapism (cabin trips on ketamine, MDMA, and LSD) with Tom acting as the stoic absorber and supply line. Dan's thread runs parallel to that dyad rather than inside it — a separate, direct, flirtatious channel. Kristin surfaces in the Suz thread only as logistics ("Kristin who?", "kristin is working for another few hours"), which places her in Dan's lateral (Tom-circle) social load rather than the vertical family load.
+
+## Texture from the corpus
+
+The thread's register is immediate and destabilizing from day one — the very
+first morning (moving day, September 1) already mixes "I love you stupid"
+with negotiation and jealousy. The pattern that recurs across the fourteen
+weeks is the collision of intense affection with logistical churn: pledges
+like "I'll quit today for you," offers of a step-father's loan, and repeated
+demands to "Call me now" set against Dan's documented need to litigate every
+ambiguity.
+
+Tom sits inside the thread as an active irritant rather than a background
+figure. During a September 20 crisis over where Kristin would sleep, she
+refuses to stay at another man's house out of stated loyalty to Dan while he
+rages about having to "hide … from Tom fucking faggot Maison" — the supply
+logistics, the jealousy triangle, and the drug-stashing plans ("stash it for
+me at his fucking grandparents in their backyard") all braided together in a
+single evening. Her own self-aware line, "WHAT IS MY LIFE," captures the tone.
+
+A late-October message shows Dan naming the redundancy dynamic to her face:
+he asks what she would think if he "notably started talking to annie
+regularly and then backed out of a relationship immediately and then put you
+on pause" — the exact sequence she later accuses him of. It is a rare instance
+of the pattern being described by its own subject in real time.
 
 ## Terminal Phase (December 7–10, 2025)
 
@@ -71,4 +99,4 @@ Last name confirmed as Shaelene from the dox-scan messenger export (the operatin
 
 ## Related
 
-[[wiki/people/tom]] · [[wiki/people/annie]] · [[wiki/mind/concepts/contact-gini]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/timeline/periods/dec-2025-spike]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/synthesis/attachment-trauma-bond]]
+[[wiki/people/tom]] · [[wiki/people/annie-ulmer]] · [[wiki/mind/concepts/contact-gini]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/timeline/periods/dec-2025-spike]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/synthesis/attachment-trauma-bond]]

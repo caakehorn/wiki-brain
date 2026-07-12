@@ -1,37 +1,64 @@
 ---
 domain: people
 page_type: entity
-status: archived
+title: "Vanessa C. Frank"
+aliases: ["Vanessa", "Vanessa Frank"]
+status: stable
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
-related: ["wiki/people/suz", "wiki/people/rick-frank", "wiki/self/ancestry", "wiki/self/overview", "wiki/self/gemini-activity/gemini-activity", "wiki/people/annie"]
+date_modified: 2026-07-12
+sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
+related: ["wiki/people/suzanne-frank", "wiki/people/rick-frank", "wiki/self/ancestry", "wiki/self/overview", "wiki/people/annie-ulmer"]
 ---
 
 # Vanessa C. Frank
 
-## Identity
-Younger sister of Dan Frank. Born 16 January 1994 in Greensburg, Westmoreland County, Pennsylvania. Shares nuclear family (FAMC F157 in GEDCOM) with Dan and parents Richard "Rick" Harrison Frank and Suzanne Whyel /Shrum/ Frank. Represents a long multi-year thread (2015–2026+; 709+ msgs) in the message corpus with extensive family, politics, and gossip context.
+Dan's younger sister, born January 16, 1994, in Greensburg, Pennsylvania —
+the fourth member of the nuclear family with parents [[wiki/people/rick-frank]]
+and [[wiki/people/suzanne-frank]]. The relationship is steady and
+low-conflict across the corpus (709 messages, December 2015 – March 2026),
+and its defining quality is political alignment: she is Dan's ideological
+peer inside the family, arriving at the same materialist-left positions from
+her own direction, and she doubles as a cross-check on family matters
+involving their mother and father.
 
-**Gemini-_18 verbatim:** "Vanessa C. Frank: Sister. Documented member of the core historical family network." "sister Vanessa C. Frank." Family structural core includes her. LIFE cross: Vanessa graduation mentions.
-**Deep _18 agent cross:** Part of Uniontown family core in bio dumps (with Suz/Rick). Cross gemini-activity node locks master + bio table, [[wiki/mind/synthesis/family-heritage-and-roots]], ancestry, periods. Low signal but locked as "core historical".
+## Political kinship
 
-## Timeline
-- **1994-01-16**: Born, Greensburg, Westmoreland, PA.
-- **1990s-2000s**: Grew up in Uniontown / Fayette County area alongside Dan (family addresses: 12 Bryer Ave to 1996, then 337 Saratoga Drive).
-- **Later**: Relocated to Vail (ski-school / ski instructor context per core).
+The thread reads, more than anything, as two siblings on the same side. In
+2016 Vanessa is already an engaged activist — circulating a Carnegie Mellon
+petition for "zero tolerance for sexual assault," and, when a friend's rape
+claim is met with jokes, delivering the structural argument herself: that it
+is "in the university's financial favor to keep the rapists at school … losing
+tuition, risking lawsuits." By 2020 she is making the climate-and-capital case
+("we can't stall climate change w capitalism") and checking Dan's own progress
+("you gonna vote for daddy joe?"). Her humor is self-aware and of-the-left —
+"I'm a corporate schill," "the locomotive to transphobia pipeline is real" —
+the same register Dan uses, which makes her one of the few family contacts who
+never triggers his forensic mode.
 
-## Notes
-Core labels her "Vail, ski-school" though this may be outdated. Fits broader family pattern of PA roots with outward mobility (Dan to NYC periods; sister to Colorado ski scene).
-The iMessage corpus reveals a consistent communication channel (709 messages from Dec 2015 to Mar 2026, heavily skewed toward received messages: ~85 sent / 624 received). The thread crosses extensively with Mom/Suz contexts.
+## Family cross-channel
 
-Cross-links to family heritage and regional identity documented in [[wiki/self/ancestry]] and core origin period (1988–2008 Uniontown).
+Vanessa functions as a discreet back-channel on the parents. She keeps a job
+change secret from their father in 2016 ("dad does not know about my new job …
+please don't say anything"), and her messages about him carry the family's
+documented strain — "being with dad at that time was fucking excruciating,"
+"lol dad is zero concerned." When something is off with their mother she comes
+to Dan to triangulate ("I got a weird message from mom today. Just making sure
+there isn't some emergency?"), which places her, like Dan, as a reader of Suz's
+oscillations rather than a driver of them.
 
-**Sources:** 23andMe + Ancestry GEDCOM (birth record); CONTEXT_CORE_EXPANDED (behavioral note).
+## Corpus dimensions
 
-## Related
-- [[wiki/self/ancestry]]
-- [[wiki/people/rick-frank]]
-- [[wiki/people/suz]]
-- [[wiki/self/context-core]]
-- [[wiki/self/location-history]] (Fayette County cluster)
+| Metric | Value |
+|--------|-------|
+| Messages (master dump) | 709 (handle +17248808111) |
+| Date range | 2015-12-01 → 2026-03-01 |
+| Cadence | Steady low-volume over a decade; no crisis spikes |
+| Content profile | Politics, family logistics, sibling gossip |
+
+## Notes and gaps
+
+The behavioral spine lists her as "Vail, ski-school," which the message
+corpus neither confirms nor contradicts — the thread is about politics and
+family, not her location or work, so the Colorado detail is carried forward as
+unverified. Her birth record is from the ancestry GEDCOM; everything else here
+is from the iMessage thread.

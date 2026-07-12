@@ -31,7 +31,7 @@ The full staff roster, the shed-build saga, the Valeria romance, and the "9 PM a
 
 Tarik reads, in Dan's analysis, as high-visible-investment against high-human-friction: he built elaborate outdoor dining sheds (which ran for three winters because the promised interior renovation never happened) while presiding over crazy staff turnover that let Dan become the self-styled "High Priest of Protocol" — the keeper of the opener routine (sleep till 1, build 2–5, cut by 9–10, never close). The equal tip split is the pivot of the whole [[wiki/mind/synthesis/work-power-dynamics]] analysis: it removed the usual busser/waiter hierarchy and enabled Dan's "Ambassador of the Shed and its most effective saboteur" self-description — the fictitious "night class" alibi that let him leave at 9 PM for 18+ months. Tarik's mediation style shows up in the "Nonsense Meeting" with Ghassan over staff "lanes."
 
-The recurring contrast Dan draws: [[wiki/people/annie]], "the avatar of reliability," was fired from her own hosting job with zero notice, while Dan survived 2.5 years under Tarik — his gloss, "the universe rewards the sonofabitch over the proper."
+The recurring contrast Dan draws: [[wiki/people/annie-ulmer]], "the avatar of reliability," was fired from her own hosting job with zero notice, while Dan survived 2.5 years under Tarik — his gloss, "the universe rewards the sonofabitch over the proper."
 
 ## Timeline
 

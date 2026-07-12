@@ -6,7 +6,7 @@ aliases: ["Annie", "Anne Ulmer"]
 importance: critical
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-12
 date_range_start: 2015-11-01
 date_range_end: 2026-06-01
 sources:

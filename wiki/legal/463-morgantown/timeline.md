@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/BFS_BOOTLOADER_v2.md"]
-related: ["wiki/legal/463-morgantown/overview", "wiki/people/arnu", "wiki/people/john-carney", "wiki/people/jackson-alexander", "wiki/people/suz", "wiki/people/felix"]
+related: ["wiki/legal/463-morgantown/overview", "wiki/people/arnu", "wiki/people/john-carney", "wiki/people/jackson-alexander", "wiki/people/suzanne-frank", "wiki/people/felix"]
 ---
 
 # 463 Morgantown St — Timeline

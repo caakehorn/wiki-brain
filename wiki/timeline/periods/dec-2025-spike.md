@@ -7,7 +7,7 @@ date_modified: 2026-06-23
 date_range_start: 2025-12-01
 date_range_end: 2025-12-31
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/facebook/facebook-ihatedanfrank/"]
-related: ["wiki/mind/concepts/attachment-model", "wiki/people/annie", "wiki/timeline/events/timeline", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/self/facebook"]
+related: ["wiki/mind/concepts/attachment-model", "wiki/people/annie-ulmer", "wiki/timeline/events/timeline", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/self/facebook"]
 
 ---
 

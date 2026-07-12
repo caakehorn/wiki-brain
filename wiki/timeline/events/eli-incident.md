@@ -13,7 +13,7 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
 related:
-  - wiki/people/annie
+  - wiki/people/annie-ulmer
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
 ---
@@ -21,7 +21,7 @@ related:
 # Eli Incident
 
 The event that ended the Annie decade in substance if not yet in form: a
-sustained concealed affair between [[wiki/people/annie]] and her coworker
+sustained concealed affair between [[wiki/people/annie-ulmer]] and her coworker
 Eli, active from at least August 2024, discovered physically in early 2025,
 and — the documented center of gravity — defended throughout by months of
 gaslighting that attacked Dan's capacity to trust his own accurate
@@ -42,7 +42,7 @@ Dan later chose to believe Annie's account sufficiently to attempt returning to 
 - Post-incident: Dan's retrospective accounts (Feb–May 2025) confirming he chose to believe despite accurate perception.
 
 ## People involved
-- [[wiki/people/annie]] (primary actor conducting affair and gaslighting)
+- [[wiki/people/annie-ulmer]] (primary actor conducting affair and gaslighting)
 - Dan
 - [[wiki/people/eli]] (coworker; affair partner; "I work with her" texts from Annie's phone; preemptive framing of incident)
 

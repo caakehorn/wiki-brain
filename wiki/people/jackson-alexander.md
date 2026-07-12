@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS_BOOTLOADER_v2.md", "wiki/legal/463-morgantown/overview.md", "wiki/legal/463-morgantown/timeline.md"]
-related: ["wiki/legal/463-morgantown/overview", "wiki/legal/463-morgantown/timeline", "wiki/legal/463-morgantown/risks", "wiki/people/suz", "wiki/people/arnu", "wiki/people/john-carney", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/self/facebook"]
+related: ["wiki/legal/463-morgantown/overview", "wiki/legal/463-morgantown/timeline", "wiki/legal/463-morgantown/risks", "wiki/people/suzanne-frank", "wiki/people/arnu", "wiki/people/john-carney", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/self/facebook"]
 ---
 
 # Jackson Alexander (Alexander Jackson)
@@ -38,6 +38,6 @@ From [[wiki/self/context-core]]: 337 sale drives move; "no post-close plan". Mix
 
 Owner communications TBD per timeline. Property separate from BFS (gas/LC building ownership).
 
-**Cross-references:** [[wiki/legal/463-morgantown/overview]], [[wiki/people/suz]], [[wiki/people/arnu]], [[wiki/people/john-carney]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]] (recent activity/ingest), [[wiki/legal/bfs-dispute/overview]] (parallel disputes).
+**Cross-references:** [[wiki/legal/463-morgantown/overview]], [[wiki/people/suzanne-frank]], [[wiki/people/arnu]], [[wiki/people/john-carney]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]] (recent activity/ingest), [[wiki/legal/bfs-dispute/overview]] (parallel disputes).
 
 **Notes:** Limited direct corpus on Jackson himself (no messages/comm details surfaced in reviewed dox); expand via owner comms or lease docs. Defer to raw legal ingest. Evidence primarily property/role references in core + message fragments.

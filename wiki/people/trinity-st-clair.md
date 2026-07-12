@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: archived
 date_created: 2026-06-23
-date_modified: 2026-06-23
+date_modified: 2026-07-12
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump"]
 ---

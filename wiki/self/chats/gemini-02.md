@@ -23,7 +23,7 @@ related: [
   "wiki/timeline/periods/2021-2023-employment-block",
   "wiki/people/tarik-fallous",
   "wiki/people/valeria-iglesias-cid",
-  "wiki/people/annie",
+  "wiki/people/annie-ulmer",
   "wiki/mind/synthesis/work-power-dynamics",
   "wiki/mind/synthesis/forensic-methodology",
   "wiki/timeline/events/drawer-dispute"
@@ -97,7 +97,7 @@ See /tmp/gemini-02-deep-analysis.md for full 20+ row phase table. Key: Early 202
 - [[wiki/self/chats/danfrank-isms-pinned]] (shared Gemini style)
 - [[wiki/timeline/periods/2021-2023-employment-block]] (Au Za'atar pivot + equal tips era; extended Aug24 teardown)
 - [[wiki/self/notes/au-zaatar-chronicles]] (expanded lore)
-- [[wiki/people/annie]] (firing contrast "avatar", "Eggie")
+- [[wiki/people/annie-ulmer]] (firing contrast "avatar", "Eggie")
 - [[wiki/mind/synthesis/work-power-dynamics]] (BFS drawer overlap; decentralized audit / Game-Theory Subversion)
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] (injection + profile meta; Forensic STORYTIME prosthetic)
 - [[wiki/mind/synthesis/forensic-methodology]] (glyph post-mortem + culinary trauma)

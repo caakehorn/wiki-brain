@@ -11,7 +11,7 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
 related:
   - wiki/mind/concepts/attachment-model
-  - wiki/people/annie
+  - wiki/people/annie-ulmer
   - wiki/self/ancestry
   - wiki/people/rick-frank
   - wiki/people/fran-whyel

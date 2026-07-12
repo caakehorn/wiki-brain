@@ -15,7 +15,7 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/
   - raw/self/dox-md/tom_kristin_master_dossier.md
 related:
-  - wiki/people/annie
+  - wiki/people/annie-ulmer
   - wiki/people/tom
   - wiki/interests/music/aliases/gripnotic
   - wiki/self/facebook

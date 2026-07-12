@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: ["raw/self/facebook/facebook-ihatedanfrank/messages/"]
-related: ["wiki/self/facebook", "wiki/people/annie", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/mind/synthesis/forensic-methodology", "wiki/mind/synthesis/totality-themes"]
+related: ["wiki/self/facebook", "wiki/people/annie-ulmer", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/mind/synthesis/forensic-methodology", "wiki/mind/synthesis/totality-themes"]
 ---
 
 # Facebook Messages (ihatedanfrank)
@@ -79,14 +79,14 @@ Intimate, logistical, affectionate (baby talk), conflict disclosure, NYC daily. 
 - **Persona:** Short, staccato, sometimes typo-laden ("wonewy", "kute") matches core comms style (ellipsis, fragmented). Ironic armor softens in private Annie channel.
 - **Periods:** 2010 NYC threads (move), 2017-21 Annie peak, 2018-22 golf/Pittsburgh re-engagement + politics.
 
-Cross to main [[wiki/self/facebook]], [[wiki/mind/concepts/contact-gini]], [[wiki/mind/concepts/attachment-model]], [[wiki/people/annie]], master message corpora.
+Cross to main [[wiki/self/facebook]], [[wiki/mind/concepts/contact-gini]], [[wiki/mind/concepts/attachment-model]], [[wiki/people/annie-ulmer]], master message corpora.
 
 ## Sources
 raw/self/facebook/facebook-ihatedanfrank/messages/* (inbox, filtered, requests, legacy). Python re + html clean extracts 2026-06-23.
 
 ## Related
 [[wiki/self/facebook]]
-[[wiki/people/annie]]
+[[wiki/people/annie-ulmer]]
 [[wiki/mind/synthesis/attachment-trauma-bond]]
 [[wiki/mind/concepts/contact-gini]]
 [[wiki/self/message-corpora/master-message-dump]]

@@ -10,7 +10,7 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/all_imessages_complete_dump.txt
 related:
-  - wiki/people/annie
+  - wiki/people/annie-ulmer
   - wiki/timeline/events/eli-incident
   - wiki/timeline/events/group-chat-closure
   - wiki/self/facebook
@@ -20,7 +20,7 @@ related:
 
 The attachment model details the first documented instance of full attachment-system activation in Dan's history, which occurred during his relationship with Annie. His prior relationships with Danielle, Kelly, and [[wiki/people/alexis-armel|Alexis]] did not trigger this level of psychological attachment. Within Dan's cognitive processing architecture, positive verbal expressions function as absolute rules that remain active until an explicit, unambiguous signal of severance is received. If no explicit severance signal is issued, the internal system is unable to generate a counter-rule to close the model, leaving the attachment loop active indefinitely.
 
-This cognitive architecture is heavily influenced by a multi-generational family layer. A paternal authority wound was established by a parental rupture in 2005, when his father Rick entered rehabilitation and his parents separated, leading to subsequent low-intensity contact. A pattern of functional alcoholism also spans several generations of Dan's family. Conversely, his maternal great-grandmother, Fran Whyel, was his self-described largest life influence. This background encoded relational templates characterized by intermittent attachment, vertical suspicion, and an expectation of abandonment. Further details on these family influences are found in [[wiki/people/rick-frank]], [[wiki/people/fran-whyel]], [[wiki/people/suz]], and [[wiki/self/ancestry]].
+This cognitive architecture is heavily influenced by a multi-generational family layer. A paternal authority wound was established by a parental rupture in 2005, when his father Rick entered rehabilitation and his parents separated, leading to subsequent low-intensity contact. A pattern of functional alcoholism also spans several generations of Dan's family. Conversely, his maternal great-grandmother, Fran Whyel, was his self-described largest life influence. This background encoded relational templates characterized by intermittent attachment, vertical suspicion, and an expectation of abandonment. Further details on these family influences are found in [[wiki/people/rick-frank]], [[wiki/people/fran-whyel]], [[wiki/people/suzanne-frank]], and [[wiki/self/ancestry]].
 
 ## Quantitative Corpus Indicators
 

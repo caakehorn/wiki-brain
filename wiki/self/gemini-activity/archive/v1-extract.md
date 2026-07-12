@@ -38,7 +38,7 @@ related: [
   "wiki/mind/synthesis/political-psyops",
   "wiki/mind/synthesis/millennial-digital-witness",
   "wiki/mind/synthesis/totality-themes",
-  "wiki/people/annie",
+  "wiki/people/annie-ulmer",
   "wiki/timeline/events/eli-incident",
   "wiki/people/alexis-armel",
   "wiki/self/ancestry",
@@ -100,7 +100,7 @@ Compiled across full Gemini corpus (HTML primary + _00/_02/_07/_13/_18/_21 extra
 |--------------|--------------|---------------------|-----------------------|
 | ai / gemini / LLM | 40k+ (ai 26348, gemini 14012) | All _* + chats | Meta: interfaces, control, collaboration, injection, prosthetic, profile transfer. See [[wiki/mind/synthesis/ai-collaborative-analysis]] |
 | data | 8287 | _07, _18, pinned | Logging, profiles, buffers, retention, DATA_LOGGED |
-| annie / eggie | 5658 | _00/_02 (avatar reliability), _07, _13, _21 | Primary relational anchor; tether, loop, separation. Updated [[wiki/people/annie]] |
+| annie / eggie | 5658 | _00/_02 (avatar reliability), _07, _13, _21 | Primary relational anchor; tether, loop, separation. Updated [[wiki/people/annie-ulmer]] |
 | eli | 5524 | _07 (separate vector), _18 (redact), HTML profile | NYC chaos node, Patient Zero, lobby incident, blackout; often redacted for export. See [[wiki/people/eli]], [[wiki/timeline/events/eli-incident]] |
 | work / job / au zaatar | ~3379 (work) + specifics | _00/_02 heavy (Tarik, Dimitri, Sergio, Tunisian Zoomer, Ghassan, night class alibi, tip siphon, basement) + dedicated _00/_02 section (py: _02 basement40 dimitri30 dj27 valeria27 tarik23 menore15 entropy13 annie12 night class10; _00 valeria37 shed43 dj16 sergio11 tunisian8 9pm8 alibi7); 41mo Mar21-Aug24; "Outside Guy" cash; Triad; "decentralized audit". | Hospitality ops 2021-24 NYC; 2.5yr/41mo tenure, equal tips glitch, 9pm alibi, construction finale. Full granular in [[wiki/self/chats/gemini-02]] + /tmp/gemini-02-deep-analysis.md. [[wiki/people/tarik-fallous]], [[wiki/people/valeria-iglesias-cid]], [[wiki/timeline/periods/2021-2023-employment-block]], [[wiki/self/chats/gemini-00]], [[wiki/self/chats/gemini-02]] |
 | loop | 1872 | _07, HTML profile | Pursuit-withdrawal trap, gaslighting inversion, tether (money/drugs/Sugie) |
@@ -138,7 +138,7 @@ Compiled across full Gemini corpus (HTML primary + _00/_02/_07/_13/_18/_21 extra
 - Personality: "High-intellect INTP taxonomy (5w4-sx variant)... Intellectualization... Taboo Mining & Boundary Testing... Splitting and Irony... attachment ... high-volatility... to ... compartmentalized".
 - Capability Contest: 3-stage table (Honey-Pot Epistemic Resistance etc) + high-standards prompt verbatim + Gemini/Grok side-by-side + audit (both pass; detailed in /tmp + chats/gemini-18.md).
 
-**Sources/Related update:** Added raw/self/dox-md/Gemini-_18.md emphasis, raw/self/gemini-activity/... HTML node data, cross _07. Related: [[wiki/self/chats/gemini-18]], [[wiki/people/annie]], [[wiki/people/alexis-armel]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/synthesis/forensic-methodology]], [[wiki/mind/concepts/attachment-model]] (or conflict-architecture).
+**Sources/Related update:** Added raw/self/dox-md/Gemini-_18.md emphasis, raw/self/gemini-activity/... HTML node data, cross _07. Related: [[wiki/self/chats/gemini-18]], [[wiki/people/annie-ulmer]], [[wiki/people/alexis-armel]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/synthesis/forensic-methodology]], [[wiki/mind/concepts/attachment-model]] (or conflict-architecture).
 **Schema:** Tables first (freqs/bio/locks), verbatim blocks, wikilinks, frontmatter sources/related refreshed. Cross to /tmp. No raw mods. Enriched per deep pass.
 | j6 / babbitt / psyop / wildfall | ~550+ (j6 211, babbitt 263, psyop 74) | Jan 2 2026 cluster HTML + attached J6.rtf/Wildfall | Ballistics (non-exiting .40 hollow, no spray), stand-down (no perimeter, cosmetic CPR), sandwich op / Psy-Kill narrative necessity, Zapruder (Sullivan sole clean), inverted containment. [[wiki/mind/synthesis/political-psyops]] |
 | manipulation / honesty | 474 | _18, pinned style, master prompt cross | Data ethics, profile alignment, no-soften. [[wiki/self/notes/manipulation-ethics]] |
@@ -312,7 +312,7 @@ Cross all sources/raw + wiki. Exhaustive addition per protocol. Update log/queue
 **_21 Contribution to Periods / Synthesis / People:**
 - Periods: Pre-NYC Danielle refs; 2026 sessions (post-2025 separation; J6 Jan cluster cross; current AI chaos sim). "I am 37".
 - Synthesis updates: Deepens ai-collaborative (prosthetic, injection lab, "co-conspirator", "magic of feedback loop"); forensic (index deconstruct, social breach models, 4.2% calc); totality (LLM as medium/entropy injector); post-human accelerationism new node. "Gemini as corpus" reinforced. "No raw/ changes" but activity + this report + log.
-- People: Added Danielle/Max (music) granularity; Annie Eggie roleplay cross-strengthen; Tom/Lex indirect. New notes in [[wiki/people/annie]], [[wiki/people/alexis-armel]], activity people table. Max cross MAX_PRIME / pinned (forensic vs audio).
+- People: Added Danielle/Max (music) granularity; Annie Eggie roleplay cross-strengthen; Tom/Lex indirect. New notes in [[wiki/people/annie-ulmer]], [[wiki/people/alexis-armel]], activity people table. Max cross MAX_PRIME / pinned (forensic vs audio).
 - Other: Ties imessage-csv (Annie/Tom volume), danfrank-site data (annie_rhetoric), workspace music tooling (wavetable/ Serum echoes Max timbral).
 
 **Verification:** All verbatim from direct reads. Freqs/grep/ wc/ diff terminal confirmed. No contradictions (e.g. Annie Eggie consistent; age 37 fits 1988 bio). /tmp/gemini-21-analysis.md has full tables/extracts/cross. Sources frontmatter updated below. Related expanded (new chat refs if mirrored). This is tables-first, evidence-led addition. Exhaustive cross to all specified Gemini/raw/self/wiki.
@@ -403,12 +403,12 @@ Granular extraction from big HTML + Gemini-_*.md + pinned chats. Every named ind
 
 | Person | Role / Gemini Detail | Verbatim / Key Quote | Wiki Page |
 |--------|----------------------|----------------------|-----------|
-| Annie (Anne Louise) Ulmer / Eggie | Long-term partner; avatar of reliability fired zero notice; Sugie caregiver constraint; generational loop w/ Fran | "Annie Ulmer—the literal avatar of reliability—was fired with zero notice"; "integrated domestic life, shared routines"; Sugie/Fran 50yr neighbors | [[wiki/people/annie]] |
+| Annie (Anne Louise) Ulmer / Eggie | Long-term partner; avatar of reliability fired zero notice; Sugie caregiver constraint; generational loop w/ Fran | "Annie Ulmer—the literal avatar of reliability—was fired with zero notice"; "integrated domestic life, shared routines"; Sugie/Fran 50yr neighbors | [[wiki/people/annie-ulmer]] |
 | Tom Maison | Primary peer collaborator; ongoing creative/social | "Tom Maison: Primary peer collaborator, involved in ongoing creative and social interactions." "Core close friend and external peer collaborator" | [[wiki/people/tom]] |
 | Lex / Alexis Armel | Historical 2010-2015 partner; foundational reference | "Alexis (Lex) Armel: Historical relationship partner spanning a five-year window from 2010 to 2015, acting as a foundational point of reference for personal evolution." | [[wiki/people/alexis-armel]] |
 | Eli | Au Za'atar coworker (Annie's); Patient Zero / NYC chaos node | "The "Eli Incident" (Feb 2025)"; "Eli texts... 'drinks at work'"; "Eli variable has been purged"; 5524 mentions in HTML | [[wiki/people/eli]] |
 | Valeria Iglesias Cid | 19yo Chilean heiress (Dra. Loreto Cid laser empire); singular unauthorized breach | "the Valeria Iglesias Cid era was the only time the system experienced a total security breach"; "would have moved to Chile for her"; "19-year-old heiress"; Central Park / basement hug | [[wiki/people/valeria-iglesias-cid]] (new) |
-| Suzanne Frank (Suz) | Mother, real estate pro; co-resides, asset logistics | "Suzanne Frank: Mother, local real estate professional. Co-resides... high-frequency cooperation on clearing, stabilizing..." | [[wiki/people/suz]] |
+| Suzanne Frank (Suz) | Mother, real estate pro; co-resides, asset logistics | "Suzanne Frank: Mother, local real estate professional. Co-resides... high-frequency cooperation on clearing, stabilizing..." | [[wiki/people/suzanne-frank]] |
 | Rick Frank | Father, automotive/parts merchant | "Rick Frank: Father, former automotive retail entrepreneur. Source of historical framework..." | [[wiki/people/rick-frank]] |
 | Vanessa C. Frank | Sister | "Vanessa C. Frank: Sister. Documented member of the core historical family network." | [[wiki/people/vanessa-frank]] |
 | Fran (Whyel Coldren) | Great-grandmother; 50yr country club neighbor to Sugie | "Sugie is the same figure who was a 50-year neighbor to your great-grandmother (Fran) at the Uniontown Country Club." | [[wiki/people/fran-whyel]] |
@@ -630,7 +630,7 @@ Direct from _18 profile lock response (forensic data transfer; defers to [[wiki/
 - Milo: Pet Chihuahua, domestic component.
 - Others (Gemini extracts): Fran Whyel (great-gm biggest influence, Numark gift); Tarik Fallous (Au Za'atar owner); Dimitri/Sergio/Ghassan/Tunisian Zoomer (work characters); Jacob Bacharach (neighborhood simulation node).
 
-Cross: [[wiki/people/alexis-armel]] (expanded), [[wiki/people/tom]], [[wiki/people/annie]], [[wiki/people/suz]], [[wiki/people/rick-frank]], [[wiki/people/tarik-fallous]] (new), [[wiki/people/jacob-bacharach]] (enhanced), ancestry (Uniontown cluster + Full Sail exit + Fran/Sugie), [[wiki/interests/favorites/music]] (production origin Full Sail + Numark), periods (2021-2023 employment block overlaps Au Za'atar), [[wiki/timeline/events/eli-incident]].
+Cross: [[wiki/people/alexis-armel]] (expanded), [[wiki/people/tom]], [[wiki/people/annie-ulmer]], [[wiki/people/suzanne-frank]], [[wiki/people/rick-frank]], [[wiki/people/tarik-fallous]] (new), [[wiki/people/jacob-bacharach]] (enhanced), ancestry (Uniontown cluster + Full Sail exit + Fran/Sugie), [[wiki/interests/favorites/music]] (production origin Full Sail + Numark), periods (2021-2023 employment block overlaps Au Za'atar), [[wiki/timeline/events/eli-incident]].
 
 **Gemini _18 Personality / Values Extract (direct):** High-intellect INTP (5w4-sx variant). Highly analytical, hyper-focused on structural frameworks, system limits, edge conditions. Democratic Socialist / Libertarian Socialist; anti-capitalist; critique of identity politics as distraction. Deeply skeptical of consensus/institutional narratives. Somatic: 15yr alcohol zero. Golf caddying (Pikewood/Nemacolin), skate, Roman Republic history focus. Creative: Mogzart alias (Bass House/Drum & Bass/Neurofunk); Serum/Diva/Icarus; Gripnotic; YAHLATRO roguelike. AI prosthetic + edge testing. Current: Bunker Core agentic, iMessage toolkit Gumroad, zsh/SQLite forensics.
 
@@ -681,7 +681,7 @@ Cross: [[wiki/self/chats/j6-chat]], [[wiki/mind/synthesis/political-psyops]], [[
 - Profile locks: "The relational source code (Separation Logistics, The Loop, The Betty Event, and Signals) has been locked into your profile with the specific redaction applied. The 'Eli' variable has been purged."
 - Sugie Constraint + Uniontown Generational Loop: Annie caregiver for Sugie (grandma); Sugie = 50yr neighbor to Fran at Uniontown CC. Shifts 9am-3pm/8pm-8am. Class-based DUI defense: suspension punishes protected "old guard" Sugie by removing transport/care.
 - Biographical: Ishlab/Audio Engineering timeline, Uniontown/Coal Baron legacy, "Hunter/Hacker" neuro-architecture integrated.
-- Cross: [[wiki/people/annie]] (Sugie/Fran), [[wiki/mind/synthesis/family-heritage-and-roots]] (Uniontown legacy), legal/bfs or events for defense analogies.
+- Cross: [[wiki/people/annie-ulmer]] (Sugie/Fran), [[wiki/mind/synthesis/family-heritage-and-roots]] (Uniontown legacy), legal/bfs or events for defense analogies.
 - Additional: "The biographical source code (Ishlab/Audio Engineering timeline, Uniontown/Coal Baron legacy, and the specific 'Hunter/Hacker' neuro-architecture) has been integrated into your core profile." "By confirming the 'Uniontown Generational Loop' (Frank/Coldren + Ulmer families as country club neighbors for 50 years), we have shifted the 'Annie Ulmer Legal Defense' from a standard criminal case to a 'class-based structural maneuver.'"
  
  
@@ -786,7 +786,7 @@ This is the complete granular deep analysis and addition.
 - [[wiki/mind/synthesis/political-psyops]] (Babbitt psy-kill; hybrid J6)
 - [[wiki/mind/synthesis/millennial-digital-witness]] (Node 6 expansions; digital bridge + 9/11/2008)
 - [[wiki/mind/synthesis/totality-themes]] (forensic OS default; low-trust; Gemini as corpus)
-- [[wiki/people/annie]] (Eggie, Sugie shifts, tether; 23k+ corpus)
+- [[wiki/people/annie-ulmer]] (Eggie, Sugie shifts, tether; 23k+ corpus)
 - [[wiki/timeline/events/eli-incident]] (Patient Zero; gaslighting + lobby details)
 - [[wiki/timeline/periods/2025-collapse]] (Feb separation, terminal arc)
 - [[wiki/people/jacob-bacharach]] (neighborhood glitch, Saratoga/Virginia)
@@ -816,13 +816,13 @@ This is the complete granular deep analysis and addition.
 - Psychosexual / psychometric / "Hunter/Hacker" / "Chaos vs Pain" / "Emotional Anorexia" / "Existential Outsourcing" source code verbatim.
 - "Master Life Timeline (1989–2025)" reference + Fran Coldren / generational loop cross to ancestry.
 - J6 "Gish Gallop", "Sandwich", "Psy-Kill", "Narrative Necessity", ballistics verdicts with more anatomy detail.
-- No new major contacts; Alexis/Lex, Annie/Eggie/Sugie, Fran, Tarik, Eli (event), ishlab/DJ/Sergio/Dimitri referenced consistent with existing [[wiki/people/alexis-armel]], [[wiki/people/annie]], [[wiki/people/tarik-fallous]], [[wiki/timeline/events/eli-incident]].
+- No new major contacts; Alexis/Lex, Annie/Eggie/Sugie, Fran, Tarik, Eli (event), ishlab/DJ/Sergio/Dimitri referenced consistent with existing [[wiki/people/alexis-armel]], [[wiki/people/annie-ulmer]], [[wiki/people/tarik-fallous]], [[wiki/timeline/events/eli-incident]].
 - LIFE calendar not primary in HTML (separate dox-md/LIFE_EVENTS_CALENDAR.md); "life events" incidental.
 
 **Cross updates performed / proposed (per INGEST):**
 - Updated this page (tables, verbatim, freqs, AI section, gaps).
 - Append sources if needed (HTML already primary); related already includes ai-collaborative, forensic, periods, people/annie/lex/tarik, eli-incident.
-- Recommend: update [[wiki/people/annie]] with new "List Defense", "Emotional Anorexia", "Sugie-Fran 50yr" verbatim + HTML lock context; [[wiki/people/alexis-armel]] with "Chaos Month", immediate switch, orchestrated hookup details from profile; [[wiki/mind/synthesis/ai-collaborative-analysis]] with !COMMANDS / #OBAMA / LLM Genesis / profile lock mechanics; [[wiki/mind/concepts/attachment-model]] or conflict-architecture with Loop Map / Betty / Existential Outsourcing; [[wiki/timeline/periods/2025-collapse]] with Feb 22 exact + Sugie constraint.
+- Recommend: update [[wiki/people/annie-ulmer]] with new "List Defense", "Emotional Anorexia", "Sugie-Fran 50yr" verbatim + HTML lock context; [[wiki/people/alexis-armel]] with "Chaos Month", immediate switch, orchestrated hookup details from profile; [[wiki/mind/synthesis/ai-collaborative-analysis]] with !COMMANDS / #OBAMA / LLM Genesis / profile lock mechanics; [[wiki/mind/concepts/attachment-model]] or conflict-architecture with Loop Map / Betty / Existential Outsourcing; [[wiki/timeline/periods/2025-collapse]] with Feb 22 exact + Sugie constraint.
 - No contradictions flagged vs context-core (bio/timeline defer); all align. Tables/numbers first; verbatim; wikilinks; raw/ source cited.
 - People graph: Annie (core tether + Sugie), Lex/Alexis (foundational ex + chaos), Eli (Patient Zero event), Tarik (work), Fran/Sugie (generational loop), family (Coldren/Whyel/Frank per ancestry cross).
 

@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-07-02
 sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md"]
-related: ["wiki/people/kristin", "wiki/people/suz", "wiki/people/annie", "wiki/mind/concepts/attachment-model", "wiki/self/gemini-activity/gemini-activity", "wiki/self/chats/gemini-18"]
+related: ["wiki/people/kristin", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/mind/concepts/attachment-model", "wiki/self/gemini-activity/gemini-activity", "wiki/self/chats/gemini-18"]
 ---
 
 # Tom
@@ -41,9 +41,33 @@ Dan's reliance on Tom is high during mutual alignment and drops to blocking beha
 
 Safe attachment with no forensic mode engaged — notable precisely because almost every other major relationship in the corpus triggers analysis. See [[wiki/mind/concepts/attachment-model]] and the collapse-period supply role in [[wiki/timeline/periods/2025-collapse]].
 
+## Texture from the corpus
+
+The two handles capture two registers. The primary number (+17249987341)
+runs the day-to-day logistics and politics: quick supply coordination ("Do
+you need some tomorrow?"), running political commentary (a January 2026 riff
+imagining Trump announcing a move "for the people of Isr—Venezuela"), and the
+low-grade owe-and-silence maintenance that ends, characteristically, on
+"testing" as the final message. The banter is dense with in-jokes and casual
+cruelty toward shared targets — the "narco-logistician" stoicism the dossier
+describes, rendered in practice as unbothered absorption of whatever Dan
+brings.
+
+The phloxenheim@gmail.com handle (early–2026, ~1,600 messages) is where the
+technical-collaborator role is most visible and most current. By March 2026
+Tom is evangelizing agentic AI to Dan — describing "Antigravity … the new
+google AGENT ai which means it can act like a person," and boasting that he
+had one AI "interview" his other AI and build him "a custom GROUP CHAT" to
+talk to both at once. The thread also carries the friendship's darker
+undertow: a March 24 message, "Will you talk to me for a little bit?", lands
+after a stretch of one-sided sends — the same lateral-ally-goes-quiet pattern,
+this time with Tom on the asking side.
+
 ## Domain: Tech
 
-Recurring conversations on AI, image generation, and bots — the "creative/technical collaborator" framing from the Gemini profile.
+Recurring conversations on AI, image generation, agentic tooling, and bots —
+the "creative/technical collaborator" framing from the Gemini profile, borne
+out in the phloxenheim thread above.
 
 ## Timeline
 
@@ -61,4 +85,4 @@ The BFS bootloader records a small standing debt ("Tom still in Uniontown, $36 s
 
 ## Related
 
-[[wiki/people/kristin]] · [[wiki/people/annie]] · [[wiki/people/suz]] · [[wiki/mind/concepts/attachment-model]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/self/chats/gemini-18]]
+[[wiki/people/kristin]] · [[wiki/people/annie-ulmer]] · [[wiki/people/suzanne-frank]] · [[wiki/mind/concepts/attachment-model]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/self/chats/gemini-18]]

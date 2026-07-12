@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv", "raw/self/message-csv/imessage_2124702449_both_all_now.csv", "raw/self/message-csv/imessage_3307038747.csv", "raw/self/message-csv/* (37 total CSVs)", "raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/dox-md/Gemini-_18.md"]
-related: ["wiki/self/context-core", "wiki/self/twitter", "wiki/self/youtube-watch-history", "wiki/self/favorites", "wiki/mind/synthesis/forensic-methodology", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/facebook/messages", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/people/annie"]
+related: ["wiki/self/context-core", "wiki/self/twitter", "wiki/self/youtube-watch-history", "wiki/self/favorites", "wiki/mind/synthesis/forensic-methodology", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/facebook/messages", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/people/annie-ulmer"]
 ---
 
 # Master Message Corpora (iMessage Dumps)
@@ -95,7 +95,7 @@ Ties FB ihatedanfrank archive (groups/your_posts_in_groups, events/event_invitat
 
 Named contacts extracted from the master dump that have their own page but do not meet the full-person-page threshold. They exist as lightweight entity pages rather than in the hash-stub quarantine:
 
-[[wiki/people/aaron]] · [[wiki/people/brian]] · [[wiki/people/bruceburish]] · [[wiki/people/james]] · [[wiki/people/jess]] · [[wiki/people/josh-brannan]] · [[wiki/people/marla]] · [[wiki/people/michael-hinkle]] · [[wiki/people/ryan-lisac]] · [[wiki/people/shannon]] · [[wiki/people/trin]] · [[wiki/people/urpaaa-at-yahoo-com]] · [[wiki/people/zaco]]
+[[wiki/people/aaron]] · [[wiki/people/brian]] · [[wiki/people/bruceburish]] · [[wiki/people/james]] · [[wiki/people/jess]] · [[wiki/people/josh-brannan]] · [[wiki/people/marla]] · [[wiki/people/michael-hinkle]] · [[wiki/people/ryan-lisac]] · [[wiki/people/shannon]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/urpaaa-at-yahoo-com]] · [[wiki/people/zaco]]
 
 The 97 auto-generated hash stubs (contacts ≥20 msgs, non-spam) are quarantined in [[wiki/people/contacts/]]. Two high-volume unidentified handles remain flagged for future ID: +17249204125 (~4.8k msgs, PA facilitation) and +17248808111.
 

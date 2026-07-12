@@ -13,7 +13,7 @@ sources: [
 ]
 related: [
   "wiki/people/danielle-onesi",
-  "wiki/people/annie",
+  "wiki/people/annie-ulmer",
   "wiki/people/alexis-armel",
   "wiki/self/gemini-activity/gemini-activity",
   "wiki/self/chats/gemini-21",

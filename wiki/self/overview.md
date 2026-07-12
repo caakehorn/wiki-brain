@@ -103,12 +103,12 @@ Presbyterian. Full DNA reports and the family tree are synthesized at
   addiction; mother's affair with the dealer surfaced, ending the marriage.
   Father later survived stage-4 throat cancer. The analyses treat this as
   the origin of the encoded belief that intimacy leads to abandonment.
-  Detail: [[wiki/people/rick-frank]], [[wiki/people/suz]].
+  Detail: [[wiki/people/rick-frank]], [[wiki/people/suzanne-frank]].
 - **Alexis collapse (2009–2015).** A six-year relationship ended in
   financial collapse following a move to New York.
 - **Annie decade (2015–2025).** The dominant relationship of the corpus —
   over 48k messages across dual handles. Genesis at a golf course in 2015;
-  ends through the Eli incident (below). See [[wiki/people/annie]] and
+  ends through the Eli incident (below). See [[wiki/people/annie-ulmer]] and
   [[wiki/mind/synthesis/attachment-trauma-bond]].
 - **Eli incident (late 2024 / early 2025).** Found Annie unconscious with a
   coworker ~80 minutes after her shift, location sharing disabled;

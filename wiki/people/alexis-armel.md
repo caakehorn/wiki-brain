@@ -8,7 +8,7 @@ date_created: 2026-06-23
 date_modified: 2026-07-11
 sources: [
   "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv","raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt"]
-related: ["wiki/people/annie", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf"]
+related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf"]
 ---
 
 # Alexis Armel (“Lex”)
@@ -47,7 +47,7 @@ Updates to related: [[wiki/self/gemini-activity/gemini-activity]], [[wiki/self/c
 | _58 ishlab/NYC | "Lex was with me the whole time we were in nyc and she ended up working at the famous Bridge Cafe until Hurricane Sandy" | _58.txt |
 
 ## Corpus Ties
-- 2015-11-28 cheating → direct transition marker to [[wiki/people/annie]] era + 2015-2016 period start (43 events Dec).
+- 2015-11-28 cheating → direct transition marker to [[wiki/people/annie-ulmer]] era + 2015-2016 period start (43 events Dec).
 - Seeding for attachment patterns / Si-Ghost Kernel (parental + Alexis collapses per [[wiki/mind/concepts/phenomenology-lens]]).
 - Profile lock in Gemini: "Alexis (Lex) Armel: Historical relationship partner... foundational point of reference for personal evolution."
 - Ties to music/tech: Full Sail Recording Arts + Pro Tools HD 8 cert; early production identity cross [[wiki/interests/favorites/music]] [[wiki/interests/music/overview]].
@@ -58,7 +58,7 @@ Early attachment wound activator alongside family 2005 rupture (see [[wiki/mind/
 
 ## Related
 - [[wiki/timeline/periods/2015-2016-annie-relationship-start]]
-- [[wiki/people/annie]]
+- [[wiki/people/annie-ulmer]]
 - [[wiki/mind/concepts/attachment-model]]
 - [[wiki/people/danielle-onesi]]
 - [[wiki/self/chats/gemini-58]]

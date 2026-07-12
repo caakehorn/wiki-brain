@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/chats/Analyzing manipulation and ethical intent in data.md"]
-related: ["wiki/self/context-core", "wiki/self/chats/j6-chat", "wiki/self/chats/danfrank-isms-pinned", "wiki/timeline/events/drawer-dispute", "wiki/mind/synthesis/forensic-methodology", "wiki/mind/concepts/attachment-model", "wiki/people/annie"]
+related: ["wiki/self/context-core", "wiki/self/chats/j6-chat", "wiki/self/chats/danfrank-isms-pinned", "wiki/timeline/events/drawer-dispute", "wiki/mind/synthesis/forensic-methodology", "wiki/mind/concepts/attachment-model", "wiki/people/annie-ulmer"]
 ---
 
 # Analyzing Manipulation and Ethical Intent in Data (Master Forensic Prompt)

@@ -18,7 +18,7 @@ sources:
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
 related:
-  - wiki/people/annie
+  - wiki/people/annie-ulmer
   - wiki/timeline/events/eli-incident
   - wiki/mind/concepts/attachment-model
   - wiki/timeline/periods/2015-2016-annie-relationship-start

@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/chats/j6-chat.md", "raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/ancestry/dna-reports/Ancestry Composition - 23andMe.pdf"]
-related: ["wiki/self/context-core", "wiki/timeline/events/drawer-dispute", "wiki/self/chats/j6-chat", "wiki/mind/synthesis/work-power-dynamics", "wiki/mind/synthesis/political-psyops", "wiki/people/suz", "wiki/people/annie", "wiki/self/facebook", "wiki/self/ancestry", "wiki/mind/synthesis/family-heritage-and-roots", "wiki/mind/synthesis/millennial-digital-witness"]
+related: ["wiki/self/context-core", "wiki/timeline/events/drawer-dispute", "wiki/self/chats/j6-chat", "wiki/mind/synthesis/work-power-dynamics", "wiki/mind/synthesis/political-psyops", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/self/facebook", "wiki/self/ancestry", "wiki/mind/synthesis/family-heritage-and-roots", "wiki/mind/synthesis/millennial-digital-witness"]
 ---
 
 # Vertical Authority Skepticism
@@ -57,4 +57,4 @@ These ground the drawer micro-example and J6 macro in personal vertical history 
 ## Totality
 This skepticism powers the forensic default: institutions (political, corporate, police, relationship structures) are examined for procedural failures and power extraction. Drawer is micro; J6 and nodes are macro. Same orientation.
 
-**Cross-references:** [[wiki/self/context-core]], [[wiki/timeline/events/drawer-dispute]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/mind/synthesis/political-psyops]], [[wiki/people/suz]], [[wiki/people/annie]], [[wiki/mind/concepts/forensic-analysis]], [[wiki/self/facebook]], [[wiki/self/ancestry]], [[wiki/mind/synthesis/family-heritage-and-roots]].
+**Cross-references:** [[wiki/self/context-core]], [[wiki/timeline/events/drawer-dispute]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/mind/synthesis/political-psyops]], [[wiki/people/suzanne-frank]], [[wiki/people/annie-ulmer]], [[wiki/mind/concepts/forensic-analysis]], [[wiki/self/facebook]], [[wiki/self/ancestry]], [[wiki/mind/synthesis/family-heritage-and-roots]].

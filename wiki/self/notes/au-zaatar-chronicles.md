@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
-related: ["wiki/self/location-history", "wiki/timeline/events/drawer-dispute", "wiki/people/annie", "wiki/mind/synthesis/work-power-dynamics", "wiki/self/gemini-activity/gemini-activity"]
+related: ["wiki/self/location-history", "wiki/timeline/events/drawer-dispute", "wiki/people/annie-ulmer", "wiki/mind/synthesis/work-power-dynamics", "wiki/self/gemini-activity/gemini-activity"]
 ---
 
 # Au Za'atar Chronicles (Storytime Parts)
@@ -29,6 +29,6 @@ related: ["wiki/self/location-history", "wiki/timeline/events/drawer-dispute", "
 - **Music/Production:** "Gripnotic" elsewhere; here narrative as creative output.
 - **_00 Deep:** 781l stats, full timeline Mar21-Aug24 "41-month", 15+ verbatim, Triad (DJ/Dimitri), Sergio/Tunisian, construction "LITERAL WAR ZONE", "unholy chill", "Shed Era permanent pillar". Cross [[wiki/self/chats/gemini-00]], [[wiki/people/tarik-fallous]], [[wiki/people/valeria-iglesias-cid]].
 
-**Cross-references:** [[wiki/self/location-history]], [[wiki/timeline/events/drawer-dispute]], [[wiki/people/annie]], [[wiki/self/gemini-activity/gemini-activity]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/mind/concepts/abyssal-architect]] (entropy, radical skepticism).
+**Cross-references:** [[wiki/self/location-history]], [[wiki/timeline/events/drawer-dispute]], [[wiki/people/annie-ulmer]], [[wiki/self/gemini-activity/gemini-activity]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/mind/concepts/abyssal-architect]] (entropy, radical skepticism).
 
 This is self as unreliable narrator / saboteur in work ecosystem, forensically narrated via AI.

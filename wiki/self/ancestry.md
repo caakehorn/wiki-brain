@@ -32,7 +32,7 @@ related: ["wiki/self/context-core", "wiki/self/overview", "wiki/self/location-hi
 |---------------------------|-------------------------------------------|--------------------------------|------------------------------------|----------|
 | Self                      | Daniel Gillingham Frank                   | 1988-11-01                     | Uniontown, Fayette, PA, USA        | Core spine match |
 | Father                    | Richard Harrison "Rick" Frank             | 1959-05-22                     | Uniontown, PA                      | [[wiki/people/rick-frank]]; low contact, 2005 hinge |
-| Mother                    | Suzanne Whyel /Shrum/ Frank ("Suz")       | 1962-09-15                     | Pittsburgh, Allegheny, PA          | [[wiki/people/suz]]; realtor, primary financial line |
+| Mother                    | Suzanne Whyel /Shrum/ Frank ("Suz")       | 1962-09-15                     | Pittsburgh, Allegheny, PA          | [[wiki/people/suzanne-frank]]; realtor, primary financial line |
 | Sister                    | Vanessa C. Frank                          | 1994-01-16                     | Greensburg, Westmoreland, PA       | [[wiki/people/vanessa-frank]]; Vail ski-school |
 | Paternal Grandfather      | Morley Jay Frank                          | 1927-08-20 – 1998-12-13        | Brownsville – Hopwood, PA          | [[wiki/people/morley-frank]]; 113+ sources |
 | Paternal Great-Grandfather| David J. Frank                            | 1892-08-12 – 1960-04-06        | Russia – Brownsville, PA           | [[wiki/people/david-j-frank]]; Russian Jewish immigrant |

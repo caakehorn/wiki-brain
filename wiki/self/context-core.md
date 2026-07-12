@@ -25,8 +25,8 @@ related:
   - wiki/mind/concepts/phenomenology-lens
   - wiki/mind/concepts/dans-law
   - wiki/people/tom
-  - wiki/people/suz
-  - wiki/people/annie
+  - wiki/people/suzanne-frank
+  - wiki/people/annie-ulmer
   - wiki/people/jerad-friedline
   - wiki/people/fran-whyel
   - wiki/timeline/events/eli-incident
@@ -48,7 +48,7 @@ changelog:
 
 ## LLM Quick Brief
 
-**For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA. Age 37 as of 2026. Independent music producer (GRIPNOTIC alias, active) and AI-consulting/agent pipeline work. Democratic socialist, atheist, autistic (self-identified), Jewish heritage on the paternal line. INTP 5w4 sx/sp — Ti-dominant forensic analyst who treats every domain (relationships, politics, work, AI) through the same anomaly-detection lens. The failure mode is never ignorance; it is the diagnosis-to-behavior gap. Core unconscious axioms: *not exceptional = worthless; not vigilant = annihilated; love that doesn't cost everything isn't real; time = countdown.* The decade-long relationship with [[wiki/people/annie]] closed June 1, 2026 — not live. Housing is in active transition (337 Saratoga St being sold, no confirmed successor). BFS termination (cash dispute) in 2026. The one consistently sincere output channel is music production. All behavioral data defers to the 181,585-row message corpus and documented primary records, not memory or narrative.
+**For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA. Age 37 as of 2026. Independent music producer (GRIPNOTIC alias, active) and AI-consulting/agent pipeline work. Democratic socialist, atheist, autistic (self-identified), Jewish heritage on the paternal line. INTP 5w4 sx/sp — Ti-dominant forensic analyst who treats every domain (relationships, politics, work, AI) through the same anomaly-detection lens. The failure mode is never ignorance; it is the diagnosis-to-behavior gap. Core unconscious axioms: *not exceptional = worthless; not vigilant = annihilated; love that doesn't cost everything isn't real; time = countdown.* The decade-long relationship with [[wiki/people/annie-ulmer]] closed June 1, 2026 — not live. Housing is in active transition (337 Saratoga St being sold, no confirmed successor). BFS termination (cash dispute) in 2026. The one consistently sincere output channel is music production. All behavioral data defers to the 181,585-row message corpus and documented primary records, not memory or narrative.
 
 ---
 
@@ -102,9 +102,9 @@ Pivot words `actually` / `honestly` / `literally` mark the turn from cynical obs
 | Person | Role | Corpus weight |
 |--------|------|---------------|
 | [[wiki/people/tom]] (Tom Maison) | Primary male ally, safe attachment, first-call for major events; drug supply line; Ohiopyle excursions; ~3 weeks older, Pittsburgh area | ~16,563 msgs (rank 4) |
-| [[wiki/people/suz]] (Suzanne Frank, mother) | Realtor, primary financial line, oscillates savior↔adversary; "Blue MAGA wine mom," functional alcoholic; selling 337 Saratoga Dr (June 2026) | High |
+| [[wiki/people/suzanne-frank]] (Suzanne Frank, mother) | Realtor, primary financial line, oscillates savior↔adversary; "Blue MAGA wine mom," functional alcoholic; selling 337 Saratoga Dr (June 2026) | High |
 | [[wiki/people/jerad-friedline]] | Childhood friend (Sacramento); married, one daughter; e-commerce; political mirror; FSLY tip; "josh brannan is innocent.wav" last exchange | High (first-call) |
-| [[wiki/people/annie]] (Anne Ulmer) | Decade-defining relationship ~2015–2026, met via [[wiki/people/alexis-armel|Alexis]]; closed June 1, 2026 (group chat); defamation confirmed; Eli affair central — the gaslighting outweighed the affair | 126k+ msgs |
+| [[wiki/people/annie-ulmer]] (Anne Ulmer) | Decade-defining relationship ~2015–2026, met via [[wiki/people/alexis-armel|Alexis]]; closed June 1, 2026 (group chat); defamation confirmed; Eli affair central — the gaslighting outweighed the affair | 126k+ msgs |
 | [[wiki/people/rick-frank]] (father) | Periodic low-intensity contact; undischarged paternal-authority wound | Low |
 | Vanessa (sister) | Vail, ski school; minimal presence | Low |
 | [[wiki/people/fran-whyel]] (great-grandmother) | d. April 2018 age ~97–98; self-described biggest life influence; dirt-poor WV → coal-baron marriage; gifted the Numark NS7; seven-day deathwatch with Annie | High |

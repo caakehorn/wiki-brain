@@ -43,7 +43,7 @@ But: export categories include removed_friends, friends_you_see_less, rejected r
 
 **Theorizing:** FB friends list as fossil of contact surface area. High number reflects extroverted / scene-participating phases + early internet social habit (2007-). Cross-ref core contact-gini, attachment-model, periods 2010s + 2017-poverty-floor (network as resource?).
 
-Cross to [[wiki/mind/concepts/contact-gini]], [[wiki/timeline/periods/2015-2016-annie-relationship-start]], [[wiki/mind/synthesis/attachment-trauma-bond]], [[wiki/people/annie]], [[wiki/self/facebook]] (main). 
+Cross to [[wiki/mind/concepts/contact-gini]], [[wiki/timeline/periods/2015-2016-annie-relationship-start]], [[wiki/mind/synthesis/attachment-trauma-bond]], [[wiki/people/annie-ulmer]], [[wiki/self/facebook]] (main). 
 
 **Message Thread Rule (new standing):** Anyone with documented back-and-forth in a message thread (FB or iMessage/texts) receives a dedicated wiki/people/ page. Applied here and retroactively to early data. New/expanded: [[wiki/people/rj-ritchey]], [[wiki/people/marc-charles]], [[wiki/people/sean-teets]], [[wiki/people/charles-davenport]], [[wiki/people/ally-lubin]], [[wiki/people/marty-martin]], [[wiki/people/maddox]], [[wiki/people/dakota]], [[wiki/people/felix]], [[wiki/people/johnny-dealer]] (and others like joshbrannan if substantial thread). Full inventory in wiki/self/index.md and log.md. See also facebook/messages.md for FB thread analysis.
 

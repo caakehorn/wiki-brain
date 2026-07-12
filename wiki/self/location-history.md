@@ -23,7 +23,7 @@ related:
   - wiki/timeline/periods/2021-2023-employment-block
   - wiki/timeline/periods/dec-2025-spike
   - wiki/timeline/periods/2025-collapse
-  - wiki/people/suz
+  - wiki/people/suzanne-frank
   - wiki/people/rick-frank
   - wiki/people/fran-whyel
   - wiki/people/david-j-frank

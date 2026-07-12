@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_18.md"]
-related: ["wiki/people/suz", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/conflict-architecture", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/gemini-activity/gemini-activity", "wiki/people/vanessa-frank"]
+related: ["wiki/people/suzanne-frank", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/conflict-architecture", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/gemini-activity/gemini-activity", "wiki/people/vanessa-frank"]
 ---
 
 # Richard Harrison "Rick" Frank
@@ -27,7 +27,7 @@ Core describes Rick as contributing to vertical/paternal authority skepticism pa
 
 Cross-references:
 - [[wiki/self/ancestry]] (full paternal line extraction)
-- [[wiki/people/suz]] (mother; divorce and rupture)
+- [[wiki/people/suzanne-frank]] (mother; divorce and rupture)
 - [[wiki/mind/concepts/attachment-model]] (template for intimacy/abandonment)
 - [[wiki/mind/concepts/conflict-architecture]] (vertical authority suspicion)
 - [[wiki/self/location-history]] and [[wiki/timeline/periods/2017-poverty-floor]] (Uniontown roots and returns)

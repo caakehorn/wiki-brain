@@ -14,14 +14,14 @@ sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 related:
-  - wiki/people/suz
+  - wiki/people/suzanne-frank
   - wiki/self/ancestry
   - wiki/self/overview
   - wiki/interests/music/overview
   - wiki/interests/music/concepts/sub-bass-signature
   - wiki/mind/concepts/attachment-model
   - wiki/mind/synthesis/family-heritage-and-roots
-  - wiki/people/annie
+  - wiki/people/annie-ulmer
 changelog:
   - date: 2026-07-11
     note: "Full prose rewrite from data-dump stub"
@@ -45,7 +45,7 @@ The interpretation offered in the core documents is that this is not coincidenta
 
 ## The Deathwatch
 
-The seven-day deathwatch at the end of Fran's life is documented in [[wiki/self/context-core]] as a significant biographical fact for reasons beyond the obvious. It was attended throughout by both Dan and [[wiki/people/annie]] — making it one of the few events in the Annie-period record where both of them are present in a context that is entirely outside the relational conflict dynamic. The deathwatch happened in 2018, three years into the Annie relationship and two years into the poverty-floor and deep-cycle period at 155 Virginia Ave. What it means that Annie was present for Fran's death — as one of only two people there throughout — is a detail the corpus tracks without resolving.
+The seven-day deathwatch at the end of Fran's life is documented in [[wiki/self/context-core]] as a significant biographical fact for reasons beyond the obvious. It was attended throughout by both Dan and [[wiki/people/annie-ulmer]] — making it one of the few events in the Annie-period record where both of them are present in a context that is entirely outside the relational conflict dynamic. The deathwatch happened in 2018, three years into the Annie relationship and two years into the poverty-floor and deep-cycle period at 155 Virginia Ave. What it means that Annie was present for Fran's death — as one of only two people there throughout — is a detail the corpus tracks without resolving.
 
 There is also the matter of Fran and Annie's grandmother ("Sugie") having been Uniontown country-club neighbors for fifty years. The Uniontown Generational Loop, as the Gemini analysis termed it, is the phenomenon of Dan's life circling back through the same geographic and social territory across generations. Fran is one of the nodes that makes that loop visible.
 

@@ -15,7 +15,7 @@ sources:
   - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
 related:
-  - wiki/people/annie
+  - wiki/people/annie-ulmer
   - wiki/timeline/events/eli-incident
   - wiki/timeline/events/group-chat-closure
   - wiki/mind/concepts/conflict-architecture

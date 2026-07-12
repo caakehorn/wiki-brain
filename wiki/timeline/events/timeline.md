@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/LIFE REPORT.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/*", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/FAVORITES DATA (2).md", "raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/ancestry/"]
-related: ["wiki/timeline/periods/dec-2025-spike", "wiki/timeline/periods/2021-2023-employment-block", "wiki/people/annie", "wiki/people/alexis-armel", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/timeline/periods/2017-poverty-floor", "wiki/timeline/periods/2018-deep-cycle", "wiki/timeline/periods/2025-collapse", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/facebook/messages", "wiki/mind/synthesis/forensic-methodology", "wiki/self/ancestry", "wiki/mind/synthesis/family-heritage-and-roots", "wiki/people/alexis-armel"]
+related: ["wiki/timeline/periods/dec-2025-spike", "wiki/timeline/periods/2021-2023-employment-block", "wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/timeline/periods/2017-poverty-floor", "wiki/timeline/periods/2018-deep-cycle", "wiki/timeline/periods/2025-collapse", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/facebook/messages", "wiki/mind/synthesis/forensic-methodology", "wiki/self/ancestry", "wiki/mind/synthesis/family-heritage-and-roots", "wiki/people/alexis-armel"]
 ---
 
 # Master Life Events Timeline
@@ -68,7 +68,7 @@ related: ["wiki/timeline/periods/dec-2025-spike", "wiki/timeline/periods/2021-20
 
 **Related Events:**
 - See [[wiki/timeline/events/eli-incident]], [[wiki/timeline/events/drawer-dispute]], [[wiki/timeline/events/group-chat-closure]]
-- People: [[wiki/people/annie]], [[wiki/people/alexis-armel]], [[wiki/people/tom]], [[wiki/people/suz]]
+- People: [[wiki/people/annie-ulmer]], [[wiki/people/alexis-armel]], [[wiki/people/tom]], [[wiki/people/suzanne-frank]]
 - FB events/groups cross in [[wiki/self/facebook]] (your_event_responses, group_interactions, events)
 
 This is the master index. Full chronological + 1,104 in raw/self/dox-md/LIFE_EVENTS_CALENDAR.md. Re-mined for periods expansion + FB.

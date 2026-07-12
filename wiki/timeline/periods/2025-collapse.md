@@ -22,7 +22,7 @@ sources: [
 related: [
   "wiki/timeline/events/timeline",
   "wiki/mind/synthesis/attachment-trauma-bond",
-  "wiki/people/annie",
+  "wiki/people/annie-ulmer",
   "wiki/people/eli",
   "wiki/self/facebook",
   "wiki/self/context-core",

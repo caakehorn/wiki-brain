@@ -6,7 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-06-23
 date_range_start: 
 sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "wiki/legal/463-morgantown/timeline.md", "wiki/people/jackson-alexander.md", "wiki/people/arnu.md"]
-related: ["wiki/people/jackson-alexander", "wiki/people/suz", "wiki/people/arnu", "wiki/people/john-carney", "wiki/people/felix", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/legal/bfs-dispute/overview", "wiki/self/facebook"]
+related: ["wiki/people/jackson-alexander", "wiki/people/suzanne-frank", "wiki/people/arnu", "wiki/people/john-carney", "wiki/people/felix", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/legal/bfs-dispute/overview", "wiki/self/facebook"]
 ---
 
 # 463 Morgantown St — Overview
@@ -27,7 +27,7 @@ Mixed agent/tenant/caretaker for Suz. Documented misconduct in corpus. No integr
 | Role | Person/Entity | Dates / Evidence | Financial/Legal Ties | Source |
 |------|---------------|------------------|----------------------|--------|
 | Owner | [[wiki/people/jackson-alexander]] (Alexander Jackson) | Title holder; move-in ~2026 | Lease/POA counterparty TBD | overview, timeline, jackson page |
-| Seller (337) / agent/tenant/caretaker (463) | [[wiki/people/suz]] | 337 close ~June 2026; move without lease/POA | $750/wk cycles; mixed roles = liability | context-core §5; operating |
+| Seller (337) / agent/tenant/caretaker (463) | [[wiki/people/suzanne-frank]] | 337 close ~June 2026; move without lease/POA | $750/wk cycles; mixed roles = liability | context-core §5; operating |
 | Co-occupant (mixed) | Dan | Move-in with Suz; BFS parallel | Exposure via status | context-core, BFS bootloader |
 | Contractor (paint/mech) | [[wiki/people/arnu]] | 2026-02-10 no-show noted; lien ~07-27 | Mechanics lien risk | message-csv 2026-02-10; timeline |
 | Contractor (general, unreachable) | [[wiki/people/john-carney]] | ~10-20% complete | Incomplete work exposure | timeline, risks; Suz "John carney thing" 2026-03-27 |

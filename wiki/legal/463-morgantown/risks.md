@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/MAX_PRIME.md", "wiki/people/arnu.md", "wiki/people/john-carney.md"]
-related: ["wiki/legal/463-morgantown/overview", "wiki/legal/463-morgantown/timeline", "wiki/people/jackson-alexander", "wiki/people/arnu", "wiki/people/john-carney", "wiki/people/suz", "wiki/people/felix", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/legal/bfs-dispute/overview"]
+related: ["wiki/legal/463-morgantown/overview", "wiki/legal/463-morgantown/timeline", "wiki/people/jackson-alexander", "wiki/people/arnu", "wiki/people/john-carney", "wiki/people/suzanne-frank", "wiki/people/felix", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/legal/bfs-dispute/overview"]
 ---
 
 # 463 Morgantown St — Risks

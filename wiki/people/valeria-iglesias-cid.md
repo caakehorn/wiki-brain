@@ -13,7 +13,7 @@ sources: [
   "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"
 ]
 related: [
-  "wiki/people/annie",
+  "wiki/people/annie-ulmer",
   "wiki/self/gemini-activity/gemini-activity",
   "wiki/timeline/periods/2021-2023-employment-block",
   "wiki/mind/synthesis/attachment-trauma-bond",
@@ -46,7 +46,7 @@ Valeria Iglesias Cid — 19-year-old heiress to a laser-surgery empire (mother: 
 | Post | "Isolated Incident" sealed in Frank-Ulmer simulation; never destabilized primary recursive structure with Annie per Gemini analysis. Chilean pull (move to Concepción laser empire) vs 58th St reality. |
 
 ## Domain: Self
-High-signal attachment deviation node. Only full security breach in long-term bond. Seeded "Total Security Breach" framing used in later Eli/Loop analyses. Cross to [[wiki/people/annie]] (stasis contrast: Annie fired while orbiting Valeria), [[wiki/self/gemini-activity/gemini-activity]] (forensic storytime), Au Za'atar work chronicles, attachment-trauma-bond (template repetition of concealment). Demonstrates "entropy" capacity during hedonism/NYC phase pre-2025 return.
+High-signal attachment deviation node. Only full security breach in long-term bond. Seeded "Total Security Breach" framing used in later Eli/Loop analyses. Cross to [[wiki/people/annie-ulmer]] (stasis contrast: Annie fired while orbiting Valeria), [[wiki/self/gemini-activity/gemini-activity]] (forensic storytime), Au Za'atar work chronicles, attachment-trauma-bond (template repetition of concealment). Demonstrates "entropy" capacity during hedonism/NYC phase pre-2025 return.
 
 ## Notes
 Per Gemini-_00: "This was the singular instance of unauthorized infidelity where the primary partner was not aware of the specific participant in advance." "THE CHILEAN PULL: The Deep Architecture of your Valeria obsession was so potent you claim you would have moved to Chile for her." "THE JUXTAPOSITION: Imagine trading the 58th Street Shed for the high-powered laser surgery empire of Dra. Loreto Cid in Concepción."
@@ -54,7 +54,7 @@ Per Gemini-_00: "This was the singular instance of unauthorized infidelity where
 No independent message corpus located; all high-fidelity reconstruction via Gemini self-forensic extractions and video artifacts. Cross-verified against LIFE calendar (no explicit entries surfaced in sample; defers to Gemini + FB/au-zaatar overlaps). Under-developed relative to Annie/Tom/Lex; high forensic weight for "breach" taxonomy in conflict-architecture.
 
 ## Related
-- [[wiki/people/annie]]
+- [[wiki/people/annie-ulmer]]
 - [[wiki/self/chats/gemini-02]] (Au Za'atar work nodes)
 - [[wiki/self/gemini-activity/gemini-activity]]
 - [[wiki/mind/synthesis/attachment-trauma-bond]]

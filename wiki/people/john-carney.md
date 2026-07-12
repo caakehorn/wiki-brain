@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/message-csv/imessages_2124702449_last6months.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "wiki/legal/463-morgantown/timeline.md", "wiki/legal/463-morgantown/risks.md", "wiki/legal/463-morgantown/overview.md", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/Semantic Location History/2019/2019_FEBRUARY.json"]
-related: ["wiki/legal/463-morgantown/overview", "wiki/legal/463-morgantown/timeline", "wiki/legal/463-morgantown/risks", "wiki/people/jackson-alexander", "wiki/people/arnu", "wiki/people/suz", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse"]
+related: ["wiki/legal/463-morgantown/overview", "wiki/legal/463-morgantown/timeline", "wiki/legal/463-morgantown/risks", "wiki/people/jackson-alexander", "wiki/people/arnu", "wiki/people/suzanne-frank", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse"]
 ---
 
 # John Carney
@@ -37,6 +37,6 @@ Fits [[wiki/self/context-core]] §5 work/housing exit patterns and [[wiki/mind/s
 
 Location history cross suggests possible auto-repair overlap or coincidence in Uniontown network. Owner Jackson Alexander bears ultimate title risk.
 
-**Cross-references:** [[wiki/legal/463-morgantown/overview]], [[wiki/people/jackson-alexander]], [[wiki/people/arnu]], [[wiki/people/suz]], [[wiki/self/context-core]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]], [[wiki/legal/bfs-dispute/overview]].
+**Cross-references:** [[wiki/legal/463-morgantown/overview]], [[wiki/people/jackson-alexander]], [[wiki/people/arnu]], [[wiki/people/suzanne-frank]], [[wiki/self/context-core]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]], [[wiki/legal/bfs-dispute/overview]].
 
 **Notes:** "John carney thing" implies dedicated prior analysis (similar to Gemini/Bacharach deep dives); full doc not in reviewed raw but referenced. Distinguish 2025 personal Carney refs from 2026 463 contractor. Defer to full message-csv + future 463 docs. Limited bio; focus on property ties.

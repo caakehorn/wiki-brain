@@ -20,11 +20,11 @@ sources:
   - "raw/self/ancestry/"
 related:
   - "wiki/timeline/events/timeline"
-  - "wiki/people/annie"
+  - "wiki/people/annie-ulmer"
   - "wiki/timeline/periods/2015-2016-annie-relationship-start"
   - "wiki/self/ancestry"
   - "wiki/people/rick-frank"
-  - "wiki/people/suz"
+  - "wiki/people/suzanne-frank"
   - "wiki/people/fran-whyel"
   - "wiki/mind/synthesis/work-power-dynamics"
   - "wiki/self/message-corpora/master-message-dump"
@@ -33,13 +33,13 @@ related:
 
 # 2017 Poverty Floor
 
-2017 was the year the floor dropped out. Dan was twenty-eight, living in Uniontown, Pennsylvania, in a house on Virginia Avenue he had moved into with [[wiki/people/annie]] after Lex helped them clear out of Scerba's old place. The calendar logged 85 events. The financial and relational categories dominated so completely that the year reads as a single sustained emergency rather than a sequence of discrete crises. Water was shut off. The account was overdrawn. His grandmother [[wiki/people/fran-whyel]] woke with nosebleeds at 3am. His mother told him he had played his cards out and crossed a final line. This was not a rough patch. It was the bottom.
+2017 was the year the floor dropped out. Dan was twenty-eight, living in Uniontown, Pennsylvania, in a house on Virginia Avenue he had moved into with [[wiki/people/annie-ulmer]] after Lex helped them clear out of Scerba's old place. The calendar logged 85 events. The financial and relational categories dominated so completely that the year reads as a single sustained emergency rather than a sequence of discrete crises. Water was shut off. The account was overdrawn. His grandmother [[wiki/people/fran-whyel]] woke with nosebleeds at 3am. His mother told him he had played his cards out and crossed a final line. This was not a rough patch. It was the bottom.
 
 ## Setting and Context
 
-Uniontown in 2017 was the same Uniontown it had always been — the same Fayette County geography that had anchored the Frank family across multiple generations, documented in the ancestry tree rooted in that region. Dan had returned here from whatever wider trajectory had briefly opened after Full Sail, and the city absorbed him back without ceremony. The 2017 chapter sits between the 2015–2016 period that established the [[wiki/people/annie]] relationship and the 2018 peak that would briefly escalate everything before the first serious attempt at escape. In 2017, there was no escape in view.
+Uniontown in 2017 was the same Uniontown it had always been — the same Fayette County geography that had anchored the Frank family across multiple generations, documented in the ancestry tree rooted in that region. Dan had returned here from whatever wider trajectory had briefly opened after Full Sail, and the city absorbed him back without ceremony. The 2017 chapter sits between the 2015–2016 period that established the [[wiki/people/annie-ulmer]] relationship and the 2018 peak that would briefly escalate everything before the first serious attempt at escape. In 2017, there was no escape in view.
 
-There was no car. There was no reliable income. The operating manual records a specific, precise indignity: he DJed for four hours and was not paid. The math on a given day could run: gas costs more than the earnings. He sold gold. He sold clothes. He made money from camming — a lower-naked goal, whatever the going rate was, whatever the algorithm rewarded that week. Tom fronted drugs and was owed $120. [[wiki/people/suz]] is somewhere in the peripheral record of this year, as is the broader family structure that both cushioned and judged.
+There was no car. There was no reliable income. The operating manual records a specific, precise indignity: he DJed for four hours and was not paid. The math on a given day could run: gas costs more than the earnings. He sold gold. He sold clothes. He made money from camming — a lower-naked goal, whatever the going rate was, whatever the algorithm rewarded that week. Tom fronted drugs and was owed $120. [[wiki/people/suzanne-frank]] is somewhere in the peripheral record of this year, as is the broader family structure that both cushioned and judged.
 
 ## Key Events
 
@@ -59,7 +59,7 @@ The LIFE REPORT characterizes this period as one of analytical and emotional pro
 
 There is a particular kind of clarity that poverty instills. When there is no margin, every decision has an immediate and legible cost. 2017 did not produce paralysis — the calendar records action, transaction, movement — but the action was entirely reactive. The question was never what to build; it was what to hold together until tomorrow.
 
-The [[wiki/people/annie]] relationship logged 85 calendar events in this year alone. That density reflects both genuine attachment and the way volatile bonds generate their own administrative overhead — the breakups, the reconciliations, the decisions, the events that require a calendar entry because they happened and mattered and needed to be tracked.
+The [[wiki/people/annie-ulmer]] relationship logged 85 calendar events in this year alone. That density reflects both genuine attachment and the way volatile bonds generate their own administrative overhead — the breakups, the reconciliations, the decisions, the events that require a calendar entry because they happened and mattered and needed to be tracked.
 
 ## Data Signature
 
@@ -79,4 +79,4 @@ The [[wiki/people/annie]] relationship logged 85 calendar events in this year al
 
 2017 ended without resolution. The poverty floor did not lift — it tilted. 2018 would bring higher event density (254 calendar events, the highest recorded year), more dealers in the network, more financial velocity, and no structural improvement. The escalation that followed was not recovery. It was acceleration in the same channel. The deep cycle that 2017 had begun was still gathering.
 
-**Related:** [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2018-deep-cycle]], [[wiki/people/annie]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/ancestry]], [[wiki/people/fran-whyel]], [[wiki/people/suz]], [[wiki/self/gemini-activity/gemini-activity]]
+**Related:** [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2018-deep-cycle]], [[wiki/people/annie-ulmer]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/ancestry]], [[wiki/people/fran-whyel]], [[wiki/people/suzanne-frank]], [[wiki/self/gemini-activity/gemini-activity]]

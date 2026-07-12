@@ -13,13 +13,13 @@ sources: [
   "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"
 ]
 related: [
-  "wiki/people/annie",
+  "wiki/people/annie-ulmer",
   "wiki/timeline/events/eli-incident",
   "wiki/self/gemini-activity/gemini-activity",
   "wiki/mind/synthesis/attachment-trauma-bond",
   "wiki/self/context-core",
   "wiki/people/valeria-iglesias-cid",
-  "wiki/people/suz"
+  "wiki/people/suzanne-frank"
 ]
 ---
 
@@ -44,7 +44,7 @@ Explicitly called out for locking: "The "Eli Incident" (Feb 2025)"; redaction co
 
 ## Domain: Self
 - [[wiki/timeline/events/eli-incident]]: Primary event page (gaslighting, lobby collapse, blackout cascade).
-- Ties to [[wiki/people/annie]] (affair concealment, intermittent reinforcement, tether).
+- Ties to [[wiki/people/annie-ulmer]] (affair concealment, intermittent reinforcement, tether).
 - Overlap [[wiki/self/gemini-activity/gemini-activity]] (profile node management + Suzy call forensic).
 - [[wiki/mind/synthesis/attachment-trauma-bond]]: Gaslighting + reality distortion patterns.
 
