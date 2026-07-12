@@ -10,10 +10,14 @@ date_modified: 2026-07-11
 date_range_start: 2015-11-01
 date_range_end: 2026-06-01
 sources:
+  - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
+  - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
+  - raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx
+  - raw/self/dox-scan/DanAnnie_CompleteAnalysis_Final.docx
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/Annie Affadavit.txt
-  - raw/self/imessage/annie_full_archive.csv
+  - raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv
   - raw/self/message-csv/annie_all_time_logs.csv
   - raw/self/message-csv/THE END FIGHT.csv
   - raw/self/facebook/facebook-ihatedanfrank/
@@ -27,6 +31,7 @@ related:
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/timeline/events/eli-incident
   - wiki/timeline/events/end-fight
+  - wiki/timeline/events/march-2026-terminal-phase
   - wiki/timeline/events/group-chat-closure
   - wiki/timeline/periods/dec-2025-spike
   - wiki/timeline/periods/2015-2016-annie-relationship-start
@@ -122,6 +127,22 @@ concealed alternate reality during Dan's highest-vulnerability phase
 replicates the 2004–2005 parental rupture exactly — same architecture,
 different people ([[wiki/mind/synthesis/attachment-trauma-bond]]).
 
+**The financial history is oscillatory, not one-sided** (per the accepted
+amendments in the TenYears dossier): Dan funded the first five NYC years;
+in 2023 he worked at Au Za'atar while an unemployed Annie shared in
+accumulating a $10,000 landlord debt; he was involuntarily managed out in
+June 2024 (hours cut to dodge unemployment obligations); only then did the
+"Annie working, Dan home" window open — the one her "I WORK 6 FUCKING DAYS
+A WEEK" grievance generalized from. Each party carried the load in
+different windows. Relatedly, the GPS removal carries a dual reading the
+record supports: a response to having actually cheated, deployed against a
+real grievance — Dan's surveillance behavior in NYC predates the affair.
+Neither reading cancels the other.
+
+**Social colonization:** by March 2026 the image-management system was so
+complete that Dan was defending Annie's reputation to his own mother — his
+natural ally — while the affair was active.
+
 One historiographic caution: pre-closure AI analyses (the early-2025
 Gemini profile dump) describe Annie as a stable, direct, pragmatically
 aligned partner. That framing reflects the perceived reality before June 1,
@@ -132,25 +153,33 @@ from inside ([[wiki/self/chats/gemini-18]]).
 
 | Corpus metric | Value |
 |---|---|
-| Total messages (full archive) | 126,683 |
+| Full record, all platforms (Nov 28 2015 – Mar 16 2026) | 126,683 messages |
+| iMessage dual-handle archive on disk | 88,549 rows (`imessage_7244346811+2124702449_both_all_now.csv`) |
 | Reaction pairs extracted | 39,378 |
 | Terminal-phase extract | 23,442 rows (Dan sent 13,480 / received 9,962) |
 | Peak month | Dec 2025: 4,657 |
 | Terminal-phase keywords | "love you" 541 · "Eli" 388 · "lying" 150 · "goodbye" 110 |
 | Alternate-number thread (2018–2020, +17249204125) | 4,812 msgs — logistics, debt, crisis; crosses [[wiki/people/johnny-dealer]] network |
+| Sept–Dec 2024 gap | 3,613 Annie messages with no Dan counterpart — in-person cohabitation artifact, not missing data |
 
 | Behavioral pattern | Annie | Dan |
 |---|---|---|
-| Love-to-request sequences (affection → instrumental ask) | 145 | — |
+| Love-to-request sequences — affection → ask within 24h (7-month window) | 145 | — |
+| Love-to-request ratio, Aug 2025–Mar 2026 window | 187:4 | — |
+| Crisis statements met without care (incl. the March 1 "laundry response") | 12 | — |
 | "Fell asleep" alibis | 24 | — |
 | Written denials of third party | 2 | — |
 | Explicit severance signals | 0 | — |
 | Location-access removals | 1 | — |
+| Burst events, 10+ consecutive unanswered messages ("crash-outs" — each preceded by her silence) | — | 94 |
 | Exit declarations / re-engagements | — | 127 / 110 (net exits 17) |
 
 The terminal asymmetry is visible in the volumes: Dan's output stayed
 elevated while Annie's engagement declined through late 2025 — the exact
-window of the concealed affair.
+window of the concealed affair. The longest documented silence, 36.5 hours,
+was re-entered via a money request. The concentrated March 2026 events —
+the bathroom incident, the "YES DAN" confession and its March 16 retraction
+— have their own page: [[wiki/timeline/events/march-2026-terminal-phase]].
 
 ## Legal record
 
@@ -174,15 +203,21 @@ No legal exposure for Dan; recorded for completeness.
 | 2025-10-26 | DUI citation, Fayette County |
 | 2025-11 / 2026-02 | First and second written denials of third party |
 | 2025-12 | Reinvestment spike (4,657 messages) |
+| 2026-03-01 – 03-16 | Terminal-phase peak: laundry response, bathroom incident, confession + retraction ([[wiki/timeline/events/march-2026-terminal-phase]]) |
 | 2026-06-01 | Group-chat closure: affair + defamation confirmed |
+| 2026-06-05 | Annie's final message — an unprompted apology: "Daniel, i just want to say that i am extremely sorry." |
 | 2026-06-15 | Tuquick defects; independent validation |
 
 ## Gaps
 
-Annie's own account of the 2024–2026 period exists nowhere in the corpus
-except through her messages; no post-closure statement from her is on
-record. The precise start date of the Eli involvement (vs. its August 2024
-surfacing) remains unestablished.
+The compiled full-record files the dossiers were generated from
+(`Dan_Annie_Full_Text.txt`, `1_year_triad_logs.csv`, `7_days_212_logs.csv`,
+`14_day_212_logs.csv`) are not archived in raw/ — the underlying iMessage
+data exists (dual-handle CSV above) but the cross-platform compilation and
+its exact 126,683-row composition cannot currently be reproduced. The
+precise start date of the Eli involvement (vs. its August 2024 surfacing)
+remains unestablished. Annie's post-closure perspective consists of a
+single line: the June 5 apology.
 
 ## Notes
 

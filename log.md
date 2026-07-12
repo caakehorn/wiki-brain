@@ -20,3 +20,4 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 ## [2026-07-11] build | all | LLM-agnostic ingestion loop: INGEST_PROTOCOL.md + bin/ingest-pack + bin/ingest-apply (subscription-independence)
 ## [2026-07-11] lint | people | contact-review.md generated: 23 unnamed stubs listed for user triage, 5 pre-marked automated/spam
 ## [2026-07-11] style | all | substance standard: STYLE_GUIDE substance rules + 3 exemplar rewrites (annie, suz, eli-incident)
+## [2026-07-11] audit | people | annie.md source audit: phantom annie_full_archive.csv replaced with real dual-handle CSV (88,549 rows); burst-event misattribution fixed (Dan's crash-outs, not Annie's); 3 accepted financial amendments + 187:4 ratio + crisis-statement record folded in from unread FINAL dossiers; march-2026-terminal-phase event page created; June 5 apology recorded

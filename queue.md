@@ -39,3 +39,10 @@ frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-
 - **2026-07-11 migration:** 562 MB raw/ archive (3,166 files), 261 wiki pages remapped
   into 9 domains, indexes rebuilt, lint clean (0 errors). Old repo at `~/wiki project`
   untouched, now safe to archive.
+
+## DanAnnie dossier corpus (discovered 2026-07-11 — page audit)
+
+| Item | Priority | Notes |
+|------|----------|-------|
+| Full synthesis of 6 unread DanAnnie dossiers (raw/self/dox-scan/: MasterRecord_FINAL, TenYears_WithAmendments, TheoryOfEverything_Updated, CompleteRecord_Final, CompleteAnalysis_Final, MoralAnalysis_SFW; "2"-prefixed files are byte-identical dupes) | HIGH | ~300k chars of analysis newer than what annie.md was built from. Key findings already folded into annie.md + march-2026-terminal-phase; full pass should enrich attachment-trauma-bond, conflict-architecture, eli-incident |
+| Locate compiled full-record files: Dan_Annie_Full_Text.txt, 1_year_triad_logs.csv, 7_days_212_logs.csv, 14_day_212_logs.csv | MEDIUM | Cited by dossiers, absent from disk — likely on the machine where the dossiers were generated. Drop into inbox/ when found |
