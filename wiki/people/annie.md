@@ -1,6 +1,9 @@
 ---
 domain: people
 page_type: entity
+title: "Annie (Anne Ulmer)"
+aliases: ["Annie", "Anne Ulmer"]
+importance: critical
 status: closed
 date_created: 2026-06-22
 date_modified: 2026-07-11
@@ -31,107 +34,161 @@ related:
   - wiki/people/eli
 ---
 
-# Annie
+# Annie (Anne Ulmer)
 
-> **Status:** Closed. Relationship closed on June 1, 2026. This page serves as a historical record.
+Anne "Annie" Ulmer was the defining relationship of Dan's adult life: ten
+years and seven months, from Thanksgiving 2015 to June 1, 2026, including
+roughly eight years of cohabitation. It ended involuntarily, in a group
+chat, when third parties confirmed two things at once — that her
+relationship with [[wiki/people/eli]] had been sustained and concealed for
+nearly two years, and that she had been running a defamation campaign
+against Dan inside their shared network while privately assuring him of her
+loyalty. The relationship is closed and historical. Its documented
+conclusion, carried throughout this wiki, is that **the gaslighting
+outweighed the affair**: the injury was not the infidelity but the
+systematic, years-long reframing of Dan's accurate perceptions as mental
+illness.
 
-## Identity
+## LLM Quick Brief
 
-Anne ("Annie") Ulmer was Dan's primary relationship partner from Thanksgiving 2015 to June 1, 2026, representing a total duration of ten years and seven months. This was the first relationship in Dan's documented history to trigger a full activation of his attachment system, a response not present in his prior relationships with [[wiki/people/danielle-onesi]] or [[wiki/people/alexis-armel]]. The couple met through Alexis, and Annie ended her previous relationship within twenty-four hours of their introduction. They cohabited for approximately eight years, first at 155 Virginia Avenue beginning in 2016, and later in New York City. This period of cohabitation ended with their return to Pennsylvania in February 2025, after which Annie unilaterally chose to live separately, dividing her time to serve as the primary caregiver for her grandmother. The relationship concluded during the group-chat event on June 1, 2026, which confirmed both her concealed relationship with Eli and an active defamation campaign against Dan. The message corpus generated throughout this relationship forms the empirical foundation of the broader forensic self-analysis project.
+**For context injection:** Annie (Anne Ulmer), Dan's partner 2015–2026, the
+first relationship to fully activate his attachment system. Met through
+[[wiki/people/alexis-armel|Alexis]]; Annie left her prior partner within 24
+hours. Cohabited ~8 years (155 Virginia Ave, then NYC); she ended
+cohabitation unilaterally on the Feb 2025 PA return, citing grandmother
+care. Concealed affair with coworker Eli from ~Aug 2024 through the June 1,
+2026 group-chat closure, sustained by two written denials, disabled
+location sharing, and systematic dismissal of Dan's suspicions as paranoia.
+Defamation campaign (false rape and abuse allegations) confirmed by third
+parties. 126,683-message corpus is the empirical base of the wiki's
+attachment and conflict models. Closed — not a live thread.
 
-During the 2018–2020 period, Annie also communicated heavily via an alternate phone number (+17249204125), which generated a dedicated 4,812-message thread centered on logistics, debt, and crisis management. This thread crossed heavily with Johnny's facilitation network (see [[wiki/people/johnny-dealer]]).
+## The arc
 
-## Corpus Dimensions
+They met through Alexis in November 2015; Annie ended her existing
+relationship within twenty-four hours of the introduction. This was the
+first relationship in Dan's documented history to trigger full attachment
+activation — nothing comparable appears in the
+[[wiki/people/danielle-onesi]] or [[wiki/people/alexis-armel]] eras. From
+2016 she lived with him at 155 Virginia Avenue, then through the second New
+York chapter. Around 2018 they ran a cohabitation non-monogamy experiment;
+during 2021–2024 the "Valeria era" constituted the singular concealed
+breach on Dan's side while overall stasis held.
 
-| Metric | Value |
+The end began invisibly. By August 2024 at the latest, Annie's involvement
+with Eli — a coworker — was underway. When Dan discovered her unconscious
+with Eli roughly eighty minutes after a shift, location sharing disabled,
+his confrontation was met with violence, and the incident was reframed as
+his paranoia ([[wiki/timeline/events/eli-incident]]). On the February 2025
+return to Pennsylvania she unilaterally ended eight years of cohabitation,
+citing care for her grandmother. Through the following sixteen months she
+issued two written denials of any third party (November 2025, February
+2026), removed location access after a night at her ex-partner's residence
+(August 2025), and participated in a December 2025 reinvestment spike —
+4,657 messages in one month — that directly contradicts any retrospective
+story of gradual mutual disengagement
+([[wiki/timeline/periods/dec-2025-spike]]).
+
+On June 1, 2026, a group-chat confrontation collapsed the structure: the
+affair was confirmed, and so was a defamation campaign — false allegations
+of rape and substance abuse circulated in the shared peer network during
+the same months as her private assurances
+([[wiki/timeline/events/group-chat-closure]]). Two weeks later came
+independent validation: Tuquick, a hostile third party who had defended
+Annie in the final conflict, defected and independently described her as a
+compulsive liar — he had entered and exited the same distortion cycle in
+fourteen days that Dan took a decade to escape
+([[wiki/people/tuquick-17248123683]]).
+
+## Why it lasted: the structural analysis
+
+The corpus contains 299+ love affirmations from Annie and **zero explicit
+severance signals**. Dan's attachment architecture cannot close a bond
+without an unambiguous severance signal, so the relationship idled in a
+fifteen-month terminal phase on weighted positive rhetoric alone — a
+structural failure, not an emotional pathology
+([[wiki/mind/concepts/attachment-model]]).
+
+Her conflict style and his formed a mutually catastrophic loop: she froze
+under direct questions, offered ambiguous commitments, then reframed the
+question itself as the aggression; his resolution-seeking engine parsed
+each ambiguity as a proposition to litigate, refeeding the cycle
+([[wiki/mind/concepts/conflict-architecture]]). His own halt-condition
+failure is quantified below — 127 exit declarations, 110 re-engagements —
+an 87% relapse rate presented as data, not confession.
+
+The template is generational: a primary attachment figure maintaining a
+concealed alternate reality during Dan's highest-vulnerability phase
+replicates the 2004–2005 parental rupture exactly — same architecture,
+different people ([[wiki/mind/synthesis/attachment-trauma-bond]]).
+
+One historiographic caution: pre-closure AI analyses (the early-2025
+Gemini profile dump) describe Annie as a stable, direct, pragmatically
+aligned partner. That framing reflects the perceived reality before June 1,
+2026 and is preserved only as an artifact of what concealment looked like
+from inside ([[wiki/self/chats/gemini-18]]).
+
+## The record
+
+| Corpus metric | Value |
 |---|---|
 | Total messages (full archive) | 126,683 |
-| Date range | 2015–2026 |
 | Reaction pairs extracted | 39,378 |
-| Terminal-phase extract (annie_all_time_logs.csv) | 23,442 rows |
-| Dan sent (terminal phase) | 13,480 rows |
-| Dan received (terminal phase) | 9,962 rows |
-| Peak monthly volume (Dec 2025) | 4,657 rows |
-| Other peak (Jan 2026) | 2,977 rows |
-| Other peak (Aug 2025) | 2,517 rows |
-| Other peak (May 2026) | 2,413 rows |
-| Closure cluster volume | ~40 rows |
-| "Love you" occurrences (terminal phase) | 541 |
-| "Eli" occurrences (terminal phase) | 388 |
-| "Lying" occurrences (terminal phase) | 150 |
-| "Goodbye" occurrences (terminal phase) | 110 |
-| "Fuck you" occurrences (terminal phase) | 104 |
+| Terminal-phase extract | 23,442 rows (Dan sent 13,480 / received 9,962) |
+| Peak month | Dec 2025: 4,657 |
+| Terminal-phase keywords | "love you" 541 · "Eli" 388 · "lying" 150 · "goodbye" 110 |
+| Alternate-number thread (2018–2020, +17249204125) | 4,812 msgs — logistics, debt, crisis; crosses [[wiki/people/johnny-dealer]] network |
 
-A terminal asymmetry is evident in the message counts. Dan's communication volume remained elevated while Annie's engagement steadily declined through late 2025 and into 2026, coinciding with the period of the concealed affair. The message spike in December 2025 reflects a documented mutual reinvestment at the time, which contradicts the retrospective narrative that the relationship experienced a gradual, mutual disengagement prior to June 2026. Further analysis of this period is documented in [[wiki/timeline/periods/dec-2025-spike]].
+| Behavioral pattern | Annie | Dan |
+|---|---|---|
+| Love-to-request sequences (affection → instrumental ask) | 145 | — |
+| "Fell asleep" alibis | 24 | — |
+| Written denials of third party | 2 | — |
+| Explicit severance signals | 0 | — |
+| Location-access removals | 1 | — |
+| Exit declarations / re-engagements | — | 127 / 110 (net exits 17) |
 
-## Behavioral Counts (Annie)
+The terminal asymmetry is visible in the volumes: Dan's output stayed
+elevated while Annie's engagement declined through late 2025 — the exact
+window of the concealed affair.
 
-| Pattern | Count |
-|---|---|
-| Love-to-request sequences | 145 |
-| Burst communication events | 94 |
-| "Fell asleep" alibis | 24 |
-| Crisis statements | 12 |
-| Written denials of third party | 2 |
-| Explicit severance signals | 0 |
-| GPS/location access removals | 1 |
+## Legal record
 
-## Behavioral Counts (Dan, Calibrated)
-
-| Pattern | Count |
-|---|---|
-| Exit declarations | 127 |
-| Re-engagements after exit declaration | 110 |
-| Net actual exits | 17 |
-| "Fuck you" occurrences | 74 |
-| "Piece of shit" occurrences | 17 |
-
-The eighty-seven percent rate of re-engagement following exit declarations is a direct consequence of a halt-condition failure within the [[wiki/mind/concepts/conflict-architecture]]. This pattern demonstrates a resolution-seeking engine that lacks a functional termination counter-rule, and it is presented here as quantitative data rather than personal confession.
-
-## Attachment Closure Failure
-
-The requirement of an external event to achieve closure, rather than an internal decision, stems from specific patterns in the communication corpus. The record contains over 299 love affirmations from Annie and no explicit severance signals. Within Dan's cognitive processing architecture, weighted positive rhetoric maintained the active status of the attachment rule. Because this model cannot achieve closure without an explicit, unambiguous signal of severance, and because none was ever issued, the relationship remained in a prolonged fifteen-month terminal phase. This structural architecture, rather than emotional pathology, explains the delay. The psychological mechanics are expanded in [[wiki/mind/concepts/attachment-model]].
-
-## Pattern Analysis
-
-**Love Language as Transaction:** The corpus contains 145 documented sequences where affective language was immediately followed by an instrumental request. The initial expression of affection served to soften compliance barriers. This pattern is structural throughout the communication history, regardless of individual intent.
-
-**The Freeze-Ambiguity-Gaslight Loop:** Annie's primary conflict response followed a predictable sequence: freezing when presented with a direct question, offering an ambiguous commitment, and then reframing the inquiry itself as the source of conflict. Dan's resolution-seeking engine parsed this ambiguity as a proposition to be litigated, which continuously refed the loop. These two interactive structures proved mutually catastrophic, as detailed in [[wiki/mind/concepts/conflict-architecture]].
-
-**Concealed Relationship with Eli:** Corrective sources establish that the involvement with Eli was a sustained concealment rather than an isolated incident. The affair persisted from at least August 2024 through the final closure in June 2026. During this period, Dan's suspicions were systematically dismissed as paranoia, two written denials were issued, and unilateral location sharing was disabled in August 2025 after a night Annie spent at her former partner's residence. The details of these events are recorded in [[wiki/timeline/events/eli-incident]].
-
-**Out-of-Sample Validation:** On June 15, 2026, a hostile third party known as Tuquick, who had defended Annie during the final conflict, defected from her social circle. He independently described her as a compulsive liar, indicating that he had entered a similar cycle of interpersonal distortion and exited within fourteen days, contrasting with Dan's ten-year timeline. His profile is located at [[wiki/people/tuquick-17248123683]].
-
-**Template Repetition:** The relational structure replicates the dynamics of the 2004–2005 parental rupture. In both instances, a primary attachment figure maintained a concealed alternate reality during a phase of high personal vulnerability for Dan, demonstrating the same systemic architecture with different individuals.
-
-**Pre-Closure AI Framing:** Early analysis files, such as the Gemini-18 profile dump from early 2025, describe Annie as a highly stable, direct partner with pragmatic logistical alignment. The corresponding HTML activity logs document historical concepts like the Uniontown Generational Loop and the Sugie constraint. This early framing reflects the perceived reality prior to the disclosures of June 1, 2026, and is preserved solely as a historical artifact. The relevant records can be accessed at [[wiki/self/gemini-activity/gemini-activity]] and [[wiki/self/chats/gemini-18]].
-
-## Defamation Campaign
-
-The existence of a defamation campaign was confirmed through third-party verification during the group-chat event on June 1, 2026. The campaign included false allegations of rape and substance abuse circulated within the shared peer network. These narratives were active during the same period in which Annie issued written denials of third-party involvement and Dan continued to engage in good faith. The calibration of responsibility is heightened by several factors: Annie had received prior notice regarding the impact of these narratives, she possessed intimate knowledge of Dan's cognitive processing architecture, and the public defamation occurred concurrently with her private assurances.
-
-## Legal Record
-
-On October 26, 2025, Anne Ulmer was cited for driving under the influence by Trooper Jeremy Miller of Troop B in Fayette County, Pennsylvania. According to the probable-cause affidavit (Annie Affadavit.txt), the responding officer noted an odor of alcohol, a failure to provide identification documents, and a refused chemical test, with a broken ankle cited as the justification for refusal. The vehicle involved was a Pennsylvania-registered car with the plate MWT6743. This event carries no legal exposure for Dan and is documented solely for historical completeness.
+On October 26, 2025, Anne Ulmer was cited for DUI by Trooper Jeremy Miller
+(Troop B, Fayette County PA): odor of alcohol, failure to provide
+identification, chemical test refused with a broken ankle cited as
+justification; vehicle plate MWT6743 (per the probable-cause affidavit).
+No legal exposure for Dan; recorded for completeness.
 
 ## Timeline
 
 | Date | Event |
 |---|---|
-| 2015-11 | The relationship begins on Thanksgiving, and Annie ends her prior relationship within twenty-four hours. |
-| 2016 | Annie moves into the residence at 155 Virginia Avenue. |
-| ~2018 | The couple initiates a cohabitation non-monogamy experiment. |
-| 2021 to 2024 | The Valeria era occurs, representing the singular hidden breach on Dan's side while the overall stasis holds. |
-| 2024-08 | The affair with Eli begins or surfaces, and an initial confrontation is met with a physical response. |
-| 2025-02 | The couple returns to Pennsylvania, and Annie unilaterally ends their eight-year cohabitation. |
-| 2025-08 | Annie removes shared location access following a night spent at her ex-partner's residence. |
-| 2025-10-26 | Annie is arrested and cited for a DUI in Fayette County. |
-| 2025-11 | Annie issues her first written denial of a third-party relationship. |
-| 2025-12 | A communication volume spike occurs, totaling 4,657 messages and confirming mutual reinvestment. |
-| 2026-02 | Annie issues her second written denial of a third-party relationship. |
-| 2026-06-01 | The relationship ends as a group-chat event confirms the affair and the defamation campaign. |
-| 2026-06-15 | Tuquick defects from Annie's circle, provided independent validation of her communication patterns. |
+| 2015-11 | Relationship begins at Thanksgiving; Annie exits prior relationship within 24 hours |
+| 2016 | Moves into 155 Virginia Ave |
+| ~2018 | Cohabitation non-monogamy experiment |
+| 2021–2024 | Valeria era (Dan's singular concealed breach; stasis holds) |
+| 2024-08 | Eli affair begins or surfaces; confrontation met with violence |
+| 2025-02 | PA return; Annie unilaterally ends cohabitation |
+| 2025-08 | Removes location sharing after night at ex's residence |
+| 2025-10-26 | DUI citation, Fayette County |
+| 2025-11 / 2026-02 | First and second written denials of third party |
+| 2025-12 | Reinvestment spike (4,657 messages) |
+| 2026-06-01 | Group-chat closure: affair + defamation confirmed |
+| 2026-06-15 | Tuquick defects; independent validation |
+
+## Gaps
+
+Annie's own account of the 2024–2026 period exists nowhere in the corpus
+except through her messages; no post-closure statement from her is on
+record. The precise start date of the Eli involvement (vs. its August 2024
+surfacing) remains unestablished.
 
 ## Notes
 
-The analytical work on this communication corpus is concluded, and the closure of the relationship remains historically anchored. The active legacies of this work are its theoretical outputs: the [[wiki/mind/concepts/attachment-model]], the [[wiki/mind/concepts/conflict-architecture]], the [[wiki/mind/concepts/contact-gini]] (from which the social redundancy imperative was derived), and the DANMODEL retrieval system built on thirty-nine thousand reaction pairs. The closure of the relationship ended the personal connection but did not diminish its utility for system analysis.
+Analytical work on this corpus is concluded. Its living outputs are the
+theoretical pages it produced — [[wiki/mind/concepts/attachment-model]],
+[[wiki/mind/concepts/conflict-architecture]],
+[[wiki/mind/concepts/contact-gini]] — and the DANMODEL retrieval system
+built on the 39,378 reaction pairs. The relationship ended; its utility for
+system analysis did not.

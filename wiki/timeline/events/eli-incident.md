@@ -1,9 +1,11 @@
 ---
 domain: timeline
 page_type: event
-status: archived
+title: "The Eli Incident"
+importance: critical
+status: stable
 date_created: 2026-06-22
-date_modified: 2026-06-22
+date_modified: 2026-07-11
 date_range_start: 2024-08-01
 date_range_end: 2026-06-01
 sources:
@@ -17,6 +19,14 @@ related:
 ---
 
 # Eli Incident
+
+The event that ended the Annie decade in substance if not yet in form: a
+sustained concealed affair between [[wiki/people/annie]] and her coworker
+Eli, active from at least August 2024, discovered physically in early 2025,
+and — the documented center of gravity — defended throughout by months of
+gaslighting that attacked Dan's capacity to trust his own accurate
+perception. The corrective sources rank the gaslighting, not the affair,
+as the most serious moral failure of the terminal phase.
 
 ## What happened
 Sustained concealed affair between Annie and coworker Eli (male). The affair was ongoing for months before any single "discovery" moment. Dan's accurate suspicions during the active phase were met with forceful, repeated gaslighting that his perception was paranoia or insanity. Key documented episode: October 19 2024 housewarming party argument lasting hours across dozens of messages, during which Annie told Dan "THERE IS NO SITUATION.", "You're literally fucking insane.", and "Grow up. And fucking trust me." while the affair was active.

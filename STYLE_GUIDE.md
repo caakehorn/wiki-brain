@@ -45,6 +45,48 @@ stub is `page_type: entity` (or the appropriate type) with `status: stub`.
 `archived` = pinned artifact in an `archive/` dir, never updated, exempt
 from budgets. Default for a finished page is `stable`, not `archived`.
 
+## Substance rules (these outrank everything below)
+
+A page is not good because it is tidy; it is good because it tells you what
+matters. The failure mode of this wiki's early drafts was **inventory
+masquerading as insight**: message counts and source citations up top,
+while the actual story — who this person is to Dan, what actually happened,
+why it mattered — was buried or missing.
+
+**The first paragraph test.** After the title, the first paragraph must
+answer, in plain language, the question a stranger would ask:
+
+- **Person:** Who is this to Dan, what is the current state of the
+  relationship, and what one thing defines it? (Corpus statistics come
+  LAST, never first.)
+- **Event:** What happened, when, who was involved, and what changed
+  because of it?
+- **Period:** What years, what defined daily life then, and how did it
+  begin and end?
+- **Concept/synthesis:** State the thesis in one or two sentences, then
+  prove it. Not "this page collects material about X."
+
+**Consequence over chronology.** Order sections by importance, not by the
+order sources were ingested. If the Eli incident is why the Annie
+relationship ended, it appears on page one of annie.md, not as row 14 of a
+timeline table.
+
+**Say the load-bearing thing plainly.** If the sources support "she
+gaslit him for months and the gaslighting hurt more than the affair,"
+write that sentence. Do not scatter it across evidence fragments and hope
+the reader assembles it. Attribute contested claims to their source; flag
+genuine contradictions; but do not hedge documented conclusions into mush.
+
+**Gaps are content.** If something important is unknown (why the 2021–22
+corpus goes near-silent, where he'll live after the house sells), say so
+in a **Gaps** line rather than silently omitting the topic.
+
+**Exemplars:** `wiki/people/annie.md`, `wiki/people/suz.md`, and
+`wiki/timeline/events/eli-incident.md` show the standard. Before rewriting
+any page, read the exemplar of the same page_type and match its shape:
+lead paragraph that answers the stranger's question, consequence-ordered
+sections, tables holding only numbers, a Gaps section naming the unknowns.
+
 ## Prose rules
 
 1. **Complete sentences.** No dossier shorthand, no fragment chains. A page

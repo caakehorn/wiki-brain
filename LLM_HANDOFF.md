@@ -36,7 +36,26 @@ Standing rules learned this cycle:
 
 ---
 
+## ⭐ THE SUBSTANCE STANDARD (read before rewriting anything)
+STYLE_GUIDE.md now has a **Substance rules** section that outranks all
+formatting rules. Core test: the first paragraph must answer the stranger's
+question (person → who is this to Dan + current state + defining thing;
+event → what happened + what changed). Order by consequence, not
+chronology. Say load-bearing conclusions plainly. Name gaps explicitly.
+**Match the exemplars:** `wiki/people/annie.md`, `wiki/people/suz.md`,
+`wiki/timeline/events/eli-incident.md` — these were written at the target
+quality bar; imitate their shape exactly. A page that is tidy but leads
+with corpus statistics instead of the story is a FAILED page.
+
 ## 📝 Session Log (Newest First)
+
+### [2026-07-11] - Session: Substance Standard + Exemplars (Fable quota burn)
+* **Model:** Claude Fable 5 (Claude Code)
+* **Summary:**
+  - Added **Substance rules** to STYLE_GUIDE.md (first-paragraph test, consequence ordering, plain conclusions, gaps-as-content). These propagate automatically into every `bin/ingest-pack` prompt.
+  - Rewrote three exemplars to the target bar: `annie.md` (metrics wall demoted, gaslighting-outweighed-affair thesis leads, LLM Quick Brief added), `suz.md` (verbatim Gemini transplants removed; her co-authorship of the 2004-05 rupture — previously buried in a timeline row — now leads; Suzy-call node, housing contingencies, dual-role structure), `eli-incident.md` (lead paragraph + status fix).
+  - /fewer-permission-prompts: added ./bin/wiki-lint variant + ingest-pack/export-corpus to project allowlist.
+* **Handoff Note:** Rewrites from here must meet the substance bar, not just the prose bar. Remaining: 7 Phase 3 synthesis pages, Phase 4 people (fran-whyel, rick-frank, tom, eli, anita...), contact-review.md decisions pending user.
 
 ### [2026-07-11] - Session: Coordination Stabilization + Phase 3 Continuation
 * **Model:** Claude Fable 5 (Claude Code)

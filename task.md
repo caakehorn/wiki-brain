@@ -35,9 +35,9 @@
 - [x] `wiki/mind/synthesis/political-psyops.md` — prose rewrite (11KB→6.9KB)
 
 ## Phase 4: People (primary cast)
-- [x] `wiki/people/annie.md` — frontmatter upgrade + prose polish
+- [x] `wiki/people/annie.md` — SUBSTANCE rewrite (flagship exemplar, see STYLE_GUIDE substance rules)
+- [x] `wiki/people/suz.md` — SUBSTANCE rewrite (exemplar; verbatim transplants removed, rupture co-authorship surfaced)
 - [ ] `wiki/people/fran-whyel.md` — full prose rewrite
-- [ ] `wiki/people/suz.md` — full prose rewrite
 - [ ] `wiki/people/rick-frank.md` — full prose rewrite
 - [ ] `wiki/people/anita.md` — full prose rewrite
 - [ ] `wiki/people/brandon-hill.md` — prose polish
