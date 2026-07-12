@@ -50,11 +50,11 @@ Top handles by volume (approximate counts; Annie dual handles dominant):
 | 6 | annieulmr@aol.com | 3,645 | Annie email variant |
 | 7 | +17243223678 | 3,462 | Johnny (dealer era per manual) |
 | 8 | +17243228715 | 2,391 | Suz (mom) |
-| 9 | +13476070497 | 1,753 | Additional family/friend |
+| 9 | +13476070497 | 1,753 | NYC delivery dealer ("Menore", 2018–2020) |
 | 10 | phloxenheim@gmail.com | 1,603 | Email contact |
 | 11 | +17249204125 | 4,812 | Frequent PA contact (heavy Johnny/Annie logistics facilitation 2018-19; "Hi b I gots a new phone") |
 | 12 | +17248808111 | ~long multi-year | Extended family/gossip thread (mom, gram, dad, [[wiki/people/alexis-armel|Alexis]], Annie, voting, CMU play refs) |
-| 13 | +13476070497 | 1,753 | Additional family/friend |
+| 13 | +13476070497 | 1,753 | NYC delivery dealer ("Menore", 2018–2020) |
 | 14 | +17243223678 | 3,462 | Johnny (dealer) |
 
 **Gini insight tie-in:** Extreme concentration in Annie handles (combined >48k in sampled) + few core nodes (Tom, Suz, early dealers) demonstrates high contact Gini; see [[wiki/mind/concepts/contact-gini]]. Updates prior tallies with full master extraction. 66 contacts total referenced in calendar events align with long-tail distribution.
