@@ -5,14 +5,14 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 date_range_start: 
-sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "wiki/legal/463-morgantown/timeline.md", "wiki/people/jackson-alexander.md", "wiki/people/arnu.md"]
-related: ["wiki/people/jackson-alexander", "wiki/people/suzanne-frank", "wiki/people/arnu", "wiki/people/john-carney", "wiki/people/felix", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/legal/bfs-dispute/overview", "wiki/self/facebook"]
+sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "wiki/legal/463-morgantown/timeline.md", "wiki/people/alexander-jackson.md", "wiki/people/arnu.md"]
+related: ["wiki/people/alexander-jackson", "wiki/people/suzanne-frank", "wiki/people/arnu", "wiki/people/john-carney", "wiki/people/felix", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/legal/bfs-dispute/overview", "wiki/self/facebook"]
 ---
 
 # 463 Morgantown St — Overview
 
 ## Property
-463 Morgantown St, Uniontown PA. Owner: [[wiki/people/jackson-alexander]] (Alexander Jackson). Dan and Suz moved in without signed lease or confirmed POA at time. Distinct from BFS building ownership.
+463 Morgantown St, Uniontown PA. Owner: [[wiki/people/alexander-jackson]] (Alexander Jackson). Dan and Suz moved in without signed lease or confirmed POA at time. Distinct from BFS building ownership.
 
 ## Occupancy / Roles
 Mixed agent/tenant/caretaker for Suz. Documented misconduct in corpus. No integrated risk picture at move-in. Parallel to BFS off-books patterns per synthesis.
@@ -26,7 +26,7 @@ Mixed agent/tenant/caretaker for Suz. Documented misconduct in corpus. No integr
 
 | Role | Person/Entity | Dates / Evidence | Financial/Legal Ties | Source |
 |------|---------------|------------------|----------------------|--------|
-| Owner | [[wiki/people/jackson-alexander]] (Alexander Jackson) | Title holder; move-in ~2026 | Lease/POA counterparty TBD | overview, timeline, jackson page |
+| Owner | [[wiki/people/alexander-jackson]] (Alexander Jackson) | Title holder; move-in ~2026 | Lease/POA counterparty TBD | overview, timeline, jackson page |
 | Seller (337) / agent/tenant/caretaker (463) | [[wiki/people/suzanne-frank]] | 337 close ~June 2026; move without lease/POA | $750/wk cycles; mixed roles = liability | context-core §5; operating |
 | Co-occupant (mixed) | Dan | Move-in with Suz; BFS parallel | Exposure via status | context-core, BFS bootloader |
 | Contractor (paint/mech) | [[wiki/people/arnu]] | 2026-02-10 no-show noted; lien ~07-27 | Mechanics lien risk | message-csv 2026-02-10; timeline |

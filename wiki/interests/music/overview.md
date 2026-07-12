@@ -26,7 +26,7 @@ related:
 
 Dan Frank is an independent music producer and label operator based in SW Pennsylvania, operating since approximately 2013. The production output is organized under four aliases that map to distinct periods and aesthetics, all unified by an involuntary sub-bass signature confirmed across 13 years of output.
 
-The core identity is electronic — sub-bass dominant, non-guitar, non-rock. This direction is not contrarian posturing: per the Jimmy Pop data, guitar-centered music lost cultural relevance in streaming charts and sales after its 1963 peak. The move to electronic production was a correct read of where authentic expression lived, not a retreat from something better. See [[wiki/interests/music/concepts/sub-bass-signature]] for the technical signature. The Numark NS7 — gifted by maternal great-grandmother [[wiki/people/fran-whyel]] — seeded the production identity.
+The core identity is electronic — sub-bass dominant, non-guitar, non-rock. This direction is not contrarian posturing: per the Jimmy Pop data, guitar-centered music lost cultural relevance in streaming charts and sales after its 1963 peak. The move to electronic production was a correct read of where authentic expression lived, not a retreat from something better. See [[wiki/interests/music/concepts/sub-bass-signature]] for the technical signature. The Numark NS7 — gifted by maternal great-grandmother [[wiki/people/fran-coldren]] — seeded the production identity.
 
 ## Alias Summary
 

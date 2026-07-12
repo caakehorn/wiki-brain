@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/MAX_PRIME.md", "wiki/people/arnu.md", "wiki/people/john-carney.md"]
-related: ["wiki/legal/463-morgantown/overview", "wiki/legal/463-morgantown/timeline", "wiki/people/jackson-alexander", "wiki/people/arnu", "wiki/people/john-carney", "wiki/people/suzanne-frank", "wiki/people/felix", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/legal/bfs-dispute/overview"]
+related: ["wiki/legal/463-morgantown/overview", "wiki/legal/463-morgantown/timeline", "wiki/people/alexander-jackson", "wiki/people/arnu", "wiki/people/john-carney", "wiki/people/suzanne-frank", "wiki/people/felix", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/legal/bfs-dispute/overview"]
 ---
 
 # 463 Morgantown St — Risks
@@ -27,7 +27,7 @@ related: ["wiki/legal/463-morgantown/overview", "wiki/legal/463-morgantown/timel
 | Lien execution | Arnu | ~2026-07-27 | Timeline; message-csv 02-10 | Resolve pre-deadline; [[wiki/people/arnu]] |
 | Incomplete work | John Carney | Unreachable; 10-20% | Timeline/risks; Suz msg 03-27 "John carney thing" | Owner Jackson follow-up; [[wiki/people/john-carney]] |
 | Activity gap | Arnu + Felix | 02-10 no-show (Felix painted) | Suz: "Felix showed up but Arnu didn’t... paint more" | Felix supply-adjacent note [[wiki/work/tech/max-framework/overview]] |
-| Ambiguous tenancy | Suz / Dan | Move-in no lease/POA | overview, context-core | Segregate roles; owner comms [[wiki/people/jackson-alexander]] |
+| Ambiguous tenancy | Suz / Dan | Move-in no lease/POA | overview, context-core | Segregate roles; owner comms [[wiki/people/alexander-jackson]] |
 | 337 spillover | Suz (seller) | June 2026 close + 7d vacate | Core §5; operating | Post-close plan TBD |
 
 **Data:**

@@ -8,7 +8,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-07-12
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/Gemini-_07.md", "raw/self/dox-md/LIFE REPORT.md"]
-related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-whyel", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown/overview", "wiki/self/chats/gemini-07"]
+related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown/overview", "wiki/self/chats/gemini-07"]
 ---
 
 # Suz (Suzanne Frank)
@@ -30,7 +30,7 @@ oscillating savior↔adversary — sometimes within a single day.
 Suzanne Whyel Shrum Frank, born September 15, 1962, in Pittsburgh
 (GEDCOM-confirmed parents: George Dixon Shrum Jr., b. 1937, and Rebecca
 Diane Van Voorhis, b. 1939; the maternal line runs to
-[[wiki/people/fran-whyel]]). A working realtor (PA license RS305558, Park
+[[wiki/people/fran-coldren]]). A working realtor (PA license RS305558, Park
 Place Realty Group) based at 337 Saratoga Drive, the house the family built
 in 1996. Divorced from [[wiki/people/rick-frank]] after the 2005 rupture;
 mother of Dan and [[wiki/people/vanessa-frank]].

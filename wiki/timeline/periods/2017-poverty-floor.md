@@ -25,7 +25,7 @@ related:
   - "wiki/self/ancestry"
   - "wiki/people/rick-frank"
   - "wiki/people/suzanne-frank"
-  - "wiki/people/fran-whyel"
+  - "wiki/people/fran-coldren"
   - "wiki/mind/synthesis/work-power-dynamics"
   - "wiki/self/message-corpora/master-message-dump"
   - "wiki/self/gemini-activity/gemini-activity"
@@ -33,7 +33,7 @@ related:
 
 # 2017 Poverty Floor
 
-2017 was the year the floor dropped out. Dan was twenty-eight, living in Uniontown, Pennsylvania, in a house on Virginia Avenue he had moved into with [[wiki/people/annie-ulmer]] after Lex helped them clear out of Scerba's old place. The calendar logged 85 events. The financial and relational categories dominated so completely that the year reads as a single sustained emergency rather than a sequence of discrete crises. Water was shut off. The account was overdrawn. His grandmother [[wiki/people/fran-whyel]] woke with nosebleeds at 3am. His mother told him he had played his cards out and crossed a final line. This was not a rough patch. It was the bottom.
+2017 was the year the floor dropped out. Dan was twenty-eight, living in Uniontown, Pennsylvania, in a house on Virginia Avenue he had moved into with [[wiki/people/annie-ulmer]] after Lex helped them clear out of Scerba's old place. The calendar logged 85 events. The financial and relational categories dominated so completely that the year reads as a single sustained emergency rather than a sequence of discrete crises. Water was shut off. The account was overdrawn. His grandmother [[wiki/people/fran-coldren]] woke with nosebleeds at 3am. His mother told him he had played his cards out and crossed a final line. This was not a rough patch. It was the bottom.
 
 ## Setting and Context
 
@@ -47,7 +47,7 @@ January opened with debt. The account was overdrawn by $600, with a note in the 
 
 April produced a breakup accompanied by *you're literally everything*, which is the kind of thing said at the point where language has exhausted its precision. The cat Sabrina died. A major decision was made to protect the relationship. The record does not specify what was sacrificed.
 
-[[wiki/people/fran-whyel]] had nosebleeds at 3am — a detail that sits in the operating manual without elaboration, which is how the truly heavy things tend to sit. She was aging. The music she had given Dan was already part of how he understood himself. The 2018 deathwatch category would formalize what 2017's nosebleeds were quietly announcing.
+[[wiki/people/fran-coldren]] had nosebleeds at 3am — a detail that sits in the operating manual without elaboration, which is how the truly heavy things tend to sit. She was aging. The music she had given Dan was already part of how he understood himself. The 2018 deathwatch category would formalize what 2017's nosebleeds were quietly announcing.
 
 His mother's verdict — *you've played your cards out* — is the kind of sentence that becomes permanent. It was not said in ordinary frustration. It was a closing statement.
 
@@ -79,4 +79,4 @@ The [[wiki/people/annie-ulmer]] relationship logged 85 calendar events in this y
 
 2017 ended without resolution. The poverty floor did not lift — it tilted. 2018 would bring higher event density (254 calendar events, the highest recorded year), more dealers in the network, more financial velocity, and no structural improvement. The escalation that followed was not recovery. It was acceleration in the same channel. The deep cycle that 2017 had begun was still gathering.
 
-**Related:** [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2018-deep-cycle]], [[wiki/people/annie-ulmer]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/ancestry]], [[wiki/people/fran-whyel]], [[wiki/people/suzanne-frank]], [[wiki/self/gemini-activity/gemini-activity]]
+**Related:** [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2018-deep-cycle]], [[wiki/people/annie-ulmer]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/ancestry]], [[wiki/people/fran-coldren]], [[wiki/people/suzanne-frank]], [[wiki/self/gemini-activity/gemini-activity]]

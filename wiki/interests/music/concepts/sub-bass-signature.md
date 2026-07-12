@@ -14,7 +14,7 @@ related:
   - wiki/interests/music/aliases/sloppp
   - wiki/interests/music/aliases/mogged-up
   - wiki/interests/music/overview
-  - wiki/people/fran-whyel
+  - wiki/people/fran-coldren
   - wiki/self/ancestry
   - wiki/mind/synthesis/family-heritage-and-roots
 ---
@@ -39,7 +39,7 @@ The sub-bass signature is the defining acoustic fingerprint across all of Dan Fr
 
 The sub-bass signature is the clearest evidence that Dan's production identity is structural rather than stylistic. Producers often consciously define a frequency aesthetic early and apply it consistently. Here the pattern runs the other way — the signature was *discovered* across output that spanned multiple alias identities, different genre targets, and a 13-year span. It was there before anyone named it.
 
-The origin artifact is the Numark NS7, gifted by maternal great-grandmother [[wiki/people/fran-whyel]] — the person described in context-core as "the biggest life influence." Fran Whyel was a Fort Martin, WV woman who navigated coal-baron circles and outlived most of her contemporaries by decades. The NS7 as a gift connects the production identity directly to that lineage: the sincere output channel has a family tree anchor. See [[wiki/mind/synthesis/family-heritage-and-roots]] for the broader heritage synthesis.
+The origin artifact is the Numark NS7, gifted by maternal great-grandmother [[wiki/people/fran-coldren]] — the person described in context-core as "the biggest life influence." Fran Whyel was a Fort Martin, WV woman who navigated coal-baron circles and outlived most of her contemporaries by decades. The NS7 as a gift connects the production identity directly to that lineage: the sincere output channel has a family tree anchor. See [[wiki/mind/synthesis/family-heritage-and-roots]] for the broader heritage synthesis.
 
 The Jimmy Pop data adds cultural context: the sub-bass direction wasn't a retreat from guitar music but a correct forward read. Guitar-dominated music lost streaming, sales, and chart share decisively post its 1963 cultural peak. The electronic direction — including the sub-bass emphasis — was where the authentic output channel and the correct cultural read coincided.
 
@@ -51,5 +51,5 @@ None recorded. The consistency of the signature across aliases and eras is itsel
 - [[wiki/interests/music/overview]]
 - [[wiki/interests/music/aliases/gripnotic]] (current active alias)
 - [[wiki/interests/music/aliases/mogzart]] (archive alias)
-- [[wiki/people/fran-whyel]] (NS7 origin)
+- [[wiki/people/fran-coldren]] (NS7 origin)
 - [[wiki/mind/synthesis/family-heritage-and-roots]] (heritage as production anchor)

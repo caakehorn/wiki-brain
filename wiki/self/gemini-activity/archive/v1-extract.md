@@ -411,7 +411,7 @@ Granular extraction from big HTML + Gemini-_*.md + pinned chats. Every named ind
 | Suzanne Frank (Suz) | Mother, real estate pro; co-resides, asset logistics | "Suzanne Frank: Mother, local real estate professional. Co-resides... high-frequency cooperation on clearing, stabilizing..." | [[wiki/people/suzanne-frank]] |
 | Rick Frank | Father, automotive/parts merchant | "Rick Frank: Father, former automotive retail entrepreneur. Source of historical framework..." | [[wiki/people/rick-frank]] |
 | Vanessa C. Frank | Sister | "Vanessa C. Frank: Sister. Documented member of the core historical family network." | [[wiki/people/vanessa-frank]] |
-| Fran (Whyel Coldren) | Great-grandmother; 50yr country club neighbor to Sugie | "Sugie is the same figure who was a 50-year neighbor to your great-grandmother (Fran) at the Uniontown Country Club." | [[wiki/people/fran-whyel]] |
+| Fran (Whyel Coldren) | Great-grandmother; 50yr country club neighbor to Sugie | "Sugie is the same figure who was a 50-year neighbor to your great-grandmother (Fran) at the Uniontown Country Club." | [[wiki/people/fran-coldren]] |
 | Milo | Pet Chihuahua | "Milo: Pet Chihuahua, serving as a primary component of the immediate domestic environment." | (pet; cross core) |
 | Tarik Fallous | Au Za'atar owner (charmed on spot) | "applied busser at ... Au Za'atar ... charmed owner Tarik Fallous" | (work node; see chats/gemini-02) |
 | DJ | Au Za'atar basement co-conspirator; "outside bread" | "DJ 'I bought it from outside'"; Triad (Dan/DJ/Dimitri); backed during Sergio Incident | (work; [[wiki/self/chats/gemini-02]]) |

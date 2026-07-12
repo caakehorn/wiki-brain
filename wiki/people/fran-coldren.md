@@ -7,7 +7,7 @@ status: archived
 importance: critical
 relation_type: family
 date_created: 2026-06-23
-date_modified: 2026-07-11
+date_modified: 2026-07-12
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, maternal-line, influence, music-origin, Uniontown, WV, heritage]
 sources:

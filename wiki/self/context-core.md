@@ -28,7 +28,7 @@ related:
   - wiki/people/suzanne-frank
   - wiki/people/annie-ulmer
   - wiki/people/jerad-friedline
-  - wiki/people/fran-whyel
+  - wiki/people/fran-coldren
   - wiki/timeline/events/eli-incident
   - wiki/timeline/events/group-chat-closure
   - wiki/self/message-corpora/master-message-dump
@@ -107,7 +107,7 @@ Pivot words `actually` / `honestly` / `literally` mark the turn from cynical obs
 | [[wiki/people/annie-ulmer]] (Anne Ulmer) | Decade-defining relationship ~2015–2026, met via [[wiki/people/alexis-armel|Alexis]]; closed June 1, 2026 (group chat); defamation confirmed; Eli affair central — the gaslighting outweighed the affair | 126k+ msgs |
 | [[wiki/people/rick-frank]] (father) | Periodic low-intensity contact; undischarged paternal-authority wound | Low |
 | Vanessa (sister) | Vail, ski school; minimal presence | Low |
-| [[wiki/people/fran-whyel]] (great-grandmother) | d. April 2018 age ~97–98; self-described biggest life influence; dirt-poor WV → coal-baron marriage; gifted the Numark NS7; seven-day deathwatch with Annie | High |
+| [[wiki/people/fran-coldren]] (great-grandmother) | d. April 2018 age ~97–98; self-described biggest life influence; dirt-poor WV → coal-baron marriage; gifted the Numark NS7; seven-day deathwatch with Annie | High |
 
 Lower-resolution contacts with known gaps: Ismaila, Chris James.
 

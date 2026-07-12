@@ -40,7 +40,7 @@ GRIPNOTIC is the operational alias, not an archive. It is the identity Dan promo
 
 ## Production Chain
 
-> **Gap:** DAW, hardware chain, and specific plugin stack not yet ingested into wiki. Should be populated from raw/self/dox-md/ or a dedicated music ingest session. Known: Numark NS7 (gifted by [[wiki/people/fran-whyel]]) as core hardware artifact from production identity origin.
+> **Gap:** DAW, hardware chain, and specific plugin stack not yet ingested into wiki. Should be populated from raw/self/dox-md/ or a dedicated music ingest session. Known: Numark NS7 (gifted by [[wiki/people/fran-coldren]]) as core hardware artifact from production identity origin.
 
 | Tool | Role | Source |
 |------|------|--------|

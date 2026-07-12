@@ -25,7 +25,7 @@ related:
   - wiki/timeline/periods/2025-collapse
   - wiki/people/suzanne-frank
   - wiki/people/rick-frank
-  - wiki/people/fran-whyel
+  - wiki/people/fran-coldren
   - wiki/people/david-j-frank
   - wiki/interests/favorites/music
 ---
@@ -98,7 +98,7 @@ Multi-generational concentration in Fayette County PA (Uniontown, Brownsville, H
 - Maternal: Fran Whyel (Jesse Frances Thomas Whyel /Coldren, 1920 Fort Martin WV – 2018 Uniontown); mother Suzanne.
 - Core match: 337 Saratoga (family-built), Uniontown addresses dominate loc visits + FB hometown.
 
-See [[wiki/self/ancestry]], [[wiki/mind/synthesis/family-heritage-and-roots]], [[wiki/people/rick-frank]], [[wiki/people/fran-whyel]], [[wiki/people/david-j-frank]].
+See [[wiki/self/ancestry]], [[wiki/mind/synthesis/family-heritage-and-roots]], [[wiki/people/rick-frank]], [[wiki/people/fran-coldren]], [[wiki/people/david-j-frank]].
 - Cross to periods: Origin (1988-2008), poverty floor, deep cycle all in this geography. PA cluster 3,815 visits.
 - No contradictions; extends the 2014-2024 data with generational context. Ties also to legal (Suz realtor activity on family properties), music (Fran gifted Numark NS7 → sub-bass).
 

@@ -14,7 +14,7 @@ related:
   - wiki/people/annie-ulmer
   - wiki/self/ancestry
   - wiki/people/rick-frank
-  - wiki/people/fran-whyel
+  - wiki/people/fran-coldren
   - wiki/mind/synthesis/family-heritage-and-roots
   - wiki/mind/synthesis/vertical-authority-skepticism
 ---

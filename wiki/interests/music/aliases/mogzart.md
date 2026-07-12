@@ -40,7 +40,7 @@ Context Core and Twitter samples reference MOGZART in the context of music promo
 
 ## Production Chain
 
-> **Gap:** Specific DAW and hardware chain for the MOGZART era not yet in wiki sources. Likely shares NS7 as core hardware (gifted by [[wiki/people/fran-whyel]], production-identity seeding documented in context-core).
+> **Gap:** Specific DAW and hardware chain for the MOGZART era not yet in wiki sources. Likely shares NS7 as core hardware (gifted by [[wiki/people/fran-coldren]], production-identity seeding documented in context-core).
 
 ## Release Catalog
 

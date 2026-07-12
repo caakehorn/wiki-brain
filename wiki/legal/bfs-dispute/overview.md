@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/*", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md"]
-related: ["wiki/people/brandon-hill", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/jackson-alexander", "wiki/legal/463-morgantown/overview", "wiki/self/context-core", "wiki/mind/synthesis/work-power-dynamics", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/work/tech/imessage-tooling/overview"]
+related: ["wiki/people/brandon-hill", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/alexander-jackson", "wiki/legal/463-morgantown/overview", "wiki/self/context-core", "wiki/mind/synthesis/work-power-dynamics", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/work/tech/imessage-tooling/overview"]
 ---
 
 # BFS Foods Dispute — Overview
@@ -55,5 +55,5 @@ Maintain records (screenshots, recording, timeline). Cross to drawer-dispute eve
 
 **Sources:** raw/self/dox-md/BFS_BOOTLOADER_v2.md, drawer chat, context-core, operating_manual, message-csv (BFS + 463 cross fragments), imessage-tooling.
 
-**Cross-references:** [[wiki/people/brandon-hill]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/legal/463-morgantown/overview]] (csv overlap, contractor authority), [[wiki/self/context-core]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/work/tech/imessage-tooling/overview]], [[wiki/people/jackson-alexander]], [[wiki/work/tech/grok-build/overview]] (Grok documentation tooling).
+**Cross-references:** [[wiki/people/brandon-hill]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/legal/463-morgantown/overview]] (csv overlap, contractor authority), [[wiki/self/context-core]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/work/tech/imessage-tooling/overview]], [[wiki/people/alexander-jackson]], [[wiki/work/tech/grok-build/overview]] (Grok documentation tooling).
 

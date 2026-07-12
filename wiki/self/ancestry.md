@@ -37,7 +37,7 @@ related: ["wiki/self/context-core", "wiki/self/overview", "wiki/self/location-hi
 | Paternal Grandfather      | Morley Jay Frank                          | 1927-08-20 – 1998-12-13        | Brownsville – Hopwood, PA          | [[wiki/people/morley-frank]]; 113+ sources |
 | Paternal Great-Grandfather| David J. Frank                            | 1892-08-12 – 1960-04-06        | Russia – Brownsville, PA           | [[wiki/people/david-j-frank]]; Russian Jewish immigrant |
 | Paternal Great-Grandmother| Sadie Harris                              | 1900-12-14 – 1997-11-27        | Austria – Hopwood, PA              | Jewish immigrant line |
-| Maternal Great-Grandmother| Jesse Frances Thomas Whyel /Coldren ("Fran") | 1920-08-15 – 2018-04-04     | Fort Martin, WV – Uniontown, PA    | [[wiki/people/fran-whyel]]; biggest influence, gifted Numark NS7 |
+| Maternal Great-Grandmother| Jesse Frances Thomas Whyel /Coldren ("Fran") | 1920-08-15 – 2018-04-04     | Fort Martin, WV – Uniontown, PA    | [[wiki/people/fran-coldren]]; biggest influence, gifted Numark NS7 |
 | Maternal Grandfather      | George Dixon Shrum Jr                     | 1937-06-14                     | —                                  | — |
 | Maternal Grandmother      | Rebecca Diane Van Voorhis                 | 1939-01-30                     | —                                  | — |
 

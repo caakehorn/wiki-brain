@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
-related: ["wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/conflict-architecture", "wiki/mind/concepts/phenomenology-lens", "wiki/people/fran-whyel", "wiki/self/location-history", "wiki/interests/favorites/music", "wiki/self/facebook", "wiki/mind/synthesis/vertical-authority-skepticism"]
+related: ["wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/conflict-architecture", "wiki/mind/concepts/phenomenology-lens", "wiki/people/fran-coldren", "wiki/self/location-history", "wiki/interests/favorites/music", "wiki/self/facebook", "wiki/mind/synthesis/vertical-authority-skepticism"]
 ---
 
 # Family Heritage, Immigrant Roots, and Regional Identity
@@ -23,7 +23,7 @@ The 23andMe family tree export (515 individuals in GEDCOM) provides [DOC] geneal
 ## Maternal WV/PA Roots & Fran Whyel
 - Great-grandmother Fran Whyel: b. 15 Aug 1920 Fort Martin WV (dirt-poor origin), d. 4 Apr 2018 Uniontown. Coal-baron marriage, 33rd-degree Mason third husband, dated Arnold Palmer per family lore. Gifted Numark NS7 (direct seed for DJ/production identity and sub-bass signature).
 - Deathwatch with Annie: seven days, only two present — multi-generational entanglement (grandmothers neighbors 50+ years).
-- Ties to [[wiki/people/fran-whyel]], music domain, and Annie closure.
+- Ties to [[wiki/people/fran-coldren]], music domain, and Annie closure.
 
 ## Geographic and Temporal Grounding
 - Core addresses (12 Bryer Ave → 337 Saratoga Drive, family-built 1996) and repeated Uniontown returns align with tree residences.
