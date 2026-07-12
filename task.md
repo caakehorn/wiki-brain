@@ -31,8 +31,8 @@
 - [ ] `wiki/mind/synthesis/family-heritage-and-roots.md` — prose rewrite
 - [ ] `wiki/mind/synthesis/vertical-authority-skepticism.md` — prose rewrite
 - [ ] `wiki/mind/synthesis/work-power-dynamics.md` — prose rewrite
-- [ ] `wiki/mind/synthesis/ai-collaborative-analysis.md` — prose rewrite (21KB, worst v1 chatter — was missing from this list)
-- [ ] `wiki/mind/synthesis/political-psyops.md` — prose rewrite (11KB — was missing from this list)
+- [x] `wiki/mind/synthesis/ai-collaborative-analysis.md` — prose rewrite (21KB→7.6KB)
+- [x] `wiki/mind/synthesis/political-psyops.md` — prose rewrite (11KB→6.9KB)
 
 ## Phase 4: People (primary cast)
 - [x] `wiki/people/annie.md` — frontmatter upgrade + prose polish
