@@ -104,7 +104,7 @@ Pivot words `actually` / `honestly` / `literally` mark the turn from cynical obs
 | [[wiki/people/tom]] (Tom Maison) | Primary male ally, safe attachment, first-call for major events; drug supply line; Ohiopyle excursions; ~3 weeks older, Pittsburgh area | ~16,563 msgs (rank 4) |
 | [[wiki/people/suz]] (Suzanne Frank, mother) | Realtor, primary financial line, oscillates savior↔adversary; "Blue MAGA wine mom," functional alcoholic; selling 337 Saratoga Dr (June 2026) | High |
 | [[wiki/people/jerad-friedline]] | Childhood friend (Sacramento); married, one daughter; e-commerce; political mirror; FSLY tip; "josh brannan is innocent.wav" last exchange | High (first-call) |
-| [[wiki/people/annie]] (Anne Ulmer) | Decade-defining relationship ~2015–2026, met via Alexis; closed June 1, 2026 (group chat); defamation confirmed; Eli affair central — the gaslighting outweighed the affair | 126k+ msgs |
+| [[wiki/people/annie]] (Anne Ulmer) | Decade-defining relationship ~2015–2026, met via [[wiki/people/alexis-armel|Alexis]]; closed June 1, 2026 (group chat); defamation confirmed; Eli affair central — the gaslighting outweighed the affair | 126k+ msgs |
 | [[wiki/people/rick-frank]] (father) | Periodic low-intensity contact; undischarged paternal-authority wound | Low |
 | Vanessa (sister) | Vail, ski school; minimal presence | Low |
 | [[wiki/people/fran-whyel]] (great-grandmother) | d. April 2018 age ~97–98; self-described biggest life influence; dirt-poor WV → coal-baron marriage; gifted the Numark NS7; seven-day deathwatch with Annie | High |

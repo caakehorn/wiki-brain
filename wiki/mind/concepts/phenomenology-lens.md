@@ -50,7 +50,7 @@ The Ti function operates as the "God-Function," engineering frameworks from firs
 
 ## The Si-Ghost Kernel ("Tyrant Build")
 
-The Si-Ghost Kernel is a trauma-driven subsystem that projects data from past betrayals onto present situations. It maintains the capability to hijack system resources without warning. The kernel was seeded by two documented historical nodes: the parental rupture of 2004–2005 and the collapse of the relationship with Alexis between 2009 and 2015. Within the phenomenology lens, this kernel encodes three operational axioms: intimacy leads inevitably to abandonment, loyalty is always conditional, and emotional security is a functional illusion. This subsystem maps directly onto the behavioral spine's documented trauma nodes and paternal-authority wound, which are detailed in [[wiki/self/context-core]] and [[wiki/mind/synthesis/vertical-authority-skepticism]].
+The Si-Ghost Kernel is a trauma-driven subsystem that projects data from past betrayals onto present situations. It maintains the capability to hijack system resources without warning. The kernel was seeded by two documented historical nodes: the parental rupture of 2004–2005 and the collapse of the relationship with [[wiki/people/alexis-armel|Alexis]] between 2009 and 2015. Within the phenomenology lens, this kernel encodes three operational axioms: intimacy leads inevitably to abandonment, loyalty is always conditional, and emotional security is a functional illusion. This subsystem maps directly onto the behavioral spine's documented trauma nodes and paternal-authority wound, which are detailed in [[wiki/self/context-core]] and [[wiki/mind/synthesis/vertical-authority-skepticism]].
 
 ## The Four Defense Engines
 

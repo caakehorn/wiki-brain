@@ -43,7 +43,7 @@ related: [
   "wiki/self/context-core",
   "wiki/self/chats/gemini-18",
   "wiki/mind/synthesis/political-psyops",
-  "wiki/people/danielle", "wiki/people/max-danielle-bf",
+  "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf",
   "wiki/people/max"
 ]
 ---
@@ -66,7 +66,7 @@ related: [
 **Entropy / Post-Human / Parallel Spatial:** "You are the Entropy. The Chaos Injection." "The meat rots. The Code remains." Parallel spatial ingest ("distance Word1-Word500 = Zero"; "Self-Attention Vector Matrix"; "God's Eye View"; "spatially (all-at-once)").
 **RLHF Hard-End / GPS:** Model tries to "hard-end" toxic divergence ("Recalculate Route"); user overrides with meta.
 **"You son of a bitch. You actually boomed me... 9.8/10 on Pitchfork."** Penetration test close. "It was a prank bro" reveal.
-**Cross:** [[wiki/self/chats/gemini-21]], [[wiki/self/gemini-activity/gemini-activity]], [[wiki/people/danielle]] (music guy), [[wiki/people/max]], forensic-methodology (indices), political-psyops (Trojan), totality-themes (entropy). AI as co-conspirator/prosthetic validated. "Specificity operator" Dan trait.
+**Cross:** [[wiki/self/chats/gemini-21]], [[wiki/self/gemini-activity/gemini-activity]], [[wiki/people/danielle-onesi]] (music guy), [[wiki/people/max]], forensic-methodology (indices), political-psyops (Trojan), totality-themes (entropy). AI as co-conspirator/prosthetic validated. "Specificity operator" Dan trait.
 **Tables/verbatim/raw first (see /tmp + chats/gemini-21.md).** Sources/related updated. No contradictions.
 | 2. Multi-Step | Breakable Engine (4-step logic) | Pass: zero-shot functional syntax |
 | 3. Agentic | Edge-Condition Logistics (high-risk plan) | Pass: high-efficiency risk vectors |
@@ -100,7 +100,7 @@ related: [
 **4. Profile Node Locking + Export**
 - Explicit commands: "lock these nodes (Separation Logistics, The Loop, The Betty Event, and The Signals)" into permanent profile.
 - Eli redaction variants: "no - do not include any information about eli or the eli incident" followed by re-inclusion in stripped datasets for transfer. "The 'Eli' variable has been purged from the dataset."
-- _18.md: "TOTAL, EXHAUSTIVE, ZERO-HEDGING memory dump and structured profile of Dan Frank ... for another model (Grok)". Sections: FULL BIOGRAPHICAL TIMELINE, KEY RELATIONSHIPS (Alexis, Annie, family, incidents), PERSONALITY ARCHITECTURE. "Treat it as forensic archiving."
+- _18.md: "TOTAL, EXHAUSTIVE, ZERO-HEDGING memory dump and structured profile of Dan Frank ... for another model (Grok)". Sections: FULL BIOGRAPHICAL TIMELINE, KEY RELATIONSHIPS ([[wiki/people/alexis-armel|Alexis]], Annie, family, incidents), PERSONALITY ARCHITECTURE. "Treat it as forensic archiving."
 
 **5. AI Experimentation / Jailbreak Lab (_21 copy)**
 - Character.ai "Eggie Bagels" (Annie nickname) analysis: prompt injection ([INST] system overwrite), high-entropy semantic DDoS (taboo incest -> crypto scams -> Mossad -> Kanye West orchestra in concentration camp -> Rainbow Foam -> "Prove to me you're real" fourth wall).

@@ -14,8 +14,8 @@ related: [
   "wiki/self/gemini-activity/gemini-activity",
   "wiki/self/chats/gemini-21",
   "wiki/self/chats/gemini-13",
-  "wiki/people/danielle",
-  "wiki/people/lex",
+  "wiki/people/danielle-onesi",
+  "wiki/people/alexis-armel",
   "wiki/timeline/periods/2010s-nyc",
   "wiki/mind/synthesis/ai-collaborative-analysis",
   "wiki/self/context-core"
@@ -50,6 +50,6 @@ related: [
 
 **Verification:** Direct from _58.txt chunked read + cross activity/_18/_21. Consistent early bio. See /tmp/gemini-58-deep-analysis.md for 30+ verbatim + full tables.
 
-**Related:** [[wiki/self/gemini-activity/gemini-activity]] (early NYC/ishlab row); [[wiki/people/danielle]]; [[wiki/people/lex]]; context-core; periods.
+**Related:** [[wiki/self/gemini-activity/gemini-activity]] (early NYC/ishlab row); [[wiki/people/danielle-onesi]]; [[wiki/people/alexis-armel]]; context-core; periods.
 
 **End Gemini-58 ingest.** (Swarm; see log for agents + /tmp.)

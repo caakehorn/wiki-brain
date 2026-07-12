@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/LIFE REPORT.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/*", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/FAVORITES DATA (2).md", "raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/ancestry/"]
-related: ["wiki/timeline/periods/dec-2025-spike", "wiki/timeline/periods/2021-2023-employment-block", "wiki/people/annie", "wiki/people/lex", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/timeline/periods/2017-poverty-floor", "wiki/timeline/periods/2018-deep-cycle", "wiki/timeline/periods/2025-collapse", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/facebook/messages", "wiki/mind/synthesis/forensic-methodology", "wiki/self/ancestry", "wiki/mind/synthesis/family-heritage-and-roots", "wiki/people/lex"]
+related: ["wiki/timeline/periods/dec-2025-spike", "wiki/timeline/periods/2021-2023-employment-block", "wiki/people/annie", "wiki/people/alexis-armel", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/timeline/periods/2017-poverty-floor", "wiki/timeline/periods/2018-deep-cycle", "wiki/timeline/periods/2025-collapse", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/facebook/messages", "wiki/mind/synthesis/forensic-methodology", "wiki/self/ancestry", "wiki/mind/synthesis/family-heritage-and-roots", "wiki/people/alexis-armel"]
 ---
 
 # Master Life Events Timeline
@@ -31,7 +31,7 @@ related: ["wiki/timeline/periods/dec-2025-spike", "wiki/timeline/periods/2021-20
 - **2026**: Closure, 86 events.
 
 **Sample Events (expanded from LIFE_EVENTS_CALENDAR.md + operating_manual + FB cross + Gemini bio; full 1,104 in raw):**
-- 2015-11-28: Lex cheated on me 2 weeks in after I moved her to fla (💔 Cheating/Affair). Per operating: moved Lex to fla. [[wiki/people/lex]]
+- 2015-11-28: Lex cheated on me 2 weeks in after I moved her to fla (💔 Cheating/Affair). Per operating: moved Lex to fla. [[wiki/people/alexis-armel]]
 - 2015-11-29: Met Annie Ulmer at Uniontown Country Club golf course 2am rain; "I met someone that instantly changed my life and showed me that I was really unhappy"; "Fuck my friends. Fuck birthday dinner." Genesis per operating_manual + calendar.
 - 2015-12: Multiple: Breakup with Lex ("Call him and be like. Listen I broke up with lex, I'm in love with Annie Ulmer"); First Date notes; Moved; Got Hired; Panic Attack; Arrest refs in context of prior. 39 events in Dec alone. (See 2015-2016 period)
 - 2016-01: Quit Job; Breakup comms with Annie; Holiday gathering (Caitlin cousin); Road trip refs; Major Decision "You know that you've changed my life"; Engagement tease Valentine's; Fran hospitalized; Moved mentions.
@@ -68,7 +68,7 @@ related: ["wiki/timeline/periods/dec-2025-spike", "wiki/timeline/periods/2021-20
 
 **Related Events:**
 - See [[wiki/timeline/events/eli-incident]], [[wiki/timeline/events/drawer-dispute]], [[wiki/timeline/events/group-chat-closure]]
-- People: [[wiki/people/annie]], [[wiki/people/lex]], [[wiki/people/tom]], [[wiki/people/suz]]
+- People: [[wiki/people/annie]], [[wiki/people/alexis-armel]], [[wiki/people/tom]], [[wiki/people/suz]]
 - FB events/groups cross in [[wiki/self/facebook]] (your_event_responses, group_interactions, events)
 
 This is the master index. Full chronological + 1,104 in raw/self/dox-md/LIFE_EVENTS_CALENDAR.md. Re-mined for periods expansion + FB.

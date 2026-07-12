@@ -1,10 +1,13 @@
 ---
 domain: people
 page_type: entity
-status: active
+title: "Danielle Onesi"
+aliases: ["Danielle", "Dee"]
+status: stable
 date_created: 2026-06-23
-date_modified: 2026-06-23
+date_modified: 2026-07-11
 sources: [
+  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv",
   "raw/self/dox-md/Gemini-_21.md",
   "raw/self/dox-md/Gemini-_58.txt",
   "raw/self/gemini-activity/Gemini Activity.html",
@@ -16,7 +19,7 @@ sources: [
   "raw/self/facebook/facebook-ihatedanfrank/"
 ]
 related: [
-  "wiki/people/lex",
+  "wiki/people/alexis-armel",
   "wiki/people/annie",
   "wiki/people/tom",
   "wiki/self/gemini-activity/gemini-activity",
@@ -31,10 +34,10 @@ related: [
 ]
 ---
 
-# Danielle (First Girlfriend)
+# Danielle Onesi (“Dee”)
 
 ## Identity
-Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort). Explicit in Gemini _21 as prior partner whose then-current BF ("the most wild dude" / music guy, CNA-to-producer) receives rare detailed music personality analysis ("knows more about music than I do... I don't give any other people"). Appears in 2010 NYC arrival photo with Dan + mom Suzanne ("Suz") at Brooklyn Bridge (May 1, 2010 birthday "I arrived" shot during move to 424 Bedford). Ongoing: "remains my moms closest friend to this day" (present at family Christmas etc. 2025). "Danielle (The Ex/Friend)" / "foundational support node" in later Game Theory analysis. Full name variant: Danielle Onesi (FB profile prev relationships). Pre-pivot anchor before high-vol Lex (5yr) + Annie eras. No high-volume corpus (biographical node only).
+Full name Danielle Onesi, nickname "Dee." Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort). Explicit in Gemini _21 as prior partner whose then-current BF ("the most wild dude" / music guy, CNA-to-producer) receives rare detailed music personality analysis ("knows more about music than I do... I don't give any other people"). Appears in 2010 NYC arrival photo with Dan + mom Suzanne ("Suz") at Brooklyn Bridge (May 1, 2010 birthday "I arrived" shot during move to 424 Bedford). Ongoing: "remains my moms closest friend to this day" (present at family Christmas etc. 2025). "Danielle (The Ex/Friend)" / "foundational support node" in later Game Theory analysis. Full name variant: Danielle Onesi (FB profile prev relationships). Pre-pivot anchor before high-vol Lex (5yr) + Annie eras. No high-volume corpus (biographical node only).
 
 ## Timeline Table (pre-2010s focus + anchors)
 | Date/Period | Event | Verbatim / Source |
@@ -78,7 +81,7 @@ Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA
 Pre-Lex/Annie anchor; Uniontown kernel (1988-2008 origin per core); music production parallel (Dude analysis ↔ Dan ishlab/aliases); attachment contrast (cheat pivot → Lex → Annie 2015 start). Ties [[wiki/self/context-core]], periods pre-NYC + 2010s.
 
 ## Related to annie/lex/tom/periods
-- [[wiki/people/lex]] (immediate successor post-cheat; NYC overlap post-2010 photo)
+- [[wiki/people/alexis-armel]] (immediate successor post-cheat; NYC overlap post-2010 photo)
 - [[wiki/people/annie]] (post-Lex; Danielle as ongoing mom's friend + 2025 "Cat Debt"/withhold Game Theory)
 - [[wiki/people/tom]] (Uniontown cohort overlap pre/early Full Sail era)
 - [[wiki/timeline/periods/2015-2016-annie-relationship-start]], [[wiki/timeline/periods/2025-collapse]] (family refs), pre-NYC origin periods via core
@@ -87,3 +90,15 @@ Pre-Lex/Annie anchor; Uniontown kernel (1988-2008 origin per core); music produc
 **Verification:** Verbatim direct from _21/_58/HTML + /tmp/gemini-danielle-max.md tables. Consistent with 1988 bio, 2005-09 dates, 2010 NYC move, no raw mods. Tables-first. 
 
 **End Danielle enrichment.** (Granular per task + CLAUDE protocol; cross _21/_58/activity/LIFE/FB/message-csv.)
+
+## Message corpus
+
+| Metric | Value |
+|--------|-------|
+| iMessage handle | +17243664916 |
+| Messages | 44 (received-dominant) |
+| Date range | 2016-03-23 – 2025-11-01 |
+
+Low-volume thread consistent with her role as a biographical node and
+family-adjacent presence (Suz's closest friend) rather than a
+high-frequency contact.

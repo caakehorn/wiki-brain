@@ -27,7 +27,7 @@ related: ["wiki/self/context-core", "wiki/mind/concepts/abyssal-architect", "wik
 
 ## Granular Biography Highlights (iMessage Timeline)
 - Pre-2015: High school punk drummer; ancestry (Gram Fran); 15+ yr Suboxone; music DNA (Poor Boyz, OutKast, Soviet classical, punk); skiing identity.
-- Nov 2015: Annie genesis at Uniontown Country Club golf course (2am rain, met via Alexis; grandmothers neighbors 50+ yrs).
+- Nov 2015: Annie genesis at Uniontown Country Club golf course (2am rain, met via [[wiki/people/alexis-armel|Alexis]]; grandmothers neighbors 50+ yrs).
 - 2017 Poverty Floor: Utilities risk, water shut off, no car, free DJing, camming, family swings, dealers.
 - 2018 Deep Cycle: Multiple dealers, high financial velocity, family intermediation.
 - 2020-21 Market Era: FSLY tip from Jerad (~$15k, profitable); GME/AMC; cultural trend sensing insight.

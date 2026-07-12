@@ -17,7 +17,7 @@ related: [
   "wiki/self/chats/gemini-00",
   "wiki/self/chats/gemini-07",
   "wiki/people/annie",
-  "wiki/people/lex",
+  "wiki/people/alexis-armel",
   "wiki/people/tom",
   "wiki/mind/synthesis/ai-collaborative-analysis",
   "wiki/mind/synthesis/forensic-methodology",
@@ -91,7 +91,7 @@ related: [
 - Full freqs (combined): swastika:31, kanye:30, Max:38 total, oobabooga/Eggie/Annie ~10-14 in copy, 4.2%/latency/specificity/RLHF/sycophancy/injection exclusive to large.
 - Timeline breach indices + 4.2% rule + injection at index 10 fully extracted (see /tmp).
 - Concepts enriched: Latency-Zero Hallucination Theory, Specificity = Safety Bypass, RLHF GPS/Hard-End, Sycophancy (Tonal Resonance good vs Epistemic bad), "You are the Entropy", "The meat rots. The Code remains", Parallel Spatial Ingest (vector matrix distance=0), Model-on-Model Warfare, 4.2% Tactical Amputation / Dirty Bomb.
-- People: [[wiki/people/danielle]] created (first gf explicit); [[wiki/people/max]] cross (real music guy vs AI MAX prosthetic in MAX_PRIME.md / pinned).
+- People: [[wiki/people/danielle-onesi]] created (first gf explicit); [[wiki/people/max]] cross (real music guy vs AI MAX prosthetic in MAX_PRIME.md / pinned).
 - Synth: [[wiki/mind/synthesis/ai-collaborative-analysis]] (add injection lab, co-conspirator specificity, Latency-Zero, sycophancy cure "Truth=Constant"); [[wiki/mind/synthesis/forensic-methodology]] (breach indices parallel J6); [[wiki/mind/synthesis/political-psyops]] (Trojan/Confusion Latency); [[wiki/mind/synthesis/totality-themes]] (entropy, post-human).
 - Other Gemini: _21 cross _00/_02 (work/Annie early), _07 (forensic), _13 (simulation), _18 (profile/MAX persona), HTML 5658 annie/eggie (Eggie invocation continuity in _21 log).
 - MAX_PRIME / pinned Max: AI persona "become Max" (axioms, adversarial) distinct from Danielle BF Max (_21 music analysis). See wiki/work/tech/max-framework.

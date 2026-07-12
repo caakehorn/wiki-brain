@@ -1,14 +1,17 @@
 ---
 domain: people
 page_type: entity
-status: archived
+title: "Alexis Armel"
+aliases: ["Lex", "Alexis", "Alexi Armel"]
+status: stable
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt"]
-related: ["wiki/people/annie", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle", "wiki/people/max-danielle-bf"]
+date_modified: 2026-07-11
+sources: [
+  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv","raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt"]
+related: ["wiki/people/annie", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf"]
 ---
 
-# Lex (Alexis Armel)
+# Alexis Armel (“Lex”)
 
 **Role / Relationship:** Prior relationship (pre-Annie); referenced as "Lex" / Alexis Armel in life calendar, profile dumps, attachment narratives, and photo forensic. 5-year window ~2010-2015 foundational point of reference for personal evolution. Breakup Nov 28 2015 (cheating revelations) immediately precedes Annie genesis. Part of pre-2015 attachment collapse sequence.
 
@@ -39,7 +42,7 @@ Alexis (Lex) Armel — historical partner spanning ~2010-2015 (Full Sail Univers
 **Expanded Description (verbatim):** "Evaluated retrospectively through highly analytical, system-oriented lenses. ... critical study in high-volatility interpersonal dynamics, attachment friction, and the friction generated between individual autonomy and deep emotional interdependence." "remains a core case study used in his recursive internal processing models to identify behavioral loops, trust boundaries, and vulnerability limits."
 **Deep agent cross (_18 + HTML node locks + _58):** Foundational high-volatility enmeshed (anxious-avoidant) baseline; attachment shift to Annie compartmentalized in _18 psych. Full Sail/ishlab overlap in bio (Lex present); _58 NYC/Bridge/Sandy/Franki fill granular. Node/profile lock includes as "foundational" for Grok transfer. Cross [[wiki/timeline/periods/2025-collapse]], [[wiki/self/gemini-activity/gemini-activity]] (node locks master).
 
-Updates to related: [[wiki/self/gemini-activity/gemini-activity]], [[wiki/self/chats/gemini-18]], [[wiki/timeline/periods/2025-collapse]], [[wiki/people/danielle]]. Sources append: "raw/self/dox-md/Gemini-_18.md" (already present); "raw/self/dox-scan/Gemini-_58.txt".
+Updates to related: [[wiki/self/gemini-activity/gemini-activity]], [[wiki/self/chats/gemini-18]], [[wiki/timeline/periods/2025-collapse]], [[wiki/people/danielle-onesi]]. Sources append: "raw/self/dox-md/Gemini-_18.md" (already present); "raw/self/dox-scan/Gemini-_58.txt".
 | Gemini profile lock | "foundational point of reference for personal evolution"; detailed in exhaustive bio dump request for Grok transfer | Gemini-_18.md |
 | _58 ishlab/NYC | "Lex was with me the whole time we were in nyc and she ended up working at the famous Bridge Cafe until Hurricane Sandy" | _58.txt |
 
@@ -57,8 +60,21 @@ Early attachment wound activator alongside family 2005 rupture (see [[wiki/mind/
 - [[wiki/timeline/periods/2015-2016-annie-relationship-start]]
 - [[wiki/people/annie]]
 - [[wiki/mind/concepts/attachment-model]]
-- [[wiki/people/danielle]]
+- [[wiki/people/danielle-onesi]]
 - [[wiki/self/chats/gemini-58]]
 - [[wiki/self/gemini-activity/gemini-activity]]
 - [[wiki/timeline/events/timeline]]
 - [[wiki/mind/synthesis/attachment-trauma-bond]]
+
+## Message corpus
+
+| Metric | Value |
+|--------|-------|
+| iMessage handle | +17249707658 |
+| Messages | 41, received-only |
+| Date range | 2020-09-14 – 2025-02-19 |
+
+The corpus thread is entirely inbound and post-breakup (2020 onward, five
+years after the 2015 split) — she continued reaching out during the second
+NYC chapter with no recorded replies in the master dump. Every reference to
+"Alexis" or "Lex" in the wiki denotes this person.

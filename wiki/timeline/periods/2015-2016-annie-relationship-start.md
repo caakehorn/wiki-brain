@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE REPORT.md", "raw/self/ancestry/"]
-related: ["wiki/timeline/events/timeline", "wiki/people/annie", "wiki/people/lex", "wiki/self/facebook", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/gemini-activity/gemini-activity", "wiki/self/ancestry", "wiki/mind/synthesis/family-heritage-and-roots"]
+related: ["wiki/timeline/events/timeline", "wiki/people/annie", "wiki/people/alexis-armel", "wiki/self/facebook", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/gemini-activity/gemini-activity", "wiki/self/ancestry", "wiki/mind/synthesis/family-heritage-and-roots"]
 ---
 
 # 2015-2016 Annie Relationship Start
@@ -27,4 +27,4 @@ related: ["wiki/timeline/events/timeline", "wiki/people/annie", "wiki/people/lex
 
 **Cross-check:** Matches core residence Uniontown 155 Virginia from 2015. Message volume Annie dominant from genesis. FB messages parallel Annie thread. Ancestry tree confirms 1988 Uniontown birth + Fran/Suz local ties (cross [[wiki/self/ancestry]]). LIFE REPORT cognitive: analytical + emotional, loyalty/authenticity drivers active at genesis.
 
-**Related:** [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2017-poverty-floor]], [[wiki/people/annie]], [[wiki/people/lex]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/facebook/messages]], [[wiki/self/gemini-activity/gemini-activity]], [[wiki/self/ancestry]]
+**Related:** [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2017-poverty-floor]], [[wiki/people/annie]], [[wiki/people/alexis-armel]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/facebook/messages]], [[wiki/self/gemini-activity/gemini-activity]], [[wiki/self/ancestry]]

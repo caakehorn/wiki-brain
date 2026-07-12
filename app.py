@@ -460,6 +460,7 @@ function inline(s){
   s=s.replace(/\[([^\]]+)\]\(([^)]+)\)/g,(m,t,u)=>
     /^https?:/.test(u)?`<a href="${u}" target="_blank">${t}</a>`
     :`<a href="#" data-wiki="${u}">${t}</a>`);
+  s=s.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g,`<a href="#" data-wiki="$1">$2</a>`);
   s=s.replace(/\[\[([^\]]+)\]\]/g,`<a href="#" data-wiki="$1">$1</a>`);
   return s;
 }

@@ -12,9 +12,9 @@ sources: [
   "raw/self/dox-scan/Gemini-_58.txt"
 ]
 related: [
-  "wiki/people/danielle",
+  "wiki/people/danielle-onesi",
   "wiki/people/annie",
-  "wiki/people/lex",
+  "wiki/people/alexis-armel",
   "wiki/self/gemini-activity/gemini-activity",
   "wiki/self/chats/gemini-21",
   "wiki/self/chats/gemini-58",
@@ -73,7 +73,7 @@ related: [
 - Cross _58 early bio (music production house parallel to ishlab/MIM era).
 
 ## Cross
-[[wiki/people/danielle]] (gf, first), gemini-activity (Music guy _21 + _58), [[wiki/self/chats/gemini-21]], MAX_PRIME (Dan identity injection for "Max" AI), pinned Max chat, periods (pre-NYC Danielle refs), synthesis (ai-collaborative prosthetic + music as cognitive machine), [[wiki/people/max]] (AI distinction).
+[[wiki/people/danielle-onesi]] (gf, first), gemini-activity (Music guy _21 + _58), [[wiki/self/chats/gemini-21]], MAX_PRIME (Dan identity injection for "Max" AI), pinned Max chat, periods (pre-NYC Danielle refs), synthesis (ai-collaborative prosthetic + music as cognitive machine), [[wiki/people/max]] (AI distinction).
 
 **Verification:** Direct verbatim from _21 full reads + activity/_58/HTML cross. Consistent. Tables-first. Exhaustive.
 

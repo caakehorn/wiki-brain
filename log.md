@@ -14,3 +14,5 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 ## [2026-07-11] edit | people | human edit via app: wiki/people/mary-kate.md
 ## [2026-07-11] edit | people | human edit via app: wiki/people/mary-kate.md
 ## [2026-07-11] edit | people | human edit via app: wiki/people/mary-kate.md
+## [2026-07-11] ingest | people | capture corrections: danielle.md → danielle-onesi.md (full name Danielle Onesi, "Dee"; merged contacts/danielle-onesi stub, 44-msg corpus)
+## [2026-07-11] ingest | people | capture corrections: lex.md → alexis-armel.md (aliases Lex/Alexis/Alexi Armel; merged contacts/alexi-armel stub, 41-msg inbound-only corpus; first-mention Alexis links added in 12 pages)

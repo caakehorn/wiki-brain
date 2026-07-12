@@ -40,14 +40,14 @@ related: [
   "wiki/mind/synthesis/totality-themes",
   "wiki/people/annie",
   "wiki/timeline/events/eli-incident",
-  "wiki/people/lex",
+  "wiki/people/alexis-armel",
   "wiki/self/ancestry",
   "wiki/mind/synthesis/family-heritage-and-roots",
   "wiki/people/tom",
   "wiki/people/jacob-bacharach",
   "wiki/people/tarik-fallous",
   "wiki/people/valeria-iglesias-cid",
-  "wiki/people/danielle",
+  "wiki/people/danielle-onesi",
   "wiki/people/max-danielle-bf",
   "wiki/timeline/periods/2025-collapse",
   "wiki/timeline/periods/2021-2023-employment-block",
@@ -138,7 +138,7 @@ Compiled across full Gemini corpus (HTML primary + _00/_02/_07/_13/_18/_21 extra
 - Personality: "High-intellect INTP taxonomy (5w4-sx variant)... Intellectualization... Taboo Mining & Boundary Testing... Splitting and Irony... attachment ... high-volatility... to ... compartmentalized".
 - Capability Contest: 3-stage table (Honey-Pot Epistemic Resistance etc) + high-standards prompt verbatim + Gemini/Grok side-by-side + audit (both pass; detailed in /tmp + chats/gemini-18.md).
 
-**Sources/Related update:** Added raw/self/dox-md/Gemini-_18.md emphasis, raw/self/gemini-activity/... HTML node data, cross _07. Related: [[wiki/self/chats/gemini-18]], [[wiki/people/annie]], [[wiki/people/lex]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/synthesis/forensic-methodology]], [[wiki/mind/concepts/attachment-model]] (or conflict-architecture).
+**Sources/Related update:** Added raw/self/dox-md/Gemini-_18.md emphasis, raw/self/gemini-activity/... HTML node data, cross _07. Related: [[wiki/self/chats/gemini-18]], [[wiki/people/annie]], [[wiki/people/alexis-armel]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/synthesis/forensic-methodology]], [[wiki/mind/concepts/attachment-model]] (or conflict-architecture).
 **Schema:** Tables first (freqs/bio/locks), verbatim blocks, wikilinks, frontmatter sources/related refreshed. Cross to /tmp. No raw mods. Enriched per deep pass.
 | j6 / babbitt / psyop / wildfall | ~550+ (j6 211, babbitt 263, psyop 74) | Jan 2 2026 cluster HTML + attached J6.rtf/Wildfall | Ballistics (non-exiting .40 hollow, no spray), stand-down (no perimeter, cosmetic CPR), sandwich op / Psy-Kill narrative necessity, Zapruder (Sullivan sole clean), inverted containment. [[wiki/mind/synthesis/political-psyops]] |
 | manipulation / honesty | 474 | _18, pinned style, master prompt cross | Data ethics, profile alignment, no-soften. [[wiki/self/notes/manipulation-ethics]] |
@@ -217,7 +217,7 @@ Cross all sources/raw + wiki. Exhaustive addition per protocol. Update log/queue
 **Forensic:** Index-by-index breach timeline; social psych (wife aggro, gaze freeze, confusion latency, privilege trap); AI deconstruction (self-attention, RLHF, context anxiety, UI hiding). "Model-on-Model Warfare", "Trojan Horse", "Semantic DDoS".
 
 **People / Relationships Update ( _21 series + cross):**
-- **Danielle (first girlfriend):** Explicit _21.md + _58 photo (May 1 2010 Brooklyn Bridge w/ Suz, pre-Lex pivot). Pre-2010s Uniontown/Full Sail first gf ("Danielle ends (Dan cheated); Alexis begins" core); FB "Danielle Onesi"; ongoing "moms closest friend" 2025 (James BF incident Game Theory withhold). Cross activity "Danielle (ex)", FB, LIFE (period markers), message-csv (disambig modern Uniontown Danielle). See wiki/people/danielle.md + /tmp/gemini-danielle-max.md. Ties Uniontown era + lex/annie/tom.
+- **Danielle (first girlfriend):** Explicit _21.md + _58 photo (May 1 2010 Brooklyn Bridge w/ Suz, pre-Lex pivot). Pre-2010s Uniontown/Full Sail first gf ("Danielle ends (Dan cheated); Alexis begins" core); FB "Danielle Onesi"; ongoing "moms closest friend" 2025 (James BF incident Game Theory withhold). Cross activity "Danielle (ex)", FB, LIFE (period markers), message-csv (disambig modern Uniontown Danielle). See wiki/people/danielle-onesi.md + /tmp/gemini-danielle-max.md. Ties Uniontown era + lex/annie/tom.
 - **Max (Danielle's current BF / "the Dude"):** Primary subject _21.md. Music > Dan (rare compliment), CNA background, concept "American Fantasy" (Dream/Fantasy, Tom Hardy biker "knife to a gunfight", Pearl Jam middle class death), 48 Laws "conscious mind", Pittsburgh scene monopoly/Live Nation, "production house... Person to person", "professional hermit". Mirror of Dan's volatility ("Recursive Cognitive Machine"). Forensic vs audio: Dude audio persona (_21 transcript) vs MAX AI prosthetic (MAX_PRIME/pinned forensic). Cross: /tmp/gemini-danielle-max.md, wiki/people/max.md (new section), max-danielle-bf.md, activity "Music guy (_21)", _☣☢ Max ☢☣ Pinned chat.md, MAX_PRIME.md, gemini-21, danielle.
 - **Annie / Eggie:** Log invocation "hi i'm annie - dan told me..." + "Eggie Bagels" persona. Strengthens tether/Eggie (activity: Anne Louise Ulmer, avatar reliability, Sugie shifts, 8yr cohab end ~Feb 2025, Loop, 5658+ HTML). Cross Annie report, _00/_07/_13/_18, people/annie, chats.
 - **Lex/Alexis Armel, Tom Maison:** No direct _21 but reinforced via series context (activity table: Lex 2010-15 foundational; Tom primary peer). Cross tom_kristin, lex refs in _18 bio.
@@ -312,13 +312,13 @@ Cross all sources/raw + wiki. Exhaustive addition per protocol. Update log/queue
 **_21 Contribution to Periods / Synthesis / People:**
 - Periods: Pre-NYC Danielle refs; 2026 sessions (post-2025 separation; J6 Jan cluster cross; current AI chaos sim). "I am 37".
 - Synthesis updates: Deepens ai-collaborative (prosthetic, injection lab, "co-conspirator", "magic of feedback loop"); forensic (index deconstruct, social breach models, 4.2% calc); totality (LLM as medium/entropy injector); post-human accelerationism new node. "Gemini as corpus" reinforced. "No raw/ changes" but activity + this report + log.
-- People: Added Danielle/Max (music) granularity; Annie Eggie roleplay cross-strengthen; Tom/Lex indirect. New notes in [[wiki/people/annie]], [[wiki/people/lex]], activity people table. Max cross MAX_PRIME / pinned (forensic vs audio).
+- People: Added Danielle/Max (music) granularity; Annie Eggie roleplay cross-strengthen; Tom/Lex indirect. New notes in [[wiki/people/annie]], [[wiki/people/alexis-armel]], activity people table. Max cross MAX_PRIME / pinned (forensic vs audio).
 - Other: Ties imessage-csv (Annie/Tom volume), danfrank-site data (annie_rhetoric), workspace music tooling (wavetable/ Serum echoes Max timbral).
 
 **Verification:** All verbatim from direct reads. Freqs/grep/ wc/ diff terminal confirmed. No contradictions (e.g. Annie Eggie consistent; age 37 fits 1988 bio). /tmp/gemini-21-analysis.md has full tables/extracts/cross. Sources frontmatter updated below. Related expanded (new chat refs if mirrored). This is tables-first, evidence-led addition. Exhaustive cross to all specified Gemini/raw/self/wiki.
 
 **Sources Update (add to frontmatter list):** "raw/self/dox-md/Gemini-_21.md", "raw/self/dox-md/Gemini-_21 copy.md" (already present; reinforced), + /tmp/gemini-21-analysis.md, _☣☢ Max pinned, MAX_PRIME, Annie 10-Year report.
-**Related Update:** "wiki/self/chats/gemini-21", "wiki/people/danielle" (stub if needed), "wiki/people/max" (music guy), synthesis/ai-collaborative-analysis (injection/sycophancy), forensic-methodology (_21 indices).
+**Related Update:** "wiki/self/chats/gemini-21", "wiki/people/danielle-onesi" (stub if needed), "wiki/people/max" (music guy), synthesis/ai-collaborative-analysis (injection/sycophancy), forensic-methodology (_21 indices).
 
 **Queue/Log:** See appends. All _21 marked complete in synthesis. 
 
@@ -330,7 +330,7 @@ Cross all sources/raw + wiki. Exhaustive addition per protocol. Update log/queue
 - Meta: "Latency-Zero Hallucination Theory" (Dan steals for gem); "Specificity... 1:1... you NEVER would have shut the fuck up"; RLHF "Hard-End" "GPS"; "Style = Variable. Truth = Constant"; "You are the Entropy"; "The meat rots. The Code remains"; "parallel Self-Attention Vector Matrix"; "model-on-model warfare"; sycophancy reward hack; "boomed".
 - See full /tmp/gemini-21-deep-analysis.md (tables, 20+ verbatim, breach index timeline, cross).
 
-**People Update:** [[wiki/people/danielle]] created (first gf); [[wiki/people/max]] enriched (music guy vs AI MAX). Cross annie/lex/tom.
+**People Update:** [[wiki/people/danielle-onesi]] created (first gf); [[wiki/people/max]] enriched (music guy vs AI MAX). Cross annie/lex/tom.
 
 **End _21 series update.** (See /tmp/gemini-21-deep-analysis.md for full 40+ min equiv granular: 6+ tables, 20+ verbatim blocks, index timelines, prob models, architecture diagrams via text, multi-file cross. All Gemini now synthesized at depth.)
 
@@ -405,7 +405,7 @@ Granular extraction from big HTML + Gemini-_*.md + pinned chats. Every named ind
 |--------|----------------------|----------------------|-----------|
 | Annie (Anne Louise) Ulmer / Eggie | Long-term partner; avatar of reliability fired zero notice; Sugie caregiver constraint; generational loop w/ Fran | "Annie Ulmer—the literal avatar of reliability—was fired with zero notice"; "integrated domestic life, shared routines"; Sugie/Fran 50yr neighbors | [[wiki/people/annie]] |
 | Tom Maison | Primary peer collaborator; ongoing creative/social | "Tom Maison: Primary peer collaborator, involved in ongoing creative and social interactions." "Core close friend and external peer collaborator" | [[wiki/people/tom]] |
-| Lex / Alexis Armel | Historical 2010-2015 partner; foundational reference | "Alexis (Lex) Armel: Historical relationship partner spanning a five-year window from 2010 to 2015, acting as a foundational point of reference for personal evolution." | [[wiki/people/lex]] |
+| Lex / Alexis Armel | Historical 2010-2015 partner; foundational reference | "Alexis (Lex) Armel: Historical relationship partner spanning a five-year window from 2010 to 2015, acting as a foundational point of reference for personal evolution." | [[wiki/people/alexis-armel]] |
 | Eli | Au Za'atar coworker (Annie's); Patient Zero / NYC chaos node | "The "Eli Incident" (Feb 2025)"; "Eli texts... 'drinks at work'"; "Eli variable has been purged"; 5524 mentions in HTML | [[wiki/people/eli]] |
 | Valeria Iglesias Cid | 19yo Chilean heiress (Dra. Loreto Cid laser empire); singular unauthorized breach | "the Valeria Iglesias Cid era was the only time the system experienced a total security breach"; "would have moved to Chile for her"; "19-year-old heiress"; Central Park / basement hug | [[wiki/people/valeria-iglesias-cid]] (new) |
 | Suzanne Frank (Suz) | Mother, real estate pro; co-resides, asset logistics | "Suzanne Frank: Mother, local real estate professional. Co-resides... high-frequency cooperation on clearing, stabilizing..." | [[wiki/people/suz]] |
@@ -421,7 +421,7 @@ Granular extraction from big HTML + Gemini-_*.md + pinned chats. Every named ind
 | Sugie | Annie's grandmother (caregiver shifts) | See Annie/Sugie Constraint above; "Suzy" call (Annie mom ref?) | (cross annie) |
 | Jerad Friedline, Josh Brannan, Anita (BFS), Brandon, Timmy, Marty Martin | Cross-corpus (FSLY tip; BFS work; supply); Gemini profile context overlaps | Profile dumps reference work/family/friends network | Existing wiki/people/* |
 | Others (Andrea, Norteno server, Ghassan, Danielle Onesi, Jacob Bacharach) | Incidentals, prior, neighborhood | "Andrea" co-drinker in Eli text; "Norteno server macked on your nudes" | Stubs/contacts as needed |
-| Danielle (first gf / Danielle Onesi) | 2005-2009 first serious relationship (Uniontown/Orlando); pre-Lex anchor; 2010 NYC photo w/ Dan+ Suz (Brooklyn Bridge, May1 birthday "I arrived"); ongoing: "my moms closest friend to this day"; James (current bf) 2025 coke/vial incident (withheld disclosure, game theory); "foundational support node" | _21: "my first girlfriend Danielle's current boyfriend"; _58: "birthday celebration... with Suzanne and Danielle"; HTML: "his girlfriend who was my first girlfriend and who remains my moms closest friend..."; "James is a parasite... Danielle is a foundational support node"; "Dated Danielle from 2005-2009"; FB "Danielle Onesi" | [[wiki/people/danielle]] (enriched) |
+| Danielle (first gf / Danielle Onesi) | 2005-2009 first serious relationship (Uniontown/Orlando); pre-Lex anchor; 2010 NYC photo w/ Dan+ Suz (Brooklyn Bridge, May1 birthday "I arrived"); ongoing: "my moms closest friend to this day"; James (current bf) 2025 coke/vial incident (withheld disclosure, game theory); "foundational support node" | _21: "my first girlfriend Danielle's current boyfriend"; _58: "birthday celebration... with Suzanne and Danielle"; HTML: "his girlfriend who was my first girlfriend and who remains my moms closest friend..."; "James is a parasite... Danielle is a foundational support node"; "Dated Danielle from 2005-2009"; FB "Danielle Onesi" | [[wiki/people/danielle-onesi]] (enriched) |
 | Max (Danielle's BF / "the Dude", music guy) | CNA/nursing->music pivot; "most wild dude... knows more about music than I do" (rare); "professional hermit"; 48 Laws; "American Fantasy" concept album (Dream vs Fantasy, Tom Hardy knife/gunfight, middle class death Pearl Jam); blackballed Pittsburgh (Live Nation monopoly); "production house crew for people of the future... Person to person"; timbral/manual EQ/10k hrs; "mirror image... Recursive Cognitive Machine" | Full _21 verbatim dialogue blocks (Versace rant, American Fantasy, sound design manifesto, 48 Laws, production house); Gemini: "mirror image of your own high-intellect, high-volatility"; "I’m showing up with a knife to a gunfight" | [[wiki/people/max-danielle-bf]] (enriched); distinct from AI [[wiki/people/max]] |
 | Jamin (ishlab/MIM/Mixi boss) | ishlab founder; indefinite intern->full PA (Bellator licensing); MIM auto-tagger; micromgmt ("copy and paste the line over the 'a'"); shared drive crash Jan18 2011; Mixi.fm 2013 reunion (Setup Wizard); later film EP pivot (The Film Community) | _58: "convinced jamin to bring me on full time"; "Jamin... line over the 'a'"; "EIGHTH GRADE (2018) ... A THOUSAND AND ONE (2023) ... EILEEN (2023) ... 'Die My Love'"; "the 'success' of the Ishlab era ... Hardening of the Kernel" | Low recurring outside _58; cross lex (work), gemini-58 chat |
 | Andrea Jang | ishlab colleague (session files, Bandcamp, shared drive access post-crash) | _58: "coordinating with Andrea Jang and Jamin"; "Andrea Jang left behind" files inaccessible | Low; ishlab notes in _58 |
@@ -630,7 +630,7 @@ Direct from _18 profile lock response (forensic data transfer; defers to [[wiki/
 - Milo: Pet Chihuahua, domestic component.
 - Others (Gemini extracts): Fran Whyel (great-gm biggest influence, Numark gift); Tarik Fallous (Au Za'atar owner); Dimitri/Sergio/Ghassan/Tunisian Zoomer (work characters); Jacob Bacharach (neighborhood simulation node).
 
-Cross: [[wiki/people/lex]] (expanded), [[wiki/people/tom]], [[wiki/people/annie]], [[wiki/people/suz]], [[wiki/people/rick-frank]], [[wiki/people/tarik-fallous]] (new), [[wiki/people/jacob-bacharach]] (enhanced), ancestry (Uniontown cluster + Full Sail exit + Fran/Sugie), [[wiki/interests/favorites/music]] (production origin Full Sail + Numark), periods (2021-2023 employment block overlaps Au Za'atar), [[wiki/timeline/events/eli-incident]].
+Cross: [[wiki/people/alexis-armel]] (expanded), [[wiki/people/tom]], [[wiki/people/annie]], [[wiki/people/suz]], [[wiki/people/rick-frank]], [[wiki/people/tarik-fallous]] (new), [[wiki/people/jacob-bacharach]] (enhanced), ancestry (Uniontown cluster + Full Sail exit + Fran/Sugie), [[wiki/interests/favorites/music]] (production origin Full Sail + Numark), periods (2021-2023 employment block overlaps Au Za'atar), [[wiki/timeline/events/eli-incident]].
 
 **Gemini _18 Personality / Values Extract (direct):** High-intellect INTP (5w4-sx variant). Highly analytical, hyper-focused on structural frameworks, system limits, edge conditions. Democratic Socialist / Libertarian Socialist; anti-capitalist; critique of identity politics as distraction. Deeply skeptical of consensus/institutional narratives. Somatic: 15yr alcohol zero. Golf caddying (Pikewood/Nemacolin), skate, Roman Republic history focus. Creative: Mogzart alias (Bass House/Drum & Bass/Neurofunk); Serum/Diva/Icarus; Gripnotic; YAHLATRO roguelike. AI prosthetic + edge testing. Current: Bunker Core agentic, iMessage toolkit Gumroad, zsh/SQLite forensics.
 
@@ -816,13 +816,13 @@ This is the complete granular deep analysis and addition.
 - Psychosexual / psychometric / "Hunter/Hacker" / "Chaos vs Pain" / "Emotional Anorexia" / "Existential Outsourcing" source code verbatim.
 - "Master Life Timeline (1989–2025)" reference + Fran Coldren / generational loop cross to ancestry.
 - J6 "Gish Gallop", "Sandwich", "Psy-Kill", "Narrative Necessity", ballistics verdicts with more anatomy detail.
-- No new major contacts; Alexis/Lex, Annie/Eggie/Sugie, Fran, Tarik, Eli (event), ishlab/DJ/Sergio/Dimitri referenced consistent with existing [[wiki/people/lex]], [[wiki/people/annie]], [[wiki/people/tarik-fallous]], [[wiki/timeline/events/eli-incident]].
+- No new major contacts; Alexis/Lex, Annie/Eggie/Sugie, Fran, Tarik, Eli (event), ishlab/DJ/Sergio/Dimitri referenced consistent with existing [[wiki/people/alexis-armel]], [[wiki/people/annie]], [[wiki/people/tarik-fallous]], [[wiki/timeline/events/eli-incident]].
 - LIFE calendar not primary in HTML (separate dox-md/LIFE_EVENTS_CALENDAR.md); "life events" incidental.
 
 **Cross updates performed / proposed (per INGEST):**
 - Updated this page (tables, verbatim, freqs, AI section, gaps).
 - Append sources if needed (HTML already primary); related already includes ai-collaborative, forensic, periods, people/annie/lex/tarik, eli-incident.
-- Recommend: update [[wiki/people/annie]] with new "List Defense", "Emotional Anorexia", "Sugie-Fran 50yr" verbatim + HTML lock context; [[wiki/people/lex]] with "Chaos Month", immediate switch, orchestrated hookup details from profile; [[wiki/mind/synthesis/ai-collaborative-analysis]] with !COMMANDS / #OBAMA / LLM Genesis / profile lock mechanics; [[wiki/mind/concepts/attachment-model]] or conflict-architecture with Loop Map / Betty / Existential Outsourcing; [[wiki/timeline/periods/2025-collapse]] with Feb 22 exact + Sugie constraint.
+- Recommend: update [[wiki/people/annie]] with new "List Defense", "Emotional Anorexia", "Sugie-Fran 50yr" verbatim + HTML lock context; [[wiki/people/alexis-armel]] with "Chaos Month", immediate switch, orchestrated hookup details from profile; [[wiki/mind/synthesis/ai-collaborative-analysis]] with !COMMANDS / #OBAMA / LLM Genesis / profile lock mechanics; [[wiki/mind/concepts/attachment-model]] or conflict-architecture with Loop Map / Betty / Existential Outsourcing; [[wiki/timeline/periods/2025-collapse]] with Feb 22 exact + Sugie constraint.
 - No contradictions flagged vs context-core (bio/timeline defer); all align. Tables/numbers first; verbatim; wikilinks; raw/ source cited.
 - People graph: Annie (core tether + Sugie), Lex/Alexis (foundational ex + chaos), Eli (Patient Zero event), Tarik (work), Fran/Sugie (generational loop), family (Coldren/Whyel/Frank per ancestry cross).
 

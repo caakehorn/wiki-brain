@@ -31,7 +31,7 @@ Full Facebook data export (79 MB, generated Sep 5 2022) for the account **ihated
 | Phones | +19175744761, +16467376955 |
 | Birthday | Nov 1, 1988 |
 | Current city / hometown | New York, NY / Uniontown, PA |
-| Relationship | With Anne Ulmer since November 28, 2015; previously Danielle Onesi, Alexis Armel |
+| Relationship | With Anne Ulmer since November 28, 2015; previously Danielle Onesi, [[wiki/people/alexis-armel|Alexis]] Armel |
 | Education | Full Sail University — Recording Arts (2010); Laurel Highlands Senior HS (2006) |
 | Work history | Au Za'atar (Apr 2021–); Nemacolin (Apr 2016–Mar 2019); caddie, Farmington PA; Creative License (2011–12, NYC); Ishlab Studio (Mar 2010–Feb 2011, Brooklyn) |
 | Politics / religion | Democratic Socialists of America (NY chapter) / Humanistic Atheism |

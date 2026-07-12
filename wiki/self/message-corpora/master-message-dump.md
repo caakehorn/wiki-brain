@@ -53,7 +53,7 @@ Top handles by volume (approximate counts; Annie dual handles dominant):
 | 9 | +13476070497 | 1,753 | Additional family/friend |
 | 10 | phloxenheim@gmail.com | 1,603 | Email contact |
 | 11 | +17249204125 | 4,812 | Frequent PA contact (heavy Johnny/Annie logistics facilitation 2018-19; "Hi b I gots a new phone") |
-| 12 | +17248808111 | ~long multi-year | Extended family/gossip thread (mom, gram, dad, Alexis, Annie, voting, CMU play refs) |
+| 12 | +17248808111 | ~long multi-year | Extended family/gossip thread (mom, gram, dad, [[wiki/people/alexis-armel|Alexis]], Annie, voting, CMU play refs) |
 | 13 | +13476070497 | 1,753 | Additional family/friend |
 | 14 | +17243223678 | 3,462 | Johnny (dealer) |
 
