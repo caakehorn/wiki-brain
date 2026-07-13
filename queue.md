@@ -56,3 +56,4 @@ frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-
 - [ ] MED: timeline events that deserve articles: 2015 Combos arrest done; candidates from calendar — Fran deathwatch (2018), freezer phone, J6 watching, Feb 2025 return drive
 - [ ] LOW: work/tech: Bunker Core page, MAX interview system page (CATO §PROJECTS has specs)
 - [ ] LOW: dedupe `related:` lists created by the 2026-07-13 link rewrite (some pages now link forensic-method twice)
+- [ ] MED: "Target G" — the Jan 2026 Suzy-call/blackout male from Gemini-_07 (>95% probability match, distinct from Eli) has no wiki page or coverage in annie-ulmer/eli-incident; ingest the Target G architecture properly

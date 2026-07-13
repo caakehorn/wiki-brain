@@ -87,11 +87,13 @@ smooth away the signal.
 
 ## Domain applications
 
-**Relational.** The Eli-affair forensics (Gemini-_07) are the exemplar:
+**Relational.** The terminal-phase forensics (Gemini-_07) are the exemplar:
 iterative "clean cut" reports with vector isolation to keep suspicion targets
-from cross-contaminating, a game-theoretic model of Annie's ten-day blackout
-after the "Suzy" call as a Grim Trigger (a partner calculating that detection
-cost had become existential), suspect probability matrices, and explicit
+from cross-contaminating — the Eli/WhatsApp channel severed as "unrelated
+noise" from the "Target G" architecture (the January 4, 2026 "Suzy" call and
+the ten-day blackout it triggered), the blackout modeled game-theoretically
+as a Grim Trigger (a party calculating that detection cost had become
+existential), suspect probability matrices (Target G >95%), and explicit
 falsifiability tests. The framing was actuarial — "the banal physics of
 people who stopped caring enough to be careful" — applied to his own life.
 

@@ -61,7 +61,7 @@ first relationship to fully activate his attachment system. Met through
 [[wiki/people/alexis-armel|Alexis]]; Annie left her prior partner within 24
 hours. Cohabited ~8 years (155 Virginia Ave, then NYC); she ended
 cohabitation unilaterally on the Feb 2025 PA return, citing grandmother
-care. Concealed affair with coworker Eli from ~Aug 2024 through the June 1,
+care. Concealed affair with NYC coworker Eli from sometime in 2024 until the Feb 2025 NYC departure; left Dan for Tuquick, the counterpart of the June 1,
 2026 group-chat closure, sustained by two written denials, disabled
 location sharing, and systematic dismissal of Dan's suspicions as paranoia.
 Defamation campaign (false rape and abuse allegations) confirmed by third
@@ -197,7 +197,7 @@ No legal exposure for Dan; recorded for completeness.
 | 2016 | Moves into 155 Virginia Ave |
 | ~2018 | Cohabitation non-monogamy experiment |
 | 2021–2024 | Valeria era (Dan's singular concealed breach; stasis holds) |
-| 2024-08 | Eli affair begins or surfaces; confrontation met with violence |
+| 2024-08 | Eli affair (NYC) surfaces; runs until the Feb 2025 NYC exit; confrontation met with violence |
 | 2025-02 | PA return; Annie unilaterally ends cohabitation |
 | 2025-08 | Removes location sharing after night at ex's residence |
 | 2025-10-26 | DUI citation, Fayette County |
