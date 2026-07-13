@@ -42,6 +42,7 @@ related:
   - wiki/timeline/events/eli-incident
   - wiki/timeline/events/end-fight
   - wiki/timeline/events/march-2026-terminal-phase
+  - wiki/timeline/events/april-may-2026-final-weeks
   - wiki/timeline/events/group-chat-closure
   - wiki/timeline/periods/dec-2025-spike
   - wiki/timeline/periods/2015-2016-annie-relationship-start
@@ -417,6 +418,9 @@ recorded for completeness.
 | 2025-12 | Reinvestment spike — 4,657 messages, corpus peak |
 | 2026-01-04/20 | Target G: "Suzy" call, Whisk psyop (shown only to Annie), 10-day blackout |
 | 2026-03-01 – 03-16 | Terminal peak: laundry response, bathroom incident, "YES DAN" confession + Mar 16 retraction ([[wiki/timeline/events/march-2026-terminal-phase]]) |
+| 2026-04-01 | Unresolved third-party contact: a man calls Suz twice overnight looking for Annie |
+| 2026-04-20/26 | Brief reinvestment window (Annie out-messages Dan for the only time in the extended record) |
+| 2026-05-04/06 | Worst-content week of the full record: sustained explicit suicidal language, GPS shown shared with a third party, Annie starts a new job, Dan self-periodizes the relationship ([[wiki/timeline/events/april-may-2026-final-weeks]]) |
 | 2026-06-01 | Group-chat closure: Tuquick relationship + defamation campaign confirmed; "sic semper lupanis" |
 | 2026-06-05 | Final message — unprompted apology: "Daniel, i just want to say that i am extremely sorry." |
 | 2026-06-15 | Tuquick defects; independent validation ("compulsive liar") |
