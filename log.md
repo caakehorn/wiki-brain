@@ -64,3 +64,9 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - valeria-iglesias-cid rewritten from primary corpus: hostess at Au Za'atar; winter 2021–22 affair; Concepción departure; 300-account brute-force search; contact alive to Jul 2025 (REVISED the earlier 2021–22-only window); Feb 15 2026 audit as closure.
 - au-zaatar enriched (de facto manager era, "WAS HE HIGH?" review, Thanksgiving 2023 near-firing, Sergio mediation transcript, factions, red apron→white Uniqlo) + CORRECTED: Annie's zero-notice firing was at a DIFFERENT restaurant, not Au Za'atar.
 - NEW wiki/mind/concepts/institutional-out.md — the always-installed absence mechanism (migraine protocol, night class), from Dan's verbatim self-statement.
+
+## [2026-07-13] ingest | people+work | AZ STORYTIME Part 1 + Kristin Chimera genesis addendum
+- New raw: raw/self/dansynth/StorytimeAuZaatarAnalysis.md; raw/people/kristin/chimera-genesis-addendum.md.
+- au-zaatar: founding section (interview charm, equal tip split, nightly shed build, opener slot / never closed once, owners' surveillance apartment, winter OUTDOOR-OUTDOOR service, caddie-style serving, Uniqlo Oxford). Annie correction refined: hostess at the ORIGINAL East Village AZ (Dan got her the job ~Apr 2021); fired zero-notice from there.
+- Ismaila gap RESOLVED: Ismaila Barry = "DJ" — new people page; dimitri + felipe promoted from contacts/ with full identities.
+- kristin.md: girlfriend-era genesis section (LONELY LOSER/ENIGMA nicknames, the rules, Danny as foundational myth, purity tests, trauma-bond 80% model, failure-state-is-success finding).

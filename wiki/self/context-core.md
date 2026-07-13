@@ -109,7 +109,7 @@ Pivot words `actually` / `honestly` / `literally` mark the turn from cynical obs
 | Vanessa (sister) | Vail, ski school; minimal presence | Low |
 | [[wiki/people/fran-coldren]] (great-grandmother) | d. April 2018 age ~97–98; self-described biggest life influence; dirt-poor WV → coal-baron marriage; gifted the Numark NS7; seven-day deathwatch with Annie | High |
 
-Lower-resolution contacts with known gaps: Ismaila, Chris James.
+Lower-resolution contacts with known gaps: Chris James. (The former "Ismaila" gap is resolved: Ismaila Barry = "DJ" of Au Za'atar — [[wiki/people/ismaila-barry]].)
 
 > **CONTRADICTION:** Fran Whyel's 2018 death vs. a potential oral-history conflict on age/year remains unresolved — check against ancestry sources.
 

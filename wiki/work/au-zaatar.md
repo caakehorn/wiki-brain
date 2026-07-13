@@ -6,6 +6,7 @@ status: closed
 date_created: 2026-07-13
 date_modified: 2026-07-13
 sources:
+  - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/TheWaitersVisibleHigh.md
   - raw/self/dansynth/AuZaatarsFinalShift.md
   - raw/self/dansynth/FromSidewalkShedtoAnalyticalProwess.md
@@ -43,6 +44,34 @@ eventually made himself the "Outside Guy": sole custodian of the dying
 shed section and its cash tips. The job ended in August 2024 when the
 city-mandated shed tear-down erased the territory.
 
+## The founding (Part 1 of the STORYTIME)
+
+Early 2021: two years into NYC round two, "the money just ran out," and Dan
+— wanting to keep funding the daily Dominican supply line — charmed owner
+Tarik at the interview for the brand-new Midtown location (twenty blocks
+south of the 307 E 76th apartment) and started the next day, no
+food-service history, straight into the equal FOH tip split. The owners'
+style set the whole culture: Tarik and Ghassan rented an apartment above
+the restaurant for no purpose but constant surveillance, micromanaged
+trivia while never working, and churned through staff so fast that Dan —
+"REAL good at the beginning of a job I like" — became the protocol-keeper
+by default (he was also, he notes, the only white FOH employee, which with
+the owners' prejudices cut in his favor). The shed had to be torn down and
+rebuilt nightly (2–3 hours of build), which gave Dan his permanent slot:
+sleep to 1pm, build 2–5, serve the early hours, first cut at 9–10pm —
+**he never closed once in 41 months**. A month in, he got
+[[wiki/people/annie-ulmer|Annie]] hired as hostess at the *original East
+Village location*. Winter service meant an apron over a ski jacket,
+carrying the tableside shawarma rotisserie across an icy sidewalk to
+"OUTDOOR-OUTDOOR" tables while reservation-holders queued freezing. The
+promotion to server came when [[wiki/people/dimitri|Dimitri]] insisted:
+during one of the mass-quit exoduses Dan rode his Boosted Board to the 5th
+Ave Uniqlo, bought a white Oxford, and started waiting tables in
+golf-caddie mode — the customer's advocate against the house ("hey, drop
+your beer bottle after you pour it and I'll say I did it and get you a
+free one") — which is "frowned upon in food service in a way that it is
+not as a golf caddie," and which made him the regulars' favorite.
+
 ## The ecosystem
 
 The staff-side economy ran on mutual suspicion. Employees held a settled
@@ -50,8 +79,16 @@ The staff-side economy ran on mutual suspicion. Employees held a settled
 and Dan ran what he called a "decentralized audit" — pocketing cash tips —
 as self-help against it. The core alliance was the **Triad**: Dimitri, the
 Greek manager-"oracle" who navigated the owners' moods (and "chose the
-flooded basement over a quiet life"), DJ, the Senegalese server who carried
-the floor, and Dan supplying the analysis. Around them, the documented
+flooded basement over a quiet life") — "the only boss or manager or
+supervisor who i have ever actually really loved"; **DJ — Ismaila Barry**,
+the Senegalese busser-turned-server Dan calls one of his best friends
+("smart and curious and funny"); and Dan supplying the analysis. The BOH
+bond had a specific genesis: Dan describes shedding an admitted prejudice
+about Mexicans by offering bumps to the cooks and bringing in (stolen)
+Takis — "turns out i fucking LOVE mexicans" — friendships he reports
+keeping to this day. Felipe, his "unbelievably gay Colombian bff," joined
+as a server (shattering the old glass door with a table leg on day one),
+and Suz visited for Dan's birthday to a comped full menu. Around them, the documented
 cast: **Sergio**, a 53-year-old Miami service veteran whose war with Dan
 over the word "dude" escalated into a "nonsense meeting" with Tarik and
 Ghassan conducted in tooth-loss analogies; a **Tunisian zoomer manager**
@@ -95,8 +132,9 @@ criticism."
 
 In a turn Dan flags as "truly weird," [[wiki/people/annie-ulmer|Annie]] —
 "prim and proper... reliability IS her strong suit and is my antithesis" —
-was fired from her own hosting job **at a different restaurant** with no
-notice and no reason, while Dan held onto his job even longer. The "Night
+was fired with no notice and no reason from her hostess job at Au Za'atar's
+**original East Village location** (a job Dan had gotten her a month after
+his own start), while Dan held onto the Midtown job even longer. The "Night
 Class" alibi doubled as a shield during the
 [[wiki/people/valeria-iglesias-cid|Valeria]] breach — she was the Au
 Za'atar host-stand hostess — which the post-mortem
@@ -129,6 +167,9 @@ through Gemini and should be read as memoir, not deposition.
 > **REVISED [2026-07-13]:** DANSYNTH ingest corrected the location (Au
 > Za'atar **Midtown, 58th & 1st** — not the East Village flagship), fixed
 > the start month (March 2021), and supplied the ending (August 2024 shed
-> shutdown). Second correction, same day: **Annie did not work at Au
-> Za'atar** — her zero-notice hosting-job firing was at a different
-> restaurant; earlier wiki text conflated the two.
+> shutdown). Second correction, refined same day by the Part 1 STORYTIME:
+> Annie worked as hostess at Au Za'atar's **original East Village
+> location** — Dan got her the job a month after he started (~April 2021).
+> Her later zero-notice firing was from that separate location ("the
+> restaurants ran totally differently and with different people"), not
+> from the Midtown shed.
