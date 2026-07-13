@@ -1,156 +1,127 @@
 ---
 domain: self
 page_type: summary
+title: "Self Overview"
 status: active
+importance: critical
 date_created: 2026-06-22
-date_modified: 2026-07-11
-sources: [
-  "raw/self/dox-scan/Dan Profile.txt",
-  "raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx",
-  "raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt",
-  "raw/self/dox-scan/ANALYSIS_ SOCIAL DEVIANCES.rtf",
-  "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md",
-  "raw/self/dox-md/LIFE REPORT.md",
-  "raw/self/dox-md/operating_manual.md",
-  "raw/self/dox-md/FULL PROFILE 2026.md",
-  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv",
-  "raw/self/facebook/facebook-ihatedanfrank/",
-  "raw/self/gemini-activity/Gemini Activity.html"
-]
-related: [
-  "wiki/self/context-core",
-  "wiki/mind/concepts/phenomenology-lens",
-  "wiki/mind/concepts/contact-gini",
-  "wiki/mind/concepts/attachment-model",
-  "wiki/mind/concepts/conflict-architecture",
-  "wiki/self/message-corpora/master-message-dump",
-  "wiki/self/ancestry",
-  "wiki/self/location-history",
-  "wiki/self/youtube-watch-history",
-  "wiki/self/twitter"
-]
+date_modified: 2026-07-13
+sources:
+  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
+  - raw/self/dox-md/operating_manual.md
+  - raw/self/dox-md/FULL PROFILE 2026.md
+  - raw/self/dox-scan/Dan Profile.txt
+  - raw/self/facebook/facebook-ihatedanfrank/
+related:
+  - wiki/self/context-core
+  - wiki/mind/profile/index
+  - wiki/self/ancestry
+  - wiki/people/annie-ulmer
+  - wiki/people/suzanne-frank
+  - wiki/interests/music/overview
+  - wiki/timeline/index
 ---
 
 # Self Overview
 
-The high-level self-model. All core behavioral facts defer to
-[[wiki/self/context-core]] (the authoritative spine); the interpretive
-framework (Recursive Symbolic Architect, Si-Ghost Kernel, defense engines)
-lives at [[wiki/mind/concepts/phenomenology-lens]] and should be used
-deliberately rather than as default ground truth.
-
----
+Daniel Gillingham Frank — Dan — was born November 1, 1988 in Uniontown,
+Fayette County, Pennsylvania, and at 37 he is living back in his childhood
+home at 337 Saratoga Drive while his mother sells it out from under him. He
+is a music producer (currently under the MOGZART and GRIPNOTIC aliases), a
+self-taught AI-systems builder, a democratic socialist, an atheist of Jewish
+paternal descent, self-identified autistic, fifteen-plus years opioid-stable
+on daily Suboxone, and the subject and author of one of the more complete
+self-documentation projects a private person has ever run — of which this
+wiki is the current instrument. The defining event of his adult life, the
+decade-long relationship with [[wiki/people/annie-ulmer|Annie Ulmer]],
+closed involuntarily on June 1, 2026; the mid-2026 present tense is
+aftermath: housing in transition, work in transition, music reactivated.
 
 ## LLM Quick Brief
 
-**For context injection:** Daniel A. Frank ("Dan"), born November 1, 1988, Uniontown PA. Age 37. Recursive Symbolic Architect, music producer (GRIPNOTIC), and AI/agent workflow developer. INTP 5w4 sx/sp (Ti-Ne-Si-Fe), high impulsiveness, low sociability/trust. Democratic socialist with maternal roots in WV/PA and paternal Eastern European Jewish ancestry. Abstinent from alcohol (15+ years), utilizes Suboxone daily since Feb 17, 2010. Formative nodes: parental rupture (2004-05), [[wiki/people/alexis-armel|Alexis]] relationship collapse (2009-15), Annie relationship (2015-2026) terminating after the Eli incident (discovered Jan 2025, closed June 1, 2026). Housing is currently in transition due to the sale of 337 Saratoga Drive. Works in AI systems/consulting following termination from BFS (2026). Sincere output channeled through sub-bass-heavy electronic music.
+**For context injection:** Daniel Gillingham Frank ("Dan"), b. Nov 1 1988,
+Uniontown PA; age 37. Music producer (SLOPPP→MOGZART→GRIPNOTIC; MOGZART
+revived 2026) and AI/agent-pipeline builder. Democratic socialist, atheist
+(raised Presbyterian), paternal-line Jewish, self-identified autistic. INTP
+5w4 sx/sp; Big30 extremes Intellect 95/Impulsiveness 96 vs Sociability
+3/Trust 9 ([[wiki/mind/profile/index]]). Suboxone daily since Feb 17 2010,
+zero relapse; no alcohol 13–15 yrs. Life hinges: parental rupture Nov 2005;
+Full Sail 2008–10; Alexis 2009–15; Annie Thanksgiving 2015–June 1 2026
+(closed after the Eli affair, discovered Jan 2025 — the gaslighting
+outweighed the affair); 2015 retail-theft arrest resolved via ARD
+([[wiki/legal/2015-retail-theft-arrest]]); BFS termination 2026
+([[wiki/work/bfs-foods]]); 337 Saratoga being sold, landing at 463
+Morgantown unresolved ([[wiki/legal/463-morgantown]]). Music is the one
+sincere output channel. All facts defer to [[wiki/self/context-core]] and
+the 181k-row message corpus.
 
----
+## The arc
 
-## Identity
+**Uniontown origin (1988–2008).** A Republican, talk-radio household; ski
+identity at Seven Springs; 12 Bryer Ave then the family-built 337 Saratoga
+Drive. The hinge is November 2005, age 17: his father entered rehab for
+cocaine, his mother's affair with the dealer surfaced, and the marriage
+ended — the template ("a trusted figure maintaining a concealed alternate
+reality") that the psychological record traces through everything after
+([[wiki/people/rick-frank]], [[wiki/people/suzanne-frank]]).
 
-Daniel A. Frank (Dan Frank), born November 1, 1988, in Uniontown,
-Pennsylvania — age 37. Autistic (self-identified), Jewish heritage,
-democratic socialist, alcohol-abstinent for over fifteen years. He treats
-life as a self-engineering project: introspection, logic, and taboo
-exploration used to impose order on internal chaos and to create meaning
-from collapse. The self-descriptive title is "Recursive Symbolic Architect."
+**Full Sail and the chemical pivot (2008–2010).** Recording Arts at Full
+Sail (Winter Park FL), top 5% of his class, Pro Tools HD certified. The same
+window contains the opiate arc's beginning and stabilization: five months
+from first opiate to addiction in 2007, then Suboxone day-zero on February
+17, 2010 — daily ever since, zero relapses, framed not as recovery but as
+engineered architecture ([[wiki/self/context-core]]).
 
-Typology across the psychometric sources is consistent: INTP (dominant Ti,
-secondary Ne, tertiary Si, inferior Fe), Enneagram 5w4 sx/sp, with
-Attitudinal Psyche readings of FLEV ("Alchemist") and VLEF ("Inquisitor").
-Three core unconscious axioms recur across the analyses: "If I am not
-exceptional, I am worthless"; "If I am not vigilant, I will be annihilated";
-"Love that doesn't cost everything isn't real." The personal myth: a wounded
-genius fighting a stupid world, creating gods from wounds.
+**NYC I and the return (2010–2019).** Brooklyn then Manhattan, studio-work
+era, the Twitter voice forming. Back in Uniontown from May 2013: the
+production aliases develop (SLOPPP 2013–15, MOGZART 2014–16 —
+[[wiki/interests/music/overview]]), Alexis ends, and **Annie begins
+Thanksgiving 2015**, four weeks after the retail-theft arrest that ended in
+ARD and expungement ([[wiki/legal/2015-retail-theft-arrest]]). Then the
+hard years: 2017 poverty floor (water shut off, free DJing, camming), 2018
+deep cycle (peak chaos, ~40k messages/year).
 
-## Measured profile
+**NYC II (2019–2025).** 307 E 76th St. Hard-left politicization in 2019
+(Bernie + Chapo); the 2020–21 market era
+([[wiki/timeline/periods/2020-2021-market-era]]); the 41-month Au Za'atar
+restaurant job ([[wiki/work/au-zaatar]]); the Eli affair through autumn
+2024, discovered January 2025 ([[wiki/timeline/events/eli-incident]]).
 
-| Measure | Value |
-|---------|-------|
-| Big30 — Impulsiveness | 96th percentile |
-| Big30 — Intellect | 95th percentile |
-| Big30 — Liberalism | 91st percentile |
-| Big30 — Self-Consciousness | 91st percentile |
-| Big30 — Introspection | 87th percentile |
-| Big30 — Altruism | 1st percentile |
-| Big30 — Sociability | 3rd percentile |
-| Big30 — Assertiveness | 5th percentile |
-| Big30 — Modesty | 5th percentile |
-| Cognitive functions | Ti 95–96%, Ne 80–84%, Si 50–57%, Fe ~10% |
-| Contact Gini | 0.961 — social redundancy statistically absent |
+**Aftermath (Feb 2025–present).** Return to Uniontown, February 22, 2025.
+The Annie terminal phase ran to the June 1, 2026 group-chat closure. The
+2026 record: BFS Foods job and termination over the drawer dispute
+([[wiki/work/bfs-foods]]), the 337 Saratoga sale with the unresolved 463
+Morgantown landing ([[wiki/legal/463-morgantown]]), heavy AI/agent work,
+and the MOGZART revival — the March 2026 DnB remixes are the first shipped
+music of the new era.
 
-The corpus behind these numbers is large: 184k+ message rows in the master
-dump, 1,104 life events extracted from 175k+ iMessages (2015–2026), roughly
-650 Facebook friends against a deep-thread concentration on a handful of
-people. Detail lives in [[wiki/self/message-corpora/master-message-dump]].
+## The architecture
+
+The psychological profile is measured to an unusual depth and lives in its
+own cluster: [[wiki/mind/profile/index]] (INTP function stack, Enneagram
+5w4 sx/sp, Big30 extremes, deviance audit, linguistic fingerprint). The
+operating summary: a forensic, system-building mind that treats every
+domain — relationships, politics, work, its own history — as evidence to be
+audited ([[wiki/mind/concepts/forensic-method]]); trust extended laterally
+and almost never vertically
+([[wiki/mind/synthesis/vertical-authority-skepticism]]); relational load
+concentrated to a single node at a time
+([[wiki/mind/concepts/contact-gini]]); and music as the one channel the
+forensic mode does not enter. Chemical stack, voice fingerprint, social
+graph, and residence timeline are maintained authoritatively at
+[[wiki/self/context-core]].
 
 ## Heritage
 
-The paternal line is Eastern European Jewish: great-grandfather David J.
-Frank (b. 1892, Russia) and great-grandmother Sadie Harris (b. 1900,
-Austria), through grandfather Morley Jay Frank (1927 Brownsville PA – 1998
-Hopwood PA), to father Rick. The maternal line runs through great-grandmother
-Fran Whyel (1920 Fort Martin WV – 2018 Uniontown PA). Both lines concentrate
-heavily in Fayette County, Pennsylvania — Uniontown, Brownsville, Hopwood —
-with West Virginia roots on the maternal side. Father Episcopalian, mother
-Presbyterian. Full DNA reports and the family tree are synthesized at
-[[wiki/self/ancestry]] and [[wiki/self/ancestry]].
+Paternal line Eastern European Jewish — David J. Frank (b. 1892, Russia) and
+Sadie Harris (b. 1900, Austria) through Morley Jay Frank to Rick — heritage
+documented as load-bearing to his politics. Maternal line WV/PA through
+great-grandmother Fran Whyel (1920–2018), his self-described biggest life
+influence and the source of the Numark NS7 that seeded the production
+identity. Both lines concentrate in Fayette County. Full genealogy and DNA:
+[[wiki/self/ancestry]].
 
-## Formative history
-
-- **Parental rupture (~2004–2005).** Father entered rehab for cocaine
-  addiction; mother's affair with the dealer surfaced, ending the marriage.
-  Father later survived stage-4 throat cancer. The analyses treat this as
-  the origin of the encoded belief that intimacy leads to abandonment.
-  Detail: [[wiki/people/rick-frank]], [[wiki/people/suzanne-frank]].
-- **Alexis collapse (2009–2015).** A six-year relationship ended in
-  financial collapse following a move to New York.
-- **Annie decade (2015–2025).** The dominant relationship of the corpus —
-  over 48k messages across dual handles. Genesis at a golf course in 2015;
-  ends through the Eli incident (below). See [[wiki/people/annie-ulmer]] and
-  [[wiki/mind/synthesis/attachment-trauma-bond]].
-- **Eli incident (late 2024 / early 2025).** Found Annie unconscious with a
-  coworker ~80 minutes after her shift, location sharing disabled;
-  confrontation was met with violence. Corrective sources establish the
-  affair was sustained through autumn 2024 while Annie framed Dan's
-  suspicions as paranoia. See [[wiki/timeline/events/eli-incident]] and the
-  corrective addendum in sources.
-
-## Chemical architecture
-
-A deliberately engineered, identity-integrated system — the sources are
-explicit that Dan does not frame this as pathology: Suboxone as daily
-stabilizer since February 17, 2010 (day-zero confirmed in
-[[wiki/self/context-core]]); cocaine as a strategic cognitive accelerator;
-nicotine as ritual regulator. He rejects the recovery-industry frame
-entirely.
-
-## Psychosexual and social profile
-
-Sex functions as a recursive meaning-making engine — boundary testing,
-orchestration and voyeuristic engineering of scenarios, taboo as ontological
-rupture; high intensity within relationships, low partner count, with
-experiments succeeding under control and failing on unscripted violation.
-Socially and linguistically he is an extreme outlier (90+/100 on most
-measured axes): hyper-recursive metacognition, radical authenticity,
-rejection of algorithmic "midness," and a register mixing academic jargon
-with dirtbag-left slang.
-
-## Signatures and channels
-
-- **Music:** an involuntary sub-bass signature (63–85% presence) across all
-  four production aliases and 13 years — [[wiki/interests/music/concepts/sub-bass-signature]].
-- **Twitter/X (@danfrank):** "insufferable politics sicko" persona; AI
-  tooling experiments and music promotion — [[wiki/self/twitter]].
-- **YouTube:** 17k+ watched videos 2007–2025, dominated by political
-  news/podcast content — [[wiki/self/youtube-watch-history]].
-- **Location:** 6,227 logged visits 2014–2024 split PA 3,815 / NYC 2,301;
-  home bases 307 E 76th St NYC and Uniontown (337 Saratoga Dr, 155 Virginia
-  Ave) — [[wiki/self/location-history]].
-
-## Key periods
-
-- [[wiki/timeline/periods/2015-2016-annie-relationship-start]]
-- [[wiki/timeline/periods/2021-2023-employment-block]]
-- [[wiki/timeline/periods/dec-2025-spike]]
+**Gaps:** the 2021–2022 corpus near-silence remains uncharacterized; where
+he lives after the 337 sale closes is unresolved; no sustained non-crisis
+baseline register exists anywhere in the record.
