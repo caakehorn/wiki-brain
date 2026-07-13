@@ -11,6 +11,7 @@ WIKI = os.path.join(ROOT, "wiki")
 VALID_STATUS = {"active", "stable", "stub", "closed", "archived"}
 VALID_DOMAIN = {"self", "timeline", "people", "mind", "work", "interests", "health", "places", "legal"}
 VALID_TYPE = {"entity", "event", "concept", "period", "summary", "synthesis", "profile", "report", "chat", "note", "index"}
+VALID_KNOWLEDGE = {"earned", "derived", "mixed"}
 PAGE_BUDGET = 8 * 1024
 INDEX_BUDGET = 8 * 1024
 MASTER_INDEX_BUDGET = 5 * 1024
@@ -72,6 +73,9 @@ for p in scan:
         pt = fm.get("page_type", "")
         if pt not in VALID_TYPE:
             errors.append(f"{r}: invalid page_type '{pt}'")
+        kn = fm.get("knowledge")
+        if kn is not None and kn not in VALID_KNOWLEDGE:
+            errors.append(f"{r}: invalid knowledge '{kn}'")
 
         # sources must exist on disk
         for src in re.findall(r'"(raw/[^"]+)"', fm.get("sources", "")):

@@ -10,6 +10,33 @@ Its raw archive, compiled pages, and pending inbox were migrated here on
 2026-07-11 — treat that directory as read-only reference; nothing new
 should be filed there.
 
+## Why this is a second brain, not a RAG
+
+A retrieval system keeps the sources and re-derives every answer from them on
+demand; it never learns, and yesterday's reasoning is thrown away. This wiki is
+the opposite. You read a source **once**, reason out what it *means*, and write
+that understanding into `wiki/`. From then on you reason **from** the wiki, not
+from `raw/`. Knowledge compounds: today's synthesized conclusion is tomorrow's
+premise, and the wiki grows to reflect what has actually been read and
+understood — a record of a shared journey through the data, not an index of it.
+
+This has a hard consequence: the wiki is **not** a disposable cache of `raw/`.
+Two kinds of content live here.
+
+- **Derived** content — message counts, discographies reconstructed from
+  slugs, anything mechanical — is safely regenerable from `raw/`.
+- **Earned** content — a thesis, a psychological read, a conclusion cross-
+  referenced from many sources ("the gaslighting outweighed the affair") — is
+  the product of reasoning done once. `raw/` does not contain it literally, and
+  re-running the pipeline may not reproduce it. This is the actual point of the
+  system.
+
+So **never regenerate an earned page from scratch — revise it.** Trust the
+synthesis already on disk and build on it; when new raw contradicts it, apply
+the contradiction/revision rules (flag and correct), you do not bulldoze it and
+re-derive from zero. Pages may declare which kind they are with an optional
+`knowledge: earned | derived | mixed` frontmatter field (see STYLE_GUIDE.md).
+
 ## LLM Handoff & Coordination
 **CRITICAL:** At the start of every session or turn, you MUST read `LLM_HANDOFF.md` in the root directory to understand the current project state, recent changes, and immediate priorities. When you end your session, you MUST update `LLM_HANDOFF.md` by logging what you accomplished and setting the focus for the next model. This ensures seamless continuity across different models and sessions.
 
@@ -27,8 +54,10 @@ uploaded    source      knowledge
   a file in both inbox/ and raw/.
 - **raw/** — immutable source archive, organized `raw/<domain>/<collection>/`.
   Never modify or delete anything here except when filing from inbox/.
-- **wiki/** — the compiled product, all regenerable from raw/. You own every
-  byte. Domains: `self` (identity, core facts, digital footprint), `timeline`
+- **wiki/** — the compiled product: accumulated understanding, not a cache of
+  raw/ (see the second-brain principle above — earned pages are not
+  regenerable). You own every byte. Domains: `self` (identity, core facts,
+  digital footprint), `timeline`
   (periods & events), `people` (+ `people/contacts/` quarantine: auto-generated
   stubs, never linked from prose), `mind` (beliefs, ideology, psychology,
   values), `work`, `interests` (music production, favorites, taste),
@@ -76,7 +105,11 @@ track progress in queue.md rather than half-finishing silently.
 
 ### QUERY
 Start at index.md, follow domain indexes, answer with citations to wiki
-pages. If the synthesis is new and durable, save it as a page.
+pages. Reason **from** the wiki first; only re-open `raw/` when the wiki is
+silent on the question or a source is newer than the page that used it —
+otherwise you are re-doing settled work. If the synthesis is new and durable,
+save it as a page: that is how the brain grows, and it is what keeps the next
+answer from re-deriving this one.
 
 ### LINT (periodic)
 Sweep for: broken links, orphan pages, contradictions between pages, claims

@@ -1,11 +1,12 @@
 ---
 domain: mind
 page_type: synthesis
+knowledge: earned
 title: "Political Psyops & Hybrid Events"
 tags: [politics, J6, forensics, skepticism]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-13
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
