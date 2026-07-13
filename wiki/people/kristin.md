@@ -81,7 +81,7 @@ The relationship did not fade; it collapsed over four days into a hostile blocka
 
 ## Domain: Legal
 
-The terminal exchange produced an explicit but uncharged threat surface on both sides: Dan's stated intent to compromise her Wi-Fi and Kristin's report threat via IC3 and the IPR Center, plus her claim that an officer would make contact. No charges are documented. Recorded for completeness alongside the [[wiki/timeline/events/drawer-dispute]] and BFS material from the same window.
+The terminal exchange produced an explicit but uncharged threat surface on both sides: Dan's stated intent to compromise her Wi-Fi and Kristin's report threat via IC3 and the IPR Center, plus her claim that an officer would make contact. No charges are documented. Recorded for completeness alongside the [[wiki/work/bfs-foods]] and BFS material from the same window.
 
 ## Timeline
 

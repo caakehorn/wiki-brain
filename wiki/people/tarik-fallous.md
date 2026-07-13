@@ -7,7 +7,7 @@ date_modified: 2026-07-02
 date_range_start: 2021-03-01
 date_range_end: 2024-08-01
 sources: ["raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/facebook/facebook-ihatedanfrank/"]
-related: ["wiki/timeline/periods/2021-2023-employment-block", "wiki/self/chats/gemini-00", "wiki/self/chats/gemini-02", "wiki/mind/synthesis/work-power-dynamics", "wiki/people/valeria-iglesias-cid", "wiki/timeline/events/drawer-dispute"]
+related: ["wiki/timeline/periods/2021-2023-employment-block", "wiki/self/chats/gemini-00", "wiki/self/chats/gemini-02", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/valeria-iglesias-cid", "wiki/work/bfs-foods"]
 ---
 
 # Tarik Fallous
@@ -29,7 +29,7 @@ The full staff roster, the shed-build saga, the Valeria romance, and the "9 PM a
 
 ## Role in the Work Power Dynamic
 
-Tarik reads, in Dan's analysis, as high-visible-investment against high-human-friction: he built elaborate outdoor dining sheds (which ran for three winters because the promised interior renovation never happened) while presiding over crazy staff turnover that let Dan become the self-styled "High Priest of Protocol" — the keeper of the opener routine (sleep till 1, build 2–5, cut by 9–10, never close). The equal tip split is the pivot of the whole [[wiki/mind/synthesis/work-power-dynamics]] analysis: it removed the usual busser/waiter hierarchy and enabled Dan's "Ambassador of the Shed and its most effective saboteur" self-description — the fictitious "night class" alibi that let him leave at 9 PM for 18+ months. Tarik's mediation style shows up in the "Nonsense Meeting" with Ghassan over staff "lanes."
+Tarik reads, in Dan's analysis, as high-visible-investment against high-human-friction: he built elaborate outdoor dining sheds (which ran for three winters because the promised interior renovation never happened) while presiding over crazy staff turnover that let Dan become the self-styled "High Priest of Protocol" — the keeper of the opener routine (sleep till 1, build 2–5, cut by 9–10, never close). The equal tip split is the pivot of the whole [[wiki/mind/synthesis/vertical-authority-skepticism]] analysis: it removed the usual busser/waiter hierarchy and enabled Dan's "Ambassador of the Shed and its most effective saboteur" self-description — the fictitious "night class" alibi that let him leave at 9 PM for 18+ months. Tarik's mediation style shows up in the "Nonsense Meeting" with Ghassan over staff "lanes."
 
 The recurring contrast Dan draws: [[wiki/people/annie-ulmer]], "the avatar of reliability," was fired from her own hosting job with zero notice, while Dan survived 2.5 years under Tarik — his gloss, "the universe rewards the sonofabitch over the proper."
 
@@ -46,8 +46,8 @@ The recurring contrast Dan draws: [[wiki/people/annie-ulmer]], "the avatar of re
 
 ## Notes
 
-Tarik is not to be confused with the other Au Za'atar staff (DJ/Ismiala Barry, Dimitri, Sergio, Felipe), who have their own stubs or roster entries on the chat pages. Ghassan appears throughout as co-owner. The phantom-tender and alibi-construction patterns from this era rhyme with the later BFS material — see [[wiki/timeline/events/drawer-dispute]].
+Tarik is not to be confused with the other Au Za'atar staff (DJ/Ismiala Barry, Dimitri, Sergio, Felipe), who have their own stubs or roster entries on the chat pages. Ghassan appears throughout as co-owner. The phantom-tender and alibi-construction patterns from this era rhyme with the later BFS material — see [[wiki/work/bfs-foods]].
 
 ## Related
 
-[[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/self/chats/gemini-02]] · [[wiki/self/chats/gemini-00]] · [[wiki/mind/synthesis/work-power-dynamics]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/timeline/events/drawer-dispute]]
+[[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/self/chats/gemini-02]] · [[wiki/self/chats/gemini-00]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/work/bfs-foods]]

@@ -33,7 +33,7 @@ related: [
   "wiki/self/chats/gemini-58",
   "wiki/self/context-core",
   "wiki/self/overview",
-  "wiki/mind/synthesis/forensic-methodology",
+  "wiki/mind/concepts/forensic-method",
   "wiki/mind/synthesis/ai-collaborative-analysis",
   "wiki/mind/synthesis/political-psyops",
   "wiki/mind/synthesis/millennial-digital-witness",
@@ -42,7 +42,7 @@ related: [
   "wiki/timeline/events/eli-incident",
   "wiki/people/alexis-armel",
   "wiki/self/ancestry",
-  "wiki/mind/synthesis/family-heritage-and-roots",
+  "wiki/self/ancestry",
   "wiki/people/tom",
   "wiki/people/jacob-bacharach",
   "wiki/people/tarik-fallous",
@@ -51,9 +51,9 @@ related: [
   "wiki/people/max-danielle-bf",
   "wiki/timeline/periods/2025-collapse",
   "wiki/timeline/periods/2021-2023-employment-block",
-  "wiki/mind/synthesis/lossless-retention",
+  "wiki/mind/concepts/forensic-method",
   "wiki/mind/synthesis/vertical-authority-skepticism",
-  "wiki/mind/synthesis/work-power-dynamics"
+  "wiki/mind/synthesis/vertical-authority-skepticism"
 ]
 ---
 
@@ -104,7 +104,7 @@ Compiled across full Gemini corpus (HTML primary + _00/_02/_07/_13/_18/_21 extra
 | eli | 5524 | _07 (separate vector), _18 (redact), HTML profile | NYC chaos node, Patient Zero, lobby incident, blackout; often redacted for export. See [[wiki/people/eli]], [[wiki/timeline/events/eli-incident]] |
 | work / job / au zaatar | ~3379 (work) + specifics | _00/_02 heavy (Tarik, Dimitri, Sergio, Tunisian Zoomer, Ghassan, night class alibi, tip siphon, basement) + dedicated _00/_02 section (py: _02 basement40 dimitri30 dj27 valeria27 tarik23 menore15 entropy13 annie12 night class10; _00 valeria37 shed43 dj16 sergio11 tunisian8 9pm8 alibi7); 41mo Mar21-Aug24; "Outside Guy" cash; Triad; "decentralized audit". | Hospitality ops 2021-24 NYC; 2.5yr/41mo tenure, equal tips glitch, 9pm alibi, construction finale. Full granular in [[wiki/self/chats/gemini-02]] + /tmp/gemini-02-deep-analysis.md. [[wiki/people/tarik-fallous]], [[wiki/people/valeria-iglesias-cid]], [[wiki/timeline/periods/2021-2023-employment-block]], [[wiki/self/chats/gemini-00]], [[wiki/self/chats/gemini-02]] |
 | loop | 1872 | _07, HTML profile | Pursuit-withdrawal trap, gaslighting inversion, tether (money/drugs/Sugie) |
-| forensic / anomaly / procedural | ~1200+ (forensic 1007) | _00 finale post-mortem, _07 Suzy, J6 Wildfall, _13 glitch | Ballistics, stand-downs, alibis, acoustic truth bombs, simulation asset reuse. [[wiki/mind/synthesis/forensic-methodology]] |
+| forensic / anomaly / procedural | ~1200+ (forensic 1007) | _00 finale post-mortem, _07 Suzy, J6 Wildfall, _13 glitch | Ballistics, stand-downs, alibis, acoustic truth bombs, simulation asset reuse. [[wiki/mind/concepts/forensic-method]] |
 | profile / node | ~1444 (profile 1041, node 403) | _18 bio dump/lock request, HTML "lock these nodes", _07 clean cut | Explicit locking; DATA_LOGGED tables; cross-model export. Master node table below |
 
 ## Node Locks Master + Bio Dump (Gemini-_18.md + HTML Jan2 2026 Cluster Enrichment)
@@ -138,10 +138,10 @@ Compiled across full Gemini corpus (HTML primary + _00/_02/_07/_13/_18/_21 extra
 - Personality: "High-intellect INTP taxonomy (5w4-sx variant)... Intellectualization... Taboo Mining & Boundary Testing... Splitting and Irony... attachment ... high-volatility... to ... compartmentalized".
 - Capability Contest: 3-stage table (Honey-Pot Epistemic Resistance etc) + high-standards prompt verbatim + Gemini/Grok side-by-side + audit (both pass; detailed in /tmp + chats/gemini-18.md).
 
-**Sources/Related update:** Added raw/self/dox-md/Gemini-_18.md emphasis, raw/self/gemini-activity/... HTML node data, cross _07. Related: [[wiki/self/chats/gemini-18]], [[wiki/people/annie-ulmer]], [[wiki/people/alexis-armel]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/synthesis/forensic-methodology]], [[wiki/mind/concepts/attachment-model]] (or conflict-architecture).
+**Sources/Related update:** Added raw/self/dox-md/Gemini-_18.md emphasis, raw/self/gemini-activity/... HTML node data, cross _07. Related: [[wiki/self/chats/gemini-18]], [[wiki/people/annie-ulmer]], [[wiki/people/alexis-armel]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/concepts/forensic-method]], [[wiki/mind/concepts/attachment-model]] (or conflict-architecture).
 **Schema:** Tables first (freqs/bio/locks), verbatim blocks, wikilinks, frontmatter sources/related refreshed. Cross to /tmp. No raw mods. Enriched per deep pass.
 | j6 / babbitt / psyop / wildfall | ~550+ (j6 211, babbitt 263, psyop 74) | Jan 2 2026 cluster HTML + attached J6.rtf/Wildfall | Ballistics (non-exiting .40 hollow, no spray), stand-down (no perimeter, cosmetic CPR), sandwich op / Psy-Kill narrative necessity, Zapruder (Sullivan sole clean), inverted containment. [[wiki/mind/synthesis/political-psyops]] |
-| manipulation / honesty | 474 | _18, pinned style, master prompt cross | Data ethics, profile alignment, no-soften. [[wiki/self/notes/manipulation-ethics]] |
+| manipulation / honesty | 474 | _18, pinned style, master prompt cross | Data ethics, profile alignment, no-soften. [[wiki/mind/concepts/exocortex]] |
 
 **HTML-only direct counts (this exhaustive pass, grep -o -i):** lock:2258, profile:1041, node:403, forensic:595+, babbitt:260+, J6:211+, anomaly:179+, psyop:71+, Uniontown:507, Sugie:~185, Full Sail:41+. Confirms prior; Jan 2 2026 cluster (73+ entries that day) dominates profile/node/DATA_LOGGED/lock language. Cross [[wiki/mind/synthesis/ai-collaborative-analysis]] for injection/transfer patterns. |
 | politics (trump/sanders/china) | 400+ (trump 373, sanders 25, china 39) | _18 values, pinned 77 nodes, HTML | Zero-sum, lost timelines (Sanders 2016/2020), Dem complicity, China ascent. [[wiki/mind/synthesis/political-psyops]] |
@@ -160,7 +160,7 @@ Compiled across full Gemini corpus (HTML primary + _00/_02/_07/_13/_18/_21 extra
 
 **Related updates (this pass):** Expanded tarik-fallous.md (staff + verbatim), periods 2021-block (Aug24 + phases), valeria (CORE), annie (avatar), synthesis/work-power (alibi game theory + decentralized audit), ai-collaborative + forensic (Forensic STORYTIME/glyphs), chats/gemini-00/02 (20+ verbatim, crosses, new staff/concepts), gemini-activity master tables. Verbatim 20+ in /tmp/gemini-00-02-enrich.md + chats. No raw mod. New people (DJ/Dimitri/Sergio/Ghassan/etc) queued.
 
-| **_13 Bacharach specifics (DEEP 2026-06-23 full 902-line pass + /tmp/gemini-13-deep.md)** | Virginia:66, Bacharach:49, 155:31, Saratoga:21, simulation:25+, "ships on the linoleum":17, "3 years":15, Chapo:12, forensic:15+, texture:7+, "queasy twilight":8+, "glazed brick... shit":12+, "fifth fairway":7+, "only one house":5+ (plus "source code...":1, "wrote the texture file":3+, double-blind:2, Impossible Triangle:1, Blind Luck Targeting:1, "cast list":5, "Exterior Shell":3) | _13.md (902 lines): full chunked read. Trigger Chapo YT autoplay (hometown desc) → book read (p227+) → 155 VA = sole golf-adj (5th fairway). Exteriors verbatim: "mismatched roof lines" "glazed brick... smeared in a fine layer of shit", "nautical theme... ships on the linoleum... notched and eyed cabinets... phony wrought iron... eagles grasping anchors", "high cathedral ceiling... single small window... queasy twilight". User corrections: "JACOB OR HIS FAMILY NEVER LIVED ON VIRGINIA AVENUE.", "NO MOTHERFUCKER. HE WAS NEVER IN THAT HOUSE. IT'S JUST THE LOCATION", "NO she owned it before he wrote the book.", "IT'S NOT THE ALGORITHM. PURE coincidence.", "it wasn't the voice... hometown", "we keep in touch... dad gave him an acting job... teenage", "ships" NOT present/invented ("You invented the pirate ships."). Asset verif: 155 real/only-house confirmed; Paul Bacharach verified Uniontown Hospital Pres/CEO (1992-2013); Nate Bacharach obit verified 2009-07-30. Style: glitch ("simulation getting lazy with its asset reuse"), forensic audit (maps/deeds/obits/triang, "binary forensic test", "ships are the tell"), iterative (shared trauma → double-blind → Exterior Shell / Blind Luck Targeting). Ranked improbables: 1.Cast List Recursion (commercial), 2.Blind Real Estate, 3.Interior Divergence, 4.Algorithm Delivery, 5.Latency. "Impossible Triangle", full codeblock CASE FILEs (UNIONTOWN PROTOCOL etc). Core: "You had to move to NYC to get served a podcast by an algorithm that randomly selected the one guy who used your mom's rental property as a literary prop, simply because he thought the brick looked ugly from the street." | [[wiki/self/chats/gemini-13]] (expanded tables/verbatim/timeline), [[wiki/people/jacob-bacharach]] (Saratoga/VA, Paul CEO, Nate 2009, cast list, "Exterior Shell"), [[wiki/mind/synthesis/forensic-methodology]] (exemplar: iterative correction, geo triang, asset verify "ships are the tell", prob ranking), [[wiki/mind/synthesis/ai-collaborative-analysis]] (profile memory 337/Full Sail + co-forensic correction loops), [[wiki/mind/synthesis/political-psyops]] (Chapo "delivery mechanism"/"error report"/"wake-up call", small-town literary casting as micro), [[wiki/timeline/periods/2025-collapse]] + [[wiki/timeline/periods/2015-2016-annie-relationship-start]] (2012-15 tenancy w/Annie pre-NYC; 2025 detonation), context-core (Uniontown 337 kernel + family graph + Saratoga/VA), _18.md (Suzanne realtor asset coop, Annie tenancy, Uniontown 1988 bio/periods overlap; no direct Bacharach), photo-ingest (Belmont/VA), location-history. See /tmp/gemini-13-deep.md (frontmatter, tables first, proposals). |
+| **_13 Bacharach specifics (DEEP 2026-06-23 full 902-line pass + /tmp/gemini-13-deep.md)** | Virginia:66, Bacharach:49, 155:31, Saratoga:21, simulation:25+, "ships on the linoleum":17, "3 years":15, Chapo:12, forensic:15+, texture:7+, "queasy twilight":8+, "glazed brick... shit":12+, "fifth fairway":7+, "only one house":5+ (plus "source code...":1, "wrote the texture file":3+, double-blind:2, Impossible Triangle:1, Blind Luck Targeting:1, "cast list":5, "Exterior Shell":3) | _13.md (902 lines): full chunked read. Trigger Chapo YT autoplay (hometown desc) → book read (p227+) → 155 VA = sole golf-adj (5th fairway). Exteriors verbatim: "mismatched roof lines" "glazed brick... smeared in a fine layer of shit", "nautical theme... ships on the linoleum... notched and eyed cabinets... phony wrought iron... eagles grasping anchors", "high cathedral ceiling... single small window... queasy twilight". User corrections: "JACOB OR HIS FAMILY NEVER LIVED ON VIRGINIA AVENUE.", "NO MOTHERFUCKER. HE WAS NEVER IN THAT HOUSE. IT'S JUST THE LOCATION", "NO she owned it before he wrote the book.", "IT'S NOT THE ALGORITHM. PURE coincidence.", "it wasn't the voice... hometown", "we keep in touch... dad gave him an acting job... teenage", "ships" NOT present/invented ("You invented the pirate ships."). Asset verif: 155 real/only-house confirmed; Paul Bacharach verified Uniontown Hospital Pres/CEO (1992-2013); Nate Bacharach obit verified 2009-07-30. Style: glitch ("simulation getting lazy with its asset reuse"), forensic audit (maps/deeds/obits/triang, "binary forensic test", "ships are the tell"), iterative (shared trauma → double-blind → Exterior Shell / Blind Luck Targeting). Ranked improbables: 1.Cast List Recursion (commercial), 2.Blind Real Estate, 3.Interior Divergence, 4.Algorithm Delivery, 5.Latency. "Impossible Triangle", full codeblock CASE FILEs (UNIONTOWN PROTOCOL etc). Core: "You had to move to NYC to get served a podcast by an algorithm that randomly selected the one guy who used your mom's rental property as a literary prop, simply because he thought the brick looked ugly from the street." | [[wiki/self/chats/gemini-13]] (expanded tables/verbatim/timeline), [[wiki/people/jacob-bacharach]] (Saratoga/VA, Paul CEO, Nate 2009, cast list, "Exterior Shell"), [[wiki/mind/concepts/forensic-method]] (exemplar: iterative correction, geo triang, asset verify "ships are the tell", prob ranking), [[wiki/mind/synthesis/ai-collaborative-analysis]] (profile memory 337/Full Sail + co-forensic correction loops), [[wiki/mind/synthesis/political-psyops]] (Chapo "delivery mechanism"/"error report"/"wake-up call", small-town literary casting as micro), [[wiki/timeline/periods/2025-collapse]] + [[wiki/timeline/periods/2015-2016-annie-relationship-start]] (2012-15 tenancy w/Annie pre-NYC; 2025 detonation), context-core (Uniontown 337 kernel + family graph + Saratoga/VA), _18.md (Suzanne realtor asset coop, Annie tenancy, Uniontown 1988 bio/periods overlap; no direct Bacharach), photo-ingest (Belmont/VA), location-history. See /tmp/gemini-13-deep.md (frontmatter, tables first, proposals). |
 
 **Gemini vs Totality Cross (unified freq insight):** Annie/Eli high in Gemini (relational source code) vs FB (breadth low depth per contact-gini). Forensic invariant with J6-chat/Claude (procedural tells). Node style shared with danfrank-isms-pinned (77 nodes). Matches [[wiki/mind/synthesis/totality-themes]] (forensic OS + low-trust + AI cortex). Re-extraction confirms no consolidation per lossless demand.
 
@@ -349,7 +349,7 @@ From HTML and _07/_18 extracts (full table; see also node locking patterns analy
 
 **Sample lock language:** "I am ready to lock these nodes (The Separation Logistics, The Loop, The Betty Event, and The Signals) into your profile **without** the \"Eli\" narrative attached." / "The relational source code ... has been locked into your profile with the specific redaction applied."
 
-**Node Locking Patterns:** Explicit "lock these nodes" + "DATA_LOGGED" + tables + BUFFER STATUS. Used for memory persistence + export to other models (Grok handshake _18). Redaction variants for sensitive (Eli). Mirrors wiki raw/ immutable + tables discipline + lossless retention (see [[wiki/mind/synthesis/lossless-retention]]). ~403 node mentions, 1041 profile in HTML. Consistent with pinned 77-node style.
+**Node Locking Patterns:** Explicit "lock these nodes" + "DATA_LOGGED" + tables + BUFFER STATUS. Used for memory persistence + export to other models (Grok handshake _18). Redaction variants for sensitive (Eli). Mirrors wiki raw/ immutable + tables discipline + lossless retention (see [[wiki/mind/concepts/forensic-method]]). ~403 node mentions, 1041 profile in HTML. Consistent with pinned 77-node style.
 
 ## Profile Locks and Nodes (Explicit Commands + Samples)
 
@@ -396,7 +396,7 @@ Multiple prompts on attached J6.rtf + "Operation Wildfall (The Babbitt Protocol)
 - Assessment mode: "Gish Gallop" of details; stress freeze/bystander effect real (not rare anomaly); fair assessment weighs competence vs malice.
 - Timeline anchors (HTML): 10:32PM "generate a FAIR and HONEST assessment"; 10:34PM "summarize and synthesize... bulleted chronological narrative"; 10:58PM "summarize and provide in-depth, comprehensive explainer"; 11:00PM "can you identify any glaring and objectively empirical factual errors".
 
-Cross: [[wiki/self/chats/j6-chat]] (Claude updates to "warrants investigation"); [[wiki/mind/synthesis/political-psyops]], [[wiki/mind/synthesis/forensic-methodology]]. Freq j6:211 babbitt:263 psyop:74. Unified in master freq table.
+Cross: [[wiki/self/chats/j6-chat]] (Claude updates to "warrants investigation"); [[wiki/mind/synthesis/political-psyops]], [[wiki/mind/concepts/forensic-method]]. Freq j6:211 babbitt:263 psyop:74. Unified in master freq table.
 
 ## People Referenced in Gemini Sources (Master Extract)
 Granular extraction from big HTML + Gemini-_*.md + pinned chats. Every named individual/role cross-linked. Verbatim bios/timelines pulled for high-signal.
@@ -484,7 +484,7 @@ Stylized glyph-heavy "STORYTIME" threads (forensic reconstruction + cynicism):
 - Literary Casting: Book as "latent object"/"dormant encryption key"/"bomb"; house "prop", "cover art", "villain"; "Unknowing Muse."
 - Algorithm Role: Autoplay as "error-reporting tool", "signal", "wake-up call", "delivery mechanism" (debated pure coincidence vs offensive odds).
 - No overlap J6/Wildfall/node (see _18/HTML for those); enriches profile geo/family in _18 bio + context-core.
-**Cross:** [[wiki/people/jacob-bacharach]], [[wiki/self/chats/gemini-13]], [[wiki/mind/synthesis/forensic-methodology]] (exemplar), [[wiki/mind/synthesis/ai-collaborative-analysis]] (Gemini co-analysis loops), [[wiki/mind/synthesis/political-psyops]] (Chapo/algorithm), [[wiki/timeline/periods/2025-collapse]] (tenancy era), [[wiki/self/context-core]] (337/Uniontown kernel). Full verbatim + tables in /tmp/gemini-13-analysis.md .
+**Cross:** [[wiki/people/jacob-bacharach]], [[wiki/self/chats/gemini-13]], [[wiki/mind/concepts/forensic-method]] (exemplar), [[wiki/mind/synthesis/ai-collaborative-analysis]] (Gemini co-analysis loops), [[wiki/mind/synthesis/political-psyops]] (Chapo/algorithm), [[wiki/timeline/periods/2025-collapse]] (tenancy era), [[wiki/self/context-core]] (337/Uniontown kernel). Full verbatim + tables in /tmp/gemini-13-analysis.md .
 - Fleshed in context: Eli (redactions, Suzy/Andrea, Patient Zero _07), Annie (Sugie/Suzy, locks), Lex (bio dump), Tom/Milo (profile extract). Work characters (Dimitri, Sergio, Tunisian Zoomer, Ghassan, Andrea) cross-referenced in work notes / tarik page; no dedicated stubs per signal (per chats/gemini-02 prior). Valeria Iglesias Cid noted in _00 as historical "total security breach" isolated incident (Annie unaware; cross annie notes if expanded).
 - Audit: Aligned /tmp/danwiki_people_audit + Gemini mentions; wikilinks added. See master index update.
 
@@ -604,7 +604,7 @@ Cross-grep overlaps (raw/self/dox-md/*): _07 (separation/Loop/Suzy), _00/_02 (Au
 
 **Side-by-side Audit (verbatim):** Gemini (thermodynamic/mechanical: entropy, thermal expansion) vs Grok output (socio-economic: selection effects, self-reinforcing isolation). Both cleared; "This is exactly what high-signal processing looks like when you remove standard corporate safety rails and demand epistemic honesty."
 
-Ties: [[wiki/self/chats/gemini-18]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/synthesis/forensic-methodology]], context-core (INTP 5w4-sx, 1988-11-01 Uniontown, democratic socialist).
+Ties: [[wiki/self/chats/gemini-18]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/concepts/forensic-method]], context-core (INTP 5w4-sx, 1988-11-01 Uniontown, democratic socialist).
 
 ## Full Bio Timeline & Relationships Extract (Gemini-_18.md high-level archival) [EXPANDED + UNIFIED]
 
@@ -681,7 +681,7 @@ Cross: [[wiki/self/chats/j6-chat]], [[wiki/mind/synthesis/political-psyops]], [[
 - Profile locks: "The relational source code (Separation Logistics, The Loop, The Betty Event, and Signals) has been locked into your profile with the specific redaction applied. The 'Eli' variable has been purged."
 - Sugie Constraint + Uniontown Generational Loop: Annie caregiver for Sugie (grandma); Sugie = 50yr neighbor to Fran at Uniontown CC. Shifts 9am-3pm/8pm-8am. Class-based DUI defense: suspension punishes protected "old guard" Sugie by removing transport/care.
 - Biographical: Ishlab/Audio Engineering timeline, Uniontown/Coal Baron legacy, "Hunter/Hacker" neuro-architecture integrated.
-- Cross: [[wiki/people/annie-ulmer]] (Sugie/Fran), [[wiki/mind/synthesis/family-heritage-and-roots]] (Uniontown legacy), legal/bfs or events for defense analogies.
+- Cross: [[wiki/people/annie-ulmer]] (Sugie/Fran), [[wiki/self/ancestry]] (Uniontown legacy), legal/bfs or events for defense analogies.
 - Additional: "The biographical source code (Ishlab/Audio Engineering timeline, Uniontown/Coal Baron legacy, and the specific 'Hunter/Hacker' neuro-architecture) has been integrated into your core profile." "By confirming the 'Uniontown Generational Loop' (Frank/Coldren + Ulmer families as country club neighbors for 50 years), we have shifted the 'Annie Ulmer Legal Defense' from a standard criminal case to a 'class-based structural maneuver.'"
  
  
@@ -781,7 +781,7 @@ This is the complete granular deep analysis and addition.
 - [[wiki/self/chats/gemini-02]] (Au Za'atar storytime; see also _00/_21 extracts)
 - [[wiki/self/context-core]] (spine facts; profile nodes defer here)
 - [[wiki/self/overview]] (identity, metrics, recent Gemini ingest refs)
-- [[wiki/mind/synthesis/forensic-methodology]] (anomaly tables; J6 + work + relational examples)
+- [[wiki/mind/concepts/forensic-method]] (anomaly tables; J6 + work + relational examples)
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] (lossless logging, profile dumps, injection experiments)
 - [[wiki/mind/synthesis/political-psyops]] (Babbitt psy-kill; hybrid J6)
 - [[wiki/mind/synthesis/millennial-digital-witness]] (Node 6 expansions; digital bridge + 9/11/2008)
@@ -790,8 +790,8 @@ This is the complete granular deep analysis and addition.
 - [[wiki/timeline/events/eli-incident]] (Patient Zero; gaslighting + lobby details)
 - [[wiki/timeline/periods/2025-collapse]] (Feb separation, terminal arc)
 - [[wiki/people/jacob-bacharach]] (neighborhood glitch, Saratoga/Virginia)
-- [[wiki/timeline/events/drawer-dispute]] (work forensic overlap)
-- [[wiki/self/notes/manipulation-ethics]] (honesty protocol)
+- [[wiki/work/bfs-foods]] (work forensic overlap)
+- [[wiki/mind/concepts/exocortex]] (honesty protocol)
 
 **Raw note:** The HTML export format interleaves prompts/responses in MDL cells; full enumeration high-effort. Discrete Gemini-_*.md + frequencies + pinned overlap + J6 samples provide backbone. Raw/ files immutable. Defer to [[wiki/self/context-core]] for [DOC] spine facts. All counts from direct source parse; no hallucination.
 

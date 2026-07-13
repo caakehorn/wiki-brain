@@ -20,7 +20,7 @@ related:
   - wiki/interests/music/overview
   - wiki/interests/music/concepts/sub-bass-signature
   - wiki/mind/concepts/attachment-model
-  - wiki/mind/synthesis/family-heritage-and-roots
+  - wiki/self/ancestry
   - wiki/people/annie-ulmer
 changelog:
   - date: 2026-07-11
@@ -35,7 +35,7 @@ changelog:
 
 Frances Thomas Whyel Coldren — called Fran by everyone who knew her — was Dan's maternal great-grandmother and, by his own account in [[wiki/self/context-core]], the single biggest life influence he had. She was born August 15, 1920, in Fort Martin, West Virginia, and died April 4, 2018, in Uniontown, Pennsylvania, at approximately 97 or 98 years old. She outlived nearly every contemporary, most of her children's generation, and the era she was born into by several decades.
 
-The arc of her life was improbable: dirt-poor origins in the coal country of northern West Virginia, a marriage into coal-baron money, a third husband who was a 33rd-degree Mason, and a social orbit that reportedly included Arnold Palmer. She spent her final decades in Uniontown, embedded in the same Fayette County community where the Frank family has concentrated for generations. She is one of the primary human anchors of the [[wiki/mind/synthesis/family-heritage-and-roots]] synthesis and the origin point of the one material artifact that most directly shaped Dan's creative identity: a Numark NS7 DJ controller, which she gifted him.
+The arc of her life was improbable: dirt-poor origins in the coal country of northern West Virginia, a marriage into coal-baron money, a third husband who was a 33rd-degree Mason, and a social orbit that reportedly included Arnold Palmer. She spent her final decades in Uniontown, embedded in the same Fayette County community where the Frank family has concentrated for generations. She is one of the primary human anchors of the [[wiki/self/ancestry]] synthesis and the origin point of the one material artifact that most directly shaped Dan's creative identity: a Numark NS7 DJ controller, which she gifted him.
 
 ## The NS7 and the Music Connection
 
@@ -67,4 +67,4 @@ Fran's West Virginia origins place her in the coal and industrial corridor of Ap
 | ~2013–2016 | NS7 gifted to Dan (exact year unconfirmed; tied to SLOPPP/MOGZART alias era) |
 | 2018-04-04 | Death, Uniontown, PA. Seven-day deathwatch with Dan and Annie present throughout |
 
-> **See also:** [[wiki/self/ancestry]] · [[wiki/mind/synthesis/family-heritage-and-roots]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/mind/concepts/attachment-model]]
+> **See also:** [[wiki/self/ancestry]] · [[wiki/self/ancestry]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/mind/concepts/attachment-model]]

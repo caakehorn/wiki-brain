@@ -22,7 +22,7 @@ related:
   - wiki/self/chats/j6-chat
   - wiki/self/chats/danfrank-isms-pinned
   - wiki/self/gemini-activity/gemini-activity
-  - wiki/mind/synthesis/forensic-methodology
+  - wiki/mind/concepts/forensic-method
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/mind/synthesis/millennial-digital-witness
   - wiki/mind/concepts/dans-law
@@ -119,11 +119,28 @@ his politics, while the family's vertical-authority wounds (2005 rupture,
 alcoholism patterns) template the institutional distrust
 ([[wiki/mind/synthesis/vertical-authority-skepticism]]).
 
+## Politics as aesthetic object
+
+Alongside the forensic track runs an explicitly aesthetic one, and the two
+coexist rather than compete. The spine's own words: politics is "primary
+entertainment + near-total ideological pursuit, explicitly
+aesthetic/spectacle ('i can't tell you how much fun i'm having with it')."
+The J6 reading depends on both tracks at once: *that* the imagery was
+engineered is established procedurally; *why* the imagery works — martyrdom
+for one side, revolutionary violence for the other, "too perfect" — is an
+aesthetic judgment. The pinned-nodes corpus reads the whole Trump era this
+way: a "zero-sum binary team sport" whose lines are drawn by "one man's
+short-term selfish interest," logged into Gemini as worldbuilding material
+for a "Post-Pax Americana" epic. This dual register is what lets a committed
+democratic socialist analyze right-coded revisionism without tribal
+investment — the spectacle is a text to be read with the same tools as music
+trends or workplace power moves.
+
 ## Relation to other data
 
-The same procedural-tell lens runs through the drawer dispute, the
+The same procedural-tell lens runs through the BFS drawer dispute, the
 relationship forensics, and the AI work
-([[wiki/mind/synthesis/forensic-methodology]]). Consumption tracks it:
+([[wiki/mind/concepts/forensic-method]]). Consumption tracks it:
 YouTube is dominated by Majority Report, Vaush, and news-adjacent podcasts;
 the favorites corpus counts politics 79 and history 69 among book topics;
 Twitter is the "politics sicko" channel. The spine's summary stands as the

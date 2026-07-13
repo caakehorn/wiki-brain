@@ -22,10 +22,10 @@ sources:
   - raw/self/dox-md/BFS_BOOTLOADER_v2.md
 related:
   - wiki/self/context-core
-  - wiki/mind/synthesis/forensic-methodology
+  - wiki/mind/concepts/forensic-method
   - wiki/mind/synthesis/political-psyops
   - wiki/mind/synthesis/ai-collaborative-analysis
-  - wiki/mind/synthesis/work-power-dynamics
+  - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/self/location-history
   - wiki/self/message-corpora/master-message-dump
   - wiki/mind/synthesis/attachment-trauma-bond

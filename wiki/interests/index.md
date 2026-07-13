@@ -11,6 +11,8 @@ related: []
 # interests — index
 
 
+- [[wiki/interests/rock-irrelevance-thesis]] — the argument (with streaming/market data) that guitar rock is culturally irrelevant for the first time since 1963.
+
 ## favorites
 
 - [[wiki/interests/favorites/art-and-movies]] — Minor categories in the masterlist (Art 25, Movies 11). All Art entries rated 5; movies unrated with…

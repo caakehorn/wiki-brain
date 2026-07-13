@@ -4,8 +4,8 @@ page_type: entity
 status: active
 date_created: 2026-06-23
 date_modified: 2026-06-23
-sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/message-csv/imessage_2124702449_both_2026-05-01_now.csv", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/self/notes/bfs-bootloader.md", "wiki/legal/bfs-dispute/overview.md"]
-related: ["wiki/timeline/events/drawer-dispute", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/work-power-dynamics", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/brandon-hill", "wiki/legal/bfs-dispute/overview", "wiki/self/facebook", "wiki/self/notes/bfs-bootloader", "wiki/people/maddox", "wiki/people/dakota"]
+sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/message-csv/imessage_2124702449_both_2026-05-01_now.csv", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md", "wiki/work/bfs-foods.md"]
+related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/brandon-hill", "wiki/work/bfs-foods", "wiki/self/facebook", "wiki/work/bfs-foods", "wiki/people/maddox", "wiki/people/dakota"]
 ---
 
 # Marty Martin
@@ -48,9 +48,9 @@ Per canonical BFS_BOOTLOADER_v2: "NOT a recruit for active operation — intelli
 - **Group text node**: [[wiki/people/anita]] (GM architect), [[wiki/people/brandon-hill]] (instrument), unidentified (724) 208-9869, Dan.
 - **Incident witnesses / pattern**: [[wiki/people/timmy]], [[wiki/people/kim]] (LC), [[wiki/people/maddox]] (sidewalk), [[wiki/people/dakota]] (initial disclosure).
 - **Relay / post**: Suz (mother thread in message-csv).
-- **BFS dispute**: [[wiki/legal/bfs-dispute/overview]], [[wiki/timeline/events/drawer-dispute]], [[wiki/people/brandon-hill]].
-- **Synthesis**: [[wiki/mind/synthesis/work-power-dynamics]] (Marty culture description), [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]].
+- **BFS dispute**: [[wiki/work/bfs-foods]], [[wiki/work/bfs-foods]], [[wiki/people/brandon-hill]].
+- **Synthesis**: [[wiki/mind/synthesis/vertical-authority-skepticism]] (Marty culture description), [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]].
 
-**Cross-references:** [[wiki/timeline/events/drawer-dispute]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/people/brandon-hill]], [[wiki/legal/bfs-dispute/overview]], [[wiki/self/facebook]], [[wiki/self/notes/bfs-bootloader]], [[wiki/people/maddox]], [[wiki/people/dakota]], [[wiki/self/context-core]]
+**Cross-references:** [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/facebook]], [[wiki/work/bfs-foods]], [[wiki/people/maddox]], [[wiki/people/dakota]], [[wiki/self/context-core]]
 
 **Notes:** No primary direct FB or standalone iMessage thread with Dan (work group + indirect via Suz). Marty check (group text membership) remains open verification item per bootloader. Protect asset posture: do not name in external docs. Defer to raw group text screenshots, full csvs, and BFS_BOOTLOADER_v2 for verbatim. Sources list prioritizes raw dox + message-csv over derived. Hypothesis A (structural off-books) stronger per Marty framing.

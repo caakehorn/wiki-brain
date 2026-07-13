@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
-related: ["wiki/self/notes/bfs-bootloader", "wiki/people/anita", "wiki/people/kim", "wiki/people/brandon-hill", "wiki/timeline/events/drawer-dispute", "wiki/self/context-core", "wiki/mind/synthesis/work-power-dynamics", "wiki/legal/bfs-dispute/overview"]
+related: ["wiki/work/bfs-foods", "wiki/people/anita", "wiki/people/kim", "wiki/people/brandon-hill", "wiki/work/bfs-foods", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/work/bfs-foods"]
 ---
 
 # Timmy
@@ -31,8 +31,8 @@ related: ["wiki/self/notes/bfs-bootloader", "wiki/people/anita", "wiki/people/ki
 
 ## Relation to Core & Totality
 
-Template for [[wiki/mind/synthesis/work-power-dynamics]] and [[wiki/mind/synthesis/vertical-authority-skepticism]]: Anita sole agency + narrative control; off-books extraction parallel. Directly load-bearing on BFS termination per context-core §5 ("BFS termination (cash-variance dispute)"). Demonstrates "constructs narratives backward". Dan's zero role despite pivot.
+Template for [[wiki/mind/synthesis/vertical-authority-skepticism]] and [[wiki/mind/synthesis/vertical-authority-skepticism]]: Anita sole agency + narrative control; off-books extraction parallel. Directly load-bearing on BFS termination per context-core §5 ("BFS termination (cash-variance dispute)"). Demonstrates "constructs narratives backward". Dan's zero role despite pivot.
 
-**Cross-references:** [[wiki/self/notes/bfs-bootloader]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/brandon-hill]], [[wiki/timeline/events/drawer-dispute]], [[wiki/self/context-core]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/legal/bfs-dispute/overview]], [[wiki/people/alexander-jackson]] (housing authority parallels), [[wiki/self/facebook]].
+**Cross-references:** [[wiki/work/bfs-foods]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/work/bfs-foods]], [[wiki/people/alexander-jackson]] (housing authority parallels), [[wiki/self/facebook]].
 
 **Notes:** Timmy returns with mom post-refusal (warms to Dan). Ongoing risk: backpack collateral customer from incident shift (daily visitor). Pattern predates Dan (Marty ~6mo tenure). Defer to raw group text screenshots / full csv for verbatim.

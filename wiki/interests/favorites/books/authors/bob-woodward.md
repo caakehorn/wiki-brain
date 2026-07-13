@@ -8,7 +8,7 @@ date_modified: 2026-07-11
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
 related:
   - "wiki/interests/favorites/books"
-  - "wiki/mind/concepts/forensic-analysis"
+  - "wiki/mind/concepts/forensic-method"
   - "wiki/self/context-core"
 changelog:
   - 2026-07-11: Full rewrite from stub. Added contextual analysis, comparative framing against Wolff, wiki links.
@@ -28,7 +28,7 @@ Five books with no 5-stars is the most interesting data point in the whole journ
 
 Woodward is respected the way you respect a rigorous institutional process — for its reliability, its repeatability, its refusal to go places it hasn't earned permission to go. His Trump books (*Fear*, *Rage*, *Peril*, *War*) are exhaustive and credible and consistently feel like they're missing the thing you most want to know. The sources talk, but they talk in ways that protect themselves, and Woodward's commitment to the transaction — access for discretion — is built into the methodology at a structural level.
 
-From the perspective of [[wiki/mind/concepts/forensic-analysis]], Woodward's method is authoritative but fundamentally mediated. You're reading what people chose to tell him, filtered through his professional obligation not to burn them. That's useful evidence, but it's not primary source material. It's testimony carefully managed on its way to the record.
+From the perspective of [[wiki/mind/concepts/forensic-method]], Woodward's method is authoritative but fundamentally mediated. You're reading what people chose to tell him, filtered through his professional obligation not to burn them. That's useful evidence, but it's not primary source material. It's testimony carefully managed on its way to the record.
 
 The 5-book count without a single 5-star maps accurately onto a reading relationship that is thorough without being moved — the way you'd engage with a well-produced documentary that you trust but don't find revelatory.
 

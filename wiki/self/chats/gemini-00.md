@@ -5,7 +5,7 @@ status: stable
 date_created: 2026-06-23
 date_modified: 2026-07-02
 sources: ["raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md"]
-related: ["wiki/self/chats/gemini-02", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid", "wiki/people/annie-ulmer", "wiki/timeline/periods/2021-2023-employment-block", "wiki/mind/synthesis/work-power-dynamics", "wiki/self/gemini-activity/gemini-activity"]
+related: ["wiki/self/chats/gemini-02", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid", "wiki/people/annie-ulmer", "wiki/timeline/periods/2021-2023-employment-block", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/gemini-activity/gemini-activity"]
 ---
 
 # Gemini Session 00 — Au Za'atar STORYTIME (Finale)
@@ -33,8 +33,8 @@ The closing volume of the Au Za'atar "STORYTIME" — a 781-line, glyph-styled fo
 
 ## Why It Matters to the Model
 
-Session 00 is the primary evidence for [[wiki/mind/synthesis/work-power-dynamics]]: the "Dan Cycle of Job Entropy" (high-performing opener → discovered loophole → degenerate middle → abandonment) and the reframing of theft as audit both originate here. Stylistically it is the clearest example of the "Forensic STORYTIME" mode — using the LLM as an externalized prefrontal cortex to discharge and re-narrate chaotic history through an anomaly lens, in contrast to the clinical incident-report style of [[wiki/self/chats/gemini-07]].
+Session 00 is the primary evidence for [[wiki/mind/synthesis/vertical-authority-skepticism]]: the "Dan Cycle of Job Entropy" (high-performing opener → discovered loophole → degenerate middle → abandonment) and the reframing of theft as audit both originate here. Stylistically it is the clearest example of the "Forensic STORYTIME" mode — using the LLM as an externalized prefrontal cortex to discharge and re-narrate chaotic history through an anomaly lens, in contrast to the clinical incident-report style of [[wiki/self/chats/gemini-07]].
 
 ## Related
 
-[[wiki/self/chats/gemini-02]] · [[wiki/people/tarik-fallous]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/people/annie-ulmer]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/mind/synthesis/work-power-dynamics]] · [[wiki/self/gemini-activity/gemini-activity]]
+[[wiki/self/chats/gemini-02]] · [[wiki/people/tarik-fallous]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/people/annie-ulmer]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/self/gemini-activity/gemini-activity]]

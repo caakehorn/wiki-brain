@@ -5,7 +5,7 @@ status: stable
 date_created: 2026-06-22
 date_modified: 2026-07-02
 sources: ["raw/self/dox-md/Gemini-_13.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
-related: ["wiki/self/chats/gemini-13", "wiki/mind/synthesis/forensic-methodology", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/self/context-core", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start"]
+related: ["wiki/self/chats/gemini-13", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/self/context-core", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start"]
 ---
 
 # Jacob Bacharach
@@ -27,7 +27,7 @@ The short version: while living in New York, Dan heard Bacharach as a podcast gu
 
 ## Narrative
 
-This chain is the flagship exhibit for [[wiki/mind/synthesis/forensic-methodology]]: it shows the full method in motion — a specific anomaly, iterative correction of the AI's hypotheses against ground truth ("the ships are the tell"; "the exterior shell"), external asset verification, and a final ranked list of what was actually improbable. It is also a clean case for [[wiki/mind/synthesis/ai-collaborative-analysis]], because the useful output only emerged through Dan repeatedly overriding the model's confident-but-wrong early theories rather than accepting them.
+This chain is the flagship exhibit for [[wiki/mind/concepts/forensic-method]]: it shows the full method in motion — a specific anomaly, iterative correction of the AI's hypotheses against ground truth ("the ships are the tell"; "the exterior shell"), external asset verification, and a final ranked list of what was actually improbable. It is also a clean case for [[wiki/mind/synthesis/ai-collaborative-analysis]], because the useful output only emerged through Dan repeatedly overriding the model's confident-but-wrong early theories rather than accepting them.
 
 The AI's summarizing line captures why the episode stuck: that Dan "had to move to NYC to get served a podcast by an algorithm that randomly selected the one guy who used your mom's rental property as a literary prop, simply because he thought the brick looked ugly from the street." Dan frames the whole thing in his recurring "Rust Belt simulation" idiom — the sense that the local layer and the national-culture layer clipped through each other — but the durable content here is the demonstration of the method, not the metaphysics.
 
@@ -43,4 +43,4 @@ The AI's summarizing line captures why the episode stuck: that Dan "had to move 
 
 ## Related
 
-[[wiki/self/chats/gemini-13]] · [[wiki/mind/synthesis/forensic-methodology]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/self/context-core]] · [[wiki/people/suzanne-frank]] · [[wiki/people/annie-ulmer]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]]
+[[wiki/self/chats/gemini-13]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/self/context-core]] · [[wiki/people/suzanne-frank]] · [[wiki/people/annie-ulmer]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]]

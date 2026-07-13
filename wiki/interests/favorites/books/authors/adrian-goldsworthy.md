@@ -9,7 +9,7 @@ sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
 related:
   - "wiki/interests/favorites/books"
   - "wiki/interests/favorites/books/topics/ancient-history"
-  - "wiki/mind/synthesis/aesthetic-politics"
+  - "wiki/mind/synthesis/political-psyops"
   - "wiki/self/context-core"
 changelog:
   - 2026-07-11: Full rewrite from stub. Added contextual analysis, thematic framing, wiki links.
@@ -27,7 +27,7 @@ British military historian, Oxford-trained, whose career has been organized arou
 
 The Roman Republic's collapse is an almost structurally perfect obsession for someone whose politics live at the intersection of institutional failure and individual moral clarity. Goldsworthy's framing is not "great men make history" — it's something more uncomfortable: great men expose the limits of institutions they did not break. Caesar doesn't destroy the Republic; he reveals that it was already hollow, already captured by men who invoked its forms to protect their own power.
 
-That thesis runs directly into Dan's [[wiki/mind/synthesis/aesthetic-politics]] — the conviction that systems fail at their edges, at the point where exceptional actors and eroding norms collide. Reading Goldsworthy is reading a forensic case study in institutional entropy, played out across a civilization with the volume turned all the way up.
+That thesis runs directly into Dan's [[wiki/mind/synthesis/political-psyops]] — the conviction that systems fail at their edges, at the point where exceptional actors and eroding norms collide. Reading Goldsworthy is reading a forensic case study in institutional entropy, played out across a civilization with the volume turned all the way up.
 
 Four books at this density signals something beyond casual interest in Roman aesthetics. This is pattern recognition being exercised at historical scale: how do you stay legible within a system that no longer deserves your fidelity?
 

@@ -9,10 +9,10 @@ sources:
   - raw/self/chats/j6-chat.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
 related:
-  - wiki/mind/concepts/forensic-analysis
-  - wiki/mind/synthesis/forensic-methodology
+  - wiki/mind/concepts/forensic-method
+  - wiki/mind/concepts/forensic-method
   - wiki/mind/synthesis/political-psyops
-  - wiki/timeline/events/drawer-dispute
+  - wiki/work/bfs-foods
   - wiki/self/chats/j6-chat
   - wiki/self/context-core
 ---
@@ -33,7 +33,7 @@ After applying Dan's Law, the load-bearing element is the imagery product: a sma
 
 The drawer dispute at BFS Foods provides a lower-stakes but structurally identical example. The cluster consists of a clean CSR close report followed by a next-day personal cash demand from the assistant manager, the complete absence of a paper trail on either side, a retaliatory schedule reduction, a single-witness structure, and a bypass of Pennsylvania cash handling documentation law. No single element is by itself conclusive, but the joint probability of all occurring innocently under normal accounting practice is low.
 
-The load-bearing element is the absence of documentation: under normal circumstances, an off-books demand would leave a paper trail for either party to contest. Its absence is a feature of the demand, not an oversight. The parasitic noise includes uncertainty about the exact dollar figure, which may contain a recount error. The signal — an off-books extraction attempt with no recourse mechanism — remains after stripping. The tactical conclusion was: do not validate by paying. Full record preserved at [[wiki/timeline/events/drawer-dispute]].
+The load-bearing element is the absence of documentation: under normal circumstances, an off-books demand would leave a paper trail for either party to contest. Its absence is a feature of the demand, not an oversight. The parasitic noise includes uncertainty about the exact dollar figure, which may contain a recount error. The signal — an off-books extraction attempt with no recourse mechanism — remains after stripping. The tactical conclusion was: do not validate by paying. Full record preserved at [[wiki/work/bfs-foods]].
 
 ## Relation to Core Methodology
 

@@ -95,7 +95,7 @@ Fran Whyel (1920 Fort Martin WV – 2018 Uniontown PA). Both lines concentrate
 heavily in Fayette County, Pennsylvania — Uniontown, Brownsville, Hopwood —
 with West Virginia roots on the maternal side. Father Episcopalian, mother
 Presbyterian. Full DNA reports and the family tree are synthesized at
-[[wiki/self/ancestry]] and [[wiki/mind/synthesis/family-heritage-and-roots]].
+[[wiki/self/ancestry]] and [[wiki/self/ancestry]].
 
 ## Formative history
 

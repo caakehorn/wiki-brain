@@ -25,7 +25,7 @@ related:
   - wiki/timeline/periods/2025-collapse
   - wiki/mind/concepts/contact-gini
   - wiki/mind/synthesis/vertical-authority-skepticism
-  - wiki/mind/synthesis/forensic-self-construction
+  - wiki/mind/concepts/forensic-method
 ---
 
 # Attachment Trauma Bond and Aura Illness

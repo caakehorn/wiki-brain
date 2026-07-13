@@ -54,7 +54,7 @@ Updates to related: [[wiki/self/gemini-activity/gemini-activity]], [[wiki/self/c
 - Low volume vs Annie corpus but high signal for early periods/trauma kernel.
 
 ## Domain: Self
-Early attachment wound activator alongside family 2005 rupture (see [[wiki/mind/synthesis/family-heritage-and-roots]]). Cross to ancestry (Uniontown roots pre-Full Sail exit). _58: Lex anchor during ishlab/Creative License NYC (Bedford/Bridge Cafe/Sandy/Franki blip); pre-Danielle pivot echo; music production parallel (ishlab vs Max production house).
+Early attachment wound activator alongside family 2005 rupture (see [[wiki/self/ancestry]]). Cross to ancestry (Uniontown roots pre-Full Sail exit). _58: Lex anchor during ishlab/Creative License NYC (Bedford/Bridge Cafe/Sandy/Franki blip); pre-Danielle pivot echo; music production parallel (ishlab vs Max production house).
 
 ## Related
 - [[wiki/timeline/periods/2015-2016-annie-relationship-start]]

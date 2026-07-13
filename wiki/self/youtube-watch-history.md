@@ -20,7 +20,7 @@ related:
   - wiki/mind/synthesis/totality-themes
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/mind/synthesis/political-psyops
-  - wiki/mind/synthesis/aesthetic-politics
+  - wiki/mind/synthesis/political-psyops
   - wiki/mind/concepts/conflict-architecture
   - wiki/timeline/periods/2021-2023-employment-block
   - wiki/timeline/periods/dec-2025-spike
@@ -225,7 +225,7 @@ Modern left tube dominant: Vaush (177 in 2023), Majority Report (Sam Seder), Dav
 - Complements [[wiki/self/twitter]] (public political expression mirroring "sicko" diet) and [[wiki/self/favorites]] / [[wiki/interests/favorites/music]] (music consumption overlap; electronic/bass via 2014 likes + YT Music).
 - Reinforces [[wiki/mind/concepts/conflict-architecture]]: repeated engagement with content that litigates institutions, power, and narrative.
 - Ties to [[wiki/self/facebook]]: FB pages_you_ve_liked (196 total) includes ODESZA (2014-10-17), comedy clubs, AOC, Chris Cuomo, VICE TV, Trump White House archive, electronic labels (DIM MAK, Buygore). 2012-2014 likes align exactly with Era 1 radio + music window. See [[wiki/self/facebook]] and subpages.
-- Attention patterns: Long sessions with archive channels (O&A, radio) suggest comfort with extended conversational/deep-dive formats. Cross [[wiki/mind/synthesis/vertical-authority-skepticism]] and [[wiki/mind/synthesis/aesthetic-politics]].
+- Attention patterns: Long sessions with archive channels (O&A, radio) suggest comfort with extended conversational/deep-dive formats. Cross [[wiki/mind/synthesis/vertical-authority-skepticism]] and [[wiki/mind/synthesis/political-psyops]].
 - Location cross: Media consumption portable across PA roots / NYC chapter (high loc visits 2017-19, 2022-23 align YT spikes).
 - Ancestry roots: PA/Fayette cluster provides stable "home base" for early digital (YT) + loc data.
 

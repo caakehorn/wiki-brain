@@ -7,7 +7,7 @@ status: stable
 date_created: 2026-06-23
 date_modified: 2026-07-12
 sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/facebook/facebook-ihatedanfrank/friends_and_followers/friends.html", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/context-core", "wiki/mind/synthesis/financial-market-era", "wiki/self/message-corpora/master-message-dump", "wiki/self/twitter", "wiki/self/facebook"]
+related: ["wiki/self/context-core", "wiki/timeline/periods/2020-2021-market-era", "wiki/self/message-corpora/master-message-dump", "wiki/self/twitter", "wiki/self/facebook"]
 ---
 
 # Jerad Friedline
@@ -25,7 +25,7 @@ here.)
 
 ## The financial channel
 
-Jerad is where Dan's market era ([[wiki/mind/synthesis/financial-market-era]])
+Jerad is where Dan's market era ([[wiki/timeline/periods/2020-2021-market-era]])
 gets its tips and its running commentary, and the corpus shows Jerad as the
 substantially more successful trader of the two. In February 2020 he is an
 unhesitating Tesla bull — "you can't sell now, obviously have to ride this

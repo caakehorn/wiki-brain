@@ -132,7 +132,7 @@ NYC was two distinct chapters split by a six-year Uniontown stretch; the produce
 - **Annie:** involuntary closure June 1, 2026 — historical, not live.
 - **Housing (acute):** Suz selling 337 Saratoga Drive, Dan's residence, with no confirmed post-close plan.
 - **Music:** the one sincere self-assembling thread; involuntary sub-bass signature (63–85% across 13 years, every alias); bottleneck is shipping.
-- **Work exit:** BFS termination (cash-variance dispute — [[wiki/timeline/events/drawer-dispute]]); Little Caesars transfer via Kim.
+- **Work exit:** BFS termination (cash-variance dispute — [[wiki/work/bfs-foods]]); Little Caesars transfer via Kim.
 
 ## Dan's Law, trauma nodes, gaps
 

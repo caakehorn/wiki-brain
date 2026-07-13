@@ -18,15 +18,15 @@ related: [
   "wiki/self/gemini-activity/gemini-activity",
   "wiki/self/chats/j6-chat",
   "wiki/self/chats/danfrank-isms-pinned",
-  "wiki/self/notes/au-zaatar-chronicles",
+  "wiki/work/au-zaatar",
   "wiki/mind/synthesis/ai-collaborative-analysis",
   "wiki/timeline/periods/2021-2023-employment-block",
   "wiki/people/tarik-fallous",
   "wiki/people/valeria-iglesias-cid",
   "wiki/people/annie-ulmer",
-  "wiki/mind/synthesis/work-power-dynamics",
-  "wiki/mind/synthesis/forensic-methodology",
-  "wiki/timeline/events/drawer-dispute"
+  "wiki/mind/synthesis/vertical-authority-skepticism",
+  "wiki/mind/concepts/forensic-method",
+  "wiki/work/bfs-foods"
 ]
 ---
 
@@ -96,11 +96,11 @@ See /tmp/gemini-02-deep-analysis.md for full 20+ row phase table. Key: Early 202
 - [[wiki/self/gemini-activity/gemini-activity]] (full series, freq tables, J6 + profile nodes, _00/_02 sections + master)
 - [[wiki/self/chats/danfrank-isms-pinned]] (shared Gemini style)
 - [[wiki/timeline/periods/2021-2023-employment-block]] (Au Za'atar pivot + equal tips era; extended Aug24 teardown)
-- [[wiki/self/notes/au-zaatar-chronicles]] (expanded lore)
+- [[wiki/work/au-zaatar]] (expanded lore)
 - [[wiki/people/annie-ulmer]] (firing contrast "avatar", "Eggie")
-- [[wiki/mind/synthesis/work-power-dynamics]] (BFS drawer overlap; decentralized audit / Game-Theory Subversion)
+- [[wiki/mind/synthesis/vertical-authority-skepticism]] (BFS drawer overlap; decentralized audit / Game-Theory Subversion)
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] (injection + profile meta; Forensic STORYTIME prosthetic)
-- [[wiki/mind/synthesis/forensic-methodology]] (glyph post-mortem + culinary trauma)
+- [[wiki/mind/concepts/forensic-method]] (glyph post-mortem + culinary trauma)
 - [[wiki/people/tarik-fallous]] (Tarik/Ghassan/Nonsense + staff roster)
 - [[wiki/people/valeria-iglesias-cid]] (CORE ANOMALY + edits + breach)
 - [[wiki/self/chats/gemini-00]] (_00 finale cross: 2.5yr/41mo, Sergio/Tunisian, avatar, Triad)

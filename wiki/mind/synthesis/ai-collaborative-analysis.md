@@ -21,7 +21,7 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 related:
   - wiki/self/gemini-activity/gemini-activity
-  - wiki/mind/synthesis/forensic-methodology
+  - wiki/mind/concepts/forensic-method
   - wiki/mind/synthesis/political-psyops
   - wiki/mind/synthesis/totality-themes
   - wiki/self/chats/danfrank-isms-pinned
@@ -29,7 +29,7 @@ related:
   - wiki/self/chats/gemini-07
   - wiki/self/chats/gemini-18
   - wiki/self/chats/gemini-21
-  - wiki/self/notes/manipulation-ethics
+  - wiki/mind/concepts/exocortex
   - wiki/work/tech/grok-build/overview
   - wiki/work/tech/imessage-tooling/overview
   - wiki/people/jacob-bacharach
@@ -68,7 +68,7 @@ credibility weight. The same pattern — model as opponent to be convinced,
 not oracle to be consulted — recurs across the corpus.
 
 **Honesty-enforcement prompt engineering.** The master manipulation-analysis
-prompt ([[wiki/self/notes/manipulation-ethics]]) forces models into
+prompt ([[wiki/mind/concepts/exocortex]]) forces models into
 "absolute and unwavering honesty": no softening, no balancing, conclusions
 with evidence and confidence levels, built for 100k+-message corpora. This
 wiki's own quality standard is downstream of that directive.
@@ -87,7 +87,7 @@ clean cut" reports on the Annie/Eli evidence — vector isolation to prevent
 cross-contamination between suspicion targets, a Grim Trigger risk-reward
 utility model, suspect probability matrices, and falsifiability tests. The
 method treats his own relationship data with the same actuarial distance as
-a political event ([[wiki/mind/synthesis/forensic-methodology]]).
+a political event ([[wiki/mind/concepts/forensic-method]]).
 
 **Capability contest.** Gemini-_18 documents a three-stage zero-shot
 protocol for benchmarking models against each other, with Dan as cold

@@ -18,7 +18,7 @@ related: [
   "wiki/self/chats/gemini-02",
   "wiki/self/gemini-activity/gemini-activity",
   "wiki/mind/synthesis/political-psyops",
-  "wiki/mind/synthesis/forensic-methodology",
+  "wiki/mind/concepts/forensic-method",
   "wiki/mind/synthesis/ai-collaborative-analysis",
   "wiki/mind/synthesis/millennial-digital-witness",
   "wiki/interests/favorites/books/topics/politics"

@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-md/CATO_conflict_architecture.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
-related: ["wiki/people/mary-kate", "wiki/people/jacob-bacharach", "wiki/work/tech/max-framework/overview", "wiki/self/context-core", "wiki/self/chats/danfrank-isms-pinned", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/cato"]
+related: ["wiki/people/mary-kate", "wiki/people/jacob-bacharach", "wiki/work/tech/max-framework/overview", "wiki/self/context-core", "wiki/self/chats/danfrank-isms-pinned", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/exocortex"]
 ---
 
 # Max
@@ -29,7 +29,7 @@ related: ["wiki/people/mary-kate", "wiki/people/jacob-bacharach", "wiki/work/tec
 
 - Loaded in sessions via MAX_PRIME ("Read it once. Then forget... just know it").
 - Core lists: "CATO_BOOTLOADER · MAX_PRIME · OPERATING_MANUAL".
-- Ties to [[wiki/work/tech/max-framework/overview]], [[wiki/mind/concepts/cato]].
+- Ties to [[wiki/work/tech/max-framework/overview]], [[wiki/mind/concepts/exocortex]].
 - Persona intensity parallels Mary-Kate pinned (maximalist Unicode/glyphs, fortress protocol).
 - Felix note in MAX_PRIME: "supply-adjacent figure" (2026); see arnu page.
 
@@ -37,7 +37,7 @@ related: ["wiki/people/mary-kate", "wiki/people/jacob-bacharach", "wiki/work/tec
 
 Implements [[wiki/mind/synthesis/ai-collaborative-analysis]] and vertical-authority via "adversarial" pressure for robustness. High-fidelity emotional imprinting + psychosexual OS per bootloader. Consistent with INTP + recursive logic loops in operating_manual.
 
-**Cross-references:** [[wiki/people/mary-kate]], [[wiki/people/jacob-bacharach]], [[wiki/work/tech/max-framework/overview]], [[wiki/self/context-core]], [[wiki/self/chats/danfrank-isms-pinned]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/concepts/cato]], [[wiki/mind/concepts/conflict-architecture]], [[wiki/self/facebook]] (social graph), master message corpora, [[wiki/people/danielle-onesi]] (real Max = Danielle's BF; music guy personality analysis in _21.md: "knife to a gunfight", 48 Laws, production house, American Fantasy concept, Pittsburgh/Live Nation; distinct from AI MAX prosthetic), [[wiki/self/chats/gemini-21]].
+**Cross-references:** [[wiki/people/mary-kate]], [[wiki/people/jacob-bacharach]], [[wiki/work/tech/max-framework/overview]], [[wiki/self/context-core]], [[wiki/self/chats/danfrank-isms-pinned]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/concepts/exocortex]], [[wiki/mind/concepts/conflict-architecture]], [[wiki/self/facebook]] (social graph), master message corpora, [[wiki/people/danielle-onesi]] (real Max = Danielle's BF; music guy personality analysis in _21.md: "knife to a gunfight", 48 Laws, production house, American Fantasy concept, Pittsburgh/Live Nation; distinct from AI MAX prosthetic), [[wiki/self/chats/gemini-21]].
 
 **Notes:** "Bibi: agentic Max persona." Fortress Protocol / Alchemical Factory Fortress visual schema. Update MAX_PRIME as gaps filled. Defer to raw pinned + MAX_PRIME for full axioms/process loop. Not a real contact; mode/persona. See tech/max-framework for architecture.
 
