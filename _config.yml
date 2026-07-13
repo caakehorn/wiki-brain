@@ -1,0 +1,12 @@
+theme: jekyll-theme-minimal
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - "*.md"
+exclude:
+  - "bin"
+  - "Personal Wiki.app"
