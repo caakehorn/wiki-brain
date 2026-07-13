@@ -57,3 +57,4 @@ frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-
 - [ ] LOW: work/tech: Bunker Core page, MAX interview system page (CATO §PROJECTS has specs)
 - [ ] LOW: dedupe `related:` lists created by the 2026-07-13 link rewrite (some pages now link forensic-method twice)
 - [ ] MED: "Target G" — the Jan 2026 Suzy-call/blackout male from Gemini-_07 (>95% probability match, distinct from Eli) has no wiki page or coverage in annie-ulmer/eli-incident; ingest the Target G architecture properly
+- [ ] HIGH: DANSYNTH full-depth ingest — the scrape covers ~5%; mine raw/self/dansynth/DANSYNTH.txt session-by-session (maxwellhill, photo-archive, Chappelle/Ket, Valeria JSON audit) for the remaining facts; resolve flagged contradictions (Fran death date, Bacharach house, Franki/Katie order, Morley Seattle thread)

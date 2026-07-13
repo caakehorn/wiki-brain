@@ -42,7 +42,7 @@ related:
 # Annie (Anne Ulmer)
 
 Anne "Annie" Ulmer was the defining relationship of Dan's adult life: ten
-years and seven months, from Thanksgiving 2015 to June 1, 2026, including
+years and seven months, from November 28, 2015 (the Saturday after Thanksgiving — the exact start date per the DANSYNTH record) to June 1, 2026, including
 roughly eight years of cohabitation. It ended involuntarily, in a group
 chat, when third parties confirmed two things at once — that her
 relationship with [[wiki/people/eli]] had been sustained and concealed for
@@ -193,7 +193,7 @@ No legal exposure for Dan; recorded for completeness.
 
 | Date | Event |
 |---|---|
-| 2015-11 | Relationship begins at Thanksgiving; Annie exits prior relationship within 24 hours |
+| 2015-11-28 | Relationship officially begins (Thanksgiving weekend); Annie exits prior relationship within 24 hours |
 | 2016 | Moves into 155 Virginia Ave |
 | ~2018 | Cohabitation non-monogamy experiment |
 | 2021–2024 | Valeria era (Dan's singular concealed breach; stasis holds) |

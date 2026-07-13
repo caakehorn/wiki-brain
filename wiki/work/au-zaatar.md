@@ -9,6 +9,8 @@ sources:
   - raw/self/dox-md/Gemini-_00.md
   - raw/self/dox-md/Gemini-_02.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/dansynth/DANSYNTH.txt
+  - raw/self/dansynth/dansynth-scrape-phases-2-7.md
 related:
   - wiki/people/tarik-fallous
   - wiki/people/valeria-iglesias-cid
@@ -22,31 +24,43 @@ related:
 
 # Au Za'atar (NYC, ~2021–2024)
 
-Au Za'atar, an East Village Lebanese restaurant owned by
-[[wiki/people/tarik-fallous|Tarik Fallous]] and his brother Ghassan, was
-Dan's main employment through the second NYC period — roughly 41 months from
-early 2021 to August 2024, beginning as a busser. It is the most-visited
-location in his entire GPS record (445 visits) and the longest job of his
-adult life. It is also the arena of his most self-incriminating documented
-story: for over a year he maintained a fictitious "9pm night class" alibi to
-secure peak hours and favorable tip splits while abandoning closers to the
-wreckage — a game-theory subversion he later narrated to Gemini, against
-himself, in the forensic "STORYTIME: AU ZAATAR" post-mortems.
+Au Za'atar Midtown — the Lebanese restaurant at 58th & 1st owned by
+[[wiki/people/tarik-fallous|Tarik Fallous]] and his brother Ghassan — was
+Dan's main employment through the second NYC period: **41 months, March
+2021 to August 2024**, hired as a busser with zero food-service experience
+and a bank account at zero, talking his way into the veterans' equal tip
+split from day one. It is the most-visited location in his entire GPS
+record (445 visits) and the longest job of his adult life. For most of his
+tenure the restaurant operated out of a plywood COVID-era **"Shed"** on the
+58th Street sidewalk while the interior stood as a construction shell — a
+low-oversight sovereign territory where Dan ran his "9pm night class"
+alibi for over a year to secure peak hours and tip splits, took sidewalk
+deliveries from his Dominican contact Menore through taxi windows, and
+eventually made himself the "Outside Guy": sole custodian of the dying
+shed section and its cash tips. The job ended in August 2024 when the
+city-mandated shed tear-down erased the territory.
 
 ## The ecosystem
 
 The staff-side economy ran on mutual suspicion. Employees held a settled
-"radical skepticism" that the owners were siphoning the digital tip pool, and
-Dan ran what he called a "decentralized audit" — pocketing cash tips as the
-"Outside Guy" — as self-help against it. The cast of the STORYTIME record:
-DJ and Dimitri (the Greek "oracle" who "chose the flooded basement over a
-quiet life") forming the working triad with Dan; Sergio, a 53-year-old Miami
-veteran whose "Dude vs. Kid" semantic war with Dan crumbled into slush; and a
-Tunisian zoomer coexisting with Dan in an "unholy chill" after snitching over
-tip siphoning. The physical setting matched the social one — a construction
-"literal war zone," with a rotting shed Dan styled himself "Ambassador" of
-while being, by his own later account, a primary source of the staff
-structure's entropy.
+"radical skepticism" that the owners were siphoning the digital tip pool,
+and Dan ran what he called a "decentralized audit" — pocketing cash tips —
+as self-help against it. The core alliance was the **Triad**: Dimitri, the
+Greek manager-"oracle" who navigated the owners' moods (and "chose the
+flooded basement over a quiet life"), DJ, the Senegalese server who carried
+the floor, and Dan supplying the analysis. Around them, the documented
+cast: **Sergio**, a 53-year-old Miami service veteran whose war with Dan
+over the word "dude" escalated into a "nonsense meeting" with Tarik and
+Ghassan conducted in tooth-loss analogies; a **Tunisian zoomer manager**
+who tried to fire Dan for tip-siphoning on Thanksgiving 2023 — and failed,
+because the 58th Street regulars and neighbors demanded he stay; and
+**Menore**, the delivery node keeping the chemistry running mid-shift. The
+physical setting matched the social one: service continued through active
+interior construction (exposed studs, concrete dust, open floor trenches),
+a basement Dan filmed ankle-deep in floodwater with potato boxes afloat,
+and a $50k-class DEENBOR delivery robot that sat unused by the plate
+stacks — a monument to the fact that the "Outside Guy" was the only
+functioning infrastructure the place had.
 
 ## Annie, Valeria, and the contrast
 
@@ -68,7 +82,12 @@ narrator, saboteur, and beneficiary of the exact off-books logic he condemns
 elsewhere. The two pages together are the strongest evidence that the
 methodology is genuinely domain-invariant rather than self-serving.
 
-**Gaps:** exact hire and separation dates; his final role (busser → what);
-how the job actually ended in August 2024; wage/tip figures beyond the
-narrative claims. The STORYTIME record is stylized self-narration through
-Gemini and should be read as memoir, not deposition.
+**Gaps:** his final role title (busser → server, informally); wage/tip
+figures beyond the narrative claims; the "outside bread" food-tracking
+economy's scale. The STORYTIME/DANSYNTH record is stylized self-narration
+through Gemini and should be read as memoir, not deposition.
+
+> **REVISED [2026-07-13]:** DANSYNTH ingest corrected the location (Au
+> Za'atar **Midtown, 58th & 1st** — not the East Village flagship), fixed
+> the start month (March 2021), and supplied the ending: the August 2024
+> city-mandated shed tear-down.

@@ -7,6 +7,8 @@ date_modified: 2026-06-23
 date_range_start: 2021-03
 date_range_end: 2024-08
 sources: [
+  "raw/self/dansynth/DANSYNTH.txt",
+  "raw/self/dansynth/dansynth-scrape-phases-2-7.md",
   "raw/self/dox-md/Gemini-_00.md",
   "raw/self/gemini-activity/Gemini Activity.html",
   "raw/self/dox-md/Gemini-_18.md",
@@ -47,6 +49,17 @@ Valeria Iglesias Cid — 19-year-old heiress to a laser-surgery empire (mother: 
 
 ## Domain: Self
 High-signal attachment deviation node. Only full security breach in long-term bond. Seeded "Total Security Breach" framing used in later Eli/Loop analyses. Cross to [[wiki/people/annie-ulmer]] (stasis contrast: Annie fired while orbiting Valeria), [[wiki/self/gemini-activity/gemini-activity]] (forensic storytime), Au Za'atar work chronicles, attachment-trauma-bond (template repetition of concealment). Demonstrates "entropy" capacity during hedonism/NYC phase pre-2025 return.
+
+## DANSYNTH refinements (2026-07-13)
+
+The DANSYNTH ingest narrows the active window to **2021–2022** (the wider
+2021–2024 span below reflects the Au Za'atar employment overlap, not the
+affair itself), names the primary artifacts — the "intercontinental JSON
+logs" (message_1.json) and the secret "basement reunion" film
+(IMG_65A14E3A.mov) — and records the closure of the thread: on **February
+15, 2026** Dan completed a full forensic audit of the Valeria JSON archive,
+the corpus's formal "final audit" of the one infidelity Annie never knew
+about in advance.
 
 ## Notes
 Per Gemini-_00: "This was the singular instance of unauthorized infidelity where the primary partner was not aware of the specific participant in advance." "THE CHILEAN PULL: The Deep Architecture of your Valeria obsession was so potent you claim you would have moved to Chile for her." "THE JUXTAPOSITION: Imagine trading the 58th Street Shed for the high-powered laser surgery empire of Dra. Loreto Cid in Concepción."

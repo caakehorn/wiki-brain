@@ -48,6 +48,10 @@ plan."
 
 ## The Bacharach anomaly
 
+> **CONTRADICTION:** the DANSYNTH scrape attributes the novel's setting to
+> [[wiki/places/155-virginia-ave|155 Virginia Ave]] instead of this house —
+> unresolved; see [[wiki/people/jacob-bacharach]].
+
 The house has one genuinely strange documented distinction: novelist
 [[wiki/people/jacob-bacharach]] set scenes of a novel in it. The forensic
 audit this triggered (parcel maps, deeds, obituaries) concluded an

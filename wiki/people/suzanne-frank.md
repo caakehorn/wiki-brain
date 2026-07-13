@@ -7,7 +7,9 @@ importance: critical
 status: active
 date_created: 2026-06-22
 date_modified: 2026-07-12
-sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/Gemini-_07.md", "raw/self/dox-md/LIFE REPORT.md"]
+sources:
+  - raw/self/dansynth/DANSYNTH.txt
+  - raw/self/dansynth/dansynth-scrape-phases-2-7.md ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/Gemini-_07.md", "raw/self/dox-md/LIFE REPORT.md"]
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07"]
 ---
 
@@ -103,3 +105,16 @@ The vector is isolated from the Eli affair. Full analysis:
 Her own perspective on the 2005 rupture is undocumented — the corpus view
 is entirely Dan-side. Post-sale housing intentions (hers and Dan's) are
 unrecorded as of 2026-07.
+
+## The Ulmer nexus and the keno morning (DANSYNTH ingest, 2026-07-13)
+
+Two additions from the DANSYNTH record. First, the generational loop runs
+through her directly: **Suz dated Annie Ulmer's father in high school**
+(late '70s/early '80s) — Dan's decade with Annie recapitulated a pairing
+his mother and Annie's father had already run, one lot away from where
+both families' grandparents lived side by side for fifty years
+([[wiki/places/117-belmont-circle]]). Second, the record's sharpest
+documented instance of her unreliability under load: on the morning of
+Fran's catastrophic fall, Dan reached her at 8:00 AM — she arrived at
+10:00, having played video keno all night
+([[wiki/timeline/events/fran-death-vigil]]).

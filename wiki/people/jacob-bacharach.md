@@ -44,3 +44,12 @@ The AI's summarizing line captures why the episode stuck: that Dan "had to move 
 ## Related
 
 [[wiki/self/chats/gemini-13]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/self/context-core]] · [[wiki/people/suzanne-frank]] · [[wiki/people/annie-ulmer]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]]
+
+> **CONTRADICTION (which house):** The Gemini-_13 audit and prior wiki
+> pages identify the novel's borrowed setting as **337 Saratoga Drive**
+> (the childhood home). The 2026 DANSYNTH scrape instead names **155
+> Virginia Avenue** — the Fran-era residence adjacent to 117 Belmont —
+> as the primary setting. One address is wrong; resolving requires
+> re-reading the novel passage or the Gemini-_13 parcel audit against
+> the DANSYNTH session. Both candidate pages carry this flag
+> ([[wiki/places/337-saratoga-drive]], [[wiki/places/155-virginia-ave]]).

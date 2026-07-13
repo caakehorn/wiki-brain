@@ -3,67 +3,139 @@ domain: people
 page_type: entity
 title: "Frances 'Fran' Whyel Coldren"
 aliases: ["Fran", "Fran Whyel", "Grandma Fran"]
-status: archived
+status: stable
 importance: critical
 relation_type: family
 date_created: 2026-06-23
-date_modified: 2026-07-12
+date_modified: 2026-07-13
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, maternal-line, influence, music-origin, Uniontown, WV, heritage]
 sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/dansynth/DANSYNTH.txt
+  - raw/self/dansynth/dansynth-scrape-phases-2-7.md
 related:
   - wiki/people/suzanne-frank
-  - wiki/self/ancestry
-  - wiki/self/overview
-  - wiki/interests/music/overview
-  - wiki/interests/music/concepts/sub-bass-signature
-  - wiki/mind/concepts/attachment-model
   - wiki/people/annie-ulmer
+  - wiki/self/ancestry
+  - wiki/places/117-belmont-circle
+  - wiki/places/155-virginia-ave
+  - wiki/timeline/events/fran-death-vigil
+  - wiki/interests/music/concepts/sub-bass-signature
 changelog:
+  - date: 2026-07-13
+    note: "Major expansion from DANSYNTH ingest: golf record, 117 Belmont, Palmer, gift protocol, vigil"
   - date: 2026-07-11
     note: "Full prose rewrite from data-dump stub"
-  - date: 2026-06-23
-    note: "Initial stub from corpus extraction"
 ---
 
 # Frances "Fran" Whyel Coldren
 
-## Overview
+Fran Whyel Coldren was Dan's maternal great-grandmother, his self-described
+biggest life influence, and — the DANSYNTH record makes clear — the closest
+thing Uniontown's country-club world had to a matriarch-sovereign. Born
+August 15, 1920 in Fort Martin, West Virginia, dirt-poor, she married into
+coal money, dominated the Uniontown Country Club's fairways for decades from
+her house on its edge, bankrolled Dan's music career at its origin, and died
+in 2018 in a wing of the hospital she and her husband Ira had endowed — with
+Dan and [[wiki/people/annie-ulmer|Annie]] the only two people in the room.
+Her final years, with Dan and Annie as her paid 24/7 caregivers, are the
+best-documented chapter of his life before the message corpus begins, and
+the one he identifies as the time he felt he was making a real difference.
 
-Frances Thomas Whyel Coldren — called Fran by everyone who knew her — was Dan's maternal great-grandmother and, by his own account in [[wiki/self/context-core]], the single biggest life influence he had. She was born August 15, 1920, in Fort Martin, West Virginia, and died April 4, 2018, in Uniontown, Pennsylvania, at approximately 97 or 98 years old. She outlived nearly every contemporary, most of her children's generation, and the era she was born into by several decades.
+## The athlete of Belmont Circle
 
-The arc of her life was improbable: dirt-poor origins in the coal country of northern West Virginia, a marriage into coal-baron money, a third husband who was a 33rd-degree Mason, and a social orbit that reportedly included Arnold Palmer. She spent her final decades in Uniontown, embedded in the same Fayette County community where the Frank family has concentrated for generations. She is one of the primary human anchors of the [[wiki/self/ancestry]] synthesis and the origin point of the one material artifact that most directly shaped Dan's creative identity: a Numark NS7 DJ controller, which she gifted him.
+The record preserves her local-legend credentials precisely. In **1969 she
+recorded a hole-in-one at the Uniontown Country Club** — the 153-yard No. 11,
+struck with a No. 5 wood — and she later **won the UCC Women's Golf Crown,
+shooting 342 over 72 holes to win by seven strokes**. The reach wasn't
+confined to the club: a photographed commemorative pin records a **200 game
+at Manor Lanes**, and family photographs place her beside **Arnold Palmer's
+private plane** — she was socially close with the King himself, western
+Pennsylvania golf royalty by association as well as by scorecard.
 
-## The NS7 and the Music Connection
+The seat of all of it was **117 Belmont Circle**, the three-story house on
+the edge of the UCC fairway she occupied for over fifty years
+([[wiki/places/117-belmont-circle]]). Directly next door, for those same
+five decades, lived Annie Ulmer's grandparents — the families "super tight
+for fucking ever." That adjacency is the physical root of the Uniontown
+generational loop: Dan's mother dated Annie's father in high school
+([[wiki/people/suzanne-frank]]), and two generations later Dan and Annie's
+own decade began sixty feet from where their families' had.
 
-The Numark NS7 is not a casual gift. It is a professional-grade DJ controller — the kind of hardware that signals a real investment in someone's future as a producer. That Fran made that gift is the biographical fact that anchors the entire [[wiki/interests/music/overview]] narrative to something older than the music itself. The gift connected Dan to his production identity at the moment it was forming. The sub-bass signature that runs across thirteen years and four production aliases — documented in [[wiki/interests/music/concepts/sub-bass-signature]] — has its origin point in an instrument that came from a 90-something woman from Fort Martin, WV.
+## The patron
 
-The interpretation offered in the core documents is that this is not coincidental. The sincere creative channel and the family inheritance are the same event.
+Fran ran a documented gift protocol — **$100 per year of the recipient's
+life** (age 20 = $2,000) — and at the hinge of Dan's career she deployed it
+with intent: she gave him a **Numark NS7 II DJ controller** plus a
+significant check, the seed capital and hardware of the entire production
+identity. Every alias since — SLOPPP, MOGZART, GRIPNOTIC — and the
+involuntary sub-bass signature that runs through them
+([[wiki/interests/music/concepts/sub-bass-signature]]) trace back to the
+patronage of a woman born in a West Virginia coal town in 1920. The corpus
+treats the gift as the moment the family inheritance and the sincere
+creative channel became the same thing.
 
-## The Deathwatch
+## The caregiving years (~2015–2018)
 
-The seven-day deathwatch at the end of Fran's life is documented in [[wiki/self/context-core]] as a significant biographical fact for reasons beyond the obvious. It was attended throughout by both Dan and [[wiki/people/annie-ulmer]] — making it one of the few events in the Annie-period record where both of them are present in a context that is entirely outside the relational conflict dynamic. The deathwatch happened in 2018, three years into the Annie relationship and two years into the poverty-floor and deep-cycle period at 155 Virginia Ave. What it means that Annie was present for Fran's death — as one of only two people there throughout — is a detail the corpus tracks without resolving.
+As her dementia and physical health declined, Dan and Annie — living at
+[[wiki/places/155-virginia-ave|155 Virginia Ave]], on the lot adjacent to
+hers — were **paid as her round-the-clock caregivers**, executing her
+standing directive: "Stay in this house as long as humanly possible." The
+record's texture from those years is unlike anything else in the corpus:
+Dan entertaining her with GTA V stage-mode chaos (her review: "WHAT. THE
+[EXPLETIVE]. IS HAPPENING"); the photograph of her posing delightedly with
+his glass bong, which she had mistaken for "a lovely vase," a gray
+sweatshirt in the background accidentally composing itself into rising
+smoke. He treated a 97-year-old with dementia as a peer, and the record
+suggests she gave as good as she got.
 
-There is also the matter of Fran and Annie's grandmother ("Sugie") having been Uniontown country-club neighbors for fifty years. The Uniontown Generational Loop, as the Gemini analysis termed it, is the phenomenon of Dan's life circling back through the same geographic and social territory across generations. Fran is one of the nodes that makes that loop visible.
+The vigil's end — the 8 AM fall ("Down Goes Frazier"), the nursing home
+that consumed her in two weeks exactly as she'd predicted, the pediatric
+wing, the water shutdown, the snowstorm minutes after she died — is
+documented in full at [[wiki/timeline/events/fran-death-vigil]].
 
-## Heritage Context
+> **CONTRADICTION (death date):** The GEDCOM primary source records her
+> death as **April 4, 2018**. The DANSYNTH narrative dates it **April 1,
+> 2018** — and builds meaning on the April Fool's date. One is wrong.
+> Candidate resolution: hospital transfer to the pediatric wing April 1,
+> death April 4 (which would preserve both dates); verify against the
+> Herald-Standard obituary or FindAGrave.
 
-Fran's West Virginia origins place her in the coal and industrial corridor of Appalachian Pennsylvania-West Virginia — the same terrain that produced the Fayette County gravitational pull that keeps drawing the Frank family back to Uniontown. The paternal line is Eastern European Jewish; the maternal line, through Fran, is Appalachian. Both lines carry patterns that recur in the psychological analysis: vertical authority structures to be suspicious of, intermittent financial catastrophe, family attachment patterns that are intense and unresolved, and a kind of resilience that looks from the outside like stubbornness.
+> **CONTRADICTION (age):** Core documents say she died at 98; the 1920
+> birth year makes her 97 at an April 2018 death. Unresolved.
 
-> **[Age discrepancy — unresolved]:** The core documents describe Fran as dying at age 98. The GEDCOM primary source gives her birth date as August 15, 1920, which would make her 97 at her April 4, 2018 death (she would have turned 98 in August 2018). Either the 1920 birth year in the GEDCOM is off by one, or the "98" in the context-core is rounded up. This should be verified against the Herald-Standard obituary or FindAGrave, both of which may carry the definitive year.
+## Why she matters to the architecture
+
+Fran is the one unambiguous positive anchor in the family record — the
+counterweight to the vertical-authority template everywhere else
+([[wiki/mind/synthesis/vertical-authority-skepticism]]). Structurally the
+relationship was lateral: peer humor, patronage without control, mutual
+delight. She is also the strongest documented evidence against reading
+Dan's low-altruism scores as incapacity — the 24/7 vigil, the
+caddying-before-deathbed double shifts, and the refusal to abandon her to
+institutional care are the record's clearest instance of sustained, costly
+devotion. And she is half of the reason the Annie relationship carried a
+"mythic, fated" charge: the deathwatch Dan and Annie kept together, three
+years into their decade, is the emotional high-water mark of the entire
+record of them as a couple.
 
 ## Timeline
 
 | Date | Event |
 |------|-------|
 | 1920-08-15 | Born, Fort Martin, Marion County, WV |
-| 1920s–1930s | Early residences in WV (Adkin, McDowell Co.; Cass, Monongalia Co.) |
-| ~1940 | Married; moved to Fayette County, PA area |
-| 1957–1959 | Travel records (Miami Beach arrivals) |
-| 1961 | Documented at Belmont Circle, Uniontown, PA |
-| ~2013–2016 | NS7 gifted to Dan (exact year unconfirmed; tied to SLOPPP/MOGZART alias era) |
-| 2018-04-04 | Death, Uniontown, PA. Seven-day deathwatch with Dan and Annie present throughout |
+| ~1940 | Marriage; moves into Fayette County PA orbit |
+| 1961 | Documented at Belmont Circle, Uniontown |
+| 1969 | Hole-in-one, UCC No. 11 (153 yd, No. 5 wood) |
+| (undated) | UCC Women's Golf Crown (342/72 holes, won by 7); Manor Lanes 200 pin |
+| ~2009–10 | NS7 II + check gifted to Dan ("$100/year" protocol) |
+| ~2015–2018 | Dementia decline; Dan + Annie as paid 24/7 caregivers |
+| 2018-03 | The fall; nursing home; hospital pediatric wing |
+| 2018-04-01/04 | Death, Uniontown Hospital (date contradiction above); snowstorm minutes later |
 
-> **See also:** [[wiki/self/ancestry]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/mind/concepts/attachment-model]]
+**Gaps:** which husband "Ira" was (the coal-baron marriage, the 33rd-degree
+Mason third husband, and Ira's law practice with Judge Fred Adams are not
+yet reconciled into one marital sequence); the estate's disposition after
+2018; the exact NS7 gift date.

@@ -8,6 +8,8 @@ date_modified: 2026-07-13
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
+  - raw/self/dansynth/DANSYNTH.txt
+  - raw/self/dansynth/dansynth-scrape-phases-2-7.md
 related:
   - wiki/people/alexis-armel
   - wiki/people/annie-ulmer
@@ -33,7 +35,24 @@ cycle" (peak chaos and output, multiple dealers, ~40k messages/year —
 [[wiki/timeline/periods/2018-deep-cycle]]) all played out at this address.
 He left it for Manhattan in February 2019.
 
-The address is the physical anchor of the record's bleakest quantified
+The DANSYNTH ingest added the address's deepest layer: 155 Virginia sits
+**adjacent to [[wiki/places/117-belmont-circle|117 Belmont Circle]]** —
+Fran's house on the Uniontown Country Club fairway — on a boundary the
+Frank/Whyel and Ulmer families shared for fifty-plus years. Living there
+put Dan and Annie next door to the caregiving job that defined the era:
+they were Fran's paid 24/7 caregivers until her March 2018 fall
+([[wiki/timeline/events/fran-death-vigil]]). On March 29, 2018 — during
+the terminal vigil — Dan was served an eviction notice for 155 Virginia by
+Dian V. Moore, demanding the keys; the residence timeline has him staying
+until February 2019, so the notice's outcome is undocumented.
+
+> **CONTRADICTION (Bacharach setting):** The DANSYNTH scrape states that
+> novelist Jacob Bacharach used **155 Virginia Avenue** as the primary
+> setting of a published work. Prior wiki sources (Gemini-_13 audit) put
+> the novel's setting at **337 Saratoga Drive**, the childhood home. One
+> address is wrong — see [[wiki/people/jacob-bacharach]] for the flag.
+
+The address is also the physical anchor of the record's bleakest quantified
 period, and its four years contain the relationship genesis whose closure
 in 2026 the whole corpus orbits. The 2015 retail-theft arrest and ARD
 process also fall in its first months

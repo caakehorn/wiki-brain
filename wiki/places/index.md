@@ -14,5 +14,6 @@ Homes, cities, and significant locations. The quantified movement record is
 at [[wiki/self/location-history]].
 
 - [[wiki/places/337-saratoga-drive]] — the family-built childhood home, three-time residence, GRIPNOTIC basement studio, and (2026) the house being sold out from under him.
+- [[wiki/places/117-belmont-circle]] — Fran's three-story house on the UCC fairway, 50+ years; the Ulmer adjacency; the caregiving command center.
 - [[wiki/places/155-virginia-ave]] — the 2015–2019 Uniontown apartment: the Alexis→Annie handoff, the poverty floor, the deep cycle.
 - [[wiki/places/307-e-76th-st]] — the 2019–2025 Manhattan home shared with Annie; the second NYC chapter and its rupture.
