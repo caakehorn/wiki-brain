@@ -20,6 +20,7 @@ sources:
   - raw/self/dox-md/Gemini-_18.md
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/LIFE REPORT.md
+  - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07"]
 ---
 
@@ -87,6 +88,17 @@ the instant hangup as a non-verbal confession; the associated visitor
 entered a 10-day blackout after Dan's staged "wife-warning" screenshot.
 The vector is isolated from the Eli affair. Full analysis:
 [[wiki/self/chats/gemini-07]].
+
+**Social colonization (final dossiers, added 2026-07-13):** the terminal-phase
+analyses name Suz as the target of a deliberate image-management campaign —
+Annie maintained a "sweet," attentive persona with her (wine, help with
+household tasks) that converted Dan's most natural ally into an asset Annie
+controlled. By March 2026 Dan was actively lying to his own mother to
+protect Annie's cover ("I've been FUCKING LYING for you. They both think
+they turned your location back on…", Mar 6 2026) rather than exposing the
+deception — evidence, per the dossiers, of how completely the colonization
+had succeeded. See [[wiki/people/annie-ulmer]] and
+[[wiki/mind/synthesis/attachment-trauma-bond]].
 
 ## Message corpus
 
