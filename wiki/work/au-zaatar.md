@@ -48,7 +48,7 @@ amendments add the mechanics and the verdict: the employer cut his hours
 through June–August 2024 in a pattern Dan read in real time as maneuvering
 to force a quit and dodge unemployment obligations ("lowering my hours so
 much that it's not even worth staying," Aug 6 2024); he dropped resumes
-from July 9 onward, filed for unemployment August 8, and the loss is
+from July 9 onward, filed for unemployment on August 8, and the loss is
 ruled **involuntary** (Amendment 2, ACCEPTED) — the fact that reframes
 Annie's late-2024 "you never work" grievances as locally valid but
 historically partial.
