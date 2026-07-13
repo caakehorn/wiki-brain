@@ -5,7 +5,7 @@ status: stable
 date_created: 2026-06-22
 date_modified: 2026-07-02
 sources: ["raw/self/dox-md/Gemini-_13.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Jacob Bacharach.md"]
-related: ["wiki/self/chats/gemini-13", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/self/context-core", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start"]
+related: ["wiki/self/chats/gemini-13", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/self/context-core", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/interests/favorites/books"]
 ---
 
 # Jacob Bacharach
@@ -13,6 +13,8 @@ related: ["wiki/self/chats/gemini-13", "wiki/mind/concepts/forensic-method", "wi
 ## Identity
 
 Jacob Bacharach — Uniontown-raised novelist (*The Bend of the World*, 2014) and Chapo Trap House guest, a childhood neighbor of the Frank family from the Saratoga Drive area. As a teenager he was hired by Dan's father Rick Frank to act in a commercial for the family auto-parts store, and Dan remains in intermittent contact with him. He is significant to the self-model less as an active relationship than as the subject of the "Bacharach coincidence chain" — the most fully worked example of Dan's forensic analytic engine applied to his own hometown, reconstructed at length in [[wiki/self/chats/gemini-13]]. There is no message corpus; all detail comes from that Gemini session and the context core.
+
+The relationship runs deeper than the coincidence chain alone suggests: per Dan's Goodreads library, he has read and rated two of Bacharach's books at the maximum five stars — *The Bend of the World* and the 2022 novel *The Doorposts of Your House and on Your Gates* — making Bacharach one of a small number of authors Dan has read multiple full-length works from and rated top-shelf across the board (see [[wiki/interests/favorites/books]]).
 
 ## The Coincidence Chain
 

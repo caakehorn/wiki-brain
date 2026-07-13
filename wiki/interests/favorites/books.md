@@ -4,7 +4,7 @@ page_type: synthesis
 status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
-sources: ["raw/self/favorites/FAVS MASTERLIST.csv", "raw/self/dox-md/FAVORITES DATA (2).md"]
+sources: ["raw/self/favorites/FAVS MASTERLIST.csv", "raw/self/dox-md/FAVORITES DATA (2).md", "raw/self/google-drive-export/goodreads_library_export.md"]
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/overview", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/timeline/events/timeline"]
 ---
 
@@ -112,6 +112,16 @@ This snapshot enriches the 120-book corpus with specific consumption timestamps 
 | philosophy | 12 |
 
 See topic pages in [[wiki/interests/favorites/books/topics/]].
+
+## 2025 update (fresher Goodreads export)
+
+A second, more recent Goodreads export (`raw/self/google-drive-export/goodreads_library_export.md`, 103 rows, 63 marked "read") extends the record into mid-2025 and adds one notable cross-link the master list didn't carry.
+
+Most recent reads by date: *The Price of Justice* (Leamer, Jan 20 2025, ★★★★) → *All or Nothing: How Trump Recaptured America* (Wolff, May 20 2025, ★★★★) → *Shocking Psychological Studies and the Lessons They Teach* (Polk, May 20 2025, ★★★) → *The Politics of Fear* (Goldwag, May 20 2025, ★★★) → *Abundance* (Klein, Jul 16 2025, ★★★ — re-logged; also appears "to-read" elsewhere in the same export, likely a re-read or duplicate entry). The Wolff read means all four of his Trump-era books plus this fifth (2025) volume have now been read — a complete-series read of one author, consistent with the existing Top Authors table.
+
+**New cross-link:** [[wiki/people/jacob-bacharach]] has a second title in the export — *The Doorposts of Your House and on Your Gates* (2022, fiction) — rated the maximum ★★★★★, distinct from *The Bend of the World* (the novel involved in the [[wiki/places/155-virginia-ave]] coincidence chain). Two of his books read and both top-rated; this is a more substantial reading relationship than the "childhood neighbor, one novel" framing on his page currently suggests.
+
+Also newly visible: *None of This Rocks* (Joe Trohman of Fall Out Boy, memoir, ★☆☆☆☆ — the corpus's only 1-star rating, read Feb 2023) and *Hummingbird: Essays* (Jude Angelini, ★★★★★, memoir/personality) — both worth a look from [[wiki/interests/music]] if a fuller pass is ever done on the memoir/personality cluster.
 
 ## Patterns
 
