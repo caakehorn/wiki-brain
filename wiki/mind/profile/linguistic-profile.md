@@ -13,6 +13,7 @@ sources:
 related:
   - wiki/mind/profile/index
   - wiki/mind/profile/deviance-mapping
+  - wiki/mind/profile/voice-modes
   - wiki/self/context-core
   - wiki/self/twitter
 ---
@@ -114,3 +115,8 @@ emotional peak, seeded ambient modifiers, ending on a probe.
 analysis exists of the lyric/production-adjacent writing or of speech
 (voice memos, calls); temporal drift analysis is anecdotal ("earlier AI
 sessions test the model, later ones integrate it") rather than quantified.
+
+See [[wiki/mind/profile/voice-modes]] for the emotional-state layer on top
+of this baseline — eight distinct modes (Neutral, Playful, Affectionate,
+Irritated, Persuasive, Storytelling, Stressed, Reflective) that each
+amplify and suppress specific mechanics documented here.

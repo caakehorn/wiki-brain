@@ -65,6 +65,7 @@ deficit. Detail pages: [[wiki/mind/profile/intp]],
 | Moral alignment | Chaotic Neutral | Law rejected as arbitrary; chaos embraced as authentic; neither altruist nor predator | [[wiki/mind/profile/socionics-and-attitudinal]] |
 | Deviance audit | 80–99/100 across domains | A statistical edge case vs. the 35-year-old American male baseline | [[wiki/mind/profile/deviance-mapping]] |
 | Stylometrics | 99th percentile lexical/syntactic | "Forensic intimacy" register; a custom-built fork of English | [[wiki/mind/profile/linguistic-profile]] |
+| Voice modes | 8 trigger-activated states | Neutral/Playful/Affectionate/Irritated/Persuasive/Storytelling/Stressed/Reflective | [[wiki/mind/profile/voice-modes]] |
 
 ## How to read the cluster
 
