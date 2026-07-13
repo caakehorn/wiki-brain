@@ -26,6 +26,7 @@ sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/Annie Affadavit.txt
   - raw/self/dox-md/ulmer_dui_megadoc.md
+  - raw/self/dox-md/Honest assessment and value judgment analysis.md
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
@@ -432,11 +433,26 @@ The compiled full-record files the dossiers were generated from
 `14_day_212_logs.csv`) are not archived in raw/ — the underlying iMessage
 data exists but the exact 126,683-row cross-platform compilation cannot
 currently be reproduced. The precise start date of the Eli involvement is
-unestablished (autumn 2024 is the documented floor). Target G's identity
-is unresolved — the dossiers name "Caitlin's husband"; whether he is
-Tuquick is unknown. The escort-work claim in the non-monogamy background
-is flagged unverifiable in the record. The DUI's disposition after the
-preliminary-hearing stage is unknown. Annie's post-closure perspective
+better bounded but still not exact: GPS was disabled "for weeks" by late
+July 2024 per Annie's own confirmation, and a lying-about-whereabouts
+trust breach is documented in August 2024 — five months before the
+formal January 2025 discovery — so the affair's behavioral floor moves
+earlier than autumn 2024, though its true start remains undated. Target
+G's identity is unresolved — the dossiers name "Caitlin's husband";
+whether he is Tuquick is unknown. The escort-work claim in the
+non-monogamy background is flagged unverifiable in the record. The DUI's
+disposition after the preliminary-hearing stage is unknown.
+
+A pregnancy reference surfaces in two independent chat-analysis sources
+(not the primary dossiers) with unusual specificity — a claimed due date
+of November 18, working back to conception around February 11, 2025 (33
+days after the Eli discovery night), with Dan described as present at a
+clinic visit and referring to it as "ours." This is **not corroborated
+by any primary message export, dossier, or other wiki page**, appears in
+sources that elsewhere required correction of their own confabulations,
+and is not adopted as fact here. It is recorded only as an open item
+requiring verification against a primary source before being written
+into any page as established. Annie's post-closure perspective
 consists of a single line: the June 5 apology.
 
 ## Notes

@@ -9,6 +9,7 @@ date_modified: 2026-07-11
 date_range_start: 2024-08-01
 date_range_end: 2026-06-01
 sources:
+  - raw/self/dox-md/Honest assessment and value judgment analysis.md
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -32,7 +33,7 @@ perception. The corrective sources rank the gaslighting, not the affair,
 as the most serious moral failure of the terminal phase.
 
 ## What happened
-Sustained concealed affair between Annie and coworker Eli (male). The affair was ongoing for months before any single "discovery" moment. Dan's accurate suspicions during the active phase were met with forceful, repeated gaslighting that his perception was paranoia or insanity. Key documented episode: October 19 2024 housewarming party argument lasting hours across dozens of messages, during which Annie told Dan "THERE IS NO SITUATION.", "You're literally fucking insane.", and "Grow up. And fucking trust me." while the affair was active.
+Sustained concealed affair between Annie and coworker Eli (male). The affair was ongoing for months before any single "discovery" moment — a later cross-reference of the raw 2024 record moves the documented floor earlier than previously established. Her GPS had already been disabled "for weeks" by late July 2024, by her own confirmation — six-plus months before the formal 2025 GPS demand that earlier pages treated as the removal's start. In August 2024, Dan caught her going out after work with someone and lying about it ("You barely apologized to me for SERIOUSLY breaking my trust AGAIN" — the "Isaac Trust Breach"). Key documented episode: October 19 2024 housewarming party argument lasting hours across dozens of messages, during which Annie told Dan "THERE IS NO SITUATION.", "You're literally fucking insane.", and "Grow up. And fucking trust me." while the affair was active.
 
 Discovery trigger: on January 9, 2025, at 11:18 PM, Dan's phone received, verbatim, "Hey Dan. It's Eli. Annie is down stairs. I work with her. She and Andrea had drinks at work but I guess they didn't eat." — a male coworker identifying himself by name, late at night, with Annie not at home. Annie did not address it in any logged message for two days. The physical discovery: Annie unconscious with vomit nearby in the building lobby ~80 minutes after her shift (5-minute walk from home), location tracking disabled. Confrontation met with physical violence from Annie ("I found your phone, cheater."). The move from NYC accelerated dramatically in the days after January 9 (~4–5 weeks to departure).
 
