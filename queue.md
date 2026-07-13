@@ -46,3 +46,13 @@ frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-
 |------|----------|-------|
 | Full synthesis of 6 unread DanAnnie dossiers (raw/self/dox-scan/: MasterRecord_FINAL, TenYears_WithAmendments, TheoryOfEverything_Updated, CompleteRecord_Final, CompleteAnalysis_Final, MoralAnalysis_SFW; "2"-prefixed files are byte-identical dupes) | HIGH | ~300k chars of analysis newer than what annie.md was built from. Key findings already folded into annie.md + march-2026-terminal-phase; full pass should enrich attachment-trauma-bond, conflict-architecture, eli-incident |
 | Locate compiled full-record files: Dan_Annie_Full_Text.txt, 1_year_triad_logs.csv, 7_days_212_logs.csv, 14_day_212_logs.csv | MEDIUM | Cited by dossiers, absent from disk — likely on the machine where the dossiers were generated. Drop into inbox/ when found |
+
+## Enrichment backlog (2026-07-13, from user directive — "thousands of trivial missing things")
+- [ ] HIGH: chats/ pages cleanup — remove /tmp paths + HTML-comment agent chatter; rewrite to prose (gemini-02/-18/-21 worst)
+- [ ] HIGH: people primary cast depth pass (rick-frank, tom, eli, anita, fran-coldren...) — mine LIFE_EVENTS_CALENDAR + message CSVs per person, per the annie.md standard
+- [ ] MED: GRIPNOTIC/MOGZART full release catalogs (needs SoundCloud/Spotify export ingest — ask user for exports)
+- [ ] MED: places/ expansion: 12 Bryer Ave, Uniontown, NYC chapters, Ohiopyle, Seven Springs, Au Za'atar location page
+- [ ] MED: health/ expansion: withdrawal-episodes page, somatic record, sleep/vampire schedule
+- [ ] MED: timeline events that deserve articles: 2015 Combos arrest done; candidates from calendar — Fran deathwatch (2018), freezer phone, J6 watching, Feb 2025 return drive
+- [ ] LOW: work/tech: Bunker Core page, MAX interview system page (CATO §PROJECTS has specs)
+- [ ] LOW: dedupe `related:` lists created by the 2026-07-13 link rewrite (some pages now link forensic-method twice)
