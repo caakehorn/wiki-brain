@@ -3,8 +3,8 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-02
-sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx"]
+date_modified: 2026-07-13
+sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx"]
 related: ["wiki/people/kristin", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/mind/concepts/attachment-model", "wiki/self/gemini-activity/gemini-activity", "wiki/self/chats/gemini-18"]
 ---
 
@@ -12,7 +12,9 @@ related: ["wiki/people/kristin", "wiki/people/suzanne-frank", "wiki/people/annie
 
 ## Identity
 
-Tom Maison — Dan's primary male ally and the clearest instance of safe, lateral (peer, non-paternal) attachment in the corpus. He is also the "Tom" of the October 2024 incident referenced on [[wiki/people/annie-ulmer]]: a participant, alongside Dan and Annie, in the couple's established quasi-non-monogamous arrangement (2018–2024) — the dossiers' final assessment revises that encounter from apparent coercion to exhaustion-within-an-established-consensual-framework, with Tom as one of the recurring participants Dan selected specifically because he was a friend he could manage the aftermath with. About three weeks older than Dan, based in the Pittsburgh area, with Ohiopyle excursions a recurring shared setting. He functions simultaneously as anchor and supply line (Suboxone, mushrooms, cocaine, klonopin), and is described as "the one place Dan is not performing." The friendship dates to roughly 2010 and remains active. Handle +17249987341 (~4,160 messages in the master dump; a further ~1,600 under phloxenheim@gmail.com). Tom is also the connective tissue to [[wiki/people/kristin]], whose intense late-2025 thread runs through his social circle.
+Tom Maison — Dan's primary male ally and, for most of the corpus, the clearest instance of safe, lateral (peer, non-paternal) attachment in the record. He is also the "Tom" of the October 2024 incident referenced on [[wiki/people/annie-ulmer]]: a participant, alongside Dan and Annie, in the couple's established quasi-non-monogamous arrangement (2018–2024) — the dossiers' final assessment revises that encounter from apparent coercion to exhaustion-within-an-established-consensual-framework, with Tom as one of the recurring participants Dan selected specifically because he was a friend he could manage the aftermath with. About three weeks older than Dan, based in the Pittsburgh area, with Ohiopyle excursions a recurring shared setting. He functions simultaneously as anchor and supply line (Suboxone, mushrooms, cocaine, klonopin), and was described, through most of the record, as "the one place Dan is not performing." The friendship dates to roughly 2010. Handle +17249987341 (~4,160 messages in the master dump; a further ~1,600 under phloxenheim@gmail.com). Tom is also the connective tissue to [[wiki/people/kristin]], whose intense late-2025 thread runs through his social circle.
+
+**The characterization above no longer holds without qualification.** The final months of the message record (March–May 2026) document the friendship's collapse under exactly the supply-line strain the "anchor" framing depended on. See "The Collapse (Spring 2026)" below.
 
 The Tom/Kristin dossier characterizes Tom as an irony-poisoned stoic — a pragmatic "narco-logistician" who stays unflappable through Dan's suicide threats and withdrawals, offering validation without judgment or any push toward rehab. In the Gemini-_18 profile transfer he is framed as "primary peer collaborator… core close friend and external peer collaborator" engaged in recurring creative and technical dialogue — the role designated as social-graph redundancy after the Annie closure.
 
@@ -22,8 +24,8 @@ The Tom/Kristin dossier characterizes Tom as an irony-poisoned stoic — a pragm
 |--------|-------|
 | Total messages (master) | 4,160 (handle +17249987341); ~1,603 more under phloxenheim@gmail.com |
 | Volume rank | #5 in the master top handles (after the Annie threads and Kristin) |
-| Date range | Documented friendship 2010–2022+; ongoing |
-| Peak periods | 2017–2018 (supply during the poverty floor), 2025 collapse |
+| Date range | Documented friendship 2010–May 30 2026 (last dated message) |
+| Peak periods | 2017–2018 (supply during the poverty floor), 2025 Annie collapse, spring 2026 (own collapse — see below) |
 
 ## Behavioral Counts (Tom)
 
@@ -35,11 +37,11 @@ The Tom/Kristin dossier characterizes Tom as an irony-poisoned stoic — a pragm
 
 ## Behavioral Counts (Dan, Calibrated)
 
-Dan's reliance on Tom is high during mutual alignment and drops to blocking behavior during asymmetric periods (when Tom owes and goes silent). The relationship reads as a reliable lateral ally when incentives align and an unreliable one when they don't — a pattern distinct from the vertical/paternal loads elsewhere in the graph.
+Dan's reliance on Tom is high during mutual alignment and drops to blocking behavior during asymmetric periods (when Tom owes and goes silent). The relationship reads as a reliable lateral ally when incentives align and an unreliable one when they don't — a pattern distinct from the vertical/paternal loads elsewhere in the graph. The spring 2026 collapse (below) shows this same pattern running to actual rupture rather than self-correcting: real blocking, real financial accusations, real threat of third-party (Phil) involvement.
 
 ## Domain: Self
 
-Safe attachment with no forensic mode engaged — notable precisely because almost every other major relationship in the corpus triggers analysis. See [[wiki/mind/concepts/attachment-model]] and the collapse-period supply role in [[wiki/timeline/periods/2025-collapse]].
+Safe attachment with minimal forensic mode engaged through most of the record — notable precisely because almost every other major relationship in the corpus triggers analysis. That distinction narrows at the very end: by May 2026 the friendship is generating its own documented conflict-escalation and blocking behavior, the same architecture seen elsewhere in the corpus, just at lower amplitude. See [[wiki/mind/concepts/attachment-model]] and the collapse-period supply role in [[wiki/timeline/periods/2025-collapse]].
 
 ## Texture from the corpus
 
@@ -63,6 +65,58 @@ undertow: a March 24 message, "Will you talk to me for a little bit?", lands
 after a stretch of one-sided sends — the same lateral-ally-goes-quiet pattern,
 this time with Tom on the asking side.
 
+## The Collapse (Spring 2026)
+
+The phloxenheim thread runs continuously from March 24 through May 30, 2026
+(the last dated message in the corpus for either handle), and read in full it
+documents the friendship coming apart under its own supply-line economics —
+not a single rupture but an accelerating cycle of the same "owe-and-silence"
+pattern noted above, run enough times to burn out the reserve of goodwill it
+had always run on.
+
+**Late March: parallel breakups, mutual scaffolding.** The month opens with
+real reciprocity — the two trade AI-manipulation tactics for their respective
+relationships (Tom workshopping an "art of seduction" strategy on a new,
+short-lived girlfriend; Dan running Annie/Kristin analysis prompts for him),
+and Dan talks Tom through a possible suicidal ideation on March 31 ("I'm a
+fucking mess Dan and I'm gonna make it your problem" / "considering the rope
+just so this stops") with the same dark, deflecting affection that defines
+the friendship at its best ("YOU were the one who kept popping it... you
+don't get to be fucking emo"). This is the friendship functioning as designed.
+
+**April: the transactional layer visibly thins.** Sub (Suboxone) handoffs
+continue on a roughly weekly cadence, but delays start compounding — missed
+windows ("4p?" / "???" / "helllooo" un-answered for hours on Apr 10),
+Dan's April 9 "I am going to be totally out of subs so please figure it out"
+already reads as a person managing a supplier, not a friend. By late April
+Tom has cycled through a new girlfriend ("Brandy") and started declining
+Dan's calls to be with her ("I can't really talk. I have Brandy here with
+me."), which Dan needles as a status reversal — "NOW I AM COOLGUY... SORRY
+CAN'T TALK COOLGUY HAS A GIRL IN HIS BED."
+
+**May: the supply relationship fails and the friendship fails with it.** The
+pattern of "cash app me $30, I'll give you 2" repeats through early May with
+growing friction (Annie's ex-boyfriend commentary, DUI-court scheduling
+conflicts on Tom's side). It reaches its breaking point on May 15–16: Tom
+promises to bring subs after "weed whacking," goes silent for hours while
+Dan escalates from "Tom / What the uck" through repeated unanswered pings to
+"Come on dude seriously" to "Fuck you dude" — Dan facing a real consequence
+(calling off work, risk of termination) from the no-show. By May 18 Dan has
+apparently blocked Tom and unblocks him only to set an ultimatum ("I'm
+unblocking you for the moment — if you want to let me know what's going on
+this morning I'll keep it open otherwise fuck you"), then pivots the same day
+to a straight financial demand: "How long will it take you to get the $36
+you owe me / I don't want the tex I want the money back." The thread goes
+quiet for eleven days. It resumes May 29 with Dan accusing Tom of running "a
+$30 come up" on him, and by May 30 — the record's last message on this
+thread — Dan is threatening to route the dispute through Tom's father: "if it
+really becomes necessary I can just explain to Phil that I would like the
+object back that is very obviously not something that tom got."
+
+The record ends there, unresolved: no reconciliation, no formal severance,
+just the same silence pattern that used to resolve itself running out its
+string. Whether the friendship recovers past May 30, 2026 is not documented.
+
 ## Domain: Tech
 
 Recurring conversations on AI, image generation, agentic tooling, and bots —
@@ -77,11 +131,18 @@ out in the phloxenheim thread above.
 | 2017–2018 | Supply and anchor during the poverty floor |
 | 2020-09 | FSLY stock tip |
 | 2024 | Political-burst exchanges |
-| 2025 | Supply during the collapse; recurring silence patterns |
+| 2025 | Supply during the Annie collapse; recurring silence patterns |
+| 2026-03-31 | Dan talks Tom through crisis/suicidal ideation ("I'm gonna make it your problem") |
+| 2026-04 | Sub-supply delays compound; Tom's "Brandy" relationship displaces call availability |
+| 2026-05-15/16 | No-show breaking point: Dan risks his job over an unfulfilled sub promise |
+| 2026-05-18 | Dan blocks/unblocks Tom; pivots to demanding the $36 owed back as cash, not product |
+| 2026-05-29/30 | Renewed accusation ("$30 come up"); Dan threatens to go through Tom's father Phil over a disputed possession — last dated message in the record |
 
 ## Notes
 
-The BFS bootloader records a small standing debt ("Tom still in Uniontown, $36 still owed") — trivial in itself but characteristic of the owe-and-silence dynamic noted above.
+The BFS bootloader records a small standing debt ("Tom still in Uniontown, $36 still owed") — consistent with, and likely the same debt named in, the May 18 2026 demand documented in the Collapse section above; what reads elsewhere as trivial is, by that point, the proximate trigger of an actual rupture.
+
+**Gaps:** whether the friendship recovered after May 30, 2026 is undocumented — the record simply stops. "Phil" (referenced as the person Dan would appeal to) is presumed to be Tom's father or stepfather; unconfirmed. The identity of Tom's spring-2026 girlfriend(s) — first an unnamed "cabin"/pagan-occult partner, then "Brandy" — is not established beyond first names.
 
 ## Related
 
