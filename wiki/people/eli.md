@@ -24,7 +24,9 @@ related:
 Eli is the man [[wiki/people/annie-ulmer|Annie]] had the concealed affair
 with — a male coworker from her NYC restaurant world whose relationship
 with her ran through at least autumn 2024 and whose discovery in January
-2025 ended the decade-defining relationship of Dan's life. He has almost no
+2025 ended — in substance, if not yet in form — the decade-defining
+relationship of Dan's life (the formal closure came June 1, 2026, after a
+fifteen-month terminal phase). He has almost no
 independent presence in the record: no message thread, no social profile,
 barely a surname's worth of identity. What exists instead is his enormous
 *negative* footprint — "eli" appears 5,524 times in the Gemini activity
@@ -39,12 +41,14 @@ night — Annie found unconscious in her building lobby with him, ~80 minutes
 after a shift five minutes' walk away, her location sharing turned off — it
 was Eli who texted from her phone with the preemptive benign framing:
 "drinks at work but u guess they didn't eat" (an "Andrea" invoked as
-co-drinker). And in the later forensics, his vector is the one that
-survives noise-stripping: the Gemini-_07 clean-room analysis isolated the
-Eli/WhatsApp channel from all other suspicion targets and modeled Annie's
-subsequent ten-day blackout as a Grim Trigger — the behavior of "people who
-stopped caring enough to be careful" who suddenly recalculated the cost of
-detection. Full sequence and evidence: [[wiki/timeline/events/eli-incident]].
+co-drinker). In the later terminal-phase forensics his role inverts: the
+Gemini-_07 clean-room analysis *severed* the Eli/WhatsApp channel as
+"unrelated noise (Eli or another satellite)" — a separate, non-overlapping
+vector — from the "Target G" architecture (the January 4, 2026 "Suzy" call
+and the ten-day Grim Trigger blackout at the mother's house), which belongs
+to a different concealed male entirely. Eli's designation in that analysis
+is simply "the Eli/NYC chaos node." Full sequence and evidence:
+[[wiki/timeline/events/eli-incident]].
 
 ## The redaction protocol
 
