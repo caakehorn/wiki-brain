@@ -44,7 +44,7 @@ frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-
 
 | Item | Priority | Notes |
 |------|----------|-------|
-| Full synthesis of 6 unread DanAnnie dossiers (raw/self/dox-scan/: MasterRecord_FINAL, TenYears_WithAmendments, TheoryOfEverything_Updated, CompleteRecord_Final, CompleteAnalysis_Final, MoralAnalysis_SFW; "2"-prefixed files are byte-identical dupes) | HIGH | ~300k chars of analysis newer than what annie.md was built from. Key findings already folded into annie.md + march-2026-terminal-phase; full pass should enrich attachment-trauma-bond, conflict-architecture, eli-incident |
+| Full synthesis of 6 unread DanAnnie dossiers (raw/self/dox-scan/: MasterRecord_FINAL, TenYears_WithAmendments, TheoryOfEverything_Updated, CompleteRecord_Final, CompleteAnalysis_Final, MoralAnalysis_SFW; "2"-prefixed files are byte-identical dupes) | MEDIUM | **2026-07-13: all 6 dossiers read and fully synthesized into annie-ulmer.md** (full rewrite). Remaining: propagate same corpus into attachment-trauma-bond, conflict-architecture, eli-incident (arrangement context, CorrectiveAddendum framing, Target G) |
 | Locate compiled full-record files: Dan_Annie_Full_Text.txt, 1_year_triad_logs.csv, 7_days_212_logs.csv, 14_day_212_logs.csv | MEDIUM | Cited by dossiers, absent from disk — likely on the machine where the dossiers were generated. Drop into inbox/ when found |
 
 ## Enrichment backlog (2026-07-13, from user directive — "thousands of trivial missing things")

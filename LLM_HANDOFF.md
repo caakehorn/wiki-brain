@@ -54,6 +54,34 @@ with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
 
+### [2026-07-13] - Session: annie-ulmer.md full-completeness rewrite (user directive)
+* **Model:** Claude Fable 5 (Claude Code, remote)
+* **Summary:**
+  - User directive: rewrite annie-ulmer.md using ALL available data, as complete
+    as possible. Discharged the HIGH queue item: read all six FINAL/amended
+    DanAnnie dossiers end-to-end for the first time, plus CorrectiveAddendum,
+    ulmer_dui_megadoc, DUI affidavit, and the Gemini-_07 Target G forensics.
+  - Full rewrite of `wiki/people/annie-ulmer.md` (now 24KB, deliberately over
+    budget as the critical hub): new Who She Was section (MFC history, family,
+    genuine-early-love baseline, love-language trajectory 5.3%→0.1%→2.7%);
+    the 2018–2024 arrangement (smashonista, jealousy kink, Tom incident
+    revised coercion→exhaustion-within-consent per Part XIII); the corrected
+    central thesis per CorrectiveAddendum (gaslighting of *accurate*
+    perception = the central moral event; autumn-2024 "controlling" framing
+    retracted, GPS dual-reading partial credit withdrawn with a REVISED flag);
+    terminal-phase mechanism catalog (187:4, 44 moral-debt pivots, 13
+    weaponized apologies, controlled void, social colonization); Target G
+    section (Jan 4 2026 Suzy call, Whisk psyop, 10-day blackout, spoofed-number
+    corrected assessment); full DUI legal record (docket MJ-14101-CR-0000631-2025,
+    4 counts, MDJ Jason A. Cox); expanded timeline, metrics, and gaps.
+  - queue.md updated (dossier item HIGH→MEDIUM, remaining = propagate corpus
+    into attachment-trauma-bond / conflict-architecture / eli-incident).
+  - Lint 0 errors. Branch `claude/annie-ulmer-profile-ja1fte` (separate PR).
+* **Handoff Note:** The dossier corpus is now fully mined for the Annie page
+  but NOT yet for the synthesis/concept pages — that propagation is the next
+  natural chunk. If the page must be trimmed later, the arrangement and Target
+  G sections are the best split candidates (own pages).
+
 ### [2026-07-13] - Session: Second-brain principle encoded (earned vs derived knowledge)
 * **Model:** Claude Opus 4.8 (Claude Code, remote)
 * **Summary:**
