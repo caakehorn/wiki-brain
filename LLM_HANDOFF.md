@@ -54,6 +54,36 @@ with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
 
+### [2026-07-13] - Session: dossier corpus propagated to all linked pages (PR #7)
+* **Model:** Claude Fable 5 (Claude Code, remote)
+* **Summary:**
+  - Follow-up to the annie-ulmer.md rewrite (PR #6, merged). Fixed a
+    gemini-code-assist review comment on #6: the March 2025 admission quote
+    has inverted pronouns ("you lied to me... cheated on me" reads as an
+    accusation of Dan) — kept verbatim, attributed the reading to the
+    dossiers explicitly rather than asserting it silently.
+  - Propagated the fully-read DanAnnie dossier corpus into every page that
+    shares the material: eli-incident.md, eli.md (exact Jan 9 2025 text,
+    arrangement-violation framing), attachment-model.md,
+    conflict-architecture.md (final counts, confession-trap mechanism, full
+    monthly volume table), attachment-trauma-bond.md (quantified trajectory
+    section), dec-2025-spike.md + group-chat-closure.md (corrected Dec 2025
+    volume: 4,657 = 2,391+2,266, was miscounted 2,248 in the old page),
+    2015-2016-annie-relationship-start.md (dossier origin baseline),
+    march-2026-terminal-phase.md (eulogy/gas-station re-entry, bathroom
+    incident convergence detail), au-zaatar.md (involuntary job-loss per
+    Amendment 2), suzanne-frank.md (social colonization), tuquick.md
+    (Target G ambiguity sharpened), tom.md (arrangement context),
+    2025-collapse.md (financial substrate summary).
+  - queue.md: dossier-synthesis item marked DONE (remove on next cleanup).
+  - PR #6 merged before this work started; opened fresh PR #7 (draft) per
+    the merged-PR restart protocol. Lint 0 errors throughout.
+* **Handoff Note:** The corpus is now propagated to every page identified
+  as directly referencing the same dossiers. Not yet touched: forensic-method
+  concept page and any people/ stub pages that only tangentially mention
+  Annie — check those only if the user asks for a further pass. PR #7 is
+  being watched; check its status before starting new Annie-adjacent work.
+
 ### [2026-07-13] - Session: annie-ulmer.md full-completeness rewrite (user directive)
 * **Model:** Claude Fable 5 (Claude Code, remote)
 * **Summary:**

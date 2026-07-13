@@ -189,9 +189,14 @@ to prove it." On January 9, 2025 at 11:18 PM, Eli introduced himself by
 text ("Hey Dan. It's Eli. Annie is down stairs. I work with her.");
 the physical discovery — Annie unconscious in the building lobby,
 location sharing disabled, the confrontation met with violence — is
-covered at [[wiki/timeline/events/eli-incident]]. Annie's own March 2025
-message is the record's most direct admission: "you lied to me for months
-and cheated on me" (her words, describing herself). The affair ended
+covered at [[wiki/timeline/events/eli-incident]]. The record's most
+direct admission is a March 2025 message Annie wrote to Dan, verbatim:
+"you decided to split our lives up. you lied to me for months and
+cheated on me." The pronouns run backwards — read literally the sentence
+accuses Dan — but every dossier that cites it treats it as her
+acknowledgment of the months of lying and the cheating as established
+fact, and rates it "the most direct admission in the record." The
+grammatical oddity is preserved here rather than corrected. The affair ended
 with the February 2025 NYC departure; Eli stayed in New York.
 
 **The move (February 2025).** Weeks after the Eli text, Annie unilaterally

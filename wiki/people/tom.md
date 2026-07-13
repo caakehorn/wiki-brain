@@ -4,7 +4,7 @@ page_type: entity
 status: active
 date_created: 2026-06-22
 date_modified: 2026-07-02
-sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md"]
+sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx"]
 related: ["wiki/people/kristin", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/mind/concepts/attachment-model", "wiki/self/gemini-activity/gemini-activity", "wiki/self/chats/gemini-18"]
 ---
 
@@ -12,7 +12,7 @@ related: ["wiki/people/kristin", "wiki/people/suzanne-frank", "wiki/people/annie
 
 ## Identity
 
-Tom Maison — Dan's primary male ally and the clearest instance of safe, lateral (peer, non-paternal) attachment in the corpus. About three weeks older than Dan, based in the Pittsburgh area, with Ohiopyle excursions a recurring shared setting. He functions simultaneously as anchor and supply line (Suboxone, mushrooms, cocaine, klonopin), and is described as "the one place Dan is not performing." The friendship dates to roughly 2010 and remains active. Handle +17249987341 (~4,160 messages in the master dump; a further ~1,600 under phloxenheim@gmail.com). Tom is also the connective tissue to [[wiki/people/kristin]], whose intense late-2025 thread runs through his social circle.
+Tom Maison — Dan's primary male ally and the clearest instance of safe, lateral (peer, non-paternal) attachment in the corpus. He is also the "Tom" of the October 2024 incident referenced on [[wiki/people/annie-ulmer]]: a participant, alongside Dan and Annie, in the couple's established quasi-non-monogamous arrangement (2018–2024) — the dossiers' final assessment revises that encounter from apparent coercion to exhaustion-within-an-established-consensual-framework, with Tom as one of the recurring participants Dan selected specifically because he was a friend he could manage the aftermath with. About three weeks older than Dan, based in the Pittsburgh area, with Ohiopyle excursions a recurring shared setting. He functions simultaneously as anchor and supply line (Suboxone, mushrooms, cocaine, klonopin), and is described as "the one place Dan is not performing." The friendship dates to roughly 2010 and remains active. Handle +17249987341 (~4,160 messages in the master dump; a further ~1,600 under phloxenheim@gmail.com). Tom is also the connective tissue to [[wiki/people/kristin]], whose intense late-2025 thread runs through his social circle.
 
 The Tom/Kristin dossier characterizes Tom as an irony-poisoned stoic — a pragmatic "narco-logistician" who stays unflappable through Dan's suicide threats and withdrawals, offering validation without judgment or any push toward rehab. In the Gemini-_18 profile transfer he is framed as "primary peer collaborator… core close friend and external peer collaborator" engaged in recurring creative and technical dialogue — the role designated as social-graph redundancy after the Annie closure.
 

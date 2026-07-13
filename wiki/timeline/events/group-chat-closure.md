@@ -1,9 +1,9 @@
 ---
 domain: timeline
 page_type: event
-status: archived
+status: stable
 date_created: 2026-06-22
-date_modified: 2026-06-22
+date_modified: 2026-07-13
 date_range_start: 2026-06-01
 date_range_end: 2026-06-01
 sources:
@@ -13,6 +13,7 @@ sources:
   - raw/self/message-csv/annie_all_time_logs.csv
   - raw/self/message-csv/THE END FIGHT.csv
   - raw/self/message-csv/END_FIGHT_full.csv
+  - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
 related:
   - wiki/people/annie-ulmer
   - wiki/mind/concepts/attachment-model
@@ -34,7 +35,7 @@ This occurred concurrent with prior written denials of any third-party relations
 ## When
 June 1 2026 (single anchoring date for closure).
 
-Terminal phase context: December 2025 volume spike (2,248 messages) had already demonstrated real reinvestment on Dan's side, followed by progressive asymmetry in engagement through early 2026.
+Terminal phase context: the December 2025 volume spike (4,657 messages — Dan 2,391 / Annie 2,266, corpus peak month) had already demonstrated real mutual reinvestment, followed by progressive asymmetry in engagement through early 2026 (Feb ratio 1.92:1).
 
 ## People involved
 - [[wiki/people/annie-ulmer]]
@@ -73,7 +74,7 @@ See [[wiki/mind/concepts/attachment-model]] (no closure without explicit severan
 | Written denials previously issued | 2 (Nov 2025, Feb 2026) |
 | Love affirmations (full corpus) | 299 |
 | Explicit severance signals | 0 |
-| Dec 2025 message volume | 2,248 (real reinvestment, contradicts mutual disengagement narrative) |
+| Dec 2025 message volume | 4,657 — Dan 2,391 / Annie 2,266 (real reinvestment, contradicts mutual disengagement narrative; an earlier version of this row read 2,248) |
 
 The analytical outputs that survive closure are the concept pages and any downstream tooling (e.g., DANMODEL trained on the reaction-pair corpus).
 

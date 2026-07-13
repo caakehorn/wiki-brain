@@ -7,6 +7,8 @@ date_created: 2026-06-23
 date_modified: 2026-07-13
 sources:
   - raw/self/dox-md/The-Eli-incident-investigation.md
+  - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
+  - raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
@@ -39,11 +41,15 @@ The record's role-name for him: "Patient Zero."
 ## What the record actually shows him doing
 
 Two documented acts, both mediated through Annie's phone. On the discovery
-night — Annie found unconscious in her building lobby with him, ~80 minutes
-after a shift five minutes' walk away, her location sharing turned off — it
-was Eli who texted from her phone with the preemptive benign framing:
-"drinks at work but u guess they didn't eat" (an "Andrea" invoked as
-co-drinker). In the later terminal-phase forensics his role inverts: the
+night — January 9, 2025 — Annie was found unconscious in her building lobby
+with him, ~80 minutes after a shift five minutes' walk away, her location
+sharing turned off; it was Eli who texted at 11:18 PM with the preemptive
+benign framing: "Hey Dan. It's Eli. Annie is down stairs. I work with her.
+She and Andrea had drinks at work but I guess they didn't eat." The final
+dossiers add the structural finding: the couple's 2018 non-monogamy
+arrangement (Dan arranging, Dan present) makes Eli a violation of the
+framework, not an exercise of it — secret, unsanctioned, "exactly what Dan
+had proposed the arrangement to prevent." In the later terminal-phase forensics his role inverts: the
 Gemini-_07 clean-room analysis *severed* the Eli/WhatsApp channel as
 "unrelated noise (Eli or another satellite)" — a separate, non-overlapping
 vector — from the "Target G" architecture (the January 4, 2026 "Suzy" call

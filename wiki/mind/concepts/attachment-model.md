@@ -7,6 +7,8 @@ date_modified: 2026-07-11
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
+  - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
+  - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/all_imessages_complete_dump.txt
 related:
@@ -31,9 +33,12 @@ This cognitive architecture is heavily influenced by a multi-generational family
 | Documented relationship events | 266 | LIFE_EVENTS_CALENDAR.md |
 | Cheating and affair subcategory events | 84 | LIFE_EVENTS_CALENDAR.md |
 | Written denials of a third-party relationship | 2 | MasterRecord Synthesis |
-| Sequences pairing an affection expression with a request | 145 | MasterRecord Synthesis |
+| Sequences pairing an affection expression with a request | 187 of 191 (96.6%; earlier partial count 145) | MasterRecord_FINAL |
+| Standalone love declarations, 7-month terminal window | 4 | MasterRecord_FINAL |
 | Documented "fell asleep" alibis | 24 | MasterRecord Synthesis |
 | High-volume communication burst events | 94 | MasterRecord Synthesis |
+| Major self-indicting apologies followed by unchanged behavior | 13 | TheoryOfEverything_Updated |
+| Betrayal confrontations answered with a caretaking crisis | 44 | TheoryOfEverything_Updated |
 
 The complete lack of explicit severance signals across a ten-year corpus, combined with two hundred and ninety-nine love affirmations, meant that no internal data was available to generate a counter-rule. Consequently, the attachment model remained active until it was terminated by an external event.
 
@@ -54,6 +59,8 @@ The communication corpus demonstrates a systematic gaslighting architecture used
 - **Systematic Attacks on Reality:** While maintaining the concealed NYC relationship with Eli through 2024, Annie repeatedly told Dan that his suspicions were insane, paranoid, or symptoms of mental illness. Dan explicitly documented that he chose to believe these assertions in order to return to a perceived normal life.
 
 The central impact of this architecture was the subversion of Dan's cognitive stability. By targeting his capacity to verify reality, the deception inflicted a distinct category of psychological harm that went beyond simple infidelity.
+
+The final dossiers add the closure-side mechanism — the **confession trap**. Dan could not exit without the validation of a confession: he had assembled an overwhelming evidentiary case, and leaving without the verdict would have meant abandoning the identity of the person who was right. Annie was never going to supply the confession, because supplying it would have ended the arrangement she was maintaining. The dossiers' formulation: "the exit was never through the verdict. It was through the door." This is the same no-counter-rule architecture stated from the other side — where the model above describes the missing severance *signal*, the confession trap describes the missing severance *permission*.
 
 ## Documented Contradictions
 

@@ -5,7 +5,7 @@ title: "March 2026 — The Terminal Phase Peak"
 importance: high
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-11
+date_modified: 2026-07-13
 date_range_start: 2026-03-01
 date_range_end: 2026-03-16
 sources:
@@ -13,6 +13,7 @@ sources:
   - raw/self/dox-scan/DanAnnie_CompleteAnalysis_Final.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
+  - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
 related:
   - wiki/people/annie-ulmer
@@ -55,14 +56,34 @@ via a money request. The mechanism exploited his documented architecture —
 intolerance of open loops — guaranteeing hypervigilance until she chose to
 re-enter on her own terms ([[wiki/mind/concepts/conflict-architecture]]).
 
+## The eulogy and the gas-station re-entry (March 8–11)
+
+The night of March 8 reads in the analysis as a relationship eulogy — Dan
+explicitly releasing Annie with the specificity of someone who has stopped
+hoping. The morning of March 9 opened with Annie asking for a drug pickup
+as if the previous night had not occurred; the pre-closure record's final
+sent message that evening is Dan apologizing for having needs ("That last
+message is not your problem"), and its final received message is Annie's
+self-testimonial that she is "always completely understanding." After
+Dan's most definitive goodbye at 12:25 AM on March 11, her first contact
+17 hours later was: "So is there anything I can get for you or your mom at
+the gas station so I can get a line or two" — no acknowledgment of the
+goodbye, drug request as re-entry vehicle.
+
 ## The bathroom incident (March 10)
 
-After an evening burst, Annie texted "Dan. Calm down. Please. I will be
-over." (7:37 PM), arrived, told Dan she wanted to be together, went to the
-bathroom — and seconds later attempted to slip out the front door without
-a word. The log resumes at 8:01 PM in the same register of panic ("SERIOUSLY
-STOP MAKING ME CRASH OUT"). The analysis calls it the entire dynamic in a
-single physical action: the reassurance and the exit, seconds apart.
+March 10 was the convergence of two simultaneous crises: Dan was running
+out of his Suboxone prescription (the dealer had refused to source more)
+while in acute relational distress — 37 consecutive unanswered messages
+between 6:26 and 8:25 PM asking one question: "JUST TELL ME IF SOMETHING
+CHANGED." Annie texted "Dan. Calm down. Please. I will be over." (7:37
+PM), arrived, told Dan she wanted to be together, went to the bathroom —
+and seconds later attempted to slip out the front door without a word. The
+log resumes at 8:01 PM in the same register of panic ("SERIOUSLY STOP
+MAKING ME CRASH OUT"). The analysis calls it the entire dynamic in a
+single physical action — affirmation, extraction attempt, disappearance,
+compressed into under five minutes: "The bathroom door is the most honest
+thing Annie did in seven months."
 
 ## The confession and retraction (March 12–16)
 

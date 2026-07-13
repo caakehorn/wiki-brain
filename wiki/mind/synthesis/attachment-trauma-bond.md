@@ -7,6 +7,10 @@ date_created: 2026-06-22
 date_modified: 2026-07-13
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
+  - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
+  - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
+  - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
+  - raw/self/dox-scan/DanAnnie_MoralAnalysis_SFW.docx
   - raw/self/dox-md/Attachment and Trust Breakdown.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -41,9 +45,17 @@ A central mechanism of the bond was the weaponization of ambiguity. The dynamic 
 
 Within this architecture, the concept of "unconditional love" was functionally inverted. It operated as a self-abandonment script, framing the endurance of betrayal and ambiguity as a moral virtue. Dan's persistence through more than 127 documented conflict cycles was enabled by this script, justifying the tolerance of systemic harm. Meanwhile, the intermittent reinforcement—providing just enough affection or apologies to keep hope alive while taking actions that indicated a withdrawal—served as the most powerful psychological hook.
 
+## The Quantified Trajectory (from the final dossiers)
+
+The full-decade dossiers give the bond its measurable arc. The love was genuine at the origin — Annie's love-language frequency peaked at 5.3% of her messages in 2016, with "YOU ARE MY EVERYTHING" on day three of the record — and decayed monotonically to a statistical zero of 0.1% in 2024, before spiking back to 2.7% in 2025 precisely when the Uniontown supply-chain dependency was established. That 2025 reactivation is the single most diagnostic number in the corpus: the affection instrument returning at near-origin intensity in its procurement function (187 of 191 terminal-phase love declarations adjacent to a request within 24 hours). The dossiers also supply the intermittent-reinforcement machinery in counts: 13 major self-indicting apologies each followed by unchanged behavior, 44 betrayal confrontations answered with a caretaking crisis, 24 "fell asleep" alibis, and a longest silence of 36.5 hours re-entered via a money request.
+
+The bond's persistence mechanism on Dan's side is named in the dossiers as the **confession trap**: having built his identity around being the person who was right, he could not exit without the validating confession Annie was never going to give — "the exit was never through the verdict. It was through the door." His 127 exit declarations with 110 re-engagements are that trap running as designed.
+
 ## Logistical and Financial Tethers
 
 While the emotional relationship deteriorated, the channel remained open due to intense logistical, financial, and drug-related tethers. The relationship involved continuous handoffs, checks, supplier coordination, and financial requests. In the later stages of the relationship, the bond was frequently reduced to pure procurement, with Annie bringing money and Dan facilitating connections. This practical entanglement created a resilient physical glue that kept the subjects in continuous contact long after emotional safety had been destroyed.
+
+The accepted amendments establish that the tether was a decade-long *oscillation*, not a fixed dependency: Dan funded the first five NYC years (via Suz's resources); Dan worked through the 2023 landlord-debt accumulation while Annie was between jobs; Annie was sole earner in 2024 after Dan was involuntarily managed out of Au Za'atar; Dan controlled the drug supply in Uniontown 2025–26 while Annie was unemployed. Each rotation handed one party structural leverage over the other's exit, and each generated grievances that were locally valid and historically partial. The trauma bond's material substrate was this see-saw: neither party was ever free to leave in the same window that the other was.
 
 ## "Aura Illness" and the Somatic Toll
 

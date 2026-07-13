@@ -51,6 +51,8 @@ related: [
 
 Freqs cross: annie:22, suzanne:16, bunker:20, work:22, timeline:16. Cross _07 Grim Trigger Suzy blackout (Jan 2026 post-sep), work entropy _00/_02 (Annie avatar vs Dan tenure), node locks/_18 profile.
 
+**Financial substrate (final dossiers, added 2026-07-13):** the terminal-phase dependency structure — Dan controlling the drug supply while Annie was unemployed and dependent — was the latest of three rotations, per the accepted amendments: Dan funded the early NYC years; Dan worked through the 2023 landlord-debt accumulation while Annie was between jobs; Annie was sole earner through 2024 after Dan's involuntary Au Za'atar job loss (hours cut Jun–Aug 2024 to dodge unemployment obligations). See [[wiki/people/annie-ulmer]] and [[wiki/work/au-zaatar]]. Terminal-phase mechanism catalog (love-to-request ratio 187:4, 44 moral-debt pivots, 13 weaponized apologies, 12 uncared-for crisis statements) is detailed on the Annie page and [[wiki/mind/concepts/attachment-model]] / [[wiki/mind/concepts/conflict-architecture]].
+
 **Transition:** Into 2026 closure.
 
 **Cross-check:** Matches core Feb 2025 back to Uniontown, Aug 2025 terminal, June 1 2026 closure. LIFE REPORT details aura illness, tether. No contradiction. Re-mined: 259 2025 events (Aug30/Sep97/Oct58 peak), operating full collapse timeline, annie logs end, BFS post work power. FB groups/events cross. 
