@@ -21,8 +21,8 @@ related:
 # The COVID Era (2020)
 
 The pandemic year lands in the middle of the first NYC chapter's later
-stretch and directly overlaps the documented [[wiki/timeline/periods/2020-2021-market-era|2020–2021
-market era]] — the same lockdown conditions that emptied the GPS mobility
+stretch and directly overlaps the documented [[wiki/timeline/periods/2020-2021-market-era|2020–2021 market era]]
+— the same lockdown conditions that emptied the GPS mobility
 record also produced the free time and financial anxiety that fed the
 Robinhood/meme-stock run. The two were previously synthesized as separate
 threads (mobility statistics in one page, trading history in another);

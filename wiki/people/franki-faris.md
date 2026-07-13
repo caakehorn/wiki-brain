@@ -49,14 +49,14 @@ whole episode is an August 14, 2013 email in which Dan performs a
 point-by-point post-mortem of the previous two months and admits: "I
 really didn't have the romantic feelings for franki that i said i did at
 the time... I wasn't even able to kiss anyone." Between the Franki
-collapse and the actual reconciliation with Alexis, [[wiki/people/katie-fletcher|Katie
-Fletcher]] filled the gap as what Dan later called an "interim frequency"
+collapse and the actual reconciliation with Alexis, [[wiki/people/katie-fletcher|Katie Fletcher]]
+filled the gap as what Dan later called an "interim frequency"
 — including the August 30, 2013 Oddball Festival / Chappelle-meltdown
 night that closes out her own page.
 
 ## Resolving the dating contradiction
 
-Three sources disagreed on when this happened, and `wiki/people/katie-fletcher.md`
+Three sources disagreed on when this happened, and [[wiki/people/katie-fletcher]]
 carried a standing gap note about it. Weighing the evidence:
 
 - **Summer 2013 (specifically ~June–August):** supported by the strongest
@@ -72,7 +72,7 @@ carried a standing gap note about it. Weighing the evidence:
 > **REVISED [2026-07-13]:** the Franki incident dates to **summer 2013**,
 > not 2014. The CATO bootloader's "2014" is an artifact of later
 > AI-assisted reconstruction and is superseded here by the dated primary
-> emails. This resolves the gap flagged on `wiki/people/katie-fletcher.md`.
+> emails. This resolves the gap flagged on [[wiki/people/katie-fletcher]].
 
 No source anywhere in the raw archive ties a specific "July 4" event to
 Franki. The closest documented anchors are the July 9–31 typology emails
