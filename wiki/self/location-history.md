@@ -203,4 +203,4 @@ See also:
 - [[wiki/self/youtube-watch-history]] (cross consumption)
 - [[wiki/self/facebook]] (events 2012+, profile 2010 Brooklyn, likes 2014 ODESZA)
 - [[wiki/self/ancestry]] (Fayette PA roots grounding)
-- [[wiki/self/ancestry]], [[wiki/mind/synthesis/totality-themes]]
+- [[wiki/mind/synthesis/totality-themes]]
