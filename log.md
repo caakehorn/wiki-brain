@@ -47,3 +47,8 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - mind: NEW profile/ cluster (7 dense pages: hub, intp, enneagram-5w4, big-five-psychometrics, socionics-and-attitudinal, deviance-mapping, linguistic-profile) mined from FULL PROFILE 2026 + Dan Profile.txt; 5 forensic pages merged → concepts/forensic-method; 4 prompt-artifact pages merged → concepts/exocortex; aesthetic-politics folded into political-psyops; work-power-dynamics folded into vertical-authority-skepticism (rewritten); family-heritage-and-roots folded into self/ancestry; financial-market-era → timeline/periods/2020-2021-market-era; millennial-digital-witness rewritten to prose.
 - self: notes/ dissolved (dispersed to work/, mind/, interests/rock-irrelevance-thesis).
 - bin/wiki-lint: added missing 'profile' page_type (per STYLE_GUIDE).
+
+## [2026-07-13] ingest | people | operator correction: Eli vs Tuquick
+- Capture filed: raw/people/captures/2026-07-13-eli-vs-tuquick-correction.md
+- Eli affair = NYC, sometime 2024 → Feb 2025 departure. Tuquick = the interloper Annie left Dan for + June 1 2026 group-chat counterpart. Tuquick ?= Target G (unknown).
+- Updated: eli.md, tuquick-17248123683.md, annie-ulmer.md, group-chat-closure.md, eli-incident.md, attachment-model.md (REVISED flags where framing changed).
