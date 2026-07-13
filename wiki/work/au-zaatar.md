@@ -6,6 +6,9 @@ status: closed
 date_created: 2026-07-13
 date_modified: 2026-07-13
 sources:
+  - raw/self/dansynth/TheWaitersVisibleHigh.md
+  - raw/self/dansynth/AuZaatarsFinalShift.md
+  - raw/self/dansynth/FromSidewalkShedtoAnalyticalProwess.md
   - raw/self/dox-md/Gemini-_00.md
   - raw/self/dox-md/Gemini-_02.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -62,13 +65,41 @@ and a $50k-class DEENBOR delivery robot that sat unused by the plate
 stacks — a monument to the fact that the "Outside Guy" was the only
 functioning infrastructure the place had.
 
+## The middle years: de facto manager, Thanksgiving 2023, the factions
+
+Dan's own STORYTIME telling fills in the arc between the Shed's golden age
+and the end. He was repeatedly yelled at for vaping in front of customers
+("hey, the customers are all outside!") and finally drew a one-star review
+for leaving mid-meal that asked, verbatim, **"WAS HE HIGH?"** ("uh,
+clearly") — and survived it because Tarik and Ghassan liked him and "ALL of
+the neighbors and regulars" insisted he wait their tables. After Dimitri
+first quit there was simply no manager, and Dan became the de facto one —
+"except i don't do anything the manager should other than advocate for the
+customers and neighbors." The tip pool had zero transparency and paychecks
+were suspiciously identical every week, so for over a year Dan told staff
+and customers alike that the owners were siphoning tips ("because they 100%
+were"). The 22-year-old Tunisian — hired as manager "because he speaks
+arabic" — took that to Tarik, and on **Thanksgiving 2023** Dan was sat down
+and "brought right up to the line of being let go." He held on. Then
+Dimitri returned ("WITH A STEEL CHAIR") as co-manager alongside the
+Tunisian, factions formed, and the owners consistently favored "the more
+seemingly muslim option" — even Dimitri taking short shrift. The Sergio
+war has a primary record: a mediated basement sit-down was recorded and
+auto-transcribed, with Sergio (serving since 2000, Miami, "I've served
+celebrities") accusing Dan of acting "like he owns the place" and refusing
+to be called "dude," and Dan countering that Sergio shoved him twice and
+that "dude" was "a term of endearment" while "kid" was "a term of
+criticism."
+
 ## Annie, Valeria, and the contrast
 
-[[wiki/people/annie-ulmer|Annie]] worked there too — the record calls her
-"the literal avatar of reliability" and notes she was fired with zero notice,
-while Dan, the self-described "sonofabitch," survived two and a half more
-years. The "Night Class" alibi doubled as a shield during the
-[[wiki/people/valeria-iglesias-cid|Valeria]] breach, which the post-mortem
+In a turn Dan flags as "truly weird," [[wiki/people/annie-ulmer|Annie]] —
+"prim and proper... reliability IS her strong suit and is my antithesis" —
+was fired from her own hosting job **at a different restaurant** with no
+notice and no reason, while Dan held onto his job even longer. The "Night
+Class" alibi doubled as a shield during the
+[[wiki/people/valeria-iglesias-cid|Valeria]] breach — she was the Au
+Za'atar host-stand hostess — which the post-mortem
 tags as the period's "CORE ANOMALY."
 
 ## Why the page matters
@@ -82,12 +113,22 @@ narrator, saboteur, and beneficiary of the exact off-books logic he condemns
 elsewhere. The two pages together are the strongest evidence that the
 methodology is genuinely domain-invariant rather than self-serving.
 
+The ending, in his own words: by the final stretch he served "like 3
+tables per week total and would just hang," pocketing all cash tips, until
+the outdoor dining shutdown closed the Shed for good — "it was a long run
+and it was fun and good food and cool mexicans and... valeria." He came in
+"a novice in a red apron" and left "a legend in a white Uniqlo shirt," with
+the respect of the BOH Mexican squad intact. (The famous "outside bread,"
+he confirms, "obviousLY WAS NOT from outside.")
+
 **Gaps:** his final role title (busser → server, informally); wage/tip
-figures beyond the narrative claims; the "outside bread" food-tracking
-economy's scale. The STORYTIME/DANSYNTH record is stylized self-narration
+figures beyond the narrative claims; the Tunisian manager's name; the
+mediator's identity in the Sergio recording (likely Dimitri). The STORYTIME/DANSYNTH record is stylized self-narration
 through Gemini and should be read as memoir, not deposition.
 
 > **REVISED [2026-07-13]:** DANSYNTH ingest corrected the location (Au
 > Za'atar **Midtown, 58th & 1st** — not the East Village flagship), fixed
-> the start month (March 2021), and supplied the ending: the August 2024
-> city-mandated shed tear-down.
+> the start month (March 2021), and supplied the ending (August 2024 shed
+> shutdown). Second correction, same day: **Annie did not work at Au
+> Za'atar** — her zero-notice hosting-job firing was at a different
+> restaurant; earlier wiki text conflated the two.

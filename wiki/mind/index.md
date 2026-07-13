@@ -35,6 +35,7 @@ behavior. The authoritative factual spine remains
 - [[wiki/mind/concepts/conflict-architecture]] — the resolution engine with no halt condition; why conflicts drain.
 - [[wiki/mind/concepts/attachment-model]] — rule-based attachment that cannot self-close; the gaslighting architecture it collided with.
 - [[wiki/mind/concepts/contact-gini]] — relational concentration measured (Gini 0.961); the redundancy imperative.
+- [[wiki/mind/concepts/institutional-out]] — the pre-installed escape mechanism at every job: fake migraines, the 9pm night class; verbatim self-stated protocol.
 - [[wiki/mind/concepts/phenomenology-lens]] — the deliberate interpretive overlay (God-Function, Si-Ghost Kernel, defense engines); subordinate to documented fact.
 
 ## synthesis — worldview theses
