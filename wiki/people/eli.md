@@ -49,7 +49,7 @@ She and Andrea had drinks at work but I guess they didn't eat." The final
 dossiers add the structural finding: the couple's 2018 non-monogamy
 arrangement (Dan arranging, Dan present) makes Eli a violation of the
 framework, not an exercise of it — secret, unsanctioned, "exactly what Dan
-had proposed the arrangement to prevent." In the later terminal-phase forensics his role inverts: the
+had proposed the arrangement to prevent." In the later terminal-phase forensics, his role inverts: the
 Gemini-_07 clean-room analysis *severed* the Eli/WhatsApp channel as
 "unrelated noise (Eli or another satellite)" — a separate, non-overlapping
 vector — from the "Target G" architecture (the January 4, 2026 "Suzy" call
