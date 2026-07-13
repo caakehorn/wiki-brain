@@ -58,7 +58,7 @@ related:
 | 2023 | 728         | Sustained |
 | 2024 | 17          | Very low / incomplete in export |
 
-Peak mobility 2017-2018 (2,827 visits). NYC chapter 2019 onward accounts for majority of non-PA. 2020-21 low mobility aligns employment + pandemic. Resurgence 2022-23 matches YT/Twitter/other. 
+Peak mobility 2017-2018 (2,827 visits). NYC chapter 2019 onward accounts for majority of non-PA. 2020-21 low mobility aligns employment + pandemic — see [[wiki/timeline/periods/covid-era-2020]] for the narrative behind this year's numbers. Resurgence 2022-23 matches YT/Twitter/other. 
 
 ## Google Takeout Archive Index
 The source `raw/self/archives/google-data-export-index-20260623.html` is the browser-rendered index for the Google Takeout (May 14, 2024, 2:06 AM PDT) for dfrank88@gmail.com. 

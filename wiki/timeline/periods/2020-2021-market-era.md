@@ -13,6 +13,7 @@ related:
   - wiki/self/context-core
   - wiki/mind/synthesis/political-psyops
   - wiki/timeline/periods/2021-2023-employment-block
+  - wiki/timeline/periods/covid-era-2020
 ---
 
 # 2020–2021 Market Era
@@ -21,7 +22,11 @@ For roughly a year — September 2020 through early 2021, during the second
 NYC period — Dan ran his pattern-recognition engine on retail markets, rode
 the meme-stock eruption to a Robinhood peak around $25k, and exited with the
 episode's real yield: a documented thesis that cultural-trend sensing had
-overtaken fundamentals in the retail-trading era. It began when childhood
+overtaken fundamentals in the retail-trading era. The timing is not
+incidental: this is the same window as the pandemic's "micro-radius siege"
+and GPS mobility collapse documented in
+[[wiki/timeline/periods/covid-era-2020]] — the market became a new outlet
+for an engine that had lost its normal environmental inputs. It began when childhood
 friend [[wiki/people/jerad-friedline]] passed the FSLY tip and Dan dumped
 his portfolio (~$15k) into 112 shares of Fastly, taking a quick ~$4k profit
 — then evangelized the tip onward, in classic form, to a friend who started
