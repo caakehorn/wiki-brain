@@ -3,9 +3,12 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-07-13
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
+  - raw/self/dox-md/___The 9_11 Chat.md
+  - raw/self/message-csv/imessage_ALL_both_all_now.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/twitter/
@@ -23,9 +26,9 @@ related:
 
 ## Identity
 
-**Gripnotic** is Dan Frank's current primary music alias. Active since approximately 2016, it is the live brand — releases, social presence, and production output released under this name going forward. Genre sits in the bass house / tech house / DnB-adjacent space, unified by the involuntary [[wiki/interests/music/concepts/sub-bass-signature]] (63–85% sub-bass presence) that runs through all aliases.
+**GRIPNOTIC** is Dan Frank's current primary music brand, developed through the 2015–2019 Uniontown basement years (per the CATO timeline: "Uniontown basement. Gripnotic developing.") and live today from the basement studio at 337 Saratoga. The CATO bootloader defines its output precisely: **remixes and AI voice drops** — AI-generated spoken intros and drops branded "gripnotic" throughout, with deliberately edgy tags (the 9/11 chat documents the register, including the self-deprecating tagline "made with love and autism in his mom's basement"). Genre sits in the bass house / tech house / DnB-adjacent space, unified by the involuntary [[wiki/interests/music/concepts/sub-bass-signature]] (63–85%) that runs through all aliases.
 
-GRIPNOTIC is the operational alias, not an archive. It is the identity Dan promotes on Twitter (@danfrank, MOGZART promo noted alongside GRIPNOTIC in tweet samples) and the name associated with the label infrastructure.
+GRIPNOTIC is also becoming an infrastructure name beyond music: on April 7, 2026 Dan claimed an AI agent named "gripnotic" on moltbook — the brand doubling as the identity for his agent experiments.
 
 ## Genre & Style
 
@@ -60,9 +63,10 @@ GRIPNOTIC is the operational alias, not an archive. It is the identity Dan promo
 
 | Platform | Handle / Link | Notes |
 |----------|--------------|-------|
+| SoundCloud | `soundcloud.com/gripnotic` | Home of the "oof" set (shared to Suz April 6, 2026 — the same day he messaged a contact simply "GRIPNOTIC") |
 | Twitter/X | @danfrank | Music promo posted alongside AI/political content |
+| moltbook | AI agent "gripnotic" | Claimed April 7, 2026 |
 | Streaming | *(pending ingest)* | — |
-| SoundCloud | *(pending ingest)* | — |
 
 ## Narrative
 
@@ -70,7 +74,7 @@ GRIPNOTIC emerged from the MOGZART era (~2016) as the consolidated identity for 
 
 The name operates in the bass house / tech house corridor, but the involuntary sub-bass signature means the output skews heavier than genre labels suggest. The 63–85% sub-bass presence documented across all aliases isn't a choice made fresh for each release; it's structural, probably tied to the production environment and the NS7 as the ear-training instrument.
 
-Music reactivation is listed in the 2026 stabilization arc alongside AI consulting and agent pipeline work — suggesting GRIPNOTIC output is concurrent with the current period, not a historical project. The full release catalog, DAW chain, and platform data need a dedicated ingest pass.
+Music reactivation is central to the 2026 stabilization arc: the "oof" set on SoundCloud (April 2026) and the parallel MOGZART DnB revival (March 2026) are the first shipped output of the post-closure era, alongside the AI voice-drop production line documented in the 9/11 chat. CATO's own known-gaps list flags what this page still needs: "Gripnotic brand formal start date + milestone releases." The full release catalog, DAW chain, and streaming data need a dedicated ingest pass.
 
 ## Related
 - [[wiki/interests/music/overview]]
