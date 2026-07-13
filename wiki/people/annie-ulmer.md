@@ -4,9 +4,10 @@ page_type: entity
 title: "Annie (Anne Ulmer)"
 aliases: ["Annie", "Anne Ulmer"]
 importance: critical
+knowledge: mixed
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-07-12
+date_modified: 2026-07-13
 date_range_start: 2015-11-01
 date_range_end: 2026-06-01
 sources:

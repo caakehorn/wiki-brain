@@ -1,11 +1,12 @@
 ---
 domain: mind
 page_type: synthesis
+knowledge: earned
 title: "AI Collaborative Analysis"
 tags: [AI, forensics, cognition, methodology]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-13
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_00.md

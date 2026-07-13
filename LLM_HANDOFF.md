@@ -54,6 +54,32 @@ with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
 
+### [2026-07-13] - Session: Second-brain principle encoded (earned vs derived knowledge)
+* **Model:** Claude Opus 4.8 (Claude Code, remote)
+* **Summary:**
+  - User's insight: the point of this system (vs. a RAG) is that synthesis is
+    stored and compounds — the wiki reflects *what has been read and understood*,
+    not an index of sources to re-read. The old charter line "wiki/ … all
+    regenerable from raw/" contradicted this (pure cache/RAG framing).
+  - **CLAUDE.md:** new section "Why this is a second brain, not a RAG" —
+    distinguishes **derived** content (mechanical, regenerable) from **earned**
+    content (reasoned once, not literally in raw/, NOT regenerable → revise,
+    never re-derive). Fixed the wiki/ bullet. Strengthened QUERY: reason *from*
+    the wiki first, only re-open raw/ when the wiki is silent or a source is
+    newer.
+  - **STYLE_GUIDE.md:** registered optional `knowledge: earned | derived | mixed`
+    frontmatter field with usage rules (absent = mixed).
+  - **bin/wiki-lint:** validates `knowledge` value when present (VALID_KNOWLEDGE);
+    unknown values now error. Lint 0 errors / 17 warnings (all pre-existing size).
+  - **Seeded the convention:** all 6 `mind/synthesis/` pages tagged
+    `knowledge: earned`; `people/annie-ulmer.md` tagged `mixed` as the exemplar
+    of the mixed case.
+* **Handoff Note:** Convention is defined + demonstrated, not mass-applied. On
+  any normal pass, tag the page you touch: `synthesis`/most `concept` pages are
+  `earned`; people/event pages are `mixed`; pure count/catalog/timeline pages are
+  `derived`. Do not bulk-migrate in one pass. The principle is now the top-level
+  frame in CLAUDE.md — respect it: build on earned synthesis, don't bulldoze it.
+
 ### [2026-07-13] - Session: Great Restructure (mind/self/legal) + enrichment start
 * **Model:** Claude Fable 5 (Claude Code, remote)
 * **Summary:**

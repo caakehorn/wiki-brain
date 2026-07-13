@@ -1,9 +1,10 @@
 ---
 domain: mind
 page_type: synthesis
+knowledge: earned
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-13
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-md/Attachment and Trust Breakdown.md

@@ -30,10 +30,27 @@ title: "Human Title"        # when the filename isn't the natural title
 aliases: ["nickname", ...]  # alternate names/handles for search & dedupe
 tags: [topic, topic]        # cross-domain topical hooks
 importance: critical | high | normal   # triage for LLM context budgets
+knowledge: earned | derived | mixed    # is this regenerable from raw/?
 changelog:                  # only on critical pages; newest first
   - date: YYYY-MM-DD
     note: "one line"
 ```
+
+**`knowledge`** marks what kind of understanding a page holds, so a future
+agent knows whether re-deriving it from `raw/` would lose anything (see
+CLAUDE.md, "Why this is a second brain, not a RAG"):
+
+- `derived` — mechanical compilation (counts, catalogs, timelines built from
+  slugs). Safely regenerable from `raw/`.
+- `earned` — a conclusion reasoned to once, not present literally in `raw/` (a
+  thesis, a psychological read, a cross-referenced judgment). **Revise these,
+  never regenerate them from scratch.** `page_type: synthesis` and most
+  `concept` pages are earned.
+- `mixed` — both (most people/event pages: derived tables carrying an earned
+  read). Treat the earned prose as earned.
+
+The field is optional; an absent value means `mixed`. `bin/wiki-lint` rejects
+any other value.
 
 There is **no** `author-stub` / `artist-stub` / other invented page_type: a
 stub is `page_type: entity` (or the appropriate type) with `status: stub`.

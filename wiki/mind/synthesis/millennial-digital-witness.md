@@ -1,6 +1,7 @@
 ---
 domain: mind
 page_type: synthesis
+knowledge: earned
 title: "Millennial Digital Witness"
 status: stable
 date_created: 2026-06-22
