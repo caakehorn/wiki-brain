@@ -26,6 +26,8 @@ related:
   - wiki/mind/concepts/forensic-method
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/mind/synthesis/millennial-digital-witness
+  - wiki/people/jerad-friedline
+  - wiki/people/josh-brannan
   - wiki/mind/concepts/dans-law
   - wiki/self/facebook
   - wiki/self/youtube-watch-history
@@ -99,6 +101,20 @@ class-materialist left; Chinese ascendancy against American self-sabotage;
 expansion. All of it is consistent with the documented trajectory:
 Republican household → exit 2006 → hard-left 2019 via Bernie and Chapo,
 with politics as primary entertainment.
+
+**Informed speculation: this trajectory is cohort, not idiosyncratic.**
+[[wiki/people/jerad-friedline]] and [[wiki/people/josh-brannan]] — Dan's
+two named "first-call" political contacts, both childhood Uniontown
+friends — are independently documented as arriving at the same "reluctant
+Trump fascination" starting from Bernie-aligned positions. That three
+people from the same social graph, who all started from the same 2016-era
+economic-populist enthusiasm, converged on the same downstream fascination
+with Trump-as-phenomenon suggests the pattern belongs to a specific
+Rust Belt millennial cohort disillusioned by the 2016/2020 Democratic
+establishment's handling of Sanders, not to something unique in Dan's own
+psychology. It reframes his political trajectory as a data point in a
+generational pattern he happens to have documented with unusual density,
+rather than a personal idiosyncrasy requiring its own explanation.
 
 [[wiki/mind/concepts/dans-law]] is the analytical engine underneath: when a
 coincidence cluster (crowd dynamics + procedural failures + informant

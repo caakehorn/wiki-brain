@@ -54,6 +54,20 @@ no recovery-program participation anywhere in the record; the system is
 maintained, not fought. Alcohol was excluded early and permanently — the
 one substance the family history made radioactive.
 
+**Informed speculation:** the selectivity is the interesting part. Four
+family members across three generations (mother, grandmother,
+great-grandmother, father) were functional alcoholics, and alcohol is
+specifically the substance present at the household's defining betrayals —
+the father's rehab admission and the mother's affair with their cocaine
+dealer both sit inside a broader pattern of alcohol-adjacent family
+dysfunction. Opiates and cocaine carry no equivalent charge; they were
+adopted freely and built into a maintained, defended architecture. Read
+together, this looks less like general moderation or health-consciousness
+and more like a specific exclusion of the one substance coded to the
+exact rupture the rest of the psychological record organizes itself
+around — abstinence as anti-identification with the family's mechanism
+of betrayal, not with substance use itself.
+
 ## Supply as social infrastructure
 
 The stack's logistics are woven through the social graph, which is why the

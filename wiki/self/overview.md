@@ -96,6 +96,22 @@ Morgantown landing ([[wiki/legal/463-morgantown]]), heavy AI/agent work,
 and the MOGZART revival — the March 2026 DnB remixes are the first shipped
 music of the new era.
 
+**Informed speculation: relocation as the reset mechanism.** Laid end to
+end, the canonical residence timeline shows every major geographic move
+landing at the exact seam between one identity chapter and the next, not
+in the middle of one: the departure for Full Sail (2008) follows within a
+year of the parental rupture and closes out the Danielle era; the return
+to Uniontown (May 2013) ends NYC-I and directly precedes both the
+producer-alias development and Annie's arrival that same year; the return
+to NYC (Feb 2019) opens the same year as the hard-left political
+crystallization; and the February 2025 return to Uniontown follows within
+weeks of the Eli discovery and precedes the Annie terminal phase. None of
+the record frames a move as a deliberate reset — each is externally
+motivated (school, a job, a breakup, a lease) — but the *timing* is
+consistent enough across five relocations spanning nearly two decades
+that geography reads less like backdrop and more like the mechanism by
+which each identity chapter gets sealed off from the next.
+
 ## The architecture
 
 The psychological profile is measured to an unusual depth and lives in its
