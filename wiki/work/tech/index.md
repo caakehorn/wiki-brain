@@ -26,3 +26,5 @@ Personal technology projects: agent tooling, message-forensics pipelines, and re
 
 ## Notes
 Project documentation for future coding context. Raw/tech/ subdirs empty — data from dox-md (MAX_PRIME/CATO), log, ingest-queue, bin/, home tooling (imessage-extractor/, messages-exporter/, danwiki_portal.py). See also [[wiki/self/message-corpora/master-message-dump]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/self/facebook]], [[wiki/self/context-core]].
+
+- [[wiki/work/tech/vibe-coding-games]] — the Matter.js browser-game line built by AI direction (whoano, trickrun, jumprun, basketball_sandbox).

@@ -51,8 +51,8 @@ Facebook's derived ads-interest profile: electronic music, hip hop, concerts, vi
 
 The interest data is the cleanest longitudinal taste record in the corpus: emo/pop-punk (2007) → chiptune and IDM (2012) → peak EDM/bass (2014) → comedy clubs and left politics (2017–2020). The music thread is the authentic through-line — it predates the ironic handle, survives every era, and converges on the same artists as [[wiki/interests/favorites/music]] and the production identity in [[wiki/interests/music/overview]].
 
-The tracking data matters for a different reason: the export contains Facebook's own commercial model of Dan alongside Dan's self-presentation, and archiving both is [[wiki/mind/synthesis/lossless-retention]] enacted — keeping the surveillance receipt itself. That double-layer (self-expression platform and data-extraction machine, downloaded as one object in Sep 2022) is a primary exhibit for [[wiki/mind/synthesis/millennial-digital-witness]].
+The tracking data matters for a different reason: the export contains Facebook's own commercial model of Dan alongside Dan's self-presentation, and archiving both is [[wiki/mind/concepts/forensic-method]] enacted — keeping the surveillance receipt itself. That double-layer (self-expression platform and data-extraction machine, downloaded as one object in Sep 2022) is a primary exhibit for [[wiki/mind/synthesis/millennial-digital-witness]].
 
 ## Related
 
-[[wiki/self/facebook]] · [[wiki/self/facebook/posts]] · [[wiki/interests/favorites/music]] · [[wiki/mind/synthesis/millennial-digital-witness]] · [[wiki/mind/synthesis/lossless-retention]] · [[wiki/mind/synthesis/vertical-authority-skepticism]]
+[[wiki/self/facebook]] · [[wiki/self/facebook/posts]] · [[wiki/interests/favorites/music]] · [[wiki/mind/synthesis/millennial-digital-witness]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/vertical-authority-skepticism]]

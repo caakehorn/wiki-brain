@@ -59,15 +59,6 @@ The self domain contains files and data detailing identity, core biographical fa
 
 - [[wiki/self/message-corpora/master-message-dump]] — Top handles by volume (approximate counts; Annie dual handles dominant):
 
-## notes
-
-- [[wiki/self/notes/ai-data-logging-patterns]] — This is not casual chatting with AI. It is systematic external cognition.
-- [[wiki/self/notes/au-zaatar-chronicles]] — This is self as unreliable narrator / saboteur in work ecosystem, forensically narrated via AI.
-- [[wiki/self/notes/bfs-bootloader]] — 1. Timmy gambles on machine during shift, occupies VIP regular's machine.
-- [[wiki/self/notes/jimmy-pop-pennsylvania]] — This is not casual taste preference. It is observation of structural cultural shift used to defend current…
-- [[wiki/self/notes/manipulation-ethics]] — 1. Participant A profile
-- [[wiki/self/notes/operating-manual]] — This manual is the practical "source code" companion to the abstract FULL PROFILE 2026 archetype and the…
-
 ## archive
 
 - [[wiki/self/gemini-activity/archive/v1-extract]] — pinned oversized artifact, never updated

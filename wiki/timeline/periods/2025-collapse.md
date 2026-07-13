@@ -27,8 +27,8 @@ related: [
   "wiki/self/facebook",
   "wiki/self/context-core",
   "wiki/self/message-corpora/master-message-dump",
-  "wiki/mind/synthesis/work-power-dynamics",
-  "wiki/mind/synthesis/forensic-methodology",
+  "wiki/mind/synthesis/vertical-authority-skepticism",
+  "wiki/mind/concepts/forensic-method",
   "wiki/self/gemini-activity/gemini-activity"
 ]
 ---

@@ -79,7 +79,7 @@ Targeted extract of high-signal books with ratings, read dates, and shelves (sub
 | Lives of the Noble Romans | Plutarch | ★★★☆☆ | Jan 2024 | ancient-history, history, non-fiction, politics, roman-republic, stories, war |
 | Game Change: Obama and the Clintons... | Heilemann, John | ★★★★☆ |  | politics, recent-history |
 
-New or expanded topical signals: Parenti (people's history/caesar), Riso (Enneagram/personality tying to [[wiki/mind/concepts/abyssal-architect]] / FULL PROFILE typology), Baker (conspiracy/Bush dynasty), Everitt (Cicero). Crosses to ancient-history, war, conspiracy topics. Dates cluster 2023-2024 reads.
+New or expanded topical signals: Parenti (people's history/caesar), Riso (Enneagram/personality tying to [[wiki/mind/profile/index]] / FULL PROFILE typology), Baker (conspiracy/Bush dynasty), Everitt (Cicero). Crosses to ancient-history, war, conspiracy topics. Dates cluster 2023-2024 reads.
 
 This snapshot enriches the 120-book corpus with specific consumption timestamps aligning to 2024 political/history intensity (see periods [[wiki/timeline/periods/2025-collapse]], [[wiki/timeline/periods/2021-2023-employment-block]] forensic reading).
 

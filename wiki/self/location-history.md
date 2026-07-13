@@ -9,13 +9,10 @@ related:
   - wiki/self/context-core
   - wiki/self/overview
   - wiki/self/facebook
-  - wiki/self/facebook
-  - wiki/self/facebook
   - wiki/self/facebook/messages
   - wiki/self/youtube-watch-history
   - wiki/self/twitter
   - wiki/self/ancestry
-  - wiki/mind/synthesis/family-heritage-and-roots
   - wiki/mind/synthesis/totality-themes
   - wiki/mind/synthesis/millennial-digital-witness
   - wiki/timeline/periods/2017-poverty-floor
@@ -98,7 +95,7 @@ Multi-generational concentration in Fayette County PA (Uniontown, Brownsville, H
 - Maternal: Fran Whyel (Jesse Frances Thomas Whyel /Coldren, 1920 Fort Martin WV – 2018 Uniontown); mother Suzanne.
 - Core match: 337 Saratoga (family-built), Uniontown addresses dominate loc visits + FB hometown.
 
-See [[wiki/self/ancestry]], [[wiki/mind/synthesis/family-heritage-and-roots]], [[wiki/people/rick-frank]], [[wiki/people/fran-coldren]], [[wiki/people/david-j-frank]].
+See [[wiki/self/ancestry]], [[wiki/people/rick-frank]], [[wiki/people/fran-coldren]], [[wiki/people/david-j-frank]].
 - Cross to periods: Origin (1988-2008), poverty floor, deep cycle all in this geography. PA cluster 3,815 visits.
 - No contradictions; extends the 2014-2024 data with generational context. Ties also to legal (Suz realtor activity on family properties), music (Fran gifted Numark NS7 → sub-bass).
 
@@ -206,4 +203,4 @@ See also:
 - [[wiki/self/youtube-watch-history]] (cross consumption)
 - [[wiki/self/facebook]] (events 2012+, profile 2010 Brooklyn, likes 2014 ODESZA)
 - [[wiki/self/ancestry]] (Fayette PA roots grounding)
-- [[wiki/mind/synthesis/family-heritage-and-roots]], [[wiki/mind/synthesis/totality-themes]]
+- [[wiki/mind/synthesis/totality-themes]]

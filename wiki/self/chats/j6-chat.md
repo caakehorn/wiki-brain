@@ -10,7 +10,7 @@ related: [
   "wiki/self/gemini-activity/gemini-activity",
   "wiki/self/chats/danfrank-isms-pinned",
   "wiki/mind/synthesis/political-psyops",
-  "wiki/mind/synthesis/forensic-methodology",
+  "wiki/mind/concepts/forensic-method",
   "wiki/timeline/events/group-chat-closure"
 ]
 ---
@@ -64,7 +64,7 @@ Deep parallel forensic deconstruction of attached J6.rtf in [[wiki/self/gemini-a
 - "Operation Wildfall / Babbitt Protocol": "Sandwich" (organic + inserted lethal "Meat" as narrative necessity / Psy-Kill). Babbitt: unarmed small female vet; optics for delegitimizing populist right. "Inverted Containment Strategy".
 - Assessment: Gish Gallop of details; real-world "stress freeze" + bystander effect common (not staged proof); "uncanny" trauma behavior real. Yet procedural + cinematography flags legitimate.
 
-Gemini supplies granular ballistics + "Psy-Kill" framing that aligns/expands Claude's "warrants investigation" concession. Cross [[wiki/mind/synthesis/political-psyops]], [[wiki/mind/synthesis/forensic-methodology]] (procedural tells table). Frequencies in Gemini HTML: j6 211, babbitt 263, psyop 74, anomaly 188, forensic 1007.
+Gemini supplies granular ballistics + "Psy-Kill" framing that aligns/expands Claude's "warrants investigation" concession. Cross [[wiki/mind/synthesis/political-psyops]], [[wiki/mind/concepts/forensic-method]] (procedural tells table). Frequencies in Gemini HTML: j6 211, babbitt 263, psyop 74, anomaly 188, forensic 1007.
 
 Raw: Gemini Activity.html (prompts + "CASEFILE_BOOTLOADER_WILDFALL.md" synthesis).
 

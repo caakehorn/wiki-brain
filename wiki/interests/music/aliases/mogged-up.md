@@ -3,9 +3,10 @@ domain: interests
 page_type: entity
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-07-13
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/message-csv/imessage_ALL_both_all_now.csv
 related:
   - wiki/interests/music/overview
   - wiki/interests/music/aliases/sloppp
@@ -30,6 +31,8 @@ related:
 | Status | Archived; no revival signals |
 
 ## Narrative
+
+One release is confirmed by link slug in the message corpus: **Uffie – "The Art of Uff" (MOGGED UP)**, hosted on the MOGZART SoundCloud (`soundcloud.com/mogzartmusic/uffie-the-art-of-uff-mogged-up`) — establishing that Mogged Up functioned as a bootleg *series branding* on the MOGZART channel rather than a standalone account.
 
 Mogged Up exists as a practical release vehicle rather than an aesthetic identity. Bootleg imprints allow release of unofficial edits without tying them to the primary alias — a standard practice in electronic production that separates catalog identity from experimental/unofficial output.
 

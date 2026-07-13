@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/dox-md/___The 9_11 Chat copy.md", "raw/self/dox-md/___The 9_11 Chat.md"]
-related: ["wiki/self/chats/j6-chat", "wiki/mind/synthesis/political-psyops", "wiki/mind/concepts/forensic-analysis", "wiki/self/context-core"]
+related: ["wiki/self/chats/j6-chat", "wiki/mind/synthesis/political-psyops", "wiki/mind/concepts/forensic-method", "wiki/self/context-core"]
 ---
 
 # 9/11 Chat (Gripnotic Remix Drops)
@@ -19,7 +19,7 @@ related: ["wiki/self/chats/j6-chat", "wiki/mind/synthesis/political-psyops", "wi
 ## Relation to Totality
 Extends music identity (sub-bass signature, electronic preference from Jimmy Pop discussion, favorites clusters). Self-deprecating humor ("autism in mom's basement") matches core voice and abyssal architect archetype. Edgy tags reflect aesthetic politics / spectacle consumer mode. Links to production tooling and Gemini/AI collaboration (voice gen, drops).
 
-**Cross-references:** [[wiki/self/chats/j6-chat]] (forensic but here applied to creative risks), [[wiki/self/notes/jimmy-pop-pennsylvania]], [[wiki/interests/favorites/music]], [[wiki/interests/music/aliases/gripnotic.md]], [[wiki/mind/concepts/abyssal-architect]].
+**Cross-references:** [[wiki/self/chats/j6-chat]] (forensic but here applied to creative risks), [[wiki/interests/rock-irrelevance-thesis]], [[wiki/interests/favorites/music]], [[wiki/interests/music/aliases/gripnotic.md]], [[wiki/mind/profile/index]].
 
 ## Relation to Existing Work
 Direct parallel to [[wiki/self/chats/j6-chat]]: raw footage/stream analysis, procedural anomalies, "abundance of circumstantial issues," Dan's Law application, narrow hypothesis testing (organic + co-opt/insertion vs. pure chaos or full inside job).
@@ -33,7 +33,7 @@ Crosses core §7 political spine (conspiracy as aesthetic object + stress-test; 
 - Contrast with mainstream narrative.
 - Self-position as rigorous non-tribal analyst (autistic sicko studying raw material).
 
-**Cross-references:** [[wiki/self/chats/j6-chat]], [[wiki/mind/synthesis/political-psyops]], [[wiki/mind/concepts/dans-law]], [[wiki/mind/concepts/procedural-tells]], Gemini activity and pinned isms for similar node-style political forensics.
+**Cross-references:** [[wiki/self/chats/j6-chat]], [[wiki/mind/synthesis/political-psyops]], [[wiki/mind/concepts/dans-law]], [[wiki/mind/concepts/forensic-method]], Gemini activity and pinned isms for similar node-style political forensics.
 
 Further extraction from the MD file will populate specific anomalies table, Claude updates (if any), and ties to "Operation Wildfall" / Babbitt theory mentioned in operating manual.
 

@@ -77,7 +77,7 @@ The reports + family tree together provide both raw genetic measurements and ful
 - **To Music**: Fran's gift of Numark NS7 directly seeds production identity, sub-bass signature, aliases (MOGZART etc.), [[wiki/interests/favorites/music]].
 - **To Annie/Events**: Fran's deathwatch shared with Annie (core); multi-generational family entanglement (grandmothers neighbors 50+ yrs).
 - **To Location/Events**: Reinforces PA roots vs. NYC chapters; 337 Saratoga as family anchor (now selling, ties to legal/suz realtor role).
-- **To Synthesis**: See new [[wiki/mind/synthesis/family-heritage-and-roots]] for interpretive layer (immigrant resilience, regional loyalty vs. escape, Jewish + Appalachian/WV maternal mix informing "wounded genius" mythos).
+- **To Synthesis**: See new [[wiki/self/ancestry]] for interpretive layer (immigrant resilience, regional loyalty vs. escape, Jewish + Appalachian/WV maternal mix informing "wounded genius" mythos).
 
 ## Relation to Core
 - [DOC] confirmation of name (full "Daniel Gillingham Frank"), DOB 1988-11-01, Uniontown birthplace, early PA residences.

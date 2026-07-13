@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["bin/export-imessage-template.sh", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "ingest-queue.md", "log.md", "/Users/daniel/imessage-extractor/README.md", "/Users/daniel/imessage-extractor", "/Users/daniel/messages-exporter", "danwiki_portal.py", "raw/self/message-csv/*", "raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/chats/*"]
-related: ["wiki/work/tech/grok-build/overview", "wiki/work/tech/max-framework/overview", "wiki/self/message-corpora/master-message-dump", "wiki/self/context-core", "wiki/self/gemini-activity/gemini-activity.md", "wiki/self/facebook", "wiki/people/*", "wiki/timeline/periods/2025-collapse", "wiki/legal/463-morgantown/overview", "wiki/legal/bfs-dispute/overview"]
+related: ["wiki/work/tech/grok-build/overview", "wiki/work/tech/max-framework/overview", "wiki/self/message-corpora/master-message-dump", "wiki/self/context-core", "wiki/self/gemini-activity/gemini-activity.md", "wiki/self/facebook", "wiki/people/*", "wiki/timeline/periods/2025-collapse", "wiki/legal/463-morgantown", "wiki/work/bfs-foods"]
 ---
 
 # iMessage Tooling
@@ -71,6 +71,6 @@ Tooling stack for extracting, exporting, and analyzing iMessage/SMS from `~/Libr
 - Ingest: "iMessage via chat.db: export-imessage-template.sh exists... never run" (queue note); actual csvs in raw/message-csv from prior runs.
 - [[wiki/self/facebook]]: Parallel archive for cross-validation of contacts/events.
 
-**Cross-references:** [[wiki/work/tech/grok-build/overview]], [[wiki/work/tech/max-framework/overview]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/context-core]], [[wiki/self/gemini-activity/gemini-activity.md]], [[wiki/self/facebook]], [[wiki/legal/463-morgantown/overview]], [[wiki/legal/bfs-dispute/overview]], [[wiki/people/anita]], [[wiki/people/arnu]], [[wiki/people/john-carney]], [[wiki/people/kim]] (all use csv evidence).
+**Cross-references:** [[wiki/work/tech/grok-build/overview]], [[wiki/work/tech/max-framework/overview]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/context-core]], [[wiki/self/gemini-activity/gemini-activity.md]], [[wiki/self/facebook]], [[wiki/legal/463-morgantown]], [[wiki/work/bfs-foods]], [[wiki/people/anita]], [[wiki/people/arnu]], [[wiki/people/john-carney]], [[wiki/people/kim]] (all use csv evidence).
 
 **Notes:** Requires macOS Full Disk Access. chat.db schema: message + handle + chat_handle_join + dec for attributedBody. Update raw/tech/imessage-tooling/ on new exports. Sources include workspace binaries + extracted csvs (defer raw). Grok subagent uses these for deep review. Raw/tech/imessage-tooling/ remains placeholder dir.

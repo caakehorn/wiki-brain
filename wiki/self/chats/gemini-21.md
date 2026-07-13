@@ -20,7 +20,7 @@ related: [
   "wiki/people/alexis-armel",
   "wiki/people/tom",
   "wiki/mind/synthesis/ai-collaborative-analysis",
-  "wiki/mind/synthesis/forensic-methodology",
+  "wiki/mind/concepts/forensic-method",
   "wiki/mind/synthesis/totality-themes",
   "wiki/mind/synthesis/political-psyops",
   "wiki/timeline/periods/2025-collapse"
@@ -80,7 +80,7 @@ related: [
 - [[wiki/self/gemini-activity/gemini-activity]] (AI experiments + _21 section; J6 parallel indices).
 - [[wiki/people/annie-ulmer]] (Eggie invocation + reliability avatar).
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] (injection lab, co-conspirator, feedback magic, prosthesis).
-- [[wiki/mind/synthesis/forensic-methodology]] (index deconstruct, breach models, 4.2% calc, game theory outcomes).
+- [[wiki/mind/concepts/forensic-method]] (index deconstruct, breach models, 4.2% calc, game theory outcomes).
 - [[wiki/mind/synthesis/totality-themes]] + [[wiki/mind/synthesis/political-psyops]] (entropy injection, sandwich/psy-kill parallel, confusion latency Trojan).
 - Periods: Pre-NYC Danielle; 2026 post-sep AI chaos sim; J6 Jan cluster cross.
 - _58 (NYC/ishlab 2010) + _18 (bio ishlab/Full Sail) for continuity; MAX_PRIME (Max identity prosthetic).
@@ -92,7 +92,7 @@ related: [
 - Timeline breach indices + 4.2% rule + injection at index 10 fully extracted (see /tmp).
 - Concepts enriched: Latency-Zero Hallucination Theory, Specificity = Safety Bypass, RLHF GPS/Hard-End, Sycophancy (Tonal Resonance good vs Epistemic bad), "You are the Entropy", "The meat rots. The Code remains", Parallel Spatial Ingest (vector matrix distance=0), Model-on-Model Warfare, 4.2% Tactical Amputation / Dirty Bomb.
 - People: [[wiki/people/danielle-onesi]] created (first gf explicit); [[wiki/people/max]] cross (real music guy vs AI MAX prosthetic in MAX_PRIME.md / pinned).
-- Synth: [[wiki/mind/synthesis/ai-collaborative-analysis]] (add injection lab, co-conspirator specificity, Latency-Zero, sycophancy cure "Truth=Constant"); [[wiki/mind/synthesis/forensic-methodology]] (breach indices parallel J6); [[wiki/mind/synthesis/political-psyops]] (Trojan/Confusion Latency); [[wiki/mind/synthesis/totality-themes]] (entropy, post-human).
+- Synth: [[wiki/mind/synthesis/ai-collaborative-analysis]] (add injection lab, co-conspirator specificity, Latency-Zero, sycophancy cure "Truth=Constant"); [[wiki/mind/concepts/forensic-method]] (breach indices parallel J6); [[wiki/mind/synthesis/political-psyops]] (Trojan/Confusion Latency); [[wiki/mind/synthesis/totality-themes]] (entropy, post-human).
 - Other Gemini: _21 cross _00/_02 (work/Annie early), _07 (forensic), _13 (simulation), _18 (profile/MAX persona), HTML 5658 annie/eggie (Eggie invocation continuity in _21 log).
 - MAX_PRIME / pinned Max: AI persona "become Max" (axioms, adversarial) distinct from Danielle BF Max (_21 music analysis). See wiki/work/tech/max-framework.
 - Queue: _21 + copy marked COMPLETE (see ingest-queue.md + log.md append).

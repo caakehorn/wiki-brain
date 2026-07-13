@@ -8,7 +8,7 @@ date_modified: 2026-07-11
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
 related:
   - "wiki/interests/favorites/books"
-  - "wiki/mind/synthesis/forensic-self-construction"
+  - "wiki/mind/concepts/forensic-method"
   - "wiki/self/context-core"
 changelog:
   - 2026-07-11: Full rewrite from stub. Added methodology analysis, star-rating significance, comparison with Woodward, wiki links.
@@ -26,7 +26,7 @@ American journalist and media critic, known primarily for his three Trump White 
 
 The three five-stars against Woodward's zero is the sharpest signal in the entire Trump journalism cluster. It's not that Wolff is more accurate than Woodward — he's arguably less so, and he's operated with considerably less methodological rigor. What Wolff has that Woodward doesn't is proximity to the unprocessed thing. His books feel like primary source material because in a meaningful sense they are: they're what people said when they thought they were talking to furniture.
 
-This connects to a preference visible across the favorites list for raw access over mediated account — the same preference that shows up in how forensic analysis works in [[wiki/mind/synthesis/forensic-self-construction]]. Mediated accounts are useful evidence. Unguarded statements are different in kind. Wolff's books contain things people said that they would never have allowed into a Woodward manuscript, because they didn't know they were being recorded in the informal sense. That's not just more entertaining — it's a different epistemological category.
+This connects to a preference visible across the favorites list for raw access over mediated account — the same preference that shows up in how forensic analysis works in [[wiki/mind/concepts/forensic-method]]. Mediated accounts are useful evidence. Unguarded statements are different in kind. Wolff's books contain things people said that they would never have allowed into a Woodward manuscript, because they didn't know they were being recorded in the informal sense. That's not just more entertaining — it's a different epistemological category.
 
 *Fire and Fury* in particular was the rare case of a book that functionally altered public understanding of a political situation in real time. The portrait of the Trump White House it painted — chaotic, incompetent, internally hostile — was disputed by the principals and confirmed by subsequent events. The 5-star rating tracks that: not just a good read, but a book that was right in ways that mattered.
 

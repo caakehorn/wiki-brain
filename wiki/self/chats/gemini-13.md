@@ -5,12 +5,12 @@ status: stable
 date_created: 2026-06-23
 date_modified: 2026-07-02
 sources: ["raw/self/dox-md/Gemini-_13.md"]
-related: ["wiki/people/jacob-bacharach", "wiki/mind/synthesis/forensic-methodology", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/periods/2015-2016-annie-relationship-start"]
+related: ["wiki/people/jacob-bacharach", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/periods/2015-2016-annie-relationship-start"]
 ---
 
 # Gemini Session 13 — Bacharach Neighborhood Glitch
 
-A 902-line Gemini session in which Dan works through the "coincidence chain" connecting novelist Jacob Bacharach to a house his mother owned. The person-level synthesis lives at [[wiki/people/jacob-bacharach]]; this page keeps the session's own arc and the verbatim evidence, because the session is a methodological exemplar for [[wiki/mind/synthesis/forensic-methodology]] and [[wiki/mind/synthesis/ai-collaborative-analysis]].
+A 902-line Gemini session in which Dan works through the "coincidence chain" connecting novelist Jacob Bacharach to a house his mother owned. The person-level synthesis lives at [[wiki/people/jacob-bacharach]]; this page keeps the session's own arc and the verbatim evidence, because the session is a methodological exemplar for [[wiki/mind/concepts/forensic-method]] and [[wiki/mind/synthesis/ai-collaborative-analysis]].
 
 ## The Chain
 
@@ -44,4 +44,4 @@ Father Paul Bacharach confirmed as Uniontown Hospital president/CEO (1992–2013
 
 ## Related
 
-[[wiki/people/jacob-bacharach]] · [[wiki/mind/synthesis/forensic-methodology]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]]
+[[wiki/people/jacob-bacharach]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]]

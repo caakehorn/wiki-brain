@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: ["raw/self/facebook/facebook-ihatedanfrank/messages/"]
-related: ["wiki/self/facebook", "wiki/people/annie-ulmer", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/mind/synthesis/forensic-methodology", "wiki/mind/synthesis/totality-themes"]
+related: ["wiki/self/facebook", "wiki/people/annie-ulmer", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/totality-themes"]
 ---
 
 # Facebook Messages (ihatedanfrank)
@@ -19,7 +19,7 @@ FB message export format: per-thread HTML with participants, timestamps, content
 - Threads: 403 unique (message_1.html count)
 - Real signal: Concentrated in key nodes (Annie primary documented; golf, music, early NYC acquaintances)
 
-**Cross to iMessage corpora:** Annie FB thread parallels iMessage Annie handles (+1724 early / +2124 later) for attachment sequences. See [[wiki/self/message-corpora/master-message-dump]] (Annie 48k+ volume, contact gini). Ties periods genesis 2015-16 + collapse. FB as breadth (650 friends) vs depth. Forensic lens applies (see [[wiki/mind/synthesis/forensic-methodology]]).
+**Cross to iMessage corpora:** Annie FB thread parallels iMessage Annie handles (+1724 early / +2124 later) for attachment sequences. See [[wiki/self/message-corpora/master-message-dump]] (Annie 48k+ volume, contact gini). Ties periods genesis 2015-16 + collapse. FB as breadth (650 friends) vs depth. Forensic lens applies (see [[wiki/mind/concepts/forensic-method]]).
 - Noise floor: Spam/phishing (iPhone scams 2011, driver license/attachment phishing 2018-21), generic facebookuser_*, filtered heavy
 - Date range: 2011 (legacy sample) through 2021-22 (Annie/RJ samples); earlier likely truncated or low volume
 - Categories in export: inbox (core), filtered_threads, message_requests, legacy_threads (1), messenger_contacts_blocked, secret_conversations, your_messages.html

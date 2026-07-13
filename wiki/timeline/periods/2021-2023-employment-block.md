@@ -8,7 +8,7 @@ date_modified: 2026-06-23
 date_range_start: 2021-01-01
 date_range_end: 2023-12-31
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/location/2026-06-22-ingest/", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md", "raw/self/gemini-activity/Gemini Activity.html"]
-related: ["wiki/self/context-core", "wiki/self/location-history", "wiki/timeline/events/timeline", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/work-power-dynamics", "wiki/self/facebook", "wiki/self/chats/gemini-00", "wiki/self/chats/gemini-02", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/synthesis/forensic-methodology", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid", "wiki/mind/synthesis/forensic-methodology"]
+related: ["wiki/self/context-core", "wiki/self/location-history", "wiki/timeline/events/timeline", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/self/chats/gemini-00", "wiki/self/chats/gemini-02", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/forensic-method", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid"]
 ---
 
 # 2021-2023 Employment Block
@@ -31,7 +31,7 @@ From LIFE calendar: 2021 only 5 events (very low), supporting low activity. 2022
 See full tables + 20+ verbatim in /tmp/gemini-02-deep-analysis.md + [[wiki/self/chats/gemini-02]] + [[wiki/people/tarik-fallous]] + [[wiki/people/valeria-iglesias-cid]]. 445 loc visits confirm. "Ambassador of the Shed".
 
 ## Transition markers
-End of block Aug 2024: city-mandated winter tear-down of Au Za'atar outdoor shed + interior open but low outdoor interest; "social battery 0%"; Boosted Board exit with cash tips (no notice). 41-month Mar 2021–Aug 2024 campaign (per Gemini-_00 "STORYTIME" + HTML "4.5yr" aggregate). Low mobility (loc 445 Au Za'atar visits) + alibi (9pm "Night Class"). See [[wiki/self/chats/gemini-00]], [[wiki/people/tarik-fallous]], [[wiki/mind/synthesis/work-power-dynamics]]. "Outside Guy" era cash siphon vs owners; Triad (DJ/Dimitri) entropy survival.
+End of block Aug 2024: city-mandated winter tear-down of Au Za'atar outdoor shed + interior open but low outdoor interest; "social battery 0%"; Boosted Board exit with cash tips (no notice). 41-month Mar 2021–Aug 2024 campaign (per Gemini-_00 "STORYTIME" + HTML "4.5yr" aggregate). Low mobility (loc 445 Au Za'atar visits) + alibi (9pm "Night Class"). See [[wiki/self/chats/gemini-00]], [[wiki/people/tarik-fallous]], [[wiki/mind/synthesis/vertical-authority-skepticism]]. "Outside Guy" era cash siphon vs owners; Triad (DJ/Dimitri) entropy survival.
 
 ## Gemini Corpus Dedicated: Work Entropy / Ambassador of the Shed / "universe rewards sonofabitch" / Deep Architecture (_00/_02)
 **From raw/self/dox-md/Gemini-_00.md + _02.md (780+1275 lines, glyph STORYTIME forensic post-mortem, cross HTML/Au Za'atar visits):**
@@ -44,6 +44,6 @@ End of block Aug 2024: city-mandated winter tear-down of Au Za'atar outdoor shed
 
 **Entropy Framing:** "perpetual tundra"; staff as co-conspirators vs owners (Tarik/Ghassan); radical skepticism survival tool; "simulation" incompatible frequency; 41-month campaign collapse Aug 2024. "THREE YEARS OF FROSTBITE". "The 'Shed Era' is now a permanent pillar of your personal context."
 
-**Cross:** [[wiki/self/notes/au-zaatar-chronicles]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/people/tarik-fallous]], gemini-activity (work freq ~3379), ai-collaborative (forensic style), _07/_18 contrast (avatar vs utility post-migration), location (Au Za'atar 445 visits per analysis). Ties 2021 NYC money runout -> busser next-day start; 2024 end -> 2025 Great Migration.
+**Cross:** [[wiki/work/au-zaatar]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/people/tarik-fallous]], gemini-activity (work freq ~3379), ai-collaborative (forensic style), _07/_18 contrast (avatar vs utility post-migration), location (Au Za'atar 445 visits per analysis). Ties 2021 NYC money runout -> busser next-day start; 2024 end -> 2025 Great Migration.
 
 **Gemini Additions (injector):** Tables/verbatim first. Sources updated. See /tmp/gemini-concepts-injection.md for full mapping (Ambassador/sonofabitch/Deep Arch). Multiple passes cross raw + wiki.

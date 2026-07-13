@@ -44,7 +44,7 @@ High diversity (low tracks per artist on average). Clusters in experimental hip-
 
 This strongly aligns with production identity and the involuntary sub-bass signature documented in the spine. See [[wiki/interests/music/concepts/sub-bass-signature]].
 
-**Cultural context (from Jimmy Pop discussion):** Explicit argument, backed by streaming (rock 234B vs hip-hop/R&B 341B), market share (rock 11%), charts, and instrument sales data, that guitar-driven rock is culturally irrelevant in the current era — the first such period since ~1963. Guitar music framed as "automatically lame" in mainstream; catalog acts dominate what remains. Preference for electronic/bass, hip-hop, and emo clusters is defended as alignment with actual cultural shift rather than nostalgia. Ties directly to FAVS clusters. See [[wiki/self/notes/jimmy-pop-pennsylvania]].
+**Cultural context (from Jimmy Pop discussion):** Explicit argument, backed by streaming (rock 234B vs hip-hop/R&B 341B), market share (rock 11%), charts, and instrument sales data, that guitar-driven rock is culturally irrelevant in the current era — the first such period since ~1963. Guitar music framed as "automatically lame" in mainstream; catalog acts dominate what remains. Preference for electronic/bass, hip-hop, and emo clusters is defended as alignment with actual cultural shift rather than nostalgia. Ties directly to FAVS clusters. See [[wiki/interests/rock-irrelevance-thesis]].
 
 ## Top Artists (by count) — Expanded
 
@@ -116,7 +116,7 @@ See [[wiki/self/context-core]] for integration with overall profile. Cross [[wik
 ## Sources
 raw/self/favorites/FAVS MASTERLIST.csv (Spotify Liked 2025-2026 + older lists)
 
-Cross-referenced: [[wiki/self/facebook]] (music likes + 2007-2014 continuity), [[wiki/self/context-core]], [[wiki/interests/music/concepts/sub-bass-signature]], [[wiki/self/notes/jimmy-pop-pennsylvania]], [[wiki/mind/synthesis/totality-themes]].
+Cross-referenced: [[wiki/self/facebook]] (music likes + 2007-2014 continuity), [[wiki/self/context-core]], [[wiki/interests/music/concepts/sub-bass-signature]], [[wiki/interests/rock-irrelevance-thesis]], [[wiki/mind/synthesis/totality-themes]].
 
 ## Sub-pages (top artists)
 

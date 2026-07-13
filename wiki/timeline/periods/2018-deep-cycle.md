@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/LIFE REPORT.md", "raw/self/dox-md/Gemini-_00.md"]
-related: ["wiki/timeline/events/timeline", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/work-power-dynamics", "wiki/self/facebook", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/totality-themes"]
+related: ["wiki/timeline/events/timeline", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/totality-themes"]
 ---
 
 # 2018 Deep Cycle
@@ -27,7 +27,7 @@ related: ["wiki/timeline/events/timeline", "wiki/timeline/periods/2017-poverty-f
 
 **Cross-check:** Matches core; FB cross for early digital; ancestry PA base. Pre-Au Za'atar / post-2017 floor per bio extracts.
 
-**Related:** [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2017-poverty-floor]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/self/facebook]], [[wiki/self/gemini-activity/gemini-activity]]
+**Related:** [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2017-poverty-floor]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/facebook]], [[wiki/self/gemini-activity/gemini-activity]]
 
 **Data profile:** 254 events (highest in sample years). High relationship, financial, addiction/recovery subcats. Master CSV + operating confirm.
 

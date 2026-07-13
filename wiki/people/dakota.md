@@ -4,8 +4,8 @@ page_type: entity
 status: active
 date_created: 2026-06-23
 date_modified: 2026-06-23
-sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/self/notes/bfs-bootloader.md", "wiki/legal/bfs-dispute/overview.md", "wiki/people/anita.md", "wiki/people/timmy.md", "wiki/people/kim.md"]
-related: ["wiki/timeline/events/drawer-dispute", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/work-power-dynamics", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/maddox", "wiki/people/brandon-hill", "wiki/legal/bfs-dispute/overview", "wiki/self/facebook", "wiki/self/notes/bfs-bootloader"]
+sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md", "wiki/people/anita.md", "wiki/people/timmy.md", "wiki/people/kim.md"]
+related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/maddox", "wiki/people/brandon-hill", "wiki/self/facebook"]
 ---
 
 # Dakota
@@ -21,7 +21,7 @@ related: ["wiki/timeline/events/drawer-dispute", "wiki/timeline/periods/2025-col
 | Timmy backstory | BFS_BOOTLOADER_v2 §III | Timmy (LC employee) fired for gambling on shift (VIP regular complaint); Anita reported to Kim; incidental vape-to-minor footage on corporate tape; Anita nearly fired. | Dakota as Timmy friend group node for disclosure channel |
 | 2026-05-21 recording (corroboration) | BFS_BOOTLOADER_v2 §VII | Maddox provides full reconstruction matching Dakota disclosure: "Anita said it was Kim... KIM SAID TO TIMMY 'it wasn't me' and so he asked Anita and Anita told him 'it was Daniel.'" | Maddox unsolicited; Brandon hears details for first time; "Dakota initial disclosure" elevated to direct witness account |
 | May 2026 group / LC | BFS_BOOTLOADER_v2 | LC employees (incl. Dakota, Maddox, Kim) aware of Anita patterns across building | "Kim is operationally aware of Anita's scapegoating pattern, having been targeted by it once" (parallel) |
-| Post-incident | wiki/self/notes/bfs-bootloader.md, log.md | "Third-party witnesses: Maddox ... ; Dakota initial disclosure." "Timmy: full sequence + witnesses Maddox/Dakota + mom interaction." | Derived from bootloader synthesis |
+| Post-incident | wiki/work/bfs-foods.md, log.md | "Third-party witnesses: Maddox ... ; Dakota initial disclosure." "Timmy: full sequence + witnesses Maddox/Dakota + mom interaction." | Derived from bootloader synthesis |
 
 ## Timeline
 
@@ -35,7 +35,7 @@ related: ["wiki/timeline/events/drawer-dispute", "wiki/timeline/periods/2025-col
 
 ## Behavioral Notes
 
-Dakota channel is hearsay but treated as credible originating disclosure in bootloader (explicitly "corroborated by both Dakota and Maddox"). No direct quotes attributed to Dakota in primary sources (fuller reconstruction from Maddox). Fits pattern of LC-side awareness/skepticism of Anita (gas station GM) practices: Kim denied pivot and had prior scapegoat experience; Maddox volunteered "crazy and dramatic" + "can't do that to him if you don't even know what went wrong." Per synthesis: exemplifies [[wiki/mind/synthesis/work-power-dynamics]] (Anita sole agency + narrative construction backward to fit outcomes; off-books predates via Marty parallel) and vertical authority skepticism (bottom-layer workers document/expose via witnesses). Tactical posture from bootloader: protect witnesses (light touch on Maddox/Marty equivalent; no recruitment). Ties to core low-trust: false attribution deployed when initial target refuted; Dan zero role despite pivot. "Dan had zero involvement in the Timmy situation. This is the operational template."
+Dakota channel is hearsay but treated as credible originating disclosure in bootloader (explicitly "corroborated by both Dakota and Maddox"). No direct quotes attributed to Dakota in primary sources (fuller reconstruction from Maddox). Fits pattern of LC-side awareness/skepticism of Anita (gas station GM) practices: Kim denied pivot and had prior scapegoat experience; Maddox volunteered "crazy and dramatic" + "can't do that to him if you don't even know what went wrong." Per synthesis: exemplifies [[wiki/mind/synthesis/vertical-authority-skepticism]] (Anita sole agency + narrative construction backward to fit outcomes; off-books predates via Marty parallel) and vertical authority skepticism (bottom-layer workers document/expose via witnesses). Tactical posture from bootloader: protect witnesses (light touch on Maddox/Marty equivalent; no recruitment). Ties to core low-trust: false attribution deployed when initial target refuted; Dan zero role despite pivot. "Dan had zero involvement in the Timmy situation. This is the operational template."
 
 ## Connections
 
@@ -43,9 +43,9 @@ Dakota channel is hearsay but treated as credible originating disclosure in boot
 - **Recording corroboration**: [[wiki/people/maddox]] (LC, fuller account on May 21 sidewalk).
 - **BFS side**: [[wiki/people/marty-martin]] (group text intel, off-books culture), [[wiki/people/brandon-hill]] (demand delivery).
 - **Structure**: LC vs BFS gas station (separate rosters, same building); LC preferred for Dan fit (management quality, lower cash surface).
-- **Dispute context**: [[wiki/legal/bfs-dispute/overview]], [[wiki/timeline/events/drawer-dispute]] (pattern of Anita reversals/blame used to frame drawer response).
+- **Dispute context**: [[wiki/work/bfs-foods]] (pattern of Anita reversals/blame used to frame drawer response).
 - **Mother / external**: Suz interaction on Timmy/mom post-refusal noted in derived notes.
 
-**Cross-references:** [[wiki/timeline/events/drawer-dispute]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/people/marty-martin]], [[wiki/people/maddox]], [[wiki/people/brandon-hill]], [[wiki/legal/bfs-dispute/overview]], [[wiki/self/facebook]], [[wiki/self/notes/bfs-bootloader]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]]
+**Cross-references:** [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/people/marty-martin]], [[wiki/people/maddox]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/facebook]], [[wiki/work/bfs-foods]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]]
 
 **Notes:** No direct documented iMessage/FB message thread with Dan in message-csv (disclosure via in-person / LC social channel as Timmy friend). "Hearsay channel but corroborated by Maddox's fuller account." Primary source is BFS_BOOTLOADER_v2.md canonical reconstruction. Protect posture: witnesses not to be named in escalation packages (per Quagmire file guidance on assets). Group text (Marty participant) + recording + disclosures establish pattern independent of Dan. Defer to raw dox-md for all verbatim. LC application / Kim exit remains parallel thread.

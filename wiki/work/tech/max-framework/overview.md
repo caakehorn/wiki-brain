@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-md/CATO_conflict_architecture.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_13.md", "log.md", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/chats/*"]
-related: ["wiki/mind/concepts/cato", "wiki/mind/concepts/conflict-architecture", "wiki/self/context-core", "wiki/work/tech/grok-build/overview", "wiki/work/tech/imessage-tooling/overview", "wiki/people/max", "wiki/people/mary-kate", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/timeline/periods/2025-collapse", "wiki/legal/bfs-dispute/overview"]
+related: ["wiki/mind/concepts/exocortex", "wiki/mind/concepts/conflict-architecture", "wiki/self/context-core", "wiki/work/tech/grok-build/overview", "wiki/work/tech/imessage-tooling/overview", "wiki/people/max", "wiki/people/mary-kate", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/timeline/periods/2025-collapse", "wiki/work/bfs-foods"]
 ---
 
 # MAX Framework
@@ -78,7 +78,7 @@ Eight bone-level truths for calibrated response:
 ## Cross-References Table
 | Target | Relation |
 |--------|----------|
-| [[wiki/mind/concepts/cato]] | Dedicated CATO page (bootloader details) |
+| [[wiki/mind/concepts/exocortex]] | Dedicated CATO page (bootloader details) |
 | [[wiki/mind/concepts/conflict-architecture]] | Engine model from CATO_conflict |
 | [[wiki/work/tech/grok-build/overview]] | Grok subagent hybrid usage |
 | [[wiki/work/tech/imessage-tooling/overview]] | Exports feed MAX/CATO analysis |
@@ -93,8 +93,8 @@ Eight bone-level truths for calibrated response:
 - [[wiki/self/context-core]]: Voice stability + psychometric (INTP 5w4) encoded in prompts.
 - Felix (supply-adjacent 2026) noted in MAX_PRIME.
 - Examples: Gemini-_13 (Bacharach), CATO_conflict (J6/Bacharach as engine test), MAX pinned (obfuscation trench).
-- [[wiki/legal/bfs-dispute/overview]] + 463 use: forensic (CATO) + stress (MAX) on contractor csvs.
+- [[wiki/work/bfs-foods]] + 463 use: forensic (CATO) + stress (MAX) on contractor csvs.
 
-**Cross-references:** [[wiki/mind/concepts/cato]], [[wiki/mind/concepts/conflict-architecture]], [[wiki/self/context-core]], [[wiki/work/tech/grok-build/overview]], [[wiki/work/tech/imessage-tooling/overview]], [[wiki/people/max]], [[wiki/people/mary-kate]], [[wiki/people/jacob-bacharach]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/facebook]], [[wiki/legal/463-morgantown/overview]] (forensic application), [[wiki/legal/bfs-dispute/overview]].
+**Cross-references:** [[wiki/mind/concepts/exocortex]], [[wiki/mind/concepts/conflict-architecture]], [[wiki/self/context-core]], [[wiki/work/tech/grok-build/overview]], [[wiki/work/tech/imessage-tooling/overview]], [[wiki/people/max]], [[wiki/people/mary-kate]], [[wiki/people/jacob-bacharach]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/facebook]], [[wiki/legal/463-morgantown]] (forensic application), [[wiki/work/bfs-foods]].
 
 **Notes:** Raw/tech/max-framework/ empty; populate from MAX_PRIME + CATO raw. Update as new sessions. Grok Build current use: schema enforcement (YAML frontmatter, tables-first, [[wiki/]] links, raw deferral). Tables prioritize data. See log for Grok Build iMessage note.

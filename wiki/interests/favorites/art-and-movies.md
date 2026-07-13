@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
-related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/mind/concepts/abyssal-architect"]
+related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/mind/profile/index"]
 ---
 
 # Art and Movies Favorites
@@ -28,7 +28,7 @@ Contributes to overall artistic interests profile (81st percentile per spine [[w
 | The Melancholy and Mystery of a Street | Giorgio de Chirico | art,painting,liminal,dread,observer |
 | (others: Ilya Repin, Francis Bacon, Théodore Géricault, Francisco Goya, Zdzisław Beksiński, etc. — 25 total unique) |
 
-Full list defers to raw. Visual/fortress/recursive motifs tie to [[wiki/mind/concepts/abyssal-architect]] and production aesthetics.
+Full list defers to raw. Visual/fortress/recursive motifs tie to [[wiki/mind/profile/index]] and production aesthetics.
 
 ## Movies
 11 items. Sparse data (no creators, no tags, no dates in extract). Complements broader cultural consumption (dark, psychological, satirical, crime, sci-fi lean).

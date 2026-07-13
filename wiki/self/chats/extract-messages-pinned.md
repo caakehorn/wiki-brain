@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat copy.md"]
-related: ["wiki/self/chats/danfrank-isms-pinned", "wiki/self/chats/j6-chat", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/lossless-retention"]
+related: ["wiki/self/chats/danfrank-isms-pinned", "wiki/self/chats/j6-chat", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/forensic-method"]
 ---
 
 # EXTRACT MESSAGES Pinned Chat
@@ -21,6 +21,6 @@ Ties to operating_manual "Extracting Sent and Received" MD, manipulation prompt 
 
 Emphasizes data logging philosophy: node-style or table output, BUFFER STATUS, no consolidation.
 
-**Cross-references:** [[wiki/self/chats/danfrank-isms-pinned]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/mind/synthesis/lossless-retention]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/self/notes/ai-data-logging-patterns]].
+**Cross-references:** [[wiki/self/chats/danfrank-isms-pinned]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/mind/concepts/forensic-method]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/concepts/exocortex]].
 
 Full node/table extraction from the pinned chat will yield specific counts or behavioral data for wiki pages.

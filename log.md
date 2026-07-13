@@ -40,3 +40,10 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 ## [2026-07-12] enrich | people | mined MASTER_MESSAGES_DB_DUMP.csv for top non-Annie contacts: kristin (+corpus texture, fixed librarian error via CONTRADICTION flag), tom (phloxenheim AI-collab thread + political banter), jerad-friedline (full rewrite: verbatim FSLY $200k tip, Tesla calls, Josh Brannan origin), vanessa-frank (full rewrite: political kinship, family back-channel); corrected +13476070497 roster mislabel (dealer, not family)
 ## [2026-07-12] rename | people | wiki/people/fran-whyel.md -> wiki/people/fran-coldren.md (14 pages relinked) via app
 ## [2026-07-12] rename | people | wiki/people/jackson-alexander.md -> wiki/people/alexander-jackson.md (12 pages relinked) via app
+
+## [2026-07-13] restructure | mind+self+legal+work | major re-architecture
+- legal: 463-morgantown 3 fragments → one page; BFS dispute moved out of legal into wiki/work/bfs-foods (merged 4 pages incl. drawer-dispute event + bfs-bootloader note); NEW wiki/legal/2015-retail-theft-arrest (mined from raw message dumps: Combos incident, ARD Feb 17 2016, Judge Wagner, expungement).
+- work: NEW au-zaatar page (41-month NYC job promoted from a self/note).
+- mind: NEW profile/ cluster (7 dense pages: hub, intp, enneagram-5w4, big-five-psychometrics, socionics-and-attitudinal, deviance-mapping, linguistic-profile) mined from FULL PROFILE 2026 + Dan Profile.txt; 5 forensic pages merged → concepts/forensic-method; 4 prompt-artifact pages merged → concepts/exocortex; aesthetic-politics folded into political-psyops; work-power-dynamics folded into vertical-authority-skepticism (rewritten); family-heritage-and-roots folded into self/ancestry; financial-market-era → timeline/periods/2020-2021-market-era; millennial-digital-witness rewritten to prose.
+- self: notes/ dissolved (dispersed to work/, mind/, interests/rock-irrelevance-thesis).
+- bin/wiki-lint: added missing 'profile' page_type (per STYLE_GUIDE).

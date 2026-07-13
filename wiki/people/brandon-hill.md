@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
-related: ["wiki/timeline/events/drawer-dispute", "wiki/self/notes/bfs-bootloader", "wiki/people/anita", "wiki/people/kim", "wiki/legal/bfs-dispute/overview", "wiki/self/context-core", "wiki/mind/synthesis/work-power-dynamics", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/alexander-jackson"]
+related: ["wiki/work/bfs-foods", "wiki/people/anita", "wiki/people/kim", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/alexander-jackson"]
 ---
 
 # Brandon Hill (BFS Assistant Manager, Gas Station Side)
@@ -38,8 +38,8 @@ related: ["wiki/timeline/events/drawer-dispute", "wiki/self/notes/bfs-bootloader
 
 ## Relation to Core & Totality
 
-[[wiki/mind/synthesis/work-power-dynamics]]: Delivery mechanism in off-books culture (Marty: predates Dan; "make the store whole"). [[wiki/mind/synthesis/vertical-authority-skepticism]]: Bottom-layer execution of Anita's architecture. Dan posture: not weaponize labor law vs Brandon specifically. Hours cut pre-dates per Friday schedule (group text).
+[[wiki/mind/synthesis/vertical-authority-skepticism]]: Delivery mechanism in off-books culture (Marty: predates Dan; "make the store whole"). [[wiki/mind/synthesis/vertical-authority-skepticism]]: Bottom-layer execution of Anita's architecture. Dan posture: not weaponize labor law vs Brandon specifically. Hours cut pre-dates per Friday schedule (group text).
 
-**Cross-references:** [[wiki/people/anita]] (architect), [[wiki/people/kim]], [[wiki/timeline/events/drawer-dispute]], [[wiki/self/notes/bfs-bootloader]], [[wiki/legal/bfs-dispute/overview]], [[wiki/self/context-core]], [[wiki/mind/synthesis/work-power-dynamics]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/people/alexander-jackson]] (housing authority parallels), [[wiki/timeline/periods/2025-collapse]].
+**Cross-references:** [[wiki/people/anita]] (architect), [[wiki/people/kim]], [[wiki/work/bfs-foods]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/people/alexander-jackson]] (housing authority parallels), [[wiki/timeline/periods/2025-collapse]].
 
 **Notes:** Posture settled: don't pay; relationship salvageable. 4560 unsigned protection. Recording clean (public sidewalk + Maddox unsolicited). Defer to raw audio/transcript + group text screenshots. Separate from brandon.md stub.

@@ -7,7 +7,7 @@ date_modified: 2026-07-02
 date_range_start: 2024-01-01
 date_range_end: 2026-01-02
 sources: ["raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md", "raw/self/dox-md/Gemini-_07.md", "raw/self/dox-md/Gemini-_13.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/Gemini-_21.md", "raw/self/dox-scan/Gemini-_58.txt"]
-related: ["wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/synthesis/forensic-methodology", "wiki/mind/synthesis/totality-themes", "wiki/self/context-core"]
+related: ["wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/totality-themes", "wiki/self/context-core"]
 ---
 
 # Gemini Activity
@@ -38,10 +38,10 @@ Corpus report on Dan's Gemini usage: a 21MB Google Takeout HTML activity log plu
 | work / Au Za'atar | ~3,400 | 2021–24 NYC hospitality lore — [[wiki/timeline/periods/2021-2023-employment-block]] |
 | lock / profile / node | 3,702 (2,258 / 1,041 / 403) | Explicit "lock these nodes" memory-persistence commands |
 | loop | 1,872 | Pursuit–withdrawal relational pattern |
-| forensic / anomaly | ~1,200 | J6, work alibis, relationship analysis — [[wiki/mind/synthesis/forensic-methodology]] |
+| forensic / anomaly | ~1,200 | J6, work alibis, relationship analysis — [[wiki/mind/concepts/forensic-method]] |
 | uniontown | 507 | Hometown, family, property |
 | trump / j6 / babbitt / psyop | ~920 | Jan 2 2026 cluster — [[wiki/mind/synthesis/political-psyops]] |
-| manipulation / honesty | 474 | Data ethics, no-soften instructions — [[wiki/self/notes/manipulation-ethics]] |
+| manipulation / honesty | 474 | Data ethics, no-soften instructions — [[wiki/mind/concepts/exocortex]] |
 | millennial | 44 | Generational-witness framing — [[wiki/mind/synthesis/millennial-digital-witness]] |
 
 ## Session Index
@@ -63,10 +63,10 @@ The Gemini corpus documents a distinctive usage pattern: the model is treated as
 
 Usage peaks track life events. December 2025 (938 entries) sits inside [[wiki/timeline/periods/dec-2025-spike]]; the January 2, 2026 cluster combines J6/Wildfall forensic deconstruction with the heaviest profile-locking activity, both within [[wiki/timeline/periods/2025-collapse]]. The discrete sessions divide cleanly: work narrative (_00/_02), relationship forensics (_07), anomaly investigation (_13), profile transfer (_18), AI experimentation (_21), and early-biography reconstruction (_58).
 
-Three cross-corpus findings worth keeping. First, relational depth inverts between platforms: Annie and Eli dominate Gemini while Facebook shows breadth without depth, consistent with [[wiki/mind/concepts/contact-gini]]. Second, the forensic method is invariant across subject matter — the same evidence-first, procedural-tells approach is applied to J6 ballistics, workplace tip-siphon alibis, and relationship blackouts (see [[wiki/mind/synthesis/forensic-methodology]]). Third, the corpus is the primary evidence base for [[wiki/mind/synthesis/ai-collaborative-analysis]] — the custom command kernel (!ORLY?, !DANALYSIS, !CHANGELOG), the "LLM Genesis Protocol," and the cross-model transfer experiments all originate here.
+Three cross-corpus findings worth keeping. First, relational depth inverts between platforms: Annie and Eli dominate Gemini while Facebook shows breadth without depth, consistent with [[wiki/mind/concepts/contact-gini]]. Second, the forensic method is invariant across subject matter — the same evidence-first, procedural-tells approach is applied to J6 ballistics, workplace tip-siphon alibis, and relationship blackouts (see [[wiki/mind/concepts/forensic-method]]). Third, the corpus is the primary evidence base for [[wiki/mind/synthesis/ai-collaborative-analysis]] — the custom command kernel (!ORLY?, !DANALYSIS, !CHANGELOG), the "LLM Genesis Protocol," and the cross-model transfer experiments all originate here.
 
 ## Related
 
 - [[wiki/self/gemini-activity/archive/v1-extract]] — full v1 extraction, pinned
-- [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/mind/synthesis/forensic-methodology]] · [[wiki/mind/synthesis/political-psyops]] · [[wiki/mind/synthesis/totality-themes]]
+- [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/political-psyops]] · [[wiki/mind/synthesis/totality-themes]]
 - [[wiki/self/context-core]] · [[wiki/self/chats/j6-chat]]
