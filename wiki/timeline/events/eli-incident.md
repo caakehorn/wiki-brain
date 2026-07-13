@@ -12,6 +12,9 @@ sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
+  - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
+  - raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx
+  - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
 related:
   - wiki/people/annie-ulmer
   - wiki/mind/concepts/attachment-model
@@ -31,14 +34,16 @@ as the most serious moral failure of the terminal phase.
 ## What happened
 Sustained concealed affair between Annie and coworker Eli (male). The affair was ongoing for months before any single "discovery" moment. Dan's accurate suspicions during the active phase were met with forceful, repeated gaslighting that his perception was paranoia or insanity. Key documented episode: October 19 2024 housewarming party argument lasting hours across dozens of messages, during which Annie told Dan "THERE IS NO SITUATION.", "You're literally fucking insane.", and "Grow up. And fucking trust me." while the affair was active.
 
-Discovery trigger (late 2024/early 2025): Dan received text from Eli sent from Annie's phone. Found Annie unconscious with vomit nearby in building lobby ~80 minutes after her shift (5-minute walk from home). Her phone location tracking had been disabled. Confrontation met with physical violence from Annie ("I found your phone, cheater.").
+Discovery trigger: on January 9, 2025 at 11:18 PM Dan's phone received, verbatim, "Hey Dan. It's Eli. Annie is down stairs. I work with her. She and Andrea had drinks at work but I guess they didn't eat." — a male coworker identifying himself by name, late at night, with Annie not at home. Annie did not address it in any logged message for two days. The physical discovery: Annie unconscious with vomit nearby in the building lobby ~80 minutes after her shift (5-minute walk from home), location tracking disabled. Confrontation met with physical violence from Annie ("I found your phone, cheater."). The move from NYC accelerated dramatically in the days after January 9 (~4–5 weeks to departure).
 
-Dan later chose to believe Annie's account sufficiently to attempt returning to "normal life" rather than sustain proof-gathering.
+Dan later chose to believe Annie's account sufficiently to attempt returning to "normal life" rather than sustain proof-gathering. The record's most direct admission came after the move, in a March 2025 message from Annie to Dan (verbatim, pronouns as written): "you decided to split our lives up. you lied to me for months and cheated on me" — read literally it accuses Dan, but every dossier that cites it treats it as her acknowledgment of the months of lying and the cheating, and rates it "the most direct admission in the record."
+
+**The arrangement context (CompleteRecord Part XIII):** the couple ran a Dan-architected quasi-non-monogamous framework from 2018 — Dan arranging, Dan present, typically with his own friends. Eli had none of those features: not arranged, not disclosed, not addressed honestly. The dossiers' finding: within their arrangement the Tom-type encounters were not cheating; Eli was — "she had a framework within which she had freedom. She went outside that framework, secretly, with someone from work. That is exactly what Dan had proposed the arrangement to prevent." The affair's moral clarity is sharpened, not reduced, by the arrangement's existence.
 
 ## When
 - Affair active/sustained: At minimum autumn 2024 (August 2024 record shows Dan already identifying the gaslighting mechanism in real time); continued through at least early 2025 and until closure.
 - October 19 2024: Extended housewarming confrontation and gaslighting.
-- ~January 9 2025 (approximate trigger date referenced in corrective sources): Eli text + physical discovery.
+- January 9 2025, 11:18 PM (exact, per MasterRecord_FINAL): Eli's self-introduction text; physical discovery.
 - Post-incident: Dan's retrospective accounts (Feb–May 2025) confirming he chose to believe despite accurate perception.
 
 ## People involved

@@ -15,6 +15,7 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
+  - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
 related:
   - wiki/people/tarik-fallous
   - wiki/people/valeria-iglesias-cid
@@ -42,7 +43,15 @@ alibi for over a year to secure peak hours and tip splits, took sidewalk
 deliveries from his Dominican contact Menore through taxi windows, and
 eventually made himself the "Outside Guy": sole custodian of the dying
 shed section and its cash tips. The job ended in August 2024 when the
-city-mandated shed tear-down erased the territory.
+city-mandated shed tear-down erased the territory. The DanAnnie dossier
+amendments add the mechanics and the verdict: the employer cut his hours
+through June–August 2024 in a pattern Dan read in real time as maneuvering
+to force a quit and dodge unemployment obligations ("lowering my hours so
+much that it's not even worth staying," Aug 6 2024); he dropped resumes
+from July 9 onward, filed for unemployment August 8, and the loss is
+ruled **involuntary** (Amendment 2, ACCEPTED) — the fact that reframes
+Annie's late-2024 "you never work" grievances as locally valid but
+historically partial.
 
 ## The founding (Part 1 of the STORYTIME)
 
