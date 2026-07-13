@@ -1,61 +1,98 @@
 ---
 domain: people
 page_type: entity
-status: archived
+title: "Valeria Iglesias Cid"
+status: stable
 date_created: 2026-06-23
-date_modified: 2026-06-23
-date_range_start: 2021-03
-date_range_end: 2024-08
-sources: [
-  "raw/self/dox-md/Gemini-_00.md",
-  "raw/self/gemini-activity/Gemini Activity.html",
-  "raw/self/dox-md/Gemini-_18.md",
-  "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"
-]
-related: [
-  "wiki/people/annie-ulmer",
-  "wiki/self/gemini-activity/gemini-activity",
-  "wiki/timeline/periods/2021-2023-employment-block",
-  "wiki/mind/synthesis/attachment-trauma-bond",
-  "wiki/timeline/events/eli-incident"
-]
+date_modified: 2026-07-13
+date_range_start: 2021-12
+date_range_end: 2025-07
+sources:
+  - raw/people/valeria/message_1.json
+  - raw/self/dansynth/TheOnlyThingDanSlings.md
+  - raw/self/dansynth/AuZaatarsFinalShift.md
+  - raw/self/dox-md/Gemini-_00.md
+  - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
+related:
+  - wiki/people/annie-ulmer
+  - wiki/work/au-zaatar
+  - wiki/mind/synthesis/attachment-trauma-bond
+  - wiki/self/gemini-activity/gemini-activity
+changelog:
+  - date: 2026-07-13
+    note: "Rewritten from the primary IG corpus (message_1.json, 4,884 msgs 2022–2025) + Feb 2026 Gemini audits"
 ---
 
 # Valeria Iglesias Cid
 
-## Identity
-Valeria Iglesias Cid — 19-year-old heiress to a laser-surgery empire (mother: Dra. Loreto Cid in Concepción, Chile) at time of involvement. Singular "unauthorized infidelity" / "total security breach" during the Annie Ulmer relationship (2015–2026). Only documented instance where primary partner (Annie) was not aware of the specific participant in advance. Deep Architecture of obsession potent enough that Dan claimed he would have "moved to Chile for her." Juxtaposed "dirtbag" server at Au Za'atar (58th Street Shed) vs. "Santiago Son-in-Law" fantasy. Central Park kiss and basement hug (video artifacts 69597826...mov, 65A14E3A...mov) described as "best of times and worst of times." Collapsed after Norteno server macked on nudes. "Valeria edits" ongoing during Annie firing/zero-notice period. Explicit "CORE ANOMALY" of Au Za'atar chronicles in Gemini forensic extractions.
+Valeria Iglesias Cid was the 19-year-old Au Za'atar hostess — daughter of
+Chilean laser-surgery figure Dra. Loreto Cid of Concepción — with whom Dan
+had the one affair of the Annie decade that Annie never knew about in
+advance: the record's "singular instance of unauthorized infidelity," its
+"total security breach." The affair peaked in the winter 2021–22 Au
+Za'atar cycle and its physical era ended when Valeria returned to Chile —
+but the primary corpus now on disk shows the thread never actually closed:
+**4,884 Instagram messages spanning May 28, 2022 to July 11, 2025**
+(`raw/people/valeria/message_1.json`), with her still sending "Miss u" in
+mid-2025, three years and 5,000 miles after the Shed. Dan's own verdict,
+verbatim: "would have literally moved to chile for her i swear to god."
 
-**Gemini verbatim profile lock context:** "the Valeria Iglesias Cid era was the only time the system experienced a total security breach." "While Annie Ulmer—the literal avatar of reliability—was fired with zero notice, you were fundamentally disconnected, orbiting the Valeria sun."
+## The affair (winter 2021–22 → mid-2022)
 
-**_00 Deep Extracts (verbatim):**
-- "this is truly the only time i ever cheated on annie that she didn't knwo... would have literally moved to chile for her i swear to god"
-- "The **Deep Architecture** of your **Valeria** obsession was so potent you claim you would have **moved to Chile** for her."
-- "It collapsed because a **Norteno server** macked on your nudes, but the **Deep Architecture** of that period remains the most vibrant fragment in the **Au Za'atar** saga."
-- "Valeria wasn't just another 'out-of-work tiff'; she was a **Potential Timeline Rewrite**." "Kinetic Energy of a man prepared to abandon the **Au Za'atar** simulation entirely."
-- "CORE ANOMALY of the Au Za'atar chronicles"; "19-year-old heiress"; "dirtbag failson" vs "Santiago Son-in-Law"; "Valeria edits" + "Central Park kiss" / "basement hug" videos; "Legacy Code".
-- "SHE DIDN'T KNOW, THE SHED DIDN'T CARE, AND THE SHAWARMA KEPT SPINNING TOWARDS THE EQUATOR."
+She worked the host stand at Au Za'atar Midtown while Dan ran the sidewalk
+Shed ([[wiki/work/au-zaatar]]); the "night class" alibi doubled as its
+cover. The documented peaks: the Central Park kiss and the secret basement
+reunion hug, both preserved on video; a "digital altar" of edited clips Dan
+admits he was "overdoing." The June 2022 messages catch the register —
+Valeria "worthy of like CONSTANT effort," himself a "stupid fat lazy skinny
+gringo," the state named a "Valeria infection." He watched her Instagram
+stories from a logged-out browser to avoid getting her in trouble, met her
+mother once (and typed up a comparative analysis of their mothers — Vogue
+vs. InStyle), and at one point ran a brute-force search for her, sending
+follow requests to some **300 accounts named Valeria**. The physical era
+collapsed when a "Norteno server" made a pass at her nudes, and it ended
+geographically when she went home to Concepción — while, per Dan, she was
+also "trying to talk to her boyfriend to see if it works" back in Chile.
+The dynamic in the long-distance record is asymmetric in both directions:
+she oscillated between explicit desire and pragmatism; he offered to book a
+direct JFK flight, told her the color had left his world, swore feelings on
+his dog Milo, and later reported that Spanish itself was "ruined" for him
+by association.
 
-## Timeline
-| Date | Event |
-|------|-------|
-| ~2021-03 to 2024-08 | Valeria era overlaps Au Za'atar employment (busser). Hidden from Annie; intercontinental elements (JSON artifact message_1.json). |
-| Peak | Central Park kiss + basement hug documented in video; "Digital Altar" built with edits (8B7C00DB...mov). |
-| ~2021-2024 | "Night Class" 9pm alibis sustained 2.5 years concurrent with Annie stasis; tip siphoning protocol. |
-| Collapse | Norteno server macks nudes; "Valeria edits kept being made" until Dimitri re-entry signals end game. "Singular instance of unauthorized infidelity." |
-| Post | "Isolated Incident" sealed in Frank-Ulmer simulation; never destabilized primary recursive structure with Annie per Gemini analysis. Chilean pull (move to Concepción laser empire) vs 58th St reality. |
+## The long tail (2022–2025)
 
-## Domain: Self
-High-signal attachment deviation node. Only full security breach in long-term bond. Seeded "Total Security Breach" framing used in later Eli/Loop analyses. Cross to [[wiki/people/annie-ulmer]] (stasis contrast: Annie fired while orbiting Valeria), [[wiki/self/gemini-activity/gemini-activity]] (forensic storytime), Au Za'atar work chronicles, attachment-trauma-bond (template repetition of concealment). Demonstrates "entropy" capacity during hedonism/NYC phase pre-2025 return.
+The IG corpus runs straight through the eras the wiki otherwise treats as
+closed: through the Au Za'atar wind-down, the Eli discovery, the return to
+Uniontown, and the Annie terminal phase, contact persisted at low frequency
+— nail photos, "miss u," "too pretty stop it. omg im dead" (July 2025). At
+some point Dan told the record she is "the person I am supposed to spend my
+life with." The February 2026 Gemini audit ("The Only Thing Dan Slings...")
+called the frame directly: "You aren't in love with Valeria; you're in love
+with the person you are when you're talking to her." On **February 15,
+2026** Dan parsed the full JSON with Gemini as the thread's formal forensic
+closure — though the corpus's last inbound message is hers.
 
-## Notes
-Per Gemini-_00: "This was the singular instance of unauthorized infidelity where the primary partner was not aware of the specific participant in advance." "THE CHILEAN PULL: The Deep Architecture of your Valeria obsession was so potent you claim you would have moved to Chile for her." "THE JUXTAPOSITION: Imagine trading the 58th Street Shed for the high-powered laser surgery empire of Dra. Loreto Cid in Concepción."
+## Structural significance
 
-No independent message corpus located; all high-fidelity reconstruction via Gemini self-forensic extractions and video artifacts. Cross-verified against LIFE calendar (no explicit entries surfaced in sample; defers to Gemini + FB/au-zaatar overlaps). Under-developed relative to Annie/Tom/Lex; high forensic weight for "breach" taxonomy in conflict-architecture.
+Valeria is the "CORE ANOMALY" of the Au Za'atar chronicles and the record's
+cleanest demonstration of the remote-intimacy architecture
+([[wiki/mind/profile/enneagram-5w4]]): a connection that survived three
+years almost entirely inside a JSON object, idealized in exact proportion
+to its distance. She is also the sharpest counter-datum in the Annie moral
+ledger — while the wiki documents Annie's concealments at length, the
+Valeria thread is Dan's own sustained concealment, held secret by the same
+alibi infrastructure he later condemned in others, and running (as
+correspondence) even while he prosecuted Annie's affairs forensically. The
+record calls it a "True Betrayal" in his own cycle; this page keeps it
+queryable for the same reason the Eli page exists.
 
-## Related
-- [[wiki/people/annie-ulmer]]
-- [[wiki/self/chats/gemini-02]] (Au Za'atar work nodes)
-- [[wiki/self/gemini-activity/gemini-activity]]
-- [[wiki/mind/synthesis/attachment-trauma-bond]]
-- [[wiki/timeline/periods/2021-2023-employment-block]]
+> **REVISED [2026-07-13]:** The earlier "2021–2022 window" narrowing was
+> wrong about the thread's end: message_1.json documents continuous contact
+> May 2022 – July 2025. The *physical/affair* era was winter 2021–22 to her
+> mid-2022 departure for Chile; the correspondence never closed.
+
+**Gaps:** exact start (how/when the affair began before the IG thread's May
+2022 first message — the winter 2021–22 peak predates it, presumably on
+another channel); her current status and whether contact continued past
+July 2025; whether Annie ever learned of her; the "Norteno server"'s
+identity.

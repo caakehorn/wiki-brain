@@ -52,3 +52,21 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - Capture filed: raw/people/captures/2026-07-13-eli-vs-tuquick-correction.md
 - Eli affair = NYC, sometime 2024 → Feb 2025 departure. Tuquick = the interloper Annie left Dan for + June 1 2026 group-chat counterpart. Tuquick ?= Target G (unknown).
 - Updated: eli.md, tuquick-17248123683.md, annie-ulmer.md, group-chat-closure.md, eli-incident.md, attachment-model.md (REVISED flags where framing changed).
+
+## [2026-07-13] ingest | self+people+places+timeline+work | DANSYNTH (part 1 of many)
+- New raw: raw/self/dansynth/DANSYNTH.txt (278KB Gemini chat export, Feb 2026 sessions) + dansynth-scrape-phases-2-7.md (user's ~5% fact scrape).
+- fran-coldren rewritten (golf record, 117 Belmont, Palmer, $100/yr gift protocol, caregiving years); NEW timeline/events/fran-death-vigil; NEW places/117-belmont-circle; 155-virginia updated (Belmont adjacency, Mar 29 2018 eviction notice); NEW people/katie-fletcher; valeria narrowed to 2021–22 + Feb 15 2026 JSON audit; suzanne + high-school nexus with Annie's father + keno morning; annie start date pinned Nov 28 2015; au-zaatar corrected (Midtown 58th & 1st, Mar 2021 start, Aug 2024 shed tear-down ending, full cast).
+- CONTRADICTIONS flagged: Fran death Apr 1 vs Apr 4; Bacharach novel setting 337 Saratoga vs 155 Virginia; Franki-vs-Katie sequencing.
+- Remaining: ~95% of DANSYNTH unmined — queued.
+
+## [2026-07-13] ingest | work+people+mind | Au Za'atar chat trilogy + Valeria IG corpus
+- New raw: raw/self/dansynth/{TheWaitersVisibleHigh,AuZaatarsFinalShift,FromSidewalkShedtoAnalyticalProwess,TheOnlyThingDanSlings}.md; raw/people/valeria/message_1.json (4,884 IG msgs, 2022-05-28 → 2025-07-11).
+- valeria-iglesias-cid rewritten from primary corpus: hostess at Au Za'atar; winter 2021–22 affair; Concepción departure; 300-account brute-force search; contact alive to Jul 2025 (REVISED the earlier 2021–22-only window); Feb 15 2026 audit as closure.
+- au-zaatar enriched (de facto manager era, "WAS HE HIGH?" review, Thanksgiving 2023 near-firing, Sergio mediation transcript, factions, red apron→white Uniqlo) + CORRECTED: Annie's zero-notice firing was at a DIFFERENT restaurant, not Au Za'atar.
+- NEW wiki/mind/concepts/institutional-out.md — the always-installed absence mechanism (migraine protocol, night class), from Dan's verbatim self-statement.
+
+## [2026-07-13] ingest | people+work | AZ STORYTIME Part 1 + Kristin Chimera genesis addendum
+- New raw: raw/self/dansynth/StorytimeAuZaatarAnalysis.md; raw/people/kristin/chimera-genesis-addendum.md.
+- au-zaatar: founding section (interview charm, equal tip split, nightly shed build, opener slot / never closed once, owners' surveillance apartment, winter OUTDOOR-OUTDOOR service, caddie-style serving, Uniqlo Oxford). Annie correction refined: hostess at the ORIGINAL East Village AZ (Dan got her the job ~Apr 2021); fired zero-notice from there.
+- Ismaila gap RESOLVED: Ismaila Barry = "DJ" — new people page; dimitri + felipe promoted from contacts/ with full identities.
+- kristin.md: girlfriend-era genesis section (LONELY LOSER/ENIGMA nicknames, the rules, Danny as foundational myth, purity tests, trauma-bond 80% model, failure-state-is-success finding).

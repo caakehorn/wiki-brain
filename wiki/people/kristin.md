@@ -6,7 +6,7 @@ date_created: 2026-06-23
 date_modified: 2026-07-02
 date_range_start: 2025-09-01
 date_range_end: 2025-12-10
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/self/dox-md/tom_kristin_master_dossier.md"]
+sources: ["raw/people/kristin/chimera-genesis-addendum.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/self/dox-md/tom_kristin_master_dossier.md"]
 related: ["wiki/people/tom", "wiki/people/annie-ulmer", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/attachment-trauma-bond"]
 ---
 
@@ -42,6 +42,38 @@ She lives in a rural area outside the city — the corpus has her describing roa
 ## Attachment Context (from the Tom/Kristin dossier)
 
 The dossier frames Kristin primarily through her dynamic with Tom: maternal agony over Kayden, "brat"-style boundary testing, edge play, and chemical escapism (cabin trips on ketamine, MDMA, and LSD) with Tom acting as the stoic absorber and supply line. Dan's thread runs parallel to that dyad rather than inside it — a separate, direct, flirtatious channel. Kristin surfaces in the Suz thread only as logistics ("Kristin who?", "kristin is working for another few hours"), which places her in Dan's lateral (Tom-circle) social load rather than the vertical family load.
+
+## The girlfriend era: genesis architecture (Project Chimera addendum)
+
+The relationship was, for its fourteen weeks, a real girlfriend era — and
+the Genesis-phase Messenger logs (September 1, 2025, pre-dating the
+iMessage thread) show its entire architecture installed within the first
+48–72 hours. Within the first day Dan set the Messenger nicknames himself:
+his own to "⛤✵ LONELY LOSER ✵⛤" and hers to "☉☾ ᴇɴɪɢᴍᴀ ☾☉" — supplicant and
+gatekeeper, self-assigned. Within the same hours Kristin laid down the
+system's explicit rules: total sexual exclusivity ("That is my cum. Mine."),
+abandonment as the standing consequence ("I don't settle… I leave"), and
+climax-as-oath ("If I cum with you in my presence I'll be with you until
+death. That is a very serious thing to me"). The foundational myth
+underneath, disclosed almost immediately, was **Danny** — her prior
+great-intensity partner, dead ("there was never supposed to be 'on and off'
+with Danny") — with Dan explicitly auditioning for the role of the Danny
+who stays: "I am the person who can give you the passion, intensity and
+real spirit of romantic adventure that you've described in your
+relationship with danny, but with a sense of permanence and stability"
+(Sep 25). Ahmed, the Egyptian ex, entered the record the same first night.
+
+The Chimera addendum's model (an AI analysis Dan commissioned; read with
+that provenance): a **hyper-accelerated trauma bond** (assessed at 80%
+probability over "authentic partnership" at 15%), gated by escalating
+"purity tests" of unconditional devotion — the porn pop-up and the
+weed-vs-coke lie being documented failures — built by both parties as a
+deliberately totalizing world ("us against the world"; Dan: "completely
+throw myself into the situation"). Its bleakest structural finding: the
+system's failure state was success — full trust would have ended the
+game that powered it, so crisis was load-bearing. The forecast it issued
+(stagnation via cyclical conflict, death by attrition) is roughly what the
+terminal record shows happening by December.
 
 ## Texture from the corpus
 
