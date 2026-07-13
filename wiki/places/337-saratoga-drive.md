@@ -46,19 +46,19 @@ legal tangle ([[wiki/legal/463-morgantown]]). Context-core carries the
 situation as the acute open variable of mid-2026: "no confirmed post-close
 plan."
 
-## The Bacharach anomaly
+## The Bacharach connection
 
-> **CONTRADICTION:** the DANSYNTH scrape attributes the novel's setting to
-> [[wiki/places/155-virginia-ave|155 Virginia Ave]] instead of this house —
-> unresolved; see [[wiki/people/jacob-bacharach]].
-
-The house has one genuinely strange documented distinction: novelist
-[[wiki/people/jacob-bacharach]] set scenes of a novel in it. The forensic
-audit this triggered (parcel maps, deeds, obituaries) concluded an
-"Exterior Shell" use — the author borrowed the real geography and exterior
-and invented the interior — one of the cleanest documented runs of the
-forensic method on a non-adversarial anomaly
-([[wiki/mind/concepts/forensic-method]]).
+> **REVISED [2026-07-13]:** An earlier version of this page attributed
+> novelist [[wiki/people/jacob-bacharach]]'s fictional rental setting to
+> this house. That was wrong — the novel's setting is a separate,
+> unrelated house at [[wiki/places/155-virginia-ave|155 Virginia Ave]],
+> which the Bacharachs never lived in. What *is* real about this house:
+> Jacob Bacharach's family actually lived down this street as childhood
+> neighbors of the Franks — the basis of the friendship and of Jacob's
+> teen job acting in a commercial for Rick Frank's auto-parts store. The
+> "coincidence chain" that later surfaced the 155 Virginia Ave overlap
+> started from this real neighbor relationship but resolves to a
+> different address. Full account at [[wiki/people/jacob-bacharach]].
 
 ## Significance
 

@@ -4,7 +4,7 @@ page_type: entity
 status: stable
 date_created: 2026-06-22
 date_modified: 2026-07-02
-sources: ["raw/self/dox-md/Gemini-_13.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
+sources: ["raw/self/dox-md/Gemini-_13.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Jacob Bacharach.md"]
 related: ["wiki/self/chats/gemini-13", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/self/context-core", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start"]
 ---
 
@@ -38,18 +38,40 @@ The AI's summarizing line captures why the episode stuck: that Dan "had to move 
 | Teen years (pre-2009) | Bacharach acts in Rick Frank's auto-parts commercial |
 | ~2008–2010 | Suz buys 155 Virginia Ave (before the book was written) |
 | ~2012–2015 | Dan and Annie live at 155 Virginia Ave; the novel is written and published (2014) |
-| ~2022 | In NYC, Dan hears Bacharach on Chapo via autoplay, recognizes him, re-establishes contact |
-| ~2025 | Dan finally reads the book and identifies the house; the forensic analysis follows |
+| ~2022 | In NYC, Dan hears Bacharach on Chapo via autoplay, recognizes him, reaches out and re-establishes contact ("we keep in touch") |
+| 2025-12-21 | Dan finally reads the book (owned for years, unread) and identifies the house; the forensic analysis follows |
 
 ## Related
 
 [[wiki/self/chats/gemini-13]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/self/context-core]] · [[wiki/people/suzanne-frank]] · [[wiki/people/annie-ulmer]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]]
 
-> **CONTRADICTION (which house):** The Gemini-_13 audit and prior wiki
-> pages identify the novel's borrowed setting as **337 Saratoga Drive**
-> (the childhood home). The 2026 DANSYNTH scrape instead names **155
-> Virginia Avenue** — the Fran-era residence adjacent to 117 Belmont —
-> as the primary setting. One address is wrong; resolving requires
-> re-reading the novel passage or the Gemini-_13 parcel audit against
-> the DANSYNTH session. Both candidate pages carry this flag
-> ([[wiki/places/337-saratoga-drive]], [[wiki/places/155-virginia-ave]]).
+> **REVISED [2026-07-13]:** The prior "which house" contradiction is
+> resolved by a separate Gemini session (`Jacob Bacharach.md`) that walks
+> through the confusion in real time. There is no single disputed
+> address — two different, unrelated facts were being conflated:
+> **337 Saratoga Drive** is the real, non-fictional detail — Dan's
+> childhood home, with the Bacharach family living down the same street
+> (this is the actual basis of the neighbor relationship and the teen
+> commercial job). **155 Virginia Avenue** is a separate coincidence: the
+> house *The Bend of the World* uses as a fictional rental setting,
+> which Suz happened to buy and which Dan and Annie happened to live in
+> — with no connection to the Bacharachs beyond Jacob's having picked
+> that specific house (by exterior alone, having "never set foot inside
+> it") as a novelistic prop. Dan explicitly ruled out any deeper link in
+> the session: "Jacob or his family never lived on Virginia Avenue,"
+> and "the virginia avenue thing is just a different totally separate
+> and unique coincidence." The interior details in the novel (nautical
+> kitchen, cathedral-ceiling bedroom) are confirmed fictional — Dan's own
+> tenancy at 155 Virginia (~2012–2015) found a normal kitchen and
+> bedroom, not the book's version. Only the exterior match (glazed
+> brick, sole property line against the Country Club's 5th fairway) is
+> real. Session also gives a specific timeline correction: Suz bought
+> 155 Virginia Ave *before* Bacharach wrote the book, not after — ruling
+> out any possibility he was describing a place he'd since heard she
+> owned.
+>
+> One residual date discrepancy: Nathan Bacharach's death is dated
+> **August 1, 2009** in this session (sourced to an obituary and a
+> *Pittsburgh Jewish Chronicle* piece on his struggle with addiction) vs.
+> **July 30, 2009** elsewhere in this page's older sources — a two-day
+> gap, unresolved, immaterial to the rest of the chain.
