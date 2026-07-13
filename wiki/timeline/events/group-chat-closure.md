@@ -55,6 +55,7 @@ See [[wiki/mind/concepts/attachment-model]] (no closure without explicit severan
 
 ## Related events
 - [[wiki/timeline/events/end-fight]] (detailed thread/CSV sequence leading into and including the June 1 closure)
+- [[wiki/timeline/events/april-may-2026-final-weeks]] (the final seven documented weeks immediately preceding this closure)
 - [[wiki/timeline/events/eli-incident]] (the third-party relationship whose existence was confirmed)
 - December 2025 volume spike (last major mutual investment period)
 - Nov 2025 and Feb 2026 written denials (issued while defamation campaign was active)

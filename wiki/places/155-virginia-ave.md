@@ -46,11 +46,15 @@ the terminal vigil — Dan was served an eviction notice for 155 Virginia by
 Dian V. Moore, demanding the keys; the residence timeline has him staying
 until February 2019, so the notice's outcome is undocumented.
 
-> **CONTRADICTION (Bacharach setting):** The DANSYNTH scrape states that
-> novelist Jacob Bacharach used **155 Virginia Avenue** as the primary
-> setting of a published work. Prior wiki sources (Gemini-_13 audit) put
-> the novel's setting at **337 Saratoga Drive**, the childhood home. One
-> address is wrong — see [[wiki/people/jacob-bacharach]] for the flag.
+> **REVISED [2026-07-13]:** Resolved — novelist
+> [[wiki/people/jacob-bacharach]] used this house's exterior only (never
+> set foot inside it) as a fictional rental setting in *The Bend of the
+> World*; the interior details in the book are invented. This is
+> unrelated to the Bacharach family's actual former home at
+> [[wiki/places/337-saratoga-drive|337 Saratoga Drive]], down the street
+> from the Franks — two separate facts that an earlier pass had
+> conflated into a false contradiction. Full account at
+> [[wiki/people/jacob-bacharach]].
 
 The address is also the physical anchor of the record's bleakest quantified
 period, and its four years contain the relationship genesis whose closure

@@ -54,6 +54,16 @@ uploaded    source      knowledge
   a file in both inbox/ and raw/.
 - **raw/** — immutable source archive, organized `raw/<domain>/<collection>/`.
   Never modify or delete anything here except when filing from inbox/.
+  **`raw/self/context-core/CONTEXT_CORE_EXPANDED.md` is the primary
+  authoritative source for facts about Dan** — biography, timeline,
+  psychology, relationships, ideology. It is curated and internally
+  cross-checked (flags its own gaps and unresolved items explicitly,
+  e.g. "do not speculate"), unlike the bulk chat/dossier exports, which
+  are raw and sometimes self-contradictory. When starting work on any
+  self/mind/timeline topic, check this file first before searching the
+  wider raw/ corpus — its wiki counterpart is [[wiki/self/context-core]].
+  Treat other raw sources as supplementary or corrective to it, not
+  co-equal, unless they carry a specific dated correction it lacks.
 - **wiki/** — the compiled product: accumulated understanding, not a cache of
   raw/ (see the second-brain principle above — earned pages are not
   regenerable). You own every byte. Domains: `self` (identity, core facts,

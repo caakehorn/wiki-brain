@@ -93,8 +93,11 @@ on March 16 formally retracted: "I misunderstood the conversation." Applied
 to a two-word screamed exchange, the dossiers rate this retraction
 "factually incompatible with any ordinary reading of language" and name it
 the terminal phase's most concentrated gaslighting event — the moment the
-honest conversation was most available and most actively prevented. The
-documented record ends here.
+honest conversation was most available and most actively prevented. This
+was the record's most-analyzed close point, but not its actual end — see
+[[wiki/timeline/events/april-may-2026-final-weeks]] for the documented
+final seven weeks (April 1 – May 6), which run worse than anything above
+before the June 1 closure.
 
 ## Aftermath
 

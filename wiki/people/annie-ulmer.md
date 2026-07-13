@@ -26,6 +26,7 @@ sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/Annie Affadavit.txt
   - raw/self/dox-md/ulmer_dui_megadoc.md
+  - raw/self/dox-md/Honest assessment and value judgment analysis.md
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
@@ -42,6 +43,7 @@ related:
   - wiki/timeline/events/eli-incident
   - wiki/timeline/events/end-fight
   - wiki/timeline/events/march-2026-terminal-phase
+  - wiki/timeline/events/april-may-2026-final-weeks
   - wiki/timeline/events/group-chat-closure
   - wiki/timeline/periods/dec-2025-spike
   - wiki/timeline/periods/2015-2016-annie-relationship-start
@@ -417,6 +419,9 @@ recorded for completeness.
 | 2025-12 | Reinvestment spike — 4,657 messages, corpus peak |
 | 2026-01-04/20 | Target G: "Suzy" call, Whisk psyop (shown only to Annie), 10-day blackout |
 | 2026-03-01 – 03-16 | Terminal peak: laundry response, bathroom incident, "YES DAN" confession + Mar 16 retraction ([[wiki/timeline/events/march-2026-terminal-phase]]) |
+| 2026-04-01 | Unresolved third-party contact: a man calls Suz twice overnight looking for Annie |
+| 2026-04-20/26 | Brief reinvestment window (Annie out-messages Dan for the only time in the extended record) |
+| 2026-05-04/06 | Worst-content week of the full record: sustained explicit suicidal language, GPS shown shared with a third party, Annie starts a new job, Dan self-periodizes the relationship ([[wiki/timeline/events/april-may-2026-final-weeks]]) |
 | 2026-06-01 | Group-chat closure: Tuquick relationship + defamation campaign confirmed; "sic semper lupanis" |
 | 2026-06-05 | Final message — unprompted apology: "Daniel, i just want to say that i am extremely sorry." |
 | 2026-06-15 | Tuquick defects; independent validation ("compulsive liar") |
@@ -428,11 +433,26 @@ The compiled full-record files the dossiers were generated from
 `14_day_212_logs.csv`) are not archived in raw/ — the underlying iMessage
 data exists but the exact 126,683-row cross-platform compilation cannot
 currently be reproduced. The precise start date of the Eli involvement is
-unestablished (autumn 2024 is the documented floor). Target G's identity
-is unresolved — the dossiers name "Caitlin's husband"; whether he is
-Tuquick is unknown. The escort-work claim in the non-monogamy background
-is flagged unverifiable in the record. The DUI's disposition after the
-preliminary-hearing stage is unknown. Annie's post-closure perspective
+better bounded but still not exact: GPS was disabled "for weeks" by late
+July 2024 per Annie's own confirmation, and a lying-about-whereabouts
+trust breach is documented in August 2024 — five months before the
+formal January 2025 discovery — so the affair's behavioral floor moves
+earlier than autumn 2024, though its true start remains undated. Target
+G's identity is unresolved — the dossiers name "Caitlin's husband";
+whether he is Tuquick is unknown. The escort-work claim in the
+non-monogamy background is flagged unverifiable in the record. The DUI's
+disposition after the preliminary-hearing stage is unknown.
+
+A pregnancy reference surfaces in two independent chat-analysis sources
+(not the primary dossiers) with unusual specificity — a claimed due date
+of November 18, working back to conception around February 11, 2025 (33
+days after the Eli discovery night), with Dan described as present at a
+clinic visit and referring to it as "ours." This is **not corroborated
+by any primary message export, dossier, or other wiki page**, appears in
+sources that elsewhere required correction of their own confabulations,
+and is not adopted as fact here. It is recorded only as an open item
+requiring verification against a primary source before being written
+into any page as established. Annie's post-closure perspective
 consists of a single line: the June 5 apology.
 
 ## Notes
