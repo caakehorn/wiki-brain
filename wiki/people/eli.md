@@ -21,12 +21,14 @@ related:
 
 # Eli
 
-Eli is the man [[wiki/people/annie-ulmer|Annie]] had the concealed affair
-with — a male coworker from her NYC restaurant world whose relationship
-with her ran through at least autumn 2024 and whose discovery in January
-2025 ended — in substance, if not yet in form — the decade-defining
-relationship of Dan's life (the formal closure came June 1, 2026, after a
-fifteen-month terminal phase). He has almost no
+Eli is the man [[wiki/people/annie-ulmer|Annie]] had the concealed NYC
+affair with — a male coworker from her New York restaurant world. The
+affair ran from sometime in 2024 until Dan and Annie left New York in
+February 2025, and ended there: Eli stayed in NYC. Its January 2025
+discovery broke the relationship's trust permanently, but Eli is **not**
+the man Annie ultimately left Dan for — that was Tuquick
+([[wiki/people/tuquick-17248123683]]), the counterpart of the June 1, 2026
+terminal group chat. Eli's damage was epistemic, not final. He has almost no
 independent presence in the record: no message thread, no social profile,
 barely a surname's worth of identity. What exists instead is his enormous
 *negative* footprint — "eli" appears 5,524 times in the Gemini activity
@@ -46,8 +48,9 @@ Gemini-_07 clean-room analysis *severed* the Eli/WhatsApp channel as
 "unrelated noise (Eli or another satellite)" — a separate, non-overlapping
 vector — from the "Target G" architecture (the January 4, 2026 "Suzy" call
 and the ten-day Grim Trigger blackout at the mother's house), which belongs
-to a different concealed male entirely. Eli's designation in that analysis
-is simply "the Eli/NYC chaos node." Full sequence and evidence:
+to a different concealed male entirely — possibly Tuquick, possibly not;
+the record does not resolve it. Eli's designation in that analysis is
+simply "the Eli/NYC chaos node." Full sequence and evidence:
 [[wiki/timeline/events/eli-incident]].
 
 ## The redaction protocol
@@ -71,6 +74,8 @@ Eli's function in the record is evidentiary: he is the fixed point that
 proved the perception right.
 
 **Gaps:** surname, age, exact workplace (Annie's restaurant vs. adjacent),
-and the affair's precise start date are all absent; whether contact between
-Annie and Eli continued after the June 2026 closure is unknown; everything
-known arrives through Dan's corpus — no neutral source exists.
+and the affair's precise 2024 start date are all absent; whether any
+contact persisted after the February 2025 NYC departure is unknown;
+everything known arrives through Dan's corpus — no neutral source exists.
+
+> **REVISED [2026-07-13]:** Operator correction: the Eli affair ran from sometime in 2024 until the February 2025 NYC departure and ended there. The terminal-phase third party — the man Annie left Dan for, and the counterpart of the June 1, 2026 group chat — is Tuquick ([[wiki/people/tuquick-17248123683]]), NOT Eli. Whether Tuquick is "Target G" is unknown.

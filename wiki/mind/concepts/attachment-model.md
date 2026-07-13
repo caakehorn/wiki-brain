@@ -51,12 +51,12 @@ The communication corpus demonstrates a systematic gaslighting architecture used
 - **Verbal Anchoring:** Annie maintained explicit verbal commitments, such as calling Dan her "soulmate" or telling him she loved him, while concurrently withdrawing physical presence, shared time, and fidelity.
 - **Semantic Drift:** The ten-year norm of mutual location sharing was unilaterally removed by Annie in August 2025, following a night spent at her former partner's residence. This removal was subsequently refed and reframed as Dan making a controlling demand.
 - **Cause-and-Effect Inversion:** Annie systematically responded to the distress caused by her withdrawal rather than the withdrawal itself, using phrases such as "I cannot talk to you when you are like this" to avoid addressing the underlying issues.
-- **Systematic Attacks on Reality:** While maintaining a relationship with Eli from at least August 2024, Annie repeatedly told Dan that his suspicions were insane, paranoid, or symptoms of mental illness. Dan explicitly documented that he chose to believe these assertions in order to return to a perceived normal life.
+- **Systematic Attacks on Reality:** While maintaining the concealed NYC relationship with Eli through 2024, Annie repeatedly told Dan that his suspicions were insane, paranoid, or symptoms of mental illness. Dan explicitly documented that he chose to believe these assertions in order to return to a perceived normal life.
 
 The central impact of this architecture was the subversion of Dan's cognitive stability. By targeting his capacity to verify reality, the deception inflicted a distinct category of psychological harm that went beyond simple infidelity.
 
 ## Documented Contradictions
 
-> **CONTRADICTION:** Annie issued written denials of third-party involvement in November 2025 and February 2026. These denials were issued while she was actively engaged in a relationship with Eli and conducting a defamation campaign within their shared peer network, creating a direct contradiction between her private assurances and her public actions.
+> **CONTRADICTION:** Annie issued written denials of third-party involvement in November 2025 and February 2026. These denials were issued while she was involved with the third party she ultimately left for (Tuquick — [[wiki/people/tuquick-17248123683]]) and a defamation campaign was running within their shared peer network, creating a direct contradiction between her private assurances and her public actions.
 
 > **REVISED 2026-06-22:** Previous analyses characterized the relationship with Eli as an isolated incident discovered in January 2025. Corrective sources confirm that the relationship was a sustained concealment that began in at least autumn 2024. This timeline has been updated in [[wiki/timeline/events/eli-incident]] and the main entry for Annie.

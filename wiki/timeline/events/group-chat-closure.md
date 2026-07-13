@@ -23,7 +23,7 @@ related:
 # Group Chat Closure (June 1 2026)
 
 ## What happened
-Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party relationship (Eli) and the active operation of a defamation campaign against Dan in Annie's social/peer network.
+Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party relationship (Tuquick — [[wiki/people/tuquick-17248123683]], not Eli) and the active operation of a defamation campaign against Dan in Annie's social/peer network.
 
 The campaign included at minimum:
 - Rape narrative framing
@@ -40,7 +40,7 @@ Terminal phase context: December 2025 volume spike (2,248 messages) had already 
 - [[wiki/people/annie-ulmer]]
 - Dan
 - [[wiki/people/tuquick-17248123683]] (hostile third-party attacker who later defects)
-- Unnamed third party (Eli — previously documented)
+- Third party: Tuquick ([[wiki/people/tuquick-17248123683]]) — the man Annie left Dan for; not Eli
 - Members of Annie's social/peer network (recipients and propagators of defamation narratives)
 
 ## Significance
@@ -68,7 +68,7 @@ See [[wiki/mind/concepts/attachment-model]] (no closure without explicit severan
 | Context from annie logs | "eli" mentions: 388 across extract; "goodbye": 110; "lying": 150. Dec 2025 peak 4,657 msgs preceded the asymmetry. |
 
 **Sources added:** raw/self/message-csv/annie_all_time_logs.csv , raw/self/message-csv/THE END FIGHT.csv , raw/self/message-csv/END_FIGHT_full.csv (sequence details).
-| Third-party relationship confirmed | Yes (Eli) |
+| Third-party relationship confirmed | Yes (Tuquick) |
 | Defamation campaign confirmed | Yes (rape narrative + junkie framing active in social network) |
 | Written denials previously issued | 2 (Nov 2025, Feb 2026) |
 | Love affirmations (full corpus) | 299 |
@@ -76,3 +76,5 @@ See [[wiki/mind/concepts/attachment-model]] (no closure without explicit severan
 | Dec 2025 message volume | 2,248 (real reinvestment, contradicts mutual disengagement narrative) |
 
 The analytical outputs that survive closure are the concept pages and any downstream tooling (e.g., DANMODEL trained on the reaction-pair corpus).
+
+> **REVISED [2026-07-13]:** Operator correction: the Eli affair ran from sometime in 2024 until the February 2025 NYC departure and ended there. The terminal-phase third party — the man Annie left Dan for, and the counterpart of the June 1, 2026 group chat — is Tuquick ([[wiki/people/tuquick-17248123683]]), NOT Eli. Whether Tuquick is "Target G" is unknown.
