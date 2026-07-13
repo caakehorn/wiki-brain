@@ -4,8 +4,8 @@ page_type: entity
 status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
-sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "wiki/legal/463-morgantown.md", "wiki/legal/463-morgantown.md", "wiki/legal/463-morgantown.md"]
-related: ["wiki/legal/463-morgantown", "wiki/legal/463-morgantown", "wiki/legal/463-morgantown", "wiki/people/alexander-jackson", "wiki/people/john-carney", "wiki/people/suzanne-frank", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse"]
+sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "wiki/legal/463-morgantown.md"]
+related: ["wiki/legal/463-morgantown", "wiki/people/alexander-jackson", "wiki/people/john-carney", "wiki/people/suzanne-frank", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse"]
 ---
 
 # Arnu
@@ -34,6 +34,6 @@ Property work occurs amid [[wiki/self/context-core]] housing transition and [[wi
 
 Felix named in MAX_PRIME as "supply-adjacent figure" (2026 appearance); context here is domestic/paint labor at 463. Cross with [[wiki/mind/synthesis/vertical-authority-skepticism]].
 
-**Cross-references:** [[wiki/legal/463-morgantown]], [[wiki/people/alexander-jackson]], [[wiki/people/john-carney]], [[wiki/people/suzanne-frank]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]] (recent ingest), [[wiki/work/tech/max-framework/overview]] (Felix note).
+**Cross-references:** [[wiki/legal/463-morgantown]], [[wiki/people/alexander-jackson]], [[wiki/people/john-carney]], [[wiki/people/suzanne-frank]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]] (recent ingest), [[wiki/work/tech/max-framework/overview]] (Felix note).
 
 **Notes:** Direct data thin beyond one key Suz message + wiki timeline references (derived from operating/core). No deep personal bio. Defer to raw message-csv and future legal docs for liens/contracts. Expand on Elijah/Felix ties if surfaced. "John carney thing" suggests prior forensic analysis shared.

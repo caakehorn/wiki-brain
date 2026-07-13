@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md"]
-related: ["wiki/work/bfs-foods", "wiki/work/bfs-foods", "wiki/work/bfs-foods", "wiki/people/brandon-hill", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/self/facebook"]
+related: ["wiki/work/bfs-foods", "wiki/people/brandon-hill", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/self/facebook"]
 ---
 
 # Anita (BFS Foods GM, Gas Station Side)
@@ -38,7 +38,7 @@ Directly tied to core §5: "BFS termination (cash-variance dispute)". Exemplifie
 
 Escalation: BFS-corporate HR above Anita (OT paranoia implies license/labor sensitivity). PA WPCL/FLSA exposure inchoate (no completed deduction; don't pay).
 
-**Cross-references:** [[wiki/people/brandon-hill]] (her instrument, salvageable), [[wiki/people/kim]] (procedural contrast + exit), [[wiki/people/timmy]] (pattern template), [[wiki/work/bfs-foods]], [[wiki/work/bfs-foods]], [[wiki/work/bfs-foods]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]], [[wiki/people/alexander-jackson]] (parallel ownership/authority).
+**Cross-references:** [[wiki/people/brandon-hill]] (her instrument, salvageable), [[wiki/people/kim]] (procedural contrast + exit), [[wiki/people/timmy]] (pattern template), [[wiki/work/bfs-foods]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]], [[wiki/people/alexander-jackson]] (parallel ownership/authority).
 
 **Notes:** `status: active` (passive posture maintained; docs preserved). From Quagmire refinement: confabulator pattern confirmed (categorical claim → "I don't know" pivot); real personal exposure is vape-to-minor (do not weaponize as leverage); labor claim inchoate (don't pay); her risk vertical to corporate, yours via footage/surveillance symmetry (Timmy precedent). Strategy: written questions as readiness map + UC as lever. Marty Martin (coworker ~6mo, intelligence asset). (724)208-9869 group participant unid. Hypothesis A (structural off-books) stronger. Recording legally clean (public sidewalk). Sources: bootloader v2 canonical + Quagmire analysis.
 

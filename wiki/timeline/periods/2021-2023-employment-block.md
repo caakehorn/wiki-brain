@@ -8,7 +8,7 @@ date_modified: 2026-06-23
 date_range_start: 2021-01-01
 date_range_end: 2023-12-31
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/location/2026-06-22-ingest/", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md", "raw/self/gemini-activity/Gemini Activity.html"]
-related: ["wiki/self/context-core", "wiki/self/location-history", "wiki/timeline/events/timeline", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/self/chats/gemini-00", "wiki/self/chats/gemini-02", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/forensic-method", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid", "wiki/mind/concepts/forensic-method"]
+related: ["wiki/self/context-core", "wiki/self/location-history", "wiki/timeline/events/timeline", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/self/chats/gemini-00", "wiki/self/chats/gemini-02", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/forensic-method", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid"]
 ---
 
 # 2021-2023 Employment Block

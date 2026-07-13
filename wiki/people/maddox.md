@@ -4,8 +4,8 @@ page_type: entity
 status: active
 date_created: 2026-06-23
 date_modified: 2026-06-23
-sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md", "wiki/work/bfs-foods.md", "wiki/people/anita.md", "wiki/people/timmy.md"]
-related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/brandon-hill", "wiki/work/bfs-foods", "wiki/self/facebook", "wiki/work/bfs-foods", "wiki/people/dakota"]
+sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md", "wiki/people/anita.md", "wiki/people/timmy.md"]
+related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/brandon-hill", "wiki/self/facebook", "wiki/people/dakota"]
 ---
 
 # Maddox
@@ -34,7 +34,7 @@ related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mi
 
 ## Behavioral Notes
 
-Maddox volunteered unprompted information without solicitation during public sidewalk exchange. Assessment directly challenges Anita's chaos ("She's always making shit so crazy and dramatic over there") and demand legitimacy. Per BFS_BOOTLOADER_v2 tactical posture: "Maddox: light touch. Don't recruit, don't text about this. If he raises it, listen and agree neutrally." "Not a deployable recurring asset — treat like Marty (intelligence posture, don't recruit, don't text about this)." Recording context: public sidewalk, business hours, unsolicited third-party join = legally clean (no reasonable privacy expectation per 18 Pa.C.S. § 5703–5704 analysis). Ties to [[wiki/mind/synthesis/vertical-authority-skepticism]] and [[wiki/mind/synthesis/vertical-authority-skepticism]]: LC-side awareness of BFS/Anita patterns; procedural skepticism of vertical extraction without specifics. Corroborates Dakota hearsay with direct account. LC management contrast (Kim) vs Anita.
+Maddox volunteered unprompted information without solicitation during public sidewalk exchange. Assessment directly challenges Anita's chaos ("She's always making shit so crazy and dramatic over there") and demand legitimacy. Per BFS_BOOTLOADER_v2 tactical posture: "Maddox: light touch. Don't recruit, don't text about this. If he raises it, listen and agree neutrally." "Not a deployable recurring asset — treat like Marty (intelligence posture, don't recruit, don't text about this)." Recording context: public sidewalk, business hours, unsolicited third-party join = legally clean (no reasonable privacy expectation per 18 Pa.C.S. § 5703–5704 analysis). Ties to [[wiki/mind/synthesis/vertical-authority-skepticism]]: LC-side awareness of BFS/Anita patterns; procedural skepticism of vertical extraction without specifics. Corroborates Dakota hearsay with direct account. LC management contrast (Kim) vs Anita.
 
 ## Connections
 
@@ -42,7 +42,7 @@ Maddox volunteered unprompted information without solicitation during public sid
 - **Blame pivot / Timmy template**: [[wiki/people/anita]] (architect of pivot), [[wiki/people/kim]] (denied to Timmy), [[wiki/people/timmy]] (fired, customer), [[wiki/people/dakota]] (initial disclosure, Timmy friend group).
 - **Group / store**: [[wiki/people/marty-martin]] (BFS coworker/intel in parallel group text).
 - **BFS/LC structure**: Same building, separate rosters. LC as preferred exit vector per fit analysis (lower cash risk, better mgmt per bootloader table).
-- **Dispute**: [[wiki/work/bfs-foods]], [[wiki/work/bfs-foods]].
+- **Dispute**: [[wiki/work/bfs-foods]].
 
 **Cross-references:** [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/people/marty-martin]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/facebook]], [[wiki/work/bfs-foods]], [[wiki/people/dakota]], [[wiki/self/context-core]]
 

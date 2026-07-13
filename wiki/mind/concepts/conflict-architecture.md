@@ -15,7 +15,6 @@ related:
   - wiki/self/ancestry
   - wiki/people/rick-frank
   - wiki/people/fran-coldren
-  - wiki/self/ancestry
   - wiki/mind/synthesis/vertical-authority-skepticism
 ---
 

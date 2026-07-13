@@ -4,8 +4,8 @@ page_type: entity
 status: active
 date_created: 2026-06-23
 date_modified: 2026-06-23
-sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/message-csv/imessage_2124702449_both_2026-05-01_now.csv", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md", "wiki/work/bfs-foods.md"]
-related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/brandon-hill", "wiki/work/bfs-foods", "wiki/self/facebook", "wiki/work/bfs-foods", "wiki/people/maddox", "wiki/people/dakota"]
+sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/message-csv/imessage_2124702449_both_2026-05-01_now.csv", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md"]
+related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/brandon-hill", "wiki/self/facebook", "wiki/people/maddox", "wiki/people/dakota"]
 ---
 
 # Marty Martin
@@ -48,7 +48,7 @@ Per canonical BFS_BOOTLOADER_v2: "NOT a recruit for active operation — intelli
 - **Group text node**: [[wiki/people/anita]] (GM architect), [[wiki/people/brandon-hill]] (instrument), unidentified (724) 208-9869, Dan.
 - **Incident witnesses / pattern**: [[wiki/people/timmy]], [[wiki/people/kim]] (LC), [[wiki/people/maddox]] (sidewalk), [[wiki/people/dakota]] (initial disclosure).
 - **Relay / post**: Suz (mother thread in message-csv).
-- **BFS dispute**: [[wiki/work/bfs-foods]], [[wiki/work/bfs-foods]], [[wiki/people/brandon-hill]].
+- **BFS dispute**: [[wiki/work/bfs-foods]], [[wiki/people/brandon-hill]].
 - **Synthesis**: [[wiki/mind/synthesis/vertical-authority-skepticism]] (Marty culture description), [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]].
 
 **Cross-references:** [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/facebook]], [[wiki/work/bfs-foods]], [[wiki/people/maddox]], [[wiki/people/dakota]], [[wiki/self/context-core]]

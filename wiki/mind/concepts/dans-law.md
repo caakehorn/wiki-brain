@@ -10,7 +10,6 @@ sources:
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
 related:
   - wiki/mind/concepts/forensic-method
-  - wiki/mind/concepts/forensic-method
   - wiki/mind/synthesis/political-psyops
   - wiki/work/bfs-foods
   - wiki/self/chats/j6-chat

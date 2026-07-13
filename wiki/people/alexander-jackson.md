@@ -4,8 +4,8 @@ page_type: entity
 status: active
 date_created: 2026-06-22
 date_modified: 2026-07-12
-sources: ["raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS_BOOTLOADER_v2.md", "wiki/legal/463-morgantown.md", "wiki/legal/463-morgantown.md"]
-related: ["wiki/legal/463-morgantown", "wiki/legal/463-morgantown", "wiki/legal/463-morgantown", "wiki/people/suzanne-frank", "wiki/people/arnu", "wiki/people/john-carney", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/self/facebook"]
+sources: ["raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS_BOOTLOADER_v2.md", "wiki/legal/463-morgantown.md"]
+related: ["wiki/legal/463-morgantown", "wiki/people/suzanne-frank", "wiki/people/arnu", "wiki/people/john-carney", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/self/facebook"]
 ---
 
 # Jackson Alexander (Alexander Jackson)
@@ -34,7 +34,7 @@ related: ["wiki/legal/463-morgantown", "wiki/legal/463-morgantown", "wiki/legal/
 
 ## Behavioral / Core Notes
 
-From [[wiki/self/context-core]]: 337 sale drives move; "no post-close plan". Mixed roles at 463 amplify vertical authority and low-trust patterns (Big30 Trust 9). Ties to synthesis [[wiki/mind/synthesis/vertical-authority-skepticism]] and [[wiki/mind/synthesis/vertical-authority-skepticism]] (housing as extension of off-books / caretaker ambiguities parallel BFS extraction).
+From [[wiki/self/context-core]]: 337 sale drives move; "no post-close plan". Mixed roles at 463 amplify vertical authority and low-trust patterns (Big30 Trust 9). Ties to synthesis [[wiki/mind/synthesis/vertical-authority-skepticism]] (housing as extension of off-books / caretaker ambiguities parallel BFS extraction).
 
 Owner communications TBD per timeline. Property separate from BFS (gas/LC building ownership).
 

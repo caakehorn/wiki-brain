@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
-related: ["wiki/work/bfs-foods", "wiki/people/anita", "wiki/people/kim", "wiki/people/brandon-hill", "wiki/work/bfs-foods", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/work/bfs-foods"]
+related: ["wiki/work/bfs-foods", "wiki/people/anita", "wiki/people/kim", "wiki/people/brandon-hill", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism"]
 ---
 
 # Timmy
@@ -31,7 +31,7 @@ related: ["wiki/work/bfs-foods", "wiki/people/anita", "wiki/people/kim", "wiki/p
 
 ## Relation to Core & Totality
 
-Template for [[wiki/mind/synthesis/vertical-authority-skepticism]] and [[wiki/mind/synthesis/vertical-authority-skepticism]]: Anita sole agency + narrative control; off-books extraction parallel. Directly load-bearing on BFS termination per context-core §5 ("BFS termination (cash-variance dispute)"). Demonstrates "constructs narratives backward". Dan's zero role despite pivot.
+Template for [[wiki/mind/synthesis/vertical-authority-skepticism]]: Anita sole agency + narrative control; off-books extraction parallel. Directly load-bearing on BFS termination per context-core §5 ("BFS termination (cash-variance dispute)"). Demonstrates "constructs narratives backward". Dan's zero role despite pivot.
 
 **Cross-references:** [[wiki/work/bfs-foods]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/work/bfs-foods]], [[wiki/people/alexander-jackson]] (housing authority parallels), [[wiki/self/facebook]].
 

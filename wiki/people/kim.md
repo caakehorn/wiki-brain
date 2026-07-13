@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
-related: ["wiki/work/bfs-foods", "wiki/people/anita", "wiki/people/timmy", "wiki/people/brandon-hill", "wiki/work/bfs-foods", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse"]
+related: ["wiki/work/bfs-foods", "wiki/people/anita", "wiki/people/timmy", "wiki/people/brandon-hill", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse"]
 ---
 
 # Kim (Little Caesars Manager)
@@ -34,8 +34,8 @@ related: ["wiki/work/bfs-foods", "wiki/people/anita", "wiki/people/timmy", "wiki
 
 ## Behavioral / Core Notes
 
-Exemplifies [[wiki/mind/synthesis/vertical-authority-skepticism]] and [[wiki/mind/synthesis/vertical-authority-skepticism]]: Anita sole locus of agency + off-books architect; Kim as credible procedural check (low-trust repair). Dan's LC preference structural (cash-handling failure surface lower, management quality decisive per table). Phoneless + withdrawal context during incident (core). Fits low Sociability 3 / high Self-Consciousness.
+Exemplifies [[wiki/mind/synthesis/vertical-authority-skepticism]]: Anita sole locus of agency + off-books architect; Kim as credible procedural check (low-trust repair). Dan's LC preference structural (cash-handling failure surface lower, management quality decisive per table). Phoneless + withdrawal context during incident (core). Fits low Sociability 3 / high Self-Consciousness.
 
-**Cross-references:** [[wiki/work/bfs-foods]], [[wiki/people/anita]], [[wiki/people/timmy]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]] (recent), [[wiki/people/alexander-jackson]] (parallel authority themes in housing).
+**Cross-references:** [[wiki/work/bfs-foods]], [[wiki/people/anita]], [[wiki/people/timmy]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]] (recent), [[wiki/people/alexander-jackson]] (parallel authority themes in housing).
 
 **Notes:** LC application follow-up pending per open questions in bootloader. Same-building caveat: Anita/Brandon gossip pipeline remains. Strong contrast to Anita confabulation/reversals documented in group text + recording. Defer to raw csv for any direct Kim-Dan messages.

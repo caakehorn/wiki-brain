@@ -16,7 +16,6 @@ related:
   - wiki/interests/music/overview
   - wiki/people/fran-coldren
   - wiki/self/ancestry
-  - wiki/self/ancestry
 ---
 
 # Sub-Bass Signature

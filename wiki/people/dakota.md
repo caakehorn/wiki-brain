@@ -4,8 +4,8 @@ page_type: entity
 status: active
 date_created: 2026-06-23
 date_modified: 2026-06-23
-sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md", "wiki/work/bfs-foods.md", "wiki/people/anita.md", "wiki/people/timmy.md", "wiki/people/kim.md"]
-related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/maddox", "wiki/people/brandon-hill", "wiki/work/bfs-foods", "wiki/self/facebook", "wiki/work/bfs-foods"]
+sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md", "wiki/people/anita.md", "wiki/people/timmy.md", "wiki/people/kim.md"]
+related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/maddox", "wiki/people/brandon-hill", "wiki/self/facebook"]
 ---
 
 # Dakota
@@ -43,7 +43,7 @@ Dakota channel is hearsay but treated as credible originating disclosure in boot
 - **Recording corroboration**: [[wiki/people/maddox]] (LC, fuller account on May 21 sidewalk).
 - **BFS side**: [[wiki/people/marty-martin]] (group text intel, off-books culture), [[wiki/people/brandon-hill]] (demand delivery).
 - **Structure**: LC vs BFS gas station (separate rosters, same building); LC preferred for Dan fit (management quality, lower cash surface).
-- **Dispute context**: [[wiki/work/bfs-foods]], [[wiki/work/bfs-foods]] (pattern of Anita reversals/blame used to frame drawer response).
+- **Dispute context**: [[wiki/work/bfs-foods]] (pattern of Anita reversals/blame used to frame drawer response).
 - **Mother / external**: Suz interaction on Timmy/mom post-refusal noted in derived notes.
 
 **Cross-references:** [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/people/marty-martin]], [[wiki/people/maddox]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/facebook]], [[wiki/work/bfs-foods]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]]

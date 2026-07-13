@@ -20,7 +20,6 @@ related:
   - wiki/interests/music/overview
   - wiki/interests/music/concepts/sub-bass-signature
   - wiki/mind/concepts/attachment-model
-  - wiki/self/ancestry
   - wiki/people/annie-ulmer
 changelog:
   - date: 2026-07-11
@@ -67,4 +66,4 @@ Fran's West Virginia origins place her in the coal and industrial corridor of Ap
 | ~2013–2016 | NS7 gifted to Dan (exact year unconfirmed; tied to SLOPPP/MOGZART alias era) |
 | 2018-04-04 | Death, Uniontown, PA. Seven-day deathwatch with Dan and Annie present throughout |
 
-> **See also:** [[wiki/self/ancestry]] · [[wiki/self/ancestry]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/mind/concepts/attachment-model]]
+> **See also:** [[wiki/self/ancestry]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/mind/concepts/attachment-model]]

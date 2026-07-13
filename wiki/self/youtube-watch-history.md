@@ -20,7 +20,6 @@ related:
   - wiki/mind/synthesis/totality-themes
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/mind/synthesis/political-psyops
-  - wiki/mind/synthesis/political-psyops
   - wiki/mind/concepts/conflict-architecture
   - wiki/timeline/periods/2021-2023-employment-block
   - wiki/timeline/periods/dec-2025-spike
