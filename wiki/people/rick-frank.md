@@ -20,6 +20,7 @@ related:
   - wiki/mind/concepts/attachment-model
   - wiki/legal/2015-retail-theft-arrest
   - wiki/health/chemical-architecture
+tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 ---
 
 # Richard Harrison "Rick" Frank

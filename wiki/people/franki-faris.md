@@ -16,6 +16,7 @@ related:
   - wiki/people/katie-fletcher
   - wiki/people/annie-ulmer
   - wiki/timeline/periods/2015-2016-annie-relationship-start
+tags: [relationships, ai-collaboration, digital-footprint, forensic-analysis]
 ---
 
 # Franki Faris

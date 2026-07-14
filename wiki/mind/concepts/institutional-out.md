@@ -14,6 +14,7 @@ related:
   - wiki/work/bfs-foods
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/mind/profile/big-five-psychometrics
+tags: [personality-profile, nyc-era]
 ---
 
 # The Institutional Out

@@ -18,6 +18,7 @@ related:
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/health/chemical-architecture
   - wiki/people/morley-frank
+tags: [uniontown-era, relationships, family, addiction-recovery, nyc-era]
 ---
 
 # The Ancestral Dialectic: Ashkenazi Hypervigilance vs. Appalachian Numbness

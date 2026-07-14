@@ -6,6 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/twitter/profile.txt", "raw/self/twitter/tweets_sample_2019-2026.txt"]
 related: ["wiki/self/overview", "wiki/mind/concepts/conflict-architecture", "wiki/mind/concepts/attachment-model"]
+tags: [music-production, ai-collaboration, politics, digital-footprint]
 ---
 
 # Twitter / X Activity (@danfrank)

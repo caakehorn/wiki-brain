@@ -23,6 +23,7 @@ related:
   - wiki/self/context-core
   - wiki/work/bfs-foods
   - wiki/timeline/events/eli-incident
+tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
 ---
 
 # The Forensic Method

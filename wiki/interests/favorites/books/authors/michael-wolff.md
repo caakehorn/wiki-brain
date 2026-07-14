@@ -12,6 +12,7 @@ related:
   - "wiki/self/context-core"
 changelog:
   - 2026-07-11: Full rewrite from stub. Added methodology analysis, star-rating significance, comparison with Woodward, wiki links.
+tags: [politics, forensic-analysis]
 ---
 
 # Michael Wolff

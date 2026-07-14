@@ -22,6 +22,7 @@ related: [
   "wiki/work/tech/max-framework/overview",
   "wiki/people/max"
 ]
+tags: [ai-collaboration, relationships, music-production, nyc-era]
 ---
 
 # Max (Danielle's BF / "the Dude", Music Guy)

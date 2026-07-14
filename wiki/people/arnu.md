@@ -6,6 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "wiki/legal/463-morgantown.md"]
 related: ["wiki/legal/463-morgantown", "wiki/people/alexander-jackson", "wiki/people/john-carney", "wiki/people/suzanne-frank", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse"]
+tags: [forensic-analysis]
 ---
 
 # Arnu

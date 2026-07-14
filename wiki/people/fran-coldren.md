@@ -9,7 +9,7 @@ relation_type: family
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range: ["1920-08-15", "2018-04-04"]
-tags: [family, maternal-line, influence, music-origin, Uniontown, WV, heritage]
+tags: [family, uniontown-era, music-production, grief]
 sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -23,6 +23,7 @@ related:
   - wiki/places/155-virginia-ave
   - wiki/timeline/events/fran-death-vigil
   - wiki/interests/music/concepts/sub-bass-signature
+  - wiki/work/nemacolin-caddying
 changelog:
   - date: 2026-07-13
     note: "Major expansion from DANSYNTH ingest: golf record, 117 Belmont, Palmer, gift protocol, vigil"

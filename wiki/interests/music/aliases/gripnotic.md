@@ -20,6 +20,7 @@ related:
   - wiki/self/overview
   - wiki/self/context-core
   - wiki/interests/favorites/index
+tags: [music-production, forensic-analysis, uniontown-era]
 ---
 
 # Gripnotic

@@ -6,6 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/MAX_PRIME.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "log.md", "bin/export-imessage-template.sh", "danwiki_portal.py", "/Users/daniel/imessage-extractor", "/Users/daniel/messages-exporter", "raw/self/chats/*", "raw/self/dox-md/CATO_conflict_architecture.md"]
 related: ["wiki/work/tech/imessage-tooling/overview", "wiki/work/tech/max-framework/overview", "wiki/self/context-core", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/self/twitter", "wiki/self/message-corpora/master-message-dump", "wiki/self/gemini-activity/gemini-activity.md", "wiki/self/facebook", "wiki/timeline/periods/2025-collapse", "wiki/people/max"]
+tags: [ai-collaboration, digital-footprint, forensic-analysis]
 ---
 
 # Grok Build

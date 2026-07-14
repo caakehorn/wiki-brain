@@ -3,9 +3,10 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/facebook/facebook-ihatedanfrank/messages/inbox/alexandralubin_jnwin7cizw/message_1.html", "raw/self/dox-md/operating_manual.md"]
-related: ["wiki/self/facebook", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/periods/2010s"]
+date_modified: 2026-07-14
+sources: ["raw/self/facebook/facebook-ihatedanfrank/messages/inbox/alexandralubin_jnwin7cizw/message_1.html", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+related: ["wiki/self/facebook", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/periods/2010s", "wiki/mind/concepts/contact-gini"]
+tags: [digital-footprint]
 ---
 
 # Ally Lubin (Alexandra Lubin)
@@ -27,6 +28,15 @@ related: ["wiki/self/facebook", "wiki/self/message-corpora/master-message-dump",
 - 2018: Operating manual framing.
 - 2019-09-02: FB activity stamp.
 - 2021-10-16: Address book sync.
+
+## iMessage Thread (merged 2026-07-14 — duplicate stub "Alexandra Lubin")
+
+A far larger iMessage thread than the FB record alone suggested: 452
+messages at handle +15619061550, spanning 2019-06-28 to 2023-11-14 —
+sustained contact well beyond the 2013 FB-era friendship documented above.
+This thread had been sitting as an unmerged duplicate contact stub
+(contact-45505175-lineage, auto-identified via Google Contacts as
+"Alexandra Lubin") before being folded into this page.
 
 ## Context and Ties
 - Part of broader "Alex" FB network (e.g. Alex Hall).

@@ -12,6 +12,7 @@ related:
   - "wiki/self/context-core"
 changelog:
   - 2026-07-11: Full rewrite from stub. Added contextual analysis, comparative framing against Wolff, wiki links.
+tags: [politics]
 ---
 
 # Bob Woodward

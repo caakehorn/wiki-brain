@@ -6,6 +6,7 @@ date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_7249204125_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "wiki/self/message-corpora/master-message-dump.md", "wiki/timeline/periods/2018-deep-cycle.md", "wiki/timeline/events/timeline.md"]
 related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/annie-ulmer", "wiki/people/suzanne-frank", "wiki/people/tom", "wiki/people/anita", "wiki/self/context-core", "wiki/timeline/periods/2017-poverty-floor"]
+tags: [addiction-recovery, dui]
 ---
 
 # Johnny (+17243223678)

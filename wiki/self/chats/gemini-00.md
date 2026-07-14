@@ -6,6 +6,7 @@ date_created: 2026-06-23
 date_modified: 2026-07-02
 sources: ["raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md"]
 related: ["wiki/self/chats/gemini-02", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid", "wiki/people/annie-ulmer", "wiki/timeline/periods/2021-2023-employment-block", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/gemini-activity/gemini-activity"]
+tags: [ai-collaboration, career, nyc-era]
 ---
 
 # Gemini Session 00 — Au Za'atar STORYTIME (Finale)

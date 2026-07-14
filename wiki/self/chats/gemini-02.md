@@ -28,6 +28,7 @@ related: [
   "wiki/mind/concepts/forensic-method",
   "wiki/work/bfs-foods"
 ]
+tags: [ai-collaboration, nyc-era, career, politics]
 ---
 
 # Gemini Session 02 (Au Za'atar Storytime)

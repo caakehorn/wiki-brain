@@ -11,6 +11,7 @@ related:
   - "wiki/self/context-core"
 changelog:
   - 2026-07-11: Full rewrite from stub. Added contextual framing, Trump journalism cluster placement, comparative analysis.
+tags: [politics]
 ---
 
 # Jonathan Karl

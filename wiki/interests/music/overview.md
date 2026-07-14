@@ -18,6 +18,7 @@ related:
   - wiki/interests/favorites/index
   - wiki/self/overview
   - wiki/self/context-core
+tags: [music-production, family]
 ---
 
 # Music Overview

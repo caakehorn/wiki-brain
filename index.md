@@ -6,7 +6,7 @@ The compiled second brain. Start here; each domain has its own index.
 |--------|--------|-------|-------|
 | self | Identity, core biographical facts, digital footprint | 27 | [[wiki/self/index]] |
 | timeline | Life periods and discrete events, in order | 13 | [[wiki/timeline/index]] |
-| people | Every person with a role in the story (+ 97 contact stubs) | 149 | [[wiki/people/index]] |
+| people | Every person with a role in the story (+ 32 contact stubs) | 208 | [[wiki/people/index]] |
 | mind | Beliefs, ideology, values, psychological profile | 19 | [[wiki/mind/index]] |
 | work | Career, projects, business history | 6 | [[wiki/work/index]] |
 | interests | Music production, favorites, media, taste profile | 35 | [[wiki/interests/index]] |

@@ -4,7 +4,7 @@ page_type: entity
 title: "117 Belmont Circle"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-14
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
@@ -13,6 +13,8 @@ related:
   - wiki/people/annie-ulmer
   - wiki/places/155-virginia-ave
   - wiki/timeline/events/fran-death-vigil
+  - wiki/people/danny-matthews
+tags: [uniontown-era]
 ---
 
 # 117 Belmont Circle
@@ -39,7 +41,12 @@ She left it only after the March 2018 fall
 two-week nursing-home collapse that followed as the confirmation that the
 house had been what was keeping her alive.
 
-**Gaps:** the house's disposition after Fran's death (sold? retained by
-the estate under trustee Fred Adams?); which years exactly the caregiving
-arrangement covered; the Ulmer grandparents' names (Annie's grandmother is
-called "Sugie" elsewhere in the corpus — unconfirmed link).
+The house was actively re-listed after Fran's death; realtor
+[[wiki/people/danny-matthews|Danny Matthews]] (also a family acquaintance
+through Suz) reported it "finally went pending" on 2019-07-11, with an
+aside ("second time's a charm") implying an earlier listing attempt had
+fallen through sometime in the prior fifteen months.
+
+**Gaps:** whether the sale closed and to whom; which years exactly the
+caregiving arrangement covered; the Ulmer grandparents' names (Annie's
+grandmother is called "Sugie" elsewhere in the corpus — unconfirmed link).

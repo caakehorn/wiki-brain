@@ -8,6 +8,7 @@ date_range_start: 2025-09-01
 date_range_end: 2025-12-10
 sources: ["raw/people/kristin/chimera-genesis-addendum.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/tom", "wiki/people/annie-ulmer", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/attachment-trauma-bond"]
+tags: [relationships, trauma-bond, digital-footprint, legal, ai-collaboration]
 ---
 
 # Kristin

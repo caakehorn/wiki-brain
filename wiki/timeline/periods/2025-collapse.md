@@ -31,6 +31,7 @@ related: [
   "wiki/mind/concepts/forensic-method",
   "wiki/self/gemini-activity/gemini-activity"
 ]
+tags: [ai-collaboration, nyc-era, trauma-bond, uniontown-era]
 ---
 
 # 2025 Collapse

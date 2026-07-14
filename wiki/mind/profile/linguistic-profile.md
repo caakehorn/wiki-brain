@@ -16,6 +16,7 @@ related:
   - wiki/mind/profile/voice-modes
   - wiki/self/context-core
   - wiki/self/twitter
+tags: [trauma-bond]
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics

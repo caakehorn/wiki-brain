@@ -18,6 +18,7 @@ related:
   - wiki/interests/music/concepts/sub-bass-signature
   - wiki/timeline/periods/2015-2016-annie-relationship-start
   - wiki/self/context-core
+tags: [music-production, uniontown-era, relationships, financial-stress, nyc-era]
 ---
 
 # Mogzart

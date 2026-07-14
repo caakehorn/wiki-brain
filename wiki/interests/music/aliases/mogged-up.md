@@ -13,6 +13,7 @@ related:
   - wiki/interests/music/aliases/mogzart
   - wiki/interests/music/aliases/gripnotic
   - wiki/interests/music/concepts/sub-bass-signature
+tags: [music-production]
 ---
 
 # Mogged Up

@@ -1,0 +1,35 @@
+---
+domain: people
+page_type: entity
+status: stub
+date_created: 2026-06-23
+date_modified: 2026-07-14
+date_range_start: 2019-04-21
+date_range_end: 2020-04-14
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [digital-footprint]
+---
+
+# Caviar🍕
+
+## Identity
+Contact identified via Google Contacts as Caviar🍕. Previously unresolved contact from iMessage corpus at handle `+14159801273`. 290 messages exchanged over 2019-04-21 to 2020-04-14. Sample interaction: "New Caviar order assigned at 4:48pm. Accept in the app by 4:49pm. Check the app for your expected ea". Appears in personal message contexts (not obvious spam per filter).
+
+## Corpus Dimensions
+| Metric | Value |
+|--------|-------|
+| Messages | 290 |
+| Date range | 2019-04-21 – 2020-04-14 |
+| Sent / Received (approx) | 0 / 290 |
+| Sample | New Caviar order assigned at 4:48pm. Accept in the app by 4:49pm. Check the app for your expected earnings. |
+
+## Domain: Self
+Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+
+## Notes
+Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+
+## Related
+- [[wiki/self/message-corpora/master-message-dump]]
+- [[wiki/mind/concepts/contact-gini]]

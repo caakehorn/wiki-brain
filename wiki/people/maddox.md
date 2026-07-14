@@ -6,6 +6,7 @@ date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md", "wiki/people/anita.md", "wiki/people/timmy.md"]
 related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/brandon-hill", "wiki/self/facebook", "wiki/people/dakota"]
+tags: [career]
 ---
 
 # Maddox

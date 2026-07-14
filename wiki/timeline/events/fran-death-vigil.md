@@ -16,6 +16,7 @@ related:
   - wiki/people/suzanne-frank
   - wiki/places/117-belmont-circle
   - wiki/places/155-virginia-ave
+tags: [financial-stress, housing, uniontown-era, family, grief]
 ---
 
 # The Fran Vigil (March–April 2018)

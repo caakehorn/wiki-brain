@@ -25,6 +25,7 @@ related:
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/self/chats/gemini-00
   - wiki/self/chats/gemini-02
+tags: [nyc-era, career, ai-collaboration, housing, forensic-analysis]
 ---
 
 # Au Za'atar (NYC, ~2021–2024)

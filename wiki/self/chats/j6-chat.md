@@ -13,6 +13,7 @@ related: [
   "wiki/mind/concepts/forensic-method",
   "wiki/timeline/events/group-chat-closure"
 ]
+tags: [politics, ai-collaboration, ideology]
 ---
 
 # J6 Chat: Psyop Hypothesis

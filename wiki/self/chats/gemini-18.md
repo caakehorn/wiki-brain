@@ -17,6 +17,7 @@ related: [
   "wiki/people/alexis-armel",
   "wiki/people/tom"
 ]
+tags: [ai-collaboration, uniontown-era, nyc-era, pets, personality-profile]
 ---
 
 # Gemini Session 18 (Profile Lock / Exhaustive Bio Dump for Grok Transfer)

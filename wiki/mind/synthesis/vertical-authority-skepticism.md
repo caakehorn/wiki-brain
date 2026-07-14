@@ -21,6 +21,7 @@ related:
   - wiki/mind/profile/big-five-psychometrics
   - wiki/people/rick-frank
   - wiki/people/suzanne-frank
+tags: [politics, relationships, family, personality-profile, nyc-era]
 ---
 
 # Vertical Authority Skepticism

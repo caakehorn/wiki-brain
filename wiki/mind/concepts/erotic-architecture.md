@@ -15,6 +15,7 @@ related:
   - wiki/people/annie-ulmer
   - wiki/people/alexis-armel
   - wiki/mind/synthesis/ancestral-dialectic
+tags: [trauma-bond, relationships, ai-collaboration]
 ---
 
 # Erotic Architecture: Sexuality as Controlled-Chaos Engineering

@@ -16,6 +16,7 @@ related:
   - wiki/timeline/events/group-chat-closure
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
+tags: [relationships]
 ---
 
 # April–May 2026 — The Final Documented Weeks

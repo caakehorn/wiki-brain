@@ -31,6 +31,7 @@ related:
   - wiki/self/message-corpora/master-message-dump
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/timeline/events/timeline
+tags: [ai-collaboration, trauma-bond, politics, personality-profile]
 ---
 
 # Totality Themes

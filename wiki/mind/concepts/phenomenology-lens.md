@@ -28,6 +28,7 @@ related:
   - wiki/timeline/periods/2025-collapse
   - wiki/self/context-core
   - wiki/mind/synthesis/ai-collaborative-analysis
+tags: [addiction-recovery, relationships, trauma-bond, grief, forensic-analysis]
 ---
 
 # Phenomenology Lens

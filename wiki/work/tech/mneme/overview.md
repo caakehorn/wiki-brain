@@ -12,6 +12,7 @@ related:
   - wiki/work/tech/max-framework/overview
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/concepts/exocortex
+tags: [ai-collaboration]
 ---
 
 # MNEME — Personal Memory Corpus Platform

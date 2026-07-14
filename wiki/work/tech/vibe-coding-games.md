@@ -11,6 +11,7 @@ related:
   - wiki/work/tech/index
   - wiki/work/tech/grok-build/overview
   - wiki/mind/synthesis/ai-collaborative-analysis
+tags: [forensic-analysis, ai-collaboration]
 ---
 
 # Vibe-Coding Games (Matter.js)

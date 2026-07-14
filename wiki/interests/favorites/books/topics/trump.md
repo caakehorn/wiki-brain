@@ -6,6 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
 related: ["wiki/interests/favorites/books", "wiki/self/context-core"]
+tags: [politics]
 ---
 
 # Trump Era (Book Favorites)

@@ -6,6 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/LIFE REPORT.md", "raw/self/dox-md/Gemini-_00.md"]
 related: ["wiki/timeline/events/timeline", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/totality-themes"]
+tags: [ai-collaboration, nyc-era, financial-stress, relationships, addiction-recovery]
 ---
 
 # 2018 Deep Cycle

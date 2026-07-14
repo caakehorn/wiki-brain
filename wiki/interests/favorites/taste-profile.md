@@ -6,6 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/overview", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/mind/synthesis/totality-themes", "wiki/interests/music/concepts/sub-bass-signature"]
+tags: [personality-profile]
 ---
 
 # Taste Profile from Favorites

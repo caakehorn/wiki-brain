@@ -11,6 +11,7 @@ related:
   - "wiki/self/context-core"
 changelog:
   - 2026-07-11: Full rewrite from stub. Added emotional pole analysis, biographical resonance, Facebook reference, wiki links.
+tags: [personality-profile, forensic-analysis]
 ---
 
 # Elliott Smith

@@ -18,6 +18,7 @@ related:
   - wiki/people/rick-frank
   - wiki/people/fran-coldren
   - wiki/mind/synthesis/vertical-authority-skepticism
+tags: [addiction-recovery, trauma-bond, forensic-analysis]
 ---
 
 # Conflict Architecture

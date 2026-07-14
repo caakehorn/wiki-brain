@@ -8,6 +8,7 @@ date_created: 2026-06-23
 date_modified: 2026-07-12
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/suzanne-frank", "wiki/people/rick-frank", "wiki/self/ancestry", "wiki/self/overview", "wiki/people/annie-ulmer"]
+tags: [ai-collaboration]
 ---
 
 # Vanessa C. Frank

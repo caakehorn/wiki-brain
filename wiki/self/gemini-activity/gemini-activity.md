@@ -8,6 +8,7 @@ date_range_start: 2024-01-01
 date_range_end: 2026-01-02
 sources: ["raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md", "raw/self/dox-md/Gemini-_07.md", "raw/self/dox-md/Gemini-_13.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/Gemini-_21.md", "raw/self/dox-scan/Gemini-_58.txt"]
 related: ["wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/totality-themes", "wiki/self/context-core"]
+tags: [ai-collaboration, politics, nyc-era, relationships, addiction-recovery]
 ---
 
 # Gemini Activity

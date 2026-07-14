@@ -6,6 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
 related: ["wiki/work/bfs-foods", "wiki/people/anita", "wiki/people/kim", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/alexander-jackson"]
+tags: [relationships]
 ---
 
 # Brandon Hill (BFS Assistant Manager, Gas Station Side)

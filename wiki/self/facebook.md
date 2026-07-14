@@ -8,6 +8,7 @@ date_range_start: 2007-01-09
 date_range_end: 2022-09-05
 sources: ["raw/self/facebook/facebook-ihatedanfrank/"]
 related: ["wiki/self/context-core", "wiki/self/facebook/messages", "wiki/self/facebook/posts", "wiki/self/facebook/friends", "wiki/self/facebook/interests"]
+tags: [relationships, nyc-era, family, uniontown-era, trauma-bond]
 ---
 
 # Facebook Archive (ihatedanfrank)

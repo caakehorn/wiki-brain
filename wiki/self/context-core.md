@@ -16,7 +16,7 @@ sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
-tags: [identity, biography, psychometrics, core, LLM-context, behavioral-spine]
+tags: [personality-profile, family, relationships, ai-collaboration]
 related:
   - wiki/self/overview
   - wiki/mind/concepts/conflict-architecture

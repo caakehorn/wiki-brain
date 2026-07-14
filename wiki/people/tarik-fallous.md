@@ -8,6 +8,7 @@ date_range_start: 2021-03-01
 date_range_end: 2024-08-01
 sources: ["raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/facebook/facebook-ihatedanfrank/"]
 related: ["wiki/timeline/periods/2021-2023-employment-block", "wiki/self/chats/gemini-00", "wiki/self/chats/gemini-02", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/valeria-iglesias-cid", "wiki/work/bfs-foods"]
+tags: [ai-collaboration, career, nyc-era]
 ---
 
 # Tarik Fallous

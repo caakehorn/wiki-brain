@@ -2,7 +2,7 @@
 domain: people
 page_type: entity
 title: "Annie (Anne Louise Ulmer)"
-aliases: ["Annie", "Anne Ulmer", "Anne Louise Ulmer"]
+aliases: ["Annie", "Anne Ulmer", "Anne Louise Ulmer", "@Lo_weez"]
 importance: critical
 knowledge: mixed
 status: closed
@@ -26,6 +26,8 @@ sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/Annie Affadavit.txt
   - raw/self/dox-md/ulmer_dui_megadoc.md
+  - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
+  - raw/self/dox-scan/FULL TWITTER ANALYSIS.txt
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
@@ -53,6 +55,7 @@ related:
   - wiki/people/eli
   - wiki/people/tuquick-17248123683
   - wiki/work/au-zaatar
+tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 ---
 
 # Annie (Anne Louise Ulmer)
@@ -135,7 +138,35 @@ and that fear became the organizing principle of the decade. From 2016
 she lived with him at 155 Virginia Avenue, then through the New York
 years, a move Dan funded and sustained: he was the household's financial
 foundation for roughly the first five NYC years, drawing on
-[[wiki/people/suzanne-frank|Suz]]'s resources.
+[[wiki/people/suzanne-frank|Suz]]'s resources. Dan's public Twitter
+independently corroborates the timing: the handle **@Lo_weez** enters
+as his "new primary" relational tag in December 2015 — "worlds best
+girlfriend" — continuing through 2016 with matching personal detail
+("Girlfriend drinks too much Cherry Coke," "@Lo_weez ur next
+maxxinista"), while @alexisarmel goes fully silent the same window. This
+resolves a standing gap on [[wiki/people/katie-fletcher]]'s page, which
+had flagged @Lo_weez as possibly a third person.
+
+> **CONTRADICTION (origin story):** `CATO_BOOTLOADER_DANFRANK.md`
+> preserves a different, more colorful origin account: Alexis, as
+> Annie's coworker, sent Dan to buy drugs from Annie, and the two hooked
+> up during that transaction, dated loosely to "~2014-15" rather than the
+> corpus-anchored November 28, 2015. The dated message record (day-three
+> "YOU ARE MY EVERYTHING," Dec 2 2015 abandonment-fear text) is the
+> stronger source and is what this page follows; the bootloader's version
+> is preserved here as an unresolved, stylized alternate account rather
+> than adopted or discarded outright — it may be dramatized retelling of
+> the same event, or a distinct, earlier first contact that predates the
+> relationship's documented start.
+
+The same bootloader session records the immediate aftermath: after the
+breakup, Alexis returned to stay with Dan and Annie for about a month,
+bringing a new boyfriend who was — per the same account — both Dan's
+sister [[wiki/people/vanessa-frank|Vanessa]]'s first boyfriend and someone
+who had lost his virginity to Annie. That boyfriend was arrested during
+the stay picking up a 5-lb mailed weed parcel. None of this — the stay,
+the boyfriend, or the arrest — has independent corroboration elsewhere in
+the corpus.
 
 **The arrangement (2018–2024).** Camming was discussed within weeks of the
 start (Dec 2015) and the couple streamed together on Chaturbate as
@@ -149,7 +180,19 @@ rather than tolerated it, and that Annie participated across years and
 said she enjoyed it ("I did enjoy our relationship/situation/arrangement
 we had with him," Nov 3 2024). The asymmetry is also documented: Annie
 never delivered the reciprocal side, and she often agreed to encounters
-that never materialized. The final dossiers read the arrangement as the
+that never materialized. The earliest concrete instance is actually with a
+woman rather than one of Dan's friends: the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]
+with [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], whom Dan was
+also seeing one-on-one that spring — Shelbie's own messages through June
+2019 treat Annie's presence as an unremarkable condition of the
+relationship. The same spring also produced a paid encounter with adult
+performer [[wiki/people/trinity-st-clair|Trinity St. Clair]], booked and
+scheduled with both of them addressed directly, and by that fall the
+arrangement had a professionalized edge: a five-week run of paid sessions
+with NYC escort [[wiki/people/kelly-johansson|Kelly Johansson]], who
+treated Annie as a working peer rather than a client's girlfriend and
+pitched bringing both of them in as co-providers for one of her own
+regular clients. The final dossiers read the arrangement as the
 most concentrated expression of Dan's retention architecture — he
 converted the greatest threat to the relationship into its central kink,
 and it worked for years. The October 2024 Tom incident, first analyzed as

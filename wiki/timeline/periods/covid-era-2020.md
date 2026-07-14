@@ -16,6 +16,7 @@ related:
   - wiki/timeline/periods/2020-2021-market-era
   - wiki/people/annie-ulmer
   - wiki/interests/favorites/books
+tags: [relationships]
 ---
 
 # The COVID Era (2020)

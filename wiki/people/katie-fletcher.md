@@ -8,11 +8,13 @@ date_modified: 2026-07-13
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
+  - raw/self/dox-scan/FULL TWITTER ANALYSIS.txt
 related:
   - wiki/people/alexis-armel
   - wiki/people/annie-ulmer
   - wiki/people/franki-faris
   - wiki/timeline/periods/2010s
+tags: [relationships, forensic-analysis]
 ---
 
 # Katie Fletcher
@@ -62,6 +64,13 @@ her — everything known arrives through Dan's later AI-session narration.
 > against the primary record. Full account: [[wiki/people/franki-faris]].
 
 **Gaps:** how they met, the relationship's exact span and ending beyond
-the vase discovery, and her subsequent history are all absent; the
-@Lo_weez "worlds best girlfriend" Twitter tag of December 2015 may
-reference a third person entirely and remains unchecked.
+the vase discovery, and her subsequent history are all absent.
+
+> **REVISED [2026-07-14]:** the @Lo_weez gap is resolved — the Twitter
+> corpus analysis confirms @Lo_weez is Annie, not a third person: the
+> handle enters as "new primary" in December 2015 (matching the Nov 28
+> 2015 relationship start) and continues through 2016 with matching
+> personal details ("Girlfriend drinks too much Cherry Coke," "@Lo_weez
+> ur next maxxinista"). The same corpus independently confirms
+> @alexisarmel "fully absent post-2013," consistent with the Franki/Katie
+> dating above.

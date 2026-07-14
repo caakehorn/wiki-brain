@@ -6,6 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/dox-md/___The 9_11 Chat copy.md", "raw/self/dox-md/___The 9_11 Chat.md"]
 related: ["wiki/self/chats/j6-chat", "wiki/mind/synthesis/political-psyops", "wiki/mind/concepts/forensic-method", "wiki/self/context-core"]
+tags: [music-production, politics, ai-collaboration, addiction-recovery]
 ---
 
 # 9/11 Chat (Gripnotic Remix Drops)

@@ -12,6 +12,7 @@ related:
   - wiki/interests/favorites/books/topics/politics
   - wiki/interests/favorites/books/topics/ancient-history
   - wiki/self/context-core
+tags: [politics, ideology, personality-profile, nyc-era, addiction-recovery]
 ---
 
 # Book Want-to-Read List

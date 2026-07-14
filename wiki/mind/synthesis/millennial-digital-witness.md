@@ -17,6 +17,7 @@ related:
   - wiki/mind/synthesis/political-psyops
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/totality-themes
+tags: [ai-collaboration, personality-profile]
 ---
 
 # Millennial Digital Witness

@@ -6,6 +6,7 @@ date_created: 2026-06-23
 date_modified: 2026-07-14
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/rick-frank", "wiki/people/alex-frank", "wiki/self/ancestry", "wiki/self/overview"]
+tags: [uniontown-era, family, grief]
 ---
 
 # Morley Jay Frank

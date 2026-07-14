@@ -16,6 +16,7 @@ related:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/contact-gini
   - wiki/people/annie-ulmer
+tags: [personality-profile, addiction-recovery]
 ---
 
 # Enneagram 5w4 sx/sp — The Iconoclast Hermit

@@ -23,6 +23,7 @@ related: [
   "wiki/mind/synthesis/millennial-digital-witness",
   "wiki/interests/favorites/books/topics/politics"
 ]
+tags: [ai-collaboration, politics, ideology, trauma-bond]
 ---
 
 # Danfrank-isms Pinned Chat

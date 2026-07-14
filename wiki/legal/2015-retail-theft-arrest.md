@@ -14,6 +14,7 @@ related:
   - wiki/people/suzanne-frank
   - wiki/timeline/periods/2015-2016-annie-relationship-start
   - wiki/self/context-core
+tags: [legal, relationships, dui]
 ---
 
 # 2015 Arrest (Retail Theft / "The Combos Incident")
