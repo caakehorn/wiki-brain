@@ -16,11 +16,12 @@ related:
   - wiki/places/117-belmont-circle
   - wiki/timeline/periods/2015-2016-annie-relationship-start
   - wiki/timeline/periods/dark-era-2007-2008
+tags: [career, uniontown-era, financial-stress]
 ---
 
 # Caddying — Nemacolin, Laurel Valley, Pikewood National (2016–2019)
 
-Between the retail-theft arrest and the deep 2017–18 poverty years, Dan
+Between the [[wiki/legal/2015-retail-theft-arrest|retail-theft arrest]] and the deep 2017–18 poverty years, Dan
 held a caddying job at **Nemacolin Woodlands Resort** (Farmington, PA)
 titled "Experience Associate – Golf," **April 2016 – November 2019** per
 his resume — borrowing golf shoes for the interview on April 6, 2016. The
@@ -55,8 +56,8 @@ Pikewood and Potomac assignments weeks earlier.
 
 The caddying years run concurrent with the darkest financial stretch
 documented elsewhere in the wiki (the 2017 poverty floor, the 2018 deep
-cycle) and predate the Au Za'atar era by three years — evidence that the
-2016–2019 window, often treated as background to the early Annie
+cycle) and predate the [[wiki/work/au-zaatar|Au Za'atar]] era by three years — evidence that the
+2016–2019 window, often treated as background to the early [[wiki/people/annie-ulmer|Annie]]
 relationship, had its own steady, physically demanding income source
 alongside whatever else was happening. The "call for backup" texture of
 the job — a caddie manager fired mid-tenure for a no-call-no-show
