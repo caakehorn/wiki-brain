@@ -38,17 +38,18 @@ related: ["wiki/self/context-core", "wiki/self/overview", "wiki/self/location-hi
 | Paternal Great-Grandfather| David J. Frank                            | 1892-08-12 – 1960-04-06        | Russia – Brownsville, PA           | [[wiki/people/david-j-frank]]; Russian Jewish immigrant |
 | Paternal Great-Grandmother| [[wiki/people/sadie-harris|Sadie Harris]]                              | 1900-12-14 – 1997-11-27        | Austria – Hopwood, PA              | Jewish immigrant line |
 | Maternal Great-Grandmother| Jesse Frances Thomas Whyel /Coldren ("Fran") | 1920-08-15 – 2018-04-04     | Fort Martin, WV – Uniontown, PA    | [[wiki/people/fran-coldren]]; biggest influence, gifted Numark NS7 |
-| Maternal Grandfather      | George Dixon Shrum Jr                     | 1937-06-14 – ~2025-09          | —                                  | Death date inferred, see note below |
+| Maternal Grandfather      | George Dixon Shrum Jr                     | 1937-06-14                     | —                                  | Death date unknown |
 | Maternal Grandmother      | Rebecca Diane Van Voorhis                 | 1939-01-30                     | —                                  | — |
 
-**On the maternal grandfather's death date:** the GEDCOM tree has no death
-record for George Dixon Shrum Jr, but an outbound message from Dan dated
-2025-09-03 reads "eat n' park delivered frownie cookies to my granfather's
-funeral i swear to god lmao" (LIFE_EVENTS_CALENDAR.md). He is the only
-grandfather without a recorded death date (Morley Frank, the paternal
-grandfather, died in 1998), so this is very likely his funeral — treated
-here as a strong inference, not a confirmed record, pending a source that
-states his name directly.
+> **REVISED [2026-07-14]:** An earlier pass here inferred that a 2025-09-03
+> message ("eat n' park delivered frownie cookies to my granfather's
+> funeral i swear to god lmao") referred to George's death around that
+> date, since he was the only grandfather without a recorded death date.
+> Confirmed by Dan to be wrong: the message references [[wiki/people/morley-frank|Morley
+> Frank]]'s 1998 funeral, recounted in an essay by Dan's cousin
+> [[wiki/people/alex-frank]] — the auto-extracted calendar dated the entry
+> to when Dan referenced the essay (2025), not when the funeral happened
+> (1998). George Dixon Shrum Jr's death date remains genuinely unknown.
 
 ## Key Geographic / Residence Patterns (tree data)
 - Heavy concentration in Fayette County / Uniontown area across generations. This directly grounds the core "ORIGIN (1988–Sep 2008)" period and repeated Uniontown returns (337 Saratoga Drive family-built 1996; 12 Bryer Ave prior).

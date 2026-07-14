@@ -30,14 +30,15 @@ related: [
   "wiki/mind/synthesis/attachment-trauma-bond",
   "wiki/self/context-core",
   "wiki/people/max-danielle-bf",
-  "wiki/people/suzanne-frank"
+  "wiki/people/suzanne-frank",
+  "wiki/people/gabe"
 ]
 ---
 
 # Danielle Onesi (“Dee”)
 
 ## Identity
-Full name Danielle Onesi, nickname "Dee." Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort). Explicit in Gemini _21 as prior partner whose then-current BF ("the most wild dude" / music guy, CNA-to-producer) receives rare detailed music personality analysis ("knows more about music than I do... I don't give any other people"). Appears in 2010 NYC arrival photo with Dan + mom Suzanne ("Suz") at Brooklyn Bridge (May 1, 2010 birthday "I arrived" shot during move to 424 Bedford). Ongoing: "remains my moms closest friend to this day" (present at family Christmas etc. 2025). "Danielle (The Ex/Friend)" / "foundational support node" in later Game Theory analysis. Full name variant: Danielle Onesi (FB profile prev relationships). Pre-pivot anchor before high-vol Lex (5yr) + Annie eras. No high-volume corpus (biographical node only).
+Full name Danielle Onesi, nickname "Dee." Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort). She picked out [[wiki/people/gabe|Gabe]], Dan's cat of 15 years, at a shelter the day after he arrived in Orlando for Full Sail in August 2008, and paid for his euthanasia in November 2023 when Dan couldn't afford it — a kindness Dan says he has "always maintained" he owes her for. Explicit in Gemini _21 as prior partner whose then-current BF ("the most wild dude" / music guy, CNA-to-producer) receives rare detailed music personality analysis ("knows more about music than I do... I don't give any other people"). Appears in 2010 NYC arrival photo with Dan + mom Suzanne ("Suz") at Brooklyn Bridge (May 1, 2010 birthday "I arrived" shot during move to 424 Bedford). Ongoing: "remains my moms closest friend to this day" (present at family Christmas etc. 2025). "Danielle (The Ex/Friend)" / "foundational support node" in later Game Theory analysis. Full name variant: Danielle Onesi (FB profile prev relationships). Pre-pivot anchor before high-vol Lex (5yr) + Annie eras. No high-volume corpus (biographical node only).
 
 ## Timeline Table (pre-2010s focus + anchors)
 | Date/Period | Event | Verbatim / Source |

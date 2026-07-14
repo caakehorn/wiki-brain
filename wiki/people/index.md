@@ -11,6 +11,7 @@ related: []
 # people — index
 
 - [[wiki/people/aaron]] — Contact +17245624801. Self intro: "Hey, this is Aaron!". 38 messages. Casual direct introduction.
+- [[wiki/people/alex-frank]] — Dan's semi-famous cousin; Brooklyn-based music/culture journalist (FADER, Vogue, GQ, Pitchfork); wrote the essay about Morley Frank's funeral.
 - [[wiki/people/ally-lubin]]
 - [[wiki/people/anita]] — Directly tied to core §5: "BFS termination (cash-variance dispute)". Exemplifies work-power-dynamics…
 - [[wiki/people/annie-ulmer]] — Anne ("Annie") Ulmer. Primary relationship from Thanksgiving 2015 to June 1, 2026 — ten years and seven…
