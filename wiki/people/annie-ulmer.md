@@ -26,6 +26,7 @@ sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/Annie Affadavit.txt
   - raw/self/dox-md/ulmer_dui_megadoc.md
+  - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
@@ -137,6 +138,27 @@ she lived with him at 155 Virginia Avenue, then through the New York
 years, a move Dan funded and sustained: he was the household's financial
 foundation for roughly the first five NYC years, drawing on
 [[wiki/people/suzanne-frank|Suz]]'s resources.
+
+> **CONTRADICTION (origin story):** `CATO_BOOTLOADER_DANFRANK.md`
+> preserves a different, more colorful origin account: Alexis, as
+> Annie's coworker, sent Dan to buy drugs from Annie, and the two hooked
+> up during that transaction, dated loosely to "~2014-15" rather than the
+> corpus-anchored November 28, 2015. The dated message record (day-three
+> "YOU ARE MY EVERYTHING," Dec 2 2015 abandonment-fear text) is the
+> stronger source and is what this page follows; the bootloader's version
+> is preserved here as an unresolved, stylized alternate account rather
+> than adopted or discarded outright — it may be dramatized retelling of
+> the same event, or a distinct, earlier first contact that predates the
+> relationship's documented start.
+
+The same bootloader session records the immediate aftermath: after the
+breakup, Alexis returned to stay with Dan and Annie for about a month,
+bringing a new boyfriend who was — per the same account — both Dan's
+sister [[wiki/people/vanessa-frank|Vanessa]]'s first boyfriend and someone
+who had lost his virginity to Annie. That boyfriend was arrested during
+the stay picking up a 5-lb mailed weed parcel. None of this — the stay,
+the boyfriend, or the arrest — has independent corroboration elsewhere in
+the corpus.
 
 **The arrangement (2018–2024).** Camming was discussed within weeks of the
 start (Dec 2015) and the couple streamed together on Chaturbate as

@@ -23,6 +23,7 @@ related:
   - wiki/places/155-virginia-ave
   - wiki/timeline/events/fran-death-vigil
   - wiki/interests/music/concepts/sub-bass-signature
+  - wiki/work/nemacolin-caddying
 changelog:
   - date: 2026-07-13
     note: "Major expansion from DANSYNTH ingest: golf record, 117 Belmont, Palmer, gift protocol, vigil"

@@ -28,7 +28,7 @@ related:
   - wiki/self/message-corpora/master-message-dump
   - wiki/mind/concepts/contact-gini
   - wiki/timeline/periods/2025-collapse
-tags: [ai-collaboration, relationships, music-production, nyc-era, creative-volatility, digital-footprint]
+tags: [ai-collaboration, relationships, music-production, nyc-era, digital-footprint]
 ---
 
 # James (Aliases: "Max", "the Dude", "Music Guy")

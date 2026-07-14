@@ -8,7 +8,7 @@ date_range_start: 2018-11-04
 date_range_end: 2025-02-20
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/messages_3476070497_all_time.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2019-2025-nyc-era", "wiki/mind/synthesis/shadow-economy", "wiki/people/archive/bedford-connections"]
-tags: [digital-footprint, substance-supply, nyc-logistics, reliability, shadow-economy]
+tags: [digital-footprint, addiction-recovery, nyc-era]
 knowledge: earned
 ---
 

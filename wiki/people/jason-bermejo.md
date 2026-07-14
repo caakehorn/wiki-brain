@@ -8,7 +8,7 @@ date_range_start: 2017-01-20
 date_range_end: 2026-03-21
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_export_+18172693422_20260714055318.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/interests/music-production", "wiki/people/archive/danfrank-2009-2015", "wiki/mind/ideology/drug-use-attitudes"]
-tags: [digital-footprint, music, substance-use, friendship, formative-years]
+tags: [digital-footprint, music-production, addiction-recovery, relationships, uniontown-era]
 knowledge: earned
 ---
 
