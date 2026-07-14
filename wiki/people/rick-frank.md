@@ -20,6 +20,8 @@ related:
   - wiki/mind/concepts/attachment-model
   - wiki/legal/2015-retail-theft-arrest
   - wiki/health/chemical-architecture
+  - wiki/mind/synthesis/ancestral-dialectic
+  - wiki/mind/psychosexual/developmental-origins
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 ---
 
@@ -86,7 +88,7 @@ spine describes.
 
 ## Family position
 
-Paternal Jewish line: grandson of [[wiki/people/david-j-frank|David J. Frank]] (b. 1892, Russia) and
+Rick sits at the exact seam of the [[wiki/mind/synthesis/ancestral-dialectic|Ashkenazi/Appalachian ancestral binary]]: the paternal Jewish line running through him is the "hypervigilance" side of that framework, while his own 2005 collapse — the cocaine, the rehab, the marriage's end — is itself the load-bearing evidence the "numbness" side of the same dialectic points back to on the maternal side. Paternal Jewish line: grandson of [[wiki/people/david-j-frank|David J. Frank]] (b. 1892, Russia) and
 [[wiki/people/sadie-harris|Sadie Harris]] (b. 1900, Austria), son of Morley Jay Frank (1927–1998);
 Episcopalian himself ([[wiki/self/ancestry]]). One of the four documented
 generations of functional alcoholism. Multiple Uniontown residences on

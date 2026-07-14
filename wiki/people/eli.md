@@ -19,6 +19,8 @@ related:
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/self/gemini-activity/gemini-activity
   - wiki/self/context-core
+  - wiki/mind/concepts/dans-law
+  - wiki/mind/psychosexual/emotional-imprinting
 tags: [ai-collaboration, infidelity, nyc-era, trauma-bond]
 ---
 
@@ -56,7 +58,11 @@ Gemini-_07 clean-room analysis *severed* the Eli/WhatsApp channel as
 vector — from the "Target G" architecture (the January 4, 2026 "Suzy" call
 and the ten-day Grim Trigger blackout at the mother's house), which belongs
 to a different concealed male entirely — possibly Tuquick, possibly not;
-the record does not resolve it. Eli's designation in that analysis is
+the record does not resolve it. Refusing to merge the two into a single
+mega-conspiracy, and instead isolating each as its own irreducible signal,
+is [[wiki/mind/concepts/dans-law|Dan's Law]] applied to his own worst year:
+two real vectors, kept separate rather than combined into a cleaner but
+false unified narrative. Eli's designation in that analysis is
 simply "the Eli/NYC chaos node." Full sequence and evidence:
 [[wiki/timeline/events/eli-incident]].
 
@@ -78,7 +84,9 @@ almost incidental: the central harm was not the affair but the year of
 gaslighting that protected it — Annie reframing Dan's accurate detection as
 paranoia and mental illness ([[wiki/mind/synthesis/attachment-trauma-bond]]).
 Eli's function in the record is evidentiary: he is the fixed point that
-proved the perception right.
+proved the perception right — the corpus's own name for the reaction,
+"temple desecration" rather than ordinary disappointment, is unpacked at
+[[wiki/mind/psychosexual/emotional-imprinting]].
 
 **Gaps:** surname, age, exact workplace (Annie's restaurant vs. adjacent),
 and the affair's precise 2024 start date are all absent; whether any

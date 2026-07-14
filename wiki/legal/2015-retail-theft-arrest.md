@@ -14,6 +14,7 @@ related:
   - wiki/people/suzanne-frank
   - wiki/timeline/periods/2015-2016-annie-relationship-start
   - wiki/self/context-core
+  - wiki/mind/synthesis/vertical-authority-skepticism
 tags: [legal, relationships, dui]
 ---
 
@@ -22,6 +23,9 @@ tags: [legal, relationships, dui]
 Dan's only documented arrest: in late 2015, at age 26–27, he was arrested by
 the Pennsylvania State Police over a retail theft — stealing Combos snacks,
 an event the corpus refers to almost exclusively as "the Combos incident."
+It is the earliest dated instance in the corpus of Dan on the receiving end
+of state authority rather than merely theorizing about it — the concrete
+ground floor underneath [[wiki/mind/synthesis/vertical-authority-skepticism]].
 He hired a lawyer ("Jack"), applied for Pennsylvania's ARD program
 (Accelerated Rehabilitative Disposition, the first-offender diversion track),
 was approved at a hearing before Judge Wagner on **February 17, 2016**, and

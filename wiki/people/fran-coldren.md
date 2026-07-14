@@ -26,6 +26,7 @@ related:
   - wiki/work/nemacolin-caddying
   - wiki/interests/golf
   - wiki/people/marla
+  - wiki/mind/synthesis/ancestral-dialectic
 changelog:
   - date: 2026-07-13
     note: "Major expansion from DANSYNTH ingest: golf record, 117 Belmont, Palmer, gift protocol, vigil"
@@ -39,7 +40,13 @@ changelog:
 
 Fran Whyel Coldren was Dan's maternal great-grandmother, his self-described
 biggest life influence, and — the DANSYNTH record makes clear — the closest
-thing Uniontown's country-club world had to a matriarch-sovereign. Born
+thing Uniontown's country-club world had to a matriarch-sovereign. She is
+the anchor figure of the maternal, Appalachian pole of the
+[[wiki/mind/synthesis/ancestral-dialectic|ancestral dialectic]] — the
+"numbness" side read against the paternal Ashkenazi hypervigilance running
+through [[wiki/people/rick-frank|Rick]]'s line, though "numbness" sits
+oddly next to a woman whose own life ran dirt-poor-to-coal-money in one
+generation. Born
 August 15, 1920 in Fort Martin, West Virginia, dirt-poor, she married into
 coal money, dominated the Uniontown Country Club's fairways for decades from
 her house on its edge, bankrolled Dan's music career at its origin, and died

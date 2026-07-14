@@ -7,7 +7,7 @@ date_modified: 2026-07-14
 date_range_start: 2017-07-11
 date_range_end: 2018-06-09
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump"]
+related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump", "wiki/interests/golf"]
 tags: [career, uniontown-era]
 knowledge: mixed
 ---

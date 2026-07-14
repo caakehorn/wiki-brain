@@ -21,6 +21,8 @@ related:
   - wiki/self/context-core
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/timeline/periods/2025-collapse
+  - wiki/mind/concepts/institutional-out
+  - wiki/mind/concepts/dans-law
 tags: [addiction-recovery]
 ---
 
@@ -92,7 +94,12 @@ Anita if at all.
 The episode is the cleanest small-scale instance of the pattern documented in
 [[wiki/mind/synthesis/vertical-authority-skepticism]]: an unverified vertical
 claim backed by social pressure rather than records, met with procedural
-analysis and refusal rather than compliance. The forensic read — clean close
+analysis and refusal rather than compliance. It's also a miniature,
+low-stakes rehearsal of [[wiki/mind/concepts/dans-law|Dan's Law]]'s
+deconfounding move: three live hypotheses (Brandon's error, a soft skim,
+an invented number) held open simultaneously rather than collapsed into
+one story, with the irreducible fact — no paper trail existed on either
+side — isolated as the actual signal. The forensic read — clean close
 report + next-day verbal demand + no paper trail = error-cover or soft skim
 assigned to the path of least resistance — was formed in real time during the
 original chat and held up through the fuller reconstruction.
@@ -102,3 +109,9 @@ Dan (2026-07-14), not more precisely dated; final payroll disposition is
 still not in the corpus; whether the Little Caesars transfer actually
 materialized after June 2026 is undocumented; the true cause of the $50
 variance (Brandon's preset error vs. recount error) was never established.
+The roughly month-long tenure is also notably too short for
+[[wiki/mind/concepts/institutional-out|the institutional-out protocol]]
+(documented over a year-plus timescale at [[wiki/work/au-zaatar]]) to have
+had time to mature — no equivalent alibi structure is evident in this
+record, consistent with that concept page's own gap note that BFS likely
+never got there.

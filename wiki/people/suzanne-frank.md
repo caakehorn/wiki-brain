@@ -21,7 +21,7 @@ sources:
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/LIFE REPORT.md
   - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
-related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07"]
+related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini"]
 tags: [ai-collaboration, uniontown-era, infidelity, relationships, addiction-recovery]
 ---
 
@@ -44,7 +44,9 @@ oscillating savior↔adversary — sometimes within a single day.
 Suzanne Whyel Shrum Frank, born September 15, 1962, in Pittsburgh
 (GEDCOM-confirmed parents: George Dixon Shrum Jr., b. 1937, and Rebecca
 Diane Van Voorhis, b. 1939; the maternal line runs to
-[[wiki/people/fran-coldren]]). A working realtor (PA license RS305558, Park
+[[wiki/people/fran-coldren]]) — the Appalachian side of the
+[[wiki/mind/synthesis/ancestral-dialectic|ancestral binary]], the pole
+against which Rick's paternal Ashkenazi hypervigilance is read. A working realtor (PA license RS305558, Park
 Place Realty Group) based at 337 Saratoga Drive, the house the family built
 in 1996. She previously worked at Coldwell Banker, where — per an August
 2020 family-thread conversation (found 2026-07-14) — a manager "was really
@@ -94,7 +96,10 @@ Gemini-_07 analysis treats the diminutive as a high-entropy social-access
 key (Annie's own parents, friends of 40+ years, would say "Suzanne") and
 the instant hangup as a non-verbal confession; the associated visitor
 entered a 10-day blackout after Dan's staged "wife-warning" screenshot.
-The vector is isolated from the [[wiki/people/eli|Eli]] affair. Full analysis:
+The vector is isolated from the [[wiki/people/eli|Eli]] affair — the same
+[[wiki/mind/concepts/dans-law|Dan's Law]] discipline of keeping distinct
+signals distinct rather than merging every anomaly into one story applies
+here as it does throughout the terminal-phase forensics. Full analysis:
 [[wiki/self/chats/gemini-07]].
 
 **Social colonization (final dossiers, added 2026-07-13):** the terminal-phase

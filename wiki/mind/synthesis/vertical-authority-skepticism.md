@@ -74,7 +74,11 @@ reading via "everyone is in the wrong, then score who is *more* wrong"
 ([[wiki/mind/synthesis/political-psyops]]). The political nodes extend it:
 Trump as a gravity well of one man's selfish interest, the Democratic Party
 complicit through corporate capture and gerontocracy, institutions on all
-sides captured. No team.
+sides captured. No team. The personal ground floor under all of this
+abstraction is the [[wiki/legal/2015-retail-theft-arrest|2015 retail-theft
+arrest]] — the corpus's earliest instance of Dan on the *receiving* end of
+state authority rather than analyzing it from outside, years before the
+political theorizing had a name.
 
 **Digital — the earliest fossil.** The Facebook archive shows the posture
 pre-dating the politics: 2007 groups devoted to scam detection ("this is

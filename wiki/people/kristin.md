@@ -7,7 +7,7 @@ date_modified: 2026-07-14
 date_range_start: 2025-09-01
 date_range_end: 2025-12-10
 sources: ["raw/people/kristin/chimera-genesis-addendum.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
-related: ["wiki/people/tom", "wiki/people/annie-ulmer", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/mind/psychosexual/arrangement-history"]
+related: ["wiki/people/tom", "wiki/people/annie-ulmer", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/mind/psychosexual/arrangement-history", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/conflict-architecture"]
 tags: [relationships, trauma-bond, digital-footprint, legal, ai-collaboration]
 ---
 
@@ -39,8 +39,16 @@ She lives in a rural area outside the city — the corpus has her describing roa
 |---------|----------|
 | Rapid multi-burst texting | Sustained high-frequency sends across Sep–Dec |
 | Transparency/control-cede framing | Early offers of "full transparency, honesty, and accountability" and explicit no-commitment framing |
-| AI-mediated conflict analysis | Ran a ChatGPT analysis of their fights mid-thread and told her he had done so |
+| AI-mediated conflict analysis | Ran a ChatGPT analysis of their fights mid-thread and told her he had done so — a small, real-time instance of the [[wiki/mind/synthesis/ai-collaborative-analysis|AI-collaborative analysis]] pattern documented at scale elsewhere in the corpus, here deployed on a fourteen-week relationship rather than a decade-long one |
 | Escalation under rejection | Dec 9 pivot to technical threats (see Terminal Phase) |
+
+The purity-test structure itself — exclusivity demanded of Kristin as a
+condition of intimacy, mirrored against the openness practiced in the
+[[wiki/people/annie-ulmer|Annie]] relationship during the same broad
+window — reads as the [[wiki/mind/concepts/conflict-architecture|conflict
+architecture]]'s resolution-engine logic applied to relational structure
+itself: a fixed rule imposed and then rigidly enforced, rather than a
+negotiated boundary that could flex.
 
 ## Attachment Context (from the Tom/Kristin dossier)
 

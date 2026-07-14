@@ -7,7 +7,7 @@ date_modified: 2026-07-14
 date_range_start: 2015-11-29
 date_range_end: 2018-10-24
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/alexis-armel", "wiki/people/vanessa-frank", "wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/message-corpora/master-message-dump"]
+related: ["wiki/people/alexis-armel", "wiki/people/vanessa-frank", "wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/dans-law"]
 tags: [relationships, digital-footprint]
 knowledge: mixed
 ---
@@ -24,7 +24,9 @@ The same day (Nov 29, 2015, 18:34) also carries Casey warning Dan off an
 unnamed woman ("Dude that's a slippery slope with her man... She's a
 hoe"), immediately followed by an outbound Dan message — recipient not
 mechanically confirmed, since Sent rows carry no `contact_handle` in this
-export, but almost certainly addressed to Casey by timing and content —
+export, but almost certainly addressed to Casey by timing and content, in
+the same [[wiki/mind/concepts/dans-law|deconfounding]] spirit as the
+rest of the corpus's contested-attribution problems — 
 reading "Things are collapsing with lex. You might be seeing a lot more
 Annie very soon." Hours later Casey asks "Wait is that Annie?" — read
 together, this is the same-day thread in which Casey first learns about

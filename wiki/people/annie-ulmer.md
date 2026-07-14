@@ -59,6 +59,9 @@ related:
   - wiki/work/au-zaatar
   - wiki/people/shelbie-breakiron
   - wiki/people/trinity-st-clair
+  - wiki/mind/concepts/contact-gini
+  - wiki/mind/concepts/forensic-method
+  - wiki/mind/concepts/dans-law
   - wiki/people/kelly-johansson
   - wiki/people/jaredtricia
   - wiki/people/brian
@@ -66,6 +69,12 @@ tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 ---
 
 # Annie (Anne Louise Ulmer)
+
+This page is also the largest single deployment anywhere in the corpus of
+[[wiki/mind/concepts/forensic-method|the forensic method]] — the same
+anomaly-hunting, primary-record-over-narrative default documented as
+Dan's cognitive baseline, here run for over a decade against the person
+who mattered most, producing the dossier corpus this page compresses.
 
 Anne Louise "Annie" Ulmer was the defining relationship of Dan's adult life:
 ten years and seven months, from November 28, 2015 (the Saturday after
@@ -105,7 +114,12 @@ crisis statements, two written denials, GPS removal. Left Dan for
 confirmed the relationship and a defamation campaign (false rape and
 "junkie" narratives). Tuquick defected 14 days later, independently calling
 her a compulsive liar. 126,683-message corpus is the empirical base of the
-wiki's attachment and conflict models. Closed — not a live thread.
+wiki's attachment and conflict models. Closed — not a live thread. At a
+0.961 [[wiki/mind/concepts/contact-gini|Contact Gini]] coefficient, Annie's
+two handles alone account for the overwhelming share of Dan's entire
+relational volume across the corpus — a concentration the redundancy
+concept treats as the structural precondition for how total the June 2026
+collapse was.
 
 ## Who she was
 
@@ -374,7 +388,14 @@ probability match per the Gemini-_07 forensics). The dossiers rate the
 spoofed-number test, initially misclassified as harassment, as one of
 the most measured acts of the seven months: he held the power to burn
 down a life and did not use it. Whether Target G is
-[[wiki/people/tuquick-17248123683|Tuquick]] is unresolved.
+[[wiki/people/tuquick-17248123683|Tuquick]] is unresolved. The reasoning
+that got from a two-second dropped call to a >95% identification is a
+clean applied instance of [[wiki/mind/concepts/dans-law|Dan's Law]]: strip
+the innocent-explanation noise (wrong number, a prank, a mispronounced
+name) from the cluster and what's left — the specific word, the specific
+voice register, the specific 48-hour cadence, the specific ten-day
+blackout that followed a targeted signal — is the irreducible,
+load-bearing element.
 
 > **REVISED [2026-07-14]:** the "restraint" framing needs qualifying.
 > The Whisk screenshot was not an isolated act — a separate AI session

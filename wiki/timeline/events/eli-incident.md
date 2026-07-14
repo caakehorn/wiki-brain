@@ -20,6 +20,9 @@ related:
   - wiki/people/annie-ulmer
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
+  - wiki/mind/psychosexual/orchestration-and-voyeurism
+  - wiki/mind/psychosexual/emotional-imprinting
+  - wiki/people/eli
 tags: [infidelity, trauma-bond, nyc-era]
 ---
 
@@ -40,7 +43,7 @@ Discovery trigger: on January 9, 2025, at 11:18 PM, Dan's phone received, verbat
 
 Dan later chose to believe Annie's account sufficiently to attempt returning to "normal life" rather than sustain proof-gathering. The record's most direct admission came after the move, in a March 2025 message from Annie to Dan (verbatim, pronouns as written): "you decided to split our lives up. you lied to me for months and cheated on me" — read literally it accuses Dan, but every dossier that cites it treats it as her acknowledgment of the months of lying and the cheating, and rates it "the most direct admission in the record."
 
-**The arrangement context (CompleteRecord Part XIII):** the couple ran a Dan-architected quasi-non-monogamous framework from 2018 — Dan arranging, Dan present, typically with his own friends. Eli had none of those features: not arranged, not disclosed, not addressed honestly. The dossiers' finding: within their arrangement the Tom-type encounters were not cheating; Eli was — "she had a framework within which she had freedom. She went outside that framework, secretly, with someone from work. That is exactly what Dan had proposed the arrangement to prevent." The affair's moral clarity is sharpened, not reduced, by the arrangement's existence.
+**The arrangement context (CompleteRecord Part XIII):** the couple ran a Dan-architected quasi-non-monogamous framework from 2018 — Dan arranging, Dan present, typically with his own friends (the mechanism documented at length in [[wiki/mind/psychosexual/orchestration-and-voyeurism]]). Eli had none of those features: not arranged, not disclosed, not addressed honestly. The dossiers' finding: within their arrangement the Tom-type encounters were not cheating; Eli was — "she had a framework within which she had freedom. She went outside that framework, secretly, with someone from work. That is exactly what Dan had proposed the arrangement to prevent." The affair's moral clarity is sharpened, not reduced, by the arrangement's existence: the violation is legible precisely because the authorized version — orchestration, presence, control over the boundary — is so well documented elsewhere.
 
 ## When
 - Affair active/sustained: At minimum autumn 2024 (August 2024 record shows Dan already identifying the gaslighting mechanism in real time); continued through at least early 2025 and until closure.
