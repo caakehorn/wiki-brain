@@ -53,6 +53,8 @@ related:
   - wiki/mind/concepts/erotic-architecture
   - wiki/timeline/periods/covid-era-2020
   - wiki/people/eli
+  - wiki/mind/psychosexual/index
+  - wiki/mind/psychosexual/arrangement-history
   - wiki/people/tuquick-17248123683
   - wiki/work/au-zaatar
   - wiki/people/shelbie-breakiron

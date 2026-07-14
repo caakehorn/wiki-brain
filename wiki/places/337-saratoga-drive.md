@@ -9,6 +9,7 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-md/Gemini-_13.md
+  - raw/self/captures/2026-07-11_013210_the-house-at-337-saratoga-drive-uniontow.md
 related:
   - wiki/people/suzanne-frank
   - wiki/legal/463-morgantown

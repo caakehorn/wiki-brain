@@ -6,9 +6,9 @@ _Items waiting for or in the middle of ingestion. `bin/capture status` lists the
 
 | Item | Priority | Notes |
 |------|----------|-------|
-| 2026-07-11_013210_the-house-at-337-saratoga-drive… | HIGH | First capture through the app — likely a places/timeline page seed |
 | 2026-07-11_140000_ANCESTRY_DNA.txt | MEDIUM | Ancestry narrative (Frank/Harris, Gillingham/Van Voorhis lines) — expand wiki/self/ancestry.md; not previously in raw/ |
 | 2026-07-11_140001_google-takeout-manifest.html | LOW | Google Takeout archive manifest — file to raw/self/, useful as export inventory |
+| 2026-07-12_152457_add-individual-entry-for-personality-pro.md | MEDIUM | Not yet triaged — check content, likely targets wiki/mind/profile/ |
 
 ## Carried over from old repo (raw/ present, synthesis pending)
 

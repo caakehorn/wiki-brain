@@ -15,6 +15,9 @@ related:
   - wiki/people/annie-ulmer
   - wiki/people/alexis-armel
   - wiki/mind/synthesis/ancestral-dialectic
+  - wiki/mind/psychosexual/index
+  - wiki/mind/psychosexual/orchestration-and-voyeurism
+  - wiki/timeline/events/annie-alexis-reunion-november-2018
 tags: [trauma-bond, relationships, ai-collaboration]
 ---
 
@@ -92,9 +95,14 @@ general finding that Dan's documented deviance clusters around
 now this) rather than impulsive or reactive behavior.
 
 **Gaps:** this page synthesizes a single AI-authored interpretive report;
-none of its three named mechanisms have independent primary-source
-corroboration beyond what's already documented in the Annie arrangement
-material, and the Annie/Alexis hookup specifically has no other source in
-the corpus — date, context, and whether it was a one-time event or
-recurring are all unknown. Treat as a framework worth keeping on file, not
-as verified biography.
+its three named mechanisms have partial independent primary-source
+corroboration — see [[wiki/mind/psychosexual/orchestration-and-voyeurism]]
+for the fuller treatment. The Annie/Alexis hookup specifically is now
+richly dated and corroborated (November 2018, a six-week recurring
+arrangement, not a one-time event) at
+[[wiki/timeline/events/annie-alexis-reunion-november-2018]] — the earlier
+version of this page's gap note describing it as unsourced is superseded.
+The three mechanisms' interpretive framing (externalized libido, taboo as
+ontological rupture, emotional consumption) remains AI-authored and
+uncorroborated as *theory*, even where the underlying events are now
+independently documented.

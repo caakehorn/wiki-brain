@@ -10,11 +10,13 @@ related: []
 
 # mind — index
 
-Beliefs, ideology, psychology, and values. The domain is organized in three
+Beliefs, ideology, psychology, and values. The domain is organized in four
 layers: **profile/** holds the measured personality results and their
 detailed breakdowns; **concepts/** holds the named mechanisms of how Dan's
 mind works; **synthesis/** holds cross-corpus theses about worldview and
-behavior. The authoritative factual spine remains
+behavior; **psychosexual/** holds the dedicated sexuality cluster — theory
+(mostly single-source AI analysis) and a decade of independently
+corroborated real-world practice. The authoritative factual spine remains
 [[wiki/self/context-core]].
 
 ## profile — personality results
@@ -38,6 +40,15 @@ behavior. The authoritative factual spine remains
 - [[wiki/mind/concepts/institutional-out]] — the pre-installed escape mechanism at every job: fake migraines, the 9pm night class; verbatim self-stated protocol.
 - [[wiki/mind/concepts/phenomenology-lens]] — the deliberate interpretive overlay (God-Function, Si-Ghost Kernel, defense engines); subordinate to documented fact.
 - [[wiki/mind/concepts/erotic-architecture]] — sexuality as controlled-chaos engineering: externalized libido, taboo as rupture, emotional consumption.
+
+## psychosexual — the sexuality cluster
+
+- [[wiki/mind/psychosexual/index]] — hub: theory-vs-practice provenance split, quick brief, cluster map.
+- [[wiki/mind/psychosexual/orchestration-and-voyeurism]] — the "director, not participant" pattern; flagship case: the 2018 Annie/Alexis reunion.
+- [[wiki/mind/psychosexual/taboo-and-boundary-testing]] — taboo as category-rupture rather than transgression; the thinnest-sourced page in the cluster.
+- [[wiki/mind/psychosexual/emotional-imprinting]] — "unemotional sex is a myth"; crush-activation-on-contact; convergence with the independently-documented attachment model.
+- [[wiki/mind/psychosexual/arrangement-history]] — the primary-source backbone: every dated, named instance across a decade.
+- [[wiki/mind/psychosexual/developmental-origins]] — three convergent accounts: the 2005 parental-rupture axiom, the emo/pop-punk imprinting era, the sx/sp instinctual stack.
 
 ## synthesis — worldview theses
 

@@ -7,7 +7,7 @@ date_modified: 2026-07-14
 date_range_start: 2019-03-21
 date_range_end: 2019-12-24
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/people/eric-jester", "wiki/self/message-corpora/master-message-dump"]
+related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/people/eric-jester", "wiki/self/message-corpora/master-message-dump", "wiki/mind/psychosexual/arrangement-history"]
 tags: [relationships, digital-footprint]
 knowledge: mixed
 ---

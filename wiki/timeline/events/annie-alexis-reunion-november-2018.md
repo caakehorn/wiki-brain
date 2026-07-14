@@ -7,7 +7,7 @@ date_modified: 2026-07-14
 date_range_start: 2018-10-13
 date_range_end: 2018-12-11
 sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt"]
-related: ["wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/people/menore", "wiki/people/emaly-minerd", "wiki/timeline/events/shelbie-annie-threesome-april-2019"]
+related: ["wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/people/menore", "wiki/people/emaly-minerd", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/mind/psychosexual/orchestration-and-voyeurism", "wiki/mind/psychosexual/arrangement-history"]
 tags: [relationships]
 knowledge: earned
 ---

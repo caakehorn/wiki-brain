@@ -83,6 +83,54 @@ with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
 
+### [2026-07-14] - Session: ADD-ME swarm synthesis + new mind/psychosexual/ category
+* **Model:** Claude Sonnet 5 (Claude Code, remote)
+* **Summary:**
+  - Synthesized six findings surfaced by a separate agent's ADD-ME scan
+    (annie/alexis hookup, caddying job detail, golf, Pro Tools cert,
+    Alexis-to-Orlando, the Zac Shumar weed arrest — the last already
+    covered from the prior session) into the wiki, verifying every claim
+    directly against raw sources rather than trusting the swarm's
+    paraphrase. New page: wiki/timeline/events/annie-alexis-reunion-november-2018.md
+    (a full six-week arc, Oct-Dec 2018, including a $3,000 cash-offer
+    origin disclosed to Emaly Minerd — corrects shelbie-annie-threesome-april-2019.md's
+    "earliest instance" claim via REVISED blockquote). New page:
+    wiki/interests/golf.md (three-generation family lineage through Fran
+    Coldren, Dan's own playing history, golf as a decade-long relationship
+    touchstone with Annie start to end). Expanded wiki/work/nemacolin-caddying.md
+    (corrected a May 21 vs May 23 date/detail conflation) and
+    wiki/timeline/periods/full-sail-2008-2010.md (Pro Tools tweets,
+    Alexis's physical Orlando presence).
+  - Processed the oldest neglected inbox item (337 Saratoga Drive
+    sale-closure capture) — a pure process-gap fix, content was already
+    synthesized.
+  - **New category: wiki/mind/psychosexual/** — hub (index.md) + 5
+    subpages (orchestration-and-voyeurism, taboo-and-boundary-testing,
+    emotional-imprinting, arrangement-history, developmental-origins),
+    per explicit user directive to build an exhaustive psychosexual
+    profile from all available data. Built from raw/self/dox-scan/Dan
+    Profile.txt's "Psychosexual Crucible" section plus the pre-existing
+    deviance-mapping.md outlier score, cross-checked against the
+    already-rich arrangement history scattered across annie-ulmer.md,
+    alexis-armel.md, kristin.md, trinity-st-clair.md, kelly-johansson.md,
+    and shelbie-breakiron.md. Every page explicitly splits **theory**
+    (single AI-authored dossier, several claims entirely uncorroborated)
+    from **practice** (primary message-corpus evidence) — this
+    provenance discipline is the main thing to preserve if this cluster
+    gets extended further. Caught and flagged one internal contradiction
+    (a dossier "cosmic irony" timing claim about Fran Coldren's fall that
+    conflicts with the better-sourced date on fran-death-vigil.md) rather
+    than silently harmonizing it.
+  - Six-plus focused commits, each pushed individually. Lint 0 errors
+    throughout, 291 pages total at session's current point.
+* **Handoff Note:** The psychosexual cluster's `taboo-and-boundary-testing.md`
+  is explicitly flagged as the thinnest page in the wiki — a single
+  unelaborated sentence with zero primary corroboration. If richer source
+  material ever surfaces (a primary account, not another AI dossier), that
+  page should be rewritten from it rather than extended. The second Google
+  Drive folder mentioned in queue.md (which reportedly contains a
+  dedicated "SEXUAL PROFILE" file) never landed in raw/ — worth checking
+  again before assuming this cluster is as complete as it can get.
 ### [2026-07-14] - Session: direct raw extraction, people-thread pass
 * **Summary:** Replaced three template-level people records with roughly 16 KB
   of source-grounded prose. Trevor's 1,095-message master thread and named
