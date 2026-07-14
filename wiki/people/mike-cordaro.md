@@ -1,35 +1,38 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2024-07-28
 date_range_end: 2024-08-09
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/people/rick-frank", "wiki/self/message-corpora/master-message-dump"]
+tags: [relationships, politics, uniontown-era]
+knowledge: mixed
 ---
 
 # Mike Cordaro
 
-## Identity
-Contact identified via Google Contacts as Mike Cordaro. Previously unresolved contact from iMessage corpus at handle `+17243226739`. 28 messages exchanged over 2024-07-28 to 2024-08-09. Sample interaction: "Dude I tried cold calling you yesterday just to reminisce and wish you well. I found myself on the n". Appears in personal message contexts (not obvious spam per filter).
+Mike Cordaro is a childhood-era friend — the two attended the "Rolling Rock Town Fair" together as kids, a concert series Mike calculates they'd seen Def Leppard at "21 years and 1 day" before reaching back out — who resurfaces with a single warm, substantive two-week exchange in summer 2024 (`+17243226739`, 28 messages, July 28 – August 9). The reconnection was prompted by Mike spotting a Def Leppard/Journey show at Heinz Field and thinking of Dan.
+
+## Texture
+
+The conversation covers real ground: Mike's dog had to be put down the week they reconnected; a detailed, good-faith discussion of the 2024 presidential ticket (skeptical of Trump's foreign-policy credibility, would have preferred Mark Kelly on the Democratic ticket for the gun-reform angle, praised Walz's Bernie Sanders endorsement); and a running joke that both their fathers — his own ("Pete Cordaro") and Dan's ([[wiki/people/rick-frank|Rick Frank]]) — have become "maga-tized." Mike separately mentions running into and mountain-biking with "your uncle Dave" in Ohiopyle days after reconnecting with Dan — a family relation not otherwise documented in the corpus, and unconfirmed as to which side of the family Dave belongs to.
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 28 |
-| Date range | 2024-07-28 – 2024-08-09 |
-| Sent / Received (approx) | 0 / 28 |
-| Sample | Dude I tried cold calling you yesterday just to reminisce and wish you well. I found myself on the north shore (for a mf |
+| Date range | 2024-07-28 to 2024-08-09 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Mike to Dan) |
+| Handle | +17243226739 |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+## Gaps
 
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+"Uncle Dave" is a new, unconfirmed family lead — no other reference to him exists elsewhere in the corpus read so far.
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/people/rick-frank]] · [[wiki/self/message-corpora/master-message-dump]]

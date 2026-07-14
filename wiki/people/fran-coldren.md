@@ -24,9 +24,12 @@ related:
   - wiki/timeline/events/fran-death-vigil
   - wiki/interests/music/concepts/sub-bass-signature
   - wiki/work/nemacolin-caddying
+  - wiki/people/marla
 changelog:
   - date: 2026-07-13
     note: "Major expansion from DANSYNTH ingest: golf record, 117 Belmont, Palmer, gift protocol, vigil"
+  - date: 2026-07-14
+    note: "Marla's caregiver messages corroborate April 4 death date"
   - date: 2026-07-11
     note: "Full prose rewrite from data-dump stub"
 ---
@@ -103,6 +106,12 @@ documented in full at [[wiki/timeline/events/fran-death-vigil]].
 > Candidate resolution: hospital transfer to the pediatric wing April 1,
 > death April 4 (which would preserve both dates); verify against the
 > Herald-Standard obituary or FindAGrave.
+>
+> **REVISED [2026-07-14]:** dated messages from caregiver
+> [[wiki/people/marla]] show Fran alive through the night of April 3–4
+> ("she made it thru the nite," morphine bag changed, 7:23 AM April 4)
+> with only blank/image messages the following day — corroborating
+> **April 4** as the death date.
 
 > **CONTRADICTION (age):** Core documents say she died at 98; the 1920
 > birth year makes her 97 at an April 2018 death. Unresolved.

@@ -16,6 +16,7 @@ related:
   - wiki/people/suzanne-frank
   - wiki/places/117-belmont-circle
   - wiki/places/155-virginia-ave
+  - wiki/people/marla
 tags: [financial-stress, housing, uniontown-era, family, grief]
 ---
 
@@ -93,6 +94,14 @@ assets.
 > records death **April 4, 2018**. A transfer-April-1 / death-April-4
 > reading would reconcile both, but this is unverified — see
 > [[wiki/people/fran-coldren]].
+>
+> **REVISED [2026-07-14]:** [[wiki/people/marla|Marla]], a caregiver on
+> the shift rotation with Dan and Annie, sent dated messages showing Fran
+> still alive through the night of April 3–4 ("She made it thru the nite"
+> at 7:23 AM on April 4, describing a fresh morphine bag), with her last
+> content message that same morning and only blank/image messages the
+> following day. This corroborates the GEDCOM's **April 4** date over
+> DANSYNTH's April 1.
 
 **Gaps:** exact date of the fall; the nursing home's name; how long the
 full caregiving arrangement ran before the fall (~2015–2018 per the
