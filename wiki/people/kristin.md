@@ -95,6 +95,8 @@ An unexpected recurring bonding activity: Dan runs detailed synastry
 associate with astrology... why are you so fucking cool dude I can't get
 over it."
 
+A September 19, 2025 exchange surfaces a dead ex-partner, "Jeff," whose name Kristin had tattooed and later covered up — cited as her own reason for having "control" over emotional exposure, in the same message where she tells Dan she needs to "back up off this" and stop "pouring your unhealed pain into my purity" after he shared results of a self-administered psychological "disorder test."
+
 Tom sits inside the thread as an active irritant rather than a background
 figure. During a September 20 crisis over where Kristin would sleep, she
 refuses to stay at another man's house out of stated loyalty to Dan while he
