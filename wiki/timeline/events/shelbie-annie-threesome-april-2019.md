@@ -34,7 +34,16 @@ April 2019, per Dan. The surviving message corpus for Shelbie begins May 15, 201
 
 ## Significance
 
-This is the earliest well-specified instance of the non-monogamous arrangement operating with a third woman rather than a male friend of Dan's — most of the documented arrangement history (Tom and others) runs the opposite pattern. It sits inside the same spring/summer 2019 window as an unrelated but nearby reference: an outbound May 31, 2019 message from Dan lists "the abortion" alongside Fran's decline and the NYC move as major things he and Annie had "gone through together" by that point (see [[wiki/people/annie-ulmer]] for that separate item) — the two events are not connected beyond proximity in time, but both mark 2019 as a year of unusually consequential, thinly documented relationship history for the couple.
+> **REVISED [2026-07-14]:** an earlier version of this page called the
+> April 2019 threesome the earliest well-specified instance of the
+> arrangement running with a woman. A November 2018 reunion between Annie
+> and [[wiki/people/alexis-armel|Alexis]] — Dan's own ex — predates it by
+> five months; see [[wiki/timeline/events/annie-alexis-reunion-november-2018]].
+> This is still the earliest documented instance with a woman *outside*
+> Dan's own romantic history, and the first with a recurring, named
+> third-party dynamic rather than a same-week reunion.
+
+This sits inside the same spring/summer 2019 window as an unrelated but nearby reference: an outbound May 31, 2019 message from Dan lists "the abortion" alongside Fran's decline and the NYC move as major things he and Annie had "gone through together" by that point (see [[wiki/people/annie-ulmer]] for that separate item) — the two events are not connected beyond proximity in time, but both mark 2019 as a year of unusually consequential, thinly documented relationship history for the couple.
 
 ## Corroborating evidence (found 2026-07-14; expanded 2026-07-14 with the full day's thread)
 

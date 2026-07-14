@@ -202,8 +202,16 @@ rather than tolerated it, and that Annie participated across years and
 said she enjoyed it ("I did enjoy our relationship/situation/arrangement
 we had with him," Nov 3 2024). The asymmetry is also documented: Annie
 never delivered the reciprocal side, and she often agreed to encounters
-that never materialized. The earliest concrete instance is actually with a
-woman rather than one of Dan's friends: the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]
+that never materialized. The earliest concrete instance found so far runs
+even earlier than the arrangement's "formalized" 2018 date implies, and it
+is with a woman from Dan's own romantic history rather than a stranger or
+one of his friends: days after [[wiki/people/alexis-armel|Alexis]]'s
+release from her year at SCI Muncy, she and Annie hooked up at Dan and
+Annie's house with Dan present (Nov 3, 2018), and the household prepared
+for a same-week repeat the following evening — full account at
+[[wiki/timeline/events/annie-alexis-reunion-november-2018]]. The next
+well-documented instance with a woman is the
+[[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]
 with [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], whom Dan was
 also seeing one-on-one that spring — Shelbie's own messages through June
 2019 treat Annie's presence as an unremarkable condition of the

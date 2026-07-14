@@ -16,6 +16,7 @@ related:
   - wiki/places/117-belmont-circle
   - wiki/timeline/periods/2015-2016-annie-relationship-start
   - wiki/timeline/periods/dark-era-2007-2008
+  - wiki/timeline/events/fran-death-vigil
 tags: [career, uniontown-era, financial-stress]
 ---
 
@@ -36,14 +37,34 @@ Caddying at a resort of Nemacolin's caliber runs a visible status ladder
 prestige courses, and Dan's May 2018 messages capture his first such
 call-up as a milestone ("first time getting called up with the real
 loopers to take a day trip and work at another track"). On **May 21,
-2018** he double-bagged (looping two players solo) at **Laurel Valley
-Golf Club**, leaving Uniontown at 4:30 AM, alongside named coworkers Brad
-(the boss), Trevor, Brooke, "cuzzy," Will, and Chad — a course with its
-own connection to the golf lineage already documented on
+2018** he made his first off-property day trip to **Laurel Valley Golf
+Club**, leaving Uniontown at 4:30 AM alongside named coworkers Brad (his
+manager there), Trevor, Brooke, "cuzzy," Will, and Chad — single-bag that
+day, paired two caddies to a group, $100 cash for the second loop. He
+rated the outing directly against his home track: "an impressive lack of
+golf knowledge for how long I've done the job." Two days later, on **May
+23, 2018**, he was paired at Laurel Valley with **Carl** — "the head of
+the caddie program there and also the head of the program in
+Scottsdale" (TPC Scottsdale) — for what he explicitly calls his actual
+first time carrying two bags simultaneously ($90 flat for the pair):
+"getting out with Carl was a huge blessing (it could have been a
+disaster)." He used the pairing to ask directly about transferring to
+Laurel Valley full-time, describing it as "a much more beneficial
+[career] situation and a natural progression from looping at
+[Nemacolin's] mystic [rock course]" — the transfer never happened, but
+the ambition is the clearest documented evidence he saw caddying as a
+career ladder, not just gig income. Laurel Valley carries its own
+connection to the golf lineage already documented on
 [[wiki/people/fran-coldren]] (Fran's Arnold Palmer ties;
 [[wiki/places/117-belmont-circle]] sits on the Uniontown Country Club
-fairway). He rated the outing directly against his home track: "an
-impressive lack of golf knowledge for how long I've done the job."
+fairway).
+
+Nemacolin's own caddie season had a harder edge the same spring: **April
+1, 2018** — "the first day of golf at Nemacolin, which means the first
+day of caddie season" — Dan worked two loops in the freezing cold before
+getting the call that [[wiki/people/fran-coldren|Fran]] needed to go to
+the hospital, the opening beat of the vigil documented in full at
+[[wiki/timeline/events/fran-death-vigil]].
 
 **Pikewood National Golf Club** (Morgantown, WV) — rated by coworkers as
 superior to Laurel Valley, Latrobe Country Club, and even Oakmont — is
