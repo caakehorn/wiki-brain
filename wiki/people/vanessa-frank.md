@@ -31,12 +31,28 @@ claim is met with jokes, delivering the structural argument herself: that it
 is "in the university's financial favor to keep the rapists at school … losing
 tuition, risking lawsuits." By 2020 she is making the climate-and-capital case
 ("we can't stall climate change w capitalism") and checking Dan's own progress
-("you gonna vote for daddy joe?"). Her engagement went beyond commentary that
-February: during the Bernie Sanders 2020 primary campaign she signed up to
-canvass in New Hampshire, pushed back on Suz's "boomer mentality... we need
-to find the modest anodyne centrist to unite against Trump" framing directly,
-and repeatedly invited Dan to join her canvassing events. Her humor is
-self-aware and of-the-left —
+("you gonna vote for daddy joe?").
+
+> **REVISED [2026-07-14]:** an earlier version of this section attributed
+> the Bernie Sanders 2020 New Hampshire canvassing trip, and the pushback
+> on Suz's "boomer mentality... modest anodyne centrist" framing, to
+> Vanessa. Re-checking the raw rows shows both are outbound (`Sent`)
+> messages in Dan's own voice ("i have been relentlessly appealing to mom
+> to open her mind... i'm going to NH on monday to canvass") — it was Dan
+> who canvassed and pushed back on Suz, not Vanessa. Sent rows in
+> `MASTER_MESSAGES_DB_DUMP.csv` carry no `contact_handle`, so the exact
+> recipient of these particular messages isn't mechanically confirmed
+> either; the surrounding Feb 5, 2020 conversation timing makes Vanessa
+> the most plausible person Dan was updating and inviting ("Are you free
+> to join me?"), but a same-week outbound message in the identical style
+> to an unrelated NYC contact ("hey dude it's dan frank! i see you're in
+> NYC — let me buy you a drink") shows these Sent-side texts aren't
+> reliably groupable to one recipient by proximity alone. What Vanessa's
+> own side of the Feb 2020 thread independently confirms is climate
+> politics and a shared anti-capitalist framing, not a canvassing trip of
+> her own.
+
+Her humor is self-aware and of-the-left —
 "I'm a corporate schill," "the locomotive to transphobia pipeline is real" —
 the same register Dan uses, which makes her one of the few family contacts who
 never triggers his forensic mode.
