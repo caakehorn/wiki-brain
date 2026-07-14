@@ -7,7 +7,7 @@ date_modified: 2026-07-14
 date_range_start: 2019-09-27
 date_range_end: 2019-10-23
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/self/message-corpora/master-message-dump"]
+related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/self/message-corpora/master-message-dump", "wiki/mind/psychosexual/arrangement-history"]
 tags: [relationships, digital-footprint, nyc-era]
 knowledge: mixed
 ---

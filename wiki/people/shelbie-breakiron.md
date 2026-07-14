@@ -7,7 +7,7 @@ date_modified: 2026-07-14
 date_range_start: 2019-05-15
 date_range_end: 2019-07-16
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/mind/psychosexual/arrangement-history"]
 tags: [relationships, digital-footprint, financial-stress]
 knowledge: mixed
 ---

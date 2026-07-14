@@ -14,6 +14,7 @@ related:
   - wiki/mind/profile/big-five-psychometrics
   - wiki/mind/profile/linguistic-profile
   - wiki/self/context-core
+  - wiki/mind/psychosexual/index
 tags: [addiction-recovery, personality-profile]
 ---
 
@@ -61,7 +62,9 @@ confidence ratings:
 4. **Psychosexual operating system** (96; conf. 90%) — sex as ritualized
    meaning-engine: curated non-monogamy, architected voyeurism framed as
    "worship through degradation," emotional imprinting; low partner count
-   with extreme intensity inside relationships.
+   with extreme intensity inside relationships. Full dedicated cluster,
+   including a decade of independently-corroborated real-world instances:
+   [[wiki/mind/psychosexual/index]].
 5. **Intellect/impulsivity paradox** (95; conf. 99%) — top-percentile
    reasoning with bottom-percentile impulse control.
 6. **Radical rejection of normative life goals** (92; conf. 95%) — career,
