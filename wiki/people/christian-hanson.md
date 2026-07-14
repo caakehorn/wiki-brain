@@ -1,35 +1,34 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2017-07-11
 date_range_end: 2018-06-09
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump"]
+tags: [career, uniontown-era]
+knowledge: mixed
 ---
 
 # Christian Hanson
 
-## Identity
-Contact identified via Google Contacts as Christian Hanson. Previously unresolved contact from iMessage corpus at handle `+14129950042`. 66 messages exchanged over 2017-07-11 to 2018-06-09. Sample interaction: "What's up Dan? Yeah Vince is good stuff...he's an awesome guy! We need to get together soon.". Appears in personal message contexts (not obvious spam per filter).
+Christian Hanson — the retired NHL forward (Toronto Maple Leafs, son of Dave "Hanson Brothers" Hanson) — was a golf regular Dan caddied and played with around Nemacolin during 2017–2018 (`+14129950042`, 66 messages, July 2017 – June 2018). The relationship is friendly and easy, addressed as "Danny" and "boss," organized almost entirely around arranging rounds at the Mystic course.
+
+## The relationship
+
+Most of the thread is tee-time logistics: Christian and his group (referenced friends including "Vince" and a brother-in-law) coordinating times, confirming green fees ("$15?!"), and Dan occasionally caddying or joining as a fourth. A running bit has Christian ribbing Dan as "you 82 shooter" in a December 2017 Christmas message, in which he also mentions buying a property "on the water" for the following summer and trades brief, casual crypto talk (a friend "riding high" on an INTV position at the January 2018 open) — neither man especially engaged, both admittedly on the sidelines. The relationship stays warm and low-stakes throughout, with a final message in June 2018 noting Christian had gotten a club membership and was "good to go any time."
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 66 |
-| Date range | 2017-07-11 – 2018-06-09 |
-| Sent / Received (approx) | 0 / 66 |
-| Sample | What's up Dan? Yeah Vince is good stuff...he's an awesome guy! We need to get together soon. |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+| Date range | 2017-07-11 to 2018-06-09 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Christian to Dan) |
+| Handle | +14129950042 |
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/work/nemacolin-caddying]] · [[wiki/timeline/periods/2017-poverty-floor]] · [[wiki/self/message-corpora/master-message-dump]]
