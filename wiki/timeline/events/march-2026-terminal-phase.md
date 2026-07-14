@@ -21,6 +21,8 @@ related:
   - wiki/timeline/events/group-chat-closure
   - wiki/mind/concepts/conflict-architecture
   - wiki/mind/concepts/attachment-model
+  - wiki/timeline/events/april-may-2026-final-weeks
+  - wiki/people/suzanne-frank
 tags: [relationships, trauma-bond, addiction-recovery]
 ---
 
@@ -33,6 +35,10 @@ dynamic distilled: extraction, ambiguity, and the systematic prevention of
 the one honest conversation that could have ended things cleanly. The
 formal closure came later ([[wiki/timeline/events/group-chat-closure]],
 June 1), but March is where the record shows the machinery at full load.
+
+## Pre-phase escalation (February 21) and the March 17–31 gap
+
+Two dated incidents (found 2026-07-14, random corpus sample) extend the documented pattern on either side of this page's window. On **February 21, 2026**, a night confrontation escalates into an extended written rant from Annie — accusations that Dan is a liar, a reference to Dan doing "IV drugs before you ever met me" that she says she got him to stop, and a closing threat that "everyone" would find out what he was doing — the same blame-reversal and threat-of-exposure structure documented throughout the terminal phase, roughly a week before this page's official start date. Separately, **March 19–20, 2026** — inside the otherwise-undocumented gap between this page (ending March 16) and [[wiki/timeline/events/april-may-2026-final-weeks]] (starting April 1) — records another full-cycle blowup: a cheating accusation, a temporary block, and [[wiki/people/suzanne-frank|Suz]] weighing in with "Karma is a bitch. All I'm saying." Neither date has been folded into a dedicated section; both are consistent with the pattern already documented above.
 
 ## The crisis-statement record and the laundry response (March 1)
 
