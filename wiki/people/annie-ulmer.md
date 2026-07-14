@@ -48,6 +48,7 @@ related:
   - wiki/timeline/periods/dec-2025-spike
   - wiki/timeline/periods/2015-2016-annie-relationship-start
   - wiki/timeline/periods/2025-collapse
+  - wiki/mind/concepts/erotic-architecture
   - wiki/timeline/periods/covid-era-2020
   - wiki/people/eli
   - wiki/people/tuquick-17248123683

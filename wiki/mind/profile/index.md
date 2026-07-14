@@ -17,6 +17,8 @@ related:
   - wiki/mind/concepts/phenomenology-lens
   - wiki/mind/concepts/conflict-architecture
   - wiki/mind/concepts/attachment-model
+  - wiki/mind/synthesis/ancestral-dialectic
+  - wiki/mind/concepts/erotic-architecture
 ---
 
 # Personality Profile
