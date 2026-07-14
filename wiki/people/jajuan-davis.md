@@ -1,35 +1,34 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2018-11-29
 date_range_end: 2019-02-18
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/people/johnny-dealer", "wiki/self/message-corpora/master-message-dump"]
+tags: [addiction-recovery, financial-stress, uniontown-era]
+knowledge: derived
 ---
 
 # Jajuan Davis
 
-## Identity
-Contact identified via Google Contacts as Jajuan Davis. Previously unresolved contact from iMessage corpus at handle `+17243233522`. 157 messages exchanged over 2018-11-29 to 2019-02-18. Sample interaction: "Yup". Appears in personal message contexts (not obvious spam per filter).
+A high-frequency, purely transactional dealer relationship over the 2018–2019 winter (`+17243233522`, 157 messages, Nov 29, 2018 – Feb 18, 2019) — the second active dealer contact from that period alongside [[wiki/people/johnny-dealer|Johnny]]. The thread has almost no personal texture: near-daily one-word confirmations ("Yup"), location pings, and dollar amounts (95, 276, 325, 380) tracked back and forth as running debt. It ends on a sour note, with the contact accusing Dan of being lied to about a payment and demanding money owed: "No I didnt she lied 2 u n yes u owe me money... Man stop playn."
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 157 |
-| Date range | 2018-11-29 – 2019-02-18 |
-| Sent / Received (approx) | 0 / 157 |
-| Sample | Yup |
+| Date range | 2018-11-29 to 2019-02-18 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Jajuan to Dan) |
+| Handle | +17243233522 |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+## Gaps
 
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+No contacts.csv match; identity beyond the page's filename is unconfirmed.
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/timeline/periods/2018-deep-cycle]] · [[wiki/people/johnny-dealer]] · [[wiki/self/message-corpora/master-message-dump]]
