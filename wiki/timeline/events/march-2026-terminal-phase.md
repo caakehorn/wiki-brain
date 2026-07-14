@@ -23,6 +23,7 @@ related:
   - wiki/mind/concepts/attachment-model
   - wiki/timeline/events/april-may-2026-final-weeks
   - wiki/people/suzanne-frank
+  - wiki/mind/concepts/forensic-method
 tags: [relationships, trauma-bond, addiction-recovery]
 ---
 
@@ -114,9 +115,11 @@ other person's pain.
 A "burst event" — ten or more consecutive messages from Dan without a reply
 — occurred 94 times in the record. Annie deployed these bursts as evidence
 of Dan's instability ("crash-outs"), but the honest framing in the
-analysis is sequential: every burst was preceded by a period of her
-silence; the burst is the end of a waiting period, not the beginning of a
-story. The longest documented silence ran 36.5 hours and was re-entered
+analysis is sequential — the same [[wiki/mind/concepts/forensic-method|forensic
+insistence]] on establishing correct chronology over convenient narrative
+that runs throughout the rest of the corpus: every burst was preceded by a
+period of her silence; the burst is the end of a waiting period, not the
+beginning of a story. The longest documented silence ran 36.5 hours and was re-entered
 via a money request. The mechanism exploited his documented architecture —
 intolerance of open loops — guaranteeing hypervigilance until she chose to
 re-enter on her own terms ([[wiki/mind/concepts/conflict-architecture]]).
