@@ -18,6 +18,7 @@ related:
   - wiki/timeline/periods/dark-era-2007-2008
   - wiki/timeline/events/fran-death-vigil
   - wiki/interests/golf
+  - wiki/mind/concepts/forensic-method
 tags: [career, uniontown-era, financial-stress]
 ---
 
@@ -86,8 +87,9 @@ the job — a caddie manager fired mid-tenure for a no-call-no-show
 ("apparently... not getting along with narcotics of some sort," per a
 2019 message), VIP loops staff refused to caddie for ("we're not taking
 caddies"), and the constant carpool-and-report-time choreography — also
-matches the same "reads every interaction for the tell" forensic
-instinct the rest of the corpus documents in professional settings.
+matches the same "reads every interaction for the tell"
+[[wiki/mind/concepts/forensic-method|forensic instinct]] the rest of the
+corpus documents in professional settings.
 
 **Gaps:** exact end circumstances (voluntary departure vs. displaced by
 the Nemacolin job's November 2019 end per resume, which lines up with

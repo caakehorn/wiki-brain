@@ -23,6 +23,7 @@ related:
   - wiki/self/location-history
   - wiki/timeline/periods/2021-2023-employment-block
   - wiki/mind/synthesis/vertical-authority-skepticism
+  - wiki/mind/concepts/institutional-out
   - wiki/self/chats/gemini-00
   - wiki/self/chats/gemini-02
 tags: [nyc-era, career, ai-collaboration, housing, forensic-analysis]
@@ -40,7 +41,9 @@ record (445 visits) and the longest job of his adult life. For most of his
 tenure the restaurant operated out of a plywood COVID-era **"Shed"** on the
 58th Street sidewalk while the interior stood as a construction shell — a
 low-oversight sovereign territory where Dan ran his "9pm night class"
-alibi for over a year to secure peak hours and tip splits, took sidewalk
+alibi — the fullest documented instance of
+[[wiki/mind/concepts/institutional-out|the institutional-out protocol]] —
+for over a year to secure peak hours and tip splits, took sidewalk
 deliveries from his Dominican contact Menore through taxi windows, and
 eventually made himself the "Outside Guy": sole custodian of the dying
 shed section and its cash tips. The job ended in August 2024 when the
