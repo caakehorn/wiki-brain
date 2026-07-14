@@ -1,35 +1,38 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2015-11-29
 date_range_end: 2018-10-24
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/people/alexis-armel", "wiki/people/vanessa-frank", "wiki/self/message-corpora/master-message-dump"]
+tags: [relationships, digital-footprint]
+knowledge: mixed
 ---
 
 # Casey Bondarenka
 
-## Identity
-Contact identified via Google Contacts as Casey Bondarenka. Previously unresolved contact from iMessage corpus at handle `+17245626199`. 36 messages exchanged over 2015-11-29 to 2018-10-24. Sample interaction: "Yoooo.. I got a pen vape for dabs. How much does a single dab cost so I'm sure it works for me and I". Appears in personal message contexts (not obvious spam per filter).
+Casey Bondarenka was a friend who overstayed his welcome during a chaotic late-2015 stretch involving [[wiki/people/alexis-armel|Alexis]] and Vanessa, then resurfaced sporadically through 2018 (`+17245626199`, 36 messages, Nov 2015 – Oct 2018).
+
+## Late 2015: the friend-circle friction
+
+The bulk of the thread (Nov 29 – Dec 2, 2015) documents Casey inserting himself into Dan's household during a period of relationship turbulence with Alexis: he asks bluntly whether he can pursue her if things end ("if you're breaking things with Alexis... Can I fuck her?"), then spends several days going back and forth about whether he's overstaying his welcome, apologizing repeatedly for "being pushy" and for upsetting Vanessa by smoking at the house. He frames his own behavior as trying to help while acknowledging he doesn't want "legitimate ties" with Alexis, calling her "diabolical AF." The cluster ends with a full apology on February 15, 2016 for "anything I may have done that need apologizing for."
+
+## Later contact (2017–2018)
+
+Sporadic, low-effort check-ins follow ("You working today dude?", "You duckin me bro or you just busy?"), with a final October 2018 message noting Casey now has a medical marijuana card and offering to "float" Dan.
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 36 |
-| Date range | 2015-11-29 – 2018-10-24 |
-| Sent / Received (approx) | 0 / 36 |
-| Sample | Yoooo.. I got a pen vape for dabs. How much does a single dab cost so I'm sure it works for me and I like it |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+| Date range | 2015-11-29 to 2018-10-24 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Casey to Dan) |
+| Handle | +17245626199 |
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/people/alexis-armel]] · [[wiki/self/message-corpora/master-message-dump]]

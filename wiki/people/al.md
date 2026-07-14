@@ -1,35 +1,40 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2018-05-13
 date_range_end: 2018-11-01
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [addiction-recovery, digital-footprint, uniontown-era]
+knowledge: mixed
 ---
 
 # Al
 
-## Identity
-Contact identified via Google Contacts as Al. Previously unresolved contact from iMessage corpus at handle `+17249632572`. 53 messages exchanged over 2018-05-13 to 2018-11-01. Sample interaction: "How much more". Appears in personal message contexts (not obvious spam per filter).
+Al (saved in contacts under the joke label "Socialist") was a cocaine dealer during the 2018 deep-cycle period — one of several supply contacts alongside [[wiki/people/johnny-dealer|Johnny]] from that year. The 53-message thread (`+17249632572`, May–November 2018) is almost entirely short logistics texts — "Come outside," "I'm outside," "On the Gateway Clipper right now," quantities named only in slang ("that deuce," "All chunk") — and ends in an unpaid-debt confrontation.
+
+## The relationship
+
+The exchange is pure transaction: meet requests, quantity questions ("Where you at grams"), and location pings, most of it clustered May–June 2018 with sparse follow-up through the fall. Al occasionally references visiting Dan's mother directly ("I'm coming to see your mom do you want anything"), suggesting some familiarity with the household beyond a purely arm's-length dealer relationship.
+
+The thread goes quiet after early July and resurfaces once, on November 1, 2018, with Al demanding repayment: "It's been months and you haven't gave me my money yet so I'm asking you one time only please give me my money," followed by a curt "Sweet and short you stop calling me" — read as Al cutting contact after the debt went unresolved. No further messages follow.
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 53 |
-| Date range | 2018-05-13 – 2018-11-01 |
-| Sent / Received (approx) | 0 / 53 |
-| Sample | How much more |
+| Date range | 2018-05-13 to 2018-11-01 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Al to Dan); no outbound replies preserved |
+| Handle | +17249632572 |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+## Gaps
 
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+Last name and any resolution of the November 2018 debt dispute are undocumented.
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/timeline/periods/2018-deep-cycle]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]

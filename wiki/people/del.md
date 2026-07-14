@@ -1,35 +1,38 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2019-03-17
 date_range_end: 2019-08-16
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/people/menore", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [addiction-recovery, nyc-era, digital-footprint]
+knowledge: mixed
 ---
 
 # Del
 
-## Identity
-Contact identified via Google Contacts as Del. Previously unresolved contact from iMessage corpus at handle `+19177251279`. 65 messages exchanged over 2019-03-17 to 2019-08-16. Sample interaction: "Sorry for the late reply. We have various StIIIzy strains available. I'm presently downtown but head". Appears in personal message contexts (not obvious spam per filter).
+Del ran a NYC cannabis delivery service (contacts card lists organization "Stiiizy," the vape-cart brand) that supplied Dan through spring and summer 2019 (`+19177251279`, 65 messages, March–August). The relationship is a professional delivery-service dynamic — closer to [[wiki/people/menore|Menore]]'s NYC delivery model than to the ad hoc dealer relationships of the Uniontown years — but noticeably less reliable, with frequent apologetic delays.
+
+## The service
+
+Del quotes prices early ($80 for one Stiiizy cart, $70 each for two or more, a free kit with the first order) and runs a fairly wide catalog by summer — carts, gummies, chocolates, tinctures, "syrup," and by August a broader restock ("Palmas, Moonrock Clear Carts, Stiiizys, Eurekas and Rove, plus Jungle Boys flower... new delivery team to help get things out faster. We're growing"). Unlike Menore's documented zero-friction reliability, Del is chronically late and apologetic — "my bad bruh," missed windows blamed on traffic, a passed-out no-show one night followed by a next-day apology admitting he'd "got fucked up bad on edibles." Del mentions dropping his son off before making runs on at least one occasion, suggesting the delivery work is fit around parenting responsibilities.
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 65 |
-| Date range | 2019-03-17 – 2019-08-16 |
-| Sent / Received (approx) | 0 / 65 |
-| Sample | Sorry for the late reply. We have various StIIIzy strains available. I'm presently downtown but headed to the upper East |
+| Date range | 2019-03-17 to 2019-08-16 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Del to Dan) |
+| Handle | +19177251279 |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+## Gaps
 
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+No contact appears after August 16, 2019; whether the relationship continued past the exported window, or ended with Dan's later move out of the city, is undocumented.
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/people/menore]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]

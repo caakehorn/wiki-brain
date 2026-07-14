@@ -1,35 +1,38 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2018-09-04
 date_range_end: 2018-09-20
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [addiction-recovery, uniontown-era, digital-footprint]
+knowledge: mixed
 ---
 
-# Bill
+# Bill (golf/pharma customer)
 
-## Identity
-Contact identified via Google Contacts as Bill. Previously unresolved contact from iMessage corpus at handle `+17244157026`. 21 messages exchanged over 2018-09-04 to 2018-09-20. Sample interaction: "Yeah I'd like to get 14 of them. That's like 95 bucks. What time u gonna have them I gotta come to t". Appears in personal message contexts (not obvious spam per filter).
+A different Bill from [[wiki/people/bill-ulmer|Bill Ulmer]] — this one is a golf-caddying peer (references playing "Lakeview" with his dad, "broski"/"bro bro" register) who buys pharmaceuticals from Dan over a brief two-and-a-half-week window in September 2018 (`+17244157026`, 21 messages, saved under the same jokey "Socialist" contacts label Dan used for a handful of other supply-adjacent contacts). He works midnight shifts and negotiates pickups around them.
+
+## The exchange
+
+Bill's requests are for "liquid" (unspecified, likely a codeine/promethazine-type syrup — he says without it he's "hard... without a whip"), Adderall ("addies"), and asks after "pinks" (a pill someone else may have had access to). Pricing surfaces once explicitly: 14 units for about $95. The tone throughout is casual and grateful ("thanks for looking out"), with Bill repeatedly proposing to meet around his midnight-shift schedule or on a golf outing with his father. The thread ends September 20, 2018 with an unanswered "What up broski. Trying to get tanked lol. U been caddieing?"
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 21 |
-| Date range | 2018-09-04 – 2018-09-20 |
-| Sent / Received (approx) | 0 / 21 |
-| Sample | Yeah I'd like to get 14 of them. That's like 95 bucks. What time u gonna have them I gotta come to town anyways. |
+| Date range | 2018-09-04 to 2018-09-20 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Bill to Dan) |
+| Handle | +17244157026 |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+## Gaps
 
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+Last name, and whether contact continued past September 2018, are undocumented.
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/timeline/periods/2018-deep-cycle]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
