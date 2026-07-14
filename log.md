@@ -181,3 +181,6 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 
 ## [2026-07-14] ingest | work | Au Za'atar wage/tip details confirmed
 - Gap 10: Dan confirmed $15/hr + tip pool, $800-1,000/week checks (6-day weeks, paid Sundays), and the unusual equal server/busser tip split.
+
+## [2026-07-14] ingest | places | 337 Saratoga Drive sale closed and confirmed
+- Gap 11: Dan confirmed the sale closed June 23, 2026, planned out-date July 1 slipped to actual move-out July 8. Updated wiki/places/337-saratoga-drive.md status: active → closed, resolved the open "no confirmed post-close plan" framing in the intro (463 Morgantown landing status remains a separate open gap).
