@@ -94,7 +94,9 @@ had always run on.
 **Late March: parallel breakups, mutual scaffolding.** The month opens with
 real reciprocity — the two trade AI-manipulation tactics for their respective
 relationships (Tom workshopping an "art of seduction" strategy on a new,
-short-lived girlfriend; Dan running Annie/Kristin analysis prompts for him),
+short-lived girlfriend — confirmed by Dan (2026-07-14) to also be named
+**Kristin**, a coincidence and a different person entirely from
+[[wiki/people/kristin]]; Dan running Annie/Kristin analysis prompts for him),
 and Dan talks Tom through a possible suicidal ideation on March 31 ("I'm a
 fucking mess Dan and I'm gonna make it your problem" / "considering the rope
 just so this stops") with the same dark, deflecting affection that defines
@@ -159,7 +161,7 @@ out in the phloxenheim thread above.
 
 The BFS bootloader records a small standing debt ("Tom still in Uniontown, $36 still owed") — consistent with, and likely the same debt named in, the May 18 2026 demand documented in the Collapse section above; what reads elsewhere as trivial is, by that point, the proximate trigger of an actual rupture.
 
-**Gaps:** whether the friendship recovered after May 30, 2026 is undocumented — the record simply stops. "Phil" (referenced as the person Dan would appeal to) is presumed to be Tom's father or stepfather; unconfirmed. The identity of Tom's spring-2026 girlfriend(s) — first an unnamed "cabin"/pagan-occult partner, then "Brandy" — is not established beyond first names.
+**Gaps:** whether the friendship recovered after May 30, 2026 is undocumented — the record simply stops. Phil is confirmed as Tom's father (2026-07-14). The March "cabin"/pagan-occult girlfriend is confirmed to also be named Kristin (unrelated to [[wiki/people/kristin]]) but her surname is unknown; "Brandy"'s surname is likewise not established.
 
 ## Related
 

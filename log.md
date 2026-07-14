@@ -172,3 +172,6 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 
 ## [2026-07-14] fix | people+work | Felipe contact-status correction
 - Gap 7: Dan confirmed he hasn't spoken to Felipe since leaving Au Za'atar — corrects a wrong prior claim on wiki/people/felipe.md ("belongs to the small circle of AZ-era friendships that outlived the job") and a related ambiguous phrasing on wiki/work/au-zaatar.md. Surname remains unknown to Dan.
+
+## [2026-07-14] ingest | people | Tom's Phil confirmed, girlfriend name clarified
+- Gap 8: Dan confirmed Phil is Tom's father, and that Tom's March 2026 "cabin"/pagan-occult girlfriend is also named Kristin — coincidentally the same first name as, but a completely different person from, wiki/people/kristin.md. Flagged clearly to prevent future confusion between the two.
