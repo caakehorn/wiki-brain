@@ -147,3 +147,8 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
   - wiki/people/annie-ulmer.md: Dec 8 2025 car accident (Dan totals the Honda); a well-corroborated 2019 pregnancy/abortion reference (Dan's own May 31, 2019 message, listed as shared history) — kept explicitly distinct from the already-flagged, unverified 2026 pregnancy claim.
 - Lint 0 errors, 24 warnings (no change; new content stayed within or near existing page budgets).
 - Not yet mined: Financial Milestone (35), Anniversary (22), Graduation/Enrollment (Kristin's courthouse work), Hospitalization (23), Panic Attack (24), and the ~441 "Unknown"-contact entries. Flagging for a future pass if the user wants to continue.
+
+## [2026-07-14] ingest | people | Milo origin story (user clarification)
+- Started a gap-clarification pass: scanned wiki for explicit "**Gaps:**" markers (~40 found) and unresolved/unverified flags, queued them to ask the user one at a time.
+- Gap 1 (Milo's acquisition): user provided the full origin story directly in conversation — found as a starving stray by Claire (Annie's sister, previously undocumented — added as Annie's sister on wiki/people/annie-ulmer.md), runt of the litter with one testicle, the "we are not getting a new dog" Sharpie joke, the one-night foster that became permanent when Milo chose Dan's lap over Annie's scrambled eggs, and the explicit contrast with Betty (pet-store dog, not a rescue, described as "fucking awful"). Rewrote wiki/people/milo.md's opening with this; narrowed the acquisition-date gap to just the exact calendar date (bounded to before Sept 2018).
+- Lint 0 errors, 24 warnings (no change).
