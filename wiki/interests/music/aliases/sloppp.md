@@ -18,6 +18,7 @@ related:
   - wiki/interests/music/aliases/mogzart
   - wiki/interests/music/aliases/mogged-up
   - wiki/interests/music/concepts/sub-bass-signature
+  - wiki/interests/music/concepts/lyrics-as-timbre
   - wiki/self/facebook
   - wiki/self/twitter
 tags: [music-production, nyc-era, personality-profile]
