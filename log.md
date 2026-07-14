@@ -122,3 +122,9 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - New page wiki/interests/favorites/books/want-to-read.md — raw/self/dox-md/DAN_COMP.md turned out to contain Dan's full Goodreads export (previously queued as "Unknown — read and route"). The "Read" section (120 titles) duplicates the corpus already in wiki/interests/favorites/books.md; the "Want to Read" section (149 titles) had never been mined. Extracted full table + thematic breakdown (Trump-era politics ~34, ancient Rome ~18, intelligence/conspiracy ~14, a distinct NYC-history thread not present in the read list).
 - Updated wiki/people/index.md, wiki/interests/index.md, index.md (domain counts), queue.md (removed the now-resolved DAN_COMP.md line).
 - Lint 0 errors, 23 warnings (all pre-existing size budget; neither new page over budget).
+
+## [2026-07-14] add | people | Gabe entity page (Milo's other half)
+- User request following the Milo page: give Gabe (Dan's cat) the same treatment.
+- New page wiki/people/gabe.md — sourced from Dan's own words in raw/self/dox-md/Max.md ("my cat gabe was named for douchebag cobra starship singer and fucking rad midtown singer Gabe Saporta"), completing the Milo/Gabe/Max naming-pattern picture, plus the MAX_PRIME.md "food and the cat are always real" line, which previously read as an unexplained inconsistency on wiki/people/milo.md (Milo is a dog) — now correctly attributed to Gabe.
+- Cross-linked wiki/people/milo.md ↔ wiki/people/gabe.md; updated wiki/people/index.md and index.md people count (146→147).
+- Lint 0 errors, 24 warnings (no change).
