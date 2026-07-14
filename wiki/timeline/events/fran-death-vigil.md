@@ -17,6 +17,7 @@ related:
   - wiki/places/117-belmont-circle
   - wiki/places/155-virginia-ave
   - wiki/people/marla
+  - wiki/people/new-jim-shaffer
 tags: [financial-stress, housing, uniontown-era, family, grief]
 ---
 
@@ -59,7 +60,11 @@ final five days the hospital cut off her water as comfort care; she fought
 through roughly four days of dehydration. On day four Dan stood in the
 room blowing enormous clouds from a 110-watt SMOK box mod — his refusal to
 sanitize the room's reality — while Suz puffed a "dainty" 10W vape in the
-bathroom.
+bathroom. A video from around this period, shown afterward to a friend
+([[wiki/people/new-jim-shaffer]]), captures Fran smoking marijuana with
+Dan directly and Annie laughing in the background — the friend's reaction
+("that's solid, probably did her some good") treats it as of a piece with
+the bong-as-"lovely vase" photo documented on [[wiki/people/fran-coldren]].
 
 **The double loop.** On the morning of her final day Dan was caddying two
 loops at Nemacolin in the freezing cold to keep his own cash flow alive —

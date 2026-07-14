@@ -8,7 +8,7 @@ date_created: 2026-06-23
 date_modified: 2026-07-11
 sources: [
   "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv","raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt"]
-related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf", "wiki/mind/concepts/erotic-architecture", "wiki/people/franki-faris"]
+related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf", "wiki/mind/concepts/erotic-architecture", "wiki/people/franki-faris", "wiki/people/new-jim-shaffer"]
 tags: [ai-collaboration, nyc-era, relationships, infidelity, trauma-bond]
 ---
 
@@ -46,6 +46,14 @@ Alexis (Lex) Armel — historical partner spanning ~2010-2015 (Full Sail Univers
 Updates to related: [[wiki/self/gemini-activity/gemini-activity]], [[wiki/self/chats/gemini-18]], [[wiki/timeline/periods/2025-collapse]], [[wiki/people/danielle-onesi]]. Sources append: "raw/self/dox-md/Gemini-_18.md" (already present); "raw/self/dox-scan/Gemini-_58.txt".
 | Gemini profile lock | "foundational point of reference for personal evolution"; detailed in exhaustive bio dump request for Grok transfer | Gemini-_18.md |
 | _58 ishlab/NYC | "Lex was with me the whole time we were in nyc and she ended up working at the famous Bridge Cafe until Hurricane Sandy" | _58.txt |
+
+## Post-breakup: arrest and incarceration (2017)
+
+A retelling by Dan to a friend ([[wiki/people/new-jim-shaffer]], April 22, 2018) fills in what happened to Alexis after the split, dated concretely to Valentine's Day 2017: Alexis and her then-boyfriend (referred to as "Zac"/"Zach") had been staying at Dan's house for what was supposed to be one night and stretched to two weeks; Dan kicked them out. The same day, Zac went to pick up a package of marijuana at a mail drop and happened to walk into police serving an unrelated warrant on a small-time dealer at that address — all three (Alexis, Zac, and a third person) were arrested and charged with four or five felonies.
+
+Alexis made bail first and initially thought she'd beat the charges easily since the drugs weren't hers. The DA offered a group deal — no jail time, six months' probation — contingent on all three taking it together; Alexis took the guilty plea. Within a month she failed a drug test and violated probation, and was jailed around the end of October 2017. Per Dan's account (checked against the PA inmate locator as of this April 2018 conversation), she remained incarcerated at **Muncy** (State Correctional Institution – Muncy, PA's primary women's prison) at that time. Zac, by contrast, hired expensive lawyers, did not take the plea, and was expected to avoid jail time despite the mail drop being his.
+
+Dan also references a separate, earlier incident: Alexis pulled a knife on Zac during a fight and was charged with assault. Reflecting on the split in the same conversation, Dan calls leaving Alexis for [[wiki/people/annie-ulmer|Annie]] "literally the best decision of my life," and confirms he and Annie had been living together since August 2017 — Annie then working as a casino cocktail waitress by day and camming at night, Dan caddying six days a week "April to October."
 
 ## Corpus Ties
 - 2015-11-28 cheating → direct transition marker to [[wiki/people/annie-ulmer]] era + 2015-2016 period start (43 events Dec).
