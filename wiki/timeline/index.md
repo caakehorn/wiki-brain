@@ -18,6 +18,7 @@ related: []
 - [[wiki/timeline/events/fran-death-vigil]] — March–April 2018: the fall, the nursing home, the pediatric wing, the snowstorm; Dan and Annie alone at the end.
 - [[wiki/timeline/events/group-chat-closure]] — Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party…
 - [[wiki/timeline/events/march-2026-terminal-phase]] — the record's last 16 days: laundry response, bathroom incident, confession + retraction
+- [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] — Dan, Annie, and Shelbie Breakiron; the arrangement's clearest instance with a third woman rather than a male friend.
 - [[wiki/timeline/events/timeline]] — This is the master index. Full chronological + 1,104 in raw/self/dox-md/LIFE_EVENTS_CALENDAR.md. Re-mined…
 
 ## periods

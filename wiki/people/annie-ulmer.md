@@ -180,7 +180,19 @@ rather than tolerated it, and that Annie participated across years and
 said she enjoyed it ("I did enjoy our relationship/situation/arrangement
 we had with him," Nov 3 2024). The asymmetry is also documented: Annie
 never delivered the reciprocal side, and she often agreed to encounters
-that never materialized. The final dossiers read the arrangement as the
+that never materialized. The earliest concrete instance is actually with a
+woman rather than one of Dan's friends: the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]
+with [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], whom Dan was
+also seeing one-on-one that spring — Shelbie's own messages through June
+2019 treat Annie's presence as an unremarkable condition of the
+relationship. The same spring also produced a paid encounter with adult
+performer [[wiki/people/trinity-st-clair|Trinity St. Clair]], booked and
+scheduled with both of them addressed directly, and by that fall the
+arrangement had a professionalized edge: a five-week run of paid sessions
+with NYC escort [[wiki/people/kelly-johansson|Kelly Johansson]], who
+treated Annie as a working peer rather than a client's girlfriend and
+pitched bringing both of them in as co-providers for one of her own
+regular clients. The final dossiers read the arrangement as the
 most concentrated expression of Dan's retention architecture — he
 converted the greatest threat to the relationship into its central kink,
 and it worked for years. The October 2024 Tom incident, first analyzed as
