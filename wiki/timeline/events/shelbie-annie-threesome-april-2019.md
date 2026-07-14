@@ -36,6 +36,10 @@ April 2019, per Dan. The surviving message corpus for Shelbie begins May 15, 201
 
 This is the earliest well-specified instance of the non-monogamous arrangement operating with a third woman rather than a male friend of Dan's — most of the documented arrangement history (Tom and others) runs the opposite pattern. It sits inside the same spring/summer 2019 window as an unrelated but nearby reference: an outbound May 31, 2019 message from Dan lists "the abortion" alongside Fran's decline and the NYC move as major things he and Annie had "gone through together" by that point (see [[wiki/people/annie-ulmer]] for that separate item) — the two events are not connected beyond proximity in time, but both mark 2019 as a year of unusually consequential, thinly documented relationship history for the couple.
 
+## Corroborating evidence (found 2026-07-14)
+
+A furious May 1, 2019 fight — two weeks before Shelbie's own documented message thread begins on May 15 — has Annie accusing Dan directly of favoring "a fucking low life Fayette County stripper" over her during an overnight absence, and warning that "you're treating her like she's your fucking gf." The description matches Shelbie precisely (a Fayette County stripper) and confirms the relationship — and the conflict it caused — was already active by early May, consistent with an April origin as Dan describes, even though Shelbie's own iMessage number doesn't start texting until two weeks later.
+
 ## Gaps
 
 Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown; Shelbie's thread ends in a hostile breakup on July 16, 2019 with no further contact recorded.

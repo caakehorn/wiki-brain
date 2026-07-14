@@ -31,7 +31,12 @@ claim is met with jokes, delivering the structural argument herself: that it
 is "in the university's financial favor to keep the rapists at school … losing
 tuition, risking lawsuits." By 2020 she is making the climate-and-capital case
 ("we can't stall climate change w capitalism") and checking Dan's own progress
-("you gonna vote for daddy joe?"). Her humor is self-aware and of-the-left —
+("you gonna vote for daddy joe?"). Her engagement went beyond commentary that
+February: during the Bernie Sanders 2020 primary campaign she signed up to
+canvass in New Hampshire, pushed back on Suz's "boomer mentality... we need
+to find the modest anodyne centrist to unite against Trump" framing directly,
+and repeatedly invited Dan to join her canvassing events. Her humor is
+self-aware and of-the-left —
 "I'm a corporate schill," "the locomotive to transphobia pipeline is real" —
 the same register Dan uses, which makes her one of the few family contacts who
 never triggers his forensic mode.
