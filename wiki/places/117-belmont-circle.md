@@ -14,6 +14,7 @@ related:
   - wiki/places/155-virginia-ave
   - wiki/timeline/events/fran-death-vigil
   - wiki/people/danny-matthews
+  - wiki/people/ellen-ulmer
 tags: [uniontown-era]
 ---
 
@@ -47,6 +48,12 @@ through Suz) reported it "finally went pending" on 2019-07-11, with an
 aside ("second time's a charm") implying an earlier listing attempt had
 fallen through sometime in the prior fifteen months.
 
+The Ulmer grandparents are confirmed as Jim and Sugie: a March 2018
+message from [[wiki/people/ellen-ulmer|Ellen Ulmer]] (Annie's mother)
+places herself "at Jim and Sugie's" and relays that Sugie was separately
+looking for caregiving help of her own, suggesting some coordination
+between the two neighboring households' care arrangements during Fran's
+final months.
+
 **Gaps:** whether the sale closed and to whom; which years exactly the
-caregiving arrangement covered; the Ulmer grandparents' names (Annie's
-grandmother is called "Sugie" elsewhere in the corpus — unconfirmed link).
+caregiving arrangement covered.

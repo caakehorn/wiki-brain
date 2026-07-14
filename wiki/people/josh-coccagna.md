@@ -1,35 +1,30 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2017-04-12
 date_range_end: 2019-02-01
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/work/nemacolin-caddying", "wiki/self/message-corpora/master-message-dump"]
+tags: [career, addiction-recovery, uniontown-era]
+knowledge: mixed
 ---
 
 # Josh Coccagna
 
-## Identity
-Contact identified via Google Contacts as Josh Coccagna. Previously unresolved contact from iMessage corpus at handle `+14124450765`. 32 messages exchanged over 2017-04-12 to 2019-02-01. Sample interaction: "Don't let your weight get that far to your right side.  Think about keeping it on the inside sole of". Appears in personal message contexts (not obvious spam per filter).
+Josh Coccagna's relationship with Dan shifts registers entirely over its two-year span (`+14124450765`, 32 messages, April 2017 – February 2019): it opens as a golf-professional mentor relationship — swing tips ("keep your weight on the inside sole of your foot"), updates on a new Mountain Course and clubhouse renovation at what reads as a competing high-end resort to Nemacolin (one hole "hosted a Ryder Cup"), and a November 2017 reference-check call about a golf-staff intern applicant — and ends, by February 2019, as a psychedelics supply contact: Josh describing $80 DMT carts ordered by mail, having sent one to a mutual friend "Jerad," and offering to keep Dan in mind for the next batch.
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 32 |
-| Date range | 2017-04-12 – 2019-02-01 |
-| Sent / Received (approx) | 0 / 32 |
-| Sample | Don't let your weight get that far to your right side.  Think about keeping it on the inside sole of your foot |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+| Date range | 2017-04-12 to 2019-02-01 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Josh to Dan) |
+| Handle | +14124450765 |
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/work/nemacolin-caddying]] · [[wiki/self/message-corpora/master-message-dump]]

@@ -1,35 +1,32 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2016-04-12
 date_range_end: 2016-05-06
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [addiction-recovery, financial-stress, uniontown-era]
+knowledge: mixed
 ---
 
 # Eric Springer
 
-## Identity
-Contact identified via Google Contacts as Eric Springer. Previously unresolved contact from iMessage corpus at handle `+17243172393`. 44 messages exchanged over 2016-04-12 to 2016-05-06. Sample interaction: "My buddy is coming back from the store. I gotta split this In half so I gotta wait for him to come b". Appears in personal message contexts (not obvious spam per filter).
+A month-long 2016 supply contact (`+17243172393`, 44 messages, April 12 – May 6) whose thread mixes drug logistics with candid financial and legal texture. Eric was wearing an ankle monitor at the time ("I still got this bracelet on so I can't leave") and describes real income strain: manual labor at $8/hour, catching strep throat twice in a stretch, wiring his mother $300 after she lost her wallet, and still scraping together $670 in rent despite a five-day-per-$5-late-fee lease penalty he says he'd never previously incurred.
+
+Beyond the transactional core, the relationship has a personal register: Eric asks whether Annie would be interested in entering a cocktail competition and offers to pass her number to another woman for it — a small, ordinary data point suggesting Eric and the couple socialized outside the supply relationship, not just through it.
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 44 |
-| Date range | 2016-04-12 – 2016-05-06 |
-| Sent / Received (approx) | 0 / 44 |
-| Sample | My buddy is coming back from the store. I gotta split this In half so I gotta wait for him to come back. Shouldn't be an |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+| Date range | 2016-04-12 to 2016-05-06 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Eric to Dan) |
+| Handle | +17243172393 |
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/people/annie-ulmer]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]

@@ -1,35 +1,34 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2016-02-12
 date_range_end: 2016-06-01
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/people/suzanne-frank", "wiki/self/message-corpora/master-message-dump"]
+tags: [family, uniontown-era]
+knowledge: mixed
 ---
 
 # John Felix
 
-## Identity
-Contact identified via Google Contacts as John Felix. Previously unresolved contact from iMessage corpus at handle `+17249636738`. 59 messages exchanged over 2016-02-12 to 2016-06-01. Sample interaction: "Come on". Appears in personal message contexts (not obvious spam per filter).
+John Felix's thread (`+17249636738`, 59 messages, February–June 2016) is almost entirely logistics — arrival times, "K," "Come on," golf plans — but its domestic details point to a closer household connection than a typical caddy or dealer contact. He reports "ur mom left her phone here," mentions "feeding Elijah" and telling Dan's mother about it, references painting work, and coordinates comings and goings in a way consistent with someone spending regular time at or near Suz's household during this window. **Speculative, not confirmed:** the pattern is consistent with John Felix being a partner or close companion of [[wiki/people/suzanne-frank|Suz]] during early 2016, though nothing in the thread states this directly.
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 59 |
-| Date range | 2016-02-12 – 2016-06-01 |
-| Sent / Received (approx) | 0 / 59 |
-| Sample | Come on |
+| Date range | 2016-02-12 to 2016-06-01 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (John to Dan) |
+| Handle | +17249636738 |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+## Gaps
 
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+Relationship to the household is inferred, not confirmed. "Elijah" is unidentified — a child in the household's orbit at the time. No contact appears in the corpus before or after this four-month window.
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/people/suzanne-frank]] · [[wiki/self/message-corpora/master-message-dump]]

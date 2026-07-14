@@ -1,35 +1,36 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2016-11-24
 date_range_end: 2017-04-11
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump"]
+tags: [addiction-recovery, financial-stress, uniontown-era]
+knowledge: mixed
 ---
 
 # Lindsay Carolla
 
-## Identity
-Contact identified via Google Contacts as Lindsay Carolla. Previously unresolved contact from iMessage corpus at handle `+17245506589`. 41 messages exchanged over 2016-11-24 to 2017-04-11. Sample interaction: "Hi honey". Appears in personal message contexts (not obvious spam per filter).
+A warm, affectionate small-scale cocaine relationship over Thanksgiving weekend 2016 ("Hi honey," "yes my love"), with a single late follow-up in April 2017 (`+17245506589`, 41 messages). The Thanksgiving cluster (Nov 24–25) is dense: Lindsay coordinating a purchase without a car of her own, relying on a friend named Marc for partial cash, and repeatedly reassuring Dan she's good for the full amount ("God knows I'm giving you full $$, trust"). A friend "Claire" recurs as a mutual connection.
+
+The thread goes quiet for over four months before a strange, unexplained final exchange on April 10–11, 2017: Lindsay thanks Dan for something unspecified ("What made u think of that!?"), then the next day writes only "Claire told me last night. It's hard to believe. Are you okay?" — the nature of what Claire relayed is not documented, and no further messages follow.
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 41 |
-| Date range | 2016-11-24 – 2017-04-11 |
-| Sent / Received (approx) | 0 / 41 |
-| Sample | Hi honey |
+| Date range | 2016-11-24 to 2017-04-11 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Lindsay to Dan) |
+| Handle | +17245506589 |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+## Gaps
 
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+What Claire told Lindsay in April 2017, and whether it connects to anything else documented in the corpus around that date, is unknown.
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/timeline/periods/2017-poverty-floor]] · [[wiki/self/message-corpora/master-message-dump]]

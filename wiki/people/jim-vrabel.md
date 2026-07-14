@@ -1,35 +1,34 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2018-03-27
 date_range_end: 2020-09-14
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [addiction-recovery, uniontown-era]
+knowledge: mixed
 ---
 
 # Jim Vrabel
 
-## Identity
-Contact identified via Google Contacts as Jim Vrabel. Previously unresolved contact from iMessage corpus at handle `+17247074184`. 313 messages exchanged over 2018-03-27 to 2020-09-14. Sample interaction: "Thanks". Appears in personal message contexts (not obvious spam per filter).
+Jim Vrabel was a marijuana dealer and, over two and a half years, something closer to a regular late-night hangout than a pure transaction (`+17247074184`, 313 messages, March 2018 – September 2020). He lives with his mother, works nights (mountain/resort-adjacent shift work, likely Seven Springs), bowls in a league, and coordinates near-nightly visits around her sleep schedule — "my mom is still up so I'll meet up in the alley."
+
+## Texture
+
+Pricing surfaces occasionally ($110 for 3, $75 for 2, $40 for 1) alongside strain talk ("I only have the purple haze... it's an Indica"). A running, oddly domestic bit has Jim repeatedly offering Dan specialty coffee creamer he'd ordered — "I meant to give you some of the new coffee that I received, you'll have to stop over for a cup" — treated as a genuine gift exchange rather than code. He helps with small favors (offering to fix a cousin's washing machine, cigarette runs), references his mother's health and household routines constantly, and the relationship persists in occasional pings through a long 2019–2020 gap, closing with a September 2020 "Hey I just got home from bowling are you around."
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 313 |
-| Date range | 2018-03-27 – 2020-09-14 |
-| Sent / Received (approx) | 0 / 313 |
-| Sample | Thanks |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+| Date range | 2018-03-27 to 2020-09-14 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Jim to Dan) |
+| Handle | +17247074184 |
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/timeline/periods/2018-deep-cycle]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]

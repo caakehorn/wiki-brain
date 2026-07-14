@@ -7,7 +7,7 @@ date_modified: 2026-07-14
 date_range_start: 2017-01-20
 date_range_end: 2026-03-21
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_export_+18172693422_20260714055318.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/interests/music-production", "wiki/people/archive/danfrank-2009-2015", "wiki/mind/ideology/drug-use-attitudes"]
+related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/people/eric-jester"]
 tags: [digital-footprint, music-production, addiction-recovery, relationships, uniontown-era]
 knowledge: earned
 ---
@@ -83,13 +83,13 @@ Dan describes him as a gateway to "a different style of music that still resonat
 **Shared circle (2009–2015 Full Sail / Orlando era)**:
 - **Spetch** — another close friend, part of same cohort; currently with girlfriend in Texas
 - **Johnny** — "follower" type who would bite Jason's swag, looked up to him; shared music interests; Dan thinks Johnny was "low key follower" who absorbed swag but it worked
-- **Jester** — shorter than Dan and Jason, part of Full Sail cohort
+- **Jester** — [[wiki/people/eric-jester|Eric Jester]], shorter than Dan and Jason, part of Full Sail cohort; his own thread confirms he was in the 2019 group chat Dan set up to "roast" Jason around his engagement
 - **Ross Lara** — "the world's first fuccboi," EDM kid at Full Sail, source of derision
 - **Matt Dunn** — "world's most annoying man woman or child," Full Sail era
 - **Oscar** — Ran into Oscar years later in NYC (impossible coincidence in 9M person city); was waiting tables, Oscar showed up at Dan's table
 - **Alexis** — Dan's ex, met Thanksgiving break (3 days in hometown), moved in with Dan. Dan is genuinely proud of the "Alexis situation" (left her for another girl, got both to hook up). Described as hot but transactional/unreliable. Nearly killed with Jason when attempted heroin buy went bad.
 - **Donato "Steez McQueen"** — Died 2022 (fentanyl-laced xanax, implied); wore Steve McQueen Alexander McQueen jackets; made beats like J Dilla and Nujabes
-- **Gabe** — Died 2023-10-30 ("I had to put gabe down today" — likely pet euthanasia based on phrasing)
+- **Gabe** — A cat, not a person: died 2023-10-30 ("I had to put gabe down today"), confirmed by [[wiki/people/eric-jester|Eric Jester]]'s independent same-date message ("I'm so sorry man. He was the cat that made me love cats!")
 - **Jamie Mohler** — Current girlfriend of Jason (mentioned 2025-2026)
 - **Kayden** — Someone in photos from the heroin-attempt era
 - **Mike Marino** — Knew him in Florida, wishes had photos to prove it

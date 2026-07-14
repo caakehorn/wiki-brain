@@ -1,35 +1,37 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2019-04-21
 date_range_end: 2020-04-14
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/people/del", "wiki/self/message-corpora/master-message-dump"]
+tags: [nyc-era, financial-stress, digital-footprint]
+knowledge: derived
 ---
 
-# Caviar🍕
+# Caviar (gig-work notifications, not a person)
 
-## Identity
-Contact identified via Google Contacts as Caviar🍕. Previously unresolved contact from iMessage corpus at handle `+14159801273`. 290 messages exchanged over 2019-04-21 to 2020-04-14. Sample interaction: "New Caviar order assigned at 4:48pm. Accept in the app by 4:49pm. Check the app for your expected ea". Appears in personal message contexts (not obvious spam per filter).
+Not a contact — `+14159801273` is the automated dispatch number for Caviar, the food-delivery app, and the 290 messages under this "contact" (April 2019 – April 2020) are entirely order-assignment and expiration notifications ("New Caviar order assigned," "Order #XXXXX is ready for pickup," assignment-expired warnings). It survives in the corpus as a data point about Dan's own income, not about any other person: he was working as a Caviar courier.
+
+## What the pattern shows
+
+Activity is dense and clustered rather than steady — a heavy run in April–July 2019 (over 100 assigned orders, some sessions showing back-to-back assignments minutes apart, consistent with active shift-based courier work), then a long gap from August through November 2019, a scattered handful of orders in March 2020, and a final short burst April 7–14, 2020 — right as COVID-19 lockdowns began in NYC, suggesting gig delivery work was picked back up (or intensified) as a stopgap income source at the start of the pandemic. No dollar amounts are recorded in the notification text itself.
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
-| Messages | 290 |
-| Date range | 2019-04-21 – 2020-04-14 |
-| Sent / Received (approx) | 0 / 290 |
-| Sample | New Caviar order assigned at 4:48pm. Accept in the app by 4:49pm. Check the app for your expected earnings. |
+| Messages | 290 (all automated) |
+| Date range | 2019-04-21 to 2020-04-14 |
+| Activity clusters | Apr–Jul 2019 (dense); Aug–Nov 2019 (near-silent); Mar 2020 (light); Apr 7–14 2020 (final burst) |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+## Gaps
 
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+This page probably belongs under a work/gig-income page rather than people/ — flagged here rather than moved, pending a broader NYC-era income page. No earnings totals or delivery-count summaries are available from this export alone.
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/people/del]] · [[wiki/self/message-corpora/master-message-dump]]
