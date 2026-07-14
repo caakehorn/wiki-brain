@@ -26,7 +26,21 @@ tags: [relationships, ai-collaboration, infidelity, financial-stress, trauma-bon
 
 **Dossier baseline (MasterRecord_FINAL / MoralAnalysis, added 2026-07-13):** The final dossiers anchor this period as the genuine-love baseline against which the whole decade is measured. Message record begins Nov 28 2015; day two carries Annie's "YOU ARE MY EVERYTHING" / "You are my full life." Love-language frequency 2015: 3.6% for both parties; 2016 peaks — Annie 5.3%, Dan 5.7%, the decade highs. Annie initiated contact 62% of days in 2015; Dan 54% in 2016. Dan's abandonment fear predates any betrayal: "I'm really really scared that you won't want this anymore" (Dec 2 2015). Volumes: 2015 Dan 7,242 / Annie 6,394; 2016 Dan 13,954 / Annie 14,395 (the pair's highest year). Annie entered as a former MyFreeCams model (disclosed; Dan knew via his ex and was drawn to it); first camming discussion between them came within weeks (Dec 2015), seeding the later smashonista/arrangement era. The dossiers' verdict on this period: both people genuinely present — "the later failures were trajectory, not character."
 
-**Real-time corroboration (found 2026-07-14, master CSV):** The evening of November 29, 2015 — the same day Dan met Annie — he told [[wiki/people/casey-bondarenka|Casey Bondarenka]] directly, in real time, "Things are collapsing with lex. You might be seeing a lot more Annie very soon," while Casey was still in the house on his Alexis-adjacent visit. This is the earliest dated primary-source text of the pivot itself, sent the same night, not a later retrospective account.
+**Real-time corroboration (found 2026-07-14, master CSV; re-checked
+2026-07-14 against the raw row):** The evening of November 29, 2015 — the
+same day Dan met Annie — an outbound message reads "Things are collapsing
+with lex. You might be seeing a lot more Annie very soon." The recipient
+is almost certainly [[wiki/people/casey-bondarenka|Casey Bondarenka]]: it
+lands inside his documented same-day thread, one minute before his "Dude
+that's a slippery slope with her man... She's a hoe" reply about a woman
+he's warning Dan off of, and hours before Casey's own "Wait is that
+Annie?" later that night — but this can't be mechanically confirmed. Sent
+messages in `MASTER_MESSAGES_DB_DUMP.csv` carry an empty `contact_handle`
+field (a separate export limitation from the already-documented
+direction-field bug, which affects Received rows), so recipient here is
+inferred from timing and content, not read directly off the row. With
+that caveat, it stands as the earliest dated primary-source text of the
+pivot itself, sent the same night, not a later retrospective account.
 
 **Transition:** Into 2017 poverty floor.
 
