@@ -143,6 +143,15 @@ Recurring conversations on AI, image generation, agentic tooling, and bots —
 the "creative/technical collaborator" framing from the Gemini profile, borne
 out in the phloxenheim thread above.
 
+A late-October 2025 exchange (found 2026-07-14, random corpus sample) adds
+self-description: Tom calls himself "leftist Tom Maison" and jokes about
+being politically "soy," while also being the friend Dan defers to on
+electoral politics and specific music genres. The same conversation has Tom
+saying he'd gone roughly seven years without caring about music before
+recently picking dance-music production back up, and finding the genre's
+build/drop structure ("intro, build, drop reset, build, drop") harder to
+internalize than the verse-chorus songwriting he grew up on.
+
 ## Timeline
 
 | Date | Event |
