@@ -24,6 +24,7 @@ related:
   - wiki/timeline/events/fran-death-vigil
   - wiki/interests/music/concepts/sub-bass-signature
   - wiki/work/nemacolin-caddying
+  - wiki/interests/golf
   - wiki/people/marla
 changelog:
   - date: 2026-07-13
