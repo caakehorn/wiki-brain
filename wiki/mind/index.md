@@ -37,6 +37,7 @@ behavior. The authoritative factual spine remains
 - [[wiki/mind/concepts/contact-gini]] — relational concentration measured (Gini 0.961); the redundancy imperative.
 - [[wiki/mind/concepts/institutional-out]] — the pre-installed escape mechanism at every job: fake migraines, the 9pm night class; verbatim self-stated protocol.
 - [[wiki/mind/concepts/phenomenology-lens]] — the deliberate interpretive overlay (God-Function, Si-Ghost Kernel, defense engines); subordinate to documented fact.
+- [[wiki/mind/concepts/erotic-architecture]] — sexuality as controlled-chaos engineering: externalized libido, taboo as rupture, emotional consumption.
 
 ## synthesis — worldview theses
 
@@ -46,3 +47,4 @@ behavior. The authoritative factual spine remains
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] — how LLMs are actually used: node logging, steelman, injection lab, capability contests.
 - [[wiki/mind/synthesis/millennial-digital-witness]] — the generational bridge self-theory and its uses.
 - [[wiki/mind/synthesis/totality-themes]] — the capstone: recurring structural themes across the entire corpus.
+- [[wiki/mind/synthesis/ancestral-dialectic]] — the Ashkenazi/Appalachian ancestral binary engine, the collapse-cycle model, the Neanderthal-ancestry data point.

@@ -169,9 +169,17 @@ the respect of the BOH Mexican squad intact. (The famous "outside bread,"
 he confirms, "obviousLY WAS NOT from outside.")
 
 **Gaps:** his final role title (busser → server, informally); wage/tip
-figures beyond the narrative claims; the Tunisian manager's name; the
-mediator's identity in the Sergio recording (likely Dimitri). The STORYTIME/DANSYNTH record is stylized self-narration
-through Gemini and should be read as memoir, not deposition.
+figures beyond the narrative claims; the Tunisian manager's name. The
+STORYTIME/DANSYNTH record is stylized self-narration through Gemini and
+should be read as memoir, not deposition.
+
+> **REVISED [2026-07-14]:** the Sergio-mediation mediator is confirmed —
+> Dan's own follow-up in the same session names Ghassan as running most of
+> the sit-down, with Tarik joining toward the end. It was not Dimitri. The
+> same follow-up clarifies the Tunisian manager was uninvolved in the
+> Sergio incident specifically ("he and i were kinda chill by then") and
+> that Sergio himself was a short-tenured hire who "came through and left
+> quickly" rather than a lasting cast member.
 
 > **REVISED [2026-07-13]:** DANSYNTH ingest corrected the location (Au
 > Za'atar **Midtown, 58th & 1st** — not the East Village flagship), fixed

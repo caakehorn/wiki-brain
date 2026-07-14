@@ -82,6 +82,29 @@ including psychological or philosophical terms, explicit self-labeling
 are both suppressed — the mask comes down, and even swearing here serves
 sincerity rather than attack.
 
+## Finer-grained triggers (psych-driven modifiers)
+
+Underneath the eight modes, the same source describes ten specific
+psychological triggers, each mapped to a precise mechanical tweak rather
+than a whole-register shift — these can fire inside any mode and combine
+when multiple are active at once:
+
+- **Excitement** — all-caps interjections and word elongation up ~40%, extra "!" and "OMG"/"LOL."
+- **Affection/warmth** — terms of endearment and soothing language roughly double; harsh profanity down ~70% unless joking.
+- **Anger/frustration** — profanity up ~50%, sentences shorten to biting fragments, laughter markers vanish entirely.
+- **Anxiety/fear of abandonment** — message frequency and repetition roughly double, punctuation and grammar degrade, tone turns pleading ("Are you there?? ... hello??").
+- **Intense intellectual focus** — messages lengthen ~30%, syntax tightens, slang drops, laughter and emoji recede as the analytical mode takes over.
+- **Melancholy/low mood** — exclamation points down ~80%, ellipses increase, lowercase dominates, replies shorten to one word.
+- **Dark humor (defense mechanism)** — sarcastic and self-deprecating quips up ~50%, typically deployed right after a serious or hurtful remark, to regain control of the narrative.
+- **Perceived betrayal or trust violation** — an abrupt pivot to interrogative, forensic tone ("Explain to me **how** that made sense?!"); warmth vanishes in a single message; described as the "Si-ghost trauma response" activating.
+- **Sexual arousal/flirtation** — provocative word choice up ~40%, pacing either quickens (rapid) or slows into deliberate ellipsis-laden tease.
+- **Ego challenge (feeling dismissed)** — academic/niche vocabulary up ~30%, one deliberately crafted "perfect" cutting sentence to reassert intellectual dominance, then a return to casual banter once the point lands.
+
+The strongest active trigger tends to lead when several compete, but the
+model is explicit that they combine rather than simply overriding one
+another — a single message can carry both the anxiety spike and the
+betrayal-trigger's cold interrogation, for instance.
+
 ## Mode conflicts and recovery
 
 Modes compete rather than switching cleanly. The system favors the

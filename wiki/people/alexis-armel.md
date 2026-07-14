@@ -8,7 +8,7 @@ date_created: 2026-06-23
 date_modified: 2026-07-11
 sources: [
   "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv","raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt"]
-related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf"]
+related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf", "wiki/mind/concepts/erotic-architecture", "wiki/people/franki-faris"]
 ---
 
 # Alexis Armel (“Lex”)
@@ -52,6 +52,7 @@ Updates to related: [[wiki/self/gemini-activity/gemini-activity]], [[wiki/self/c
 - Profile lock in Gemini: "Alexis (Lex) Armel: Historical relationship partner... foundational point of reference for personal evolution."
 - Ties to music/tech: Full Sail Recording Arts + Pro Tools HD 8 cert; early production identity cross [[wiki/interests/favorites/music]] [[wiki/interests/music/overview]].
 - Low volume vs Annie corpus but high signal for early periods/trauma kernel.
+- A later AI-assisted retrospective (the "Dan Frank OS" report, 2026) names a facilitated encounter between Alexis and Annie during the Annie era — the "ANNIE_ALEXIS_HOOKUP_CORE" — read there as Dan orchestrating rather than participating; no independent primary source, date, or further detail exists for this beyond the retrospective naming ([[wiki/mind/concepts/erotic-architecture]]).
 
 ## Domain: Self
 Early attachment wound activator alongside family 2005 rupture (see [[wiki/self/ancestry]]). Cross to ancestry (Uniontown roots pre-Full Sail exit). _58: Lex anchor during ishlab/Creative License NYC (Bedford/Bridge Cafe/Sandy/Franki blip); pre-Danielle pivot echo; music production parallel (ishlab vs Max production house).

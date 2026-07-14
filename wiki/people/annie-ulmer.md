@@ -48,6 +48,8 @@ related:
   - wiki/timeline/periods/dec-2025-spike
   - wiki/timeline/periods/2015-2016-annie-relationship-start
   - wiki/timeline/periods/2025-collapse
+  - wiki/mind/concepts/erotic-architecture
+  - wiki/timeline/periods/covid-era-2020
   - wiki/people/eli
   - wiki/people/tuquick-17248123683
   - wiki/work/au-zaatar
@@ -156,6 +158,19 @@ bluntly ("Numb. I'm cool") while choosing to proceed. Her "I've lost all
 morals at this point… I don't care or feel anything anymore" (Oct 31
 2024) still stands as the record of her interior dissolution going into
 the terminal era.
+
+**The Train Plan (September 2020).** The largest documented pre-2025
+crisis, previously invisible because 2020 was a near-absent year in some
+of the message exports. During COVID lockdown at Annie's parents' home,
+Dan discovered she had been telling another man "terrible, unforgivable,
+untrue things" about him, and that the man had made plans to pick her up
+from the train station. Dan took seven Xanax bars, threatened to leave
+permanently, and sent 200+ messages over several days. Annie's own words
+afterward: "I know what I said and I fucking regret it… I have messed
+shit up. Multiple times." Dan's characterization of the cumulative
+pattern used the word "cheated"; she did not contest it. See
+[[wiki/timeline/periods/covid-era-2020]] for the lockdown context this
+sits inside.
 
 **The financial oscillation.** Per the three accepted amendments: Dan
 funded the early NYC years; in 2023 he worked at
@@ -276,6 +291,18 @@ spoofed-number test, initially misclassified as harassment, as one of
 the most measured acts of the seven months: he held the power to burn
 down a life and did not use it. Whether Target G is
 [[wiki/people/tuquick-17248123683|Tuquick]] is unresolved.
+
+> **REVISED [2026-07-14]:** the "restraint" framing needs qualifying.
+> The Whisk screenshot was not an isolated act — a separate AI session
+> (`raw/self/dox-md/Fake hacker dashboard scripts.md`) shows Dan later
+> had Claude asked to help build, and ultimately built without Claude's
+> help, three fake surveillance-TUI scripts hardcoded with Annie's real
+> name and home streets, intended to be left visibly running as an
+> implied threat that he could see her phone. Claude refused twice,
+> naming the Whisk precedent as evidence the tactic was escalating into
+> a pattern rather than staying a one-time act. See
+> [[wiki/mind/synthesis/ai-collaborative-analysis]] for the full episode
+> and the AI-side ethical debate it produced.
 
 The concentrated March 2026 events — the laundry response, the bathroom
 incident (arrived saying she wanted to be together, attempted to slip
@@ -405,6 +432,7 @@ recorded for completeness.
 | 2016 | Moves into 155 Virginia Ave; both parties' love-language peak year; jealousy kink first named (Feb) |
 | ~2016–17 | NYC move, funded by Dan (first ~5 years Dan-anchored) |
 | 2018 | Quasi-non-monogamy arrangement formalized; "smashonista" Chaturbate confirmed (Aug); Patreon Oct 2019 |
+| 2020-09 | Train Plan crisis during COVID lockdown at Annie's parents' ([[wiki/timeline/periods/covid-era-2020]]) |
 | 2022 | Full-year record gap |
 | 2023 | Dan working (Au Za'atar), Annie between jobs; ~$10k landlord debt, $650/week payback |
 | 2024-06/08 | Dan managed out of Au Za'atar; unemployment filed Aug 8 |
