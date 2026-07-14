@@ -96,6 +96,8 @@ logistics, the jealousy triangle, and the drug-stashing plans ("stash it for
 me at his fucking grandparents in their backyard") all braided together in a
 single evening. Her own self-aware line, "WHAT IS MY LIFE," captures the tone.
 
+A September 9, 2025 exchange (found 2026-07-14, random corpus sample) has Kristin sharing old photos from a rough period in her own past unprompted — one she captions "that's me on meth... I was homeless in that pic... calling around, methed up," adding she'd "been trying to do this since 8/14/15" (get clean, on the evidence of the date). Dan responds with curiosity rather than alarm ("i am so FUCKING curious about young kristin"). It's the clearest first-person disclosure of her own addiction and homelessness history anywhere in the thread, offered within the first two weeks of the relationship.
+
 A late-October message shows Dan naming the redundancy dynamic to her face:
 he asks what she would think if he "notably started talking to annie
 regularly and then backed out of a relationship immediately and then put you
