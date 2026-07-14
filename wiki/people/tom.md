@@ -143,14 +143,30 @@ Recurring conversations on AI, image generation, agentic tooling, and bots —
 the "creative/technical collaborator" framing from the Gemini profile, borne
 out in the phloxenheim thread above.
 
-A late-October 2025 exchange (found 2026-07-14, random corpus sample) adds
-self-description: Tom calls himself "leftist Tom Maison" and jokes about
-being politically "soy," while also being the friend Dan defers to on
-electoral politics and specific music genres. The same conversation has Tom
-saying he'd gone roughly seven years without caring about music before
-recently picking dance-music production back up, and finding the genre's
-build/drop structure ("intro, build, drop reset, build, drop") harder to
-internalize than the verse-chorus songwriting he grew up on.
+A late-October 2025 (Oct 28) exchange (found 2026-07-14, random corpus
+sample; re-examined 2026-07-14 with the full night's thread — the earlier
+summary had the speaker attributions backwards on the music half) adds
+self-description on both sides. Tom, needled by Dan ("leftist tom maison"),
+self-deprecates in the third person — "Leftist Tom is even more soy than I
+am now" — while Dan separately claims electoral politics and "several very
+specific music flavors" as the two subjects where his opinion still
+carries weight with Tom ("nobody should listen to me about literally
+anything ever... unless it has to do with electoral politics or several
+very specific music flavors"). It's Dan, not Tom, who goes on to describe
+having gone roughly seven years without caring about music before
+recently picking dance-music production back up — "i swear i forget how
+to produce music... i can not for the life of me remember how to actually
+throw a song together" — and finding the genre's build/drop structure
+("intro, build, drop reset, build, drop") harder to internalize than the
+verse-chorus songwriting he grew up on, adding "dance music is literally
+not the same as the music i have encoded in my brain. it is literally 98%
+about evoking emotional response rather than crafting something catchy."
+This lines up with [[wiki/interests/music/overview]]'s own account of a
+2026 production "reactivation" under the GRIPNOTIC alias — this Oct 2025
+exchange is an early, dated data point for that reactivation, not a Tom
+biography detail. Tom's own music history surfaces separately in the same
+session, as a listener rather than producer: "I got my fill of house music
+living with Jake Thwaite doing poppers."
 
 ## Timeline
 
