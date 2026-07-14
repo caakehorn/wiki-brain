@@ -64,6 +64,10 @@ tripwire: how a new person reacts to hearing a Chihuahua is named "Milo"
 tells him something about whether they process names/labels or just react
 to them.
 
+A second dated vet visit confirms Milo was with Dan through the fall-2025
+Annie collapse: on 2025-10-15 Dan texted [[wiki/people/kristin|Kristin]],
+"Sorry I'm at the vet with milo I'll message you when I get home."
+
 **Gaps:** exact acquisition date/circumstances; breed-registry or vet
-details beyond the one 2018 surgery mention; confirmed status after the
-June 2026 relationship closure.
+details beyond the 2018 surgery and 2025 vet visit; confirmed status after
+the June 2026 relationship closure.

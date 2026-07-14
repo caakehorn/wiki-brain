@@ -3,8 +3,8 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-13
-sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx"]
+date_modified: 2026-07-14
+sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/kristin", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/mind/concepts/attachment-model", "wiki/self/gemini-activity/gemini-activity", "wiki/self/chats/gemini-18"]
 ---
 
@@ -64,6 +64,23 @@ talk to both at once. The thread also carries the friendship's darker
 undertow: a March 24 message, "Will you talk to me for a little bit?", lands
 after a stretch of one-sided sends — the same lateral-ally-goes-quiet pattern,
 this time with Tom on the asking side.
+
+## The DUI (fall 2025 – early 2026)
+
+The "DUI-court scheduling conflicts" that surface as friction in the spring
+2026 collapse (below) trace back to a traffic stop in Fayette County on
+2025-10-11: Tom blew clean on a breathalyzer but was held for field sobriety
+testing anyway ("Bored 51 cops trying to find a reason... they ran me
+through field sobriety until they felt satisfied with charging me"), and
+reasoned in the moment that if it had happened in Fayette rather than
+elsewhere he'd have spent the weekend in jail. It became a real,
+lawyered-up case: by November 10 he describes "macro panic attacks about
+this dui hearing" and the cost of paying a lawyer; by December 31 he's
+citing a PA Supreme Court precedent on totality-of-circumstances DUI
+charging, evidently researching his own defense; a January 14, 2026 message
+still references an unresolved trial. This runs concurrently with, and is
+distinct from, [[wiki/people/annie-ulmer]]'s own October 26, 2025 DUI arrest
+in the same county.
 
 ## The Collapse (Spring 2026)
 
