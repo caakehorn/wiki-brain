@@ -169,9 +169,20 @@ breakup, Alexis returned to stay with Dan and Annie for about a month,
 bringing a new boyfriend who was — per the same account — both Dan's
 sister [[wiki/people/vanessa-frank|Vanessa]]'s first boyfriend and someone
 who had lost his virginity to Annie. That boyfriend was arrested during
-the stay picking up a 5-lb mailed weed parcel. None of this — the stay,
-the boyfriend, or the arrest — has independent corroboration elsewhere in
-the corpus.
+the stay picking up a mailed weed parcel.
+
+> **REVISED [2026-07-14]:** independent corroboration has since surfaced
+> on [[wiki/people/alexis-armel]] — a retelling by Dan to
+> [[wiki/people/new-jim-shaffer]] (April 2018) describing the same
+> mechanism (a mail-order weed pickup that walked into an unrelated police
+> warrant) but dated concretely to **Valentine's Day 2017**, not the
+> immediate December 2015 aftermath, and naming Alexis herself (not only
+> the boyfriend, "Zac") as arrested, charged with felonies, and later
+> incarcerated at SCI Muncy after violating probation. Whether this is the
+> same event as the bootloader's account with the date and details
+> corrected, or a second, separate arrest, is unresolved — but the core
+> mechanism (mail-drop bust) matching across two independent sources makes
+> a single conflated/misdated event the more likely reading.
 
 **The arrangement (2018–2024).** Camming was discussed within weeks of the
 start (Dec 2015) and the couple streamed together on Chaturbate as
