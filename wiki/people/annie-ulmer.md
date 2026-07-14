@@ -185,7 +185,10 @@ woman rather than one of Dan's friends: the [[wiki/timeline/events/shelbie-annie
 with [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], whom Dan was
 also seeing one-on-one that spring — Shelbie's own messages through June
 2019 treat Annie's presence as an unremarkable condition of the
-relationship. The final dossiers read the arrangement as the
+relationship. The same spring also produced a paid encounter with adult
+performer [[wiki/people/trinity-st-clair|Trinity St. Clair]], booked and
+scheduled with both of them addressed directly. The final dossiers read
+the arrangement as the
 most concentrated expression of Dan's retention architecture — he
 converted the greatest threat to the relationship into its central kink,
 and it worked for years. The October 2024 Tom incident, first analyzed as
