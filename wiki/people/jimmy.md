@@ -1,35 +1,32 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2018-04-14
 date_range_end: 2018-06-13
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/work/nemacolin-caddying", "wiki/people/brad-hubeaut", "wiki/self/message-corpora/master-message-dump"]
+tags: [career, uniontown-era]
+knowledge: mixed
 ---
 
 # Jimmy
 
-## Identity
-Contact identified via Google Contacts as Jimmy. Previously unresolved contact from iMessage corpus at handle `+17244667401`. 24 messages exchanged over 2018-04-14 to 2018-06-13. Sample interaction: "Cool to stop?". Appears in personal message contexts (not obvious spam per filter).
+Jimmy was a fellow [[wiki/work/nemacolin-caddying|Nemacolin]] caddy whose brief 2018 thread (`+17244667401`, 24 messages, April–June) captures both a real interpersonal blowup and the caddy crew's broader disillusionment with management that same season. A May 11, 2018 exchange turns hostile fast — Jimmy calls Dan out over an unspecified remark he considers ignorant, tells him "the truth sucks and hurts," and closes with "fuck off" — but the two are back on ordinary terms the next day.
+
+By June 11, 2018 Jimmy has quit caddying outright, venting at length about the company's mismanagement: unanswered calls to a manager (Dave Assisi), long unpaid waits for loops that never materialize, and a pattern he says he'd already quit over once before, seven years earlier. He tells Dan to "call Dave or email the company... I'll lead the mutiny," reassures him he's not "the most annoying caddy" (that distinction goes to an unnamed "creeper" who doesn't talk to anyone), and the thread closes two days later with an ordinary ask for weed.
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 24 |
-| Date range | 2018-04-14 – 2018-06-13 |
-| Sent / Received (approx) | 0 / 24 |
-| Sample | Cool to stop? |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+| Date range | 2018-04-14 to 2018-06-13 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Jimmy to Dan) |
+| Handle | +17244667401 |
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/work/nemacolin-caddying]] · [[wiki/people/brad-hubeaut]] · [[wiki/self/message-corpora/master-message-dump]]
