@@ -187,8 +187,12 @@ also seeing one-on-one that spring — Shelbie's own messages through June
 2019 treat Annie's presence as an unremarkable condition of the
 relationship. The same spring also produced a paid encounter with adult
 performer [[wiki/people/trinity-st-clair|Trinity St. Clair]], booked and
-scheduled with both of them addressed directly. The final dossiers read
-the arrangement as the
+scheduled with both of them addressed directly, and by that fall the
+arrangement had a professionalized edge: a five-week run of paid sessions
+with NYC escort [[wiki/people/kelly-johansson|Kelly Johansson]], who
+treated Annie as a working peer rather than a client's girlfriend and
+pitched bringing both of them in as co-providers for one of her own
+regular clients. The final dossiers read the arrangement as the
 most concentrated expression of Dan's retention architecture — he
 converted the greatest threat to the relationship into its central kink,
 and it worked for years. The October 2024 Tom incident, first analyzed as
