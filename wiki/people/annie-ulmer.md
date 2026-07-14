@@ -177,11 +177,17 @@ the stay picking up a mailed weed parcel.
 > mechanism (a mail-order weed pickup that walked into an unrelated police
 > warrant) but dated concretely to **Valentine's Day 2017**, not the
 > immediate December 2015 aftermath, and naming Alexis herself (not only
-> the boyfriend, "Zac") as arrested, charged with felonies, and later
-> incarcerated at SCI Muncy after violating probation. Whether this is the
-> same event as the bootloader's account with the date and details
-> corrected, or a second, separate arrest, is unresolved — but the core
-> mechanism (mail-drop bust) matching across two independent sources makes
+> the boyfriend, identified by full name as **Zac Shumar** — also
+> Vanessa's own ex-boyfriend before Alexis dated him) as arrested,
+> charged with felonies, and later incarcerated at SCI Muncy after
+> violating probation. A second independent retelling to
+> [[wiki/people/tom]] (Aug 2018) confirms the scale (10 pounds of
+> marijuana mailed) and sharpens the legal asymmetry: Zac's paid lawyer
+> got him out of the group plea deal's consequences while Alexis served
+> the time. Whether this is the same event as the bootloader's account
+> with the date and details corrected, or a second, separate arrest, is
+> unresolved — but the core mechanism (mail-drop bust) matching across
+> two independent sources makes
 > a single conflated/misdated event the more likely reading.
 
 **The arrangement (2018–2024).** Camming was discussed within weeks of the
