@@ -88,6 +88,13 @@ like "I'll quit today for you," offers of a step-father's loan, and repeated
 demands to "Call me now" set against Dan's documented need to litigate every
 ambiguity.
 
+An unexpected recurring bonding activity: Dan runs detailed synastry
+(compatibility) astrology readings for Kristin early in the relationship
+(Sept 2, 2025), and she pushes back approvingly on her own skepticism —
+"these are not at all the kind of cold reading, vague rhetoric that I
+associate with astrology... why are you so fucking cool dude I can't get
+over it."
+
 Tom sits inside the thread as an active irritant rather than a background
 figure. During a September 20 crisis over where Kristin would sleep, she
 refuses to stay at another man's house out of stated loyalty to Dan while he
