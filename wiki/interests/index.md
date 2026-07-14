@@ -11,6 +11,7 @@ related: []
 # interests — index
 
 
+- [[wiki/interests/golf]] — three generations of family golf, a real amateur game rekindled by the caddying job, and the sport's decade-long role as a marker of the Annie relationship's temperature, start to end.
 - [[wiki/interests/rock-irrelevance-thesis]] — the argument (with streaming/market data) that guitar rock is culturally irrelevant for the first time since 1963.
 
 ## favorites

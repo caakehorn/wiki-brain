@@ -17,6 +17,7 @@ related:
   - wiki/timeline/periods/2015-2016-annie-relationship-start
   - wiki/timeline/periods/dark-era-2007-2008
   - wiki/timeline/events/fran-death-vigil
+  - wiki/interests/golf
 tags: [career, uniontown-era, financial-stress]
 ---
 
