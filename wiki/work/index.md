@@ -14,6 +14,7 @@ Career and business history, plus the tech projects.
 
 - [[wiki/work/au-zaatar]] — Au Za'atar (East Village, ~2021–2024): the 41-month restaurant job, the Night Class alibi, the STORYTIME post-mortems. Closed.
 - [[wiki/work/bfs-foods]] — BFS Foods (Uniontown, 2026): the drawer dispute, the cast, the termination, the never-escalated legal posture. Closed.
+- [[wiki/work/nemacolin-caddying]] — Nemacolin/Laurel Valley/Pikewood National caddying (Apr 2016–Nov 2019): the looper hierarchy, day-trip call-ups. Closed.
 
 ## tech/grok-build
 

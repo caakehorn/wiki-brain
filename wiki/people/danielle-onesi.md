@@ -16,7 +16,8 @@ sources: [
   "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md",
   "raw/self/dox-md/FULL PROFILE 2026.md",
   "raw/self/dox-md/Gemini-_18.md",
-  "raw/self/facebook/facebook-ihatedanfrank/"
+  "raw/self/facebook/facebook-ihatedanfrank/",
+  "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md"
 ]
 related: [
   "wiki/people/alexis-armel",
@@ -44,7 +45,7 @@ Full name Danielle Onesi, nickname "Dee." Dan's first girlfriend (pre-Lex/Alexis
 ## Timeline Table (pre-2010s focus + anchors)
 | Date/Period | Event | Verbatim / Source |
 |-------------|-------|-------------------|
-| ~2005-2009 | First girlfriend relationship ("The Origin"); Uniontown + Orlando/Full Sail overlap. Dan cheated → ends. | HTML bio: "Dated Danielle from 2005-2009."; "* **Danielle (05-09):** The Origin."; FB profile: "Previous relationships Danielle Onesi, Alexis Armel"; context-core |
+| ~2005-2009 | First girlfriend relationship ("The Origin"); Uniontown + Orlando/Full Sail overlap. Dan cheated → ends in Orlando, with a girl from Baltimore connected through Jack from All Time Low; the CATO bootloader records Dan's own regret over the episode. | HTML bio: "Dated Danielle from 2005-2009."; "* **Danielle (05-09):** The Origin."; FB profile: "Previous relationships Danielle Onesi, Alexis Armel"; context-core; CATO_BOOTLOADER_DANFRANK.md |
 | Pre-2010 (Full Sail end ~2008-2010) | Uniontown baseline / first serious; pivot to Alexis/Lex post-cheat. Tom enters ~era. Suboxone ~Jan/Feb 2010. | context-core: "Danielle ends (Dan cheated); Alexis begins."; _21.md "first girlfriend Danielle"; lex.md timeline; _58 cross |
 | 2010-05-01 | Birthday / NYC arrival photo: Dan + Suz + Danielle in front of Brooklyn Bridge ("I arrived" shot). Move to 424 Bedford Ave. | _58.txt: "ANOMALY DETECTED: On May 1, 2010, the logs show a birthday celebration. You’re standing in front of the Brooklyn Bridge—the classic "I arrived" shot—with Suzanne and Danielle." |
 | 2010-2015 (NYC-1 overlap) | Lex era begins (foundational high-vol 5yr); Lex "with me the whole time we were in nyc" (Bedford/Bridge Cafe until Sandy). | _58.txt: "Lex was with me the whole time we were in nyc and she ended up working at the famous Bridge Cafe until Hurricane Sandy"; _18 bio; activity; lex.md |
