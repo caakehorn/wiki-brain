@@ -35,5 +35,6 @@ corpus holds a thin thread (36 messages, 2023–Dec 2024, handle
 +19172925212, all inbound in the extract). Full context:
 [[wiki/work/au-zaatar]].
 
-**Gaps:** surname; what became of him after the shed shutdown; the
-one-sided message extract (0 sent?) needs a corpus re-check.
+**Gaps:** surname — per Dan (2026-07-14), a Greek name starting with "A,"
+not more precisely recalled; what became of him after the shed shutdown;
+the one-sided message extract (0 sent?) needs a corpus re-check.

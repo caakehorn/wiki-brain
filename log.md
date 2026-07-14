@@ -162,3 +162,7 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - Gap 3 CORRECTED: the earlier inference that the Sept 3, 2025 "frownie cookies...granfather's funeral" message meant the maternal grandfather (George Dixon Shrum Jr) died around then was wrong per the user. It actually references Morley Frank's 1998 funeral, recounted in an essay by Dan's cousin Alex Frank — the auto-extracted calendar dated the entry to when Dan referenced the essay (2025), not when the funeral happened (1998). Reverted the ancestry.md table edit (George's death date is genuinely unknown, restored to blank) with a REVISED blockquote explaining the correction rather than silently deleting the wrong inference.
 - New page wiki/people/alex-frank.md: verified via web search (real person, Brooklyn journalist/editor, FADER Deputy Editor, Vogue.com Deputy Culture Editor, bylines at GQ/Pitchfork/Vogue/NYT Style Magazine/etc.); wrote the Morley Frank funeral essay with the Eat'n Park "Frownie" cookie detail. Added to wiki/people/morley-frank.md with the anecdote; fixed morley-frank.md's status: archived → stable (mislabeled, not in an archive/ dir, same class of error as ancestry.md fixed earlier today).
 - Lint 0 errors, 24 warnings.
+
+## [2026-07-14] ingest | people | Dimitri surname partial + Eli skipped
+- Gap 4 (Eli's surname): user declined to answer ("who knows who cares") — skipped, no change.
+- Gap 5 (Dimitri's surname): partial answer — Greek name starting with "A," not more precisely recalled. Noted on wiki/people/dimitri.md.
