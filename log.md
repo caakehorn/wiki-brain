@@ -169,3 +169,6 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 
 ## [2026-07-14] ingest | people | Fran Coldren's husband Ira identified
 - Gap 6: confirmed by Dan — Ira was Fran's third husband and the 33rd-degree Mason. Leaves the coal-baron marriage as a separate, still-unidentified earlier husband.
+
+## [2026-07-14] fix | people+work | Felipe contact-status correction
+- Gap 7: Dan confirmed he hasn't spoken to Felipe since leaving Au Za'atar — corrects a wrong prior claim on wiki/people/felipe.md ("belongs to the small circle of AZ-era friendships that outlived the job") and a related ambiguous phrasing on wiki/work/au-zaatar.md. Surname remains unknown to Dan.
