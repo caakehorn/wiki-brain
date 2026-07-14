@@ -1,35 +1,34 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2017-05-29
 date_range_end: 2018-06-03
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/work/nemacolin-caddying", "wiki/people/brad-hubeaut", "wiki/self/message-corpora/master-message-dump"]
+tags: [career, uniontown-era]
+knowledge: mixed
 ---
 
 # Chad Johnson
 
-## Identity
-Contact identified via Google Contacts as Chad Johnson. Previously unresolved contact from iMessage corpus at handle `+13042165438`. 42 messages exchanged over 2017-05-29 to 2018-06-03. Sample interaction: "We're on 12 green". Appears in personal message contexts (not obvious spam per filter).
+Chad Johnson was a fellow caddy at [[wiki/work/nemacolin-caddying|Nemacolin Woodlands]] and a college student (references 8am classes, being "out of school in a few weeks") who overlapped with Dan through the 2017–2018 seasons (`+13042165438`, 42 messages). Much of the thread runs through shift coordination relayed via caddy manager [[wiki/people/brad-hubeaut|Brad]] — "Did brad text you yet?", "Chad Johnson F2 both rounds" — and casual course hangouts.
+
+## Texture
+
+Early messages (May–June 2017) are mid-round check-ins on the course itself. A recurring bit through spring 2018 has Chad asking whether Brad had sent report times and joking about his golf ambitions ("I'm going pro soon!"). One April 2018 message asks whether he could live with Dan in town for a month before heading to a summer camp job — outcome undocumented. A November 2017 exchange references a night out that got hazy enough for Chad to ask what time he'd left and whether he'd "done anything stupid."
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 42 |
-| Date range | 2017-05-29 – 2018-06-03 |
-| Sent / Received (approx) | 0 / 42 |
-| Sample | We're on 12 green |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+| Date range | 2017-05-29 to 2018-06-03 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Chad to Dan) |
+| Handle | +13042165438 |
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/work/nemacolin-caddying]] · [[wiki/people/brad-hubeaut]] · [[wiki/self/message-corpora/master-message-dump]]
