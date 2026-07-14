@@ -38,7 +38,65 @@ June 1), but March is where the record shows the machinery at full load.
 
 ## Pre-phase escalation (February 21) and the March 17–31 gap
 
-Two dated incidents (found 2026-07-14, random corpus sample) extend the documented pattern on either side of this page's window. On **February 21, 2026**, a night confrontation escalates into an extended written rant from Annie — accusations that Dan is a liar, a reference to Dan doing "IV drugs before you ever met me" that she says she got him to stop, and a closing threat that "everyone" would find out what he was doing — the same blame-reversal and threat-of-exposure structure documented throughout the terminal phase, roughly a week before this page's official start date. Separately, **March 19–20, 2026** — inside the otherwise-undocumented gap between this page (ending March 16) and [[wiki/timeline/events/april-may-2026-final-weeks]] (starting April 1) — records another full-cycle blowup: a cheating accusation, a temporary block, and [[wiki/people/suzanne-frank|Suz]] weighing in with "Karma is a bitch. All I'm saying." Neither date has been folded into a dedicated section; both are consistent with the pattern already documented above.
+Two dated incidents (found 2026-07-14, random corpus sample; both expanded
+2026-07-14 with the full-day thread) extend the documented pattern on
+either side of this page's window.
+
+**February 21, 2026.** The day starts with unrelated household pressure —
+Annie texts that morning that she'd "got screamed at again," that her own
+mother called her "a thief," and that she'd "never in my life heard my mom
+scream at anyone the way she just did." The afternoon runs ordinary
+logistics (a suspected blister, pet food, a dinner-plans back-and-forth)
+that curdles by early evening into the familiar interrogation pattern —
+Annie pressing Dan for a straight answer on whether he's coming over,
+Dan going quiet, Annie reading the silence as evasion. Something happens
+around 8:37 PM that neither side names directly in text (Dan: "What did
+you do that for") and both sides detonate at once: Annie threatens to
+"literally fucking tell your parents what you do," blocks him, unblocks to
+send a few final lines, and blocks again. In the extended written rant
+that follows, she reframes the fight as exposure risk to her, not him — "I
+do not give a FUCK about that. You're living a lie... Once everyone finds
+out what you're doing — playing games with peoples families... and your
+real experience (remember — you were doing IV drugs before you ever met me
+and I was able to get you to stop)" — and, in the same breath, "You think
+I'm worried people will find out I do drugs or my mom does and facilitated
+you doing them" — an incidental admission that her mother was a drug
+source for Dan, not just a household backdrop detail. When Dan throws a
+suicide reference back at her ("SHUT THE FUCK UP THAT YOU WORRY ABOUT ME
+KILLING MYSELF"), her only softening is a flat "Please. Dan. Calm down"
+before the thread returns to mutual "goodbye"s and a closing threat —
+"You'll be hearing ABOUT me. Not FROM me. Soon enough" — the same
+blame-reversal and threat-of-exposure structure documented throughout the
+terminal phase, roughly a week before this page's official start date.
+
+**March 19–20, 2026** — inside the otherwise-undocumented gap between this
+page (ending March 16) and [[wiki/timeline/events/april-may-2026-final-weeks]]
+(starting April 1) — records another full-cycle blowup, this one running
+in parallel with an ordinary [[wiki/people/suzanne-frank|Suz]] thread about
+pizza and a Spotify link, which sharpens the contrast. March 19 is routine
+strain: a $50 shortfall for supply that Annie tries to close by "magically"
+getting another fifty from her mother, a black-and-mild candy run, and a
+canceled evening ("I cannot stay. My mom asked me to come home... Don't
+hate me... Please"). It sours overnight; by March 20 morning Annie opens
+with "Hey you know what's really weird? I don't suddenly feel any
+different about you cheating on me and shit." By 9 PM she blocks him
+("i'm blocking you and now you"), delivering a version of the eulogy
+pattern seen elsewhere in the record almost verbatim early — "I knew
+everything you were saying was lies... it was that you knew I would care
+enough that if you just said 'I love you' I couldn't stop believing you...
+I feel 100% sure now that you have been doing this to me and you knew the
+whole time you would destroy me" — immediately followed, in the same
+minute, by Dan asking Suz "She's gone already?" and Suz answering **"Karma
+is a bitch. All I'm saying"** — Dan then sends Suz an unrelated Spotify
+link ("Came out today") while Annie is mid-collapse in the adjacent thread.
+Annie re-opens roughly twenty minutes later accusing him of lying about his
+whereabouts ("I would ask where you really are... you're not hiding it
+anymore") and spends the rest of the night alternating between apology and
+accusation before going quiet at 11:22 PM. Neither date has been folded
+into this page's day-by-day sections above; both are consistent with the
+pattern already documented there, and the March 19–20 pair additionally
+shows Suz's real-time, unsympathetic read of Annie surfacing a full ten
+days before the "Suzy" call analysis on [[wiki/people/suzanne-frank]].
 
 ## The crisis-statement record and the laundry response (March 1)
 
