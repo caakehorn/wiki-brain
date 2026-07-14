@@ -1,7 +1,11 @@
 # Personal Wiki — second brain
 
 This repository is a custom built wiki system which aims to be as exhaustive and detailed as possible  
+in detailing everything about its creator, Dan Frank. 
 
+It seeks to define and provide complete context for his life - biography, history, cognitive traits, ideology, tendencies and all other datapoints which point back to the real world individual. 
+
+As an ongoing project, this wiki strives to gradually fill in any and all knowledge gaps about Dan, as well as continuously update with realtime information as time passes.  
 ## iWhy this is a second brain, not a RAG
 
 A retrieval system keeps the sources and re-derives every answer from them on
