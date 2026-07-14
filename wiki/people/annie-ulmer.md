@@ -55,6 +55,11 @@ related:
   - wiki/people/eli
   - wiki/people/tuquick-17248123683
   - wiki/work/au-zaatar
+  - wiki/people/shelbie-breakiron
+  - wiki/people/trinity-st-clair
+  - wiki/people/kelly-johansson
+  - wiki/people/jaredtricia
+  - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 ---
 
@@ -192,7 +197,14 @@ arrangement had a professionalized edge: a five-week run of paid sessions
 with NYC escort [[wiki/people/kelly-johansson|Kelly Johansson]], who
 treated Annie as a working peer rather than a client's girlfriend and
 pitched bringing both of them in as co-providers for one of her own
-regular clients. The final dossiers read the arrangement as the
+regular clients. That same June, Annie was on the other side of that
+same economy: working as a paid provider herself under the alias
+**"Hazel"** (she also used "Lily Lush," alongside the joint Chaturbate
+handles "smashonistaa"/"sofvded" from the camming side of the
+arrangement), booked twice by [[wiki/people/jaredtricia|a married
+Gramercy couple]] and once by [[wiki/people/brian|an older NYC
+client]] at a confirmed $1,000/2-hour rate advertised via an Eros
+listing. The final dossiers read the arrangement as the
 most concentrated expression of Dan's retention architecture — he
 converted the greatest threat to the relationship into its central kink,
 and it worked for years. The October 2024 Tom incident, first analyzed as
