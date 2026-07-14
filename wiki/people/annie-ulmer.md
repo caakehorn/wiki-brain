@@ -2,7 +2,7 @@
 domain: people
 page_type: entity
 title: "Annie (Anne Louise Ulmer)"
-aliases: ["Annie", "Anne Ulmer", "Anne Louise Ulmer"]
+aliases: ["Annie", "Anne Ulmer", "Anne Louise Ulmer", "smashonista", "Lily Lush (unverified)"]
 importance: critical
 knowledge: mixed
 status: closed
@@ -35,6 +35,7 @@ sources:
   - raw/self/message-csv/THE END FIGHT.csv
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
   - raw/self/facebook/facebook-ihatedanfrank/
+  - raw/self/dox-md/_Two Options, Choose Wisely .md
   - raw/self/gemini-activity/Gemini Activity.html
 related:
   - wiki/mind/concepts/attachment-model
@@ -468,7 +469,11 @@ formal January 2025 discovery — so the affair's behavioral floor moves
 earlier than autumn 2024, though its true start remains undated. Target
 G's identity is unresolved — the dossiers name "Caitlin's husband";
 whether he is Tuquick is unknown. The escort-work claim in the
-non-monogamy background is flagged unverifiable in the record. The DUI's
+non-monogamy background is flagged unverifiable in the record — one
+otherwise-unverified AI-session source names an escort/cam handle,
+"Lily Lush," and a camwhores.tv account, but this comes from a private
+narrated session rather than a primary account record and should not be
+treated as confirmed without independent corroboration. The DUI's
 disposition after the preliminary-hearing stage is unknown.
 
 A pregnancy reference surfaces in two independent chat-analysis sources

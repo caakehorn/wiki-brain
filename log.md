@@ -115,3 +115,9 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - Mined raw/self/dox-md/MNEME_BUILDKIT_v02.md (untouched — no wiki references), a full April 2026 build-kit spec for a product Dan designed: a five-layer personal-context extraction platform for solving LLM cold-start, built around the same "extract and synthesize once, don't re-derive from raw" thesis this wiki itself operationalizes. New page wiki/work/tech/mneme/overview.md, linked from wiki/work/tech/index.md.
 - Checked several other untouched dox-md files (Freeskiing culture chat, Queen-Goddess AI-persona banter, "u.md" Lexie roleplay fiction) — none contain biographical content about Dan; correctly left unmined (background research / AI-persona play / fiction, not documentary source).
 - Lint 0 errors, 22 warnings (all pre-existing size budget).
+
+## [2026-07-14] ingest | people | annie-ulmer.md — Lily Lush handle (unverified)
+- PR #11 merged; restarted branch claude/annie-ulmer-profile-ja1fte from origin/main per protocol before continuing.
+- Mined raw/self/dox-md/_Two Options, Choose Wisely .md — a private narrated session naming an escort/cam handle "Lily Lush" and a camwhores.tv account for Annie. Added as an unverified alias and a hedged sentence corroborating (not confirming) the already-flagged escort-work claim on wiki/people/annie-ulmer.md; explicitly not treated as confirmed since the source is a narrated session, not a primary account record. The session's explicit sexual-roleplay content itself was not documented — only the factual nugget.
+- Checked raw/self/dox-md/_Dan Frank's Digital Forensic Inventory .md ("The Betty Event" candidate explanation) and _Memory Retrieval and Joke Search .md — both are speculative AI confabulation ("if Dan..." framing) or low-signal banter rather than grounded data; correctly left unmined.
+- Lint 0 errors, 23 warnings (no change).
