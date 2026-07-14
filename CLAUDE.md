@@ -1,16 +1,8 @@
 # Personal Wiki — second brain
 
-This repository is a lifelong personal wiki for Dan Frank: complete biographical
-history, psychological and ideological profile, relationships, and everything
-else about his personhood that can be stored as text. The human drops sources
-in; the agent (you) compiles knowledge out. You are the maintenance agent.
+This repository is a custom built wiki system which aims to be as exhaustive and detailed as possible  
 
-A prior version of this project lives at `~/wiki project` (marked failed).
-Its raw archive, compiled pages, and pending inbox were migrated here on
-2026-07-11 — treat that directory as read-only reference; nothing new
-should be filed there.
-
-## Why this is a second brain, not a RAG
+## iWhy this is a second brain, not a RAG
 
 A retrieval system keeps the sources and re-derives every answer from them on
 demand; it never learns, and yesterday's reasoning is thrown away. This wiki is
