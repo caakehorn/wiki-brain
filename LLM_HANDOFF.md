@@ -21,6 +21,28 @@
 - **Phase 3 (Synthesis):** 5 of 12 done (forensic-methodology, attachment-trauma-bond, totality-themes, ai-collaborative-analysis, political-psyops).
 
 ## 🚀 Current Focus & Next Steps
+**Raw-mining pass (2026-07-14):** Started the requested direct extraction
+from `raw/`, beginning with high-volume people threads rather than cosmetic
+rewrites. `wiki/people/trevor.md` is now Trevor Bevins's caddying-era and
+later market-era profile, cross-checked against his Facebook export;
+`wiki/people/teddy.md` is now an evidence-limited profile of the recurring
+Uniontown pharmaceutical supply relationship; and `wiki/people/rj.md` was
+identified as a duplicate of RJ Ritchey, merged into
+`wiki/people/rj-ritchey.md`, then removed. Continue the same process for the
+remaining high-volume template stubs, treating the master CSV direction field
+as unreliable and using named Facebook or dedicated exports to resolve
+identity when available.
+
+**Maintenance repair (2026-07-14):** `bin/wiki-lint` is clean again (0 errors).
+Two zero-byte, accidentally nested duplicate files under `wiki/wiki/` were
+removed; their canonical pages were already present. Stale links on the Jason
+Bermejo and Menore pages now point to current pages. `app.py` now handles a
+timed-out or unavailable Git command without failing the Git-status endpoint;
+the local tree, Git-status, and file endpoints were smoke-tested successfully.
+The remaining 29 lint messages are page-size warnings, not broken links or
+metadata errors; treat the intentionally oversized hub/archive pages according
+to the existing page-budget policy rather than bulk-trimming them.
+
 **NEW USER DIRECTIVE (2026-07-14, in progress):** The user is walking through `wiki/people/` rewriting every swarm-template stub page (the "Corpus Dimensions / Domain: Self / Part of the long-tail..." boilerplate matching the old christian-hanson.md pattern) into full prose per STYLE_GUIDE.md. 47 of 64 identified stubs are done (see `wiki/people/index.md` for the current one-liner per page — anything still reading "Contact identified via Google Contacts as..." is unstarted). Remaining unstarted: nick-mattie, rj, rod-banks, sam, shannon, slim, steve-kezmarsky, tan-calabrese, teddy, trevor, urpaaa-at-yahoo-com, vaughn, vicki, zach-clabaugh, zach-hendricks, zach, zaco (zach-hendricks and zaco are the same person/handle — merge, don't do both). Method: `python3 dump_contact.py <handle>` style full-corpus pull per contact (see scratchpad script pattern), not just the one sample line the swarm left — write the real relationship/story, not just corpus stats.
 
 **IMPORTANT — direction-field bug:** the `direction` column in `MASTER_MESSAGES_DB_DUMP.csv` is unreliable for most rows (many/most say "Received" regardless of actual sender). Every page written this session notes this explicitly and reconstructs speaker from content. Keep doing this.
@@ -60,6 +82,32 @@ quality bar; imitate their shape exactly. A page that is tidy but leads
 with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
+
+### [2026-07-14] - Session: direct raw extraction, people-thread pass
+* **Summary:** Replaced three template-level people records with roughly 16 KB
+  of source-grounded prose. Trevor's 1,095-message master thread and named
+  Facebook export establish his identity as Trevor Bevins, the 2018 Nemacolin
+  caddying friendship, his exit to Sand Valley, later financial strain, and
+  2021 meme-stock contact. Teddy's 1,077-message thread establishes a
+  recurring 2018–20 Uniontown informal pharmaceutical-supply relationship
+  while retaining limits around product identification, speaker attribution,
+  and uncorroborated claims. The 518-message `+17249844280` thread resolved
+  the duplicate `rj.md` as RJ Ritchey; its canonical page now covers the
+  February 2019 boundary, July Manhattan visit, golf/work context, and later
+  political/media conversation.
+* **Verification:** `bin/wiki-lint` remains at 0 errors (29 pre-existing
+  page-budget warnings); `git diff --check` passes.
+
+### [2026-07-14] - Session: repository cleanup and app hardening
+* **Summary:** Removed two accidental empty duplicates under `wiki/wiki/`,
+  repaired five stale internal links across `jason-bermejo.md` and `menore.md`,
+  and made the app's Git-status path tolerate command timeouts and unavailable
+  remotes. `py_compile`, `bin/wiki-lint` (0 errors), `git diff --check`, and
+  localhost API smoke tests all passed. The 29 remaining lint messages are
+  pre-existing size-budget warnings.
+* **Handoff Note:** Preserve current uncommitted user edits in
+  `wiki/.obsidian/`, `wiki/people/danielle-onesi.md`, and `.README.md.swp`.
+  No content rewrite or inbox ingestion was performed in this maintenance pass.
 
 ### [2026-07-14] - Session: deep-dive expansion of random-pull findings (+ two misattribution corrections)
 * **Model:** Claude Sonnet 5 (Claude Code, remote)

@@ -169,7 +169,14 @@ def search(q):
 
 
 def run(cmd, timeout=120):
-    r = subprocess.run(cmd, capture_output=True, text=True, cwd=ROOT, timeout=timeout)
+    """Run a repository command without letting an unavailable remote break the UI."""
+    try:
+        r = subprocess.run(cmd, capture_output=True, text=True, cwd=ROOT,
+                           timeout=timeout)
+    except subprocess.TimeoutExpired:
+        return 124, f"command timed out after {timeout}s: {' '.join(cmd)}"
+    except OSError as e:
+        return 127, str(e)
     return r.returncode, (r.stdout + r.stderr).strip()
 
 
@@ -208,10 +215,10 @@ def ingest_apply(response_text, commit):
 def git_status():
     _, branch = run(["git", "rev-parse", "--abbrev-ref", "HEAD"])
     _, dirty = run(["git", "status", "--porcelain"])
-    run(["git", "fetch", "--quiet"], timeout=15)
-    _, counts = run(["git", "rev-list", "--left-right", "--count", "HEAD...@{upstream}"])
+    fetch_code, _ = run(["git", "fetch", "--quiet"], timeout=15)
+    counts_code, counts = run(["git", "rev-list", "--left-right", "--count", "HEAD...@{upstream}"])
     ahead = behind = 0
-    if counts and "\t" in counts:
+    if fetch_code == 0 and counts_code == 0 and "\t" in counts:
         a, b = counts.split("\t")
         ahead, behind = int(a), int(b)
     _, remote = run(["git", "remote", "get-url", "origin"])

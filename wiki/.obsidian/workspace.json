@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "20ae161b6bee2825",
+        "id": "2f422ae5caaffc84",
         "type": "tabs",
         "children": [
           {
-            "id": "c65eca37e26a0188",
+            "id": "6a73fb40b654bd83",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3633978c3e2b0ce2",
@@ -90,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "people/annie-ulmer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +101,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for annie-ulmer"
             }
           },
           {
@@ -108,11 +110,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "people/annie-ulmer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from annie-ulmer"
             }
           },
           {
@@ -150,12 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "people/annie-ulmer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of annie-ulmer"
             }
           }
         ]
@@ -176,27 +180,39 @@
       "bases:Create new base": false
     }
   },
-  "active": "c65eca37e26a0188",
+  "active": "6a73fb40b654bd83",
   "lastOpenFiles": [
-    "people/gabe.md",
-    "people/milo.md",
-    "interests/favorites/books/want-to-read.md",
-    "work/tech/mneme/overview.md",
-    "work/tech/mneme",
-    "timeline/periods/covid-era-2020.md",
-    "people/franki-faris.md",
-    "mind/synthesis/ancestral-dialectic.md",
-    "mind/concepts/erotic-architecture.md",
-    "timeline/periods/full-sail-2008-2010.md",
-    "timeline/periods/dark-era-2007-2008.md",
-    "timeline/events/april-may-2026-final-weeks.md",
-    "mind/profile/voice-modes.md",
-    "wiki/mind/concepts/contact-gini.md",
-    "wiki/mind/concepts",
-    "wiki/mind",
+    "interests/music/overview.md",
+    "interests/music/index.md",
+    "legal/index.md",
+    "legal/2015-retail-theft-arrest.md",
+    "legal/463-morgantown.md",
+    "interests/golf.md",
+    "interests/favorites/taste-profile.md",
+    "people/danielle-onesi.md",
+    "timeline/events/annie-alexis-reunion-november-2018.md",
+    "people/menore.md",
     "wiki/self/chats/danfrank-isms-pinned.md",
+    "wiki/mind/concepts/contact-gini.md",
     "wiki/self/chats",
+    "wiki/mind/concepts",
     "wiki/self",
-    "wiki"
+    "wiki/mind",
+    "wiki",
+    "people/new-jim-shaffer.md",
+    "people/trinity-st-clair.md",
+    "people/shelbie-breakiron.md",
+    "people/kelly-johansson.md",
+    "people/jacob-bacharach.md",
+    "people/jack-rusko.md",
+    "people/ismaila-barry.md",
+    "people/jim-vrabel.md",
+    "people/jaredtricia.md",
+    "people/jason-bermejo.md",
+    "people/jerad-friedline.md",
+    "work/nemacolin-caddying.md",
+    "timeline/events/shelbie-annie-threesome-april-2019.md",
+    "people/zach.md",
+    "work/tech/mneme"
   ]
 }

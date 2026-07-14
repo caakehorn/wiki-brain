@@ -216,3 +216,4 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - This resolves the standing gap on wiki/people/katie-fletcher.md ("@Lo_weez may reference a third person") — REVISED block added there; @Lo_weez added as an alias on wiki/people/annie-ulmer.md with a corroborating paragraph.
 - Full-sail-2008-2010.md's Alexis/Orlando coverage (added earlier this session) plus this handle-resolution together discharge the "alexis to orlando event" ADD-ME item — no further distinct event was found beyond the relationship's Orlando-era documentation already on that page.
 - Lint 0 errors, 33 warnings (all pre-existing size budget). The FULL TWITTER ANALYSIS.txt file (2009-2019, ~500 lines) remains largely unmined beyond these checks — flagged in queue.md for a future dedicated pass.
+## [2026-07-14] expand | people | Trevor Bevins and Teddy rebuilt from master CSV; Trevor cross-checked against Facebook export; duplicate RJ stub merged into RJ Ritchey

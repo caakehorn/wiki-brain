@@ -7,7 +7,7 @@ date_modified: 2026-07-14
 date_range_start: 2018-11-04
 date_range_end: 2025-02-20
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/messages_3476070497_all_time.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2019-2025-nyc-era", "wiki/mind/synthesis/shadow-economy", "wiki/people/archive/bedford-connections"]
+related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2018-deep-cycle", "wiki/places/307-e-76th-st"]
 tags: [digital-footprint, addiction-recovery, nyc-era]
 knowledge: earned
 ---
@@ -133,6 +133,5 @@ The 6-year silence (2013–2018) followed by immediate resurrection of the exact
 
 - [[wiki/self/message-corpora/master-message-dump]]
 - [[wiki/mind/concepts/contact-gini]]
-- [[wiki/timeline/periods/2019-2025-nyc-era]]
-- [[wiki/mind/synthesis/shadow-economy]]
-- [[wiki/people/archive/bedford-connections]]
+- [[wiki/timeline/periods/2018-deep-cycle]]
+- [[wiki/places/307-e-76th-st]]
