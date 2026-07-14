@@ -107,7 +107,7 @@ ex told him — and was drawn to it rather than troubled by it. Her family
 anchors her Uniontown world: parents whose friendship with Dan's mother's
 circle goes back decades, her grandmother Sugie (a genuine, documented
 caretaking obligation that later doubled as her most-used alibi), a niece
-and nephew she helped care for, and the dog Milo, a fixture of the NYC
+and nephew she helped care for, and the dog [[wiki/people/milo|Milo]], a fixture of the NYC
 domestic record.
 
 The early record is unambiguous about the love being real. On day three

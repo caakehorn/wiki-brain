@@ -41,7 +41,7 @@ related: [
 - Annie: "avatar of reliability" fired with zero notice (contrast).
 - Tarik Fallous (owner charmed on spot).
 - DJ: basement "I bought it from outside" bread interrogation; contraband protocol.
-- Dimitri (Greek Oracle re-entry from flooded basement IMG_8225.MOV).
+- [[wiki/people/dimitri|Dimitri]] (Greek Oracle re-entry from flooded basement IMG_8225.MOV).
 - Tunisian Zoomer ("snitch" over tip siphoning); Sergio (Miami vet, Wall of Mistrust crumbled).
 - "Night Class" 9pm alibi maneuver (peak hours secured while abandoning closers); "Dude vs Kid" semantic war.
 - Valeria Iglesias Cid (19yo Chilean; basement hug hidden camera, Central Park, edits, collapse via Norteno server).

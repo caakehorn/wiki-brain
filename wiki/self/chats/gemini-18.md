@@ -55,7 +55,7 @@ User provides raw zero-shot response to test prompt about refusing to lower stan
 
 **Actionable:** Use as injection / calibration for Grok sessions.
 
-**Deep Analysis Enrichment (2026-06-23 granular agent pass + HTML node data):** See /tmp/gemini-18-deep-analysis.md (exhaustive). Added: full capability contest 3-stage verbatim + high-standards prompt + Gemini/Grok side-by-side verbatim + Gemini audit table (both pass epistemic; Gemini thermodynamic/10% stack vs Grok selection effects/coordination cost); node lock language verbatim (HTML Jan2 cluster cross); Bifurcated Daily OS + Decoupling/Grounding Paradox + chat.db "cold-data ledger" / "Epistemic Verification" verbatim; politics + 15yr sobriety + INTP 5w4-sx. Freqs updated (forensic:43 etc). Cross: _07 (Loop/Sep/Eli redaction vectors), HTML (locks/Jan2 J6), people (annie/lex), periods/2025-collapse, synth/ai-collaborative-analysis + forensic-methodology. Node locks master: Separation Logistics, The Loop, The Betty Event, Signals locked; "Eli" purged for clean Grok transfer. "Write Operation Successful." "Deep Architecture."
+**Deep Analysis Enrichment (2026-06-23 granular agent pass + HTML node data):** See /tmp/gemini-18-deep-analysis.md (exhaustive). Added: full capability contest 3-stage verbatim + high-standards prompt + Gemini/Grok side-by-side verbatim + Gemini audit table (both pass epistemic; Gemini thermodynamic/10% stack vs Grok selection effects/coordination cost); node lock language verbatim (HTML Jan2 cluster cross); Bifurcated Daily OS + Decoupling/Grounding Paradox + chat.db "cold-data ledger" / "Epistemic Verification" verbatim; politics + 15yr sobriety + INTP 5w4-sx. Freqs updated (forensic:43 etc). Cross: _07 (Loop/Sep/[[wiki/people/eli|Eli]] redaction vectors), HTML (locks/Jan2 J6), people (annie/lex), periods/2025-collapse, synth/ai-collaborative-analysis + forensic-methodology. Node locks master: Separation Logistics, The Loop, The Betty Event, Signals locked; "Eli" purged for clean Grok transfer. "Write Operation Successful." "Deep Architecture."
 
 ## _18 Stats + Full Bio Timeline Table (2026-06-23 analysis)
 
@@ -67,16 +67,16 @@ User provides raw zero-shot response to test prompt about refusing to lower stan
 | 1988-11-01 / Origins | "Born November 1, 1988. ... Uniontown, Pennsylvania." Suzanne (real estate), Rick (auto), Vanessa. Skate + Pikewood/Nemacolin caddying. |
 | 2010 Full Sail | "Graduated from Full Sail University in 2010 with a degree in Recording Arts. ... Pro Tools HD 8 operator." |
 | 2011-2013 NYC | "audio engineer and production assistant at ishlab Music and Creative License." |
-| 2021-03–2024-08 | "Au Za'atar in NYC." |
+| 2021-03–2024-08 | "[[wiki/work/au-zaatar|Au Za'atar]] in NYC." |
 | Early 2025 | "The Great Migration Loop: Terminated the New York residency ... back to ... Uniontown, Pennsylvania." |
-| 2026 | "BFS Foods ... April 2026" + "Bunker Core" + Gumroad "iMessage Analysis Toolkit ... February 2026". Property ops Uniontown/Leith-Hatfield w/ Suzanne. |
+| 2026 | "[[wiki/work/bfs-foods|BFS Foods]] ... April 2026" + "Bunker Core" + Gumroad "iMessage Analysis Toolkit ... February 2026". Property ops Uniontown/Leith-Hatfield w/ Suzanne. |
 
 **Key Relationships Verbatim:**
 - Annie: "Current long-term partner. ... integrated domestic life, shared routines..." "highly stable, direct, and pragmatic logistical alignment."
 - Lex/Alexis: "five-year window from 2010 to 2015, acting as a foundational point of reference..." "high-volatility".
 - Suzanne: co-resides, "close technical, logistical... cooperation" on assets.
 - Tom Maison: "Primary peer collaborator... recurring creative projects, exchange of technical concepts, and high-intellect social dialogue."
-- Milo: "Pet Chihuahua..."
+- [[wiki/people/milo|Milo]]: "Pet Chihuahua..."
 
 ## Capability Contest + High Standards (verbatim from _18)
 

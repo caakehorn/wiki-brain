@@ -114,5 +114,5 @@ can't, and "so-blindness" explains a career pattern MBTI can't.
 
 **Gaps:** the ILI-Ni and Attitudinal readings appear only in the 2026-era
 dossiers with no test provenance; Socionics intertype relations (e.g., what
-the model predicts about the Annie ESFJ pairing) were never worked through
+the model predicts about the [[wiki/people/annie-ulmer|Annie]] ESFJ pairing) were never worked through
 in the sources.

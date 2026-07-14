@@ -12,7 +12,7 @@ related: ["wiki/timeline/events/timeline", "wiki/timeline/periods/2017-poverty-f
 
 **Date range:** 2018
 
-**Defining characteristics:** Peak chaos/output, multiple dealers, ~40k msgs/yr (per core). High event density (254 events). Financial velocity, Annie shifts, deep cycle continuation. Au Za'atar pre-history forensic in Gemini storytime overlaps later reconstruction.
+**Defining characteristics:** Peak chaos/output, multiple dealers, ~40k msgs/yr (per core). High event density (254 events). Financial velocity, [[wiki/people/annie-ulmer|Annie]] shifts, deep cycle continuation. [[wiki/work/au-zaatar|Au Za'atar]] pre-history forensic in Gemini storytime overlaps later reconstruction.
 
 **Data profile (LIFE calendar):** 254 events (highest year). Relationship/financial/legal dominant. Ties LIFE REPORT (intense attachment + info flow under stress; dealers as transactional layer).
 

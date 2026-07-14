@@ -67,7 +67,7 @@ Gemini expansions (example for Node 6): "Evolutionary Anomaly... Biological Brid
 
 The 77-node pinned is a structured exemplar of the same interaction style pervasive in the 20.8MB [[wiki/self/gemini-activity/gemini-activity]] HTML:
 
-- Profile node locking commands ("lock these nodes": Separation Logistics, The Loop, The Betty Event, Signals; Eli redacted variants for export).
+- Profile node locking commands ("lock these nodes": Separation Logistics, The Loop, The Betty Event, Signals; [[wiki/people/eli|Eli]] redacted variants for export).
 - Full bio / personality architecture dumps requested for cross-model transfer (Grok): "TOTAL, EXHAUSTIVE, ZERO-HEDGING memory dump ... real names, dates, events, quotes, contradictions, and patterns."
 - DATA_LOGGED + tables style in J6 analysis sessions (Jan 2 2026); freqs confirm shared spine (politics 231+, trump 373, china 39, sanders 25, millennial 44).
 - AI meta: _18 automation/handshake + exhaustive profile request for "another model (Grok)" mirrors node emission as external cognition prosthetic.

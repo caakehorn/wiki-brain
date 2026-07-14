@@ -35,7 +35,7 @@ Corpus report on Dan's Gemini usage: a 21MB Google Takeout HTML activity log plu
 | data | 8,287 | Logging, profiles, retention, DATA_LOGGED tables |
 | annie / eggie | 5,658 | Primary relational anchor — see [[wiki/people/annie-ulmer]] |
 | eli | 5,524 | NYC chaos node; deliberately redacted from profile exports — [[wiki/people/eli]] |
-| work / Au Za'atar | ~3,400 | 2021–24 NYC hospitality lore — [[wiki/timeline/periods/2021-2023-employment-block]] |
+| work / [[wiki/work/au-zaatar|Au Za'atar]] | ~3,400 | 2021–24 NYC hospitality lore — [[wiki/timeline/periods/2021-2023-employment-block]] |
 | lock / profile / node | 3,702 (2,258 / 1,041 / 403) | Explicit "lock these nodes" memory-persistence commands |
 | loop | 1,872 | Pursuit–withdrawal relational pattern |
 | forensic / anomaly | ~1,200 | J6, work alibis, relationship analysis — [[wiki/mind/concepts/forensic-method]] |
@@ -49,7 +49,7 @@ Corpus report on Dan's Gemini usage: a 21MB Google Takeout HTML activity log plu
 | Session | Page | Subject |
 |---------|------|---------|
 | _00 | [[wiki/self/chats/gemini-00]] | Au Za'atar STORYTIME finale: 9PM alibi post-mortem, Sergio, cash exit Aug 2024 |
-| _02 | [[wiki/self/chats/gemini-02]] | Au Za'atar Volume I: Tarik, Dimitri, DJ, Valeria, shed build |
+| _02 | [[wiki/self/chats/gemini-02]] | Au Za'atar Volume I: Tarik, [[wiki/people/dimitri|Dimitri]], DJ, [[wiki/people/valeria-iglesias-cid|Valeria]], shed build |
 | _07 | [[wiki/self/chats/gemini-07]] | Suzy call & 10-day blackout forensics; game-theory Grim Trigger model |
 | _13 | [[wiki/self/chats/gemini-13]] | Bacharach "neighborhood simulation glitch"; 155 Virginia Ave verification |
 | _18 | [[wiki/self/chats/gemini-18]] | Full bio dump + node locking for Grok profile transfer |

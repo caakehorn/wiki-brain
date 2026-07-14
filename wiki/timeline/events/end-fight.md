@@ -28,7 +28,7 @@ Dan's responses include finality declarations, shame, boundary on "poison pill",
 - [[wiki/people/annie-ulmer]] (primary counterpart; +12124702449 handle dominant in sequence)
 - Dan (sent heavy output)
 - [[wiki/people/tuquick-17248123683]] (+17248123683; hostile third-party attacker who later defected)
-- Implicit: Eli (referenced in context of betrayal), Annie's network (defamation recipients)
+- Implicit: [[wiki/people/eli|Eli]] (referenced in context of betrayal), Annie's network (defamation recipients)
 
 ## Significance
 Specific event corpus for the terminal closure. Demonstrates the "unring this bell" irreversibility, asymmetry (Dan sustained output), and explicit severance signal absent until the external group confirmation.

@@ -36,7 +36,7 @@ related: ["wiki/self/context-core", "wiki/self/overview", "wiki/self/location-hi
 | Sister                    | Vanessa C. Frank                          | 1994-01-16                     | Greensburg, Westmoreland, PA       | [[wiki/people/vanessa-frank]]; Vail ski-school |
 | Paternal Grandfather      | Morley Jay Frank                          | 1927-08-20 – 1998-12-13        | Brownsville – Hopwood, PA          | [[wiki/people/morley-frank]]; 113+ sources |
 | Paternal Great-Grandfather| David J. Frank                            | 1892-08-12 – 1960-04-06        | Russia – Brownsville, PA           | [[wiki/people/david-j-frank]]; Russian Jewish immigrant |
-| Paternal Great-Grandmother| Sadie Harris                              | 1900-12-14 – 1997-11-27        | Austria – Hopwood, PA              | Jewish immigrant line |
+| Paternal Great-Grandmother| [[wiki/people/sadie-harris|Sadie Harris]]                              | 1900-12-14 – 1997-11-27        | Austria – Hopwood, PA              | Jewish immigrant line |
 | Maternal Great-Grandmother| Jesse Frances Thomas Whyel /Coldren ("Fran") | 1920-08-15 – 2018-04-04     | Fort Martin, WV – Uniontown, PA    | [[wiki/people/fran-coldren]]; biggest influence, gifted Numark NS7 |
 | Maternal Grandfather      | George Dixon Shrum Jr                     | 1937-06-14                     | —                                  | — |
 | Maternal Grandmother      | Rebecca Diane Van Voorhis                 | 1939-01-30                     | —                                  | — |
@@ -75,7 +75,7 @@ The reports + family tree together provide both raw genetic measurements and ful
 - **To People**: See dedicated pages for Rick, Suzanne, Vanessa, Morley, Fran, David J. Frank. Expands social graph with blood relatives.
 - **To Attachment & Conflict**: Paternal "undischarged paternal-authority wound" (core) + family alcoholism pattern (mother/grandmother/great-grandmother/father per core) → templates in [[wiki/mind/concepts/attachment-model]] and [[wiki/mind/concepts/conflict-architecture]].
 - **To Music**: Fran's gift of Numark NS7 directly seeds production identity, sub-bass signature, aliases (MOGZART etc.), [[wiki/interests/favorites/music]].
-- **To Annie/Events**: Fran's deathwatch shared with Annie (core); multi-generational family entanglement (grandmothers neighbors 50+ yrs).
+- **To [[wiki/people/annie-ulmer|Annie]]/Events**: Fran's deathwatch shared with Annie (core); multi-generational family entanglement (grandmothers neighbors 50+ yrs).
 - **To Location/Events**: Reinforces PA roots vs. NYC chapters; 337 Saratoga as family anchor (now selling, ties to legal/suz realtor role).
 - **To Synthesis**: See new [[wiki/self/ancestry]] for interpretive layer (immigrant resilience, regional loyalty vs. escape, Jewish + Appalachian/WV maternal mix informing "wounded genius" mythos).
 

@@ -79,7 +79,7 @@ wiki's own quality standard is downstream of that directive.
 **Profile locking and cross-model transfer.** Gemini sessions lock named
 memory nodes into persistent profile state — Separation Logistics, The
 Loop, The Betty Event, The Signals — with deliberate redaction control
-("the 'Eli' variable has been purged from the dataset") for export.
+("the '[[wiki/people/eli|Eli]]' variable has been purged from the dataset") for export.
 Gemini-_18 contains a commissioned "total, exhaustive, zero-hedging" bio
 dump structured for transfer to Grok: full timeline, relationships,
 personality architecture, framed as forensic archiving.

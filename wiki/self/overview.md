@@ -48,7 +48,7 @@ revived 2026) and AI/agent-pipeline builder. Democratic socialist, atheist
 3/Trust 9 ([[wiki/mind/profile/index]]). Suboxone daily since Feb 17 2010,
 zero relapse; no alcohol 13–15 yrs. Life hinges: parental rupture Nov 2005;
 Full Sail 2008–10; Alexis 2009–15; Annie Thanksgiving 2015–June 1 2026
-(closed after the Eli affair, discovered Jan 2025 — the gaslighting
+(closed after the [[wiki/people/eli|Eli]] affair, discovered Jan 2025 — the gaslighting
 outweighed the affair); 2015 retail-theft arrest resolved via ARD
 ([[wiki/legal/2015-retail-theft-arrest]]); BFS termination 2026
 ([[wiki/work/bfs-foods]]); 337 Saratoga being sold, landing at 463
@@ -130,8 +130,8 @@ graph, and residence timeline are maintained authoritatively at
 
 ## Heritage
 
-Paternal line Eastern European Jewish — David J. Frank (b. 1892, Russia) and
-Sadie Harris (b. 1900, Austria) through Morley Jay Frank to Rick — heritage
+Paternal line Eastern European Jewish — [[wiki/people/david-j-frank|David J. Frank]] (b. 1892, Russia) and
+[[wiki/people/sadie-harris|Sadie Harris]] (b. 1900, Austria) through Morley Jay Frank to Rick — heritage
 documented as load-bearing to his politics. Maternal line WV/PA through
 great-grandmother Fran Whyel (1920–2018), his self-described biggest life
 influence and the source of the Numark NS7 that seeded the production

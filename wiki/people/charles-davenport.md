@@ -26,7 +26,7 @@ related: ["wiki/self/facebook", "wiki/timeline/periods/2010s", "wiki/self/messag
 ## Context
 - Earliest sampled FB messages in corpus (Jan-Dec 2010).
 - "in the nyc" + "run down there" + phone exchange align with FB profile data: Brooklyn move Jan 3 2010, Ishlab (Mar 2010–Feb 2011, Assistant, Brooklyn), Creative License NYC work.
-- Very low volume; typical of early graph expansion vs later leisure (golf) or core (Annie) threads.
+- Very low volume; typical of early graph expansion vs later leisure (golf) or core ([[wiki/people/annie-ulmer|Annie]]) threads.
 - "no homo lol" reflects era-typical casual tone in short FB comments.
 
 ## Related

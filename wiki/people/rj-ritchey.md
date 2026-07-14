@@ -21,7 +21,7 @@ related: ["wiki/self/facebook", "wiki/self/message-corpora/master-message-dump",
 ## Context and Ties
 - Part of broader golf network (Marc Charles, caddie history at Farmington/Laurel Valley).
 - Cross-references to periods around returns to PA and 2025+ activities.
-- Example of contact-gini: peripheral but real ties vs core high-volume (Annie, Tom, Suz).
+- Example of contact-gini: peripheral but real ties vs core high-volume ([[wiki/people/annie-ulmer|Annie]], Tom, Suz).
 - No heavy iMessage volume noted in extracts, but FB thread shows consistent if infrequent engagement.
 
 ## Sources

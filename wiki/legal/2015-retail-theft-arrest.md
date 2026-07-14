@@ -41,7 +41,7 @@ search when I got arrested," March 2026). No DUI resulted. Through December
 2015 he made repeated trips to the state police barracks to replace case
 paperwork the barracks had lost; the trooper handling it remembered him and
 joked "DID YOU STEAL MORE COMBOS." The episode landed at the exact genesis of
-the Annie relationship — she drove him to at least one barracks trip and the
+the [[wiki/people/annie-ulmer|Annie]] relationship — she drove him to at least one barracks trip and the
 theft became a running couple's joke ("I wonder if stealing combos counts as
 poison," she teased when he needed a background check).
 
@@ -74,7 +74,7 @@ This is the single most consequential legal event in Dan's own record — the
 dominated by other people's arrests, DUIs, and court dates (Tom's 2025 DUI,
 Annie's October 2025 arrest, friends' cases). It also calibrates his later
 behavior: the neurotic risk-aversion around vehicles and police contact he
-preaches to others (September 2025, to Kristin: "please make sure you run the
+preaches to others (September 2025, to [[wiki/people/kristin|Kristin]]: "please make sure you run the
 cost/benefit analysis about what you're getting from that kind of risk
 exposure") traces directly to this experience rather than to any subsequent
 trouble.

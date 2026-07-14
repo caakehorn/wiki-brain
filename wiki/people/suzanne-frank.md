@@ -86,7 +86,7 @@ Gemini-_07 analysis treats the diminutive as a high-entropy social-access
 key (Annie's own parents, friends of 40+ years, would say "Suzanne") and
 the instant hangup as a non-verbal confession; the associated visitor
 entered a 10-day blackout after Dan's staged "wife-warning" screenshot.
-The vector is isolated from the Eli affair. Full analysis:
+The vector is isolated from the [[wiki/people/eli|Eli]] affair. Full analysis:
 [[wiki/self/chats/gemini-07]].
 
 **Social colonization (final dossiers, added 2026-07-13):** the terminal-phase
@@ -107,7 +107,7 @@ had succeeded. See [[wiki/people/annie-ulmer]] and
 | Handles | +17243228715 · suzfrank@atlanticbb.net |
 | Messages (master dump) | 2,391 — rank ~8–10 |
 | Range | 2015–present, ongoing family thread |
-| Content profile | Logistics, money, property, conflict-relay ("Kristin who?" threads) |
+| Content profile | Logistics, money, property, conflict-relay ("[[wiki/people/kristin|Kristin]] who?" threads) |
 
 ## Timeline
 

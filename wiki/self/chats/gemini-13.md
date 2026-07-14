@@ -14,7 +14,7 @@ A 902-line Gemini session in which Dan works through the "coincidence chain" con
 
 ## The Chain
 
-Dan's opening account: while listening to Chapo Trap House in NYC, autoplay served a Bacharach guest spot; he recognized the name from childhood (the Bacharachs lived down Saratoga Drive from the Franks). He later read Bacharach's *The Bend of the World* and found it describes a rental house on "Virginia Avenue" backing onto the country club's fifth fairway — which maps to 155 Virginia Ave, the only house on that street with a direct fairway line, the property his mother owned and where he and Annie lived for about three years (~2012–2015, overlapping the book's writing and 2014 publication).
+Dan's opening account: while listening to Chapo Trap House in NYC, autoplay served a Bacharach guest spot; he recognized the name from childhood (the Bacharachs lived down Saratoga Drive from the Franks). He later read Bacharach's *The Bend of the World* and found it describes a rental house on "Virginia Avenue" backing onto the country club's fifth fairway — which maps to 155 Virginia Ave, the only house on that street with a direct fairway line, the property his mother owned and where he and [[wiki/people/annie-ulmer|Annie]] lived for about three years (~2012–2015, overlapping the book's writing and 2014 publication).
 
 ## Book vs. Reality
 

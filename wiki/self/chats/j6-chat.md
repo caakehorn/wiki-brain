@@ -86,7 +86,7 @@ Raw: Gemini Activity.html (prompts + "CASEFILE_BOOTLOADER_WILDFALL.md" synthesis
 ## Relation to Context Core
 Directly expands [[wiki/self/context-core]] §7: "J6: CONCLUDED — hybrid organic event + intelligence co-opt; the 'tourist-wandering' behavioral signature is the key evidentiary anchor." Core treats as settled hybrid; this chat shows Dan's deep forensic work leading to similar conclusion, with specifics (Babbitt, door blocker as directed). Aligns with "Dan's Law" (coincidence clusters signal; strip parasitic noise). Political intensity, skepticism of institutions/narratives, "abundance of circumstantial" as evidence threshold.
 
-Cross-references: [[wiki/timeline/events/group-chat-closure]] (Annie closure also group chat event with third-party/defamation confirmation), twitter political output, favorites (political reading), location (physical data).
+Cross-references: [[wiki/timeline/events/group-chat-closure]] ([[wiki/people/annie-ulmer|Annie]] closure also group chat event with third-party/defamation confirmation), twitter political output, favorites (political reading), location (physical data).
 
 ## Notes
 Chat exemplifies Dan's forensic approach to "raw streams" vs. mediated narratives. Frustration with social sorting over epistemics. Claude updates but maintains limits (no full raw access). Fits self-model: high intellect/impulsiveness applied to pattern recognition in chaotic events; "autistic sickos like me" self-ref (from chat).

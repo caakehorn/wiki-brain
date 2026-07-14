@@ -52,7 +52,7 @@ not an oversight — off-books payment leaves no recourse in either direction.
 
 ## The cast
 
-- **Anita (GM)** — locus of agency. Originated the $50 claim; controls
+- **[[wiki/people/anita|Anita]] (GM)** — locus of agency. Originated the $50 claim; controls
   deposits, schedules, and discipline. Documented pattern of backward-built
   narratives and blame pivots, established by the Timmy precedent: caught on
   corporate surveillance selling vape to the underage [[wiki/people/timmy]],
@@ -64,7 +64,7 @@ not an oversight — off-books payment leaves no recourse in either direction.
   malicious.
 - **Kim (Little Caesars manager)** — shared-building counterpart, previously
   targeted by Anita herself; skeptical of her patterns; the exit path.
-- **Marty Martin** — six-month coworker who explained the "make the store
+- **[[wiki/people/marty-martin|Marty Martin]]** — six-month coworker who explained the "make the store
   whole to keep your job" off-books culture; treated as an intelligence asset.
 - **Maddox** — witnessed the May 21 sidewalk conversation with Brandon and
   volunteered the full Timmy blame-pivot reconstruction: "You can't do that

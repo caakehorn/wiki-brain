@@ -89,7 +89,7 @@ and Dan ran what he called a "decentralized audit" — pocketing cash tips —
 as self-help against it. The core alliance was the **Triad**: Dimitri, the
 Greek manager-"oracle" who navigated the owners' moods (and "chose the
 flooded basement over a quiet life") — "the only boss or manager or
-supervisor who i have ever actually really loved"; **DJ — Ismaila Barry**,
+supervisor who i have ever actually really loved"; **DJ — [[wiki/people/ismaila-barry|Ismaila Barry]]**,
 the Senegalese busser-turned-server Dan calls one of his best friends
 ("smart and curious and funny"); and Dan supplying the analysis. The BOH
 bond had a specific genesis: Dan describes shedding an admitted prejudice

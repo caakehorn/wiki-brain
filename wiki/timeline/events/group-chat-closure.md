@@ -24,7 +24,7 @@ related:
 # Group Chat Closure (June 1 2026)
 
 ## What happened
-Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party relationship (Tuquick — [[wiki/people/tuquick-17248123683]], not Eli) and the active operation of a defamation campaign against Dan in Annie's social/peer network.
+Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party relationship (Tuquick — [[wiki/people/tuquick-17248123683]], not [[wiki/people/eli|Eli]]) and the active operation of a defamation campaign against Dan in Annie's social/peer network.
 
 The campaign included at minimum:
 - Rape narrative framing

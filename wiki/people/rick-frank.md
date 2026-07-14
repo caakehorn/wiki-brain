@@ -78,8 +78,8 @@ spine describes.
 
 ## Family position
 
-Paternal Jewish line: grandson of David J. Frank (b. 1892, Russia) and
-Sadie Harris (b. 1900, Austria), son of Morley Jay Frank (1927–1998);
+Paternal Jewish line: grandson of [[wiki/people/david-j-frank|David J. Frank]] (b. 1892, Russia) and
+[[wiki/people/sadie-harris|Sadie Harris]] (b. 1900, Austria), son of Morley Jay Frank (1927–1998);
 Episcopalian himself ([[wiki/self/ancestry]]). One of the four documented
 generations of functional alcoholism. Multiple Uniontown residences on
 record through 1989–2002; current address unconfirmed.

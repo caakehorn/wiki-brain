@@ -14,7 +14,7 @@ related: ["wiki/timeline/periods/2021-2023-employment-block", "wiki/self/chats/g
 
 ## Identity
 
-Tarik Fallous — owner-operator (with his brother Ghassan) of Au Za'atar, the Lebanese restaurant near 58th and 1st in Midtown Manhattan where Dan worked as a busser from roughly March 2021 to August 2024. Tarik hired Dan on the spot at his application interview despite no prior food-service experience. His defining structural decision, from Dan's point of view, was an equal front-of-house tip split — bussers paid the same as waiters — which Dan's Gemini reconstruction repeatedly calls "a glitch in the matrix," the economic condition that made the whole tenure viable. Tarik and Ghassan rented an apartment above the restaurant purely to watch the floor, an arrangement Dan frames as an "acerbic surveillance" panopticon. Tarik is a peripheral work figure with no independent message corpus; everything documented here comes from the Gemini forensic "STORYTIME" reconstruction of the Au Za'atar era, which is stylized but data-dense.
+Tarik Fallous — owner-operator (with his brother Ghassan) of [[wiki/work/au-zaatar|Au Za'atar]], the Lebanese restaurant near 58th and 1st in Midtown Manhattan where Dan worked as a busser from roughly March 2021 to August 2024. Tarik hired Dan on the spot at his application interview despite no prior food-service experience. His defining structural decision, from Dan's point of view, was an equal front-of-house tip split — bussers paid the same as waiters — which Dan's Gemini reconstruction repeatedly calls "a glitch in the matrix," the economic condition that made the whole tenure viable. Tarik and Ghassan rented an apartment above the restaurant purely to watch the floor, an arrangement Dan frames as an "acerbic surveillance" panopticon. Tarik is a peripheral work figure with no independent message corpus; everything documented here comes from the Gemini forensic "STORYTIME" reconstruction of the Au Za'atar era, which is stylized but data-dense.
 
 ## Corpus Dimensions
 
@@ -39,7 +39,7 @@ The recurring contrast Dan draws: [[wiki/people/annie-ulmer]], "the avatar of re
 |------|-------|
 | Early 2021 | Hired on the spot as busser; equal tip split begins; 20 blocks from 307 E 76th |
 | Spring 2021 | Outdoor sheds built first; interior renovation delayed ~9 months; Annie hired as EV hostess |
-| Nov 2021 | First outdoor winter; tableside shawarma in the cold; Dimitri joins and promotes Dan to server tasks |
+| Nov 2021 | First outdoor winter; tableside shawarma in the cold; [[wiki/people/dimitri|Dimitri]] joins and promotes Dan to server tasks |
 | 2022–2023 | Second and third outdoor winters ("there is no construction"); the Valeria episode ([[wiki/people/valeria-iglesias-cid]]) runs and collapses |
 | 2023–2024 | Finale phase — Sergio, the Tunisian tip-siphon, the "9 PM alibi" post-mortem; ~41 months total |
 | ~Aug 2024 | Termination; sheds torn down by the city; cash exit, no notice |

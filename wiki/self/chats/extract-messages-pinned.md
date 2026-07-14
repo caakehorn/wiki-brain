@@ -12,7 +12,7 @@ related: ["wiki/self/chats/danfrank-isms-pinned", "wiki/self/chats/j6-chat", "wi
 
 **Source:** Pinned chat export(s) with extract-messages theme.
 
-**Pattern:** Consistent with other pinned sessions (Danfrank-isms 77 nodes, photo ingest, Max, Mary-Kate, 9/11). User directs AI (Gemini) to extract, structure, or analyze message data with "keep ALL" / lossless discipline.
+**Pattern:** Consistent with other pinned sessions (Danfrank-isms 77 nodes, photo ingest, Max, [[wiki/people/mary-kate|Mary-Kate]], 9/11). User directs AI (Gemini) to extract, structure, or analyze message data with "keep ALL" / lossless discipline.
 
 ## Relation to Totality
 Directly supports the message corpora ingests (175k+ rows in MASTER dump). Likely focuses on specific thread extraction, stylometric features, attachment sequences, or forensic patterns from iMessage CSVs / dumps.

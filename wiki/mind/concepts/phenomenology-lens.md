@@ -66,7 +66,7 @@ The **Alchemical Engine** transmutes vulnerability into shame, which is then wea
 
 ## The "Annie Loop" (Historical)
 
-The "Annie Loop" describes the relational cycle observed during the terminal phase of the primary relationship, which formally closed on June 1, 2026. The loop followed a strict sequence: Annie would withdraw, prompting Dan to express pain through long, raw texts. She would respond with vague apologies or declarations of inadequacy, which caused Dan to escalate the conflict. Annie would then either shut down completely or accuse him of suffocating her. Dan's moral absolutism would keep him engaged in the conflict rather than exiting, eventually leading Annie to return for emotional replenishment, which reset the cycle. 
+The "[[wiki/people/annie-ulmer|Annie]] Loop" describes the relational cycle observed during the terminal phase of the primary relationship, which formally closed on June 1, 2026. The loop followed a strict sequence: Annie would withdraw, prompting Dan to express pain through long, raw texts. She would respond with vague apologies or declarations of inadequacy, which caused Dan to escalate the conflict. Annie would then either shut down completely or accuse him of suffocating her. Dan's moral absolutism would keep him engaged in the conflict rather than exiting, eventually leading Annie to return for emotional replenishment, which reset the cycle. 
 
 This interpretive loop correlates with documented evidence, specifically the 94 burst events that were uniformly preceded by deliberate silence from the partner. The gaslighting layers that amplified this loop are documented in [[wiki/timeline/events/eli-incident]].
 

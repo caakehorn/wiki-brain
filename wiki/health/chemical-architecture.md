@@ -80,7 +80,7 @@ withdrawal, and a separate $35 personal-cash Suboxone handoff to a customer
 happened the same night. Dealer relationships (e.g.
 [[wiki/people/johnny-dealer]], ~3,462 messages) carried significant
 message-volume weight for years, and the 2017–18 period ran on drug-fronts
-as informal credit. In the Annie terminal phase, procurement logistics were
+as informal credit. In the [[wiki/people/annie-ulmer|Annie]] terminal phase, procurement logistics were
 explicitly one of the last living tethers of the relationship
 ([[wiki/mind/synthesis/attachment-trauma-bond]]).
 

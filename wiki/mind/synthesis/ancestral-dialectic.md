@@ -37,8 +37,9 @@ documented threads together, to be worth keeping queryable.
 
 ## The two inheritances
 
-**The paternal line** — [[wiki/self/ancestry|David J. Frank (b. 1892,
-Russia) and Sadie Harris (b. 1900, Austria)]], fleeing the 1880s–1900s
+**The paternal line** — [[wiki/people/david-j-frank|David J. Frank]] (b. 1892,
+Russia) and [[wiki/people/sadie-harris|Sadie Harris]] (b. 1900, Austria),
+fleeing the 1880s–1900s
 Russian pogroms into the Fayette County coal patch — is read as encoding
 a "syntax of suffering": hypervigilant pattern-recognition as a survival
 tool for populations who could not out-fight the threat, only out-think
@@ -92,7 +93,7 @@ scale:
 |-------|-----------|----------------------|
 | 1. Ecstatic rise | Relocation + new relationship; novelty-seeking activates | Zazza building move with Alexis, 2011 |
 | 2. Aesthetic domestic phase | Stability that is really dissociation — "cozy apathy, chemical sedation" | The Zazza years; arguably the early NYC-II Annie years |
-| 3. Rupture | External resource (money or trust) runs out, piercing the dissociative buffer | Alexis: "funds dry up." Annie: the Eli discovery |
+| 3. Rupture | External resource (money or trust) runs out, piercing the dissociative buffer | Alexis: "funds dry up." Annie: the [[wiki/people/eli|Eli]] discovery |
 | 4. Collapse and return | Forced relocation to Fayette County; relationship enters a stalled "static loop" | Post-Alexis PA return, 2013; post-Eli PA return, Feb 2025 |
 
 The pattern-match is clean enough on the two relationships already fully

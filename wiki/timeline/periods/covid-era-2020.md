@@ -59,7 +59,7 @@ detail.
 
 Confined to a small radius with reduced routine structure, the same year
 produced the [[wiki/timeline/periods/2020-2021-market-era|market era]]:
-the FSLY tip from Jerad Friedline (September 2020), the Robinhood account
+the FSLY tip from [[wiki/people/jerad-friedline|Jerad Friedline]] (September 2020), the Robinhood account
 that would peak near $25k by January 2021, and the meme-stock eruption
 that gave the isolated, routine-starved system a new object to apply its
 pattern-recognition engine to. The timing is not incidental — the market

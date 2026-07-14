@@ -98,7 +98,7 @@ suspicion as a manager's unverified demand
 ## Function and cost
 
 The skepticism powers the forensic default and demonstrably works — the
-drawer contradiction was caught in real time, and the Anita blame-pivot
+drawer contradiction was caught in real time, and the [[wiki/people/anita|Anita]] blame-pivot
 pattern was mapped before it reached him. The documented costs: career
 friction at every job in the record, an unemployability-by-temperament the
 dossiers state flatly ("fundamentally unfit for traditional labor...

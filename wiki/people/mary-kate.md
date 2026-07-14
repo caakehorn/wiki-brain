@@ -18,7 +18,7 @@ related: ["wiki/self/context-core", "wiki/self/chats/danfrank-isms-pinned", "wik
 - Part of pinned chats pattern for granular extraction (Danfrank-isms, Extract Messages, Max).
 - Ties to operating_manual contact graph, message CSVs, social engineering / psych warfare themes.
 - MAX_PRIME context: "Felix" supply-adjacent; similar persona intensity for cultural figures.
-- [[wiki/self/context-core]] social graph expansion beyond core (Tom, Suz, Annie, Jerad, family).
+- [[wiki/self/context-core]] social graph expansion beyond core (Tom, Suz, [[wiki/people/annie-ulmer|Annie]], Jerad, family).
 
 ## Behavioral / Synthesis Notes
 

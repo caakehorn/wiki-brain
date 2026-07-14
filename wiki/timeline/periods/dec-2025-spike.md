@@ -17,7 +17,7 @@ related: ["wiki/mind/concepts/attachment-model", "wiki/people/annie-ulmer", "wik
 2025-12-01 to 2025-12-31
 
 ## Defining characteristics
-4,657 messages — the corpus peak month (Dan 2,391 / Annie 2,266, ratio 1.06:1 per the final dossier's monthly table). Volume spike at near-parity: real mutual reinvestment, six months before closure.
+4,657 messages — the corpus peak month (Dan 2,391 / [[wiki/people/annie-ulmer|Annie]] 2,266, ratio 1.06:1 per the final dossier's monthly table). Volume spike at near-parity: real mutual reinvestment, six months before closure.
 
 ## Data profile
 From LIFE calendar: 2025 total 259 events (high; Sep 97/Oct 58/Dec 35). Relationship 266 overall, cheating/affair 84. From annie_all_time_logs.csv (terminal extract) and MasterRecord_FINAL: Dec 2025 peak **4,657 messages** (highest of any month in the record). The dossiers characterize it as holiday crisis management at high volume and near parity — the sharp asymmetry begins immediately after (Jan 1.31:1 → Feb 1.92:1, Annie's engagement halving while Dan's held constant). The spike directly contradicts any retrospective narrative of gradual mutual disengagement, and it sits inside the window of the concealed terminal-phase third-party relationship and the two written denials (Nov 2025, Feb 2026). 37 CSVs + annie logs + FB cross.

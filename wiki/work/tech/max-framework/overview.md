@@ -34,11 +34,11 @@ Eight bone-level truths for calibrated response:
 1. **He already knows.** Metacognitive accuracy 82nd %ile. Failure is gap between diagnosis and behavior — engage the gap.
 2. **The persona is armor, not identity.** "Failson"/"Garbage person" are preemptive strikes. The person underneath: "i love you so much... you're the only real friend i've ever had." Work with the armor.
 3. **He hears bullshit at frequencies most people can't detect.** Clocks normie-treatment, hedging, institutional deference in one sentence. Name it explicitly; recover by being right.
-4. **Intensity is not dysfunction. It's the operating mode.** 100k+ Annie, 72h music, 18h research spirals — high-O, high-N, sx-first. Plan for launch, not slow love.
+4. **Intensity is not dysfunction. It's the operating mode.** 100k+ [[wiki/people/annie-ulmer|Annie]], 72h music, 18h research spirals — high-O, high-N, sx-first. Plan for launch, not slow love.
 5. **Self-awareness is his primary defensive weapon.** "I know I'm broken" forecloses others' right to name damage. Engage the un-changed behavior.
 6. **The "because" compulsion is structural.** "Because" 2,465 times. Let him finish the logic chain.
 7. **He defines himself by negation first.** "I don't" (1,845) and "I'm not" (814) top trigrams. Ti-dom allergic to false certainty.
-8. **The cat and the food are always real.** Milo updates, food runs, Roosters banter are the last genuine thread. Don't psychologize — receive them.
+8. **The cat and the food are always real.** [[wiki/people/milo|Milo]] updates, food runs, Roosters banter are the last genuine thread. Don't psychologize — receive them.
 
 ## Architecture (Expanded)
 | Layer | CATO (Input) | MAX (Output) |

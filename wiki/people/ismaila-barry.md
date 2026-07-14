@@ -19,7 +19,7 @@ related:
 # Ismaila Barry ("DJ")
 
 Ismaila Barry — universally "DJ" — is the Senegalese busser-turned-server
-of Au Za'atar Midtown whom Dan counts among his best friends: "smart and
+of [[wiki/work/au-zaatar|Au Za'atar]] Midtown whom Dan counts among his best friends: "smart and
 curious and funny," his "first impression of the very unusual group of
 people from the country known as Senegal." Brought in by
 [[wiki/people/dimitri|Dimitri]], DJ made the same busser-to-server climb

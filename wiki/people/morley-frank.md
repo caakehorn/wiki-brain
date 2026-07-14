@@ -25,7 +25,7 @@ Paternal grandfather of Dan Frank. Born 20 August 1927, Brownsville, Fayette Cou
 - 1998-12-13: Death, Hopwood.
 
 ## Notes
-Key link in paternal Jewish immigrant line (father David J. Frank b.1892 Russia; mother Sadie Harris b.1900 Austria). Multi-generational Fayette County PA presence (Brownsville → Hopwood → Uniontown cluster). Death notice and records corroborate family continuity into Rick's generation.
+Key link in paternal Jewish immigrant line (father [[wiki/people/david-j-frank|David J. Frank]] b.1892 Russia; mother [[wiki/people/sadie-harris|Sadie Harris]] b.1900 Austria). Multi-generational Fayette County PA presence (Brownsville → Hopwood → Uniontown cluster). Death notice and records corroborate family continuity into Rick's generation.
 
 Cross to [[wiki/self/ancestry]] for full extraction and [[wiki/people/rick-frank]] (son).
 

@@ -128,3 +128,10 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - New page wiki/people/gabe.md — sourced from Dan's own words in raw/self/dox-md/Max.md ("my cat gabe was named for douchebag cobra starship singer and fucking rad midtown singer Gabe Saporta"), completing the Milo/Gabe/Max naming-pattern picture, plus the MAX_PRIME.md "food and the cat are always real" line, which previously read as an unexplained inconsistency on wiki/people/milo.md (Milo is a dog) — now correctly attributed to Gabe.
 - Cross-linked wiki/people/milo.md ↔ wiki/people/gabe.md; updated wiki/people/index.md and index.md people count (146→147).
 - Lint 0 errors, 24 warnings (no change).
+
+## [2026-07-14] lint | wiki-wide | expanded cross-linking pass
+- User feedback: the wiki has been too conservative about wikilinking entity mentions in prose. Ran a scripted first-mention linking pass across 66 files (188 candidate pages scanned, excluding archive/ and contacts/ quarantine) using a curated alias table of ~35 high-confidence entity names (people, key concepts, Au Za'atar, BFS Foods) mapped to their canonical wiki paths.
+- 111 new wikilinks added, first mention per page only, skipping self-links, headings, code blocks, and any target already linked elsewhere on the page (this correctly avoided a false-positive link on "Jacobsen, Annie" in the books want-to-read table).
+- Caught and fixed one real bug from the pass: wiki/mind/synthesis/ancestral-dialectic.md had a pre-existing wikilink whose label spanned a line break (`[[wiki/self/ancestry|David J. Frank (b. 1892,\nRussia) and Sadie Harris...]]`); the line-by-line script didn't detect the still-open bracket from the previous line and nested a new link inside it. Fixed by splitting into two separate, more precise links (David J. Frank + Sadie Harris to their own people pages) instead of the single broad ancestry-page link.
+- Verified wiki-wide bracket balance and no remaining nested-link patterns before committing. Lint 0 errors, 24 warnings (no change).
+- Workflow change per user instruction: committing directly to `main` from here rather than opening a PR per change.

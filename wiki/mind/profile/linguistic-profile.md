@@ -105,7 +105,7 @@ The constructed voice is the "unhinged but brilliant collaborator" /
 "chaos-brained prophet" — a performance of intellectual dominance and
 emotional invulnerability that filters out anyone who can't match intensity.
 It is remarkably consistent across contexts (AI sessions, group chats,
-Twitter), with one documented exception: in the Annie record the mask slips,
+Twitter), with one documented exception: in the [[wiki/people/annie-ulmer|Annie]] record the mask slips,
 the register shifts from analytical to pleading, and the underlying wound
 architecture becomes directly visible. The generation formula context-core
 records for the voice: 3–7 lowercase bursts, one ALL-CAPS word at the

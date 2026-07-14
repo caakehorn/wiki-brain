@@ -52,7 +52,7 @@ than an analytical chassis. Detail at
 
 **The Operating Manual** (`operating_manual.md`, v9.0, "Empirical
 Stylometric Extraction") — the practical source code companion to the
-archetype profiles: granular iMessage-derived biography (the Annie golf-course
+archetype profiles: granular iMessage-derived biography (the [[wiki/people/annie-ulmer|Annie]] golf-course
 genesis, the 2017 poverty floor, the 2020–21 market era, the 2024 Trump-
 shooting burst), the contact graph with handles, self-designations
 ("Failson," "Autistic Truth Seeker"), named behavioral constants ("Evangelist
@@ -80,7 +80,7 @@ session holds 77+ nodes under explicit "Lossless Ingestion / Zero
 Consolidation" flags, accumulating toward a persistent world-model
 (the "Post-Pax Americana" frame). Named memory nodes — Separation Logistics,
 The Loop, The Betty Event — are locked into profile state with deliberate
-redaction control for cross-model export ("the 'Eli' variable has been
+redaction control for cross-model export ("the '[[wiki/people/eli|Eli]]' variable has been
 purged from the dataset").
 
 ## The naming ceremony

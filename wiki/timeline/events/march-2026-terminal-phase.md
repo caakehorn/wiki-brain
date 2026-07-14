@@ -25,7 +25,7 @@ related:
 
 # March 2026 — The Terminal Phase Peak
 
-The last sixteen days of the documented Dan–Annie record (which runs
+The last sixteen days of the documented Dan–[[wiki/people/annie-ulmer|Annie]] record (which runs
 November 28, 2015 – March 16, 2026) contain the relationship's most
 concentrated gaslighting events. The dossiers treat this fortnight as the
 dynamic distilled: extraction, ambiguity, and the systematic prevention of

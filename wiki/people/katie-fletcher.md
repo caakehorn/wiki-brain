@@ -19,7 +19,7 @@ related:
 
 Katie Fletcher was Dan's interim girlfriend of roughly 2013 — the bridge
 relationship inside a fracture of the [[wiki/people/alexis-armel|Alexis]]
-years, before Alexis resumed and, ultimately, before Annie. The record's
+years, before Alexis resumed and, ultimately, before [[wiki/people/annie-ulmer|Annie]]. The record's
 characterization is unsparing in both directions: she was "square,"
 operating at nothing like Dan's intensity, and precisely that made her a
 functional stabilizer for an interim era. Two documented stories carry the

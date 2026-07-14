@@ -81,9 +81,9 @@ Not a full multi-product Takeout; no YouTube, Gmail, Drive, Photos etc. in this 
 | Pre / Origin (FB documented) | ~2010-2013 | N/A (loc starts 2014) | FB profile: Brooklyn Jan 2010; hometown Uniontown; events 2012-2014 (e.g. Jul 2014, Feb 2013). FB security logins start sparse ~2022 in export. |
 | 2014-2016 ramp | 2014-16 | 662 | Early PA cluster; FB events align data start. |
 | 2017-poverty-floor + 2018-deep-cycle | 2017-18 | 2,827 | Highest volume; local Uniontown/Farmington heavy (e.g. 73 Smith School House Rd 206, 117 Belmont 246). High mobility pre-NYC move. |
-| NYC chapter (2019-Feb 2025) | 2019-23 | ~2,593 (2019-23) | 307 E 76th 1,082; Au Za'atar 445; 1063 1st Ave. FB profile "current city New York". Low 2020-21 (85+257). 2022-23 high (806+728). |
+| NYC chapter (2019-Feb 2025) | 2019-23 | ~2,593 (2019-23) | 307 E 76th 1,082; [[wiki/work/au-zaatar|Au Za'atar]] 445; 1063 1st Ave. FB profile "current city New York". Low 2020-21 (85+257). 2022-23 high (806+728). |
 | 2021-2023-employment-block | 2021-23 | ~1,791 | Lower than 17-18 peaks; concentrated home/work pins. Resurgence despite block. |
-| 2025-collapse / post | 2024- | Low | 2024 17; return to 337 Saratoga noted in core; loc export cutoff post-Feb 2025 PA return + Annie events. |
+| 2025-collapse / post | 2024- | Low | 2024 17; return to 337 Saratoga noted in core; loc export cutoff post-Feb 2025 PA return + [[wiki/people/annie-ulmer|Annie]] events. |
 | Ancestry roots overlay | 1988+ | Generational | See below. |
 
 ## Family Geographic Roots (from 23andMe + Ancestry GEDCOM tree)
@@ -91,7 +91,7 @@ Multi-generational concentration in Fayette County PA (Uniontown, Brownsville, H
 
 - Dan born 1988-11-01 Uniontown, Fayette, PA.
 - Father Richard Harrison Frank b.1959 Uniontown; multiple RESI Uniontown 1993-2002.
-- Paternal great-grandparents: David J. Frank (1892 Russia) + Sadie Harris (1900 Austria) — Jewish immigrants to Brownsville/Hopwood PA. Grandfather Morley Jay Frank (1927 Brownsville – 1998 Hopwood).
+- Paternal great-grandparents: David J. Frank (1892 Russia) + [[wiki/people/sadie-harris|Sadie Harris]] (1900 Austria) — Jewish immigrants to Brownsville/Hopwood PA. Grandfather Morley Jay Frank (1927 Brownsville – 1998 Hopwood).
 - Maternal: Fran Whyel (Jesse Frances Thomas Whyel /Coldren, 1920 Fort Martin WV – 2018 Uniontown); mother Suzanne.
 - Core match: 337 Saratoga (family-built), Uniontown addresses dominate loc visits + FB hometown.
 

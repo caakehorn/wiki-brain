@@ -26,7 +26,7 @@ The "conflict architecture" refers to the involuntary cognitive process by which
 
 ## Corpus Evidence
 
-The following metrics are drawn from the Annie message corpus and document the behavioral fingerprint of this architecture in a high-stakes relational environment.
+The following metrics are drawn from the [[wiki/people/annie-ulmer|Annie]] message corpus and document the behavioral fingerprint of this architecture in a high-stakes relational environment.
 
 | Metric | Value | Source |
 |---|---|---|
@@ -74,6 +74,6 @@ What makes this architecture resistant to resolution is that insight feeds it ra
 
 ## Gaslighting Amplification (Terminal Phase)
 
-The Eli affair amplified this architecture to its worst mode. Dan's accurate perceptual outputs — his forensic detection of deception — were systematically reframed by Annie as "paranoia" and "mental illness." The engine was running correctly, and its outputs were being weaponized as evidence against its own operator. Annie's withdrawal pattern during high-stakes moments compounded this: her ghosting and silence generated distress responses from Dan, which she then engaged as the primary event ("I can't talk to you when you're like this"), never addressing the antecedent silence that produced them — in 94 documented opportunities, zero acknowledgments of the silence as cause. The final dossiers name the exploited mechanism precisely: the "controlled void" withheld even a yes/no because Annie knew the engine could not tolerate open loops, guaranteeing hypervigilance until she chose to re-enter on her own terms. See [[wiki/timeline/events/eli-incident]] and [[wiki/mind/concepts/attachment-model]] for the full gaslighting record.
+The [[wiki/people/eli|Eli]] affair amplified this architecture to its worst mode. Dan's accurate perceptual outputs — his forensic detection of deception — were systematically reframed by Annie as "paranoia" and "mental illness." The engine was running correctly, and its outputs were being weaponized as evidence against its own operator. Annie's withdrawal pattern during high-stakes moments compounded this: her ghosting and silence generated distress responses from Dan, which she then engaged as the primary event ("I can't talk to you when you're like this"), never addressing the antecedent silence that produced them — in 94 documented opportunities, zero acknowledgments of the silence as cause. The final dossiers name the exploited mechanism precisely: the "controlled void" withheld even a yes/no because Annie knew the engine could not tolerate open loops, guaranteeing hypervigilance until she chose to re-enter on her own terms. See [[wiki/timeline/events/eli-incident]] and [[wiki/mind/concepts/attachment-model]] for the full gaslighting record.
 
 > **CONTRADICTION (with attachment-model):** The conflict engine treats emotional bids as propositions requiring resolution. This directly collides with the attachment architecture, which has no internal halt condition or counter-rule issuance pathway. The two systems are mutually amplifying rather than self-correcting.

@@ -36,7 +36,7 @@ The "Contact Gini" concept refers to the application of the Gini coefficient to 
 |---|---|---|
 | Contact Gini coefficient | 0.961 | Dan Profile |
 | Unique contacts in master dump | ~496 | MASTER_MESSAGES_DB_DUMP.csv |
-| Annie relationship events | 266 | LIFE_EVENTS_CALENDAR.md |
+| [[wiki/people/annie-ulmer|Annie]] relationship events | 266 | LIFE_EVENTS_CALENDAR.md |
 | Total calendar events | 1,104 | LIFE_EVENTS_CALENDAR.md |
 | Total unique contacts in calendar | 66 | LIFE_EVENTS_CALENDAR.md |
 
@@ -46,12 +46,12 @@ The "Contact Gini" concept refers to the application of the Gini coefficient to 
 |---|---|---|---|
 | Annie (PA handle `+17244346811`) | 31,177 | Primary partner | MASTER_MESSAGES_DB_DUMP.csv |
 | Annie (NYC handle `+12124702449`) | 17,145 | Primary partner | MASTER_MESSAGES_DB_DUMP.csv |
-| Kristin (`+13307038747`) | 16,563 | Secondary contact (friend of Tom) | tom_kristin_master_dossier.md |
+| [[wiki/people/kristin|Kristin]] (`+13307038747`) | 16,563 | Secondary contact (friend of Tom) | tom_kristin_master_dossier.md |
 | Frequent PA Contact (`+17249204125`) | 4,812 | Logistical/work contact | MASTER_MESSAGES_DB_DUMP.csv |
-| Tom Maison (`+17249987341`) | 4,160 | Primary male ally | MASTER_MESSAGES_DB_DUMP.csv |
+| [[wiki/people/tom|Tom Maison]] (`+17249987341`) | 4,160 | Primary male ally | MASTER_MESSAGES_DB_DUMP.csv |
 | Johnny (`+17243223678`) | 3,462 | Transactional dealer node | MASTER_MESSAGES_DB_DUMP.csv |
-| Suzanne Frank (`+17243228715`) | 2,391 | Mother | MASTER_MESSAGES_DB_DUMP.csv |
-| Jerad Friedline (`+19165013615`) | 879 | Childhood friend | MASTER_MESSAGES_DB_DUMP.csv |
+| [[wiki/people/suzanne-frank|Suzanne Frank]] (`+17243228715`) | 2,391 | Mother | MASTER_MESSAGES_DB_DUMP.csv |
+| [[wiki/people/jerad-friedline|Jerad Friedline]] (`+19165013615`) | 879 | Childhood friend | MASTER_MESSAGES_DB_DUMP.csv |
 
 ## Narrative
 
@@ -73,4 +73,4 @@ To mitigate the risks of extreme relational concentration, the subject has initi
 
 > **CONTRADICTION:** The Gini coefficient of 0.961 is derived entirely from pre-closure data. Following the closure event on June 1, 2026, the primary communication node was removed. No updated Gini coefficient has been calculated against post-closure behavioral data, such as recent Twitter activity, current work projects, or subsequent logs with Tom.
 
-> **REVISED [2026-06-23]:** The relational volume table has been updated to reflect the master CSV extraction. This correction establishes the concentration of Annie's dual handles at over forty-eight thousand messages and locks Kristin's volume to her specific handle, correcting a prior reference to Jerad. Emerging work nodes from the BFS foods transition, including Anita, Brandon, Kim, and Marty, have been introduced as potential sources of relational redundancy.
+> **REVISED [2026-06-23]:** The relational volume table has been updated to reflect the master CSV extraction. This correction establishes the concentration of Annie's dual handles at over forty-eight thousand messages and locks Kristin's volume to her specific handle, correcting a prior reference to Jerad. Emerging work nodes from the BFS foods transition, including [[wiki/people/anita|Anita]], Brandon, Kim, and Marty, have been introduced as potential sources of relational redundancy.

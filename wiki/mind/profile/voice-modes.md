@@ -122,5 +122,5 @@ acknowledges the spike ("...sorry, that was a lot. I'm breathing now.").
 This recovery signature — self-aware, immediate, and typically Reflective
 in register — is itself a diagnostic marker worth cross-referencing
 against the exit-declaration and re-engagement pattern documented for the
-Annie relationship in [[wiki/mind/concepts/conflict-architecture]], where
+[[wiki/people/annie-ulmer|Annie]] relationship in [[wiki/mind/concepts/conflict-architecture]], where
 the same cooling-down shape recurs at a much larger scale.

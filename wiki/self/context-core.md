@@ -104,12 +104,12 @@ Pivot words `actually` / `honestly` / `literally` mark the turn from cynical obs
 | [[wiki/people/tom]] (Tom Maison) | Primary male ally, safe attachment, first-call for major events; drug supply line; Ohiopyle excursions; ~3 weeks older, Pittsburgh area | ~16,563 msgs (rank 4) |
 | [[wiki/people/suzanne-frank]] (Suzanne Frank, mother) | Realtor, primary financial line, oscillates savior↔adversary; "Blue MAGA wine mom," functional alcoholic; selling 337 Saratoga Dr (June 2026) | High |
 | [[wiki/people/jerad-friedline]] | Childhood friend (Sacramento); married, one daughter; e-commerce; political mirror; FSLY tip; "josh brannan is innocent.wav" last exchange | High (first-call) |
-| [[wiki/people/annie-ulmer]] (Anne Ulmer) | Decade-defining relationship ~2015–2026, met via [[wiki/people/alexis-armel|Alexis]]; closed June 1, 2026 (group chat); defamation confirmed; Eli affair central — the gaslighting outweighed the affair | 126k+ msgs |
+| [[wiki/people/annie-ulmer]] (Anne Ulmer) | Decade-defining relationship ~2015–2026, met via [[wiki/people/alexis-armel|Alexis]]; closed June 1, 2026 (group chat); defamation confirmed; [[wiki/people/eli|Eli]] affair central — the gaslighting outweighed the affair | 126k+ msgs |
 | [[wiki/people/rick-frank]] (father) | Periodic low-intensity contact; undischarged paternal-authority wound | Low |
 | Vanessa (sister) | Vail, ski school; minimal presence | Low |
 | [[wiki/people/fran-coldren]] (great-grandmother) | d. April 2018 age ~97–98; self-described biggest life influence; dirt-poor WV → coal-baron marriage; gifted the Numark NS7; seven-day deathwatch with Annie | High |
 
-Lower-resolution contacts with known gaps: Chris James. (The former "Ismaila" gap is resolved: Ismaila Barry = "DJ" of Au Za'atar — [[wiki/people/ismaila-barry]].)
+Lower-resolution contacts with known gaps: Chris James. (The former "Ismaila" gap is resolved: Ismaila Barry = "DJ" of [[wiki/work/au-zaatar|Au Za'atar]] — [[wiki/people/ismaila-barry]].)
 
 > **CONTRADICTION:** Fran Whyel's 2018 death vs. a potential oral-history conflict on age/year remains unresolved — check against ancestry sources.
 
@@ -148,7 +148,7 @@ Trajectory [DOC]: Republican (parroted) → leaves 2006 → diffuse liberal → 
 
 ## Shibboleths
 
-Freezer phone (run over on Second Ave) · Wall of Despair (Tom's Kristin comment) · FSLY tip from Jerad · Acura Integra correction · "josh brannan is innocent" (sacred joke) · predicted Roe repeal May 2020 · invented "LOSE IT" fake service · OutKast "Chonkyfire" linked to Jerad's ex · Boomer (first cat).
+Freezer phone (run over on Second Ave) · Wall of Despair (Tom's [[wiki/people/kristin|Kristin]] comment) · FSLY tip from Jerad · Acura Integra correction · "josh brannan is innocent" (sacred joke) · predicted Roe repeal May 2020 · invented "LOSE IT" fake service · OutKast "Chonkyfire" linked to Jerad's ex · Boomer (first cat).
 
 ## Notes
 

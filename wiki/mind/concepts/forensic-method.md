@@ -89,7 +89,7 @@ smooth away the signal.
 
 **Relational.** The terminal-phase forensics (Gemini-_07) are the exemplar:
 iterative "clean cut" reports with vector isolation to keep suspicion targets
-from cross-contaminating — the Eli/WhatsApp channel severed as "unrelated
+from cross-contaminating — the [[wiki/people/eli|Eli]]/WhatsApp channel severed as "unrelated
 noise" from the "Target G" architecture (the January 4, 2026 "Suzy" call and
 the ten-day blackout it triggered), the blackout modeled game-theoretically
 as a Grim Trigger (a party calculating that detection cost had become
@@ -116,7 +116,7 @@ The method's most distinctive feature is that it runs on its operator. The
 master forensic prompt was written by Dan *about* Dan — "tell the truth even
 if it is embarrassing, unflattering, or offensive," applied to his own
 100k-message corpus. The Au Za'atar post-mortems narrate his own alibi
-system and sabotage with the same coldness he applies to Anita or the Capitol
+system and sabotage with the same coldness he applies to [[wiki/people/anita|Anita]] or the Capitol
 Police ([[wiki/work/au-zaatar]]). Identity itself is maintained forensically:
 the self-model is whatever survives contact with the primary records, and
 this wiki is the current instantiation of that discipline. Music production

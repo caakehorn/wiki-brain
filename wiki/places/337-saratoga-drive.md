@@ -26,7 +26,7 @@ the GRIPNOTIC basement studio — and, as of June 2026, the house his mother
 with no confirmed plan for where he goes next. No other location carries
 comparable weight in the record: it is where the November 2005 parental
 rupture happened, where the production identity was rebuilt twice, and
-where the post-Annie aftermath is being lived out.
+where the post-[[wiki/people/annie-ulmer|Annie]] aftermath is being lived out.
 
 ## Occupancy history
 
@@ -34,7 +34,7 @@ where the post-Annie aftermath is being lived out.
 |--------|---------|
 | 1996 – Sep 2008 | Childhood/adolescence (moved from 12 Bryer Ave); ski-identity years; the Nov 2005 hinge; left for Full Sail |
 | May 2013 – Jan 2015 | First return from NYC; SLOPPP era; moved out to 155 Virginia Ave |
-| Feb 22, 2025 – present | Post-Eli return from Manhattan; Annie terminal phase and closure; basement studio; vibe-coding and AI work |
+| Feb 22, 2025 – present | Post-[[wiki/people/eli|Eli]] return from Manhattan; Annie terminal phase and closure; basement studio; vibe-coding and AI work |
 
 ## The sale
 
@@ -55,7 +55,7 @@ plan."
 > which the Bacharachs never lived in. What *is* real about this house:
 > Jacob Bacharach's family actually lived down this street as childhood
 > neighbors of the Franks — the basis of the friendship and of Jacob's
-> teen job acting in a commercial for Rick Frank's auto-parts store. The
+> teen job acting in a commercial for [[wiki/people/rick-frank|Rick Frank]]'s auto-parts store. The
 > "coincidence chain" that later surfaced the 155 Virginia Ave overlap
 > started from this real neighbor relationship but resolves to a
 > different address. Full account at [[wiki/people/jacob-bacharach]].

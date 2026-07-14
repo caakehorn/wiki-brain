@@ -85,7 +85,7 @@ the record doesn't support.
 
 The Franki incident became Dan's own shorthand for a specific pattern —
 leaving a long-term partner abruptly for someone new during a moment of
-crisis — and he explicitly invoked it while the Annie relationship was
+crisis — and he explicitly invoked it while the [[wiki/people/annie-ulmer|Annie]] relationship was
 being born. On December 2, 2015, four days into things with Annie, he
 texted a friend: "I had a Franki Faris 2.0 situation earlier today... As
 in - I left Alexis and had an existential meltdown with another girl.

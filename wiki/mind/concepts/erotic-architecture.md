@@ -58,7 +58,7 @@ sexual/social categories instead of arguments or institutions.
 for Dan: every encounter is said to trigger immediate attachment
 imprinting rather than staying casual, which the report uses to explain
 both the intensity of his relationship attachments and the severity of
-the Eli betrayal's impact — not a disappointment but what the source
+the [[wiki/people/eli|Eli]] betrayal's impact — not a disappointment but what the source
 calls a "temple desecration." This reading is consistent with, and gives
 a mechanism for, the attachment-activation asymmetry already documented
 on [[wiki/mind/concepts/attachment-model]] (nothing before Annie

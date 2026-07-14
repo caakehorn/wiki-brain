@@ -10,7 +10,7 @@ related: ["wiki/self/chats/gemini-02", "wiki/people/tarik-fallous", "wiki/people
 
 # Gemini Session 00 — Au Za'atar STORYTIME (Finale)
 
-The closing volume of the Au Za'atar "STORYTIME" — a 781-line, glyph-styled forensic post-mortem of Dan's 41-month (March 2021–August 2024) run as a busser at the restaurant. Session [[wiki/self/chats/gemini-02]] covers the genesis; this one covers the entropy and exit. The restaurant, its owner, and the full staff roster are documented at [[wiki/people/tarik-fallous]] and [[wiki/timeline/periods/2021-2023-employment-block]]; this page keeps the session's distinctive analytical content.
+The closing volume of the [[wiki/work/au-zaatar|Au Za'atar]] "STORYTIME" — a 781-line, glyph-styled forensic post-mortem of Dan's 41-month (March 2021–August 2024) run as a busser at the restaurant. Session [[wiki/self/chats/gemini-02]] covers the genesis; this one covers the entropy and exit. The restaurant, its owner, and the full staff roster are documented at [[wiki/people/tarik-fallous]] and [[wiki/timeline/periods/2021-2023-employment-block]]; this page keeps the session's distinctive analytical content.
 
 ## Corpus Dimensions
 

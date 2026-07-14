@@ -17,7 +17,7 @@ related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/ma
 | Date range | 2018-02+ (peak deep cycle); refs to 2019 |
 | Rank | ~7 in master top |
 | Thread notes | Direct logistics heavy ("On way", "Here", "Come to door", "Grams?"); pricing explicit |
-| Facilitation | Cross +17249204125 Annie thread ( "I’m at Johnny’s", "beat by johnny") |
+| Facilitation | Cross +17249204125 [[wiki/people/annie-ulmer|Annie]] thread ( "I’m at Johnny’s", "beat by johnny") |
 
 **Role:** Dealer (2018 era primary contact). Supplied "b's" (balls/cocaine reference), suboxone strips (8mg for $15, 12mg for $20); fronts, repeated in-person transactions, "French toast diplomacy" per operating manual. 3,462 messages documented in master dump.
 

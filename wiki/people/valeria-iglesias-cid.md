@@ -27,7 +27,7 @@ changelog:
 
 Valeria Iglesias Cid was the 19-year-old Au Za'atar hostess — daughter of
 Chilean laser-surgery figure Dra. Loreto Cid of Concepción — with whom Dan
-had the one affair of the Annie decade that Annie never knew about in
+had the one affair of the [[wiki/people/annie-ulmer|Annie]] decade that Annie never knew about in
 advance: the record's "singular instance of unauthorized infidelity," its
 "total security breach." The affair peaked in the winter 2021–22 Au
 Za'atar cycle and its physical era ended when Valeria returned to Chile —
@@ -56,13 +56,13 @@ also "trying to talk to her boyfriend to see if it works" back in Chile.
 The dynamic in the long-distance record is asymmetric in both directions:
 she oscillated between explicit desire and pragmatism; he offered to book a
 direct JFK flight, told her the color had left his world, swore feelings on
-his dog Milo, and later reported that Spanish itself was "ruined" for him
+his dog [[wiki/people/milo|Milo]], and later reported that Spanish itself was "ruined" for him
 by association.
 
 ## The long tail (2022–2025)
 
 The IG corpus runs straight through the eras the wiki otherwise treats as
-closed: through the Au Za'atar wind-down, the Eli discovery, the return to
+closed: through the Au Za'atar wind-down, the [[wiki/people/eli|Eli]] discovery, the return to
 Uniontown, and the Annie terminal phase, contact persisted at low frequency
 — nail photos, "miss u," "too pretty stop it. omg im dead" (July 2025). At
 some point Dan told the record she is "the person I am supposed to spend my

@@ -21,7 +21,7 @@ related:
 of the Uniontown Country Club fairway — was
 [[wiki/people/fran-coldren|Fran Whyel Coldren's]] home for more than fifty
 years, the command center of the Whyel/Frank family's country-club era, and
-the site of Dan and Annie's paid 24/7 caregiving years (~2015–2018). It is
+the site of Dan and [[wiki/people/annie-ulmer|Annie]]'s paid 24/7 caregiving years (~2015–2018). It is
 also, structurally, where the Dan/Annie relationship was fated: **Annie
 Ulmer's grandparents lived in the directly adjacent house for those same
 five decades**, the two families "super tight for fucking ever." Dan's

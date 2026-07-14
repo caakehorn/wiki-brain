@@ -27,7 +27,7 @@ related:
 **SLOPPP** was Dan's first named production alias: a trap/festival-trap
 project run from SoundCloud (`soundcloud.com/sloppp`) from 2013 until a
 track literally titled "Goodbye Demo," posted December 26, 2015 — one month
-into the Annie relationship, as the MOGZART identity took over. It was the
+into the [[wiki/people/annie-ulmer|Annie]] relationship, as the MOGZART identity took over. It was the
 vehicle for his post-NYC return to production: bootleg reworks of the
 trap-saturation era's biggest names (Baauer, Major Lazer, Zeds Dead, Caked
 Up), original mixes, a weekly mix series, and a signature "SLOPPPED N
