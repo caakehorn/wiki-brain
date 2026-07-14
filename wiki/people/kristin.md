@@ -3,10 +3,10 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-02
+date_modified: 2026-07-14
 date_range_start: 2025-09-01
 date_range_end: 2025-12-10
-sources: ["raw/people/kristin/chimera-genesis-addendum.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/self/dox-md/tom_kristin_master_dossier.md"]
+sources: ["raw/people/kristin/chimera-genesis-addendum.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/tom", "wiki/people/annie-ulmer", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/attachment-trauma-bond"]
 ---
 
@@ -19,6 +19,8 @@ Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] a
 She lives in a rural area outside the city — the corpus has her describing roads with "no fucking lights … for hundreds of miles" and her inability to drive at night — and pieces together income across three jobs: a pharmacy on weekends, DoorDash four days a week, and courthouse work she references having done twice as a legal secretary/legal assistant. She is a mother, and custody and court recur as live stressors in the thread.
 
 > **CONTRADICTION:** A prior version of this page described Kristin as "an ex-Brooklyn librarian living in Pittsburgh." The message corpus does not support this — it shows pharmacy, DoorDash, and courthouse legal-secretary work, and a rural (not Pittsburgh) residence. The librarian claim is unsourced and likely an error; corrected here pending confirmation.
+
+> **REVISED [2026-02-17]:** Per [[wiki/people/tom]] (not the direct Kristin thread, which had already gone dark by then): "Kristin got kicked out of her pharmacy over benzos." One leg of the three-job income stack above no longer holds as of this date.
 
 ## Corpus Dimensions
 
@@ -120,6 +122,7 @@ The terminal exchange produced an explicit but uncharged threat surface on both 
 | Date | Event |
 |------|-------|
 | 2025-09-01 | Thread ignites on iMessage (moving day); early flirtation and an "i'm in love" send; Tom acid-trip reference |
+| 2025-10-02 | Dan tells [[wiki/people/tom]] he and Kristin have "worked out that we are now officially dating" — the relationship's only explicit-commitment milestone |
 | 2025-09 to 2025-11 | Sustained high-intensity flirtation, sexual negotiation, and boundary testing; AI-mediated conflict analysis |
 | 2025-12-07/08 | Asymmetry peaks; Dan pursues, Kristin dismisses |
 | 2025-12-09 | $40 dispute → Wi-Fi hack threat → IC3/DHS links → block |

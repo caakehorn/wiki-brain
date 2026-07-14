@@ -4,7 +4,7 @@ page_type: event
 title: "Au Za'atar (NYC, ~2021–2024)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-14
 sources:
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/TheWaitersVisibleHigh.md
@@ -96,7 +96,10 @@ bond had a specific genesis: Dan describes shedding an admitted prejudice
 about Mexicans by offering bumps to the cooks and bringing in (stolen)
 Takis — "turns out i fucking LOVE mexicans" — friendships he reports
 keeping to this day. Felipe, his "unbelievably gay Colombian bff," joined
-as a server (shattering the old glass door with a table leg on day one),
+as a server (shattering the old glass door with a table leg on day one) —
+though per Dan directly (2026-07-14), contact with Felipe specifically
+did not survive past the job; see [[wiki/people/felipe]] for the
+correction.
 and Suz visited for Dan's birthday to a comped full menu. Around them, the documented
 cast: **Sergio**, a 53-year-old Miami service veteran whose war with Dan
 over the word "dude" escalated into a "nonsense meeting" with Tarik and
@@ -168,10 +171,17 @@ and it was fun and good food and cool mexicans and... valeria." He came in
 the respect of the BOH Mexican squad intact. (The famous "outside bread,"
 he confirms, "obviousLY WAS NOT from outside.")
 
-**Gaps:** his final role title (busser → server, informally); wage/tip
-figures beyond the narrative claims; the Tunisian manager's name. The
-STORYTIME/DANSYNTH record is stylized self-narration through Gemini and
-should be read as memoir, not deposition.
+**On pay:** confirmed by Dan directly (2026-07-14) — base wage was
+$15/hour plus tip pool, with checks (paid weekly, Sundays) typically
+$800–1,000 for a six-day week. Unusually for the industry, the tip pool
+was split equally between servers and bussers rather than weighted toward
+servers — consistent with the "equal FOH tip split" already documented as
+the structural hook that made the job worth staying in.
+
+**Gaps:** his final role title (busser → server, informally); the
+Tunisian manager's name. The STORYTIME/DANSYNTH record is stylized
+self-narration through Gemini and should be read as memoir, not
+deposition.
 
 > **REVISED [2026-07-14]:** the Sergio-mediation mediator is confirmed —
 > Dan's own follow-up in the same session names Ghassan as running most of

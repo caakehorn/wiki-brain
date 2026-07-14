@@ -135,3 +135,52 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - Caught and fixed one real bug from the pass: wiki/mind/synthesis/ancestral-dialectic.md had a pre-existing wikilink whose label spanned a line break (`[[wiki/self/ancestry|David J. Frank (b. 1892,\nRussia) and Sadie Harris...]]`); the line-by-line script didn't detect the still-open bracket from the previous line and nested a new link inside it. Fixed by splitting into two separate, more precise links (David J. Frank + Sadie Harris to their own people pages) instead of the single broad ancestry-page link.
 - Verified wiki-wide bracket balance and no remaining nested-link patterns before committing. Lint 0 errors, 24 warnings (no change).
 - Workflow change per user instruction: committing directly to `main` from here rather than opening a PR per change.
+
+## [2026-07-14] ingest | multi-domain | LIFE_EVENTS_CALENDAR.md event mining pass
+- User request: mine raw data for new discrete life events ("there are hundreds"). Parsed the full 1,104-entry auto-extracted calendar (raw/self/dox-md/LIFE_EVENTS_CALENDAR.md, 175,358 iMessages Nov 2015–Mar 2026) into structured records and read through the highest-signal categories (Death of Person, Pet Loss/Vet Emergency, Divorce, Fired/Laid Off, Arrest, DUI/Ticket, Wedding/Engagement, Started Dating, Breakup, Car Accident, Injury, Major Purchase).
+- Data-quality note for future passes: the calendar's auto-categorization is unreliable — a large fraction of entries are jokes, hyperbole ("hope he dies in a house fire," sarcastic "we're getting married"), or third-party spam (sweepstakes/campaign texts) miscategorized as real life events (e.g. "Promoted" catching two different sweepstakes spam texts). Did not mechanically dump entries; read excerpts and message direction (→/←) to verify each before writing anything as fact.
+- Verified and added 7 new items:
+  - wiki/people/tom.md: new "The DUI (fall 2025 – early 2026)" section — the real Oct 11 2025 Fayette County traffic stop, hearing prep, and PA Supreme Court research behind the previously-unexplained "DUI-court scheduling conflicts" mention in the Collapse section.
+  - wiki/people/milo.md: dated Oct 15 2025 vet visit (Dan → Kristin), extending confirmed Milo-with-Dan custody into the fall-2025 collapse window.
+  - wiki/self/ancestry.md: filled the previously-blank death date for maternal grandfather George Dixon Shrum Jr (~Sept 2025), inferred from a Sept 3 2025 message about "my granfather's funeral" — flagged explicitly as inference, not confirmed by name. Also fixed status: archived → stable (page isn't in an archive/ dir, so the archived label was a pre-existing misclassification).
+  - wiki/people/kristin.md: Feb 17 2026 pharmacy job loss ("kicked out... over benzos," per Tom) and the Oct 2 2025 "officially dating" milestone (Dan → Tom).
+  - wiki/people/annie-ulmer.md: Dec 8 2025 car accident (Dan totals the Honda); a well-corroborated 2019 pregnancy/abortion reference (Dan's own May 31, 2019 message, listed as shared history) — kept explicitly distinct from the already-flagged, unverified 2026 pregnancy claim.
+- Lint 0 errors, 24 warnings (no change; new content stayed within or near existing page budgets).
+- Not yet mined: Financial Milestone (35), Anniversary (22), Graduation/Enrollment (Kristin's courthouse work), Hospitalization (23), Panic Attack (24), and the ~441 "Unknown"-contact entries. Flagging for a future pass if the user wants to continue.
+
+## [2026-07-14] ingest | people | Milo origin story (user clarification)
+- Started a gap-clarification pass: scanned wiki for explicit "**Gaps:**" markers (~40 found) and unresolved/unverified flags, queued them to ask the user one at a time.
+- Gap 1 (Milo's acquisition): user provided the full origin story directly in conversation — found as a starving stray by Claire (Annie's sister, previously undocumented — added as Annie's sister on wiki/people/annie-ulmer.md), runt of the litter with one testicle, the "we are not getting a new dog" Sharpie joke, the one-night foster that became permanent when Milo chose Dan's lap over Annie's scrambled eggs, and the explicit contrast with Betty (pet-store dog, not a rescue, described as "fucking awful"). Rewrote wiki/people/milo.md's opening with this; narrowed the acquisition-date gap to just the exact calendar date (bounded to before Sept 2018).
+- Lint 0 errors, 24 warnings (no change).
+
+## [2026-07-14] add | people | Claire Ulmer entity page (user correction)
+- Fair callout: the point of a second brain is not re-deriving the same person from scratch next time. New wiki/people/claire-ulmer.md (Annie's sister, found Milo as a stray) instead of leaving her as an unlinked plain-text mention on milo.md/annie-ulmer.md. Cross-linked from both.
+- Lint 0 errors, 24 warnings.
+
+## [2026-07-14] add+fix | people+self | Gabe's story, Alex Frank page, ancestry correction
+- Gap 2 (Gabe's acquisition): user provided full origin story — adopted at a Florida shelter the day after Dan arrived in Orlando for Full Sail (Aug 2008), picked by Danielle Onesi for pawing at cats through the bars; Dan's first solid-black, first long-haired cat, moved with him through every relocation. Put down "November 2003" per Dan's message, flagged as almost certainly a typo for November 2023 (Gabe was adopted in 2008) pending confirmation — not silently corrected. Danielle paid for the euthanasia; cross-linked and added to her page. Flagged a real contradiction: MAX_PRIME.md (2026-era) refers to Gabe in the present tense, which sits oddly against a 2023 death.
+- Gap 3 CORRECTED: the earlier inference that the Sept 3, 2025 "frownie cookies...granfather's funeral" message meant the maternal grandfather (George Dixon Shrum Jr) died around then was wrong per the user. It actually references Morley Frank's 1998 funeral, recounted in an essay by Dan's cousin Alex Frank — the auto-extracted calendar dated the entry to when Dan referenced the essay (2025), not when the funeral happened (1998). Reverted the ancestry.md table edit (George's death date is genuinely unknown, restored to blank) with a REVISED blockquote explaining the correction rather than silently deleting the wrong inference.
+- New page wiki/people/alex-frank.md: verified via web search (real person, Brooklyn journalist/editor, FADER Deputy Editor, Vogue.com Deputy Culture Editor, bylines at GQ/Pitchfork/Vogue/NYT Style Magazine/etc.); wrote the Morley Frank funeral essay with the Eat'n Park "Frownie" cookie detail. Added to wiki/people/morley-frank.md with the anecdote; fixed morley-frank.md's status: archived → stable (mislabeled, not in an archive/ dir, same class of error as ancestry.md fixed earlier today).
+- Lint 0 errors, 24 warnings.
+
+## [2026-07-14] ingest | people | Dimitri surname partial + Eli skipped
+- Gap 4 (Eli's surname): user declined to answer ("who knows who cares") — skipped, no change.
+- Gap 5 (Dimitri's surname): partial answer — Greek name starting with "A," not more precisely recalled. Noted on wiki/people/dimitri.md.
+
+## [2026-07-14] ingest | people | Fran Coldren's husband Ira identified
+- Gap 6: confirmed by Dan — Ira was Fran's third husband and the 33rd-degree Mason. Leaves the coal-baron marriage as a separate, still-unidentified earlier husband.
+
+## [2026-07-14] fix | people+work | Felipe contact-status correction
+- Gap 7: Dan confirmed he hasn't spoken to Felipe since leaving Au Za'atar — corrects a wrong prior claim on wiki/people/felipe.md ("belongs to the small circle of AZ-era friendships that outlived the job") and a related ambiguous phrasing on wiki/work/au-zaatar.md. Surname remains unknown to Dan.
+
+## [2026-07-14] ingest | people | Tom's Phil confirmed, girlfriend name clarified
+- Gap 8: Dan confirmed Phil is Tom's father, and that Tom's March 2026 "cabin"/pagan-occult girlfriend is also named Kristin — coincidentally the same first name as, but a completely different person from, wiki/people/kristin.md. Flagged clearly to prevent future confusion between the two.
+
+## [2026-07-14] ingest | work | BFS Foods termination narrowed to May 2026
+- Gap 9: Dan narrowed the termination date to "sometime in May [2026]" — not exact, but tightens the previously-unbounded gap.
+
+## [2026-07-14] ingest | work | Au Za'atar wage/tip details confirmed
+- Gap 10: Dan confirmed $15/hr + tip pool, $800-1,000/week checks (6-day weeks, paid Sundays), and the unusual equal server/busser tip split.
+
+## [2026-07-14] ingest | places | 337 Saratoga Drive sale closed and confirmed
+- Gap 11: Dan confirmed the sale closed June 23, 2026, planned out-date July 1 slipped to actual move-out July 8. Updated wiki/places/337-saratoga-drive.md status: active → closed, resolved the open "no confirmed post-close plan" framing in the intro (463 Morgantown landing status remains a separate open gap).

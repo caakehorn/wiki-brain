@@ -33,10 +33,28 @@ collapse, the Milo updates and the food runs and the Roosters banter are
 the last thread of something genuine... don't psychologize them, just
 receive them."
 
-He was a fixture of the NYC apartment Dan shared with
-[[wiki/people/annie-ulmer|Annie Ulmer]] for years, and surgery records
-place him in Dan's life by at least September 2018 (a two-dog surgery day
-on 2018-09-14, per the message-derived life-events calendar). When the
+**Origin story (per Dan directly, 2026-07-14):** Milo was found as a stray
+by [[wiki/people/claire-ulmer|Claire]], Annie's sister — spotted around her neighborhood by several
+people, clearly not equipped to survive on his own. He turned out to be
+the runt of his litter, with only one developed testicle; a vet later told
+Dan this was likely why his pack had rejected him. When Annie heard about
+the stray Chihuahua she wanted to go see him; Dan was pointedly against
+adopting another dog and made her write "we are not getting a new dog" on
+her own hand in Sharpie before they went. Claire's own dog wouldn't
+tolerate the tiny, starving newcomer in her house, so Dan and Annie agreed
+to take him for one night. That night, while Annie made him scrambled
+eggs, Milo walked over and sat on Dan's lap — the origin point of an
+attachment that has stayed exclusive and intense ever since. Per Dan,
+Milo trusts no one else the way he trusts him, and is "the most loyal,
+loving and best doggo imaginable" — the deliberate opposite, in Dan's own
+framing, of Betty, a pet-store dog (rather than a rescue) he describes as
+having been "fucking awful."
+
+Surgery records place him in Dan's life by at least September 2018 (a
+two-dog surgery day on 2018-09-14, per the message-derived life-events
+calendar) — this predates the household's move to NYC, so Milo was
+acquired during the Uniontown-era relationship and made the move with
+them. He remained a fixture of the NYC apartment for years. When the
 relationship physically split in early 2025 — Annie moving out to live
 with and care for her grandmother Sugie — the dogs split with the
 household: **Milo stayed with Dan**, while Annie kept **Betty** (whose
@@ -64,6 +82,10 @@ tripwire: how a new person reacts to hearing a Chihuahua is named "Milo"
 tells him something about whether they process names/labels or just react
 to them.
 
-**Gaps:** exact acquisition date/circumstances; breed-registry or vet
-details beyond the one 2018 surgery mention; confirmed status after the
-June 2026 relationship closure.
+A second dated vet visit confirms Milo was with Dan through the fall-2025
+Annie collapse: on 2025-10-15 Dan texted [[wiki/people/kristin|Kristin]],
+"Sorry I'm at the vet with milo I'll message you when I get home."
+
+**Gaps:** exact calendar date of the rescue (only bounded to before
+September 2018); breed-registry or vet details beyond the 2018 surgery and
+2025 vet visit; confirmed status after the June 2026 relationship closure.

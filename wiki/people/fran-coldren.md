@@ -7,7 +7,7 @@ status: stable
 importance: critical
 relation_type: family
 date_created: 2026-06-23
-date_modified: 2026-07-13
+date_modified: 2026-07-14
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, maternal-line, influence, music-origin, Uniontown, WV, heritage]
 sources:
@@ -135,7 +135,13 @@ record of them as a couple.
 | 2018-03 | The fall; nursing home; hospital pediatric wing |
 | 2018-04-01/04 | Death, Uniontown Hospital (date contradiction above); snowstorm minutes later |
 
-**Gaps:** which husband "Ira" was (the coal-baron marriage, the 33rd-degree
-Mason third husband, and Ira's law practice with Judge Fred Adams are not
-yet reconciled into one marital sequence); the estate's disposition after
-2018; the exact NS7 gift date.
+**On Ira:** confirmed by Dan (2026-07-14) — Ira was Fran's **third**
+husband, and he was the 33rd-degree Mason. That leaves the coal-baron
+marriage as a separate, presumably earlier husband (first or second),
+not yet identified or placed in sequence; whether Ira is also the "law
+practice with Judge Fred Adams" figure is still unconfirmed but likely,
+given both details cluster around the third-husband period.
+
+**Gaps:** identity of the coal-baron husband and where he falls in the
+marital sequence; confirmation that Ira is the Judge Fred Adams law-practice
+figure; the estate's disposition after 2018; the exact NS7 gift date.

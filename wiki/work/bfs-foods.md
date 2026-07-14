@@ -4,7 +4,7 @@ page_type: event
 title: "BFS Foods (2026): Job, Drawer Dispute, Termination"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-14
 sources:
   - raw/legal/bfs-dispute/BFS_BOOTLOADER_v2.md
   - raw/legal/bfs-dispute/BFS Anita Quagmire strategy and legal exposure.md
@@ -96,7 +96,8 @@ report + next-day verbal demand + no paper trail = error-cover or soft skim
 assigned to the path of least resistance — was formed in real time during the
 original chat and held up through the fuller reconstruction.
 
-**Gaps:** the exact termination date and final payroll disposition are not in
-the corpus; whether the Little Caesars transfer actually materialized after
-June 2026 is undocumented; the true cause of the $50 variance (Brandon's
-preset error vs. recount error) was never established.
+**Gaps:** exact termination date narrowed to "sometime in May [2026]" per
+Dan (2026-07-14), not more precisely dated; final payroll disposition is
+still not in the corpus; whether the Little Caesars transfer actually
+materialized after June 2026 is undocumented; the true cause of the $50
+variance (Brandon's preset error vs. recount error) was never established.

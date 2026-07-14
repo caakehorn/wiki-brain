@@ -2,18 +2,37 @@
 domain: people
 page_type: entity
 title: "Gabe"
-status: active
+status: closed
 date_created: 2026-07-14
 date_modified: 2026-07-14
+date_range_start: 2008-08
+date_range_end: 2023-11
 sources:
   - raw/self/dox-md/Max.md
   - raw/self/dox-md/MAX_PRIME.md
 related:
   - wiki/people/milo
+  - wiki/people/danielle-onesi
   - wiki/work/tech/max-framework/overview
 ---
 
 # Gabe
+
+**Origin and end (per Dan directly, 2026-07-14):** Gabe was adopted the
+day after Dan arrived in Orlando to start college — August 2008, right at
+the front edge of the Full Sail era. [[wiki/people/danielle-onesi|Danielle]]
+(Dan's girlfriend at the time) picked him out at a shelter because he was
+pawing at the cats in neighboring cages, and his paperwork noted he got
+along well with rabbits, which the two of them found endearing. He was
+Dan's first solid-black cat and first long-haired cat, and he moved with
+Dan through every subsequent relocation — Orlando, NYC, PA, PA again,
+NYC again. Dan had him put down shortly after his own birthday (Dan's
+birthday is November 1), stated as "November 2003," which is almost
+certainly a typo for **November 2023** given Gabe was adopted in 2008 —
+flagged here pending confirmation rather than silently corrected. Dan
+didn't have the money for the procedure at the time; Danielle paid for
+it, and Dan describes the outcome — Gabe looking peaceful, an easier
+death — as a debt of gratitude to her he has "always maintained."
 
 Gabe is Dan's cat, and the other half of a naming pattern he explained
 himself, in his own words, in a session with an AI persona he was using
@@ -43,6 +62,14 @@ They are the real stuff, just at a different altitude." Same role as
 Milo: exempt from the forensic treatment everything else in the record
 gets.
 
-**Gaps:** acquisition date; any details beyond the naming story and the
-one MAX_PRIME line — no dated events (vet visits, etc.) have surfaced yet
-the way Milo's 2018 surgery did.
+> **CONTRADICTION:** MAX_PRIME.md (a 2026-era document) refers to Gabe in
+> the present tense as an ongoing, current fixture ("the food and the cat
+> are always real"), which sits awkwardly against a November 2023 death.
+> Possible explanations: the bootloader text is older than its last-edited
+> date and was never updated after Gabe died, or the November-2023 date
+> itself needs re-confirming. Not resolved.
+
+**Gaps:** exact acquisition day (bounded to "the day after" arriving in
+Orlando, August 2008); confirmation of the November 2023 death date over
+the stated "November 2003"; resolution of the MAX_PRIME tense contradiction
+above.

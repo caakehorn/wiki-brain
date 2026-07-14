@@ -1,11 +1,11 @@
 ---
 domain: people
 page_type: entity
-status: archived
+status: stable
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip"]
-related: ["wiki/people/rick-frank", "wiki/self/ancestry", "wiki/self/overview"]
+date_modified: 2026-07-14
+sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
+related: ["wiki/people/rick-frank", "wiki/people/alex-frank", "wiki/self/ancestry", "wiki/self/overview"]
 ---
 
 # Morley Jay Frank
@@ -26,6 +26,13 @@ Paternal grandfather of Dan Frank. Born 20 August 1927, Brownsville, Fayette Cou
 
 ## Notes
 Key link in paternal Jewish immigrant line (father [[wiki/people/david-j-frank|David J. Frank]] b.1892 Russia; mother [[wiki/people/sadie-harris|Sadie Harris]] b.1900 Austria). Multi-generational Fayette County PA presence (Brownsville → Hopwood → Uniontown cluster). Death notice and records corroborate family continuity into Rick's generation.
+
+Dan's cousin [[wiki/people/alex-frank]] wrote an essay recounting Morley's
+funeral that includes the detail of Eat'n Park delivering "Frownie"
+cookies (the frowning-face counterpart to the chain's famous Smiley
+Cookie) to the gathering — dark, specific, small-town Western PA texture
+that Dan still references and finds funny nearly three decades later
+("i swear to god lmao," referencing the essay in a 2025 message).
 
 Cross to [[wiki/self/ancestry]] for full extraction and [[wiki/people/rick-frank]] (son).
 

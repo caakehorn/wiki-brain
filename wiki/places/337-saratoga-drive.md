@@ -2,9 +2,9 @@
 domain: places
 page_type: entity
 title: "337 Saratoga Drive"
-status: active
+status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-14
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -19,11 +19,11 @@ related:
 
 # 337 Saratoga Drive
 
-337 Saratoga Drive, Uniontown PA is the family-built (1996) childhood home,
-Dan's residence for three separate eras of his life, the current site of
-the GRIPNOTIC basement studio — and, as of June 2026, the house his mother
-[[wiki/people/suzanne-frank|Suz]] is selling while he still lives in it,
-with no confirmed plan for where he goes next. No other location carries
+337 Saratoga Drive, Uniontown PA is the family-built (1996) childhood home
+and Dan's residence for three separate eras of his life, including the
+GRIPNOTIC basement studio. His mother [[wiki/people/suzanne-frank|Suz]]
+sold it, closing June 23, 2026; Dan actually moved out July 8, 2026, a
+week past the planned date. No other location carries
 comparable weight in the record: it is where the November 2005 parental
 rupture happened, where the production identity was rebuilt twice, and
 where the post-[[wiki/people/annie-ulmer|Annie]] aftermath is being lived out.
@@ -40,11 +40,14 @@ where the post-[[wiki/people/annie-ulmer|Annie]] aftermath is being lived out.
 
 Buyers Jennifer J. and Scott P. Delverm at **$465k**, contingent on the
 sale of their own property (19 Jeffries, ≤$229.9k) and a bankruptcy
-approval, with a **7-day post-close vacate clause**. Close window: June
-2026. The successor housing — 463 Morgantown St — has its own unresolved
-legal tangle ([[wiki/legal/463-morgantown]]). Context-core carries the
-situation as the acute open variable of mid-2026: "no confirmed post-close
-plan."
+approval, with a **7-day post-close vacate clause**. Confirmed by Dan
+directly (2026-07-14): the sale **closed June 23, 2026** — the
+contingencies evidently cleared — with a planned out-date of July 1
+(consistent with the 7-day vacate clause) that slipped a week to an
+**actual move-out of July 8**. The successor housing — 463 Morgantown St
+— has its own unresolved legal tangle ([[wiki/legal/463-morgantown]]).
+Context-core carries the situation as the acute open variable of mid-2026:
+"no confirmed post-close plan."
 
 ## The Bacharach connection
 
@@ -69,6 +72,5 @@ self-descriptions — the "basement" of the "Autistic Truth Seeker in the
 Basement" archetype and the "made with love and autism in his mom's
 basement" GRIPNOTIC tagline are this specific basement.
 
-**Gaps:** actual close date and whether the contingencies cleared;
-whether Dan's landing is 463 Morgantown or elsewhere; the physical studio
-inventory beyond the Numark NS7.
+**Gaps:** whether Dan's landing is 463 Morgantown or elsewhere; the
+physical studio inventory beyond the Numark NS7.

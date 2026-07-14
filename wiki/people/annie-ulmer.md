@@ -106,9 +106,11 @@ myself. I wanted to be looked at." Dan knew this before they met — his
 ex told him — and was drawn to it rather than troubled by it. Her family
 anchors her Uniontown world: parents whose friendship with Dan's mother's
 circle goes back decades, her grandmother Sugie (a genuine, documented
-caretaking obligation that later doubled as her most-used alibi), a niece
-and nephew she helped care for, and the dog [[wiki/people/milo|Milo]], a fixture of the NYC
-domestic record.
+caretaking obligation that later doubled as her most-used alibi), a sister
+[[wiki/people/claire-ulmer|Claire]], a niece and nephew she helped care
+for, and the dog [[wiki/people/milo|Milo]], a fixture of the NYC domestic
+record — Claire is
+the one who first found Milo as a starving stray in her neighborhood.
 
 The early record is unambiguous about the love being real. On day three
 of the documented corpus (Nov 29, 2015) she wrote "YOU ARE MY EVERYTHING"
@@ -444,7 +446,7 @@ recorded for completeness.
 | 2025-08 | Removes GPS sharing after night at ex's residence; terminal phase begins |
 | 2025-10-26 | DUI stop, Fayette County (docket MJ-14101-CR-0000631-2025) |
 | 2025-11 / 2026-02 | First and second written denials of any third party |
-| 2025-12 | Reinvestment spike — 4,657 messages, corpus peak |
+| 2025-12 | Reinvestment spike — 4,657 messages, corpus peak; Dec 8 car accident, Dan totals the Honda |
 | 2026-01-04/20 | Target G: "Suzy" call, Whisk psyop (shown only to Annie), 10-day blackout |
 | 2026-03-01 – 03-16 | Terminal peak: laundry response, bathroom incident, "YES DAN" confession + Mar 16 retraction ([[wiki/timeline/events/march-2026-terminal-phase]]) |
 | 2026-04-01 | Unresolved third-party contact: a man calls Suz twice overnight looking for Annie |
@@ -482,6 +484,15 @@ and is not adopted as fact here. It is recorded only as an open item
 requiring verification against a primary source before being written
 into any page as established. Annie's post-closure perspective
 consists of a single line: the June 5 apology.
+
+A separate and much better-corroborated pregnancy reference exists much
+earlier in the record: an outbound message from Dan dated 2019-05-31 lists
+"the abortion" alongside Fran's decline and the move to NYC as among the
+major things the two of them "have gone through together" by that point —
+a passing, unremarked mention (not a chat-analysis claim) that reads as
+Dan referencing settled shared history rather than disclosing something
+new. No other source read so far elaborates on it; treat as established
+that it happened, circa 2019, with no further documented detail.
 
 ## Notes
 
