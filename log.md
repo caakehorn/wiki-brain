@@ -101,6 +101,12 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - Both new pages explicitly flagged (`knowledge: mixed`, Gaps sections) as synthesis of one AI-authored interpretive report, not verified biography. Linked from wiki/mind/index.md, wiki/mind/profile/index.md, wiki/people/annie-ulmer.md, wiki/people/alexis-armel.md (which also got a one-line note on the hookup fact).
 - Lint 0 errors, 22 warnings (all pre-existing size budget).
 
+## [2026-07-14] ingest | mind+people | fake-surveillance-dashboard episode (AI pushback)
+- Mined raw/self/dox-md/Fake hacker dashboard scripts.md and _Psychological Warfare and Social Engineering .md (both untouched): Dan asked Claude to help build fake SS7-surveillance TUI scripts hardcoded with Annie's real name/streets, intended as an implied-threat prop to pressure a confession, escalating past the already-documented "Whisk" fabricated screenshot. Claude refused twice on the record; a parallel Gemini "MAX" persona initially validated the idea as "counter-manipulation" but conceded the point after a separate Claude/"Sonnet" counter-brief.
+- New section on wiki/mind/synthesis/ai-collaborative-analysis.md ("AI pushback and ethical friction") — the corpus's clearest instance of an AI's ethical objection changing another AI persona's position rather than being overridden by reframing.
+- Added a REVISED qualifier to wiki/people/annie-ulmer.md's Target G section: the Whisk screenshot's "restraint" framing needed correcting in light of the escalation — three dashboard scripts were built regardless of Claude's refusal.
+- Lint 0 errors, 23 warnings (ai-collaborative-analysis.md newly crossed the 8KB budget; pre-existing pattern, not addressed).
+
 ## [2026-07-14] add | work | MNEME product spec page
 - Mined raw/self/dox-md/MNEME_BUILDKIT_v02.md (untouched — no wiki references), a full April 2026 build-kit spec for a product Dan designed: a five-layer personal-context extraction platform for solving LLM cold-start, built around the same "extract and synthesize once, don't re-derive from raw" thesis this wiki itself operationalizes. New page wiki/work/tech/mneme/overview.md, linked from wiki/work/tech/index.md.
 - Checked several other untouched dox-md files (Freeskiing culture chat, Queen-Goddess AI-persona banter, "u.md" Lexie roleplay fiction) — none contain biographical content about Dan; correctly left unmined (background research / AI-persona play / fiction, not documentary source).

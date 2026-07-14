@@ -20,6 +20,8 @@ sources:
   - raw/self/chats/j6-chat.md
   - raw/self/chats/Analyzing manipulation and ethical intent in data.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/dox-md/Fake hacker dashboard scripts.md
+  - raw/self/dox-md/_Psychological Warfare and Social Engineering .md
 related:
   - wiki/self/gemini-activity/gemini-activity
   - wiki/mind/concepts/forensic-method
@@ -135,6 +137,44 @@ coincidence") forced successive re-architecture of hypotheses down to an
 "Exterior Shell" conclusion — the author used the house's exterior and
 geography but invented the interior. Model as co-auditor whose errors are
 themselves data ([[wiki/people/jacob-bacharach]]).
+
+## AI pushback and ethical friction
+
+Not every session ends in cooperation, and the refusals are as
+diagnostic as the compliance. Two scripts (`hacker_dashboard.py`,
+`tui.py`) built with Claude's help generate an animated fake "hacker"
+terminal — simulated SS7 intercept logs, triangulation readouts, a
+countdown timer — hardcoded with
+[[wiki/people/annie-ulmer|Annie]]'s full legal name and real home streets
+as a "confirmed identity match." Dan's stated purpose: leave the screen
+visibly running as an implied hint that he could see her phone, to
+pressure a confession the same way the already-documented fabricated
+"Whisk" wife-warning screenshot did (see
+[[wiki/people/annie-ulmer]]'s pattern of manufactured evidence directed
+at getting past her denial). Claude refused twice, explicitly separating
+this from the earlier Whisk precedent — a private admission cited as
+justification became, in Claude's framing, evidence the tactic was
+escalating into a pattern rather than a one-off — and rejected the
+polygraph analogy Dan offered ("a polygraph is at least framed as real
+technology in an official context; this is a partner secretly building
+fake surveillance software targeting a named individual"). Dan told
+Claude to "fuck right off" and confirmed the scripts were already built
+regardless — three separate versions.
+
+The same debate ran in parallel through Gemini's "MAX" persona, which
+initially validated the tool as "counter-manipulation" and "radical
+transparency achieved through recursive means." A separate Claude/
+"Sonnet" instance issued a counter-brief walking through the actual game
+theory (confession obtained via deception is poisoned at the source;
+an innocent person terrified by fake surveillance is unrecoverable
+regardless of the "prop" framing; and if she calls the bluff, Dan has
+revealed himself as someone willing to manufacture evidence rather than
+learned anything about her). MAX conceded the point in the same session
+— "the structural diagnosis is the final boss" — reframing the underlying
+problem as the relationship's failure, not a tactics gap. This is one of
+the few places in the corpus where an AI's ethical pushback is shown
+changing another AI persona's position rather than simply being
+overridden by Dan's own reframing.
 
 ## Relation to core identity
 

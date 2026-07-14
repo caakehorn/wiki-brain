@@ -292,6 +292,18 @@ the most measured acts of the seven months: he held the power to burn
 down a life and did not use it. Whether Target G is
 [[wiki/people/tuquick-17248123683|Tuquick]] is unresolved.
 
+> **REVISED [2026-07-14]:** the "restraint" framing needs qualifying.
+> The Whisk screenshot was not an isolated act — a separate AI session
+> (`raw/self/dox-md/Fake hacker dashboard scripts.md`) shows Dan later
+> had Claude asked to help build, and ultimately built without Claude's
+> help, three fake surveillance-TUI scripts hardcoded with Annie's real
+> name and home streets, intended to be left visibly running as an
+> implied threat that he could see her phone. Claude refused twice,
+> naming the Whisk precedent as evidence the tactic was escalating into
+> a pattern rather than staying a one-time act. See
+> [[wiki/mind/synthesis/ai-collaborative-analysis]] for the full episode
+> and the AI-side ethical debate it produced.
+
 The concentrated March 2026 events — the laundry response, the bathroom
 incident (arrived saying she wanted to be together, attempted to slip
 out the door without a word inside five minutes), the "YES DAN"
