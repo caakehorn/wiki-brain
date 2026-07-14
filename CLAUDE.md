@@ -6,7 +6,7 @@ in detailing everything about its creator, Dan Frank.
 It seeks to define and provide complete context for his life - biography, history, cognitive traits, ideology, tendencies and all other datapoints which point back to the real world individual. 
 
 As an ongoing project, this wiki strives to gradually fill in any and all knowledge gaps about Dan, as well as continuously update with realtime information as time passes.  
-## iWhy this is a second brain, not a RAG
+## Why this is a second brain, not a RAG
 
 A retrieval system keeps the sources and re-derives every answer from them on
 demand; it never learns, and yesterday's reasoning is thrown away. This wiki is
@@ -121,6 +121,10 @@ answer from re-deriving this one.
 Sweep for: broken links, orphan pages, contradictions between pages, claims
 superseded by newer raw data, entities mentioned 3+ times with no page,
 pages over budget. Fix mechanically what you can; queue the rest.
+
+### IMPERATIVES, GENERALLY
+Articles must be robust, exhaustive and thoroughly linked. They should be seen as very unique nodes and shouldn't follow more structure than what is listed in teh style guide
+
 
 ## Frontmatter (every wiki page — metadata only, no prose)
 

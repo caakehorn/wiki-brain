@@ -145,6 +145,5 @@ Dan describes him as a gateway to "a different style of music that still resonat
 
 - [[wiki/self/message-corpora/master-message-dump]]
 - [[wiki/mind/concepts/contact-gini]]
-- [[wiki/interests/music-production]]
-- [[wiki/people/archive/danfrank-2009-2015]]
-- [[wiki/mind/ideology/drug-use-attitudes]]
+- [[wiki/interests/music/overview|Music production]]
+- [[wiki/timeline/periods/full-sail-2008-2010|Full Sail era]]
