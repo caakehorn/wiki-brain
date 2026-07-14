@@ -178,3 +178,6 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 
 ## [2026-07-14] ingest | work | BFS Foods termination narrowed to May 2026
 - Gap 9: Dan narrowed the termination date to "sometime in May [2026]" — not exact, but tightens the previously-unbounded gap.
+
+## [2026-07-14] ingest | work | Au Za'atar wage/tip details confirmed
+- Gap 10: Dan confirmed $15/hr + tip pool, $800-1,000/week checks (6-day weeks, paid Sundays), and the unusual equal server/busser tip split.

@@ -171,10 +171,17 @@ and it was fun and good food and cool mexicans and... valeria." He came in
 the respect of the BOH Mexican squad intact. (The famous "outside bread,"
 he confirms, "obviousLY WAS NOT from outside.")
 
-**Gaps:** his final role title (busser → server, informally); wage/tip
-figures beyond the narrative claims; the Tunisian manager's name. The
-STORYTIME/DANSYNTH record is stylized self-narration through Gemini and
-should be read as memoir, not deposition.
+**On pay:** confirmed by Dan directly (2026-07-14) — base wage was
+$15/hour plus tip pool, with checks (paid weekly, Sundays) typically
+$800–1,000 for a six-day week. Unusually for the industry, the tip pool
+was split equally between servers and bussers rather than weighted toward
+servers — consistent with the "equal FOH tip split" already documented as
+the structural hook that made the job worth staying in.
+
+**Gaps:** his final role title (busser → server, informally); the
+Tunisian manager's name. The STORYTIME/DANSYNTH record is stylized
+self-narration through Gemini and should be read as memoir, not
+deposition.
 
 > **REVISED [2026-07-14]:** the Sergio-mediation mediator is confirmed —
 > Dan's own follow-up in the same session names Ghassan as running most of
