@@ -169,9 +169,26 @@ breakup, Alexis returned to stay with Dan and Annie for about a month,
 bringing a new boyfriend who was — per the same account — both Dan's
 sister [[wiki/people/vanessa-frank|Vanessa]]'s first boyfriend and someone
 who had lost his virginity to Annie. That boyfriend was arrested during
-the stay picking up a 5-lb mailed weed parcel. None of this — the stay,
-the boyfriend, or the arrest — has independent corroboration elsewhere in
-the corpus.
+the stay picking up a mailed weed parcel.
+
+> **REVISED [2026-07-14]:** independent corroboration has since surfaced
+> on [[wiki/people/alexis-armel]] — a retelling by Dan to
+> [[wiki/people/new-jim-shaffer]] (April 2018) describing the same
+> mechanism (a mail-order weed pickup that walked into an unrelated police
+> warrant) but dated concretely to **Valentine's Day 2017**, not the
+> immediate December 2015 aftermath, and naming Alexis herself (not only
+> the boyfriend, identified by full name as **Zac Shumar** — also
+> Vanessa's own ex-boyfriend before Alexis dated him) as arrested,
+> charged with felonies, and later incarcerated at SCI Muncy after
+> violating probation. A second independent retelling to
+> [[wiki/people/tom]] (Aug 2018) confirms the scale (10 pounds of
+> marijuana mailed) and sharpens the legal asymmetry: Zac's paid lawyer
+> got him out of the group plea deal's consequences while Alexis served
+> the time. Whether this is the same event as the bootloader's account
+> with the date and details corrected, or a second, separate arrest, is
+> unresolved — but the core mechanism (mail-drop bust) matching across
+> two independent sources makes
+> a single conflated/misdated event the more likely reading.
 
 **The arrangement (2018–2024).** Camming was discussed within weeks of the
 start (Dec 2015) and the couple streamed together on Chaturbate as
@@ -185,8 +202,16 @@ rather than tolerated it, and that Annie participated across years and
 said she enjoyed it ("I did enjoy our relationship/situation/arrangement
 we had with him," Nov 3 2024). The asymmetry is also documented: Annie
 never delivered the reciprocal side, and she often agreed to encounters
-that never materialized. The earliest concrete instance is actually with a
-woman rather than one of Dan's friends: the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]
+that never materialized. The earliest concrete instance found so far runs
+even earlier than the arrangement's "formalized" 2018 date implies, and it
+is with a woman from Dan's own romantic history rather than a stranger or
+one of his friends: days after [[wiki/people/alexis-armel|Alexis]]'s
+release from her year at SCI Muncy, she and Annie hooked up at Dan and
+Annie's house with Dan present (Nov 3, 2018), and the household prepared
+for a same-week repeat the following evening — full account at
+[[wiki/timeline/events/annie-alexis-reunion-november-2018]]. The next
+well-documented instance with a woman is the
+[[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]
 with [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], whom Dan was
 also seeing one-on-one that spring — Shelbie's own messages through June
 2019 treat Annie's presence as an unremarkable condition of the

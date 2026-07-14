@@ -21,6 +21,12 @@
 - **Phase 3 (Synthesis):** 5 of 12 done (forensic-methodology, attachment-trauma-bond, totality-themes, ai-collaborative-analysis, political-psyops).
 
 ## 🚀 Current Focus & Next Steps
+**NEW USER DIRECTIVE (2026-07-14, in progress):** The user is walking through `wiki/people/` rewriting every swarm-template stub page (the "Corpus Dimensions / Domain: Self / Part of the long-tail..." boilerplate matching the old christian-hanson.md pattern) into full prose per STYLE_GUIDE.md. 47 of 64 identified stubs are done (see `wiki/people/index.md` for the current one-liner per page — anything still reading "Contact identified via Google Contacts as..." is unstarted). Remaining unstarted: nick-mattie, rj, rod-banks, sam, shannon, slim, steve-kezmarsky, tan-calabrese, teddy, trevor, urpaaa-at-yahoo-com, vaughn, vicki, zach-clabaugh, zach-hendricks, zach, zaco (zach-hendricks and zaco are the same person/handle — merge, don't do both). Method: `python3 dump_contact.py <handle>` style full-corpus pull per contact (see scratchpad script pattern), not just the one sample line the swarm left — write the real relationship/story, not just corpus stats.
+
+**IMPORTANT — direction-field bug:** the `direction` column in `MASTER_MESSAGES_DB_DUMP.csv` is unreliable for most rows (many/most say "Received" regardless of actual sender). Every page written this session notes this explicitly and reconstructs speaker from content. Keep doing this.
+
+**Also in progress: random sampling pass.** Per user request, pulling random 30-40-row windows from anywhere in the 184k-row master CSV (not just the target contact) to surface surprise content and add it to whichever existing page it belongs to. This has already resolved two real contradictions (Fran's April 1 vs April 4, 2018 death date — settled to April 4 via caregiver Marla's dated messages; and the "boyfriend arrested picking up mailed weed" passage on annie-ulmer.md, previously flagged uncorroborated, now cross-referenced to Alexis's independently-documented Valentine's Day 2017 arrest via new-jim-shaffer.md) and added real texture to annie-ulmer.md, kristin.md, tom.md, vanessa-frank.md, fran-coldren.md (2020 estate distribution, $144,069.31), and the March 2026 terminal-phase timeline (filled the March 17–31 gap). If continuing this pass: keep the `random_pull.py` script pattern (random offset + N-row window from the master CSV), read for anything not already in the target page, and check before adding (`grep` the wiki for the key term first — most windows now re-hit already-documented ground, so the strike rate is dropping).
+
 **NEW USER DIRECTIVE (2026-07-13, overrides phase order):** The user judged the wiki's articles "absolutely terrible" in priorities and depth. Three standing orders:
 1. **Importance-first structure** — big life events get real articles (e.g. the 2015 arrest now has `wiki/legal/2015-retail-theft-arrest.md`); trivia gets folded in (the BFS drawer dispute is now one page at `wiki/work/bfs-foods.md`, not four).
 2. **DENSE pages, mined from raw/** — pages must carry actual content (all personality results with detailed breakdowns now live in `wiki/mind/profile/` — 7 pages incl. a dedicated INTP page). Do not restyle old wiki text; go back to raw sources.
@@ -54,6 +60,60 @@ quality bar; imitate their shape exactly. A page that is tidy but leads
 with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
+
+### [2026-07-14] - Session: deep-dive expansion of random-pull findings (+ two misattribution corrections)
+* **Model:** Claude Sonnet 5 (Claude Code, remote)
+* **Summary:**
+  - User directive: every finding added during the prior random-pull phase
+    (see the two 2026-07-14 entries below this one) had to be expanded
+    into a full reconstructed story using additional raw sources, not left
+    as a one-paragraph mention. Worked through the full list:
+    kristin.md (Sept 9 meth/homelessness disclosure reframed as a joint
+    digital-archaeology session — deactivated Twitter @kpdope, Wayback
+    Machine, ChatGPT photo-sorting offer; Sept 2 astrology thread expanded
+    with real chart detail, corrected to show Kristin as the astrology
+    expert teaching Dan, not the reverse; Sept 19 "Jeff" mention traced
+    through its full trigger-to-partial-retraction arc), tom.md,
+    march-2026-terminal-phase.md (Feb 21 and Mar 19-20 gap incidents fully
+    reconstructed day-by-day), shelbie-annie-threesome-april-2019.md +
+    shelbie-breakiron.md (May 1 2019 fight reconstructed as a full day,
+    revealing the arrangement's reciprocal retaliation logic), and
+    casey-bondarenka.md / 2015-2016-annie-relationship-start.md (Nov 29
+    2015 pivot quote).
+  - **Two of these turned out to be misattributions, not just thin
+    summaries — corrected, not just expanded:**
+    1. tom.md's Oct 28 2025 "returned to music production after 7 years"
+       detail was actually Dan describing himself, not Tom (confirmed
+       against wiki/interests/music/overview.md's GRIPNOTIC timeline and
+       against consistent lowercase-vs-punctuated texting-style patterns
+       between the two speakers throughout the thread).
+    2. vanessa-frank.md's Bernie 2020 NH-canvassing / Suz-pushback
+       paragraph was actually Dan's own outbound (Sent) messages, not
+       Vanessa's — flagged with a `REVISED` blockquote per house style.
+  - **New export limitation documented (distinct from the known
+    direction-field bug):** `Sent` rows in `MASTER_MESSAGES_DB_DUMP.csv`
+    carry an empty `contact_handle` — the recipient of any Dan-authored
+    message can only be inferred from timing/content, never read directly
+    off the row, and a same-week counter-example (an unrelated NYC contact
+    getting an identically-styled Sent message minutes after a Vanessa
+    exchange) shows proximity-based recipient inference is not reliable
+    either. Any future work reconstructing "who Dan was Sent-texting"
+    should treat this as real uncertainty, not just note the existing
+    Received-side direction bug.
+  - Lint 0 errors throughout. Six focused commits, each pushed individually
+    to `claude/wiki-people-rewrite-bik7ou`.
+* **Handoff Note:** The full "expand every random-pull finding" punch list
+  from the prior session is now done. Two paths open next, per the user's
+  last explicit choice ("keep random pulling" over finishing stubs): (1)
+  resume random 30-40-row CSV sampling for new findings, watching
+  specifically for more Sent-row misattributions like the two caught this
+  session — worth a second look at anything from the earlier random-pull
+  batch that reads suspiciously fluent/lowercase and was attributed to a
+  contact rather than Dan; or (2) if redirected, the ~17 unstarted stub
+  pages are still listed in the 2026-07-14 entry below (nick-mattie, rj,
+  rod-banks, sam, shannon, slim, steve-kezmarsky, tan-calabrese, teddy,
+  trevor, urpaaa-at-yahoo-com, vaughn, vicki, zach-clabaugh,
+  zach-hendricks/zaco [same person, merge don't duplicate], zach).
 
 ### [2026-07-13] - Session: dossier corpus propagated to all linked pages (PR #7)
 * **Model:** Claude Fable 5 (Claude Code, remote)

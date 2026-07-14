@@ -16,6 +16,8 @@ related:
   - wiki/people/suzanne-frank
   - wiki/places/117-belmont-circle
   - wiki/places/155-virginia-ave
+  - wiki/people/marla
+  - wiki/people/new-jim-shaffer
 tags: [financial-stress, housing, uniontown-era, family, grief]
 ---
 
@@ -58,7 +60,11 @@ final five days the hospital cut off her water as comfort care; she fought
 through roughly four days of dehydration. On day four Dan stood in the
 room blowing enormous clouds from a 110-watt SMOK box mod — his refusal to
 sanitize the room's reality — while Suz puffed a "dainty" 10W vape in the
-bathroom.
+bathroom. A video from around this period, shown afterward to a friend
+([[wiki/people/new-jim-shaffer]]), captures Fran smoking marijuana with
+Dan directly and Annie laughing in the background — the friend's reaction
+("that's solid, probably did her some good") treats it as of a piece with
+the bong-as-"lovely vase" photo documented on [[wiki/people/fran-coldren]].
 
 **The double loop.** On the morning of her final day Dan was caddying two
 loops at Nemacolin in the freezing cold to keep his own cash flow alive —
@@ -93,6 +99,14 @@ assets.
 > records death **April 4, 2018**. A transfer-April-1 / death-April-4
 > reading would reconcile both, but this is unverified — see
 > [[wiki/people/fran-coldren]].
+>
+> **REVISED [2026-07-14]:** [[wiki/people/marla|Marla]], a caregiver on
+> the shift rotation with Dan and Annie, sent dated messages showing Fran
+> still alive through the night of April 3–4 ("She made it thru the nite"
+> at 7:23 AM on April 4, describing a fresh morphine bag), with her last
+> content message that same morning and only blank/image messages the
+> following day. This corroborates the GEDCOM's **April 4** date over
+> DANSYNTH's April 1.
 
 **Gaps:** exact date of the fall; the nursing home's name; how long the
 full caregiving arrangement ran before the fall (~2015–2018 per the

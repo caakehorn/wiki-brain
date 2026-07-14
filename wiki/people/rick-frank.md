@@ -54,7 +54,14 @@ Vegas knowing he was addicted ([[wiki/health/chemical-architecture]]).
 Frank's Auto Supermarket is the family's economic backbone in the record
 and the setting of Dan's formative summer job — driving parts deliveries to
 garages with Limbaugh, Beck, and Hannity on the radio, the "Republican
-household + talk-radio diet" of the origin period. The Gemini-era dossiers
+household + talk-radio diet" of the origin period. The anti-union
+characterization has a direct primary-source statement, not just
+household inference: in an August 22, 2020 family-thread message (found
+2026-07-14) reflecting on his own leftward political turn, Dan writes "it
+feels super gross knowing that dad fought to keep frank's auto employees
+from unionizing and that we have such kushy lives because of it" —
+paired in the same message with discomfort over the family's [[wiki/people/fran-coldren|Fran]]
+inheritance being traceable to a "coal baron." The Gemini-era dossiers
 describe Rick as a "former automotive retail entrepreneur" and the "source
 of historical framework regarding local family footprint and industry
 logic." The CATO known-gaps list carries one unresolved thread: a **"We

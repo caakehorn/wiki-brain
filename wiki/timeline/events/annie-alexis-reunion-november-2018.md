@@ -1,0 +1,69 @@
+---
+domain: timeline
+page_type: event
+status: stable
+date_created: 2026-07-14
+date_modified: 2026-07-14
+date_range_start: 2018-10-13
+date_range_end: 2018-12-11
+sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt"]
+related: ["wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/people/menore", "wiki/people/emaly-minerd", "wiki/timeline/events/shelbie-annie-threesome-april-2019"]
+tags: [relationships]
+knowledge: earned
+---
+
+# Annie/Alexis Reunion (October–December 2018)
+
+Weeks after [[wiki/people/alexis-armel|Alexis]] was released from the year in prison documented at [[wiki/people/alexis-armel]] (the Zac Shumar mail-order weed bust), she and [[wiki/people/annie-ulmer|Annie]] — Dan's replacement partner, and by then the woman Alexis's own probation-era boyfriend had reportedly slept with — became sexually involved with each other, at Dan's house, with Dan present. This was not a single hookup. It is a six-week-plus recurring dynamic running from a skeptical, transactional opening in mid-October through a genuine birthday-night event, then a pattern of repeat visits through late November, with drug-supply logistics threaded through the whole thing. It stands as the earliest well-specified instance of the couple's non-monogamous arrangement running with a woman from Dan's own romantic history, predating the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 Shelbie threesome]] by five months.
+
+## Before: skepticism and the "useful tool" framing (October 13–27)
+
+The two households were never far apart — Alexis had lived with Dan and Annie for a stretch after the 2015 breakup, and Alexis's boyfriend Zac Shumar had reportedly slept with Annie even earlier, per the entanglement already documented on [[wiki/people/alexis-armel]]. By mid-October 2018, with Alexis presumably still in the final stretch of her sentence or newly out, Annie is already the one pushing for contact: on **October 13** she asks about a photo Dan sent ("Is that alexis..") and Dan deflects ("Probably not... just forget it"). On **October 23** Annie directly instructs him: "See what Alexis is doing tonight." Dan's response is notably cold and instrumental, not romantic — he tells Annie flatly it's "really not gonna happen with her... she is all talk," but reveals the actual function Alexis serves in the relationship at that point: "the truth is that it's just a really useful 'tool' — I can always get her to send semi noodz and talk shit like she's gonna do something... and hey obviously [that] is effective with you." He adds that Alexis "waits till she is drunk" to initiate anything, and that he isn't picky ("You know so many girls. I'm not picky" — Annie's own words back at him). In the same conversation, minutes later, Dan texts a friend that he's "been owed threesomes for 2 years" and that his "girlfriend won't initiate it" — the frustration that the coming weeks would resolve.
+
+The flirtation warms fast despite the skepticism. On **October 25**, Annie takes a photo explicitly earmarked "For Lex... Not for you [Dan]. For her." Dan teases that he'll believe she's really into it "when you are EXCITED to get her noodiez"; Annie insists she is, she just doesn't perform it for him. By **October 27** the photo exchange is a running joke between them ("I will send it but she ain't even seen the last one yet"), and Dan tells a friend, half-joking, that Alexis "waits until she's drunk to start asking me to come f... I mean talk platonically" — the unfinished word doing the work.
+
+## The reunion (November 3–6)
+
+On the night of **November 3**, Dan and Annie's own banter names Alexis directly as a live option: Dan asks Annie to guess "which of the two current options i'd rather fuck," and Annie gets it in one guess — "Lex." Dan won't confirm or deny beyond "it's no fun because we both know that answer" and "i'd looooove for it to [happen]." Later that night, Alexis came over and the two women hooked up. Dan reported it to his drug supplier [[wiki/people/menore|Menore]] the following evening, matter-of-factly: "She just got out of jail. Locked up for a year. Last night she came over and hooked up with my new girl" (Nov 4, 7:50 PM).
+
+The household immediately moved to repeat it. At 1:04 PM the same day, Annie texted Dan: "See if Alexis wants to come over tonight I don't work tomorrow." That evening the messages show visible preparation — two bottles of wine, the dogs moved upstairs, mood lighting ("THE COOL LIGHTS IN HERE") — and Annie coaching the plan in real time: "Just let things happen naturally." Twenty minutes into the same conversation in which Dan was texting Menore about the night before, he told Annie: "Be forward enough for you to get with her (doesn't have to involve me) and you'll have a good birthday" — a reference to his birthday the next day, November 5.
+
+**November 5 was Dan's birthday**, and it became the reunion's real culmination. Annie invited Alexis over that evening; Dan, in a genuinely happy mood ("I'm being serious lol not sarcastic... I'm on vacation for a week and I don't give two fucks about shit rn"), told Annie he couldn't wait for her to "hook up with Lex" and that she was "doing everything perfectly." When Annie floated the idea of it being just the two of them, Dan agreed readily but asked for a record of it: "I'm totally okay with it just being you two if that's what you want... Like there's gonna have to be a camera hidden... As long as I have something to 'remember' the occasion by." Annie, for her part, described real chemistry rather than a performed favor: "I told you we clicked. I told you there was a different connection. She said it too." Dan's reply was unambiguous about what this meant to him: "Well then make some romance with her. There's literally nothing that would make me happier. Or make my dick harder. Or sign my fortune to your name." He then left the house to handle a Suboxone run with a supplier so the two women would have the place to themselves, texting Annie "So essited" on his way back once it was done.
+
+## Continuation (November 12–30)
+
+The pattern recurred through the rest of the month, not as a single anniversary event but as an ongoing thing the household organized around. On **November 14**, late at night, Alexis texted Annie asking if it was too late to come over; Annie asked Dan's permission ("She can gladly come over if you can clean up a little... If that's okay with you...."), and Dan's response shows the arrangement's emotional register at its most intense: "Oh god I hope you guys hook up again... It's literally the best thing that's ever happened to me... I don't know how it would even get better if I was involved... This is going to make me religious. God must exist if I can watch something so beautiful." The two of them then handled logistics together — moving a space heater upstairs, deciding whether to bring the dogs to Dan's grandmother's house, waiting for Dan's mother to leave the house for a bank run so they'd have privacy — with the same domestic, matter-of-fact tone as any other household chore.
+
+By **November 23**, some friction had crept in: Alexis said she wanted to hang out with Annie that night, but Annie was skeptical ("why would I when she hasn't come in the past few times I've asked her"), and Dan agreed she was being unreliable ("that's all she ever does... Nothing surprising there"). They still floated buying wine in case she followed through. On **November 25**, three weeks after the first hookup, Dan sent Annie an unprompted message making the emotional stakes explicit: "You have no idea how happy I am that you hooked up with a girl for me. Honestly it's something that I stop and appreciate several times a day in my head" — and, a minute later, generalizing the point beyond Alexis specifically: "Didn't have to be Alexis but it certainly doesn't hurt. But it's like the hottest thing in the entire world to me and you don't even know how good you made me feel." On **November 26**, Alexis is folded into the household's drug logistics too, not just the romantic arrangement: "Alexis is here with drugs."
+
+## The confidant's account and the $3,000 offer (November 28)
+
+The fullest outside account of how the arrangement actually started comes from a same-week text exchange with [[wiki/people/emaly-minerd|Emaly Minerd]], a friend Dan was confiding in regularly that fall. Explaining the situation to her, Dan wrote: "Lex is coming over to 'hang' with Annie. It's like Netflix and chill but without any Netflix." Asked how he felt about his ex being involved with his girlfriend, he answered: "Lex and I are really good. We don't have sex now but as soon as she saw how good Annie and I are with and for each other there was no tension... And now that Annie and Lex have a thing and I am so hyped about that, Lex and I really get along well." He then disclosed the arrangement's actual origin, which reframes the "organic connection" framing from the birthday-night texts: **"Initially I offered her $3000 to be a plaything for Annie. But it worked out even better because the first time they got together they must have had some kind of connection."** In other words, the reunion began as a paid proposition, not a spontaneous reconnection — the "different connection" Annie described on November 5 arrived on top of a cash offer already on the table, not instead of one. Dan also confirmed the prior cohabitation directly to Emaly: "It's def a weird situation, like Alexis lived with Annie and I for a little while after the breakup" — and framed the whole thing as workable specifically because of Annie: "the thing that makes it work is that Annie is the worlds coolest girlfriend for me. There's nobody I could have sex with that, as long as I'm honest and upfront, she would be upset about." Emaly's own reaction is one of the few outside readings of the dynamic on record: "Well that's cool that she's cool with it. I think I would feel weird, like jealous or something close to that.. hanging out with my ex and the girl he dumped me for."
+
+## Coda (December 2018)
+
+Contact with Alexis continues into early December at a lower intensity — a December 9 message to a friend brings her up in passing ("He's from Carmichael's and was besties with Alexis back in the day... Speaking of Alexis") and a December 11 message ("Alexis told me to stay low until you hit me up") shows her still functioning as a go-between in Dan's drug-supply network. The corpus goes quiet on her as a romantic or sexual presence with Annie after this point.
+
+## People involved
+
+- Dan
+- [[wiki/people/annie-ulmer]]
+- [[wiki/people/alexis-armel]]
+- [[wiki/people/menore]] (recipient of the Nov 4 disclosure, not a participant)
+- [[wiki/people/emaly-minerd]] (recipient of the fullest retrospective account, Nov 28, not a participant)
+
+## When
+
+Skepticism and flirtation build from October 13–27, 2018. The first hookup is November 3, reported the next day; the birthday-night repeat is November 5; further documented visits recur November 14 and are attempted/discussed through November 23–26; the fullest retrospective account, including the $3,000 origin story, is dated November 28. Residual contact (non-romantic) continues into December 9–11.
+
+## Significance
+
+This sits right at the seam between two documented facts that otherwise read as separate: Alexis's release from a year at SCI Muncy (end of October/early November 2018, per her page) and the earliest well-specified instance of the couple's non-monogamous arrangement running with a woman from Dan's own romantic history rather than a stranger or a male friend. It also complicates and closes the household entanglement already documented on [[wiki/people/alexis-armel]]: Alexis, her boyfriend Zac Shumar, and Dan and Annie had lived under one roof during the run-up to Zac's arrest, and per a secondary CATO synthesis Zac had himself been involved with Annie before that. The $3,000 offer disclosed to Emaly Minerd is the most concrete documented instance anywhere in the corpus of Dan paying, or offering to pay, a specific named woman to be involved with Annie — most of the arrangement's other instances (Trinity St. Clair, Kelly Johansson) are framed as either paid professional bookings or unpaid personal connections, not a cash offer to someone from his own dating history. The birthday-night camera request, the "God must exist" line, and the "several times a day" gratitude also make this one of the most emotionally legible windows in the corpus into what Dan wanted out of the arrangement generally, not just this specific pairing.
+
+## Gaps
+
+Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated — the two nights' preparation texts are similar enough that they may describe the same extended encounter rather than two separate ones. Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented. How many total times Alexis and Annie were together beyond the specifically dated messages above is unknown — the pattern of texts suggests it was a recurring, semi-regular arrangement through most of November rather than a fixed number of occasions. Alexis's exact release date is not independently confirmed beyond "just got out of jail" on Nov 4; her own page places incarceration as beginning "around the end of October 2017," consistent with a roughly one-year sentence ending in this window. The corpus does not show whether Annie and Alexis had any contact after December 2018.
+
+## Related
+
+[[wiki/people/annie-ulmer]] · [[wiki/people/alexis-armel]] · [[wiki/people/menore]] · [[wiki/people/emaly-minerd]] · [[wiki/timeline/events/shelbie-annie-threesome-april-2019]]

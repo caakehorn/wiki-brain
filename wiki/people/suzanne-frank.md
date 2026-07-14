@@ -46,7 +46,14 @@ Suzanne Whyel Shrum Frank, born September 15, 1962, in Pittsburgh
 Diane Van Voorhis, b. 1939; the maternal line runs to
 [[wiki/people/fran-coldren]]). A working realtor (PA license RS305558, Park
 Place Realty Group) based at 337 Saratoga Drive, the house the family built
-in 1996. Divorced from [[wiki/people/rick-frank]] after the 2005 rupture;
+in 1996. She previously worked at Coldwell Banker, where — per an August
+2020 family-thread conversation (found 2026-07-14) — a manager "was really
+abusing the system and taking advantage of the agents under him" while Suz
+"knew that and did nothing"; her move to the new agency that year coincided
+with her selling more houses in a single month than in any two-year
+stretch at the old one, a shift Dan attributes partly to the 2020 COVID
+housing-market uptick and partly to finally escaping what he calls a
+"toxic system." Divorced from [[wiki/people/rick-frank]] after the 2005 rupture;
 mother of Dan and [[wiki/people/vanessa-frank]].
 
 ## The dual role

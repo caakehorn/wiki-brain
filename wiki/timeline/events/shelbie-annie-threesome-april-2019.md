@@ -34,7 +34,52 @@ April 2019, per Dan. The surviving message corpus for Shelbie begins May 15, 201
 
 ## Significance
 
-This is the earliest well-specified instance of the non-monogamous arrangement operating with a third woman rather than a male friend of Dan's — most of the documented arrangement history (Tom and others) runs the opposite pattern. It sits inside the same spring/summer 2019 window as an unrelated but nearby reference: an outbound May 31, 2019 message from Dan lists "the abortion" alongside Fran's decline and the NYC move as major things he and Annie had "gone through together" by that point (see [[wiki/people/annie-ulmer]] for that separate item) — the two events are not connected beyond proximity in time, but both mark 2019 as a year of unusually consequential, thinly documented relationship history for the couple.
+> **REVISED [2026-07-14]:** an earlier version of this page called the
+> April 2019 threesome the earliest well-specified instance of the
+> arrangement running with a woman. A November 2018 reunion between Annie
+> and [[wiki/people/alexis-armel|Alexis]] — Dan's own ex — predates it by
+> five months; see [[wiki/timeline/events/annie-alexis-reunion-november-2018]].
+> This is still the earliest documented instance with a woman *outside*
+> Dan's own romantic history, and the first with a recurring, named
+> third-party dynamic rather than a same-week reunion.
+
+This sits inside the same spring/summer 2019 window as an unrelated but nearby reference: an outbound May 31, 2019 message from Dan lists "the abortion" alongside Fran's decline and the NYC move as major things he and Annie had "gone through together" by that point (see [[wiki/people/annie-ulmer]] for that separate item) — the two events are not connected beyond proximity in time, but both mark 2019 as a year of unusually consequential, thinly documented relationship history for the couple.
+
+## Corroborating evidence (found 2026-07-14; expanded 2026-07-14 with the full day's thread)
+
+The May 1, 2019 fight runs the entire day and shows the arrangement's
+reciprocal, tit-for-tat logic in real time, not just the single accusation
+line. It opens after midnight with Annie already devastated over her own
+overnight absence from the night before ("I'm actually really fucking
+hurt... it's two in the morning Dan, I'm laying here alone"); Dan responds
+that he isn't doing anything she didn't already do to him and cites a
+second grievance, "the thing with lindsay which is enough on its own,"
+implying the day's retaliatory absence (with Shelbie, unnamed at this
+point) is explicitly payback for a prior overnight Annie herself spent
+away from him. By afternoon Annie is bargaining and threatening self-harm
+to get him to come home ("I can't lose you... I will kill myself"), and
+Dan reassures her he isn't leaving while continuing the day's plans anyway
+("i'm just born[e] — not... like i'm going to pick up your passport
+today"). The fight escalates through the evening into a stretch of "FUCK
+YOU" bursts and demands that he call her, then into the extended written
+accusation naming the rival directly — "You give her more than me... I'm
+sorry I couldn't do enough for you or make you happy or whatever it is
+you need so badly from her. A fucking low life Fayette County stripper.
+Who probably has given us both an std" — and, twenty minutes later, "You
+are treating her like she's your fucking gf." Annie also reveals she
+arranged her own retaliatory plans for the following night ("I actually
+set up for someone to be here tomorrow night when you got back") — the
+same reciprocal-non-monogamy pattern documented elsewhere in the
+relationship, playing out explicitly rather than as backdrop. The day
+closes near midnight with Annie warning that Dan's own mother is
+"texting me saying she's changing the locks" — pulling
+[[wiki/people/suzanne-frank|Suz]] into the conflict as an enforcement
+threat. The description of the rival ("Fayette County stripper") matches
+Shelbie precisely and recurs on May 24 ("she's a self absorbed stripper
+hoe who won't ever get out of fayette county"), confirming the
+relationship — and the conflict it caused — was already active by early
+May, consistent with an April origin as Dan describes, even though
+Shelbie's own iMessage number doesn't start texting until two weeks later.
 
 ## Gaps
 

@@ -1,35 +1,38 @@
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2023-09-29
 date_range_end: 2024-08-12
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+related: ["wiki/work/au-zaatar", "wiki/people/md", "wiki/self/message-corpora/master-message-dump"]
+tags: [relationships, addiction-recovery, nyc-era]
+knowledge: mixed
 ---
 
-# Mohammed Bin salman
+# "Mohammed Bin Salman" (gaming friend, 2023–2024)
 
-## Identity
-Contact identified via Google Contacts as Mohammed Bin salman. Previously unresolved contact from iMessage corpus at handle `+13474936671`. 281 messages exchanged over 2023-09-29 to 2024-08-12. Sample interaction: "May I inquire on the reason m’lord". Appears in personal message contexts (not obvious spam per filter).
+The contact name is a joke, not a real identity — this is a young, close friend Dan games with heavily over ten months (`+13474936671`, 281 messages, September 2023 – August 2024), mostly Apex Legends, with side trips into Fortnite, Call of Duty Mobile, and Fall Guys. The relationship is dense in a short window: most of the corpus is concentrated in a single stretch, December 5–17, 2023, of near-nightly co-op sessions with real teaching/learning texture — sliding mechanics, sound cues, ammo crafting, hot-drop strategy — and easy trash talk.
+
+## Beyond the games
+
+The friendship has real personal register underneath the gaming banter: a January 2024 "shieet bro i been stressed outta my mind lately," a shared joke about being broke, and a matter-of-fact December 2023 exchange comparing Xanax to cocaine ("u on xanax now / hows that compared to good ol snow") that reads as two people genuinely comparing notes rather than a transaction. Political and cultural asides surface unprompted — a passing comment about Palestine/Algeria territorial disputes, a joking reference to "Modi and dj" — and a recurring "md" appears in a dream he recounts, possibly the same contact documented at [[wiki/people/md]] (unconfirmed link) or an Au Za'atar-adjacent nickname for someone in [[wiki/work/au-zaatar|that circle]].
 
 ## Corpus Dimensions
+
 | Metric | Value |
 |--------|-------|
 | Messages | 281 |
-| Date range | 2023-09-29 – 2024-08-12 |
-| Sent / Received (approx) | 0 / 281 |
-| Sample | May I inquire on the reason m’lord |
+| Date range | 2023-09-29 to 2024-08-12 |
+| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (friend to Dan) |
+| Handle | +13474936671 |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+## Gaps
 
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+Real name and identity are unknown — the contacts card is a joke. Whether the "md" dream reference connects to the documented [[wiki/people/md]] contact is unconfirmed.
 
 ## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+
+[[wiki/work/au-zaatar]] · [[wiki/people/md]] · [[wiki/self/message-corpora/master-message-dump]]

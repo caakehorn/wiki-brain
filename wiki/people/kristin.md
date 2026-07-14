@@ -88,6 +88,53 @@ like "I'll quit today for you," offers of a step-father's loan, and repeated
 demands to "Call me now" set against Dan's documented need to litigate every
 ambiguity.
 
+An unexpected recurring bonding activity, expanded 2026-07-14: astrology,
+running from Sept 1 through at least Sept 9, 2025, with Kristin as the
+expert rather than Dan. She sends her exact birth data and insists on a
+"Western style chart — Placidus style specifically," then walks Dan through
+her own chart in real time ("You have a birth chart of your life from
+start to finish... I showed you the chart graphs. Those are the literal
+degrees the planets sit in the sky... 12 houses. 12 signs. 10 planets.")
+and cross-reads it against his: her Moon in Leo against his Mercury in
+Leo, her Mercury in Libra, a 2nd-house Taurus Mars against what she reads
+as his Aries Mars near a "critical degree." She frames it as earned
+expertise, not vibes — "18 years of personal test theory," self-taught —
+and offers it as evidence-based rather than mystical, citing a friend's
+dog getting sick because "Mars was transiting her 6th house conjunct her
+moon." The exchange sours by Sept 6–7 into the same trust/ex-partner
+territory as the rest of the thread: she tells him "I don't know your
+stance with your x or other females," says she "didn't like that you hung
+up" on a related call, and pivots into naming the pattern she says defines
+her — "I leave instantly at the first sign of" trouble, versus Dan, who
+"stayed and tried to make things work to an extreme degree" — turning what
+started as a shared hobby into another vector for the same abandonment-vs-
+persistence dynamic that structures the whole relationship.
+
+A September 19, 2025 exchange (expanded 2026-07-14) traces a specific
+trigger-to-withdrawal sequence rather than a single line. Late that night,
+mid-conversation about her mother's garage sale, Kristin abruptly pivots
+after Dan shares results of a self-administered psychological "disorder
+test": "I feel some type of way about your little disorder test... I'm now
+concerned and I'm going to do the thing I do — like... pull away." She
+frames the retreat as a defense mechanism she names explicitly ("I have the
+ability to replace my feelings inside of me. Odd. But are we surprised?
+No") rather than rejection, and tells him he needs "more time to heal
+before you start pouring your unhealed pain into my purity." She then
+surfaces a dead ex-partner, "Jeff," whose name she had tattooed and later
+covered up, as the analogy for her own right to control emotional exposure
+— contrasted with Dan apparently not wanting to cover a tattoo tied to his
+own past: "There's a reason I got Jeff covered. And there's a reason you
+don't want to. There's just a lot of things." Within the hour she partially
+walks it back ("Ughhhhhhh don't read anything I said. I can't get it
+together. I'm unhinged... I have fought so hard to get where I am and I'm
+nowhere close to where I need to be. You are amazing. But you are
+damaged"), citing an unresolved "girlfriend that I still don't know that
+you do[ne with]" as a live source of her own doubt, before signing off with
+love and an offer to meet the next day. The whole arc — instant retreat,
+self-diagnosed pattern, partial retraction, love restated — is one of the
+clearest single-session demonstrations of the same "leave at the first
+sign of trouble" self-description she gives elsewhere in the thread.
+
 Tom sits inside the thread as an active irritant rather than a background
 figure. During a September 20 crisis over where Kristin would sleep, she
 refuses to stay at another man's house out of stated loyalty to Dan while he
@@ -95,6 +142,8 @@ rages about having to "hide … from Tom fucking faggot Maison" — the supply
 logistics, the jealousy triangle, and the drug-stashing plans ("stash it for
 me at his fucking grandparents in their backyard") all braided together in a
 single evening. Her own self-aware line, "WHAT IS MY LIFE," captures the tone.
+
+A September 9, 2025 exchange (found 2026-07-14, random corpus sample; expanded 2026-07-14 with the surrounding half-hour) is not a spontaneous confession but the product of a joint digital-archaeology session: the two of them going through her old, apparently deactivated Twitter account (@kpdope) together, with Dan offering to run it through the Wayback Machine to recover deleted history and to use ChatGPT to help her sort and caption what she says is a backlog of "7K photos." Along the way Kristin raises, with real uncertainty rather than confidence, a possibly-related old handle or nickname — "Krazy Krez" — and a name, "Daniel Kresowaty," that she isn't sure is even connected to her; neither is resolved in the thread. Inside that archival dig she surfaces the meth/homelessness photos unprompted — one she captions "that's me on meth... I was homeless in that pic... calling around, methed up," adding she'd "been trying to do this since 8/14/15" (get clean, on the evidence of the date). Dan responds with curiosity rather than alarm ("i am so FUCKING curious about young kristin"). It's the clearest first-person disclosure of her own addiction and homelessness history anywhere in the thread, offered within the first two weeks of the relationship, and it arrives embedded in a collaborative project to reconstruct her own digital past rather than as an isolated admission.
 
 A late-October message shows Dan naming the redundancy dynamic to her face:
 he asks what she would think if he "notably started talking to annie

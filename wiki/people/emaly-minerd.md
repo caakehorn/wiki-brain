@@ -6,8 +6,8 @@ date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2018-09-02
 date_range_end: 2019-01-27
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
-related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-scan/all_imessages_complete_dump.txt"]
+related: ["wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/timeline/events/annie-alexis-reunion-november-2018", "wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [relationships, addiction-recovery, mental-health, uniontown-era]
 knowledge: mixed
 ---
@@ -24,7 +24,7 @@ Emaly managed a cell phone store, had a chronic illness requiring periodic trans
 
 The relationship opens purely transactional — Emaly buying Adderall, Xanax, kratom, and occasionally cocaine from Dan, negotiating prices, complaining about a dealer named Kevin Santore who wasted her time repeatedly. Within weeks the tone shifts: long, unguarded late-night conversations, personal disclosures (her illness, her relationship history, a near-breakup with Derek), and mutual flattery — Emaly telling Dan he reads as "a nice guy, and dare I even say sweet" despite his own self-description as "a 1% dirtbag."
 
-By late November 2018 the relationship becomes in-person: Emaly meets both Dan and [[wiki/people/annie-ulmer|Annie]] together, likes Annie ("she's definitely one of the rare ones... I've never been able to have many friends that are girls"), and the three hang out repeatedly. She's aware of and explicitly discusses the Dan/Annie non-monogamous arrangement, asking pointed questions about how it works and whether it requires Annie to keep sleeping with other men for Dan to feel the way he does about her — one of the few outside voices in the corpus to name the arrangement's mechanics back to Dan directly.
+By late November 2018 the relationship becomes in-person: Emaly meets both Dan and [[wiki/people/annie-ulmer|Annie]] together, likes Annie ("she's definitely one of the rare ones... I've never been able to have many friends that are girls"), and the three hang out repeatedly. She's aware of and explicitly discusses the Dan/Annie non-monogamous arrangement, asking pointed questions about how it works and whether it requires Annie to keep sleeping with other men for Dan to feel the way he does about her — one of the few outside voices in the corpus to name the arrangement's mechanics back to Dan directly. It's in this same window (November 28, 2018) that Dan gives her the fullest retrospective account anywhere in the corpus of how his then-current arrangement with [[wiki/people/alexis-armel|Alexis]] began — including the detail that he'd "initially" offered Alexis $3,000 to be "a plaything for Annie" — while also telling Emaly the two women's actual connection came together on its own; full account at [[wiki/timeline/events/annie-alexis-reunion-november-2018]].
 
 ## The refusal and the collapse
 
