@@ -6,7 +6,7 @@ date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2019-03-12
 date_range_end: 2019-12-24
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan/history.txt"]
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan/history.txt", "raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/people/eric-jester", "wiki/self/message-corpora/master-message-dump", "wiki/mind/psychosexual/arrangement-history"]
 tags: [relationships, digital-footprint]
 knowledge: mixed
@@ -45,6 +45,19 @@ The only other contact is a single-day cluster on December 24, 2019: Trinity ope
 | Direction | Marked "Received" throughout in this export — read as two-way; the confirming context comes from separately-dated Sent messages to third parties |
 | Handle | +18186510883 |
 | Price | $1500 for one hour (March 2019); $1300/hr quoted (December 2019) |
+
+## The recommendation trail
+
+By August 2019, the booking had become a reference point Dan used more
+than once. Beyond the [[wiki/people/jaredtricia|Jared/Tricia]] email
+citation already noted above, a separately recovered thread shows the
+same couple asking directly for a provider recommendation and Dan (again
+writing in Annie's "Hazel" voice — see [[wiki/people/jaredtricia]] for
+the full context of that impersonation) naming Trinity as the only
+provider he had "personal experience with," quoting a price of "1400" —
+a minor $100 discrepancy against the $1,500 documented above from two
+independent contemporaneous sources, plausibly just loose recall in a
+casual text rather than a real second rate.
 
 ## Gaps
 

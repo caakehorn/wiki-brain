@@ -98,6 +98,25 @@ the [[wiki/people/kristin|Kristin]] relationship (2025), where exclusivity
 was demanded of her in a mirror-image structure to the openness practiced
 with Annie — full inventory at [[wiki/mind/psychosexual/arrangement-history]].
 
+## The escalation: speaking as the partner
+
+One documented instance goes past orchestration into direct
+impersonation. In an August 2019 follow-up conversation with
+[[wiki/people/jaredtricia|Jared and Tricia]] — the couple Annie had
+worked a paid group session with in June 2019 under the alias "Hazel" —
+Dan wrote to the couple *as* Hazel, in her voice and cadence, requesting
+a keepsake from the earlier session: "i forgot to ask last time i saw you
+if i'd be allowed to get one or two of the pictures of the 'girl fun'
+from the first time we met... that was the most amazing experience it
+still works me up." Asked directly why, his own answer was unadorned: "i
+wanted that picture." Full account: [[wiki/people/jaredtricia]]. Where
+the rest of this page's practice involves Dan authoring the *conditions*
+of an encounter and then withdrawing to watch, this instance has him
+authoring Annie's actual *voice* after the fact, to extract a physical
+artifact of an encounter he wasn't present to document himself — the
+clearest documented case of the orchestration impulse extending from
+staging the scene to ventriloquizing the person in it.
+
 ## Reading the pattern
 
 The dossier connects this directly to the cognitive-typological profile
