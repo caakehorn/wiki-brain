@@ -175,3 +175,6 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 
 ## [2026-07-14] ingest | people | Tom's Phil confirmed, girlfriend name clarified
 - Gap 8: Dan confirmed Phil is Tom's father, and that Tom's March 2026 "cabin"/pagan-occult girlfriend is also named Kristin — coincidentally the same first name as, but a completely different person from, wiki/people/kristin.md. Flagged clearly to prevent future confusion between the two.
+
+## [2026-07-14] ingest | work | BFS Foods termination narrowed to May 2026
+- Gap 9: Dan narrowed the termination date to "sometime in May [2026]" — not exact, but tightens the previously-unbounded gap.
