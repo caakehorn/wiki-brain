@@ -8,7 +8,7 @@ date_range_start: 2017-12-08
 date_range_end: 2018-04-05
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/timeline/events/fran-death-vigil", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-dump"]
-tags: [family, grief, health, uniontown-era]
+tags: [family, grief, physical-health, uniontown-era]
 knowledge: mixed
 ---
 
