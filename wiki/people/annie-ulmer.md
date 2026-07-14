@@ -2,7 +2,7 @@
 domain: people
 page_type: entity
 title: "Annie (Anne Louise Ulmer)"
-aliases: ["Annie", "Anne Ulmer", "Anne Louise Ulmer", "smashonista", "Lily Lush (unverified)"]
+aliases: ["Annie", "Anne Ulmer", "Anne Louise Ulmer", "smashonista", "Lily Lush"]
 importance: critical
 knowledge: mixed
 status: closed
