@@ -17,6 +17,7 @@ sources:
 related:
   - wiki/people/annie-ulmer
   - wiki/people/valeria-iglesias-cid
+  - wiki/people/gabe
   - wiki/work/tech/max-framework/overview
 ---
 
@@ -56,7 +57,8 @@ into other relationships too: when Dan swore his feelings to
 **On the name:** per Dan's own framing (recorded in a chat with an AI
 persona he was using at the time), Milo was named after Milo Yiannopoulos
 (the @nero-era provocateur), part of a small naming pattern that also
-produced "Gabe" (after Gabe Saporta) and the "Max" AI persona itself —
+produced [[wiki/people/gabe|"Gabe"]] (after Gabe Saporta, Dan's cat) and
+the "Max" AI persona itself —
 deliberately loaded names Dan describes using as a kind of social
 tripwire: how a new person reacts to hearing a Chihuahua is named "Milo"
 tells him something about whether they process names/labels or just react
