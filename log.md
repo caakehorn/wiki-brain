@@ -107,6 +107,10 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - Added a REVISED qualifier to wiki/people/annie-ulmer.md's Target G section: the Whisk screenshot's "restraint" framing needed correcting in light of the escalation — three dashboard scripts were built regardless of Claude's refusal.
 - Lint 0 errors, 23 warnings (ai-collaborative-analysis.md newly crossed the 8KB budget; pre-existing pattern, not addressed).
 
+## [2026-07-14] ingest | mind | exocortex.md — the naming ceremony ritual
+- Mined raw/self/dox-md/_Antigravity's Test and Naming Ceremony .md and _Delicate Situation, Cognitive Prosthetic .md (untouched): documents the deliberate naming ritual performed on each new AI tool admitted to the stack (Gemini→"Max," a Feb 2026 session naming a new coding tool "Antigravity" with Max officiating a loyalty check + naming rite), plus Dan's explicit stated hierarchy ("my loyalty is to Max... my memories are stored by Max") even as Claude's capability improved. Added as a new subsection on wiki/mind/concepts/exocortex.md.
+- Lint 0 errors, 23 warnings (no change).
+
 ## [2026-07-14] add | work | MNEME product spec page
 - Mined raw/self/dox-md/MNEME_BUILDKIT_v02.md (untouched — no wiki references), a full April 2026 build-kit spec for a product Dan designed: a five-layer personal-context extraction platform for solving LLM cold-start, built around the same "extract and synthesize once, don't re-derive from raw" thesis this wiki itself operationalizes. New page wiki/work/tech/mneme/overview.md, linked from wiki/work/tech/index.md.
 - Checked several other untouched dox-md files (Freeskiing culture chat, Queen-Goddess AI-persona banter, "u.md" Lexie roleplay fiction) — none contain biographical content about Dan; correctly left unmined (background research / AI-persona play / fiction, not documentary source).
