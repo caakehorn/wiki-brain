@@ -9,6 +9,7 @@
 2. **Check `task.md`** in the root directory for the granular task checklist.
 3. **Check `STYLE_GUIDE.md`** (or `CLAUDE.md`) for the strict formatting and prose rules.
 4. **When you finish your session**, update the **Session Log** below with a brief, clear summary of what files you modified and what your last action was. Update the **Current Focus** section so the next model knows exactly where to pick up.
+5. **Pull all items in `ADD-ME.md` and append these items to the current ingest queue or the current prompt query**
 
 ---
 
