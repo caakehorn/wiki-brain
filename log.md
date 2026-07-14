@@ -166,3 +166,6 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 ## [2026-07-14] ingest | people | Dimitri surname partial + Eli skipped
 - Gap 4 (Eli's surname): user declined to answer ("who knows who cares") — skipped, no change.
 - Gap 5 (Dimitri's surname): partial answer — Greek name starting with "A," not more precisely recalled. Noted on wiki/people/dimitri.md.
+
+## [2026-07-14] ingest | people | Fran Coldren's husband Ira identified
+- Gap 6: confirmed by Dan — Ira was Fran's third husband and the 33rd-degree Mason. Leaves the coal-baron marriage as a separate, still-unidentified earlier husband.
