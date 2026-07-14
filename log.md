@@ -152,3 +152,7 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - Started a gap-clarification pass: scanned wiki for explicit "**Gaps:**" markers (~40 found) and unresolved/unverified flags, queued them to ask the user one at a time.
 - Gap 1 (Milo's acquisition): user provided the full origin story directly in conversation — found as a starving stray by Claire (Annie's sister, previously undocumented — added as Annie's sister on wiki/people/annie-ulmer.md), runt of the litter with one testicle, the "we are not getting a new dog" Sharpie joke, the one-night foster that became permanent when Milo chose Dan's lap over Annie's scrambled eggs, and the explicit contrast with Betty (pet-store dog, not a rescue, described as "fucking awful"). Rewrote wiki/people/milo.md's opening with this; narrowed the acquisition-date gap to just the exact calendar date (bounded to before Sept 2018).
 - Lint 0 errors, 24 warnings (no change).
+
+## [2026-07-14] add | people | Claire Ulmer entity page (user correction)
+- Fair callout: the point of a second brain is not re-deriving the same person from scratch next time. New wiki/people/claire-ulmer.md (Annie's sister, found Milo as a stray) instead of leaving her as an unlinked plain-text mention on milo.md/annie-ulmer.md. Cross-linked from both.
+- Lint 0 errors, 24 warnings.

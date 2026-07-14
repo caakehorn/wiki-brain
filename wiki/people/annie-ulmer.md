@@ -107,8 +107,9 @@ ex told him — and was drawn to it rather than troubled by it. Her family
 anchors her Uniontown world: parents whose friendship with Dan's mother's
 circle goes back decades, her grandmother Sugie (a genuine, documented
 caretaking obligation that later doubled as her most-used alibi), a sister
-Claire, a niece and nephew she helped care for, and the dog
-[[wiki/people/milo|Milo]], a fixture of the NYC domestic record — Claire is
+[[wiki/people/claire-ulmer|Claire]], a niece and nephew she helped care
+for, and the dog [[wiki/people/milo|Milo]], a fixture of the NYC domestic
+record — Claire is
 the one who first found Milo as a starving stray in her neighborhood.
 
 The early record is unambiguous about the love being real. On day three

@@ -34,7 +34,7 @@ the last thread of something genuine... don't psychologize them, just
 receive them."
 
 **Origin story (per Dan directly, 2026-07-14):** Milo was found as a stray
-by Claire, Annie's sister — spotted around her neighborhood by several
+by [[wiki/people/claire-ulmer|Claire]], Annie's sister — spotted around her neighborhood by several
 people, clearly not equipped to survive on his own. He turned out to be
 the runt of his litter, with only one developed testicle; a vet later told
 Dan this was likely why his pack had rejected him. When Annie heard about
