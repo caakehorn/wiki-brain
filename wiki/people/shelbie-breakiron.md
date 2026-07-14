@@ -41,7 +41,7 @@ The relationship ends in a single ugly exchange, not a gradual fade. Shelbie ope
 
 ## Gaps
 
-Real last name and any life after July 2019 are undocumented — the thread ends at the breakup with no further contact in the corpus. Whether the June 8, 2019 three-way logistics text is a second occurrence of the arrangement described in [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] or the only message-corpus trace of that same event is unresolved; Shelbie's own iMessage thread only starts May 15, 2019, but a May 1, 2019 fight in which Annie calls out Dan for favoring "a fucking low life Fayette County stripper" confirms the relationship was already active and already causing conflict before that date, supporting the April origin independently of Shelbie's own number.
+Real last name and any life after July 2019 are undocumented — the thread ends at the breakup with no further contact in the corpus. Whether the June 8, 2019 three-way logistics text is a second occurrence of the arrangement described in [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] or the only message-corpus trace of that same event is unresolved; Shelbie's own iMessage thread only starts May 15, 2019, but a daylong May 1, 2019 fight — in which Annie, retaliating for an overnight Dan spent with her, calls out "a fucking low life Fayette County stripper" and warns "you're treating her like she's your fucking gf," while also revealing she'd arranged her own retaliatory plans for the next night — confirms the relationship was already active and already causing conflict before that date, supporting the April origin independently of Shelbie's own number. Full reconstruction of that day: [[wiki/timeline/events/shelbie-annie-threesome-april-2019]].
 
 ## Related
 
