@@ -2,7 +2,7 @@
 domain: people
 page_type: entity
 title: "Annie (Anne Louise Ulmer)"
-aliases: ["Annie", "Anne Ulmer", "Anne Louise Ulmer"]
+aliases: ["Annie", "Anne Ulmer", "Anne Louise Ulmer", "@Lo_weez"]
 importance: critical
 knowledge: mixed
 status: closed
@@ -27,6 +27,7 @@ sources:
   - raw/self/dox-scan/Annie Affadavit.txt
   - raw/self/dox-md/ulmer_dui_megadoc.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
+  - raw/self/dox-scan/FULL TWITTER ANALYSIS.txt
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
@@ -137,7 +138,14 @@ and that fear became the organizing principle of the decade. From 2016
 she lived with him at 155 Virginia Avenue, then through the New York
 years, a move Dan funded and sustained: he was the household's financial
 foundation for roughly the first five NYC years, drawing on
-[[wiki/people/suzanne-frank|Suz]]'s resources.
+[[wiki/people/suzanne-frank|Suz]]'s resources. Dan's public Twitter
+independently corroborates the timing: the handle **@Lo_weez** enters
+as his "new primary" relational tag in December 2015 — "worlds best
+girlfriend" — continuing through 2016 with matching personal detail
+("Girlfriend drinks too much Cherry Coke," "@Lo_weez ur next
+maxxinista"), while @alexisarmel goes fully silent the same window. This
+resolves a standing gap on [[wiki/people/katie-fletcher]]'s page, which
+had flagged @Lo_weez as possibly a third person.
 
 > **CONTRADICTION (origin story):** `CATO_BOOTLOADER_DANFRANK.md`
 > preserves a different, more colorful origin account: Alexis, as
