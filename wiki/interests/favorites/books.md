@@ -5,7 +5,7 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv", "raw/self/dox-md/FAVORITES DATA (2).md", "raw/self/google-drive-export/goodreads_library_export.md"]
-related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/overview", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/timeline/events/timeline"]
+related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/overview", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/timeline/events/timeline", "wiki/interests/favorites/books/want-to-read"]
 ---
 
 # Book Favorites
@@ -150,3 +150,5 @@ Cross-referenced: [[wiki/self/facebook]], [[wiki/self/context-core]], [[wiki/int
 **Authors:** [[wiki/interests/favorites/books/authors/bob-woodward]] · [[wiki/interests/favorites/books/authors/michael-wolff]] · [[wiki/interests/favorites/books/authors/jonathan-karl]] · [[wiki/interests/favorites/books/authors/dan-carlin]] · [[wiki/interests/favorites/books/authors/adrian-goldsworthy]]
 
 **Topics:** [[wiki/interests/favorites/books/topics/politics]] · [[wiki/interests/favorites/books/topics/trump]] · [[wiki/interests/favorites/books/topics/journalism]] · [[wiki/interests/favorites/books/topics/history]] · [[wiki/interests/favorites/books/topics/ancient-history]] · [[wiki/interests/favorites/books/topics/war]]
+
+**Want to read:** [[wiki/interests/favorites/books/want-to-read]] — 149 unread titles, same obsessions (Rome, Trump-era politics, intelligence/conspiracy history) plus a distinct NYC-history thread.
