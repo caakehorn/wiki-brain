@@ -131,6 +131,20 @@ devotion. And she is half of the reason the Annie relationship carried a
 years into their decade, is the emotional high-water mark of the entire
 record of them as a couple.
 
+## Estate distribution (2020)
+
+The estate's disposition after 2018 is partly resolved (found 2026-07-14,
+random corpus sample): an estate attorney's office (`+17245706170`) informed
+Dan in August 2020 that a court-ordered distribution to him totaled
+**$144,069.31**, reduced by a **$10,000** advance already issued June 23,
+2020, for a final check of **$134,069.31**, released September 1, 2020 —
+routed through Suz, who deposited it on his behalf. The judge signed the
+order August 21, 2020, with a mandatory ten-day objection window. Dan
+specifically asked the attorney about the odds his (unnamed) grandmother
+would contest the distribution; the attorney's read was that objection was
+unlikely since two months had already passed since the account was filed
+without one being raised.
+
 ## Timeline
 
 | Date | Event |
@@ -144,6 +158,9 @@ record of them as a couple.
 | ~2015–2018 | Dementia decline; Dan + Annie as paid 24/7 caregivers |
 | 2018-03 | The fall; nursing home; hospital pediatric wing |
 | 2018-04-01/04 | Death, Uniontown Hospital (date contradiction above); snowstorm minutes later |
+| 2020-06-23 | $10,000 advance distribution issued |
+| 2020-08-21 | Court signs final distribution order |
+| 2020-09-01 | Final estate check ($134,069.31) released to Dan via Suz |
 
 **On Ira:** confirmed by Dan (2026-07-14) — Ira was Fran's **third**
 husband, and he was the 33rd-degree Mason. That leaves the coal-baron
@@ -154,4 +171,5 @@ given both details cluster around the third-husband period.
 
 **Gaps:** identity of the coal-baron husband and where he falls in the
 marital sequence; confirmation that Ira is the Judge Fred Adams law-practice
-figure; the estate's disposition after 2018; the exact NS7 gift date.
+figure; the exact NS7 gift date; identity of the "grandmother" Dan asked
+about as a potential objector to the 2020 estate distribution.
