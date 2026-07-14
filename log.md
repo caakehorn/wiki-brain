@@ -184,3 +184,12 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 
 ## [2026-07-14] ingest | places | 337 Saratoga Drive sale closed and confirmed
 - Gap 11: Dan confirmed the sale closed June 23, 2026, planned out-date July 1 slipped to actual move-out July 8. Updated wiki/places/337-saratoga-drive.md status: active → closed, resolved the open "no confirmed post-close plan" framing in the intro (463 Morgantown landing status remains a separate open gap).
+
+## [2026-07-14] promote | people | 58 contact stubs promoted from quarantine
+- User request: promote all 70 already-identified "named stubs" from contact-review.md out of wiki/people/contacts/ quarantine into full wiki/people/ pages, per the standing rule ("promote once the user asks").
+- 11 of the 70 were already covered by existing, better-developed pages under matching or near-matching filenames (felipe, ryan-lisac, marla, dimitri, jess, john-carney, shannon, tarik-fallous, trinity-st-clair, bruce-burish→bruceburish, mike-hinkle→michael-hinkle) — left untouched rather than overwritten.
+- Moved the remaining 59 out of contacts/. Fixed a mechanical header-formatting bug (missing blank line between H1 and first H2) in the files that had it; corrected status: archived → stub (mislabeled — not in an archive/ dir, and these are genuinely minimal placeholder content, which is what stub means).
+- Caught one real duplicate the filename check missed: alexandra-lubin.md (new) and wiki/people/ally-lubin.md (existing, "Ally Lubin (Alexandra Lubin)") are the same person. Merged the new 452-message iMessage thread (2019-2023, handle +15619061550) into ally-lubin.md and deleted the duplicate rather than leaving two pages for one entity.
+- Flagged (not merged — different people) two likely-family connections surfaced by the token-overlap check: Bill Ulmer and Ellen Ulmer share Annie Ulmer's surname and sustained multi-year contact; cross-linked to wiki/people/annie-ulmer with an explicit "not independently confirmed" caveat rather than asserting the relation as fact.
+- Rebuilt wiki/people/index.md (alphabetized merge of old + 58 new entries) to clear all resulting orphan-page warnings; updated wiki/people/contacts/'s remaining count (97 → 32) and the master index.md people count (149 → 208).
+- Lint 0 errors, 25 warnings (all pre-existing size-budget pattern), 0 orphans.
