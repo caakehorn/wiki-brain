@@ -6,6 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["bin/export-imessage-template.sh", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "ingest-queue.md", "log.md", "/Users/daniel/imessage-extractor/README.md", "/Users/daniel/imessage-extractor", "/Users/daniel/messages-exporter", "danwiki_portal.py", "raw/self/message-csv/*", "raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/chats/*"]
 related: ["wiki/work/tech/grok-build/overview", "wiki/work/tech/max-framework/overview", "wiki/self/message-corpora/master-message-dump", "wiki/self/context-core", "wiki/self/gemini-activity/gemini-activity.md", "wiki/self/facebook", "wiki/people/*", "wiki/timeline/periods/2025-collapse", "wiki/legal/463-morgantown", "wiki/work/bfs-foods"]
+tags: [digital-footprint, ai-collaboration, forensic-analysis]
 ---
 
 # iMessage Tooling

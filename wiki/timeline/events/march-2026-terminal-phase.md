@@ -21,6 +21,7 @@ related:
   - wiki/timeline/events/group-chat-closure
   - wiki/mind/concepts/conflict-architecture
   - wiki/mind/concepts/attachment-model
+tags: [relationships, trauma-bond, addiction-recovery]
 ---
 
 # March 2026 — The Terminal Phase Peak

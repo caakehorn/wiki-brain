@@ -15,6 +15,7 @@ related:
   - wiki/people/jacob-bacharach
   - wiki/self/location-history
   - wiki/interests/music/aliases/gripnotic
+tags: [music-production, uniontown-era, nyc-era, ai-collaboration]
 ---
 
 # 337 Saratoga Drive

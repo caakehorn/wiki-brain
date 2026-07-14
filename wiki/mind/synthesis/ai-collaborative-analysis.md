@@ -3,7 +3,7 @@ domain: mind
 page_type: synthesis
 knowledge: earned
 title: "AI Collaborative Analysis"
-tags: [AI, forensics, cognition, methodology]
+tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: stable
 date_created: 2026-06-22
 date_modified: 2026-07-13

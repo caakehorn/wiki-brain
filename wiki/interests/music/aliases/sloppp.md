@@ -20,6 +20,7 @@ related:
   - wiki/interests/music/concepts/sub-bass-signature
   - wiki/self/facebook
   - wiki/self/twitter
+tags: [music-production, nyc-era, personality-profile]
 ---
 
 # SLOPPP

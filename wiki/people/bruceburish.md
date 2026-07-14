@@ -6,6 +6,7 @@ date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/bruceburish_t6vdszljtq/", "raw/self/dox-md/operating_manual.md", "ingest/facebook-ihatedanfrank/"]
 related: ["wiki/self/message-corpora/master-message-dump"]
+tags: [digital-footprint]
 ---
 
 # Bruce Burish

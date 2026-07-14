@@ -33,6 +33,7 @@ related: [
   "wiki/people/suzanne-frank",
   "wiki/people/gabe"
 ]
+tags: [ai-collaboration, relationships, nyc-era, uniontown-era, infidelity]
 ---
 
 # Danielle Onesi (“Dee”)

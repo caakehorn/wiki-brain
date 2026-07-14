@@ -6,6 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-07-14
 sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/kristin", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/mind/concepts/attachment-model", "wiki/self/gemini-activity/gemini-activity", "wiki/self/chats/gemini-18"]
+tags: [addiction-recovery, dui, ai-collaboration, relationships, mental-health]
 ---
 
 # Tom

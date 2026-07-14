@@ -6,6 +6,7 @@ date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: ["raw/self/facebook/facebook-ihatedanfrank/messages/"]
 related: ["wiki/self/facebook", "wiki/people/annie-ulmer", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/totality-themes"]
+tags: [nyc-era, relationships, trauma-bond, family, digital-footprint]
 ---
 
 # Facebook Messages (ihatedanfrank)

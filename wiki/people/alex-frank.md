@@ -10,6 +10,7 @@ sources:
 related:
   - wiki/people/morley-frank
   - wiki/self/ancestry
+tags: [relationships, family, grief]
 ---
 
 # Alex Frank

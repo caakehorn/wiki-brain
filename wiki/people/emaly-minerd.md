@@ -8,6 +8,7 @@ date_range_start: 2018-09-02
 date_range_end: 2019-01-27
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [addiction-recovery, relationships, mental-health, legal, financial-stress]
 ---
 
 # Emaly Minerd

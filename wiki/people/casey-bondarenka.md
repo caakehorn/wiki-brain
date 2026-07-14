@@ -8,6 +8,7 @@ date_range_start: 2015-11-29
 date_range_end: 2018-10-24
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [digital-footprint]
 ---
 
 # Casey Bondarenka

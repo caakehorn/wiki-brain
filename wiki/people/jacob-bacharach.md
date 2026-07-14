@@ -6,6 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-07-02
 sources: ["raw/self/dox-md/Gemini-_13.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Jacob Bacharach.md"]
 related: ["wiki/self/chats/gemini-13", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/self/context-core", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/interests/favorites/books"]
+tags: [ai-collaboration, relationships, uniontown-era, nyc-era, addiction-recovery]
 ---
 
 # Jacob Bacharach

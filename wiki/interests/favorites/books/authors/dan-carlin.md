@@ -13,6 +13,7 @@ related:
   - "wiki/self/context-core"
 changelog:
   - 2026-07-11: Full rewrite from stub. Added thematic framing, podcast-to-book context, wiki links.
+tags: [music-production]
 ---
 
 # Dan Carlin

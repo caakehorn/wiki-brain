@@ -21,6 +21,7 @@ related:
   - wiki/self/context-core
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/timeline/periods/2025-collapse
+tags: [addiction-recovery]
 ---
 
 # BFS Foods (2026)

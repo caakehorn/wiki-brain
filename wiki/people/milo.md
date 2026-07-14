@@ -19,6 +19,7 @@ related:
   - wiki/people/valeria-iglesias-cid
   - wiki/people/gabe
   - wiki/work/tech/max-framework/overview
+tags: [pets, relationships, physical-health, ai-collaboration, nyc-era]
 ---
 
 # Milo

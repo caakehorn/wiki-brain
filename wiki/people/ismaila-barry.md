@@ -14,6 +14,7 @@ related:
   - wiki/work/au-zaatar
   - wiki/people/dimitri
   - wiki/people/tom
+tags: [nyc-era]
 ---
 
 # Ismaila Barry ("DJ")

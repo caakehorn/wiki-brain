@@ -23,6 +23,7 @@ related: [
   "wiki/mind/synthesis/ai-collaborative-analysis",
   "wiki/self/context-core"
 ]
+tags: [ai-collaboration, nyc-era, trauma-bond, relationships, politics]
 ---
 
 # Gemini Session 07 (Suzy Call & Blackout / Target G Forensic)

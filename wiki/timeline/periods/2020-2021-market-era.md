@@ -14,6 +14,7 @@ related:
   - wiki/mind/synthesis/political-psyops
   - wiki/timeline/periods/2021-2023-employment-block
   - wiki/timeline/periods/covid-era-2020
+tags: [career, addiction-recovery]
 ---
 
 # 2020–2021 Market Era

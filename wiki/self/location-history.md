@@ -25,6 +25,7 @@ related:
   - wiki/people/fran-coldren
   - wiki/people/david-j-frank
   - wiki/interests/favorites/music
+tags: [uniontown-era, nyc-era, career, financial-stress, housing]
 ---
 
 # Location History (Google Timeline)

@@ -12,6 +12,7 @@ related:
   - "wiki/self/context-core"
 changelog:
   - 2026-07-11: Full rewrite from stub. Added producer-lens framing, track count analysis, sub-bass connection, wiki links.
+tags: [music-production]
 ---
 
 # JPEGMAFIA

@@ -52,6 +52,20 @@ CLAUDE.md, "Why this is a second brain, not a RAG"):
 The field is optional; an absent value means `mixed`. `bin/wiki-lint` rejects
 any other value.
 
+**`tags`** — controlled vocabulary, applied wiki-wide 2026-07-14. Reuse
+these rather than inventing new ones; if a page genuinely needs a tag
+outside this list, add the tag to this list too so it stays a closed set.
+2-5 tags per page, most-relevant first.
+
+```
+relationships, trauma-bond, infidelity, attachment, family,
+addiction-recovery, mental-health, physical-health, grief,
+legal, dui, financial-stress, housing, career,
+music-production, personality-profile, ideology, politics,
+forensic-analysis, ai-collaboration, digital-footprint,
+uniontown-era, nyc-era, pets
+```
+
 There is **no** `author-stub` / `artist-stub` / other invented page_type: a
 stub is `page_type: entity` (or the appropriate type) with `status: stub`.
 

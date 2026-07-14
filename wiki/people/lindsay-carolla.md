@@ -8,6 +8,7 @@ date_range_start: 2016-11-24
 date_range_end: 2017-04-11
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [digital-footprint]
 ---
 
 # Lindsay Carolla

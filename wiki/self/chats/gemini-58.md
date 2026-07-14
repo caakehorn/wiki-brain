@@ -20,6 +20,7 @@ related: [
   "wiki/mind/synthesis/ai-collaborative-analysis",
   "wiki/self/context-core"
 ]
+tags: [ai-collaboration, nyc-era, addiction-recovery, music-production, personality-profile]
 ---
 
 # Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)

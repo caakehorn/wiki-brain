@@ -8,6 +8,7 @@ date_range_start: 2018-05-13
 date_range_end: 2018-11-01
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [digital-footprint]
 ---
 
 # Al

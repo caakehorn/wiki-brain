@@ -8,6 +8,7 @@ date_range_start: 2018-03-27
 date_range_end: 2020-09-14
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [digital-footprint]
 ---
 
 # Jim Vrabel

@@ -8,6 +8,7 @@ date_range_start: 2007-01-09
 date_range_end: 2022-09-05
 sources: ["raw/self/facebook/facebook-ihatedanfrank/"]
 related: ["wiki/self/facebook", "wiki/interests/favorites/music", "wiki/mind/synthesis/millennial-digital-witness"]
+tags: [nyc-era]
 ---
 
 # Facebook Interests, Events, Groups & Tracking

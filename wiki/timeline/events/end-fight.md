@@ -8,6 +8,7 @@ date_range_start: 2026-05-31
 date_range_end: 2026-06-01
 sources: ["raw/self/message-csv/THE END FIGHT.csv", "raw/self/message-csv/END_FIGHT_full.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/events/group-chat-closure", "wiki/timeline/periods/2025-collapse", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/conflict-architecture"]
+tags: [addiction-recovery, trauma-bond]
 ---
 
 # The End Fight (May 31 – June 16 2026)

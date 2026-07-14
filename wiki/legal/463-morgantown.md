@@ -17,6 +17,7 @@ related:
   - wiki/people/felix
   - wiki/self/context-core
   - wiki/timeline/periods/2025-collapse
+tags: [housing, uniontown-era]
 ---
 
 # 463 Morgantown St

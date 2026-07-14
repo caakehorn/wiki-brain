@@ -6,6 +6,7 @@ date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip"]
 related: ["wiki/people/david-j-frank", "wiki/people/morley-frank", "wiki/self/ancestry", "wiki/self/overview"]
+tags: [uniontown-era, family]
 ---
 
 # Sadie Harris

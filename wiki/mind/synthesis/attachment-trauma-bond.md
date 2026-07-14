@@ -31,6 +31,7 @@ related:
   - wiki/mind/concepts/contact-gini
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/mind/concepts/forensic-method
+tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
 ---
 
 # Attachment Trauma Bond and Aura Illness

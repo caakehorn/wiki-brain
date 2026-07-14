@@ -14,6 +14,7 @@ related:
   - wiki/mind/profile/intp
   - wiki/mind/profile/enneagram-5w4
   - wiki/mind/synthesis/political-psyops
+tags: [personality-profile, ai-collaboration, music-production]
 ---
 
 # Socionics ILI-Ni, Attitudinal Psyche & Alignment

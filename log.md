@@ -193,3 +193,11 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - Flagged (not merged — different people) two likely-family connections surfaced by the token-overlap check: Bill Ulmer and Ellen Ulmer share Annie Ulmer's surname and sustained multi-year contact; cross-linked to wiki/people/annie-ulmer with an explicit "not independently confirmed" caveat rather than asserting the relation as fact.
 - Rebuilt wiki/people/index.md (alphabetized merge of old + 58 new entries) to clear all resulting orphan-page warnings; updated wiki/people/contacts/'s remaining count (97 → 32) and the master index.md people count (149 → 208).
 - Lint 0 errors, 25 warnings (all pre-existing size-budget pattern), 0 orphans.
+
+## [2026-07-14] lint | wiki-wide | tag taxonomy added
+- User request: add tags. Only 4 pages had ad hoc tags before this pass (context-core, ai-collaborative-analysis, political-psyops, fran-coldren) — no controlled vocabulary existed.
+- Defined a 24-term controlled vocabulary of cross-domain topical hooks (relationships, trauma-bond, infidelity, attachment, family, addiction-recovery, mental-health, physical-health, grief, legal, dui, financial-stress, housing, career, music-production, personality-profile, ideology, politics, forensic-analysis, ai-collaboration, digital-footprint, uniontown-era, nyc-era, pets), documented in STYLE_GUIDE.md.
+- Scripted a keyword-match pass over 235 candidate pages (excluding contacts/, archive/, index files): distinctive terms (GRIPNOTIC, INTP, Suboxone, DUI, etc.) fire on a single match; generic terms require 2+ matches to survive, cutting false-positive noise substantially (an earlier draft pass without the threshold mistagged e.g. a Dan Carlin book page as music-production off a stray "producer" match). Assigned top 2-5 tags per page.
+- Applied to 203 pages (32 already had no keyword hits — mostly navigation/index-adjacent pages — left untagged rather than forced).
+- Added tags validation to bin/wiki-lint (VALID_TAGS set, mirrors the existing knowledge-field pattern) so future tags stay a closed, reusable vocabulary instead of drifting into ad hoc one-offs. Normalized the 4 pre-existing pages' free-form tags to the new controlled vocabulary.
+- Lint 0 errors, 25 warnings (no change; pure additive frontmatter field, no prose touched).

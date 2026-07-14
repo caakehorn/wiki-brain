@@ -15,6 +15,7 @@ related:
   - wiki/interests/favorites/index
   - wiki/self/facebook
   - wiki/mind/synthesis/totality-themes
+tags: [music-production, politics, forensic-analysis]
 ---
 
 # Favorites Masterlist (Legacy)

@@ -13,6 +13,7 @@ related:
   - wiki/people/annie-ulmer
   - wiki/places/155-virginia-ave
   - wiki/timeline/events/fran-death-vigil
+tags: [uniontown-era]
 ---
 
 # 117 Belmont Circle

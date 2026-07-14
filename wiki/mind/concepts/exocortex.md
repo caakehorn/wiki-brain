@@ -20,6 +20,7 @@ related:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/work/tech/max-framework/overview
   - wiki/self/context-core
+tags: [forensic-analysis, ai-collaboration, trauma-bond]
 ---
 
 # The Exocortex

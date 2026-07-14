@@ -13,6 +13,7 @@ related:
   - wiki/people/annie-ulmer
   - wiki/people/franki-faris
   - wiki/timeline/periods/2010s
+tags: [relationships, forensic-analysis]
 ---
 
 # Katie Fletcher

@@ -23,6 +23,7 @@ related:
   - wiki/mind/concepts/conflict-architecture
   - wiki/timeline/periods/2021-2023-employment-block
   - wiki/timeline/periods/dec-2025-spike
+tags: [politics, career, nyc-era]
 ---
 
 # YouTube Watch History (2007–2025)

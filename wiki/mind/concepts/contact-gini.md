@@ -24,6 +24,7 @@ related:
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/timeline/periods/2025-collapse
   - wiki/timeline/periods/dec-2025-spike
+tags: [relationships, music-production, trauma-bond]
 ---
 
 # Contact Gini

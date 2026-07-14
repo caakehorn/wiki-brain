@@ -19,6 +19,7 @@ related:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
   - wiki/timeline/periods/dec-2025-spike
+tags: [relationships]
 ---
 
 # Group Chat Closure (June 1 2026)

@@ -25,6 +25,7 @@ related: [
   "wiki/mind/synthesis/political-psyops",
   "wiki/timeline/periods/2025-collapse"
 ]
+tags: [ai-collaboration, relationships, politics, nyc-era, trauma-bond]
 ---
 
 # Gemini Session 21 (Music Guy Personality + Eggie Bagels Jailbreak / Model-on-Model Warfare)

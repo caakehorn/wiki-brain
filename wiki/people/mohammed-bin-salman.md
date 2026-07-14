@@ -8,6 +8,7 @@ date_range_start: 2023-09-29
 date_range_end: 2024-08-12
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [digital-footprint]
 ---
 
 # Mohammed Bin salman

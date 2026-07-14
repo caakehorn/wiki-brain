@@ -19,6 +19,7 @@ related:
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/self/gemini-activity/gemini-activity
   - wiki/self/context-core
+tags: [ai-collaboration, infidelity, nyc-era, trauma-bond]
 ---
 
 # Eli

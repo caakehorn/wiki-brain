@@ -9,6 +9,7 @@ date_modified: 2026-07-11
 sources: [
   "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv","raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf", "wiki/mind/concepts/erotic-architecture", "wiki/people/franki-faris"]
+tags: [ai-collaboration, nyc-era, relationships, infidelity, trauma-bond]
 ---
 
 # Alexis Armel (“Lex”)

@@ -16,6 +16,7 @@ related:
   - wiki/timeline/events/eli-incident
   - wiki/timeline/events/group-chat-closure
   - wiki/self/facebook
+tags: [relationships, attachment, addiction-recovery, trauma-bond, infidelity]
 ---
 
 # Attachment Model

@@ -12,6 +12,7 @@ related:
   - "wiki/self/context-core"
 changelog:
   - 2026-07-11: Full rewrite from stub. Added producer-lineage framing, post-2016 complexity, wiki links.
+tags: [music-production, grief]
 ---
 
 # Kanye West

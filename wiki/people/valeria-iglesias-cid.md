@@ -21,6 +21,7 @@ related:
 changelog:
   - date: 2026-07-13
     note: "Rewritten from the primary IG corpus (message_1.json, 4,884 msgs 2022–2025) + Feb 2026 Gemini audits"
+tags: [infidelity, ai-collaboration, nyc-era, pets, trauma-bond]
 ---
 
 # Valeria Iglesias Cid

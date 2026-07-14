@@ -21,6 +21,7 @@ related:
   - wiki/people/suzanne-frank
   - wiki/interests/music/overview
   - wiki/timeline/index
+tags: [music-production, uniontown-era, addiction-recovery, nyc-era, infidelity]
 ---
 
 # Self Overview

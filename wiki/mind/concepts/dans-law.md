@@ -14,6 +14,7 @@ related:
   - wiki/work/bfs-foods
   - wiki/self/chats/j6-chat
   - wiki/self/context-core
+tags: [politics, trauma-bond, forensic-analysis]
 ---
 
 # Dan's Law

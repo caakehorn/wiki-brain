@@ -17,6 +17,7 @@ related:
   - wiki/mind/concepts/forensic-method
   - wiki/mind/concepts/conflict-architecture
   - wiki/mind/concepts/phenomenology-lens
+tags: [personality-profile, trauma-bond, addiction-recovery]
 ---
 
 # INTP — The Cognitive Function Stack

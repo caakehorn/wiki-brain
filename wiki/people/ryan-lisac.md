@@ -6,6 +6,7 @@ date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: []
 related: ["wiki/self/context-core", "wiki/people/tom"]
+tags: [digital-footprint]
 ---
 
 # Ryan Lisac

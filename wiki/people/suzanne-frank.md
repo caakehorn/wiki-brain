@@ -22,6 +22,7 @@ sources:
   - raw/self/dox-md/LIFE REPORT.md
   - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07"]
+tags: [ai-collaboration, uniontown-era, infidelity, relationships, addiction-recovery]
 ---
 
 # Suz (Suzanne Frank)

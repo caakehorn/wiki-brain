@@ -6,6 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/interests/music/index", "wiki/interests/music/concepts/sub-bass-signature", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike"]
+tags: [music-production]
 ---
 
 # Music Favorites

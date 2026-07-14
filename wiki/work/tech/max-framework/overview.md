@@ -6,6 +6,7 @@ date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-md/CATO_conflict_architecture.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_13.md", "log.md", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/chats/*"]
 related: ["wiki/mind/concepts/exocortex", "wiki/mind/concepts/conflict-architecture", "wiki/self/context-core", "wiki/work/tech/grok-build/overview", "wiki/work/tech/imessage-tooling/overview", "wiki/people/max", "wiki/people/mary-kate", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/timeline/periods/2025-collapse", "wiki/work/bfs-foods"]
+tags: [ai-collaboration, forensic-analysis, digital-footprint, politics, personality-profile]
 ---
 
 # MAX Framework

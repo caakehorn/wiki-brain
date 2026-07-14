@@ -16,6 +16,7 @@ related:
   - wiki/mind/profile/deviance-mapping
   - wiki/mind/concepts/contact-gini
   - wiki/self/context-core
+tags: [personality-profile]
 ---
 
 # Big Five / Big30 Psychometrics & PD Vector

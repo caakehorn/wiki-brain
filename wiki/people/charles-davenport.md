@@ -6,6 +6,7 @@ date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: ["/Users/daniel/Documents/dan-wiki/raw/self/facebook/facebook-ihatedanfrank/messages/inbox/charlesdavenport_skjjehkupq/message_1.html", "/Users/daniel/Documents/dan-wiki/ingest/facebook-ihatedanfrank/messages/inbox/charlesdavenport_skjjehkupq/message_1.html"]
 related: ["wiki/self/facebook", "wiki/timeline/periods/2010s", "wiki/self/message-corpora/master-message-dump", "wiki/self/location-history"]
+tags: [nyc-era]
 ---
 
 # Charles Davenport

@@ -20,6 +20,7 @@ related:
   - wiki/people/annie-ulmer
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
+tags: [infidelity, trauma-bond, nyc-era]
 ---
 
 # Eli Incident

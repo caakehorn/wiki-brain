@@ -14,6 +14,7 @@ related:
   - wiki/people/milo
   - wiki/people/danielle-onesi
   - wiki/work/tech/max-framework/overview
+tags: [pets, ai-collaboration, nyc-era]
 ---
 
 # Gabe

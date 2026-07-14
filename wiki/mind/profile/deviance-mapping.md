@@ -14,6 +14,7 @@ related:
   - wiki/mind/profile/big-five-psychometrics
   - wiki/mind/profile/linguistic-profile
   - wiki/self/context-core
+tags: [addiction-recovery, personality-profile]
 ---
 
 # Deviance Mapping — The Statistical Outlier Audit

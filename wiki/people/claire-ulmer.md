@@ -11,6 +11,7 @@ sources:
 related:
   - wiki/people/annie-ulmer
   - wiki/people/milo
+tags: [pets, relationships, grief]
 ---
 
 # Claire Ulmer

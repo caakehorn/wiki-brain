@@ -18,6 +18,7 @@ related:
   - wiki/people/tom
   - wiki/people/johnny-dealer
   - wiki/work/bfs-foods
+tags: [addiction-recovery, family, relationships, trauma-bond]
 ---
 
 # Chemical Architecture

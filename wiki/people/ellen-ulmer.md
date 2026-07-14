@@ -8,6 +8,7 @@ date_range_start: 2017-04-11
 date_range_end: 2025-11-01
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/people/annie-ulmer"]
+tags: [digital-footprint]
 ---
 
 # Ellen Ulmer

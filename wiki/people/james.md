@@ -13,6 +13,7 @@ sources:
 related:
   - wiki/self/message-corpora/master-message-dump
   - wiki/mind/concepts/contact-gini
+tags: [digital-footprint]
 ---
 
 # James
