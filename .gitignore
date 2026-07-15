@@ -1,4 +1,6 @@
 exports/
+site/
 .DS_Store
 corpus_*.md
 .gdrive-*.txt
+.README.md.swp

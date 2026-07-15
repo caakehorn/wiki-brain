@@ -1,0 +1,416 @@
+#!/usr/bin/env python3
+"""publish-agent — build a static, LLM/agent-facing feed of the compiled wiki.
+
+Writes into site/ (gitignored) by default:
+
+  site/llms.txt                 discovery entrypoint for agents
+  site/agent/manifest.json      machine index of every page
+  site/agent/corpus.md          full compiled wiki (~tokens printed)
+  site/agent/domains/<d>.md     per-domain corpora (fit context windows)
+  site/agent/critical.md        only importance: critical|high pages
+  site/wiki/**/*.md             raw markdown tree for selective fetch
+  site/index.md                 human/agent navigation entry
+  site/AGENT_ACCESS.md          how to use the feed
+
+Does NOT publish raw/, inbox/, or exports/. Those stay in the git repo
+only (and should be treated carefully if the repo is public).
+
+Usage:
+  bin/publish-agent
+  bin/publish-agent --out /tmp/wiki-site
+  bin/publish-agent --base-url https://caakehorn.github.io/wiki-brain
+"""
+from __future__ import annotations
+
+import argparse
+import datetime
+import json
+import os
+import re
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_OUT = ROOT / "site"
+DEFAULT_BASE = "https://caakehorn.github.io/wiki-brain"
+DOMAINS = [
+    "self", "timeline", "people", "mind", "work",
+    "interests", "health", "places", "legal",
+]
+FM_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
+
+
+def git_sha() -> str:
+    try:
+        return subprocess.check_output(
+            ["git", "rev-parse", "HEAD"], cwd=ROOT, text=True
+        ).strip()
+    except Exception:
+        return "unknown"
+
+
+def parse_frontmatter(text: str) -> dict:
+    m = FM_RE.match(text)
+    if not m:
+        return {}
+    meta = {}
+    for line in m.group(1).splitlines():
+        if ":" not in line or line.startswith(" ") or line.startswith("-"):
+            continue
+        key, _, val = line.partition(":")
+        key = key.strip()
+        val = val.strip().strip("\"'")
+        if key in ("domain", "page_type", "status", "title",
+                   "importance", "knowledge", "date_modified", "date_created"):
+            meta[key] = val
+    return meta
+
+
+def first_heading(text: str) -> str:
+    for line in text.splitlines():
+        if line.startswith("# "):
+            return line[2:].strip()
+    return ""
+
+
+def estimate_tokens(text: str) -> int:
+    return max(1, len(text) // 4)
+
+
+def collect_wiki_pages() -> list[Path]:
+    wiki = ROOT / "wiki"
+    pages = []
+    for p in sorted(wiki.rglob("*.md")):
+        if any(part.startswith(".") for part in p.parts):
+            continue
+        pages.append(p)
+    return pages
+
+
+def write_corpus(files: list[Path], out: Path, title: str, note: str = "") -> dict:
+    today = datetime.date.today().isoformat()
+    parts = [
+        f"# {title}",
+        "",
+        f"Exported: {today}",
+        f"Source: https://github.com/caakehorn/wiki-brain",
+        f"Git SHA: {git_sha()}",
+        "",
+        "Compiled wiki pages only (not raw/ sources). Each section is one page.",
+        "",
+    ]
+    if note:
+        parts += [note, ""]
+    parts += ["## Table of contents", ""]
+    for f in files:
+        parts.append(f"- {f.relative_to(ROOT)}")
+    parts.append("\n---\n")
+    for f in files:
+        rel = f.relative_to(ROOT)
+        try:
+            body = f.read_text(encoding="utf-8", errors="replace")
+        except Exception as e:
+            body = f"[unreadable: {e}]"
+        parts.append(f"\n<!-- ===== {rel} ===== -->\n\n# FILE: {rel}\n\n{body.strip()}\n")
+    text = "\n".join(parts)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(text, encoding="utf-8")
+    return {
+        "path": str(out.name),
+        "pages": len(files),
+        "chars": len(text),
+        "approx_tokens": estimate_tokens(text),
+    }
+
+
+def copy_wiki_tree(out_wiki: Path) -> int:
+    src = ROOT / "wiki"
+    if out_wiki.exists():
+        shutil.rmtree(out_wiki)
+    count = 0
+    for p in collect_wiki_pages():
+        rel = p.relative_to(src)
+        dest = out_wiki / rel
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(p, dest)
+        count += 1
+    # also root navigation
+    return count
+
+
+def build(out: Path, base_url: str) -> dict:
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir(parents=True)
+
+    pages = collect_wiki_pages()
+    page_records = []
+    by_domain: dict[str, list[Path]] = {d: [] for d in DOMAINS}
+    critical_files: list[Path] = []
+
+    for p in pages:
+        text = p.read_text(encoding="utf-8", errors="replace")
+        meta = parse_frontmatter(text)
+        rel = p.relative_to(ROOT).as_posix()
+        domain = meta.get("domain") or (
+            p.relative_to(ROOT / "wiki").parts[0]
+            if p.is_relative_to(ROOT / "wiki") else "unknown"
+        )
+        title = meta.get("title") or first_heading(text) or p.stem
+        importance = meta.get("importance", "")
+        rec = {
+            "path": rel,
+            "url": f"{base_url}/{rel}",
+            "github_raw": f"https://raw.githubusercontent.com/caakehorn/wiki-brain/main/{rel}",
+            "domain": domain,
+            "title": title,
+            "page_type": meta.get("page_type", ""),
+            "status": meta.get("status", ""),
+            "importance": importance,
+            "knowledge": meta.get("knowledge", ""),
+            "date_modified": meta.get("date_modified", ""),
+            "bytes": p.stat().st_size,
+            "approx_tokens": estimate_tokens(text),
+        }
+        page_records.append(rec)
+        if domain in by_domain:
+            by_domain[domain].append(p)
+        if importance in ("critical", "high"):
+            critical_files.append(p)
+
+    # root index
+    root_index = ROOT / "index.md"
+    corpus_files = ([root_index] if root_index.exists() else []) + pages
+
+    agent = out / "agent"
+    agent.mkdir(parents=True)
+
+    full_stats = write_corpus(
+        corpus_files,
+        agent / "corpus.md",
+        "Personal Wiki — full compiled corpus",
+        note="Prefer domain corpora if this exceeds your context window.",
+    )
+
+    domain_stats = {}
+    for domain, files in by_domain.items():
+        if not files:
+            continue
+        st = write_corpus(
+            files,
+            agent / "domains" / f"{domain}.md",
+            f"Personal Wiki — domain: {domain}",
+        )
+        domain_stats[domain] = {
+            **st,
+            "url": f"{base_url}/agent/domains/{domain}.md",
+            "pages": len(files),
+        }
+
+    critical_stats = None
+    if critical_files:
+        # stable order by importance then path
+        critical_files = sorted(
+            set(critical_files),
+            key=lambda p: (
+                0 if parse_frontmatter(p.read_text(encoding="utf-8", errors="replace")).get("importance") == "critical" else 1,
+                str(p),
+            ),
+        )
+        critical_stats = write_corpus(
+            critical_files,
+            agent / "critical.md",
+            "Personal Wiki — critical & high-importance pages",
+            note="Spine for quick agent context. Expand via domain corpora or individual pages.",
+        )
+
+    n_wiki = copy_wiki_tree(out / "wiki")
+    if root_index.exists():
+        shutil.copy2(root_index, out / "index.md")
+
+    sha = git_sha()
+    generated = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    manifest = {
+        "name": "wiki-brain",
+        "description": (
+            "Compiled personal second-brain wiki (Markdown). "
+            "Prefer this feed over raw/ sources. Always tracks the latest main branch deploy."
+        ),
+        "generated_at": generated,
+        "git_sha": sha,
+        "github": "https://github.com/caakehorn/wiki-brain",
+        "base_url": base_url,
+        "entrypoints": {
+            "llms_txt": f"{base_url}/llms.txt",
+            "manifest": f"{base_url}/agent/manifest.json",
+            "full_corpus": f"{base_url}/agent/corpus.md",
+            "critical": f"{base_url}/agent/critical.md",
+            "wiki_tree": f"{base_url}/wiki/",
+            "github_raw_base": "https://raw.githubusercontent.com/caakehorn/wiki-brain/main/wiki/",
+        },
+        "stats": {
+            "pages": len(pages),
+            "full_corpus_approx_tokens": full_stats["approx_tokens"],
+            "full_corpus_chars": full_stats["chars"],
+        },
+        "domains": domain_stats,
+        "critical_corpus": critical_stats,
+        "pages": page_records,
+    }
+    (agent / "manifest.json").write_text(
+        json.dumps(manifest, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+    # llms.txt — emerging standard discovery file
+    llms_lines = [
+        "# wiki-brain",
+        "",
+        f"> Personal second-brain wiki. Compiled Markdown, updated from GitHub main ({sha[:7]}).",
+        f"> Generated {generated}. Prefer these agent URLs over scraping the human site.",
+        "",
+        "## Start here",
+        "",
+        f"- [Agent manifest (JSON)]({base_url}/agent/manifest.json): machine index of every page, URLs, domains, token estimates",
+        f"- [Critical spine]({base_url}/agent/critical.md): importance critical/high pages only (~fast context)",
+        f"- [Full corpus]({base_url}/agent/corpus.md): entire compiled wiki (~{full_stats['approx_tokens']:,} tokens)",
+        f"- [Master index]({base_url}/index.md): human navigation table of domains",
+        "",
+        "## Domain corpora (recommended for context limits)",
+        "",
+    ]
+    for domain in DOMAINS:
+        if domain not in domain_stats:
+            continue
+        st = domain_stats[domain]
+        llms_lines.append(
+            f"- [{domain}]({base_url}/agent/domains/{domain}.md): "
+            f"{st['pages']} pages, ~{st['approx_tokens']:,} tokens"
+        )
+    llms_lines += [
+        "",
+        "## Selective page fetch",
+        "",
+        f"Any wiki page as raw Markdown:",
+        f"- Pages base: `{base_url}/wiki/{{path}}.md`",
+        f"- Always-current GitHub raw: `https://raw.githubusercontent.com/caakehorn/wiki-brain/main/wiki/{{path}}.md`",
+        "",
+        "Example:",
+        f"- {base_url}/wiki/self/overview.md",
+        f"- {base_url}/wiki/people/annie-ulmer.md",
+        f"- {base_url}/wiki/mind/profile/index.md",
+        "",
+        "## Optional",
+        "",
+        f"- [Agent access guide]({base_url}/AGENT_ACCESS.md)",
+        f"- [GitHub repository](https://github.com/caakehorn/wiki-brain)",
+        "",
+        "## Notes for agents",
+        "",
+        "- This feed is the **compiled** wiki (`wiki/`), not the immutable source archive (`raw/`).",
+        "- Reason from these pages first. Treat contradictions flagged with `CONTRADICTION` / `REVISED` blocks as first-class.",
+        "- Full corpus may exceed a single context window; use domain or critical corpora, then fetch individual pages.",
+        "- Content tracks GitHub `main` via CI deploy; check `git_sha` in the manifest for freshness.",
+        "",
+    ]
+    (out / "llms.txt").write_text("\n".join(llms_lines), encoding="utf-8")
+
+    access_doc = f"""# Agent access — wiki-brain
+
+This site is the **LLM/agent feed** for the personal wiki. It is rebuilt on every push to `main`.
+
+## Canonical URLs
+
+| Resource | URL |
+|----------|-----|
+| Discovery (`llms.txt`) | {base_url}/llms.txt |
+| Machine manifest | {base_url}/agent/manifest.json |
+| Critical spine | {base_url}/agent/critical.md |
+| Full corpus | {base_url}/agent/corpus.md |
+| Domain corpora | {base_url}/agent/domains/&lt;domain&gt;.md |
+| Individual pages | {base_url}/wiki/…/*.md |
+| GitHub (source of truth) | https://github.com/caakehorn/wiki-brain |
+| GitHub raw page | https://raw.githubusercontent.com/caakehorn/wiki-brain/main/wiki/… |
+
+## Recommended agent strategy
+
+1. `GET {base_url}/llms.txt` — discover entrypoints.
+2. `GET {base_url}/agent/manifest.json` — list pages, domains, token estimates, `git_sha`.
+3. Load context by budget:
+   - small: `agent/critical.md`
+   - medium: one or more `agent/domains/*.md`
+   - large: `agent/corpus.md` (or multi-pass by domain)
+4. Deep-dive: fetch individual `{base_url}/wiki/<path>.md` pages from the manifest.
+
+## Freshness
+
+- Deployed from GitHub Actions on every push to `main`.
+- `manifest.json` → `generated_at` and `git_sha` tell you what you loaded.
+- For a single file without waiting for Pages, use GitHub raw URLs (CDN-cached ~minutes).
+
+## What is NOT in this feed
+
+- `raw/` source archive (message dumps, dossiers, exports) — not published here on purpose.
+- Local app write APIs (capture/ingest) — local-only; agents should not expect write access.
+
+## Current build
+
+- Generated: {generated}
+- Git SHA: `{sha}`
+- Pages in tree: {n_wiki}
+- Full corpus ≈ {full_stats['approx_tokens']:,} tokens
+"""
+    (out / "AGENT_ACCESS.md").write_text(access_doc, encoding="utf-8")
+
+    # tiny root landing for browsers that hit /
+    landing = f"""# wiki-brain (agent feed)
+
+Personal second-brain wiki — **agent/LLM feed**, rebuilt from GitHub `main`.
+
+- **Agents start at** [llms.txt](llms.txt) or [agent/manifest.json](agent/manifest.json)
+- **Humans:** [index.md](index.md) · [AGENT_ACCESS.md](AGENT_ACCESS.md) · [GitHub](https://github.com/caakehorn/wiki-brain)
+
+Build: `{sha[:7]}` · {generated} · {len(pages)} pages · full corpus ~{full_stats['approx_tokens']:,} tokens
+"""
+    (out / "README.md").write_text(landing, encoding="utf-8")
+
+    # .nojekyll so GitHub Pages serves files as-is (no Jekyll rewrite)
+    (out / ".nojekyll").write_text("", encoding="utf-8")
+
+    summary = {
+        "out": str(out),
+        "pages": len(pages),
+        "wiki_copied": n_wiki,
+        "full_tokens": full_stats["approx_tokens"],
+        "domains": {k: v["approx_tokens"] for k, v in domain_stats.items()},
+        "git_sha": sha,
+        "base_url": base_url,
+    }
+    return summary
+
+
+def main(argv: list[str]) -> int:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    ap.add_argument("--base-url", default=os.environ.get("AGENT_BASE_URL", DEFAULT_BASE))
+    args = ap.parse_args(argv)
+
+    summary = build(args.out.resolve(), args.base_url.rstrip("/"))
+    print("publish-agent: built agent site")
+    print(f"  out:      {summary['out']}")
+    print(f"  pages:    {summary['pages']}")
+    print(f"  corpus:   ~{summary['full_tokens']:,} tokens")
+    print(f"  git_sha:  {summary['git_sha'][:12]}")
+    print(f"  base_url: {summary['base_url']}")
+    print("  domains:")
+    for d, tok in summary["domains"].items():
+        print(f"    {d:12} ~{tok:,} tokens")
+    print(f"\nEntrypoint: {summary['base_url']}/llms.txt")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

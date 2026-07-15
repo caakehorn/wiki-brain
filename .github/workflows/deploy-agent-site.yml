@@ -1,0 +1,60 @@
+# Deploy the LLM/agent feed to GitHub Pages on every push to main.
+# Builds site/ via bin/publish-agent (compiled wiki only — no raw/).
+name: Deploy agent site
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-agent
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build agent site
+        env:
+          AGENT_BASE_URL: https://caakehorn.github.io/wiki-brain
+        run: |
+          chmod +x bin/publish-agent
+          python3 bin/publish-agent --out site
+          echo "--- site tree (top) ---"
+          find site -type f | head -40
+          echo "..."
+          find site -type f | wc -l
+          ls -lh site/agent/corpus.md site/llms.txt site/agent/manifest.json
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
