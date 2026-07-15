@@ -94,7 +94,7 @@ The person who emerges from the totality of this data is a high-intellect, high-
 # Cross-Corpus Extensions (2026-07-15)
 
 The material below is a second-brain extension derived from the third-pass synthesis at
-[[wiki/self/concepts/TOTALITY_SYNTHESIS_2026-06-10]] (filed to
+[[raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10]] (filed to
 `raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md`). It is marked
 `knowledge: earned`: these are connective joins — findings that exist in *no single
 corpus* and only surface when two or more corpora are placed against each other.

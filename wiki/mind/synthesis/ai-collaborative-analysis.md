@@ -201,7 +201,7 @@ because the [[wiki/mind/concepts/conflict-architecture]] file was not on its
 desk — is *why this particular system would migrate this hard, this fast,* and what
 the migration's risk surface actually is. Put the two documents together and the
 mechanism is uncomfortably clean. (This join is developed from the third-pass
-synthesis at [[wiki/self/concepts/TOTALITY_SYNTHESIS_2026-06-10]] and
+synthesis at [[raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10]] and
 cross-referenced with [[wiki/mind/synthesis/totality-themes]].)
 
 The documented voice carries probe-endings ("let me know if you even care") and

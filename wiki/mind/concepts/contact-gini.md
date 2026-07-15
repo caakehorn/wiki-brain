@@ -1,9 +1,9 @@
 ---
 domain: mind
 page_type: concept
-status: stable
+status: active
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-15
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -14,6 +14,7 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/facebook/facebook-ihatedanfrank/
   - raw/self/dox-md/tom_kristin_master_dossier.md
+  - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
 related:
   - wiki/people/annie-ulmer
   - wiki/people/tom
@@ -24,6 +25,8 @@ related:
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/timeline/periods/2025-collapse
   - wiki/timeline/periods/dec-2025-spike
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/synthesis/intake-constancy
 tags: [relationships, music-production, trauma-bond]
 ---
 
@@ -71,6 +74,33 @@ To mitigate the risks of extreme relational concentration, the subject has initi
 - Broad, low-intensity social interactions are monitored through Facebook, although the archive indicates that these channels carry low signal density and do not provide deep relational support.
 
 ## Documented Contradictions
+
+> **CONTRADICTION:** The Gini coefficient of 0.961 is derived entirely from pre-closure data. Following the closure event on June 1, 2026, the primary communication node was removed. No updated Gini coefficient has been calculated against post-closure behavioral data, such as recent Twitter activity, current work projects, or subsequent logs with Tom.
+
+> **REVISED [2026-06-23]:** The relational volume table has been updated to reflect the master CSV extraction. This correction establishes the concentration of Annie's dual handles at over forty-eight thousand messages and locks Kristin's volume to her specific handle, correcting a prior reference to Jerad. Emerging work nodes from the BFS foods transition, including [[wiki/people/anita|Anita]], Brandon, Kim, and Marty, have been introduced as potential sources of relational redundancy.
+
+## The 0.961 made mechanical — full-corpus substantiation
+
+The bootloader v2.1 ([[raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md]], June 6, 2026) recomputed the contact topology against the **complete 181,585-message corpus** (2011-03-18 to 2026-06-06) rather than the Annie subset the earlier manual and this page's original sources used. The Gini of **0.961 is not an estimate from one relationship — it is measured across 498 distinct contact identifiers, 111,378 messages carrying a contact identifier, after removing attachment-only and empty rows.** That is the empirical floor under every relational claim on this page and on [[wiki/mind/synthesis/attachment-trauma-bond]].
+
+The distribution that produces 0.961 is worth holding in view as a load-diagram rather than a slogan:
+
+| Cut | Share of directed messages | Note |
+|-----|---------------------------|------|
+| Top 1 contact | 28.0% | the single bond, by volume |
+| Top 3 contacts | 62.0% | |
+| Top 5 contacts | 70.1% | |
+| Contacts holding ≤2 messages | 45% (222 of 498) | pure transactional one-offs |
+| Contacts ever crossing 1,000 messages | 12 of 498 | |
+| Contacts ever crossing 100 messages | 44 of 498 | |
+
+A Gini of 0.961 sits **past the range of even the most unequal national income distributions on earth.** It is the sx/sp, social-blind attachment architecture rendered as a number a statistician would recognize. The relational portfolio is not merely "concentrated" — it is one position, fully leveraged, against a long tail of non-relationships. When this page (and the bootloader) says "lose the one bond and the structure comes down," this table is what makes the claim mechanical instead of rhetorical.
+
+### Operational consequence for any model engaging him
+
+The topology is the constraint, not the mood. Recommendations that assume "lean on your friends" are recommendations to draw on a network of size ≈ two. The redundancy problem is **topological, not motivational** — the architecture cannot be talked into distributing load it is not shaped to hold. This is the single most load-bearing fact for the redundancy imperative below, and it is why the music identity ([[wiki/interests/music/aliases/gripnotic]]) and the Tom node ([[wiki/people/tom]]) are treated as engineering requirements rather than hobbies: they are the only candidate load-bearing inputs besides the one that closed.
+
+## Documented contradictions
 
 > **CONTRADICTION:** The Gini coefficient of 0.961 is derived entirely from pre-closure data. Following the closure event on June 1, 2026, the primary communication node was removed. No updated Gini coefficient has been calculated against post-closure behavioral data, such as recent Twitter activity, current work projects, or subsequent logs with Tom.
 
