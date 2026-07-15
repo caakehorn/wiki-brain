@@ -55,6 +55,7 @@ related:
   - wiki/mind/concepts/conflict-architecture
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/mind/synthesis/bond-switch-2015
+  - wiki/mind/synthesis/dan-annie-fallout-verdict
   - wiki/people/alexis-armel
   - wiki/places/155-virginia-ave
   - wiki/timeline/events/eli-incident

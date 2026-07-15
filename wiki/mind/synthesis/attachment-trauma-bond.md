@@ -34,6 +34,7 @@ related:
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/mind/concepts/forensic-method
   - wiki/mind/synthesis/bond-switch-2015
+  - wiki/mind/synthesis/dan-annie-fallout-verdict
   - wiki/places/155-virginia-ave
 tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
 ---
