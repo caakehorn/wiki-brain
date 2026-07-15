@@ -94,7 +94,7 @@ See [AGENT_ACCESS.md](AGENT_ACCESS.md) for the full URL table, a pasteable
 agent prompt, freshness rules, and privacy notes. Local preview:
 
 ```bash
-bin/publish-agent                 # builds site/ (gitignored)
+bin/build-site                   # builds the static site/ (HTML wiki + agent feed), no deps
 python3 -m http.server -d site 8787
 ```
 

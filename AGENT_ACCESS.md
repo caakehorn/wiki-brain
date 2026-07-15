@@ -14,7 +14,7 @@ The local app (`app.py` on `localhost:8477`) is for **you** (capture, edit, inge
 
 ## Agent entrypoints (after deploy)
 
-Once [`.github/workflows/deploy-agent-site.yml`](.github/workflows/deploy-agent-site.yml) has run on `main`:
+Once [`.github/workflows/deploy-site.yml`](.github/workflows/deploy-site.yml) has run on `main`:
 
 | Resource | URL |
 |----------|-----|
@@ -62,7 +62,7 @@ Rules:
 Local preview of the same site:
 
 ```bash
-bin/publish-agent
+bin/build-site
 # open site/llms.txt  or  python3 -m http.server -d site 8787
 ```
 
@@ -87,6 +87,6 @@ Until then, treat everything in this repo as world-readable.
 | **Private + token API** | Secrets must not be public; agents use `Authorization: Bearer …` |
 | **MCP server** | Claude/Cursor tools: `search_wiki`, `get_page`, `list_domain` over the same feed |
 | **Search endpoint** | Full-text search without downloading corpora (small Worker over `manifest` + page bodies) |
-| **Disable old Jekyll workflow** | Avoid two Pages deploys fighting; keep only `deploy-agent-site.yml` |
+| **Disable old Jekyll workflow** | Jekyll is removed; deploy is `deploy-site.yml` (stdlib-only `bin/build-site`) |
 
 The agent site uses `.nojekyll` and replaces the human Jekyll theme with raw Markdown + JSON optimized for models.
