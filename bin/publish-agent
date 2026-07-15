@@ -380,6 +380,39 @@ Build: `{sha[:7]}` · {generated} · {len(pages)} pages · full corpus ~{full_st
     # .nojekyll so GitHub Pages serves files as-is (no Jekyll rewrite)
     (out / ".nojekyll").write_text("", encoding="utf-8")
 
+    # index.html so the site root is not a 404 (Pages does not auto-serve README.md)
+    (out / "index.html").write_text(
+        f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>wiki-brain — agent feed</title>
+  <style>
+    body {{ font-family: system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }}
+    code {{ font-size: 0.9em; }}
+    a {{ color: #06c; }}
+  </style>
+</head>
+<body>
+  <h1>wiki-brain</h1>
+  <p>Personal second-brain wiki — <strong>LLM / agent feed</strong>, rebuilt from GitHub <code>main</code>.</p>
+  <ul>
+    <li><a href="llms.txt"><code>llms.txt</code></a> — discovery (start here)</li>
+    <li><a href="agent/manifest.json"><code>agent/manifest.json</code></a> — machine index</li>
+    <li><a href="agent/critical.md"><code>agent/critical.md</code></a> — critical spine</li>
+    <li><a href="agent/corpus.md"><code>agent/corpus.md</code></a> — full corpus</li>
+    <li><a href="index.md"><code>index.md</code></a> — domain navigation</li>
+    <li><a href="AGENT_ACCESS.md"><code>AGENT_ACCESS.md</code></a> — how to use</li>
+  </ul>
+  <p>Build: <code>{sha[:7]}</code> · {generated} · {len(pages)} pages · ~{full_stats['approx_tokens']:,} tokens</p>
+  <p><a href="https://github.com/caakehorn/wiki-brain">GitHub</a></p>
+</body>
+</html>
+""",
+        encoding="utf-8",
+    )
+
     summary = {
         "out": str(out),
         "pages": len(pages),
