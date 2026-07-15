@@ -2,9 +2,9 @@
 domain: mind
 page_type: synthesis
 knowledge: earned
-status: stable
+status: active
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-15
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -22,8 +22,10 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/messages/
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
+  - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
 related:
   - wiki/people/annie-ulmer
+  - wiki/people/alexis-armel
   - wiki/timeline/events/eli-incident
   - wiki/mind/concepts/attachment-model
   - wiki/timeline/periods/2015-2016-annie-relationship-start
@@ -31,6 +33,9 @@ related:
   - wiki/mind/concepts/contact-gini
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/mind/concepts/forensic-method
+  - wiki/mind/synthesis/bond-switch-2015
+  - wiki/mind/synthesis/dan-annie-fallout-verdict
+  - wiki/places/155-virginia-ave
 tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
 ---
 
@@ -63,6 +68,12 @@ The accepted amendments establish that the tether was a decade-long *oscillation
 The collapse of this primary attachment resulted in severe psychosomatic consequences, referred to within the corpus as "aura illness." This illness was the predictable neurobiological and identity-level consequence of exiting a fused attachment figure.
 
 This somatic toll was the result of a specific typological collision. Dan's INTP 5w4 sx/sp profile dictates an intense, one-on-one merging instinct (sx). Annie functioned as the primary co-regulator of his nervous system. When this fusion broke, it registered not merely as emotional pain, but as an ontological amputation of the self-concept. Furthermore, the 5w4 recursive architecture meant that Dan did not simply feel the pain; he analyzed it, looped it, and built symbolic structures around it, such as "burning rituals" and long forensic texts. This analytical strength was turned against the self, keeping the wound open. Finally, the crisis activated older, primal abandonment schemas—specifically the collapse of the relationship with [[wiki/people/alexis-armel|Alexis]] and the parental rupture of 2004–2005. The current pain was, in essence, historical pain wearing a 2026 mask.
+
+## The single-bond switch (the Alexis→Annie transfer)
+
+The Annie bond did not arrive into an empty attachment field. It replaced the one prior long-term target. The 2015 transition is documented in detail at [[wiki/mind/synthesis/bond-switch-2015]]: the Alexis relationship ended and the Annie bond formed in the *same week* (Alexis cheating revelation Nov 28 2015; Annie met Nov 29; Dan's own same-night outbound text, "Things are collapsing with lex. You might be seeing a lot more Annie very soon," is the earliest primary-source record of the pivot). The bootloader names this the **single-bond switch** — one bond closing as the other opens, with no unattached gap.
+
+This matters for the trauma-bond read because Alexis is the **control case**: across ~6 years the deep attachment system never fully activated for her, which is exactly why the Annie activation operated at a categorically higher magnitude. There was no prior experience metabolizing a deep-bond break, so when the Annie bond finally collapsed in 2026 the substrate was uncalibrated — the loss registered as historical pain (the 2004–05 parental rupture, the Alexis collapse) precisely because those earlier endings had never been fully processed. The lair itself is part of this: [[wiki/places/155-virginia-ave|155 Virginia Avenue]], "the Alexis lair," is the apartment Annie moved into when the new relationship began — the singular bond slot was reoccupied while the physical fortress stayed constant (self-preservation lair-continuity). The trauma bond's origin is thus not just "Annie," but "Annie installed into the vacated socket of an unclosed Alexis attachment, inside the same walls."
 
 ## Event Category Evidence
 
