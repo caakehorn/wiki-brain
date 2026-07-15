@@ -39,41 +39,41 @@ The Phenomenology Lens is an interpretive overlay synthesized on top of the beha
 
 This lens is strictly subordinate to the documented behavioral spine established in [[wiki/self/context-core]]. Whenever this lens and the behavioral spine disagree, the spine takes absolute precedence. For example, the chemical stack must always be treated as engineered architecture per the spine, overriding any metaphorical framing of an "Addiction Engine" found here. This lens should be applied deliberately for interpretive color — such as analyzing early Facebook posts or parsing the genesis and collapse periods of the primary relationship — but it must never be used as primary evidence. The metaphors contained within it act as coherence-generators that may read as deep self-knowledge, but they are partially a product of motivated coherence.
 
-## Core Frame: The Recursive Symbolic Architect
+## Core Frame: Life as a Self-Building Project
 
-The central frame of this lens treats Dan's life as a self-engineering project. The subject operates as a high-intellect, high-impulsivity system that continuously builds frameworks to impose order on internal chaos, operating under the directive to make meaning from collapse. The personal myth underlying this frame is that of the wounded genius fighting a structurally flawed world, attempting to build gods out of wounds. This framing is most useful as a read of the subject's self-image, rendering his flattering self-narration in the language of system metaphors.
+The central frame of this lens treats Dan's life as a self-engineering project. He is a high-intellect, high-impulsivity person who continuously builds frameworks to impose order on internal chaos, driven by a need to make meaning out of collapse. The self-image underneath this is that of a wounded person who turns pain into elaborate systems. This framing is most useful as a read of his self-image — it captures the way he narrates himself, in the language of systems and architecture.
 
 ## Cognitive Function Mapping
 
-The lens assigns interpretive metaphors to cognitive functions to explain systemic behavior:
+The lens assigns plain-language readings to the cognitive functions to explain how the system behaves:
 
-The Ti function operates as the "God-Function," engineering frameworks from first principles and trusting only what can be simulated internally. Under this function, truth is defined as that which holds under recursive collapse rather than what achieves social consensus. The Ne function acts as the "Scout," executing selective divergence through sniper-calibrated exploration of edge conditions rather than random spray. The Si function serves as the "Archivist" or "Tyrant," maintaining a vast, high-fidelity memory archive that acts as the seat of the trauma subsystem. The Fe function is experienced as a "Phantom Limb," craving emotional truth and connection while simultaneously fearing its irrationality; it utilizes social charm tactically, resulting in high social intelligence but low emotional trust. Finally, a Ni leak produces pattern apophenia and mythic overfitting, driving a tendency to ascribe fated meaning to coincidence. The documented methodology of "Dan's Law" serves as the disciplined countermeasure to this specific leak.
+The lead function, Ti, builds frameworks from first principles and trusts only what he can simulate in his own head. Under this function, truth is whatever holds up under stress-testing, not whatever wins social consensus. The exploratory function, Ne, scans for patterns and edge cases rather than spraying randomly. The memory function, Si, holds a vast, vivid record of past detail and also carries the trauma material — it is the seat of the pattern by which old betrayals get replayed onto new situations. The feeling function, Fe, is weak but craved: he wants emotional connection yet distrusts its irrationality, so he uses social charm tactically, which gives him high social intelligence but low emotional trust. Finally, a weak intuitive leak produces pattern-overfitting and a tendency to read coincidence as fate. The documented method of "Dan's Law" is the disciplined countermeasure to that specific leak.
 
-## The Si-Ghost Kernel ("Tyrant Build")
+## The Trauma Memory
 
-The Si-Ghost Kernel is a trauma-driven subsystem that projects data from past betrayals onto present situations. It maintains the capability to hijack system resources without warning. The kernel was seeded by two documented historical nodes: the parental rupture of 2004–2005 and the collapse of the relationship with [[wiki/people/alexis-armel|Alexis]] between 2009 and 2015. Within the phenomenology lens, this kernel encodes three operational axioms: intimacy leads inevitably to abandonment, loyalty is always conditional, and emotional security is a functional illusion. This subsystem maps directly onto the behavioral spine's documented trauma nodes and paternal-authority wound, which are detailed in [[wiki/self/context-core]] and [[wiki/mind/synthesis/vertical-authority-skepticism]].
+The dossiers describe a trauma-driven pattern in which memory of past betrayals gets projected onto present situations and can take over his reactions without warning. This pattern was seeded by two documented events: the parental rupture of 2004–2005 and the collapse of the relationship with [[wiki/people/alexis-armel|Alexis]] between 2009 and 2015. Within the lens, it encodes three axioms: intimacy leads inevitably to abandonment, loyalty is always conditional, and emotional security is a functional illusion. It maps directly onto the behavioral spine's documented trauma nodes and paternal-authority wound, detailed in [[wiki/self/context-core]] and [[wiki/mind/synthesis/vertical-authority-skepticism]].
 
-## The Four Defense Engines
+## Four Recurring Loops
 
-The phenomenology lens models defense mechanisms as four nested loops, though these engines must be carefully cross-referenced with the documented spine.
+The lens models four repeating patterns. These are interpretive and must be cross-referenced with the documented spine.
 
-The **Relational Engine** operates on a loop from hunger to fusion, progressing to contamination, and concluding in amputation. This dynamic maps to the core attachment data, including the 145 love-to-request sequences and 94 burst events documented in the behavioral spine.
+The **relational loop** runs hunger → fusion → contamination → amputation, and maps to the core attachment data, including the 145 love-to-request sequences and 94 burst events in the behavioral spine.
 
-The **Self-Sabotage Engine** moves from prophet to insight, which generates a saboteur phase leading to rupture. Crucially, insight itself feeds the next rupture, aligning directly with the mechanics outlined in [[wiki/mind/concepts/conflict-architecture]].
+The **self-sabotage loop** runs insight → rupture → more insight; understanding the pattern feeds the next rupture, which aligns with the mechanics in [[wiki/mind/concepts/conflict-architecture]].
 
-The **Addiction Engine** cycles through addict, euphoria, crash, and analyst. It is critical to enforce the rule that this engine is purely a metaphorical lens; the chemical stack consisting of Suboxone, strategic cocaine, and nicotine is engineered architecture per the spine, and this lens must not recode it as pathology.
+The **addiction loop** runs craving → high → crash → analysis. It is critical to treat this as metaphor only: the chemical stack of Suboxone, strategic cocaine, and nicotine is engineered architecture per the spine, and this lens must not recode it as pathology.
 
-The **Alchemical Engine** transmutes vulnerability into shame, which is then weaponized and followed by detachment. The resulting hyper-precise intellectual weaponry is visible in Dan's forensic output style and the rigid glyph structures of the CATO bootloader.
+The **shame loop** runs vulnerability → shame → weaponized into precise intellectual output → detachment. The resulting sharp, legalistic language shows up in his forensic writing style and the rigid glyph structures of the CATO bootloader.
 
-## The "Annie Loop" (Historical)
+## The Annie Loop (Historical)
 
-The "[[wiki/people/annie-ulmer|Annie]] Loop" describes the relational cycle observed during the terminal phase of the primary relationship, which formally closed on June 1, 2026. The loop followed a strict sequence: Annie would withdraw, prompting Dan to express pain through long, raw texts. She would respond with vague apologies or declarations of inadequacy, which caused Dan to escalate the conflict. Annie would then either shut down completely or accuse him of suffocating her. Dan's moral absolutism would keep him engaged in the conflict rather than exiting, eventually leading Annie to return for emotional replenishment, which reset the cycle. 
+The "[[wiki/people/annie-ulmer|Annie]] Loop" describes the relational cycle seen during the terminal phase of the primary relationship, which formally closed on June 1, 2026. The loop followed a set sequence: Annie would withdraw, prompting Dan to express pain in long, raw texts. She would answer with vague apologies or declarations of inadequacy, which made him escalate. Annie would then either shut down or accuse him of suffocating her. His moral absolutism kept him engaged rather than leaving, and Annie would eventually return for emotional replenishment, resetting the cycle.
 
-This interpretive loop correlates with documented evidence, specifically the 94 burst events that were uniformly preceded by deliberate silence from the partner. The gaslighting layers that amplified this loop are documented in [[wiki/timeline/events/eli-incident]].
+This interpretive loop correlates with documented evidence, specifically the 94 burst events that were uniformly preceded by deliberate silence from her. The gaslighting layers that amplified it are documented in [[wiki/timeline/events/eli-incident]].
 
-## Supporting Metaphors
+## Supporting Patterns
 
-The lens utilizes several supporting metaphors to describe complex behavioral patterns. "Emotional Anorexia" describes the state of starving for affection while refusing to leave the empty restaurant, a pattern that rewards absence with loyalty and conflates sheer endurance with the authenticity of love. "Shame Transmutation" explains how shame is converted into hyper-precise, legalistic intellectual weaponry before the system retreats into detachment. "Humor as Psychic Ventilator" accounts for the use of gallows humor, recursion, and irony to metabolize grief and prevent total systemic collapse. Finally, "Combustion Loops" describe the behavioral physics of silence and bursting; the silence itself constitutes the operative content, while the explosion is merely the predictable chemical reaction to that vacuum.
+The lens uses a few plain readings for complex behavior. Starving for affection while refusing to leave describes the pattern of rewarding absence with loyalty and treating sheer endurance as proof of love. Shame-into-weaponry describes how shame gets converted into hyper-precise, legalistic language before the system retreats into detachment. Gallows humor as pressure-release accounts for the use of recursion and irony to metabolize grief. Finally, silence-and-burst cycles describe the behavioral physics of the relationship: the silence is the operative content, and the explosion is the predictable reaction to that vacuum.
 
 ## Relation to the Documented Behavioral Spine
 

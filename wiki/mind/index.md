@@ -22,7 +22,7 @@ corroborated real-world practice. The authoritative factual spine remains
 ## profile — personality results
 
 - [[wiki/mind/profile/index]] — hub: the full typology stack at a glance, core axioms, provenance caveats.
-- [[wiki/mind/profile/intp]] — the cognitive function stack in detail: Ti scalpel, Ne scout, the Ni leak, Si archivist/tyrant, Fe phantom limb.
+- [[wiki/mind/profile/intp]] — the cognitive function stack in detail: Ti as the lead logic function, Ne as the exploratory function, a weak intuitive leak, Si as the high-fidelity memory, and Fe as the weak-but-craved feeling function.
 - [[wiki/mind/profile/enneagram-5w4]] — 5w4 sx/sp: fusion-vs-fortress war, social-blindness, the remote-intimacy theory.
 - [[wiki/mind/profile/big-five-psychometrics]] — full Big30 facet table, RLUEI breakdown, PD vector, what the numbers predict.
 - [[wiki/mind/profile/socionics-and-attitudinal]] — ILI-Ni "Critic," FLEV/VLEF, Chaotic Neutral as psychology.
@@ -38,7 +38,7 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/concepts/attachment-model]] — rule-based attachment that cannot self-close; the gaslighting architecture it collided with.
 - [[wiki/mind/concepts/contact-gini]] — relational concentration measured (Gini 0.961); the redundancy imperative.
 - [[wiki/mind/concepts/institutional-out]] — the pre-installed escape mechanism at every job: fake migraines, the 9pm night class; verbatim self-stated protocol.
-- [[wiki/mind/concepts/phenomenology-lens]] — the deliberate interpretive overlay (God-Function, Si-Ghost Kernel, defense engines); subordinate to documented fact.
+- [[wiki/mind/concepts/phenomenology-lens]] — the deliberate interpretive overlay (plain-language readings of the cognitive functions and recurring loops); subordinate to documented fact.
 - [[wiki/mind/concepts/erotic-architecture]] — sexuality as controlled-chaos engineering: externalized libido, taboo as rupture, emotional consumption.
 
 ## psychosexual — the sexuality cluster

@@ -57,7 +57,7 @@ Dan later chose to believe Annie's account sufficiently to attempt returning to 
 - [[wiki/people/eli]] (coworker; affair partner; "I work with her" texts from Annie's phone; preemptive framing of incident)
 
 ## Significance
-Central "psychic rupture event" that recoded Annie in Dan's internal model from chaotic mirror to dissociated saboteur. Reaffirmed core fears encoded in the Si-Ghost Kernel: betrayal occurs when vigilance lapses.
+Central rupture that recoded Annie in Dan's internal model from chaotic mirror to dissociated saboteur. Reaffirmed the old fear that betrayal happens when vigilance slips.
 
 The sustained gaslighting of accurate perception (months of being told suspicions = mental illness while the deception continued) is identified in corrective sources as the single most serious moral failure in the terminal phase — more serious than procurement patterns or silences because it attacked Dan's capacity to know reality itself.
 

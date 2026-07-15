@@ -122,8 +122,8 @@ staging the scene to ventriloquizing the person in it.
 The dossier connects this directly to the cognitive-typological profile
 already established on [[wiki/mind/profile/enneagram-5w4]] and
 [[wiki/mind/profile/intp]]: a dominant Ti (control through internally
-generated logic) paired with a starved Fe (inferior, "phantom limb"
-feeling function) produces a person who can permit — even engineer —
+generated logic) paired with a starved Fe (inferior, weak feeling function)
+produces a person who can permit — even engineer —
 emotional and physical intimacy between his partner and someone else
 specifically *because* his own participation isn't the mechanism by which
 he extracts meaning from it; authorship over the boundary is. This reading

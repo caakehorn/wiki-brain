@@ -64,7 +64,7 @@ Weeks after her release from that year at SCI Muncy, Alexis and Annie became sex
 
 ## Corpus Ties
 - 2015-11-28 cheating → direct transition marker to [[wiki/people/annie-ulmer]] era + 2015-2016 period start (43 events Dec).
-- Seeding for attachment patterns / Si-Ghost Kernel (parental + Alexis collapses per [[wiki/mind/concepts/phenomenology-lens]]).
+- Seeding for attachment patterns / the trauma-memory pattern (parental + Alexis collapses per [[wiki/mind/concepts/phenomenology-lens]]).
 - Profile lock in Gemini: "Alexis (Lex) Armel: Historical relationship partner... foundational point of reference for personal evolution."
 - Ties to music/tech: Full Sail Recording Arts + Pro Tools HD 8 cert; early production identity cross [[wiki/interests/favorites/music]] [[wiki/interests/music/overview]].
 - Low volume vs Annie corpus but high signal for early periods/trauma kernel.

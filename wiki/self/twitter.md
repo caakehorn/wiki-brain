@@ -19,7 +19,7 @@ Personal account: **@danfrank** ("insufferable politics sicko"). Active since at
 - Music production and sharing (MOGZART remixes, Ableton)
 - Personal asides and media hygiene
 
-Serves as a public extension of the Recursive Symbolic Architect: boundary-testing, pattern recognition, and using AI as cognitive prosthetic in the open.
+Serves as a public extension of his life-as-a-self-engineering-project stance: boundary-testing, pattern recognition, and using AI as a thinking tool in the open.
 
 ## Key Patterns (synthesized from 2019–2026 sample)
 - **Politics**: Consistent "sicko" engagement. Skepticism of state power/justice system (opposition to capital punishment even for "vile criminals"; critiques of Biden pardon, media coverage gaps e.g. Philly plane crash, Luigi Mangione/CEO killer story). Commentary on current events (Trump, Fetterman villain arc 2023, Israel, fake ID skepticism in 2024 cases).
