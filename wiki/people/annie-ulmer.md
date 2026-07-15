@@ -10,6 +10,15 @@ date_created: 2026-06-22
 date_modified: 2026-07-13
 date_range_start: 2015-11-01
 date_range_end: 2026-06-01
+infobox:
+  name: Annie Ulmer
+  status: Closed (relationship ended 2026-06-01)
+  type: Partner (2015–2026)
+  known_for: Decade-long relationship; subject of forensic dossiers
+  partner: "[[wiki/self/overview|Dan Frank]]"
+  first_mentioned: November 2015
+  closed: June 1, 2026
+  notes: See [[wiki/timeline/events/eli-incident|the Eli incident]]
 changelog:
   - date: 2026-07-13
     note: "Full rewrite from complete dossier corpus (all 6 FINAL/amended dossiers + addenda, DUI megadoc, Target G forensics)"
