@@ -56,6 +56,7 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/synthesis/vertical-authority-skepticism]] — vertical suspect, lateral trusted: family template, workplace and state evidence, function and cost.
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — the Annie decade as trauma bond: architecture, tethers, somatic toll.
 - [[wiki/mind/synthesis/bond-switch-2015]] — the 2015 Alexis→Annie single-bond switch: same-week transfer, verified onset flood, 155 Virginia lair-continuity.
+- [[wiki/mind/synthesis/message-circadian-latency]] — primary cut of the raw corpus: circadian curve + era drift, 9× reply-latency asymmetry, burstiness, per-contact volume trajectories.
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] — how LLMs are actually used: node logging, steelman, injection lab, capability contests.
 - [[wiki/mind/synthesis/millennial-digital-witness]] — the generational bridge self-theory and its uses.
 - [[wiki/mind/synthesis/totality-themes]] — the capstone: recurring structural themes across the entire corpus, extended with cross-corpus [JOIN] findings.
