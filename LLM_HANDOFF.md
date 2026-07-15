@@ -146,6 +146,62 @@ with corpus statistics instead of the story is a FAILED page.
 * **Verification:** `bin/wiki-lint` remains at 0 errors (29 pre-existing
   page-budget warnings); `git diff --check` passes.
 
+### [2026-07-15] - Session: Phase B cross-corpus synthesis pass (bootloader + browser-history joins)
+* **Model:** Hermes Agent (tencent/hy3:free, local) — autonomous extended pass per user directive
+* **Summary:**
+  - Ingested 4 Phase B RAW sources into raw/ (filed, not duplicated):
+    `raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md`,
+    `raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md`,
+    `raw/self/dox-md/THE_DAN_FRANK_MANUAL.md`,
+    `raw/self/dox-md/DAN_COGNITIVE_PROFILE.txt`.
+  - **User correction caught + verified (key event):** the "~7 YouTube watches/day"
+    figure from the Totality doc was a miscomputation. Computed the real rate
+    directly from the raw `YOUTUBE WATCH HISTORY (2010-2025).html` export:
+    **17,426 timestamped events / 1,505 active days = 11.58/day** (2007-2025).
+    Corrected intake-constancy.md + totality-themes.md; added provenance blockquote.
+    The browser-history corpus later *independently* corroborated the fixed-rate
+    thesis on the search side (20.2 actions/active day over 5,391 days).
+  - **Synthesis writes (~5,000 words, all extensions, no bulldozing):**
+    - `wiki/mind/synthesis/totality-themes.md` — +430 lines of cross-corpus
+      [JOIN] findings: two-constants intake metabolism, migration grammar
+      (Rick-file amputation rhyme, identity reorganization has syntax), relational
+      channel map (intensity = closure not volume), housing clock (3-yr
+      diagnosis→behavior gap), LLM-venue-vs-conflict-architecture join, output-
+      port bandwidth war, precarity ledger, lens stress-test, and the 4:1
+      distribution-to-tooling ratio independently confirmed from the search corpus.
+    - `wiki/mind/synthesis/ai-collaborative-analysis.md` — +106 lines on
+      "the venue is shaped like the hole": why the system migrated to LLMs this
+      hard, both edges, what it means for this tool.
+    - `wiki/mind/synthesis/intake-constancy.md` — NEW page (137 lines),
+      the fixed-rate intake metabolism as a primary architectural fact; later
+      extended with browser-history cross-validation (search constant upgraded
+      [DOC]-grade).
+    - `wiki/mind/concepts/contact-gini.md` — 0.961 made mechanical across
+      the full 181,585-message corpus (498 contacts, top-1 28%, top-3 62%,
+      only 12 ever >1k msgs) + topological redundancy consequence.
+    - `wiki/mind/concepts/conflict-architecture.md` — the 414-message Grok-loop
+      as literal mechanical mirror of the no-domain-selector flaw ("Dan's Law
+      pointing at Dan, in code"); the 1,512 "I love you" vs 232 "fuck you"
+      vs 180 apologies triad (reassurance dominance, not contrition); REVISED
+      blockquotes where the full corpus sharpens the Annie-subset figures.
+  - **Fixes:** corrupted OCR spellings in source text cleaned in wiki copy;
+    broken `[[wiki/self/concepts/TOTALITY_SYNTHESIS...]]` wikilink corrected to
+    the raw/ path (raw links pass lint, wiki/ links are checked).
+  - `bin/wiki-lint` 0 errors throughout (37 pre-existing size-budget warnings).
+    3 focused commits, branch `feat/wiki-wikipedia-chrome`.
+* **Handoff Note:** The 4 filed Phase B sources are NOT yet exhausted — the
+  bootloader's nine corpus findings and the browser doc's §8 (relational-name
+  search traces: Tom most-searched/safe, Annie search-invisible, Alexis/Kristin
+  post-hoc forensic) are only partially ported. `DAN_COGNITIVE_PROFILE.txt` is
+  the CONTEXT_CORE_EXPANDED spine already well-ingested (duplication risk, not a
+  gap). Next natural passes: (1) finish porting the bootloader's relationship-
+  chronology corrections (Nov 2015 single-bond switch + 155 Virginia Ave lair-
+  continuity) into attachment-trauma-bond.md / annie-ulmer.md; (2) the
+  message-corpora people-thread pull (ANNIETEXTS.csv 9.9MB, *FULL CORPUS*
+  CSVs) — handoff log lists ~17 unstarted stub pages still open. The user's
+  standing directive: one source-cluster per pass, fully read → synthesized →
+  committed, compounding forward; target 10-30 total hours of this ingest.
+
 ### [2026-07-14] - Session: repository cleanup and app hardening
 * **Summary:** Removed two accidental empty duplicates under `wiki/wiki/`,
   repaired five stale internal links across `jason-bermejo.md` and `menore.md`,

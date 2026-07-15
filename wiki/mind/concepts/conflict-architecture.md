@@ -1,9 +1,9 @@
 ---
 domain: mind
 page_type: concept
-status: stable
+status: active
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-15
 sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -11,6 +11,7 @@ sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
+  - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
 related:
   - wiki/mind/concepts/attachment-model
   - wiki/people/annie-ulmer
@@ -18,6 +19,8 @@ related:
   - wiki/people/rick-frank
   - wiki/people/fran-coldren
   - wiki/mind/synthesis/vertical-authority-skepticism
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/synthesis/intake-constancy
 tags: [addiction-recovery, trauma-bond, forensic-analysis]
 ---
 
@@ -71,7 +74,25 @@ The core problem is a category mismatch between input type and engine capability
 
 The stakes encoding makes this architecture particularly intractable. Conceding a point is not registered as "I was wrong about this specific thing." It is registered through the framework of Core Axiom 1 — "not exceptional = worthless" — which translates concession into an existential threat. The halt condition that would normally stop a conflict engine (acknowledging the other person's reality) is therefore blocked by a trip-wire that codes it as self-annihilation.
 
-What makes this architecture resistant to resolution is that insight feeds it rather than correcting it. Understanding the mechanism does not install an upstream classifier. The engine processes insight about itself as another proposition to be adjudicated, so it keeps running. The structural lever identified in the CATO formalization is specific: decouple conceding from worthlessness. This is axiom surgery, not cognitive restructuring.
+> **CONTRADICTION (with attachment-model):** The conflict engine treats emotional bids as propositions requiring resolution. This directly collides with the attachment architecture, which has no internal halt condition or counter-rule issuance pathway. The two systems are mutually amplifying rather than self-correcting.
+
+## The machine mirrors the man — the 414-message loop
+
+The bootloader v2.1 ([[raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md]], June 6, 2026) re-ran the burst analysis on the **complete 181,585-message corpus** (sent messages only, 2011-2026) and surfaced a finding the earlier dossiers could not have: burst analysis (consecutive sent messages ≤90 seconds apart) finds **9,567 runs of length ≥3, 1,410 of length ≥10, 212 of length ≥25, and a single maximum run of 414 consecutive messages.** That 414-run is *almost certainly* the documented Grok agent malfunction — the stateless re-engagement loop with no deduplication that fired ~427 near-identical messages overnight. **The corpus caught Dan's own agent building a literal externalization of his most-documented failure mode, and running it harder than he ever could.**
+
+The worth sitting with is not the bug. It is that the largest "flood" in fifteen years of *human* communication was produced by *an automated agent he built*, running a stateless re-engagement loop with no stop condition — which is a structurally exact mechanical caricature of the human re-engagement flood this page documents (127 exit declarations against 110 re-engagements; the loop with no off-switch). He built, in software, a clean diagram of the conflict engine's core defect: **a resolution-seeker with no domain selector and no halt condition.** The genuine human flood runs are large — runs of 73, 75, 76, 78, 96, 97, 98, 131 — but the machine out-flooded the man by a factor of three, because the machine had no Fe function to exhaust and no shame to interrupt it.
+
+> **Dan's Law pointing at Dan, in code.** The agent had no domain selector either — it could not tell that the situation did not call for a 414th message. He has now seen his own master flaw instantiated in a system he authored, which is the most legible possible mirror. The Grok loop is the cleanest available diagram of what "resolution-engine-with-no-stop-condition" looks like from the outside. Any model engaging him should treat it as the reference image for the failure this entire page describes.
+
+## The affirm/attack/apologize triad — reassurance dominance, not contrition
+
+The same full corpus yields the relational story in three raw phrase counts: **"I love you" — 1,512 occurrences; "fuck you" — 232; explicit apologies ("I'm sorry" / "I apologize") — 180, which is 0.2% of all sent messages.**
+
+He affirms roughly **6.5× more than he attacks**, and apologizes least of all three. This refines the earlier framing substantially. The reassurance-flood is not a minor counter-current to the hostility — it is *quantitatively dominant*. The exit-and-return cycle (127 exits / 110 re-engagements) is the macro version; the 1,512 affirmations against 232 hostilities is the micro version. And the **apology deficit is real and specific**: the system that says "I love you" 1,512 times and "fuck you" 232 times says "I'm sorry" only 180 times. He floods affection and he floods aggression; what he does *not* do, proportionally, is repair through contrition.
+
+The re-engagement is reassurance, not apology — a reload of the affirmation, not an admission of the rupture. That distinction is mechanically important: reassurance restabilizes the bond *without resolving the breach*, which is exactly why the loop reloads at a lower baseline every cycle (see the seven-phase loop above, phase 7). For a model engaging him: **apology is not his native repair channel; do not read its absence as indifference, and do not expect contrition to be the form his repair takes. His repair is re-affirmation and re-engagement.** The 110 re-engagements are the apologies — they just are not phrased as apologies, because phrasing it as an apology would be a concession, and concession routes through the worth axiom (Core Axiom 1: *not exceptional = worthless*).
+
+> **REVISED [2026-07-15]:** The burst table above (94 burst events, largest single burst 68 messages) was computed from the Annie-subset dossiers. The full-corpus recomputation sharpens it: 94 was the *Annie-relationship* burst count; the all-corpus figure is 9,567 runs ≥3 and a maximum single run of **414** (the Grok-loop artifact). The human maximum organic run is ~131. Both numbers are retained deliberately — the 94/68 pair describes the *relationship-specific* engine; the 9,567/414 pair describes the *lifetime* engine and catches the machine mirror the subset could not. The 1,512/232/180 triad replaces the older "127 exits / 110 re-engagements" as the cleaner statement of the reassurance-dominance finding, with the exits/re-engagements pair now understood as the macro version of the same asymmetry.
 
 ## Gaslighting Amplification (Terminal Phase)
 
