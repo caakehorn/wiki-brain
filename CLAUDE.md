@@ -88,6 +88,15 @@ Git is the history mechanism. Commit after every ingest with message
 ## The operations
 
 ### INGEST — one source per pass, never parallel
+**If you are given a general or unspecified instruction to "ingest," "do the
+Phase B ingest," "keep going on the wiki," or any open-ended synthesis task —
+READ `INGEST_RUNBOOK.md` (repo root) FIRST and follow it exactly.** That
+file is the complete, reproduction-grade instruction for the cross-corpus
+synthesis pass: environment facts, governance files to read, the per-pass
+protocol, the frontmatter spec, the gotchas from prior sessions (including the
+"verify derived numbers against raw — the operator will catch unverified
+figures" rule), what's already done, and what remains. Do not improvise the
+ingest workflow; the runbook IS the standing instruction.
 Captured notes may carry `targets: [wiki/...paths]` in frontmatter (created by
 typing `@page` in the app's Capture tab). A targeted note is a correction or
 expansion of those specific pages: apply it there first (honoring the
