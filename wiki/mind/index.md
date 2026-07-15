@@ -57,5 +57,6 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — the Annie decade as trauma bond: architecture, tethers, somatic toll.
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] — how LLMs are actually used: node logging, steelman, injection lab, capability contests.
 - [[wiki/mind/synthesis/millennial-digital-witness]] — the generational bridge self-theory and its uses.
-- [[wiki/mind/synthesis/totality-themes]] — the capstone: recurring structural themes across the entire corpus.
+- [[wiki/mind/synthesis/totality-themes]] — the capstone: recurring structural themes across the entire corpus, extended with cross-corpus [JOIN] findings.
+- [[wiki/mind/synthesis/intake-constancy]] — the fixed-rate intake metabolism: ~11.6 YouTube watches/active day + ~20 search actions/active day, era- and city-invariant.
 - [[wiki/mind/synthesis/ancestral-dialectic]] — the Ashkenazi/Appalachian ancestral binary engine, the collapse-cycle model, the Neanderthal-ancestry data point.
