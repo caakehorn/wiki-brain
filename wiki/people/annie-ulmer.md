@@ -7,7 +7,7 @@ importance: critical
 knowledge: mixed
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-15
 date_range_start: 2015-11-01
 date_range_end: 2026-06-01
 infobox:
@@ -20,6 +20,8 @@ infobox:
   closed: June 1, 2026
   notes: See [[wiki/timeline/events/eli-incident|the Eli incident]]
 changelog:
+  - date: 2026-07-15
+    note: "Extended with single-bond-switch thesis (2015 Alexis→Annie same-week transfer) + verified onset flood (728/682/363/679 sent Dec 10-13 2015, recomputed from MASTER_MESSAGES_DB_DUMP.csv); cross-linked bond-switch-2015, 155-virginia-ave, alexis-armel"
   - date: 2026-07-13
     note: "Full rewrite from complete dossier corpus (all 6 FINAL/amended dossiers + addenda, DUI megadoc, Target G forensics)"
   - date: 2026-07-11
@@ -47,10 +49,14 @@ sources:
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
   - raw/self/facebook/facebook-ihatedanfrank/
   - raw/self/gemini-activity/Gemini Activity.html
+  - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
 related:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
   - wiki/mind/synthesis/attachment-trauma-bond
+  - wiki/mind/synthesis/bond-switch-2015
+  - wiki/people/alexis-armel
+  - wiki/places/155-virginia-ave
   - wiki/timeline/events/eli-incident
   - wiki/timeline/events/end-fight
   - wiki/timeline/events/march-2026-terminal-phase
@@ -176,6 +182,20 @@ girlfriend" — continuing through 2016 with matching personal detail
 maxxinista"), while @alexisarmel goes fully silent the same window. This
 resolves a standing gap on [[wiki/people/katie-fletcher]]'s page, which
 had flagged @Lo_weez as possibly a third person.
+
+The near-simultaneous Alexis-ending / Annie-beginning is documented as
+the **single-bond switch** at [[wiki/mind/synthesis/bond-switch-2015]]:
+the sx/sp stack vacates one singular bond slot and reoccupies it near-
+simultaneously rather than running two bonds in parallel, and the shared
+"lair" at 155 Virginia Avenue (leased during the Alexis years, into which
+Annie moved) is the physical proof that the transfer was a swap, not a
+relocation. The bootloader corpus corroborates the activation's intensity
+with a verified onset flood: Dan sent **728 messages on 2015-12-10**, then
+682 (Dec 11), 363 (Dec 12), 679 (Dec 13) — the highest daily sent-volume
+anywhere in the 2011–2026 record except the 2025–26 termination window,
+and recomputed exactly from `MASTER_MESSAGES_DB_DUMP.csv` during the
+2026-07-15 pass. The same maximum-output-under-maximum-attachment shape
+appears at both ends of the relationship.
 
 > **CONTRADICTION (origin story):** `CATO_BOOTLOADER_DANFRANK.md`
 > preserves a different, more colorful origin account: Alexis, as
