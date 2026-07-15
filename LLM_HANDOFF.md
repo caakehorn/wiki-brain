@@ -84,6 +84,22 @@ quality bar; imitate their shape exactly. A page that is tidy but leads
 with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
+### [2026-07-15] - Session: PRIMARY message-corpus analysis (raw cut — circadian, latency, trajectories)
+* **Model:** Hermes Agent (tencent/hy3:free, local)
+* **Summary:**
+  - Operator redirected: instead of verifying already-synthesized stats, do **original primary analysis straight from the raw logs**. Chose the message corpus.
+  - **Source:** `MASTER_MESSAGES_DB_DUMP.csv` (175,358 rows, 2011-03-18→2026-03-25) cross-checked against the sender-tagged superset `LEVIATHAN_FULL_CORPUS.csv` (`/Volumes/MUSIC/PHASE B RAW/`, 181,650 rows, 2011-03-18→2026-06-09). Used LEVIATHAN's unambiguous `sender` field (`Me (Dan)` vs handle) as ground truth to bypass the known `direction`-field bug.
+  - **Data-hygiene catch:** phone numbers are masked; literal-comparison of the masked handle `+172****6811` against the file bytes FAILED (file uses ASCII `0x2a` asterisk; a typed `*` differs by codepoint). Fixed by substring-matching on the file's actual bytes. All counts recomputed from raw rows.
+  - **NEW page:** `wiki/mind/synthesis/message-circadian-latency.md` — genuine primary findings:
+    - **9× reply-latency asymmetry:** Dan answers everyone in 1–5 min (median); inbound replies scale from Annie 9 min → 2018-19 friends 19–22 min → 2025 contacts **16–44 hours**. The inbound delay — not outbound speed — is the axis of relational centrality.
+    - **Merged Annie 2015–2018 volume arc:** 7,241/6,394 (15) → 10,821/11,194 (18 peak) → **2 msgs in 2019 = export-cliff artifact, not silence** (handle/export seam; true 2019–24 arc needs ANNIETEXTS/combined exports).
+    - **Circadian curve:** peaks 17:00–23:00 (22:00 loudest, 7.5%); night share 15.6%; no weekday effect (flat 13.5–16%). **Era drift:** nocturnal share falls 15.5% (2015–18) → 10.4% (2025–26) — output migrates to daytime in the collapse window.
+    - **Burstiness:** 62.7% of Dan's inter-send gaps <2 min; longest unbroken run = 284 consecutive sends; median inter-send 1.0 min. The fusion-mode output-storm fingerprint.
+    - Re-confirmed Contact Gini from raw (top handle = 45% of 70,123 sent).
+  - All numbers traced to the raw corpus; tables hold only numbers; plain-human prose per STYLE_GUIDE.
+  - `bin/wiki-lint`: **0 errors** (37 pre-existing size-budget warnings). One focused commit on `feat/wiki-wikipedia-chrome`.
+* **Handoff Note:** This is a fresh primary cut, not a verify pass. Natural next primary cuts from the same raw: (a) merge ANNIETEXTS.csv + combined_annie_logs to rebuild the true 2015–2026 Annie arc and recompute latency across the full decade (the 2019–24 gap is the one real hole); (b) per-contact latency for ALL 498 handles (only ~6 computed here) to build a full relational-centrality ranking; (c) the browser-history and Spotify/YouTube raw cuts the operator listed as alternates. Do NOT push/PR unless asked.
+
 ### [2026-07-15] - Session: bootloader relationship-chronology (cluster #1) — single-bond switch
 * **Model:** Hermes Agent (tencent/hy3:free, local) — per INGEST_RUNBOOK.md cluster #1
 * **Summary:**
