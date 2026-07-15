@@ -133,10 +133,17 @@ sections, tables holding only numbers, a Gaps section naming the unknowns.
    must read as prose to a human opening it cold.
 2. **Tables hold numbers, prose holds meaning.** Never narrate a table's
    contents in the surrounding text.
-3. **Paraphrase, don't transplant.** Verbatim source text stays in raw/;
-   quotes of one sentence or less only when the wording itself is evidence.
-4. **Page budget ~8 KB.** Bigger means it is two pages. Split by moving a
-   coherent subtopic to its own page, never by truncating.
+3. **Primary-source voice belongs on the page.** Verbatim first-person
+   material from a subject (their own accounts, essays, correspondence)
+   is an exception to the old "quote ≤1 sentence / keep verbatim in raw/"
+   rule: when the subject's own wording carries the meaning, it goes on the
+   page as a block quote, not paraphrased away. Other sourced verbatim
+   still prefers raw/ with short citation, but a subject's own voice is
+   primary-source evidence and may be quoted at length.
+4. **Page budget is a soft floor, not a hard ceiling.** Articles should be
+   as long as the subject earns. Short, choppy pages are a failure mode;
+   prefer dense, narrative, fully-developed prose. Split only when a single
+   page would become unwieldy for navigation — not to hit an arbitrary size.
 5. **No agent chatter anywhere.** No session notes, ingest logs, "/tmp/"
    paths, model names, or "this pass did X" — that history lives in log.md
    and the git log only.
