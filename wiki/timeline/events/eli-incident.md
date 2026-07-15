@@ -6,6 +6,15 @@ importance: critical
 status: stable
 date_created: 2026-06-22
 date_modified: 2026-07-11
+infobox:
+  name: The Eli Incident
+  type: Relationship rupture
+  discovered: January 2025
+  closed: June 1, 2026
+  duration: 2015–2026 (relationship)
+  outcome: Termination of [[wiki/people/annie-ulmer|Annie]] relationship
+  partner: "[[wiki/people/annie-ulmer|Annie Ulmer]]"
+  notes: Central betrayal event; recoded Annie in Dan's model
 date_range_start: 2024-08-01
 date_range_end: 2026-06-01
 sources:

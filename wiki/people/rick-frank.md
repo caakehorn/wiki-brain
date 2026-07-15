@@ -6,6 +6,13 @@ aliases: ["Rick", "Frank Sr."]
 status: stable
 date_created: 2026-06-23
 date_modified: 2026-07-13
+infobox:
+  name: Rick Frank
+  status: Estranged
+  relationship: Father of [[wiki/self/overview|Dan Frank]]
+  partner: "[[wiki/people/suzanne-frank|Suzanne Frank]] (estranged)"
+  location: Uniontown, PA area
+  known_for: Paternal rejection; trauma source per [[wiki/mind/concepts/phenomenology-lens|phenomenology lens]]
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md

@@ -34,7 +34,16 @@ knowledge: earned | derived | mixed    # is this regenerable from raw/?
 changelog:                  # only on critical pages; newest first
   - date: YYYY-MM-DD
     note: "one line"
-```
+infobox:                    # Wikipedia-style right-hand box; rendered only if present
+  name: "Display Name"      # header of the box
+  # any of: born, born_date, status, type, aliases, occupation, known_for,
+  # relationship, partner, parents, location, duration, outcome, discovered,
+  # closed, diagnosis, medication, ideology, affiliation, period, notes
+  # values may contain [[wikilinks]]; they render as real links
+image: self                 # optional: override the auto illustration
+                             # (domain/type default). Name of assets/img/<name>.svg
+                             # (no real photographs are used anywhere in the wiki)
+---
 
 **`knowledge`** marks what kind of understanding a page holds, so a future
 agent knows whether re-deriving it from `raw/` would lose anything (see

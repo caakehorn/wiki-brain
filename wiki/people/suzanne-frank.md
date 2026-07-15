@@ -7,6 +7,13 @@ importance: critical
 status: active
 date_created: 2026-06-22
 date_modified: 2026-07-12
+infobox:
+  name: Suzanne Frank
+  status: Active
+  relationship: Mother of [[wiki/self/overview|Dan Frank]]
+  partner: "[[wiki/people/rick-frank|Rick Frank]] (estranged)"
+  location: Uniontown, PA area
+  known_for: Matriarch; WV/PA maternal roots
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md

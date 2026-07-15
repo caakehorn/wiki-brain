@@ -6,6 +6,18 @@ status: active
 importance: critical
 date_created: 2026-06-22
 date_modified: 2026-07-13
+infobox:
+  name: Dan Frank
+  born: November 1, 1988
+  born_date: Uniontown, Pennsylvania
+  status: Active (relocated 2026)
+  occupation: Music producer (GRIPNOTIC), AI/agent developer
+  known_for: Self-documenting systems; exhaustive personal wiki
+  parents: "[[wiki/people/rick-frank|Rick Frank]], [[wiki/people/suzanne-frank|Suzanne Frank]]"
+  relationship: "[[wiki/people/annie-ulmer|Annie Ulmer]] (2015–2026)"
+  location: Uniontown, PA / NYC
+  ideology: Democratic socialist
+  medication: Suboxone (since 2010-02-17)
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md

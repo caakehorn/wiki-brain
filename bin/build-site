@@ -60,8 +60,19 @@ def parse_frontmatter(text: str) -> tuple[dict, str]:
         key = key.strip()
         val = val.strip().strip("\"'")
         if key in ("domain", "page_type", "status", "title", "importance",
-                   "knowledge", "date_modified", "date_created"):
+                   "knowledge", "date_modified", "date_created", "image"):
             meta[key] = val
+        # structured blocks (infobox: can be multi-line indented yaml)
+    # capture a yaml 'infobox:' mapping (indented sub-keys) as a dict
+    imb = re.search(r"\ninfobox:\s*\n((?:[ \t]+[^:\n]+:[^\n]*\n?)+)", m.group(1))
+    if imb:
+        fb = {}
+        for ln in imb.group(1).splitlines():
+            if ":" not in ln:
+                continue
+            k, _, v = ln.strip().partition(":")
+            fb[k.strip()] = v.strip().strip("'\"")
+        meta["infobox"] = fb
     return meta, text[m.end():]
 
 
@@ -414,6 +425,28 @@ pre.code code{background:none;padding:0}
 .card{border:1px solid var(--border);border-radius:8px;padding:1rem}
 .card h3{margin:.1rem 0 .3rem}
 .cardsmall{color:var(--muted);font-size:.85rem}
+/* ---- infobox (Wikipedia-style, top-right) ---- */
+.infobox{float:right;width:300px;margin:0 0 1rem 1.5rem;border:1px solid var(--border);
+background:var(--band);font-size:.86rem;clear:right}
+.infobox table{width:100%;border-collapse:collapse}
+.infobox th.infobox-head{background:#eaecf0;font-family:Georgia,serif;font-weight:400;
+font-size:1.05rem;text-align:center;padding:.4rem .5rem;border-bottom:1px solid var(--border)}
+.infobox th[scope=row]{width:38%;text-align:left;background:#f0f2f5;padding:.35rem .5rem;
+border-top:1px solid var(--border);vertical-align:top;font-weight:600}
+.infobox td{padding:.35rem .5rem;border-top:1px solid var(--border);vertical-align:top}
+.infobox-image{text-align:center;padding:.6rem .6rem .2rem}
+.infobox-image img{width:140px;height:140px}
+.infobox-caption{text-align:center;font-size:.72rem;color:var(--muted);padding:0 .5rem .5rem}
+.article-figure{text-align:center;margin:0 0 1rem}
+.article-figure img{width:120px;height:120px;opacity:.92}
+/* ---- navbox (purple footer) ---- */
+.navbox{margin-top:2rem;border:1px solid #9a7bc0;background:#f6f0fa;border-radius:6px;
+padding:.4rem .8rem;font-size:.85rem;clear:both}
+.navbox-title{background:#795cb2;color:#fff;font-weight:700;padding:.3rem .6rem;border-radius:4px;
+margin-bottom:.4rem;font-size:.82rem;text-transform:uppercase;letter-spacing:.04em}
+.navbox-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.3rem .8rem}
+.navbox-list li a{color:#5a3d8a;display:block;padding:.2rem 0}
+.navbox-list li a:hover{text-decoration:underline}
 #search-results{margin-top:.5rem}
 #search-results a{display:block;padding:.4rem .2rem;border-bottom:1px solid var(--border)}
 .dirlist{list-style:none;padding:0}
@@ -445,7 +478,8 @@ JS = """\
 
 def render_page(meta: dict, body_html: str, page_rel: str, title: str,
                  toc: list[tuple[int, str, str]], known: set, out_root: Path,
-                 base_url: str) -> str:
+                 base_url: str, navbox_html: str = "", infobox_html: str = "",
+                 img_url: str = "", article_img: str = "") -> str:
     domain = meta.get("domain") or (Path(page_rel).parts[1] if len(Path(page_rel).parts) > 1 else "")
     badges = []
     if meta.get("status"):
@@ -495,7 +529,10 @@ def render_page(meta: dict, body_html: str, page_rel: str, title: str,
 {crumbs}
 {toc_html}
 {badge_html}
+{infobox_html}
+<div class="article-figure">{article_img}</div>
 {body_html}
+{navbox_html}
 <div class="meta-note">This is the compiled wiki (<code>wiki/</code>), served as static HTML.
 Prefer it over the source archive. Source of truth: GitHub <code>main</code>.
 See <a href="{relative_url(page_rel, 'AGENT_ACCESS.md')}">AGENT_ACCESS.md</a> for the machine feed.</div>
@@ -520,6 +557,112 @@ def render_sidebar(page_rel: str) -> str:
 <li><a href="{relative_url(page_rel, 'llms.txt')}">llms.txt</a></li>
 <li><a href="{relative_url(page_rel, 'agent/manifest.json')}">manifest.json</a></li>
 </ul></nav>"""
+
+
+# --------------------------------------------------------------------------
+# images + infobox + navbox (Wikipedia-style chrome)
+# --------------------------------------------------------------------------
+# default illustration per domain; fallbacks by page_type
+DOMAIN_IMG = {
+    "self": "self", "timeline": "timeline", "people": "people", "mind": "mind",
+    "work": "work", "interests": "interests", "health": "health",
+    "places": "places", "legal": "legal",
+}
+TYPE_IMG = {
+    "event": "event", "period": "period", "summary": "generic",
+    "entity": "people", "concept": "generic", "profile": "mind",
+    "synthesis": "generic", "report": "generic", "chat": "generic",
+    "note": "generic", "index": "generic",
+}
+
+
+def image_for(page_rel: str, meta: dict, known_imgs: set) -> str:
+    """Return a relative url (from page) to an illustration for this page.
+
+    Priority: explicit frontmatter 'image:' -> domain default -> type default
+    -> generic. We resolve against assets/img/<name>.svg.
+    """
+    name = None
+    if meta.get("image"):
+        cand = meta["image"].strip().lstrip("/")
+        # accept either 'self' (=> assets/img/self.svg) or a full path
+        stem = cand.rsplit("/", 1)[-1].rsplit(".", 1)[0]
+        name = stem
+    if not name:
+        name = DOMAIN_IMG.get(meta.get("domain", "")) or TYPE_IMG.get(
+            meta.get("page_type", "")) or "generic"
+    # verify the asset exists; fall back to generic
+    if f"assets/img/{name}.svg" not in known_imgs:
+        name = "generic"
+    return relative_url(page_rel, f"assets/img/{name}.svg")
+
+
+def build_navbox(domain: str, page_rel: str, siblings: dict, title_map: dict) -> str:
+    """Purple Wikipedia-style navbox footer listing sibling pages in a domain."""
+    if not domain or domain not in siblings:
+        return ""
+    entries = siblings.get(domain, [])
+    # dedupe, drop self
+    seen = set()
+    items = []
+    for rel_html, title in entries:
+        if rel_html == page_rel:
+            continue
+        if rel_html in seen:
+            continue
+        seen.add(rel_html)
+        url = relative_url(page_rel, rel_html)
+        items.append(f'<li><a href="{esc_attr(url)}">{esc_html(title)}</a></li>')
+    if not items:
+        return ""
+    title = DOMAIN_TITLES.get(domain, domain)
+    return (
+        f'<div class="navbox" role="navigation" aria-label="{esc_attr(title)} navigation">\n'
+        f'<div class="navbox-title">{esc_html(title)} articles</div>\n'
+        f'<ul class="navbox-list">{"".join(items)}</ul>\n'
+        f'</div>'
+    )
+
+
+def build_infobox(meta: dict, page_rel: str, img_url: str, wikilink_fn) -> str:
+    """Top-right Wikipedia-style infobox. Renders only if an 'infobox' map
+    is present in frontmatter. `image` is auto-supplied; the map supplies
+    labelled rows (label: value, value may contain [[wikilinks]])."""
+    fb = meta.get("infobox")
+    if not isinstance(fb, dict) or not fb:
+        return ""
+    head = fb.get("name") or meta.get("title") or ""
+    rows = []
+    # standard optional fields, in Wikipedia-ish order
+    order = ["born", "born_date", "date", "period", "status", "type",
+             "aliases", "occupation", "known_for", "relationship",
+             "partner", "parents", "location", "duration", "outcome",
+             "first_mentioned", "discovered", "closed", "diagnosis",
+             "medication", "ideology", "affiliation", "domain", "notes"]
+    # include any keys present in the map (ordered known first, then extras)
+    keys = [k for k in order if k in fb] + [k for k in fb if k not in order]
+    for k in keys:
+        if k in ("name", "image", "caption"):
+            continue
+        val = fb[k]
+        if not val:
+            continue
+        cell = inline(val, wikilink_fn)
+        rows.append(
+            f'<tr><th scope="row">{esc_html(k.replace("_", " ").title())}</th>'
+            f'<td>{cell}</td></tr>'
+        )
+    caption = fb.get("caption", "")
+    cap_html = f'<div class="infobox-caption">{esc_html(caption)}</div>' if caption else ""
+    return (
+        f'<aside class="infobox">\n'
+        f'<div class="infobox-image"><img src="{esc_attr(img_url)}" alt="{esc_attr(head)} illustration"></div>\n'
+        f'<div class="infobox-caption">Illustration — not a photograph</div>\n'
+        f'<table>\n<tbody>\n'
+        f'<tr><th class="infobox-head" colspan="2">{esc_html(head)}</th></tr>\n'
+        + "".join(rows)
+        + f'{cap_html}</tbody></table>\n</aside>'
+    )
 
 
 def collect_pages():
@@ -685,6 +828,18 @@ def build(out: Path, base_url: str) -> dict:
     for k in list(known):
         if k.endswith("/index.html"):
             title_map.setdefault(k, k.split("/")[-2])
+    # available illustration assets
+    known_imgs = {f"assets/img/{f.name}" for f in (ROOT / "assets" / "img").glob("*.svg")}
+    # sibling pages grouped by domain (for the navbox footer)
+    siblings: dict[str, list[tuple[str, str]]] = {d: [] for d in DOMAINS}
+    for p in pages:
+        meta, _ = parse_frontmatter(p.read_text(encoding="utf-8", errors="replace"))
+        d = meta.get("domain") or (p.relative_to(ROOT / "wiki").parts[0]
+                                   if p.is_relative_to(ROOT / "wiki") else "")
+        if d not in siblings:
+            siblings[d] = []
+        rel_html = p.relative_to(ROOT).with_suffix(".html").as_posix()
+        siblings[d].append((rel_html, title_map.get(rel_html, p.stem)))
 
     search_records = []
     # render each wiki page to HTML
@@ -696,7 +851,19 @@ def build(out: Path, base_url: str) -> dict:
         body_html = md_to_html(body, page_rel, wikilink_fn)
         toc = extract_toc(body)
         title = title_map.get(page_rel, p.stem)
-        html_page = render_page(meta, body_html, page_rel, title, toc, known, out, base_url)
+        domain = meta.get("domain") or (p.relative_to(ROOT / "wiki").parts[0]
+                                        if p.is_relative_to(ROOT / "wiki") else "")
+        img_url = image_for(page_rel, meta, known_imgs)
+        infobox_html = build_infobox(meta, page_rel, img_url, wikilink_fn)
+        navbox_html = build_navbox(domain, page_rel, siblings, title_map)
+        # every article gets a picture; if an infobox already shows the image,
+        # suppress the separate figure to avoid duplication
+        article_img = "" if infobox_html else (
+            f'<img src="{esc_attr(img_url)}" alt="{esc_attr(title)} illustration">'
+        )
+        html_page = render_page(meta, body_html, page_rel, title, toc, known, out, base_url,
+                                navbox_html=navbox_html, infobox_html=infobox_html,
+                                img_url=img_url, article_img=article_img)
         dst = out / page_rel
         dst.parent.mkdir(parents=True, exist_ok=True)
         dst.write_text(html_page, encoding="utf-8")
@@ -797,6 +964,13 @@ def build(out: Path, base_url: str) -> dict:
     (out / "assets").mkdir(exist_ok=True)
     (out / "assets" / "style.css").write_text(CSS, encoding="utf-8")
     (out / "assets" / "app.js").write_text(JS, encoding="utf-8")
+    # illustration images (committed under assets/img/) -> site/assets/img/
+    src_img = ROOT / "assets" / "img"
+    if src_img.is_dir():
+        dst_img = out / "assets" / "img"
+        dst_img.mkdir(parents=True, exist_ok=True)
+        for svg in src_img.glob("*.svg"):
+            shutil.copy2(svg, dst_img / svg.name)
 
     # search.json
     (out / "search.json").write_text(json.dumps(search_records, ensure_ascii=False), encoding="utf-8")

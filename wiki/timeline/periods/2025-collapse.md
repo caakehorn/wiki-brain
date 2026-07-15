@@ -4,6 +4,12 @@ page_type: period
 status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
+infobox:
+  name: 2025 Collapse
+  type: Period
+  period: 2024–2026
+  outcome: Relationship termination; housing transition
+  notes: Culmination documented in [[wiki/timeline/events/eli-incident|the Eli incident]]
 # Synthesis concepts injector pass 2026-06-23: expanded _18 section + added dedicated Bifurcated Daily OS + Decoupling/Grounding Paradox verbatim (cold data ledger/chat.db epistemic cross); migration/OS/work entropy ties. Cross all Gemini sources. See /tmp/gemini-concepts-injection.md.
 # 2026-06-23 _13 cross: 2012-2015 tenancy at 155 Virginia (w/Annie, pre-NYC) as precursor period; Suz ownership, neighborhood Bacharach link (Saratoga/VA), "texture file" exposure in 2025 read. Cross gemini-activity, people/jacob-bacharach, context-core.
 sources: [
