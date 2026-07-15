@@ -93,8 +93,8 @@ one-node relational concentration ([[wiki/mind/concepts/contact-gini]]),
 the attachment model that cannot self-close
 ([[wiki/mind/concepts/attachment-model]]), and the voice fingerprint stable
 from 2009 tweets to 2026 texts are all predicted by this stack. The
-metaphor-rich reading built on top of it (God-Function, Si-Ghost Kernel,
-defense engines) lives at [[wiki/mind/concepts/phenomenology-lens]] and
+metaphor-rich reading built on top of it (plain-language function readings and
+recurring-loop models) lives at [[wiki/mind/concepts/phenomenology-lens]] and
 stays subordinate to documented fact.
 
 ## Core axioms and personal myth

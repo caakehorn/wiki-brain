@@ -33,13 +33,13 @@ The dossiers stress that this is not the cheerful "scientist" INTP of type
 descriptions: filtered through the 5w4 sx/sp emotional structure
 ([[wiki/mind/profile/enneagram-5w4]]), every function runs darker.
 
-| Function | Score | Dossier designation |
-|----------|-------|---------------------|
-| Ti (dominant) | 96% latent / 95% aptitude | "Existential scalpel" / "God-Function" |
-| Ne (auxiliary) | 84% latent / 80% valuing | "The Scout" / "engine of dread" |
-| Ni (leak) | 84% latent | "Shadow Strategist / Myth-Weaver" |
-| Si (tertiary) | 57% latent | "The Archivist / Tyrant" |
-| Fe (inferior) | 10% valuing / 46% active | "The Phantom Limb" / "the Mask" |
+| Function | Score | Plain reading |
+|----------|-------|---------------|
+| Ti (dominant) | 96% latent / 95% aptitude | Lead logic; builds frameworks from first principles |
+| Ne (auxiliary) | 84% latent / 80% valuing | Exploratory; scans for patterns and edge cases |
+| Ni (leak) | 84% latent | Weak intuition; pattern-overfitting, reads coincidence as fate |
+| Si (tertiary) | 57% latent | High-fidelity memory; also carries the trauma material |
+| Fe (inferior) | 10% valuing / 46% active | Feeling function, weak but craved; used tactically |
 
 ## Ti — the existential scalpel
 
@@ -82,22 +82,22 @@ the engine of the pattern-apophenia risk, and the corpus treats
 clusters. The Ni leak also explains the fatalistic tone the Socionics reading
 picks up ([[wiki/mind/profile/socionics-and-attitudinal]]).
 
-## Si — the archivist and the tyrant
+## Si — memory and the trauma pattern
 
 Tertiary Si maintains the vast high-fidelity archive — the minute recall of
 years-old details that makes the whole self-documentation project (and this
-wiki) possible. It is also the seat of what the dossiers call the "Si-Ghost
-Kernel (Tyrant Build)": the trauma subsystem that projects the physics of
-past betrayals (the 2004–05 parental rupture, the Alexis collapse) onto
-present situations and can hijack system resources without warning. The
-**Ti-Si loop** is the type's signature pathology and is well documented in
+wiki) possible. It is also where the old betrayal pattern lives: memory of
+past betrayals (the 2004–05 parental rupture, the Alexis collapse) gets
+projected onto present situations and can take over his reactions without
+warning. The **Ti-Si loop** is the type's signature pathology and is well
+documented in
 the record: bypassing exploratory Ne to cycle between internal logic and past
 experience — replaying failures in exhaustive detail, nocturnal schedule
 displacement, rigid comfort-food ritual alongside broader physical neglect,
 sensory hypochondria. The loop's interpretive elaboration lives at
 [[wiki/mind/concepts/phenomenology-lens]].
 
-## Fe — the phantom limb
+## Fe — the feeling function, weak but craved
 
 Inferior Fe is the weakest point and the most consequential. The need it
 represents — connection, emotional truth, validation — is desperately real

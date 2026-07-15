@@ -87,7 +87,7 @@ Direct expansion of [[wiki/self/context-core]] §7 Political + Intellectual:
 - "Everyone is in the wrong, then score who is *more* wrong" frame present.
 - Millennial self-positioning as digital bridge + forensic observer matches high introspection/intellect + anomaly detection methodology.
 
-Ties to [[wiki/mind/concepts/phenomenology-lens]] (Recursive Symbolic Architect building world models from nodes) and voice patterns (lowercase burst, pivot logic, no softening).
+Ties to [[wiki/mind/concepts/phenomenology-lens]] (the read of him as someone who builds world-models from discrete nodes) and voice patterns (lowercase burst, pivot logic, no softening).
 
 ## Themes & Overlaps
 

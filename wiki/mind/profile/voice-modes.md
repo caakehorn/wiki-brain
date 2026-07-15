@@ -96,7 +96,7 @@ when multiple are active at once:
 - **Intense intellectual focus** — messages lengthen ~30%, syntax tightens, slang drops, laughter and emoji recede as the analytical mode takes over.
 - **Melancholy/low mood** — exclamation points down ~80%, ellipses increase, lowercase dominates, replies shorten to one word.
 - **Dark humor (defense mechanism)** — sarcastic and self-deprecating quips up ~50%, typically deployed right after a serious or hurtful remark, to regain control of the narrative.
-- **Perceived betrayal or trust violation** — an abrupt pivot to interrogative, forensic tone ("Explain to me **how** that made sense?!"); warmth vanishes in a single message; described as the "Si-ghost trauma response" activating.
+- **Perceived betrayal or trust violation** — an abrupt pivot to interrogative, forensic tone ("Explain to me **how** that made sense?!"); warmth vanishes in a single message; the old betrayal pattern flares up.
 - **Sexual arousal/flirtation** — provocative word choice up ~40%, pacing either quickens (rapid) or slows into deliberate ellipsis-laden tease.
 - **Ego challenge (feeling dismissed)** — academic/niche vocabulary up ~30%, one deliberately crafted "perfect" cutting sentence to reassert intellectual dominance, then a return to casual banter once the point lands.
 

@@ -139,7 +139,7 @@ This favorites data functions as a behavioral and cultural fingerprint:
 
 - **Music portion** directly supports and can be used to refine [[wiki/interests/music/concepts/sub-bass-signature]] and production aliases. Presence of LYNY, Knock2, Effin, Mau P in top tier is consistent with bass-heavy, maximalist electronic interests.
 - **Book portion** provides quantitative backing for political and historical dimensions of [[wiki/mind/concepts/conflict-architecture]] (institutional distrust, justice narratives) and attachment to detailed, evidence-driven analysis of power.
-- Overall eclecticism and intensity of engagement (high artist diversity in music + deep political reading) is consistent with the Recursive Symbolic Architect profile and high Intellect / high Impulsiveness metrics.
+- Overall eclecticism and intensity of engagement (high artist diversity in music + deep political reading) is consistent with his systems-building profile and high Intellect / high Impulsiveness metrics.
 
 Cross-references:
 - [[wiki/self/overview]]

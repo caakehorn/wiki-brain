@@ -61,7 +61,7 @@ behavior to close the loop without an explicit severance signal from the
 other person. That is a structurally identical claim to "crush activation
 on contact" with no off switch, arrived at from different source material.
 The Fe-starvation profile on [[wiki/mind/profile/intp]] (Fe 10% valuing,
-46% active — "the Phantom Limb") provides a plausible mechanism for why
+46% active — the weak-but-craved feeling function) provides a plausible mechanism for why
 this would be true: a system starved of the feeling function it needs
 would be expected to over-attach rapidly to whatever supplies it, rather
 than titrate exposure gradually the way a securely-resourced Fe user
