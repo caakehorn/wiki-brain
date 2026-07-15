@@ -71,7 +71,7 @@ Start at `index.md` — it links to the eight domain indexes (self, timeline,
 people, mind, work, interests, health, places). Everything is plain Markdown;
 it also opens cleanly in Obsidian if you ever want a nicer reader.
 
-## Exporting for LLMs
+## Exporting for LLMs (local)
 
 ```bash
 bin/export-corpus                 # the whole compiled wiki -> exports/
@@ -81,6 +81,22 @@ bin/export-corpus --raw           # include the raw source archive (big)
 
 Produces a single Markdown file with a table of contents and a token count,
 ready to paste or upload into any LLM.
+
+## Online access for LLMs & agents
+
+The compiled wiki is published for agents on every push to `main`:
+
+- **Discovery:** https://caakehorn.github.io/wiki-brain/llms.txt
+- **Manifest:** https://caakehorn.github.io/wiki-brain/agent/manifest.json
+- **Critical spine / full corpus / per-domain bundles / individual pages**
+
+See [AGENT_ACCESS.md](AGENT_ACCESS.md) for the full URL table, a pasteable
+agent prompt, freshness rules, and privacy notes. Local preview:
+
+```bash
+bin/publish-agent                 # builds site/ (gitignored)
+python3 -m http.server -d site 8787
+```
 
 ## Layout
 
