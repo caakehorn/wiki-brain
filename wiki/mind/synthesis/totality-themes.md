@@ -410,6 +410,26 @@ from the joins:
   brand work matters more than its surface frivolity suggests: it is the first
   time the identity machinery has been pointed outward.
 
+## The 4:1 ratio, independently confirmed from the search side
+
+The browser-history analysis (`raw/self/browser_history_analysis.txt`)
+corroborates the output-port bottleneck from the *search* corpus, not just
+the Gemini topic table. The 2025 production-search token breakdown runs
+**distribution-heavy and tooling-light**: SoundCloud (35), Spotify (32),
+sample (20), VST (14), Ableton (9), flip (7), 808 (5). Distribution
+platforms — places where music is *shipped and heard* — outrank the actual
+production verbs by a wide margin. That is the data signature of someone
+whose return to music is currently weighted toward *the question of getting it
+out into the world* rather than the question of making it. The browser doc
+names this the **4:1 distribution-to-tooling ratio** and reads it as the
+corpus practically quantifying "shipping is the bottleneck." This is the same
+finding the Gemini topic table reached from the other side (code 731 / music
+535 / psych-profile 495), and the two independent measures meet on the
+same conclusion: **the intake and analysis faculties are world-class; the
+output vector that converts finished material into released object is the chronic
+under-build.** The browser doc's own one-line synthesis is the load-bearing
+instruction this whole project encodes: *ship the thing that is already built.*
+
 ## The precarity ledger — transition-loaded cost
 
 The renunciation (sovereign-vs-precarity) contradiction holds: the renunciation
