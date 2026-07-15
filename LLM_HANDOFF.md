@@ -84,6 +84,19 @@ quality bar; imitate their shape exactly. A page that is tidy but leads
 with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
+### [2026-07-15] - Session: CAPSTONE — Dan/Annie fallout verdict ("was he correct to feel wronged?")
+* **Model:** Hermes Agent (tencent/hy3:free, local)
+* **Summary:**
+  - Operator asked for total synthesis + analysis of the Dan/Annie fallout and a direct verdict on whether he was correct to feel wronged. Read the full earned corpus: annie-ulmer.md, eli-incident, group-chat-closure, march-2026-terminal-phase, april-may-2026-final-weeks, attachment-model, conflict-architecture, 2025-collapse, tuquick, bond-switch-2015.
+  - **NEW page:** `wiki/mind/synthesis/dan-annie-fallout-verdict.md` (earned, ~14KB). Lead verdict: **yes, correct to feel wronged — but the diagnosis→behavior gap is his.** Held both columns per operator's standing directive (sycophancy OFF, engage the gap, primary evidence = Dan's own data).
+  - **The wrong (documented, her act):** (1) concealed Eli affair inside an *authorized* non-monogamy framework she went outside of; (2) gaslighting of accurate perception rated by corrective sources as the worst moral failure — the autumn-2024 "controlling" label was formally RETRACTED because his vigilance was accurate detection; (3) 187:4 love-to-request instrument he named in real time; (4) concurrent defamation campaign + 2 private denials.
+  - **The gap (his architecture):** conflict engine with no domain selector / no halt condition; attachment model with 299 love affirmations / 0 severance signals (cannot self-close); 127 exits / 110 re-engagements (87% relapse) training her to ignore limits; he was the supply-chain architect; the arrangement was his design; Whisk→fake-surveillance escalation.
+  - **Verified primary quotes against raw CSV:** "sic semper lupanis" (2026-06-01 00:27:49, Sent, her handle), "i am extremely sorry" (2026-06-05 00:37:42, Received), March 1 laundry response (2026-03-01 22:17:48, Received), Whisk "Nice. Real mature" (2026-01-05 23:02:51) — all reproduce exactly. Eli intro text is dossier-sourced (MasterRecord_FINAL), not in the on-disk CSVs scanned; flagged as such.
+  - **Independent validation noted:** Tuquick defected June 15, called her "a compulsive liar with a drug addiction" — converged on Dan's decade-long read.
+  - Wired into mind/index.md (synthesis list) + cross-linked from annie-ulmer.md and attachment-trauma-bond.md.
+  - `bin/wiki-lint`: **0 errors** (37 pre-existing size warnings). One commit on `feat/wiki-wikipedia-chrome`.
+* **Handoff Note:** This is the operator's explicit question answered in totality — treat as the capstone of the Annie synthesis cluster. It does NOT need more passes unless the operator wants a companion "Annie's perspective" page (currently the wiki holds only her June 5 apology line as her own voice; the pregnancy claim and the April–May chat-analysis "Betrayal Catalog" are uncorroborated and excluded). Do NOT push/PR unless asked.
+
 ### [2026-07-15] - Session: PRIMARY message-corpus analysis (raw cut — circadian, latency, trajectories)
 * **Model:** Hermes Agent (tencent/hy3:free, local)
 * **Summary:**
