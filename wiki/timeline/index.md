@@ -28,6 +28,7 @@ related: []
 - [[wiki/timeline/periods/2017-poverty-floor]]
 - [[wiki/timeline/periods/2018-deep-cycle]]
 - [[wiki/timeline/periods/2020-2021-market-era]] — FSLY tip → Robinhood peak ~$25k → CCIV bloodbath; cultural-trend sensing over fundamentals.
+- [[wiki/work/fastly-fsly]] — the FSLY position itself: Jerad's tip, the 112-share entry, the momentum lesson from the big dip.
 - [[wiki/timeline/periods/2021-2023-employment-block]] — 2021 — 2023 (sustained)
 - [[wiki/timeline/periods/2025-collapse]] — Freqs cross: annie:22, suzanne:16, bunker:20, work:22, timeline:16. Cross _07 Grim Trigger Suzy blackout…
 - [[wiki/timeline/periods/dec-2025-spike]] — 2025-12-01 to 2025-12-31
