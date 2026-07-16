@@ -34,6 +34,7 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/concepts/forensic-method]] — the default cognitive OS: procedural tells, anomaly clusters, raw-over-mediated, lossless retention.
 - [[wiki/mind/concepts/dans-law]] — the deconfounding heuristic: real signal, parasitic noise, irreducible element.
 - [[wiki/mind/concepts/exocortex]] — the bootloaders and master prompts (CATO, MAX, operating manual, master forensic prompt) that externalize cognition into AI.
+- [[wiki/mind/concepts/node-locking]] — the memory-persistence protocol: named "Node X:" locks, DATA_LOGGED, and selective redaction (the Eli purge) for cross-model export.
 - [[wiki/mind/concepts/conflict-architecture]] — the resolution engine with no halt condition; why conflicts drain.
 - [[wiki/mind/concepts/attachment-model]] — rule-based attachment that cannot self-close; the gaslighting architecture it collided with.
 - [[wiki/mind/concepts/contact-gini]] — relational concentration measured (Gini 0.961); the redundancy imperative.
