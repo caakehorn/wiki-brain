@@ -7,6 +7,10 @@ date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
 related: ["wiki/work/bfs-foods", "wiki/people/anita", "wiki/people/timmy", "wiki/people/brandon-hill", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse"]
 tags: [career, addiction-recovery]
+infobox:
+  name: "Kim"
+  relationship_to_dan: unknown
+  known_for: "Role: LC manager on the franchise side of the BFS building (BFS Foods / Bruceton Farm Service, Inc.). Procedurally hones"
 ---
 
 # Kim (Little Caesars Manager)

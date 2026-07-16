@@ -6,6 +6,10 @@ date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/operating_manual.md"]
 related: ["wiki/self/message-corpora/master-message-dump"]
+infobox:
+  name: "Zaco"
+  relationship_to_dan: unknown
+  known_for: "Contact +17249123381. Direct intro "Yo it's zaco". 58 messages (master). Casual "Yo it's ..." style outreach. Likely nic"
 ---
 
 # Zaco

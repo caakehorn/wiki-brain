@@ -15,6 +15,12 @@ related:
   - wiki/work/au-zaatar
   - wiki/people/ismaila-barry
   - wiki/people/tarik-fallous
+infobox:
+  name: "Dimitri"
+  relationship_to_dan: unknown
+  sex: male
+  first_contact: 2021-01-01
+  known_for: "Dimitri, the Greek manager of Au Za'atar Midtown, holds a singular"
 ---
 
 # Dimitri

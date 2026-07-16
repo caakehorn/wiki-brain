@@ -9,6 +9,11 @@ date_range_end: 2019-08-04
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [digital-footprint]
+infobox:
+  name: "Slim"
+  relationship_to_dan: unknown
+  first_contact: 2019-06-01
+  known_for: "Contact identified via Google Contacts as slim. Previously unresolved contact from iMessage corpus at handle +1646642026"
 ---
 
 # slim

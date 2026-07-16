@@ -20,6 +20,12 @@ related:
   - wiki/mind/concepts/contact-gini
 tags: [relationships, addiction-recovery, mental-health, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Emaly Minerd"
+  relationship_to_dan: ex-partner
+  location: nyc
+  first_contact: 2018-09-02
+  known_for: "Emaly Minerd was a relationship that ran in three separate bursts across more"
 ---
 
 # Emaly Minerd

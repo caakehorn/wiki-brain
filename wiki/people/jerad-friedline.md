@@ -9,6 +9,11 @@ date_modified: 2026-07-12
 sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/facebook/facebook-ihatedanfrank/friends_and_followers/friends.html", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/context-core", "wiki/timeline/periods/2020-2021-market-era", "wiki/self/message-corpora/master-message-dump", "wiki/self/twitter", "wiki/self/facebook", "wiki/people/kya-hansen"]
 tags: [relationships, politics]
+infobox:
+  name: "Jerad Friedline"
+  relationship_to_dan: friend
+  location: uniontown
+  known_for: "Dan's oldest friend and his single highest-signal, lowest-frequency contact:"
 ---
 
 # Jerad Friedline

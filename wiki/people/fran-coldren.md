@@ -38,6 +38,12 @@ changelog:
     note: "Full prose rewrite from data-dump stub"
   - date: 2026-07-15
     note: "Capture expansion: early-literacy fact (taught Dan to read); flagged 'died when young' death-date contradiction vs 2018 corpus record; added 19:26 duplicate capture"
+infobox:
+  name: "Frances 'Fran' Whyel Coldren"
+  relationship_to_dan: unknown
+  sex: female
+  location: uniontown
+  known_for: "Fran Whyel Coldren was Dan's maternal great-grandmother, his self-described"
 ---
 
 # Frances "Fran" Whyel Coldren

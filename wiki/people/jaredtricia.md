@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/people/annie-
 related: ["wiki/people/brian", "wiki/people/kelly-johansson", "wiki/people/trinity-st-clair", "wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-dump", "wiki/mind/psychosexual/orchestration-and-voyeurism", "wiki/mind/psychosexual/arrangement-history"]
 tags: [relationships, nyc-era]
 knowledge: earned
+infobox:
+  name: "Jaredtricia"
+  relationship_to_dan: unknown
+  first_contact: 2019-06-01
+  known_for: "Jared and Tricia were a married Gramercy-based couple who booked [[wiki/people/annie-ulmer|Annie]] twice in June 2019 as"
 ---
 
 # Jared and Tricia

@@ -19,6 +19,10 @@ infobox:
   first_mentioned: November 2015
   closed: June 1, 2026
   notes: See [[wiki/timeline/events/eli-incident|the Eli incident]]
+  relationship_to_dan: ex-partner
+  location: nyc
+  first_contact: 2015-11-01
+  handles: ["@Annelouise28", "@Lo_weez", "@alexisarmel"]
 changelog:
   - date: 2026-07-15
     note: "Extended with single-bond-switch thesis (2015 Alexis→Annie same-week transfer) + verified onset flood (728/682/363/679 sent Dec 10-13 2015, recomputed from MASTER_MESSAGES_DB_DUMP.csv); cross-linked bond-switch-2015, 155-virginia-ave, alexis-armel"
@@ -316,6 +320,32 @@ inverted a third time: she lost income, independence, and drug supply in
 one move, and Dan became the supply chain. Each phase featured one party
 holding structural leverage over the other's exit; neither did it
 consciously; both did it effectively.
+
+**The money — quantified.** The oscillation above is the qualitative shape;
+the payment-app ledgers put a hard number on it. Per operator-provided
+screenshots of Annie's profiles viewed from Dan's own payment apps
+(2026-07-15; these are **not** in `raw/`, and the two totals come from two
+separate apps, so they are not a single summed ledger):
+
+- **Cash App** (Annie as `@Annelouise28`): Dan's "Total Sent" to that profile =
+  **$139,184.96**. This lines up with Dan's own account dashboard, which shows
+  **Total Sent $138,249.40 / Received $20,243.37 / 807 transactions** across
+  all contacts — i.e. Annie was the dominant destination of his outflow.
+- **Venmo** (Annie as `@$Louisexoxo`): Dan's "Sent" to that profile =
+  **$99.8K**, "Received" from it = **$15.8K**, across **448 payments**.
+
+Read together (and noting the two apps are separate ledgers), Dan sent Annie
+on the order of **~$139K** and received back only **~$16–20K** — a net outflow
+to her of roughly **$119K–$123K** over the relationship. A control screenshot
+of a *different* contact (Shelby Breakiron, `@$ShelbieRose`) shows the same
+schema — Dan's "Total Sent" $4,687.69 / "Received" $0.00 — confirming that
+when Dan views another profile, the Sent/Received figures are *his* flows with
+that person, not theirs. The ~$139K figure is the concrete floor under the
+"Dan-funded" and "supply-chain architect" reads elsewhere on this page: the
+relationship was not just emotionally asymmetric but financially lopsided by
+roughly six-to-one in her favor. (Caveat: these are point-in-time screenshots
+of totals, not a per-month reconciliation; the exact share attributable to
+drugs vs household vs gifts is not separable from the totals alone.)
 
 **The Eli affair and the gaslighting of accurate perception.** By autumn
 2024 at the latest, Annie's concealed relationship with her restaurant

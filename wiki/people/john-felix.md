@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/suzanne-frank", "wiki/self/message-corpora/master-message-dump"]
 tags: [family, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "John Felix"
+  relationship_to_dan: unknown
+  first_contact: 2016-02-12
+  known_for: "John Felix's thread (+17249636738, 59 messages, February–June 2016) is almost entirely logistics — arrival times, "K," ""
 ---
 
 # John Felix

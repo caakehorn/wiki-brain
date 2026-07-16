@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/nemacolin-caddying", "wiki/self/message-corpora/master-message-dump"]
 tags: [career, music-production, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Joey Superick"
+  relationship_to_dan: unknown
+  first_contact: 2018-06-03
+  known_for: "A warm, brief golf-and-music friendship from June 2018 (+17245623673, 23 messages) — Joey invites Dan to play, and the t"
 ---
 
 # Joey Superick

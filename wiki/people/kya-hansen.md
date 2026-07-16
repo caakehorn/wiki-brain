@@ -17,6 +17,11 @@ related:
   - wiki/mind/psychosexual/arrangement-history
 knowledge: mixed
 tags: [relationships, digital-footprint]
+infobox:
+  name: "Kya Hansen (\"bbblud\")"
+  relationship_to_dan: unknown
+  first_contact: 2019-06-01
+  known_for: "Kya Hansen — online handle bbblud ("blud") — is a Canadian model and"
 ---
 
 # Kya Hansen ("bbblud")

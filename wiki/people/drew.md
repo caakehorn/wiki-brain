@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/nemacolin-caddying", "wiki/self/message-corpora/master-message-dump"]
 tags: [career, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Drew"
+  relationship_to_dan: unknown
+  first_contact: 2017-06-20
+  known_for: "Drew (email Dherchko@gmail.com) collaborated with Dan on a green-mapping project at [[wiki/work/nemacolin-caddying|Nemac"
 ---
 
 # Drew

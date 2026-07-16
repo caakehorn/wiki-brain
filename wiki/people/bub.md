@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [relationships, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "Bub"
+  relationship_to_dan: unknown
+  first_contact: 2017-04-22
+  known_for: ""Bub" (contacts label, real name undocumented) is a low-intensity but long-running college-friend-register contact spann"
 ---
 
 # Bub

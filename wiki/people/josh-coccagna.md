@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/nemacolin-caddying", "wiki/self/message-corpora/master-message-dump"]
 tags: [career, addiction-recovery, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Josh Coccagna"
+  relationship_to_dan: unknown
+  first_contact: 2017-04-12
+  known_for: "Josh Coccagna's relationship with Dan shifts registers entirely over its two-year span (+14124450765, 32 messages, April"
 ---
 
 # Josh Coccagna

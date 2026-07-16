@@ -7,6 +7,11 @@ date_modified: 2026-06-23
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip"]
 related: ["wiki/people/david-j-frank", "wiki/people/morley-frank", "wiki/self/ancestry", "wiki/self/overview"]
 tags: [uniontown-era, family]
+infobox:
+  name: "Sadie Harris"
+  relationship_to_dan: unknown
+  location: uniontown
+  known_for: "Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood, Pennsylvania."
 ---
 
 # Sadie Harris

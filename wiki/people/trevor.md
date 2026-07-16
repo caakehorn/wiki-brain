@@ -19,6 +19,12 @@ related:
   - wiki/mind/concepts/contact-gini
 tags: [uniontown-era, career, financial-stress, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "Trevor Bevins"
+  relationship_to_dan: unknown
+  sex: male
+  first_contact: 2017-10-19
+  known_for: "Trevor Bevins was one of Dan's actual peers in the 2018 Nemacolin caddying"
 ---
 
 # Trevor Bevins

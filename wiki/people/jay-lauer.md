@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump"]
 tags: [addiction-recovery, financial-stress, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Jay Lauer"
+  relationship_to_dan: unknown
+  first_contact: 2016-12-23
+  known_for: "Jay Lauer was a friend and mutual suboxone/cocaine trading partner over a seven-week stretch spanning the 2016–2017 New "
 ---
 
 # Jay Lauer

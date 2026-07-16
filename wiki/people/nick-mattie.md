@@ -9,6 +9,11 @@ date_range_end: 2017-07-12
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [digital-footprint]
+infobox:
+  name: "Nick Mattie"
+  relationship_to_dan: unknown
+  first_contact: 2017-04-20
+  known_for: "Contact identified via Google Contacts as Nick Mattie. Previously unresolved contact from iMessage corpus at handle +172"
 ---
 
 # Nick Mattie

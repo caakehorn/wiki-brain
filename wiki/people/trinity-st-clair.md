@@ -10,6 +10,12 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan
 related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/people/eric-jester", "wiki/self/message-corpora/master-message-dump", "wiki/mind/psychosexual/arrangement-history"]
 tags: [relationships, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "Trinity St Clair"
+  relationship_to_dan: unknown
+  location: nyc
+  first_contact: 2019-03-12
+  known_for: "Trinity St. Clair — the adult film performer of that name, per the contact card (booking email booktrinitystclair@gmail."
 ---
 
 # Trinity St. Clair

@@ -7,6 +7,11 @@ date_modified: 2026-06-23
 sources: ["/Users/daniel/Documents/dan-wiki/raw/self/facebook/facebook-ihatedanfrank/messages/inbox/charlesdavenport_skjjehkupq/message_1.html", "/Users/daniel/Documents/dan-wiki/ingest/facebook-ihatedanfrank/messages/inbox/charlesdavenport_skjjehkupq/message_1.html"]
 related: ["wiki/self/facebook", "wiki/timeline/periods/2010s", "wiki/self/message-corpora/master-message-dump", "wiki/self/location-history"]
 tags: [nyc-era]
+infobox:
+  name: "Charles Davenport"
+  relationship_to_dan: unknown
+  location: nyc
+  known_for: "Role: Early NYC contact / logistics thread (2010). Part of initial digital outreach around Brooklyn/NYC move period (pos"
 ---
 
 # Charles Davenport

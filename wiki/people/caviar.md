@@ -10,6 +10,12 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/del", "wiki/self/message-corpora/master-message-dump"]
 tags: [nyc-era, financial-stress, digital-footprint]
 knowledge: derived
+infobox:
+  name: "Caviar"
+  relationship_to_dan: unknown
+  location: nyc
+  first_contact: 2019-04-21
+  known_for: "Not a contact — +14159801273 is the automated dispatch number for Caviar, the food-delivery app, and the 290 messages un"
 ---
 
 # Caviar (gig-work notifications, not a person)

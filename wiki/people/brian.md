@@ -10,6 +10,12 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/jaredtricia", "wiki/people/kelly-johansson", "wiki/people/trinity-st-clair", "wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [relationships, nyc-era, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "Brian"
+  relationship_to_dan: unknown
+  location: nyc
+  first_contact: 2019-06-10
+  known_for: "Brian was an older, financially comfortable NYC client who booked [[wiki/people/annie-ulmer|Annie]] — working that summe"
 ---
 
 # Brian (NYC, 2019)

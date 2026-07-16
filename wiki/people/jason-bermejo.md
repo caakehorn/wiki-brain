@@ -10,6 +10,13 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/people/eric-jester"]
 tags: [digital-footprint, music-production, addiction-recovery, relationships, uniontown-era]
 knowledge: earned
+infobox:
+  name: "Jason Bermejo"
+  relationship_to_dan: unknown
+  sex: male
+  location: nyc
+  first_contact: 2017-01-20
+  known_for: "Contact identified via Google Contacts as Jason Bermejo (+18172693422). Long-standing friendship spanning 2017–2026, wit"
 ---
 
 # Jason Bermejo

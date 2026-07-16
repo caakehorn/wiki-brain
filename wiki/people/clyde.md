@@ -10,6 +10,12 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/del", "wiki/people/menore", "wiki/self/message-corpora/master-message-dump"]
 tags: [addiction-recovery, nyc-era, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "Clyde"
+  relationship_to_dan: unknown
+  location: nyc
+  first_contact: 2019-03-27
+  known_for: "Clyde was a NYC psychedelics dealer — LSD (150–275ug tabs), DMT (crystal and vape carts), mushrooms, and occasional xana"
 ---
 
 # Clyde

@@ -22,6 +22,13 @@ changelog:
   - date: 2026-07-13
     note: "Rewritten from the primary IG corpus (message_1.json, 4,884 msgs 2022–2025) + Feb 2026 Gemini audits"
 tags: [infidelity, ai-collaboration, nyc-era, pets, trauma-bond]
+infobox:
+  name: "Valeria Iglesias Cid"
+  relationship_to_dan: unknown
+  sex: female
+  location: uniontown
+  first_contact: 2021-12
+  known_for: "Valeria Iglesias Cid was the 19-year-old Au Za'atar hostess — daughter of"
 ---
 
 # Valeria Iglesias Cid

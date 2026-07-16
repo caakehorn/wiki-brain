@@ -9,6 +9,11 @@ date_range_end: 2017-10-11
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [digital-footprint]
+infobox:
+  name: "Urpaaa At Yahoo Com"
+  relationship_to_dan: unknown
+  first_contact: 2017-09-28
+  known_for: "Non-named or minimally identified contact from iMessage corpus at handle urpaaa@yahoo.com. 23 messages exchanged over 20"
 ---
 
 # Contact urpaaa@yahoo.com

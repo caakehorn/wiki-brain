@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/au-zaatar", "wiki/people/md", "wiki/self/message-corpora/master-message-dump"]
 tags: [relationships, addiction-recovery, nyc-era]
 knowledge: mixed
+infobox:
+  name: "Mohammed Bin Salman"
+  relationship_to_dan: unknown
+  first_contact: 2023-09-29
+  known_for: "The contact name is a joke, not a real identity — this is a young, close friend Dan games with heavily over ten months ("
 ---
 
 # "Mohammed Bin Salman" (gaming friend, 2023–2024)

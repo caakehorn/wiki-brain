@@ -7,6 +7,10 @@ date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
 related: ["wiki/work/bfs-foods", "wiki/people/anita", "wiki/people/kim", "wiki/people/brandon-hill", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism"]
 tags: [career]
+infobox:
+  name: "Timmy"
+  relationship_to_dan: unknown
+  known_for: "Role: Former LC employee fired for gambling during shifts. Underage gas station customer. Central node establishing Anit"
 ---
 
 # Timmy

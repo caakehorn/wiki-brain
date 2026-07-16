@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/jason-bermejo", "wiki/people/trinity-st-clair", "wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-dump"]
 tags: [relationships, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Eric Jester"
+  relationship_to_dan: unknown
+  first_contact: 2017-05-08
+  known_for: "Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose sparse but genuine"
 ---
 
 # Eric Jester

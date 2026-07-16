@@ -7,6 +7,11 @@ date_modified: 2026-06-23
 sources: ["raw/self/dox-md/_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-md/CATO_conflict_architecture.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
 related: ["wiki/people/mary-kate", "wiki/people/jacob-bacharach", "wiki/work/tech/max-framework/overview", "wiki/self/context-core", "wiki/self/chats/danfrank-isms-pinned", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/exocortex"]
 tags: [ai-collaboration, forensic-analysis, relationships, music-production, personality-profile]
+infobox:
+  name: "Max"
+  relationship_to_dan: unknown
+  location: nyc
+  known_for: "Source: Pinned chat "☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md" + MAXPRIME.md (primary transfer doc)."
 ---
 
 # Max

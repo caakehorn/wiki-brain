@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/alexis-armel", "wiki/people/vanessa-frank", "wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/dans-law"]
 tags: [relationships, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "Casey Bondarenka"
+  relationship_to_dan: unknown
+  first_contact: 2015-11-29
+  known_for: "Casey Bondarenka was a friend who overstayed his welcome during a chaotic late-2015 stretch involving [[wiki/people/alex"
 ---
 
 # Casey Bondarenka

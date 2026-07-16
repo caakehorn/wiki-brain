@@ -13,6 +13,7 @@ infobox:
   partner: "[[wiki/people/suzanne-frank|Suzanne Frank]] (estranged)"
   location: Uniontown, PA area
   known_for: Paternal rejection; trauma source per [[wiki/mind/concepts/phenomenology-lens|phenomenology lens]]
+  relationship_to_dan: family
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md

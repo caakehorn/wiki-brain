@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [addiction-recovery, digital-footprint, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Al"
+  relationship_to_dan: unknown
+  first_contact: 2018-05-13
+  known_for: "Al (saved in contacts under the joke label "Socialist") was a cocaine dealer during the 2018 deep-cycle period — one of "
 ---
 
 # Al

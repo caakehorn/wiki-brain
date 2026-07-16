@@ -7,6 +7,11 @@ date_modified: 2026-07-12
 sources: ["raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS_BOOTLOADER_v2.md", "wiki/legal/463-morgantown.md"]
 related: ["wiki/legal/463-morgantown", "wiki/people/suzanne-frank", "wiki/people/arnu", "wiki/people/john-carney", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/self/facebook"]
 tags: [housing]
+infobox:
+  name: "Alexander Jackson"
+  relationship_to_dan: unknown
+  location: uniontown
+  known_for: "Role: Owner of 463 Morgantown St, Uniontown PA. Landlord / property owner for Dan + Suz move-in (caretaker/agent mixed r"
 ---
 
 # Jackson Alexander (Alexander Jackson)

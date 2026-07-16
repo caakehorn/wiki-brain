@@ -16,6 +16,13 @@ related:
   - wiki/mind/concepts/contact-gini
 tags: [addiction-recovery, financial-stress, uniontown-era, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "Teddy"
+  relationship_to_dan: unknown
+  sex: male
+  location: uniontown
+  first_contact: 2018-02-20
+  known_for: "Teddy was a recurring Uniontown-area informal pharmaceutical supplier in"
 ---
 
 # Teddy

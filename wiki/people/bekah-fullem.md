@@ -10,6 +10,12 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [mental-health, financial-stress, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "Bekah Fullem"
+  relationship_to_dan: unknown
+  sex: female
+  first_contact: 2020-02-09
+  known_for: "Rebekah "Bekah" Fullem reached out to Dan twice, seven weeks apart, in early 2020 — first in acute crisis over her dying"
 ---
 
 # Bekah Fullem
