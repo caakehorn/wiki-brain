@@ -45,6 +45,51 @@ image: self                 # optional: override the auto illustration
                              # (no real photographs are used anywhere in the wiki)
 ---
 
+### People infobox — mandatory classifier schema
+
+Every `domain: people` page MUST carry an `infobox:` block with the classifier
+fields below. The box exists so the corpus is searchable and narrowable later
+(filter "all NYC female dealers," "all Uniontown family," etc.). **Set a field
+only when the page body or raw gives a strong signal. Omit (do not guess) when
+unknown.** `unknown` is a valid explicit value for `sex` / `location` /
+`relationship_to_dan` when the corpus is silent.
+
+```yaml
+infobox:
+  name: "Display Name"
+  dob: 1988-11-01          # ISO YYYY-MM-DD; OMIT if not in corpus
+  sex: female | male | unknown     # recorded/observed sex per corpus (pronoun/relationship context), not self-identified gender; OMIT if no signal
+  location: uniontown | nyc | remote | unknown   # where they primarily sit relative to Dan
+  relationship_to_dan: partner | ex-partner | friend | family | dealer | coworker | contact | acquaintance | unknown
+  role: "cell phone store manager"   # occupation / functional role; OMIT if not stated
+  first_contact: 2018-09-02          # use existing date_range_start when present
+  handles: ["+172****5006", "@handle"]   # masked phones / handles found in body or raw
+  known_for: "the Jan 27 2019 'dead in 15 years' warning"   # one-line hook
+```
+
+Classifier semantics:
+
+- **`sex`** — biological/recorded sex as observable in the corpus (pronoun
+  usage, relationship framing). Almost always inferable. Use `unknown` only
+  when the corpus gives no gendered signal. This is NOT self-identified gender
+  identity, which the corpus rarely records.
+- **`location`** — `uniontown` (incl. Brownsville/Perry/Uniontown-area),
+  `nyc` (New York City / Brooklyn / East Village), `remote` (contact only, no
+  physical proximity), or `unknown`.
+- **`relationship_to_dan`** — controlled vocabulary, the highest-value
+  classifier for a wiki *about Dan*: `partner` (current), `ex-partner`
+  (former romantic), `friend`, `family` (blood or by-marriage), `dealer`
+  (drug source), `coworker`, `contact` (acquaintance with no deeper tie),
+  `acquaintance`, or `unknown`.
+- **`first_contact`** — defaults to the page's existing `date_range_start`.
+- **`handles`** — masked phone numbers (`+1**…`) and platform handles pulled
+  from the body or raw; never full numbers.
+
+`bin/wiki-lint` enforces: every `domain: people` page must have an `infobox:`
+block containing at least `name` and `relationship_to_dan`. Pages in
+`wiki/people/contacts/` (quarantine stubs) are exempt from the lint rule but
+should still get `name` + `relationship_to_dan: contact` when promoted.
+
 **`knowledge`** marks what kind of understanding a page holds, so a future
 agent knows whether re-deriving it from `raw/` would lose anything (see
 CLAUDE.md, "Why this is a second brain, not a RAG"):
