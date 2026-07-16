@@ -64,3 +64,4 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/synthesis/totality-themes]] — the capstone: recurring structural themes across the entire corpus, extended with cross-corpus [JOIN] findings.
 - [[wiki/mind/synthesis/intake-constancy]] — the fixed-rate intake metabolism: ~11.6 YouTube watches/active day + ~20 search actions/active day, era- and city-invariant.
 - [[wiki/mind/synthesis/ancestral-dialectic]] — the Ashkenazi/Appalachian ancestral binary engine, the collapse-cycle model, the Neanderthal-ancestry data point.
+- [[wiki/mind/synthesis/music-as-identity]] — music as a century-spanning structure of self: performed teen identity, tour devotion, emotional regulator, producer identity; the "unutilized for actual purpose" gap made explicit.

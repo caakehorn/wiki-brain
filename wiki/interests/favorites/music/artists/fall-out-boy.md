@@ -3,19 +3,27 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-14
-sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+date_modified: 2026-07-16
+sources:
+  - "raw/self/favorites/FAVS MASTERLIST.csv"
+  - "raw/self/dox-scan/Dan Profile.txt"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+  - "raw/self/(failed-wiki-project)log-archive-2026-06-23.md"
+  - "raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html"
 related:
   - wiki/interests/favorites/music
   - wiki/interests/favorites/music/artists/my-chemical-romance
   - wiki/interests/favorites/music/artists/say-anything
   - wiki/interests/favorites/music/artists/taking-back-sunday
+  - wiki/interests/the-office
+  - wiki/timeline/events/teen-concert-years
   - wiki/self/context-core
   - wiki/mind/psychosexual/developmental-origins
   - wiki/interests/music/concepts/lyrics-as-timbre
 changelog:
+  - 2026-07-16: Major expansion. Added the 2007 touring record (3 shows + TRL taping), the Buffalo "Schrute Farms" secret show + Take-This-To-Your-Grave-in-full ChatGPT confirmation, the Folie-à-Deux cutoff / post-hiatus disavowal, and the teen-identity framing. Retained the deep-cut analysis.
   - 2026-07-14: Full rewrite from stub. Added track-specific analysis, deep-cut pattern, self-mythology reading.
-tags: [personality-profile]
+tags: [personality-profile, nyc-era, digital-footprint]
 ---
 
 # Fall Out Boy
@@ -25,6 +33,75 @@ mid-2000s emo-adjacent scene alongside My Chemical Romance and Panic! at
 the Disco. Bassist/lyricist Pete Wentz wrote the words; frontman Patrick
 Stump's melodic instincts turned Wentz's dense, self-aware, footnote-heavy
 lyric sheets into radio hits without losing the density.
+
+To Dan they are not a "top music list" entry. They are a 2007-era identity
+artifact — a band he actively toured to see as a teenager, saw play a
+secret show under a fake name, and watched premiere an album on live
+television, and then, after the 2009 hiatus, came to regard as a band he
+loved only up through 2008 and has effectively disowned since. The affection
+is real but frozen: it stops at *Folie à Deux* and does not extend to
+anything the reunited band released after 2013.
+
+## The touring years (2007)
+
+Dan followed the band on the ground that year. The concert record he kept
+(in a Facebook "Concerts I've gone to" note, preserved in the corpus)
+shows three Fall Out Boy appearances in roughly eleven months, plus the
+Infinity On High release-day TRL taping:
+
+| Date | Show | City / Venue |
+|------|------|--------------|
+| 2007-01-11 | Fall Out Boy | Cleveland, Agora |
+| 2007-02-06 | Fall Out Boy — **TRL Studios** (Infinity On High release-day taping) | New York City |
+| 2007-11-19 | Fall Out Boy **secret show**, billed as "Schrute Farms" | Buffalo, Mohawk Place |
+| 2007-05-06 | Say Anything (also on the same touring circuit) | Baltimore, Rams Head |
+
+The 2007 Facebook status layer backs this up directly: posts from that
+year read "swooning over the new FOB" and "in New York City to see Fall
+Out Boy at TRL." This was not passive fandom — it was an itinerary. A
+teenager in southwest Pennsylvania routing himself to Cleveland, NYC, and
+Buffalo for the same band inside one year is the opposite of the
+"appears on a top artists list" framing the wiki previously gave this
+page.
+
+The Feb 6 2007 TRL appearance was the rollout gimmick for *Infinity On
+High*: the band taped the Total Request Live broadcast on the album's
+release day, part of a 3-city / 3-show release-week stunt. Dan was in the
+studio for it. He was still engaging the record twelve years later —
+"i'm listening to infinity on high and its like a really good album"
+(2019-09-27) — but note the title he reaches for is the 2007 album, not
+anything post-hiatus.
+
+## The Buffalo secret show
+
+The Nov 19 2007 Buffalo date was a secret show. Fall Out Boy played it
+under the alias "Schrute Farms" — a *The Office* reference (see
+[[wiki/interests/the-office]]), which tells you something about the
+in-joke register Dan was operating in at seventeen. Decades later he
+still treated the night as a genuine anomaly worth verifying: on
+2025-07-22 he texted "chatgpt just informed me that the secret fall out
+boy show i went to is the first and ONLY time that [Take This To Your
+Grave] was played in its entirety." Whether or not ChatGPT was right, the
+instinct — to treat a 2007 basement show as a unique historical data
+point worth running through an LLM — is exactly the forensic-archival
+reflex the rest of the wiki documents. He was there; it was the only full
+play-through of their debut album ever; he logged it.
+
+## Where the love cuts off
+
+The affection has a hard edge. A 2019 message states it plainly: "I can't
+be a hater because I love most of the albums but only folie a deux and
+prior." *Folie à Deux* (2008) was the band's last record before their
+2009 hiatus. Everything after the 2013 reunion — *Save Rock and Roll*
+onward — is absent from his favorites, his concert history, and his
+retrospective commentary. By 2025 the cutoff had hardened into a joke of
+its own: a text listing hypothetical groomsmen ran "a bag of cocaine, the
+first 3 fall out boy albums and the ghost of gore vidal" (2025-05-05),
+and a separate 2025 message reads "And more frightening is that I'm
+listening to old fall out boy and am like 'wow I really get it now'"
+(2025-02-17) — "old," not new. The band he loves is the 2001–2008 band.
+The post-hiatus band is, for his purposes, a different act he has chosen
+not to claim.
 
 ## In Favorites
 
@@ -89,4 +166,4 @@ hard to read as coincidental.
 
 ## Related
 
-[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/mind/psychosexual/developmental-origins]]
+[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/interests/the-office]] · [[wiki/timeline/events/teen-concert-years]] · [[wiki/mind/psychosexual/developmental-origins]]
