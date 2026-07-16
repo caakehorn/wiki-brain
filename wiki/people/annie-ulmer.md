@@ -19,7 +19,7 @@ infobox:
   first_mentioned: November 2015
   closed: June 1, 2026
   notes: See [[wiki/timeline/events/eli-incident|the Eli incident]]
-  relationship_to_dan: family
+  relationship_to_dan: ex-partner
   location: nyc
   first_contact: 2015-11-01
   handles: ["@Annelouise28", "@Lo_weez", "@alexisarmel"]

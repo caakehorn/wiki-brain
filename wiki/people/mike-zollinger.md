@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2020-2021-market-era", "wiki/self/message-corpora/master-message-dump"]
 tags: [career, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Mike Zollinger"
+  relationship_to_dan: unknown
+  first_contact: 2018-04-02
+  known_for: "Mike Zollinger was a fellow [[wiki/work/nemacolin-caddying|Nemacolin]] caddy through the 2018 season (+17246208130, 51 m"
 ---
 
 # Mike Zollinger

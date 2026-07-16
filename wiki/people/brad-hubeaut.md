@@ -10,6 +10,12 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump"]
 tags: [career, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Brad Hubeaut"
+  relationship_to_dan: unknown
+  location: uniontown
+  first_contact: 2017-10-13
+  known_for: "Brad Hubeaut was Dan's caddy manager at [[wiki/work/nemacolin-caddying|Nemacolin Woodlands]] through the 2017–2018 caddy"
 ---
 
 # Brad Hubeaut

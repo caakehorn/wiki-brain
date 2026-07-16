@@ -7,6 +7,10 @@ date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/message-csv/imessage_2124702449_both_2026-05-01_now.csv", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md"]
 related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/brandon-hill", "wiki/self/facebook", "wiki/people/maddox", "wiki/people/dakota"]
 tags: [digital-footprint, addiction-recovery]
+infobox:
+  name: "Marty Martin"
+  relationship_to_dan: unknown
+  known_for: "Role: BFS Foods gas station coworker (~6 months tenure as of May 2026). Dan's primary trusted source and designated inte"
 ---
 
 # Marty Martin

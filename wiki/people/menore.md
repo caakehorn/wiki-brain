@@ -10,6 +10,12 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2018-deep-cycle", "wiki/places/307-e-76th-st"]
 tags: [digital-footprint, addiction-recovery, nyc-era]
 knowledge: earned
+infobox:
+  name: "Menore"
+  relationship_to_dan: unknown
+  location: nyc
+  first_contact: 2018-11-04
+  known_for: "Menore (+13476070497) — Drug dealer / supply operator in New York City; Bedford Ave (Williamsburg) Brooklyn origin conne"
 ---
 
 # Menore

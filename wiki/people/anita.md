@@ -7,6 +7,10 @@ date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md"]
 related: ["wiki/work/bfs-foods", "wiki/people/brandon-hill", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/self/facebook"]
 tags: [addiction-recovery, career]
+infobox:
+  name: "Anita"
+  relationship_to_dan: unknown
+  known_for: "Role: General Manager of the BFS gas station/convenience store side (paired with Little Caesars franchise in same buildi"
 ---
 
 # Anita (BFS Foods GM, Gas Station Side)

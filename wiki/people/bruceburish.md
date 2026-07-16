@@ -10,6 +10,12 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook
 related: ["wiki/work/nemacolin-caddying", "wiki/self/facebook/messages", "wiki/self/message-corpora/master-message-dump"]
 tags: [relationships, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "Bruceburish"
+  relationship_to_dan: unknown
+  sex: male
+  first_contact: 2018-10-23
+  known_for: "Bruce Burish was a caddying-era friend (he references missing [[wiki/work/nemacolin-caddying|Nemacolin]]) who resurfaces"
 ---
 
 # Bruce Burish

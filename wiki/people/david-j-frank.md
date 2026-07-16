@@ -7,6 +7,11 @@ date_modified: 2026-06-23
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip"]
 related: ["wiki/people/morley-frank", "wiki/people/rick-frank", "wiki/self/ancestry", "wiki/self/overview"]
 tags: [family, uniontown-era]
+infobox:
+  name: "David J Frank"
+  relationship_to_dan: unknown
+  location: uniontown
+  known_for: "Paternal great-grandfather of Dan Frank. Born 12 August 1892 in Russia (Jewish immigrant). Died 6 April 1960, Brownsvill"
 ---
 
 # David J. Frank

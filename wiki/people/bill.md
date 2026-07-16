@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [addiction-recovery, uniontown-era, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "Bill"
+  relationship_to_dan: unknown
+  first_contact: 2018-09-04
+  known_for: "A different Bill from [[wiki/people/bill-ulmer|Bill Ulmer]] — this one is a golf-caddying peer (references playing "Lake"
 ---
 
 # Bill (golf/pharma customer)

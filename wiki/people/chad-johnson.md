@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/nemacolin-caddying", "wiki/people/brad-hubeaut", "wiki/self/message-corpora/master-message-dump"]
 tags: [career, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Chad Johnson"
+  relationship_to_dan: unknown
+  first_contact: 2017-05-29
+  known_for: "Chad Johnson was a fellow caddy at [[wiki/work/nemacolin-caddying|Nemacolin Woodlands]] and a college student (reference"
 ---
 
 # Chad Johnson

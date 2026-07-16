@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/nemacolin-caddying", "wiki/people/brad-hubeaut", "wiki/self/message-corpora/master-message-dump"]
 tags: [career, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Jimmy"
+  relationship_to_dan: unknown
+  first_contact: 2018-04-14
+  known_for: "Jimmy was a fellow [[wiki/work/nemacolin-caddying|Nemacolin]] caddy whose brief 2018 thread (+17244667401, 24 messages, "
 ---
 
 # Jimmy

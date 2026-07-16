@@ -17,6 +17,11 @@ related:
   - wiki/people/annie-ulmer
   - wiki/timeline/periods/2015-2016-annie-relationship-start
 tags: [relationships, ai-collaboration, digital-footprint, forensic-analysis]
+infobox:
+  name: "Franki Faris"
+  relationship_to_dan: unknown
+  location: nyc
+  known_for: "Franki Faris was a five-day rebound during a brief split from"
 ---
 
 # Franki Faris

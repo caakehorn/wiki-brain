@@ -6,6 +6,10 @@ date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump"]
+infobox:
+  name: "Aaron"
+  relationship_to_dan: unknown
+  known_for: "Contact +17245624801. Self intro: "Hey, this is Aaron!". 38 messages. Casual direct introduction."
 ---
 
 # Aaron

@@ -10,6 +10,13 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/self/message-corpora/master-message-dump", "wiki/mind/psychosexual/arrangement-history"]
 tags: [relationships, digital-footprint, nyc-era]
 knowledge: mixed
+infobox:
+  name: "Kelly Johansson"
+  relationship_to_dan: unknown
+  sex: female
+  location: nyc
+  first_contact: 2019-09-27
+  known_for: "Kelly Johansson was a New York escort (Upper East Side, 152 East 65th Street) Dan and Annie booked for paid sessions tog"
 ---
 
 # Kelly Johansson

@@ -6,6 +6,10 @@ date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md"]
 related: ["wiki/people/brandon-hill", "wiki/work/bfs-foods", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/context-core"]
+infobox:
+  name: "Brandon"
+  relationship_to_dan: unknown
+  known_for: "Note: Primary details consolidated under [[wiki/people/brandon-hill]] (Assistant Manager, BFS gas station; off-books dem"
 ---
 
 # Brandon (see [[wiki/people/brandon-hill]])

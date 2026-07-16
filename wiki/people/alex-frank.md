@@ -13,6 +13,12 @@ related:
   - wiki/people/morley-frank
   - wiki/self/ancestry
 tags: [relationships, family, grief, music-production]
+infobox:
+  name: "Alex Frank"
+  relationship_to_dan: unknown
+  sex: male
+  location: nyc
+  known_for: "Dan's cousin — described by Dan as "semi-famous" — and, per public"
 ---
 
 # Alex Frank

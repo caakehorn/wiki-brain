@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [addiction-recovery, financial-stress, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Eric Springer"
+  relationship_to_dan: unknown
+  first_contact: 2016-04-12
+  known_for: "A month-long 2016 supply contact (+17243172393, 44 messages, April 12 – May 6) whose thread mixes drug logistics with ca"
 ---
 
 # Eric Springer

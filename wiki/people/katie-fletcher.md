@@ -15,6 +15,10 @@ related:
   - wiki/people/franki-faris
   - wiki/timeline/periods/2010s
 tags: [relationships, forensic-analysis]
+infobox:
+  name: "Katie Fletcher"
+  relationship_to_dan: unknown
+  known_for: "Katie Fletcher was Dan's interim girlfriend of roughly 2013 — the bridge"
 ---
 
 # Katie Fletcher

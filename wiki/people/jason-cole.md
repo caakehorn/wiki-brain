@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-dump"]
 tags: [relationships, financial-stress, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Jason Cole"
+  relationship_to_dan: unknown
+  first_contact: 2015-12-10
+  known_for: "Jason Cole was a friend and working artist who did a custom pet portrait commission for Dan in late 2016 — a relationshi"
 ---
 
 # Jason Cole

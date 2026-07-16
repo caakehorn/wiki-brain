@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/vanessa-frank", "wiki/self/message-corpora/master-message-dump"]
 tags: [family]
 knowledge: mixed
+infobox:
+  name: "Lisa Durbin"
+  relationship_to_dan: unknown
+  first_contact: 2017-04-14
+  known_for: "Lisa Durbin (contacts nickname "lcd") is an extended-family relation who organizes holiday gatherings and checks in on b"
 ---
 
 # Lisa Durbin

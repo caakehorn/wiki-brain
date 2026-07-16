@@ -15,6 +15,13 @@ related:
   - wiki/people/danielle-onesi
   - wiki/work/tech/max-framework/overview
 tags: [pets, ai-collaboration, nyc-era]
+infobox:
+  name: "Gabe"
+  relationship_to_dan: unknown
+  sex: male
+  location: nyc
+  first_contact: 2008-08
+  known_for: "Origin and end (per Dan directly, 2026-07-14): Gabe was adopted the"
 ---
 
 # Gabe

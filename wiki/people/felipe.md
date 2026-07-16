@@ -15,6 +15,11 @@ related:
   - wiki/people/dimitri
   - wiki/people/ismaila-barry
 tags: [nyc-era]
+infobox:
+  name: "Felipe"
+  relationship_to_dan: unknown
+  first_contact: 2023-08-11
+  known_for: "Felipe — Dan's "unbelievably gay Colombian bff" from Au Za'atar Midtown —"
 ---
 
 # Felipe

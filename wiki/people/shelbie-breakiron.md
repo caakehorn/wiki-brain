@@ -10,6 +10,12 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/mind/psychosexual/arrangement-history", "wiki/people/kya-hansen"]
 tags: [relationships, digital-footprint, financial-stress]
 knowledge: mixed
+infobox:
+  name: "Shelbie Breakiron"
+  relationship_to_dan: unknown
+  sex: female
+  first_contact: 2019-05-15
+  known_for: "Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams, Snapchat premium) Dan was seeing on the side during"
 ---
 
 # Shelbie Breakiron

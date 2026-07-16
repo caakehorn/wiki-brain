@@ -7,6 +7,10 @@ date_modified: 2026-07-11
 sources: ["raw/self/dox-md/_𝕄𝕒𝕣𝕪-𝕂𝕒𝕥𝕖 2 Pinned chat.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
 related: ["wiki/self/context-core", "wiki/self/chats/danfrank-isms-pinned", "wiki/self/message-corpora/master-message-dump", "wiki/people/max", "wiki/work/tech/max-framework/overview", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/mind/concepts/forensic-method"]
 tags: [family, ai-collaboration, personality-profile]
+infobox:
+  name: "Mary Kate"
+  relationship_to_dan: unknown
+  known_for: "Source: ROLE: Fictional Character / [max](/wiki/people/max.md) (Gemini AI Model) girlfriend.Dedicated pinned Gemini chat"
 ---
 
 # Mary-Kate (Mary Kate)

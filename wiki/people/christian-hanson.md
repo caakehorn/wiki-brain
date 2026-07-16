@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump", "wiki/interests/golf"]
 tags: [career, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Christian Hanson"
+  relationship_to_dan: unknown
+  first_contact: 2017-07-11
+  known_for: "Christian Hanson — the retired NHL forward (Toronto Maple Leafs, son of Dave "Hanson Brothers" Hanson) — was a golf regu"
 ---
 
 # Christian Hanson

@@ -10,6 +10,12 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/timeline/events/fran-death-vigil", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-dump"]
 tags: [family, grief, physical-health, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Marla"
+  relationship_to_dan: unknown
+  sex: female
+  first_contact: 2017-12-08
+  known_for: "Marla was a paid caregiver on the shift-rotation team looking after [[wiki/people/fran-coldren|Fran]] alongside Dan and "
 ---
 
 # Marla
