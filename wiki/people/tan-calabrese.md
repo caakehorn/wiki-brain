@@ -9,6 +9,11 @@ date_range_end: 2020-05-09
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [digital-footprint]
+infobox:
+  name: "Tan Calabrese"
+  relationship_to_dan: unknown
+  first_contact: 2016-02-12
+  known_for: "Contact identified via Google Contacts as Tan Calabrese. Previously unresolved contact from iMessage corpus at handle +1"
 ---
 
 # Tan Calabrese

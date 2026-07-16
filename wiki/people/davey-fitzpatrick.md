@@ -9,6 +9,11 @@ date_range_end: 2018-11-02
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [digital-footprint]
+infobox:
+  name: "Davey Fitzpatrick"
+  relationship_to_dan: unknown
+  first_contact: 2017-05-21
+  known_for: "Contact identified via Google Contacts as Davey Fitzpatrick. Previously unresolved contact from iMessage corpus at handl"
 ---
 
 # Davey Fitzpatrick

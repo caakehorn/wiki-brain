@@ -91,13 +91,14 @@ for p in scan:
             if bad_tags:
                 errors.append(f"{r}: invalid tag(s) {bad_tags} — add to VALID_TAGS in bin/wiki-lint and STYLE_GUIDE.md if genuinely new")
 
-        # people infobox classifier schema (mandatory; contacts/ stubs exempt)
-        if dom == "people" and not is_contact_stub:
-            ib = fm.get("infobox")
-            if ib is None:
+        # people infobox classifier schema (mandatory; contacts/ stubs + indexes exempt)
+        if dom == "people" and not is_contact_stub and not is_index:
+            # extract the full infobox: block (multi-line) from the raw frontmatter
+            ib_block = re.search(r"infobox:\s*\n((?:[ \t]+[^-\n][^\n]*\n)*)", text)
+            if ib_block is None:
                 errors.append(f"{r}: domain=people requires an infobox: block (name + relationship_to_dan)")
             else:
-                ib_fields = re.findall(r"^\s*([a-z_]+):", ib, re.M)
+                ib_fields = re.findall(r"^\s*([a-z_]+):", ib_block.group(1), re.M)
                 if "name" not in ib_fields:
                     errors.append(f"{r}: infobox missing required 'name'")
                 if "relationship_to_dan" not in ib_fields:

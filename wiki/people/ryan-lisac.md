@@ -7,6 +7,10 @@ date_modified: 2026-06-23
 sources: []
 related: ["wiki/self/context-core", "wiki/people/tom"]
 tags: [digital-footprint]
+infobox:
+  name: "Ryan Lisac"
+  relationship_to_dan: unknown
+  known_for: "Childhood/early peer. Core figure in the "Snob Squad" developmental arc."
 ---
 
 # Ryan Lisac

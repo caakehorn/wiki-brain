@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump"]
 tags: [addiction-recovery, financial-stress, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Lindsay Carolla"
+  relationship_to_dan: unknown
+  first_contact: 2016-11-24
+  known_for: "A warm, affectionate small-scale cocaine relationship over Thanksgiving weekend 2016 ("Hi honey," "yes my love"), with a"
 ---
 
 # Lindsay Carolla

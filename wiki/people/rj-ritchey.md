@@ -22,6 +22,13 @@ related:
   - wiki/mind/concepts/contact-gini
 tags: [uniontown-era, addiction-recovery, politics, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "RJ Ritchey"
+  relationship_to_dan: unknown
+  sex: male
+  location: nyc
+  first_contact: 2019-02-12
+  known_for: "RJ Ritchey was a real Uniontown-golf-circle friend, not the separate"
 ---
 
 # RJ Ritchey

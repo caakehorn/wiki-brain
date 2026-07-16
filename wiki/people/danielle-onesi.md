@@ -36,6 +36,11 @@ related: [
   "wiki/self/context-core"
 ]
 tags: [relationships, infidelity, uniontown-era, nyc-era, family]
+infobox:
+  name: "Danielle Onesi"
+  relationship_to_dan: unknown
+  location: nyc
+  known_for: "Dan's first girlfriend (~2005–2009), Uniontown origin, and a figure who has quietly remained in his life ever since — no"
 ---
 
 # Danielle Onesi ("Dee")

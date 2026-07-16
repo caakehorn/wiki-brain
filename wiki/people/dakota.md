@@ -7,6 +7,10 @@ date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md", "wiki/people/anita.md", "wiki/people/timmy.md", "wiki/people/kim.md"]
 related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/maddox", "wiki/people/brandon-hill", "wiki/self/facebook"]
 tags: [career]
+infobox:
+  name: "Dakota"
+  relationship_to_dan: unknown
+  known_for: "Role: Little Caesars (LC) employee and member of Timmy's friend group at the BFS Foods building. Provided initial disclo"
 ---
 
 # Dakota

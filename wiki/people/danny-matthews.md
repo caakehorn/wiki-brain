@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/annie-ulmer", "wiki/places/117-belmont-circle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [relationships, uniontown-era, career]
 knowledge: mixed
+infobox:
+  name: "Danny Matthews"
+  relationship_to_dan: unknown
+  first_contact: 2018-02-16
+  known_for: "Danny Matthews plays two unrelated roles in Dan's life: he's the local realtor who handled the sale of [[wiki/people/fra"
 ---
 
 # Danny Matthews

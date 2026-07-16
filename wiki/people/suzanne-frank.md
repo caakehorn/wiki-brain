@@ -14,6 +14,7 @@ infobox:
   partner: "[[wiki/people/rick-frank|Rick Frank]] (estranged)"
   location: Uniontown, PA area
   known_for: Matriarch; WV/PA maternal roots
+  relationship_to_dan: family
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md

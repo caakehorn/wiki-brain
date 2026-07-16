@@ -22,6 +22,11 @@ related:
   - wiki/mind/concepts/dans-law
   - wiki/mind/psychosexual/emotional-imprinting
 tags: [ai-collaboration, infidelity, nyc-era, trauma-bond]
+infobox:
+  name: "Eli"
+  relationship_to_dan: unknown
+  location: nyc
+  known_for: "Eli is the man [[wiki/people/annie-ulmer|Annie]] had the concealed NYC"
 ---
 
 # Eli

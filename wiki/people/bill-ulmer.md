@@ -10,6 +10,12 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/annie-ulmer", "wiki/people/ellen-ulmer", "wiki/timeline/events/fran-death-vigil", "wiki/self/message-corpora/master-message-dump"]
 tags: [relationships, family]
 knowledge: mixed
+infobox:
+  name: "Bill Ulmer"
+  relationship_to_dan: unknown
+  location: nyc
+  first_contact: 2017-04-22
+  known_for: "Bill Ulmer is [[wiki/people/annie-ulmer|Annie]]'s father — the warmest and most consistently affectionate adult presence"
 ---
 
 # Bill Ulmer

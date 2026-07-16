@@ -7,6 +7,11 @@ date_modified: 2026-07-14
 sources: ["raw/self/facebook/facebook-ihatedanfrank/messages/inbox/alexandralubin_jnwin7cizw/message_1.html", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/facebook", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/periods/2010s", "wiki/mind/concepts/contact-gini"]
 tags: [digital-footprint]
+infobox:
+  name: "Ally Lubin"
+  relationship_to_dan: unknown
+  location: nyc
+  known_for: "Role: Friend from FB/social network, described in operating manual as "Friend, dark humor partner, North Carolina". Shor"
 ---
 
 # Ally Lubin (Alexandra Lubin)

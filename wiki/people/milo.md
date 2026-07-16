@@ -20,6 +20,13 @@ related:
   - wiki/people/gabe
   - wiki/work/tech/max-framework/overview
 tags: [pets, relationships, physical-health, ai-collaboration, nyc-era]
+infobox:
+  name: "Milo"
+  relationship_to_dan: unknown
+  sex: male
+  location: nyc
+  first_contact: 2018-01-01
+  known_for: "Milo is Dan's Chihuahua and the one recurring presence in the record that"
 ---
 
 # Milo

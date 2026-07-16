@@ -10,6 +10,12 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/menore", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [addiction-recovery, nyc-era, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "Del"
+  relationship_to_dan: unknown
+  location: nyc
+  first_contact: 2019-03-17
+  known_for: "Del ran a NYC cannabis delivery service (contacts card lists organization "Stiiizy," the vape-cart brand) that supplied "
 ---
 
 # Del

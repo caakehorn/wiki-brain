@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/au-zaatar", "wiki/self/message-corpora/master-message-dump"]
 tags: [career, politics, nyc-era]
 knowledge: mixed
+infobox:
+  name: "Md"
+  relationship_to_dan: unknown
+  first_contact: 2023-11-07
+  known_for: "MD appears to be a coworker or affiliate connected to [[wiki/work/au-zaatar|Au Za'atar]] — the thread opens with him sha"
 ---
 
 # MD

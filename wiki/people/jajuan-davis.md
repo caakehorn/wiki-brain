@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/people/johnny-dealer", "wiki/self/message-corpora/master-message-dump"]
 tags: [addiction-recovery, financial-stress, uniontown-era]
 knowledge: derived
+infobox:
+  name: "Jajuan Davis"
+  relationship_to_dan: unknown
+  first_contact: 2018-11-29
+  known_for: "A high-frequency, purely transactional dealer relationship over the 2018–2019 winter (+17243233522, 157 messages, Nov 29"
 ---
 
 # Jajuan Davis

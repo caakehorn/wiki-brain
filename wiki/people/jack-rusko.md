@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump"]
 tags: [career, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Jack Rusko"
+  relationship_to_dan: unknown
+  first_contact: 2017-10-16
+  known_for: "Jack Rusko was a fellow [[wiki/work/nemacolin-caddying|Nemacolin]] caddy and genuine friend through the 2017–2018 season"
 ---
 
 # Jack Rusko

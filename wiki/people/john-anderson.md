@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/master-message-dump"]
 tags: [addiction-recovery, uniontown-era]
 knowledge: derived
+infobox:
+  name: "John Anderson"
+  relationship_to_dan: unknown
+  first_contact: 2019-05-06
+  known_for: "A 2019 dealer contact (+17245696861, 26 messages, May–August), introducing himself by full name after getting a new phon"
 ---
 
 # John Anderson

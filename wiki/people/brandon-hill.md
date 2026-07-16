@@ -7,6 +7,10 @@ date_modified: 2026-06-23
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
 related: ["wiki/work/bfs-foods", "wiki/people/anita", "wiki/people/kim", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/alexander-jackson"]
 tags: [relationships]
+infobox:
+  name: "Brandon Hill"
+  relationship_to_dan: unknown
+  known_for: "Role: Assistant Manager, gas station side. Technical closer Sunday shift (phantom tender origin). Anita's instrument for"
 ---
 
 # Brandon Hill (BFS Assistant Manager, Gas Station Side)

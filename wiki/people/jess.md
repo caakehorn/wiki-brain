@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [relationships, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "Jess"
+  relationship_to_dan: unknown
+  first_contact: 2017-04-20
+  known_for: "Jess introduces herself April 20, 2017 as part of a swinging couple recruiting through a group or platform called "Fem" "
 ---
 
 # Jess (from "Fem")

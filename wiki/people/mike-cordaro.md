@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/rick-frank", "wiki/self/message-corpora/master-message-dump"]
 tags: [relationships, politics, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Mike Cordaro"
+  relationship_to_dan: unknown
+  first_contact: 2024-07-28
+  known_for: "Mike Cordaro is a childhood-era friend — the two attended the "Rolling Rock Town Fair" together as kids, a concert serie"
 ---
 
 # Mike Cordaro

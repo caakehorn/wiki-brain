@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [addiction-recovery, uniontown-era]
 knowledge: mixed
+infobox:
+  name: "Jim Vrabel"
+  relationship_to_dan: unknown
+  first_contact: 2018-03-27
+  known_for: "Jim Vrabel was a marijuana dealer and, over two and a half years, something closer to a regular late-night hangout than "
 ---
 
 # Jim Vrabel

@@ -15,6 +15,10 @@ related:
   - wiki/people/dimitri
   - wiki/people/tom
 tags: [nyc-era]
+infobox:
+  name: "Ismaila Barry (\"DJ\")"
+  relationship_to_dan: unknown
+  known_for: "Ismaila Barry — universally "DJ" — is the Senegalese busser-turned-server"
 ---
 
 # Ismaila Barry ("DJ")

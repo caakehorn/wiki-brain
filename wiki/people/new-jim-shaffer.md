@@ -10,6 +10,13 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/alexis-armel", "wiki/people/annie-ulmer", "wiki/people/steve-kezmarsky", "wiki/people/tom", "wiki/self/message-corpora/master-message-dump"]
 tags: [relationships, career, financial-stress]
 knowledge: mixed
+infobox:
+  name: "New Jim Shaffer"
+  relationship_to_dan: unknown
+  sex: male
+  location: nyc
+  first_contact: 2018-04-22
+  known_for: "Jim Shaffer — "not the only Jim Shaffer" in Dan's life, hence the "new" contacts-card label — is a wealthy childhood fri"
 ---
 
 # "New Jim Shaffer" (Jim Shaffer)

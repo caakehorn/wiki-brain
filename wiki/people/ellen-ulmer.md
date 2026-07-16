@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/annie-ulmer", "wiki/people/bill-ulmer", "wiki/places/117-belmont-circle", "wiki/timeline/events/fran-death-vigil", "wiki/self/message-corpora/master-message-dump"]
 tags: [relationships, family]
 knowledge: mixed
+infobox:
+  name: "Ellen Ulmer"
+  relationship_to_dan: unknown
+  first_contact: 2017-04-11
+  known_for: "Ellen Ulmer is [[wiki/people/annie-ulmer|Annie]]'s mother — a steady, low-frequency but remarkably durable presence in D"
 ---
 
 # Ellen Ulmer

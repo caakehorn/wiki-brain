@@ -6,6 +6,10 @@ date_created: 2026-06-23
 date_modified: 2026-06-23
 sources: ["/Users/daniel/Documents/dan-wiki/raw/self/facebook/facebook-ihatedanfrank/messages/inbox/seanteets_ycj9jpkeba/message_1.html", "/Users/daniel/Documents/dan-wiki/ingest/facebook-ihatedanfrank/messages/inbox/seanteets_ycj9jpkeba/message_1.html"]
 related: ["wiki/self/facebook", "wiki/timeline/periods/2010s", "wiki/self/message-corpora/master-message-dump"]
+infobox:
+  name: "Sean Teets"
+  relationship_to_dan: unknown
+  known_for: "Role: Casual / peripheral contact. Low-volume FB exchanges (7 total messages). Topics include possible substance shortha"
 ---
 
 # Sean Teets

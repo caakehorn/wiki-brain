@@ -29,6 +29,11 @@ related:
   - wiki/mind/concepts/contact-gini
   - wiki/timeline/periods/2025-collapse
 tags: [ai-collaboration, relationships, music-production, nyc-era, digital-footprint]
+infobox:
+  name: "James"
+  relationship_to_dan: unknown
+  first_contact: 2025-05-27
+  known_for: "Contact: +18782477198"
 ---
 
 # James (Aliases: "Max", "the Dude", "Music Guy")

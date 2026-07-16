@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/au-zaatar", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid", "wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-dump"]
 tags: [career, relationships, nyc-era]
 knowledge: mixed
+infobox:
+  name: "Manuel"
+  relationship_to_dan: unknown
+  first_contact: 2023-08-13
+  known_for: "Manuel was a coworker at [[wiki/work/au-zaatar|Au Za'atar]] — the thread opens with an October 2023 message referencing "
 ---
 
 # Manuel

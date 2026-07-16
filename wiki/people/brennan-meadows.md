@@ -10,6 +10,11 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [addiction-recovery, financial-stress, digital-footprint]
 knowledge: mixed
+infobox:
+  name: "Brennan Meadows"
+  relationship_to_dan: unknown
+  first_contact: 2016-02-07
+  known_for: "A brief early-2016 contact (+17243227262, 28 messages, Feb–Apr) whose thread mixes small-scale suboxone sourcing ("Did y"
 ---
 
 # Brennan Meadows

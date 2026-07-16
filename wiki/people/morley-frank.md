@@ -7,6 +7,11 @@ date_modified: 2026-07-14
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/rick-frank", "wiki/people/alex-frank", "wiki/self/ancestry", "wiki/self/overview"]
 tags: [uniontown-era, family, grief]
+infobox:
+  name: "Morley Frank"
+  relationship_to_dan: unknown
+  location: uniontown
+  known_for: "Paternal grandfather of Dan Frank. Born 20 August 1927, Brownsville, Fayette County, Pennsylvania. Died 13 December 1998"
 ---
 
 # Morley Jay Frank

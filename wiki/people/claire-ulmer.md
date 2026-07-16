@@ -12,6 +12,10 @@ related:
   - wiki/people/annie-ulmer
   - wiki/people/milo
 tags: [pets, relationships, grief]
+infobox:
+  name: "Claire Ulmer"
+  relationship_to_dan: unknown
+  known_for: "Claire is [[wiki/people/annie-ulmer|Annie Ulmer]]'s sister — the reason"
 ---
 
 # Claire Ulmer

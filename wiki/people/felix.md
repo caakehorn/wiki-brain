@@ -6,6 +6,10 @@ date_created: 2026-06-23
 date_modified: 2026-07-11
 sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv"]
 related: ["wiki/people/arnu", "wiki/legal/463-morgantown", "wiki/people/alexander-jackson", "wiki/timeline/periods/2025-collapse"]
+infobox:
+  name: "Felix"
+  relationship_to_dan: unknown
+  known_for: "Role: Family Friend."
 ---
 
 # Felix (Painter / 463 Contractor)
