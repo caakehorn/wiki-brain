@@ -65,3 +65,4 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/synthesis/intake-constancy]] — the fixed-rate intake metabolism: ~11.6 YouTube watches/active day + ~20 search actions/active day, era- and city-invariant.
 - [[wiki/mind/synthesis/ancestral-dialectic]] — the Ashkenazi/Appalachian ancestral binary engine, the collapse-cycle model, the Neanderthal-ancestry data point.
 - [[wiki/mind/synthesis/music-as-identity]] — music as a century-spanning structure of self: performed teen identity, tour devotion, emotional regulator, producer identity; the "unutilized for actual purpose" gap made explicit.
+- [[wiki/mind/synthesis/2020-left-turn]] — the dated COVID-lockdown radicalization: Bernie 2020 on-ramp, the Chapo/Hasan/ContraPoints media pipeline, the Marx/Kropotkin reading, and the class-guilt over the family's union-busting money.

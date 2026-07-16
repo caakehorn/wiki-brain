@@ -16,6 +16,10 @@ related: []
 - [[wiki/interests/the-office]] — not a rated favorite, but its comic grammar (the "Schrute Farms" concert alias, the "that's what she said" tic, the Michael Scott political comparator) is woven into the idiom.
 - [[wiki/interests/gore-vidal]] — hero-figure litmus test, a literal shelf object, and a deadpan groomsmen-bit constant; an identity anchor with no books entry.
 - [[wiki/interests/video-games]] — from the 2007 "slaying on halo" teen signal through the 2016–2018 PlayStation ownership/ban saga to the 2025 Wii/Xbox liquidation.
+- [[wiki/interests/stand-up-comedy]] — not a passive favorite: a dated 2019 New York club-going run, a real ambition to perform (the "Nad Knarf" stage name, the five-minute open-mic goal), and comedy specials as a family ritual.
+- [[wiki/interests/opie-and-anthony]] — the single most-watched thing in his YouTube history: the 2012–13 shock-radio archive binge (~450 watches) that trained his humor and fed the live-comedy taste.
+- [[wiki/interests/film-canon]] — the 11-title movie list read as a real canon he evangelizes and tests partners with; Kubrick completism, Eyes Wide Shut as "favorite Christmas movie," and the King of Comedy/Taxi Driver self-portrait pair.
+- [[wiki/interests/roman-republic]] — the 2024 full-immersion ancient-history year: Carlin→Holland→Goldsworthy→Plutarch read back to back, and the evangelism of Caesar/Rome to everyone around him.
 
 ## favorites
 
