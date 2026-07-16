@@ -4,10 +4,11 @@ page_type: entity
 title: "Tattoos"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-15
 knowledge: mixed
 sources:
   - raw/self/captures/2026-07-14-tattoo-list.md
+  - raw/self/captures/2026-07-15_195532_tattoo-artist.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/dan tom 2010 2022.txt
@@ -38,9 +39,9 @@ presented as complete, and further pieces should be added as they surface.
 | Misfits skull in a pizza slice | Custom mashup of the Misfits' Crimson Ghost mascot and a pizza slice | Unknown | Chris Redmond (custom drawn) | By Nov 27, 2018 |
 | Kanye West *808s & Heartbreak* KAWS bear | KAWS's reworked "Dropout Bear" from the *808s* era art/toy campaign | Unknown | Unknown | By Sept 22, 2025 |
 | Radiohead bear | The "Modified Bear" / Stanley Donwood-era *Kid A* artwork | Unknown | Unknown | By Oct 27, 2018 |
-| Old school traditional rose | American traditional flash | Unknown | Possibly the March 2019 "traditional tattoo specialist" shop | Possibly March 8, 2019 |
-| Gravestone, "my youth" | Memorial-style lettering piece | Unknown | Unknown | Undocumented |
-| Flapper girl | American traditional flash (pin-up style) | Unknown | Possibly the same March 2019 session as the rose | Undocumented |
+| Old school traditional rose | American traditional flash | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Possibly March 8, 2019 |
+| Gravestone | Memorial-style piece | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Undocumented |
+| Flapper girl | American traditional flash (pin-up style) | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Undocumented |
 
 ## Misfits: skull in a pizza slice
 
@@ -111,23 +112,34 @@ it... Very very nice") and her comparison question — "Do you know how
 long that would've taken **Chris at the edge** to do? LOL" — names a
 second tattoo reference point (a different or possibly overlapping artist
 named Chris, associated with a shop called "The Edge") against which this
-session's speed was being measured; Dan confirms the piece "took an hour
-and a half total." Whether this specific session produced the rose, the
-flapper girl, or both is not established in the corpus — traditional flash
-sessions commonly bundle multiple smaller pieces, so it's plausible both
-came from the same visit, but that's inference, not confirmed fact.
+this session's speed was being measured; Dan confirms the piece "took an hour
+and a half total."
+
+A July 15, 2026 capture resolves the artist and location for the traditional
+cluster: Dan names **Ian Weidrick of Allied Tattoo in Brooklyn** as the artist
+behind his "Brooklyn tattoos" — the flapper girl, the rose, and the gravestone.
+This places all three pieces firmly in Dan's NYC era and confirms they share a
+single artist and shop, though it does not settle whether they came from one
+session or several. It also means "Chris at the Edge," the reference point in
+Annie's March 2019 message, was a comparison shop, not the artist who did the
+work — Weidrick/Allied was. Whether this specific session produced the rose, the
+flapper girl, or both is still not established in the corpus — traditional flash
+sessions commonly bundle multiple smaller pieces, so it's plausible more than
+one came from the same visit, but that's inference, not confirmed fact.
 
 ## Gaps
 
-The gravestone/"my youth" piece has no corroborating message-corpus trace
-found so far — no date, artist, or placement. Body placement is unknown
-for every piece on this list; the corpus documents *what* and often
-*when* and *who drew it*, but rarely *where on the body*. The full
+The gravestone piece now has an artist and location (Ian Weidrick, Allied
+Tattoo, Brooklyn) but still no date or corroborating message-corpus trace.
+Body placement is unknown for every piece on this list; the corpus documents
+*what* and often *when* and *who drew it*, but rarely *where on the body*. The full
 tattoo count is unknown — Dan's own framing ("just to start you off")
 indicates this list is a beginning, not an inventory, and this page
 should be extended as further pieces are named or surface in raw sources.
 Whether "Chris Redmond" (the Misfits artist) and "Chris at the Edge"
-(Annie's March 2019 reference point) are the same person is unconfirmed.
+(Annie's March 2019 comparison reference) are the same person is unconfirmed;
+the March 2019 traditional pieces themselves were done by Ian Weidrick at
+Allied Tattoo, not by either Chris.
 
 ## Related
 

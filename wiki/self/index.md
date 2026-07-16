@@ -62,4 +62,5 @@ The self domain contains files and data detailing identity, core biographical fa
 
 ## archive
 
-- [[wiki/self/gemini-activity/archive/v1-extract]] — pinned oversized artifact, never updated
+- [[wiki/self/gemini-activity/archive/v1-extract]] — v1 extraction index + concept map (node locks, theme counts, cross-concept table)
+- [[wiki/mind/concepts/node-locking]] — the memory-persistence protocol behind the profile-lock commands in the Gemini corpus

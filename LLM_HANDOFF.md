@@ -84,6 +84,15 @@ quality bar; imitate their shape exactly. A page that is tidy but leads
 with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
+### [2026-07-15] - Session: ingest pass — tattoo artist (single inbox capture)
+* **Model:** Hermes Agent (tencent/hy3:free, local)
+* **Summary:**
+  - Processed the one untracked inbox item `2026-07-15_195532_tattoo-artist.md`. Filed it to `raw/self/captures/`.
+  - Fact: Dan's three Brooklyn tattoos (flapper girl, rose, gravestone) were done by **Ian Weidrick of Allied Tattoo, Brooklyn**.
+  - Extended `wiki/self/tattoos.md`: updated table (artist + Brooklyn placement for all three traditional pieces), added a paragraph in "The traditional pieces" resolving the March 2019 artist/location and clarifying that "Chris at the Edge" (Annie's March 2019 msg) was a comparison shop, not the artist. Trimmed the gravestone gap accordingly. Frontmatter: date_modified → 2026-07-15, added the new raw source.
+  - `bin/wiki-lint`: **0 errors** (pre-existing size warnings only). One commit on `feat/wiki-wikipedia-chrome`. No push/PR (not requested).
+* **Handoff Note:** Traditional cluster now has a confirmed NYC-era artist/shop. Still-open tattoo gaps: exact dates for gravestone + flapper, body placement for every piece, total count. If a Weidrick/Allied session receipt or photo surfaces it could settle whether rose/flapper/gravestone were one session or several.
+
 ### [2026-07-15] - Session: CAPSTONE — Dan/Annie fallout verdict ("was he correct to feel wronged?")
 * **Model:** Hermes Agent (tencent/hy3:free, local)
 * **Summary:**

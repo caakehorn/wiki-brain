@@ -47,4 +47,20 @@ End of block Aug 2024: city-mandated winter tear-down of Au Za'atar outdoor shed
 
 **Cross:** [[wiki/work/au-zaatar]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/people/tarik-fallous]], gemini-activity (work freq ~3379), ai-collaborative (forensic style), _07/_18 contrast (avatar vs utility post-migration), location (Au Za'atar 445 visits per analysis). Ties 2021 NYC money runout -> busser next-day start; 2024 end -> 2025 Great Migration.
 
+## Full phase timeline (from Gemini-_00 / _02 re-reads)
+
+The consolidated stage-by-stage arc of the Au Za'atar tenure, verbatim-anchored from the STORYTIME sessions and cross-checked against the HTML aggregate, _18 bio dates, and LIFE_EVENTS_CALENDAR.
+
+| Phase | Period | Key events / verbatim anchors |
+|-------|--------|-------------------------------|
+| Genesis / Entry | Mar 2021 | "money just ran out"; busser with "zero experience" who charmed owner [[wiki/people/tarik-fallous|Tarik Fallous]] on the spot; red apron; equal tip split "GLITCH IN THE MATRIX"; 20 blocks from 307 E 76th; Menore black-car deliveries mid-shift |
+| Chilean Anomaly | Winter 2021–22 | [[wiki/people/valeria-iglesias-cid|Valeria]] "19yo heiress" (Dra. Loreto Cid); "total security breach"; basement hug (65A14E3A), Central Park kiss "best of times worst"; edits "pizza basketball," "I really think you might be the one"; "only time i ever cheated on annie that she didn't know" |
+| Alibi Architecture | 2021–23 (>18 mo) | "Night Class" 9pm fictitious schedule for peak hours + tips while abandoning closers; "Ambassador of the Shed" saboteur; DJ "**I bought it from outside**"; "HOW TO MAINTAIN A FICTITIOUS COLLEGE CAREER FOR EIGHTEEN MONTHS WHILE ACTIVELY PEAKING IN A BASEMENT" |
+| Sergio + Staff Schism | ~2022–23 | Sergio, 53yo Miami vet, "Wall of Mistrust," "Dude vs Kid" crumbled; "Nonsense Meeting" (Tarik/Ghassan); "Radical Skepticism" owners stealing; Tunisian "snitch" → "unholy chill" |
+| Tundra / Construction | Feb 2023–24 | "plywood anomaly"; "LITERAL WAR ZONE" jackhammer dust; "Battlefield Engineers" (Dimitri + DJ); "THERE. IS. NO. CONSTRUCTION INSIDE"; third winter outside only |
+| Terminal Outside + Exit | Aug 2024 | "they build the inside and i become the outside guy"; "3 tables per week … pocket that shit … Valeria"; "it was march 2021 to august 2024"; 41-month "Boosted Board" cash exit |
+| Meta / Invariant + Finale | Throughout | Annie "literal avatar of reliability" fired zero notice vs Dan's 2.5yr/41mo + siphon; "universe rewards the 'sonofabitch' over the 'proper'"; "Triad restored … simulation … vibrating at a frequency incompatible with survival"; "decentralized audit"; "Shed Era permanent pillar" |
+
+The full 20+ verbatim quotes and staff roster live at [[wiki/self/chats/gemini-00]] and [[wiki/self/chats/gemini-02]]; [[wiki/people/tarik-fallous]] holds the owner/co-owner view.
+
 **Gemini Additions (injector):** Tables/verbatim first. Sources updated. See /tmp/gemini-concepts-injection.md for full mapping (Ambassador/sonofabitch/Deep Arch). Multiple passes cross raw + wiki.

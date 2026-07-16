@@ -7,7 +7,7 @@ status: stable
 importance: critical
 relation_type: family
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-15
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, uniontown-era, music-production, grief]
 sources:
@@ -15,6 +15,8 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
+  - raw/people/captures/2026-07-15_192028_dan-s-maternal-great-grandmother-fran-wh.md
+  - raw/people/captures/2026-07-15_192608_dan-s-maternal-great-grandmother-fran-wh.md
 related:
   - wiki/people/suzanne-frank
   - wiki/people/annie-ulmer
@@ -34,6 +36,8 @@ changelog:
     note: "Marla's caregiver messages corroborate April 4 death date"
   - date: 2026-07-11
     note: "Full prose rewrite from data-dump stub"
+  - date: 2026-07-15
+    note: "Capture expansion: early-literacy fact (taught Dan to read); flagged 'died when young' death-date contradiction vs 2018 corpus record; added 19:26 duplicate capture"
 ---
 
 # Frances "Fran" Whyel Coldren
@@ -55,6 +59,22 @@ Dan and [[wiki/people/annie-ulmer|Annie]] the only two people in the room.
 Her final years, with Dan and Annie as her paid 24/7 caregivers, are the
 best-documented chapter of his life before the message corpus begins, and
 the one he identifies as the time he felt he was making a real difference.
+
+## The first teacher
+
+The single most foundational fact about the relationship is that Fran taught
+Dan to read, and did so early — before he was school-aged (recalled in two
+2026-07-15 captures as the act that, alongside her "single largest life
+influence" status, defined the bond). This predates every other established
+chapter of their bond and is the literal origin point of the "biggest life
+influence" status: the capacity she installed is the same one the entire wiki
+is written in. No other figure in the family record is documented as having
+seeded his literacy directly, and the seed self-evidently took — the record
+he leaves (this wiki, the message corpus, the forensic write-ups) is a
+decades-long argument conducted in written language. The early instruction is
+the read against which her later, heavier gifts (the NS7 II, the caregiving
+years) are best understood: she built the instrument before she funded what
+he'd play on it.
 
 ## The athlete of Belmont Circle
 
@@ -123,6 +143,19 @@ documented in full at [[wiki/timeline/events/fran-death-vigil]].
 
 > **CONTRADICTION (age):** Core documents say she died at 98; the 1920
 > birth year makes her 97 at an April 2018 death. Unresolved.
+
+> **CONTRADICTION (death timing):** Two captures on 2026-07-15 (19:20 and
+> 19:26) each describe Fran as "the single largest life influence" who "died
+> when he was young." The "biggest influence" framing matches
+> CONTEXT_CORE_EXPANDED and the DANSYNTH record, but "died when he was young"
+> conflicts with the corpus-documented death on **April 4, 2018** — when Dan
+> was 29 and serving as her paid round-the-clock caregiver (see
+> [[wiki/timeline/events/fran-death-vigil]]), not a child. The capture is
+> treated as a remembered emotional truth (her loss was the formative one)
+> rather than a literal timeline claim. If Dan instead means a different
+> Fran, or "young" is loose phrasing for "early in his adult life," that
+> needs operator confirmation; absent that, the 2018 death date stands as the
+> corroborated fact.
 
 ## Why she matters to the architecture
 

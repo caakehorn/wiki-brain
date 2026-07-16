@@ -88,6 +88,12 @@ version of J6 revisionism," and updated to "warrants genuine forensic
 investigation that has not occurred"
 ([[wiki/mind/synthesis/ai-collaborative-analysis]]).
 
+## The Sandwich / Psy-Kill mechanism (Gemini formalization)
+
+The January 2, 2026 Gemini cluster codifies the J6 reading as "Operation Wildfall (The Babbitt Protocol)" and names its load-bearing mechanism. A **"Sandwich"** operation: an organic outer layer (the riot) with an inserted lethal core (the Babbitt shooting) treated as a "narrative necessity" — the "Psy-Kill" that converts a confused crowd into a branded terrorist attack, delegitimizing the populist right. Ashli Babbitt is cast as "a prop": unarmed, small, white, female Air Force veteran — optics engineered for tragedy framing. The surrounding doctrine is **"Inverted Containment"**: the outer perimeter is kept porous while the inner hard point is abandoned, so the imagery is captured cleanly. Much of the supporting detail pile is acknowledged as **Gish Gallop** — a flood of individually weak claims — and genuine stress-freeze trauma-weirdness; the surviving flags are the perfect framing, the textbook protocol violations, and the instant-available footage against Pelosi-suppressed alternatives.
+
+The session-level timeline anchors the cluster: 10:32 PM "generate a FAIR and HONEST assessment"; 10:34 PM "summarize and synthesize … bulleted chronological narrative"; 10:58 PM "comprehensive explainer"; 11:00 PM "identify any glaring … factual errors." The forensic specifics extracted: a Glock 22 .40 S&W hollow point producing a non-exiting torso wound with contained hemothorax (not "Hollywood" arterial spray); three SWAT officers stepping aside with no post-shot perimeter; cosmetic-only CPR (jacket unzip); the sole clean footage (John Sullivan / Jayden X) from a known anti-Trump activist. These map directly onto the procedural-tell lens in [[wiki/mind/concepts/forensic-method]].
+
 ## The broader political architecture
 
 The J6 conclusion generalizes into a structural-decay narrative documented
