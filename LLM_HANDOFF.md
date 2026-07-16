@@ -84,6 +84,17 @@ quality bar; imitate their shape exactly. A page that is tidy but leads
 with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
+### [2026-07-16] - Session: missing-meaning expansion — 5 new interest/mind pages from raw/
+* **Model:** Hermes (tencent/hy3)
+* **Summary:** Per user directive ("open documents to a random place, read, analyze, connect, link, write" — 5–8 genuinely missing life elements, not FOB-adjacent tangents). Note: `/Volumes/MUSIC/PHASE B RAW` is currently throwing I/O errors and is unmountable — worked entirely from in-repo `raw/` (which is complete). Mined `raw/self/dox-scan/Dan Profile.txt`, `all_imessages_complete_dump.txt`, and `FAVS MASTERLIST.csv`. Wrote 5 new pages, each led with lived experience + dated raw evidence, gaps sections, cross-linked into indexes:
+  - `wiki/interests/stand-up-comedy.md` — 2019 NYC live-club run (dated attendance list: Normand/Gillis/Soder/Dillon/Gaffigan etc.), own standup ambition (2017–2019 open-mic goal, "Nad Knarf" stage name), Philly 2018 special taping.
+  - `wiki/interests/film-canon.md` — the thin 11-title movies list re-read as an evangelized canon + partner compatibility test; Kubrick completism; Eyes Wide Shut arc (completion target → voyeurism self-lens 2019 → "favorite Christmas movie" 2023); King of Comedy/Taxi Driver self-portrait pair.
+  - `wiki/interests/roman-republic.md` — 2024 full-immersion ancient-history year (Carlin→Holland→Goldsworthy→Plutarch, dated reads), Caesar/Carlin evangelism to contacts, great-man-theory link.
+  - `wiki/interests/opie-and-anthony.md` — the #1 most-watched thing in the entire YouTube history (2012–13 shock-radio archive binge, ~450 archive watches); the idiom + live-comedy-taste pipeline.
+  - `wiki/mind/synthesis/2020-left-turn.md` — dated COVID-lockdown radicalization (self-narrated 2020-08-22: "i took a HARD turn left"), Bernie 2020 on-ramp (donor SMS flood), Chapo/Hasan/ContraPoints/Thoughtslime pipeline, Marx/Kropotkin reading, union-busting class-guilt.
+* **Lint:** `bin/wiki-lint: 310 pages, 1 error` — the 1 error is the known pre-existing `wiki/wiki/people/steve-kezmarsky.md` nested-dup (NOT this session). `git diff --check` clean. Committed as c63e0cc on branch `feat/suzanne-frank-rewrite`. PR opened per user request.
+* **Handoff Note:** MUSIC volume dead this session — if Phase B staging is needed later, remount/repair `/Volumes/MUSIC` first. Many more thin favorites pages remain ("appears on a top list" catalog lines) — same technique applies.
+
 ### [2026-07-15] - Session: ingest pass — tattoo artist (single inbox capture)
 * **Model:** Hermes Agent (tencent/hy3:free, local)
 * **Summary:**

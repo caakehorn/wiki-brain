@@ -3,16 +3,23 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-14
-sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+date_modified: 2026-07-16
+sources:
+  - "raw/self/favorites/FAVS MASTERLIST.csv"
+  - "raw/self/dox-scan/Dan Profile.txt"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+  - "raw/self/(failed-wiki-project)log-archive-2026-06-23.md"
 related:
   - wiki/interests/favorites/music
   - wiki/interests/favorites/music/artists/my-chemical-romance
   - wiki/interests/favorites/music/artists/taking-back-sunday
+  - wiki/interests/favorites/music/artists/fall-out-boy
+  - wiki/timeline/events/teen-concert-years
   - wiki/self/context-core
   - wiki/mind/profile/deviance-mapping
   - wiki/interests/music/concepts/lyrics-as-timbre
 changelog:
+  - 2026-07-16: Added the 2007-05-06 Baltimore Rams Head show he actually attended, the 2007 Facebook "Say Anything obsession" status, and the attended-vs-catalog distinction.
   - 2026-07-14: Full rewrite from stub. Added track-specific reading, confessional/narcissism framing.
 tags: [personality-profile]
 ---
@@ -27,6 +34,18 @@ grandiosity, and narcissism into the explicit subject matter rather than
 subtext. Bemis doesn't perform vulnerability the way most emo-era
 songwriters do — obliquely, through imagery — he names his own worst
 traits directly and dares the listener to still like him.
+
+## Seen live (2007)
+
+This is not only a catalog entry. Dan attended a Say Anything show at the
+Rams Head in Baltimore on 2007-05-06, logged in his own concert record
+([[wiki/timeline/events/teen-concert-years]]), and the 2007 Facebook status
+layer names a full "Say Anything obsession" that year alongside the Fall
+Out Boy and TRL material. The band sat on the same touring circuit he was
+following — the Baltimore date falls between the Cleveland and Buffalo
+Fall Out Boy shows. So the attraction predates and outruns the favorites
+list; the 6 tracks are the residue of an active 2007 fandom, not its
+source.
 
 ## In Favorites
 
@@ -68,4 +87,4 @@ just genre-adjacent taste.
 
 ## Related
 
-[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/mind/profile/deviance-mapping]]
+[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/timeline/events/teen-concert-years]] · [[wiki/mind/profile/deviance-mapping]]

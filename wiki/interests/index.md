@@ -13,6 +13,13 @@ related: []
 
 - [[wiki/interests/golf]] — three generations of family golf, a real amateur game rekindled by the caddying job, and the sport's decade-long role as a marker of the Annie relationship's temperature, start to end.
 - [[wiki/interests/rock-irrelevance-thesis]] — the argument (with streaming/market data) that guitar rock is culturally irrelevant for the first time since 1963.
+- [[wiki/interests/the-office]] — not a rated favorite, but its comic grammar (the "Schrute Farms" concert alias, the "that's what she said" tic, the Michael Scott political comparator) is woven into the idiom.
+- [[wiki/interests/gore-vidal]] — hero-figure litmus test, a literal shelf object, and a deadpan groomsmen-bit constant; an identity anchor with no books entry.
+- [[wiki/interests/video-games]] — from the 2007 "slaying on halo" teen signal through the 2016–2018 PlayStation ownership/ban saga to the 2025 Wii/Xbox liquidation.
+- [[wiki/interests/stand-up-comedy]] — not a passive favorite: a dated 2019 New York club-going run, a real ambition to perform (the "Nad Knarf" stage name, the five-minute open-mic goal), and comedy specials as a family ritual.
+- [[wiki/interests/opie-and-anthony]] — the single most-watched thing in his YouTube history: the 2012–13 shock-radio archive binge (~450 watches) that trained his humor and fed the live-comedy taste.
+- [[wiki/interests/film-canon]] — the 11-title movie list read as a real canon he evangelizes and tests partners with; Kubrick completism, Eyes Wide Shut as "favorite Christmas movie," and the King of Comedy/Taxi Driver self-portrait pair.
+- [[wiki/interests/roman-republic]] — the 2024 full-immersion ancient-history year: Carlin→Holland→Goldsworthy→Plutarch read back to back, and the evangelism of Caesar/Rome to everyone around him.
 
 ## favorites
 
@@ -46,8 +53,8 @@ related: []
 
 ## favorites/music/artists
 
-- [[wiki/interests/favorites/music/artists/elliott-smith]] — 7 tracks.
-- [[wiki/interests/favorites/music/artists/fall-out-boy]] — 6 tracks.
+- [[wiki/interests/favorites/music/artists/elliott-smith]] — 7 tracks, the #1 individual artist in a bass-music library; the "patron saint of liars and fakes" 2013 handle and the 2025 R&B-before-1979 gate.
+- [[wiki/interests/favorites/music/artists/fall-out-boy]] — 6 tracks, but a 2007 tour-following artifact: 3 shows + TRL taping, the Buffalo "Schrute Farms" secret show, love cut off at Folie à Deux.
 - [[wiki/interests/favorites/music/artists/jpegmafia]] — 13 tracks — highest count in the masterlist.
 - [[wiki/interests/favorites/music/artists/kanye-west]] — 11 tracks.
 - [[wiki/interests/favorites/music/artists/knock2]] — 6 tracks.
