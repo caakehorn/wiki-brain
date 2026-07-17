@@ -12,7 +12,12 @@ infobox:
   relationship_to_dan: unknown
   location: uniontown
   known_for: "Paternal grandfather of Dan Frank. Born 20 August 1927, Brownsville, Fayette County, Pennsylvania. Died 13 December 1998"
+connections:
+  - page: wiki/mind/synthesis/ancestral-dialectic
+    type: evidences
+    claim: "The Seattle-and-back arc is offered as the geographic template Dan's own returns repeat."
 ---
+
 
 # Morley Jay Frank
 

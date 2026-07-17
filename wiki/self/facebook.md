@@ -9,7 +9,12 @@ date_range_end: 2022-09-05
 sources: ["raw/self/facebook/facebook-ihatedanfrank/"]
 related: ["wiki/self/context-core", "wiki/self/facebook/messages", "wiki/self/facebook/posts", "wiki/self/facebook/friends", "wiki/self/facebook/interests"]
 tags: [relationships, nyc-era, family, uniontown-era, trauma-bond]
+connections:
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: evidences
+    claim: "The archive is the witness theory instantiated in one person's complete data arc."
 ---
+
 
 # Facebook Archive (ihatedanfrank)
 

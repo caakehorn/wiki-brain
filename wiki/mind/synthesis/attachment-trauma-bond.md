@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-07-17
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -23,21 +23,31 @@ sources:
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
-related:
-  - wiki/people/annie-ulmer
-  - wiki/people/alexis-armel
-  - wiki/timeline/events/eli-incident
-  - wiki/mind/concepts/attachment-model
-  - wiki/timeline/periods/2015-2016-annie-relationship-start
-  - wiki/timeline/periods/2025-collapse
-  - wiki/mind/concepts/contact-gini
-  - wiki/mind/synthesis/vertical-authority-skepticism
-  - wiki/mind/concepts/forensic-method
-  - wiki/mind/synthesis/bond-switch-2015
-  - wiki/mind/synthesis/dan-annie-fallout-verdict
-  - wiki/places/155-virginia-ave
 tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
+connections:
+  - page: wiki/people/annie-ulmer
+    type: contextualizes
+    claim: "Supplies the structural model — intermittent reinforcement, DARVO, the confession trap, the tether oscillation — for the relationship record that page holds."
+  - page: wiki/people/eli
+    type: evidenced-by
+    claim: "The Eli incident is where the weaponized-ambiguity mechanism is most visible: obvious data patterns met with DARVO shutdowns during acute attachment activation."
+  - page: wiki/work/au-zaatar
+    type: co-occurs
+    claim: "The 2024 sole-earner rotation followed Dan's involuntary exit from Au Za'atar — one turn of the leverage see-saw that kept both parties unfree to leave in the same window."
+  - page: wiki/mind/concepts/attachment-model
+    type: instance-of
+    claim: "The Annie bond is the model's central case: 127 exit declarations, 110 re-engagements, the anxious-avoidant trap running as designed."
+  - page: wiki/mind/synthesis/bond-switch-2015
+    type: contains
+    claim: "The switch is the bond's origin term; first activation on an uncalibrated substrate."
+  - page: wiki/mind/synthesis/message-circadian-latency
+    type: evidenced-by
+    claim: "The latency analysis quantifies the terminal-phase asymmetry: 16-44-hour inbound medians against unchanged 1-5-minute outbound."
+  - page: wiki/mind/synthesis/music-as-identity
+    type: parallels
+    claim: "The music-preference cutoff pattern (absorption, hard boundary, pre-cut version held as real) is the attachment architecture running on objects that cannot betray him."
 ---
+
 
 # Attachment Trauma Bond and Aura Illness
 

@@ -33,6 +33,17 @@ the contradiction/revision rules (flag and correct), you do not bulldoze it and
 re-derive from zero. Pages may declare which kind they are with an optional
 `knowledge: earned | derived | mixed` frontmatter field (see STYLE_GUIDE.md).
 
+## Connections & Strategy (adopted 2026-07-17)
+**`CONNECTIONS_SPEC.md` and `STRATEGY.md` (repo root) are mandatory reading**
+alongside this file. Connections between pages are TYPED EDGES with argued
+claims (`connections:` frontmatter); bare `related:` lists and `## Related`
+footers are deprecated and being retired page-by-page. When you touch any
+page, write or refresh its `connections:` block per the spec, add inverse
+edges on target pages, and run `bin/wiki-connect check` next to
+`bin/wiki-lint` before committing. `bin/wiki-connect candidates` maintains
+`connection-queue.md`, the mined backlog of evidenced-but-unmade
+connections.
+
 ## LLM Handoff & Coordination
 **CRITICAL:** At the start of every session or turn, you MUST read `LLM_HANDOFF.md` in the root directory to understand the current project state, recent changes, and immediate priorities. When you end your session, you MUST update `LLM_HANDOFF.md` by logging what you accomplished and setting the focus for the next model. This ensures seamless continuity across different models and sessions.
 
@@ -152,7 +163,7 @@ related: []    # wiki page paths
 `active` = live situation · `stable` = accurate, settled · `stub` =
 placeholder · `closed` = formally ended · `archived` = pinned artifact in an
 archive/ dir, never update. Default for finished pages: stable, NOT archived.
-Run `bin/wiki-lint` before committing any ingest.
+Run `bin/wiki-lint` and `bin/wiki-connect check` before committing any ingest.
 
 ## Writing rules (v1 failed by ignoring these)
 

@@ -86,7 +86,15 @@ related:
   - wiki/people/jaredtricia
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
+connections:
+  - page: wiki/people/tom
+    type: co-occurs
+    claim: "Tom is a recurring selected participant in the 2018-2024 arrangement documented on this page."
+  - page: wiki/mind/synthesis/message-circadian-latency
+    type: evidenced-by
+    claim: "The circadian/latency cut supplies the quantitative case for the relationship's singularity: median 9-minute mutual reply latency against hour-scale delays everywhere else."
 ---
+
 
 # Annie (Anne Louise Ulmer)
 
@@ -618,6 +626,8 @@ recorded for completeness.
 | 2026-06-01 | Group-chat closure: Tuquick relationship + defamation campaign confirmed; "sic semper lupanis" |
 | 2026-06-05 | Final message — unprompted apology: "Daniel, i just want to say that i am extremely sorry." |
 | 2026-06-15 | Tuquick defects; independent validation ("compulsive liar") |
+
+Two synthesis pages complete this record: the capstone moral verdict on the fallout, provenance-tiered to raw message rows, at [[wiki/mind/synthesis/dan-annie-fallout-verdict]]; and the quantitative case for the relationship's singularity — median 9-minute mutual reply latency against every other contact's hour-scale delays — at [[wiki/mind/synthesis/message-circadian-latency]].
 
 ## Gaps
 

@@ -7,7 +7,12 @@ date_modified: 2026-06-23
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv", "raw/self/message-csv/imessage_2124702449_both_all_now.csv", "raw/self/message-csv/imessage_3307038747.csv", "raw/self/message-csv/* (37 total CSVs)", "raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/dox-md/Gemini-_18.md"]
 related: ["wiki/self/context-core", "wiki/self/twitter", "wiki/self/youtube-watch-history", "wiki/self/favorites", "wiki/mind/concepts/forensic-method", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/facebook/messages", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/people/annie-ulmer"]
 tags: [digital-footprint, nyc-era, relationships, financial-stress, trauma-bond]
+connections:
+  - page: wiki/mind/synthesis/message-circadian-latency
+    type: contains
+    claim: "The circadian/latency page is a primary analytical cut of this corpus, recomputed row-level."
 ---
+
 
 # Master Message Corpora (iMessage Dumps)
 
@@ -106,3 +111,5 @@ Further dumps (imessage_*_both_*.csv variants) provide sent/received splits, las
 Cross-references: [[wiki/self/context-core]], [[wiki/mind/concepts/forensic-method]], [[wiki/mind/concepts/contact-gini]], [[wiki/mind/synthesis/attachment-trauma-bond]], [[wiki/work/bfs-foods]] (work context in timeline), [[wiki/timeline/events/timeline]], prior dox-scan analyses, [[wiki/timeline/periods/2017-poverty-floor]], [[wiki/timeline/periods/2025-collapse]] etc..
 
 **Sources:** raw/self/message-csv/* (37 files), raw/self/dox-md/operating_manual.md, raw/self/context-core/CONTEXT_CORE_EXPANDED.md, raw/self/facebook/facebook-ihatedanfrank/messages/ and groups/events htmls for cross.
+
+A primary analytical cut of this corpus — circadian rhythm, reply latency, and per-contact volume trajectories, recomputed row-level with the direction-field bug sidestepped via the Leviathan sender field — lives at [[wiki/mind/synthesis/message-circadian-latency]].

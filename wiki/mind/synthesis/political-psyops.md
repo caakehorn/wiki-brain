@@ -6,7 +6,7 @@ title: "Political Psyops & Hybrid Events"
 tags: [politics, forensic-analysis, ideology]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-17
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
@@ -18,20 +18,15 @@ sources:
   - raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/facebook/facebook-ihatedanfrank/
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
-related:
-  - wiki/self/context-core
-  - wiki/self/chats/j6-chat
-  - wiki/self/chats/danfrank-isms-pinned
-  - wiki/self/gemini-activity/gemini-activity
-  - wiki/mind/concepts/forensic-method
-  - wiki/mind/synthesis/vertical-authority-skepticism
-  - wiki/mind/synthesis/millennial-digital-witness
-  - wiki/people/jerad-friedline
-  - wiki/people/josh-brannan
-  - wiki/mind/concepts/dans-law
-  - wiki/self/facebook
-  - wiki/self/youtube-watch-history
+connections:
+  - page: wiki/mind/concepts/forensic-method
+    type: instance-of
+    claim: "The J6 anomaly set — ballistics, procedure, crowd behavior, aftermath — is the forensic method applied to a public event rather than a personal corpus."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: instance-of
+    claim: "The J6 method is the vertical-skepticism architecture applied at state scale."
 ---
+
 
 # Political Psyops & Hybrid Events
 
@@ -159,6 +154,8 @@ democratic socialist analyze right-coded revisionism without tribal
 investment — the spectacle is a text to be read with the same tools as music
 trends or workplace power moves.
 
+The analytical engine here is not politics-specific: the J6 anomaly set is [[wiki/mind/concepts/forensic-method|the forensic method]] applied to a public event instead of a personal corpus — same anomaly detection, same procedural-evidence standard, different substrate.
+
 ## Relation to other data
 
 The same procedural-tell lens runs through the BFS drawer dispute, the
@@ -170,3 +167,5 @@ Twitter is the "politics sicko" channel. The spine's summary stands as the
 page's conclusion: conspiracy theories are treated as aesthetic objects and
 stress-test material — no loyalty to any team sport, forensic default
 always on.
+
+The ideology this page treats as settled has a documented birthday: the COVID-lockdown conversion of 2020-08-22, self-narrated in the message record and argued at [[wiki/mind/synthesis/2020-left-turn]] — Bernie 2020 as the electoral on-ramp, the dirtbag-left pipeline as the vehicle, the family union-busting guilt as the clinch.

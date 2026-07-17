@@ -18,7 +18,12 @@ related:
   - wiki/interests/favorites/music/artists/taking-back-sunday
   - wiki/mind/psychosexual/developmental-origins
 tags: [nyc-era, digital-footprint, personality-profile]
+connections:
+  - page: wiki/mind/synthesis/music-as-identity
+    type: component-of
+    claim: "This concert record is the itinerary/devotion facet of the four-mode music-as-identity thesis."
 ---
+
 
 # Teen Concert Years (2005–2008)
 
@@ -76,3 +81,5 @@ already running the archival reflex the rest of the corpus documents.
 ## Related
 
 [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/the-office]] · [[wiki/mind/psychosexual/developmental-origins]]
+
+This record is the itinerary/devotion facet of the four-mode thesis at [[wiki/mind/synthesis/music-as-identity]] — fandom run as logistics, the mid-2000s scene followed city to city.

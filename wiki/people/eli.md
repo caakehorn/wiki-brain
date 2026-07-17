@@ -27,7 +27,12 @@ infobox:
   relationship_to_dan: unknown
   location: nyc
   known_for: "Eli is the man [[wiki/people/annie-ulmer|Annie]] had the concealed NYC"
+connections:
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: evidences
+    claim: "The incident is the clearest exhibit of the bond's weaponized-ambiguity mechanism."
 ---
+
 
 # Eli
 

@@ -35,7 +35,12 @@ sources:
   - wiki/places/337-saratoga-drive
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
+connections:
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: causes
+    claim: "The maternal half of the 2005 hinge completes the both-verticals-concealing template."
 ---
+
 
 # Suz (Suzanne Frank)
 

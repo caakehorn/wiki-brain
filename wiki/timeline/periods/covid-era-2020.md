@@ -17,7 +17,12 @@ related:
   - wiki/people/annie-ulmer
   - wiki/interests/favorites/books
 tags: [relationships]
+connections:
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: causes
+    claim: "The lockdown's micro-radius siege is the documented condition of the August 2020 socialist conversion — the reading and media binge are self-dated to being stuck inside."
 ---
+
 
 # The COVID Era (2020)
 
@@ -74,6 +79,8 @@ Slavoj Žižek's *Pandemic!: COVID-19 Shakes the World* appears in the
 reading record at four stars, tagged leftist/politics — contemporaneous
 engagement with the pandemic as a political-philosophical object rather
 than only a lived disruption ([[wiki/interests/favorites/books]]).
+
+The period's most durable ideological product is the documented socialist conversion of August 2020: a self-narrated, media-driven radicalization (Chapo, Hasan Piker, ContraPoints) cemented by lockdown reading of the primary texts — argued in full at [[wiki/mind/synthesis/2020-left-turn]].
 
 ## Gaps
 

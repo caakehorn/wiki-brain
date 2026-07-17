@@ -5,7 +5,7 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-17
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
@@ -13,16 +13,37 @@ sources:
   - raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/facebook/facebook-ihatedanfrank/
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
-related:
-  - wiki/self/context-core
-  - wiki/work/bfs-foods
-  - wiki/work/au-zaatar
-  - wiki/mind/synthesis/political-psyops
-  - wiki/mind/profile/big-five-psychometrics
-  - wiki/people/rick-frank
-  - wiki/people/suzanne-frank
 tags: [politics, relationships, family, personality-profile, nyc-era]
+connections:
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "The skepticism thesis is carried as a named theme of the totality synthesis."
+  - page: wiki/work/bfs-foods
+    type: evidenced-by
+    claim: "The drawer dispute is the cleanest micro-scale crystallization: an unverified vertical claim whose missing paper trail was the point, met with refusal and documentation."
+  - page: wiki/work/au-zaatar
+    type: evidenced-by
+    claim: "41 months of sustained staff-side audit posture — and the model's honesty check, since the record documents Dan as a saboteur within the vertical too."
+  - page: wiki/mind/synthesis/political-psyops
+    type: instantiates
+    claim: "The J6 hybrid reading — distrust every vertical actor at once, then score who is more wrong — is this skepticism run at state scale."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: evidenced-by
+    claim: "Trust 9 / Altruism 1 / Submissiveness 1 / Assertiveness 5 is the architecture as measurement: he exits the axis and audits it, neither obeying nor competing."
+  - page: wiki/people/rick-frank
+    type: caused-by
+    claim: "The November 2005 hinge — the trusted paternal figure maintaining a concealed alternate reality — is the documented template the skepticism generalizes."
+  - page: wiki/people/suzanne-frank
+    type: caused-by
+    claim: "The hinge's maternal half — the affair with the dealer surfacing — completes the template: both parental verticals running concealed realities at once."
+  - page: wiki/people/tom
+    type: evidenced-by
+    claim: "Tom is the positive-case exhibit for the lateral-trusted half of the split."
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidenced-by
+    claim: "The 2020 conversion turning immediately on the family's union-busting money is a dated case of the vertical-suspect pattern operating on Dan's own paternal line."
 ---
+
 
 # Vertical Authority Skepticism
 
