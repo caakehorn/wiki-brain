@@ -44,7 +44,12 @@ infobox:
   sex: female
   location: uniontown
   known_for: "Fran Whyel Coldren was Dan's maternal great-grandmother, his self-described"
+connections:
+  - page: wiki/mind/synthesis/ancestral-dialectic
+    type: evidences
+    claim: "Fran anchors the maternal numbness-of-survival half of the dialectic frame."
 ---
+
 
 # Frances "Fran" Whyel Coldren
 

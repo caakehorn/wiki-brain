@@ -4,23 +4,38 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-15
+date_modified: 2026-07-17
 sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/message-csv/imessage_ALL_both_2026-05-31_2026-06-02.csv
   - raw/self/dox-md/operating_manual.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
-related:
-  - wiki/people/alexis-armel
-  - wiki/people/annie-ulmer
-  - wiki/timeline/periods/2015-2016-annie-relationship-start
-  - wiki/mind/synthesis/attachment-trauma-bond
-  - wiki/mind/concepts/attachment-model
-  - wiki/places/155-virginia-ave
-  - wiki/mind/profile/enneagram-5w4
 tags: [relationships, attachment, infidelity, trauma-bond, uniontown-era]
+connections:
+  - page: wiki/people/alexis-armel
+    type: evidenced-by
+    claim: "Alexis is the control case: six years (Nov 2009 - Nov 2015) without full attachment activation proves how suppressed the system was before the switch."
+  - page: wiki/people/annie-ulmer
+    type: contextualizes
+    claim: "Supplies the origin mechanics for the relationship record: one bond closing as the other opens, with the recomputed onset flood (728/682/363/679 sent daily, Dec 10-13 2015) as the activation made visible."
+  - page: wiki/timeline/periods/2015-2016-annie-relationship-start
+    type: component-of
+    claim: "This synthesis is the mechanics layer of the period that page records — same week, same events, read for structure rather than chronology."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: component-of
+    claim: "The switch is the bond's origin term: first activation of the deep attachment system, which is why the 2026 closure operated on an uncalibrated substrate."
+  - page: wiki/mind/concepts/attachment-model
+    type: evidences
+    claim: "The onset flood is the primary loop rendered as a daily-volume series, firing identically at the bond's birth and — per the verified shape, if not the unverified 768 figure — its death."
+  - page: wiki/places/155-virginia-ave
+    type: evidenced-by
+    claim: "The lair-continuity — Annie moving into the Alexis apartment — is the spatial proof that the switch was a swap, not a relocation."
+  - page: wiki/mind/profile/enneagram-5w4
+    type: instance-of
+    claim: "The switch is the sx/sp stack executing its logic in real time: the singular slot vacated and reoccupied near-simultaneously, the lair held constant."
 ---
+
 
 # The 2015 Single-Bond Switch
 

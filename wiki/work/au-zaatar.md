@@ -27,7 +27,15 @@ related:
   - wiki/self/chats/gemini-00
   - wiki/self/chats/gemini-02
 tags: [nyc-era, career, ai-collaboration, housing, forensic-analysis]
+connections:
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: co-occurs
+    claim: "Dan's involuntary exit here set up the 2024 sole-earner rotation of the bond's leverage see-saw."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: "The 41-month audit posture — and Dan's own documented sabotage — are this page's contribution to the skepticism model."
 ---
+
 
 # Au Za'atar (NYC, ~2021–2024)
 

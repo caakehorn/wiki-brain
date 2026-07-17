@@ -4,22 +4,31 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-15
+date_modified: 2026-07-17
 sources:
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
   - raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/browser_history_analysis.txt
-related:
-  - wiki/mind/synthesis/totality-themes
-  - wiki/self/context-core
-  - wiki/mind/concepts/phenomenology-lens
-  - wiki/mind/concepts/conflict-architecture
-  - wiki/interests/music/aliases/sloppp
-  - wiki/interests/music/aliases/mogzart
-  - wiki/mind/synthesis/ai-collaborative-analysis
 tags: [personality-profile, ai-collaboration, forensic-analysis]
+connections:
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "The intake-constancy finding is carried into the totality synthesis as its two-constants section; this page is the standalone argument."
+  - page: wiki/mind/concepts/phenomenology-lens
+    type: resolves
+    claim: "Resolves the Addiction Engine question at the consumption layer: output combusts, intake ticks — the cleanest correction the cross-corpus pass made to the interpretive overlay."
+  - page: wiki/mind/concepts/contact-gini
+    type: causes
+    claim: "The nocturnal signature — 26.8 percent of 2025+ activity between midnight and 4 AM — mechanically excludes synchronous contact and is the structural substrate under the Gini isolation finding."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: mirrors
+    claim: "Output combusts; intake ticks — the two channels run opposite dynamics on the same substrate, and the boundary between them is this page's central finding."
+  - page: wiki/self/youtube-watch-history
+    type: evidenced-by
+    claim: "The 11.58 watches per active day figure — recomputed from the full raw export, 17,426 events over 1,505 active days — is the first of the two constants."
 ---
+
 
 # The Intake Constancy
 

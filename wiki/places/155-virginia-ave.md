@@ -17,7 +17,12 @@ related:
   - wiki/timeline/periods/2018-deep-cycle
   - wiki/places/337-saratoga-drive
 tags: [financial-stress, housing, relationships, uniontown-era, legal]
+connections:
+  - page: wiki/mind/synthesis/bond-switch-2015
+    type: evidences
+    claim: "The lair-continuity documented at this address is spatial proof the switch was a swap, not a relocation."
 ---
+
 
 # 155 Virginia Ave
 

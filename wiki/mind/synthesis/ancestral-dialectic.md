@@ -6,20 +6,32 @@ title: "The Ancestral Dialectic: Ashkenazi Hypervigilance vs. Appalachian Numbne
 aliases: ["Dan Frank OS", "the binary engine"]
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-17
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
-related:
-  - wiki/self/ancestry
-  - wiki/self/overview
-  - wiki/mind/profile/index
-  - wiki/mind/concepts/attachment-model
-  - wiki/mind/synthesis/vertical-authority-skepticism
-  - wiki/health/chemical-architecture
-  - wiki/people/morley-frank
 tags: [uniontown-era, relationships, family, addiction-recovery, nyc-era]
+connections:
+  - page: wiki/self/ancestry
+    type: evidenced-by
+    claim: "The family-tree record — pogrom-era paternal immigration, the Fayette County maternal coal network — is the primary data the two-OS frame is built on."
+  - page: wiki/health/chemical-architecture
+    type: contextualizes
+    claim: "Supplies a proposed cause — two incompatible ancestral codes needing separate chemical regulators — for the stack-as-engineering effect that page documents."
+  - page: wiki/mind/concepts/attachment-model
+    type: contextualizes
+    claim: "Reframes the documented forensic-analysis/dissociative-withdrawal alternation as two ancestral survival scripts running concurrently on incompatible assumptions."
+  - page: wiki/people/morley-frank
+    type: evidenced-by
+    claim: "Morley's postwar Seattle move and collapse back to Uniontown is the geographic template the report says Dan's Full Sail/NYC/return arc repeats twice."
+  - page: wiki/people/fran-coldren
+    type: evidenced-by
+    claim: "Fran anchors the maternal numbness-of-survival reading; her thrice-married great-grandmother is offered as the dissociation-via-reinvention archetype."
+  - page: wiki/self/overview
+    type: mirrors
+    claim: "The report's gravity-wins reading of the returns and the overview's deliberate-seal reading are independently arrived-at, inverted framings of the same fact set — both can be true."
 ---
+
 
 # The Ancestral Dialectic: Ashkenazi Hypervigilance vs. Appalachian Numbness
 

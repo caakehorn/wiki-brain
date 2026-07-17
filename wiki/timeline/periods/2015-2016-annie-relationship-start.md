@@ -7,7 +7,12 @@ date_modified: 2026-07-13
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx", "raw/self/dox-scan/DanAnnie_MoralAnalysis_SFW.docx", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE REPORT.md", "raw/self/ancestry/"]
 related: ["wiki/timeline/events/timeline", "wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/self/facebook", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/gemini-activity/gemini-activity", "wiki/self/ancestry"]
 tags: [relationships, ai-collaboration, infidelity, financial-stress, trauma-bond]
+connections:
+  - page: wiki/mind/synthesis/bond-switch-2015
+    type: contains
+    claim: "The switch synthesis is the mechanics layer of this period: timing, onset flood, lair-continuity."
 ---
+
 
 # 2015-2016 Annie Relationship Start
 

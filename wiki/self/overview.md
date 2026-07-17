@@ -34,7 +34,12 @@ related:
   - wiki/interests/music/overview
   - wiki/timeline/index
 tags: [music-production, uniontown-era, addiction-recovery, nyc-era, infidelity]
+connections:
+  - page: wiki/mind/synthesis/ancestral-dialectic
+    type: mirrors
+    claim: "Gravity-wins and deliberate-seal are inverted framings of the same relocation facts."
 ---
+
 
 # Self Overview
 

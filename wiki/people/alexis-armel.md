@@ -15,7 +15,12 @@ infobox:
   relationship_to_dan: unknown
   location: nyc
   known_for: "Role / Relationship: Prior relationship (pre-Annie); referenced as "Lex" / Alexis Armel in life calendar, profile dumps,"
+connections:
+  - page: wiki/mind/synthesis/bond-switch-2015
+    type: evidences
+    claim: "The six unactivated years make Alexis the control case for the 2015 single-bond switch analysis."
 ---
+
 
 # Alexis Armel (“Lex”)
 

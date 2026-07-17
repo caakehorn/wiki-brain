@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-07-17
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -22,30 +22,28 @@ sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/BFS_BOOTLOADER_v2.md
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
-related:
-  - wiki/self/context-core
-  - wiki/mind/concepts/forensic-method
-  - wiki/mind/synthesis/political-psyops
-  - wiki/mind/synthesis/ai-collaborative-analysis
-  - wiki/mind/synthesis/vertical-authority-skepticism
-  - wiki/self/location-history
-  - wiki/self/message-corpora/master-message-dump
-  - wiki/mind/synthesis/attachment-trauma-bond
-  - wiki/mind/synthesis/intake-constancy
-  - wiki/mind/concepts/phenomenology-lens
-  - wiki/mind/concepts/conflict-architecture
-  - wiki/mind/synthesis/millennial-digital-witness
-  - wiki/timeline/events/timeline
-  - wiki/people/tom
-  - wiki/people/rick-frank
-  - wiki/people/annie-ulmer
-  - wiki/places/337-saratoga-drive
-  - wiki/interests/music/aliases/sloppp
-  - wiki/interests/music/aliases/mogzart
-  - wiki/interests/music/aliases/gripnotic
-  - wiki/work/tech/grok-build/overview
 tags: [ai-collaboration, trauma-bond, politics, personality-profile, forensic-analysis]
+connections:
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: contains
+    claim: "The low-trust architecture section is the skepticism thesis carried as one of the totality's named themes."
+  - page: wiki/mind/synthesis/music-as-identity
+    type: contains
+    claim: "The music-as-authentic-thread section states in brief what the four-mode thesis argues in full: the self-assembling channel."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: contains
+    claim: "The LLM-venue section reads the conflict architecture against the AI channel — the recursion winning the bandwidth war."
+  - page: wiki/timeline/periods/2025-collapse
+    type: contextualizes
+    claim: "Supplies the cross-corpus structural read — the housing clock, the precarity ledger, the output-port recursion — for the collapse period's events."
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: contains
+    claim: "The witness thesis is one of the totality's named themes; standalone treatment on its own page."
+  - page: wiki/mind/synthesis/intake-constancy
+    type: contains
+    claim: "The two-constants section carries the intake-constancy finding; the standalone argument lives on its own page."
 ---
+
 
 # Totality Themes
 

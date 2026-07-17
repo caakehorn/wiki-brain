@@ -5,20 +5,31 @@ knowledge: earned
 title: "Millennial Digital Witness"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-17
 sources:
   - raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/facebook/facebook-ihatedanfrank/
-related:
-  - wiki/self/facebook
-  - wiki/self/context-core
-  - wiki/mind/synthesis/political-psyops
-  - wiki/mind/synthesis/ai-collaborative-analysis
-  - wiki/mind/synthesis/totality-themes
 tags: [ai-collaboration, personality-profile]
+connections:
+  - page: wiki/self/facebook
+    type: evidenced-by
+    claim: "The 2007-2022 ihatedanfrank archive is the theory instantiated in one person's data: the full arc from pre-smartphone early adoption to repossessing the commodified record."
+  - page: wiki/mind/synthesis/political-psyops
+    type: contextualizes
+    claim: "Supplies the epistemic warrant psyops runs on: reading raw streams directly is framed as possible only for the cohort holding both pre-digital literacy and native online fluency."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "The witness thesis appears in the totality synthesis as one of its named themes; this page is the standalone treatment."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: evidenced-by
+    claim: "The psychometric fit — archival memory, low social participation, high pattern recognition — is what makes the witness role both persuasive and self-serving."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: instantiates
+    claim: "The early-adopter-with-memory AI stance is the witness thesis applied to its newest instrument."
 ---
+
 
 # Millennial Digital Witness
 

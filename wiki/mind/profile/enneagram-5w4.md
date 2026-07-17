@@ -17,7 +17,12 @@ related:
   - wiki/mind/concepts/contact-gini
   - wiki/people/annie-ulmer
 tags: [personality-profile, addiction-recovery]
+connections:
+  - page: wiki/mind/synthesis/bond-switch-2015
+    type: instantiates
+    claim: "The 2015 switch is the sx/sp stack's logic executed in real time."
 ---
+
 
 # Enneagram 5w4 sx/sp — The Iconoclast Hermit
 

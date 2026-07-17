@@ -70,3 +70,5 @@ Freqs cross: annie:22, suzanne:16, bunker:20, work:22, timeline:16. Cross _07 Gr
 **Cross-check:** Matches core Feb 2025 back to Uniontown, Aug 2025 terminal, June 1 2026 closure. LIFE REPORT details aura illness, tether. No contradiction. Re-mined: 259 2025 events (Aug30/Sep97/Oct58 peak), operating full collapse timeline, annie logs end, BFS post work power. FB groups/events cross. 
 
 **Related:** [[wiki/timeline/events/timeline]], [[wiki/mind/synthesis/attachment-trauma-bond]], [[wiki/timeline/periods/dec-2025-spike]]
+
+The cross-corpus structural read of this period — the housing clock, the precarity ledger, and the output-port recursion — is [[wiki/mind/synthesis/totality-themes]]; the period page holds the events, the synthesis holds the shape.

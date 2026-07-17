@@ -29,6 +29,9 @@ related:
   - wiki/mind/synthesis/intake-constancy
 tags: [relationships, music-production, trauma-bond]
 connections:
+  - page: wiki/mind/synthesis/intake-constancy
+    type: caused-by
+    claim: "The nocturnal intake signature is the structural substrate under this isolation metric."
   - page: wiki/mind/synthesis/message-circadian-latency
     type: parallels
     claim: "The latency analysis is the temporal counterpart to this volume metric; both converge on the single near-synchronous Annie channel."

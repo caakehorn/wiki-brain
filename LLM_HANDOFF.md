@@ -84,6 +84,12 @@ quality bar; imitate their shape exactly. A page that is tidy but leads
 with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
+### [2026-07-17] - Session: CONNECTION SYSTEM ADOPTION (pass 2) — synthesis layer complete
+* **Model:** Claude Fable 5 (CATO)
+* **Summary:** All 13 mind/synthesis pages now run on typed `connections:` (pass 1 did the four islanded ones; this pass did the remaining nine). ~45 new typed edges with claims, ~37 inverse edges on targets, all claims drawn from verified page-body content. Notable edges: intake-constancy `resolves` phenomenology-lens (output-combusts/intake-ticks correction now queryable); intake-constancy `causes` contact-gini (nocturnal signature as the structural substrate of isolation); psyops `instance-of` forensic-method; totality `contextualizes` 2025-collapse with a prose edge (this was the #1-scored pair in the mined queue). bond-switch edges preserve the 768-figure provenance gap in claim language.
+* **Resume point:** remaining ~52 islanded people/ pages (inbound prose edges or logged demotion/merge decisions), then connection-queue.md top-down (regenerated), then the four junction pages (supply network, estate/money spine, block/unblock generalization, interests-as-era-markers) — verify against raw before writing. Gates: wiki-lint 0 errors, wiki-connect check 0 errors.
+
+
 ### [2026-07-17] - Session: CONNECTION SYSTEM ADOPTION (pass 1) + strategy legibility layer
 * **Model:** Claude Fable 5 (CATO)
 * **Summary:** Implemented the typed-connection system per operator directive. New binding docs: `CONNECTIONS_SPEC.md` (typed edges with claims, controlled vocabulary, retrofit protocol) and `STRATEGY.md` (plain-language top-down strategy for any incoming model, incl. the three unbreakable rules for limited models). New tool: `bin/wiki-connect` (audit / candidates / check — stdlib only). CLAUDE.md + INGEST_RUNBOOK.md amended: `bin/wiki-connect check` is now a commit gate next to wiki-lint; every ingest must write `connections:` blocks.
