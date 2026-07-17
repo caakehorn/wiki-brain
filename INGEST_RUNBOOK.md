@@ -1,5 +1,11 @@
 # PHASE B INGEST RUNBOOK — reproduce the cross-corpus wiki-synthesis pass
 
+> **Connections addendum (2026-07-17):** every page written or
+> updated in an ingest pass must carry a `connections:` block per
+> `CONNECTIONS_SPEC.md` (typed edges with claims, inverse edges on
+> targets). `bin/wiki-connect check` is a commit gate alongside
+> `bin/wiki-lint`. Read `STRATEGY.md` if this is your first session.
+
 > Self-contained instruction. Hand this to any model/agent and it should be able to
 > perform the task exactly as done on 2026-07-15: read Phase B RAW sources,
 > file them into `raw/`, and write ~5,000 words per pass of NEW connective
@@ -45,7 +51,7 @@ factset, the faster the value compounds.
 | GitHub remote | `caakehorn/wiki-brain` (origin, https) |
 | Default branch | `main` |
 | Current ingest branch pattern | `feat/<descriptive-slug>` (e.g. `feat/wiki-wikipedia-chrome`) |
-| Lint command | `python3 bin/wiki-lint` (run from repo root) |
+| Lint command | `python3 bin/wiki-lint` + `bin/wiki-connect check` (run from repo root) |
 | `gh` auth | already authenticated to `caakehorn` via keyring, https protocol |
 | OS | macOS (14.8.4) |
 | **Operator identity** | **Dan Frank** (`dfrank88@gmail.com`), b. 1988-11-01. The home dir is `/Users/Suzanne` but that is his MOTHER's machine — IGNORE the directory name; Suzanne is NEVER the user. Everything in this session is Dan. |
