@@ -18,6 +18,12 @@ related:
   - wiki/self/facebook
 tags: [relationships, attachment, addiction-recovery, trauma-bond, infidelity]
 connections:
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: instantiates
+    claim: "The Annie bond is this model's central case, running as designed across 127/110 cycles."
+  - page: wiki/mind/synthesis/bond-switch-2015
+    type: evidenced-by
+    claim: "The Dec 2015 onset flood renders the primary loop as a daily-sent series at bond formation."
   - page: wiki/people/tom
     type: instance-of
     claim: "The May 2026 Tom cycling is a peer-bond instance of this model at lower amplitude."

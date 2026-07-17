@@ -24,7 +24,12 @@ related:
   - wiki/mind/concepts/institutional-out
   - wiki/mind/concepts/dans-law
 tags: [addiction-recovery]
+connections:
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: "The drawer dispute is the micro-scale exhibit of the vertical-skepticism architecture."
 ---
+
 
 # BFS Foods (2026)
 

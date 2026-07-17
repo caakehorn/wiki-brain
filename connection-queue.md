@@ -7,13 +7,13 @@ CONNECTIONS_SPEC.md. If no defensible claim exists, mark the pair
 `rejected:` with one line of reasoning — a considered non-edge is also
 knowledge. Process top-down; strike entries as done.
 
-## [15.7] wiki/mind/synthesis/totality-themes.md <-> wiki/timeline/periods/2025-collapse.md
-- shared source: `raw/self/dox-md/Gemini-_07.md`
-- shared source: `raw/self/dox-md/Gemini-_00.md`
-- shared source: `raw/self/dox-md/LIFE REPORT.md`
-- shared source: `raw/self/dox-md/BFS_BOOTLOADER_v2.md`
-- co-cited from 5 pages
-- shared tags: trauma-bond
+## [14.0] wiki/mind/synthesis/attachment-trauma-bond.md <-> wiki/timeline/events/eli-incident.md
+- shared source: `raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx`
+- shared source: `raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx`
+- wiki/mind/synthesis/attachment-trauma-bond.md names 'eli incident' unlinked
+- wiki/mind/synthesis/attachment-trauma-bond.md names 'the eli incident' unlinked
+- co-cited from 3 pages
+- shared tags: trauma-bond, infidelity
 - [ ] type: ______  claim: ______
 
 ## [12.9] wiki/people/danielle-onesi.md <-> wiki/timeline/events/timeline.md
@@ -41,6 +41,14 @@ knowledge. Process top-down; strike entries as done.
 - co-cited from 2 pages
 - [ ] type: ______  claim: ______
 
+## [12.2] wiki/mind/synthesis/vertical-authority-skepticism.md <-> wiki/self/context-core.md
+- shared source: `raw/self/facebook/facebook-ihatedanfrank/`
+- wiki/mind/synthesis/vertical-authority-skepticism.md names 'spine' unlinked
+- wiki/mind/synthesis/vertical-authority-skepticism.md names 'context_core_expanded' unlinked
+- co-cited from 19 pages
+- shared tags: family
+- [ ] type: ______  claim: ______
+
 ## [11.9] wiki/self/context-core.md <-> wiki/timeline/events/timeline.md
 - shared source: `raw/self/facebook/facebook-ihatedanfrank/`
 - shared source: `raw/self/dox-md/Gemini-_18.md`
@@ -55,6 +63,13 @@ knowledge. Process top-down; strike entries as done.
 - wiki/self/gemini-activity/gemini-activity.md names 'node locking' unlinked
 - wiki/self/gemini-activity/gemini-activity.md names 'data_logged' unlinked
 - co-cited from 2 pages
+- [ ] type: ______  claim: ______
+
+## [11.2] wiki/mind/synthesis/totality-themes.md <-> wiki/self/context-core.md
+- shared source: `raw/self/dox-md/Gemini-_07.md`
+- wiki/mind/synthesis/totality-themes.md names 'spine' unlinked
+- wiki/mind/synthesis/totality-themes.md names 'context_core_expanded' unlinked
+- co-cited from 11 pages
 - [ ] type: ______  claim: ______
 
 ## [10.8] wiki/mind/synthesis/totality-themes.md <-> wiki/self/chats/gemini-02.md
@@ -94,6 +109,14 @@ knowledge. Process top-down; strike entries as done.
 - shared tags: politics, forensic-analysis
 - [ ] type: ______  claim: ______
 
+## [10.2] wiki/mind/concepts/forensic-method.md <-> wiki/mind/synthesis/totality-themes.md
+- shared source: `raw/self/dox-md/Gemini-_07.md`
+- shared source: `raw/self/chats/j6-chat.md`
+- wiki/mind/synthesis/totality-themes.md names 'procedural tells' unlinked
+- co-cited from 5 pages
+- shared tags: politics, forensic-analysis, trauma-bond
+- [ ] type: ______  claim: ______
+
 ## [10.1] wiki/people/suzanne-frank.md <-> wiki/work/au-zaatar.md
 - shared source: `raw/self/dansynth/DANSYNTH.txt`
 - shared source: `raw/self/dansynth/dansynth-scrape-phases-2-7.md`
@@ -119,6 +142,14 @@ knowledge. Process top-down; strike entries as done.
 - shared source: `raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx`
 - shared source: `raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx`
 - shared source: `raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx`
+- shared tags: trauma-bond
+- [ ] type: ______  claim: ______
+
+## [9.2] wiki/mind/concepts/forensic-method.md <-> wiki/mind/synthesis/attachment-trauma-bond.md
+- shared source: `raw/self/dox-md/Gemini-_07.md`
+- shared source: `raw/self/dox-md/Gemini-_18.md`
+- wiki/mind/synthesis/attachment-trauma-bond.md names 'forensic analysis' unlinked
+- co-cited from 6 pages
 - shared tags: trauma-bond
 - [ ] type: ______  claim: ______
 
@@ -199,11 +230,24 @@ knowledge. Process top-down; strike entries as done.
 - shared tags: trauma-bond
 - [ ] type: ______  claim: ______
 
+## [8.5] wiki/mind/synthesis/political-psyops.md <-> wiki/mind/synthesis/totality-themes.md
+- shared source: `raw/self/dox-md/Gemini-_21 copy.md`
+- shared source: `raw/self/chats/j6-chat.md`
+- co-cited from 6 pages
+- shared tags: politics, forensic-analysis
+- [ ] type: ______  claim: ______
+
 ## [8.4] wiki/people/vanessa-frank.md <-> wiki/self/context-core.md
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - wiki/self/context-core.md names 'vanessa' unlinked
 - wiki/people/vanessa-frank.md names 'spine' unlinked
 - co-cited from 2 pages
+- [ ] type: ______  claim: ______
+
+## [8.4] wiki/mind/synthesis/millennial-digital-witness.md <-> wiki/self/context-core.md
+- shared source: `raw/self/facebook/facebook-ihatedanfrank/`
+- wiki/mind/synthesis/millennial-digital-witness.md names 'context_core_expanded' unlinked
+- co-cited from 5 pages
 - [ ] type: ______  claim: ______
 
 ## [8.4] wiki/people/fran-coldren.md <-> wiki/work/au-zaatar.md
@@ -269,6 +313,14 @@ knowledge. Process top-down; strike entries as done.
 - co-cited from 4 pages
 - [ ] type: ______  claim: ______
 
+## [7.8] wiki/mind/synthesis/attachment-trauma-bond.md <-> wiki/mind/synthesis/totality-themes.md
+- shared source: `raw/self/dox-md/FULL PROFILE 2026.md`
+- shared source: `raw/self/dox-md/Gemini-_07.md`
+- shared source: `raw/self/dox-md/LIFE REPORT.md`
+- co-cited from 2 pages
+- shared tags: trauma-bond
+- [ ] type: ______  claim: ______
+
 ## [7.8] wiki/mind/concepts/forensic-method.md <-> wiki/mind/synthesis/vertical-authority-skepticism.md
 - shared source: `raw/self/chats/j6-chat.md`
 - shared source: `raw/self/chats/Drawer shortage dispute with assistant manager (1).md`
@@ -286,6 +338,18 @@ knowledge. Process top-down; strike entries as done.
 - shared source: `raw/self/dox-md/Gemini-_07.md`
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - wiki/self/gemini-activity/archive/v1-extract.md names 'annie' unlinked
+- [ ] type: ______  claim: ______
+
+## [7.7] wiki/mind/synthesis/political-psyops.md <-> wiki/self/facebook.md
+- shared source: `raw/self/facebook/facebook-ihatedanfrank/`
+- wiki/mind/synthesis/political-psyops.md names 'facebook' unlinked
+- co-cited from 4 pages
+- [ ] type: ______  claim: ______
+
+## [7.7] wiki/mind/synthesis/totality-themes.md <-> wiki/timeline/events/timeline.md
+- shared source: `raw/self/dox-md/LIFE REPORT.md`
+- shared source: `raw/self/dox-md/BFS_BOOTLOADER_v2.md`
+- wiki/mind/synthesis/totality-themes.md names 'timeline' unlinked
 - [ ] type: ______  claim: ______
 
 ## [7.7] wiki/mind/synthesis/totality-themes.md <-> wiki/people/suzanne-frank.md
@@ -399,6 +463,12 @@ knowledge. Process top-down; strike entries as done.
 - shared source: `raw/self/dox-md/BFS_BOOTLOADER_v2.md`
 - wiki/timeline/events/timeline.md names 'brandon' unlinked
 - wiki/people/brandon.md names 'timeline' unlinked
+- [ ] type: ______  claim: ______
+
+## [7.0] wiki/mind/synthesis/ai-collaborative-analysis.md <-> wiki/self/chats/j6-chat.md
+- shared source: `raw/self/chats/j6-chat.md`
+- wiki/mind/synthesis/ai-collaborative-analysis.md names 'j6 chat' unlinked
+- co-cited from 3 pages
 - [ ] type: ______  claim: ______
 
 ## [7.0] wiki/people/annie-ulmer.md <-> wiki/people/rick-frank.md
@@ -588,64 +658,4 @@ knowledge. Process top-down; strike entries as done.
 ## [6.3] wiki/mind/synthesis/attachment-trauma-bond.md <-> wiki/people/vanessa-frank.md
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - co-cited from 5 pages
-- [ ] type: ______  claim: ______
-
-## [6.3] wiki/people/alexis-armel.md <-> wiki/work/au-zaatar.md
-- shared source: `raw/self/dox-md/Gemini-_00.md`
-- co-cited from 5 pages
-- [ ] type: ______  claim: ______
-
-## [6.3] wiki/people/timmy.md <-> wiki/timeline/periods/2025-collapse.md
-- shared source: `raw/self/dox-md/BFS_BOOTLOADER_v2.md`
-- co-cited from 5 pages
-- [ ] type: ______  claim: ______
-
-## [6.2] wiki/mind/concepts/dans-law.md <-> wiki/mind/synthesis/vertical-authority-skepticism.md
-- shared source: `raw/self/chats/j6-chat.md`
-- shared source: `raw/self/chats/Drawer shortage dispute with assistant manager (1).md`
-- co-cited from 3 pages
-- shared tags: politics
-- [ ] type: ______  claim: ______
-
-## [6.0] wiki/self/facebook/friends.md <-> wiki/self/facebook/messages.md
-- wiki/self/facebook/messages.md names 'friends' unlinked
-- wiki/self/facebook/friends.md names 'messages' unlinked
-- co-cited from 3 pages
-- shared tags: family, trauma-bond
-- [ ] type: ______  claim: ______
-
-## [6.0] wiki/people/eli.md <-> wiki/people/tom.md
-- shared source: `raw/self/dox-md/Gemini-_18.md`
-- shared source: `raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx`
-- co-cited from 4 pages
-- [ ] type: ______  claim: ______
-
-## [5.9] wiki/interests/music/aliases/gripnotic.md <-> wiki/work/tech/max-framework/overview.md
-- shared source: `raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md`
-- wiki/interests/music/aliases/gripnotic.md names 'overview' unlinked
-- shared tags: forensic-analysis
-- [ ] type: ______  claim: ______
-
-## [5.9] wiki/self/overview.md <-> wiki/timeline/events/timeline.md
-- shared source: `raw/self/facebook/facebook-ihatedanfrank/`
-- wiki/self/overview.md names 'timeline' unlinked
-- shared tags: infidelity
-- [ ] type: ______  claim: ______
-
-## [5.9] wiki/self/message-corpora/master-message-dump.md <-> wiki/timeline/events/end-fight.md
-- shared source: `raw/self/message-csv/annie_all_time_logs.csv`
-- wiki/self/message-corpora/master-message-dump.md names 'end fight' unlinked
-- shared tags: trauma-bond
-- [ ] type: ______  claim: ______
-
-## [5.9] wiki/interests/music/aliases/sloppp.md <-> wiki/timeline/periods/full-sail-2008-2010.md
-- shared source: `raw/self/dox-scan/FULL TWITTER ANALYSIS.txt`
-- wiki/timeline/periods/full-sail-2008-2010.md names 'sloppp' unlinked
-- shared tags: music-production
-- [ ] type: ______  claim: ______
-
-## [5.9] wiki/health/chemical-architecture.md <-> wiki/mind/concepts/exocortex.md
-- shared source: `raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md`
-- wiki/mind/concepts/exocortex.md names 'chemical architecture' unlinked
-- shared tags: trauma-bond
 - [ ] type: ______  claim: ______

@@ -23,6 +23,15 @@ related:
   - wiki/mind/synthesis/intake-constancy
 tags: [addiction-recovery, trauma-bond, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "The conflict architecture is read against the LLM venue in the totality's bandwidth-war section."
+  - page: wiki/mind/synthesis/intake-constancy
+    type: mirrors
+    claim: "Intake ticks while this engine's output channel combusts — opposite dynamics, same substrate."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: parallels
+    claim: "The LLM venue supplies the explicit resolution conditions this engine cannot obtain from humans."
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: instantiates
     claim: "The verdict's diagnosis-to-behavior gap is this concept applied to its central case."

@@ -31,7 +31,12 @@ related:
   - wiki/mind/synthesis/ancestral-dialectic
   - wiki/mind/psychosexual/developmental-origins
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
+connections:
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: causes
+    claim: "The 2005 concealed-reality template on the paternal line is the documented origin of the vertical-suspect pattern."
 ---
+
 
 # Richard Harrison "Rick" Frank
 

@@ -13,6 +13,9 @@ sources:
   - "raw/self/gemini-activity/Gemini Activity.html"
 tags: [music-production, personality-profile, digital-footprint]
 connections:
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "The four-mode thesis is carried in brief as the totality's music-thread section."
   - page: wiki/interests/music/overview
     type: contains
     claim: "The producer-alias lineage (SLOPPP through GRIPNOTIC, sub-bass signature) is the professional-identity facet of the four-mode thesis stated here."

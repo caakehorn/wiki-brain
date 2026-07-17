@@ -6,7 +6,7 @@ title: "AI Collaborative Analysis"
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-07-17
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini_00.md
@@ -23,24 +23,21 @@ sources:
   - raw/self/dox-md/Fake hacker dashboard scripts.md
   - raw/self/dox-md/_Psychological Warfare and Social Engineering .md
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
-related:
-  - wiki/self/gemini-activity/gemini-activity
-  - wiki/mind/concepts/forensic-method
-  - wiki/mind/synthesis/political-psyops
-  - wiki/mind/synthesis/totality-themes
-  - wiki/mind/synthesis/intake-constancy
-  - wiki/mind/concepts/conflict-architecture
-  - wiki/self/chats/danfrank-isms-pinned
-  - wiki/self/chats/j6-chat
-  - wiki/self/chats/gemini-07
-  - wiki/self/chats/gemini-18
-  - wiki/self/chats/gemini-21
-  - wiki/mind/concepts/exocortex
-  - wiki/work/tech/grok-build/overview
-  - wiki/work/tech/imessage-tooling/overview
-  - wiki/people/jacob-bacharach
-  - wiki/self/context-core
+connections:
+  - page: wiki/mind/concepts/exocortex
+    type: contains
+    claim: "The externalized-prefrontal-cortex frame is the core concept this synthesis develops across the documented interaction modes."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: parallels
+    claim: "The venue is shaped like the hole: the LLM channel supplies the explicit resolution conditions the conflict engine cannot obtain from humans — the join argued in this page's final section."
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: instance-of
+    claim: "The AI stance — adopt the instrument completely, audit it with standards formed before it existed — is the witness thesis applied to the newest instrument."
+  - page: wiki/self/gemini-activity/gemini-activity
+    type: evidenced-by
+    claim: "The 20.8 MB Gemini archive — 26,348 occurrences of 'ai', daily-instrument interaction density — is the primary corpus this synthesis reads."
 ---
+
 
 # AI Collaborative Analysis
 

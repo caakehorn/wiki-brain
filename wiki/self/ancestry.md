@@ -7,7 +7,12 @@ date_modified: 2026-07-14
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/ancestry/dna-reports/Ancestry Composition - 23andMe.pdf", "raw/self/ancestry/dna-reports/health.pdf", "raw/self/ancestry/dna-reports/chromosome.pdf", "raw/self/ancestry/extracted/", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/self/context-core", "wiki/self/overview", "wiki/self/location-history", "wiki/timeline/periods/2015-2016-annie-relationship-start"]
 tags: [family, uniontown-era, grief, music-production]
+connections:
+  - page: wiki/mind/synthesis/ancestral-dialectic
+    type: evidences
+    claim: "The tree data here is the substrate of the two-OS interpretive frame."
 ---
+
 
 # Ancestry / 23andMe + Family Tree
 

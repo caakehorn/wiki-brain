@@ -25,6 +25,9 @@ related:
   - wiki/timeline/periods/dec-2025-spike
 tags: [politics, career, nyc-era]
 connections:
+  - page: wiki/mind/synthesis/intake-constancy
+    type: evidences
+    claim: "The recomputed 11.58 watches/active-day figure from this export is the first of the two intake constants."
   - page: wiki/mind/synthesis/2020-left-turn
     type: evidences
     claim: "The 2022+ left-commentary viewing clusters are the downstream trace of the conversion the message record dates to August 2020."

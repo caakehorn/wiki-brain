@@ -24,7 +24,12 @@ related:
   - wiki/work/bfs-foods
   - wiki/timeline/events/eli-incident
 tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
+connections:
+  - page: wiki/mind/synthesis/political-psyops
+    type: instantiates
+    claim: "The J6 analysis is the method applied to a public event; same anomaly-detection engine, different corpus."
 ---
+
 
 # The Forensic Method
 

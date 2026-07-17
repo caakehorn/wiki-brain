@@ -1,3 +1,7 @@
+## [2026-07-17] connect | mind | connection-system adoption pass 2 — all 13 synthesis pages typed
+- Retrofitted the remaining 9 syntheses (bond-switch-2015, vertical-authority-skepticism, ai-collaborative-analysis, intake-constancy, millennial-digital-witness, attachment-trauma-bond, political-psyops, ancestral-dialectic, totality-themes): related: removed, 45 typed edges with claims written, 37 inverse edges on targets, prose edges added (forensic-method into psyops; totality into 2025-collapse — clears the #1 queue pair).
+- Entire synthesis layer now runs on typed connections. wiki-lint 0 errors; wiki-connect check 0 errors.
+
 ## [2026-07-17] connect | mind+people | connection-system adoption pass 1
 - Tooling: bin/wiki-connect (audit/candidates/check) + CONNECTIONS_SPEC.md + STRATEGY.md committed; CLAUDE.md and INGEST_RUNBOOK.md amended with check-gates.
 - Retrofitted to typed connections (related: removed, footers deleted, prose edges added): 2020-left-turn (5 edges), music-as-identity (5), message-circadian-latency (5), dan-annie-fallout-verdict (6), tom (5). 26 typed edges + 23 inverse edges on targets; 10 host pages received inbound argued prose links (covid-era-2020, political-psyops, youtube-watch-history, music/overview, teen-concert-years, elliott-smith, master-message-dump, contact-gini, end-fight, annie-ulmer).

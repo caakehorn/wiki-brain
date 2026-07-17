@@ -17,7 +17,15 @@ related:
   - wiki/mind/concepts/contact-gini
   - wiki/self/context-core
 tags: [personality-profile]
+connections:
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: evidences
+    claim: "The psychometric fit underwrites — and flags as self-serving — the witness self-theory."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: "The Trust/Altruism/Submissiveness/Assertiveness scores are the skepticism architecture as measurement."
 ---
+
 
 # Big Five / Big30 Psychometrics & PD Vector
 

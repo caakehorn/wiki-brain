@@ -21,7 +21,12 @@ related:
   - wiki/work/tech/max-framework/overview
   - wiki/self/context-core
 tags: [forensic-analysis, ai-collaboration, trauma-bond]
+connections:
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: component-of
+    claim: "The exocortex concept is developed in full across the AI-collaboration synthesis."
 ---
+
 
 # The Exocortex
 
