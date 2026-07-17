@@ -1,3 +1,9 @@
+## [2026-07-17] connect | mind+people | connection-system adoption pass 1
+- Tooling: bin/wiki-connect (audit/candidates/check) + CONNECTIONS_SPEC.md + STRATEGY.md committed; CLAUDE.md and INGEST_RUNBOOK.md amended with check-gates.
+- Retrofitted to typed connections (related: removed, footers deleted, prose edges added): 2020-left-turn (5 edges), music-as-identity (5), message-circadian-latency (5), dan-annie-fallout-verdict (6), tom (5). 26 typed edges + 23 inverse edges on targets; 10 host pages received inbound argued prose links (covid-era-2020, political-psyops, youtube-watch-history, music/overview, teen-concert-years, elliott-smith, master-message-dump, contact-gini, end-fight, annie-ulmer).
+- All four islanded synthesis pages now have inbound prose edges. Islands: 56 -> 52. wiki-lint 0 errors; wiki-connect check 0 errors.
+- connection-queue.md regenerated (2,865 evidenced pairs, top 100 written).
+
 # Operation Log
 
 _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_

@@ -9,7 +9,12 @@ date_range_end: 2026-06-01
 sources: ["raw/self/message-csv/THE END FIGHT.csv", "raw/self/message-csv/END_FIGHT_full.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/events/group-chat-closure", "wiki/timeline/periods/2025-collapse", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/conflict-architecture"]
 tags: [addiction-recovery, trauma-bond]
+connections:
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: evidences
+    claim: "This event corpus is the primary RAW-CSV backbone of the fallout verdict's defamation and independent-validation findings."
 ---
+
 
 # The End Fight (May 31 – June 16 2026)
 
@@ -53,3 +58,5 @@ Data record includes raw escalation from logistics/denial fragments to final myt
 - Cross: Matches annie_all_time_logs end cluster and LIFE calendar relational/legal nodes.
 
 **Sources note:** Dedicated fight export provides granular thread order/timestamps not fully in master dump. Complements annie logs for the 2026-06-01 closure.
+
+The moral synthesis built on this event corpus — the wronged-in-fact verdict with the diagnosis-to-behavior gap held in the same frame, every load-bearing claim provenance-tiered to raw rows — is [[wiki/mind/synthesis/dan-annie-fallout-verdict]].

@@ -4,24 +4,32 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-16
-date_modified: 2026-07-16
+date_modified: 2026-07-17
 sources:
   - "raw/self/dox-md/FULL PROFILE 2026.md"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/gemini-activity/Gemini Activity.html"
-related:
-  - wiki/interests/music/overview
-  - wiki/interests/favorites/music/artists/fall-out-boy
-  - wiki/interests/favorites/music/artists/elliott-smith
-  - wiki/interests/favorites/music/artists/say-anything
-  - wiki/interests/favorites/music/artists/my-chemical-romance
-  - wiki/timeline/events/teen-concert-years
-  - wiki/interests/the-office
-  - wiki/mind/psychosexual/developmental-origins
 tags: [music-production, personality-profile, digital-footprint]
+connections:
+  - page: wiki/interests/music/overview
+    type: contains
+    claim: "The producer-alias lineage (SLOPPP through GRIPNOTIC, sub-bass signature) is the professional-identity facet of the four-mode thesis stated here."
+  - page: wiki/interests/favorites/music/artists/elliott-smith
+    type: contains
+    claim: "Elliott Smith is the emotional-regulator facet: the #1 individual artist as the quiet pole proving the range extends to its opposite."
+  - page: wiki/interests/favorites/music/artists/fall-out-boy
+    type: evidenced-by
+    claim: "The hard cutoff at Folie a Deux (2008), refusing the post-hiatus band, is the cleanest exhibit for the freeze-at-boundary signature this page generalizes."
+  - page: wiki/timeline/events/teen-concert-years
+    type: contains
+    claim: "The 2005-2008 tour-following record is the itinerary/devotion facet — fandom as logistics."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: parallels
+    claim: "The absorption-then-clean-cutoff pattern in music preference mirrors the attachment architecture — maximum engagement, hard boundary, pre-cut version held as the real one — running on objects that cannot betray him."
 ---
+
 
 # Music as Identity
 
@@ -96,6 +104,3 @@ one facet; this one states the whole.
   cross (does he hear his own sub-bass signature in what he consumes?) is
   not settled by the corpus.
 
-## Related
-
-[[wiki/interests/music/overview]] · [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/interests/favorites/music/artists/elliott-smith]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/timeline/events/teen-concert-years]] · [[wiki/interests/the-office]] · [[wiki/mind/psychosexual/developmental-origins]]

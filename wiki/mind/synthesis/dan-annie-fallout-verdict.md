@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-15
+date_modified: 2026-07-17
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/annie_all_time_logs.csv
@@ -23,19 +23,28 @@ sources:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
   - wiki/people/tuquick-17248123683
-related:
-  - wiki/people/annie-ulmer
-  - wiki/mind/synthesis/attachment-trauma-bond
-  - wiki/mind/concepts/attachment-model
-  - wiki/mind/concepts/conflict-architecture
-  - wiki/timeline/events/eli-incident
-  - wiki/timeline/events/group-chat-closure
-  - wiki/timeline/events/march-2026-terminal-phase
-  - wiki/timeline/events/april-may-2026-final-weeks
-  - wiki/people/tuquick-17248123683
-  - wiki/mind/synthesis/bond-switch-2015
 tags: [relationships, trauma-bond, infidelity, attachment, mental-health]
+connections:
+  - page: wiki/people/annie-ulmer
+    type: resolves
+    claim: "States the capstone verdict on the question the relationship record poses — wronged in fact, with the diagnosis-to-behavior gap held in the same frame."
+  - page: wiki/timeline/events/end-fight
+    type: evidenced-by
+    claim: "The June 1 closure rows — sic semper lupanis at 00:27:49, the 00:24-00:26 accusations, the June 15 Tuquick defection — are the primary RAW-CSV backbone of the defamation and independent-validation findings."
+  - page: wiki/timeline/events/eli-incident
+    type: evidenced-by
+    claim: "The concealed-affair finding rests on the Eli discovery sequence; the framework-violation framing — exactly what the arrangement was proposed to prevent — is the verdict's first pillar."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: instance-of
+    claim: "The diagnosis-to-behavior gap half of the verdict is this concept applied to its central case: the engine with no halt condition converting a survivable betrayal into a decade-long catastrophe."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: resolves
+    claim: "Answers the moral question the bond analysis leaves open — whether the documented bond mechanics amount to a genuine wrong — and holds both columns without letting either cancel the other."
+  - page: wiki/people/tuquick-17248123683
+    type: evidenced-by
+    claim: "Tuquick's June 15 defection — a compulsive liar with a drug addiction, 14 days after savaging Dan in Annie's defense — is the verdict's independent-validation exhibit."
 ---
+
 
 # The Dan/Annie Fallout — Was He Correct to Feel Wronged? (Raw-Evidenced)
 

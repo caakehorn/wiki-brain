@@ -16,7 +16,12 @@ infobox:
   location: nyc
   first_contact: 2025-09-01
   known_for: "Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] as "Tom's friend." She became Dan's most "
+connections:
+  - page: wiki/people/tom
+    type: component-of
+    claim: "The Kristin thread enters the corpus through Tom's social circle; he is the introduction vector."
 ---
+
 
 # Kristin
 

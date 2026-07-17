@@ -17,7 +17,15 @@ related:
   - wiki/timeline/events/group-chat-closure
   - wiki/self/facebook
 tags: [relationships, attachment, addiction-recovery, trauma-bond, infidelity]
+connections:
+  - page: wiki/people/tom
+    type: instance-of
+    claim: "The May 2026 Tom cycling is a peer-bond instance of this model at lower amplitude."
+  - page: wiki/mind/synthesis/message-circadian-latency
+    type: evidenced-by
+    claim: "The reply-latency analysis renders this model as a timing series: uniform near-instant outbound, inbound delay scaling with peripherality."
 ---
+
 
 # Attachment Model
 

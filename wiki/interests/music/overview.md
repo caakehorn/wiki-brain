@@ -19,7 +19,12 @@ related:
   - wiki/self/overview
   - wiki/self/context-core
 tags: [music-production, family]
+connections:
+  - page: wiki/mind/synthesis/music-as-identity
+    type: component-of
+    claim: "The alias lineage documented here is the professional-identity facet of the four-mode music-as-identity thesis."
 ---
+
 
 # Music Overview
 
@@ -58,3 +63,5 @@ The favorites domain ([[wiki/interests/favorites/index]]) documents consumption 
 - [[wiki/interests/favorites/index]]
 - [[wiki/mind/synthesis/totality-themes]] (music as recurring sincere thread)
 - [[wiki/self/context-core]] (biographical spine with alias timeline)
+
+The lineage documented here is one facet — the professional mode — of a broader claim: that music is a primary, life-spanning structure of self, argued as the four-mode thesis at [[wiki/mind/synthesis/music-as-identity]].

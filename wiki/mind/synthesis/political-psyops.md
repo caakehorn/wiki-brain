@@ -170,3 +170,5 @@ Twitter is the "politics sicko" channel. The spine's summary stands as the
 page's conclusion: conspiracy theories are treated as aesthetic objects and
 stress-test material — no loyalty to any team sport, forensic default
 always on.
+
+The ideology this page treats as settled has a documented birthday: the COVID-lockdown conversion of 2020-08-22, self-narrated in the message record and argued at [[wiki/mind/synthesis/2020-left-turn]] — Bernie 2020 as the electoral on-ramp, the dirtbag-left pipeline as the vehicle, the family union-busting guilt as the clinch.

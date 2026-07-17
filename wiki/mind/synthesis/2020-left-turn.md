@@ -4,20 +4,30 @@ page_type: synthesis
 status: stable
 knowledge: earned
 date_created: 2026-07-16
-date_modified: 2026-07-16
+date_modified: 2026-07-17
 sources:
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/favorites/FAVS MASTERLIST.csv"
-related:
-  - wiki/mind/index
-  - wiki/mind/synthesis/political-psyops
-  - wiki/mind/synthesis/vertical-authority-skepticism
-  - wiki/self/youtube-watch-history
-  - wiki/timeline/periods/covid-era-2020
-  - wiki/interests/favorites/books/topics/politics
 tags: [ideology, politics, nyc-era, digital-footprint]
+connections:
+  - page: wiki/timeline/periods/covid-era-2020
+    type: caused-by
+    claim: "The lockdown is the documented condition of the conversion — the 2020-08-22 self-narration dates the Marx/Kropotkin reading and the Chapo/Hasan/ContraPoints binge to 'since i've been stuck inside'."
+  - page: wiki/mind/synthesis/political-psyops
+    type: contextualizes
+    claim: "Supplies the origin event for the settled anti-capitalist ideology that page analyzes: the democratic-socialist label has a birthday, 2020-08-22."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: "The conversion's immediate turn against inherited comfort — the Frank's Auto union-busting guilt — is the vertical-suspect pattern applied to his own family line within days of adopting the framework."
+  - page: wiki/self/youtube-watch-history
+    type: evidenced-by
+    claim: "The 2022+ Majority Report/Vaush viewing clusters corroborate the turn's persistence; the message record dates the conversion two years before it dominates the watch history."
+  - page: wiki/interests/favorites/books/topics/politics
+    type: precedes
+    claim: "The Zinn/Parenti/Chomsky reading list is the book-length continuation of the turn the 2020-08-22 messages initiate."
 ---
+
 
 # The 2020 Left Turn
 
