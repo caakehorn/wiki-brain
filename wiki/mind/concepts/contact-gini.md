@@ -28,7 +28,12 @@ related:
   - wiki/mind/synthesis/totality-themes
   - wiki/mind/synthesis/intake-constancy
 tags: [relationships, music-production, trauma-bond]
+connections:
+  - page: wiki/mind/synthesis/message-circadian-latency
+    type: parallels
+    claim: "The latency analysis is the temporal counterpart to this volume metric; both converge on the single near-synchronous Annie channel."
 ---
+
 
 # Contact Gini
 
@@ -105,3 +110,5 @@ The topology is the constraint, not the mood. Recommendations that assume "lean 
 > **CONTRADICTION:** The Gini coefficient of 0.961 is derived entirely from pre-closure data. Following the closure event on June 1, 2026, the primary communication node was removed. No updated Gini coefficient has been calculated against post-closure behavioral data, such as recent Twitter activity, current work projects, or subsequent logs with Tom.
 
 > **REVISED [2026-06-23]:** The relational volume table has been updated to reflect the master CSV extraction. This correction establishes the concentration of Annie's dual handles at over forty-eight thousand messages and locks Kristin's volume to her specific handle, correcting a prior reference to Jerad. Emerging work nodes from the BFS foods transition, including [[wiki/people/anita|Anita]], Brandon, Kim, and Marty, have been introduced as potential sources of relational redundancy.
+
+The temporal counterpart to this volume metric is [[wiki/mind/synthesis/message-circadian-latency]]: the same corpus cut by reply latency instead of message count converges on the same finding — one near-synchronous channel, everything else broadcast into delay.

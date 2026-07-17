@@ -37,7 +37,15 @@ related:
   - wiki/mind/synthesis/dan-annie-fallout-verdict
   - wiki/places/155-virginia-ave
 tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
+connections:
+  - page: wiki/mind/synthesis/message-circadian-latency
+    type: evidenced-by
+    claim: "The latency analysis quantifies the terminal-phase asymmetry: 16-44-hour inbound medians against unchanged 1-5-minute outbound."
+  - page: wiki/mind/synthesis/music-as-identity
+    type: parallels
+    claim: "The music-preference cutoff pattern (absorption, hard boundary, pre-cut version held as real) is the attachment architecture running on objects that cannot betray him."
 ---
+
 
 # Attachment Trauma Bond and Aura Illness
 

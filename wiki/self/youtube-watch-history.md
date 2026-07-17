@@ -24,7 +24,12 @@ related:
   - wiki/timeline/periods/2021-2023-employment-block
   - wiki/timeline/periods/dec-2025-spike
 tags: [politics, career, nyc-era]
+connections:
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: "The 2022+ left-commentary viewing clusters are the downstream trace of the conversion the message record dates to August 2020."
 ---
+
 
 # YouTube Watch History (2007–2025)
 
@@ -263,3 +268,5 @@ See also:
 - [[wiki/mind/synthesis/totality-themes]]
 - [[wiki/interests/music/concepts/sub-bass-signature]] (for any music video patterns)
 - [[wiki/timeline/periods/2021-2023-employment-block]]
+
+The 2022+ left-commentary clusters documented here are the downstream trace of a conversion the message record dates precisely to August 2020 ([[wiki/mind/synthesis/2020-left-turn]]) — the watch history shows the turn's persistence, not its origin.

@@ -22,7 +22,15 @@ related:
   - wiki/people/rick-frank
   - wiki/people/suzanne-frank
 tags: [politics, relationships, family, personality-profile, nyc-era]
+connections:
+  - page: wiki/people/tom
+    type: evidenced-by
+    claim: "Tom is the positive-case exhibit for the lateral-trusted half of the split."
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidenced-by
+    claim: "The 2020 conversion turning immediately on the family's union-busting money is a dated case of the vertical-suspect pattern operating on Dan's own paternal line."
 ---
+
 
 # Vertical Authority Skepticism
 

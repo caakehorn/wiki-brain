@@ -38,7 +38,12 @@ related: [
   "wiki/self/gemini-activity/gemini-activity"
 ]
 tags: [ai-collaboration, nyc-era, trauma-bond, uniontown-era]
+connections:
+  - page: wiki/people/tom
+    type: supplied-by
+    claim: "Tom is the period's simultaneous crisis anchor and supply line; the dual role sets up the spring 2026 rupture."
 ---
+
 
 # 2025 Collapse
 

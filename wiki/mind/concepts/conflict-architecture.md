@@ -22,7 +22,12 @@ related:
   - wiki/mind/synthesis/totality-themes
   - wiki/mind/synthesis/intake-constancy
 tags: [addiction-recovery, trauma-bond, forensic-analysis]
+connections:
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: instantiates
+    claim: "The verdict's diagnosis-to-behavior gap is this concept applied to its central case."
 ---
+
 
 # Conflict Architecture
 

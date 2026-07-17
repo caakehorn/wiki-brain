@@ -24,7 +24,12 @@ changelog:
   - 2026-07-16: Major expansion. Added the 2007 touring record (3 shows + TRL taping), the Buffalo "Schrute Farms" secret show + Take-This-To-Your-Grave-in-full ChatGPT confirmation, the Folie-à-Deux cutoff / post-hiatus disavowal, and the teen-identity framing. Retained the deep-cut analysis.
   - 2026-07-14: Full rewrite from stub. Added track-specific analysis, deep-cut pattern, self-mythology reading.
 tags: [personality-profile, nyc-era, digital-footprint]
+connections:
+  - page: wiki/mind/synthesis/music-as-identity
+    type: evidences
+    claim: "The Folie a Deux cutoff is the prime exhibit for the freeze-at-boundary signature generalized on the music-as-identity page."
 ---
+
 
 # Fall Out Boy
 

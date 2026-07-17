@@ -33,7 +33,12 @@ related:
   - wiki/mind/psychosexual/emotional-imprinting
   - wiki/people/eli
 tags: [infidelity, trauma-bond, nyc-era]
+connections:
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: evidences
+    claim: "The discovery sequence documented here is the first pillar of the fallout verdict's concealed-affair finding."
 ---
+
 
 # Eli Incident
 

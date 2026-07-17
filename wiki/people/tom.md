@@ -3,9 +3,8 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-14
+date_modified: 2026-07-17
 sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
-related: ["wiki/people/kristin", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/mind/concepts/attachment-model", "wiki/self/gemini-activity/gemini-activity", "wiki/self/chats/gemini-18", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/mind/concepts/contact-gini", "wiki/mind/psychosexual/arrangement-history"]
 tags: [addiction-recovery, dui, ai-collaboration, relationships, mental-health]
 infobox:
   name: "Tom"
@@ -13,7 +12,24 @@ infobox:
   sex: male
   location: uniontown
   known_for: "Tom Maison — Dan's primary male ally and, for most of the corpus, the clearest instance of safe, lateral (peer, non-pate"
+connections:
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: "Tom is the positive-case exhibit: the clearest safe lateral (peer, non-paternal) attachment in the corpus, against which the vertical-suspect pattern is measured."
+  - page: wiki/mind/concepts/attachment-model
+    type: instantiates
+    claim: "The May 2026 block/unblock cycling with Tom shows the conflict architecture running on a peer bond at lower amplitude — the model is partner-independent."
+  - page: wiki/people/kristin
+    type: contains
+    claim: "The intense late-2025 Kristin thread enters the graph through Tom's social circle; he is the introduction vector."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Tom is a recurring selected participant in the 2018-2024 arrangement, chosen because aftermath with a friend was manageable — see arrangement-history for the framework."
+  - page: wiki/timeline/periods/2025-collapse
+    type: supplies
+    claim: "During the Annie collapse Tom is simultaneously crisis anchor and supply line; the dual role is what makes the spring 2026 supply failures a relationship-ending event rather than a logistics problem."
 ---
+
 
 # Tom
 
@@ -195,6 +211,3 @@ The BFS bootloader records a small standing debt ("Tom still in Uniontown, $36 s
 
 **Gaps:** whether the friendship recovered after May 30, 2026 is undocumented — the record simply stops. Phil is confirmed as Tom's father (2026-07-14). The March "cabin"/pagan-occult girlfriend is confirmed to also be named Kristin (unrelated to [[wiki/people/kristin]]) but her surname is unknown; "Brandy"'s surname is likewise not established.
 
-## Related
-
-[[wiki/people/kristin]] · [[wiki/people/annie-ulmer]] · [[wiki/people/suzanne-frank]] · [[wiki/mind/concepts/attachment-model]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/self/chats/gemini-18]]

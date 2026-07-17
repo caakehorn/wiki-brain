@@ -6,7 +6,12 @@ date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
 related: ["wiki/interests/favorites/books", "wiki/self/context-core"]
+connections:
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: follows
+    claim: "This reading list is the book-length continuation of the August 2020 turn; the primary texts (Manifesto, Kapital, Conquest of Bread) were read during it."
 ---
+
 
 # Politics (Book Favorites)
 

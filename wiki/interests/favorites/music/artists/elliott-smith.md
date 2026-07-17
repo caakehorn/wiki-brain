@@ -16,7 +16,12 @@ related:
   - "wiki/mind/profile/deviance-mapping"
   - "wiki/interests/favorites/music/artists/fall-out-boy"
 tags: [personality-profile, forensic-analysis]
+connections:
+  - page: wiki/mind/synthesis/music-as-identity
+    type: component-of
+    claim: "Smith's quiet-pole role is the emotional-regulator facet of the four-mode music-as-identity thesis."
 ---
+
 
 # Elliott Smith
 
@@ -94,3 +99,5 @@ other direction. The library isn't just loud; it can hold its breath.
 ## Related
 
 [[wiki/interests/favorites/music]] · [[wiki/self/context-core]] · [[wiki/mind/profile/deviance-mapping]] · [[wiki/interests/favorites/music/artists/fall-out-boy]]
+
+Smith's role as the quiet pole of an otherwise bass-dominant library is generalized at [[wiki/mind/synthesis/music-as-identity]]: the emotional-regulator mode of the four-mode thesis, still live and still enforced as of the 2025 gate.

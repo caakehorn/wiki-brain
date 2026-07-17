@@ -4,18 +4,29 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-15
+date_modified: 2026-07-17
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - /Volumes/MUSIC/PHASE B RAW/LEVIATHAN_FULL_CORPUS.csv
-related:
-  - wiki/mind/synthesis/bond-switch-2015
-  - wiki/mind/synthesis/attachment-trauma-bond
-  - wiki/mind/concepts/contact-gini
-  - wiki/people/annie-ulmer
-  - wiki/mind/concepts/attachment-model
 tags: [digital-footprint, relationships, attachment, infidelity, ai-collaboration]
+connections:
+  - page: wiki/mind/concepts/attachment-model
+    type: evidences
+    claim: "The 9x reply-latency asymmetry renders the attachment system as a timing series: outbound near-instant and uniform across all relationships, inbound delay scaling with peripherality."
+  - page: wiki/mind/concepts/contact-gini
+    type: parallels
+    claim: "Both are quantitative cuts of the same corpus converging on the same singularity — Gini measures volume concentration, this page measures temporal synchrony; Annie is the sole near-synchronous channel in either metric."
+  - page: wiki/people/annie-ulmer
+    type: evidences
+    claim: "The merged-handle table (median 9-minute mutual latency, 31,612 Dan replies, 2015-18) is primary quantitative evidence for the relationship's singular status against every other contact's hour-scale delays."
+  - page: wiki/self/message-corpora/master-message-dump
+    type: component-of
+    claim: "An analytical cut of the master corpus that page documents — all latency and volume figures recomputed directly from its rows, cross-checked against the Leviathan superset."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: evidences
+    claim: "The 2025-26 handles' collapse to 16-44-hour inbound medians against Dan's unchanged 1-5-minute outbound quantifies the terminal-phase asymmetry the bond thesis describes."
 ---
+
 
 # Message Corpus — Circadian Rhythm, Reply Latency, and Volume Trajectories
 

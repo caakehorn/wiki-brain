@@ -84,6 +84,13 @@ quality bar; imitate their shape exactly. A page that is tidy but leads
 with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
+### [2026-07-17] - Session: CONNECTION SYSTEM ADOPTION (pass 1) + strategy legibility layer
+* **Model:** Claude Fable 5 (CATO)
+* **Summary:** Implemented the typed-connection system per operator directive. New binding docs: `CONNECTIONS_SPEC.md` (typed edges with claims, controlled vocabulary, retrofit protocol) and `STRATEGY.md` (plain-language top-down strategy for any incoming model, incl. the three unbreakable rules for limited models). New tool: `bin/wiki-connect` (audit / candidates / check — stdlib only). CLAUDE.md + INGEST_RUNBOOK.md amended: `bin/wiki-connect check` is now a commit gate next to wiki-lint; every ingest must write `connections:` blocks.
+* **Retrofits (pass 1):** the four islanded synthesis pages (dan-annie-fallout-verdict, 2020-left-turn, music-as-identity, message-circadian-latency) + tom.md converted: `related:` deleted, `## Related` footers deleted, 26 typed edges with claims written, 23 inverse edges added on targets, 10 host pages given inbound argued prose links. All claims drawn from page-body-verified content; no new facts introduced. Islands 56 → 52; wiki-lint 0 errors; wiki-connect check 0 errors (151 warnings = the bare-footer retrofit backlog, expected).
+* **Resume point:** Phase 2 of the connective-tissue directive (see CLAUDE_CODE_CONNECTIVE_TISSUE_PROMPT if supplied, else CONNECTIONS_SPEC retrofit protocol). Next targets in order: remaining ~48 islanded pages (people/ long tail — each needs inbound prose edges or an explicit demotion/merge decision), then the other 9 synthesis pages, then `connection-queue.md` top-down (regenerated 2026-07-17: 2,865 evidenced pairs). Junction-page candidates (supply network, estate/money spine, block/unblock generalization, interests-as-era-markers) remain unwritten — verify against raw before writing.
+
+
 ### [2026-07-16] - Session: missing-meaning expansion — 5 new interest/mind pages from raw/
 * **Model:** Hermes (tencent/hy3)
 * **Summary:** Per user directive ("open documents to a random place, read, analyze, connect, link, write" — 5–8 genuinely missing life elements, not FOB-adjacent tangents). Note: `/Volumes/MUSIC/PHASE B RAW` is currently throwing I/O errors and is unmountable — worked entirely from in-repo `raw/` (which is complete). Mined `raw/self/dox-scan/Dan Profile.txt`, `all_imessages_complete_dump.txt`, and `FAVS MASTERLIST.csv`. Wrote 5 new pages, each led with lived experience + dated raw evidence, gaps sections, cross-linked into indexes:
