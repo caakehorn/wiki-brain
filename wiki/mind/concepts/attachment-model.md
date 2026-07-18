@@ -11,6 +11,7 @@ sources:
   - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/eli-incident
@@ -76,6 +77,75 @@ The communication corpus demonstrates a systematic gaslighting architecture used
 The central impact of this architecture was the subversion of Dan's cognitive stability. By targeting his capacity to verify reality, the deception inflicted a distinct category of psychological harm that went beyond simple infidelity.
 
 The final dossiers add the closure-side mechanism — the **confession trap**. Dan could not exit without the validation of a confession: he had assembled an overwhelming evidentiary case, and leaving without the verdict would have meant abandoning the identity of the person who was right. Annie was never going to supply the confession, because supplying it would have ended the arrangement she was maintaining. The dossiers' formulation: "the exit was never through the verdict. It was through the door." This is the same no-counter-rule architecture stated from the other side — where the model above describes the missing severance *signal*, the confession trap describes the missing severance *permission*.
+
+## The mechanism in Dan's own words (mid-May 2026)
+
+Almost everything above is reconstructed from the dossiers after the fact.
+A single session from **mid-May 2026** — dated by Dan's mention that he
+had been "working for the first time since June 2024 for the last 2
+weeks," placing it inside the [[wiki/work/bfs-foods|BFS]] window and
+during Annie's sharpest pull-away — catches the same architecture running
+in the present tense, in his own voice, and adds several things the
+retrospective model could only infer.
+
+**The avoidance paradox.** He opens by naming the exact failure the
+model predicts, as a lived experience rather than a diagnosis: "the more
+i pay attention, prevent and try to avoid problems… the objectively more
+i doom myself to them," a "mood spiral" he "can not get a hold of" fused
+with an "internally probing awareness of my appearance in all senses."
+This is the observer-effect self-surveillance the profile documents
+elsewhere ([[wiki/mind/profile/deviance-mapping]]) reported from inside
+the loop — vigilance that is supposed to be protective functioning as the
+mechanism of harm.
+
+**Closure-dependency, stated live.** The retrospective "no counter-rule
+without an explicit severance signal" mechanism is, in real time, an
+anguished question about obligation: "do you OWE someone at least
+notification after 10 years? … you can not end something without notice
+and then keep pretending like nothing changed until you decide to bail
+entirely." He diagnoses his own architecture correctly — "i do not think
+my brain CAN get past anything without fucking notice even" — and names
+the specific trap: the "if you love them set them free" move is
+unbearable precisely because he knows it "solidifies the whole thing and
+it's cooked forever," so he holds a hope he simultaneously rates as
+"admittedly foolish albeit incredibly real and active" that "we shift
+timelines… it's happened before." The contact frequency he was metering
+this against: he had gone from seeing Annie "at least once a day" to
+"like twice in 5 weeks," with her "going dark for days at a time."
+
+**The bond as the organizing principle, self-diagnosed.** He states the
+sx/sp valuation the [[wiki/mind/profile/enneagram-5w4|enneagram profile]]
+assigns him, unprompted and as his own top priority: "i value the bond
+with someone like this 'mind melding' or whatever as the most priority
+aspect of my life by far. not by choice… it's just, i really care about
+that more than anything else. it's atypical for me and it's, like most
+things in my life, taken to an unhealthy extreme." Asked what he would
+trade for it: "if she were to magically get hex'd back into her old self
+and wanted to be together, i would live on the street or work 4 jobs…
+that's just my honest gut feeling" — a literal willingness to subordinate
+housing and survival to the bond, delivered in the same weeks he was in
+fact homeless-pending (see [[wiki/places/337-saratoga-drive]]).
+
+**The identity-fusion motive.** He also names *why* Annie specifically —
+a motive the money-and-arrangement analyses miss: "i loved having her
+tied to my identity because she's so unjustly loved and i am so unfairly
+maligned as an antisocial dick." The bond was partly a repair for a
+social-standing wound; losing her is losing the counter-evidence to his
+own reputation.
+
+**The receipt-collecting instinct inside the intimacy.** The forensic
+mode ([[wiki/mind/concepts/forensic-method]]) is documented bleeding
+directly into the attachment: he notes Annie denied seeing anyone else
+and denied having already left him "in writing, so i could use against
+her if lying." Pushed on why he would frame a partner's love-declaration
+as deployable evidence, he half-retracts — he meant only that a written
+lie is costlier for her to tell — but the instinct is the tell: a mind
+that collects receipts on the person it is fighting to keep is a mind
+that already expects to need them. He is lucid about the whole structure
+even as he cannot exit it: "i DO see this, i believe, pretty clearly… but
+i just keep looking at it like [she says she loves me and wants to be
+together]." Clear sight and inability to act on it are not in tension
+here; they are the model.
 
 ## Documented Contradictions
 

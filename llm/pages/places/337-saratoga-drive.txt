@@ -10,6 +10,7 @@ sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-md/Gemini-_13.md
   - raw/self/captures/2026-07-11_013210_the-house-at-337-saratoga-drive-uniontow.md
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 related:
   - wiki/people/suzanne-frank
   - wiki/legal/463-morgantown
@@ -50,6 +51,25 @@ contingencies evidently cleared — with a planned out-date of July 1
 — has its own unresolved legal tangle ([[wiki/legal/463-morgantown]]).
 Context-core carries the situation as the acute open variable of mid-2026:
 "no confirmed post-close plan."
+
+A mid-May 2026 session captures how open the "no plan" really was, and
+what it meant to Dan emotionally. He put the closing at "june 9th i think"
+(his in-the-moment guess, later settling to the confirmed June 23) and
+was blunt that "we have NO idea where we're going and my mom has no money
+until the closing." The plan he'd been hoping for had just fallen through:
+[[wiki/people/suzanne-frank|Suz]], acting as the buying agent, had a
+client who "sunk 200k stupidly" into a house "right across the street from
+my new [[wiki/work/bfs-foods|job]]" and was now ready to sell — the idea
+being for Dan to rent it — but "this kinda blew up for several reasons."
+Suz's fallback was to move to Greensburg "or somewhere 30–45 mins away,"
+which Dan experienced not as a housing problem but as a relationship one:
+30–45 minutes from Uniontown was, in his words, "as good as being a coup
+de grace for this thing with annie," since it would end the near-daily
+proximity the bond ran on. He was explicit that housing was entirely
+subordinate to that: "if she were to magically… wanted to be together, i
+would live on the street or work 4 jobs… none of it matters other than the
+annie thing" (the attachment mechanism behind that ordering is on
+[[wiki/mind/concepts/attachment-model]]).
 
 ## The Bacharach connection
 

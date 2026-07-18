@@ -12,6 +12,7 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/legal/bfs-dispute/BFS_BOOTLOADER_v2.md
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 related:
   - wiki/self/context-core
   - wiki/mind/profile/deviance-mapping
@@ -38,7 +39,7 @@ neurochemical engineering" ([[wiki/mind/profile/deviance-mapping]]).
 
 | Substance | Role (corpus framing) | Detail |
 |-----------|----------------------|--------|
-| Suboxone | "System stabilizer — chassis & OS" | Daily since 2010-02-17 (day-zero pinned; earlier docs said ~Jan 2010/Jan 2011); prevents withdrawal; the residual "1% opiate glow" described as intentional |
+| Suboxone | "System stabilizer — chassis & OS" | Daily since 2010-02-17 (day-zero pinned; earlier docs said ~Jan 2010/Jan 2011); prevents withdrawal; the residual "1% opiate glow" described as intentional; a mid-May 2026 session self-reports the maintenance dose at **~1–2 mg daily** and the dependency starkly — "without it I am quite literally, without exaggeration, not leaving the chair or bed I am in until I get some" — with the prescribed-vs-self-managed question answered only "no comment" |
 | Cocaine | "Cognitive & drive accelerator — CPU & RAM" | Daily; framed as tool, "voltage," focus sharpener |
 | Nicotine | "Ritualistic regulator — thermal paste" | Smooths transitions between chemical states |
 | Cannabis | Creative lubricant | Daily |

@@ -130,7 +130,7 @@ Dan's "first paycheck Saturday" and a dreaded sighting of
 [[wiki/people/nick-mattie|Nick Mattie]] on May 13, the Pittsburgh court
 promise on May 15; the strategy briefing was prepared May 20). Brandon
 was the technical closer — he counted his own drawer to $100 just before
-Dan took over at 3 PM, worked returned at 10:30 PM to lock up, and
+Dan took over at 3 PM, returned at 10:30 PM to lock up, and
 printed the CSR closing report, which he and Dan looked at together. It
 read even. Dan's contemporaneous joke, witnessed by Brandon: "they're
 laundering money lol." The next morning

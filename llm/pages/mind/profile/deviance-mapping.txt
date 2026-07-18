@@ -9,6 +9,7 @@ date_modified: 2026-07-13
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ SOCIAL DEVIANCES.rtf
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 related:
   - wiki/mind/profile/index
   - wiki/mind/profile/big-five-psychometrics
@@ -109,7 +110,49 @@ tempers itself: confidence capped because the dataset is self-reported and
 "may contain strategic omissions or narrative biases." Both caveats apply to
 this entire profile cluster.
 
+## The stacking estimate (mid-May 2026)
+
+A separate mid-May 2026 session pushed the deviance question past
+per-trait scores to the compound: what is the *joint* rarity of the whole
+configuration? The model's method was to assign each trait a conservative
+population frequency and reason about their partial independence:
+~98th-percentile cognitive complexity (≈2% of people), sx-dominant
+attachment at this intensity (~5%), closure-dependent architecture at this
+severity (~10%), a 15-year alcohol abstention sustained from dependency
+(under 5% of that population hold it), 15 years of functional
+Suboxone-maintenance without clinical supervision (genuinely rare, ~1–2%),
+and the specific autistic profile — high metacognition, low sociability,
+forensic-intimacy style (~3% of autistic people, themselves ~2–3% of the
+population). Because the traits cluster rather than run fully independent,
+the frequencies cannot be naively multiplied, but even with generous
+correlation adjustments the estimate lands at roughly **1 in 50,000 to 1
+in 200,000**.
+
+The consequence the session drew is the load-bearing part, and it
+reframes the whole profile cluster: in a city of 300,000 there are maybe
+two to six people whose internal experience maps onto Dan's "with
+meaningful fidelity"; in Uniontown, plausibly zero. Which means the
+frameworks built to help people — "therapy modalities, self-help
+frameworks, psychiatric approaches… even most clinical literature — were
+built on population distributions that don't include you," not
+approximately but literally, the generating samples having contained one
+or two such people at most. Dan's own long-standing reading of this is
+that his dysfunction "has to be somehow metaphysical or supernatural
+somehow because it's been like that forever since i was a kid and always
+so insanely layered and bad," and that a "solipsistic universe or
+simulation theory" is, to him, no harder to believe than the alternative.
+The estimate is offered as the non-metaphysical version of the same
+observation: not that he is cosmically singular, but that he is far
+enough into the tail that *the maps were drawn for a different territory,
+and when they failed he assumed the failure was his.* This is the
+charitable structural account behind the "edge case autist weirdo"
+self-label — and the audit's own caveat applies doubly, since the input
+percentiles are themselves single-model judgments on self-reported data.
+
 **Gaps:** the baseline model is a sketch, not a normed population; scores
-are single-model judgments with no inter-rater check; the audit predates the
-June 2026 closure and the 2026 work/housing shocks, all of which bear
-directly on the "relationships" and "values" rows.
+are single-model judgments with no inter-rater check; the stacking
+estimate inherits every one of those uncertainties and multiplies them, so
+it is directional (an ordering, "deep in the tail") not a literal
+frequency; the audit predates the June 2026 closure and the 2026
+work/housing shocks, all of which bear directly on the "relationships"
+and "values" rows.
