@@ -13,6 +13,9 @@ infobox:
   location: uniontown
   known_for: "Tom Maison — Dan's primary male ally and, for most of the corpus, the clearest instance of safe, lateral (peer, non-pate"
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: component-of
+    claim: "The May 18 2026 conditional unblock and the 2014 declared-done-then-return precedent are the loop's peer-bond case — blocks failed both times because Tom was the sole supply node."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "Tom is the positive-case exhibit: the clearest safe lateral (peer, non-paternal) attachment in the corpus, against which the vertical-suspect pattern is measured."
@@ -31,6 +34,12 @@ connections:
   - page: wiki/work/bfs-foods
     type: causes
     claim: "Tom's mid-May 2026 string-along supply failure is the first domino of the BFS crisis — the withdrawal it caused impaired the shift the drawer variance was pinned to, and the 2014 precedent recovered there reframes his reliability as transactional across the whole record."
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Tom is the network's terminal-era sole node and its characteristic failure mode: the friendship-embedded supplier whose owe-and-silence cycles (2014, 2026) demonstrate that in this market intimacy licenses failure while distance disciplines."
+  - page: wiki/people/johnny-dealer
+    type: follows
+    claim: "Tom succeeded Johnny (via the undocumented Tim) as primary strip source by 2025 — the succession from transactional dealer to friendship-embedded friend-supplier that exposed the network to the owe-and-silence failure mode."
 ---
 
 
@@ -147,7 +156,10 @@ promises to bring subs after "weed whacking," goes silent for hours while
 Dan escalates from "Tom / What the uck" through repeated unanswered pings to
 "Come on dude seriously" to "Fuck you dude" — Dan facing a real consequence
 (calling off work, risk of termination) from the no-show. By May 18 Dan has
-apparently blocked Tom and unblocks him only to set an ultimatum ("I'm
+apparently blocked Tom and unblocks him only to set an ultimatum — the
+[[wiki/mind/synthesis/block-unblock-loop|block/unblock loop]] running on a
+peer bond, and failing to hold for exactly the reason that page argues
+(the supply dependency still ran through the channel) ("I'm
 unblocking you for the moment — if you want to let me know what's going on
 this morning I'll keep it open otherwise fuck you"), then pivots the same day
 to a straight financial demand: "How long will it take you to get the $36

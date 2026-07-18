@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-07-18
 sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -23,6 +23,9 @@ related:
   - wiki/mind/synthesis/intake-constancy
 tags: [addiction-recovery, trauma-bond, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: causes
+    claim: "The engine's no-halt-condition defect is what the block/unblock loop expresses as a channel operation; the 414-message Grok run is the mechanism reproduced in software."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "The conflict architecture is read against the LLM venue in the totality's bandwidth-war section."
@@ -50,7 +53,7 @@ The following metrics are drawn from the [[wiki/people/annie-ulmer|Annie]] messa
 |---|---|---|
 | "Fuck you" instances | 74 | Annie corpus (MasterRecord) |
 | "Piece of shit" instances | 17 | Annie corpus |
-| "Worthless" instances | 11 | Annie corpus (MasterRecord_FINAL) |
+| "Worthless" instances | 11 | Annie corpus (MasterRecord_FINAL); 74/17/11 all confirmed exactly from Dan's side of the dual-handle export, 2026-07-18 |
 | Verbal-abuse escalation trajectory | 9 (Aug 2025) → 36 (Feb 2026) | MasterRecord_FINAL |
 | Exit declarations | 127 | Annie corpus (MasterRecord) |
 | Re-engagements following exit declarations | 110 | Annie corpus (MasterRecord) |
@@ -103,6 +106,8 @@ The worth sitting with is not the bug. It is that the largest "flood" in fifteen
 The same full corpus yields the relational story in three raw phrase counts: **"I love you" — 1,512 occurrences; "fuck you" — 232; explicit apologies ("I'm sorry" / "I apologize") — 180, which is 0.2% of all sent messages.**
 
 He affirms roughly **6.5× more than he attacks**, and apologizes least of all three. This refines the earlier framing substantially. The reassurance-flood is not a minor counter-current to the hostility — it is *quantitatively dominant*. The exit-and-return cycle (127 exits / 110 re-engagements) is the macro version; the 1,512 affirmations against 232 hostilities is the micro version. And the **apology deficit is real and specific**: the system that says "I love you" 1,512 times and "fuck you" 232 times says "I'm sorry" only 180 times. He floods affection and he floods aggression; what he does *not* do, proportionally, is repair through contrition.
+
+> **REVISED [2026-07-18] — the apology-deficit ordering does not survive primary recount.** A sender-tagged recount of `all_imessages_complete_dump.txt` (217,573 rows through Aug 10 2025) gives: Sent "love you" 1,528 (strict "i love you" 1,388 — the 1,512 figure confirmed to lexicon precision); Sent "fuck you" 111 (the 232 total remains plausible once the terminal phase, which the dump predates, is added — his Aug 2025–Mar 2026 window alone contributes 74, now exactly verified); but Sent "I'm sorry / I am sorry" = **435 through Aug 2025 alone** — well above the claimed 180. Under any plain lexicon he apologizes ~4× *more* than he attacks; "apologizes least of all three" would require an unstated narrower contrition-only definition. **Reassurance dominance survives and strengthens** (affirmation an order of magnitude above both); the specific apology-deficit claim should not be cited without that qualification. The paragraph above is retained for the record. Also note: the burst parameters are sensitive — the same dump yields 11,666 runs ≥3 at a 2-minute gap (max 149) vs the bootloader's 9,567 (max 414, incl. the Grok run, on the larger corpus).
 
 The re-engagement is reassurance, not apology — a reload of the affirmation, not an admission of the rupture. That distinction is mechanically important: reassurance restabilizes the bond *without resolving the breach*, which is exactly why the loop reloads at a lower baseline every cycle (see the seven-phase loop above, phase 7). For a model engaging him: **apology is not his native repair channel; do not read its absence as indifference, and do not expect contrition to be the form his repair takes. His repair is re-affirmation and re-engagement.** The 110 re-engagements are the apologies — they just are not phrased as apologies, because phrasing it as an apology would be a concession, and concession routes through the worth axiom (Core Axiom 1: *not exceptional = worthless*).
 

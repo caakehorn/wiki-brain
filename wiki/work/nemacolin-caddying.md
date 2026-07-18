@@ -4,7 +4,7 @@ page_type: event
 title: "Caddying — Nemacolin, Laurel Valley, Pikewood National (2016–2019)"
 status: closed
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 date_range_start: 2016-04-06
 date_range_end: 2019-11-01
 sources:
@@ -21,6 +21,9 @@ related:
   - wiki/mind/concepts/forensic-method
 tags: [career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/people/steve-kezmarsky
+    type: co-occurs
+    claim: "Steve asked to be gotten into the caddie yard in July 2017 and never submitted the resume — a documented near-member of the cohort."
   - page: wiki/interests/golf
     type: component-of
     claim: "The caddying job is the professional component of the wider golf thread — the hire reignited his own playing, and for the 2016–19 stretch the sport was simultaneously income, social world, and game."
@@ -81,6 +84,24 @@ where Dan looped in a tournament setting in late June 2018, coordinated
 directly by caddie master Ryan Sensenig for a player named Andy Decker
 (June 29, 10:00 AM tee time, #1). He had asked to be kept in mind for
 Pikewood and Potomac assignments weeks earlier.
+
+## The caddie-yard social graph
+
+The job seeded a documented cohort of its own, each with a thread in the
+corpus: [[wiki/people/trevor|Trevor Bevins]] — the "Trevor" of the May 21
+Laurel Valley trip above and the era's closest work friendship, who later
+left for Sand Valley; [[wiki/people/chad-johnson|Chad Johnson]] — the
+"Chad" of the same trip, a fellow caddy and social contact beyond the
+yard; [[wiki/people/mike-zollinger|Mike Zollinger]] and
+[[wiki/people/jimmy|Jimmy]], fellow caddies from the 2018 season;
+[[wiki/people/bill|Bill]], a caddying peer distinct from Bill Ulmer; and
+[[wiki/people/joey-superick|Joey Superick]], a brief golf-and-music
+friendship from June 2018 adjacent to the same scene. Steve Kezmarsky
+([[wiki/people/steve-kezmarsky]]) asked Dan to get him into the yard in
+July 2017 but never followed through. The pattern the cohort documents:
+caddying was the last era in which work generated Dan's friendships in
+bulk — nothing after it (Au Za'atar's Triad excepted) produced a
+comparable social layer.
 
 ## Why the job matters
 

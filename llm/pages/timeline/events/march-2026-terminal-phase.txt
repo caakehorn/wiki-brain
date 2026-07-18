@@ -5,7 +5,7 @@ title: "March 2026 — The Terminal Phase Peak"
 importance: high
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-13
+date_modified: 2026-07-18
 date_range_start: 2026-03-01
 date_range_end: 2026-03-16
 sources:
@@ -25,6 +25,10 @@ related:
   - wiki/people/suzanne-frank
   - wiki/mind/concepts/forensic-method
 tags: [relationships, trauma-bond, addiction-recovery]
+connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: component-of
+    claim: "The March 19-20 fight is the loop's bidirectional exhibit: Annie threatens exposure, blocks, unblocks to send final lines, and blocks again — the operation is the bond's shared negotiating grammar, not Dan's private defect."
 ---
 
 # March 2026 — The Terminal Phase Peak

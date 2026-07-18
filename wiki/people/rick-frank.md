@@ -5,7 +5,7 @@ title: "Richard Harrison \"Rick\" Frank"
 aliases: ["Rick", "Frank Sr."]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-13
+date_modified: 2026-07-18
 infobox:
   name: Rick Frank
   status: Estranged
@@ -32,6 +32,12 @@ related:
   - wiki/mind/psychosexual/developmental-origins
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: component-of
+    claim: "The Rick amputation — a 12-day burst then a decade of unanswered inbound — is the loop's held-block control case, proving severance holds exactly where no dependency flows through the channel."
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "Frank's Auto Supermarket is the money spine's paternal source-line — the anti-union 'kushy lives' engine Dan indicts in the Aug 22 2020 message, one day after his own estate distribution order was signed."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: causes
     claim: "The 2005 concealed-reality template on the paternal line is the documented origin of the vertical-suspect pattern."

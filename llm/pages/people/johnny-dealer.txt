@@ -3,9 +3,24 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
+date_modified: 2026-07-18
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_7249204125_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "wiki/self/message-corpora/master-message-dump.md", "wiki/timeline/periods/2018-deep-cycle.md", "wiki/timeline/events/timeline.md"]
-related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/annie-ulmer", "wiki/people/suzanne-frank", "wiki/people/tom", "wiki/people/anita", "wiki/self/context-core", "wiki/timeline/periods/2017-poverty-floor"]
+connections:
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Johnny is the network's 2018 deep-cycle primary node; his vacations and MIA stretches produced the first documented single-node supply panics, and the MAX_PRIME succession (Johnny → Tim → Tom) starts with him."
+  - page: wiki/people/teddy
+    type: parallels
+    claim: "Johnny and Teddy are concurrent 2018 Uniontown nodes in the same market — Johnny the higher-volume primary, Teddy the accommodating secondary — together constituting the deep cycle's redundancy layer."
+  - page: wiki/timeline/periods/2018-deep-cycle
+    type: component-of
+    claim: "Johnny's 3,462-message logistics thread is the deep cycle's material infrastructure: the fronts, 1 AM ATM runs, and 'On way / Here / Come to door' cadence are the period's texture at ground level."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Annie ran facilitation through Johnny's node — drops, pickups, 'I'm at Johnny's' — making her a logistics participant in the 2018–19 supply chain, not a bystander to it."
+  - page: wiki/people/tom
+    type: precedes
+    claim: "Johnny is Tom's predecessor as primary strip source; the succession from transactional dealer to friendship-embedded supplier is what later exposed the network to the owe-and-silence failure mode."
 tags: [addiction-recovery, dui]
 infobox:
   name: "Johnny Dealer"

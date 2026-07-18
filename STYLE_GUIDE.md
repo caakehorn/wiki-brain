@@ -189,6 +189,11 @@ sections, tables holding only numbers, a Gaps section naming the unknowns.
    as long as the subject earns. Short, choppy pages are a failure mode;
    prefer dense, narrative, fully-developed prose. Split only when a single
    page would become unwieldy for navigation — not to hit an arbitrary size.
+   Settled 2026-07-18: `bin/wiki-lint` size warnings are **advisory** on
+   hub pages (importance: critical), junction/synthesis pages, and the
+   exemplars — never trim earned content to clear a warning, and never
+   cite the warning count as a reason to shorten. The operator's standing
+   directive is LONGER entries than the current standard.
 5. **No agent chatter anywhere.** No session notes, ingest logs, "/tmp/"
    paths, model names, or "this pass did X" — that history lives in log.md
    and the git log only.

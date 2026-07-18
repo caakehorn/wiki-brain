@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-07-18
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -32,6 +32,12 @@ connections:
   - page: wiki/mind/synthesis/intake-constancy
     type: caused-by
     claim: "The nocturnal intake signature is the structural substrate under this isolation metric."
+  - page: wiki/mind/synthesis/supply-network
+    type: parallels
+    claim: "Supply concentration tracks relational concentration: the 2018 multi-dealer redundancy decays to a single node by 2025 exactly as the contact graph collapses toward Gini 0.961, leaving both systems one failure away from crisis."
+  - page: wiki/people/menore
+    type: evidenced-by
+    claim: "Menore's 1,753-message thread of pure 'need 8' logistics is the cleanest exhibit that a high-volume handle can carry zero relational depth — volume and intimacy are independent axes in the contact graph."
   - page: wiki/mind/synthesis/message-circadian-latency
     type: parallels
     claim: "The latency analysis is the temporal counterpart to this volume metric; both converge on the single near-synchronous Annie channel."

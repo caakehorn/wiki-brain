@@ -4,7 +4,7 @@ page_type: summary
 title: "463 Morgantown St (Housing / Property Risks)"
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-18
 sources:
   - raw/self/message-csv/imessage_7243228715_both_all_now.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -18,6 +18,10 @@ related:
   - wiki/self/context-core
   - wiki/timeline/periods/2025-collapse
 tags: [housing, uniontown-era]
+connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "463 is where the money spine currently points: no lease, blended agency, a ~July 2026 lien deadline, and no absorber for a lien-sized shock — the housing configuration produced by the capital timeline's present state."
 ---
 
 # 463 Morgantown St

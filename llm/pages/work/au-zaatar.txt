@@ -4,7 +4,7 @@ page_type: event
 title: "Au Za'atar (NYC, ~2021–2024)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 sources:
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/TheWaitersVisibleHigh.md
@@ -32,6 +32,12 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The 41-month audit posture — and Dan's own documented sabotage — are this page's contribution to the skepticism model."
+  - page: wiki/mind/synthesis/supply-network
+    type: co-occurs
+    claim: "The supply network wrapped around this workday: Menore delivered mid-shift to the Shed block through taxi windows — primary-confirmed for May–Aug 2024, with the storytime's longer window unresolved against the Menore thread's 2020–24 gap."
+  - page: wiki/people/menore
+    type: supplied-by
+    claim: "Menore was the mid-shift supply line to the Shed block, his legit-taxi cover making the sidewalk handoffs trivial — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58); earlier years rest on the storytime only."
 ---
 
 
@@ -114,7 +120,7 @@ did not survive past the job; see [[wiki/people/felipe]] for the
 correction. [[wiki/people/suzanne-frank|Suz]] visited for Dan's birthday
 (November 2021) and the owners comped the whole menu — "typical lebanese
 hospitality." Around them, the documented
-cast: **Sergio**, a 53-year-old Miami service veteran whose war with Dan
+cast: [[wiki/people/manuel|Manuel]], a coworker whose thread opens with an October shift-swap; **Sergio**, a 53-year-old Miami service veteran whose war with Dan
 over the word "dude" escalated into a "nonsense meeting" with Tarik and
 Ghassan conducted in tooth-loss analogies; a **Tunisian zoomer manager**
 who tried to fire Dan for tip-siphoning on Thanksgiving 2023 — and failed,

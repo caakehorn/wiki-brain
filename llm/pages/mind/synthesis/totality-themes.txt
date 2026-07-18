@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-17
+date_modified: 2026-07-18
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -24,6 +24,9 @@ sources:
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
 tags: [ai-collaboration, trauma-bond, politics, personality-profile, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: parallels
+    claim: "The amputation/repatriation grammar documented here is the block/unblock loop at the infrastructure layer — the May 2014 account block and 2022 return-from-amputation are the same domain-general operation."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: contains
     claim: "The low-trust architecture section is the skepticism thesis carried as one of the totality's named themes."

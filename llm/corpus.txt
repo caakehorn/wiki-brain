@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-18
-307 pages, ~391,569 tokens.
+308 pages, ~406,689 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -2331,7 +2331,7 @@ domain: interests
 page_type: summary
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -2340,6 +2340,9 @@ sources:
 tags: [family, uniontown-era, relationships]
 knowledge: mixed
 connections:
+  - page: wiki/people/steve-kezmarsky
+    type: evidenced-by
+    claim: "The Kezmarsky thread is a working exhibit of golf as the connective tissue of the Uniontown male friendships — club talk, stolen Scotty Cameron, vicarious rounds, a caddying ask."
   - page: wiki/mind/synthesis/interests-as-era-markers
     type: instantiates
     claim: "The 2016–19 era-marker where the interest literally was the era: sport, social world, and primary paycheck at once through the caddying years."
@@ -3878,7 +3881,7 @@ page_type: summary
 title: "463 Morgantown St (Housing / Property Risks)"
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-18
 sources:
   - raw/self/message-csv/imessage_7243228715_both_all_now.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -3892,6 +3895,10 @@ related:
   - wiki/self/context-core
   - wiki/timeline/periods/2025-collapse
 tags: [housing, uniontown-era]
+connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "463 is where the money spine currently points: no lease, blended agency, a ~July 2026 lien deadline, and no absorber for a lien-sized shock — the housing configuration produced by the capital timeline's present state."
 ---
 
 # 463 Morgantown St
@@ -3984,7 +3991,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-18
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -3999,6 +4006,9 @@ related:
   - wiki/self/facebook
 tags: [relationships, attachment, addiction-recovery, trauma-bond, infidelity]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: causes
+    claim: "The model's 299:0 affirmation-to-severance asymmetry is why declared exits cannot hold: a system with no vocabulary for 'closed' can only toggle channel state and wait for the dependency to decide."
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: instantiates
     claim: "The Annie bond is this model's central case, running as designed across 127/110 cycles."
@@ -4024,7 +4034,7 @@ This cognitive architecture is heavily influenced by a multi-generational family
 
 | Indicator | Count | Source Document |
 |---|---|---|
-| Love affirmations from Annie to Dan | 299 | MasterRecord Synthesis |
+| Love affirmations from Annie to Dan | 299 | MasterRecord Synthesis (unlocated in primary recount 2026-07-18 — her terminal-phase love-messages: 231; all-time in dual-handle export: 1,302; the 0-severance half IS primary-verified: severance sweep of her 41,073 messages returns only false positives) |
 | Explicit severance signals from Annie to Dan | 0 | Full ten-year Annie Corpus |
 | Documented relationship events | 266 | LIFE_EVENTS_CALENDAR.md |
 | Cheating and affair subcategory events | 84 | LIFE_EVENTS_CALENDAR.md |
@@ -4074,7 +4084,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-07-18
 sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -4094,6 +4104,9 @@ related:
   - wiki/mind/synthesis/intake-constancy
 tags: [addiction-recovery, trauma-bond, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: causes
+    claim: "The engine's no-halt-condition defect is what the block/unblock loop expresses as a channel operation; the 414-message Grok run is the mechanism reproduced in software."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "The conflict architecture is read against the LLM venue in the totality's bandwidth-war section."
@@ -4121,7 +4134,7 @@ The following metrics are drawn from the [[wiki/people/annie-ulmer|Annie]] messa
 |---|---|---|
 | "Fuck you" instances | 74 | Annie corpus (MasterRecord) |
 | "Piece of shit" instances | 17 | Annie corpus |
-| "Worthless" instances | 11 | Annie corpus (MasterRecord_FINAL) |
+| "Worthless" instances | 11 | Annie corpus (MasterRecord_FINAL); 74/17/11 all confirmed exactly from Dan's side of the dual-handle export, 2026-07-18 |
 | Verbal-abuse escalation trajectory | 9 (Aug 2025) → 36 (Feb 2026) | MasterRecord_FINAL |
 | Exit declarations | 127 | Annie corpus (MasterRecord) |
 | Re-engagements following exit declarations | 110 | Annie corpus (MasterRecord) |
@@ -4175,6 +4188,8 @@ The same full corpus yields the relational story in three raw phrase counts: **"
 
 He affirms roughly **6.5× more than he attacks**, and apologizes least of all three. This refines the earlier framing substantially. The reassurance-flood is not a minor counter-current to the hostility — it is *quantitatively dominant*. The exit-and-return cycle (127 exits / 110 re-engagements) is the macro version; the 1,512 affirmations against 232 hostilities is the micro version. And the **apology deficit is real and specific**: the system that says "I love you" 1,512 times and "fuck you" 232 times says "I'm sorry" only 180 times. He floods affection and he floods aggression; what he does *not* do, proportionally, is repair through contrition.
 
+> **REVISED [2026-07-18] — the apology-deficit ordering does not survive primary recount.** A sender-tagged recount of `all_imessages_complete_dump.txt` (217,573 rows through Aug 10 2025) gives: Sent "love you" 1,528 (strict "i love you" 1,388 — the 1,512 figure confirmed to lexicon precision); Sent "fuck you" 111 (the 232 total remains plausible once the terminal phase, which the dump predates, is added — his Aug 2025–Mar 2026 window alone contributes 74, now exactly verified); but Sent "I'm sorry / I am sorry" = **435 through Aug 2025 alone** — well above the claimed 180. Under any plain lexicon he apologizes ~4× *more* than he attacks; "apologizes least of all three" would require an unstated narrower contrition-only definition. **Reassurance dominance survives and strengthens** (affirmation an order of magnitude above both); the specific apology-deficit claim should not be cited without that qualification. The paragraph above is retained for the record. Also note: the burst parameters are sensitive — the same dump yields 11,666 runs ≥3 at a 2-minute gap (max 149) vs the bootloader's 9,567 (max 414, incl. the Grok run, on the larger corpus).
+
 The re-engagement is reassurance, not apology — a reload of the affirmation, not an admission of the rupture. That distinction is mechanically important: reassurance restabilizes the bond *without resolving the breach*, which is exactly why the loop reloads at a lower baseline every cycle (see the seven-phase loop above, phase 7). For a model engaging him: **apology is not his native repair channel; do not read its absence as indifference, and do not expect contrition to be the form his repair takes. His repair is re-affirmation and re-engagement.** The 110 re-engagements are the apologies — they just are not phrased as apologies, because phrasing it as an apology would be a concession, and concession routes through the worth axiom (Core Axiom 1: *not exceptional = worthless*).
 
 > **REVISED [2026-07-15]:** The burst table above (94 burst events, largest single burst 68 messages) was computed from the Annie-subset dossiers. The full-corpus recomputation sharpens it: 94 was the *Annie-relationship* burst count; the all-corpus figure is 9,567 runs ≥3 and a maximum single run of **414** (the Grok-loop artifact). The human maximum organic run is ~131. Both numbers are retained deliberately — the 94/68 pair describes the *relationship-specific* engine; the 9,567/414 pair describes the *lifetime* engine and catches the machine mirror the subset could not. The 1,512/232/180 triad replaces the older "127 exits / 110 re-engagements" as the cleaner statement of the reassurance-dominance finding, with the exits/re-engagements pair now understood as the macro version of the same asymmetry.
@@ -4195,7 +4210,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-07-18
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -4224,6 +4239,12 @@ connections:
   - page: wiki/mind/synthesis/intake-constancy
     type: caused-by
     claim: "The nocturnal intake signature is the structural substrate under this isolation metric."
+  - page: wiki/mind/synthesis/supply-network
+    type: parallels
+    claim: "Supply concentration tracks relational concentration: the 2018 multi-dealer redundancy decays to a single node by 2025 exactly as the contact graph collapses toward Gini 0.961, leaving both systems one failure away from crisis."
+  - page: wiki/people/menore
+    type: evidenced-by
+    claim: "Menore's 1,753-message thread of pure 'need 8' logistics is the cleanest exhibit that a high-volume handle can carry zero relational depth — volume and intimacy are independent axes in the contact graph."
   - page: wiki/mind/synthesis/message-circadian-latency
     type: parallels
     claim: "The latency analysis is the temporal counterpart to this volume metric; both converge on the single near-synchronous Annie channel."
@@ -5073,6 +5094,9 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/synthesis/music-as-identity]] — music as a century-spanning structure of self: performed teen identity, tour devotion, emotional regulator, producer identity; the "unutilized for actual purpose" gap made explicit.
 - [[wiki/mind/synthesis/2020-left-turn]] — the dated COVID-lockdown radicalization: Bernie 2020 on-ramp, the Chapo/Hasan/ContraPoints media pipeline, the Marx/Kropotkin reading, and the class-guilt over the family's union-busting money.
 - [[wiki/mind/synthesis/interests-as-era-markers]] — junction: the fixed intake rate makes subject-rotation the era signal; each life period has a dateable marker obsession (2007 teen cluster → 2012–13 O&A → 2016–19 golf → 2019 stand-up → 2020 politics → 2024 Rome), with the film canon as control case.
+- [[wiki/mind/synthesis/supply-network]] — junction: fifteen years of procurement as one architecture — the node succession (Johnny → Tim → Tom; Menore in NYC), the reliability inversion (distance disciplines, intimacy licenses failure), redundancy decay to a single node, and the terminal-phase inversion with Dan as Annie's supplier.
+- [[wiki/mind/synthesis/estate-money-spine]] — junction: the capital timeline as one causal chain — two family source-lines (Ira estate / Frank's Auto), the Adams trusteeship, the 2020 distribution ($144,069.31) and its six-month burn, the ~$119–123K net Annie drain, Suz as switchboard, and the 337→463 present state.
+- [[wiki/mind/synthesis/block-unblock-loop]] — junction: the declared-not-executed exit generalized across Annie (127/110), Tom (2014 + 2026), Kristin, Rick, accounts, and the Grok-loop; the governing rule — a block holds iff no dependency still flows through the channel — with Menore's clean closure and the June 1 closure as the live test.
 
 
 ========================================================================
@@ -7530,6 +7554,173 @@ Resolution demands grieving the fantasy of the relationship that could have been
 
 
 ========================================================================
+PAGE: wiki/mind/synthesis/block-unblock-loop.md
+========================================================================
+
+---
+domain: mind
+page_type: synthesis
+status: active
+knowledge: earned
+date_created: 2026-07-18
+date_modified: 2026-07-18
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
+  - "raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md"
+  - "raw/self/message-csv/messages_3476070497_all_time.csv"
+  - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+tags: [personality-profile, forensic-analysis, relationships]
+connections:
+  - page: wiki/people/annie-ulmer
+    type: contains
+    claim: "The central case: 127 exit declarations against 110 re-engagements (87% relapse, DERIVED) — and the loop ran on her side too, in the March 19–20 2026 block-unblock-block sequence."
+  - page: wiki/people/tom
+    type: contains
+    claim: "The peer-bond case: the May 18 2026 conditional unblock ('I'm unblocking you for the moment… otherwise fuck you'), with the 2014 declared-done-then-return precedent proving the loop predates Annie by a decade."
+  - page: wiki/people/kristin
+    type: contains
+    claim: "The inbound control case: Kristin's Dec 9 2025 block of Dan held permanently — the counterparty had no dependency running through the channel, so her severance was structural, not declarative."
+  - page: wiki/people/rick-frank
+    type: contains
+    claim: "The held amputation: a 12-day outbound burst in late 2015 followed by a decade of unanswered inbound — the control case proving Dan's blocks hold precisely when nothing he needs still flows through the channel."
+  - page: wiki/timeline/events/march-2026-terminal-phase
+    type: contains
+    claim: "Carries the documented instance of Annie running the loop herself: threatens exposure, blocks, unblocks to send final lines, blocks again — the operation is bidirectional inside the bond."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: caused-by
+    claim: "The loop is the conflict engine's no-halt-condition defect expressed as a channel operation — and the engine's machine mirror (the 414-message Grok re-engagement loop) reproduced it in software with no human emotion involved."
+  - page: wiki/mind/concepts/attachment-model
+    type: caused-by
+    claim: "The attachment model transmits 299 love-affirmations and zero severance signals — a system that cannot emit 'closed' can only emit 'blocked', and a block backed by no severance capacity reopens."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: contextualizes
+    claim: "The trauma-bond page documents the Annie loop as bond-specific; this page shows the same operation running on peer bonds, flings, family, accounts, and software — the loop is architectural, not partner-specific."
+  - page: wiki/mind/synthesis/totality-themes
+    type: parallels
+    claim: "The amputation/repatriation grammar is this loop at the infrastructure layer: the May 2014 account migration is a block, the 2022 repatriation a documented return-from-amputation — one operation, domain-general."
+  - page: wiki/mind/synthesis/supply-network
+    type: parallels
+    claim: "Dependency predicts which blocks hold: the Tom block failed while he was the sole supply node, and the Menore channel closed cleanly the moment geography ended the dependency — no block ever needed."
+---
+
+# The Block/Unblock Loop
+
+Across the corpus, Dan's severances follow one script: **the exit is
+declared, not executed.** A block, an "I'm done," an account
+abandonment — a bounded burst of deliberate boundary-setting — followed,
+at high frequency, by re-engagement from the same hand that set the
+boundary. The Annie decade quantifies it (127 exit declarations, 110
+re-engagements — an 87% relapse rate), but the operation is not an
+Annie phenomenon. It runs on peer bonds, on flings, on family, on
+accounts and platforms, and — in the loop's most clinical exhibit — in
+software Dan himself built. This page generalizes the pattern and
+states the one rule that predicts, across every documented case,
+whether a given severance will hold.
+
+## The rule
+
+**A block holds if and only if nothing Dan needs still flows through
+the channel.** The block itself is an emotional act; it changes the
+channel's state but not the dependency behind it. When a dependency —
+supply, attachment, validation — still runs through the blocked
+channel, the dependency reopens it, usually quickly, and usually
+disguised as something other than contrition. When the dependency is
+dead, the block is permanent and effortless, with no relapse
+documented at all.
+
+| Case | Block event | Dependency through channel | Held? |
+|---|---|---|---|
+| [[wiki/people/annie-ulmer]] | 127 exit declarations, 2015–2026 | Attachment + (terminal phase) she needs his supply | 110 relapses (87%) |
+| [[wiki/people/tom]] 2014 | "I'm done… not doing this stupid fucking dance" (Sept 10) | Sole informal strip source | Reopened in 5 days ("yo looking to purchase") |
+| [[wiki/people/tom]] 2026 | Blocked May 18, unblocked same day with ultimatum | Still the only supply node | Reopened same day |
+| [[wiki/people/rick-frank]] | 12-day outbound burst late 2015, then dark | None — no material or validating flow | Held a decade (12 unanswered reaches 2025–26) |
+| May 2014 account | Migration burst, old account abandoned | None at the time | Held 8 years |
+| 2022 repatriation | — (the reverse operation) | Continuity value rediscovered | Deliberate, ramped return |
+| [[wiki/people/kristin]] (inbound) | She blocks Dan, Dec 9 2025 | She needed nothing from him | Held |
+| [[wiki/people/menore]] (control) | No block — farewell text, Feb 20 2025 | Dependency ended by geography | Clean close, no loop |
+
+The two control rows carry the argument. Rick's amputation is the
+proof that Dan *can* hold a severance indefinitely — the capacity is
+not missing; it simply only operates where the dependency is already
+dead. And Menore is the proof of the converse: when a dependency ends
+structurally (the move to Pennsylvania), no block is needed at all —
+the record's only fully clean closure ("Thanks again for everythin.
+You guys are the best") is the one where the material need ended
+before the relationship did.
+
+## Why the unblock is never an apology
+
+[[wiki/mind/concepts/conflict-architecture]] documents the repair
+asymmetry: 1,512 "I love you" against 180 "I'm sorry." The re-opened
+channel follows the same grammar — the return message is a
+re-affirmation, a need ("yo looking to purchase"), or a conditional
+ultimatum ("I'm unblocking you for the moment — if you want to let me
+know what's going on this morning I'll keep it open otherwise fuck
+you"), never a concession that the block was wrong. This is the
+[[wiki/mind/concepts/attachment-model]]'s 299:0 finding expressed as a
+channel operation: a system that emits love-affirmations but has no
+vocabulary for "closed" cannot end anything by saying so — it can only
+toggle the channel state and wait for the dependency to decide.
+
+The loop is also **bidirectional inside a bond.** In the March 19–20,
+2026 fight ([[wiki/timeline/events/march-2026-terminal-phase]]), it is
+Annie who threatens exposure, blocks Dan, unblocks to fire final
+lines, and blocks again — and Kristin's December 2025 endgame is her
+executing a block against him. The operation is not a private defect;
+it is the negotiating grammar both sides of Dan's intense bonds learn
+to speak. What distinguishes the counterparties' blocks is only the
+rule above: Kristin's held because she needed nothing back.
+
+## The machine proof
+
+The cleanest evidence that the loop is architecture rather than
+emotion is the **Grok-loop artifact**: an automated agent Dan built
+that produced the largest message flood in the entire corpus — a
+414-message stateless re-engagement run with no stop condition,
+out-flooding the largest human run (~131) by a factor of three. The
+software had no feelings, no shame, and no Annie; it re-engaged
+because nothing in its design said *stop*. That is the block/unblock
+loop reduced to its mechanism — a resolution-seeker with no halt
+condition — running on silicon, timestamped, with the human variables
+removed. The human loop is the same program with slower hardware and
+an exhaustible Fe function.
+
+## What this changes
+
+- **Prediction.** Any current or future severance in the record can be
+  scored by the rule: is anything still flowing through the channel?
+  The May 30, 2026 Tom endpoint (threat to involve Phil, no
+  reconciliation documented) is unresolved precisely because the
+  dependency question is unresolved — if the supply need persists and
+  no replacement node exists, the loop's history says the channel
+  reopens.
+- **Reading blocks correctly.** A Dan block should never be read as a
+  terminal event, and — per the repair-asymmetry — its reversal should
+  never be read as an apology. Both are channel-state toggles governed
+  by dependency, not verdicts.
+- **The June 1, 2026 closure test.** The Annie closure is the loop's
+  live experiment: the first exit attempted *after* her material
+  dependency on his supply ended (the Marucas job) and after a decade
+  of 87% relapse. The rule predicts this one can hold where the
+  previous 110 could not — and the post-closure record (one apology
+  received June 5, no documented re-engagement from Dan's side) is,
+  so far, consistent with that prediction.
+
+## Gaps
+
+- The 127/110 pair remains [DERIVED] from the dossier passes; a
+  primary recount from the raw dumps is queued on
+  [[wiki/mind/synthesis/dan-annie-fallout-verdict]].
+- Whether the Tom channel reopened after May 30, 2026 is undocumented
+  — the record simply ends; the rule's prediction for it is on the
+  record above and is falsifiable by the next data drop.
+- Blocking events with minor contacts (the long tail) have not been
+  systematically mined; the loop's frequency outside intense bonds is
+  unmeasured.
+
+
+========================================================================
 PAGE: wiki/mind/synthesis/bond-switch-2015.md
 ========================================================================
 
@@ -7637,7 +7828,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-17
+date_modified: 2026-07-18
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/annie_all_time_logs.csv
@@ -7704,7 +7895,9 @@ This page is the capstone synthesis of the fallout. **Every load-bearing claim b
 - *"You're literally fucking insane."* — **[DOSSIER]** transcribed in `DanAnnie_CorrectiveAddendum.txt` as Annie, Oct 19 2024 (alongside the two rows above). **Not in the primary dump scanned** — the paired rows confirm the episode's timestamp/window, so the third line is attributed to the same 2024-10-19 03:07/17:49 exchange but is dossier-only until the exact row is located.
 - The harm here is categorically distinct from infidelity: it attacked his capacity to know reality. The dossiers rate this the most serious moral failure of the terminal phase precisely because it targets the verification function itself.
 
-**3. The "love" in the terminal window was an instrument, not a feeling — and he named it in real time.** The 187:4 love-to-request ratio is **[DERIVED]** (dossier count from MasterRecord_FINAL, 7-month window, not recomputed from raw here). But Dan's own articulation of the mechanism is **[DOSSIER]**-transcribed in `report collection.txt` / `Honest assessment and value judgment analysis.md`: *"You have never once said I love you and not needed something from me immediately after"* (Dan, Jan 24 2026). **Not located in an on-disk CSV scanned this pass** — secondary until the primary row is found. The behavioral pattern it describes (love-language rebounding to 2.7% in 2025 precisely as the supply relationship established) is documented on the Annie page from the corpus; the specific sentence is dossier-sourced.
+**3. The "love" in the terminal window was an instrument, not a feeling — and he named it in real time.** The 187:4 love-to-request ratio is **[DERIVED]** (dossier count from MasterRecord_FINAL, 7-month window). But Dan's own articulation of the mechanism is **[DOSSIER]**-transcribed in `report collection.txt` / `Honest assessment and value judgment analysis.md`: *"You have never once said I love you and not needed something from me immediately after"* (Dan, Jan 24 2026). **Not located in an on-disk CSV scanned this pass** — secondary until the primary row is found. The behavioral pattern it describes (love-language rebounding to 2.7% in 2025 precisely as the supply relationship established) is documented on the Annie page from the corpus; the specific sentence is dossier-sourced.
+
+> **REVISED [2026-07-18] — the 187:4 statistic does not survive a controlled recomputation.** A primary recount from `imessage_7244346811+2124702449_both_all_now.csv` (Aug 1 2025 – Mar 16 2026; her side = 8,293 messages) reproduces the *ratio*: 212 of her 220 love-declarations (96.4%) have a request-like message from her within ±24h — statistically identical to the dossier's 187/191 (96.6%). **But the control the dossier never ran deflates it: 97.2% of a random sample of ALL her messages in the window have a request within ±24h.** She made requests nearly every day, so *any* class of her messages is ~96–97% "request-adjacent" at a 24-hour radius — the adjacency carries no information about love specifically. Worse for the thesis, the directional tight-window test **inverts** it: a drug/money request follows within 1 hour of her love-declarations only 3.2% of the time, against a 16.2% baseline for her average message (2h: 4.5% vs 20.8%; 6h: 9.1% vs 30.2%). On the text record, her love-declarations were systematically *more isolated* from requests than her ordinary messages, not less. What survives: the love-language *rate* collapse-and-rebound (2.7% recovery timed to the supply relationship) is unaffected, and Dan's Jan 24 2026 subjective report stands as his lived read — but the 187:4 figure should no longer be cited as statistical evidence of a procurement instrument. (Caveats: request lexicon is heuristic; in-person and call behavior is invisible to this test.)
 
 **4. The defamation campaign ran concurrently with private denials — the moral weight sits above ordinary betrayal.** Two written denials of any third party (Nov 2025, Feb 2026) were issued while she was involved with Tuquick, and while a defamation narrative (false rape allegation, "junkie" framing) circulated in their shared peer network. The June 1, 2026 group chat confirmed both:
 - *Annie exit line* — **[RAW-CSV]** `THE END FIGHT.csv` / `imessage_2124702449_both_all_now.csv` / `ANNIETEXTS.csv`: `2026-06-01 00:27:49 | Sent (Received by Dan) | +121****2449 | Goodbye forever. This was not how it should have ended but. sic semper lupanis.`
@@ -7719,13 +7912,15 @@ The operator's directive is explicit: engage the diagnosis→behavior gap, do no
 
 **The conflict engine has no domain selector and no halt condition.** His Ti-dominant processing reads emotional bids as propositions to litigate. "I don't feel secure" becomes a claim to adjudicate, not a feeling to hold. The engine runs an infinite loop on non-terminating input — two incompatible subjective realities cannot be merged into a single truth, so it never reaches the "click" of resolution, and it drains. Concession routes through Core Axiom 1 ("not exceptional = worthless"), so acknowledging the other person's reality is coded as self-annihilation and the halt is blocked. This is *his* machinery, running on *her* silence.
 
-**The attachment model cannot self-close without an explicit severance signal, and she issued none.** 299 love affirmations across the corpus, **0 explicit severance signals** — **[DERIVED]** (MasterRecord synthesis count; the 0-severance figure is consistent with the raw record showing her final message is the June 5 apology, not a severance). Because positive verbal rhetoric functions as an absolute rule in his architecture until countermanded, the bond stayed active through a fifteen-month terminal phase. Every "I love you" while withdrawing behaviorally generated a data conflict that prevented closure.
+**The attachment model cannot self-close without an explicit severance signal, and she issued none.** 299 love affirmations across the corpus, **0 explicit severance signals** — the 0-severance half is now **[RAW-CSV]** (2026-07-18 recount of her 41,073 messages in the dual-handle export: a severance-lexicon sweep returns only false positives — a quoted denial of "rather just break up," a literal ice-breaking anecdote; her final substantive message remains the June 5 apology). The 299 figure itself remains **[DERIVED]** — no window/lexicon reproduces it exactly (her terminal-phase love-messages: 231; his: 355; her all-time in this export: 1,302). Because positive verbal rhetoric functions as an absolute rule in his architecture until countermanded, the bond stayed active through a fifteen-month terminal phase. Every "I love you" while withdrawing behaviorally generated a data conflict that prevented closure.
 
-**The re-engagement loop trained her to ignore his limits.** 127 exit declarations, 110 re-engagements — an 87% relapse rate **[DERIVED]** (MasterRecord). The apologies were re-affirmations, not contrition (the full-corpus triad: 1,512 "I love you" / 232 "fuck you" / 180 "I'm sorry" — **[DERIVED]**, bootloader v2.1 on the 181,585-message corpus). He affirms 6.5× more than he attacks and apologizes least of all. Reassurance restabilizes the bond *without resolving the breach*, so the loop reloads at a lower baseline every cycle. The confession trap names the other side: he could not exit without the validation of a confession he had already earned, because leaving without the verdict would mean abandoning the identity of the person who was right. "The exit was never through the verdict. It was through the door."
+**The re-engagement loop trained her to ignore his limits.** 127 exit declarations, 110 re-engagements — an 87% relapse rate **[DERIVED]** (MasterRecord; a loose exit-lexicon sweep of his 44,513 messages finds 176 candidates, order-consistent but definition-dependent — the exact pair remains unreproduced). The apologies were re-affirmations, not contrition (the full-corpus triad: 1,512 "I love you" / 232 "fuck you" / 180 "I'm sorry" — **[DERIVED]**, bootloader v2.1 on the 181,585-message corpus). He affirms 6.5× more than he attacks. Reassurance restabilizes the bond *without resolving the breach*, so the loop reloads at a lower baseline every cycle.
+
+> **REVISED [2026-07-18] — triad partially confirmed, "apologizes least" not reproduced.** Recount from `all_imessages_complete_dump.txt` (217,573 rows through Aug 10 2025, sender-tagged): Sent "love you" = 1,528 messages (strict "i love you": 1,388) — the 1,512 figure is confirmed to lexicon precision. Sent "fuck you" = 111 through Aug 2025; his terminal-window count adds 74 (below), making the 232 total plausible for the full corpus through June 2026 — consistent, not exactly reproduced (the dump ends before the terminal phase). But Sent "I'm sorry / I am sorry" = **435** through Aug 2025 alone — more than double the claimed 180, and ~4× his attack count. Under any plain lexicon he apologizes *more* than he attacks, not "least of all"; the 180 figure would require an unstated narrower definition (e.g. contrition-to-Annie only, excluding sympathy usage). The load-bearing finding — **reassurance dominance** (affirmation an order of magnitude above both) — survives and strengthens; the apology-deficit ordering does not. The confession trap names the other side: he could not exit without the validation of a confession he had already earned, because leaving without the verdict would mean abandoning the identity of the person who was right. "The exit was never through the verdict. It was through the door."
 
 ## The ledger runs both ways — what was his responsibility
 
-- **94 burst events**, each preceded by her silence **[DERIVED]** (MasterRecord; the "crash-out" framing is hers, the sequence — burst-follows-silence — is the dossiers' corrected read). Verbal abuse escalated 9 (Aug 2025) → 36 (Feb 2026): 74 "fuck you" / 17 "piece of shit" / 11 "worthless" **[DERIVED]**.
+- **94 burst events**, each preceded by her silence **[DERIVED]** (MasterRecord; the "crash-out" framing is hers, the sequence — burst-follows-silence — is the dossiers' corrected read; a full-dump run-count with a 2-minute gap threshold yields 11,666 sent-runs ≥3, max single run 149 through Aug 2025 — order-confirms burst behavior but the 94 figure is parameter-dependent and unreproduced exactly). Verbal abuse escalated 9 (Aug 2025) → 36 (Feb 2026): 74 "fuck you" / 17 "piece of shit" / 11 "worthless" — **upgraded [RAW-CSV] 2026-07-18: all three counts reproduce EXACTLY** from his side of the dual-handle export in the Aug 1 2025 – Mar 16 2026 window (74 / 17 / 11; her side in the same window: 0 / 1 / 0 — the asymmetry is complete). His in-window "I'm sorry" count, for the same ledger: 121.
 - **He was the supply-chain architect.** The terminal-phase retention mechanism — Dan controlling the drug supply while Annie was unemployed and dependent — was his, operating independently of love or strategy. The financial oscillation ran three rotations (he funded early NYC; she was sole earner in 2024 after his involuntary Au Za'atar exit; he became the Uniontown supply chain in 2025–26). The magnitude is now quantified from payment-app ledgers: across Cash App and Venmo, Dan sent Annie on the order of **~$139K** and received back only **~$16–20K** — a net outflow to her of roughly **$119K–$123K** over the relationship (per operator-provided screenshots of her profiles viewed from his apps, 2026-07-15; two separate app ledgers, not a single summed total; see [[wiki/people/annie-ulmer]] "The money — quantified"). The "funded" read is not metaphor: it is a six-to-one financial asymmetry in her favor.
 - **The arrangement was his design.** The quasi-non-monogamy framework is read in the dossiers as "the most concentrated expression of his retention architecture." Annie participated and said she enjoyed it; the asymmetry (she never delivered the reciprocal side) is real, but the frame was his.
 - **The Whisk / fake-surveillance escalation.** The Jan 2025 spoofed-number test is rated by the dossiers as one of his most measured acts (he held the power to burn a life and did not use it). Its verification in raw: **[RAW-CSV]** `imessage_2124702449_both_all_now.csv`: `2026-01-05 23:02:51 | Received | Nice. Real mature. Goodnight.` (Annie's reply to the Whisk stimulus — recognition, not confusion). But a later session shows he went on to have Claude build, then built without Claude's help, three fake surveillance-TUI scripts hardcoded with Annie's real name and home streets — the restraint and the escalation are both documented; the arc points toward control, not just detection.
@@ -7770,11 +7965,193 @@ The synthesis the wiki already carries — "the gaslighting outweighed the affai
 
 ## What still needs primary verification
 
-- **Eli intro text** ("Hey Dan. It's Eli…") — dossier-transcribed (`report collection.txt`); the underlying row is in MasterRecord_FINAL, not in the on-disk CSVs/dump scanned. Locate the primary row to upgrade [DOSSIER]→[RAW-CSV].
+- **Eli intro text** ("Hey Dan. It's Eli…") — dossier-transcribed (`report collection.txt`); re-searched across all of `raw/` 2026-07-18 and still absent from every on-disk CSV/dump — the underlying row is in MasterRecord_FINAL only. Locate the primary row to upgrade [DOSSIER]→[RAW-CSV].
 - **"You're literally fucking insane" (Oct 19 2024)** and **the Jan 24 procurement line** and **the Mar 16 "I misunderstood the conversation"** — dossier-only this pass.
-- **The 187:4, 299/0, 127/110, 1,512/232/180, 94-burst, and verbal-abuse counts** — [DERIVED] from dossier passes; recomputable from `all_imessages_complete_dump.txt` / `imessage_2124702449_both_all_now.csv` if a primary-count pass is wanted.
+- **The primary-count pass ran 2026-07-18.** Results now inline above: verbal-abuse triple (74/17/11) **confirmed exactly** [RAW-CSV]; 0-severance **confirmed** [RAW-CSV]; 1,512 love-affirmations confirmed to lexicon precision; 232 consistent-not-exact; **180 "I'm sorry" and the "apologizes least" ordering NOT reproduced** (plain-lexicon recount: 435 through Aug 2025); **187:4 deflated by base-rate control and inverted by the directional test** (see REVISED block); 127/110 and 94-burst order-consistent but definition-dependent, still [DERIVED]; 299 unlocated. The "768 messages sent 2026-05-31" bootloader figure remains non-reproducible (closure export shows 265 Sent / 482 total that day) — unchanged from the 2026-07-15 finding.
 - **April–May 2026 final-weeks page** is built from a single chat-analysis session, not an independently located raw CSV for that window; its dated, quoted messages (GPS-with-third-party May 5; the "25 Nov 2015 – 04 May 2026" self-periodization) are **[RAW-CSV]** verified above, but the surrounding "Betrayal Catalog" / pregnancy claims in that same source are explicitly uncorroborated and excluded.
 - **The pregnancy reference** (claimed due date Nov 18) appears in two chat-analyses only, contradicts primary message exports, and is not adopted as fact anywhere in the wiki.
+
+
+========================================================================
+PAGE: wiki/mind/synthesis/estate-money-spine.md
+========================================================================
+
+---
+domain: mind
+page_type: synthesis
+status: active
+knowledge: earned
+date_created: 2026-07-18
+date_modified: 2026-07-18
+sources:
+  - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+  - "raw/self/dox-md/operating_manual.md"
+  - "raw/self/dox-md/MAX_PRIME.md"
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/message-csv/imessage_7243228715_both_all_now.csv"
+  - "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"
+tags: [financial-stress, forensic-analysis, family]
+connections:
+  - page: wiki/people/fran-coldren
+    type: contains
+    claim: "Fran is the spine's maternal source node: the Ira-estate capital she held (Judge Fred Adams as trustee) became the 2020 distribution — the biography's largest documented single capital arrival at $144,069.31."
+  - page: wiki/people/rick-frank
+    type: contains
+    claim: "Rick's Frank's Auto Supermarket is the paternal capital line — the anti-union 'kushy lives' engine Dan indicts in the Aug 22 2020 message, written one day after the court signed his own estate distribution order."
+  - page: wiki/people/suzanne-frank
+    type: contains
+    claim: "Suz is the spine's switchboard: the estate check was deposited through her, the $750/week borrowing cycles ran through her, she facilitated the supply-purchase Cash App transfers, and as realtor-seller of 337 Saratoga she is executing the next capital event."
+  - page: wiki/timeline/periods/2017-poverty-floor
+    type: contains
+    claim: "The poverty floor is the spine's zero point — water shut off, gold and clothes sold, a $120 drug debt as a materially significant liability — the reference state against which every later arrival and burn is measured."
+  - page: wiki/timeline/periods/2020-2021-market-era
+    type: contains
+    claim: "The market era opens within weeks of the Sept 1 2020 estate check — the inheritance is the probable stake behind the ~$15k FSLY position and the $25k Robinhood peak, a temporal join the corpus supports but never states (flagged as inference)."
+  - page: wiki/people/annie-ulmer
+    type: contains
+    claim: "The ~$119–123K net payment-app outflow to Annie is the spine's largest documented drain — the single biggest destination of Dan's lifetime capital anywhere in the record, roughly the size of the entire estate distribution."
+  - page: wiki/places/337-saratoga-drive
+    type: contains
+    claim: "The $465k sale is the spine's next capital event and the first where Dan is bystander rather than beneficiary — the family-built asset liquidating around him while his own housing lands on the unpapered 463 arrangement."
+  - page: wiki/legal/463-morgantown
+    type: contains
+    claim: "463 is where the spine currently points: no lease, blended agency, a ~July 2026 mechanics-lien deadline, and no absorber for a lien-sized shock — the housing configuration produced by the capital timeline's present state."
+  - page: wiki/timeline/periods/2025-collapse
+    type: contains
+    claim: "The collapse period carries the spine's terminal accounting: the three-rotation earner see-saw with Annie, the 2026 'broke' status, and the return to PA framed as escaping metropolitan financial drains to manage regional assets."
+  - page: wiki/mind/synthesis/supply-network
+    type: parallels
+    claim: "The supply network is the spine's standing drain and its structural mirror: capital arrives in lumps (estates, market wins) and exits through constant metered flows (supply, rent, the Annie asymmetry) — the mismatch between lump income and metered outflow is why no arrival ever holds."
+---
+
+# The Estate / Money Spine
+
+Money in this biography does not accumulate; it **arrives in lumps and
+exits through standing drains.** This page traces the capital timeline as
+a single causal chain — from the two family source-lines, through the
+2020 estate distribution, the market era, the wage years, and the
+decade's largest single drain, down to the 2026 state (broke, housed on
+an unpapered arrangement with a lien clock running). Read as one system,
+the spine explains the biography's central financial puzzle: how a life
+positioned downstream of genuine family capital — a coal-region estate
+on one side, a successful auto-parts chain on the other — repeatedly
+lands at water-shutoff poverty, and why every capital arrival dissipates
+on a timescale of months.
+
+## The two source-lines and their trustee
+
+The family capital has two lines, and Dan holds neither. The **maternal
+line** runs through [[wiki/people/fran-coldren|Fran Coldren]]: her third
+husband Ira's money (Dan traces it further back to a "coal baron"
+marriage in Fran's sequence), held in accounts managed by **Judge Fred
+Adams — Ira's old law partner and "basically the trustee of her
+accounts"** — the named institutional node of the family's capital. The
+**paternal line** is [[wiki/people/rick-frank|Rick Frank]]'s Frank's
+Auto Supermarket, the anti-union auto-parts chain that funded the
+"kushy" Republican-household origin period. Both lines reached Dan only
+as gifts and distributions: Fran's "$100/year" protocol and the NS7
+gift, summer wages driving parts deliveries, and ultimately the estate.
+
+The one moment the two lines cross in a single document is dated to the
+day. On **August 21, 2020** the court signed the order distributing
+**$144,069.31** of the Fran estate to Dan. On **August 22, 2020** he
+wrote the family-thread message pairing his new politics with both
+source-lines at once: "it feels super gross knowing that dad fought to
+keep frank's auto employees from unionizing and that we have such kushy
+lives because of it," alongside discomfort that the Fran inheritance
+traces to a coal baron. The
+[[wiki/mind/synthesis/2020-left-turn|left turn]]'s class-guilt clinch was
+written the day after its author's own largest capital arrival was
+signed into effect — the spine's single most legible irony, and a dated
+one.
+
+## The chain, event by event
+
+| Date | Event | Amount |
+|---|---|---|
+| 2017 | Poverty floor: water shutoff, overdrawn account, gold/clothes sold | −(floor) |
+| 2018 | Deep-cycle velocity: ~$750/week borrowed from Suz, 1 AM ATM runs | churn |
+| 2018-04-04 | Fran dies; estate enters administration | — |
+| 2020-06-23 | Estate advance issued | $10,000 |
+| 2020-08-21 | Court signs final distribution order | $144,069.31 total |
+| 2020-09-01 | Final check released, deposited via Suz | $134,069.31 |
+| 2020-09 | FSLY position opened (~$15k portfolio) | market stake |
+| 2021-01 | Robinhood peak | ~$25k |
+| 2021-02 | CCIV bloodbath day | −$6k |
+| early 2021 | "The money just ran out" → Au Za'atar hire (Mar 2021) | ~$0 |
+| 2021–2024 | Wage era; 2023 landlord-debt accumulation | wages |
+| 2024-08 | Involuntary job loss; Annie sole earner through 2024 | −income |
+| 2025-02 | Return to PA: "escaping systemic metropolitan financial drains" | — |
+| 2026 | Broke (primary-source status); BFS job gained and lost | ~$0 |
+| ~2026-06 | 337 Saratoga sale ($465k, Suz's transaction); land at 463 Morgantown | bystander |
+
+The most striking single measurement in the chain is the **burn rate of
+the estate**: $134,069.31 lands September 1, 2020, and by early 2021 —
+roughly six months — the Au Za'atar storytime opens with "the money just
+ran out." The market account peaked at ~$25k, so the market cannot have
+absorbed most of it; the balance went out through the standing drains
+(Manhattan rent, the daily [[wiki/mind/synthesis/supply-network|supply
+line]], and the Annie outflow, below). No exit accounting exists for the
+market positions, and no ledger reconstructs the six months — but the
+endpoints are both documented, and the interval is the spine's
+characteristic timescale: **a lump arrival survives about two quarters.**
+
+## The largest drain
+
+The decade's biggest documented capital flow is not rent, drugs, or the
+market. It is [[wiki/people/annie-ulmer|Annie]]: ~$139K sent against
+~$16–20K received across Cash App and Venmo — a net outflow of roughly
+**$119K–$123K**, approximately the size of the entire estate
+distribution. The financial history of the relationship is a
+three-rotation see-saw (Dan funds the early NYC years → Dan works
+through the 2023 landlord-debt stretch → Annie sole earner through 2024
+after the involuntary job loss), but the see-saw's net is six-to-one in
+her favor. Set against the source-lines, the spine's shape is complete:
+**family capital entered from two lines Dan never controlled, and the
+largest share of what reached him exited through a relationship whose
+terminal phase ran on him controlling her supply** — the money and the
+supply network are the same architecture at different layers.
+
+## Suz, the switchboard
+
+Every major flow in the chain passes through
+[[wiki/people/suzanne-frank|Suz]]: the estate check was deposited
+through her; the deep-cycle borrowing (~$750/week) came from her; the
+supply-era Cash App transfers were facilitated by her; the 337 Saratoga
+sale — the next capital event — is her transaction, as both owner and
+realtor; and the 463 landing is structured by her blended
+agent/tenant/caretaker role. The spine has no bank in it, in the
+functional sense; it has a mother. That concentration is the financial
+expression of the [[wiki/mind/concepts/contact-gini|Gini]] pattern — a
+single node carrying flows a diversified system would spread — and it
+means her own cyclical finances (the same $750/week record) are a
+single point of failure for the whole chain, exactly when the
+[[wiki/legal/463-morgantown|463 lien clock]] (~July 27, 2026) needs an
+absorber the record says does not exist.
+
+## What the spine predicts
+
+The pattern — lump arrivals, metered drains, six-month survival, no
+holder position — is stable across twenty years, which licenses one
+forward claim: the **337 Saratoga proceeds ($465k)** will behave like
+every prior lump unless the structure changes, with the added
+difference that this lump is not Dan's. The record's own framing of the
+2025 return ("managing regional assets") positions him as caretaker of
+capital he does not hold — the same downstream position the spine
+documents from the beginning.
+
+## Gaps
+
+- No exit accounting for the market era; final P&L undocumented.
+- The six months September 2020 → early 2021 have endpoints but no
+  ledger; the burn decomposition (rent vs. supply vs. Annie vs. market)
+  is not separable from current sources.
+- The payment-app totals are operator-provided screenshots, not in
+  `raw/` — flagged on [[wiki/people/annie-ulmer]] as well.
+- Whether any 337 proceeds are earmarked for Dan's housing is
+  undocumented; no post-close plan exists in the record.
+- The coal-baron husband's identity (and thus the maternal line's true
+  origin) remains unresolved on [[wiki/people/fran-coldren]].
 
 
 ========================================================================
@@ -7787,7 +8164,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-17
+date_modified: 2026-07-18
 sources:
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
   - raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html
@@ -7813,6 +8190,9 @@ connections:
   - page: wiki/mind/synthesis/interests-as-era-markers
     type: causes
     claim: "The fixed rate is the enabling condition of the era-marker phenomenon: because volume never varies, subject is the only free variable, so subject-rotation carries the era signal that page reads as a timeline instrument."
+  - page: wiki/mind/synthesis/supply-network
+    type: parallels
+    claim: "The supply network is this finding's material-layer counterpart: a constant appetite requires a constant procurement architecture, and both persist across every era while only the nodes rotate."
 ---
 
 
@@ -8678,6 +9058,230 @@ The ideology this page treats as settled has a documented birthday: the COVID-lo
 
 
 ========================================================================
+PAGE: wiki/mind/synthesis/supply-network.md
+========================================================================
+
+---
+domain: mind
+page_type: synthesis
+status: active
+knowledge: earned
+date_created: 2026-07-18
+date_modified: 2026-07-18
+sources:
+  - "raw/self/dox-md/MAX_PRIME.md"
+  - "raw/self/dox-md/operating_manual.md"
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/message-csv/messages_3476070497_all_time.csv"
+  - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+tags: [addiction-recovery, forensic-analysis, financial-stress]
+connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: parallels
+    claim: "Dependency predicts which severances hold: Tom's blocks failed while he was the sole node, and Menore's channel closed cleanly when geography ended the need — the loop and the network share one governing variable."
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: parallels
+    claim: "The money spine is the capital layer of the same architecture: lumps arrive (estates, market wins) and exit through the network's constant metered flows — lump income against metered outflow is why no arrival holds."
+  - page: wiki/people/tom
+    type: contains
+    claim: "Tom is the terminal-era primary node (sole strip source by 2025) whose friendship-embedded unreliability — the identical 2014 and 2026 owe-and-silence cycles — is the network's characteristic failure mode at its most costly."
+  - page: wiki/people/johnny-dealer
+    type: contains
+    claim: "Johnny is the 2018 deep-cycle primary node; his vacations, dead phone, and MIA stretches produced the first documented single-node supply panics ('I have no other person I can get z from')."
+  - page: wiki/people/teddy
+    type: contains
+    claim: "Teddy is the 2018–20 Uniontown parallel node whose own fines, probation, and borrowing show the network's suppliers were as financially fragile as its buyer — precarity ran the whole chain."
+  - page: wiki/people/menore
+    type: contains
+    claim: "Menore is the NYC node and the network's reliability outlier — 99.3% availability (455 of 458 requests answered over 6.5 years, median 7-minute reply) — the control case proving distance outperforms friendship in this market."
+  - page: wiki/people/annie-ulmer
+    type: contains
+    claim: "Annie occupies both sides of the network across its life: logistics facilitator in the 2018–19 Johnny era, then dependent consumer in the terminal phase, when Dan controlling the supply ('bop') became the relationship's primary retention mechanism."
+  - page: wiki/mind/synthesis/intake-constancy
+    type: parallels
+    claim: "The network is the material-layer counterpart of the fixed-rate intake metabolism: a constant appetite requires a constant procurement architecture, and both persist across every era while only the nodes rotate."
+  - page: wiki/mind/concepts/contact-gini
+    type: parallels
+    claim: "Supply concentration tracks relational concentration: 2018's multi-dealer redundancy decays to a single node by 2025 exactly as the contact graph collapses toward Gini 0.961, leaving both systems one failure away from crisis."
+  - page: wiki/work/bfs-foods
+    type: causes
+    claim: "The network's terminal-era fragility is a documented proximate cause of the BFS job loss: the three-burns-in-four-days sourcing cascade consumed Dan's optionality and the resulting withdrawal impaired the shift the drawer variance was pinned to."
+  - page: wiki/work/au-zaatar
+    type: co-occurs
+    claim: "The network wrapped around the workday: Menore served Dan mid-shift at the Shed through taxi windows — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58), with the storytime's longer 2021–24 window unresolved against the thread's four-year gap."
+---
+
+# The Supply Network
+
+Since January 2011, Dan has been on a daily Suboxone regimen — fifteen
+years, described in the primary sources as structural rather than
+recreational: a medical baseline, not an episode. That single fact makes
+procurement a permanent institution of his life, and this page treats it
+as one: not a series of unrelated dealer contacts scattered across
+people/ pages, but **a single continuously-operating logistics
+architecture with succession, redundancy, failure modes, and a
+documented signature rupture pattern.** Read as a system, it explains
+things no individual supplier page can: why a $36 debt ended a
+sixteen-year friendship, why a missed handoff helped end a job, and why
+the last months of the Annie relationship ran on an inverted version of
+the same machine.
+
+## The succession of nodes
+
+The network has never had more than a few active nodes, and its history
+is a chain of successions rather than an open market. The primary
+sources name the spine directly: Johnny (2018-era dealer), then Tim,
+then Tom as primary strip source by 2025, with Suz facilitating Cash App
+transfers along the way.
+
+| Node | Era | Territory | Role |
+|---|---|---|---|
+| [[wiki/people/tom]] | ~2010–2026 | Uniontown/Pittsburgh | Friend-supplier; strips, mushrooms, cocaine, klonopin; sole strip source by 2025 |
+| [[wiki/people/johnny-dealer]] | 2018–2019 | Uniontown | Primary deep-cycle dealer; strips ($15/8mg, $20/12mg), "b's"; fronts |
+| Second dealer (+17243233522) | 2018 | Uniontown | Parallel node in the deep cycle (operating manual) |
+| [[wiki/people/teddy]] | 2018–2020 | Uniontown/Fairchance | Parallel informal supplier; strips, pills; credit and holds |
+| [[wiki/people/menore]] | 2013?, 2018–20 + 2024–25 | NYC | Professional delivery operator; 99.3% availability, median 7-min reply |
+| Tim | ~2020s | undocumented | Named in the MAX_PRIME succession; no thread yet identified |
+| "bop" / "Felix" | 2026 | Uniontown | Current-connect vocabulary; identities unresolved |
+
+Two structural properties stand out. First, **the network survives every
+biographical rupture.** It spans both cities, every job, every
+relationship era; when Dan returned to NYC in November 2018 after a
+5.5-year absence, Menore answered in one minute and resumed the exact
+prior service without renegotiation. The procurement layer has better
+continuity than any friendship, job, or address in the corpus — which is
+the [[wiki/mind/synthesis/intake-constancy|intake-constancy]] finding
+expressed in the material world: the appetite is constant, so the
+architecture that feeds it must be too, and it is the *nodes* that are
+disposable.
+
+Second, **redundancy decayed monotonically.** The 2018 deep cycle ran
+multiple parallel dealers (Johnny, the second handle, Teddy) — a
+supplier failure was an inconvenience. NYC ran on Menore's near-perfect
+uptime. But by 2025 the whole load sat on one friendship-embedded node,
+Tom, with no fallback. This is the same concentration curve the
+[[wiki/mind/concepts/contact-gini|contact Gini]] documents on the
+relational side (top handle = 45% of all sent messages, only 12 contacts
+ever cross 1k), and it has the same consequence: a single-node system
+converts any node failure into a system crisis.
+
+Beyond the named primary nodes, the record preserves a **minor-node
+layer** that fills out the market's true shape: [[wiki/people/al|Al]]
+(2018 cocaine, saved in contacts as "Socialist"),
+[[wiki/people/jajuan-davis|Jajuan Davis]] (high-frequency transactional,
+winter 2018–19), [[wiki/people/john-anderson|John Anderson]] (2019),
+[[wiki/people/eric-springer|Eric Springer]] (a one-month 2016 window),
+[[wiki/people/lindsay-carolla|Lindsay Carolla]] (small-scale cocaine,
+Thanksgiving 2016), [[wiki/people/jay-lauer|Jay Lauer]] (a seven-week
+suboxone/cocaine *trading* peer rather than a vendor),
+[[wiki/people/jim-vrabel|Jim Vrabel]] (marijuana, two and a half years,
+closer to a regular acquaintance), and in NYC
+[[wiki/people/clyde|Clyde]] (psychedelics: LSD, DMT, mushrooms — a
+separate product line from Menore's). None carried structural load — no
+minor node's failure produced a documented crisis — but their existence
+is the point: the 2016–19 network had *depth*, and the 2025–26 network
+had none. The redundancy the system lost by the terminal era is
+measured in exactly these names.
+
+## The reliability inversion
+
+Ranked by documented reliability, the network's nodes sort in a
+direction that is genuinely diagnostic: **the more purely transactional
+the relationship, the more reliable the supply.** Menore — a stranger
+operating a professional delivery service with vehicle rotation and
+operational discipline — answered 455 of 458 requests across 6.5 years
+(99.3%, median reply 6.6 minutes), with zero frustration messages from
+Dan anywhere in the thread.
+Johnny, transactional-but-social ("French toast diplomacy"), was
+reliable in-season but produced supply panics whenever he went on
+vacation or his phone died ("I have no other person I can get z from.
+Johnny leaving for the beach," Aug 2019). Teddy, semi-social, was
+willing but chronically fragile — fines, probation, borrowed money,
+robbed by another buyer. And Tom — the friend, the "anchor," the one
+node embedded in a real attachment — is the *least* reliable node in the
+record, running the owe-and-silence cycle in 2014 ("you stopped giving a
+fuck that you owed me when you didn't need me to buy your shit
+anymore") and again, nearly verbatim, in 2026.
+
+The inversion matters because it falsifies the intuitive model in which
+friendship secures supply. In this market it is the opposite: distance
+disciplines, intimacy licenses failure. A professional cannot afford a
+missed delivery; a friend can, because the friendship is expected to
+absorb it. The corpus's own capstone line for this is Dan's, after the
+May 2026 collapse: what bothered him most was not the money but "that he
+would be okay letting me go sick" — the discovery that the
+friendship-embedded node had a friend's sense of obligation, not a
+supplier's.
+
+## What node failure costs
+
+Because the dependency is structural (withdrawal, not disappointment),
+supply failure in the single-node era propagates into every adjacent
+domain, and the corpus documents each path:
+
+- **Employment.** The [[wiki/work/bfs-foods|BFS collapse]]: three failed
+  sources in four days (Tom stringing along Friday, a second contact
+  Sunday, a workplace customer mid-shift) left Dan working a register in
+  withdrawal — the shift the drawer variance was pinned to. Earlier, the
+  May 2026 no-show had him "calling off work" with termination risk. The
+  network's fragility is a documented proximate cause of the job's end.
+- **The friendship itself.** The Tom rupture (May 2026) is a supply
+  failure first and a relationship event second: blocking, the $36
+  demand, the threat to involve Tom's father. The system's last
+  redundancy-free node consumed the bond it was embedded in.
+- **The household economy.** The family financial layer was part of the
+  network's plumbing: Suz's Cash App transfers facilitated Tom-era
+  purchases, and the 2018 deep cycle ran on ~$750/week borrowed from
+  her. Procurement was never fiscally isolated from the family — a
+  thread the [[wiki/mind/synthesis/estate-money-spine|money spine]]
+  carries forward.
+- **The workday, physically.** At [[wiki/work/au-zaatar|Au Za'atar]],
+  Menore delivered mid-shift to the Shed block (primary-confirmed for
+  May–Aug 2024; the longer storytime window is unresolved — see
+  [[wiki/people/menore]]). At the country club, Teddy timed handoffs around
+  caddying reports. The network was never an after-hours activity; it
+  was co-located with employment throughout.
+
+## The inversion at the end: Dan as the supply node
+
+The network's final documented configuration is its most analytically
+important. In the terminal phase (August 2025 – March 2026), Dan is no
+longer only the network's consumer — he is its *distribution point* for
+[[wiki/people/annie-ulmer|Annie]], who is unemployed, dependent, and
+sourcing through him ("bop"). The primary sources call supply "the last
+transactional bond" of the relationship. (The oft-cited 187:4
+love-to-request adjacency statistic was deflated by a base-rate control
+on 2026-07-18 — see [[wiki/mind/synthesis/dan-annie-fallout-verdict]];
+the dependency structure itself, and the love-language rate rebound
+timed to the supply relationship, stand on independent evidence.) Annie had been a
+network *facilitator* in the Johnny era (drops, pickups, "I'm at
+Johnny's"); by the end she occupies the consumer seat with Dan in the
+supplier seat — and the retention dynamics that held *him* to unreliable
+suppliers for fifteen years (tolerating failure because the alternative
+is going sick) operate on her in reverse. The supply architecture, not
+sentiment, is the load-bearing structure of the relationship's final
+year — which is why her May 2026 job at "Marucas," reducing her
+dependency weeks before the June 1 closure, belongs in any account of
+why the end became possible.
+
+## Gaps
+
+- **Tim** is named in the MAX_PRIME succession between Johnny and Tom
+  but no message thread has been identified; era and product unconfirmed.
+- **"bop"** (current-connect vocabulary) and **"Felix"** (2026
+  supply-adjacent figure per MAX_PRIME) are unresolved identities. The
+  strongest candidate for the 2026 Felix is the
+  [[wiki/people/felix|463 contractor Felix]], whose own page already
+  carries the MAX_PRIME "supply-adjacent" note; [[wiki/people/john-felix]]
+  is a 2016 household-adjacent contact and should NOT be assumed to be
+  the same person — different era, no supply content in his thread.
+- The post-May-2026 state of the network — whether the Tom node
+  recovered, was replaced, or the regimen changed — is undocumented.
+- Menore's product was never named in-thread; the "8" unit remains
+  uninterpreted.
+
+
+========================================================================
 PAGE: wiki/mind/synthesis/totality-themes.md
 ========================================================================
 
@@ -8687,7 +9291,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-17
+date_modified: 2026-07-18
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -8707,6 +9311,9 @@ sources:
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
 tags: [ai-collaboration, trauma-bond, politics, personality-profile, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: parallels
+    claim: "The amputation/repatriation grammar documented here is the block/unblock loop at the infrastructure layer — the May 2014 account block and 2022 return-from-amputation are the same domain-general operation."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: contains
     claim: "The low-trust architecture section is the skepticism thesis carried as one of the totality's named themes."
@@ -9891,7 +10498,7 @@ importance: critical
 knowledge: mixed
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-07-18
 date_range_start: 2015-11-01
 date_range_end: 2026-06-01
 infobox:
@@ -9971,9 +10578,24 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: component-of
+    claim: "The 127/110 exit-relapse record is the loop's central case, and the March 2026 fight shows Annie running the same block-unblock operation back at Dan — the loop is bidirectional inside the bond."
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "The ~$119–123K net payment-app outflow to Annie is the money spine's largest documented drain — roughly the size of the entire estate distribution, exiting through the relationship over the decade."
   - page: wiki/people/tom
     type: co-occurs
     claim: "Tom is a recurring selected participant in the 2018-2024 arrangement documented on this page."
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Annie occupies both seats in the supply network across its life — logistics facilitator in the 2018–19 Johnny era, dependent consumer in the terminal phase, when Dan's control of the supply ('bop') was the relationship's primary retention mechanism."
+  - page: wiki/people/johnny-dealer
+    type: co-occurs
+    claim: "Annie ran facilitation through Johnny's node — drops, pickups, 'I'm at Johnny's' — making her a logistics participant in the 2018–19 supply chain, not a bystander to it."
+  - page: wiki/people/teddy
+    type: co-occurs
+    claim: "Teddy's final exchange checks whether both Dan's and Annie's numbers are current, placing Annie inside the supply thread's contact routine."
   - page: wiki/mind/synthesis/message-circadian-latency
     type: evidenced-by
     claim: "The circadian/latency cut supplies the quantitative case for the relationship's singularity: median 9-minute mutual reply latency against hour-scale delays everywhere else."
@@ -10290,7 +10912,22 @@ gaslighting architecture:
 
 - **The "I love you" anchor / procurement function.** 187 of 191 love
   declarations in the seven-month window were adjacent to a drug or money
-  request within 24 hours (96.6%); 4 stood alone. Her 2025 love-language
+  request within 24 hours (96.6%); 4 stood alone.
+  > **REVISED [2026-07-18]:** the 187:4 statistic is deflated by a
+  > base-rate control and should not be cited as evidence of a
+  > procurement instrument. Primary recount (dual-handle export, same
+  > window): 212 of her 220 love-declarations are request-adjacent at
+  > ±24h (96.4% — the ratio reproduces), **but 97.2% of a random sample
+  > of ALL her window messages are request-adjacent at the same radius**
+  > — she made requests nearly daily, so the adjacency is uninformative.
+  > The directional test inverts the claim: a request follows within 1h
+  > of her love-declarations 3.2% of the time vs a 16.2% baseline for
+  > her average message. On the text record her love-declarations were
+  > *more isolated* from requests than her ordinary messages. The
+  > love-language rate collapse/rebound below is unaffected; Dan's Jan
+  > 24 2026 line stands as his subjective read (dossier-sourced). Full
+  > method: [[wiki/mind/synthesis/dan-annie-fallout-verdict]].
+  Her 2025 love-language
   rate (2.7%) rebounded to near-2016 levels precisely when the supply
   relationship was established — the instrument reactivating, not the
   relationship recovering. Dan named it in real time (Jan 24 2026): "You
@@ -10411,7 +11048,9 @@ The ledger runs both ways, and the pages keep both columns. Dan's: 94
 burst events (each preceded by her silence), 127 exit declarations with
 110 re-engagements (an 87% relapse rate that trained her to ignore his
 stated limits), 74 "fuck you" / 17 "piece of shit" / 11 "worthless"
-instances escalating from 9 (Aug 2025) to 36 (Feb 2026), heavy drug use
+instances escalating from 9 (Aug 2025) to 36 (Feb 2026) — all three
+counts confirmed EXACTLY from his side of the dual-handle export
+(2026-07-18 primary recount; her side in the same window: 0/1/0), heavy drug use
 throughout, and the architect's role in the arrangement and the supply
 chain. The dossiers' proportionality finding: real, documented, his
 responsibility — and not equivalent to the system that produced them.
@@ -10457,7 +11096,7 @@ concealment looked like from inside ([[wiki/self/chats/gemini-18]]).
 
 | Behavioral pattern (terminal phase) | Annie | Dan |
 |---|---|---|
-| Love-to-request ratio (love declaration → ask ≤24h) | 187:4 (96.6%) | — |
+| Love-to-request ratio (love declaration → ask ≤24h) | 187:4 (96.6%) — REVISED 2026-07-18: matches base rate (97.2%), see blockquote above | — |
 | Crisis statements met without care | 12 of 12 | — |
 | Moral-debt pivots (betrayal confrontation → caretaking crisis) | 44 | — |
 | Weaponized apologies (self-indictment, zero change) | 13 | — |
@@ -10964,37 +11603,6 @@ is unexplained.
 
 
 ========================================================================
-PAGE: wiki/people/brandon.md
-========================================================================
-
----
-domain: people
-page_type: entity
-status: closed
-date_created: 2026-06-22
-date_modified: 2026-06-23
-sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md"]
-related: ["wiki/people/brandon-hill", "wiki/work/bfs-foods", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/context-core"]
-infobox:
-  name: "Brandon"
-  relationship_to_dan: unknown
-  known_for: "Note: Primary details consolidated under [[wiki/people/brandon-hill]] (Assistant Manager, BFS gas station; off-books dem"
----
-
-# Brandon (see [[wiki/people/brandon-hill]])
-
-**Note:** Primary details consolidated under [[wiki/people/brandon-hill]] (Assistant Manager, BFS gas station; off-books demand delivery; Total > Cash phantom tender; salvageable posture per bootloader v2).
-
-## Legacy Summary (from prior)
-BFS Foods manager involved in cash variance dispute. Off-books $50 cash demand declined. Hours cut near-zero post-pushback. Passive resolution (no pay, docs maintained).
-
-## Cross
-See full actor table, variance recon, legal notes, and synthesis links in [[wiki/people/brandon-hill]] and [[wiki/work/bfs-foods]].
-
-**Status:** Redirect to brandon-hill.md for tables/timeline/behavioral. `resolved` for this stub.
-
-
-========================================================================
 PAGE: wiki/people/brennan-meadows.md
 ========================================================================
 
@@ -11246,55 +11854,6 @@ Sporadic, low-effort check-ins follow ("You working today dude?", "You duckin me
 ## Related
 
 [[wiki/people/alexis-armel]] · [[wiki/people/annie-ulmer]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · [[wiki/self/message-corpora/master-message-dump]]
-
-
-========================================================================
-PAGE: wiki/people/caviar.md
-========================================================================
-
----
-domain: people
-page_type: entity
-status: closed
-date_created: 2026-06-23
-date_modified: 2026-07-14
-date_range_start: 2019-04-21
-date_range_end: 2020-04-14
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/del", "wiki/self/message-corpora/master-message-dump"]
-tags: [nyc-era, financial-stress, digital-footprint]
-knowledge: derived
-infobox:
-  name: "Caviar"
-  relationship_to_dan: unknown
-  location: nyc
-  first_contact: 2019-04-21
-  known_for: "Not a contact — +14159801273 is the automated dispatch number for Caviar, the food-delivery app, and the 290 messages un"
----
-
-# Caviar (gig-work notifications, not a person)
-
-Not a contact — `+14159801273` is the automated dispatch number for Caviar, the food-delivery app, and the 290 messages under this "contact" (April 2019 – April 2020) are entirely order-assignment and expiration notifications ("New Caviar order assigned," "Order #XXXXX is ready for pickup," assignment-expired warnings). It survives in the corpus as a data point about Dan's own income, not about any other person: he was working as a Caviar courier.
-
-## What the pattern shows
-
-Activity is dense and clustered rather than steady — a heavy run in April–July 2019 (over 100 assigned orders, some sessions showing back-to-back assignments minutes apart, consistent with active shift-based courier work), then a long gap from August through November 2019, a scattered handful of orders in March 2020, and a final short burst April 7–14, 2020 — right as COVID-19 lockdowns began in NYC, suggesting gig delivery work was picked back up (or intensified) as a stopgap income source at the start of the pandemic. No dollar amounts are recorded in the notification text itself.
-
-## Corpus Dimensions
-
-| Metric | Value |
-|--------|-------|
-| Messages | 290 (all automated) |
-| Date range | 2019-04-21 to 2020-04-14 |
-| Activity clusters | Apr–Jul 2019 (dense); Aug–Nov 2019 (near-silent); Mar 2020 (light); Apr 7–14 2020 (final burst) |
-
-## Gaps
-
-This page probably belongs under a work/gig-income page rather than people/ — flagged here rather than moved, pending a broader NYC-era income page. No earnings totals or delivery-count summaries are available from this export alone.
-
-## Related
-
-[[wiki/people/del]] · [[wiki/self/message-corpora/master-message-dump]]
 
 
 ========================================================================
@@ -11565,6 +12124,55 @@ Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additi
 ## Related
 - [[wiki/self/message-corpora/master-message-dump]]
 - [[wiki/mind/concepts/contact-gini]]
+
+
+========================================================================
+PAGE: wiki/people/contacts/caviar.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+date_created: 2026-06-23
+date_modified: 2026-07-14
+date_range_start: 2019-04-21
+date_range_end: 2020-04-14
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+related: ["wiki/people/del", "wiki/self/message-corpora/master-message-dump"]
+tags: [nyc-era, financial-stress, digital-footprint]
+knowledge: derived
+infobox:
+  name: "Caviar"
+  relationship_to_dan: unknown
+  location: nyc
+  first_contact: 2019-04-21
+  known_for: "Not a contact — +14159801273 is the automated dispatch number for Caviar, the food-delivery app, and the 290 messages un"
+---
+
+# Caviar (gig-work notifications, not a person)
+
+Not a contact — `+14159801273` is the automated dispatch number for Caviar, the food-delivery app, and the 290 messages under this "contact" (April 2019 – April 2020) are entirely order-assignment and expiration notifications ("New Caviar order assigned," "Order #XXXXX is ready for pickup," assignment-expired warnings). It survives in the corpus as a data point about Dan's own income, not about any other person: he was working as a Caviar courier.
+
+## What the pattern shows
+
+Activity is dense and clustered rather than steady — a heavy run in April–July 2019 (over 100 assigned orders, some sessions showing back-to-back assignments minutes apart, consistent with active shift-based courier work), then a long gap from August through November 2019, a scattered handful of orders in March 2020, and a final short burst April 7–14, 2020 — right as COVID-19 lockdowns began in NYC, suggesting gig delivery work was picked back up (or intensified) as a stopgap income source at the start of the pandemic. No dollar amounts are recorded in the notification text itself.
+
+## Corpus Dimensions
+
+| Metric | Value |
+|--------|-------|
+| Messages | 290 (all automated) |
+| Date range | 2019-04-21 to 2020-04-14 |
+| Activity clusters | Apr–Jul 2019 (dense); Aug–Nov 2019 (near-silent); Mar 2020 (light); Apr 7–14 2020 (final burst) |
+
+## Gaps
+
+This page probably belongs under a work/gig-income page rather than people/ — flagged here rather than moved, pending a broader NYC-era income page. No earnings totals or delivery-count summaries are available from this export alone.
+
+## Related
+
+[[wiki/people/del]] · [[wiki/self/message-corpora/master-message-dump]]
 
 
 ========================================================================
@@ -12606,6 +13214,52 @@ Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additi
 
 
 ========================================================================
+PAGE: wiki/people/contacts/rod-banks.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: stub
+date_created: 2026-06-23
+date_modified: 2026-07-14
+date_range_start: 2017-04-19
+date_range_end: 2020-07-31
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [digital-footprint]
+infobox:
+  name: "Rod Banks"
+  relationship_to_dan: unknown
+  first_contact: 2017-04-19
+  known_for: "Contact identified via Google Contacts as Rod Banks. Previously unresolved contact from iMessage corpus at handle +17243"
+---
+
+# Rod Banks
+
+## Identity
+Contact identified via Google Contacts as Rod Banks. Previously unresolved contact from iMessage corpus at handle `+17243660816`. 41 messages exchanged over 2017-04-19 to 2020-07-31. Sample interaction: "Fran's door to the room in the basement is unlocked.  Please get your stuff out of Fran's house toni". Appears in personal message contexts (not obvious spam per filter).
+
+## Corpus Dimensions
+| Metric | Value |
+|--------|-------|
+| Messages | 41 |
+| Date range | 2017-04-19 – 2020-07-31 |
+| Sent / Received (approx) | 0 / 41 |
+| Sample | Fran's door to the room in the basement is unlocked.  Please get your stuff out of Fran's house tonight!  It does not be |
+
+## Domain: Self
+Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+
+## Notes
+Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+
+## Related
+- [[wiki/self/message-corpora/master-message-dump]]
+- [[wiki/mind/concepts/contact-gini]]
+
+
+========================================================================
 PAGE: wiki/people/contacts/ryan-lisac.md
 ========================================================================
 
@@ -12669,6 +13323,98 @@ Contact identified via Google Contacts as Shannon. Previously unresolved contact
 | Date range | 2018-11-10 – 2019-01-11 |
 | Sent / Received (approx) | 0 / 23 |
 | Sample | Hey Daniel it’s Shannon give me a call when you get a chance |
+
+## Domain: Self
+Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+
+## Notes
+Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+
+## Related
+- [[wiki/self/message-corpora/master-message-dump]]
+- [[wiki/mind/concepts/contact-gini]]
+
+
+========================================================================
+PAGE: wiki/people/contacts/slim.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: stub
+date_created: 2026-06-23
+date_modified: 2026-07-14
+date_range_start: 2019-06-01
+date_range_end: 2019-08-04
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [digital-footprint]
+infobox:
+  name: "Slim"
+  relationship_to_dan: unknown
+  first_contact: 2019-06-01
+  known_for: "Contact identified via Google Contacts as slim. Previously unresolved contact from iMessage corpus at handle +1646642026"
+---
+
+# slim
+
+## Identity
+Contact identified via Google Contacts as slim. Previously unresolved contact from iMessage corpus at handle `+16466420260`. 31 messages exchanged over 2019-06-01 to 2019-08-04. Sample interaction: "Slim". Appears in personal message contexts (not obvious spam per filter).
+
+## Corpus Dimensions
+| Metric | Value |
+|--------|-------|
+| Messages | 31 |
+| Date range | 2019-06-01 – 2019-08-04 |
+| Sent / Received (approx) | 0 / 31 |
+| Sample | Slim |
+
+## Domain: Self
+Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+
+## Notes
+Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+
+## Related
+- [[wiki/self/message-corpora/master-message-dump]]
+- [[wiki/mind/concepts/contact-gini]]
+
+
+========================================================================
+PAGE: wiki/people/contacts/tan-calabrese.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: stub
+date_created: 2026-06-23
+date_modified: 2026-07-14
+date_range_start: 2016-02-12
+date_range_end: 2020-05-09
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [digital-footprint]
+infobox:
+  name: "Tan Calabrese"
+  relationship_to_dan: unknown
+  first_contact: 2016-02-12
+  known_for: "Contact identified via Google Contacts as Tan Calabrese. Previously unresolved contact from iMessage corpus at handle +1"
+---
+
+# Tan Calabrese
+
+## Identity
+Contact identified via Google Contacts as Tan Calabrese. Previously unresolved contact from iMessage corpus at handle `+17249846086`. 57 messages exchanged over 2016-02-12 to 2020-05-09. Sample interaction: "Fuck I wish I would've seen that earlier... Feel like saving me some until tomorrow?  I'll throw you". Appears in personal message contexts (not obvious spam per filter).
+
+## Corpus Dimensions
+| Metric | Value |
+|--------|-------|
+| Messages | 57 |
+| Date range | 2016-02-12 – 2020-05-09 |
+| Sent / Received (approx) | 0 / 57 |
+| Sample | Fuck I wish I would've seen that earlier... Feel like saving me some until tomorrow?  I'll throw you whatever |
 
 ## Domain: Self
 Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
@@ -12773,6 +13519,144 @@ Contact identified via Google Contacts as Trinity St. Clair. Previously unresolv
 | Date range | 2019-03-21 – 2019-12-24 |
 | Sent / Received (approx) | 0 / 20 |
 | Sample | Hey luv |
+
+## Domain: Self
+Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+
+## Notes
+Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+
+## Related
+- [[wiki/self/message-corpora/master-message-dump]]
+- [[wiki/mind/concepts/contact-gini]]
+
+
+========================================================================
+PAGE: wiki/people/contacts/zach-clabaugh.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: stub
+date_created: 2026-06-23
+date_modified: 2026-07-14
+date_range_start: 2017-06-19
+date_range_end: 2017-11-05
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [digital-footprint]
+infobox:
+  name: "Zach Clabaugh"
+  relationship_to_dan: unknown
+  first_contact: 2017-06-19
+  known_for: "Contact identified via Google Contacts as Zach Clabaugh. Previously unresolved contact from iMessage corpus at handle +1"
+---
+
+# Zach Clabaugh
+
+## Identity
+Contact identified via Google Contacts as Zach Clabaugh. Previously unresolved contact from iMessage corpus at handle `+17173246668`. 26 messages exchanged over 2017-06-19 to 2017-11-05. Sample interaction: "Yeah that would be great but you could defiantly simplify that". Appears in personal message contexts (not obvious spam per filter).
+
+## Corpus Dimensions
+| Metric | Value |
+|--------|-------|
+| Messages | 26 |
+| Date range | 2017-06-19 – 2017-11-05 |
+| Sent / Received (approx) | 0 / 26 |
+| Sample | Yeah that would be great but you could defiantly simplify that |
+
+## Domain: Self
+Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+
+## Notes
+Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+
+## Related
+- [[wiki/self/message-corpora/master-message-dump]]
+- [[wiki/mind/concepts/contact-gini]]
+
+
+========================================================================
+PAGE: wiki/people/contacts/zach-hendricks.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: stub
+date_created: 2026-06-23
+date_modified: 2026-07-14
+date_range_start: 2018-03-12
+date_range_end: 2018-11-26
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [digital-footprint]
+infobox:
+  name: "Zach Hendricks"
+  relationship_to_dan: unknown
+  first_contact: 2018-03-12
+  known_for: "Contact identified via Google Contacts as Zach Hendricks. Previously unresolved contact from iMessage corpus at handle +"
+---
+
+# Zach Hendricks
+
+## Identity
+Contact identified via Google Contacts as Zach Hendricks. Previously unresolved contact from iMessage corpus at handle `+17249123381`. 58 messages exchanged over 2018-03-12 to 2018-11-26. Sample interaction: "Yo it's zaco". Appears in personal message contexts (not obvious spam per filter).
+
+## Corpus Dimensions
+| Metric | Value |
+|--------|-------|
+| Messages | 58 |
+| Date range | 2018-03-12 – 2018-11-26 |
+| Sent / Received (approx) | 0 / 58 |
+| Sample | Yo it's zaco |
+
+## Domain: Self
+Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+
+## Notes
+Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+
+## Related
+- [[wiki/self/message-corpora/master-message-dump]]
+- [[wiki/mind/concepts/contact-gini]]
+
+
+========================================================================
+PAGE: wiki/people/contacts/zach.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: stub
+date_created: 2026-06-23
+date_modified: 2026-07-14
+date_range_start: 2017-09-27
+date_range_end: 2018-04-13
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+tags: [digital-footprint]
+infobox:
+  name: "Zach"
+  relationship_to_dan: unknown
+  first_contact: 2017-09-27
+  known_for: "Contact identified via Google Contacts as Zach. Previously unresolved contact from iMessage corpus at handle +1843990326"
+---
+
+# Zach
+
+## Identity
+Contact identified via Google Contacts as Zach. Previously unresolved contact from iMessage corpus at handle `+18439903264`. 22 messages exchanged over 2017-09-27 to 2018-04-13. Sample interaction: "Bro can I grab some smoke 💨?? You work today ??". Appears in personal message contexts (not obvious spam per filter).
+
+## Corpus Dimensions
+| Metric | Value |
+|--------|-------|
+| Messages | 22 |
+| Date range | 2017-09-27 – 2018-04-13 |
+| Sent / Received (approx) | 0 / 22 |
+| Sample | Bro can I grab some smoke 💨?? You work today ?? |
 
 ## Domain: Self
 Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
@@ -14002,7 +14886,7 @@ status: stable
 importance: critical
 relation_type: family
 date_created: 2026-06-23
-date_modified: 2026-07-15
+date_modified: 2026-07-18
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, uniontown-era, music-production, grief]
 sources:
@@ -14042,6 +14926,9 @@ infobox:
   location: uniontown
   known_for: "Fran Whyel Coldren was Dan's maternal great-grandmother, his self-described"
 connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "Fran is the money spine's maternal source node: the Ira-estate capital she held (Judge Fred Adams as trustee) became the 2020 distribution — the biography's largest documented single capital arrival."
   - page: wiki/mind/synthesis/ancestral-dialectic
     type: evidences
     claim: "Fran anchors the maternal numbness-of-survival half of the dialectic frame."
@@ -14479,14 +15366,12 @@ related: []
 - [[wiki/people/bill]] — Golf-caddying peer buying pharmaceuticals from Dan, Sept 2018.
 - [[wiki/people/bill-ulmer]] — Annie's father; warm, consistent, treated Dan as family through 2017-2020.
 - [[wiki/people/brad-hubeaut]] — Dan's caddy manager at Nemacolin Woodlands, 2017-2018; documented an April 2018 workplace friction episode.
-- [[wiki/people/brandon]] — BFS Foods manager involved in cash variance dispute. Off-books $50 cash demand declined. Hours cut…
 - [[wiki/people/brandon-hill]] — BFS assistant manager who delivered the off-books $50 demand; the instrument not the architect, whose phantom tender and fifteen/fifty speech impediment shape the whole reconstruction.
 - [[wiki/people/brennan-meadows]] — Brief early-2016 contact mixing suboxone sourcing and a small loan request.
 - [[wiki/people/brian]] — NYC client who booked Annie (as "Hazel") for paid visits, summer 2019.
 - [[wiki/people/bruceburish]] — Caddying-era friend; one dense Oct 2018 thread reacting to Dan and his girlfriend's webcam plans.
 - [[wiki/people/bub]] — Long-running casual friend: DJ logistics, Mac troubleshooting, gaming, 2017-2020.
 - [[wiki/people/casey-bondarenka]] — Friend who overstepped during 2015 relationship turbulence with Alexis; sporadic contact through 2018.
-- [[wiki/people/caviar]] — Not a person: automated Caviar delivery-app dispatch notifications documenting Dan's own gig work, 2019-2020.
 - [[wiki/people/chad-johnson]] — Fellow Nemacolin caddy and college student, 2017-2018.
 - [[wiki/people/charles-davenport]]
 - [[wiki/people/christian-hanson]] — Retired NHL forward; golf regular at Nemacolin, 2017-2018.
@@ -14557,17 +15442,14 @@ related: []
 - [[wiki/people/nick-mattie]] — Contact identified via Google Contacts as Nick Mattie. Previously unresolved contact from iMessage corpus at handle `+17242526986`. 170…
 - [[wiki/people/rick-frank]] — Father of Dan Frank. Born 22 May 1959 in Uniontown, Fayette County, Pennsylvania. Part of paternal Jewish…
 - [[wiki/people/rj-ritchey]] — Uniontown golf-circle friend and 2019 Manhattan visitor; the iMessage contact `+17249844280` was merged into this canonical page.
-- [[wiki/people/rod-banks]] — Contact identified via Google Contacts as Rod Banks. Previously unresolved contact from iMessage corpus at handle `+17243660816`. 41…
 - [[wiki/people/ryan-lisac]] — Childhood/early peer. Core figure in the "Snob Squad" developmental arc.
 - [[wiki/people/sadie-harris]] — Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood,…
 - [[wiki/people/sam]] — Contact identified via Google Contacts as sam. Previously unresolved contact from iMessage corpus at handle `+13478611908`. 374 messages…
 - [[wiki/people/sean-teets]]
 - [[wiki/people/shannon]] — Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct…
 - [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan saw alongside Annie spring–summer 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup July 2019.
-- [[wiki/people/slim]] — Contact identified via Google Contacts as slim. Previously unresolved contact from iMessage corpus at handle `+16466420260`. 31 messages…
-- [[wiki/people/steve-kezmarsky]] — Contact identified via Google Contacts as Steve Kezmarsky. Previously unresolved contact from iMessage corpus at handle `+17244157286`. 66…
+- [[wiki/people/steve-kezmarsky]] — High-school-era Uniontown golf friend, self-described "dark and tormented soul"; thread ends Jan 2018, dead by Dec 2018 (via Jim Shaffer thread).
 - [[wiki/people/suzanne-frank]] — Mother of Dan Frank. Born 15 September 1962, Pittsburgh, Allegheny County, Pennsylvania (maiden: Whyel /…
-- [[wiki/people/tan-calabrese]] — Contact identified via Google Contacts as Tan Calabrese. Previously unresolved contact from iMessage corpus at handle `+17249846086`. 57…
 - [[wiki/people/tarik-fallous]] — Tarik Fallous — owner-operator (with his brother Ghassan) of Au Za'atar, the Lebanese restaurant near 58th…
 - [[wiki/people/teddy]] — Recurring Uniontown-area informal pharmaceutical supplier, 2018–2020; a transactional but socially embedded local supply node.
 - [[wiki/people/timmy]] — Underage Little Caesars employee whose vape/gambling ban and Anita's Kim→"Daniel" blame-pivot is the two-weeks-prior template for the drawer dispute.
@@ -14580,10 +15462,6 @@ related: []
 - [[wiki/people/vanessa-frank]] — Younger sister of Dan Frank. Born 16 January 1994 in Greensburg, Westmoreland County, Pennsylvania. Shares…
 - [[wiki/people/vaughn]] — Contact identified via Google Contacts as Vaughn. Previously unresolved contact from iMessage corpus at handle `+17245578229`. 228 messages…
 - [[wiki/people/vicki]] — Longest-serving non-family caregiver on Fran's rotation (2016–2018); "this lady is like my grandmother I never had"; her thread dates the second fall and documents the vigil's final days.
-- [[wiki/people/zach]] — Contact identified via Google Contacts as Zach. Previously unresolved contact from iMessage corpus at handle `+18439903264`. 22 messages…
-- [[wiki/people/zach-clabaugh]] — Contact identified via Google Contacts as Zach Clabaugh. Previously unresolved contact from iMessage corpus at handle `+17173246668`. 26…
-- [[wiki/people/zach-hendricks]] — Contact identified via Google Contacts as Zach Hendricks. Previously unresolved contact from iMessage corpus at handle `+17249123381`. 58…
-- [[wiki/people/zaco]] — Contact +17249123381. Direct intro "Yo it's zaco". 58 messages (master). Casual "Yo it's ..." style…
 
 ## contacts
 
@@ -15768,9 +16646,24 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
+date_modified: 2026-07-18
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_7249204125_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "wiki/self/message-corpora/master-message-dump.md", "wiki/timeline/periods/2018-deep-cycle.md", "wiki/timeline/events/timeline.md"]
-related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/annie-ulmer", "wiki/people/suzanne-frank", "wiki/people/tom", "wiki/people/anita", "wiki/self/context-core", "wiki/timeline/periods/2017-poverty-floor"]
+connections:
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Johnny is the network's 2018 deep-cycle primary node; his vacations and MIA stretches produced the first documented single-node supply panics, and the MAX_PRIME succession (Johnny → Tim → Tom) starts with him."
+  - page: wiki/people/teddy
+    type: parallels
+    claim: "Johnny and Teddy are concurrent 2018 Uniontown nodes in the same market — Johnny the higher-volume primary, Teddy the accommodating secondary — together constituting the deep cycle's redundancy layer."
+  - page: wiki/timeline/periods/2018-deep-cycle
+    type: component-of
+    claim: "Johnny's 3,462-message logistics thread is the deep cycle's material infrastructure: the fronts, 1 AM ATM runs, and 'On way / Here / Come to door' cadence are the period's texture at ground level."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Annie ran facilitation through Johnny's node — drops, pickups, 'I'm at Johnny's' — making her a logistics participant in the 2018–19 supply chain, not a bystander to it."
+  - page: wiki/people/tom
+    type: precedes
+    claim: "Johnny is Tom's predecessor as primary strip source; the succession from transactional dealer to friendship-embedded supplier is what later exposed the network to the owe-and-silence failure mode."
 tags: [addiction-recovery, dui]
 infobox:
   name: "Johnny Dealer"
@@ -16113,7 +17006,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 date_range_start: 2025-09-01
 date_range_end: 2025-12-10
 sources: ["raw/people/kristin/chimera-genesis-addendum.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
@@ -16127,6 +17020,9 @@ infobox:
   first_contact: 2025-09-01
   known_for: "Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] as 'Tom's friend.' She became Dan's most "
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: component-of
+    claim: "Kristin's Dec 9 2025 block of Dan held permanently — the loop's inbound control case: her severance was structural because she needed nothing from the channel."
   - page: wiki/people/tom
     type: component-of
     claim: "The Kristin thread enters the corpus through Tom's social circle; he is the introduction vector."
@@ -16566,7 +17462,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 date_range_start: 2023-08-13
 date_range_end: 2026-02-25
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -17064,11 +17960,23 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 date_range_start: 2018-11-04
 date_range_end: 2025-02-20
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/messages_3476070497_all_time.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2018-deep-cycle", "wiki/places/307-e-76th-st"]
+connections:
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Menore is the network's NYC node and its reliability outlier — 99.3% availability (455 of 458 requests answered, median 6.6-minute reply) — the control case proving that in this market pure-transactional distance outperforms friendship-embedded supply."
+  - page: wiki/places/307-e-76th-st
+    type: co-occurs
+    claim: "76th Street between 1st and 2nd Avenue was Menore's primary service coordinate for years — the residence and the delivery zone are the same address."
+  - page: wiki/work/au-zaatar
+    type: supplies
+    claim: "Menore served Dan mid-shift at the restaurant's Shed block through taxi windows — primary-confirmed May–Aug 2024 (deliveries to 1st Ave bet 57–58); the storytime's longer 2021–24 window is unresolved against this thread's four-year gap."
+  - page: wiki/mind/concepts/contact-gini
+    type: evidences
+    claim: "The 1,753-message thread whose entire content is 'need 8' logistics shows how a high-volume handle can carry zero relational depth — volume and intimacy are independent axes in the contact graph."
 tags: [digital-footprint, addiction-recovery, nyc-era]
 knowledge: earned
 infobox:
@@ -17083,7 +17991,7 @@ infobox:
 
 ## Identity & Role
 
-**Menore** (+13476070497) — Drug dealer / supply operator in New York City; Bedford Ave (Williamsburg) Brooklyn origin connection; operated Nov 2018–Feb 2025 across 1,753+ messages with 99.999% logistical reliability and zero friction. Per the Au Za'atar storytime, he "delivered in black cars and worked as a legit taxi when not out on a snap" — the licensed-taxi cover explains the vehicle discipline documented below — and during 2021–24 he routinely served Dan mid-shift at the restaurant's outdoor shed ([[wiki/work/au-zaatar]]), the outdoor setting making sidewalk handoffs trivial.
+**Menore** (+13476070497) — Drug dealer / supply operator in New York City; Bedford Ave (Williamsburg) Brooklyn origin connection; operated Nov 2018–Feb 2025 across 4,413 messages (two service eras split by a four-year gap) with 99.3% measured availability and zero recorded friction. Per the Au Za'atar storytime, he "delivered in black cars and worked as a legit taxi when not out on a snap" — the licensed-taxi cover explains the vehicle discipline documented below — and in 2024 he served Dan mid-shift at the restaurant's outdoor shed ([[wiki/work/au-zaatar]]) — primary-confirmed May–Aug 2024; the storytime's longer 2021–24 claim is unresolved (see the CONTRADICTION block below).
 
 Name likely variant of "Menor" or placeholder; re-entry contact after Dan left NYC (April 2013–Nov 2018, 5.5-year gap). Announces "new number" Nov 4, 2018 ("Text here bro new number. Is menor. Save this one"). Despite 2,044 days of radio silence, Dan's re-entry message received a 1-minute response. Operates as independent distributor with associate ("my boy") managing some runs.
 
@@ -17091,7 +17999,7 @@ Name likely variant of "Menor" or placeholder; re-entry contact after Dan left N
 
 **Geography**: Primary service zone is Manhattan Upper East Side (76th St between 1st and 2nd Ave; also 55th St between 5th & 6th Ave; Brooklyn locations Nov-Dec 2018). Black Camry (primary), occasional blue/white Subarus.
 
-**Logistics**: Stereotyped delivery pattern — Dan initiates request ("can u stop by"), Menore quotes time (20-35 min typical, occasionally "8ish" if starting run), confirms arrival location/vehicle, 5-10 min final approach. Response SLA ~60 seconds; never cancels, never no-shows across 1,753 messages.
+**Logistics**: Stereotyped delivery pattern — Dan initiates request ("can u stop by"), Menore quotes time (20-35 min typical, occasionally "8ish" if starting run), confirms arrival location/vehicle, 5-10 min final approach. Measured median reply 6.6 minutes (see Measured Service Metrics — the old "~60-second SLA" claim described Dan's reply speed, not Menore's); 3 unanswered requests in 458 across 6.5 years.
 
 **Pricing & Quantity**: Consistent quantity requests — Dan typically orders "8" (likely grams or units; possibly MDMA, cocaine, or heroin). Single mention of "I only got 8 when I got back" (March 25, 2019) suggests pre-weighed/portioned product. One incident: Dan dropped a piece, Menore covered it ("I got u for next time"). No price negotiation in corpus; commodity transaction.
 
@@ -17109,8 +18017,8 @@ Name likely variant of "Menor" or placeholder; re-entry contact after Dan left N
 **Phase 2: Brooklyn move & intensive supply (Feb–Apr 2019)**
 - Dan moves to 46 Nevins St, Brooklyn (Feb 12, 2019)
 - Daily or near-daily contact Feb 12–Apr 19 (~70 consecutive requests)
-- Then moves to 307 E 76th St Manhattan (Feb 25 onwards)
-- 3–5 visits per day typical during March 2019 peak
+- Then moves to [[wiki/places/307-e-76th-st|307 E 76th St]] Manhattan (Feb 25 onwards)
+- Near-daily service at the March 2019 peak (measured max: 2 confirmed meetings/day)
 - Consistent request: "Can u stop by when you get started" (evening)
 - Menore operates with near-clockwork precision: March 2-Apr 7 shows zero cancelled/delayed runs
 
@@ -17119,11 +18027,21 @@ Name likely variant of "Menor" or placeholder; re-entry contact after Dan left N
 - Associate often drives; Menore manages routing/logistics
 - One conversation: "Tell him I'm sending my girl out so he knows" (March 26)
 
-**Phase 4: Sustained operations (Apr 2019–Feb 2025)**
-- Message volume drops post-April 2019 but thread continues 6.5 years
-- Sporadic requests: April 21, 24, 27, 29 are last dense cluster
-- Then 5+ month gap until any documented continued contact in master dump reference
-- Final documented: Feb 20, 2025
+**Phase 4: Taper and four-year dark gap (2020 – May 2024)**
+- 2020 runs only 158 messages with 35/17/15-day gaps (COVID + market era)
+- Last pre-gap exchange May 26, 2020 ("text Annie when ready"); then **1,458
+  days of silence** — see the CONTRADICTION block below for what this does
+  to the earlier "sustained operations" framing
+
+**Phase 5: The 2024–25 resurgence (May 24, 2024 – Feb 20, 2025)**
+- Resumes with a re-introduction ("Hey it's Dan. Can you stop by / I'm on
+  1st bet 57&58" — the Au Za'atar block) and immediately returns to full
+  cadence: 1,825 messages and ~90 meeting days in 2024 — nearly matching
+  the 2019 peak year
+- 2025 opens at maximum intensity: 453 messages and ~38 meetings in seven
+  weeks
+- Final delivery completes Feb 20, 2025, 8:21 PM; Dan closes the thread
+  with an explicit farewell two days before the Feb 22 PA move
 
 ## Relationship Dynamics
 
@@ -17141,7 +18059,7 @@ Name likely variant of "Menor" or placeholder; re-entry contact after Dan left N
 
 **Absence of friction**:
 - No disputes over quantity, price, timing, or product quality in corpus
-- No missed deliveries or no-shows
+- No confirmed-then-missed deliveries; 3 of 458 request initiations went unanswered (all 2019)
 - Zero hostile language; consistently "bro" / "my man" framing
 - When Dan expresses urgency ("I'm in kinda a hurry tonight"), Menore accommodates
 
@@ -17149,23 +18067,100 @@ Name likely variant of "Menor" or placeholder; re-entry contact after Dan left N
 
 **Structural role**: Menore represents the "subterranean kernel" of NYC operability — the shadow economy node that makes survival possible when formal economy is unstable. Referenced in Gemini analysis as "Menore Protocol": 6-year handshake (2013–2018 gap, instant resume in 2018) validates "Metropolitan Monism" — the thesis that informal networks are more reliable than city's legal infrastructure.
 
-**Peak context**: March 2019 (3–5 daily requests) aligns with Dan's highest substance consumption period. Later messaging volume tapering suggests either reduced consumption or migration to other suppliers.
+**Peak context**: March 2019 (near-daily service) aligns with Dan's highest substance consumption period; the 2024–25 resurgence is the second, previously undocumented peak, running at comparable intensity through the final NYC year.
 
-**Exit timing**: Final message Feb 20, 2025 coincides with end of NYC residency and BFS era collapse (June 2026 context-core notes). Menore disappears from corpus when Dan's life structure changes.
+**Exit timing**: the final delivery completed Feb 20, 2025 — 48 hours before the Feb 22 move to Pennsylvania — and Dan closed the thread with an explicit thank-you farewell. The relationship ended by geographic relocation, formally acknowledged on both sides, not by fade-out or rupture.
 
 ## Corpus Dimensions
 
-| Metric | Value |
+> **REVISED [2026-07-18]:** this table previously reported "1,753+ total
+> messages, ~900/850 sent/received, ~60-second response SLA, 3–5 visits
+> per day at peak." A full recomputation directly from
+> `messages_3476070497_all_time.csv` shows 1,753 was only the *Received*
+> count, the true median response time is ~7 minutes, and no day in the
+> record has more than 2 arrival-confirmed meetings. Measured values
+> below; method notes in the Measured Service Metrics section.
+
+| Metric | Value (measured 2026-07-18) |
 |--------|-------|
-| Total messages | 1,753+ |
-| Date range | 2018-11-04 – 2025-02-20 (6.25 years) |
-| Sent / Received | ~900 / 850 (approx) |
-| Service peak | March 2019 (daily requests, 7-day stretches with 3–5 visits) |
-| Response SLA | ~60 seconds, 100% uptime |
-| Car primary | Black Camry (80%+), blue/white Subarus (rotation) |
+| Total messages | 4,413 (Dan 2,660 / Menore 1,753) |
+| Date range | 2018-11-04 – 2025-02-20 (2,300 days) |
+| Active days (any message) | 496 |
+| Distinct request initiations (≥3h apart) | 458 |
+| Requests answered within 6h | 455 — **99.3% availability** |
+| Arrival-confirmed meetings | ~280 (strict) – ~413 (loose), across 266+ distinct days |
+| Menore reply latency | median 6.6 min · mean 15.6 · p90 44 min |
+| Dan reply latency (to Menore) | median 0.5 min |
+| Request → arrival time | median ~95 min · p90 ~3 h |
+| Peak delivery hours | 18:00–20:00 (late-night share only 8.3%) |
+| Longest consecutive-day meeting streak | 14 days |
+| Max confirmed meetings in one day | 2 (14 days with 2+) |
+| Car primary | Black Camry era (2018–20); beige/blue Subarus (2024–25) |
 | Quantity request | Consistent "8" units |
-| Location | 76th St between 1–2 Ave (primary), 55th St (secondary), Brooklyn Nov-Dec 2018 |
-| Incident rate | 1 significant (dropped product, March 25, 2019) |
+| Location | 76th St bet 1–2 Ave (2019-era primary); **1st Ave bet 57–58 (2024)**; 55th St, Brooklyn (Nov–Dec 2018) |
+| Incident rate | 1 significant (dropped product, March 25, 2019); 3 unanswered requests in 6.5 years (all 2019) |
+
+## Measured Service Metrics (primary recomputation, 2026-07-18)
+
+All figures computed directly from the dedicated export (4,413 parsed
+rows; its `Direction` field is internally consistent, unlike the master
+dump's). Definitions: a *request initiation* is a Sent message matching
+request language with no prior request in 3 hours; *availability* is the
+share of initiations receiving any reply within 6 hours; *meetings* are
+Received arrival-confirmations ("Here," "outside," vehicle-position
+texts) clustered at 1-hour separation — a floor, since some handoffs
+surely went unconfirmed by text.
+
+- **Availability is the real headline: 99.3%.** Of 458 distinct requests
+  across 6.5 years, exactly three went unanswered (May 21, Jun 1, Jul 16,
+  2019). Dan's side of the thread contains **zero** frustration-marker
+  messages — against the Tom thread's escalation chains, this is the
+  quantitative form of the "zero friction" claim, and it survives.
+- **The "~60-second SLA" does not survive.** Menore's median reply is
+  **6.6 minutes** (44% within 5 min; p90 44 min). The 60-second figure
+  describes *Dan's* behavior, not Menore's: Dan's median reply to Menore
+  is **30 seconds** — the buyer was the one waiting on the phone. Era
+  comparison shows the service consistent across the gap: median 5.3 min
+  (2018–20) vs 7.8 min (2024–25).
+- **Door-to-door, the service ran on ~1.5-hour fulfillment.** Quotes in
+  thread say "20–35 min," but measured request→arrival median is ~95
+  minutes (p90 ~3 h) — the quote clock started when Menore texted back
+  "omw," not when Dan asked.
+- **Meeting volume: ~280 confirmed deliveries** (strict), ~413 by loose
+  delivery-signal count, on 266+ distinct days — 2019 (134 meeting days)
+  and 2024 (90) are the two service peaks. **No day shows more than 2
+  confirmed meetings**, which retires the earlier "3–5 visits per day
+  typical" characterization: the busiest days in the record are 2-meeting
+  days, 14 of them.
+- **The rhythm was evening logistics, not nocturnal chaos:** deliveries
+  peak 18:00–20:00, only 8.3% of thread activity falls 22:00–04:00, and
+  volume is flat across all seven weekdays — a 7-day operation synced to
+  Menore's route hours, in sharp contrast to Dan's own nocturnal
+  baseline documented in [[wiki/mind/synthesis/intake-constancy]].
+
+> **CONTRADICTION:** the thread contains a **1,458-day silence — May 26,
+> 2020 → May 24, 2024** (with 2020 already tapering: 35/17/15-day gaps,
+> 158 messages all year). This contradicts this page's earlier "Phase 4:
+> sustained operations Apr 2019–Feb 2025" framing, and it complicates
+> the Au Za'atar storytime claim ([[wiki/work/au-zaatar]]) that Menore
+> served Dan mid-shift through 2021–24: on THIS handle there was no
+> service at all until May 24, 2024. The 2024 resumption message is a
+> re-introduction ("Hey it's Dan. Can you stop by / I'm on 1st bet
+> 57&58" — the Au Za'atar block), so either an intermediate number
+> carried the 2021–early-2024 service (consistent with Menore's known
+> number-churn pattern; no such export is on disk), or the storytime
+> compresses a shorter service window into the whole tenure. Unresolved;
+> the mid-shift-delivery claim is confirmed only for **May–August 2024**
+> on primary evidence.
+
+**The ending, corrected:** the relationship did not fade out — it was
+formally closed. Service ran hard to the end (453 messages, 38 meetings
+in the seven weeks of 2025), and the final delivery completed on
+February 20, 2025 at 8:21 PM ("Here / 76 btw 3 n 2av"), after which
+Dan's last message — two days before the February 22 move to
+Pennsylvania — is a farewell: *"Thanks again for everythin. You guys are
+the best."* The exit coincides with the PA return not loosely but to
+the day: the last transaction closed 48 hours before departure.
 
 ## Operational Notes
 
@@ -17191,17 +18186,11 @@ The 6-year silence (2013–2018) followed by immediate resurrection of the exact
 - **Supply chain**: Source of product not visible in corpus
 - **Geographic extent**: Serves only Manhattan/Brooklyn or wider region unclear
 - **Associate identity**: "My boy" never named
-- **Post-Feb 2025**: Relationship status after final message unknown
+- **Post-Feb 2025**: no further contact documented; the thread was formally closed with a farewell on Feb 20, 2025 (see Measured Service Metrics)
 - **Product type**: Corpus never names substance (context: heroin, cocaine, MDMA, or combination likely)
 - **Financial scale**: Revenue/volume not visible
 - **Arrest/incarceration**: No indication in corpus whether Menore is still operating or incarcerated post-2025
 
-## Related
-
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
-- [[wiki/timeline/periods/2018-deep-cycle]]
-- [[wiki/places/307-e-76th-st]]
 
 
 ========================================================================
@@ -17548,7 +18537,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 date_range_start: 2018-04-22
 date_range_end: 2019-10-20
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -17562,6 +18551,10 @@ infobox:
   location: nyc
   first_contact: 2018-04-22
   known_for: "Jim Shaffer — 'not the only Jim Shaffer' in Dan's life, hence the 'new' contacts-card label — is a wealthy childhood fri"
+connections:
+  - page: wiki/people/steve-kezmarsky
+    type: co-occurs
+    claim: "Steve's death reaches the record through this thread — Jim hadn't heard, December 2018 — the second dead member (after Rob Orange) of the same high-school-era Uniontown circle."
 ---
 
 # "New Jim Shaffer" (Jim Shaffer)
@@ -17659,7 +18652,7 @@ title: "Richard Harrison \"Rick\" Frank"
 aliases: ["Rick", "Frank Sr."]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-13
+date_modified: 2026-07-18
 infobox:
   name: Rick Frank
   status: Estranged
@@ -17686,6 +18679,12 @@ related:
   - wiki/mind/psychosexual/developmental-origins
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: component-of
+    claim: "The Rick amputation — a 12-day burst then a decade of unanswered inbound — is the loop's held-block control case, proving severance holds exactly where no dependency flows through the channel."
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "Frank's Auto Supermarket is the money spine's paternal source-line — the anti-union 'kushy lives' engine Dan indicts in the Aug 22 2020 message, one day after his own estate distribution order was signed."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: causes
     claim: "The 2005 concealed-reality template on the paternal line is the documented origin of the vertical-suspect pattern."
@@ -17887,52 +18886,6 @@ location, employment, or whether contact continued after May 2020.
 | iMessage range | 2019-02-12 – 2020-05-19 |
 | Key event | Manhattan visit, 2019-07-05 – 2019-07-08 |
 | Identity resolution | `+17249844280` = RJ Ritchey |
-
-
-========================================================================
-PAGE: wiki/people/rod-banks.md
-========================================================================
-
----
-domain: people
-page_type: entity
-status: stub
-date_created: 2026-06-23
-date_modified: 2026-07-14
-date_range_start: 2017-04-19
-date_range_end: 2020-07-31
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
-infobox:
-  name: "Rod Banks"
-  relationship_to_dan: unknown
-  first_contact: 2017-04-19
-  known_for: "Contact identified via Google Contacts as Rod Banks. Previously unresolved contact from iMessage corpus at handle +17243"
----
-
-# Rod Banks
-
-## Identity
-Contact identified via Google Contacts as Rod Banks. Previously unresolved contact from iMessage corpus at handle `+17243660816`. 41 messages exchanged over 2017-04-19 to 2020-07-31. Sample interaction: "Fran's door to the room in the basement is unlocked.  Please get your stuff out of Fran's house toni". Appears in personal message contexts (not obvious spam per filter).
-
-## Corpus Dimensions
-| Metric | Value |
-|--------|-------|
-| Messages | 41 |
-| Date range | 2017-04-19 – 2020-07-31 |
-| Sent / Received (approx) | 0 / 41 |
-| Sample | Fran's door to the room in the basement is unlocked.  Please get your stuff out of Fran's house tonight!  It does not be |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
 
 
 ========================================================================
@@ -18213,95 +19166,87 @@ Real last name and any life after July 2019 are undocumented — the thread ends
 
 
 ========================================================================
-PAGE: wiki/people/slim.md
-========================================================================
-
----
-domain: people
-page_type: entity
-status: stub
-date_created: 2026-06-23
-date_modified: 2026-07-14
-date_range_start: 2019-06-01
-date_range_end: 2019-08-04
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
-infobox:
-  name: "Slim"
-  relationship_to_dan: unknown
-  first_contact: 2019-06-01
-  known_for: "Contact identified via Google Contacts as slim. Previously unresolved contact from iMessage corpus at handle +1646642026"
----
-
-# slim
-
-## Identity
-Contact identified via Google Contacts as slim. Previously unresolved contact from iMessage corpus at handle `+16466420260`. 31 messages exchanged over 2019-06-01 to 2019-08-04. Sample interaction: "Slim". Appears in personal message contexts (not obvious spam per filter).
-
-## Corpus Dimensions
-| Metric | Value |
-|--------|-------|
-| Messages | 31 |
-| Date range | 2019-06-01 – 2019-08-04 |
-| Sent / Received (approx) | 0 / 31 |
-| Sample | Slim |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
-
-
-========================================================================
 PAGE: wiki/people/steve-kezmarsky.md
 ========================================================================
 
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
+knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 date_range_start: 2017-01-20
 date_range_end: 2018-01-31
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+tags: [uniontown-era, addiction-recovery, digital-footprint]
 infobox:
   name: "Steve Kezmarsky"
-  relationship_to_dan: unknown
+  relationship_to_dan: high-school-era friend
   first_contact: 2017-01-20
-  known_for: "Contact identified via Google Contacts as Steve Kezmarsky. Previously unresolved contact from iMessage corpus at handle "
+  known_for: "High-school-era Uniontown golf friend, self-described 'dark and tormented soul'; thread ends Jan 2018, dead by Dec 2018"
+connections:
+  - page: wiki/people/new-jim-shaffer
+    type: co-occurs
+    claim: "Steve's death surfaces in the December 2018 Jim Shaffer thread — Jim hadn't heard — placing both men in the same high-school-era Uniontown circle that was already losing members (Rob Orange) by their late twenties."
+  - page: wiki/interests/golf
+    type: evidences
+    claim: "The thread is a working exhibit of golf as the connective tissue of Dan's Uniontown male friendships: club talk (the M2, the stolen Scotty Cameron), vicarious rounds, and a July 2017 ask to be gotten into caddying."
+  - page: wiki/work/nemacolin-caddying
+    type: co-occurs
+    claim: "Steve asked Dan to get him into caddying in July 2017 ('Yo I wanna start caddying get me in!') during Dan's Nemacolin era; he stalled on submitting a resume and the plan went nowhere."
 ---
 
 # Steve Kezmarsky
 
-## Identity
-Contact identified via Google Contacts as Steve Kezmarsky. Previously unresolved contact from iMessage corpus at handle `+17244157286`. 66 messages exchanged over 2017-01-20 to 2018-01-31. Sample interaction: "I'm selling my M2". Appears in personal message contexts (not obvious spam per filter).
+Steve Kezmarsky was a high-school-era Uniontown friend whose 66-message
+thread (handle `+17244157286`, January 2017 – January 2018) reads, in
+hindsight, like a compressed elegy: golf enthusiasm, open self-diagnosis,
+a worsening rough patch — and then, within months of the last message,
+his death. By December 2018 the news had reached Dan's circle:
+[[wiki/people/new-jim-shaffer|Jim Shaffer]], another shared contact from
+the same era, learned of it in his own thread with Dan and was stunned.
+The cause and exact date are not in the corpus. He said he had two young
+children ("a boy and a girl to carry out my legacy").
 
-## Corpus Dimensions
+The thread's texture (his side only — the export's direction field marks
+every row Received, and here that appears literally true of the surviving
+rows) runs on two registers. The first is golf as friendship currency:
+selling his TaylorMade M2 driver, buying the new one, his irons and
+Scotty Cameron putter stolen from his garage (May 2017), asking Dan to
+price him last year's TaylorMade PSis through a connection, "Dude I wanna
+play golf so bad." In July 2017, mid-caddying-era for Dan, he asked to be
+gotten in at the club — then admitted weeks later he'd never submitted
+the resume.
+
+The second register is unusually explicit self-knowledge. In a single
+January 2017 exchange he calls himself "a very sick person… A dark and
+tormented soul to say the least," predicts that any woman around him
+long enough would end up "just as fucked up as the rest of us… a drug
+induced comatose state for 5-10 years," and lands the thread's most
+striking line about the friendship itself: **"I've always respected the
+fact that our friendship is based on my sickness."** A July 2017 message
+asks after "vikes or anything small" — placing him on the consumer edge
+of the same Uniontown informal-pharmacy world documented in
+[[wiki/mind/synthesis/supply-network]], though he is not a supply node.
+
+The final run (January 30–31, 2018) opens with him not recognizing Dan's
+number ("Sorry I lost a bunch of numbers") and closes the record on a
+low: "It's been a rough week… my life is in shambles," and a line that
+reads differently knowing what followed — "it took this happening for a
+dr to finally pr[escribe]…" The thread simply stops there.
+
+## Corpus record
+
 | Metric | Value |
-|--------|-------|
-| Messages | 66 |
+|---|---|
+| Messages | 66 (all marked Received; his side of the exchange) |
 | Date range | 2017-01-20 – 2018-01-31 |
-| Sent / Received (approx) | 0 / 66 |
-| Sample | I'm selling my M2 |
+| Death | Confirmed by Dec 2018 via the Jim Shaffer thread; date/cause undocumented |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+**Gaps:** cause and date of death; his age; whether Dan attended a
+funeral; the "this happening" event of January 2018 that finally got him
+a prescription; the identity of "Becky."
 
 
 ========================================================================
@@ -18316,7 +19261,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-22
+date_modified: 2026-07-18
 infobox:
   name: Suzanne Frank
   status: Active
@@ -18346,6 +19291,9 @@ sources:
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "Suz is the money spine's switchboard: the estate check deposited through her, the $750/week borrowing cycles, the supply-era Cash App facilitation, and the 337 sale she executes as owner-realtor — every major flow passes through her."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: causes
     claim: "The maternal half of the 2005 hinge completes the both-verticals-concealing template."
@@ -18558,52 +19506,6 @@ mother, which is itself data.
 
 
 ========================================================================
-PAGE: wiki/people/tan-calabrese.md
-========================================================================
-
----
-domain: people
-page_type: entity
-status: stub
-date_created: 2026-06-23
-date_modified: 2026-07-14
-date_range_start: 2016-02-12
-date_range_end: 2020-05-09
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
-infobox:
-  name: "Tan Calabrese"
-  relationship_to_dan: unknown
-  first_contact: 2016-02-12
-  known_for: "Contact identified via Google Contacts as Tan Calabrese. Previously unresolved contact from iMessage corpus at handle +1"
----
-
-# Tan Calabrese
-
-## Identity
-Contact identified via Google Contacts as Tan Calabrese. Previously unresolved contact from iMessage corpus at handle `+17249846086`. 57 messages exchanged over 2016-02-12 to 2020-05-09. Sample interaction: "Fuck I wish I would've seen that earlier... Feel like saving me some until tomorrow?  I'll throw you". Appears in personal message contexts (not obvious spam per filter).
-
-## Corpus Dimensions
-| Metric | Value |
-|--------|-------|
-| Messages | 57 |
-| Date range | 2016-02-12 – 2020-05-09 |
-| Sent / Received (approx) | 0 / 57 |
-| Sample | Fuck I wish I would've seen that earlier... Feel like saving me some until tomorrow?  I'll throw you whatever |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
-
-
-========================================================================
 PAGE: wiki/people/tarik-fallous.md
 ========================================================================
 
@@ -18679,16 +19581,24 @@ page_type: entity
 title: "Teddy"
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 date_range_start: 2018-02-20
 date_range_end: 2020-02-11
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
-related:
-  - wiki/people/johnny-dealer
-  - wiki/people/annie-ulmer
-  - wiki/self/message-corpora/master-message-dump
-  - wiki/mind/concepts/contact-gini
+connections:
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Teddy is the network's 2018–20 Uniontown parallel node, whose fines, probation, and borrowing show the suppliers were as financially fragile as the buyer — precarity ran the whole chain."
+  - page: wiki/people/johnny-dealer
+    type: parallels
+    claim: "Johnny and Teddy are concurrent 2018 Uniontown nodes in the same market — Johnny the higher-volume primary, Teddy the accommodating secondary who held stock and extended credit — together constituting the deep cycle's redundancy layer."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Teddy's final exchange (Feb 2020) checks whether both Dan's and Annie's numbers are current, placing Annie inside the supply thread's contact routine rather than outside it."
+  - page: wiki/timeline/periods/2018-deep-cycle
+    type: component-of
+    claim: "Teddy's thread opens February 2018, at the onset of the deep cycle's multi-dealer configuration, and his logistics geography (country club, Fairchance) maps the cycle's Uniontown terrain."
 tags: [addiction-recovery, financial-stress, uniontown-era, digital-footprint]
 knowledge: mixed
 infobox:
@@ -18900,6 +19810,9 @@ infobox:
   location: uniontown
   known_for: "Tom Maison — Dan's primary male ally and, for most of the corpus, the clearest instance of safe, lateral (peer, non-pate"
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: component-of
+    claim: "The May 18 2026 conditional unblock and the 2014 declared-done-then-return precedent are the loop's peer-bond case — blocks failed both times because Tom was the sole supply node."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "Tom is the positive-case exhibit: the clearest safe lateral (peer, non-paternal) attachment in the corpus, against which the vertical-suspect pattern is measured."
@@ -18918,6 +19831,12 @@ connections:
   - page: wiki/work/bfs-foods
     type: causes
     claim: "Tom's mid-May 2026 string-along supply failure is the first domino of the BFS crisis — the withdrawal it caused impaired the shift the drawer variance was pinned to, and the 2014 precedent recovered there reframes his reliability as transactional across the whole record."
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Tom is the network's terminal-era sole node and its characteristic failure mode: the friendship-embedded supplier whose owe-and-silence cycles (2014, 2026) demonstrate that in this market intimacy licenses failure while distance disciplines."
+  - page: wiki/people/johnny-dealer
+    type: follows
+    claim: "Tom succeeded Johnny (via the undocumented Tim) as primary strip source by 2025 — the succession from transactional dealer to friendship-embedded friend-supplier that exposed the network to the owe-and-silence failure mode."
 ---
 
 
@@ -19034,7 +19953,10 @@ promises to bring subs after "weed whacking," goes silent for hours while
 Dan escalates from "Tom / What the uck" through repeated unanswered pings to
 "Come on dude seriously" to "Fuck you dude" — Dan facing a real consequence
 (calling off work, risk of termination) from the no-show. By May 18 Dan has
-apparently blocked Tom and unblocks him only to set an ultimatum ("I'm
+apparently blocked Tom and unblocks him only to set an ultimatum — the
+[[wiki/mind/synthesis/block-unblock-loop|block/unblock loop]] running on a
+peer bond, and failing to hold for exactly the reason that page argues
+(the supply dependency still ran through the channel) ("I'm
 unblocking you for the moment — if you want to let me know what's going on
 this morning I'll keep it open otherwise fuck you"), then pivots the same day
 to a straight financial demand: "How long will it take you to get the $36
@@ -19895,186 +20817,6 @@ after April 2018.
 
 
 ========================================================================
-PAGE: wiki/people/zach-clabaugh.md
-========================================================================
-
----
-domain: people
-page_type: entity
-status: stub
-date_created: 2026-06-23
-date_modified: 2026-07-14
-date_range_start: 2017-06-19
-date_range_end: 2017-11-05
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
-infobox:
-  name: "Zach Clabaugh"
-  relationship_to_dan: unknown
-  first_contact: 2017-06-19
-  known_for: "Contact identified via Google Contacts as Zach Clabaugh. Previously unresolved contact from iMessage corpus at handle +1"
----
-
-# Zach Clabaugh
-
-## Identity
-Contact identified via Google Contacts as Zach Clabaugh. Previously unresolved contact from iMessage corpus at handle `+17173246668`. 26 messages exchanged over 2017-06-19 to 2017-11-05. Sample interaction: "Yeah that would be great but you could defiantly simplify that". Appears in personal message contexts (not obvious spam per filter).
-
-## Corpus Dimensions
-| Metric | Value |
-|--------|-------|
-| Messages | 26 |
-| Date range | 2017-06-19 – 2017-11-05 |
-| Sent / Received (approx) | 0 / 26 |
-| Sample | Yeah that would be great but you could defiantly simplify that |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
-
-
-========================================================================
-PAGE: wiki/people/zach-hendricks.md
-========================================================================
-
----
-domain: people
-page_type: entity
-status: stub
-date_created: 2026-06-23
-date_modified: 2026-07-14
-date_range_start: 2018-03-12
-date_range_end: 2018-11-26
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
-infobox:
-  name: "Zach Hendricks"
-  relationship_to_dan: unknown
-  first_contact: 2018-03-12
-  known_for: "Contact identified via Google Contacts as Zach Hendricks. Previously unresolved contact from iMessage corpus at handle +"
----
-
-# Zach Hendricks
-
-## Identity
-Contact identified via Google Contacts as Zach Hendricks. Previously unresolved contact from iMessage corpus at handle `+17249123381`. 58 messages exchanged over 2018-03-12 to 2018-11-26. Sample interaction: "Yo it's zaco". Appears in personal message contexts (not obvious spam per filter).
-
-## Corpus Dimensions
-| Metric | Value |
-|--------|-------|
-| Messages | 58 |
-| Date range | 2018-03-12 – 2018-11-26 |
-| Sent / Received (approx) | 0 / 58 |
-| Sample | Yo it's zaco |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
-
-
-========================================================================
-PAGE: wiki/people/zach.md
-========================================================================
-
----
-domain: people
-page_type: entity
-status: stub
-date_created: 2026-06-23
-date_modified: 2026-07-14
-date_range_start: 2017-09-27
-date_range_end: 2018-04-13
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
-infobox:
-  name: "Zach"
-  relationship_to_dan: unknown
-  first_contact: 2017-09-27
-  known_for: "Contact identified via Google Contacts as Zach. Previously unresolved contact from iMessage corpus at handle +1843990326"
----
-
-# Zach
-
-## Identity
-Contact identified via Google Contacts as Zach. Previously unresolved contact from iMessage corpus at handle `+18439903264`. 22 messages exchanged over 2017-09-27 to 2018-04-13. Sample interaction: "Bro can I grab some smoke 💨?? You work today ??". Appears in personal message contexts (not obvious spam per filter).
-
-## Corpus Dimensions
-| Metric | Value |
-|--------|-------|
-| Messages | 22 |
-| Date range | 2017-09-27 – 2018-04-13 |
-| Sent / Received (approx) | 0 / 22 |
-| Sample | Bro can I grab some smoke 💨?? You work today ?? |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
-
-
-========================================================================
-PAGE: wiki/people/zaco.md
-========================================================================
-
----
-domain: people
-page_type: entity
-status: archived
-date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/operating_manual.md"]
-related: ["wiki/self/message-corpora/master-message-dump"]
-infobox:
-  name: "Zaco"
-  relationship_to_dan: unknown
-  known_for: "Contact +17249123381. Direct intro 'Yo it's zaco'. 58 messages (master). Casual 'Yo it's ...' style outreach. Likely nic"
----
-
-# Zaco
-
-## Identity
-Contact +17249123381. Direct intro "Yo it's zaco". 58 messages (master). Casual "Yo it's ..." style outreach. Likely nickname Zachary/Zaco. Long-tail non-spam contact.
-
-## Corpus Dimensions (Zaco)
-| Metric | Value |
-|--------|-------|
-| Total messages (master) | 58 |
-| Handle | +17249123381 |
-| Sample | "Yo it's zaco" |
-| Date range | Sampled low-density |
-
-## Domain: Self
-Casual acquaintance / low-volume node in the long tail. Typical of breadth in social graph.
-
-## Notes
-Name self-provided in message. Informal greeting pattern common in low-volume iMessage.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
-
-
-========================================================================
 PAGE: wiki/places/117-belmont-circle.md
 ========================================================================
 
@@ -20228,7 +20970,7 @@ page_type: entity
 title: "307 E 76th St (Manhattan)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-18
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
@@ -20239,6 +20981,10 @@ related:
   - wiki/timeline/events/eli-incident
   - wiki/self/location-history
 tags: [nyc-era, housing]
+connections:
+  - page: wiki/people/menore
+    type: co-occurs
+    claim: "76th Street between 1st and 2nd Avenue was Menore's primary service coordinate for years — the residence and the delivery zone are the same address."
 ---
 
 # 307 E 76th St (Manhattan)
@@ -20279,7 +21025,7 @@ page_type: entity
 title: "337 Saratoga Drive"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -20292,6 +21038,10 @@ related:
   - wiki/self/location-history
   - wiki/interests/music/aliases/gripnotic
 tags: [music-production, uniontown-era, nyc-era, ai-collaboration]
+connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "The $465k sale is the money spine's next capital event and the first where Dan is bystander rather than beneficiary — the family-built asset liquidating around him."
 ---
 
 # 337 Saratoga Drive
@@ -23891,7 +24641,7 @@ title: "March 2026 — The Terminal Phase Peak"
 importance: high
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-13
+date_modified: 2026-07-18
 date_range_start: 2026-03-01
 date_range_end: 2026-03-16
 sources:
@@ -23911,6 +24661,10 @@ related:
   - wiki/people/suzanne-frank
   - wiki/mind/concepts/forensic-method
 tags: [relationships, trauma-bond, addiction-recovery]
+connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: component-of
+    claim: "The March 19-20 fight is the loop's bidirectional exhibit: Annie threatens exposure, blocks, unblocks to send final lines, and blocks again — the operation is the bond's shared negotiating grammar, not Dan's private defect."
 ---
 
 # March 2026 — The Terminal Phase Peak
@@ -24488,7 +25242,7 @@ page_type: period
 status: archived
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-18
 date_range_start: 2017-01-01
 date_range_end: 2017-12-31
 changelog:
@@ -24514,6 +25268,10 @@ related:
   - "wiki/self/message-corpora/master-message-dump"
   - "wiki/self/gemini-activity/gemini-activity"
 tags: [relationships, ai-collaboration, uniontown-era, financial-stress]
+connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "The poverty floor is the money spine's zero point — water shut off, gold and clothes sold, a $120 drug debt as a materially significant liability — the reference state against which every later capital arrival and burn is measured."
 ---
 
 # 2017 Poverty Floor
@@ -24576,9 +25334,16 @@ domain: timeline
 page_type: period
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-07-18
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/LIFE REPORT.md", "raw/self/dox-md/Gemini-_00.md"]
 related: ["wiki/timeline/events/timeline", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/totality-themes"]
+connections:
+  - page: wiki/people/johnny-dealer
+    type: contains
+    claim: "Johnny's 3,462-message logistics thread is this period's material infrastructure — the fronts, 1 AM ATM runs, and delivery cadence are the deep cycle at ground level."
+  - page: wiki/people/teddy
+    type: contains
+    claim: "Teddy's thread opens February 2018 at the onset of the period's multi-dealer configuration, forming its redundancy layer alongside Johnny."
 tags: [ai-collaboration, nyc-era, financial-stress, relationships, addiction-recovery]
 ---
 
@@ -24624,7 +25389,7 @@ page_type: period
 title: "2020–2021 Market Era"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-18
 sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -24635,6 +25400,10 @@ related:
   - wiki/timeline/periods/2021-2023-employment-block
   - wiki/timeline/periods/covid-era-2020
 tags: [career, addiction-recovery]
+connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "The market era opens within weeks of the Sept 1 2020 estate check — the inheritance is the probable stake behind the ~$15k FSLY position and the $25k Robinhood peak, a temporal join flagged as inference on the spine page."
 ---
 
 # 2020–2021 Market Era
@@ -24648,7 +25417,7 @@ incidental: this is the same window as the pandemic's "micro-radius siege"
 and GPS mobility collapse documented in
 [[wiki/timeline/periods/covid-era-2020]] — the market became a new outlet
 for an engine that had lost its normal environmental inputs. It began when childhood
-friend [[wiki/people/jerad-friedline]] passed the FSLY tip and Dan dumped
+friend [[wiki/people/jerad-friedline]] passed the FSLY tip ([[wiki/work/fastly-fsly]] holds the trade-level detail) and Dan dumped
 his portfolio (~$15k) into 112 shares of Fastly, taking a quick ~$4k profit
 — then evangelized the tip onward, in classic form, to a friend who started
 calling in daily gains.
@@ -24863,7 +25632,7 @@ domain: timeline
 page_type: period
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-07-18
 infobox:
   name: 2025 Collapse
   type: Period
@@ -24899,6 +25668,9 @@ related: [
 ]
 tags: [ai-collaboration, nyc-era, trauma-bond, uniontown-era]
 connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "This period carries the spine's terminal accounting: the three-rotation earner see-saw, the 2026 broke status, and the PA return framed as escaping metropolitan financial drains."
   - page: wiki/people/tom
     type: supplied-by
     claim: "Tom is the period's simultaneous crisis anchor and supply line; the dual role sets up the spring 2026 rupture."
@@ -24923,7 +25695,7 @@ connections:
 
 Freqs cross: annie:22, suzanne:16, bunker:20, work:22, timeline:16. Cross _07 Grim Trigger Suzy blackout (Jan 2026 post-sep), work entropy _00/_02 (Annie avatar vs Dan tenure), node locks/_18 profile.
 
-**Financial substrate (final dossiers, added 2026-07-13):** the terminal-phase dependency structure — Dan controlling the drug supply while Annie was unemployed and dependent — was the latest of three rotations, per the accepted amendments: Dan funded the early NYC years; Dan worked through the 2023 landlord-debt accumulation while Annie was between jobs; Annie was sole earner through 2024 after Dan's involuntary Au Za'atar job loss (hours cut Jun–Aug 2024 to dodge unemployment obligations). See [[wiki/people/annie-ulmer]] "The money — quantified" for the hard number: across Cash App and Venmo Dan sent Annie on the order of **~$139K** and received back only **~$16–20K** — a net outflow to her of roughly **$119K–$123K** over the relationship (per operator-provided payment-app screenshots, 2026-07-15; two separate app ledgers, not a single summed total). The "funded" read is a six-to-one financial asymmetry in her favor. [[wiki/people/annie-ulmer]] and [[wiki/work/au-zaatar]]. Terminal-phase mechanism catalog (love-to-request ratio 187:4, 44 moral-debt pivots, 13 weaponized apologies, 12 uncared-for crisis statements) is detailed on the Annie page and [[wiki/mind/concepts/attachment-model]] / [[wiki/mind/concepts/conflict-architecture]].
+**Financial substrate (final dossiers, added 2026-07-13):** the terminal-phase dependency structure — Dan controlling the drug supply while Annie was unemployed and dependent — was the latest of three rotations, per the accepted amendments: Dan funded the early NYC years; Dan worked through the 2023 landlord-debt accumulation while Annie was between jobs; Annie was sole earner through 2024 after Dan's involuntary Au Za'atar job loss (hours cut Jun–Aug 2024 to dodge unemployment obligations). See [[wiki/people/annie-ulmer]] "The money — quantified" for the hard number: across Cash App and Venmo Dan sent Annie on the order of **~$139K** and received back only **~$16–20K** — a net outflow to her of roughly **$119K–$123K** over the relationship (per operator-provided payment-app screenshots, 2026-07-15; two separate app ledgers, not a single summed total). The "funded" read is a six-to-one financial asymmetry in her favor. [[wiki/people/annie-ulmer]] and [[wiki/work/au-zaatar]]. Terminal-phase mechanism catalog (love-to-request ratio 187:4 — REVISED 2026-07-18, deflated by base-rate control, see the Annie page — 44 moral-debt pivots, 13 weaponized apologies, 12 uncared-for crisis statements) is detailed on the Annie page and [[wiki/mind/concepts/attachment-model]] / [[wiki/mind/concepts/conflict-architecture]].
 
 **Transition:** Into 2026 closure.
 
@@ -25294,7 +26066,7 @@ page_type: event
 title: "Au Za'atar (NYC, ~2021–2024)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 sources:
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/TheWaitersVisibleHigh.md
@@ -25322,6 +26094,12 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The 41-month audit posture — and Dan's own documented sabotage — are this page's contribution to the skepticism model."
+  - page: wiki/mind/synthesis/supply-network
+    type: co-occurs
+    claim: "The supply network wrapped around this workday: Menore delivered mid-shift to the Shed block through taxi windows — primary-confirmed for May–Aug 2024, with the storytime's longer window unresolved against the Menore thread's 2020–24 gap."
+  - page: wiki/people/menore
+    type: supplied-by
+    claim: "Menore was the mid-shift supply line to the Shed block, his legit-taxi cover making the sidewalk handoffs trivial — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58); earlier years rest on the storytime only."
 ---
 
 
@@ -25404,7 +26182,7 @@ did not survive past the job; see [[wiki/people/felipe]] for the
 correction. [[wiki/people/suzanne-frank|Suz]] visited for Dan's birthday
 (November 2021) and the owners comped the whole menu — "typical lebanese
 hospitality." Around them, the documented
-cast: **Sergio**, a 53-year-old Miami service veteran whose war with Dan
+cast: [[wiki/people/manuel|Manuel]], a coworker whose thread opens with an October shift-swap; **Sergio**, a 53-year-old Miami service veteran whose war with Dan
 over the word "dude" escalated into a "nonsense meeting" with Tarik and
 Ghassan conducted in tooth-loss analogies; a **Tunisian zoomer manager**
 who tried to fire Dan for tip-siphoning on Thanksgiving 2023 — and failed,
@@ -25570,6 +26348,9 @@ connections:
   - page: wiki/mind/concepts/dans-law
     type: instantiates
     claim: "The three-hypotheses-held-open method (Brandon's error / soft skim / invented number) with the no-paper-trail fact isolated as the real signal is Dan's Law run at gas-station scale."
+  - page: wiki/mind/synthesis/supply-network
+    type: caused-by
+    claim: "The job's end is the supply network's fragility propagating into employment: the three-burns-in-four-days sourcing cascade left Dan working the pinned shift in withdrawal — single-node supply failure converted directly into job loss."
   - page: wiki/people/anita
     type: co-occurs
     claim: "Anita is the GM who originated the $50 claim and controls the levers (deposit, schedule, discipline); the dispute is the setting where her backward-narrative pattern is documented."
@@ -26040,7 +26821,7 @@ page_type: event
 title: "Caddying — Nemacolin, Laurel Valley, Pikewood National (2016–2019)"
 status: closed
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 date_range_start: 2016-04-06
 date_range_end: 2019-11-01
 sources:
@@ -26057,6 +26838,9 @@ related:
   - wiki/mind/concepts/forensic-method
 tags: [career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/people/steve-kezmarsky
+    type: co-occurs
+    claim: "Steve asked to be gotten into the caddie yard in July 2017 and never submitted the resume — a documented near-member of the cohort."
   - page: wiki/interests/golf
     type: component-of
     claim: "The caddying job is the professional component of the wider golf thread — the hire reignited his own playing, and for the 2016–19 stretch the sport was simultaneously income, social world, and game."
@@ -26117,6 +26901,24 @@ where Dan looped in a tournament setting in late June 2018, coordinated
 directly by caddie master Ryan Sensenig for a player named Andy Decker
 (June 29, 10:00 AM tee time, #1). He had asked to be kept in mind for
 Pikewood and Potomac assignments weeks earlier.
+
+## The caddie-yard social graph
+
+The job seeded a documented cohort of its own, each with a thread in the
+corpus: [[wiki/people/trevor|Trevor Bevins]] — the "Trevor" of the May 21
+Laurel Valley trip above and the era's closest work friendship, who later
+left for Sand Valley; [[wiki/people/chad-johnson|Chad Johnson]] — the
+"Chad" of the same trip, a fellow caddy and social contact beyond the
+yard; [[wiki/people/mike-zollinger|Mike Zollinger]] and
+[[wiki/people/jimmy|Jimmy]], fellow caddies from the 2018 season;
+[[wiki/people/bill|Bill]], a caddying peer distinct from Bill Ulmer; and
+[[wiki/people/joey-superick|Joey Superick]], a brief golf-and-music
+friendship from June 2018 adjacent to the same scene. Steve Kezmarsky
+([[wiki/people/steve-kezmarsky]]) asked Dan to get him into the yard in
+July 2017 but never followed through. The pattern the cohort documents:
+caddying was the last era in which work generated Dan's friendships in
+bulk — nothing after it (Au Za'atar's Triad excepted) produced a
+comparable social layer.
 
 ## Why the job matters
 

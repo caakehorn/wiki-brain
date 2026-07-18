@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-17
+date_modified: 2026-07-18
 sources:
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
   - raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html
@@ -30,6 +30,9 @@ connections:
   - page: wiki/mind/synthesis/interests-as-era-markers
     type: causes
     claim: "The fixed rate is the enabling condition of the era-marker phenomenon: because volume never varies, subject is the only free variable, so subject-rotation carries the era signal that page reads as a timeline instrument."
+  - page: wiki/mind/synthesis/supply-network
+    type: parallels
+    claim: "The supply network is this finding's material-layer counterpart: a constant appetite requires a constant procurement architecture, and both persist across every era while only the nodes rotate."
 ---
 
 

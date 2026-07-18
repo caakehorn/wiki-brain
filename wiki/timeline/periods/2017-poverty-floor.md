@@ -4,7 +4,7 @@ page_type: period
 status: archived
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-18
 date_range_start: 2017-01-01
 date_range_end: 2017-12-31
 changelog:
@@ -30,6 +30,10 @@ related:
   - "wiki/self/message-corpora/master-message-dump"
   - "wiki/self/gemini-activity/gemini-activity"
 tags: [relationships, ai-collaboration, uniontown-era, financial-stress]
+connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "The poverty floor is the money spine's zero point — water shut off, gold and clothes sold, a $120 drug debt as a materially significant liability — the reference state against which every later capital arrival and burn is measured."
 ---
 
 # 2017 Poverty Floor
