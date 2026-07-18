@@ -1,0 +1,34 @@
+---
+domain: people
+page_type: entity
+status: archived
+date_created: 2026-06-23
+date_modified: 2026-06-23
+date_range_start: 2020-01-30
+date_range_end: 2024-06-26
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+---
+
+# Contact +18334172274
+
+## Identity
+Non-named or minimally identified contact from iMessage corpus at handle `+18334172274`. 310 messages exchanged over 2020-01-30 to 2024-06-26. Sample interaction: "Cash App: Your $15.86 payment at Playstation Network was declined because your Cash Card is disabled". Appears in personal message contexts (not obvious spam per filter).
+
+## Corpus Dimensions
+| Metric | Value |
+|--------|-------|
+| Messages | 310 |
+| Date range | 2020-01-30 – 2024-06-26 |
+| Sent / Received (approx) | 0 / 310 |
+| Sample | Cash App: Your $15.86 payment at Playstation Network was declined because your Cash Card is disabled. Open the app to en |
+
+## Domain: Self
+Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+
+## Notes
+Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+
+## Related
+- [[wiki/self/message-corpora/master-message-dump]]
+- [[wiki/mind/concepts/contact-gini]]

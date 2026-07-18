@@ -1,0 +1,69 @@
+---
+domain: people
+page_type: entity
+status: closed
+date_created: 2026-06-24
+date_modified: 2026-06-24
+date_range_start: 2026-05-31
+date_range_end: 2026-06-16
+sources:
+  - raw/self/message-csv/imessage_export_7248123683_20260624.csv
+  - raw/self/message-csv/THE END FIGHT.csv
+related:
+  - wiki/people/annie-ulmer
+  - wiki/timeline/events/end-fight
+  - wiki/timeline/events/group-chat-closure
+tags: [relationships, trauma-bond, ai-collaboration, addiction-recovery]
+infobox:
+  name: "Tuquick 17248123683"
+  relationship_to_dan: unknown
+  location: nyc
+  first_contact: 2026-05-31
+  known_for: "Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal g"
+connections:
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: evidences
+    claim: "The June 15 defection is the verdict's independent-validation exhibit: convergence on Dan's read within 14 days of attacking it."
+---
+
+
+# Tuquick (+17248123683)
+
+> **Status: CLOSED as a thread. Role: the relationship Annie left for + the June 2026 End Fight sequence.**
+
+> **REVISED [2026-07-13]:** Operator correction: Tuquick is not a "stranger inserted into the situation" — he is who Annie left Dan for. He may or may not be "Target G"; unknown.
+
+## Identity
+
+Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal group chat that closed the relationship on June 1, 2026 (the [[wiki/timeline/events/end-fight]]). Associated with the email `Tuquick3@hotmail.com` and phone number `+17248123683`. He is **not** [[wiki/people/eli]] (the 2024–Feb 2025 NYC affair). Whether he is "Target G" — the married man from the January 2026 "Suzy" call and ten-day blackout (see [[wiki/people/annie-ulmer]] §Target G, [[wiki/self/chats/gemini-07]]) — is unresolved; the Gemini-_07 forensics name the Target G figure "Caitlin's husband," a description not otherwise confirmed as Tuquick.
+
+During the May 31/June 1 confrontation he aggressively defended Annie, hurling extreme insults at Dan.
+
+## Role in the End Fight (May 31 - June 1, 2026)
+
+Tuquick served as the attack vector during the group chat confrontation, demonstrating the active defamation campaign running in Annie's peer network.
+- Hurled extreme insults at Dan, centering on "junkie," "cuck," and "molester" framing.
+- Acted as Annie's proxy and protector during the escalation that resulted in Annie's final "sic semper lupanis" text.
+- Dan attempted to engage him on geopolitical topics (Israel/Palestine) to derail the hostility, but Tuquick remained focused on the attack.
+
+## Post-Closure Defection (June 15, 2026)
+
+On June 15, Dan sent an AI model fine-tuned on the raw text logs of their fight, along with a custom Spotify crate, to Tuquick and Annie. By this point, a severe reversal had occurred.
+
+Within two weeks of aggressively defending Annie, Tuquick defected and turned on her, independently arriving at the exact same conclusions Dan had documented:
+- **Verbatim:** "She’s a compulsive liar with a drug addiction"
+- **Verbatim:** "you can have her back something is seriously wrong with her in her thirties still texting her ex that had her fuck his friends because he can’t pay for drugs and it turns him on , and you’d never talk to me like this in person"
+- **Verbatim:** "You can have her back ? She’s no good 🤣 trauma bond to the cuck"
+
+This defection serves as an independent, third-party validation of the manipulation patterns (compulsive lying, trauma bonding) documented in the [[wiki/mind/concepts/attachment-model]]. Tuquick, despite his hostility toward Dan, experienced the exact same reality distortion from Annie and exited the dynamic almost immediately.
+
+## Corpus Dimensions
+
+| Metric | Value |
+|---|---|
+| Total messages (June 15-16 extension) | ~2,993 rows in combined export |
+| Key Pattern | Extreme hostility toward Dan (May 31) -> Extreme hostility toward Annie (June 15) |
+
+## Notes
+
+Tuquick is not Eli. He is the relationship Annie left for, the catalyst and counterpart of the final group chat closure on June 1, and subsequently an independent witness to Annie's behavioral architecture on June 15.

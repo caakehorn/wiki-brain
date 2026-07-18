@@ -1,0 +1,34 @@
+---
+domain: people
+page_type: entity
+status: archived
+date_created: 2026-06-23
+date_modified: 2026-06-23
+date_range_start: 2018-03-02
+date_range_end: 2020-05-26
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+---
+
+# Contact 93639452
+
+## Identity
+Non-named or minimally identified contact from iMessage corpus at handle `93639452`. 36 messages exchanged over 2018-03-02 to 2020-05-26. Sample interaction: "Free ATT Msg: This is a friendly reminder that your payment of $204.94 is due soon. View your bill a". Appears in personal message contexts (not obvious spam per filter).
+
+## Corpus Dimensions
+| Metric | Value |
+|--------|-------|
+| Messages | 36 |
+| Date range | 2018-03-02 – 2020-05-26 |
+| Sent / Received (approx) | 0 / 36 |
+| Sample | Free ATT Msg: This is a friendly reminder that your payment of $204.94 is due soon. View your bill and pay in seconds wi |
+
+## Domain: Self
+Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+
+## Notes
+Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+
+## Related
+- [[wiki/self/message-corpora/master-message-dump]]
+- [[wiki/mind/concepts/contact-gini]]
