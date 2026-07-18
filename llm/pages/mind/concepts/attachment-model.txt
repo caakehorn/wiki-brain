@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-18
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -18,6 +18,9 @@ related:
   - wiki/self/facebook
 tags: [relationships, attachment, addiction-recovery, trauma-bond, infidelity]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: causes
+    claim: "The model's 299:0 affirmation-to-severance asymmetry is why declared exits cannot hold: a system with no vocabulary for 'closed' can only toggle channel state and wait for the dependency to decide."
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: instantiates
     claim: "The Annie bond is this model's central case, running as designed across 127/110 cycles."
@@ -43,7 +46,7 @@ This cognitive architecture is heavily influenced by a multi-generational family
 
 | Indicator | Count | Source Document |
 |---|---|---|
-| Love affirmations from Annie to Dan | 299 | MasterRecord Synthesis |
+| Love affirmations from Annie to Dan | 299 | MasterRecord Synthesis (unlocated in primary recount 2026-07-18 — her terminal-phase love-messages: 231; all-time in dual-handle export: 1,302; the 0-severance half IS primary-verified: severance sweep of her 41,073 messages returns only false positives) |
 | Explicit severance signals from Annie to Dan | 0 | Full ten-year Annie Corpus |
 | Documented relationship events | 266 | LIFE_EVENTS_CALENDAR.md |
 | Cheating and affair subcategory events | 84 | LIFE_EVENTS_CALENDAR.md |

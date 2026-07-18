@@ -186,7 +186,11 @@ the short form; read the style guide before writing pages.
 3. **Paraphrase, don't transplant.** Verbatim source text stays in raw/;
    pages cite it. Quotes of one sentence or less allowed when the wording
    itself is the evidence.
-4. **Page budget ~8 KB.** Bigger means it is two pages.
+4. **Page budget ~8 KB is a navigation heuristic, not a cap** (settled
+   2026-07-18; STYLE_GUIDE substance rule 4 governs). The operator's
+   standing preference is LONGER, denser entries. Lint size warnings are
+   advisory on hub/junction/exemplar pages — never trim earned content
+   to satisfy them; split only when navigation genuinely improves.
 5. **Indexes are navigation only** — links plus one-line summaries. No
    session history or agent chatter anywhere in wiki/; that goes in log.md.
 6. **One page per entity.** Before creating a people/ page, grep for the

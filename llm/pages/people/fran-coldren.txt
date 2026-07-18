@@ -7,7 +7,7 @@ status: stable
 importance: critical
 relation_type: family
 date_created: 2026-06-23
-date_modified: 2026-07-15
+date_modified: 2026-07-18
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, uniontown-era, music-production, grief]
 sources:
@@ -47,6 +47,9 @@ infobox:
   location: uniontown
   known_for: "Fran Whyel Coldren was Dan's maternal great-grandmother, his self-described"
 connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "Fran is the money spine's maternal source node: the Ira-estate capital she held (Judge Fred Adams as trustee) became the 2020 distribution — the biography's largest documented single capital arrival."
   - page: wiki/mind/synthesis/ancestral-dialectic
     type: evidences
     claim: "Fran anchors the maternal numbness-of-survival half of the dialectic frame."

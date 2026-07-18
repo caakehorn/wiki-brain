@@ -7,7 +7,7 @@ importance: critical
 knowledge: mixed
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-07-18
 date_range_start: 2015-11-01
 date_range_end: 2026-06-01
 infobox:
@@ -87,9 +87,24 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: component-of
+    claim: "The 127/110 exit-relapse record is the loop's central case, and the March 2026 fight shows Annie running the same block-unblock operation back at Dan — the loop is bidirectional inside the bond."
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "The ~$119–123K net payment-app outflow to Annie is the money spine's largest documented drain — roughly the size of the entire estate distribution, exiting through the relationship over the decade."
   - page: wiki/people/tom
     type: co-occurs
     claim: "Tom is a recurring selected participant in the 2018-2024 arrangement documented on this page."
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Annie occupies both seats in the supply network across its life — logistics facilitator in the 2018–19 Johnny era, dependent consumer in the terminal phase, when Dan's control of the supply ('bop') was the relationship's primary retention mechanism."
+  - page: wiki/people/johnny-dealer
+    type: co-occurs
+    claim: "Annie ran facilitation through Johnny's node — drops, pickups, 'I'm at Johnny's' — making her a logistics participant in the 2018–19 supply chain, not a bystander to it."
+  - page: wiki/people/teddy
+    type: co-occurs
+    claim: "Teddy's final exchange checks whether both Dan's and Annie's numbers are current, placing Annie inside the supply thread's contact routine."
   - page: wiki/mind/synthesis/message-circadian-latency
     type: evidenced-by
     claim: "The circadian/latency cut supplies the quantitative case for the relationship's singularity: median 9-minute mutual reply latency against hour-scale delays everywhere else."
@@ -406,7 +421,22 @@ gaslighting architecture:
 
 - **The "I love you" anchor / procurement function.** 187 of 191 love
   declarations in the seven-month window were adjacent to a drug or money
-  request within 24 hours (96.6%); 4 stood alone. Her 2025 love-language
+  request within 24 hours (96.6%); 4 stood alone.
+  > **REVISED [2026-07-18]:** the 187:4 statistic is deflated by a
+  > base-rate control and should not be cited as evidence of a
+  > procurement instrument. Primary recount (dual-handle export, same
+  > window): 212 of her 220 love-declarations are request-adjacent at
+  > ±24h (96.4% — the ratio reproduces), **but 97.2% of a random sample
+  > of ALL her window messages are request-adjacent at the same radius**
+  > — she made requests nearly daily, so the adjacency is uninformative.
+  > The directional test inverts the claim: a request follows within 1h
+  > of her love-declarations 3.2% of the time vs a 16.2% baseline for
+  > her average message. On the text record her love-declarations were
+  > *more isolated* from requests than her ordinary messages. The
+  > love-language rate collapse/rebound below is unaffected; Dan's Jan
+  > 24 2026 line stands as his subjective read (dossier-sourced). Full
+  > method: [[wiki/mind/synthesis/dan-annie-fallout-verdict]].
+  Her 2025 love-language
   rate (2.7%) rebounded to near-2016 levels precisely when the supply
   relationship was established — the instrument reactivating, not the
   relationship recovering. Dan named it in real time (Jan 24 2026): "You
@@ -527,7 +557,9 @@ The ledger runs both ways, and the pages keep both columns. Dan's: 94
 burst events (each preceded by her silence), 127 exit declarations with
 110 re-engagements (an 87% relapse rate that trained her to ignore his
 stated limits), 74 "fuck you" / 17 "piece of shit" / 11 "worthless"
-instances escalating from 9 (Aug 2025) to 36 (Feb 2026), heavy drug use
+instances escalating from 9 (Aug 2025) to 36 (Feb 2026) — all three
+counts confirmed EXACTLY from his side of the dual-handle export
+(2026-07-18 primary recount; her side in the same window: 0/1/0), heavy drug use
 throughout, and the architect's role in the arrangement and the supply
 chain. The dossiers' proportionality finding: real, documented, his
 responsibility — and not equivalent to the system that produced them.
@@ -573,7 +605,7 @@ concealment looked like from inside ([[wiki/self/chats/gemini-18]]).
 
 | Behavioral pattern (terminal phase) | Annie | Dan |
 |---|---|---|
-| Love-to-request ratio (love declaration → ask ≤24h) | 187:4 (96.6%) | — |
+| Love-to-request ratio (love declaration → ask ≤24h) | 187:4 (96.6%) — REVISED 2026-07-18: matches base rate (97.2%), see blockquote above | — |
 | Crisis statements met without care | 12 of 12 | — |
 | Moral-debt pivots (betrayal confrontation → caretaking crisis) | 44 | — |
 | Weaponized apologies (self-indictment, zero change) | 13 | — |

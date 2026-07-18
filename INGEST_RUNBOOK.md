@@ -335,3 +335,34 @@ operator's target was 10–30 total hours of this ingest):
   settled work.
 - Tone: forensic senior peer. Plain human voice in published prose (no LLM
   neologisms in derived writing). Lengthy and detailed by directive.
+
+## 11. THE STORYTIME-MINING WORKFLOW (codified 2026-07-18 — operator-approved, repeatable)
+
+For retiring `wiki/self/chats/` pages (gemini-XX, j6-chat, 9-11-chat, and
+the dox-md storytimes). This workflow ran successfully on Gemini-_02 and
+Gemini-_00 (2026-07-18); follow it exactly:
+
+1. **Scrape the conversation start-to-finish** from its raw/ source (not
+   from the chat wiki page — the page is a lossy summary).
+2. **Extract ~50 discrete data points** (dates, names, amounts, claims,
+   corrections). More for dense sources; the operator wants entries
+   LONGER than the current standard.
+3. **Operator approval** of the point list before entry (paste the list;
+   wait). Skip only if the operator has pre-approved the batch.
+4. **Research each point against the wider raw/ corpus** before writing —
+   cross-check identities (grep all handles), verify numbers, run the
+   contradiction rules against existing pages.
+5. **Enter the points** into their proper home pages (person/event/period
+   pages — the main sink is usually a full prose rewrite of one page),
+   with typed `connections:` per CONNECTIONS_SPEC.
+6. **Delete the chat page**, repairing every inbound link (`grep -r`
+   first). The chat's content now lives in the wiki proper; the page
+   was scaffolding.
+7. Gates (`bin/wiki-lint` + `bin/wiki-connect check`), log.md, commit,
+   and strike the chat from the candidates list in LLM_HANDOFF.md.
+
+Remaining candidates at codification time: gemini-07 (Suzy call),
+gemini-13 (Bacharach), gemini-18, gemini-21, gemini-58, j6-chat,
+9-11-chat, photo-ingest-pinned, extract-messages-pinned, danfrank-isms-
+pinned, and the dox-md storytimes (Cash register shortage, Drawer
+shortage, Little Caesars — mined 2026-07-18, verify before re-mining).

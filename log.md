@@ -305,3 +305,9 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - **Demoted to contacts/ quarantine:** rod-banks, slim, zach, zach-clabaugh, tan-calabrese, zach-hendricks (merged with zaco — same handle +17249123381, zaco.md deleted), caviar (not a person — automated dispatch number). **Deleted:** brandon.md (pointer dup of brandon-hill). people/index.md rows cleaned.
 - **Delegated (standing verdicts in LONG_TAIL_TRIAGE.md):** MINE sam(374)/davey-fitzpatrick(382)/vaughn(228)/nick-mattie(170); REWRITE-OPENER jason-bermejo; ACCEPTED-LEAF list (11 real mini-profiles, deliberate); chats/ backlog unchanged.
 - Gates: wiki-lint 0 errors; wiki-connect 0 errors, islands 45 → 20.
+
+## [2026-07-18] governance | root | Post-Fable operating rules settled + llm/ regenerated
+- Page-budget contradiction resolved (CLAUDE.md rule 4 ↔ STYLE_GUIDE substance rule 4): ~8KB is a navigation heuristic; lint size warnings advisory on hub/junction/exemplar pages; standing directive = LONGER entries.
+- INGEST_RUNBOOK §11: storytime-mining workflow codified (scrape → ~50 points → operator approval → research → enter → delete chat page), candidates listed.
+- STRATEGY.md "Running on lesser models": mechanical-execute list vs never-attempt list; junction trio named as the model of the product.
+- LLM_HANDOFF.md session entry + prioritized next steps. llm/ regenerated (308 pages, ~407k tokens).

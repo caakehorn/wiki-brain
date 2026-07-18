@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 date_range_start: 2018-04-22
 date_range_end: 2019-10-20
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -17,6 +17,10 @@ infobox:
   location: nyc
   first_contact: 2018-04-22
   known_for: "Jim Shaffer — 'not the only Jim Shaffer' in Dan's life, hence the 'new' contacts-card label — is a wealthy childhood fri"
+connections:
+  - page: wiki/people/steve-kezmarsky
+    type: co-occurs
+    claim: "Steve's death reaches the record through this thread — Jim hadn't heard, December 2018 — the second dead member (after Rob Orange) of the same high-school-era Uniontown circle."
 ---
 
 # "New Jim Shaffer" (Jim Shaffer)

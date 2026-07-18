@@ -37,6 +37,9 @@ connections:
   - page: wiki/mind/concepts/dans-law
     type: instantiates
     claim: "The three-hypotheses-held-open method (Brandon's error / soft skim / invented number) with the no-paper-trail fact isolated as the real signal is Dan's Law run at gas-station scale."
+  - page: wiki/mind/synthesis/supply-network
+    type: caused-by
+    claim: "The job's end is the supply network's fragility propagating into employment: the three-burns-in-four-days sourcing cascade left Dan working the pinned shift in withdrawal — single-node supply failure converted directly into job loss."
   - page: wiki/people/anita
     type: co-occurs
     claim: "Anita is the GM who originated the $50 claim and controls the levers (deposit, schedule, discipline); the dispute is the setting where her backward-narrative pattern is documented."

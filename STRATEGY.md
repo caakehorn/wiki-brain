@@ -88,6 +88,40 @@ is a failed page.
 Follow these three and you cannot corrupt the system, even if you understand
 nothing else here.
 
+## Running on lesser models (the post-2026-07-18 operating reality)
+
+The most capable model that will ever work on this repository finished
+its last session on 2026-07-18. Everything after this line is executed
+by less capable models, and the work has been shaped for that:
+
+**Safe to execute mechanically (do these freely):**
+- The `related:` → `connections:` retrofit backlog (per the protocol in
+  CONNECTIONS_SPEC.md, one page per pass) and `connection-queue.md`
+  top-down.
+- The standing verdicts in `LONG_TAIL_TRIAGE.md` — decisions are made;
+  execute, don't re-litigate.
+- The storytime-mining workflow (INGEST_RUNBOOK.md §11) — with operator
+  approval at step 3.
+- `bin/llm-publish` regeneration after every content pass; queue.md and
+  inbox hygiene; knowledge-tagging pages you already touch.
+
+**Do NOT attempt without strong evidence in hand:**
+- Rewriting or re-deriving any `knowledge: earned` page (the junction
+  pages, the synthesis stack, the fallout verdict). Revise with REVISED/
+  CONTRADICTION blocks only, and only when raw evidence forces it.
+- Changing a verdict or a verified number. The 2026-07-18 primary-count
+  pass (see dan-annie-fallout-verdict.md) is the worked example of the
+  required discipline: base-rate controls, direction checks, exact-row
+  citations. If you cannot run that discipline, flag and queue instead.
+- Guessing identities. Grep every name and handle; when in doubt, add to
+  contact-review.md and move on.
+
+**The model of the product** — what a finished piece of work looks like —
+is the junction-page trio (`supply-network`, `estate-money-spine`,
+`block-unblock-loop`): verified members, typed edges with argued claims,
+inverse edges on every member, one governing rule stated plainly, gaps
+named. Imitate their shape.
+
 ## Current campaign
 
 The retrofit: converting the legacy graph to typed connections, page by
