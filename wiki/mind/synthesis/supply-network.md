@@ -168,9 +168,11 @@ important. In the terminal phase (August 2025 – March 2026), Dan is no
 longer only the network's consumer — he is its *distribution point* for
 [[wiki/people/annie-ulmer|Annie]], who is unemployed, dependent, and
 sourcing through him ("bop"). The primary sources call supply "the last
-transactional bond" of the relationship, and the 187:4
-love-declaration-to-procurement adjacency ratio shows the relationship's
-affective channel running on procurement timing. Annie had been a
+transactional bond" of the relationship. (The oft-cited 187:4
+love-to-request adjacency statistic was deflated by a base-rate control
+on 2026-07-18 — see [[wiki/mind/synthesis/dan-annie-fallout-verdict]];
+the dependency structure itself, and the love-language rate rebound
+timed to the supply relationship, stand on independent evidence.) Annie had been a
 network *facilitator* in the Johnny era (drops, pickups, "I'm at
 Johnny's"); by the end she occupies the consumer seat with Dan in the
 supplier seat — and the retention dynamics that held *him* to unreliable

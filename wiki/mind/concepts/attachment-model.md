@@ -46,7 +46,7 @@ This cognitive architecture is heavily influenced by a multi-generational family
 
 | Indicator | Count | Source Document |
 |---|---|---|
-| Love affirmations from Annie to Dan | 299 | MasterRecord Synthesis |
+| Love affirmations from Annie to Dan | 299 | MasterRecord Synthesis (unlocated in primary recount 2026-07-18 — her terminal-phase love-messages: 231; all-time in dual-handle export: 1,302; the 0-severance half IS primary-verified: severance sweep of her 41,073 messages returns only false positives) |
 | Explicit severance signals from Annie to Dan | 0 | Full ten-year Annie Corpus |
 | Documented relationship events | 266 | LIFE_EVENTS_CALENDAR.md |
 | Cheating and affair subcategory events | 84 | LIFE_EVENTS_CALENDAR.md |
