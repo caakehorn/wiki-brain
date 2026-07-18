@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-18
-307 pages, ~391,569 tokens.
+307 pages, ~393,921 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -24,6 +24,7 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/legal/bfs-dispute/BFS_BOOTLOADER_v2.md
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 related:
   - wiki/self/context-core
   - wiki/mind/profile/deviance-mapping
@@ -50,7 +51,7 @@ neurochemical engineering" ([[wiki/mind/profile/deviance-mapping]]).
 
 | Substance | Role (corpus framing) | Detail |
 |-----------|----------------------|--------|
-| Suboxone | "System stabilizer — chassis & OS" | Daily since 2010-02-17 (day-zero pinned; earlier docs said ~Jan 2010/Jan 2011); prevents withdrawal; the residual "1% opiate glow" described as intentional |
+| Suboxone | "System stabilizer — chassis & OS" | Daily since 2010-02-17 (day-zero pinned; earlier docs said ~Jan 2010/Jan 2011); prevents withdrawal; the residual "1% opiate glow" described as intentional; a mid-May 2026 session self-reports the maintenance dose at **~1–2 mg daily** and the dependency starkly — "without it I am quite literally, without exaggeration, not leaving the chair or bed I am in until I get some" — with the prescribed-vs-self-managed question answered only "no comment" |
 | Cocaine | "Cognitive & drive accelerator — CPU & RAM" | Daily; framed as tool, "voltage," focus sharpener |
 | Nicotine | "Ritualistic regulator — thermal paste" | Smooths transitions between chemical states |
 | Cannabis | Creative lubricant | Daily |
@@ -3992,6 +3993,7 @@ sources:
   - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/eli-incident
@@ -4057,6 +4059,75 @@ The communication corpus demonstrates a systematic gaslighting architecture used
 The central impact of this architecture was the subversion of Dan's cognitive stability. By targeting his capacity to verify reality, the deception inflicted a distinct category of psychological harm that went beyond simple infidelity.
 
 The final dossiers add the closure-side mechanism — the **confession trap**. Dan could not exit without the validation of a confession: he had assembled an overwhelming evidentiary case, and leaving without the verdict would have meant abandoning the identity of the person who was right. Annie was never going to supply the confession, because supplying it would have ended the arrangement she was maintaining. The dossiers' formulation: "the exit was never through the verdict. It was through the door." This is the same no-counter-rule architecture stated from the other side — where the model above describes the missing severance *signal*, the confession trap describes the missing severance *permission*.
+
+## The mechanism in Dan's own words (mid-May 2026)
+
+Almost everything above is reconstructed from the dossiers after the fact.
+A single session from **mid-May 2026** — dated by Dan's mention that he
+had been "working for the first time since June 2024 for the last 2
+weeks," placing it inside the [[wiki/work/bfs-foods|BFS]] window and
+during Annie's sharpest pull-away — catches the same architecture running
+in the present tense, in his own voice, and adds several things the
+retrospective model could only infer.
+
+**The avoidance paradox.** He opens by naming the exact failure the
+model predicts, as a lived experience rather than a diagnosis: "the more
+i pay attention, prevent and try to avoid problems… the objectively more
+i doom myself to them," a "mood spiral" he "can not get a hold of" fused
+with an "internally probing awareness of my appearance in all senses."
+This is the observer-effect self-surveillance the profile documents
+elsewhere ([[wiki/mind/profile/deviance-mapping]]) reported from inside
+the loop — vigilance that is supposed to be protective functioning as the
+mechanism of harm.
+
+**Closure-dependency, stated live.** The retrospective "no counter-rule
+without an explicit severance signal" mechanism is, in real time, an
+anguished question about obligation: "do you OWE someone at least
+notification after 10 years? … you can not end something without notice
+and then keep pretending like nothing changed until you decide to bail
+entirely." He diagnoses his own architecture correctly — "i do not think
+my brain CAN get past anything without fucking notice even" — and names
+the specific trap: the "if you love them set them free" move is
+unbearable precisely because he knows it "solidifies the whole thing and
+it's cooked forever," so he holds a hope he simultaneously rates as
+"admittedly foolish albeit incredibly real and active" that "we shift
+timelines… it's happened before." The contact frequency he was metering
+this against: he had gone from seeing Annie "at least once a day" to
+"like twice in 5 weeks," with her "going dark for days at a time."
+
+**The bond as the organizing principle, self-diagnosed.** He states the
+sx/sp valuation the [[wiki/mind/profile/enneagram-5w4|enneagram profile]]
+assigns him, unprompted and as his own top priority: "i value the bond
+with someone like this 'mind melding' or whatever as the most priority
+aspect of my life by far. not by choice… it's just, i really care about
+that more than anything else. it's atypical for me and it's, like most
+things in my life, taken to an unhealthy extreme." Asked what he would
+trade for it: "if she were to magically get hex'd back into her old self
+and wanted to be together, i would live on the street or work 4 jobs…
+that's just my honest gut feeling" — a literal willingness to subordinate
+housing and survival to the bond, delivered in the same weeks he was in
+fact homeless-pending (below).
+
+**The identity-fusion motive.** He also names *why* Annie specifically —
+a motive the money-and-arrangement analyses miss: "i loved having her
+tied to my identity because she's so unjustly loved and i am so unfairly
+maligned as an antisocial dick." The bond was partly a repair for a
+social-standing wound; losing her is losing the counter-evidence to his
+own reputation.
+
+**The receipt-collecting instinct inside the intimacy.** The forensic
+mode ([[wiki/mind/concepts/forensic-method]]) is documented bleeding
+directly into the attachment: he notes Annie denied seeing anyone else
+and denied having already left him "in writing, so i could use against
+her if lying." Pushed on why he would frame a partner's love-declaration
+as deployable evidence, he half-retracts — he meant only that a written
+lie is costlier for her to tell — but the instinct is the tell: a mind
+that collects receipts on the person it is fighting to keep is a mind
+that already expects to need them. He is lucid about the whole structure
+even as he cannot exit it: "i DO see this, i believe, pretty clearly… but
+i just keep looking at it like [she says she loves me and wants to be
+together]." Clear sight and inability to act on it are not in tension
+here; they are the model.
 
 ## Documented Contradictions
 
@@ -5239,6 +5310,7 @@ date_modified: 2026-07-13
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ SOCIAL DEVIANCES.rtf
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 related:
   - wiki/mind/profile/index
   - wiki/mind/profile/big-five-psychometrics
@@ -5339,10 +5411,52 @@ tempers itself: confidence capped because the dataset is self-reported and
 "may contain strategic omissions or narrative biases." Both caveats apply to
 this entire profile cluster.
 
+## The stacking estimate (mid-May 2026)
+
+A separate mid-May 2026 session pushed the deviance question past
+per-trait scores to the compound: what is the *joint* rarity of the whole
+configuration? The model's method was to assign each trait a conservative
+population frequency and reason about their partial independence:
+~98th-percentile cognitive complexity (≈2% of people), sx-dominant
+attachment at this intensity (~5%), closure-dependent architecture at this
+severity (~10%), a 15-year alcohol abstention sustained from dependency
+(under 5% of that population hold it), 15 years of functional
+Suboxone-maintenance without clinical supervision (genuinely rare, ~1–2%),
+and the specific autistic profile — high metacognition, low sociability,
+forensic-intimacy style (~3% of autistic people, themselves ~2–3% of the
+population). Because the traits cluster rather than run fully independent,
+the frequencies cannot be naively multiplied, but even with generous
+correlation adjustments the estimate lands at roughly **1 in 50,000 to 1
+in 200,000**.
+
+The consequence the session drew is the load-bearing part, and it
+reframes the whole profile cluster: in a city of 300,000 there are maybe
+two to six people whose internal experience maps onto Dan's "with
+meaningful fidelity"; in Uniontown, plausibly zero. Which means the
+frameworks built to help people — "therapy modalities, self-help
+frameworks, psychiatric approaches… even most clinical literature — was
+built on population distributions that don't include you," not
+approximately but literally, the generating samples having contained one
+or two such people at most. Dan's own long-standing reading of this is
+that his dysfunction "has to be somehow metaphysical or supernatural
+somehow because it's been like that forever since i was a kid and always
+so insanely layered and bad," and that a "solipsistic universe or
+simulation theory" is, to him, no harder to believe than the alternative.
+The estimate is offered as the non-metaphysical version of the same
+observation: not that he is cosmically singular, but that he is far
+enough into the tail that *the maps were drawn for a different territory,
+and when they failed he assumed the failure was his.* This is the
+charitable structural account behind the "edge case autist weirdo"
+self-label — and the audit's own caveat applies doubly, since the input
+percentiles are themselves single-model judgments on self-reported data.
+
 **Gaps:** the baseline model is a sketch, not a normed population; scores
-are single-model judgments with no inter-rater check; the audit predates the
-June 2026 closure and the 2026 work/housing shocks, all of which bear
-directly on the "relationships" and "values" rows.
+are single-model judgments with no inter-rater check; the stacking
+estimate inherits every one of those uncertainties and multiplies them, so
+it is directional (an ordering, "deep in the tail") not a literal
+frequency; the audit predates the June 2026 closure and the 2026
+work/housing shocks, all of which bear directly on the "relationships"
+and "values" rows.
 
 
 ========================================================================
@@ -14570,7 +14684,7 @@ related: []
 - [[wiki/people/tan-calabrese]] — Contact identified via Google Contacts as Tan Calabrese. Previously unresolved contact from iMessage corpus at handle `+17249846086`. 57…
 - [[wiki/people/tarik-fallous]] — Tarik Fallous — owner-operator (with his brother Ghassan) of Au Za'atar, the Lebanese restaurant near 58th…
 - [[wiki/people/teddy]] — Recurring Uniontown-area informal pharmaceutical supplier, 2018–2020; a transactional but socially embedded local supply node.
-- [[wiki/people/timmy]] — Underage Little Caesars employee whose vape/gambling ban and Anita's Kim→"Daniel" blame-pivot is the two-weeks-prior template for the drawer dispute.
+- [[wiki/people/timmy]] — Underage Little Caesars employee whose vape/gambling ban and Anita's Kim→"Daniel" blame-pivot serve as the two-weeks-prior template for the drawer dispute.
 - [[wiki/people/tom]] — Tom Maison — Dan's primary male ally and the clearest instance of safe, lateral (peer, non-paternal)…
 - [[wiki/people/trevor]] — Trevor Bevins: Dan's Nemacolin caddying peer, golf companion, and later market-era Facebook contact; the thread also records money strain between friends.
 - [[wiki/people/trinity-st-clair]] — Adult performer booked as a paid companion for Dan and Annie, spring 2019; same window as the Shelbie threesome.
@@ -20285,6 +20399,7 @@ sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-md/Gemini-_13.md
   - raw/self/captures/2026-07-11_013210_the-house-at-337-saratoga-drive-uniontow.md
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 related:
   - wiki/people/suzanne-frank
   - wiki/legal/463-morgantown
@@ -20325,6 +20440,25 @@ contingencies evidently cleared — with a planned out-date of July 1
 — has its own unresolved legal tangle ([[wiki/legal/463-morgantown]]).
 Context-core carries the situation as the acute open variable of mid-2026:
 "no confirmed post-close plan."
+
+A mid-May 2026 session captures how open the "no plan" really was, and
+what it meant to Dan emotionally. He put the closing at "june 9th i think"
+(his in-the-moment guess, later settling to the confirmed June 23) and
+was blunt that "we have NO idea where we're going and my mom has no money
+until the closing." The plan he'd been hoping for had just fallen through:
+[[wiki/people/suzanne-frank|Suz]], acting as the buying agent, had a
+client who "sunk 200k stupidly" into a house "right across the street from
+my new [[wiki/work/bfs-foods|job]]" and was now ready to sell — the idea
+being for Dan to rent it — but "this kinda blew up for several reasons."
+Suz's fallback was to move to Greensburg "or somewhere 30–45 mins away,"
+which Dan experienced not as a housing problem but as a relationship one:
+30–45 minutes from Uniontown was, in his words, "as good as being a coup
+de grace for this thing with annie," since it would end the near-daily
+proximity the bond ran on. He was explicit that housing was entirely
+subordinate to that: "if she were to magically… wanted to be together, i
+would live on the street or work 4 jobs… none of it matters other than the
+annie thing" (the attachment mechanism behind that ordering is on
+[[wiki/mind/concepts/attachment-model]]).
 
 ## The Bacharach connection
 
@@ -23394,6 +23528,7 @@ date_range_start: 2026-04-01
 date_range_end: 2026-05-06
 sources:
   - raw/self/dox-md/Ethics of leaving without communication.md
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/march-2026-terminal-phase
@@ -23422,6 +23557,17 @@ May is rated the worst period in the full record — not by volume, but by conte
 **Dan self-periodizes the relationship.** On May 4 at 8:10 PM, Dan sent the bare timestamp "25 Nov 2015 – 04 May 2026" — not as an ultimatum or a goodbye, but annotating the relationship with a closing date in his own framing, the only instance in the full record of him doing this unprompted.
 
 **An unresolved third-party contact (April 1).** Dan's message at 12:57 AM: "my mom gets a call from a guy looking for you at 8:30. He calls again at 10:00. What the FUCK could that mean." A man called Suz's number twice looking for Annie on a night she was unaccounted for. The record does not resolve who this was or what it meant; it predates and is separate from the confirmed June 1 third party ([[wiki/people/tuquick-17248123683|Tuquick]]).
+
+**The contact collapse, quantified from the inside.** A separate mid-May
+2026 session (Dan working his second week at [[wiki/work/bfs-foods|BFS]])
+puts a number on the withdrawal from Dan's side of it: he had gone from
+seeing Annie "at least once a day" to "like twice in 5 weeks," with visits
+that used to be "come in for an hour at least" replaced by her "going dark
+for days at a time." The same session is the fullest primary record of his
+interior state in this window — the closure-dependency, the "coup de
+grace" housing fear, the lucid-but-trapped holding pattern — all
+documented on [[wiki/mind/concepts/attachment-model]] and
+[[wiki/places/337-saratoga-drive]] rather than repeated here.
 
 ## What still held from the terminal-phase mechanism catalog
 
@@ -25663,7 +25809,7 @@ Dan's "first paycheck Saturday" and a dreaded sighting of
 [[wiki/people/nick-mattie|Nick Mattie]] on May 13, the Pittsburgh court
 promise on May 15; the strategy briefing was prepared May 20). Brandon
 was the technical closer — he counted his own drawer to $100 just before
-Dan took over at 3 PM, worked returned at 10:30 PM to lock up, and
+Dan took over at 3 PM, returned at 10:30 PM to lock up, and
 printed the CSR closing report, which he and Dan looked at together. It
 read even. Dan's contemporaneous joke, witnessed by Brandon: "they're
 laundering money lol." The next morning

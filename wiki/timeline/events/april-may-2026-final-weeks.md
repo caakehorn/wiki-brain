@@ -10,6 +10,7 @@ date_range_start: 2026-04-01
 date_range_end: 2026-05-06
 sources:
   - raw/self/dox-md/Ethics of leaving without communication.md
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/march-2026-terminal-phase
@@ -38,6 +39,17 @@ May is rated the worst period in the full record — not by volume, but by conte
 **Dan self-periodizes the relationship.** On May 4 at 8:10 PM, Dan sent the bare timestamp "25 Nov 2015 – 04 May 2026" — not as an ultimatum or a goodbye, but annotating the relationship with a closing date in his own framing, the only instance in the full record of him doing this unprompted.
 
 **An unresolved third-party contact (April 1).** Dan's message at 12:57 AM: "my mom gets a call from a guy looking for you at 8:30. He calls again at 10:00. What the FUCK could that mean." A man called Suz's number twice looking for Annie on a night she was unaccounted for. The record does not resolve who this was or what it meant; it predates and is separate from the confirmed June 1 third party ([[wiki/people/tuquick-17248123683|Tuquick]]).
+
+**The contact collapse, quantified from the inside.** A separate mid-May
+2026 session (Dan working his second week at [[wiki/work/bfs-foods|BFS]])
+puts a number on the withdrawal from Dan's side of it: he had gone from
+seeing Annie "at least once a day" to "like twice in 5 weeks," with visits
+that used to be "come in for an hour at least" replaced by her "going dark
+for days at a time." The same session is the fullest primary record of his
+interior state in this window — the closure-dependency, the "coup de
+grace" housing fear, the lucid-but-trapped holding pattern — all
+documented on [[wiki/mind/concepts/attachment-model]] and
+[[wiki/places/337-saratoga-drive]] rather than repeated here.
 
 ## What still held from the terminal-phase mechanism catalog
 

@@ -10,7 +10,7 @@
    "title": "Chemical Architecture",
    "summary": "Dan runs a deliberately engineered neurochemical system and explicitly",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/chemical-architecture.txt",
-   "bytes": 5530
+   "bytes": 5891
   },
   {
    "page": "wiki/health/index.md",
@@ -374,7 +374,7 @@
    "title": "Attachment Model",
    "summary": "The attachment model details the first documented instance of full attachment-system activation in Dan's history, which occurred during his relationship with...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/attachment-model.txt",
-   "bytes": 8861
+   "bytes": 13118
   },
   {
    "page": "wiki/mind/concepts/conflict-architecture.md",
@@ -458,7 +458,7 @@
    "title": "Deviance Mapping \u2014 The Statistical Outlier Audit",
    "summary": "In August 2025 Dan commissioned a \"Level 5 / Psycho-Structural Deviance",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/deviance-mapping.txt",
-   "bytes": 6199
+   "bytes": 8880
   },
   {
    "page": "wiki/mind/profile/enneagram-5w4.md",
@@ -1179,7 +1179,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 15924
+   "bytes": 15930
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1725,7 +1725,7 @@
    "title": "337 Saratoga Drive",
    "summary": "337 Saratoga Drive, Uniontown PA is the family-built (1996) childhood home",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/337-saratoga-drive.txt",
-   "bytes": 3712
+   "bytes": 5059
   },
   {
    "page": "wiki/places/index.md",
@@ -1935,7 +1935,7 @@
    "title": "April\u2013May 2026 \u2014 The Final Documented Weeks",
    "summary": "The March 16, 2026 retraction (\"I misunderstood the conversation\") was not the record's actual end \u2014 a later analysis session, working from the same message ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/april-may-2026-final-weeks.txt",
-   "bytes": 5923
+   "bytes": 6688
   },
   {
    "page": "wiki/timeline/events/eli-incident.md",
@@ -2089,7 +2089,7 @@
    "title": "BFS Foods (2026)",
    "summary": "Dan worked as a gas-station cashier at BFS Foods \u2014 a Bruceton Farm",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/bfs-foods.txt",
-   "bytes": 20339
+   "bytes": 20332
   },
   {
    "page": "wiki/work/fastly-fsly.md",
