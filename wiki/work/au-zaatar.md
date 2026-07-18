@@ -25,7 +25,6 @@ related:
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/mind/concepts/institutional-out
   - wiki/self/chats/gemini-00
-  - wiki/self/chats/gemini-02
 tags: [nyc-era, career, ai-collaboration, housing, forensic-analysis]
 connections:
   - page: wiki/mind/synthesis/attachment-trauma-bond
@@ -77,7 +76,9 @@ the restaurant for no purpose but constant surveillance, micromanaged
 trivia while never working, and churned through staff so fast that Dan —
 "REAL good at the beginning of a job I like" — became the protocol-keeper
 by default (he was also, he notes, the only white FOH employee, which with
-the owners' prejudices cut in his favor). The shed had to be torn down and
+the owners' prejudices cut in his favor). The opening formula — outdoor-only, BYOB, food "to die for" — made the
+sheds a genuine draw ("a sweet and sustainable gig") before the winters
+turned them into an endurance test. The shed had to be torn down and
 rebuilt nightly (2–3 hours of build), which gave Dan his permanent slot:
 sleep to 1pm, build 2–5, serve the early hours, first cut at 9–10pm —
 **he never closed once in 41 months**. A month in, he got
@@ -111,8 +112,9 @@ keeping to this day. Felipe, his "unbelievably gay Colombian bff," joined
 as a server (shattering the old glass door with a table leg on day one) —
 though per Dan directly (2026-07-14), contact with Felipe specifically
 did not survive past the job; see [[wiki/people/felipe]] for the
-correction.
-and Suz visited for Dan's birthday to a comped full menu. Around them, the documented
+correction. [[wiki/people/suzanne-frank|Suz]] visited for Dan's birthday
+(November 2021) and the owners comped the whole menu — "typical lebanese
+hospitality." Around them, the documented
 cast: **Sergio**, a 53-year-old Miami service veteran whose war with Dan
 over the word "dude" escalated into a "nonsense meeting" with Tarik and
 Ghassan conducted in tooth-loss analogies; a **Tunisian zoomer manager**

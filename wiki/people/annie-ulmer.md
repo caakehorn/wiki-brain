@@ -313,7 +313,11 @@ pattern used the word "cheated"; she did not contest it. See
 sits inside.
 
 **The financial oscillation.** Per the three accepted amendments: Dan
-funded the early NYC years; in 2023 he worked at
+funded the early NYC years; in 2021 he was also her employment vector —
+a month into his own Au Za'atar hire he got her the hostess job at the
+original East Village location (she was later fired from it with zero
+notice, the "avatar of reliability" contrast documented on
+[[wiki/work/au-zaatar]]); in 2023 he worked at
 [[wiki/work/au-zaatar|Au Za'atar]] while an unemployed Annie shared in
 accumulating ~$10,000 of landlord debt (paid down $650/week); he was
 involuntarily managed out in June 2024 (hours cut to dodge unemployment

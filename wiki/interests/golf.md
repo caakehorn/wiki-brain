@@ -9,16 +9,33 @@ sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-scan/Resume.txt
   - raw/self/dansynth/DANSYNTH.txt
-related:
-  - wiki/work/nemacolin-caddying
-  - wiki/people/fran-coldren
-  - wiki/places/117-belmont-circle
-  - wiki/people/annie-ulmer
-  - wiki/people/christian-hanson
-  - wiki/timeline/periods/2015-2016-annie-relationship-start
-  - wiki/timeline/periods/dec-2025-spike
 tags: [family, uniontown-era, relationships]
 knowledge: mixed
+connections:
+  - page: wiki/mind/synthesis/interests-as-era-markers
+    type: instantiates
+    claim: "The 2016–19 era-marker where the interest literally was the era: sport, social world, and primary paycheck at once through the caddying years."
+  - page: wiki/work/nemacolin-caddying
+    type: contains
+    claim: "The caddying career is the professional component of the golf thread — the April 2016 hire is what reignited the playing interest and made the sport his main income through 2019."
+  - page: wiki/people/fran-coldren
+    type: caused-by
+    claim: "The access runs through Fran: western-PA golf royalty whose fifty years on the UCC fairway made the course family terrain — and the site of the November 2015 meeting with Annie."
+  - page: wiki/timeline/periods/2015-2016-annie-relationship-start
+    type: contextualizes
+    claim: "Supplies the setting of the origin event: the 2 AM meeting in the rain happened on the same UCC fairway Fran had dominated for half a century."
+  - page: wiki/timeline/periods/dec-2025-spike
+    type: evidences
+    claim: "The December 13 2025 'like when we used to, when you ACTUALLY liked me' line weaponizes golf as the relationship's named good-era memory — the loop that opened on a fairway closes as its eulogy."
+  - page: wiki/people/annie-ulmer
+    type: contextualizes
+    claim: "Golf brackets the relationship: its best-documented origin moment in 2015 and its sharpest terminal-phase callback in 2025 both happen on or about a golf course."
+  - page: wiki/people/christian-hanson
+    type: co-occurs
+    claim: "Hanson is the marquee playing partner of the caddying era — an NHL client Dan both looped for and played rounds with through 2017–18."
+  - page: wiki/places/117-belmont-circle
+    type: co-occurs
+    claim: "Fran's house on the UCC fairway is the physical anchor where the family golf lineage and the Annie origin story share an address."
 ---
 
 # Golf
@@ -46,7 +63,3 @@ Golf's role in the Annie relationship doesn't end with how they met — it recur
 ## Gaps
 
 No childhood or junior-golf origin story is documented — the corpus picks the sport up already in progress by the time messaging begins in 2015, and it's unclear whether Dan played growing up or took it up as an adult alongside the family's country-club world. Exact handicap, if he ever calculated one formally, is not recorded. Whether he golfed at all between the 2019 end of the caddying job and the 2020 Instagram/nostalgia references, or after 2020, is not documented in detail — 2025's only golf reference (a "GOLF themed YouTube channel" he watches, and a self-deprecating story about avoiding polo shirts since being told he "dressed like a golfer's little brother") suggests the interest persisted as media consumption and self-image even without confirmed active play.
-
-## Related
-
-[[wiki/work/nemacolin-caddying]] · [[wiki/people/fran-coldren]] · [[wiki/places/117-belmont-circle]] · [[wiki/people/annie-ulmer]] · [[wiki/people/christian-hanson]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]]

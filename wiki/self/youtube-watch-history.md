@@ -31,6 +31,9 @@ connections:
   - page: wiki/mind/synthesis/2020-left-turn
     type: evidences
     claim: "The 2022+ left-commentary viewing clusters are the downstream trace of the conversion the message record dates to August 2020."
+  - page: wiki/interests/opie-and-anthony
+    type: evidences
+    claim: "The 2012–13 peak years and the ~450 fan-archive-channel watches are the primary record behind the shock-radio obsession that page interprets."
 ---
 
 
@@ -96,7 +99,7 @@ Strong early peak (2011–2013 radio + exploratory), mid-decade lull, major resu
 | 2024 | 634 |
 | 2025 | 1,871 (through July) |
 
-Strong early peak (2011–2013), mid-decade lull, significant resurgence 2022–2023 and into 2025.
+Strong early peak (2011–2013), mid-decade lull, significant resurgence 2022–2023 and into 2025. The early peak is not miscellaneous browsing: the two loudest years in the entire log are substantially one subject, the [[wiki/interests/opie-and-anthony|Opie & Anthony shock-radio archive]] — the lived meaning behind those counts is argued on that page.
 
 ## Top Channels (by frequency in parsed data; 50+ extracted)
 

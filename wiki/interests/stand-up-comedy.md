@@ -14,6 +14,16 @@ related:
   - wiki/timeline/periods/2020-2021-market-era
   - wiki/mind/profile/linguistic-profile
 tags: [nyc-era, personality-profile, digital-footprint]
+connections:
+  - page: wiki/mind/synthesis/interests-as-era-markers
+    type: instantiates
+    claim: "The dated 2019 NYC club run and the open-mic ambition are the New-York-era marker in the intake ledger — an obsession the earlier radio era spent a decade preparing."
+  - page: wiki/interests/opie-and-anthony
+    type: caused-by
+    claim: "The taste was trained upstream: the 2012–13 shock-radio archive binge is the direct pipeline into the comedy-club interest cluster and the 2019 live run."
+  - page: wiki/interests/film-canon
+    type: parallels
+    claim: "The King of Comedy sits in the film canon — a portrait of a delusional aspiring stand-up kept as a favorite while Dan wrote his own five-minute set."
 ---
 
 # Stand-Up Comedy

@@ -26,6 +26,9 @@ connections:
   - page: wiki/interests/favorites/books/topics/politics
     type: precedes
     claim: "The Zinn/Parenti/Chomsky reading list is the book-length continuation of the turn the 2020-08-22 messages initiate."
+  - page: wiki/mind/synthesis/interests-as-era-markers
+    type: instantiates
+    claim: "The lockdown politics binge is the era-marker pattern's sharpest instance — an intake obsession so precisely dating that the resulting ideology carries a birthday, 2020-08-22."
 ---
 
 

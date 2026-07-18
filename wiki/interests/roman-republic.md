@@ -7,14 +7,23 @@ date_modified: 2026-07-16
 sources:
   - "raw/self/favorites/FAVS MASTERLIST.csv"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
-related:
-  - wiki/interests/index
-  - wiki/interests/favorites/books/topics/ancient-history
-  - wiki/interests/favorites/books/authors/adrian-goldsworthy
-  - wiki/interests/favorites/books/authors/dan-carlin
-  - wiki/interests/gore-vidal
-  - wiki/mind/profile/intp
 tags: [personality-profile, ideology]
+connections:
+  - page: wiki/mind/synthesis/interests-as-era-markers
+    type: instantiates
+    claim: "The 2024 reading detonation is the cleanest single-year era-marker in the intake ledger — the standard Roman-Republic syllabus read back-to-back and evangelized outward, concurrent with the return to Pennsylvania."
+  - page: wiki/interests/favorites/books/topics/ancient-history
+    type: contextualizes
+    claim: "Expands the favorites list's one-line 'foundational power dynamics' flag into the dated, evangelized 2024 immersion it actually was."
+  - page: wiki/interests/favorites/books/topics/politics
+    type: parallels
+    claim: "The same appetite — power, betrayal, the mechanics of how a republic degrades — drives both shelves, and he explicitly bridges them in June 2024 by pairing the Rome reading with an 'end of the Senate' Atlantic piece."
+  - page: wiki/interests/gore-vidal
+    type: parallels
+    claim: "Vidal is the earlier Rome-and-empire fixation; the 2024 binge re-runs the same imperial-decline preoccupation through history rather than fiction."
+  - page: wiki/mind/profile/intp
+    type: evidences
+    claim: "The great-man-theory tag across the Caesar/Alexander/Oppenheimer reads is primary evidence for the singular-figure-versus-the-system self-myth documented in the profile."
 ---
 
 # Roman Republic & Ancient History

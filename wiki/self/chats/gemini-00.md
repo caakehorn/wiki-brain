@@ -5,13 +5,13 @@ status: stable
 date_created: 2026-06-23
 date_modified: 2026-07-02
 sources: ["raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md"]
-related: ["wiki/self/chats/gemini-02", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid", "wiki/people/annie-ulmer", "wiki/timeline/periods/2021-2023-employment-block", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/gemini-activity/gemini-activity"]
+related: ["wiki/work/au-zaatar", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid", "wiki/people/annie-ulmer", "wiki/timeline/periods/2021-2023-employment-block", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/gemini-activity/gemini-activity"]
 tags: [ai-collaboration, career, nyc-era]
 ---
 
 # Gemini Session 00 — Au Za'atar STORYTIME (Finale)
 
-The closing volume of the [[wiki/work/au-zaatar|Au Za'atar]] "STORYTIME" — a 781-line, glyph-styled forensic post-mortem of Dan's 41-month (March 2021–August 2024) run as a busser at the restaurant. Session [[wiki/self/chats/gemini-02]] covers the genesis; this one covers the entropy and exit. The restaurant, its owner, and the full staff roster are documented at [[wiki/people/tarik-fallous]] and [[wiki/timeline/periods/2021-2023-employment-block]]; this page keeps the session's distinctive analytical content.
+The closing volume of the [[wiki/work/au-zaatar|Au Za'atar]] "STORYTIME" — a 781-line, glyph-styled forensic post-mortem of Dan's 41-month (March 2021–August 2024) run as a busser at the restaurant. The genesis volume (Gemini-_02) has been fully absorbed into [[wiki/work/au-zaatar]] and [[wiki/timeline/periods/2021-2023-employment-block]]; this page covers the entropy and exit. The restaurant, its owner, and the full staff roster are documented at [[wiki/people/tarik-fallous]] and [[wiki/timeline/periods/2021-2023-employment-block]]; this page keeps the session's distinctive analytical content.
 
 ## Corpus Dimensions
 
@@ -38,4 +38,4 @@ Session 00 is the primary evidence for [[wiki/mind/synthesis/vertical-authority-
 
 ## Related
 
-[[wiki/self/chats/gemini-02]] · [[wiki/people/tarik-fallous]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/people/annie-ulmer]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/self/gemini-activity/gemini-activity]]
+[[wiki/work/au-zaatar]] · [[wiki/people/tarik-fallous]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/people/annie-ulmer]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/self/gemini-activity/gemini-activity]]

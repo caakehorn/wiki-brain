@@ -10,12 +10,17 @@ sources:
   - "raw/self/message-csv/imessage_3307038747.csv"
   - "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv"
   - "raw/self/gemini-activity/Gemini Activity.html"
-related:
-  - wiki/interests/the-office
-  - wiki/timeline/events/teen-concert-years
-  - wiki/interests/favorites/music/artists/fall-out-boy
-  - wiki/self/context-core
 tags: [digital-footprint, nyc-era, personality-profile]
+connections:
+  - page: wiki/mind/synthesis/interests-as-era-markers
+    type: instantiates
+    claim: "The longest-wavelength era-marker: a 2007 teen-identity coordinate that goes quiet for years and resurfaces only as datable events — the 2016 PlayStation winter, the 2025 forced liquidation."
+  - page: wiki/timeline/events/teen-concert-years
+    type: co-occurs
+    claim: "'Slaying on halo' and Super Mario Galaxy sit in the same 2007 Facebook status layer as the Fall Out Boy tour devotion — coordinates of one teenage identity cluster, not separate hobbies."
+  - page: wiki/interests/favorites/music/artists/fall-out-boy
+    type: co-occurs
+    claim: "The 2007 status layer names gaming and 'swooning over the new FOB' in the same breath; the two interests are contemporaneous coordinates of the pre-armor self-presentation."
 ---
 
 # Video Games
@@ -71,7 +76,3 @@ favorites rating and no page, yet it is a verifiable through-line from
 facts are concrete and the emotional register is consistent — low-grade,
 long-running, occasionally friction-bearing, finally relinquished under
 family pressure. It earns a page.
-
-## Related
-
-[[wiki/interests/the-office]] · [[wiki/timeline/events/teen-concert-years]] · [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/self/context-core]]

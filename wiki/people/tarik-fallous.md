@@ -7,7 +7,7 @@ date_modified: 2026-07-02
 date_range_start: 2021-03-01
 date_range_end: 2024-08-01
 sources: ["raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/facebook/facebook-ihatedanfrank/"]
-related: ["wiki/timeline/periods/2021-2023-employment-block", "wiki/self/chats/gemini-00", "wiki/self/chats/gemini-02", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/valeria-iglesias-cid", "wiki/work/bfs-foods"]
+related: ["wiki/timeline/periods/2021-2023-employment-block", "wiki/self/chats/gemini-00", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/valeria-iglesias-cid", "wiki/work/bfs-foods"]
 tags: [ai-collaboration, career, nyc-era]
 infobox:
   name: "Tarik Fallous"
@@ -21,7 +21,7 @@ infobox:
 
 ## Identity
 
-Tarik Fallous — owner-operator (with his brother Ghassan) of [[wiki/work/au-zaatar|Au Za'atar]], the Lebanese restaurant near 58th and 1st in Midtown Manhattan where Dan worked as a busser from roughly March 2021 to August 2024. Tarik hired Dan on the spot at his application interview despite no prior food-service experience. His defining structural decision, from Dan's point of view, was an equal front-of-house tip split — bussers paid the same as waiters — which Dan's Gemini reconstruction repeatedly calls "a glitch in the matrix," the economic condition that made the whole tenure viable. Tarik and Ghassan rented an apartment above the restaurant purely to watch the floor, an arrangement Dan frames as an "acerbic surveillance" panopticon. Tarik is a peripheral work figure with no independent message corpus; everything documented here comes from the Gemini forensic "STORYTIME" reconstruction of the Au Za'atar era, which is stylized but data-dense.
+Tarik Fallous — owner-operator (with his brother Ghassan) of [[wiki/work/au-zaatar|Au Za'atar]], the Lebanese restaurant near 58th and 1st in Midtown Manhattan where Dan worked as a busser from roughly March 2021 to August 2024. Tarik hired Dan on the spot at his application interview despite no prior food-service experience. His defining structural decision, from Dan's point of view, was an equal front-of-house tip split — bussers paid the same as waiters — which Dan's Gemini reconstruction repeatedly calls "a glitch in the matrix," the economic condition that made the whole tenure viable. Tarik and Ghassan rented an apartment above the restaurant purely to watch the floor, an arrangement Dan frames as an "acerbic surveillance" panopticon. Dan's affection for the brothers was tribal as much as economic: he characterizes the Lebanese humor of the house as "incapable of not making fun of everyone and their flaws," and credits the fit directly — "they liked me because i, too, am both an asshole and a sonofabitch" — adding that as the only white FOH employee he benefited from the owners' own prejudices. Tarik is a peripheral work figure with no independent message corpus; everything documented here comes from the Gemini forensic "STORYTIME" reconstruction of the Au Za'atar era, which is stylized but data-dense.
 
 ## Corpus Dimensions
 
@@ -32,7 +32,7 @@ No direct message thread exists. Tarik's signal is entirely in the Gemini extrac
 | tarik | 23 | 10 |
 | ghassan | 4 | 5 |
 
-The full staff roster, the shed-build saga, the Valeria romance, and the "9 PM alibi" material live on the dedicated session pages [[wiki/self/chats/gemini-02]] (Volume I) and [[wiki/self/chats/gemini-00]] (the forensic finale), and in the period page [[wiki/timeline/periods/2021-2023-employment-block]]. This page keeps only what concerns Tarik directly.
+The full staff roster, the shed-build saga, the Valeria romance, and the "9 PM alibi" material live on [[wiki/work/au-zaatar]] (which has absorbed the Volume I storytime), the finale session page [[wiki/self/chats/gemini-00]], and the period page [[wiki/timeline/periods/2021-2023-employment-block]]. This page keeps only what concerns Tarik directly.
 
 ## Role in the Work Power Dynamic
 
@@ -57,4 +57,4 @@ Tarik is not to be confused with the other Au Za'atar staff (DJ/Ismiala Barry, D
 
 ## Related
 
-[[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/self/chats/gemini-02]] · [[wiki/self/chats/gemini-00]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/work/bfs-foods]]
+[[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/self/chats/gemini-00]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/work/bfs-foods]]

@@ -22,6 +22,9 @@ connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: component-of
     claim: "This concert record is the itinerary/devotion facet of the four-mode music-as-identity thesis."
+  - page: wiki/interests/video-games
+    type: co-occurs
+    claim: "The same 2007 status layer that documents the tour devotion names 'slaying on halo' and Super Mario Galaxy — gaming is a sibling coordinate of the teenage identity cluster this page reconstructs."
 ---
 
 
@@ -54,7 +57,10 @@ The 2007 Facebook status layer corroborates the intensity of that year:
 posts read "swooning over the new FOB," "in New York City to see Fall Out
 Boy at TRL," and a Say Anything obsession — the same window the profile
 names as the "romantic collapse fantasy" imprinting period
-([[wiki/mind/psychosexual/developmental-origins]]).
+([[wiki/mind/psychosexual/developmental-origins]]). The same status layer
+names "slaying on halo" and Super Mario Galaxy in the same breath — the
+concert devotion and [[wiki/interests/video-games|gaming]] were
+coordinates of one identity cluster, not separate hobbies.
 
 ## What it shows
 

@@ -37,6 +37,18 @@ through the Sergio war. This page resolves a long-standing context-core
 collection gap: the "Ismaila — named anchor, no detail" entry in the
 social graph is DJ.
 
-**Gaps:** no direct message thread has been located in the corpus under
-either name (likely WhatsApp or in-person only — worth a handle search);
-current contact status post-2024; his own exit from Au Za'atar.
+The friendship had one documented fault line: religion. DJ is a serious
+Muslim, and Dan — by his own storytime account — deliberately antagonized
+him over Islam, up to and including taunts about Aisha's age, framing
+himself as "doing my part to represent the western world of free speech."
+His own summary: "We always got past it though." The friction never broke
+the bond, and it is the corpus's clearest record of Dan running his
+anti-deference register against a friend's sincere faith rather than an
+institution. The photo record preserves DJ's first day serving in the
+white shirt and a three-shot of Dan, DJ, and Dimitri together.
+
+**Gaps:** no direct message thread has been confirmed in the corpus under
+either name — but a candidate exists: handle `+19293235324` received
+r/Senegal Reddit links from Dan in May 2024 (iMessage dump), the only
+Senegal-flagged thread in the record; worth confirming as DJ.
+Current contact status post-2024; his own exit from Au Za'atar.

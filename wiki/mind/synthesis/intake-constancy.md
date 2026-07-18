@@ -27,6 +27,9 @@ connections:
   - page: wiki/self/youtube-watch-history
     type: evidenced-by
     claim: "The 11.58 watches per active day figure — recomputed from the full raw export, 17,426 events over 1,505 active days — is the first of the two constants."
+  - page: wiki/mind/synthesis/interests-as-era-markers
+    type: causes
+    claim: "The fixed rate is the enabling condition of the era-marker phenomenon: because volume never varies, subject is the only free variable, so subject-rotation carries the era signal that page reads as a timeline instrument."
 ---
 
 
@@ -116,8 +119,6 @@ those are the same sentence read two ways.
 
 ## Output combusts; intake ticks
 
-## Output combusts; intake ticks
-
 The constancy kills the most seductive metaphor in the stack. The
 [[wiki/mind/concepts/phenomenology-lens]] Addiction Engine describes consumption
 as binge-crash — Addict → Euphoria → Crash → Analyst, a cyclical macro-structure
@@ -168,6 +169,15 @@ events is a reorganization of the *identity layer*. None of them touches the
 *intake rate*. The system can shed a skin, migrate an account, or launch a forensic
 self-audit lasting months, and the consumption metabolism keeps the same time. The
 rate is the substrate; the identities are the costumes.
+
+The constant has one further corollary important enough to carry its own
+page: because volume never varies, the *subject* of intake is the only
+degree of freedom left — and it rotates in discrete, dateable obsessions.
+[[wiki/mind/synthesis/interests-as-era-markers]] develops this into a
+timeline instrument: the era-marker series (2007 teen cluster → 2012–13
+O&A → 2016–19 golf → 2019 stand-up → 2020 politics → 2024 Rome) that lets
+an undated artifact be placed in the biography by what the channel was
+locked onto.
 
 ## What an agent should take from this
 

@@ -25,7 +25,7 @@ knowledge. Process top-down; strike entries as done.
 - shared tags: infidelity
 - [ ] type: ______  claim: ______
 
-## [12.6] wiki/self/chats/gemini-02.md <-> wiki/timeline/periods/2025-collapse.md
+## [12.6] wiki/self/chats/gemini-02.md <-> wiki/timeline/periods/2025-collapse.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted — storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**
 - shared source: `raw/self/facebook/facebook-ihatedanfrank/`
 - shared source: `raw/self/dox-md/Gemini-_07.md`
 - shared source: `raw/self/dox-md/Gemini-_02.md`
@@ -72,7 +72,7 @@ knowledge. Process top-down; strike entries as done.
 - co-cited from 11 pages
 - [ ] type: ______  claim: ______
 
-## [10.8] wiki/mind/synthesis/totality-themes.md <-> wiki/self/chats/gemini-02.md
+## [10.8] wiki/mind/synthesis/totality-themes.md <-> wiki/self/chats/gemini-02.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted — storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**
 - shared source: `raw/self/dox-md/Gemini-_07.md`
 - shared source: `raw/self/dox-md/Gemini-_00.md`
 - shared source: `raw/self/dox-md/Gemini-_21 copy.md`
@@ -153,7 +153,7 @@ knowledge. Process top-down; strike entries as done.
 - shared tags: trauma-bond
 - [ ] type: ______  claim: ______
 
-## [9.1] wiki/mind/concepts/node-locking.md <-> wiki/self/chats/gemini-02.md
+## [9.1] wiki/mind/concepts/node-locking.md <-> wiki/self/chats/gemini-02.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted — storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**
 - shared source: `raw/self/dox-md/Gemini-_07.md`
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - wiki/self/chats/gemini-02.md names 'deep architecture' unlinked
@@ -193,7 +193,7 @@ knowledge. Process top-down; strike entries as done.
 - shared tags: infidelity
 - [ ] type: ______  claim: ______
 
-## [8.8] wiki/self/chats/gemini-02.md <-> wiki/timeline/events/timeline.md
+## [8.8] wiki/self/chats/gemini-02.md <-> wiki/timeline/events/timeline.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted — storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**
 - shared source: `raw/self/facebook/facebook-ihatedanfrank/`
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - wiki/self/chats/gemini-02.md names 'timeline' unlinked
@@ -256,7 +256,7 @@ knowledge. Process top-down; strike entries as done.
 - co-cited from 4 pages
 - [ ] type: ______  claim: ______
 
-## [8.4] wiki/people/alexis-armel.md <-> wiki/self/chats/gemini-02.md
+## [8.4] wiki/people/alexis-armel.md <-> wiki/self/chats/gemini-02.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted — storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**
 - shared source: `raw/self/facebook/facebook-ihatedanfrank/`
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - shared source: `raw/self/dox-md/Gemini-_00.md`
@@ -299,7 +299,7 @@ knowledge. Process top-down; strike entries as done.
 - shared tags: trauma-bond
 - [ ] type: ______  claim: ______
 
-## [8.0] wiki/mind/synthesis/political-psyops.md <-> wiki/self/chats/gemini-02.md
+## [8.0] wiki/mind/synthesis/political-psyops.md <-> wiki/self/chats/gemini-02.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted — storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**
 - shared source: `raw/self/facebook/facebook-ihatedanfrank/`
 - shared source: `raw/self/dox-md/Gemini-_21 copy.md`
 - co-cited from 2 pages
@@ -394,7 +394,7 @@ knowledge. Process top-down; strike entries as done.
 - shared tags: trauma-bond, infidelity
 - [ ] type: ______  claim: ______
 
-## [7.5] wiki/self/chats/gemini-02.md <-> wiki/self/context-core.md
+## [7.5] wiki/self/chats/gemini-02.md <-> wiki/self/context-core.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted — storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**
 - shared source: `raw/self/facebook/facebook-ihatedanfrank/`
 - shared source: `raw/self/dox-md/Gemini-_07.md`
 - shared source: `raw/self/dox-md/Gemini-_18.md`
@@ -511,7 +511,7 @@ knowledge. Process top-down; strike entries as done.
 - co-cited from 2 pages
 - [ ] type: ______  claim: ______
 
-## [7.0] wiki/people/eli.md <-> wiki/self/chats/gemini-02.md
+## [7.0] wiki/people/eli.md <-> wiki/self/chats/gemini-02.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted — storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**
 - shared source: `raw/self/dox-md/Gemini-_07.md`
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - co-cited from 2 pages
@@ -659,3 +659,7 @@ knowledge. Process top-down; strike entries as done.
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - co-cited from 5 pages
 - [ ] type: ______  claim: ______
+
+## Rejections (2026-07-17, era-markers pass)
+- REJECTED wiki/interests/video-games <-> wiki/interests/the-office — the only documented tie is source-provenance (both mined from the same 2007 Facebook layer); no relationship claim survives between the two interests themselves.
+- REJECTED wiki/interests/video-games <-> wiki/self/context-core — context-core is the master biography spine; a background hobby's mention there is coverage, not a relationship. The era-marker junction now carries the meaningful edge.
