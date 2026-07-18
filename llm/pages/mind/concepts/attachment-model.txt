@@ -124,7 +124,7 @@ trade for it: "if she were to magically get hex'd back into her old self
 and wanted to be together, i would live on the street or work 4 jobs…
 that's just my honest gut feeling" — a literal willingness to subordinate
 housing and survival to the bond, delivered in the same weeks he was in
-fact homeless-pending (below).
+fact homeless-pending (see [[wiki/places/337-saratoga-drive]]).
 
 **The identity-fusion motive.** He also names *why* Annie specifically —
 a motive the money-and-arrangement analyses miss: "i loved having her

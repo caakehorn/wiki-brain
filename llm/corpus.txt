@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-18
-307 pages, ~393,921 tokens.
+307 pages, ~393,930 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -4106,7 +4106,7 @@ trade for it: "if she were to magically get hex'd back into her old self
 and wanted to be together, i would live on the street or work 4 jobs…
 that's just my honest gut feeling" — a literal willingness to subordinate
 housing and survival to the bond, delivered in the same weeks he was in
-fact homeless-pending (below).
+fact homeless-pending (see [[wiki/places/337-saratoga-drive]]).
 
 **The identity-fusion motive.** He also names *why* Annie specifically —
 a motive the money-and-arrangement analyses miss: "i loved having her
@@ -5434,7 +5434,7 @@ reframes the whole profile cluster: in a city of 300,000 there are maybe
 two to six people whose internal experience maps onto Dan's "with
 meaningful fidelity"; in Uniontown, plausibly zero. Which means the
 frameworks built to help people — "therapy modalities, self-help
-frameworks, psychiatric approaches… even most clinical literature — was
+frameworks, psychiatric approaches… even most clinical literature — were
 built on population distributions that don't include you," not
 approximately but literally, the generating samples having contained one
 or two such people at most. Dan's own long-standing reading of this is

@@ -133,7 +133,7 @@ reframes the whole profile cluster: in a city of 300,000 there are maybe
 two to six people whose internal experience maps onto Dan's "with
 meaningful fidelity"; in Uniontown, plausibly zero. Which means the
 frameworks built to help people — "therapy modalities, self-help
-frameworks, psychiatric approaches… even most clinical literature — was
+frameworks, psychiatric approaches… even most clinical literature — were
 built on population distributions that don't include you," not
 approximately but literally, the generating samples having contained one
 or two such people at most. Dan's own long-standing reading of this is
