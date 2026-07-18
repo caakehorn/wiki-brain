@@ -151,12 +151,19 @@ fact the corpus surfaces, offered as context rather than cause.
 
 The sharpest single documented instance of the gap between the family's
 *intended* caregiver and its *available* one: on the morning of
-[[wiki/timeline/events/fran-death-vigil|Fran's catastrophic fall]], Dan
-reached Suz at 8:00 AM. She arrived at 10:00, having played video keno through
-the night. The record preserves the two-hour interval as a fixed data point.
-The wiki states the interval; the interpretation (what it means about her
-reliability, her priorities, the family's care distribution) is left to the
-reader, because the corpus contains Dan's reading but not hers.
+[[wiki/timeline/events/fran-death-vigil|Fran's first major fall]] (~late
+2017 — the filmed spill, not the final March 2018 fall), Dan reached Suz
+at 8:00 AM. She arrived at 10:00, having played video keno through the
+night, and it was ultimately Suz who returned at 4:00 PM and physically
+lifted Fran from the floor. The record preserves the two-hour interval
+as a fixed data point. The wiki states the interval; the interpretation
+(what it means about her reliability, her priorities, the family's care
+distribution) is left to the reader, because the corpus contains Dan's
+reading but not hers. The end of the vigil supplies the counterweight in
+Dan's own words: Suz visited the pediatric wing on April 2, 2018 and
+"really held herself together and made it very light spirited and
+happy" — the keno morning and the hospital bedside are both true, and
+both hers.
 
 ## The "Suzy" call (forensic node, Jan 2026)
 

@@ -84,6 +84,14 @@ quality bar; imitate their shape exactly. A page that is tidy but leads
 with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
+### [2026-07-18] - Session (cont.): llm/ access point + Gemini-_00 finale + Photo Thread PT II (Fran vigil corrections)
+* **Model:** Claude Fable 5 (Claude Code, remote), branch `claude/second-brain-overhaul-og2s2c`
+* **Summary:**
+  - **bin/llm-publish shipped (PR #46, merged):** public LLM access point at `https://caakehorn.github.io/wiki-brain/llm/index.txt` — any URL-fetching model can read every page (corpus.txt ~384k tokens, per-page .txt mirrors, manifest.json). Regenerate + commit llm/ after every content pass (rule now in CLAUDE.md). Also fixed invalid known_for YAML on 30 people pages.
+  - **Gemini-_00 finale mined (21 points):** message_1.json parse REVISED the Valeria IG-thread shape (six-week 2022 burst, 3,830 msgs in June alone, 3-yr silence, 4-msg Jul 2025 coda; 2023–24 tail was iMessage) and measured 52% of Dan's outgoing IG msgs in the 22:00–01:00 ET post-exit window. "It never destabilized" attested claim added. wiki/self/chats/gemini-00.md DELETED — both Au Za'atar storytime chat pages now retired, content fully absorbed.
+  - **Photo Thread PT II mined (23 points + operator correction):** fran-death-vigil.md restructured — TWO falls (filmed 8AM/keno spill ~late 2017; "Down Goes Frazier" = night of Mar 7–8 2018, dated by Vicki/Marla ambulance rows) and the death-date contradiction RESOLVED (Apr 1 admission / Apr 4 death). Vigil ran on a shift rotation (Vicki, Marla, Dan, Annie; Suz visited Apr 2) — Dan+Annie were alone only at the death moment itself, per operator. vicki.md rewritten from stub (un-islanded, one of the 17 unstarted done); contacts/marla.md dup deleted; fran-coldren gains 1959 LaGorce ace + Everglades tarpon + Fred-Adams-was-Ira's-law-partner confirmation (open item settled).
+* **Handoff Note:** Storytime workflow continues to work. Next candidates: gemini-07 (Suzy call), gemini-13 (Bacharach), gemini-18, gemini-21, j6-chat, 9-11-chat, and the remaining dox-md storytimes (Cash register shortage, Drawer shortage, Little Caesars). Operator wants entries LONGER than current standard. Estate/money-spine junction now has its trustee node (Fred Adams / Ira estate). Islands: interest pages + vicki cleared; people/ long tail remains.
+
 ### [2026-07-18] - Session: connective-tissue adoption (PR #44 merged) + era-markers junction + Gemini-_02 storytime mining
 * **Model:** Claude Fable 5 (Claude Code, remote), branch `claude/second-brain-overhaul-og2s2c`
 * **Summary:**

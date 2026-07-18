@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-18
-308 pages, ~383,982 tokens.
+307 pages, ~386,428 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -2372,7 +2372,7 @@ Golf runs through three generations of the family and both ends of Dan's relatio
 
 ## The family lineage
 
-Golf at this level of the family predates Dan by decades. His great-grandmother [[wiki/people/fran-coldren|Fran]] was, per the record on her own page, genuine western-Pennsylvania golf royalty: a 1969 hole-in-one at the Uniontown Country Club (the 153-yard No. 11, struck with a No. 5 wood), the **UCC Women's Golf Crown** (342 over 72 holes, won by seven strokes), a 200 game at Manor Lanes, and family photographs placing her beside Arnold Palmer's private plane — she was socially close with Palmer himself. She lived on the UCC fairway for over fifty years, at [[wiki/places/117-belmont-circle]], literally a "golf course house." That fairway is also where, on the night of **November 29, 2015**, at roughly 2 AM in the rain, Dan met Annie — the single most consequential event in the whole message corpus, and it happened on the same course his great-grandmother had dominated for half a century (see [[wiki/timeline/periods/2015-2016-annie-relationship-start]]).
+Golf at this level of the family predates Dan by decades. His great-grandmother [[wiki/people/fran-coldren|Fran]] was, per the record on her own page, genuine western-Pennsylvania golf royalty: **two documented holes-in-one** — 1959 at LaGorce Country Club in Miami Beach, then 1969 at the Uniontown Country Club (the 153-yard No. 11, struck with a No. 5 wood) — the **UCC Women's Golf Crown** (342 over 72 holes, won by seven strokes), a 200 game at Manor Lanes, and family photographs placing her beside Arnold Palmer's private plane — she was socially close with Palmer himself. She lived on the UCC fairway for over fifty years, at [[wiki/places/117-belmont-circle]], literally a "golf course house." That fairway is also where, on the night of **November 29, 2015**, at roughly 2 AM in the rain, Dan met Annie — the single most consequential event in the whole message corpus, and it happened on the same course his great-grandmother had dominated for half a century (see [[wiki/timeline/periods/2015-2016-annie-relationship-start]]).
 
 ## Dan's own game
 
@@ -7064,7 +7064,12 @@ later recall" — the multi-hour narrative discharge was never just
 venting, it was a deliberate exocortex *write*, curated life-narrative
 committed to model memory as a retrievable asset. That request is the
 direct ancestor of this wiki's own ingest loop: tell the story once,
-have the machine keep it.
+have the machine keep it. The Photo Thread finale (Feb 2026) closes with
+Dan naming the social reality of the practice from inside it: "i'm
+imagining how little ANYONE would get it if i said 'hey i told my AI the
+story of fran's death last night'" — the AI as the one confidant to whom
+the heaviest material can actually be told, stated at the exact moment
+of use, with full awareness of how it would read from outside.
 
 **Clean-room iterative forensics.** Gemini-_07 is the exemplar: raw
 incident beats plus user corrections produce successively stripped "final
@@ -12469,44 +12474,6 @@ Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additi
 
 
 ========================================================================
-PAGE: wiki/people/contacts/marla.md
-========================================================================
-
----
-domain: people
-page_type: entity
-status: archived
-date_created: 2026-06-23
-date_modified: 2026-07-11
-date_range_start: 2017-12-08
-date_range_end: 2018-04-05
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
----
-
-# Marla## Identity
-Contact identified via Google Contacts as Marla. Previously unresolved contact from iMessage corpus at handle `+17245626515`. 52 messages exchanged over 2017-12-08 to 2018-04-05. Sample interaction: "Hi Dan it’s Marla.  Maybe u can do tonite and I’ll do tomorrow?". Appears in personal message contexts (not obvious spam per filter).
-
-## Corpus Dimensions
-| Metric | Value |
-|--------|-------|
-| Messages | 52 |
-| Date range | 2017-12-08 – 2018-04-05 |
-| Sent / Received (approx) | 0 / 52 |
-| Sample | Hi Dan it’s Marla.  Maybe u can do tonite and I’ll do tomorrow? |
-
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
-
-
-========================================================================
 PAGE: wiki/people/contacts/mike-hinkle.md
 ========================================================================
 
@@ -13951,6 +13918,8 @@ sources:
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/people/captures/2026-07-15_192028_dan-s-maternal-great-grandmother-fran-wh.md
   - raw/people/captures/2026-07-15_192608_dan-s-maternal-great-grandmother-fran-wh.md
+  - "raw/self/dox-md/_Photo Thread PT II_ Grand Finale Calibration .md"
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
 related:
   - wiki/people/suzanne-frank
   - wiki/people/annie-ulmer
@@ -14023,14 +13992,22 @@ he'd play on it.
 
 ## The athlete of Belmont Circle
 
-The record preserves her local-legend credentials precisely. In **1969 she
-recorded a hole-in-one at the Uniontown Country Club** — the 153-yard No. 11,
-struck with a No. 5 wood — and she later **won the UCC Women's Golf Crown,
-shooting 342 over 72 holes to win by seven strokes**. The reach wasn't
-confined to the club: a photographed commemorative pin records a **200 game
-at Manor Lanes**, and family photographs place her beside **Arnold Palmer's
-private plane** — she was socially close with the King himself, western
-Pennsylvania golf royalty by association as well as by scorecard.
+The record preserves her local-legend credentials precisely — and the
+Photo Thread archive (clippings `IMG_4816–4818.jpg`) shows the athletic
+range was wider and started earlier than the golf-crown story alone. Her
+first documented **hole-in-one came in 1959 at LaGorce Country Club**
+(Miami Beach); a decade later, in **1969, she recorded a second at the
+Uniontown Country Club** — the 153-yard No. 11, struck with a No. 5
+wood — and she later **won the UCC Women's Golf Crown, shooting 342 over
+72 holes to win by seven strokes**. The reach wasn't confined to golf or
+to Pennsylvania: a newspaper clipping records her boating a **113-pound
+tarpon at the Met Tournament in the Everglades**, the paper circling her
+as the "weaker sex" prize-taker — a mid-century deep-sea fishing trophy
+with the era's sexism attached as a bonus artifact. A photographed
+commemorative pin records a **200 game at Manor Lanes**, and family
+photographs place her beside **Arnold Palmer's private plane** — she was
+socially close with the King himself, western Pennsylvania golf royalty
+by association as well as by scorecard.
 
 The seat of all of it was **117 Belmont Circle**, the three-story house on
 the edge of the UCC fairway she occupied for over fifty years
@@ -14068,17 +14045,21 @@ sweatshirt in the background accidentally composing itself into rising
 smoke. He treated a 97-year-old with dementia as a peer, and the record
 suggests she gave as good as she got.
 
-The vigil's end — the 8 AM fall ("Down Goes Frazier"), the nursing home
-that consumed her in two weeks exactly as she'd predicted, the pediatric
-wing, the water shutdown, the snowstorm minutes after she died — is
-documented in full at [[wiki/timeline/events/fran-death-vigil]].
+The vigil's end — the first spill (the filmed 8 AM discovery, ~late
+2017), the second fall that mattered ("Down Goes Frazier," night of
+March 7–8, 2018), the nursing home that consumed her in two weeks
+exactly as she'd predicted, the pediatric wing, the water shutdown, and
+the snowstorm minutes after she died — is documented in full at
+[[wiki/timeline/events/fran-death-vigil]].
 
-> **CONTRADICTION (death date):** The GEDCOM primary source records her
-> death as **April 4, 2018**. The DANSYNTH narrative dates it **April 1,
-> 2018** — and builds meaning on the April Fool's date. One is wrong.
-> Candidate resolution: hospital transfer to the pediatric wing April 1,
-> death April 4 (which would preserve both dates); verify against the
-> Herald-Standard obituary or FindAGrave.
+> **CONTRADICTION (death date) — RESOLVED [2026-07-18]:** The GEDCOM
+> records her death as **April 4, 2018**; the DANSYNTH narrative dated it
+> **April 1** and built meaning on the April Fool's date. The candidate
+> resolution — transfer April 1, death April 4 — is now **corroborated
+> from Dan's own primary narration** (Photo Thread PT II): April 1 was
+> the pediatric-wing *admission* ("it's april 1, 2018. the first day of
+> golf at nemacolin... i do two loops in the freezing fuck cold and then
+> get the call"), followed by roughly four days of nonresponsive vigil.
 >
 > **REVISED [2026-07-14]:** dated messages from caregiver
 > [[wiki/people/marla]] show Fran alive through the night of April 3–4
@@ -14137,13 +14118,17 @@ without one being raised.
 |------|-------|
 | 1920-08-15 | Born, Fort Martin, Marion County, WV |
 | ~1940 | Marriage; moves into Fayette County PA orbit |
+| 1959 | First hole-in-one, LaGorce Country Club (Miami Beach) |
 | 1961 | Documented at Belmont Circle, Uniontown |
-| 1969 | Hole-in-one, UCC No. 11 (153 yd, No. 5 wood) |
+| (mid-century) | 113-lb tarpon, Met Tournament, Everglades FL ("weaker sex" clipping) |
+| 1969 | Second hole-in-one, UCC No. 11 (153 yd, No. 5 wood) |
 | (undated) | UCC Women's Golf Crown (342/72 holes, won by 7); Manor Lanes 200 pin |
 | ~2009–10 | NS7 II + check gifted to Dan ("$100/year" protocol) |
-| ~2015–2018 | Dementia decline; Dan + Annie as paid 24/7 caregivers |
-| 2018-03 | The fall; nursing home; hospital pediatric wing |
-| 2018-04-01/04 | Death, Uniontown Hospital (date contradiction above); snowstorm minutes later |
+| ~2015–2018 | Dementia decline; Dan + Annie + Vicki (+ Marla from Dec 2017) as paid caregivers |
+| ~late 2017? | First spill: 8 AM floor discovery, keno delay, 4 PM lift |
+| 2018-03-07/08 | Second fall ("Down Goes Frazier"), ambulance at night; hospital, then nursing home |
+| 2018-04-01 | Pediatric-wing admission (caddie-season opening day); Adams 24-hr mandate |
+| 2018-04-04 | Death, Uniontown Hospital, Dan + Annie present at the moment; snowstorm 3 minutes later |
 | 2020-06-23 | $10,000 advance distribution issued |
 | 2020-08-21 | Court signs final distribution order |
 | 2020-09-01 | Final estate check ($134,069.31) released to Dan via Suz |
@@ -14151,14 +14136,19 @@ without one being raised.
 **On Ira:** confirmed by Dan (2026-07-14) — Ira was Fran's **third**
 husband, and he was the 33rd-degree Mason. That leaves the coal-baron
 marriage as a separate, presumably earlier husband (first or second),
-not yet identified or placed in sequence; whether Ira is also the "law
-practice with Judge Fred Adams" figure is still unconfirmed but likely,
-given both details cluster around the third-husband period.
+not yet identified or placed in sequence. The Judge Fred Adams question
+is now settled: per Dan's primary narration (Photo Thread PT II, 2026),
+Adams was "ira's old law partner — now a judge" and "basically the
+trustee of her accounts" — he issued the 24-hour-presence mandate during
+the final vigil and managed the Ira-estate accounts, making him the
+named institutional node of the family's capital.
 
 **Gaps:** identity of the coal-baron husband and where he falls in the
-marital sequence; confirmation that Ira is the Judge Fred Adams law-practice
-figure; the exact NS7 gift date; identity of the "grandmother" Dan asked
-about as a potential objector to the 2020 estate distribution.
+marital sequence; the exact NS7 gift date; identity of the "grandmother"
+Dan asked about as a potential objector to the 2020 estate distribution;
+the date of the Everglades tarpon and whether the "perfect bowling"
+reference in the Photo Thread denotes a game beyond the documented
+Manor Lanes 200.
 
 
 ========================================================================
@@ -14495,7 +14485,7 @@ related: []
 - [[wiki/people/valeria-iglesias-cid]] — Valeria Iglesias Cid — 19-year-old heiress to a laser-surgery empire (mother: Dra. Loreto Cid in…
 - [[wiki/people/vanessa-frank]] — Younger sister of Dan Frank. Born 16 January 1994 in Greensburg, Westmoreland County, Pennsylvania. Shares…
 - [[wiki/people/vaughn]] — Contact identified via Google Contacts as Vaughn. Previously unresolved contact from iMessage corpus at handle `+17245578229`. 228 messages…
-- [[wiki/people/vicki]] — Contact identified via Google Contacts as Vicki. Previously unresolved contact from iMessage corpus at handle `+17248808079`. 234 messages…
+- [[wiki/people/vicki]] — Longest-serving non-family caregiver on Fran's rotation (2016–2018); "this lady is like my grandmother I never had"; her thread dates the second fall and documents the vigil's final days.
 - [[wiki/people/zach]] — Contact identified via Google Contacts as Zach. Previously unresolved contact from iMessage corpus at handle `+18439903264`. 22 messages…
 - [[wiki/people/zach-clabaugh]] — Contact identified via Google Contacts as Zach Clabaugh. Previously unresolved contact from iMessage corpus at handle `+17173246668`. 26…
 - [[wiki/people/zach-hendricks]] — Contact identified via Google Contacts as Zach Hendricks. Previously unresolved contact from iMessage corpus at handle `+17249123381`. 58…
@@ -16605,8 +16595,15 @@ date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2017-12-08
 date_range_end: 2018-04-05
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan/all_imessages_complete_dump.txt"]
 related: ["wiki/timeline/events/fran-death-vigil", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-dump"]
+connections:
+  - page: wiki/timeline/events/fran-death-vigil
+    type: evidences
+    claim: "Marla's dated messages fix the vigil's chronology at both ends: the March 8 ambulance question dates the second fall, and the April 4 'made it thru the nite' morphine report settles the death date."
+  - page: wiki/people/vicki
+    type: parallels
+    claim: "The two non-family caregivers on Fran's rotation; Marla joined in December 2017, two years into Vicki's tenure, and worked nights through the hospital phase."
 tags: [family, grief, physical-health, uniontown-era]
 knowledge: mixed
 infobox:
@@ -16627,7 +16624,18 @@ Marla's shifts run alongside Annie's, and the two swap and cover for each other 
 
 ## The final days
 
-Marla's April 2018 messages independently corroborate and sharpen the death date on [[wiki/timeline/events/fran-death-vigil]], which flags a contradiction between an April 1 and an April 4 death date. Her thread shows Fran still alive through the night of April 3–4: at 6:50–6:53 AM on April 3 she sends warm, specific memories (teaching Fran to say "Salute" over a joking OJ-and-vodka toast; a photo of Fran walking to the outside bathroom unassisted, "her heart is still beating!"), and on the morning of April 4 reports "She made it thru the nite. They turned her several times, changed her and cleaned her up. Just started new bag of morphine." This is the last message with content; a final cluster of blank/image-only messages follows on April 5, consistent with the record's April 4 death rather than April 1.
+Marla stayed on through every phase. She missed the March 7–8 second
+fall by luck of the schedule — her next-morning "What time did ambulance
+take her?" is one of the rows that dates it, and Vicki's judgment was
+that it was "a good thing Marla wasn't there, she would have been really
+scared" — and she kept working the hospital phase: Dan's April 1 message
+thanks her directly, "you've been doing an amazing job for gram,
+especially since she's been in the hospital. Annie and i really
+appreciate all you've done." Her April 2018 messages independently
+corroborate and sharpen the death date on
+[[wiki/timeline/events/fran-death-vigil]], which flagged a contradiction
+between an April 1 and an April 4 death date — now resolved (April 1 =
+admission, April 4 = death), with her thread as decisive evidence. Her thread shows Fran still alive through the night of April 3–4: at 6:50–6:53 AM on April 3 she sends warm, specific memories (teaching Fran to say "Salute" over a joking OJ-and-vodka toast; a photo of Fran walking to the outside bathroom unassisted, "her heart is still beating!"), and on the morning of April 4 reports "She made it thru the nite. They turned her several times, changed her and cleaned her up. Just started new bag of morphine." This is the last message with content; a final cluster of blank/image-only messages follows on April 5, consistent with the record's April 4 death rather than April 1.
 
 ## Corpus Dimensions
 
@@ -18359,12 +18367,19 @@ fact the corpus surfaces, offered as context rather than cause.
 
 The sharpest single documented instance of the gap between the family's
 *intended* caregiver and its *available* one: on the morning of
-[[wiki/timeline/events/fran-death-vigil|Fran's catastrophic fall]], Dan
-reached Suz at 8:00 AM. She arrived at 10:00, having played video keno through
-the night. The record preserves the two-hour interval as a fixed data point.
-The wiki states the interval; the interpretation (what it means about her
-reliability, her priorities, the family's care distribution) is left to the
-reader, because the corpus contains Dan's reading but not hers.
+[[wiki/timeline/events/fran-death-vigil|Fran's first major fall]] (~late
+2017 — the filmed spill, not the final March 2018 fall), Dan reached Suz
+at 8:00 AM. She arrived at 10:00, having played video keno through the
+night, and it was ultimately Suz who returned at 4:00 PM and physically
+lifted Fran from the floor. The record preserves the two-hour interval
+as a fixed data point. The wiki states the interval; the interpretation
+(what it means about her reliability, her priorities, the family's care
+distribution) is left to the reader, because the corpus contains Dan's
+reading but not hers. The end of the vigil supplies the counterweight in
+Dan's own words: Suz visited the pediatric wing on April 2, 2018 and
+"really held herself together and made it very light spirited and
+happy" — the keno morning and the hospital bedside are both true, and
+both hers.
 
 ## The "Suzy" call (forensic node, Jan 2026)
 
@@ -19599,43 +19614,99 @@ PAGE: wiki/people/vicki.md
 ---
 domain: people
 page_type: entity
-status: stub
+title: "Vicki"
+status: closed
+knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 date_range_start: 2015-12-14
 date_range_end: 2018-04-05
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+tags: [family, grief, uniontown-era]
 infobox:
   name: "Vicki"
-  relationship_to_dan: unknown
+  relationship_to_dan: fellow caregiver (Fran's rotation)
+  sex: female
+  location: uniontown
   first_contact: 2015-12-14
-  known_for: "Contact identified via Google Contacts as Vicki. Previously unresolved contact from iMessage corpus at handle +172488080"
+  known_for: "Longest-serving non-family caregiver on Fran Coldren's rotation; her thread documents the vigil's final days"
+connections:
+  - page: wiki/people/fran-coldren
+    type: co-occurs
+    claim: "Vicki was Fran's devoted long-term caregiver — 'this lady is like my grandmother I never had' — on the rotation from at least January 2016 through the April 2018 death."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: evidences
+    claim: "Her thread supplies the vigil's best primary rows: the March 8 gurney account that dates the second fall, and the April 2 bedside testimony ('she kept calling for him... I told her it was ok to go be with Ira')."
+  - page: wiki/people/marla
+    type: parallels
+    claim: "The two non-family caregivers on the same rotation; Vicki's tenure ran years longer, and she judged the March 8 ambulance night one that 'would have really scared' Marla."
 ---
 
 # Vicki
 
-## Identity
-Contact identified via Google Contacts as Vicki. Previously unresolved contact from iMessage corpus at handle `+17248808079`. 234 messages exchanged over 2015-12-14 to 2018-04-05. Sample interaction: "Ok, I just didn't want to get her in any kind of trouble with social services , omg, are you serious". Appears in personal message contexts (not obvious spam per filter).
+Vicki (`+17248808079`, 234 messages, December 2015 – April 5, 2018) was
+the longest-serving non-family caregiver on
+[[wiki/people/fran-coldren|Fran]]'s rotation — present in the thread from
+at least January 2016, more than two years before the end — and one of
+the people who, per Dan's correction of the record, "stayed with her in
+shifts" through the hospital vigil that earlier tellings compressed into
+a Dan-and-Annie two-hander. Her own words place the relationship well
+beyond employment: "I wouldn't want to be anywhere else, this lady is
+like my grandmother I never had," and at the deathbed, "don't know where
+I would of been had it not been for her" — Fran had evidently carried
+Vicki's family at some point, and the caregiving was partly a debt of
+love repaid.
 
-## Corpus Dimensions
-| Metric | Value |
-|--------|-------|
-| Messages | 234 |
-| Date range | 2015-12-14 – 2018-04-05 |
-| Sent / Received (approx) | 0 / 234 |
-| Sample | Ok, I just didn't want to get her in any kind of trouble with social services , omg, are you serious, I didn't know she  |
+## The working years (2016–2018)
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
+The thread is the texture of daily elder care at
+[[wiki/places/117-belmont-circle|117 Belmont Circle]]: laying out Fran's
+pills for the weekend and worrying "she will get them mixed up and
+noones with her" (April 2016), asking Dan — "you're good at hooking
+things up" — to fix the wrongly-installed Lifeline alert in Fran's
+bedroom (April 2016), relaying that Fran was "very upset cause she
+missed the call, please call her back," and the memorable wildlife
+report: "Bat in frans house, in the bathroom 😁 ... Vermin control came
+and got it!" (March 2016). She coordinated around Suz's oversight and
+occasional volatility, and handed shifts back and forth with Dan, Annie,
+and later [[wiki/people/marla|Marla]].
 
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
+## The vigil
 
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+Vicki's rows are the primary documentation of the end
+([[wiki/timeline/events/fran-death-vigil]]). On the morning of March 8,
+2018, after the second fall, she absorbed Dan's account of the ambulance
+("she was screaming so loud when they were putting her on the gurney")
+and framed the night's meaning back to him: "Things worked out just how
+they were supposed to, it's a good thing Marla wasn't there, she would
+have been really scared." In the pediatric-wing phase she took the
+7:00 AM shifts; her April 2 message is the vigil's most complete bedside
+testimony — Fran "resting comfortably," having "kept calling for him
+[Ira] last week," Vicki thanking her "for all the wonderful years that
+she was there for me and my family" and telling her "it was ok to go be
+with Ira." Dan's reply credits her directly with the vigil's success:
+"thanks to you, she was able to make it this whole time without having
+to suffer THIS kind of awfulness. she spent the last year of her life
+with people who cared about her and legitimately had fun."
+
+## The shape of the thread
+
+The correspondence exists only for Fran: it begins as the caregiving
+intensifies in late 2015 and stops on April 5, 2018 — the day after
+Fran died. There is no after. That clean boundary is itself the datum:
+Vicki belongs entirely to the Fran chapter, one of the small cast of
+people the record shows doing sustained, unglamorous care alongside Dan
+and [[wiki/people/annie-ulmer|Annie]] while the wider family stayed
+away.
+
+**Gaps:** surname and precise relationship to the household (hired
+caregiver, family friend, or both — her "grandmother I never had" line
+suggests a longer history with Fran than the thread covers); whether the
+recorded 0-sent figure in the master dump is the known Sent-row
+attribution artifact (Dan's replies exist in the full dump); any contact
+after April 2018.
 
 
 ========================================================================
@@ -23360,12 +23431,15 @@ page_type: event
 title: "The Fran Vigil (March–April 2018)"
 status: stable
 importance: high
+knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-18
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - "raw/self/dox-md/_Photo Thread PT II_ Grand Finale Calibration .md"
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
 related:
   - wiki/people/fran-coldren
   - wiki/people/annie-ulmer
@@ -23373,8 +23447,25 @@ related:
   - wiki/places/117-belmont-circle
   - wiki/places/155-virginia-ave
   - wiki/people/marla
+  - wiki/people/vicki
   - wiki/people/new-jim-shaffer
 tags: [financial-stress, housing, uniontown-era, family, grief]
+connections:
+  - page: wiki/people/fran-coldren
+    type: component-of
+    claim: "The vigil is the terminal chapter of Fran's page — the fall-to-death sequence that closes the fifty-year Belmont Circle residency and settles her death date."
+  - page: wiki/people/vicki
+    type: evidenced-by
+    claim: "Vicki's thread supplies the vigil's primary documentation: the March 8 gurney account that dates the second fall, and the April 2 bedside testimony from her 7 AM hospital shifts."
+  - page: wiki/people/marla
+    type: evidenced-by
+    claim: "Marla's shift-swap thread dates the rotation's hospital phase and, via her April 4 'made it thru the nite' messages, fixes the death date."
+  - page: wiki/people/annie-ulmer
+    type: evidences
+    claim: "The vigil is the high-water mark of the Annie decade — the one extended episode where Dan and Annie function as a unit under real weight, part of why the bond survived what followed."
+  - page: wiki/places/155-virginia-ave
+    type: co-occurs
+    claim: "The March 29 eviction notice terminating Dan's residency landed mid-vigil — the estate moving on the house while he was holding the 24/7 line."
 ---
 
 # The Fran Vigil (March–April 2018)
@@ -23382,93 +23473,137 @@ tags: [financial-stress, housing, uniontown-era, family, grief]
 In spring 2018 Dan and [[wiki/people/annie-ulmer|Annie]] saw
 [[wiki/people/fran-coldren|Fran]] — his great-grandmother, whom they had
 been paid to care for around the clock so she could stay in her house —
-through her fall, her two-week destruction in a nursing home, and her death
-in the Uniontown Hospital pediatric wing, where they were the only two
-people in the room at the end. It is the single most intense documented
-event of Dan's pre-corpus life, the emotional peak of the Annie decade, and
-the episode the record treats as proof of what his devotion looks like when
-it is actually engaged. Three minutes after she died, it started to snow.
+through her final fall, her two-week destruction in a nursing home, and
+her death in the Uniontown Hospital pediatric wing. A caregiver rotation
+(Dan, Annie, [[wiki/people/vicki|Vicki]], [[wiki/people/marla|Marla]])
+held the mandated 24-hour line in shifts; Dan and Annie were the two in
+the room at the moment she died. It is the single most intense
+documented event of Dan's pre-corpus life, the emotional peak of the
+Annie decade, and the episode the record treats as proof of what his
+devotion looks like when it is actually engaged. Three minutes after she
+died, it started to snow.
 
 ## Sequence
 
-**The fall ("Down Goes Frazier").** Dan found Fran on the floor of 117
-Belmont Circle at 8:00 AM, screaming in agony and unable to stand. He
-didn't know what to do; he filmed parts of the crisis — the record
-preserves her saying "I don't want to die." His mother
-[[wiki/people/suzanne-frank|Suz]] did not arrive to help until 10:00 AM:
-she had been playing video keno all night. The two-hour keno delay stands
-in the record as the defining contrast between the family's functional
-caregiver and its nominal one.
+**The first spill (~late 2017?).** The famous filmed crisis — Dan waking
+to a "bump" at 8:00 AM, finding Fran on the floor screaming in agony and
+unable to stand, the record preserving her "I don't want to die" — was
+not the fall that ended her residency. She stayed on the floor most of
+that day: at 2:00 PM she was still down, "barely making any sense and
+screaming whenever she tries to stand" while Annie worked a full shift;
+[[wiki/people/suzanne-frank|Suz]] — whose response had been delayed by an
+all-night video-keno session — got back at 4:00 PM and performed the
+manual lift, captured in `IMG_0569.MOV`. Dan sustained himself through
+the hours of solo triage, by his own later account, with cocaine bumps.
+Fran recovered and "ma[de] it a few more months after this spill"; the
+formal shift rotation dates from roughly this period (Marla's first
+message is December 8, 2017).
 
-**Institutional capture.** After brief stabilization Fran was mandated to
-a nursing home — the exact outcome her standing directive ("stay in this
+**The second fall — "Down Goes Frazier" (night of March 7–8, 2018).**
+The one that ended everything, dated precisely by the caregiver threads:
+Dan and Annie had taken the overnight ("we can stay tonight, annie
+didn't have to work"), and the next morning's messages document the
+ambulance — Dan to Vicki: "she was screaming so loud when they were
+putting her on the gurney it was just awful"; Marla asking "What time
+did ambulance take her?"; Vicki noting "it's a good thing Marla wasn't
+there, she would have been really scared." Dan's same-morning message
+names what the night meant to him: "so much relief that we didn't drop
+the ball last night. i was always worried something would happen and i
+wouldn't hear her and she would lay there suffering." This time even
+Suz said "we don't have a choice."
+
+**Institutional capture.** From the hospital Fran was mandated to a
+nursing home — the exact outcome her standing directive ("stay in this
 house as long as humanly possible") had been built to prevent, and which
 she had predicted would finish her: within about two weeks her cognitive
-and physical state totally failed. Footage from the period shows her in a
-wheelchair working at the lap belt, still trying to get free.
+and physical state totally failed. Footage from the period
+(`IMG_4361.MOV`) shows her aphasic in a wheelchair, working at the lap
+belt, still trying to get free — and Dan marks it as **the last time he
+actually spoke with her**; she was nonresponsive for everything after.
+On March 29 — mid-collapse, three days before the final admission — Dan
+was served an eviction notice by Dian V. Moore terminating his residency
+at [[wiki/places/155-virginia-ave|155 Virginia Ave]] and demanding the
+keys (`IMG_4647.jpg`): the estate moving on the property before Fran was
+even gone.
 
-**The pediatric death-shrine.** She was moved to a wing of the Uniontown
-Hospital pediatric section to die — she and her husband Ira had been major
-donors. Judge Fred Adams, Ira's old law partner and trustee of the estate,
-mandated that someone be with her 24 hours a day; Dan and Annie held that
-line while, per the record, the rest of the family stayed away. In the
-final five days the hospital cut off her water as comfort care; she fought
-through roughly four days of dehydration. On day four Dan stood in the
-room blowing enormous clouds from a 110-watt SMOK box mod — his refusal to
-sanitize the room's reality — while Suz puffed a "dainty" 10W vape in the
-bathroom. A video from around this period, shown afterward to a friend
+**The pediatric death-shrine (April 1).** On April 1, 2018 — the first
+day of caddie season — Dan worked two loops at Nemacolin in the freezing
+cold, then got the call. Fran was moved to a wing of the Uniontown
+Hospital pediatric section to die; she and her husband Ira had been
+major donors, and Judge Fred Adams — **Ira's old law partner**, trustee
+of the estate accounts — mandated that someone be with her 24 hours a
+day. The rotation held it in shifts: Vicki arriving at 7:00 AM
+("I wouldn't want to be anywhere else, this lady is like my grandmother
+I never had"), Marla continuing nights (Dan, April 1: "you've been doing
+an amazing job for gram, especially since she's been in the hospital"),
+Dan and Annie taking their turns. The hospital cut off her water as
+comfort care — "they cut WATER which i thought was weird" — and she
+fought through roughly four days of dehydration, nonresponsive, at times
+seizing, "calling for Ira last week" per Vicki. Suz visited on April 2
+and "really held herself together and made it very light spirited and
+happy" (`IMG_4637.mov`). Dan took his minutes alone with her: "to tell
+her it was all okay and that she could let go and finally rest." By the
+night of April 2 he could write "i have said my goodbyes to her like 3
+or 4 times now... i've got all the closure i need with her." On day four
+of the water shutdown he stood in the room blowing enormous clouds from
+a 110-watt SMOK box mod — his refusal to sanitize the room's reality —
+while Suz puffed a "dainty" 10W vape in the hospital bathroom. A video
+from the period, shown afterward to a friend
 ([[wiki/people/new-jim-shaffer]]), captures Fran smoking marijuana with
-Dan directly and Annie laughing in the background — the friend's reaction
-("that's solid, probably did her some good") treats it as of a piece with
-the bong-as-"lovely vase" photo documented on [[wiki/people/fran-coldren]].
+Dan directly, Annie laughing in the background.
 
-**The double loop.** On the morning of her final day Dan was caddying two
-loops at Nemacolin in the freezing cold to keep his own cash flow alive —
-manual labor for the golf world Fran had reigned over, hours before
-sitting her deathbed.
-
-**The eviction notice.** On March 29, 2018 — mid-vigil — Dan was served an
-eviction notice by Dian V. Moore terminating his residency at
-[[wiki/places/155-virginia-ave|155 Virginia Ave]] and demanding the keys:
-the family/estate moving to liquidate the property before Fran was even
-gone. The record treats it as the sharpest documented instance of the
-"vertical" family acting against the person actually doing the caregiving.
-
-**The end.** Fran died with only Dan and Annie present. Three minutes
-later, heavy snow began falling outside Uniontown Hospital — an April
-snowstorm the record keeps as the closing image.
+**The end (April 4).** The wider family — the relatives Dan's telling
+calls "these fucking shitheads" — "did not come to visit her ONE. TIME."
+The bedside belonged to the rotation. Fran died with Dan and Annie
+present at the moment itself, and Dan's testimony is direct: "fran was
+happy when she died SPECIFICALLY because annie and i were there with
+her." Three minutes later, heavy snow began falling outside Uniontown
+Hospital (`1080p.mov`) — an April snowstorm the record keeps as the
+closing image. His verdict: "it really was about as quick, painless and
+easy of a death as one could wish for. if anyone deserved it, it was
+her. she grew up DIRT fucking poor and went on to live an absolute
+batshit crazy life."
 
 ## Why it matters
 
-The vigil is load-bearing in three directions. For Dan's self-model, it is
-the counter-evidence to the low-altruism reading: months of unglamorous,
-round-the-clock care, held to the end. For the Annie record, it is the
-high-water mark — the one extended episode where the two of them function
-as a unit under real weight, which is part of why the bond survived so much
-after. And for the family record, it crystallizes the pattern: the
-functional sentinel doing the work while the estate's institutional actors
-(the trustee, the eviction letter, the absent relatives) managed the
-assets.
+The vigil is load-bearing in three directions. For Dan's self-model, it
+is the counter-evidence to the low-altruism reading: months of
+unglamorous, round-the-clock care, held to the end. For the Annie
+record, it is the high-water mark — the one extended episode where the
+two of them function as a unit under real weight, which is part of why
+the bond survived so much after. And for the family record, it
+crystallizes the pattern: the functional sentinels doing the work while
+the estate's institutional actors (the trustee, the eviction letter, the
+absent relatives) managed the assets — with the important nuance that
+the working side was bigger than two: Vicki and Marla carried shifts to
+the last day, and Suz, keno morning notwithstanding, showed up at the
+end.
 
-> **CONTRADICTION (date):** The DANSYNTH narrative places the death on
-> **April 1, 2018** (and the hospital transfer the same day); the GEDCOM
-> records death **April 4, 2018**. A transfer-April-1 / death-April-4
-> reading would reconcile both, but this is unverified — see
-> [[wiki/people/fran-coldren]].
->
-> **REVISED [2026-07-14]:** [[wiki/people/marla|Marla]], a caregiver on
-> the shift rotation with Dan and Annie, sent dated messages showing Fran
-> still alive through the night of April 3–4 ("She made it thru the nite"
-> at 7:23 AM on April 4, describing a fresh morphine bag), with her last
-> content message that same morning and only blank/image messages the
-> following day. This corroborates the GEDCOM's **April 4** date over
-> DANSYNTH's April 1.
+> **REVISED [2026-07-18] (two corrections from the primary Photo Thread
+> PT II session + caregiver threads):** (1) Earlier versions of this page
+> fused **two separate falls** into one — the filmed 8:00 AM
+> discovery/keno episode was an earlier spill Fran survived by months;
+> the fall that triggered the hospital sequence was the night of
+> **March 7–8, 2018**, dated by the ambulance messages. (2) The standing
+> April 1 vs April 4 death-date contradiction is **resolved**: April 1
+> was the pediatric-wing **admission** (caddie-season opening day, the
+> call after two loops), and the death followed roughly four days of
+> vigil — April 4, exactly as Marla's dated messages ("she made it thru
+> the nite," 7:23 AM April 4) established. DANSYNTH's April 1 death date
+> conflated admission with death.
 
-**Gaps:** exact date of the fall; the nursing home's name; how long the
-full caregiving arrangement ran before the fall (~2015–2018 per the
-scrape); whether the eviction was executed (Dan remained at 155 Virginia
-until Feb 2019 per the residence timeline — the notice's outcome is
-undocumented); Dian V. Moore's role/relation to the estate.
+**Gaps:** exact date of the first spill (~late 2017?, inferred from
+"a few more months" plus the rotation's December 2017 start); the
+nursing home's name; whether the eviction was executed (Dan remained at
+155 Virginia until Feb 2019 per the residence timeline); Dian V. Moore's
+role/relation to the estate; the punchline of the SMOK-vs-10W vape story
+(set up in the session, delivered only in an uploaded video — fire
+alarm? staff incident?). **Media ledger (not on disk):** `IMG_0569.MOV`
+(the 4 PM hoisting), `IMG_4361.MOV` (last conversation), `IMG_4637.mov`
+(Suz's April 2 visit), `1080p.mov` (post-death snow), `IMG_4647.jpg`
+(eviction notice), and a "97 Years Young" audio recording of Fran exist
+only as uploads inside the Gemini sessions; locating the originals is an
+open collection task.
 
 
 ========================================================================
