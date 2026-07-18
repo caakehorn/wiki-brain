@@ -13,6 +13,9 @@ sources:
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: parallels
+    claim: "Dependency predicts which severances hold: Tom's blocks failed while he was the sole node, and Menore's channel closed cleanly when geography ended the need — the loop and the network share one governing variable."
   - page: wiki/mind/synthesis/estate-money-spine
     type: parallels
     claim: "The money spine is the capital layer of the same architecture: lumps arrive (estates, market wins) and exit through the network's constant metered flows — lump income against metered outflow is why no arrival holds."

@@ -13,6 +13,9 @@ infobox:
   location: uniontown
   known_for: "Tom Maison — Dan's primary male ally and, for most of the corpus, the clearest instance of safe, lateral (peer, non-pate"
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: component-of
+    claim: "The May 18 2026 conditional unblock and the 2014 declared-done-then-return precedent are the loop's peer-bond case — blocks failed both times because Tom was the sole supply node."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "Tom is the positive-case exhibit: the clearest safe lateral (peer, non-paternal) attachment in the corpus, against which the vertical-suspect pattern is measured."

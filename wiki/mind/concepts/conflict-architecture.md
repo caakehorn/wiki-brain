@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-07-18
 sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -23,6 +23,9 @@ related:
   - wiki/mind/synthesis/intake-constancy
 tags: [addiction-recovery, trauma-bond, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: causes
+    claim: "The engine's no-halt-condition defect is what the block/unblock loop expresses as a channel operation; the 414-message Grok run is the mechanism reproduced in software."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "The conflict architecture is read against the LLM venue in the totality's bandwidth-war section."

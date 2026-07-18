@@ -32,6 +32,9 @@ related:
   - wiki/mind/psychosexual/developmental-origins
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: component-of
+    claim: "The Rick amputation — a 12-day burst then a decade of unanswered inbound — is the loop's held-block control case, proving severance holds exactly where no dependency flows through the channel."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "Frank's Auto Supermarket is the money spine's paternal source-line — the anti-union 'kushy lives' engine Dan indicts in the Aug 22 2020 message, one day after his own estate distribution order was signed."

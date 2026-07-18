@@ -87,6 +87,9 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: component-of
+    claim: "The 127/110 exit-relapse record is the loop's central case, and the March 2026 fight shows Annie running the same block-unblock operation back at Dan — the loop is bidirectional inside the bond."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "The ~$119–123K net payment-app outflow to Annie is the money spine's largest documented drain — roughly the size of the entire estate distribution, exiting through the relationship over the decade."
