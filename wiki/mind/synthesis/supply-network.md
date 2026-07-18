@@ -27,7 +27,7 @@ connections:
     claim: "Teddy is the 2018–20 Uniontown parallel node whose own fines, probation, and borrowing show the network's suppliers were as financially fragile as its buyer — precarity ran the whole chain."
   - page: wiki/people/menore
     type: contains
-    claim: "Menore is the NYC node and the network's reliability outlier — 6.5 years, ~60-second response SLA, zero recorded failures — the control case proving distance outperforms friendship in this market."
+    claim: "Menore is the NYC node and the network's reliability outlier — 99.3% availability (455 of 458 requests answered over 6.5 years, median 7-minute reply) — the control case proving distance outperforms friendship in this market."
   - page: wiki/people/annie-ulmer
     type: contains
     claim: "Annie occupies both sides of the network across its life: logistics facilitator in the 2018–19 Johnny era, then dependent consumer in the terminal phase, when Dan controlling the supply ('bop') became the relationship's primary retention mechanism."
@@ -42,7 +42,7 @@ connections:
     claim: "The network's terminal-era fragility is a documented proximate cause of the BFS job loss: the three-burns-in-four-days sourcing cascade consumed Dan's optionality and the resulting withdrawal impaired the shift the drawer variance was pinned to."
   - page: wiki/work/au-zaatar
     type: co-occurs
-    claim: "The network wrapped around the workday: Menore served Dan mid-shift at the Shed through taxi windows, 2021–24 — procurement and employment sharing the same physical territory for three years."
+    claim: "The network wrapped around the workday: Menore served Dan mid-shift at the Shed through taxi windows — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58), with the storytime's longer 2021–24 window unresolved against the thread's four-year gap."
 ---
 
 # The Supply Network
@@ -74,7 +74,7 @@ transfers along the way.
 | [[wiki/people/johnny-dealer]] | 2018–2019 | Uniontown | Primary deep-cycle dealer; strips ($15/8mg, $20/12mg), "b's"; fronts |
 | Second dealer (+17243233522) | 2018 | Uniontown | Parallel node in the deep cycle (operating manual) |
 | [[wiki/people/teddy]] | 2018–2020 | Uniontown/Fairchance | Parallel informal supplier; strips, pills; credit and holds |
-| [[wiki/people/menore]] | 2013?, 2018–2025 | NYC | Professional delivery operator; ~60-second SLA, zero failures |
+| [[wiki/people/menore]] | 2013?, 2018–20 + 2024–25 | NYC | Professional delivery operator; 99.3% availability, median 7-min reply |
 | Tim | ~2020s | undocumented | Named in the MAX_PRIME succession; no thread yet identified |
 | "bop" / "Felix" | 2026 | Uniontown | Current-connect vocabulary; identities unresolved |
 
@@ -105,7 +105,9 @@ Ranked by documented reliability, the network's nodes sort in a
 direction that is genuinely diagnostic: **the more purely transactional
 the relationship, the more reliable the supply.** Menore — a stranger
 operating a professional delivery service with vehicle rotation and
-operational discipline — ran ~6.5 years with zero recorded no-shows.
+operational discipline — answered 455 of 458 requests across 6.5 years
+(99.3%, median reply 6.6 minutes), with zero frustration messages from
+Dan anywhere in the thread.
 Johnny, transactional-but-social ("French toast diplomacy"), was
 reliable in-season but produced supply panics whenever he went on
 vacation or his phone died ("I have no other person I can get z from.
@@ -150,8 +152,9 @@ domain, and the corpus documents each path:
   thread the [[wiki/mind/synthesis/estate-money-spine|money spine]]
   carries forward.
 - **The workday, physically.** At [[wiki/work/au-zaatar|Au Za'atar]],
-  Menore delivered mid-shift to the outdoor Shed through taxi windows
-  for three years. At the country club, Teddy timed handoffs around
+  Menore delivered mid-shift to the Shed block (primary-confirmed for
+  May–Aug 2024; the longer storytime window is unresolved — see
+  [[wiki/people/menore]]). At the country club, Teddy timed handoffs around
   caddying reports. The network was never an after-hours activity; it
   was co-located with employment throughout.
 

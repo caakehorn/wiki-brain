@@ -34,10 +34,10 @@ connections:
     claim: "The 41-month audit posture — and Dan's own documented sabotage — are this page's contribution to the skepticism model."
   - page: wiki/mind/synthesis/supply-network
     type: co-occurs
-    claim: "The supply network wrapped around this workday for three years: Menore delivered mid-shift to the Shed through taxi windows, procurement and employment sharing the same physical territory."
+    claim: "The supply network wrapped around this workday: Menore delivered mid-shift to the Shed block through taxi windows — primary-confirmed for May–Aug 2024, with the storytime's longer window unresolved against the Menore thread's 2020–24 gap."
   - page: wiki/people/menore
     type: supplied-by
-    claim: "Menore was the standing mid-shift supply line to the Shed, his legit-taxi cover making the workday sidewalk handoffs trivial for three years."
+    claim: "Menore was the mid-shift supply line to the Shed block, his legit-taxi cover making the sidewalk handoffs trivial — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58); earlier years rest on the storytime only."
 ---
 
 
