@@ -3,8 +3,8 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-17
-sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
+date_modified: 2026-07-18
+sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md"]
 tags: [addiction-recovery, dui, ai-collaboration, relationships, mental-health]
 infobox:
   name: "Tom"
@@ -28,6 +28,9 @@ connections:
   - page: wiki/timeline/periods/2025-collapse
     type: supplies
     claim: "During the Annie collapse Tom is simultaneously crisis anchor and supply line; the dual role is what makes the spring 2026 supply failures a relationship-ending event rather than a logistics problem."
+  - page: wiki/work/bfs-foods
+    type: causes
+    claim: "Tom's mid-May 2026 string-along supply failure is the first domino of the BFS crisis — the withdrawal it caused impaired the shift the drawer variance was pinned to, and the 2014 precedent recovered there reframes his reliability as transactional across the whole record."
 ---
 
 
@@ -158,6 +161,52 @@ object back that is very obviously not something that tom got."
 The record ends there, unresolved: no reconciliation, no formal severance,
 just the same silence pattern that used to resolve itself running out its
 string. Whether the friendship recovers past May 30, 2026 is not documented.
+
+## The pattern is twelve years old, not new (2014 precedent)
+
+The spring-2026 collapse is often read as a late-life degradation of an
+otherwise-safe bond, but the BFS drawer-dispute reconstruction
+([[wiki/work/bfs-foods]]) surfaced a near-identical episode from **twelve
+years earlier**, and it forces a revision. In August–September 2014 Tom
+ran the same owe-and-silence sequence: Dan on Aug 20, 2014 —
+"Do you have any fucking clue how shitty I feel? I waited 2 weeks
+already… you need to get me the rest of what you owe me TODAY"; Sept 1 —
+"What the fuck man"; Sept 10 — "remember how you stopped giving a fuck
+that you owed me when you didn't need me to buy your shit anymore?"
+followed by "I'm done and I'm going to make it my dumb fuck mission in
+life to blow your spot up. I'm not doing this stupid fucking dance with
+you anymore"; then, on Sept 15, right back to him — "yo looking to
+purchase sub/tex whatevz. anything around?" — the channel reopening the
+moment Dan needed product again. That is not "a day or two" of
+unreliability. It is a multi-week owe-stonewall-escalate-declare-done-
+reconcile cycle, documented in 2014 and re-run identically in 2026, with
+Dan's own 2014 diagnosis naming the mechanism precisely: Tom's
+reliability is transactional — high during mutual dependence, degrading
+to indifference once he no longer needs Dan as a buyer. The language even
+rhymes across the twelve years: 2014's "I'm not doing this stupid fucking
+dance with you anymore" and 2026's "this is some real
+[[wiki/people/kristin|Kristin]]-coded shit" are the same affective
+category — *this person is producing outputs functionally
+indistinguishable from someone untrustworthy* — the 2026 version simply
+having the Kristin deception-cost slot available to anchor it.
+
+The load-bearing revision is Dan's own, and it is what finally names what
+"safe" was carrying. Asked what bothered him most about the 2026 failure,
+he answered that it wasn't the money: "the thing that bothers me the most
+is not money but that he would be okay letting me go sick." The
+"unconditional safe attachment" framing does not survive that unrevised —
+not because Tom is bad, but because most of what made him feel safe was
+that he was *available during the periods when being available cost him
+nothing*, which is a real form of presence but is not what Dan wanted
+"safe" to mean (the person who treats my baseline okayness as
+non-negotiable). The corpus-consistent version, fitting the years of real
+connection AND the 2014 episode AND 2026, is: **lateral ally during
+periods of mutual alignment, unreliable to indifference during asymmetric
+periods.** The three-burns-in-four-days cascade that helped end the BFS
+job (Tom Friday, a second contact Sunday, a workplace customer during the
+shift) is that same asymmetric-period unreliability at its most costly —
+Tom's string-along "soon"s consumed the optionality Dan needed to source
+elsewhere while alternatives still existed.
 
 ## Domain: Tech
 
