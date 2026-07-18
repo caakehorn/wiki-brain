@@ -8,13 +8,23 @@ sources:
   - "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html"
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/facebook/facebook-ihatedanfrank/pages_and_profiles/pages_you_ve_liked.html"
-related:
-  - wiki/interests/index
-  - wiki/interests/stand-up-comedy
-  - wiki/self/youtube-watch-history
-  - wiki/mind/profile/linguistic-profile
-  - wiki/mind/profile/voice-modes
 tags: [personality-profile, digital-footprint, nyc-era]
+connections:
+  - page: wiki/mind/synthesis/interests-as-era-markers
+    type: instantiates
+    claim: "The loudest era-marker in the whole intake record: the two peak YouTube years of a two-decade log, 2012–13, are substantially this one subject."
+  - page: wiki/self/youtube-watch-history
+    type: evidenced-by
+    claim: "The ~450 fan-archive-channel watches and the 3,538/2,742 peak-year counts are the primary record this page interprets."
+  - page: wiki/interests/stand-up-comedy
+    type: causes
+    claim: "The pipeline is direct: the 2012–13 radio-archive binge trained the taste that surfaces as the 2017–19 comedy-club interest cluster and the 2019 NYC live run — he was steeped in the scene's radio precursor for most of a decade before attending it."
+  - page: wiki/mind/profile/linguistic-profile
+    type: causes
+    claim: "The callous, riff-driven, gallows-irony register the profile calls a 'psychic ventilator' is the native dialect of the O&A universe — this binge is where that idiom was trained."
+  - page: wiki/mind/profile/voice-modes
+    type: contextualizes
+    claim: "Supplies the media source behind the shock-comic voice mode: the register was absorbed from years of archive listening, not invented."
 ---
 
 # Opie & Anthony / Shock Radio

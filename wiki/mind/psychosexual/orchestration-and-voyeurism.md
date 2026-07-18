@@ -19,6 +19,10 @@ related:
   - wiki/timeline/events/annie-alexis-reunion-november-2018
   - wiki/people/fran-coldren
 tags: [relationships, trauma-bond, personality-profile]
+connections:
+  - page: wiki/interests/film-canon
+    type: evidenced-by
+    claim: "The 2019-07-18 'living some eyes wide shut shit vicariously through her' message shows Dan reaching for his canon's masked-voyeur film as the lens on his own arrangement — primary self-description of the spectator frame."
 ---
 
 # Orchestration and Voyeurism
@@ -47,7 +51,11 @@ across years; the reverse — Dan with another partner while Annie watches —
 is not documented anywhere in the corpus. The report names this
 asymmetry directly: "curated voyeurism with structured power dynamics," a
 "psychosexual inversion" in which control is maintained precisely by not
-participating.
+participating. Dan supplied his own name for the frame in real time: on
+2019-07-18, mid-arrangement, he described himself as "living some eyes
+wide shut shit vicariously through her" — reaching for the masked-voyeur
+film in his own [[wiki/interests/film-canon|film canon]] as the lens on
+what he had built.
 
 One specific claim from this same passage — that Annie's "profound
 pleasure during a long massage with another man 'broke Dan's brain' and

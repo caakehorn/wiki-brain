@@ -8,13 +8,23 @@ sources:
   - "raw/self/favorites/FAVS MASTERLIST.csv"
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
-related:
-  - wiki/interests/index
-  - wiki/interests/favorites/art-and-movies
-  - wiki/mind/profile/intp
-  - wiki/mind/psychosexual/index
-  - wiki/interests/stand-up-comedy
 tags: [personality-profile, digital-footprint]
+connections:
+  - page: wiki/mind/synthesis/interests-as-era-markers
+    type: mirrors
+    claim: "The control case for the era-marker thesis: the canon's contents are stable, but Eyes Wide Shut's meaning is era-indexed — completion target 2017, arrangement self-lens 2019, household ritual 2023 — so even the fixed list dates its own readings."
+  - page: wiki/mind/psychosexual/orchestration-and-voyeurism
+    type: evidences
+    claim: "The 2019-07-18 'living some eyes wide shut shit vicariously through her' message is primary evidence for the spectator/orchestrator frame — Dan reaching for the canon's masked-voyeur film as the lens on his own arrangement."
+  - page: wiki/interests/stand-up-comedy
+    type: parallels
+    claim: "Keeping The King of Comedy — a portrait of a delusional aspiring stand-up — in the top eleven while writing his own five-minute open-mic set is the canon and the pursuit running the same self-portrait."
+  - page: wiki/mind/profile/intp
+    type: evidences
+    claim: "Taxi Driver and The King of Comedy as chosen self-mirrors are primary evidence for the hyperaware-observer self-myth the profile documents — isolated men building private missions the world hasn't asked for."
+  - page: wiki/interests/favorites/art-and-movies
+    type: contextualizes
+    claim: "Supplies the lived meaning behind the eleven-title list that the favorites page correctly filed as thin: it is a curated, assigned, evangelized canon, not a watch-log."
 ---
 
 # Film Canon

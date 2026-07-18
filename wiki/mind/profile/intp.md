@@ -18,6 +18,13 @@ related:
   - wiki/mind/concepts/conflict-architecture
   - wiki/mind/concepts/phenomenology-lens
 tags: [personality-profile, trauma-bond, addiction-recovery]
+connections:
+  - page: wiki/interests/roman-republic
+    type: evidenced-by
+    claim: "The great-man-theory tag cluster on the 2024 Caesar/Alexander/Oppenheimer reads is corpus evidence for the singular-figure-versus-the-system self-myth this profile documents."
+  - page: wiki/interests/film-canon
+    type: evidenced-by
+    claim: "The Taxi Driver / King of Comedy self-portrait pair in the film canon is the same hyperaware-observer self-myth chosen as a mirror in cinema."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -123,7 +130,14 @@ the forensic default, derived rather than chosen. The same arithmetic
 explains the costs: a mind that can prove things cannot stop litigating
 ([[wiki/mind/concepts/conflict-architecture]]), and a memory that cannot
 forget keeps every wound current
-([[wiki/mind/concepts/attachment-model]]).
+([[wiki/mind/concepts/attachment-model]]). The self-myth the stack
+sustains — the singular perceiver against a system too dull to see what
+he sees — also shows in what he chooses to consume: the great-man shelf
+of the 2024 [[wiki/interests/roman-republic|Roman-Republic year]]
+(Caesar, Alexander, Oppenheimer, all tagged great-man-theory) and the
+Taxi Driver / King of Comedy self-portrait pair in his
+[[wiki/interests/film-canon|film canon]] pick out the same figure in
+history and cinema.
 
 **Gaps:** function scores are AI-inferred from corpus behavior, not from a
 proctored instrument; the Ni measurement in particular has no independent

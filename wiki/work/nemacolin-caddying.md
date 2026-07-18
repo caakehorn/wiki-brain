@@ -20,6 +20,10 @@ related:
   - wiki/interests/golf
   - wiki/mind/concepts/forensic-method
 tags: [career, uniontown-era, financial-stress]
+connections:
+  - page: wiki/interests/golf
+    type: component-of
+    claim: "The caddying job is the professional component of the wider golf thread — the hire reignited his own playing, and for the 2016–19 stretch the sport was simultaneously income, social world, and game."
 ---
 
 # Caddying — Nemacolin, Laurel Valley, Pikewood National (2016–2019)
@@ -31,6 +35,9 @@ his resume — borrowing golf shoes for the interview on April 6, 2016. The
 role covered guest golf-round assistance, strategic course advice across
 Nemacolin's two courses, pace-of-play management during corporate and
 charity outings, and equipment logistics. His manager was Brad Hubeaut.
+The job was not just income: it reignited his own playing and anchored
+the era in which [[wiki/interests/golf|golf]] was at once his sport, his
+social world, and his primary paycheck.
 
 ## The looper hierarchy and day trips
 

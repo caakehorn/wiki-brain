@@ -659,3 +659,7 @@ knowledge. Process top-down; strike entries as done.
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - co-cited from 5 pages
 - [ ] type: ______  claim: ______
+
+## Rejections (2026-07-17, era-markers pass)
+- REJECTED wiki/interests/video-games <-> wiki/interests/the-office — the only documented tie is source-provenance (both mined from the same 2007 Facebook layer); no relationship claim survives between the two interests themselves.
+- REJECTED wiki/interests/video-games <-> wiki/self/context-core — context-core is the master biography spine; a background hobby's mention there is coverage, not a relationship. The era-marker junction now carries the meaningful edge.
