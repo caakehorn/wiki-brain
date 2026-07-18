@@ -120,13 +120,15 @@ Practically, this page licenses an inference rule for future work: an
 undated artifact (a photo, an unexported chat fragment, a playlist) that
 shows a marker interest can be approximately dated by it, and
 conversely, a period page missing its marker is incomplete. The junction
-also names a gap: the 2021–2023 employment-block years have no
-identified marker obsession yet — either the record is thin there or the
+also names a gap: the
+[[wiki/timeline/periods/2021-2023-employment-block|2021–2023 employment-block]]
+years have no identified marker obsession yet — either the record is thin there or the
 marker (market-watching? the meme-stock thread?) hasn't been promoted
 out of its host pages. That absence is itself worth resolving.
 
 **Gaps:** The pre-2007 childhood layer has no intake record at all, so
-the series starts where the digital footprint starts. The 2021–23 marker
+the series starts where the digital footprint starts. The
+[[wiki/timeline/periods/2021-2023-employment-block|2021–23]] marker
 is unidentified (above). The claim "rate constant, subject rotates" is
 verified at the year scale, not the month scale — sub-year obsession
 boundaries (e.g. exactly when the 2024 Rome year ended) are not yet

@@ -76,7 +76,3 @@ favorites rating and no page, yet it is a verifiable through-line from
 facts are concrete and the emotional register is consistent — low-grade,
 long-running, occasionally friction-bearing, finally relinquished under
 family pressure. It earns a page.
-
-## Related
-
-[[wiki/interests/the-office]] · [[wiki/timeline/events/teen-concert-years]] · [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/self/context-core]]
