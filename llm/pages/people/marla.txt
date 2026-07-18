@@ -6,8 +6,15 @@ date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2017-12-08
 date_range_end: 2018-04-05
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan/all_imessages_complete_dump.txt"]
 related: ["wiki/timeline/events/fran-death-vigil", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-dump"]
+connections:
+  - page: wiki/timeline/events/fran-death-vigil
+    type: evidences
+    claim: "Marla's dated messages fix the vigil's chronology at both ends: the March 8 ambulance question dates the second fall, and the April 4 'made it thru the nite' morphine report settles the death date."
+  - page: wiki/people/vicki
+    type: parallels
+    claim: "The two non-family caregivers on Fran's rotation; Marla joined in December 2017, two years into Vicki's tenure, and worked nights through the hospital phase."
 tags: [family, grief, physical-health, uniontown-era]
 knowledge: mixed
 infobox:
@@ -28,7 +35,18 @@ Marla's shifts run alongside Annie's, and the two swap and cover for each other 
 
 ## The final days
 
-Marla's April 2018 messages independently corroborate and sharpen the death date on [[wiki/timeline/events/fran-death-vigil]], which flags a contradiction between an April 1 and an April 4 death date. Her thread shows Fran still alive through the night of April 3–4: at 6:50–6:53 AM on April 3 she sends warm, specific memories (teaching Fran to say "Salute" over a joking OJ-and-vodka toast; a photo of Fran walking to the outside bathroom unassisted, "her heart is still beating!"), and on the morning of April 4 reports "She made it thru the nite. They turned her several times, changed her and cleaned her up. Just started new bag of morphine." This is the last message with content; a final cluster of blank/image-only messages follows on April 5, consistent with the record's April 4 death rather than April 1.
+Marla stayed on through every phase. She missed the March 7–8 second
+fall by luck of the schedule — her next-morning "What time did ambulance
+take her?" is one of the rows that dates it, and Vicki's judgment was
+that it was "a good thing Marla wasn't there, she would have been really
+scared" — and she kept working the hospital phase: Dan's April 1 message
+thanks her directly, "you've been doing an amazing job for gram,
+especially since she's been in the hospital. Annie and i really
+appreciate all you've done." Her April 2018 messages independently
+corroborate and sharpen the death date on
+[[wiki/timeline/events/fran-death-vigil]], which flagged a contradiction
+between an April 1 and an April 4 death date — now resolved (April 1 =
+admission, April 4 = death), with her thread as decisive evidence. Her thread shows Fran still alive through the night of April 3–4: at 6:50–6:53 AM on April 3 she sends warm, specific memories (teaching Fran to say "Salute" over a joking OJ-and-vodka toast; a photo of Fran walking to the outside bathroom unassisted, "her heart is still beating!"), and on the morning of April 4 reports "She made it thru the nite. They turned her several times, changed her and cleaned her up. Just started new bag of morphine." This is the last message with content; a final cluster of blank/image-only messages follows on April 5, consistent with the record's April 4 death rather than April 1.
 
 ## Corpus Dimensions
 

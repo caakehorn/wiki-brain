@@ -90,7 +90,12 @@ later recall" — the multi-hour narrative discharge was never just
 venting, it was a deliberate exocortex *write*, curated life-narrative
 committed to model memory as a retrievable asset. That request is the
 direct ancestor of this wiki's own ingest loop: tell the story once,
-have the machine keep it.
+have the machine keep it. The Photo Thread finale (Feb 2026) closes with
+Dan naming the social reality of the practice from inside it: "i'm
+imagining how little ANYONE would get it if i said 'hey i told my AI the
+story of fran's death last night'" — the AI as the one confidant to whom
+the heaviest material can actually be told, stated at the exact moment
+of use, with full awareness of how it would read from outside.
 
 **Clean-room iterative forensics.** Gemini-_07 is the exemplar: raw
 incident beats plus user corrections produce successively stripped "final

@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 308,
+ "page_count": 307,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -234,7 +234,7 @@
    "title": "Golf",
    "summary": "Golf runs through three generations of the family and both ends of Dan's relationship with [[wiki/people/annie-ulmer|Annie]] \u2014 he met her on a golf course at...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/golf.txt",
-   "bytes": 8929
+   "bytes": 9004
   },
   {
    "page": "wiki/interests/gore-vidal.md",
@@ -556,7 +556,7 @@
    "title": "AI Collaborative Analysis",
    "summary": "Large language models occupy a specific, unusual role in Dan's cognitive",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/ai-collaborative-analysis.txt",
-   "bytes": 16682
+   "bytes": 17078
   },
   {
    "page": "wiki/mind/synthesis/ancestral-dialectic.md",
@@ -1014,13 +1014,6 @@
    "bytes": 1328
   },
   {
-   "page": "wiki/people/contacts/marla.md",
-   "title": "Marla## Identity",
-   "summary": "Contact identified via Google Contacts as Marla. Previously unresolved contact from iMessage corpus at handle `+17245626515`. 52 messages exchanged over 2017...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/contacts/marla.txt",
-   "bytes": 1388
-  },
-  {
    "page": "wiki/people/contacts/mike-hinkle.md",
    "title": "Mike Hinkle## Identity",
    "summary": "Contact identified via Google Contacts as Mike Hinkle. Previously unresolved contact from iMessage corpus at handle `+19043124149`. 21 messages exchanged ove...",
@@ -1165,7 +1158,7 @@
    "title": "Frances \"Fran\" Whyel Coldren",
    "summary": "Fran Whyel Coldren was Dan's maternal great-grandmother, his self-described",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/fran-coldren.txt",
-   "bytes": 11976
+   "bytes": 13514
   },
   {
    "page": "wiki/people/franki-faris.md",
@@ -1186,7 +1179,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 15575
+   "bytes": 15623
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1403,7 +1396,7 @@
    "title": "Marla",
    "summary": "Marla was a paid caregiver on the shift-rotation team looking after [[wiki/people/fran-coldren|Fran]] alongside Dan and [[wiki/people/annie-ulmer|Annie]] thr...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/marla.txt",
-   "bytes": 3049
+   "bytes": 4227
   },
   {
    "page": "wiki/people/marty-martin.md",
@@ -1585,7 +1578,7 @@
    "title": "Suz (Suzanne Frank)",
    "summary": "Dan's mother and, across four decades, the single most constant structural",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/suzanne-frank.txt",
-   "bytes": 12595
+   "bytes": 13021
   },
   {
    "page": "wiki/people/tan-calabrese.md",
@@ -1674,9 +1667,9 @@
   {
    "page": "wiki/people/vicki.md",
    "title": "Vicki",
-   "summary": "Contact identified via Google Contacts as Vicki. Previously unresolved contact from iMessage corpus at handle `+17248808079`. 234 messages exchanged over 201...",
+   "summary": "Vicki (`+17248808079`, 234 messages, December 2015 \u2013 April 5, 2018) was",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/vicki.txt",
-   "bytes": 1721
+   "bytes": 4822
   },
   {
    "page": "wiki/people/zach-clabaugh.md",
@@ -1963,7 +1956,7 @@
    "title": "The Fran Vigil (March\u2013April 2018)",
    "summary": "In spring 2018 Dan and [[wiki/people/annie-ulmer|Annie]] saw",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/fran-death-vigil.txt",
-   "bytes": 5884
+   "bytes": 10210
   },
   {
    "page": "wiki/timeline/events/group-chat-closure.md",

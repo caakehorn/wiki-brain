@@ -17,6 +17,8 @@ sources:
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/people/captures/2026-07-15_192028_dan-s-maternal-great-grandmother-fran-wh.md
   - raw/people/captures/2026-07-15_192608_dan-s-maternal-great-grandmother-fran-wh.md
+  - "raw/self/dox-md/_Photo Thread PT II_ Grand Finale Calibration .md"
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
 related:
   - wiki/people/suzanne-frank
   - wiki/people/annie-ulmer
@@ -89,14 +91,22 @@ he'd play on it.
 
 ## The athlete of Belmont Circle
 
-The record preserves her local-legend credentials precisely. In **1969 she
-recorded a hole-in-one at the Uniontown Country Club** — the 153-yard No. 11,
-struck with a No. 5 wood — and she later **won the UCC Women's Golf Crown,
-shooting 342 over 72 holes to win by seven strokes**. The reach wasn't
-confined to the club: a photographed commemorative pin records a **200 game
-at Manor Lanes**, and family photographs place her beside **Arnold Palmer's
-private plane** — she was socially close with the King himself, western
-Pennsylvania golf royalty by association as well as by scorecard.
+The record preserves her local-legend credentials precisely — and the
+Photo Thread archive (clippings `IMG_4816–4818.jpg`) shows the athletic
+range was wider and started earlier than the golf-crown story alone. Her
+first documented **hole-in-one came in 1959 at LaGorce Country Club**
+(Miami Beach); a decade later, in **1969, she recorded a second at the
+Uniontown Country Club** — the 153-yard No. 11, struck with a No. 5
+wood — and she later **won the UCC Women's Golf Crown, shooting 342 over
+72 holes to win by seven strokes**. The reach wasn't confined to golf or
+to Pennsylvania: a newspaper clipping records her boating a **113-pound
+tarpon at the Met Tournament in the Everglades**, the paper circling her
+as the "weaker sex" prize-taker — a mid-century deep-sea fishing trophy
+with the era's sexism attached as a bonus artifact. A photographed
+commemorative pin records a **200 game at Manor Lanes**, and family
+photographs place her beside **Arnold Palmer's private plane** — she was
+socially close with the King himself, western Pennsylvania golf royalty
+by association as well as by scorecard.
 
 The seat of all of it was **117 Belmont Circle**, the three-story house on
 the edge of the UCC fairway she occupied for over fifty years
@@ -134,17 +144,21 @@ sweatshirt in the background accidentally composing itself into rising
 smoke. He treated a 97-year-old with dementia as a peer, and the record
 suggests she gave as good as she got.
 
-The vigil's end — the 8 AM fall ("Down Goes Frazier"), the nursing home
-that consumed her in two weeks exactly as she'd predicted, the pediatric
-wing, the water shutdown, the snowstorm minutes after she died — is
-documented in full at [[wiki/timeline/events/fran-death-vigil]].
+The vigil's end — the first spill (the filmed 8 AM discovery, ~late
+2017), the second fall that mattered ("Down Goes Frazier," night of
+March 7–8, 2018), the nursing home that consumed her in two weeks
+exactly as she'd predicted, the pediatric wing, the water shutdown, and
+the snowstorm minutes after she died — is documented in full at
+[[wiki/timeline/events/fran-death-vigil]].
 
-> **CONTRADICTION (death date):** The GEDCOM primary source records her
-> death as **April 4, 2018**. The DANSYNTH narrative dates it **April 1,
-> 2018** — and builds meaning on the April Fool's date. One is wrong.
-> Candidate resolution: hospital transfer to the pediatric wing April 1,
-> death April 4 (which would preserve both dates); verify against the
-> Herald-Standard obituary or FindAGrave.
+> **CONTRADICTION (death date) — RESOLVED [2026-07-18]:** The GEDCOM
+> records her death as **April 4, 2018**; the DANSYNTH narrative dated it
+> **April 1** and built meaning on the April Fool's date. The candidate
+> resolution — transfer April 1, death April 4 — is now **corroborated
+> from Dan's own primary narration** (Photo Thread PT II): April 1 was
+> the pediatric-wing *admission* ("it's april 1, 2018. the first day of
+> golf at nemacolin... i do two loops in the freezing fuck cold and then
+> get the call"), followed by roughly four days of nonresponsive vigil.
 >
 > **REVISED [2026-07-14]:** dated messages from caregiver
 > [[wiki/people/marla]] show Fran alive through the night of April 3–4
@@ -203,13 +217,17 @@ without one being raised.
 |------|-------|
 | 1920-08-15 | Born, Fort Martin, Marion County, WV |
 | ~1940 | Marriage; moves into Fayette County PA orbit |
+| 1959 | First hole-in-one, LaGorce Country Club (Miami Beach) |
 | 1961 | Documented at Belmont Circle, Uniontown |
-| 1969 | Hole-in-one, UCC No. 11 (153 yd, No. 5 wood) |
+| (mid-century) | 113-lb tarpon, Met Tournament, Everglades FL ("weaker sex" clipping) |
+| 1969 | Second hole-in-one, UCC No. 11 (153 yd, No. 5 wood) |
 | (undated) | UCC Women's Golf Crown (342/72 holes, won by 7); Manor Lanes 200 pin |
 | ~2009–10 | NS7 II + check gifted to Dan ("$100/year" protocol) |
-| ~2015–2018 | Dementia decline; Dan + Annie as paid 24/7 caregivers |
-| 2018-03 | The fall; nursing home; hospital pediatric wing |
-| 2018-04-01/04 | Death, Uniontown Hospital (date contradiction above); snowstorm minutes later |
+| ~2015–2018 | Dementia decline; Dan + Annie + Vicki (+ Marla from Dec 2017) as paid caregivers |
+| ~late 2017? | First spill: 8 AM floor discovery, keno delay, 4 PM lift |
+| 2018-03-07/08 | Second fall ("Down Goes Frazier"), ambulance at night; hospital, then nursing home |
+| 2018-04-01 | Pediatric-wing admission (caddie-season opening day); Adams 24-hr mandate |
+| 2018-04-04 | Death, Uniontown Hospital, Dan + Annie present at the moment; snowstorm 3 minutes later |
 | 2020-06-23 | $10,000 advance distribution issued |
 | 2020-08-21 | Court signs final distribution order |
 | 2020-09-01 | Final estate check ($134,069.31) released to Dan via Suz |
@@ -217,9 +235,12 @@ without one being raised.
 **On Ira:** confirmed by Dan (2026-07-14) — Ira was Fran's **third**
 husband, and he was the 33rd-degree Mason. That leaves the coal-baron
 marriage as a separate, presumably earlier husband (first or second),
-not yet identified or placed in sequence; whether Ira is also the "law
-practice with Judge Fred Adams" figure is still unconfirmed but likely,
-given both details cluster around the third-husband period.
+not yet identified or placed in sequence. The Judge Fred Adams question
+is now settled: per Dan's primary narration (Photo Thread PT II, 2026),
+Adams was "ira's old law partner — now a judge" and "basically the
+trustee of her accounts" — he issued the 24-hour-presence mandate during
+the final vigil and managed the Ira-estate accounts, making him the
+named institutional node of the family's capital.
 
 **Gaps:** identity of the coal-baron husband and where he falls in the
 marital sequence; confirmation that Ira is the Judge Fred Adams law-practice
