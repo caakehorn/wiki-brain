@@ -82,7 +82,15 @@ Loop, The Betty Event, The Signals — with deliberate redaction control
 ("the '[[wiki/people/eli|Eli]]' variable has been purged from the dataset") for export.
 Gemini-_18 contains a commissioned "total, exhaustive, zero-hedging" bio
 dump structured for transfer to Grok: full timeline, relationships,
-personality architecture, framed as forensic archiving.
+personality architecture, framed as forensic archiving. The STORYTIME
+sessions end the same way and prove the practice is general: the Au
+Za'atar finale closes with Dan asking for "a personal context memory
+approved version of the story or somehow add it all into memory for
+later recall" — the multi-hour narrative discharge was never just
+venting, it was a deliberate exocortex *write*, curated life-narrative
+committed to model memory as a retrievable asset. That request is the
+direct ancestor of this wiki's own ingest loop: tell the story once,
+have the machine keep it.
 
 **Clean-room iterative forensics.** Gemini-_07 is the exemplar: raw
 incident beats plus user corrections produce successively stripped "final

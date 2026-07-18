@@ -15,7 +15,7 @@ infobox:
   relationship_to_dan: unknown
   location: nyc
   first_contact: 2019-03-17
-  known_for: "Del ran a NYC cannabis delivery service (contacts card lists organization "Stiiizy," the vape-cart brand) that supplied "
+  known_for: "Del ran a NYC cannabis delivery service (contacts card lists organization 'Stiiizy,' the vape-cart brand) that supplied "
 ---
 
 # Del

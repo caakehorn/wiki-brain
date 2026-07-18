@@ -14,7 +14,7 @@ infobox:
   name: "Lindsay Carolla"
   relationship_to_dan: unknown
   first_contact: 2016-11-24
-  known_for: "A warm, affectionate small-scale cocaine relationship over Thanksgiving weekend 2016 ("Hi honey," "yes my love"), with a"
+  known_for: "A warm, affectionate small-scale cocaine relationship over Thanksgiving weekend 2016 ('Hi honey,' 'yes my love'), with a"
 ---
 
 # Lindsay Carolla

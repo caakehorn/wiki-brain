@@ -14,7 +14,7 @@ infobox:
   name: "Alexis Armel"
   relationship_to_dan: unknown
   location: nyc
-  known_for: "Role / Relationship: Prior relationship (pre-Annie); referenced as "Lex" / Alexis Armel in life calendar, profile dumps,"
+  known_for: "Role / Relationship: Prior relationship (pre-Annie); referenced as 'Lex' / Alexis Armel in life calendar, profile dumps,"
 connections:
   - page: wiki/mind/synthesis/bond-switch-2015
     type: evidences

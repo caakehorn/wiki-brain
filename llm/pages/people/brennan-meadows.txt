@@ -14,7 +14,7 @@ infobox:
   name: "Brennan Meadows"
   relationship_to_dan: unknown
   first_contact: 2016-02-07
-  known_for: "A brief early-2016 contact (+17243227262, 28 messages, Feb–Apr) whose thread mixes small-scale suboxone sourcing ("Did y"
+  known_for: "A brief early-2016 contact (+17243227262, 28 messages, Feb–Apr) whose thread mixes small-scale suboxone sourcing ('Did y"
 ---
 
 # Brennan Meadows

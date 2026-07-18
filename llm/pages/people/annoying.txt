@@ -14,7 +14,7 @@ infobox:
   name: "Annoying"
   relationship_to_dan: unknown
   first_contact: 2019-06-02
-  known_for: "Saved in Google Contacts under the first name "annoying" — Dan's own label, not a self-identification — this is a cocain"
+  known_for: "Saved in Google Contacts under the first name 'annoying' — Dan's own label, not a self-identification — this is a cocain"
 ---
 
 # "Annoying" (unidentified dealer, 2019)

@@ -10,7 +10,7 @@ tags: [digital-footprint]
 infobox:
   name: "Ryan Lisac"
   relationship_to_dan: unknown
-  known_for: "Childhood/early peer. Core figure in the "Snob Squad" developmental arc."
+  known_for: "Childhood/early peer. Core figure in the 'Snob Squad' developmental arc."
 ---
 
 # Ryan Lisac

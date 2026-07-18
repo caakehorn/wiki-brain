@@ -15,7 +15,7 @@ infobox:
   sex: female
   location: nyc
   first_contact: 2025-09-01
-  known_for: "Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] as "Tom's friend." She became Dan's most "
+  known_for: "Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] as 'Tom's friend.' She became Dan's most "
 connections:
   - page: wiki/people/tom
     type: component-of

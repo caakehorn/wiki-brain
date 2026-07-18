@@ -11,7 +11,7 @@ infobox:
   name: "Ally Lubin"
   relationship_to_dan: unknown
   location: nyc
-  known_for: "Role: Friend from FB/social network, described in operating manual as "Friend, dark humor partner, North Carolina". Shor"
+  known_for: "Role: Friend from FB/social network, described in operating manual as 'Friend, dark humor partner, North Carolina'. Shor"
 ---
 
 # Ally Lubin (Alexandra Lubin)

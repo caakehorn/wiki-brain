@@ -42,9 +42,9 @@ advance: the record's "singular instance of unauthorized infidelity," its
 "total security breach." The affair peaked in the winter 2021–22 Au
 Za'atar cycle and its physical era ended when Valeria returned to Chile —
 but the primary corpus now on disk shows the thread never actually closed:
-**4,884 Instagram messages spanning May 28, 2022 to July 11, 2025**
-(`raw/people/valeria/message_1.json`), with her still sending "Miss u" in
-mid-2025, three years and 5,000 miles after the Shed. Dan's own verdict,
+**4,884 Instagram messages** (`raw/people/valeria/message_1.json`) whose
+last inbound word — three years and 5,000 miles after the Shed — is her
+July 2025 "Miss u." Dan's own verdict,
 verbatim: "would have literally moved to chile for her i swear to god."
 
 ## The affair (winter 2021–22 → mid-2022)
@@ -81,10 +81,32 @@ by association.
 
 ## The long tail (2022–2025)
 
-The IG corpus runs straight through the eras the wiki otherwise treats as
-closed: through the Au Za'atar wind-down, the [[wiki/people/eli|Eli]] discovery, the return to
-Uniontown, and the Annie terminal phase, contact persisted at low frequency
-— nail photos, "miss u," "too pretty stop it. omg im dead" (July 2025).
+> **REVISED [2026-07-18]:** a direct parse of `message_1.json` corrects
+> this section's earlier "continuous low-frequency contact 2022–2025"
+> framing. The Instagram record is actually a **six-week detonation and a
+> coda**: 1,038 messages in the last four days of May 2022, **3,830 in
+> June 2022 alone** (the single loudest month of any side-channel in the
+> corpus), 12 stragglers in July–August 2022 — then **three years of
+> Instagram silence** — then a four-message exchange on July 11, 2025
+> (Dan sends an attachment + "too pretty stop it. omg im dead"; she
+> replies "Hahahahaha" / "Miss u"). The 2023–2024 contact the earlier
+> version attributed to this thread actually ran over **iMessage** at her
+> Chilean number (below). The burst shape matters: the "digital altar"
+> era was compressed into the six weeks immediately after her mid-2022
+> departure for Chile — idealization at maximum right as the distance
+> became intercontinental — not spread across years.
+
+The parse also yields a measured fact that upgrades a standing inference:
+**52% of Dan's 2,082 outgoing Instagram messages fall between 22:00 and
+01:00 New York time** — precisely the window his 9–10pm "night class"
+exit from the Shed opened up. The alibi didn't just cover the affair's
+in-person moments; the message clock shows the freed evenings are when
+the correspondence itself lived.
+
+Across the channels together, contact does thread through the eras the
+wiki otherwise treats as closed — the Au Za'atar wind-down, the
+[[wiki/people/eli|Eli]] discovery, the return to Uniontown, the Annie
+terminal phase — nail photos, "miss u," the 2025 coda above.
 The iMessage dump adds a parallel SMS/iMessage channel at her Chilean
 number (+56...) with three dated anchors: a **September 2, 2023 "Hey I'm
 in ny"** return visit (Dan: "No way / Bienvenido"); a **November 3, 2024
@@ -114,7 +136,16 @@ Valeria thread is Dan's own sustained concealment, held secret by the same
 alibi infrastructure he later condemned in others, and running (as
 correspondence) even while he prosecuted Annie's affairs forensically. The
 record calls it a "True Betrayal" in his own cycle; this page keeps it
-queryable for the same reason the Eli page exists.
+queryable for the same reason the Eli page exists. One more attested fact
+sharpens the asymmetry: asked in the finale session how he
+"re-stabilized" the relationship with Annie after Valeria, Dan's answer
+was flat — "**it never destabilized.**" The one concealed infidelity of
+the decade is also the only major relational event in the corpus with
+zero documented turbulence: no fight, no confession, no detectable
+perturbation in the Annie thread. Compared against the years of forensic
+litigation the *authorized* arrangement produced, the Valeria episode is
+the cleanest control case for what the conflict architecture actually
+runs on — discovered violations, not violations as such.
 
 > **REVISED [2026-07-13]:** The earlier "2021–2022 window" narrowing was
 > wrong about the thread's end: message_1.json documents continuous contact

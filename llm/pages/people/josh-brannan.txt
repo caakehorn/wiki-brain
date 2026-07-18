@@ -10,7 +10,7 @@ tags: [politics]
 infobox:
   name: "Josh Brannan"
   relationship_to_dan: unknown
-  known_for: "Role: Political mirror / contact. Shared "josh brannan is innocent.wav" AI-TTS file as last documented exchange (sacred "
+  known_for: "Role: Political mirror / contact. Shared 'josh brannan is innocent.wav' AI-TTS file as last documented exchange (sacred "
 ---
 
 # Josh Brannan

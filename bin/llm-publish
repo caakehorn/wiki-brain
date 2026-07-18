@@ -80,6 +80,10 @@ def main():
     args = ap.parse_args()
     base = args.base_url.rstrip("/")
 
+    if not WIKI.exists():
+        print(f"Error: wiki directory not found at {WIKI}", file=sys.stderr)
+        return 1
+
     if OUT.exists():
         shutil.rmtree(OUT)
     (OUT / "pages").mkdir(parents=True)
@@ -166,7 +170,7 @@ def main():
     ]
     cur_domain = None
     for m in manifest:
-        domain = m["page"].split("/")[1] if len(m["page"].split("/")) > 1 else ""
+        domain = m["page"].split("/")[1] if len(m["page"].split("/")) > 2 else ""
         if domain != cur_domain:
             cur_domain = domain
             lines.append("")

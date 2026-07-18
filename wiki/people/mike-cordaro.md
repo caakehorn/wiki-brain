@@ -14,7 +14,7 @@ infobox:
   name: "Mike Cordaro"
   relationship_to_dan: unknown
   first_contact: 2024-07-28
-  known_for: "Mike Cordaro is a childhood-era friend — the two attended the "Rolling Rock Town Fair" together as kids, a concert serie"
+  known_for: "Mike Cordaro is a childhood-era friend — the two attended the 'Rolling Rock Town Fair' together as kids, a concert serie"
 ---
 
 # Mike Cordaro

@@ -156,7 +156,7 @@ tear-down of August 2024 erased the "Outside Guy" territory and Dan
 exited with his cash tips and no notice — the mechanics and the
 forensic post-mortem (Sergio, the Tunisian tip-siphon episode, the
 "universe rewards the sonofabitch" verdict) are on
-[[wiki/work/au-zaatar]] and [[wiki/self/chats/gemini-00]]. The 2024
+[[wiki/work/au-zaatar]], which has absorbed both STORYTIME volumes. The 2024
 wind-down feeds directly into the [[wiki/timeline/periods/2025-collapse|2025 collapse]].
 
 **Gaps:** what, if anything, filled the intake-obsession slot these

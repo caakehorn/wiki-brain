@@ -9,7 +9,7 @@ related: ["wiki/self/message-corpora/master-message-dump"]
 infobox:
   name: "Shannon"
   relationship_to_dan: unknown
-  known_for: "Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct name intro, call"
+  known_for: "Contact +17245575578. 'Hey Daniel it’s Shannon give me a call when you get a c...'. 23 messages. Direct name intro, call"
 ---
 
 # Shannon

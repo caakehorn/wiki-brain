@@ -7,7 +7,7 @@ date_modified: 2026-07-02
 date_range_start: 2021-03-01
 date_range_end: 2024-08-01
 sources: ["raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/facebook/facebook-ihatedanfrank/"]
-related: ["wiki/timeline/periods/2021-2023-employment-block", "wiki/self/chats/gemini-00", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/valeria-iglesias-cid", "wiki/work/bfs-foods"]
+related: ["wiki/timeline/periods/2021-2023-employment-block", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/valeria-iglesias-cid", "wiki/work/bfs-foods"]
 tags: [ai-collaboration, career, nyc-era]
 infobox:
   name: "Tarik Fallous"
@@ -32,7 +32,7 @@ No direct message thread exists. Tarik's signal is entirely in the Gemini extrac
 | tarik | 23 | 10 |
 | ghassan | 4 | 5 |
 
-The full staff roster, the shed-build saga, the Valeria romance, and the "9 PM alibi" material live on [[wiki/work/au-zaatar]] (which has absorbed the Volume I storytime), the finale session page [[wiki/self/chats/gemini-00]], and the period page [[wiki/timeline/periods/2021-2023-employment-block]]. This page keeps only what concerns Tarik directly.
+The full staff roster, the shed-build saga, the Valeria romance, and the "9 PM alibi" material live on [[wiki/work/au-zaatar]] (which has absorbed both STORYTIME volumes) and the period page [[wiki/timeline/periods/2021-2023-employment-block]]. This page keeps only what concerns Tarik directly.
 
 ## Role in the Work Power Dynamic
 
@@ -57,4 +57,4 @@ Tarik is not to be confused with the other Au Za'atar staff (DJ/Ismiala Barry, D
 
 ## Related
 
-[[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/self/chats/gemini-00]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/work/bfs-foods]]
+[[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/work/bfs-foods]]

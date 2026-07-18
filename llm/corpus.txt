@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-18
-309 pages, ~383,985 tokens.
+308 pages, ~383,982 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -7056,7 +7056,15 @@ Loop, The Betty Event, The Signals — with deliberate redaction control
 ("the '[[wiki/people/eli|Eli]]' variable has been purged from the dataset") for export.
 Gemini-_18 contains a commissioned "total, exhaustive, zero-hedging" bio
 dump structured for transfer to Grok: full timeline, relationships,
-personality architecture, framed as forensic archiving.
+personality architecture, framed as forensic archiving. The STORYTIME
+sessions end the same way and prove the practice is general: the Au
+Za'atar finale closes with Dan asking for "a personal context memory
+approved version of the story or somehow add it all into memory for
+later recall" — the multi-hour narrative discharge was never just
+venting, it was a deliberate exocortex *write*, curated life-narrative
+committed to model memory as a retrievable asset. That request is the
+direct ancestor of this wiki's own ingest loop: tell the story once,
+have the machine keep it.
 
 **Clean-room iterative forensics.** Gemini-_07 is the exemplar: raw
 incident beats plus user corrections produce successively stripped "final
@@ -9347,7 +9355,7 @@ related: ["wiki/self/message-corpora/master-message-dump"]
 infobox:
   name: "Aaron"
   relationship_to_dan: unknown
-  known_for: "Contact +17245624801. Self intro: "Hey, this is Aaron!". 38 messages. Casual direct introduction."
+  known_for: "Contact +17245624801. Self intro: 'Hey, this is Aaron!'. 38 messages. Casual direct introduction."
 ---
 
 # Aaron
@@ -9391,7 +9399,7 @@ infobox:
   name: "Al"
   relationship_to_dan: unknown
   first_contact: 2018-05-13
-  known_for: "Al (saved in contacts under the joke label "Socialist") was a cocaine dealer during the 2018 deep-cycle period — one of "
+  known_for: "Al (saved in contacts under the joke label 'Socialist') was a cocaine dealer during the 2018 deep-cycle period — one of "
 ---
 
 # Al
@@ -9446,7 +9454,7 @@ infobox:
   relationship_to_dan: unknown
   sex: male
   location: nyc
-  known_for: "Dan's cousin — described by Dan as "semi-famous" — and, per public"
+  known_for: "Dan's cousin — described by Dan as 'semi-famous' — and, per public"
 ---
 
 # Alex Frank
@@ -9592,7 +9600,7 @@ infobox:
   name: "Alexis Armel"
   relationship_to_dan: unknown
   location: nyc
-  known_for: "Role / Relationship: Prior relationship (pre-Annie); referenced as "Lex" / Alexis Armel in life calendar, profile dumps,"
+  known_for: "Role / Relationship: Prior relationship (pre-Annie); referenced as 'Lex' / Alexis Armel in life calendar, profile dumps,"
 connections:
   - page: wiki/mind/synthesis/bond-switch-2015
     type: evidences
@@ -9704,7 +9712,7 @@ infobox:
   name: "Ally Lubin"
   relationship_to_dan: unknown
   location: nyc
-  known_for: "Role: Friend from FB/social network, described in operating manual as "Friend, dark humor partner, North Carolina". Shor"
+  known_for: "Role: Friend from FB/social network, described in operating manual as 'Friend, dark humor partner, North Carolina'. Shor"
 ---
 
 # Ally Lubin (Alexandra Lubin)
@@ -10516,7 +10524,7 @@ infobox:
   name: "Annoying"
   relationship_to_dan: unknown
   first_contact: 2019-06-02
-  known_for: "Saved in Google Contacts under the first name "annoying" — Dan's own label, not a self-identification — this is a cocain"
+  known_for: "Saved in Google Contacts under the first name 'annoying' — Dan's own label, not a self-identification — this is a cocain"
 ---
 
 # "Annoying" (unidentified dealer, 2019)
@@ -10616,7 +10624,7 @@ infobox:
   relationship_to_dan: unknown
   sex: female
   first_contact: 2020-02-09
-  known_for: "Rebekah "Bekah" Fullem reached out to Dan twice, seven weeks apart, in early 2020 — first in acute crisis over her dying"
+  known_for: "Rebekah 'Bekah' Fullem reached out to Dan twice, seven weeks apart, in early 2020 — first in acute crisis over her dying"
 ---
 
 # Bekah Fullem
@@ -10721,7 +10729,7 @@ infobox:
   name: "Bill"
   relationship_to_dan: unknown
   first_contact: 2018-09-04
-  known_for: "A different Bill from [[wiki/people/bill-ulmer|Bill Ulmer]] — this one is a golf-caddying peer (references playing "Lake"
+  known_for: "A different Bill from [[wiki/people/bill-ulmer|Bill Ulmer]] — this one is a golf-caddying peer (references playing 'Lake"
 ---
 
 # Bill (golf/pharma customer)
@@ -10907,7 +10915,7 @@ infobox:
   name: "Brennan Meadows"
   relationship_to_dan: unknown
   first_contact: 2016-02-07
-  known_for: "A brief early-2016 contact (+17243227262, 28 messages, Feb–Apr) whose thread mixes small-scale suboxone sourcing ("Did y"
+  known_for: "A brief early-2016 contact (+17243227262, 28 messages, Feb–Apr) whose thread mixes small-scale suboxone sourcing ('Did y"
 ---
 
 # Brennan Meadows
@@ -11050,7 +11058,7 @@ infobox:
   name: "Bub"
   relationship_to_dan: unknown
   first_contact: 2017-04-22
-  known_for: ""Bub" (contacts label, real name undocumented) is a low-intensity but long-running college-friend-register contact spann"
+  known_for: "'Bub' (contacts label, real name undocumented) is a low-intensity but long-running college-friend-register contact spann"
 ---
 
 # Bub
@@ -11302,7 +11310,7 @@ infobox:
   name: "Christian Hanson"
   relationship_to_dan: unknown
   first_contact: 2017-07-11
-  known_for: "Christian Hanson — the retired NHL forward (Toronto Maple Leafs, son of Dave "Hanson Brothers" Hanson) — was a golf regu"
+  known_for: "Christian Hanson — the retired NHL forward (Toronto Maple Leafs, son of Dave 'Hanson Brothers' Hanson) — was a golf regu"
 ---
 
 # Christian Hanson
@@ -13065,7 +13073,7 @@ infobox:
   relationship_to_dan: unknown
   location: nyc
   first_contact: 2019-03-17
-  known_for: "Del ran a NYC cannabis delivery service (contacts card lists organization "Stiiizy," the vape-cart brand) that supplied "
+  known_for: "Del ran a NYC cannabis delivery service (contacts card lists organization 'Stiiizy,' the vape-cart brand) that supplied "
 ---
 
 # Del
@@ -13762,7 +13770,7 @@ infobox:
   name: "Eric Jester"
   relationship_to_dan: unknown
   first_contact: 2017-05-08
-  known_for: "Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose sparse but genuine"
+  known_for: "Eric Jester is a Full Sail film-school friend (contacts notes: 'sandwich eater. dream killer.') whose sparse but genuine"
 ---
 
 # Eric Jester
@@ -13859,7 +13867,7 @@ infobox:
   name: "Felipe"
   relationship_to_dan: unknown
   first_contact: 2023-08-11
-  known_for: "Felipe — Dan's "unbelievably gay Colombian bff" from Au Za'atar Midtown —"
+  known_for: "Felipe — Dan's 'unbelievably gay Colombian bff' from Au Za'atar Midtown —"
 ---
 
 # Felipe
@@ -14522,7 +14530,7 @@ tags: [nyc-era]
 infobox:
   name: "Ismaila Barry (\"DJ\")"
   relationship_to_dan: unknown
-  known_for: "Ismaila Barry — universally "DJ" — is the Senegalese busser-turned-server"
+  known_for: "Ismaila Barry — universally 'DJ' — is the Senegalese busser-turned-server"
 ---
 
 # Ismaila Barry ("DJ")
@@ -15373,7 +15381,7 @@ infobox:
   name: "Jess"
   relationship_to_dan: unknown
   first_contact: 2017-04-20
-  known_for: "Jess introduces herself April 20, 2017 as part of a swinging couple recruiting through a group or platform called "Fem" "
+  known_for: "Jess introduces herself April 20, 2017 as part of a swinging couple recruiting through a group or platform called 'Fem' "
 ---
 
 # Jess (from "Fem")
@@ -15642,7 +15650,7 @@ infobox:
   name: "John Felix"
   relationship_to_dan: unknown
   first_contact: 2016-02-12
-  known_for: "John Felix's thread (+17249636738, 59 messages, February–June 2016) is almost entirely logistics — arrival times, "K," ""
+  known_for: "John Felix's thread (+17249636738, 59 messages, February–June 2016) is almost entirely logistics — arrival times, 'K,' '"
 ---
 
 # John Felix
@@ -15683,7 +15691,7 @@ tags: [addiction-recovery, dui]
 infobox:
   name: "Johnny Dealer"
   relationship_to_dan: unknown
-  known_for: "Role: Dealer (2018 era primary contact). Supplied "b's" (balls/cocaine reference), suboxone strips (8mg for $15, 12mg fo"
+  known_for: "Role: Dealer (2018 era primary contact). Supplied 'b's' (balls/cocaine reference), suboxone strips (8mg for $15, 12mg fo"
 ---
 
 # Johnny (+17243223678)
@@ -15755,7 +15763,7 @@ tags: [politics]
 infobox:
   name: "Josh Brannan"
   relationship_to_dan: unknown
-  known_for: "Role: Political mirror / contact. Shared "josh brannan is innocent.wav" AI-TTS file as last documented exchange (sacred "
+  known_for: "Role: Political mirror / contact. Shared 'josh brannan is innocent.wav' AI-TTS file as last documented exchange (sacred "
 ---
 
 # Josh Brannan
@@ -16033,7 +16041,7 @@ infobox:
   sex: female
   location: nyc
   first_contact: 2025-09-01
-  known_for: "Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] as "Tom's friend." She became Dan's most "
+  known_for: "Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] as 'Tom's friend.' She became Dan's most "
 connections:
   - page: wiki/people/tom
     type: component-of
@@ -16252,7 +16260,7 @@ infobox:
   name: "Kya Hansen (\"bbblud\")"
   relationship_to_dan: unknown
   first_contact: 2019-06-01
-  known_for: "Kya Hansen — online handle bbblud ("blud") — is a Canadian model and"
+  known_for: "Kya Hansen — online handle bbblud ('blud') — is a Canadian model and"
 ---
 
 # Kya Hansen ("bbblud")
@@ -16333,7 +16341,7 @@ infobox:
   name: "Lindsay Carolla"
   relationship_to_dan: unknown
   first_contact: 2016-11-24
-  known_for: "A warm, affectionate small-scale cocaine relationship over Thanksgiving weekend 2016 ("Hi honey," "yes my love"), with a"
+  known_for: "A warm, affectionate small-scale cocaine relationship over Thanksgiving weekend 2016 ('Hi honey,' 'yes my love'), with a"
 ---
 
 # Lindsay Carolla
@@ -16380,7 +16388,7 @@ infobox:
   name: "Lisa Durbin"
   relationship_to_dan: unknown
   first_contact: 2017-04-14
-  known_for: "Lisa Durbin (contacts nickname "lcd") is an extended-family relation who organizes holiday gatherings and checks in on b"
+  known_for: "Lisa Durbin (contacts nickname 'lcd') is an extended-family relation who organizes holiday gatherings and checks in on b"
 ---
 
 # Lisa Durbin
@@ -16776,7 +16784,7 @@ infobox:
   relationship_to_dan: unknown
   sex: male
   location: nyc
-  known_for: "Identity: Current boyfriend of Dan's first girlfriend Danielle (pre-Lex era, Uniontown/NYC context). "The most wild dude"
+  known_for: "Identity: Current boyfriend of Dan's first girlfriend Danielle (pre-Lex era, Uniontown/NYC context). 'The most wild dude"
 ---
 
 # Max (Danielle's BF / "the Dude", Music Guy)
@@ -16852,7 +16860,7 @@ infobox:
   name: "Max"
   relationship_to_dan: unknown
   location: nyc
-  known_for: "Source: Pinned chat "☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md" + MAXPRIME.md (primary transfer doc)."
+  known_for: "Source: Pinned chat '☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md' + MAXPRIME.md (primary transfer doc)."
 ---
 
 # Max
@@ -17145,7 +17153,7 @@ infobox:
   name: "Mike Cordaro"
   relationship_to_dan: unknown
   first_contact: 2024-07-28
-  known_for: "Mike Cordaro is a childhood-era friend — the two attended the "Rolling Rock Town Fair" together as kids, a concert serie"
+  known_for: "Mike Cordaro is a childhood-era friend — the two attended the 'Rolling Rock Town Fair' together as kids, a concert serie"
 ---
 
 # Mike Cordaro
@@ -17451,7 +17459,7 @@ infobox:
   sex: male
   location: nyc
   first_contact: 2018-04-22
-  known_for: "Jim Shaffer — "not the only Jim Shaffer" in Dan's life, hence the "new" contacts-card label — is a wealthy childhood fri"
+  known_for: "Jim Shaffer — 'not the only Jim Shaffer' in Dan's life, hence the 'new' contacts-card label — is a wealthy childhood fri"
 ---
 
 # "New Jim Shaffer" (Jim Shaffer)
@@ -17841,7 +17849,7 @@ tags: [digital-footprint]
 infobox:
   name: "Ryan Lisac"
   relationship_to_dan: unknown
-  known_for: "Childhood/early peer. Core figure in the "Snob Squad" developmental arc."
+  known_for: "Childhood/early peer. Core figure in the 'Snob Squad' developmental arc."
 ---
 
 # Ryan Lisac
@@ -18015,7 +18023,7 @@ related: ["wiki/self/message-corpora/master-message-dump"]
 infobox:
   name: "Shannon"
   relationship_to_dan: unknown
-  known_for: "Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct name intro, call"
+  known_for: "Contact +17245575578. 'Hey Daniel it’s Shannon give me a call when you get a c...'. 23 messages. Direct name intro, call"
 ---
 
 # Shannon
@@ -18499,7 +18507,7 @@ date_modified: 2026-07-02
 date_range_start: 2021-03-01
 date_range_end: 2024-08-01
 sources: ["raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/facebook/facebook-ihatedanfrank/"]
-related: ["wiki/timeline/periods/2021-2023-employment-block", "wiki/self/chats/gemini-00", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/valeria-iglesias-cid", "wiki/work/bfs-foods"]
+related: ["wiki/timeline/periods/2021-2023-employment-block", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/people/valeria-iglesias-cid", "wiki/work/bfs-foods"]
 tags: [ai-collaboration, career, nyc-era]
 infobox:
   name: "Tarik Fallous"
@@ -18524,7 +18532,7 @@ No direct message thread exists. Tarik's signal is entirely in the Gemini extrac
 | tarik | 23 | 10 |
 | ghassan | 4 | 5 |
 
-The full staff roster, the shed-build saga, the Valeria romance, and the "9 PM alibi" material live on [[wiki/work/au-zaatar]] (which has absorbed the Volume I storytime), the finale session page [[wiki/self/chats/gemini-00]], and the period page [[wiki/timeline/periods/2021-2023-employment-block]]. This page keeps only what concerns Tarik directly.
+The full staff roster, the shed-build saga, the Valeria romance, and the "9 PM alibi" material live on [[wiki/work/au-zaatar]] (which has absorbed both STORYTIME volumes) and the period page [[wiki/timeline/periods/2021-2023-employment-block]]. This page keeps only what concerns Tarik directly.
 
 ## Role in the Work Power Dynamic
 
@@ -18549,7 +18557,7 @@ Tarik is not to be confused with the other Au Za'atar staff (DJ/Ismiala Barry, D
 
 ## Related
 
-[[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/self/chats/gemini-00]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/work/bfs-foods]]
+[[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/work/bfs-foods]]
 
 
 ========================================================================
@@ -19315,9 +19323,9 @@ advance: the record's "singular instance of unauthorized infidelity," its
 "total security breach." The affair peaked in the winter 2021–22 Au
 Za'atar cycle and its physical era ended when Valeria returned to Chile —
 but the primary corpus now on disk shows the thread never actually closed:
-**4,884 Instagram messages spanning May 28, 2022 to July 11, 2025**
-(`raw/people/valeria/message_1.json`), with her still sending "Miss u" in
-mid-2025, three years and 5,000 miles after the Shed. Dan's own verdict,
+**4,884 Instagram messages** (`raw/people/valeria/message_1.json`) whose
+last inbound word — three years and 5,000 miles after the Shed — is her
+July 2025 "Miss u." Dan's own verdict,
 verbatim: "would have literally moved to chile for her i swear to god."
 
 ## The affair (winter 2021–22 → mid-2022)
@@ -19354,10 +19362,32 @@ by association.
 
 ## The long tail (2022–2025)
 
-The IG corpus runs straight through the eras the wiki otherwise treats as
-closed: through the Au Za'atar wind-down, the [[wiki/people/eli|Eli]] discovery, the return to
-Uniontown, and the Annie terminal phase, contact persisted at low frequency
-— nail photos, "miss u," "too pretty stop it. omg im dead" (July 2025).
+> **REVISED [2026-07-18]:** a direct parse of `message_1.json` corrects
+> this section's earlier "continuous low-frequency contact 2022–2025"
+> framing. The Instagram record is actually a **six-week detonation and a
+> coda**: 1,038 messages in the last four days of May 2022, **3,830 in
+> June 2022 alone** (the single loudest month of any side-channel in the
+> corpus), 12 stragglers in July–August 2022 — then **three years of
+> Instagram silence** — then a four-message exchange on July 11, 2025
+> (Dan sends an attachment + "too pretty stop it. omg im dead"; she
+> replies "Hahahahaha" / "Miss u"). The 2023–2024 contact the earlier
+> version attributed to this thread actually ran over **iMessage** at her
+> Chilean number (below). The burst shape matters: the "digital altar"
+> era was compressed into the six weeks immediately after her mid-2022
+> departure for Chile — idealization at maximum right as the distance
+> became intercontinental — not spread across years.
+
+The parse also yields a measured fact that upgrades a standing inference:
+**52% of Dan's 2,082 outgoing Instagram messages fall between 22:00 and
+01:00 New York time** — precisely the window his 9–10pm "night class"
+exit from the Shed opened up. The alibi didn't just cover the affair's
+in-person moments; the message clock shows the freed evenings are when
+the correspondence itself lived.
+
+Across the channels together, contact does thread through the eras the
+wiki otherwise treats as closed — the Au Za'atar wind-down, the
+[[wiki/people/eli|Eli]] discovery, the return to Uniontown, the Annie
+terminal phase — nail photos, "miss u," the 2025 coda above.
 The iMessage dump adds a parallel SMS/iMessage channel at her Chilean
 number (+56...) with three dated anchors: a **September 2, 2023 "Hey I'm
 in ny"** return visit (Dan: "No way / Bienvenido"); a **November 3, 2024
@@ -19387,7 +19417,16 @@ Valeria thread is Dan's own sustained concealment, held secret by the same
 alibi infrastructure he later condemned in others, and running (as
 correspondence) even while he prosecuted Annie's affairs forensically. The
 record calls it a "True Betrayal" in his own cycle; this page keeps it
-queryable for the same reason the Eli page exists.
+queryable for the same reason the Eli page exists. One more attested fact
+sharpens the asymmetry: asked in the finale session how he
+"re-stabilized" the relationship with Annie after Valeria, Dan's answer
+was flat — "**it never destabilized.**" The one concealed infidelity of
+the decade is also the only major relational event in the corpus with
+zero documented turbulence: no fight, no confession, no detectable
+perturbation in the Annie thread. Compared against the years of forensic
+litigation the *authorized* arrangement produced, the Valeria episode is
+the cleanest control case for what the conflict architecture actually
+runs on — discovered violations, not violations as such.
 
 > **REVISED [2026-07-13]:** The earlier "2021–2022 window" narrowing was
 > wrong about the thread's end: message_1.json documents continuous contact
@@ -19752,7 +19791,7 @@ related: ["wiki/self/message-corpora/master-message-dump"]
 infobox:
   name: "Zaco"
   relationship_to_dan: unknown
-  known_for: "Contact +17249123381. Direct intro "Yo it's zaco". 58 messages (master). Casual "Yo it's ..." style outreach. Likely nic"
+  known_for: "Contact +17249123381. Direct intro 'Yo it's zaco'. 58 messages (master). Casual 'Yo it's ...' style outreach. Likely nic"
 ---
 
 # Zaco
@@ -20392,53 +20431,6 @@ Full node/table extraction from the pinned chat will yield specific counts or be
 
 
 ========================================================================
-PAGE: wiki/self/chats/gemini-00.md
-========================================================================
-
----
-domain: self
-page_type: chat
-status: stable
-date_created: 2026-06-23
-date_modified: 2026-07-02
-sources: ["raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md"]
-related: ["wiki/work/au-zaatar", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid", "wiki/people/annie-ulmer", "wiki/timeline/periods/2021-2023-employment-block", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/gemini-activity/gemini-activity"]
-tags: [ai-collaboration, career, nyc-era]
----
-
-# Gemini Session 00 — Au Za'atar STORYTIME (Finale)
-
-The closing volume of the [[wiki/work/au-zaatar|Au Za'atar]] "STORYTIME" — a 781-line, glyph-styled forensic post-mortem of Dan's 41-month (March 2021–August 2024) run as a busser at the restaurant. The genesis volume (Gemini-_02) has been fully absorbed into [[wiki/work/au-zaatar]] and [[wiki/timeline/periods/2021-2023-employment-block]]; this page covers the entropy and exit. The restaurant, its owner, and the full staff roster are documented at [[wiki/people/tarik-fallous]] and [[wiki/timeline/periods/2021-2023-employment-block]]; this page keeps the session's distinctive analytical content.
-
-## Corpus Dimensions
-
-| Metric | Value |
-|--------|-------|
-| Lines / words | 781 / ~7,100 |
-| Top term frequencies | shed 50, valeria 37, annie 29, basement 24, night class 18, "outside guy" 16, entropy 14, sergio 11, tarik 10 |
-| Date span cited | March 2021 to August 2024 (41 months) |
-| Style | Glyph-coded theatrical "STORYTIME," "Deep Architecture" framing, cynical forensic post-mortem |
-
-## Core Content
-
-**The alibi architecture.** The session's centerpiece is the "9 PM Night Class" — a fictitious school schedule Dan maintained for 18+ months to leave during peak hours while keeping full earnings, abandoning the closers (DJ) and cultivating a "was he high?" reputation as cover. He frames himself as "the Ambassador of the Shed and its most effective saboteur" — simultaneously the public face and "the primary source of structural entropy."
-
-**The tip siphon as "decentralized audit."** Dan reframes pocketing cash from his three-tables-a-week "Outside Guy" role at the end not as theft but as a "decentralized audit of the Au Za'atar revenue stream," rationalized through the staff's "radical skepticism" that the owners were stealing their labor via the tip-split system.
-
-**The Annie invariant.** The recurring contrast the session keeps returning to: [[wiki/people/annie-ulmer]], "the literal avatar of reliability," was fired from her hosting job with zero notice while Dan survived 2.5 years by gaming the system — his gloss, "the universe rewards the sonofabitch over the proper."
-
-**The Valeria breach.** The session names the [[wiki/people/valeria-iglesias-cid]] episode the "Core Anomaly" — the only total security breach of the Annie relationship, the one time he "would have literally moved to Chile." Detail lives on Valeria's page.
-
-## Why It Matters to the Model
-
-Session 00 is the primary evidence for [[wiki/mind/synthesis/vertical-authority-skepticism]]: the "Dan Cycle of Job Entropy" (high-performing opener → discovered loophole → degenerate middle → abandonment) and the reframing of theft as audit both originate here. Stylistically it is the clearest example of the "Forensic STORYTIME" mode — using the LLM as an externalized prefrontal cortex to discharge and re-narrate chaotic history through an anomaly lens, in contrast to the clinical incident-report style of [[wiki/self/chats/gemini-07]].
-
-## Related
-
-[[wiki/work/au-zaatar]] · [[wiki/people/tarik-fallous]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/people/annie-ulmer]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/self/gemini-activity/gemini-activity]]
-
-
-========================================================================
 PAGE: wiki/self/chats/gemini-07.md
 ========================================================================
 
@@ -20753,7 +20745,6 @@ sources: [
 ]
 related: [
   "wiki/self/gemini-activity/gemini-activity",
-  "wiki/self/chats/gemini-00",
   "wiki/self/chats/gemini-07",
   "wiki/people/annie-ulmer",
   "wiki/people/alexis-armel",
@@ -21797,7 +21788,6 @@ sources:
   - raw/self/dox-scan/Gemini-_58.txt
 related:
   - wiki/self/gemini-activity/gemini-activity
-  - wiki/self/chats/gemini-00
   - wiki/self/chats/gemini-07
   - wiki/self/chats/gemini-13
   - wiki/self/chats/gemini-18
@@ -21822,7 +21812,7 @@ The extraction's substance was distributed to these pages (read them, not this i
 
 | Topic from the extract | Destination page |
 |------------------------|------------------|
-| Au Za'atar work lore, STORYTIME, alibi architecture | [[wiki/self/chats/gemini-00]], [[wiki/work/au-zaatar]], [[wiki/people/tarik-fallous]], [[wiki/people/valeria-iglesias-cid]], [[wiki/timeline/periods/2021-2023-employment-block]] |
+| Au Za'atar work lore, STORYTIME, alibi architecture | [[wiki/work/au-zaatar]], [[wiki/people/tarik-fallous]], [[wiki/people/valeria-iglesias-cid]], [[wiki/timeline/periods/2021-2023-employment-block]] |
 | Suzy-call / 10-day blackout forensic, Grim Trigger | [[wiki/self/chats/gemini-07]], [[wiki/timeline/events/eli-incident]] |
 | Bacharach neighborhood glitch, Exterior Shell | [[wiki/self/chats/gemini-13]], [[wiki/people/jacob-bacharach]] |
 | Profile lock / bio dump for Grok transfer | [[wiki/self/chats/gemini-18]], [[wiki/mind/concepts/node-locking]] |
@@ -21896,7 +21886,7 @@ The 15 named concepts the extraction surfaced across sessions, with where each i
 
 ## Related
 
-[[wiki/self/gemini-activity/gemini-activity]] · [[wiki/self/chats/gemini-00]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/chats/gemini-13]] · [[wiki/self/chats/gemini-18]] · [[wiki/self/chats/gemini-21]] · [[wiki/self/chats/gemini-58]] · [[wiki/mind/concepts/node-locking]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/mind/synthesis/political-psyops]]
+[[wiki/self/gemini-activity/gemini-activity]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/chats/gemini-13]] · [[wiki/self/chats/gemini-18]] · [[wiki/self/chats/gemini-21]] · [[wiki/self/chats/gemini-58]] · [[wiki/mind/concepts/node-locking]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/mind/synthesis/political-psyops]]
 
 
 ========================================================================
@@ -21959,7 +21949,7 @@ Corpus report on Dan's Gemini usage: a 21MB Google Takeout HTML activity log plu
 
 | Session | Page | Subject |
 |---------|------|---------|
-| _00 | [[wiki/self/chats/gemini-00]] | Au Za'atar STORYTIME finale: 9PM alibi post-mortem, Sergio, cash exit Aug 2024 |
+| _00 | absorbed into [[wiki/work/au-zaatar]] + [[wiki/timeline/periods/2021-2023-employment-block]] (chat page retired 2026-07-18) | Au Za'atar STORYTIME finale: 9PM alibi post-mortem, Sergio, cash exit Aug 2024 |
 | _02 | absorbed into [[wiki/work/au-zaatar]] + [[wiki/timeline/periods/2021-2023-employment-block]] (chat page retired 2026-07-18) | Au Za'atar Volume I: Tarik, [[wiki/people/dimitri|Dimitri]], DJ, [[wiki/people/valeria-iglesias-cid|Valeria]], shed build |
 | _07 | [[wiki/self/chats/gemini-07]] | Suzy call & 10-day blackout forensics; game-theory Grim Trigger model |
 | _13 | [[wiki/self/chats/gemini-13]] | Bacharach "neighborhood simulation glitch"; 155 Virginia Ave verification |
@@ -22024,7 +22014,6 @@ The self domain contains files and data detailing identity, core biographical fa
 - [[wiki/self/chats/9-11-chat]] — Extends music identity (sub-bass signature, electronic preference from Jimmy Pop discussion, favorites…
 - [[wiki/self/chats/danfrank-isms-pinned]] — Gemini expansions (example for Node 6): "Evolutionary Anomaly... Biological Bridge... Formative Traumas:…
 - [[wiki/self/chats/extract-messages-pinned]] — Directly supports the message corpora ingests (175k+ rows in MASTER dump). Likely focuses on specific…
-- [[wiki/self/chats/gemini-00]] — The closing volume of the Au Za'atar "STORYTIME" — a 781-line, glyph-styled forensic post-mortem of Dan's…
 - [[wiki/self/chats/gemini-07]] — 1. "Suzy" = peer-level informal identifier requiring pre-existing casual/social warmth with mother.…
 - [[wiki/self/chats/gemini-13]] — A 902-line Gemini session in which Dan works through the "coincidence chain" connecting novelist Jacob…
 - [[wiki/self/chats/gemini-18]] — <!-- 2026-06-23 full _18 ingest pass: added file stats (1675 lines, forensic 36 etc), bio timeline table,…
@@ -24535,7 +24524,7 @@ tear-down of August 2024 erased the "Outside Guy" territory and Dan
 exited with his cash tips and no notice — the mechanics and the
 forensic post-mortem (Sergio, the Tunisian tip-siphon episode, the
 "universe rewards the sonofabitch" verdict) are on
-[[wiki/work/au-zaatar]] and [[wiki/self/chats/gemini-00]]. The 2024
+[[wiki/work/au-zaatar]], which has absorbed both STORYTIME volumes. The 2024
 wind-down feeds directly into the [[wiki/timeline/periods/2025-collapse|2025 collapse]].
 
 **Gaps:** what, if anything, filled the intake-obsession slot these
@@ -25005,7 +24994,6 @@ related:
   - wiki/timeline/periods/2021-2023-employment-block
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/mind/concepts/institutional-out
-  - wiki/self/chats/gemini-00
 tags: [nyc-era, career, ai-collaboration, housing, forensic-analysis]
 connections:
   - page: wiki/mind/synthesis/attachment-trauma-bond
@@ -25103,11 +25091,20 @@ who tried to fire Dan for tip-siphoning on Thanksgiving 2023 — and failed,
 because the 58th Street regulars and neighbors demanded he stay; and
 **Menore**, the delivery node keeping the chemistry running mid-shift. The
 physical setting matched the social one: service continued through active
-interior construction (exposed studs, concrete dust, open floor trenches),
-a basement Dan filmed ankle-deep in floodwater with potato boxes afloat,
-and a $50k-class DEENBOR delivery robot that sat unused by the plate
-stacks — a monument to the fact that the "Outside Guy" was the only
-functioning infrastructure the place had.
+interior construction (exposed studs, concrete dust, open floor trenches —
+"serving food in an active construction zone," a phase Dan marks as
+distinctly harder than the shed-only stasis before it), a basement Dan
+filmed ankle-deep in floodwater with potato boxes afloat, and a $50k-class
+DEENBOR delivery robot that — per Dan's flat confirmation, "the robot was
+never once used lol" — sat by the plate stacks as a monument to the fact
+that the "Outside Guy" was the only functioning infrastructure the place
+had. When the interior finally opened in 2024 it emerged fully dressed:
+glowing dome ovens with fresh dough staged for the fire, green velvet
+booths, geometric floor tiles, chain curtains and mood lighting — with
+blue painter's tape still covering the counters while service ran, the
+building's transition never quite complete even at its completion. The
+video record from this era also preserves Dan's twenty-plate balancing
+carry, the physical skill the busser years trained into him.
 
 ## The middle years: de facto manager, Thanksgiving 2023, the factions
 
@@ -25164,7 +25161,12 @@ the outdoor dining shutdown closed the Shed for good — "it was a long run
 and it was fun and good food and cool mexicans and... valeria." He came in
 "a novice in a red apron" and left "a legend in a white Uniqlo shirt," with
 the respect of the BOH Mexican squad intact. (The famous "outside bread,"
-he confirms, "obviousLY WAS NOT from outside.")
+he confirms, "obviousLY WAS NOT from outside.") The shutdown itself had
+two causes, and Dan is precise about the order: "once the inside opened,
+they just didn't have enough interest in outdoor dining" — demand for the
+sidewalk tables died first — "also the city made places tear down sheds
+for winter, so that was that." The city mandate finished off a territory
+the finished interior had already made obsolete.
 
 **On pay:** confirmed by Dan directly (2026-07-14) — base wage was
 $15/hour plus tip pool, with checks (paid weekly, Sundays) typically
@@ -25176,7 +25178,15 @@ the structural hook that made the job worth staying in.
 **Gaps:** his final role title (busser → server, informally); the
 Tunisian manager's name. The STORYTIME/DANSYNTH record is stylized
 self-narration through Gemini and should be read as memoir, not
-deposition.
+deposition. **Media collection gap:** the era's video/photo artifacts
+cited in the storytime sessions — the hidden-camera basement hug
+(`65A14E3A….mov`), the Central Park kiss (`69597826….mov`), the finished
+interior with the DEENBOR robot (`IMG_0978.mp4`), the flooded basement
+(`IMG_8225.MOV`), the "outside bread" interrogation (`BDBAEDEC….mp4`),
+the shed exterior (`IMG_7152.MOV`), the twenty-plate carry
+(`IMG_8393.mov`), and the Dimitri+DJ portrait (`IMG_5318.HEIC`) — exist
+only as uploads inside the Gemini sessions; none are on disk in `raw/`.
+Locating the originals is an open collection task.
 
 > **REVISED [2026-07-14]:** the Sergio-mediation mediator is confirmed —
 > Dan's own follow-up in the same session names Ghassan as running most of

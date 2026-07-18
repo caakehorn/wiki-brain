@@ -14,7 +14,6 @@ sources: [
 ]
 related: [
   "wiki/self/gemini-activity/gemini-activity",
-  "wiki/self/chats/gemini-00",
   "wiki/self/chats/gemini-07",
   "wiki/people/annie-ulmer",
   "wiki/people/alexis-armel",

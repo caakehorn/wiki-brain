@@ -16,7 +16,6 @@ sources:
   - raw/self/dox-scan/Gemini-_58.txt
 related:
   - wiki/self/gemini-activity/gemini-activity
-  - wiki/self/chats/gemini-00
   - wiki/self/chats/gemini-07
   - wiki/self/chats/gemini-13
   - wiki/self/chats/gemini-18
@@ -41,7 +40,7 @@ The extraction's substance was distributed to these pages (read them, not this i
 
 | Topic from the extract | Destination page |
 |------------------------|------------------|
-| Au Za'atar work lore, STORYTIME, alibi architecture | [[wiki/self/chats/gemini-00]], [[wiki/work/au-zaatar]], [[wiki/people/tarik-fallous]], [[wiki/people/valeria-iglesias-cid]], [[wiki/timeline/periods/2021-2023-employment-block]] |
+| Au Za'atar work lore, STORYTIME, alibi architecture | [[wiki/work/au-zaatar]], [[wiki/people/tarik-fallous]], [[wiki/people/valeria-iglesias-cid]], [[wiki/timeline/periods/2021-2023-employment-block]] |
 | Suzy-call / 10-day blackout forensic, Grim Trigger | [[wiki/self/chats/gemini-07]], [[wiki/timeline/events/eli-incident]] |
 | Bacharach neighborhood glitch, Exterior Shell | [[wiki/self/chats/gemini-13]], [[wiki/people/jacob-bacharach]] |
 | Profile lock / bio dump for Grok transfer | [[wiki/self/chats/gemini-18]], [[wiki/mind/concepts/node-locking]] |
@@ -115,4 +114,4 @@ The 15 named concepts the extraction surfaced across sessions, with where each i
 
 ## Related
 
-[[wiki/self/gemini-activity/gemini-activity]] · [[wiki/self/chats/gemini-00]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/chats/gemini-13]] · [[wiki/self/chats/gemini-18]] · [[wiki/self/chats/gemini-21]] · [[wiki/self/chats/gemini-58]] · [[wiki/mind/concepts/node-locking]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/mind/synthesis/political-psyops]]
+[[wiki/self/gemini-activity/gemini-activity]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/chats/gemini-13]] · [[wiki/self/chats/gemini-18]] · [[wiki/self/chats/gemini-21]] · [[wiki/self/chats/gemini-58]] · [[wiki/mind/concepts/node-locking]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/mind/synthesis/political-psyops]]

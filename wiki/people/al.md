@@ -14,7 +14,7 @@ infobox:
   name: "Al"
   relationship_to_dan: unknown
   first_contact: 2018-05-13
-  known_for: "Al (saved in contacts under the joke label "Socialist") was a cocaine dealer during the 2018 deep-cycle period — one of "
+  known_for: "Al (saved in contacts under the joke label 'Socialist') was a cocaine dealer during the 2018 deep-cycle period — one of "
 ---
 
 # Al

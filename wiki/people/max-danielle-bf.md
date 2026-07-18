@@ -28,7 +28,7 @@ infobox:
   relationship_to_dan: unknown
   sex: male
   location: nyc
-  known_for: "Identity: Current boyfriend of Dan's first girlfriend Danielle (pre-Lex era, Uniontown/NYC context). "The most wild dude"
+  known_for: "Identity: Current boyfriend of Dan's first girlfriend Danielle (pre-Lex era, Uniontown/NYC context). 'The most wild dude"
 ---
 
 # Max (Danielle's BF / "the Dude", Music Guy)

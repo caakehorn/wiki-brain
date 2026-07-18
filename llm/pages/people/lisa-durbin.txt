@@ -14,7 +14,7 @@ infobox:
   name: "Lisa Durbin"
   relationship_to_dan: unknown
   first_contact: 2017-04-14
-  known_for: "Lisa Durbin (contacts nickname "lcd") is an extended-family relation who organizes holiday gatherings and checks in on b"
+  known_for: "Lisa Durbin (contacts nickname 'lcd') is an extended-family relation who organizes holiday gatherings and checks in on b"
 ---
 
 # Lisa Durbin

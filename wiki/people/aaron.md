@@ -9,7 +9,7 @@ related: ["wiki/self/message-corpora/master-message-dump"]
 infobox:
   name: "Aaron"
   relationship_to_dan: unknown
-  known_for: "Contact +17245624801. Self intro: "Hey, this is Aaron!". 38 messages. Casual direct introduction."
+  known_for: "Contact +17245624801. Self intro: 'Hey, this is Aaron!'. 38 messages. Casual direct introduction."
 ---
 
 # Aaron

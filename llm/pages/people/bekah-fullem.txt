@@ -15,7 +15,7 @@ infobox:
   relationship_to_dan: unknown
   sex: female
   first_contact: 2020-02-09
-  known_for: "Rebekah "Bekah" Fullem reached out to Dan twice, seven weeks apart, in early 2020 — first in acute crisis over her dying"
+  known_for: "Rebekah 'Bekah' Fullem reached out to Dan twice, seven weeks apart, in early 2020 — first in acute crisis over her dying"
 ---
 
 # Bekah Fullem

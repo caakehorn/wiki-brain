@@ -14,7 +14,7 @@ infobox:
   name: "Eric Jester"
   relationship_to_dan: unknown
   first_contact: 2017-05-08
-  known_for: "Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose sparse but genuine"
+  known_for: "Eric Jester is a Full Sail film-school friend (contacts notes: 'sandwich eater. dream killer.') whose sparse but genuine"
 ---
 
 # Eric Jester

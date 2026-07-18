@@ -18,7 +18,7 @@ infobox:
   relationship_to_dan: unknown
   sex: male
   location: nyc
-  known_for: "Dan's cousin — described by Dan as "semi-famous" — and, per public"
+  known_for: "Dan's cousin — described by Dan as 'semi-famous' — and, per public"
 ---
 
 # Alex Frank

@@ -24,7 +24,6 @@ related:
   - wiki/timeline/periods/2021-2023-employment-block
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/mind/concepts/institutional-out
-  - wiki/self/chats/gemini-00
 tags: [nyc-era, career, ai-collaboration, housing, forensic-analysis]
 connections:
   - page: wiki/mind/synthesis/attachment-trauma-bond
@@ -122,11 +121,20 @@ who tried to fire Dan for tip-siphoning on Thanksgiving 2023 — and failed,
 because the 58th Street regulars and neighbors demanded he stay; and
 **Menore**, the delivery node keeping the chemistry running mid-shift. The
 physical setting matched the social one: service continued through active
-interior construction (exposed studs, concrete dust, open floor trenches),
-a basement Dan filmed ankle-deep in floodwater with potato boxes afloat,
-and a $50k-class DEENBOR delivery robot that sat unused by the plate
-stacks — a monument to the fact that the "Outside Guy" was the only
-functioning infrastructure the place had.
+interior construction (exposed studs, concrete dust, open floor trenches —
+"serving food in an active construction zone," a phase Dan marks as
+distinctly harder than the shed-only stasis before it), a basement Dan
+filmed ankle-deep in floodwater with potato boxes afloat, and a $50k-class
+DEENBOR delivery robot that — per Dan's flat confirmation, "the robot was
+never once used lol" — sat by the plate stacks as a monument to the fact
+that the "Outside Guy" was the only functioning infrastructure the place
+had. When the interior finally opened in 2024 it emerged fully dressed:
+glowing dome ovens with fresh dough staged for the fire, green velvet
+booths, geometric floor tiles, chain curtains and mood lighting — with
+blue painter's tape still covering the counters while service ran, the
+building's transition never quite complete even at its completion. The
+video record from this era also preserves Dan's twenty-plate balancing
+carry, the physical skill the busser years trained into him.
 
 ## The middle years: de facto manager, Thanksgiving 2023, the factions
 
@@ -183,7 +191,12 @@ the outdoor dining shutdown closed the Shed for good — "it was a long run
 and it was fun and good food and cool mexicans and... valeria." He came in
 "a novice in a red apron" and left "a legend in a white Uniqlo shirt," with
 the respect of the BOH Mexican squad intact. (The famous "outside bread,"
-he confirms, "obviousLY WAS NOT from outside.")
+he confirms, "obviousLY WAS NOT from outside.") The shutdown itself had
+two causes, and Dan is precise about the order: "once the inside opened,
+they just didn't have enough interest in outdoor dining" — demand for the
+sidewalk tables died first — "also the city made places tear down sheds
+for winter, so that was that." The city mandate finished off a territory
+the finished interior had already made obsolete.
 
 **On pay:** confirmed by Dan directly (2026-07-14) — base wage was
 $15/hour plus tip pool, with checks (paid weekly, Sundays) typically
@@ -195,7 +208,15 @@ the structural hook that made the job worth staying in.
 **Gaps:** his final role title (busser → server, informally); the
 Tunisian manager's name. The STORYTIME/DANSYNTH record is stylized
 self-narration through Gemini and should be read as memoir, not
-deposition.
+deposition. **Media collection gap:** the era's video/photo artifacts
+cited in the storytime sessions — the hidden-camera basement hug
+(`65A14E3A….mov`), the Central Park kiss (`69597826….mov`), the finished
+interior with the DEENBOR robot (`IMG_0978.mp4`), the flooded basement
+(`IMG_8225.MOV`), the "outside bread" interrogation (`BDBAEDEC….mp4`),
+the shed exterior (`IMG_7152.MOV`), the twenty-plate carry
+(`IMG_8393.mov`), and the Dimitri+DJ portrait (`IMG_5318.HEIC`) — exist
+only as uploads inside the Gemini sessions; none are on disk in `raw/`.
+Locating the originals is an open collection task.
 
 > **REVISED [2026-07-14]:** the Sergio-mediation mediator is confirmed —
 > Dan's own follow-up in the same session names Ghassan as running most of

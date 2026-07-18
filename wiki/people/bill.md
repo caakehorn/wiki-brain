@@ -14,7 +14,7 @@ infobox:
   name: "Bill"
   relationship_to_dan: unknown
   first_contact: 2018-09-04
-  known_for: "A different Bill from [[wiki/people/bill-ulmer|Bill Ulmer]] — this one is a golf-caddying peer (references playing "Lake"
+  known_for: "A different Bill from [[wiki/people/bill-ulmer|Bill Ulmer]] — this one is a golf-caddying peer (references playing 'Lake"
 ---
 
 # Bill (golf/pharma customer)

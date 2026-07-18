@@ -14,7 +14,7 @@ infobox:
   name: "Bub"
   relationship_to_dan: unknown
   first_contact: 2017-04-22
-  known_for: ""Bub" (contacts label, real name undocumented) is a low-intensity but long-running college-friend-register contact spann"
+  known_for: "'Bub' (contacts label, real name undocumented) is a low-intensity but long-running college-friend-register contact spann"
 ---
 
 # Bub

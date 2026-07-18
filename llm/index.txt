@@ -1,5 +1,5 @@
 WIKI-BRAIN — LLM ACCESS POINT
-generated 2026-07-18 · 309 pages · full corpus ~383,985 tokens
+generated 2026-07-18 · 308 pages · full corpus ~383,982 tokens
 
 WHAT THIS IS
 A machine-readable export of a personal wiki (a 'second brain') that
@@ -292,7 +292,6 @@ Ancestry / 23andMe + Family Tree | https://caakehorn.github.io/wiki-brain/llm/pa
 9/11 Chat (Gripnotic Remix Drops) | https://caakehorn.github.io/wiki-brain/llm/pages/self/chats/9-11-chat.txt | **Source:** Claude chat export from /Users/daniel/Documents/**DOX/DOC SCAN/MD/___The 9_11 Chat copy.md
 Danfrank-isms Pinned Chat | https://caakehorn.github.io/wiki-brain/llm/pages/self/chats/danfrank-isms-pinned.txt | **Source:** Gemini conversation (gem/15fbc8f0a7f1/2c10a7416da2c24f)
 EXTRACT MESSAGES Pinned Chat | https://caakehorn.github.io/wiki-brain/llm/pages/self/chats/extract-messages-pinned.txt | **Source:** Pinned chat export(s) with extract-messages theme.
-Gemini Session 00 — Au Za'atar STORYTIME (Finale) | https://caakehorn.github.io/wiki-brain/llm/pages/self/chats/gemini-00.txt | The closing volume of the [[wiki/work/au-zaatar|Au Za'atar]] "STORYTIME" — a 781-line, glyph-styled forensic post-mortem of Dan's 41-month (March 2021–August...
 Gemini Session 07 (Suzy Call & Blackout / Target G Forensic) | https://caakehorn.github.io/wiki-brain/llm/pages/self/chats/gemini-07.txt | **Source:** Gemini-_07.md (full forensic report style session). 374 lines, 3701 words, 749 unique.
 Gemini Session 13 — Bacharach Neighborhood Glitch | https://caakehorn.github.io/wiki-brain/llm/pages/self/chats/gemini-13.txt | A 902-line Gemini session in which Dan works through the "coincidence chain" connecting novelist Jacob Bacharach to a house his mother owned. The person-leve...
 Gemini Session 18 (Profile Lock / Exhaustive Bio Dump for Grok Transfer) | https://caakehorn.github.io/wiki-brain/llm/pages/self/chats/gemini-18.txt | <!-- 2026-06-23 full _18 ingest pass: added file stats (1675 lines, forensic 36 etc), bio timeline table, relationships verbatim, capability contest full tab...

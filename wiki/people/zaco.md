@@ -9,7 +9,7 @@ related: ["wiki/self/message-corpora/master-message-dump"]
 infobox:
   name: "Zaco"
   relationship_to_dan: unknown
-  known_for: "Contact +17249123381. Direct intro "Yo it's zaco". 58 messages (master). Casual "Yo it's ..." style outreach. Likely nic"
+  known_for: "Contact +17249123381. Direct intro 'Yo it's zaco'. 58 messages (master). Casual 'Yo it's ...' style outreach. Likely nic"
 ---
 
 # Zaco

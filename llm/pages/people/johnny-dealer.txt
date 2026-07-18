@@ -10,7 +10,7 @@ tags: [addiction-recovery, dui]
 infobox:
   name: "Johnny Dealer"
   relationship_to_dan: unknown
-  known_for: "Role: Dealer (2018 era primary contact). Supplied "b's" (balls/cocaine reference), suboxone strips (8mg for $15, 12mg fo"
+  known_for: "Role: Dealer (2018 era primary contact). Supplied 'b's' (balls/cocaine reference), suboxone strips (8mg for $15, 12mg fo"
 ---
 
 # Johnny (+17243223678)

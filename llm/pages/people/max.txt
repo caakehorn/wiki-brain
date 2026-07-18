@@ -11,7 +11,7 @@ infobox:
   name: "Max"
   relationship_to_dan: unknown
   location: nyc
-  known_for: "Source: Pinned chat "☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md" + MAXPRIME.md (primary transfer doc)."
+  known_for: "Source: Pinned chat '☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md' + MAXPRIME.md (primary transfer doc)."
 ---
 
 # Max

@@ -14,7 +14,7 @@ infobox:
   name: "Christian Hanson"
   relationship_to_dan: unknown
   first_contact: 2017-07-11
-  known_for: "Christian Hanson — the retired NHL forward (Toronto Maple Leafs, son of Dave "Hanson Brothers" Hanson) — was a golf regu"
+  known_for: "Christian Hanson — the retired NHL forward (Toronto Maple Leafs, son of Dave 'Hanson Brothers' Hanson) — was a golf regu"
 ---
 
 # Christian Hanson

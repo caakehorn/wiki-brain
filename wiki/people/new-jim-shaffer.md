@@ -16,7 +16,7 @@ infobox:
   sex: male
   location: nyc
   first_contact: 2018-04-22
-  known_for: "Jim Shaffer — "not the only Jim Shaffer" in Dan's life, hence the "new" contacts-card label — is a wealthy childhood fri"
+  known_for: "Jim Shaffer — 'not the only Jim Shaffer' in Dan's life, hence the 'new' contacts-card label — is a wealthy childhood fri"
 ---
 
 # "New Jim Shaffer" (Jim Shaffer)

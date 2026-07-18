@@ -14,7 +14,7 @@ infobox:
   name: "John Felix"
   relationship_to_dan: unknown
   first_contact: 2016-02-12
-  known_for: "John Felix's thread (+17249636738, 59 messages, February–June 2016) is almost entirely logistics — arrival times, "K," ""
+  known_for: "John Felix's thread (+17249636738, 59 messages, February–June 2016) is almost entirely logistics — arrival times, 'K,' '"
 ---
 
 # John Felix

@@ -14,7 +14,7 @@ infobox:
   name: "Jess"
   relationship_to_dan: unknown
   first_contact: 2017-04-20
-  known_for: "Jess introduces herself April 20, 2017 as part of a swinging couple recruiting through a group or platform called "Fem" "
+  known_for: "Jess introduces herself April 20, 2017 as part of a swinging couple recruiting through a group or platform called 'Fem' "
 ---
 
 # Jess (from "Fem")

@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 309,
+ "page_count": 308,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -556,7 +556,7 @@
    "title": "AI Collaborative Analysis",
    "summary": "Large language models occupy a specific, unusual role in Dan's cognitive",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/ai-collaborative-analysis.txt",
-   "bytes": 16159
+   "bytes": 16682
   },
   {
    "page": "wiki/mind/synthesis/ancestral-dialectic.md",
@@ -1599,7 +1599,7 @@
    "title": "Tarik Fallous",
    "summary": "Tarik Fallous \u2014 owner-operator (with his brother Ghassan) of [[wiki/work/au-zaatar|Au Za'atar]], the Lebanese restaurant near 58th and 1st in Midtown Manhatt...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/tarik-fallous.txt",
-   "bytes": 5393
+   "bytes": 5275
   },
   {
    "page": "wiki/people/teddy.md",
@@ -1655,7 +1655,7 @@
    "title": "Valeria Iglesias Cid",
    "summary": "Valeria Iglesias Cid was the 19-year-old Au Za'atar hostess \u2014 daughter of",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/valeria-iglesias-cid.txt",
-   "bytes": 7427
+   "bytes": 9378
   },
   {
    "page": "wiki/people/vanessa-frank.md",
@@ -1770,13 +1770,6 @@
    "bytes": 1637
   },
   {
-   "page": "wiki/self/chats/gemini-00.md",
-   "title": "Gemini Session 00 \u2014 Au Za'atar STORYTIME (Finale)",
-   "summary": "The closing volume of the [[wiki/work/au-zaatar|Au Za'atar]] \"STORYTIME\" \u2014 a 781-line, glyph-styled forensic post-mortem of Dan's 41-month (March 2021\u2013August...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/chats/gemini-00.txt",
-   "bytes": 3815
-  },
-  {
    "page": "wiki/self/chats/gemini-07.md",
    "title": "Gemini Session 07 (Suzy Call & Blackout / Target G Forensic)",
    "summary": "**Source:** Gemini-_07.md (full forensic report style session). 374 lines, 3701 words, 749 unique.",
@@ -1802,7 +1795,7 @@
    "title": "Gemini Session 21 (Music Guy Personality + Eggie Bagels Jailbreak / Model-on-Model Warfare)",
    "summary": "<!-- 2026-06-23 deep analysis: /tmp/gemini-21-deep-analysis.md (full stats tables, 20+ verbatim, breach timeline, freqs, Latency-Zero/4.2%/Entropy/sycophancy...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/chats/gemini-21.txt",
-   "bytes": 10981
+   "bytes": 10950
   },
   {
    "page": "wiki/self/chats/gemini-58.md",
@@ -1879,21 +1872,21 @@
    "title": "Gemini Activity \u2014 v1 Extraction Index",
    "summary": "This page is the **index and concept map** for the first full extraction of the Gemini corpus (20.8 MB Takeout HTML + eight discrete exported sessions). It i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/gemini-activity/archive/v1-extract.txt",
-   "bytes": 7898
+   "bytes": 7804
   },
   {
    "page": "wiki/self/gemini-activity/gemini-activity.md",
    "title": "Gemini Activity",
    "summary": "Corpus report on Dan's Gemini usage: a 21MB Google Takeout HTML activity log plus eight discrete exported sessions. This page holds the aggregate numbers and...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/gemini-activity/gemini-activity.txt",
-   "bytes": 6438
+   "bytes": 6532
   },
   {
    "page": "wiki/self/index.md",
    "title": "self \u2014 index",
    "summary": "The self domain contains files and data detailing identity, core biographical facts, and the digital footprint of Dan Frank.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/index.txt",
-   "bytes": 5200
+   "bytes": 5053
   },
   {
    "page": "wiki/self/location-history.md",
@@ -2054,7 +2047,7 @@
    "title": "2021\u20132023 Employment Block",
    "summary": "For three years \u2014 invisible in Dan's self-narrative until the location",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2021-2023-employment-block.txt",
-   "bytes": 9376
+   "bytes": 9385
   },
   {
    "page": "wiki/timeline/periods/2025-collapse.md",
@@ -2096,7 +2089,7 @@
    "title": "Au Za'atar (NYC, ~2021\u20132024)",
    "summary": "Au Za'atar Midtown \u2014 the Lebanese restaurant at 58th & 1st owned by",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/au-zaatar.txt",
-   "bytes": 12596
+   "bytes": 14212
   },
   {
    "page": "wiki/work/bfs-foods.md",
