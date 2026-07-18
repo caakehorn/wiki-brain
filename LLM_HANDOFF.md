@@ -84,6 +84,15 @@ quality bar; imitate their shape exactly. A page that is tidy but leads
 with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
+### [2026-07-18] - Session: connective-tissue adoption (PR #44 merged) + era-markers junction + Gemini-_02 storytime mining
+* **Model:** Claude Fable 5 (Claude Code, remote), branch `claude/second-brain-overhaul-og2s2c`
+* **Summary:**
+  - Applied the operator's uploaded connective-tissue patch (4 commits: wiki-connect tooling, CONNECTIONS_SPEC, STRATEGY, passes 1–2) — merged to main as PR #44.
+  - **Pass A (PR #45):** NEW junction `wiki/mind/synthesis/interests-as-era-markers.md` (fixed intake rate ⇒ subject-rotation is the era signal; marker series 2007→2024; film-canon control case; 2021–23 named as the missing-marker gap). Retrofitted all 5 islanded interest pages (roman-republic, opie-and-anthony, film-canon, golf, video-games) to typed edges; inbound prose on 6 hosts. **Islands 52→47.** Fixed bot-review findings (leftover footer, wikilinks).
+  - **Gemini storytime mining (operator-directed, 50 points approved):** mined the Au Za'atar genesis convo start-to-finish, entered all points (main sink: full prose rewrite of 2021-2023-employment-block.md), then **deleted wiki/self/chats/gemini-02.md** with all inbound links repaired. Real research finds: Valeria's +56 iMessage channel (2023 NYC return, Nov 2024 re-contact told to Annie's handle — partially closes the "did Annie know" gap, contact through Jul 2025); Menore's legit-taxi cover; candidate DJ handle +19293235324.
+  - Gates 0 errors throughout (wiki-lint + wiki-connect check).
+* **Handoff Note:** The storytime-mining workflow is operator-approved and repeatable: scrape convo → ~50 data points → operator approval → research → enter → delete the chat page. **Next candidates: gemini-00 (Au Za'atar finale), gemini-07, gemini-18, gemini-21, j6-chat, 9-11-chat.** Also still open: 47 islanded pages (people/ long tail), connection-queue top-down, and 3 junction pages (supply network; estate/money spine — note the spec's "Rick/PNC trust" naming is unsupported in raw, the real thread is trustee Judge Fred Adams / Ira estate "capital veins" per _Photo Thread PT II_; block/unblock loop generalized).
+
 ### [2026-07-17] - Session: CONNECTION SYSTEM ADOPTION (pass 2) — synthesis layer complete
 * **Model:** Claude Fable 5 (CATO)
 * **Summary:** All 13 mind/synthesis pages now run on typed `connections:` (pass 1 did the four islanded ones; this pass did the remaining nine). ~45 new typed edges with claims, ~37 inverse edges on targets, all claims drawn from verified page-body content. Notable edges: intake-constancy `resolves` phenomenology-lens (output-combusts/intake-ticks correction now queryable); intake-constancy `causes` contact-gini (nocturnal signature as the structural substrate of isolation); psyops `instance-of` forensic-method; totality `contextualizes` 2025-collapse with a prose edge (this was the #1-scored pair in the mined queue). bond-switch edges preserve the 768-figure provenance gap in claim language.

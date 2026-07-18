@@ -55,7 +55,12 @@ participating. Dan supplied his own name for the frame in real time: on
 2019-07-18, mid-arrangement, he described himself as "living some eyes
 wide shut shit vicariously through her" — reaching for the masked-voyeur
 film in his own [[wiki/interests/film-canon|film canon]] as the lens on
-what he had built.
+what he had built. The staging reflex also ran outside the arrangement
+entirely: in the [[wiki/people/valeria-iglesias-cid|Valeria]] courtship
+he planned a reunion moment in advance and set up a hidden camera to
+film it — orchestrated witnessing applied to romance, not transgression,
+which is evidence the architecture is general rather than
+arrangement-specific.
 
 One specific claim from this same passage — that Annie's "profound
 pleasure during a long massage with another man 'broke Dan's brain' and

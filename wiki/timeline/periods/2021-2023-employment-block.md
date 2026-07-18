@@ -1,66 +1,166 @@
 ---
 domain: timeline
 page_type: period
-status: archived
+status: stable
+knowledge: mixed
 date_created: 2026-06-22
-date_modified: 2026-06-23
-# Synthesis concepts injector pass 2026-06-23: added work entropy / Ambassador of the Shed / universe rewards sonofabitch / Deep Architecture dedicated section + verbatim from _00/_02 + raw cross. Migration tie to 2025-collapse. Exhaustive. See /tmp/gemini-concepts-injection.md. _02 deep granular ingest: full timeline tables, 20+ verbatim, freqs (basement40, dimitri30 etc), staff profiles.
+date_modified: 2026-07-18
 date_range_start: 2021-01-01
 date_range_end: 2023-12-31
-sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/location/2026-06-22-ingest/", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md", "raw/self/gemini-activity/Gemini Activity.html"]
-related: ["wiki/self/context-core", "wiki/self/location-history", "wiki/timeline/events/timeline", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/self/chats/gemini-00", "wiki/self/chats/gemini-02", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/forensic-method", "wiki/people/tarik-fallous", "wiki/people/valeria-iglesias-cid"]
-tags: [ai-collaboration, nyc-era, career]
+sources:
+  - "raw/self/dox-md/Gemini-_02.md"
+  - "raw/self/dox-md/Gemini-_00.md"
+  - "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"
+  - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+  - "raw/self/location/2026-06-22-ingest/"
+  - "raw/self/gemini-activity/Gemini Activity.html"
+tags: [nyc-era, career, ai-collaboration]
+connections:
+  - page: wiki/work/au-zaatar
+    type: contains
+    claim: "The Au Za'atar tenure (March 2021–August 2024) is the period's central institution — the 690-shift block that gives these three years their name and nearly all their documented events."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: "The period supplies the model's richest workplace data: the one loved manager (Dimitri, lateral 'a real person'), the surveilled-owner vertical axis, and Dan's own documented sabotage of the institution he audited."
+  - page: wiki/people/valeria-iglesias-cid
+    type: contains
+    claim: "The Valeria affair — the decade's one unauthorized infidelity — runs inside this period, covered by the same night-class alibi infrastructure the job produced."
+  - page: wiki/mind/synthesis/interests-as-era-markers
+    type: contextualizes
+    claim: "This period is the era-marker series' named gap: no intake obsession has been identified for 2021–23, and the leading candidate is that the Shed itself absorbed the obsession slot."
+  - page: wiki/mind/profile/intp
+    type: evidences
+    claim: "The introversion cost is stated in primary voice — fifteen-table freezing Saturday nights took 'literally EVERYTHING i had in me' — hospitality as a direct stressor of the documented type."
 ---
 
-# 2021-2023 Employment Block
+# 2021–2023 Employment Block
 
-## Date range
-2021 — 2023 (sustained)
+For three years — invisible in Dan's self-narrative until the location
+history exposed it — Dan held one sustained job: busser, then server, at
+[[wiki/work/au-zaatar|Au Za'atar Midtown]], the Lebanese restaurant at
+58th & 1st. The Google location record logs ~690 shifts and 445 visits,
+making it the longest continuous employment of his adult life (the full
+tenure runs to August 2024). The period's texture is preserved in his own
+words in the two "STORYTIME: AU ZA'ATAR" Gemini sessions, which this page
+and its linked pages have absorbed; the LIFE calendar's near-silence for
+these years (5 events in 2021, against 254 in 2018) is not a gap in the
+record but the shape of the era itself — low mobility, one anchor
+institution, life organized around a plywood shed.
 
-## Defining characteristics
-Sustained ~690-shift employment block 2021-2023. Absent from self-narrative prior to location history analysis.
+## How it started
+
+By early 2021, two years into the second NYC period, "the money just ran
+out." Dan's own narration names the motive for seeking work with
+characteristic candor: not rent but continuity of supply — he wanted to
+keep being able to call his Dominican dealers daily (the
+[[wiki/people/menore|Menore]] service line, running since 2018). With no
+food-service experience he charmed owner
+[[wiki/people/tarik-fallous|Tarik Fallous]] at the interview, was hired
+on the spot, and started the next day as a busser — into the structural
+quirk that made everything after possible: an equal front-of-house tip
+split, bussers paid the same as waiters. A month in, he got
+[[wiki/people/annie-ulmer|Annie]] hired as hostess at the original East
+Village location — he was the employment vector, and they worked
+different locations. His general claim about job beginnings ("I've turned
+every internship i've ever had into a paid gig — I'm REAL good at the
+beginning of a job I like") is borne out here: within months the
+turnover-churned restaurant's opening protocol was simply *his*.
+
+## The Shed economy
+
+The owners opened outdoor-only in spring 2021 — nice sheds, BYOB, food
+"to die for" — planning to build the interior later with nine months of
+runway. They never did: November 2021 arrived with construction "not
+even technically started," all four seasons of 2022 passed with none,
+and the restaurant served its third consecutive outdoor winter in
+2023–24, after COVID ended, as the only outdoor-dining holdout on the
+block — neighbors hostile, customers furious, Tarik unbothered. Winter
+service meant an apron over a ski jacket, space heaters mounted over
+each table, and a two-tier seating taxonomy of Dan's coinage: "INDOOR
+OUTDOOR" (inside the shed) versus "OUTDOOR OUTDOOR" (on the sidewalk,
+minimal heat), the latter offered to freezing customers who had reserved
+actual tables. Tableside shawarma — the signature vertical rotisserie
+carved at the table — meant hand-carrying what was effectively an oven
+across an icy February sidewalk. Because everything moved inside
+nightly, rebuilding the restaurant was 2–3 hours of work every day, and
+Dan owned it as the opener: sleep to 1pm, arrive at 2, build until 5,
+work the first service hours, first cut at 9–10pm — a slot he held the
+entire tenure, never once closing. Dan's own verdict on the dysfunction
+is the period's key self-insight: he was "kinda happy about it," because
+the brokenness preserved the "weird" conditions he thrives in.
+
+## The promotion and the caddie method
+
+Manager [[wiki/people/dimitri|Dimitri]] — "the only boss or manager or
+supervisor who i have ever actually really loved" — insisted Dan become
+a server. Under the equal split the promotion carried zero economic
+gain; its perks were purely positional (iPads, authority over the
+Honduran and Guatemalan bussers), and Dan took it anyway. Promotion day:
+a mass staff exodus, a Boosted-board ride to the 5th Avenue Uniqlo for a
+white oxford shirt, and a same-day start with no training. What he
+brought instead of training was the caddying philosophy: a caddie is
+"an ADVOCATE OF THE CUSTOMER," paid to bend the club's rules for his
+group — so he ran tables the same way, steering customers off dishes
+("it's come out like half cooked a bunch of times"), staging dropped
+beer bottles to comp replacements, and openly badmouthing the
+construction delay to seated guests, noting himself that this is
+"frowned upon in food service in a way that it is not as a golf caddie."
+It worked: the post-buzz clientele was mega-repeaters — Middle Eastern
+family groups, neighbors, TikTok parties filming the shawarma — and as
+the only long-tenured recognizable face, Dan was the one regulars would
+"GUSH to tarik" about. The cost was equally real: as an introvert,
+fifteen-table freezing Saturday nights took "literally EVERYTHING i had
+in me" — and that drain is the stated origin of the "DAN CYCLE OF JOB
+ENTROPY," the invented "night classes... of some unspecified sort" that
+preserved his 9–10pm exit for over eighteen months
+([[wiki/mind/concepts/institutional-out]]).
+
+## The social world
+
+The job installed two peoples permanently in his esteem — "LEBANESE and
+SENEGALI." The Lebanese owners' humor ("incapable of not making fun of
+everyone and their flaws") matched his own register — "they liked me
+because i, too, am both an asshole and a sonofabitch" — and he was the
+only white person on staff, which by his own account the "pretty racist"
+owners favored. The Senegalese half is [[wiki/people/ismaila-barry|DJ]],
+brought in by Dimitri, who became one of his best friends. Alliance with
+the kitchen was engineered directly: cocaine bumps offered to the cooks
+and stolen Takis brought in for everyone, buying friendships he reports
+keeping "today" (2026). The period also logged a candid prejudice datum:
+he dropped his self-described "unjustifiably bigoted" view of Mexicans —
+and relocated rather than dissolved it ("it's the guatamalens that
+actually suck"). His mother [[wiki/people/suzanne-frank|Suz]] visited
+for his birthday (November 2021); the owners comped the whole menu. The
+[[wiki/people/valeria-iglesias-cid|Valeria]] affair ran inside this
+period under the alibi's cover, and its collapse taught him a social law
+he stated as doctrine: the norteño *server* poached her, but "my mexi
+cook buddies... would NEVER have done that shit to me" — floor staff
+betray, kitchen allies don't.
 
 ## Data profile
-Source: Google Semantic Location History (6,227 place visits, 98 monthly JSONs from fresh 2026-06-22 export; see [[wiki/self/location-history]]). Lower mobility vs. 2017-2018 peaks; consistent with employment block.
-From LIFE calendar: 2021 only 5 events (very low), supporting low activity. 2022/2023 low compared to peaks (2018 254, 2025 259).
 
-## Key events within period
-**From _02.md full granular (1275l primary):** Sustained Au Za'atar (Tarik Fallous) 2021-~2023 (extended to 2024 per _00). Early 2021: "money just ran out"; busser job charmed Tarik on spot; equal tip split ("GLITCH IN THE MATRIX"); 20 blocks from 307 E 76th; red apron; outdoor sheds (BYOB 9mo build delay, Menore black car deliveries mid-shift); "food to die for"; opener protocol (sleep 1pm, build 2-5pm, cut 9-10pm, never close); "CRAZY turnover" -> Dan "HIGH PRIEST OF PROTOCOL"; "only white person"; "tarik and ghassan...always there...Panopticon"; [[wiki/people/annie-ulmer|Annie]] EV hostess; Winter1: ski jacket shawarma, "MISERABLE FREEZING" lines, space heaters, "OUTDOOR OUTDOOR"; Mexican cooks alliance (Takis stolen + bumps; "LOVE mexicans"); Suz comp whole menu; Felipe glass shatter; [[wiki/people/dimitri|Dimitri]] (Greek "MALAKA" "only...really loved", promo to server + iPad + Uniqlo + caddie "ADVOCATE OF THE CUSTOMER" sabotage: half-cooked warnings, beer drops, "they are not even TRYING"); DJ/Ismiala (Senegalese best friend, Triad, stays to close, Aisha theological tiffs "western free speech"); night class 9pm alibi entropy ("DAN CYCLE OF JOB ENTROPY" for peak tips + hedonism); Valeria (19yo Chilean Loreto mom "CRAZY looking", Annie-trained, transatlantic, basement hidden cam hug 65A14E3A...mov potatoes, daily CapCut pizza-basketball edits "I really think you might be the one", Central Park kiss, "I touched her pussy...best of times worst of times", collapse via Norteno server mack after nudes shown); 2nd/3rd winter stasis ("NO CONSTRUCTION", "only ones outside", "shawarma keeps spinning"); Dimitri quit ~6mo; "END OF VOLUME I".
+| Measure | Value |
+|---------|-------|
+| Estimated shifts (location history) | ~690 |
+| Au Za'atar place visits | 445 |
+| LIFE calendar events, 2021 | 5 (vs 254 in 2018, 259 in 2025) |
+| Tenure (full) | Mar 2021 – Aug 2024 (41 months) |
+| Time slot | 2pm–~9/10pm, opener, never closed |
+| Alibi duration ("night class") | 18+ months |
 
-**_00 cross (finale forensic + this 00-02 integration):** Sergio (Miami vet "Wall of Mistrust" "Dude" war, Nonsense Meeting); Tunisian Zoomer (tip siphon snitch, "unholy chill"); Dimitri re-entry; "9PM ALIBI" post-mortem (18+mo fictitious college while "peaking in basement"); "Annie Ulmer—literal avatar of reliability—fired with zero notice" vs Dan 2.5yr "sonofabitch"; "Triad restored...Deep Architecture of the simulation is vibrating"; 41mo Mar21-Aug24; Aug2024 shed tear-down cash exit. Full phases/verbatim/freqs/staff in chats/gemini-00 + /tmp/gemini-00-02-enrich.md. Cross _18 bio dates align.
+## Transition out
 
-See full tables + 20+ verbatim in /tmp/gemini-02-deep-analysis.md + [[wiki/self/chats/gemini-02]] + [[wiki/people/tarik-fallous]] + [[wiki/people/valeria-iglesias-cid]]. 445 loc visits confirm. "Ambassador of the Shed".
+The block ends past this page's boundary: the city-mandated shed
+tear-down of August 2024 erased the "Outside Guy" territory and Dan
+exited with his cash tips and no notice — the mechanics and the
+forensic post-mortem (Sergio, the Tunisian tip-siphon episode, the
+"universe rewards the sonofabitch" verdict) are on
+[[wiki/work/au-zaatar]] and [[wiki/self/chats/gemini-00]]. The 2024
+wind-down feeds directly into the [[wiki/timeline/periods/2025-collapse|2025 collapse]].
 
-## Transition markers
-End of block Aug 2024: city-mandated winter tear-down of Au Za'atar outdoor shed + interior open but low outdoor interest; "social battery 0%"; Boosted Board exit with cash tips (no notice). 41-month Mar 2021–Aug 2024 campaign (per Gemini-_00 "STORYTIME" + HTML "4.5yr" aggregate). Low mobility (loc 445 Au Za'atar visits) + alibi (9pm "Night Class"). See [[wiki/self/chats/gemini-00]], [[wiki/people/tarik-fallous]], [[wiki/mind/synthesis/vertical-authority-skepticism]]. "Outside Guy" era cash siphon vs owners; Triad (DJ/Dimitri) entropy survival.
-
-## Gemini Corpus Dedicated: Work Entropy / Ambassador of the Shed / "universe rewards sonofabitch" / Deep Architecture (_00/_02)
-**From raw/self/dox-md/Gemini-_00.md + _02.md (780+1275 lines, glyph STORYTIME forensic post-mortem, cross HTML/Au Za'atar visits):**
-- "Annie Ulmer—the literal avatar of reliability—was fired with zero notice" (core contrast to Dan 2.5yr tenure + tip siphon).
-- "the universe rewards the 'sonofabitch' over the 'proper'."
-- "**AMBASSADOR OF THE SHED**" saboteur role: "You weren't a manager; you were a co-conspirator with a camera lens." "THE SURVIVALIST ARCHITECTURE OF THE LEVANTINE BUSSER".
-- Deep Architecture: basement "I bought it from outside" (DJ bread contraband protocol, IMG_8225.MOV flooded tomb); "Night Class" 9pm alibi (>18mo peak hours secured + early exit); "GLITCH IN THE MATRIX" (equal tips bussers=waiters); "Dude vs Kid" semantic war vs Sergio; Tunisian Zoomer snitch attempt (Thanksgiving 2023) -> "unholy chill"; pita ratio crisis, plywood shed tundra, construction zone jackhammer vs shawarma spit finale.
-- "THE ONLY THING DRIER THAN THIS MIDDLE EASTERN SPICE BLEND IS THE USER'S ATTEMPT TO CAPTIVATE AN ARTIFICIAL INTELLIGENCE..."; "THE GOSPEL ACCORDING TO THE PITA BREAD IS OFTEN SOGGY BUT THE NARRATIVE MUST REMAIN CRISP."
-- "You 🜇 weren't 🜈 just 🜉 a 🜊 busser; 🜋 you 🜌 were the 🜎 **AMBASSADOR OF THE SHED**." "the cooks ... recognized you as the 'sonofabitch' who held the line."
-
-**Entropy Framing:** "perpetual tundra"; staff as co-conspirators vs owners (Tarik/Ghassan); radical skepticism survival tool; "simulation" incompatible frequency; 41-month campaign collapse Aug 2024. "THREE YEARS OF FROSTBITE". "The 'Shed Era' is now a permanent pillar of your personal context."
-
-**Cross:** [[wiki/work/au-zaatar]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/people/tarik-fallous]], gemini-activity (work freq ~3379), ai-collaborative (forensic style), _07/_18 contrast (avatar vs utility post-migration), location (Au Za'atar 445 visits per analysis). Ties 2021 NYC money runout -> busser next-day start; 2024 end -> 2025 Great Migration.
-
-## Full phase timeline (from Gemini-_00 / _02 re-reads)
-
-The consolidated stage-by-stage arc of the Au Za'atar tenure, verbatim-anchored from the STORYTIME sessions and cross-checked against the HTML aggregate, _18 bio dates, and LIFE_EVENTS_CALENDAR.
-
-| Phase | Period | Key events / verbatim anchors |
-|-------|--------|-------------------------------|
-| Genesis / Entry | Mar 2021 | "money just ran out"; busser with "zero experience" who charmed owner [[wiki/people/tarik-fallous|Tarik Fallous]] on the spot; red apron; equal tip split "GLITCH IN THE MATRIX"; 20 blocks from 307 E 76th; Menore black-car deliveries mid-shift |
-| Chilean Anomaly | Winter 2021–22 | [[wiki/people/valeria-iglesias-cid|Valeria]] "19yo heiress" (Dra. Loreto Cid); "total security breach"; basement hug (65A14E3A), Central Park kiss "best of times worst"; edits "pizza basketball," "I really think you might be the one"; "only time i ever cheated on annie that she didn't know" |
-| Alibi Architecture | 2021–23 (>18 mo) | "Night Class" 9pm fictitious schedule for peak hours + tips while abandoning closers; "Ambassador of the Shed" saboteur; DJ "**I bought it from outside**"; "HOW TO MAINTAIN A FICTITIOUS COLLEGE CAREER FOR EIGHTEEN MONTHS WHILE ACTIVELY PEAKING IN A BASEMENT" |
-| Sergio + Staff Schism | ~2022–23 | Sergio, 53yo Miami vet, "Wall of Mistrust," "Dude vs Kid" crumbled; "Nonsense Meeting" (Tarik/Ghassan); "Radical Skepticism" owners stealing; Tunisian "snitch" → "unholy chill" |
-| Tundra / Construction | Feb 2023–24 | "plywood anomaly"; "LITERAL WAR ZONE" jackhammer dust; "Battlefield Engineers" (Dimitri + DJ); "THERE. IS. NO. CONSTRUCTION INSIDE"; third winter outside only |
-| Terminal Outside + Exit | Aug 2024 | "they build the inside and i become the outside guy"; "3 tables per week … pocket that shit … Valeria"; "it was march 2021 to august 2024"; 41-month "Boosted Board" cash exit |
-| Meta / Invariant + Finale | Throughout | Annie "literal avatar of reliability" fired zero notice vs Dan's 2.5yr/41mo + siphon; "universe rewards the 'sonofabitch' over the 'proper'"; "Triad restored … simulation … vibrating at a frequency incompatible with survival"; "decentralized audit"; "Shed Era permanent pillar" |
-
-The full 20+ verbatim quotes and staff roster live at [[wiki/self/chats/gemini-00]] and [[wiki/self/chats/gemini-02]]; [[wiki/people/tarik-fallous]] holds the owner/co-owner view.
-
-**Gemini Additions (injector):** Tables/verbatim first. Sources updated. See /tmp/gemini-concepts-injection.md for full mapping (Ambassador/sonofabitch/Deep Arch). Multiple passes cross raw + wiki.
+**Gaps:** what, if anything, filled the intake-obsession slot these
+years (the era-marker series' one unidentified marker); DJ's and
+Dimitri's exits; whether any 2021 marker obsession is recoverable from
+the thin 2021 message record (the iMessage dump holds only 1,465 rows
+for 2021 and none in the November birthday window).

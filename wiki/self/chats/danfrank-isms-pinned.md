@@ -15,7 +15,6 @@ sources: [
 related: [
   "wiki/self/context-core",
   "wiki/self/chats/j6-chat",
-  "wiki/self/chats/gemini-02",
   "wiki/self/gemini-activity/gemini-activity",
   "wiki/mind/synthesis/political-psyops",
   "wiki/mind/concepts/forensic-method",

@@ -224,6 +224,7 @@ mother, which is itself data.
 | 2015– | High-volume family/financial thread begins in corpus |
 | 2017–2018 | Poverty-floor and deep-cycle years: $750/week lifeline |
 | 2020 | Move to Park Place Realty Group; best sales month on record |
+| 2021-11 | Visits NYC for Dan's birthday; Au Za'atar owners comp the whole menu ([[wiki/work/au-zaatar]]) |
 | 2025-02 | Dan returns to 337 Saratoga; property-work partnership resumes |
 | 2026-01 | "Suzy" call forensic node |
 | 2026-06 | 337 Saratoga under contract (Delverm, $465k, contingencies); 463 Morgantown role active |

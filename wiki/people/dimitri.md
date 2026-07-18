@@ -32,8 +32,9 @@ manager" and the Triad's oracle on the owners' moods, he appreciated Dan
 the way Tarik and Ghassan did "but dimitri was like... a real person." He
 is the one who insisted Dan move up from busser to server — the promotion
 that created the "Outside Guy" era — and he brought his own people with
-him, including [[wiki/people/ismaila-barry|DJ]]. He quit under the misery
-of working for Tarik, then returned ("WITH A STEEL CHAIR," in Dan's
+him, including [[wiki/people/ismaila-barry|DJ]]. His first stint lasted
+only about six months (per the Volume I storytime) before he quit under
+the misery of working for Tarik, then returned ("WITH A STEEL CHAIR," in Dan's
 telling) as co-manager alongside the Tunisian zoomer — knowingly re-entering
 a job he knew he'd quit again, "choosing the flooded basement over a quiet
 life." He likely mediated the recorded Sergio sit-down. The iMessage

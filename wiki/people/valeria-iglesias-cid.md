@@ -12,7 +12,9 @@ sources:
   - raw/self/dansynth/TheOnlyThingDanSlings.md
   - raw/self/dansynth/AuZaatarsFinalShift.md
   - raw/self/dox-md/Gemini-_00.md
+  - raw/self/dox-md/Gemini-_02.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
 related:
   - wiki/people/annie-ulmer
   - wiki/work/au-zaatar
@@ -49,9 +51,19 @@ verbatim: "would have literally moved to chile for her i swear to god."
 
 She worked the host stand at Au Za'atar Midtown while Dan ran the sidewalk
 Shed ([[wiki/work/au-zaatar]]); the "night class" alibi doubled as its
-cover. The documented peaks: the Central Park kiss and the secret basement
-reunion hug, both preserved on video; a "digital altar" of edited clips Dan
-admits he was "overdoing." The June 2022 messages catch the register —
+cover. She entered through Annie herself — Annie trained her as a hostess
+and told Dan "hey i trained a new hostess who is started at your
+restaurant" (a hand-off Dan calls "a kinda alexis-ish twist of events"),
+a fact Dan later restated to Annie's own handle in so many words ("that
+girl Valeria you trained at Au Zaatar," Nov 2024). The documented peaks:
+the Central Park kiss and the secret basement reunion hug, both preserved
+on video; a "digital altar" of edited clips Dan admits he was "overdoing"
+("i WAYYYY... overdo it with these girls" — he was making them daily).
+The basement hug was not spontaneous documentation: by his own account he
+planned the moment in advance and set up a **hidden camera** to film it —
+the orchestration/staging reflex
+([[wiki/mind/psychosexual/orchestration-and-voyeurism]]) running in
+courtship mode. The June 2022 messages catch the register —
 Valeria "worthy of like CONSTANT effort," himself a "stupid fat lazy skinny
 gringo," the state named a "Valeria infection." He watched her Instagram
 stories from a logged-out browser to avoid getting her in trouble, met her
@@ -72,7 +84,17 @@ by association.
 The IG corpus runs straight through the eras the wiki otherwise treats as
 closed: through the Au Za'atar wind-down, the [[wiki/people/eli|Eli]] discovery, the return to
 Uniontown, and the Annie terminal phase, contact persisted at low frequency
-— nail photos, "miss u," "too pretty stop it. omg im dead" (July 2025). At
+— nail photos, "miss u," "too pretty stop it. omg im dead" (July 2025).
+The iMessage dump adds a parallel SMS/iMessage channel at her Chilean
+number (+56...) with three dated anchors: a **September 2, 2023 "Hey I'm
+in ny"** return visit (Dan: "No way / Bienvenido"); a **November 3, 2024
+re-contact** that Dan immediately reported to Annie's own handle — "that
+girl Valeria you trained at Au Zaatar just messaged me right now... so
+apparently there is a god" — followed the same night by his reply to
+Valeria, "You remember how annoying it got last time I caught the valeria
+virus… do you really want to rope me back into crushing on you again?";
+and inbound rows as late as **July 17, 2025** ("The kiss 😂"), her
+Instagram handle sent by her that May. At
 some point Dan told the record she is "the person I am supposed to spend my
 life with." The February 2026 Gemini audit ("The Only Thing Dan Slings...")
 called the frame directly: "You aren't in love with Valeria; you're in love
@@ -99,8 +121,16 @@ queryable for the same reason the Eli page exists.
 > May 2022 – July 2025. The *physical/affair* era was winter 2021–22 to her
 > mid-2022 departure for Chile; the correspondence never closed.
 
+The affair's physical-era collapse also produced one of Dan's stated
+social laws: the norteño who made the pass was a *server*, and "my mexi
+cook buddies... would NEVER have done that shit to me" — the
+floor-staff-versus-kitchen loyalty split he carried forward as doctrine.
+
 **Gaps:** exact start (how/when the affair began before the IG thread's May
 2022 first message — the winter 2021–22 peak predates it, presumably on
 another channel); her current status and whether contact continued past
-July 2025; whether Annie ever learned of her; the "Norteno server"'s
-identity.
+July 2025; the "Norteno server"'s identity. The "whether Annie ever
+learned of her" gap is now **partially closed**: the Nov 3, 2024 message
+shows Dan openly telling Annie about the re-contact (and that Annie had
+trained her) — but whether Annie ever learned of the 2021–22 *affair*
+itself remains undocumented.

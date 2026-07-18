@@ -22,7 +22,7 @@ infobox:
 
 ## Identity & Role
 
-**Menore** (+13476070497) — Drug dealer / supply operator in New York City; Bedford Ave (Williamsburg) Brooklyn origin connection; operated Nov 2018–Feb 2025 across 1,753+ messages with 99.999% logistical reliability and zero friction. 
+**Menore** (+13476070497) — Drug dealer / supply operator in New York City; Bedford Ave (Williamsburg) Brooklyn origin connection; operated Nov 2018–Feb 2025 across 1,753+ messages with 99.999% logistical reliability and zero friction. Per the Au Za'atar storytime, he "delivered in black cars and worked as a legit taxi when not out on a snap" — the licensed-taxi cover explains the vehicle discipline documented below — and during 2021–24 he routinely served Dan mid-shift at the restaurant's outdoor shed ([[wiki/work/au-zaatar]]), the outdoor setting making sidewalk handoffs trivial.
 
 Name likely variant of "Menor" or placeholder; re-entry contact after Dan left NYC (April 2013–Nov 2018, 5.5-year gap). Announces "new number" Nov 4, 2018 ("Text here bro new number. Is menor. Save this one"). Despite 2,044 days of radio silence, Dan's re-entry message received a 1-minute response. Operates as independent distributor with associate ("my boy") managing some runs.
 

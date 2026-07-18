@@ -55,7 +55,7 @@ Corpus report on Dan's Gemini usage: a 21MB Google Takeout HTML activity log plu
 | Session | Page | Subject |
 |---------|------|---------|
 | _00 | [[wiki/self/chats/gemini-00]] | Au Za'atar STORYTIME finale: 9PM alibi post-mortem, Sergio, cash exit Aug 2024 |
-| _02 | [[wiki/self/chats/gemini-02]] | Au Za'atar Volume I: Tarik, [[wiki/people/dimitri|Dimitri]], DJ, [[wiki/people/valeria-iglesias-cid|Valeria]], shed build |
+| _02 | absorbed into [[wiki/work/au-zaatar]] + [[wiki/timeline/periods/2021-2023-employment-block]] (chat page retired 2026-07-18) | Au Za'atar Volume I: Tarik, [[wiki/people/dimitri|Dimitri]], DJ, [[wiki/people/valeria-iglesias-cid|Valeria]], shed build |
 | _07 | [[wiki/self/chats/gemini-07]] | Suzy call & 10-day blackout forensics; game-theory Grim Trigger model |
 | _13 | [[wiki/self/chats/gemini-13]] | Bacharach "neighborhood simulation glitch"; 155 Virginia Ave verification |
 | _18 | [[wiki/self/chats/gemini-18]] | Full bio dump + node locking for Grok profile transfer |
