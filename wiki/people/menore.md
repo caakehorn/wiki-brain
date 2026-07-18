@@ -60,7 +60,7 @@ Name likely variant of "Menor" or placeholder; re-entry contact after Dan left N
 **Phase 2: Brooklyn move & intensive supply (Feb–Apr 2019)**
 - Dan moves to 46 Nevins St, Brooklyn (Feb 12, 2019)
 - Daily or near-daily contact Feb 12–Apr 19 (~70 consecutive requests)
-- Then moves to 307 E 76th St Manhattan (Feb 25 onwards)
+- Then moves to [[wiki/places/307-e-76th-st|307 E 76th St]] Manhattan (Feb 25 onwards)
 - Near-daily service at the March 2019 peak (measured max: 2 confirmed meetings/day)
 - Consistent request: "Can u stop by when you get started" (evening)
 - Menore operates with near-clockwork precision: March 2-Apr 7 shows zero cancelled/delayed runs

@@ -102,6 +102,24 @@ relational side (top handle = 45% of all sent messages, only 12 contacts
 ever cross 1k), and it has the same consequence: a single-node system
 converts any node failure into a system crisis.
 
+Beyond the named primary nodes, the record preserves a **minor-node
+layer** that fills out the market's true shape: [[wiki/people/al|Al]]
+(2018 cocaine, saved in contacts as "Socialist"),
+[[wiki/people/jajuan-davis|Jajuan Davis]] (high-frequency transactional,
+winter 2018–19), [[wiki/people/john-anderson|John Anderson]] (2019),
+[[wiki/people/eric-springer|Eric Springer]] (a one-month 2016 window),
+[[wiki/people/lindsay-carolla|Lindsay Carolla]] (small-scale cocaine,
+Thanksgiving 2016), [[wiki/people/jay-lauer|Jay Lauer]] (a seven-week
+suboxone/cocaine *trading* peer rather than a vendor),
+[[wiki/people/jim-vrabel|Jim Vrabel]] (marijuana, two and a half years,
+closer to a regular acquaintance), and in NYC
+[[wiki/people/clyde|Clyde]] (psychedelics: LSD, DMT, mushrooms — a
+separate product line from Menore's). None carried structural load — no
+minor node's failure produced a documented crisis — but their existence
+is the point: the 2016–19 network had *depth*, and the 2025–26 network
+had none. The redundancy the system lost by the terminal era is
+measured in exactly these names.
+
 ## The reliability inversion
 
 Ranked by documented reliability, the network's nodes sort in a

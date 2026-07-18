@@ -156,7 +156,10 @@ promises to bring subs after "weed whacking," goes silent for hours while
 Dan escalates from "Tom / What the uck" through repeated unanswered pings to
 "Come on dude seriously" to "Fuck you dude" — Dan facing a real consequence
 (calling off work, risk of termination) from the no-show. By May 18 Dan has
-apparently blocked Tom and unblocks him only to set an ultimatum ("I'm
+apparently blocked Tom and unblocks him only to set an ultimatum — the
+[[wiki/mind/synthesis/block-unblock-loop|block/unblock loop]] running on a
+peer bond, and failing to hold for exactly the reason that page argues
+(the supply dependency still ran through the channel) ("I'm
 unblocking you for the moment — if you want to let me know what's going on
 this morning I'll keep it open otherwise fuck you"), then pivots the same day
 to a straight financial demand: "How long will it take you to get the $36

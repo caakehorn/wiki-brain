@@ -297,3 +297,11 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - **ORDER-CONSISTENT, still [DERIVED]:** 127/110 (loose exit-lexicon: 176 candidates); 94-burst (2-min-gap runs: 11,666 ≥3, max 149 through Aug 2025; parameters unstated in dossier); 232 "fuck you" (111 through Aug 2025 + verified 74 in-window → plausible).
 - **RE-CONFIRMED ABSENT:** Eli intro text (full raw/ re-grep — dossier-only); 768-on-05-31 (closure export still 265 Sent / 482 total).
 - Bonus ledger fact: his in-window apologies = 121. Gates 0 errors.
+
+## [2026-07-18] triage | people+mind | LONG-TAIL TRIAGE — one-time judgment pass, islands 45 → 20
+- Full verdict record in LONG_TAIL_TRIAGE.md (repo root) — decisions are settled; future models execute, not re-litigate.
+- **Wired (inbound prose edges):** 8 minor supply nodes → new minor-node layer paragraph on supply-network.md (the redundancy the system lost, measured in names); 6 caddie-cohort pages → new "caddie-yard social graph" section on nemacolin-caddying.md (caddying = the last era in which work generated friendships in bulk); manuel → au-zaatar cast; fastly-fsly → market-era; block-unblock-loop → tom.md prose; 307-e-76th-st → menore.md.
+- **steve-kezmarsky.md REWRITTEN** from swarm template to full prose: high-school-era golf friend, "our friendship is based on my sickness," thread ends Jan 2018, dead by Dec 2018 (via Jim Shaffer thread — inverse edges on new-jim-shaffer/golf/nemacolin). One more of the unstarted-stub list done.
+- **Demoted to contacts/ quarantine:** rod-banks, slim, zach, zach-clabaugh, tan-calabrese, zach-hendricks (merged with zaco — same handle +17249123381, zaco.md deleted), caviar (not a person — automated dispatch number). **Deleted:** brandon.md (pointer dup of brandon-hill). people/index.md rows cleaned.
+- **Delegated (standing verdicts in LONG_TAIL_TRIAGE.md):** MINE sam(374)/davey-fitzpatrick(382)/vaughn(228)/nick-mattie(170); REWRITE-OPENER jason-bermejo; ACCEPTED-LEAF list (11 real mini-profiles, deliberate); chats/ backlog unchanged.
+- Gates: wiki-lint 0 errors; wiki-connect 0 errors, islands 45 → 20.

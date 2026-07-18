@@ -120,7 +120,7 @@ did not survive past the job; see [[wiki/people/felipe]] for the
 correction. [[wiki/people/suzanne-frank|Suz]] visited for Dan's birthday
 (November 2021) and the owners comped the whole menu — "typical lebanese
 hospitality." Around them, the documented
-cast: **Sergio**, a 53-year-old Miami service veteran whose war with Dan
+cast: [[wiki/people/manuel|Manuel]], a coworker whose thread opens with an October shift-swap; **Sergio**, a 53-year-old Miami service veteran whose war with Dan
 over the word "dude" escalated into a "nonsense meeting" with Tarik and
 Ghassan conducted in tooth-loss analogies; a **Tunisian zoomer manager**
 who tried to fire Dan for tip-siphoning on Thanksgiving 2023 — and failed,

@@ -32,7 +32,7 @@ incidental: this is the same window as the pandemic's "micro-radius siege"
 and GPS mobility collapse documented in
 [[wiki/timeline/periods/covid-era-2020]] — the market became a new outlet
 for an engine that had lost its normal environmental inputs. It began when childhood
-friend [[wiki/people/jerad-friedline]] passed the FSLY tip and Dan dumped
+friend [[wiki/people/jerad-friedline]] passed the FSLY tip ([[wiki/work/fastly-fsly]] holds the trade-level detail) and Dan dumped
 his portfolio (~$15k) into 112 shares of Fastly, taking a quick ~$4k profit
 — then evangelized the tip onward, in classic form, to a friend who started
 calling in daily gains.

@@ -3,7 +3,7 @@ domain: interests
 page_type: summary
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -12,6 +12,9 @@ sources:
 tags: [family, uniontown-era, relationships]
 knowledge: mixed
 connections:
+  - page: wiki/people/steve-kezmarsky
+    type: evidenced-by
+    claim: "The Kezmarsky thread is a working exhibit of golf as the connective tissue of the Uniontown male friendships — club talk, stolen Scotty Cameron, vicarious rounds, a caddying ask."
   - page: wiki/mind/synthesis/interests-as-era-markers
     type: instantiates
     claim: "The 2016–19 era-marker where the interest literally was the era: sport, social world, and primary paycheck at once through the caddying years."
