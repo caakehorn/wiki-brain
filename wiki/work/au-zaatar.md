@@ -4,7 +4,7 @@ page_type: event
 title: "Au Za'atar (NYC, ~2021–2024)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 sources:
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/TheWaitersVisibleHigh.md
@@ -32,6 +32,12 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The 41-month audit posture — and Dan's own documented sabotage — are this page's contribution to the skepticism model."
+  - page: wiki/mind/synthesis/supply-network
+    type: co-occurs
+    claim: "The supply network wrapped around this workday for three years: Menore delivered mid-shift to the Shed through taxi windows, procurement and employment sharing the same physical territory."
+  - page: wiki/people/menore
+    type: supplied-by
+    claim: "Menore was the standing mid-shift supply line to the Shed, his legit-taxi cover making the workday sidewalk handoffs trivial for three years."
 ---
 
 

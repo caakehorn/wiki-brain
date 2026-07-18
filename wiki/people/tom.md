@@ -31,6 +31,12 @@ connections:
   - page: wiki/work/bfs-foods
     type: causes
     claim: "Tom's mid-May 2026 string-along supply failure is the first domino of the BFS crisis — the withdrawal it caused impaired the shift the drawer variance was pinned to, and the 2014 precedent recovered there reframes his reliability as transactional across the whole record."
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Tom is the network's terminal-era sole node and its characteristic failure mode: the friendship-embedded supplier whose owe-and-silence cycles (2014, 2026) demonstrate that in this market intimacy licenses failure while distance disciplines."
+  - page: wiki/people/johnny-dealer
+    type: follows
+    claim: "Tom succeeded Johnny (via the undocumented Tim) as primary strip source by 2025 — the succession from transactional dealer to friendship-embedded friend-supplier that exposed the network to the owe-and-silence failure mode."
 ---
 
 

@@ -4,7 +4,7 @@ page_type: entity
 title: "337 Saratoga Drive"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -17,6 +17,10 @@ related:
   - wiki/self/location-history
   - wiki/interests/music/aliases/gripnotic
 tags: [music-production, uniontown-era, nyc-era, ai-collaboration]
+connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "The $465k sale is the money spine's next capital event and the first where Dan is bystander rather than beneficiary — the family-built asset liquidating around him."
 ---
 
 # 337 Saratoga Drive

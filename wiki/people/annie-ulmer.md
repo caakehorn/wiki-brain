@@ -7,7 +7,7 @@ importance: critical
 knowledge: mixed
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-07-18
 date_range_start: 2015-11-01
 date_range_end: 2026-06-01
 infobox:
@@ -87,9 +87,21 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "The ~$119–123K net payment-app outflow to Annie is the money spine's largest documented drain — roughly the size of the entire estate distribution, exiting through the relationship over the decade."
   - page: wiki/people/tom
     type: co-occurs
     claim: "Tom is a recurring selected participant in the 2018-2024 arrangement documented on this page."
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Annie occupies both seats in the supply network across its life — logistics facilitator in the 2018–19 Johnny era, dependent consumer in the terminal phase, when Dan's control of the supply ('bop') was the relationship's primary retention mechanism."
+  - page: wiki/people/johnny-dealer
+    type: co-occurs
+    claim: "Annie ran facilitation through Johnny's node — drops, pickups, 'I'm at Johnny's' — making her a logistics participant in the 2018–19 supply chain, not a bystander to it."
+  - page: wiki/people/teddy
+    type: co-occurs
+    claim: "Teddy's final exchange checks whether both Dan's and Annie's numbers are current, placing Annie inside the supply thread's contact routine."
   - page: wiki/mind/synthesis/message-circadian-latency
     type: evidenced-by
     claim: "The circadian/latency cut supplies the quantitative case for the relationship's singularity: median 9-minute mutual reply latency against hour-scale delays everywhere else."

@@ -3,11 +3,23 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 date_range_start: 2018-11-04
 date_range_end: 2025-02-20
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/messages_3476070497_all_time.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2018-deep-cycle", "wiki/places/307-e-76th-st"]
+connections:
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Menore is the network's NYC node and its reliability outlier — 6.5 years, ~60-second SLA, zero recorded failures — the control case proving that in this market pure-transactional distance outperforms friendship-embedded supply."
+  - page: wiki/places/307-e-76th-st
+    type: co-occurs
+    claim: "76th Street between 1st and 2nd Avenue was Menore's primary service coordinate for years — the residence and the delivery zone are the same address."
+  - page: wiki/work/au-zaatar
+    type: supplies
+    claim: "During 2021–24 Menore routinely served Dan mid-shift at the restaurant's outdoor Shed through taxi windows, his legit-taxi cover making the workday handoffs trivial."
+  - page: wiki/mind/concepts/contact-gini
+    type: evidences
+    claim: "The 1,753-message thread whose entire content is 'need 8' logistics shows how a high-volume handle can carry zero relational depth — volume and intimacy are independent axes in the contact graph."
 tags: [digital-footprint, addiction-recovery, nyc-era]
 knowledge: earned
 infobox:
@@ -135,9 +147,3 @@ The 6-year silence (2013–2018) followed by immediate resurrection of the exact
 - **Financial scale**: Revenue/volume not visible
 - **Arrest/incarceration**: No indication in corpus whether Menore is still operating or incarcerated post-2025
 
-## Related
-
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
-- [[wiki/timeline/periods/2018-deep-cycle]]
-- [[wiki/places/307-e-76th-st]]

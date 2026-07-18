@@ -3,7 +3,7 @@ domain: timeline
 page_type: period
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-07-18
 infobox:
   name: 2025 Collapse
   type: Period
@@ -39,6 +39,9 @@ related: [
 ]
 tags: [ai-collaboration, nyc-era, trauma-bond, uniontown-era]
 connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "This period carries the spine's terminal accounting: the three-rotation earner see-saw, the 2026 broke status, and the PA return framed as escaping metropolitan financial drains."
   - page: wiki/people/tom
     type: supplied-by
     claim: "Tom is the period's simultaneous crisis anchor and supply line; the dual role sets up the spring 2026 rupture."

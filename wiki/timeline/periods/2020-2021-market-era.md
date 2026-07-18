@@ -4,7 +4,7 @@ page_type: period
 title: "2020–2021 Market Era"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-18
 sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -15,6 +15,10 @@ related:
   - wiki/timeline/periods/2021-2023-employment-block
   - wiki/timeline/periods/covid-era-2020
 tags: [career, addiction-recovery]
+connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "The market era opens within weeks of the Sept 1 2020 estate check — the inheritance is the probable stake behind the ~$15k FSLY position and the $25k Robinhood peak, a temporal join flagged as inference on the spine page."
 ---
 
 # 2020–2021 Market Era

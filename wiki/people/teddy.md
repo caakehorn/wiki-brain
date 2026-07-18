@@ -4,16 +4,24 @@ page_type: entity
 title: "Teddy"
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-18
 date_range_start: 2018-02-20
 date_range_end: 2020-02-11
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
-related:
-  - wiki/people/johnny-dealer
-  - wiki/people/annie-ulmer
-  - wiki/self/message-corpora/master-message-dump
-  - wiki/mind/concepts/contact-gini
+connections:
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Teddy is the network's 2018–20 Uniontown parallel node, whose fines, probation, and borrowing show the suppliers were as financially fragile as the buyer — precarity ran the whole chain."
+  - page: wiki/people/johnny-dealer
+    type: parallels
+    claim: "Johnny and Teddy are concurrent 2018 Uniontown nodes in the same market — Johnny the higher-volume primary, Teddy the accommodating secondary who held stock and extended credit — together constituting the deep cycle's redundancy layer."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Teddy's final exchange (Feb 2020) checks whether both Dan's and Annie's numbers are current, placing Annie inside the supply thread's contact routine rather than outside it."
+  - page: wiki/timeline/periods/2018-deep-cycle
+    type: component-of
+    claim: "Teddy's thread opens February 2018, at the onset of the deep cycle's multi-dealer configuration, and his logistics geography (country club, Fairchance) maps the cycle's Uniontown terrain."
 tags: [addiction-recovery, financial-stress, uniontown-era, digital-footprint]
 knowledge: mixed
 infobox:

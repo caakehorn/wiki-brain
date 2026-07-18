@@ -6,7 +6,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-22
+date_modified: 2026-07-18
 infobox:
   name: Suzanne Frank
   status: Active
@@ -36,6 +36,9 @@ sources:
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "Suz is the money spine's switchboard: the estate check deposited through her, the $750/week borrowing cycles, the supply-era Cash App facilitation, and the 337 sale she executes as owner-realtor — every major flow passes through her."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: causes
     claim: "The maternal half of the 2005 hinge completes the both-verticals-concealing template."
