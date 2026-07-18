@@ -20,7 +20,7 @@ the `dump_contact.py` full-thread method, write the story),
 | manuel | WIRED | Named in the Au Za'atar ecosystem cast |
 | fastly-fsly | WIRED | Linked from 2020-2021-market-era |
 | steve-kezmarsky | REWRITTEN | Full prose page (deceased 2018; golf/caddying/Jim-Shaffer edges) |
-| mnd/synthesis/block-unblock-loop, places/307-e-76th-st | WIRED | Prose links from tom.md / menore.md |
+| mind/synthesis/block-unblock-loop, places/307-e-76th-st | WIRED | Prose links from tom.md / menore.md |
 | rod-banks, slim, zach, zach-clabaugh, tan-calabrese | DEMOTED | Moved to contacts/ (≤60 msgs, no story recoverable without a mining pass) |
 | zach-hendricks (+ zaco) | MERGED+DEMOTED | Same person/handle +17249123381; zaco.md deleted, stub moved to contacts/ |
 | caviar | DEMOTED | Not a person (automated dispatch number); kept as gig-work artifact in contacts/ |
