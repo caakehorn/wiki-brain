@@ -95,6 +95,14 @@ Git is the history mechanism. Commit after every ingest with message
   facts, file upload (`-f`), and `status` (inbox listing).
 - `bin/export-corpus` — concatenates the wiki (optionally raw/ and inbox/)
   into a single markdown file for LLM ingestion, with a token estimate.
+- `bin/llm-publish` — builds `llm/`, the public LLM access point served by
+  GitHub Pages: `llm/index.txt` (the one URL to hand any model — plain-text
+  instructions + per-page URL manifest), `llm/corpus.txt` (whole wiki, one
+  file), `llm/manifest.json`, and `llm/pages/**.txt` (one plain-text file
+  per page; .txt bypasses Jekyll). Unlike exports/, **`llm/` is
+  generated-but-COMMITTED** — rerun `bin/llm-publish` after any content
+  pass and commit the diff so the published copy tracks the wiki.
+  Entry point: `https://caakehorn.github.io/wiki-brain/llm/index.txt`.
 
 ## The operations
 
