@@ -243,6 +243,8 @@ the final vigil and managed the Ira-estate accounts, making him the
 named institutional node of the family's capital.
 
 **Gaps:** identity of the coal-baron husband and where he falls in the
-marital sequence; confirmation that Ira is the Judge Fred Adams law-practice
-figure; the exact NS7 gift date; identity of the "grandmother" Dan asked
-about as a potential objector to the 2020 estate distribution.
+marital sequence; the exact NS7 gift date; identity of the "grandmother"
+Dan asked about as a potential objector to the 2020 estate distribution;
+the date of the Everglades tarpon and whether the "perfect bowling"
+reference in the Photo Thread denotes a game beyond the documented
+Manor Lanes 200.
