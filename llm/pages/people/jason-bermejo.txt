@@ -6,9 +6,25 @@ date_created: 2026-06-23
 date_modified: 2026-07-19
 date_range_start: 2017-01-20
 date_range_end: 2026-03-21
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_export_+18172693422_20260714055318.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/people/eric-jester"]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/message-csv/imessage_export_+18172693422_20260714055318.csv"
+  - "raw/self/message-csv/interspersed_messages.csv"
+  - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
 tags: [digital-footprint, music-production, addiction-recovery, relationships, uniontown-era]
+connections:
+  - page: wiki/people/eric-jester
+    type: co-occurs
+    claim: "Jason and Eric are both named in Dan's own 2025 'Florida head' rundown of the Full Sail cohort — the two threads independently corroborate the same four-person friend group."
+  - page: wiki/people/matt-dunn
+    type: co-occurs
+    claim: "Dunn is named alongside Jester and Mohler in the same Sept/Oct 2025 exchanges, confirming the four-person Full Sail cohort from Jason's own side of the corpus."
+  - page: wiki/people/jamie-mohler
+    type: co-occurs
+    claim: "Jason's Oct 6, 2025 exchange ('Mohler = a literal woman' / 'Haha she badass') is the primary corpus corroboration of Mohler's transition, delivered as a casual, unremarkable update inside the Full Sail friend group."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: instance-of
+    claim: "The friendship is the era's clearest survivor: a formative-era bond that never needed repair to resume, still active fifteen years later at its all-time message-volume peak."
 knowledge: earned
 infobox:
   name: "Jason Bermejo"
@@ -97,17 +113,30 @@ Dan describes him as a gateway to "a different style of music that still resonat
 
 ## Social Graph & Shared History
 
+> **REVISED [2026-07-19]:** This section previously listed "Jamie
+> Mohler" as Jason's current girlfriend. That was a misread of a
+> single out-of-context corpus line. In full context (2025-10-06,
+> Jason's thread), Dan is telling Jason which Full Sail-era friends his
+> mother still remembers — "Jester = forgettable / Dunn = gross and
+> forgettable / Mohler = a literal woman" — to which Jason answers
+> "Haha she badass." Mohler (now Jamie, per the operator; pre-2023
+> known as Jim) is a **fourth member of the same Full Sail friend
+> group**, not Jason's partner. See [[wiki/people/jamie-mohler]] for
+> the full page.
+
 **Shared circle (2009–2015 Full Sail / Orlando era)**:
 - **Spetch** — another close friend, part of same cohort; currently with girlfriend in Texas
 - **Johnny** — "follower" type who would bite Jason's swag, looked up to him; shared music interests; Dan thinks Johnny was "low key follower" who absorbed swag but it worked
-- **Jester** — [[wiki/people/eric-jester|Eric Jester]], shorter than Dan and Jason, part of Full Sail cohort; his own thread confirms he was in the 2019 group chat Dan set up to "roast" Jason around his engagement
+- **[[wiki/people/eric-jester|Eric Jester]]** — shorter than Dan and Jason, part of Full Sail cohort; his own thread confirms he was in the 2019 group chat Dan set up to "roast" Jason around his engagement
 - **Ross Lara** — "the world's first fuccboi," EDM kid at Full Sail, source of derision
-- **Matt Dunn** — "world's most annoying man woman or child," Full Sail era
+- **[[wiki/people/matt-dunn|Matt Dunn]]** — "world's most annoying man woman or child," Full Sail era
 - **Oscar** — Ran into Oscar years later in NYC (impossible coincidence in 9M person city); was waiting tables, Oscar showed up at Dan's table
 - **Alexis** — Dan's ex, met Thanksgiving break (3 days in hometown), moved in with Dan. Dan is genuinely proud of the "Alexis situation" (left her for another girl, got both to hook up). Described as hot but transactional/unreliable. Nearly killed with Jason when attempted heroin buy went bad.
 - **Donato "Steez McQueen"** — Died 2022 (fentanyl-laced xanax, implied); wore Steve McQueen Alexander McQueen jackets; made beats like J Dilla and Nujabes
 - **Gabe** — A cat, not a person: died 2023-10-30 ("I had to put gabe down today"), confirmed by [[wiki/people/eric-jester|Eric Jester]]'s independent same-date message ("I'm so sorry man. He was the cat that made me love cats!")
-- **Jamie Mohler** — Current girlfriend of Jason (mentioned 2025-2026)
+- **[[wiki/people/jamie-mohler|Jamie Mohler]]** — fellow Full Sail
+  friend, not a girlfriend (see REVISED note below); part of the same
+  named cohort as Dunn and Jester in Dan's own 2025 messages
 - **Kayden** — Someone in photos from the heroin-attempt era
 - **Mike Marino** — Knew him in Florida, wishes had photos to prove it
 
@@ -152,15 +181,8 @@ Dan describes him as a gateway to "a different style of music that still resonat
 
 - Full timeline of how they met (likely Full Sail, ~2009) not explicit in corpus but strongly implied
 - Current Jason location: Texas (likely Austin or DFW area based on references)
-- Ex-girlfriend mentioned (Feb 2026) but not named
-- Jason's current relationship status: with Jamie Mohler (2025–2026)
+- Ex-girlfriend mentioned (Feb 2026) but not named; current girlfriend also unnamed in corpus
 - Last message: 2026-03-21 (gap since February spike suggests lower contact post-winter)
 - Music output / release status: unclear if Jason has released material or remains hobbyist
 - Full Sail attendance dates: ~2009-2011 implied
 
-## Related
-
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
-- [[wiki/interests/music/overview|Music production]]
-- [[wiki/timeline/periods/full-sail-2008-2010|Full Sail era]]

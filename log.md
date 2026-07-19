@@ -335,3 +335,13 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 
 ## [2026-07-19] correct | people | MMF encounter date → Oct 20, 2019 (operator)
 - Operator correction: the filmed MMF with Bryan took place 2019-10-20, not the 10-21 previously inferred from the Oct 22 "last night" message. Updated bryan-5088682461, arrangement-history, tuquick, brian hatnote, erotic-architecture, people index; REVISED block on bryan page records the one-day tension with the corpus phrasing. Capture note appended.
+
+## [2026-07-19] ingest | people | Full Sail friend group — matt-dunn, jamie-mohler (new); jason-bermejo, eric-jester (expanded)
+- Per operator directive: worked the college (Full Sail) friend group — Jason Bermejo, Eric Jester, Matt Dunn, Jim/Jamie Mohler.
+- NEW matt-dunn.md: Full Sail cohort member, no direct thread; mined from Jester/Bermejo threads (annual $5 birthday Venmo bit, Nov 2018 Orlando visit, "gross and forgettable").
+- NEW jamie-mohler.md: NYC-1 friend, present per operator the day Dan first met Menore. Facebook address-book search (per operator request) surfaced a direct contact card (Jim Mohler, +12073101169, audiocranium@msn.com) which led to a genuine primary-source find in gmail_bodies.txt — a 2011 Google Talk chat log ("Jimbo Slice") placing her at the NYC-1 household during Occupy Wall Street, independently corroborated by Alexis's own Aug 2011 Gchat. Transition (~2023, now female) corroborated by two 2025 Jason Bermejo thread lines ("Mohler = a literal woman" / "Haha she badass"; "ms. Jamie Mohler").
+- CORRECTION: jason-bermejo.md previously mislabeled Mohler as "current girlfriend of Jason" — a misread of a single out-of-context line. REVISED block applied; corrected to fellow Full Sail cohort member.
+- eric-jester.md expanded (Dunn's Nov 2018 sighting, the Venmo bit, typed connections replacing bare related:/footer).
+- Wired into wiki/timeline/periods/full-sail-2008-2010.md (new "The friend group" section) and 2010s.md (NYC-1 key contacts); menore.md gains the NYC-1 pre-history note.
+- Capture note: raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md.
+- Gates: wiki-lint 0 errors (312 pages), wiki-connect check 0 errors. llm/ regenerated.

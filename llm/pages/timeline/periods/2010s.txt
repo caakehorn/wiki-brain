@@ -7,7 +7,12 @@ date_created: 2026-07-02
 date_modified: 2026-07-18
 date_range_start: 2010-04-01
 date_range_end: 2013-05-31
-sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
+sources:
+  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/facebook/facebook-ihatedanfrank/
+  - raw/self/dox-scan/Gemini-_58.txt
+  - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
+  - raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md
 tags: [relationships, nyc-era, addiction-recovery]
 connections:
   - page: wiki/timeline/periods/full-sail-2008-2010
@@ -22,6 +27,9 @@ connections:
   - page: wiki/health/chemical-architecture
     type: contains
     claim: "The daily Suboxone maintenance chassis begins at the front edge of this period (~Jan 2010 [MEM] / Jan 2011 [legacy docs] — the one-year discrepancy is still unresolved), making NYC-1 the start of the fifteen-year regimen."
+  - page: wiki/people/jamie-mohler
+    type: contains
+    claim: "Jamie, per the operator, shared the NYC-1 years with Dan and was present the day he first met Menore — the original introduction to the dealer who becomes the supply network's most reliable node, years before the documented 2018 reconnection."
 ---
 
 # NYC Round One (2010–2013)
@@ -90,6 +98,11 @@ dated attendance anchor.
 
 - [[wiki/people/alexis-armel]] — the defining relationship of the era;
   the whole-NYC-1 cohabitation.
+- [[wiki/people/jamie-mohler]] — Full Sail friend confirmed by a 2011
+  Gchat log as a regular presence in the Brooklyn household during
+  Occupy Wall Street; per the operator, also present the day Dan first
+  met [[wiki/people/menore|Menore]] (that specific claim remains
+  operator-attested — no message thread documents the meeting itself).
 - [[wiki/people/ally-lubin]] — 2013 message burst.
 - [[wiki/people/charles-davenport]] — early NYC-move contact (2010).
 - [[wiki/people/marc-charles]], [[wiki/people/sean-teets]],

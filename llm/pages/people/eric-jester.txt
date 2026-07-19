@@ -3,23 +3,44 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2017-05-08
 date_range_end: 2025-08-15
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/jason-bermejo", "wiki/people/trinity-st-clair", "wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-dump"]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/message-csv/interspersed_messages.csv"
 tags: [relationships, uniontown-era]
 knowledge: mixed
 infobox:
   name: "Eric Jester"
-  relationship_to_dan: unknown
+  sex: male
+  location: remote
+  relationship_to_dan: friend
+  role: "Film/TV industry crew"
   first_contact: 2017-05-08
-  known_for: "Eric Jester is a Full Sail film-school friend (contacts notes: 'sandwich eater. dream killer.') whose sparse but genuine"
+  handles: ["+14137703708"]
+  known_for: "Full Sail film-school friend; decade-spanning check-ins that resume exactly where they left off; independent corroboration of the Trinity St. Clair booking and Fran's death"
+connections:
+  - page: wiki/people/jason-bermejo
+    type: co-occurs
+    claim: "Eric and Jason are both named in Dan's own 2025 'Florida head' rundown of the Full Sail cohort — the two threads independently corroborate the same four-person friend group."
+  - page: wiki/people/matt-dunn
+    type: co-occurs
+    claim: "The annual $5 birthday Venmo request — 'Of course I pay it' — is the cohort's longest-running documented bit, corroborated identically from both Eric's and Jason's threads a year apart."
+  - page: wiki/people/trinity-st-clair
+    type: evidenced-by
+    claim: "Dan's April 8, 2019 message to Eric ('paid $1500 last week to have pornstar trinity st clair come hang out with my girlfriend and i') independently corroborates the booking cost and dates it to late March 2019, a figure not preserved in Trinity's own thread."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: evidenced-by
+    claim: "Eric's April 2018 condolence, drawing a parallel to his own grandfather's death, is an outside-the-family reaction to Fran's passing that corroborates the vigil's emotional weight beyond the household."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: instance-of
+    claim: "The friendship is the era's clearest survivor: sparse but genuinely warm check-ins that resume exactly where they left off across nearly a decade, with no repair ever needed."
 ---
 
 # Eric Jester
 
-Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose sparse but genuinely warm thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — check-ins that resurface every year or two, each one picking back up exactly where the last left off, alongside shared friends [[wiki/people/jason-bermejo|Jason Bermejo]] and "Dunn" from the same Orlando/Full Sail cohort.
+Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose sparse but genuinely warm thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — check-ins that resurface every year or two, each one picking back up exactly where the last left off, alongside shared friends [[wiki/people/jason-bermejo|Jason Bermejo]], [[wiki/people/matt-dunn|Matt Dunn]], and [[wiki/people/jamie-mohler|Jamie Mohler]] from the same Orlando/Full Sail cohort — a four-person friend group named identically and independently in both Eric's and Jason's threads years apart.
 
 ## The relationship
 
@@ -27,7 +48,14 @@ Eric works in the film/TV industry as a bartender-adjacent crew role, living in 
 
 The April 8, 2019 engagement exchange also carries independent corroboration of the [[wiki/people/trinity-st-clair|Trinity St. Clair]] booking documented separately in her own thread: Dan tells Eric he'd "paid $1500 last week to have pornstar trinity st clair come hang out with my girlfriend and i for exactly one hour" — a specific figure not preserved in Trinity's own messages, dating the encounter to roughly the last week of March 2019, consistent with the window her thread covers.
 
-A recurring bit through 2025: Matt Dunn Venmo-requesting Eric $5 every year on his birthday, without fail, which Eric always pays.
+A recurring bit through 2025: [[wiki/people/matt-dunn|Matt Dunn]] Venmo-requesting Eric $5 every year on his birthday, without fail, which Eric always pays ("Every damn year. And it's always $5. Of course I pay it," April 22, 2025) — the cohort's longest-running documented joke, independently confirmed a year later from Jason's side of the friend group.
+
+Eric also supplies the only pre-2025 dated sighting of Dunn as an
+active presence rather than a punchline: on November 16, 2018 he
+reports "Dunn is down in that neighborhood right now… He was snapping
+me videos of full sail" — Dunn back at the Orlando campus itself,
+sending unprompted nostalgia footage seven years after the cohort's
+own attendance window.
 
 ## Corpus Dimensions
 
@@ -37,7 +65,3 @@ A recurring bit through 2025: Matt Dunn Venmo-requesting Eric $5 every year on h
 | Date range | 2017-05-08 to 2025-08-15 |
 | Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Eric to Dan) |
 | Handle | +14137703708 |
-
-## Related
-
-[[wiki/people/jason-bermejo]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/annie-ulmer]] · [[wiki/self/message-corpora/master-message-dump]]
