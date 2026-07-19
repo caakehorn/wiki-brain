@@ -54,9 +54,10 @@ def page_title(text, fallback):
 
 
 def one_line_summary(text):
-    """First non-empty prose line after the H1, trimmed."""
+    """First prose paragraph after the H1 (wrapped lines joined), trimmed."""
     seen_h1 = False
     in_fm = False
+    para = []
     for i, line in enumerate(text.splitlines()):
         s = line.strip()
         if i == 0 and s == "---":
@@ -69,9 +70,17 @@ def one_line_summary(text):
         if s.startswith("# "):
             seen_h1 = True
             continue
-        if seen_h1 and s and not s.startswith(("#", "|", ">", "-", "!", "[")):
-            return (s[:157] + "...") if len(s) > 160 else s
-    return ""
+        if not seen_h1:
+            continue
+        if s and not s.startswith(("#", "|", ">", "-", "!", "[")):
+            para.append(s)
+            continue
+        if para:
+            break
+    if not para:
+        return ""
+    s = " ".join(para)
+    return (s[:157] + "...") if len(s) > 160 else s
 
 
 def main():
