@@ -4,4 +4,5 @@ site/
 corpus_*.md
 .gdrive-*.txt
 .README.md.swp
-.hermes-tmp*__pycache__/
+.hermes-tmp*
+__pycache__/
