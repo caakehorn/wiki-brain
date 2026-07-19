@@ -53,7 +53,7 @@ exist here"); by April 14 the conversation turns political — "i still
 vote in PA and subsequently feel like, extra responsible about it...but
 i do not think i can vote biden in november... i feel so gross giving
 my vote to the corporate DNC forces that spoiled the nomination process"
-— an unresolved-holdout position dated a full four months before the
+— an unresolved-holdout position dated more than six months before the
 general election. The thread's sharpest moment comes June 7, 2020,
 during the George Floyd-protest curfew: "8pm curfew... it's been like
 living in beirut... that's pretty much what all of manhattan has been

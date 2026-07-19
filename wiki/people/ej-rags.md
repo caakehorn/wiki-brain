@@ -42,7 +42,7 @@ conversation, dates the return to Uniontown precisely: "i just moved
 back from NYC and i'm super output recently," placing the exchange
 inside the opening days of the
 [[wiki/timeline/periods/uniontown-return-2013-2015|2013 Uniontown
-return]]. An earlier aside in the same exchange — a Briggs-Myers/INTP
+return]]. An earlier aside in the same exchange — a Myers-Briggs/INTP
 question Dan asks Ej, unanswered ("i dont know what that is") — is a
 smaller data point alongside the corpus's other early self-typing
 instances.

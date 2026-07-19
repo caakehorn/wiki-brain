@@ -60,8 +60,9 @@ a running sale negotiation from November 2018 through the thread's
 final message in February 2019, with Lewis increasingly eager ("I want
 it bad...") and Dan noncommittal about price. The sale is still
 unresolved when Dan announces, on February 1, 2019, that he'll be
-"living in nyc in like 6 weeks" — matching the documented February 12,
-2019 move to Brooklyn — and the thread ends there, mid-negotiation.
+"living in nyc in like 6 weeks" — consistent with, though slightly
+later than, the wiki's broader dating of the NYC move to February 2019
+— and the thread ends there, mid-negotiation.
 
 ## Corpus record
 

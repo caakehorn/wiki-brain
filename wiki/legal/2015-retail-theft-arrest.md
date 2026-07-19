@@ -45,7 +45,7 @@ consented to a breath search — a decision he later credited with saving his
 driver's license ("I would have lost mine if I hadn't consented to the breath
 search when I got arrested," March 2026). No DUI resulted from this arrest.
 
-> **CONTRADICTION:** A October 19, 2017 message to
+> **CONTRADICTION:** An October 19, 2017 message to
 > [[wiki/people/christo-coan|Christo Coan]] — "hell yeah I already got
 > a DUI I'm not getting any more of those :D" — indicates a *separate*,
 > otherwise undocumented DUI predating this message, distinct from both

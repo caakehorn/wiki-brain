@@ -39,7 +39,7 @@ what only his thread carries.
 Lucas messages Dan cold on February 11, 2017 — the two apparently were not
 previously in direct contact — to report that Lex's place had caught fire
 and he can't reach her; he'd gotten Dan's contact from "one of her friends."
-Five days later, at 5am on February 16, Dan reaches back out first, unprompted,
+Five days later, at 5:00 AM on February 16, Dan reaches back out first, unprompted,
 to tell Lucas not to call Zac. The conversation that follows is the
 corpus's most granular account of the arrest: Zac picked up mail at a man
 named "RT"'s house, RT had reportedly been "hanging out with some talkative
