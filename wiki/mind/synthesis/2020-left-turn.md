@@ -4,11 +4,12 @@ page_type: synthesis
 status: stable
 knowledge: earned
 date_created: 2026-07-16
-date_modified: 2026-07-17
+date_modified: 2026-07-19
 sources:
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/favorites/FAVS MASTERLIST.csv"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/bobbycole_-p2picui8w/message_1.html"
 tags: [ideology, politics, nyc-era, digital-footprint]
 connections:
   - page: wiki/timeline/periods/covid-era-2020
@@ -29,6 +30,9 @@ connections:
   - page: wiki/mind/synthesis/interests-as-era-markers
     type: instantiates
     claim: "The lockdown politics binge is the era-marker pattern's sharpest instance — an intake obsession so precisely dating that the resulting ideology carries a birthday, 2020-08-22."
+  - page: wiki/people/bobby-cole
+    type: evidenced-by
+    claim: "An April 24, 2021 self-aware aside — 'i've made a big time lefty heel turn recently' — confirms the conversion had settled eight months after its Aug 2020 origin rather than reverted."
 ---
 
 

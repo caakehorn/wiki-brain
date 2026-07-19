@@ -23,6 +23,7 @@ related: []
 - [[wiki/people/bekah-fullem]] — Two crisis contacts, early 2020: her dying cat and a plea for money, then a rape disclosure.
 - [[wiki/people/bill]] — Golf-caddying peer buying pharmaceuticals from Dan, Sept 2018.
 - [[wiki/people/bill-ulmer]] — Annie's father; warm, consistent, treated Dan as family through 2017-2020.
+- [[wiki/people/bobby-cole]] — Nine-year Opie & Anthony/Ron & Fez fandom friendship; the corpus's only direct evidence of a completed open-mic stand-up performance and a SiriusXM job application.
 - [[wiki/people/brad-hubeaut]] — Dan's caddy manager at Nemacolin Woodlands, 2017-2018; documented an April 2018 workplace friction episode.
 - [[wiki/people/brandon-hill]] — BFS assistant manager who delivered the off-books $50 demand; the instrument not the architect, whose phantom tender and fifteen/fifty speech impediment shape the whole reconstruction.
 - [[wiki/people/brennan-meadows]] — Brief early-2016 contact mixing suboxone sourcing and a small loan request.
