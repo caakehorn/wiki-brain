@@ -3,13 +3,17 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2017-10-16
 date_range_end: 2018-08-09
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump"]
 tags: [career, uniontown-era]
 knowledge: mixed
+connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: co-occurs
+    claim: "Jack is the two threads' shared running character — the 6:10am rides because he 'doesn't like rushing,' the 'neurotic, whiny, incredible calamity' — placing Davey and Jack in one caddie-yard social graph with Dan."
 infobox:
   name: "Jack Rusko"
   relationship_to_dan: unknown

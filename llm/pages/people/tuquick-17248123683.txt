@@ -3,12 +3,13 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-24
-date_modified: 2026-06-24
+date_modified: 2026-07-19
 date_range_start: 2026-05-31
 date_range_end: 2026-06-16
 sources:
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
   - raw/self/message-csv/THE END FIGHT.csv
+  - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/end-fight
@@ -24,6 +25,12 @@ connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "The June 15 defection is the verdict's independent-validation exhibit: convergence on Dan's read within 14 days of attacking it."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: evidences
+    claim: "Tuquick's closure-night taunts prove the October 2019 MMF video circulated to Annie's next partner and was repurposed as humiliation — the arrangement era's intimate media outliving the arrangement as a weapon."
+  - page: wiki/people/bryan-5088682461
+    type: co-occurs
+    claim: "The video of the encounter with Bryan is the material Tuquick deployed as humiliation on closure night 2026 — Bryan's one documented appearance in the corpus made him ammunition six and a half years later."
 ---
 
 
@@ -45,6 +52,24 @@ Tuquick served as the attack vector during the group chat confrontation, demonst
 - Hurled extreme insults at Dan, centering on "junkie," "cuck," and "molester" framing.
 - Acted as Annie's proxy and protector during the escalation that resulted in Annie's final "sic semper lupanis" text.
 - Dan attempted to engage him on geopolitical topics (Israel/Palestine) to derail the hostility, but Tuquick remained focused on the attack.
+
+**The October 2019 video as weapon.** Tuquick's most personal ammunition
+was the video of the [[wiki/mind/psychosexual/arrangement-history|October
+21, 2019 filmed MMF threesome]] with
+[[wiki/people/bryan-5088682461|Bryan]] — Dan's sole bisexual experience
+(oral only, per the operator), which Annie had evidently shared with him. He
+deployed it twice in the closure-night barrage: folded into a
+degradation-narrative at 23:07:06 ("38 year old junkie that lives with his
+mom … sucked a dick , for you to get drugs , ran out of money so he had to
+move back , just got fired") — a causally false framing, since the corpus
+dates the encounter to a filmed session inside the autumn-2019 paid-model
+window, not a drug transaction — and again at 23:17:25 as a direct taunt:
+"Or the video of her sucking dick and you're in the back ground watching
+🤣🤣🤣," alongside repeated "Wanna see the video" offers. Dan's in-thread
+response was to claim the material as work ("Oh cool you've seen our
+work! I love meeting fans"). The exchange documents both that intimate
+media from the arrangement era circulated to Annie's next partner and how
+it was repurposed as rhetorical humiliation.
 
 ## Post-Closure Defection (June 15, 2026)
 

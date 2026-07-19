@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -12,17 +12,20 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
-related:
-  - wiki/mind/concepts/attachment-model
-  - wiki/people/annie-ulmer
-  - wiki/self/ancestry
-  - wiki/people/rick-frank
-  - wiki/people/fran-coldren
-  - wiki/mind/synthesis/vertical-authority-skepticism
-  - wiki/mind/synthesis/totality-themes
-  - wiki/mind/synthesis/intake-constancy
 tags: [addiction-recovery, trauma-bond, forensic-analysis]
 connections:
+  - page: wiki/people/annie-ulmer
+    type: evidenced-by
+    claim: "The Annie corpus is the engine's behavioral fingerprint at full load: 74/17/11 abuse triad (primary-confirmed), 127 exits against 110 re-engagements, 94 silence-preceded bursts, and the terminal-phase volume asymmetry where her engagement halved while his stayed constant."
+  - page: wiki/timeline/events/eli-incident
+    type: evidenced-by
+    claim: "The Eli concealment is the engine's worst documented mode: its accurate forensic outputs reframed as 'paranoia' by the person deceiving it — the machine running correctly while its outputs were weaponized against the operator."
+  - page: wiki/mind/concepts/attachment-model
+    type: mirrors
+    claim: "The conflict engine demands resolution while the attachment model cannot issue severance — mutually amplifying architectures with no shared halt condition, recorded in this page's paired CONTRADICTION blocks."
+  - page: wiki/mind/concepts/phenomenology-lens
+    type: parallels
+    claim: "The lens's self-sabotage loop (insight → rupture → more insight) is the interpretive-register rendering of this engine's no-halt-condition mechanics — same machine, metaphorical language."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: causes
     claim: "The engine's no-halt-condition defect is what the block/unblock loop expresses as a channel operation; the 414-message Grok run is the mechanism reproduced in software."

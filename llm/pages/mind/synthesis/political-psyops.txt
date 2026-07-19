@@ -6,7 +6,7 @@ title: "Political Psyops & Hybrid Events"
 tags: [politics, forensic-analysis, ideology]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-17
+date_modified: 2026-07-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
@@ -19,6 +19,9 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
 connections:
+  - page: wiki/mind/concepts/dans-law
+    type: parallels
+    claim: "The psyops corpus is the same deconfounding procedure at political scale — the J6 'hybrid organic event + intelligence co-opt' verdict is the law's signature output shape."
   - page: wiki/mind/concepts/forensic-method
     type: instance-of
     claim: "The J6 anomaly set — ballistics, procedure, crowd behavior, aftermath — is the forensic method applied to a public event rather than a personal corpus."

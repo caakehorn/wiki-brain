@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2017-01-20
 date_range_end: 2026-03-21
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_export_+18172693422_20260714055318.csv"]
@@ -12,19 +12,29 @@ tags: [digital-footprint, music-production, addiction-recovery, relationships, u
 knowledge: earned
 infobox:
   name: "Jason Bermejo"
-  relationship_to_dan: unknown
+  relationship_to_dan: friend
   sex: male
-  location: nyc
+  location: remote
+  role: "DJ / producer (Texas)"
   first_contact: 2017-01-20
-  known_for: "Contact identified via Google Contacts as Jason Bermejo (+18172693422). Long-standing friendship spanning 2017–2026, wit"
+  handles: ["+18172693422"]
+  known_for: "One of two people whose music taste Dan defers to; formative Full Sail-era friend; Feb 2026 renewal at 400+ messages/month"
 ---
 
 # Jason Bermejo
 
-## Identity
-Contact identified via Google Contacts as Jason Bermejo (`+18172693422`). Long-standing friendship spanning 2017–2026, with highest message density 2026-02, suggesting renewed contact after gap.
-
-**Profile**: DJ, producer, music enthusiast with strong taste curation. Based in Texas (references DFW, references girlfriend/Spetch in that region). Music-first worldview; Dan considers him one of very few people whose music recommendations carry weight.
+Jason Bermejo is one of the two people alive whose musical taste Dan
+genuinely defers to (the other is a stranger: Anthony Fantano) — the
+Full Sail–era friend who built Dan's musical identity circa 2009–2011
+and, fifteen years later, is still doing it. A DJ and producer now in
+Texas (`+18172693422`, 451+ messages, 2017–2026), he re-entered Dan's
+life in force in February 2026 — 400+ messages in a single month, the
+thread's all-time peak, landing in the raw aftermath of the Uniontown
+return — and the two fell instantly back into the old shape: beat-flip
+competitions, all-night recommendation threads, production shop-talk,
+and the shared, matter-of-fact chemical culture of the Orlando years.
+Of all the formative-era friendships in the corpus, this is the one
+that never needed repair to resume.
 
 ## Relationship & Role in Dan's Life
 

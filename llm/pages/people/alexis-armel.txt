@@ -5,7 +5,7 @@ title: "Alexis Armel"
 aliases: ["Lex", "Alexis", "Alexi Armel"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-15
+date_modified: 2026-07-19
 sources: [
   "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv","raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-scan/dan tom 2010 2022.txt"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf", "wiki/mind/concepts/erotic-architecture", "wiki/people/franki-faris", "wiki/people/new-jim-shaffer", "wiki/people/tom", "wiki/people/vanessa-frank", "wiki/people/menore", "wiki/timeline/events/annie-alexis-reunion-november-2018", "wiki/mind/psychosexual/arrangement-history", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/bond-switch-2015", "wiki/places/155-virginia-ave"]
@@ -16,6 +16,9 @@ infobox:
   location: nyc
   known_for: "Role / Relationship: Prior relationship (pre-Annie); referenced as 'Lex' / Alexis Armel in life calendar, profile dumps,"
 connections:
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: component-of
+    claim: "The Nov–Dec 2018 reunion — opened with a $3,000 cash offer days after her prison release — is the arrangement's earliest well-documented run on a woman from Dan's own romantic history."
   - page: wiki/timeline/periods/uniontown-return-2013-2015
     type: component-of
     claim: "The relationship's endgame — running out to the Nov 28 2015 cheating and switch — is the emotional spine of the Uniontown-return period."

@@ -5,7 +5,7 @@ title: "Deviance Mapping — The Statistical Outlier Audit"
 aliases: ["deviance audit", "social deviances"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ SOCIAL DEVIANCES.rtf
@@ -16,6 +16,10 @@ related:
   - wiki/self/context-core
   - wiki/mind/psychosexual/index
 tags: [addiction-recovery, personality-profile]
+connections:
+  - page: wiki/mind/concepts/erotic-architecture
+    type: parallels
+    claim: "The engineered-sexuality material sits in this page's register: the documented statistical extremes cluster around deliberate construction — chemical stack, non-monogamy architecture, authored scenes — not impulse."
 ---
 
 # Deviance Mapping — The Statistical Outlier Audit

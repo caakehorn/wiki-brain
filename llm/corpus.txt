@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-19
-309 pages, ~410,024 tokens.
+310 pages, ~424,638 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -4003,7 +4003,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -4011,13 +4011,20 @@ sources:
   - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/all_imessages_complete_dump.txt
-related:
-  - wiki/people/annie-ulmer
-  - wiki/timeline/events/eli-incident
-  - wiki/timeline/events/group-chat-closure
-  - wiki/self/facebook
 tags: [relationships, attachment, addiction-recovery, trauma-bond, infidelity]
 connections:
+  - page: wiki/mind/psychosexual/emotional-imprinting
+    type: parallels
+    claim: "'Crush activation on contact' with no off switch and this model's no-counter-rule architecture are structurally identical claims from independent source bases — dossier theory and primary corpus converging."
+  - page: wiki/people/rick-frank
+    type: caused-by
+    claim: "The 2005 rupture — a trusted primary figure maintaining a concealed alternate reality — is the documented template the model replicates: the Annie decade re-ran the same structure of verbal assurance over sustained concealment."
+  - page: wiki/people/annie-ulmer
+    type: evidenced-by
+    claim: "The ten-year Annie corpus is the model's quantitative base: 0 explicit severance signals across 41,073 of her messages (primary-verified), the 187-of-191 affection-to-request pairing, 24 'fell asleep' alibis, and 13 self-indicting apologies with unchanged behavior."
+  - page: wiki/timeline/events/eli-incident
+    type: evidenced-by
+    claim: "The concealed Eli relationship is the model's live stress test: sustained deception answered with 'your suspicions are insane' — the systematic-attack-on-reality layer that kept the contradiction flagged as anomaly rather than closing the model."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: causes
     claim: "The model's 299:0 affirmation-to-severance asymmetry is why declared exits cannot hold: a system with no vocabulary for 'closed' can only toggle channel state and wait for the dependency to decide."
@@ -4033,6 +4040,9 @@ connections:
   - page: wiki/mind/synthesis/message-circadian-latency
     type: evidenced-by
     claim: "The reply-latency analysis renders this model as a timing series: uniform near-instant outbound, inbound delay scaling with peripherality."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: mirrors
+    claim: "The conflict engine demands resolution while the attachment model cannot issue severance — mutually amplifying architectures with no shared halt condition, recorded in conflict-architecture's paired CONTRADICTION blocks."
 ---
 
 
@@ -4096,7 +4106,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -4105,17 +4115,20 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
-related:
-  - wiki/mind/concepts/attachment-model
-  - wiki/people/annie-ulmer
-  - wiki/self/ancestry
-  - wiki/people/rick-frank
-  - wiki/people/fran-coldren
-  - wiki/mind/synthesis/vertical-authority-skepticism
-  - wiki/mind/synthesis/totality-themes
-  - wiki/mind/synthesis/intake-constancy
 tags: [addiction-recovery, trauma-bond, forensic-analysis]
 connections:
+  - page: wiki/people/annie-ulmer
+    type: evidenced-by
+    claim: "The Annie corpus is the engine's behavioral fingerprint at full load: 74/17/11 abuse triad (primary-confirmed), 127 exits against 110 re-engagements, 94 silence-preceded bursts, and the terminal-phase volume asymmetry where her engagement halved while his stayed constant."
+  - page: wiki/timeline/events/eli-incident
+    type: evidenced-by
+    claim: "The Eli concealment is the engine's worst documented mode: its accurate forensic outputs reframed as 'paranoia' by the person deceiving it — the machine running correctly while its outputs were weaponized against the operator."
+  - page: wiki/mind/concepts/attachment-model
+    type: mirrors
+    claim: "The conflict engine demands resolution while the attachment model cannot issue severance — mutually amplifying architectures with no shared halt condition, recorded in this page's paired CONTRADICTION blocks."
+  - page: wiki/mind/concepts/phenomenology-lens
+    type: parallels
+    claim: "The lens's self-sabotage loop (insight → rupture → more insight) is the interpretive-register rendering of this engine's no-halt-condition mechanics — same machine, metaphorical language."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: causes
     claim: "The engine's no-halt-condition defect is what the block/unblock loop expresses as a channel operation; the 414-message Grok run is the mechanism reproduced in software."
@@ -4351,18 +4364,23 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
-related:
-  - wiki/mind/concepts/forensic-method
-  - wiki/mind/synthesis/political-psyops
-  - wiki/work/bfs-foods
-  - wiki/self/chats/j6-chat
-  - wiki/self/context-core
 tags: [politics, trauma-bond, forensic-analysis]
+connections:
+  - page: wiki/mind/concepts/forensic-method
+    type: component-of
+    claim: "Dan's Law is the method's deconfounding filter — the step that converts a raw anomaly list into actionable signal by stripping parasitic noise from the load-bearing element."
+  - page: wiki/work/bfs-foods
+    type: evidenced-by
+    claim: "The drawer dispute is the law's cleanest low-stakes application on record: the absence of a paper trail identified as the demand's feature, not an oversight, and the do-not-validate-by-paying conclusion followed."
+  - page: wiki/mind/synthesis/political-psyops
+    type: parallels
+    claim: "The psyops corpus runs the same deconfounding procedure at political scale — the J6 'hybrid organic event + intelligence co-opt' verdict is Dan's Law's signature output shape."
+
 ---
 
 # Dan's Law
@@ -4401,20 +4419,27 @@ knowledge: mixed
 title: "Erotic Architecture: Sexuality as Controlled-Chaos Engineering"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 sources:
   - raw/self/dansynth/DANSYNTH.txt
-related:
-  - wiki/mind/concepts/attachment-model
-  - wiki/mind/synthesis/attachment-trauma-bond
-  - wiki/mind/profile/deviance-mapping
-  - wiki/people/annie-ulmer
-  - wiki/people/alexis-armel
-  - wiki/mind/synthesis/ancestral-dialectic
-  - wiki/mind/psychosexual/index
-  - wiki/mind/psychosexual/orchestration-and-voyeurism
-  - wiki/timeline/events/annie-alexis-reunion-november-2018
 tags: [trauma-bond, relationships, ai-collaboration]
+connections:
+  - page: wiki/people/bryan-5088682461
+    type: evidenced-by
+    claim: "The 'taboo as ontological rupture' mechanism — orchestrating sexual contact across the straight/gay boundary — has its documented instance in the October 21, 2019 filmed MMF with Bryan: a gay man's first encounter with a woman and Dan's only bisexual act, in one authored scene."
+  - page: wiki/timeline/events/annie-alexis-reunion-november-2018
+    type: evidenced-by
+    claim: "The externalized-libido mechanism's central example (ANNIE_ALEXIS_HOOKUP_CORE) is independently dated and corroborated as the six-week November 2018 reunion arrangement — theory and primary record aligned on the one event."
+  - page: wiki/people/annie-ulmer
+    type: contextualizes
+    claim: "The Ti/Fe 'failed alchemical' collision — his consistency-seeking reading her harmony-preserving deflections as evasion, her freeze reading to him as abandonment — is this report's mechanism-name for the conflict cycle her page documents in primary evidence."
+  - page: wiki/mind/psychosexual/orchestration-and-voyeurism
+    type: parallels
+    claim: "Externalized libido and the director stance are the same claim in two registers — this page's AI-theoretic framing against the orchestration page's fuller primary-source treatment."
+  - page: wiki/mind/profile/deviance-mapping
+    type: parallels
+    claim: "The engineered-sexuality material sits in deviance-mapping's own register: the documented extremes cluster around deliberate construction, not impulse — chemical stack, non-monogamy architecture, and this."
+
 ---
 
 # Erotic Architecture: Sexuality as Controlled-Chaos Engineering
@@ -4449,7 +4474,15 @@ which the existing arrangement material doesn't cover.
 "orientation violation" (the report's specific example: orchestrating
 sexual contact between a straight and a gay man) as a way of watching
 stable categories collapse, rather than pursuing taboo for its own
-transgressive charge. Framed as the same Ti-Ne pattern documented
+transgressive charge. What the report stated as theory now has its
+documented instance: the **October 21, 2019 filmed MMF** with
+[[wiki/people/bryan-5088682461|Bryan]] — a gay man whose first encounter
+with a woman was that night, and Dan's one and only bisexual act (oral),
+both category-crossings authored into a single scene
+([[wiki/mind/psychosexual/arrangement-history]] carries the dated
+record). The instance matches the mechanism's specific prediction —
+orientation violation on both sides of the scene at once — which is the
+strongest corroboration any of the three mechanisms has received. Framed as the same Ti-Ne pattern documented
 throughout [[wiki/mind/profile/index]] — find the edge condition of a
 system, then push past it to see if the structure holds — applied to
 sexual/social categories instead of arguments or institutions.
@@ -4515,7 +4548,7 @@ title: "The Exocortex (Bootloaders & Master Prompts)"
 aliases: ["CATO", "operating manual", "master forensic prompt", "MAX"]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-md/CATO_conflict_architecture.md
@@ -4532,6 +4565,9 @@ related:
   - wiki/self/context-core
 tags: [forensic-analysis, ai-collaboration, trauma-bond]
 connections:
+  - page: wiki/mind/concepts/node-locking
+    type: contains
+    claim: "Node locking is this system's externalized-memory layer — the write-and-transfer protocol that makes an AI session a persistent, portable extension of the self-model."
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: component-of
     claim: "The exocortex concept is developed in full across the AI-collaboration synthesis."
@@ -4642,7 +4678,7 @@ aliases: ["forensic analysis", "forensic methodology", "procedural tells", "loss
 status: stable
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
@@ -4661,6 +4697,9 @@ related:
   - wiki/timeline/events/eli-incident
 tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
 connections:
+  - page: wiki/mind/concepts/dans-law
+    type: contains
+    claim: "Dan's Law is the method's deconfounding filter — the formalized step that strips parasitic noise from a coincidence cluster to isolate the load-bearing element."
   - page: wiki/mind/synthesis/political-psyops
     type: instantiates
     claim: "The J6 analysis is the method applied to a public event; same anomaly-detection engine, different corpus."
@@ -4780,16 +4819,25 @@ title: "The Institutional Out"
 aliases: ["migraine protocol", "strategic absenteeism", "night class alibi"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 sources:
   - raw/self/dansynth/FromSidewalkShedtoAnalyticalProwess.md
   - raw/self/dansynth/AuZaatarsFinalShift.md
-related:
-  - wiki/work/au-zaatar
-  - wiki/work/bfs-foods
-  - wiki/mind/synthesis/vertical-authority-skepticism
-  - wiki/mind/profile/big-five-psychometrics
 tags: [personality-profile, nyc-era]
+connections:
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: instance-of
+    claim: "The pre-installed escape mechanism is the workplace expression of the architecture that refuses every vertical claim on his time — the same refusal, deployed on hire as protocol."
+  - page: wiki/work/au-zaatar
+    type: evidenced-by
+    claim: "The night-class alibi — a fictitious 9pm college schedule held for over a year, securing peak shifts while exempting him from closing — is the protocol's documented masterpiece."
+  - page: wiki/work/bfs-foods
+    type: parallels
+    claim: "The BFS posture and the out share one game-theoretic instinct — engage the institution only through mechanisms it cannot verify or contest — run from opposite sides of the ledger."
+  - page: wiki/people/valeria-iglesias-cid
+    type: co-occurs
+    claim: "The night-class fiction doubled as cover for the Valeria affair — one unfalsifiable alibi serving the labor extraction and the concealment simultaneously."
+
 ---
 
 # The Institutional Out
@@ -4853,22 +4901,26 @@ title: "Node Locking"
 aliases: ["profile locking", "DATA_LOGGED", "relational source code", "Deep Architecture"]
 status: stable
 date_created: 2026-07-15
-date_modified: 2026-07-15
+date_modified: 2026-07-19
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
-related:
-  - wiki/mind/concepts/forensic-method
-  - wiki/mind/concepts/exocortex
-  - wiki/mind/synthesis/ai-collaborative-analysis
-  - wiki/self/chats/gemini-18
-  - wiki/self/chats/gemini-07
-  - wiki/timeline/events/eli-incident
-  - wiki/people/annie-ulmer
-  - wiki/people/eli
-  - wiki/self/gemini-activity/archive/v1-extract
 tags: [ai-collaboration, forensic-analysis, relationships, digital-footprint]
+connections:
+  - page: wiki/mind/concepts/exocortex
+    type: component-of
+    claim: "Node locking is the exocortex's externalized-memory layer — the write-and-transfer protocol that turns an AI session into a persistent, portable extension of the self-model."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: evidences
+    claim: "The ~403 node mentions and cross-platform transfer commands are primary behavioral evidence for the LLM-as-venue thesis: the pattern is Dan's, appearing identically on Gemini, ChatGPT, and Grok."
+  - page: wiki/timeline/events/eli-incident
+    type: evidences
+    claim: "The selective Eli purge at every export boundary ('The Eli variable has been purged from the dataset') marks, in Dan's own curation behavior, which node was too loaded to propagate — redaction as a severity measurement."
+  - page: wiki/people/annie-ulmer
+    type: evidences
+    claim: "The master node set is Dan's own curated minimal model of the Annie collapse — what he chose to make survive across AI sessions (the Loop, the Signals, Separation Logistics) is itself evidence of which facts he treated as load-bearing."
+
 ---
 
 # Node Locking
@@ -4957,7 +5009,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-19
 sources:
   - raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md
   - raw/self/dox-scan/fullcombo_2.txt
@@ -4968,21 +5020,26 @@ sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
   - ingest/PHENOMENOLOGY_LENS.md
-related:
-  - wiki/self/overview
-  - wiki/mind/concepts/conflict-architecture
-  - wiki/mind/concepts/attachment-model
-  - wiki/mind/concepts/contact-gini
-  - wiki/people/annie-ulmer
-  - wiki/timeline/events/eli-incident
-  - wiki/self/twitter
-  - wiki/self/favorites
-  - wiki/self/facebook
-  - wiki/timeline/periods/2015-2016-annie-relationship-start
-  - wiki/timeline/periods/2025-collapse
-  - wiki/self/context-core
-  - wiki/mind/synthesis/ai-collaborative-analysis
 tags: [addiction-recovery, relationships, trauma-bond, grief, forensic-analysis]
+connections:
+  - page: wiki/people/annie-ulmer
+    type: contextualizes
+    claim: "The 'Annie Loop' is the lens's interpretive rendering of the terminal phase — withdraw → raw texts → vague apology → escalation → shutdown → return — correlating with the 94 documented burst events uniformly preceded by her silence."
+  - page: wiki/people/alexis-armel
+    type: contextualizes
+    claim: "The lens names the 2009–15 Alexis collapse as the second encoding event of the trauma memory — the seed, after 2005, of the axioms 'intimacy leads to abandonment' and 'loyalty is always conditional.'"
+  - page: wiki/people/rick-frank
+    type: contextualizes
+    claim: "The 2004–05 parental rupture is the lens's first encoding event — the origin of the Si-carried pattern by which old betrayals get replayed onto new situations without warning."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: parallels
+    claim: "The self-sabotage loop (insight → rupture → more insight) is the lens-language rendering of the conflict engine's no-halt-condition mechanics — same machine, metaphorical register."
+  - page: wiki/mind/concepts/attachment-model
+    type: contextualizes
+    claim: "The relational loop (hunger → fusion → contamination → amputation) is the interpretive overlay on the attachment model's quantified base — the love-to-request sequences and burst events read as narrative."
+  - page: wiki/self/context-core
+    type: component-of
+    claim: "The lens is formally subordinate to the behavioral spine: an interpretive overlay that must yield to context-core's hard counts and timelines wherever they disagree — the subordination itself is the load-bearing rule."
 ---
 
 # Phenomenology Lens
@@ -5271,7 +5328,7 @@ title: "Deviance Mapping — The Statistical Outlier Audit"
 aliases: ["deviance audit", "social deviances"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ SOCIAL DEVIANCES.rtf
@@ -5282,6 +5339,10 @@ related:
   - wiki/self/context-core
   - wiki/mind/psychosexual/index
 tags: [addiction-recovery, personality-profile]
+connections:
+  - page: wiki/mind/concepts/erotic-architecture
+    type: parallels
+    claim: "The engineered-sexuality material sits in this page's register: the documented statistical extremes cluster around deliberate construction — chemical stack, non-monogamy architecture, authored scenes — not impulse."
 ---
 
 # Deviance Mapping — The Statistical Outlier Audit
@@ -5393,7 +5454,7 @@ aliases: ["5w4", "sx/sp", "social-blind", "remote intimacy"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -5405,6 +5466,9 @@ related:
   - wiki/people/annie-ulmer
 tags: [personality-profile, addiction-recovery]
 connections:
+  - page: wiki/mind/psychosexual/developmental-origins
+    type: parallels
+    claim: "The sx/sp fusion-or-annihilation stacking arrives at the same total-intensity relational prediction the developmental accounts reach from attachment trauma and cultural imprinting — independent-framework convergence."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: instantiates
     claim: "The 2015 switch is the sx/sp stack's logic executed in real time."
@@ -6190,23 +6254,36 @@ page_type: concept
 title: "Arrangement History"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 knowledge: mixed
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-scan/all_imessages_complete_dump.txt
-related:
-  - wiki/mind/psychosexual/index
-  - wiki/mind/psychosexual/orchestration-and-voyeurism
-  - wiki/people/annie-ulmer
-  - wiki/people/alexis-armel
-  - wiki/people/shelbie-breakiron
-  - wiki/people/trinity-st-clair
-  - wiki/people/kelly-johansson
-  - wiki/people/kristin
-  - wiki/timeline/events/annie-alexis-reunion-november-2018
-  - wiki/timeline/events/shelbie-annie-threesome-april-2019
+  - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
+  - raw/self/message-csv/imessage_export_7248123683_20260624.csv
 tags: [relationships, digital-footprint]
+connections:
+  - page: wiki/people/annie-ulmer
+    type: contains
+    claim: "Annie is the constant across every documented instance — partner in the jealousy-kink baseline, co-operator of smashonista, co-participant in the paid and unpaid encounters — the arrangement is structurally a property of the Annie relationship."
+  - page: wiki/people/alexis-armel
+    type: contains
+    claim: "The Nov–Dec 2018 reunion arrangement — opened with a $3,000 cash offer to Dan's own ex days after her prison release — is the earliest well-documented instance of the arrangement running on a woman from Dan's romantic history."
+  - page: wiki/people/kelly-johansson
+    type: contains
+    claim: "The Sep–Oct 2019 Kelly run is the arrangement at its most professionalized — a repeat working relationship in which the escort treated Annie as a peer and pitched the couple as co-providers."
+  - page: wiki/people/bryan-5088682461
+    type: contains
+    claim: "Bryan is the third participant of the October 21, 2019 filmed MMF — the encounter that is both Dan's sole bisexual experience and Bryan's first with a woman."
+  - page: wiki/people/kristin
+    type: contains
+    claim: "The 2025 Kristin relationship is the arrangement's inversion — total-exclusivity demands and purity tests where the Annie structure practiced authored openness — proving the architecture is about authorship, not openness itself."
+  - page: wiki/mind/psychosexual/developmental-origins
+    type: follows
+    claim: "Every documented instance postdates the 2005 axiom and the imprinting era by roughly a decade — this page is the after of the origins page's before."
+  - page: wiki/mind/psychosexual/orchestration-and-voyeurism
+    type: evidences
+    claim: "The instances tabled here are the practice-side record of the director stance the orchestration page theorizes — arranged conditions, controlled access, Dan as architect rather than participant."
 ---
 
 # Arrangement History
@@ -6230,6 +6307,7 @@ from raw iMessage/SMS data that had not previously been mined.
 | Apr 2019 | **Shelbie/Annie threesome.** A three-way encounter with [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], a stripper and aspiring cam model Dan was also seeing one-on-one that spring — per Dan's own account, though the message corpus for Shelbie doesn't begin until May 15, 2019. A corroborating May 1, 2019 fight has Annie naming Shelbie directly as a rival, confirming the relationship (and the arrangement) predates the message record. Recurs as a two-person Annie/Shelbie dynamic by June 8, 2019. | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]], [[wiki/people/shelbie-breakiron]] |
 | Mar 2019 | **Trinity St. Clair** — a $1,500/hour paid encounter with the adult-film performer of that name, booked days after Dan's move back to NYC ("the first thing I did"), addressed to both Dan and Annie directly. The direct thread shows two cancellations (illness, oversleeping) and ends ambiguously, but a separately-dated message confirms the visit completed around March 28 – April 1; Trinity went on to function as a credibility reference in at least one later booking inquiry (July 2019). | [[wiki/people/trinity-st-clair]] |
 | Sep–Oct 2019 | **Kelly Johansson** — a five-week run of paid sessions with a New York escort, the most professionalized instance in the corpus: not a one-off booking but a repeat working relationship, with Kelly treating Annie as a working peer rather than a client's girlfriend and pitching bringing both of them in as co-providers for one of her own regular clients. | [[wiki/people/kelly-johansson]] |
+| Oct 21, 2019 | **The filmed MMF — Dan's sole bisexual experience.** An NYC threesome with Annie and [[wiki/people/bryan-5088682461|Bryan]] — a gay man whose first encounter with a woman was that same night, making the crossing symmetric — filmed, in which Dan participated orally — per the operator "the one and only bisexual experience i've ever had (only oral)," and self-dated in the corpus the next night: "last night we had to film mmf (my first time doing that) so i thought i should treat myself to some fun to wash the bad taste out of my mouth......literally" (Sent, 2019-10-22). The plan develops inside the same autumn-2019 professionalized window (an Oct 3–6 thread negotiates "a 3some… Love if Annie can join" and "I can lead a bit of the mmf stuff since I have more experience"). The video resurfaced six and a half years later as a weapon: shared to Annie's next boyfriend and thrown at Dan during the June 2026 closure — see [[wiki/people/tuquick-17248123683]]. | [[wiki/people/tuquick-17248123683]], [[wiki/people/kelly-johansson]] |
 | Sep–Dec 2025 | **Kristin — the mirror structure.** A fourteen-week relationship built, within its first 48–72 hours, around a demand for total sexual exclusivity from Kristin ("That is my cum. Mine") — the inverse of the openness practiced with Annie during the same broad period. An AI analysis Dan commissioned of this specific relationship (the Chimera addendum) frames it as a "hyper-accelerated trauma bond" gated by escalating "purity tests," ending in a hostile blockade in December 2025. | [[wiki/people/kristin]] |
 
 ## What the pattern shows
@@ -6267,10 +6345,6 @@ represents a genuine shift in preference, a reaction to the [[wiki/people/eli|El
 betrayal's timing, or simply what that particular partner required is not
 established anywhere in the corpus.
 
-## Related
-
-[[wiki/mind/psychosexual/index]] · [[wiki/mind/psychosexual/orchestration-and-voyeurism]] · [[wiki/people/annie-ulmer]] · [[wiki/people/alexis-armel]] · [[wiki/people/shelbie-breakiron]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/kelly-johansson]] · [[wiki/people/kristin]]
-
 
 ========================================================================
 PAGE: wiki/mind/psychosexual/developmental-origins.md
@@ -6282,19 +6356,32 @@ page_type: concept
 title: "Developmental Origins"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 knowledge: mixed
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
-related:
-  - wiki/mind/psychosexual/index
-  - wiki/mind/concepts/attachment-model
-  - wiki/people/rick-frank
-  - wiki/people/suzanne-frank
-  - wiki/mind/profile/enneagram-5w4
-  - wiki/timeline/periods/full-sail-2008-2010
 tags: [relationships, attachment, family, trauma-bond, personality-profile]
+connections:
+  - page: wiki/people/rick-frank
+    type: caused-by
+    claim: "The November 2005 rupture on the paternal line is the cluster's named hinge event — the dossier's claim is that it encoded the axiom 'intimacy is a precursor to abandonment' that operates underneath the whole arrangement history."
+  - page: wiki/people/suzanne-frank
+    type: caused-by
+    claim: "Suz's affair with the shared dealer during Rick's treatment is the second half of the 2005 rupture — the maternal side of the event the dossier treats as the psychosexual system's origin point."
+  - page: wiki/mind/profile/enneagram-5w4
+    type: parallels
+    claim: "The sx/sp instinctual-stacking account arrives at the same fusion-or-annihilation prediction from an independent typological framework — three-frame convergence is this cluster's strongest corroboration."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: co-occurs
+    claim: "The 2005–2010 'Neuroemotional Imprinting Era' — the emo/pop-punk template of intense, tragic, doomed devotion — runs through and closes with the Full Sail period."
+  - page: wiki/mind/psychosexual/orchestration-and-voyeurism
+    type: contextualizes
+    claim: "The 2005 axiom offers the cluster's causal reading of the director stance: if closeness reliably precedes loss, authoring the loss in advance is more survivable than being chosen or kept — dossier interpretation, not Dan's own claim."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: precedes
+    claim: "Both origin accounts predate the earliest documented arrangement instance by roughly a decade — this page is the before, arrangement-history is the after."
+
 ---
 
 # Developmental Origins
@@ -6384,10 +6471,6 @@ dossier-authored synthesis. The comedy-scene "masculine power/comedy/
 humiliation" overlay claim in particular has no elaboration beyond the
 one sentence in the source material.
 
-## Related
-
-[[wiki/mind/psychosexual/index]] · [[wiki/mind/concepts/attachment-model]] · [[wiki/people/rick-frank]] · [[wiki/people/suzanne-frank]] · [[wiki/mind/profile/enneagram-5w4]] · [[wiki/timeline/periods/full-sail-2008-2010]]
-
 
 ========================================================================
 PAGE: wiki/mind/psychosexual/emotional-imprinting.md
@@ -6399,18 +6482,22 @@ page_type: concept
 title: "Emotional Imprinting"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 knowledge: mixed
 sources:
   - raw/self/dox-scan/Dan Profile.txt
-related:
-  - wiki/mind/psychosexual/index
-  - wiki/mind/concepts/attachment-model
-  - wiki/people/eli
-  - wiki/timeline/events/eli-incident
-  - wiki/mind/profile/intp
-  - wiki/people/annie-ulmer
 tags: [relationships, trauma-bond, attachment, personality-profile]
+connections:
+  - page: wiki/mind/concepts/attachment-model
+    type: parallels
+    claim: "'Crush activation on contact' with no off switch and the attachment model's no-counter-rule architecture are structurally identical claims reached from different source bases — dossier theory and primary corpus converging on rapid, irreversible activation."
+  - page: wiki/timeline/events/eli-incident
+    type: contextualizes
+    claim: "The imprinting mechanism is the cluster's account of the Eli betrayal's disproportionate severity — 'temple desecration' rather than romantic disappointment, the violation of an absorbed internal map."
+  - page: wiki/mind/psychosexual/orchestration-and-voyeurism
+    type: mirrors
+    claim: "The two mechanisms sit in documented tension: total imprinting on contact does not obviously predict years of orchestrated exposure — unless authorship over the boundary routes around the imprinting channel, which remains the framework's open structural question."
+
 ---
 
 # Emotional Imprinting
@@ -6486,10 +6573,6 @@ supported, but that convergence is at the level of *pattern* (rapid,
 irreversible attachment activation), not at the level of the specific
 "crush activation on contact" or "temple desecration" language, which
 remains interpretive framing rather than primary-source fact.
-
-## Related
-
-[[wiki/mind/psychosexual/index]] · [[wiki/mind/concepts/attachment-model]] · [[wiki/people/eli]] · [[wiki/timeline/events/eli-incident]] · [[wiki/mind/profile/intp]] · [[wiki/people/annie-ulmer]]
 
 
 ========================================================================
@@ -6618,7 +6701,7 @@ page_type: concept
 title: "Orchestration and Voyeurism"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 knowledge: mixed
 sources:
   - raw/self/dox-scan/Dan Profile.txt
@@ -6634,9 +6717,21 @@ related:
   - wiki/people/fran-coldren
 tags: [relationships, trauma-bond, personality-profile]
 connections:
+  - page: wiki/mind/psychosexual/emotional-imprinting
+    type: mirrors
+    claim: "Total imprinting on contact and years of orchestrated exposure sit in documented tension — unless authorship over the boundary routes around the imprinting channel, the framework's open structural question."
+  - page: wiki/mind/concepts/erotic-architecture
+    type: parallels
+    claim: "The director stance and 'externalized libido' are the same claim in two registers — this page's primary-source treatment against the OS report's AI-theoretic framing."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: evidenced-by
+    claim: "The arrangement timeline is the practice-side record of the director stance this page theorizes — arranged conditions, controlled access, Dan as architect rather than participant."
   - page: wiki/interests/film-canon
     type: evidenced-by
     claim: "The 2019-07-18 'living some eyes wide shut shit vicariously through her' message shows Dan reaching for his canon's masked-voyeur film as the lens on his own arrangement — primary self-description of the spectator frame."
+  - page: wiki/people/vaughn
+    type: co-occurs
+    claim: "The February 2018 Vaughn exchange — explicit photos shared to a curated audience, an offer to film, a 1 AM visit under 'complete gentleman' terms — pattern-matches the arrangement-onset orchestration window, though identity and outcome are uncorroborated."
 ---
 
 # Orchestration and Voyeurism
@@ -7016,7 +7111,7 @@ title: "AI Collaborative Analysis"
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-17
+date_modified: 2026-07-19
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini_00.md
@@ -7034,6 +7129,9 @@ sources:
   - raw/self/dox-md/_Psychological Warfare and Social Engineering .md
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
 connections:
+  - page: wiki/mind/concepts/node-locking
+    type: evidenced-by
+    claim: "The node-locking protocol — ~403 locked nodes, cross-platform transfer commands, export redaction — is the primary behavioral evidence that the LLM venue is used as writable memory, not conversation."
   - page: wiki/mind/concepts/exocortex
     type: contains
     claim: "The externalized-prefrontal-cortex frame is the core concept this synthesis develops across the documented interaction modes."
@@ -8907,7 +9005,7 @@ title: "Political Psyops & Hybrid Events"
 tags: [politics, forensic-analysis, ideology]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-17
+date_modified: 2026-07-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
@@ -8920,6 +9018,9 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
 connections:
+  - page: wiki/mind/concepts/dans-law
+    type: parallels
+    claim: "The psyops corpus is the same deconfounding procedure at political scale — the J6 'hybrid organic event + intelligence co-opt' verdict is the law's signature output shape."
   - page: wiki/mind/concepts/forensic-method
     type: instance-of
     claim: "The J6 anomaly set — ballistics, procedure, crowd behavior, aftermath — is the forensic method applied to a public event rather than a personal corpus."
@@ -9082,7 +9183,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 sources:
   - "raw/self/dox-md/MAX_PRIME.md"
   - "raw/self/dox-md/operating_manual.md"
@@ -9109,6 +9210,15 @@ connections:
   - page: wiki/people/menore
     type: contains
     claim: "Menore is the NYC node and the network's reliability outlier — 99.3% availability (455 of 458 requests answered over 6.5 years, median 7-minute reply) — the control case proving distance outperforms friendship in this market."
+  - page: wiki/people/sam
+    type: contains
+    claim: "Sam is the 2019–20 NYC cannabis line — a parallel professional delivery node whose February 2020 firing of Dan ('don't never hit this number') proves transactional discipline enforces on the buyer too, not just the supplier."
+  - page: wiki/people/vaughn
+    type: contains
+    claim: "Vaughn is a minor 2017–18 Uniontown node — a carless caddie-coworker middleman whose repeated short-weight disputes document the quality-control vacuum at the informal market's bottom tier."
+  - page: wiki/people/nick-mattie
+    type: contains
+    claim: "Nick is the spring-2017 reciprocal peer-trading node — fronts and a hand-kept ledger running in both directions — the tier where supply was mutual credit between broke men rather than vendor service."
   - page: wiki/people/annie-ulmer
     type: contains
     claim: "Annie occupies both sides of the network across its life: logistics facilitator in the 2018–19 Johnny era, then dependent consumer in the terminal phase, when Dan controlling the supply ('bop') became the relationship's primary retention mechanism."
@@ -9190,9 +9300,17 @@ winter 2018–19), [[wiki/people/john-anderson|John Anderson]] (2019),
 Thanksgiving 2016), [[wiki/people/jay-lauer|Jay Lauer]] (a seven-week
 suboxone/cocaine *trading* peer rather than a vendor),
 [[wiki/people/jim-vrabel|Jim Vrabel]] (marijuana, two and a half years,
-closer to a regular acquaintance), and in NYC
+closer to a regular acquaintance), [[wiki/people/vaughn|Vaughn]] (a
+caddie-yard coworker middling his "homey's" weed in $20–50 quantities,
+2017–18, with chronic short-weight disputes),
+[[wiki/people/nick-mattie|Nick Mattie]] (a spring-2017 reciprocal
+trading peer running fronts and a hand-kept ledger in both directions), and in NYC
 [[wiki/people/clyde|Clyde]] (psychedelics: LSD, DMT, mushrooms — a
-separate product line from Menore's). None carried structural load — no
+separate product line from Menore's) and [[wiki/people/sam|Sam]] (the
+cannabis line, 2019–20: menus, a delivery driver, Facebook-verified
+customers — and the only node in the record to fire Dan as a customer,
+in February 2020, for the same unresponsiveness his friend-suppliers
+absorbed without consequence). None carried structural load — no
 minor node's failure produced a documented crisis — but their existence
 is the point: the 2016–19 network had *depth*, and the 2025–26 network
 had none. The redundancy the system lost by the terminal era is
@@ -9833,7 +9951,7 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-17
+date_modified: 2026-07-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
@@ -9843,6 +9961,9 @@ sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
 tags: [politics, relationships, family, personality-profile, nyc-era]
 connections:
+  - page: wiki/mind/concepts/institutional-out
+    type: contains
+    claim: "The pre-installed workplace escape mechanism is this architecture's labor-side expression — the refusal of vertical claims on his time, deployed on hire as standing protocol."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "The skepticism thesis is carried as a named theme of the totality synthesis."
@@ -10218,7 +10339,7 @@ title: "Alexis Armel"
 aliases: ["Lex", "Alexis", "Alexi Armel"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-15
+date_modified: 2026-07-19
 sources: [
   "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv","raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-scan/dan tom 2010 2022.txt"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf", "wiki/mind/concepts/erotic-architecture", "wiki/people/franki-faris", "wiki/people/new-jim-shaffer", "wiki/people/tom", "wiki/people/vanessa-frank", "wiki/people/menore", "wiki/timeline/events/annie-alexis-reunion-november-2018", "wiki/mind/psychosexual/arrangement-history", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/bond-switch-2015", "wiki/places/155-virginia-ave"]
@@ -10229,6 +10350,9 @@ infobox:
   location: nyc
   known_for: "Role / Relationship: Prior relationship (pre-Annie); referenced as 'Lex' / Alexis Armel in life calendar, profile dumps,"
 connections:
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: component-of
+    claim: "The Nov–Dec 2018 reunion — opened with a $3,000 cash offer days after her prison release — is the arrangement's earliest well-documented run on a woman from Dan's own romantic history."
   - page: wiki/timeline/periods/uniontown-return-2013-2015
     type: component-of
     claim: "The relationship's endgame — running out to the Nov 28 2015 cheating and switch — is the emotional spine of the Uniontown-return period."
@@ -10519,7 +10643,7 @@ importance: critical
 knowledge: mixed
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 date_range_start: 2015-11-01
 date_range_end: 2026-06-01
 infobox:
@@ -10599,9 +10723,24 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/mind/concepts/node-locking
+    type: evidenced-by
+    claim: "The master node set Dan locks across AI sessions — the Loop, the Signals, Separation Logistics — is his own curated minimal model of this relationship's collapse, evidence of which facts he treated as load-bearing."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: component-of
+    claim: "Annie is the constant across every documented arrangement instance — the architecture is structurally a property of this relationship, from the 2016 jealousy-kink baseline through smashonista to the 2019 paid-model window."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: component-of
     claim: "The 127/110 exit-relapse record is the loop's central case, and the March 2026 fight shows Annie running the same block-unblock operation back at Dan — the loop is bidirectional inside the bond."
+  - page: wiki/people/nick-mattie
+    type: evidenced-by
+    claim: "The May 2, 2017 Nick Mattie handoff — product left with Annie after she messaged him on Facebook — dates her supply-logistics facilitation a full year before the documented 2018–19 Johnny-era role."
+  - page: wiki/mind/concepts/attachment-model
+    type: evidences
+    claim: "The ten-year Annie corpus is the attachment model's quantitative base: 0 explicit severance signals across 41,073 of her messages, the 187-of-191 affection-to-request pairing, 24 alibis, 13 unchanged-behavior apologies."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: evidences
+    claim: "The Annie corpus is the conflict engine's fingerprint at full load: the 74/17/11 abuse triad, 127/110 exit-relapse record, 94 silence-preceded bursts, and the terminal-phase volume asymmetry."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "The ~$119–123K net payment-app outflow to Annie is the money spine's largest documented drain — roughly the size of the entire estate distribution, exiting through the relationship over the decade."
@@ -11677,7 +11816,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2019-06-10
 date_range_end: 2019-07-09
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11693,6 +11832,10 @@ infobox:
 ---
 
 # Brian (NYC, 2019)
+
+*Not to be confused with [[wiki/people/bryan-5088682461|Bryan]], the
+third participant in the October 21, 2019 filmed MMF — same-sounding
+name, different man.*
 
 Brian was an older, financially comfortable NYC client who booked [[wiki/people/annie-ulmer|Annie]] — working that summer under the alias "Hazel" (confirmed by Dan, 2026-07-14; Annie also used "Lily Lush" and the joint Chaturbate handles "smashonistaa"/"sofvded") — for two paid visits in summer 2019 (`+13137181574`, 43 messages, June 10 – July 9). A separate thread, [[wiki/people/jaredtricia|Jared and Tricia]], books the same "Hazel" persona against what they call "the Eros ad" at a confirmed $1,000/2-hour rate — the same summer the couple was also paying escorts [[wiki/people/kelly-johansson|Kelly Johansson]] and [[wiki/people/trinity-st-clair|Trinity St. Clair]] for group sessions, meaning Annie was working both sides of the arrangement's economy that year: booked as a provider and booking providers.
 
@@ -11764,6 +11907,83 @@ Whether Bruce's November visit or any cam-show collaboration materialized is und
 ## Related
 
 [[wiki/work/nemacolin-caddying]] · [[wiki/self/facebook/messages]] · [[wiki/self/message-corpora/master-message-dump]]
+
+
+========================================================================
+PAGE: wiki/people/bryan-5088682461.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2019-10-21
+date_range_end: 2025-05-11
+sources:
+  - "raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md"
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+tags: [nyc-era, relationships]
+infobox:
+  name: "Bryan"
+  sex: male
+  location: nyc
+  relationship_to_dan: acquaintance
+  first_contact: 2019-10-21
+  handles: ["+15088682461"]
+  known_for: "The third participant in the October 21, 2019 filmed MMF — a gay man whose first encounter with a woman was that night with Annie and Dan"
+connections:
+  - page: wiki/mind/concepts/erotic-architecture
+    type: evidences
+    claim: "The encounter is the documented instance of the report's 'taboo as ontological rupture' mechanism — orientation violation authored on both sides of one scene."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: component-of
+    claim: "Bryan is the third participant of the October 21, 2019 filmed MMF — the encounter that is both Dan's sole bisexual experience and Bryan's first with a woman, a symmetric pair of one-time crossings."
+  - page: wiki/people/tuquick-17248123683
+    type: co-occurs
+    claim: "The video of the encounter with Bryan is the material Tuquick deployed as humiliation on closure night 2026 — Bryan's one documented appearance in the corpus made him ammunition six and a half years later."
+---
+
+# Bryan (+15088682461)
+
+Bryan is the third participant of the **October 21, 2019 filmed MMF
+threesome** with Dan and [[wiki/people/annie-ulmer|Annie]] in NYC — the
+encounter that was Dan's one and only bisexual experience (oral only,
+per the operator). The crossing was symmetric: per the operator, Bryan
+is "a fully gay man who had his first encounter with a female when he
+hooked up with annie and i." He is **not** the same person as
+[[wiki/people/brian|Brian]], the older NYC client who booked Annie in
+summer 2019 — same-sounding name, different man, different role, and
+the two should never be merged.
+
+His entire iMessage footprint is three unanswered messages five and a
+half years later (May 11, 2025, with Dan back in Pennsylvania):
+"Around tonight babyboy? … Would love to catch up sometime … This
+weather has me worked up lol" — an affectionate re-contact whose
+register corroborates the prior intimacy, and which Dan let pass
+without reply. The October 2019 coordination itself is not in the
+iMessage corpus under this handle; it presumably ran through another
+channel or app.
+
+The encounter's afterlife is documented on
+[[wiki/people/tuquick-17248123683]]: the video was shared to Annie's
+next boyfriend and thrown at Dan during the June 2026 closure night
+("sucked a dick , for you to get drugs" — a framing the corpus dating
+contradicts; see [[wiki/mind/psychosexual/arrangement-history]]).
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | 3 (all Received, all 2025-05-11, unanswered) |
+| Defining event | Oct 21, 2019 filmed MMF (operator-attested; corpus-dated via Sent 2019-10-22) |
+
+**Gaps:** surname; how he was met and how the October 2019 encounter
+was arranged (no coordination thread under this handle); whether the
+508 area code (central Massachusetts) reflects where he's from; any
+contact between 2019 and 2025.
 
 
 ========================================================================
@@ -13936,43 +14156,136 @@ PAGE: wiki/people/davey-fitzpatrick.md
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
+knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2017-05-21
 date_range_end: 2018-11-02
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+tags: [career, uniontown-era, relationships]
 infobox:
   name: "Davey Fitzpatrick"
-  relationship_to_dan: unknown
+  sex: male
+  location: uniontown
+  relationship_to_dan: coworker
+  role: "Nemacolin assistant caddie master (2018 season)"
   first_contact: 2017-05-21
-  known_for: "Contact identified via Google Contacts as Davey Fitzpatrick. Previously unresolved contact from iMessage corpus at handl"
+  handles: ["+17249639933", "dtfitzpatrick87@gmail.com"]
+  known_for: "Dan's boss and friend in the 2018 caddying season — the 'X report' scheduling channel — and the last Uniontown coworker told about the NYC move, in the thread's final conversation"
+connections:
+  - page: wiki/work/nemacolin-caddying
+    type: component-of
+    claim: "Davey is the management layer of the caddie-yard record: promoted to assistant caddie master for 2018, he is the source of every documented report time, training assignment, and float in Dan's season, and his thread is the job's operational log."
+  - page: wiki/people/trevor
+    type: co-occurs
+    claim: "Davey's thread independently dates Trevor's late-July 2018 exit and prices its cost from the yard's side — 'Trev picked a bad time to leave' — during the season's busy back half."
+  - page: wiki/people/jack-rusko
+    type: co-occurs
+    claim: "Jack is the two threads' shared running character — the 6:10am rides because he 'doesn't like rushing,' the 'neurotic, whiny, incredible calamity' — placing Davey and Jack in one caddie-yard social graph with Dan."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: evidences
+    claim: "Davey's unprompted condolence on April 5, 2018 ('Sorry for your loss bro') is independent same-week corroboration of Fran's April 4 death date from outside the family."
 ---
 
 # Davey Fitzpatrick
 
-## Identity
-Contact identified via Google Contacts as Davey Fitzpatrick. Previously unresolved contact from iMessage corpus at handle `+17249639933`. 382 messages exchanged over 2017-05-21 to 2018-11-02. Sample interaction: "I have no idea who that is lol". Appears in personal message contexts (not obvious spam per filter).
+Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine
+friend across the two [[wiki/work/nemacolin-caddying|Nemacolin caddying]]
+seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a
+fellow caddie in 2017 who came back for 2018 as **assistant caddie
+master** — "I'm actually gonna be assistant caddie master lol" — which
+made his thread the operational spine of Dan's last Uniontown working
+year. Nearly every report time Dan worked that season arrived through
+this channel ("8:30 report," "12 report," about twenty of them, March
+through October 2018), along with training assignments, float days, and
+the affectionate management of a caddie he plainly liked. The thread
+ends the day Dan tells him about New York: the final conversation
+(November 2, 2018) is Davey absorbing the news — "you guys gonna move
+there for a bit? … Wow dude that's serious! Wonder what the cost of
+living will be lol … Are you selling your place?" — and signing off with
+"Well good luck dude, I wish you guys the best." Dan was in the city
+within the week, and the thread never resumes.
 
-## Corpus Dimensions
+The record is his side only (every row marked Received); Dan's voice
+survives in the messages Davey reacted to — Likes, Laughs, and Emphasis
+quotes — which happen to preserve some of the corpus's better caddie-era
+Dan lines ("He's the Pablo Picasso of Mid-Atlantic Polynesian caddies";
+"Maybe I'm just so prepared that I memorize the sheet every day so I can
+perform background research on my group").
+
+## 2017: peers in the yard
+
+The first season is two caddies talking shop and golfing: rides up the
+mountain, loop postmortems, a July round where Davey warns Dan's group
+may need to play through because "I have a girl who never golfed before
+😂," a Pirates game, and running jokes about the yard's cast —
+[[wiki/people/michael-hinkle|Hinkle]] ("I'd pay Hinkle $100 to work our
+bags lolz," Dan's line, Davey's laugh), the hashtag "#TKEatsGum," and
+above all [[wiki/people/jack-rusko|Jack]], the older caddie whose
+neurotic 6:10am ride-shares and single-chasing at dawn both threads
+treat as beloved comedy. In October 2017 Davey asks for
+[[wiki/people/annie-ulmer|Annie]]'s number for a quick question — the
+first sign the friendship extended past the yard — and muses about the
+"caddy central" management rumor while insisting "I don't plan on being
+there next summer anyway."
+
+## 2018: the report-time channel
+
+He was back by March, promoted, and the thread changes register: Davey
+now sets Dan's schedule, covers for him ("Just get here when you can man
+if you miss him I'll cover it. You'll work either way"), and recruits
+him to train the season's new caddies — "Brooke, Chad, John, maybe Jack"
+(May 8), later "I already have you Chad and Luke" — a small but real
+mark of standing: the assistant caddie master's pick for teaching the
+job was Dan. The scheduling texture preserves the season whole:
+pre-dawn singles, "spinning" double-bag days that left everyone "dead,"
+gratuity bumped to $30 a man, a wrecked car past the summit Davey warns
+Dan around (August 8), and the yard economics of a busy back half —
+"Go from hardly working to hardly off lol… But I ain't complaining.
+[[wiki/people/trevor|Trev]] picked a bad time to leave" (August 7), the
+thread's independent record of Trevor's late-July exit.
+
+Two family threads cross the work channel. On April 5, 2018 — the day
+after [[wiki/people/fran-coldren|Fran]] died — Davey texts "Sorry for
+your loss bro… If you need anything man let me know," an unprompted
+same-week corroboration of the April 4 date the
+[[wiki/timeline/events/fran-death-vigil|vigil page]] settled. And Annie
+runs through the season constantly: golfing with Dan on June 10 while
+carrying her new bag "like a champ" ("She's gonna be working as a caddie
+and at the casino soon," Dan reports), and grabbing Dan's phone on July
+7 to deliver the thread's warmest joke — "davey !!! its annie, when dan
+asked me, i said 'idk i always copied off of davey'" — to Davey's
+delight: "That's exactly what I told him you'd say lmao."
+
+## Who he was
+
+Small details accumulate into a person: email self-sent for some
+paperwork (February 2018) as `dtfitzpatrick87@gmail.com`; a birthday one
+day after Dan's — he answers Dan's November 2 wish with "Thanks my guy
+I'm almost as old as you now," dating him a year behind Dan almost to
+the day; a mother hospitalized at the end of August 2018 ("all the tests
+came back good so far") handled with the same steadiness he ran the
+yard with; Morgantown family ties ("caddie ball" and cousins' birthdays
+both put him there). His management style is the thread's most
+consistent feature — every missed shift answered with some version of
+"No worries bud," every favor asked, not ordered.
+
+## Corpus record
+
 | Metric | Value |
-|--------|-------|
-| Messages | 382 |
+|---|---|
+| Messages | 382 (all marked Received; his side, Dan's voice in reaction-quotes) |
 | Date range | 2017-05-21 – 2018-11-02 |
-| Sent / Received (approx) | 0 / 382 |
-| Sample | I have no idea who that is lol |
+| Role | Fellow caddie (2017) → assistant caddie master (2018) |
+| Report-time messages | ~20, March–October 2018 |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+**Gaps:** whether the friendship survived the NYC move in any channel
+(this thread simply stops); his exact age and Morgantown/Uniontown
+residence; the identity of "Brooke" and "Luke" from the training cohort
+(no pages; below the three-mention threshold); what became of him at
+Nemacolin after 2018.
 
 
 ========================================================================
@@ -15366,7 +15679,7 @@ domain: people
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-11
+date_modified: 2026-07-19
 sources: []
 related: []
 ---
@@ -15390,6 +15703,7 @@ related: []
 - [[wiki/people/brandon-hill]] — BFS assistant manager who delivered the off-books $50 demand; the instrument not the architect, whose phantom tender and fifteen/fifty speech impediment shape the whole reconstruction.
 - [[wiki/people/brennan-meadows]] — Brief early-2016 contact mixing suboxone sourcing and a small loan request.
 - [[wiki/people/brian]] — NYC client who booked Annie (as "Hazel") for paid visits, summer 2019.
+- [[wiki/people/bryan-5088682461]] — Third participant in the Oct 21, 2019 filmed MMF; a gay man whose first encounter with a woman was that night with Annie and Dan. Not the escort-client Brian.
 - [[wiki/people/bruceburish]] — Caddying-era friend; one dense Oct 2018 thread reacting to Dan and his girlfriend's webcam plans.
 - [[wiki/people/bub]] — Long-running casual friend: DJ logistics, Mac troubleshooting, gaming, 2017-2020.
 - [[wiki/people/casey-bondarenka]] — Friend who overstepped during 2015 relationship turbulence with Alexis; sporadic contact through 2018.
@@ -15401,7 +15715,7 @@ related: []
 - [[wiki/people/dakota]] — Dakota channel is hearsay but treated as credible originating disclosure in bootloader (explicitly…
 - [[wiki/people/danielle-onesi]] — Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort).…
 - [[wiki/people/danny-matthews]] — Realtor who sold Fran's house; also half of a swinger couple (with Nicole) Dan and Annie played with 2018–2024.
-- [[wiki/people/davey-fitzpatrick]] — Contact identified via Google Contacts as Davey Fitzpatrick. Previously unresolved contact from iMessage corpus at handle `+17249639933`.…
+- [[wiki/people/davey-fitzpatrick]] — Nemacolin assistant caddie master (2018) and Dan's scheduler/friend for the last Uniontown working year; the thread ends the day Dan tells him about the NYC move.
 - [[wiki/people/david-j-frank]] — Paternal great-grandfather of Dan Frank. Born 12 August 1892 in Russia (Jewish immigrant). Died 6 April…
 - [[wiki/people/del]] — NYC Stiiizy-brand cannabis delivery service, spring-summer 2019; chronically late.
 - [[wiki/people/dimitri]] — the only boss Dan ever loved: Au Za'atar's Greek manager-oracle, twice.
@@ -15422,7 +15736,7 @@ related: []
 - [[wiki/people/jajuan-davis]] — 2018-19 winter dealer contact, second active source alongside Johnny.
 - [[wiki/people/james]] — Contact +18782477198. Self-ID: "Hey dan it james, Danielles working and im with the kids till like 4. But…
 - [[wiki/people/jaredtricia]] — Married couple who booked Annie (as "Hazel") for paid group encounters, June 2019.
-- [[wiki/people/jason-bermejo]] — Contact identified via Google Contacts as Jason Bermejo. Previously unresolved contact from iMessage corpus at handle `+18172693422`. 451…
+- [[wiki/people/jason-bermejo]] — Full Sail–era formative music friend, one of two people whose taste Dan defers to; Feb 2026 renewal at 400+ messages/month.
 - [[wiki/people/jason-cole]] — Artist friend; a 2016 pet-portrait commission that curdled over unpaid work.
 - [[wiki/people/jay-lauer]] — Friend and mutual sub/coke trading partner, winter 2016-2017.
 - [[wiki/people/jerad-friedline]]
@@ -15460,16 +15774,16 @@ related: []
 - [[wiki/people/mohammed-bin-salman]] — Joke contact name; close gaming friend, 2023-2024.
 - [[wiki/people/morley-frank]] — Paternal grandfather of Dan Frank. Born 20 August 1927, Brownsville, Fayette County, Pennsylvania. Died 13…
 - [[wiki/people/new-jim-shaffer]] — Wealthy childhood friend; 2018 embezzlement case, golf-equipment obsession, Rob Orange grief.
-- [[wiki/people/nick-mattie]] — Contact identified via Google Contacts as Nick Mattie. Previously unresolved contact from iMessage corpus at handle `+17242526986`. 170…
+- [[wiki/people/nick-mattie]] — Spring-2017 drug-scene trading peer: reciprocal fronts, a hand-kept ledger, eleven weeks from daily contact to silence.
 - [[wiki/people/rick-frank]] — Father of Dan Frank. Born 22 May 1959 in Uniontown, Fayette County, Pennsylvania. Part of paternal Jewish…
 - [[wiki/people/rj-ritchey]] — Uniontown golf-circle friend and 2019 Manhattan visitor; the iMessage contact `+17249844280` was merged into this canonical page.
 - [[wiki/people/ryan-lisac]] — Childhood/early peer. Core figure in the "Snob Squad" developmental arc.
 - [[wiki/people/sadie-harris]] — Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood,…
-- [[wiki/people/sam]] — Contact identified via Google Contacts as sam. Previously unresolved contact from iMessage corpus at handle `+13478611908`. 374 messages…
+- [[wiki/people/sam]] — NYC cannabis delivery dealer (2019–20) for the E 76th St years; fired Dan as a customer in Feb 2020, un-fired him when COVID hit.
 - [[wiki/people/sean-teets]]
 - [[wiki/people/shannon]] — Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct…
 - [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan saw alongside Annie spring–summer 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup July 2019.
-- [[wiki/people/steve-kezmarsky]] — High-school-era Uniontown golf friend, self-described "dark and tormented soul"; thread ends Jan 2018, dead by Dec 2018 (via Jim Shaffer thread).
+- [[wiki/people/steve-kezmarsky]] — High-school-era Uniontown golf friend, self-described "dark and tormented soul"; alive and sober as of Dec 2018 while his father faced a life sentence (death claim withdrawn 2026-07-19).
 - [[wiki/people/suzanne-frank]] — Mother of Dan Frank. Born 15 September 1962, Pittsburgh, Allegheny County, Pennsylvania (maiden: Whyel /…
 - [[wiki/people/tarik-fallous]] — Tarik Fallous — owner-operator (with his brother Ghassan) of Au Za'atar, the Lebanese restaurant near 58th…
 - [[wiki/people/teddy]] — Recurring Uniontown-area informal pharmaceutical supplier, 2018–2020; a transactional but socially embedded local supply node.
@@ -15478,10 +15792,10 @@ related: []
 - [[wiki/people/trevor]] — Trevor Bevins: Dan's Nemacolin caddying peer, golf companion, and later market-era Facebook contact; the thread also records money strain between friends.
 - [[wiki/people/trinity-st-clair]] — Adult performer booked as a paid companion for Dan and Annie, spring 2019; same window as the Shelbie threesome.
 - [[wiki/people/tuquick-17248123683]] — A hostile third party involved in the terminal sequence of the Annie relationship closure (the end-fight).…
-- [[wiki/people/urpaaa-at-yahoo-com]] — Non-named or minimally identified contact from iMessage corpus at handle `urpaaa@yahoo.com`. 23 messages…
+- [[wiki/people/urpaaa-at-yahoo-com]] — Unidentified teacher in a parental register who accompanied Dan to the Oct 2017 tooth extraction; identity is the page's open question.
 - [[wiki/people/valeria-iglesias-cid]] — Valeria Iglesias Cid — 19-year-old heiress to a laser-surgery empire (mother: Dra. Loreto Cid in…
 - [[wiki/people/vanessa-frank]] — Younger sister of Dan Frank. Born 16 January 1994 in Greensburg, Westmoreland County, Pennsylvania. Shares…
-- [[wiki/people/vaughn]] — Contact identified via Google Contacts as Vaughn. Previously unresolved contact from iMessage corpus at handle `+17245578229`. 228 messages…
+- [[wiki/people/vaughn]] — Fellow Nemacolin caddie and small-time weed middleman (2017–18); left for a railroad job.
 - [[wiki/people/vicki]] — Longest-serving non-family caregiver on Fran's rotation (2016–2018); "this lady is like my grandmother I never had"; her thread dates the second fall and documents the vigil's final days.
 
 ## contacts
@@ -15558,13 +15872,17 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2017-10-16
 date_range_end: 2018-08-09
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump"]
 tags: [career, uniontown-era]
 knowledge: mixed
+connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: co-occurs
+    claim: "Jack is the two threads' shared running character — the 6:10am rides because he 'doesn't like rushing,' the 'neurotic, whiny, incredible calamity' — placing Davey and Jack in one caddie-yard social graph with Dan."
 infobox:
   name: "Jack Rusko"
   relationship_to_dan: unknown
@@ -15999,7 +16317,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2017-01-20
 date_range_end: 2026-03-21
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_export_+18172693422_20260714055318.csv"]
@@ -16008,19 +16326,29 @@ tags: [digital-footprint, music-production, addiction-recovery, relationships, u
 knowledge: earned
 infobox:
   name: "Jason Bermejo"
-  relationship_to_dan: unknown
+  relationship_to_dan: friend
   sex: male
-  location: nyc
+  location: remote
+  role: "DJ / producer (Texas)"
   first_contact: 2017-01-20
-  known_for: "Contact identified via Google Contacts as Jason Bermejo (+18172693422). Long-standing friendship spanning 2017–2026, wit"
+  handles: ["+18172693422"]
+  known_for: "One of two people whose music taste Dan defers to; formative Full Sail-era friend; Feb 2026 renewal at 400+ messages/month"
 ---
 
 # Jason Bermejo
 
-## Identity
-Contact identified via Google Contacts as Jason Bermejo (`+18172693422`). Long-standing friendship spanning 2017–2026, with highest message density 2026-02, suggesting renewed contact after gap.
-
-**Profile**: DJ, producer, music enthusiast with strong taste curation. Based in Texas (references DFW, references girlfriend/Spetch in that region). Music-first worldview; Dan considers him one of very few people whose music recommendations carry weight.
+Jason Bermejo is one of the two people alive whose musical taste Dan
+genuinely defers to (the other is a stranger: Anthony Fantano) — the
+Full Sail–era friend who built Dan's musical identity circa 2009–2011
+and, fifteen years later, is still doing it. A DJ and producer now in
+Texas (`+18172693422`, 451+ messages, 2017–2026), he re-entered Dan's
+life in force in February 2026 — 400+ messages in a single month, the
+thread's all-time peak, landing in the raw aftermath of the Uniontown
+return — and the two fell instantly back into the old shape: beat-flip
+competitions, all-night recommendation threads, production shop-talk,
+and the shared, matter-of-fact chemical culture of the Orlando years.
+Of all the formative-era friendships in the corpus, this is the one
+that never needed repair to resume.
 
 ## Relationship & Role in Dan's Life
 
@@ -16922,7 +17250,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2019-09-27
 date_range_end: 2019-10-23
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -16936,6 +17264,10 @@ infobox:
   location: nyc
   first_contact: 2019-09-27
   known_for: "Kelly Johansson was a New York escort (Upper East Side, 152 East 65th Street) Dan and Annie booked for paid sessions tog"
+connections:
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: component-of
+    claim: "The Sep–Oct 2019 run is the arrangement at its most professionalized — a repeat working relationship in which Kelly treated Annie as a peer and pitched the couple as co-providers."
 ---
 
 # Kelly Johansson
@@ -17027,7 +17359,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 date_range_start: 2025-09-01
 date_range_end: 2025-12-10
 sources: ["raw/people/kristin/chimera-genesis-addendum.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
@@ -17041,6 +17373,9 @@ infobox:
   first_contact: 2025-09-01
   known_for: "Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] as 'Tom's friend.' She became Dan's most "
 connections:
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: component-of
+    claim: "The 2025 relationship is the arrangement's documented inversion — total-exclusivity demands and purity tests where the Annie structure practiced authored openness."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: component-of
     claim: "Kristin's Dec 9 2025 block of Dan held permanently — the loop's inbound control case: her severance was structural because she needed nothing from the channel."
@@ -17981,7 +18316,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 date_range_start: 2018-11-04
 date_range_end: 2025-02-20
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/messages_3476070497_all_time.csv"]
@@ -17998,6 +18333,9 @@ connections:
   - page: wiki/mind/concepts/contact-gini
     type: evidences
     claim: "The 1,753-message thread whose entire content is 'need 8' logistics shows how a high-volume handle can carry zero relational depth — volume and intimacy are independent axes in the contact graph."
+  - page: wiki/people/sam
+    type: parallels
+    claim: "Sam ran the parallel NYC cannabis delivery line to the same apartment in 2019–20, and where Menore absorbed Dan's unresponsiveness without friction, Sam fired him for it — the two professionals bracket the tolerance range of the transactional bond."
 tags: [digital-footprint, addiction-recovery, nyc-era]
 knowledge: earned
 infobox:
@@ -18558,7 +18896,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 date_range_start: 2018-04-22
 date_range_end: 2019-10-20
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -18598,7 +18936,11 @@ Jim is also aware of, and treats as funny running gossip, Dan's 2019 NYC "hooker
 
 ## Shared history and grief
 
-The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]]'s death: Jim didn't know she'd died and is visibly upset he wasn't told, asks to see a video of the family together, and reacts warmly to a detail of Fran smoking marijuana with Dan near the end of her life. A December 2018 exchange remembers a mutual friend, Rob Orange — dead by then — with real tenderness underneath the jokes: "Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week. I'd trade everyone in that photo for one more call." The same conversation surfaces that [[wiki/people/steve-kezmarsky|Steve Kezmarsky]], another shared high-school-era contact, had died — Jim hadn't heard.
+The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]]'s death: Jim didn't know she'd died and is visibly upset he wasn't told, asks to see a video of the family together, and reacts warmly to a detail of Fran smoking marijuana with Dan near the end of her life. A December 2018 exchange remembers a mutual friend, Rob Orange — dead by then — with real tenderness underneath the jokes: "Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week. I'd trade everyone in that photo for one more call." The same conversation turns to [[wiki/people/steve-kezmarsky|Steve Kezmarsky]], another shared high-school-era contact: Jim briefly misunderstands Dan's joke and asks "Wait... he's dead?", but Dan corrects him — Steve was alive, sober, and raising two kids while his father faced a life sentence ("He's alive but living the least enviable life EVER").
+
+> **REVISED [2026-07-19]:** This paragraph previously repeated the
+> misreading that Steve Kezmarsky had died. The raw thread shows Dan
+> explicitly correcting Jim's "Wait... he's dead?" in the next message.
 
 **A note on tone:** the thread's humor throughout is dense with racial slurs, ethnic jokes, and shock-value dark comedy in the register of edgy 2010s internet humor. That register is described here rather than reproduced.
 
@@ -18623,43 +18965,119 @@ PAGE: wiki/people/nick-mattie.md
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
+knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2017-04-20
 date_range_end: 2017-07-12
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+tags: [uniontown-era, addiction-recovery, financial-stress]
 infobox:
   name: "Nick Mattie"
-  relationship_to_dan: unknown
+  sex: male
+  location: uniontown
+  relationship_to_dan: acquaintance
   first_contact: 2017-04-20
-  known_for: "Contact identified via Google Contacts as Nick Mattie. Previously unresolved contact from iMessage corpus at handle +172"
+  handles: ["+17242526986"]
+  known_for: "Spring-2017 drug-scene trading peer — reciprocal fronts, a hand-kept ledger ('I try to keep a pretty decent book'), and an eleven-week burn from daily contact to silence"
+connections:
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Nick is a spring-2017 reciprocal node — buyer and seller in both directions with fronts and a hand-kept ledger — documenting the network's peer-trading tier, where supply ran on mutual credit rather than vendor discipline."
+  - page: wiki/timeline/periods/2017-poverty-floor
+    type: co-occurs
+    claim: "The ledger exchange — $20 and $50 fronts tracked by hand, a $100 bill carried to work as debt repayment — is the poverty floor's street-level bookkeeping, two broke men extending each other credit neither could cover."
+  - page: wiki/people/annie-ulmer
+    type: evidences
+    claim: "The May 2, 2017 handoff — product left with Annie after she messaged Nick on Facebook — dates her supply-logistics facilitation a full year before the documented 2018–19 Johnny-era role."
 ---
 
 # Nick Mattie
 
-## Identity
-Contact identified via Google Contacts as Nick Mattie. Previously unresolved contact from iMessage corpus at handle `+17242526986`. 170 messages exchanged over 2017-04-20 to 2017-07-12. Sample interaction: "What's up dude". Appears in personal message contexts (not obvious spam per filter).
+Nick Mattie was an eleven-week fixture of Dan's spring 2017
+(`+17242526986`, 170 messages, April 20 – July 12, 2017) — a Uniontown
+drug-scene peer with whom Dan ran a genuinely **reciprocal** trading
+relationship: each man sourced for, fronted to, and borrowed from the
+other, with the running balance tracked in Nick's hand-kept ledger.
+"25 from the start plus 50 I gave you tonight. Minus 15 you gave me,"
+he itemizes on May 11 — "Yeah man I try to keep a pretty decent book."
+The thread burns extraordinarily hot (some 160 of its 170 messages fall
+in the three weeks between April 29 and May 12) and then dies to three
+unanswered fragments over two months, the last of them — "The hell are
+you doing duder" — closing the record on July 12. It is the corpus's
+cleanest specimen of the peer-trading tier of the
+[[wiki/mind/synthesis/supply-network|supply network]]: below the
+professional vendors, below even the middlemen, a layer where supply
+was social reciprocity between two broke men.
 
-## Corpus Dimensions
+The record is his side only (all rows marked Received). His register is
+its own texture — "brotha man," "duder," "Ma fuckin dude" — warm,
+chatty, and constitutionally unable to hold a grudge about money.
+
+## The reciprocal machine
+
+Neither man was consistently the dealer. In the opening exchange Nick
+asks *Dan* where "to grab anything with the quickness" before work; ten
+days later he's offering Dan "one 50 left until I get home from work";
+by early May he's asking Dan for "that other 40" while simultaneously
+running to his own upstream source for Dan — "He wants me to cop alone.
+But it only takes me ten minutes from my place. You can just wait at my
+place til I get back." Cash moved in both directions in the same
+denominations ($20s, $40s, $50s, product unnamed throughout), cigarettes
+rode along ("Good on the squares"), and weed was the social layer rather
+than the commodity — "I'll run in and blow one down with you" while a
+friend named Paul waited in the car. The fronts were bilateral and so
+was the forbearance: "I can't really put much out on a limb this time
+but you know I'll work with you."
+
+The thread also quietly extends a structural finding: on May 2, 2017,
+with Dan carrying "a buck" ($100) to work as debt repayment and no time
+to double back, the handoff ran through
+[[wiki/people/annie-ulmer|Annie]] — "She just messaged me on FB. Cool
+to leave it with her? … It's there." The supply-network page documents
+Annie as logistics facilitator in the 2018–19 Johnny era; the Nick
+ledger shows her in that role a full year earlier.
+
+## Texture of a Uniontown spring
+
+The non-commerce residue is small-town life whole: Nick's place at "the
+old Howell house"; runs past Tobacco World; a nephew who stayed over
+and "got me for over nine bucks worth of candy"; Andy's baby shower,
+which Nick both paid toward and used as his delivery window ("I can
+just come to your place on my way there"); a paycheck that came up
+wrong ("What happened with your check? … Talk about unfortunate"); a
+new job started May 8 ("I can't be up too too late tonight. I start
+that new gig in the morning"); and one glimpse of Dan's own year —
+"And did you get your drums?" (May 6), a stray marker of gear
+acquisition in the middle of the poverty floor. The thread's comic
+peak is timestamped 3:55 AM: "How about chick tried adding me on
+Facebook."
+
+The ending needs no drama to explain it. Dan's side of the frequency
+simply stops after May 12; Nick's last three messages over eight weeks
+("Wanna do me favor for something in return?", "Can you locate", "The
+hell are you doing duder") go nowhere. Given the ledger's mutual-debt
+mechanics, an unresolved balance is a plausible but undocumented cause;
+equally plausible is the ordinary churn of the
+[[wiki/timeline/periods/2017-poverty-floor|2017 floor]], where most
+relationships in the corpus run hot and vanish.
+
+## Corpus record
+
 | Metric | Value |
-|--------|-------|
-| Messages | 170 |
+|---|---|
+| Messages | 170 (all marked Received; his side only) |
 | Date range | 2017-04-20 – 2017-07-12 |
-| Sent / Received (approx) | 0 / 170 |
-| Sample | What's up dude |
+| Peak density | ~160 messages, Apr 29 – May 12 |
+| Ledger snapshot | "$25 + $50 − $15" (May 11, 2017) |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+**Gaps:** the traded product (never named; cash denominations only);
+the final ledger state and whether debt ended the contact; Nick's
+upstream source; the "Brian Brink"/HR job thread of May 7 (one
+fragment, uninterpretable); whether "Andy" is the corpus's Andy or
+another.
 
 
 ========================================================================
@@ -18673,7 +19091,7 @@ title: "Richard Harrison \"Rick\" Frank"
 aliases: ["Rick", "Frank Sr."]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 infobox:
   name: Rick Frank
   status: Estranged
@@ -18688,16 +19106,6 @@ sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/dox-md/Gemini-_18.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
-related:
-  - wiki/people/suzanne-frank
-  - wiki/people/vanessa-frank
-  - wiki/self/ancestry
-  - wiki/mind/synthesis/vertical-authority-skepticism
-  - wiki/mind/concepts/attachment-model
-  - wiki/legal/2015-retail-theft-arrest
-  - wiki/health/chemical-architecture
-  - wiki/mind/synthesis/ancestral-dialectic
-  - wiki/mind/psychosexual/developmental-origins
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
   - page: wiki/mind/synthesis/block-unblock-loop
@@ -18709,6 +19117,12 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: causes
     claim: "The 2005 concealed-reality template on the paternal line is the documented origin of the vertical-suspect pattern."
+  - page: wiki/mind/concepts/attachment-model
+    type: causes
+    claim: "The 2005 rupture — a trusted primary figure maintaining a concealed alternate reality — is the template the attachment model replicates: the Annie decade re-ran verbal assurance over sustained concealment."
+  - page: wiki/mind/psychosexual/developmental-origins
+    type: causes
+    claim: "The November 2005 disclosure is the psychosexual cluster's named hinge event — per the dossier, the encoding moment of 'intimacy is a precursor to abandonment.'"
 ---
 
 
@@ -19001,43 +19415,136 @@ PAGE: wiki/people/sam.md
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
+knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2019-05-24
 date_range_end: 2020-09-10
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+tags: [nyc-era, digital-footprint]
 infobox:
   name: "Sam"
-  relationship_to_dan: unknown
+  location: nyc
+  relationship_to_dan: dealer
   first_contact: 2019-05-24
-  known_for: "Contact identified via Google Contacts as sam. Previously unresolved contact from iMessage corpus at handle +13478611908"
+  handles: ["+13478611908", "3479515354 (delivery driver)"]
+  known_for: "NYC cannabis delivery dealer, 2019–2020; fired Dan as a customer in Feb 2020 ('don't never hit this number'), then came back three months later"
+connections:
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Sam is the NYC cannabis line of the network, 2019–2020 — a professional delivery node running parallel to Menore's separate product, whose February 2020 firing of Dan shows transactional discipline cutting in both directions."
+  - page: wiki/people/menore
+    type: parallels
+    claim: "Two professional NYC delivery operations served the same apartment concurrently, and their opposite responses to Dan's unresponsiveness — Menore's zero-friction tolerance versus Sam's walk-off — bracket the range of what 'transactional' can mean."
+  - page: wiki/places/307-e-76th-st
+    type: co-occurs
+    claim: "The thread's delivery coordinates — 'in front of 307,' 'ring #17 and i will fly down' — are the East 76th Street residence; Sam's service area and the household address are the same block."
+  - page: wiki/timeline/periods/covid-era-2020
+    type: co-occurs
+    claim: "The thread's May–September 2020 resumption ('You still in ny') documents street-level commerce adapting around the pandemic bunker months, car trouble and ride-waits included."
 ---
 
-# sam
+# Sam
 
-## Identity
-Contact identified via Google Contacts as sam. Previously unresolved contact from iMessage corpus at handle `+13478611908`. 374 messages exchanged over 2019-05-24 to 2020-09-10. Sample interaction: "Sure". Appears in personal message contexts (not obvious spam per filter).
+Sam was Dan's New York cannabis delivery dealer for roughly the first
+sixteen months at [[wiki/places/307-e-76th-st|307 E 76th St]] — a Lower
+East Side operator (+13478611908, 374 surviving messages, May 2019 –
+September 2020) running a small professional delivery service with
+rotating strain menus, pickup-versus-delivery pricing, a delivery driver
+with her own contact number, and Facebook-based customer verification.
+The relationship was purely commercial, and its defining event is
+commercial too: in February 2020, after Dan left him standing outside the
+building twice in one day without answering, **Sam fired him as a
+customer** — "Ok I'm leaving don't never hit this number" — and then
+quietly un-fired him three months later when COVID thinned the customer
+base ("You still in ny").
 
-## Corpus Dimensions
+The thread survives one-sided — every row is marked Received and, unlike
+most of the corpus, that appears literally true here: Dan's side shows up
+only where Sam reacts to it (Liked/Laughed quotations), which is also
+where the page's few Dan-voiced details come from.
+
+## The operation
+
+First contact ran on referral protocol: "Send me your Facebook link for
+verification," then "Accept trippy Santa" — Sam's screening identity —
+before the menu came through. The menus themselves are the thread's
+skeleton, arriving every few weeks: flower by strain (Gorilla Glue,
+Skittles, Sunset Sherbet, Maui Wowie, La Confidential, Wedding Cake, Lava
+Cake, Slurricane), full-gram Kingpen and Smartcart oil cartridges, and
+300–500mg edibles. Pricing was posted like a shop: an eighth $50–60, a
+quarter $100–120 ("1/4 100$" is the thread's most repeated line), carts
+$60–80, always cheaper on pickup than delivery. Logistics were
+professional for the scale: a Toyota Camry double-parked out front, a
+"delivery lady" texting from 3479515354, referral discounts ("Bring
+Refferal's I'll hook u up"), and meeting-point fallbacks at Sam's
+part-time dry-cleaner job at 61st and Lexington.
+
+The first buy (May 24, 2019) set the pattern: Dan rode to Sam's own block
+— "296 side, 2nd floor staircase," off Delancey — on his Boosted board
+("i just need to let my boosted board charge up for like 10 more mins,"
+preserved in Sam's Like), paid $130 cash, and pitched himself as a
+regular: "awesome dude i'll need that size order once or twice a week."
+Thereafter Sam delivered uptown, and the thread is a metronome of
+"eta 30 min / come down / in front of 307."
+
+## The arc: regular, fired, rehired, forgotten
+
+Through late 2019 the cadence is steady — roughly monthly-to-biweekly
+orders, occasional misses handled politely on both sides. The rupture
+comes on February 23, 2020, and it is the one place the thread turns
+emotional: Sam drives to 76th Street mid-morning on a confirmed order,
+stands outside sending fourteen escalating messages ("I'm in front your
+building / Should I leave? / Damn u can't even text me back"), leaves,
+agrees to return that night, gets silence again, and quits: "And never
+waste my time again… don't never hit this number."
+
+What makes the incident structurally interesting is that it is the same
+customer-side behavior the wider corpus documents from the other
+direction. The [[wiki/mind/synthesis/supply-network|supply network]]'s
+reliability inversion says distance disciplines suppliers — the
+professional [[wiki/people/menore|Menore]] answered 99.3% of requests
+while friend-suppliers failed freely. Sam's walk-off shows the same
+discipline running the other way: a professional also *enforces* on the
+buyer, where Dan's friend-suppliers and family absorbed his
+unresponsiveness without consequence. Menore and Sam served the same
+apartment in the same years with opposite tolerance for the same
+customer, which is why the pair make a clean bracket around what a
+transactional bond does and doesn't put up with.
+
+The firing didn't hold — but the re-approach came from Sam, on May 14,
+2020, deep in the [[wiki/timeline/periods/covid-era-2020|COVID
+spring]]: "You still in ny," followed by a fresh price list. The pandemic
+stretch that follows is the thread at its most texture-rich: deliveries
+negotiated around ride availability and a car that "started coming out
+smoke," Dan's flaky cell service covered by a standing instruction
+preserved in Sam's Like — "just ring #17 and i will fly down" — and
+small kindnesses ("U have 70$ I can give u extra gram if u like").
+
+The last exchange (September 10, 2020) closes the loop with an
+unsentimental symmetry: Sam runs the verification script on Dan as if he
+were a stranger — "Send me your Facebook link for verification" — then
+catches himself mid-message: "Don't send / I remember." One final
+quarter of Orange Cream is negotiated, a meetup is pushed to tomorrow,
+and the thread simply ends. Nothing marks it as a goodbye; the customer
+relationship just stops being needed.
+
+## Corpus record
+
 | Metric | Value |
-|--------|-------|
-| Messages | 374 |
+|---|---|
+| Messages | 374 (all marked Received; Sam's side, with Dan's voice in reaction-quotes) |
 | Date range | 2019-05-24 – 2020-09-10 |
-| Sent / Received (approx) | 0 / 374 |
-| Sample | Sure |
+| Product | Cannabis: flower, oil carts, edibles |
+| Typical order | Quarter flower $100; carts $60–80 |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+**Gaps:** Sam's full name and the "trippy Santa" Facebook identity; why
+the thread ends in September 2020 (no farewell, no conflict — possible
+switch to another source, reduced use, or a channel move); whether the
+February 2020 no-show had a cause on Dan's side (the corpus is silent on
+what he was doing that day).
 
 
 ========================================================================
@@ -19196,20 +19703,24 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 date_range_start: 2017-01-20
 date_range_end: 2018-01-31
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
 tags: [uniontown-era, addiction-recovery, digital-footprint]
 infobox:
   name: "Steve Kezmarsky"
-  relationship_to_dan: high-school-era friend
+  relationship_to_dan: friend
+  location: uniontown
   first_contact: 2017-01-20
-  known_for: "High-school-era Uniontown golf friend, self-described 'dark and tormented soul'; thread ends Jan 2018, dead by Dec 2018"
+  handles: ["+17244157286"]
+  known_for: "High-school-era Uniontown golf friend, self-described 'dark and tormented soul'; sober with two kids by Dec 2018, family ruined by his father's arrest"
 connections:
   - page: wiki/people/new-jim-shaffer
     type: co-occurs
-    claim: "Steve's death surfaces in the December 2018 Jim Shaffer thread — Jim hadn't heard — placing both men in the same high-school-era Uniontown circle that was already losing members (Rob Orange) by their late twenties."
+    claim: "Steve's fate is the December 2018 Jim Shaffer thread's dark punchline — alive and sober while his family collapsed under his father's prosecution — told inside the same conversation that mourns Rob Orange, the cohort member who actually died."
   - page: wiki/interests/golf
     type: evidences
     claim: "The thread is a working exhibit of golf as the connective tissue of Dan's Uniontown male friendships: club talk (the M2, the stolen Scotty Cameron), vicarious rounds, and a July 2017 ask to be gotten into caddying."
@@ -19220,25 +19731,57 @@ connections:
 
 # Steve Kezmarsky
 
-Steve Kezmarsky was a high-school-era Uniontown friend whose 66-message
-thread (handle `+17244157286`, January 2017 – January 2018) reads, in
-hindsight, like a compressed elegy: golf enthusiasm, open self-diagnosis,
-a worsening rough patch — and then, within months of the last message,
-his death. By December 2018 the news had reached Dan's circle:
-[[wiki/people/new-jim-shaffer|Jim Shaffer]], another shared contact from
-the same era, learned of it in his own thread with Dan and was stunned.
-The cause and exact date are not in the corpus. He said he had two young
-children ("a boy and a girl to carry out my legacy").
+Steve Kezmarsky is a high-school-era Uniontown friend whose 66-message
+thread (handle `+17244157286`, January 2017 – January 2018) documents
+golf enthusiasm, unusually explicit self-diagnosis, and a life that
+collapsed at the end of the thread — not through his own death, but
+through his father's. As of December 2018 Dan describes him to
+[[wiki/people/new-jim-shaffer|Jim Shaffer]] as alive, sober, a father of
+two, and "living the least enviable life EVER": his father had been
+arrested in January 2018 and was, in Dan's words, "going to jail for the
+rest of his life," leaving the "family in ruins." He said he had two
+young children ("a boy and a girl to carry out my legacy").
+
+> **REVISED [2026-07-19]:** This page previously stated Steve was dead
+> by December 2018, citing the Jim Shaffer thread. The raw rows show the
+> opposite: Jim's "Wait... he's dead?" was a misreading of Dan's joke,
+> and Dan immediately corrects him — "No no I mean / He's alive but
+> living the least enviable life EVER / two kids / Sober / Dad going to
+> jail for the rest of his life / Family in ruins" (2018-12-09, Jim
+> Shaffer thread, `all_imessages_complete_dump.txt`). The death claim is
+> withdrawn.
+
+## The father's fall
+
+The corpus tracks the elder Kezmarsky's collapse across three dated
+points, none of which name the offense. On January 22, 2018 Annie
+reports "They picked up mr Kezmarsky today" — an arrest. On April 22,
+2018 Dan asks Jim "did you hear about mr.kezmarsky / he made quite the
+legal oopsie goof," and Jim answers "Yes. He's fucked." By December 9,
+2018 the sentence expectation is life imprisonment. Dan's own feeling
+toward the man is unambiguous — "he deserves a malignant tumor too," "i
+wish he got smashed by a drunk driver" — hostility whose origin the
+corpus does not explain.
+
+The arrest also resolves the timing of Steve's final messages: his last
+run (January 30–31, 2018) — "It's been a rough week… my life is in
+shambles," and "it took this happening for a dr to finally
+pr[escribe]…" — comes eight days after his father was picked up. "This
+happening" reads as the arrest, and the prescription as the medical
+system finally responding to a man whose family had just detonated. The
+thread simply stops there; everything after it comes secondhand.
+
+## The friendship on the record
 
 The thread's texture (his side only — the export's direction field marks
-every row Received, and here that appears literally true of the surviving
-rows) runs on two registers. The first is golf as friendship currency:
-selling his TaylorMade M2 driver, buying the new one, his irons and
-Scotty Cameron putter stolen from his garage (May 2017), asking Dan to
-price him last year's TaylorMade PSis through a connection, "Dude I wanna
-play golf so bad." In July 2017, mid-caddying-era for Dan, he asked to be
-gotten in at the club — then admitted weeks later he'd never submitted
-the resume.
+every row Received, and here that appears literally true of the
+surviving rows) runs on two registers. The first is golf as friendship
+currency: selling his TaylorMade M2 driver, buying the new one, his
+irons and Scotty Cameron putter stolen from his garage (May 2017),
+asking Dan to price him last year's TaylorMade PSis through a
+connection, "Dude I wanna play golf so bad." In July 2017, mid-caddying
+era for Dan, he asked to be gotten in at the club — then admitted weeks
+later he'd never submitted the resume.
 
 The second register is unusually explicit self-knowledge. In a single
 January 2017 exchange he calls himself "a very sick person… A dark and
@@ -19250,12 +19793,17 @@ fact that our friendship is based on my sickness."** A July 2017 message
 asks after "vikes or anything small" — placing him on the consumer edge
 of the same Uniontown informal-pharmacy world documented in
 [[wiki/mind/synthesis/supply-network]], though he is not a supply node.
+The sobriety Dan reports in December 2018 — framed to Jim with mock
+cruelty as part of the punishment ("Let him live...but he'll be sober") —
+is the thread's off-screen epilogue: the self-described sick man got
+clean in the worst year of his life.
 
-The final run (January 30–31, 2018) opens with him not recognizing Dan's
-number ("Sorry I lost a bunch of numbers") and closes the record on a
-low: "It's been a rough week… my life is in shambles," and a line that
-reads differently knowing what followed — "it took this happening for a
-dr to finally pr[escribe]…" The thread simply stops there.
+There is one further corpus appearance worth recording: in May 2016 Dan
+tells Annie that Alexis once "accidentally sent me pictures of her
+fucking Steve Kezmarsky" — and in his last message to Steve (January 31,
+2018) Dan jokes about "the classic Steve Kezmarsky opportunity move of
+fucking/stealing my girl." The friendship carried a documented history
+of Steve crossing that line, held in the register of a running joke.
 
 ## Corpus record
 
@@ -19263,11 +19811,13 @@ dr to finally pr[escribe]…" The thread simply stops there.
 |---|---|
 | Messages | 66 (all marked Received; his side of the exchange) |
 | Date range | 2017-01-20 – 2018-01-31 |
-| Death | Confirmed by Dec 2018 via the Jim Shaffer thread; date/cause undocumented |
+| Status at last mention | Alive, sober, two kids (2018-12-09, Jim Shaffer thread) |
+| Father | Arrested 2018-01-22; expected life sentence per Dec 2018 |
 
-**Gaps:** cause and date of death; his age; whether Dan attended a
-funeral; the "this happening" event of January 2018 that finally got him
-a prescription; the identity of "Becky."
+**Gaps:** the father's first name, offense, and case outcome (Uniontown
+area, January 2018 arrest — externally checkable); Steve's age; his
+state after December 2018 — the corpus never mentions him again; the
+identity of "Becky."
 
 
 ========================================================================
@@ -19282,7 +19832,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 infobox:
   name: Suzanne Frank
   status: Active
@@ -19312,6 +19862,9 @@ sources:
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
+  - page: wiki/mind/psychosexual/developmental-origins
+    type: causes
+    claim: "Suz's affair with the shared dealer during Rick's 2005 treatment is the maternal half of the rupture the psychosexual cluster treats as its origin point."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "Suz is the money spine's switchboard: the estate check deposited through her, the $750/week borrowing cycles, the supply-era Cash App facilitation, and the 337 sale she executes as owner-realtor — every major flow passes through her."
@@ -20103,7 +20656,7 @@ title: "Trevor Bevins"
 aliases: ["Trevor"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2017-10-19
 date_range_end: 2021-02-04
 sources:
@@ -20117,6 +20670,10 @@ related:
   - wiki/mind/concepts/contact-gini
 tags: [uniontown-era, career, financial-stress, digital-footprint]
 knowledge: mixed
+connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: co-occurs
+    claim: "Davey's thread independently dates Trevor's late-July 2018 exit and prices its cost from the yard's side — 'Trev picked a bad time to leave' — during the season's busy back half."
 infobox:
   name: "Trevor Bevins"
   relationship_to_dan: unknown
@@ -20306,12 +20863,13 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-24
-date_modified: 2026-06-24
+date_modified: 2026-07-19
 date_range_start: 2026-05-31
 date_range_end: 2026-06-16
 sources:
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
   - raw/self/message-csv/THE END FIGHT.csv
+  - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/end-fight
@@ -20327,6 +20885,12 @@ connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "The June 15 defection is the verdict's independent-validation exhibit: convergence on Dan's read within 14 days of attacking it."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: evidences
+    claim: "Tuquick's closure-night taunts prove the October 2019 MMF video circulated to Annie's next partner and was repurposed as humiliation — the arrangement era's intimate media outliving the arrangement as a weapon."
+  - page: wiki/people/bryan-5088682461
+    type: co-occurs
+    claim: "The video of the encounter with Bryan is the material Tuquick deployed as humiliation on closure night 2026 — Bryan's one documented appearance in the corpus made him ammunition six and a half years later."
 ---
 
 
@@ -20348,6 +20912,24 @@ Tuquick served as the attack vector during the group chat confrontation, demonst
 - Hurled extreme insults at Dan, centering on "junkie," "cuck," and "molester" framing.
 - Acted as Annie's proxy and protector during the escalation that resulted in Annie's final "sic semper lupanis" text.
 - Dan attempted to engage him on geopolitical topics (Israel/Palestine) to derail the hostility, but Tuquick remained focused on the attack.
+
+**The October 2019 video as weapon.** Tuquick's most personal ammunition
+was the video of the [[wiki/mind/psychosexual/arrangement-history|October
+21, 2019 filmed MMF threesome]] with
+[[wiki/people/bryan-5088682461|Bryan]] — Dan's sole bisexual experience
+(oral only, per the operator), which Annie had evidently shared with him. He
+deployed it twice in the closure-night barrage: folded into a
+degradation-narrative at 23:07:06 ("38 year old junkie that lives with his
+mom … sucked a dick , for you to get drugs , ran out of money so he had to
+move back , just got fired") — a causally false framing, since the corpus
+dates the encounter to a filmed session inside the autumn-2019 paid-model
+window, not a drug transaction — and again at 23:17:25 as a direct taunt:
+"Or the video of her sucking dick and you're in the back ground watching
+🤣🤣🤣," alongside repeated "Wanna see the video" offers. Dan's in-thread
+response was to claim the material as work ("Oh cool you've seen our
+work! I love meeting fans"). The exchange documents both that intimate
+media from the arrangement era circulated to Annie's next partner and how
+it was repurposed as rhetorical humiliation.
 
 ## Post-Closure Defection (June 15, 2026)
 
@@ -20379,43 +20961,112 @@ PAGE: wiki/people/urpaaa-at-yahoo-com.md
 ---
 domain: people
 page_type: entity
-status: archived
+status: closed
+knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-06-23
+date_modified: 2026-07-19
 date_range_start: 2017-09-28
 date_range_end: 2017-10-11
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+tags: [uniontown-era, family, physical-health]
 infobox:
-  name: "Urpaaa At Yahoo Com"
+  name: "Contact urpaaa@yahoo.com"
+  location: uniontown
   relationship_to_dan: unknown
+  role: "Teacher (subject/school unstated)"
   first_contact: 2017-09-28
-  known_for: "Non-named or minimally identified contact from iMessage corpus at handle urpaaa@yahoo.com. 23 messages exchanged over 20"
+  handles: ["urpaaa@yahoo.com"]
+  known_for: "Unidentified parental-register figure who accompanied Dan to the October 6, 2017 tooth extraction — 'thanks a bunch for helping me get that done. and for coming.'"
+connections:
+  - page: wiki/work/nemacolin-caddying
+    type: co-occurs
+    claim: "The thread is timed entirely by the caddie yard's clock — report times, 'up the mtn,' the $100 Venmo tip, and Dan working a 5.5-hour loop the day after his extraction because the yard culture punished sick days."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: precedes
+    claim: "Dan's October 7, 2017 report — 'no relaxing. gram is bleeding… i'm only one here' — is a documented pre-vigil caregiving episode, six months before the falls-and-vigil sequence this contact was evidently kept informed about."
 ---
 
 # Contact urpaaa@yahoo.com
 
-## Identity
-Non-named or minimally identified contact from iMessage corpus at handle `urpaaa@yahoo.com`. 23 messages exchanged over 2017-09-28 to 2017-10-11. Sample interaction: "I'm teaching now". Appears in personal message contexts (not obvious spam per filter).
+The owner of `urpaaa@yahoo.com` is one of the corpus's genuinely
+unresolved close relationships: a **teacher** in a **parental register**
+who, in a two-week window of autumn 2017 (23 received messages,
+September 28 – October 11, plus Dan's sent side preserved in the
+complete dump), gave Dan medical advice for an infected tooth, offered
+unprompted to come along to the extraction — "Do u want me to go w u
+tomorrow?" — drove out on the morning of October 6 ("Leaving in a
+minute / Omw"), and was thanked in terms Dan reserves for almost no one:
+"thanks a bunch for helping me get that done. and for coming. i really
+appreciate it." Whoever this is, they mattered; the corpus just never
+says their name.
 
-## Corpus Dimensions
+## The evidence profile
+
+The thread supports a specific composite. They **taught school** —
+"I'm teaching now," "I'm in class," three times across mid-day windows.
+They were **older and long-local**: when Dan passed along a greeting
+from "chuck from tri county" (Tri County Tire, after a tire pop), the
+reply was first-name obituary knowledge — "Maybe Chris? Definitely not
+Chuck. He passed away last year." They followed **Laurel Highlands
+football** with a partisan's reflexes: told of talk about Uniontown
+losing, they shot back "It's not like Uniontown just started to suck…
+Talk should be how LH beat WM." Their texting style runs on the
+abbreviation set ("u," "ur," "w," "Do u want me to go w u") that the
+corpus otherwise associates with the older Uniontown generation. And
+they held a **standing care role**: the antibiotics triage
+(MedExpress vs. the dentist, "dr.harr"), the post-operative follow-ups
+("How do u feel?" / "How's ur mouth feeling?" / "rinse w salt water
+every hour"), and a check-in four days later that closes the thread —
+"Feeling any better."
+
+Dan's side reciprocates the intimacy. He narrates his workday to them
+unprompted (report times, the $100 Venmo tip — "That's cool. $100 tip.
+Not bad," they answer), works a 5.5-hour loop the day after the
+extraction because "i would suffer a brutal ball-busting if i took a
+day off because a tooth hurt lol," and — most tellingly — reports the
+evening crisis of October 7 as to family: "no relaxing. gram is
+bleeding. hit her arm on the chair. i'm only one here." Casual
+caregiving bulletins about [[wiki/people/fran-coldren|Fran]] went only
+to the innermost circle.
+
+Two later fragments confirm the handle's owner rather than identify
+them: Dan, on getting a new phone (October 13, 2017), texts that he
+"still hadn't updated your contact with your urpaaa email"; and in
+March 2018 the contact writes "I found the receipt for my Macbook in my
+urpaaa account. May 11 2013," followed by "Oooops misfire."
+
+## Who it isn't, and who it might be
+
+[[wiki/people/suzanne-frank|Suz]] and [[wiki/people/annie-ulmer|Annie]]
+are excluded — both were receiving the same September 28 tooth
+bulletins on their own known handles in parallel. The abbreviation
+style, the auto-trade social fluency (knowing Tri County Tire's staff
+by name is natural for the owner of an auto-parts business), and the
+parental register are all consistent with
+[[wiki/people/rick-frank|Rick Frank]] — but Rick's documented
+occupation is retail entrepreneur, and nothing in his record has him
+teaching classes, so the identification cannot be asserted. A partner
+or relative on the paternal side (Rick's "Lisa," who has no known
+handle) fits the care role equally well. Per the corpus's own
+discipline: do not speculate past the evidence.
+
+## Corpus record
+
 | Metric | Value |
-|--------|-------|
-| Messages | 23 |
-| Date range | 2017-09-28 – 2017-10-11 |
-| Sent / Received (approx) | 0 / 23 |
-| Sample | I'm teaching now |
+|---|---|
+| Messages | 23 received (+ Dan's sent side in the complete dump) |
+| Date range | 2017-09-28 – 2017-10-11 (stray fragments to 2018-03-17) |
+| Defining event | Accompanying Dan to the Oct 6, 2017 tooth extraction |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+**Gaps:** identity — the page's central open question (a teacher,
+older, Uniontown-local, LH-partisan, close enough for gram bulletins;
+the operator could resolve this in one line); what "helping me get that
+done" covered (transport, moral support, or payment); why the channel
+goes quiet after October 2017 despite evident closeness (most likely
+answer: the relationship continued on a phone handle this export
+doesn't tie to the email).
 
 
 ========================================================================
@@ -20428,7 +21079,7 @@ page_type: entity
 title: "Valeria Iglesias Cid"
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 date_range_start: 2021-12
 date_range_end: 2025-07
 sources:
@@ -20455,6 +21106,10 @@ infobox:
   location: uniontown
   first_contact: 2021-12
   known_for: "Valeria Iglesias Cid was the 19-year-old Au Za'atar hostess — daughter of"
+connections:
+  - page: wiki/mind/concepts/institutional-out
+    type: co-occurs
+    claim: "The night-class fiction that ran the labor extraction also covered the Valeria affair — one unfalsifiable alibi serving both concealments simultaneously."
 ---
 
 # Valeria Iglesias Cid
@@ -20696,43 +21351,120 @@ PAGE: wiki/people/vaughn.md
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
+knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2017-05-04
 date_range_end: 2018-05-27
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
-tags: [digital-footprint]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+tags: [uniontown-era, career, financial-stress]
 infobox:
   name: "Vaughn"
-  relationship_to_dan: unknown
+  sex: male
+  location: uniontown
+  relationship_to_dan: coworker
+  role: "Fellow Nemacolin caddie; small-time weed middleman"
   first_contact: 2017-05-04
-  known_for: "Contact identified via Google Contacts as Vaughn. Previously unresolved contact from iMessage corpus at handle +17245578"
+  handles: ["+17245578229"]
+  known_for: "Caddie-yard coworker who doubled as a weed middleman between loops — rides up the mountain, check-day logistics, and chronic quantity disputes"
+connections:
+  - page: wiki/work/nemacolin-caddying
+    type: component-of
+    claim: "Vaughn is the cohort's paycheck-to-paycheck edge: a fellow caddie coordinating rides to the yard and check pickups who doubled as a small-time weed middleman between loops."
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Vaughn is a minor Uniontown node of the 2017–18 network — a middleman relaying 'my homey's' product in $20–50 quantities, whose chronic short-weight disputes show the informal market's bottom tier had no quality control at all."
+  - page: wiki/timeline/periods/2017-poverty-floor
+    type: co-occurs
+    claim: "The thread runs on poverty-floor logistics from both sides — coordinating rides to collect paychecks, $50 fronts, 'U getting ur check today' — documenting that Dan's suppliers were as broke as he was."
+  - page: wiki/mind/psychosexual/orchestration-and-voyeurism
+    type: co-occurs
+    claim: "The February 2018 late-night exchange — Dan sharing explicit photos of an unnamed woman, Vaughn offering to film, a 1 AM visit under 'complete gentleman' reassurances — pattern-matches the arrangement-onset orchestration window, though identity and outcome are uncorroborated."
 ---
 
 # Vaughn
 
-## Identity
-Contact identified via Google Contacts as Vaughn. Previously unresolved contact from iMessage corpus at handle `+17245578229`. 228 messages exchanged over 2017-05-04 to 2018-05-27. Sample interaction: "Ok cool". Appears in personal message contexts (not obvious spam per filter).
+Vaughn was a fellow [[wiki/work/nemacolin-caddying|Nemacolin caddie]]
+(`+17245578229`, 228 messages, May 2017 – May 2018) who doubled as one
+of the smallest documented nodes of the Uniontown
+[[wiki/mind/synthesis/supply-network|supply network]]: a weed middleman
+without a car, relaying his "homey's" product in $20–50 quantities
+between loops. The thread is working-poor Uniontown in miniature —
+rides coordinated to collect paychecks, fronts and IOUs in both
+directions, product measured in fractions of a gram — and it ends the
+way that economy's stories end: "I don't know I start the railroad on
+Wednesday" (May 11, 2018), then one last message asking whether Dan
+knew "anyone wit a ride that wants to make sum money."
 
-## Corpus Dimensions
+He was a father — deliveries scheduled around "gettin the kids food"
+and getting "the kids off the bus at 3" — and an experienced manual
+worker who found the caddie yard almost restful: "This is the easiest
+job I ever had I'm used to working 12 14 hr days so this a cake walk."
+The record is his side only (all rows marked Received); Dan's messages
+survive nowhere in it, so every exchange below is reconstructed from
+Vaughn's half.
+
+## The yard and the hustle, one channel
+
+The two registers interleave from the first day. Yard logistics: "Do u
+loop tomorrow," "Do you have a report time tomorrow," "Brad said ok"
+(the caddie master, [[wiki/people/brad-hubeaut|Brad Hubeaut]]),
+"I'm going up now to get my check," and the standing carpool problem —
+"I'll go up wit you, 1 would be better for me." Supply logistics, same
+phone, same days: "Once my homey stops over I'll hit you up," FaceTime
+product previews ("I forgot you have a iPhone as soon as I get it I'll
+FaceTime you so you can see it"), January 2018's upgrade to
+dispensary-sourced flower ("Fire straight from the Dispensary"), oil
+carts offered "for the pen" (February 2018), and inventory that never
+exceeded pocket scale — "Only got 3 grams left… the best I could do is
+50 for all three."
+
+The thread's signature motif is the **short-weight dispute**. Twice Dan
+evidently weighed what he'd bought and found it light, and twice Vaughn
+retreated to the same defense: "What did it weight because he said it
+was 3.5… that's my best friend I got it from and I know he wouldn't do
+it on purpose" (May 2017), and "I swear I watched him weigh it" against
+a bag holding 0.7 grams (January 2018). Dan owned a scale; Vaughn had to
+borrow it ("Whenever you want I just need a scale"). At the market's
+bottom tier the middleman couldn't verify his own product — a
+quality-control vacuum the network's professional nodes
+([[wiki/people/menore|Menore]], [[wiki/people/sam|Sam]]) existed to
+solve.
+
+## The February 2018 night
+
+One exchange departs from commerce entirely. Late on February 3, 2018,
+Dan evidently shared explicit photos of an unnamed woman; Vaughn's
+replies escalate from appraisal ("Hell yeah nipples pierced and
+everything") through mock-anguish ("Dan you playing wit my emotions…
+I thought we were friends LOL😞😞") to an offer to film ("I got a nice
+camera let me tape lol"). Three nights later, after a stood-up supply
+run, Vaughn drove over at 1 AM asking "what's up wit me lol" and
+reassuring: "Listen you know I'm a complete gentleman / All about
+having fun nothing more / I'm here." The thread records nothing further.
+The shape — Dan curating an audience, soliciting interest, controlling
+access — matches the
+[[wiki/mind/psychosexual/orchestration-and-voyeurism|orchestration
+pattern]] documented for exactly this period (the arrangement's early
+months), but the woman's identity and whether anything occurred are
+uncorroborated; the exchange is logged here as pattern-consistent
+evidence, not a confirmed instance.
+
+## Corpus record
+
 | Metric | Value |
-|--------|-------|
-| Messages | 228 |
+|---|---|
+| Messages | 228 (all marked Received; his side only) |
 | Date range | 2017-05-04 – 2018-05-27 |
-| Sent / Received (approx) | 0 / 228 |
-| Sample | Ok cool |
+| Product scale | $20–50 quantities; grams and eighths |
+| Exit | Railroad job starting ~2018-05-16 |
 
-## Domain: Self
-Part of the long-tail or mid-tier social graph. Contributes to contact Gini distribution and period behavioral profiles.
-
-## Notes
-Stub generated from MASTER_MESSAGES_DB_DUMP.csv analysis. Expand with any additional context from dox, FB, or other threads if identity emerges. Personal vs transactional role not fully resolved from this source alone.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+**Gaps:** surname and which yard crew he belonged to; the identity of
+the "homey"/"best friend" upstream source; the February 2018 woman and
+the visit's outcome; whether the railroad job took (the thread ends
+twelve days later and he never reappears in the corpus).
 
 
 ========================================================================
@@ -20994,7 +21726,7 @@ page_type: entity
 title: "307 E 76th St (Manhattan)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
@@ -21009,6 +21741,9 @@ connections:
   - page: wiki/people/menore
     type: co-occurs
     claim: "76th Street between 1st and 2nd Avenue was Menore's primary service coordinate for years — the residence and the delivery zone are the same address."
+  - page: wiki/people/sam
+    type: co-occurs
+    claim: "Sam's cannabis deliveries ran to the same door in 2019–20 — 'in front of 307,' apartment #17 — making the address the shared coordinate of two parallel delivery operations."
 ---
 
 # 307 E 76th St (Manhattan)
@@ -22079,7 +22814,7 @@ aliases: ["spine", "behavioral spine", "CONTEXT_CORE_EXPANDED"]
 status: stable
 importance: critical
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
@@ -22090,6 +22825,10 @@ sources:
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
 tags: [personality-profile, family, relationships, ai-collaboration]
+connections:
+  - page: wiki/mind/concepts/phenomenology-lens
+    type: contains
+    claim: "The lens is a formally subordinate interpretive overlay on this spine: wherever its metaphors and the spine's hard counts disagree, the spine wins — the subordination rule is part of the spine's own governance."
 related:
   - wiki/self/overview
   - wiki/mind/concepts/conflict-architecture
@@ -24086,13 +24825,17 @@ domain: timeline
 page_type: event
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2018-10-13
 date_range_end: 2018-12-11
 sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt"]
 related: ["wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/people/menore", "wiki/people/emaly-minerd", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/mind/psychosexual/orchestration-and-voyeurism", "wiki/mind/psychosexual/arrangement-history"]
 tags: [relationships]
 knowledge: earned
+connections:
+  - page: wiki/mind/concepts/erotic-architecture
+    type: evidences
+    claim: "This event is the dated, corroborated reality behind the OS report's ANNIE_ALEXIS_HOOKUP_CORE — the externalized-libido mechanism's central example."
 ---
 
 # Annie/Alexis Reunion (October–December 2018)
@@ -24221,7 +24964,7 @@ title: "The Eli Incident"
 importance: critical
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-19
 infobox:
   name: The Eli Incident
   type: Relationship rupture
@@ -24241,18 +24984,20 @@ sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx
   - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
-related:
-  - wiki/people/annie-ulmer
-  - wiki/mind/concepts/attachment-model
-  - wiki/mind/concepts/conflict-architecture
-  - wiki/mind/psychosexual/orchestration-and-voyeurism
-  - wiki/mind/psychosexual/emotional-imprinting
-  - wiki/people/eli
 tags: [infidelity, trauma-bond, nyc-era]
 connections:
+  - page: wiki/mind/concepts/node-locking
+    type: evidenced-by
+    claim: "The selective Eli purge at every AI export boundary measures this event's severity in Dan's own curation behavior — the one node too loaded to propagate."
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "The discovery sequence documented here is the first pillar of the fallout verdict's concealed-affair finding."
+  - page: wiki/mind/concepts/attachment-model
+    type: evidences
+    claim: "The concealment is the attachment model's live stress test: sustained deception answered with 'your suspicions are insane,' keeping the contradiction flagged as anomaly rather than closing the model."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: evidences
+    claim: "The affair put the conflict engine in its worst documented mode — accurate forensic detection reframed as paranoia by the person deceiving it, the machine's correct outputs weaponized against its operator."
 ---
 
 
@@ -24392,7 +25137,7 @@ status: stable
 importance: high
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
@@ -24419,6 +25164,12 @@ connections:
   - page: wiki/people/marla
     type: evidenced-by
     claim: "Marla's shift-swap thread dates the rotation's hospital phase and, via her April 4 'made it thru the nite' messages, fixes the death date."
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "Davey's unprompted condolence on April 5, 2018 ('Sorry for your loss bro') is independent same-week corroboration of the April 4 death date from outside the family."
+  - page: wiki/people/urpaaa-at-yahoo-com
+    type: follows
+    claim: "The vigil follows a documented October 2017 pre-vigil caregiving episode — 'gram is bleeding… i'm only one here' — that Dan reported to the unidentified urpaaa contact, showing the solo-caregiver load predated the falls by months."
   - page: wiki/people/annie-ulmer
     type: evidences
     claim: "The vigil is the high-water mark of the Annie decade — the one extended episode where Dan and Annie function as a unit under real weight, part of why the bond survived what followed."
@@ -25349,7 +26100,7 @@ page_type: period
 status: archived
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 date_range_start: 2017-01-01
 date_range_end: 2017-12-31
 changelog:
@@ -25379,6 +26130,12 @@ connections:
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "The poverty floor is the money spine's zero point — water shut off, gold and clothes sold, a $120 drug debt as a materially significant liability — the reference state against which every later capital arrival and burn is measured."
+  - page: wiki/people/vaughn
+    type: co-occurs
+    claim: "The Vaughn thread runs on poverty-floor logistics from both sides — rides coordinated to collect paychecks, $50 fronts, 'U getting ur check today' — documenting that Dan's suppliers were as broke as he was."
+  - page: wiki/people/nick-mattie
+    type: co-occurs
+    claim: "The Nick Mattie ledger — $20 and $50 fronts tracked by hand, a $100 bill carried to work as debt repayment — is the poverty floor's street-level bookkeeping, two broke men extending each other credit neither could cover."
 ---
 
 # 2017 Poverty Floor
@@ -25823,7 +26580,7 @@ page_type: period
 title: "The COVID Era (2020)"
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 date_range_start: 2020-03-01
 date_range_end: 2021-03-01
 sources:
@@ -25840,6 +26597,9 @@ connections:
   - page: wiki/mind/synthesis/2020-left-turn
     type: causes
     claim: "The lockdown's micro-radius siege is the documented condition of the August 2020 socialist conversion — the reading and media binge are self-dated to being stuck inside."
+  - page: wiki/people/sam
+    type: co-occurs
+    claim: "The Sam thread's May–September 2020 resumption is street-level documentation of the siege months: deliveries negotiated around rides, breakdowns, and a dealer reduced to asking 'You still in ny.'"
 ---
 
 
@@ -26047,7 +26807,7 @@ page_type: period
 title: "Full Sail (Sep 2008 – Mar 2010)"
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2008-09-01
 date_range_end: 2010-03-01
 sources:
@@ -26065,6 +26825,9 @@ related:
   - wiki/interests/music/overview
 tags: [music-production, relationships, uniontown-era, addiction-recovery]
 connections:
+  - page: wiki/mind/psychosexual/developmental-origins
+    type: co-occurs
+    claim: "The period closes the 2005–2010 'Neuroemotional Imprinting Era' — the emo/pop-punk template of intense, tragic, doomed devotion that the psychosexual cluster reads as the aesthetic standard for later relationships."
   - page: wiki/timeline/periods/2010s
     type: precedes
     claim: "Full Sail hands directly into NYC-1 — the spring-2010 move from Winter Park to Brooklyn carries the audio ambition and the just-begun Alexis relationship north."
@@ -26295,7 +27058,7 @@ page_type: event
 title: "Au Za'atar (NYC, ~2021–2024)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 sources:
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/TheWaitersVisibleHigh.md
@@ -26317,6 +27080,9 @@ related:
   - wiki/mind/concepts/institutional-out
 tags: [nyc-era, career, ai-collaboration, housing, forensic-analysis]
 connections:
+  - page: wiki/mind/concepts/institutional-out
+    type: evidences
+    claim: "The night-class alibi — a fictitious 9pm schedule held for over a year, securing peak shifts while exempting closing duty — is the out-protocol's documented masterpiece."
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: co-occurs
     claim: "Dan's involuntary exit here set up the 2024 sole-earner rotation of the bond's leverage see-saw."
@@ -26545,7 +27311,7 @@ title: "BFS Foods (2026): Job, Drawer Dispute, Termination"
 status: closed
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 sources:
   - raw/legal/bfs-dispute/BFS_BOOTLOADER_v2.md
   - raw/legal/bfs-dispute/BFS Anita Quagmire strategy and legal exposure.md
@@ -26568,6 +27334,12 @@ related:
   - wiki/mind/concepts/dans-law
 tags: [addiction-recovery, career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/mind/concepts/dans-law
+    type: evidences
+    claim: "The drawer dispute is Dan's Law's cleanest low-stakes application: the missing paper trail read as the demand's feature, and the do-not-validate-by-paying conclusion followed from the stripped signal."
+  - page: wiki/mind/concepts/institutional-out
+    type: parallels
+    claim: "The BFS posture and the pre-installed out share one game-theoretic instinct — engage the institution only through mechanisms it cannot verify or contest — run from opposite sides of the ledger."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The drawer dispute is the micro-scale exhibit of the vertical-skepticism architecture: an unverified claim from above, backed by social pressure rather than records, met with procedural analysis and refusal."
@@ -27050,7 +27822,7 @@ page_type: event
 title: "Caddying — Nemacolin, Laurel Valley, Pikewood National (2016–2019)"
 status: closed
 date_created: 2026-07-14
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 date_range_start: 2016-04-06
 date_range_end: 2019-11-01
 sources:
@@ -27070,6 +27842,15 @@ connections:
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Steve asked to be gotten into the caddie yard in July 2017 and never submitted the resume — a documented near-member of the cohort."
+  - page: wiki/people/davey-fitzpatrick
+    type: contains
+    claim: "Davey is the yard's management layer in the record: assistant caddie master for 2018, source of every documented report time and training assignment in Dan's season, and the coworker who picked Dan to train the new caddies."
+  - page: wiki/people/vaughn
+    type: contains
+    claim: "Vaughn is the cohort's paycheck-to-paycheck edge: a fellow caddie coordinating rides to the yard and check pickups who doubled as a small-time weed middleman between loops."
+  - page: wiki/people/urpaaa-at-yahoo-com
+    type: co-occurs
+    claim: "The unidentified urpaaa thread runs on the yard's clock — report times, the $100 Venmo tip, and Dan looping 5.5 hours the day after a tooth extraction because the yard culture punished sick days."
   - page: wiki/interests/golf
     type: component-of
     claim: "The caddying job is the professional component of the wider golf thread — the hire reignited his own playing, and for the 2016–19 stretch the sport was simultaneously income, social world, and game."
@@ -27134,7 +27915,14 @@ Pikewood and Potomac assignments weeks earlier.
 ## The caddie-yard social graph
 
 The job seeded a documented cohort of its own, each with a thread in the
-corpus: [[wiki/people/trevor|Trevor Bevins]] — the "Trevor" of the May 21
+corpus: [[wiki/people/davey-fitzpatrick|Davey Fitzpatrick]] — fellow
+caddie in 2017, assistant caddie master in 2018, and the channel through
+which every report time and training assignment of Dan's last season
+arrived; [[wiki/people/vaughn|Vaughn]] — a fellow caddie coordinating
+rides up the mountain and check-day logistics, who doubled as a
+small-time weed middleman between loops
+([[wiki/mind/synthesis/supply-network]] carries the supply side);
+[[wiki/people/trevor|Trevor Bevins]] — the "Trevor" of the May 21
 Laurel Valley trip above and the era's closest work friendship, who later
 left for Sand Valley; [[wiki/people/chad-johnson|Chad Johnson]] — the
 "Chad" of the same trip, a fellow caddy and social contact beyond the

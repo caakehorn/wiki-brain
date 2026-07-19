@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 sources:
   - "raw/self/dox-md/MAX_PRIME.md"
   - "raw/self/dox-md/operating_manual.md"
@@ -31,6 +31,15 @@ connections:
   - page: wiki/people/menore
     type: contains
     claim: "Menore is the NYC node and the network's reliability outlier — 99.3% availability (455 of 458 requests answered over 6.5 years, median 7-minute reply) — the control case proving distance outperforms friendship in this market."
+  - page: wiki/people/sam
+    type: contains
+    claim: "Sam is the 2019–20 NYC cannabis line — a parallel professional delivery node whose February 2020 firing of Dan ('don't never hit this number') proves transactional discipline enforces on the buyer too, not just the supplier."
+  - page: wiki/people/vaughn
+    type: contains
+    claim: "Vaughn is a minor 2017–18 Uniontown node — a carless caddie-coworker middleman whose repeated short-weight disputes document the quality-control vacuum at the informal market's bottom tier."
+  - page: wiki/people/nick-mattie
+    type: contains
+    claim: "Nick is the spring-2017 reciprocal peer-trading node — fronts and a hand-kept ledger running in both directions — the tier where supply was mutual credit between broke men rather than vendor service."
   - page: wiki/people/annie-ulmer
     type: contains
     claim: "Annie occupies both sides of the network across its life: logistics facilitator in the 2018–19 Johnny era, then dependent consumer in the terminal phase, when Dan controlling the supply ('bop') became the relationship's primary retention mechanism."
@@ -112,9 +121,17 @@ winter 2018–19), [[wiki/people/john-anderson|John Anderson]] (2019),
 Thanksgiving 2016), [[wiki/people/jay-lauer|Jay Lauer]] (a seven-week
 suboxone/cocaine *trading* peer rather than a vendor),
 [[wiki/people/jim-vrabel|Jim Vrabel]] (marijuana, two and a half years,
-closer to a regular acquaintance), and in NYC
+closer to a regular acquaintance), [[wiki/people/vaughn|Vaughn]] (a
+caddie-yard coworker middling his "homey's" weed in $20–50 quantities,
+2017–18, with chronic short-weight disputes),
+[[wiki/people/nick-mattie|Nick Mattie]] (a spring-2017 reciprocal
+trading peer running fronts and a hand-kept ledger in both directions), and in NYC
 [[wiki/people/clyde|Clyde]] (psychedelics: LSD, DMT, mushrooms — a
-separate product line from Menore's). None carried structural load — no
+separate product line from Menore's) and [[wiki/people/sam|Sam]] (the
+cannabis line, 2019–20: menus, a delivery driver, Facebook-verified
+customers — and the only node in the record to fire Dan as a customer,
+in February 2020, for the same unresponsiveness his friend-suppliers
+absorbed without consequence). None carried structural load — no
 minor node's failure produced a documented crisis — but their existence
 is the point: the 2016–19 network had *depth*, and the 2025–26 network
 had none. The redundancy the system lost by the terminal era is
