@@ -8,6 +8,9 @@ sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONT
 related: ["wiki/timeline/events/timeline", "wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/self/facebook", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/gemini-activity/gemini-activity", "wiki/self/ancestry"]
 tags: [relationships, ai-collaboration, infidelity, financial-stress, trauma-bond]
 connections:
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: follows
+    claim: "The Annie relationship-start period opens exactly where the Uniontown-return period ends — the Nov 28-29 2015 Alexis-to-Annie switch is the shared boundary."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: contains
     claim: "The switch synthesis is the mechanics layer of this period: timing, onset flood, lair-continuity."

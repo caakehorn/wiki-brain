@@ -19,6 +19,10 @@ related:
   - wiki/timeline/periods/2015-2016-annie-relationship-start
   - wiki/self/context-core
 tags: [music-production, uniontown-era, relationships, financial-stress, nyc-era]
+connections:
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: component-of
+    claim: "The SLOPPP-to-MOGZART handoff (~2014, on the May account rotation) lands inside the Uniontown-return period, dating the alias churn to those years."
 ---
 
 # Mogzart

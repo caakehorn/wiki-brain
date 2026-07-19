@@ -311,3 +311,10 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - INGEST_RUNBOOK §11: storytime-mining workflow codified (scrape → ~50 points → operator approval → research → enter → delete chat page), candidates listed.
 - STRATEGY.md "Running on lesser models": mechanical-execute list vs never-attempt list; junction trio named as the model of the product.
 - LLM_HANDOFF.md session entry + prioritized next steps. llm/ regenerated (308 pages, ~407k tokens).
+
+## [2026-07-18] ingest | timeline | Pre-2015 period reconstruction — 2010s.md corrected + NEW uniontown-return-2013-2015 (the misnamed "archaic dump" finding)
+- **Finding first:** MASTER_DUMP_PART_1_ARCHAIC.csv is misnamed — 124,177 rows but only 1 in 2011 and NOTHING 2012–2014; earliest real-text row is 2015-11-12. The message corpus genuinely begins ~Nov 2015. Pre-2015 CANNOT be filled from message data — recorded so no future model re-attempts it. Pre-2015 must come from context-core / Facebook / dox / LIFE calendar only.
+- **2010s.md corrected + rewritten** (was mis-bounded 2010–2014 as "NYC Round One," Alexis wrongly "met through webcam work"). Per context-core §4 canonical residence timeline: NYC-1 = Apr 2010–May 2013 (424 Bedford → UES 90th), ishlab/Creative License audio era, Alexis whole-NYC cohabitation (Bridge Cafe until Sandy Oct 2012), LCD MSG farewell Apr 2011, Suboxone onset. REVISED block documents both corrections. Typed connections added.
+- **NEW wiki/timeline/periods/uniontown-return-2013-2015.md** — fills the genuinely-uncovered stretch (periods jumped full-sail-2008-2010 → 2015-2016-annie with only the thin 2010s catch-all). The most-corrected geography in the timeline: SLOPPP (2013 launch, 2014 peak) → MOGZART (~2014 handoff on the May account rotation), the Alexis endgame, Jan 2015 move to 155 Virginia, Nov 28-29 2015 switch to Annie — all in Uniontown, not NYC. 7 typed edges.
+- Inverse edges on full-sail, sloppp, mogzart, 155-virginia-ave, chemical-architecture, 2015-2016-annie, alexis-armel, bond-switch-2015. timeline/index.md rewired. llm/ regenerated.
+- Gates: wiki-lint 0 errors (309 pages), wiki-connect check 0 errors.

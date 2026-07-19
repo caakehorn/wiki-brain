@@ -1,5 +1,5 @@
 WIKI-BRAIN — LLM ACCESS POINT
-generated 2026-07-18 · 308 pages · full corpus ~406,689 tokens
+generated 2026-07-19 · 309 pages · full corpus ~410,024 tokens
 
 WHAT THIS IS
 A machine-readable export of a personal wiki (a 'second brain') that
@@ -328,7 +328,7 @@ Shelbie/Annie Threesome (April 2019) | https://caakehorn.github.io/wiki-brain/ll
 Teen Concert Years (2005–2008) | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/teen-concert-years.txt | The stretch of Dan's life, roughly age 16 to 19, when live music was a
 Master Life Events Timeline | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/timeline.txt | **Source:** LIFE_EVENTS_CALENDAR.md (auto-extracted from 175,358 iMessages Nov 2015 – Mar 2026)
 timeline — index | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/index.txt
-Early 2010s (NYC Round One) | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2010s.txt | January 2010 through late 2014 — the stretch from the Brooklyn move to the start of the [[wiki/people/annie-ulmer|Annie]] relationship. Bookended by graduati...
+NYC Round One (2010–2013) | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2010s.txt | Dan's first New York City period ran **April 2010 to May 2013** — three
 2015-2016 Annie Relationship Start | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2015-2016-annie-relationship-start.txt | **Date range:** Nov 2015 - 2016
 2017 Poverty Floor | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2017-poverty-floor.txt | 2017 was the year the floor dropped out. Dan was twenty-eight, living in Uniontown, Pennsylvania, in a house on Virginia Avenue he had moved into with [[wiki...
 2018 Deep Cycle | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2018-deep-cycle.txt | **Date range:** 2018
@@ -339,6 +339,7 @@ The COVID Era (2020) | https://caakehorn.github.io/wiki-brain/llm/pages/timeline
 The Dark Era — Opiates and the Body (2007–2008) | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/dark-era-2007-2008.txt | The two years between the November 2005 parental rupture and the September
 December 2025 Spike | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/dec-2025-spike.txt | 2025-12-01 to 2025-12-31
 Full Sail (Sep 2008 – Mar 2010) | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/full-sail-2008-2010.txt | Three years after the November 2005 family rupture and one year into the
+Uniontown Return (2013–2015) | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/uniontown-return-2013-2015.txt | The most-corrected stretch in the whole timeline. For two and a half
 
 --- WORK ---
 Au Za'atar (NYC, ~2021–2024) | https://caakehorn.github.io/wiki-brain/llm/pages/work/au-zaatar.txt | Au Za'atar Midtown — the Lebanese restaurant at 58th & 1st owned by

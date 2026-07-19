@@ -22,7 +22,7 @@ _Items waiting for or in the middle of ingestion. `bin/capture status` lists the
 | raw/self/dox-md/ulmer_dui_megadoc.md | LOW | Annie DUI detail — check for gaps vs existing pages |
 | raw/self/dox-md/The-Eli-incident-investigation.md | LOW | Check against wiki/timeline/events/ |
 | raw/self/dox-md/Annie 10-Year… Forensic Report.md | LOW | Supplement wiki/mind/synthesis/attachment-trauma-bond if gaps |
-| raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv | MEDIUM | Pre-2015 coverage — fills timeline gaps |
+| raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv | RESOLVED (2026-07-18) | Misnamed — 124k rows but only 1 in 2011, nothing 2012–14; earliest real text 2015-11-12. Has NO pre-2015 content. Corpus genuinely starts ~Nov 2015. Do not re-attempt for pre-2015; overlaps master dump for 2015–19. |
 | raw/self/message-csv/ (remaining CSVs) | LOW | Thread-specific slices |
 
 ## Re-synthesis queue (lint 2026-07-11: 22 oversized pages)
