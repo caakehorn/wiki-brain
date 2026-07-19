@@ -20,7 +20,7 @@ infobox:
 
 # Brian (NYC, 2019)
 
-> *Not to be confused with [[wiki/people/bryan-5088682461|Bryan]], the third participant in the October 21, 2019 filmed MMF — same-sounding name, different man.*
+> *Not to be confused with [[wiki/people/bryan-5088682461|Bryan]], the third participant in the October 20, 2019 filmed MMF — same-sounding name, different man.*
 
 Brian was an older, financially comfortable NYC client who booked [[wiki/people/annie-ulmer|Annie]] — working that summer under the alias "Hazel" (confirmed by Dan, 2026-07-14; Annie also used "Lily Lush" and the joint Chaturbate handles "smashonistaa"/"sofvded") — for two paid visits in summer 2019 (`+13137181574`, 43 messages, June 10 – July 9). A separate thread, [[wiki/people/jaredtricia|Jared and Tricia]], books the same "Hazel" persona against what they call "the Eros ad" at a confirmed $1,000/2-hour rate — the same summer the couple was also paying escorts [[wiki/people/kelly-johansson|Kelly Johansson]] and [[wiki/people/trinity-st-clair|Trinity St. Clair]] for group sessions, meaning Annie was working both sides of the arrangement's economy that year: booked as a provider and booking providers.
 

@@ -5,7 +5,7 @@ status: closed
 knowledge: mixed
 date_created: 2026-07-19
 date_modified: 2026-07-19
-date_range_start: 2019-10-21
+date_range_start: 2019-10-20
 date_range_end: 2025-05-11
 sources:
   - "raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md"
@@ -16,16 +16,16 @@ infobox:
   sex: male
   location: nyc
   relationship_to_dan: acquaintance
-  first_contact: 2019-10-21
+  first_contact: 2019-10-20
   handles: ["+15088682461"]
-  known_for: "The third participant in the October 21, 2019 filmed MMF — a gay man whose first encounter with a woman was that night with Annie and Dan"
+  known_for: "The third participant in the October 20, 2019 filmed MMF — a gay man whose first encounter with a woman was that night with Annie and Dan"
 connections:
   - page: wiki/mind/concepts/erotic-architecture
     type: evidences
     claim: "The encounter is the documented instance of the report's 'taboo as ontological rupture' mechanism — orientation violation authored on both sides of one scene."
   - page: wiki/mind/psychosexual/arrangement-history
     type: component-of
-    claim: "Bryan is the third participant of the October 21, 2019 filmed MMF — the encounter that is both Dan's sole bisexual experience and Bryan's first with a woman, a symmetric pair of one-time crossings."
+    claim: "Bryan is the third participant of the October 20, 2019 filmed MMF — the encounter that is both Dan's sole bisexual experience and Bryan's first with a woman, a symmetric pair of one-time crossings."
   - page: wiki/people/tuquick-17248123683
     type: co-occurs
     claim: "The video of the encounter with Bryan is the material Tuquick deployed as humiliation on closure night 2026 — Bryan's one documented appearance in the corpus made him ammunition six and a half years later."
@@ -33,7 +33,7 @@ connections:
 
 # Bryan (+15088682461)
 
-Bryan is the third participant of the **October 21, 2019 filmed MMF
+Bryan is the third participant of the **October 20, 2019 filmed MMF
 threesome** with Dan and [[wiki/people/annie-ulmer|Annie]] in NYC — the
 encounter that was Dan's one and only bisexual experience (oral only,
 per the operator). The crossing was symmetric: per the operator, Bryan
@@ -42,6 +42,13 @@ hooked up with annie and i." He is **not** the same person as
 [[wiki/people/brian|Brian]], the older NYC client who booked Annie in
 summer 2019 — same-sounding name, different man, different role, and
 the two should never be merged.
+
+> **REVISED [2026-07-19]:** Encounter date corrected to **October 20,
+> 2019** per direct operator statement ("the threesome took place on 20
+> Oct 2019"), superseding the October 21 previously inferred from the
+> Sent 2019-10-22 22:26 message "last night we had to film mmf." The
+> one-day tension between that message's "last night" phrasing and the
+> operator's date is noted; the operator's date governs.
 
 His entire iMessage footprint is three unanswered messages five and a
 half years later (May 11, 2025, with Dan back in Pennsylvania):
@@ -63,7 +70,7 @@ contradicts; see [[wiki/mind/psychosexual/arrangement-history]]).
 | Metric | Value |
 |---|---|
 | Messages | 3 (all Received, all 2025-05-11, unanswered) |
-| Defining event | Oct 21, 2019 filmed MMF (operator-attested; corpus-dated via Sent 2019-10-22) |
+| Defining event | Oct 20, 2019 filmed MMF (operator-attested; corpus-dated via Sent 2019-10-22) |
 
 **Gaps:** surname; how he was met and how the October 2019 encounter
 was arranged (no coordination thread under this handle); whether the

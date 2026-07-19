@@ -42,3 +42,13 @@ complete dump only on 2025-05-11 — three unanswered Received messages
 weather has me worked up lol") — an affectionate re-contact ~5.5 years
 after the encounter, no reply from Dan recorded. The Oct 2019
 coordination is not in the iMessage corpus under this handle.
+
+## Correction (same session) — encounter date
+
+Operator statement (verbatim): "the threesome took place on 20 Oct 2019"
+
+The encounter date is 2019-10-20 (operator-attested), superseding the
+2019-10-21 inference this note previously derived from the Sent
+2019-10-22 22:26 "last night we had to film mmf" message. The one-day
+tension between the operator's date and the message's "last night"
+phrasing is noted on the wiki pages; the operator's date governs.

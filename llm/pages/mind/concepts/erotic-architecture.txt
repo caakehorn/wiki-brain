@@ -12,7 +12,7 @@ tags: [trauma-bond, relationships, ai-collaboration]
 connections:
   - page: wiki/people/bryan-5088682461
     type: evidenced-by
-    claim: "The 'taboo as ontological rupture' mechanism — orchestrating sexual contact across the straight/gay boundary — has its documented instance in the October 21, 2019 filmed MMF with Bryan: a gay man's first encounter with a woman and Dan's only bisexual act, in one authored scene."
+    claim: "The 'taboo as ontological rupture' mechanism — orchestrating sexual contact across the straight/gay boundary — has its documented instance in the October 20, 2019 filmed MMF with Bryan: a gay man's first encounter with a woman and Dan's only bisexual act, in one authored scene."
   - page: wiki/timeline/events/annie-alexis-reunion-november-2018
     type: evidenced-by
     claim: "The externalized-libido mechanism's central example (ANNIE_ALEXIS_HOOKUP_CORE) is independently dated and corroborated as the six-week November 2018 reunion arrangement — theory and primary record aligned on the one event."
@@ -61,7 +61,7 @@ which the existing arrangement material doesn't cover.
 sexual contact between a straight and a gay man) as a way of watching
 stable categories collapse, rather than pursuing taboo for its own
 transgressive charge. What the report stated as theory now has its
-documented instance: the **October 21, 2019 filmed MMF** with
+documented instance: the **October 20, 2019 filmed MMF** with
 [[wiki/people/bryan-5088682461|Bryan]] — a gay man whose first encounter
 with a woman was that night, and Dan's one and only bisexual act (oral),
 both category-crossings authored into a single scene

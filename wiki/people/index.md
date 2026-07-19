@@ -27,7 +27,7 @@ related: []
 - [[wiki/people/brandon-hill]] — BFS assistant manager who delivered the off-books $50 demand; the instrument not the architect, whose phantom tender and fifteen/fifty speech impediment shape the whole reconstruction.
 - [[wiki/people/brennan-meadows]] — Brief early-2016 contact mixing suboxone sourcing and a small loan request.
 - [[wiki/people/brian]] — NYC client who booked Annie (as "Hazel") for paid visits, summer 2019.
-- [[wiki/people/bryan-5088682461]] — Third participant in the Oct 21, 2019 filmed MMF; a gay man whose first encounter with a woman was that night with Annie and Dan. Not the escort-client Brian.
+- [[wiki/people/bryan-5088682461]] — Third participant in the Oct 20, 2019 filmed MMF; a gay man whose first encounter with a woman was that night with Annie and Dan. Not the escort-client Brian.
 - [[wiki/people/bruceburish]] — Caddying-era friend; one dense Oct 2018 thread reacting to Dan and his girlfriend's webcam plans.
 - [[wiki/people/bub]] — Long-running casual friend: DJ logistics, Mac troubleshooting, gaming, 2017-2020.
 - [[wiki/people/casey-bondarenka]] — Friend who overstepped during 2015 relationship turbulence with Alexis; sporadic contact through 2018.
