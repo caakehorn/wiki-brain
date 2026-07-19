@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-19
-315 pages, ~435,350 tokens.
+318 pages, ~439,622 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -6266,6 +6266,9 @@ sources:
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
 tags: [relationships, digital-footprint]
 connections:
+  - page: wiki/people/lauryn-ashly
+    type: co-occurs
+    claim: "The September 2020 solicitation to Lauryn — apologetic, self-conscious, and simply declined — is a rare documented instance of the arrangement being pitched outside the established circle, showing the pattern was not universally successful."
   - page: wiki/people/annie-ulmer
     type: contains
     claim: "Annie is the constant across every documented instance — partner in the jealousy-kink baseline, co-operator of smashonista, co-participant in the paid and unpaid encounters — the arrangement is structurally a property of the Annie relationship."
@@ -15825,7 +15828,9 @@ related: []
 - [[wiki/people/kristin]] — Kristin Shaelene (handle +13307038747), introduced through tom as "Tom's friend." An ex-Brooklyn librarian…
 - [[wiki/people/kya-hansen]] — Canadian model/OnlyFans creator "bbblud"; Dan was her Reddit admin for a stretch in 2019, communicated mostly via OF.
 - [[wiki/people/lindsay-carolla]] — Thanksgiving 2016 supply contact; an unexplained "are you okay?" message in April 2017.
+- [[wiki/people/lauryn-ashly]] — Uniontown-era friend; real-time grief over Rob Orange's 2014 death, and a declined 2020 arrangement solicitation.
 - [[wiki/people/lisa-durbin]] — Extended-family relation organizing holiday gatherings, 2017.
+- [[wiki/people/lucie-dobbin]] — Longtime friend of Fran Coldren; recipient of Dan's fullest first-person account of Fran's death.
 - [[wiki/people/lukyan-mraz]] — Uniontown friend and short-lived 2015 cannabis-grow collaborator; ends in a March 2016 equipment dispute.
 - [[wiki/people/maddox]] — Maddox volunteered unprompted information without solicitation during public sidewalk exchange. Assessment…
 - [[wiki/people/manuel]] — Au Za'atar coworker turned lasting friend, 2023-2026; Spanish-language banter.
@@ -15849,6 +15854,7 @@ related: []
 - [[wiki/people/oscar-lindquist]] — Full Sail-adjacent friend; his own thread precisely dates the Jamie Mohler Hurricane Irene evacuation and is the primary source behind a 2022 Manhattan-restaurant coincidence.
 - [[wiki/people/rick-frank]] — Father of Dan Frank. Born 22 May 1959 in Uniontown, Fayette County, Pennsylvania. Part of paternal Jewish…
 - [[wiki/people/rj-ritchey]] — Uniontown golf-circle friend and 2019 Manhattan visitor; the iMessage contact `+17249844280` was merged into this canonical page.
+- [[wiki/people/rob-orange]] — High-school-era Uniontown friend; died April 2014, cause never confirmed; the one loss both Dan and Jim Shaffer mourn without irony.
 - [[wiki/people/ryan-lisac]] — Childhood/early peer. Core figure in the "Snob Squad" developmental arc.
 - [[wiki/people/sadie-harris]] — Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood,…
 - [[wiki/people/sam]] — NYC cannabis delivery dealer (2019–20) for the E 76th St years; fired Dan as a customer in Feb 2020, un-fired him when COVID hit.
@@ -17899,6 +17905,95 @@ not established from the current sources.
 
 
 ========================================================================
+PAGE: wiki/people/lauryn-ashly.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2014-04-11
+date_range_end: 2020-09-14
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"
+tags: [uniontown-era, grief, relationships]
+infobox:
+  name: "Lauryn Ashly"
+  sex: female
+  location: remote
+  relationship_to_dan: friend
+  known_for: "Uniontown-era friend who shared Dan's real-time grief over Rob Orange's April 2014 death; declined an unsolicited 2020 arrangement-solicitation message with easy warmth"
+connections:
+  - page: wiki/people/rob-orange
+    type: evidences
+    claim: "Lauryn's April 11, 2014 exchange with Dan is the corpus's only contemporaneous account of Rob's death — traded in real time, the day the news broke, before either of them had processed it."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: co-occurs
+    claim: "Dan's September 2020 message soliciting 'sexually adventurous friends' for Annie is a rare documented instance of the arrangement being pitched to an old friend outside the usual circle and declined — 'unfortunately i do not' — without damaging the friendship."
+---
+
+# Lauryn Ashly
+
+Lauryn Ashly is a Uniontown-era friend whose short Facebook Messenger
+thread (April 2014, then a single exchange in September 2020) captures
+two very different registers of the same easy, undamaged friendship:
+real-time grief over a shared loss, and — six years later — an
+unsolicited, slightly desperate favor Dan asks that she declines
+without any strain showing.
+
+## Rob Orange's death, in real time
+
+The thread opens on April 11, 2014, the day news broke that
+[[wiki/people/rob-orange|Rob Orange]] had died. Lauryn and Dan trade
+theories neither of them can confirm — pills versus something injected,
+whether he'd relapsed or was simply unlucky — and land, together, on
+the same grief-management logic: neither can face the funeral, both
+decide Rob "would probably be more upset if we all went and sat nicely
+until it ended," and Lauryn instead plans to feel it later, "when I'm
+home for Easter next weekend and I got to call n text him." She was, by
+her own account, close enough to him that the loss physically knocked
+her over at work that day, and the two of them fall easily into
+finishing each other's thoughts about who he was — "such a live wire,"
+"so fucking alive all the time." The exchange also carries a small
+life update: Lauryn had moved to the DC/Maryland area for engineering
+recruiting work she "fucking hate[d]," while Dan reports he'd "moved to
+NYC for a few years doing the music thing and just came back to PA" —
+dating this snapshot to the tail end of the [[wiki/timeline/periods/uniontown-return-2013-2015|Uniontown-return period]].
+
+## The 2020 ask
+
+The friendship resurfaces once, six years later, for an entirely
+different reason. On September 11, 2020, Dan — now describing himself
+as in a nearly seven-year open relationship, visiting Uniontown — asks
+Lauryn, with visible self-consciousness, whether she knows any
+"sexually adventurous friends": "she gets laid all of the time and my
+big gift is that i get to watch... if it helps i'm bringing in enough
+drugs to satisfy Freud or david bowie." He apologizes twice in the same
+breath ("i'm sorry this is SUCH a weird question," "i feel so weird now.
+hope this wasn't like the most awk thing ever"). Lauryn's reply three
+days later is unbothered and warm — "haha it's totally fine! I was in
+Denver all weekend, but unfortunately i do not" — closing the thread on
+exactly the same easy footing it opened on. It is one of the corpus's
+few documented instances of the [[wiki/mind/psychosexual/arrangement-history|arrangement]] being pitched outside the established circle and simply declined, with no
+visible cost to the friendship either way.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~25 (Facebook Messenger, both directions) |
+| Date range | 2014-04-11 – 2020-09-14 |
+| Two windows | Rob Orange's death (Apr 2014); an arrangement solicitation, declined (Sep 2020) |
+
+**Gaps:** whether either of them ultimately attended Rob's funeral;
+Lauryn's current location and circumstances beyond the 2020 "Denver all
+weekend" mention.
+
+
+========================================================================
 PAGE: wiki/people/lindsay-carolla.md
 ========================================================================
 
@@ -17988,6 +18083,106 @@ Exact family relationship (aunt, cousin, family friend) is not stated in the thr
 ## Related
 
 [[wiki/people/vanessa-frank]] · [[wiki/self/message-corpora/master-message-dump]]
+
+
+========================================================================
+PAGE: wiki/people/lucie-dobbin.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2018-04-05
+date_range_end: 2019-08-21
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/luciedobbin_xdu6oa5apw/message_1.html"
+tags: [family, grief]
+infobox:
+  name: "Lucie Dobbin"
+  sex: female
+  relationship_to_dan: family
+  location: remote
+  known_for: "Longtime friend of Fran Coldren from her Florida winters; recipient of Dan's fullest first-person account of Fran's death, written the same night"
+connections:
+  - page: wiki/timeline/events/fran-death-vigil
+    type: component-of
+    claim: "Dan reached out to Lucie within hours of Fran's death specifically because she 'already knew just how magical that woman was' — the message is the vigil's richest surviving first-person account, offered to a peer of Fran's rather than family."
+  - page: wiki/people/fran-coldren
+    type: evidences
+    claim: "Lucie and her partner Chris are credited by name with enabling Fran's Florida winter trips late in her life — 'without you and chris doing so much... she wouldn't have been able to continue doing it' — a documented extension of Fran's independence the family-only record doesn't otherwise carry."
+---
+
+# Lucie Dobbin
+
+Lucie Dobbin was a longtime friend of [[wiki/people/fran-coldren|Fran
+Coldren]] from her winters in Florida — a "friend from Quebec City,"
+per the thread's own account of a shared birthday party years earlier —
+who received, within hours of Fran's death, the richest first-person
+account Dan ever wrote of that night. He reached out to her rather
+than to family: "you're one of the people who already knew just how
+magical that woman was."
+
+## The death, in Dan's own words
+
+On April 5, 2018 — the evening after Fran died — Dan messaged Lucie
+with an account not preserved in this detail anywhere else in the
+corpus. Annie had fallen asleep at the bedside during the third day of
+Fran's catatonic hospital stay; alone and awake, Dan tried, half as an
+experiment, "communicating with gram" using only his mind — "it was a
+silly idea, and something i never expected to produce a result...but
+right when i asked her if she could hear me: she woke up." He woke
+Annie; both told Fran they loved her; she smiled, went quiet, smiled
+once more, and died — "it was beautiful and peaceful and she was truly
+happy." The hospital's pronouncement followed within a minute, audible
+on the phone recording Dan made of the moment. Writing as "completely
+non-religious" and "skeptical about most supernatural situations," he
+allows only that the experience "was so powerful and so 'human' that i
+will need to process just how differently the world might be than i
+had originally thought" — a rare register of open uncertainty, offered
+to Lucie specifically because he judged she would understand it without
+needing to be convinced. Lucie's reply describes [[wiki/people/vicki|
+Vicki]] — Fran's caretaker — independently rewatching the video Dan
+sent, saying she "would have had trouble accepting it if she hadn't
+seen with her own eyes that she was okay."
+
+## Who she was to Fran
+
+Lucie is identified in the thread as "the granddaughter of Fran's
+next-door neighbors and close friends Jim and Sugie Ulmer" — placing
+her, like Annie, inside the extended Belmont Circle/Ulmer social
+world, though not as a blood relation of Annie's own immediate family.
+Dan credits Lucie and her partner Chris by name for enabling Fran's
+continued winter trips to Florida late in her life: "without you and
+chris doing so much... she wouldn't have been able to continue doing
+it," adding that the household kept telling Fran "she had just gotten
+back recently" rather than that the trips were ending, to spare her the
+grief of losing that independence. The thread also names "Genie"
+(spelled "Jeanie" by Lucie) as another Florida-era friend of Fran's,
+connected to the Dobbins by marriage — a detail Dan says he only pieced
+together while going through Fran's old photographs after her death.
+
+Dan invited Lucie and Chris to a memorial celebration at the Uniontown
+Country Club on May 6, 2018 (12–4 PM), explicitly framed as "a happy
+occasion" rather than a funeral; Lucie's reply suggests they were still
+in Florida and uncertain whether they could attend. The thread's last
+entry is a Facebook friendship-anniversary notice in August 2019; there
+is no message after April 2018.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~20 substantive (Facebook Messenger, both directions) |
+| Date range | 2018-04-05 – 2019-08-21 |
+| Defining exchange | The death-night account, Apr 5–9, 2018 |
+
+**Gaps:** whether Lucie and Chris attended the May 6 memorial; Lucie's
+current location and relationship to the Ulmer family beyond the
+neighbor connection; the identity and fate of "Genie"/"Jeanie."
 
 
 ========================================================================
@@ -19356,8 +19551,7 @@ date_created: 2026-06-23
 date_modified: 2026-07-19
 date_range_start: 2018-04-22
 date_range_end: 2019-10-20
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/alexis-armel", "wiki/people/annie-ulmer", "wiki/people/steve-kezmarsky", "wiki/people/tom", "wiki/self/message-corpora/master-message-dump"]
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"]
 tags: [relationships, career, financial-stress]
 knowledge: mixed
 infobox:
@@ -19368,6 +19562,12 @@ infobox:
   first_contact: 2018-04-22
   known_for: "Jim Shaffer — 'not the only Jim Shaffer' in Dan's life, hence the 'new' contacts-card label — is a wealthy childhood fri"
 connections:
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Jim's enthusiastic, judgment-free reaction to learning about the Dan/Annie arrangement — disclosing his own interest in swinging and negotiating toward joining an encounter — is a friend-group data point on how normalized the arrangement was among Dan's peers."
+  - page: wiki/people/rob-orange
+    type: co-occurs
+    claim: "Jim's Dec 2018 remembrance and the Tom Petty minivan story are the corpus's second independent account of Rob, four years after his death — corroborating the 'live wire' character sketch Lauryn Ashly gives in real time the day he died."
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Steve's death reaches the record through this thread — Jim hadn't heard, December 2018 — the second dead member (after Rob Orange) of the same high-school-era Uniontown circle."
@@ -19393,7 +19593,7 @@ Jim is also aware of, and treats as funny running gossip, Dan's 2019 NYC "hooker
 
 ## Shared history and grief
 
-The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]]'s death: Jim didn't know she'd died and is visibly upset he wasn't told, asks to see a video of the family together, and reacts warmly to a detail of Fran smoking marijuana with Dan near the end of her life. A December 2018 exchange remembers a mutual friend, Rob Orange — dead by then — with real tenderness underneath the jokes: "Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week. I'd trade everyone in that photo for one more call." The same conversation turns to [[wiki/people/steve-kezmarsky|Steve Kezmarsky]], another shared high-school-era contact: Jim briefly misunderstands Dan's joke and asks "Wait... he's dead?", but Dan corrects him — Steve was alive, sober, and raising two kids while his father faced a life sentence ("He's alive but living the least enviable life EVER").
+The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]]'s death: Jim didn't know she'd died and is visibly upset he wasn't told, asks to see a video of the family together, and reacts warmly to a detail of Fran smoking marijuana with Dan near the end of her life. A December 2018 exchange remembers a mutual friend, [[wiki/people/rob-orange|Rob Orange]] — dead since April 2014 — first through a shared adventure ("Do you remember when me, you and rob orange took that suped up mini van to the Tom Petty concert"), then with real tenderness underneath the jokes: "Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week. I'd trade everyone in that photo for one more call" — the one place in a thread otherwise dense with shock humor where the register drops entirely. The same conversation turns to [[wiki/people/steve-kezmarsky|Steve Kezmarsky]], another shared high-school-era contact: Jim briefly misunderstands Dan's joke and asks "Wait... he's dead?", but Dan corrects him — Steve was alive, sober, and raising two kids while his father faced a life sentence ("He's alive but living the least enviable life EVER").
 
 > **REVISED [2026-07-19]:** This paragraph previously repeated the
 > misreading that Steve Kezmarsky had died. The raw thread shows Dan
@@ -19409,10 +19609,6 @@ The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]
 | Date range | 2018-04-22 to 2019-10-20 |
 | Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Jim to Dan) |
 | Handle | +14125139408 |
-
-## Related
-
-[[wiki/people/alexis-armel]] · [[wiki/people/annie-ulmer]] · [[wiki/people/steve-kezmarsky]] · [[wiki/people/tom]] · [[wiki/self/message-corpora/master-message-dump]]
 
 
 ========================================================================
@@ -19863,6 +20059,101 @@ location, employment, or whether contact continued after May 2020.
 | iMessage range | 2019-02-12 – 2020-05-19 |
 | Key event | Manhattan visit, 2019-07-05 – 2019-07-08 |
 | Identity resolution | `+17249844280` = RJ Ritchey |
+
+
+========================================================================
+PAGE: wiki/people/rob-orange.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2013-03-26
+date_range_end: 2018-12-09
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+tags: [uniontown-era, addiction-recovery, grief]
+infobox:
+  name: "Rob Orange"
+  sex: male
+  location: uniontown
+  relationship_to_dan: friend
+  known_for: "High-school-era Uniontown friend; died April 2014, suspected opioid overdose, cause never confirmed in the corpus; mourned years later by both Dan and Jim Shaffer as the one loss among the cohort that actually hurt"
+connections:
+  - page: wiki/people/new-jim-shaffer
+    type: co-occurs
+    claim: "Jim's Dec 2018 remembrance — 'Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week' — and the Tom Petty minivan story are the corpus's second independent account of the friendship, four years after his death."
+  - page: wiki/people/lauryn-ashly
+    type: evidenced-by
+    claim: "Lauryn's April 11, 2014 real-time reaction to the death, traded with Dan the day the news broke, is the corpus's only contemporaneous account of Rob's death and its suspected cause."
+  - page: wiki/people/steve-kezmarsky
+    type: co-occurs
+    claim: "Jim's Dec 2018 thread names Rob and Steve back to back as the cohort's losses — except Steve, per a correction the same conversation forces, was misheard as dead and was actually alive."
+---
+
+# Rob Orange
+
+Rob Orange was a Uniontown high-school-era friend who died on or
+around April 11, 2014 — the one loss in Dan's cohort that, years
+later, both he and [[wiki/people/new-jim-shaffer|Jim Shaffer]]
+independently describe as the one that actually hurt, in a friend
+group otherwise known for treating its own losses as dark-comedy
+material.
+
+## The death (April 2014)
+
+The corpus's only contemporaneous account comes from
+[[wiki/people/lauryn-ashly|Lauryn Ashly]]'s Facebook thread, traded
+with Dan the day the news broke. Neither of them knew the cause for
+certain: "no he wasn't [in bad shape], he was doing great for a good
+min now, and rob was never good at hiding using as much as he thought
+he was, i have no clue what happened unless maybe his tolerance was low
+and he got a few on a whim." Both suspected an opioid overdose but
+disagreed on the drug — Lauryn: "I've never seen him do H though, only
+blues [oxycodone 30mg pills]... even when he was really bad, i never
+saw that" — while a public statement (sent to the family for approval
+before release) contained "a quote" that made her think "he'd been
+shooting something." Neither reading is confirmed; Dan himself says
+"i almost know he was clean so I'm not sure at all." A location,
+"Edgewood," is mentioned once without explanation. A funeral was
+expected that Tuesday or Wednesday; neither Dan (newly started at a job
+he "royally hate[d]") nor Lauryn (four hours away, unable to face
+seeing him "like that") could attend, and both talk themselves into a
+version of "he would probably be more upset if we all went and sat
+nicely until it ended."
+
+## Who he was
+
+The corpus's character sketch is consistent across both this thread and
+Jim Shaffer's, four years apart. Lauryn: "he was so fucking alive all
+the time... such a live wire," recalling how they'd "cruise around all
+the time just ripping on each other constantly" and a running joke
+where she'd text him "i fucking hate engineers" to wind him up. Jim, in
+a December 2018 exchange with Dan mourning him alongside remembering a
+shared adventure — "Do you remember when me, you and rob orange took
+that suped up mini van to the Tom Petty concert" — and, more quietly:
+"Rob and I would talk on the phone and laugh till we cried for 2 hours
+at a time, 5 days a week. I'd trade everyone in that photo for one more
+call." Jim's tribute is notable for its register — the same thread runs
+on dense, edgy shock humor throughout, and this is the one place it
+drops entirely.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Death | ~April 11, 2014 (news breaking date); cause never confirmed |
+| Contemporaneous account | Lauryn Ashly thread, Apr 11, 2014 |
+| Retrospective mourning | Jim Shaffer thread, Dec 2018 |
+
+**Gaps:** confirmed cause of death; the significance of "Edgewood";
+whether Dan or Lauryn ultimately attended the funeral; Rob's full name
+and any surviving family.
 
 
 ========================================================================
@@ -25862,6 +26153,7 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - "raw/self/dox-md/_Photo Thread PT II_ Grand Finale Calibration .md"
   - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/luciedobbin_xdu6oa5apw/message_1.html"
 related:
   - wiki/people/fran-coldren
   - wiki/people/annie-ulmer
@@ -25888,6 +26180,9 @@ connections:
   - page: wiki/people/urpaaa-at-yahoo-com
     type: follows
     claim: "The vigil follows a documented October 2017 pre-vigil caregiving episode — 'gram is bleeding… i'm only one here' — that Dan reported to the unidentified urpaaa contact, showing the solo-caregiver load predated the falls by months."
+  - page: wiki/people/lucie-dobbin
+    type: evidenced-by
+    claim: "Dan's same-night message to Lucie is the fullest first-person account of the death moment on record — the silent mental-communication attempt, the final smile, the immediate pronouncement — written with a candor about genuine uncertainty found nowhere else in his corpus."
   - page: wiki/people/annie-ulmer
     type: evidences
     claim: "The vigil is the high-water mark of the Annie decade — the one extended episode where Dan and Annie function as a unit under real weight, part of why the bond survived what followed."
@@ -25991,6 +26286,31 @@ closing image. His verdict: "it really was about as quick, painless and
 easy of a death as one could wish for. if anyone deserved it, it was
 her. she grew up DIRT fucking poor and went on to live an absolute
 batshit crazy life."
+
+A same-night Facebook message to [[wiki/people/lucie-dobbin|Lucie
+Dobbin]], a longtime friend of Fran's from her Florida winters, gives
+the fullest first-person account of the moment on record. Annie had
+fallen asleep at the bedside; Dan, alone and awake, silently tried
+"communicating with gram" using only his mind — "it was a silly idea,
+and something i never expected to produce a result...but right when i
+asked her if she could hear me: she woke up." He woke Annie; the two of
+them told Fran they loved her; "she smiled. then we sat there in
+stunned silence for a couple seconds and she smiled again...and then
+she was gone." He recorded the moment on his phone. The hospital
+pronounced her immediately after — "you can even hear us talking to the
+nurse who walked a second later" — closing a three-day catatonic
+stretch the doctors had not expected to last six hours. Writing to
+Lucie the next evening, self-described as "completely non-religious"
+and "skeptical about most supernatural situations," he allows only that
+the moment "was so powerful and so 'human' that i will need to process
+just how differently the world might be than i had originally
+thought" — the record's most direct statement of genuine uncertainty
+anywhere in his corpus, offered nowhere else with this candor.
+
+A memorial celebration followed at the Uniontown Country Club, May 6,
+2018, 12–4 PM — deliberately framed, per Dan's invitation to Lucie, as
+"a happy occasion and something that gram would have approved of,"
+rather than a conventional funeral.
 
 ## Why it matters
 

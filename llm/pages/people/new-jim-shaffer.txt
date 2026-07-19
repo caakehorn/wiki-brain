@@ -6,8 +6,7 @@ date_created: 2026-06-23
 date_modified: 2026-07-19
 date_range_start: 2018-04-22
 date_range_end: 2019-10-20
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/alexis-armel", "wiki/people/annie-ulmer", "wiki/people/steve-kezmarsky", "wiki/people/tom", "wiki/self/message-corpora/master-message-dump"]
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"]
 tags: [relationships, career, financial-stress]
 knowledge: mixed
 infobox:
@@ -18,6 +17,12 @@ infobox:
   first_contact: 2018-04-22
   known_for: "Jim Shaffer — 'not the only Jim Shaffer' in Dan's life, hence the 'new' contacts-card label — is a wealthy childhood fri"
 connections:
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Jim's enthusiastic, judgment-free reaction to learning about the Dan/Annie arrangement — disclosing his own interest in swinging and negotiating toward joining an encounter — is a friend-group data point on how normalized the arrangement was among Dan's peers."
+  - page: wiki/people/rob-orange
+    type: co-occurs
+    claim: "Jim's Dec 2018 remembrance and the Tom Petty minivan story are the corpus's second independent account of Rob, four years after his death — corroborating the 'live wire' character sketch Lauryn Ashly gives in real time the day he died."
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Steve's death reaches the record through this thread — Jim hadn't heard, December 2018 — the second dead member (after Rob Orange) of the same high-school-era Uniontown circle."
@@ -43,7 +48,7 @@ Jim is also aware of, and treats as funny running gossip, Dan's 2019 NYC "hooker
 
 ## Shared history and grief
 
-The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]]'s death: Jim didn't know she'd died and is visibly upset he wasn't told, asks to see a video of the family together, and reacts warmly to a detail of Fran smoking marijuana with Dan near the end of her life. A December 2018 exchange remembers a mutual friend, Rob Orange — dead by then — with real tenderness underneath the jokes: "Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week. I'd trade everyone in that photo for one more call." The same conversation turns to [[wiki/people/steve-kezmarsky|Steve Kezmarsky]], another shared high-school-era contact: Jim briefly misunderstands Dan's joke and asks "Wait... he's dead?", but Dan corrects him — Steve was alive, sober, and raising two kids while his father faced a life sentence ("He's alive but living the least enviable life EVER").
+The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]]'s death: Jim didn't know she'd died and is visibly upset he wasn't told, asks to see a video of the family together, and reacts warmly to a detail of Fran smoking marijuana with Dan near the end of her life. A December 2018 exchange remembers a mutual friend, [[wiki/people/rob-orange|Rob Orange]] — dead since April 2014 — first through a shared adventure ("Do you remember when me, you and rob orange took that suped up mini van to the Tom Petty concert"), then with real tenderness underneath the jokes: "Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week. I'd trade everyone in that photo for one more call" — the one place in a thread otherwise dense with shock humor where the register drops entirely. The same conversation turns to [[wiki/people/steve-kezmarsky|Steve Kezmarsky]], another shared high-school-era contact: Jim briefly misunderstands Dan's joke and asks "Wait... he's dead?", but Dan corrects him — Steve was alive, sober, and raising two kids while his father faced a life sentence ("He's alive but living the least enviable life EVER").
 
 > **REVISED [2026-07-19]:** This paragraph previously repeated the
 > misreading that Steve Kezmarsky had died. The raw thread shows Dan
@@ -59,7 +64,3 @@ The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]
 | Date range | 2018-04-22 to 2019-10-20 |
 | Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Jim to Dan) |
 | Handle | +14125139408 |
-
-## Related
-
-[[wiki/people/alexis-armel]] · [[wiki/people/annie-ulmer]] · [[wiki/people/steve-kezmarsky]] · [[wiki/people/tom]] · [[wiki/self/message-corpora/master-message-dump]]

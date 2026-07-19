@@ -357,3 +357,10 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - NEW lukyan-mraz.md (36 msgs, 2015-16) — a short-lived 2015 cannabis-grow collaboration connected to the same household/circle as Zach, ending in a tense March 2016 equipment dispute; his Feb 17 "you alright?" cross-corroborates Zach's own Feb 18 concern about him, an unexplained joint data point.
 - Wired into: mind/synthesis/supply-network.md (Zach added to the main succession table as the earliest node, not the minor-node list), mind/synthesis/bond-switch-2015.md (new "Independent corroboration" section), places/155-virginia-ave.md, interests/music/aliases/sloppp.md.
 - Gates: wiki-lint 0 errors (315 pages), wiki-connect check 0 errors.
+
+## [2026-07-19] ingest | people | Facebook Messenger deep-scrape II — lucie-dobbin, rob-orange, lauryn-ashly (new tier-one entries)
+- lucie-dobbin.md (new): recipient of Dan's fullest first-person account of Fran's death (April 5, 2018, same night) — a silent mental-communication attempt, the final smile, immediate pronouncement, and a rare register of genuine spiritual uncertainty. Mined directly into wiki/timeline/events/fran-death-vigil.md's "The end" section, plus a previously-undocumented May 6, 2018 Uniontown Country Club memorial event.
+- rob-orange.md (new): resolves the previously-undocumented death circumstances of Rob Orange (referenced but not detailed on new-jim-shaffer.md) via Lauryn Ashly's April 11, 2014 real-time reaction thread — suspected opioid OD, cause never confirmed, "Edgewood" unexplained. Cross-corroborated by Jim Shaffer's independent Dec 2018 mourning (now also carrying the previously-unwritten Tom Petty minivan anecdote).
+- lauryn-ashly.md (new): the Rob Orange death-day exchange plus a September 2020 arrangement-solicitation message Dan sent her, declined without any strain — a documented case of the pattern NOT landing, added to arrangement-history.md's evidence base.
+- Cleanup: new-jim-shaffer.md's residual bare related:/## Related footer (leftover from a partial retrofit) fully converted to typed connections.
+- Gates: wiki-lint 0 errors (318 pages), wiki-connect check 0 errors.
