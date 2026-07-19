@@ -8,6 +8,7 @@ date_modified: 2026-07-13
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/imessage_ALL_both_all_now.csv
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/christocoan_2cxo0swo3g/message_1.html"
 related:
   - wiki/people/annie-ulmer
   - wiki/people/rick-frank
@@ -42,7 +43,18 @@ The arrest itself pre-dates the message archive (which begins November 28,
 2015), so it is reconstructed from its aftermath. During the stop he
 consented to a breath search — a decision he later credited with saving his
 driver's license ("I would have lost mine if I hadn't consented to the breath
-search when I got arrested," March 2026). No DUI resulted. Through December
+search when I got arrested," March 2026). No DUI resulted from this arrest.
+
+> **CONTRADICTION:** A October 19, 2017 message to
+> [[wiki/people/christo-coan|Christo Coan]] — "hell yeah I already got
+> a DUI I'm not getting any more of those :D" — indicates a *separate*,
+> otherwise undocumented DUI predating this message, distinct from both
+> this arrest (which produced none) and Annie's own documented DUI. No
+> date, location, or outcome for it exists anywhere else in the
+> corpus; the legal index's "only documented arrest" framing is stale
+> pending further investigation. See [[wiki/people/christo-coan]].
+
+Through December
 2015 he made repeated trips to the state police barracks to replace case
 paperwork the barracks had lost; the trooper handling it remembered him and
 joked "DID YOU STEAL MORE COMBOS." The episode landed at the exact genesis of

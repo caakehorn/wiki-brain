@@ -34,6 +34,7 @@ related: []
 - [[wiki/people/chad-johnson]] — Fellow Nemacolin caddy and college student, 2017-2018.
 - [[wiki/people/charles-davenport]]
 - [[wiki/people/christian-hanson]] — Retired NHL forward; golf regular at Nemacolin, 2017-2018.
+- [[wiki/people/christo-coan]] — Nemacolin-era golf-course coworker; co-organized Dan's Oct 2017 birthday party; passing reference to an undocumented DUI.
 - [[wiki/people/claire-ulmer]] — Annie's sister; found Milo as a stray and set his rescue in motion.
 - [[wiki/people/clyde]] — NYC psychedelics dealer (LSD, DMT, mushrooms) delivering to Dan's apartment, 2019-2020.
 - [[wiki/people/dakota]] — Dakota channel is hearsay but treated as credible originating disclosure in bootloader (explicitly…
@@ -51,6 +52,7 @@ related: []
 - [[wiki/people/eric-jester]] — Full Sail friend, decade-spanning sparse contact; corroborates the Trinity St. Clair booking cost.
 - [[wiki/people/jamie-mohler]] — Full Sail friend present the day Dan first met Menore during the NYC-1 years; transitioned ~2023, now gendered female.
 - [[wiki/people/eric-springer]] — Month-long 2016 supply contact; wearing an ankle monitor at the time.
+- [[wiki/people/ej-rags]] — Williamsburg NYC vinyl-collector friend; drew out Dan's stated philosophy of destroying his own creative work.
 - [[wiki/people/felipe]] — the Colombian Au Za'atar bff; day-one glass-door casualty.
 - [[wiki/people/felix]]
 - [[wiki/people/fran-coldren]] — Maternal great-grandmother (Whyel line) of Dan Frank. Born 15 August 1920, Fort Martin, West Virginia.…
@@ -83,7 +85,9 @@ related: []
 - [[wiki/people/kya-hansen]] — Canadian model/OnlyFans creator "bbblud"; Dan was her Reddit admin for a stretch in 2019, communicated mostly via OF.
 - [[wiki/people/lindsay-carolla]] — Thanksgiving 2016 supply contact; an unexplained "are you okay?" message in April 2017.
 - [[wiki/people/lauryn-ashly]] — Uniontown-era friend; real-time grief over Rob Orange's 2014 death, and a declined 2020 arrangement solicitation.
+- [[wiki/people/lewis-strosnider]] — Uniontown vape-shop friend; free graphic design work, a shared drone business plan, a Mavic 2 sale still unresolved when Dan left for NYC.
 - [[wiki/people/lisa-durbin]] — Extended-family relation organizing holiday gatherings, 2017.
+- [[wiki/people/lucas-thomas]] — Zac Shumar's friend; independent real-time eyewitness to the February 2017 house fire and arrest that sent Alexis Armel to prison.
 - [[wiki/people/lucie-dobbin]] — Longtime friend of Fran Coldren; recipient of Dan's fullest first-person account of Fran's death.
 - [[wiki/people/lukyan-mraz]] — Uniontown friend and short-lived 2015 cannabis-grow collaborator; ends in a March 2016 equipment dispute.
 - [[wiki/people/maddox]] — Maddox volunteered unprompted information without solicitation during public sidewalk exchange. Assessment…
@@ -113,6 +117,7 @@ related: []
 - [[wiki/people/sadie-harris]] — Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood,…
 - [[wiki/people/sam]] — NYC cannabis delivery dealer (2019–20) for the E 76th St years; fired Dan as a customer in Feb 2020, un-fired him when COVID hit.
 - [[wiki/people/sean-teets]]
+- [[wiki/people/seth-ledonne]] — Uniontown counterculture-education friend; real-time June 2020 NYC protest-curfew account.
 - [[wiki/people/shannon]] — Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct…
 - [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan saw alongside Annie spring–summer 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup July 2019.
 - [[wiki/people/stephanie-nalbone]] — Previously undocumented Sept-Nov 2009 relationship, right at the close of Full Sail; sequencing against Danielle and Alexis unresolved.
