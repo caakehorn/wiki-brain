@@ -102,7 +102,8 @@ def save_page(rel_path, content, summary=None, create=False):
     content = re.sub(r"(?m)^date_modified: .*$", f"date_modified: {today}",
                      content, count=1)
     p.write_text(content, encoding="utf-8")
-    domain = rel_path.split("/")[1] if rel_path.count("/") >= 2 else "meta"
+    parts = Path(rel_path).parts
+    domain = parts[1] if len(parts) >= 3 else "meta"
     op = "create" if create else "edit"
     desc = f"human {op} via app: {rel_path}"
     if summary:
@@ -215,6 +216,7 @@ def run(cmd, timeout=120):
 
 
 def git_history(rel_path):
+    rel_path = str(safe(rel_path).relative_to(ROOT))
     code, out = run(["git", "log", "--follow", "--date=format:%H:%M, %d %B %Y",
                      "--pretty=format:%h%x09%ad%x09%an%x09%s", "--", rel_path])
     entries = []
@@ -402,8 +404,8 @@ class Handler(BaseHTTPRequestHandler):
             elif self.path == "/api/upload-image":
                 name = Path(urllib.parse.unquote(self.headers.get("X-Filename", "image.png"))).name
                 n = int(self.headers.get("Content-Length", 0))
-                if n > 25_000_000:
-                    self.send(400, {"error": "image too large (25MB cap)"}); return
+                if n <= 0 or n > 25_000_000:
+                    self.send(400, {"error": "invalid image size (0–25MB)"}); return
                 self.send(200, upload_image(name, self.rfile.read(n)))
             elif self.path == "/api/upload":
                 name = Path(urllib.parse.unquote(self.headers.get("X-Filename", "upload.bin"))).name
@@ -1089,7 +1091,8 @@ function mdRender(text, opts){
         `<a href="${imgUrl(im[2])}" target="_blank"><img src="${imgUrl(im[2])}" alt="${esc(im[1])}"></a>`+
         (im[1]?`<div class="thumbcaption">${inline(im[1])}</div>`:"")+`</div></div>`);
       i++; continue; }
-    let buf=[]; while(i<lines.length && lines[i].trim()!=="" &&
+    let buf=[lines[i++]];   // always consume the current line (guards against non-heading '#…' etc.)
+    while(i<lines.length && lines[i].trim()!=="" &&
       !/^(#|```|>|\||\s*[-*] |\s*\d+\. |---)/.test(lines[i])) buf.push(lines[i++]);
     out.push("<p>"+inline(buf.join(" "))+"</p>");
   }
