@@ -3,14 +3,14 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 318,
+ "page_count": 320,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
    "title": "Chemical Architecture",
    "summary": "Dan runs a deliberately engineered neurochemical system and explicitly rejects the recovery-industry frame for it. The load-bearing fact: **daily Suboxone si...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/chemical-architecture.txt",
-   "bytes": 5770
+   "bytes": 6638
   },
   {
    "page": "wiki/health/index.md",
@@ -479,7 +479,7 @@
    "title": "INTP \u2014 The Cognitive Function Stack",
    "summary": "Dan types INTP on every pass, and the function measurements are extreme enough to matter more than the four-letter label: dominant introverted thinking near ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/intp.txt",
-   "bytes": 7942
+   "bytes": 8310
   },
   {
    "page": "wiki/mind/profile/linguistic-profile.md",
@@ -1175,6 +1175,13 @@
    "bytes": 5628
   },
   {
+   "page": "wiki/people/elizabeth-eleanor.md",
+   "title": "Elizabeth Eleanor",
+   "summary": "Elizabeth Eleanor is a fellow recovering addict whose entire relationship with Dan is a single overnight Facebook exchange \u2014 July 10\u201311, 2013, just months af...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/elizabeth-eleanor.txt",
+   "bytes": 4491
+  },
+  {
    "page": "wiki/people/ellen-ulmer.md",
    "title": "Ellen Ulmer",
    "summary": "Ellen Ulmer is [[wiki/people/annie-ulmer|Annie]]'s mother \u2014 a steady, low-frequency but remarkably durable presence in Dan's life, with a thread that opens i...",
@@ -1242,7 +1249,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 16070
+   "bytes": 16426
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1663,6 +1670,13 @@
    "summary": "Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams, Snapchat premium) Dan was seeing on the side during the spring and summer of 2019, in a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/shelbie-breakiron.txt",
    "bytes": 5668
+  },
+  {
+   "page": "wiki/people/stephanie-nalbone.md",
+   "title": "Stephanie Nalbone",
+   "summary": "Stephanie Nalbone is an ex-girlfriend from a relationship the corpus had no other record of: a six-week, high-intensity long-distance romance running late Se...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/stephanie-nalbone.txt",
+   "bytes": 4400
   },
   {
    "page": "wiki/people/steve-kezmarsky.md",
@@ -2145,7 +2159,7 @@
    "title": "Full Sail (Sep 2008 \u2013 Mar 2010)",
    "summary": "Three years after the November 2005 family rupture and one year into the opiate arc ([[wiki/timeline/periods/dark-era-2007-2008]]), Dan left Uniontown for Wi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/full-sail-2008-2010.txt",
-   "bytes": 8947
+   "bytes": 9766
   },
   {
    "page": "wiki/timeline/periods/uniontown-return-2013-2015.md",

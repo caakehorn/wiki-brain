@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-19
-318 pages, ~439,607 tokens.
+320 pages, ~442,433 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -35,6 +35,9 @@ connections:
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "The fifteen-year daily Suboxone regimen begins at the front edge of NYC-1 (~Jan 2010, with a one-year discrepancy against legacy docs still unresolved)."
+  - page: wiki/people/elizabeth-eleanor
+    type: evidenced-by
+    claim: "A July 2013 exchange gives the corpus's only concrete dosage figure — 2mg Suboxone daily, ~5 years opiate-free — closing a previously undocumented gap and dating the last opiate use to the dark-era window."
 ---
 
 # Chemical Architecture
@@ -113,8 +116,19 @@ impulsiveness score; and the framing itself is load-bearing identity — "the
 addiction is the operating system," which is exactly what an addiction
 would say. Both readings are in the sources; neither is resolved.
 
-**Gaps:** no medical records, prescriber information, or dosage data in the
-corpus; physical-health baseline (the somatic neglect the profile predicts)
+One dosage figure exists on the record: a July 10, 2013 Facebook
+exchange with [[wiki/people/elizabeth-eleanor|Elizabeth Eleanor]], a
+fellow recovering addict, has Dan stating "i'm still on 2mg of
+suboxone a day, it's been almost 5 years since i touched an opiate and
+i'm still too terrified to get off" — placing his last opiate use
+around 2008–2009, consistent with the
+[[wiki/timeline/periods/dark-era-2007-2008|dark-era 2007–2008]]
+window, and confirming the maintenance dose was already stable and
+low three years into the regimen.
+
+**Gaps:** no medical records, prescriber information, or further
+dosage data beyond the single 2013 figure in the corpus;
+physical-health baseline (the somatic neglect the profile predicts)
 is undocumented — no labs, no dental, no primary care appears anywhere in
 17 years of messages; the "strategic" vs. dependency question for cocaine
 has no third-party data.
@@ -5738,6 +5752,9 @@ connections:
   - page: wiki/interests/roman-republic
     type: evidenced-by
     claim: "The great-man-theory tag cluster on the 2024 Caesar/Alexander/Oppenheimer reads is corpus evidence for the singular-figure-versus-the-system self-myth this profile documents."
+  - page: wiki/people/elizabeth-eleanor
+    type: evidenced-by
+    claim: "A July 2013 message — 'as an INTP and heavily introverted, logic-based dude...i can't see myself flourishing in AA/NA' — is the earliest dated primary-source instance of Dan self-typing INTP, used there to explain a rejection of group-based recovery in favor of self-directed reflection."
   - page: wiki/interests/film-canon
     type: evidenced-by
     claim: "The Taxi Driver / King of Comedy self-portrait pair in the film canon is the same hyperaware-observer self-myth chosen as a mirror in cinema."
@@ -14635,6 +14652,99 @@ everything known arrives through Dan's corpus — no neutral source exists.
 
 
 ========================================================================
+PAGE: wiki/people/elizabeth-eleanor.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2013-07-10
+date_range_end: 2013-07-11
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/elizabetheleanor_7psnsflijg/message_1.html"
+tags: [addiction-recovery, personality-profile, uniontown-era]
+infobox:
+  name: "Elizabeth Eleanor"
+  sex: female
+  location: uniontown
+  relationship_to_dan: acquaintance
+  known_for: "Fellow recovering addict; a single overnight July 2013 conversation about recovery philosophy that produced the corpus's only concrete Suboxone dosage figure and its earliest dated INTP self-identification"
+connections:
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: "Dan's own line — '2mg of suboxone a day, it's been almost 5 years since i touched an opiate' — is the corpus's only concrete dosage figure, and dates his last opiate use to roughly 2008–2009."
+  - page: wiki/mind/profile/intp
+    type: evidences
+    claim: "'as an INTP and heavily introverted, logic-based dude...i can't see myself flourishing in AA/NA' is the earliest dated primary-source instance of Dan self-typing INTP, three years before context-core's own profile material."
+  - page: wiki/timeline/periods/dark-era-2007-2008
+    type: evidenced-by
+    claim: "The 'almost 5 years' opiate-free figure, dated July 2013, backs into a last-use date inside this period, an independent confirmation from outside the period's own primary sources."
+---
+
+# Elizabeth Eleanor
+
+Elizabeth Eleanor is a fellow recovering addict whose entire
+relationship with Dan is a single overnight Facebook exchange — July
+10–11, 2013, just months after his return to
+[[wiki/timeline/periods/uniontown-return-2013-2015|Uniontown]] from
+NYC — that produced two of the corpus's more useful incidental data
+points despite the two of them never speaking again on record.
+
+## The conversation
+
+Reconnecting after a long silence, the two quickly land on shared
+history: both dealt with opiate addiction, and Elizabeth is several
+years into 12-step recovery, crediting a "God" she's careful to define
+loosely rather than through organized religion. She pushes Dan toward
+NA/AA and the "Big Book"; he declines specifically and articulately,
+citing his own psychological type — "i think my brain works a little
+differently than most and as an INTP and heavily introverted,
+logic-based dude...i can't see myself flourishing in AA/NA" — and
+lays out, at length, a secular, self-reflective account of addiction
+as "a neurological imbalance and a series of habitual behavior +
+neglect...caused only by ourselves and fixed only by ourselves."
+Elizabeth counters that the shared root problem is spiritual avoidance
+("YOU are the problem, drugs and alcohol is just a symptom") and
+recommends Donnie Darko as an emotional parallel to Dan's search. The
+conversation is warm and genuinely searching on both sides, closing
+with Elizabeth's sign-off: "I respect your views... I hope you can
+prove me wrong though."
+
+## What it incidentally documents
+
+Buried in the recovery debate are two facts that don't appear together
+anywhere else in the corpus. First, a precise **maintenance dose**: "i'm
+still on 2mg of suboxone a day, it's been almost 5 years since i
+touched an opiate and i'm still too terrified to get off" — the only
+concrete dosage figure for the [[wiki/health/chemical-architecture|
+fifteen-year Suboxone regimen]] on record anywhere, and one that backs
+into a last-opiate-use date of roughly 2008–2009, independently
+consistent with the corpus's [[wiki/timeline/periods/dark-era-2007-2008|
+dark-era]] window. Second, the earliest dated instance of Dan
+explicitly self-typing **INTP** — three years before the personality
+material that dominates [[wiki/mind/profile/intp|the later profile
+pages]] — used here as a specific, reasoned explanation for rejecting
+group-based recovery rather than as abstract self-description.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~90 (Facebook Messenger, single overnight exchange) |
+| Date range | 2013-07-10 – 2013-07-11 |
+| Defining content | Recovery philosophy debate; Suboxone dose; earliest INTP self-ID |
+
+**Gaps:** no further contact after July 11, 2013; Elizabeth's current
+circumstances, surname context, and whether she and Dan knew each
+other before this exchange (the "long time no see" framing implies a
+pre-existing but undocumented relationship).
+
+
+========================================================================
 PAGE: wiki/people/ellen-ulmer.md
 ========================================================================
 
@@ -15791,6 +15901,7 @@ related: []
 - [[wiki/people/del]] — NYC Stiiizy-brand cannabis delivery service, spring-summer 2019; chronically late.
 - [[wiki/people/dimitri]] — the only boss Dan ever loved: Au Za'atar's Greek manager-oracle, twice.
 - [[wiki/people/drew]] — Collaborator on Nemacolin caddy yardage-book green mapping, June-July 2017.
+- [[wiki/people/elizabeth-eleanor]] — Fellow recovering addict; a single July 2013 conversation yielding the only Suboxone dosage figure and earliest INTP self-ID in the corpus.
 - [[wiki/people/eli]] — Coworker (male) of Annie Ulmer at Au Za'atar (or related NYC hospitality). Central to the eli-incident as…
 - [[wiki/people/ellen-ulmer]] — Annie's mother; steady contact 2017-2025, confirms Jim and Sugie as Annie's grandparents.
 - [[wiki/people/emaly-minerd]] — Intense 5-month 2018-19 relationship; tried to refuse the couple's sex-first dynamic, collapsed into it anyway.
@@ -15861,6 +15972,7 @@ related: []
 - [[wiki/people/sean-teets]]
 - [[wiki/people/shannon]] — Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct…
 - [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan saw alongside Annie spring–summer 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup July 2019.
+- [[wiki/people/stephanie-nalbone]] — Previously undocumented Sept-Nov 2009 relationship, right at the close of Full Sail; sequencing against Danielle and Alexis unresolved.
 - [[wiki/people/steve-kezmarsky]] — High-school-era Uniontown golf friend, self-described "dark and tormented soul"; alive and sober as of Dec 2018 while his father faced a life sentence (death claim withdrawn 2026-07-19).
 - [[wiki/people/suzanne-frank]] — Mother of Dan Frank. Born 15 September 1962, Pittsburgh, Allegheny County, Pennsylvania (maiden: Whyel /…
 - [[wiki/people/tarik-fallous]] — Tarik Fallous — owner-operator (with his brother Ghassan) of Au Za'atar, the Lebanese restaurant near 58th…
@@ -20521,6 +20633,100 @@ Real last name and any life after July 2019 are undocumented — the thread ends
 ## Related
 
 [[wiki/people/annie-ulmer]] · [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+
+
+========================================================================
+PAGE: wiki/people/stephanie-nalbone.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2009-09-25
+date_range_end: 2009-11-10
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/stephanienalbone_tnsgkur3lq/message_1.html"
+tags: [relationships, uniontown-era]
+infobox:
+  name: "Stephanie Nalbone"
+  sex: female
+  location: uniontown
+  relationship_to_dan: ex-partner
+  first_contact: 2009-09-25
+  known_for: "A previously undocumented six-week long-distance relationship, Sept-Nov 2009, right at the close of Full Sail — reconnected after graduation, visited in person, ended without explanation"
+connections:
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: evidences
+    claim: "A previously undocumented relationship falling inside this period's own relationship-pivot window — Stephanie's Sept-Nov 2009 thread runs concurrently with the Danielle-ending/Alexis-beginning transition the period page already documents, without resolving how the three overlap."
+---
+
+# Stephanie Nalbone
+
+Stephanie Nalbone is an ex-girlfriend from a relationship the corpus
+had no other record of: a six-week, high-intensity long-distance
+romance running late September to early November 2009, reconnecting
+old Uniontown history right at the close of
+[[wiki/timeline/periods/full-sail-2008-2010|Full Sail]].
+
+## The relationship
+
+The thread opens with Stephanie reaching out cold after a long silence
+("daaan! whats up?! havent talked to u in forever"), the same week Dan
+describes having "just graduated today for music production" and
+announces a plan to "mov[e] to LA in a month to work in a studio" — a
+plan that, per the rest of the corpus, never happened; he instead
+stayed in Orlando through the Pro Tools certification that winter and
+moved to Brooklyn the following April. Within two weeks the exchange
+turns explicitly romantic and stays there without interruption:
+constant "I ♥ you," daily phone dates, drunk-texting confessions,
+YouTube-link flirting, and a real in-person visit — Dan traveling from
+Orlando back to Uniontown for a weekend that included a shared
+screening of *Saw VI* (released October 23, 2009, dating the trip to
+late October; a message to a third party afterward — "yea i was with
+steph at saw 6" — confirms it). A rough patch surfaces the night before
+he leaves: Dan apologizes at length for a "shitty night" — smoking, an
+argument with his mother — and lands on something closer to real
+self-diagnosis than anything else in the thread: "I remember why i
+left here — I can feel it as soon as i get back, and it's too real for
+me to deal with. 'it' makes me sick...but i don't know what 'it' is."
+It is the thread's only crack in an otherwise uniformly affectionate
+exchange, and a rare pre-corpus glimpse of a Uniontown-return dread
+that recurs throughout his adult life, dated here to 2009 — years
+earlier than any other documented instance of the pattern. The
+relationship winds down abruptly after November 5, with Stephanie
+apologizing for being "beat... via irresponsive," and the thread goes
+quiet after November 10, 2009.
+
+## An unresolved sequencing question
+
+[[wiki/timeline/periods/full-sail-2008-2010|The Full Sail period page]]
+already documents Dan's relationship with
+[[wiki/people/danielle-onesi|Danielle Onesi]] ending during this same
+general window (over an affair, "a girl from Baltimore") and
+[[wiki/people/alexis-armel|Alexis]] beginning "the same year (2009)"
+without a specific month. This relationship — genuinely mutual,
+romantic, and dated precisely to September–November 2009 — sits
+somewhere inside that same gap, and nothing in either thread clarifies
+whether it preceded Alexis, overlapped the Danielle ending, or was a
+short rebound between the two. The corpus does not name Stephanie
+anywhere else, so the relationship's place in the 2009 sequence is
+genuinely unresolved rather than merely undocumented in detail.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~120 (Facebook Messenger, both directions) |
+| Date range | 2009-09-25 – 2009-11-10 |
+| Defining event | An in-person visit, late October 2009 (dated via a Saw VI reference) |
+
+**Gaps:** how the relationship ended (no breakup message survives, only
+declining frequency); where it falls relative to Danielle and Alexis in
+2009; Stephanie's life after November 2009.
 
 
 ========================================================================
@@ -27892,6 +28098,9 @@ connections:
   - page: wiki/people/jamie-mohler
     type: contains
     claim: "Jamie was present in NYC during the years directly following this period and, per the operator, on the day Dan first met Menore — placing the original Menore introduction inside the Full Sail cohort's own social orbit, years before the documented 2018 reconnection."
+  - page: wiki/people/stephanie-nalbone
+    type: evidences
+    claim: "A previously undocumented Sept-Nov 2009 relationship falls inside this period's own Danielle-to-Alexis pivot window without resolving how the three overlap."
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)
@@ -27933,7 +28142,19 @@ Baltimore, connected through Jack from the band All Time Low, with
 Dan's own regret over the episode explicitly documented. [[wiki/people/alexis-armel]]
 begins the same year (2009) and becomes the operative relationship
 through the return to New York and beyond, ending only when Annie enters
-in November 2015. Alexis wasn't a long-distance partner during this
+in November 2015.
+
+A third, previously undocumented relationship falls inside the same
+window and complicates the clean two-name sequence: a six-week
+long-distance romance with [[wiki/people/stephanie-nalbone|Stephanie
+Nalbone]], a Uniontown contact, ran September–November 2009 — a
+reconnection right at graduation, a real in-person visit home, and an
+abrupt end by early November. Nothing in either thread resolves how it
+relates in time to the Danielle ending or the Alexis beginning; it is
+recorded as a real, dated event with an unresolved place in the
+sequence, not folded into either narrative.
+
+Alexis wasn't a long-distance partner during this
 window — the Twitter corpus places her physically in Orlando with Dan,
 tagged directly in local outings ("springs w @alexisarmel," a day trip to
 one of the freshwater springs outside the city) and in the same

@@ -364,3 +364,8 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - lauryn-ashly.md (new): the Rob Orange death-day exchange plus a September 2020 arrangement-solicitation message Dan sent her, declined without any strain — a documented case of the pattern NOT landing, added to arrangement-history.md's evidence base.
 - Cleanup: new-jim-shaffer.md's residual bare related:/## Related footer (leftover from a partial retrofit) fully converted to typed connections.
 - Gates: wiki-lint 0 errors (318 pages), wiki-connect check 0 errors.
+
+## [2026-07-19] ingest | people | FB deep-scrape III — elizabeth-eleanor, stephanie-nalbone (new); chemical-architecture + INTP dating
+- elizabeth-eleanor.md (new): single July 2013 overnight conversation with a fellow recovering addict, yielding the corpus's only concrete Suboxone dosage figure (2mg/day, ~5yr opiate-free — dates last use to the dark-era 2007-2008 window) and the earliest dated primary-source INTP self-identification (3 years before the profile pages' main material). Both mined into wiki/health/chemical-architecture.md and wiki/mind/profile/intp.md.
+- stephanie-nalbone.md (new): a previously entirely undocumented Sept-Nov 2009 long-distance relationship falling inside the Full Sail period's own Danielle-to-Alexis pivot window. Corrects an initial misreading of speaker attribution (Dan traveled to Uniontown, not the reverse) before publishing. Flagged as an unresolved sequencing question on full-sail-2008-2010.md rather than asserted into the existing two-name narrative.
+- Gates: wiki-lint 0 errors (320 pages), wiki-connect check 0 errors.

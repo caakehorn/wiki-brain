@@ -41,6 +41,9 @@ connections:
   - page: wiki/people/jamie-mohler
     type: contains
     claim: "Jamie was present in NYC during the years directly following this period and, per the operator, on the day Dan first met Menore — placing the original Menore introduction inside the Full Sail cohort's own social orbit, years before the documented 2018 reconnection."
+  - page: wiki/people/stephanie-nalbone
+    type: evidences
+    claim: "A previously undocumented Sept-Nov 2009 relationship falls inside this period's own Danielle-to-Alexis pivot window without resolving how the three overlap."
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)
@@ -82,7 +85,19 @@ Baltimore, connected through Jack from the band All Time Low, with
 Dan's own regret over the episode explicitly documented. [[wiki/people/alexis-armel]]
 begins the same year (2009) and becomes the operative relationship
 through the return to New York and beyond, ending only when Annie enters
-in November 2015. Alexis wasn't a long-distance partner during this
+in November 2015.
+
+A third, previously undocumented relationship falls inside the same
+window and complicates the clean two-name sequence: a six-week
+long-distance romance with [[wiki/people/stephanie-nalbone|Stephanie
+Nalbone]], a Uniontown contact, ran September–November 2009 — a
+reconnection right at graduation, a real in-person visit home, and an
+abrupt end by early November. Nothing in either thread resolves how it
+relates in time to the Danielle ending or the Alexis beginning; it is
+recorded as a real, dated event with an unresolved place in the
+sequence, not folded into either narrative.
+
+Alexis wasn't a long-distance partner during this
 window — the Twitter corpus places her physically in Orlando with Dan,
 tagged directly in local outings ("springs w @alexisarmel," a day trip to
 one of the freshwater springs outside the city) and in the same
