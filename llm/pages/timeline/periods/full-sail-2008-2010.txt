@@ -21,6 +21,10 @@ related:
   - wiki/self/twitter
   - wiki/interests/music/overview
 tags: [music-production, relationships, uniontown-era, addiction-recovery]
+connections:
+  - page: wiki/timeline/periods/2010s
+    type: precedes
+    claim: "Full Sail hands directly into NYC-1 — the spring-2010 move from Winter Park to Brooklyn carries the audio ambition and the just-begun Alexis relationship north."
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)

@@ -1,16 +1,16 @@
 {
- "generated": "2026-07-18",
+ "generated": "2026-07-19",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 308,
+ "page_count": 309,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
    "title": "Chemical Architecture",
    "summary": "Dan runs a deliberately engineered neurochemical system and explicitly",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/chemical-architecture.txt",
-   "bytes": 5530
+   "bytes": 5770
   },
   {
    "page": "wiki/health/index.md",
@@ -269,14 +269,14 @@
    "title": "Mogzart",
    "summary": "**MOGZART** was Dan Frank's primary production alias from approximately 2014 to 2016, concurrent with the late Uniontown period before the NYC return \u2014 and i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/music/aliases/mogzart.txt",
-   "bytes": 3864
+   "bytes": 4120
   },
   {
    "page": "wiki/interests/music/aliases/sloppp.md",
    "title": "SLOPPP",
    "summary": "**SLOPPP** was Dan's first named production alias: a trap/festival-trap",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/music/aliases/sloppp.txt",
-   "bytes": 5915
+   "bytes": 6194
   },
   {
    "page": "wiki/interests/music/concepts/lyrics-as-timbre.md",
@@ -584,7 +584,7 @@
    "title": "The 2015 Single-Bond Switch",
    "summary": "In late November 2015, Dan's primary attachment target transferred from [[wiki/people/alexis-armel|Alexis]] to [[wiki/people/annie-ulmer|Annie]] inside a sin...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/bond-switch-2015.txt",
-   "bytes": 10201
+   "bytes": 10435
   },
   {
    "page": "wiki/mind/synthesis/dan-annie-fallout-verdict.md",
@@ -696,7 +696,7 @@
    "title": "Alexis Armel (\u201cLex\u201d)",
    "summary": "**Role / Relationship:** Prior relationship (pre-Annie); referenced as \"Lex\" / Alexis Armel in life calendar, profile dumps, attachment narratives, and photo...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/alexis-armel.txt",
-   "bytes": 15419
+   "bytes": 15903
   },
   {
    "page": "wiki/people/ally-lubin.md",
@@ -1718,7 +1718,7 @@
    "title": "155 Virginia Ave",
    "summary": "155 Virginia Ave, Uniontown PA was Dan's residence from January 2015 to",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/155-virginia-ave.txt",
-   "bytes": 3516
+   "bytes": 3755
   },
   {
    "page": "wiki/places/307-e-76th-st.md",
@@ -2005,21 +2005,21 @@
    "title": "timeline \u2014 index",
    "summary": "",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/index.txt",
-   "bytes": 2195
+   "bytes": 2552
   },
   {
    "page": "wiki/timeline/periods/2010s.md",
-   "title": "Early 2010s (NYC Round One)",
-   "summary": "January 2010 through late 2014 \u2014 the stretch from the Brooklyn move to the start of the [[wiki/people/annie-ulmer|Annie]] relationship. Bookended by graduati...",
+   "title": "NYC Round One (2010\u20132013)",
+   "summary": "Dan's first New York City period ran **April 2010 to May 2013** \u2014 three",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2010s.txt",
-   "bytes": 2407
+   "bytes": 6526
   },
   {
    "page": "wiki/timeline/periods/2015-2016-annie-relationship-start.md",
    "title": "2015-2016 Annie Relationship Start",
    "summary": "**Date range:** Nov 2015 - 2016",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2015-2016-annie-relationship-start.txt",
-   "bytes": 5821
+   "bytes": 6070
   },
   {
    "page": "wiki/timeline/periods/2017-poverty-floor.md",
@@ -2082,7 +2082,14 @@
    "title": "Full Sail (Sep 2008 \u2013 Mar 2010)",
    "summary": "Three years after the November 2005 family rupture and one year into the",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/full-sail-2008-2010.txt",
-   "bytes": 5881
+   "bytes": 6127
+  },
+  {
+   "page": "wiki/timeline/periods/uniontown-return-2013-2015.md",
+   "title": "Uniontown Return (2013\u20132015)",
+   "summary": "The most-corrected stretch in the whole timeline. For two and a half",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/uniontown-return-2013-2015.txt",
+   "bytes": 6639
   },
   {
    "page": "wiki/work/au-zaatar.md",

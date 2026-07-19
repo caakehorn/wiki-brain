@@ -18,6 +18,9 @@ related:
   - wiki/places/337-saratoga-drive
 tags: [financial-stress, housing, relationships, uniontown-era, legal]
 connections:
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: component-of
+    claim: "The January 2015 move here happens inside the Uniontown-return period, and the lair-continuity it seeds is that period's pivotal physical fact."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: evidences
     claim: "The lair-continuity documented at this address is spatial proof the switch was a swap, not a relocation."

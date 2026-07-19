@@ -19,6 +19,10 @@ related:
   - wiki/people/johnny-dealer
   - wiki/work/bfs-foods
 tags: [addiction-recovery, family, relationships, trauma-bond]
+connections:
+  - page: wiki/timeline/periods/2010s
+    type: component-of
+    claim: "The fifteen-year daily Suboxone regimen begins at the front edge of NYC-1 (~Jan 2010, with a one-year discrepancy against legacy docs still unresolved)."
 ---
 
 # Chemical Architecture

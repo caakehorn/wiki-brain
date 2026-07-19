@@ -16,6 +16,12 @@ infobox:
   location: nyc
   known_for: "Role / Relationship: Prior relationship (pre-Annie); referenced as 'Lex' / Alexis Armel in life calendar, profile dumps,"
 connections:
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: component-of
+    claim: "The relationship's endgame — running out to the Nov 28 2015 cheating and switch — is the emotional spine of the Uniontown-return period."
+  - page: wiki/timeline/periods/2010s
+    type: component-of
+    claim: "Alexis was present for the entire NYC-1 period (Bridge Cafe until Sandy 2012), the first long cohabitation and the baseline the later single-bond switch is measured against."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: evidences
     claim: "The six unactivated years make Alexis the control case for the 2015 single-bond switch analysis."

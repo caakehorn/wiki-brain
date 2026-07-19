@@ -23,7 +23,8 @@ related: []
 
 ## periods
 
-- [[wiki/timeline/periods/2010s]] — January 2010 through late 2014 — the stretch from the Brooklyn move to the start of the Annie…
+- [[wiki/timeline/periods/2010s]] — NYC Round One (Apr 2010–May 2013): the two Brooklyn/Manhattan apartments, the ishlab/Creative License audio-engineering era, the Alexis cohabitation, Suboxone onset. (Corrected: NYC-1 ended May 2013, not 2014.)
+- [[wiki/timeline/periods/uniontown-return-2013-2015]] — the most-corrected stretch: back in Uniontown, not NYC — SLOPPP→MOGZART alias development, the Alexis endgame, the Jan 2015 move to 155 Virginia, and the Nov 2015 switch to Annie.
 - [[wiki/timeline/periods/2015-2016-annie-relationship-start]]
 - [[wiki/timeline/periods/2017-poverty-floor]]
 - [[wiki/timeline/periods/2018-deep-cycle]]

@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-18
-308 pages, ~406,689 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-19
+309 pages, ~410,024 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -31,6 +31,10 @@ related:
   - wiki/people/johnny-dealer
   - wiki/work/bfs-foods
 tags: [addiction-recovery, family, relationships, trauma-bond]
+connections:
+  - page: wiki/timeline/periods/2010s
+    type: component-of
+    claim: "The fifteen-year daily Suboxone regimen begins at the front edge of NYC-1 (~Jan 2010, with a one-year discrepancy against legacy docs still unresolved)."
 ---
 
 # Chemical Architecture
@@ -2723,6 +2727,10 @@ related:
   - wiki/timeline/periods/2015-2016-annie-relationship-start
   - wiki/self/context-core
 tags: [music-production, uniontown-era, relationships, financial-stress, nyc-era]
+connections:
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: component-of
+    claim: "The SLOPPP-to-MOGZART handoff (~2014, on the May account rotation) lands inside the Uniontown-return period, dating the alias churn to those years."
 ---
 
 # Mogzart
@@ -2801,6 +2809,10 @@ related:
   - wiki/self/facebook
   - wiki/self/twitter
 tags: [music-production, nyc-era, personality-profile]
+connections:
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: component-of
+    claim: "SLOPPP is the Uniontown-return period's signature project — the recording-arts ambition surviving the NYC-career failure by migrating to a Uniontown SoundCloud in 2013."
 ---
 
 # SLOPPP
@@ -7739,6 +7751,9 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [relationships, attachment, infidelity, trauma-bond, uniontown-era]
 connections:
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: follows
+    claim: "The single-bond switch is the terminal event of the Uniontown-return period — the same-week Alexis-to-Annie transfer that period runs toward."
   - page: wiki/people/alexis-armel
     type: evidenced-by
     claim: "Alexis is the control case: six years (Nov 2009 - Nov 2015) without full attachment activation proves how suppressed the system was before the switch."
@@ -10214,6 +10229,12 @@ infobox:
   location: nyc
   known_for: "Role / Relationship: Prior relationship (pre-Annie); referenced as 'Lex' / Alexis Armel in life calendar, profile dumps,"
 connections:
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: component-of
+    claim: "The relationship's endgame — running out to the Nov 28 2015 cheating and switch — is the emotional spine of the Uniontown-return period."
+  - page: wiki/timeline/periods/2010s
+    type: component-of
+    claim: "Alexis was present for the entire NYC-1 period (Bridge Cafe until Sandy 2012), the first long cohabitation and the baseline the later single-bond switch is measured against."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: evidences
     claim: "The six unactivated years make Alexis the control case for the 2015 single-bond switch analysis."
@@ -20905,6 +20926,9 @@ related:
   - wiki/places/337-saratoga-drive
 tags: [financial-stress, housing, relationships, uniontown-era, legal]
 connections:
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: component-of
+    claim: "The January 2015 move here happens inside the Uniontown-return period, and the lair-continuity it seeds is that period's pivotal physical fact."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: evidences
     claim: "The lair-continuity documented at this address is spatial proof the switch was a swap, not a relocation."
@@ -25118,7 +25142,8 @@ related: []
 
 ## periods
 
-- [[wiki/timeline/periods/2010s]] — January 2010 through late 2014 — the stretch from the Brooklyn move to the start of the Annie…
+- [[wiki/timeline/periods/2010s]] — NYC Round One (Apr 2010–May 2013): the two Brooklyn/Manhattan apartments, the ishlab/Creative License audio-engineering era, the Alexis cohabitation, Suboxone onset. (Corrected: NYC-1 ended May 2013, not 2014.)
+- [[wiki/timeline/periods/uniontown-return-2013-2015]] — the most-corrected stretch: back in Uniontown, not NYC — SLOPPP→MOGZART alias development, the Alexis endgame, the Jan 2015 move to 155 Virginia, and the Nov 2015 switch to Annie.
 - [[wiki/timeline/periods/2015-2016-annie-relationship-start]]
 - [[wiki/timeline/periods/2017-poverty-floor]]
 - [[wiki/timeline/periods/2018-deep-cycle]]
@@ -25137,39 +25162,118 @@ PAGE: wiki/timeline/periods/2010s.md
 domain: timeline
 page_type: period
 status: stable
+knowledge: mixed
 date_created: 2026-07-02
-date_modified: 2026-07-02
-date_range_start: 2010-01-01
-date_range_end: 2014-12-31
-sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-scan/Gemini-_58.txt"]
-related: ["wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/self/facebook", "wiki/people/alexis-armel"]
-tags: [relationships, nyc-era, ai-collaboration, addiction-recovery]
+date_modified: 2026-07-18
+date_range_start: 2010-04-01
+date_range_end: 2013-05-31
+sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
+tags: [relationships, nyc-era, addiction-recovery]
+connections:
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: follows
+    claim: "NYC-1 opens directly off the Full Sail tail — Dan moved from Winter Park to Brooklyn in spring 2010, carrying the audio-engineering ambition and the just-begun Alexis relationship north with him."
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: precedes
+    claim: "NYC-1 ends with the May 2013 departure back to Uniontown — the single most-corrected fact in the timeline, since the alias development and Alexis endgame that follow happened in Pennsylvania, not New York."
+  - page: wiki/people/alexis-armel
+    type: contains
+    claim: "Alexis was present the entire NYC-1 stretch (her Bridge Cafe job ran until Hurricane Sandy erased the Seaport outpost, Oct 2012) — the era is the first long cohabitation and the baseline the 2015 single-bond switch is measured against."
+  - page: wiki/health/chemical-architecture
+    type: contains
+    claim: "The daily Suboxone maintenance chassis begins at the front edge of this period (~Jan 2010 [MEM] / Jan 2011 [legacy docs] — the one-year discrepancy is still unresolved), making NYC-1 the start of the fifteen-year regimen."
 ---
 
-# Early 2010s (NYC Round One)
+# NYC Round One (2010–2013)
 
-## Date range
+Dan's first New York City period ran **April 2010 to May 2013** — three
+years, two apartments, the audio-engineering career attempt, and the
+first long cohabitation of his adult life, with [[wiki/people/alexis-armel|Alexis]].
+It opens off the [[wiki/timeline/periods/full-sail-2008-2010|Full Sail]]
+tail (he stayed in Florida through March 2010, then moved north) and
+closes not with a New York event but with a **departure**: the May 2013
+return to Uniontown that context-core flags as the timeline's most
+load-bearing correction.
 
-January 2010 through late 2014 — the stretch from the Brooklyn move to the start of the [[wiki/people/annie-ulmer|Annie]] relationship. Bookended by graduation from Full Sail (Recording Arts, 2010) on one side and the Thanksgiving-2015 relationship start on the other.
+> **REVISED [2026-07-18]:** an earlier version of this page framed
+> "NYC Round One" as 2010–2014 and described Alexis as "met through
+> webcam work." Both are corrected against the canonical context-core §4
+> residence timeline. NYC-1 ended **May 2013**, not 2014 — the 2013–2015
+> stretch (producer aliases, the Alexis endgame, the move to 155
+> Virginia) happened in **Uniontown**, and now has its own page,
+> [[wiki/timeline/periods/uniontown-return-2013-2015]]. Alexis was
+> in-network from the Full Sail era (@alexisarmel, 2009–2010), not met
+> later through camming; the prior "NYC-1 2010–2016" framing was an
+> inference error from undated Twitter content.
 
-## Defining characteristics
+## The two apartments and the work
 
-Dan's first New York City period: the January 3, 2010 move to Brooklyn, the ishlab and Creative License audio-engineering jobs (2010–2012), and the five-year relationship with [[wiki/people/alexis-armel]] (Alexis Armel, met through webcam work). This is the pre-Annie, pre-Uniontown-return era — professionally the audio-career attempt, socially the early Facebook network peak, and the origin of the "ihatedanfrank" persona documented in [[wiki/self/facebook]]. Suboxone maintenance begins in February 2010. The detailed early-career reconstruction lives in [[wiki/self/chats/gemini-58]].
+The residence timeline is exact: **424 Bedford Ave (Williamsburg,
+Brooklyn), April 2010 – April 2012**, then **Manhattan Upper East Side,
+90th between 3rd and Lexington, May 2012 – May 2013**. Professionally
+this is the studio-work era — the audio-engineering attempt the Full
+Sail degree pointed at, running through **ishlab** (2010–11) and
+**Creative License** (2010–2012). It is the one window in Dan's life
+where the recording-arts training was actually the job, and it did not
+convert into a durable career: the thread simply ends with the 2013
+departure, and no audio work of comparable seriousness recurs until the
+much later GRIPNOTIC production reactivation.
 
-## Data profile
+Alexis was there for all of it — "with me the whole time we were in
+nyc," per the Gemini-_58 reconstruction — working at the historic
+**Bridge Cafe** (279 Water St, the oldest tavern in the city) until
+**Hurricane Sandy** wiped out the Seaport in October 2012, a documented
+structural shock to the household economy. A brief 2013 blip with
+[[wiki/people/franki-faris|Franki]] ("I really didn't have the romantic
+feelings for franki that i said i did at the time") resolved back to
+Alexis, foreshadowing the switch-slot mechanics the
+[[wiki/mind/synthesis/bond-switch-2015|2015 single-bond analysis]] makes
+explicit.
 
-The Facebook corpus is densest here for network growth (friend adds run heavily 2009–2014) and for the music-taste record — the chiptune-to-EDM progression in the likes data (Anamanaguchi → Flying Lotus → ODESZA/JAUZ) tracks this window. Several peripheral message-corpus contacts date their only real activity to this period: short bursts with people who never became sustained threads.
+## The two things that started here and did not stop
 
-## Key contacts within period
+Two throughlines of the whole corpus originate in this window. The
+**Suboxone regimen** begins at its front edge (~January 2010, with a
+one-year discrepancy against legacy docs that context-core flags as
+resolvable from the first strips reference) — the fifteen-year daily
+chassis documented in [[wiki/health/chemical-architecture]] starts here.
+And the **Twitter voice** — the weaponized irony and aesthetic
+signaling that becomes the linguistic fingerprint — takes its mature
+shape in these years, the same online persona that seeds the
+"ihatedanfrank" identity later archived in [[wiki/self/facebook]].
+Cultural markers of the era are dense in the Facebook likes record: the
+chiptune-to-EDM progression (Anamanaguchi → Flying Lotus →
+ODESZA/JAUZ), and the **LCD Soundsystem MSG farewell (April 2011)** as a
+dated attendance anchor.
 
-- [[wiki/people/alexis-armel]] — the defining relationship of the era (2010–2015)
-- [[wiki/people/ally-lubin]] — 2013 message burst
-- [[wiki/people/charles-davenport]] — early NYC-move contact (2010)
-- [[wiki/people/marc-charles]] and [[wiki/people/sean-teets]] — peripheral threads
+## Key contacts within the period
 
-## Transition markers
+- [[wiki/people/alexis-armel]] — the defining relationship of the era;
+  the whole-NYC-1 cohabitation.
+- [[wiki/people/ally-lubin]] — 2013 message burst.
+- [[wiki/people/charles-davenport]] — early NYC-move contact (2010).
+- [[wiki/people/marc-charles]], [[wiki/people/sean-teets]],
+  [[wiki/people/katie-fletcher]] — peripheral threads dating their only
+  real activity to this window.
 
-The period closes as the Lex relationship ends (~2015) and the Annie relationship begins at Thanksgiving 2015, opening [[wiki/timeline/periods/2015-2016-annie-relationship-start]].
+## Transition
+
+The period closes with the **May 2013 departure to Uniontown** — the
+return that the Twitter record's "2013 systemic rupture" actually marks
+(the rupture was the leaving, not a New York event). Everything the old
+framing filed under "later NYC" — SLOPPP and MOGZART, the Alexis
+collapse, the move to 155 Virginia, the pivot to Annie — belongs to
+[[wiki/timeline/periods/uniontown-return-2013-2015]].
+
+**Gaps:** the exact 2010 move date is unresolved (context-core's
+residence table starts Brooklyn in April 2010, while an earlier note
+claimed a January 3 move — the Florida tail through March 2010 favors
+the April date). The Suboxone start year (~2010 vs 2011) is pinned only
+from memory, not yet from a first-strips corpus row. No message corpus
+survives from this period — the earliest real-text rows in any on-disk
+export begin November 12, 2015 — so this page rests on context-core,
+the Facebook record, and the Gemini-_58 reconstruction, not on primary
+message data.
 
 
 ========================================================================
@@ -25186,6 +25290,9 @@ sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONT
 related: ["wiki/timeline/events/timeline", "wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/self/facebook", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/gemini-activity/gemini-activity", "wiki/self/ancestry"]
 tags: [relationships, ai-collaboration, infidelity, financial-stress, trauma-bond]
 connections:
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: follows
+    claim: "The Annie relationship-start period opens exactly where the Uniontown-return period ends — the Nov 28-29 2015 Alexis-to-Annie switch is the shared boundary."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: contains
     claim: "The switch synthesis is the mechanics layer of this period: timing, onset flood, lair-continuity."
@@ -25957,6 +26064,10 @@ related:
   - wiki/self/twitter
   - wiki/interests/music/overview
 tags: [music-production, relationships, uniontown-era, addiction-recovery]
+connections:
+  - page: wiki/timeline/periods/2010s
+    type: precedes
+    claim: "Full Sail hands directly into NYC-1 — the spring-2010 move from Winter Park to Brooklyn carries the audio ambition and the just-begun Alexis relationship north."
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)
@@ -26054,6 +26165,124 @@ to Annie.
 No message corpus or dated record narrows the "Danielle ends, Alexis
 begins" sequence to specific weeks within the eighteen-month window; both
 transitions are established only at the level of "during Full Sail."
+
+
+========================================================================
+PAGE: wiki/timeline/periods/uniontown-return-2013-2015.md
+========================================================================
+
+---
+domain: timeline
+page_type: period
+status: stable
+knowledge: mixed
+date_created: 2026-07-18
+date_modified: 2026-07-18
+date_range_start: 2013-05-01
+date_range_end: 2015-11-28
+sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/facebook/facebook-ihatedanfrank/"]
+tags: [relationships, uniontown-era, addiction-recovery]
+connections:
+  - page: wiki/timeline/periods/2010s
+    type: follows
+    claim: "This period opens the moment NYC-1 closes — the May 2013 departure from Manhattan back to Uniontown is the hinge, and it is the fact the old timeline framing got wrong by filing these years under New York."
+  - page: wiki/timeline/periods/2015-2016-annie-relationship-start
+    type: precedes
+    claim: "The period ends exactly at the Alexis→Annie switch of Thanksgiving weekend 2015 — Alexis cheated Nov 28, Dan met Annie Nov 29 — which opens the relationship-start period."
+  - page: wiki/interests/music/aliases/sloppp
+    type: contains
+    claim: "SLOPPP — Dan's first named production alias (2013 launch, 2014 output peak) — is the era's signature project, the recording-arts ambition surviving the NYC-career failure by migrating to a Uniontown SoundCloud."
+  - page: wiki/interests/music/aliases/mogzart
+    type: contains
+    claim: "The SLOPPP→MOGZART alias handoff (~2014) lands inside this period and on the May-2014 account rotation the migration-grammar analysis flags — the identity churn is dateable to these years."
+  - page: wiki/people/alexis-armel
+    type: contains
+    claim: "The five-year Alexis relationship runs out its endgame here, ending Nov 28 2015 when she cheated 'two weeks in after I moved her to fla' — the collapse that immediately precedes the Annie genesis."
+  - page: wiki/mind/synthesis/bond-switch-2015
+    type: precedes
+    claim: "This period is the runway to the single-bond switch: the whole 2013–2015 stretch is the Alexis relationship winding down toward the same-week transfer that this synthesis page analyzes."
+  - page: wiki/places/155-virginia-ave
+    type: contains
+    claim: "The January 2015 move to 155 Virginia Ave — the 'Alexis lair,' leased during the relationship's end — happens in this period and becomes the physical continuity Annie inherits, the lair-continuity the bond-switch turns on."
+---
+
+# Uniontown Return (2013–2015)
+
+The most-corrected stretch in the whole timeline. For two and a half
+years — **May 2013 to Thanksgiving 2015** — Dan was back in Uniontown,
+not New York, and nearly everything the old framing misfiled as "later
+NYC" actually happened here: the producer aliases took shape, the
+five-year [[wiki/people/alexis-armel|Alexis]] relationship ran out its
+endgame, and the single-bond switch to [[wiki/people/annie-ulmer|Annie]]
+was set up. Context-core is emphatic that this correction matters —
+"the producer-alias development, the Alexis→Annie transition, and the
+poverty/deep-cycle years all happened in *Uniontown*, not NYC" — because
+the geography changes what the period *means*: this is not a metropolitan
+chapter but a return home, and the creative and relational reorganization
+that defines it is a small-town reorganization.
+
+## The return
+
+Dan left Manhattan in May 2013 — the event the Twitter record's "2013
+systemic rupture" actually marks (the rupture was the leaving, not a New
+York event) — and moved back into **337 Saratoga Drive**, the family
+home, where he stayed through January 2015. The audio-engineering career
+the [[wiki/timeline/periods/2010s|NYC-1]] years had attempted did not
+come back with him; what came back instead was the ambition in a new
+form.
+
+## SLOPPP: the recording-arts ambition, migrated
+
+The most productive throughline of the period is the birth of Dan's
+**named production identity**. [[wiki/interests/music/aliases/sloppp|SLOPPP]]
+— a trap/festival-trap SoundCloud project — launched in 2013, the same
+year as the return, and peaked in output in **2014** (its 113-hit
+high-water mark): weekly mix series ("SLOPPP's Week in Trap"), the
+signature "SLOPPPED N SCREWED" reworks, originals, and edits, all dated
+tightly across 2013–14. The recording-arts training that failed to
+convert into a New York career survived by migrating to a Uniontown
+bedroom and a free hosting platform. Around 2014 the alias handed off to
+[[wiki/interests/music/aliases/mogzart|MOGZART]] — a transition that
+lands on the **May 2014 account rotation** the
+[[wiki/mind/synthesis/totality-themes|migration-grammar]] analysis reads
+as an identity-amputation event. The alias churn is not incidental to the
+period; it is one of its dateable signatures.
+
+## The Alexis endgame and the switch
+
+The five-year Alexis relationship — begun at Full Sail, sustained through
+all of NYC-1 — reached its end in this period. The
+[[wiki/mind/synthesis/bond-switch-2015|single-bond switch]] analysis
+covers the mechanics in full; the period-level fact is the sequence.
+**January 2015:** Dan moved into **155 Virginia Ave**, the apartment
+context-core calls "the Alexis lair," leased during the relationship's
+end phase. **November 28, 2015:** Alexis cheated — "two weeks in after I
+moved her to fla," per the life calendar. **November 29, 2015:** Dan met
+Annie, at the Uniontown Country Club golf course around 2am in the rain,
+and left Alexis within a day. Annie moved into 155 Virginia — the same
+apartment — making the transfer a *swap*, not a relocation: the
+[[wiki/places/155-virginia-ave|lair-continuity]] the switch turns on. A
+brief 2013 [[wiki/people/franki-faris|Franki]] blip earlier in the
+period ("I really didn't have the romantic feelings for franki that i
+said i did at the time," then a return to Alexis) had already rehearsed
+the same slot mechanics.
+
+## Transition
+
+The period ends precisely at the switch. November 28–29, 2015 closes the
+Alexis era and opens
+[[wiki/timeline/periods/2015-2016-annie-relationship-start|the Annie
+relationship]] — which inherits the apartment, the town, and the alias
+identity mid-transition, and runs from here to 2026.
+
+**Gaps:** the message corpus is silent for almost all of this period —
+the earliest real-text rows in any on-disk export begin November 12,
+2015, days before the switch — so 2013 through mid-November 2015 rests
+on context-core, the SoundCloud/Facebook record, the Gemini-_58
+reconstruction, and the life calendar, not on primary message data. The
+155 Virginia lease terms and exact move-in are undocumented; the precise
+SLOPPP→MOGZART handoff date is bracketed to ~2014 by the account
+rotation, not pinned.
 
 
 ========================================================================

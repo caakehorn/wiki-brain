@@ -13,6 +13,9 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [relationships, attachment, infidelity, trauma-bond, uniontown-era]
 connections:
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: follows
+    claim: "The single-bond switch is the terminal event of the Uniontown-return period — the same-week Alexis-to-Annie transfer that period runs toward."
   - page: wiki/people/alexis-armel
     type: evidenced-by
     claim: "Alexis is the control case: six years (Nov 2009 - Nov 2015) without full attachment activation proves how suppressed the system was before the switch."
