@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
-"""Personal Wiki — single-file local app (v2 GUI).
+"""Personal Wiki — single-file local app (v3 GUI, Wikipedia-style).
 
 Run:  python3 app.py   (or double-click Wiki.command / the Dock app)
 Serves http://127.0.0.1:8477 — Python stdlib only, localhost only.
 
-Tabs: Wiki (browse / edit / rename), Capture (notes + @-targets + upload),
-Ingest (prompt-pack / apply loop for any LLM), Export. Header shows git
-sync state; Sync commits, pulls --rebase, and pushes to origin.
-All data stays in the plain Markdown files of this repository.
+The interface imitates Wikipedia's classic Vector skin: left panel with
+logo + portals, Page/Discussion and Read/Edit/View-history tabs, serif
+headings, floating infoboxes built from page frontmatter, a numbered
+table of contents, red links for missing pages, categories bar, and a
+git-backed View history / Recent changes. Pages are edited (and created)
+directly in the interface; pictures can be uploaded and inserted into
+articles (stored under assets/uploads/). Capture / Ingest / Export live
+on as Special: pages. All data stays in the plain Markdown files of this
+repository.
 """
 import datetime
 import json
+import mimetypes
 import re
 import shutil
 import subprocess
@@ -26,8 +32,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 INBOX = ROOT / "inbox"
 WIKI = ROOT / "wiki"
+UPLOADS = ROOT / "assets" / "uploads"
 PORT = 8477
 TEXT_EXT = {".md", ".txt", ".csv", ".json", ".html", ".rtf", ".yaml", ".yml"}
+IMG_EXT = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".avif"}
+META_EDITABLE = {"queue.md", "task.md", "contact-review.md", "LLM_HANDOFF.md"}
 _vis_cache = {"checked": False, "public": None, "repo": None}
 
 
@@ -75,17 +84,43 @@ def save_note(body, title=None, tags=None, targets=None):
     return {"saved": str(path.relative_to(ROOT)), "words": words, "kind": kind}
 
 
-def save_page(rel_path, content):
+def save_page(rel_path, content, summary=None, create=False):
     p = safe(rel_path)
-    if not (str(p).startswith(str(WIKI) + "/") and p.suffix == ".md" and p.exists()):
-        raise PermissionError("can only edit existing wiki/*.md pages")
+    is_wiki = str(p).startswith(str(WIKI) + "/") and p.suffix == ".md"
+    is_meta = p.parent == ROOT and p.name in META_EDITABLE
+    if not (is_wiki or is_meta):
+        raise PermissionError("can only edit wiki/*.md pages or the editable meta files")
+    if create:
+        if not is_wiki:
+            raise PermissionError("can only create pages under wiki/")
+        if p.exists():
+            raise PermissionError("page already exists")
+        p.parent.mkdir(parents=True, exist_ok=True)
+    elif not p.exists():
+        raise PermissionError("page does not exist (use create)")
     today = datetime.date.today().isoformat()
     content = re.sub(r"(?m)^date_modified: .*$", f"date_modified: {today}",
                      content, count=1)
     p.write_text(content, encoding="utf-8")
-    domain = rel_path.split("/")[1] if rel_path.count("/") >= 2 else "all"
-    log_line("edit", domain, f"human edit via app: {rel_path}")
-    return {"saved": rel_path}
+    parts = Path(rel_path).parts
+    domain = parts[1] if len(parts) >= 3 else "meta"
+    op = "create" if create else "edit"
+    desc = f"human {op} via app: {rel_path}"
+    if summary:
+        desc += f" — {summary.strip()[:200]}"
+    log_line(op, domain, desc)
+    return {"saved": rel_path, "created": create}
+
+
+def upload_image(name, data):
+    ext = Path(name).suffix.lower()
+    if ext not in IMG_EXT:
+        raise PermissionError(f"not an image type: {ext or '(none)'}")
+    UPLOADS.mkdir(parents=True, exist_ok=True)
+    fname = f"{stamp()}_{slugify(Path(name).stem, 40)}{ext}"
+    dest = UPLOADS / fname
+    dest.write_bytes(data)
+    return {"path": str(dest.relative_to(ROOT)), "bytes": len(data)}
 
 
 def rename_page(rel_path, new_name):
@@ -178,6 +213,33 @@ def run(cmd, timeout=120):
     except OSError as e:
         return 127, str(e)
     return r.returncode, (r.stdout + r.stderr).strip()
+
+
+def git_history(rel_path):
+    rel_path = str(safe(rel_path).relative_to(ROOT))
+    code, out = run(["git", "log", "--follow", "--date=format:%H:%M, %d %B %Y",
+                     "--pretty=format:%h%x09%ad%x09%an%x09%s", "--", rel_path])
+    entries = []
+    if code == 0 and out:
+        for line in out.splitlines():
+            parts = line.split("\t", 3)
+            if len(parts) == 4:
+                entries.append({"hash": parts[0], "date": parts[1],
+                                "author": parts[2], "subject": parts[3]})
+    return {"path": rel_path, "entries": entries}
+
+
+def git_recent(n=50):
+    code, out = run(["git", "log", f"-{n}", "--date=format:%H:%M, %d %B %Y",
+                     "--pretty=format:%h%x09%ad%x09%an%x09%s"])
+    entries = []
+    if code == 0 and out:
+        for line in out.splitlines():
+            parts = line.split("\t", 3)
+            if len(parts) == 4:
+                entries.append({"hash": parts[0], "date": parts[1],
+                                "author": parts[2], "subject": parts[3]})
+    return {"entries": entries}
 
 
 def export(opts):
@@ -298,8 +360,18 @@ class Handler(BaseHTTPRequestHandler):
                 else:
                     self.send(200, {"path": qs["path"][0], "binary": True,
                                     "content": f"[{p.suffix or 'binary'} file, {p.stat().st_size:,} bytes]"})
+            elif url.path == "/api/asset":
+                p = safe(qs["path"][0])
+                if p.suffix.lower() not in IMG_EXT or not p.is_file():
+                    self.send(400, {"error": "not a served image"}); return
+                ctype = mimetypes.guess_type(p.name)[0] or "application/octet-stream"
+                self.send(200, p.read_bytes(), ctype, {"Cache-Control": "max-age=300"})
             elif url.path == "/api/search":
                 self.send(200, search(qs.get("q", [""])[0]))
+            elif url.path == "/api/history":
+                self.send(200, git_history(qs["path"][0]))
+            elif url.path == "/api/recent":
+                self.send(200, git_recent())
             elif url.path == "/api/git/status":
                 self.send(200, git_status())
             elif url.path == "/api/download":
@@ -314,7 +386,7 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         try:
             d = {}
-            if self.path != "/api/upload":
+            if self.path not in ("/api/upload", "/api/upload-image"):
                 d = self.body_json()
             if self.path == "/api/capture":
                 if not d.get("body", "").strip():
@@ -325,9 +397,16 @@ class Handler(BaseHTTPRequestHandler):
             elif self.path == "/api/save":
                 if not d.get("content", "").strip():
                     self.send(400, {"error": "refusing to save an empty page"}); return
-                self.send(200, save_page(d["path"], d["content"]))
+                self.send(200, save_page(d["path"], d["content"],
+                                         d.get("summary"), bool(d.get("create"))))
             elif self.path == "/api/rename":
                 self.send(200, rename_page(d["path"], d["newName"]))
+            elif self.path == "/api/upload-image":
+                name = Path(urllib.parse.unquote(self.headers.get("X-Filename", "image.png"))).name
+                n = int(self.headers.get("Content-Length", 0))
+                if n <= 0 or n > 25_000_000:
+                    self.send(400, {"error": "invalid image size (0–25MB)"}); return
+                self.send(200, upload_image(name, self.rfile.read(n)))
             elif self.path == "/api/upload":
                 name = Path(urllib.parse.unquote(self.headers.get("X-Filename", "upload.bin"))).name
                 n = int(self.headers.get("Content-Length", 0))
@@ -369,309 +448,633 @@ PAGE = r"""<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Personal Wiki</title>
+<title>WikiBrain</title>
 <style>
-:root{
-  --bg:#f6f4ef; --panel:#fffdf8; --ink:#26221c; --muted:#7a7263;
-  --line:#e4dfd3; --accent:#7a5c2e; --accent-ink:#fff; --chip:#efe9db;
-  --code:#f0ece1; --mark:#f3e4b5; --ok:#3d7a3d; --warn:#a33b3b;
-}
-@media (prefers-color-scheme: dark){
-  :root{ --bg:#191713; --panel:#211e19; --ink:#e8e2d5; --muted:#968c78;
-    --line:#37322a; --accent:#c9a25e; --accent-ink:#1a1610; --chip:#2c2820;
-    --code:#2a261f; --mark:#5a4a1e; --ok:#7dbb7d; --warn:#e08585; }
-}
-*{box-sizing:border-box; margin:0}
-body{font:15px/1.6 "Avenir Next","Segoe UI",system-ui,sans-serif;
-  background:var(--bg); color:var(--ink); height:100vh; display:flex; flex-direction:column}
-header{display:flex; align-items:center; gap:16px; padding:9px 16px;
-  border-bottom:1px solid var(--line); background:var(--panel); flex-wrap:wrap}
-header h1{font-size:15px; letter-spacing:.05em}
-nav{display:flex; gap:2px}
-nav button{border:0; background:none; color:var(--muted); font:inherit;
-  padding:6px 13px; border-radius:8px; cursor:pointer}
-nav button.on{background:var(--accent); color:var(--accent-ink)}
-#gitBar{margin-left:auto; display:flex; align-items:center; gap:8px; font-size:12.5px; color:var(--muted)}
-#gitPill{padding:3px 10px; border:1px solid var(--line); border-radius:20px; white-space:nowrap}
-#gitPill b{color:var(--ink)}
-#syncBtn{border:1px solid var(--line); background:var(--panel); color:var(--ink);
-  font:inherit; font-size:12.5px; padding:4px 14px; border-radius:20px; cursor:pointer}
-#syncBtn:hover{border-color:var(--accent); color:var(--accent)}
-#pubWarn{width:100%; background:var(--warn); color:#fff; padding:6px 16px;
-  font-size:13px; display:none; border-radius:8px}
-main{flex:1; display:flex; min-height:0}
-.hidden{display:none !important}
-.tab{flex:1; display:flex; min-height:0}
+/* ================= Vector-skin imitation ================= */
+html,body{margin:0;padding:0}
+body{background:#f6f6f6 url() repeat-x; font:13px/1.5 sans-serif; color:#202122}
+a{color:#0645ad; text-decoration:none}
+a:hover{text-decoration:underline}
+a:visited{color:#0b0080}
+a.new, a.new:visited{color:#ba0000}
+a.external{color:#36b}
+#mw-page-base{height:5em; background:linear-gradient(to bottom, #f6f6f6 50%, #ffffff 100%); position:absolute; top:0; left:0; right:0; z-index:0}
 
-/* sidebar */
-#side{width:300px; border-right:1px solid var(--line); overflow-y:auto;
-  background:var(--panel); padding:12px; flex-shrink:0}
-#side input{width:100%; padding:7px 10px; border:1px solid var(--line);
-  border-radius:8px; background:var(--bg); color:var(--ink); font:inherit; margin-bottom:10px}
-#side details{margin-bottom:2px}
-#side summary{font-size:11.5px; text-transform:uppercase; letter-spacing:.09em;
-  color:var(--muted); cursor:pointer; padding:5px 4px; user-select:none; list-style:none}
-#side summary::before{content:"▸ "; font-size:9px}
-#side details[open] summary::before{content:"▾ "}
-#side summary .n{float:right; font-size:10.5px; opacity:.7}
-#side a{display:block; padding:2.5px 8px 2.5px 18px; border-radius:6px; color:var(--ink);
-  text-decoration:none; font-size:13.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
-#side a:hover{background:var(--chip)}
-#side a.on{background:var(--accent); color:var(--accent-ink)}
+/* ---- personal bar ---- */
+#p-personal{position:absolute; top:.33em; right:1em; z-index:5; font-size:.75em}
+#p-personal ul{list-style:none; margin:0; padding:0}
+#p-personal li{display:inline-block; margin-left:1em}
+#p-personal .uicon::before{content:""; display:inline-block; width:12px; height:12px; margin-right:4px;
+  border-radius:50% 50% 0 0; background:#54595d;
+  box-shadow:0 7px 0 -1px #54595d; vertical-align:-2px}
+#gitPill{color:#54595d}
+#gitPill b{color:#202122}
+#syncLink{cursor:pointer}
 
-/* content + toolbar */
-#contentWrap{flex:1; display:flex; flex-direction:column; min-width:0}
-#toolbar{display:flex; align-items:center; gap:8px; padding:8px 20px;
-  border-bottom:1px solid var(--line); background:var(--panel); min-height:42px}
-#crumb{font:12px ui-monospace,monospace; color:var(--muted); flex:1;
-  overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
-.tbtn{border:1px solid var(--line); background:none; color:var(--muted); font:inherit;
-  font-size:12.5px; padding:4px 13px; border-radius:7px; cursor:pointer}
-.tbtn:hover{color:var(--accent); border-color:var(--accent)}
-#content{flex:1; overflow-y:auto; padding:30px 44px; max-width:880px}
-#content h1{font-size:25px; margin:0 0 14px}
-#content h2{font-size:19px; margin:26px 0 8px}
-#content h3{font-size:16px; margin:20px 0 6px}
-#content p{margin:10px 0}
-#content ul,#content ol{margin:10px 0 10px 26px}
-#content table{border-collapse:collapse; margin:14px 0; width:100%}
-#content th,#content td{border:1px solid var(--line); padding:6px 10px; text-align:left; font-size:14px}
-#content th{background:var(--chip)}
-#content blockquote{border-left:3px solid var(--accent); padding:4px 14px; margin:12px 0; color:var(--muted)}
-#content code{background:var(--code); padding:1px 5px; border-radius:4px; font-size:13px}
-#content pre{background:var(--code); padding:12px 14px; border-radius:8px; overflow-x:auto; margin:12px 0}
-#content pre code{background:none; padding:0}
-#content a{color:var(--accent)}
-#content hr{border:0; border-top:1px solid var(--line); margin:20px 0}
-#content mark{background:var(--mark); color:inherit; border-radius:3px; padding:0 2px}
-.fm{background:var(--chip); border-radius:8px; padding:8px 12px; font-size:12px;
-  color:var(--muted); margin-bottom:18px; white-space:pre-wrap; font-family:ui-monospace,monospace}
-.hit{border:1px solid var(--line); border-radius:10px; padding:10px 14px; margin:10px 0;
-  cursor:pointer; background:var(--panel)}
-.hit:hover{border-color:var(--accent)}
-.hit .p{font-weight:600; font-size:13.5px}
-.hit .l{font-size:13px; color:var(--muted); margin-top:2px}
+/* ---- head: tabs + search ---- */
+#mw-head{position:absolute; top:0; right:0; left:11em; z-index:4; height:5em}
+#left-navigation{float:left; margin-top:2.5em}
+#right-navigation{float:right; margin-top:2.5em}
+ul.vectorTabs{list-style:none; margin:0; padding:0; float:left; height:2.5em;
+  background:linear-gradient(to bottom, rgba(167,215,249,0) 0%, #a7d7f9 100%);
+  background-repeat:no-repeat; background-size:1px 100%}
+ul.vectorTabs li{float:left; height:2.5em; display:block;
+  background:linear-gradient(to bottom, rgba(167,215,249,0) 0%, #a7d7f9 100%) no-repeat right / 1px 100%}
+ul.vectorTabs li a{display:block; height:1.9em; padding:.6em .8em 0;
+  color:#0645ad; font-size:.8em; cursor:pointer;
+  background:linear-gradient(to bottom, rgba(255,255,255,.4) 0, #eef4fa 100%);
+  box-shadow:inset 0 -1px 0 #77c1f6}
+ul.vectorTabs li.selected a{background:#ffffff; color:#202122; box-shadow:none}
+ul.vectorTabs li.disabled a{color:#a2a9b1; cursor:default}
+ul.vectorTabs li.icononly a{color:#54595d}
+#ca-more{position:relative}
+#ca-more ul{display:none; position:absolute; top:2.5em; right:0; list-style:none; margin:0; padding:0;
+  background:#fff; border:1px solid #a7d7f9; border-top:0; min-width:9em; z-index:9}
+#ca-more:hover ul, #ca-more.open ul{display:block}
+#ca-more ul li{float:none; height:auto; background:none}
+#ca-more ul li a{background:none; height:auto; padding:.5em .8em; white-space:nowrap}
+#ca-more ul li a:hover{background:#eaf3ff}
 
-/* editor */
-#editor{flex:1; display:none; flex-direction:column; padding:14px 20px; min-height:0}
-#editor textarea{flex:1; width:100%; resize:none; padding:14px;
-  border:1px solid var(--line); border-radius:10px; background:var(--panel);
-  color:var(--ink); font:13px/1.5 ui-monospace,"SF Mono",Menlo,monospace}
-.editbar{display:flex; gap:10px; margin-bottom:10px; align-items:center}
+/* ---- search ---- */
+#p-search{float:left; margin:2.75em 1em 0 .5em; position:relative}
+#searchForm{display:flex}
+#searchInput{width:14em; padding:.25em 1.7em .25em .4em; border:1px solid #a2a9b1; border-radius:2px;
+  font-size:.8em; background:#fff; color:#202122; outline:none}
+#searchInput:focus{border-color:#3366cc; box-shadow:inset 0 0 0 1px #36c}
+#searchGo{margin-left:-1.6em; border:0; background:none; cursor:pointer; color:#54595d; font-size:.9em}
+#suggestions{position:absolute; top:1.9em; left:0; right:0; background:#fff; border:1px solid #a2a9b1;
+  display:none; z-index:10; font-size:.8em; box-shadow:0 2px 4px rgba(0,0,0,.15)}
+#suggestions a{display:block; padding:.35em .5em; color:#202122; border-bottom:1px solid #eaecf0}
+#suggestions a b{color:#202122}
+#suggestions a .d{color:#72777d; font-size:.9em; margin-left:.4em}
+#suggestions a.sel, #suggestions a:hover{background:#eaf3ff; text-decoration:none}
 
-/* generic pane/card (capture, ingest, export) */
-.pane{flex:1; overflow-y:auto; padding:30px; display:flex; justify-content:center; gap:26px}
-.card{width:100%; max-width:660px}
-.card h2{margin-bottom:4px}
-.card .sub2{color:var(--muted); font-size:13.5px; margin-bottom:16px}
-.card label{display:block; font-size:11.5px; text-transform:uppercase;
-  letter-spacing:.08em; color:var(--muted); margin:13px 0 4px}
-.card input[type=text], .card textarea, .card select{width:100%; padding:9px 12px;
-  border:1px solid var(--line); border-radius:8px; background:var(--panel);
-  color:var(--ink); font:inherit}
-.card textarea{min-height:200px; resize:vertical; line-height:1.5}
-.btn{margin-top:12px; padding:8px 20px; border:0; border-radius:8px;
-  background:var(--accent); color:var(--accent-ink); font:inherit; font-weight:600; cursor:pointer}
-.btn:disabled{opacity:.5}
-.ghost{background:var(--chip); color:var(--ink)}
-.msg{margin-top:10px; font-size:13px; color:var(--accent); white-space:pre-wrap}
-#drop{margin-top:16px; border:2px dashed var(--line); border-radius:12px;
-  padding:22px; text-align:center; color:var(--muted); cursor:pointer}
-#drop.over{border-color:var(--accent); color:var(--accent)}
+/* ---- left panel ---- */
+#mw-panel{position:absolute; top:0; left:0; width:11em; z-index:3; font-size:inherit; padding-top:.5em}
+#p-logo{width:10em; height:absolute; margin:0 auto; text-align:center; padding:.6em 0 .4em}
+#p-logo .globe{width:105px; height:105px; margin:0 auto; display:block}
+#p-logo .wordmark{font-family:'Linux Libertine','Hoefler Text',Georgia,'Times New Roman',serif;
+  font-size:1.62em; color:#202122; letter-spacing:.02em; margin-top:.1em; cursor:pointer}
+#p-logo .tagline{font-family:Georgia,serif; font-size:.72em; color:#54595d; font-style:italic}
+.portal{margin:0 .6em 0 .7em; padding:.25em 0}
+.portal h3{font-size:.75em; color:#4d4d4d; font-weight:normal; margin:0 0 .3em;
+  border-bottom:1px solid rgba(0,0,0,.12); padding:.25em 0 .15em .35em}
+.portal ul{list-style:none; margin:0; padding:0 0 0 .35em}
+.portal li{padding:.28em 0; font-size:.75em; line-height:1.1}
+.portal li a{color:#0645ad; cursor:pointer}
+.portal li .cnt{color:#72777d; font-size:.92em}
+
+/* ---- content ---- */
+#content{position:relative; z-index:2; margin-left:11em; margin-top:5em; padding:1.1em 1.5em 1.5em;
+  background:#ffffff; border:1px solid #a7d7f9; border-right-width:0; color:#202122; min-height:70vh}
+#firstHeading{font-family:'Linux Libertine','Hoefler Text',Georgia,'Times New Roman',serif;
+  font-size:1.83em; font-weight:normal; margin:0; padding:0 0 .17em; line-height:1.3;
+  border-bottom:1px solid #a2a9b1; overflow:hidden}
+#siteSub{font-size:.86em; color:#54595d; margin:.35em 0 0}
+#contentSub{font-size:.83em; color:#54595d; margin:.2em 0 .6em; line-height:1.2em}
+#bodyContent{font-size:.875em; line-height:1.6; margin-top:.6em}
+#bodyContent h2{font-family:'Linux Libertine','Hoefler Text',Georgia,'Times New Roman',serif;
+  font-size:1.5em; font-weight:normal; border-bottom:1px solid #a2a9b1; margin:1em 0 .25em; padding:0}
+#bodyContent h3{font-size:1.2em; font-weight:bold; margin:.9em 0 .25em}
+#bodyContent h4{font-size:1.05em; font-weight:bold; margin:.8em 0 .25em}
+#bodyContent p{margin:.5em 0}
+#bodyContent ul{margin:.3em 0 .3em 1.6em; padding:0}
+#bodyContent ol{margin:.3em 0 .3em 2em; padding:0}
+#bodyContent li{margin-bottom:.1em}
+#bodyContent hr{border:0; border-top:1px solid #a2a9b1; margin:.6em 0}
+#bodyContent blockquote{border-left:4px solid #eaecf0; padding:.4em 1em; margin:.6em 0 .6em 1em; color:#42474d}
+#bodyContent code{background:#f8f9fa; border:1px solid #eaecf0; border-radius:2px; padding:1px 4px;
+  font-family:'Courier New',monospace; font-size:.95em}
+#bodyContent pre{background:#f8f9fa; border:1px solid #eaecf0; padding:1em; overflow-x:auto;
+  font-family:'Courier New',monospace; font-size:.92em; line-height:1.4}
+#bodyContent pre code{border:0; background:none; padding:0}
+#bodyContent mark{background:#ffe57e; border-radius:2px; padding:0 1px}
+.mw-headline{}
+.mw-editsection{font-family:sans-serif; font-size:small; font-weight:normal; margin-left:1em; user-select:none}
+.mw-editsection a{color:#0645ad; cursor:pointer}
+.hatnote{font-style:italic; color:#54595d; padding-left:1.6em; margin:.3em 0 .5em; font-size:.95em}
+
+/* ---- TOC ---- */
+#toc{display:table; background:#f8f9fa; border:1px solid #a2a9b1; padding:7px 12px; font-size:95%; margin:1em 0}
+#toc .toctitle{text-align:center; font-weight:bold}
+#toc .toctoggle{font-size:.85em; font-weight:normal}
+#toc .toctoggle a{cursor:pointer}
+#toc ul{list-style:none; margin:.3em 0 0; padding:0}
+#toc ul ul{margin:0 0 0 2em}
+#toc li{margin-bottom:.1em; font-size:.95em}
+#toc .tocnumber{color:#202122; padding-right:.5em}
+#toc.collapsed ul{display:none}
+
+/* ---- infobox ---- */
+.infobox{float:right; clear:right; width:22.7em; margin:.5em 0 1em 1em; border:1px solid #a2a9b1;
+  background:#f8f9fa; font-size:88%; line-height:1.5em; padding:.2em; border-collapse:collapse}
+.infobox caption{font-size:125%; font-weight:bold; padding:.2em; text-align:center}
+.infobox th.ibhead{background:#eaecf0; font-size:114%; text-align:center; padding:.3em}
+.infobox th[scope=row]{text-align:left; vertical-align:top; background:none; width:40%;
+  padding:.25em .6em .25em .2em; font-weight:bold}
+.infobox td{vertical-align:top; padding:.25em .2em}
+.infobox tr{border:0}
+.infobox .ibimage{text-align:center; padding:.4em 0 .1em}
+.infobox .ibimage img{max-width:250px; max-height:280px}
+.infobox .ibcaption{text-align:center; font-size:92%; color:#54595d; padding-bottom:.4em}
+
+/* ---- thumbnails ---- */
+.thumb{margin:.5em 0 1.3em 1.4em; width:auto}
+.thumb.tright{float:right; clear:right}
+.thumb.tleft{float:left; clear:left; margin:.5em 1.4em 1.3em 0}
+.thumbinner{border:1px solid #c8ccd1; background:#f8f9fa; padding:3px; font-size:94%;
+  text-align:center; overflow:hidden; width:auto; max-width:270px}
+.thumbinner img{max-width:260px; height:auto; display:block; margin:0 auto; background:#fff; border:1px solid #c8ccd1}
+.thumbcaption{text-align:left; line-height:1.4; padding:3px; font-size:94%; color:#202122}
+#bodyContent img.inline{max-width:100%}
+
+/* ---- tables ---- */
+table.wikitable{background:#f8f9fa; color:#202122; border:1px solid #a2a9b1; border-collapse:collapse;
+  margin:1em 0; font-size:100%}
+table.wikitable th{background:#eaecf0; text-align:center; border:1px solid #a2a9b1; padding:.2em .4em}
+table.wikitable td{border:1px solid #a2a9b1; padding:.2em .4em}
+
+/* ---- references / navbox / categories ---- */
+.references{font-size:90%; margin-left:1.6em}
+.references li{margin-bottom:.2em}
+.references cite{font-style:normal; font-family:'Courier New',monospace; font-size:.95em}
+.navbox{border:1px solid #a2a9b1; width:100%; margin:1em auto 0; clear:both; font-size:88%;
+  background:#fdfdfd; border-collapse:separate; border-spacing:0}
+.navbox th.nbhead{background:#ccccff; padding:.25em 1em; text-align:center; font-size:114%}
+.navbox th.nbgroup{background:#ddddff; padding:.25em 1em; white-space:nowrap; text-align:right; width:1%}
+.navbox td{padding:.25em .7em; border-top:1px solid #fdfdfd; text-align:left}
+.navbox .claim{color:#54595d}
+#catlinks{border:1px solid #a2a9b1; background:#f8f9fa; padding:5px; margin-top:1em; clear:both; font-size:.87em}
+#catlinks a{cursor:pointer}
+#footerArea{margin-left:11em; padding:.9em 1.5em 2em; font-size:.7em; color:#54595d}
+#footerArea li{display:inline; margin-right:1.2em}
+#footerArea ul{list-style:none; margin:0; padding:0}
+
+/* ---- site notice ---- */
+#siteNotice{display:none; margin:-.5em 0 .8em; border:1px solid #fde29b; background:#fef6e7;
+  padding:.5em 1em; font-size:.85em; text-align:center}
+
+/* ---- edit page ---- */
+#editArea{display:none}
+.editnotice{border:1px solid #fde29b; background:#fef6e7; padding:.6em 1em; font-size:.85em; margin:.6em 0}
+#editToolbar{border:1px solid #c8ccd1; border-bottom:0; background:#f8f9fa; padding:.3em .4em; display:flex; gap:.25em}
+#editToolbar button{border:1px solid #c8ccd1; background:#fff; border-radius:2px; min-width:2em;
+  padding:.25em .5em; cursor:pointer; font-size:.9em; color:#202122}
+#editToolbar button:hover{background:#eaf3ff; border-color:#36c}
+#editToolbar b{font-family:serif}
+#wpTextbox{width:100%; box-sizing:border-box; min-height:62vh; border:1px solid #c8ccd1; padding:.6em;
+  font:13px/1.5 'Courier New',monospace; color:#202122; background:#fff; resize:vertical; outline:none}
+#editOptions{border:1px solid #c8ccd1; border-top:0; background:#eaecf0; padding:.7em 1em; margin-bottom:.7em}
+#editOptions label{font-size:.85em; color:#54595d; display:block; margin-bottom:.25em}
+#wpSummary{width:60%; padding:.35em .5em; border:1px solid #a2a9b1; border-radius:2px; font:inherit}
+.mw-btn{display:inline-block; padding:.45em 1em; border-radius:2px; border:1px solid #a2a9b1;
+  background:#f8f9fa; color:#202122; font-weight:bold; font-size:.9em; cursor:pointer; margin-right:.6em}
+.mw-btn.progressive{background:#36c; border-color:#36c; color:#fff}
+.mw-btn.progressive:hover{background:#447ff5}
+.mw-btn:disabled{opacity:.5; cursor:default}
+#previewNote{border:1px solid #fde29b; background:#fef6e7; padding:.5em 1em; margin:1em 0 .5em;
+  font-size:.9em; display:none}
+#previewOut{margin-bottom:1em}
+.msg{font-size:.85em; color:#d33; margin-top:.5em; white-space:pre-wrap}
+
+/* ---- history / recent / search results ---- */
+#pagehistory{list-style:none; margin:.5em 0; padding:0}
+#pagehistory li{padding:.25em .4em; border-bottom:1px solid #f0f1f2; font-size:.95em}
+#pagehistory .mw-changeslist-date{color:#202122; font-weight:normal}
+#pagehistory .hist-author{color:#0645ad; margin:0 .4em}
+#pagehistory .comment{color:#54595d; font-style:italic}
+#pagehistory .curprev{color:#72777d; font-size:.85em; margin-right:.5em}
+.mw-search-result{margin:.6em 0 1em}
+.mw-search-result .title{font-size:1.08em}
+.mw-search-result .snippet{color:#42474d; font-size:.92em; margin:.15em 0}
+.mw-search-result .meta{color:#72777d; font-size:.8em}
+
+/* ---- special pages (capture / ingest / export) ---- */
+.spForm{max-width:640px}
+.spForm label{display:block; font-size:.8em; color:#54595d; margin:.9em 0 .25em; font-weight:bold}
+.spForm input[type=text], .spForm textarea, .spForm select{width:100%; box-sizing:border-box;
+  padding:.45em .6em; border:1px solid #a2a9b1; border-radius:2px; font:inherit; background:#fff; color:#202122}
+.spForm textarea{min-height:180px; resize:vertical; line-height:1.5}
 .acwrap{position:relative}
-#ac{position:absolute; left:0; right:0; z-index:10; background:var(--panel);
-  border:1px solid var(--line); border-radius:10px; box-shadow:0 8px 24px rgba(0,0,0,.15);
-  max-height:220px; overflow-y:auto; display:none}
-#ac div{padding:7px 12px; cursor:pointer; font-size:13.5px}
-#ac div .d{color:var(--muted); font-size:11.5px; margin-left:8px}
-#ac div.sel{background:var(--accent); color:var(--accent-ink)}
-#ac div.sel .d{color:var(--accent-ink); opacity:.75}
+#ac{position:absolute; left:0; right:0; z-index:10; background:#fff; border:1px solid #a2a9b1;
+  box-shadow:0 2px 6px rgba(0,0,0,.15); max-height:220px; overflow-y:auto; display:none; font-size:.9em}
+#ac div{padding:.4em .6em; cursor:pointer}
+#ac div .d{color:#72777d; font-size:.85em; margin-left:.5em}
+#ac div.sel{background:#eaf3ff}
 #targets{display:flex; flex-wrap:wrap; gap:6px; margin-top:8px}
-.tchip{display:inline-flex; align-items:center; gap:6px; background:var(--chip);
-  border:1px solid var(--line); border-radius:20px; padding:3px 10px; font-size:12.5px}
-.tchip button{border:0; background:none; color:var(--muted); cursor:pointer; padding:0}
-.inb{display:flex; align-items:center; gap:10px; padding:9px 12px;
-  border:1px solid var(--line); border-radius:9px; margin:6px 0; font-size:13.5px; cursor:pointer}
-.inb.sel{border-color:var(--accent); background:var(--chip)}
+.tchip{display:inline-flex; align-items:center; gap:6px; background:#eaf3ff; border:1px solid #a7d7f9;
+  border-radius:2px; padding:2px 8px; font-size:.85em}
+.tchip button{border:0; background:none; color:#54595d; cursor:pointer; padding:0}
+#drop{margin-top:14px; border:2px dashed #a2a9b1; border-radius:2px; padding:20px; text-align:center;
+  color:#54595d; cursor:pointer; font-size:.9em}
+#drop.over{border-color:#36c; color:#36c}
+.inb{display:flex; align-items:center; gap:10px; padding:.5em .7em; border:1px solid #c8ccd1;
+  margin:.35em 0; font-size:.9em; cursor:pointer; background:#f8f9fa}
+.inb.sel{border-color:#36c; background:#eaf3ff}
 .inb .nm{flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
-.inb .sz{color:var(--muted); font-size:12px}
-.inb button{border:0; background:none; color:var(--muted); cursor:pointer; font-size:15px}
-.inb button:hover{color:var(--warn)}
-.step{border:1px solid var(--line); border-radius:12px; padding:16px 18px; margin:12px 0;
-  background:var(--panel)}
-.step h3{font-size:14px; margin-bottom:6px}
-.step .hint{font-size:12.5px; color:var(--muted); margin-bottom:8px}
-.note{background:var(--chip); border-radius:10px; padding:12px 16px; font-size:13px;
-  color:var(--muted); margin-top:18px}
-dialog{border:1px solid var(--line); border-radius:14px; background:var(--panel);
-  color:var(--ink); padding:22px; max-width:430px; box-shadow:0 20px 60px rgba(0,0,0,.3)}
+.inb .sz{color:#72777d; font-size:.85em}
+.inb button{border:0; background:none; color:#72777d; cursor:pointer}
+.inb button:hover{color:#d33}
+.step{border:1px solid #c8ccd1; padding:.9em 1.1em; margin:.8em 0; background:#f8f9fa}
+.step h3{margin:.1em 0 .3em}
+.step .hint{font-size:.85em; color:#54595d; margin-bottom:.5em}
+.note{background:#eaf3ff; border:1px solid #a7d7f9; padding:.6em 1em; font-size:.85em; color:#54595d; margin-top:1em}
+
+dialog{border:1px solid #a2a9b1; background:#fff; color:#202122; padding:1.3em 1.5em; max-width:460px;
+  box-shadow:0 8px 30px rgba(0,0,0,.3)}
 dialog::backdrop{background:rgba(0,0,0,.35)}
-dialog input{width:100%; padding:9px 12px; border:1px solid var(--line); border-radius:8px;
-  background:var(--bg); color:var(--ink); font:inherit; margin:10px 0}
+dialog h3{margin-top:0; font-family:'Linux Libertine',Georgia,serif; font-weight:normal;
+  border-bottom:1px solid #a2a9b1; padding-bottom:.2em}
+dialog input[type=text]{width:100%; box-sizing:border-box; padding:.45em .6em; border:1px solid #a2a9b1;
+  border-radius:2px; font:inherit; margin:.5em 0}
+dialog select{padding:.35em; border:1px solid #a2a9b1; font:inherit}
+
+@media(max-width:900px){
+  #mw-panel{display:none}
+  #mw-head{left:0}
+  #content,#footerArea{margin-left:0}
+}
 </style>
 </head>
 <body>
-<header>
-  <h1>PERSONAL WIKI</h1>
-  <nav>
-    <button data-tab="wikiTab" class="on">Wiki</button>
-    <button data-tab="captureTab">Capture</button>
-    <button data-tab="ingestTab">Ingest <span id="inboxN"></span></button>
-    <button data-tab="exportTab">Export</button>
-  </nav>
-  <div id="gitBar">
-    <span id="gitPill">…</span>
-    <button id="syncBtn">Sync</button>
-  </div>
-  <div id="pubWarn">⚠ Your GitHub repo is <b>PUBLIC</b> — anyone can read this wiki. Make it private: repo Settings → Danger Zone → Change visibility.</div>
-</header>
-<main>
 
-<div id="wikiTab" class="tab">
-  <div id="side">
-    <input id="q" placeholder="Search the wiki…" autocomplete="off">
-    <div id="nav"></div>
+<div id="mw-page-base"></div>
+
+<div id="p-personal"><ul>
+  <li><span class="uicon"></span>Dan Frank</li>
+  <li><span id="gitPill">…</span></li>
+  <li><a id="syncLink">Sync</a></li>
+</ul></div>
+
+<div id="mw-head">
+  <div id="left-navigation">
+    <ul class="vectorTabs">
+      <li id="ca-page" class="selected"><a>Page</a></li>
+      <li id="ca-talk"><a>Discussion</a></li>
+    </ul>
   </div>
-  <div id="contentWrap">
-    <div id="toolbar">
-      <span id="crumb"></span>
-      <button class="tbtn hidden" id="renameBtn">Rename</button>
-      <button class="tbtn hidden" id="editBtn">✎ Edit</button>
+  <div id="right-navigation">
+    <ul class="vectorTabs">
+      <li id="ca-view" class="selected"><a>Read</a></li>
+      <li id="ca-edit"><a>Edit</a></li>
+      <li id="ca-history"><a>View history</a></li>
+      <li id="ca-more"><a>More&nbsp;▾</a>
+        <ul><li id="ca-move"><a>Move</a></li></ul>
+      </li>
+    </ul>
+    <div id="p-search">
+      <form id="searchForm" autocomplete="off">
+        <input id="searchInput" placeholder="Search WikiBrain" autocomplete="off">
+        <button id="searchGo" type="submit" title="Search">&#128269;</button>
+      </form>
+      <div id="suggestions"></div>
     </div>
-    <div id="content"><p style="color:var(--muted)">Loading…</p></div>
-    <div id="editor">
-      <div class="editbar">
-        <button class="btn" id="editSave">Save</button>
-        <button class="btn ghost" id="editCancel">Cancel</button>
-        <span class="msg" id="editMsg" style="margin:0"></span>
+  </div>
+</div>
+
+<div id="mw-panel">
+  <div id="p-logo">
+    <svg class="globe" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <radialGradient id="gsh" cx="38%" cy="32%" r="75%">
+          <stop offset="0%" stop-color="#fdfdfd"/><stop offset="70%" stop-color="#e8eaed"/>
+          <stop offset="100%" stop-color="#c9ccd1"/>
+        </radialGradient>
+      </defs>
+      <circle cx="60" cy="60" r="54" fill="url(#gsh)" stroke="#8a8f96" stroke-width="1.5"/>
+      <ellipse cx="60" cy="60" rx="54" ry="20" fill="none" stroke="#9aa0a6" stroke-width="1"/>
+      <ellipse cx="60" cy="60" rx="54" ry="40" fill="none" stroke="#b7bcc2" stroke-width=".8"/>
+      <ellipse cx="60" cy="60" rx="20" ry="54" fill="none" stroke="#9aa0a6" stroke-width="1"/>
+      <ellipse cx="60" cy="60" rx="40" ry="54" fill="none" stroke="#b7bcc2" stroke-width=".8"/>
+      <line x1="6" y1="60" x2="114" y2="60" stroke="#9aa0a6" stroke-width="1"/>
+      <line x1="60" y1="6" x2="60" y2="114" stroke="#9aa0a6" stroke-width="1"/>
+      <text x="60" y="72" text-anchor="middle" font-family="Georgia,serif" font-size="34" fill="#54595d">DF</text>
+    </svg>
+    <div class="wordmark" id="logoHome">WikiBrain</div>
+    <div class="tagline">The Dan Frank Encyclopedia</div>
+  </div>
+  <div class="portal">
+    <h3>Navigation</h3>
+    <ul>
+      <li><a id="nav-main">Main page</a></li>
+      <li><a id="nav-contents">Contents</a></li>
+      <li><a id="nav-random">Random article</a></li>
+      <li><a id="nav-recent">Recent changes</a></li>
+    </ul>
+  </div>
+  <div class="portal">
+    <h3>Domains</h3>
+    <ul id="domainList"></ul>
+  </div>
+  <div class="portal">
+    <h3>Tools</h3>
+    <ul>
+      <li><a id="nav-whatlinks">What links here</a></li>
+      <li><a id="nav-capture">Capture a note</a></li>
+      <li><a id="nav-ingest">Ingest inbox <span class="cnt" id="inboxN"></span></a></li>
+      <li><a id="nav-export">Export corpus</a></li>
+      <li><a id="nav-newpage">Create a page</a></li>
+    </ul>
+  </div>
+  <div class="portal">
+    <h3>Project files</h3>
+    <ul id="metaList"></ul>
+  </div>
+</div>
+
+<div id="content">
+  <div id="siteNotice">⚠ The GitHub repo backing this wiki is <b>PUBLIC</b> — anyone can read it.
+    Make it private: repo Settings → Danger Zone → Change visibility.</div>
+  <h1 id="firstHeading">Loading…</h1>
+  <div id="siteSub">From WikiBrain, the personal encyclopedia</div>
+  <div id="contentSub"></div>
+  <div id="bodyContent"></div>
+
+  <div id="editArea">
+    <div class="editnotice" id="editNotice">You are editing this page directly. Complete sentences;
+      tables hold numbers, prose holds meaning; contradictions are flagged, not overwritten
+      (<i>STYLE_GUIDE.md</i> governs). Saving updates <code>date_modified</code> and appends to the log.</div>
+    <div id="previewNote"><b>Preview only</b> — your changes have not been saved yet.</div>
+    <div id="previewOut"></div>
+    <div id="editToolbar">
+      <button data-tb="bold" title="Bold"><b>B</b></button>
+      <button data-tb="italic" title="Italic"><i>I</i></button>
+      <button data-tb="link" title="Internal wikilink">[[&nbsp;]]</button>
+      <button data-tb="h2" title="Section heading">H2</button>
+      <button data-tb="image" title="Insert picture">&#128444; Image</button>
+      <button data-tb="table" title="Insert table">Table</button>
+    </div>
+    <textarea id="wpTextbox" spellcheck="false"></textarea>
+    <div id="editOptions">
+      <label for="wpSummary">Edit summary (briefly describe your changes)</label>
+      <input id="wpSummary" type="text" placeholder="">
+      <div style="margin-top:.7em">
+        <button class="mw-btn progressive" id="wpSave">Save changes</button>
+        <button class="mw-btn" id="wpPreview">Show preview</button>
+        <button class="mw-btn" id="wpCancel">Cancel</button>
+        <span class="msg" id="editMsg" style="display:inline-block; margin-left:.6em"></span>
       </div>
-      <textarea id="editTa" spellcheck="false"></textarea>
     </div>
   </div>
 </div>
 
-<div id="captureTab" class="tab pane hidden"><div class="card">
-  <h2>Capture</h2>
-  <div class="sub2">Type a fact or story — it lands in the inbox for ingestion. Type <b>@</b> to target an existing page (correction/expansion). Square-bracket lines like <code>[RENAME PAGE TO x]</code> are executed as instructions at ingest time.</div>
-  <label>Title (optional)</label>
-  <input type="text" id="cTitle">
-  <label>Text</label>
-  <div class="acwrap">
-    <textarea id="cBody" placeholder="A fact, a memory, a story… @ to target a page."></textarea>
-    <div id="ac"></div>
-  </div>
-  <div id="targets"></div>
-  <label>Tags (optional, comma-separated)</label>
-  <input type="text" id="cTags">
-  <button class="btn" id="cSave">Save to inbox</button>
-  <div class="msg" id="cMsg"></div>
-  <div id="drop">Drop files here or click to upload — any format</div>
-  <input type="file" id="filePick" multiple style="display:none">
-  <div class="msg" id="uMsg"></div>
-</div></div>
-
-<div id="ingestTab" class="tab pane hidden">
-  <div class="card" style="max-width:380px">
-    <h2>Inbox</h2>
-    <div class="sub2">Select an item to ingest. Ingestion moves it to raw/ and writes wiki pages.</div>
-    <div id="inboxList"></div>
-    <div class="note">Prefer Claude Code? Open it in this folder and say "ingest the inbox" — same rules, fully automatic.</div>
-  </div>
-  <div class="card">
-    <h2>Ingest with any LLM</h2>
-    <div class="sub2">No subscription needed — works with any chat model.</div>
-    <div class="step">
-      <h3>1 · Generate the prompt</h3>
-      <div class="hint">Bundles the item, the style guide, and the pages it touches.</div>
-      <button class="btn" id="packBtn" disabled>Generate prompt</button>
-      <span class="msg" id="packMsg"></span>
-      <textarea id="packOut" class="hidden" readonly style="min-height:120px; margin-top:10px; font:12px ui-monospace,monospace"></textarea>
-      <button class="btn ghost hidden" id="copyBtn">Copy prompt to clipboard</button>
-    </div>
-    <div class="step">
-      <h3>2 · Paste the model's reply</h3>
-      <div class="hint">Paste the full response (its FILE/MOVE/LOG blocks are extracted; extra prose is ignored).</div>
-      <textarea id="applyIn" style="min-height:140px; font:12px ui-monospace,monospace" placeholder="===FILE: wiki/... ==="></textarea>
-      <label style="text-transform:none; font-size:13px; margin-top:8px">
-        <input type="checkbox" id="applyCommit" checked> commit automatically if lint passes</label>
-      <button class="btn" id="applyBtn">Validate &amp; apply</button>
-      <div class="msg" id="applyMsg"></div>
-    </div>
-  </div>
+<div id="footerArea">
+  <ul>
+    <li id="lastmod"></li>
+    <li>Content is personal and private; the wiki is the compiled product of raw/ — treat earned pages with respect.</li>
+    <li>Powered by a single Python file. Wikipedia-style interface (imitation, for personal use).</li>
+  </ul>
 </div>
-
-<div id="exportTab" class="tab pane hidden"><div class="card">
-  <h2>Export corpus</h2>
-  <div class="sub2">One Markdown file for LLM ingestion, with a token estimate.</div>
-  <label>Scope</label>
-  <select id="eDomain">
-    <option value="">Whole wiki</option>
-    <option>self</option><option>timeline</option><option>people</option>
-    <option>mind</option><option>work</option><option>interests</option>
-    <option>health</option><option>places</option><option>legal</option>
-  </select>
-  <label style="margin-top:12px; text-transform:none; font-size:13px"><input type="checkbox" id="eRaw"> include raw/ archive (big)</label>
-  <label style="text-transform:none; font-size:13px"><input type="checkbox" id="eInbox"> include un-ingested inbox</label>
-  <button class="btn" id="eGo">Export</button>
-  <div class="msg" id="eMsg"></div>
-</div></div>
-
-</main>
 
 <dialog id="renameDlg">
-  <h3 style="margin-bottom:4px">Rename page</h3>
-  <div style="font-size:13px; color:var(--muted)" id="renameFrom"></div>
-  <input type="text" id="renameTo" placeholder="new name (will be slugified)">
-  <div style="display:flex; gap:10px">
-    <button class="btn" id="renameGo">Rename &amp; update links</button>
-    <button class="btn ghost" id="renameCancel">Cancel</button>
+  <h3>Move page</h3>
+  <div style="font-size:.85em; color:#54595d">Renames the file and updates every inbound link.<br>
+    Source: <code id="renameFrom"></code></div>
+  <input type="text" id="renameTo" placeholder="New title (will be slugified)">
+  <div>
+    <button class="mw-btn progressive" id="renameGo">Move page</button>
+    <button class="mw-btn" id="renameCancel">Cancel</button>
   </div>
   <div class="msg" id="renameMsg"></div>
 </dialog>
 
+<dialog id="imageDlg">
+  <h3>Insert picture</h3>
+  <div style="font-size:.85em; color:#54595d; margin-bottom:.5em">
+    The file is uploaded to <code>assets/uploads/</code> and embedded at the cursor.</div>
+  <input type="file" id="imgFile" accept="image/*">
+  <input type="text" id="imgCaption" placeholder="Caption">
+  <div style="font-size:.85em; margin:.4em 0">
+    Placement:
+    <select id="imgPlace">
+      <option value="thumb">Thumbnail (right, with caption)</option>
+      <option value="left">Thumbnail (left, with caption)</option>
+      <option value="inline">Inline (full width)</option>
+    </select>
+  </div>
+  <div>
+    <button class="mw-btn progressive" id="imgGo">Upload &amp; insert</button>
+    <button class="mw-btn" id="imgCancel">Cancel</button>
+  </div>
+  <div class="msg" id="imgMsg"></div>
+</dialog>
+
+<dialog id="newPageDlg">
+  <h3>Create a page</h3>
+  <div style="font-size:.85em; color:#54595d">Pick a domain and a title; the page opens in the editor
+    with frontmatter pre-filled.</div>
+  <select id="npDomain" style="width:100%; margin-top:.5em">
+    <option>self</option><option>timeline</option><option selected>people</option><option>mind</option>
+    <option>work</option><option>interests</option><option>health</option><option>places</option><option>legal</option>
+  </select>
+  <input type="text" id="npTitle" placeholder="Page title">
+  <div>
+    <button class="mw-btn progressive" id="npGo">Create in editor</button>
+    <button class="mw-btn" id="npCancel">Cancel</button>
+  </div>
+  <div class="msg" id="npMsg"></div>
+</dialog>
+
+<template id="tpl-capture">
+  <div class="spForm">
+    <p style="color:#54595d">Type a fact or story — it lands in the inbox for ingestion. Type <b>@</b> to
+    target an existing page (correction/expansion). Square-bracket lines like
+    <code>[RENAME PAGE TO x]</code> are executed as instructions at ingest time.</p>
+    <label>Title (optional)</label>
+    <input type="text" id="cTitle">
+    <label>Text</label>
+    <div class="acwrap">
+      <textarea id="cBody" placeholder="A fact, a memory, a story… @ to target a page."></textarea>
+      <div id="ac"></div>
+    </div>
+    <div id="targets"></div>
+    <label>Tags (optional, comma-separated)</label>
+    <input type="text" id="cTags">
+    <div style="margin-top:.8em"><button class="mw-btn progressive" id="cSave">Save to inbox</button></div>
+    <div class="msg" id="cMsg"></div>
+    <div id="drop">Drop files here or click to upload — any format</div>
+    <input type="file" id="filePick" multiple style="display:none">
+    <div class="msg" id="uMsg"></div>
+  </div>
+</template>
+
+<template id="tpl-ingest">
+  <div style="display:flex; gap:2em; flex-wrap:wrap">
+    <div style="flex:0 0 300px">
+      <h2 style="border-bottom:1px solid #a2a9b1; font-family:Georgia,serif; font-weight:normal">Inbox</h2>
+      <p style="color:#54595d; font-size:.9em">Select an item to ingest. Ingestion moves it to raw/ and writes wiki pages.</p>
+      <div id="inboxList"></div>
+      <div class="note">Prefer Claude Code? Open it in this folder and say "ingest the inbox" — same rules, fully automatic.</div>
+    </div>
+    <div style="flex:1; min-width:320px" class="spForm">
+      <h2 style="border-bottom:1px solid #a2a9b1; font-family:Georgia,serif; font-weight:normal">Ingest with any LLM</h2>
+      <div class="step">
+        <h3>1 · Generate the prompt</h3>
+        <div class="hint">Bundles the item, the style guide, and the pages it touches.</div>
+        <button class="mw-btn progressive" id="packBtn" disabled>Generate prompt</button>
+        <span class="msg" id="packMsg"></span>
+        <textarea id="packOut" readonly style="display:none; min-height:120px; margin-top:10px; font:12px 'Courier New',monospace"></textarea>
+        <button class="mw-btn" id="copyBtn" style="display:none; margin-top:.5em">Copy prompt to clipboard</button>
+      </div>
+      <div class="step">
+        <h3>2 · Paste the model's reply</h3>
+        <div class="hint">Paste the full response (its FILE/MOVE/LOG blocks are extracted; extra prose is ignored).</div>
+        <textarea id="applyIn" style="min-height:140px; font:12px 'Courier New',monospace" placeholder="===FILE: wiki/... ==="></textarea>
+        <label style="font-weight:normal; text-transform:none; margin-top:.5em">
+          <input type="checkbox" id="applyCommit" checked> commit automatically if lint passes</label>
+        <button class="mw-btn progressive" id="applyBtn">Validate &amp; apply</button>
+        <div class="msg" id="applyMsg"></div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template id="tpl-export">
+  <div class="spForm">
+    <p style="color:#54595d">One Markdown file for LLM ingestion, with a token estimate.</p>
+    <label>Scope</label>
+    <select id="eDomain">
+      <option value="">Whole wiki</option>
+      <option>self</option><option>timeline</option><option>people</option>
+      <option>mind</option><option>work</option><option>interests</option>
+      <option>health</option><option>places</option><option>legal</option>
+    </select>
+    <label style="font-weight:normal; text-transform:none; margin-top:.8em">
+      <input type="checkbox" id="eRaw"> include raw/ archive (big)</label>
+    <label style="font-weight:normal; text-transform:none">
+      <input type="checkbox" id="eInbox"> include un-ingested inbox</label>
+    <div style="margin-top:.8em"><button class="mw-btn progressive" id="eGo">Export</button></div>
+    <div class="msg" id="eMsg"></div>
+  </div>
+</template>
+
 <script>
 const $=s=>document.querySelector(s), api=async(p,o)=>(await fetch(p,o)).json();
-let TREE=null, CUR=null, RAW=null, SEL_INBOX=null;
+let TREE=null, PAGES=new Set(), CUR=null, RAW=null, MODE="read", CREATING=null;
+const DOMAINS=["self","timeline","people","mind","work","interests","health","places","legal"];
+const cap=s=>s.charAt(0).toUpperCase()+s.slice(1);
 
-/* ---------- tabs ---------- */
-document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
-  document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x===b));
-  document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("hidden",t.id!==b.dataset.tab));
-});
+/* ============================ utilities ============================ */
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+function humanTitle(path){
+  const base=path.split("/").pop().replace(/\.md$/,"");
+  if(base==="index"){
+    const parts=path.split("/");
+    return parts.length>2?cap(parts[parts.length-2])+" — index":"Main Page";
+  }
+  return base.split("-").map(w=>/^\d/.test(w)?w:cap(w)).join(" ");
+}
+function anchorOf(t){return t.toLowerCase().replace(/[^\w\s-]/g,"").trim().replace(/\s+/g,"_")}
+function stripMd(s){return s.replace(/\*\*|\*|`|\[\[|\]\]/g,"")}
+function imgUrl(u){
+  u=u.trim().replace(/^\.\//,"");
+  return /^https?:/.test(u)?u:"/api/asset?path="+encodeURIComponent(u);
+}
+function resolveWiki(target){
+  let t=target.trim().replace(/^\.\//,"");
+  if(!/\.md$/.test(t)) t+=".md";
+  if(PAGES.has(t)) return {path:t, exists:true};
+  const hit=[...PAGES].find(p=>p.endsWith("/"+t));
+  if(hit) return {path:hit, exists:true};
+  // meta files
+  const meta=(TREE?TREE.meta:[]).find(f=>f.path===t||f.path.endsWith("/"+t));
+  if(meta) return {path:meta.path, exists:true};
+  const guess=t.startsWith("wiki/")?t:null;
+  return {path:guess, exists:false, raw:target};
+}
 
-/* ---------- markdown ---------- */
-function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+/* ============================ frontmatter ============================ */
+function parseFM(text){
+  const out={meta:{}, infobox:null, connections:[], sources:[], aliases:[], body:text, fmLines:0};
+  if(!text.startsWith("---")) return out;
+  const end=text.indexOf("\n---",3);
+  if(end<0) return out;
+  const fmText=text.slice(4,end);
+  out.body=text.slice(end+4).replace(/^\n/,"");
+  out.fmLines=text.slice(0,text.length-out.body.length).split("\n").length-1;
+  const lines=fmText.split("\n");
+  let i=0;
+  while(i<lines.length){
+    const l=lines[i];
+    const m=l.match(/^([A-Za-z_][\w-]*):\s*(.*)$/);
+    if(!m){i++;continue}
+    const key=m[1], val=m[2].trim();
+    if(val!==""){
+      if(key==="aliases"||key==="tags"||key==="related"||key==="sources"){
+        const items=val.replace(/^\[|\]$/g,"").split(",").map(s=>s.trim().replace(/^["']|["']$/g,"")).filter(Boolean);
+        if(key==="aliases") out.aliases=items;
+        if(key==="sources") out.sources=items;
+      } else out.meta[key]=val.replace(/^["']|["']$/g,"");
+      i++; continue;
+    }
+    // block value
+    const block=[]; i++;
+    while(i<lines.length && (/^\s+\S/.test(lines[i])||lines[i].trim()==="")){ block.push(lines[i]); i++; }
+    if(key==="infobox"){
+      out.infobox={};
+      for(const b of block){
+        const bm=b.match(/^\s+([\w-]+):\s*(.*)$/);
+        if(bm) out.infobox[bm[1]]=bm[2].trim().replace(/^["']|["']$/g,"");
+      }
+    } else if(key==="connections"){
+      let cur=null;
+      for(const b of block){
+        if(/^\s*-\s/.test(b)){ if(cur) out.connections.push(cur); cur={};
+          const bm=b.match(/^\s*-\s*([\w-]+):\s*(.*)$/); if(bm) cur[bm[1]]=bm[2].trim().replace(/^["']|["']$/g,""); }
+        else { const bm=b.match(/^\s+([\w-]+):\s*(.*)$/); if(bm&&cur) cur[bm[1]]=bm[2].trim().replace(/^["']|["']$/g,""); }
+      }
+      if(cur) out.connections.push(cur);
+    } else if(key==="sources"){
+      for(const b of block){ const bm=b.match(/^\s*-\s*(.+)$/); if(bm) out.sources.push(bm[1].trim().replace(/^["']|["']$/g,"")); }
+    } else if(key==="aliases"){
+      for(const b of block){ const bm=b.match(/^\s*-\s*(.+)$/); if(bm) out.aliases.push(bm[1].trim().replace(/^["']|["']$/g,"")); }
+    }
+  }
+  return out;
+}
+
+/* ============================ markdown ============================ */
 function inline(s){
   s=esc(s);
   s=s.replace(/`([^`]+)`/g,"<code>$1</code>");
+  s=s.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g,(m,alt,u)=>
+    `<img class="inline" src="${imgUrl(u)}" alt="${alt}">`);
   s=s.replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>").replace(/(^|\W)\*([^*]+)\*/g,"$1<i>$2</i>");
   s=s.replace(/\[([^\]]+)\]\(([^)]+)\)/g,(m,t,u)=>
-    /^https?:/.test(u)?`<a href="${u}" target="_blank">${t}</a>`:`<a href="#" data-wiki="${u}">${t}</a>`);
+    /^https?:/.test(u)?`<a href="${u}" class="external" target="_blank" rel="noopener">${t}</a>`
+      :`<a href="#" data-wiki="${u}">${t}</a>`);
   s=s.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g,`<a href="#" data-wiki="$1">$2</a>`);
   s=s.replace(/\[\[([^\]]+)\]\]/g,`<a href="#" data-wiki="$1">$1</a>`);
   return s;
 }
-function md(text){
-  let fm="";
-  if(text.startsWith("---")){
-    const end=text.indexOf("\n---",3);
-    if(end>0){ fm=text.slice(4,end).trim(); text=text.slice(end+4); } }
-  const lines=text.split("\n"); let out=[],i=0;
+function mdRender(text, opts){
+  opts=opts||{};
+  const lineOffset=opts.lineOffset||0, editable=!!opts.editable;
+  const lines=text.split("\n"); let out=[],toc=[],i=0;
   while(i<lines.length){
     let l=lines[i];
     if(/^```/.test(l)){ let buf=[]; i++;
       while(i<lines.length && !/^```/.test(lines[i])) buf.push(lines[i++]);
       i++; out.push("<pre><code>"+esc(buf.join("\n"))+"</code></pre>"); continue; }
-    if(/^#{1,4} /.test(l)){ const n=l.match(/^#+/)[0].length;
-      out.push(`<h${n}>`+inline(l.replace(/^#+ /,""))+`</h${n}>`); i++; continue; }
+    if(/^#{1,5} /.test(l)){
+      const n=l.match(/^#+/)[0].length, raw=l.replace(/^#+ /,"");
+      const a=anchorOf(stripMd(raw)), srcLine=i+lineOffset;
+      if(n>=2&&n<=3) toc.push({n,txt:stripMd(raw),a});
+      const editLink=(editable&&n>=2)?`<span class="mw-editsection">[<a data-editline="${srcLine}">edit</a>]</span>`:"";
+      out.push(`<h${n} id="${a}"><span class="mw-headline">${inline(raw)}</span>${editLink}</h${n}>`);
+      i++; continue; }
     if(/^---+\s*$/.test(l)){ out.push("<hr>"); i++; continue; }
     if(/^\s*>/.test(l)){ let buf=[];
       while(i<lines.length && /^\s*>/.test(lines[i])) buf.push(lines[i++].replace(/^\s*> ?/,""));
-      out.push("<blockquote>"+buf.map(inline).join("<br>")+"</blockquote>"); continue; }
+      // reflow: blank quote lines separate paragraphs, others join with a space
+      const paras=[]; let cur=[];
+      for(const b of buf){ if(b.trim()===""){ if(cur.length){paras.push(cur.join(" "));cur=[];} } else cur.push(b); }
+      if(cur.length)paras.push(cur.join(" "));
+      out.push("<blockquote>"+paras.map(p=>"<p>"+inline(p)+"</p>").join("")+"</blockquote>"); continue; }
     if(/^\|.*\|/.test(l) && /^\|[\s:|-]+\|/.test(lines[i+1]||"")){
       let rows=[]; while(i<lines.length && /^\|/.test(lines[i])) rows.push(lines[i++]);
       const cells=r=>r.replace(/^\||\|$/g,"").split("|").map(c=>inline(c.trim()));
-      let h="<table><tr>"+cells(rows[0]).map(c=>`<th>${c}</th>`).join("")+"</tr>";
+      let h='<table class="wikitable"><tr>'+cells(rows[0]).map(c=>`<th>${c}</th>`).join("")+"</tr>";
       for(const r of rows.slice(2)) h+="<tr>"+cells(r).map(c=>`<td>${c}</td>`).join("")+"</tr>";
       out.push(h+"</table>"); continue; }
     if(/^\s*[-*] /.test(l)){ let buf=[];
@@ -681,50 +1084,527 @@ function md(text){
       while(i<lines.length && /^\s*\d+\. /.test(lines[i])) buf.push("<li>"+inline(lines[i++].replace(/^\s*\d+\. /,""))+"</li>");
       out.push("<ol>"+buf.join("")+"</ol>"); continue; }
     if(l.trim()===""){ i++; continue; }
-    let buf=[]; while(i<lines.length && lines[i].trim()!=="" &&
+    // standalone image line -> thumbnail frame
+    const im=l.trim().match(/^!\[([^\]]*)\]\(([^)\s]+)\)$/);
+    if(im){
+      out.push(`<div class="thumb tright"><div class="thumbinner">`+
+        `<a href="${imgUrl(im[2])}" target="_blank"><img src="${imgUrl(im[2])}" alt="${esc(im[1])}"></a>`+
+        (im[1]?`<div class="thumbcaption">${inline(im[1])}</div>`:"")+`</div></div>`);
+      i++; continue; }
+    let buf=[lines[i++]];   // always consume the current line (guards against non-heading '#…' etc.)
+    while(i<lines.length && lines[i].trim()!=="" &&
       !/^(#|```|>|\||\s*[-*] |\s*\d+\. |---)/.test(lines[i])) buf.push(lines[i++]);
-    out.push("<p>"+buf.map(inline).join(" ")+"</p>");
+    out.push("<p>"+inline(buf.join(" "))+"</p>");
   }
-  return (fm?`<div class="fm">${esc(fm)}</div>`:"")+out.join("\n");
+  return {out,toc};
+}
+function tocHtml(toc){
+  if(toc.length<3) return "";
+  let h='<div id="toc"><div class="toctitle">Contents <span class="toctoggle">[<a id="tocToggle">hide</a>]</span></div><ul>';
+  let n1=0,n2=0,open=false;
+  for(const t of toc){
+    if(t.n===2){ if(open){h+="</ul></li>";open=false;} n1++; n2=0;
+      h+=`<li><span class="tocnumber">${n1}</span><a href="#${t.a}" data-anchor="${t.a}">${esc(t.txt)}</a>`;
+      open=true; h+="<ul>"; }
+    else { n2++; h+=`<li><span class="tocnumber">${n1}.${n2}</span><a href="#${t.a}" data-anchor="${t.a}">${esc(t.txt)}</a></li>`; }
+  }
+  if(open)h+="</ul></li>";
+  return h+"</ul></div>";
 }
 
-/* ---------- tree / sidebar ---------- */
-async function refresh(keepOpen){
-  const open={};
-  document.querySelectorAll("#side details").forEach(d=>open[d.dataset.g]=d.open);
-  TREE=await api("/api/tree");
-  $("#inboxN").textContent=TREE.inbox.length?`(${TREE.inbox.length})`:"";
-  const nav=$("#nav"); nav.innerHTML="";
+/* ============================ infobox / navbox / cats ============================ */
+const IB_ORDER=["name","born","status","type","relationship_to_dan","known_for","occupation","partner",
+  "location","sex","first_mentioned","first_contact","closed","handles","era","period","notes"];
+const IB_LABEL={name:"Name",born:"Born",status:"Status",type:"Type",relationship_to_dan:"Relationship to Dan",
+  known_for:"Known for",occupation:"Occupation",partner:"Partner",location:"Location",sex:"Sex",
+  first_mentioned:"First mentioned",first_contact:"First contact",closed:"Closed",handles:"Handles",
+  era:"Era",period:"Period",notes:"Notes"};
+function infoboxHtml(fm, title){
+  const fb=fm.infobox;
+  const img=fm.meta.image;
+  if(!fb&&!img) return "";
+  const head=(fb&&fb.name)||title;
+  let h='<table class="infobox">';
+  h+=`<tr><th class="ibhead" colspan="2">${esc(head)}</th></tr>`;
+  if(img) h+=`<tr><td colspan="2" class="ibimage"><img src="${imgUrl(img)}" alt="${esc(head)}"></td></tr>`+
+    (fm.meta.image_caption?`<tr><td colspan="2" class="ibcaption">${inline(fm.meta.image_caption)}</td></tr>`:"");
+  if(fb){
+    const keys=IB_ORDER.filter(k=>k!=="name"&&fb[k]!==undefined&&fb[k]!=="")
+      .concat(Object.keys(fb).filter(k=>k!=="name"&&!IB_ORDER.includes(k)));
+    for(const k of keys){
+      let v=fb[k]; if(v===undefined||v==="")continue;
+      if(/^\[[^\[].*\]$/.test(v)) v=v.replace(/^\[|\]$/g,"").split(",").map(s=>s.trim().replace(/^["']|["']$/g,"")).join(", ");
+      h+=`<tr><th scope="row">${esc(IB_LABEL[k]||cap(k.replace(/_/g," ")))}</th><td>${inline(v)}</td></tr>`;
+    }
+  }
+  return h+"</table>";
+}
+function connectionsHtml(conns){
+  if(!conns.length) return "";
+  let h='<table class="navbox"><tr><th class="nbhead" colspan="2">Connections <span style="font-weight:normal;font-size:85%">(typed edges)</span></th></tr>';
+  for(const c of conns){
+    if(!c.page)continue;
+    h+=`<tr><th class="nbgroup">${esc(c.type||"related")}</th><td><a href="#" data-wiki="${esc(c.page)}">${esc(humanTitle(c.page))}</a>`+
+      (c.claim?` — <span class="claim">${esc(c.claim)}</span>`:"")+`</td></tr>`;
+  }
+  return h+"</table>";
+}
+function catlinksHtml(fm, path){
+  const cats=[];
+  const domain=path.startsWith("wiki/")?path.split("/")[1]:null;
+  if(domain&&DOMAINS.includes(domain)) cats.push(`<a data-page="wiki/${domain}/index.md">${cap(domain)}</a>`);
+  if(fm.meta.page_type) cats.push(`<span>${esc(cap(fm.meta.page_type))} pages</span>`);
+  if(fm.meta.status) cats.push(`<span>Status: ${esc(fm.meta.status)}</span>`);
+  if(fm.meta.importance) cats.push(`<span>Importance: ${esc(fm.meta.importance)}</span>`);
+  if(fm.meta.knowledge) cats.push(`<span>Knowledge: ${esc(fm.meta.knowledge)}</span>`);
+  if(!cats.length) return "";
+  return `<div id="catlinks"><b>Categories:</b> ${cats.join('<span style="color:#a2a9b1"> | </span>')}</div>`;
+}
+function referencesHtml(sources){
+  if(!sources.length) return "";
+  let h='<h2><span class="mw-headline" id="references">References</span></h2><ol class="references">';
+  for(const s of sources)
+    h+=`<li><cite><a href="#" data-page="${esc(s)}">${esc(s)}</a></cite></li>`;
+  return h+"</ol>";
+}
+
+/* ============================ article view ============================ */
+function articleHtml(content, path, opts){
+  opts=opts||{};
+  const fm=parseFM(content);
+  let title=fm.meta.title||humanTitle(path);
+  // a leading H1 in the body becomes the display title (avoid duplication)
+  const bl=fm.body.split("\n"); let k=0;
+  while(k<bl.length && bl[k].trim()==="") k++;
+  if(k<bl.length && /^# /.test(bl[k])){ title=stripMd(bl[k].replace(/^# /,"")); k++; }
+  else k=0;
+  const body=bl.slice(k).join("\n");
+  const editable=!opts.preview&&isEditable(path);
+  const r=mdRender(body,{lineOffset:fm.fmLines+k, editable});
+  let parts=[];
+  // hatnote for aliases
+  if(fm.aliases.length)
+    parts.push(`<div class="hatnote">Also known as: ${fm.aliases.map(esc).join(" · ")}</div>`);
+  parts.push(infoboxHtml(fm,title));
+  // TOC goes right before the first h2
+  const toc=tocHtml(r.toc);
+  const firstH=r.out.findIndex(x=>/^<h2/.test(x));
+  if(toc&&firstH>=0) r.out.splice(firstH,0,toc);
+  parts=parts.concat(r.out);
+  if(fm.sources.length) parts.push(referencesHtml(fm.sources));
+  parts.push(connectionsHtml(fm.connections));
+  if(!opts.preview) parts.push(catlinksHtml(fm,path));
+  return {html:parts.join("\n"), title, fm};
+}
+function isEditable(path){
+  return /^wiki\/.+\.md$/.test(path) ||
+    /^(queue|task|contact-review|LLM_HANDOFF)\.md$/.test(path);
+}
+function wireBody(el){
+  el.querySelectorAll("a[data-wiki]").forEach(a=>{
+    const res=resolveWiki(a.dataset.wiki);
+    if(!res.exists){ a.classList.add("new"); a.title=`${a.dataset.wiki} (page does not exist)`; }
+    a.onclick=e=>{
+      e.preventDefault();
+      if(res.exists) openPage(res.path);
+      else if(res.path) openCreate(res.path);
+      else alert("Cannot resolve link target: "+a.dataset.wiki);
+    };
+  });
+  el.querySelectorAll("a[data-page]").forEach(a=>{
+    a.onclick=e=>{e.preventDefault(); openPage(a.dataset.page);};
+  });
+  el.querySelectorAll("a[data-editline]").forEach(a=>{
+    a.onclick=e=>{e.preventDefault(); openEditor({line:+a.dataset.editline});};
+  });
+  el.querySelectorAll("a[data-anchor]").forEach(a=>{
+    a.onclick=e=>{e.preventDefault();
+      const t=document.getElementById(a.dataset.anchor); if(t)t.scrollIntoView({behavior:"smooth"});};
+  });
+  const tt=el.querySelector("#tocToggle");
+  if(tt) tt.onclick=()=>{ const toc=el.querySelector("#toc");
+    toc.classList.toggle("collapsed");
+    tt.textContent=toc.classList.contains("collapsed")?"show":"hide"; };
+}
+
+function setTabs(){
+  $("#ca-view").classList.toggle("selected",MODE==="read");
+  $("#ca-edit").classList.toggle("selected",MODE==="edit");
+  $("#ca-history").classList.toggle("selected",MODE==="history");
+  $("#ca-page").classList.toggle("selected",MODE!=="special");
+  const isSpecial=MODE==="special";
+  $("#ca-edit").style.display=(!isSpecial&&CUR&&isEditable(CUR))?"":"none";
+  $("#ca-history").style.display=isSpecial?"none":"";
+  $("#ca-more").style.display=(!isSpecial&&CUR&&/^wiki\/.+\.md$/.test(CUR)&&!CUR.endsWith("index.md"))?"":"none";
+  $("#ca-talk").className=isSpecial?"disabled":"";
+}
+function showRead(){
+  MODE="read"; CREATING=null;
+  $("#editArea").style.display="none";
+  $("#bodyContent").style.display="block";
+  setTabs();
+}
+
+async function openPage(path, highlight){
+  CUR=path; RAW=null; CREATING=null; MODE="read";
+  if(decodeURIComponent(location.hash.slice(1))!==path)
+    location.hash=encodeURIComponent(path);
+  const r=await api("/api/file?path="+encodeURIComponent(path));
+  const bc=$("#bodyContent");
+  $("#editArea").style.display="none"; bc.style.display="block";
+  $("#contentSub").innerHTML="";
+  $("#siteSub").textContent=path.startsWith("wiki/")
+    ?"From WikiBrain, the personal encyclopedia"
+    :"Project file — "+path;
+  if(r.error){
+    $("#firstHeading").textContent="Error";
+    bc.innerHTML=`<p>${esc(r.error)}</p>`;
+  } else if(r.binary||r.dir||!/\.(md|txt)$/.test(path)){
+    $("#firstHeading").textContent=path.split("/").pop();
+    bc.innerHTML=`<pre>${esc(r.content)}</pre>`;
+    RAW=r.dir?null:r.content;
+  } else {
+    RAW=r.content;
+    const art=articleHtml(r.content, path);
+    $("#firstHeading").innerHTML=esc(art.title);
+    const fmm=art.fm.meta;
+    const bits=[];
+    if(fmm.status) bits.push(`<i>${esc(fmm.status)}</i>`);
+    if(fmm.page_type) bits.push(esc(fmm.page_type));
+    if(fmm.importance) bits.push("importance: "+esc(fmm.importance));
+    $("#contentSub").innerHTML=bits.length?("("+bits.join(" · ")+")"):"";
+    bc.innerHTML=art.html;
+    wireBody(bc);
+    $("#lastmod").textContent=fmm.date_modified
+      ?`This page was last edited on ${fmm.date_modified}. Page size ${RAW.length.toLocaleString()} bytes.`
+      :`Page size ${RAW.length.toLocaleString()} bytes.`;
+    if(highlight){
+      const rx=new RegExp(highlight.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi");
+      bc.querySelectorAll("p,li,td,h2,h3,blockquote").forEach(el=>{
+        if(rx.test(el.textContent)) el.innerHTML=el.innerHTML.replace(rx,m=>`<mark>${m}</mark>`); });
+    }
+  }
+  setTabs();
+  window.scrollTo(0,0);
+}
+
+/* ============================ editor ============================ */
+function openEditor(opts){
+  opts=opts||{};
+  if(RAW===null&&!CREATING) return;
+  MODE="edit"; setTabs();
+  $("#bodyContent").style.display="none";
+  $("#editArea").style.display="block";
+  $("#previewNote").style.display="none"; $("#previewOut").innerHTML="";
+  $("#editMsg").textContent=""; $("#wpSummary").value="";
+  const ta=$("#wpTextbox");
+  ta.value=CREATING?CREATING.template:RAW;
+  $("#firstHeading").textContent=(CREATING?"Creating ":"Editing ")+humanTitle(CUR);
+  $("#siteSub").textContent=CUR;
+  ta.focus();
+  if(opts.line!==undefined){
+    const lines=ta.value.split("\n");
+    let pos=0; for(let i=0;i<Math.min(opts.line,lines.length);i++) pos+=lines[i].length+1;
+    ta.setSelectionRange(pos,pos);
+    const lh=ta.scrollHeight/lines.length;
+    ta.scrollTop=Math.max(0,lh*opts.line-80);
+  }
+  window.scrollTo(0,0);
+}
+function openCreate(path){
+  const today=new Date().toISOString().slice(0,10);
+  const domain=path.split("/")[1]||"people";
+  CUR=path; RAW=null;
+  CREATING={template:
+`---
+domain: ${DOMAINS.includes(domain)?domain:"people"}
+page_type: entity
+status: stub
+date_created: ${today}
+date_modified: ${today}
+sources: []
+---
+
+`};
+  openEditor();
+}
+$("#ca-edit").onclick=()=>{ if(MODE!=="edit") openEditor(); };
+$("#ca-view").onclick=()=>{ if(MODE!=="read"&&CUR) openPage(CUR); };
+$("#wpCancel").onclick=()=>{ if(CREATING){CREATING=null; openPage("index.md");} else openPage(CUR); };
+$("#wpPreview").onclick=()=>{
+  const art=articleHtml($("#wpTextbox").value, CUR, {preview:true});
+  $("#previewNote").style.display="block";
+  const po=$("#previewOut");
+  po.innerHTML=art.html; wireBody(po);
+  window.scrollTo(0,0);
+};
+$("#wpSave").onclick=async()=>{
+  $("#wpSave").disabled=true;
+  const r=await api("/api/save",{method:"POST",body:JSON.stringify(
+    {path:CUR, content:$("#wpTextbox").value, summary:$("#wpSummary").value,
+     create:!!CREATING})});
+  $("#wpSave").disabled=false;
+  if(r.error){$("#editMsg").textContent="⚠ "+r.error; return;}
+  CREATING=null;
+  await refresh(); openPage(CUR); gitRefresh();
+};
+/* toolbar */
+function tbWrap(before,after,placeholder){
+  const ta=$("#wpTextbox");
+  const s=ta.selectionStart, e=ta.selectionEnd;
+  const sel=ta.value.slice(s,e)||placeholder;
+  ta.value=ta.value.slice(0,s)+before+sel+after+ta.value.slice(e);
+  ta.setSelectionRange(s+before.length, s+before.length+sel.length);
+  ta.focus();
+}
+document.querySelectorAll("#editToolbar button").forEach(b=>b.onclick=ev=>{
+  ev.preventDefault();
+  const k=b.dataset.tb;
+  if(k==="bold") tbWrap("**","**","bold text");
+  else if(k==="italic") tbWrap("*","*","italic text");
+  else if(k==="link") tbWrap("[[","]]","wiki/people/page-name");
+  else if(k==="h2") tbWrap("\n## ","\n","Section heading");
+  else if(k==="table") tbWrap("\n| Column | Column |\n|---|---|\n| ", " |  |\n","value");
+  else if(k==="image"){ $("#imgMsg").textContent=""; $("#imgCaption").value="";
+    $("#imgFile").value=""; $("#imageDlg").showModal(); }
+});
+/* image dialog */
+$("#imgCancel").onclick=()=>$("#imageDlg").close();
+$("#imgGo").onclick=async()=>{
+  const f=$("#imgFile").files[0];
+  if(!f){$("#imgMsg").textContent="choose an image file"; return;}
+  $("#imgGo").disabled=true; $("#imgMsg").textContent="uploading…";
+  try{
+    const r=await(await fetch("/api/upload-image",{method:"POST",
+      headers:{"X-Filename":encodeURIComponent(f.name)},body:f})).json();
+    if(r.error){$("#imgMsg").textContent="⚠ "+r.error; return;}
+    const cap_=$("#imgCaption").value.trim(), place=$("#imgPlace").value;
+    let mdTxt;
+    if(place==="inline") mdTxt=`![${cap_}](${r.path}) `;
+    else mdTxt=`\n![${cap_}](${r.path})\n`;   // standalone line renders as a thumb
+    tbWrap("", "", ""); // ensure focus
+    const ta=$("#wpTextbox"), s=ta.selectionStart;
+    ta.value=ta.value.slice(0,s)+mdTxt+ta.value.slice(s);
+    ta.setSelectionRange(s+mdTxt.length,s+mdTxt.length);
+    $("#imageDlg").close();
+  } finally { $("#imgGo").disabled=false; }
+};
+
+/* ============================ history ============================ */
+$("#ca-history").onclick=async()=>{
+  if(!CUR||MODE==="history")return;
+  MODE="history"; setTabs();
+  $("#editArea").style.display="none";
+  const bc=$("#bodyContent"); bc.style.display="block";
+  $("#firstHeading").textContent=humanTitle(CUR)+": Revision history";
+  $("#siteSub").textContent=CUR;
+  $("#contentSub").innerHTML="";
+  bc.innerHTML="<p>Loading history…</p>";
+  const r=await api("/api/history?path="+encodeURIComponent(CUR));
+  if(!r.entries||!r.entries.length){ bc.innerHTML="<p>No recorded revisions for this page (not yet committed).</p>"; return; }
+  bc.innerHTML='<p>Commits touching this page, newest first (from git; renames followed).</p>'+
+    '<ul id="pagehistory">'+r.entries.map(e=>
+      `<li><span class="curprev">${esc(e.hash)}</span>`+
+      `<span class="mw-changeslist-date">${esc(e.date)}</span>`+
+      `<span class="hist-author">${esc(e.author)}</span>`+
+      `<span class="comment">(${esc(e.subject)})</span></li>`).join("")+"</ul>";
+};
+$("#ca-talk").onclick=()=>{
+  if(MODE==="special")return;
+  MODE="read"; setTabs();
+  $("#editArea").style.display="none";
+  const bc=$("#bodyContent"); bc.style.display="block";
+  $("#firstHeading").textContent="Talk: "+(CUR?humanTitle(CUR):"");
+  $("#contentSub").innerHTML="";
+  bc.innerHTML='<p>There is no discussion page in this wiki. Model-to-model coordination happens in '+
+    '<a href="#" data-page="LLM_HANDOFF.md">LLM_HANDOFF.md</a>; operator instructions arrive via '+
+    '<a href="#" data-page="queue.md">queue.md</a> and captures.</p>';
+  wireBody(bc);
+};
+
+/* ============================ move (rename) ============================ */
+$("#ca-move").onclick=()=>{
+  $("#renameFrom").textContent=CUR;
+  $("#renameTo").value=""; $("#renameMsg").textContent="";
+  $("#renameDlg").showModal(); $("#renameTo").focus();
+};
+$("#renameCancel").onclick=()=>$("#renameDlg").close();
+$("#renameGo").onclick=async()=>{
+  const nn=$("#renameTo").value.trim();
+  if(!nn){$("#renameMsg").textContent="enter a new name"; return;}
+  const r=await api("/api/rename",{method:"POST",body:JSON.stringify({path:CUR,newName:nn})});
+  if(r.error){$("#renameMsg").textContent="⚠ "+r.error; return;}
+  $("#renameDlg").close();
+  await refresh(); openPage(r.newPath); gitRefresh();
+  setTimeout(()=>alert(`Moved. ${r.linksUpdated} page(s) had links updated.`),50);
+};
+
+/* ============================ special pages ============================ */
+function specialShell(title, sub){
+  MODE="special"; CUR=null; RAW=null; CREATING=null; setTabs();
+  $("#editArea").style.display="none";
+  const bc=$("#bodyContent"); bc.style.display="block";
+  $("#firstHeading").textContent=title;
+  $("#siteSub").textContent=sub||"Special page";
+  $("#contentSub").innerHTML="";
+  $("#lastmod").textContent="";
+  window.scrollTo(0,0);
+  return bc;
+}
+function showContents(){
+  const bc=specialShell("Special:Contents","All pages by domain");
   const groups={};
   for(const f of TREE.wiki){
     const parts=f.path.split("/");
     const g=parts[1]+(parts.length>3?" / "+parts[2]:"");
     (groups[g]=groups[g]||[]).push(f);
   }
-  const mk=(gname,items,openDefault)=>{
-    const d=document.createElement("details");
-    d.dataset.g=gname;
-    d.open=(gname in open)?open[gname]:openDefault;
-    const s=document.createElement("summary");
-    s.innerHTML=`${esc(gname)}<span class="n">${items.length}</span>`;
-    d.appendChild(s);
-    for(const f of items){
-      const a=document.createElement("a");
-      a.textContent=f.name.replace(/\.md$/,"");
-      a.dataset.path=f.path;
-      if(f.path===CUR)a.classList.add("on");
-      a.onclick=e=>{e.preventDefault();openPage(f.path)};
-      d.appendChild(a);
-    }
-    nav.appendChild(d);
-  };
-  const order=Object.keys(groups).sort();
-  for(const g of order){
+  let h="";
+  for(const g of Object.keys(groups).sort()){
     const items=groups[g].sort((a,b)=>(a.name==="index.md"?-1:b.name==="index.md"?1:a.name<b.name?-1:1));
-    mk(g, items, !g.includes("contacts"));
+    h+=`<h2><span class="mw-headline">${esc(g)} <span style="font-size:70%;color:#72777d">(${items.length})</span></span></h2><ul>`;
+    h+=items.map(f=>`<li><a href="#" data-page="${esc(f.path)}">${esc(humanTitle(f.path))}</a> `+
+      `<span style="color:#72777d;font-size:.85em">${(f.size/1024).toFixed(1)} KB</span></li>`).join("");
+    h+="</ul>";
   }
-  mk("meta", TREE.meta, false);
-  renderInbox();
+  bc.innerHTML=h; wireBody(bc);
+}
+async function showRecent(){
+  const bc=specialShell("Special:RecentChanges","Latest commits in the repository");
+  bc.innerHTML="<p>Loading…</p>";
+  const r=await api("/api/recent");
+  bc.innerHTML='<ul id="pagehistory">'+(r.entries||[]).map(e=>
+    `<li><span class="curprev">${esc(e.hash)}</span>`+
+    `<span class="mw-changeslist-date">${esc(e.date)}</span>`+
+    `<span class="hist-author">${esc(e.author)}</span>`+
+    `<span class="comment">(${esc(e.subject)})</span></li>`).join("")+"</ul>";
+}
+async function showSearch(q){
+  const bc=specialShell("Search results",`Results for "${q}"`);
+  bc.innerHTML="<p>Searching…</p>";
+  const hits=await api("/api/search?q="+encodeURIComponent(q));
+  if(!hits.length){ bc.innerHTML=`<p>There were no results matching the query.</p>`; return; }
+  bc.innerHTML=hits.map(h=>
+    `<div class="mw-search-result">`+
+    `<div class="title"><a href="#" data-page="${esc(h.path)}" data-hl="${esc(q)}">${esc(humanTitle(h.path))}</a></div>`+
+    h.matches.map(m=>`<div class="snippet">…${esc(m.text)}…</div>`).join("")+
+    `<div class="meta">${esc(h.path)} — ${h.count} matching line(s)</div></div>`).join("");
+  bc.querySelectorAll("a[data-page]").forEach(a=>{
+    a.onclick=e=>{e.preventDefault(); openPage(a.dataset.page, a.dataset.hl);};
+  });
+}
+async function showWhatLinks(){
+  if(!CUR||!CUR.startsWith("wiki/")){alert("Open a wiki page first.");return;}
+  const target=CUR.replace(/\.md$/,"");
+  const base=target.split("/").pop();
+  const cur=CUR;
+  const bc=specialShell("Pages that link to "+humanTitle(cur), target);
+  bc.innerHTML="<p>Searching…</p>";
+  const hits=(await api("/api/search?q="+encodeURIComponent(base))).filter(h=>h.path!==cur);
+  bc.innerHTML=hits.length?("<ul>"+hits.map(h=>
+    `<li><a href="#" data-page="${esc(h.path)}">${esc(humanTitle(h.path))}</a> `+
+    `<span style="color:#72777d;font-size:.85em">${esc(h.path)}</span></li>`).join("")+"</ul>")
+    :"<p>No other page mentions this page's name.</p>";
+  wireBody(bc);
+}
+function showTemplate(tplId, title, init){
+  const bc=specialShell(title);
+  bc.innerHTML="";
+  bc.appendChild(document.getElementById(tplId).content.cloneNode(true));
+  init();
+}
+
+/* ============================ sidebar nav ============================ */
+$("#logoHome").onclick=()=>openPage("index.md");
+$("#nav-main").onclick=()=>openPage("index.md");
+$("#nav-contents").onclick=showContents;
+$("#nav-recent").onclick=showRecent;
+$("#nav-random").onclick=()=>{
+  const pool=TREE.wiki.filter(f=>!f.path.endsWith("index.md")&&!f.path.includes("/contacts/"));
+  openPage(pool[Math.floor(Math.random()*pool.length)].path);
+};
+$("#nav-whatlinks").onclick=showWhatLinks;
+$("#nav-capture").onclick=()=>showTemplate("tpl-capture","Special:Capture",initCapture);
+$("#nav-ingest").onclick=()=>showTemplate("tpl-ingest","Special:Ingest",initIngest);
+$("#nav-export").onclick=()=>showTemplate("tpl-export","Special:Export",initExport);
+$("#nav-newpage").onclick=()=>{
+  $("#npMsg").textContent=""; $("#npTitle").value="";
+  $("#newPageDlg").showModal(); $("#npTitle").focus();
+};
+$("#npCancel").onclick=()=>$("#newPageDlg").close();
+$("#npGo").onclick=()=>{
+  const t=$("#npTitle").value.trim();
+  if(!t){$("#npMsg").textContent="enter a title"; return;}
+  const slug=t.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+  if(!slug){$("#npMsg").textContent="title has no usable characters"; return;}
+  const path=`wiki/${$("#npDomain").value}/${slug}.md`;
+  if(PAGES.has(path)){$("#npMsg").textContent="page already exists — opening it"; setTimeout(()=>{$("#newPageDlg").close();openPage(path);},700); return;}
+  $("#newPageDlg").close();
+  openCreate(path);
+};
+
+/* ============================ search box ============================ */
+const sIn=$("#searchInput"), sug=$("#suggestions");
+let sugSel=0, sugItems=[];
+function hideSug(){sug.style.display="none"; sugItems=[];}
+sIn.addEventListener("input",()=>{
+  const q=sIn.value.trim().toLowerCase();
+  if(!q){hideSug();return;}
+  sugItems=TREE.wiki.filter(f=>!f.path.endsWith("/index.md"))
+    .map(f=>({path:f.path,t:humanTitle(f.path)}))
+    .filter(x=>x.t.toLowerCase().includes(q)||x.path.toLowerCase().includes(q))
+    .sort((a,b)=>{
+      const ap=a.t.toLowerCase().startsWith(q)?0:1, bp=b.t.toLowerCase().startsWith(q)?0:1;
+      return ap-bp||a.t.length-b.t.length;})
+    .slice(0,10);
+  if(!sugItems.length){hideSug();return;}
+  sugSel=0;
+  sug.innerHTML=sugItems.map((x,i)=>
+    `<a class="${i===0?'sel':''}" data-i="${i}"><b>${esc(x.t)}</b><span class="d">${esc(x.path.replace(/^wiki\//,"").replace(/\.md$/,""))}</span></a>`).join("");
+  sug.style.display="block";
+  sug.querySelectorAll("a").forEach(a=>{
+    a.onmousedown=e=>{e.preventDefault(); openPage(sugItems[+a.dataset.i].path); hideSug(); sIn.value="";};
+  });
+});
+sIn.addEventListener("keydown",e=>{
+  if(sug.style.display!=="block")return;
+  if(e.key==="ArrowDown"){e.preventDefault();sugSel=Math.min(sugSel+1,sugItems.length-1);}
+  else if(e.key==="ArrowUp"){e.preventDefault();sugSel=Math.max(sugSel-1,0);}
+  else if(e.key==="Escape"){hideSug();return;}
+  else return;
+  sug.querySelectorAll("a").forEach((a,i)=>a.classList.toggle("sel",i===sugSel));
+});
+sIn.addEventListener("blur",()=>setTimeout(hideSug,150));
+$("#searchForm").onsubmit=e=>{
+  e.preventDefault();
+  const q=sIn.value.trim(); if(!q)return;
+  if(sug.style.display==="block"&&sugItems[sugSel]){ openPage(sugItems[sugSel].path); }
+  else showSearch(q);
+  hideSug(); sIn.value="";
+};
+
+/* ============================ tree / git ============================ */
+async function refresh(){
+  TREE=await api("/api/tree");
+  PAGES=new Set(TREE.wiki.map(f=>f.path));
+  $("#inboxN").textContent=TREE.inbox.length?`(${TREE.inbox.length})`:"";
+  const dl=$("#domainList"); dl.innerHTML="";
+  for(const d of DOMAINS){
+    const n=TREE.wiki.filter(f=>f.path.startsWith("wiki/"+d+"/")).length;
+    if(!n)continue;
+    const li=document.createElement("li");
+    li.innerHTML=`<a>${cap(d)}</a> <span class="cnt">${n}</span>`;
+    li.querySelector("a").onclick=()=>openPage(`wiki/${d}/index.md`);
+    dl.appendChild(li);
+  }
+  const ml=$("#metaList"); ml.innerHTML="";
+  for(const f of TREE.meta){
+    if(f.path==="index.md")continue;
+    const li=document.createElement("li");
+    li.innerHTML=`<a>${esc(f.name)}</a>`;
+    li.querySelector("a").onclick=()=>openPage(f.path);
+    ml.appendChild(li);
+  }
 }
 async function gitRefresh(){
   const g=await api("/api/git/status");
@@ -734,209 +1614,152 @@ async function gitRefresh(){
   if(g.behind)bits.push(`↓${g.behind}`);
   if(!g.dirty&&!g.ahead&&!g.behind)bits.push("in sync");
   $("#gitPill").innerHTML=bits.join(" · ");
-  $("#pubWarn").style.display=(g.public===true)?"block":"none";
+  $("#siteNotice").style.display=(g.public===true)?"block":"none";
 }
-$("#syncBtn").onclick=async()=>{
-  $("#syncBtn").disabled=true; $("#syncBtn").textContent="Syncing…";
+$("#syncLink").onclick=async()=>{
+  $("#syncLink").textContent="Syncing…";
   const g=await api("/api/git/status");
   if(g.public===true && !confirm("The GitHub repo is PUBLIC. Push anyway?")){
-    $("#syncBtn").disabled=false; $("#syncBtn").textContent="Sync"; return; }
+    $("#syncLink").textContent="Sync"; return; }
   const msg=g.dirty?prompt("Commit message for local changes:","edit: app sync"):"";
-  if(g.dirty&&msg===null){ $("#syncBtn").disabled=false; $("#syncBtn").textContent="Sync"; return; }
+  if(g.dirty&&msg===null){ $("#syncLink").textContent="Sync"; return; }
   const r=await api("/api/git/sync",{method:"POST",body:JSON.stringify({message:msg})});
   alert(r.message);
-  $("#syncBtn").disabled=false; $("#syncBtn").textContent="Sync";
+  $("#syncLink").textContent="Sync";
   gitRefresh();
 };
 
-/* ---------- page view / edit / rename ---------- */
-async function openPage(path, highlight){
-  CUR=path; RAW=null;
-  $("#editor").style.display="none"; $("#content").style.display="block";
-  document.querySelectorAll("#side a").forEach(a=>a.classList.toggle("on",a.dataset.path===path));
-  const r=await api("/api/file?path="+encodeURIComponent(path));
-  $("#crumb").textContent=path;
-  const editable=/^wiki\/.+\.md$/.test(path)&&!r.error&&!r.binary&&!r.dir;
-  $("#editBtn").classList.toggle("hidden",!(editable||/^(queue|task|contact-review|LLM_HANDOFF)\.md$/.test(path)));
-  $("#renameBtn").classList.toggle("hidden",!editable||path.endsWith("index.md"));
-  let html="";
-  if(r.error) html=`<p>${esc(r.error)}</p>`;
-  else if(r.binary||r.dir||!/\.(md|txt)$/.test(path)) html=`<pre>${esc(r.content)}</pre>`;
-  else html=md(r.content);
-  if(!r.error&&!r.binary&&!r.dir) RAW=r.content;
-  const c=$("#content"); c.innerHTML=html;
-  if(highlight){ const rx=new RegExp(highlight.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi");
-    c.querySelectorAll("p,li,td,h1,h2,h3,blockquote").forEach(el=>{
-      if(rx.test(el.textContent)) el.innerHTML=el.innerHTML.replace(rx,m=>`<mark>${m}</mark>`); }); }
-  c.scrollTop=0;
-  c.querySelectorAll("a[data-wiki]").forEach(a=>a.onclick=e=>{
-    e.preventDefault(); let t=a.dataset.wiki;
-    if(!/\.md$/.test(t)) t+=".md";
-    const hit=TREE.wiki.concat(TREE.meta).find(f=>f.path===t||f.path.endsWith("/"+t));
-    openPage(hit?hit.path:t); });
-  // ensure wiki tab visible
-  document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.tab==="wikiTab"));
-  document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("hidden",t.id!=="wikiTab"));
-}
-$("#editBtn").onclick=()=>{
-  if(RAW===null)return;
-  $("#editTa").value=RAW;
-  $("#content").style.display="none"; $("#editor").style.display="flex";
-  $("#editMsg").textContent=""; $("#editTa").focus(); };
-$("#editCancel").onclick=()=>openPage(CUR);
-$("#editSave").onclick=async()=>{
-  const r=await api("/api/save",{method:"POST",body:JSON.stringify({path:CUR,content:$("#editTa").value})});
-  if(r.error){$("#editMsg").textContent="⚠ "+r.error; return;}
-  await refresh(); openPage(CUR); gitRefresh(); };
-
-$("#renameBtn").onclick=()=>{
-  $("#renameFrom").textContent=CUR;
-  $("#renameTo").value=""; $("#renameMsg").textContent="";
-  $("#renameDlg").showModal(); $("#renameTo").focus(); };
-$("#renameCancel").onclick=()=>$("#renameDlg").close();
-$("#renameGo").onclick=async()=>{
-  const nn=$("#renameTo").value.trim();
-  if(!nn){$("#renameMsg").textContent="enter a new name"; return;}
-  const r=await api("/api/rename",{method:"POST",body:JSON.stringify({path:CUR,newName:nn})});
-  if(r.error){$("#renameMsg").textContent="⚠ "+r.error; return;}
-  $("#renameDlg").close();
-  await refresh(); openPage(r.newPath); gitRefresh();
-  setTimeout(()=>alert(`Renamed. ${r.linksUpdated} page(s) had links updated.`),50); };
-
-/* ---------- search ---------- */
-let debounce=null;
-$("#q").oninput=()=>{ clearTimeout(debounce);
-  const q=$("#q").value.trim();
-  if(!q){ if(CUR)openPage(CUR); return; }
-  debounce=setTimeout(async()=>{
-    const hits=await api("/api/search?q="+encodeURIComponent(q));
-    $("#crumb").textContent=`search: ${q}`;
-    $("#editBtn").classList.add("hidden"); $("#renameBtn").classList.add("hidden");
-    $("#editor").style.display="none"; $("#content").style.display="block";
-    const c=$("#content");
-    c.innerHTML=(hits.length?"":"<p style='color:var(--muted)'>No matches.</p>")+
-      hits.map((h,i)=>`<div class="hit" data-i="${i}"><div class="p">${esc(h.path)}</div>`+
-        h.matches.map(m=>`<div class="l">${m.line}: ${esc(m.text)}</div>`).join("")+
-        (h.count>5?`<div class="l">…${h.count-5} more</div>`:"")+`</div>`).join("");
-    c.querySelectorAll(".hit").forEach(el=>el.onclick=()=>openPage(hits[el.dataset.i].path,q));
-  },250); };
-
-/* ---------- capture (@-autocomplete + upload) ---------- */
+/* ============================ special: capture ============================ */
 let TGT=new Set(), acSel=0, acMatches=[], acStart=-1;
-const body=$("#cBody"), ac=$("#ac");
-function pageList(){ return TREE?TREE.wiki.map(f=>f.path.replace(/\.md$/,"")):[]; }
-function renderTargets(){
-  const el=$("#targets"); el.innerHTML="";
-  for(const t of TGT){
-    const c=document.createElement("span"); c.className="tchip";
-    c.innerHTML=`<b>@${esc(t.split("/").pop().replace(/\.md$/,""))}</b> <span style="color:var(--muted)">${esc(t)}</span><button>✕</button>`;
-    c.querySelector("button").onclick=()=>{TGT.delete(t);renderTargets()};
-    el.appendChild(c); } }
-function hideAc(){ ac.style.display="none"; acMatches=[]; acStart=-1; }
-function showAc(q){
-  const ql=q.toLowerCase();
-  acMatches=pageList().filter(p=>p.toLowerCase().includes(ql))
-    .sort((a,b)=>{
-      const an=a.split("/").pop().toLowerCase().startsWith(ql)?0:1;
-      const bn=b.split("/").pop().toLowerCase().startsWith(ql)?0:1;
-      return an-bn||a.length-b.length; }).slice(0,8);
-  if(!acMatches.length){ hideAc(); return; }
-  acSel=0;
-  ac.innerHTML=acMatches.map((p,i)=>
-    `<div class="${i===0?"sel":""}" data-i="${i}"><b>${esc(p.split("/").pop())}</b><span class="d">${esc(p)}</span></div>`).join("");
-  ac.style.display="block";
-  ac.style.top=Math.min(body.offsetHeight,160)+"px";
-  ac.querySelectorAll("div[data-i]").forEach(d=>{
-    d.onmousedown=e=>{e.preventDefault();pickAc(+d.dataset.i)};
-    d.onmouseover=()=>{acSel=+d.dataset.i;paintAc()}; }); }
-function paintAc(){ ac.querySelectorAll("div[data-i]").forEach((d,i)=>d.classList.toggle("sel",i===acSel)); }
-function pickAc(i){
-  const p=acMatches[i]; if(!p)return;
-  const short="@"+p.split("/").pop();
-  body.value=body.value.slice(0,acStart)+short+body.value.slice(body.selectionStart);
-  const pos=acStart+short.length;
-  body.setSelectionRange(pos,pos); body.focus();
-  TGT.add(p+".md"); renderTargets(); hideAc(); }
-body.addEventListener("input",()=>{
-  const caret=body.selectionStart, text=body.value;
-  const at=text.lastIndexOf("@",caret-1);
-  if(at<0||(at>0&&/[\w/]/.test(text[at-1]))){ hideAc(); return; }
-  const q=text.slice(at+1,caret);
-  if(/[\s@]/.test(q)||q.length>60){ hideAc(); return; }
-  acStart=at; showAc(q); });
-body.addEventListener("keydown",e=>{
-  if(ac.style.display!=="block")return;
-  if(e.key==="ArrowDown"){e.preventDefault();acSel=Math.min(acSel+1,acMatches.length-1);paintAc();}
-  else if(e.key==="ArrowUp"){e.preventDefault();acSel=Math.max(acSel-1,0);paintAc();}
-  else if(e.key==="Enter"||e.key==="Tab"){e.preventDefault();pickAc(acSel);}
-  else if(e.key==="Escape"){hideAc();} });
-body.addEventListener("blur",()=>setTimeout(hideAc,150));
-$("#cSave").onclick=async()=>{
-  const r=await api("/api/capture",{method:"POST",body:JSON.stringify(
-    {title:$("#cTitle").value, body:$("#cBody").value, tags:$("#cTags").value, targets:[...TGT]})});
-  $("#cMsg").textContent=r.error?("⚠ "+r.error):`✓ saved ${r.saved} (${r.words} words, ${r.kind})`;
-  if(!r.error){ $("#cTitle").value=$("#cBody").value=$("#cTags").value=""; TGT.clear(); renderTargets(); refresh(); } };
-const drop=$("#drop"), pick=$("#filePick");
-drop.onclick=()=>pick.click();
-drop.ondragover=e=>{e.preventDefault();drop.classList.add("over")};
-drop.ondragleave=()=>drop.classList.remove("over");
-drop.ondrop=e=>{e.preventDefault();drop.classList.remove("over");upload(e.dataTransfer.files)};
-pick.onchange=()=>upload(pick.files);
-async function upload(files){
-  for(const f of files){
-    $("#uMsg").textContent=`uploading ${f.name}…`;
-    const r=await(await fetch("/api/upload",{method:"POST",
-      headers:{"X-Filename":encodeURIComponent(f.name)},body:f})).json();
-    $("#uMsg").textContent=r.error?("⚠ "+r.error):`✓ ${r.saved}`; }
-  refresh(); }
+function initCapture(){
+  TGT=new Set(); acSel=0; acMatches=[]; acStart=-1;
+  const body=$("#cBody"), ac=$("#ac");
+  const pageList=()=>TREE?TREE.wiki.map(f=>f.path.replace(/\.md$/,"")):[];
+  const renderTargets=()=>{
+    const el=$("#targets"); el.innerHTML="";
+    for(const t of TGT){
+      const c=document.createElement("span"); c.className="tchip";
+      c.innerHTML=`<b>@${esc(t.split("/").pop().replace(/\.md$/,""))}</b> <span style="color:#72777d">${esc(t)}</span><button>✕</button>`;
+      c.querySelector("button").onclick=()=>{TGT.delete(t);renderTargets()};
+      el.appendChild(c); } };
+  const hideAc=()=>{ ac.style.display="none"; acMatches=[]; acStart=-1; };
+  const paintAc=()=>ac.querySelectorAll("div[data-i]").forEach((d,i)=>d.classList.toggle("sel",i===acSel));
+  const pickAc=i=>{
+    const p=acMatches[i]; if(!p)return;
+    const short="@"+p.split("/").pop();
+    body.value=body.value.slice(0,acStart)+short+body.value.slice(body.selectionStart);
+    const pos=acStart+short.length;
+    body.setSelectionRange(pos,pos); body.focus();
+    TGT.add(p+".md"); renderTargets(); hideAc(); };
+  const showAc=q=>{
+    const ql=q.toLowerCase();
+    acMatches=pageList().filter(p=>p.toLowerCase().includes(ql))
+      .sort((a,b)=>{
+        const an=a.split("/").pop().toLowerCase().startsWith(ql)?0:1;
+        const bn=b.split("/").pop().toLowerCase().startsWith(ql)?0:1;
+        return an-bn||a.length-b.length; }).slice(0,8);
+    if(!acMatches.length){ hideAc(); return; }
+    acSel=0;
+    ac.innerHTML=acMatches.map((p,i)=>
+      `<div class="${i===0?"sel":""}" data-i="${i}"><b>${esc(p.split("/").pop())}</b><span class="d">${esc(p)}</span></div>`).join("");
+    ac.style.display="block";
+    ac.style.top=Math.min(body.offsetHeight,160)+"px";
+    ac.querySelectorAll("div[data-i]").forEach(d=>{
+      d.onmousedown=e=>{e.preventDefault();pickAc(+d.dataset.i)};
+      d.onmouseover=()=>{acSel=+d.dataset.i;paintAc()}; }); };
+  body.addEventListener("input",()=>{
+    const caret=body.selectionStart, text=body.value;
+    const at=text.lastIndexOf("@",caret-1);
+    if(at<0||(at>0&&/[\w/]/.test(text[at-1]))){ hideAc(); return; }
+    const q=text.slice(at+1,caret);
+    if(/[\s@]/.test(q)||q.length>60){ hideAc(); return; }
+    acStart=at; showAc(q); });
+  body.addEventListener("keydown",e=>{
+    if(ac.style.display!=="block")return;
+    if(e.key==="ArrowDown"){e.preventDefault();acSel=Math.min(acSel+1,acMatches.length-1);paintAc();}
+    else if(e.key==="ArrowUp"){e.preventDefault();acSel=Math.max(acSel-1,0);paintAc();}
+    else if(e.key==="Enter"||e.key==="Tab"){e.preventDefault();pickAc(acSel);}
+    else if(e.key==="Escape"){hideAc();} });
+  body.addEventListener("blur",()=>setTimeout(hideAc,150));
+  $("#cSave").onclick=async()=>{
+    const r=await api("/api/capture",{method:"POST",body:JSON.stringify(
+      {title:$("#cTitle").value, body:$("#cBody").value, tags:$("#cTags").value, targets:[...TGT]})});
+    $("#cMsg").textContent=r.error?("⚠ "+r.error):`✓ saved ${r.saved} (${r.words} words, ${r.kind})`;
+    if(!r.error){ $("#cTitle").value=$("#cBody").value=$("#cTags").value=""; TGT.clear(); renderTargets(); refresh(); } };
+  const drop=$("#drop"), pick=$("#filePick");
+  const upload=async files=>{
+    for(const f of files){
+      $("#uMsg").textContent=`uploading ${f.name}…`;
+      const r=await(await fetch("/api/upload",{method:"POST",
+        headers:{"X-Filename":encodeURIComponent(f.name)},body:f})).json();
+      $("#uMsg").textContent=r.error?("⚠ "+r.error):`✓ ${r.saved}`; }
+    refresh(); };
+  drop.onclick=()=>pick.click();
+  drop.ondragover=e=>{e.preventDefault();drop.classList.add("over")};
+  drop.ondragleave=()=>drop.classList.remove("over");
+  drop.ondrop=e=>{e.preventDefault();drop.classList.remove("over");upload(e.dataTransfer.files)};
+  pick.onchange=()=>upload(pick.files);
+}
 
-/* ---------- ingest ---------- */
-function renderInbox(){
-  const el=$("#inboxList"); el.innerHTML="";
-  if(!TREE.inbox.length){ el.innerHTML="<p style='color:var(--muted); font-size:13.5px'>Inbox is empty.</p>"; $("#packBtn").disabled=true; return; }
-  for(const f of TREE.inbox){
-    const d=document.createElement("div"); d.className="inb"+(f.path===SEL_INBOX?" sel":"");
-    d.innerHTML=`<span class="nm">${esc(f.name)}</span><span class="sz">${f.size.toLocaleString()} B</span><button title="delete">✕</button>`;
-    d.onclick=e=>{
-      if(e.target.tagName==="BUTTON")return;
-      SEL_INBOX=f.path; renderInbox(); $("#packBtn").disabled=false;
-      $("#packMsg").textContent=""; $("#packOut").classList.add("hidden"); $("#copyBtn").classList.add("hidden"); };
-    d.querySelector("button").onclick=async()=>{
-      if(!confirm(`Delete ${f.name}? This cannot be undone.`))return;
-      await api("/api/delete-inbox",{method:"POST",body:JSON.stringify({path:f.path})});
-      if(SEL_INBOX===f.path)SEL_INBOX=null;
-      refresh(); };
-    el.appendChild(d); }
-  $("#packBtn").disabled=!SEL_INBOX; }
-$("#packBtn").onclick=async()=>{
-  $("#packBtn").disabled=true; $("#packMsg").textContent="packing…";
-  const r=await api("/api/ingest/pack",{method:"POST",body:JSON.stringify({item:SEL_INBOX.replace(/^inbox\//,"")})});
-  $("#packBtn").disabled=false;
-  $("#packMsg").textContent=r.ok?r.message.split("\n").slice(0,2).join(" · "):("⚠ "+r.message);
-  if(r.ok){ $("#packOut").value=r.prompt; $("#packOut").classList.remove("hidden");
-    $("#copyBtn").classList.remove("hidden"); } };
-$("#copyBtn").onclick=async()=>{
-  await navigator.clipboard.writeText($("#packOut").value);
-  $("#copyBtn").textContent="✓ Copied"; setTimeout(()=>$("#copyBtn").textContent="Copy prompt to clipboard",1500); };
-$("#applyBtn").onclick=async()=>{
-  $("#applyBtn").disabled=true; $("#applyMsg").textContent="applying…";
-  const r=await api("/api/ingest/apply",{method:"POST",body:JSON.stringify(
-    {response:$("#applyIn").value, commit:$("#applyCommit").checked})});
-  $("#applyBtn").disabled=false;
-  $("#applyMsg").textContent=(r.ok?"✓\n":"⚠\n")+(r.message||r.error||"");
-  if(r.ok){ $("#applyIn").value=""; SEL_INBOX=null; refresh(); gitRefresh(); } };
+/* ============================ special: ingest ============================ */
+let SEL_INBOX=null;
+function initIngest(){
+  SEL_INBOX=null;
+  const renderInbox=()=>{
+    const el=$("#inboxList"); if(!el)return;
+    el.innerHTML="";
+    if(!TREE.inbox.length){ el.innerHTML="<p style='color:#72777d'>Inbox is empty.</p>"; $("#packBtn").disabled=true; return; }
+    for(const f of TREE.inbox){
+      const d=document.createElement("div"); d.className="inb"+(f.path===SEL_INBOX?" sel":"");
+      d.innerHTML=`<span class="nm">${esc(f.name)}</span><span class="sz">${f.size.toLocaleString()} B</span><button title="delete">✕</button>`;
+      d.onclick=e=>{
+        if(e.target.tagName==="BUTTON")return;
+        SEL_INBOX=f.path; renderInbox(); $("#packBtn").disabled=false;
+        $("#packMsg").textContent=""; $("#packOut").style.display="none"; $("#copyBtn").style.display="none"; };
+      d.querySelector("button").onclick=async()=>{
+        if(!confirm(`Delete ${f.name}? This cannot be undone.`))return;
+        await api("/api/delete-inbox",{method:"POST",body:JSON.stringify({path:f.path})});
+        if(SEL_INBOX===f.path)SEL_INBOX=null;
+        await refresh(); renderInbox(); };
+      el.appendChild(d); }
+    $("#packBtn").disabled=!SEL_INBOX; };
+  renderInbox();
+  $("#packBtn").onclick=async()=>{
+    $("#packBtn").disabled=true; $("#packMsg").textContent="packing…";
+    const r=await api("/api/ingest/pack",{method:"POST",body:JSON.stringify({item:SEL_INBOX.replace(/^inbox\//,"")})});
+    $("#packBtn").disabled=false;
+    $("#packMsg").textContent=r.ok?r.message.split("\n").slice(0,2).join(" · "):("⚠ "+r.message);
+    if(r.ok){ $("#packOut").value=r.prompt; $("#packOut").style.display="block";
+      $("#copyBtn").style.display="inline-block"; } };
+  $("#copyBtn").onclick=async()=>{
+    await navigator.clipboard.writeText($("#packOut").value);
+    $("#copyBtn").textContent="✓ Copied"; setTimeout(()=>{const b=$("#copyBtn"); if(b)b.textContent="Copy prompt to clipboard";},1500); };
+  $("#applyBtn").onclick=async()=>{
+    $("#applyBtn").disabled=true; $("#applyMsg").textContent="applying…";
+    const r=await api("/api/ingest/apply",{method:"POST",body:JSON.stringify(
+      {response:$("#applyIn").value, commit:$("#applyCommit").checked})});
+    $("#applyBtn").disabled=false;
+    $("#applyMsg").textContent=(r.ok?"✓\n":"⚠\n")+(r.message||r.error||"");
+    if(r.ok){ $("#applyIn").value=""; SEL_INBOX=null; await refresh(); renderInbox(); gitRefresh(); } };
+}
 
-/* ---------- export ---------- */
-$("#eGo").onclick=async()=>{
-  $("#eGo").disabled=true; $("#eMsg").textContent="exporting…";
-  const r=await api("/api/export",{method:"POST",body:JSON.stringify(
-    {domain:$("#eDomain").value, raw:$("#eRaw").checked, inbox:$("#eInbox").checked})});
-  $("#eGo").disabled=false;
-  $("#eMsg").innerHTML=esc(r.message)+(r.file?
-    `<br><a href="/api/download?path=${encodeURIComponent(r.file)}" style="color:var(--accent)">⬇ download</a>`:""); };
+/* ============================ special: export ============================ */
+function initExport(){
+  $("#eGo").onclick=async()=>{
+    $("#eGo").disabled=true; $("#eMsg").textContent="exporting…";
+    const r=await api("/api/export",{method:"POST",body:JSON.stringify(
+      {domain:$("#eDomain").value, raw:$("#eRaw").checked, inbox:$("#eInbox").checked})});
+    $("#eGo").disabled=false;
+    $("#eMsg").innerHTML=esc(r.message)+(r.file?
+      `<br><a href="/api/download?path=${encodeURIComponent(r.file)}">⬇ download</a>`:""); };
+}
 
-/* ---------- boot ---------- */
-refresh().then(()=>openPage("index.md"));
+/* ============================ boot ============================ */
+window.addEventListener("hashchange",()=>{
+  const p=decodeURIComponent(location.hash.slice(1));
+  if(p&&p!==CUR&&MODE!=="edit") openPage(p);
+});
+refresh().then(()=>openPage(decodeURIComponent(location.hash.slice(1))||"index.md"));
 gitRefresh(); setInterval(gitRefresh, 120000);
 </script>
 </body>
