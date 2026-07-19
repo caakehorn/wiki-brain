@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 date_range_start: 2025-09-01
 date_range_end: 2025-12-10
 sources: ["raw/people/kristin/chimera-genesis-addendum.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
@@ -17,6 +17,9 @@ infobox:
   first_contact: 2025-09-01
   known_for: "Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] as 'Tom's friend.' She became Dan's most "
 connections:
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: component-of
+    claim: "The 2025 relationship is the arrangement's documented inversion — total-exclusivity demands and purity tests where the Annie structure practiced authored openness."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: component-of
     claim: "Kristin's Dec 9 2025 block of Dan held permanently — the loop's inbound control case: her severance was structural because she needed nothing from the channel."

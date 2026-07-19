@@ -5,7 +5,7 @@ title: "The Eli Incident"
 importance: critical
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-19
 infobox:
   name: The Eli Incident
   type: Relationship rupture
@@ -25,18 +25,20 @@ sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx
   - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
-related:
-  - wiki/people/annie-ulmer
-  - wiki/mind/concepts/attachment-model
-  - wiki/mind/concepts/conflict-architecture
-  - wiki/mind/psychosexual/orchestration-and-voyeurism
-  - wiki/mind/psychosexual/emotional-imprinting
-  - wiki/people/eli
 tags: [infidelity, trauma-bond, nyc-era]
 connections:
+  - page: wiki/mind/concepts/node-locking
+    type: evidenced-by
+    claim: "The selective Eli purge at every AI export boundary measures this event's severity in Dan's own curation behavior — the one node too loaded to propagate."
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "The discovery sequence documented here is the first pillar of the fallout verdict's concealed-affair finding."
+  - page: wiki/mind/concepts/attachment-model
+    type: evidences
+    claim: "The concealment is the attachment model's live stress test: sustained deception answered with 'your suspicions are insane,' keeping the contradiction flagged as anomaly rather than closing the model."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: evidences
+    claim: "The affair put the conflict engine in its worst documented mode — accurate forensic detection reframed as paranoia by the person deceiving it, the machine's correct outputs weaponized against its operator."
 ---
 
 

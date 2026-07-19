@@ -6,7 +6,7 @@ aliases: ["5w4", "sx/sp", "social-blind", "remote intimacy"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -18,6 +18,9 @@ related:
   - wiki/people/annie-ulmer
 tags: [personality-profile, addiction-recovery]
 connections:
+  - page: wiki/mind/psychosexual/developmental-origins
+    type: parallels
+    claim: "The sx/sp fusion-or-annihilation stacking arrives at the same total-intensity relational prediction the developmental accounts reach from attachment trauma and cultural imprinting — independent-framework convergence."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: instantiates
     claim: "The 2015 switch is the sx/sp stack's logic executed in real time."

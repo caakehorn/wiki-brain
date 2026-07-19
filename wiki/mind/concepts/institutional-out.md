@@ -5,16 +5,25 @@ title: "The Institutional Out"
 aliases: ["migraine protocol", "strategic absenteeism", "night class alibi"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 sources:
   - raw/self/dansynth/FromSidewalkShedtoAnalyticalProwess.md
   - raw/self/dansynth/AuZaatarsFinalShift.md
-related:
-  - wiki/work/au-zaatar
-  - wiki/work/bfs-foods
-  - wiki/mind/synthesis/vertical-authority-skepticism
-  - wiki/mind/profile/big-five-psychometrics
 tags: [personality-profile, nyc-era]
+connections:
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: instance-of
+    claim: "The pre-installed escape mechanism is the workplace expression of the architecture that refuses every vertical claim on his time — the same refusal, deployed on hire as protocol."
+  - page: wiki/work/au-zaatar
+    type: evidenced-by
+    claim: "The night-class alibi — a fictitious 9pm college schedule held for over a year, securing peak shifts while exempting him from closing — is the protocol's documented masterpiece."
+  - page: wiki/work/bfs-foods
+    type: parallels
+    claim: "The BFS posture and the out share one game-theoretic instinct — engage the institution only through mechanisms it cannot verify or contest — run from opposite sides of the ledger."
+  - page: wiki/people/valeria-iglesias-cid
+    type: co-occurs
+    claim: "The night-class fiction doubled as cover for the Valeria affair — one unfalsifiable alibi serving the labor extraction and the concealment simultaneously."
+
 ---
 
 # The Institutional Out

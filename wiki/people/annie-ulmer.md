@@ -87,12 +87,24 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/mind/concepts/node-locking
+    type: evidenced-by
+    claim: "The master node set Dan locks across AI sessions — the Loop, the Signals, Separation Logistics — is his own curated minimal model of this relationship's collapse, evidence of which facts he treated as load-bearing."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: component-of
+    claim: "Annie is the constant across every documented arrangement instance — the architecture is structurally a property of this relationship, from the 2016 jealousy-kink baseline through smashonista to the 2019 paid-model window."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: component-of
     claim: "The 127/110 exit-relapse record is the loop's central case, and the March 2026 fight shows Annie running the same block-unblock operation back at Dan — the loop is bidirectional inside the bond."
   - page: wiki/people/nick-mattie
     type: evidenced-by
     claim: "The May 2, 2017 Nick Mattie handoff — product left with Annie after she messaged him on Facebook — dates her supply-logistics facilitation a full year before the documented 2018–19 Johnny-era role."
+  - page: wiki/mind/concepts/attachment-model
+    type: evidences
+    claim: "The ten-year Annie corpus is the attachment model's quantitative base: 0 explicit severance signals across 41,073 of her messages, the 187-of-191 affection-to-request pairing, 24 alibis, 13 unchanged-behavior apologies."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: evidences
+    claim: "The Annie corpus is the conflict engine's fingerprint at full load: the 74/17/11 abuse triad, 127/110 exit-relapse record, 94 silence-preceded bursts, and the terminal-phase volume asymmetry."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "The ~$119–123K net payment-app outflow to Annie is the money spine's largest documented drain — roughly the size of the entire estate distribution, exiting through the relationship over the decade."

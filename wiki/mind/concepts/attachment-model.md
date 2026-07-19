@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -11,13 +11,20 @@ sources:
   - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/all_imessages_complete_dump.txt
-related:
-  - wiki/people/annie-ulmer
-  - wiki/timeline/events/eli-incident
-  - wiki/timeline/events/group-chat-closure
-  - wiki/self/facebook
 tags: [relationships, attachment, addiction-recovery, trauma-bond, infidelity]
 connections:
+  - page: wiki/mind/psychosexual/emotional-imprinting
+    type: parallels
+    claim: "'Crush activation on contact' with no off switch and this model's no-counter-rule architecture are structurally identical claims from independent source bases — dossier theory and primary corpus converging."
+  - page: wiki/people/rick-frank
+    type: caused-by
+    claim: "The 2005 rupture — a trusted primary figure maintaining a concealed alternate reality — is the documented template the model replicates: the Annie decade re-ran the same structure of verbal assurance over sustained concealment."
+  - page: wiki/people/annie-ulmer
+    type: evidenced-by
+    claim: "The ten-year Annie corpus is the model's quantitative base: 0 explicit severance signals across 41,073 of her messages (primary-verified), the 187-of-191 affection-to-request pairing, 24 'fell asleep' alibis, and 13 self-indicting apologies with unchanged behavior."
+  - page: wiki/timeline/events/eli-incident
+    type: evidenced-by
+    claim: "The concealed Eli relationship is the model's live stress test: sustained deception answered with 'your suspicions are insane' — the systematic-attack-on-reality layer that kept the contradiction flagged as anomaly rather than closing the model."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: causes
     claim: "The model's 299:0 affirmation-to-severance asymmetry is why declared exits cannot hold: a system with no vocabulary for 'closed' can only toggle channel state and wait for the dependency to decide."
@@ -33,6 +40,9 @@ connections:
   - page: wiki/mind/synthesis/message-circadian-latency
     type: evidenced-by
     claim: "The reply-latency analysis renders this model as a timing series: uniform near-instant outbound, inbound delay scaling with peripherality."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: mirrors
+    claim: "The conflict engine demands resolution while the attachment model cannot issue severance — mutually amplifying architectures with no shared halt condition, recorded in conflict-architecture's paired CONTRADICTION blocks."
 ---
 
 

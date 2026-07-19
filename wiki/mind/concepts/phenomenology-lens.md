@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-19
 sources:
   - raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md
   - raw/self/dox-scan/fullcombo_2.txt
@@ -14,21 +14,26 @@ sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
   - ingest/PHENOMENOLOGY_LENS.md
-related:
-  - wiki/self/overview
-  - wiki/mind/concepts/conflict-architecture
-  - wiki/mind/concepts/attachment-model
-  - wiki/mind/concepts/contact-gini
-  - wiki/people/annie-ulmer
-  - wiki/timeline/events/eli-incident
-  - wiki/self/twitter
-  - wiki/self/favorites
-  - wiki/self/facebook
-  - wiki/timeline/periods/2015-2016-annie-relationship-start
-  - wiki/timeline/periods/2025-collapse
-  - wiki/self/context-core
-  - wiki/mind/synthesis/ai-collaborative-analysis
 tags: [addiction-recovery, relationships, trauma-bond, grief, forensic-analysis]
+connections:
+  - page: wiki/people/annie-ulmer
+    type: contextualizes
+    claim: "The 'Annie Loop' is the lens's interpretive rendering of the terminal phase — withdraw → raw texts → vague apology → escalation → shutdown → return — correlating with the 94 documented burst events uniformly preceded by her silence."
+  - page: wiki/people/alexis-armel
+    type: contextualizes
+    claim: "The lens names the 2009–15 Alexis collapse as the second encoding event of the trauma memory — the seed, after 2005, of the axioms 'intimacy leads to abandonment' and 'loyalty is always conditional.'"
+  - page: wiki/people/rick-frank
+    type: contextualizes
+    claim: "The 2004–05 parental rupture is the lens's first encoding event — the origin of the Si-carried pattern by which old betrayals get replayed onto new situations without warning."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: parallels
+    claim: "The self-sabotage loop (insight → rupture → more insight) is the lens-language rendering of the conflict engine's no-halt-condition mechanics — same machine, metaphorical register."
+  - page: wiki/mind/concepts/attachment-model
+    type: contextualizes
+    claim: "The relational loop (hunger → fusion → contamination → amputation) is the interpretive overlay on the attachment model's quantified base — the love-to-request sequences and burst events read as narrative."
+  - page: wiki/self/context-core
+    type: component-of
+    claim: "The lens is formally subordinate to the behavioral spine: an interpretive overlay that must yield to context-core's hard counts and timelines wherever they disagree — the subordination itself is the load-bearing rule."
 ---
 
 # Phenomenology Lens

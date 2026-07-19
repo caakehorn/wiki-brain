@@ -4,19 +4,32 @@ page_type: concept
 title: "Developmental Origins"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 knowledge: mixed
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
-related:
-  - wiki/mind/psychosexual/index
-  - wiki/mind/concepts/attachment-model
-  - wiki/people/rick-frank
-  - wiki/people/suzanne-frank
-  - wiki/mind/profile/enneagram-5w4
-  - wiki/timeline/periods/full-sail-2008-2010
 tags: [relationships, attachment, family, trauma-bond, personality-profile]
+connections:
+  - page: wiki/people/rick-frank
+    type: caused-by
+    claim: "The November 2005 rupture on the paternal line is the cluster's named hinge event — the dossier's claim is that it encoded the axiom 'intimacy is a precursor to abandonment' that operates underneath the whole arrangement history."
+  - page: wiki/people/suzanne-frank
+    type: caused-by
+    claim: "Suz's affair with the shared dealer during Rick's treatment is the second half of the 2005 rupture — the maternal side of the event the dossier treats as the psychosexual system's origin point."
+  - page: wiki/mind/profile/enneagram-5w4
+    type: parallels
+    claim: "The sx/sp instinctual-stacking account arrives at the same fusion-or-annihilation prediction from an independent typological framework — three-frame convergence is this cluster's strongest corroboration."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: co-occurs
+    claim: "The 2005–2010 'Neuroemotional Imprinting Era' — the emo/pop-punk template of intense, tragic, doomed devotion — runs through and closes with the Full Sail period."
+  - page: wiki/mind/psychosexual/orchestration-and-voyeurism
+    type: contextualizes
+    claim: "The 2005 axiom offers the cluster's causal reading of the director stance: if closeness reliably precedes loss, authoring the loss in advance is more survivable than being chosen or kept — dossier interpretation, not Dan's own claim."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: precedes
+    claim: "Both origin accounts predate the earliest documented arrangement instance by roughly a decade — this page is the before, arrangement-history is the after."
+
 ---
 
 # Developmental Origins
@@ -105,7 +118,3 @@ stacking to the arrangement history himself — all three linkages are
 dossier-authored synthesis. The comedy-scene "masculine power/comedy/
 humiliation" overlay claim in particular has no elaboration beyond the
 one sentence in the source material.
-
-## Related
-
-[[wiki/mind/psychosexual/index]] · [[wiki/mind/concepts/attachment-model]] · [[wiki/people/rick-frank]] · [[wiki/people/suzanne-frank]] · [[wiki/mind/profile/enneagram-5w4]] · [[wiki/timeline/periods/full-sail-2008-2010]]

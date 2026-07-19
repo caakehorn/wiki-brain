@@ -5,7 +5,7 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-17
+date_modified: 2026-07-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
@@ -15,6 +15,9 @@ sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
 tags: [politics, relationships, family, personality-profile, nyc-era]
 connections:
+  - page: wiki/mind/concepts/institutional-out
+    type: contains
+    claim: "The pre-installed workplace escape mechanism is this architecture's labor-side expression — the refusal of vertical claims on his time, deployed on hire as standing protocol."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "The skepticism thesis is carried as a named theme of the totality synthesis."

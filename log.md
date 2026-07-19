@@ -327,3 +327,8 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 ## [2026-07-19] ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
 - Operator note filed to raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md. Corpus corroboration found: Sent 2019-10-22 "last night we had to film mmf (my first time doing that)..." dates the encounter to Oct 21, 2019 (NYC, filmed, oral-only — Dan's sole bisexual experience). End Fight export shows Tuquick deploying the video June 2026 ("sucked a dick, for you to get drugs"; "Or the video of her sucking dick...").
 - arrangement-history.md timeline row added; tuquick-17248123683.md gains "The October 2019 video as weapon" section + typed edge.
+
+## [2026-07-19] connect | mind | psych-linkage pass — concepts/psychosexual wired to people pages
+- Per operator directive: retrofitted attachment-model, conflict-architecture, phenomenology-lens, developmental-origins, emotional-imprinting, erotic-architecture, arrangement-history, dans-law, node-locking, institutional-out to typed connections; deleted deprecated related: lists/footers on retrofitted pages. ~45 new argued edges with inverses on annie-ulmer, rick-frank, suzanne-frank, alexis-armel, kelly-johansson, kristin, valeria-iglesias-cid, eli-incident, bfs-foods, au-zaatar, forensic-method, exocortex, and others.
+- New person page: bryan-5088682461 (operator-identified third participant, Oct 21 2019 filmed MMF; +15088682461 corroborated in corpus via May 2025 re-contact). Disambiguation hatnote added on brian.md. The Bryan instance corroborates erotic-architecture's "taboo as ontological rupture" mechanism — theory now has its documented case.
+- Gates: wiki-lint 0 errors, wiki-connect check 0 errors.

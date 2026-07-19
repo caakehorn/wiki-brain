@@ -5,22 +5,26 @@ title: "Node Locking"
 aliases: ["profile locking", "DATA_LOGGED", "relational source code", "Deep Architecture"]
 status: stable
 date_created: 2026-07-15
-date_modified: 2026-07-15
+date_modified: 2026-07-19
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
-related:
-  - wiki/mind/concepts/forensic-method
-  - wiki/mind/concepts/exocortex
-  - wiki/mind/synthesis/ai-collaborative-analysis
-  - wiki/self/chats/gemini-18
-  - wiki/self/chats/gemini-07
-  - wiki/timeline/events/eli-incident
-  - wiki/people/annie-ulmer
-  - wiki/people/eli
-  - wiki/self/gemini-activity/archive/v1-extract
 tags: [ai-collaboration, forensic-analysis, relationships, digital-footprint]
+connections:
+  - page: wiki/mind/concepts/exocortex
+    type: component-of
+    claim: "Node locking is the exocortex's externalized-memory layer — the write-and-transfer protocol that turns an AI session into a persistent, portable extension of the self-model."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: evidences
+    claim: "The ~403 node mentions and cross-platform transfer commands are primary behavioral evidence for the LLM-as-venue thesis: the pattern is Dan's, appearing identically on Gemini, ChatGPT, and Grok."
+  - page: wiki/timeline/events/eli-incident
+    type: evidences
+    claim: "The selective Eli purge at every export boundary ('The Eli variable has been purged from the dataset') marks, in Dan's own curation behavior, which node was too loaded to propagate — redaction as a severity measurement."
+  - page: wiki/people/annie-ulmer
+    type: evidences
+    claim: "The master node set is Dan's own curated minimal model of the Annie collapse — what he chose to make survive across AI sessions (the Loop, the Signals, Separation Logistics) is itself evidence of which facts he treated as load-bearing."
+
 ---
 
 # Node Locking

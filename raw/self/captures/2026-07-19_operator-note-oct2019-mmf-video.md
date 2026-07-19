@@ -26,3 +26,19 @@ filed per capture protocol. Operator wording (verbatim, sic):
   23:17:25 "Or the video of her sucking dick and you're in the back ground
   watching 🤣🤣🤣"; repeated "Wanna see the video" taunts — the video (or
   claimed possession of it, via Annie) deployed as humiliation.
+
+## Addendum (same session) — third participant identified
+
+Operator statement (verbatim, sic):
+
+> the number of the guy who we gave the blowjob to is 508-868-2461, his
+> name is bryan (not the same one as annie's escort client) and he is a
+> fully gay man who had his first encounter with a female when he hooked
+> up with annie and i.
+
+Corpus check: +15088682461 appears in MASTER_MESSAGES_DB_DUMP.csv and the
+complete dump only on 2025-05-11 — three unanswered Received messages
+("Around tonight babyboy?", "Would love to catch up sometime", "This
+weather has me worked up lol") — an affectionate re-contact ~5.5 years
+after the encounter, no reply from Dan recorded. The Oct 2019
+coordination is not in the iMessage corpus under this handle.
