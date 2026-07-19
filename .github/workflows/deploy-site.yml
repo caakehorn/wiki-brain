@@ -38,6 +38,16 @@ jobs:
           find site -type f | wc -l
           ls -lh site/llms.txt site/index.html site/agent/manifest.json site/agent/corpus.md
 
+      - name: Build LLM feed (llm/) and fold into site
+        # llm-publish writes to repo root/llm (no --out); the deployable
+        # copy must live under site/ so GitHub Pages serves it. Without
+        # this, llm/index.txt 404s.
+        run: |
+          chmod +x bin/llm-publish
+          python3 bin/llm-publish
+          cp -r llm site/llm
+          ls -lh site/llm/index.txt site/llm/manifest.json site/llm/corpus.txt
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
