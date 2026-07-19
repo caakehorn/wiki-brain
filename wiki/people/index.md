@@ -68,6 +68,7 @@ related: []
 - [[wiki/people/jason-bermejo]] — Full Sail–era formative music friend, one of two people whose taste Dan defers to; Feb 2026 renewal at 400+ messages/month.
 - [[wiki/people/jason-cole]] — Artist friend; a 2016 pet-portrait commission that curdled over unpaid work.
 - [[wiki/people/jay-lauer]] — Friend and mutual sub/coke trading partner, winter 2016-2017.
+- [[wiki/people/jenn-lynn]] — Uniontown friend repeatedly solicited (with boyfriend Brad) for a two-couple swap, 2017-2020; parallel drug-sourcing relationship.
 - [[wiki/people/jerad-friedline]]
 - [[wiki/people/jess]] — Swinging-couple recruitment contact, spring 2017; fizzled after one dense day.
 - [[wiki/people/jim-vrabel]] — Weed dealer and near-nightly hangout, 2018-2020; recurring coffee-creamer gift bit.
@@ -77,6 +78,7 @@ related: []
 - [[wiki/people/john-carney]] — Fits context-core §5 work/housing exit patterns and work-power-dynamics (unreachable contractors as…
 - [[wiki/people/john-felix]] — 2016 household-adjacent contact; possibly a partner of Suz's (unconfirmed).
 - [[wiki/people/johnny-dealer]] — Johnny functions as reliable but transactional dealer node during 2018 crisis (peak 40k+ messages year,…
+- [[wiki/people/joe-oshnack]] — High school bandmate; fullest first-person account of Dan's pre-2020 conservative identity and its reversal.
 - [[wiki/people/josh-brannan]]
 - [[wiki/people/josh-coccagna]] — Golf pro mentor turned DMT-cart supplier, 2017-2019.
 - [[wiki/people/katie-fletcher]] — the 2013 interim girlfriend: the Oddball/Chappelle night, the "Vase" incident.
