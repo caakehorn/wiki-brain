@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 312,
+ "page_count": 313,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1284,7 +1284,7 @@
    "title": "Jamie Mohler",
    "summary": "Jamie Mohler is a Full Sail friend from Dan's Orlando years who was present, per the operator, on the day Dan first met",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jamie-mohler.txt",
-   "bytes": 6757
+   "bytes": 7733
   },
   {
    "page": "wiki/people/jaredtricia.md",
@@ -1572,6 +1572,13 @@
    "summary": "Nick Mattie was an eleven-week fixture of Dan's spring 2017 (`+17242526986`, 170 messages, April 20 \u2013 July 12, 2017) \u2014 a Uniontown drug-scene peer with whom ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/nick-mattie.txt",
    "bytes": 5964
+  },
+  {
+   "page": "wiki/people/oscar-lindquist.md",
+   "title": "Oscar Lindquist",
+   "summary": "Oscar Lindquist is a friend from Dan's Florida years whose entire surviving footprint is a six-line Facebook Messenger thread (`724-208- 3475`, August\u2013Octobe...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/oscar-lindquist.txt",
+   "bytes": 3947
   },
   {
    "page": "wiki/people/rick-frank.md",

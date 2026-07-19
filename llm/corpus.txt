@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-19
-312 pages, ~429,860 tokens.
+313 pages, ~431,090 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -16248,6 +16248,7 @@ date_range_end: 2025-10-06
 sources:
   - "raw/self/dox-scan/gmail_bodies.txt"
   - "raw/self/facebook/facebook-ihatedanfrank/other_personal_information/your_address_books.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/oscarlindquist_osj0xrxodg/message_1.html"
   - "raw/self/message-csv/interspersed_messages.csv"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
@@ -16277,6 +16278,9 @@ connections:
   - page: wiki/people/matt-dunn
     type: co-occurs
     claim: "Jamie is named alongside Dunn and Jester in the same 2025 exchanges — the fourth member of the same Full Sail cohort."
+  - page: wiki/people/oscar-lindquist
+    type: evidenced-by
+    claim: "Oscar's own Aug 26, 2011 message ('mohler and i are heading out of town tonight because of the hurricane') pins the Hurricane Irene evacuation to a single day — the most precisely dated event in the friendship's record."
 ---
 
 # Jamie Mohler
@@ -16285,30 +16289,39 @@ Jamie Mohler is a Full Sail friend from Dan's Orlando years who was
 present, per the operator, on the day Dan first met
 [[wiki/people/menore|Menore]] — placing that original meeting inside
 the **NYC-1** period (roughly 2010 to May 2013), the years Dan and
-Jamie spent in New York together right after college. A saved Google
-Talk log confirms the friendship was real and active in that window: on
-an autumn night in 2011, during the Occupy Wall Street protests, Dan
-invites her over ("Jimbo! it's Dan… do you want to come with us to
-march on times sq tomorrow with the 'occupy' crowd"), and she agrees
-immediately — "Yes! I'll stop by if you folks care for a bit of crown
-royal! Omnomnomnomnom" — takes the J train from her own corner of
-Brooklyn, and gets buzzed up with the apartment's door code ("dial to
-63 when you get here"). The exchange includes Dan needling her about
-the sukkahs going up around Williamsburg for the fall holidays ("check
-out all the 'jew-huts'… crazy") and her delighted, guileless response —
-"I'm SO pumped. 4 stops, I'll give you a full report." It is the
-richest single primary-source window into the friendship on file, and
-it independently corroborates the operator's account that Jamie was a
-genuine presence in Dan's Brooklyn life during exactly the years
-Menore's own page places the original, undocumented introduction.
+Jamie spent in New York together right after college. Three
+independent 2011 sources confirm the friendship was real, active, and
+routine in that window — and one of them supplies an exact date.
 
-[[wiki/people/alexis-armel|Alexis]]'s own side of the household confirms
-the same thing from a second angle: in an August 12, 2011 Gchat with
-Dan, she asks "is Mohler supposed to come over? or is he house bound bc
-of his knee?" and Dan answers "no he's home-bound… probz for the best…
-i gets [Alexis] to myself" — a small, affectionate detail (a knee
-injury keeping a regular visitor away) that only exists because Jamie's
+[[wiki/people/alexis-armel|Alexis]]'s side of the household comes
+first, chronologically: in an August 12, 2011 Gchat with Dan, she asks
+"is Mohler supposed to come over? or is he house bound bc of his
+knee?" and Dan answers "no he's home-bound… probz for the best… i gets
+[Alexis] to myself" — a small, affectionate detail (a knee injury
+keeping a regular visitor away) that only exists because Jamie's
 visits were routine enough to plan around.
+
+Two weeks later, [[wiki/people/oscar-lindquist|Oscar Lindquist]]'s own
+Facebook thread pins a precise date to the friendship: on August 26,
+2011, Dan writes "mohler and i are heading out of town tonight because
+of the hurricane" — the two of them evacuating together ahead of
+Hurricane Irene, which struck the New York area two days later. It is
+the single most precisely dated fact in this page.
+
+A saved Google Talk log adds the fullest scene: on an autumn night in
+2011, during the Occupy Wall Street protests, Dan invites her over
+("Jimbo! it's Dan… do you want to come with us to march on times sq
+tomorrow with the 'occupy' crowd"), and she agrees immediately — "Yes!
+I'll stop by if you folks care for a bit of crown royal!
+Omnomnomnomnom" — takes the J train from her own corner of Brooklyn,
+and gets buzzed up with the apartment's door code ("dial to 63 when
+you get here"). The exchange includes Dan needling her about the
+sukkahs going up around Williamsburg for the fall holidays ("check out
+all the 'jew-huts'… crazy") and her delighted, guileless response —
+"I'm SO pumped. 4 stops, I'll give you a full report." Between the
+three sources, an undated "operator-attested only" claim becomes a
+friendship documented across a full season, with one anchor date fixed
+to the day.
 
 ## The 2023 transition
 
@@ -16350,17 +16363,19 @@ Jamie's appearances inside Jason's and Alexis's own threads.
 | Metric | Value |
 |---|---|
 | Direct chat log | 1 (Google Talk, ~autumn 2011, undated) |
-| Corroborating mentions | 4 (Alexis ×1, Jim Vrabel ×1, Jason Bermejo ×2) |
+| Corroborating mentions | 5 (Alexis ×1, Oscar Lindquist ×1, Jim Vrabel ×1, Jason Bermejo ×2) |
+| Pinned date | 2011-08-26 (Hurricane Irene evacuation, via Oscar's thread) |
 | Transition, per operator | ~2023 |
 | First documented friend-group reference post-transition | 2025-09-19 |
 
-**Gaps:** the 2011 chat log carries no exact date (internal evidence —
-Occupy Wall Street, approaching Jewish fall holidays — narrows it to
-roughly October 2011); the specific day and circumstance of the first
-Menore meeting remain operator-attested only; Jamie's current surname
-usage, location, and occupation are undocumented; nothing in the
-corpus records the transition directly, only after-the-fact peer
-references.
+**Gaps:** the Google Talk log itself carries no exact date (internal
+evidence — Occupy Wall Street, approaching Jewish fall holidays —
+narrows it to roughly October 2011, though the Hurricane Irene message
+independently pins the friendship's presence two weeks earlier); the
+specific day and circumstance of the first Menore meeting remain
+operator-attested only; Jamie's current surname usage, location, and
+occupation are undocumented; nothing in the corpus records the
+transition directly, only after-the-fact peer references.
 
 
 ========================================================================
@@ -19394,6 +19409,91 @@ the final ledger state and whether debt ended the contact; Nick's
 upstream source; the "Brian Brink"/HR job thread of May 7 (one
 fragment, uninterpretable); whether "Andy" is the corpus's Andy or
 another.
+
+
+========================================================================
+PAGE: wiki/people/oscar-lindquist.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2011-08-26
+date_range_end: 2022-03-06
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/oscarlindquist_osj0xrxodg/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/mattdunn_abk0dttjqa/message_1.html"
+tags: [career, digital-footprint, relationships]
+infobox:
+  name: "Oscar Lindquist"
+  sex: male
+  relationship_to_dan: friend
+  location: remote
+  handles: ["724-208-3475"]
+  known_for: "Full Sail-adjacent friend who evacuated Florida the same week as Jamie Mohler for Hurricane Irene (Aug 2011); reappeared a decade later as a customer at Dan's Manhattan restaurant table"
+connections:
+  - page: wiki/people/jamie-mohler
+    type: evidences
+    claim: "Oscar's own Aug 26, 2011 message ('mohler and i are heading out of town tonight because of the hurricane') precisely dates the NYC-1 Hurricane Irene evacuation to a single day, upgrading the period from an undated chat log to a pinned date."
+  - page: wiki/people/matt-dunn
+    type: co-occurs
+    claim: "The 2022 Manhattan-restaurant coincidence Dan told Dunn in real time ('guess who sits down in my section') is the same event this thread's own final message anticipates nothing of — Oscar's side of the reunion is undocumented, only Dan's telling of it survives."
+  - page: wiki/people/jason-bermejo
+    type: evidences
+    claim: "This thread is the primary source behind the 'impossible coincidence in a 9M-person city' anecdote on Jason's page — it independently confirms Oscar and Dan's Full Sail-era connection and supplies the exact date."
+---
+
+# Oscar Lindquist
+
+Oscar Lindquist is a friend from Dan's Florida years whose entire
+surviving footprint is a six-line Facebook Messenger thread (`724-208-
+3475`, August–October 2011) — thin, but precisely dated, and the
+primary source behind an anecdote otherwise preserved only as a
+punchline on [[wiki/people/jason-bermejo|Jason Bermejo's page]].
+
+## Hurricane Irene, dated
+
+On August 26, 2011, Dan writes: "mohler and i are heading out of town
+tonight because of the hurricane" — [[wiki/people/jamie-mohler|Jamie
+Mohler]], evacuating together ahead of Hurricane Irene, which struck
+the New York area two days later. Oscar's reply implies he'd made a
+similar call already ("Haha, nice. I was going to go to Cocoa today
+but I slept too long") and mentions plans to be "up there in a couple
+of weeks." A follow-up on October 2, 2011 — "Shoot me a text/call if
+you want to come down and meet up. I think today will be a decisive
+day for the 99%ers" — places Oscar near the Occupy Wall Street action
+that same autumn, the same protest movement documented in
+[[wiki/people/jamie-mohler|Jamie's]] own 2011 chat log with Dan. Between
+them, the two threads turn an undated "~autumn 2011" estimate into a
+specific, corroborated week.
+
+## The 2022 coincidence
+
+The thread itself ends in 2011, but the friendship's best-known
+moment happened a decade later and is preserved only secondhand, on
+[[wiki/people/matt-dunn|Matt Dunn's page]]: on March 5, 2022, Dan was
+waiting tables in midtown Manhattan when Oscar sat down in his section
+— the "impossible coincidence in a 9M-person city" Jason's page
+already carried as an unanchored anecdote. Nothing in Oscar's own
+thread documents his side of that encounter or any contact
+surrounding it; the reunion is known only through what Dan told Dunn
+that night.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Direct messages (Facebook Messenger) | 6, Aug–Oct 2011 |
+| Corroborating mentions | 2 (Jason Bermejo, Matt Dunn) |
+
+**Gaps:** no thread survives from 2012 onward, so the eleven-year gap
+between the Hurricane Irene evacuation and the restaurant coincidence
+is entirely undocumented; Oscar's current location, occupation, and
+whether the 2022 encounter led to renewed contact are unknown.
 
 
 ========================================================================

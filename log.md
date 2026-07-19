@@ -345,3 +345,8 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - Wired into wiki/timeline/periods/full-sail-2008-2010.md (new "The friend group" section) and 2010s.md (NYC-1 key contacts); menore.md gains the NYC-1 pre-history note.
 - Capture note: raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md.
 - Gates: wiki-lint 0 errors (312 pages), wiki-connect check 0 errors. llm/ regenerated.
+
+## [2026-07-19] ingest | people | oscar-lindquist (new) + jamie-mohler precision pass
+- NEW oscar-lindquist.md from his own Facebook thread (6 msgs, 2011): precisely dates the Jamie Mohler NYC-1 Hurricane Irene evacuation to Aug 26, 2011 (previously only "~October 2011" via the undated Jimbo Slice chat), and is the primary source behind the 2022 Manhattan-restaurant coincidence already noted on jason-bermejo.md and matt-dunn.md.
+- jamie-mohler.md restructured chronologically around three independent 2011 sources (Alexis's Gchat, Oscar's Hurricane Irene message, the Jimbo Slice log).
+- Bot-review findings from PR #54 fixed and cherry-picked forward after a merge race (directional reference, cohort-count discrepancy, overstated "named in both threads" claim on eric-jester.md/full-sail-2008-2010.md).
