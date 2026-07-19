@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 313,
+ "page_count": 315,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -276,7 +276,7 @@
    "title": "SLOPPP",
    "summary": "**SLOPPP** was Dan's first named production alias: a trap/festival-trap project run from SoundCloud (`soundcloud.com/sloppp`) from 2013 until a track literal...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/music/aliases/sloppp.txt",
-   "bytes": 6194
+   "bytes": 6470
   },
   {
    "page": "wiki/interests/music/concepts/lyrics-as-timbre.md",
@@ -584,7 +584,7 @@
    "title": "The 2015 Single-Bond Switch",
    "summary": "In late November 2015, Dan's primary attachment target transferred from [[wiki/people/alexis-armel|Alexis]] to [[wiki/people/annie-ulmer|Annie]] inside a sin...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/bond-switch-2015.txt",
-   "bytes": 10435
+   "bytes": 11957
   },
   {
    "page": "wiki/mind/synthesis/dan-annie-fallout-verdict.md",
@@ -647,7 +647,7 @@
    "title": "The Supply Network",
    "summary": "Since January 2011, Dan has been on a daily Suboxone regimen \u2014 fifteen years, described in the primary sources as structural rather than recreational: a medi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/supply-network.txt",
-   "bytes": 15017
+   "bytes": 16051
   },
   {
    "page": "wiki/mind/synthesis/totality-themes.md",
@@ -1242,7 +1242,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 15002
+   "bytes": 15622
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1439,6 +1439,13 @@
    "summary": "Lisa Durbin (contacts nickname \"lcd\") is an extended-family relation who organizes holiday gatherings and checks in on birthdays (`+17242088411`, 36 messages...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lisa-durbin.txt",
    "bytes": 1627
+  },
+  {
+   "page": "wiki/people/lukyan-mraz.md",
+   "title": "Lukyan Mraz",
+   "summary": "Lukyan Mraz is a Uniontown friend, connected to the same household as",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lukyan-mraz.txt",
+   "bytes": 3830
   },
   {
    "page": "wiki/people/maddox.md",
@@ -1735,6 +1742,13 @@
    "bytes": 4822
   },
   {
+   "page": "wiki/people/zachariah-harshman.md",
+   "title": "Zachariah Harshman",
+   "summary": "Zachariah Harshman is a Laurel Highlands High School-era friend from Uniontown whose decade-spanning Facebook Messenger thread (October 2011 \u2013 October 2021, ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/zachariah-harshman.txt",
+   "bytes": 9399
+  },
+  {
    "page": "wiki/places/117-belmont-circle.md",
    "title": "117 Belmont Circle",
    "summary": "117 Belmont Circle, Uniontown PA \u2014 a three-story house sitting on the edge of the Uniontown Country Club fairway \u2014 was",
@@ -1746,7 +1760,7 @@
    "title": "155 Virginia Ave",
    "summary": "155 Virginia Ave, Uniontown PA was Dan's residence from January 2015 to February 2019 \u2014 the address where the two defining relationships of his adult life ha...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/155-virginia-ave.txt",
-   "bytes": 3755
+   "bytes": 4112
   },
   {
    "page": "wiki/places/307-e-76th-st.md",

@@ -37,6 +37,9 @@ connections:
   - page: wiki/mind/profile/enneagram-5w4
     type: instance-of
     claim: "The switch is the sx/sp stack executing its logic in real time: the singular slot vacated and reoccupied near-simultaneously, the lair held constant."
+  - page: wiki/people/zachariah-harshman
+    type: evidenced-by
+    claim: "Zach's Dec 23, 2015 confrontation — furious at Dan for 'vanishing' while Zach himself had grown close to Alexis post-breakup — is an independent third-party account of the switch's social fallout, corroborating the timing from entirely outside Dan's own corpus."
 ---
 
 
@@ -87,6 +90,26 @@ The bootloader states the single loudest day in the entire fifteen-year record i
 - `imessage_ALL_both_2026-05-04_now.csv` and `annie_group_chat_may31-june1_2026.csv` contain no 2026-05-31 sent count approaching 768.
 
 The 768/day figure is therefore **unverified against the on-disk raw** and should be treated as either (a) drawn from a later/separate extraction not present in `raw/`, or (b) a computation error in the bootloader. The *shape* of the claim — maximum output at the bond's death mirroring maximum output at its birth — is independently supported by the verified Dec 2015 onset flood and by the dense 600–699-message days through Sept–Oct 2025 in the master dump. But the specific **768 on 2026-05-31** number must not be cited as corpus-verified until its source export is located and filed. (Per the standing "verify derived numbers against raw" rule — the operator will catch unverified figures, and was right to.)
+
+## Independent corroboration: the Zach Harshman rupture
+
+A source outside Dan's own account of the switch exists in
+[[wiki/people/zachariah-harshman|Zach Harshman]]'s Facebook Messenger
+thread. On December 23, 2015 — three weeks after Annie enters the
+record — Dan explodes at Zach for pulling away, and Zach's defense
+names the switch's exact social mechanics from the outside: he had
+become Alexis's "best friend other than you for the past year,"
+spending regular time with her after the breakup, and had backed off
+specifically to avoid the appearance of impropriety — "if you're going
+to all of the sudden hang out 'all the time' with the ex girlfriend of
+your best friend immediately after they break up, you might want to
+make sure the aforementioned friend doesn't feel a complete sense of
+betrayal." Dan's reply confirms rather than disputes the premise. This
+is not a reconstruction from Dan's own message volume or the
+bootloader's retrospective narrative — it is a third party, inside
+Alexis's own post-breakup orbit, independently placing the switch's
+visible social fallout in the same one-month window the table above
+establishes from the primary record.
 
 ## Gaps
 
