@@ -13,6 +13,9 @@ sources:
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
 tags: [relationships, digital-footprint]
 connections:
+  - page: wiki/people/lauryn-ashly
+    type: co-occurs
+    claim: "The September 2020 solicitation to Lauryn — apologetic, self-conscious, and simply declined — is a rare documented instance of the arrangement being pitched outside the established circle, showing the pattern was not universally successful."
   - page: wiki/people/annie-ulmer
     type: contains
     claim: "Annie is the constant across every documented instance — partner in the jealousy-kink baseline, co-operator of smashonista, co-participant in the paid and unpaid encounters — the arrangement is structurally a property of the Annie relationship."

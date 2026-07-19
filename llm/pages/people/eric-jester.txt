@@ -40,7 +40,7 @@ connections:
 
 # Eric Jester
 
-Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose sparse but genuinely warm thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — check-ins that resurface every year or two, each one picking back up exactly where the last left off, alongside shared friends [[wiki/people/jason-bermejo|Jason Bermejo]], [[wiki/people/matt-dunn|Matt Dunn]], and [[wiki/people/jamie-mohler|Jamie Mohler]] from the same Orlando/Full Sail cohort — a four-person friend group named identically and independently in both Eric's and Jason's threads years apart.
+Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose sparse but genuinely warm thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — check-ins that resurface every year or two, each one picking back up exactly where the last left off, alongside shared friends [[wiki/people/jason-bermejo|Jason Bermejo]], [[wiki/people/matt-dunn|Matt Dunn]], and [[wiki/people/jamie-mohler|Jamie Mohler]] from the same Orlando/Full Sail cohort. Eric's own thread independently names Dunn (see below); Jamie appears only in Jason's thread, not Eric's.
 
 ## The relationship
 

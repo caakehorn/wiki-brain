@@ -44,6 +44,7 @@ related: []
 - [[wiki/people/del]] — NYC Stiiizy-brand cannabis delivery service, spring-summer 2019; chronically late.
 - [[wiki/people/dimitri]] — the only boss Dan ever loved: Au Za'atar's Greek manager-oracle, twice.
 - [[wiki/people/drew]] — Collaborator on Nemacolin caddy yardage-book green mapping, June-July 2017.
+- [[wiki/people/elizabeth-eleanor]] — Fellow recovering addict; a single July 2013 conversation yielding the only Suboxone dosage figure and earliest INTP self-ID in the corpus.
 - [[wiki/people/eli]] — Coworker (male) of Annie Ulmer at Au Za'atar (or related NYC hospitality). Central to the eli-incident as…
 - [[wiki/people/ellen-ulmer]] — Annie's mother; steady contact 2017-2025, confirms Jim and Sugie as Annie's grandparents.
 - [[wiki/people/emaly-minerd]] — Intense 5-month 2018-19 relationship; tried to refuse the couple's sex-first dynamic, collapsed into it anyway.
@@ -81,7 +82,10 @@ related: []
 - [[wiki/people/kristin]] — Kristin Shaelene (handle +13307038747), introduced through tom as "Tom's friend." An ex-Brooklyn librarian…
 - [[wiki/people/kya-hansen]] — Canadian model/OnlyFans creator "bbblud"; Dan was her Reddit admin for a stretch in 2019, communicated mostly via OF.
 - [[wiki/people/lindsay-carolla]] — Thanksgiving 2016 supply contact; an unexplained "are you okay?" message in April 2017.
+- [[wiki/people/lauryn-ashly]] — Uniontown-era friend; real-time grief over Rob Orange's 2014 death, and a declined 2020 arrangement solicitation.
 - [[wiki/people/lisa-durbin]] — Extended-family relation organizing holiday gatherings, 2017.
+- [[wiki/people/lucie-dobbin]] — Longtime friend of Fran Coldren; recipient of Dan's fullest first-person account of Fran's death.
+- [[wiki/people/lukyan-mraz]] — Uniontown friend and short-lived 2015 cannabis-grow collaborator; ends in a March 2016 equipment dispute.
 - [[wiki/people/maddox]] — Maddox volunteered unprompted information without solicitation during public sidewalk exchange. Assessment…
 - [[wiki/people/manuel]] — Au Za'atar coworker turned lasting friend, 2023-2026; Spanish-language banter.
 - [[wiki/people/marc-charles]]
@@ -101,14 +105,17 @@ related: []
 - [[wiki/people/morley-frank]] — Paternal grandfather of Dan Frank. Born 20 August 1927, Brownsville, Fayette County, Pennsylvania. Died 13…
 - [[wiki/people/new-jim-shaffer]] — Wealthy childhood friend; 2018 embezzlement case, golf-equipment obsession, Rob Orange grief.
 - [[wiki/people/nick-mattie]] — Spring-2017 drug-scene trading peer: reciprocal fronts, a hand-kept ledger, eleven weeks from daily contact to silence.
+- [[wiki/people/oscar-lindquist]] — Full Sail-adjacent friend; his own thread precisely dates the Jamie Mohler Hurricane Irene evacuation and is the primary source behind a 2022 Manhattan-restaurant coincidence.
 - [[wiki/people/rick-frank]] — Father of Dan Frank. Born 22 May 1959 in Uniontown, Fayette County, Pennsylvania. Part of paternal Jewish…
 - [[wiki/people/rj-ritchey]] — Uniontown golf-circle friend and 2019 Manhattan visitor; the iMessage contact `+17249844280` was merged into this canonical page.
+- [[wiki/people/rob-orange]] — High-school-era Uniontown friend; died April 2014, cause never confirmed; the one loss both Dan and Jim Shaffer mourn without irony.
 - [[wiki/people/ryan-lisac]] — Childhood/early peer. Core figure in the "Snob Squad" developmental arc.
 - [[wiki/people/sadie-harris]] — Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood,…
 - [[wiki/people/sam]] — NYC cannabis delivery dealer (2019–20) for the E 76th St years; fired Dan as a customer in Feb 2020, un-fired him when COVID hit.
 - [[wiki/people/sean-teets]]
 - [[wiki/people/shannon]] — Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct…
 - [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan saw alongside Annie spring–summer 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup July 2019.
+- [[wiki/people/stephanie-nalbone]] — Previously undocumented Sept-Nov 2009 relationship, right at the close of Full Sail; sequencing against Danielle and Alexis unresolved.
 - [[wiki/people/steve-kezmarsky]] — High-school-era Uniontown golf friend, self-described "dark and tormented soul"; alive and sober as of Dec 2018 while his father faced a life sentence (death claim withdrawn 2026-07-19).
 - [[wiki/people/suzanne-frank]] — Mother of Dan Frank. Born 15 September 1962, Pittsburgh, Allegheny County, Pennsylvania (maiden: Whyel /…
 - [[wiki/people/tarik-fallous]] — Tarik Fallous — owner-operator (with his brother Ghassan) of Au Za'atar, the Lebanese restaurant near 58th…
@@ -123,6 +130,7 @@ related: []
 - [[wiki/people/vanessa-frank]] — Younger sister of Dan Frank. Born 16 January 1994 in Greensburg, Westmoreland County, Pennsylvania. Shares…
 - [[wiki/people/vaughn]] — Fellow Nemacolin caddie and small-time weed middleman (2017–18); left for a railroad job.
 - [[wiki/people/vicki]] — Longest-serving non-family caregiver on Fran's rotation (2016–2018); "this lady is like my grandmother I never had"; her thread dates the second fall and documents the vigil's final days.
+- [[wiki/people/zachariah-harshman]] — High-school friend, 2014–15 Uniontown supply node (earliest documented), and independent witness to the Alexis-to-Annie bond switch's social fallout; friendship survives and revives as a platonic gaming friendship by 2020.
 
 ## contacts
 

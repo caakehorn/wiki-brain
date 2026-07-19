@@ -135,7 +135,7 @@ Dan describes him as a gateway to "a different style of music that still resonat
 - **Donato "Steez McQueen"** — Died 2022 (fentanyl-laced xanax, implied); wore Steve McQueen Alexander McQueen jackets; made beats like J Dilla and Nujabes
 - **Gabe** — A cat, not a person: died 2023-10-30 ("I had to put gabe down today"), confirmed by [[wiki/people/eric-jester|Eric Jester]]'s independent same-date message ("I'm so sorry man. He was the cat that made me love cats!")
 - **[[wiki/people/jamie-mohler|Jamie Mohler]]** — fellow Full Sail
-  friend, not a girlfriend (see REVISED note below); part of the same
+  friend, not a girlfriend (see REVISED note above); part of the same
   named cohort as Dunn and Jester in Dan's own 2025 messages
 - **Kayden** — Someone in photos from the heroin-attempt era
 - **Mike Marino** — Knew him in Florida, wishes had photos to prove it

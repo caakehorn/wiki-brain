@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-19
-312 pages, ~429,525 tokens.
+320 pages, ~442,433 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -35,6 +35,9 @@ connections:
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "The fifteen-year daily Suboxone regimen begins at the front edge of NYC-1 (~Jan 2010, with a one-year discrepancy against legacy docs still unresolved)."
+  - page: wiki/people/elizabeth-eleanor
+    type: evidenced-by
+    claim: "A July 2013 exchange gives the corpus's only concrete dosage figure — 2mg Suboxone daily, ~5 years opiate-free — closing a previously undocumented gap and dating the last opiate use to the dark-era window."
 ---
 
 # Chemical Architecture
@@ -113,8 +116,19 @@ impulsiveness score; and the framing itself is load-bearing identity — "the
 addiction is the operating system," which is exactly what an addiction
 would say. Both readings are in the sources; neither is resolved.
 
-**Gaps:** no medical records, prescriber information, or dosage data in the
-corpus; physical-health baseline (the somatic neglect the profile predicts)
+One dosage figure exists on the record: a July 10, 2013 Facebook
+exchange with [[wiki/people/elizabeth-eleanor|Elizabeth Eleanor]], a
+fellow recovering addict, has Dan stating "i'm still on 2mg of
+suboxone a day, it's been almost 5 years since i touched an opiate and
+i'm still too terrified to get off" — placing his last opiate use
+around 2008–2009, consistent with the
+[[wiki/timeline/periods/dark-era-2007-2008|dark-era 2007–2008]]
+window, and confirming the maintenance dose was already stable and
+low three years into the regimen.
+
+**Gaps:** no medical records, prescriber information, or further
+dosage data beyond the single 2013 figure in the corpus;
+physical-health baseline (the somatic neglect the profile predicts)
 is undocumented — no labs, no dental, no primary care appears anywhere in
 17 years of messages; the "strategic" vs. dependency question for cocaine
 has no third-party data.
@@ -2813,6 +2827,9 @@ connections:
   - page: wiki/timeline/periods/uniontown-return-2013-2015
     type: component-of
     claim: "SLOPPP is the Uniontown-return period's signature project — the recording-arts ambition surviving the NYC-career failure by migrating to a Uniontown SoundCloud in 2013."
+  - page: wiki/people/zachariah-harshman
+    type: evidenced-by
+    claim: "Zach's January 2014 pitch to a Pittsburgh rave-scene contact is the earliest documented instance of SLOPPP actively seeking a live booking, less than two years before the alias's Dec 26, 2015 close."
 ---
 
 # SLOPPP
@@ -5735,6 +5752,9 @@ connections:
   - page: wiki/interests/roman-republic
     type: evidenced-by
     claim: "The great-man-theory tag cluster on the 2024 Caesar/Alexander/Oppenheimer reads is corpus evidence for the singular-figure-versus-the-system self-myth this profile documents."
+  - page: wiki/people/elizabeth-eleanor
+    type: evidenced-by
+    claim: "A July 2013 message — 'as an INTP and heavily introverted, logic-based dude...i can't see myself flourishing in AA/NA' — is the earliest dated primary-source instance of Dan self-typing INTP, used there to explain a rejection of group-based recovery in favor of self-directed reflection."
   - page: wiki/interests/film-canon
     type: evidenced-by
     claim: "The Taxi Driver / King of Comedy self-portrait pair in the film canon is the same hyperaware-observer self-myth chosen as a mirror in cinema."
@@ -6263,6 +6283,9 @@ sources:
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
 tags: [relationships, digital-footprint]
 connections:
+  - page: wiki/people/lauryn-ashly
+    type: co-occurs
+    claim: "The September 2020 solicitation to Lauryn — apologetic, self-conscious, and simply declined — is a rare documented instance of the arrangement being pitched outside the established circle, showing the pattern was not universally successful."
   - page: wiki/people/annie-ulmer
     type: contains
     claim: "Annie is the constant across every documented instance — partner in the jealousy-kink baseline, co-operator of smashonista, co-participant in the paid and unpaid encounters — the arrangement is structurally a property of the Annie relationship."
@@ -7873,6 +7896,9 @@ connections:
   - page: wiki/mind/profile/enneagram-5w4
     type: instance-of
     claim: "The switch is the sx/sp stack executing its logic in real time: the singular slot vacated and reoccupied near-simultaneously, the lair held constant."
+  - page: wiki/people/zachariah-harshman
+    type: evidenced-by
+    claim: "Zach's Dec 23, 2015 confrontation — furious at Dan for 'vanishing' while Zach himself had grown close to Alexis post-breakup — is an independent third-party account of the switch's social fallout, corroborating the timing from entirely outside Dan's own corpus."
 ---
 
 
@@ -7923,6 +7949,26 @@ The bootloader states the single loudest day in the entire fifteen-year record i
 - `imessage_ALL_both_2026-05-04_now.csv` and `annie_group_chat_may31-june1_2026.csv` contain no 2026-05-31 sent count approaching 768.
 
 The 768/day figure is therefore **unverified against the on-disk raw** and should be treated as either (a) drawn from a later/separate extraction not present in `raw/`, or (b) a computation error in the bootloader. The *shape* of the claim — maximum output at the bond's death mirroring maximum output at its birth — is independently supported by the verified Dec 2015 onset flood and by the dense 600–699-message days through Sept–Oct 2025 in the master dump. But the specific **768 on 2026-05-31** number must not be cited as corpus-verified until its source export is located and filed. (Per the standing "verify derived numbers against raw" rule — the operator will catch unverified figures, and was right to.)
+
+## Independent corroboration: the Zach Harshman rupture
+
+A source outside Dan's own account of the switch exists in
+[[wiki/people/zachariah-harshman|Zach Harshman]]'s Facebook Messenger
+thread. On December 23, 2015 — three weeks after Annie enters the
+record — Dan explodes at Zach for pulling away, and Zach's defense
+names the switch's exact social mechanics from the outside: he had
+become Alexis's "best friend other than you for the past year,"
+spending regular time with her after the breakup, and had backed off
+specifically to avoid the appearance of impropriety — "if you're going
+to all of the sudden hang out 'all the time' with the ex girlfriend of
+your best friend immediately after they break up, you might want to
+make sure the aforementioned friend doesn't feel a complete sense of
+betrayal." Dan's reply confirms rather than disputes the premise. This
+is not a reconstruction from Dan's own message volume or the
+bootloader's retrospective narrative — it is a third party, inside
+Alexis's own post-breakup orbit, independently placing the switch's
+visible social fallout in the same one-month window the table above
+establishes from the primary record.
 
 ## Gaps
 
@@ -9219,6 +9265,9 @@ connections:
   - page: wiki/people/nick-mattie
     type: contains
     claim: "Nick is the spring-2017 reciprocal peer-trading node — fronts and a hand-kept ledger running in both directions — the tier where supply was mutual credit between broke men rather than vendor service."
+  - page: wiki/people/zachariah-harshman
+    type: contains
+    claim: "Zach is the earliest dated Uniontown node (2014–15), predating Johnny and Teddy by three years, and the first documented case of a supply relationship ending in a friendship rupture rather than a logistics failure."
   - page: wiki/people/annie-ulmer
     type: contains
     claim: "Annie occupies both sides of the network across its life: logistics facilitator in the 2018–19 Johnny era, then dependent consumer in the terminal phase, when Dan controlling the supply ('bop') became the relationship's primary retention mechanism."
@@ -9262,12 +9311,22 @@ transfers along the way.
 | Node | Era | Territory | Role |
 |---|---|---|---|
 | [[wiki/people/tom]] | ~2010–2026 | Uniontown/Pittsburgh | Friend-supplier; strips, mushrooms, cocaine, klonopin; sole strip source by 2025 |
+| [[wiki/people/zachariah-harshman]] | 2014–2015 | Uniontown | High-school-friend supplier; wax, dabs, flower priced by cut/quarter; earliest dated Uniontown node, predates Johnny/Teddy by 3 years |
 | [[wiki/people/johnny-dealer]] | 2018–2019 | Uniontown | Primary deep-cycle dealer; strips ($15/8mg, $20/12mg), "b's"; fronts |
 | Second dealer (+17243233522) | 2018 | Uniontown | Parallel node in the deep cycle (operating manual) |
 | [[wiki/people/teddy]] | 2018–2020 | Uniontown/Fairchance | Parallel informal supplier; strips, pills; credit and holds |
 | [[wiki/people/menore]] | 2013?, 2018–20 + 2024–25 | NYC | Professional delivery operator; 99.3% availability, median 7-min reply |
 | Tim | ~2020s | undocumented | Named in the MAX_PRIME succession; no thread yet identified |
 | "bop" / "Felix" | 2026 | Uniontown | Current-connect vocabulary; identities unresolved |
+
+Extending the succession earlier than previously documented, a 2015
+Facebook Messenger export dates [[wiki/people/zachariah-harshman|Zach
+Harshman]]'s supply role to 2014, three years before the
+Johnny/Teddy era — the earliest dated Uniontown node on record, and
+one that ends in the same friction the later nodes would repeat: not
+a supply failure, but a friendship rupture (Dec 23, 2015) that happens
+to coincide with the household's other major transition that month,
+the [[wiki/mind/synthesis/bond-switch-2015|Alexis-to-Annie switch]].
 
 Two structural properties stand out. First, **the network survives every
 biographical rupture.** It spans both cities, every job, every
@@ -14593,6 +14652,99 @@ everything known arrives through Dan's corpus — no neutral source exists.
 
 
 ========================================================================
+PAGE: wiki/people/elizabeth-eleanor.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2013-07-10
+date_range_end: 2013-07-11
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/elizabetheleanor_7psnsflijg/message_1.html"
+tags: [addiction-recovery, personality-profile, uniontown-era]
+infobox:
+  name: "Elizabeth Eleanor"
+  sex: female
+  location: uniontown
+  relationship_to_dan: acquaintance
+  known_for: "Fellow recovering addict; a single overnight July 2013 conversation about recovery philosophy that produced the corpus's only concrete Suboxone dosage figure and its earliest dated INTP self-identification"
+connections:
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: "Dan's own line — '2mg of suboxone a day, it's been almost 5 years since i touched an opiate' — is the corpus's only concrete dosage figure, and dates his last opiate use to roughly 2008–2009."
+  - page: wiki/mind/profile/intp
+    type: evidences
+    claim: "'as an INTP and heavily introverted, logic-based dude...i can't see myself flourishing in AA/NA' is the earliest dated primary-source instance of Dan self-typing INTP, three years before context-core's own profile material."
+  - page: wiki/timeline/periods/dark-era-2007-2008
+    type: evidenced-by
+    claim: "The 'almost 5 years' opiate-free figure, dated July 2013, backs into a last-use date inside this period, an independent confirmation from outside the period's own primary sources."
+---
+
+# Elizabeth Eleanor
+
+Elizabeth Eleanor is a fellow recovering addict whose entire
+relationship with Dan is a single overnight Facebook exchange — July
+10–11, 2013, just months after his return to
+[[wiki/timeline/periods/uniontown-return-2013-2015|Uniontown]] from
+NYC — that produced two of the corpus's more useful incidental data
+points despite the two of them never speaking again on record.
+
+## The conversation
+
+Reconnecting after a long silence, the two quickly land on shared
+history: both dealt with opiate addiction, and Elizabeth is several
+years into 12-step recovery, crediting a "God" she's careful to define
+loosely rather than through organized religion. She pushes Dan toward
+NA/AA and the "Big Book"; he declines specifically and articulately,
+citing his own psychological type — "i think my brain works a little
+differently than most and as an INTP and heavily introverted,
+logic-based dude...i can't see myself flourishing in AA/NA" — and
+lays out, at length, a secular, self-reflective account of addiction
+as "a neurological imbalance and a series of habitual behavior +
+neglect...caused only by ourselves and fixed only by ourselves."
+Elizabeth counters that the shared root problem is spiritual avoidance
+("YOU are the problem, drugs and alcohol is just a symptom") and
+recommends Donnie Darko as an emotional parallel to Dan's search. The
+conversation is warm and genuinely searching on both sides, closing
+with Elizabeth's sign-off: "I respect your views... I hope you can
+prove me wrong though."
+
+## What it incidentally documents
+
+Buried in the recovery debate are two facts that don't appear together
+anywhere else in the corpus. First, a precise **maintenance dose**: "i'm
+still on 2mg of suboxone a day, it's been almost 5 years since i
+touched an opiate and i'm still too terrified to get off" — the only
+concrete dosage figure for the [[wiki/health/chemical-architecture|
+fifteen-year Suboxone regimen]] on record anywhere, and one that backs
+into a last-opiate-use date of roughly 2008–2009, independently
+consistent with the corpus's [[wiki/timeline/periods/dark-era-2007-2008|
+dark-era]] window. Second, the earliest dated instance of Dan
+explicitly self-typing **INTP** — three years before the personality
+material that dominates [[wiki/mind/profile/intp|the later profile
+pages]] — used here as a specific, reasoned explanation for rejecting
+group-based recovery rather than as abstract self-description.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~90 (Facebook Messenger, single overnight exchange) |
+| Date range | 2013-07-10 – 2013-07-11 |
+| Defining content | Recovery philosophy debate; Suboxone dose; earliest INTP self-ID |
+
+**Gaps:** no further contact after July 11, 2013; Elizabeth's current
+circumstances, surname context, and whether she and Dan knew each
+other before this exchange (the "long time no see" framing implies a
+pre-existing but undocumented relationship).
+
+
+========================================================================
 PAGE: wiki/people/ellen-ulmer.md
 ========================================================================
 
@@ -15080,7 +15232,7 @@ connections:
 
 # Eric Jester
 
-Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose sparse but genuinely warm thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — check-ins that resurface every year or two, each one picking back up exactly where the last left off, alongside shared friends [[wiki/people/jason-bermejo|Jason Bermejo]], [[wiki/people/matt-dunn|Matt Dunn]], and [[wiki/people/jamie-mohler|Jamie Mohler]] from the same Orlando/Full Sail cohort — a four-person friend group named identically and independently in both Eric's and Jason's threads years apart.
+Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose sparse but genuinely warm thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — check-ins that resurface every year or two, each one picking back up exactly where the last left off, alongside shared friends [[wiki/people/jason-bermejo|Jason Bermejo]], [[wiki/people/matt-dunn|Matt Dunn]], and [[wiki/people/jamie-mohler|Jamie Mohler]] from the same Orlando/Full Sail cohort. Eric's own thread independently names Dunn (see below); Jamie appears only in Jason's thread, not Eric's.
 
 ## The relationship
 
@@ -15749,6 +15901,7 @@ related: []
 - [[wiki/people/del]] — NYC Stiiizy-brand cannabis delivery service, spring-summer 2019; chronically late.
 - [[wiki/people/dimitri]] — the only boss Dan ever loved: Au Za'atar's Greek manager-oracle, twice.
 - [[wiki/people/drew]] — Collaborator on Nemacolin caddy yardage-book green mapping, June-July 2017.
+- [[wiki/people/elizabeth-eleanor]] — Fellow recovering addict; a single July 2013 conversation yielding the only Suboxone dosage figure and earliest INTP self-ID in the corpus.
 - [[wiki/people/eli]] — Coworker (male) of Annie Ulmer at Au Za'atar (or related NYC hospitality). Central to the eli-incident as…
 - [[wiki/people/ellen-ulmer]] — Annie's mother; steady contact 2017-2025, confirms Jim and Sugie as Annie's grandparents.
 - [[wiki/people/emaly-minerd]] — Intense 5-month 2018-19 relationship; tried to refuse the couple's sex-first dynamic, collapsed into it anyway.
@@ -15786,7 +15939,10 @@ related: []
 - [[wiki/people/kristin]] — Kristin Shaelene (handle +13307038747), introduced through tom as "Tom's friend." An ex-Brooklyn librarian…
 - [[wiki/people/kya-hansen]] — Canadian model/OnlyFans creator "bbblud"; Dan was her Reddit admin for a stretch in 2019, communicated mostly via OF.
 - [[wiki/people/lindsay-carolla]] — Thanksgiving 2016 supply contact; an unexplained "are you okay?" message in April 2017.
+- [[wiki/people/lauryn-ashly]] — Uniontown-era friend; real-time grief over Rob Orange's 2014 death, and a declined 2020 arrangement solicitation.
 - [[wiki/people/lisa-durbin]] — Extended-family relation organizing holiday gatherings, 2017.
+- [[wiki/people/lucie-dobbin]] — Longtime friend of Fran Coldren; recipient of Dan's fullest first-person account of Fran's death.
+- [[wiki/people/lukyan-mraz]] — Uniontown friend and short-lived 2015 cannabis-grow collaborator; ends in a March 2016 equipment dispute.
 - [[wiki/people/maddox]] — Maddox volunteered unprompted information without solicitation during public sidewalk exchange. Assessment…
 - [[wiki/people/manuel]] — Au Za'atar coworker turned lasting friend, 2023-2026; Spanish-language banter.
 - [[wiki/people/marc-charles]]
@@ -15806,14 +15962,17 @@ related: []
 - [[wiki/people/morley-frank]] — Paternal grandfather of Dan Frank. Born 20 August 1927, Brownsville, Fayette County, Pennsylvania. Died 13…
 - [[wiki/people/new-jim-shaffer]] — Wealthy childhood friend; 2018 embezzlement case, golf-equipment obsession, Rob Orange grief.
 - [[wiki/people/nick-mattie]] — Spring-2017 drug-scene trading peer: reciprocal fronts, a hand-kept ledger, eleven weeks from daily contact to silence.
+- [[wiki/people/oscar-lindquist]] — Full Sail-adjacent friend; his own thread precisely dates the Jamie Mohler Hurricane Irene evacuation and is the primary source behind a 2022 Manhattan-restaurant coincidence.
 - [[wiki/people/rick-frank]] — Father of Dan Frank. Born 22 May 1959 in Uniontown, Fayette County, Pennsylvania. Part of paternal Jewish…
 - [[wiki/people/rj-ritchey]] — Uniontown golf-circle friend and 2019 Manhattan visitor; the iMessage contact `+17249844280` was merged into this canonical page.
+- [[wiki/people/rob-orange]] — High-school-era Uniontown friend; died April 2014, cause never confirmed; the one loss both Dan and Jim Shaffer mourn without irony.
 - [[wiki/people/ryan-lisac]] — Childhood/early peer. Core figure in the "Snob Squad" developmental arc.
 - [[wiki/people/sadie-harris]] — Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood,…
 - [[wiki/people/sam]] — NYC cannabis delivery dealer (2019–20) for the E 76th St years; fired Dan as a customer in Feb 2020, un-fired him when COVID hit.
 - [[wiki/people/sean-teets]]
 - [[wiki/people/shannon]] — Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct…
 - [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan saw alongside Annie spring–summer 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup July 2019.
+- [[wiki/people/stephanie-nalbone]] — Previously undocumented Sept-Nov 2009 relationship, right at the close of Full Sail; sequencing against Danielle and Alexis unresolved.
 - [[wiki/people/steve-kezmarsky]] — High-school-era Uniontown golf friend, self-described "dark and tormented soul"; alive and sober as of Dec 2018 while his father faced a life sentence (death claim withdrawn 2026-07-19).
 - [[wiki/people/suzanne-frank]] — Mother of Dan Frank. Born 15 September 1962, Pittsburgh, Allegheny County, Pennsylvania (maiden: Whyel /…
 - [[wiki/people/tarik-fallous]] — Tarik Fallous — owner-operator (with his brother Ghassan) of Au Za'atar, the Lebanese restaurant near 58th…
@@ -15828,6 +15987,7 @@ related: []
 - [[wiki/people/vanessa-frank]] — Younger sister of Dan Frank. Born 16 January 1994 in Greensburg, Westmoreland County, Pennsylvania. Shares…
 - [[wiki/people/vaughn]] — Fellow Nemacolin caddie and small-time weed middleman (2017–18); left for a railroad job.
 - [[wiki/people/vicki]] — Longest-serving non-family caregiver on Fran's rotation (2016–2018); "this lady is like my grandmother I never had"; her thread dates the second fall and documents the vigil's final days.
+- [[wiki/people/zachariah-harshman]] — High-school friend, 2014–15 Uniontown supply node (earliest documented), and independent witness to the Alexis-to-Annie bond switch's social fallout; friendship survives and revives as a platonic gaming friendship by 2020.
 
 ## contacts
 
@@ -16248,6 +16408,7 @@ date_range_end: 2025-10-06
 sources:
   - "raw/self/dox-scan/gmail_bodies.txt"
   - "raw/self/facebook/facebook-ihatedanfrank/other_personal_information/your_address_books.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/oscarlindquist_osj0xrxodg/message_1.html"
   - "raw/self/message-csv/interspersed_messages.csv"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
@@ -16277,6 +16438,9 @@ connections:
   - page: wiki/people/matt-dunn
     type: co-occurs
     claim: "Jamie is named alongside Dunn and Jester in the same 2025 exchanges — the fourth member of the same Full Sail cohort."
+  - page: wiki/people/oscar-lindquist
+    type: evidenced-by
+    claim: "Oscar's own Aug 26, 2011 message ('mohler and i are heading out of town tonight because of the hurricane') pins the Hurricane Irene evacuation to a single day — the most precisely dated event in the friendship's record."
 ---
 
 # Jamie Mohler
@@ -16285,30 +16449,39 @@ Jamie Mohler is a Full Sail friend from Dan's Orlando years who was
 present, per the operator, on the day Dan first met
 [[wiki/people/menore|Menore]] — placing that original meeting inside
 the **NYC-1** period (roughly 2010 to May 2013), the years Dan and
-Jamie spent in New York together right after college. A saved Google
-Talk log confirms the friendship was real and active in that window: on
-an autumn night in 2011, during the Occupy Wall Street protests, Dan
-invites her over ("Jimbo! it's Dan… do you want to come with us to
-march on times sq tomorrow with the 'occupy' crowd"), and she agrees
-immediately — "Yes! I'll stop by if you folks care for a bit of crown
-royal! Omnomnomnomnom" — takes the J train from her own corner of
-Brooklyn, and gets buzzed up with the apartment's door code ("dial to
-63 when you get here"). The exchange includes Dan needling her about
-the sukkahs going up around Williamsburg for the fall holidays ("check
-out all the 'jew-huts'… crazy") and her delighted, guileless response —
-"I'm SO pumped. 4 stops, I'll give you a full report." It is the
-richest single primary-source window into the friendship on file, and
-it independently corroborates the operator's account that Jamie was a
-genuine presence in Dan's Brooklyn life during exactly the years
-Menore's own page places the original, undocumented introduction.
+Jamie spent in New York together right after college. Three
+independent 2011 sources confirm the friendship was real, active, and
+routine in that window — and one of them supplies an exact date.
 
-[[wiki/people/alexis-armel|Alexis]]'s own side of the household confirms
-the same thing from a second angle: in an August 12, 2011 Gchat with
-Dan, she asks "is Mohler supposed to come over? or is he house bound bc
-of his knee?" and Dan answers "no he's home-bound… probz for the best…
-i gets [Alexis] to myself" — a small, affectionate detail (a knee
-injury keeping a regular visitor away) that only exists because Jamie's
+[[wiki/people/alexis-armel|Alexis]]'s side of the household comes
+first, chronologically: in an August 12, 2011 Gchat with Dan, she asks
+"is Mohler supposed to come over? or is he house bound bc of his
+knee?" and Dan answers "no he's home-bound… probz for the best… i gets
+[Alexis] to myself" — a small, affectionate detail (a knee injury
+keeping a regular visitor away) that only exists because Jamie's
 visits were routine enough to plan around.
+
+Two weeks later, [[wiki/people/oscar-lindquist|Oscar Lindquist]]'s own
+Facebook thread pins a precise date to the friendship: on August 26,
+2011, Dan writes "mohler and i are heading out of town tonight because
+of the hurricane" — the two of them evacuating together ahead of
+Hurricane Irene, which struck the New York area two days later. It is
+the single most precisely dated fact in this page.
+
+A saved Google Talk log adds the fullest scene: on an autumn night in
+2011, during the Occupy Wall Street protests, Dan invites her over
+("Jimbo! it's Dan… do you want to come with us to march on times sq
+tomorrow with the 'occupy' crowd"), and she agrees immediately — "Yes!
+I'll stop by if you folks care for a bit of crown royal!
+Omnomnomnomnom" — takes the J train from her own corner of Brooklyn,
+and gets buzzed up with the apartment's door code ("dial to 63 when
+you get here"). The exchange includes Dan needling her about the
+sukkahs going up around Williamsburg for the fall holidays ("check out
+all the 'jew-huts'… crazy") and her delighted, guileless response —
+"I'm SO pumped. 4 stops, I'll give you a full report." Between the
+three sources, an undated "operator-attested only" claim becomes a
+friendship documented across a full season, with one anchor date fixed
+to the day.
 
 ## The 2023 transition
 
@@ -16350,17 +16523,19 @@ Jamie's appearances inside Jason's and Alexis's own threads.
 | Metric | Value |
 |---|---|
 | Direct chat log | 1 (Google Talk, ~autumn 2011, undated) |
-| Corroborating mentions | 4 (Alexis ×1, Jim Vrabel ×1, Jason Bermejo ×2) |
+| Corroborating mentions | 5 (Alexis ×1, Oscar Lindquist ×1, Jim Vrabel ×1, Jason Bermejo ×2) |
+| Pinned date | 2011-08-26 (Hurricane Irene evacuation, via Oscar's thread) |
 | Transition, per operator | ~2023 |
 | First documented friend-group reference post-transition | 2025-09-19 |
 
-**Gaps:** the 2011 chat log carries no exact date (internal evidence —
-Occupy Wall Street, approaching Jewish fall holidays — narrows it to
-roughly October 2011); the specific day and circumstance of the first
-Menore meeting remain operator-attested only; Jamie's current surname
-usage, location, and occupation are undocumented; nothing in the
-corpus records the transition directly, only after-the-fact peer
-references.
+**Gaps:** the Google Talk log itself carries no exact date (internal
+evidence — Occupy Wall Street, approaching Jewish fall holidays —
+narrows it to roughly October 2011, though the Hurricane Irene message
+independently pins the friendship's presence two weeks earlier); the
+specific day and circumstance of the first Menore meeting remain
+operator-attested only; Jamie's current surname usage, location, and
+occupation are undocumented; nothing in the corpus records the
+transition directly, only after-the-fact peer references.
 
 
 ========================================================================
@@ -16611,7 +16786,7 @@ Dan describes him as a gateway to "a different style of music that still resonat
 - **Donato "Steez McQueen"** — Died 2022 (fentanyl-laced xanax, implied); wore Steve McQueen Alexander McQueen jackets; made beats like J Dilla and Nujabes
 - **Gabe** — A cat, not a person: died 2023-10-30 ("I had to put gabe down today"), confirmed by [[wiki/people/eric-jester|Eric Jester]]'s independent same-date message ("I'm so sorry man. He was the cat that made me love cats!")
 - **[[wiki/people/jamie-mohler|Jamie Mohler]]** — fellow Full Sail
-  friend, not a girlfriend (see REVISED note below); part of the same
+  friend, not a girlfriend (see REVISED note above); part of the same
   named cohort as Dunn and Jester in Dan's own 2025 messages
 - **Kayden** — Someone in photos from the heroin-attempt era
 - **Mike Marino** — Knew him in Florida, wishes had photos to prove it
@@ -17842,6 +18017,95 @@ not established from the current sources.
 
 
 ========================================================================
+PAGE: wiki/people/lauryn-ashly.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2014-04-11
+date_range_end: 2020-09-14
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"
+tags: [uniontown-era, grief, relationships]
+infobox:
+  name: "Lauryn Ashly"
+  sex: female
+  location: remote
+  relationship_to_dan: friend
+  known_for: "Uniontown-era friend who shared Dan's real-time grief over Rob Orange's April 2014 death; declined an unsolicited 2020 arrangement-solicitation message with easy warmth"
+connections:
+  - page: wiki/people/rob-orange
+    type: evidences
+    claim: "Lauryn's April 11, 2014 exchange with Dan is the corpus's only contemporaneous account of Rob's death — traded in real time, the day the news broke, before either of them had processed it."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: co-occurs
+    claim: "Dan's September 2020 message soliciting 'sexually adventurous friends' for Annie is a rare documented instance of the arrangement being pitched to an old friend outside the usual circle and declined — 'unfortunately i do not' — without damaging the friendship."
+---
+
+# Lauryn Ashly
+
+Lauryn Ashly is a Uniontown-era friend whose short Facebook Messenger
+thread (April 2014, then a single exchange in September 2020) captures
+two very different registers of the same easy, undamaged friendship:
+real-time grief over a shared loss, and — six years later — an
+unsolicited, slightly desperate favor Dan asks that she declines
+without any strain showing.
+
+## Rob Orange's death, in real time
+
+The thread opens on April 11, 2014, the day news broke that
+[[wiki/people/rob-orange|Rob Orange]] had died. Lauryn and Dan trade
+theories neither of them can confirm — pills versus something injected,
+whether he'd relapsed or was simply unlucky — and land, together, on
+the same grief-management logic: neither can face the funeral, both
+decide Rob "would probably be more upset if we all went and sat nicely
+until it ended," and Lauryn instead plans to feel it later, "when I'm
+home for Easter next weekend and I got to call n text him." She was, by
+her own account, close enough to him that the loss physically knocked
+her over at work that day, and the two of them fall easily into
+finishing each other's thoughts about who he was — "such a live wire,"
+"so fucking alive all the time." The exchange also carries a small
+life update: Lauryn had moved to the DC/Maryland area for engineering
+recruiting work she "fucking hate[d]," while Dan reports he'd "moved to
+NYC for a few years doing the music thing and just came back to PA" —
+dating this snapshot to the tail end of the [[wiki/timeline/periods/uniontown-return-2013-2015|Uniontown-return period]].
+
+## The 2020 ask
+
+The friendship resurfaces once, six years later, for an entirely
+different reason. On September 11, 2020, Dan — now describing himself
+as in a nearly seven-year open relationship, visiting Uniontown — asks
+Lauryn, with visible self-consciousness, whether she knows any
+"sexually adventurous friends": "she gets laid all of the time and my
+big gift is that i get to watch... if it helps i'm bringing in enough
+drugs to satisfy Freud or david bowie." He apologizes twice in the same
+breath ("i'm sorry this is SUCH a weird question," "i feel so weird now.
+hope this wasn't like the most awk thing ever"). Lauryn's reply three
+days later is unbothered and warm — "haha it's totally fine! I was in
+Denver all weekend, but unfortunately i do not" — closing the thread on
+exactly the same easy footing it opened on. It is one of the corpus's
+few documented instances of the [[wiki/mind/psychosexual/arrangement-history|arrangement]] being pitched outside the established circle and simply declined, with no
+visible cost to the friendship either way.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~25 (Facebook Messenger, both directions) |
+| Date range | 2014-04-11 – 2020-09-14 |
+| Two windows | Rob Orange's death (Apr 2014); an arrangement solicitation, declined (Sep 2020) |
+
+**Gaps:** whether either of them ultimately attended Rob's funeral;
+Lauryn's current location and circumstances beyond the 2020 "Denver all
+weekend" mention.
+
+
+========================================================================
 PAGE: wiki/people/lindsay-carolla.md
 ========================================================================
 
@@ -17931,6 +18195,189 @@ Exact family relationship (aunt, cousin, family friend) is not stated in the thr
 ## Related
 
 [[wiki/people/vanessa-frank]] · [[wiki/self/message-corpora/master-message-dump]]
+
+
+========================================================================
+PAGE: wiki/people/lucie-dobbin.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2018-04-05
+date_range_end: 2019-08-21
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/luciedobbin_xdu6oa5apw/message_1.html"
+tags: [family, grief]
+infobox:
+  name: "Lucie Dobbin"
+  sex: female
+  relationship_to_dan: family
+  location: remote
+  known_for: "Longtime friend of Fran Coldren from her Florida winters; recipient of Dan's fullest first-person account of Fran's death, written the same night"
+connections:
+  - page: wiki/timeline/events/fran-death-vigil
+    type: component-of
+    claim: "Dan reached out to Lucie within hours of Fran's death specifically because she 'already knew just how magical that woman was' — the message is the vigil's richest surviving first-person account, offered to a peer of Fran's rather than family."
+  - page: wiki/people/fran-coldren
+    type: evidences
+    claim: "Lucie and her partner Chris are credited by name with enabling Fran's Florida winter trips late in her life — 'without you and chris doing so much... she wouldn't have been able to continue doing it' — a documented extension of Fran's independence the family-only record doesn't otherwise carry."
+---
+
+# Lucie Dobbin
+
+Lucie Dobbin was a longtime friend of [[wiki/people/fran-coldren|Fran
+Coldren]] from her winters in Florida — a "friend from Quebec City,"
+per the thread's own account of a shared birthday party years earlier —
+who received, within hours of Fran's death, the richest first-person
+account Dan ever wrote of that night. He reached out to her rather
+than to family: "you're one of the people who already knew just how
+magical that woman was."
+
+## The death, in Dan's own words
+
+On April 5, 2018 — the evening after Fran died — Dan messaged Lucie
+with an account not preserved in this detail anywhere else in the
+corpus. Annie had fallen asleep at the bedside during the third day of
+Fran's catatonic hospital stay; alone and awake, Dan tried, half as an
+experiment, "communicating with gram" using only his mind — "it was a
+silly idea, and something i never expected to produce a result...but
+right when i asked her if she could hear me: she woke up." He woke
+Annie; both told Fran they loved her; she smiled, went quiet, smiled
+once more, and died — "it was beautiful and peaceful and she was truly
+happy." The hospital's pronouncement followed within a minute, audible
+on the phone recording Dan made of the moment. Writing as "completely
+non-religious" and "skeptical about most supernatural situations," he
+allows only that the experience "was so powerful and so 'human' that i
+will need to process just how differently the world might be than i
+had originally thought" — a rare register of open uncertainty, offered
+to Lucie specifically because he judged she would understand it without
+needing to be convinced. Lucie's reply describes [[wiki/people/vicki|Vicki]] — Fran's caretaker — independently rewatching the video Dan
+sent, saying she "would have had trouble accepting it if she hadn't
+seen with her own eyes that she was okay."
+
+## Who she was to Fran
+
+Lucie is identified in the thread as "the granddaughter of Fran's
+next-door neighbors and close friends Jim and Sugie Ulmer" — placing
+her, like Annie, inside the extended Belmont Circle/Ulmer social
+world, though not as a blood relation of Annie's own immediate family.
+Dan credits Lucie and her partner Chris by name for enabling Fran's
+continued winter trips to Florida late in her life: "without you and
+chris doing so much... she wouldn't have been able to continue doing
+it," adding that the household kept telling Fran "she had just gotten
+back recently" rather than that the trips were ending, to spare her the
+grief of losing that independence. The thread also names "Genie"
+(spelled "Jeanie" by Lucie) as another Florida-era friend of Fran's,
+connected to the Dobbins by marriage — a detail Dan says he only pieced
+together while going through Fran's old photographs after her death.
+
+Dan invited Lucie and Chris to a memorial celebration at the Uniontown
+Country Club on May 6, 2018 (12–4 PM), explicitly framed as "a happy
+occasion" rather than a funeral; Lucie's reply suggests they were still
+in Florida and uncertain whether they could attend. The thread's last
+entry is a Facebook friendship-anniversary notice in August 2019; there
+is no message after April 2018.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~20 substantive (Facebook Messenger, both directions) |
+| Date range | 2018-04-05 – 2019-08-21 |
+| Defining exchange | The death-night account, Apr 5–9, 2018 |
+
+**Gaps:** whether Lucie and Chris attended the May 6 memorial; Lucie's
+current location and relationship to the Ulmer family beyond the
+neighbor connection; the identity and fate of "Genie"/"Jeanie."
+
+
+========================================================================
+PAGE: wiki/people/lukyan-mraz.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2015-08-14
+date_range_end: 2016-03-11
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lukyanmraz_cdrt3jsg7g/message_1.html"
+tags: [uniontown-era, addiction-recovery, digital-footprint]
+infobox:
+  name: "Lukyan Mraz"
+  sex: male
+  location: uniontown
+  relationship_to_dan: friend
+  known_for: "Uniontown friend and short-lived cannabis-grow collaborator, 2015; connected to Zach Harshman's household; thread ends in a tense equipment dispute in March 2016"
+connections:
+  - page: wiki/people/zachariah-harshman
+    type: co-occurs
+    claim: "Lukyan's own Feb 17, 2016 'Hey dude you alright?' — one day before Zach separately asks 'is everything alright with Luke?' — cross-corroborates a moment of concern between the two households that neither thread individually explains."
+  - page: wiki/places/155-virginia-ave
+    type: co-occurs
+    claim: "Lukyan's visits are staged around the same household as Zach's supply handoffs ('wanted to see if Zach was there'), and a lent lap-quilting book and 'the room' with 'equipment' point to a small cannabis-grow attempt run out of the same Uniontown social circle."
+---
+
+# Lukyan Mraz
+
+Lukyan Mraz is a Uniontown friend, connected to the same household as
+[[wiki/people/zachariah-harshman|Zach Harshman]], whose short Facebook
+Messenger thread (36 messages, August 2015 – March 2016) documents a
+brief cannabis-cultivation collaboration that ends, seven months later,
+in a tense dispute over borrowed equipment.
+
+## The grow attempt
+
+In August 2015 Lukyan lends Dan what the two describe, half in code,
+as "a book... on lap quilting" — a growing guide, given the context:
+Dan calls it "super helpful" and "all you need to know in one place,"
+Lukyan jokes it's "been in my family for generations... groovy," and
+the exchange turns explicitly toward setting something up: "if you
+want to set up something bigger I can help out. I have a bunch of
+equipment, but no really good space. I'd love to start something
+again, and I like teaching it." A September 23, 2015 update — "Confirmed
+female on the first one" — is the thread's only signal the project
+actually produced anything (a female cannabis plant, in a small home
+grow, is the desired outcome). Late-August messages have Lukyan
+checking whether Zach was at the house before stopping by, placing him
+inside the same social circle documented on Zach's own page.
+
+## The ending
+
+The friendship's last exchange, seven months later, sours completely.
+On February 17, 2016 — one day before Zach separately asks Dan "is
+everything alright with Luke?" in his own thread — Lukyan sends "Hey
+dude you alright?", suggesting some kind of trouble or falling-out of
+mood was already visible from outside. By March 11, 2016 the register
+has turned hostile: "When should I expect you? Because I am expecting
+you... Sunrise is at 6:37, almost out of time," followed by an
+ultimatum — "I have better shit to do than play Dan's games. He said
+he was bringing everything last night. You have 12 hours. Midnight or
+I'll report it stolen." The thread ends there; whatever was owed and
+whether it was returned is undocumented.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | 36 (Facebook Messenger, both directions) |
+| Date range | 2015-08-14 – 2016-03-11 |
+| Defining project | A short-lived home cannabis grow, Aug–Sep 2015 |
+| Ending | Equipment dispute, Mar 11, 2016; theft threatened |
+
+**Gaps:** the exact nature of "everything" owed by March 2016 and
+whether it was resolved; what prompted Lukyan's Feb 17 "you alright?"
+check-in, cross-corroborated by Zach's own concern the next day but
+unexplained in either thread; Lukyan's current circumstances.
 
 
 ========================================================================
@@ -18299,11 +18746,12 @@ status: active
 knowledge: mixed
 date_created: 2026-07-19
 date_modified: 2026-07-19
-date_range_start: 2018-11-16
+date_range_start: 2012-02-01
 date_range_end: 2025-10-06
 sources:
   - "raw/self/message-csv/interspersed_messages.csv"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/mattdunn_abk0dttjqa/message_1.html"
   - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
 tags: [career, digital-footprint, relationships]
 infobox:
@@ -18311,7 +18759,8 @@ infobox:
   sex: male
   relationship_to_dan: friend
   location: remote
-  known_for: "Full Sail-era friend, affectionately abused as 'the world's most annoying man woman or child'; the running $5 birthday Venmo-request bit with Eric Jester"
+  handles: ["Facebook Messenger"]
+  known_for: "Full Sail-era friend, affectionately abused as 'the world's most annoying man woman or child'; the running $5 birthday Venmo-request bit with Eric Jester; witness to the 2022 Oscar Lindquist coincidence"
 connections:
   - page: wiki/people/jason-bermejo
     type: co-occurs
@@ -18331,16 +18780,37 @@ Jason Bermejo's contemporaneous verdict, preserved on
 [[wiki/people/jason-bermejo|Jason's own page]], is "world's most
 annoying man woman or child," and Dan's own 2025 one-line review —
 delivered to Jason, not to Dunn — is blunter still: "Dunn = gross and
-forgettable." No dedicated message thread with Dunn survives in the
-corpus; everything documented about him arrives secondhand, through
-[[wiki/people/eric-jester|Eric Jester]]'s and Jason's threads, which is
-itself informative — of the four-person Full Sail cohort (Dan, Jason,
-Eric, Dunn, and [[wiki/people/jamie-mohler|Jamie Mohler]]), Dunn is the
-one member with no direct digital footprint of his own on file.
+forgettable." A short, decade-spanning Facebook Messenger thread
+survives directly with Dunn (6 messages, February 2012 – March 2022) —
+sparse, but real, and it happens to carry the corpus's best account of
+one of the wiki's stranger coincidences.
 
-## What the record shows
+## The Oscar Lindquist coincidence, dated
 
-The earliest dated sighting is November 16, 2018, in Eric's thread:
+[[wiki/people/jason-bermejo|Jason's page]] already preserved the bare
+fact — Dan ran into an old Florida friend, Oscar Lindquist, while
+waiting tables in Manhattan, an "impossible coincidence in a 9M-person
+city." The Dunn thread supplies the date and Dan's live reaction: on
+March 5, 2022, at 9:57 PM, Dan tells Dunn "So I'm waiting tables in
+midtown Manhattan and guess who sits down in my section," names him
+the next minute ("Oscar motherfuckin lindquist"), and Dunn's delighted
+reply the following day — "SHUT UP OSCAR" — is the thread's whole
+payoff. [[wiki/people/oscar-lindquist|Oscar's own Facebook thread]]
+independently confirms the two men knew each other from the Full Sail
+years (an August 2011 exchange places them coordinating around
+Hurricane Irene), closing the loop on how Dan and Oscar were connected
+in the first place.
+
+An earlier fragment (February 1, 2012) — "found this on my computer
+rofl," Dunn's reply "Hahaha no doubt tue best thing to ever be written
+on the board" — preserves an in-joke whose referent (a photo, evidently
+attached) is lost to the export; a March 19, 2013 "missed video chat"
+notice is the thread's only other surviving row.
+
+## What the wider record shows
+
+The earliest dated sighting outside this thread is November 16, 2018,
+in Eric's thread:
 "Dunn is down in that neighborhood right now. He was texting me about
 t.… He was snapping me videos of full sail earlier" — Dunn back at the
 Orlando campus itself, seven years after the cohort's own attendance
@@ -18370,16 +18840,15 @@ does not mean forgotten.
 
 | Metric | Value |
 |---|---|
-| Direct messages from Dunn | 0 (no dedicated thread on file) |
+| Direct messages (Facebook Messenger) | 6, Feb 2012 – Mar 2022 |
 | Mentions, third-party threads | 4 (Eric Jester ×2, Jason Bermejo ×2) |
-| Date range of mentions | 2018-11-16 – 2025-10-06 |
+| Date range, all sources | 2012-02-01 – 2025-10-06 |
 
-**Gaps:** no handle, phone number, or direct thread for Dunn exists in
-the corpus — everything here is what Eric and Jason say about him. His
-current occupation, location, and life circumstances are undocumented.
-Whether he still uses Venmo to extract the annual $5 in years not
-covered by these two snapshots is unconfirmed but, given the pattern's
-described consistency, likely.
+**Gaps:** no phone number or iMessage thread for Dunn exists in the
+corpus, only the Facebook thread; his current occupation, location, and
+life circumstances are undocumented. Whether he still uses Venmo to
+extract the annual $5 in years not covered by Eric's snapshot is
+unconfirmed but, given the pattern's described consistency, likely.
 
 
 ========================================================================
@@ -19191,8 +19660,7 @@ date_created: 2026-06-23
 date_modified: 2026-07-19
 date_range_start: 2018-04-22
 date_range_end: 2019-10-20
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/alexis-armel", "wiki/people/annie-ulmer", "wiki/people/steve-kezmarsky", "wiki/people/tom", "wiki/self/message-corpora/master-message-dump"]
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"]
 tags: [relationships, career, financial-stress]
 knowledge: mixed
 infobox:
@@ -19203,6 +19671,12 @@ infobox:
   first_contact: 2018-04-22
   known_for: "Jim Shaffer — 'not the only Jim Shaffer' in Dan's life, hence the 'new' contacts-card label — is a wealthy childhood fri"
 connections:
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Jim's enthusiastic, judgment-free reaction to learning about the Dan/Annie arrangement — disclosing his own interest in swinging and negotiating toward joining an encounter — is a friend-group data point on how normalized the arrangement was among Dan's peers."
+  - page: wiki/people/rob-orange
+    type: co-occurs
+    claim: "Jim's Dec 2018 remembrance and the Tom Petty minivan story are the corpus's second independent account of Rob, four years after his death — corroborating the 'live wire' character sketch Lauryn Ashly gives in real time the day he died."
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Steve's death reaches the record through this thread — Jim hadn't heard, December 2018 — the second dead member (after Rob Orange) of the same high-school-era Uniontown circle."
@@ -19228,7 +19702,7 @@ Jim is also aware of, and treats as funny running gossip, Dan's 2019 NYC "hooker
 
 ## Shared history and grief
 
-The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]]'s death: Jim didn't know she'd died and is visibly upset he wasn't told, asks to see a video of the family together, and reacts warmly to a detail of Fran smoking marijuana with Dan near the end of her life. A December 2018 exchange remembers a mutual friend, Rob Orange — dead by then — with real tenderness underneath the jokes: "Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week. I'd trade everyone in that photo for one more call." The same conversation turns to [[wiki/people/steve-kezmarsky|Steve Kezmarsky]], another shared high-school-era contact: Jim briefly misunderstands Dan's joke and asks "Wait... he's dead?", but Dan corrects him — Steve was alive, sober, and raising two kids while his father faced a life sentence ("He's alive but living the least enviable life EVER").
+The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]]'s death: Jim didn't know she'd died and is visibly upset he wasn't told, asks to see a video of the family together, and reacts warmly to a detail of Fran smoking marijuana with Dan near the end of her life. A December 2018 exchange remembers a mutual friend, [[wiki/people/rob-orange|Rob Orange]] — dead since April 2014 — first through a shared adventure ("Do you remember when me, you and rob orange took that suped up mini van to the Tom Petty concert"), then with real tenderness underneath the jokes: "Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week. I'd trade everyone in that photo for one more call" — the one place in a thread otherwise dense with shock humor where the register drops entirely. The same conversation turns to [[wiki/people/steve-kezmarsky|Steve Kezmarsky]], another shared high-school-era contact: Jim briefly misunderstands Dan's joke and asks "Wait... he's dead?", but Dan corrects him — Steve was alive, sober, and raising two kids while his father faced a life sentence ("He's alive but living the least enviable life EVER").
 
 > **REVISED [2026-07-19]:** This paragraph previously repeated the
 > misreading that Steve Kezmarsky had died. The raw thread shows Dan
@@ -19244,10 +19718,6 @@ The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]
 | Date range | 2018-04-22 to 2019-10-20 |
 | Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Jim to Dan) |
 | Handle | +14125139408 |
-
-## Related
-
-[[wiki/people/alexis-armel]] · [[wiki/people/annie-ulmer]] · [[wiki/people/steve-kezmarsky]] · [[wiki/people/tom]] · [[wiki/self/message-corpora/master-message-dump]]
 
 
 ========================================================================
@@ -19370,6 +19840,91 @@ the final ledger state and whether debt ended the contact; Nick's
 upstream source; the "Brian Brink"/HR job thread of May 7 (one
 fragment, uninterpretable); whether "Andy" is the corpus's Andy or
 another.
+
+
+========================================================================
+PAGE: wiki/people/oscar-lindquist.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2011-08-26
+date_range_end: 2022-03-06
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/oscarlindquist_osj0xrxodg/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/mattdunn_abk0dttjqa/message_1.html"
+tags: [career, digital-footprint, relationships]
+infobox:
+  name: "Oscar Lindquist"
+  sex: male
+  relationship_to_dan: friend
+  location: remote
+  handles: ["724-208-3475"]
+  known_for: "Full Sail-adjacent friend who evacuated Florida the same week as Jamie Mohler for Hurricane Irene (Aug 2011); reappeared a decade later as a customer at Dan's Manhattan restaurant table"
+connections:
+  - page: wiki/people/jamie-mohler
+    type: evidences
+    claim: "Oscar's own Aug 26, 2011 message ('mohler and i are heading out of town tonight because of the hurricane') precisely dates the NYC-1 Hurricane Irene evacuation to a single day, upgrading the period from an undated chat log to a pinned date."
+  - page: wiki/people/matt-dunn
+    type: co-occurs
+    claim: "The 2022 Manhattan-restaurant coincidence Dan told Dunn in real time ('guess who sits down in my section') is the same event this thread's own final message anticipates nothing of — Oscar's side of the reunion is undocumented, only Dan's telling of it survives."
+  - page: wiki/people/jason-bermejo
+    type: evidences
+    claim: "This thread is the primary source behind the 'impossible coincidence in a 9M-person city' anecdote on Jason's page — it independently confirms Oscar and Dan's Full Sail-era connection and supplies the exact date."
+---
+
+# Oscar Lindquist
+
+Oscar Lindquist is a friend from Dan's Florida years whose entire
+surviving footprint is a six-line Facebook Messenger thread
+(`724-208-3475`, August–October 2011) — thin, but precisely dated, and
+the primary source behind an anecdote otherwise preserved only as a
+punchline on [[wiki/people/jason-bermejo|Jason Bermejo's page]].
+
+## Hurricane Irene, dated
+
+On August 26, 2011, Dan writes: "mohler and i are heading out of town
+tonight because of the hurricane" — [[wiki/people/jamie-mohler|Jamie
+Mohler]], evacuating together ahead of Hurricane Irene, which struck
+the New York area two days later. Oscar's reply implies he'd made a
+similar call already ("Haha, nice. I was going to go to Cocoa today
+but I slept too long") and mentions plans to be "up there in a couple
+of weeks." A follow-up on October 2, 2011 — "Shoot me a text/call if
+you want to come down and meet up. I think today will be a decisive
+day for the 99%ers" — places Oscar near the Occupy Wall Street action
+that same autumn, the same protest movement documented in
+[[wiki/people/jamie-mohler|Jamie's]] own 2011 chat log with Dan. Between
+them, the two threads turn an undated "~autumn 2011" estimate into a
+specific, corroborated week.
+
+## The 2022 coincidence
+
+The thread itself ends in 2011, but the friendship's best-known
+moment happened a decade later and is preserved only secondhand, on
+[[wiki/people/matt-dunn|Matt Dunn's page]]: on March 5, 2022, Dan was
+waiting tables in midtown Manhattan when Oscar sat down in his section
+— the "impossible coincidence in a 9M-person city" Jason's page
+already carried as an unanchored anecdote. Nothing in Oscar's own
+thread documents his side of that encounter or any contact
+surrounding it; the reunion is known only through what Dan told Dunn
+that night.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Direct messages (Facebook Messenger) | 6, Aug–Oct 2011 |
+| Corroborating mentions | 2 (Jason Bermejo, Matt Dunn) |
+
+**Gaps:** no thread survives from 2012 onward, so the eleven-year gap
+between the Hurricane Irene evacuation and the restaurant coincidence
+is entirely undocumented; Oscar's current location, occupation, and
+whether the 2022 encounter led to renewed contact are unknown.
 
 
 ========================================================================
@@ -19613,6 +20168,101 @@ location, employment, or whether contact continued after May 2020.
 | iMessage range | 2019-02-12 – 2020-05-19 |
 | Key event | Manhattan visit, 2019-07-05 – 2019-07-08 |
 | Identity resolution | `+17249844280` = RJ Ritchey |
+
+
+========================================================================
+PAGE: wiki/people/rob-orange.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2013-03-26
+date_range_end: 2018-12-09
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+tags: [uniontown-era, addiction-recovery, grief]
+infobox:
+  name: "Rob Orange"
+  sex: male
+  location: uniontown
+  relationship_to_dan: friend
+  known_for: "High-school-era Uniontown friend; died April 2014, suspected opioid overdose, cause never confirmed in the corpus; mourned years later by both Dan and Jim Shaffer as the one loss among the cohort that actually hurt"
+connections:
+  - page: wiki/people/new-jim-shaffer
+    type: co-occurs
+    claim: "Jim's Dec 2018 remembrance — 'Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week' — and the Tom Petty minivan story are the corpus's second independent account of the friendship, four years after his death."
+  - page: wiki/people/lauryn-ashly
+    type: evidenced-by
+    claim: "Lauryn's April 11, 2014 real-time reaction to the death, traded with Dan the day the news broke, is the corpus's only contemporaneous account of Rob's death and its suspected cause."
+  - page: wiki/people/steve-kezmarsky
+    type: co-occurs
+    claim: "Jim's Dec 2018 thread names Rob and Steve back to back as the cohort's losses — except Steve, per a correction the same conversation forces, was misheard as dead and was actually alive."
+---
+
+# Rob Orange
+
+Rob Orange was a Uniontown high-school-era friend who died on or
+around April 11, 2014 — the one loss in Dan's cohort that, years
+later, both he and [[wiki/people/new-jim-shaffer|Jim Shaffer]]
+independently describe as the one that actually hurt, in a friend
+group otherwise known for treating its own losses as dark-comedy
+material.
+
+## The death (April 2014)
+
+The corpus's only contemporaneous account comes from
+[[wiki/people/lauryn-ashly|Lauryn Ashly]]'s Facebook thread, traded
+with Dan the day the news broke. Neither of them knew the cause for
+certain: "no he wasn't [in bad shape], he was doing great for a good
+min now, and rob was never good at hiding using as much as he thought
+he was, i have no clue what happened unless maybe his tolerance was low
+and he got a few on a whim." Both suspected an opioid overdose but
+disagreed on the drug — Lauryn: "I've never seen him do H though, only
+blues [oxycodone 30mg pills]... even when he was really bad, i never
+saw that" — while a public statement (sent to the family for approval
+before release) contained "a quote" that made her think "he'd been
+shooting something." Neither reading is confirmed; Dan himself says
+"i almost know he was clean so I'm not sure at all." A location,
+"Edgewood," is mentioned once without explanation. A funeral was
+expected that Tuesday or Wednesday; neither Dan (newly started at a job
+he "royally hate[d]") nor Lauryn (four hours away, unable to face
+seeing him "like that") could attend, and both talk themselves into a
+version of "he would probably be more upset if we all went and sat
+nicely until it ended."
+
+## Who he was
+
+The corpus's character sketch is consistent across both this thread and
+Jim Shaffer's, four years apart. Lauryn: "he was so fucking alive all
+the time... such a live wire," recalling how they'd "cruise around all
+the time just ripping on each other constantly" and a running joke
+where she'd text him "i fucking hate engineers" to wind him up. Jim, in
+a December 2018 exchange with Dan mourning him alongside remembering a
+shared adventure — "Do you remember when me, you and rob orange took
+that suped up mini van to the Tom Petty concert" — and, more quietly:
+"Rob and I would talk on the phone and laugh till we cried for 2 hours
+at a time, 5 days a week. I'd trade everyone in that photo for one more
+call." Jim's tribute is notable for its register — the same thread runs
+on dense, edgy shock humor throughout, and this is the one place it
+drops entirely.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Death | ~April 11, 2014 (news breaking date); cause never confirmed |
+| Contemporaneous account | Lauryn Ashly thread, Apr 11, 2014 |
+| Retrospective mourning | Jim Shaffer thread, Dec 2018 |
+
+**Gaps:** confirmed cause of death; the significance of "Edgewood";
+whether Dan or Lauryn ultimately attended the funeral; Rob's full name
+and any surviving family.
 
 
 ========================================================================
@@ -19983,6 +20633,100 @@ Real last name and any life after July 2019 are undocumented — the thread ends
 ## Related
 
 [[wiki/people/annie-ulmer]] · [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+
+
+========================================================================
+PAGE: wiki/people/stephanie-nalbone.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2009-09-25
+date_range_end: 2009-11-10
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/stephanienalbone_tnsgkur3lq/message_1.html"
+tags: [relationships, uniontown-era]
+infobox:
+  name: "Stephanie Nalbone"
+  sex: female
+  location: uniontown
+  relationship_to_dan: ex-partner
+  first_contact: 2009-09-25
+  known_for: "A previously undocumented six-week long-distance relationship, Sept-Nov 2009, right at the close of Full Sail — reconnected after graduation, visited in person, ended without explanation"
+connections:
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: evidences
+    claim: "A previously undocumented relationship falling inside this period's own relationship-pivot window — Stephanie's Sept-Nov 2009 thread runs concurrently with the Danielle-ending/Alexis-beginning transition the period page already documents, without resolving how the three overlap."
+---
+
+# Stephanie Nalbone
+
+Stephanie Nalbone is an ex-girlfriend from a relationship the corpus
+had no other record of: a six-week, high-intensity long-distance
+romance running late September to early November 2009, reconnecting
+old Uniontown history right at the close of
+[[wiki/timeline/periods/full-sail-2008-2010|Full Sail]].
+
+## The relationship
+
+The thread opens with Stephanie reaching out cold after a long silence
+("daaan! whats up?! havent talked to u in forever"), the same week Dan
+describes having "just graduated today for music production" and
+announces a plan to "mov[e] to LA in a month to work in a studio" — a
+plan that, per the rest of the corpus, never happened; he instead
+stayed in Orlando through the Pro Tools certification that winter and
+moved to Brooklyn the following April. Within two weeks the exchange
+turns explicitly romantic and stays there without interruption:
+constant "I ♥ you," daily phone dates, drunk-texting confessions,
+YouTube-link flirting, and a real in-person visit — Dan traveling from
+Orlando back to Uniontown for a weekend that included a shared
+screening of *Saw VI* (released October 23, 2009, dating the trip to
+late October; a message to a third party afterward — "yea i was with
+steph at saw 6" — confirms it). A rough patch surfaces the night before
+he leaves: Dan apologizes at length for a "shitty night" — smoking, an
+argument with his mother — and lands on something closer to real
+self-diagnosis than anything else in the thread: "I remember why i
+left here — I can feel it as soon as i get back, and it's too real for
+me to deal with. 'it' makes me sick...but i don't know what 'it' is."
+It is the thread's only crack in an otherwise uniformly affectionate
+exchange, and a rare pre-corpus glimpse of a Uniontown-return dread
+that recurs throughout his adult life, dated here to 2009 — years
+earlier than any other documented instance of the pattern. The
+relationship winds down abruptly after November 5, with Stephanie
+apologizing for being "beat... via irresponsive," and the thread goes
+quiet after November 10, 2009.
+
+## An unresolved sequencing question
+
+[[wiki/timeline/periods/full-sail-2008-2010|The Full Sail period page]]
+already documents Dan's relationship with
+[[wiki/people/danielle-onesi|Danielle Onesi]] ending during this same
+general window (over an affair, "a girl from Baltimore") and
+[[wiki/people/alexis-armel|Alexis]] beginning "the same year (2009)"
+without a specific month. This relationship — genuinely mutual,
+romantic, and dated precisely to September–November 2009 — sits
+somewhere inside that same gap, and nothing in either thread clarifies
+whether it preceded Alexis, overlapped the Danielle ending, or was a
+short rebound between the two. The corpus does not name Stephanie
+anywhere else, so the relationship's place in the 2009 sequence is
+genuinely unresolved rather than merely undocumented in detail.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~120 (Facebook Messenger, both directions) |
+| Date range | 2009-09-25 – 2009-11-10 |
+| Defining event | An in-person visit, late October 2009 (dated via a Saw VI reference) |
+
+**Gaps:** how the relationship ended (no breakup message survives, only
+declining frequency); where it falls relative to Danielle and Alexis in
+2009; Stephanie's life after November 2009.
 
 
 ========================================================================
@@ -21862,6 +22606,179 @@ after April 2018.
 
 
 ========================================================================
+PAGE: wiki/people/zachariah-harshman.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2011-10-16
+date_range_end: 2021-10-01
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/zachariahharshman_dgkcd6awma/message_1.html"
+tags: [uniontown-era, addiction-recovery, music-production, relationships, digital-footprint]
+infobox:
+  name: "Zachariah Harshman"
+  sex: male
+  location: uniontown
+  relationship_to_dan: friend
+  known_for: "High-school-era Laurel Highlands friend and 2014–15 Uniontown supply node whose Dec 23, 2015 rupture is an independent third-party account of the Alexis-to-Annie bond switch; friendship survived and revived as a platonic gaming relationship by 2020"
+connections:
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Zach is an undocumented 2014–15 Uniontown supply node (wax, dabs, flower, priced by the cut/quarter) operating out of the 155 Virginia Ave household — three years earlier than the network page's earliest-documented Johnny/Teddy era."
+  - page: wiki/mind/synthesis/bond-switch-2015
+    type: evidences
+    claim: "Zach's own Dec 23, 2015 confrontation ('hanging out with the ex girlfriend of your best friend immediately after they break up') is an independent third-party account of the Alexis-to-Annie switch's social fallout, dated within a month of the Nov 28–29 pivot the synthesis documents from Dan's side only."
+  - page: wiki/places/155-virginia-ave
+    type: co-occurs
+    claim: "Nearly every documented handoff in the 2014–15 supply relationship happens at the house — 'front door is open, i'm in the kitchen,' 'side door to garage' — placing Zach inside the same lair-continuity the bond-switch thesis tracks."
+  - page: wiki/interests/music/aliases/sloppp
+    type: co-occurs
+    claim: "Zach is SLOPPP's earliest documented fan and promoter — pitching Dan to a Pittsburgh rave scene contact in January 2014, less than two years before the project's Dec 26, 2015 'Goodbye Demo' close."
+---
+
+# Zachariah Harshman
+
+Zachariah Harshman is a Laurel Highlands High School-era friend from
+Uniontown whose decade-spanning Facebook Messenger thread (October
+2011 – October 2021, roughly 970 messages) runs through three distinct
+lives: a fellow burnout reminiscing about a drug-hazed senior year, a
+2014–15 Uniontown weed and wax supplier operating out of the
+[[wiki/places/155-virginia-ave|155 Virginia Avenue]] household, and —
+after a genuine, ugly rupture — a platonic gaming friend who resurfaces
+warmly in 2020 with nothing left of the earlier register at all. The
+friendship's full arc, unusually, survives its own worst moment.
+
+## High school, remembered
+
+The earliest substantive exchange (October 2012) is pure shared
+nostalgia for their senior year: "i seriously don't remember much of
+2005/6," Dan writes, "i don't know if i've blocked it mentally or if it
+was the amount of drugs," and Zach answers with pride rather than
+concern — "Dude we killed it tho... N my senior year dude i did u
+proud lol... We were hard as fuck tho we ran LH." It is one of the
+corpus's few direct, contemporaneous confirmations that the addiction
+arc predates the corpus proper and was locally legendary at the time,
+not a private struggle — two friends toasting a shared reputation for
+excess rather than processing it as harm.
+
+## The SLOPPP pitch (January 2014)
+
+Zach is [[wiki/interests/music/aliases/sloppp|SLOPPP]]'s earliest
+documented booster. On January 28–29, 2014 — a year into the alias's
+run — he spends a late night hyping a mix ("Dude the drop after the
+roar samples was perfect... you a fool for this one"), then does
+something no one else in the corpus is shown doing this early:
+actively pitches Dan to the Pittsburgh rave scene. He connects Dan with
+a contact named Timmie Sawyers ("she wants to watch u do your thing
+before she contacts people") and pushes for a booking at a weekly rave
+night at a Pittsburgh gallery venue. Dan sends over the SoundCloud link
+and his email, describes his setup (a Numark NS7 II controller, Serato
+DJ, production in Logic Pro X), and the two half-jokingly plan a studio
+session — Zach wants beats to rap over, Dan promises "everything set
+up here." Nothing documents whether the Timmie Sawyers booking
+materialized, but the exchange is a rare primary window into SLOPPP
+actively trying to break into a live scene, "desperate to play" a
+first show, eighteen months before the alias closed.
+
+## The supply relationship (2014–2015)
+
+Beneath the music talk runs a second, denser thread: from mid-2014
+through the end of 2015, Zach is a regular Uniontown supplier — wax,
+dabs, "budder," and flower priced by the cut and quarter ("50/cut
+90/q"), with occasional side asks in both directions (Zach floats a
+one-time wax deal at double asking price from "my mom's connect";
+Dan pays him for a ride). The 2014 handoffs reference "my mom" and give
+no fixed address; from January 2015 onward the staging language turns
+specific and consistent — "front door is open, i'm in the kitchen,"
+"side door to garage," instructions to keep
+[[wiki/people/alexis-armel|Alexis]] quiet while she's snuck upstairs —
+matching the January 2015 move to
+[[wiki/places/155-virginia-ave|155 Virginia Avenue]], the address the
+[[wiki/mind/synthesis/bond-switch-2015|bond-switch synthesis]] later
+identifies as the lair Annie inherits. This is a genuine gap closed in
+the [[wiki/mind/synthesis/supply-network|supply network]] record: the
+earliest previously-documented Uniontown nodes (Johnny, Teddy) date to
+2018; Zach's thread pushes the network's attested history back three
+years.
+
+## The December 23, 2015 rupture
+
+The relationship ends explosively, and precisely datably, three weeks
+after [[wiki/people/annie-ulmer|Annie]] enters the picture. At 4:21 AM
+on December 23, 2015, Dan sends a long, furious message accusing Zach
+of "vanishing into thin air" and hearing about it "second hand" — Zach
+had stopped bringing his supply business to the house. Zach's
+explanation is the thread's real payload: he'd become
+[[wiki/people/alexis-armel|Alexis]]'s "best friend other than you for
+the past year," was spending regular time with her post-breakup, and
+had pulled back specifically because of how it would look — "if you're
+going to all of the sudden hang out 'all the time' with the ex
+girlfriend of your best friend immediately after they break up, you
+might want to make sure the aforementioned friend doesn't feel a
+complete sense of betrayal." Dan does not deny any of it — "That's
+your decision... Later dude and seriously. Good luck!" — and the
+exchange closes with real hostility on both sides before trailing into
+one long, conciliatory paragraph from Zach that goes unanswered for
+nearly two months.
+
+This is independent, third-party, real-time corroboration of exactly
+what [[wiki/mind/synthesis/bond-switch-2015|the bond-switch
+synthesis]] reconstructs from Dan's side of the corpus alone: the
+Alexis-to-Annie transfer happened fast enough, and visibly enough, to
+detonate a separate friendship in the same month. Zach is not
+speculating from outside — he was inside Alexis's orbit at the exact
+moment of the switch, and his anger is calibrated to having watched it
+happen. The date also sits three days before
+[[wiki/interests/music/aliases/sloppp|SLOPPP's]] own December 26, 2015
+"Goodbye Demo" — a temporal adjacency worth noting, though nothing in
+either thread asserts the two closures are connected.
+
+## After the rupture: dormancy, then revival
+
+The friendship does not stay dead, but it changes register permanently.
+A brief, guarded check-in follows on February 18, 2016 ("Yo is
+everything alright with Luke?" — Zach asking after
+[[wiki/people/lukyan-mraz|Lukyan Mraz]], a shared friend named earlier
+in the thread as an Xbox-modding console gamer). Contact through 2016–
+2018 is sparse and largely transactional — a March 2017 "desperately
+seeking oil" message is the last drug-adjacent ask in the record — then
+goes fully dormant from late 2018 to November 2020.
+
+When it resumes, in November 2020, the register has changed entirely:
+two men in their thirties trading deep, technical, entirely sober
+opinions about Skater XL and the Tony Hawk's Pro Skater remake — replay
+value, trick mechanics, PS5 load times — with the warmth of the
+original high-school friendship intact and none of its former
+transactional content. The thread's last message (October 1, 2021) is
+Zach circling back to a video Dan had sent him a week earlier, still
+engaged. Whatever the 2015 rupture cost, it did not cost the
+friendship permanently.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~970 (Facebook Messenger, both directions) |
+| Date range | 2011-10-16 – 2021-10-01 |
+| Peak density | 2014–2015 (supply relationship + SLOPPP pitch) |
+| Rupture | 2015-12-23; partial thaw from 2016-02-18; full dormancy 2018–2020 |
+| Revival | 2020-11-29, sustained through 2021, drug-content-free |
+
+**Gaps:** whether the Timmie Sawyers/Pittsburgh rave booking ever
+happened is undocumented past the January 2014 pitch; the January 1,
+2015 mention of "Dustin DiCenzo" dying is unelaborated (no page exists
+for that name); Zach's current occupation and location are unknown;
+whether any contact continued past October 2021 is outside this
+export's range.
+
+
+========================================================================
 PAGE: wiki/places/117-belmont-circle.md
 ========================================================================
 
@@ -21956,6 +22873,9 @@ connections:
   - page: wiki/mind/synthesis/bond-switch-2015
     type: evidences
     claim: "The lair-continuity documented at this address is spatial proof the switch was a swap, not a relocation."
+  - page: wiki/people/zachariah-harshman
+    type: evidenced-by
+    claim: "From January 2015 the address is Zach's consistent handoff location ('front door is open, i'm in the kitchen'), placing the earliest documented Uniontown supply node inside this same house — and inside the same month the Alexis-to-Annie transfer he later reacts to takes place."
 ---
 
 
@@ -25436,6 +26356,7 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - "raw/self/dox-md/_Photo Thread PT II_ Grand Finale Calibration .md"
   - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/luciedobbin_xdu6oa5apw/message_1.html"
 related:
   - wiki/people/fran-coldren
   - wiki/people/annie-ulmer
@@ -25462,6 +26383,9 @@ connections:
   - page: wiki/people/urpaaa-at-yahoo-com
     type: follows
     claim: "The vigil follows a documented October 2017 pre-vigil caregiving episode — 'gram is bleeding… i'm only one here' — that Dan reported to the unidentified urpaaa contact, showing the solo-caregiver load predated the falls by months."
+  - page: wiki/people/lucie-dobbin
+    type: evidenced-by
+    claim: "Dan's same-night message to Lucie is the fullest first-person account of the death moment on record — the silent mental-communication attempt, the final smile, the immediate pronouncement — written with a candor about genuine uncertainty found nowhere else in his corpus."
   - page: wiki/people/annie-ulmer
     type: evidences
     claim: "The vigil is the high-water mark of the Annie decade — the one extended episode where Dan and Annie function as a unit under real weight, part of why the bond survived what followed."
@@ -25565,6 +26489,31 @@ closing image. His verdict: "it really was about as quick, painless and
 easy of a death as one could wish for. if anyone deserved it, it was
 her. she grew up DIRT fucking poor and went on to live an absolute
 batshit crazy life."
+
+A same-night Facebook message to [[wiki/people/lucie-dobbin|Lucie
+Dobbin]], a longtime friend of Fran's from her Florida winters, gives
+the fullest first-person account of the moment on record. Annie had
+fallen asleep at the bedside; Dan, alone and awake, silently tried
+"communicating with gram" using only his mind — "it was a silly idea,
+and something i never expected to produce a result...but right when i
+asked her if she could hear me: she woke up." He woke Annie; the two of
+them told Fran they loved her; "she smiled. then we sat there in
+stunned silence for a couple seconds and she smiled again...and then
+she was gone." He recorded the moment on his phone. The hospital
+pronounced her immediately after — "you can even hear us talking to the
+nurse who walked a second later" — closing a three-day catatonic
+stretch the doctors had not expected to last six hours. Writing to
+Lucie the next evening, self-described as "completely non-religious"
+and "skeptical about most supernatural situations," he allows only that
+the moment "was so powerful and so 'human' that i will need to process
+just how differently the world might be than i had originally
+thought" — the record's most direct statement of genuine uncertainty
+anywhere in his corpus, offered nowhere else with this candor.
+
+A memorial celebration followed at the Uniontown Country Club, May 6,
+2018, 12–4 PM — deliberately framed, per Dan's invitation to Lucie, as
+"a happy occasion and something that gram would have approved of,"
+rather than a conventional funeral.
 
 ## Why it matters
 
@@ -27149,6 +28098,9 @@ connections:
   - page: wiki/people/jamie-mohler
     type: contains
     claim: "Jamie was present in NYC during the years directly following this period and, per the operator, on the day Dan first met Menore — placing the original Menore introduction inside the Full Sail cohort's own social orbit, years before the documented 2018 reconnection."
+  - page: wiki/people/stephanie-nalbone
+    type: evidences
+    claim: "A previously undocumented Sept-Nov 2009 relationship falls inside this period's own Danielle-to-Alexis pivot window without resolving how the three overlap."
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)
@@ -27190,7 +28142,19 @@ Baltimore, connected through Jack from the band All Time Low, with
 Dan's own regret over the episode explicitly documented. [[wiki/people/alexis-armel]]
 begins the same year (2009) and becomes the operative relationship
 through the return to New York and beyond, ending only when Annie enters
-in November 2015. Alexis wasn't a long-distance partner during this
+in November 2015.
+
+A third, previously undocumented relationship falls inside the same
+window and complicates the clean two-name sequence: a six-week
+long-distance romance with [[wiki/people/stephanie-nalbone|Stephanie
+Nalbone]], a Uniontown contact, ran September–November 2009 — a
+reconnection right at graduation, a real in-person visit home, and an
+abrupt end by early November. Nothing in either thread resolves how it
+relates in time to the Danielle ending or the Alexis beginning; it is
+recorded as a real, dated event with an unresolved place in the
+sequence, not folded into either narrative.
+
+Alexis wasn't a long-distance partner during this
 window — the Twitter corpus places her physically in Orlando with Dan,
 tagged directly in local outings ("springs w @alexisarmel," a day trip to
 one of the freshwater springs outside the city) and in the same
@@ -27204,9 +28168,10 @@ Full Sail seeds the one social cohort in Dan's record that outlasts
 every geographic move that follows: [[wiki/people/jason-bermejo|Jason
 Bermejo]], [[wiki/people/eric-jester|Eric Jester]],
 [[wiki/people/matt-dunn|Matt Dunn]], and
-[[wiki/people/jamie-mohler|Jamie Mohler]], a four-person group named
-identically and independently from two separate 2025 message threads
-(Jason's and Eric's), decades after Orlando. Jason supplies the era's
+[[wiki/people/jamie-mohler|Jamie Mohler]], a four-person group whose
+members are corroborated across two separate 2025 message threads —
+Jason's (which names all four) and Eric's (which independently names
+Dunn) — decades after Orlando. Jason supplies the era's
 music-taste imprint (Kid Cudi, DIY closet-studio recording, blog-era
 hip-hop) that runs forward into Dan's whole production identity; the
 group's other three members are lower-volume in the corpus but no less

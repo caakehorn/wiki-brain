@@ -26,6 +26,9 @@ connections:
   - page: wiki/timeline/periods/uniontown-return-2013-2015
     type: component-of
     claim: "SLOPPP is the Uniontown-return period's signature project — the recording-arts ambition surviving the NYC-career failure by migrating to a Uniontown SoundCloud in 2013."
+  - page: wiki/people/zachariah-harshman
+    type: evidenced-by
+    claim: "Zach's January 2014 pitch to a Pittsburgh rave-scene contact is the earliest documented instance of SLOPPP actively seeking a live booking, less than two years before the alias's Dec 26, 2015 close."
 ---
 
 # SLOPPP

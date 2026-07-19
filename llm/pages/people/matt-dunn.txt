@@ -5,11 +5,12 @@ status: active
 knowledge: mixed
 date_created: 2026-07-19
 date_modified: 2026-07-19
-date_range_start: 2018-11-16
+date_range_start: 2012-02-01
 date_range_end: 2025-10-06
 sources:
   - "raw/self/message-csv/interspersed_messages.csv"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/mattdunn_abk0dttjqa/message_1.html"
   - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
 tags: [career, digital-footprint, relationships]
 infobox:
@@ -17,7 +18,8 @@ infobox:
   sex: male
   relationship_to_dan: friend
   location: remote
-  known_for: "Full Sail-era friend, affectionately abused as 'the world's most annoying man woman or child'; the running $5 birthday Venmo-request bit with Eric Jester"
+  handles: ["Facebook Messenger"]
+  known_for: "Full Sail-era friend, affectionately abused as 'the world's most annoying man woman or child'; the running $5 birthday Venmo-request bit with Eric Jester; witness to the 2022 Oscar Lindquist coincidence"
 connections:
   - page: wiki/people/jason-bermejo
     type: co-occurs
@@ -37,16 +39,37 @@ Jason Bermejo's contemporaneous verdict, preserved on
 [[wiki/people/jason-bermejo|Jason's own page]], is "world's most
 annoying man woman or child," and Dan's own 2025 one-line review —
 delivered to Jason, not to Dunn — is blunter still: "Dunn = gross and
-forgettable." No dedicated message thread with Dunn survives in the
-corpus; everything documented about him arrives secondhand, through
-[[wiki/people/eric-jester|Eric Jester]]'s and Jason's threads, which is
-itself informative — of the four-person Full Sail cohort (Dan, Jason,
-Eric, Dunn, and [[wiki/people/jamie-mohler|Jamie Mohler]]), Dunn is the
-one member with no direct digital footprint of his own on file.
+forgettable." A short, decade-spanning Facebook Messenger thread
+survives directly with Dunn (6 messages, February 2012 – March 2022) —
+sparse, but real, and it happens to carry the corpus's best account of
+one of the wiki's stranger coincidences.
 
-## What the record shows
+## The Oscar Lindquist coincidence, dated
 
-The earliest dated sighting is November 16, 2018, in Eric's thread:
+[[wiki/people/jason-bermejo|Jason's page]] already preserved the bare
+fact — Dan ran into an old Florida friend, Oscar Lindquist, while
+waiting tables in Manhattan, an "impossible coincidence in a 9M-person
+city." The Dunn thread supplies the date and Dan's live reaction: on
+March 5, 2022, at 9:57 PM, Dan tells Dunn "So I'm waiting tables in
+midtown Manhattan and guess who sits down in my section," names him
+the next minute ("Oscar motherfuckin lindquist"), and Dunn's delighted
+reply the following day — "SHUT UP OSCAR" — is the thread's whole
+payoff. [[wiki/people/oscar-lindquist|Oscar's own Facebook thread]]
+independently confirms the two men knew each other from the Full Sail
+years (an August 2011 exchange places them coordinating around
+Hurricane Irene), closing the loop on how Dan and Oscar were connected
+in the first place.
+
+An earlier fragment (February 1, 2012) — "found this on my computer
+rofl," Dunn's reply "Hahaha no doubt tue best thing to ever be written
+on the board" — preserves an in-joke whose referent (a photo, evidently
+attached) is lost to the export; a March 19, 2013 "missed video chat"
+notice is the thread's only other surviving row.
+
+## What the wider record shows
+
+The earliest dated sighting outside this thread is November 16, 2018,
+in Eric's thread:
 "Dunn is down in that neighborhood right now. He was texting me about
 t.… He was snapping me videos of full sail earlier" — Dunn back at the
 Orlando campus itself, seven years after the cohort's own attendance
@@ -76,13 +99,12 @@ does not mean forgotten.
 
 | Metric | Value |
 |---|---|
-| Direct messages from Dunn | 0 (no dedicated thread on file) |
+| Direct messages (Facebook Messenger) | 6, Feb 2012 – Mar 2022 |
 | Mentions, third-party threads | 4 (Eric Jester ×2, Jason Bermejo ×2) |
-| Date range of mentions | 2018-11-16 – 2025-10-06 |
+| Date range, all sources | 2012-02-01 – 2025-10-06 |
 
-**Gaps:** no handle, phone number, or direct thread for Dunn exists in
-the corpus — everything here is what Eric and Jason say about him. His
-current occupation, location, and life circumstances are undocumented.
-Whether he still uses Venmo to extract the annual $5 in years not
-covered by these two snapshots is unconfirmed but, given the pattern's
-described consistency, likely.
+**Gaps:** no phone number or iMessage thread for Dunn exists in the
+corpus, only the Facebook thread; his current occupation, location, and
+life circumstances are undocumented. Whether he still uses Venmo to
+extract the annual $5 in years not covered by Eric's snapshot is
+unconfirmed but, given the pattern's described consistency, likely.

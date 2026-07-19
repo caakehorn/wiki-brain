@@ -13,6 +13,7 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - "raw/self/dox-md/_Photo Thread PT II_ Grand Finale Calibration .md"
   - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/luciedobbin_xdu6oa5apw/message_1.html"
 related:
   - wiki/people/fran-coldren
   - wiki/people/annie-ulmer
@@ -39,6 +40,9 @@ connections:
   - page: wiki/people/urpaaa-at-yahoo-com
     type: follows
     claim: "The vigil follows a documented October 2017 pre-vigil caregiving episode — 'gram is bleeding… i'm only one here' — that Dan reported to the unidentified urpaaa contact, showing the solo-caregiver load predated the falls by months."
+  - page: wiki/people/lucie-dobbin
+    type: evidenced-by
+    claim: "Dan's same-night message to Lucie is the fullest first-person account of the death moment on record — the silent mental-communication attempt, the final smile, the immediate pronouncement — written with a candor about genuine uncertainty found nowhere else in his corpus."
   - page: wiki/people/annie-ulmer
     type: evidences
     claim: "The vigil is the high-water mark of the Annie decade — the one extended episode where Dan and Annie function as a unit under real weight, part of why the bond survived what followed."
@@ -142,6 +146,31 @@ closing image. His verdict: "it really was about as quick, painless and
 easy of a death as one could wish for. if anyone deserved it, it was
 her. she grew up DIRT fucking poor and went on to live an absolute
 batshit crazy life."
+
+A same-night Facebook message to [[wiki/people/lucie-dobbin|Lucie
+Dobbin]], a longtime friend of Fran's from her Florida winters, gives
+the fullest first-person account of the moment on record. Annie had
+fallen asleep at the bedside; Dan, alone and awake, silently tried
+"communicating with gram" using only his mind — "it was a silly idea,
+and something i never expected to produce a result...but right when i
+asked her if she could hear me: she woke up." He woke Annie; the two of
+them told Fran they loved her; "she smiled. then we sat there in
+stunned silence for a couple seconds and she smiled again...and then
+she was gone." He recorded the moment on his phone. The hospital
+pronounced her immediately after — "you can even hear us talking to the
+nurse who walked a second later" — closing a three-day catatonic
+stretch the doctors had not expected to last six hours. Writing to
+Lucie the next evening, self-described as "completely non-religious"
+and "skeptical about most supernatural situations," he allows only that
+the moment "was so powerful and so 'human' that i will need to process
+just how differently the world might be than i had originally
+thought" — the record's most direct statement of genuine uncertainty
+anywhere in his corpus, offered nowhere else with this candor.
+
+A memorial celebration followed at the Uniontown Country Club, May 6,
+2018, 12–4 PM — deliberately framed, per Dan's invitation to Lucie, as
+"a happy occasion and something that gram would have approved of,"
+rather than a conventional funeral.
 
 ## Why it matters
 

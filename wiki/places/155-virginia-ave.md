@@ -24,6 +24,9 @@ connections:
   - page: wiki/mind/synthesis/bond-switch-2015
     type: evidences
     claim: "The lair-continuity documented at this address is spatial proof the switch was a swap, not a relocation."
+  - page: wiki/people/zachariah-harshman
+    type: evidenced-by
+    claim: "From January 2015 the address is Zach's consistent handoff location ('front door is open, i'm in the kitchen'), placing the earliest documented Uniontown supply node inside this same house — and inside the same month the Alexis-to-Annie transfer he later reacts to takes place."
 ---
 
 

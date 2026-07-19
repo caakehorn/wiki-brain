@@ -22,6 +22,9 @@ connections:
   - page: wiki/interests/roman-republic
     type: evidenced-by
     claim: "The great-man-theory tag cluster on the 2024 Caesar/Alexander/Oppenheimer reads is corpus evidence for the singular-figure-versus-the-system self-myth this profile documents."
+  - page: wiki/people/elizabeth-eleanor
+    type: evidenced-by
+    claim: "A July 2013 message — 'as an INTP and heavily introverted, logic-based dude...i can't see myself flourishing in AA/NA' — is the earliest dated primary-source instance of Dan self-typing INTP, used there to explain a rejection of group-based recovery in favor of self-directed reflection."
   - page: wiki/interests/film-canon
     type: evidenced-by
     claim: "The Taxi Driver / King of Comedy self-portrait pair in the film canon is the same hyperaware-observer self-myth chosen as a mirror in cinema."

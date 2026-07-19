@@ -3,14 +3,14 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 312,
+ "page_count": 320,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
    "title": "Chemical Architecture",
    "summary": "Dan runs a deliberately engineered neurochemical system and explicitly rejects the recovery-industry frame for it. The load-bearing fact: **daily Suboxone si...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/chemical-architecture.txt",
-   "bytes": 5770
+   "bytes": 6638
   },
   {
    "page": "wiki/health/index.md",
@@ -276,7 +276,7 @@
    "title": "SLOPPP",
    "summary": "**SLOPPP** was Dan's first named production alias: a trap/festival-trap project run from SoundCloud (`soundcloud.com/sloppp`) from 2013 until a track literal...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/music/aliases/sloppp.txt",
-   "bytes": 6194
+   "bytes": 6470
   },
   {
    "page": "wiki/interests/music/concepts/lyrics-as-timbre.md",
@@ -479,7 +479,7 @@
    "title": "INTP \u2014 The Cognitive Function Stack",
    "summary": "Dan types INTP on every pass, and the function measurements are extreme enough to matter more than the four-letter label: dominant introverted thinking near ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/intp.txt",
-   "bytes": 7942
+   "bytes": 8310
   },
   {
    "page": "wiki/mind/profile/linguistic-profile.md",
@@ -507,7 +507,7 @@
    "title": "Arrangement History",
    "summary": "Where the rest of this cluster synthesizes AI-authored theory, this page is the primary-source backbone: a chronological index of every independently-documen...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/psychosexual/arrangement-history.txt",
-   "bytes": 9806
+   "bytes": 10119
   },
   {
    "page": "wiki/mind/psychosexual/developmental-origins.md",
@@ -584,7 +584,7 @@
    "title": "The 2015 Single-Bond Switch",
    "summary": "In late November 2015, Dan's primary attachment target transferred from [[wiki/people/alexis-armel|Alexis]] to [[wiki/people/annie-ulmer|Annie]] inside a sin...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/bond-switch-2015.txt",
-   "bytes": 10435
+   "bytes": 11957
   },
   {
    "page": "wiki/mind/synthesis/dan-annie-fallout-verdict.md",
@@ -647,7 +647,7 @@
    "title": "The Supply Network",
    "summary": "Since January 2011, Dan has been on a daily Suboxone regimen \u2014 fifteen years, described in the primary sources as structural rather than recreational: a medi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/supply-network.txt",
-   "bytes": 15017
+   "bytes": 16051
   },
   {
    "page": "wiki/mind/synthesis/totality-themes.md",
@@ -1175,6 +1175,13 @@
    "bytes": 5628
   },
   {
+   "page": "wiki/people/elizabeth-eleanor.md",
+   "title": "Elizabeth Eleanor",
+   "summary": "Elizabeth Eleanor is a fellow recovering addict whose entire relationship with Dan is a single overnight Facebook exchange \u2014 July 10\u201311, 2013, just months af...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/elizabeth-eleanor.txt",
+   "bytes": 4491
+  },
+  {
    "page": "wiki/people/ellen-ulmer.md",
    "title": "Ellen Ulmer",
    "summary": "Ellen Ulmer is [[wiki/people/annie-ulmer|Annie]]'s mother \u2014 a steady, low-frequency but remarkably durable presence in Dan's life, with a thread that opens i...",
@@ -1193,7 +1200,7 @@
    "title": "Eric Jester",
    "summary": "Eric Jester is a Full Sail film-school friend (contacts notes: \"sandwich eater. dream killer.\") whose sparse but genuinely warm thread spans nearly a decade ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/eric-jester.txt",
-   "bytes": 4995
+   "bytes": 4987
   },
   {
    "page": "wiki/people/eric-springer.md",
@@ -1242,7 +1249,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 15002
+   "bytes": 16426
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1284,7 +1291,7 @@
    "title": "Jamie Mohler",
    "summary": "Jamie Mohler is a Full Sail friend from Dan's Orlando years who was present, per the operator, on the day Dan first met",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jamie-mohler.txt",
-   "bytes": 6757
+   "bytes": 7733
   },
   {
    "page": "wiki/people/jaredtricia.md",
@@ -1427,6 +1434,13 @@
    "bytes": 3673
   },
   {
+   "page": "wiki/people/lauryn-ashly.md",
+   "title": "Lauryn Ashly",
+   "summary": "Lauryn Ashly is a Uniontown-era friend whose short Facebook Messenger thread (April 2014, then a single exchange in September 2020) captures two very differe...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lauryn-ashly.txt",
+   "bytes": 4298
+  },
+  {
    "page": "wiki/people/lindsay-carolla.md",
    "title": "Lindsay Carolla",
    "summary": "A warm, affectionate small-scale cocaine relationship over Thanksgiving weekend 2016 (\"Hi honey,\" \"yes my love\"), with a single late follow-up in April 2017 ...",
@@ -1439,6 +1453,20 @@
    "summary": "Lisa Durbin (contacts nickname \"lcd\") is an extended-family relation who organizes holiday gatherings and checks in on birthdays (`+17242088411`, 36 messages...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lisa-durbin.txt",
    "bytes": 1627
+  },
+  {
+   "page": "wiki/people/lucie-dobbin.md",
+   "title": "Lucie Dobbin",
+   "summary": "Lucie Dobbin was a longtime friend of [[wiki/people/fran-coldren|Fran Coldren]] from her winters in Florida \u2014 a \"friend from Quebec City,\" per the thread's o...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lucie-dobbin.txt",
+   "bytes": 4888
+  },
+  {
+   "page": "wiki/people/lukyan-mraz.md",
+   "title": "Lukyan Mraz",
+   "summary": "Lukyan Mraz is a Uniontown friend, connected to the same household as",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lukyan-mraz.txt",
+   "bytes": 3830
   },
   {
    "page": "wiki/people/maddox.md",
@@ -1487,7 +1515,7 @@
    "title": "Matt Dunn",
    "summary": "Matt Dunn is a Full Sail-era friend Dan has never stopped ribbing: Jason Bermejo's contemporaneous verdict, preserved on",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/matt-dunn.txt",
-   "bytes": 4275
+   "bytes": 5506
   },
   {
    "page": "wiki/people/max-danielle-bf.md",
@@ -1564,7 +1592,7 @@
    "title": "\"New Jim Shaffer\" (Jim Shaffer)",
    "summary": "Jim Shaffer \u2014 \"not the only Jim Shaffer\" in Dan's life, hence the \"new\" contacts-card label \u2014 is a wealthy childhood friend from the same Fayette County high...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/new-jim-shaffer.txt",
-   "bytes": 5955
+   "bytes": 6613
   },
   {
    "page": "wiki/people/nick-mattie.md",
@@ -1572,6 +1600,13 @@
    "summary": "Nick Mattie was an eleven-week fixture of Dan's spring 2017 (`+17242526986`, 170 messages, April 20 \u2013 July 12, 2017) \u2014 a Uniontown drug-scene peer with whom ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/nick-mattie.txt",
    "bytes": 5964
+  },
+  {
+   "page": "wiki/people/oscar-lindquist.md",
+   "title": "Oscar Lindquist",
+   "summary": "Oscar Lindquist is a friend from Dan's Florida years whose entire surviving footprint is a six-line Facebook Messenger thread (`724-208-3475`, August\u2013October...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/oscar-lindquist.txt",
+   "bytes": 3946
   },
   {
    "page": "wiki/people/rick-frank.md",
@@ -1586,6 +1621,13 @@
    "summary": "RJ Ritchey was a real Uniontown-golf-circle friend, not the separate unidentified \"RJ\" suggested by the old contact stub. The 518-row iMessage thread at `+17...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/rj-ritchey.txt",
    "bytes": 5460
+  },
+  {
+   "page": "wiki/people/rob-orange.md",
+   "title": "Rob Orange",
+   "summary": "Rob Orange was a Uniontown high-school-era friend who died on or around April 11, 2014 \u2014 the one loss in Dan's cohort that, years later, both he and [[wiki/p...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/rob-orange.txt",
+   "bytes": 4484
   },
   {
    "page": "wiki/people/ryan-lisac.md",
@@ -1628,6 +1670,13 @@
    "summary": "Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams, Snapchat premium) Dan was seeing on the side during the spring and summer of 2019, in a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/shelbie-breakiron.txt",
    "bytes": 5668
+  },
+  {
+   "page": "wiki/people/stephanie-nalbone.md",
+   "title": "Stephanie Nalbone",
+   "summary": "Stephanie Nalbone is an ex-girlfriend from a relationship the corpus had no other record of: a six-week, high-intensity long-distance romance running late Se...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/stephanie-nalbone.txt",
+   "bytes": 4400
   },
   {
    "page": "wiki/people/steve-kezmarsky.md",
@@ -1728,6 +1777,13 @@
    "bytes": 4822
   },
   {
+   "page": "wiki/people/zachariah-harshman.md",
+   "title": "Zachariah Harshman",
+   "summary": "Zachariah Harshman is a Laurel Highlands High School-era friend from Uniontown whose decade-spanning Facebook Messenger thread (October 2011 \u2013 October 2021, ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/zachariah-harshman.txt",
+   "bytes": 9399
+  },
+  {
    "page": "wiki/places/117-belmont-circle.md",
    "title": "117 Belmont Circle",
    "summary": "117 Belmont Circle, Uniontown PA \u2014 a three-story house sitting on the edge of the Uniontown Country Club fairway \u2014 was",
@@ -1739,7 +1795,7 @@
    "title": "155 Virginia Ave",
    "summary": "155 Virginia Ave, Uniontown PA was Dan's residence from January 2015 to February 2019 \u2014 the address where the two defining relationships of his adult life ha...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/155-virginia-ave.txt",
-   "bytes": 3755
+   "bytes": 4112
   },
   {
    "page": "wiki/places/307-e-76th-st.md",
@@ -1984,7 +2040,7 @@
    "title": "The Fran Vigil (March\u2013April 2018)",
    "summary": "In spring 2018 Dan and [[wiki/people/annie-ulmer|Annie]] saw",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/fran-death-vigil.txt",
-   "bytes": 10761
+   "bytes": 12758
   },
   {
    "page": "wiki/timeline/events/group-chat-closure.md",
@@ -2103,7 +2159,7 @@
    "title": "Full Sail (Sep 2008 \u2013 Mar 2010)",
    "summary": "Three years after the November 2005 family rupture and one year into the opiate arc ([[wiki/timeline/periods/dark-era-2007-2008]]), Dan left Uniontown for Wi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/full-sail-2008-2010.txt",
-   "bytes": 8889
+   "bytes": 9766
   },
   {
    "page": "wiki/timeline/periods/uniontown-return-2013-2015.md",

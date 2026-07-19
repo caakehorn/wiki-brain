@@ -40,6 +40,9 @@ connections:
   - page: wiki/people/nick-mattie
     type: contains
     claim: "Nick is the spring-2017 reciprocal peer-trading node — fronts and a hand-kept ledger running in both directions — the tier where supply was mutual credit between broke men rather than vendor service."
+  - page: wiki/people/zachariah-harshman
+    type: contains
+    claim: "Zach is the earliest dated Uniontown node (2014–15), predating Johnny and Teddy by three years, and the first documented case of a supply relationship ending in a friendship rupture rather than a logistics failure."
   - page: wiki/people/annie-ulmer
     type: contains
     claim: "Annie occupies both sides of the network across its life: logistics facilitator in the 2018–19 Johnny era, then dependent consumer in the terminal phase, when Dan controlling the supply ('bop') became the relationship's primary retention mechanism."
@@ -83,12 +86,22 @@ transfers along the way.
 | Node | Era | Territory | Role |
 |---|---|---|---|
 | [[wiki/people/tom]] | ~2010–2026 | Uniontown/Pittsburgh | Friend-supplier; strips, mushrooms, cocaine, klonopin; sole strip source by 2025 |
+| [[wiki/people/zachariah-harshman]] | 2014–2015 | Uniontown | High-school-friend supplier; wax, dabs, flower priced by cut/quarter; earliest dated Uniontown node, predates Johnny/Teddy by 3 years |
 | [[wiki/people/johnny-dealer]] | 2018–2019 | Uniontown | Primary deep-cycle dealer; strips ($15/8mg, $20/12mg), "b's"; fronts |
 | Second dealer (+17243233522) | 2018 | Uniontown | Parallel node in the deep cycle (operating manual) |
 | [[wiki/people/teddy]] | 2018–2020 | Uniontown/Fairchance | Parallel informal supplier; strips, pills; credit and holds |
 | [[wiki/people/menore]] | 2013?, 2018–20 + 2024–25 | NYC | Professional delivery operator; 99.3% availability, median 7-min reply |
 | Tim | ~2020s | undocumented | Named in the MAX_PRIME succession; no thread yet identified |
 | "bop" / "Felix" | 2026 | Uniontown | Current-connect vocabulary; identities unresolved |
+
+Extending the succession earlier than previously documented, a 2015
+Facebook Messenger export dates [[wiki/people/zachariah-harshman|Zach
+Harshman]]'s supply role to 2014, three years before the
+Johnny/Teddy era — the earliest dated Uniontown node on record, and
+one that ends in the same friction the later nodes would repeat: not
+a supply failure, but a friendship rupture (Dec 23, 2015) that happens
+to coincide with the household's other major transition that month,
+the [[wiki/mind/synthesis/bond-switch-2015|Alexis-to-Annie switch]].
 
 Two structural properties stand out. First, **the network survives every
 biographical rupture.** It spans both cities, every job, every

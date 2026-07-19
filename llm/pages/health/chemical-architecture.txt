@@ -23,6 +23,9 @@ connections:
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "The fifteen-year daily Suboxone regimen begins at the front edge of NYC-1 (~Jan 2010, with a one-year discrepancy against legacy docs still unresolved)."
+  - page: wiki/people/elizabeth-eleanor
+    type: evidenced-by
+    claim: "A July 2013 exchange gives the corpus's only concrete dosage figure — 2mg Suboxone daily, ~5 years opiate-free — closing a previously undocumented gap and dating the last opiate use to the dark-era window."
 ---
 
 # Chemical Architecture
@@ -101,8 +104,19 @@ impulsiveness score; and the framing itself is load-bearing identity — "the
 addiction is the operating system," which is exactly what an addiction
 would say. Both readings are in the sources; neither is resolved.
 
-**Gaps:** no medical records, prescriber information, or dosage data in the
-corpus; physical-health baseline (the somatic neglect the profile predicts)
+One dosage figure exists on the record: a July 10, 2013 Facebook
+exchange with [[wiki/people/elizabeth-eleanor|Elizabeth Eleanor]], a
+fellow recovering addict, has Dan stating "i'm still on 2mg of
+suboxone a day, it's been almost 5 years since i touched an opiate and
+i'm still too terrified to get off" — placing his last opiate use
+around 2008–2009, consistent with the
+[[wiki/timeline/periods/dark-era-2007-2008|dark-era 2007–2008]]
+window, and confirming the maintenance dose was already stable and
+low three years into the regimen.
+
+**Gaps:** no medical records, prescriber information, or further
+dosage data beyond the single 2013 figure in the corpus;
+physical-health baseline (the somatic neglect the profile predicts)
 is undocumented — no labs, no dental, no primary care appears anywhere in
 17 years of messages; the "strategic" vs. dependency question for cocaine
 has no third-party data.
