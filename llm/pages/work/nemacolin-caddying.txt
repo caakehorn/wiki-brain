@@ -21,6 +21,9 @@ related:
   - wiki/mind/concepts/forensic-method
 tags: [career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/people/christo-coan
+    type: co-occurs
+    claim: "Christo's Oct 31, 2017 party — open to 'every caddie, staging, and pro shop employee' — is the yard cohort's own social event, thrown at Dan's house rather than the club."
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Steve asked to be gotten into the caddie yard in July 2017 and never submitted the resume — a documented near-member of the cohort."

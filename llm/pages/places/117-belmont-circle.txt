@@ -16,6 +16,10 @@ related:
   - wiki/people/danny-matthews
   - wiki/people/ellen-ulmer
 tags: [uniontown-era]
+connections:
+  - page: wiki/people/christo-coan
+    type: evidenced-by
+    claim: "Dan's own October 2017 description to Christo — living on the golf course, next door to both his and Annie's grandparents, 'so noise isn't a problem' — is a first-person confirmation of this geography from outside the family record."
 ---
 
 # 117 Belmont Circle

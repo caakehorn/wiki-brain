@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 320,
+ "page_count": 329,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -311,7 +311,7 @@
    "title": "Opie & Anthony / Shock Radio",
    "summary": "The single most-watched thing in Dan's entire YouTube history is not music, politics, or a game \u2014 it is the **Opie & Anthony shock-radio archive**. The watch...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/opie-and-anthony.txt",
-   "bytes": 5016
+   "bytes": 5313
   },
   {
    "page": "wiki/interests/rock-irrelevance-thesis.md",
@@ -332,7 +332,7 @@
    "title": "Stand-Up Comedy",
    "summary": "Stand-up is not a passive favorite for Dan \u2014 it is one of the few live art forms he physically chased, an art he tried to *make* himself, and a grammar that ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/stand-up-comedy.txt",
-   "bytes": 5639
+   "bytes": 6666
   },
   {
    "page": "wiki/interests/the-office.md",
@@ -353,7 +353,7 @@
    "title": "2015 Arrest (Retail Theft / \"The Combos Incident\")",
    "summary": "Dan's only documented arrest: in late 2015, at age 26\u201327, he was arrested by the Pennsylvania State Police over a retail theft \u2014 stealing Combos snacks, an e...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/legal/2015-retail-theft-arrest.txt",
-   "bytes": 4825
+   "bytes": 5487
   },
   {
    "page": "wiki/legal/463-morgantown.md",
@@ -367,7 +367,7 @@
    "title": "legal \u2014 index",
    "summary": "Dan's own legal history and live property/dispute exposure. Other people's legal events (Annie's October 2025 arrest, Tom's 2025 DUI) live on their people pa...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/legal/index.txt",
-   "bytes": 801
+   "bytes": 961
   },
   {
    "page": "wiki/mind/concepts/attachment-model.md",
@@ -507,7 +507,7 @@
    "title": "Arrangement History",
    "summary": "Where the rest of this cluster synthesizes AI-authored theory, this page is the primary-source backbone: a chronological index of every independently-documen...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/psychosexual/arrangement-history.txt",
-   "bytes": 10119
+   "bytes": 11354
   },
   {
    "page": "wiki/mind/psychosexual/developmental-origins.md",
@@ -549,7 +549,7 @@
    "title": "The 2020 Left Turn",
    "summary": "Dan's politics did not arrive gradually. There is a documented inflection \u2014 the COVID lockdown of 2020 \u2014 where a Bernie-curious liberal became a self-identif...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/2020-left-turn.txt",
-   "bytes": 6609
+   "bytes": 7406
   },
   {
    "page": "wiki/mind/synthesis/ai-collaborative-analysis.md",
@@ -598,7 +598,7 @@
    "title": "The Estate / Money Spine",
    "summary": "Money in this biography does not accumulate; it **arrives in lumps and exits through standing drains.** This page traces the capital timeline as a single cau...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/estate-money-spine.txt",
-   "bytes": 10769
+   "bytes": 11029
   },
   {
    "page": "wiki/mind/synthesis/intake-constancy.md",
@@ -696,14 +696,14 @@
    "title": "Alexis Armel (\u201cLex\u201d)",
    "summary": "**Role / Relationship:** Prior relationship (pre-Annie); referenced as \"Lex\" / Alexis Armel in life calendar, profile dumps, attachment narratives, and photo...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/alexis-armel.txt",
-   "bytes": 16183
+   "bytes": 18734
   },
   {
    "page": "wiki/people/ally-lubin.md",
    "title": "Ally Lubin (Alexandra Lubin)",
    "summary": "**Role:** Friend from FB/social network, described in operating manual as \"Friend, dark humor partner, North Carolina\". Short but real 2013 FB thread with pl...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ally-lubin.txt",
-   "bytes": 2602
+   "bytes": 4264
   },
   {
    "page": "wiki/people/anita.md",
@@ -755,6 +755,13 @@
    "bytes": 2256
   },
   {
+   "page": "wiki/people/bobby-cole.md",
+   "title": "Bobby Cole",
+   "summary": "Bobby Cole is a nine-year Facebook Messenger friendship (July 2013 \u2013 January 2022, ~940 messages) built almost entirely on a single shared obsession: the [[w...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/bobby-cole.txt",
+   "bytes": 5797
+  },
+  {
    "page": "wiki/people/brad-hubeaut.md",
    "title": "Brad Hubeaut",
    "summary": "Brad Hubeaut was Dan's caddy manager at [[wiki/work/nemacolin-caddying|Nemacolin Woodlands]] through the 2017\u20132018 caddying seasons \u2014 the day-to-day dispatch...",
@@ -794,7 +801,7 @@
    "title": "Bryan (+15088682461)",
    "summary": "Bryan is the third participant of the **October 20, 2019 filmed MMF threesome** with Dan and [[wiki/people/annie-ulmer|Annie]] in NYC \u2014 the encounter that wa...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/bryan-5088682461.txt",
-   "bytes": 3748
+   "bytes": 5028
   },
   {
    "page": "wiki/people/bub.md",
@@ -830,6 +837,13 @@
    "summary": "Christian Hanson \u2014 the retired NHL forward (Toronto Maple Leafs, son of Dave \"Hanson Brothers\" Hanson) \u2014 was a golf regular Dan caddied and played with aroun...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/christian-hanson.txt",
    "bytes": 2264
+  },
+  {
+   "page": "wiki/people/christo-coan.md",
+   "title": "Christo Coan",
+   "summary": "Christo Coan was a Nemacolin-era golf-course coworker and DJ acquaintance whose short Facebook Messenger thread (September 2017 \u2013 June 2018) exists almost en...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/christo-coan.txt",
+   "bytes": 4396
   },
   {
    "page": "wiki/people/claire-ulmer.md",
@@ -1119,6 +1133,13 @@
    "bytes": 7068
   },
   {
+   "page": "wiki/people/dan-polyak.md",
+   "title": "Dan Polyak",
+   "summary": "Dan Polyak is a longtime friend \u2014 a shared-first-name running joke (\"bitchdan,\" \"clandan\") dating to at least 2013 \u2014 whose Facebook Messenger thread (2013\u201320...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/dan-polyak.txt",
+   "bytes": 3812
+  },
+  {
    "page": "wiki/people/danielle-onesi.md",
    "title": "Danielle Onesi (\"Dee\")",
    "summary": "Dan's first girlfriend (~2005\u20132009), Uniontown origin, and a figure who has quietly remained in his life ever since \u2014 not as a romantic presence but as his m...",
@@ -1166,6 +1187,13 @@
    "summary": "Drew (email `Dherchko@gmail.com`) collaborated with Dan on a green-mapping project at [[wiki/work/nemacolin-caddying|Nemacolin]] over an intense eleven-day s...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/drew.txt",
    "bytes": 1883
+  },
+  {
+   "page": "wiki/people/ej-rags.md",
+   "title": "Ej Rags",
+   "summary": "Ej Rags is a Williamsburg, Brooklyn contact \u2014 \"a block from the bridge\" as of an October 2011 hello \u2014 whose one substantive exchange, July 12, 2013, is reall...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ej-rags.txt",
+   "bytes": 3087
   },
   {
    "page": "wiki/people/eli.md",
@@ -1249,7 +1277,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 16426
+   "bytes": 17889
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1270,7 +1298,7 @@
    "title": "Jacob Bacharach",
    "summary": "Jacob Bacharach \u2014 Uniontown-raised novelist (*The Bend of the World*, 2014) and Chapo Trap House guest, a childhood neighbor of the Frank family from the Sar...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jacob-bacharach.txt",
-   "bytes": 7720
+   "bytes": 8158
   },
   {
    "page": "wiki/people/jajuan-davis.md",
@@ -1322,6 +1350,13 @@
    "bytes": 2552
   },
   {
+   "page": "wiki/people/jenn-lynn.md",
+   "title": "Jenn Lynn",
+   "summary": "Jenn Lynn is a Uniontown-area acquaintance whose three-year Facebook Messenger thread (August 2017 \u2013 September 2020) runs two tracks in parallel: a recurring...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jenn-lynn.txt",
+   "bytes": 4449
+  },
+  {
    "page": "wiki/people/jerad-friedline.md",
    "title": "Jerad Friedline",
    "summary": "Dan's oldest friend and his single highest-signal, lowest-frequency contact: a childhood friend from Uniontown now in Sacramento, married (Rachel, Jewish) wi...",
@@ -1348,6 +1383,13 @@
    "summary": "Jimmy was a fellow [[wiki/work/nemacolin-caddying|Nemacolin]] caddy whose brief 2018 thread (`+17244667401`, 24 messages, April\u2013June) captures both a real in...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jimmy.txt",
    "bytes": 2052
+  },
+  {
+   "page": "wiki/people/joe-oshnack.md",
+   "title": "Joe Oshnack",
+   "summary": "Joe Oshnack is a high-school-era Uniontown bandmate \u2014 the two played together in a band referred to only as \"BNI\" \u2014 whose eleven-year Facebook thread (2011\u20132...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/joe-oshnack.txt",
+   "bytes": 5431
   },
   {
    "page": "wiki/people/joey-superick.md",
@@ -1441,6 +1483,13 @@
    "bytes": 4298
   },
   {
+   "page": "wiki/people/lewis-strosnider.md",
+   "title": "Lewis Strosnider",
+   "summary": "Lewis Strosnider was a Uniontown vape-shop friend whose Facebook Messenger thread (March 2018 \u2013 February 2019) tracks a genuine small-business friendship: fr...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lewis-strosnider.txt",
+   "bytes": 3639
+  },
+  {
    "page": "wiki/people/lindsay-carolla.md",
    "title": "Lindsay Carolla",
    "summary": "A warm, affectionate small-scale cocaine relationship over Thanksgiving weekend 2016 (\"Hi honey,\" \"yes my love\"), with a single late follow-up in April 2017 ...",
@@ -1453,6 +1502,13 @@
    "summary": "Lisa Durbin (contacts nickname \"lcd\") is an extended-family relation who organizes holiday gatherings and checks in on birthdays (`+17242088411`, 36 messages...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lisa-durbin.txt",
    "bytes": 1627
+  },
+  {
+   "page": "wiki/people/lucas-thomas.md",
+   "title": "Lucas Thomas",
+   "summary": "Lucas Thomas is a mutual friend of [[wiki/people/alexis-armel|Alexis Armel]]'s post-breakup boyfriend, Zac Shumar, known to the wiki through a single, dense ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lucas-thomas.txt",
+   "bytes": 3185
   },
   {
    "page": "wiki/people/lucie-dobbin.md",
@@ -1658,6 +1714,13 @@
    "bytes": 1961
   },
   {
+   "page": "wiki/people/seth-ledonne.md",
+   "title": "Seth LeDonne",
+   "summary": "Seth LeDonne is a Uniontown-scene friend whose short 2020 Facebook thread carries two distinct threads of its own: a formative-influence tribute to Dan's tee...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/seth-ledonne.txt",
+   "bytes": 3541
+  },
+  {
    "page": "wiki/people/shannon.md",
    "title": "Shannon",
    "summary": "Contact +17245575578. \"Hey Daniel it\u2019s Shannon give me a call when you get a c...\". 23 messages. Direct name intro, call request. Low-volume personal.",
@@ -1788,7 +1851,7 @@
    "title": "117 Belmont Circle",
    "summary": "117 Belmont Circle, Uniontown PA \u2014 a three-story house sitting on the edge of the Uniontown Country Club fairway \u2014 was",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/117-belmont-circle.txt",
-   "bytes": 2681
+   "bytes": 3002
   },
   {
    "page": "wiki/places/155-virginia-ave.md",
@@ -2012,7 +2075,7 @@
    "title": "Annie/Alexis Reunion (October\u2013December 2018)",
    "summary": "Weeks after [[wiki/people/alexis-armel|Alexis]] was released from the year in prison documented at [[wiki/people/alexis-armel]] (the Zac Shumar mail-order we...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/annie-alexis-reunion-november-2018.txt",
-   "bytes": 14205
+   "bytes": 15313
   },
   {
    "page": "wiki/timeline/events/april-may-2026-final-weeks.md",
@@ -2201,7 +2264,7 @@
    "title": "Caddying \u2014 Nemacolin, Laurel Valley, Pikewood National (2016\u20132019)",
    "summary": "Between the [[wiki/legal/2015-retail-theft-arrest|retail-theft arrest]] and the deep 2017\u201318 poverty years, Dan held a caddying job at **Nemacolin Woodlands ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/nemacolin-caddying.txt",
-   "bytes": 8173
+   "bytes": 8416
   },
   {
    "page": "wiki/work/tech/grok-build/overview.md",

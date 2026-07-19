@@ -14,6 +14,9 @@ sources:
   - "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"
 tags: [financial-stress, forensic-analysis, family]
 connections:
+  - page: wiki/people/lewis-strosnider
+    type: co-occurs
+    claim: "Dan's July 2018 message anticipating a 'sizeable check' from the estate 'in a few months' shows the distribution was expected far earlier than the Sept 1, 2020 date it actually landed on."
   - page: wiki/people/fran-coldren
     type: contains
     claim: "Fran is the spine's maternal source node: the Ira-estate capital she held (Judge Fred Adams as trustee) became the 2020 distribution — the biography's largest documented single capital arrival at $144,069.31."

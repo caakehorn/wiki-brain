@@ -3,10 +3,11 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-07-16
+date_modified: 2026-07-19
 sources:
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/bobbycole_-p2picui8w/message_1.html"
 related:
   - wiki/interests/index
   - wiki/interests/the-office
@@ -24,6 +25,9 @@ connections:
   - page: wiki/interests/film-canon
     type: parallels
     claim: "The King of Comedy sits in the film canon — a portrait of a delusional aspiring stand-up kept as a favorite while Dan wrote his own five-minute set."
+  - page: wiki/people/bobby-cole
+    type: evidenced-by
+    claim: "An October 2, 2019 message to Bobby is the corpus's only direct evidence of a completed open-mic performance — a specific bombed bit and the audience's reaction — and separately identifies the previously-unnamed December 2018 Philadelphia taping as a Chip Chipperson show."
 ---
 
 # Stand-Up Comedy
@@ -90,7 +94,17 @@ Comedy was also a family/relationship outing, not only a solo NYC thing:
 
 - **2018-12-03**, to his mother Suzanne: "We're going to Philadelphia
   for a taping of a standup special" — a road trip to sit in a filmed
-  taping audience.
+  taping audience. [[wiki/people/bobby-cole|Bobby Cole's]] thread
+  identifies the special: a **Chip Chipperson** taping, invited by
+  Bobby ("Nana cumia will be there") and attended December 8 — Dan
+  privately called it "pretty bad" despite the 9+ hour round trip.
+- **2019-10-02**, to Bobby Cole, the corpus's only direct evidence of a
+  *completed* open-mic set: a bit about "a hooker using my credit card
+  to cut a line of coke" that drew groans before he could finish the
+  word "escort." The same message names his motivation ("rich vos AND
+  vic henley can do this") and his own blunt read on the material: "all
+  of my material is just me saying a bunch of ways 'i am a drug addict
+  and a failure in most endeavors.'"
 - The recurring want to drag people to shows: **2019-04-15**, arranging
   a return to the city "before 6:30pm tomorrow to go to a comedy show. i
   already got a third ticket for you." When that ask became a fight over
@@ -109,9 +123,7 @@ is one more case of a real, lived pursuit (he went to the shows, he wrote
 five minutes, he had a stage name) that the wiki had only implied through
 adjacent pages.
 
-**Gaps:** No evidence found in the corpus that Dan actually performed an
-open-mic set — the ambition is documented (2017–2019) but not a
-completed performance. The Philadelphia 2018 taping is named but the
-specific special/comic is not identified in raw. The 2019 club dates come
-from the "Favorite Comedians" attendance list in Dan Profile.txt; venue
-names are not attached to each date there.
+**Gaps:** the 2019 club dates come from the "Favorite Comedians"
+attendance list in Dan Profile.txt; venue names are not attached to each
+date there. The full text and date of the open-mic bit's set beyond the
+one line recounted to Bobby Cole is not otherwise recorded.
