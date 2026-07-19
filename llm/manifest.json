@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 310,
+ "page_count": 312,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1193,7 +1193,7 @@
    "title": "Eric Jester",
    "summary": "Eric Jester is a Full Sail film-school friend (contacts notes: \"sandwich eater. dream killer.\") whose sparse but genuinely warm thread spans nearly a decade ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/eric-jester.txt",
-   "bytes": 2936
+   "bytes": 4995
   },
   {
    "page": "wiki/people/eric-springer.md",
@@ -1242,7 +1242,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 14691
+   "bytes": 15002
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1280,6 +1280,13 @@
    "bytes": 8134
   },
   {
+   "page": "wiki/people/jamie-mohler.md",
+   "title": "Jamie Mohler",
+   "summary": "Jamie Mohler is a Full Sail friend from Dan's Orlando years who was present, per the operator, on the day Dan first met",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jamie-mohler.txt",
+   "bytes": 6757
+  },
+  {
    "page": "wiki/people/jaredtricia.md",
    "title": "Jared and Tricia",
    "summary": "Jared and Tricia were a married Gramercy-based couple who booked [[wiki/people/annie-ulmer|Annie]] twice in June 2019 as a paid participant in group encounte...",
@@ -1291,7 +1298,7 @@
    "title": "Jason Bermejo",
    "summary": "Jason Bermejo is one of the two people alive whose musical taste Dan genuinely defers to (the other is a stranger: Anthony Fantano) \u2014 the Full Sail\u2013era frien...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jason-bermejo.txt",
-   "bytes": 10458
+   "bytes": 12018
   },
   {
    "page": "wiki/people/jason-cole.md",
@@ -1476,6 +1483,13 @@
    "bytes": 3015
   },
   {
+   "page": "wiki/people/matt-dunn.md",
+   "title": "Matt Dunn",
+   "summary": "Matt Dunn is a Full Sail-era friend Dan has never stopped ribbing: Jason Bermejo's contemporaneous verdict, preserved on",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/matt-dunn.txt",
+   "bytes": 4275
+  },
+  {
    "page": "wiki/people/max-danielle-bf.md",
    "title": "Max (Danielle's BF / \"the Dude\", Music Guy)",
    "summary": "**Identity:** Current boyfriend of Dan's first girlfriend Danielle (pre-Lex era, Uniontown/NYC context). \"The most wild dude I've ever met\" who \"knows more a...",
@@ -1501,7 +1515,7 @@
    "title": "Menore",
    "summary": "**Menore** (+13476070497) \u2014 Drug dealer / supply operator in New York City; Bedford Ave (Williamsburg) Brooklyn origin connection; operated Nov 2018\u2013Feb 2025...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/menore.txt",
-   "bytes": 16677
+   "bytes": 17521
   },
   {
    "page": "wiki/people/michael-hinkle.md",
@@ -2019,7 +2033,7 @@
    "title": "NYC Round One (2010\u20132013)",
    "summary": "Dan's first New York City period ran **April 2010 to May 2013** \u2014 three years, two apartments, the audio-engineering career attempt, and the first long cohab...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2010s.txt",
-   "bytes": 6526
+   "bytes": 7256
   },
   {
    "page": "wiki/timeline/periods/2015-2016-annie-relationship-start.md",
@@ -2089,7 +2103,7 @@
    "title": "Full Sail (Sep 2008 \u2013 Mar 2010)",
    "summary": "Three years after the November 2005 family rupture and one year into the opiate arc ([[wiki/timeline/periods/dark-era-2007-2008]]), Dan left Uniontown for Wi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/full-sail-2008-2010.txt",
-   "bytes": 6434
+   "bytes": 8889
   },
   {
    "page": "wiki/timeline/periods/uniontown-return-2013-2015.md",

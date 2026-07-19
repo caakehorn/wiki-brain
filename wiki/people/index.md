@@ -48,6 +48,7 @@ related: []
 - [[wiki/people/ellen-ulmer]] — Annie's mother; steady contact 2017-2025, confirms Jim and Sugie as Annie's grandparents.
 - [[wiki/people/emaly-minerd]] — Intense 5-month 2018-19 relationship; tried to refuse the couple's sex-first dynamic, collapsed into it anyway.
 - [[wiki/people/eric-jester]] — Full Sail friend, decade-spanning sparse contact; corroborates the Trinity St. Clair booking cost.
+- [[wiki/people/jamie-mohler]] — Full Sail friend present the day Dan first met Menore during the NYC-1 years; transitioned ~2023, now gendered female.
 - [[wiki/people/eric-springer]] — Month-long 2016 supply contact; wearing an ankle monitor at the time.
 - [[wiki/people/felipe]] — the Colombian Au Za'atar bff; day-one glass-door casualty.
 - [[wiki/people/felix]]
@@ -87,6 +88,7 @@ related: []
 - [[wiki/people/marla]] — Paid caregiver on Fran's shift rotation; her messages corroborate the April 4, 2018 death date.
 - [[wiki/people/marty-martin]] — Per canonical BFS_BOOTLOADER_v2: "NOT a recruit for active operation — intelligence asset only. Protect…
 - [[wiki/people/mary-kate]] — Exemplifies vertical-authority-skepticism and forensic-self-construction via "obfuscation trench" analysis…
+- [[wiki/people/matt-dunn]] — Full Sail friend, affectionately abused as "the world's most annoying man woman or child"; the annual $5 birthday Venmo bit.
 - [[wiki/people/max]] — Implements ai-collaborative-analysis and vertical-authority via "adversarial" pressure for robustness.…
 - [[wiki/people/max-danielle-bf]] — 1. "Versace" Rant (Low Culture vs Consciousness):
 - [[wiki/people/md]] — Au Za'atar-affiliated contact; 2024 Bangladesh political-unrest discussion.

@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-19
-310 pages, ~424,778 tokens.
+312 pages, ~429,525 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -15043,23 +15043,44 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2017-05-08
 date_range_end: 2025-08-15
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/jason-bermejo", "wiki/people/trinity-st-clair", "wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-dump"]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/message-csv/interspersed_messages.csv"
 tags: [relationships, uniontown-era]
 knowledge: mixed
 infobox:
   name: "Eric Jester"
-  relationship_to_dan: unknown
+  sex: male
+  location: remote
+  relationship_to_dan: friend
+  role: "Film/TV industry crew"
   first_contact: 2017-05-08
-  known_for: "Eric Jester is a Full Sail film-school friend (contacts notes: 'sandwich eater. dream killer.') whose sparse but genuine"
+  handles: ["+14137703708"]
+  known_for: "Full Sail film-school friend; decade-spanning check-ins that resume exactly where they left off; independent corroboration of the Trinity St. Clair booking and Fran's death"
+connections:
+  - page: wiki/people/jason-bermejo
+    type: co-occurs
+    claim: "Eric and Jason are both named in Dan's own 2025 'Florida head' rundown of the Full Sail cohort — the two threads independently corroborate the same four-person friend group."
+  - page: wiki/people/matt-dunn
+    type: co-occurs
+    claim: "The annual $5 birthday Venmo request — 'Of course I pay it' — is the cohort's longest-running documented bit, corroborated identically from both Eric's and Jason's threads a year apart."
+  - page: wiki/people/trinity-st-clair
+    type: evidenced-by
+    claim: "Dan's April 8, 2019 message to Eric ('paid $1500 last week to have pornstar trinity st clair come hang out with my girlfriend and i') independently corroborates the booking cost and dates it to late March 2019, a figure not preserved in Trinity's own thread."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: evidenced-by
+    claim: "Eric's April 2018 condolence, drawing a parallel to his own grandfather's death, is an outside-the-family reaction to Fran's passing that corroborates the vigil's emotional weight beyond the household."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: instance-of
+    claim: "The friendship is the era's clearest survivor: sparse but genuinely warm check-ins that resume exactly where they left off across nearly a decade, with no repair ever needed."
 ---
 
 # Eric Jester
 
-Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose sparse but genuinely warm thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — check-ins that resurface every year or two, each one picking back up exactly where the last left off, alongside shared friends [[wiki/people/jason-bermejo|Jason Bermejo]] and "Dunn" from the same Orlando/Full Sail cohort.
+Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose sparse but genuinely warm thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — check-ins that resurface every year or two, each one picking back up exactly where the last left off, alongside shared friends [[wiki/people/jason-bermejo|Jason Bermejo]], [[wiki/people/matt-dunn|Matt Dunn]], and [[wiki/people/jamie-mohler|Jamie Mohler]] from the same Orlando/Full Sail cohort — a four-person friend group named identically and independently in both Eric's and Jason's threads years apart.
 
 ## The relationship
 
@@ -15067,7 +15088,14 @@ Eric works in the film/TV industry as a bartender-adjacent crew role, living in 
 
 The April 8, 2019 engagement exchange also carries independent corroboration of the [[wiki/people/trinity-st-clair|Trinity St. Clair]] booking documented separately in her own thread: Dan tells Eric he'd "paid $1500 last week to have pornstar trinity st clair come hang out with my girlfriend and i for exactly one hour" — a specific figure not preserved in Trinity's own messages, dating the encounter to roughly the last week of March 2019, consistent with the window her thread covers.
 
-A recurring bit through 2025: Matt Dunn Venmo-requesting Eric $5 every year on his birthday, without fail, which Eric always pays.
+A recurring bit through 2025: [[wiki/people/matt-dunn|Matt Dunn]] Venmo-requesting Eric $5 every year on his birthday, without fail, which Eric always pays ("Every damn year. And it's always $5. Of course I pay it," April 22, 2025) — the cohort's longest-running documented joke, independently confirmed a year later from Jason's side of the friend group.
+
+Eric also supplies the only pre-2025 dated sighting of Dunn as an
+active presence rather than a punchline: on November 16, 2018 he
+reports "Dunn is down in that neighborhood right now… He was snapping
+me videos of full sail" — Dunn back at the Orlando campus itself,
+sending unprompted nostalgia footage seven years after the cohort's
+own attendance window.
 
 ## Corpus Dimensions
 
@@ -15077,10 +15105,6 @@ A recurring bit through 2025: Matt Dunn Venmo-requesting Eric $5 every year on h
 | Date range | 2017-05-08 to 2025-08-15 |
 | Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Eric to Dan) |
 | Handle | +14137703708 |
-
-## Related
-
-[[wiki/people/jason-bermejo]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/annie-ulmer]] · [[wiki/self/message-corpora/master-message-dump]]
 
 
 ========================================================================
@@ -15729,6 +15753,7 @@ related: []
 - [[wiki/people/ellen-ulmer]] — Annie's mother; steady contact 2017-2025, confirms Jim and Sugie as Annie's grandparents.
 - [[wiki/people/emaly-minerd]] — Intense 5-month 2018-19 relationship; tried to refuse the couple's sex-first dynamic, collapsed into it anyway.
 - [[wiki/people/eric-jester]] — Full Sail friend, decade-spanning sparse contact; corroborates the Trinity St. Clair booking cost.
+- [[wiki/people/jamie-mohler]] — Full Sail friend present the day Dan first met Menore during the NYC-1 years; transitioned ~2023, now gendered female.
 - [[wiki/people/eric-springer]] — Month-long 2016 supply contact; wearing an ankle monitor at the time.
 - [[wiki/people/felipe]] — the Colombian Au Za'atar bff; day-one glass-door casualty.
 - [[wiki/people/felix]]
@@ -15768,6 +15793,7 @@ related: []
 - [[wiki/people/marla]] — Paid caregiver on Fran's shift rotation; her messages corroborate the April 4, 2018 death date.
 - [[wiki/people/marty-martin]] — Per canonical BFS_BOOTLOADER_v2: "NOT a recruit for active operation — intelligence asset only. Protect…
 - [[wiki/people/mary-kate]] — Exemplifies vertical-authority-skepticism and forensic-self-construction via "obfuscation trench" analysis…
+- [[wiki/people/matt-dunn]] — Full Sail friend, affectionately abused as "the world's most annoying man woman or child"; the annual $5 birthday Venmo bit.
 - [[wiki/people/max]] — Implements ai-collaborative-analysis and vertical-authority via "adversarial" pressure for robustness.…
 - [[wiki/people/max-danielle-bf]] — 1. "Versace" Rant (Low Culture vs Consciousness):
 - [[wiki/people/md]] — Au Za'atar-affiliated contact; 2024 Bangladesh political-unrest discussion.
@@ -16207,6 +16233,137 @@ infobox:
 
 
 ========================================================================
+PAGE: wiki/people/jamie-mohler.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2011-08-12
+date_range_end: 2025-10-06
+sources:
+  - "raw/self/dox-scan/gmail_bodies.txt"
+  - "raw/self/facebook/facebook-ihatedanfrank/other_personal_information/your_address_books.html"
+  - "raw/self/message-csv/interspersed_messages.csv"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+  - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
+tags: [career, digital-footprint, relationships, nyc-era]
+infobox:
+  name: "Jamie Mohler"
+  aliases: ["Jim Mohler (pre-2023)", "Jimbo Slice (2011 chat handle)"]
+  sex: female
+  relationship_to_dan: friend
+  location: remote
+  first_contact: 2011-08-12
+  handles: ["+12073101169", "audiocranium@msn.com"]
+  known_for: "Full Sail friend present the day Dan first met [[wiki/people/menore|Menore]] during the NYC-1 years; a Williamsburg regular in Dan and Alexis's 2011 household; transitioned ~2023"
+connections:
+  - page: wiki/people/menore
+    type: co-occurs
+    claim: "Jamie was present the day Dan first met Menore, during the NYC-1 window — years before the November 2018 message thread that documents only the reconnection, not the original meeting."
+  - page: wiki/timeline/periods/2010s
+    type: evidenced-by
+    claim: "A 2011 Gchat log confirms Jamie as a regular presence in the NYC-1 household during the Occupy Wall Street autumn — the period page's operator-attested 'who was there' gap now has a primary-source anchor."
+  - page: wiki/people/alexis-armel
+    type: evidenced-by
+    claim: "Alexis's own August 12, 2011 Gchat ('is Mohler supposed to come over? or is he house bound bc of his knee?') independently places Jamie inside the Brooklyn household's regular social orbit, not just Dan's individual friendship."
+  - page: wiki/people/jason-bermejo
+    type: evidenced-by
+    claim: "Jason's Oct 6, 2025 exchange ('Mohler = a literal woman' / 'Haha she badass') is the primary corpus corroboration of the transition, delivered as a casual, unremarkable update inside the Full Sail friend group."
+  - page: wiki/people/matt-dunn
+    type: co-occurs
+    claim: "Jamie is named alongside Dunn and Jester in the same 2025 exchanges — the fourth member of the same Full Sail cohort."
+---
+
+# Jamie Mohler
+
+Jamie Mohler is a Full Sail friend from Dan's Orlando years who was
+present, per the operator, on the day Dan first met
+[[wiki/people/menore|Menore]] — placing that original meeting inside
+the **NYC-1** period (roughly 2010 to May 2013), the years Dan and
+Jamie spent in New York together right after college. A saved Google
+Talk log confirms the friendship was real and active in that window: on
+an autumn night in 2011, during the Occupy Wall Street protests, Dan
+invites her over ("Jimbo! it's Dan… do you want to come with us to
+march on times sq tomorrow with the 'occupy' crowd"), and she agrees
+immediately — "Yes! I'll stop by if you folks care for a bit of crown
+royal! Omnomnomnomnom" — takes the J train from her own corner of
+Brooklyn, and gets buzzed up with the apartment's door code ("dial to
+63 when you get here"). The exchange includes Dan needling her about
+the sukkahs going up around Williamsburg for the fall holidays ("check
+out all the 'jew-huts'… crazy") and her delighted, guileless response —
+"I'm SO pumped. 4 stops, I'll give you a full report." It is the
+richest single primary-source window into the friendship on file, and
+it independently corroborates the operator's account that Jamie was a
+genuine presence in Dan's Brooklyn life during exactly the years
+Menore's own page places the original, undocumented introduction.
+
+[[wiki/people/alexis-armel|Alexis]]'s own side of the household confirms
+the same thing from a second angle: in an August 12, 2011 Gchat with
+Dan, she asks "is Mohler supposed to come over? or is he house bound bc
+of his knee?" and Dan answers "no he's home-bound… probz for the best…
+i gets [Alexis] to myself" — a small, affectionate detail (a knee
+injury keeping a regular visitor away) that only exists because Jamie's
+visits were routine enough to plan around.
+
+## The 2023 transition
+
+Jamie transitioned around 2023 and has been gendered female since. The
+corpus corroborates this change from inside the friend group itself,
+not from Jamie directly: in an October 6, 2025 exchange with
+[[wiki/people/jason-bermejo|Jason Bermejo]], Dan runs through which
+Full Sail-era friends his mother still remembers — "Jester =
+forgettable / Dunn = gross and forgettable / Mohler = a literal woman"
+— and Jason answers without missing a beat, "Haha she badass." The
+update lands as settled, unremarkable fact inside a joking exchange,
+not as news. Two weeks earlier, in the same thread, Dan had already
+referred to her as "ms. Jamie Mohler" in a one-line roll call of the
+cohort ("i love jester and Dunn and ms. Jamie Mohler and the other
+shitcunts"). Both mentions are casual and affectionate in the same
+register the group uses on every member — the wiki treats this as
+evidence of ordinary acceptance within the friend group, not as a
+notable event in itself.
+
+An isolated 2018 mention predates the transition and carries no gender
+marker either way: a September 16, 2018 message in
+[[wiki/people/jim-vrabel|Jim Vrabel]]'s unrelated thread notes "Mohler
+sent me a happy birthday. Lol" — filed here only because it is the
+corpus's only other appearance of the surname between the 2011 chat log
+and the 2025 confirmation.
+
+## Identity on file
+
+The 2021-synced Facebook address book export carries a direct contact
+card — **Jim Mohler**, `+12073101169`, `audiocranium@msn.com` — the
+same phone number as the 2011 "Jimbo Slice" Google Talk handle, kept
+saved for a full decade after the NYC-1 friendship. No message thread
+survives under this number in the iMessage exports; everything recorded
+here comes from the 2011 email/chat archive, the address book, and
+Jamie's appearances inside Jason's and Alexis's own threads.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Direct chat log | 1 (Google Talk, ~autumn 2011, undated) |
+| Corroborating mentions | 4 (Alexis ×1, Jim Vrabel ×1, Jason Bermejo ×2) |
+| Transition, per operator | ~2023 |
+| First documented friend-group reference post-transition | 2025-09-19 |
+
+**Gaps:** the 2011 chat log carries no exact date (internal evidence —
+Occupy Wall Street, approaching Jewish fall holidays — narrows it to
+roughly October 2011); the specific day and circumstance of the first
+Menore meeting remain operator-attested only; Jamie's current surname
+usage, location, and occupation are undocumented; nothing in the
+corpus records the transition directly, only after-the-fact peer
+references.
+
+
+========================================================================
 PAGE: wiki/people/jaredtricia.md
 ========================================================================
 
@@ -16325,9 +16482,25 @@ date_created: 2026-06-23
 date_modified: 2026-07-19
 date_range_start: 2017-01-20
 date_range_end: 2026-03-21
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_export_+18172693422_20260714055318.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/people/eric-jester"]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/message-csv/imessage_export_+18172693422_20260714055318.csv"
+  - "raw/self/message-csv/interspersed_messages.csv"
+  - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
 tags: [digital-footprint, music-production, addiction-recovery, relationships, uniontown-era]
+connections:
+  - page: wiki/people/eric-jester
+    type: co-occurs
+    claim: "Jason and Eric are both named in Dan's own 2025 'Florida head' rundown of the Full Sail cohort — the two threads independently corroborate the same four-person friend group."
+  - page: wiki/people/matt-dunn
+    type: co-occurs
+    claim: "Dunn is named alongside Jester and Mohler in the same Sept/Oct 2025 exchanges, confirming the four-person Full Sail cohort from Jason's own side of the corpus."
+  - page: wiki/people/jamie-mohler
+    type: co-occurs
+    claim: "Jason's Oct 6, 2025 exchange ('Mohler = a literal woman' / 'Haha she badass') is the primary corpus corroboration of Mohler's transition, delivered as a casual, unremarkable update inside the Full Sail friend group."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: instance-of
+    claim: "The friendship is the era's clearest survivor: a formative-era bond that never needed repair to resume, still active fifteen years later at its all-time message-volume peak."
 knowledge: earned
 infobox:
   name: "Jason Bermejo"
@@ -16416,17 +16589,30 @@ Dan describes him as a gateway to "a different style of music that still resonat
 
 ## Social Graph & Shared History
 
+> **REVISED [2026-07-19]:** This section previously listed "Jamie
+> Mohler" as Jason's current girlfriend. That was a misread of a
+> single out-of-context corpus line. In full context (2025-10-06,
+> Jason's thread), Dan is telling Jason which Full Sail-era friends his
+> mother still remembers — "Jester = forgettable / Dunn = gross and
+> forgettable / Mohler = a literal woman" — to which Jason answers
+> "Haha she badass." Mohler (now Jamie, per the operator; pre-2023
+> known as Jim) is a **fourth member of the same Full Sail friend
+> group**, not Jason's partner. See [[wiki/people/jamie-mohler]] for
+> the full page.
+
 **Shared circle (2009–2015 Full Sail / Orlando era)**:
 - **Spetch** — another close friend, part of same cohort; currently with girlfriend in Texas
 - **Johnny** — "follower" type who would bite Jason's swag, looked up to him; shared music interests; Dan thinks Johnny was "low key follower" who absorbed swag but it worked
-- **Jester** — [[wiki/people/eric-jester|Eric Jester]], shorter than Dan and Jason, part of Full Sail cohort; his own thread confirms he was in the 2019 group chat Dan set up to "roast" Jason around his engagement
+- **[[wiki/people/eric-jester|Eric Jester]]** — shorter than Dan and Jason, part of Full Sail cohort; his own thread confirms he was in the 2019 group chat Dan set up to "roast" Jason around his engagement
 - **Ross Lara** — "the world's first fuccboi," EDM kid at Full Sail, source of derision
-- **Matt Dunn** — "world's most annoying man woman or child," Full Sail era
+- **[[wiki/people/matt-dunn|Matt Dunn]]** — "world's most annoying man woman or child," Full Sail era
 - **Oscar** — Ran into Oscar years later in NYC (impossible coincidence in 9M person city); was waiting tables, Oscar showed up at Dan's table
 - **Alexis** — Dan's ex, met Thanksgiving break (3 days in hometown), moved in with Dan. Dan is genuinely proud of the "Alexis situation" (left her for another girl, got both to hook up). Described as hot but transactional/unreliable. Nearly killed with Jason when attempted heroin buy went bad.
 - **Donato "Steez McQueen"** — Died 2022 (fentanyl-laced xanax, implied); wore Steve McQueen Alexander McQueen jackets; made beats like J Dilla and Nujabes
 - **Gabe** — A cat, not a person: died 2023-10-30 ("I had to put gabe down today"), confirmed by [[wiki/people/eric-jester|Eric Jester]]'s independent same-date message ("I'm so sorry man. He was the cat that made me love cats!")
-- **Jamie Mohler** — Current girlfriend of Jason (mentioned 2025-2026)
+- **[[wiki/people/jamie-mohler|Jamie Mohler]]** — fellow Full Sail
+  friend, not a girlfriend (see REVISED note below); part of the same
+  named cohort as Dunn and Jester in Dan's own 2025 messages
 - **Kayden** — Someone in photos from the heroin-attempt era
 - **Mike Marino** — Knew him in Florida, wishes had photos to prove it
 
@@ -16471,18 +16657,11 @@ Dan describes him as a gateway to "a different style of music that still resonat
 
 - Full timeline of how they met (likely Full Sail, ~2009) not explicit in corpus but strongly implied
 - Current Jason location: Texas (likely Austin or DFW area based on references)
-- Ex-girlfriend mentioned (Feb 2026) but not named
-- Jason's current relationship status: with Jamie Mohler (2025–2026)
+- Ex-girlfriend mentioned (Feb 2026) but not named; current girlfriend also unnamed in corpus
 - Last message: 2026-03-21 (gap since February spike suggests lower contact post-winter)
 - Music output / release status: unclear if Jason has released material or remains hobbyist
 - Full Sail attendance dates: ~2009-2011 implied
 
-## Related
-
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
-- [[wiki/interests/music/overview|Music production]]
-- [[wiki/timeline/periods/full-sail-2008-2010|Full Sail era]]
 
 
 ========================================================================
@@ -18110,6 +18289,100 @@ Exemplifies [[wiki/mind/synthesis/vertical-authority-skepticism]] and [[wiki/min
 
 
 ========================================================================
+PAGE: wiki/people/matt-dunn.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2018-11-16
+date_range_end: 2025-10-06
+sources:
+  - "raw/self/message-csv/interspersed_messages.csv"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+  - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
+tags: [career, digital-footprint, relationships]
+infobox:
+  name: "Matt Dunn"
+  sex: male
+  relationship_to_dan: friend
+  location: remote
+  known_for: "Full Sail-era friend, affectionately abused as 'the world's most annoying man woman or child'; the running $5 birthday Venmo-request bit with Eric Jester"
+connections:
+  - page: wiki/people/jason-bermejo
+    type: co-occurs
+    claim: "Dunn is named alongside Jester and Mohler in Jason's own Sept/Oct 2025 exchanges, confirming the four-person Full Sail cohort from a second independent thread."
+  - page: wiki/people/eric-jester
+    type: co-occurs
+    claim: "The annual $5 birthday Venmo request — 'Of course I pay it' — is the cohort's longest-running documented bit, corroborated identically from both Eric's and Jason's threads a year apart."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: instance-of
+    claim: "Dunn is the fourth named member of the Full Sail friend group that survives, in reduced-contact form, fifteen-plus years after Orlando."
+---
+
+# Matt Dunn
+
+Matt Dunn is a Full Sail-era friend Dan has never stopped ribbing:
+Jason Bermejo's contemporaneous verdict, preserved on
+[[wiki/people/jason-bermejo|Jason's own page]], is "world's most
+annoying man woman or child," and Dan's own 2025 one-line review —
+delivered to Jason, not to Dunn — is blunter still: "Dunn = gross and
+forgettable." No dedicated message thread with Dunn survives in the
+corpus; everything documented about him arrives secondhand, through
+[[wiki/people/eric-jester|Eric Jester]]'s and Jason's threads, which is
+itself informative — of the four-person Full Sail cohort (Dan, Jason,
+Eric, Dunn, and [[wiki/people/jamie-mohler|Jamie Mohler]]), Dunn is the
+one member with no direct digital footprint of his own on file.
+
+## What the record shows
+
+The earliest dated sighting is November 16, 2018, in Eric's thread:
+"Dunn is down in that neighborhood right now. He was texting me about
+t.… He was snapping me videos of full sail earlier" — Dunn back at the
+Orlando campus itself, seven years after the cohort's own attendance
+window, sending Eric nostalgia footage unprompted. It is the thread's
+only glimpse of Dunn as an active, present person rather than a
+punchline.
+
+The cohort's longest-running bit is the **annual birthday Venmo
+request**: Eric's April 2025 thread confirms it from the receiving end
+— "Lol does Dunn Venmo request you every year on his birthday? …
+Every damn year. And it's always $5. Of course I pay it" — and Dan's
+own October 2025 aside to Jason, delivered as a household-name fact
+requiring no explanation, treats the same bit as common cohort
+knowledge. The joke's durability (running, on Eric's account, for
+years without a single skipped birthday) is the clearest evidence the
+friendship — mocked constantly, abandoned never — has actually held.
+
+Dunn surfaces once more in the October 6, 2025 Jason exchange that also
+corrects the record on Jamie Mohler (see
+[[wiki/people/jamie-mohler]]): asked whether Dan's mother remembers his
+old Florida friends, Dan ranks the cohort — "Jester = forgettable /
+Dunn = gross and forgettable / Mohler = a literal woman" — the running
+insult format the group uses on itself, in which "forgettable" plainly
+does not mean forgotten.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Direct messages from Dunn | 0 (no dedicated thread on file) |
+| Mentions, third-party threads | 4 (Eric Jester ×2, Jason Bermejo ×2) |
+| Date range of mentions | 2018-11-16 – 2025-10-06 |
+
+**Gaps:** no handle, phone number, or direct thread for Dunn exists in
+the corpus — everything here is what Eric and Jason say about him. His
+current occupation, location, and life circumstances are undocumented.
+Whether he still uses Venmo to extract the annual $5 in years not
+covered by these two snapshots is unconfirmed but, given the pattern's
+described consistency, likely.
+
+
+========================================================================
 PAGE: wiki/people/max-danielle-bf.md
 ========================================================================
 
@@ -18324,8 +18597,14 @@ date_created: 2026-06-23
 date_modified: 2026-07-19
 date_range_start: 2018-11-04
 date_range_end: 2025-02-20
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/messages_3476070497_all_time.csv"]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/message-csv/messages_3476070497_all_time.csv"
+  - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
 connections:
+  - page: wiki/people/jamie-mohler
+    type: co-occurs
+    claim: "Jamie was present, per the operator, on the day Dan first met Menore during the NYC-1 years — the original introduction predates every message in this thread, which documents only the November 2018 reconnection after a 5.5-year gap."
   - page: wiki/mind/synthesis/supply-network
     type: component-of
     claim: "Menore is the network's NYC node and its reliability outlier — 99.3% availability (455 of 458 requests answered, median 6.6-minute reply) — the control case proving that in this market pure-transactional distance outperforms friendship-embedded supply."
@@ -18358,6 +18637,14 @@ infobox:
 **Menore** (+13476070497) — Drug dealer / supply operator in New York City; Bedford Ave (Williamsburg) Brooklyn origin connection; operated Nov 2018–Feb 2025 across 4,413 messages (two service eras split by a four-year gap) with 99.3% measured availability and zero recorded friction. Per the Au Za'atar storytime, he "delivered in black cars and worked as a legit taxi when not out on a snap" — the licensed-taxi cover explains the vehicle discipline documented below — and in 2024 he served Dan mid-shift at the restaurant's outdoor shed ([[wiki/work/au-zaatar]]) — primary-confirmed May–Aug 2024; the storytime's longer 2021–24 claim is unresolved (see the CONTRADICTION block below).
 
 Name likely variant of "Menor" or placeholder; re-entry contact after Dan left NYC (April 2013–Nov 2018, 5.5-year gap). Announces "new number" Nov 4, 2018 ("Text here bro new number. Is menor. Save this one"). Despite 2,044 days of radio silence, Dan's re-entry message received a 1-minute response. Operates as independent distributor with associate ("my boy") managing some runs.
+
+The "new number, save this one" framing is itself evidence of a prior
+relationship rather than a cold introduction — consistent with the
+operator's account that the original meeting happened years earlier,
+during the [[wiki/timeline/periods/2010s|NYC-1]] window (2010–May
+2013), with [[wiki/people/jamie-mohler|Jamie Mohler]] present. No
+message thread survives from that original meeting; it predates every
+row in this corpus by at least five and a half years.
 
 ## Service Model & Operating Characteristics
 
@@ -25923,7 +26210,12 @@ date_created: 2026-07-02
 date_modified: 2026-07-18
 date_range_start: 2010-04-01
 date_range_end: 2013-05-31
-sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
+sources:
+  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/facebook/facebook-ihatedanfrank/
+  - raw/self/dox-scan/Gemini-_58.txt
+  - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
+  - raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md
 tags: [relationships, nyc-era, addiction-recovery]
 connections:
   - page: wiki/timeline/periods/full-sail-2008-2010
@@ -25938,6 +26230,9 @@ connections:
   - page: wiki/health/chemical-architecture
     type: contains
     claim: "The daily Suboxone maintenance chassis begins at the front edge of this period (~Jan 2010 [MEM] / Jan 2011 [legacy docs] — the one-year discrepancy is still unresolved), making NYC-1 the start of the fifteen-year regimen."
+  - page: wiki/people/jamie-mohler
+    type: contains
+    claim: "Jamie, per the operator, shared the NYC-1 years with Dan and was present the day he first met Menore — the original introduction to the dealer who becomes the supply network's most reliable node, years before the documented 2018 reconnection."
 ---
 
 # NYC Round One (2010–2013)
@@ -26006,6 +26301,11 @@ dated attendance anchor.
 
 - [[wiki/people/alexis-armel]] — the defining relationship of the era;
   the whole-NYC-1 cohabitation.
+- [[wiki/people/jamie-mohler]] — Full Sail friend confirmed by a 2011
+  Gchat log as a regular presence in the Brooklyn household during
+  Occupy Wall Street; per the operator, also present the day Dan first
+  met [[wiki/people/menore|Menore]] (that specific claim remains
+  operator-attested — no message thread documents the meeting itself).
 - [[wiki/people/ally-lubin]] — 2013 message burst.
 - [[wiki/people/charles-davenport]] — early NYC-move contact (2010).
 - [[wiki/people/marc-charles]], [[wiki/people/sean-teets]],
@@ -26820,6 +27120,7 @@ sources:
   - raw/self/dox-scan/Resume.txt
   - raw/self/dox-scan/FULL TWITTER ANALYSIS.txt
   - raw/self/dox-scan/Gemini-_58.txt
+  - raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md
 related:
   - wiki/timeline/periods/dark-era-2007-2008
   - wiki/health/chemical-architecture
@@ -26835,7 +27136,19 @@ connections:
     claim: "The period closes the 2005–2010 'Neuroemotional Imprinting Era' — the emo/pop-punk template of intense, tragic, doomed devotion that the psychosexual cluster reads as the aesthetic standard for later relationships."
   - page: wiki/timeline/periods/2010s
     type: precedes
-    claim: "Full Sail hands directly into NYC-1 — the spring-2010 move from Winter Park to Brooklyn carries the audio ambition and the just-begun Alexis relationship north."
+    claim: "Full Sail hands directly into NYC-1 — the spring-2010 move from Winter Park to Brooklyn carries the audio ambition and the just-begun Alexis relationship north, and the same friend cohort (Bermejo, Jester, Dunn, Mohler) follows into that period."
+  - page: wiki/people/jason-bermejo
+    type: contains
+    claim: "Jason is the era's most durable friendship — the formative music influence who introduced Dan to Kid Cudi and DIY production, and who is still, fifteen years later, one of two people whose music taste Dan defers to."
+  - page: wiki/people/eric-jester
+    type: contains
+    claim: "Eric is the cohort member whose sparse, decade-spanning check-ins pick up exactly where they left off — the era's clearest evidence that a Full Sail friendship never needed active maintenance to survive."
+  - page: wiki/people/matt-dunn
+    type: contains
+    claim: "Dunn is the cohort's fourth member and its longest-running bit — an annual $5 birthday Venmo request Eric has paid without fail for years."
+  - page: wiki/people/jamie-mohler
+    type: contains
+    claim: "Jamie was present in NYC during the years directly following this period and, per the operator, on the day Dan first met Menore — placing the original Menore introduction inside the Full Sail cohort's own social orbit, years before the documented 2018 reconnection."
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)
@@ -26884,6 +27197,27 @@ one of the freshwater springs outside the city) and in the same
 closed-network in-jokes as [[wiki/people/josh-brannan|Josh Brannan]] and
 other Full Sail-era friends, consistent with her later confirmed presence
 through the NYC years documented on [[wiki/people/alexis-armel]].
+
+## The friend group
+
+Full Sail seeds the one social cohort in Dan's record that outlasts
+every geographic move that follows: [[wiki/people/jason-bermejo|Jason
+Bermejo]], [[wiki/people/eric-jester|Eric Jester]],
+[[wiki/people/matt-dunn|Matt Dunn]], and
+[[wiki/people/jamie-mohler|Jamie Mohler]], a four-person group named
+identically and independently from two separate 2025 message threads
+(Jason's and Eric's), decades after Orlando. Jason supplies the era's
+music-taste imprint (Kid Cudi, DIY closet-studio recording, blog-era
+hip-hop) that runs forward into Dan's whole production identity; the
+group's other three members are lower-volume in the corpus but no less
+durable — Eric's check-ins resume every year or two with no repair
+needed, and Dunn is the subject of an annual $5 birthday joke Eric has
+paid without fail for years. Per the operator, Jamie was in New York
+with Dan during the NYC-1 years directly following this period and was
+present the day Dan first met [[wiki/people/menore|Menore]] — meaning
+the introduction to the dealer who would go on to be the most reliable
+node of the entire [[wiki/mind/synthesis/supply-network|supply
+network]] traces back to this same friend group.
 
 ## Pro Tools certification (Jan–Feb 2010)
 
