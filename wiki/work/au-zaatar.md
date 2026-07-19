@@ -4,7 +4,7 @@ page_type: event
 title: "Au Za'atar (NYC, ~2021–2024)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 sources:
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/TheWaitersVisibleHigh.md
@@ -26,6 +26,9 @@ related:
   - wiki/mind/concepts/institutional-out
 tags: [nyc-era, career, ai-collaboration, housing, forensic-analysis]
 connections:
+  - page: wiki/mind/concepts/institutional-out
+    type: evidences
+    claim: "The night-class alibi — a fictitious 9pm schedule held for over a year, securing peak shifts while exempting closing duty — is the out-protocol's documented masterpiece."
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: co-occurs
     claim: "Dan's involuntary exit here set up the 2024 sole-earner rotation of the bond's leverage see-saw."

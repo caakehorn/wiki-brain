@@ -4,7 +4,7 @@ page_type: event
 title: "Caddying — Nemacolin, Laurel Valley, Pikewood National (2016–2019)"
 status: closed
 date_created: 2026-07-14
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 date_range_start: 2016-04-06
 date_range_end: 2019-11-01
 sources:
@@ -24,6 +24,15 @@ connections:
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Steve asked to be gotten into the caddie yard in July 2017 and never submitted the resume — a documented near-member of the cohort."
+  - page: wiki/people/davey-fitzpatrick
+    type: contains
+    claim: "Davey is the yard's management layer in the record: assistant caddie master for 2018, source of every documented report time and training assignment in Dan's season, and the coworker who picked Dan to train the new caddies."
+  - page: wiki/people/vaughn
+    type: contains
+    claim: "Vaughn is the cohort's paycheck-to-paycheck edge: a fellow caddie coordinating rides to the yard and check pickups who doubled as a small-time weed middleman between loops."
+  - page: wiki/people/urpaaa-at-yahoo-com
+    type: co-occurs
+    claim: "The unidentified urpaaa thread runs on the yard's clock — report times, the $100 Venmo tip, and Dan looping 5.5 hours the day after a tooth extraction because the yard culture punished sick days."
   - page: wiki/interests/golf
     type: component-of
     claim: "The caddying job is the professional component of the wider golf thread — the hire reignited his own playing, and for the 2016–19 stretch the sport was simultaneously income, social world, and game."
@@ -88,7 +97,14 @@ Pikewood and Potomac assignments weeks earlier.
 ## The caddie-yard social graph
 
 The job seeded a documented cohort of its own, each with a thread in the
-corpus: [[wiki/people/trevor|Trevor Bevins]] — the "Trevor" of the May 21
+corpus: [[wiki/people/davey-fitzpatrick|Davey Fitzpatrick]] — fellow
+caddie in 2017, assistant caddie master in 2018, and the channel through
+which every report time and training assignment of Dan's last season
+arrived; [[wiki/people/vaughn|Vaughn]] — a fellow caddie coordinating
+rides up the mountain and check-day logistics, who doubled as a
+small-time weed middleman between loops
+([[wiki/mind/synthesis/supply-network]] carries the supply side);
+[[wiki/people/trevor|Trevor Bevins]] — the "Trevor" of the May 21
 Laurel Valley trip above and the era's closest work friendship, who later
 left for Sand Valley; [[wiki/people/chad-johnson|Chad Johnson]] — the
 "Chad" of the same trip, a fellow caddy and social contact beyond the

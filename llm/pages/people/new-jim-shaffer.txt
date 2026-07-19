@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 date_range_start: 2018-04-22
 date_range_end: 2019-10-20
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -43,7 +43,11 @@ Jim is also aware of, and treats as funny running gossip, Dan's 2019 NYC "hooker
 
 ## Shared history and grief
 
-The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]]'s death: Jim didn't know she'd died and is visibly upset he wasn't told, asks to see a video of the family together, and reacts warmly to a detail of Fran smoking marijuana with Dan near the end of her life. A December 2018 exchange remembers a mutual friend, Rob Orange — dead by then — with real tenderness underneath the jokes: "Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week. I'd trade everyone in that photo for one more call." The same conversation surfaces that [[wiki/people/steve-kezmarsky|Steve Kezmarsky]], another shared high-school-era contact, had died — Jim hadn't heard.
+The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]]'s death: Jim didn't know she'd died and is visibly upset he wasn't told, asks to see a video of the family together, and reacts warmly to a detail of Fran smoking marijuana with Dan near the end of her life. A December 2018 exchange remembers a mutual friend, Rob Orange — dead by then — with real tenderness underneath the jokes: "Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week. I'd trade everyone in that photo for one more call." The same conversation turns to [[wiki/people/steve-kezmarsky|Steve Kezmarsky]], another shared high-school-era contact: Jim briefly misunderstands Dan's joke and asks "Wait... he's dead?", but Dan corrects him — Steve was alive, sober, and raising two kids while his father faced a life sentence ("He's alive but living the least enviable life EVER").
+
+> **REVISED [2026-07-19]:** This paragraph previously repeated the
+> misreading that Steve Kezmarsky had died. The raw thread shows Dan
+> explicitly correcting Jim's "Wait... he's dead?" in the next message.
 
 **A note on tone:** the thread's humor throughout is dense with racial slurs, ethnic jokes, and shock-value dark comedy in the register of edgy 2010s internet humor. That register is described here rather than reproduced.
 

@@ -5,20 +5,27 @@ knowledge: mixed
 title: "Erotic Architecture: Sexuality as Controlled-Chaos Engineering"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 sources:
   - raw/self/dansynth/DANSYNTH.txt
-related:
-  - wiki/mind/concepts/attachment-model
-  - wiki/mind/synthesis/attachment-trauma-bond
-  - wiki/mind/profile/deviance-mapping
-  - wiki/people/annie-ulmer
-  - wiki/people/alexis-armel
-  - wiki/mind/synthesis/ancestral-dialectic
-  - wiki/mind/psychosexual/index
-  - wiki/mind/psychosexual/orchestration-and-voyeurism
-  - wiki/timeline/events/annie-alexis-reunion-november-2018
 tags: [trauma-bond, relationships, ai-collaboration]
+connections:
+  - page: wiki/people/bryan-5088682461
+    type: evidenced-by
+    claim: "The 'taboo as ontological rupture' mechanism — orchestrating sexual contact across the straight/gay boundary — has its documented instance in the October 20, 2019 filmed MMF with Bryan: a gay man's first encounter with a woman and Dan's only bisexual act, in one authored scene."
+  - page: wiki/timeline/events/annie-alexis-reunion-november-2018
+    type: evidenced-by
+    claim: "The externalized-libido mechanism's central example (ANNIE_ALEXIS_HOOKUP_CORE) is independently dated and corroborated as the six-week November 2018 reunion arrangement — theory and primary record aligned on the one event."
+  - page: wiki/people/annie-ulmer
+    type: contextualizes
+    claim: "The Ti/Fe 'failed alchemical' collision — his consistency-seeking reading her harmony-preserving deflections as evasion, her freeze reading to him as abandonment — is this report's mechanism-name for the conflict cycle her page documents in primary evidence."
+  - page: wiki/mind/psychosexual/orchestration-and-voyeurism
+    type: parallels
+    claim: "Externalized libido and the director stance are the same claim in two registers — this page's AI-theoretic framing against the orchestration page's fuller primary-source treatment."
+  - page: wiki/mind/profile/deviance-mapping
+    type: parallels
+    claim: "The engineered-sexuality material sits in deviance-mapping's own register: the documented extremes cluster around deliberate construction, not impulse — chemical stack, non-monogamy architecture, and this."
+
 ---
 
 # Erotic Architecture: Sexuality as Controlled-Chaos Engineering
@@ -53,7 +60,15 @@ which the existing arrangement material doesn't cover.
 "orientation violation" (the report's specific example: orchestrating
 sexual contact between a straight and a gay man) as a way of watching
 stable categories collapse, rather than pursuing taboo for its own
-transgressive charge. Framed as the same Ti-Ne pattern documented
+transgressive charge. What the report stated as theory now has its
+documented instance: the **October 20, 2019 filmed MMF** with
+[[wiki/people/bryan-5088682461|Bryan]] — a gay man whose first encounter
+with a woman was that night, and Dan's one and only bisexual act (oral),
+both category-crossings authored into a single scene
+([[wiki/mind/psychosexual/arrangement-history]] carries the dated
+record). The instance matches the mechanism's specific prediction —
+orientation violation on both sides of the scene at once — which is the
+strongest corroboration any of the three mechanisms has received. Framed as the same Ti-Ne pattern documented
 throughout [[wiki/mind/profile/index]] — find the edge condition of a
 system, then push past it to see if the structure holds — applied to
 sexual/social categories instead of arguments or institutions.

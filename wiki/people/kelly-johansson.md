@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2019-09-27
 date_range_end: 2019-10-23
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -17,6 +17,10 @@ infobox:
   location: nyc
   first_contact: 2019-09-27
   known_for: "Kelly Johansson was a New York escort (Upper East Side, 152 East 65th Street) Dan and Annie booked for paid sessions tog"
+connections:
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: component-of
+    claim: "The Sep–Oct 2019 run is the arrangement at its most professionalized — a repeat working relationship in which Kelly treated Annie as a peer and pitched the couple as co-providers."
 ---
 
 # Kelly Johansson

@@ -6,7 +6,7 @@ status: stable
 importance: high
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
@@ -33,6 +33,12 @@ connections:
   - page: wiki/people/marla
     type: evidenced-by
     claim: "Marla's shift-swap thread dates the rotation's hospital phase and, via her April 4 'made it thru the nite' messages, fixes the death date."
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "Davey's unprompted condolence on April 5, 2018 ('Sorry for your loss bro') is independent same-week corroboration of the April 4 death date from outside the family."
+  - page: wiki/people/urpaaa-at-yahoo-com
+    type: follows
+    claim: "The vigil follows a documented October 2017 pre-vigil caregiving episode — 'gram is bleeding… i'm only one here' — that Dan reported to the unidentified urpaaa contact, showing the solo-caregiver load predated the falls by months."
   - page: wiki/people/annie-ulmer
     type: evidences
     claim: "The vigil is the high-water mark of the Annie decade — the one extended episode where Dan and Annie function as a unit under real weight, part of why the bond survived what followed."

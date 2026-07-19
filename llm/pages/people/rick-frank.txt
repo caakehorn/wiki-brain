@@ -5,7 +5,7 @@ title: "Richard Harrison \"Rick\" Frank"
 aliases: ["Rick", "Frank Sr."]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 infobox:
   name: Rick Frank
   status: Estranged
@@ -20,16 +20,6 @@ sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/dox-md/Gemini-_18.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
-related:
-  - wiki/people/suzanne-frank
-  - wiki/people/vanessa-frank
-  - wiki/self/ancestry
-  - wiki/mind/synthesis/vertical-authority-skepticism
-  - wiki/mind/concepts/attachment-model
-  - wiki/legal/2015-retail-theft-arrest
-  - wiki/health/chemical-architecture
-  - wiki/mind/synthesis/ancestral-dialectic
-  - wiki/mind/psychosexual/developmental-origins
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
   - page: wiki/mind/synthesis/block-unblock-loop
@@ -41,6 +31,12 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: causes
     claim: "The 2005 concealed-reality template on the paternal line is the documented origin of the vertical-suspect pattern."
+  - page: wiki/mind/concepts/attachment-model
+    type: causes
+    claim: "The 2005 rupture — a trusted primary figure maintaining a concealed alternate reality — is the template the attachment model replicates: the Annie decade re-ran verbal assurance over sustained concealment."
+  - page: wiki/mind/psychosexual/developmental-origins
+    type: causes
+    claim: "The November 2005 disclosure is the psychosexual cluster's named hinge event — per the dossier, the encoding moment of 'intimacy is a precursor to abandonment.'"
 ---
 
 

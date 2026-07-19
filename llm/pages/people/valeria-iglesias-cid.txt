@@ -4,7 +4,7 @@ page_type: entity
 title: "Valeria Iglesias Cid"
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 date_range_start: 2021-12
 date_range_end: 2025-07
 sources:
@@ -31,6 +31,10 @@ infobox:
   location: uniontown
   first_contact: 2021-12
   known_for: "Valeria Iglesias Cid was the 19-year-old Au Za'atar hostess — daughter of"
+connections:
+  - page: wiki/mind/concepts/institutional-out
+    type: co-occurs
+    claim: "The night-class fiction that ran the labor extraction also covered the Valeria affair — one unfalsifiable alibi serving both concealments simultaneously."
 ---
 
 # Valeria Iglesias Cid

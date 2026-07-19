@@ -6,7 +6,7 @@ aliases: ["spine", "behavioral spine", "CONTEXT_CORE_EXPANDED"]
 status: stable
 importance: critical
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
@@ -17,6 +17,10 @@ sources:
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
 tags: [personality-profile, family, relationships, ai-collaboration]
+connections:
+  - page: wiki/mind/concepts/phenomenology-lens
+    type: contains
+    claim: "The lens is a formally subordinate interpretive overlay on this spine: wherever its metaphors and the spine's hard counts disagree, the spine wins — the subordination rule is part of the spine's own governance."
 related:
   - wiki/self/overview
   - wiki/mind/concepts/conflict-architecture

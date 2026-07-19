@@ -318,3 +318,20 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - **NEW wiki/timeline/periods/uniontown-return-2013-2015.md** — fills the genuinely-uncovered stretch (periods jumped full-sail-2008-2010 → 2015-2016-annie with only the thin 2010s catch-all). The most-corrected geography in the timeline: SLOPPP (2013 launch, 2014 peak) → MOGZART (~2014 handoff on the May account rotation), the Alexis endgame, Jan 2015 move to 155 Virginia, Nov 28-29 2015 switch to Annie — all in Uniontown, not NYC. 7 typed edges.
 - Inverse edges on full-sail, sloppp, mogzart, 155-virginia-ave, chemical-architecture, 2015-2016-annie, alexis-armel, bond-switch-2015. timeline/index.md rewired. llm/ regenerated.
 - Gates: wiki-lint 0 errors (309 pages), wiki-connect check 0 errors.
+
+## [2026-07-19] ingest | people | long-tail MINE pass (sam, davey-fitzpatrick, vaughn, nick-mattie, urpaaa) + kezmarsky death-claim correction
+- Full-thread per-contact mining from MASTER_MESSAGES_DB_DUMP.csv per LONG_TAIL_TRIAGE.md: sam (374 — NYC cannabis delivery dealer 2019–20), davey-fitzpatrick (382 — Nemacolin assistant caddie master 2018), vaughn (228 — caddie + weed middleman), nick-mattie (170 — 2017 reciprocal trading peer), urpaaa-at-yahoo-com (23 — unidentified teacher, parental register, Oct 2017 extraction). jason-bermejo opener rewritten per Substance Standard.
+- CORRECTION (operator-requested validation): steve-kezmarsky was NOT dead by Dec 2018 — the Jim Shaffer thread shows Dan correcting Jim's misreading ("He's alive but living the least enviable life EVER / two kids / Sober"). The real event: his father's Jan 22, 2018 arrest and expected life sentence. REVISED blocks on steve-kezmarsky.md + new-jim-shaffer.md; index one-liner fixed.
+- Typed connections + inverse edges wired across supply-network, nemacolin-caddying, menore, 307-e-76th-st, covid-era-2020, 2017-poverty-floor, orchestration-and-voyeurism, fran-death-vigil, trevor, jack-rusko, annie-ulmer.
+
+## [2026-07-19] ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
+- Operator note filed to raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md. Corpus corroboration found: Sent 2019-10-22 "last night we had to film mmf (my first time doing that)..." dates the encounter to Oct 21, 2019 (NYC, filmed, oral-only — Dan's sole bisexual experience). End Fight export shows Tuquick deploying the video June 2026 ("sucked a dick, for you to get drugs"; "Or the video of her sucking dick...").
+- arrangement-history.md timeline row added; tuquick-17248123683.md gains "The October 2019 video as weapon" section + typed edge.
+
+## [2026-07-19] connect | mind | psych-linkage pass — concepts/psychosexual wired to people pages
+- Per operator directive: retrofitted attachment-model, conflict-architecture, phenomenology-lens, developmental-origins, emotional-imprinting, erotic-architecture, arrangement-history, dans-law, node-locking, institutional-out to typed connections; deleted deprecated related: lists/footers on retrofitted pages. ~45 new argued edges with inverses on annie-ulmer, rick-frank, suzanne-frank, alexis-armel, kelly-johansson, kristin, valeria-iglesias-cid, eli-incident, bfs-foods, au-zaatar, forensic-method, exocortex, and others.
+- New person page: bryan-5088682461 (operator-identified third participant, Oct 21 2019 filmed MMF; +15088682461 corroborated in corpus via May 2025 re-contact). Disambiguation hatnote added on brian.md. The Bryan instance corroborates erotic-architecture's "taboo as ontological rupture" mechanism — theory now has its documented case.
+- Gates: wiki-lint 0 errors, wiki-connect check 0 errors.
+
+## [2026-07-19] correct | people | MMF encounter date → Oct 20, 2019 (operator)
+- Operator correction: the filmed MMF with Bryan took place 2019-10-20, not the 10-21 previously inferred from the Oct 22 "last night" message. Updated bryan-5088682461, arrangement-history, tuquick, brian hatnote, erotic-architecture, people index; REVISED block on bryan page records the one-day tension with the corpus phrasing. Capture note appended.

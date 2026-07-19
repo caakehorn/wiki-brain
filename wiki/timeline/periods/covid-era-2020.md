@@ -4,7 +4,7 @@ page_type: period
 title: "The COVID Era (2020)"
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 date_range_start: 2020-03-01
 date_range_end: 2021-03-01
 sources:
@@ -21,6 +21,9 @@ connections:
   - page: wiki/mind/synthesis/2020-left-turn
     type: causes
     claim: "The lockdown's micro-radius siege is the documented condition of the August 2020 socialist conversion — the reading and media binge are self-dated to being stuck inside."
+  - page: wiki/people/sam
+    type: co-occurs
+    claim: "The Sam thread's May–September 2020 resumption is street-level documentation of the siege months: deliveries negotiated around rides, breakdowns, and a dealer reduced to asking 'You still in ny.'"
 ---
 
 

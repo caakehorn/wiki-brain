@@ -4,7 +4,7 @@ page_type: concept
 title: "Orchestration and Voyeurism"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 knowledge: mixed
 sources:
   - raw/self/dox-scan/Dan Profile.txt
@@ -20,9 +20,21 @@ related:
   - wiki/people/fran-coldren
 tags: [relationships, trauma-bond, personality-profile]
 connections:
+  - page: wiki/mind/psychosexual/emotional-imprinting
+    type: mirrors
+    claim: "Total imprinting on contact and years of orchestrated exposure sit in documented tension — unless authorship over the boundary routes around the imprinting channel, the framework's open structural question."
+  - page: wiki/mind/concepts/erotic-architecture
+    type: parallels
+    claim: "The director stance and 'externalized libido' are the same claim in two registers — this page's primary-source treatment against the OS report's AI-theoretic framing."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: evidenced-by
+    claim: "The arrangement timeline is the practice-side record of the director stance this page theorizes — arranged conditions, controlled access, Dan as architect rather than participant."
   - page: wiki/interests/film-canon
     type: evidenced-by
     claim: "The 2019-07-18 'living some eyes wide shut shit vicariously through her' message shows Dan reaching for his canon's masked-voyeur film as the lens on his own arrangement — primary self-description of the spectator frame."
+  - page: wiki/people/vaughn
+    type: co-occurs
+    claim: "The February 2018 Vaughn exchange — explicit photos shared to a curated audience, an offer to film, a 1 AM visit under 'complete gentleman' terms — pattern-matches the arrangement-onset orchestration window, though identity and outcome are uncorroborated."
 ---
 
 # Orchestration and Voyeurism

@@ -6,7 +6,7 @@ aliases: ["forensic analysis", "forensic methodology", "procedural tells", "loss
 status: stable
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
@@ -25,6 +25,9 @@ related:
   - wiki/timeline/events/eli-incident
 tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
 connections:
+  - page: wiki/mind/concepts/dans-law
+    type: contains
+    claim: "Dan's Law is the method's deconfounding filter — the formalized step that strips parasitic noise from a coincidence cluster to isolate the load-bearing element."
   - page: wiki/mind/synthesis/political-psyops
     type: instantiates
     claim: "The J6 analysis is the method applied to a public event; same anomaly-detection engine, different corpus."

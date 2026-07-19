@@ -3,13 +3,17 @@ domain: timeline
 page_type: event
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2018-10-13
 date_range_end: 2018-12-11
 sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt"]
 related: ["wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/people/menore", "wiki/people/emaly-minerd", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/mind/psychosexual/orchestration-and-voyeurism", "wiki/mind/psychosexual/arrangement-history"]
 tags: [relationships]
 knowledge: earned
+connections:
+  - page: wiki/mind/concepts/erotic-architecture
+    type: evidences
+    claim: "This event is the dated, corroborated reality behind the OS report's ANNIE_ALEXIS_HOOKUP_CORE — the externalized-libido mechanism's central example."
 ---
 
 # Annie/Alexis Reunion (October–December 2018)

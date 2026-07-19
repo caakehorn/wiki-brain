@@ -5,7 +5,7 @@ title: "BFS Foods (2026): Job, Drawer Dispute, Termination"
 status: closed
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 sources:
   - raw/legal/bfs-dispute/BFS_BOOTLOADER_v2.md
   - raw/legal/bfs-dispute/BFS Anita Quagmire strategy and legal exposure.md
@@ -28,6 +28,12 @@ related:
   - wiki/mind/concepts/dans-law
 tags: [addiction-recovery, career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/mind/concepts/dans-law
+    type: evidences
+    claim: "The drawer dispute is Dan's Law's cleanest low-stakes application: the missing paper trail read as the demand's feature, and the do-not-validate-by-paying conclusion followed from the stripped signal."
+  - page: wiki/mind/concepts/institutional-out
+    type: parallels
+    claim: "The BFS posture and the pre-installed out share one game-theoretic instinct — engage the institution only through mechanisms it cannot verify or contest — run from opposite sides of the ledger."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The drawer dispute is the micro-scale exhibit of the vertical-skepticism architecture: an unverified claim from above, backed by social pressure rather than records, met with procedural analysis and refusal."

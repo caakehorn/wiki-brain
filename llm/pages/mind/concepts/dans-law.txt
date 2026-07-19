@@ -3,18 +3,23 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-11
+date_modified: 2026-07-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
-related:
-  - wiki/mind/concepts/forensic-method
-  - wiki/mind/synthesis/political-psyops
-  - wiki/work/bfs-foods
-  - wiki/self/chats/j6-chat
-  - wiki/self/context-core
 tags: [politics, trauma-bond, forensic-analysis]
+connections:
+  - page: wiki/mind/concepts/forensic-method
+    type: component-of
+    claim: "Dan's Law is the method's deconfounding filter — the step that converts a raw anomaly list into actionable signal by stripping parasitic noise from the load-bearing element."
+  - page: wiki/work/bfs-foods
+    type: evidenced-by
+    claim: "The drawer dispute is the law's cleanest low-stakes application on record: the absence of a paper trail identified as the demand's feature, not an oversight, and the do-not-validate-by-paying conclusion followed."
+  - page: wiki/mind/synthesis/political-psyops
+    type: parallels
+    claim: "The psyops corpus runs the same deconfounding procedure at political scale — the J6 'hybrid organic event + intelligence co-opt' verdict is Dan's Law's signature output shape."
+
 ---
 
 # Dan's Law

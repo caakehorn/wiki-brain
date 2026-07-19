@@ -4,18 +4,22 @@ page_type: concept
 title: "Emotional Imprinting"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 knowledge: mixed
 sources:
   - raw/self/dox-scan/Dan Profile.txt
-related:
-  - wiki/mind/psychosexual/index
-  - wiki/mind/concepts/attachment-model
-  - wiki/people/eli
-  - wiki/timeline/events/eli-incident
-  - wiki/mind/profile/intp
-  - wiki/people/annie-ulmer
 tags: [relationships, trauma-bond, attachment, personality-profile]
+connections:
+  - page: wiki/mind/concepts/attachment-model
+    type: parallels
+    claim: "'Crush activation on contact' with no off switch and the attachment model's no-counter-rule architecture are structurally identical claims reached from different source bases — dossier theory and primary corpus converging on rapid, irreversible activation."
+  - page: wiki/timeline/events/eli-incident
+    type: contextualizes
+    claim: "The imprinting mechanism is the cluster's account of the Eli betrayal's disproportionate severity — 'temple desecration' rather than romantic disappointment, the violation of an absorbed internal map."
+  - page: wiki/mind/psychosexual/orchestration-and-voyeurism
+    type: mirrors
+    claim: "The two mechanisms sit in documented tension: total imprinting on contact does not obviously predict years of orchestrated exposure — unless authorship over the boundary routes around the imprinting channel, which remains the framework's open structural question."
+
 ---
 
 # Emotional Imprinting
@@ -91,7 +95,3 @@ supported, but that convergence is at the level of *pattern* (rapid,
 irreversible attachment activation), not at the level of the specific
 "crush activation on contact" or "temple desecration" language, which
 remains interpretive framing rather than primary-source fact.
-
-## Related
-
-[[wiki/mind/psychosexual/index]] · [[wiki/mind/concepts/attachment-model]] · [[wiki/people/eli]] · [[wiki/timeline/events/eli-incident]] · [[wiki/mind/profile/intp]] · [[wiki/people/annie-ulmer]]

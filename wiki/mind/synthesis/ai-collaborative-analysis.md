@@ -6,7 +6,7 @@ title: "AI Collaborative Analysis"
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-17
+date_modified: 2026-07-19
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini_00.md
@@ -24,6 +24,9 @@ sources:
   - raw/self/dox-md/_Psychological Warfare and Social Engineering .md
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
 connections:
+  - page: wiki/mind/concepts/node-locking
+    type: evidenced-by
+    claim: "The node-locking protocol — ~403 locked nodes, cross-platform transfer commands, export redaction — is the primary behavioral evidence that the LLM venue is used as writable memory, not conversation."
   - page: wiki/mind/concepts/exocortex
     type: contains
     claim: "The externalized-prefrontal-cortex frame is the core concept this synthesis develops across the documented interaction modes."

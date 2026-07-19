@@ -5,7 +5,7 @@ title: "Trevor Bevins"
 aliases: ["Trevor"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 date_range_start: 2017-10-19
 date_range_end: 2021-02-04
 sources:
@@ -19,6 +19,10 @@ related:
   - wiki/mind/concepts/contact-gini
 tags: [uniontown-era, career, financial-stress, digital-footprint]
 knowledge: mixed
+connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: co-occurs
+    claim: "Davey's thread independently dates Trevor's late-July 2018 exit and prices its cost from the yard's side — 'Trev picked a bad time to leave' — during the season's busy back half."
 infobox:
   name: "Trevor Bevins"
   relationship_to_dan: unknown
