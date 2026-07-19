@@ -4,7 +4,7 @@ page_type: period
 status: archived
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 date_range_start: 2017-01-01
 date_range_end: 2017-12-31
 changelog:
@@ -34,6 +34,12 @@ connections:
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "The poverty floor is the money spine's zero point — water shut off, gold and clothes sold, a $120 drug debt as a materially significant liability — the reference state against which every later capital arrival and burn is measured."
+  - page: wiki/people/vaughn
+    type: co-occurs
+    claim: "The Vaughn thread runs on poverty-floor logistics from both sides — rides coordinated to collect paychecks, $50 fronts, 'U getting ur check today' — documenting that Dan's suppliers were as broke as he was."
+  - page: wiki/people/nick-mattie
+    type: co-occurs
+    claim: "The Nick Mattie ledger — $20 and $50 fronts tracked by hand, a $100 bill carried to work as debt repayment — is the poverty floor's street-level bookkeeping, two broke men extending each other credit neither could cover."
 ---
 
 # 2017 Poverty Floor

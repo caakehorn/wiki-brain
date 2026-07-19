@@ -4,7 +4,7 @@ page_type: concept
 title: "Orchestration and Voyeurism"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-19
 knowledge: mixed
 sources:
   - raw/self/dox-scan/Dan Profile.txt
@@ -23,6 +23,9 @@ connections:
   - page: wiki/interests/film-canon
     type: evidenced-by
     claim: "The 2019-07-18 'living some eyes wide shut shit vicariously through her' message shows Dan reaching for his canon's masked-voyeur film as the lens on his own arrangement — primary self-description of the spectator frame."
+  - page: wiki/people/vaughn
+    type: co-occurs
+    claim: "The February 2018 Vaughn exchange — explicit photos shared to a curated audience, an offer to film, a 1 AM visit under 'complete gentleman' terms — pattern-matches the arrangement-onset orchestration window, though identity and outcome are uncorroborated."
 ---
 
 # Orchestration and Voyeurism

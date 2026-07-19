@@ -7,7 +7,7 @@ importance: critical
 knowledge: mixed
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-07-19
 date_range_start: 2015-11-01
 date_range_end: 2026-06-01
 infobox:
@@ -90,6 +90,9 @@ connections:
   - page: wiki/mind/synthesis/block-unblock-loop
     type: component-of
     claim: "The 127/110 exit-relapse record is the loop's central case, and the March 2026 fight shows Annie running the same block-unblock operation back at Dan — the loop is bidirectional inside the bond."
+  - page: wiki/people/nick-mattie
+    type: evidenced-by
+    claim: "The May 2, 2017 Nick Mattie handoff — product left with Annie after she messaged him on Facebook — dates her supply-logistics facilitation a full year before the documented 2018–19 Johnny-era role."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "The ~$119–123K net payment-app outflow to Annie is the money spine's largest documented drain — roughly the size of the entire estate distribution, exiting through the relationship over the decade."
