@@ -5,8 +5,6 @@ status: active
 knowledge: mixed
 date_created: 2026-07-19
 date_modified: 2026-07-19
-date_range_start: 2018-11-16
-date_range_end: 2025-10-06
 date_range_start: 2012-02-01
 date_range_end: 2025-10-06
 sources:

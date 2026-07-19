@@ -53,8 +53,7 @@ allows only that the experience "was so powerful and so 'human' that i
 will need to process just how differently the world might be than i
 had originally thought" — a rare register of open uncertainty, offered
 to Lucie specifically because he judged she would understand it without
-needing to be convinced. Lucie's reply describes [[wiki/people/vicki|
-Vicki]] — Fran's caretaker — independently rewatching the video Dan
+needing to be convinced. Lucie's reply describes [[wiki/people/vicki|Vicki]] — Fran's caretaker — independently rewatching the video Dan
 sent, saying she "would have had trouble accepting it if she hadn't
 seen with her own eyes that she was okay."
 

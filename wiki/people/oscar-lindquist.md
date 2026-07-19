@@ -33,9 +33,9 @@ connections:
 # Oscar Lindquist
 
 Oscar Lindquist is a friend from Dan's Florida years whose entire
-surviving footprint is a six-line Facebook Messenger thread (`724-208-
-3475`, August–October 2011) — thin, but precisely dated, and the
-primary source behind an anecdote otherwise preserved only as a
+surviving footprint is a six-line Facebook Messenger thread
+(`724-208-3475`, August–October 2011) — thin, but precisely dated, and
+the primary source behind an anecdote otherwise preserved only as a
 punchline on [[wiki/people/jason-bermejo|Jason Bermejo's page]].
 
 ## Hurricane Irene, dated
