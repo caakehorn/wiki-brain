@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-341 pages, ~479,023 tokens.
+341 pages, ~479,107 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -9958,7 +9958,7 @@ sources:
 tags: [digital-footprint, relationships, career, housing]
 connections:
   - page: wiki/self/location-history
-    type: instance-of
+    type: contextualizes
     claim: "This page's behavioral/psychographic reading is built directly on the raw visit-count catalog that page maintains — the numbers are the same corpus, read for pattern rather than tabulated."
   - page: wiki/mind/concepts/contact-gini
     type: parallels
@@ -9974,12 +9974,12 @@ connections:
 # Spatial Behavior — GPS Analysis of Location History
 
 A behavioral/psychographic reading of Dan's Google Location History
-data (2014–2024), distinct from and built on top of the raw visit-count
-catalog on [[wiki/self/location-history]]. Where that page tabulates
-what places got visited how often, this one asks what the shape of the
-movement itself says — and the shape is a single repeating structure:
-long stretches of near-total predictability, punctuated by rare,
-total, and rapid system replacements.
+data (2014–2024). This analysis is distinct from and built on top of
+the raw visit-count catalog on [[wiki/self/location-history]]. Where
+that page tabulates what places got visited how often, this one asks
+what the shape of the movement itself says — and the shape is a single
+repeating structure: long stretches of near-total predictability,
+punctuated by rare, total, and rapid system replacements.
 
 ## The core numbers
 
@@ -30199,6 +30199,9 @@ connections:
   - page: wiki/people/nick-mattie
     type: co-occurs
     claim: "The Nick Mattie ledger — $20 and $50 fronts tracked by hand, a $100 bill carried to work as debt repayment — is the poverty floor's street-level bookkeeping, two broke men extending each other credit neither could cover."
+  - page: wiki/mind/synthesis/spatial-behavior
+    type: evidences
+    claim: "The 2018 'System Collapse & Migration' phase — over a third of the entire 2014-2020 aggregate travel distance logged in one year — is the spatial-data signature of the poverty-floor/deep-cycle years destabilizing into the NYC move."
 ---
 
 # 2017 Poverty Floor

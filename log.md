@@ -535,3 +535,10 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - PR #59 merged; restarted branch from origin/main. Operator broadened scope: mine anything in the full Google Drive, including hard-drive scans.
 - wiki/mind/synthesis/spatial-behavior.md (new): a behavioral/psychographic reading of Google Location History data (raw/self/dox-md/GPS_ANALYSIS.md), distinct from and built on top of the raw visit-count catalog on wiki/self/location-history.md (left untouched — status: archived). Core finding: movement resolves into four sharply-bounded life phases rather than gradual drift — "The Forge" (2014, Uniontown baseline), "The Binary System" (2015-17, the Annie two-node oscillation straining under its own cost), "System Collapse & Migration" (2018-19, over a third of the entire 2014-2020 aggregate travel distance logged in 2018 alone, resolving in the NYC move), and "The Siege of Manhattan" (2020 COVID compression). Explicitly flags a methodological caution the source material doesn't raise itself: the low-novelty/high-routine spatial signature is read there as a chosen psychological strategy, but chronic financial constraint (documented independently on 2017-poverty-floor.md/2018-deep-cycle.md) would produce an identical signature for different reasons — added as a contradicts connection rather than silently endorsing the source's framing.
 - Gates: wiki-lint 0 errors (341 pages), wiki-connect check 0 errors.
+
+## [2026-07-20] fix | mind/timeline | PR #60 review response
+Addressed 3 gemini-code-assist review comments on spatial-behavior.md:
+split truncated opening sentence, corrected location-history connection
+type instance-of -> contextualizes, added missing inverse connection on
+2017-poverty-floor.md. Gates clean (0 errors). Regenerated llm/. All
+three review threads resolved on GitHub.

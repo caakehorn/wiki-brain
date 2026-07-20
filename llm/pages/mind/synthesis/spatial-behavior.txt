@@ -10,7 +10,7 @@ sources:
 tags: [digital-footprint, relationships, career, housing]
 connections:
   - page: wiki/self/location-history
-    type: instance-of
+    type: contextualizes
     claim: "This page's behavioral/psychographic reading is built directly on the raw visit-count catalog that page maintains — the numbers are the same corpus, read for pattern rather than tabulated."
   - page: wiki/mind/concepts/contact-gini
     type: parallels
@@ -26,12 +26,12 @@ connections:
 # Spatial Behavior — GPS Analysis of Location History
 
 A behavioral/psychographic reading of Dan's Google Location History
-data (2014–2024), distinct from and built on top of the raw visit-count
-catalog on [[wiki/self/location-history]]. Where that page tabulates
-what places got visited how often, this one asks what the shape of the
-movement itself says — and the shape is a single repeating structure:
-long stretches of near-total predictability, punctuated by rare,
-total, and rapid system replacements.
+data (2014–2024). This analysis is distinct from and built on top of
+the raw visit-count catalog on [[wiki/self/location-history]]. Where
+that page tabulates what places got visited how often, this one asks
+what the shape of the movement itself says — and the shape is a single
+repeating structure: long stretches of near-total predictability,
+punctuated by rare, total, and rapid system replacements.
 
 ## The core numbers
 
