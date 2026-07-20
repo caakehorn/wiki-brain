@@ -50,6 +50,9 @@ connections:
   - page: wiki/people/joe-oshnack
     type: contextualizes
     claim: "A Dec 13, 2017 message on this thread narrows the window for the pre-Nov-2018 Alexis/Annie encounter Joe Oshnack's page flags as an open date question: it falls inside Alexis's Feb-Oct 2017 bail period (between the Valentine's Day 2017 arrest and the end-of-October jailing), not before her arrest."
+  - page: wiki/places/424-bedford-ave
+    type: component-of
+    claim: "The 2011 Google Talk log's buzzer code ('dial to 63') is the only surviving physical detail of the apartment itself, and the Hurricane Irene/Occupy Wall Street events it documents are both organized directly out of this address."
 ---
 
 # Jamie Mohler
