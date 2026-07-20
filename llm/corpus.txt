@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-335 pages, ~466,238 tokens.
+336 pages, ~468,542 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -3102,6 +3102,111 @@ finalize terms with Dan's parents, is otherwise unidentified in the corpus.
 
 
 ========================================================================
+PAGE: wiki/interests/music/bands/batteries-not-included.md
+========================================================================
+
+---
+domain: interests
+page_type: entity
+title: "Batteries Not Included (BNI)"
+status: closed
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joeoshnack_7killpebkw/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/sethledonne_ydkapzhbla/message_1.html"
+tags: [music-production, uniontown-era, personality-profile]
+connections:
+  - page: wiki/people/joe-oshnack
+    type: evidenced-by
+    claim: "Joe's Aug 2018 setlist-reconstruction thread and Sept 2021 retrospective are the corpus's primary sources on the band — Dan names himself lead songwriter for the originals."
+  - page: wiki/people/seth-ledonne
+    type: evidenced-by
+    claim: "Seth is named as one of the scene mentors (with Andy, Paul, Nathan, Kessler) whose harsh, high-standards hardcore/punk scene the band operated inside of, and 'Rejected Gazette' as a named zine/scene touchstone of the same milieu."
+  - page: wiki/interests/opie-and-anthony
+    type: parallels
+    claim: "Both are formative teenage counterculture immersions Dan explicitly credits decades later — the hardcore scene via Seth LeDonne, the shock-radio archive via years of solo listening — that trained the same anti-normie, no-flinch aesthetic register."
+---
+
+# Batteries Not Included (BNI)
+
+Batteries Not Included — "BNI" in Dan's own shorthand — was his high
+school-era band with [[wiki/people/joe-oshnack|Joe Oshnack]] and a
+third member, Matt Turko, playing hardcore/punk covers alongside
+originals Dan wrote as, in his own words, "lead songwriter." It
+predates every other music project the wiki documents by nearly a
+decade — the earliest evidence of the same instinct that later becomes
+SLOPPP, MOGZART, and GRIPNOTIC.
+
+## The setlist
+
+An August 2018 exchange has Dan and Joe jointly reconstructing the
+band's full setlist from memory, years later. The covers are a clean
+snapshot of the local hardcore/punk canon they were working from: the
+Misfits ("She," plus the band's own logo song), the Dead Kennedys
+("California Uber Alles"), and the Ramones ("Teenage Lobotomy"). Joe
+separately names a CKY track — "94/96 Quite Bitter Beings," per the
+band's 1999 album of the same name — as material that "never left your
+basement": practiced but never performed live, half-jokingly blamed on
+the shopping-cart-stunt culture CKY's own videos made famous ("we
+couldn't play it because everyone would just start running shopping
+carts off curbs"). The originals are otherwise unnamed and unrecorded
+in the corpus.
+
+## The politics nobody understood at the time
+
+The band's single most-examined moment, revisited by Dan unprompted in
+a September 23, 2021 message to Joe, is covering "California Uber
+Alles" — a Dead Kennedys song satirizing authoritarian California
+governor Jerry Brown — without any of the three members understanding
+or agreeing with its politics at the time. Dan's own retrospective is
+unsparing: he was, in his words, "an annoying little conservative
+fuckcunt" who was "less than thrilled about playing songs with an
+anti-Iraq-war theme," a position he calls "MORTIFYING" to remember from
+the vantage of his later "far left political ideology." Matt Turko is
+named in the same conversation as having voted for Trump, one of the
+few concrete adult-life data points the corpus carries on him beyond
+his band membership — otherwise placed in "the burgh" (Pittsburgh),
+married with kids and a career, as of 2021.
+
+## The scene around it
+
+[[wiki/people/seth-ledonne|Seth LeDonne]]'s own thread supplies the
+surrounding culture rather than the band itself: a named group of
+scene mentors — Seth, Andy, Paul, Nathan, Kessler — whose "visceral
+disdain" for anything perceived as inauthentic (Dan recalls being
+mocked for a tie-dye "311 concert" shirt at a hardcore basement show)
+Dan credits, decades later, as "developmental" and the direct source of
+his adult taste for counterculture. A zine or scene publication called
+"Rejected Gazette" is named as a touchstone of the same milieu. BNI was
+one visible output of a wider local hardcore scene, not an isolated
+project.
+
+## The reunion that never happened
+
+By September 2021 Dan floats the idea of a reunion show, then
+immediately deflates it: "literally half of the people who were
+involved in that scene or would be interested or understand the
+significance... they're dead" — an echo of the same opiate-epidemic
+framing documented on [[wiki/people/matthew-palermo]] and elsewhere in
+the corpus. No reunion is recorded as having happened.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Members (documented) | Dan (lead songwriter), Joe Oshnack, Matt Turko |
+| Era | High school (pre-2006, per Dan's own "class of 06" graduating-year references elsewhere) |
+| Documented covers | Misfits ("She," logo song), Dead Kennedys ("California Uber Alles"), Ramones ("Teenage Lobotomy"); CKY's "94/96 Quite Bitter Beings" (rehearsal only, never performed live) |
+
+**Gaps:** what "BNI" stands for beyond "Batteries Not Included"; any
+original song titles or recordings; whether the band ever played a
+real venue versus basement shows only; exact active years; whether any
+other members existed beyond the three named here.
+
+
+========================================================================
 PAGE: wiki/interests/music/concepts/lyrics-as-timbre.md
 ========================================================================
 
@@ -3316,7 +3421,7 @@ domain: interests
 page_type: summary
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-11
+date_modified: 2026-07-20
 sources: []
 related: []
 ---
@@ -3334,6 +3439,12 @@ related: []
 | [[wiki/interests/music/aliases/mogzart]] | closed | Bass house / trap-adjacent | ~2014–2016 |
 | [[wiki/interests/music/aliases/sloppp]] | closed | House / experimental bass | ~2013–2014 |
 | [[wiki/interests/music/aliases/mogged-up]] | closed | Bootleg / edit imprint | concurrent w/ SLOPPP/MOGZART |
+
+## Bands
+
+| Band | Status | Role | Era |
+|------|--------|------|-----|
+| [[wiki/interests/music/bands/batteries-not-included]] | closed | Lead songwriter (originals); hardcore/punk covers | High school, pre-2006 |
 
 ## Concepts
 - [[wiki/interests/music/concepts/sub-bass-signature]] — involuntary 63–85% sub-bass presence across all aliases, 13-year span; origin artifact: Numark NS7 (Fran Whyel)
@@ -18178,7 +18289,7 @@ page_type: entity
 status: active
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 date_range_start: 2011-01-20
 date_range_end: 2022-01-02
 sources:
@@ -18189,8 +18300,11 @@ infobox:
   sex: male
   location: "Park City, UT"
   relationship_to_dan: friend
-  known_for: "High school bandmate (BNI); recipient of Dan's fullest self-narrated account of his own pre-2020 conservative political identity and its reversal"
+  known_for: "High school bandmate in Batteries Not Included (BNI); recipient of Dan's fullest self-narrated account of his own pre-2020 conservative political identity and its reversal"
 connections:
+  - page: wiki/interests/music/bands/batteries-not-included
+    type: evidenced-by
+    claim: "Joe is one of two named bandmates (with Matt Turko), and his thread is the primary source for the band's setlist and the 2021 political retrospective on covering Dead Kennedys' 'California Uber Alles.'"
   - page: wiki/mind/synthesis/2020-left-turn
     type: evidences
     claim: "A Sept 23, 2021 message gives the fullest documented account of the *pre*-turn identity the other page dates the conversion away from: Dan describes his teenage self as 'an annoying little conservative fuckcunt' who was 'less than thrilled about playing songs with an anti-Iraq war theme' — concrete texture for what he was converting from, not just what he converted to."
@@ -18208,7 +18322,8 @@ connections:
 # Joe Oshnack
 
 Joe Oshnack is a high-school-era Uniontown bandmate — the two played
-together in a band referred to only as "BNI" — whose eleven-year
+together in [[wiki/interests/music/bands/batteries-not-included|Batteries
+Not Included]] ("BNI") — whose eleven-year
 Facebook thread (2011–2022) runs from failed long-distance recording
 collaborations through a rich 2021 political retrospective that is the
 corpus's fullest first-person account of what Dan's political identity
@@ -18222,7 +18337,8 @@ planned NYC studio session; an April 2011 offer to trade guitar/vocal
 stems over the internet gets as far as identifying DAWs and file formats
 before going quiet; an August 2012 in-person plan (Dan offering his home
 8x8 interface setup "so we don't have to book studio time") also
-doesn't close. A August 2018 exchange reconstructs the old band's
+doesn't close. A August 2018 exchange reconstructs
+[[wiki/interests/music/bands/batteries-not-included|the band]]'s
 setlist from memory — Misfits, Dead Kennedys, Ramones, NOFX covers
 alongside originals Dan wrote as "lead songwriter" — good corroborating
 detail for the corpus's picture of Dan's teenage hardcore/punk
@@ -18279,9 +18395,9 @@ unfixed.
 | Date range | 2011-01-20 – 2022-01-02 |
 | Defining content | The Sept 23, 2021 political retrospective |
 
-**Gaps:** what "BNI" stands for; whether any of the proposed recording
-collaborations ever actually happened; resolution of the cam-threesome
-date discrepancy above.
+**Gaps:** whether any of the proposed recording collaborations (2011,
+2012) ever actually happened; further detail on the band beyond the
+setlist (see [[wiki/interests/music/bands/batteries-not-included]]).
 
 
 ========================================================================
@@ -21985,7 +22101,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 date_range_start: 2020-03-10
 date_range_end: 2020-06-23
 sources:
@@ -22001,6 +22117,9 @@ connections:
   - page: wiki/timeline/periods/covid-era-2020
     type: evidences
     claim: "Dan's June 7, 2020 real-time account — '8pm curfew... it's been like living in beirut' — documents the George Floyd-protest curfew period in Manhattan from inside the lockdown year, alongside a still-undecided 2020 vote (unwilling to back Biden as of April)."
+  - page: wiki/interests/music/bands/batteries-not-included
+    type: contextualizes
+    claim: "Seth is named as one of the scene mentors (with Andy, Paul, Nathan, Kessler) whose harsh hardcore/punk scene Dan's high school band operated inside of, and 'Rejected Gazette' as a named touchstone of the same milieu."
 ---
 
 # Seth LeDonne
@@ -22020,8 +22139,10 @@ for counterculture if not for you, Andy, Paul, Nathan, Kessler." He
 frames the group's harshness as productive — "the visceral disdain that
 I felt from the entire group was really developmental for me later in
 life" — recalling being mocked for wearing a "311 concert" tie-dye shirt
-to a hardcore basement show, and closes: "thank you for being so cruel
-about what an enormous fraud and p0seur I was because it was the
+to a hardcore basement show — the same scene his high school band,
+[[wiki/interests/music/bands/batteries-not-included|Batteries Not
+Included]], operated inside of — and closes: "thank you for being so
+cruel about what an enormous fraud and p0seur I was because it was the
 catalyst for finding some authenticity." It is a rare instance of Dan
 naming specific people as the direct source of a taste formation that
 elsewhere in the corpus reads as self-generated.
@@ -22390,7 +22511,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 infobox:
   name: Suzanne Frank
   status: Active
@@ -22417,6 +22538,7 @@ sources:
   - wiki/legal/463-morgantown
   - wiki/timeline/events/fran-death-vigil
   - wiki/places/337-saratoga-drive
+  - "raw/self/dox-md/Crisis mode briefing.md"
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
@@ -22429,6 +22551,9 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: causes
     claim: "The maternal half of the 2005 hinge completes the both-verticals-concealing template."
+  - page: wiki/timeline/events/april-may-2026-final-weeks
+    type: evidenced-by
+    claim: "A recurring blocked-caller impersonation campaign (April 2026) targeted Suz directly — personally insulted, threatened arrest-worthy retaliation — the only documented instance of the relationship's terminal-phase conflict machinery reaching her this directly."
 ---
 
 
@@ -27802,11 +27927,12 @@ title: "April–May 2026 — The Final Documented Weeks"
 importance: high
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 date_range_start: 2026-04-01
 date_range_end: 2026-05-06
 sources:
   - raw/self/dox-md/Ethics of leaving without communication.md
+  - "raw/self/dox-md/Crisis mode briefing.md"
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/march-2026-terminal-phase
@@ -27814,6 +27940,13 @@ related:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
 tags: [relationships]
+connections:
+  - page: wiki/people/suzanne-frank
+    type: co-occurs
+    claim: "The recurring blocked-caller impersonation campaign targeted Suz directly (personally insulted, threatened arrest-worthy retaliation) — the only documented instance of the relationship's terminal-phase conflict machinery reaching a third-party family member this directly."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: instantiates
+    claim: "The live screaming match with Suz over whose grievance mattered more is a real-time instance of the resolution-seeking engine misreading an emotional bid as a proposition to be litigated, the same mechanism documented at scale in the Annie relationship."
 ---
 
 # April–May 2026 — The Final Documented Weeks
@@ -27834,7 +27967,7 @@ May is rated the worst period in the full record — not by volume, but by conte
 
 **Dan self-periodizes the relationship.** On May 4 at 8:10 PM, Dan sent the bare timestamp "25 Nov 2015 – 04 May 2026" — not as an ultimatum or a goodbye, but annotating the relationship with a closing date in his own framing, the only instance in the full record of him doing this unprompted.
 
-**An unresolved third-party contact (April 1).** Dan's message at 12:57 AM: "my mom gets a call from a guy looking for you at 8:30. He calls again at 10:00. What the FUCK could that mean." A man called Suz's number twice looking for Annie on a night she was unaccounted for. The record does not resolve who this was or what it meant; it predates and is separate from the confirmed June 1 third party ([[wiki/people/tuquick-17248123683|Tuquick]]).
+**An unresolved third-party contact, recurring (April 1, re-firing ~late April).** Dan's message at 12:57 AM, April 1: "my mom gets a call from a guy looking for you at 8:30. He calls again at 10:00. What the FUCK could that mean." A man called Suz's number twice looking for Annie on a night she was unaccounted for; the thread ran through April 8 ("just refusing to discuss or give me any clarity aout who the fuck was calling my mom") and then went dormant. A separate AI-chat session (dox-md, undated but self-referencing the April 1–8 thread as "three weeks" prior, placing it roughly in late April) documents the pattern re-firing: someone using Annie's number called Suz directly, insulted her personally ("called her a junkie"), and sent Dan a message reading "you had guys molest me" — which Dan, in the same session, explains as a garbled hostile reference to the couple's [[wiki/mind/psychosexual/arrangement-history|non-monogamous arrangement]], one he maintains was consensual. Suz reacted with rage serious enough to threaten arrest-worthy action ("if I call you, call bop to come bail me out"), producing a screaming match between her and Dan over whose grievance mattered more that the session frames as a live instance of the same conflict-engine mechanism documented at scale elsewhere in the corpus. A forensic read built in the same session — Suboxone consistently misnamed "heroin/Percocets" (Annie would know the actual regimen), a narrative-voice register mismatch, and the total absence of Dan's name in the hostile messages (a corpus-level signature Annie's own hostile register always carries) — argues this was not Annie personally, though whether she was aware, complicit, or an unwitting source of the "close household knowledge" (the caller knew the water had been shut off) is explicitly left unresolved, including whether her family even owns the Volvo the impersonator's message referenced. The identity of the caller is not established anywhere in the corpus. It predates and is separate from the confirmed June 1 third party ([[wiki/people/tuquick-17248123683|Tuquick]]).
 
 ## What still held from the terminal-phase mechanism catalog
 
