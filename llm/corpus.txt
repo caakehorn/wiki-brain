@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-19
-329 pages, ~455,143 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
+329 pages, ~457,607 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10443,7 +10443,7 @@ status: stable
 date_created: 2026-06-23
 date_modified: 2026-07-19
 sources: [
-  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lucasthomas_eu0ir1uckq/message_1.html"]
+  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lucasthomas_eu0ir1uckq/message_1.html", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/qymuchauiq/message_1.html"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf", "wiki/mind/concepts/erotic-architecture", "wiki/people/franki-faris", "wiki/people/new-jim-shaffer", "wiki/people/tom", "wiki/people/vanessa-frank", "wiki/people/menore", "wiki/timeline/events/annie-alexis-reunion-november-2018", "wiki/mind/psychosexual/arrangement-history", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/bond-switch-2015", "wiki/places/155-virginia-ave"]
 tags: [ai-collaboration, nyc-era, relationships, infidelity, trauma-bond]
 infobox:
@@ -10467,6 +10467,9 @@ connections:
   - page: wiki/people/lucas-thomas
     type: evidenced-by
     claim: "Lucas's Feb 11 and Feb 16, 2017 real-time Facebook thread independently corroborates and dates the Zac Shumar fire and arrest, adding detail (the RT informant angle, $35k bail, the lost glass rig) absent from either later retelling."
+  - page: wiki/people/jamie-mohler
+    type: evidenced-by
+    claim: "A Dec 13, 2017 message on Jamie's rediscovered thread is the earliest of three tellings of the Zac Shumar arrest, and separately confirms the Alexis/Annie cam encounter fell inside Alexis's Feb-Oct 2017 bail window rather than contradicting her later incarceration."
 ---
 
 
@@ -10511,6 +10514,7 @@ Alexis's post-breakup boyfriend is identified by full name across two independen
 
 - To [[wiki/people/new-jim-shaffer]] (April 22, 2018), dated to **Valentine's Day 2017**: Alexis and Zac had been staying at Dan's house — meant to be one night, stretched to two weeks — until Dan kicked them out. That day, Zac went to pick up a mail-order marijuana package and happened to walk into police serving an unrelated warrant on a small-time dealer at the same address. Alexis, Zac, and a third person were arrested together and charged with four or five felonies.
 - To [[wiki/people/tom]] (August 23, 2018), told independently: "**Shumar got busted moving 10 pounds in the mail**... She was with him when he picked it up and got shook up by the cops." Dan's framing here is sharper about the legal aftermath: "he got a good lawyer and **fucked her over**. She got probation but that didn't last long" — because Zac fought the case with paid counsel while Alexis, whose own exposure was lower ("it legit wasn't her deal"), took the group plea deal the DA required from all three defendants together. The same message names the living arrangement directly: "All in the same house... Me and my ex, Annie and her ex... Dude they were living with us" — Dan and Annie under one roof with Alexis and Zac, not just a two-week stopover as the Jim Shaffer retelling frames it (the CATO synthesis puts the stay at "approximately one month," splitting the difference).
+- To [[wiki/people/jamie-mohler|Jamie Mohler]] (December 13, 2017), the earliest of the three tellings — barely ten months after the arrest itself: "THEN he gets a shipment of 10 pounds from California. Goes to pick it up, cops swarm, they both get tagged... Happened on Valentine's Day... she's in jail." A fourth-hand detail found nowhere else: "her bf never went to jail so something weird going on there" — Dan's own puzzlement, in the moment, at the asymmetric outcome the later tellings explain with the paid-lawyer framing.
 
 Alexis made bail first, initially believing she'd beat the charges easily since the marijuana wasn't hers — but the DA's contingent group-plea structure required all three to accept probation together, and she did. Within about a month she failed a drug test and violated probation; she was jailed around the end of October 2017 and, per the PA inmate locator as of the April 2018 conversation, remained incarcerated at **SCI Muncy** (Pennsylvania's primary women's state prison). Zac himself avoided jail entirely despite the marijuana being his. Dan sums up the asymmetry to Tom bluntly: "She honestly got a bad break... She stayed loyal to Zac" — loyalty that cost her a year in prison while he walked. Dan also references a separate, earlier incident between the two of them: Alexis pulled a knife on Zac during a fight and was charged with assault. He frames learning the full scope of it from inside his new relationship with grim irony: "Nothing makes you feel better about your life decisions... than when your 23 year old girlfriend tells you that your ex is in jail" — Annie, 23 at the time, was the one who told him.
 
@@ -16884,6 +16888,7 @@ sources:
   - "raw/self/message-csv/interspersed_messages.csv"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/qymuchauiq/message_1.html"
 tags: [career, digital-footprint, relationships, nyc-era]
 infobox:
   name: "Jamie Mohler"
@@ -16913,6 +16918,12 @@ connections:
   - page: wiki/people/oscar-lindquist
     type: evidenced-by
     claim: "Oscar's own Aug 26, 2011 message ('mohler and i are heading out of town tonight because of the hurricane') pins the Hurricane Irene evacuation to a single day — the most precisely dated event in the friendship's record."
+  - page: wiki/people/alexis-armel
+    type: evidences
+    claim: "A Dec 13, 2017 message (already past tense) independently confirms the Alexis/Annie cam encounter happened before the Nov 2018 reunion — consistent with, and probably explaining, the earlier reference in the same vein found in Joe Oshnack's thread."
+  - page: wiki/people/joe-oshnack
+    type: contextualizes
+    claim: "A Dec 13, 2017 message on this thread narrows the window for the pre-Nov-2018 Alexis/Annie encounter Joe Oshnack's page flags as an open date question: it falls inside Alexis's Feb-Oct 2017 bail period (between the Valentine's Day 2017 arrest and the end-of-October jailing), not before her arrest."
 ---
 
 # Jamie Mohler
@@ -16955,6 +16966,72 @@ three sources, an undated "operator-attested only" claim becomes a
 friendship documented across a full season, with one anchor date fixed
 to the day.
 
+## A rediscovered thread: 422 messages, 2010–2021
+
+A large (422-message) Facebook Messenger thread survives under a
+deactivated-account placeholder — the export's title reads only
+"Participants: Facebook user and Dan Frank," with no name recoverable
+from the file itself. Internal evidence identifies the other party as
+Jamie (then Jim) with high confidence, though it is not a phone/email
+match and so is flagged as inference rather than certainty: Dan
+addresses the recipient directly as "jim" twice ("jim i filmed" and "oh
+thank you jim, i knew there was a better way," both April 2018); the
+thread's August 25, 2011 evacuation-planning conversation ("if things
+start to look worse, my mom is going to come get us") lands the day
+*before* Oscar Lindquist's independently-dated "mohler and i are
+heading out of town tonight because of the hurricane" (Aug 26, 2011);
+an October 3, 2011 exchange about Occupy Wall Street ("you need to come
+down to wall st... i'll keep bugging you into progressivism") falls
+inside the same window internal evidence already narrowed the
+undated 2011 Google Talk log to; and the recipient is a confidant
+close enough to receive [[wiki/people/eric-jester|Jester]] and
+[[wiki/people/matt-dunn|Dunn]] gossip by first name as early as October
+2011, and to be shown Dan's rawest, most private footage — video of
+[[wiki/people/fran-coldren|Fran]] on her deathbed — hours before anyone
+else knew, April 3–5, 2018 ("you're literally the first person who
+knows about what happened"). Treated here as the same person as the
+2011 Google Talk/address-book Jamie Mohler documented above; if this
+identification is ever specifically contradicted, split the content
+back out.
+
+This thread substantially thickens the NYC-1 record: a favor asked in
+August 2011 (finding "clean piss" for a Suboxone appointment, after too
+much use over the preceding weeks) is the corpus's clearest primary-
+source evidence of Dan's opiate dependency and clinic-based
+Suboxone maintenance that early; roommates or close friends "Nichole
+and Grace" are named in the same window; the two level together in
+*World of Warcraft* through the end of 2011 (guild-mate "Aladrah,"
+item-level grinding, LFR raids); and the friendship goes quiet for
+roughly five years before reconnecting December 12–13, 2017, when Dan
+narrates the entire Alexis-to-Annie pivot in one long unbroken message
+— the breakup, cam girl [[wiki/people/annie-ulmer|Annie]], Alexis
+dating Annie's ex-boyfriend Zac Shumar out of spite, the household
+merger after Zac's place burned down, and **the arrest** ("THEN he
+gets a shipment of 10 pounds from California. Goes to pick it up, cops
+swarm, they both get tagged... Happened on Valentine's Day"). This is
+the corpus's *third* independent telling of the
+[[wiki/people/alexis-armel|Zac Shumar arrest]] (after Jim Shaffer and
+Tom), and the first told the same year it happened rather than months
+or years later. In the same conversation, already past tense, Dan
+describes the Alexis/Annie cam encounter — "if I told you I had a
+threesome... with Alexis and my new gf... I did and I have it forever
+as an HD recording" — which, given the Dec 13, 2017 date, falls inside
+Alexis's **Feb–Oct 2017 bail window** (between the Valentine's Day
+arrest and her end-of-October jailing per her own page), not before
+her arrest and not contradicting her later incarceration. This narrows
+the open date question flagged on [[wiki/people/joe-oshnack]]'s page
+to a specific, non-contradictory window rather than resolving it to a
+single day.
+
+A final Menore-adjacent detail, also new: on December 27, 2019, Dan
+mentions having "just saw menore lol" and notes "menore still has the
+same fucking number that he did in 2010 — how's that for reliability,"
+independent, incidental confirmation that the Menore friendship the
+operator dates to the NYC-1 years was still an active, ongoing contact
+a decade later. The thread's final messages (April 2021) are Chapo Trap
+House recommendations, consistent with the [[wiki/mind/synthesis/2020-left-turn|2020
+left turn]]'s ideology.
+
 ## The 2023 transition
 
 Jamie transitioned around 2023 and has been gendered female since. The
@@ -16986,21 +17063,27 @@ The 2021-synced Facebook address book export carries a direct contact
 card — **Jim Mohler**, `+12073101169`, `audiocranium@msn.com` — the
 same phone number as the 2011 "Jimbo Slice" Google Talk handle, kept
 saved for a full decade after the NYC-1 friendship. No message thread
-survives under this number in the iMessage exports; everything recorded
-here comes from the 2011 email/chat archive, the address book, and
-Jamie's appearances inside Jason's and Alexis's own threads.
+survives under this number in the iMessage exports, but a 422-message
+Facebook Messenger thread under a deactivated-account placeholder is
+identified above with high (though not certain) confidence as the same
+person, and is the primary source for most of this page's NYC-1 detail
+beyond the single Google Talk log. A DJ/music alias, "Ethan Kray," also
+surfaces there — Dan asks in 2017 whether he'd "divorced" himself from
+it — undocumented anywhere else in the corpus.
 
 ## Corpus record
 
 | Metric | Value |
 |---|---|
-| Direct chat log | 1 (Google Talk, ~autumn 2011, undated) |
+| Direct chat logs | 2 (2011 Google Talk, undated; the 422-message FB thread, 2010–2021, identity inferred) |
 | Corroborating mentions | 5 (Alexis ×1, Oscar Lindquist ×1, Jim Vrabel ×1, Jason Bermejo ×2) |
 | Pinned date | 2011-08-26 (Hurricane Irene evacuation, via Oscar's thread) |
 | Transition, per operator | ~2023 |
 | First documented friend-group reference post-transition | 2025-09-19 |
 
-**Gaps:** the Google Talk log itself carries no exact date (internal
+**Gaps:** the FB-thread identification is inferential (address, name,
+and content match; no phone/email match), and should be revisited if
+ever specifically contradicted. The Google Talk log itself carries no exact date (internal
 evidence — Occupy Wall Street, approaching Jewish fall holidays —
 narrows it to roughly October 2011, though the Hurricane Irene message
 independently pins the friendship's presence two weeks earlier); the
@@ -17757,6 +17840,9 @@ connections:
   - page: wiki/people/jacob-bacharach
     type: co-occurs
     claim: "Jan 2, 2022: Dan recommends Bacharach's Uniontown-set novel to Joe unprompted, framing him as proof 'not everyone from our hometown turned into a reactionary fascist-adjacent class traitor' — the same hometown-vs-politics lens applied to a third person."
+  - page: wiki/people/jamie-mohler
+    type: evidenced-by
+    claim: "A Dec 13, 2017 message on Jamie's rediscovered thread independently confirms the Alexis/Annie cam encounter this page first surfaced, narrowing it to Alexis's Feb-Oct 2017 bail window."
 ---
 
 # Joe Oshnack
@@ -17804,24 +17890,26 @@ opiate-epidemic framing he'd used to Joe three years earlier ("the
 class of 06 was a real low point for humanity... the opiates epidemic is
 vishnu cleansing our misguided sheep classmates," Aug 2018).
 
-## An unresolved date question: the cam threesome reference
+## A cam threesome reference, since narrowed
 
 In the same August 12, 2018 conversation where Dan explains the
 camming operation's blackmail-resistance logic to Joe, he adds, in
 passing and as already completed: "We even had a threesome with my ex
 (the girl I left for Annie) on cam haha" — meaning
-[[wiki/people/alexis-armel|Alexis]]. This is difficult to reconcile with
-the rest of the corpus: Alexis's own page dates her as still
-incarcerated at SCI Muncy as of the April 2018 conversation that
-documents her arrest, and the well-documented Alexis/Annie arrangement
-on [[wiki/mind/psychosexual/arrangement-history|arrangement-history.md]]
-is dated to a **November 2018** reunion opening "days after Alexis's
-release from prison." Either the release predates the corpus's other
-dating, "my ex" refers to someone other than Alexis despite the
-"the girl I left for Annie" description, or the cam threesome Dan
-describes to Joe is a distinct, earlier encounter (pre-dating Alexis's
-October 2017 arrest) not otherwise documented. Flagged here as an open
-question rather than resolved.
+[[wiki/people/alexis-armel|Alexis]]. Taken alone this was hard to
+reconcile with the well-documented **November 2018** Alexis/Annie
+reunion on
+[[wiki/timeline/events/annie-alexis-reunion-november-2018|arrangement-history.md]],
+which opens "days after Alexis's release from prison." A second,
+independent source resolves it: a December 13, 2017 message on
+[[wiki/people/jamie-mohler|Jamie Mohler]]'s rediscovered thread
+describes the same encounter in the same already-past-tense register
+("I did and I have it forever as an HD recording"), which places it
+inside Alexis's **Feb–Oct 2017 bail window** (between her Valentine's
+Day 2017 arrest and her end-of-October jailing) — a distinct, earlier
+encounter, not a contradiction of the November 2018 reunion's own
+dating. The precise date within that eight-month window remains
+unfixed.
 
 ## Corpus record
 
@@ -26447,7 +26535,7 @@ page_type: entity
 title: "Tattoos"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-15
+date_modified: 2026-07-19
 knowledge: mixed
 sources:
   - raw/self/captures/2026-07-14-tattoo-list.md
@@ -26455,6 +26543,7 @@ sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/dan tom 2010 2022.txt
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/chrisredmond_ewkx6qfqha/message_1.html
 related:
   - wiki/self/ancestry
   - wiki/interests/favorites/music
@@ -26479,28 +26568,44 @@ presented as complete, and further pieces should be added as they surface.
 
 | Design | Style/reference | Placement | Artist/shop | Date |
 |--------|------------------|-----------|-------------|------|
-| Misfits skull in a pizza slice | Custom mashup of the Misfits' Crimson Ghost mascot and a pizza slice | Unknown | Chris Redmond (custom drawn) | By Nov 27, 2018 |
+| Misfits skull in a pizza slice | Custom mashup of the Misfits' Crimson Ghost mascot and a pizza slice | Forearm, ~3"x1.5" | Chris Redmond (custom drawn), Uniontown-area | 2018-10-13 |
+| Misfits logo (green lettering) | Band's own logo lettering, unmodified | Forearm, beneath the pizza slice | Chris Redmond | 2018-10-22 |
 | Kanye West *808s & Heartbreak* KAWS bear | KAWS's reworked "Dropout Bear" from the *808s* era art/toy campaign | Unknown | Unknown | By Sept 22, 2025 |
 | Radiohead bear | The "Modified Bear" / Stanley Donwood-era *Kid A* artwork | Unknown | Unknown | By Oct 27, 2018 |
 | Old school traditional rose | American traditional flash | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Possibly March 8, 2019 |
 | Gravestone | Memorial-style piece | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Undocumented |
 | Flapper girl | American traditional flash (pin-up style) | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Undocumented |
 
-## Misfits: skull in a pizza slice
+## Misfits: skull in a pizza slice, and a second Misfits piece
 
-The earliest well-documented piece. In a November 27, 2018 exchange with
-[[wiki/people/emaly-minerd|Emaly Minerd]] — who compliments the tattoo and
-asks directly why he chose a pizza slice over the band's standard
-imagery — Dan explains the design process: he didn't want the
-conventional Misfits "Crimson Ghost" variant "where it looks like it's in
-a coffin with the arms folded," found a pizza-slice reinterpretation of
-the skull online, and had artist **Chris Redmond** draw it up custom for
-him. Elsewhere in the corpus (an August 2018 message and a 2018 exchange
-with [[wiki/people/tom|Tom]]) Dan self-mockingly frames the piece as
-evidence of being "a scumbag... immature" for getting it — "a literal
-misfits tattoo" is invoked more than once, by Dan and by others, as
-shorthand for arrested-development, still-into-the-same-things-at-30
-self-deprecation, rather than pure enthusiasm.
+The earliest well-documented piece, and now precisely dated via a
+direct Facebook Messenger thread with the artist: Dan first messages
+**Chris Redmond** — a Uniontown-area artist (his own messages place him
+near Cheat Lake and Hopwood, "coming down the mountain" for
+appointments) — on October 12, 2018, explicitly framing it as the
+first of "4 or 5 other pieces" he wants done before turning 30 on
+November 1, and the pizza-slice piece is inked the next day, October
+13, on his forearm at roughly 3" x 1.5". In a November 27, 2018
+exchange with [[wiki/people/emaly-minerd|Emaly Minerd]] — who
+compliments the tattoo and asks directly why he chose a pizza slice
+over the band's standard imagery — Dan explains the design process: he
+didn't want the conventional Misfits "Crimson Ghost" variant "where it
+looks like it's in a coffin with the arms folded," found a pizza-slice
+reinterpretation of the skull online, and had Chris draw it up custom
+for him. Elsewhere in the corpus (an August 2018 message and a 2018
+exchange with [[wiki/people/tom|Tom]]) Dan self-mockingly frames the
+piece as evidence of being "a scumbag... immature" for getting it — "a
+literal misfits tattoo" is invoked more than once, by Dan and by
+others, as shorthand for arrested-development, still-into-the-
+same-things-at-30 self-deprecation, rather than pure enthusiasm.
+
+A **second, previously undocumented Misfits piece** follows quickly:
+on October 18, 2018, Dan asks Chris to ink a green-lettering Misfits
+band-logo design directly beneath the pizza slice on the same forearm,
+explicitly calling it "this most cliché tattoo" — done October 22.
+Chris, unprompted, volunteers that he "listen[s] to the misfits, still"
+and declines to modify the logo beyond the band's own lettering,
+calling it "all unique to the band."
 
 ## Kanye — *808s & Heartbreak*, via KAWS
 
@@ -26544,6 +26649,25 @@ by Dan himself, as identity performance rather than pure fan devotion —
 worth holding onto as a caveat for reading the whole list, not just this
 one piece.
 
+## The sleeve ambition starts in Uniontown, not Brooklyn
+
+The "full sleeve" idea documented below as a Brooklyn-era pursuit
+actually originates three months earlier, with Chris Redmond: by
+October 16, 2018 Dan is already asking to "start discussing concept for
+a sleeve," and by November 25 he's explicit about the aesthetic —
+"working it into a full sleeve of Old school/American traditional
+motifs" — buying reference books from Amazon by November 27 ("I'm
+finding it easier to evolve the vague ideas... into more specific
+concepts... wish I would have started getting these tattoos years
+ago"). On November 30, 2018 he sends Chris a **traditional rose**
+reference image, wanting it placed near the existing forearm work; by
+December 20 Chris confirms it's "always do-able," and the thread ends
+there without a completed-session message. Whether this Uniontown rose
+concept became the "old school traditional rose" Ian Weidrick executed
+in Brooklyn roughly ten weeks later (March 2019, below) — i.e. the plan
+moved with Dan to NYC before being realized — or whether it is a
+separate, unfinished piece is not established; see Gaps.
+
 ## The traditional pieces: rose and flapper girl
 
 On March 8, 2019, Dan texted [[wiki/people/annie-ulmer|Annie]] with
@@ -26580,9 +26704,17 @@ tattoo count is unknown — Dan's own framing ("just to start you off")
 indicates this list is a beginning, not an inventory, and this page
 should be extended as further pieces are named or surface in raw sources.
 Whether "Chris Redmond" (the Misfits artist) and "Chris at the Edge"
-(Annie's March 2019 comparison reference) are the same person is unconfirmed;
-the March 2019 traditional pieces themselves were done by Ian Weidrick at
-Allied Tattoo, not by either Chris.
+(Annie's March 2019 comparison reference) are the same person now reads as
+unlikely rather than merely unconfirmed: Chris Redmond's own messages place
+him working near Cheat Lake and Hopwood, PA — the Uniontown area, not NYC —
+making him a plausible but unconfirmed match for a Uniontown-adjacent "Edge"
+location rather than any Brooklyn shop; the March 2019 traditional pieces
+themselves were done by Ian Weidrick at Allied Tattoo, not by either Chris.
+Whether the November 2018 rose concept discussed with Chris Redmond ever
+got inked in Uniontown, was carried to Brooklyn and became the Weidrick
+rose, or remains a separate unfinished piece is unresolved — the Chris
+Redmond thread ends December 20, 2018 without a completion message, and
+the Weidrick rose follows about ten weeks later.
 
 ## Related
 
@@ -26962,8 +27094,8 @@ connections:
     type: evidences
     claim: "This event is the dated, corroborated reality behind the OS report's ANNIE_ALEXIS_HOOKUP_CORE — the externalized-libido mechanism's central example."
   - page: wiki/people/joe-oshnack
-    type: contradicts
-    claim: "An August 12, 2018 message to Joe references an already-completed cam threesome with 'my ex (the girl I left for Annie)' — read as Alexis — nearly three months before this event's documented start, and while her own page has her still confirmed incarcerated as of April 2018. Not resolved; see the Gaps section."
+    type: contextualizes
+    claim: "An August 12, 2018 message to Joe references an already-completed Alexis/Annie cam threesome, distinct from this event. A Dec 13, 2017 message on wiki/people/jamie-mohler.md's rediscovered thread independently confirms the same earlier encounter and narrows it to Alexis's Feb-Oct 2017 bail window — see the Gaps section for the remaining imprecision."
 ---
 
 # Annie/Alexis Reunion (October–December 2018)
@@ -27016,7 +27148,7 @@ This sits right at the seam between two documented facts that otherwise read as 
 
 ## Gaps
 
-Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated — the two nights' preparation texts are similar enough that they may describe the same extended encounter rather than two separate ones. Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented. How many total times Alexis and Annie were together beyond the specifically dated messages above is unknown — the pattern of texts suggests it was a recurring, semi-regular arrangement through most of November rather than a fixed number of occasions. Alexis's exact release date is not independently confirmed beyond "just got out of jail" on Nov 4; her own page places incarceration as beginning "around the end of October 2017," consistent with a roughly one-year sentence ending in this window. The corpus does not show whether Annie and Alexis had any contact after December 2018. A separate, undated-within-2018 complication: an August 12, 2018 message to [[wiki/people/joe-oshnack|Joe Oshnack]] references an already-completed cam threesome with "my ex (the girl I left for Annie)" — read as Alexis given the description — nearly three months before this event's documented Nov 4 opening, and while her own page has her still confirmed incarcerated as of the April 2018 conversation. Not resolved: possible readings are an earlier release date than otherwise documented, a distinct pre-arrest encounter (before Oct 2017), or "my ex" denoting someone other than Alexis despite the matching description.
+Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated — the two nights' preparation texts are similar enough that they may describe the same extended encounter rather than two separate ones. Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented. How many total times Alexis and Annie were together beyond the specifically dated messages above is unknown — the pattern of texts suggests it was a recurring, semi-regular arrangement through most of November rather than a fixed number of occasions. Alexis's exact release date is not independently confirmed beyond "just got out of jail" on Nov 4; her own page places incarceration as beginning "around the end of October 2017," consistent with a roughly one-year sentence ending in this window. The corpus does not show whether Annie and Alexis had any contact after December 2018. A separate, earlier encounter is documented independently by two sources: an August 12, 2018 message to [[wiki/people/joe-oshnack|Joe Oshnack]] references an already-completed cam threesome with "my ex (the girl I left for Annie)" — read as Alexis — and a December 13, 2017 message on [[wiki/people/jamie-mohler|Jamie Mohler]]'s rediscovered Facebook thread confirms the same encounter in the same already-past-tense register ("I did and I have it forever as an HD recording"), narrowing it to sometime in 2017. Given Alexis's own page dates her arrest to Valentine's Day 2017 and her jailing to the end of October 2017, the encounter most likely falls inside that **Feb-Oct 2017 bail window** — a distinct, earlier instance of the arrangement running with Alexis, not a contradiction of this November 2018 event's own dating. The exact date within that window remains unfixed.
 
 ## Related
 

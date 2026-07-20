@@ -23,6 +23,9 @@ connections:
   - page: wiki/people/jacob-bacharach
     type: co-occurs
     claim: "Jan 2, 2022: Dan recommends Bacharach's Uniontown-set novel to Joe unprompted, framing him as proof 'not everyone from our hometown turned into a reactionary fascist-adjacent class traitor' — the same hometown-vs-politics lens applied to a third person."
+  - page: wiki/people/jamie-mohler
+    type: evidenced-by
+    claim: "A Dec 13, 2017 message on Jamie's rediscovered thread independently confirms the Alexis/Annie cam encounter this page first surfaced, narrowing it to Alexis's Feb-Oct 2017 bail window."
 ---
 
 # Joe Oshnack
@@ -70,24 +73,26 @@ opiate-epidemic framing he'd used to Joe three years earlier ("the
 class of 06 was a real low point for humanity... the opiates epidemic is
 vishnu cleansing our misguided sheep classmates," Aug 2018).
 
-## An unresolved date question: the cam threesome reference
+## A cam threesome reference, since narrowed
 
 In the same August 12, 2018 conversation where Dan explains the
 camming operation's blackmail-resistance logic to Joe, he adds, in
 passing and as already completed: "We even had a threesome with my ex
 (the girl I left for Annie) on cam haha" — meaning
-[[wiki/people/alexis-armel|Alexis]]. This is difficult to reconcile with
-the rest of the corpus: Alexis's own page dates her as still
-incarcerated at SCI Muncy as of the April 2018 conversation that
-documents her arrest, and the well-documented Alexis/Annie arrangement
-on [[wiki/mind/psychosexual/arrangement-history|arrangement-history.md]]
-is dated to a **November 2018** reunion opening "days after Alexis's
-release from prison." Either the release predates the corpus's other
-dating, "my ex" refers to someone other than Alexis despite the
-"the girl I left for Annie" description, or the cam threesome Dan
-describes to Joe is a distinct, earlier encounter (pre-dating Alexis's
-October 2017 arrest) not otherwise documented. Flagged here as an open
-question rather than resolved.
+[[wiki/people/alexis-armel|Alexis]]. Taken alone this was hard to
+reconcile with the well-documented **November 2018** Alexis/Annie
+reunion on
+[[wiki/timeline/events/annie-alexis-reunion-november-2018|arrangement-history.md]],
+which opens "days after Alexis's release from prison." A second,
+independent source resolves it: a December 13, 2017 message on
+[[wiki/people/jamie-mohler|Jamie Mohler]]'s rediscovered thread
+describes the same encounter in the same already-past-tense register
+("I did and I have it forever as an HD recording"), which places it
+inside Alexis's **Feb–Oct 2017 bail window** (between her Valentine's
+Day 2017 arrest and her end-of-October jailing) — a distinct, earlier
+encounter, not a contradiction of the November 2018 reunion's own
+dating. The precise date within that eight-month window remains
+unfixed.
 
 ## Corpus record
 
