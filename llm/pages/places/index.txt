@@ -14,7 +14,9 @@ Homes, cities, and significant locations. The quantified movement record is
 at [[wiki/self/location-history]].
 
 - [[wiki/places/424-bedford-ave]] — the NYC-1 apartment (2010-2012): the studio-work era, Alexis's cohabitation, Occupy Wall Street, Hurricane Irene, and the origin of the Menore supply relationship.
+- [[wiki/places/90th-st-manhattan]] — NYC-1's third and final year (2012-2013): the Creative License exit and Hurricane Sandy closing Alexis's job at the Bridge Cafe.
 - [[wiki/places/337-saratoga-drive]] — the family-built childhood home, three-time residence, GRIPNOTIC basement studio, and (2026) the house being sold out from under him.
 - [[wiki/places/117-belmont-circle]] — Fran's three-story house on the UCC fairway, 50+ years; the Ulmer adjacency; the caregiving command center.
 - [[wiki/places/155-virginia-ave]] — the 2015–2019 Uniontown apartment: the Alexis→Annie handoff, the poverty floor, the deep cycle.
 - [[wiki/places/307-e-76th-st]] — the 2019–2025 Manhattan home shared with Annie; the second NYC chapter and its rupture.
+- [[wiki/places/seven-springs]] — the childhood ski resort anchor; the first drug-exposure cohort, dated a year before the family's 2005 rupture.

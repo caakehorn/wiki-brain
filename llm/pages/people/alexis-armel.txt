@@ -7,7 +7,7 @@ status: stable
 date_created: 2026-06-23
 date_modified: 2026-07-19
 sources: [
-  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lucasthomas_eu0ir1uckq/message_1.html", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/qymuchauiq/message_1.html"]
+  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lucasthomas_eu0ir1uckq/message_1.html", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/qymuchauiq/message_1.html", "raw/self/message-csv/imessage_export_7249707658_both_all_now.csv"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf", "wiki/mind/concepts/erotic-architecture", "wiki/people/franki-faris", "wiki/people/new-jim-shaffer", "wiki/people/tom", "wiki/people/vanessa-frank", "wiki/people/menore", "wiki/timeline/events/annie-alexis-reunion-november-2018", "wiki/mind/psychosexual/arrangement-history", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/bond-switch-2015", "wiki/places/155-virginia-ave"]
 tags: [ai-collaboration, nyc-era, relationships, infidelity, trauma-bond]
 infobox:
@@ -116,15 +116,37 @@ Early attachment wound activator alongside family 2005 rupture (see [[wiki/self/
 - [[wiki/timeline/events/timeline]]
 - [[wiki/mind/synthesis/attachment-trauma-bond]]
 
-## Message corpus
+## Message corpus: the post-breakup friendship (2020–2025)
 
-| Metric | Value |
-|--------|-------|
-| iMessage handle | +17249707658 |
-| Messages | 41, received-only |
-| Date range | 2020-09-14 – 2025-02-19 |
+A full two-sided export (handle `+17249707658`, 88 messages, 2020-09-14
+to 2025-02-19) replaces the earlier 41-message, received-only extract
+and shows this was not a one-sided, unanswered channel — it was a real,
+if intermittent, friendship that ran five years after the 2015 breakup,
+well into the second NYC chapter and beyond. Dan replies consistently
+and warmly throughout.
 
-The corpus thread is entirely inbound and post-breakup (2020 onward, five
-years after the 2015 split) — she continued reaching out during the second
-NYC chapter with no recorded replies in the master dump. Every reference to
-"Alexis" or "Lex" in the wiki denotes this person.
+The thread's content is mostly casual catch-up and shared politics:
+Dan announces hitting Twitch "affiliate status" and pitches doing
+political livestreams instead of gaming (Dec 2020–Jan 2021), the two
+trade 2020-election commentary ("we're living in the worst possible
+timeline"), and Alexis mentions a younger relative, Landon, whom Dan
+jokes he'll "radicalize" into starting a "Greene county DSA chapter."
+[[wiki/people/menore|Menore]] gets a passing, casual mention ("Menore
+says hi... She's stupid" — in the context of an unrelated joke, not a
+comment on the relationship). The two also process a shared, serious
+loss together in real time on January 29–30, 2021: a mutual friend
+named Alexa is reported missing, then confirmed to have died by
+suicide after her boyfriend and his father assaulted her ("shoved her
+in the back of her car in Walmart parking lot"); both express genuine
+shock and anger at the circumstances rather than treating it as
+gossip.
+
+The thread's final exchange, five years later on February 19, 2025, is
+a small, quietly poignant coda: Dan texts a message clearly meant for
+someone else ("Guess what... Another 'New York I love you but you're
+bringing me down' situation"), Alexis doesn't recognize the sender and
+asks "Who is this?", and once Dan clarifies and offers a shared
+in-joke as proof ("if you do not know the word WEXUS... you can block
+lol"), she confirms: "Yup wrong number. Sorry Dan." Neither followed up
+after that. Every reference to "Alexis" or "Lex" elsewhere in the wiki
+denotes this person.

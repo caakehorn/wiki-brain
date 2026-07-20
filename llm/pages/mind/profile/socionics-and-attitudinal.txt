@@ -15,6 +15,10 @@ related:
   - wiki/mind/profile/enneagram-5w4
   - wiki/mind/synthesis/political-psyops
 tags: [personality-profile, ai-collaboration, music-production]
+connections:
+  - page: wiki/mind/concepts/forensic-method
+    type: evidences
+    claim: "The ILI-Ni 'Ni leak' — pattern-hunting that runs more prophecy than a textbook INTP's Ti-Ne — is the trait-level substrate for the anomaly-detection engine the forensic-method page names as Dan's cognitive default."
 ---
 
 # Socionics ILI-Ni, Attitudinal Psyche & Alignment

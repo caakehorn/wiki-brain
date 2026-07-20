@@ -23,6 +23,9 @@ connections:
   - page: wiki/mind/concepts/attachment-model
     type: mirrors
     claim: "The conflict engine demands resolution while the attachment model cannot issue severance — mutually amplifying architectures with no shared halt condition, recorded in this page's paired CONTRADICTION blocks."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: mirrors
+    claim: "The conflict engine demands resolution while the trauma bond's attachment side cannot issue severance — the same structural collision as with attachment-model, documented here in its central relationship case."
   - page: wiki/mind/concepts/phenomenology-lens
     type: parallels
     claim: "The lens's self-sabotage loop (insight → rupture → more insight) is the interpretive-register rendering of this engine's no-halt-condition mechanics — same machine, metaphorical language."

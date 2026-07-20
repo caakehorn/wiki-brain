@@ -17,6 +17,13 @@ related:
   - wiki/people/rick-frank
   - wiki/people/suzanne-frank
 tags: [addiction-recovery]
+connections:
+  - page: wiki/health/hyperreflexivity
+    type: evidenced-by
+    claim: "A 2025 AI-chat disclosure of losing two teeth, with Dan's own causal chain back to teenage bulimia and decades of dentist avoidance, is the corpus's clearest first-person link between the eating disorder documented here and a specific, dated adult physical-health outcome."
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: "A November 2007 Las Vegas trip is newly dated as the point physical opiate dependence became undeniable, and a winter 2008 single heroin attempt was rejected on aesthetic grounds ('felt dirty') rather than fear of the drug itself."
 ---
 
 # The Dark Era — Opiates and the Body (2007–2008)

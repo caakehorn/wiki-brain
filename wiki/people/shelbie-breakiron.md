@@ -3,11 +3,11 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-20
 date_range_start: 2019-05-15
-date_range_end: 2019-07-16
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/mind/psychosexual/arrangement-history", "wiki/people/kya-hansen"]
+date_range_end: 2019-08-11
+sources:
+  - raw/self/message-csv/imessage_export_7249124338_both_all_now.csv
 tags: [relationships, digital-footprint, financial-stress]
 knowledge: mixed
 infobox:
@@ -15,40 +15,119 @@ infobox:
   relationship_to_dan: unknown
   sex: female
   first_contact: 2019-05-15
-  known_for: "Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams, Snapchat premium) Dan was seeing on the side during"
+  known_for: "A sugar-arrangement relationship that ran May-August 2019, involved Annie directly, and ended in a legal threat and a text tirade"
+connections:
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Annie is present throughout the relationship, not concealed — she is discussed, joked about, and directly involved in a three-way arrangement, including the logistics documented on shelbie-annie-threesome-april-2019."
+  - page: wiki/timeline/events/shelbie-annie-threesome-april-2019
+    type: evidenced-by
+    claim: "The June 8, 2019 three-way logistics exchange in this thread is either a repeat of the arrangement documented there or the corpus's only surviving direct trace of it."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: instance-of
+    claim: "An explicit financial-for-attention/access dynamic ('sugar dad,' recurring cash transfers, 'baby needs spoiled') layered onto a relationship Dan otherwise describes in affectionate terms."
 ---
 
 # Shelbie Breakiron
 
-Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams, Snapchat premium) Dan was seeing on the side during the spring and summer of 2019, in a triangle that also involved [[wiki/people/annie-ulmer|Annie]] — the two women knew about each other and appear together in the thread, including the logistics for the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|threesome]] the arrangement is best known for. The relationship ran about ten weeks (handle `+17249124338`, 306 messages, 2019-05-15 to 2019-07-16) and ended in a vicious, one-sided text tirade in which Shelbie threatened legal action over a laptop and a ring light, then escalated to insults about Dan's cocaine use, Fran's inheritance, and Annie.
+Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams,
+Snapchat premium) Dan financially supported and saw on the side for
+about three months in 2019, in an arrangement that ran openly alongside
+his relationship with [[wiki/people/annie-ulmer|Annie]] — the two women
+knew about each other, joked about the arrangement directly, and at
+least once coordinated a three-way visit together. The full corpus
+(handle `+17249124338`, **685 messages**, both directions, 2019-05-15 to
+2019-08-11) is substantially larger than the 306-message, direction-
+unreliable extract this page previously worked from, and a full export
+finally makes Dan's own side of the relationship — and its ending —
+legible for the first time.
 
-**A note on the data:** the CSV export's direction field is unreliable for this thread — it marks effectively every row "Received," including messages that read as Dan's side of the conversation by content. Treat the exchange below as a two-way conversation reconstructed from context, not a literal received-only feed.
+## The arrangement
 
-## The relationship
+The relationship opens as an explicit exchange: Dan pays for her
+transportation, gives her a laptop, and at one point references a
+$5,000 figure ("enjoy the $5,000 and laptop i gave you"), framed around
+her attempts to build a camming setup — a "cam room," MyFreeCams
+approval, Snapchat premium content. Dan calls himself her "sugar dad"
+and jokes about the imbalance directly ("i think idk / do i look like
+someone with a lot of experience"), while also describing real
+affection: "i think you're absolutely perfect," "i really tried to be
+good to you. i like you a lot," visits planned around her strip-club
+shifts and his trips into town. He is candid with her about his other
+relationship from the start — telling her plainly in a May 21 message
+that he lives with his girlfriend in New York and won't hide it, and
+naming Annie by name repeatedly and casually throughout, including
+having Annie "in my ear gloating that i look stupid for trying so hard
+with you."
 
-Shelbie worked at a strip club (shifts named directly — "I work the club Tuesday," schedule negotiations around which nights she was off) and was separately trying to launch a webcam career, walking Dan through building out a "cam room," a MyFreeCams approval, and Snapchat premium content ("Trying to sell pics on Snapchat"). Money is a constant thread: broken Cash App and Venmo, a request to be someone's "sugar dad," and a running "baby needs spoiled" dynamic layered on top of what otherwise reads as a real, affectionate relationship — "babyboy," "I can't wait to see you," repeated plans to see each other despite her rotating club and salon shifts.
+Money trouble runs underneath most of the thread's daily texture: broken
+Cash App and Venmo, requests routed through PayPal or Facebook Pay, and
+a running dynamic where Shelbie asks to be "spoiled" and Dan obliges.
+Both sides reference his cocaine use casually and without conflict
+during this period ("i had fun i walked the park lol... i'm gone rn
+lol... 3 [tabs] since this morning").
 
-She quit a hair-salon job on May 31, 2019 over a scheduling dispute with her boss, joking she'd "just be a hella good stripper than." She turns 26 on June 16 per her own message.
+## Annie in the arrangement
 
-Annie is present throughout, not hidden — Shelbie asks "where's Annie gonna b" when making plans, jokes "How Annie 😒😂" about a shared arrangement, and on June 8, 2019 the three of them coordinate directly: Shelbie invites Dan and Annie over ("U ad Annie duh," "Leggggo"), notes her roommate "knows ur my bae," and — after getting her period — is explicit that Annie won't be sleeping with her that night but the three will still hang out ("We can hang for sure I'm fed not fucking her today"). This is the same three-way dynamic documented at [[wiki/timeline/events/shelbie-annie-threesome-april-2019]]; whether June 8 is a repeat occasion or the corpus's only surviving trace of the arrangement is unclear (see Gaps).
+Annie is not concealed from Shelbie or vice versa. Shelbie asks "where's
+Annie gonna b" when making plans, jokes "How Annie 😒😂," and on June 8,
+2019 the three of them coordinate a shared visit directly: Shelbie
+invites Dan and Annie over together ("U ad Annie duh"), her roommate
+"knows ur my bae," and — after getting her period that day — she's
+explicit that Annie won't be sleeping with her but the three will still
+hang out ("We can hang for sure I'm fed not fucking her today"). This
+matches the three-way dynamic documented on
+[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]; whether
+June 8 is a second occasion or the corpus's only direct trace of that
+same arrangement remains unresolved (see Gaps).
 
 ## The breakup (July 16, 2019)
 
-The relationship ends in a single ugly exchange, not a gradual fade. Shelbie opens by refusing to return a ring light and a DJ controller ("that's getting sold for the money for my key that you never got me"), threatens a lawyer ("my aunts a lawyer"), and within minutes escalates to personal attacks: calling Dan a "lowlife coke head," telling him to "enjoy living off your dead grandmothers money" (a reference to [[wiki/people/fran-coldren|Fran]]'s death and inheritance, still recent at just over a year prior), and a graphic insult aimed at Annie. Dan apparently pointed out the laptop had in fact been paid for; Shelbie's counter was that it was refurbished and worth less than he'd claimed. No resolution is recorded — the thread simply stops.
+The relationship ends in a single explosive exchange, and the full
+export shows for the first time that Dan's side of it is almost entirely
+flat and unbothered — a contrast that sharpens rather than softens the
+scene. Shelbie opens by refusing to return a ring light and a DJ
+controller ("that's getting sold for the money for my key that you
+never got me"), threatens legal action ("my aunts a lawyer"), and
+escalates within minutes into personal attacks — "lowlife coke head
+trash ass limp dick fuck," "enjoy living off your dead grandmothers
+money" (a reference to [[wiki/people/fran-coldren|Fran]]'s death and
+inheritance, just over a year prior), and a graphic insult aimed at
+Annie. Dan's actual replies throughout are short, dry, and almost
+performatively unaffected — "lol," "thanks!," "i am thanks!," "oh i'm so
+hurtttttt," "yeah you might want to try another insult" — engaging just
+enough to correct a factual point (the laptop had in fact been paid
+for, which she disputes on the grounds it was refurbished) without ever
+matching her volume. The exchange ends with mutual "block me" dares and
+no resolution.
 
-## Corpus Dimensions
+## The aftermath (August 2019)
+
+Contrary to the prior read of this thread as ending cold on July 16,
+Dan follows up nearly a month later with two more messages: an August 9
+demand, giving Johnny (an intermediary) until 7am the next morning to
+return the ring light, DJ rig, and laptop or he'd "be filing this," and
+a final August 11 message — "i'll be stopping by with a few state
+troopers next week! see ya soon <3" — closing the thread on the same
+flat, sardonic register as the breakup itself rather than genuine anger.
+No reply from Shelbie is preserved after July 16.
+
+## Corpus record
 
 | Metric | Value |
-|--------|-------|
-| Messages | 306 |
-| Date range | 2019-05-15 to 2019-07-16 |
-| Direction | Unreliable in this export (see note above) — read as two-way |
+|---|---|
+| Messages | 685 (iMessage/SMS, both directions) |
+| Date range | 2019-05-15 – 2019-08-11 |
 | Handle | +17249124338 |
+| Defining content | The sugar-arrangement texture; the July 16 breakup; the August legal-threat follow-up |
 
-## Gaps
-
-Real last name and any life after July 2019 are undocumented — the thread ends at the breakup with no further contact in the corpus. Whether the June 8, 2019 three-way logistics text is a second occurrence of the arrangement described in [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] or the only message-corpus trace of that same event is unresolved; Shelbie's own iMessage thread only starts May 15, 2019, but a daylong May 1, 2019 fight — in which Annie, retaliating for an overnight Dan spent with her, calls out "a fucking low life Fayette County stripper" and warns "you're treating her like she's your fucking gf," while also revealing she'd arranged her own retaliatory plans for the next night — confirms the relationship was already active and already causing conflict before that date, supporting the April origin independently of Shelbie's own number. Full reconstruction of that day: [[wiki/timeline/events/shelbie-annie-threesome-april-2019]].
-
-## Related
-
-[[wiki/people/annie-ulmer]] · [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+**Gaps:** real last name and any life after August 2019 are
+undocumented. Whether the June 8, 2019 three-way logistics text is a
+second occurrence of the arrangement described on
+[[wiki/timeline/events/shelbie-annie-threesome-april-2019]] or the same
+event's only trace in this handle's thread is unresolved — Shelbie's
+own iMessage thread starts May 15, 2019, but a May 1, 2019 fight (Annie,
+retaliating for an overnight Dan spent with her, calling her "a fucking
+low life Fayette County stripper") confirms the relationship predates
+this thread's start, supporting an April origin independent of this
+number.

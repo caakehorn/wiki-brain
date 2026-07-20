@@ -28,6 +28,9 @@ sources:
   - "raw/self/dox-md/Crisis mode briefing.md"
   - "raw/self/dox-md/Creating robust video essays from scripts.md"
 connections:
+  - page: wiki/mind/concepts/bunker-core
+    type: instance-of
+    claim: "Local, self-hosted chat.db forensics is agent tooling that extends the same evidentiary-verification principle documented here — raw message history as proof against gaslighting, automated rather than manual."
   - page: wiki/mind/concepts/node-locking
     type: evidenced-by
     claim: "The node-locking protocol — ~403 locked nodes, cross-platform transfer commands, export redaction — is the primary behavioral evidence that the LLM venue is used as writable memory, not conversation."

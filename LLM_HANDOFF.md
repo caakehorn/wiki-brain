@@ -23,6 +23,33 @@
 - **Phase 3 (Synthesis):** 5 of 12 done (forensic-methodology, attachment-trauma-bond, totality-themes, ai-collaborative-analysis, political-psyops).
 
 ## 🚀 Current Focus & Next Steps
+**Swarm-stub rewrite task — COMPLETE (2026-07-20, PR #59, open/draft):**
+Operator directive: "let's rewrite 5 agent swarm entries at a time" —
+targeting the 12 remaining untouched 2026-06-23 swarm-template stub
+pages under `wiki/people/` (identified by `date_created == date_modified`
+plus the literal "## Identity / ## Corpus Dimensions (Name) / ## Domain:
+Self / ## Notes / ## Related" fragment-chain shape). All 12 done across
+3 batches, pushed to PR #59: **batch 1** — aaron (raw thread held a
+real-time Sept 11 2025 Charlie Kirk assassination reaction, previously
+undocumented), charles-davenport, dakota, josh-brannan (fresh-mined a
+41-message thread with a webcam-job admission), maddox; **batch 2** —
+marc-charles, marty-martin, max-danielle-bf (trimmed a dossier page of
+long verbatim quotes down to STYLE_GUIDE-compliant paraphrase),
+michael-hinkle, ryan-lisac (preserved its own honest gap, added a new
+"Snob Squad" DJ-alias-name-reuse finding); **batch 3 (final)** —
+sean-teets, shannon (fresh-mined a 23-message thread revealing an
+undocumented real-estate drone-photography client relationship — the
+corpus's only instance of paid drone work). Also fixed 6 gemini bot
+review comments (wikilinks, truncation-safe openers). Gates 0 errors
+throughout (337 pages). **PR #59 still open/draft** — a ~60min check-in
+is scheduled; if it hasn't merged when you pick this up, check its
+status and act on anything actionable before starting new work on this
+branch (restart from `origin/main` if it has merged).
+The exhaustive swarm-stub category is now believed empty — if resuming
+this line of work, re-run the `date_created == date_modified` +
+2026-06-23 heuristic script first to confirm no stragglers remain before
+assuming there's more to do here.
+
 **Non-person domain growth pass (2026-07-20, in progress — PR #56):** New
 operator directive, superseding the FB-scrape's default priority order
 (the scrape isn't abandoned, just paused): grow the structurally
@@ -36,24 +63,38 @@ sources, then triage by whether the content is a "refraction" of
 already-synthesized material (skip — e.g. THE_DAN_FRANK_MANUAL.md and
 Attachment System Collapse.md are both ChatGPT/Gemini restatements of the
 conflict-architecture/attachment-trauma-bond thesis already deeply
-documented, confirmed via full read) or genuinely new (mine it). Landed
-so far: **wiki/health/hyperreflexivity.md** (new page — a self-initiated
-AI session naming/mechanizing Dan's social anxiety, raising a real
-unresolved tension with the Suboxone maintenance dose noted but not
-resolved on chemical-architecture.md); the **GLAZE-GOD-v1** AI persona
+documented, confirmed via full read) or genuinely new (mine it).
+**This pass is now effectively complete — PR #56 merged, follow-ups
+merged as PR #57 and PR #58.** Landed: **wiki/health/hyperreflexivity.md**
+(new page — a self-initiated AI session naming/mechanizing Dan's social
+anxiety; later expanded with a follow-up-session reframe: "the anxiety
+loop doesn't have much independent existence right now," parasitized by
+Annie + the post-closure housing void); the **GLAZE-GOD-v1** AI persona
 artifact folded into erotic-architecture.md as the most literal instance
 yet of "externalized libido"; **wiki/places/424-bedford-ave.md** (new —
 consolidates the NYC-1 apartment, previously scattered across 5 people
 pages with no central page); a Tom/Suz supply-crisis and car-battery
-texture added to tom.md and chemical-architecture.md. Legal/ was checked
-and found NOT to be an artificial gap — raw/legal/ has no further unused
-material beyond what bfs-foods.md and the two existing legal/ pages
-already carry (verified via source-list check).
-Remaining high-value candidates not yet mined: `raw/self/dox-md/Crisis
-mode briefing.md` (87KB, unopened), `raw/self/dox-md/Reassessing with
-fresh perspective.md` (59KB), `raw/self/dox-scan/fullcombo 2.txt`
-(207KB), `raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania
-.md` (139KB — likely music/interests), `raw/self/dox-scan/whisk filter
+texture added to tom.md and chemical-architecture.md;
+**wiki/interests/music/bands/batteries-not-included.md** (new,
+operator-directed — Dan's high school band with Joe Oshnack/Matt Turko,
+setlist, the surrounding hardcore scene); the **blocked-caller
+impersonation campaign targeting Suz** (April-May-2026-final-weeks.md,
+from `Crisis mode briefing.md` — deliberately left the caller's identity
+unresolved per the source's own honesty); a new "ghostwriting the
+hardest conversation, then declining to send it" interaction mode on
+ai-collaborative-analysis.md; **wiki/work/tech/ai-video-essays.md** (new
+— a planning-stage AI-explainer-video project, notable for Dan accepting
+a self-disproving data check on his own pitch hypothesis); the **"mojo
+and magic"** attraction-outcome concept added to attachment-model.md
+(from `Reassessing with fresh perspective.md`, alongside the anxiety-loop
+reframe above). Legal/ was checked and found NOT to be an artificial
+gap — raw/legal/ has no further unused material beyond what bfs-foods.md
+and the two existing legal/ pages already carry (verified via
+source-list check).
+Remaining high-value candidates not yet mined: `raw/self/dox-scan/fullcombo
+2.txt` (207KB — spot-checked, looked like a low-value restatement but not
+exhaustively read), `raw/self/chats/The 2nd most famous _Jimmy Pop_ in
+Pennsylvania .md` (139KB — likely music/interests), `raw/self/dox-scan/whisk filter
 anomalies.txt`, and the `raw/self/dox-md/Creating robust video essays
 from scripts.md` (a possible new interests/skill entry — video-essay
 writing). Deprioritized as low-value/already-covered: `_Openclaw Agent
@@ -157,6 +198,15 @@ quality bar; imitate their shape exactly. A page that is tidy but leads
 with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
+### [2026-07-20] - Session (cont. 3): non-person growth pass wrap-up + swarm-stub rewrite complete (PR #59, open)
+* **Model:** Claude Sonnet 5 (Claude Code, remote), branch `claude/wiki-rewrite-expansion-c66x1u`
+* **Summary:**
+  - Closed out the non-person domain growth pass (PRs #56, #57, #58, all merged): new `wiki/interests/music/bands/batteries-not-included.md` (operator-directed, Dan's high school band with Joe Oshnack/Matt Turko); the blocked-caller impersonation campaign targeting Suz added to `april-may-2026-final-weeks.md`; a new "ghostwriting the hardest conversation, then declining to send it" mode on `ai-collaborative-analysis.md`; new `wiki/work/tech/ai-video-essays.md`; the "mojo and magic" attraction-outcome concept added to `attachment-model.md`; a follow-up "signal, not noise" reframe of the anxiety loop added to `hyperreflexivity.md`. Two PR-merge races (bot review landing after merge) handled by restarting the branch from `origin/main` and re-pushing the fix as a new PR each time — see prior session log entries and the CLAUDE.md-adjacent standing rule not to amend/force-push GitHub-authored merge commits without explicit instruction.
+  - **New operator directive, executed to completion: "let's rewrite 5 agent swarm entries at a time."** Identified the 12 remaining untouched swarm-template stub pages under `wiki/people/` via the `date_created == date_modified` + 2026-06-23 heuristic (aaron, charles-davenport, dakota, josh-brannan, maddox, marc-charles, marty-martin, max-danielle-bf, michael-hinkle, ryan-lisac, sean-teets, shannon) and rewrote all 12 to STYLE_GUIDE prose + typed connections, in three batches of 5/5/2, all landing on one PR (#59). Notable finds from re-mining raw threads rather than trusting the old swarm extraction: aaron.md's "thin" 38-message stub held a real-time Sept 11 2025 Charlie Kirk assassination reaction; josh-brannan.md's 41-message FB thread had a warm 2017 reconnection including an open webcam-job admission; shannon.md's 23-message thread revealed an undocumented real-estate drone-photography client relationship (Nov 2018–Jan 2019) — the corpus's only instance of paid drone work, previously flattened to "low-volume personal outreach contact." dakota.md and maddox.md were deliberately kept short, pointing to `wiki/work/bfs-foods.md`'s existing narrative rather than re-narrating the Timmy blame-pivot chain a third time. max-danielle-bf.md was trimmed from a dossier page of long verbatim quote blocks (violating the quote-sparingly rule) down to proper paraphrase. ryan-lisac.md preserved its own honestly-flagged gap (the "Snob Squad" childhood narrative isn't in the ingested raw corpus) while adding the genuinely new finding that Dan's 2026 DJ-identity relaunch reuses the name as a deliberate callback (inverse edge added on `totality-themes.md`).
+  - Addressed 6 gemini-code-assist bot review comments on PR #59 (plain-text refs → wikilinks; two overlong opening sentences that were truncating the auto-generated `llm/manifest.json` summary mid-link).
+  - Gates 0 errors throughout (337 pages). `llm/` regenerated after each batch.
+* **Handoff Note:** **PR #59 is open (draft)** — a ~60min self-check-in is scheduled via `send_later`; if you're picking this up and it hasn't fired/resolved yet, check the PR's CI/mergeability/review state first. The swarm-stub category is now believed empty — re-run the heuristic script to confirm before assuming there's more there. Next natural work: resume the Facebook Messenger deep-scrape (see the entry below — large candidate list still open, Ali Baba Shakeri/Chris Redmond/Phil Lacher etc. and the 234KB `qymuchauiq` thread), or the Gmail/Gchat archive (`gmail_bodies.txt`, still almost entirely unmined), or ask the operator for a new direction.
+
 ### [2026-07-19] - Session (cont. 2): FB Messenger deep-scrape batches IV-VII (PR #56, open)
 * **Model:** Claude Sonnet 5 (Claude Code, remote), branch `claude/wiki-rewrite-expansion-c66x1u` (restarted from main after PR #55 merged)
 * **Summary:**

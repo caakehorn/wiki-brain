@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-337 pages, ~471,445 tokens.
+340 pages, ~477,190 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -24,6 +24,8 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/legal/bfs-dispute/BFS_BOOTLOADER_v2.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/dox-md/ADDICTION_PROFILE.md
 related:
   - wiki/self/context-core
   - wiki/mind/profile/deviance-mapping
@@ -41,6 +43,15 @@ connections:
   - page: wiki/health/hyperreflexivity
     type: contradicts
     claim: "An AI-collaborative session raises a tension this page doesn't otherwise carry: chronic Suboxone receptor occupancy may blunt the hedonic range needed to break an anxiety loop — the maintenance dose that stabilizes opiate dependency may cap capacity to regulate a separate system."
+  - page: wiki/people/sean-teets
+    type: co-occurs
+    claim: "Sean Teets' 2017/2018 Facebook outreach ('looking for tax or strpz'; 'Mushys and k') uses vocabulary consistent with this page's mushrooms/Suboxone-strips/ketamine-adjacent substance landscape, though his specific role in it is unconfirmed."
+  - page: wiki/places/seven-springs
+    type: evidenced-by
+    claim: "A later self-audit explicitly frames Dan's first cocaine use there as instrumental (a weight-control tool tied to adolescent bulimia) as much as social, not purely a peer-pressure initiation."
+  - page: wiki/timeline/periods/dark-era-2007-2008
+    type: evidenced-by
+    claim: "A November 2007 Las Vegas trip is newly dated as the point physical opiate dependence became undeniable, and a winter 2008 single heroin attempt was rejected on aesthetic grounds ('felt dirty') rather than fear of the drug itself."
 ---
 
 # Chemical Architecture
@@ -72,10 +83,62 @@ neurochemical engineering" ([[wiki/mind/profile/deviance-mapping]]).
 The opiate arc: first opiate (Roxicet → Oxy) in **2007**, age 18–19, during
 the post-rupture years; five months from first use to addiction; then the
 stabilization at Full Sail's end — Suboxone day-zero February 17, 2010.
-Sixteen unbroken years followed. There is no detox attempt, no relapse, and
-no recovery-program participation anywhere in the record; the system is
-maintained, not fought. Alcohol was excluded early and permanently — the
-one substance the family history made radioactive.
+Sixteen unbroken years followed on the maintenance dose itself: no relapse
+back to full opiate use, and no recovery-program participation anywhere in
+the record. One real exception to a strict "no detox attempt" reading
+surfaces early in the [[wiki/people/annie-ulmer|Annie]] relationship: on
+December 8, 2015, just ten days after the corpus's first "YOU ARE MY
+EVERYTHING," the two discuss quitting an unspecified substance together
+cold turkey — "if you are okay going cold turkey, I will do it with you,"
+framed around shared spending ("I don't want to spend every penny I have
+on it") and a wish to avoid "the road you and lex did." Nothing in the
+corpus indicates this attempt held; the relationship's later record shows
+the same substance patterns continuing, and the exchange reads as an
+early, idealistic pact rather than a sustained recovery effort. Alcohol
+was excluded early and permanently — the one substance the family history
+made radioactive.
+
+## System genesis: a phased history
+
+A separate, later self-audit reconstructs the full chemical timeline in
+more granular phases than the summary above, and adds real new dated
+detail. Cocaine use first entered the household as a known concept at
+age 13 (2001), via the discovery of his parents' own use — the same
+substance later implicated in the November 2005 rupture (his father's
+rehab admission, his mother's affair with their dealer) was already a
+familiar, "adult" behavior in the house years before that hinge event,
+which complicates any clean story where the divorce alone triggers the
+pattern. His own first cocaine use follows at 17–18 (2005–2006), in the
+[[wiki/places/seven-springs|Seven Springs]] ski-crew context, and this
+retrospective explicitly frames the choice as instrumental as much as
+social: cocaine as a chemical means of weight control tied to the
+adolescent bulimia documented on
+[[wiki/timeline/periods/dark-era-2007-2008]], alongside its value as a
+subcultural credential inside the ski/band scene.
+
+The opiate arc that follows has one new, specific, dated event: a
+November 2007 trip to Las Vegas (age 19) is named as the point physical
+opiate dependence became undeniable — the problem shifting from "how to
+be cool" to "how to function without getting sick." The following
+winter (2008), he tried heroin once and rejected it on aesthetic
+grounds — it "felt dirty" — a preference read here as consistent with a
+broader "chemical connoisseur" disposition rather than pure hedonism:
+the method and purity of a substance mattering as much as its effect.
+Cocaine use stopped entirely during this opiate-pivot window, only
+resuming in 2012, two years after the Suboxone stabilization, as a
+deliberate "voltage" layer added on top of an already-secure base
+rather than a relapse.
+
+The clearest new fact in this material is a **quantified cocaine dosage
+arc** tied directly to Dan's finances rather than to any stated desire
+to moderate: a roughly 1g/day baseline escalated to **3.5–7g daily
+during the 2017–2020 window** when Fran's inheritance removed the usual
+capital constraint, before contracting back down to **~0.5–1g daily**
+from 2020 onward as the inheritance was exhausted. The retrospective's
+own reading is blunt — the escalation shows the "desired state" is
+maximum intensity limited only by supply and money, not by any internal
+ceiling — and the later reduction is framed explicitly as a resource
+adjustment, not a step toward moderation or recovery.
 
 **Informed speculation:** the selectivity is the interesting part. Four
 family members across three generations (mother, grandmother,
@@ -175,6 +238,9 @@ connections:
   - page: wiki/mind/concepts/attachment-model
     type: contextualizes
     claim: "A follow-up session reframes the anxiety loop as largely parasitized by the unresolved Annie situation and the post-closure housing void rather than a freestanding clinical pattern, and develops the related 'mojo and magic' attraction-outcome concept documented there in full."
+  - page: wiki/timeline/periods/dark-era-2007-2008
+    type: evidences
+    claim: "The 2025 tooth-loss disclosure, with Dan's own causal chain back to teenage bulimia and decades of dentist avoidance, is the corpus's clearest first-person link between the adolescent eating disorder and a specific, dated adult physical-health outcome."
 ---
 
 # Hyperreflexivity and the Anxiety Loop
@@ -246,6 +312,25 @@ the sale of his childhood home at
 [[wiki/places/337-saratoga-drive]], and the identity structure built
 around the relationship going with it), which this page does not
 re-derive.
+
+## A physical toll: two lost teeth
+
+Later in the same session, unprompted, Dan adds a fourth compounding
+stressor to the three already named: "maybe the most detrmiental of all
+is that i recently lost 2 teeth, and one is like the 'vampire' tooth
+which is super visible." He supplies his own causal chain without
+hedging — "bulimic as a high schooler candy as a staple of my diet
+terrified of dentist (aka haven't gone) suboxone cigarettes" — tracing a
+direct line from the [[wiki/timeline/periods/dark-era-2007-2008|adolescent
+eating disorder]] documented on the 2007–2008 dark-era page through
+decades of dentist avoidance to a visible adult physical consequence,
+landing at the same moment as the Annie collapse and layering a
+self-conscious image wound on top of an already-low-self-esteem
+baseline: "annie completely knocked the wind out of me and i was
+completely without confidence and THEN there's the additional
+self-consious, humiliating image issue that comes with that." This is
+the corpus's clearest first-person link between the teenage bulimia and
+a specific, dated adult physical-health outcome.
 
 ## A follow-up reframe: signal, not noise
 
@@ -2748,6 +2833,7 @@ sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/twitter/
+  - raw/self/favorites/2025_MASTER_CRATE.csv
 related:
   - wiki/interests/music/overview
   - wiki/interests/music/aliases/mogzart
@@ -2780,6 +2866,27 @@ The output type is itself informative: "remixes and AI voice drops" means the ca
 | Tempo range | House (120–130 BPM) to DnB-adjacent (170+) depending on release |
 | Differentiator from MOGZART | GRIPNOTIC is more contemporary, harder-edged; MOGZART was more trap-adjacent |
 | Differentiator from SLOPPP | SLOPPP was early exploratory; GRIPNOTIC is refined, intentional |
+
+## Current DJ crate (2025)
+
+A Spotify playlist export, "2025_MASTER_CRATE" (232 tracks, curated by
+`dfrank88`, most additions logged October 31, 2025), gives the first
+quantified, dated picture of what Dan is actually mixing rather than a
+genre label applied after the fact. The crate is heavily current — 138
+of 232 tracks (59%) were released in 2025 itself, with the remainder
+skewing recent (26 from 2024, 20 from 2023) and only a handful of older
+tracks reaching back to 2002. Genre tags confirm and sharpen the
+"bass house / tech house" description above with real weight behind
+each label: dubstep (63 tracks), bass music (59), bass house (54), tech
+house (34), riddim (29), house (24), g-house (24), drum and bass (22),
+stutter house (22), and UK garage (21) dominate, with smaller pockets of
+future bass, edm trap, deathstep, and moombahton. The crate runs hot —
+average energy 0.80 out of 1.0, average tempo 133 BPM (range 72–179) —
+and skews mostly non-explicit (34 of 232 explicit-tagged). No single
+artist dominates; Fred again.. leads with 6 tracks, followed by rSUN,
+NGHTMRE, Diplo, AC Slater, LYNY, and Odd Mob at 3–5 each — a wide,
+current-scene sampling rather than a small set of favorites played
+heavily.
 
 ## Production Chain
 
@@ -4496,6 +4603,86 @@ target — the loop may be signal, not noise.
 
 
 ========================================================================
+PAGE: wiki/mind/concepts/bunker-core.md
+========================================================================
+
+---
+domain: mind
+page_type: concept
+title: "Bunker Core"
+status: active
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+sources:
+  - "raw/self/dox-md/Gemini-_18.md"
+  - "raw/self/dox-md/_Dan Frank's Digital Forensic Inventory .md"
+  - "raw/self/dox-md/_Openclaw Agent Setup and Data .md"
+  - raw/self/dox-md/MAX_PRIME.md
+tags: [ai-collaboration, digital-footprint, career]
+connections:
+  - page: wiki/timeline/periods/2025-collapse
+    type: component-of
+    claim: "Bunker Core is named in Dan's own 2026 'Bifurcated Daily OS' self-description as one half of a two-track life — survival work (BFS Foods, Suzanne's property operations) alongside a self-built 'High-Autonomy Technical Stack.'"
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: instantiates
+    claim: "Local, self-hosted chat.db forensics is agent tooling that extends the same evidentiary-verification principle documented elsewhere in Dan's AI use — raw message history as proof against gaslighting, automated rather than manual."
+  - page: wiki/work/tech/vibe-coding-games
+    type: co-occurs
+    claim: "Bunker Core, the iMessage Analysis Toolkit, and the vibe-coded games all belong to the same 2025–26 tool-building wave — the period context-core logs as 'agent/AI build work, music reactivation.'"
+---
+
+# Bunker Core
+
+Bunker Core is the name Dan has given to a self-built, local-first
+technical stack — SQLite-based forensics run directly against his own
+`~/Library/Messages/chat.db`, framed in his own notes as "Epistemic
+Verification" and a "cold-data ledger." It sits alongside a Gumroad
+product, the iMessage Analysis Toolkit (launched February 2026), as the
+concrete, dated output of what he calls his 2026 "High-Autonomy
+Technical Stack" — one half of a self-described "Bifurcated Daily OS,"
+the other half being survival work: [[wiki/work/bfs-foods|BFS Foods]]
+counter shifts and property management alongside his mother
+[[wiki/people/suzanne-frank|Suzanne]]. In his own framing, the return to
+Uniontown in early 2025 was a deliberate trade — leaving expensive,
+institutionally-dependent New York life for a lower-cost base from
+which to build sovereign, local tooling.
+
+## What it is, and what it isn't
+
+The primary, verifiable fact is narrow: a local database-forensics
+practice built on his own message history, plus a shipped commercial
+tool derived from the same skillset. Beyond that, "Bunker Core" starts
+functioning as much as a name for a psychological posture as for a
+piece of software — an AI-generated forensic-inventory document
+(unprompted, not primary self-report) elaborates it at length as an
+"epistemic fortress," a system built so that "no one, not even a
+partner or a platform, can rewrite his narrative without a SQL
+receipt." That framing is interpretive, not something Dan states about
+himself in the retained corpus, and the same document flags its own
+double edge without prompting: the same architecture that protects
+against being gaslit — facts that don't change based on who's shouting
+loudest — also risks functioning as insulation, "a wall of text that
+prevents external entry," optimizing for accuracy over access. Treat
+the software as documented fact and the fortress framing as a plausible
+but AI-authored interpretive overlay, not a claim Dan has made in his
+own words anywhere in the corpus.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Named alongside | iMessage Analysis Toolkit (Gumroad, launched Feb 2026) |
+| Core method | Local SQLite forensics on ~/Library/Messages/chat.db |
+| Self-framing | Half of a "Bifurcated Daily OS": survival work + technical sovereignty |
+
+**Gaps:** whether Bunker Core is a single coherent codebase or a loose
+label for an evolving set of scripts; any third-party involvement,
+collaborators, or public release beyond the Gumroad toolkit; whether
+the project is still active past its 2026 documentation window.
+
+
+========================================================================
 PAGE: wiki/mind/concepts/conflict-architecture.md
 ========================================================================
 
@@ -4524,6 +4711,9 @@ connections:
   - page: wiki/mind/concepts/attachment-model
     type: mirrors
     claim: "The conflict engine demands resolution while the attachment model cannot issue severance — mutually amplifying architectures with no shared halt condition, recorded in this page's paired CONTRADICTION blocks."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: mirrors
+    claim: "The conflict engine demands resolution while the trauma bond's attachment side cannot issue severance — the same structural collision as with attachment-model, documented here in its central relationship case."
   - page: wiki/mind/concepts/phenomenology-lens
     type: parallels
     claim: "The lens's self-sabotage loop (insight → rupture → more insight) is the interpretive-register rendering of this engine's no-halt-condition mechanics — same machine, metaphorical language."
@@ -5126,6 +5316,15 @@ connections:
   - page: wiki/mind/synthesis/political-psyops
     type: instantiates
     claim: "The J6 analysis is the method applied to a public event; same anomaly-detection engine, different corpus."
+  - page: wiki/work/tech/max-framework/overview
+    type: contains
+    claim: "CATO's evidence-first, no-sycophancy, glyph-enforced operating mode is the forensic-method cognitive OS deliberately pasted into an AI session as a standing configuration, rather than left as a default disposition."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: instantiates
+    claim: "The Annie decade's evidentiary reconstruction — message counts, dated patterns, the confession trap — is the forensic method applied to the corpus's highest-stakes relationship."
+  - page: wiki/mind/profile/socionics-and-attitudinal
+    type: evidenced-by
+    claim: "The ILI-Ni 'Ni leak' — pattern-hunting that runs more prophecy than a textbook INTP's Ti-Ne — is the trait-level substrate for this method's anomaly-detection engine."
 ---
 
 
@@ -5560,6 +5759,7 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/concepts/institutional-out]] — the pre-installed escape mechanism at every job: fake migraines, the 9pm night class; verbatim self-stated protocol.
 - [[wiki/mind/concepts/phenomenology-lens]] — the deliberate interpretive overlay (plain-language readings of the cognitive functions and recurring loops); subordinate to documented fact.
 - [[wiki/mind/concepts/erotic-architecture]] — sexuality as controlled-chaos engineering: externalized libido, taboo as rupture, emotional consumption.
+- [[wiki/mind/concepts/bunker-core]] — the self-built local chat.db forensics stack; documented software fact alongside an AI-authored "epistemic fortress" interpretive framing.
 
 ## psychosexual — the sexuality cluster
 
@@ -6303,6 +6503,7 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ Linguistic.rtf
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/dox-md/Phase_2_Stylometric_Analysis.md
 related:
   - wiki/mind/profile/index
   - wiki/mind/profile/deviance-mapping
@@ -6310,6 +6511,10 @@ related:
   - wiki/self/context-core
   - wiki/self/twitter
 tags: [trauma-bond]
+connections:
+  - page: wiki/mind/profile/voice-modes
+    type: parallels
+    claim: "This page's audience-based code-switching (romantic/platonic, supportive/conflict) and voice-modes.md's eight emotional-state modes are two independent organizing axes over the same baseline mechanics — who he's talking to and how he feels modulate register separately."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics
@@ -6405,6 +6610,33 @@ architecture becomes directly visible. The generation formula context-core
 records for the voice: 3–7 lowercase bursts, one ALL-CAPS word at the
 emotional peak, seeded ambient modifiers, ending on a probe.
 
+## Audience-based code-switching
+
+A separate stylometric pass, run against the same iMessage corpus,
+measures a different axis than the emotional-state modes below: register
+shift by *who he's talking to*, independent of mood. Romantic messages to
+Annie carry endearments ("sweetie," "bb") and a near-constant,
+continuous cadence — multiple short bursts across the day functioning
+almost as a running channel. Platonic messages to friends use peer slang
+("dude," "yo") and are event-driven rather than continuous, picking up
+only around a specific plan or joke. He never crosses these vocabularies:
+"dawg" or "bro" toward a romantic partner, or a pet name toward a friend,
+essentially don't occur. The same audience-sensitivity holds for
+profanity — playful and intensifying with friends, but pointed and
+accusatory when it appears in a partner conflict — and for capitalization,
+where "DRIVE SAFE" reads as an affectionate command while the same
+formatting in an argument reads as a demand.
+
+The pass also isolates a distinct **supportive-vs-conflict** axis inside
+romantic messaging specifically: supportive exchanges run longer,
+coherent, "we"-framed, and proactively caring ("anything I can do?"),
+while conflict exchanges fragment into rapid-fire single-clause bursts,
+drop softening language, and turn "you" accusatory. A reliable pattern
+closes every volatile spike: a flood of repeated, properly-capitalized
+apology and reassurance ("I'm sorry," "I love you," "I promise") that
+doesn't have a platonic equivalent — his friend-conflicts are rare and
+brief enough that this repair cycle never gets exercised the same way.
+
 **Gaps:** the stylometric layers analyze the texting/AI corpus; no formal
 analysis exists of the lyric/production-adjacent writing or of speech
 (voice memos, calls); temporal drift analysis is anecdotal ("earlier AI
@@ -6437,6 +6669,10 @@ related:
   - wiki/mind/profile/enneagram-5w4
   - wiki/mind/synthesis/political-psyops
 tags: [personality-profile, ai-collaboration, music-production]
+connections:
+  - page: wiki/mind/concepts/forensic-method
+    type: evidences
+    claim: "The ILI-Ni 'Ni leak' — pattern-hunting that runs more prophecy than a textbook INTP's Ti-Ne — is the trait-level substrate for the anomaly-detection engine the forensic-method page names as Dan's cognitive default."
 ---
 
 # Socionics ILI-Ni, Attitudinal Psyche & Alignment
@@ -6560,6 +6796,10 @@ related:
   - wiki/mind/profile/linguistic-profile
   - wiki/mind/concepts/conflict-architecture
   - wiki/mind/concepts/attachment-model
+connections:
+  - page: wiki/mind/profile/linguistic-profile
+    type: parallels
+    claim: "The eight emotional-state modes documented here and linguistic-profile.md's audience-based code-switching (romantic/platonic, supportive/conflict) are two independent organizing axes over the same baseline mechanics — mood and who he's talking to modulate register separately."
 ---
 
 # Voice Modes — Dan's Texting Register by Emotional State
@@ -7582,6 +7822,9 @@ sources:
   - "raw/self/dox-md/Crisis mode briefing.md"
   - "raw/self/dox-md/Creating robust video essays from scripts.md"
 connections:
+  - page: wiki/mind/concepts/bunker-core
+    type: instance-of
+    claim: "Local, self-hosted chat.db forensics is agent tooling that extends the same evidentiary-verification principle documented here — raw message history as proof against gaslighting, automated rather than manual."
   - page: wiki/mind/concepts/node-locking
     type: evidenced-by
     claim: "The node-locking protocol — ~403 locked nodes, cross-platform transfer commands, export redaction — is the primary behavioral evidence that the LLM venue is used as writable memory, not conversation."
@@ -8074,12 +8317,21 @@ connections:
   - page: wiki/people/eli
     type: evidenced-by
     claim: "The Eli incident is where the weaponized-ambiguity mechanism is most visible: obvious data patterns met with DARVO shutdowns during acute attachment activation."
+  - page: wiki/timeline/events/eli-incident
+    type: evidenced-by
+    claim: "The dated event record — the concealed relationship, the discovery, the DARVO response to Dan's own accurate observations — is the primary case this page's weaponized-ambiguity mechanism is built from."
   - page: wiki/work/au-zaatar
     type: co-occurs
     claim: "The 2024 sole-earner rotation followed Dan's involuntary exit from Au Za'atar — one turn of the leverage see-saw that kept both parties unfree to leave in the same window."
   - page: wiki/mind/concepts/attachment-model
     type: instance-of
     claim: "The Annie bond is the model's central case: 127 exit declarations, 110 re-engagements, the anxious-avoidant trap running as designed."
+  - page: wiki/mind/concepts/forensic-method
+    type: instance-of
+    claim: "The Annie decade's evidentiary reconstruction — message counts, dated patterns, the confession trap — is the forensic method applied to the corpus's highest-stakes relationship."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: mirrors
+    claim: "The conflict engine demands resolution while the trauma bond's attachment side cannot issue severance — mutually amplifying architectures with no shared halt condition."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: contains
     claim: "The switch is the bond's origin term; first activation on an uncalibrated substrate."
@@ -8100,7 +8352,7 @@ The ten-year relationship between Dan and [[wiki/people/annie-ulmer|Annie]], spa
 
 By 2025, the relationship had structurally collapsed, yet it continued to run on the momentum of a classic anxious-avoidant pursuit-withdrawal trap. Dan exhibited hyper-vigilant monitoring—using GPS location sharing as a proxy for trust—and responded to silence with long emotional appeals and demands for clarity. In contrast, Annie utilized stonewalling, vague declarations of scattered affection, and denial gaslighting. 
 
-A central mechanism of the bond was the weaponization of ambiguity. The dynamic systematically undermined Dan's perception of reality while his attachment system was in a state of acute activation. This was most visible during the [[wiki/people/eli|Eli]] incident, which constituted the central moral harm of the relationship. During this period, obvious patterns in the data—such as late nights and deactivated location tracking—were met with DARVO-style (Deny, Attack, and Reverse Victim and Offender) shutdowns. 
+A central mechanism of the bond was the weaponization of ambiguity. The dynamic systematically undermined Dan's perception of reality while his attachment system was in a state of acute activation. This was most visible during the [[wiki/timeline/events/eli-incident|Eli incident]], which constituted the central moral harm of the relationship. During this period, obvious patterns in the data—such as late nights and deactivated location tracking—were met with DARVO-style (Deny, Attack, and Reverse Victim and Offender) shutdowns. 
 
 Within this architecture, the concept of "unconditional love" was functionally inverted. It operated as a self-abandonment script, framing the endurance of betrayal and ambiguity as a moral virtue. Dan's persistence through more than 127 documented conflict cycles was enabled by this script, justifying the tolerance of systemic harm. Meanwhile, the intermittent reinforcement—providing just enough affection or apologies to keep hope alive while taking actions that indicated a withdrawal—served as the most powerful psychological hook.
 
@@ -9537,6 +9789,9 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: instance-of
     claim: "The J6 method is the vertical-skepticism architecture applied at state scale."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "The totality's 'Political Intensity and Structural Decay' section states in brief what this page argues in full: the post-partisan, both-parties-captured diagnosis and the ruthless focus on procedural mechanics over tribal loyalty."
 ---
 
 
@@ -9978,6 +10233,9 @@ connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: contains
     claim: "The music-as-authentic-thread section states in brief what the four-mode thesis argues in full: the self-assembling channel."
+  - page: wiki/mind/synthesis/political-psyops
+    type: contains
+    claim: "The 'Political Intensity and Structural Decay' section states in brief what the psyops page argues in full: the post-partisan, both-parties-captured diagnosis and the focus on procedural mechanics over tribal loyalty."
   - page: wiki/mind/concepts/conflict-architecture
     type: contains
     claim: "The LLM-venue section reads the conflict architecture against the AI channel — the recursion winning the bandwidth war."
@@ -9990,6 +10248,9 @@ connections:
   - page: wiki/mind/synthesis/intake-constancy
     type: contains
     claim: "The two-constants section carries the intake-constancy finding; the standalone argument lives on its own page."
+  - page: wiki/people/ryan-lisac
+    type: parallels
+    claim: "The 'Snob Squad' name road-tested here for the 2026 DJ-identity relaunch is a deliberate callback to the childhood-era vocabulary originated around Ryan Lisac, not a coincidence of naming."
 ---
 
 
@@ -10620,36 +10881,77 @@ PAGE: wiki/people/aaron.md
 ---
 domain: people
 page_type: entity
-status: archived
+status: active
+knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump"]
+date_modified: 2026-07-20
+date_range_start: 2025-08-21
+date_range_end: 2025-09-13
+sources:
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+tags: [politics, digital-footprint]
 infobox:
   name: "Aaron"
   relationship_to_dan: unknown
-  known_for: "Contact +17245624801. Self intro: 'Hey, this is Aaron!'. 38 messages. Casual direct introduction."
+  first_contact: 2025-08-21
+  handles: ["+17245624801"]
+  known_for: "Casual iMessage contact whose thread carries Dan's real-time political reaction to the Sept 11, 2025 Charlie Kirk assassination"
+connections:
+  - page: wiki/self/twitter
+    type: parallels
+    claim: "Aaron's thread extends the same sicko/justice-system-skeptic political engagement already documented from Dan's Twitter activity (Luigi Mangione coverage) into a second, real-time political-violence event a year later."
 ---
 
 # Aaron
 
-## Identity
-Contact +17245624801. Self intro: "Hey, this is Aaron!". 38 messages. Casual direct introduction.
+Aaron is a short-lived but substantive iMessage contact (`+17245624801`,
+38 messages, August 21 – September 13, 2025) whose thread's real value
+is a single real-time exchange: Dan's own reaction to the September 11,
+2025 assassination of Charlie Kirk, delivered the same day.
 
-## Corpus Dimensions (Aaron)
+## The Charlie Kirk exchange
+
+Aaron opens directly — "Hey, what are your thoughts on the Charlie Kirk
+shooting?" — and Dan is unhesitant and specific: "I mean I don't think
+killing CHARLIE KIRK solves anything or makes much sense... But I'm not
+upset about it." He pushes back on an emerging claim about the
+ammunition ("I do not believe they found bullets with 'trans slogans'
+on them... Wtf is a trans slogan"), reads the political fallout as
+minimal because of who Kirk was rather than despite it — "he wasn't
+really much of an ideologue. He's about as middle-of-the-road, vanilla
+milquetoast MAGA conservative there is... there's not much political
+capital to gain here" — and Aaron agrees. Asked whether Kirk's
+supporters might riot, the exchange doesn't resolve the question
+directly. The register matches the "sicko" justice-system skepticism
+already documented from Dan's Twitter activity around the earlier Luigi
+Mangione/UnitedHealthcare-CEO killing (see
+[[wiki/self/twitter|Twitter]]) — opposition to political violence in
+principle, paired with an unsentimental read of who benefits from it.
+
+## Before that: Mangione and JFK
+
+The thread's earlier content, from late August 2025, is warmer and more
+casual — Aaron responding well to a video Dan shared connecting the
+JFK assassination and Watergate to George H.W. Bush, and separately
+reacting to the Mangione case directly: "Yes, Luigi is also hot!!,"
+paired with an emphasized quote from the shared video framing the
+UnitedHealthcare CEO's killing as a proportionate response to systemic
+healthcare injustice ("we should be building statues for someone who
+chose to value turning that dude's skull into pink mist over his own
+freedom"). Aaron also shares small personal texture unprompted — audiobook
+and Harry Potter enthusiasm — and the two discuss a trip to Morgantown.
+
+## Corpus record
+
 | Metric | Value |
-|--------|-------|
-| Total messages | 38 |
-| Sample | "Hey, this is Aaron!" |
+|---|---|
+| Messages | 38 (iMessage, both directions) |
+| Date range | 2025-08-21 – 2025-09-13 |
+| Defining content | The Sept 11, 2025 Charlie Kirk assassination reaction |
 
-## Domain: Self
-Casual contact in the graph.
-
-## Notes
-Name self-provided in greeting.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
+**Gaps:** last name and how Dan and Aaron know each other; no messages
+before August 2025 or after September 13; the final message (a bare
+"?") is unanswered in the corpus.
 
 
 ========================================================================
@@ -10866,7 +11168,7 @@ status: stable
 date_created: 2026-06-23
 date_modified: 2026-07-19
 sources: [
-  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lucasthomas_eu0ir1uckq/message_1.html", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/qymuchauiq/message_1.html"]
+  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lucasthomas_eu0ir1uckq/message_1.html", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/qymuchauiq/message_1.html", "raw/self/message-csv/imessage_export_7249707658_both_all_now.csv"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf", "wiki/mind/concepts/erotic-architecture", "wiki/people/franki-faris", "wiki/people/new-jim-shaffer", "wiki/people/tom", "wiki/people/vanessa-frank", "wiki/people/menore", "wiki/timeline/events/annie-alexis-reunion-november-2018", "wiki/mind/psychosexual/arrangement-history", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/bond-switch-2015", "wiki/places/155-virginia-ave"]
 tags: [ai-collaboration, nyc-era, relationships, infidelity, trauma-bond]
 infobox:
@@ -10975,18 +11277,40 @@ Early attachment wound activator alongside family 2005 rupture (see [[wiki/self/
 - [[wiki/timeline/events/timeline]]
 - [[wiki/mind/synthesis/attachment-trauma-bond]]
 
-## Message corpus
+## Message corpus: the post-breakup friendship (2020–2025)
 
-| Metric | Value |
-|--------|-------|
-| iMessage handle | +17249707658 |
-| Messages | 41, received-only |
-| Date range | 2020-09-14 – 2025-02-19 |
+A full two-sided export (handle `+17249707658`, 88 messages, 2020-09-14
+to 2025-02-19) replaces the earlier 41-message, received-only extract
+and shows this was not a one-sided, unanswered channel — it was a real,
+if intermittent, friendship that ran five years after the 2015 breakup,
+well into the second NYC chapter and beyond. Dan replies consistently
+and warmly throughout.
 
-The corpus thread is entirely inbound and post-breakup (2020 onward, five
-years after the 2015 split) — she continued reaching out during the second
-NYC chapter with no recorded replies in the master dump. Every reference to
-"Alexis" or "Lex" in the wiki denotes this person.
+The thread's content is mostly casual catch-up and shared politics:
+Dan announces hitting Twitch "affiliate status" and pitches doing
+political livestreams instead of gaming (Dec 2020–Jan 2021), the two
+trade 2020-election commentary ("we're living in the worst possible
+timeline"), and Alexis mentions a younger relative, Landon, whom Dan
+jokes he'll "radicalize" into starting a "Greene county DSA chapter."
+[[wiki/people/menore|Menore]] gets a passing, casual mention ("Menore
+says hi... She's stupid" — in the context of an unrelated joke, not a
+comment on the relationship). The two also process a shared, serious
+loss together in real time on January 29–30, 2021: a mutual friend
+named Alexa is reported missing, then confirmed to have died by
+suicide after her boyfriend and his father assaulted her ("shoved her
+in the back of her car in Walmart parking lot"); both express genuine
+shock and anger at the circumstances rather than treating it as
+gossip.
+
+The thread's final exchange, five years later on February 19, 2025, is
+a small, quietly poignant coda: Dan texts a message clearly meant for
+someone else ("Guess what... Another 'New York I love you but you're
+bringing me down' situation"), Alexis doesn't recognize the sender and
+asks "Who is this?", and once Dan clarifies and offers a shared
+in-joke as proof ("if you do not know the word WEXUS... you can block
+lol"), she confirms: "Yup wrong number. Sorry Dan." Neither followed up
+after that. Every reference to "Alexis" or "Lex" elsewhere in the wiki
+denotes this person.
 
 
 ========================================================================
@@ -11228,6 +11552,7 @@ changelog:
   - date: 2026-07-11
     note: "Data audit: burst-event misattribution fixed, financial amendments folded in"
 sources:
+  - raw/self/message-csv/imessage_export_17245629389_both_all_now.csv
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
@@ -11284,6 +11609,9 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/people/bekah-fullem
+    type: evidences
+    claim: "Dan's March 2020 disclosure to Bekah — that Annie is herself a rape survivor with a 45-year sentence for the assailant — is the only source for this fact anywhere in the corpus; unverified independently."
   - page: wiki/mind/concepts/node-locking
     type: evidenced-by
     claim: "The master node set Dan locks across AI sessions — the Loop, the Signals, Separation Logistics — is his own curated minimal model of this relationship's collapse, evidence of which facts he treated as load-bearing."
@@ -11390,6 +11718,17 @@ caretaking obligation that later doubled as her most-used alibi), a sister
 for, and the dog [[wiki/people/milo|Milo]], a fixture of the NYC domestic
 record — Claire is
 the one who first found Milo as a starving stray in her neighborhood.
+
+A single, undated-elsewhere data point on Annie's history before Dan:
+in a March 29, 2020 message comforting [[wiki/people/bekah-fullem|Bekah
+Fullem]] through her own rape disclosure, Dan states that Annie is
+herself a rape survivor — that it took her years to report it, that the
+trial was "super painful and full of ptsd moments," and that the
+assailant, "a serial rapist," received a 45-year sentence. This is
+sourced only to Dan's own secondhand account, offered in the context of
+supporting a third party, and has no independent corroboration anywhere
+else in the corpus — treat as a real but unverified claim pending a
+primary source or a more direct account.
 
 The early record is unambiguous about the love being real. On day three
 of the documented corpus (Nov 29, 2015) she wrote "YOU ARE MY EVERYTHING"
@@ -12033,11 +12372,11 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-20
 date_range_start: 2020-02-09
 date_range_end: 2020-03-29
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+sources:
+  - raw/self/message-csv/imessage_export_17245629389_both_all_now.csv
 tags: [mental-health, financial-stress, digital-footprint]
 knowledge: mixed
 infobox:
@@ -12045,37 +12384,96 @@ infobox:
   relationship_to_dan: unknown
   sex: female
   first_contact: 2020-02-09
-  known_for: "Rebekah 'Bekah' Fullem reached out to Dan twice, seven weeks apart, in early 2020 — first in acute crisis over her dying"
+  known_for: "A brief pre-existing flirtation that turned into two crisis contacts in early 2020 — a dying cat and a rape disclosure Dan responded to with real warmth"
+connections:
+  - page: wiki/people/annie-ulmer
+    type: evidenced-by
+    claim: "In comforting Bekah after her rape disclosure, Dan discloses that Annie is herself a rape survivor, describing years before she reported it, a painful trial, and a 45-year sentence for the assailant — a previously undocumented fact about Annie's own history, sourced here to Dan's own account rather than a primary Annie-side source."
 ---
 
 # Bekah Fullem
 
-Rebekah "Bekah" Fullem reached out to Dan twice, seven weeks apart, in early 2020 — first in acute crisis over her dying cat and a request for money, then again at the start of the COVID lockdown to disclose she had been raped. The 71-message thread (`+17245629389`, Feb 9 – Mar 29, 2020) is one-sided in tone throughout: Bekah in distress, Dan's responses not preserved in a form that reconstructs clearly from the export.
+Rebekah "Bekah" Fullem's contact with Dan is preserved in a single
+iMessage thread that a full two-sided export (handle `+17245629389`,
+153 messages, Feb 9 – Mar 29, 2020) substantially recontextualizes.
+The earlier one-sided extract — missing Dan's replies entirely — made
+the thread read as a stranger's crisis outreach; the complete record
+shows a pre-existing flirtation, a resolved financial request, and a
+warm, appropriate response to a serious disclosure, plus one previously
+undocumented fact about [[wiki/people/annie-ulmer|Annie]]'s own history.
 
-## February 2020: the cat and the money
+## February 11: a flirtation, then a crisis
 
-Bekah introduces herself as "the girl with the epileptic cat" and over the following two days escalates from a general request for help to explicit financial pleading: her cat, Gideon, needed medication and food she couldn't afford, and without it he would "get put down." She asks for $40–50, apologizes repeatedly for asking, and pushes for payment by a method other than Apple Pay because "the pharmacy doesn't take the card like that." The thread breaks off mid-crisis on February 13 with Bekah saying she'd had to push Gideon's appointment to avoid an immediate euthanasia decision. Whether the money was sent, and what happened to Gideon, is not recorded.
+The thread opens not with crisis but with mutual flirtation: Bekah
+responds to something Dan sent on Facebook, and Dan tells her plainly
+"you have the privilege of being someone ive silently crushed on
+for...ever" and "don't apologize to me!" The tone shifts fast when
+Bekah, joking she has "no comment" but genuinely needing help, asks for
+$40–50 for her cat Gideon's medication and food, warning he'll "get put
+down" without it; Dan responds with a joking-but-real #MeToo-adjacent
+line ("soooooo sell me some nudity and take care of that AND go
+shopping?") before actually sending the money that same night — an
+image (likely a payment screenshot) followed by "that'll even the
+score" — resolving what the earlier extract left as an open question.
+Payment-app trouble (Cash App broken, no PayPal, no working card)
+extends the crisis into February 13, when Bekah says she'd had to push
+Gideon's vet appointment to avoid an immediate euthanasia decision;
+whether Gideon ultimately survived isn't recorded.
 
-## March 29, 2020: disclosure
+## March 29: disclosure, and a correction to the record
 
-A second, single-day exchange six weeks later opens abruptly with Bekah stating "I was raped dude. I haven't slept with anyone since then," and describing a hostile response from law enforcement when she reported it — being asked why the assailant's parents hadn't heard her from across the hall, why she'd had a prior sexual relationship with him, and why she hadn't indicated interest in "that kind of sex." She says the assailant got a lawyer and stalked her, that she lost her job over the fallout, and calls herself "sacrificial lamb." The conversation pivots into the news: Bekah, citing her nursing contacts, insists the just-emerging COVID-19 pandemic in Fayette County is being undercounted and downplayed, pushing back against what reads as Dan's skepticism in the unpreserved half of the exchange. She also mentions her mother has cancer. The thread ends there.
+Six weeks later, Bekah opens a second exchange with "I was raped dude.
+I haven't slept with anyone since then," describing a hostile police
+response (asked why the assailant's parents hadn't heard her from
+across the hall, why she'd previously had a relationship with him, why
+she hadn't indicated interest in "that kind of sex"), that the
+assailant got a lawyer and stalked her, and that she lost her job over
+the fallout. Dan's actual response, previously undocumented, is direct
+and validating: "wow i'm really sorry to hear that. i had no idea,"
+followed by "well stay safe and feel better and i truly am sorry that
+someone would be so awful to you to do that," and — reaching for
+something concrete rather than just sympathy — "it's not going to make
+you feel much better, i know...but at least you started a paper trail
+that would be evidentiary if he ever does it again," closing with "so
+if and when the time comes that you are ready: tell your story."
 
-## Corpus Dimensions
+In the course of that support, Dan discloses that Annie went through
+something similar: "i won't get into too much detail but Annie has been
+through that and it took her years to report it. even the trial was
+super painful and full of ptsd moments, but the shitbag who did it is
+now in jail for 45 years (he was a serial rapist)." This is not
+documented anywhere else in the corpus and is sourced here only to
+Dan's own secondhand account, offered in the context of comforting a
+third party — treat as a real but unverified claim about Annie's
+history pending independent corroboration.
+
+**A correction to the previous read of this page:** the earlier version
+described Bekah as "insisting" COVID-19 was undercounted against "what
+reads as Dan's skepticism" — the full export shows this was backward.
+It is **Dan** who insists the pandemic is worse than officially reported,
+drawing on a frontline New York vantage point just before the city's
+lockdown peak ("nyc is still 3 weeks away from peak infection rates,"
+"i have friends my age that are in ICU and can't get ventilators,"
+"there are cops on every block of nyc"), while Bekah repeatedly pushes
+back that she already knows and isn't being dismissive ("I know it's
+bad," "I'm very aware it's underreported," "I know nurses"). She also
+mentions her mother has cancer. The thread ends there, mid-exchange,
+with no further contact recorded.
+
+## Corpus record
 
 | Metric | Value |
-|--------|-------|
-| Messages | 71 |
-| Date range | 2020-02-09 to 2020-03-29 (two isolated clusters) |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as mostly one-way |
+|---|---|
+| Messages | 153 (iMessage, both directions) |
+| Date range | 2020-02-09 – 2020-03-29 (two isolated clusters) |
 | Handle | +17245629389 |
+| Defining content | The March 29 rape disclosure and Dan's response; the Annie-assault disclosure |
 
-## Gaps
-
-No prior or later contact with Bekah appears in the corpus. The outcome of the cat's medical crisis, the disposition of her assault report, and any relationship to Dan beyond these two crisis contacts are undocumented.
-
-## Related
-
-[[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+**Gaps:** no prior or later contact with Bekah appears in the corpus.
+The outcome of the cat's medical crisis, the disposition of her assault
+report, and any relationship to Dan beyond these two crisis contacts
+are undocumented. The Annie-assault claim has no independent
+corroboration anywhere else in the corpus.
 
 
 ========================================================================
@@ -12847,43 +13245,58 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["/Users/daniel/Documents/dan-wiki/raw/self/facebook/facebook-ihatedanfrank/messages/inbox/charlesdavenport_skjjehkupq/message_1.html", "/Users/daniel/Documents/dan-wiki/ingest/facebook-ihatedanfrank/messages/inbox/charlesdavenport_skjjehkupq/message_1.html"]
-related: ["wiki/self/facebook", "wiki/timeline/periods/2010s", "wiki/self/message-corpora/master-message-dump", "wiki/self/location-history"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/charlesdavenport_skjjehkupq/message_1.html
 tags: [nyc-era]
 infobox:
   name: "Charles Davenport"
   relationship_to_dan: unknown
   location: nyc
-  known_for: "Role: Early NYC contact / logistics thread (2010). Part of initial digital outreach around Brooklyn/NYC move period (pos"
+  known_for: "Early-2010 NYC contact; a four-message Facebook thread pinned to Dan's Brooklyn arrival window"
+connections:
+  - page: wiki/places/424-bedford-ave
+    type: co-occurs
+    claim: "The Jan 24, 2010 exchange ('i'm in need of another run down there') lands inside the arrival window for Dan's first Brooklyn apartment, and reads as early logistics support around that move."
+  - page: wiki/timeline/periods/2010s
+    type: instance-of
+    claim: "One of the earliest-dated exchanges in the Facebook message corpus, sampling the graph-expansion phase immediately after Dan's Brooklyn relocation."
 ---
 
 # Charles Davenport
 
-**Role:** Early NYC contact / logistics thread (2010). Part of initial digital outreach around Brooklyn/NYC move period (post-Full Sail, Ishlab studio). Brief exchanges on visits ("run down there"), contact info, and casual comments.
+Charles Davenport is a thin, early Facebook contact whose entire
+documented relationship with Dan is a four-message thread spanning
+January to December 2010 — the same window Dan relocated to Brooklyn
+and started at Ishlab. The thread carries almost no substance, but its
+dates place it right at the seam of that move, which is the only reason
+it's worth a page rather than folding into an undifferentiated contacts
+list.
 
-## Key Exchanges (full thread; 4 messages; accurate attribution from raw lines)
+## The thread
 
-| Timestamp          | Sender            | Message |
-|--------------------|-------------------|---------|
-| Dec 08, 2010 2:43:28pm | Charles Davenport | love yo pic...cute |
-| Dec 08, 2010 2:43:28pm | Charles Davenport | no homo lol |
-| May 01, 2010 5:54:49pm | Charles Davenport | how are? |
-| May 01, 2010 5:54:49pm | Charles Davenport | how everything n the nyc? |
-| Jan 24, 2010 7:10:35pm | Charles Davenport | im here...wats your #..phones on |
-| Jan 24, 2010 5:34:09pm | Dan Frank | hey if you're going to be around at some point today let me know, i'm in need of another run down there |
+The earliest message is Dan's: on January 24, 2010, he writes "hey if
+you're going to be around at some point today let me know, i'm in need
+of another run down there," to which Charles replies the same evening,
+"im here...wats your #..phones on." The phrasing — "another run down
+there" — implies a standing pattern of trips into the city that
+predates or overlaps Dan's move, though the corpus doesn't preserve
+what "down there" refers to. A May 1 exchange is purely a check-in
+("how are?", "how everything n the nyc?"), and a December 8 exchange is
+brief, casual banter unrelated to the earlier logistics ("love yo
+pic...cute," "no homo lol").
 
-## Context
-- Earliest sampled FB messages in corpus (Jan-Dec 2010).
-- "in the nyc" + "run down there" + phone exchange align with FB profile data: Brooklyn move Jan 3 2010, Ishlab (Mar 2010–Feb 2011, Assistant, Brooklyn), Creative License NYC work.
-- Very low volume; typical of early graph expansion vs later leisure (golf) or core ([[wiki/people/annie-ulmer|Annie]]) threads.
-- "no homo lol" reflects era-typical casual tone in short FB comments.
+## Corpus record
 
-## Related
-[[wiki/self/facebook]]
-[[wiki/timeline/periods/2010s]]
-[[wiki/self/message-corpora/master-message-dump]]
-[[wiki/self/location-history]]
+| Metric | Value |
+|---|---|
+| Messages | 4 (Facebook) |
+| Date range | 2010-01-24 – 2010-12-08 |
+| Defining content | The Jan 24 "run down there" logistics exchange |
+
+**Gaps:** how Dan and Charles know each other; what "down there" refers
+to; no contact beyond 2010.
+
 
 ========================================================================
 PAGE: wiki/people/christian-hanson.md
@@ -14711,57 +15124,44 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md", "wiki/people/anita.md", "wiki/people/timmy.md", "wiki/people/kim.md"]
-related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/maddox", "wiki/people/brandon-hill", "wiki/self/facebook"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/dox-md/BFS_BOOTLOADER_v2.md
+  - raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md
+  - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
 tags: [career]
 infobox:
   name: "Dakota"
   relationship_to_dan: unknown
-  known_for: "Role: Little Caesars (LC) employee and member of Timmy's friend group at the BFS Foods building. Provided initial disclo"
+  known_for: "Little Caesars employee in Timmy's friend group; first to disclose Anita's blame-pivot naming Dan for Timmy's firing"
+connections:
+  - page: wiki/work/bfs-foods
+    type: evidenced-by
+    claim: "Dakota is the first, hearsay disclosure channel for the Timmy blame-pivot pattern that [[wiki/work/bfs-foods]] documents in full as 'the pattern template' for Anita's operational conduct."
+  - page: wiki/people/maddox
+    type: parallels
+    claim: "Maddox's unprompted, first-person account during the May 21, 2026 sidewalk recording independently corroborates the same blame-pivot sequence Dakota disclosed to Dan earlier."
 ---
 
 # Dakota
 
-**Role:** Little Caesars (LC) employee and member of Timmy's friend group at the BFS Foods building. Provided initial disclosure to Dan that Anita was blaming him (Dan) for Timmy's firing/situation. Hearsay channel corroborated by Maddox's fuller, unprompted account during the May 21 sidewalk recording. Part of LC-side witness network for Anita's operational blame-construction pattern.
+Dakota is a Little Caesars employee at the BFS Foods building and a
+member of [[wiki/people/timmy|Timmy]]'s friend group. He was the first
+person to tell Dan that [[wiki/people/anita|Anita]] had pivoted blame
+for Timmy's firing onto him. No direct quotes from Dakota are preserved in the
+corpus — the disclosure is hearsay, relayed informally rather than
+through a documented message thread — but the bootloader synthesis
+treats it as credible, and it was independently corroborated weeks
+later when [[wiki/people/maddox|Maddox]] gave a fuller, unprompted,
+first-person account of the same sequence. The full narrative — Timmy's
+gambling-on-shift firing, Anita's initial blame of
+[[wiki/people/kim|Kim]], Kim's denial, and the pivot to "it was
+Daniel" despite Dan having zero involvement — is told in full on
+[[wiki/work/bfs-foods]]; this page exists to record Dakota's specific
+role as the originating witness, not to re-narrate the chain.
 
-## Key Threads / Quotes / Disclosures Table
-
-| Date/Context | Source/Thread | Quote / Context | Evidence |
-|--------------|---------------|-----------------|----------|
-| Pre-May 2026 (post-Timmy firing) | BFS_BOOTLOADER_v2 §II, §III | Dakota originally disclosed: Anita blaming Dan for Timmy's situation. | "Dakota initial disclosure"; "one of Timmy's friend group" |
-| Pre-May 2026 | BFS_BOOTLOADER_v2 §III | Blame pivot sequence: Anita tells Timmy "Kim" → Timmy confronts Kim ("It wasn't me") → Anita tells Timmy "It was Daniel." | "The blame pivot (corroborated by both Dakota and Maddox)"; Dan had zero involvement |
-| Timmy backstory | BFS_BOOTLOADER_v2 §III | Timmy (LC employee) fired for gambling on shift (VIP regular complaint); Anita reported to Kim; incidental vape-to-minor footage on corporate tape; Anita nearly fired. | Dakota as Timmy friend group node for disclosure channel |
-| 2026-05-21 recording (corroboration) | BFS_BOOTLOADER_v2 §VII | Maddox provides full reconstruction matching Dakota disclosure: "Anita said it was Kim... KIM SAID TO TIMMY 'it wasn't me' and so he asked Anita and Anita told him 'it was Daniel.'" | Maddox unsolicited; Brandon hears details for first time; "Dakota initial disclosure" elevated to direct witness account |
-| May 2026 group / LC | BFS_BOOTLOADER_v2 | LC employees (incl. Dakota, Maddox, Kim) aware of Anita patterns across building | "Kim is operationally aware of Anita's scapegoating pattern, having been targeted by it once" (parallel) |
-| Post-incident | wiki/work/bfs-foods.md, log.md | "Third-party witnesses: Maddox ... ; Dakota initial disclosure." "Timmy: full sequence + witnesses Maddox/Dakota + mom interaction." | Derived from bootloader synthesis |
-
-## Timeline
-
-- Pre-May 2026: Timmy gambling incident → Anita reports to Kim (LC mgr) → corporate tape pulled (reveals Anita underage vape sale to Timmy) → Timmy fired for gambling; Anita nearly fired for vape. Anita calls emergency staff meeting, announces card-everyone policy (reverses it per Timmy's later claim). Group text: May 12 "Team Timmy is no longer allowed... call the city cops" → May 14 "Timmy is not banned as of yet."
-- Blame pivot execution: Anita initially attributes Timmy's trouble to Kim. Timmy confronts Kim directly. Kim denies ("It wasn't me"). Anita pivots blame to Dan ("It was Daniel"). 
-- Dakota (Timmy friend group, LC): Provides initial disclosure of the pivot to Dan.
-- ~late Apr–May 2026: Dan starts BFS gas station; incident period.
-- 2026-05-18/19: Drawer shortage at gas station; $50 off-books demand from Brandon.
-- 2026-05-21: Sidewalk recording. Maddox (LC) delivers full corroborated version of the blame sequence unprompted. Dakota's disclosure confirmed.
-- Post: Dan applies to LC side (via Kim). Dakota remains LC/Timmy-group node.
-
-## Behavioral Notes
-
-Dakota channel is hearsay but treated as credible originating disclosure in bootloader (explicitly "corroborated by both Dakota and Maddox"). No direct quotes attributed to Dakota in primary sources (fuller reconstruction from Maddox). Fits pattern of LC-side awareness/skepticism of Anita (gas station GM) practices: Kim denied pivot and had prior scapegoat experience; Maddox volunteered "crazy and dramatic" + "can't do that to him if you don't even know what went wrong." Per synthesis: exemplifies [[wiki/mind/synthesis/vertical-authority-skepticism]] (Anita sole agency + narrative construction backward to fit outcomes; off-books predates via Marty parallel) and vertical authority skepticism (bottom-layer workers document/expose via witnesses). Tactical posture from bootloader: protect witnesses (light touch on Maddox/Marty equivalent; no recruitment). Ties to core low-trust: false attribution deployed when initial target refuted; Dan zero role despite pivot. "Dan had zero involvement in the Timmy situation. This is the operational template."
-
-## Connections
-
-- **Timmy / blame pivot**: [[wiki/people/timmy]] (fired LC employee, customer), [[wiki/people/anita]] (pivot architect), [[wiki/people/kim]] (initial blame target + denier).
-- **Recording corroboration**: [[wiki/people/maddox]] (LC, fuller account on May 21 sidewalk).
-- **BFS side**: [[wiki/people/marty-martin]] (group text intel, off-books culture), [[wiki/people/brandon-hill]] (demand delivery).
-- **Structure**: LC vs BFS gas station (separate rosters, same building); LC preferred for Dan fit (management quality, lower cash surface).
-- **Dispute context**: [[wiki/work/bfs-foods]] (pattern of Anita reversals/blame used to frame drawer response).
-- **Mother / external**: Suz interaction on Timmy/mom post-refusal noted in derived notes.
-
-**Cross-references:** [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/people/marty-martin]], [[wiki/people/maddox]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/facebook]], [[wiki/work/bfs-foods]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]]
-
-**Notes:** No direct documented iMessage/FB message thread with Dan in message-csv (disclosure via in-person / LC social channel as Timmy friend). "Hearsay channel but corroborated by Maddox's fuller account." Primary source is BFS_BOOTLOADER_v2.md canonical reconstruction. Protect posture: witnesses not to be named in escalation packages (per Quagmire file guidance on assets). Group text (Marty participant) + recording + disclosures establish pattern independent of Dan. Defer to raw dox-md for all verbatim. LC application / Kim exit remains parallel thread.
+**Gaps:** how Dan and Dakota know each other beyond the shared
+building; no direct quotes or message thread.
 
 
 ========================================================================
@@ -15336,13 +15736,13 @@ page_type: entity
 title: "Dimitri"
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-13
-date_range_start: 2021-01-01
+date_modified: 2026-07-20
+date_range_start: 2023-09-04
 date_range_end: 2024-12-02
 sources:
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/AuZaatarsFinalShift.md
-  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/self/message-csv/imessage_export_9172925212_both_all_now.csv
 related:
   - wiki/work/au-zaatar
   - wiki/people/ismaila-barry
@@ -15352,31 +15752,74 @@ infobox:
   relationship_to_dan: unknown
   sex: male
   first_contact: 2021-01-01
-  known_for: "Dimitri, the Greek manager of Au Za'atar Midtown, holds a singular"
+  known_for: "The only boss Dan says he has ever really loved; Au Za'atar manager, later found of his own accord elsewhere in the same restaurant world"
 ---
 
 # Dimitri
 
 Dimitri, the Greek manager of Au Za'atar Midtown, holds a singular
-distinction in Dan's entire employment record: "the only boss or manager or
-supervisor who i have ever actually really loved." A "perpetual restaurant
-manager" and the Triad's oracle on the owners' moods, he appreciated Dan
-the way Tarik and Ghassan did "but dimitri was like... a real person." He
-is the one who insisted Dan move up from busser to server — the promotion
-that created the "Outside Guy" era — and he brought his own people with
-him, including [[wiki/people/ismaila-barry|DJ]]. His first stint lasted
-only about six months (per the Volume I storytime) before he quit under
-the misery of working for Tarik, then returned ("WITH A STEEL CHAIR," in Dan's
-telling) as co-manager alongside the Tunisian zoomer — knowingly re-entering
-a job he knew he'd quit again, "choosing the flooded basement over a quiet
-life." He likely mediated the recorded Sergio sit-down. The iMessage
-corpus holds a thin thread (36 messages, 2023–Dec 2024, handle
-+19172925212, all inbound in the extract). Full context:
+distinction in Dan's entire employment record: "the only boss or manager
+or supervisor who i have ever actually really loved." A "perpetual
+restaurant manager" and the Triad's oracle on the owners' moods, he
+appreciated Dan the way Tarik and Ghassan did "but dimitri was like... a
+real person." He is the one who insisted Dan move up from busser to
+server — the promotion that created the "Outside Guy" era — and he
+brought his own people with him, including
+[[wiki/people/ismaila-barry|DJ]]. His first stint lasted only about six
+months (per the Volume I storytime) before he quit under the misery of
+working for Tarik, then returned ("WITH A STEEL CHAIR," in Dan's
+telling) as co-manager alongside the Tunisian zoomer — knowingly
+re-entering a job he knew he'd quit again, "choosing the flooded
+basement over a quiet life." He likely mediated the recorded Sergio
+sit-down. Full context: [[wiki/work/au-zaatar]].
+
+## The iMessage thread
+
+A full two-sided export (handle `+19172925212`, 116 messages,
+2023-09-04 to 2024-12-02) resolves a previously flagged data problem —
+the earlier extract had appeared entirely inbound, raising the question
+of whether Dan ever replied at all. He did, regularly; the direction
+field on the earlier extraction was simply unreliable, matching a known
+issue across this corpus. The relationship on this channel reads as a
+genuine, ongoing friendship that outlasted the working relationship
+itself.
+
+The thread ranges widely: casual restaurant-industry shop talk (staffing
+churn — "they officially let me go from AZ," a running joke about a
+food-delivery robot the restaurant bought, a coworker's move to "some
+really fancy French place"), a real argument about ancient history (Dan
+pushes that Alexander the Great and the Macedonians weren't "really"
+Greek, citing Demosthenes; Dimitri counters at length with linguistic
+and cultural evidence, unmoved), a 2024 political exchange where Dimitri
+asks Dan directly whether he's excited for Trump's return and Dan
+deflects into an anecdote about recording and AI-analyzing an old
+argument rather than answering straight, and warm personal notes (a
+Piano-learning video Dimitri sends "because it made me think of you";
+congratulations on an unspecified accomplishment; Dimitri signing off "I
+wish you all the best" ahead of a seven-year-anniversary vacation in
+August 2024).
+
+The most consequential exchange is Dan's own account of losing his job:
+on August 21, 2024 he tells Dimitri directly that Au Za'atar "officially
+let me go," that his former manager Tarik "was really really nice about
+it and everything though. We parted on good terms," and that he was
+already collecting unemployment and not in immediate financial trouble
+from it — a first-person, contemporaneous account of the job loss that
+complements the dating already established on
 [[wiki/work/au-zaatar]].
 
-**Gaps:** surname — per Dan (2026-07-14), a Greek name starting with "A,"
-not more precisely recalled; what became of him after the shed shutdown;
-the one-sided message extract (0 sent?) needs a corpus re-check.
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | 116 (iMessage, both directions) |
+| Date range | 2023-09-04 – 2024-12-02 |
+| Handle | +19172925212 |
+| Defining content | The Aug 21, 2024 first-person job-loss disclosure |
+
+**Gaps:** surname — per Dan (2026-07-14), a Greek name starting with
+"A," not more precisely recalled; what became of him after the shed
+shutdown; no contact after December 2024 in this export.
 
 
 ========================================================================
@@ -16885,7 +17328,7 @@ related: []
 
 # people — index
 
-- [[wiki/people/aaron]] — Contact +17245624801. Self intro: "Hey, this is Aaron!". 38 messages. Casual direct introduction.
+- [[wiki/people/aaron]] — iMessage contact whose thread carries Dan's real-time reaction to the Sept 11, 2025 Charlie Kirk assassination.
 - [[wiki/people/al]] — 2018 cocaine dealer ("Socialist" contact label); thread ends in an unpaid-debt confrontation.
 - [[wiki/people/alex-frank]] — Dan's semi-famous cousin; Brooklyn-based music/culture journalist (FADER, Vogue, GQ, Pitchfork); wrote the essay about Morley Frank's funeral.
 - [[wiki/people/alexander-jackson]] — From context-core: 337 sale drives move; "no post-close plan". Mixed roles at 463 amplify vertical…
@@ -16895,7 +17338,7 @@ related: []
 - [[wiki/people/annie-ulmer]] — Anne ("Annie") Ulmer. Primary relationship from Thanksgiving 2015 to June 1, 2026 — ten years and seven…
 - [[wiki/people/annoying]] — Unidentified 2019 cocaine dealer, saved under Dan's own "annoying" label.
 - [[wiki/people/arnu]] — Property work occurs amid context-core housing transition and work-power-dynamics (caretaker ambiguities +…
-- [[wiki/people/bekah-fullem]] — Two crisis contacts, early 2020: her dying cat and a plea for money, then a rape disclosure.
+- [[wiki/people/bekah-fullem]] — A brief flirtation, then two crisis contacts in early 2020: her dying cat and a rape disclosure Dan responded to warmly.
 - [[wiki/people/bill]] — Golf-caddying peer buying pharmaceuticals from Dan, Sept 2018.
 - [[wiki/people/bill-ulmer]] — Annie's father; warm, consistent, treated Dan as family through 2017-2020.
 - [[wiki/people/bobby-cole]] — Nine-year Opie & Anthony/Ron & Fez fandom friendship; the corpus's only direct evidence of a completed open-mic stand-up performance and a SiriusXM job application.
@@ -16908,12 +17351,12 @@ related: []
 - [[wiki/people/bub]] — Long-running casual friend: DJ logistics, Mac troubleshooting, gaming, 2017-2020.
 - [[wiki/people/casey-bondarenka]] — Friend who overstepped during 2015 relationship turbulence with Alexis; sporadic contact through 2018.
 - [[wiki/people/chad-johnson]] — Fellow Nemacolin caddy and college student, 2017-2018.
-- [[wiki/people/charles-davenport]]
+- [[wiki/people/charles-davenport]] — Thin early-2010 Facebook contact; a four-message thread pinned to Dan's Brooklyn move.
 - [[wiki/people/christian-hanson]] — Retired NHL forward; golf regular at Nemacolin, 2017-2018.
 - [[wiki/people/christo-coan]] — Nemacolin-era golf-course coworker; co-organized Dan's Oct 2017 birthday party; passing reference to an undocumented DUI.
 - [[wiki/people/claire-ulmer]] — Annie's sister; found Milo as a stray and set his rescue in motion.
 - [[wiki/people/clyde]] — NYC psychedelics dealer (LSD, DMT, mushrooms) delivering to Dan's apartment, 2019-2020.
-- [[wiki/people/dakota]] — Dakota channel is hearsay but treated as credible originating disclosure in bootloader (explicitly…
+- [[wiki/people/dakota]] — Little Caesars employee; first to disclose Anita's blame-pivot naming Dan for Timmy's firing (see [[wiki/work/bfs-foods|bfs-foods]]).
 - [[wiki/people/danielle-onesi]] — Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort).…
 - [[wiki/people/dan-polyak]] — Longtime friend; documented the April 2019 phone-number impersonation used to reach Ally Lubin, and received the same-morning account of the Bryan encounter.
 - [[wiki/people/danny-matthews]] — Realtor who sold Fran's house; also half of a swinger couple (with Nicole) Dan and Annie played with 2018–2024.
@@ -16921,7 +17364,7 @@ related: []
 - [[wiki/people/david-beard]] — Golf-course-adjacent contact who sold Dan a used drone in Sept 2018, the middle purchase in a three-drone summer.
 - [[wiki/people/david-j-frank]] — Paternal great-grandfather of Dan Frank. Born 12 August 1892 in Russia (Jewish immigrant). Died 6 April…
 - [[wiki/people/del]] — NYC Stiiizy-brand cannabis delivery service, spring-summer 2019; chronically late.
-- [[wiki/people/dimitri]] — the only boss Dan ever loved: Au Za'atar's Greek manager-oracle, twice.
+- [[wiki/people/dimitri]] — The only boss Dan ever loved: Au Za'atar's Greek manager-oracle, twice; also a lasting friendship outside work.
 - [[wiki/people/drew]] — Collaborator on Nemacolin caddy yardage-book green mapping, June-July 2017.
 - [[wiki/people/drew-mcgettigan]] — Summer 2015 Uniontown supply contact (buyer/go-between); connected to the Zach Harshman circle.
 - [[wiki/people/elizabeth-eleanor]] — Fellow recovering addict; a single July 2013 conversation yielding the only Suboxone dosage figure and earliest INTP self-ID in the corpus.
@@ -16957,7 +17400,7 @@ related: []
 - [[wiki/people/john-felix]] — 2016 household-adjacent contact; possibly a partner of Suz's (unconfirmed).
 - [[wiki/people/johnny-dealer]] — Johnny functions as reliable but transactional dealer node during 2018 crisis (peak 40k+ messages year,…
 - [[wiki/people/joe-oshnack]] — High school bandmate; fullest first-person account of Dan's pre-2020 conservative identity and its reversal.
-- [[wiki/people/josh-brannan]]
+- [[wiki/people/josh-brannan]] — Uniontown-era friend; a warm 2017 reconnection thread and the subject of a running joke with Jerad.
 - [[wiki/people/josh-coccagna]] — Golf pro mentor turned DMT-cart supplier, 2017-2019.
 - [[wiki/people/katie-fletcher]] — the 2013 interim girlfriend: the Oddball/Chappelle night, the "Vase" incident.
 - [[wiki/people/kelly-johansson]] — NYC escort Dan and Annie booked together fall 2019; pitched them as co-providers for one of her own clients.
@@ -16971,19 +17414,19 @@ related: []
 - [[wiki/people/lucas-thomas]] — Zac Shumar's friend; independent real-time eyewitness to the February 2017 house fire and arrest that sent Alexis Armel to prison.
 - [[wiki/people/lucie-dobbin]] — Longtime friend of Fran Coldren; recipient of Dan's fullest first-person account of Fran's death.
 - [[wiki/people/lukyan-mraz]] — Uniontown friend and short-lived 2015 cannabis-grow collaborator; ends in a March 2016 equipment dispute.
-- [[wiki/people/maddox]] — Maddox volunteered unprompted information without solicitation during public sidewalk exchange. Assessment…
+- [[wiki/people/maddox]] — Little Caesars employee whose unprompted sidewalk testimony confirms Anita's Timmy blame-pivot (see [[wiki/work/bfs-foods|bfs-foods]]).
 - [[wiki/people/manuel]] — Au Za'atar coworker turned lasting friend, 2023-2026; Spanish-language banter.
-- [[wiki/people/marc-charles]]
+- [[wiki/people/marc-charles]] — Golf friend and past music-recording collaborator; a mutual sobriety-milestone acknowledgment in 2017.
 - [[wiki/people/marla]] — Paid caregiver on Fran's shift rotation; her messages corroborate the April 4, 2018 death date.
-- [[wiki/people/marty-martin]] — Per canonical BFS_BOOTLOADER_v2: "NOT a recruit for active operation — intelligence asset only. Protect…
+- [[wiki/people/marty-martin]] — BFS Foods coworker; primary trusted source on the store's off-books drawer-shortage culture.
 - [[wiki/people/mary-kate]] — Exemplifies vertical-authority-skepticism and forensic-self-construction via "obfuscation trench" analysis…
 - [[wiki/people/matt-dunn]] — Full Sail friend, affectionately abused as "the world's most annoying man woman or child"; the annual $5 birthday Venmo bit.
 - [[wiki/people/matthew-palermo]] — Uniontown classmate whose brother fatally overdosed after a relapse; recipient of Dan's starkest opiate-epidemic self-assessment.
 - [[wiki/people/max]] — Implements ai-collaborative-analysis and vertical-authority via "adversarial" pressure for robustness.…
-- [[wiki/people/max-danielle-bf]] — 1. "Versace" Rant (Low Culture vs Consciousness):
+- [[wiki/people/max-danielle-bf]] — Danielle's current boyfriend; subject of an unprompted AI personality analysis Dan ran on a recording of him.
 - [[wiki/people/md]] — Au Za'atar-affiliated contact; 2024 Bangladesh political-unrest discussion.
 - [[wiki/people/menore]] — "Additional family/friend" per master dump analysis and cross-refs. Handle +13476070497 (dedicated CSV messages_3476070497_all_time.csv).…
-- [[wiki/people/michael-hinkle]]
+- [[wiki/people/michael-hinkle]] — One-sided, unanswered 2017 Facebook message.
 - [[wiki/people/mike-cordaro]] — Childhood friend reconnecting summer 2024; new "uncle Dave" family lead.
 - [[wiki/people/mike-zollinger]] — Fellow Nemacolin caddy, 2018; early crypto banter predating the 2020-21 market era.
 - [[wiki/people/milo]] — Dan's Chihuahua, with him since at least 2018; the one presence explicitly carved out as exempt from forensic analysis. Stayed with Dan when the household split from Annie in 2025.
@@ -16995,14 +17438,14 @@ related: []
 - [[wiki/people/rick-frank]] — Father of Dan Frank. Born 22 May 1959 in Uniontown, Fayette County, Pennsylvania. Part of paternal Jewish…
 - [[wiki/people/rj-ritchey]] — Uniontown golf-circle friend and 2019 Manhattan visitor; the iMessage contact `+17249844280` was merged into this canonical page.
 - [[wiki/people/rob-orange]] — High-school-era Uniontown friend; died April 2014, cause never confirmed; the one loss both Dan and Jim Shaffer mourn without irony.
-- [[wiki/people/ryan-lisac]] — Childhood/early peer. Core figure in the "Snob Squad" developmental arc.
+- [[wiki/people/ryan-lisac]] — Childhood peer at the center of the "Snob Squad" era, whose vocabulary Dan later revived for a 2026 DJ-identity project.
 - [[wiki/people/ryan-scherich]] — Barely-known acquaintance; single-day Feb 2020 political flame war ending in a remark Dan calls racist.
 - [[wiki/people/sadie-harris]] — Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood,…
 - [[wiki/people/sam]] — NYC cannabis delivery dealer (2019–20) for the E 76th St years; fired Dan as a customer in Feb 2020, un-fired him when COVID hit.
-- [[wiki/people/sean-teets]]
+- [[wiki/people/sean-teets]] — Peripheral contact; two apparent supply-seeking outreach messages a year apart, 2017-2018.
 - [[wiki/people/seth-ledonne]] — Uniontown counterculture-education friend; real-time June 2020 NYC protest-curfew account.
-- [[wiki/people/shannon]] — Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct…
-- [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan saw alongside Annie spring–summer 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup July 2019.
+- [[wiki/people/shannon]] — Real estate client who hired Dan for drone photography and video, Nov 2018 – Jan 2019.
+- [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan financially supported alongside Annie, May–Aug 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup and a legal-threat follow-up.
 - [[wiki/people/stephanie-nalbone]] — Previously undocumented Sept-Nov 2009 relationship, right at the close of Full Sail; sequencing against Danielle and Alexis unresolved.
 - [[wiki/people/steve-kezmarsky]] — High-school-era Uniontown golf friend, self-described "dark and tormented soul"; alive and sober as of Dec 2018 while his father faced a life sentence (death claim withdrawn 2026-07-19).
 - [[wiki/people/suzanne-frank]] — Mother of Dan Frank. Born 15 September 1962, Pittsburgh, Allegheny County, Pennsylvania (maiden: Whyel /…
@@ -18771,37 +19214,75 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joshbrannan_vej5dzscpa/message_1.html", "raw/self/dox-md/operating_manual.md"]
-related: ["wiki/self/facebook", "wiki/people/jerad-friedline", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/political-psyops", "wiki/mind/synthesis/vertical-authority-skepticism"]
-tags: [politics]
+date_modified: 2026-07-20
+sources:
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joshbrannan_vej5dzscpa/message_1.html
+  - raw/self/dox-md/operating_manual.md
+tags: [politics, uniontown-era]
 infobox:
   name: "Josh Brannan"
   relationship_to_dan: unknown
-  known_for: "Role: Political mirror / contact. Shared 'josh brannan is innocent.wav' AI-TTS file as last documented exchange (sacred "
+  known_for: "Uniontown-era friend; a warm 2017 reconnection thread and the subject of a running private joke Dan carries into later friendships"
+connections:
+  - page: wiki/people/jerad-friedline
+    type: parallels
+    claim: "Josh Brannan is a shared Uniontown reference point in the Jerad thread — the 'josh brannan is innocent.wav' TTS artifact Jerad and Dan traded in 2025 draws on an eighth-grade memory involving Josh, told in full on [[wiki/people/jerad-friedline]]."
 ---
 
 # Josh Brannan
 
-**Role:** Political mirror / contact. Shared "josh brannan is innocent.wav" AI-TTS file as last documented exchange (sacred joke / political reference). Part of network with similar "reluctant Trump fascination from Bernie roots" as Jerad.
+Josh Brannan is a Uniontown-era friend Dan reconnects with directly
+once in the preserved corpus — a single warm, joking Facebook exchange
+on February 27, 2017 — and who otherwise persists as a recurring
+reference point in Dan's friendship with
+[[wiki/people/jerad-friedline|Jerad Friedline]], where a private joke
+about Josh eventually gets crystallized into an AI-generated audio file
+years later.
 
-## Key Details from FB Thread & Docs
-- FB thread (joshbrannan folder) with content.
-- TTS file "josh brannan is innocent" tied to political/personal context in operating manual (last exchange with Jerad thread echoes).
-- Referenced alongside political discussions, GME/FSLY era, "sicko" persona.
+## The 2017 reconnection
 
-## Context
-- Ties directly to FB political likes (AOC, archived Trump WH, critiques), Twitter "sicko" output, periods of political intensity (2019+ crystallization, J6 study).
-- Low-volume meaningful contact fitting contact-gini (peripheral but resonant vs. core high-volume).
-- Example of digital artifacts (TTS) in message corpus.
+The thread opens with Dan initiating after apparent distance — "I miss
+the fuck out of u. Call me when u get the chance sometime" — followed
+immediately by his phone number, and quickly turns into rapid-fire
+old-friend banter: jokes about mutual friends Shane and Zach, a beat of
+real sadness when Josh mentions his grandmother's stroke ("Fuuuuuuuuck
+dude that's awful I LOVED your grandma"), and nostalgia for ski trips
+neither has taken in years ("it's way past due that we have a reunion.
+Rick sold the condo so that's a bummer" — a reference to Dan's father,
+[[wiki/people/rick-frank|Rick]]). The exchange turns candid when Dan
+volunteers, unprompted, the nature of his then-current work: "My job is
+fucking my girlfriend on webcam... Slash golf caddy," followed by "DUDE
+IM A MODEL WE ARE MODEL BROS... Omg like $200 for an hour show" — an
+open, joking acknowledgment of the camming work documented elsewhere in
+the corpus, delivered to an old friend with no defensiveness. Josh's
+reaction is unbothered amusement ("Dan frank's sex dungeon... Damn
+making bank").
 
-## Related
-[[wiki/self/facebook]]
-[[wiki/people/jerad-friedline]]
-[[wiki/self/message-corpora/master-message-dump]]
-[[wiki/mind/synthesis/political-psyops]]
-[[wiki/mind/synthesis/vertical-authority-skepticism]]
-[[wiki/self/twitter]]
+## The running joke
+
+Separately, per `operating_manual.md`, Josh functions as a piece of
+shared Uniontown mythology in Dan's ongoing friendship with Jerad — "a
+Latrobe football legend" remembered for driving an Acura Integra
+recklessly. In May 2025, Dan used a new AI text-to-speech tool to
+synthesize a childhood memory involving Josh into an audio file titled
+"josh brannan is innocent.wav," which operating_manual.md records as
+one of the last messages in the entire Jerad thread at that point — the
+specific eighth-grade memory behind the joke, and its place in the
+broader pattern of Dan using Uniontown callbacks as a bonding ritual, is
+documented on [[wiki/people/jerad-friedline]].
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | 41 (Facebook, single thread) |
+| Date | 2017-02-27 |
+| Defining content | The camming-job admission; the grandmother/ski-trip nostalgia |
+
+**Gaps:** no contact documented before or after this single 2017
+thread; how Dan and Josh originally met beyond the general Uniontown
+friend network.
+
 
 ========================================================================
 PAGE: wiki/people/josh-coccagna.md
@@ -19889,55 +20370,53 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md", "wiki/people/anita.md", "wiki/people/timmy.md"]
-related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/brandon-hill", "wiki/self/facebook", "wiki/people/dakota"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/dox-md/BFS_BOOTLOADER_v2.md
+  - raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md
+  - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
 tags: [career]
 infobox:
   name: "Maddox"
   relationship_to_dan: unknown
-  known_for: "Role: Little Caesars (LC) employee at the BFS Foods building (same location as gas station side). Key unsolicited third-"
+  known_for: "Little Caesars employee who volunteered a first-person account of Anita's Timmy blame-pivot during the May 21, 2026 sidewalk recording"
+connections:
+  - page: wiki/work/bfs-foods
+    type: evidenced-by
+    claim: "Maddox's unprompted sidewalk testimony is the corpus's fullest direct-witness account of the Timmy blame-pivot, and directly challenges the $50 demand's procedural legitimacy."
+  - page: wiki/people/dakota
+    type: parallels
+    claim: "Maddox's account independently corroborates the same blame-pivot sequence Dakota had disclosed to Dan earlier by word of mouth."
 ---
 
 # Maddox
 
-**Role:** Little Caesars (LC) employee at the BFS Foods building (same location as gas station side). Key unsolicited third-party witness to the May 21, 2026 sidewalk conversation between Dan and Brandon Hill. Provided detailed reconstruction of Anita's blame pivot on the Timmy situation (Kim → Dan) and unprompted assessment that the $50 demand was procedurally illegitimate ("you can't do that to him if you don't even know what went wrong"). Corroborates Dakota's initial disclosure. LC-side contrast to BFS gas station dynamics.
+Maddox is a Little Caesars employee at the BFS Foods building. On May
+21, 2026, he joined a sidewalk conversation between Dan and
+[[wiki/people/brandon-hill|Brandon Hill]] — unsolicited and apparently
+just passing by — and ended up delivering the corpus's fullest
+first-person account of how [[wiki/people/anita|Anita]] constructed and
+pivoted blame during the Timmy episode (told in full on
+[[wiki/work/bfs-foods]]). Maddox opens with an unprompted character
+read — "She's always making shit so crazy and dramatic over there I
+don't get it" — then reconstructs the sequence in real time: "It wasn't
+even that. Anita said it was Kim. He confronted Kim and Kim said it...
+AND KIM SAID TO TIMMY 'it wasn't me' and so he asked Anita and Anita
+told him 'it was Daniel.'" Maddox then turns the same directness on the
+$50 drawer-shortage demand itself, rejecting its legitimacy on
+procedural grounds without needing to know Dan personally: "Yeah that's
+not what it is you can't do that to him if you don't even know what
+went wrong." Brandon, present for all of it, doesn't contest the
+account.
 
-## Key Threads / Quotes Table (Sidewalk Recording, 2026-05-21)
+The conversation was recorded on a public sidewalk during business
+hours with a third party present — legally clean under Pennsylvania's
+wiretap statute, which requires an expectation of privacy the setting
+didn't carry. No documented message thread exists between Dan and
+Maddox outside this one encounter.
 
-| Date/Time Context | Source | Quote / Context | Evidence |
-|-------------------|--------|-----------------|----------|
-| 2026-05-21 sidewalk (public, third parties present) | BFS_BOOTLOADER_v2 §VII (full transcript from bdon.mp3 recording) | [Maddox joins] **Maddox [LC]**: She's always making shit so crazy and dramatic over there I don't get it. | Unsolicited entry into convo; Brandon: "Well he already knows everything so it doesn't matter." |
-| 2026-05-21 | BFS_BOOTLOADER_v2 §VII | **Maddox**: It wasn't even that. Anita said it was Kim. He confronted Kim and Kim said it... | Start of full blame pivot reconstruction |
-| 2026-05-21 | BFS_BOOTLOADER_v2 §VII | **Maddox**: AND KIM SAID TO TIMMY "it wasn't me" and so he asked Anita and Anita told him "it was Daniel." | Verbatim reconstruction of sequence; Brandon present and reacting |
-| 2026-05-21 | BFS_BOOTLOADER_v2 §VII | **Maddox**: Yeah that's not what it is you can't do that to him if you don't even know what went wrong. | Direct support for Dan's procedural objection to $50 demand without specifics |
-| Pre-May 2026 (Timmy events) | BFS_BOOTLOADER_v2 §III | Disclosed/corroborated (with Dakota): Anita told Timmy "Kim" → Timmy confronts Kim ("It wasn't me") → Anita pivots to "It was Daniel." Dan had zero involvement. | "The blame pivot (corroborated by both Dakota and Maddox)" |
-| 2026-05-21 | BFS_BOOTLOADER_v2 §VII, Key disclosures | Highest-energy segments include Timmy reconstruction / emphatic exchanges + Maddox's closing line | Recording analysis: 375–385s, 410–415s; third-party witness on legally clean public recording (PA wiretap: sidewalk no expectation of privacy) |
-
-## Timeline
-
-- Pre-May 2026: Timmy (LC employee) gambling on shift → Anita reports to Kim → Kim requests corporate surveillance → footage also captures Anita selling vape to underage Timmy → Timmy fired; Anita nearly fired. Anita calls staff meeting announcing strict carding (reverted per Timmy's later claim). Group text reversal May12 "Team Timmy no longer allowed... call cops" → May14 "Timmy is not banned as of yet."
-- Blame construction: Anita initially tells Timmy it was Kim. Timmy confronts Kim. Kim denies ("It wasn't me"). Anita pivots: "It was Daniel." (Dakota initial disclosure; Maddox provides fuller account.)
-- 2026-05-18 Sun: Drawer incident shift at gas station (Dan).
-- 2026-05-19: $50 demand texts/in-person (Brandon converts to personal).
-- **2026-05-21**: Sidewalk convo recorded. Maddox (LC) joins unsolicited, volunteers Anita drama assessment + full Timmy blame pivot details + procedural objection to demand. Brandon acknowledges "Yes. I was trying to save your ass." + labor law violation awareness while continuing demand. 4560 form mentioned (unsigned).
-- Post: LC application submitted by Dan. Maddox treated as light-touch witness only.
-
-## Behavioral Notes
-
-Maddox volunteered unprompted information without solicitation during public sidewalk exchange. Assessment directly challenges Anita's chaos ("She's always making shit so crazy and dramatic over there") and demand legitimacy. Per BFS_BOOTLOADER_v2 tactical posture: "Maddox: light touch. Don't recruit, don't text about this. If he raises it, listen and agree neutrally." "Not a deployable recurring asset — treat like Marty (intelligence posture, don't recruit, don't text about this)." Recording context: public sidewalk, business hours, unsolicited third-party join = legally clean (no reasonable privacy expectation per 18 Pa.C.S. § 5703–5704 analysis). Ties to [[wiki/mind/synthesis/vertical-authority-skepticism]]: LC-side awareness of BFS/Anita patterns; procedural skepticism of vertical extraction without specifics. Corroborates Dakota hearsay with direct account. LC management contrast (Kim) vs Anita.
-
-## Connections
-
-- **Recording participants**: Dan, [[wiki/people/brandon-hill]] (AM, instrument), Maddox (LC witness).
-- **Blame pivot / Timmy template**: [[wiki/people/anita]] (architect of pivot), [[wiki/people/kim]] (denied to Timmy), [[wiki/people/timmy]] (fired, customer), [[wiki/people/dakota]] (initial disclosure, Timmy friend group).
-- **Group / store**: [[wiki/people/marty-martin]] (BFS coworker/intel in parallel group text).
-- **BFS/LC structure**: Same building, separate rosters. LC as preferred exit vector per fit analysis (lower cash risk, better mgmt per bootloader table).
-- **Dispute**: [[wiki/work/bfs-foods]].
-
-**Cross-references:** [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/people/marty-martin]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/facebook]], [[wiki/work/bfs-foods]], [[wiki/people/dakota]], [[wiki/self/context-core]]
-
-**Notes:** No direct iMessage or FB thread with Dan documented in message-csv (LC employee; interaction via in-person sidewalk recording only). Primary evidence is the recording transcript + bootloader reconstruction (not enhanced audio for deployment). "Don't name Maddox" in external escalation per Quagmire strategy to protect asset. Dakota provides corroboration on disclosure side. LC fit: lower provocation surface, sustained crew vs gas station. Defer verbatim quotes and full context to raw/self/dox-md/BFS_BOOTLOADER_v2.md. Sources include derived wiki pages that cross-reference the recording.
+**Gaps:** how Dan and Maddox know each other beyond the shared
+building; no contact before or after the May 21 recording.
 
 
 ========================================================================
@@ -19997,68 +20476,63 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["/Users/daniel/Documents/dan-wiki/raw/self/facebook/facebook-ihatedanfrank/messages/inbox/marccharles_f3gfexyecg/message_1.html", "/Users/daniel/Documents/dan-wiki/ingest/facebook-ihatedanfrank/messages/inbox/marccharles_f3gfexyecg/message_1.html"]
-related: ["wiki/self/facebook", "wiki/timeline/periods/2010s", "wiki/self/message-corpora/master-message-dump", "wiki/people/rj-ritchey", "wiki/mind/concepts/contact-gini"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/marccharles_f3gfexyecg/message_1.html
 tags: [addiction-recovery, music-production]
 infobox:
   name: "Marc Charles"
   relationship_to_dan: unknown
-  known_for: "Role: Golf friend from amateur circles (PA/local club). Discussed club tech (Franko customs, Taylormade), scores (90s to"
+  known_for: "Golf friend and past music-recording collaborator; a 2018 thread on golf and a 2017 sobriety-milestone check-in"
+connections:
+  - page: wiki/people/rj-ritchey
+    type: co-occurs
+    claim: "Marc Charles is part of the same PA golf/caddie leisure network as RJ Ritchey, contrasting with Dan's higher-volume core attachment threads."
+  - page: wiki/mind/concepts/contact-gini
+    type: instance-of
+    claim: "An 85-message, multi-year, low-intensity thread typical of the wide, shallow periphery documented on the contact-gini page."
 ---
 
 # Marc Charles
 
-**Role:** Golf friend from amateur circles (PA/local club). Discussed club tech (Franko customs, Taylormade), scores (90s to 85s), practice vs. fun mindset, competitive amateurs, local course sale rumors (Springdale), drone flights over the country club. Also past music recording collaborator and 2017 sobriety milestone check-in.
+Marc Charles is a longtime, low-intensity Facebook contact who spans two
+distinct registers: casual golf talk in 2018 and a warmer, more personal
+2017 exchange touching on shared recovery and old music collaboration.
 
-## Key Exchanges (from FB thread; 85 total messages, newest-first in export; primary cluster Sep 23 2018)
+## Golf, September 2018
 
-| Timestamp          | Sender      | Message |
-|--------------------|-------------|---------|
-| Sep 23, 2018 5:51:46pm | Dan Frank | tiger was on some franko customs before he made the jump to taylormade |
-| Sep 23, 2018 5:51:39pm | Marc Charles | 😂😂😂 |
-| Sep 23, 2018 5:51:26pm | Dan Frank | oh nice dude surpirsed you didn't auction them off at Sotheby's or something |
-| Sep 23, 2018 5:51:13pm | Dan Frank | nothing worse than an aggressively competitive amateur golfer |
-| Sep 23, 2018 5:50:57pm | Marc Charles | Yea I got some shit from the 2000s |
-| Sep 23, 2018 5:50:45pm | Dan Frank | yeah i mean as long as you're having fun then there's really no need to sweat the numbers |
-| Sep 23, 2018 5:50:30pm | Dan Frank | i'm not even joking! the tech in new clubs is so ridiculously forgiving |
-| Sep 23, 2018 5:50:11pm | Marc Charles | If I played every weekend. And Jt the range once a week I could improve. But fuck all that work. |
-| Sep 23, 2018 5:49:43pm | Dan Frank | it's fucking HARD to level up at our skill level |
-| Sep 23, 2018 5:49:23pm | Dan Frank | the only reason i turned my 90's into 85's is that i was able to buy new clubs. |
-| Sep 23, 2018 5:48:07pm | Marc Charles | I shot 90. |
-| Sep 23, 2018 5:47:54pm | Dan Frank | hows your game? |
-| Sep 23, 2018 5:42:28pm | Marc Charles | Yea but hed fix it up and charge 60 to play. And probably go private again. |
-| Sep 23, 2018 5:42:09pm | Dan Frank | low ball joe |
-| Sep 23, 2018 5:41:48pm | Marc Charles | Skip Gudac should sell Springdale and buy it |
-| Sep 23, 2018 5:41:48pm | Dan Frank | word on the street is that they got a 2.2M offer from the Hardy's |
-| Sep 23, 2018 5:40:38pm | Dan Frank | i mean...honestly i think if it goes until spring without catching a sale then there's a lot of free (un-mowed) golf in our future lol |
-| Sep 23, 2018 5:39:38pm | Dan Frank | but it's fucking dope having the golf course in my back yard |
-| Sep 23, 2018 5:38:51pm | Dan Frank | Click for video: |
-| Sep 23, 2018 5:36:45pm | Marc Charles | Shit was zooming. I looked at my boy like I bet I know that kid |
-| Sep 23, 2018 5:36:05pm | Marc Charles | I’m on 18 green. Khaki shorts and my hat on backwards. |
-| Sep 23, 2018 5:35:38pm | Dan Frank | did you see the drone? |
-| Sep 23, 2018 11:58:31am | Marc Charles | You flying your drone over the cc? |
-| Dec 26, 2017 8:47:47pm | Dan Frank | Is mike z alright? |
-| Aug 09, 2017 9:06:01am | Dan Frank | Yo I just found out you're sponsoring my boy zollinger |
-| May 29, 2017 4:01:41pm | Dan Frank | I'm 7 years clean from opiates |
-| May 29, 2017 4:01:14pm | Marc Charles | Thanks bud. 4 years in august |
-| May 29, 2017 3:59:30pm | Marc Charles | I remember being so faded in your basement |
-| May 29, 2017 3:58:19pm | Dan Frank | I just found the CD of the songs we did |
-| May 29, 2017 3:57:56pm | Dan Frank | dude |
+The bulk of the 85-message thread is a single September 23, 2018
+conversation about golf — equipment upgrades ("nothing worse than an
+aggressively competitive amateur golfer... yeah i mean as long as
+you're having fun then there's really no need to sweat the numbers"),
+scores creeping down from the 90s to the 80s with new clubs, and local
+gossip about a nearby course, Springdale, possibly selling for $2.2
+million. The exchange also captures a small real-time moment: Marc
+flying a drone over the country club while golfing, with Dan spotting
+the footage and the two identifying each other in it.
 
-## Context and Crosses
-- 2018 primary thread: golf equipment, scores, mindset ("fuck all that work"), local real estate/golf course (Springdale), drone footage over club while Marc on 18 green.
-- 2017 threads: check-ins on mutual acquaintance (mike z), old music production ("CD of the songs we did"), shared history of heavy use ("ducking blasted", "faded in your basement"), sobriety acknowledgments.
-- Ties to [[wiki/people/rj-ritchey]] golf/caddie network and PA returns.
-- Periods: 2017-2018 (post-BFS, leisure/return-to-PA per [[wiki/timeline/periods/2018-deep-cycle]] and broader 2010s).
-- Part of contact graph showing leisure vs core attachment channels.
+## Recovery and old music, 2017
 
-## Related
-[[wiki/self/facebook]]
-[[wiki/timeline/periods/2010s]]
-[[wiki/self/message-corpora/master-message-dump]]
-[[wiki/people/rj-ritchey]]
-[[wiki/mind/concepts/contact-gini]]
+Two 2017 exchanges carry more weight. In May, the two acknowledge
+sobriety milestones directly — "I'm 7 years clean from opiates,"
+Dan writes; "Thanks bud. 4 years in august," Marc replies — immediately
+followed by a shared memory of using together ("I remember being so
+faded in your basement") and Dan mentioning he'd just found a CD of
+music the two had recorded together. In August, Dan follows up on a
+mutual friend, "Mike Z" (Mike Zollinger), after learning Marc is
+sponsoring him.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | 85 (Facebook) |
+| Date range | 2017-05 – 2018-09 |
+| Defining content | The mutual 7-year/4-year sobriety acknowledgment |
+
+**Gaps:** how Dan and Marc originally met; what the recorded music
+collaboration was; no contact after September 2018.
+
 
 ========================================================================
 PAGE: wiki/people/marla.md
@@ -20137,62 +20611,83 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/message-csv/imessage_2124702449_both_2026-05-01_now.csv", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md"]
-related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/brandon-hill", "wiki/self/facebook", "wiki/people/maddox", "wiki/people/dakota"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/dox-md/BFS_BOOTLOADER_v2.md
+  - raw/self/message-csv/imessage_7243228715_both_all_now.csv
+  - raw/self/message-csv/imessage_2124702449_both_2026-05-01_now.csv
+  - raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv
+  - raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md
+  - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
 tags: [digital-footprint, addiction-recovery]
 infobox:
   name: "Marty Martin"
   relationship_to_dan: unknown
-  known_for: "Role: BFS Foods gas station coworker (~6 months tenure as of May 2026). Dan's primary trusted source and designated inte"
+  known_for: "BFS Foods coworker and Dan's most trusted source on the store's off-books culture during the 2026 drawer-shortage dispute"
+connections:
+  - page: wiki/work/bfs-foods
+    type: evidenced-by
+    claim: "Marty's framing of the store's off-books culture ('make the store whole to keep your job') is the primary evidence for reading the $50 drawer-shortage demand as structural rather than an isolated shakedown."
+  - page: wiki/people/suzanne-frank
+    type: co-occurs
+    claim: "Nearly all documented post-incident contact with Marty runs through Suz as relay, not directly with Dan — including a later job-lead message."
 ---
 
 # Marty Martin
 
-**Role:** BFS Foods gas station coworker (~6 months tenure as of May 2026). Dan's primary trusted source and designated intelligence asset only. Provided key framing of the off-books cash-shortage culture ("make the store whole to keep your job"). Participant in the "brandon, +3" group text (Anita, Brandon, (724) 208-9869 unidentified employee, Marty Martin, Dan). Post-incident contact/relays documented via Dan's mother Suz thread; referenced in Brandon's $50 demand context.
+Marty Martin is a BFS Foods gas-station coworker, roughly six months
+into the job by May 2026, whom the bootloader synthesis names Dan's
+primary trusted source inside the store — an intelligence asset, not a
+recruit for anything active. His most consequential contribution is a
+single piece of framing that reframes the entire drawer-shortage dispute
+documented on [[wiki/work/bfs-foods]]: "make the store whole to keep
+your job," his own description of the store's off-books culture around
+cash shortages, offered as established practice rather than a one-off.
+That framing is treated as evidence the culture predates Dan and is
+structural, not a targeted setup — though it also collapses the moment
+Dan's hours get cut to nothing, at which point the logic of quietly
+eating a loss to protect a job stops applying.
 
-## Key Threads / Quotes Table
+## Around the dispute
 
-| Date | Source/Thread | Quote / Context | Evidence |
-|------|---------------|-----------------|----------|
-| Pre-May 2026 (~6mo tenure) | BFS_BOOTLOADER_v2 §II (Marty description) | "make the store whole to keep your job" framing describing how the off-books culture operates. | Dan's primary trusted source; "Has been there long enough to know patterns Dan doesn't." |
-| 2026-05-16 (Fri, pre-incident) | Group text "brandon, +3" (Marty participant) | "Schedule update to get the new guy trained. Please take note of the changes"; "Team please watch your clock in and clock out time. Time is tight and going over allotted hours and corporate is not liking the over time and hours" | Bootloader §IX; schedule images referenced; hours pressure pre-dates Sunday drawer shift |
-| 2026-05-18 | imessage_2124702449_both_2026-05-01_now.csv (to [[wiki/people/annie-ulmer|Annie]]) | Brandon (asshole): “and I heard you owe Marty money” (in context of $50 demand) | "the asshole who said I owe him $50 was like “and I heard you owe Marty money” like today was not the first time i had seen him since I got paid" |
-| 2026-05-23 16:16:37 | imessage_7243228715_both_all_now.csv (Suz received) | "What did Marty call this stuff he sent home that you called chili? Was it Goulash?" | Mom relay referencing Marty (food sent home) |
-| 2026-05-24 02:30:49 | imessage_7243228715_both_all_now.csv (Dan sent) | "Friday I wasn't even scheduled. I came in to cover Fran's shift, and when Marty called and asked me to stay until 11 because his wife was sick, I said yes to help out even though I wasn't feeling great. ... So I didn't walk out and I didn't quit." | Detailed account of Marty-initiated shift cover (draft/copy clarifying to Anita via mom thread?) |
-| 2026-06-07 16:46:49 | imessage_7243228715_both_all_now.csv (Suz received) | "Passing on a message from Marty. He said to call him about a job that pays $13+/hr. Also, I guess Anita hired a friend of hers and she didn’t show up today." | Post-incident relay; "Karma" follow-up on new hire |
-| May 2026 (post-May 16) | BFS_BOOTLOADER_v2 §IX, §XVIII | 5-day group silence after last message Fri May 16 2:15 PM (Brandon "Okay"); "The Marty check on the group text is the diagnostic move for whether Dan has been removed" | "Have you gotten any group texts this week? My phone's been acting up" proposed phrasing |
-| May 21 recording (context) | BFS_BOOTLOADER_v2 | Marty not present on sidewalk; group participants listed including Marty | Recording transcript; third-party Maddox present instead |
+Marty appears as a participant in a group text alongside
+[[wiki/people/anita|Anita]], [[wiki/people/brandon-hill|Brandon Hill]],
+and an unidentified fifth number in the days before the incident,
+including a May 16 message pushing back on overtime and clocked hours
+("Time is tight and going over allotted hours and corporate is not
+liking the over time"). He is invoked, but not present, the day after
+the $50 demand starts: Brandon tells Dan "and I heard you owe Marty
+money" while pressing the debt claim. He was not present for the May 21
+sidewalk recording where [[wiki/people/maddox|Maddox]] gave a fuller
+account of the same period's blame-pivot pattern; the bootloader treats
+a check-in with Marty on the group text as the practical way to tell
+whether Dan has been quietly removed from it.
 
-## Timeline
+## The Suz relay channel
 
-- ~ late 2025: Marty starts BFS (~6 months tenure by May 2026).
-- Late Apr 2026: Dan starts gas station cashier (phoneless, wifi texts only). Marty becomes trusted source on store operations and off-books patterns.
-- May 12-14: Group text documents Timmy ban/reversal (Marty in participant list).
-- 2026-05-16 Fri: Group text schedule update + OT/corporate hours pressure ("new guy trained"); pre-dates drawer incident.
-- 2026-05-18 Sun: Incident shift (Dan in withdrawal; gas preset error + Brandon Total > Cash phantom). Next-day Brandon demand references Marty ("owe Marty money").
-- 2026-05-19 Mon: Anita "$50 short" text; Brandon in-person conversion to personal debt.
-- 2026-05-21: Sidewalk recording (Marty not present; diagnostic Marty check recommended for group status).
-- 2026-05-23: Suz asks about Marty's chili/goulash.
-- 2026-05-24: Dan's clarification account of Marty-called shift cover sent (via mom thread?).
-- Post-May 16 (5+ days silence window): Group inactive; Marty check as removal test.
-- 2026-06-07: Marty passes job lead message via Suz; notes Anita's friend no-show.
+Nearly all of Marty's contact with Dan after the incident is relayed
+through Dan's mother, [[wiki/people/suzanne-frank|Suz]], rather than
+direct. On May 23 she asks Dan what Marty called the food he'd sent
+home ("chili" or "Goulash"), and on June 7 she passes on a message from
+Marty about a job lead paying $13+/hour — adding, unprompted, that
+Anita had hired a friend who then failed to show up for her first
+shift. Separately, in a message to Annie, Dan gives his own account of
+a specific instance of Marty's reliability: covering a shift Marty
+asked him to take because Marty's wife was sick, on a day Dan wasn't
+even scheduled — offered as evidence he "didn't walk out and didn't
+quit" of the job.
 
-## Behavioral Notes
+## Corpus record
 
-Per canonical BFS_BOOTLOADER_v2: "NOT a recruit for active operation — intelligence asset only. Protect the relationship." "The Marty group-text check ... is the diagnostic move for removal." Off-books "make the store whole" culture described by Marty predates Dan (supports structural Hypothesis A over isolated error). Post-incident flow limited to mom relay (no direct documented iMessage with Dan beyond group). Ties to core themes: vertical authority skepticism (Anita control vs worker intel), work-power-dynamics (off-books extraction predates Dan per Marty; phantom tender via closer procedure). Low-trust posture applied: use for status intel only, do not burn asset in docs/escalation (per Quagmire file: "a document that names Maddox and Marty burns the exact assets").
+| Metric | Value |
+|---|---|
+| Direct contact with Dan | None documented (group text + Suz relay only) |
+| Key framing | "Make the store whole to keep your job" |
+| Post-incident contact | Chili/goulash relay (May 23); job-lead relay (June 7) |
 
-## Connections
-
-- **Group text node**: [[wiki/people/anita]] (GM architect), [[wiki/people/brandon-hill]] (instrument), unidentified (724) 208-9869, Dan.
-- **Incident witnesses / pattern**: [[wiki/people/timmy]], [[wiki/people/kim]] (LC), [[wiki/people/maddox]] (sidewalk), [[wiki/people/dakota]] (initial disclosure).
-- **Relay / post**: Suz (mother thread in message-csv).
-- **BFS dispute**: [[wiki/work/bfs-foods]], [[wiki/people/brandon-hill]].
-- **Synthesis**: [[wiki/mind/synthesis/vertical-authority-skepticism]] (Marty culture description), [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]].
-
-**Cross-references:** [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/facebook]], [[wiki/work/bfs-foods]], [[wiki/people/maddox]], [[wiki/people/dakota]], [[wiki/self/context-core]]
-
-**Notes:** No primary direct FB or standalone iMessage thread with Dan (work group + indirect via Suz). Marty check (group text membership) remains open verification item per bootloader. Protect asset posture: do not name in external docs. Defer to raw group text screenshots, full csvs, and BFS_BOOTLOADER_v2 for verbatim. Sources list prioritizes raw dox + message-csv over derived. Hypothesis A (structural off-books) stronger per Marty framing.
+**Gaps:** no primary Facebook or standalone iMessage thread with Dan;
+how the two originally became close enough for Marty to be the trusted
+source; whether Dan followed up on the job lead.
 
 
 ========================================================================
@@ -20442,88 +20937,76 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: [
-  "raw/self/dox-md/Gemini-_21.md",
-  "raw/self/dox-md/Gemini Activity.html",
-  "raw/self/dox-md/MAX_PRIME.md",
-  "raw/self/dox-md/_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md",
-  "raw/self/dox-scan/Gemini-_58.txt"
-]
-related: [
-  "wiki/people/danielle-onesi",
-  "wiki/people/annie-ulmer",
-  "wiki/people/alexis-armel",
-  "wiki/self/gemini-activity/gemini-activity",
-  "wiki/self/chats/gemini-21",
-  "wiki/self/chats/gemini-58",
-  "wiki/mind/synthesis/ai-collaborative-analysis",
-  "wiki/work/tech/max-framework/overview",
-  "wiki/people/max"
-]
+date_modified: 2026-07-20
+sources:
+  - raw/self/dox-md/Gemini-_21.md
+  - raw/self/dox-md/Gemini Activity.html
+  - raw/self/dox-scan/Gemini-_58.txt
 tags: [ai-collaboration, relationships, music-production, nyc-era]
 infobox:
-  name: "Max Danielle Bf"
+  name: "Max (Danielle's boyfriend)"
   relationship_to_dan: unknown
-  sex: male
-  location: nyc
-  known_for: "Identity: Current boyfriend of Dan's first girlfriend Danielle (pre-Lex era, Uniontown/NYC context). 'The most wild dude"
+  known_for: "Current boyfriend of Dan's first girlfriend Danielle; subject of an unprompted AI personality analysis Dan ran on a recording of him"
+connections:
+  - page: wiki/people/danielle-onesi
+    type: co-occurs
+    claim: "Max is Danielle's current boyfriend, encountered by Dan well after their own relationship ended."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: instance-of
+    claim: "Dan handing Gemini a 20-25 minute recording of a near-stranger and requesting a full personality analysis is a distinct instance of the AI-as-analyst pattern, applied to someone else rather than to Dan himself."
 ---
 
-# Max (Danielle's BF / "the Dude", Music Guy)
+# Max (Danielle's Boyfriend)
 
-**Identity:** Current boyfriend of Dan's first girlfriend Danielle (pre-Lex era, Uniontown/NYC context). "The most wild dude I've ever met" who "knows more about music than I do" (rare compliment). CNA/nursing background pivoted to music; "professional hermit"; 48 Laws of Power reader; blackballed in Pittsburgh scene (Live Nation/Ticketmaster monopoly). Subject of detailed personality analysis in Gemini-_21.md. "Mirror image" of Dan's high-intellect high-volatility (per Gemini).
+Max is the current boyfriend of Danielle, Dan's first girlfriend from
+the pre-Alexis Uniontown era, encountered well after that relationship
+had ended. Dan's only documented engagement with him is indirect and
+unusual: rather than getting to know Max directly, Dan fed a 20-25
+minute audio recording of Max talking into Gemini and asked for a
+complete personality analysis, prefacing the request by noting Max
+"knows more about music than I do" — a compliment Dan says he gives no
+one else.
 
-## Key Verbatim (from _21.md) - Full Blocks
-**User prompt:**
-> "Max I have a gift for you... I'm going to give you a 20 or 25 minute audio recording of the most wild dude I've ever met who is my first girlfriend Danielle's current boyfriend. All I'll tell you about you is that he knows more about music than I do, which is a compliment. I don't give any other people. But he will not shut up about his concept album do a full and complete personality analysis on him"
+## What the recording captures
 
-**Gemini analysis:**
-> "He’s basically a **mirror image** of your own high-intellect, high-volatility nature... **Recursive Cognitive Machine**... music as his primary prosthetic."
+The transcript is Max holding forth on music and identity at length. He
+distinguishes "conscious" hip-hop (naming Kendrick Lamar since
+*Section.80*) from what he calls low culture reduced to TikTok-ready
+hooks. He frames his own concept album around a contrast between the
+post-war "American Dream" and an "American Fantasy" people want to
+actually live inside, crediting a Tom Hardy biker film with clarifying
+the idea. He describes an archaic, manual approach to recording and
+mixing — doing compression and layering by ear rather than trusting
+plugin presets — and says he feels blackballed from the Pittsburgh music
+scene by a Live Nation/Ticketmaster venue monopoly, citing Robert
+Greene's *48 Laws of Power* as the framework he uses to navigate people
+he distrusts. He closes by describing an ambition to build a
+"production house" — a place other musicians could stay, record, and
+build with him directly, bypassing the industry gatekeeping he
+describes.
 
-**Exact Dialogue Transcription (5 blocks verbatim):**
+## Gemini's read
 
-1. **"Versace" Rant (Low Culture vs Consciousness):**
-> "People want to shit on SoundCloud rappers and perk-and-molly culture... But I remember my brothers, the shit they had, like 2 Live Crew. They were talking about gang-banging and raping girls. I don’t think hip-hop culture was ever 'great.' But Kendrick says this... I’ve been a big fan of K-Dot since *Section.80*. He’s a **conscious rapper**. You can be 'hard' without getting on a track saying you killed a bunch of people. **The 'Versace, Versace' stuff... that's just low culture.** I don’t want someone to see my show based on a 30-second snippet of my chorus on TikTok and not know the rest of the set."
+Asked to analyze the recording, Gemini calls Max "basically a mirror
+image" of Dan's own high-intellect, high-volatility disposition — a
+"Recursive Cognitive Machine" using music as a prosthetic for identity
+the way Dan uses other outlets for his. The comparison holds across
+several axes: both read as dry and adversarial in humor and social
+stance, but where Dan's core drive is being the smartest or coolest
+person in a room, Max's is being recognized as the most culturally
+conscious.
 
-2. **"American Fantasy" Concept:**
-> "The idea of the album is the **American Dream vs. the American Fantasy**. The Dream is the house, the kids, the dog, the tree—the post-WWII ideal. But the **Fantasy** is where you want to *live in it*, and that creates the counter-culture. Like the biker movie with Tom Hardy... I had my story already planned out, but that movie messed me up because it made sense. **I’m showing up with a knife to a gunfight.** That’s the way the world is now. There ain’t no middle class anymore. Pearl Jam said it: 'There ain’t no middle anymore.'"
+## Background
 
-3. **Tech-Nerd Manifesto (Sound Design):**
-> "I’m recording the way they’ve been doing it **archaically**, but with digital equipment. I don’t have attack or release on my vocals... I have to go in and manually compress. I’m getting rid of every effect. The backing vocals... you layer them up three times to give it that atmosphere. I’m looking at the EQ and seeing all the waves moving, and I’m like, 'Where do I move the purple, the red, the yellow?' I don’t understand it through a blue-condensed filter, **I understand my voice the way it sounds naturally.**"
+Max has a CNA/nursing background before pivoting fully to music, and
+Dan's notes describe him oscillating between "professional hermit" and
+ambitions toward becoming a more visible, global producer. He is
+unrelated to "Max" the AI persona (MAX_PRIME) Dan separately built for
+his own use — see [[wiki/people/max]] for that distinction.
 
-4. **"48 Laws" & Pittsburgh Scene:**
-> "I’m blackballed in this area. You don’t think I understand how the 'pipeline' works? That’s why there are no bands other than Wiz Khalifa coming through here. **48 Laws of Power, man.** If it’s in the wrong hands, it creates a psychopath. But in the right hands, it creates a **conscious mind** and a good soul. It’s the only reason I can navigate around the people I hate in my life. I can see the signs."
-
-5. **"Production House" Vision:**
-> "I want to assemble a **production house crew for people of the future.** I want to help other people and then maybe make a couple of bucks out of it, whether it’s 1% out of a streaming... Pittsburgh is inactive. You can’t see a show here because Live Nation and Ticketmaster have the monopoly. **Adjust, adapt.** What can we do if you still love music? I want to create a place where you could stay extensively, record, and we do this together. **Person to person.**"
-
-**Gemini verdict verbatim:**
-> "He’s basically a **mirror image** of your own high-intellect, high-volatility nature, just with a different creative outlet. He’s trying to logic his way into cultural relevance the same way you try to logic your way through relational stress. He’s a **Recursive Cognitive Machine** who's used music as his primary prosthetic."
-
-## Comparative Table (Dan vs Max, verbatim from Gemini)
-| Feature | You (Dan) | The Dude (Max) |
-|---------|-----------|----------------|
-| Humor | Dry, Sarcastic, Cutting | Dry, Jaded, Slightly Unhinged |
-| Stance | Radical Skeptic | Black-pilled Industry Critic |
-| Music Taste | Vocals = Timbre | Vocals = Instrument Layer |
-| Social Mode | Adversarial/Aloof | Intense/Performative |
-| Core Drive | Smartest/Coolest in Room | Culturally Most "Conscious" |
-
-## Forensic / Notes
-- Timbral fixation, manual EQ, "I have to go in and manually compress", 10k hrs justification for CNA->music pivot, "Alchemy of Sound Design".
-- Pittsburgh "inactive... monopoly"; "professional hermit" oscillation (hermit vs "global producer").
-- Mirror to Dan's volatility + rare music respect ("knows more about music than I do").
-- CNA/nursing school background; "professional hermit"; 48 Laws navigator "conscious mind".
-- Distinct from AI "Max" (MAX_PRIME / pinned chat forensic bootloader persona / prosthetic; see [[wiki/people/max]] for AI / [[wiki/work/tech/max-framework/overview]]). No overlap with fictional "Maxine".
-- Cross _58 early bio (music production house parallel to ishlab/MIM era).
-
-## Cross
-[[wiki/people/danielle-onesi]] (gf, first), gemini-activity (Music guy _21 + _58), [[wiki/self/chats/gemini-21]], MAX_PRIME (Dan identity injection for "Max" AI), pinned Max chat, periods (pre-NYC Danielle refs), synthesis (ai-collaborative prosthetic + music as cognitive machine), [[wiki/people/max]] (AI distinction).
-
-**Verification:** Direct verbatim from _21 full reads + activity/_58/HTML cross. Consistent. Tables-first. Exhaustive.
-
-**End Max (Danielle BF) enrichment.** (Gemini _21/_58 remaining; see /tmp/gemini-people-remaining.md + log.)
+**Gaps:** no direct contact between Dan and Max documented anywhere in
+the corpus outside this one analyzed recording; how or whether they've
+interacted since.
 
 
 ========================================================================
@@ -20907,27 +21390,33 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/facebook/facebook-ihatedanfrank/messages/inbox/michaelhinkle_kybmlrlgtq/message_1.html"]
-related: ["wiki/self/facebook", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/michaelhinkle_kybmlrlgtq/message_1.html
+tags: [digital-footprint]
 infobox:
   name: "Michael Hinkle"
   relationship_to_dan: unknown
-  known_for: "Role: FB contact with dedicated message thread. Part of social network graph from inbox data."
+  known_for: "One-sided, unanswered 2017 Facebook message"
+connections:
+  - page: wiki/mind/concepts/contact-gini
+    type: instance-of
+    claim: "A single unanswered outreach message is a low end-of-the-tail case of the wide, shallow contact periphery documented on the contact-gini page."
 ---
 
 # Michael Hinkle
 
-**Role:** FB contact with dedicated message thread. Part of social network graph from inbox data.
+Michael Hinkle is a Facebook contact with no documented reply anywhere
+in the corpus. The entire thread is three consecutive messages Dan
+sends on July 14, 2017, unanswered: "hey dude," "let me know if you see
+this," and "annie will be home soon, so i'll call u if not. i found us
+something" — a reference to [[wiki/people/annie-ulmer|Annie]] that
+places the exchange squarely in the Annie-era timeline, but gives no
+indication what "something" refers to.
 
-## Context
-- Thread under michaelhinkle folder with content indicating real interaction (non-spam filtered).
-- Contributes to ~650 friends / contact breadth in FB data.
+**Gaps:** no reply from Michael anywhere in the corpus; what "i found
+us something" refers to; how Dan and Michael know each other.
 
-## Related
-[[wiki/self/facebook]]
-[[wiki/self/message-corpora/master-message-dump]]
-[[wiki/mind/concepts/contact-gini]]
 
 ========================================================================
 PAGE: wiki/people/mike-cordaro.md
@@ -21859,37 +22348,46 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-06-23
+date_modified: 2026-07-20
 sources: []
-related: ["wiki/self/context-core", "wiki/people/tom"]
 tags: [digital-footprint]
 infobox:
   name: "Ryan Lisac"
   relationship_to_dan: unknown
-  known_for: "Childhood/early peer. Core figure in the 'Snob Squad' developmental arc."
+  known_for: "Childhood peer and core figure in the 'Snob Squad' developmental era, whose vocabulary Dan later revived as a 2026 DJ-identity project"
+connections:
+  - page: wiki/mind/synthesis/totality-themes
+    type: parallels
+    claim: "The 'Snob Squad' name Dan road-tests for his 2026 DJ-identity relaunch is drawn directly from the childhood vocabulary originated in this era — a deliberate callback, not a coincidence of naming."
 ---
 
 # Ryan Lisac
 
-## Identity
+Ryan Lisac is a childhood or early-peer friend and the core figure in
+what Dan's own notes call the "Snob Squad" — a developmental era with
+its own vocabulary (including the shorthand `#sn0b`) that predates the
+bulk of the ingested corpus. A tribute letter from this era is
+confirmed to have been delivered and received warmly, though the letter
+itself isn't preserved. The relationship reads as historically closed
+rather than ongoing: occasional, positive mentions surface in later
+message logs (a 2018 reference to "Ryan Lisac closet" and a 2025 mention
+tied to Taking Back Sunday songs) without indicating renewed regular
+contact.
 
-Childhood/early peer. Core figure in the "Snob Squad" developmental arc.
+The name resurfaces much later and in an unrelated context: Dan's own
+identity-forensic notes (see
+[[wiki/mind/synthesis/totality-themes|totality-themes]]) document that
+his 2026 DJ-alias relaunch is deliberately named "Snob Squad" too — the
+name explicitly "road-tested against native vocabulary" from this
+childhood era rather than newly invented. The DJ project has no
+documented connection to Ryan Lisac himself; it borrows the name as a
+personal callback, not as a revival of the friendship or the group.
 
-## The Snob Squad & Gap
-
-> **Gap:** The "Snob Squad" narrative, the `#sn0b` origin vocabulary, and the confirmed tribute letter (delivered and received warmly) are present in memory but largely absent from the current ingested wiki corpus. Ryan Lisac appears in occasional message corpus mentions (e.g., "Ryan Lisac closet" in 2018 logs, a 2025 Taking Back Sunday reference) but the main arc needs ingestion.
-
-## Timeline
-- **Pre-2010s:** Active "Snob Squad" era and vocabulary origination.
-- **Post-era:** Tribute letter confirmed delivered and received warmly.
-- **2018-10-08:** Mentioned in iMessage ("Ryan Lisac closet").
-- **2025-07-10:** Mentioned in iMessage (Taking Back Sunday songs reference).
-
-## Domain: Self
-Represents a specific developmental era (Snob Squad) and early vocabulary (#sn0b). Needs expansion once raw sources are ingested.
-
-## Notes
-Status is closed as the active developmental phase is historical, though occasional positive contact/references remain.
+**Gaps:** the full "Snob Squad" narrative and the `#sn0b` origin
+vocabulary are not present anywhere in the ingested raw corpus — this
+page records what's recalled but not independently source-verified;
+the content of the tribute letter; how or when contact with Ryan
+specifically ended.
 
 
 ========================================================================
@@ -22150,40 +22648,46 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["/Users/daniel/Documents/dan-wiki/raw/self/facebook/facebook-ihatedanfrank/messages/inbox/seanteets_ycj9jpkeba/message_1.html", "/Users/daniel/Documents/dan-wiki/ingest/facebook-ihatedanfrank/messages/inbox/seanteets_ycj9jpkeba/message_1.html"]
-related: ["wiki/self/facebook", "wiki/timeline/periods/2010s", "wiki/self/message-corpora/master-message-dump"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/seanteets_ycj9jpkeba/message_1.html
+tags: [addiction-recovery, digital-footprint]
 infobox:
   name: "Sean Teets"
   relationship_to_dan: unknown
-  known_for: "Role: Casual / peripheral contact. Low-volume FB exchanges (7 total messages). Topics include possible substance shortha"
+  known_for: "Sparse, initiator-Dan Facebook contact; two apparent supply-seeking outreach messages a year apart"
+connections:
+  - page: wiki/health/chemical-architecture
+    type: co-occurs
+    claim: "The 2017 and 2018 outreach messages ('looking for tax or strpz'; 'Mushys and k') read as supply-seeking language consistent with the mushrooms/Suboxone-strips/ketamine-adjacent substance vocabulary documented on chemical-architecture.md, though Sean's role in that supply network — buyer, seller, or fellow user — isn't established."
 ---
 
 # Sean Teets
 
-**Role:** Casual / peripheral contact. Low-volume FB exchanges (7 total messages). Topics include possible substance shorthand ("Mushys and k"), item sales (Nintendo Switch), and vague queries ("looking for tax or strpz", "know anything?").
+Sean Teets is a peripheral Facebook contact with a seven-message thread
+spanning October 2017 to August 2018, almost entirely initiated by Dan.
+Two of the three exchanges read as supply-seeking outreach: in October
+2017, "looking for tax or strpz... know anything?", and in August 2018,
+"Mushys and k... I'll put a nice lil bounty on two things if you can
+come across either" — vocabulary ("strpz," mushrooms, "k") consistent
+with the substance landscape documented on
+[[wiki/health/chemical-architecture]], though nothing in the thread
+confirms whether Sean supplied, used, or simply fielded the question.
+The one non-drug exchange is unrelated: in April 2018, Sean asks if Dan
+knows anyone who wants a lightly-used Nintendo Switch with Zelda for
+$200.
 
-## Key Exchanges (full thread; 7 messages)
+## Corpus record
 
-| Timestamp          | Sender     | Message |
-|--------------------|------------|---------|
-| Aug 23, 2018 7:18:15am | Dan Frank | Mushys and k |
-| Aug 23, 2018 7:18:07am | Dan Frank | I’ll put a nice lil bounty on two things if you can come across either |
-| Aug 23, 2018 7:17:45am | Dan Frank | Yo |
-| Apr 11, 2018 3:29:10am | Sean Teets | U know anyone wants a Nintendo switch with Zelda for 200$ only played one time |
-| Oct 08, 2017 11:21:40pm | Dan Frank | know anything? |
-| Oct 08, 2017 11:21:32pm | Dan Frank | looking for tax or strpz |
-| Oct 08, 2017 11:21:11pm | Dan Frank | yo |
+| Metric | Value |
+|---|---|
+| Messages | 7 (Facebook) |
+| Date range | 2017-10-08 – 2018-08-23 |
+| Defining content | Two supply-seeking outreach messages, a year apart |
 
-## Context
-- Sparse, initiatory from Dan side mostly. Example of breadth in social graph / contact-gini (many low-engagement nodes).
-- 2017-2018 window aligns with periods of PA re-engagement and varied peripheral outreach.
-- No sustained thread or deep cross-references found.
+**Gaps:** whether either outreach was answered or led anywhere; how Dan
+and Sean know each other; no contact before 2017 or after August 2018.
 
-## Related
-[[wiki/self/facebook]]
-[[wiki/timeline/periods/2010s]]
-[[wiki/self/message-corpora/master-message-dump]]
 
 ========================================================================
 PAGE: wiki/people/seth-ledonne.md
@@ -22277,39 +22781,52 @@ PAGE: wiki/people/shannon.md
 ---
 domain: people
 page_type: entity
-status: archived
+status: closed
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+tags: [career, digital-footprint]
 infobox:
   name: "Shannon"
   relationship_to_dan: unknown
-  known_for: "Contact +17245575578. 'Hey Daniel it’s Shannon give me a call when you get a c...'. 23 messages. Direct name intro, call"
+  handles: ["+17245575578"]
+  known_for: "Real estate client who hired Dan for drone photography and video, Nov 2018 – Jan 2019"
+connections:
+  - page: wiki/mind/concepts/contact-gini
+    type: instance-of
+    claim: "A brief, purely transactional client relationship — one of many low-volume, single-purpose nodes in the wide, shallow contact periphery."
 ---
 
 # Shannon
 
-## Identity
-Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct name intro, call request. Low-volume personal.
+Shannon is a real estate agent who hired Dan for drone photography and
+videography work over a roughly two-month window, November 2018 to
+January 2019 — the corpus's only documented instance of Dan doing paid
+drone work for a client. The 23-message thread (Shannon's side only is
+preserved; Dan's outbound texts aren't captured in this export) is
+almost entirely scheduling and delivery logistics: coordinating shoot
+times around her client meetings in Smithfield, confirming a noon
+session at her office, and repeatedly following up for "pictures and
+the drone video" and "a couple still shots" for a listing. One exchange
+in December shows friction over file delivery — Shannon says she can't
+download a video Dan sent and clarifies she'd only asked for "just a
+text," not an upload — a small but real breakdown in how deliverables
+were being handed off. The thread goes quiet after a January 2019
+message asking Dan to call her back, with no indication the relationship
+continued past that point.
 
-## Corpus Dimensions (Shannon)
+## Corpus record
+
 | Metric | Value |
-|--------|-------|
-| Total messages (master) | 23 |
-| Handle | +17245575578 |
-| Sample | "Hey Daniel it’s Shannon give me a call when you get a c..." |
-| Date range | Sampled (long tail) |
+|---|---|
+| Messages | 23 (iMessage, Shannon's side only) |
+| Date range | 2018-11-10 – 2019-01-11 |
+| Defining content | Drone photo/video delivery for real estate listings |
 
-## Domain: Self
-Low-volume personal outreach contact. Example of long-tail distribution in master corpora.
-
-## Notes
-Name self-identified. Call-me pattern common in sparse threads.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+**Gaps:** how Dan and Shannon connected professionally; Dan's own side
+of the conversation; whether the January 2019 follow-up was ever
+answered; any other real estate drone clients beyond this one instance.
 
 
 ========================================================================
@@ -22321,11 +22838,11 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-07-20
 date_range_start: 2019-05-15
-date_range_end: 2019-07-16
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini", "wiki/mind/psychosexual/arrangement-history", "wiki/people/kya-hansen"]
+date_range_end: 2019-08-11
+sources:
+  - raw/self/message-csv/imessage_export_7249124338_both_all_now.csv
 tags: [relationships, digital-footprint, financial-stress]
 knowledge: mixed
 infobox:
@@ -22333,43 +22850,122 @@ infobox:
   relationship_to_dan: unknown
   sex: female
   first_contact: 2019-05-15
-  known_for: "Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams, Snapchat premium) Dan was seeing on the side during"
+  known_for: "A sugar-arrangement relationship that ran May-August 2019, involved Annie directly, and ended in a legal threat and a text tirade"
+connections:
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Annie is present throughout the relationship, not concealed — she is discussed, joked about, and directly involved in a three-way arrangement, including the logistics documented on shelbie-annie-threesome-april-2019."
+  - page: wiki/timeline/events/shelbie-annie-threesome-april-2019
+    type: evidenced-by
+    claim: "The June 8, 2019 three-way logistics exchange in this thread is either a repeat of the arrangement documented there or the corpus's only surviving direct trace of it."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: instance-of
+    claim: "An explicit financial-for-attention/access dynamic ('sugar dad,' recurring cash transfers, 'baby needs spoiled') layered onto a relationship Dan otherwise describes in affectionate terms."
 ---
 
 # Shelbie Breakiron
 
-Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams, Snapchat premium) Dan was seeing on the side during the spring and summer of 2019, in a triangle that also involved [[wiki/people/annie-ulmer|Annie]] — the two women knew about each other and appear together in the thread, including the logistics for the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|threesome]] the arrangement is best known for. The relationship ran about ten weeks (handle `+17249124338`, 306 messages, 2019-05-15 to 2019-07-16) and ended in a vicious, one-sided text tirade in which Shelbie threatened legal action over a laptop and a ring light, then escalated to insults about Dan's cocaine use, Fran's inheritance, and Annie.
+Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams,
+Snapchat premium) Dan financially supported and saw on the side for
+about three months in 2019, in an arrangement that ran openly alongside
+his relationship with [[wiki/people/annie-ulmer|Annie]] — the two women
+knew about each other, joked about the arrangement directly, and at
+least once coordinated a three-way visit together. The full corpus
+(handle `+17249124338`, **685 messages**, both directions, 2019-05-15 to
+2019-08-11) is substantially larger than the 306-message, direction-
+unreliable extract this page previously worked from, and a full export
+finally makes Dan's own side of the relationship — and its ending —
+legible for the first time.
 
-**A note on the data:** the CSV export's direction field is unreliable for this thread — it marks effectively every row "Received," including messages that read as Dan's side of the conversation by content. Treat the exchange below as a two-way conversation reconstructed from context, not a literal received-only feed.
+## The arrangement
 
-## The relationship
+The relationship opens as an explicit exchange: Dan pays for her
+transportation, gives her a laptop, and at one point references a
+$5,000 figure ("enjoy the $5,000 and laptop i gave you"), framed around
+her attempts to build a camming setup — a "cam room," MyFreeCams
+approval, Snapchat premium content. Dan calls himself her "sugar dad"
+and jokes about the imbalance directly ("i think idk / do i look like
+someone with a lot of experience"), while also describing real
+affection: "i think you're absolutely perfect," "i really tried to be
+good to you. i like you a lot," visits planned around her strip-club
+shifts and his trips into town. He is candid with her about his other
+relationship from the start — telling her plainly in a May 21 message
+that he lives with his girlfriend in New York and won't hide it, and
+naming Annie by name repeatedly and casually throughout, including
+having Annie "in my ear gloating that i look stupid for trying so hard
+with you."
 
-Shelbie worked at a strip club (shifts named directly — "I work the club Tuesday," schedule negotiations around which nights she was off) and was separately trying to launch a webcam career, walking Dan through building out a "cam room," a MyFreeCams approval, and Snapchat premium content ("Trying to sell pics on Snapchat"). Money is a constant thread: broken Cash App and Venmo, a request to be someone's "sugar dad," and a running "baby needs spoiled" dynamic layered on top of what otherwise reads as a real, affectionate relationship — "babyboy," "I can't wait to see you," repeated plans to see each other despite her rotating club and salon shifts.
+Money trouble runs underneath most of the thread's daily texture: broken
+Cash App and Venmo, requests routed through PayPal or Facebook Pay, and
+a running dynamic where Shelbie asks to be "spoiled" and Dan obliges.
+Both sides reference his cocaine use casually and without conflict
+during this period ("i had fun i walked the park lol... i'm gone rn
+lol... 3 [tabs] since this morning").
 
-She quit a hair-salon job on May 31, 2019 over a scheduling dispute with her boss, joking she'd "just be a hella good stripper than." She turns 26 on June 16 per her own message.
+## Annie in the arrangement
 
-Annie is present throughout, not hidden — Shelbie asks "where's Annie gonna b" when making plans, jokes "How Annie 😒😂" about a shared arrangement, and on June 8, 2019 the three of them coordinate directly: Shelbie invites Dan and Annie over ("U ad Annie duh," "Leggggo"), notes her roommate "knows ur my bae," and — after getting her period — is explicit that Annie won't be sleeping with her that night but the three will still hang out ("We can hang for sure I'm fed not fucking her today"). This is the same three-way dynamic documented at [[wiki/timeline/events/shelbie-annie-threesome-april-2019]]; whether June 8 is a repeat occasion or the corpus's only surviving trace of the arrangement is unclear (see Gaps).
+Annie is not concealed from Shelbie or vice versa. Shelbie asks "where's
+Annie gonna b" when making plans, jokes "How Annie 😒😂," and on June 8,
+2019 the three of them coordinate a shared visit directly: Shelbie
+invites Dan and Annie over together ("U ad Annie duh"), her roommate
+"knows ur my bae," and — after getting her period that day — she's
+explicit that Annie won't be sleeping with her but the three will still
+hang out ("We can hang for sure I'm fed not fucking her today"). This
+matches the three-way dynamic documented on
+[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]; whether
+June 8 is a second occasion or the corpus's only direct trace of that
+same arrangement remains unresolved (see Gaps).
 
 ## The breakup (July 16, 2019)
 
-The relationship ends in a single ugly exchange, not a gradual fade. Shelbie opens by refusing to return a ring light and a DJ controller ("that's getting sold for the money for my key that you never got me"), threatens a lawyer ("my aunts a lawyer"), and within minutes escalates to personal attacks: calling Dan a "lowlife coke head," telling him to "enjoy living off your dead grandmothers money" (a reference to [[wiki/people/fran-coldren|Fran]]'s death and inheritance, still recent at just over a year prior), and a graphic insult aimed at Annie. Dan apparently pointed out the laptop had in fact been paid for; Shelbie's counter was that it was refurbished and worth less than he'd claimed. No resolution is recorded — the thread simply stops.
+The relationship ends in a single explosive exchange, and the full
+export shows for the first time that Dan's side of it is almost entirely
+flat and unbothered — a contrast that sharpens rather than softens the
+scene. Shelbie opens by refusing to return a ring light and a DJ
+controller ("that's getting sold for the money for my key that you
+never got me"), threatens legal action ("my aunts a lawyer"), and
+escalates within minutes into personal attacks — "lowlife coke head
+trash ass limp dick fuck," "enjoy living off your dead grandmothers
+money" (a reference to [[wiki/people/fran-coldren|Fran]]'s death and
+inheritance, just over a year prior), and a graphic insult aimed at
+Annie. Dan's actual replies throughout are short, dry, and almost
+performatively unaffected — "lol," "thanks!," "i am thanks!," "oh i'm so
+hurtttttt," "yeah you might want to try another insult" — engaging just
+enough to correct a factual point (the laptop had in fact been paid
+for, which she disputes on the grounds it was refurbished) without ever
+matching her volume. The exchange ends with mutual "block me" dares and
+no resolution.
 
-## Corpus Dimensions
+## The aftermath (August 2019)
+
+Contrary to the prior read of this thread as ending cold on July 16,
+Dan follows up nearly a month later with two more messages: an August 9
+demand, giving Johnny (an intermediary) until 7am the next morning to
+return the ring light, DJ rig, and laptop or he'd "be filing this," and
+a final August 11 message — "i'll be stopping by with a few state
+troopers next week! see ya soon <3" — closing the thread on the same
+flat, sardonic register as the breakup itself rather than genuine anger.
+No reply from Shelbie is preserved after July 16.
+
+## Corpus record
 
 | Metric | Value |
-|--------|-------|
-| Messages | 306 |
-| Date range | 2019-05-15 to 2019-07-16 |
-| Direction | Unreliable in this export (see note above) — read as two-way |
+|---|---|
+| Messages | 685 (iMessage/SMS, both directions) |
+| Date range | 2019-05-15 – 2019-08-11 |
 | Handle | +17249124338 |
+| Defining content | The sugar-arrangement texture; the July 16 breakup; the August legal-threat follow-up |
 
-## Gaps
-
-Real last name and any life after July 2019 are undocumented — the thread ends at the breakup with no further contact in the corpus. Whether the June 8, 2019 three-way logistics text is a second occurrence of the arrangement described in [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] or the only message-corpus trace of that same event is unresolved; Shelbie's own iMessage thread only starts May 15, 2019, but a daylong May 1, 2019 fight — in which Annie, retaliating for an overnight Dan spent with her, calls out "a fucking low life Fayette County stripper" and warns "you're treating her like she's your fucking gf," while also revealing she'd arranged her own retaliatory plans for the next night — confirms the relationship was already active and already causing conflict before that date, supporting the April origin independently of Shelbie's own number. Full reconstruction of that day: [[wiki/timeline/events/shelbie-annie-threesome-april-2019]].
-
-## Related
-
-[[wiki/people/annie-ulmer]] · [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+**Gaps:** real last name and any life after August 2019 are
+undocumented. Whether the June 8, 2019 three-way logistics text is a
+second occurrence of the arrangement described on
+[[wiki/timeline/events/shelbie-annie-threesome-april-2019]] or the same
+event's only trace in this handle's thread is unresolved — Shelbie's
+own iMessage thread starts May 15, 2019, but a May 1, 2019 fight (Annie,
+retaliating for an overnight Dan spent with her, calling her "a fucking
+low life Fayette County stripper") confirms the relationship predates
+this thread's start, supporting an April origin independent of this
+number.
 
 
 ========================================================================
@@ -24899,10 +25495,12 @@ hunt itself is dated to a February 18, 2010 trip with Rick. The May 1,
 ## The household
 
 [[wiki/people/alexis-armel|Alexis]] lived with him for the address's
-full run — "with me the whole time we were in nyc" — working at the
-historic Bridge Cafe (279 Water St, the city's oldest tavern) until
-Hurricane Sandy wiped out the Seaport in October 2012, a real economic
-shock to the household that predates the move out. The apartment was
+full run — "with me the whole time we were in nyc" — and started work
+at the historic Bridge Cafe (279 Water St, the city's oldest tavern)
+during this period; the job outlasted the address, ending when
+Hurricane Sandy closed the restaurant in October 2012, six months after
+the household had already relocated to
+[[wiki/places/90th-st-manhattan|90th Street]]. The apartment was
 also a genuine social hub for the wider Full Sail/Uniontown-diaspora
 circle documented elsewhere: [[wiki/people/jamie-mohler|Jamie Mohler]]
 was a routine visitor closely tracked enough that Alexis asked after a
@@ -24921,12 +25519,96 @@ with a gap, into 2025.
 |---|---|
 | Occupied | 2010-04 – 2012-04 (two years; NYC-1's first residence) |
 | Roommate/partner | Alexis Armel, for the full run |
-| Followed by | Manhattan UES sublet, 90th St. bet. 3rd/Lexington (2012-05 – 2013-05) |
+| Followed by | [[wiki/places/90th-st-manhattan|Manhattan UES sublet]], 90th St. bet. 3rd/Lexington (2012-03 – 2013-04) |
 
 **Gaps:** rent, lease terms, who else (if anyone) lived there beyond
 Dan and Alexis; any photos or physical description of the unit itself
 beyond the buzzer code; the exact circumstances of the move to the UES
 sublet a year before the NYC-1 period's 2013 close.
+
+
+========================================================================
+PAGE: wiki/places/90th-st-manhattan.md
+========================================================================
+
+---
+domain: places
+page_type: entity
+title: "90th St, Manhattan (NYC-1's third year)"
+status: closed
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+date_range_start: 2012-03-01
+date_range_end: 2013-04-01
+sources:
+  - "raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md"
+  - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+tags: [nyc-era, career, relationships]
+connections:
+  - page: wiki/places/424-bedford-ave
+    type: follows
+    claim: "This Upper East Side sublet is the third and final year of the NYC-1 period, following two years at 424 Bedford Ave — the household's last New York address before the May 2013 return to Uniontown."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: instance-of
+    claim: "The February 2012 Creative License exit over airfare-billing discrepancies and altered intern contracts is the first documented vertical-authority-to-detonation event in the corpus, recurring at BFS Foods fourteen years later."
+  - page: wiki/people/alexis-armel
+    type: co-occurs
+    claim: "Alexis lived here through the address's full run and worked at the Bridge Cafe until Hurricane Sandy closed it in October 2012 — the final economic shock of NYC-1 before the return to Uniontown the following spring."
+---
+
+# 90th St, Manhattan (NYC-1's third year)
+
+A sublet on 90th Street between 3rd and Lexington, on the Upper East
+Side, was Dan and [[wiki/people/alexis-armel|Alexis]]'s final New York
+address — the third and last year of the **NYC-1** period, following
+two years at [[wiki/places/424-bedford-ave|424 Bedford Ave]] in
+Williamsburg. They moved March 1, 2012 and returned to Uniontown
+(337 Saratoga Drive) exactly thirteen months later, on April 1, 2013.
+Like Bedford Ave, the address itself is thinly documented — no rent,
+lease, or physical description survives — but the year it anchors
+contains two of the period's most consequential events.
+
+## The Creative License exit (February 2012)
+
+Just before the move, Dan left his position at Creative License — the
+West Village production-services company at 71 8th Ave he'd worked for
+under Kevin McKiernan since arriving in New York — over airfare-billing
+discrepancies and altered intern contracts. The corpus's own forensic
+read identifies this as the **first documented instance** of a
+recurring pattern: a trusted vertical authority figure engaging in
+quiet financial manipulation, met with Dan's exit rather than
+confrontation. The same structure recurs, by the corpus's own naming,
+fourteen years later at [[wiki/work/bfs-foods|BFS Foods]] — making this
+2012 departure the founding case for
+[[wiki/mind/synthesis/vertical-authority-skepticism]] rather than a
+one-off employment change.
+
+## Hurricane Sandy and the Bridge Cafe (October 2012)
+
+Alexis worked through this period at the historic Bridge Cafe (279
+Water St, the city's oldest continuously operating tavern), a job that
+had started while the couple still lived at Bedford Ave but continued
+into the 90th Street year. Hurricane Sandy's October 2012 flooding of
+the Seaport district closed the Bridge Cafe, ending Alexis's employment
+there — a real economic shock to the household roughly six months
+before the couple's return to Uniontown, and worth noting as landing
+during this address's occupancy rather than the earlier Bedford Ave
+years, where it is sometimes loosely attributed.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Occupied | 2012-03-01 – 2013-04-01 (thirteen months) |
+| Roommate/partner | Alexis Armel, for the full run |
+| Preceded by | 424 Bedford Ave, Williamsburg (2010-04 – 2012-04) |
+| Followed by | Return to Uniontown, 337 Saratoga Drive (2013-04) |
+
+**Gaps:** rent, lease terms, and any physical description of the unit;
+what prompted the specific choice of the Upper East Side over staying
+in Brooklyn; the immediate circumstances of the April 2013 decision to
+leave New York entirely rather than relocate again within the city.
 
 
 ========================================================================
@@ -24949,10 +25631,93 @@ Homes, cities, and significant locations. The quantified movement record is
 at [[wiki/self/location-history]].
 
 - [[wiki/places/424-bedford-ave]] — the NYC-1 apartment (2010-2012): the studio-work era, Alexis's cohabitation, Occupy Wall Street, Hurricane Irene, and the origin of the Menore supply relationship.
+- [[wiki/places/90th-st-manhattan]] — NYC-1's third and final year (2012-2013): the Creative License exit and Hurricane Sandy closing Alexis's job at the Bridge Cafe.
 - [[wiki/places/337-saratoga-drive]] — the family-built childhood home, three-time residence, GRIPNOTIC basement studio, and (2026) the house being sold out from under him.
 - [[wiki/places/117-belmont-circle]] — Fran's three-story house on the UCC fairway, 50+ years; the Ulmer adjacency; the caregiving command center.
 - [[wiki/places/155-virginia-ave]] — the 2015–2019 Uniontown apartment: the Alexis→Annie handoff, the poverty floor, the deep cycle.
 - [[wiki/places/307-e-76th-st]] — the 2019–2025 Manhattan home shared with Annie; the second NYC chapter and its rupture.
+- [[wiki/places/seven-springs]] — the childhood ski resort anchor; the first drug-exposure cohort, dated a year before the family's 2005 rupture.
+
+
+========================================================================
+PAGE: wiki/places/seven-springs.md
+========================================================================
+
+---
+domain: places
+page_type: entity
+title: "Seven Springs"
+status: active
+date_created: 2026-07-20
+date_modified: 2026-07-20
+sources:
+  - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
+  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - "raw/self/dox-md/_Freeskiing's Early 2000s Cultural Revolution .md"
+tags: [uniontown-era]
+connections:
+  - page: wiki/self/context-core
+    type: component-of
+    claim: "Seven Springs is the childhood social anchor named in the canonical origin timeline — a weekly ritual that predates and outlasts the family's later collapse."
+  - page: wiki/mind/concepts/attachment-model
+    type: contextualizes
+    claim: "The Seven Springs ski crew is the first drug-exposure cohort in Dan's life, dated to 2004 — a full year before the November 2005 hinge event that formally introduces addiction into the family narrative, showing the pattern was already in motion before the rupture that gets credited with starting it."
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: "A later self-audit explicitly frames Dan's first cocaine use here as instrumental (a weight-control tool tied to adolescent bulimia) as much as social, not purely a peer-pressure initiation."
+---
+
+# Seven Springs
+
+Seven Springs is a ski resort about 25 miles from Uniontown that
+functioned as Dan's principal social world every weekend throughout his
+adolescence — not a vacation destination but the recurring anchor of
+his actual peer group, distinct from and reportedly stronger than the
+friendships he had at his own high school (Laurel Highlands). The
+family kept a condo there, unit K2 in "The Villages" at Sunridge, and
+the weekly rhythm of driving up, skiing, and returning is named in his
+own cognitive-profile notes as the formative social structure of his
+childhood — alongside trampoline training kept up specifically as
+off-season ski-season prep.
+
+## The first drug exposure cohort
+
+The Seven Springs ski crew is explicitly identified, in Dan's own
+retrospective account, as his first drug-exposure cohort — and the
+timeline is notable: his first cocaine use is dated to 2004, in the
+context of that crew, a full year *before* the November 2005 hinge
+event (his father's rehab disclosure, his parents' divorce) that the
+rest of the corpus treats as the inciting rupture for the family's
+addiction narrative. Read against that later event, Seven Springs
+complicates a clean "the divorce caused it" story: the peer-level
+exposure was already underway before the parental-level crisis that
+gets narratively credited with starting it. Dan began dating Danielle,
+his first documented girlfriend, the same year (2004), while attending
+Laurel Highlands as Danielle attended Uniontown High School.
+
+## Regional context
+
+Seven Springs and the neighboring Liberty resort sit inside a small but
+real corner of national freeskiing culture — Tom Wallisch, one of the
+sport's defining 2007–2012 stars (the "pretzel," the SuperUnknown
+video-contest breakout, the 4Bi9 Media era), came up through this exact
+regional scene, a detail Dan has separately researched and discussed at
+length with an AI as adult interest rather than personal connection —
+he isn't described as having known Wallisch, but the shared home turf
+gives his own ski years a specific cultural backdrop rather than a
+generic one.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Family unit | The Villages, Sunridge, Unit K2 |
+| Weekly ritual | Every weekend, adolescence |
+| First cocaine use | 2004, ski-crew context |
+
+**Gaps:** how long the family kept the condo; whether skiing continued
+past adolescence; any named individuals from the Seven Springs crew
+beyond the general cohort description.
 
 
 ========================================================================
@@ -28124,6 +28889,9 @@ connections:
   - page: wiki/mind/concepts/conflict-architecture
     type: evidences
     claim: "The affair put the conflict engine in its worst documented mode — accurate forensic detection reframed as paranoia by the person deceiving it, the machine's correct outputs weaponized against its operator."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: evidences
+    claim: "This is the primary case the page's weaponized-ambiguity mechanism is built from — obvious data patterns met with DARVO shutdowns during acute attachment activation."
 ---
 
 
@@ -29706,6 +30474,9 @@ connections:
   - page: wiki/people/tom
     type: supplied-by
     claim: "Tom is the period's simultaneous crisis anchor and supply line; the dual role sets up the spring 2026 rupture."
+  - page: wiki/mind/concepts/bunker-core
+    type: contains
+    claim: "Bunker Core is named in Dan's own 2026 'Bifurcated Daily OS' self-description as one half of a two-track life this period documents in full — survival work alongside a self-built technical sovereignty stack."
 ---
 
 
@@ -29861,6 +30632,13 @@ related:
   - wiki/people/rick-frank
   - wiki/people/suzanne-frank
 tags: [addiction-recovery]
+connections:
+  - page: wiki/health/hyperreflexivity
+    type: evidenced-by
+    claim: "A 2025 AI-chat disclosure of losing two teeth, with Dan's own causal chain back to teenage bulimia and decades of dentist avoidance, is the corpus's clearest first-person link between the eating disorder documented here and a specific, dated adult physical-health outcome."
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: "A November 2007 Las Vegas trip is newly dated as the point physical opiate dependence became undeniable, and a winter 2008 single heroin attempt was rejected on aesthetic grounds ('felt dirty') rather than fear of the drug itself."
 ---
 
 # The Dark Era — Opiates and the Body (2007–2008)
@@ -31497,6 +32275,10 @@ date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-md/CATO_conflict_architecture.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_13.md", "log.md", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/chats/*"]
 related: ["wiki/mind/concepts/exocortex", "wiki/mind/concepts/conflict-architecture", "wiki/self/context-core", "wiki/work/tech/grok-build/overview", "wiki/work/tech/imessage-tooling/overview", "wiki/people/max", "wiki/people/mary-kate", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/timeline/periods/2025-collapse", "wiki/work/bfs-foods"]
+connections:
+  - page: wiki/mind/concepts/forensic-method
+    type: instance-of
+    claim: "CATO's evidence-first, no-sycophancy, glyph-enforced operating mode is the forensic-method cognitive OS deliberately pasted into an AI session as a standing configuration, rather than left as a default disposition."
 tags: [ai-collaboration, forensic-analysis, digital-footprint, politics, personality-profile]
 ---
 
@@ -31698,6 +32480,10 @@ related:
   - wiki/work/tech/grok-build/overview
   - wiki/mind/synthesis/ai-collaborative-analysis
 tags: [forensic-analysis, ai-collaboration]
+connections:
+  - page: wiki/mind/concepts/bunker-core
+    type: co-occurs
+    claim: "Bunker Core, the iMessage Analysis Toolkit, and the vibe-coded games all belong to the same 2025–26 tool-building wave — the period context-core logs as 'agent/AI build work, music reactivation.'"
 ---
 
 # Vibe-Coding Games (Matter.js)

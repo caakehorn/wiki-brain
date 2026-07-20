@@ -45,6 +45,9 @@ connections:
   - page: wiki/people/tom
     type: supplied-by
     claim: "Tom is the period's simultaneous crisis anchor and supply line; the dual role sets up the spring 2026 rupture."
+  - page: wiki/mind/concepts/bunker-core
+    type: contains
+    claim: "Bunker Core is named in Dan's own 2026 'Bifurcated Daily OS' self-description as one half of a two-track life this period documents in full — survival work alongside a self-built technical sovereignty stack."
 ---
 
 

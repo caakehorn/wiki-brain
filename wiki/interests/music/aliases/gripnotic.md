@@ -12,6 +12,7 @@ sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/twitter/
+  - raw/self/favorites/2025_MASTER_CRATE.csv
 related:
   - wiki/interests/music/overview
   - wiki/interests/music/aliases/mogzart
@@ -44,6 +45,27 @@ The output type is itself informative: "remixes and AI voice drops" means the ca
 | Tempo range | House (120–130 BPM) to DnB-adjacent (170+) depending on release |
 | Differentiator from MOGZART | GRIPNOTIC is more contemporary, harder-edged; MOGZART was more trap-adjacent |
 | Differentiator from SLOPPP | SLOPPP was early exploratory; GRIPNOTIC is refined, intentional |
+
+## Current DJ crate (2025)
+
+A Spotify playlist export, "2025_MASTER_CRATE" (232 tracks, curated by
+`dfrank88`, most additions logged October 31, 2025), gives the first
+quantified, dated picture of what Dan is actually mixing rather than a
+genre label applied after the fact. The crate is heavily current — 138
+of 232 tracks (59%) were released in 2025 itself, with the remainder
+skewing recent (26 from 2024, 20 from 2023) and only a handful of older
+tracks reaching back to 2002. Genre tags confirm and sharpen the
+"bass house / tech house" description above with real weight behind
+each label: dubstep (63 tracks), bass music (59), bass house (54), tech
+house (34), riddim (29), house (24), g-house (24), drum and bass (22),
+stutter house (22), and UK garage (21) dominate, with smaller pockets of
+future bass, edm trap, deathstep, and moombahton. The crate runs hot —
+average energy 0.80 out of 1.0, average tempo 133 BPM (range 72–179) —
+and skews mostly non-explicit (34 of 232 explicit-tagged). No single
+artist dominates; Fred again.. leads with 6 tracks, followed by rSUN,
+NGHTMRE, Diplo, AC Slater, LYNY, and Odd Mob at 3–5 each — a wide,
+current-scene sampling rather than a small set of favorites played
+heavily.
 
 ## Production Chain
 

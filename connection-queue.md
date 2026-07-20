@@ -7,14 +7,8 @@ CONNECTIONS_SPEC.md. If no defensible claim exists, mark the pair
 `rejected:` with one line of reasoning — a considered non-edge is also
 knowledge. Process top-down; strike entries as done.
 
-## [14.0] wiki/mind/synthesis/attachment-trauma-bond.md <-> wiki/timeline/events/eli-incident.md
-- shared source: `raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx`
-- shared source: `raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx`
-- wiki/mind/synthesis/attachment-trauma-bond.md names 'eli incident' unlinked
-- wiki/mind/synthesis/attachment-trauma-bond.md names 'the eli incident' unlinked
-- co-cited from 3 pages
-- shared tags: trauma-bond, infidelity
-- [ ] type: ______  claim: ______
+## [14.0] wiki/mind/synthesis/attachment-trauma-bond.md <-> wiki/timeline/events/eli-incident.md **(DONE 2026-07-20)**
+- type: evidenced-by (both directions) — added typed edges + prose wikilink fix on both pages.
 
 ## [12.9] wiki/people/danielle-onesi.md <-> wiki/timeline/events/timeline.md
 - shared source: `raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md`
@@ -101,12 +95,8 @@ knowledge. Process top-down; strike entries as done.
 - co-cited from 4 pages
 - [ ] type: ______  claim: ______
 
-## [10.5] wiki/mind/concepts/forensic-method.md <-> wiki/work/tech/max-framework/overview.md
-- shared source: `raw/self/dox-md/Gemini-_13.md`
-- wiki/work/tech/max-framework/overview.md names 'forensic methodology' unlinked
-- wiki/work/tech/max-framework/overview.md names 'lossless retention' unlinked
-- co-cited from 2 pages
-- shared tags: politics, forensic-analysis
+## [10.5] wiki/mind/concepts/forensic-method.md <-> wiki/work/tech/max-framework/overview.md **(DONE 2026-07-20)**
+- type: instance-of/contains — added.
 - [ ] type: ______  claim: ______
 
 ## [10.2] wiki/mind/concepts/forensic-method.md <-> wiki/mind/synthesis/totality-themes.md
@@ -145,13 +135,8 @@ knowledge. Process top-down; strike entries as done.
 - shared tags: trauma-bond
 - [ ] type: ______  claim: ______
 
-## [9.2] wiki/mind/concepts/forensic-method.md <-> wiki/mind/synthesis/attachment-trauma-bond.md
-- shared source: `raw/self/dox-md/Gemini-_07.md`
-- shared source: `raw/self/dox-md/Gemini-_18.md`
-- wiki/mind/synthesis/attachment-trauma-bond.md names 'forensic analysis' unlinked
-- co-cited from 6 pages
-- shared tags: trauma-bond
-- [ ] type: ______  claim: ______
+## [9.2] wiki/mind/concepts/forensic-method.md <-> wiki/mind/synthesis/attachment-trauma-bond.md **(DONE 2026-07-20)**
+- type: instance-of (both directions) — added.
 
 ## [9.1] wiki/mind/concepts/node-locking.md <-> wiki/self/chats/gemini-02.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted — storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**
 - shared source: `raw/self/dox-md/Gemini-_07.md`
@@ -222,20 +207,11 @@ knowledge. Process top-down; strike entries as done.
 - shared tags: politics
 - [ ] type: ______  claim: ______
 
-## [8.8] wiki/mind/concepts/conflict-architecture.md <-> wiki/mind/synthesis/attachment-trauma-bond.md
-- shared source: `raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx`
-- shared source: `raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx`
-- shared source: `raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md`
-- co-cited from 4 pages
-- shared tags: trauma-bond
-- [ ] type: ______  claim: ______
+## [8.8] wiki/mind/concepts/conflict-architecture.md <-> wiki/mind/synthesis/attachment-trauma-bond.md **(DONE 2026-07-20)**
+- type: mirrors (both directions) — added.
 
-## [8.5] wiki/mind/synthesis/political-psyops.md <-> wiki/mind/synthesis/totality-themes.md
-- shared source: `raw/self/dox-md/Gemini-_21 copy.md`
-- shared source: `raw/self/chats/j6-chat.md`
-- co-cited from 6 pages
-- shared tags: politics, forensic-analysis
-- [ ] type: ______  claim: ______
+## [8.5] wiki/mind/synthesis/political-psyops.md <-> wiki/mind/synthesis/totality-themes.md **(DONE 2026-07-20)**
+- type: component-of/contains — added.
 
 ## [8.4] wiki/people/vanessa-frank.md <-> wiki/self/context-core.md
 - shared source: `raw/self/dox-md/Gemini-_18.md`

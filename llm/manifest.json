@@ -3,21 +3,21 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 337,
+ "page_count": 340,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
    "title": "Chemical Architecture",
    "summary": "Dan runs a deliberately engineered neurochemical system and explicitly rejects the recovery-industry frame for it. The load-bearing fact: **daily Suboxone si...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/chemical-architecture.txt",
-   "bytes": 7261
+   "bytes": 11451
   },
   {
    "page": "wiki/health/hyperreflexivity.md",
    "title": "Hyperreflexivity and the Anxiety Loop",
    "summary": "Dan has, at least once, gone looking for a clinical-grade account of his own \"crippling social anxiety\" \u2014 not through a therapist, but by opening an AI chat ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/hyperreflexivity.txt",
-   "bytes": 8341
+   "bytes": 9796
   },
   {
    "page": "wiki/health/index.md",
@@ -262,7 +262,7 @@
    "title": "Gripnotic",
    "summary": "**GRIPNOTIC** is Dan Frank's current primary music brand, developed through the 2015\u20132019 Uniontown basement years (per the CATO timeline: \"Uniontown basemen...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/music/aliases/gripnotic.txt",
-   "bytes": 5459
+   "bytes": 6741
   },
   {
    "page": "wiki/interests/music/aliases/mogged-up.md",
@@ -391,11 +391,18 @@
    "bytes": 13323
   },
   {
+   "page": "wiki/mind/concepts/bunker-core.md",
+   "title": "Bunker Core",
+   "summary": "Bunker Core is the name Dan has given to a self-built, local-first technical stack \u2014 SQLite-based forensics run directly against his own `~/Library/Messages/...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/bunker-core.txt",
+   "bytes": 3924
+  },
+  {
    "page": "wiki/mind/concepts/conflict-architecture.md",
    "title": "Conflict Architecture",
    "summary": "The \"conflict architecture\" refers to the involuntary cognitive process by which Dan's Ti-dominant processing engine applies forensic resolution logic to int...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/conflict-architecture.txt",
-   "bytes": 14278
+   "bytes": 14574
   },
   {
    "page": "wiki/mind/concepts/contact-gini.md",
@@ -430,7 +437,7 @@
    "title": "The Forensic Method",
    "summary": "The forensic method is Dan's cognitive default, not a tool he picks up: every domain that contains evidence \u2014 a decade of relationship messages, raw J6 foota...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/forensic-method.txt",
-   "bytes": 7014
+   "bytes": 7841
   },
   {
    "page": "wiki/mind/concepts/institutional-out.md",
@@ -458,7 +465,7 @@
    "title": "mind \u2014 index",
    "summary": "Beliefs, ideology, psychology, and values. The domain is organized in four layers: **profile/** holds the measured personality results and their detailed bre...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/index.txt",
-   "bytes": 7651
+   "bytes": 7831
   },
   {
    "page": "wiki/mind/profile/big-five-psychometrics.md",
@@ -500,21 +507,21 @@
    "title": "Linguistic Profile \u2014 Voice, Register, Stylometrics",
    "summary": "Dan's language is one of the most-measured things about him: two independent corpora (97,199 sent iMessages 2015\u20132025 and the @danfrank Twitter archive back ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/linguistic-profile.txt",
-   "bytes": 6138
+   "bytes": 8185
   },
   {
    "page": "wiki/mind/profile/socionics-and-attitudinal.md",
    "title": "Socionics ILI-Ni, Attitudinal Psyche & Alignment",
    "summary": "Three secondary systems round out the profile, and each captures something the MBTI and Enneagram miss: Socionics explains the *fatalism*, Attitudinal Psyche...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/socionics-and-attitudinal.txt",
-   "bytes": 6098
+   "bytes": 6408
   },
   {
    "page": "wiki/mind/profile/voice-modes.md",
    "title": "Voice Modes \u2014 Dan's Texting Register by Emotional State",
    "summary": "\"forensic intimacy,\" the fixed mechanics that never change. This page covers the layer on top of that baseline: eight distinct **modes**, each a trigger-acti...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/voice-modes.txt",
-   "bytes": 7579
+   "bytes": 7951
   },
   {
    "page": "wiki/mind/psychosexual/arrangement-history.md",
@@ -570,7 +577,7 @@
    "title": "AI Collaborative Analysis",
    "summary": "Large language models occupy a specific, unusual role in Dan's cognitive life: not conversational companions but external processors \u2014 memory, structuring en...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/ai-collaborative-analysis.txt",
-   "bytes": 20024
+   "bytes": 20311
   },
   {
    "page": "wiki/mind/synthesis/ancestral-dialectic.md",
@@ -584,7 +591,7 @@
    "title": "Attachment Trauma Bond and Aura Illness",
    "summary": "The ten-year relationship between Dan and [[wiki/people/annie-ulmer|Annie]], spanning from their initial meeting on Thanksgiving weekend in November 2015 to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/attachment-trauma-bond.txt",
-   "bytes": 11920
+   "bytes": 12739
   },
   {
    "page": "wiki/mind/synthesis/block-unblock-loop.md",
@@ -654,7 +661,7 @@
    "title": "Political Psyops & Hybrid Events",
    "summary": "Dan's political skepticism is not partisan; it is the forensic default applied to institutions on every side. A democratic socialist with zero Trump or MAGA ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/political-psyops.txt",
-   "bytes": 11549
+   "bytes": 11863
   },
   {
    "page": "wiki/mind/synthesis/supply-network.md",
@@ -668,7 +675,7 @@
    "title": "Totality Themes",
    "summary": "This synthesis extracts the recurring structural themes present across the entirety of the ingested corpus. By cross-referencing massive, disparate datasets\u2014...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/totality-themes.txt",
-   "bytes": 36137
+   "bytes": 36689
   },
   {
    "page": "wiki/mind/synthesis/vertical-authority-skepticism.md",
@@ -680,9 +687,9 @@
   {
    "page": "wiki/people/aaron.md",
    "title": "Aaron",
-   "summary": "Contact +17245624801. Self intro: \"Hey, this is Aaron!\". 38 messages. Casual direct introduction.",
+   "summary": "Aaron is a short-lived but substantive iMessage contact (`+17245624801`, 38 messages, August 21 \u2013 September 13, 2025) whose thread's real value is a single r...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/aaron.txt",
-   "bytes": 798
+   "bytes": 3356
   },
   {
    "page": "wiki/people/al.md",
@@ -710,7 +717,7 @@
    "title": "Alexis Armel (\u201cLex\u201d)",
    "summary": "**Role / Relationship:** Prior relationship (pre-Annie); referenced as \"Lex\" / Alexis Armel in life calendar, profile dumps, attachment narratives, and photo...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/alexis-armel.txt",
-   "bytes": 19997
+   "bytes": 21610
   },
   {
    "page": "wiki/people/ally-lubin.md",
@@ -731,7 +738,7 @@
    "title": "Annie (Anne Louise Ulmer)",
    "summary": "This page is also the largest single deployment anywhere in the corpus of",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 44834
+   "bytes": 45851
   },
   {
    "page": "wiki/people/annoying.md",
@@ -750,9 +757,9 @@
   {
    "page": "wiki/people/bekah-fullem.md",
    "title": "Bekah Fullem",
-   "summary": "Rebekah \"Bekah\" Fullem reached out to Dan twice, seven weeks apart, in early 2020 \u2014 first in acute crisis over her dying cat and a request for money, then ag...",
+   "summary": "Rebekah \"Bekah\" Fullem's contact with Dan is preserved in a single iMessage thread that a full two-sided export (handle `+17245629389`, 153 messages, Feb 9 \u2013...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/bekah-fullem.txt",
-   "bytes": 3298
+   "bytes": 5677
   },
   {
    "page": "wiki/people/bill-ulmer.md",
@@ -841,9 +848,9 @@
   {
    "page": "wiki/people/charles-davenport.md",
    "title": "Charles Davenport",
-   "summary": "**Role:** Early NYC contact / logistics thread (2010). Part of initial digital outreach around Brooklyn/NYC move period (post-Full Sail, Ishlab studio). Brie...",
+   "summary": "Charles Davenport is a thin, early Facebook contact whose entire documented relationship with Dan is a four-message thread spanning January to December 2010 ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/charles-davenport.txt",
-   "bytes": 2286
+   "bytes": 2328
   },
   {
    "page": "wiki/people/christian-hanson.md",
@@ -1142,9 +1149,9 @@
   {
    "page": "wiki/people/dakota.md",
    "title": "Dakota",
-   "summary": "**Role:** Little Caesars (LC) employee and member of Timmy's friend group at the BFS Foods building. Provided initial disclosure to Dan that Anita was blamin...",
+   "summary": "Dakota is a Little Caesars employee at the BFS Foods building and a member of [[wiki/people/timmy|Timmy]]'s friend group. He was the first person to tell Dan...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/dakota.txt",
-   "bytes": 7068
+   "bytes": 2078
   },
   {
    "page": "wiki/people/dan-polyak.md",
@@ -1200,7 +1207,7 @@
    "title": "Dimitri",
    "summary": "Dimitri, the Greek manager of Au Za'atar Midtown, holds a singular distinction in Dan's entire employment record: \"the only boss or manager or supervisor who...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/dimitri.txt",
-   "bytes": 1946
+   "bytes": 4075
   },
   {
    "page": "wiki/people/drew-mcgettigan.md",
@@ -1305,7 +1312,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 18479
+   "bytes": 19169
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1457,9 +1464,9 @@
   {
    "page": "wiki/people/josh-brannan.md",
    "title": "Josh Brannan",
-   "summary": "**Role:** Political mirror / contact. Shared \"josh brannan is innocent.wav\" AI-TTS file as last documented exchange (sacred joke / political reference). Part...",
+   "summary": "Josh Brannan is a Uniontown-era friend Dan reconnects with directly once in the preserved corpus \u2014 a single warm, joking Facebook exchange on February 27, 20...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/josh-brannan.txt",
-   "bytes": 1795
+   "bytes": 3397
   },
   {
    "page": "wiki/people/josh-coccagna.md",
@@ -1555,9 +1562,9 @@
   {
    "page": "wiki/people/maddox.md",
    "title": "Maddox",
-   "summary": "**Role:** Little Caesars (LC) employee at the BFS Foods building (same location as gas station side). Key unsolicited third-party witness to the May 21, 2026...",
+   "summary": "Maddox is a Little Caesars employee at the BFS Foods building. On May 21, 2026, he joined a sidewalk conversation between Dan and",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/maddox.txt",
-   "bytes": 7064
+   "bytes": 2509
   },
   {
    "page": "wiki/people/manuel.md",
@@ -1569,9 +1576,9 @@
   {
    "page": "wiki/people/marc-charles.md",
    "title": "Marc Charles",
-   "summary": "**Role:** Golf friend from amateur circles (PA/local club). Discussed club tech (Franko customs, Taylormade), scores (90s to 85s), practice vs. fun mindset, ...",
+   "summary": "Marc Charles is a longtime, low-intensity Facebook contact who spans two distinct registers: casual golf talk in 2018 and a warmer, more personal 2017 exchan...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/marc-charles.txt",
-   "bytes": 4930
+   "bytes": 2564
   },
   {
    "page": "wiki/people/marla.md",
@@ -1583,9 +1590,9 @@
   {
    "page": "wiki/people/marty-martin.md",
    "title": "Marty Martin",
-   "summary": "**Role:** BFS Foods gas station coworker (~6 months tenure as of May 2026). Dan's primary trusted source and designated intelligence asset only. Provided key...",
+   "summary": "Marty Martin is a BFS Foods gas-station coworker, roughly six months into the job by May 2026, whom the bootloader synthesis names Dan's primary trusted sour...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/marty-martin.txt",
-   "bytes": 7627
+   "bytes": 4094
   },
   {
    "page": "wiki/people/mary-kate.md",
@@ -1610,10 +1617,10 @@
   },
   {
    "page": "wiki/people/max-danielle-bf.md",
-   "title": "Max (Danielle's BF / \"the Dude\", Music Guy)",
-   "summary": "**Identity:** Current boyfriend of Dan's first girlfriend Danielle (pre-Lex era, Uniontown/NYC context). \"The most wild dude I've ever met\" who \"knows more a...",
+   "title": "Max (Danielle's Boyfriend)",
+   "summary": "Max is the current boyfriend of Danielle, Dan's first girlfriend from the pre-Alexis Uniontown era, encountered well after that relationship had ended. Dan's...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/max-danielle-bf.txt",
-   "bytes": 7120
+   "bytes": 3552
   },
   {
    "page": "wiki/people/max.md",
@@ -1639,9 +1646,9 @@
   {
    "page": "wiki/people/michael-hinkle.md",
    "title": "Michael Hinkle",
-   "summary": "**Role:** FB contact with dedicated message thread. Part of social network graph from inbox data.",
+   "summary": "Michael Hinkle is a Facebook contact with no documented reply anywhere in the corpus. The entire thread is three consecutive messages Dan sends on July 14, 2...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/michael-hinkle.txt",
-   "bytes": 913
+   "bytes": 1209
   },
   {
    "page": "wiki/people/mike-cordaro.md",
@@ -1723,9 +1730,9 @@
   {
    "page": "wiki/people/ryan-lisac.md",
    "title": "Ryan Lisac",
-   "summary": "Childhood/early peer. Core figure in the \"Snob Squad\" developmental arc.",
+   "summary": "Ryan Lisac is a childhood or early-peer friend and the core figure in what Dan's own notes call the \"Snob Squad\" \u2014 a developmental era with its own vocabular...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ryan-lisac.txt",
-   "bytes": 1432
+   "bytes": 2102
   },
   {
    "page": "wiki/people/ryan-scherich.md",
@@ -1751,9 +1758,9 @@
   {
    "page": "wiki/people/sean-teets.md",
    "title": "Sean Teets",
-   "summary": "**Role:** Casual / peripheral contact. Low-volume FB exchanges (7 total messages). Topics include possible substance shorthand (\"Mushys and k\"), item sales (...",
+   "summary": "Sean Teets is a peripheral Facebook contact with a seven-message thread spanning October 2017 to August 2018, almost entirely initiated by Dan. Two of the th...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/sean-teets.txt",
-   "bytes": 1961
+   "bytes": 1968
   },
   {
    "page": "wiki/people/seth-ledonne.md",
@@ -1765,16 +1772,16 @@
   {
    "page": "wiki/people/shannon.md",
    "title": "Shannon",
-   "summary": "Contact +17245575578. \"Hey Daniel it\u2019s Shannon give me a call when you get a c...\". 23 messages. Direct name intro, call request. Low-volume personal.",
+   "summary": "Shannon is a real estate agent who hired Dan for drone photography and videography work over a roughly two-month window, November 2018 to January 2019 \u2014 the ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/shannon.txt",
-   "bytes": 1129
+   "bytes": 2064
   },
   {
    "page": "wiki/people/shelbie-breakiron.md",
    "title": "Shelbie Breakiron",
-   "summary": "Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams, Snapchat premium) Dan was seeing on the side during the spring and summer of 2019, in a ...",
+   "summary": "Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams, Snapchat premium) Dan financially supported and saw on the side for about three months i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/shelbie-breakiron.txt",
-   "bytes": 5668
+   "bytes": 6941
   },
   {
    "page": "wiki/people/stephanie-nalbone.md",
@@ -1921,14 +1928,28 @@
    "title": "424 Bedford Ave (NYC-1)",
    "summary": "424 Bedford Ave, Apartment 6C, in Williamsburg, Brooklyn was Dan's first New York apartment \u2014 the home base of the **NYC-1** period (April 2010 \u2013 May 2013) a...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/424-bedford-ave.txt",
-   "bytes": 4491
+   "bytes": 4627
+  },
+  {
+   "page": "wiki/places/90th-st-manhattan.md",
+   "title": "90th St, Manhattan (NYC-1's third year)",
+   "summary": "A sublet on 90th Street between 3rd and Lexington, on the Upper East Side, was Dan and [[wiki/people/alexis-armel|Alexis]]'s final New York address \u2014 the thi...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/90th-st-manhattan.txt",
+   "bytes": 3960
   },
   {
    "page": "wiki/places/index.md",
    "title": "places \u2014 index",
    "summary": "Homes, cities, and significant locations. The quantified movement record is at [[wiki/self/location-history]].",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/index.txt",
-   "bytes": 1054
+   "bytes": 1371
+  },
+  {
+   "page": "wiki/places/seven-springs.md",
+   "title": "Seven Springs",
+   "summary": "Seven Springs is a ski resort about 25 miles from Uniontown that functioned as Dan's principal social world every weekend throughout his adolescence \u2014 not a ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/seven-springs.txt",
+   "bytes": 3713
   },
   {
    "page": "wiki/self/ancestry.md",
@@ -2138,7 +2159,7 @@
    "title": "Eli Incident",
    "summary": "The event that ended the Annie decade in substance if not yet in form: a sustained concealed affair between [[wiki/people/annie-ulmer]] and her coworker Eli,...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/eli-incident.txt",
-   "bytes": 8763
+   "bytes": 9017
   },
   {
    "page": "wiki/timeline/events/end-fight.md",
@@ -2243,7 +2264,7 @@
    "title": "Synthesis concepts injector pass 2026-06-23: expanded _18 section + added dedicated Bifurcated Daily OS + Decoupling/Grounding Paradox verbatim (cold data ledger/chat.db epistemic cross); migration/OS/work entropy ties. Cross all Gemini sources. See /tmp/gemini-concepts-injection.md.",
    "summary": "**Date range:** 2025",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2025-collapse.txt",
-   "bytes": 7891
+   "bytes": 8174
   },
   {
    "page": "wiki/timeline/periods/covid-era-2020.md",
@@ -2257,7 +2278,7 @@
    "title": "The Dark Era \u2014 Opiates and the Body (2007\u20132008)",
    "summary": "The two years between the November 2005 parental rupture and the September 2008 departure for Full Sail are when the chemical architecture that has run conti...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/dark-era-2007-2008.txt",
-   "bytes": 4140
+   "bytes": 4809
   },
   {
    "page": "wiki/timeline/periods/dec-2025-spike.md",
@@ -2348,7 +2369,7 @@
    "title": "MAX Framework",
    "summary": "**CATO vs MAX distinction (from CATO sources + core)**",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/tech/max-framework/overview.txt",
-   "bytes": 8938
+   "bytes": 9246
   },
   {
    "page": "wiki/work/tech/mneme/overview.md",
@@ -2362,7 +2383,7 @@
    "title": "Vibe-Coding Games (Matter.js)",
    "summary": "A 2025\u201326 side-project line: browser physics games built entirely through AI-directed \"vibe coding,\" with Dan as conceptual director rather than implementer....",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/tech/vibe-coding-games.txt",
-   "bytes": 1771
+   "bytes": 2058
   }
  ]
 }

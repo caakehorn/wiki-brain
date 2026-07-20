@@ -28,6 +28,9 @@ connections:
   - page: wiki/mind/concepts/attachment-model
     type: contextualizes
     claim: "A follow-up session reframes the anxiety loop as largely parasitized by the unresolved Annie situation and the post-closure housing void rather than a freestanding clinical pattern, and develops the related 'mojo and magic' attraction-outcome concept documented there in full."
+  - page: wiki/timeline/periods/dark-era-2007-2008
+    type: evidences
+    claim: "The 2025 tooth-loss disclosure, with Dan's own causal chain back to teenage bulimia and decades of dentist avoidance, is the corpus's clearest first-person link between the adolescent eating disorder and a specific, dated adult physical-health outcome."
 ---
 
 # Hyperreflexivity and the Anxiety Loop
@@ -99,6 +102,25 @@ the sale of his childhood home at
 [[wiki/places/337-saratoga-drive]], and the identity structure built
 around the relationship going with it), which this page does not
 re-derive.
+
+## A physical toll: two lost teeth
+
+Later in the same session, unprompted, Dan adds a fourth compounding
+stressor to the three already named: "maybe the most detrmiental of all
+is that i recently lost 2 teeth, and one is like the 'vampire' tooth
+which is super visible." He supplies his own causal chain without
+hedging — "bulimic as a high schooler candy as a staple of my diet
+terrified of dentist (aka haven't gone) suboxone cigarettes" — tracing a
+direct line from the [[wiki/timeline/periods/dark-era-2007-2008|adolescent
+eating disorder]] documented on the 2007–2008 dark-era page through
+decades of dentist avoidance to a visible adult physical consequence,
+landing at the same moment as the Annie collapse and layering a
+self-conscious image wound on top of an already-low-self-esteem
+baseline: "annie completely knocked the wind out of me and i was
+completely without confidence and THEN there's the additional
+self-consious, humiliating image issue that comes with that." This is
+the corpus's clearest first-person link between the teenage bulimia and
+a specific, dated adult physical-health outcome.
 
 ## A follow-up reframe: signal, not noise
 

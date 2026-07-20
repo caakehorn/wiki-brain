@@ -33,6 +33,9 @@ connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: contains
     claim: "The music-as-authentic-thread section states in brief what the four-mode thesis argues in full: the self-assembling channel."
+  - page: wiki/mind/synthesis/political-psyops
+    type: contains
+    claim: "The 'Political Intensity and Structural Decay' section states in brief what the psyops page argues in full: the post-partisan, both-parties-captured diagnosis and the focus on procedural mechanics over tribal loyalty."
   - page: wiki/mind/concepts/conflict-architecture
     type: contains
     claim: "The LLM-venue section reads the conflict architecture against the AI channel — the recursion winning the bandwidth war."
@@ -45,6 +48,9 @@ connections:
   - page: wiki/mind/synthesis/intake-constancy
     type: contains
     claim: "The two-constants section carries the intake-constancy finding; the standalone argument lives on its own page."
+  - page: wiki/people/ryan-lisac
+    type: parallels
+    claim: "The 'Snob Squad' name road-tested here for the 2026 DJ-identity relaunch is a deliberate callback to the childhood-era vocabulary originated around Ryan Lisac, not a coincidence of naming."
 ---
 
 
