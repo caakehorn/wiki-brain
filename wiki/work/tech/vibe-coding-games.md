@@ -12,6 +12,10 @@ related:
   - wiki/work/tech/grok-build/overview
   - wiki/mind/synthesis/ai-collaborative-analysis
 tags: [forensic-analysis, ai-collaboration]
+connections:
+  - page: wiki/mind/concepts/bunker-core
+    type: co-occurs
+    claim: "Bunker Core, the iMessage Analysis Toolkit, and the vibe-coded games all belong to the same 2025–26 tool-building wave — the period context-core logs as 'agent/AI build work, music reactivation.'"
 ---
 
 # Vibe-Coding Games (Matter.js)

@@ -12,6 +12,7 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/legal/bfs-dispute/BFS_BOOTLOADER_v2.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
 related:
   - wiki/self/context-core
   - wiki/mind/profile/deviance-mapping
@@ -63,10 +64,20 @@ neurochemical engineering" ([[wiki/mind/profile/deviance-mapping]]).
 The opiate arc: first opiate (Roxicet → Oxy) in **2007**, age 18–19, during
 the post-rupture years; five months from first use to addiction; then the
 stabilization at Full Sail's end — Suboxone day-zero February 17, 2010.
-Sixteen unbroken years followed. There is no detox attempt, no relapse, and
-no recovery-program participation anywhere in the record; the system is
-maintained, not fought. Alcohol was excluded early and permanently — the
-one substance the family history made radioactive.
+Sixteen unbroken years followed on the maintenance dose itself: no relapse
+back to full opiate use, and no recovery-program participation anywhere in
+the record. One real exception to a strict "no detox attempt" reading
+surfaces early in the [[wiki/people/annie-ulmer|Annie]] relationship: on
+December 8, 2015, just ten days after the corpus's first "YOU ARE MY
+EVERYTHING," the two discuss quitting an unspecified substance together
+cold turkey — "if you are okay going cold turkey, I will do it with you,"
+framed around shared spending ("I don't want to spend every penny I have
+on it") and a wish to avoid "the road you and lex did." Nothing in the
+corpus indicates this attempt held; the relationship's later record shows
+the same substance patterns continuing, and the exchange reads as an
+early, idealistic pact rather than a sustained recovery effort. Alcohol
+was excluded early and permanently — the one substance the family history
+made radioactive.
 
 **Informed speculation:** the selectivity is the interesting part. Four
 family members across three generations (mother, grandmother,

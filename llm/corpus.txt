@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-339 pages, ~472,600 tokens.
+340 pages, ~474,480 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -24,6 +24,7 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/legal/bfs-dispute/BFS_BOOTLOADER_v2.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
 related:
   - wiki/self/context-core
   - wiki/mind/profile/deviance-mapping
@@ -75,10 +76,20 @@ neurochemical engineering" ([[wiki/mind/profile/deviance-mapping]]).
 The opiate arc: first opiate (Roxicet → Oxy) in **2007**, age 18–19, during
 the post-rupture years; five months from first use to addiction; then the
 stabilization at Full Sail's end — Suboxone day-zero February 17, 2010.
-Sixteen unbroken years followed. There is no detox attempt, no relapse, and
-no recovery-program participation anywhere in the record; the system is
-maintained, not fought. Alcohol was excluded early and permanently — the
-one substance the family history made radioactive.
+Sixteen unbroken years followed on the maintenance dose itself: no relapse
+back to full opiate use, and no recovery-program participation anywhere in
+the record. One real exception to a strict "no detox attempt" reading
+surfaces early in the [[wiki/people/annie-ulmer|Annie]] relationship: on
+December 8, 2015, just ten days after the corpus's first "YOU ARE MY
+EVERYTHING," the two discuss quitting an unspecified substance together
+cold turkey — "if you are okay going cold turkey, I will do it with you,"
+framed around shared spending ("I don't want to spend every penny I have
+on it") and a wish to avoid "the road you and lex did." Nothing in the
+corpus indicates this attempt held; the relationship's later record shows
+the same substance patterns continuing, and the exchange reads as an
+early, idealistic pact rather than a sustained recovery effort. Alcohol
+was excluded early and permanently — the one substance the family history
+made radioactive.
 
 **Informed speculation:** the selectivity is the interesting part. Four
 family members across three generations (mother, grandmother,
@@ -178,6 +189,9 @@ connections:
   - page: wiki/mind/concepts/attachment-model
     type: contextualizes
     claim: "A follow-up session reframes the anxiety loop as largely parasitized by the unresolved Annie situation and the post-closure housing void rather than a freestanding clinical pattern, and develops the related 'mojo and magic' attraction-outcome concept documented there in full."
+  - page: wiki/timeline/periods/dark-era-2007-2008
+    type: evidences
+    claim: "The 2025 tooth-loss disclosure, with Dan's own causal chain back to teenage bulimia and decades of dentist avoidance, is the corpus's clearest first-person link between the adolescent eating disorder and a specific, dated adult physical-health outcome."
 ---
 
 # Hyperreflexivity and the Anxiety Loop
@@ -249,6 +263,25 @@ the sale of his childhood home at
 [[wiki/places/337-saratoga-drive]], and the identity structure built
 around the relationship going with it), which this page does not
 re-derive.
+
+## A physical toll: two lost teeth
+
+Later in the same session, unprompted, Dan adds a fourth compounding
+stressor to the three already named: "maybe the most detrmiental of all
+is that i recently lost 2 teeth, and one is like the 'vampire' tooth
+which is super visible." He supplies his own causal chain without
+hedging — "bulimic as a high schooler candy as a staple of my diet
+terrified of dentist (aka haven't gone) suboxone cigarettes" — tracing a
+direct line from the [[wiki/timeline/periods/dark-era-2007-2008|adolescent
+eating disorder]] documented on the 2007–2008 dark-era page through
+decades of dentist avoidance to a visible adult physical consequence,
+landing at the same moment as the Annie collapse and layering a
+self-conscious image wound on top of an already-low-self-esteem
+baseline: "annie completely knocked the wind out of me and i was
+completely without confidence and THEN there's the additional
+self-consious, humiliating image issue that comes with that." This is
+the corpus's clearest first-person link between the teenage bulimia and
+a specific, dated adult physical-health outcome.
 
 ## A follow-up reframe: signal, not noise
 
@@ -4499,6 +4532,86 @@ target — the loop may be signal, not noise.
 
 
 ========================================================================
+PAGE: wiki/mind/concepts/bunker-core.md
+========================================================================
+
+---
+domain: mind
+page_type: concept
+title: "Bunker Core"
+status: active
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+sources:
+  - "raw/self/dox-md/Gemini-_18.md"
+  - "raw/self/dox-md/_Dan Frank's Digital Forensic Inventory .md"
+  - "raw/self/dox-md/_Openclaw Agent Setup and Data .md"
+  - raw/self/dox-md/MAX_PRIME.md
+tags: [ai-collaboration, digital-footprint, career]
+connections:
+  - page: wiki/timeline/periods/2025-collapse
+    type: component-of
+    claim: "Bunker Core is named in Dan's own 2026 'Bifurcated Daily OS' self-description as one half of a two-track life — survival work (BFS Foods, Suzanne's property operations) alongside a self-built 'High-Autonomy Technical Stack.'"
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: instantiates
+    claim: "Local, self-hosted chat.db forensics is agent tooling that extends the same evidentiary-verification principle documented elsewhere in Dan's AI use — raw message history as proof against gaslighting, automated rather than manual."
+  - page: wiki/work/tech/vibe-coding-games
+    type: co-occurs
+    claim: "Bunker Core, the iMessage Analysis Toolkit, and the vibe-coded games all belong to the same 2025–26 tool-building wave — the period context-core logs as 'agent/AI build work, music reactivation.'"
+---
+
+# Bunker Core
+
+Bunker Core is the name Dan has given to a self-built, local-first
+technical stack — SQLite-based forensics run directly against his own
+`~/Library/Messages/chat.db`, framed in his own notes as "Epistemic
+Verification" and a "cold-data ledger." It sits alongside a Gumroad
+product, the iMessage Analysis Toolkit (launched February 2026), as the
+concrete, dated output of what he calls his 2026 "High-Autonomy
+Technical Stack" — one half of a self-described "Bifurcated Daily OS,"
+the other half being survival work: [[wiki/work/bfs-foods|BFS Foods]]
+counter shifts and property management alongside his mother
+[[wiki/people/suzanne-frank|Suzanne]]. In his own framing, the return to
+Uniontown in early 2025 was a deliberate trade — leaving expensive,
+institutionally-dependent New York life for a lower-cost base from
+which to build sovereign, local tooling.
+
+## What it is, and what it isn't
+
+The primary, verifiable fact is narrow: a local database-forensics
+practice built on his own message history, plus a shipped commercial
+tool derived from the same skillset. Beyond that, "Bunker Core" starts
+functioning as much as a name for a psychological posture as for a
+piece of software — an AI-generated forensic-inventory document
+(unprompted, not primary self-report) elaborates it at length as an
+"epistemic fortress," a system built so that "no one, not even a
+partner or a platform, can rewrite his narrative without a SQL
+receipt." That framing is interpretive, not something Dan states about
+himself in the retained corpus, and the same document flags its own
+double edge without prompting: the same architecture that protects
+against being gaslit — facts that don't change based on who's shouting
+loudest — also risks functioning as insulation, "a wall of text that
+prevents external entry," optimizing for accuracy over access. Treat
+the software as documented fact and the fortress framing as a plausible
+but AI-authored interpretive overlay, not a claim Dan has made in his
+own words anywhere in the corpus.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Named alongside | iMessage Analysis Toolkit (Gumroad, launched Feb 2026) |
+| Core method | Local SQLite forensics on ~/Library/Messages/chat.db |
+| Self-framing | Half of a "Bifurcated Daily OS": survival work + technical sovereignty |
+
+**Gaps:** whether Bunker Core is a single coherent codebase or a loose
+label for an evolving set of scripts; any third-party involvement,
+collaborators, or public release beyond the Gumroad toolkit; whether
+the project is still active past its 2026 documentation window.
+
+
+========================================================================
 PAGE: wiki/mind/concepts/conflict-architecture.md
 ========================================================================
 
@@ -5563,6 +5676,7 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/concepts/institutional-out]] — the pre-installed escape mechanism at every job: fake migraines, the 9pm night class; verbatim self-stated protocol.
 - [[wiki/mind/concepts/phenomenology-lens]] — the deliberate interpretive overlay (plain-language readings of the cognitive functions and recurring loops); subordinate to documented fact.
 - [[wiki/mind/concepts/erotic-architecture]] — sexuality as controlled-chaos engineering: externalized libido, taboo as rupture, emotional consumption.
+- [[wiki/mind/concepts/bunker-core]] — the self-built local chat.db forensics stack; documented software fact alongside an AI-authored "epistemic fortress" interpretive framing.
 
 ## psychosexual — the sexuality cluster
 
@@ -7585,6 +7699,9 @@ sources:
   - "raw/self/dox-md/Crisis mode briefing.md"
   - "raw/self/dox-md/Creating robust video essays from scripts.md"
 connections:
+  - page: wiki/mind/concepts/bunker-core
+    type: instance-of
+    claim: "Local, self-hosted chat.db forensics is agent tooling that extends the same evidentiary-verification principle documented here — raw message history as proof against gaslighting, automated rather than manual."
   - page: wiki/mind/concepts/node-locking
     type: evidenced-by
     claim: "The node-locking protocol — ~403 locked nodes, cross-platform transfer commands, export redaction — is the primary behavioral evidence that the LLM venue is used as writable memory, not conversation."
@@ -30213,6 +30330,9 @@ connections:
   - page: wiki/people/tom
     type: supplied-by
     claim: "Tom is the period's simultaneous crisis anchor and supply line; the dual role sets up the spring 2026 rupture."
+  - page: wiki/mind/concepts/bunker-core
+    type: contains
+    claim: "Bunker Core is named in Dan's own 2026 'Bifurcated Daily OS' self-description as one half of a two-track life this period documents in full — survival work alongside a self-built technical sovereignty stack."
 ---
 
 
@@ -30368,6 +30488,10 @@ related:
   - wiki/people/rick-frank
   - wiki/people/suzanne-frank
 tags: [addiction-recovery]
+connections:
+  - page: wiki/health/hyperreflexivity
+    type: evidenced-by
+    claim: "A 2025 AI-chat disclosure of losing two teeth, with Dan's own causal chain back to teenage bulimia and decades of dentist avoidance, is the corpus's clearest first-person link between the eating disorder documented here and a specific, dated adult physical-health outcome."
 ---
 
 # The Dark Era — Opiates and the Body (2007–2008)
@@ -32205,6 +32329,10 @@ related:
   - wiki/work/tech/grok-build/overview
   - wiki/mind/synthesis/ai-collaborative-analysis
 tags: [forensic-analysis, ai-collaboration]
+connections:
+  - page: wiki/mind/concepts/bunker-core
+    type: co-occurs
+    claim: "Bunker Core, the iMessage Analysis Toolkit, and the vibe-coded games all belong to the same 2025–26 tool-building wave — the period context-core logs as 'agent/AI build work, music reactivation.'"
 ---
 
 # Vibe-Coding Games (Matter.js)
