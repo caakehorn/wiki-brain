@@ -616,3 +616,21 @@ re-verified on dan-annie-fallout-verdict.md; its "Girlfriend Score"
 framing (Annie 1.9/10 vs Alexis 7.1/10) is new packaging of already-
 captured stats, not new signal — not added. Podcast transcript archived
 to raw/self/dox-md/. Gates: 0 errors.
+
+## [2026-07-20] triage | self | NEW LOADER folder remaining items checked
+Checked remaining unopened items in Drive NEW LOADER folder: "extract"
+(a chat.db SQL-query-generation prompt, confirms already-documented
+bunker-core.md tooling, no new signal) and "load" (the MAX persona master
+system prompt, already documented on wiki/mind/concepts/exocortex.md's
+bootloader list — "MAX_KERNEL_DUMP_V2," radical-skepticism/normie-filter
+framing matches exocortex.md's existing MAX summary). Stylometric Profile
+docs and Phase 2 Stylometric Analysis previously confirmed already-ingested
+(linguistic-profile.md). Not opened: masterloader.pdf/masterloader2.pdf
+(binary PDFs, likely compiled versions of already-seen bootloader text),
+messages_2124702449.csv alias (916 bytes, likely a stub/shortcut file not
+real data), .DS_Store (not content), an .mp3 audio file (out of scope for
+text mining). NEW LOADER folder considered fully triaged. Next: the two
+large ChatGPT conversation-export JSONs (dfrankconversations.json ~35.7MB)
+flagged earlier as a genuinely new, unopened AI-chat corpus distinct from
+the Gemini archive — needs dedicated download+extraction handling in a
+future pass given size.
