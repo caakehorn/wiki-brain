@@ -3,40 +3,54 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["/Users/daniel/Documents/dan-wiki/raw/self/facebook/facebook-ihatedanfrank/messages/inbox/charlesdavenport_skjjehkupq/message_1.html", "/Users/daniel/Documents/dan-wiki/ingest/facebook-ihatedanfrank/messages/inbox/charlesdavenport_skjjehkupq/message_1.html"]
-related: ["wiki/self/facebook", "wiki/timeline/periods/2010s", "wiki/self/message-corpora/master-message-dump", "wiki/self/location-history"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/charlesdavenport_skjjehkupq/message_1.html
 tags: [nyc-era]
 infobox:
   name: "Charles Davenport"
   relationship_to_dan: unknown
   location: nyc
-  known_for: "Role: Early NYC contact / logistics thread (2010). Part of initial digital outreach around Brooklyn/NYC move period (pos"
+  known_for: "Early-2010 NYC contact; a four-message Facebook thread pinned to Dan's Brooklyn arrival window"
+connections:
+  - page: wiki/places/424-bedford-ave
+    type: co-occurs
+    claim: "The Jan 24, 2010 exchange ('i'm in need of another run down there') lands inside the arrival window for Dan's first Brooklyn apartment, and reads as early logistics support around that move."
+  - page: wiki/timeline/periods/2010s
+    type: instance-of
+    claim: "One of the earliest-dated exchanges in the Facebook message corpus, sampling the graph-expansion phase immediately after Dan's Brooklyn relocation."
 ---
 
 # Charles Davenport
 
-**Role:** Early NYC contact / logistics thread (2010). Part of initial digital outreach around Brooklyn/NYC move period (post-Full Sail, Ishlab studio). Brief exchanges on visits ("run down there"), contact info, and casual comments.
+Charles Davenport is a thin, early Facebook contact whose entire
+documented relationship with Dan is a four-message thread spanning
+January to December 2010 — the same window Dan relocated to Brooklyn
+and started at Ishlab. The thread carries almost no substance, but its
+dates place it right at the seam of that move, which is the only reason
+it's worth a page rather than folding into an undifferentiated contacts
+list.
 
-## Key Exchanges (full thread; 4 messages; accurate attribution from raw lines)
+## The thread
 
-| Timestamp          | Sender            | Message |
-|--------------------|-------------------|---------|
-| Dec 08, 2010 2:43:28pm | Charles Davenport | love yo pic...cute |
-| Dec 08, 2010 2:43:28pm | Charles Davenport | no homo lol |
-| May 01, 2010 5:54:49pm | Charles Davenport | how are? |
-| May 01, 2010 5:54:49pm | Charles Davenport | how everything n the nyc? |
-| Jan 24, 2010 7:10:35pm | Charles Davenport | im here...wats your #..phones on |
-| Jan 24, 2010 5:34:09pm | Dan Frank | hey if you're going to be around at some point today let me know, i'm in need of another run down there |
+The earliest message is Dan's: on January 24, 2010, he writes "hey if
+you're going to be around at some point today let me know, i'm in need
+of another run down there," to which Charles replies the same evening,
+"im here...wats your #..phones on." The phrasing — "another run down
+there" — implies a standing pattern of trips into the city that
+predates or overlaps Dan's move, though the corpus doesn't preserve
+what "down there" refers to. A May 1 exchange is purely a check-in
+("how are?", "how everything n the nyc?"), and a December 8 exchange is
+brief, casual banter unrelated to the earlier logistics ("love yo
+pic...cute," "no homo lol").
 
-## Context
-- Earliest sampled FB messages in corpus (Jan-Dec 2010).
-- "in the nyc" + "run down there" + phone exchange align with FB profile data: Brooklyn move Jan 3 2010, Ishlab (Mar 2010–Feb 2011, Assistant, Brooklyn), Creative License NYC work.
-- Very low volume; typical of early graph expansion vs later leisure (golf) or core ([[wiki/people/annie-ulmer|Annie]]) threads.
-- "no homo lol" reflects era-typical casual tone in short FB comments.
+## Corpus record
 
-## Related
-[[wiki/self/facebook]]
-[[wiki/timeline/periods/2010s]]
-[[wiki/self/message-corpora/master-message-dump]]
-[[wiki/self/location-history]]
+| Metric | Value |
+|---|---|
+| Messages | 4 (Facebook) |
+| Date range | 2010-01-24 – 2010-12-08 |
+| Defining content | The Jan 24 "run down there" logistics exchange |
+
+**Gaps:** how Dan and Charles know each other; what "down there" refers
+to; no contact beyond 2010.

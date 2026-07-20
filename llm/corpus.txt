@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-337 pages, ~471,445 tokens.
+337 pages, ~470,155 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10620,36 +10620,77 @@ PAGE: wiki/people/aaron.md
 ---
 domain: people
 page_type: entity
-status: archived
+status: active
+knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump"]
+date_modified: 2026-07-20
+date_range_start: 2025-08-21
+date_range_end: 2025-09-13
+sources:
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+tags: [politics, digital-footprint]
 infobox:
   name: "Aaron"
   relationship_to_dan: unknown
-  known_for: "Contact +17245624801. Self intro: 'Hey, this is Aaron!'. 38 messages. Casual direct introduction."
+  first_contact: 2025-08-21
+  handles: ["+17245624801"]
+  known_for: "Casual iMessage contact whose thread carries Dan's real-time political reaction to the Sept 11, 2025 Charlie Kirk assassination"
+connections:
+  - page: wiki/self/twitter
+    type: parallels
+    claim: "Aaron's thread extends the same sicko/justice-system-skeptic political engagement already documented from Dan's Twitter activity (Luigi Mangione coverage) into a second, real-time political-violence event a year later."
 ---
 
 # Aaron
 
-## Identity
-Contact +17245624801. Self intro: "Hey, this is Aaron!". 38 messages. Casual direct introduction.
+Aaron is a short-lived but substantive iMessage contact (`+17245624801`,
+38 messages, August 21 – September 13, 2025) whose thread's real value
+is a single real-time exchange: Dan's own reaction to the September 11,
+2025 assassination of Charlie Kirk, delivered the same day.
 
-## Corpus Dimensions (Aaron)
+## The Charlie Kirk exchange
+
+Aaron opens directly — "Hey, what are your thoughts on the Charlie Kirk
+shooting?" — and Dan is unhesitant and specific: "I mean I don't think
+killing CHARLIE KIRK solves anything or makes much sense... But I'm not
+upset about it." He pushes back on an emerging claim about the
+ammunition ("I do not believe they found bullets with 'trans slogans'
+on them... Wtf is a trans slogan"), reads the political fallout as
+minimal because of who Kirk was rather than despite it — "he wasn't
+really much of an ideologue. He's about as middle-of-the-road, vanilla
+milquetoast MAGA conservative there is... there's not much political
+capital to gain here" — and Aaron agrees. Asked whether Kirk's
+supporters might riot, the exchange doesn't resolve the question
+directly. The register matches the "sicko" justice-system skepticism
+already documented from Dan's Twitter activity around the earlier Luigi
+Mangione/UnitedHealthcare-CEO killing (see
+[[wiki/self/twitter|Twitter]]) — opposition to political violence in
+principle, paired with an unsentimental read of who benefits from it.
+
+## Before that: Mangione and JFK
+
+The thread's earlier content, from late August 2025, is warmer and more
+casual — Aaron responding well to a video Dan shared connecting the
+JFK assassination and Watergate to George H.W. Bush, and separately
+reacting to the Mangione case directly: "Yes, Luigi is also hot!!,"
+paired with an emphasized quote from the shared video framing the
+UnitedHealthcare CEO's killing as a proportionate response to systemic
+healthcare injustice ("we should be building statues for someone who
+chose to value turning that dude's skull into pink mist over his own
+freedom"). Aaron also shares small personal texture unprompted — audiobook
+and Harry Potter enthusiasm — and the two discuss a trip to Morgantown.
+
+## Corpus record
+
 | Metric | Value |
-|--------|-------|
-| Total messages | 38 |
-| Sample | "Hey, this is Aaron!" |
+|---|---|
+| Messages | 38 (iMessage, both directions) |
+| Date range | 2025-08-21 – 2025-09-13 |
+| Defining content | The Sept 11, 2025 Charlie Kirk assassination reaction |
 
-## Domain: Self
-Casual contact in the graph.
-
-## Notes
-Name self-provided in greeting.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
+**Gaps:** last name and how Dan and Aaron know each other; no messages
+before August 2025 or after September 13; the final message (a bare
+"?") is unanswered in the corpus.
 
 
 ========================================================================
@@ -12847,43 +12888,58 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["/Users/daniel/Documents/dan-wiki/raw/self/facebook/facebook-ihatedanfrank/messages/inbox/charlesdavenport_skjjehkupq/message_1.html", "/Users/daniel/Documents/dan-wiki/ingest/facebook-ihatedanfrank/messages/inbox/charlesdavenport_skjjehkupq/message_1.html"]
-related: ["wiki/self/facebook", "wiki/timeline/periods/2010s", "wiki/self/message-corpora/master-message-dump", "wiki/self/location-history"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/charlesdavenport_skjjehkupq/message_1.html
 tags: [nyc-era]
 infobox:
   name: "Charles Davenport"
   relationship_to_dan: unknown
   location: nyc
-  known_for: "Role: Early NYC contact / logistics thread (2010). Part of initial digital outreach around Brooklyn/NYC move period (pos"
+  known_for: "Early-2010 NYC contact; a four-message Facebook thread pinned to Dan's Brooklyn arrival window"
+connections:
+  - page: wiki/places/424-bedford-ave
+    type: co-occurs
+    claim: "The Jan 24, 2010 exchange ('i'm in need of another run down there') lands inside the arrival window for Dan's first Brooklyn apartment, and reads as early logistics support around that move."
+  - page: wiki/timeline/periods/2010s
+    type: instance-of
+    claim: "One of the earliest-dated exchanges in the Facebook message corpus, sampling the graph-expansion phase immediately after Dan's Brooklyn relocation."
 ---
 
 # Charles Davenport
 
-**Role:** Early NYC contact / logistics thread (2010). Part of initial digital outreach around Brooklyn/NYC move period (post-Full Sail, Ishlab studio). Brief exchanges on visits ("run down there"), contact info, and casual comments.
+Charles Davenport is a thin, early Facebook contact whose entire
+documented relationship with Dan is a four-message thread spanning
+January to December 2010 — the same window Dan relocated to Brooklyn
+and started at Ishlab. The thread carries almost no substance, but its
+dates place it right at the seam of that move, which is the only reason
+it's worth a page rather than folding into an undifferentiated contacts
+list.
 
-## Key Exchanges (full thread; 4 messages; accurate attribution from raw lines)
+## The thread
 
-| Timestamp          | Sender            | Message |
-|--------------------|-------------------|---------|
-| Dec 08, 2010 2:43:28pm | Charles Davenport | love yo pic...cute |
-| Dec 08, 2010 2:43:28pm | Charles Davenport | no homo lol |
-| May 01, 2010 5:54:49pm | Charles Davenport | how are? |
-| May 01, 2010 5:54:49pm | Charles Davenport | how everything n the nyc? |
-| Jan 24, 2010 7:10:35pm | Charles Davenport | im here...wats your #..phones on |
-| Jan 24, 2010 5:34:09pm | Dan Frank | hey if you're going to be around at some point today let me know, i'm in need of another run down there |
+The earliest message is Dan's: on January 24, 2010, he writes "hey if
+you're going to be around at some point today let me know, i'm in need
+of another run down there," to which Charles replies the same evening,
+"im here...wats your #..phones on." The phrasing — "another run down
+there" — implies a standing pattern of trips into the city that
+predates or overlaps Dan's move, though the corpus doesn't preserve
+what "down there" refers to. A May 1 exchange is purely a check-in
+("how are?", "how everything n the nyc?"), and a December 8 exchange is
+brief, casual banter unrelated to the earlier logistics ("love yo
+pic...cute," "no homo lol").
 
-## Context
-- Earliest sampled FB messages in corpus (Jan-Dec 2010).
-- "in the nyc" + "run down there" + phone exchange align with FB profile data: Brooklyn move Jan 3 2010, Ishlab (Mar 2010–Feb 2011, Assistant, Brooklyn), Creative License NYC work.
-- Very low volume; typical of early graph expansion vs later leisure (golf) or core ([[wiki/people/annie-ulmer|Annie]]) threads.
-- "no homo lol" reflects era-typical casual tone in short FB comments.
+## Corpus record
 
-## Related
-[[wiki/self/facebook]]
-[[wiki/timeline/periods/2010s]]
-[[wiki/self/message-corpora/master-message-dump]]
-[[wiki/self/location-history]]
+| Metric | Value |
+|---|---|
+| Messages | 4 (Facebook) |
+| Date range | 2010-01-24 – 2010-12-08 |
+| Defining content | The Jan 24 "run down there" logistics exchange |
+
+**Gaps:** how Dan and Charles know each other; what "down there" refers
+to; no contact beyond 2010.
+
 
 ========================================================================
 PAGE: wiki/people/christian-hanson.md
@@ -14711,57 +14767,44 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md", "wiki/people/anita.md", "wiki/people/timmy.md", "wiki/people/kim.md"]
-related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/maddox", "wiki/people/brandon-hill", "wiki/self/facebook"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/dox-md/BFS_BOOTLOADER_v2.md
+  - raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md
+  - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
 tags: [career]
 infobox:
   name: "Dakota"
   relationship_to_dan: unknown
-  known_for: "Role: Little Caesars (LC) employee and member of Timmy's friend group at the BFS Foods building. Provided initial disclo"
+  known_for: "Little Caesars employee in Timmy's friend group; first to disclose Anita's blame-pivot naming Dan for Timmy's firing"
+connections:
+  - page: wiki/work/bfs-foods
+    type: evidenced-by
+    claim: "Dakota is the first, hearsay disclosure channel for the Timmy blame-pivot pattern that bfs-foods.md documents in full as 'the pattern template' for Anita's operational conduct."
+  - page: wiki/people/maddox
+    type: parallels
+    claim: "Maddox's unprompted, first-person account during the May 21, 2026 sidewalk recording independently corroborates the same blame-pivot sequence Dakota disclosed to Dan earlier."
 ---
 
 # Dakota
 
-**Role:** Little Caesars (LC) employee and member of Timmy's friend group at the BFS Foods building. Provided initial disclosure to Dan that Anita was blaming him (Dan) for Timmy's firing/situation. Hearsay channel corroborated by Maddox's fuller, unprompted account during the May 21 sidewalk recording. Part of LC-side witness network for Anita's operational blame-construction pattern.
+Dakota is a Little Caesars employee, part of [[wiki/people/timmy|Timmy]]'s
+friend group at the BFS Foods building, and the first person to tell
+Dan that [[wiki/people/anita|Anita]] had pivoted blame for Timmy's
+firing onto him. No direct quotes from Dakota are preserved in the
+corpus — the disclosure is hearsay, relayed informally rather than
+through a documented message thread — but the bootloader synthesis
+treats it as credible, and it was independently corroborated weeks
+later when [[wiki/people/maddox|Maddox]] gave a fuller, unprompted,
+first-person account of the same sequence. The full narrative — Timmy's
+gambling-on-shift firing, Anita's initial blame of
+[[wiki/people/kim|Kim]], Kim's denial, and the pivot to "it was
+Daniel" despite Dan having zero involvement — is told in full on
+[[wiki/work/bfs-foods]]; this page exists to record Dakota's specific
+role as the originating witness, not to re-narrate the chain.
 
-## Key Threads / Quotes / Disclosures Table
-
-| Date/Context | Source/Thread | Quote / Context | Evidence |
-|--------------|---------------|-----------------|----------|
-| Pre-May 2026 (post-Timmy firing) | BFS_BOOTLOADER_v2 §II, §III | Dakota originally disclosed: Anita blaming Dan for Timmy's situation. | "Dakota initial disclosure"; "one of Timmy's friend group" |
-| Pre-May 2026 | BFS_BOOTLOADER_v2 §III | Blame pivot sequence: Anita tells Timmy "Kim" → Timmy confronts Kim ("It wasn't me") → Anita tells Timmy "It was Daniel." | "The blame pivot (corroborated by both Dakota and Maddox)"; Dan had zero involvement |
-| Timmy backstory | BFS_BOOTLOADER_v2 §III | Timmy (LC employee) fired for gambling on shift (VIP regular complaint); Anita reported to Kim; incidental vape-to-minor footage on corporate tape; Anita nearly fired. | Dakota as Timmy friend group node for disclosure channel |
-| 2026-05-21 recording (corroboration) | BFS_BOOTLOADER_v2 §VII | Maddox provides full reconstruction matching Dakota disclosure: "Anita said it was Kim... KIM SAID TO TIMMY 'it wasn't me' and so he asked Anita and Anita told him 'it was Daniel.'" | Maddox unsolicited; Brandon hears details for first time; "Dakota initial disclosure" elevated to direct witness account |
-| May 2026 group / LC | BFS_BOOTLOADER_v2 | LC employees (incl. Dakota, Maddox, Kim) aware of Anita patterns across building | "Kim is operationally aware of Anita's scapegoating pattern, having been targeted by it once" (parallel) |
-| Post-incident | wiki/work/bfs-foods.md, log.md | "Third-party witnesses: Maddox ... ; Dakota initial disclosure." "Timmy: full sequence + witnesses Maddox/Dakota + mom interaction." | Derived from bootloader synthesis |
-
-## Timeline
-
-- Pre-May 2026: Timmy gambling incident → Anita reports to Kim (LC mgr) → corporate tape pulled (reveals Anita underage vape sale to Timmy) → Timmy fired for gambling; Anita nearly fired for vape. Anita calls emergency staff meeting, announces card-everyone policy (reverses it per Timmy's later claim). Group text: May 12 "Team Timmy is no longer allowed... call the city cops" → May 14 "Timmy is not banned as of yet."
-- Blame pivot execution: Anita initially attributes Timmy's trouble to Kim. Timmy confronts Kim directly. Kim denies ("It wasn't me"). Anita pivots blame to Dan ("It was Daniel"). 
-- Dakota (Timmy friend group, LC): Provides initial disclosure of the pivot to Dan.
-- ~late Apr–May 2026: Dan starts BFS gas station; incident period.
-- 2026-05-18/19: Drawer shortage at gas station; $50 off-books demand from Brandon.
-- 2026-05-21: Sidewalk recording. Maddox (LC) delivers full corroborated version of the blame sequence unprompted. Dakota's disclosure confirmed.
-- Post: Dan applies to LC side (via Kim). Dakota remains LC/Timmy-group node.
-
-## Behavioral Notes
-
-Dakota channel is hearsay but treated as credible originating disclosure in bootloader (explicitly "corroborated by both Dakota and Maddox"). No direct quotes attributed to Dakota in primary sources (fuller reconstruction from Maddox). Fits pattern of LC-side awareness/skepticism of Anita (gas station GM) practices: Kim denied pivot and had prior scapegoat experience; Maddox volunteered "crazy and dramatic" + "can't do that to him if you don't even know what went wrong." Per synthesis: exemplifies [[wiki/mind/synthesis/vertical-authority-skepticism]] (Anita sole agency + narrative construction backward to fit outcomes; off-books predates via Marty parallel) and vertical authority skepticism (bottom-layer workers document/expose via witnesses). Tactical posture from bootloader: protect witnesses (light touch on Maddox/Marty equivalent; no recruitment). Ties to core low-trust: false attribution deployed when initial target refuted; Dan zero role despite pivot. "Dan had zero involvement in the Timmy situation. This is the operational template."
-
-## Connections
-
-- **Timmy / blame pivot**: [[wiki/people/timmy]] (fired LC employee, customer), [[wiki/people/anita]] (pivot architect), [[wiki/people/kim]] (initial blame target + denier).
-- **Recording corroboration**: [[wiki/people/maddox]] (LC, fuller account on May 21 sidewalk).
-- **BFS side**: [[wiki/people/marty-martin]] (group text intel, off-books culture), [[wiki/people/brandon-hill]] (demand delivery).
-- **Structure**: LC vs BFS gas station (separate rosters, same building); LC preferred for Dan fit (management quality, lower cash surface).
-- **Dispute context**: [[wiki/work/bfs-foods]] (pattern of Anita reversals/blame used to frame drawer response).
-- **Mother / external**: Suz interaction on Timmy/mom post-refusal noted in derived notes.
-
-**Cross-references:** [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/people/marty-martin]], [[wiki/people/maddox]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/facebook]], [[wiki/work/bfs-foods]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]]
-
-**Notes:** No direct documented iMessage/FB message thread with Dan in message-csv (disclosure via in-person / LC social channel as Timmy friend). "Hearsay channel but corroborated by Maddox's fuller account." Primary source is BFS_BOOTLOADER_v2.md canonical reconstruction. Protect posture: witnesses not to be named in escalation packages (per Quagmire file guidance on assets). Group text (Marty participant) + recording + disclosures establish pattern independent of Dan. Defer to raw dox-md for all verbatim. LC application / Kim exit remains parallel thread.
+**Gaps:** how Dan and Dakota know each other beyond the shared
+building; no direct quotes or message thread.
 
 
 ========================================================================
@@ -16885,7 +16928,7 @@ related: []
 
 # people — index
 
-- [[wiki/people/aaron]] — Contact +17245624801. Self intro: "Hey, this is Aaron!". 38 messages. Casual direct introduction.
+- [[wiki/people/aaron]] — iMessage contact whose thread carries Dan's real-time reaction to the Sept 11, 2025 Charlie Kirk assassination.
 - [[wiki/people/al]] — 2018 cocaine dealer ("Socialist" contact label); thread ends in an unpaid-debt confrontation.
 - [[wiki/people/alex-frank]] — Dan's semi-famous cousin; Brooklyn-based music/culture journalist (FADER, Vogue, GQ, Pitchfork); wrote the essay about Morley Frank's funeral.
 - [[wiki/people/alexander-jackson]] — From context-core: 337 sale drives move; "no post-close plan". Mixed roles at 463 amplify vertical…
@@ -16908,12 +16951,12 @@ related: []
 - [[wiki/people/bub]] — Long-running casual friend: DJ logistics, Mac troubleshooting, gaming, 2017-2020.
 - [[wiki/people/casey-bondarenka]] — Friend who overstepped during 2015 relationship turbulence with Alexis; sporadic contact through 2018.
 - [[wiki/people/chad-johnson]] — Fellow Nemacolin caddy and college student, 2017-2018.
-- [[wiki/people/charles-davenport]]
+- [[wiki/people/charles-davenport]] — Thin early-2010 Facebook contact; a four-message thread pinned to Dan's Brooklyn move.
 - [[wiki/people/christian-hanson]] — Retired NHL forward; golf regular at Nemacolin, 2017-2018.
 - [[wiki/people/christo-coan]] — Nemacolin-era golf-course coworker; co-organized Dan's Oct 2017 birthday party; passing reference to an undocumented DUI.
 - [[wiki/people/claire-ulmer]] — Annie's sister; found Milo as a stray and set his rescue in motion.
 - [[wiki/people/clyde]] — NYC psychedelics dealer (LSD, DMT, mushrooms) delivering to Dan's apartment, 2019-2020.
-- [[wiki/people/dakota]] — Dakota channel is hearsay but treated as credible originating disclosure in bootloader (explicitly…
+- [[wiki/people/dakota]] — Little Caesars employee; first to disclose Anita's blame-pivot naming Dan for Timmy's firing (see bfs-foods).
 - [[wiki/people/danielle-onesi]] — Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort).…
 - [[wiki/people/dan-polyak]] — Longtime friend; documented the April 2019 phone-number impersonation used to reach Ally Lubin, and received the same-morning account of the Bryan encounter.
 - [[wiki/people/danny-matthews]] — Realtor who sold Fran's house; also half of a swinger couple (with Nicole) Dan and Annie played with 2018–2024.
@@ -16957,7 +17000,7 @@ related: []
 - [[wiki/people/john-felix]] — 2016 household-adjacent contact; possibly a partner of Suz's (unconfirmed).
 - [[wiki/people/johnny-dealer]] — Johnny functions as reliable but transactional dealer node during 2018 crisis (peak 40k+ messages year,…
 - [[wiki/people/joe-oshnack]] — High school bandmate; fullest first-person account of Dan's pre-2020 conservative identity and its reversal.
-- [[wiki/people/josh-brannan]]
+- [[wiki/people/josh-brannan]] — Uniontown-era friend; a warm 2017 reconnection thread and the subject of a running joke with Jerad.
 - [[wiki/people/josh-coccagna]] — Golf pro mentor turned DMT-cart supplier, 2017-2019.
 - [[wiki/people/katie-fletcher]] — the 2013 interim girlfriend: the Oddball/Chappelle night, the "Vase" incident.
 - [[wiki/people/kelly-johansson]] — NYC escort Dan and Annie booked together fall 2019; pitched them as co-providers for one of her own clients.
@@ -16971,7 +17014,7 @@ related: []
 - [[wiki/people/lucas-thomas]] — Zac Shumar's friend; independent real-time eyewitness to the February 2017 house fire and arrest that sent Alexis Armel to prison.
 - [[wiki/people/lucie-dobbin]] — Longtime friend of Fran Coldren; recipient of Dan's fullest first-person account of Fran's death.
 - [[wiki/people/lukyan-mraz]] — Uniontown friend and short-lived 2015 cannabis-grow collaborator; ends in a March 2016 equipment dispute.
-- [[wiki/people/maddox]] — Maddox volunteered unprompted information without solicitation during public sidewalk exchange. Assessment…
+- [[wiki/people/maddox]] — Little Caesars employee whose unprompted sidewalk testimony confirms Anita's Timmy blame-pivot (see bfs-foods).
 - [[wiki/people/manuel]] — Au Za'atar coworker turned lasting friend, 2023-2026; Spanish-language banter.
 - [[wiki/people/marc-charles]]
 - [[wiki/people/marla]] — Paid caregiver on Fran's shift rotation; her messages corroborate the April 4, 2018 death date.
@@ -18771,37 +18814,75 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joshbrannan_vej5dzscpa/message_1.html", "raw/self/dox-md/operating_manual.md"]
-related: ["wiki/self/facebook", "wiki/people/jerad-friedline", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/political-psyops", "wiki/mind/synthesis/vertical-authority-skepticism"]
-tags: [politics]
+date_modified: 2026-07-20
+sources:
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joshbrannan_vej5dzscpa/message_1.html
+  - raw/self/dox-md/operating_manual.md
+tags: [politics, uniontown-era]
 infobox:
   name: "Josh Brannan"
   relationship_to_dan: unknown
-  known_for: "Role: Political mirror / contact. Shared 'josh brannan is innocent.wav' AI-TTS file as last documented exchange (sacred "
+  known_for: "Uniontown-era friend; a warm 2017 reconnection thread and the subject of a running private joke Dan carries into later friendships"
+connections:
+  - page: wiki/people/jerad-friedline
+    type: parallels
+    claim: "Josh Brannan is a shared Uniontown reference point in the Jerad thread — the 'josh brannan is innocent.wav' TTS artifact Jerad and Dan traded in 2025 draws on an eighth-grade memory involving Josh, told in full on jerad-friedline.md."
 ---
 
 # Josh Brannan
 
-**Role:** Political mirror / contact. Shared "josh brannan is innocent.wav" AI-TTS file as last documented exchange (sacred joke / political reference). Part of network with similar "reluctant Trump fascination from Bernie roots" as Jerad.
+Josh Brannan is a Uniontown-era friend Dan reconnects with directly
+once in the preserved corpus — a single warm, joking Facebook exchange
+on February 27, 2017 — and who otherwise persists as a recurring
+reference point in Dan's friendship with
+[[wiki/people/jerad-friedline|Jerad Friedline]], where a private joke
+about Josh eventually gets crystallized into an AI-generated audio file
+years later.
 
-## Key Details from FB Thread & Docs
-- FB thread (joshbrannan folder) with content.
-- TTS file "josh brannan is innocent" tied to political/personal context in operating manual (last exchange with Jerad thread echoes).
-- Referenced alongside political discussions, GME/FSLY era, "sicko" persona.
+## The 2017 reconnection
 
-## Context
-- Ties directly to FB political likes (AOC, archived Trump WH, critiques), Twitter "sicko" output, periods of political intensity (2019+ crystallization, J6 study).
-- Low-volume meaningful contact fitting contact-gini (peripheral but resonant vs. core high-volume).
-- Example of digital artifacts (TTS) in message corpus.
+The thread opens with Dan initiating after apparent distance — "I miss
+the fuck out of u. Call me when u get the chance sometime" — followed
+immediately by his phone number, and quickly turns into rapid-fire
+old-friend banter: jokes about mutual friends Shane and Zach, a beat of
+real sadness when Josh mentions his grandmother's stroke ("Fuuuuuuuuck
+dude that's awful I LOVED your grandma"), and nostalgia for ski trips
+neither has taken in years ("it's way past due that we have a reunion.
+Rick sold the condo so that's a bummer" — a reference to Dan's father,
+[[wiki/people/rick-frank|Rick]]). The exchange turns candid when Dan
+volunteers, unprompted, the nature of his then-current work: "My job is
+fucking my girlfriend on webcam... Slash golf caddy," followed by "DUDE
+IM A MODEL WE ARE MODEL BROS... Omg like $200 for an hour show" — an
+open, joking acknowledgment of the camming work documented elsewhere in
+the corpus, delivered to an old friend with no defensiveness. Josh's
+reaction is unbothered amusement ("Dan frank's sex dungeon... Damn
+making bank").
 
-## Related
-[[wiki/self/facebook]]
-[[wiki/people/jerad-friedline]]
-[[wiki/self/message-corpora/master-message-dump]]
-[[wiki/mind/synthesis/political-psyops]]
-[[wiki/mind/synthesis/vertical-authority-skepticism]]
-[[wiki/self/twitter]]
+## The running joke
+
+Separately, per `operating_manual.md`, Josh functions as a piece of
+shared Uniontown mythology in Dan's ongoing friendship with Jerad — "a
+Latrobe football legend" remembered for driving an Acura Integra
+recklessly. In May 2025, Dan used a new AI text-to-speech tool to
+synthesize a childhood memory involving Josh into an audio file titled
+"josh brannan is innocent.wav," which operating_manual.md records as
+one of the last messages in the entire Jerad thread at that point — the
+specific eighth-grade memory behind the joke, and its place in the
+broader pattern of Dan using Uniontown callbacks as a bonding ritual, is
+documented on [[wiki/people/jerad-friedline]].
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | 41 (Facebook, single thread) |
+| Date | 2017-02-27 |
+| Defining content | The camming-job admission; the grandmother/ski-trip nostalgia |
+
+**Gaps:** no contact documented before or after this single 2017
+thread; how Dan and Josh originally met beyond the general Uniontown
+friend network.
+
 
 ========================================================================
 PAGE: wiki/people/josh-coccagna.md
@@ -19889,55 +19970,53 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md", "wiki/people/anita.md", "wiki/people/timmy.md"]
-related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/marty-martin", "wiki/people/brandon-hill", "wiki/self/facebook", "wiki/people/dakota"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/dox-md/BFS_BOOTLOADER_v2.md
+  - raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md
+  - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
 tags: [career]
 infobox:
   name: "Maddox"
   relationship_to_dan: unknown
-  known_for: "Role: Little Caesars (LC) employee at the BFS Foods building (same location as gas station side). Key unsolicited third-"
+  known_for: "Little Caesars employee who volunteered a first-person account of Anita's Timmy blame-pivot during the May 21, 2026 sidewalk recording"
+connections:
+  - page: wiki/work/bfs-foods
+    type: evidenced-by
+    claim: "Maddox's unprompted sidewalk testimony is the corpus's fullest direct-witness account of the Timmy blame-pivot, and directly challenges the $50 demand's procedural legitimacy."
+  - page: wiki/people/dakota
+    type: parallels
+    claim: "Maddox's account independently corroborates the same blame-pivot sequence Dakota had disclosed to Dan earlier by word of mouth."
 ---
 
 # Maddox
 
-**Role:** Little Caesars (LC) employee at the BFS Foods building (same location as gas station side). Key unsolicited third-party witness to the May 21, 2026 sidewalk conversation between Dan and Brandon Hill. Provided detailed reconstruction of Anita's blame pivot on the Timmy situation (Kim → Dan) and unprompted assessment that the $50 demand was procedurally illegitimate ("you can't do that to him if you don't even know what went wrong"). Corroborates Dakota's initial disclosure. LC-side contrast to BFS gas station dynamics.
+Maddox is a Little Caesars employee at the BFS Foods building who
+joined a sidewalk conversation between Dan and
+[[wiki/people/brandon-hill|Brandon Hill]] on May 21, 2026 — unsolicited
+and apparently just passing by — and ended up delivering the corpus's
+fullest first-person account of how [[wiki/people/anita|Anita]]
+constructed and pivoted blame during the Timmy episode (told in full on
+[[wiki/work/bfs-foods]]). Maddox opens with an unprompted character
+read — "She's always making shit so crazy and dramatic over there I
+don't get it" — then reconstructs the sequence in real time: "It wasn't
+even that. Anita said it was Kim. He confronted Kim and Kim said it...
+AND KIM SAID TO TIMMY 'it wasn't me' and so he asked Anita and Anita
+told him 'it was Daniel.'" Maddox then turns the same directness on the
+$50 drawer-shortage demand itself, rejecting its legitimacy on
+procedural grounds without needing to know Dan personally: "Yeah that's
+not what it is you can't do that to him if you don't even know what
+went wrong." Brandon, present for all of it, doesn't contest the
+account.
 
-## Key Threads / Quotes Table (Sidewalk Recording, 2026-05-21)
+The conversation was recorded on a public sidewalk during business
+hours with a third party present — legally clean under Pennsylvania's
+wiretap statute, which requires an expectation of privacy the setting
+didn't carry. No documented message thread exists between Dan and
+Maddox outside this one encounter.
 
-| Date/Time Context | Source | Quote / Context | Evidence |
-|-------------------|--------|-----------------|----------|
-| 2026-05-21 sidewalk (public, third parties present) | BFS_BOOTLOADER_v2 §VII (full transcript from bdon.mp3 recording) | [Maddox joins] **Maddox [LC]**: She's always making shit so crazy and dramatic over there I don't get it. | Unsolicited entry into convo; Brandon: "Well he already knows everything so it doesn't matter." |
-| 2026-05-21 | BFS_BOOTLOADER_v2 §VII | **Maddox**: It wasn't even that. Anita said it was Kim. He confronted Kim and Kim said it... | Start of full blame pivot reconstruction |
-| 2026-05-21 | BFS_BOOTLOADER_v2 §VII | **Maddox**: AND KIM SAID TO TIMMY "it wasn't me" and so he asked Anita and Anita told him "it was Daniel." | Verbatim reconstruction of sequence; Brandon present and reacting |
-| 2026-05-21 | BFS_BOOTLOADER_v2 §VII | **Maddox**: Yeah that's not what it is you can't do that to him if you don't even know what went wrong. | Direct support for Dan's procedural objection to $50 demand without specifics |
-| Pre-May 2026 (Timmy events) | BFS_BOOTLOADER_v2 §III | Disclosed/corroborated (with Dakota): Anita told Timmy "Kim" → Timmy confronts Kim ("It wasn't me") → Anita pivots to "It was Daniel." Dan had zero involvement. | "The blame pivot (corroborated by both Dakota and Maddox)" |
-| 2026-05-21 | BFS_BOOTLOADER_v2 §VII, Key disclosures | Highest-energy segments include Timmy reconstruction / emphatic exchanges + Maddox's closing line | Recording analysis: 375–385s, 410–415s; third-party witness on legally clean public recording (PA wiretap: sidewalk no expectation of privacy) |
-
-## Timeline
-
-- Pre-May 2026: Timmy (LC employee) gambling on shift → Anita reports to Kim → Kim requests corporate surveillance → footage also captures Anita selling vape to underage Timmy → Timmy fired; Anita nearly fired. Anita calls staff meeting announcing strict carding (reverted per Timmy's later claim). Group text reversal May12 "Team Timmy no longer allowed... call cops" → May14 "Timmy is not banned as of yet."
-- Blame construction: Anita initially tells Timmy it was Kim. Timmy confronts Kim. Kim denies ("It wasn't me"). Anita pivots: "It was Daniel." (Dakota initial disclosure; Maddox provides fuller account.)
-- 2026-05-18 Sun: Drawer incident shift at gas station (Dan).
-- 2026-05-19: $50 demand texts/in-person (Brandon converts to personal).
-- **2026-05-21**: Sidewalk convo recorded. Maddox (LC) joins unsolicited, volunteers Anita drama assessment + full Timmy blame pivot details + procedural objection to demand. Brandon acknowledges "Yes. I was trying to save your ass." + labor law violation awareness while continuing demand. 4560 form mentioned (unsigned).
-- Post: LC application submitted by Dan. Maddox treated as light-touch witness only.
-
-## Behavioral Notes
-
-Maddox volunteered unprompted information without solicitation during public sidewalk exchange. Assessment directly challenges Anita's chaos ("She's always making shit so crazy and dramatic over there") and demand legitimacy. Per BFS_BOOTLOADER_v2 tactical posture: "Maddox: light touch. Don't recruit, don't text about this. If he raises it, listen and agree neutrally." "Not a deployable recurring asset — treat like Marty (intelligence posture, don't recruit, don't text about this)." Recording context: public sidewalk, business hours, unsolicited third-party join = legally clean (no reasonable privacy expectation per 18 Pa.C.S. § 5703–5704 analysis). Ties to [[wiki/mind/synthesis/vertical-authority-skepticism]]: LC-side awareness of BFS/Anita patterns; procedural skepticism of vertical extraction without specifics. Corroborates Dakota hearsay with direct account. LC management contrast (Kim) vs Anita.
-
-## Connections
-
-- **Recording participants**: Dan, [[wiki/people/brandon-hill]] (AM, instrument), Maddox (LC witness).
-- **Blame pivot / Timmy template**: [[wiki/people/anita]] (architect of pivot), [[wiki/people/kim]] (denied to Timmy), [[wiki/people/timmy]] (fired, customer), [[wiki/people/dakota]] (initial disclosure, Timmy friend group).
-- **Group / store**: [[wiki/people/marty-martin]] (BFS coworker/intel in parallel group text).
-- **BFS/LC structure**: Same building, separate rosters. LC as preferred exit vector per fit analysis (lower cash risk, better mgmt per bootloader table).
-- **Dispute**: [[wiki/work/bfs-foods]].
-
-**Cross-references:** [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/people/marty-martin]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/facebook]], [[wiki/work/bfs-foods]], [[wiki/people/dakota]], [[wiki/self/context-core]]
-
-**Notes:** No direct iMessage or FB thread with Dan documented in message-csv (LC employee; interaction via in-person sidewalk recording only). Primary evidence is the recording transcript + bootloader reconstruction (not enhanced audio for deployment). "Don't name Maddox" in external escalation per Quagmire strategy to protect asset. Dakota provides corroboration on disclosure side. LC fit: lower provocation surface, sustained crew vs gas station. Defer verbatim quotes and full context to raw/self/dox-md/BFS_BOOTLOADER_v2.md. Sources include derived wiki pages that cross-reference the recording.
+**Gaps:** how Dan and Maddox know each other beyond the shared
+building; no contact before or after the May 21 recording.
 
 
 ========================================================================
