@@ -568,3 +568,24 @@ Location History subfolder, MUSIC LIST(start-2024).csv, YOUTUBE WATCH HISTORY
 html — all by-name matches to already-ingested raw/ sources) without
 opening each individually. Moving to the flagged-high-priority "NEW LOADER"
 folder (OMNI_FORENSIC_DOSSIER.md, THEORY OF EVERYTHING 31 MAR) next.
+
+## [2026-07-20] ingest | mind | OMNI_FORENSIC_DOSSIER + BIBI_PERSONALITY_DECONSTRUCTION (Drive NEW LOADER)
+Mined two AI-generated forensic corpus analyses from Drive's flagged
+"NEW LOADER" folder. Both heavily overlap already-ingested material
+(exact-match numbers with linguistic-profile.md: 23,286 vocab, "because"
+2,465, "I don't" 1,845, "I'm not" 814 — confirms same underlying NLP
+extraction) but contained three genuinely new signals, added to the wiki:
+(1) a whole-corpus yearly message-volume arc 2015-2026 added to
+message-circadian-latency.md — first hard numbers for the 2021-2022
+near-total-silence trough (280 + 4 msgs) and precise 2018/2025 peak
+figures (40,514 / 41,278, within 2% of each other), with inverse
+connections added to 2018-deep-cycle.md and 2025-collapse.md; (2) a
+camming/non-monogamy word-frequency table added to
+wiki/mind/psychosexual/arrangement-history.md (304 camming tokens vs 107
+non-monogamy/kink tokens, ~3:1); (3) the "Broken Engine" self-mythology
+framing ("weaponized self-awareness as preemptive strike") cross-referenced
+into deviance-mapping.md's existing "Mythology of Ruin" outlier entry.
+Archived both source docs to raw/self/dox-md/. Gates: 0 errors both.
+Remaining NEW LOADER items (THEORY OF EVERYTHING 31 MAR, podcast
+transcript, Stylometric/Linguistic docs, masterloader PDFs) not yet
+checked — next up.

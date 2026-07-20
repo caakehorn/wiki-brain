@@ -16,6 +16,9 @@ connections:
   - page: wiki/mind/synthesis/spatial-behavior
     type: contradicts
     claim: "The GPS analysis reads this year's spatial-collapse-and-migration signature as evidence of a chosen psychological strategy (systemic integrity via rebuild); this period's own financial-stress record offers an equally consistent alternative explanation — chronic constraint, not chosen minimalism."
+  - page: wiki/mind/synthesis/message-circadian-latency
+    type: evidenced-by
+    claim: "The 40,514-message 2018 whole-corpus total confirms and precisely quantifies this period's own qualitative '~40k msgs/yr' figure — the corpus's first-recorded volume peak."
 tags: [ai-collaboration, nyc-era, financial-stress, relationships, addiction-recovery]
 ---
 

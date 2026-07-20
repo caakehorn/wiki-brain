@@ -9,6 +9,8 @@ date_modified: 2026-07-19
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ SOCIAL DEVIANCES.rtf
+  - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
+  - raw/self/dox-md/BIBI_PERSONALITY_DECONSTRUCTION.md
 related:
   - wiki/mind/profile/index
   - wiki/mind/profile/big-five-psychometrics
@@ -85,7 +87,16 @@ confidence ratings:
    ([[wiki/mind/synthesis/ai-collaborative-analysis]]).
 10. **The "Mythology of Ruin"** (80; conf. 80%) — the meta-narrative of
     being addicted to his own failure story: "a sophisticated but rare form
-    of self-awareness that also perpetuates the cycle."
+    of self-awareness that also perpetuates the cycle." A separate,
+    independently-run forensic dossier (OMNI_FORENSIC_DOSSIER.md /
+    BIBI_PERSONALITY_DECONSTRUCTION.md) names the same pattern "The Broken
+    Engine" and states its mechanism more sharply: weaponized self-awareness
+    functions as "a preemptive strike that forecloses the other person's
+    right to name the damage" — "I know I'm broken" as tactic, not
+    confession. Two independently-generated AI analyses converging on the
+    same structural diagnosis from different corpus cuts is itself weak
+    corroborating evidence the pattern is real rather than a single model's
+    narrative flourish.
 
 ## The five structural divergences
 

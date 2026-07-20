@@ -8,6 +8,7 @@ date_modified: 2026-07-17
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - /Volumes/MUSIC/PHASE B RAW/LEVIATHAN_FULL_CORPUS.csv
+  - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
 tags: [digital-footprint, relationships, attachment, infidelity, ai-collaboration]
 connections:
   - page: wiki/mind/concepts/attachment-model
@@ -25,6 +26,12 @@ connections:
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: evidences
     claim: "The 2025-26 handles' collapse to 16-44-hour inbound medians against Dan's unchanged 1-5-minute outbound quantifies the terminal-phase asymmetry the bond thesis describes."
+  - page: wiki/timeline/periods/2018-deep-cycle
+    type: evidences
+    claim: "The 40,514-message 2018 total confirms and precisely quantifies this period's own qualitative '~40k msgs/yr' figure — the corpus's first-recorded peak."
+  - page: wiki/timeline/periods/2025-collapse
+    type: evidences
+    claim: "The 41,278-message 2025 total — within 2% of the 2018 peak — gives this period its first precise whole-corpus volume figure, confirming the collapse year matched the deep-cycle year for raw output even as the content shifted from relationship crisis to relationship termination."
 ---
 
 
@@ -104,6 +111,40 @@ The later window is *less* nocturnal — more of the output migrates into the wo
 - Median inter-send gap is **1.0 minute**; mean is 114 minutes (dragged up by the long silences between bursts). The distribution is bimodal: either he is firing continuously or he is dark for hours.
 
 This burst profile is the behavioral fingerprint of the [[wiki/mind/concepts/attachment-model|fusion mode]]: when the attachment system is active, output is continuous and immediate; when it is not, the channel goes quiet. The floods at relationship onset (Dec 2015) and termination (2025–26), already documented on [[wiki/mind/synthesis/bond-switch-2015]], are the extreme tails of this same burst distribution.
+
+## Yearly volume arc, 2015–2026 — the dormant years quantified
+
+A separate corpus cut (OMNI_FORENSIC_DOSSIER.md, 175,358 messages,
+2015-11-12 to 2026-03-25) supplies a whole-corpus yearly total this page's
+per-contact tables don't assemble on their own — and it is the only place
+in the wiki with hard numbers for the 2021–2024 low-activity years, which
+the timeline pages otherwise describe qualitatively:
+
+| Year | Total messages | Arc label |
+| :--- | :--- | :--- |
+| 2015 (Nov–Dec) | 13,819 | Genesis (Annie) |
+| 2016 | 20,221 | Peak chaos |
+| 2017 | 17,551 | Crisis / cam era |
+| 2018 | **40,514** | Maximum output (drug/relationship spiral) |
+| 2019 | 20,153 | NYC / disengagement |
+| 2020 | 6,311 | COVID collapse |
+| 2021 | 280 | Near-total silence |
+| 2022 | 4 | Dead channel |
+| 2023 | 954 | Reactivation |
+| 2024 | 4,376 | Rebuilding |
+| 2025 | **41,278** | Maximum resurgence |
+| 2026 (Q1) | 9,896 | Current velocity |
+
+2018 and 2025 are the corpus's twin peaks, within 2% of each other in raw
+volume — confirming from the total-message angle what
+[[wiki/timeline/periods/2018-deep-cycle]] already names qualitatively
+("~40k msgs/yr") and giving [[wiki/timeline/periods/2025-collapse]] its
+own precise figure for the first time. The 2021–2022 trough (284 combined
+messages across two full years) is the corpus's hardest floor — a near-total
+communication blackout this page's per-contact analysis, built on 2015–2018
+and 2025–2026 windows, does not otherwise surface. Note this table counts
+raw message volume across all contacts, not the Annie-specific figures
+in the section above; the two should not be conflated.
 
 ## Volume concentration (re-derived, matches prior Gini)
 

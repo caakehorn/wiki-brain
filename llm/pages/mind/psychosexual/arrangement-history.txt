@@ -12,6 +12,7 @@ sources:
   - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/jennlynn_dhrmxxpvhq/message_1.html
+  - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
 tags: [relationships, digital-footprint]
 connections:
   - page: wiki/people/lauryn-ashly
@@ -87,6 +88,37 @@ and personal was porous from multiple directions, not just Dan's. Third,
 background practice — consistent with the "burst event" pattern already
 documented in the Annie relationship's conflict architecture, though no
 source in the corpus explicitly connects the two.
+
+## Whole-corpus word-frequency signal
+
+A separate corpus-wide forensic pass (OMNI_FORENSIC_DOSSIER.md, sent
+messages only, 88,988 total, 2015–2026) counts raw token frequency for
+camming and non-monogamy vocabulary across Dan's *entire* outgoing message
+history, not any single relationship thread — a different cut than the
+event-level table above, and one no other page carries:
+
+| Camming/sex-work token | Sent count | | Non-monogamy/kink token | Sent count |
+|---|---|---|---|---|
+| cam | 94 | | threesome | 39 |
+| tip / tipped | 68 | | kink / kinky | 20 |
+| onlyfans | 26 | | hookup | 16 |
+| stream / streaming | 26 | | open relationship | 10 |
+| chaturbate | 23 | | cuck / cuckold | 8 |
+| camming | 23 | | poly / polyamory | 5 |
+| webcam | 12 | | bull | 5 |
+| tokens | 8 | | fetish | 3 |
+| mfc | 4 | | bdsm | 1 |
+| broadcast | 3 | | | |
+
+Total camming-signal tokens: 304. The camming vocabulary alone (304
+tokens) outweighs every other non-monogamy category combined (107 tokens
+across threesome/kink/hookup/open-relationship/cuck/poly/bull/fetish/bdsm)
+by roughly 3:1 — consistent with the timeline table above, where the
+smashonista camming operation with Annie is the single longest-running,
+most-referenced arrangement, against a longer tail of lower-frequency
+one-off paid or unpaid encounters. The low bdsm (1) and fetish (3) counts
+read as absence-of-evidence rather than evidence-of-absence given the
+corpus is sent-message text, not a structured survey.
 
 ## Gaps
 
