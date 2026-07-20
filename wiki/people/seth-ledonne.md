@@ -4,7 +4,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 date_range_start: 2020-03-10
 date_range_end: 2020-06-23
 sources:
@@ -20,6 +20,9 @@ connections:
   - page: wiki/timeline/periods/covid-era-2020
     type: evidences
     claim: "Dan's June 7, 2020 real-time account — '8pm curfew... it's been like living in beirut' — documents the George Floyd-protest curfew period in Manhattan from inside the lockdown year, alongside a still-undecided 2020 vote (unwilling to back Biden as of April)."
+  - page: wiki/interests/music/bands/batteries-not-included
+    type: contextualizes
+    claim: "Seth is named as one of the scene mentors (with Andy, Paul, Nathan, Kessler) whose harsh hardcore/punk scene Dan's high school band operated inside of, and 'Rejected Gazette' as a named touchstone of the same milieu."
 ---
 
 # Seth LeDonne
@@ -39,8 +42,10 @@ for counterculture if not for you, Andy, Paul, Nathan, Kessler." He
 frames the group's harshness as productive — "the visceral disdain that
 I felt from the entire group was really developmental for me later in
 life" — recalling being mocked for wearing a "311 concert" tie-dye shirt
-to a hardcore basement show, and closes: "thank you for being so cruel
-about what an enormous fraud and p0seur I was because it was the
+to a hardcore basement show — the same scene his high school band,
+[[wiki/interests/music/bands/batteries-not-included|Batteries Not
+Included]], operated inside of — and closes: "thank you for being so
+cruel about what an enormous fraud and p0seur I was because it was the
 catalyst for finding some authenticity." It is a rare instance of Dan
 naming specific people as the direct source of a taste formation that
 elsewhere in the corpus reads as self-generated.

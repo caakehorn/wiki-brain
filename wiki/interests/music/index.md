@@ -3,7 +3,7 @@ domain: interests
 page_type: summary
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-11
+date_modified: 2026-07-20
 sources: []
 related: []
 ---
@@ -21,6 +21,12 @@ related: []
 | [[wiki/interests/music/aliases/mogzart]] | closed | Bass house / trap-adjacent | ~2014–2016 |
 | [[wiki/interests/music/aliases/sloppp]] | closed | House / experimental bass | ~2013–2014 |
 | [[wiki/interests/music/aliases/mogged-up]] | closed | Bootleg / edit imprint | concurrent w/ SLOPPP/MOGZART |
+
+## Bands
+
+| Band | Status | Role | Era |
+|------|--------|------|-----|
+| [[wiki/interests/music/bands/batteries-not-included]] | closed | Lead songwriter (originals); hardcore/punk covers | High school, pre-2006 |
 
 ## Concepts
 - [[wiki/interests/music/concepts/sub-bass-signature]] — involuntary 63–85% sub-bass presence across all aliases, 13-year span; origin artifact: Numark NS7 (Fran Whyel)
