@@ -443,7 +443,7 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - Gates: wiki-lint 0 errors (336 pages), wiki-connect check 0 errors.
 
 ## [2026-07-20] fix + ingest | interests/timeline | PR #57 bot fix; blocked-caller crisis event
-- fix: batteries-not-included.md misattributed "94/96 Quite Bitter Beings" to NOFX — it's a CKY track (the band's 1999 album of the same name), correctly caught by bot review after PR #57 had already merged. Fixed in a follow-up commit since the merge raced the fix.
+- fix: batteries-not-included.md misattributed "96 Quite Bitter Beings" to NOFX — it's a CKY track (from the band's 1999 album *Volume 1*), correctly caught by bot review after PR #57 had already merged. Fixed in a follow-up commit since the merge raced the fix.
 - wiki/timeline/events/april-may-2026-final-weeks.md: substantially expanded the previously thin "unresolved third-party contact (April 1)" bullet using raw/self/dox-md/Crisis mode briefing.md — a recurring blocked-caller impersonation campaign targeting Suz directly (personally insulted as a "junkie," a hostile "you had guys molest me" message to Dan, a threat from Suz to do something "arrest-worthy"), with a forensic case (Suboxone misnamed "heroin/Percocets," register mismatch, absent name-use) arguing against it being Annie personally — though her awareness/complicity is explicitly left unresolved, matching the source's own honesty about not identifying the caller. Also documents a live, real-time instance of the conflict-engine mechanism (a screaming match with Suz over whose grievance mattered more) already documented at scale elsewhere. Added connections + source to wiki/people/suzanne-frank.md.
 - Gates: wiki-lint 0 errors (336 pages), wiki-connect check 0 errors.
 

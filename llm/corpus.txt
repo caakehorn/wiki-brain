@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-336 pages, ~469,020 tokens.
+336 pages, ~469,019 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -3146,8 +3146,8 @@ band's full setlist from memory, years later. The covers are a clean
 snapshot of the local hardcore/punk canon they were working from: the
 Misfits ("She," plus the band's own logo song), the Dead Kennedys
 ("California Uber Alles"), and the Ramones ("Teenage Lobotomy"). Joe
-separately names a CKY track — "94/96 Quite Bitter Beings," per the
-band's 1999 album of the same name — as material that "never left your
+separately names a CKY track — "96 Quite Bitter Beings," from the
+band's 1999 debut album *Volume 1* — as material that "never left your
 basement": practiced but never performed live, half-jokingly blamed on
 the shopping-cart-stunt culture CKY's own videos made famous ("we
 couldn't play it because everyone would just start running shopping
@@ -3198,7 +3198,7 @@ the corpus. No reunion is recorded as having happened.
 |---|---|
 | Members (documented) | Dan (lead songwriter), Joe Oshnack, Matt Turko |
 | Era | High school (pre-2006, per Dan's own "class of 06" graduating-year references elsewhere) |
-| Documented covers | Misfits ("She," logo song), Dead Kennedys ("California Uber Alles"), Ramones ("Teenage Lobotomy"); CKY's "94/96 Quite Bitter Beings" (rehearsal only, never performed live) |
+| Documented covers | Misfits ("She," logo song), Dead Kennedys ("California Uber Alles"), Ramones ("Teenage Lobotomy"); CKY's "96 Quite Bitter Beings" (rehearsal only, never performed live) |
 
 **Gaps:** what "BNI" stands for beyond "Batteries Not Included"; any
 original song titles or recordings; whether the band ever played a
