@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 340,
+ "page_count": 341,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -409,7 +409,7 @@
    "title": "Contact Gini",
    "summary": "The \"Contact Gini\" concept refers to the application of the Gini coefficient to measure the concentration of Dan's relational load. It quantifies the degree ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/contact-gini.txt",
-   "bytes": 11207
+   "bytes": 11519
   },
   {
    "page": "wiki/mind/concepts/dans-law.md",
@@ -465,7 +465,7 @@
    "title": "mind \u2014 index",
    "summary": "Beliefs, ideology, psychology, and values. The domain is organized in four layers: **profile/** holds the measured personality results and their detailed bre...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/index.txt",
-   "bytes": 7831
+   "bytes": 8071
   },
   {
    "page": "wiki/mind/profile/big-five-psychometrics.md",
@@ -479,7 +479,7 @@
    "title": "Deviance Mapping \u2014 The Statistical Outlier Audit",
    "summary": "In August 2025 Dan commissioned a \"Level 5 / Psycho-Structural Deviance Audit\": a systematic measurement of how far every domain of his life sits from a norm...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/deviance-mapping.txt",
-   "bytes": 6513
+   "bytes": 7232
   },
   {
    "page": "wiki/mind/profile/enneagram-5w4.md",
@@ -528,7 +528,7 @@
    "title": "Arrangement History",
    "summary": "Where the rest of this cluster synthesizes AI-authored theory, this page is the primary-source backbone: a chronological index of every independently-documen...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/psychosexual/arrangement-history.txt",
-   "bytes": 11354
+   "bytes": 12875
   },
   {
    "page": "wiki/mind/psychosexual/developmental-origins.md",
@@ -640,7 +640,7 @@
    "title": "Message Corpus \u2014 Circadian Rhythm, Reply Latency, and Volume Trajectories",
    "summary": "This is a **primary cut** of the raw message corpus, generated fresh from the export rather than summarized from prior wiki pages. The goal was to read the r...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/message-circadian-latency.txt",
-   "bytes": 10574
+   "bytes": 12866
   },
   {
    "page": "wiki/mind/synthesis/millennial-digital-witness.md",
@@ -662,6 +662,13 @@
    "summary": "Dan's political skepticism is not partisan; it is the forensic default applied to institutions on every side. A democratic socialist with zero Trump or MAGA ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/political-psyops.txt",
    "bytes": 11863
+  },
+  {
+   "page": "wiki/mind/synthesis/spatial-behavior.md",
+   "title": "Spatial Behavior \u2014 GPS Analysis of Location History",
+   "summary": "A behavioral/psychographic reading of Dan's Google Location History data (2014\u20132024). This analysis is distinct from and built on top of the raw visit-count ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/spatial-behavior.txt",
+   "bytes": 6420
   },
   {
    "page": "wiki/mind/synthesis/supply-network.md",
@@ -1802,7 +1809,7 @@
    "title": "Suz (Suzanne Frank)",
    "summary": "Dan's mother and, across four decades, the single most constant structural presence in his life \u2014 the person who has most often been both the floor under him...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/suzanne-frank.txt",
-   "bytes": 13985
+   "bytes": 15392
   },
   {
    "page": "wiki/people/tarik-fallous.md",
@@ -1851,7 +1858,7 @@
    "title": "Tuquick (+17248123683)",
    "summary": "Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal group chat that closed the relationshi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/tuquick-17248123683.txt",
-   "bytes": 6032
+   "bytes": 9510
   },
   {
    "page": "wiki/people/urpaaa-at-yahoo-com.md",
@@ -2180,7 +2187,7 @@
    "title": "Group Chat Closure (June 1 2026)",
    "summary": "Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party relationship (Tuquick \u2014 [[wiki/people/tuquick-172481...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/group-chat-closure.txt",
-   "bytes": 5169
+   "bytes": 5636
   },
   {
    "page": "wiki/timeline/events/march-2026-terminal-phase.md",
@@ -2236,14 +2243,14 @@
    "title": "2017 Poverty Floor",
    "summary": "2017 was the year the floor dropped out. Dan was twenty-eight, living in Uniontown, Pennsylvania, in a house on Virginia Avenue he had moved into with [[wiki...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2017-poverty-floor.txt",
-   "bytes": 8037
+   "bytes": 8353
   },
   {
    "page": "wiki/timeline/periods/2018-deep-cycle.md",
    "title": "2018 Deep Cycle",
    "summary": "**Date range:** 2018",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2018-deep-cycle.txt",
-   "bytes": 3335
+   "bytes": 3982
   },
   {
    "page": "wiki/timeline/periods/2020-2021-market-era.md",
@@ -2264,7 +2271,7 @@
    "title": "Synthesis concepts injector pass 2026-06-23: expanded _18 section + added dedicated Bifurcated Daily OS + Decoupling/Grounding Paradox verbatim (cold data ledger/chat.db epistemic cross); migration/OS/work entropy ties. Cross all Gemini sources. See /tmp/gemini-concepts-injection.md.",
    "summary": "**Date range:** 2025",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2025-collapse.txt",
-   "bytes": 8174
+   "bytes": 8549
   },
   {
    "page": "wiki/timeline/periods/covid-era-2020.md",

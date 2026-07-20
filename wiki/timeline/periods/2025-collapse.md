@@ -48,6 +48,9 @@ connections:
   - page: wiki/mind/concepts/bunker-core
     type: contains
     claim: "Bunker Core is named in Dan's own 2026 'Bifurcated Daily OS' self-description as one half of a two-track life this period documents in full — survival work alongside a self-built technical sovereignty stack."
+  - page: wiki/mind/synthesis/message-circadian-latency
+    type: evidenced-by
+    claim: "The 41,278-message 2025 whole-corpus total — within 2% of the 2018 peak — gives this period its first precise volume figure, confirming the collapse year matched the deep-cycle year for raw output even as the content shifted from relationship crisis to relationship termination."
 ---
 
 

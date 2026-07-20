@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-340 pages, ~477,190 tokens.
+341 pages, ~481,739 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -4861,6 +4861,9 @@ connections:
   - page: wiki/mind/synthesis/message-circadian-latency
     type: parallels
     claim: "The latency analysis is the temporal counterpart to this volume metric; both converge on the single near-synchronous Annie channel."
+  - page: wiki/mind/synthesis/spatial-behavior
+    type: parallels
+    claim: "Both are quantitative cuts of the same underlying life converging on the same shape: extreme concentration around a small number of anchors (physical: home/work; social: a handful of contacts) punctuated by rare, decisive ruptures."
 ---
 
 
@@ -5778,6 +5781,7 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — capstone: was Dan correct to feel wronged? The real wrong + the diagnosis→behavior gap, held in one frame.
 - [[wiki/mind/synthesis/bond-switch-2015]] — the 2015 Alexis→Annie single-bond switch: same-week transfer, verified onset flood, 155 Virginia lair-continuity.
 - [[wiki/mind/synthesis/message-circadian-latency]] — primary cut of the raw corpus: circadian curve + era drift, 9× reply-latency asymmetry, burstiness, per-contact volume trajectories.
+- [[wiki/mind/synthesis/spatial-behavior]] — GPS-analysis reading of location history: extreme home-anchoring, the Friday release valve, and four sharply bounded life phases (Forge/Binary System/Collapse/Siege) rather than gradual drift.
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] — how LLMs are actually used: node logging, steelman, injection lab, capability contests.
 - [[wiki/mind/synthesis/millennial-digital-witness]] — the generational bridge self-theory and its uses.
 - [[wiki/mind/synthesis/totality-themes]] — the capstone: recurring structural themes across the entire corpus, extended with cross-corpus [JOIN] findings.
@@ -5958,6 +5962,8 @@ date_modified: 2026-07-19
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ SOCIAL DEVIANCES.rtf
+  - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
+  - raw/self/dox-md/BIBI_PERSONALITY_DECONSTRUCTION.md
 related:
   - wiki/mind/profile/index
   - wiki/mind/profile/big-five-psychometrics
@@ -6034,7 +6040,16 @@ confidence ratings:
    ([[wiki/mind/synthesis/ai-collaborative-analysis]]).
 10. **The "Mythology of Ruin"** (80; conf. 80%) — the meta-narrative of
     being addicted to his own failure story: "a sophisticated but rare form
-    of self-awareness that also perpetuates the cycle."
+    of self-awareness that also perpetuates the cycle." A separate,
+    independently-run forensic dossier (OMNI_FORENSIC_DOSSIER.md /
+    BIBI_PERSONALITY_DECONSTRUCTION.md) names the same pattern "The Broken
+    Engine" and states its mechanism more sharply: weaponized self-awareness
+    functions as "a preemptive strike that forecloses the other person's
+    right to name the damage" — "I know I'm broken" as tactic, not
+    confession. Two independently-generated AI analyses converging on the
+    same structural diagnosis from different corpus cuts is itself weak
+    corroborating evidence the pattern is real rather than a single model's
+    narrative flourish.
 
 ## The five structural divergences
 
@@ -6931,6 +6946,7 @@ sources:
   - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/jennlynn_dhrmxxpvhq/message_1.html
+  - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
 tags: [relationships, digital-footprint]
 connections:
   - page: wiki/people/lauryn-ashly
@@ -7006,6 +7022,37 @@ and personal was porous from multiple directions, not just Dan's. Third,
 background practice — consistent with the "burst event" pattern already
 documented in the Annie relationship's conflict architecture, though no
 source in the corpus explicitly connects the two.
+
+## Whole-corpus word-frequency signal
+
+A separate corpus-wide forensic pass (OMNI_FORENSIC_DOSSIER.md, sent
+messages only, 88,988 total, 2015–2026) counts raw token frequency for
+camming and non-monogamy vocabulary across Dan's *entire* outgoing message
+history, not any single relationship thread — a different cut than the
+event-level table above, and one no other page carries:
+
+| Camming/sex-work token | Sent count | | Non-monogamy/kink token | Sent count |
+|---|---|---|---|---|
+| cam | 94 | | threesome | 39 |
+| tip / tipped | 68 | | kink / kinky | 20 |
+| onlyfans | 26 | | hookup | 16 |
+| stream / streaming | 26 | | open relationship | 10 |
+| chaturbate | 23 | | cuck / cuckold | 8 |
+| camming | 23 | | poly / polyamory | 5 |
+| webcam | 12 | | bull | 5 |
+| tokens | 8 | | fetish | 3 |
+| mfc | 4 | | bdsm | 1 |
+| broadcast | 3 | | | |
+
+Total camming-signal tokens: 304. The camming vocabulary alone (304
+tokens) outweighs every other non-monogamy category combined (107 tokens
+across threesome/kink/hookup/open-relationship/cuck/poly/bull/fetish/bdsm)
+by roughly 3:1 — consistent with the timeline table above, where the
+smashonista camming operation with Annie is the single longest-running,
+most-referenced arrangement, against a longer tail of lower-frequency
+one-off paid or unpaid encounters. The low bdsm (1) and fetish (3) counts
+read as absence-of-evidence rather than evidence-of-absence given the
+corpus is sent-message text, not a structured survey.
 
 ## Gaps
 
@@ -9409,6 +9456,7 @@ date_modified: 2026-07-17
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - /Volumes/MUSIC/PHASE B RAW/LEVIATHAN_FULL_CORPUS.csv
+  - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
 tags: [digital-footprint, relationships, attachment, infidelity, ai-collaboration]
 connections:
   - page: wiki/mind/concepts/attachment-model
@@ -9426,6 +9474,12 @@ connections:
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: evidences
     claim: "The 2025-26 handles' collapse to 16-44-hour inbound medians against Dan's unchanged 1-5-minute outbound quantifies the terminal-phase asymmetry the bond thesis describes."
+  - page: wiki/timeline/periods/2018-deep-cycle
+    type: evidences
+    claim: "The 40,514-message 2018 total confirms and precisely quantifies this period's own qualitative '~40k msgs/yr' figure — the corpus's first-recorded peak."
+  - page: wiki/timeline/periods/2025-collapse
+    type: evidences
+    claim: "The 41,278-message 2025 total — within 2% of the 2018 peak — gives this period its first precise whole-corpus volume figure, confirming the collapse year matched the deep-cycle year for raw output even as the content shifted from relationship crisis to relationship termination."
 ---
 
 
@@ -9505,6 +9559,40 @@ The later window is *less* nocturnal — more of the output migrates into the wo
 - Median inter-send gap is **1.0 minute**; mean is 114 minutes (dragged up by the long silences between bursts). The distribution is bimodal: either he is firing continuously or he is dark for hours.
 
 This burst profile is the behavioral fingerprint of the [[wiki/mind/concepts/attachment-model|fusion mode]]: when the attachment system is active, output is continuous and immediate; when it is not, the channel goes quiet. The floods at relationship onset (Dec 2015) and termination (2025–26), already documented on [[wiki/mind/synthesis/bond-switch-2015]], are the extreme tails of this same burst distribution.
+
+## Yearly volume arc, 2015–2026 — the dormant years quantified
+
+A separate corpus cut (OMNI_FORENSIC_DOSSIER.md, 175,358 messages,
+2015-11-12 to 2026-03-25) supplies a whole-corpus yearly total this page's
+per-contact tables don't assemble on their own — and it is the only place
+in the wiki with hard numbers for the 2021–2024 low-activity years, which
+the timeline pages otherwise describe qualitatively:
+
+| Year | Total messages | Arc label |
+| :--- | :--- | :--- |
+| 2015 (Nov–Dec) | 13,819 | Genesis (Annie) |
+| 2016 | 20,221 | Peak chaos |
+| 2017 | 17,551 | Crisis / cam era |
+| 2018 | **40,514** | Maximum output (drug/relationship spiral) |
+| 2019 | 20,153 | NYC / disengagement |
+| 2020 | 6,311 | COVID collapse |
+| 2021 | 280 | Near-total silence |
+| 2022 | 4 | Dead channel |
+| 2023 | 954 | Reactivation |
+| 2024 | 4,376 | Rebuilding |
+| 2025 | **41,278** | Maximum resurgence |
+| 2026 (Q1) | 9,896 | Current velocity |
+
+2018 and 2025 are the corpus's twin peaks, within 2% of each other in raw
+volume — confirming from the total-message angle what
+[[wiki/timeline/periods/2018-deep-cycle]] already names qualitatively
+("~40k msgs/yr") and giving [[wiki/timeline/periods/2025-collapse]] its
+own precise figure for the first time. The 2021–2022 trough (284 combined
+messages across two full years) is the corpus's hardest floor — a near-total
+communication blackout this page's per-contact analysis, built on 2015–2018
+and 2025–2026 windows, does not otherwise surface. Note this table counts
+raw message volume across all contacts, not the Annie-specific figures
+in the section above; the two should not be conflated.
 
 ## Volume concentration (re-derived, matches prior Gini)
 
@@ -9936,6 +10024,129 @@ stress-test material — no loyalty to any team sport, forensic default
 always on.
 
 The ideology this page treats as settled has a documented birthday: the COVID-lockdown conversion of 2020-08-22, self-narrated in the message record and argued at [[wiki/mind/synthesis/2020-left-turn]] — Bernie 2020 as the electoral on-ramp, the dirtbag-left pipeline as the vehicle, the family union-busting guilt as the clinch.
+
+
+========================================================================
+PAGE: wiki/mind/synthesis/spatial-behavior.md
+========================================================================
+
+---
+domain: mind
+page_type: synthesis
+knowledge: mixed
+status: active
+date_created: 2026-07-20
+date_modified: 2026-07-20
+sources:
+  - raw/self/dox-md/GPS_ANALYSIS.md
+tags: [digital-footprint, relationships, career, housing]
+connections:
+  - page: wiki/self/location-history
+    type: contextualizes
+    claim: "This page's behavioral/psychographic reading is built directly on the raw visit-count catalog that page maintains — the numbers are the same corpus, read for pattern rather than tabulated."
+  - page: wiki/mind/concepts/contact-gini
+    type: parallels
+    claim: "Both are quantitative cuts of the same underlying life converging on the same shape: extreme concentration around a small number of anchors (physical: home/work; social: a handful of contacts) punctuated by rare, decisive ruptures."
+  - page: wiki/timeline/periods/2017-poverty-floor
+    type: evidenced-by
+    claim: "The 2018 'System Collapse & Migration' phase — over a third of the entire 2014-2020 aggregate travel distance logged in one year — is the spatial-data signature of the poverty-floor/deep-cycle years destabilizing into the NYC move."
+  - page: wiki/timeline/periods/2018-deep-cycle
+    type: contradicts
+    claim: "The report's own framing may over-read: it treats the subject's low day-to-day movement-risk as evidence impulsivity 'manifests elsewhere,' but doesn't test whether the home-anchoring pattern itself is better explained by chronic financial constraint (documented at length on this period's page) than by a chosen psychological strategy."
+---
+
+# Spatial Behavior — GPS Analysis of Location History
+
+A behavioral/psychographic reading of Dan's Google Location History
+data (2014–2024). This analysis is distinct from and built on top of
+the raw visit-count catalog on [[wiki/self/location-history]]. Where
+that page tabulates what places got visited how often, this one asks
+what the shape of the movement itself says — and the shape is a single
+repeating structure: long stretches of near-total predictability,
+punctuated by rare, total, and rapid system replacements.
+
+## The core numbers
+
+Across the full dataset, Dan spends roughly 68% of tracked time within
+a tight radius of his current home (a "Home Anchoring Index" of 0.68),
+with a Routine Index of 0.85 — very high day-to-day predictability —
+and a low Exploration Ratio (0.22): new locations are rare, and when
+they appear they get either absorbed into a new routine or dropped
+entirely, not casually sampled. Diurnal activity peaks 2–6 PM and
+troughs 3–7 AM (a late riser, not a 9-to-5 pattern), and weekly activity
+peaks hard on Fridays — a "release valve" signature of spatial variety
+and travel distance that shows up in every life phase, from Uniontown's
+Nemacolin/golf-and-caddie years through the NYC comedy-club circuit
+("The Stand" is named as a specific recurring Friday node).
+
+## Four phases, not a gradual drift
+
+The 2014–2020 window resolves into four sharply bounded chapters rather
+than a smooth trajectory:
+
+- **2014 — baseline stability.** The tightest, most predictable loop in
+  the dataset: home, work, one weekly release valve, all in Uniontown.
+- **2015–2017 — the two-node system.** The [[wiki/people/annie-ulmer|Annie]]
+  relationship introduces a second anchor, and the data shows Dan's
+  routine restructuring around oscillation between
+  [[wiki/places/337-saratoga-drive|Saratoga Drive]] and
+  [[wiki/places/155-virginia-ave|Virginia Avenue]] — a system that
+  visibly strains under its own maintenance cost through 2017.
+- **2018–2019 — collapse and migration.** The two-node system fails
+  outright in 2018: this single year accounts for over a third of the
+  entire 2014–2020 aggregate travel distance, a spike the raw data
+  reads as chaotic, high-mileage instability rather than planned
+  movement. It resolves in 2019 with a hard, total relocation to New
+  York and a new single anchor at
+  [[wiki/places/307-e-76th-st|307 E 76th St]].
+- **2020 — the siege.** The newly-built NYC system gets compressed to a
+  micro-radius by an entirely external shock (COVID), with Central Park
+  logged as the primary decompression location during that
+  compression — the pattern's structure (tight radius, one release
+  valve) holding even when its content is forced rather than chosen.
+
+The read that ties these together: stability isn't the core trait so
+much as *systemic integrity* — Dan appears to build tightly optimized,
+low-variance routines and defend them hard, but is capable of
+discarding one wholesale and rebuilding an entirely new one from
+scratch when it stops working, rather than adjusting it incrementally.
+The 2018 collapse and 2019 rebuild is the clearest instance in the
+spatial record; whether that same all-or-nothing restructuring pattern
+shows up in the non-spatial parts of the corpus (career, relationships)
+is a natural cross-check this page doesn't attempt.
+
+## A caution about the framing
+
+The source material's own interpretive layer treats the low-risk,
+low-novelty movement pattern as evidence that Dan's self-reported high
+impulsivity "manifests in other areas of life... rather than in
+physical navigation" — a clean, flattering reconciliation. It's worth
+naming the alternative the report doesn't test: chronic financial
+constraint, documented at length elsewhere in the corpus across the
+same years (the 2017 poverty floor, drug-fronts as informal credit,
+the 2018 "deep cycle"), would produce an observably identical
+signature — tight home radius, low exploration, concentrated spending
+at a small number of known-cheap locations (Walmart, fast food) — for
+reasons of necessity rather than psychological strategy. Both readings
+fit the same numbers; the source material only offers one.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Home Anchoring Index | 0.68 |
+| Routine Index (predictability) | 0.85 |
+| Exploration Ratio | 0.22 |
+| Peak activity window | 2–6 PM; trough 3–7 AM |
+| Peak/trough day | Friday / Sunday |
+| 2014–2020 aggregate distance | ~170,000 km |
+| Unique locations, 2014–2020 | ~3,500 |
+
+**Gaps:** the report is AI-generated interpretation layered on genuine
+GPS data, not a primary quote from Dan; the "5-day smol bean magic
+pixie dream girl" 2014 anomaly it references in passing is otherwise
+undocumented anywhere in the wiki; no equivalent phase breakdown exists
+for 2021–2024 in the source material.
 
 
 ========================================================================
@@ -23229,6 +23440,7 @@ sources:
   - wiki/timeline/events/fran-death-vigil
   - wiki/places/337-saratoga-drive
   - "raw/self/dox-md/Crisis mode briefing.md"
+  - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
@@ -23244,6 +23456,9 @@ connections:
   - page: wiki/timeline/events/april-may-2026-final-weeks
     type: evidenced-by
     claim: "A recurring blocked-caller impersonation campaign (April 2026) targeted Suz directly — personally insulted, threatened arrest-worthy retaliation — the only documented instance of the relationship's terminal-phase conflict machinery reaching her this directly."
+  - page: wiki/people/tuquick-17248123683
+    type: evidenced-by
+    claim: "Tuquick's three-hour harassment call to Suz (~May 26, 2026), five days before the End Fight, is a second and distinct instance of the terminal-phase conflict machinery reaching her directly — a different actor and channel than the April blocked-caller campaign above."
 ---
 
 
@@ -23383,6 +23598,24 @@ staged "wife-warning" screenshot. The vector is isolated from the
 Law]] discipline of keeping distinct signals distinct applies here as
 throughout the terminal-phase forensics. Full analysis:
 [[wiki/self/chats/gemini-07]].
+
+## The Tuquick harassment call (~May 26, 2026)
+
+Five days before the [[wiki/timeline/events/end-fight|May 31 End Fight]]
+group-chat confrontation, [[wiki/people/tuquick-17248123683|Tuquick]] —
+the man Annie had left Dan for — spent three hours harassing Suz by
+phone: repeated calls using the same insults and aggressive script he
+would later direct at Dan, mentioning Annie by name several times. When
+Dan raised the incident with Annie afterward, she declined to explain or
+intervene. Source is a secondary AI podcast dramatization of the
+underlying message/call logs
+([[raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md]]), not yet
+independently re-verified against a raw call log — treat as
+plausible-and-specific pending confirmation, consistent with how the same
+source's other claims are flagged on
+[[wiki/people/tuquick-17248123683]]. The incident is the corpus's only
+documented instance of a third party escalating directly against Suz
+rather than against Dan or Annie.
 
 ## The colonization episode (terminal phase)
 
@@ -24260,6 +24493,7 @@ sources:
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
   - raw/self/message-csv/THE END FIGHT.csv
   - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
+  - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/end-fight
@@ -24302,6 +24536,59 @@ Tuquick served as the attack vector during the group chat confrontation, demonst
 - Hurled extreme insults at Dan, centering on "junkie," "cuck," and "molester" framing.
 - Acted as Annie's proxy and protector during the escalation that resulted in Annie's final "sic semper lupanis" text.
 - Dan attempted to engage him on geopolitical topics (Israel/Palestine) to derail the hostility, but Tuquick remained focused on the attack.
+
+> **REVISED [2026-07-20]:** A separate NotebookLM-style podcast dramatization
+> of the same message logs (see
+> [[raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md]]) supplies a
+> more granular account than the summary above and revises the "remained
+> focused on the attack" characterization — Tuquick's hostility broke down
+> *within the same May 31 exchange*, not only at the later June 15
+> defection. The trigger for the escalation was mundane: Dan had dropped a
+> blue folder containing drugs Annie had requested into a mailbox for her;
+> moments after she retrieved it, Tuquick — using an unknown number in the
+> group chat — opened a roughly two-hour barrage of slurs, threats, and a
+> demand to meet in person. **Five days earlier (~May 26, 2026), per the
+> same account, Tuquick had spent three hours harassing
+> [[wiki/people/suzanne-frank|Suzanne Frank]] by phone** — repeated calls,
+> the same insults and aggressive script he later used on Dan, and
+> mentioning Annie by name several times; when Dan raised the incident with
+> Annie afterward, she declined to explain or intervene. See
+> [[wiki/people/suzanne-frank]] for the standalone fact.
+>
+> Dan's counter-strategy, per the podcast's read of the logs, was
+> deliberate absurdist derailment rather than defense or silence: ALL-CAPS
+> non sequiturs ("TRANS RIGHTS ARE HUMAN RIGHTS"), a tangent on Carthaginian
+> mercenary geography, a review of his Spotify Discover Weekly, and the
+> blunt question "Israel: Good or bad?" — followed, when Tuquick reacted,
+> by "I'm kind of autistic as fuck and really not embarrassed to ask you if
+> you support the genocidal nation-state or not." Tuquick's hostility broke
+> partway through: he laughed at a crude line from Dan ("holy shit" plus
+> laughing emoji), then laughed again at the Israel non sequitur, and by
+> the end extended what the podcast frames as a de-escalation handshake —
+> "no hard feelings towards you" — a full two weeks before the June 15
+> defection already documented below.
+>
+> Two false claims from Annie inside the same window are also newly
+> documented: a claim that Tuquick had broken her finger (debunked in the
+> same thread by Tuquick himself — "Her finger isn't broken" — undercutting
+> her own implied-abuse framing), and, at 23:54, the specific false
+> accusation — "I have recorded videos of me obviously passed out still
+> being touched" — that group-chat-closure.md's "rape narrative framing"
+> already names generically but without this verbatim or timestamp. Dan is
+> recorded explicitly separating this one claim from the surrounding
+> absurdism mid-conversation: "This is all a big joke except for that."
+> Before the escalation, Annie is also recorded texting Dan privately,
+> "Just do me a favor and disregard anything I say after this" — read as
+> advance signaling that she was about to perform for the group rather than
+> communicate with him directly.
+>
+> Tuquick's mid-fight de-escalation and the earlier mother-harassment call
+> are not corroborated anywhere else in the corpus yet — the podcast is an
+> AI dramatization of underlying logs the wiki has not independently
+> re-verified line-by-line, unlike the primary-recount discipline applied
+> elsewhere in the End Fight material (see
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]]). Treat as
+> plausible-and-specific rather than confirmed pending a raw-row check.
 
 **The October 2019 video as weapon.** Tuquick's most personal ammunition
 was the video of the [[wiki/mind/psychosexual/arrangement-history|October
@@ -29259,6 +29546,7 @@ sources:
   - raw/self/message-csv/THE END FIGHT.csv
   - raw/self/message-csv/END_FIGHT_full.csv
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
+  - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
 related:
   - wiki/people/annie-ulmer
   - wiki/mind/concepts/attachment-model
@@ -29273,7 +29561,12 @@ tags: [relationships]
 Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party relationship (Tuquick — [[wiki/people/tuquick-17248123683]], not [[wiki/people/eli|Eli]]) and the active operation of a defamation campaign against Dan in Annie's social/peer network.
 
 The campaign included at minimum:
-- Rape narrative framing
+- Rape narrative framing — a secondary AI-podcast dramatization of the logs
+  (see [[wiki/people/tuquick-17248123683]] for full detail and provenance
+  caveat) dates the specific claim to 23:54: "I have recorded videos of me
+  obviously passed out still being touched," deployed immediately after an
+  earlier false claim in the same window (that Tuquick had broken her
+  finger) was debunked by Tuquick himself in the thread.
 - "Junkie" framing
 
 This occurred concurrent with prior written denials of any third-party relationship (Nov 2025 and Feb 2026) that Dan had taken at face value in good faith.
@@ -30072,6 +30365,9 @@ connections:
   - page: wiki/people/nick-mattie
     type: co-occurs
     claim: "The Nick Mattie ledger — $20 and $50 fronts tracked by hand, a $100 bill carried to work as debt repayment — is the poverty floor's street-level bookkeeping, two broke men extending each other credit neither could cover."
+  - page: wiki/mind/synthesis/spatial-behavior
+    type: evidences
+    claim: "The 2018 'System Collapse & Migration' phase — over a third of the entire 2014-2020 aggregate travel distance logged in one year — is the spatial-data signature of the poverty-floor/deep-cycle years destabilizing into the NYC move."
 ---
 
 # 2017 Poverty Floor
@@ -30144,6 +30440,12 @@ connections:
   - page: wiki/people/teddy
     type: contains
     claim: "Teddy's thread opens February 2018 at the onset of the period's multi-dealer configuration, forming its redundancy layer alongside Johnny."
+  - page: wiki/mind/synthesis/spatial-behavior
+    type: contradicts
+    claim: "The GPS analysis reads this year's spatial-collapse-and-migration signature as evidence of a chosen psychological strategy (systemic integrity via rebuild); this period's own financial-stress record offers an equally consistent alternative explanation — chronic constraint, not chosen minimalism."
+  - page: wiki/mind/synthesis/message-circadian-latency
+    type: evidenced-by
+    claim: "The 40,514-message 2018 whole-corpus total confirms and precisely quantifies this period's own qualitative '~40k msgs/yr' figure — the corpus's first-recorded volume peak."
 tags: [ai-collaboration, nyc-era, financial-stress, relationships, addiction-recovery]
 ---
 
@@ -30477,6 +30779,9 @@ connections:
   - page: wiki/mind/concepts/bunker-core
     type: contains
     claim: "Bunker Core is named in Dan's own 2026 'Bifurcated Daily OS' self-description as one half of a two-track life this period documents in full — survival work alongside a self-built technical sovereignty stack."
+  - page: wiki/mind/synthesis/message-circadian-latency
+    type: evidenced-by
+    claim: "The 41,278-message 2025 whole-corpus total — within 2% of the 2018 peak — gives this period its first precise volume figure, confirming the collapse year matched the deep-cycle year for raw output even as the content shifted from relationship crisis to relationship termination."
 ---
 
 

@@ -530,3 +530,107 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - SEXUAL PROFILE doc: confirmed to overlap heavily with already-documented ground (erotic-architecture.md, psychosexual/ cluster — same ELI_INCIDENT, externalized-libido, taboo-as-rupture concepts) — deprioritized, archived only.
 - Favorites / FAVORITES DATA docs: confirmed near-duplicates of the already-ingested raw/self/favorites/FAVS MASTERLIST.csv (matching movie list already on film-canon.md, matching concert list already on timeline/events/teen-concert-years.md) — no further action needed.
 - Gates: wiki-lint 0 errors (340 pages), wiki-connect check 0 errors.
+
+## [2026-07-20] ingest | mind | spatial-behavior.md (new) — GPS forensic analysis
+- PR #59 merged; restarted branch from origin/main. Operator broadened scope: mine anything in the full Google Drive, including hard-drive scans.
+- wiki/mind/synthesis/spatial-behavior.md (new): a behavioral/psychographic reading of Google Location History data (raw/self/dox-md/GPS_ANALYSIS.md), distinct from and built on top of the raw visit-count catalog on wiki/self/location-history.md (left untouched — status: archived). Core finding: movement resolves into four sharply-bounded life phases rather than gradual drift — "The Forge" (2014, Uniontown baseline), "The Binary System" (2015-17, the Annie two-node oscillation straining under its own cost), "System Collapse & Migration" (2018-19, over a third of the entire 2014-2020 aggregate travel distance logged in 2018 alone, resolving in the NYC move), and "The Siege of Manhattan" (2020 COVID compression). Explicitly flags a methodological caution the source material doesn't raise itself: the low-novelty/high-routine spatial signature is read there as a chosen psychological strategy, but chronic financial constraint (documented independently on 2017-poverty-floor.md/2018-deep-cycle.md) would produce an identical signature for different reasons — added as a contradicts connection rather than silently endorsing the source's framing.
+- Gates: wiki-lint 0 errors (341 pages), wiki-connect check 0 errors.
+
+## [2026-07-20] fix | mind/timeline | PR #60 review response
+Addressed 3 gemini-code-assist review comments on spatial-behavior.md:
+split truncated opening sentence, corrected location-history connection
+type instance-of -> contextualizes, added missing inverse connection on
+2017-poverty-floor.md. Gates clean (0 errors). Regenerated llm/. All
+three review threads resolved on GitHub.
+
+## [2026-07-20] triage | interests | BOOKS.csv (Drive/MEMORY) duplicate check
+Downloaded and reviewed BOOKS.csv (Drive MEMORY folder, Goodreads export
+format). Confirmed duplicate of raw/self/google-drive-export/goodreads_library_export.md
+already cited on wiki/interests/favorites/books.md — every distinctive
+title checked (Carlin, Holland's Rubicon, Goldsworthy's Caesar, Shirer,
+Bird's American Prometheus, and the Jacob Bacharach "Doorposts" 5-star
+2022 read) is already captured on that page, including the specific
+jacob-bacharach.md cross-link. No new signal. Deprioritized, no wiki changes.
+
+## [2026-07-20] triage | self | Drive "MEMORY" folder confirmed duplicate archive
+Sampled 4 files from Drive MEMORY/STORYTIME folder (id 1eAILXQoPk6owa7_nfFx0mZU6xBCHdL8j):
+BOOKS.csv (dup of goodreads_library_export.md, see prior log entry),
+"Dan Frank_ Profound Psychological Speculations_" (= the exact DANSYNTH
+source already synthesized as wiki/mind/synthesis/ancestral-dialectic.md),
+"Fraan" storytime doc (= source of wiki/timeline/events/fran-death-vigil.md,
+same 8am/keno/IMG_0569.MOV details verbatim), "Au Za'Atar" storytime doc
+(= source of wiki/work/au-zaatar.md, same Dimitri/Tunisian-manager/Sergio
+details verbatim). Conclusion: this Drive folder is a re-uploaded backup
+of the already-mined DANSYNTH/STORYTIME corpus, not new material.
+Deprioritizing remaining unopened items in this folder (2_PHENOMENOLOGY
+PROFILE.md, 1_CORE PROFILE.md, FULL PROFILE 2026.md, THE_DAN_FRANK_BOOTLOADER.md,
+Location History subfolder, MUSIC LIST(start-2024).csv, YOUTUBE WATCH HISTORY
+html — all by-name matches to already-ingested raw/ sources) without
+opening each individually. Moving to the flagged-high-priority "NEW LOADER"
+folder (OMNI_FORENSIC_DOSSIER.md, THEORY OF EVERYTHING 31 MAR) next.
+
+## [2026-07-20] ingest | mind | OMNI_FORENSIC_DOSSIER + BIBI_PERSONALITY_DECONSTRUCTION (Drive NEW LOADER)
+Mined two AI-generated forensic corpus analyses from Drive's flagged
+"NEW LOADER" folder. Both heavily overlap already-ingested material
+(exact-match numbers with linguistic-profile.md: 23,286 vocab, "because"
+2,465, "I don't" 1,845, "I'm not" 814 — confirms same underlying NLP
+extraction) but contained three genuinely new signals, added to the wiki:
+(1) a whole-corpus yearly message-volume arc 2015-2026 added to
+message-circadian-latency.md — first hard numbers for the 2021-2022
+near-total-silence trough (280 + 4 msgs) and precise 2018/2025 peak
+figures (40,514 / 41,278, within 2% of each other), with inverse
+connections added to 2018-deep-cycle.md and 2025-collapse.md; (2) a
+camming/non-monogamy word-frequency table added to
+wiki/mind/psychosexual/arrangement-history.md (304 camming tokens vs 107
+non-monogamy/kink tokens, ~3:1); (3) the "Broken Engine" self-mythology
+framing ("weaponized self-awareness as preemptive strike") cross-referenced
+into deviance-mapping.md's existing "Mythology of Ruin" outlier entry.
+Archived both source docs to raw/self/dox-md/. Gates: 0 errors both.
+Remaining NEW LOADER items (THEORY OF EVERYTHING 31 MAR, podcast
+transcript, Stylometric/Linguistic docs, masterloader PDFs) not yet
+checked — next up.
+
+## [2026-07-20] ingest | people/timeline | End Fight podcast transcript (Drive NEW LOADER)
+Mined a NotebookLM-style AI podcast dramatization of the already-documented
+May 31-June 1 2026 End Fight / group-chat closure. Confirmed the core event
+is already extensively covered (end-fight.md, group-chat-closure.md,
+tuquick-17248123683.md, dan-annie-fallout-verdict.md) but the podcast
+supplied granular detail not previously captured: Dan's absurdist
+derailment tactics used against Tuquick (TRANS RIGHTS ARE HUMAN RIGHTS,
+Carthage geography, Israel non sequitur), Tuquick's mid-fight de-escalation
+(laughing, "no hard feelings") two weeks before his already-documented
+June 15 defection, Annie's false broken-finger claim debunked by Tuquick
+himself, the exact 23:54 verbatim/timestamp of the false sexual-assault
+accusation, and — genuinely new fact — a prior ~May 26 2026 incident where
+Tuquick spent three hours harassing Suzanne Frank by phone, five days
+before the main confrontation. Added as a REVISED block on
+tuquick-17248123683.md (correcting the prior "remained focused on the
+attack" framing), a new section on suzanne-frank.md, and a verbatim/date
+addition to group-chat-closure.md's Data Record — all flagged as sourced
+from a secondary AI dramatization pending raw-row confirmation, consistent
+with the corpus's existing primary-recount discipline. Also checked
+THEORY OF EVERYTHING 31 MAR (Drive NEW LOADER): confirmed its
+quantified claims (74/17/11 abuse triad, 1,512/232/180 triad, 299
+affirmations, 187:4 test) are already incorporated and independently
+re-verified on dan-annie-fallout-verdict.md; its "Girlfriend Score"
+framing (Annie 1.9/10 vs Alexis 7.1/10) is new packaging of already-
+captured stats, not new signal — not added. Podcast transcript archived
+to raw/self/dox-md/. Gates: 0 errors.
+
+## [2026-07-20] triage | self | NEW LOADER folder remaining items checked
+Checked remaining unopened items in Drive NEW LOADER folder: "extract"
+(a chat.db SQL-query-generation prompt, confirms already-documented
+bunker-core.md tooling, no new signal) and "load" (the MAX persona master
+system prompt, already documented on wiki/mind/concepts/exocortex.md's
+bootloader list — "MAX_KERNEL_DUMP_V2," radical-skepticism/normie-filter
+framing matches exocortex.md's existing MAX summary). Stylometric Profile
+docs and Phase 2 Stylometric Analysis previously confirmed already-ingested
+(linguistic-profile.md). Not opened: masterloader.pdf/masterloader2.pdf
+(binary PDFs, likely compiled versions of already-seen bootloader text),
+messages_2124702449.csv alias (916 bytes, likely a stub/shortcut file not
+real data), .DS_Store (not content), an .mp3 audio file (out of scope for
+text mining). NEW LOADER folder considered fully triaged. Next: the two
+large ChatGPT conversation-export JSONs (dfrankconversations.json ~35.7MB)
+flagged earlier as a genuinely new, unopened AI-chat corpus distinct from
+the Gemini archive — needs dedicated download+extraction handling in a
+future pass given size.
