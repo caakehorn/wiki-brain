@@ -4,7 +4,7 @@ page_type: entity
 title: "SLOPPP"
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 date_range_start: 2013-01-01
 date_range_end: 2015-12-26
 sources:
@@ -13,6 +13,7 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html
   - raw/self/dox-scan/FULL TWITTER ANALYSIS.txt
   - raw/self/dox-scan/browser_history_analysis.txt
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/phillacher_gukgsjnnvw/message_1.html
 related:
   - wiki/interests/music/overview
   - wiki/interests/music/aliases/mogzart
@@ -100,7 +101,15 @@ from the era's ubiquitous sounds, with the year closed by "Wrapped up for
 episodes, the Beatport-styled VIP remixes and festival-trap edits chased
 the year's mainstream (Caked Up, Major Lazer, GTA-era bounce), and the
 "Heatwave" and skiing-joke mix titles show the register — irreverent,
-in-joke-heavy, promotion-averse. Through 2015 the alias wound down to
+in-joke-heavy, promotion-averse. The same year carries the alias's only
+two documented attempts to convert it into a live booking: Zach's
+January 2014 pitch to a Pittsburgh rave-scene contact (see
+[[wiki/people/zachariah-harshman]]), and a direct outreach Dan sent
+himself on July 6, 2014 to Pittsburgh DJ **Phil Lacher** ("I asked some
+friends about getting DJ slots in and around Pittsburgh. They all
+pointed me your way... I spin a lot of trap, deep house") — Lacher
+referred him to a third contact, Brandon Hooven, with no further trace
+of a booking resulting from either lead. Through 2015 the alias wound down to
 remnant shares and demos while Twitter shows production signals weakening
 into gaming and consumption; the December 26, 2015 "Goodbye Demo" reads as
 a deliberate close-out, four weeks after meeting Annie and just as the

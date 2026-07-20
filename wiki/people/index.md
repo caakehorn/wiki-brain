@@ -47,6 +47,7 @@ related: []
 - [[wiki/people/del]] — NYC Stiiizy-brand cannabis delivery service, spring-summer 2019; chronically late.
 - [[wiki/people/dimitri]] — the only boss Dan ever loved: Au Za'atar's Greek manager-oracle, twice.
 - [[wiki/people/drew]] — Collaborator on Nemacolin caddy yardage-book green mapping, June-July 2017.
+- [[wiki/people/drew-mcgettigan]] — Summer 2015 Uniontown supply contact (buyer/go-between); connected to the Zach Harshman circle.
 - [[wiki/people/elizabeth-eleanor]] — Fellow recovering addict; a single July 2013 conversation yielding the only Suboxone dosage figure and earliest INTP self-ID in the corpus.
 - [[wiki/people/eli]] — Coworker (male) of Annie Ulmer at Au Za'atar (or related NYC hospitality). Central to the eli-incident as…
 - [[wiki/people/ellen-ulmer]] — Annie's mother; steady contact 2017-2025, confirms Jim and Sugie as Annie's grandparents.
