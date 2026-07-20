@@ -61,7 +61,7 @@ with him, ~80 minutes after a shift five minutes' walk away, her location
 sharing turned off; it was Eli who texted, in six rapid-fire messages
 starting at 11:18 PM, with the preemptive benign framing: "Hey Dan. It's
 Eli. Annie is down stairs. I work with her. She and Andrea had drinks at
-work but I guess they didn't eat." (Primary-confirmed 2026-07-20 — see
+work but u guess they didn't eat." (Primary-confirmed 2026-07-20 — see
 [[wiki/timeline/events/eli-incident]] for the full minute-by-minute
 sequence, including Dan's own real-time reply, "Who are you?", sent
 between Eli's third and fourth messages.) The final
