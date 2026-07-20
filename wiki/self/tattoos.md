@@ -4,7 +4,7 @@ page_type: entity
 title: "Tattoos"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-15
+date_modified: 2026-07-19
 knowledge: mixed
 sources:
   - raw/self/captures/2026-07-14-tattoo-list.md
@@ -12,6 +12,7 @@ sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/dan tom 2010 2022.txt
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/chrisredmond_ewkx6qfqha/message_1.html
 related:
   - wiki/self/ancestry
   - wiki/interests/favorites/music
@@ -36,28 +37,44 @@ presented as complete, and further pieces should be added as they surface.
 
 | Design | Style/reference | Placement | Artist/shop | Date |
 |--------|------------------|-----------|-------------|------|
-| Misfits skull in a pizza slice | Custom mashup of the Misfits' Crimson Ghost mascot and a pizza slice | Unknown | Chris Redmond (custom drawn) | By Nov 27, 2018 |
+| Misfits skull in a pizza slice | Custom mashup of the Misfits' Crimson Ghost mascot and a pizza slice | Forearm, ~3"x1.5" | Chris Redmond (custom drawn), Uniontown-area | 2018-10-13 |
+| Misfits logo (green lettering) | Band's own logo lettering, unmodified | Forearm, beneath the pizza slice | Chris Redmond | 2018-10-22 |
 | Kanye West *808s & Heartbreak* KAWS bear | KAWS's reworked "Dropout Bear" from the *808s* era art/toy campaign | Unknown | Unknown | By Sept 22, 2025 |
 | Radiohead bear | The "Modified Bear" / Stanley Donwood-era *Kid A* artwork | Unknown | Unknown | By Oct 27, 2018 |
 | Old school traditional rose | American traditional flash | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Possibly March 8, 2019 |
 | Gravestone | Memorial-style piece | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Undocumented |
 | Flapper girl | American traditional flash (pin-up style) | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Undocumented |
 
-## Misfits: skull in a pizza slice
+## Misfits: skull in a pizza slice, and a second Misfits piece
 
-The earliest well-documented piece. In a November 27, 2018 exchange with
-[[wiki/people/emaly-minerd|Emaly Minerd]] — who compliments the tattoo and
-asks directly why he chose a pizza slice over the band's standard
-imagery — Dan explains the design process: he didn't want the
-conventional Misfits "Crimson Ghost" variant "where it looks like it's in
-a coffin with the arms folded," found a pizza-slice reinterpretation of
-the skull online, and had artist **Chris Redmond** draw it up custom for
-him. Elsewhere in the corpus (an August 2018 message and a 2018 exchange
-with [[wiki/people/tom|Tom]]) Dan self-mockingly frames the piece as
-evidence of being "a scumbag... immature" for getting it — "a literal
-misfits tattoo" is invoked more than once, by Dan and by others, as
-shorthand for arrested-development, still-into-the-same-things-at-30
-self-deprecation, rather than pure enthusiasm.
+The earliest well-documented piece, and now precisely dated via a
+direct Facebook Messenger thread with the artist: Dan first messages
+**Chris Redmond** — a Uniontown-area artist (his own messages place him
+near Cheat Lake and Hopwood, "coming down the mountain" for
+appointments) — on October 12, 2018, explicitly framing it as the
+first of "4 or 5 other pieces" he wants done before turning 30 on
+November 1, and the pizza-slice piece is inked the next day, October
+13, on his forearm at roughly 3" x 1.5". In a November 27, 2018
+exchange with [[wiki/people/emaly-minerd|Emaly Minerd]] — who
+compliments the tattoo and asks directly why he chose a pizza slice
+over the band's standard imagery — Dan explains the design process: he
+didn't want the conventional Misfits "Crimson Ghost" variant "where it
+looks like it's in a coffin with the arms folded," found a pizza-slice
+reinterpretation of the skull online, and had Chris draw it up custom
+for him. Elsewhere in the corpus (an August 2018 message and a 2018
+exchange with [[wiki/people/tom|Tom]]) Dan self-mockingly frames the
+piece as evidence of being "a scumbag... immature" for getting it — "a
+literal misfits tattoo" is invoked more than once, by Dan and by
+others, as shorthand for arrested-development, still-into-the-
+same-things-at-30 self-deprecation, rather than pure enthusiasm.
+
+A **second, previously undocumented Misfits piece** follows quickly:
+on October 18, 2018, Dan asks Chris to ink a green-lettering Misfits
+band-logo design directly beneath the pizza slice on the same forearm,
+explicitly calling it "this most cliché tattoo" — done October 22.
+Chris, unprompted, volunteers that he "listen[s] to the misfits, still"
+and declines to modify the logo beyond the band's own lettering,
+calling it "all unique to the band."
 
 ## Kanye — *808s & Heartbreak*, via KAWS
 
@@ -101,6 +118,25 @@ by Dan himself, as identity performance rather than pure fan devotion —
 worth holding onto as a caveat for reading the whole list, not just this
 one piece.
 
+## The sleeve ambition starts in Uniontown, not Brooklyn
+
+The "full sleeve" idea documented below as a Brooklyn-era pursuit
+actually originates three months earlier, with Chris Redmond: by
+October 16, 2018 Dan is already asking to "start discussing concept for
+a sleeve," and by November 25 he's explicit about the aesthetic —
+"working it into a full sleeve of Old school/American traditional
+motifs" — buying reference books from Amazon by November 27 ("I'm
+finding it easier to evolve the vague ideas... into more specific
+concepts... wish I would have started getting these tattoos years
+ago"). On November 30, 2018 he sends Chris a **traditional rose**
+reference image, wanting it placed near the existing forearm work; by
+December 20 Chris confirms it's "always do-able," and the thread ends
+there without a completed-session message. Whether this Uniontown rose
+concept became the "old school traditional rose" Ian Weidrick executed
+in Brooklyn roughly ten weeks later (March 2019, below) — i.e. the plan
+moved with Dan to NYC before being realized — or whether it is a
+separate, unfinished piece is not established; see Gaps.
+
 ## The traditional pieces: rose and flapper girl
 
 On March 8, 2019, Dan texted [[wiki/people/annie-ulmer|Annie]] with
@@ -137,9 +173,17 @@ tattoo count is unknown — Dan's own framing ("just to start you off")
 indicates this list is a beginning, not an inventory, and this page
 should be extended as further pieces are named or surface in raw sources.
 Whether "Chris Redmond" (the Misfits artist) and "Chris at the Edge"
-(Annie's March 2019 comparison reference) are the same person is unconfirmed;
-the March 2019 traditional pieces themselves were done by Ian Weidrick at
-Allied Tattoo, not by either Chris.
+(Annie's March 2019 comparison reference) are the same person now reads as
+unlikely rather than merely unconfirmed: Chris Redmond's own messages place
+him working near Cheat Lake and Hopwood, PA — the Uniontown area, not NYC —
+making him a plausible but unconfirmed match for a Uniontown-adjacent "Edge"
+location rather than any Brooklyn shop; the March 2019 traditional pieces
+themselves were done by Ian Weidrick at Allied Tattoo, not by either Chris.
+Whether the November 2018 rose concept discussed with Chris Redmond ever
+got inked in Uniontown, was carried to Brooklyn and became the Weidrick
+rose, or remains a separate unfinished piece is unresolved — the Chris
+Redmond thread ends December 20, 2018 without a completion message, and
+the Weidrick rose follows about ten weeks later.
 
 ## Related
 
