@@ -3,7 +3,7 @@ domain: work
 page_type: summary
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-11
+date_modified: 2026-07-20
 sources: []
 related: []
 ---
@@ -29,3 +29,4 @@ Personal technology projects: agent tooling, message-forensics pipelines, and re
 Project documentation for future coding context. Raw/tech/ subdirs empty — data from dox-md (MAX_PRIME/CATO), log, ingest-queue, bin/, home tooling (imessage-extractor/, messages-exporter/, danwiki_portal.py). See also [[wiki/self/message-corpora/master-message-dump]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/self/facebook]], [[wiki/self/context-core]].
 
 - [[wiki/work/tech/vibe-coding-games]] — the Matter.js browser-game line built by AI direction (whoano, trickrun, jumprun, basketball_sandbox).
+- [[wiki/work/tech/ai-video-essays]] — planning-stage project: long-form video essays on AI for non-technical audiences, reverse-engineered from Some More News's structural format; no script or video published.

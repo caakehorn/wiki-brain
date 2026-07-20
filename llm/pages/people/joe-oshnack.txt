@@ -4,7 +4,7 @@ page_type: entity
 status: active
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 date_range_start: 2011-01-20
 date_range_end: 2022-01-02
 sources:
@@ -15,8 +15,11 @@ infobox:
   sex: male
   location: "Park City, UT"
   relationship_to_dan: friend
-  known_for: "High school bandmate (BNI); recipient of Dan's fullest self-narrated account of his own pre-2020 conservative political identity and its reversal"
+  known_for: "High school bandmate in Batteries Not Included (BNI); recipient of Dan's fullest self-narrated account of his own pre-2020 conservative political identity and its reversal"
 connections:
+  - page: wiki/interests/music/bands/batteries-not-included
+    type: evidenced-by
+    claim: "Joe is one of two named bandmates (with Matt Turko), and his thread is the primary source for the band's setlist and the 2021 political retrospective on covering Dead Kennedys' 'California Uber Alles.'"
   - page: wiki/mind/synthesis/2020-left-turn
     type: evidences
     claim: "A Sept 23, 2021 message gives the fullest documented account of the *pre*-turn identity the other page dates the conversion away from: Dan describes his teenage self as 'an annoying little conservative fuckcunt' who was 'less than thrilled about playing songs with an anti-Iraq war theme' — concrete texture for what he was converting from, not just what he converted to."
@@ -34,7 +37,8 @@ connections:
 # Joe Oshnack
 
 Joe Oshnack is a high-school-era Uniontown bandmate — the two played
-together in a band referred to only as "BNI" — whose eleven-year
+together in [[wiki/interests/music/bands/batteries-not-included|Batteries
+Not Included]] ("BNI") — whose eleven-year
 Facebook thread (2011–2022) runs from failed long-distance recording
 collaborations through a rich 2021 political retrospective that is the
 corpus's fullest first-person account of what Dan's political identity
@@ -48,7 +52,8 @@ planned NYC studio session; an April 2011 offer to trade guitar/vocal
 stems over the internet gets as far as identifying DAWs and file formats
 before going quiet; an August 2012 in-person plan (Dan offering his home
 8x8 interface setup "so we don't have to book studio time") also
-doesn't close. A August 2018 exchange reconstructs the old band's
+doesn't close. A August 2018 exchange reconstructs
+[[wiki/interests/music/bands/batteries-not-included|the band]]'s
 setlist from memory — Misfits, Dead Kennedys, Ramones, NOFX covers
 alongside originals Dan wrote as "lead songwriter" — good corroborating
 detail for the corpus's picture of Dan's teenage hardcore/punk
@@ -105,6 +110,6 @@ unfixed.
 | Date range | 2011-01-20 – 2022-01-02 |
 | Defining content | The Sept 23, 2021 political retrospective |
 
-**Gaps:** what "BNI" stands for; whether any of the proposed recording
-collaborations ever actually happened; resolution of the cam-threesome
-date discrepancy above.
+**Gaps:** whether any of the proposed recording collaborations (2011,
+2012) ever actually happened; further detail on the band beyond the
+setlist (see [[wiki/interests/music/bands/batteries-not-included]]).

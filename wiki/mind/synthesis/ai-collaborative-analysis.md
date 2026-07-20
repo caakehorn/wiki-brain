@@ -25,6 +25,8 @@ sources:
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
   - "raw/self/dox-scan/HEART.pdf.txt"
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
+  - "raw/self/dox-md/Crisis mode briefing.md"
+  - "raw/self/dox-md/Creating robust video essays from scripts.md"
 connections:
   - page: wiki/mind/concepts/node-locking
     type: evidenced-by
@@ -47,6 +49,12 @@ connections:
   - page: wiki/health/hyperreflexivity
     type: instantiates
     claim: "A self-initiated request for a clinical read on his own social anxiety, run through an AI instead of a clinician, is the mental-health-domain instance of the externalized-prefrontal-cortex pattern."
+  - page: wiki/timeline/events/april-may-2026-final-weeks
+    type: instantiates
+    claim: "The AI-drafted letter to Suz, which Dan then declines to send in his own voice, is the clearest instance of outsourcing the authorship of vulnerability itself rather than just memory or analysis."
+  - page: wiki/work/tech/ai-video-essays
+    type: evidenced-by
+    claim: "Requesting a data stress-test of his own creative-project hypothesis, then accepting a result that flatly contradicted his premise, is the honesty-enforcement pattern applied to a personal ambition rather than forensic or political material."
 ---
 
 
@@ -150,6 +158,25 @@ forensics over the immutable iMessage archive — serves epistemic
 verification: raw message history as the gaslighting-proof record. Agent
 tooling ("Bunker Core," Grok Build) extends the same principle into
 automation ([[wiki/work/tech/imessage-tooling/overview]]).
+
+**Ghostwriting the hardest conversation, then declining to send it.**
+During the April 2026 blocked-caller crisis (see
+[[wiki/timeline/events/april-may-2026-final-weeks]]), Dan asks the model
+to draft an explanatory letter to his mother — explicitly authorizing it
+to include "any criticism, hypocrisy, negative element about me you
+wish," no restriction. The model produces a genuinely vulnerable
+first-person letter (owning "I told you... I would choose Annie over
+anyone if I had to... a part of me still means it," apologizing for
+treating her home "like it was a base of operations for my crisis"),
+annotated with its own list of deliberate omissions (the 2004 family
+rupture, clinical attachment-theory language, any defense of Annie, any
+promises). Dan's response is not to edit it — it's to reject the premise
+entirely: "I don't want it to be a letter, or FROM ME. I wanted you to
+explain to her..." The pattern matches the corpus's other documented AI
+uses (memory, forensic distance, honesty-enforcement) but adds a new
+one: outsourcing the *authorship* of vulnerability itself, and then,
+even once the model supplies exactly the plain-language ownership he
+asked for, retreating from delivering it in his own voice.
 
 ## The Bacharach exemplar
 

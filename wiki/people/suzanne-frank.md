@@ -6,7 +6,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 infobox:
   name: Suzanne Frank
   status: Active
@@ -33,6 +33,7 @@ sources:
   - wiki/legal/463-morgantown
   - wiki/timeline/events/fran-death-vigil
   - wiki/places/337-saratoga-drive
+  - "raw/self/dox-md/Crisis mode briefing.md"
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
@@ -45,6 +46,9 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: causes
     claim: "The maternal half of the 2005 hinge completes the both-verticals-concealing template."
+  - page: wiki/timeline/events/april-may-2026-final-weeks
+    type: evidenced-by
+    claim: "A recurring blocked-caller impersonation campaign (April 2026) targeted Suz directly — personally insulted, threatened arrest-worthy retaliation — the only documented instance of the relationship's terminal-phase conflict machinery reaching her this directly."
 ---
 
 

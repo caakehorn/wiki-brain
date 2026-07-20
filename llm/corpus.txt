@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-335 pages, ~466,238 tokens.
+337 pages, ~471,445 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -157,6 +157,7 @@ date_modified: 2026-07-20
 sources:
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle (1).md"
+  - "raw/self/dox-md/Reassessing with fresh perspective.md"
 tags: [mental-health, addiction-recovery, personality-profile]
 connections:
   - page: wiki/health/chemical-architecture
@@ -171,6 +172,9 @@ connections:
   - page: wiki/work/au-zaatar
     type: co-occurs
     claim: "The session is dated, by internal reference to 'nearly a year of not working' since the involuntary Aug 2024 Au Za'atar job loss, to roughly mid-2025 — the point Dan returned to paid work after an eleven-month gap."
+  - page: wiki/mind/concepts/attachment-model
+    type: contextualizes
+    claim: "A follow-up session reframes the anxiety loop as largely parasitized by the unresolved Annie situation and the post-closure housing void rather than a freestanding clinical pattern, and develops the related 'mojo and magic' attraction-outcome concept documented there in full."
 ---
 
 # Hyperreflexivity and the Anxiety Loop
@@ -242,6 +246,27 @@ the sale of his childhood home at
 [[wiki/places/337-saratoga-drive]], and the identity structure built
 around the relationship going with it), which this page does not
 re-derive.
+
+## A follow-up reframe: signal, not noise
+
+A later, separate AI session — explicitly reviewing the same anxiety
+conversation as retrospective data rather than continuing it — pushes
+back on treating the loop as a freestanding condition at all. Its
+read: by the session's second third the conversation had converted
+almost entirely into an [[wiki/people/annie-ulmer|Annie]] analysis, and
+that drift is diagnostic rather than incidental — "the anxiety loop
+doesn't have much independent existence right now." It reads as
+"parasitized" by two concrete, unresolved situations — the Annie
+relationship and, per internal reference, a "post-June housing void" —
+being processed as threat by an already-calibrated hyperreflexive
+system, rather than a clinical entity running on its own. The
+reframe's practical implication: "treat the anxiety loop" may target
+the wrong layer; the loop is functioning as signal about real
+unresolved conditions, not noise to be corrected independently of
+them. The same session develops a separate, related concept — Dan's
+own "mojo and magic" framing for a felt loss of attraction-outcome
+capacity — documented in full on
+[[wiki/mind/concepts/attachment-model|the attachment model page]].
 
 ## No confirmed treatment engagement
 
@@ -3102,6 +3127,111 @@ finalize terms with Dan's parents, is otherwise unidentified in the corpus.
 
 
 ========================================================================
+PAGE: wiki/interests/music/bands/batteries-not-included.md
+========================================================================
+
+---
+domain: interests
+page_type: entity
+title: "Batteries Not Included (BNI)"
+status: closed
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joeoshnack_7killpebkw/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/sethledonne_ydkapzhbla/message_1.html"
+tags: [music-production, uniontown-era, personality-profile]
+connections:
+  - page: wiki/people/joe-oshnack
+    type: evidenced-by
+    claim: "Joe's Aug 2018 setlist-reconstruction thread and Sept 2021 retrospective are the corpus's primary sources on the band — Dan names himself lead songwriter for the originals."
+  - page: wiki/people/seth-ledonne
+    type: evidenced-by
+    claim: "Seth is named as one of the scene mentors (with Andy, Paul, Nathan, Kessler) whose harsh, high-standards hardcore/punk scene the band operated inside of, and 'Rejected Gazette' as a named zine/scene touchstone of the same milieu."
+  - page: wiki/interests/opie-and-anthony
+    type: parallels
+    claim: "Both are formative teenage counterculture immersions Dan explicitly credits decades later — the hardcore scene via Seth LeDonne, the shock-radio archive via years of solo listening — that trained the same anti-normie, no-flinch aesthetic register."
+---
+
+# Batteries Not Included (BNI)
+
+Batteries Not Included — "BNI" in Dan's own shorthand — was his high
+school-era band with [[wiki/people/joe-oshnack|Joe Oshnack]] and a
+third member, Matt Turko, playing hardcore/punk covers alongside
+originals Dan wrote as, in his own words, "lead songwriter." It
+predates every other music project the wiki documents by nearly a
+decade — the earliest evidence of the same instinct that later becomes
+SLOPPP, MOGZART, and GRIPNOTIC.
+
+## The setlist
+
+An August 2018 exchange has Dan and Joe jointly reconstructing the
+band's full setlist from memory, years later. The covers are a clean
+snapshot of the local hardcore/punk canon they were working from: the
+Misfits ("She," plus the band's own logo song), the Dead Kennedys
+("California Uber Alles"), and the Ramones ("Teenage Lobotomy"). Joe
+separately names a CKY track — "96 Quite Bitter Beings," from the
+band's 1999 debut album *Volume 1* — as material that "never left your
+basement": practiced but never performed live, half-jokingly blamed on
+the shopping-cart-stunt culture CKY's own videos made famous ("we
+couldn't play it because everyone would just start running shopping
+carts off curbs"). The originals are otherwise unnamed and unrecorded
+in the corpus.
+
+## The politics nobody understood at the time
+
+The band's single most-examined moment, revisited by Dan unprompted in
+a September 23, 2021 message to Joe, is covering "California Uber
+Alles" — a Dead Kennedys song satirizing authoritarian California
+governor Jerry Brown — without any of the three members understanding
+or agreeing with its politics at the time. Dan's own retrospective is
+unsparing: he was, in his words, "an annoying little conservative
+fuckcunt" who was "less than thrilled about playing songs with an
+anti-Iraq-war theme," a position he calls "MORTIFYING" to remember from
+the vantage of his later "far left political ideology." Matt Turko is
+named in the same conversation as having voted for Trump, one of the
+few concrete adult-life data points the corpus carries on him beyond
+his band membership — otherwise placed in "the burgh" (Pittsburgh),
+married with kids and a career, as of 2021.
+
+## The scene around it
+
+[[wiki/people/seth-ledonne|Seth LeDonne]]'s own thread supplies the
+surrounding culture rather than the band itself: a named group of
+scene mentors — Seth, Andy, Paul, Nathan, Kessler — whose "visceral
+disdain" for anything perceived as inauthentic (Dan recalls being
+mocked for a tie-dye "311 concert" shirt at a hardcore basement show)
+Dan credits, decades later, as "developmental" and the direct source of
+his adult taste for counterculture. A zine or scene publication called
+"Rejected Gazette" is named as a touchstone of the same milieu. BNI was
+one visible output of a wider local hardcore scene, not an isolated
+project.
+
+## The reunion that never happened
+
+By September 2021 Dan floats the idea of a reunion show, then
+immediately deflates it: "literally half of the people who were
+involved in that scene or would be interested or understand the
+significance... they're dead" — an echo of the same opiate-epidemic
+framing documented on [[wiki/people/matthew-palermo]] and elsewhere in
+the corpus. No reunion is recorded as having happened.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Members (documented) | Dan (lead songwriter), Joe Oshnack, Matt Turko |
+| Era | High school (pre-2006, per Dan's own "class of 06" graduating-year references elsewhere) |
+| Documented covers | Misfits ("She," logo song), Dead Kennedys ("California Uber Alles"), Ramones ("Teenage Lobotomy"); CKY's "96 Quite Bitter Beings" (rehearsal only, never performed live) |
+
+**Gaps:** what "BNI" stands for beyond "Batteries Not Included"; any
+original song titles or recordings; whether the band ever played a
+real venue versus basement shows only; exact active years; whether any
+other members existed beyond the three named here.
+
+
+========================================================================
 PAGE: wiki/interests/music/concepts/lyrics-as-timbre.md
 ========================================================================
 
@@ -3316,7 +3446,7 @@ domain: interests
 page_type: summary
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-11
+date_modified: 2026-07-20
 sources: []
 related: []
 ---
@@ -3334,6 +3464,12 @@ related: []
 | [[wiki/interests/music/aliases/mogzart]] | closed | Bass house / trap-adjacent | ~2014–2016 |
 | [[wiki/interests/music/aliases/sloppp]] | closed | House / experimental bass | ~2013–2014 |
 | [[wiki/interests/music/aliases/mogged-up]] | closed | Bootleg / edit imprint | concurrent w/ SLOPPP/MOGZART |
+
+## Bands
+
+| Band | Status | Role | Era |
+|------|--------|------|-----|
+| [[wiki/interests/music/bands/batteries-not-included]] | closed | Lead songwriter (originals); hardcore/punk covers | High school, pre-2006 |
 
 ## Concepts
 - [[wiki/interests/music/concepts/sub-bass-signature]] — involuntary 63–85% sub-bass presence across all aliases, 13-year span; origin artifact: Numark NS7 (Fran Whyel)
@@ -4223,7 +4359,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -4231,6 +4367,7 @@ sources:
   - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - "raw/self/dox-md/Reassessing with fresh perspective.md"
 tags: [relationships, attachment, addiction-recovery, trauma-bond, infidelity]
 connections:
   - page: wiki/mind/psychosexual/emotional-imprinting
@@ -4263,6 +4400,9 @@ connections:
   - page: wiki/mind/concepts/conflict-architecture
     type: mirrors
     claim: "The conflict engine demands resolution while the attachment model cannot issue severance — mutually amplifying architectures with no shared halt condition, recorded in conflict-architecture's paired CONTRADICTION blocks."
+  - page: wiki/health/hyperreflexivity
+    type: contextualizes
+    claim: "A companion AI session reframes the anxiety loop as largely parasitized by the unresolved Annie situation and post-closure housing void, rather than a freestanding clinical pattern — the loop may be signal, not noise."
 ---
 
 
@@ -4309,6 +4449,44 @@ The communication corpus demonstrates a systematic gaslighting architecture used
 The central impact of this architecture was the subversion of Dan's cognitive stability. By targeting his capacity to verify reality, the deception inflicted a distinct category of psychological harm that went beyond simple infidelity.
 
 The final dossiers add the closure-side mechanism — the **confession trap**. Dan could not exit without the validation of a confession: he had assembled an overwhelming evidentiary case, and leaving without the verdict would have meant abandoning the identity of the person who was right. Annie was never going to supply the confession, because supplying it would have ended the arrangement she was maintaining. The dossiers' formulation: "the exit was never through the verdict. It was through the door." This is the same no-counter-rule architecture stated from the other side — where the model above describes the missing severance *signal*, the confession trap describes the missing severance *permission*.
+
+## "The mojo is locked in a room with no door"
+
+An undated 2026 AI-chat session (post-June-1-closure, per internal
+reference to "the post-June housing void") surfaces a self-described
+concept Dan names but doesn't have clinical language for: an
+"attraction outcome thing" — a felt sense, across his adult life, that
+holding a low-probability desired outcome as a primary variable and
+letting everything else run downstream of it "has always been able to
+kind of materialize." He reports this capacity as functionally absent
+since Annie — "annie stole my mojo and magic." The session's own
+reframe, which Dan does not contest: the mechanism wasn't lost, it was
+*captured* — locked onto the one target (Annie) where the feedback loop
+is structurally broken and can't close, rather than deactivated
+generally.
+
+The same conversation supplies a sharp comparative data point: across
+seven years living with [[wiki/people/alexis-armel|Alexis]], Dan says
+he "never even thought about a real future with [her]," despite
+cohabitation — functional companionship without the deeper
+identity-fusion architecture ever activating. Annie is named as the
+first (and, per the session, only) person to fully engage the
+attachment system rather than the companionship system — which the
+session uses to argue the disorientation of the loss is proportionate
+to a first-time full activation, not an overreaction to an ordinary
+breakup. The session pushes back on one point Dan doesn't resolve in
+the retained transcript: whether the "it always materializes" track
+record has any evidence outside the Annie relationship itself, or
+whether the reference class is circular.
+
+The same session also offers a structural reframe of the
+[[wiki/health/hyperreflexivity|hyperreflexivity]] material from a
+companion source: the anxiety loop, considered independently, "doesn't
+have much independent existence right now" — it reads as almost
+entirely parasitized by two concrete, unresolved situations (Annie, and
+the post-closure housing void) rather than a freestanding clinical
+pattern, which reframes "treat the anxiety" as possibly the wrong
+target — the loop may be signal, not noise.
 
 ## Documented Contradictions
 
@@ -7401,6 +7579,8 @@ sources:
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
   - "raw/self/dox-scan/HEART.pdf.txt"
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
+  - "raw/self/dox-md/Crisis mode briefing.md"
+  - "raw/self/dox-md/Creating robust video essays from scripts.md"
 connections:
   - page: wiki/mind/concepts/node-locking
     type: evidenced-by
@@ -7423,6 +7603,12 @@ connections:
   - page: wiki/health/hyperreflexivity
     type: instantiates
     claim: "A self-initiated request for a clinical read on his own social anxiety, run through an AI instead of a clinician, is the mental-health-domain instance of the externalized-prefrontal-cortex pattern."
+  - page: wiki/timeline/events/april-may-2026-final-weeks
+    type: instantiates
+    claim: "The AI-drafted letter to Suz, which Dan then declines to send in his own voice, is the clearest instance of outsourcing the authorship of vulnerability itself rather than just memory or analysis."
+  - page: wiki/work/tech/ai-video-essays
+    type: evidenced-by
+    claim: "Requesting a data stress-test of his own creative-project hypothesis, then accepting a result that flatly contradicted his premise, is the honesty-enforcement pattern applied to a personal ambition rather than forensic or political material."
 ---
 
 
@@ -7526,6 +7712,25 @@ forensics over the immutable iMessage archive — serves epistemic
 verification: raw message history as the gaslighting-proof record. Agent
 tooling ("Bunker Core," Grok Build) extends the same principle into
 automation ([[wiki/work/tech/imessage-tooling/overview]]).
+
+**Ghostwriting the hardest conversation, then declining to send it.**
+During the April 2026 blocked-caller crisis (see
+[[wiki/timeline/events/april-may-2026-final-weeks]]), Dan asks the model
+to draft an explanatory letter to his mother — explicitly authorizing it
+to include "any criticism, hypocrisy, negative element about me you
+wish," no restriction. The model produces a genuinely vulnerable
+first-person letter (owning "I told you... I would choose Annie over
+anyone if I had to... a part of me still means it," apologizing for
+treating her home "like it was a base of operations for my crisis"),
+annotated with its own list of deliberate omissions (the 2004 family
+rupture, clinical attachment-theory language, any defense of Annie, any
+promises). Dan's response is not to edit it — it's to reject the premise
+entirely: "I don't want it to be a letter, or FROM ME. I wanted you to
+explain to her..." The pattern matches the corpus's other documented AI
+uses (memory, forensic distance, honesty-enforcement) but adds a new
+one: outsourcing the *authorship* of vulnerability itself, and then,
+even once the model supplies exactly the plain-language ownership he
+asked for, retreating from delivering it in his own voice.
 
 ## The Bacharach exemplar
 
@@ -18178,7 +18383,7 @@ page_type: entity
 status: active
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 date_range_start: 2011-01-20
 date_range_end: 2022-01-02
 sources:
@@ -18189,8 +18394,11 @@ infobox:
   sex: male
   location: "Park City, UT"
   relationship_to_dan: friend
-  known_for: "High school bandmate (BNI); recipient of Dan's fullest self-narrated account of his own pre-2020 conservative political identity and its reversal"
+  known_for: "High school bandmate in Batteries Not Included (BNI); recipient of Dan's fullest self-narrated account of his own pre-2020 conservative political identity and its reversal"
 connections:
+  - page: wiki/interests/music/bands/batteries-not-included
+    type: evidenced-by
+    claim: "Joe is one of two named bandmates (with Matt Turko), and his thread is the primary source for the band's setlist and the 2021 political retrospective on covering Dead Kennedys' 'California Uber Alles.'"
   - page: wiki/mind/synthesis/2020-left-turn
     type: evidences
     claim: "A Sept 23, 2021 message gives the fullest documented account of the *pre*-turn identity the other page dates the conversion away from: Dan describes his teenage self as 'an annoying little conservative fuckcunt' who was 'less than thrilled about playing songs with an anti-Iraq war theme' — concrete texture for what he was converting from, not just what he converted to."
@@ -18208,7 +18416,8 @@ connections:
 # Joe Oshnack
 
 Joe Oshnack is a high-school-era Uniontown bandmate — the two played
-together in a band referred to only as "BNI" — whose eleven-year
+together in [[wiki/interests/music/bands/batteries-not-included|Batteries
+Not Included]] ("BNI") — whose eleven-year
 Facebook thread (2011–2022) runs from failed long-distance recording
 collaborations through a rich 2021 political retrospective that is the
 corpus's fullest first-person account of what Dan's political identity
@@ -18222,7 +18431,8 @@ planned NYC studio session; an April 2011 offer to trade guitar/vocal
 stems over the internet gets as far as identifying DAWs and file formats
 before going quiet; an August 2012 in-person plan (Dan offering his home
 8x8 interface setup "so we don't have to book studio time") also
-doesn't close. A August 2018 exchange reconstructs the old band's
+doesn't close. A August 2018 exchange reconstructs
+[[wiki/interests/music/bands/batteries-not-included|the band]]'s
 setlist from memory — Misfits, Dead Kennedys, Ramones, NOFX covers
 alongside originals Dan wrote as "lead songwriter" — good corroborating
 detail for the corpus's picture of Dan's teenage hardcore/punk
@@ -18279,9 +18489,9 @@ unfixed.
 | Date range | 2011-01-20 – 2022-01-02 |
 | Defining content | The Sept 23, 2021 political retrospective |
 
-**Gaps:** what "BNI" stands for; whether any of the proposed recording
-collaborations ever actually happened; resolution of the cam-threesome
-date discrepancy above.
+**Gaps:** whether any of the proposed recording collaborations (2011,
+2012) ever actually happened; further detail on the band beyond the
+setlist (see [[wiki/interests/music/bands/batteries-not-included]]).
 
 
 ========================================================================
@@ -21985,7 +22195,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 date_range_start: 2020-03-10
 date_range_end: 2020-06-23
 sources:
@@ -22001,6 +22211,9 @@ connections:
   - page: wiki/timeline/periods/covid-era-2020
     type: evidences
     claim: "Dan's June 7, 2020 real-time account — '8pm curfew... it's been like living in beirut' — documents the George Floyd-protest curfew period in Manhattan from inside the lockdown year, alongside a still-undecided 2020 vote (unwilling to back Biden as of April)."
+  - page: wiki/interests/music/bands/batteries-not-included
+    type: contextualizes
+    claim: "Seth is named as one of the scene mentors (with Andy, Paul, Nathan, Kessler) whose harsh hardcore/punk scene Dan's high school band operated inside of, and 'Rejected Gazette' as a named touchstone of the same milieu."
 ---
 
 # Seth LeDonne
@@ -22020,8 +22233,10 @@ for counterculture if not for you, Andy, Paul, Nathan, Kessler." He
 frames the group's harshness as productive — "the visceral disdain that
 I felt from the entire group was really developmental for me later in
 life" — recalling being mocked for wearing a "311 concert" tie-dye shirt
-to a hardcore basement show, and closes: "thank you for being so cruel
-about what an enormous fraud and p0seur I was because it was the
+to a hardcore basement show — the same scene his high school band,
+[[wiki/interests/music/bands/batteries-not-included|Batteries Not
+Included]], operated inside of — and closes: "thank you for being so
+cruel about what an enormous fraud and p0seur I was because it was the
 catalyst for finding some authenticity." It is a rare instance of Dan
 naming specific people as the direct source of a taste formation that
 elsewhere in the corpus reads as self-generated.
@@ -22390,7 +22605,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 infobox:
   name: Suzanne Frank
   status: Active
@@ -22417,6 +22632,7 @@ sources:
   - wiki/legal/463-morgantown
   - wiki/timeline/events/fran-death-vigil
   - wiki/places/337-saratoga-drive
+  - "raw/self/dox-md/Crisis mode briefing.md"
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
@@ -22429,6 +22645,9 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: causes
     claim: "The maternal half of the 2005 hinge completes the both-verticals-concealing template."
+  - page: wiki/timeline/events/april-may-2026-final-weeks
+    type: evidenced-by
+    claim: "A recurring blocked-caller impersonation campaign (April 2026) targeted Suz directly — personally insulted, threatened arrest-worthy retaliation — the only documented instance of the relationship's terminal-phase conflict machinery reaching her this directly."
 ---
 
 
@@ -27802,11 +28021,12 @@ title: "April–May 2026 — The Final Documented Weeks"
 importance: high
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 date_range_start: 2026-04-01
 date_range_end: 2026-05-06
 sources:
   - raw/self/dox-md/Ethics of leaving without communication.md
+  - "raw/self/dox-md/Crisis mode briefing.md"
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/march-2026-terminal-phase
@@ -27814,6 +28034,16 @@ related:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
 tags: [relationships]
+connections:
+  - page: wiki/people/suzanne-frank
+    type: co-occurs
+    claim: "The recurring blocked-caller impersonation campaign targeted Suz directly (personally insulted, threatened arrest-worthy retaliation) — the only documented instance of the relationship's terminal-phase conflict machinery reaching a third-party family member this directly."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: instantiates
+    claim: "The live screaming match with Suz over whose grievance mattered more is a real-time instance of the resolution-seeking engine misreading an emotional bid as a proposition to be litigated, the same mechanism documented at scale in the Annie relationship."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: evidenced-by
+    claim: "An AI-drafted letter to Suz, explicitly authorized to include any criticism, is genuinely vulnerable first-person material Dan then declines to send in his own voice — outsourcing the authorship of vulnerability itself, not just memory or analysis."
 ---
 
 # April–May 2026 — The Final Documented Weeks
@@ -27834,7 +28064,7 @@ May is rated the worst period in the full record — not by volume, but by conte
 
 **Dan self-periodizes the relationship.** On May 4 at 8:10 PM, Dan sent the bare timestamp "25 Nov 2015 – 04 May 2026" — not as an ultimatum or a goodbye, but annotating the relationship with a closing date in his own framing, the only instance in the full record of him doing this unprompted.
 
-**An unresolved third-party contact (April 1).** Dan's message at 12:57 AM: "my mom gets a call from a guy looking for you at 8:30. He calls again at 10:00. What the FUCK could that mean." A man called Suz's number twice looking for Annie on a night she was unaccounted for. The record does not resolve who this was or what it meant; it predates and is separate from the confirmed June 1 third party ([[wiki/people/tuquick-17248123683|Tuquick]]).
+**An unresolved third-party contact, recurring (April 1, re-firing ~late April).** Dan's message at 12:57 AM, April 1: "my mom gets a call from a guy looking for you at 8:30. He calls again at 10:00. What the FUCK could that mean." A man called Suz's number twice looking for Annie on a night she was unaccounted for; the thread ran through April 8 ("just refusing to discuss or give me any clarity aout who the fuck was calling my mom") and then went dormant. A separate AI-chat session (dox-md, undated but self-referencing the April 1–8 thread as "three weeks" prior, placing it roughly in late April) documents the pattern re-firing: someone using Annie's number called Suz directly, insulted her personally ("called her a junkie"), and sent Dan a message reading "you had guys molest me" — which Dan, in the same session, explains as a garbled hostile reference to the couple's [[wiki/mind/psychosexual/arrangement-history|non-monogamous arrangement]], one he maintains was consensual. Suz reacted with rage serious enough to threaten arrest-worthy action ("if I call you, call bop to come bail me out"), producing a screaming match between her and Dan over whose grievance mattered more that the session frames as a live instance of the same conflict-engine mechanism documented at scale elsewhere in the corpus. A forensic read built in the same session — Suboxone consistently misnamed "heroin/Percocets" (Annie would know the actual regimen), a narrative-voice register mismatch, and the total absence of Dan's name in the hostile messages (a corpus-level signature Annie's own hostile register always carries) — argues this was not Annie personally, though whether she was aware, complicit, or an unwitting source of the "close household knowledge" (the caller knew the water had been shut off) is explicitly left unresolved, including whether her family even owns the Volvo the impersonator's message referenced. The identity of the caller is not established anywhere in the corpus. It predates and is separate from the confirmed June 1 third party ([[wiki/people/tuquick-17248123683|Tuquick]]).
 
 ## What still held from the terminal-phase mechanism catalog
 
@@ -30962,6 +31192,105 @@ when the caddying work actually stopped versus when Au Za'atar began
 
 
 ========================================================================
+PAGE: wiki/work/tech/ai-video-essays.md
+========================================================================
+
+---
+domain: work
+page_type: entity
+title: "AI Video Essays (planned project)"
+status: active
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+sources:
+  - "raw/self/dox-md/Creating robust video essays from scripts.md"
+tags: [ai-collaboration, music-production, ideology]
+connections:
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: instance-of
+    claim: "Using an AI to stress-test his own hypothesis with real adoption data — and accepting the result flatly contradicted his premise — is a documented instance of the honesty-enforcement pattern applied to his own creative project, not just forensic or political material."
+  - page: wiki/interests/opie-and-anthony
+    type: parallels
+    claim: "A decade of shock-radio/long-form comedy immersion is the structural template Dan reaches for when designing his own long-form video format — Some More News is explicitly named as the model to reverse-engineer."
+---
+
+# AI Video Essays (planned project)
+
+A 2026 planning-stage project: Dan wants to make long-form (30-60
+minute) video essays about AI, aimed at people who — like he describes
+himself — are "AI evangelist[s]" without deep technical/CS background,
+people who "look for a 'download' button to use github" and are missing
+out on a technology they could easily be using. No script or published
+video is recorded anywhere in the corpus; this page documents the
+planning process itself, which is substantive enough to be worth
+tracking.
+
+## The structural template: Some More News
+
+Dan's starting point is a structural "autopsy" of a Cody Johnston/*Some
+More News* long-form essay, reverse-engineered into a reusable
+five-element framework he explicitly requests in "bootloader" form for
+his own future writing sessions: a one-sentence, falsifiable **thesis**;
+a **conceit** (a structural frame that performs the argument rather than
+decorating it — SMN's time-machine device); a 6-10-item **evidence
+chain** of primary artifacts sequenced for cumulative pressure; at least
+three **tonal modulation** points; and at least one **demonstration**
+moment where the abstract argument is made visible rather than told.
+The distilled document also maps a five-phase runtime architecture (hook
+0-5 min, thesis establishment 5-12, evidence build 12-40, complication
+40-50, resolution 50-60) and a pre-write checklist Dan says he wants
+loaded at the start of every future essay-building session.
+
+## The landscape gap he identifies
+
+Asked to scan the existing AI-content space before committing to a
+lane, the exchange maps four occupied clusters — technical/research
+(Karpathy, 3Blue1Brown), tool-demo/news (Matt Wolfe, Fireship),
+productivity (Sabrina Ramonov), and credentialed long-form interview
+(Lex Fridman) — and identifies what Dan frames as the actual gap:
+nobody making philosophical AI content **from inside the non-technical
+user's subjective experience**, using personal-data demonstrations
+("running your text logs through" a model) as "argument made visceral"
+rather than tutorial content. This positions the planned project as a
+public-facing extension of the same exocortex/AI-as-mirror framing
+already documented on
+[[wiki/mind/synthesis/ai-collaborative-analysis|the AI-collaboration
+page]].
+
+## The first pitch, and its own correction
+
+Dan's first concrete idea: millennials have pattern-matched AI to
+crypto and are missing out because of a category error — a claim he
+frames partly as personal defense ("for as much of an AI evangelist as
+I am... I'm not slop brained"). Pushed to stress-test the hypothesis
+against real data before building on it, the research comes back
+**against his premise**: adoption data shows millennials are not absent
+from AI at all — they are arguably the power-user cohort, more likely
+than Gen Z to report daily use and to say AI helps them "work smarter."
+What the data does support is a sharper, more specific claim: millennials
+use AI instrumentally while remaining deeply ambivalent about it,
+resenting a technology they never got to encounter on their own terms
+rather than through a VC hype narrative. Dan accepts the correction
+rather than defending the original premise — a real-time instance of
+requesting a check on his own idea and taking the result at face value,
+including when it directly contradicted what he'd proposed.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Source | Single AI-chat export (Google Drive), 369 lines, truncated at source |
+| Status | Planning stage only — no script, no published video |
+| Working thesis (revised) | Millennials use AI instrumentally while resenting it, never having been invited to it outside a VC/hype frame |
+
+**Gaps:** whether any script was ever written or video published;
+what, if any, channel or platform this was intended for; the "specific
+millennial-in-your-life" example the AI asked for and Dan never
+answered in the retained transcript.
+
+
+========================================================================
 PAGE: wiki/work/tech/grok-build/overview.md
 ========================================================================
 
@@ -31127,7 +31456,7 @@ domain: work
 page_type: summary
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-11
+date_modified: 2026-07-20
 sources: []
 related: []
 ---
@@ -31153,6 +31482,7 @@ Personal technology projects: agent tooling, message-forensics pipelines, and re
 Project documentation for future coding context. Raw/tech/ subdirs empty — data from dox-md (MAX_PRIME/CATO), log, ingest-queue, bin/, home tooling (imessage-extractor/, messages-exporter/, danwiki_portal.py). See also [[wiki/self/message-corpora/master-message-dump]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/self/facebook]], [[wiki/self/context-core]].
 
 - [[wiki/work/tech/vibe-coding-games]] — the Matter.js browser-game line built by AI direction (whoano, trickrun, jumprun, basketball_sandbox).
+- [[wiki/work/tech/ai-video-essays]] — planning-stage project: long-form video essays on AI for non-technical audiences, reverse-engineered from Some More News's structural format; no script or video published.
 
 
 ========================================================================

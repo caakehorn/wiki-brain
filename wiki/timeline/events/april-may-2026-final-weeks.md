@@ -5,11 +5,12 @@ title: "April–May 2026 — The Final Documented Weeks"
 importance: high
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 date_range_start: 2026-04-01
 date_range_end: 2026-05-06
 sources:
   - raw/self/dox-md/Ethics of leaving without communication.md
+  - "raw/self/dox-md/Crisis mode briefing.md"
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/march-2026-terminal-phase
@@ -17,6 +18,16 @@ related:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
 tags: [relationships]
+connections:
+  - page: wiki/people/suzanne-frank
+    type: co-occurs
+    claim: "The recurring blocked-caller impersonation campaign targeted Suz directly (personally insulted, threatened arrest-worthy retaliation) — the only documented instance of the relationship's terminal-phase conflict machinery reaching a third-party family member this directly."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: instantiates
+    claim: "The live screaming match with Suz over whose grievance mattered more is a real-time instance of the resolution-seeking engine misreading an emotional bid as a proposition to be litigated, the same mechanism documented at scale in the Annie relationship."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: evidenced-by
+    claim: "An AI-drafted letter to Suz, explicitly authorized to include any criticism, is genuinely vulnerable first-person material Dan then declines to send in his own voice — outsourcing the authorship of vulnerability itself, not just memory or analysis."
 ---
 
 # April–May 2026 — The Final Documented Weeks
@@ -37,7 +48,7 @@ May is rated the worst period in the full record — not by volume, but by conte
 
 **Dan self-periodizes the relationship.** On May 4 at 8:10 PM, Dan sent the bare timestamp "25 Nov 2015 – 04 May 2026" — not as an ultimatum or a goodbye, but annotating the relationship with a closing date in his own framing, the only instance in the full record of him doing this unprompted.
 
-**An unresolved third-party contact (April 1).** Dan's message at 12:57 AM: "my mom gets a call from a guy looking for you at 8:30. He calls again at 10:00. What the FUCK could that mean." A man called Suz's number twice looking for Annie on a night she was unaccounted for. The record does not resolve who this was or what it meant; it predates and is separate from the confirmed June 1 third party ([[wiki/people/tuquick-17248123683|Tuquick]]).
+**An unresolved third-party contact, recurring (April 1, re-firing ~late April).** Dan's message at 12:57 AM, April 1: "my mom gets a call from a guy looking for you at 8:30. He calls again at 10:00. What the FUCK could that mean." A man called Suz's number twice looking for Annie on a night she was unaccounted for; the thread ran through April 8 ("just refusing to discuss or give me any clarity aout who the fuck was calling my mom") and then went dormant. A separate AI-chat session (dox-md, undated but self-referencing the April 1–8 thread as "three weeks" prior, placing it roughly in late April) documents the pattern re-firing: someone using Annie's number called Suz directly, insulted her personally ("called her a junkie"), and sent Dan a message reading "you had guys molest me" — which Dan, in the same session, explains as a garbled hostile reference to the couple's [[wiki/mind/psychosexual/arrangement-history|non-monogamous arrangement]], one he maintains was consensual. Suz reacted with rage serious enough to threaten arrest-worthy action ("if I call you, call bop to come bail me out"), producing a screaming match between her and Dan over whose grievance mattered more that the session frames as a live instance of the same conflict-engine mechanism documented at scale elsewhere in the corpus. A forensic read built in the same session — Suboxone consistently misnamed "heroin/Percocets" (Annie would know the actual regimen), a narrative-voice register mismatch, and the total absence of Dan's name in the hostile messages (a corpus-level signature Annie's own hostile register always carries) — argues this was not Annie personally, though whether she was aware, complicit, or an unwitting source of the "close household knowledge" (the caller knew the water had been shut off) is explicitly left unresolved, including whether her family even owns the Volvo the impersonator's message referenced. The identity of the caller is not established anywhere in the corpus. It predates and is separate from the confirmed June 1 third party ([[wiki/people/tuquick-17248123683|Tuquick]]).
 
 ## What still held from the terminal-phase mechanism catalog
 

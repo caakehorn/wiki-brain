@@ -10,6 +10,7 @@ date_modified: 2026-07-20
 sources:
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle (1).md"
+  - "raw/self/dox-md/Reassessing with fresh perspective.md"
 tags: [mental-health, addiction-recovery, personality-profile]
 connections:
   - page: wiki/health/chemical-architecture
@@ -24,6 +25,9 @@ connections:
   - page: wiki/work/au-zaatar
     type: co-occurs
     claim: "The session is dated, by internal reference to 'nearly a year of not working' since the involuntary Aug 2024 Au Za'atar job loss, to roughly mid-2025 — the point Dan returned to paid work after an eleven-month gap."
+  - page: wiki/mind/concepts/attachment-model
+    type: contextualizes
+    claim: "A follow-up session reframes the anxiety loop as largely parasitized by the unresolved Annie situation and the post-closure housing void rather than a freestanding clinical pattern, and develops the related 'mojo and magic' attraction-outcome concept documented there in full."
 ---
 
 # Hyperreflexivity and the Anxiety Loop
@@ -95,6 +99,27 @@ the sale of his childhood home at
 [[wiki/places/337-saratoga-drive]], and the identity structure built
 around the relationship going with it), which this page does not
 re-derive.
+
+## A follow-up reframe: signal, not noise
+
+A later, separate AI session — explicitly reviewing the same anxiety
+conversation as retrospective data rather than continuing it — pushes
+back on treating the loop as a freestanding condition at all. Its
+read: by the session's second third the conversation had converted
+almost entirely into an [[wiki/people/annie-ulmer|Annie]] analysis, and
+that drift is diagnostic rather than incidental — "the anxiety loop
+doesn't have much independent existence right now." It reads as
+"parasitized" by two concrete, unresolved situations — the Annie
+relationship and, per internal reference, a "post-June housing void" —
+being processed as threat by an already-calibrated hyperreflexive
+system, rather than a clinical entity running on its own. The
+reframe's practical implication: "treat the anxiety loop" may target
+the wrong layer; the loop is functioning as signal about real
+unresolved conditions, not noise to be corrected independently of
+them. The same session develops a separate, related concept — Dan's
+own "mojo and magic" framing for a felt loss of attraction-outcome
+capacity — documented in full on
+[[wiki/mind/concepts/attachment-model|the attachment model page]].
 
 ## No confirmed treatment engagement
 

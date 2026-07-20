@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -11,6 +11,7 @@ sources:
   - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - "raw/self/dox-md/Reassessing with fresh perspective.md"
 tags: [relationships, attachment, addiction-recovery, trauma-bond, infidelity]
 connections:
   - page: wiki/mind/psychosexual/emotional-imprinting
@@ -43,6 +44,9 @@ connections:
   - page: wiki/mind/concepts/conflict-architecture
     type: mirrors
     claim: "The conflict engine demands resolution while the attachment model cannot issue severance — mutually amplifying architectures with no shared halt condition, recorded in conflict-architecture's paired CONTRADICTION blocks."
+  - page: wiki/health/hyperreflexivity
+    type: contextualizes
+    claim: "A companion AI session reframes the anxiety loop as largely parasitized by the unresolved Annie situation and post-closure housing void, rather than a freestanding clinical pattern — the loop may be signal, not noise."
 ---
 
 
@@ -89,6 +93,44 @@ The communication corpus demonstrates a systematic gaslighting architecture used
 The central impact of this architecture was the subversion of Dan's cognitive stability. By targeting his capacity to verify reality, the deception inflicted a distinct category of psychological harm that went beyond simple infidelity.
 
 The final dossiers add the closure-side mechanism — the **confession trap**. Dan could not exit without the validation of a confession: he had assembled an overwhelming evidentiary case, and leaving without the verdict would have meant abandoning the identity of the person who was right. Annie was never going to supply the confession, because supplying it would have ended the arrangement she was maintaining. The dossiers' formulation: "the exit was never through the verdict. It was through the door." This is the same no-counter-rule architecture stated from the other side — where the model above describes the missing severance *signal*, the confession trap describes the missing severance *permission*.
+
+## "The mojo is locked in a room with no door"
+
+An undated 2026 AI-chat session (post-June-1-closure, per internal
+reference to "the post-June housing void") surfaces a self-described
+concept Dan names but doesn't have clinical language for: an
+"attraction outcome thing" — a felt sense, across his adult life, that
+holding a low-probability desired outcome as a primary variable and
+letting everything else run downstream of it "has always been able to
+kind of materialize." He reports this capacity as functionally absent
+since Annie — "annie stole my mojo and magic." The session's own
+reframe, which Dan does not contest: the mechanism wasn't lost, it was
+*captured* — locked onto the one target (Annie) where the feedback loop
+is structurally broken and can't close, rather than deactivated
+generally.
+
+The same conversation supplies a sharp comparative data point: across
+seven years living with [[wiki/people/alexis-armel|Alexis]], Dan says
+he "never even thought about a real future with [her]," despite
+cohabitation — functional companionship without the deeper
+identity-fusion architecture ever activating. Annie is named as the
+first (and, per the session, only) person to fully engage the
+attachment system rather than the companionship system — which the
+session uses to argue the disorientation of the loss is proportionate
+to a first-time full activation, not an overreaction to an ordinary
+breakup. The session pushes back on one point Dan doesn't resolve in
+the retained transcript: whether the "it always materializes" track
+record has any evidence outside the Annie relationship itself, or
+whether the reference class is circular.
+
+The same session also offers a structural reframe of the
+[[wiki/health/hyperreflexivity|hyperreflexivity]] material from a
+companion source: the anxiety loop, considered independently, "doesn't
+have much independent existence right now" — it reads as almost
+entirely parasitized by two concrete, unresolved situations (Annie, and
+the post-closure housing void) rather than a freestanding clinical
+pattern, which reframes "treat the anxiety" as possibly the wrong
+target — the loop may be signal, not noise.
 
 ## Documented Contradictions
 
