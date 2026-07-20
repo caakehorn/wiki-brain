@@ -17,6 +17,9 @@ connections:
   - page: wiki/mind/concepts/attachment-model
     type: contextualizes
     claim: "The Seven Springs ski crew is the first drug-exposure cohort in Dan's life, dated to 2004 — a full year before the November 2005 hinge event that formally introduces addiction into the family narrative, showing the pattern was already in motion before the rupture that gets credited with starting it."
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: "A later self-audit explicitly frames Dan's first cocaine use here as instrumental (a weight-control tool tied to adolescent bulimia) as much as social, not purely a peer-pressure initiation."
 ---
 
 # Seven Springs

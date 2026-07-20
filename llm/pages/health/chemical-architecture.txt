@@ -13,6 +13,7 @@ sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/legal/bfs-dispute/BFS_BOOTLOADER_v2.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/dox-md/ADDICTION_PROFILE.md
 related:
   - wiki/self/context-core
   - wiki/mind/profile/deviance-mapping
@@ -33,6 +34,12 @@ connections:
   - page: wiki/people/sean-teets
     type: co-occurs
     claim: "Sean Teets' 2017/2018 Facebook outreach ('looking for tax or strpz'; 'Mushys and k') uses vocabulary consistent with this page's mushrooms/Suboxone-strips/ketamine-adjacent substance landscape, though his specific role in it is unconfirmed."
+  - page: wiki/places/seven-springs
+    type: evidenced-by
+    claim: "A later self-audit explicitly frames Dan's first cocaine use there as instrumental (a weight-control tool tied to adolescent bulimia) as much as social, not purely a peer-pressure initiation."
+  - page: wiki/timeline/periods/dark-era-2007-2008
+    type: evidenced-by
+    claim: "A November 2007 Las Vegas trip is newly dated as the point physical opiate dependence became undeniable, and a winter 2008 single heroin attempt was rejected on aesthetic grounds ('felt dirty') rather than fear of the drug itself."
 ---
 
 # Chemical Architecture
@@ -78,6 +85,48 @@ the same substance patterns continuing, and the exchange reads as an
 early, idealistic pact rather than a sustained recovery effort. Alcohol
 was excluded early and permanently — the one substance the family history
 made radioactive.
+
+## System genesis: a phased history
+
+A separate, later self-audit reconstructs the full chemical timeline in
+more granular phases than the summary above, and adds real new dated
+detail. Cocaine use first entered the household as a known concept at
+age 13 (2001), via the discovery of his parents' own use — the same
+substance later implicated in the November 2005 rupture (his father's
+rehab admission, his mother's affair with their dealer) was already a
+familiar, "adult" behavior in the house years before that hinge event,
+which complicates any clean story where the divorce alone triggers the
+pattern. His own first cocaine use follows at 17–18 (2005–2006), in the
+[[wiki/places/seven-springs|Seven Springs]] ski-crew context, and this
+retrospective explicitly frames the choice as instrumental as much as
+social: cocaine as a chemical means of weight control tied to the
+adolescent bulimia documented on
+[[wiki/timeline/periods/dark-era-2007-2008]], alongside its value as a
+subcultural credential inside the ski/band scene.
+
+The opiate arc that follows has one new, specific, dated event: a
+November 2007 trip to Las Vegas (age 19) is named as the point physical
+opiate dependence became undeniable — the problem shifting from "how to
+be cool" to "how to function without getting sick." The following
+winter (2008), he tried heroin once and rejected it on aesthetic
+grounds — it "felt dirty" — a preference read here as consistent with a
+broader "chemical connoisseur" disposition rather than pure hedonism:
+the method and purity of a substance mattering as much as its effect.
+Cocaine use stopped entirely during this opiate-pivot window, only
+resuming in 2012, two years after the Suboxone stabilization, as a
+deliberate "voltage" layer added on top of an already-secure base
+rather than a relapse.
+
+The clearest new fact in this material is a **quantified cocaine dosage
+arc** tied directly to Dan's finances rather than to any stated desire
+to moderate: a roughly 1g/day baseline escalated to **3.5–7g daily
+during the 2017–2020 window** when Fran's inheritance removed the usual
+capital constraint, before contracting back down to **~0.5–1g daily**
+from 2020 onward as the inheritance was exhausted. The retrospective's
+own reading is blunt — the escalation shows the "desired state" is
+maximum intensity limited only by supply and money, not by any internal
+ceiling — and the later reduction is framed explicitly as a resource
+adjustment, not a step toward moderation or recovery.
 
 **Informed speculation:** the selectivity is the interesting part. Four
 family members across three generations (mother, grandmother,
