@@ -4,7 +4,7 @@ page_type: entity
 title: "SLOPPP"
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 date_range_start: 2013-01-01
 date_range_end: 2015-12-26
 sources:
@@ -13,6 +13,8 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html
   - raw/self/dox-scan/FULL TWITTER ANALYSIS.txt
   - raw/self/dox-scan/browser_history_analysis.txt
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/phillacher_gukgsjnnvw/message_1.html
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/frankswaney_jcxhv7sesw/message_1.html
 related:
   - wiki/interests/music/overview
   - wiki/interests/music/aliases/mogzart
@@ -100,7 +102,44 @@ from the era's ubiquitous sounds, with the year closed by "Wrapped up for
 episodes, the Beatport-styled VIP remixes and festival-trap edits chased
 the year's mainstream (Caked Up, Major Lazer, GTA-era bounce), and the
 "Heatwave" and skiing-joke mix titles show the register — irreverent,
-in-joke-heavy, promotion-averse. Through 2015 the alias wound down to
+in-joke-heavy, promotion-averse. The same year carries the first two of
+the alias's three documented attempts to convert it into a live
+booking: Zach's January 2014 pitch to a Pittsburgh rave-scene contact
+(see [[wiki/people/zachariah-harshman]]), and a direct outreach Dan
+sent himself on July 6, 2014 to Pittsburgh DJ **Phil Lacher** ("I asked
+some friends about getting DJ slots in and around Pittsburgh. They all
+pointed me your way... I spin a lot of trap, deep house") — Lacher
+referred him to a third contact, Brandon Hooven, with no further trace
+of a booking resulting from either lead.
+
+## The near-management deal (March 2015)
+
+The most serious of the three attempts came closest to landing. On
+March 15–16, 2015, **Frank Swaney** — a Pittsburgh-scene promoter who
+says he'd run a nine-DJ roster for his own production company and
+taught at "Spawn Academy in Portland Oregon" — hears the *Spring 2015
+Demo* (shared via SoundCloud, initially broken because Dan had left it
+set to private) and responds with real enthusiasm: he has fellow DJ
+"Subterranean" (John Hanson) review it, relays specific praise ("quick
+mixing, a good mix of electronic and hip hop elements, and some good
+track selections"), and pitches full representation — a flat
+management fee covering roughly four months of promotional services
+(500 demo CDs, 3,000 stickers, a "street team" of promotional staff),
+two tentative bookings named directly (an "Illuminati" event and a
+"Homegrown" show in Braddock, PA), and an explicit plan to grow Dan
+from promoted artist to signed act. Dan's own response is unguarded
+enthusiasm — "i'm abysmal with the networking end of this, but i
+fucking LOVE the process," and "you could tell me i'm playing at 1 and
+i'd be out the fucking door." Notably, the actual contract terms were
+to be worked out not with Dan directly but through a third party,
+"Joby," **talking to Dan's mom and dad** — the only documented instance
+of Dan's parents being brought into a professional negotiation over his
+music career. No further trace of the Frank Swaney relationship, the
+contract, or either tentative booking survives in the corpus; SLOPPP
+closes out with the "Goodbye Demo" post nine months later, December 26,
+2015, with no indication the management deal was ever signed.
+
+Through 2015 the alias wound down to
 remnant shares and demos while Twitter shows production signals weakening
 into gaming and consumption; the December 26, 2015 "Goodbye Demo" reads as
 a deliberate close-out, four weeks after meeting Annie and just as the
@@ -121,4 +160,7 @@ exposure, not taste or capacity").
 **Gaps:** no audio files or SoundCloud metadata (play counts, upload dates)
 in raw/ — the discography is reconstructed from share links; episodes 1–7 of
 "Week in Trap" and any "Heatwave Vol. 1" are unaccounted for; whether the
-SoundCloud page is still live is unverified.
+SoundCloud page is still live is unverified. Why the March 2015 Frank
+Swaney management deal never materialized (or whether it quietly did, off
+the message record) is undocumented; "Joby," the third party who was to
+finalize terms with Dan's parents, is otherwise unidentified in the corpus.

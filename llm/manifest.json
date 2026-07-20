@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 329,
+ "page_count": 330,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -276,7 +276,7 @@
    "title": "SLOPPP",
    "summary": "**SLOPPP** was Dan's first named production alias: a trap/festival-trap project run from SoundCloud (`soundcloud.com/sloppp`) from 2013 until a track literal...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/music/aliases/sloppp.txt",
-   "bytes": 6470
+   "bytes": 9175
   },
   {
    "page": "wiki/interests/music/concepts/lyrics-as-timbre.md",
@@ -647,7 +647,7 @@
    "title": "The Supply Network",
    "summary": "Since January 2011, Dan has been on a daily Suboxone regimen \u2014 fifteen years, described in the primary sources as structural rather than recreational: a medi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/supply-network.txt",
-   "bytes": 16051
+   "bytes": 16187
   },
   {
    "page": "wiki/mind/synthesis/totality-themes.md",
@@ -1182,6 +1182,13 @@
    "bytes": 1946
   },
   {
+   "page": "wiki/people/drew-mcgettigan.md",
+   "title": "Drew McGettigan",
+   "summary": "Drew McGettigan is a summer-2015 Uniontown supply contact \u2014 mostly a buyer of small quantities from Dan, with one documented go-between deal in the other dir...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/drew-mcgettigan.txt",
+   "bytes": 2251
+  },
+  {
    "page": "wiki/people/drew.md",
    "title": "Drew",
    "summary": "Drew (email `Dherchko@gmail.com`) collaborated with Dan on a green-mapping project at [[wiki/work/nemacolin-caddying|Nemacolin]] over an intense eleven-day s...",
@@ -1277,7 +1284,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 17889
+   "bytes": 18023
   },
   {
    "page": "wiki/people/ismaila-barry.md",

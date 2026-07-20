@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-329 pages, ~457,607 tokens.
+330 pages, ~458,913 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -2805,7 +2805,7 @@ page_type: entity
 title: "SLOPPP"
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 date_range_start: 2013-01-01
 date_range_end: 2015-12-26
 sources:
@@ -2814,6 +2814,8 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html
   - raw/self/dox-scan/FULL TWITTER ANALYSIS.txt
   - raw/self/dox-scan/browser_history_analysis.txt
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/phillacher_gukgsjnnvw/message_1.html
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/frankswaney_jcxhv7sesw/message_1.html
 related:
   - wiki/interests/music/overview
   - wiki/interests/music/aliases/mogzart
@@ -2901,7 +2903,44 @@ from the era's ubiquitous sounds, with the year closed by "Wrapped up for
 episodes, the Beatport-styled VIP remixes and festival-trap edits chased
 the year's mainstream (Caked Up, Major Lazer, GTA-era bounce), and the
 "Heatwave" and skiing-joke mix titles show the register — irreverent,
-in-joke-heavy, promotion-averse. Through 2015 the alias wound down to
+in-joke-heavy, promotion-averse. The same year carries the first two of
+the alias's three documented attempts to convert it into a live
+booking: Zach's January 2014 pitch to a Pittsburgh rave-scene contact
+(see [[wiki/people/zachariah-harshman]]), and a direct outreach Dan
+sent himself on July 6, 2014 to Pittsburgh DJ **Phil Lacher** ("I asked
+some friends about getting DJ slots in and around Pittsburgh. They all
+pointed me your way... I spin a lot of trap, deep house") — Lacher
+referred him to a third contact, Brandon Hooven, with no further trace
+of a booking resulting from either lead.
+
+## The near-management deal (March 2015)
+
+The most serious of the three attempts came closest to landing. On
+March 15–16, 2015, **Frank Swaney** — a Pittsburgh-scene promoter who
+says he'd run a nine-DJ roster for his own production company and
+taught at "Spawn Academy in Portland Oregon" — hears the *Spring 2015
+Demo* (shared via SoundCloud, initially broken because Dan had left it
+set to private) and responds with real enthusiasm: he has fellow DJ
+"Subterranean" (John Hanson) review it, relays specific praise ("quick
+mixing, a good mix of electronic and hip hop elements, and some good
+track selections"), and pitches full representation — a flat
+management fee covering roughly four months of promotional services
+(500 demo CDs, 3,000 stickers, a "street team" of promotional staff),
+two tentative bookings named directly (an "Illuminati" event and a
+"Homegrown" show in Braddock, PA), and an explicit plan to grow Dan
+from promoted artist to signed act. Dan's own response is unguarded
+enthusiasm — "i'm abysmal with the networking end of this, but i
+fucking LOVE the process," and "you could tell me i'm playing at 1 and
+i'd be out the fucking door." Notably, the actual contract terms were
+to be worked out not with Dan directly but through a third party,
+"Joby," **talking to Dan's mom and dad** — the only documented instance
+of Dan's parents being brought into a professional negotiation over his
+music career. No further trace of the Frank Swaney relationship, the
+contract, or either tentative booking survives in the corpus; SLOPPP
+closes out with the "Goodbye Demo" post nine months later, December 26,
+2015, with no indication the management deal was ever signed.
+
+Through 2015 the alias wound down to
 remnant shares and demos while Twitter shows production signals weakening
 into gaming and consumption; the December 26, 2015 "Goodbye Demo" reads as
 a deliberate close-out, four weeks after meeting Annie and just as the
@@ -2922,7 +2961,10 @@ exposure, not taste or capacity").
 **Gaps:** no audio files or SoundCloud metadata (play counts, upload dates)
 in raw/ — the discography is reconstructed from share links; episodes 1–7 of
 "Week in Trap" and any "Heatwave Vol. 1" are unaccounted for; whether the
-SoundCloud page is still live is unverified.
+SoundCloud page is still live is unverified. Why the March 2015 Frank
+Swaney management deal never materialized (or whether it quietly did, off
+the message record) is undocumented; "Joby," the third party who was to
+finalize terms with Dan's parents, is otherwise unidentified in the corpus.
 
 
 ========================================================================
@@ -9406,7 +9448,9 @@ closer to a regular acquaintance), [[wiki/people/vaughn|Vaughn]] (a
 caddie-yard coworker middling his "homey's" weed in $20–50 quantities,
 2017–18, with chronic short-weight disputes),
 [[wiki/people/nick-mattie|Nick Mattie]] (a spring-2017 reciprocal
-trading peer running fronts and a hand-kept ledger in both directions), and in NYC
+trading peer running fronts and a hand-kept ledger in both directions),
+[[wiki/people/drew-mcgettigan|Drew McGettigan]] (a tight three-month
+2015 buyer/go-between node connected to the Zach Harshman circle), and in NYC
 [[wiki/people/clyde|Clyde]] (psychedelics: LSD, DMT, mushrooms — a
 separate product line from Menore's) and [[wiki/people/sam|Sam]] (the
 cannabis line, 2019–20: menus, a delivery driver, Facebook-verified
@@ -14884,6 +14928,65 @@ the one-sided message extract (0 sent?) needs a corpus re-check.
 
 
 ========================================================================
+PAGE: wiki/people/drew-mcgettigan.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2015-06-08
+date_range_end: 2015-09-04
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/drewmcgettigan_0m9jyrivda/message_1.html"
+tags: [uniontown-era, relationships]
+infobox:
+  name: "Drew McGettigan"
+  sex: male
+  location: uniontown
+  relationship_to_dan: acquaintance
+  known_for: "Summer 2015 Uniontown supply contact (buyer and go-between); connected to the Zach Harshman circle"
+connections:
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "A summer 2015 buyer/go-between node, active for a single three-month window and connected to the Zach Harshman circle he was headed to meet the same night as a documented deal."
+---
+
+# Drew McGettigan
+
+Drew McGettigan is a summer-2015 Uniontown supply contact — mostly a
+buyer of small quantities from Dan, with one documented go-between deal
+in the other direction. The thread runs a tight three months (June–
+September 2015) and reads as transactional throughout: a July 22, 2015
+exchange coordinates a $30 buy in real time, complete with a stalling
+tactic ("I'm gonna meet you here, grab 30, and have you circle the
+block twice") and a McDonald's drive-through delay; a September 4
+message offers a distinctive, memorably-described batch of MDMA ("it's
+crazy. And it's pink... not even like iridescent pink. It looks like
+the wallpaper of a Victoria's Secret"). Drew is independently connected
+to [[wiki/people/zachariah-harshman|Zach Harshman's]] circle — a July
+22 message notes he's "coming in to town soon to meet up with Zach" the
+same night — placing him inside the same 2015 Uniontown supply cluster
+Zach's own page documents in more depth. A small unresolved thread: Dan
+asks his sister Vanessa if she knows Drew, and she confirms she does
+"but wouldn't give me any details as to how."
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~90 (Facebook Messenger, both directions) |
+| Date range | 2015-06-08 – 2015-09-04 |
+
+**Gaps:** how Vanessa knows him; whether contact continued past
+September 2015; last name spelling not independently verified beyond
+the Facebook display name.
+
+
+========================================================================
 PAGE: wiki/people/drew.md
 ========================================================================
 
@@ -16367,6 +16470,7 @@ related: []
 - [[wiki/people/del]] — NYC Stiiizy-brand cannabis delivery service, spring-summer 2019; chronically late.
 - [[wiki/people/dimitri]] — the only boss Dan ever loved: Au Za'atar's Greek manager-oracle, twice.
 - [[wiki/people/drew]] — Collaborator on Nemacolin caddy yardage-book green mapping, June-July 2017.
+- [[wiki/people/drew-mcgettigan]] — Summer 2015 Uniontown supply contact (buyer/go-between); connected to the Zach Harshman circle.
 - [[wiki/people/elizabeth-eleanor]] — Fellow recovering addict; a single July 2013 conversation yielding the only Suboxone dosage figure and earliest INTP self-ID in the corpus.
 - [[wiki/people/eli]] — Coworker (male) of Annie Ulmer at Au Za'atar (or related NYC hospitality). Central to the eli-incident as…
 - [[wiki/people/ellen-ulmer]] — Annie's mother; steady contact 2017-2025, confirms Jim and Sugie as Annie's grandparents.
