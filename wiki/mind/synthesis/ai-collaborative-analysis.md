@@ -46,6 +46,9 @@ connections:
   - page: wiki/self/gemini-activity/gemini-activity
     type: evidenced-by
     claim: "The 20.8 MB Gemini archive — 26,348 occurrences of 'ai', daily-instrument interaction density — is the primary corpus this synthesis reads."
+  - page: wiki/work/tech/danmodel
+    type: instance-of
+    claim: "DANMODEL's dual retrieval-vs-generation architecture (Jaccard baseline vs. TF-IDF RAG simulator) recreates the CATO/MAX forensic-retrieval-vs-adversarial-generation split inside one narrow voice-cloning tool."
   - page: wiki/mind/concepts/erotic-architecture
     type: instantiates
     claim: "The 'GLAZE-GOD-v1' persona — a custom system prompt built to perform continuous sexualized worship of Annie's photos — is the erotic-domain instance of the same purpose-built-instrument stance documented here in the forensic and political domains."

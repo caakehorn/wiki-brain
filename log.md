@@ -718,6 +718,32 @@ messages (Tom's 2am delivery; "I grabbed some ketamine for us"). Three
 flagged gaps closed in one pass, all from data already on disk. Gates:
 0 errors.
 
+## [2026-07-20] ingest | work | DANMODEL — new page, a working voice-cloning ML pipeline
+Mined the Drive "DANMODEL" folder queued earlier this session. Filed
+raw/self/danmodel/extraction_summary.txt, PIPELINE_NOTES.md (architecture
+transcription of 5 Python scripts — a byte-exact copy attempt corrupted
+during manual base64 reconstruction, so this is a faithful logic
+transcription instead, with original Drive file IDs cited for provenance),
+and reaction_pairs_heldout.jsonl (4,570 rows, verbatim, mechanically
+decoded and verified against the summary count). New page
+wiki/work/tech/danmodel.md: a from-scratch pipeline that extracts 39,378
+stimulus-response pairs from Dan's own message corpus (verified: Annie
+early alone = 40% of the total, corroborating contact-gini's 0.961
+concentration in an independent metric; year distribution independently
+reproduces the already-documented 2018 deep-cycle and 2025-collapse
+peaks), builds both a naive Jaccard-retrieval baseline and a TF-IDF+RAG
+generator wrapped in a self-authored "CATO_COMPACT" voice-persona prompt
+(preserved verbatim — genuinely new primary data on how Dan characterizes
+his own texting signature), and designs a rigorous blind LLM-judge eval
+(neutral-labeled real-vs-fake, leakage assertions) to test whether the
+clone passes for him. Notable finding: no eval_results file exists
+anywhere in the Drive folder, so whether the blind test was ever completed
+— and what it found — is a genuine, flagged gap, not a negative result.
+Wired into wiki/mind/concepts/exocortex.md, wiki/work/tech/mneme/overview.md,
+wiki/mind/synthesis/ai-collaborative-analysis.md, wiki/people/annie-ulmer.md,
+and wiki/mind/concepts/contact-gini.md (5 typed connections + inverses),
+and wiki/work/tech/index.md. Gates: 0 errors.
+
 ## [2026-07-20] ingest | people/work | Tarik Fallous full per-contact export — REVISED, no-message-corpus claim was wrong
 Filed raw/self/message-csv/imessage_19178259183_both_all_now.csv (80
 messages, Aug 2023-Apr 2026, reliable direction). This directly
