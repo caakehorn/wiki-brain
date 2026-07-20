@@ -4,7 +4,7 @@ page_type: entity
 status: active
 date_created: 2026-06-22
 date_modified: 2026-07-18
-sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md"]
+sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md", "raw/self/dox-md/_Deconstructing a Chaotic 24 Hours .md"]
 tags: [addiction-recovery, dui, ai-collaboration, relationships, mental-health]
 infobox:
   name: "Tom"
@@ -99,6 +99,23 @@ talk to both at once. The thread also carries the friendship's darker
 undertow: a March 24 message, "Will you talk to me for a little bit?", lands
 after a stretch of one-sided sends — the same lateral-ally-goes-quiet pattern,
 this time with Tom on the asking side.
+
+## A supply crisis and a car battery (undated Gemini/"Max" chat)
+
+A separate, undated AI chat log captures a real-time Suboxone supply
+crisis and the loyalty gesture that resolved it: someone "jumped
+[Dan's] place in line" and bought out a dealer's stock right when Dan
+needed to restock, and Tom — described in the same conversation as "my
+main guy for, well... everything" — came through anyway, apparently at
+his own financial loss ("he probably literally lost money on it too").
+The same exchange carries the fullest documented texture of Suz's own
+relationship with Tom: she is the only one who can call him directly
+(despite Tom being younger than Dan), he "LOVES" her, and he'd bought
+her a replacement car battery the week before when hers died and she
+couldn't afford one — unprompted, no request made. The conversation
+closes with Dan floating making a song for Tom, on the condition it
+include "a reference to lil lexie" — an inside reference otherwise
+undocumented in the corpus.
 
 ## The DUI (fall 2025 – early 2026)
 

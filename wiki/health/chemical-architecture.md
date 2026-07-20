@@ -88,7 +88,11 @@ is the standing supply line (Suboxone strips, mushrooms, cocaine, klonopin
 put Dan through a 72+-hour withdrawal that frames the entire BFS drawer
 incident ([[wiki/work/bfs-foods]]): the disputed shift was worked in
 withdrawal, and a separate $35 personal-cash Suboxone handoff to a customer
-happened the same night. Dealer relationships (e.g.
+happened the same night. An earlier, undated near-miss shows the same
+tether from the other direction: a supply-line rival "jumped his place
+in line" and bought out a dealer's Suboxone stock, and Tom absorbed the
+loss covering him anyway — the same reliability the May 2026 failure
+broke. Dealer relationships (e.g.
 [[wiki/people/johnny-dealer]], ~3,462 messages) carried significant
 message-volume weight for years, and the 2017–18 period ran on drug-fronts
 as informal credit. In the [[wiki/people/annie-ulmer|Annie]] terminal phase, procurement logistics were
