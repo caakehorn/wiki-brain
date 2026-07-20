@@ -40,6 +40,9 @@ connections:
   - page: wiki/people/nick-mattie
     type: co-occurs
     claim: "The Nick Mattie ledger — $20 and $50 fronts tracked by hand, a $100 bill carried to work as debt repayment — is the poverty floor's street-level bookkeeping, two broke men extending each other credit neither could cover."
+  - page: wiki/mind/synthesis/spatial-behavior
+    type: evidences
+    claim: "The 2018 'System Collapse & Migration' phase — over a third of the entire 2014-2020 aggregate travel distance logged in one year — is the spatial-data signature of the poverty-floor/deep-cycle years destabilizing into the NYC move."
 ---
 
 # 2017 Poverty Floor
