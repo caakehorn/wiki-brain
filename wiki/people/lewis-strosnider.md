@@ -10,6 +10,7 @@ date_range_end: 2019-02-08
 sources:
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lewisstrosnider_t431kowlfq/message_1.html"
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/matthewpalermo_nkpz90-e_g/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/davidbeard_2il3ecdfgg/message_1.html"
 tags: [uniontown-era, career, digital-footprint]
 infobox:
   name: "Lewis Strosnider"
@@ -25,6 +26,9 @@ connections:
   - page: wiki/people/matthew-palermo
     type: evidenced-by
     claim: "A Sept 22, 2018 message to Matthew Palermo ('Got the mavic 2 yesterday') independently dates the drone's purchase, one day before the crash/repair saga that runs through this page begins."
+  - page: wiki/people/david-beard
+    type: evidenced-by
+    claim: "David's own thread reveals the Mavic 2 was the third of three drones Dan bought in a six-week span that summer — a Mavic Platinum, then David's used unit for $700, then the Mavic 2 itself."
 ---
 
 # Lewis Strosnider
@@ -58,11 +62,13 @@ money from the pending [[wiki/mind/synthesis/estate-money-spine|Fran
 estate]] — "in a few months they will wrap up the estate and I'll get
 a pretty sizeable check" — an expectation that, per the estate's own
 documented timeline, was off by more than two years (the actual
-distribution landed September 1, 2020). The drone itself — purchased
-September 21, 2018, per a separate message to
-[[wiki/people/matthew-palermo|Matthew Palermo]] ("Got the mavic 2
-yesterday") — a DJI Mavic 2 Dan crashed and paid $800 to repair ($1,600
-invested total), becomes
+distribution landed September 1, 2020). The drone itself — a **DJI
+Mavic 2**, the third of three drones Dan bought that summer (a Mavic
+Platinum on July 24, a used unit from
+[[wiki/people/david-beard|David Beard]] for $700 around September 4,
+then the Mavic 2 itself on September 21, per a separate message to
+[[wiki/people/matthew-palermo|Matthew Palermo]], "Got the mavic 2
+yesterday") — crashed, paid $800 to repair ($1,600 invested total), becomes
 a running sale negotiation from November 2018 through the thread's
 final message in February 2019, with Lewis increasingly eager ("I want
 it bad...") and Dan noncommittal about price. The sale is still

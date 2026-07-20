@@ -414,3 +414,7 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 ## [2026-07-20] ingest | people | FB deep-scrape XII — matthew-palermo (new tier-one entry)
 - matthew-palermo.md (new, ~70 msgs, 2018-2020): Uniontown classmate whose Feb 13, 2020 conversation carries a real, named-circumstance death disclosure (his brother, relapsed after a long period clean, fatally overdosed) and the corpus's starkest quantified opiate-epidemic statement — "a quarter of my graduating class isn't around anymore... we have lost more friends at 30 than our parents have at 60" — cross-linked as a parallel to the similar framing on joe-oshnack.md. Also independently dates the Sept 21, 2018 purchase of the DJI Mavic 2 drone already documented on lewis-strosnider.md.
 - Gates: wiki-lint 0 errors (331 pages), wiki-connect check 0 errors.
+
+## [2026-07-20] ingest | people | FB deep-scrape XIII — david-beard (new tier-one entry)
+- david-beard.md (new, ~70 msgs, 2018): golf-course-adjacent Uniontown contact who sold Dan a used DJI drone for $700 in early Sept 2018 — revealed to be the SECOND of three drones Dan bought in a six-week span that summer (Mavic Platinum Jul 24, David's used unit ~Sep 4, Mavic 2 Sep 21). Corrected/enriched lewis-strosnider.md's drone paragraph to reflect the full three-drone sequence rather than treating the Mavic 2 as an isolated purchase.
+- Gates: wiki-lint 0 errors (332 pages), wiki-connect check 0 errors.
