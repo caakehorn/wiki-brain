@@ -34,6 +34,7 @@ sources:
   - wiki/timeline/events/fran-death-vigil
   - wiki/places/337-saratoga-drive
   - "raw/self/dox-md/Crisis mode briefing.md"
+  - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
@@ -49,6 +50,9 @@ connections:
   - page: wiki/timeline/events/april-may-2026-final-weeks
     type: evidenced-by
     claim: "A recurring blocked-caller impersonation campaign (April 2026) targeted Suz directly — personally insulted, threatened arrest-worthy retaliation — the only documented instance of the relationship's terminal-phase conflict machinery reaching her this directly."
+  - page: wiki/people/tuquick-17248123683
+    type: evidenced-by
+    claim: "Tuquick's three-hour harassment call to Suz (~May 26, 2026), five days before the End Fight, is a second and distinct instance of the terminal-phase conflict machinery reaching her directly — a different actor and channel than the April blocked-caller campaign above."
 ---
 
 
@@ -188,6 +192,24 @@ staged "wife-warning" screenshot. The vector is isolated from the
 Law]] discipline of keeping distinct signals distinct applies here as
 throughout the terminal-phase forensics. Full analysis:
 [[wiki/self/chats/gemini-07]].
+
+## The Tuquick harassment call (~May 26, 2026)
+
+Five days before the [[wiki/timeline/events/end-fight|May 31 End Fight]]
+group-chat confrontation, [[wiki/people/tuquick-17248123683|Tuquick]] —
+the man Annie had left Dan for — spent three hours harassing Suz by
+phone: repeated calls using the same insults and aggressive script he
+would later direct at Dan, mentioning Annie by name several times. When
+Dan raised the incident with Annie afterward, she declined to explain or
+intervene. Source is a secondary AI podcast dramatization of the
+underlying message/call logs
+([[raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md]]), not yet
+independently re-verified against a raw call log — treat as
+plausible-and-specific pending confirmation, consistent with how the same
+source's other claims are flagged on
+[[wiki/people/tuquick-17248123683]]. The incident is the corpus's only
+documented instance of a third party escalating directly against Suz
+rather than against Dan or Annie.
 
 ## The colonization episode (terminal phase)
 

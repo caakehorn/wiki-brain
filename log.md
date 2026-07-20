@@ -589,3 +589,30 @@ Archived both source docs to raw/self/dox-md/. Gates: 0 errors both.
 Remaining NEW LOADER items (THEORY OF EVERYTHING 31 MAR, podcast
 transcript, Stylometric/Linguistic docs, masterloader PDFs) not yet
 checked — next up.
+
+## [2026-07-20] ingest | people/timeline | End Fight podcast transcript (Drive NEW LOADER)
+Mined a NotebookLM-style AI podcast dramatization of the already-documented
+May 31-June 1 2026 End Fight / group-chat closure. Confirmed the core event
+is already extensively covered (end-fight.md, group-chat-closure.md,
+tuquick-17248123683.md, dan-annie-fallout-verdict.md) but the podcast
+supplied granular detail not previously captured: Dan's absurdist
+derailment tactics used against Tuquick (TRANS RIGHTS ARE HUMAN RIGHTS,
+Carthage geography, Israel non sequitur), Tuquick's mid-fight de-escalation
+(laughing, "no hard feelings") two weeks before his already-documented
+June 15 defection, Annie's false broken-finger claim debunked by Tuquick
+himself, the exact 23:54 verbatim/timestamp of the false sexual-assault
+accusation, and — genuinely new fact — a prior ~May 26 2026 incident where
+Tuquick spent three hours harassing Suzanne Frank by phone, five days
+before the main confrontation. Added as a REVISED block on
+tuquick-17248123683.md (correcting the prior "remained focused on the
+attack" framing), a new section on suzanne-frank.md, and a verbatim/date
+addition to group-chat-closure.md's Data Record — all flagged as sourced
+from a secondary AI dramatization pending raw-row confirmation, consistent
+with the corpus's existing primary-recount discipline. Also checked
+THEORY OF EVERYTHING 31 MAR (Drive NEW LOADER): confirmed its
+quantified claims (74/17/11 abuse triad, 1,512/232/180 triad, 299
+affirmations, 187:4 test) are already incorporated and independently
+re-verified on dan-annie-fallout-verdict.md; its "Girlfriend Score"
+framing (Annie 1.9/10 vs Alexis 7.1/10) is new packaging of already-
+captured stats, not new signal — not added. Podcast transcript archived
+to raw/self/dox-md/. Gates: 0 errors.

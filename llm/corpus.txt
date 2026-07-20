@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-341 pages, ~480,401 tokens.
+341 pages, ~481,739 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -23440,6 +23440,7 @@ sources:
   - wiki/timeline/events/fran-death-vigil
   - wiki/places/337-saratoga-drive
   - "raw/self/dox-md/Crisis mode briefing.md"
+  - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
@@ -23455,6 +23456,9 @@ connections:
   - page: wiki/timeline/events/april-may-2026-final-weeks
     type: evidenced-by
     claim: "A recurring blocked-caller impersonation campaign (April 2026) targeted Suz directly — personally insulted, threatened arrest-worthy retaliation — the only documented instance of the relationship's terminal-phase conflict machinery reaching her this directly."
+  - page: wiki/people/tuquick-17248123683
+    type: evidenced-by
+    claim: "Tuquick's three-hour harassment call to Suz (~May 26, 2026), five days before the End Fight, is a second and distinct instance of the terminal-phase conflict machinery reaching her directly — a different actor and channel than the April blocked-caller campaign above."
 ---
 
 
@@ -23594,6 +23598,24 @@ staged "wife-warning" screenshot. The vector is isolated from the
 Law]] discipline of keeping distinct signals distinct applies here as
 throughout the terminal-phase forensics. Full analysis:
 [[wiki/self/chats/gemini-07]].
+
+## The Tuquick harassment call (~May 26, 2026)
+
+Five days before the [[wiki/timeline/events/end-fight|May 31 End Fight]]
+group-chat confrontation, [[wiki/people/tuquick-17248123683|Tuquick]] —
+the man Annie had left Dan for — spent three hours harassing Suz by
+phone: repeated calls using the same insults and aggressive script he
+would later direct at Dan, mentioning Annie by name several times. When
+Dan raised the incident with Annie afterward, she declined to explain or
+intervene. Source is a secondary AI podcast dramatization of the
+underlying message/call logs
+([[raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md]]), not yet
+independently re-verified against a raw call log — treat as
+plausible-and-specific pending confirmation, consistent with how the same
+source's other claims are flagged on
+[[wiki/people/tuquick-17248123683]]. The incident is the corpus's only
+documented instance of a third party escalating directly against Suz
+rather than against Dan or Annie.
 
 ## The colonization episode (terminal phase)
 
@@ -24471,6 +24493,7 @@ sources:
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
   - raw/self/message-csv/THE END FIGHT.csv
   - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
+  - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/end-fight
@@ -24513,6 +24536,59 @@ Tuquick served as the attack vector during the group chat confrontation, demonst
 - Hurled extreme insults at Dan, centering on "junkie," "cuck," and "molester" framing.
 - Acted as Annie's proxy and protector during the escalation that resulted in Annie's final "sic semper lupanis" text.
 - Dan attempted to engage him on geopolitical topics (Israel/Palestine) to derail the hostility, but Tuquick remained focused on the attack.
+
+> **REVISED [2026-07-20]:** A separate NotebookLM-style podcast dramatization
+> of the same message logs (see
+> [[raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md]]) supplies a
+> more granular account than the summary above and revises the "remained
+> focused on the attack" characterization — Tuquick's hostility broke down
+> *within the same May 31 exchange*, not only at the later June 15
+> defection. The trigger for the escalation was mundane: Dan had dropped a
+> blue folder containing drugs Annie had requested into a mailbox for her;
+> moments after she retrieved it, Tuquick — using an unknown number in the
+> group chat — opened a roughly two-hour barrage of slurs, threats, and a
+> demand to meet in person. **Five days earlier (~May 26, 2026), per the
+> same account, Tuquick had spent three hours harassing
+> [[wiki/people/suzanne-frank|Suzanne Frank]] by phone** — repeated calls,
+> the same insults and aggressive script he later used on Dan, and
+> mentioning Annie by name several times; when Dan raised the incident with
+> Annie afterward, she declined to explain or intervene. See
+> [[wiki/people/suzanne-frank]] for the standalone fact.
+>
+> Dan's counter-strategy, per the podcast's read of the logs, was
+> deliberate absurdist derailment rather than defense or silence: ALL-CAPS
+> non sequiturs ("TRANS RIGHTS ARE HUMAN RIGHTS"), a tangent on Carthaginian
+> mercenary geography, a review of his Spotify Discover Weekly, and the
+> blunt question "Israel: Good or bad?" — followed, when Tuquick reacted,
+> by "I'm kind of autistic as fuck and really not embarrassed to ask you if
+> you support the genocidal nation-state or not." Tuquick's hostility broke
+> partway through: he laughed at a crude line from Dan ("holy shit" plus
+> laughing emoji), then laughed again at the Israel non sequitur, and by
+> the end extended what the podcast frames as a de-escalation handshake —
+> "no hard feelings towards you" — a full two weeks before the June 15
+> defection already documented below.
+>
+> Two false claims from Annie inside the same window are also newly
+> documented: a claim that Tuquick had broken her finger (debunked in the
+> same thread by Tuquick himself — "Her finger isn't broken" — undercutting
+> her own implied-abuse framing), and, at 23:54, the specific false
+> accusation — "I have recorded videos of me obviously passed out still
+> being touched" — that group-chat-closure.md's "rape narrative framing"
+> already names generically but without this verbatim or timestamp. Dan is
+> recorded explicitly separating this one claim from the surrounding
+> absurdism mid-conversation: "This is all a big joke except for that."
+> Before the escalation, Annie is also recorded texting Dan privately,
+> "Just do me a favor and disregard anything I say after this" — read as
+> advance signaling that she was about to perform for the group rather than
+> communicate with him directly.
+>
+> Tuquick's mid-fight de-escalation and the earlier mother-harassment call
+> are not corroborated anywhere else in the corpus yet — the podcast is an
+> AI dramatization of underlying logs the wiki has not independently
+> re-verified line-by-line, unlike the primary-recount discipline applied
+> elsewhere in the End Fight material (see
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]]). Treat as
+> plausible-and-specific rather than confirmed pending a raw-row check.
 
 **The October 2019 video as weapon.** Tuquick's most personal ammunition
 was the video of the [[wiki/mind/psychosexual/arrangement-history|October
@@ -29470,6 +29546,7 @@ sources:
   - raw/self/message-csv/THE END FIGHT.csv
   - raw/self/message-csv/END_FIGHT_full.csv
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
+  - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
 related:
   - wiki/people/annie-ulmer
   - wiki/mind/concepts/attachment-model
@@ -29484,7 +29561,12 @@ tags: [relationships]
 Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party relationship (Tuquick — [[wiki/people/tuquick-17248123683]], not [[wiki/people/eli|Eli]]) and the active operation of a defamation campaign against Dan in Annie's social/peer network.
 
 The campaign included at minimum:
-- Rape narrative framing
+- Rape narrative framing — a secondary AI-podcast dramatization of the logs
+  (see [[wiki/people/tuquick-17248123683]] for full detail and provenance
+  caveat) dates the specific claim to 23:54: "I have recorded videos of me
+  obviously passed out still being touched," deployed immediately after an
+  earlier false claim in the same window (that Tuquick had broken her
+  finger) was debunked by Tuquick himself in the thread.
 - "Junkie" framing
 
 This occurred concurrent with prior written denials of any third-party relationship (Nov 2025 and Feb 2026) that Dan had taken at face value in good faith.

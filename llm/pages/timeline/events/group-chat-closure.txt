@@ -14,6 +14,7 @@ sources:
   - raw/self/message-csv/THE END FIGHT.csv
   - raw/self/message-csv/END_FIGHT_full.csv
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
+  - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
 related:
   - wiki/people/annie-ulmer
   - wiki/mind/concepts/attachment-model
@@ -28,7 +29,12 @@ tags: [relationships]
 Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party relationship (Tuquick — [[wiki/people/tuquick-17248123683]], not [[wiki/people/eli|Eli]]) and the active operation of a defamation campaign against Dan in Annie's social/peer network.
 
 The campaign included at minimum:
-- Rape narrative framing
+- Rape narrative framing — a secondary AI-podcast dramatization of the logs
+  (see [[wiki/people/tuquick-17248123683]] for full detail and provenance
+  caveat) dates the specific claim to 23:54: "I have recorded videos of me
+  obviously passed out still being touched," deployed immediately after an
+  earlier false claim in the same window (that Tuquick had broken her
+  finger) was debunked by Tuquick himself in the thread.
 - "Junkie" framing
 
 This occurred concurrent with prior written denials of any third-party relationship (Nov 2025 and Feb 2026) that Dan had taken at face value in good faith.
