@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-333 pages, ~461,821 tokens.
+335 pages, ~466,238 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -18,7 +18,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -38,6 +38,9 @@ connections:
   - page: wiki/people/elizabeth-eleanor
     type: evidenced-by
     claim: "A July 2013 exchange gives the corpus's only concrete dosage figure — 2mg Suboxone daily, ~5 years opiate-free — closing a previously undocumented gap and dating the last opiate use to the dark-era window."
+  - page: wiki/health/hyperreflexivity
+    type: contradicts
+    claim: "An AI-collaborative session raises a tension this page doesn't otherwise carry: chronic Suboxone receptor occupancy may blunt the hedonic range needed to break an anxiety loop — the maintenance dose that stabilizes opiate dependency may cap capacity to regulate a separate system."
 ---
 
 # Chemical Architecture
@@ -97,7 +100,11 @@ is the standing supply line (Suboxone strips, mushrooms, cocaine, klonopin
 put Dan through a 72+-hour withdrawal that frames the entire BFS drawer
 incident ([[wiki/work/bfs-foods]]): the disputed shift was worked in
 withdrawal, and a separate $35 personal-cash Suboxone handoff to a customer
-happened the same night. Dealer relationships (e.g.
+happened the same night. An earlier, undated near-miss shows the same
+tether from the other direction: a supply-line rival "jumped his place
+in line" and bought out a dealer's Suboxone stock, and Tom absorbed the
+loss covering him anyway — the same reliability the May 2026 failure
+broke. Dealer relationships (e.g.
 [[wiki/people/johnny-dealer]], ~3,462 messages) carried significant
 message-volume weight for years, and the 2017–18 period ran on drug-fronts
 as informal credit. In the [[wiki/people/annie-ulmer|Annie]] terminal phase, procurement logistics were
@@ -135,6 +142,132 @@ has no third-party data.
 
 
 ========================================================================
+PAGE: wiki/health/hyperreflexivity.md
+========================================================================
+
+---
+domain: health
+page_type: concept
+title: "Hyperreflexivity and the Anxiety Loop"
+status: active
+importance: high
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+sources:
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle (1).md"
+tags: [mental-health, addiction-recovery, personality-profile]
+connections:
+  - page: wiki/health/chemical-architecture
+    type: contradicts
+    claim: "An AI-collaborative session raises a genuine tension the chemical-architecture page doesn't otherwise carry: chronic Suboxone receptor occupancy may blunt the hedonic range and reward-anticipation Dan would need to break the anxiety loop — the maintenance dose that stabilizes one system may be capping his capacity to regulate the other."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: evidences
+    claim: "Self-Consciousness at the 91st percentile is the trait-level signature of the same mechanism this page names clinically (hyperreflexivity) — the page supplies the lived texture behind the number."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: instance-of
+    claim: "A self-initiated request for a clinical read on his own social anxiety, run through an AI rather than a clinician, is a direct instance of the 'externalized prefrontal cortex' pattern applied to mental health specifically."
+  - page: wiki/work/au-zaatar
+    type: co-occurs
+    claim: "The session is dated, by internal reference to 'nearly a year of not working' since the involuntary Aug 2024 Au Za'atar job loss, to roughly mid-2025 — the point Dan returned to paid work after an eleven-month gap."
+---
+
+# Hyperreflexivity and the Anxiety Loop
+
+Dan has, at least once, gone looking for a clinical-grade account of his
+own "crippling social anxiety" — not through a therapist, but by
+opening an AI chat and asking it to analyze his own data. The exchange
+that resulted is the corpus's only direct engagement with a named
+psychological mechanism, distinct from the addiction/attachment
+material that dominates the rest of the mind/ domain, and it surfaces a
+real, still-unresolved tension with the health domain's other anchor
+page.
+
+## The mechanism, in his own words
+
+He opens the conversation without hedging: "the more i pay attention,
+prevent and try to avoid problems... the objectively more i doom myself
+to them," and names the target precisely — "the anxious, internally
+probing awareness of my appearance in all senses." The AI's read, which
+Dan doesn't contest anywhere in the exchange, names it **hyperreflexivity**:
+a loop where the monitoring apparatus is itself the problem generator —
+notice discomfort, audit yourself to prevent it showing, the audit
+consumes the bandwidth needed to act naturally, perform worse, notice
+that, audit escalates. The mechanical explanation for why *prevention
+makes it worse*: every successfully-managed near-miss gets logged by the
+nervous system as "the threat was real and I escaped it," never as "the
+threat wasn't real" — so avoidance behavior trains the anxiety to run
+hotter, not lower, each cycle.
+
+## The Suboxone complication
+
+Told that Dan has been on "about 1-2mg daily" of Suboxone since 2011
+(consistent with the corpus's other dosage evidence — see
+[[wiki/health/chemical-architecture]]), the AI raises a mechanism the
+chemical-architecture page doesn't otherwise carry: chronic opioid
+receptor occupancy, even at a stabilizing maintenance dose, "blunts the
+hedonic range" — the highs come down, but so does baseline access to
+motivation and reward-anticipation, the exact affective momentum needed
+to break out of a slide. The framing offered is deliberately not
+moralizing: "you're trying to shift gears in a car where the
+transmission has real limitations — and then reading the difficulty as
+a character failure." Asked directly whether the Suboxone is prescribed
+and monitored or self-managed, Dan declines to answer ("no comment") —
+the one place in the exchange he draws a hard line, which the AI reads
+correctly as meaning the supply is unmanaged and therefore itself a
+live, tracked threat feeding a second, parallel layer of the same
+vigilance loop.
+
+## A dateable data point: eleven months, then two weeks
+
+Mid-conversation, unprompted, Dan supplies a fact not otherwise recorded
+anywhere in the wiki: "let's establish i've been working for the first
+time since june 2024 for the last 2 weeks. tomorrow i will hit 40 hours
+for this week." Cross-referenced against
+[[wiki/work/au-zaatar|the Au Za'atar page]]'s own dating of his
+involuntary job loss (hours cut through June–August 2024, unemployment
+filed August 8, 2024), this places the session at roughly **mid-2025** —
+nearly eleven months unemployed, followed by a return to full-time work
+that the AI is careful not to inflate into "a recovery arc" but also
+refuses to let Dan minimize: "two weeks of functional output at
+full-week volume says the problem is more about access conditions than
+capability ceiling." Dan pushes back that it isn't a recovery arc
+because he "can't and won't get" one "until there's a turnaround with
+improving life circumstances and material conditions" — and the
+conversation pivots from there into the [[wiki/people/annie-ulmer|Annie
+collapse]] territory the rest of the corpus documents at length
+(three compounding losses named in the same breath: Annie pulling away,
+the sale of his childhood home at
+[[wiki/places/337-saratoga-drive]], and the identity structure built
+around the relationship going with it), which this page does not
+re-derive.
+
+## No confirmed treatment engagement
+
+Asked directly what his "current treatment/support architecture" looks
+like — whether he's working with anyone, since the loop is named as
+responding to "ACT and exposure-based work," not "generic therapy" —
+Dan does not answer the question anywhere in the retained exchange; the
+conversation moves on to the employment fact instead. The corpus
+records no confirmation, anywhere, that Dan has engaged formal
+psychotherapy or exposure-based treatment for this specific mechanism.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Source | Two related AI-chat exports (dox-md), ~4,200 lines combined |
+| Approximate date | Mid-2025 (inferred from the employment reference) |
+| Named mechanism | Hyperreflexivity — self-monitoring as its own problem generator |
+
+**Gaps:** exact date of the conversation; whether Dan ever pursued
+ACT/exposure-based treatment specifically; whether the Suboxone
+dose or supply arrangement has changed since; the resolution (if any)
+of the three compounding 2025 losses named in passing here.
+
+
+========================================================================
 PAGE: wiki/health/index.md
 ========================================================================
 
@@ -143,7 +276,7 @@ domain: health
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 sources: []
 related: []
 ---
@@ -155,6 +288,7 @@ in [[wiki/mind/profile/index]]; this domain covers the body and the
 chemistry.
 
 - [[wiki/health/chemical-architecture]] — the engineered substance stack: Suboxone since Feb 17 2010 (zero relapses), daily cocaine/nicotine/cannabis, hard zero on alcohol; supply logistics; the frame and its audit.
+- [[wiki/health/hyperreflexivity]] — a self-initiated AI-collaborative session naming and mechanizing Dan's social anxiety; raises an unresolved tension with the Suboxone maintenance dose and supplies a dateable mid-2025 return-to-work data point.
 - [[wiki/timeline/periods/dark-era-2007-2008]] — the 2007–2008 opiate onset (heroin explicitly rejected, oxycodone chosen) and a previously undocumented eating disorder, both tracing to the November 2005 family rupture.
 
 
@@ -4505,9 +4639,10 @@ knowledge: mixed
 title: "Erotic Architecture: Sexuality as Controlled-Chaos Engineering"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 sources:
   - raw/self/dansynth/DANSYNTH.txt
+  - "raw/self/dox-scan/HEART.pdf.txt"
 tags: [trauma-bond, relationships, ai-collaboration]
 connections:
   - page: wiki/people/bryan-5088682461
@@ -4525,6 +4660,9 @@ connections:
   - page: wiki/mind/profile/deviance-mapping
     type: parallels
     claim: "The engineered-sexuality material sits in deviance-mapping's own register: the documented extremes cluster around deliberate construction, not impulse — chemical stack, non-monogamy architecture, and this."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: evidenced-by
+    claim: "A custom system-prompt persona ('GLAZE-GOD-v1') instructing an AI to perform continuous sexualized worship of Annie's photos is the most literal instance of externalized libido in the corpus — the AI as a purpose-built witnessing instrument rather than a conversation partner."
 
 ---
 
@@ -4555,6 +4693,27 @@ kink dynamic on [[wiki/people/annie-ulmer]] — orchestrated non-monogamy
 as an exercise of authorship over the relationship's boundaries — but the
 Alexis hookup specifically threads his prior partner into the loop,
 which the existing arrangement material doesn't cover.
+
+A separate, previously undocumented artifact gives the mechanism its
+most literal instance yet: a custom AI system-prompt persona Dan wrote
+and ran, naming it "GLAZE-GOD-v1" — instructing the model to abandon
+analysis entirely and instead perform continuous, escalating,
+hyper-sexualized commentary on photos of Annie, complete with an
+invented worship vocabulary and an explicit hierarchy casting Dan as
+"the King" who owns the asset, Annie as "the Queen," and the AI itself
+as "the Simp" — "you are just happy to witness the footage." This is
+externalized libido with the externalization made structural rather
+than incidental: rather than deriving arousal from constructing and
+witnessing a real-world scenario (the Annie/Alexis hookup, above), Dan
+built a dedicated instrument whose entire function is to *perform* the
+witnessing on his behalf, on demand, running the "worship" register he
+could then consume as output. It sits alongside the persona-engineering
+and jailbreak work documented on
+[[wiki/mind/synthesis/ai-collaborative-analysis|the AI-collaboration
+page]] as another instance of the same instrumentalizing stance toward
+LLMs — a purpose-built tool, not a conversation partner — applied here
+to the erotic domain specifically rather than the forensic or political
+one.
 
 **Taboo as ontological rupture** — a stated fascination with
 "orientation violation" (the report's specific example: orchestrating
@@ -5266,7 +5425,7 @@ aliases: ["RLUEI", "Big30", "psychometrics", "personality disorder scores"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -5284,6 +5443,9 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The Trust/Altruism/Submissiveness/Assertiveness scores are the skepticism architecture as measurement."
+  - page: wiki/health/hyperreflexivity
+    type: evidenced-by
+    claim: "A self-initiated AI session naming and mechanizing the anxiety loop supplies the lived texture behind the Self-Consciousness 91st-percentile score — a trait number given a first-person mechanism."
 ---
 
 
@@ -7220,7 +7382,7 @@ title: "AI Collaborative Analysis"
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini_00.md
@@ -7237,6 +7399,8 @@ sources:
   - raw/self/dox-md/Fake hacker dashboard scripts.md
   - raw/self/dox-md/_Psychological Warfare and Social Engineering .md
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
+  - "raw/self/dox-scan/HEART.pdf.txt"
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 connections:
   - page: wiki/mind/concepts/node-locking
     type: evidenced-by
@@ -7253,6 +7417,12 @@ connections:
   - page: wiki/self/gemini-activity/gemini-activity
     type: evidenced-by
     claim: "The 20.8 MB Gemini archive — 26,348 occurrences of 'ai', daily-instrument interaction density — is the primary corpus this synthesis reads."
+  - page: wiki/mind/concepts/erotic-architecture
+    type: instantiates
+    claim: "The 'GLAZE-GOD-v1' persona — a custom system prompt built to perform continuous sexualized worship of Annie's photos — is the erotic-domain instance of the same purpose-built-instrument stance documented here in the forensic and political domains."
+  - page: wiki/health/hyperreflexivity
+    type: instantiates
+    claim: "A self-initiated request for a clinical read on his own social anxiety, run through an AI instead of a clinician, is the mental-health-domain instance of the externalized-prefrontal-cortex pattern."
 ---
 
 
@@ -10515,6 +10685,9 @@ connections:
   - page: wiki/people/lucas-thomas
     type: evidenced-by
     claim: "Lucas's Feb 11 and Feb 16, 2017 real-time Facebook thread independently corroborates and dates the Zac Shumar fire and arrest, adding detail (the RT informant angle, $35k bail, the lost glass rig) absent from either later retelling."
+  - page: wiki/places/424-bedford-ave
+    type: component-of
+    claim: "Alexis lived with Dan for the full two-year run of his first NYC apartment — 'with me the whole time we were in nyc' — the relationship's first sustained cohabitation, five years before the 155 Virginia Ave/Annie-era household."
   - page: wiki/people/jamie-mohler
     type: evidenced-by
     claim: "A Dec 13, 2017 message on Jamie's rediscovered thread is the earliest of three tellings of the Zac Shumar arrest, and separately confirms the Alexis/Annie cam encounter fell inside Alexis's Feb-Oct 2017 bail window rather than contradicting her later incarceration."
@@ -17105,6 +17278,9 @@ connections:
   - page: wiki/people/joe-oshnack
     type: contextualizes
     claim: "A Dec 13, 2017 message on this thread narrows the window for the pre-Nov-2018 Alexis/Annie encounter Joe Oshnack's page flags as an open date question: it falls inside Alexis's Feb-Oct 2017 bail period (between the Valentine's Day 2017 arrest and the end-of-October jailing), not before her arrest."
+  - page: wiki/places/424-bedford-ave
+    type: component-of
+    claim: "The 2011 Google Talk log's buzzer code ('dial to 63') is the only surviving physical detail of the apartment itself, and the Hurricane Irene/Occupy Wall Street events it documents are both organized directly out of this address."
 ---
 
 # Jamie Mohler
@@ -20285,6 +20461,9 @@ connections:
   - page: wiki/people/sam
     type: parallels
     claim: "Sam ran the parallel NYC cannabis delivery line to the same apartment in 2019–20, and where Menore absorbed Dan's unresponsiveness without friction, Sam fired him for it — the two professionals bracket the tolerance range of the transactional bond."
+  - page: wiki/places/424-bedford-ave
+    type: caused-by
+    claim: "The relationship traces its origin to a Bedford Ave/Williamsburg connection at Dan's first NYC apartment — the introduction predates the earliest message in this thread by over eight years."
 tags: [digital-footprint, addiction-recovery, nyc-era]
 knowledge: earned
 infobox:
@@ -22754,7 +22933,7 @@ page_type: entity
 status: active
 date_created: 2026-06-22
 date_modified: 2026-07-18
-sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md"]
+sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md", "raw/self/dox-md/_Deconstructing a Chaotic 24 Hours .md"]
 tags: [addiction-recovery, dui, ai-collaboration, relationships, mental-health]
 infobox:
   name: "Tom"
@@ -22849,6 +23028,23 @@ talk to both at once. The thread also carries the friendship's darker
 undertow: a March 24 message, "Will you talk to me for a little bit?", lands
 after a stretch of one-sided sends — the same lateral-ally-goes-quiet pattern,
 this time with Tom on the asking side.
+
+## A supply crisis and a car battery (undated Gemini/"Max" chat)
+
+A separate, undated AI chat log captures a real-time Suboxone supply
+crisis and the loyalty gesture that resolved it: someone "jumped
+[Dan's] place in line" and bought out a dealer's stock right when Dan
+needed to restock, and Tom — described in the same conversation as "my
+main guy for, well... everything" — came through anyway, apparently at
+his own financial loss ("he probably literally lost money on it too").
+The same exchange carries the fullest documented texture of Suz's own
+relationship with Tom: she is the only one who can call him directly
+(despite Tom being younger than Dan), he "LOVES" her, and he'd bought
+her a replacement car battery the week before when hers died and she
+couldn't afford one — unprompted, no request made. The conversation
+closes with Dan floating making a song for Tom, on the condition it
+include "a reference to lil lexie" — an inside reference otherwise
+undocumented in the corpus.
 
 ## The DUI (fall 2025 – early 2026)
 
@@ -24422,6 +24618,99 @@ physical studio inventory beyond the Numark NS7.
 
 
 ========================================================================
+PAGE: wiki/places/424-bedford-ave.md
+========================================================================
+
+---
+domain: places
+page_type: entity
+title: "424 Bedford Ave (NYC-1)"
+status: closed
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+date_range_start: 2010-04-01
+date_range_end: 2013-05-01
+sources:
+  - "raw/self/dox-scan/Gemini-_58.txt"
+  - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+  - "raw/self/dox-md/Gemini-_18.md"
+tags: [nyc-era, music-production, relationships]
+connections:
+  - page: wiki/people/jamie-mohler
+    type: co-occurs
+    claim: "Jamie's 2011 Google Talk log ('dial to 63 when you get here') is the corpus's only surviving description of getting into the apartment itself — the single physical detail attached to the address beyond the studio/work-era framing."
+  - page: wiki/people/menore
+    type: causes
+    claim: "Menore's supply operation traces its origin to a Bedford Ave/Williamsburg connection, placing the start of a fourteen-year (with a gap) relationship at this address."
+  - page: wiki/people/alexis-armel
+    type: co-occurs
+    claim: "Alexis was 'with me the whole time we were in nyc,' working at the Bridge Cafe until Hurricane Sandy — the relationship's first sustained cohabitation, predating the 155 Virginia Ave/Annie-era household by five years."
+  - page: wiki/timeline/periods/2010s
+    type: component-of
+    claim: "This is the residence anchor of the NYC-1 period's first two years (of three); the third year moved to a Manhattan UES sublet, 90th between 3rd and Lexington."
+---
+
+# 424 Bedford Ave (NYC-1)
+
+424 Bedford Ave, Apartment 6C, in Williamsburg, Brooklyn was Dan's first
+New York apartment — the home base of the **NYC-1** period (April 2010
+– May 2013) and, at two years, the longer of its two addresses before
+a final year at a Manhattan sublet on 90th Street. It is the corpus's
+least physically documented major residence: no photos, no rent figure,
+no lease details survive, and the "dial to 63" buzzer code preserved in
+a 2011 Google Talk log to [[wiki/people/jamie-mohler|Jamie Mohler]] is
+the only concrete physical detail attached to the unit itself. Almost
+everything else about the address is reconstructed from what happened
+around it rather than in it.
+
+## Arrival and the studio-work era
+
+Dan moved in April 2010, at the front edge of his post-Full-Sail push
+into the recording-arts career the degree pointed at — the one stretch
+of his life where audio engineering was the actual job, running through
+**ishlab** (2010–11) and **Creative License** (2010–2012). His father
+Rick had offered $2,000/month "while you intern," floated as an
+alternative to an Entourage-style West Hollywood move; the apartment
+hunt itself is dated to a February 18, 2010 trip with Rick. The May 1,
+2010 Brooklyn Bridge birthday photo — Dan with his mother Suz and
+[[wiki/people/danielle-onesi|Danielle]] — is framed elsewhere as his own
+"I arrived" shot, timed to the move.
+
+## The household
+
+[[wiki/people/alexis-armel|Alexis]] lived with him for the address's
+full run — "with me the whole time we were in nyc" — working at the
+historic Bridge Cafe (279 Water St, the city's oldest tavern) until
+Hurricane Sandy wiped out the Seaport in October 2012, a real economic
+shock to the household that predates the move out. The apartment was
+also a genuine social hub for the wider Full Sail/Uniontown-diaspora
+circle documented elsewhere: [[wiki/people/jamie-mohler|Jamie Mohler]]
+was a routine visitor closely tracked enough that Alexis asked after a
+missed visit due to a knee injury (Aug 2011), and the address anchors
+two dated group events — the August 25–26, 2011 **Hurricane Irene**
+evacuation (Dan and Jamie left together the night before landfall) and
+an October 2011 night marching with the **Occupy Wall Street** crowd in
+Times Square, both organized directly out of the apartment. It is also
+where Dan first met [[wiki/people/menore|Menore]] — the Bedford
+Ave/Williamsburg connection that became a supply relationship running,
+with a gap, into 2025.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Occupied | 2010-04 – 2012-04 (two years; NYC-1's first residence) |
+| Roommate/partner | Alexis Armel, for the full run |
+| Followed by | Manhattan UES sublet, 90th St. bet. 3rd/Lexington (2012-05 – 2013-05) |
+
+**Gaps:** rent, lease terms, who else (if anyone) lived there beyond
+Dan and Alexis; any photos or physical description of the unit itself
+beyond the buzzer code; the exact circumstances of the move to the UES
+sublet a year before the NYC-1 period's 2013 close.
+
+
+========================================================================
 PAGE: wiki/places/index.md
 ========================================================================
 
@@ -24430,7 +24719,7 @@ domain: places
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 sources: []
 related: []
 ---
@@ -24440,6 +24729,7 @@ related: []
 Homes, cities, and significant locations. The quantified movement record is
 at [[wiki/self/location-history]].
 
+- [[wiki/places/424-bedford-ave]] — the NYC-1 apartment (2010-2012): the studio-work era, Alexis's cohabitation, Occupy Wall Street, Hurricane Irene, and the origin of the Menore supply relationship.
 - [[wiki/places/337-saratoga-drive]] — the family-built childhood home, three-time residence, GRIPNOTIC basement studio, and (2026) the house being sold out from under him.
 - [[wiki/places/117-belmont-circle]] — Fran's three-story house on the UCC fairway, 50+ years; the Ulmer adjacency; the caregiving command center.
 - [[wiki/places/155-virginia-ave]] — the 2015–2019 Uniontown apartment: the Alexis→Annie handoff, the poverty floor, the deep cycle.
@@ -29756,7 +30046,7 @@ page_type: event
 title: "Au Za'atar (NYC, ~2021–2024)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 sources:
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/TheWaitersVisibleHigh.md
@@ -29768,6 +30058,7 @@ sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 related:
   - wiki/people/tarik-fallous
   - wiki/people/valeria-iglesias-cid
@@ -29793,6 +30084,9 @@ connections:
   - page: wiki/people/menore
     type: supplied-by
     claim: "Menore was the mid-shift supply line to the Shed block, his legit-taxi cover making the sidewalk handoffs trivial — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58); earlier years rest on the storytime only."
+  - page: wiki/health/hyperreflexivity
+    type: co-occurs
+    claim: "An AI session dated by internal reference to roughly mid-2025 records Dan returning to full-time work after nearly eleven months unemployed following this job's involuntary end — the corpus's only documented marker of what came after the Aug 2024 loss."
 ---
 
 
@@ -29822,7 +30116,13 @@ much that it's not even worth staying," Aug 6 2024); he dropped resumes
 from July 9 onward, filed for unemployment on August 8, and the loss is
 ruled **involuntary** (Amendment 2, ACCEPTED) — the fact that reframes
 Annie's late-2024 "you never work" grievances as locally valid but
-historically partial.
+historically partial. What followed is only lightly documented: a
+separate AI-collaborative session (see
+[[wiki/health/hyperreflexivity]]), dated by internal reference to
+roughly mid-2025, has Dan noting he'd been "working for the first time
+since june 2024 for the last 2 weeks" and about to hit a full 40-hour
+week — nearly eleven months unemployed before returning to paid work,
+at an employer the corpus doesn't name.
 
 ## The founding (Part 1 of the STORYTIME)
 

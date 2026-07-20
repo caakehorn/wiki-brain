@@ -4,7 +4,7 @@ page_type: event
 title: "Au Za'atar (NYC, ~2021–2024)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 sources:
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/TheWaitersVisibleHigh.md
@@ -16,6 +16,7 @@ sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 related:
   - wiki/people/tarik-fallous
   - wiki/people/valeria-iglesias-cid
@@ -41,6 +42,9 @@ connections:
   - page: wiki/people/menore
     type: supplied-by
     claim: "Menore was the mid-shift supply line to the Shed block, his legit-taxi cover making the sidewalk handoffs trivial — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58); earlier years rest on the storytime only."
+  - page: wiki/health/hyperreflexivity
+    type: co-occurs
+    claim: "An AI session dated by internal reference to roughly mid-2025 records Dan returning to full-time work after nearly eleven months unemployed following this job's involuntary end — the corpus's only documented marker of what came after the Aug 2024 loss."
 ---
 
 
@@ -70,7 +74,13 @@ much that it's not even worth staying," Aug 6 2024); he dropped resumes
 from July 9 onward, filed for unemployment on August 8, and the loss is
 ruled **involuntary** (Amendment 2, ACCEPTED) — the fact that reframes
 Annie's late-2024 "you never work" grievances as locally valid but
-historically partial.
+historically partial. What followed is only lightly documented: a
+separate AI-collaborative session (see
+[[wiki/health/hyperreflexivity]]), dated by internal reference to
+roughly mid-2025, has Dan noting he'd been "working for the first time
+since june 2024 for the last 2 weeks" and about to hit a full 40-hour
+week — nearly eleven months unemployed before returning to paid work,
+at an employer the corpus doesn't name.
 
 ## The founding (Part 1 of the STORYTIME)
 

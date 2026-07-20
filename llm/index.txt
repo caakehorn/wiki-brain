@@ -1,5 +1,5 @@
 WIKI-BRAIN — LLM ACCESS POINT
-generated 2026-07-20 · 333 pages · full corpus ~461,821 tokens
+generated 2026-07-20 · 335 pages · full corpus ~466,238 tokens
 
 WHAT THIS IS
 A machine-readable export of a personal wiki (a 'second brain') that
@@ -29,6 +29,7 @@ PAGE MANIFEST (title | url | one-line summary)
 
 --- HEALTH ---
 Chemical Architecture | https://caakehorn.github.io/wiki-brain/llm/pages/health/chemical-architecture.txt | Dan runs a deliberately engineered neurochemical system and explicitly rejects the recovery-industry frame for it. The load-bearing fact: **daily Suboxone si...
+Hyperreflexivity and the Anxiety Loop | https://caakehorn.github.io/wiki-brain/llm/pages/health/hyperreflexivity.txt | Dan has, at least once, gone looking for a clinical-grade account of his own "crippling social anxiety" — not through a therapist, but by opening an AI chat ...
 health — index | https://caakehorn.github.io/wiki-brain/llm/pages/health/index.txt | Physical and mental health history. The psychological profile itself lives in [[wiki/mind/profile/index]]; this domain covers the body and the chemistry.
 
 --- INTERESTS ---
@@ -309,6 +310,7 @@ Zachariah Harshman | https://caakehorn.github.io/wiki-brain/llm/pages/people/zac
 155 Virginia Ave | https://caakehorn.github.io/wiki-brain/llm/pages/places/155-virginia-ave.txt | 155 Virginia Ave, Uniontown PA was Dan's residence from January 2015 to February 2019 — the address where the two defining relationships of his adult life ha...
 307 E 76th St (Manhattan) | https://caakehorn.github.io/wiki-brain/llm/pages/places/307-e-76th-st.txt | 307 E 76th St, Upper East Side, was home for the entire second New York chapter — February 2019 to February 2025 — shared with
 337 Saratoga Drive | https://caakehorn.github.io/wiki-brain/llm/pages/places/337-saratoga-drive.txt | 337 Saratoga Drive, Uniontown PA is the family-built (1996) childhood home and Dan's residence for three separate eras of his life, including the GRIPNOTIC b...
+424 Bedford Ave (NYC-1) | https://caakehorn.github.io/wiki-brain/llm/pages/places/424-bedford-ave.txt | 424 Bedford Ave, Apartment 6C, in Williamsburg, Brooklyn was Dan's first New York apartment — the home base of the **NYC-1** period (April 2010 – May 2013) a...
 places — index | https://caakehorn.github.io/wiki-brain/llm/pages/places/index.txt | Homes, cities, and significant locations. The quantified movement record is at [[wiki/self/location-history]].
 
 --- SELF ---

@@ -3,21 +3,28 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 333,
+ "page_count": 335,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
    "title": "Chemical Architecture",
    "summary": "Dan runs a deliberately engineered neurochemical system and explicitly rejects the recovery-industry frame for it. The load-bearing fact: **daily Suboxone si...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/chemical-architecture.txt",
-   "bytes": 6638
+   "bytes": 7261
+  },
+  {
+   "page": "wiki/health/hyperreflexivity.md",
+   "title": "Hyperreflexivity and the Anxiety Loop",
+   "summary": "Dan has, at least once, gone looking for a clinical-grade account of his own \"crippling social anxiety\" \u2014 not through a therapist, but by opening an AI chat ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/hyperreflexivity.txt",
+   "bytes": 6690
   },
   {
    "page": "wiki/health/index.md",
    "title": "health \u2014 index",
    "summary": "Physical and mental health history. The psychological profile itself lives in [[wiki/mind/profile/index]]; this domain covers the body and the chemistry.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/index.txt",
-   "bytes": 748
+   "bytes": 998
   },
   {
    "page": "wiki/interests/favorites/art-and-movies.md",
@@ -402,7 +409,7 @@
    "title": "Erotic Architecture: Sexuality as Controlled-Chaos Engineering",
    "summary": "The same Gemini \"Dan Frank OS\" report that produced",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/erotic-architecture.txt",
-   "bytes": 7344
+   "bytes": 9049
   },
   {
    "page": "wiki/mind/concepts/exocortex.md",
@@ -451,7 +458,7 @@
    "title": "Big Five / Big30 Psychometrics & PD Vector",
    "summary": "The trait-level numbers are the profile's hardest data and its most extreme: a Big30 facet spread that puts Dan simultaneously in the top decile of the popul...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/big-five-psychometrics.txt",
-   "bytes": 6834
+   "bytes": 7107
   },
   {
    "page": "wiki/mind/profile/deviance-mapping.md",
@@ -556,7 +563,7 @@
    "title": "AI Collaborative Analysis",
    "summary": "Large language models occupy a specific, unusual role in Dan's cognitive life: not conversational companions but external processors \u2014 memory, structuring en...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/ai-collaborative-analysis.txt",
-   "bytes": 17360
+   "bytes": 18070
   },
   {
    "page": "wiki/mind/synthesis/ancestral-dialectic.md",
@@ -696,7 +703,7 @@
    "title": "Alexis Armel (\u201cLex\u201d)",
    "summary": "**Role / Relationship:** Prior relationship (pre-Annie); referenced as \"Lex\" / Alexis Armel in life calendar, profile dumps, attachment narratives, and photo...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/alexis-armel.txt",
-   "bytes": 19691
+   "bytes": 19997
   },
   {
    "page": "wiki/people/ally-lubin.md",
@@ -1333,7 +1340,7 @@
    "title": "Jamie Mohler",
    "summary": "Jamie Mohler is a Full Sail friend from Dan's Orlando years who was present, per the operator, on the day Dan first met",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jamie-mohler.txt",
-   "bytes": 13086
+   "bytes": 13389
   },
   {
    "page": "wiki/people/jaredtricia.md",
@@ -1620,7 +1627,7 @@
    "title": "Menore",
    "summary": "**Menore** (+13476070497) \u2014 Drug dealer / supply operator in New York City; Bedford Ave (Williamsburg) Brooklyn origin connection; operated Nov 2018\u2013Feb 2025...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/menore.txt",
-   "bytes": 17521
+   "bytes": 17784
   },
   {
    "page": "wiki/people/michael-hinkle.md",
@@ -1809,7 +1816,7 @@
    "title": "Tom",
    "summary": "Tom Maison \u2014 Dan's primary male ally and, for most of the corpus, the clearest instance of safe, lateral (peer, non-paternal) attachment in the record \u2014 the ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/tom.txt",
-   "bytes": 19988
+   "bytes": 21047
   },
   {
    "page": "wiki/people/trevor.md",
@@ -1903,11 +1910,18 @@
    "bytes": 3977
   },
   {
+   "page": "wiki/places/424-bedford-ave.md",
+   "title": "424 Bedford Ave (NYC-1)",
+   "summary": "424 Bedford Ave, Apartment 6C, in Williamsburg, Brooklyn was Dan's first New York apartment \u2014 the home base of the **NYC-1** period (April 2010 \u2013 May 2013) a...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/424-bedford-ave.txt",
+   "bytes": 4491
+  },
+  {
    "page": "wiki/places/index.md",
    "title": "places \u2014 index",
    "summary": "Homes, cities, and significant locations. The quantified movement record is at [[wiki/self/location-history]].",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/index.txt",
-   "bytes": 852
+   "bytes": 1054
   },
   {
    "page": "wiki/self/ancestry.md",
@@ -2264,7 +2278,7 @@
    "title": "Au Za'atar (NYC, ~2021\u20132024)",
    "summary": "Au Za'atar Midtown \u2014 the Lebanese restaurant at 58th & 1st owned by",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/au-zaatar.txt",
-   "bytes": 15176
+   "bytes": 15967
   },
   {
    "page": "wiki/work/bfs-foods.md",

@@ -6,7 +6,7 @@ title: "AI Collaborative Analysis"
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini_00.md
@@ -23,6 +23,8 @@ sources:
   - raw/self/dox-md/Fake hacker dashboard scripts.md
   - raw/self/dox-md/_Psychological Warfare and Social Engineering .md
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
+  - "raw/self/dox-scan/HEART.pdf.txt"
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 connections:
   - page: wiki/mind/concepts/node-locking
     type: evidenced-by
@@ -39,6 +41,12 @@ connections:
   - page: wiki/self/gemini-activity/gemini-activity
     type: evidenced-by
     claim: "The 20.8 MB Gemini archive — 26,348 occurrences of 'ai', daily-instrument interaction density — is the primary corpus this synthesis reads."
+  - page: wiki/mind/concepts/erotic-architecture
+    type: instantiates
+    claim: "The 'GLAZE-GOD-v1' persona — a custom system prompt built to perform continuous sexualized worship of Annie's photos — is the erotic-domain instance of the same purpose-built-instrument stance documented here in the forensic and political domains."
+  - page: wiki/health/hyperreflexivity
+    type: instantiates
+    claim: "A self-initiated request for a clinical read on his own social anxiety, run through an AI instead of a clinician, is the mental-health-domain instance of the externalized-prefrontal-cortex pattern."
 ---
 
 

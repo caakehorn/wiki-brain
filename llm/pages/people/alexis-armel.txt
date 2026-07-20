@@ -31,6 +31,9 @@ connections:
   - page: wiki/people/lucas-thomas
     type: evidenced-by
     claim: "Lucas's Feb 11 and Feb 16, 2017 real-time Facebook thread independently corroborates and dates the Zac Shumar fire and arrest, adding detail (the RT informant angle, $35k bail, the lost glass rig) absent from either later retelling."
+  - page: wiki/places/424-bedford-ave
+    type: component-of
+    claim: "Alexis lived with Dan for the full two-year run of his first NYC apartment — 'with me the whole time we were in nyc' — the relationship's first sustained cohabitation, five years before the 155 Virginia Ave/Annie-era household."
   - page: wiki/people/jamie-mohler
     type: evidenced-by
     claim: "A Dec 13, 2017 message on Jamie's rediscovered thread is the earliest of three tellings of the Zac Shumar arrest, and separately confirms the Alexis/Annie cam encounter fell inside Alexis's Feb-Oct 2017 bail window rather than contradicting her later incarceration."
