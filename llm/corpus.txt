@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-340 pages, ~475,193 tokens.
+340 pages, ~476,261 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -2784,6 +2784,7 @@ sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/twitter/
+  - raw/self/favorites/2025_MASTER_CRATE.csv
 related:
   - wiki/interests/music/overview
   - wiki/interests/music/aliases/mogzart
@@ -2816,6 +2817,27 @@ The output type is itself informative: "remixes and AI voice drops" means the ca
 | Tempo range | House (120–130 BPM) to DnB-adjacent (170+) depending on release |
 | Differentiator from MOGZART | GRIPNOTIC is more contemporary, harder-edged; MOGZART was more trap-adjacent |
 | Differentiator from SLOPPP | SLOPPP was early exploratory; GRIPNOTIC is refined, intentional |
+
+## Current DJ crate (2025)
+
+A Spotify playlist export, "2025_MASTER_CRATE" (232 tracks, curated by
+`dfrank88`, most additions logged October 31, 2025), gives the first
+quantified, dated picture of what Dan is actually mixing rather than a
+genre label applied after the fact. The crate is heavily current — 138
+of 232 tracks (59%) were released in 2025 itself, with the remainder
+skewing recent (26 from 2024, 20 from 2023) and only a handful of older
+tracks reaching back to 2002. Genre tags confirm and sharpen the
+"bass house / tech house" description above with real weight behind
+each label: dubstep (63 tracks), bass music (59), bass house (54), tech
+house (34), riddim (29), house (24), g-house (24), drum and bass (22),
+stutter house (22), and UK garage (21) dominate, with smaller pockets of
+future bass, edm trap, deathstep, and moombahton. The crate runs hot —
+average energy 0.80 out of 1.0, average tempo 133 BPM (range 72–179) —
+and skews mostly non-explicit (34 of 232 explicit-tagged). No single
+artist dominates; Fred again.. leads with 6 tracks, followed by rSUN,
+NGHTMRE, Diplo, AC Slater, LYNY, and Odd Mob at 3–5 each — a wide,
+current-scene sampling rather than a small set of favorites played
+heavily.
 
 ## Production Chain
 
@@ -5251,6 +5273,9 @@ connections:
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: instantiates
     claim: "The Annie decade's evidentiary reconstruction — message counts, dated patterns, the confession trap — is the forensic method applied to the corpus's highest-stakes relationship."
+  - page: wiki/mind/profile/socionics-and-attitudinal
+    type: evidenced-by
+    claim: "The ILI-Ni 'Ni leak' — pattern-hunting that runs more prophecy than a textbook INTP's Ti-Ne — is the trait-level substrate for this method's anomaly-detection engine."
 ---
 
 
@@ -6429,6 +6454,7 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ Linguistic.rtf
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/dox-md/Phase_2_Stylometric_Analysis.md
 related:
   - wiki/mind/profile/index
   - wiki/mind/profile/deviance-mapping
@@ -6436,6 +6462,10 @@ related:
   - wiki/self/context-core
   - wiki/self/twitter
 tags: [trauma-bond]
+connections:
+  - page: wiki/mind/profile/voice-modes
+    type: parallels
+    claim: "This page's audience-based code-switching (romantic/platonic, supportive/conflict) and voice-modes.md's eight emotional-state modes are two independent organizing axes over the same baseline mechanics — who he's talking to and how he feels modulate register separately."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics
@@ -6531,6 +6561,33 @@ architecture becomes directly visible. The generation formula context-core
 records for the voice: 3–7 lowercase bursts, one ALL-CAPS word at the
 emotional peak, seeded ambient modifiers, ending on a probe.
 
+## Audience-based code-switching
+
+A separate stylometric pass, run against the same iMessage corpus,
+measures a different axis than the emotional-state modes below: register
+shift by *who he's talking to*, independent of mood. Romantic messages to
+Annie carry endearments ("sweetie," "bb") and a near-constant,
+continuous cadence — multiple short bursts across the day functioning
+almost as a running channel. Platonic messages to friends use peer slang
+("dude," "yo") and are event-driven rather than continuous, picking up
+only around a specific plan or joke. He never crosses these vocabularies:
+"dawg" or "bro" toward a romantic partner, or a pet name toward a friend,
+essentially don't occur. The same audience-sensitivity holds for
+profanity — playful and intensifying with friends, but pointed and
+accusatory when it appears in a partner conflict — and for capitalization,
+where "DRIVE SAFE" reads as an affectionate command while the same
+formatting in an argument reads as a demand.
+
+The pass also isolates a distinct **supportive-vs-conflict** axis inside
+romantic messaging specifically: supportive exchanges run longer,
+coherent, "we"-framed, and proactively caring ("anything I can do?"),
+while conflict exchanges fragment into rapid-fire single-clause bursts,
+drop softening language, and turn "you" accusatory. A reliable pattern
+closes every volatile spike: a flood of repeated, properly-capitalized
+apology and reassurance ("I'm sorry," "I love you," "I promise") that
+doesn't have a platonic equivalent — his friend-conflicts are rare and
+brief enough that this repair cycle never gets exercised the same way.
+
 **Gaps:** the stylometric layers analyze the texting/AI corpus; no formal
 analysis exists of the lyric/production-adjacent writing or of speech
 (voice memos, calls); temporal drift analysis is anecdotal ("earlier AI
@@ -6563,6 +6620,10 @@ related:
   - wiki/mind/profile/enneagram-5w4
   - wiki/mind/synthesis/political-psyops
 tags: [personality-profile, ai-collaboration, music-production]
+connections:
+  - page: wiki/mind/concepts/forensic-method
+    type: evidences
+    claim: "The ILI-Ni 'Ni leak' — pattern-hunting that runs more prophecy than a textbook INTP's Ti-Ne — is the trait-level substrate for the anomaly-detection engine the forensic-method page names as Dan's cognitive default."
 ---
 
 # Socionics ILI-Ni, Attitudinal Psyche & Alignment
@@ -6686,6 +6747,10 @@ related:
   - wiki/mind/profile/linguistic-profile
   - wiki/mind/concepts/conflict-architecture
   - wiki/mind/concepts/attachment-model
+connections:
+  - page: wiki/mind/profile/linguistic-profile
+    type: parallels
+    claim: "The eight emotional-state modes documented here and linguistic-profile.md's audience-based code-switching (romantic/platonic, supportive/conflict) are two independent organizing axes over the same baseline mechanics — mood and who he's talking to modulate register separately."
 ---
 
 # Voice Modes — Dan's Texting Register by Emotional State

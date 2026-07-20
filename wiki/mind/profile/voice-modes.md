@@ -13,6 +13,10 @@ related:
   - wiki/mind/profile/linguistic-profile
   - wiki/mind/concepts/conflict-architecture
   - wiki/mind/concepts/attachment-model
+connections:
+  - page: wiki/mind/profile/linguistic-profile
+    type: parallels
+    claim: "The eight emotional-state modes documented here and linguistic-profile.md's audience-based code-switching (romantic/platonic, supportive/conflict) are two independent organizing axes over the same baseline mechanics — mood and who he's talking to modulate register separately."
 ---
 
 # Voice Modes — Dan's Texting Register by Emotional State

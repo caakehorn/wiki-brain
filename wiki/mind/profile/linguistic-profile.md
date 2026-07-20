@@ -10,6 +10,7 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ Linguistic.rtf
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/dox-md/Phase_2_Stylometric_Analysis.md
 related:
   - wiki/mind/profile/index
   - wiki/mind/profile/deviance-mapping
@@ -17,6 +18,10 @@ related:
   - wiki/self/context-core
   - wiki/self/twitter
 tags: [trauma-bond]
+connections:
+  - page: wiki/mind/profile/voice-modes
+    type: parallels
+    claim: "This page's audience-based code-switching (romantic/platonic, supportive/conflict) and voice-modes.md's eight emotional-state modes are two independent organizing axes over the same baseline mechanics — who he's talking to and how he feels modulate register separately."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics
@@ -111,6 +116,33 @@ the register shifts from analytical to pleading, and the underlying wound
 architecture becomes directly visible. The generation formula context-core
 records for the voice: 3–7 lowercase bursts, one ALL-CAPS word at the
 emotional peak, seeded ambient modifiers, ending on a probe.
+
+## Audience-based code-switching
+
+A separate stylometric pass, run against the same iMessage corpus,
+measures a different axis than the emotional-state modes below: register
+shift by *who he's talking to*, independent of mood. Romantic messages to
+Annie carry endearments ("sweetie," "bb") and a near-constant,
+continuous cadence — multiple short bursts across the day functioning
+almost as a running channel. Platonic messages to friends use peer slang
+("dude," "yo") and are event-driven rather than continuous, picking up
+only around a specific plan or joke. He never crosses these vocabularies:
+"dawg" or "bro" toward a romantic partner, or a pet name toward a friend,
+essentially don't occur. The same audience-sensitivity holds for
+profanity — playful and intensifying with friends, but pointed and
+accusatory when it appears in a partner conflict — and for capitalization,
+where "DRIVE SAFE" reads as an affectionate command while the same
+formatting in an argument reads as a demand.
+
+The pass also isolates a distinct **supportive-vs-conflict** axis inside
+romantic messaging specifically: supportive exchanges run longer,
+coherent, "we"-framed, and proactively caring ("anything I can do?"),
+while conflict exchanges fragment into rapid-fire single-clause bursts,
+drop softening language, and turn "you" accusatory. A reliable pattern
+closes every volatile spike: a flood of repeated, properly-capitalized
+apology and reassurance ("I'm sorry," "I love you," "I promise") that
+doesn't have a platonic equivalent — his friend-conflicts are rare and
+brief enough that this repair cycle never gets exercised the same way.
 
 **Gaps:** the stylometric layers analyze the texting/AI corpus; no formal
 analysis exists of the lyric/production-adjacent writing or of speech

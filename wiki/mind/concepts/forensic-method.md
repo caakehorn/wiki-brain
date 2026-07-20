@@ -37,6 +37,9 @@ connections:
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: instantiates
     claim: "The Annie decade's evidentiary reconstruction — message counts, dated patterns, the confession trap — is the forensic method applied to the corpus's highest-stakes relationship."
+  - page: wiki/mind/profile/socionics-and-attitudinal
+    type: evidenced-by
+    claim: "The ILI-Ni 'Ni leak' — pattern-hunting that runs more prophecy than a textbook INTP's Ti-Ne — is the trait-level substrate for this method's anomaly-detection engine."
 ---
 
 
