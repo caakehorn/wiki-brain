@@ -5,7 +5,7 @@ title: "Ismaila Barry (\"DJ\")"
 aliases: ["DJ", "Ismaila"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 sources:
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/AuZaatarsFinalShift.md
@@ -14,6 +14,7 @@ related:
   - wiki/work/au-zaatar
   - wiki/people/dimitri
   - wiki/people/tom
+  - wiki/people/tarik-fallous
 tags: [nyc-era]
 infobox:
   name: "Ismaila Barry (\"DJ\")"
@@ -50,5 +51,11 @@ white shirt and a three-shot of Dan, DJ, and Dimitri together.
 **Gaps:** no direct message thread has been confirmed in the corpus under
 either name — but a candidate exists: handle `+19293235324` received
 r/Senegal Reddit links from Dan in May 2024 (iMessage dump), the only
-Senegal-flagged thread in the record; worth confirming as DJ.
+Senegal-flagged thread in the record; worth confirming as DJ. A second,
+unconfirmed lead: in [[wiki/people/tarik-fallous|Tarik Fallous]]'s direct
+thread, Dan tells Tarik on Aug 21 2024 (13 days after his own termination)
+that he wouldn't be surprised if "DJ does what MD did and doesn't 'return'
+when he gets back from his vacation" — informal chatter suggesting DJ's
+own tenure may have ended around the same window, not corroborated
+anywhere else.
 Current contact status post-2024; his own exit from Au Za'atar.

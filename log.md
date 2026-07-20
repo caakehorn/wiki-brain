@@ -717,3 +717,23 @@ procurement line" resolved to the Jan 24 2026 ketamine-procurement
 messages (Tom's 2am delivery; "I grabbed some ketamine for us"). Three
 flagged gaps closed in one pass, all from data already on disk. Gates:
 0 errors.
+
+## [2026-07-20] ingest | people/work | Tarik Fallous full per-contact export — REVISED, no-message-corpus claim was wrong
+Filed raw/self/message-csv/imessage_19178259183_both_all_now.csv (80
+messages, Aug 2023-Apr 2026, reliable direction). This directly
+contradicts the page's prior claim that "no direct message thread exists"
+for Tarik — REVISED block applied. tarik-fallous.md substantially
+rewritten with a new Direct Correspondence section: employment-logistics
+texture not documented elsewhere (grocery-run errands on Tarik's own
+Barclays card, two verbatim wine/liquor inventory counts, hiring-interview
+coordination, a Dec 2023 payroll dispute, 5 sick-day call-outs, an Arabic
+wedding-congratulations exchange) plus a genuinely new post-termination
+finding: Dan kept passing Tarik informal workplace "CIA agent" intel 13
+days after filing for unemployment, and the two remained in warm, openly
+political contact through Apr 12 2026 (Lebanon-conflict solidarity
+messages, Sep 2024 and Apr 2026) - nearly two years after the job ended.
+Five new unresolved names surfaced: Modi, MD, Patricia, Khalid, Hani.
+Status changed closed->active (relationship is ongoing, not closed with
+the employment). Converted related: to typed connections: (4 edges +
+inverses on au-zaatar.md and ismaila-barry.md); au-zaatar.md gained a
+corroborating sentence on the de facto-manager role. Gates: 0 errors.
