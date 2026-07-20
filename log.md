@@ -542,3 +542,12 @@ split truncated opening sentence, corrected location-history connection
 type instance-of -> contextualizes, added missing inverse connection on
 2017-poverty-floor.md. Gates clean (0 errors). Regenerated llm/. All
 three review threads resolved on GitHub.
+
+## [2026-07-20] triage | interests | BOOKS.csv (Drive/MEMORY) duplicate check
+Downloaded and reviewed BOOKS.csv (Drive MEMORY folder, Goodreads export
+format). Confirmed duplicate of raw/self/google-drive-export/goodreads_library_export.md
+already cited on wiki/interests/favorites/books.md — every distinctive
+title checked (Carlin, Holland's Rubicon, Goldsworthy's Caesar, Shirer,
+Bird's American Prometheus, and the Jacob Bacharach "Doorposts" 5-star
+2022 read) is already captured on that page, including the specific
+jacob-bacharach.md cross-link. No new signal. Deprioritized, no wiki changes.
