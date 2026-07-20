@@ -634,3 +634,45 @@ large ChatGPT conversation-export JSONs (dfrankconversations.json ~35.7MB)
 flagged earlier as a genuinely new, unopened AI-chat corpus distinct from
 the Gemini archive — needs dedicated download+extraction handling in a
 future pass given size.
+
+## [2026-07-20] ingest | timeline | ChatGPT export first pass — Feb-Apr 2025 gap filled
+Operator directly uploaded the ChatGPT conversations.json export (375
+conversations, 2022-12 to 2025-07) after Drive's own MCP tools proved too
+size-limited for it (download_file_content times out; read_file_content
+mangles JSON with markdown-escaping and truncates at ~900K chars). Full
+export archived to raw/self/chatgpt-export/dfrank-chatgpt-conversations-2022-2025.json.
+Sampled ~10 conversations. "Mom Info Logged" confirmed fully duplicate of
+already-ingested biography (Danielle/Franki/Alexis/Annie dating chronology,
+Fran/Arnold Palmer/Ira Coldren) — strong confirmation of wiki completeness.
+"Relationship Breakdown Summary" (2025-04-27) was genuinely new: mined into
+a new page, wiki/timeline/periods/feb-apr-2025-return-and-rupture.md,
+filling the previously undocumented Feb-April 2025 gap between the January
+2025 affair discovery and the Aug-2025-onward terminal-phase record already
+on dan-annie-fallout-verdict.md. New facts: the NYC apartment "shot clock"
+exit (~$10k owed + $7k ConEd bill), Annie's unilateral move to her parents
+against Dan's open-ended funded-apartment offer, and — genuinely new to the
+corpus — Suzanne Frank's 2024 personal bankruptcy and a spring-2025 listing
+attempt on 337 Saratoga Drive a full year before the eventual 2026 sale
+already documented on suzanne-frank.md. Added connections to
+2025-collapse.md, suzanne-frank.md, annie-ulmer.md, dan-annie-fallout-verdict.md,
+and a timeline/index.md entry. "Whisk AI Prompt Injector"/"Whisk Emergency
+Fabric Design" checked and ruled OUT as related to the documented
+fabricated-evidence pattern (false lead from title similarity — both are
+unrelated jailbreak/creative-writing tangents). Remaining ~365
+conversations tracked in queue.md as a multi-pass backlog, prioritized:
+Camming Career Review, Babbitt Shooting Psy-Op Debate (possible original
+J6 source predating the Gemini-based material), the facial-feature/
+ideal-face cluster (~12 convos, purpose not yet understood), Interpersonal
+Analysis Request, Breakup Brain Dump, Personality Breakdown IRL. ~180
+early 2022-2023 conversations are generic political/history discussion,
+spot-checked and deprioritized as low-yield. Gates: 0 errors.
+
+## [2026-07-20] triage | mind | ChatGPT export follow-up: Babbitt psyop + camming review
+Checked two more flagged ChatGPT conversations. "Babbitt Shooting Psy-Op
+Debate" (2025-06-15) confirms rather than extends the already-documented
+J6 "Operation Wildfall" hybrid thesis, but is dated 7 months before the
+Gemini codification and on a different AI platform — added as a
+chronology note to political-psyops.md. "Camming Career Review" (2025-06-07)
+turned out to be an image-analysis conversation with no extractable new
+facts (AI flourish responding to uploaded screencaps, not text data) —
+no wiki action, logged as lower-value-than-title-suggested in queue.md.

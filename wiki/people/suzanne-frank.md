@@ -53,6 +53,9 @@ connections:
   - page: wiki/people/tuquick-17248123683
     type: evidenced-by
     claim: "Tuquick's three-hour harassment call to Suz (~May 26, 2026), five days before the End Fight, is a second and distinct instance of the terminal-phase conflict machinery reaching her directly — a different actor and channel than the April blocked-caller campaign above."
+  - page: wiki/timeline/periods/feb-apr-2025-return-and-rupture
+    type: evidences
+    claim: "A 2024 personal bankruptcy and a spring-2025 listing attempt on the childhood home (337 Saratoga Drive) — a full year before the eventual 2026 sale this page documents — is the previously-missing first driver of that house's extended, multi-attempt sale process."
 ---
 
 
