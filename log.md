@@ -418,3 +418,7 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 ## [2026-07-20] ingest | people | FB deep-scrape XIII — david-beard (new tier-one entry)
 - david-beard.md (new, ~70 msgs, 2018): golf-course-adjacent Uniontown contact who sold Dan a used DJI drone for $700 in early Sept 2018 — revealed to be the SECOND of three drones Dan bought in a six-week span that summer (Mavic Platinum Jul 24, David's used unit ~Sep 4, Mavic 2 Sep 21). Corrected/enriched lewis-strosnider.md's drone paragraph to reflect the full three-drone sequence rather than treating the Mavic 2 as an isolated purchase.
 - Gates: wiki-lint 0 errors (332 pages), wiki-connect check 0 errors.
+
+## [2026-07-20] ingest | people | FB deep-scrape XIV — ryan-scherich (new tier-one entry)
+- ryan-scherich.md (new, ~63 msgs, single day 2020-02-08): a self-contained political flame war with a barely-known acquaintance, ending in a remark ("U know how they [illegals] kill and rape ppl") Dan calls racist before cutting contact. Lands five days after the documented Feb 3, 2020 Iowa-caucus Bernie evangelism on wiki/mind/synthesis/2020-left-turn.md — cross-linked as a real, contemporaneous conflict from inside that window rather than only Dan's own outward messaging.
+- Gates: wiki-lint 0 errors (333 pages), wiki-connect check 0 errors.

@@ -11,6 +11,7 @@ sources:
   - "raw/self/favorites/FAVS MASTERLIST.csv"
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/bobbycole_-p2picui8w/message_1.html"
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joeoshnack_7killpebkw/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/ryanscherich_z-v_ahjumq/message_1.html"
 tags: [ideology, politics, nyc-era, digital-footprint]
 connections:
   - page: wiki/timeline/periods/covid-era-2020
@@ -37,6 +38,9 @@ connections:
   - page: wiki/people/joe-oshnack
     type: evidenced-by
     claim: "A Sept 23, 2021 retrospective supplies the fullest documented account of the pre-conversion identity itself — 'an annoying little conservative fuckcunt' who was uncomfortable with anti-Iraq-war material — texture the origin-event framing above doesn't otherwise carry."
+  - page: wiki/people/ryan-scherich
+    type: co-occurs
+    claim: "A Feb 8, 2020 political flame war — five days after the documented Iowa-caucus Bernie evangelism — is a real, contemporaneous conflict from inside the pre-COVID window, not just Dan's own outward messaging."
 ---
 
 
