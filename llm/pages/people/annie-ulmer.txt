@@ -127,6 +127,9 @@ connections:
   - page: wiki/mind/synthesis/message-circadian-latency
     type: evidenced-by
     claim: "The circadian/latency cut supplies the quantitative case for the relationship's singularity: median 9-minute mutual reply latency against hour-scale delays everywhere else."
+  - page: wiki/timeline/periods/feb-apr-2025-return-and-rupture
+    type: evidences
+    claim: "Annie's unilateral move to her parents' house rather than accepting Dan's open-ended offer to fund an apartment anywhere she chose is the first concrete post-affair decision-making asymmetry in the corpus, predating the terminal-phase asymmetry by roughly eight months."
 ---
 
 

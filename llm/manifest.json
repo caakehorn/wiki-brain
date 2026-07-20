@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 341,
+ "page_count": 342,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -612,7 +612,7 @@
    "title": "The Dan/Annie Fallout \u2014 Was He Correct to Feel Wronged? (Raw-Evidenced)",
    "summary": "The verdict, stated plainly: **yes \u2014 on the documented facts, Dan was correct to feel wronged, and the feeling was not a misreading.** The record supports a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dan-annie-fallout-verdict.txt",
-   "bytes": 26487
+   "bytes": 26922
   },
   {
    "page": "wiki/mind/synthesis/estate-money-spine.md",
@@ -745,7 +745,7 @@
    "title": "Annie (Anne Louise Ulmer)",
    "summary": "This page is also the largest single deployment anywhere in the corpus of",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 45851
+   "bytes": 46218
   },
   {
    "page": "wiki/people/annoying.md",
@@ -1809,7 +1809,7 @@
    "title": "Suz (Suzanne Frank)",
    "summary": "Dan's mother and, across four decades, the single most constant structural presence in his life \u2014 the person who has most often been both the floor under him...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/suzanne-frank.txt",
-   "bytes": 15392
+   "bytes": 15756
   },
   {
    "page": "wiki/people/tarik-fallous.md",
@@ -2222,7 +2222,7 @@
    "title": "timeline \u2014 index",
    "summary": "",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/index.txt",
-   "bytes": 2552
+   "bytes": 2813
   },
   {
    "page": "wiki/timeline/periods/2010s.md",
@@ -2271,7 +2271,7 @@
    "title": "Synthesis concepts injector pass 2026-06-23: expanded _18 section + added dedicated Bifurcated Daily OS + Decoupling/Grounding Paradox verbatim (cold data ledger/chat.db epistemic cross); migration/OS/work entropy ties. Cross all Gemini sources. See /tmp/gemini-concepts-injection.md.",
    "summary": "**Date range:** 2025",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2025-collapse.txt",
-   "bytes": 8549
+   "bytes": 8848
   },
   {
    "page": "wiki/timeline/periods/covid-era-2020.md",
@@ -2293,6 +2293,13 @@
    "summary": "2025-12-01 to 2025-12-31",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/dec-2025-spike.txt",
    "bytes": 2250
+  },
+  {
+   "page": "wiki/timeline/periods/feb-apr-2025-return-and-rupture.md",
+   "title": "Feb\u2013April 2025: Return and Rupture",
+   "summary": "The immediate aftermath of the January 2025 affair discovery and the February 22, 2025 forced exit from the NYC apartment \u2014 the specific weeks the broader [[...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/feb-apr-2025-return-and-rupture.txt",
+   "bytes": 7315
   },
   {
    "page": "wiki/timeline/periods/full-sail-2008-2010.md",

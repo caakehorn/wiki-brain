@@ -48,6 +48,9 @@ connections:
   - page: wiki/mind/concepts/bunker-core
     type: contains
     claim: "Bunker Core is named in Dan's own 2026 'Bifurcated Daily OS' self-description as one half of a two-track life this period documents in full — survival work alongside a self-built technical sovereignty stack."
+  - page: wiki/timeline/periods/feb-apr-2025-return-and-rupture
+    type: contains
+    claim: "The Feb-April 2025 window is this period's opening chapter at week-level granularity: the NYC apartment exit, Annie's unilateral move to her parents, and Suz's 2024 bankruptcy destabilizing the landing."
   - page: wiki/mind/synthesis/message-circadian-latency
     type: evidenced-by
     claim: "The 41,278-message 2025 whole-corpus total — within 2% of the 2018 peak — gives this period its first precise volume figure, confirming the collapse year matched the deep-cycle year for raw output even as the content shifted from relationship crisis to relationship termination."
