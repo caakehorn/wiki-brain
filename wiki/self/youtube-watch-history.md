@@ -1,12 +1,12 @@
 ---
 domain: self
 page_type: synthesis
-status: archived
+status: active
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-07-20
 date_range_start: 2007-01-01
-date_range_end: 2025-07-31
-sources: ["raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html", "raw/self/facebook/facebook-ihatedanfrank/pages_and_profiles/pages_you_ve_liked.html"]
+date_range_end: 2026-07-20
+sources: ["raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html", "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2026-07-20).html", "raw/self/facebook/facebook-ihatedanfrank/pages_and_profiles/pages_you_ve_liked.html"]
 related:
   - wiki/self/overview
   - wiki/self/context-core
@@ -23,6 +23,8 @@ related:
   - wiki/mind/concepts/conflict-architecture
   - wiki/timeline/periods/2021-2023-employment-block
   - wiki/timeline/periods/dec-2025-spike
+  - wiki/timeline/events/march-2026-terminal-phase
+  - wiki/timeline/events/april-may-2026-final-weeks
 tags: [politics, career, nyc-era]
 connections:
   - page: wiki/mind/synthesis/intake-constancy
@@ -34,15 +36,53 @@ connections:
   - page: wiki/interests/opie-and-anthony
     type: evidences
     claim: "The 2012–13 peak years and the ~450 fan-archive-channel watches are the primary record behind the shock-radio obsession that page interprets."
+  - page: wiki/timeline/events/march-2026-terminal-phase
+    type: co-occurs
+    claim: "The Nov 8, 2025 - Feb 15, 2026 near-total real-watch blackout (one genuine video in 100 days, ad impressions continuing throughout) directly precedes and overlaps the Dec 2025 message-volume spike and the Jan-Feb 2026 engagement asymmetry that lead into this terminal phase."
+  - page: wiki/mind/synthesis/intake-constancy
+    type: contradicts
+    claim: "A ~100-day window (Nov 2025-Feb 2026) with essentially zero watches on this account, and the operator's same-day confirmation that multiple YouTube accounts share this Google login, together mean every intake figure this page cites (11.58/day and the recomputed 9.53/day) is a single-account lower bound, not the verified constant it was presented as -- unresolved pending a consolidated multi-account export."
 ---
 
 
-# YouTube Watch History (2007–2025)
+# YouTube Watch History (2007–2026)
 
 ## Identity
-Extensive personal YouTube activity log spanning nearly two decades. 17,302 "Watched" events + 248 likes/dislikes. Primary media consumption channel for news, politics, comedy, and cultural commentary. ~8,728 parsed with channel metadata (4,146 unique); ~2,370 YouTube Music watches. Data from Google Takeout HTML export. Re-parsed for channels, categories (politics/skepticism, comedy/radio, history/education, music/electronic), date clusters, and FB ties.
+Extensive personal YouTube activity log spanning nearly two decades. Primary media consumption channel for news, politics, comedy, and cultural commentary. Data from two Google Takeout HTML exports: the original 2007–2025 pull (below, unchanged) and a fresh export the operator located in Drive and supplied directly on 2026-07-20, extending coverage to July 20, 2026 and adding a genuinely new finding — see "Extended coverage" below, which should be read before trusting any of the older per-year tables at face value.
 
-## Corpus Dimensions
+> **REVISED [2026-07-20]:** the older export's own "Watched" counts (this page's 17,302, and the 17,426 total-events figure cited on [[wiki/mind/synthesis/intake-constancy]] and [[wiki/mind/synthesis/totality-themes]]) were never broken out by whether the "watch" was a real video or a served ad impression. A verified re-parse this session found **14.1% of the old export's 15,149 "Watched" entries are Google Ads** ("From Google Ads" tagged, no real engagement implied) — meaning the true count of videos genuinely watched is closer to 13,011, and every per-year/per-channel table below is Watched-block counts, not ad-filtered counts. This doesn't overturn the page's interpretive content (the channel/category analysis was necessarily done on real, titled, non-ad content, since ads rarely carry recognizable channel names), but the raw volume figures should be read as an upper bound on real engagement, not the engagement itself. This matters far more in the newly-covered period — see below.
+
+## Extended coverage: August 2025 – July 2026 (new, 2026-07-20)
+
+The operator spotted a fresh Google Takeout export in Drive (created 2026-07-20, split across two zip parts, the larger exceeding this session's download tooling and requiring a manual re-upload of just the `watch-history.html` file) and asked for a comparison against the export below. The new file runs 2007 through **July 20, 2026** — extending real coverage by nearly a full year past the old export's last entry (July 25, 2025) — and, cross-checked entry-by-entry against the old file, surfaces a genuine finding rather than just more of the same data:
+
+**A ~100-day near-total gap in this account's real watches, Nov 8 2025 – Feb 15 2026.** Splitting every "Watched" block into real content versus Google Ads impressions (a distinction the old export's published counts never made — see the REVISED note above) shows exactly **one** real video watched between November 8, 2025 and February 15, 2026: "Man in Cave (Reupload)," on Nov 8 itself. Every other logged event in that ~100-day window — 78 of them — is an ad impression, frequently in dense back-to-back clusters with zero real videos between them (e.g. ~40 consecutive ads on Jan 4, 2026 across 3.5 hours; another ~15-ad cluster on Dec 26, 2025).
+
+> **Operator correction (2026-07-20):** this Google account has multiple YouTube accounts tied to it, and the operator confirms he was almost certainly watching on a different one of those accounts during this window — this specific export just doesn't cover it. Not a real behavioral gap; a single-account coverage limitation. The dense ad-only clusters (a device apparently still logged in and passively serving ads while the real viewing happened elsewhere) are exactly consistent with that explanation. **This caveat applies more broadly than just this one window** — every count on this page, old and new export alike, is single-account data; total real watching across all the operator's YouTube accounts combined is confirmed higher than any figure below. Treat every number on this page as a lower bound on true activity, not a census, until a consolidated multi-account export exists.
+
+This window sits directly inside the corpus's own highest-intensity Annie-relationship crisis stretch: the December 2025 message-volume peak ([[wiki/timeline/periods/dec-2025-spike]], 4,657 messages, near-parity reconciliation attempt), the sharp January–February 2026 engagement asymmetry that followed it, and the run-up to [[wiki/timeline/events/march-2026-terminal-phase|March 2026's "most concentrated gaslighting" fortnight]]. Real watching resumes gradually after: 9 videos in March 2026, then a clear rebound — 243 in April, 136 in May.
+
+**A second, related finding: the June–July 2026 numbers look like a huge activity spike but mostly aren't.** Raw block counts alone would suggest a massive surge (1,036 events in June, 1,616 in the first 20 days of July) — but 80.3% of June's entries and 96.4% of July's are ads, not real watches. Real content watched: 204 in June, only 58 in the first 20 days of July. The apparent "explosion" is overwhelmingly ad-volume noise. Whether that leaves July 2026 above or below true (multi-account) baseline consumption is now an open question rather than a settled comparison — see the multi-account caveat above, which applies to the historical ~11.58/day figure just as much as to this window.
+
+| Month | Real watches | Ad impressions | Ad % |
+|-------|-------------:|----------------:|-----:|
+| 2025-09 | 191 | 12 | 5.9% |
+| 2025-10 | 112 | 6 | 5.1% |
+| 2025-11 | 1 | 13 | 92.9% |
+| 2025-12 | 0 | 18 | 100.0% |
+| 2026-01 | 0 | 43 | 100.0% |
+| 2026-02 | 0 | 4 | 100.0% |
+| 2026-03 | 9 | 0 | 0.0% |
+| 2026-04 | 243 | 24 | 9.0% |
+| 2026-05 | 136 | 4 | 2.9% |
+| 2026-06 | 204 | 832 | 80.3% |
+| 2026-07 (through 20th) | 58 | 1,558 | 96.4% |
+
+**Top channels, real watches only, Aug 2025 – Jul 2026:** Breaking Points (112), LastWeekTonight (95), The Majority Report w/ Sam Seder (93), Tor's Cabinet of Curiosities (91), We're In Hell (42), JREG (23), Tucker Carlson (22), STRANGE ÆONS (22), exurb1a (19), DJ Peach Cobbler (17), HasanAbi (16), Chapo Trap House (13). The political-commentary spine (Breaking Points, LastWeekTonight, Majority Report, HasanAbi) is continuous with the 2022+ diet already documented below; Tor's Cabinet of Curiosities, We're In Hell, JREG, STRANGE ÆONS, exurb1a, and DJ Peach Cobbler are new-to-the-corpus names not previously catalogued in this page's channel tables, plus a late-June 2026 late-night cluster of 2000s pop-punk nostalgia (Green Day and Fall Out Boy "AOL Sessions" live videos, June 30).
+
+**Minor discrepancy, not a data-integrity concern:** 240 URLs present in the old export near its July 2025 cutoff don't appear in the new one — spot-checked, every sampled example is an ad impression from the same July 23–25, 2025 boundary window (KAYAK, Arby's, Harbor Freight, insurance/pharma spots). Google's ad-activity logging is evidently not perfectly deterministic run-to-run at export boundaries; this affects only a handful of ad rows, not real watch data.
+
+## Corpus Dimensions (original 2007–2025 export)
 
 | Metric | Value |
 |--------|-------|

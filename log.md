@@ -676,3 +676,125 @@ chronology note to political-psyops.md. "Camming Career Review" (2025-06-07)
 turned out to be an image-analysis conversation with no extractable new
 facts (AI flourish responding to uploaded screencaps, not text data) —
 no wiki action, logged as lower-value-than-title-suggested in queue.md.
+
+## [2026-07-20] ingest | people | operator-provided Mike Cordaro export (imessage_17243226739_both_all_now.csv)
+Filed a proper per-contact export (50 messages, reliable Sent/Received
+direction) to raw/self/message-csv/, superseding the earlier 28-message
+partial pull off the unreliable-direction master CSV. mike-cordaro.md
+Corpus Dimensions corrected (28 -> 50 msgs; direction now confirmed
+reliable, genuine two-way conversation). Texture section expanded with
+the full 2024-election exchange (Mark Kelly/Shapiro/Walz/Bernie-endorsement
+reasoning on both sides, the "DEI hire" line, the enthusiasm-boost-on-18-35
+argument) previously only summarized. Converted the bare related:/##
+Related footer to a typed connections: block — a new `parallels` edge to
+rick-frank.md (the "maga-tized dads" framing), with inverse added on
+rick-frank.md. Gates: 0 errors.
+
+## [2026-07-20] correction | mind/timeline/people | Eli discovery text + two other flagged claims upgraded [DOSSIER]->[RAW-CSV]
+Operator uploaded a fresh export of Annie's current 212 number
+(imessage_export_2124702449_20260720210349.csv, Aug 2025-Jun 2026) flagging
+the Eli discovery text as locatable within it and specifically dated. Cross-
+check found it a near-duplicate of already-filed raw/self/message-csv/
+imessage_2124702449_both_all_now.csv (same window, 23448 vs 23719 rows) —
+NOT re-filed to avoid raw/ duplication. Neither file covers Jan 2025 (both
+start effectively Aug 2025 with only stray isolated rows before that), so
+the Eli text itself (Jan 9 2025) is not in this specific export — but the
+question prompted a wider re-search that found it elsewhere in already-
+filed raw/: raw/self/message-csv/imessages_2124702449_last6months.csv and
+raw/self/dox-scan/all_imessages_complete_dump.txt both have the full six-
+message rapid-fire sequence starting 2025-01-09 23:18:49, verbatim. The
+2026-07-18 pass had searched for the quote as one string and missed it
+because iMessage sent it as six separate messages. Primary-confirmed
+sequence entered on eli-incident.md (REVISED block) and eli.md, including
+a genuinely new fact: Dan's own real-time reply, "Who are you?", sent
+23:19:42 between Eli's third and fourth messages — not previously
+documented anywhere in the corpus. dan-annie-fallout-verdict.md's "What
+still needs primary verification" section updated: Eli text resolved;
+the Mar 16 2026 "I misunderstood the conversation" retraction line also
+found already sitting in imessage_2124702449_both_all_now.csv (2026-03-16
+18:47:51) — same story, a prior pass's search missed it; and the "Jan 24
+procurement line" resolved to the Jan 24 2026 ketamine-procurement
+messages (Tom's 2am delivery; "I grabbed some ketamine for us"). Three
+flagged gaps closed in one pass, all from data already on disk. Gates:
+0 errors.
+
+## [2026-07-20] ingest | work | DANMODEL — new page, a working voice-cloning ML pipeline
+Mined the Drive "DANMODEL" folder queued earlier this session. Filed
+raw/self/danmodel/extraction_summary.txt, PIPELINE_NOTES.md (architecture
+transcription of 5 Python scripts — a byte-exact copy attempt corrupted
+during manual base64 reconstruction, so this is a faithful logic
+transcription instead, with original Drive file IDs cited for provenance),
+and reaction_pairs_heldout.jsonl (4,570 rows, verbatim, mechanically
+decoded and verified against the summary count). New page
+wiki/work/tech/danmodel.md: a from-scratch pipeline that extracts 39,378
+stimulus-response pairs from Dan's own message corpus (verified: Annie
+early alone = 40% of the total, corroborating contact-gini's 0.961
+concentration in an independent metric; year distribution independently
+reproduces the already-documented 2018 deep-cycle and 2025-collapse
+peaks), builds both a naive Jaccard-retrieval baseline and a TF-IDF+RAG
+generator wrapped in a self-authored "CATO_COMPACT" voice-persona prompt
+(preserved verbatim — genuinely new primary data on how Dan characterizes
+his own texting signature), and designs a rigorous blind LLM-judge eval
+(neutral-labeled real-vs-fake, leakage assertions) to test whether the
+clone passes for him. Notable finding: no eval_results file exists
+anywhere in the Drive folder, so whether the blind test was ever completed
+— and what it found — is a genuine, flagged gap, not a negative result.
+Wired into wiki/mind/concepts/exocortex.md, wiki/work/tech/mneme/overview.md,
+wiki/mind/synthesis/ai-collaborative-analysis.md, wiki/people/annie-ulmer.md,
+and wiki/mind/concepts/contact-gini.md (5 typed connections + inverses),
+and wiki/work/tech/index.md. Gates: 0 errors.
+
+## [2026-07-20] ingest+correction | self/mind | fresh YouTube Takeout export -- multi-account caveat found and applied
+Operator found a new Google Takeout export in Drive (created today,
+890MB, too large for this session's download tooling) and supplied the
+watch-history.html directly after unzipping it locally. Filed to
+raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2026-07-20).html
+(19MB, extends real coverage to 2026-07-20, ~1 year past the old export's
+Jul 25 2025 cutoff). Verified re-parse found 14.1% of the OLD export's
+"Watched" entries are Google Ads impressions, never previously broken out
+from real content in this page's published counts. Initially flagged (in
+error) a ~100-day near-zero-real-watch window, Nov 8 2025-Feb 15 2026, as
+a candidate contradiction of intake-constancy.md's flat-rate thesis --
+**operator corrected this directly and immediately**: this Google login
+has multiple YouTube accounts, he was using a different one during that
+window, and true daily watch volume is confirmed higher than either the
+existing 11.58/day figure or this session's ad-filtered 9.53/day
+recomputation. Both figures downgraded from "verified constant" to
+"single-account lower bound" on intake-constancy.md (inline flag in the
+Two Constants section + expanded Gaps entry with the correction recorded
+in full) and on youtube-watch-history.md (REVISED/operator-correction
+blocks). New "Extended coverage" section added to youtube-watch-history.md:
+the Aug2025-Jul2026 monthly real-vs-ad table, new top channels for the
+window (Breaking Points, LastWeekTonight, Majority Report continuous with
+the existing 2022+ diet; Tor's Cabinet of Curiosities, We're In Hell,
+JREG, STRANGE AEONS, exurb1a, DJ Peach Cobbler new to the corpus), and the
+June-July 2026 finding that apparent high raw volume is 80-96% ad noise,
+real watching comparatively modest. Status changed archived->active
+(page is not under an archive/ dir and is now an actively growing
+dataset). 6 connections added/updated across youtube-watch-history.md,
+intake-constancy.md, and march-2026-terminal-phase.md (with inverse).
+**Lesson: verify a striking data-driven finding with the operator before
+treating it as settled, especially when the corpus's own governing page
+(intake-constancy.md) explicitly names "check for a routing/account
+artifact first" as the required discipline for exactly this situation.**
+Gates: 0 errors.
+
+## [2026-07-20] ingest | people/work | Tarik Fallous full per-contact export — REVISED, no-message-corpus claim was wrong
+Filed raw/self/message-csv/imessage_19178259183_both_all_now.csv (80
+messages, Aug 2023-Apr 2026, reliable direction). This directly
+contradicts the page's prior claim that "no direct message thread exists"
+for Tarik — REVISED block applied. tarik-fallous.md substantially
+rewritten with a new Direct Correspondence section: employment-logistics
+texture not documented elsewhere (grocery-run errands on Tarik's own
+Barclays card, two verbatim wine/liquor inventory counts, hiring-interview
+coordination, a Dec 2023 payroll dispute, 5 sick-day call-outs, an Arabic
+wedding-congratulations exchange) plus a genuinely new post-termination
+finding: Dan kept passing Tarik informal workplace "CIA agent" intel 13
+days after filing for unemployment, and the two remained in warm, openly
+political contact through Apr 12 2026 (Lebanon-conflict solidarity
+messages, Sep 2024 and Apr 2026) - nearly two years after the job ended.
+Five new unresolved names surfaced: Modi, MD, Patricia, Khalid, Hani.
+Status changed closed->active (relationship is ongoing, not closed with
+the employment). Converted related: to typed connections: (4 edges +
+inverses on au-zaatar.md and ismaila-barry.md); au-zaatar.md gained a
+corroborating sentence on the de facto-manager role. Gates: 0 errors.

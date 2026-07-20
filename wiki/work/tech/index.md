@@ -17,6 +17,7 @@ Personal technology projects: agent tooling, message-forensics pipelines, and re
 - [[wiki/work/tech/max-framework/overview]] (MAX adversarial output; CATO forensic exocortex; Grok hybrid; tables for architecture/use cases/sources)
 - [[wiki/work/tech/imessage-tooling/overview]] (chat.db extraction, Electron app, py exporters, csv to wiki ingest; SQL examples, 97k volume baseline; Full Disk)
 - [[wiki/work/tech/mneme/overview]] (April 2026 product spec for a five-layer personal-context extraction platform — the same "extract once, stop re-deriving" thesis this wiki itself runs on)
+- [[wiki/work/tech/danmodel]] (a working ML pipeline — not just a spec — that extracts 39,378 stimulus-response pairs from Dan's own texts and tries to generate + blind-test an AI clone of his voice; whether the blind eval ever completed is unknown)
 
 ## Purpose Summary Table
 | Project | Primary Purpose | Key Sources |

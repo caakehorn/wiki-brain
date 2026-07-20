@@ -130,6 +130,9 @@ connections:
   - page: wiki/timeline/periods/feb-apr-2025-return-and-rupture
     type: evidences
     claim: "Annie's unilateral move to her parents' house rather than accepting Dan's open-ended offer to fund an apartment anywhere she chose is the first concrete post-affair decision-making asymmetry in the corpus, predating the terminal-phase asymmetry by roughly eight months."
+  - page: wiki/work/tech/danmodel
+    type: evidenced-by
+    claim: "Annie (early) alone accounts for 40% of the 39,378 stimulus-response pairs DANMODEL extracted from Dan's full message corpus — a mechanical, independently-derived confirmation of her centrality."
 ---
 
 

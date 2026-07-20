@@ -44,6 +44,9 @@ connections:
   - page: wiki/mind/synthesis/spatial-behavior
     type: parallels
     claim: "Both are quantitative cuts of the same underlying life converging on the same shape: extreme concentration around a small number of anchors (physical: home/work; social: a handful of contacts) punctuated by rare, decisive ruptures."
+  - page: wiki/work/tech/danmodel
+    type: evidenced-by
+    claim: "DANMODEL's independent extraction (39,378 reaction pairs, not raw messages) reproduces the same extreme concentration in a different unit: 40% of all pairs belong to Annie (early) alone."
 ---
 
 

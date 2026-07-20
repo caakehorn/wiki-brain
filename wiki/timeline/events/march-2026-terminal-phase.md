@@ -5,7 +5,7 @@ title: "March 2026 — The Terminal Phase Peak"
 importance: high
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-18
+date_modified: 2026-07-20
 date_range_start: 2026-03-01
 date_range_end: 2026-03-16
 sources:
@@ -29,6 +29,9 @@ connections:
   - page: wiki/mind/synthesis/block-unblock-loop
     type: component-of
     claim: "The March 19-20 fight is the loop's bidirectional exhibit: Annie threatens exposure, blocks, unblocks to send final lines, and blocks again — the operation is the bond's shared negotiating grammar, not Dan's private defect."
+  - page: wiki/self/youtube-watch-history
+    type: co-occurs
+    claim: "A near-total gap in one YouTube account's real watch activity runs Nov 2025-Feb 2026, immediately preceding this fortnight — later clarified as a multi-account coverage limitation rather than a documented behavioral response to the crisis, but the temporal proximity was the reason it was checked at all."
 ---
 
 # March 2026 — The Terminal Phase Peak

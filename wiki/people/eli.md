@@ -4,7 +4,7 @@ page_type: entity
 title: "Eli"
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 sources:
   - raw/self/dox-md/The-Eli-incident-investigation.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -13,6 +13,8 @@ sources:
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
+  - raw/self/message-csv/imessages_2124702449_last6months.csv
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/eli-incident
@@ -56,9 +58,13 @@ The record's role-name for him: "Patient Zero."
 Two documented acts, both mediated through Annie's phone. On the discovery
 night — January 9, 2025 — Annie was found unconscious in her building lobby
 with him, ~80 minutes after a shift five minutes' walk away, her location
-sharing turned off; it was Eli who texted at 11:18 PM with the preemptive
-benign framing: "Hey Dan. It's Eli. Annie is down stairs. I work with her.
-She and Andrea had drinks at work but I guess they didn't eat." The final
+sharing turned off; it was Eli who texted, in six rapid-fire messages
+starting at 11:18 PM, with the preemptive benign framing: "Hey Dan. It's
+Eli. Annie is down stairs. I work with her. She and Andrea had drinks at
+work but u guess they didn't eat." (Primary-confirmed 2026-07-20 — see
+[[wiki/timeline/events/eli-incident]] for the full minute-by-minute
+sequence, including Dan's own real-time reply, "Who are you?", sent
+between Eli's third and fourth messages.) The final
 dossiers add the structural finding: the couple's 2018 non-monogamy
 arrangement (Dan arranging, Dan present) makes Eli a violation of the
 framework, not an exercise of it — secret, unsanctioned, "exactly what Dan

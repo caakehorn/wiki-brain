@@ -4,7 +4,7 @@ page_type: concept
 title: "MNEME — Personal Memory Corpus Platform"
 status: stub
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-20
 sources:
   - raw/self/dox-md/MNEME_BUILDKIT_v02.md
 related:
@@ -12,6 +12,7 @@ related:
   - wiki/work/tech/max-framework/overview
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/concepts/exocortex
+  - wiki/work/tech/danmodel
 tags: [ai-collaboration]
 ---
 
