@@ -31,6 +31,7 @@ changelog:
   - date: 2026-07-11
     note: "Data audit: burst-event misattribution fixed, financial amendments folded in"
 sources:
+  - raw/self/message-csv/imessage_export_17245629389_both_all_now.csv
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
@@ -87,6 +88,9 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/people/bekah-fullem
+    type: evidences
+    claim: "Dan's March 2020 disclosure to Bekah — that Annie is herself a rape survivor with a 45-year sentence for the assailant — is the only source for this fact anywhere in the corpus; unverified independently."
   - page: wiki/mind/concepts/node-locking
     type: evidenced-by
     claim: "The master node set Dan locks across AI sessions — the Loop, the Signals, Separation Logistics — is his own curated minimal model of this relationship's collapse, evidence of which facts he treated as load-bearing."
@@ -193,6 +197,17 @@ caretaking obligation that later doubled as her most-used alibi), a sister
 for, and the dog [[wiki/people/milo|Milo]], a fixture of the NYC domestic
 record — Claire is
 the one who first found Milo as a starving stray in her neighborhood.
+
+A single, undated-elsewhere data point on Annie's history before Dan:
+in a March 29, 2020 message comforting [[wiki/people/bekah-fullem|Bekah
+Fullem]] through her own rape disclosure, Dan states that Annie is
+herself a rape survivor — that it took her years to report it, that the
+trial was "super painful and full of ptsd moments," and that the
+assailant, "a serial rapist," received a 45-year sentence. This is
+sourced only to Dan's own secondhand account, offered in the context of
+supporting a third party, and has no independent corroboration anywhere
+else in the corpus — treat as a real but unverified claim pending a
+primary source or a more direct account.
 
 The early record is unambiguous about the love being real. On day three
 of the documented corpus (Nov 29, 2015) she wrote "YOU ARE MY EVERYTHING"
