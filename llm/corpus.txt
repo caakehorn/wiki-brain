@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-340 pages, ~474,480 tokens.
+340 pages, ~475,193 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -4640,6 +4640,9 @@ connections:
   - page: wiki/mind/concepts/attachment-model
     type: mirrors
     claim: "The conflict engine demands resolution while the attachment model cannot issue severance — mutually amplifying architectures with no shared halt condition, recorded in this page's paired CONTRADICTION blocks."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: mirrors
+    claim: "The conflict engine demands resolution while the trauma bond's attachment side cannot issue severance — the same structural collision as with attachment-model, documented here in its central relationship case."
   - page: wiki/mind/concepts/phenomenology-lens
     type: parallels
     claim: "The lens's self-sabotage loop (insight → rupture → more insight) is the interpretive-register rendering of this engine's no-halt-condition mechanics — same machine, metaphorical language."
@@ -5242,6 +5245,12 @@ connections:
   - page: wiki/mind/synthesis/political-psyops
     type: instantiates
     claim: "The J6 analysis is the method applied to a public event; same anomaly-detection engine, different corpus."
+  - page: wiki/work/tech/max-framework/overview
+    type: contains
+    claim: "CATO's evidence-first, no-sycophancy, glyph-enforced operating mode is the forensic-method cognitive OS deliberately pasted into an AI session as a standing configuration, rather than left as a default disposition."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: instantiates
+    claim: "The Annie decade's evidentiary reconstruction — message counts, dated patterns, the confession trap — is the forensic method applied to the corpus's highest-stakes relationship."
 ---
 
 
@@ -8194,12 +8203,21 @@ connections:
   - page: wiki/people/eli
     type: evidenced-by
     claim: "The Eli incident is where the weaponized-ambiguity mechanism is most visible: obvious data patterns met with DARVO shutdowns during acute attachment activation."
+  - page: wiki/timeline/events/eli-incident
+    type: evidenced-by
+    claim: "The dated event record — the concealed relationship, the discovery, the DARVO response to Dan's own accurate observations — is the primary case this page's weaponized-ambiguity mechanism is built from."
   - page: wiki/work/au-zaatar
     type: co-occurs
     claim: "The 2024 sole-earner rotation followed Dan's involuntary exit from Au Za'atar — one turn of the leverage see-saw that kept both parties unfree to leave in the same window."
   - page: wiki/mind/concepts/attachment-model
     type: instance-of
     claim: "The Annie bond is the model's central case: 127 exit declarations, 110 re-engagements, the anxious-avoidant trap running as designed."
+  - page: wiki/mind/concepts/forensic-method
+    type: instance-of
+    claim: "The Annie decade's evidentiary reconstruction — message counts, dated patterns, the confession trap — is the forensic method applied to the corpus's highest-stakes relationship."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: mirrors
+    claim: "The conflict engine demands resolution while the trauma bond's attachment side cannot issue severance — mutually amplifying architectures with no shared halt condition."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: contains
     claim: "The switch is the bond's origin term; first activation on an uncalibrated substrate."
@@ -8220,7 +8238,7 @@ The ten-year relationship between Dan and [[wiki/people/annie-ulmer|Annie]], spa
 
 By 2025, the relationship had structurally collapsed, yet it continued to run on the momentum of a classic anxious-avoidant pursuit-withdrawal trap. Dan exhibited hyper-vigilant monitoring—using GPS location sharing as a proxy for trust—and responded to silence with long emotional appeals and demands for clarity. In contrast, Annie utilized stonewalling, vague declarations of scattered affection, and denial gaslighting. 
 
-A central mechanism of the bond was the weaponization of ambiguity. The dynamic systematically undermined Dan's perception of reality while his attachment system was in a state of acute activation. This was most visible during the [[wiki/people/eli|Eli]] incident, which constituted the central moral harm of the relationship. During this period, obvious patterns in the data—such as late nights and deactivated location tracking—were met with DARVO-style (Deny, Attack, and Reverse Victim and Offender) shutdowns. 
+A central mechanism of the bond was the weaponization of ambiguity. The dynamic systematically undermined Dan's perception of reality while his attachment system was in a state of acute activation. This was most visible during the [[wiki/timeline/events/eli-incident|Eli incident]], which constituted the central moral harm of the relationship. During this period, obvious patterns in the data—such as late nights and deactivated location tracking—were met with DARVO-style (Deny, Attack, and Reverse Victim and Offender) shutdowns. 
 
 Within this architecture, the concept of "unconditional love" was functionally inverted. It operated as a self-abandonment script, framing the endurance of betrayal and ambiguity as a moral virtue. Dan's persistence through more than 127 documented conflict cycles was enabled by this script, justifying the tolerance of systemic harm. Meanwhile, the intermittent reinforcement—providing just enough affection or apologies to keep hope alive while taking actions that indicated a withdrawal—served as the most powerful psychological hook.
 
@@ -9657,6 +9675,9 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: instance-of
     claim: "The J6 method is the vertical-skepticism architecture applied at state scale."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "The totality's 'Political Intensity and Structural Decay' section states in brief what this page argues in full: the post-partisan, both-parties-captured diagnosis and the ruthless focus on procedural mechanics over tribal loyalty."
 ---
 
 
@@ -10098,6 +10119,9 @@ connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: contains
     claim: "The music-as-authentic-thread section states in brief what the four-mode thesis argues in full: the self-assembling channel."
+  - page: wiki/mind/synthesis/political-psyops
+    type: contains
+    claim: "The 'Political Intensity and Structural Decay' section states in brief what the psyops page argues in full: the post-partisan, both-parties-captured diagnosis and the focus on procedural mechanics over tribal loyalty."
   - page: wiki/mind/concepts/conflict-architecture
     type: contains
     claim: "The LLM-venue section reads the conflict architecture against the AI channel — the recursion winning the bandwidth war."
@@ -28748,6 +28772,9 @@ connections:
   - page: wiki/mind/concepts/conflict-architecture
     type: evidences
     claim: "The affair put the conflict engine in its worst documented mode — accurate forensic detection reframed as paranoia by the person deceiving it, the machine's correct outputs weaponized against its operator."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: evidences
+    claim: "This is the primary case the page's weaponized-ambiguity mechanism is built from — obvious data patterns met with DARVO shutdowns during acute attachment activation."
 ---
 
 
@@ -32128,6 +32155,10 @@ date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-md/CATO_conflict_architecture.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_13.md", "log.md", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/chats/*"]
 related: ["wiki/mind/concepts/exocortex", "wiki/mind/concepts/conflict-architecture", "wiki/self/context-core", "wiki/work/tech/grok-build/overview", "wiki/work/tech/imessage-tooling/overview", "wiki/people/max", "wiki/people/mary-kate", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/timeline/periods/2025-collapse", "wiki/work/bfs-foods"]
+connections:
+  - page: wiki/mind/concepts/forensic-method
+    type: instance-of
+    claim: "CATO's evidence-first, no-sycophancy, glyph-enforced operating mode is the forensic-method cognitive OS deliberately pasted into an AI session as a standing configuration, rather than left as a default disposition."
 tags: [ai-collaboration, forensic-analysis, digital-footprint, politics, personality-profile]
 ---
 

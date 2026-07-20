@@ -33,6 +33,9 @@ connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: contains
     claim: "The music-as-authentic-thread section states in brief what the four-mode thesis argues in full: the self-assembling channel."
+  - page: wiki/mind/synthesis/political-psyops
+    type: contains
+    claim: "The 'Political Intensity and Structural Decay' section states in brief what the psyops page argues in full: the post-partisan, both-parties-captured diagnosis and the focus on procedural mechanics over tribal loyalty."
   - page: wiki/mind/concepts/conflict-architecture
     type: contains
     claim: "The LLM-venue section reads the conflict architecture against the AI channel — the recursion winning the bandwidth war."

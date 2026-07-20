@@ -31,6 +31,12 @@ connections:
   - page: wiki/mind/synthesis/political-psyops
     type: instantiates
     claim: "The J6 analysis is the method applied to a public event; same anomaly-detection engine, different corpus."
+  - page: wiki/work/tech/max-framework/overview
+    type: contains
+    claim: "CATO's evidence-first, no-sycophancy, glyph-enforced operating mode is the forensic-method cognitive OS deliberately pasted into an AI session as a standing configuration, rather than left as a default disposition."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: instantiates
+    claim: "The Annie decade's evidentiary reconstruction — message counts, dated patterns, the confession trap — is the forensic method applied to the corpus's highest-stakes relationship."
 ---
 
 

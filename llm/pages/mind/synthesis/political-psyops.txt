@@ -28,6 +28,9 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: instance-of
     claim: "The J6 method is the vertical-skepticism architecture applied at state scale."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "The totality's 'Political Intensity and Structural Decay' section states in brief what this page argues in full: the post-partisan, both-parties-captured diagnosis and the ruthless focus on procedural mechanics over tribal loyalty."
 ---
 
 

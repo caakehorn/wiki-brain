@@ -31,12 +31,21 @@ connections:
   - page: wiki/people/eli
     type: evidenced-by
     claim: "The Eli incident is where the weaponized-ambiguity mechanism is most visible: obvious data patterns met with DARVO shutdowns during acute attachment activation."
+  - page: wiki/timeline/events/eli-incident
+    type: evidenced-by
+    claim: "The dated event record — the concealed relationship, the discovery, the DARVO response to Dan's own accurate observations — is the primary case this page's weaponized-ambiguity mechanism is built from."
   - page: wiki/work/au-zaatar
     type: co-occurs
     claim: "The 2024 sole-earner rotation followed Dan's involuntary exit from Au Za'atar — one turn of the leverage see-saw that kept both parties unfree to leave in the same window."
   - page: wiki/mind/concepts/attachment-model
     type: instance-of
     claim: "The Annie bond is the model's central case: 127 exit declarations, 110 re-engagements, the anxious-avoidant trap running as designed."
+  - page: wiki/mind/concepts/forensic-method
+    type: instance-of
+    claim: "The Annie decade's evidentiary reconstruction — message counts, dated patterns, the confession trap — is the forensic method applied to the corpus's highest-stakes relationship."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: mirrors
+    claim: "The conflict engine demands resolution while the trauma bond's attachment side cannot issue severance — mutually amplifying architectures with no shared halt condition."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: contains
     claim: "The switch is the bond's origin term; first activation on an uncalibrated substrate."
@@ -57,7 +66,7 @@ The ten-year relationship between Dan and [[wiki/people/annie-ulmer|Annie]], spa
 
 By 2025, the relationship had structurally collapsed, yet it continued to run on the momentum of a classic anxious-avoidant pursuit-withdrawal trap. Dan exhibited hyper-vigilant monitoring—using GPS location sharing as a proxy for trust—and responded to silence with long emotional appeals and demands for clarity. In contrast, Annie utilized stonewalling, vague declarations of scattered affection, and denial gaslighting. 
 
-A central mechanism of the bond was the weaponization of ambiguity. The dynamic systematically undermined Dan's perception of reality while his attachment system was in a state of acute activation. This was most visible during the [[wiki/people/eli|Eli]] incident, which constituted the central moral harm of the relationship. During this period, obvious patterns in the data—such as late nights and deactivated location tracking—were met with DARVO-style (Deny, Attack, and Reverse Victim and Offender) shutdowns. 
+A central mechanism of the bond was the weaponization of ambiguity. The dynamic systematically undermined Dan's perception of reality while his attachment system was in a state of acute activation. This was most visible during the [[wiki/timeline/events/eli-incident|Eli incident]], which constituted the central moral harm of the relationship. During this period, obvious patterns in the data—such as late nights and deactivated location tracking—were met with DARVO-style (Deny, Attack, and Reverse Victim and Offender) shutdowns. 
 
 Within this architecture, the concept of "unconditional love" was functionally inverted. It operated as a self-abandonment script, framing the endurance of betrayal and ambiguity as a moral virtue. Dan's persistence through more than 127 documented conflict cycles was enabled by this script, justifying the tolerance of systemic harm. Meanwhile, the intermittent reinforcement—providing just enough affection or apologies to keep hope alive while taking actions that indicated a withdrawal—served as the most powerful psychological hook.
 

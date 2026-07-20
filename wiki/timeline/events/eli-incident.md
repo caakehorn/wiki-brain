@@ -39,6 +39,9 @@ connections:
   - page: wiki/mind/concepts/conflict-architecture
     type: evidences
     claim: "The affair put the conflict engine in its worst documented mode — accurate forensic detection reframed as paranoia by the person deceiving it, the machine's correct outputs weaponized against its operator."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: evidences
+    claim: "This is the primary case the page's weaponized-ambiguity mechanism is built from — obvious data patterns met with DARVO shutdowns during acute attachment activation."
 ---
 
 
