@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 332,
+ "page_count": 333,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -549,7 +549,7 @@
    "title": "The 2020 Left Turn",
    "summary": "Dan's politics did not arrive gradually. There is a documented inflection \u2014 the COVID lockdown of 2020 \u2014 where a Bernie-curious liberal became a self-identif...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/2020-left-turn.txt",
-   "bytes": 7406
+   "bytes": 7787
   },
   {
    "page": "wiki/mind/synthesis/ai-collaborative-analysis.md",
@@ -1291,7 +1291,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 18339
+   "bytes": 18479
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1712,6 +1712,13 @@
    "summary": "Childhood/early peer. Core figure in the \"Snob Squad\" developmental arc.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ryan-lisac.txt",
    "bytes": 1432
+  },
+  {
+   "page": "wiki/people/ryan-scherich.md",
+   "title": "Ryan Scherich",
+   "summary": "Ryan Scherich is a barely-known acquaintance (\"i barely fucking know you\") with whom Dan has a single, self-contained political flame war on February 8, 2020...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ryan-scherich.txt",
+   "bytes": 2639
   },
   {
    "page": "wiki/people/sadie-harris.md",
