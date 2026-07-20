@@ -15,7 +15,7 @@ infobox:
 connections:
   - page: wiki/people/jerad-friedline
     type: parallels
-    claim: "Josh Brannan is a shared Uniontown reference point in the Jerad thread — the 'josh brannan is innocent.wav' TTS artifact Jerad and Dan traded in 2025 draws on an eighth-grade memory involving Josh, told in full on jerad-friedline.md."
+    claim: "Josh Brannan is a shared Uniontown reference point in the Jerad thread — the 'josh brannan is innocent.wav' TTS artifact Jerad and Dan traded in 2025 draws on an eighth-grade memory involving Josh, told in full on [[wiki/people/jerad-friedline]]."
 ---
 
 # Josh Brannan

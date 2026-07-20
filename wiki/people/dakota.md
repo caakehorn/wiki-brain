@@ -16,7 +16,7 @@ infobox:
 connections:
   - page: wiki/work/bfs-foods
     type: evidenced-by
-    claim: "Dakota is the first, hearsay disclosure channel for the Timmy blame-pivot pattern that bfs-foods.md documents in full as 'the pattern template' for Anita's operational conduct."
+    claim: "Dakota is the first, hearsay disclosure channel for the Timmy blame-pivot pattern that [[wiki/work/bfs-foods]] documents in full as 'the pattern template' for Anita's operational conduct."
   - page: wiki/people/maddox
     type: parallels
     claim: "Maddox's unprompted, first-person account during the May 21, 2026 sidewalk recording independently corroborates the same blame-pivot sequence Dakota disclosed to Dan earlier."
@@ -24,10 +24,10 @@ connections:
 
 # Dakota
 
-Dakota is a Little Caesars employee, part of [[wiki/people/timmy|Timmy]]'s
-friend group at the BFS Foods building, and the first person to tell
-Dan that [[wiki/people/anita|Anita]] had pivoted blame for Timmy's
-firing onto him. No direct quotes from Dakota are preserved in the
+Dakota is a Little Caesars employee at the BFS Foods building and a
+member of [[wiki/people/timmy|Timmy]]'s friend group. He was the first
+person to tell Dan that [[wiki/people/anita|Anita]] had pivoted blame
+for Timmy's firing onto him. No direct quotes from Dakota are preserved in the
 corpus — the disclosure is hearsay, relayed informally rather than
 through a documented message thread — but the bootloader synthesis
 treats it as credible, and it was independently corroborated weeks

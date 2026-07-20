@@ -24,12 +24,12 @@ connections:
 
 # Maddox
 
-Maddox is a Little Caesars employee at the BFS Foods building who
-joined a sidewalk conversation between Dan and
-[[wiki/people/brandon-hill|Brandon Hill]] on May 21, 2026 — unsolicited
-and apparently just passing by — and ended up delivering the corpus's
-fullest first-person account of how [[wiki/people/anita|Anita]]
-constructed and pivoted blame during the Timmy episode (told in full on
+Maddox is a Little Caesars employee at the BFS Foods building. On May
+21, 2026, he joined a sidewalk conversation between Dan and
+[[wiki/people/brandon-hill|Brandon Hill]] — unsolicited and apparently
+just passing by — and ended up delivering the corpus's fullest
+first-person account of how [[wiki/people/anita|Anita]] constructed and
+pivoted blame during the Timmy episode (told in full on
 [[wiki/work/bfs-foods]]). Maddox opens with an unprompted character
 read — "She's always making shit so crazy and dramatic over there I
 don't get it" — then reconstructs the sequence in real time: "It wasn't

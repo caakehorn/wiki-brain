@@ -38,7 +38,7 @@ related: []
 - [[wiki/people/christo-coan]] — Nemacolin-era golf-course coworker; co-organized Dan's Oct 2017 birthday party; passing reference to an undocumented DUI.
 - [[wiki/people/claire-ulmer]] — Annie's sister; found Milo as a stray and set his rescue in motion.
 - [[wiki/people/clyde]] — NYC psychedelics dealer (LSD, DMT, mushrooms) delivering to Dan's apartment, 2019-2020.
-- [[wiki/people/dakota]] — Little Caesars employee; first to disclose Anita's blame-pivot naming Dan for Timmy's firing (see bfs-foods).
+- [[wiki/people/dakota]] — Little Caesars employee; first to disclose Anita's blame-pivot naming Dan for Timmy's firing (see [[wiki/work/bfs-foods|bfs-foods]]).
 - [[wiki/people/danielle-onesi]] — Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort).…
 - [[wiki/people/dan-polyak]] — Longtime friend; documented the April 2019 phone-number impersonation used to reach Ally Lubin, and received the same-morning account of the Bryan encounter.
 - [[wiki/people/danny-matthews]] — Realtor who sold Fran's house; also half of a swinger couple (with Nicole) Dan and Annie played with 2018–2024.
@@ -96,7 +96,7 @@ related: []
 - [[wiki/people/lucas-thomas]] — Zac Shumar's friend; independent real-time eyewitness to the February 2017 house fire and arrest that sent Alexis Armel to prison.
 - [[wiki/people/lucie-dobbin]] — Longtime friend of Fran Coldren; recipient of Dan's fullest first-person account of Fran's death.
 - [[wiki/people/lukyan-mraz]] — Uniontown friend and short-lived 2015 cannabis-grow collaborator; ends in a March 2016 equipment dispute.
-- [[wiki/people/maddox]] — Little Caesars employee whose unprompted sidewalk testimony confirms Anita's Timmy blame-pivot (see bfs-foods).
+- [[wiki/people/maddox]] — Little Caesars employee whose unprompted sidewalk testimony confirms Anita's Timmy blame-pivot (see [[wiki/work/bfs-foods|bfs-foods]]).
 - [[wiki/people/manuel]] — Au Za'atar coworker turned lasting friend, 2023-2026; Spanish-language banter.
 - [[wiki/people/marc-charles]]
 - [[wiki/people/marla]] — Paid caregiver on Fran's shift rotation; her messages corroborate the April 4, 2018 death date.

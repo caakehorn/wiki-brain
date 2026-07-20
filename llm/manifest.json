@@ -1142,9 +1142,9 @@
   {
    "page": "wiki/people/dakota.md",
    "title": "Dakota",
-   "summary": "Dakota is a Little Caesars employee, part of [[wiki/people/timmy|Timmy]]'s friend group at the BFS Foods building, and the first person to tell Dan that [[wi...",
+   "summary": "Dakota is a Little Caesars employee at the BFS Foods building and a member of [[wiki/people/timmy|Timmy]]'s friend group. He was the first person to tell Dan...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/dakota.txt",
-   "bytes": 2057
+   "bytes": 2078
   },
   {
    "page": "wiki/people/dan-polyak.md",
@@ -1305,7 +1305,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 18698
+   "bytes": 18746
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1459,7 +1459,7 @@
    "title": "Josh Brannan",
    "summary": "Josh Brannan is a Uniontown-era friend Dan reconnects with directly once in the preserved corpus \u2014 a single warm, joking Facebook exchange on February 27, 20...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/josh-brannan.txt",
-   "bytes": 3384
+   "bytes": 3397
   },
   {
    "page": "wiki/people/josh-coccagna.md",
@@ -1555,9 +1555,9 @@
   {
    "page": "wiki/people/maddox.md",
    "title": "Maddox",
-   "summary": "Maddox is a Little Caesars employee at the BFS Foods building who joined a sidewalk conversation between Dan and",
+   "summary": "Maddox is a Little Caesars employee at the BFS Foods building. On May 21, 2026, he joined a sidewalk conversation between Dan and",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/maddox.txt",
-   "bytes": 2508
+   "bytes": 2509
   },
   {
    "page": "wiki/people/manuel.md",
@@ -1569,9 +1569,9 @@
   {
    "page": "wiki/people/marc-charles.md",
    "title": "Marc Charles",
-   "summary": "**Role:** Golf friend from amateur circles (PA/local club). Discussed club tech (Franko customs, Taylormade), scores (90s to 85s), practice vs. fun mindset, ...",
+   "summary": "Marc Charles is a longtime, low-intensity Facebook contact who spans two distinct registers: casual golf talk in 2018 and a warmer, more personal 2017 exchan...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/marc-charles.txt",
-   "bytes": 4930
+   "bytes": 2564
   },
   {
    "page": "wiki/people/marla.md",
@@ -1583,9 +1583,9 @@
   {
    "page": "wiki/people/marty-martin.md",
    "title": "Marty Martin",
-   "summary": "**Role:** BFS Foods gas station coworker (~6 months tenure as of May 2026). Dan's primary trusted source and designated intelligence asset only. Provided key...",
+   "summary": "Marty Martin is a BFS Foods gas-station coworker, roughly six months into the job by May 2026, whom the bootloader synthesis names Dan's primary trusted sour...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/marty-martin.txt",
-   "bytes": 7627
+   "bytes": 4094
   },
   {
    "page": "wiki/people/mary-kate.md",
@@ -1610,10 +1610,10 @@
   },
   {
    "page": "wiki/people/max-danielle-bf.md",
-   "title": "Max (Danielle's BF / \"the Dude\", Music Guy)",
-   "summary": "**Identity:** Current boyfriend of Dan's first girlfriend Danielle (pre-Lex era, Uniontown/NYC context). \"The most wild dude I've ever met\" who \"knows more a...",
+   "title": "Max (Danielle's Boyfriend)",
+   "summary": "Max is the current boyfriend of Danielle, Dan's first girlfriend from the pre-Alexis Uniontown era, encountered well after that relationship had ended. Dan's...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/max-danielle-bf.txt",
-   "bytes": 7120
+   "bytes": 3552
   },
   {
    "page": "wiki/people/max.md",
@@ -1639,9 +1639,9 @@
   {
    "page": "wiki/people/michael-hinkle.md",
    "title": "Michael Hinkle",
-   "summary": "**Role:** FB contact with dedicated message thread. Part of social network graph from inbox data.",
+   "summary": "Michael Hinkle is a Facebook contact with no documented reply anywhere in the corpus. The entire thread is three consecutive messages Dan sends on July 14, 2...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/michael-hinkle.txt",
-   "bytes": 913
+   "bytes": 1209
   },
   {
    "page": "wiki/people/mike-cordaro.md",
