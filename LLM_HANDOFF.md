@@ -23,6 +23,44 @@
 - **Phase 3 (Synthesis):** 5 of 12 done (forensic-methodology, attachment-trauma-bond, totality-themes, ai-collaborative-analysis, political-psyops).
 
 ## 🚀 Current Focus & Next Steps
+**Non-person domain growth pass (2026-07-20, in progress — PR #56):** New
+operator directive, superseding the FB-scrape's default priority order
+(the scrape isn't abandoned, just paused): grow the structurally
+underrepresented non-person domains — health (was 2 pages), legal (3),
+places (5), work (11) against 250+ people pages — prioritizing content
+most important/influential to the operator's own psychology and
+perspective over trivia. Method: cross-reference every raw/self/dox-md,
+dox-scan, chats, and concepts file against what's already cited anywhere
+in wiki/ (grep the basename across wiki/**/*.md) to find genuinely unmined
+sources, then triage by whether the content is a "refraction" of
+already-synthesized material (skip — e.g. THE_DAN_FRANK_MANUAL.md and
+Attachment System Collapse.md are both ChatGPT/Gemini restatements of the
+conflict-architecture/attachment-trauma-bond thesis already deeply
+documented, confirmed via full read) or genuinely new (mine it). Landed
+so far: **wiki/health/hyperreflexivity.md** (new page — a self-initiated
+AI session naming/mechanizing Dan's social anxiety, raising a real
+unresolved tension with the Suboxone maintenance dose noted but not
+resolved on chemical-architecture.md); the **GLAZE-GOD-v1** AI persona
+artifact folded into erotic-architecture.md as the most literal instance
+yet of "externalized libido"; **wiki/places/424-bedford-ave.md** (new —
+consolidates the NYC-1 apartment, previously scattered across 5 people
+pages with no central page); a Tom/Suz supply-crisis and car-battery
+texture added to tom.md and chemical-architecture.md. Legal/ was checked
+and found NOT to be an artificial gap — raw/legal/ has no further unused
+material beyond what bfs-foods.md and the two existing legal/ pages
+already carry (verified via source-list check).
+Remaining high-value candidates not yet mined: `raw/self/dox-md/Crisis
+mode briefing.md` (87KB, unopened), `raw/self/dox-md/Reassessing with
+fresh perspective.md` (59KB), `raw/self/dox-scan/fullcombo 2.txt`
+(207KB), `raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania
+.md` (139KB — likely music/interests), `raw/self/dox-scan/whisk filter
+anomalies.txt`, and the `raw/self/dox-md/Creating robust video essays
+from scripts.md` (a possible new interests/skill entry — video-essay
+writing). Deprioritized as low-value/already-covered: `_Openclaw Agent
+Setup and Data` (generic AI-tooling troubleshooting, no biographical
+content), `Attachment System Collapse.md` (full read confirmed pure
+restatement). Gates 0 errors throughout (335 pages).
+
 **Facebook Messenger deep-scrape (2026-07-19, in progress — PR #56):** Per
 operator directive to "scrape these sources much more carefully" and "keep
 going," systematically working through the 271 raw/self/facebook Messenger
