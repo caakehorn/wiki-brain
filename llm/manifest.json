@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 336,
+ "page_count": 337,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -17,7 +17,7 @@
    "title": "Hyperreflexivity and the Anxiety Loop",
    "summary": "Dan has, at least once, gone looking for a clinical-grade account of his own \"crippling social anxiety\" \u2014 not through a therapist, but by opening an AI chat ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/hyperreflexivity.txt",
-   "bytes": 6690
+   "bytes": 8341
   },
   {
    "page": "wiki/health/index.md",
@@ -388,7 +388,7 @@
    "title": "Attachment Model",
    "summary": "The attachment model details the first documented instance of full attachment-system activation in Dan's history, which occurred during his relationship with...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/attachment-model.txt",
-   "bytes": 10793
+   "bytes": 13323
   },
   {
    "page": "wiki/mind/concepts/conflict-architecture.md",
@@ -570,7 +570,7 @@
    "title": "AI Collaborative Analysis",
    "summary": "Large language models occupy a specific, unusual role in Dan's cognitive life: not conversational companions but external processors \u2014 memory, structuring en...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/ai-collaborative-analysis.txt",
-   "bytes": 19638
+   "bytes": 20024
   },
   {
    "page": "wiki/mind/synthesis/ancestral-dialectic.md",
@@ -2316,6 +2316,13 @@
    "bytes": 8416
   },
   {
+   "page": "wiki/work/tech/ai-video-essays.md",
+   "title": "AI Video Essays (planned project)",
+   "summary": "A 2026 planning-stage project: Dan wants to make long-form (30-60 minute) video essays about AI, aimed at people who \u2014 like he describes himself \u2014 are \"AI ev...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/tech/ai-video-essays.txt",
+   "bytes": 4924
+  },
+  {
    "page": "wiki/work/tech/grok-build/overview.md",
    "title": "Grok Build",
    "summary": "Grok Build refers to custom agentic / subagent workflows using Grok (xAI) as cognitive prosthetic, parallel to CATO/MAX. Includes specialized \"Grok Build sub...",
@@ -2334,7 +2341,7 @@
    "title": "Tech Index",
    "summary": "Personal technology projects: agent tooling, message-forensics pipelines, and reasoning frameworks.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/tech/index.txt",
-   "bytes": 2028
+   "bytes": 2241
   },
   {
    "page": "wiki/work/tech/max-framework/overview.md",

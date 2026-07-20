@@ -26,6 +26,7 @@ sources:
   - "raw/self/dox-scan/HEART.pdf.txt"
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
   - "raw/self/dox-md/Crisis mode briefing.md"
+  - "raw/self/dox-md/Creating robust video essays from scripts.md"
 connections:
   - page: wiki/mind/concepts/node-locking
     type: evidenced-by
@@ -51,6 +52,9 @@ connections:
   - page: wiki/timeline/events/april-may-2026-final-weeks
     type: instantiates
     claim: "The AI-drafted letter to Suz, which Dan then declines to send in his own voice, is the clearest instance of outsourcing the authorship of vulnerability itself rather than just memory or analysis."
+  - page: wiki/work/tech/ai-video-essays
+    type: evidenced-by
+    claim: "Requesting a data stress-test of his own creative-project hypothesis, then accepting a result that flatly contradicted his premise, is the honesty-enforcement pattern applied to a personal ambition rather than forensic or political material."
 ---
 
 
