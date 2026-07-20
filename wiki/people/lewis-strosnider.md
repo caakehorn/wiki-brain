@@ -9,6 +9,7 @@ date_range_start: 2018-03-30
 date_range_end: 2019-02-08
 sources:
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lewisstrosnider_t431kowlfq/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/matthewpalermo_nkpz90-e_g/message_1.html"
 tags: [uniontown-era, career, digital-footprint]
 infobox:
   name: "Lewis Strosnider"
@@ -21,6 +22,9 @@ connections:
   - page: wiki/mind/synthesis/estate-money-spine
     type: co-occurs
     claim: "Dan's July 2018 message anticipating a 'sizeable check' from the estate 'in a few months' shows the distribution was expected to move far faster than the Sept 1, 2020 date it actually landed on — a documented gap between expectation and outcome."
+  - page: wiki/people/matthew-palermo
+    type: evidenced-by
+    claim: "A Sept 22, 2018 message to Matthew Palermo ('Got the mavic 2 yesterday') independently dates the drone's purchase, one day before the crash/repair saga that runs through this page begins."
 ---
 
 # Lewis Strosnider
@@ -54,8 +58,11 @@ money from the pending [[wiki/mind/synthesis/estate-money-spine|Fran
 estate]] — "in a few months they will wrap up the estate and I'll get
 a pretty sizeable check" — an expectation that, per the estate's own
 documented timeline, was off by more than two years (the actual
-distribution landed September 1, 2020). The drone itself, a DJI Mavic
-2 Dan crashed and paid $800 to repair ($1,600 invested total), becomes
+distribution landed September 1, 2020). The drone itself — purchased
+September 21, 2018, per a separate message to
+[[wiki/people/matthew-palermo|Matthew Palermo]] ("Got the mavic 2
+yesterday") — a DJI Mavic 2 Dan crashed and paid $800 to repair ($1,600
+invested total), becomes
 a running sale negotiation from November 2018 through the thread's
 final message in February 2019, with Lewis increasingly eager ("I want
 it bad...") and Dan noncommittal about price. The sale is still
