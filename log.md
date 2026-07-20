@@ -744,6 +744,41 @@ wiki/mind/synthesis/ai-collaborative-analysis.md, wiki/people/annie-ulmer.md,
 and wiki/mind/concepts/contact-gini.md (5 typed connections + inverses),
 and wiki/work/tech/index.md. Gates: 0 errors.
 
+## [2026-07-20] ingest+correction | self/mind | fresh YouTube Takeout export -- multi-account caveat found and applied
+Operator found a new Google Takeout export in Drive (created today,
+890MB, too large for this session's download tooling) and supplied the
+watch-history.html directly after unzipping it locally. Filed to
+raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2026-07-20).html
+(19MB, extends real coverage to 2026-07-20, ~1 year past the old export's
+Jul 25 2025 cutoff). Verified re-parse found 14.1% of the OLD export's
+"Watched" entries are Google Ads impressions, never previously broken out
+from real content in this page's published counts. Initially flagged (in
+error) a ~100-day near-zero-real-watch window, Nov 8 2025-Feb 15 2026, as
+a candidate contradiction of intake-constancy.md's flat-rate thesis --
+**operator corrected this directly and immediately**: this Google login
+has multiple YouTube accounts, he was using a different one during that
+window, and true daily watch volume is confirmed higher than either the
+existing 11.58/day figure or this session's ad-filtered 9.53/day
+recomputation. Both figures downgraded from "verified constant" to
+"single-account lower bound" on intake-constancy.md (inline flag in the
+Two Constants section + expanded Gaps entry with the correction recorded
+in full) and on youtube-watch-history.md (REVISED/operator-correction
+blocks). New "Extended coverage" section added to youtube-watch-history.md:
+the Aug2025-Jul2026 monthly real-vs-ad table, new top channels for the
+window (Breaking Points, LastWeekTonight, Majority Report continuous with
+the existing 2022+ diet; Tor's Cabinet of Curiosities, We're In Hell,
+JREG, STRANGE AEONS, exurb1a, DJ Peach Cobbler new to the corpus), and the
+June-July 2026 finding that apparent high raw volume is 80-96% ad noise,
+real watching comparatively modest. Status changed archived->active
+(page is not under an archive/ dir and is now an actively growing
+dataset). 6 connections added/updated across youtube-watch-history.md,
+intake-constancy.md, and march-2026-terminal-phase.md (with inverse).
+**Lesson: verify a striking data-driven finding with the operator before
+treating it as settled, especially when the corpus's own governing page
+(intake-constancy.md) explicitly names "check for a routing/account
+artifact first" as the required discipline for exactly this situation.**
+Gates: 0 errors.
+
 ## [2026-07-20] ingest | people/work | Tarik Fallous full per-contact export — REVISED, no-message-corpus claim was wrong
 Filed raw/self/message-csv/imessage_19178259183_both_all_now.csv (80
 messages, Aug 2023-Apr 2026, reliable direction). This directly
