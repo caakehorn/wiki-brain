@@ -38,13 +38,14 @@ An August 2018 exchange has Dan and Joe jointly reconstructing the
 band's full setlist from memory, years later. The covers are a clean
 snapshot of the local hardcore/punk canon they were working from: the
 Misfits ("She," plus the band's own logo song), the Dead Kennedys
-("California Uber Alles"), the Ramones ("Teenage Lobotomy"), and — never
-performed live, "shit that never left your basement" — a CKY song. A
-NOFX cover ("94 Quite Bitter Beings") was deliberately kept off the
-setlist: Dan recalls it would have started a mosh-pit-adjacent
-shopping-cart incident ("everyone would just start running shopping
-carts off curbs") the band wanted to avoid. The originals are otherwise
-unnamed and unrecorded in the corpus.
+("California Uber Alles"), and the Ramones ("Teenage Lobotomy"). Joe
+separately names a CKY track — "94/96 Quite Bitter Beings," per the
+band's 1999 album of the same name — as material that "never left your
+basement": practiced but never performed live, half-jokingly blamed on
+the shopping-cart-stunt culture CKY's own videos made famous ("we
+couldn't play it because everyone would just start running shopping
+carts off curbs"). The originals are otherwise unnamed and unrecorded
+in the corpus.
 
 ## The politics nobody understood at the time
 
@@ -90,7 +91,7 @@ the corpus. No reunion is recorded as having happened.
 |---|---|
 | Members (documented) | Dan (lead songwriter), Joe Oshnack, Matt Turko |
 | Era | High school (pre-2006, per Dan's own "class of 06" graduating-year references elsewhere) |
-| Documented covers | Misfits ("She," logo song), Dead Kennedys ("California Uber Alles"), Ramones ("Teenage Lobotomy"), CKY (rehearsal only); NOFX considered and rejected |
+| Documented covers | Misfits ("She," logo song), Dead Kennedys ("California Uber Alles"), Ramones ("Teenage Lobotomy"); CKY's "94/96 Quite Bitter Beings" (rehearsal only, never performed live) |
 
 **Gaps:** what "BNI" stands for beyond "Batteries Not Included"; any
 original song titles or recordings; whether the band ever played a
