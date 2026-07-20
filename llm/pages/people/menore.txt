@@ -29,6 +29,9 @@ connections:
   - page: wiki/people/sam
     type: parallels
     claim: "Sam ran the parallel NYC cannabis delivery line to the same apartment in 2019–20, and where Menore absorbed Dan's unresponsiveness without friction, Sam fired him for it — the two professionals bracket the tolerance range of the transactional bond."
+  - page: wiki/places/424-bedford-ave
+    type: caused-by
+    claim: "The relationship traces its origin to a Bedford Ave/Williamsburg connection at Dan's first NYC apartment — the introduction predates the earliest message in this thread by over eight years."
 tags: [digital-footprint, addiction-recovery, nyc-era]
 knowledge: earned
 infobox:

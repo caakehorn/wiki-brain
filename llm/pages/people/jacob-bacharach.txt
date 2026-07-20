@@ -4,7 +4,7 @@ page_type: entity
 status: stable
 date_created: 2026-06-22
 date_modified: 2026-07-02
-sources: ["raw/self/dox-md/Gemini-_13.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Jacob Bacharach.md"]
+sources: ["raw/self/dox-md/Gemini-_13.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Jacob Bacharach.md", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joeoshnack_7killpebkw/message_1.html"]
 related: ["wiki/self/chats/gemini-13", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/self/context-core", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/interests/favorites/books"]
 tags: [ai-collaboration, relationships, uniontown-era, nyc-era, addiction-recovery]
 infobox:
@@ -13,6 +13,10 @@ infobox:
   sex: male
   location: nyc
   known_for: "Jacob Bacharach — Uniontown-raised novelist (The Bend of the World, 2014) and Chapo Trap House guest, a childhood neighb"
+connections:
+  - page: wiki/people/joe-oshnack
+    type: evidenced-by
+    claim: "Jan 2, 2022: Dan recommends Bacharach's Uniontown-set novel to Joe Oshnack unprompted, framing him as proof 'not everyone from our hometown turned into a reactionary fascist-adjacent class traitor' — the hometown-vs-politics lens applied to a third person."
 ---
 
 # Jacob Bacharach

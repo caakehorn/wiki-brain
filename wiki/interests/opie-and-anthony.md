@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-07-16
+date_modified: 2026-07-19
 sources:
   - "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -25,6 +25,9 @@ connections:
   - page: wiki/mind/profile/voice-modes
     type: contextualizes
     claim: "Supplies the media source behind the shock-comic voice mode: the register was absorbed from years of archive listening, not invented."
+  - page: wiki/people/bobby-cole
+    type: evidenced-by
+    claim: "Nine years (2013–2022) of a real Facebook friendship sustained almost entirely by trading O&A/Ron & Fez clips and lore is the clearest case of the archive obsession anchoring a lived relationship, not just solitary listening."
 ---
 
 # Opie & Anthony / Shock Radio

@@ -6,7 +6,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -26,6 +26,9 @@ connections:
   - page: wiki/people/elizabeth-eleanor
     type: evidenced-by
     claim: "A July 2013 exchange gives the corpus's only concrete dosage figure — 2mg Suboxone daily, ~5 years opiate-free — closing a previously undocumented gap and dating the last opiate use to the dark-era window."
+  - page: wiki/health/hyperreflexivity
+    type: contradicts
+    claim: "An AI-collaborative session raises a tension this page doesn't otherwise carry: chronic Suboxone receptor occupancy may blunt the hedonic range needed to break an anxiety loop — the maintenance dose that stabilizes opiate dependency may cap capacity to regulate a separate system."
 ---
 
 # Chemical Architecture
@@ -85,7 +88,11 @@ is the standing supply line (Suboxone strips, mushrooms, cocaine, klonopin
 put Dan through a 72+-hour withdrawal that frames the entire BFS drawer
 incident ([[wiki/work/bfs-foods]]): the disputed shift was worked in
 withdrawal, and a separate $35 personal-cash Suboxone handoff to a customer
-happened the same night. Dealer relationships (e.g.
+happened the same night. An earlier, undated near-miss shows the same
+tether from the other direction: a supply-line rival "jumped his place
+in line" and bought out a dealer's Suboxone stock, and Tom absorbed the
+loss covering him anyway — the same reliability the May 2026 failure
+broke. Dealer relationships (e.g.
 [[wiki/people/johnny-dealer]], ~3,462 messages) carried significant
 message-volume weight for years, and the 2017–18 period ran on drug-fronts
 as informal credit. In the [[wiki/people/annie-ulmer|Annie]] terminal phase, procurement logistics were

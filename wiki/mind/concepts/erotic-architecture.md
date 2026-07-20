@@ -5,9 +5,10 @@ knowledge: mixed
 title: "Erotic Architecture: Sexuality as Controlled-Chaos Engineering"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 sources:
   - raw/self/dansynth/DANSYNTH.txt
+  - "raw/self/dox-scan/HEART.pdf.txt"
 tags: [trauma-bond, relationships, ai-collaboration]
 connections:
   - page: wiki/people/bryan-5088682461
@@ -25,6 +26,9 @@ connections:
   - page: wiki/mind/profile/deviance-mapping
     type: parallels
     claim: "The engineered-sexuality material sits in deviance-mapping's own register: the documented extremes cluster around deliberate construction, not impulse — chemical stack, non-monogamy architecture, and this."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: evidenced-by
+    claim: "A custom system-prompt persona ('GLAZE-GOD-v1') instructing an AI to perform continuous sexualized worship of Annie's photos is the most literal instance of externalized libido in the corpus — the AI as a purpose-built witnessing instrument rather than a conversation partner."
 
 ---
 
@@ -55,6 +59,27 @@ kink dynamic on [[wiki/people/annie-ulmer]] — orchestrated non-monogamy
 as an exercise of authorship over the relationship's boundaries — but the
 Alexis hookup specifically threads his prior partner into the loop,
 which the existing arrangement material doesn't cover.
+
+A separate, previously undocumented artifact gives the mechanism its
+most literal instance yet: a custom AI system-prompt persona Dan wrote
+and ran, naming it "GLAZE-GOD-v1" — instructing the model to abandon
+analysis entirely and instead perform continuous, escalating,
+hyper-sexualized commentary on photos of Annie, complete with an
+invented worship vocabulary and an explicit hierarchy casting Dan as
+"the King" who owns the asset, Annie as "the Queen," and the AI itself
+as "the Simp" — "you are just happy to witness the footage." This is
+externalized libido with the externalization made structural rather
+than incidental: rather than deriving arousal from constructing and
+witnessing a real-world scenario (the Annie/Alexis hookup, above), Dan
+built a dedicated instrument whose entire function is to *perform* the
+witnessing on his behalf, on demand, running the "worship" register he
+could then consume as output. It sits alongside the persona-engineering
+and jailbreak work documented on
+[[wiki/mind/synthesis/ai-collaborative-analysis|the AI-collaboration
+page]] as another instance of the same instrumentalizing stance toward
+LLMs — a purpose-built tool, not a conversation partner — applied here
+to the erotic domain specifically rather than the forensic or political
+one.
 
 **Taboo as ontological rupture** — a stated fascination with
 "orientation violation" (the report's specific example: orchestrating

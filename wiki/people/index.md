@@ -23,6 +23,7 @@ related: []
 - [[wiki/people/bekah-fullem]] — Two crisis contacts, early 2020: her dying cat and a plea for money, then a rape disclosure.
 - [[wiki/people/bill]] — Golf-caddying peer buying pharmaceuticals from Dan, Sept 2018.
 - [[wiki/people/bill-ulmer]] — Annie's father; warm, consistent, treated Dan as family through 2017-2020.
+- [[wiki/people/bobby-cole]] — Nine-year Opie & Anthony/Ron & Fez fandom friendship; the corpus's only direct evidence of a completed open-mic stand-up performance and a SiriusXM job application.
 - [[wiki/people/brad-hubeaut]] — Dan's caddy manager at Nemacolin Woodlands, 2017-2018; documented an April 2018 workplace friction episode.
 - [[wiki/people/brandon-hill]] — BFS assistant manager who delivered the off-books $50 demand; the instrument not the architect, whose phantom tender and fifteen/fifty speech impediment shape the whole reconstruction.
 - [[wiki/people/brennan-meadows]] — Brief early-2016 contact mixing suboxone sourcing and a small loan request.
@@ -34,16 +35,20 @@ related: []
 - [[wiki/people/chad-johnson]] — Fellow Nemacolin caddy and college student, 2017-2018.
 - [[wiki/people/charles-davenport]]
 - [[wiki/people/christian-hanson]] — Retired NHL forward; golf regular at Nemacolin, 2017-2018.
+- [[wiki/people/christo-coan]] — Nemacolin-era golf-course coworker; co-organized Dan's Oct 2017 birthday party; passing reference to an undocumented DUI.
 - [[wiki/people/claire-ulmer]] — Annie's sister; found Milo as a stray and set his rescue in motion.
 - [[wiki/people/clyde]] — NYC psychedelics dealer (LSD, DMT, mushrooms) delivering to Dan's apartment, 2019-2020.
 - [[wiki/people/dakota]] — Dakota channel is hearsay but treated as credible originating disclosure in bootloader (explicitly…
 - [[wiki/people/danielle-onesi]] — Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort).…
+- [[wiki/people/dan-polyak]] — Longtime friend; documented the April 2019 phone-number impersonation used to reach Ally Lubin, and received the same-morning account of the Bryan encounter.
 - [[wiki/people/danny-matthews]] — Realtor who sold Fran's house; also half of a swinger couple (with Nicole) Dan and Annie played with 2018–2024.
 - [[wiki/people/davey-fitzpatrick]] — Nemacolin assistant caddie master (2018) and Dan's scheduler/friend for the last Uniontown working year; the thread ends the day Dan tells him about the NYC move.
+- [[wiki/people/david-beard]] — Golf-course-adjacent contact who sold Dan a used drone in Sept 2018, the middle purchase in a three-drone summer.
 - [[wiki/people/david-j-frank]] — Paternal great-grandfather of Dan Frank. Born 12 August 1892 in Russia (Jewish immigrant). Died 6 April…
 - [[wiki/people/del]] — NYC Stiiizy-brand cannabis delivery service, spring-summer 2019; chronically late.
 - [[wiki/people/dimitri]] — the only boss Dan ever loved: Au Za'atar's Greek manager-oracle, twice.
 - [[wiki/people/drew]] — Collaborator on Nemacolin caddy yardage-book green mapping, June-July 2017.
+- [[wiki/people/drew-mcgettigan]] — Summer 2015 Uniontown supply contact (buyer/go-between); connected to the Zach Harshman circle.
 - [[wiki/people/elizabeth-eleanor]] — Fellow recovering addict; a single July 2013 conversation yielding the only Suboxone dosage figure and earliest INTP self-ID in the corpus.
 - [[wiki/people/eli]] — Coworker (male) of Annie Ulmer at Au Za'atar (or related NYC hospitality). Central to the eli-incident as…
 - [[wiki/people/ellen-ulmer]] — Annie's mother; steady contact 2017-2025, confirms Jim and Sugie as Annie's grandparents.
@@ -51,6 +56,7 @@ related: []
 - [[wiki/people/eric-jester]] — Full Sail friend, decade-spanning sparse contact; corroborates the Trinity St. Clair booking cost.
 - [[wiki/people/jamie-mohler]] — Full Sail friend present the day Dan first met Menore during the NYC-1 years; transitioned ~2023, now gendered female.
 - [[wiki/people/eric-springer]] — Month-long 2016 supply contact; wearing an ankle monitor at the time.
+- [[wiki/people/ej-rags]] — Williamsburg NYC vinyl-collector friend; drew out Dan's stated philosophy of destroying his own creative work.
 - [[wiki/people/felipe]] — the Colombian Au Za'atar bff; day-one glass-door casualty.
 - [[wiki/people/felix]]
 - [[wiki/people/fran-coldren]] — Maternal great-grandmother (Whyel line) of Dan Frank. Born 15 August 1920, Fort Martin, West Virginia.…
@@ -65,6 +71,7 @@ related: []
 - [[wiki/people/jason-bermejo]] — Full Sail–era formative music friend, one of two people whose taste Dan defers to; Feb 2026 renewal at 400+ messages/month.
 - [[wiki/people/jason-cole]] — Artist friend; a 2016 pet-portrait commission that curdled over unpaid work.
 - [[wiki/people/jay-lauer]] — Friend and mutual sub/coke trading partner, winter 2016-2017.
+- [[wiki/people/jenn-lynn]] — Uniontown friend repeatedly solicited (with boyfriend Brad) for a two-couple swap, 2017-2020; parallel drug-sourcing relationship.
 - [[wiki/people/jerad-friedline]]
 - [[wiki/people/jess]] — Swinging-couple recruitment contact, spring 2017; fizzled after one dense day.
 - [[wiki/people/jim-vrabel]] — Weed dealer and near-nightly hangout, 2018-2020; recurring coffee-creamer gift bit.
@@ -74,6 +81,7 @@ related: []
 - [[wiki/people/john-carney]] — Fits context-core §5 work/housing exit patterns and work-power-dynamics (unreachable contractors as…
 - [[wiki/people/john-felix]] — 2016 household-adjacent contact; possibly a partner of Suz's (unconfirmed).
 - [[wiki/people/johnny-dealer]] — Johnny functions as reliable but transactional dealer node during 2018 crisis (peak 40k+ messages year,…
+- [[wiki/people/joe-oshnack]] — High school bandmate; fullest first-person account of Dan's pre-2020 conservative identity and its reversal.
 - [[wiki/people/josh-brannan]]
 - [[wiki/people/josh-coccagna]] — Golf pro mentor turned DMT-cart supplier, 2017-2019.
 - [[wiki/people/katie-fletcher]] — the 2013 interim girlfriend: the Oddball/Chappelle night, the "Vase" incident.
@@ -83,7 +91,9 @@ related: []
 - [[wiki/people/kya-hansen]] — Canadian model/OnlyFans creator "bbblud"; Dan was her Reddit admin for a stretch in 2019, communicated mostly via OF.
 - [[wiki/people/lindsay-carolla]] — Thanksgiving 2016 supply contact; an unexplained "are you okay?" message in April 2017.
 - [[wiki/people/lauryn-ashly]] — Uniontown-era friend; real-time grief over Rob Orange's 2014 death, and a declined 2020 arrangement solicitation.
+- [[wiki/people/lewis-strosnider]] — Uniontown vape-shop friend; free graphic design work, a shared drone business plan, a Mavic 2 sale still unresolved when Dan left for NYC.
 - [[wiki/people/lisa-durbin]] — Extended-family relation organizing holiday gatherings, 2017.
+- [[wiki/people/lucas-thomas]] — Zac Shumar's friend; independent real-time eyewitness to the February 2017 house fire and arrest that sent Alexis Armel to prison.
 - [[wiki/people/lucie-dobbin]] — Longtime friend of Fran Coldren; recipient of Dan's fullest first-person account of Fran's death.
 - [[wiki/people/lukyan-mraz]] — Uniontown friend and short-lived 2015 cannabis-grow collaborator; ends in a March 2016 equipment dispute.
 - [[wiki/people/maddox]] — Maddox volunteered unprompted information without solicitation during public sidewalk exchange. Assessment…
@@ -93,6 +103,7 @@ related: []
 - [[wiki/people/marty-martin]] — Per canonical BFS_BOOTLOADER_v2: "NOT a recruit for active operation — intelligence asset only. Protect…
 - [[wiki/people/mary-kate]] — Exemplifies vertical-authority-skepticism and forensic-self-construction via "obfuscation trench" analysis…
 - [[wiki/people/matt-dunn]] — Full Sail friend, affectionately abused as "the world's most annoying man woman or child"; the annual $5 birthday Venmo bit.
+- [[wiki/people/matthew-palermo]] — Uniontown classmate whose brother fatally overdosed after a relapse; recipient of Dan's starkest opiate-epidemic self-assessment.
 - [[wiki/people/max]] — Implements ai-collaborative-analysis and vertical-authority via "adversarial" pressure for robustness.…
 - [[wiki/people/max-danielle-bf]] — 1. "Versace" Rant (Low Culture vs Consciousness):
 - [[wiki/people/md]] — Au Za'atar-affiliated contact; 2024 Bangladesh political-unrest discussion.
@@ -110,9 +121,11 @@ related: []
 - [[wiki/people/rj-ritchey]] — Uniontown golf-circle friend and 2019 Manhattan visitor; the iMessage contact `+17249844280` was merged into this canonical page.
 - [[wiki/people/rob-orange]] — High-school-era Uniontown friend; died April 2014, cause never confirmed; the one loss both Dan and Jim Shaffer mourn without irony.
 - [[wiki/people/ryan-lisac]] — Childhood/early peer. Core figure in the "Snob Squad" developmental arc.
+- [[wiki/people/ryan-scherich]] — Barely-known acquaintance; single-day Feb 2020 political flame war ending in a remark Dan calls racist.
 - [[wiki/people/sadie-harris]] — Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood,…
 - [[wiki/people/sam]] — NYC cannabis delivery dealer (2019–20) for the E 76th St years; fired Dan as a customer in Feb 2020, un-fired him when COVID hit.
 - [[wiki/people/sean-teets]]
+- [[wiki/people/seth-ledonne]] — Uniontown counterculture-education friend; real-time June 2020 NYC protest-curfew account.
 - [[wiki/people/shannon]] — Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct…
 - [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan saw alongside Annie spring–summer 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup July 2019.
 - [[wiki/people/stephanie-nalbone]] — Previously undocumented Sept-Nov 2009 relationship, right at the close of Full Sail; sequencing against Danielle and Alexis unresolved.

@@ -1,23 +1,30 @@
 {
- "generated": "2026-07-19",
+ "generated": "2026-07-20",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 320,
+ "page_count": 335,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
    "title": "Chemical Architecture",
    "summary": "Dan runs a deliberately engineered neurochemical system and explicitly rejects the recovery-industry frame for it. The load-bearing fact: **daily Suboxone si...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/chemical-architecture.txt",
-   "bytes": 6638
+   "bytes": 7261
+  },
+  {
+   "page": "wiki/health/hyperreflexivity.md",
+   "title": "Hyperreflexivity and the Anxiety Loop",
+   "summary": "Dan has, at least once, gone looking for a clinical-grade account of his own \"crippling social anxiety\" \u2014 not through a therapist, but by opening an AI chat ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/hyperreflexivity.txt",
+   "bytes": 6690
   },
   {
    "page": "wiki/health/index.md",
    "title": "health \u2014 index",
    "summary": "Physical and mental health history. The psychological profile itself lives in [[wiki/mind/profile/index]]; this domain covers the body and the chemistry.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/index.txt",
-   "bytes": 748
+   "bytes": 998
   },
   {
    "page": "wiki/interests/favorites/art-and-movies.md",
@@ -276,7 +283,7 @@
    "title": "SLOPPP",
    "summary": "**SLOPPP** was Dan's first named production alias: a trap/festival-trap project run from SoundCloud (`soundcloud.com/sloppp`) from 2013 until a track literal...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/music/aliases/sloppp.txt",
-   "bytes": 6470
+   "bytes": 9175
   },
   {
    "page": "wiki/interests/music/concepts/lyrics-as-timbre.md",
@@ -311,7 +318,7 @@
    "title": "Opie & Anthony / Shock Radio",
    "summary": "The single most-watched thing in Dan's entire YouTube history is not music, politics, or a game \u2014 it is the **Opie & Anthony shock-radio archive**. The watch...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/opie-and-anthony.txt",
-   "bytes": 5016
+   "bytes": 5313
   },
   {
    "page": "wiki/interests/rock-irrelevance-thesis.md",
@@ -332,7 +339,7 @@
    "title": "Stand-Up Comedy",
    "summary": "Stand-up is not a passive favorite for Dan \u2014 it is one of the few live art forms he physically chased, an art he tried to *make* himself, and a grammar that ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/stand-up-comedy.txt",
-   "bytes": 5639
+   "bytes": 6666
   },
   {
    "page": "wiki/interests/the-office.md",
@@ -353,7 +360,7 @@
    "title": "2015 Arrest (Retail Theft / \"The Combos Incident\")",
    "summary": "Dan's only documented arrest: in late 2015, at age 26\u201327, he was arrested by the Pennsylvania State Police over a retail theft \u2014 stealing Combos snacks, an e...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/legal/2015-retail-theft-arrest.txt",
-   "bytes": 4825
+   "bytes": 5487
   },
   {
    "page": "wiki/legal/463-morgantown.md",
@@ -367,7 +374,7 @@
    "title": "legal \u2014 index",
    "summary": "Dan's own legal history and live property/dispute exposure. Other people's legal events (Annie's October 2025 arrest, Tom's 2025 DUI) live on their people pa...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/legal/index.txt",
-   "bytes": 801
+   "bytes": 961
   },
   {
    "page": "wiki/mind/concepts/attachment-model.md",
@@ -402,7 +409,7 @@
    "title": "Erotic Architecture: Sexuality as Controlled-Chaos Engineering",
    "summary": "The same Gemini \"Dan Frank OS\" report that produced",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/erotic-architecture.txt",
-   "bytes": 7344
+   "bytes": 9049
   },
   {
    "page": "wiki/mind/concepts/exocortex.md",
@@ -451,7 +458,7 @@
    "title": "Big Five / Big30 Psychometrics & PD Vector",
    "summary": "The trait-level numbers are the profile's hardest data and its most extreme: a Big30 facet spread that puts Dan simultaneously in the top decile of the popul...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/big-five-psychometrics.txt",
-   "bytes": 6834
+   "bytes": 7107
   },
   {
    "page": "wiki/mind/profile/deviance-mapping.md",
@@ -507,7 +514,7 @@
    "title": "Arrangement History",
    "summary": "Where the rest of this cluster synthesizes AI-authored theory, this page is the primary-source backbone: a chronological index of every independently-documen...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/psychosexual/arrangement-history.txt",
-   "bytes": 10119
+   "bytes": 11354
   },
   {
    "page": "wiki/mind/psychosexual/developmental-origins.md",
@@ -549,14 +556,14 @@
    "title": "The 2020 Left Turn",
    "summary": "Dan's politics did not arrive gradually. There is a documented inflection \u2014 the COVID lockdown of 2020 \u2014 where a Bernie-curious liberal became a self-identif...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/2020-left-turn.txt",
-   "bytes": 6609
+   "bytes": 7787
   },
   {
    "page": "wiki/mind/synthesis/ai-collaborative-analysis.md",
    "title": "AI Collaborative Analysis",
    "summary": "Large language models occupy a specific, unusual role in Dan's cognitive life: not conversational companions but external processors \u2014 memory, structuring en...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/ai-collaborative-analysis.txt",
-   "bytes": 17360
+   "bytes": 18070
   },
   {
    "page": "wiki/mind/synthesis/ancestral-dialectic.md",
@@ -598,7 +605,7 @@
    "title": "The Estate / Money Spine",
    "summary": "Money in this biography does not accumulate; it **arrives in lumps and exits through standing drains.** This page traces the capital timeline as a single cau...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/estate-money-spine.txt",
-   "bytes": 10769
+   "bytes": 11029
   },
   {
    "page": "wiki/mind/synthesis/intake-constancy.md",
@@ -647,7 +654,7 @@
    "title": "The Supply Network",
    "summary": "Since January 2011, Dan has been on a daily Suboxone regimen \u2014 fifteen years, described in the primary sources as structural rather than recreational: a medi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/supply-network.txt",
-   "bytes": 16051
+   "bytes": 16187
   },
   {
    "page": "wiki/mind/synthesis/totality-themes.md",
@@ -696,14 +703,14 @@
    "title": "Alexis Armel (\u201cLex\u201d)",
    "summary": "**Role / Relationship:** Prior relationship (pre-Annie); referenced as \"Lex\" / Alexis Armel in life calendar, profile dumps, attachment narratives, and photo...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/alexis-armel.txt",
-   "bytes": 16183
+   "bytes": 19997
   },
   {
    "page": "wiki/people/ally-lubin.md",
    "title": "Ally Lubin (Alexandra Lubin)",
    "summary": "**Role:** Friend from FB/social network, described in operating manual as \"Friend, dark humor partner, North Carolina\". Short but real 2013 FB thread with pl...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ally-lubin.txt",
-   "bytes": 2602
+   "bytes": 4264
   },
   {
    "page": "wiki/people/anita.md",
@@ -755,6 +762,13 @@
    "bytes": 2256
   },
   {
+   "page": "wiki/people/bobby-cole.md",
+   "title": "Bobby Cole",
+   "summary": "Bobby Cole is a nine-year Facebook Messenger friendship (July 2013 \u2013 January 2022, ~940 messages) built almost entirely on a single shared obsession: the [[w...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/bobby-cole.txt",
+   "bytes": 5797
+  },
+  {
    "page": "wiki/people/brad-hubeaut.md",
    "title": "Brad Hubeaut",
    "summary": "Brad Hubeaut was Dan's caddy manager at [[wiki/work/nemacolin-caddying|Nemacolin Woodlands]] through the 2017\u20132018 caddying seasons \u2014 the day-to-day dispatch...",
@@ -794,7 +808,7 @@
    "title": "Bryan (+15088682461)",
    "summary": "Bryan is the third participant of the **October 20, 2019 filmed MMF threesome** with Dan and [[wiki/people/annie-ulmer|Annie]] in NYC \u2014 the encounter that wa...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/bryan-5088682461.txt",
-   "bytes": 3748
+   "bytes": 5028
   },
   {
    "page": "wiki/people/bub.md",
@@ -830,6 +844,13 @@
    "summary": "Christian Hanson \u2014 the retired NHL forward (Toronto Maple Leafs, son of Dave \"Hanson Brothers\" Hanson) \u2014 was a golf regular Dan caddied and played with aroun...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/christian-hanson.txt",
    "bytes": 2264
+  },
+  {
+   "page": "wiki/people/christo-coan.md",
+   "title": "Christo Coan",
+   "summary": "Christo Coan was a Nemacolin-era golf-course coworker and DJ acquaintance whose short Facebook Messenger thread (September 2017 \u2013 June 2018) exists almost en...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/christo-coan.txt",
+   "bytes": 4396
   },
   {
    "page": "wiki/people/claire-ulmer.md",
@@ -1119,6 +1140,13 @@
    "bytes": 7068
   },
   {
+   "page": "wiki/people/dan-polyak.md",
+   "title": "Dan Polyak",
+   "summary": "Dan Polyak is a longtime friend \u2014 a shared-first-name running joke (\"bitchdan,\" \"clandan\") dating to at least 2013 \u2014 whose Facebook Messenger thread (2013\u201320...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/dan-polyak.txt",
+   "bytes": 3812
+  },
+  {
    "page": "wiki/people/danielle-onesi.md",
    "title": "Danielle Onesi (\"Dee\")",
    "summary": "Dan's first girlfriend (~2005\u20132009), Uniontown origin, and a figure who has quietly remained in his life ever since \u2014 not as a romantic presence but as his m...",
@@ -1138,6 +1166,13 @@
    "summary": "Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two [[wiki/work/nemacolin-caddying|Nemacolin caddying]] seasons (`+...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/davey-fitzpatrick.txt",
    "bytes": 7252
+  },
+  {
+   "page": "wiki/people/david-beard.md",
+   "title": "David Beard",
+   "summary": "David Beard is a golf-course-adjacent Uniontown contact \u2014 his own messages reference \"work\" rain delays and a Tim Griglack's band hangout \"down behind number...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/david-beard.txt",
+   "bytes": 2942
   },
   {
    "page": "wiki/people/david-j-frank.md",
@@ -1161,11 +1196,25 @@
    "bytes": 1946
   },
   {
+   "page": "wiki/people/drew-mcgettigan.md",
+   "title": "Drew McGettigan",
+   "summary": "Drew McGettigan is a summer-2015 Uniontown supply contact \u2014 mostly a buyer of small quantities from Dan, with one documented go-between deal in the other dir...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/drew-mcgettigan.txt",
+   "bytes": 2251
+  },
+  {
    "page": "wiki/people/drew.md",
    "title": "Drew",
    "summary": "Drew (email `Dherchko@gmail.com`) collaborated with Dan on a green-mapping project at [[wiki/work/nemacolin-caddying|Nemacolin]] over an intense eleven-day s...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/drew.txt",
    "bytes": 1883
+  },
+  {
+   "page": "wiki/people/ej-rags.md",
+   "title": "Ej Rags",
+   "summary": "Ej Rags is a Williamsburg, Brooklyn contact \u2014 \"a block from the bridge\" as of an October 2011 hello \u2014 whose one substantive exchange, July 12, 2013, is reall...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ej-rags.txt",
+   "bytes": 3087
   },
   {
    "page": "wiki/people/eli.md",
@@ -1249,7 +1298,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 16426
+   "bytes": 18479
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1270,7 +1319,7 @@
    "title": "Jacob Bacharach",
    "summary": "Jacob Bacharach \u2014 Uniontown-raised novelist (*The Bend of the World*, 2014) and Chapo Trap House guest, a childhood neighbor of the Frank family from the Sar...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jacob-bacharach.txt",
-   "bytes": 7720
+   "bytes": 8158
   },
   {
    "page": "wiki/people/jajuan-davis.md",
@@ -1291,7 +1340,7 @@
    "title": "Jamie Mohler",
    "summary": "Jamie Mohler is a Full Sail friend from Dan's Orlando years who was present, per the operator, on the day Dan first met",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jamie-mohler.txt",
-   "bytes": 7733
+   "bytes": 13389
   },
   {
    "page": "wiki/people/jaredtricia.md",
@@ -1322,6 +1371,13 @@
    "bytes": 2552
   },
   {
+   "page": "wiki/people/jenn-lynn.md",
+   "title": "Jenn Lynn",
+   "summary": "Jenn Lynn is a Uniontown-area acquaintance whose three-year Facebook Messenger thread (August 2017 \u2013 September 2020) runs two tracks in parallel: a recurring...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jenn-lynn.txt",
+   "bytes": 4449
+  },
+  {
    "page": "wiki/people/jerad-friedline.md",
    "title": "Jerad Friedline",
    "summary": "Dan's oldest friend and his single highest-signal, lowest-frequency contact: a childhood friend from Uniontown now in Sacramento, married (Rachel, Jewish) wi...",
@@ -1348,6 +1404,13 @@
    "summary": "Jimmy was a fellow [[wiki/work/nemacolin-caddying|Nemacolin]] caddy whose brief 2018 thread (`+17244667401`, 24 messages, April\u2013June) captures both a real in...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jimmy.txt",
    "bytes": 2052
+  },
+  {
+   "page": "wiki/people/joe-oshnack.md",
+   "title": "Joe Oshnack",
+   "summary": "Joe Oshnack is a high-school-era Uniontown bandmate \u2014 the two played together in a band referred to only as \"BNI\" \u2014 whose eleven-year Facebook thread (2011\u20132...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/joe-oshnack.txt",
+   "bytes": 6110
   },
   {
    "page": "wiki/people/joey-superick.md",
@@ -1441,6 +1504,13 @@
    "bytes": 4298
   },
   {
+   "page": "wiki/people/lewis-strosnider.md",
+   "title": "Lewis Strosnider",
+   "summary": "Lewis Strosnider was a Uniontown vape-shop friend whose Facebook Messenger thread (March 2018 \u2013 February 2019) tracks a genuine small-business friendship: fr...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lewis-strosnider.txt",
+   "bytes": 4679
+  },
+  {
    "page": "wiki/people/lindsay-carolla.md",
    "title": "Lindsay Carolla",
    "summary": "A warm, affectionate small-scale cocaine relationship over Thanksgiving weekend 2016 (\"Hi honey,\" \"yes my love\"), with a single late follow-up in April 2017 ...",
@@ -1453,6 +1523,13 @@
    "summary": "Lisa Durbin (contacts nickname \"lcd\") is an extended-family relation who organizes holiday gatherings and checks in on birthdays (`+17242088411`, 36 messages...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lisa-durbin.txt",
    "bytes": 1627
+  },
+  {
+   "page": "wiki/people/lucas-thomas.md",
+   "title": "Lucas Thomas",
+   "summary": "Lucas Thomas is a mutual friend of [[wiki/people/alexis-armel|Alexis Armel]]'s post-breakup boyfriend, Zac Shumar, known to the wiki through a single, dense ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lucas-thomas.txt",
+   "bytes": 3185
   },
   {
    "page": "wiki/people/lucie-dobbin.md",
@@ -1518,6 +1595,13 @@
    "bytes": 5506
   },
   {
+   "page": "wiki/people/matthew-palermo.md",
+   "title": "Matthew Palermo",
+   "summary": "Matthew Palermo is a Uniontown-era acquaintance whose short, sparse Facebook thread (2018\u20132020) carries one genuinely heavy exchange: a February 13, 2020 con...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/matthew-palermo.txt",
+   "bytes": 3792
+  },
+  {
    "page": "wiki/people/max-danielle-bf.md",
    "title": "Max (Danielle's BF / \"the Dude\", Music Guy)",
    "summary": "**Identity:** Current boyfriend of Dan's first girlfriend Danielle (pre-Lex era, Uniontown/NYC context). \"The most wild dude I've ever met\" who \"knows more a...",
@@ -1543,7 +1627,7 @@
    "title": "Menore",
    "summary": "**Menore** (+13476070497) \u2014 Drug dealer / supply operator in New York City; Bedford Ave (Williamsburg) Brooklyn origin connection; operated Nov 2018\u2013Feb 2025...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/menore.txt",
-   "bytes": 17521
+   "bytes": 17784
   },
   {
    "page": "wiki/people/michael-hinkle.md",
@@ -1637,6 +1721,13 @@
    "bytes": 1432
   },
   {
+   "page": "wiki/people/ryan-scherich.md",
+   "title": "Ryan Scherich",
+   "summary": "Ryan Scherich is a barely-known acquaintance (\"i barely fucking know you\") with whom Dan has a single, self-contained political flame war on February 8, 2020...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ryan-scherich.txt",
+   "bytes": 2639
+  },
+  {
    "page": "wiki/people/sadie-harris.md",
    "title": "Sadie Harris",
    "summary": "Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood, Pennsylvania. Married David J. Frank (b. 1892 Russ...",
@@ -1656,6 +1747,13 @@
    "summary": "**Role:** Casual / peripheral contact. Low-volume FB exchanges (7 total messages). Topics include possible substance shorthand (\"Mushys and k\"), item sales (...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/sean-teets.txt",
    "bytes": 1961
+  },
+  {
+   "page": "wiki/people/seth-ledonne.md",
+   "title": "Seth LeDonne",
+   "summary": "Seth LeDonne is a Uniontown-scene friend whose short 2020 Facebook thread carries two distinct threads of its own: a formative-influence tribute to Dan's tee...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/seth-ledonne.txt",
+   "bytes": 3541
   },
   {
    "page": "wiki/people/shannon.md",
@@ -1718,7 +1816,7 @@
    "title": "Tom",
    "summary": "Tom Maison \u2014 Dan's primary male ally and, for most of the corpus, the clearest instance of safe, lateral (peer, non-paternal) attachment in the record \u2014 the ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/tom.txt",
-   "bytes": 19988
+   "bytes": 21047
   },
   {
    "page": "wiki/people/trevor.md",
@@ -1788,7 +1886,7 @@
    "title": "117 Belmont Circle",
    "summary": "117 Belmont Circle, Uniontown PA \u2014 a three-story house sitting on the edge of the Uniontown Country Club fairway \u2014 was",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/117-belmont-circle.txt",
-   "bytes": 2681
+   "bytes": 3002
   },
   {
    "page": "wiki/places/155-virginia-ave.md",
@@ -1812,11 +1910,18 @@
    "bytes": 3977
   },
   {
+   "page": "wiki/places/424-bedford-ave.md",
+   "title": "424 Bedford Ave (NYC-1)",
+   "summary": "424 Bedford Ave, Apartment 6C, in Williamsburg, Brooklyn was Dan's first New York apartment \u2014 the home base of the **NYC-1** period (April 2010 \u2013 May 2013) a...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/424-bedford-ave.txt",
+   "bytes": 4491
+  },
+  {
    "page": "wiki/places/index.md",
    "title": "places \u2014 index",
    "summary": "Homes, cities, and significant locations. The quantified movement record is at [[wiki/self/location-history]].",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/index.txt",
-   "bytes": 852
+   "bytes": 1054
   },
   {
    "page": "wiki/self/ancestry.md",
@@ -1991,7 +2096,7 @@
    "title": "Tattoos",
    "summary": "Dan's body art is, as far as the corpus documents, entirely cultural reference rather than abstract design \u2014 every known piece points at a specific record, b...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/tattoos.txt",
-   "bytes": 8235
+   "bytes": 11186
   },
   {
    "page": "wiki/self/twitter.md",
@@ -2012,7 +2117,7 @@
    "title": "Annie/Alexis Reunion (October\u2013December 2018)",
    "summary": "Weeks after [[wiki/people/alexis-armel|Alexis]] was released from the year in prison documented at [[wiki/people/alexis-armel]] (the Zac Shumar mail-order we...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/annie-alexis-reunion-november-2018.txt",
-   "bytes": 14205
+   "bytes": 15611
   },
   {
    "page": "wiki/timeline/events/april-may-2026-final-weeks.md",
@@ -2173,7 +2278,7 @@
    "title": "Au Za'atar (NYC, ~2021\u20132024)",
    "summary": "Au Za'atar Midtown \u2014 the Lebanese restaurant at 58th & 1st owned by",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/au-zaatar.txt",
-   "bytes": 15176
+   "bytes": 15967
   },
   {
    "page": "wiki/work/bfs-foods.md",
@@ -2201,7 +2306,7 @@
    "title": "Caddying \u2014 Nemacolin, Laurel Valley, Pikewood National (2016\u20132019)",
    "summary": "Between the [[wiki/legal/2015-retail-theft-arrest|retail-theft arrest]] and the deep 2017\u201318 poverty years, Dan held a caddying job at **Nemacolin Woodlands ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/nemacolin-caddying.txt",
-   "bytes": 8173
+   "bytes": 8416
   },
   {
    "page": "wiki/work/tech/grok-build/overview.md",

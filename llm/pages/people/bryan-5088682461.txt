@@ -10,6 +10,7 @@ date_range_end: 2025-05-11
 sources:
   - "raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/danpolyak_a1u7tpseha/message_1.html"
 tags: [nyc-era, relationships]
 infobox:
   name: "Bryan"
@@ -29,6 +30,9 @@ connections:
   - page: wiki/people/tuquick-17248123683
     type: co-occurs
     claim: "The video of the encounter with Bryan is the material Tuquick deployed as humiliation on closure night 2026 — Bryan's one documented appearance in the corpus made him ammunition six and a half years later."
+  - page: wiki/people/dan-polyak
+    type: evidenced-by
+    claim: "A same-morning (Oct 21, 2019) Facebook Messenger disclosure to Polyak supplies Dan's own real-time reaction to the encounter, and a Oct 25, 2019 follow-up reveals a previously undocumented repeat visit."
 ---
 
 # Bryan (+15088682461)
@@ -49,6 +53,19 @@ the two should never be merged.
 > Sent 2019-10-22 22:26 message "last night we had to film mmf." The
 > one-day tension between that message's "last night" phrasing and the
 > operator's date is noted; the operator's date governs.
+
+A same-morning reaction, not previously documented, survives in a
+Facebook Messenger thread with [[wiki/people/dan-polyak|Dan Polyak]]:
+at 2:52 AM on October 21, 2019, Dan calls Polyak specifically to share
+the news ("i thought you would be SO proud to know that i had my first
+experience with another guy"), and gives his own real-time assessment —
+"it was like...alright i guess. honestly i've never felt more hetero in
+my life. i didn't hate it or anything but everything after the touching
+stuff i didn't enjoy and did just to avoid an awkward situation." Four
+days later, on October 25, he tells Polyak "we invited him over again
+this weekend" — a previously undocumented repeat visit — and separately
+mentions working the story into a stand-up set (see
+[[wiki/interests/stand-up-comedy]]).
 
 His entire iMessage footprint is three unanswered messages five and a
 half years later (May 11, 2025, with Dan back in Pennsylvania):
@@ -73,6 +90,8 @@ contradicts; see [[wiki/mind/psychosexual/arrangement-history]]).
 | Defining event | Oct 20, 2019 filmed MMF (operator-attested; corpus-dated via Sent 2019-10-22) |
 
 **Gaps:** surname; how he was met and how the October 2019 encounter
-was arranged (no coordination thread under this handle); whether the
-508 area code (central Massachusetts) reflects where he's from; any
-contact between 2019 and 2025.
+itself was arranged (no coordination thread under this handle);
+whether a second visit beyond the "again this weekend" Oct 25, 2019
+mention actually occurred; whether the 508 area code (central
+Massachusetts) reflects where he's from; any contact between late 2019
+and 2025.

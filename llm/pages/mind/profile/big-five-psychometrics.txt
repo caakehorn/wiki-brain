@@ -6,7 +6,7 @@ aliases: ["RLUEI", "Big30", "psychometrics", "personality disorder scores"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -24,6 +24,9 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The Trust/Altruism/Submissiveness/Assertiveness scores are the skepticism architecture as measurement."
+  - page: wiki/health/hyperreflexivity
+    type: evidenced-by
+    claim: "A self-initiated AI session naming and mechanizing the anxiety loop supplies the lived texture behind the Self-Consciousness 91st-percentile score — a trait number given a first-person mechanism."
 ---
 
 

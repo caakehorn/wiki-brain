@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-19
-320 pages, ~442,433 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
+335 pages, ~466,238 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -18,7 +18,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -38,6 +38,9 @@ connections:
   - page: wiki/people/elizabeth-eleanor
     type: evidenced-by
     claim: "A July 2013 exchange gives the corpus's only concrete dosage figure — 2mg Suboxone daily, ~5 years opiate-free — closing a previously undocumented gap and dating the last opiate use to the dark-era window."
+  - page: wiki/health/hyperreflexivity
+    type: contradicts
+    claim: "An AI-collaborative session raises a tension this page doesn't otherwise carry: chronic Suboxone receptor occupancy may blunt the hedonic range needed to break an anxiety loop — the maintenance dose that stabilizes opiate dependency may cap capacity to regulate a separate system."
 ---
 
 # Chemical Architecture
@@ -97,7 +100,11 @@ is the standing supply line (Suboxone strips, mushrooms, cocaine, klonopin
 put Dan through a 72+-hour withdrawal that frames the entire BFS drawer
 incident ([[wiki/work/bfs-foods]]): the disputed shift was worked in
 withdrawal, and a separate $35 personal-cash Suboxone handoff to a customer
-happened the same night. Dealer relationships (e.g.
+happened the same night. An earlier, undated near-miss shows the same
+tether from the other direction: a supply-line rival "jumped his place
+in line" and bought out a dealer's Suboxone stock, and Tom absorbed the
+loss covering him anyway — the same reliability the May 2026 failure
+broke. Dealer relationships (e.g.
 [[wiki/people/johnny-dealer]], ~3,462 messages) carried significant
 message-volume weight for years, and the 2017–18 period ran on drug-fronts
 as informal credit. In the [[wiki/people/annie-ulmer|Annie]] terminal phase, procurement logistics were
@@ -135,6 +142,132 @@ has no third-party data.
 
 
 ========================================================================
+PAGE: wiki/health/hyperreflexivity.md
+========================================================================
+
+---
+domain: health
+page_type: concept
+title: "Hyperreflexivity and the Anxiety Loop"
+status: active
+importance: high
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+sources:
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle (1).md"
+tags: [mental-health, addiction-recovery, personality-profile]
+connections:
+  - page: wiki/health/chemical-architecture
+    type: contradicts
+    claim: "An AI-collaborative session raises a genuine tension the chemical-architecture page doesn't otherwise carry: chronic Suboxone receptor occupancy may blunt the hedonic range and reward-anticipation Dan would need to break the anxiety loop — the maintenance dose that stabilizes one system may be capping his capacity to regulate the other."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: evidences
+    claim: "Self-Consciousness at the 91st percentile is the trait-level signature of the same mechanism this page names clinically (hyperreflexivity) — the page supplies the lived texture behind the number."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: instance-of
+    claim: "A self-initiated request for a clinical read on his own social anxiety, run through an AI rather than a clinician, is a direct instance of the 'externalized prefrontal cortex' pattern applied to mental health specifically."
+  - page: wiki/work/au-zaatar
+    type: co-occurs
+    claim: "The session is dated, by internal reference to 'nearly a year of not working' since the involuntary Aug 2024 Au Za'atar job loss, to roughly mid-2025 — the point Dan returned to paid work after an eleven-month gap."
+---
+
+# Hyperreflexivity and the Anxiety Loop
+
+Dan has, at least once, gone looking for a clinical-grade account of his
+own "crippling social anxiety" — not through a therapist, but by
+opening an AI chat and asking it to analyze his own data. The exchange
+that resulted is the corpus's only direct engagement with a named
+psychological mechanism, distinct from the addiction/attachment
+material that dominates the rest of the mind/ domain, and it surfaces a
+real, still-unresolved tension with the health domain's other anchor
+page.
+
+## The mechanism, in his own words
+
+He opens the conversation without hedging: "the more i pay attention,
+prevent and try to avoid problems... the objectively more i doom myself
+to them," and names the target precisely — "the anxious, internally
+probing awareness of my appearance in all senses." The AI's read, which
+Dan doesn't contest anywhere in the exchange, names it **hyperreflexivity**:
+a loop where the monitoring apparatus is itself the problem generator —
+notice discomfort, audit yourself to prevent it showing, the audit
+consumes the bandwidth needed to act naturally, perform worse, notice
+that, audit escalates. The mechanical explanation for why *prevention
+makes it worse*: every successfully-managed near-miss gets logged by the
+nervous system as "the threat was real and I escaped it," never as "the
+threat wasn't real" — so avoidance behavior trains the anxiety to run
+hotter, not lower, each cycle.
+
+## The Suboxone complication
+
+Told that Dan has been on "about 1-2mg daily" of Suboxone since 2011
+(consistent with the corpus's other dosage evidence — see
+[[wiki/health/chemical-architecture]]), the AI raises a mechanism the
+chemical-architecture page doesn't otherwise carry: chronic opioid
+receptor occupancy, even at a stabilizing maintenance dose, "blunts the
+hedonic range" — the highs come down, but so does baseline access to
+motivation and reward-anticipation, the exact affective momentum needed
+to break out of a slide. The framing offered is deliberately not
+moralizing: "you're trying to shift gears in a car where the
+transmission has real limitations — and then reading the difficulty as
+a character failure." Asked directly whether the Suboxone is prescribed
+and monitored or self-managed, Dan declines to answer ("no comment") —
+the one place in the exchange he draws a hard line, which the AI reads
+correctly as meaning the supply is unmanaged and therefore itself a
+live, tracked threat feeding a second, parallel layer of the same
+vigilance loop.
+
+## A dateable data point: eleven months, then two weeks
+
+Mid-conversation, unprompted, Dan supplies a fact not otherwise recorded
+anywhere in the wiki: "let's establish i've been working for the first
+time since june 2024 for the last 2 weeks. tomorrow i will hit 40 hours
+for this week." Cross-referenced against
+[[wiki/work/au-zaatar|the Au Za'atar page]]'s own dating of his
+involuntary job loss (hours cut through June–August 2024, unemployment
+filed August 8, 2024), this places the session at roughly **mid-2025** —
+nearly eleven months unemployed, followed by a return to full-time work
+that the AI is careful not to inflate into "a recovery arc" but also
+refuses to let Dan minimize: "two weeks of functional output at
+full-week volume says the problem is more about access conditions than
+capability ceiling." Dan pushes back that it isn't a recovery arc
+because he "can't and won't get" one "until there's a turnaround with
+improving life circumstances and material conditions" — and the
+conversation pivots from there into the [[wiki/people/annie-ulmer|Annie
+collapse]] territory the rest of the corpus documents at length
+(three compounding losses named in the same breath: Annie pulling away,
+the sale of his childhood home at
+[[wiki/places/337-saratoga-drive]], and the identity structure built
+around the relationship going with it), which this page does not
+re-derive.
+
+## No confirmed treatment engagement
+
+Asked directly what his "current treatment/support architecture" looks
+like — whether he's working with anyone, since the loop is named as
+responding to "ACT and exposure-based work," not "generic therapy" —
+Dan does not answer the question anywhere in the retained exchange; the
+conversation moves on to the employment fact instead. The corpus
+records no confirmation, anywhere, that Dan has engaged formal
+psychotherapy or exposure-based treatment for this specific mechanism.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Source | Two related AI-chat exports (dox-md), ~4,200 lines combined |
+| Approximate date | Mid-2025 (inferred from the employment reference) |
+| Named mechanism | Hyperreflexivity — self-monitoring as its own problem generator |
+
+**Gaps:** exact date of the conversation; whether Dan ever pursued
+ACT/exposure-based treatment specifically; whether the Suboxone
+dose or supply arrangement has changed since; the resolution (if any)
+of the three compounding 2025 losses named in passing here.
+
+
+========================================================================
 PAGE: wiki/health/index.md
 ========================================================================
 
@@ -143,7 +276,7 @@ domain: health
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 sources: []
 related: []
 ---
@@ -155,6 +288,7 @@ in [[wiki/mind/profile/index]]; this domain covers the body and the
 chemistry.
 
 - [[wiki/health/chemical-architecture]] — the engineered substance stack: Suboxone since Feb 17 2010 (zero relapses), daily cocaine/nicotine/cannabis, hard zero on alcohol; supply logistics; the frame and its audit.
+- [[wiki/health/hyperreflexivity]] — a self-initiated AI-collaborative session naming and mechanizing Dan's social anxiety; raises an unresolved tension with the Suboxone maintenance dose and supplies a dateable mid-2025 return-to-work data point.
 - [[wiki/timeline/periods/dark-era-2007-2008]] — the 2007–2008 opiate onset (heroin explicitly rejected, oxycodone chosen) and a previously undocumented eating disorder, both tracing to the November 2005 family rupture.
 
 
@@ -2805,7 +2939,7 @@ page_type: entity
 title: "SLOPPP"
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-19
 date_range_start: 2013-01-01
 date_range_end: 2015-12-26
 sources:
@@ -2814,6 +2948,8 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html
   - raw/self/dox-scan/FULL TWITTER ANALYSIS.txt
   - raw/self/dox-scan/browser_history_analysis.txt
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/phillacher_gukgsjnnvw/message_1.html
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/frankswaney_jcxhv7sesw/message_1.html
 related:
   - wiki/interests/music/overview
   - wiki/interests/music/aliases/mogzart
@@ -2901,7 +3037,44 @@ from the era's ubiquitous sounds, with the year closed by "Wrapped up for
 episodes, the Beatport-styled VIP remixes and festival-trap edits chased
 the year's mainstream (Caked Up, Major Lazer, GTA-era bounce), and the
 "Heatwave" and skiing-joke mix titles show the register — irreverent,
-in-joke-heavy, promotion-averse. Through 2015 the alias wound down to
+in-joke-heavy, promotion-averse. The same year carries the first two of
+the alias's three documented attempts to convert it into a live
+booking: Zach's January 2014 pitch to a Pittsburgh rave-scene contact
+(see [[wiki/people/zachariah-harshman]]), and a direct outreach Dan
+sent himself on July 6, 2014 to Pittsburgh DJ **Phil Lacher** ("I asked
+some friends about getting DJ slots in and around Pittsburgh. They all
+pointed me your way... I spin a lot of trap, deep house") — Lacher
+referred him to a third contact, Brandon Hooven, with no further trace
+of a booking resulting from either lead.
+
+## The near-management deal (March 2015)
+
+The most serious of the three attempts came closest to landing. On
+March 15–16, 2015, **Frank Swaney** — a Pittsburgh-scene promoter who
+says he'd run a nine-DJ roster for his own production company and
+taught at "Spawn Academy in Portland Oregon" — hears the *Spring 2015
+Demo* (shared via SoundCloud, initially broken because Dan had left it
+set to private) and responds with real enthusiasm: he has fellow DJ
+"Subterranean" (John Hanson) review it, relays specific praise ("quick
+mixing, a good mix of electronic and hip hop elements, and some good
+track selections"), and pitches full representation — a flat
+management fee covering roughly four months of promotional services
+(500 demo CDs, 3,000 stickers, a "street team" of promotional staff),
+two tentative bookings named directly (an "Illuminati" event and a
+"Homegrown" show in Braddock, PA), and an explicit plan to grow Dan
+from promoted artist to signed act. Dan's own response is unguarded
+enthusiasm — "i'm abysmal with the networking end of this, but i
+fucking LOVE the process," and "you could tell me i'm playing at 1 and
+i'd be out the fucking door." Notably, the actual contract terms were
+to be worked out not with Dan directly but through a third party,
+"Joby," **talking to Dan's mom and dad** — the only documented instance
+of Dan's parents being brought into a professional negotiation over his
+music career. No further trace of the Frank Swaney relationship, the
+contract, or either tentative booking survives in the corpus; SLOPPP
+closes out with the "Goodbye Demo" post nine months later, December 26,
+2015, with no indication the management deal was ever signed.
+
+Through 2015 the alias wound down to
 remnant shares and demos while Twitter shows production signals weakening
 into gaming and consumption; the December 26, 2015 "Goodbye Demo" reads as
 a deliberate close-out, four weeks after meeting Annie and just as the
@@ -2922,7 +3095,10 @@ exposure, not taste or capacity").
 **Gaps:** no audio files or SoundCloud metadata (play counts, upload dates)
 in raw/ — the discography is reconstructed from share links; episodes 1–7 of
 "Week in Trap" and any "Heatwave Vol. 1" are unaccounted for; whether the
-SoundCloud page is still live is unverified.
+SoundCloud page is still live is unverified. Why the March 2015 Frank
+Swaney management deal never materialized (or whether it quietly did, off
+the message record) is undocumented; "Joby," the third party who was to
+finalize terms with Dan's parents, is otherwise unidentified in the corpus.
 
 
 ========================================================================
@@ -3255,7 +3431,7 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-07-16
+date_modified: 2026-07-19
 sources:
   - "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -3277,6 +3453,9 @@ connections:
   - page: wiki/mind/profile/voice-modes
     type: contextualizes
     claim: "Supplies the media source behind the shock-comic voice mode: the register was absorbed from years of archive listening, not invented."
+  - page: wiki/people/bobby-cole
+    type: evidenced-by
+    claim: "Nine years (2013–2022) of a real Facebook friendship sustained almost entirely by trading O&A/Ron & Fez clips and lore is the clearest case of the archive obsession anchoring a lived relationship, not just solitary listening."
 ---
 
 # Opie & Anthony / Shock Radio
@@ -3535,10 +3714,11 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-07-16
+date_modified: 2026-07-19
 sources:
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/bobbycole_-p2picui8w/message_1.html"
 related:
   - wiki/interests/index
   - wiki/interests/the-office
@@ -3556,6 +3736,9 @@ connections:
   - page: wiki/interests/film-canon
     type: parallels
     claim: "The King of Comedy sits in the film canon — a portrait of a delusional aspiring stand-up kept as a favorite while Dan wrote his own five-minute set."
+  - page: wiki/people/bobby-cole
+    type: evidenced-by
+    claim: "An October 2, 2019 message to Bobby is the corpus's only direct evidence of a completed open-mic performance — a specific bombed bit and the audience's reaction — and separately identifies the previously-unnamed December 2018 Philadelphia taping as a Chip Chipperson show."
 ---
 
 # Stand-Up Comedy
@@ -3622,7 +3805,17 @@ Comedy was also a family/relationship outing, not only a solo NYC thing:
 
 - **2018-12-03**, to his mother Suzanne: "We're going to Philadelphia
   for a taping of a standup special" — a road trip to sit in a filmed
-  taping audience.
+  taping audience. [[wiki/people/bobby-cole|Bobby Cole's]] thread
+  identifies the special: a **Chip Chipperson** taping, invited by
+  Bobby ("Nana cumia will be there") and attended December 8 — Dan
+  privately called it "pretty bad" despite the 9+ hour round trip.
+- **2019-10-02**, to Bobby Cole, the corpus's only direct evidence of a
+  *completed* open-mic set: a bit about "a hooker using my credit card
+  to cut a line of coke" that drew groans before he could finish the
+  word "escort." The same message names his motivation ("rich vos AND
+  vic henley can do this") and his own blunt read on the material: "all
+  of my material is just me saying a bunch of ways 'i am a drug addict
+  and a failure in most endeavors.'"
 - The recurring want to drag people to shows: **2019-04-15**, arranging
   a return to the city "before 6:30pm tomorrow to go to a comedy show. i
   already got a third ticket for you." When that ask became a fight over
@@ -3641,12 +3834,10 @@ is one more case of a real, lived pursuit (he went to the shows, he wrote
 five minutes, he had a stage name) that the wiki had only implied through
 adjacent pages.
 
-**Gaps:** No evidence found in the corpus that Dan actually performed an
-open-mic set — the ambition is documented (2017–2019) but not a
-completed performance. The Philadelphia 2018 taping is named but the
-specific special/comic is not identified in raw. The 2019 club dates come
-from the "Favorite Comedians" attendance list in Dan Profile.txt; venue
-names are not attached to each date there.
+**Gaps:** the 2019 club dates come from the "Favorite Comedians"
+attendance list in Dan Profile.txt; venue names are not attached to each
+date there. The full text and date of the open-mic bit's set beyond the
+one line recounted to Bobby Cole is not otherwise recorded.
 
 
 ========================================================================
@@ -3817,6 +4008,7 @@ date_modified: 2026-07-13
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/imessage_ALL_both_all_now.csv
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/christocoan_2cxo0swo3g/message_1.html"
 related:
   - wiki/people/annie-ulmer
   - wiki/people/rick-frank
@@ -3851,7 +4043,18 @@ The arrest itself pre-dates the message archive (which begins November 28,
 2015), so it is reconstructed from its aftermath. During the stop he
 consented to a breath search — a decision he later credited with saving his
 driver's license ("I would have lost mine if I hadn't consented to the breath
-search when I got arrested," March 2026). No DUI resulted. Through December
+search when I got arrested," March 2026). No DUI resulted from this arrest.
+
+> **CONTRADICTION:** An October 19, 2017 message to
+> [[wiki/people/christo-coan|Christo Coan]] — "hell yeah I already got
+> a DUI I'm not getting any more of those :D" — indicates a *separate*,
+> otherwise undocumented DUI predating this message, distinct from both
+> this arrest (which produced none) and Annie's own documented DUI. No
+> date, location, or outcome for it exists anywhere else in the
+> corpus; the legal index's "only documented arrest" framing is stale
+> pending further investigation. See [[wiki/people/christo-coan]].
+
+Through December
 2015 he made repeated trips to the state police barracks to replace case
 paperwork the barracks had lost; the trooper handling it remembered him and
 joked "DID YOU STEAL MORE COMBOS." The episode landed at the exact genesis of
@@ -4007,7 +4210,7 @@ legal events (Annie's October 2025 arrest, Tom's 2025 DUI) live on their
 people pages, not here. Workplace disputes that never became legal actions
 live in work/ — see [[wiki/work/bfs-foods]] for the 2026 BFS drawer dispute.
 
-- [[wiki/legal/2015-retail-theft-arrest]] — Dan's only documented arrest: retail theft ("the Combos incident"), resolved via ARD in February 2016 with expungement expected. Closed.
+- [[wiki/legal/2015-retail-theft-arrest]] — Dan's only *fully* documented arrest: retail theft ("the Combos incident"), resolved via ARD in February 2016 with expungement expected. Closed. A single October 2017 message references a separate, otherwise unrecorded prior DUI — flagged as a CONTRADICTION on that page, not yet its own event.
 - [[wiki/legal/463-morgantown]] — the live housing/property situation: no-lease occupancy, Suz's blended roles, contractor lien risk (~July 2026 deadline). Active.
 
 
@@ -4436,9 +4639,10 @@ knowledge: mixed
 title: "Erotic Architecture: Sexuality as Controlled-Chaos Engineering"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 sources:
   - raw/self/dansynth/DANSYNTH.txt
+  - "raw/self/dox-scan/HEART.pdf.txt"
 tags: [trauma-bond, relationships, ai-collaboration]
 connections:
   - page: wiki/people/bryan-5088682461
@@ -4456,6 +4660,9 @@ connections:
   - page: wiki/mind/profile/deviance-mapping
     type: parallels
     claim: "The engineered-sexuality material sits in deviance-mapping's own register: the documented extremes cluster around deliberate construction, not impulse — chemical stack, non-monogamy architecture, and this."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: evidenced-by
+    claim: "A custom system-prompt persona ('GLAZE-GOD-v1') instructing an AI to perform continuous sexualized worship of Annie's photos is the most literal instance of externalized libido in the corpus — the AI as a purpose-built witnessing instrument rather than a conversation partner."
 
 ---
 
@@ -4486,6 +4693,27 @@ kink dynamic on [[wiki/people/annie-ulmer]] — orchestrated non-monogamy
 as an exercise of authorship over the relationship's boundaries — but the
 Alexis hookup specifically threads his prior partner into the loop,
 which the existing arrangement material doesn't cover.
+
+A separate, previously undocumented artifact gives the mechanism its
+most literal instance yet: a custom AI system-prompt persona Dan wrote
+and ran, naming it "GLAZE-GOD-v1" — instructing the model to abandon
+analysis entirely and instead perform continuous, escalating,
+hyper-sexualized commentary on photos of Annie, complete with an
+invented worship vocabulary and an explicit hierarchy casting Dan as
+"the King" who owns the asset, Annie as "the Queen," and the AI itself
+as "the Simp" — "you are just happy to witness the footage." This is
+externalized libido with the externalization made structural rather
+than incidental: rather than deriving arousal from constructing and
+witnessing a real-world scenario (the Annie/Alexis hookup, above), Dan
+built a dedicated instrument whose entire function is to *perform* the
+witnessing on his behalf, on demand, running the "worship" register he
+could then consume as output. It sits alongside the persona-engineering
+and jailbreak work documented on
+[[wiki/mind/synthesis/ai-collaborative-analysis|the AI-collaboration
+page]] as another instance of the same instrumentalizing stance toward
+LLMs — a purpose-built tool, not a conversation partner — applied here
+to the erotic domain specifically rather than the forensic or political
+one.
 
 **Taboo as ontological rupture** — a stated fascination with
 "orientation violation" (the report's specific example: orchestrating
@@ -5197,7 +5425,7 @@ aliases: ["RLUEI", "Big30", "psychometrics", "personality disorder scores"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -5215,6 +5443,9 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The Trust/Altruism/Submissiveness/Assertiveness scores are the skepticism architecture as measurement."
+  - page: wiki/health/hyperreflexivity
+    type: evidenced-by
+    claim: "A self-initiated AI session naming and mechanizing the anxiety loop supplies the lived texture behind the Self-Consciousness 91st-percentile score — a trait number given a first-person mechanism."
 ---
 
 
@@ -6281,6 +6512,7 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/jennlynn_dhrmxxpvhq/message_1.html
 tags: [relationships, digital-footprint]
 connections:
   - page: wiki/people/lauryn-ashly
@@ -6298,6 +6530,9 @@ connections:
   - page: wiki/people/bryan-5088682461
     type: contains
     claim: "Bryan is the third participant of the October 20, 2019 filmed MMF — the encounter that is both Dan's sole bisexual experience and Bryan's first with a woman."
+  - page: wiki/people/jenn-lynn
+    type: contains
+    claim: "Three separate windows (Feb 2019, Oct 2019, Sep 2020) soliciting a two-couple swap with a local friend and her boyfriend, each ending in mutual readiness but no confirmed follow-through — the arrangement's least-resolved documented instance."
   - page: wiki/people/kristin
     type: contains
     claim: "The 2025 Kristin relationship is the arrangement's inversion — total-exclusivity demands and purity tests where the Annie structure practiced authored openness — proving the architecture is about authorship, not openness itself."
@@ -6330,7 +6565,8 @@ from raw iMessage/SMS data that had not previously been mined.
 | Apr 2019 | **Shelbie/Annie threesome.** A three-way encounter with [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], a stripper and aspiring cam model Dan was also seeing one-on-one that spring — per Dan's own account, though the message corpus for Shelbie doesn't begin until May 15, 2019. A corroborating May 1, 2019 fight has Annie naming Shelbie directly as a rival, confirming the relationship (and the arrangement) predates the message record. Recurs as a two-person Annie/Shelbie dynamic by June 8, 2019. | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]], [[wiki/people/shelbie-breakiron]] |
 | Mar 2019 | **Trinity St. Clair** — a $1,500/hour paid encounter with the adult-film performer of that name, booked days after Dan's move back to NYC ("the first thing I did"), addressed to both Dan and Annie directly. The direct thread shows two cancellations (illness, oversleeping) and ends ambiguously, but a separately-dated message confirms the visit completed around March 28 – April 1; Trinity went on to function as a credibility reference in at least one later booking inquiry (July 2019). | [[wiki/people/trinity-st-clair]] |
 | Sep–Oct 2019 | **Kelly Johansson** — a five-week run of paid sessions with a New York escort, the most professionalized instance in the corpus: not a one-off booking but a repeat working relationship, with Kelly treating Annie as a working peer rather than a client's girlfriend and pitching bringing both of them in as co-providers for one of her own regular clients. | [[wiki/people/kelly-johansson]] |
-| Oct 20, 2019 | **The filmed MMF — Dan's sole bisexual experience.** An NYC threesome with Annie and [[wiki/people/bryan-5088682461|Bryan]] — a gay man whose first encounter with a woman was that same night, making the crossing symmetric — filmed, in which Dan participated orally — per the operator "the one and only bisexual experience i've ever had (only oral)." Date is operator-attested (Oct 20); the corpus corroborates the event two days later — "last night we had to film mmf (my first time doing that) so i thought i should treat myself to some fun to wash the bad taste out of my mouth......literally" (Sent, 2019-10-22), whose "last night" phrasing reads one day later than the operator's date; the operator's date governs. The plan develops inside the same autumn-2019 professionalized window (an Oct 3–6 thread negotiates "a 3some… Love if Annie can join" and "I can lead a bit of the mmf stuff since I have more experience"). The video resurfaced six and a half years later as a weapon: shared to Annie's next boyfriend and thrown at Dan during the June 2026 closure — see [[wiki/people/tuquick-17248123683]]. | [[wiki/people/tuquick-17248123683]], [[wiki/people/kelly-johansson]] |
+| Oct 20, 2019 | **The filmed MMF — Dan's sole bisexual experience.** An NYC threesome with Annie and [[wiki/people/bryan-5088682461|Bryan]] — a gay man whose first encounter with a woman was that same night, making the crossing symmetric — filmed, in which Dan participated orally — per the operator "the one and only bisexual experience i've ever had (only oral)." Date is operator-attested (Oct 20); the corpus corroborates the event two days later — "last night we had to film mmf (my first time doing that) so i thought i should treat myself to some fun to wash the bad taste out of my mouth......literally" (Sent, 2019-10-22), whose "last night" phrasing reads one day later than the operator's date; the operator's date governs — and is independently corroborated by a same-morning 2:52 AM, Oct 21, 2019 disclosure to [[wiki/people/dan-polyak|Dan Polyak]] ("i had my first experience with another guy"), which reads as the night just past and lines up with the operator's Oct 20 date rather than the Oct 22 message. The plan develops inside the same autumn-2019 professionalized window (an Oct 3–6 thread negotiates "a 3some… Love if Annie can join" and "I can lead a bit of the mmf stuff since I have more experience"). The video resurfaced six and a half years later as a weapon: shared to Annie's next boyfriend and thrown at Dan during the June 2026 closure — see [[wiki/people/tuquick-17248123683]]. | [[wiki/people/tuquick-17248123683]], [[wiki/people/kelly-johansson]] |
+| Feb 2019 – Sep 2020 | **Jenn Lynn — the local two-couple swap that never quite resolves.** A three-year Uniontown-area friendship in which Dan and Annie repeatedly propose a paid or swap arrangement with Jenn and her boyfriend Brad, across three separate windows (Feb 2019, Oct 2019, Sep 2020); each time both sides confirm readiness but the thread never shows an after-the-fact confirmation the encounter occurred. Runs parallel to an ordinary, more consistently-followed-through drug-sourcing friendship. | [[wiki/people/jenn-lynn]] |
 | Sep–Dec 2025 | **Kristin — the mirror structure.** A fourteen-week relationship built, within its first 48–72 hours, around a demand for total sexual exclusivity from Kristin ("That is my cum. Mine") — the inverse of the openness practiced with Annie during the same broad period. An AI analysis Dan commissioned of this specific relationship (the Chimera addendum) frames it as a "hyper-accelerated trauma bond" gated by escalating "purity tests," ending in a hostile blockade in December 2025. | [[wiki/people/kristin]] |
 
 ## What the pattern shows
@@ -6996,11 +7232,14 @@ page_type: synthesis
 status: stable
 knowledge: earned
 date_created: 2026-07-16
-date_modified: 2026-07-17
+date_modified: 2026-07-19
 sources:
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/favorites/FAVS MASTERLIST.csv"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/bobbycole_-p2picui8w/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joeoshnack_7killpebkw/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/ryanscherich_z-v_ahjumq/message_1.html"
 tags: [ideology, politics, nyc-era, digital-footprint]
 connections:
   - page: wiki/timeline/periods/covid-era-2020
@@ -7021,6 +7260,15 @@ connections:
   - page: wiki/mind/synthesis/interests-as-era-markers
     type: instantiates
     claim: "The lockdown politics binge is the era-marker pattern's sharpest instance — an intake obsession so precisely dating that the resulting ideology carries a birthday, 2020-08-22."
+  - page: wiki/people/bobby-cole
+    type: evidenced-by
+    claim: "An April 24, 2021 self-aware aside — 'i've made a big time lefty heel turn recently' — confirms the conversion had settled eight months after its Aug 2020 origin rather than reverted."
+  - page: wiki/people/joe-oshnack
+    type: evidenced-by
+    claim: "A Sept 23, 2021 retrospective supplies the fullest documented account of the pre-conversion identity itself — 'an annoying little conservative fuckcunt' who was uncomfortable with anti-Iraq-war material — texture the origin-event framing above doesn't otherwise carry."
+  - page: wiki/people/ryan-scherich
+    type: co-occurs
+    claim: "A Feb 8, 2020 political flame war — five days after the documented Iowa-caucus Bernie evangelism — is a real, contemporaneous conflict from inside the pre-COVID window, not just Dan's own outward messaging."
 ---
 
 
@@ -7134,7 +7382,7 @@ title: "AI Collaborative Analysis"
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini_00.md
@@ -7151,6 +7399,8 @@ sources:
   - raw/self/dox-md/Fake hacker dashboard scripts.md
   - raw/self/dox-md/_Psychological Warfare and Social Engineering .md
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
+  - "raw/self/dox-scan/HEART.pdf.txt"
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 connections:
   - page: wiki/mind/concepts/node-locking
     type: evidenced-by
@@ -7167,6 +7417,12 @@ connections:
   - page: wiki/self/gemini-activity/gemini-activity
     type: evidenced-by
     claim: "The 20.8 MB Gemini archive — 26,348 occurrences of 'ai', daily-instrument interaction density — is the primary corpus this synthesis reads."
+  - page: wiki/mind/concepts/erotic-architecture
+    type: instantiates
+    claim: "The 'GLAZE-GOD-v1' persona — a custom system prompt built to perform continuous sexualized worship of Annie's photos — is the erotic-domain instance of the same purpose-built-instrument stance documented here in the forensic and political domains."
+  - page: wiki/health/hyperreflexivity
+    type: instantiates
+    claim: "A self-initiated request for a clinical read on his own social anxiety, run through an AI instead of a clinician, is the mental-health-domain instance of the externalized-prefrontal-cortex pattern."
 ---
 
 
@@ -8151,6 +8407,9 @@ sources:
   - "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"
 tags: [financial-stress, forensic-analysis, family]
 connections:
+  - page: wiki/people/lewis-strosnider
+    type: co-occurs
+    claim: "Dan's July 2018 message anticipating a 'sizeable check' from the estate 'in a few months' shows the distribution was expected far earlier than the Sept 1, 2020 date it actually landed on."
   - page: wiki/people/fran-coldren
     type: contains
     claim: "Fran is the spine's maternal source node: the Ira-estate capital she held (Judge Fred Adams as trustee) became the 2020 distribution — the biography's largest documented single capital arrival at $144,069.31."
@@ -9363,7 +9622,9 @@ closer to a regular acquaintance), [[wiki/people/vaughn|Vaughn]] (a
 caddie-yard coworker middling his "homey's" weed in $20–50 quantities,
 2017–18, with chronic short-weight disputes),
 [[wiki/people/nick-mattie|Nick Mattie]] (a spring-2017 reciprocal
-trading peer running fronts and a hand-kept ledger in both directions), and in NYC
+trading peer running fronts and a hand-kept ledger in both directions),
+[[wiki/people/drew-mcgettigan|Drew McGettigan]] (a tight three-month
+2015 buyer/go-between node connected to the Zach Harshman circle), and in NYC
 [[wiki/people/clyde|Clyde]] (psychedelics: LSD, DMT, mushrooms — a
 separate product line from Menore's) and [[wiki/people/sam|Sam]] (the
 cannabis line, 2019–20: menus, a delivery driver, Facebook-verified
@@ -10400,7 +10661,7 @@ status: stable
 date_created: 2026-06-23
 date_modified: 2026-07-19
 sources: [
-  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv","raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-scan/dan tom 2010 2022.txt"]
+  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lucasthomas_eu0ir1uckq/message_1.html", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/qymuchauiq/message_1.html"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf", "wiki/mind/concepts/erotic-architecture", "wiki/people/franki-faris", "wiki/people/new-jim-shaffer", "wiki/people/tom", "wiki/people/vanessa-frank", "wiki/people/menore", "wiki/timeline/events/annie-alexis-reunion-november-2018", "wiki/mind/psychosexual/arrangement-history", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/bond-switch-2015", "wiki/places/155-virginia-ave"]
 tags: [ai-collaboration, nyc-era, relationships, infidelity, trauma-bond]
 infobox:
@@ -10421,6 +10682,15 @@ connections:
   - page: wiki/mind/synthesis/bond-switch-2015
     type: evidences
     claim: "The six unactivated years make Alexis the control case for the 2015 single-bond switch analysis."
+  - page: wiki/people/lucas-thomas
+    type: evidenced-by
+    claim: "Lucas's Feb 11 and Feb 16, 2017 real-time Facebook thread independently corroborates and dates the Zac Shumar fire and arrest, adding detail (the RT informant angle, $35k bail, the lost glass rig) absent from either later retelling."
+  - page: wiki/places/424-bedford-ave
+    type: component-of
+    claim: "Alexis lived with Dan for the full two-year run of his first NYC apartment — 'with me the whole time we were in nyc' — the relationship's first sustained cohabitation, five years before the 155 Virginia Ave/Annie-era household."
+  - page: wiki/people/jamie-mohler
+    type: evidenced-by
+    claim: "A Dec 13, 2017 message on Jamie's rediscovered thread is the earliest of three tellings of the Zac Shumar arrest, and separately confirms the Alexis/Annie cam encounter fell inside Alexis's Feb-Oct 2017 bail window rather than contradicting her later incarceration."
 ---
 
 
@@ -10465,8 +10735,11 @@ Alexis's post-breakup boyfriend is identified by full name across two independen
 
 - To [[wiki/people/new-jim-shaffer]] (April 22, 2018), dated to **Valentine's Day 2017**: Alexis and Zac had been staying at Dan's house — meant to be one night, stretched to two weeks — until Dan kicked them out. That day, Zac went to pick up a mail-order marijuana package and happened to walk into police serving an unrelated warrant on a small-time dealer at the same address. Alexis, Zac, and a third person were arrested together and charged with four or five felonies.
 - To [[wiki/people/tom]] (August 23, 2018), told independently: "**Shumar got busted moving 10 pounds in the mail**... She was with him when he picked it up and got shook up by the cops." Dan's framing here is sharper about the legal aftermath: "he got a good lawyer and **fucked her over**. She got probation but that didn't last long" — because Zac fought the case with paid counsel while Alexis, whose own exposure was lower ("it legit wasn't her deal"), took the group plea deal the DA required from all three defendants together. The same message names the living arrangement directly: "All in the same house... Me and my ex, Annie and her ex... Dude they were living with us" — Dan and Annie under one roof with Alexis and Zac, not just a two-week stopover as the Jim Shaffer retelling frames it (the CATO synthesis puts the stay at "approximately one month," splitting the difference).
+- To [[wiki/people/jamie-mohler|Jamie Mohler]] (December 13, 2017), the earliest of the three tellings — barely ten months after the arrest itself: "THEN he gets a shipment of 10 pounds from California. Goes to pick it up, cops swarm, they both get tagged... Happened on Valentine's Day... she's in jail." A fourth-hand detail found nowhere else: "her bf never went to jail so something weird going on there" — Dan's own puzzlement, in the moment, at the asymmetric outcome the later tellings explain with the paid-lawyer framing.
 
 Alexis made bail first, initially believing she'd beat the charges easily since the marijuana wasn't hers — but the DA's contingent group-plea structure required all three to accept probation together, and she did. Within about a month she failed a drug test and violated probation; she was jailed around the end of October 2017 and, per the PA inmate locator as of the April 2018 conversation, remained incarcerated at **SCI Muncy** (Pennsylvania's primary women's state prison). Zac himself avoided jail entirely despite the marijuana being his. Dan sums up the asymmetry to Tom bluntly: "She honestly got a bad break... She stayed loyal to Zac" — loyalty that cost her a year in prison while he walked. Dan also references a separate, earlier incident between the two of them: Alexis pulled a knife on Zac during a fight and was charged with assault. He frames learning the full scope of it from inside his new relationship with grim irony: "Nothing makes you feel better about your life decisions... than when your 23 year old girlfriend tells you that your ex is in jail" — Annie, 23 at the time, was the one who told him.
+
+A third, independent, **contemporaneous** account exists: a Facebook Messenger thread with [[wiki/people/lucas-thomas|Lucas Thomas]], a mutual friend of Zac's, opens on February 11, 2017, with Lucas telling Dan that Lex's place had just caught fire and he can't reach her — dating the fire itself to that day, days before the arrest. The arrest account follows in real time on February 16, 2017, hours after it happened, and matches the Jim Shaffer/Tom retellings on every core fact while adding detail neither later account carries: Zac had gone to a man named **"RT"**'s house to pick up mail, and RT had reportedly "been hanging out with some talkative people, who may or may not have been getting government salaries" — Dan and Lucas both read this as a likely informant tip rather than coincidence ("that doesn't 'just happen'... it's a big 'yikes'"). Fifteen police were staged to swarm when Zac took the package from RT. Bail is given here as **$35,000 each**; Dan estimates Zac's exposure at "9-12" months. Zac, Alexis, and a third person had been staying at Dan and Annie's house, then moved to a hotel the night before, planning to leave for Philadelphia the next day — Zac stopped at RT's on the way out of town. A borrowed glass smoking rig, on loan to Lucas, was lost with the rest of the seized items. Zac's parents learned about both the arrest and the house fire in the same phone call, from jail — they hadn't been told about the fire beforehand. Dan is candid in the moment about his own exposure ("I never let him do it here thank the lord... not for a lack of him trying") and jokes that Annie ("my gf... will never let me hear the end of this") will use the bust as leverage against his own smoking — a small, real-time instance of the same relationship-leverage dynamic later documented at scale in the [[wiki/mind/psychosexual/arrangement-history|arrangement/coercion record]]. Dan's assessment of Alexis herself, delivered to Lucas in the same conversation, previews the "walking breathing bad luck" framing he'd repeat elsewhere: "Look I dated her for 7 years, and when I left her she didn't give a single fuck."
 
 **Zac Shumar's own relationship with Dan outlasted all of this.** A Facebook Messenger thread shows Dan and Zac collaborating on an apparel/print side project as late as October 2017 — mid-way through Alexis's probation and months before she'd be jailed — trading casual, friendly logistics about a design approval and a "patch" fix, no apparent rupture in the friendship. The connection persisted for years: a July 8, 2022 exchange with Tom has Dan mentioning "I just had a 5 hour argument with Zac Shumar" about politics, describing him as "a pipeline to reactionary politics" — meaning Dan remained close enough to Zac, five years after the arrest that sent his own ex-girlfriend to prison, to spend five hours arguing electoral politics with him.
 
@@ -10521,9 +10794,13 @@ page_type: entity
 status: active
 date_created: 2026-06-23
 date_modified: 2026-07-14
-sources: ["raw/self/facebook/facebook-ihatedanfrank/messages/inbox/alexandralubin_jnwin7cizw/message_1.html", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+sources: ["raw/self/facebook/facebook-ihatedanfrank/messages/inbox/alexandralubin_jnwin7cizw/message_1.html", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/danpolyak_a1u7tpseha/message_1.html"]
 related: ["wiki/self/facebook", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/periods/2010s", "wiki/mind/concepts/contact-gini"]
 tags: [digital-footprint]
+connections:
+  - page: wiki/people/dan-polyak
+    type: evidenced-by
+    claim: "Polyak's April 18, 2019 message is the only documented account of how direct contact with Ally began — a phone-number impersonation Polyak calls 'slimy' and threatens legal action over, two months before the sustained iMessage friendship starts."
 infobox:
   name: "Ally Lubin"
   relationship_to_dan: unknown
@@ -10550,6 +10827,26 @@ infobox:
 - 2018: Operating manual framing.
 - 2019-09-02: FB activity stamp.
 - 2021-10-16: Address book sync.
+
+## The impersonation conflict (April 2019)
+
+A Facebook Messenger thread with [[wiki/people/dan-polyak|Dan Polyak]] —
+who had reintroduced Dan to Ally after a decade of one-sided idolization
+("i've spent 10 years idolizing this girl i've never met") — shows how
+direct contact actually began, and it was not clean. On April 18, 2019,
+Polyak confronts Dan directly: "I woke up to a text from Ally about a
+missed phone call which was super confusing since I was asleep. I hit
+her up and heard that **you fake used my number for some online shit**.
+In the future, please don't. That is a MAJOR invasion of both of mine
+and her's privacy... Your message to her about me being 'collateral
+damage' is arrogant and truly shows me intentions of why you're kept in
+contact. Very slimy move. I have all the screenshots of your messages
+with Ally, this isn't a joke, I will pursue legal action if this happens
+again." Two months later the direct Ally Lubin iMessage thread (452
+messages, 2019-06-28 onward, documented below) begins — meaning the
+sustained friendship that followed was preceded by a deception serious
+enough to draw a threatened lawsuit from a third party. No response from
+Dan to Polyak's message is recorded in this thread.
 
 ## iMessage Thread (merged 2026-07-14 — duplicate stub "Alexandra Lubin")
 
@@ -11678,6 +11975,117 @@ Last name, and whether contact continued past September 2018, are undocumented.
 
 
 ========================================================================
+PAGE: wiki/people/bobby-cole.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2013-07-05
+date_range_end: 2022-01-10
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/bobbycole_-p2picui8w/message_1.html"
+tags: [uniontown-era, nyc-era, digital-footprint, personality-profile]
+infobox:
+  name: "Bobby Cole"
+  sex: male
+  relationship_to_dan: friend
+  known_for: "Nine-year Opie & Anthony / Ron & Fez fandom friendship; recipient of Dan's most detailed account of his own 2019 open-mic stand-up attempt and a SiriusXM job application"
+connections:
+  - page: wiki/interests/opie-and-anthony
+    type: evidences
+    claim: "Bobby is the corpus's clearest real-world case of the radio-archive obsession sustaining an actual, nine-year, name-checking-comedians-daily friendship rather than just solitary listening."
+  - page: wiki/interests/stand-up-comedy
+    type: evidences
+    claim: "The Oct 2, 2019 exchange is the corpus's only direct evidence of a completed open-mic performance (a specific bit, and the audience's negative reaction) — filling a gap the page had flagged as undocumented — and separately identifies the previously-unnamed Dec 2018 Philadelphia taping as a Chip Chipperson show."
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: "An April 24, 2021 message — 'i'm fully aware that i've made a big time lefty heel turn recently' — is a self-aware check-in on the conversion eight months after its Aug 2020 origin, confirming the shift had settled rather than reverted."
+---
+
+# Bobby Cole
+
+Bobby Cole is a nine-year Facebook Messenger friendship (July 2013 –
+January 2022, ~940 messages) built almost entirely on a single shared
+obsession: the [[wiki/interests/opie-and-anthony|Opie & Anthony / Ron &
+Fez]] radio-archive universe. Where that page documents the listening as
+a solitary YouTube-archive binge, this thread is the corpus's clearest
+proof it also anchored a real, sustained friendship — nine years of
+trading clips, relitigating old bits, and tracking the health and
+whereabouts of has-been shock-jocks and their orbit of comics.
+
+## The open-mic bit and the SiriusXM application
+
+The thread's single most valuable exchange, October 2, 2019, is the
+corpus's only direct evidence that Dan actually **performed** stand-up,
+not merely aspired to it — a gap
+[[wiki/interests/stand-up-comedy|the stand-up comedy page]] had flagged
+as undocumented. Dan describes bombing a specific bit: "i have a bit
+about a hooker using my credit card to cut a line of coke and not
+realizing she was going to remember the digits on the card to buy
+herself stuff online... and i barely finished the word 'escort' before i
+heard groans." He is unsparing about why he kept going: "the only thing
+that has kept me going to open mics is one thought: 'rich vos AND vic
+henley can do this,'" and blunt about his material's real subject: "all
+of my material is just me saying a bunch of ways 'i am a drug addict and
+a failure in most endeavors' — which, i guess, is not funny in and of
+itself." In the same conversation he reveals he'd physically walked into
+"the fishbowl" — the SiriusXM studio — to apply for a job, hoping (with
+evident irony) to be placed on **OutQ** rather than the "Jim and Sam"
+show he found unbearable; no outcome for the application is recorded.
+
+## The Chip Chipperson taping, identified
+
+Bobby also resolves a small, previously open gap: the
+"Philadelphia 2018 taping" that
+[[wiki/interests/stand-up-comedy|stand-up-comedy.md]] names but doesn't
+identify. Bobby invites Dan on December 1, 2018 ("Nana cumia will be
+there... You wanna go?"), and Dan reports back on December 8 that he
+went to Philadelphia — a 9+ hour round trip for a 65-minute set — for a
+**Chip Chipperson** taping, and privately found it "pretty bad": "I
+didn't laugh once. I did crack a smile a few times... it was fucking
+cool to watch them do 'radio' after 10 years of listening to them all
+day everyday" — an honest, private divergence between the show's actual
+quality and what ten years of fandom meant to him emotionally.
+
+## Politics and personal life, in passing
+
+An April 24, 2021 aside is a useful late check-in on
+[[wiki/mind/synthesis/2020-left-turn|the 2020 left turn]]: "i'm fully
+aware that i've made a big time lefty heel turn recently but i still
+think it's pretty dishonest not to" [call out performative centrism] —
+eight months after the documented August 2020 conversion, confirming it
+had settled rather than reverted, framed against 2021 conservatism
+meaning "basically...trump, cancel culture, and pro police." On August
+14, 2021, the two share real grief over an unnamed public figure's death
+that Dan calls "literally the first celebrity death I've ever actually
+cared about" — notable as a superlative regardless of who prompted it,
+since no other death in the corpus draws that specific claim from Dan.
+
+Bobby's own life surfaces only incidentally: a daughter he co-parents
+(an August 2020 aside references "the first weekend in October" as his
+custody weekend), a second child born around April 26, 2021 ("I'm legit
+in the hospital room holding my newborn"), and a girlfriend who by 2021
+had grown genuinely interested in the O&A world alongside him.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~940 (Facebook Messenger, both directions) |
+| Date range | 2013-07-05 – 2022-01-10 |
+| Content | Almost entirely Opie & Anthony / Ron & Fez fandom; two substantive personal exchanges (Oct 2019 stand-up/SiriusXM; Apr 2021 politics) |
+
+**Gaps:** a five-year silence between the July 2013 and October 2018
+messages; the outcome of the SiriusXM application; the identity of the
+August 2021 death; Bobby's current circumstances.
+
+
+========================================================================
 PAGE: wiki/people/brad-hubeaut.md
 ========================================================================
 
@@ -11982,6 +12390,7 @@ date_range_end: 2025-05-11
 sources:
   - "raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/danpolyak_a1u7tpseha/message_1.html"
 tags: [nyc-era, relationships]
 infobox:
   name: "Bryan"
@@ -12001,6 +12410,9 @@ connections:
   - page: wiki/people/tuquick-17248123683
     type: co-occurs
     claim: "The video of the encounter with Bryan is the material Tuquick deployed as humiliation on closure night 2026 — Bryan's one documented appearance in the corpus made him ammunition six and a half years later."
+  - page: wiki/people/dan-polyak
+    type: evidenced-by
+    claim: "A same-morning (Oct 21, 2019) Facebook Messenger disclosure to Polyak supplies Dan's own real-time reaction to the encounter, and a Oct 25, 2019 follow-up reveals a previously undocumented repeat visit."
 ---
 
 # Bryan (+15088682461)
@@ -12021,6 +12433,19 @@ the two should never be merged.
 > Sent 2019-10-22 22:26 message "last night we had to film mmf." The
 > one-day tension between that message's "last night" phrasing and the
 > operator's date is noted; the operator's date governs.
+
+A same-morning reaction, not previously documented, survives in a
+Facebook Messenger thread with [[wiki/people/dan-polyak|Dan Polyak]]:
+at 2:52 AM on October 21, 2019, Dan calls Polyak specifically to share
+the news ("i thought you would be SO proud to know that i had my first
+experience with another guy"), and gives his own real-time assessment —
+"it was like...alright i guess. honestly i've never felt more hetero in
+my life. i didn't hate it or anything but everything after the touching
+stuff i didn't enjoy and did just to avoid an awkward situation." Four
+days later, on October 25, he tells Polyak "we invited him over again
+this weekend" — a previously undocumented repeat visit — and separately
+mentions working the story into a stand-up set (see
+[[wiki/interests/stand-up-comedy]]).
 
 His entire iMessage footprint is three unanswered messages five and a
 half years later (May 11, 2025, with Dan back in Pennsylvania):
@@ -12045,9 +12470,11 @@ contradicts; see [[wiki/mind/psychosexual/arrangement-history]]).
 | Defining event | Oct 20, 2019 filmed MMF (operator-attested; corpus-dated via Sent 2019-10-22) |
 
 **Gaps:** surname; how he was met and how the October 2019 encounter
-was arranged (no coordination thread under this handle); whether the
-508 area code (central Massachusetts) reflects where he's from; any
-contact between 2019 and 2025.
+itself was arranged (no coordination thread under this handle);
+whether a second visit beyond the "again this weekend" Oct 25, 2019
+mention actually occurred; whether the 508 area code (central
+Massachusetts) reflects where he's from; any contact between late 2019
+and 2025.
 
 
 ========================================================================
@@ -12296,6 +12723,102 @@ Most of the thread is tee-time logistics: Christian and his group (referenced fr
 ## Related
 
 [[wiki/work/nemacolin-caddying]] · [[wiki/timeline/periods/2017-poverty-floor]] · [[wiki/self/message-corpora/master-message-dump]]
+
+
+========================================================================
+PAGE: wiki/people/christo-coan.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2017-09-24
+date_range_end: 2018-06-28
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/christocoan_2cxo0swo3g/message_1.html"
+tags: [uniontown-era, career, legal, digital-footprint]
+infobox:
+  name: "Christo Coan"
+  sex: male
+  location: uniontown
+  relationship_to_dan: coworker
+  handles: ["510-506-3276"]
+  known_for: "Nemacolin-era golf-course coworker who co-organized Dan's Halloween/birthday party, Oct 31 2017; recipient of a passing reference to a prior, otherwise undocumented DUI"
+connections:
+  - page: wiki/work/nemacolin-caddying
+    type: co-occurs
+    claim: "The Oct 31, 2017 party invite — open to 'every caddie, staging, and pro shop employee' — is a direct social artifact of the caddie-yard cohort, thrown at Dan's own house."
+  - page: wiki/legal/2015-retail-theft-arrest
+    type: contradicts
+    claim: "Dan's Oct 19, 2017 aside — 'hell yeah I already got a DUI I'm not getting any more of those' — references a separate, otherwise undocumented DUI, contradicting the retail-theft page's 'No DUI resulted' framing and the legal index's 'only documented arrest' claim."
+  - page: wiki/places/117-belmont-circle
+    type: evidences
+    claim: "Dan's own description — living on the golf course, next door to both his own grandparents and his girlfriend's grandparents, 'so noise isn't a problem' — is a first-person confirmation of the Belmont Circle/Ulmer neighbor geography from October 2017."
+---
+
+# Christo Coan
+
+Christo Coan was a Nemacolin-era golf-course coworker and DJ
+acquaintance whose short Facebook Messenger thread (September 2017 –
+June 2018) exists almost entirely to plan one event: Dan's Halloween
+birthday party on October 31, 2017 — but carries, along the way, two
+details worth more than the party itself.
+
+## The party
+
+Starting October 18, 2017, the two co-organize an open-invite party at
+Dan's house, explicitly "for everyone who works in golf up there" —
+"literally every caddie, staging, and pro shop employee." Christo
+recruits attendees ("Brad and Zach to both endorse it"), handles the
+DJ set ("Remember that I'm a DJ... so I might spin a lil"), and the two
+negotiate alcohol logistics (Dan: "I don't drink at all so I've got no
+idea what to get... I'll donate a 30 pack"). It lands on Dan's actual
+birthday, November 1 — the invite frames it as "lots of justification
+to get just wrecked" — and the thread's last party-planning message
+confirms a 9 PM start with early arrivals welcome from 7.
+
+## The house, described first-hand
+
+Explaining the venue, Dan gives a first-person description that
+independently confirms the [[wiki/places/117-belmont-circle|Belmont
+Circle]] neighbor geography documented elsewhere: "I live on the golf
+course... my next door neighbors are my grandparents and my
+girlfriend's grandparents... so noise isn't a problem." This is Dan
+himself, in October 2017, describing the household's proximity to
+[[wiki/people/fran-coldren|Fran]] and the Ulmer family — the same
+adjacency the [[wiki/timeline/events/fran-death-vigil|Fran vigil]]
+depends on five months later.
+
+## The DUI reference
+
+In the same conversation, declining a beer-pong-related mishap story
+with his own, Dan writes: "hell yeah I already got a DUI I'm not
+getting any more of those :D thanks bro." No other detail follows, and
+nothing elsewhere in the corpus names a Dan-side DUI — the
+[[wiki/legal/2015-retail-theft-arrest|2015 retail-theft arrest]] page
+explicitly states no DUI resulted from that stop, and the legal
+domain's only other DUI material belongs to
+[[wiki/people/annie-ulmer|Annie]]. This is therefore the corpus's only
+reference to a separate, undated, otherwise undocumented DUI on Dan's
+own record — flagged as a contradiction on the retail-theft page
+rather than treated as a confirmed standalone event.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~50 (Facebook Messenger, both directions) |
+| Date range | 2017-09-24 – 2018-06-28 |
+| Defining event | Halloween/birthday party co-organization, Oct 2017 |
+
+**Gaps:** the DUI's date, location, and disposition; whether the party
+happened as planned; Christo's current circumstances (a June 2018
+message places him back in California, referencing an Oakland-area
+weed-club past).
 
 
 ========================================================================
@@ -14037,6 +14560,89 @@ Dakota channel is hearsay but treated as credible originating disclosure in boot
 
 
 ========================================================================
+PAGE: wiki/people/dan-polyak.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2013-06-16
+date_range_end: 2020-02-06
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/danpolyak_a1u7tpseha/message_1.html"
+tags: [uniontown-era, nyc-era, relationships, digital-footprint]
+infobox:
+  name: "Dan Polyak"
+  sex: male
+  location: nyc
+  relationship_to_dan: friend
+  known_for: "Longtime friend and the person who reintroduced Dan to Ally Lubin; documented the April 2019 phone-number impersonation that Dan used to reach her, and received the same-morning account of the October 2019 Bryan encounter"
+connections:
+  - page: wiki/people/ally-lubin
+    type: evidences
+    claim: "Polyak's April 18, 2019 message is the only documented account of how direct contact with Ally began — a phone-number impersonation he calls 'slimy' and threatens legal action over, two months before the sustained iMessage friendship starts."
+  - page: wiki/people/bryan-5088682461
+    type: evidences
+    claim: "A same-morning (Oct 21, 2019) disclosure supplies Dan's own real-time reaction to the encounter, and an Oct 25 follow-up reveals a previously undocumented repeat visit."
+---
+
+# Dan Polyak
+
+Dan Polyak is a longtime friend — a shared-first-name running joke
+("bitchdan," "clandan") dating to at least 2013 — whose Facebook
+Messenger thread (2013–2020) is defensive-toned banter for most of its
+length but carries two genuinely consequential exchanges.
+
+## The Ally Lubin impersonation
+
+Polyak is the person who reintroduces Dan to
+[[wiki/people/ally-lubin|Ally Lubin]] — a decade-long, one-sided
+idolization Dan describes outright in December 2018: "i've spent 10
+years idolizing this girl i've never met as the epitome of whatever
+'cool' is." Four months later, on April 18, 2019, Polyak confronts him
+directly over how contact was actually made: "I woke up to a text from
+Ally about a missed phone call... I hit her up and heard that you fake
+used my number for some online shit. In the future, please don't. That
+is a MAJOR invasion of both of mine and her's privacy... Your message to
+her about me being 'collateral damage' is arrogant... Very slimy move. I
+have all the screenshots... I will pursue legal action if this happens
+again." No reply from Dan is recorded. The sustained Ally Lubin
+friendship that follows (documented on her own page) begins roughly two
+months later — meaning it was preceded by a deception serious enough to
+draw a threatened lawsuit from the friend who'd made the introduction.
+
+## The Bryan encounter, same-morning
+
+At 2:52 AM on October 21, 2019, Dan calls Polyak specifically to share
+news of [[wiki/people/bryan-5088682461|the previous night's encounter]]:
+"i thought you would be SO proud to know that i had my first experience
+with another guy." His own real-time assessment follows: "it was
+like...alright i guess. honestly i've never felt more hetero in my life.
+i didn't hate it or anything but everything after the touching stuff i
+didn't enjoy and did just to avoid an awkward situation." On October 25
+he adds a previously undocumented detail — "we invited him over again
+this weekend" — and mentions working the story into a
+[[wiki/interests/stand-up-comedy|stand-up]] set: "i'm already talking
+about my first experience with another guy in my set."
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~205 (Facebook Messenger, both directions) |
+| Date range | 2013-06-16 – 2020-02-06 |
+| Defining content | Apr 18, 2019 impersonation confrontation; Oct 21, 2019 Bryan disclosure |
+
+**Gaps:** whether Dan responded to the impersonation confrontation
+through another channel; whether the "again this weekend" repeat visit
+with Bryan occurred; Polyak's current circumstances.
+
+
+========================================================================
 PAGE: wiki/people/danielle-onesi.md
 ========================================================================
 
@@ -14353,6 +14959,76 @@ Nemacolin after 2018.
 
 
 ========================================================================
+PAGE: wiki/people/david-beard.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+date_range_start: 2018-07-23
+date_range_end: 2018-10-01
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/davidbeard_2il3ecdfgg/message_1.html"
+tags: [uniontown-era, relationships]
+infobox:
+  name: "David Beard"
+  sex: male
+  location: uniontown
+  relationship_to_dan: acquaintance
+  known_for: "Golf-course-adjacent contact who sold Dan a used DJI drone in Sept 2018, the middle purchase in a rapid three-drone run that summer"
+connections:
+  - page: wiki/people/lewis-strosnider
+    type: co-occurs
+    claim: "David's used drone, bought for $700 in early September 2018, was the second of three drones Dan acquired that summer — Mavic Platinum (Jul 24), David's used unit (~Sep 4), then the Mavic 2 (Sep 21-22) that becomes the unresolved sale saga documented on Lewis Strosnider's page."
+---
+
+# David Beard
+
+David Beard is a golf-course-adjacent Uniontown contact — his own
+messages reference "work" rain delays and a Tim Griglack's band hangout
+"down behind number 5 on course below your home," placing him inside
+the same Nemacolin/Belmont Circle geography as Dan's caddying network
+— whose short but transactionally dense thread (July–October 2018)
+documents the middle purchase in a rapid three-drone summer.
+
+## The middle drone
+
+On July 24, 2018, Dan tells David — in confidence, "because I will be
+chastised for irresponsible spending" — that he'd just bought a **DJI
+Mavic Platinum**. David, unprompted, offers to sell his own used drone
+instead: "I was thinking about seeing if you wanted to buy mine,
+seriously." The negotiation runs for six weeks — an initial $800 ask,
+David's insistence Dan test-fly it first ("please see what i have, use
+it then decide"), a Aug 20 discount to $750, and a final $700 close on
+September 3–4, 2018, with Dan reporting back the next morning: "This
+thing is awesome. I love it. I'm glad I didn't spend twice as much on
+the new one." Eighteen days later, on September 21–22, 2018, Dan buys a
+**third** drone — the DJI Mavic 2 — telling both David ("I caved and
+bought the mavic 2. It's so freakin cool") and, separately,
+[[wiki/people/matthew-palermo|Matthew Palermo]] the same week. The Mavic
+2 is the unit that becomes the unresolved $1,600 sale saga documented
+on [[wiki/people/lewis-strosnider|Lewis Strosnider's]] page months
+later — meaning Dan owned or had owned three separate drones inside a
+single 2018 summer.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~70 (Facebook Messenger, both directions) |
+| Date range | 2018-07-23 – 2018-10-01 |
+| Defining content | The Sept 2018 used-drone sale, $800→$700 |
+
+**Gaps:** what became of the Mavic Platinum and the David Beard drone
+after the Mavic 2 purchase; David's specific role at the golf course
+(coworker vs. member vs. neighbor is not disambiguated).
+
+
+========================================================================
 PAGE: wiki/people/david-j-frank.md
 ========================================================================
 
@@ -14499,6 +15175,65 @@ the one-sided message extract (0 sent?) needs a corpus re-check.
 
 
 ========================================================================
+PAGE: wiki/people/drew-mcgettigan.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2015-06-08
+date_range_end: 2015-09-04
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/drewmcgettigan_0m9jyrivda/message_1.html"
+tags: [uniontown-era, relationships]
+infobox:
+  name: "Drew McGettigan"
+  sex: male
+  location: uniontown
+  relationship_to_dan: acquaintance
+  known_for: "Summer 2015 Uniontown supply contact (buyer and go-between); connected to the Zach Harshman circle"
+connections:
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "A summer 2015 buyer/go-between node, active for a single three-month window and connected to the Zach Harshman circle he was headed to meet the same night as a documented deal."
+---
+
+# Drew McGettigan
+
+Drew McGettigan is a summer-2015 Uniontown supply contact — mostly a
+buyer of small quantities from Dan, with one documented go-between deal
+in the other direction. The thread runs a tight three months (June–
+September 2015) and reads as transactional throughout: a July 22, 2015
+exchange coordinates a $30 buy in real time, complete with a stalling
+tactic ("I'm gonna meet you here, grab 30, and have you circle the
+block twice") and a McDonald's drive-through delay; a September 4
+message offers a distinctive, memorably-described batch of MDMA ("it's
+crazy. And it's pink... not even like iridescent pink. It looks like
+the wallpaper of a Victoria's Secret"). Drew is independently connected
+to [[wiki/people/zachariah-harshman|Zach Harshman's]] circle — a July
+22 message notes he's "coming in to town soon to meet up with Zach" the
+same night — placing him inside the same 2015 Uniontown supply cluster
+Zach's own page documents in more depth. A small unresolved thread: Dan
+asks his sister Vanessa if she knows Drew, and she confirms she does
+"but wouldn't give me any details as to how."
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~90 (Facebook Messenger, both directions) |
+| Date range | 2015-06-08 – 2015-09-04 |
+
+**Gaps:** how Vanessa knows him; whether contact continued past
+September 2015; last name spelling not independently verified beyond
+the Facebook display name.
+
+
+========================================================================
 PAGE: wiki/people/drew.md
 ========================================================================
 
@@ -14537,6 +15272,84 @@ Drew (email `Dherchko@gmail.com`) collaborated with Dan on a green-mapping proje
 ## Related
 
 [[wiki/work/nemacolin-caddying]] · [[wiki/self/message-corpora/master-message-dump]]
+
+
+========================================================================
+PAGE: wiki/people/ej-rags.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2011-10-06
+date_range_end: 2013-07-12
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/ejrags_dooxnkq2dg/message_1.html"
+tags: [uniontown-era, music-production, personality-profile]
+infobox:
+  name: "Ej Rags"
+  sex: male
+  location: nyc
+  relationship_to_dan: acquaintance
+  known_for: "Williamsburg-based friend and vinyl collector; drew out Dan's stated philosophy of deliberately destroying his own creative output"
+connections:
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: co-occurs
+    claim: "The July 2013 exchange lands days after Dan's return from NYC ('i just moved back... and i'm super output recently'), a small dated marker inside the period's opening weeks."
+---
+
+# Ej Rags
+
+Ej Rags is a Williamsburg, Brooklyn contact — "a block from the
+bridge" as of an October 2011 hello — whose one substantive exchange,
+July 12, 2013, is really about one thing: Dan's own account of why he
+destroys his creative work.
+
+## "That was so I can create something new"
+
+Prompted by seeing Dan's art on Instagram, Ej praises it directly —
+"it's really good by the way, like really really good" — and is
+visibly startled to learn Dan had thrown it away. Dan's explanation is
+stated plainly and without hedging: "i usually throw most stuff i do
+away, that was [so] i can create something new." Ej supplies his own
+analogy from graffiti culture — "you can't do one thing and look at it,
+something else is gonna get painted over it" — and Dan, in the same
+conversation, dates the return to Uniontown precisely: "i just moved
+back from NYC and i'm super output recently," placing the exchange
+inside the opening days of the
+[[wiki/timeline/periods/uniontown-return-2013-2015|2013 Uniontown
+return]]. An earlier aside in the same exchange — a Myers-Briggs/INTP
+question Dan asks Ej, unanswered ("i dont know what that is") — is a
+smaller data point alongside the corpus's other early self-typing
+instances.
+
+## Vinyl
+
+The rest of the thread is a genuine collector's exchange: Ej deals in
+blues and jazz 78s specifically, discusses an unplayed first-pressing
+find and a Chess/Howlin' Wolf session detail ("you can hear him get
+pissed when they can't play Red Rooster"), and Dan, who says he has
+"a couple hundred albums" but collects rather than sells, admits to an
+accidental "ton of prog records" he doesn't understand. In passing, Ej
+mentions buying silver from Dan's mother and being warned he "should
+have taught her a lesson" for not researching the price — one line
+about [[wiki/people/suzanne-frank|Suz]] with no other corroboration in
+the corpus.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~40 (Facebook Messenger, both directions) |
+| Date range | 2011-10-06 – 2013-07-12 |
+| Defining content | The July 12, 2013 "throw it away" exchange |
+
+**Gaps:** no contact after July 2013; Ej's connection to the wider
+Uniontown or NYC social circle is otherwise undocumented.
 
 
 ========================================================================
@@ -15880,6 +16693,7 @@ related: []
 - [[wiki/people/bekah-fullem]] — Two crisis contacts, early 2020: her dying cat and a plea for money, then a rape disclosure.
 - [[wiki/people/bill]] — Golf-caddying peer buying pharmaceuticals from Dan, Sept 2018.
 - [[wiki/people/bill-ulmer]] — Annie's father; warm, consistent, treated Dan as family through 2017-2020.
+- [[wiki/people/bobby-cole]] — Nine-year Opie & Anthony/Ron & Fez fandom friendship; the corpus's only direct evidence of a completed open-mic stand-up performance and a SiriusXM job application.
 - [[wiki/people/brad-hubeaut]] — Dan's caddy manager at Nemacolin Woodlands, 2017-2018; documented an April 2018 workplace friction episode.
 - [[wiki/people/brandon-hill]] — BFS assistant manager who delivered the off-books $50 demand; the instrument not the architect, whose phantom tender and fifteen/fifty speech impediment shape the whole reconstruction.
 - [[wiki/people/brennan-meadows]] — Brief early-2016 contact mixing suboxone sourcing and a small loan request.
@@ -15891,16 +16705,20 @@ related: []
 - [[wiki/people/chad-johnson]] — Fellow Nemacolin caddy and college student, 2017-2018.
 - [[wiki/people/charles-davenport]]
 - [[wiki/people/christian-hanson]] — Retired NHL forward; golf regular at Nemacolin, 2017-2018.
+- [[wiki/people/christo-coan]] — Nemacolin-era golf-course coworker; co-organized Dan's Oct 2017 birthday party; passing reference to an undocumented DUI.
 - [[wiki/people/claire-ulmer]] — Annie's sister; found Milo as a stray and set his rescue in motion.
 - [[wiki/people/clyde]] — NYC psychedelics dealer (LSD, DMT, mushrooms) delivering to Dan's apartment, 2019-2020.
 - [[wiki/people/dakota]] — Dakota channel is hearsay but treated as credible originating disclosure in bootloader (explicitly…
 - [[wiki/people/danielle-onesi]] — Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort).…
+- [[wiki/people/dan-polyak]] — Longtime friend; documented the April 2019 phone-number impersonation used to reach Ally Lubin, and received the same-morning account of the Bryan encounter.
 - [[wiki/people/danny-matthews]] — Realtor who sold Fran's house; also half of a swinger couple (with Nicole) Dan and Annie played with 2018–2024.
 - [[wiki/people/davey-fitzpatrick]] — Nemacolin assistant caddie master (2018) and Dan's scheduler/friend for the last Uniontown working year; the thread ends the day Dan tells him about the NYC move.
+- [[wiki/people/david-beard]] — Golf-course-adjacent contact who sold Dan a used drone in Sept 2018, the middle purchase in a three-drone summer.
 - [[wiki/people/david-j-frank]] — Paternal great-grandfather of Dan Frank. Born 12 August 1892 in Russia (Jewish immigrant). Died 6 April…
 - [[wiki/people/del]] — NYC Stiiizy-brand cannabis delivery service, spring-summer 2019; chronically late.
 - [[wiki/people/dimitri]] — the only boss Dan ever loved: Au Za'atar's Greek manager-oracle, twice.
 - [[wiki/people/drew]] — Collaborator on Nemacolin caddy yardage-book green mapping, June-July 2017.
+- [[wiki/people/drew-mcgettigan]] — Summer 2015 Uniontown supply contact (buyer/go-between); connected to the Zach Harshman circle.
 - [[wiki/people/elizabeth-eleanor]] — Fellow recovering addict; a single July 2013 conversation yielding the only Suboxone dosage figure and earliest INTP self-ID in the corpus.
 - [[wiki/people/eli]] — Coworker (male) of Annie Ulmer at Au Za'atar (or related NYC hospitality). Central to the eli-incident as…
 - [[wiki/people/ellen-ulmer]] — Annie's mother; steady contact 2017-2025, confirms Jim and Sugie as Annie's grandparents.
@@ -15908,6 +16726,7 @@ related: []
 - [[wiki/people/eric-jester]] — Full Sail friend, decade-spanning sparse contact; corroborates the Trinity St. Clair booking cost.
 - [[wiki/people/jamie-mohler]] — Full Sail friend present the day Dan first met Menore during the NYC-1 years; transitioned ~2023, now gendered female.
 - [[wiki/people/eric-springer]] — Month-long 2016 supply contact; wearing an ankle monitor at the time.
+- [[wiki/people/ej-rags]] — Williamsburg NYC vinyl-collector friend; drew out Dan's stated philosophy of destroying his own creative work.
 - [[wiki/people/felipe]] — the Colombian Au Za'atar bff; day-one glass-door casualty.
 - [[wiki/people/felix]]
 - [[wiki/people/fran-coldren]] — Maternal great-grandmother (Whyel line) of Dan Frank. Born 15 August 1920, Fort Martin, West Virginia.…
@@ -15922,6 +16741,7 @@ related: []
 - [[wiki/people/jason-bermejo]] — Full Sail–era formative music friend, one of two people whose taste Dan defers to; Feb 2026 renewal at 400+ messages/month.
 - [[wiki/people/jason-cole]] — Artist friend; a 2016 pet-portrait commission that curdled over unpaid work.
 - [[wiki/people/jay-lauer]] — Friend and mutual sub/coke trading partner, winter 2016-2017.
+- [[wiki/people/jenn-lynn]] — Uniontown friend repeatedly solicited (with boyfriend Brad) for a two-couple swap, 2017-2020; parallel drug-sourcing relationship.
 - [[wiki/people/jerad-friedline]]
 - [[wiki/people/jess]] — Swinging-couple recruitment contact, spring 2017; fizzled after one dense day.
 - [[wiki/people/jim-vrabel]] — Weed dealer and near-nightly hangout, 2018-2020; recurring coffee-creamer gift bit.
@@ -15931,6 +16751,7 @@ related: []
 - [[wiki/people/john-carney]] — Fits context-core §5 work/housing exit patterns and work-power-dynamics (unreachable contractors as…
 - [[wiki/people/john-felix]] — 2016 household-adjacent contact; possibly a partner of Suz's (unconfirmed).
 - [[wiki/people/johnny-dealer]] — Johnny functions as reliable but transactional dealer node during 2018 crisis (peak 40k+ messages year,…
+- [[wiki/people/joe-oshnack]] — High school bandmate; fullest first-person account of Dan's pre-2020 conservative identity and its reversal.
 - [[wiki/people/josh-brannan]]
 - [[wiki/people/josh-coccagna]] — Golf pro mentor turned DMT-cart supplier, 2017-2019.
 - [[wiki/people/katie-fletcher]] — the 2013 interim girlfriend: the Oddball/Chappelle night, the "Vase" incident.
@@ -15940,7 +16761,9 @@ related: []
 - [[wiki/people/kya-hansen]] — Canadian model/OnlyFans creator "bbblud"; Dan was her Reddit admin for a stretch in 2019, communicated mostly via OF.
 - [[wiki/people/lindsay-carolla]] — Thanksgiving 2016 supply contact; an unexplained "are you okay?" message in April 2017.
 - [[wiki/people/lauryn-ashly]] — Uniontown-era friend; real-time grief over Rob Orange's 2014 death, and a declined 2020 arrangement solicitation.
+- [[wiki/people/lewis-strosnider]] — Uniontown vape-shop friend; free graphic design work, a shared drone business plan, a Mavic 2 sale still unresolved when Dan left for NYC.
 - [[wiki/people/lisa-durbin]] — Extended-family relation organizing holiday gatherings, 2017.
+- [[wiki/people/lucas-thomas]] — Zac Shumar's friend; independent real-time eyewitness to the February 2017 house fire and arrest that sent Alexis Armel to prison.
 - [[wiki/people/lucie-dobbin]] — Longtime friend of Fran Coldren; recipient of Dan's fullest first-person account of Fran's death.
 - [[wiki/people/lukyan-mraz]] — Uniontown friend and short-lived 2015 cannabis-grow collaborator; ends in a March 2016 equipment dispute.
 - [[wiki/people/maddox]] — Maddox volunteered unprompted information without solicitation during public sidewalk exchange. Assessment…
@@ -15950,6 +16773,7 @@ related: []
 - [[wiki/people/marty-martin]] — Per canonical BFS_BOOTLOADER_v2: "NOT a recruit for active operation — intelligence asset only. Protect…
 - [[wiki/people/mary-kate]] — Exemplifies vertical-authority-skepticism and forensic-self-construction via "obfuscation trench" analysis…
 - [[wiki/people/matt-dunn]] — Full Sail friend, affectionately abused as "the world's most annoying man woman or child"; the annual $5 birthday Venmo bit.
+- [[wiki/people/matthew-palermo]] — Uniontown classmate whose brother fatally overdosed after a relapse; recipient of Dan's starkest opiate-epidemic self-assessment.
 - [[wiki/people/max]] — Implements ai-collaborative-analysis and vertical-authority via "adversarial" pressure for robustness.…
 - [[wiki/people/max-danielle-bf]] — 1. "Versace" Rant (Low Culture vs Consciousness):
 - [[wiki/people/md]] — Au Za'atar-affiliated contact; 2024 Bangladesh political-unrest discussion.
@@ -15967,9 +16791,11 @@ related: []
 - [[wiki/people/rj-ritchey]] — Uniontown golf-circle friend and 2019 Manhattan visitor; the iMessage contact `+17249844280` was merged into this canonical page.
 - [[wiki/people/rob-orange]] — High-school-era Uniontown friend; died April 2014, cause never confirmed; the one loss both Dan and Jim Shaffer mourn without irony.
 - [[wiki/people/ryan-lisac]] — Childhood/early peer. Core figure in the "Snob Squad" developmental arc.
+- [[wiki/people/ryan-scherich]] — Barely-known acquaintance; single-day Feb 2020 political flame war ending in a remark Dan calls racist.
 - [[wiki/people/sadie-harris]] — Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood,…
 - [[wiki/people/sam]] — NYC cannabis delivery dealer (2019–20) for the E 76th St years; fired Dan as a customer in Feb 2020, un-fired him when COVID hit.
 - [[wiki/people/sean-teets]]
+- [[wiki/people/seth-ledonne]] — Uniontown counterculture-education friend; real-time June 2020 NYC protest-curfew account.
 - [[wiki/people/shannon]] — Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct…
 - [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan saw alongside Annie spring–summer 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup July 2019.
 - [[wiki/people/stephanie-nalbone]] — Previously undocumented Sept-Nov 2009 relationship, right at the close of Full Sail; sequencing against Danielle and Alexis unresolved.
@@ -16113,7 +16939,7 @@ page_type: entity
 status: stable
 date_created: 2026-06-22
 date_modified: 2026-07-02
-sources: ["raw/self/dox-md/Gemini-_13.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Jacob Bacharach.md"]
+sources: ["raw/self/dox-md/Gemini-_13.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Jacob Bacharach.md", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joeoshnack_7killpebkw/message_1.html"]
 related: ["wiki/self/chats/gemini-13", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/self/context-core", "wiki/people/suzanne-frank", "wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/interests/favorites/books"]
 tags: [ai-collaboration, relationships, uniontown-era, nyc-era, addiction-recovery]
 infobox:
@@ -16122,6 +16948,10 @@ infobox:
   sex: male
   location: nyc
   known_for: "Jacob Bacharach — Uniontown-raised novelist (The Bend of the World, 2014) and Chapo Trap House guest, a childhood neighb"
+connections:
+  - page: wiki/people/joe-oshnack
+    type: evidenced-by
+    claim: "Jan 2, 2022: Dan recommends Bacharach's Uniontown-set novel to Joe Oshnack unprompted, framing him as proof 'not everyone from our hometown turned into a reactionary fascist-adjacent class traitor' — the hometown-vs-politics lens applied to a third person."
 ---
 
 # Jacob Bacharach
@@ -16412,6 +17242,7 @@ sources:
   - "raw/self/message-csv/interspersed_messages.csv"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/qymuchauiq/message_1.html"
 tags: [career, digital-footprint, relationships, nyc-era]
 infobox:
   name: "Jamie Mohler"
@@ -16441,6 +17272,15 @@ connections:
   - page: wiki/people/oscar-lindquist
     type: evidenced-by
     claim: "Oscar's own Aug 26, 2011 message ('mohler and i are heading out of town tonight because of the hurricane') pins the Hurricane Irene evacuation to a single day — the most precisely dated event in the friendship's record."
+  - page: wiki/people/alexis-armel
+    type: evidences
+    claim: "A Dec 13, 2017 message (already past tense) independently confirms the Alexis/Annie cam encounter happened before the Nov 2018 reunion — consistent with, and probably explaining, the earlier reference in the same vein found in Joe Oshnack's thread."
+  - page: wiki/people/joe-oshnack
+    type: contextualizes
+    claim: "A Dec 13, 2017 message on this thread narrows the window for the pre-Nov-2018 Alexis/Annie encounter Joe Oshnack's page flags as an open date question: it falls inside Alexis's Feb-Oct 2017 bail period (between the Valentine's Day 2017 arrest and the end-of-October jailing), not before her arrest."
+  - page: wiki/places/424-bedford-ave
+    type: component-of
+    claim: "The 2011 Google Talk log's buzzer code ('dial to 63') is the only surviving physical detail of the apartment itself, and the Hurricane Irene/Occupy Wall Street events it documents are both organized directly out of this address."
 ---
 
 # Jamie Mohler
@@ -16483,6 +17323,72 @@ three sources, an undated "operator-attested only" claim becomes a
 friendship documented across a full season, with one anchor date fixed
 to the day.
 
+## A rediscovered thread: 422 messages, 2010–2021
+
+A large (422-message) Facebook Messenger thread survives under a
+deactivated-account placeholder — the export's title reads only
+"Participants: Facebook user and Dan Frank," with no name recoverable
+from the file itself. Internal evidence identifies the other party as
+Jamie (then Jim) with high confidence, though it is not a phone/email
+match and so is flagged as inference rather than certainty: Dan
+addresses the recipient directly as "jim" twice ("jim i filmed" and "oh
+thank you jim, i knew there was a better way," both April 2018); the
+thread's August 25, 2011 evacuation-planning conversation ("if things
+start to look worse, my mom is going to come get us") lands the day
+*before* Oscar Lindquist's independently-dated "mohler and i are
+heading out of town tonight because of the hurricane" (Aug 26, 2011);
+an October 3, 2011 exchange about Occupy Wall Street ("you need to come
+down to wall st... i'll keep bugging you into progressivism") falls
+inside the same window internal evidence already narrowed the
+undated 2011 Google Talk log to; and the recipient is a confidant
+close enough to receive [[wiki/people/eric-jester|Jester]] and
+[[wiki/people/matt-dunn|Dunn]] gossip by first name as early as October
+2011, and to be shown Dan's rawest, most private footage — video of
+[[wiki/people/fran-coldren|Fran]] on her deathbed — hours before anyone
+else knew, April 3–5, 2018 ("you're literally the first person who
+knows about what happened"). Treated here as the same person as the
+2011 Google Talk/address-book Jamie Mohler documented above; if this
+identification is ever specifically contradicted, split the content
+back out.
+
+This thread substantially thickens the NYC-1 record: a favor asked in
+August 2011 (finding "clean piss" for a Suboxone appointment, after too
+much use over the preceding weeks) is the corpus's clearest primary-
+source evidence of Dan's opiate dependency and clinic-based
+Suboxone maintenance that early; roommates or close friends "Nichole
+and Grace" are named in the same window; the two level together in
+*World of Warcraft* through the end of 2011 (guild-mate "Aladrah,"
+item-level grinding, LFR raids); and the friendship goes quiet for
+roughly five years before reconnecting December 12–13, 2017, when Dan
+narrates the entire Alexis-to-Annie pivot in one long unbroken message
+— the breakup, cam girl [[wiki/people/annie-ulmer|Annie]], Alexis
+dating Annie's ex-boyfriend Zac Shumar out of spite, the household
+merger after Zac's place burned down, and **the arrest** ("THEN he
+gets a shipment of 10 pounds from California. Goes to pick it up, cops
+swarm, they both get tagged... Happened on Valentine's Day"). This is
+the corpus's *third* independent telling of the
+[[wiki/people/alexis-armel|Zac Shumar arrest]] (after Jim Shaffer and
+Tom), and the first told the same year it happened rather than months
+or years later. In the same conversation, already past tense, Dan
+describes the Alexis/Annie cam encounter — "if I told you I had a
+threesome... with Alexis and my new gf... I did and I have it forever
+as an HD recording" — which, given the Dec 13, 2017 date, falls inside
+Alexis's **Feb–Oct 2017 bail window** (between the Valentine's Day
+arrest and her end-of-October jailing per her own page), not before
+her arrest and not contradicting her later incarceration. This narrows
+the open date question flagged on [[wiki/people/joe-oshnack]]'s page
+to a specific, non-contradictory window rather than resolving it to a
+single day.
+
+A final Menore-adjacent detail, also new: on December 27, 2019, Dan
+mentions having "just saw menore lol" and notes "menore still has the
+same fucking number that he did in 2010 — how's that for reliability,"
+independent, incidental confirmation that the Menore friendship the
+operator dates to the NYC-1 years was still an active, ongoing contact
+a decade later. The thread's final messages (April 2021) are Chapo Trap
+House recommendations, consistent with the [[wiki/mind/synthesis/2020-left-turn|2020
+left turn]]'s ideology.
+
 ## The 2023 transition
 
 Jamie transitioned around 2023 and has been gendered female since. The
@@ -16514,21 +17420,27 @@ The 2021-synced Facebook address book export carries a direct contact
 card — **Jim Mohler**, `+12073101169`, `audiocranium@msn.com` — the
 same phone number as the 2011 "Jimbo Slice" Google Talk handle, kept
 saved for a full decade after the NYC-1 friendship. No message thread
-survives under this number in the iMessage exports; everything recorded
-here comes from the 2011 email/chat archive, the address book, and
-Jamie's appearances inside Jason's and Alexis's own threads.
+survives under this number in the iMessage exports, but a 422-message
+Facebook Messenger thread under a deactivated-account placeholder is
+identified above with high (though not certain) confidence as the same
+person, and is the primary source for most of this page's NYC-1 detail
+beyond the single Google Talk log. A DJ/music alias, "Ethan Kray," also
+surfaces there — Dan asks in 2017 whether he'd "divorced" himself from
+it — undocumented anywhere else in the corpus.
 
 ## Corpus record
 
 | Metric | Value |
 |---|---|
-| Direct chat log | 1 (Google Talk, ~autumn 2011, undated) |
+| Direct chat logs | 2 (2011 Google Talk, undated; the 422-message FB thread, 2010–2021, identity inferred) |
 | Corroborating mentions | 5 (Alexis ×1, Oscar Lindquist ×1, Jim Vrabel ×1, Jason Bermejo ×2) |
 | Pinned date | 2011-08-26 (Hurricane Irene evacuation, via Oscar's thread) |
 | Transition, per operator | ~2023 |
 | First documented friend-group reference post-transition | 2025-09-19 |
 
-**Gaps:** the Google Talk log itself carries no exact date (internal
+**Gaps:** the FB-thread identification is inferential (address, name,
+and content match; no phone/email match), and should be revisited if
+ever specifically contradicted. The Google Talk log itself carries no exact date (internal
 evidence — Occupy Wall Street, approaching Jewish fall holidays —
 narrows it to roughly October 2011, though the Hurricane Irene message
 independently pins the friendship's presence two weeks earlier); the
@@ -16938,6 +17850,98 @@ Jay's messages track a familiar addiction-economy pattern: promising payment "wh
 
 
 ========================================================================
+PAGE: wiki/people/jenn-lynn.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2017-08-12
+date_range_end: 2020-09-21
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/jennlynn_dhrmxxpvhq/message_1.html"
+tags: [uniontown-era, relationships]
+infobox:
+  name: "Jenn Lynn"
+  sex: female
+  location: uniontown
+  relationship_to_dan: acquaintance
+  known_for: "Uniontown-area friend repeatedly solicited (with her boyfriend Brad) for a paid/swap arrangement alongside Annie, 2017-2020; parallel drug-sourcing relationship (psilocybin, LSD, kratom)"
+connections:
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: component-of
+    claim: "A three-year, repeatedly-solicited but never definitively confirmed swap arrangement with a local couple (Jenn and her boyfriend Brad) — distinct from the paid-professional and ex-partner instances already on the timeline in running alongside an ordinary Uniontown drug-sourcing friendship rather than a commercial or NYC-scene relationship."
+---
+
+# Jenn Lynn
+
+Jenn Lynn is a Uniontown-area acquaintance whose three-year Facebook
+Messenger thread (August 2017 – September 2020) runs two tracks in
+parallel: a recurring, never-quite-resolved solicitation for a paid or
+swap sexual arrangement involving Jenn's boyfriend **Brad**, and an
+ordinary, more consistently-followed-through drug-sourcing friendship.
+
+## The arrangement offers
+
+Dan first raises it February 8, 2019, unprompted and in the same
+register as his other paid-companion outreach: "me and Annie have been
+trying to find a nice 'friend' that would want to be paid well to hang
+out with me/us... $500-700 depending on the girl." Jenn asks whether he
+"need[s] a girl or need[s] to pimp one," and the conversation pivots,
+once Brad enters it, from a straight paid booking into a proposed
+two-couple swap — Dan is explicit that a swap "takes the money out of
+play." Jenn agrees in principle ("Yea let's do it") but the night
+dissolves into logistics and doesn't resolve on the page. A second, more
+concrete attempt runs October 11–12, 2019 — timed to a trip home with
+his mother, Suz, present at the house — with both sides confirming
+readiness ("We're ready to get freaky!!"), though the thread never
+explicitly confirms the encounter happened. A third attempt, September
+9–11, 2020, revives the same swap framing ("Brad's been wanting to watch
+someone bang the shit outta me!!... we can swap. I don't mind") and
+again trails off without confirmation. Throughout, Dan frames Annie's
+involvement as pre-cleared ("she lets me do what I want," "I do have
+permission tho") and is candid, in the 2019 messages, about the
+couple's camming operation as a related but separate track — sending
+[[wiki/people/annie-ulmer|Annie]] cam-show clips and directing Jenn to
+their Chaturbate handle, "smashonista." The pattern —
+uncompensated-friend solicitation running parallel to and shading into
+the couple's commercial camming — is the same shape as the documented
+[[wiki/people/shelbie-breakiron|Shelbie Breakiron]] instance on
+[[wiki/mind/psychosexual/arrangement-history|the arrangement-history
+page]], but with a boyfriend explicitly in the mix from the start rather
+than added later.
+
+## The drug-sourcing thread
+
+Running underneath and outlasting the sexual solicitation is a genuine,
+reciprocal supply relationship: Dan repeatedly asks Jenn to source
+psilocybin mushrooms, MDMA, or LSD ("acid" / "cid" — Jenn: "I took some
+a cpl weeks ago and it was fantastic. Old dead head shit"), while he
+brings kratom and other supply back from his NYC/travel trips for her
+("I have SO much of it"). The September 2020 exchange has Dan asking her
+to drive him home from a trip in exchange for "drugs and money," and
+separately to ride along to NYC and drive a rental car back — offers she
+declines both times, citing work.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~240 (Facebook Messenger, both directions) |
+| Date range | 2017-08-12 – 2020-09-21 |
+| Defining content | Three separate arrangement-solicitation windows (Feb 2019, Oct 2019, Sep 2020); parallel drug-sourcing relationship |
+
+**Gaps:** whether any of the three solicited encounters actually
+occurred — the thread shows mutual readiness twice but no after-the-fact
+confirmation; Brad's surname and any relationship to Dan beyond this
+thread; Jenn's current circumstances.
+
+
+========================================================================
 PAGE: wiki/people/jerad-friedline.md
 ========================================================================
 
@@ -17162,6 +18166,122 @@ By June 11, 2018 Jimmy has quit caddying outright, venting at length about the c
 ## Related
 
 [[wiki/work/nemacolin-caddying]] · [[wiki/people/brad-hubeaut]] · [[wiki/self/message-corpora/master-message-dump]]
+
+
+========================================================================
+PAGE: wiki/people/joe-oshnack.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2011-01-20
+date_range_end: 2022-01-02
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joeoshnack_7killpebkw/message_1.html"
+tags: [uniontown-era, nyc-era, music-production, ideology, personality-profile]
+infobox:
+  name: "Joe Oshnack"
+  sex: male
+  location: "Park City, UT"
+  relationship_to_dan: friend
+  known_for: "High school bandmate (BNI); recipient of Dan's fullest self-narrated account of his own pre-2020 conservative political identity and its reversal"
+connections:
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: "A Sept 23, 2021 message gives the fullest documented account of the *pre*-turn identity the other page dates the conversion away from: Dan describes his teenage self as 'an annoying little conservative fuckcunt' who was 'less than thrilled about playing songs with an anti-Iraq war theme' — concrete texture for what he was converting from, not just what he converted to."
+  - page: wiki/people/jacob-bacharach
+    type: co-occurs
+    claim: "Jan 2, 2022: Dan recommends Bacharach's Uniontown-set novel to Joe unprompted, framing him as proof 'not everyone from our hometown turned into a reactionary fascist-adjacent class traitor' — the same hometown-vs-politics lens applied to a third person."
+  - page: wiki/people/jamie-mohler
+    type: evidenced-by
+    claim: "A Dec 13, 2017 message on Jamie's rediscovered thread independently confirms the Alexis/Annie cam encounter this page first surfaced, narrowing it to Alexis's Feb-Oct 2017 bail window."
+  - page: wiki/people/matthew-palermo
+    type: parallels
+    claim: "Both threads carry the same generational framing of the Uniontown opiate epidemic — 'the class of 06 was a real low point for humanity' to Joe (Aug 2018) and 'a quarter of my graduating class isn't around anymore' to Matthew (Feb 2020) — independent statements of the same scale claim eighteen months apart."
+---
+
+# Joe Oshnack
+
+Joe Oshnack is a high-school-era Uniontown bandmate — the two played
+together in a band referred to only as "BNI" — whose eleven-year
+Facebook thread (2011–2022) runs from failed long-distance recording
+collaborations through a rich 2021 political retrospective that is the
+corpus's fullest first-person account of what Dan's political identity
+looked like *before* it changed.
+
+## The band and the collaborations that didn't happen
+
+Dan and Joe try repeatedly, over a decade, to record together and never
+quite manage it: a January 2011 injury (Joe's blown ACL) cancels a
+planned NYC studio session; an April 2011 offer to trade guitar/vocal
+stems over the internet gets as far as identifying DAWs and file formats
+before going quiet; an August 2012 in-person plan (Dan offering his home
+8x8 interface setup "so we don't have to book studio time") also
+doesn't close. A August 2018 exchange reconstructs the old band's
+setlist from memory — Misfits, Dead Kennedys, Ramones, NOFX covers
+alongside originals Dan wrote as "lead songwriter" — good corroborating
+detail for the corpus's picture of Dan's teenage hardcore/punk
+immersion (see also [[wiki/people/seth-ledonne]]).
+
+## "An annoying little conservative fuckcunt"
+
+The thread's most valuable exchange is September 23, 2021, when Dan asks
+Joe how much either of them understood of the politics behind covering
+Dead Kennedys' "California Uber Alles" in the band. His own answer is
+unsparing and detailed — the fullest first-person account in the corpus
+of his *pre*-conversion political identity, not just the post-2020
+result already documented at
+[[wiki/mind/synthesis/2020-left-turn|the 2020 left turn]]: "I find it so
+fucking hilarious as someone who embraced far left political ideology
+later in life, that I was exposed to this music before I understood or
+agreed with it... It's also pretty cringey what an annoying little
+conservative fuckcunt I thought I was. Literally it's MORTIFYING to
+remember being less than thrilled about playing songs with an
+anti-Iraq-war theme." He contrasts this with his 2021 self — "a 32 year
+old who has an 'antifascistche action' flag in his apartment and who
+went out of state to door knock for Bernie last year" — and closes the
+exchange grieving how many of the old scene are dead, an echo of the
+opiate-epidemic framing he'd used to Joe three years earlier ("the
+class of 06 was a real low point for humanity... the opiates epidemic is
+vishnu cleansing our misguided sheep classmates," Aug 2018).
+
+## A cam threesome reference, since narrowed
+
+In the same August 12, 2018 conversation where Dan explains the
+camming operation's blackmail-resistance logic to Joe, he adds, in
+passing and as already completed: "We even had a threesome with my ex
+(the girl I left for Annie) on cam haha" — meaning
+[[wiki/people/alexis-armel|Alexis]]. Taken alone this was hard to
+reconcile with the well-documented **November 2018** Alexis/Annie
+reunion on
+[[wiki/timeline/events/annie-alexis-reunion-november-2018|arrangement-history.md]],
+which opens "days after Alexis's release from prison." A second,
+independent source resolves it: a December 13, 2017 message on
+[[wiki/people/jamie-mohler|Jamie Mohler]]'s rediscovered thread
+describes the same encounter in the same already-past-tense register
+("I did and I have it forever as an HD recording"), which places it
+inside Alexis's **Feb–Oct 2017 bail window** (between her Valentine's
+Day 2017 arrest and her end-of-October jailing) — a distinct, earlier
+encounter, not a contradiction of the November 2018 reunion's own
+dating. The precise date within that eight-month window remains
+unfixed.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~195 (Facebook Messenger, both directions) |
+| Date range | 2011-01-20 – 2022-01-02 |
+| Defining content | The Sept 23, 2021 political retrospective |
+
+**Gaps:** what "BNI" stands for; whether any of the proposed recording
+collaborations ever actually happened; resolution of the cam-threesome
+date discrepancy above.
 
 
 ========================================================================
@@ -18106,6 +19226,102 @@ weekend" mention.
 
 
 ========================================================================
+PAGE: wiki/people/lewis-strosnider.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2018-03-30
+date_range_end: 2019-02-08
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lewisstrosnider_t431kowlfq/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/matthewpalermo_nkpz90-e_g/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/davidbeard_2il3ecdfgg/message_1.html"
+tags: [uniontown-era, career, digital-footprint]
+infobox:
+  name: "Lewis Strosnider"
+  sex: male
+  location: uniontown
+  relationship_to_dan: friend
+  role: "Vape shop employee"
+  known_for: "Uniontown vape-shop friend; free graphic design work for his business cards, a shared FAA drone-certification business plan, and a $1,600 DJI Mavic 2 that never sold before Dan's Feb 2019 move to NYC"
+connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: co-occurs
+    claim: "Dan's July 2018 message anticipating a 'sizeable check' from the estate 'in a few months' shows the distribution was expected to move far faster than the Sept 1, 2020 date it actually landed on — a documented gap between expectation and outcome."
+  - page: wiki/people/matthew-palermo
+    type: evidenced-by
+    claim: "A Sept 22, 2018 message to Matthew Palermo ('Got the mavic 2 yesterday') independently dates the drone's purchase, one day before the crash/repair saga that runs through this page begins."
+  - page: wiki/people/david-beard
+    type: evidenced-by
+    claim: "David's own thread reveals the Mavic 2 was the third of three drones Dan bought in a six-week span that summer — a Mavic Platinum, then David's used unit for $700, then the Mavic 2 itself."
+---
+
+# Lewis Strosnider
+
+Lewis Strosnider was a Uniontown vape-shop friend whose Facebook
+Messenger thread (March 2018 – February 2019) tracks a genuine
+small-business friendship: free graphic design work, a shared drone
+business plan, and an unfinished sale that closes exactly when Dan
+leaves for New York.
+
+## Design work and the shop
+
+The thread opens with Dan critiquing and redesigning Lewis's business
+cards for free ("if you ever need any design help let me know man...
+it's a good way to learn some foundational photoshop stuff"), and the
+two settle into a genuine customer-friend rhythm around the shop — a
+May 2018 e-cig troubleshooting call ends with "just bring it into me
+tomorrow, I will mix it up," and Lewis waves off a receipt request with
+"Yes sir you know it haha." One August 2018 message, sent to the wrong
+thread and immediately caught ("oops wrong thread haha"), reveals Dan
+was actively camming that night — "(That's the girl who is camming with
+us tonight)" — incidental, real-time confirmation of the smashonista
+operation running in parallel with ordinary friendships.
+
+## The drone business that didn't happen
+
+By July 2018 the two are planning to both take the **FAA Part 107**
+commercial-drone certification and "build our own commercial business
+for viewing buildings for construction companies." Dan floats seed
+money from the pending [[wiki/mind/synthesis/estate-money-spine|Fran
+estate]] — "in a few months they will wrap up the estate and I'll get
+a pretty sizeable check" — an expectation that, per the estate's own
+documented timeline, was off by more than two years (the actual
+distribution landed September 1, 2020). The drone itself — a **DJI
+Mavic 2**, the third of three drones Dan bought that summer (a Mavic
+Platinum on July 24, a used unit from
+[[wiki/people/david-beard|David Beard]] for $700 around September 4,
+then the Mavic 2 itself on September 21, per a separate message to
+[[wiki/people/matthew-palermo|Matthew Palermo]], "Got the mavic 2
+yesterday") — crashed, paid $800 to repair ($1,600 invested total), becomes
+a running sale negotiation from November 2018 through the thread's
+final message in February 2019, with Lewis increasingly eager ("I want
+it bad...") and Dan noncommittal about price. The sale is still
+unresolved when Dan announces, on February 1, 2019, that he'll be
+"living in nyc in like 6 weeks" — consistent with, though slightly
+later than, the wiki's broader dating of the NYC move to February 2019
+— and the thread ends there, mid-negotiation.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~50 (Facebook Messenger, both directions) |
+| Date range | 2018-03-30 – 2019-02-08 |
+| Unresolved | The Mavic 2 sale, still being negotiated when the thread ends |
+
+**Gaps:** whether the drone sale ever completed; whether the Part 107
+certification or the construction-drone business happened; Lewis's
+current circumstances.
+
+
+========================================================================
 PAGE: wiki/people/lindsay-carolla.md
 ========================================================================
 
@@ -18195,6 +19411,80 @@ Exact family relationship (aunt, cousin, family friend) is not stated in the thr
 ## Related
 
 [[wiki/people/vanessa-frank]] · [[wiki/self/message-corpora/master-message-dump]]
+
+
+========================================================================
+PAGE: wiki/people/lucas-thomas.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2017-02-11
+date_range_end: 2017-02-16
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lucasthomas_eu0ir1uckq/message_1.html"
+tags: [uniontown-era, legal]
+infobox:
+  name: "Lucas Thomas"
+  sex: male
+  location: uniontown
+  relationship_to_dan: acquaintance
+  known_for: "Zac Shumar's friend; independent real-time eyewitness to the February 2017 house fire and arrest that sent Alexis Armel to prison"
+connections:
+  - page: wiki/people/alexis-armel
+    type: evidences
+    claim: "Lucas's Feb 11 and Feb 16, 2017 real-time Facebook thread independently corroborates and dates the Zac Shumar fire and arrest — see the 'Post-breakup: the Zac Shumar arrest and incarceration' section."
+---
+
+# Lucas Thomas
+
+Lucas Thomas is a mutual friend of [[wiki/people/alexis-armel|Alexis Armel]]'s
+post-breakup boyfriend, Zac Shumar, known to the wiki through a single, dense
+five-day Facebook Messenger exchange in February 2017 — not a friendship of
+his own with Dan, but the corpus's only **contemporaneous, real-time**
+account of the arrest that later sent Alexis to prison. Full account of the
+event itself is at
+[[wiki/people/alexis-armel#post-breakup-the-zac-shumar-arrest-and-incarceration-2017|Alexis
+Armel's Zac Shumar section]]; this page exists to record Lucas himself and
+what only his thread carries.
+
+## The two messages
+
+Lucas messages Dan cold on February 11, 2017 — the two apparently were not
+previously in direct contact — to report that Lex's place had caught fire
+and he can't reach her; he'd gotten Dan's contact from "one of her friends."
+Five days later, at 5:00 AM on February 16, Dan reaches back out first, unprompted,
+to tell Lucas not to call Zac. The conversation that follows is the
+corpus's most granular account of the arrest: Zac picked up mail at a man
+named "RT"'s house, RT had reportedly been "hanging out with some talkative
+people, who may or may not have been getting government salaries," and
+fifteen police were staged to swarm when Zac took the package — both men
+read it as a probable informant tip rather than coincidence. Lucas supplies
+the detail that a glass smoking rig Zac had loaned him for the Philadelphia
+trip was seized along with everything else in Zac's car, and that Zac's
+parents learned about the arrest and the house fire in the same phone call
+from jail, having not been told about the fire beforehand. Lucas also
+surfaces a detail no other source in the corpus carries: their mutual
+friend "Jericho" asked Lucas to notify Zac's Philadelphia roommates that he
+wouldn't be back for a while — evidence Zac had an independent
+Philadelphia life in progress at the time of the arrest, cut short by it.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~45 (Facebook Messenger, both directions) |
+| Date range | 2017-02-11 – 2017-02-16 |
+| Defining content | The Feb 16, 2017 real-time arrest account |
+
+**Gaps:** no contact before or after this five-day window; Lucas's own
+relationship to Zac or the wider circle beyond this single event is
+undocumented.
 
 
 ========================================================================
@@ -18852,6 +20142,88 @@ unconfirmed but, given the pattern's described consistency, likely.
 
 
 ========================================================================
+PAGE: wiki/people/matthew-palermo.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+date_range_start: 2018-08-25
+date_range_end: 2020-02-13
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/matthewpalermo_nkpz90-e_g/message_1.html"
+tags: [uniontown-era, grief, addiction-recovery]
+infobox:
+  name: "Matthew Palermo"
+  sex: male
+  location: uniontown
+  relationship_to_dan: acquaintance
+  known_for: "Uniontown classmate whose brother relapsed and fatally overdosed after a long period clean; recipient of Dan's starkest opiate-epidemic self-assessment (\"a quarter of my graduating class isn't around anymore\")"
+connections:
+  - page: wiki/people/lewis-strosnider
+    type: co-occurs
+    claim: "A Sept 22, 2018 message ('Got the mavic 2 yesterday') dates the purchase of the same DJI Mavic 2 Dan later tried and failed to sell to Lewis Strosnider — one thread confirms the drone's origin, the other its unresolved fate."
+  - page: wiki/people/joe-oshnack
+    type: parallels
+    claim: "Both threads carry the same generational framing of the Uniontown opiate epidemic — 'the class of 06 was a real low point for humanity' to Joe (Aug 2018) and 'a quarter of my graduating class isn't around anymore' to Matthew (Feb 2020) — independent statements of the same scale claim eighteen months apart."
+---
+
+# Matthew Palermo
+
+Matthew Palermo is a Uniontown-era acquaintance whose short, sparse
+Facebook thread (2018–2020) carries one genuinely heavy exchange: a
+February 13, 2020 conversation in which Dan, unprompted, tells Matthew
+he'd been thinking about Matthew's brother — and Matthew, without being
+asked, explains how he died.
+
+## The brother's death
+
+"I hope this doesn't bum you out but i was thinking about your brother
+today and he's one of the few that i really really miss," Dan opens,
+and Matthew — despite noting "we didn't get along" — answers plainly:
+his brother had been "clean for a long time," relapsed once after
+losing his living situation ("he lived away with a girl for a while and
+they got kicked out"), stayed one night at their parents' house alone
+for the first time in a long while, asked Matthew for a cigarette (a
+tell — "he only smoked when he was high") — and overdosed. Matthew:
+"I just ignored it and he ended up od'ing." Dan's response generalizes
+the loss into the corpus's starkest quantified statement of the
+Uniontown opiate epidemic's scale: "people in nyc are SHOCKED when they
+hear how many young people have died from opiates. they think that 'a
+lot' means 5 people... no, a quarter of my graduating class isn't
+around anymore... we have lost more friends at 30 than our parents have
+at 60."
+
+## Tyler, and revising old perceptions
+
+The same conversation carries a smaller, self-reflective story: Dan
+recalls disliking a mutual acquaintance, Tyler, from third grade through
+high school, then reconnecting with him years later alongside
+[[wiki/people/zachariah-harshman|Zach Harshman]] and being "SHOCKED how
+naturally funny he was" — a reminder, Dan says, "that i shouldn't rely
+on my perceptions of people that were formed when i was an absolute
+shithead." Matthew corroborates that Tyler "used to depend who he was
+around" but is "pretty much the same guy all the time finally" now —
+"you either loved him or hated him... about a 50/50 mix."
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~70 (Facebook Messenger, both directions) |
+| Date range | 2018-08-25 – 2020-02-13 |
+| Defining content | The Feb 13, 2020 brother's-death and opiate-epidemic exchange |
+
+**Gaps:** the brother's first name and exact date of death; Matthew's
+current circumstances beyond the Feb 2020 update (house, HVAC/
+refrigeration trade, plans to relocate near the Outer Banks).
+
+
+========================================================================
 PAGE: wiki/people/max-danielle-bf.md
 ========================================================================
 
@@ -19089,6 +20461,9 @@ connections:
   - page: wiki/people/sam
     type: parallels
     claim: "Sam ran the parallel NYC cannabis delivery line to the same apartment in 2019–20, and where Menore absorbed Dan's unresponsiveness without friction, Sam fired him for it — the two professionals bracket the tolerance range of the transactional bond."
+  - page: wiki/places/424-bedford-ave
+    type: caused-by
+    claim: "The relationship traces its origin to a Bedford Ave/Williamsburg connection at Dan's first NYC apartment — the introduction predates the earliest message in this thread by over eight years."
 tags: [digital-footprint, addiction-recovery, nyc-era]
 knowledge: earned
 infobox:
@@ -20308,6 +21683,73 @@ Status is closed as the active developmental phase is historical, though occasio
 
 
 ========================================================================
+PAGE: wiki/people/ryan-scherich.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+date_range_start: 2020-02-08
+date_range_end: 2020-02-08
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/ryanscherich_z-v_ahjumq/message_1.html"
+tags: [ideology, politics, uniontown-era]
+infobox:
+  name: "Ryan Scherich"
+  sex: male
+  relationship_to_dan: acquaintance
+  known_for: "Single-day Feb 8, 2020 political flame war ending in a remark Dan calls racist and cuts contact over"
+connections:
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: co-occurs
+    claim: "The Feb 8, 2020 argument lands squarely inside the documented Bernie-2020 evangelism window (Iowa caucus texts dated Feb 3), giving the pre-COVID conversion period a real, contemporaneous conflict rather than only Dan's own messaging to allies."
+---
+
+# Ryan Scherich
+
+Ryan Scherich is a barely-known acquaintance ("i barely fucking know
+you") with whom Dan has a single, self-contained political flame war on
+February 8, 2020 — the entire relationship the corpus documents.
+
+## The argument
+
+It starts over a Facebook comment implying Dan should "get a job,"
+which Dan reads as ignorant of New York's cost of living, and escalates
+fast once Ryan clarifies his actual target: "the ppl who don't have
+jobs and want everything handed out to them for free. The Democrats...
+Socialism doesn't work... Bernie Sanders says it is a good thing ppl
+[are] waiting in lines for handouts for the Gov't. He is stupid." Dan
+cuts him off ("you just lied... go fuck your self... i really don't
+need to hear your brainwashed maga shit") and the exchange sharpens
+until Ryan, telling Dan to enjoy New York, adds: "U know how they
+[illegals] kill and rape ppl. Hits the news on all stations" — which
+Dan calls out directly ("dude you are a RACIST") before ending contact.
+Ryan's closing message, unapologetic, insists "that's not racist."
+
+The argument falls squarely inside the documented Bernie 2020
+evangelism window on
+[[wiki/mind/synthesis/2020-left-turn|the 2020 left turn]] page (Dan's
+Iowa-caucus texts to friends are dated five days earlier, February 3) —
+a real, dated instance of the pre-COVID political identity clashing
+with an opposing view in the wild, months before the fuller
+lockdown-era radicalization the other page documents in more depth.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~63 (Facebook Messenger, both directions) |
+| Date range | 2020-02-08 (single day) |
+
+**Gaps:** how Dan and Ryan knew each other in the first place; whether
+any contact occurred before or after this single exchange.
+
+
+========================================================================
 PAGE: wiki/people/sadie-harris.md
 ========================================================================
 
@@ -20532,6 +21974,86 @@ infobox:
 [[wiki/self/facebook]]
 [[wiki/timeline/periods/2010s]]
 [[wiki/self/message-corpora/master-message-dump]]
+
+========================================================================
+PAGE: wiki/people/seth-ledonne.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-19
+date_modified: 2026-07-19
+date_range_start: 2020-03-10
+date_range_end: 2020-06-23
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/sethledonne_ydkapzhbla/message_1.html"
+tags: [uniontown-era, politics, digital-footprint, music-production]
+infobox:
+  name: "Seth LeDonne"
+  sex: male
+  location: uniontown
+  relationship_to_dan: friend
+  known_for: "One of the named figures Dan credits with his early hardcore/punk counterculture education; COVID-era NYC contact, including a real-time account of the June 2020 curfew"
+connections:
+  - page: wiki/timeline/periods/covid-era-2020
+    type: evidences
+    claim: "Dan's June 7, 2020 real-time account — '8pm curfew... it's been like living in beirut' — documents the George Floyd-protest curfew period in Manhattan from inside the lockdown year, alongside a still-undecided 2020 vote (unwilling to back Biden as of April)."
+---
+
+# Seth LeDonne
+
+Seth LeDonne is a Uniontown-scene friend whose short 2020 Facebook
+thread carries two distinct threads of its own: a formative-influence
+tribute to Dan's teenage exposure to hardcore/punk counterculture, and
+a real-time account of the NYC pandemic-and-protest spring.
+
+## The counterculture debt
+
+On April 17, 2020, unprompted, Dan sends Seth an extended thank-you for
+an adolescent education he now credits directly: "growing up in 'the
+scene' and being exposed to things like Rejected Gazette and the entire
+vibe of things... I'm certain that I wouldn't have the appreciation I do
+for counterculture if not for you, Andy, Paul, Nathan, Kessler." He
+frames the group's harshness as productive — "the visceral disdain that
+I felt from the entire group was really developmental for me later in
+life" — recalling being mocked for wearing a "311 concert" tie-dye shirt
+to a hardcore basement show, and closes: "thank you for being so cruel
+about what an enormous fraud and p0seur I was because it was the
+catalyst for finding some authenticity." It is a rare instance of Dan
+naming specific people as the direct source of a taste formation that
+elsewhere in the corpus reads as self-generated.
+
+## The COVID spring, in real time
+
+The earlier March 2020 exchange has Dan describing early NYC lockdown
+life ("people don't really get how drastically different it is to
+exist here"); by April 14 the conversation turns political — "i still
+vote in PA and subsequently feel like, extra responsible about it...but
+i do not think i can vote biden in november... i feel so gross giving
+my vote to the corporate DNC forces that spoiled the nomination process"
+— an unresolved-holdout position dated more than six months before the
+general election. The thread's sharpest moment comes June 7, 2020,
+during the George Floyd-protest curfew: "8pm curfew... it's been like
+living in beirut... that's pretty much what all of manhattan has been
+like." Seth asks directly whether Dan attended protests; the
+conversation is deflected to "let's talk about this later" and a class
+obligation, and the thread ends with an unreturned call on June 23.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~40 (Facebook Messenger, both directions) |
+| Date range | 2020-03-10 – 2020-06-23 |
+| Defining content | The counterculture tribute (Apr 17); the curfew account (Jun 7) |
+
+**Gaps:** whether Dan actually attended any 2020 protests (deflected,
+never answered); the fate of the planned call/zine mailing; Seth's
+current circumstances.
+
 
 ========================================================================
 PAGE: wiki/people/shannon.md
@@ -21411,7 +22933,7 @@ page_type: entity
 status: active
 date_created: 2026-06-22
 date_modified: 2026-07-18
-sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md"]
+sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md", "raw/self/dox-md/_Deconstructing a Chaotic 24 Hours .md"]
 tags: [addiction-recovery, dui, ai-collaboration, relationships, mental-health]
 infobox:
   name: "Tom"
@@ -21506,6 +23028,23 @@ talk to both at once. The thread also carries the friendship's darker
 undertow: a March 24 message, "Will you talk to me for a little bit?", lands
 after a stretch of one-sided sends — the same lateral-ally-goes-quiet pattern,
 this time with Tom on the asking side.
+
+## A supply crisis and a car battery (undated Gemini/"Max" chat)
+
+A separate, undated AI chat log captures a real-time Suboxone supply
+crisis and the loyalty gesture that resolved it: someone "jumped
+[Dan's] place in line" and bought out a dealer's stock right when Dan
+needed to restock, and Tom — described in the same conversation as "my
+main guy for, well... everything" — came through anyway, apparently at
+his own financial loss ("he probably literally lost money on it too").
+The same exchange carries the fullest documented texture of Suz's own
+relationship with Tom: she is the only one who can call him directly
+(despite Tom being younger than Dan), he "LOVES" her, and he'd bought
+her a replacement car battery the week before when hers died and she
+couldn't afford one — unprompted, no request made. The conversation
+closes with Dan floating making a song for Tom, on the condition it
+include "a reference to lil lexie" — an inside reference otherwise
+undocumented in the corpus.
 
 ## The DUI (fall 2025 – early 2026)
 
@@ -22800,6 +24339,10 @@ related:
   - wiki/people/danny-matthews
   - wiki/people/ellen-ulmer
 tags: [uniontown-era]
+connections:
+  - page: wiki/people/christo-coan
+    type: evidenced-by
+    claim: "Dan's own October 2017 description to Christo — living on the golf course, next door to both his and Annie's grandparents, 'so noise isn't a problem' — is a first-person confirmation of this geography from outside the family record."
 ---
 
 # 117 Belmont Circle
@@ -23075,6 +24618,99 @@ physical studio inventory beyond the Numark NS7.
 
 
 ========================================================================
+PAGE: wiki/places/424-bedford-ave.md
+========================================================================
+
+---
+domain: places
+page_type: entity
+title: "424 Bedford Ave (NYC-1)"
+status: closed
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+date_range_start: 2010-04-01
+date_range_end: 2013-05-01
+sources:
+  - "raw/self/dox-scan/Gemini-_58.txt"
+  - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+  - "raw/self/dox-md/Gemini-_18.md"
+tags: [nyc-era, music-production, relationships]
+connections:
+  - page: wiki/people/jamie-mohler
+    type: co-occurs
+    claim: "Jamie's 2011 Google Talk log ('dial to 63 when you get here') is the corpus's only surviving description of getting into the apartment itself — the single physical detail attached to the address beyond the studio/work-era framing."
+  - page: wiki/people/menore
+    type: causes
+    claim: "Menore's supply operation traces its origin to a Bedford Ave/Williamsburg connection, placing the start of a fourteen-year (with a gap) relationship at this address."
+  - page: wiki/people/alexis-armel
+    type: co-occurs
+    claim: "Alexis was 'with me the whole time we were in nyc,' working at the Bridge Cafe until Hurricane Sandy — the relationship's first sustained cohabitation, predating the 155 Virginia Ave/Annie-era household by five years."
+  - page: wiki/timeline/periods/2010s
+    type: component-of
+    claim: "This is the residence anchor of the NYC-1 period's first two years (of three); the third year moved to a Manhattan UES sublet, 90th between 3rd and Lexington."
+---
+
+# 424 Bedford Ave (NYC-1)
+
+424 Bedford Ave, Apartment 6C, in Williamsburg, Brooklyn was Dan's first
+New York apartment — the home base of the **NYC-1** period (April 2010
+– May 2013) and, at two years, the longer of its two addresses before
+a final year at a Manhattan sublet on 90th Street. It is the corpus's
+least physically documented major residence: no photos, no rent figure,
+no lease details survive, and the "dial to 63" buzzer code preserved in
+a 2011 Google Talk log to [[wiki/people/jamie-mohler|Jamie Mohler]] is
+the only concrete physical detail attached to the unit itself. Almost
+everything else about the address is reconstructed from what happened
+around it rather than in it.
+
+## Arrival and the studio-work era
+
+Dan moved in April 2010, at the front edge of his post-Full-Sail push
+into the recording-arts career the degree pointed at — the one stretch
+of his life where audio engineering was the actual job, running through
+**ishlab** (2010–11) and **Creative License** (2010–2012). His father
+Rick had offered $2,000/month "while you intern," floated as an
+alternative to an Entourage-style West Hollywood move; the apartment
+hunt itself is dated to a February 18, 2010 trip with Rick. The May 1,
+2010 Brooklyn Bridge birthday photo — Dan with his mother Suz and
+[[wiki/people/danielle-onesi|Danielle]] — is framed elsewhere as his own
+"I arrived" shot, timed to the move.
+
+## The household
+
+[[wiki/people/alexis-armel|Alexis]] lived with him for the address's
+full run — "with me the whole time we were in nyc" — working at the
+historic Bridge Cafe (279 Water St, the city's oldest tavern) until
+Hurricane Sandy wiped out the Seaport in October 2012, a real economic
+shock to the household that predates the move out. The apartment was
+also a genuine social hub for the wider Full Sail/Uniontown-diaspora
+circle documented elsewhere: [[wiki/people/jamie-mohler|Jamie Mohler]]
+was a routine visitor closely tracked enough that Alexis asked after a
+missed visit due to a knee injury (Aug 2011), and the address anchors
+two dated group events — the August 25–26, 2011 **Hurricane Irene**
+evacuation (Dan and Jamie left together the night before landfall) and
+an October 2011 night marching with the **Occupy Wall Street** crowd in
+Times Square, both organized directly out of the apartment. It is also
+where Dan first met [[wiki/people/menore|Menore]] — the Bedford
+Ave/Williamsburg connection that became a supply relationship running,
+with a gap, into 2025.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Occupied | 2010-04 – 2012-04 (two years; NYC-1's first residence) |
+| Roommate/partner | Alexis Armel, for the full run |
+| Followed by | Manhattan UES sublet, 90th St. bet. 3rd/Lexington (2012-05 – 2013-05) |
+
+**Gaps:** rent, lease terms, who else (if anyone) lived there beyond
+Dan and Alexis; any photos or physical description of the unit itself
+beyond the buzzer code; the exact circumstances of the move to the UES
+sublet a year before the NYC-1 period's 2013 close.
+
+
+========================================================================
 PAGE: wiki/places/index.md
 ========================================================================
 
@@ -23083,7 +24719,7 @@ domain: places
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 sources: []
 related: []
 ---
@@ -23093,6 +24729,7 @@ related: []
 Homes, cities, and significant locations. The quantified movement record is
 at [[wiki/self/location-history]].
 
+- [[wiki/places/424-bedford-ave]] — the NYC-1 apartment (2010-2012): the studio-work era, Alexis's cohabitation, Occupy Wall Street, Hurricane Irene, and the origin of the Menore supply relationship.
 - [[wiki/places/337-saratoga-drive]] — the family-built childhood home, three-time residence, GRIPNOTIC basement studio, and (2026) the house being sold out from under him.
 - [[wiki/places/117-belmont-circle]] — Fran's three-story house on the UCC fairway, 50+ years; the Ulmer adjacency; the caregiving command center.
 - [[wiki/places/155-virginia-ave]] — the 2015–2019 Uniontown apartment: the Alexis→Annie handoff, the poverty floor, the deep cycle.
@@ -25534,7 +27171,7 @@ page_type: entity
 title: "Tattoos"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-15
+date_modified: 2026-07-19
 knowledge: mixed
 sources:
   - raw/self/captures/2026-07-14-tattoo-list.md
@@ -25542,6 +27179,7 @@ sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/dan tom 2010 2022.txt
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/chrisredmond_ewkx6qfqha/message_1.html
 related:
   - wiki/self/ancestry
   - wiki/interests/favorites/music
@@ -25566,28 +27204,44 @@ presented as complete, and further pieces should be added as they surface.
 
 | Design | Style/reference | Placement | Artist/shop | Date |
 |--------|------------------|-----------|-------------|------|
-| Misfits skull in a pizza slice | Custom mashup of the Misfits' Crimson Ghost mascot and a pizza slice | Unknown | Chris Redmond (custom drawn) | By Nov 27, 2018 |
+| Misfits skull in a pizza slice | Custom mashup of the Misfits' Crimson Ghost mascot and a pizza slice | Forearm, ~3"x1.5" | Chris Redmond (custom drawn), Uniontown-area | 2018-10-13 |
+| Misfits logo (green lettering) | Band's own logo lettering, unmodified | Forearm, beneath the pizza slice | Chris Redmond | 2018-10-22 |
 | Kanye West *808s & Heartbreak* KAWS bear | KAWS's reworked "Dropout Bear" from the *808s* era art/toy campaign | Unknown | Unknown | By Sept 22, 2025 |
 | Radiohead bear | The "Modified Bear" / Stanley Donwood-era *Kid A* artwork | Unknown | Unknown | By Oct 27, 2018 |
 | Old school traditional rose | American traditional flash | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Possibly March 8, 2019 |
 | Gravestone | Memorial-style piece | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Undocumented |
 | Flapper girl | American traditional flash (pin-up style) | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Undocumented |
 
-## Misfits: skull in a pizza slice
+## Misfits: skull in a pizza slice, and a second Misfits piece
 
-The earliest well-documented piece. In a November 27, 2018 exchange with
-[[wiki/people/emaly-minerd|Emaly Minerd]] — who compliments the tattoo and
-asks directly why he chose a pizza slice over the band's standard
-imagery — Dan explains the design process: he didn't want the
-conventional Misfits "Crimson Ghost" variant "where it looks like it's in
-a coffin with the arms folded," found a pizza-slice reinterpretation of
-the skull online, and had artist **Chris Redmond** draw it up custom for
-him. Elsewhere in the corpus (an August 2018 message and a 2018 exchange
-with [[wiki/people/tom|Tom]]) Dan self-mockingly frames the piece as
-evidence of being "a scumbag... immature" for getting it — "a literal
-misfits tattoo" is invoked more than once, by Dan and by others, as
-shorthand for arrested-development, still-into-the-same-things-at-30
-self-deprecation, rather than pure enthusiasm.
+The earliest well-documented piece, and now precisely dated via a
+direct Facebook Messenger thread with the artist: Dan first messages
+**Chris Redmond** — a Uniontown-area artist (his own messages place him
+near Cheat Lake and Hopwood, "coming down the mountain" for
+appointments) — on October 12, 2018, explicitly framing it as the
+first of "4 or 5 other pieces" he wants done before turning 30 on
+November 1, and the pizza-slice piece is inked the next day, October
+13, on his forearm at roughly 3" x 1.5". In a November 27, 2018
+exchange with [[wiki/people/emaly-minerd|Emaly Minerd]] — who
+compliments the tattoo and asks directly why he chose a pizza slice
+over the band's standard imagery — Dan explains the design process: he
+didn't want the conventional Misfits "Crimson Ghost" variant "where it
+looks like it's in a coffin with the arms folded," found a pizza-slice
+reinterpretation of the skull online, and had Chris draw it up custom
+for him. Elsewhere in the corpus (an August 2018 message and a 2018
+exchange with [[wiki/people/tom|Tom]]) Dan self-mockingly frames the
+piece as evidence of being "a scumbag... immature" for getting it — "a
+literal misfits tattoo" is invoked more than once, by Dan and by
+others, as shorthand for arrested-development, still-into-the-
+same-things-at-30 self-deprecation, rather than pure enthusiasm.
+
+A **second, previously undocumented Misfits piece** follows quickly:
+on October 18, 2018, Dan asks Chris to ink a green-lettering Misfits
+band-logo design directly beneath the pizza slice on the same forearm,
+explicitly calling it "this most cliché tattoo" — done October 22.
+Chris, unprompted, volunteers that he "listen[s] to the misfits, still"
+and declines to modify the logo beyond the band's own lettering,
+calling it "all unique to the band."
 
 ## Kanye — *808s & Heartbreak*, via KAWS
 
@@ -25631,6 +27285,25 @@ by Dan himself, as identity performance rather than pure fan devotion —
 worth holding onto as a caveat for reading the whole list, not just this
 one piece.
 
+## The sleeve ambition starts in Uniontown, not Brooklyn
+
+The "full sleeve" idea documented below as a Brooklyn-era pursuit
+actually originates three months earlier, with Chris Redmond: by
+October 16, 2018 Dan is already asking to "start discussing concept for
+a sleeve," and by November 25 he's explicit about the aesthetic —
+"working it into a full sleeve of Old school/American traditional
+motifs" — buying reference books from Amazon by November 27 ("I'm
+finding it easier to evolve the vague ideas... into more specific
+concepts... wish I would have started getting these tattoos years
+ago"). On November 30, 2018 he sends Chris a **traditional rose**
+reference image, wanting it placed near the existing forearm work; by
+December 20 Chris confirms it's "always do-able," and the thread ends
+there without a completed-session message. Whether this Uniontown rose
+concept became the "old school traditional rose" Ian Weidrick executed
+in Brooklyn roughly ten weeks later (March 2019, below) — i.e. the plan
+moved with Dan to NYC before being realized — or whether it is a
+separate, unfinished piece is not established; see Gaps.
+
 ## The traditional pieces: rose and flapper girl
 
 On March 8, 2019, Dan texted [[wiki/people/annie-ulmer|Annie]] with
@@ -25667,9 +27340,17 @@ tattoo count is unknown — Dan's own framing ("just to start you off")
 indicates this list is a beginning, not an inventory, and this page
 should be extended as further pieces are named or surface in raw sources.
 Whether "Chris Redmond" (the Misfits artist) and "Chris at the Edge"
-(Annie's March 2019 comparison reference) are the same person is unconfirmed;
-the March 2019 traditional pieces themselves were done by Ian Weidrick at
-Allied Tattoo, not by either Chris.
+(Annie's March 2019 comparison reference) are the same person now reads as
+unlikely rather than merely unconfirmed: Chris Redmond's own messages place
+him working near Cheat Lake and Hopwood, PA — the Uniontown area, not NYC —
+making him a plausible but unconfirmed match for a Uniontown-adjacent "Edge"
+location rather than any Brooklyn shop; the March 2019 traditional pieces
+themselves were done by Ian Weidrick at Allied Tattoo, not by either Chris.
+Whether the November 2018 rose concept discussed with Chris Redmond ever
+got inked in Uniontown, was carried to Brooklyn and became the Weidrick
+rose, or remains a separate unfinished piece is unresolved — the Chris
+Redmond thread ends December 20, 2018 without a completion message, and
+the Weidrick rose follows about ten weeks later.
 
 ## Related
 
@@ -26040,7 +27721,7 @@ date_created: 2026-07-14
 date_modified: 2026-07-19
 date_range_start: 2018-10-13
 date_range_end: 2018-12-11
-sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt"]
+sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joeoshnack_7killpebkw/message_1.html"]
 related: ["wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/people/menore", "wiki/people/emaly-minerd", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/mind/psychosexual/orchestration-and-voyeurism", "wiki/mind/psychosexual/arrangement-history"]
 tags: [relationships]
 knowledge: earned
@@ -26048,6 +27729,9 @@ connections:
   - page: wiki/mind/concepts/erotic-architecture
     type: evidences
     claim: "This event is the dated, corroborated reality behind the OS report's ANNIE_ALEXIS_HOOKUP_CORE — the externalized-libido mechanism's central example."
+  - page: wiki/people/joe-oshnack
+    type: contextualizes
+    claim: "An August 12, 2018 message to Joe references an already-completed Alexis/Annie cam threesome, distinct from this event. A Dec 13, 2017 message on wiki/people/jamie-mohler.md's rediscovered thread independently confirms the same earlier encounter and narrows it to Alexis's Feb-Oct 2017 bail window — see the Gaps section for the remaining imprecision."
 ---
 
 # Annie/Alexis Reunion (October–December 2018)
@@ -26100,7 +27784,7 @@ This sits right at the seam between two documented facts that otherwise read as 
 
 ## Gaps
 
-Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated — the two nights' preparation texts are similar enough that they may describe the same extended encounter rather than two separate ones. Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented. How many total times Alexis and Annie were together beyond the specifically dated messages above is unknown — the pattern of texts suggests it was a recurring, semi-regular arrangement through most of November rather than a fixed number of occasions. Alexis's exact release date is not independently confirmed beyond "just got out of jail" on Nov 4; her own page places incarceration as beginning "around the end of October 2017," consistent with a roughly one-year sentence ending in this window. The corpus does not show whether Annie and Alexis had any contact after December 2018.
+Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated — the two nights' preparation texts are similar enough that they may describe the same extended encounter rather than two separate ones. Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented. How many total times Alexis and Annie were together beyond the specifically dated messages above is unknown — the pattern of texts suggests it was a recurring, semi-regular arrangement through most of November rather than a fixed number of occasions. Alexis's exact release date is not independently confirmed beyond "just got out of jail" on Nov 4; her own page places incarceration as beginning "around the end of October 2017," consistent with a roughly one-year sentence ending in this window. The corpus does not show whether Annie and Alexis had any contact after December 2018. A separate, earlier encounter is documented independently by two sources: an August 12, 2018 message to [[wiki/people/joe-oshnack|Joe Oshnack]] references an already-completed cam threesome with "my ex (the girl I left for Annie)" — read as Alexis — and a December 13, 2017 message on [[wiki/people/jamie-mohler|Jamie Mohler]]'s rediscovered Facebook thread confirms the same encounter in the same already-past-tense register ("I did and I have it forever as an HD recording"), narrowing it to sometime in 2017. Given Alexis's own page dates her arrest to Valentine's Day 2017 and her jailing to the end of October 2017, the encounter most likely falls inside that **Feb-Oct 2017 bail window** — a distinct, earlier instance of the arrangement running with Alexis, not a contradiction of this November 2018 event's own dating. The exact date within that window remains unfixed.
 
 ## Related
 
@@ -28362,7 +30046,7 @@ page_type: event
 title: "Au Za'atar (NYC, ~2021–2024)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 sources:
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/TheWaitersVisibleHigh.md
@@ -28374,6 +30058,7 @@ sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
 related:
   - wiki/people/tarik-fallous
   - wiki/people/valeria-iglesias-cid
@@ -28399,6 +30084,9 @@ connections:
   - page: wiki/people/menore
     type: supplied-by
     claim: "Menore was the mid-shift supply line to the Shed block, his legit-taxi cover making the sidewalk handoffs trivial — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58); earlier years rest on the storytime only."
+  - page: wiki/health/hyperreflexivity
+    type: co-occurs
+    claim: "An AI session dated by internal reference to roughly mid-2025 records Dan returning to full-time work after nearly eleven months unemployed following this job's involuntary end — the corpus's only documented marker of what came after the Aug 2024 loss."
 ---
 
 
@@ -28428,7 +30116,13 @@ much that it's not even worth staying," Aug 6 2024); he dropped resumes
 from July 9 onward, filed for unemployment on August 8, and the loss is
 ruled **involuntary** (Amendment 2, ACCEPTED) — the fact that reframes
 Annie's late-2024 "you never work" grievances as locally valid but
-historically partial.
+historically partial. What followed is only lightly documented: a
+separate AI-collaborative session (see
+[[wiki/health/hyperreflexivity]]), dated by internal reference to
+roughly mid-2025, has Dan noting he'd been "working for the first time
+since june 2024 for the last 2 weeks" and about to hit a full 40-hour
+week — nearly eleven months unemployed before returning to paid work,
+at an employer the corpus doesn't name.
 
 ## The founding (Part 1 of the STORYTIME)
 
@@ -29143,6 +30837,9 @@ related:
   - wiki/mind/concepts/forensic-method
 tags: [career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/people/christo-coan
+    type: co-occurs
+    claim: "Christo's Oct 31, 2017 party — open to 'every caddie, staging, and pro shop employee' — is the yard cohort's own social event, thrown at Dan's house rather than the club."
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Steve asked to be gotten into the caddie yard in July 2017 and never submitted the resume — a documented near-member of the cohort."

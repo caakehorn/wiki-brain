@@ -6,7 +6,7 @@ date_created: 2026-07-14
 date_modified: 2026-07-19
 date_range_start: 2018-10-13
 date_range_end: 2018-12-11
-sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt"]
+sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joeoshnack_7killpebkw/message_1.html"]
 related: ["wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/people/menore", "wiki/people/emaly-minerd", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/mind/psychosexual/orchestration-and-voyeurism", "wiki/mind/psychosexual/arrangement-history"]
 tags: [relationships]
 knowledge: earned
@@ -14,6 +14,9 @@ connections:
   - page: wiki/mind/concepts/erotic-architecture
     type: evidences
     claim: "This event is the dated, corroborated reality behind the OS report's ANNIE_ALEXIS_HOOKUP_CORE — the externalized-libido mechanism's central example."
+  - page: wiki/people/joe-oshnack
+    type: contextualizes
+    claim: "An August 12, 2018 message to Joe references an already-completed Alexis/Annie cam threesome, distinct from this event. A Dec 13, 2017 message on wiki/people/jamie-mohler.md's rediscovered thread independently confirms the same earlier encounter and narrows it to Alexis's Feb-Oct 2017 bail window — see the Gaps section for the remaining imprecision."
 ---
 
 # Annie/Alexis Reunion (October–December 2018)
@@ -66,7 +69,7 @@ This sits right at the seam between two documented facts that otherwise read as 
 
 ## Gaps
 
-Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated — the two nights' preparation texts are similar enough that they may describe the same extended encounter rather than two separate ones. Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented. How many total times Alexis and Annie were together beyond the specifically dated messages above is unknown — the pattern of texts suggests it was a recurring, semi-regular arrangement through most of November rather than a fixed number of occasions. Alexis's exact release date is not independently confirmed beyond "just got out of jail" on Nov 4; her own page places incarceration as beginning "around the end of October 2017," consistent with a roughly one-year sentence ending in this window. The corpus does not show whether Annie and Alexis had any contact after December 2018.
+Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated — the two nights' preparation texts are similar enough that they may describe the same extended encounter rather than two separate ones. Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented. How many total times Alexis and Annie were together beyond the specifically dated messages above is unknown — the pattern of texts suggests it was a recurring, semi-regular arrangement through most of November rather than a fixed number of occasions. Alexis's exact release date is not independently confirmed beyond "just got out of jail" on Nov 4; her own page places incarceration as beginning "around the end of October 2017," consistent with a roughly one-year sentence ending in this window. The corpus does not show whether Annie and Alexis had any contact after December 2018. A separate, earlier encounter is documented independently by two sources: an August 12, 2018 message to [[wiki/people/joe-oshnack|Joe Oshnack]] references an already-completed cam threesome with "my ex (the girl I left for Annie)" — read as Alexis — and a December 13, 2017 message on [[wiki/people/jamie-mohler|Jamie Mohler]]'s rediscovered Facebook thread confirms the same encounter in the same already-past-tense register ("I did and I have it forever as an HD recording"), narrowing it to sometime in 2017. Given Alexis's own page dates her arrest to Valentine's Day 2017 and her jailing to the end of October 2017, the encounter most likely falls inside that **Feb-Oct 2017 bail window** — a distinct, earlier instance of the arrangement running with Alexis, not a contradiction of this November 2018 event's own dating. The exact date within that window remains unfixed.
 
 ## Related
 

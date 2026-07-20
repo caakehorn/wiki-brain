@@ -14,6 +14,7 @@ sources:
   - "raw/self/message-csv/interspersed_messages.csv"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/qymuchauiq/message_1.html"
 tags: [career, digital-footprint, relationships, nyc-era]
 infobox:
   name: "Jamie Mohler"
@@ -43,6 +44,15 @@ connections:
   - page: wiki/people/oscar-lindquist
     type: evidenced-by
     claim: "Oscar's own Aug 26, 2011 message ('mohler and i are heading out of town tonight because of the hurricane') pins the Hurricane Irene evacuation to a single day — the most precisely dated event in the friendship's record."
+  - page: wiki/people/alexis-armel
+    type: evidences
+    claim: "A Dec 13, 2017 message (already past tense) independently confirms the Alexis/Annie cam encounter happened before the Nov 2018 reunion — consistent with, and probably explaining, the earlier reference in the same vein found in Joe Oshnack's thread."
+  - page: wiki/people/joe-oshnack
+    type: contextualizes
+    claim: "A Dec 13, 2017 message on this thread narrows the window for the pre-Nov-2018 Alexis/Annie encounter Joe Oshnack's page flags as an open date question: it falls inside Alexis's Feb-Oct 2017 bail period (between the Valentine's Day 2017 arrest and the end-of-October jailing), not before her arrest."
+  - page: wiki/places/424-bedford-ave
+    type: component-of
+    claim: "The 2011 Google Talk log's buzzer code ('dial to 63') is the only surviving physical detail of the apartment itself, and the Hurricane Irene/Occupy Wall Street events it documents are both organized directly out of this address."
 ---
 
 # Jamie Mohler
@@ -85,6 +95,72 @@ three sources, an undated "operator-attested only" claim becomes a
 friendship documented across a full season, with one anchor date fixed
 to the day.
 
+## A rediscovered thread: 422 messages, 2010–2021
+
+A large (422-message) Facebook Messenger thread survives under a
+deactivated-account placeholder — the export's title reads only
+"Participants: Facebook user and Dan Frank," with no name recoverable
+from the file itself. Internal evidence identifies the other party as
+Jamie (then Jim) with high confidence, though it is not a phone/email
+match and so is flagged as inference rather than certainty: Dan
+addresses the recipient directly as "jim" twice ("jim i filmed" and "oh
+thank you jim, i knew there was a better way," both April 2018); the
+thread's August 25, 2011 evacuation-planning conversation ("if things
+start to look worse, my mom is going to come get us") lands the day
+*before* Oscar Lindquist's independently-dated "mohler and i are
+heading out of town tonight because of the hurricane" (Aug 26, 2011);
+an October 3, 2011 exchange about Occupy Wall Street ("you need to come
+down to wall st... i'll keep bugging you into progressivism") falls
+inside the same window internal evidence already narrowed the
+undated 2011 Google Talk log to; and the recipient is a confidant
+close enough to receive [[wiki/people/eric-jester|Jester]] and
+[[wiki/people/matt-dunn|Dunn]] gossip by first name as early as October
+2011, and to be shown Dan's rawest, most private footage — video of
+[[wiki/people/fran-coldren|Fran]] on her deathbed — hours before anyone
+else knew, April 3–5, 2018 ("you're literally the first person who
+knows about what happened"). Treated here as the same person as the
+2011 Google Talk/address-book Jamie Mohler documented above; if this
+identification is ever specifically contradicted, split the content
+back out.
+
+This thread substantially thickens the NYC-1 record: a favor asked in
+August 2011 (finding "clean piss" for a Suboxone appointment, after too
+much use over the preceding weeks) is the corpus's clearest primary-
+source evidence of Dan's opiate dependency and clinic-based
+Suboxone maintenance that early; roommates or close friends "Nichole
+and Grace" are named in the same window; the two level together in
+*World of Warcraft* through the end of 2011 (guild-mate "Aladrah,"
+item-level grinding, LFR raids); and the friendship goes quiet for
+roughly five years before reconnecting December 12–13, 2017, when Dan
+narrates the entire Alexis-to-Annie pivot in one long unbroken message
+— the breakup, cam girl [[wiki/people/annie-ulmer|Annie]], Alexis
+dating Annie's ex-boyfriend Zac Shumar out of spite, the household
+merger after Zac's place burned down, and **the arrest** ("THEN he
+gets a shipment of 10 pounds from California. Goes to pick it up, cops
+swarm, they both get tagged... Happened on Valentine's Day"). This is
+the corpus's *third* independent telling of the
+[[wiki/people/alexis-armel|Zac Shumar arrest]] (after Jim Shaffer and
+Tom), and the first told the same year it happened rather than months
+or years later. In the same conversation, already past tense, Dan
+describes the Alexis/Annie cam encounter — "if I told you I had a
+threesome... with Alexis and my new gf... I did and I have it forever
+as an HD recording" — which, given the Dec 13, 2017 date, falls inside
+Alexis's **Feb–Oct 2017 bail window** (between the Valentine's Day
+arrest and her end-of-October jailing per her own page), not before
+her arrest and not contradicting her later incarceration. This narrows
+the open date question flagged on [[wiki/people/joe-oshnack]]'s page
+to a specific, non-contradictory window rather than resolving it to a
+single day.
+
+A final Menore-adjacent detail, also new: on December 27, 2019, Dan
+mentions having "just saw menore lol" and notes "menore still has the
+same fucking number that he did in 2010 — how's that for reliability,"
+independent, incidental confirmation that the Menore friendship the
+operator dates to the NYC-1 years was still an active, ongoing contact
+a decade later. The thread's final messages (April 2021) are Chapo Trap
+House recommendations, consistent with the [[wiki/mind/synthesis/2020-left-turn|2020
+left turn]]'s ideology.
+
 ## The 2023 transition
 
 Jamie transitioned around 2023 and has been gendered female since. The
@@ -116,21 +192,27 @@ The 2021-synced Facebook address book export carries a direct contact
 card — **Jim Mohler**, `+12073101169`, `audiocranium@msn.com` — the
 same phone number as the 2011 "Jimbo Slice" Google Talk handle, kept
 saved for a full decade after the NYC-1 friendship. No message thread
-survives under this number in the iMessage exports; everything recorded
-here comes from the 2011 email/chat archive, the address book, and
-Jamie's appearances inside Jason's and Alexis's own threads.
+survives under this number in the iMessage exports, but a 422-message
+Facebook Messenger thread under a deactivated-account placeholder is
+identified above with high (though not certain) confidence as the same
+person, and is the primary source for most of this page's NYC-1 detail
+beyond the single Google Talk log. A DJ/music alias, "Ethan Kray," also
+surfaces there — Dan asks in 2017 whether he'd "divorced" himself from
+it — undocumented anywhere else in the corpus.
 
 ## Corpus record
 
 | Metric | Value |
 |---|---|
-| Direct chat log | 1 (Google Talk, ~autumn 2011, undated) |
+| Direct chat logs | 2 (2011 Google Talk, undated; the 422-message FB thread, 2010–2021, identity inferred) |
 | Corroborating mentions | 5 (Alexis ×1, Oscar Lindquist ×1, Jim Vrabel ×1, Jason Bermejo ×2) |
 | Pinned date | 2011-08-26 (Hurricane Irene evacuation, via Oscar's thread) |
 | Transition, per operator | ~2023 |
 | First documented friend-group reference post-transition | 2025-09-19 |
 
-**Gaps:** the Google Talk log itself carries no exact date (internal
+**Gaps:** the FB-thread identification is inferential (address, name,
+and content match; no phone/email match), and should be revisited if
+ever specifically contradicted. The Google Talk log itself carries no exact date (internal
 evidence — Occupy Wall Street, approaching Jewish fall holidays —
 narrows it to roughly October 2011, though the Hurricane Irene message
 independently pins the friendship's presence two weeks earlier); the

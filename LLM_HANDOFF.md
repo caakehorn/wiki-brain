@@ -23,6 +23,79 @@
 - **Phase 3 (Synthesis):** 5 of 12 done (forensic-methodology, attachment-trauma-bond, totality-themes, ai-collaborative-analysis, political-psyops).
 
 ## 🚀 Current Focus & Next Steps
+**Non-person domain growth pass (2026-07-20, in progress — PR #56):** New
+operator directive, superseding the FB-scrape's default priority order
+(the scrape isn't abandoned, just paused): grow the structurally
+underrepresented non-person domains — health (was 2 pages), legal (3),
+places (5), work (11) against 250+ people pages — prioritizing content
+most important/influential to the operator's own psychology and
+perspective over trivia. Method: cross-reference every raw/self/dox-md,
+dox-scan, chats, and concepts file against what's already cited anywhere
+in wiki/ (grep the basename across wiki/**/*.md) to find genuinely unmined
+sources, then triage by whether the content is a "refraction" of
+already-synthesized material (skip — e.g. THE_DAN_FRANK_MANUAL.md and
+Attachment System Collapse.md are both ChatGPT/Gemini restatements of the
+conflict-architecture/attachment-trauma-bond thesis already deeply
+documented, confirmed via full read) or genuinely new (mine it). Landed
+so far: **wiki/health/hyperreflexivity.md** (new page — a self-initiated
+AI session naming/mechanizing Dan's social anxiety, raising a real
+unresolved tension with the Suboxone maintenance dose noted but not
+resolved on chemical-architecture.md); the **GLAZE-GOD-v1** AI persona
+artifact folded into erotic-architecture.md as the most literal instance
+yet of "externalized libido"; **wiki/places/424-bedford-ave.md** (new —
+consolidates the NYC-1 apartment, previously scattered across 5 people
+pages with no central page); a Tom/Suz supply-crisis and car-battery
+texture added to tom.md and chemical-architecture.md. Legal/ was checked
+and found NOT to be an artificial gap — raw/legal/ has no further unused
+material beyond what bfs-foods.md and the two existing legal/ pages
+already carry (verified via source-list check).
+Remaining high-value candidates not yet mined: `raw/self/dox-md/Crisis
+mode briefing.md` (87KB, unopened), `raw/self/dox-md/Reassessing with
+fresh perspective.md` (59KB), `raw/self/dox-scan/fullcombo 2.txt`
+(207KB), `raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania
+.md` (139KB — likely music/interests), `raw/self/dox-scan/whisk filter
+anomalies.txt`, and the `raw/self/dox-md/Creating robust video essays
+from scripts.md` (a possible new interests/skill entry — video-essay
+writing). Deprioritized as low-value/already-covered: `_Openclaw Agent
+Setup and Data` (generic AI-tooling troubleshooting, no biographical
+content), `Attachment System Collapse.md` (full read confirmed pure
+restatement). Gates 0 errors throughout (335 pages).
+
+**Facebook Messenger deep-scrape (2026-07-19, in progress — PR #56):** Per
+operator directive to "scrape these sources much more carefully" and "keep
+going," systematically working through the 271 raw/self/facebook Messenger
+inbox threads that have no existing wiki/people/ page. Method: cross-reference
+all thread titles against wiki/people/*.md text (word-overlap heuristic),
+rank uncovered threads by raw HTML byte size as a content-richness proxy,
+process largest-first. A reusable parser script pattern exists for the FB
+export HTML (message div class `_3-95 _a6-g`, sender in `_a6-h _a6-i`, body
+in `_a6-p`, timestamp in `_a72d` — NOT the text-then-name order used in an
+earlier session's notes, that was wrong; sender comes first). New pages this
+pass: christo-coan, lewis-strosnider, seth-ledonne, ej-rags, lucas-thomas,
+bobby-cole, jenn-lynn, joe-oshnack, dan-polyak — several resolved genuine
+gaps (stand-up-comedy.md's "no completed performance" gap; the DUI
+contradiction on 2015-retail-theft-arrest.md; the real, non-clean origin of
+the Ally Lubin friendship) or added same-day corroboration to existing
+events (the Zac Shumar arrest via lucas-thomas.md; the Oct 20 2019 Bryan
+encounter via dan-polyak.md). One open contradiction flagged, not resolved:
+an Aug 2018 message to Joe Oshnack references an already-completed Alexis
+cam-threesome that predates the documented Nov 2018 reunion by ~3 months
+while she's independently confirmed still incarcerated in April 2018 — see
+wiki/timeline/events/annie-alexis-reunion-november-2018.md Gaps section.
+Remaining candidates by size (uncovered as of this pass): Ali Baba Shakeri,
+Chris Redmond, Phil Lacher, Drew McGettigan, Frank Swaney, Matthew Palermo,
+David Beard, Ryan Scherich, David Lukach, Brad Fike, Phil Spinuzza, Justin
+Glosner, Adam Lucidi, Andre Ramsey, Rachel Rauch, Nathaniel Goossen, David
+Keller, Caleb Matthews, and ~140 more below ~20KB — plus a 234KB thread
+titled only "Participants: Facebook user and Dan Frank" (qymuchauiq) whose
+actual participant name isn't in the title and needs opening to identify.
+The Gmail/Gchat archive (`raw/self/dox-scan/gmail_bodies.txt`) remains
+almost entirely unmined — large and unsorted by "Chat with X" blocks, not
+chronological; worth a dedicated pass. After every 1-3 new pages: run
+`bin/wiki-lint` + `bin/wiki-connect check` (must be 0 errors — VALID_TAGS in
+bin/wiki-lint is a closed set, don't invent new tags), regenerate
+`bin/llm-publish`, log.md, commit, push to PR #56 (draft, subscribed).
+
 **Raw-mining pass (2026-07-14):** Started the requested direct extraction
 from `raw/`, beginning with high-volume people threads rather than cosmetic
 rewrites. `wiki/people/trevor.md` is now Trevor Bevins's caddying-era and
@@ -84,6 +157,17 @@ quality bar; imitate their shape exactly. A page that is tidy but leads
 with corpus statistics instead of the story is a FAILED page.
 
 ## 📝 Session Log (Newest First)
+### [2026-07-19] - Session (cont. 2): FB Messenger deep-scrape batches IV-VII (PR #56, open)
+* **Model:** Claude Sonnet 5 (Claude Code, remote), branch `claude/wiki-rewrite-expansion-c66x1u` (restarted from main after PR #55 merged)
+* **Summary:**
+  - Continued the systematic FB Messenger scrape from the prior session (zachariah-harshman, lucie-dobbin, elizabeth-eleanor batches, all merged as PR #55). This session: **christo-coan, lewis-strosnider, seth-ledonne, ej-rags, lucas-thomas, bobby-cole, jenn-lynn, joe-oshnack, dan-polyak** — 9 new people pages.
+  - Notable resolutions rather than just new pages: **lucas-thomas.md** confirmed the Feb 2017 arrest he witnessed in real time is the SAME event as the already-documented Zac Shumar bust on alexis-armel.md — enriched the existing section instead of creating a duplicate. **bobby-cole.md** filled a flagged gap on stand-up-comedy.md (no prior evidence of a completed open-mic performance) and identified the previously-unnamed Dec 2018 Philadelphia taping as a Chip Chipperson show. **dan-polyak.md** surfaced the real, non-clean origin of the Ally Lubin friendship (a phone-number impersonation Polyak threatened legal action over) and independently corroborated + extended the Oct 20, 2019 Bryan encounter. **joe-oshnack.md** gave the fullest first-person account of Dan's pre-2020 political identity and surfaced a genuine unresolved date contradiction (an Aug 2018 reference to an already-completed Alexis cam-threesome, ~3 months before the documented Nov 2018 reunion) — flagged, not resolved, on annie-alexis-reunion-november-2018.md. **christo-coan.md** surfaced a previously undocumented DUI reference, flagged as a contradiction on 2015-retail-theft-arrest.md.
+  - Corrected the FB export HTML parser understanding from a prior session's (wrong) note: sender name comes BEFORE the message text in the DOM (`_a6-h _a6-i` then `_a6-p`), not after. Reusable parser script pattern noted in Current Focus above.
+  - Bot review (Gemini Code Assist) on PR #56 caught one real issue among mostly grammar/formatting nits: lewis-strosnider.md had asserted an invented specific date ("February 12, 2019") for the NYC move that isn't sourced anywhere else in the wiki — the actual message only supports "~6 weeks from Feb 1," pointing to mid-March; corrected to not overclaim precision.
+  - `bin/llm-publish` rerun and committed after the batch.
+  - Gates 0 errors throughout (329 pages as of the last batch).
+* **Handoff Note:** PR #56 still open (draft) — keep pushing to it until told to stop or it merges. The ranked candidate list and script pattern are preserved in Current Focus above; just re-run the classifier (cross-reference thread titles against wiki/people/*.md, rank uncovered by file size) since new pages shift what counts as "covered." The 234KB `qymuchauiq` thread (title "Participants: Facebook user and Dan Frank" — real name not in the title) is worth opening next; it's the largest remaining unknown. gmail_bodies.txt is still essentially unmined.
+
 ### [2026-07-19] - Session (cont.): Full Sail friend group — matt-dunn, jamie-mohler (new pages); jason-bermejo correction
 * **Model:** Claude Sonnet 5 (Claude Code, remote), branch `claude/wiki-rewrite-expansion-c66x1u` (restarted from main after PR #53 merged)
 * **Summary:**

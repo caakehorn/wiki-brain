@@ -138,7 +138,9 @@ closer to a regular acquaintance), [[wiki/people/vaughn|Vaughn]] (a
 caddie-yard coworker middling his "homey's" weed in $20–50 quantities,
 2017–18, with chronic short-weight disputes),
 [[wiki/people/nick-mattie|Nick Mattie]] (a spring-2017 reciprocal
-trading peer running fronts and a hand-kept ledger in both directions), and in NYC
+trading peer running fronts and a hand-kept ledger in both directions),
+[[wiki/people/drew-mcgettigan|Drew McGettigan]] (a tight three-month
+2015 buyer/go-between node connected to the Zach Harshman circle), and in NYC
 [[wiki/people/clyde|Clyde]] (psychedelics: LSD, DMT, mushrooms — a
 separate product line from Menore's) and [[wiki/people/sam|Sam]] (the
 cannabis line, 2019–20: menus, a delivery driver, Facebook-verified
