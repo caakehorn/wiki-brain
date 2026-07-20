@@ -6,7 +6,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-07-20
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -26,6 +26,9 @@ connections:
   - page: wiki/people/elizabeth-eleanor
     type: evidenced-by
     claim: "A July 2013 exchange gives the corpus's only concrete dosage figure — 2mg Suboxone daily, ~5 years opiate-free — closing a previously undocumented gap and dating the last opiate use to the dark-era window."
+  - page: wiki/health/hyperreflexivity
+    type: contradicts
+    claim: "An AI-collaborative session raises a tension this page doesn't otherwise carry: chronic Suboxone receptor occupancy may blunt the hedonic range needed to break an anxiety loop — the maintenance dose that stabilizes opiate dependency may cap capacity to regulate a separate system."
 ---
 
 # Chemical Architecture
