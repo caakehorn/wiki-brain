@@ -34,7 +34,7 @@ The full per-contact export (filed 2026-07-20, superseding the earlier 28-messag
 |--------|-------|
 | Messages | 50 |
 | Date range | 2024-07-28 to 2024-08-09 |
-| Direction | Reliable in this export — genuine two-way conversation (24 sent, 26 received) |
+| Direction | Reliable in this export — genuine two-way conversation (22 sent, 28 received) |
 | Handle | +17243226739 |
 
 ## Gaps

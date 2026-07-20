@@ -689,3 +689,31 @@ argument) previously only summarized. Converted the bare related:/##
 Related footer to a typed connections: block — a new `parallels` edge to
 rick-frank.md (the "maga-tized dads" framing), with inverse added on
 rick-frank.md. Gates: 0 errors.
+
+## [2026-07-20] correction | mind/timeline/people | Eli discovery text + two other flagged claims upgraded [DOSSIER]->[RAW-CSV]
+Operator uploaded a fresh export of Annie's current 212 number
+(imessage_export_2124702449_20260720210349.csv, Aug 2025-Jun 2026) flagging
+the Eli discovery text as locatable within it and specifically dated. Cross-
+check found it a near-duplicate of already-filed raw/self/message-csv/
+imessage_2124702449_both_all_now.csv (same window, 23448 vs 23719 rows) —
+NOT re-filed to avoid raw/ duplication. Neither file covers Jan 2025 (both
+start effectively Aug 2025 with only stray isolated rows before that), so
+the Eli text itself (Jan 9 2025) is not in this specific export — but the
+question prompted a wider re-search that found it elsewhere in already-
+filed raw/: raw/self/message-csv/imessages_2124702449_last6months.csv and
+raw/self/dox-scan/all_imessages_complete_dump.txt both have the full six-
+message rapid-fire sequence starting 2025-01-09 23:18:49, verbatim. The
+2026-07-18 pass had searched for the quote as one string and missed it
+because iMessage sent it as six separate messages. Primary-confirmed
+sequence entered on eli-incident.md (REVISED block) and eli.md, including
+a genuinely new fact: Dan's own real-time reply, "Who are you?", sent
+23:19:42 between Eli's third and fourth messages — not previously
+documented anywhere in the corpus. dan-annie-fallout-verdict.md's "What
+still needs primary verification" section updated: Eli text resolved;
+the Mar 16 2026 "I misunderstood the conversation" retraction line also
+found already sitting in imessage_2124702449_both_all_now.csv (2026-03-16
+18:47:51) — same story, a prior pass's search missed it; and the "Jan 24
+procurement line" resolved to the Jan 24 2026 ketamine-procurement
+messages (Tom's 2am delivery; "I grabbed some ketamine for us"). Three
+flagged gaps closed in one pass, all from data already on disk. Gates:
+0 errors.

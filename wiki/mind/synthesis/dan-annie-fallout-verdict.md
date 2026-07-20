@@ -4,9 +4,10 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-18
+date_modified: 2026-07-20
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
+  - raw/self/message-csv/imessages_2124702449_last6months.csv
   - raw/self/message-csv/annie_all_time_logs.csv
   - raw/self/message-csv/THE END FIGHT.csv
   - raw/self/message-csv/END_FIGHT_full.csv
@@ -130,7 +131,7 @@ The dossiers' own proportionality finding is the line to hold: these are "real, 
 ## Two corrections forced by the raw (provenance discipline)
 
 1. **The "March 2025 admission" is misdated and its sender is contested by the row.** The dossiers cite Annie's March 2025 message *"you decided to split our lives up. you lied to me for months and cheated on me."* In `all_imessages_complete_dump.txt` the row is `2025-02-23 14:28:42 | Sent | +121****2449` — i.e. **February 23**, and tagged **Sent** from Dan's own handle, not Received from Annie. Every dossier that cites it treats it as Annie's acknowledgment, but the raw direction tag contradicts that assignment. This page records it as **[RAW-DUMP] but sender-attribution-unresolved** — the text exists verbatim; who authored it is not settled by the direction field alone (the dump's direction may reflect export-side tagging). Flagged, not asserted.
-2. **The March 2026 "YES DAN" confession + "I misunderstood the conversation" retraction is NOT in the primary dump or the CSVs scanned.** The 42 "Yes Dan" rows in `all_imessages_complete_dump.txt` are unrelated confirmations across 2015–2024. The confession/retraction pair is sourced from `report collection.txt` / `Attachment and Trust Breakdown.md` (**[DOSSIER]**), tied to the March 12–16, 2026 window. The surrounding events (bathroom incident, "Calm down. Please. I will be over" at 7:37 PM Mar 10) are **[DOSSIER]**-transcribed in `report collection.txt`, not located as primary rows this pass. The Mar 16 retraction sentence itself was not found in any on-disk CSV/dump — dossier-only.
+2. **The March 2026 "YES DAN" confession is dossier-only; the "I misunderstood the conversation" retraction is now [RAW-CSV] confirmed.** The 42 "Yes Dan" rows in `all_imessages_complete_dump.txt` are unrelated confirmations across 2015–2024, and the confession half of the pair remains sourced only from `report collection.txt` / `Attachment and Trust Breakdown.md` (**[DOSSIER]**). But the retraction sentence itself **was located** in a 2026-07-20 re-search of `imessage_2124702449_both_all_now.csv`: `2026-03-16 18:47:51 | Received | I think that I had misunderstood the conversation when that happened Dan` — upgraded [DOSSIER]→[RAW-CSV]. The surrounding events (bathroom incident, "Calm down. Please. I will be over" at 7:37 PM Mar 10) remain **[DOSSIER]**-transcribed only.
 
 ## The honest answer to the question
 
@@ -144,8 +145,8 @@ The synthesis the wiki already carries — "the gaslighting outweighed the affai
 
 ## What still needs primary verification
 
-- **Eli intro text** ("Hey Dan. It's Eli…") — dossier-transcribed (`report collection.txt`); re-searched across all of `raw/` 2026-07-18 and still absent from every on-disk CSV/dump — the underlying row is in MasterRecord_FINAL only. Locate the primary row to upgrade [DOSSIER]→[RAW-CSV].
-- **"You're literally fucking insane" (Oct 19 2024)** and **the Jan 24 procurement line** and **the Mar 16 "I misunderstood the conversation"** — dossier-only this pass.
+- **Eli intro text — RESOLVED 2026-07-20, upgraded [DOSSIER]→[RAW-CSV].** The 2026-07-18 pass searched for the quote as one string ("Hey Dan. It's Eli…") and missed it because iMessage sent it as six separate rapid-fire messages. Located verbatim in `raw/self/message-csv/imessages_2124702449_last6months.csv` and independently in `raw/self/dox-scan/all_imessages_complete_dump.txt` (line 196012): `2025-01-09 23:18:49 Received "Hey Dan" · 23:18:53 Received "It's Eli" · 23:19:20 Received "Annie is down stairs" · 23:19:42 Sent "Who are you?" (Dan's real-time reply, not previously documented) · 23:19:54 Received "I work with her" · 23:20:24 Received "She and Andrea had drinks at work but u guess they didn't eat"`. Full sequence and analysis on [[wiki/timeline/events/eli-incident]].
+- **"You're literally fucking insane" (Oct 19 2024)** — dossier-only; out of range for the corpus files re-checked this pass (they start ~Aug 2025). **The Jan 24 procurement line — RESOLVED 2026-07-20, [RAW-CSV]:** `imessage_2124702449_both_all_now.csv`, `2026-01-24 07:54:29 | Sent | Tom showed uo at 2am with a half ounce of z and a bunch of ketaminenlol` and `2026-01-24 10:15:16 | Sent | I grabbed some ketamine for us but if you want some of the other stuff you shoukld come soon he probably give you some to take`.
 - **The primary-count pass ran 2026-07-18.** Results now inline above: verbal-abuse triple (74/17/11) **confirmed exactly** [RAW-CSV]; 0-severance **confirmed** [RAW-CSV]; 1,512 love-affirmations confirmed to lexicon precision; 232 consistent-not-exact; **180 "I'm sorry" and the "apologizes least" ordering NOT reproduced** (plain-lexicon recount: 435 through Aug 2025); **187:4 deflated by base-rate control and inverted by the directional test** (see REVISED block); 127/110 and 94-burst order-consistent but definition-dependent, still [DERIVED]; 299 unlocated. The "768 messages sent 2026-05-31" bootloader figure remains non-reproducible (closure export shows 265 Sent / 482 total that day) — unchanged from the 2026-07-15 finding.
 - **April–May 2026 final-weeks page** is built from a single chat-analysis session, not an independently located raw CSV for that window; its dated, quoted messages (GPS-with-third-party May 5; the "25 Nov 2015 – 04 May 2026" self-periodization) are **[RAW-CSV]** verified above, but the surrounding "Betrayal Catalog" / pregnancy claims in that same source are explicitly uncorroborated and excluded.
 - **The pregnancy reference** (claimed due date Nov 18) appears in two chat-analyses only, contradicts primary message exports, and is not adopted as fact anywhere in the wiki.

@@ -5,7 +5,7 @@ title: "The Eli Incident"
 importance: critical
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 infobox:
   name: The Eli Incident
   type: Relationship rupture
@@ -25,6 +25,8 @@ sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx
   - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
+  - raw/self/message-csv/imessages_2124702449_last6months.csv
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
 tags: [infidelity, trauma-bond, nyc-era]
 connections:
   - page: wiki/mind/concepts/node-locking
@@ -58,7 +60,20 @@ as the most serious moral failure of the terminal phase.
 ## What happened
 Sustained concealed affair between Annie and coworker Eli (male). The affair was ongoing for months before any single "discovery" moment — a later cross-reference of the raw 2024 record moves the documented floor earlier than previously established. Her GPS had already been disabled "for weeks" by late July 2024, by her own confirmation — six-plus months before the formal 2025 GPS demand that earlier pages treated as the removal's start. In August 2024, Dan caught her going out after work with someone and lying about it ("You barely apologized to me for SERIOUSLY breaking my trust AGAIN" — the "Isaac Trust Breach"). Key documented episode: October 19 2024 housewarming party argument lasting hours across dozens of messages, during which Annie told Dan "THERE IS NO SITUATION.", "You're literally fucking insane.", and "Grow up. And fucking trust me." while the affair was active.
 
-Discovery trigger: on January 9, 2025, at 11:18 PM, Dan's phone received, verbatim, "Hey Dan. It's Eli. Annie is down stairs. I work with her. She and Andrea had drinks at work but I guess they didn't eat." — a male coworker identifying himself by name, late at night, with Annie not at home. Annie did not address it in any logged message for two days. The physical discovery: Annie unconscious with vomit nearby in the building lobby ~80 minutes after her shift (5-minute walk from home), location tracking disabled. Confrontation met with physical violence from Annie ("I found your phone, cheater."). The move from NYC accelerated dramatically in the days after January 9 (~4–5 weeks to departure).
+Discovery trigger: on January 9, 2025, starting at 11:18 PM, Dan's phone received six rapid-fire messages from Eli, texting from Annie's phone — a male coworker identifying himself by name, late at night, with Annie not at home. Annie did not address it in any logged message for two days. The physical discovery: Annie unconscious with vomit nearby in the building lobby ~80 minutes after her shift (5-minute walk from home), location tracking disabled. Confrontation met with physical violence from Annie ("I found your phone, cheater."). The move from NYC accelerated dramatically in the days after January 9 (~4–5 weeks to departure).
+
+> **REVISED [2026-07-20]:** the Eli discovery text was dossier-transcribed only through 2026-07-18 (three prior re-searches of `raw/` came up empty because the quote was searched as one string; iMessage actually split it into six separate messages). Located this pass, primary-confirmed in `raw/self/message-csv/imessages_2124702449_last6months.csv` and independently in `raw/self/dox-scan/all_imessages_complete_dump.txt`, with a genuinely new fact — Dan's real-time reply, previously undocumented — folded into the sequence:
+>
+> | Time | Direction | Text |
+> |------|-----------|------|
+> | 23:18:49 | Received | Hey Dan |
+> | 23:18:53 | Received | It's Eli |
+> | 23:19:20 | Received | Annie is down stairs |
+> | 23:19:42 | **Sent** | **Who are you?** (Dan's own reply, in the moment — not previously documented) |
+> | 23:19:54 | Received | I work with her |
+> | 23:20:24 | Received | She and Andrea had drinks at work but u guess they didn't eat |
+>
+> Dan had already been trying to reach Annie for over an hour before Eli's texts arrived — "Are you done" (22:27:32) and "Your phone goes straight to voicemail" (22:28:05), both **[Sent]**, plus an unlabeled photo attachment at 23:08:08 — meaning the vigilance that later produced the discovery was already active before Eli made contact, not triggered by it. "Andrea" (a coworker present that night, per Eli's own text) has no other reference anywhere in the corpus and remains unidentified beyond this line.
 
 Dan later chose to believe Annie's account sufficiently to attempt returning to "normal life" rather than sustain proof-gathering. The record's most direct admission came after the move, in a March 2025 message from Annie to Dan (verbatim, pronouns as written): "you decided to split our lives up. you lied to me for months and cheated on me" — read literally it accuses Dan, but every dossier that cites it treats it as her acknowledgment of the months of lying and the cheating, and rates it "the most direct admission in the record."
 
