@@ -497,3 +497,10 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - wiki/people/ryan-lisac.md: preserved the page's own honestly-flagged gap (the "Snob Squad" childhood narrative isn't present in the ingested raw corpus) rather than inventing content; added the genuinely new finding that Dan's 2026 DJ-identity relaunch deliberately reuses the "Snob Squad" name as a callback — added a parallels connection + inverse edge on wiki/mind/synthesis/totality-themes.md.
 - Updated wiki/people/index.md one-liners for all 5.
 - Gates: wiki-lint 0 errors, wiki-connect check 0 errors.
+
+## [2026-07-20] ingest | places | 90th-st-manhattan.md (new), seven-springs.md (new)
+- wiki/places/90th-st-manhattan.md (new): fills the previously-missing third year of NYC-1 (Mar 2012 – Apr 2013) — the Manhattan UES sublet between the two better-documented addresses. Anchors the Feb 2012 Creative License exit (airfare-billing discrepancies, altered intern contracts) as the founding case for vertical-authority-skepticism, fourteen years before its BFS Foods recurrence, and correctly re-dates the Hurricane Sandy/Bridge Cafe job-loss shock to this address's occupancy rather than the earlier Bedford Ave years.
+- wiki/places/424-bedford-ave.md: corrected the Sandy/Bridge-Cafe attribution (the closure happened six months after the household had already moved to 90th St, not during the Bedford Ave years); added the wikilinked follow-on to the new page.
+- wiki/places/seven-springs.md (new): the childhood ski-resort social anchor — weekly ritual, family condo (The Villages, Sunridge Unit K2), and the first drug-exposure cohort, with first cocaine use dated 2004 — a full year before the Nov 2005 family-rupture hinge event usually credited as the addiction narrative's start. Notes the regional freeskiing-culture backdrop (Tom Wallisch's home turf) as adult-interest context, not a personal connection.
+- Updated wiki/places/index.md.
+- Gates: wiki-lint 0 errors (339 pages), wiki-connect check 0 errors.

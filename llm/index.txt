@@ -1,5 +1,5 @@
 WIKI-BRAIN — LLM ACCESS POINT
-generated 2026-07-20 · 337 pages · full corpus ~470,635 tokens
+generated 2026-07-20 · 339 pages · full corpus ~472,600 tokens
 
 WHAT THIS IS
 A machine-readable export of a personal wiki (a 'second brain') that
@@ -312,7 +312,9 @@ Zachariah Harshman | https://caakehorn.github.io/wiki-brain/llm/pages/people/zac
 307 E 76th St (Manhattan) | https://caakehorn.github.io/wiki-brain/llm/pages/places/307-e-76th-st.txt | 307 E 76th St, Upper East Side, was home for the entire second New York chapter — February 2019 to February 2025 — shared with
 337 Saratoga Drive | https://caakehorn.github.io/wiki-brain/llm/pages/places/337-saratoga-drive.txt | 337 Saratoga Drive, Uniontown PA is the family-built (1996) childhood home and Dan's residence for three separate eras of his life, including the GRIPNOTIC b...
 424 Bedford Ave (NYC-1) | https://caakehorn.github.io/wiki-brain/llm/pages/places/424-bedford-ave.txt | 424 Bedford Ave, Apartment 6C, in Williamsburg, Brooklyn was Dan's first New York apartment — the home base of the **NYC-1** period (April 2010 – May 2013) a...
+90th St, Manhattan (NYC-1's third year) | https://caakehorn.github.io/wiki-brain/llm/pages/places/90th-st-manhattan.txt | A sublet on 90th Street between 3rd and Lexington, on the Upper East Side, was Dan and [[wiki/people/alexis-armel|Alexis]]'s final New York address — the thi...
 places — index | https://caakehorn.github.io/wiki-brain/llm/pages/places/index.txt | Homes, cities, and significant locations. The quantified movement record is at [[wiki/self/location-history]].
+Seven Springs | https://caakehorn.github.io/wiki-brain/llm/pages/places/seven-springs.txt | Seven Springs is a ski resort about 25 miles from Uniontown that functioned as Dan's principal social world every weekend throughout his adolescence — not a ...
 
 --- SELF ---
 Ancestry / 23andMe + Family Tree | https://caakehorn.github.io/wiki-brain/llm/pages/self/ancestry.txt | 23andMe personal genomics export combined with Ancestry.com GEDCOM family tree (sourced as "Daniel Frank family tree"). The primary readable artifact is the ...

@@ -57,10 +57,12 @@ hunt itself is dated to a February 18, 2010 trip with Rick. The May 1,
 ## The household
 
 [[wiki/people/alexis-armel|Alexis]] lived with him for the address's
-full run — "with me the whole time we were in nyc" — working at the
-historic Bridge Cafe (279 Water St, the city's oldest tavern) until
-Hurricane Sandy wiped out the Seaport in October 2012, a real economic
-shock to the household that predates the move out. The apartment was
+full run — "with me the whole time we were in nyc" — and started work
+at the historic Bridge Cafe (279 Water St, the city's oldest tavern)
+during this period; the job outlasted the address, ending when
+Hurricane Sandy closed the restaurant in October 2012, six months after
+the household had already relocated to
+[[wiki/places/90th-st-manhattan|90th Street]]. The apartment was
 also a genuine social hub for the wider Full Sail/Uniontown-diaspora
 circle documented elsewhere: [[wiki/people/jamie-mohler|Jamie Mohler]]
 was a routine visitor closely tracked enough that Alexis asked after a
@@ -79,7 +81,7 @@ with a gap, into 2025.
 |---|---|
 | Occupied | 2010-04 – 2012-04 (two years; NYC-1's first residence) |
 | Roommate/partner | Alexis Armel, for the full run |
-| Followed by | Manhattan UES sublet, 90th St. bet. 3rd/Lexington (2012-05 – 2013-05) |
+| Followed by | [[wiki/places/90th-st-manhattan|Manhattan UES sublet]], 90th St. bet. 3rd/Lexington (2012-03 – 2013-04) |
 
 **Gaps:** rent, lease terms, who else (if anyone) lived there beyond
 Dan and Alexis; any photos or physical description of the unit itself

@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 337,
+ "page_count": 339,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1921,14 +1921,28 @@
    "title": "424 Bedford Ave (NYC-1)",
    "summary": "424 Bedford Ave, Apartment 6C, in Williamsburg, Brooklyn was Dan's first New York apartment \u2014 the home base of the **NYC-1** period (April 2010 \u2013 May 2013) a...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/424-bedford-ave.txt",
-   "bytes": 4491
+   "bytes": 4627
+  },
+  {
+   "page": "wiki/places/90th-st-manhattan.md",
+   "title": "90th St, Manhattan (NYC-1's third year)",
+   "summary": "A sublet on 90th Street between 3rd and Lexington, on the Upper East Side, was Dan and [[wiki/people/alexis-armel|Alexis]]'s final New York address \u2014 the thi...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/90th-st-manhattan.txt",
+   "bytes": 3960
   },
   {
    "page": "wiki/places/index.md",
    "title": "places \u2014 index",
    "summary": "Homes, cities, and significant locations. The quantified movement record is at [[wiki/self/location-history]].",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/index.txt",
-   "bytes": 1054
+   "bytes": 1371
+  },
+  {
+   "page": "wiki/places/seven-springs.md",
+   "title": "Seven Springs",
+   "summary": "Seven Springs is a ski resort about 25 miles from Uniontown that functioned as Dan's principal social world every weekend throughout his adolescence \u2014 not a ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/seven-springs.txt",
+   "bytes": 3445
   },
   {
    "page": "wiki/self/ancestry.md",

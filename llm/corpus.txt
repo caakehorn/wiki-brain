@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-337 pages, ~470,635 tokens.
+339 pages, ~472,600 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -25240,10 +25240,12 @@ hunt itself is dated to a February 18, 2010 trip with Rick. The May 1,
 ## The household
 
 [[wiki/people/alexis-armel|Alexis]] lived with him for the address's
-full run — "with me the whole time we were in nyc" — working at the
-historic Bridge Cafe (279 Water St, the city's oldest tavern) until
-Hurricane Sandy wiped out the Seaport in October 2012, a real economic
-shock to the household that predates the move out. The apartment was
+full run — "with me the whole time we were in nyc" — and started work
+at the historic Bridge Cafe (279 Water St, the city's oldest tavern)
+during this period; the job outlasted the address, ending when
+Hurricane Sandy closed the restaurant in October 2012, six months after
+the household had already relocated to
+[[wiki/places/90th-st-manhattan|90th Street]]. The apartment was
 also a genuine social hub for the wider Full Sail/Uniontown-diaspora
 circle documented elsewhere: [[wiki/people/jamie-mohler|Jamie Mohler]]
 was a routine visitor closely tracked enough that Alexis asked after a
@@ -25262,12 +25264,96 @@ with a gap, into 2025.
 |---|---|
 | Occupied | 2010-04 – 2012-04 (two years; NYC-1's first residence) |
 | Roommate/partner | Alexis Armel, for the full run |
-| Followed by | Manhattan UES sublet, 90th St. bet. 3rd/Lexington (2012-05 – 2013-05) |
+| Followed by | [[wiki/places/90th-st-manhattan|Manhattan UES sublet]], 90th St. bet. 3rd/Lexington (2012-03 – 2013-04) |
 
 **Gaps:** rent, lease terms, who else (if anyone) lived there beyond
 Dan and Alexis; any photos or physical description of the unit itself
 beyond the buzzer code; the exact circumstances of the move to the UES
 sublet a year before the NYC-1 period's 2013 close.
+
+
+========================================================================
+PAGE: wiki/places/90th-st-manhattan.md
+========================================================================
+
+---
+domain: places
+page_type: entity
+title: "90th St, Manhattan (NYC-1's third year)"
+status: closed
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+date_range_start: 2012-03-01
+date_range_end: 2013-04-01
+sources:
+  - "raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md"
+  - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+tags: [nyc-era, career, relationships]
+connections:
+  - page: wiki/places/424-bedford-ave
+    type: follows
+    claim: "This Upper East Side sublet is the third and final year of the NYC-1 period, following two years at 424 Bedford Ave — the household's last New York address before the May 2013 return to Uniontown."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: instance-of
+    claim: "The February 2012 Creative License exit over airfare-billing discrepancies and altered intern contracts is the first documented vertical-authority-to-detonation event in the corpus, recurring at BFS Foods fourteen years later."
+  - page: wiki/people/alexis-armel
+    type: co-occurs
+    claim: "Alexis lived here through the address's full run and worked at the Bridge Cafe until Hurricane Sandy closed it in October 2012 — the final economic shock of NYC-1 before the return to Uniontown the following spring."
+---
+
+# 90th St, Manhattan (NYC-1's third year)
+
+A sublet on 90th Street between 3rd and Lexington, on the Upper East
+Side, was Dan and [[wiki/people/alexis-armel|Alexis]]'s final New York
+address — the third and last year of the **NYC-1** period, following
+two years at [[wiki/places/424-bedford-ave|424 Bedford Ave]] in
+Williamsburg. They moved March 1, 2012 and returned to Uniontown
+(337 Saratoga Drive) exactly thirteen months later, on April 1, 2013.
+Like Bedford Ave, the address itself is thinly documented — no rent,
+lease, or physical description survives — but the year it anchors
+contains two of the period's most consequential events.
+
+## The Creative License exit (February 2012)
+
+Just before the move, Dan left his position at Creative License — the
+West Village production-services company at 71 8th Ave he'd worked for
+under Kevin McKiernan since arriving in New York — over airfare-billing
+discrepancies and altered intern contracts. The corpus's own forensic
+read identifies this as the **first documented instance** of a
+recurring pattern: a trusted vertical authority figure engaging in
+quiet financial manipulation, met with Dan's exit rather than
+confrontation. The same structure recurs, by the corpus's own naming,
+fourteen years later at [[wiki/work/bfs-foods|BFS Foods]] — making this
+2012 departure the founding case for
+[[wiki/mind/synthesis/vertical-authority-skepticism]] rather than a
+one-off employment change.
+
+## Hurricane Sandy and the Bridge Cafe (October 2012)
+
+Alexis worked through this period at the historic Bridge Cafe (279
+Water St, the city's oldest continuously operating tavern), a job that
+had started while the couple still lived at Bedford Ave but continued
+into the 90th Street year. Hurricane Sandy's October 2012 flooding of
+the Seaport district closed the Bridge Cafe, ending Alexis's employment
+there — a real economic shock to the household roughly six months
+before the couple's return to Uniontown, and worth noting as landing
+during this address's occupancy rather than the earlier Bedford Ave
+years, where it is sometimes loosely attributed.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Occupied | 2012-03-01 – 2013-04-01 (thirteen months) |
+| Roommate/partner | Alexis Armel, for the full run |
+| Preceded by | 424 Bedford Ave, Williamsburg (2010-04 – 2012-04) |
+| Followed by | Return to Uniontown, 337 Saratoga Drive (2013-04) |
+
+**Gaps:** rent, lease terms, and any physical description of the unit;
+what prompted the specific choice of the Upper East Side over staying
+in Brooklyn; the immediate circumstances of the April 2013 decision to
+leave New York entirely rather than relocate again within the city.
 
 
 ========================================================================
@@ -25290,10 +25376,90 @@ Homes, cities, and significant locations. The quantified movement record is
 at [[wiki/self/location-history]].
 
 - [[wiki/places/424-bedford-ave]] — the NYC-1 apartment (2010-2012): the studio-work era, Alexis's cohabitation, Occupy Wall Street, Hurricane Irene, and the origin of the Menore supply relationship.
+- [[wiki/places/90th-st-manhattan]] — NYC-1's third and final year (2012-2013): the Creative License exit and Hurricane Sandy closing Alexis's job at the Bridge Cafe.
 - [[wiki/places/337-saratoga-drive]] — the family-built childhood home, three-time residence, GRIPNOTIC basement studio, and (2026) the house being sold out from under him.
 - [[wiki/places/117-belmont-circle]] — Fran's three-story house on the UCC fairway, 50+ years; the Ulmer adjacency; the caregiving command center.
 - [[wiki/places/155-virginia-ave]] — the 2015–2019 Uniontown apartment: the Alexis→Annie handoff, the poverty floor, the deep cycle.
 - [[wiki/places/307-e-76th-st]] — the 2019–2025 Manhattan home shared with Annie; the second NYC chapter and its rupture.
+- [[wiki/places/seven-springs]] — the childhood ski resort anchor; the first drug-exposure cohort, dated a year before the family's 2005 rupture.
+
+
+========================================================================
+PAGE: wiki/places/seven-springs.md
+========================================================================
+
+---
+domain: places
+page_type: entity
+title: "Seven Springs"
+status: active
+date_created: 2026-07-20
+date_modified: 2026-07-20
+sources:
+  - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
+  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - "raw/self/dox-md/_Freeskiing's Early 2000s Cultural Revolution .md"
+tags: [uniontown-era]
+connections:
+  - page: wiki/self/context-core
+    type: component-of
+    claim: "Seven Springs is the childhood social anchor named in the canonical origin timeline — a weekly ritual that predates and outlasts the family's later collapse."
+  - page: wiki/mind/concepts/attachment-model
+    type: contextualizes
+    claim: "The Seven Springs ski crew is the first drug-exposure cohort in Dan's life, dated to 2004 — a full year before the November 2005 hinge event that formally introduces addiction into the family narrative, showing the pattern was already in motion before the rupture that gets credited with starting it."
+---
+
+# Seven Springs
+
+Seven Springs is a ski resort about 25 miles from Uniontown that
+functioned as Dan's principal social world every weekend throughout his
+adolescence — not a vacation destination but the recurring anchor of
+his actual peer group, distinct from and reportedly stronger than the
+friendships he had at his own high school (Laurel Highlands). The
+family kept a condo there, unit K2 in "The Villages" at Sunridge, and
+the weekly rhythm of driving up, skiing, and returning is named in his
+own cognitive-profile notes as the formative social structure of his
+childhood — alongside trampoline training kept up specifically as
+off-season ski-season prep.
+
+## The first drug exposure cohort
+
+The Seven Springs ski crew is explicitly identified, in Dan's own
+retrospective account, as his first drug-exposure cohort — and the
+timeline is notable: his first cocaine use is dated to 2004, in the
+context of that crew, a full year *before* the November 2005 hinge
+event (his father's rehab disclosure, his parents' divorce) that the
+rest of the corpus treats as the inciting rupture for the family's
+addiction narrative. Read against that later event, Seven Springs
+complicates a clean "the divorce caused it" story: the peer-level
+exposure was already underway before the parental-level crisis that
+gets narratively credited with starting it. Dan began dating Danielle,
+his first documented girlfriend, the same year (2004), while attending
+Laurel Highlands as Danielle attended Uniontown High School.
+
+## Regional context
+
+Seven Springs and the neighboring Liberty resort sit inside a small but
+real corner of national freeskiing culture — Tom Wallisch, one of the
+sport's defining 2007–2012 stars (the "pretzel," the SuperUnknown
+video-contest breakout, the 4Bi9 Media era), came up through this exact
+regional scene, a detail Dan has separately researched and discussed at
+length with an AI as adult interest rather than personal connection —
+he isn't described as having known Wallisch, but the shared home turf
+gives his own ski years a specific cultural backdrop rather than a
+generic one.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Family unit | The Villages, Sunridge, Unit K2 |
+| Weekly ritual | Every weekend, adolescence |
+| First cocaine use | 2004, ski-crew context |
+
+**Gaps:** how long the family kept the condo; whether skiing continued
+past adolescence; any named individuals from the Seven Springs crew
+beyond the general cohort description.
 
 
 ========================================================================
