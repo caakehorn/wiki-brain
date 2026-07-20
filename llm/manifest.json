@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 330,
+ "page_count": 332,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1161,6 +1161,13 @@
    "bytes": 7252
   },
   {
+   "page": "wiki/people/david-beard.md",
+   "title": "David Beard",
+   "summary": "David Beard is a golf-course-adjacent Uniontown contact \u2014 his own messages reference \"work\" rain delays and a Tim Griglack's band hangout \"down behind number...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/david-beard.txt",
+   "bytes": 2942
+  },
+  {
    "page": "wiki/people/david-j-frank.md",
    "title": "David J. Frank",
    "summary": "Paternal great-grandfather of Dan Frank. Born 12 August 1892 in Russia (Jewish immigrant). Died 6 April 1960, Brownsville, Fayette County, Pennsylvania. Marr...",
@@ -1284,7 +1291,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 18023
+   "bytes": 18339
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1396,7 +1403,7 @@
    "title": "Joe Oshnack",
    "summary": "Joe Oshnack is a high-school-era Uniontown bandmate \u2014 the two played together in a band referred to only as \"BNI\" \u2014 whose eleven-year Facebook thread (2011\u20132...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/joe-oshnack.txt",
-   "bytes": 5727
+   "bytes": 6110
   },
   {
    "page": "wiki/people/joey-superick.md",
@@ -1494,7 +1501,7 @@
    "title": "Lewis Strosnider",
    "summary": "Lewis Strosnider was a Uniontown vape-shop friend whose Facebook Messenger thread (March 2018 \u2013 February 2019) tracks a genuine small-business friendship: fr...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lewis-strosnider.txt",
-   "bytes": 3639
+   "bytes": 4679
   },
   {
    "page": "wiki/people/lindsay-carolla.md",
@@ -1579,6 +1586,13 @@
    "summary": "Matt Dunn is a Full Sail-era friend Dan has never stopped ribbing: Jason Bermejo's contemporaneous verdict, preserved on",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/matt-dunn.txt",
    "bytes": 5506
+  },
+  {
+   "page": "wiki/people/matthew-palermo.md",
+   "title": "Matthew Palermo",
+   "summary": "Matthew Palermo is a Uniontown-era acquaintance whose short, sparse Facebook thread (2018\u20132020) carries one genuinely heavy exchange: a February 13, 2020 con...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/matthew-palermo.txt",
+   "bytes": 3792
   },
   {
    "page": "wiki/people/max-danielle-bf.md",

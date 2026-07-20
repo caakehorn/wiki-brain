@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-330 pages, ~458,913 tokens.
+332 pages, ~461,031 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -14782,6 +14782,76 @@ Nemacolin after 2018.
 
 
 ========================================================================
+PAGE: wiki/people/david-beard.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+date_range_start: 2018-07-23
+date_range_end: 2018-10-01
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/davidbeard_2il3ecdfgg/message_1.html"
+tags: [uniontown-era, relationships]
+infobox:
+  name: "David Beard"
+  sex: male
+  location: uniontown
+  relationship_to_dan: acquaintance
+  known_for: "Golf-course-adjacent contact who sold Dan a used DJI drone in Sept 2018, the middle purchase in a rapid three-drone run that summer"
+connections:
+  - page: wiki/people/lewis-strosnider
+    type: co-occurs
+    claim: "David's used drone, bought for $700 in early September 2018, was the second of three drones Dan acquired that summer — Mavic Platinum (Jul 24), David's used unit (~Sep 4), then the Mavic 2 (Sep 21-22) that becomes the unresolved sale saga documented on Lewis Strosnider's page."
+---
+
+# David Beard
+
+David Beard is a golf-course-adjacent Uniontown contact — his own
+messages reference "work" rain delays and a Tim Griglack's band hangout
+"down behind number 5 on course below your home," placing him inside
+the same Nemacolin/Belmont Circle geography as Dan's caddying network
+— whose short but transactionally dense thread (July–October 2018)
+documents the middle purchase in a rapid three-drone summer.
+
+## The middle drone
+
+On July 24, 2018, Dan tells David — in confidence, "because I will be
+chastised for irresponsible spending" — that he'd just bought a **DJI
+Mavic Platinum**. David, unprompted, offers to sell his own used drone
+instead: "I was thinking about seeing if you wanted to buy mine,
+seriously." The negotiation runs for six weeks — an initial $800 ask,
+David's insistence Dan test-fly it first ("please see what i have, use
+it then decide"), a Aug 20 discount to $750, and a final $700 close on
+September 3–4, 2018, with Dan reporting back the next morning: "This
+thing is awesome. I love it. I'm glad I didn't spend twice as much on
+the new one." Eighteen days later, on September 21–22, 2018, Dan buys a
+**third** drone — the DJI Mavic 2 — telling both David ("I caved and
+bought the mavic 2. It's so freakin cool") and, separately,
+[[wiki/people/matthew-palermo|Matthew Palermo]] the same week. The Mavic
+2 is the unit that becomes the unresolved $1,600 sale saga documented
+on [[wiki/people/lewis-strosnider|Lewis Strosnider's]] page months
+later — meaning Dan owned or had owned three separate drones inside a
+single 2018 summer.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~70 (Facebook Messenger, both directions) |
+| Date range | 2018-07-23 – 2018-10-01 |
+| Defining content | The Sept 2018 used-drone sale, $800→$700 |
+
+**Gaps:** what became of the Mavic Platinum and the David Beard drone
+after the Mavic 2 purchase; David's specific role at the golf course
+(coworker vs. member vs. neighbor is not disambiguated).
+
+
+========================================================================
 PAGE: wiki/people/david-j-frank.md
 ========================================================================
 
@@ -16466,6 +16536,7 @@ related: []
 - [[wiki/people/dan-polyak]] — Longtime friend; documented the April 2019 phone-number impersonation used to reach Ally Lubin, and received the same-morning account of the Bryan encounter.
 - [[wiki/people/danny-matthews]] — Realtor who sold Fran's house; also half of a swinger couple (with Nicole) Dan and Annie played with 2018–2024.
 - [[wiki/people/davey-fitzpatrick]] — Nemacolin assistant caddie master (2018) and Dan's scheduler/friend for the last Uniontown working year; the thread ends the day Dan tells him about the NYC move.
+- [[wiki/people/david-beard]] — Golf-course-adjacent contact who sold Dan a used drone in Sept 2018, the middle purchase in a three-drone summer.
 - [[wiki/people/david-j-frank]] — Paternal great-grandfather of Dan Frank. Born 12 August 1892 in Russia (Jewish immigrant). Died 6 April…
 - [[wiki/people/del]] — NYC Stiiizy-brand cannabis delivery service, spring-summer 2019; chronically late.
 - [[wiki/people/dimitri]] — the only boss Dan ever loved: Au Za'atar's Greek manager-oracle, twice.
@@ -16525,6 +16596,7 @@ related: []
 - [[wiki/people/marty-martin]] — Per canonical BFS_BOOTLOADER_v2: "NOT a recruit for active operation — intelligence asset only. Protect…
 - [[wiki/people/mary-kate]] — Exemplifies vertical-authority-skepticism and forensic-self-construction via "obfuscation trench" analysis…
 - [[wiki/people/matt-dunn]] — Full Sail friend, affectionately abused as "the world's most annoying man woman or child"; the annual $5 birthday Venmo bit.
+- [[wiki/people/matthew-palermo]] — Uniontown classmate whose brother fatally overdosed after a relapse; recipient of Dan's starkest opiate-epidemic self-assessment.
 - [[wiki/people/max]] — Implements ai-collaborative-analysis and vertical-authority via "adversarial" pressure for robustness.…
 - [[wiki/people/max-danielle-bf]] — 1. "Versace" Rant (Low Culture vs Consciousness):
 - [[wiki/people/md]] — Au Za'atar-affiliated contact; 2024 Bangladesh political-unrest discussion.
@@ -17947,6 +18019,9 @@ connections:
   - page: wiki/people/jamie-mohler
     type: evidenced-by
     claim: "A Dec 13, 2017 message on Jamie's rediscovered thread independently confirms the Alexis/Annie cam encounter this page first surfaced, narrowing it to Alexis's Feb-Oct 2017 bail window."
+  - page: wiki/people/matthew-palermo
+    type: parallels
+    claim: "Both threads carry the same generational framing of the Uniontown opiate epidemic — 'the class of 06 was a real low point for humanity' to Joe (Aug 2018) and 'a quarter of my graduating class isn't around anymore' to Matthew (Feb 2020) — independent statements of the same scale claim eighteen months apart."
 ---
 
 # Joe Oshnack
@@ -18984,6 +19059,8 @@ date_range_start: 2018-03-30
 date_range_end: 2019-02-08
 sources:
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lewisstrosnider_t431kowlfq/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/matthewpalermo_nkpz90-e_g/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/davidbeard_2il3ecdfgg/message_1.html"
 tags: [uniontown-era, career, digital-footprint]
 infobox:
   name: "Lewis Strosnider"
@@ -18996,6 +19073,12 @@ connections:
   - page: wiki/mind/synthesis/estate-money-spine
     type: co-occurs
     claim: "Dan's July 2018 message anticipating a 'sizeable check' from the estate 'in a few months' shows the distribution was expected to move far faster than the Sept 1, 2020 date it actually landed on — a documented gap between expectation and outcome."
+  - page: wiki/people/matthew-palermo
+    type: evidenced-by
+    claim: "A Sept 22, 2018 message to Matthew Palermo ('Got the mavic 2 yesterday') independently dates the drone's purchase, one day before the crash/repair saga that runs through this page begins."
+  - page: wiki/people/david-beard
+    type: evidenced-by
+    claim: "David's own thread reveals the Mavic 2 was the third of three drones Dan bought in a six-week span that summer — a Mavic Platinum, then David's used unit for $700, then the Mavic 2 itself."
 ---
 
 # Lewis Strosnider
@@ -19029,8 +19112,13 @@ money from the pending [[wiki/mind/synthesis/estate-money-spine|Fran
 estate]] — "in a few months they will wrap up the estate and I'll get
 a pretty sizeable check" — an expectation that, per the estate's own
 documented timeline, was off by more than two years (the actual
-distribution landed September 1, 2020). The drone itself, a DJI Mavic
-2 Dan crashed and paid $800 to repair ($1,600 invested total), becomes
+distribution landed September 1, 2020). The drone itself — a **DJI
+Mavic 2**, the third of three drones Dan bought that summer (a Mavic
+Platinum on July 24, a used unit from
+[[wiki/people/david-beard|David Beard]] for $700 around September 4,
+then the Mavic 2 itself on September 21, per a separate message to
+[[wiki/people/matthew-palermo|Matthew Palermo]], "Got the mavic 2
+yesterday") — crashed, paid $800 to repair ($1,600 invested total), becomes
 a running sale negotiation from November 2018 through the thread's
 final message in February 2019, with Lewis increasingly eager ("I want
 it bad...") and Dan noncommittal about price. The sale is still
@@ -19870,6 +19958,88 @@ corpus, only the Facebook thread; his current occupation, location, and
 life circumstances are undocumented. Whether he still uses Venmo to
 extract the annual $5 in years not covered by Eric's snapshot is
 unconfirmed but, given the pattern's described consistency, likely.
+
+
+========================================================================
+PAGE: wiki/people/matthew-palermo.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+knowledge: mixed
+date_created: 2026-07-20
+date_modified: 2026-07-20
+date_range_start: 2018-08-25
+date_range_end: 2020-02-13
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/matthewpalermo_nkpz90-e_g/message_1.html"
+tags: [uniontown-era, grief, addiction-recovery]
+infobox:
+  name: "Matthew Palermo"
+  sex: male
+  location: uniontown
+  relationship_to_dan: acquaintance
+  known_for: "Uniontown classmate whose brother relapsed and fatally overdosed after a long period clean; recipient of Dan's starkest opiate-epidemic self-assessment (\"a quarter of my graduating class isn't around anymore\")"
+connections:
+  - page: wiki/people/lewis-strosnider
+    type: co-occurs
+    claim: "A Sept 22, 2018 message ('Got the mavic 2 yesterday') dates the purchase of the same DJI Mavic 2 Dan later tried and failed to sell to Lewis Strosnider — one thread confirms the drone's origin, the other its unresolved fate."
+  - page: wiki/people/joe-oshnack
+    type: parallels
+    claim: "Both threads carry the same generational framing of the Uniontown opiate epidemic — 'the class of 06 was a real low point for humanity' to Joe (Aug 2018) and 'a quarter of my graduating class isn't around anymore' to Matthew (Feb 2020) — independent statements of the same scale claim eighteen months apart."
+---
+
+# Matthew Palermo
+
+Matthew Palermo is a Uniontown-era acquaintance whose short, sparse
+Facebook thread (2018–2020) carries one genuinely heavy exchange: a
+February 13, 2020 conversation in which Dan, unprompted, tells Matthew
+he'd been thinking about Matthew's brother — and Matthew, without being
+asked, explains how he died.
+
+## The brother's death
+
+"I hope this doesn't bum you out but i was thinking about your brother
+today and he's one of the few that i really really miss," Dan opens,
+and Matthew — despite noting "we didn't get along" — answers plainly:
+his brother had been "clean for a long time," relapsed once after
+losing his living situation ("he lived away with a girl for a while and
+they got kicked out"), stayed one night at their parents' house alone
+for the first time in a long while, asked Matthew for a cigarette (a
+tell — "he only smoked when he was high") — and overdosed. Matthew:
+"I just ignored it and he ended up od'ing." Dan's response generalizes
+the loss into the corpus's starkest quantified statement of the
+Uniontown opiate epidemic's scale: "people in nyc are SHOCKED when they
+hear how many young people have died from opiates. they think that 'a
+lot' means 5 people... no, a quarter of my graduating class isn't
+around anymore... we have lost more friends at 30 than our parents have
+at 60."
+
+## Tyler, and revising old perceptions
+
+The same conversation carries a smaller, self-reflective story: Dan
+recalls disliking a mutual acquaintance, Tyler, from third grade through
+high school, then reconnecting with him years later alongside
+[[wiki/people/zachariah-harshman|Zach Harshman]] and being "SHOCKED how
+naturally funny he was" — a reminder, Dan says, "that i shouldn't rely
+on my perceptions of people that were formed when i was an absolute
+shithead." Matthew corroborates that Tyler "used to depend who he was
+around" but is "pretty much the same guy all the time finally" now —
+"you either loved him or hated him... about a 50/50 mix."
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Messages | ~70 (Facebook Messenger, both directions) |
+| Date range | 2018-08-25 – 2020-02-13 |
+| Defining content | The Feb 13, 2020 brother's-death and opiate-epidemic exchange |
+
+**Gaps:** the brother's first name and exact date of death; Matthew's
+current circumstances beyond the Feb 2020 update (house, HVAC/
+refrigeration trade, plans to relocate near the Outer Banks).
 
 
 ========================================================================

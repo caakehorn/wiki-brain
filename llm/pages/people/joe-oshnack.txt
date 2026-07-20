@@ -26,6 +26,9 @@ connections:
   - page: wiki/people/jamie-mohler
     type: evidenced-by
     claim: "A Dec 13, 2017 message on Jamie's rediscovered thread independently confirms the Alexis/Annie cam encounter this page first surfaced, narrowing it to Alexis's Feb-Oct 2017 bail window."
+  - page: wiki/people/matthew-palermo
+    type: parallels
+    claim: "Both threads carry the same generational framing of the Uniontown opiate epidemic — 'the class of 06 was a real low point for humanity' to Joe (Aug 2018) and 'a quarter of my graduating class isn't around anymore' to Matthew (Feb 2020) — independent statements of the same scale claim eighteen months apart."
 ---
 
 # Joe Oshnack
