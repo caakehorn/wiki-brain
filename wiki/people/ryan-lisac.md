@@ -3,34 +3,43 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-06-23
+date_modified: 2026-07-20
 sources: []
-related: ["wiki/self/context-core", "wiki/people/tom"]
 tags: [digital-footprint]
 infobox:
   name: "Ryan Lisac"
   relationship_to_dan: unknown
-  known_for: "Childhood/early peer. Core figure in the 'Snob Squad' developmental arc."
+  known_for: "Childhood peer and core figure in the 'Snob Squad' developmental era, whose vocabulary Dan later revived as a 2026 DJ-identity project"
+connections:
+  - page: wiki/mind/synthesis/totality-themes
+    type: parallels
+    claim: "The 'Snob Squad' name Dan road-tests for his 2026 DJ-identity relaunch is drawn directly from the childhood vocabulary originated in this era — a deliberate callback, not a coincidence of naming."
 ---
 
 # Ryan Lisac
 
-## Identity
+Ryan Lisac is a childhood or early-peer friend and the core figure in
+what Dan's own notes call the "Snob Squad" — a developmental era with
+its own vocabulary (including the shorthand `#sn0b`) that predates the
+bulk of the ingested corpus. A tribute letter from this era is
+confirmed to have been delivered and received warmly, though the letter
+itself isn't preserved. The relationship reads as historically closed
+rather than ongoing: occasional, positive mentions surface in later
+message logs (a 2018 reference to "Ryan Lisac closet" and a 2025 mention
+tied to Taking Back Sunday songs) without indicating renewed regular
+contact.
 
-Childhood/early peer. Core figure in the "Snob Squad" developmental arc.
+The name resurfaces much later and in an unrelated context: Dan's own
+identity-forensic notes (see
+[[wiki/mind/synthesis/totality-themes|totality-themes]]) document that
+his 2026 DJ-alias relaunch is deliberately named "Snob Squad" too — the
+name explicitly "road-tested against native vocabulary" from this
+childhood era rather than newly invented. The DJ project has no
+documented connection to Ryan Lisac himself; it borrows the name as a
+personal callback, not as a revival of the friendship or the group.
 
-## The Snob Squad & Gap
-
-> **Gap:** The "Snob Squad" narrative, the `#sn0b` origin vocabulary, and the confirmed tribute letter (delivered and received warmly) are present in memory but largely absent from the current ingested wiki corpus. Ryan Lisac appears in occasional message corpus mentions (e.g., "Ryan Lisac closet" in 2018 logs, a 2025 Taking Back Sunday reference) but the main arc needs ingestion.
-
-## Timeline
-- **Pre-2010s:** Active "Snob Squad" era and vocabulary origination.
-- **Post-era:** Tribute letter confirmed delivered and received warmly.
-- **2018-10-08:** Mentioned in iMessage ("Ryan Lisac closet").
-- **2025-07-10:** Mentioned in iMessage (Taking Back Sunday songs reference).
-
-## Domain: Self
-Represents a specific developmental era (Snob Squad) and early vocabulary (#sn0b). Needs expansion once raw sources are ingested.
-
-## Notes
-Status is closed as the active developmental phase is historical, though occasional positive contact/references remain.
+**Gaps:** the full "Snob Squad" narrative and the `#sn0b` origin
+vocabulary are not present anywhere in the ingested raw corpus — this
+page records what's recalled but not independently source-verified;
+the content of the tribute letter; how or when contact with Ryan
+specifically ended.

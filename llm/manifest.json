@@ -668,7 +668,7 @@
    "title": "Totality Themes",
    "summary": "This synthesis extracts the recurring structural themes present across the entirety of the ingested corpus. By cross-referencing massive, disparate datasets\u2014...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/totality-themes.txt",
-   "bytes": 36137
+   "bytes": 36392
   },
   {
    "page": "wiki/mind/synthesis/vertical-authority-skepticism.md",
@@ -1305,7 +1305,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 18746
+   "bytes": 18994
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1723,9 +1723,9 @@
   {
    "page": "wiki/people/ryan-lisac.md",
    "title": "Ryan Lisac",
-   "summary": "Childhood/early peer. Core figure in the \"Snob Squad\" developmental arc.",
+   "summary": "Ryan Lisac is a childhood or early-peer friend and the core figure in what Dan's own notes call the \"Snob Squad\" \u2014 a developmental era with its own vocabular...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ryan-lisac.txt",
-   "bytes": 1432
+   "bytes": 2102
   },
   {
    "page": "wiki/people/ryan-scherich.md",

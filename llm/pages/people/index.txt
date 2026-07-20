@@ -98,17 +98,17 @@ related: []
 - [[wiki/people/lukyan-mraz]] — Uniontown friend and short-lived 2015 cannabis-grow collaborator; ends in a March 2016 equipment dispute.
 - [[wiki/people/maddox]] — Little Caesars employee whose unprompted sidewalk testimony confirms Anita's Timmy blame-pivot (see [[wiki/work/bfs-foods|bfs-foods]]).
 - [[wiki/people/manuel]] — Au Za'atar coworker turned lasting friend, 2023-2026; Spanish-language banter.
-- [[wiki/people/marc-charles]]
+- [[wiki/people/marc-charles]] — Golf friend and past music-recording collaborator; a mutual sobriety-milestone acknowledgment in 2017.
 - [[wiki/people/marla]] — Paid caregiver on Fran's shift rotation; her messages corroborate the April 4, 2018 death date.
-- [[wiki/people/marty-martin]] — Per canonical BFS_BOOTLOADER_v2: "NOT a recruit for active operation — intelligence asset only. Protect…
+- [[wiki/people/marty-martin]] — BFS Foods coworker; primary trusted source on the store's off-books drawer-shortage culture.
 - [[wiki/people/mary-kate]] — Exemplifies vertical-authority-skepticism and forensic-self-construction via "obfuscation trench" analysis…
 - [[wiki/people/matt-dunn]] — Full Sail friend, affectionately abused as "the world's most annoying man woman or child"; the annual $5 birthday Venmo bit.
 - [[wiki/people/matthew-palermo]] — Uniontown classmate whose brother fatally overdosed after a relapse; recipient of Dan's starkest opiate-epidemic self-assessment.
 - [[wiki/people/max]] — Implements ai-collaborative-analysis and vertical-authority via "adversarial" pressure for robustness.…
-- [[wiki/people/max-danielle-bf]] — 1. "Versace" Rant (Low Culture vs Consciousness):
+- [[wiki/people/max-danielle-bf]] — Danielle's current boyfriend; subject of an unprompted AI personality analysis Dan ran on a recording of him.
 - [[wiki/people/md]] — Au Za'atar-affiliated contact; 2024 Bangladesh political-unrest discussion.
 - [[wiki/people/menore]] — "Additional family/friend" per master dump analysis and cross-refs. Handle +13476070497 (dedicated CSV messages_3476070497_all_time.csv).…
-- [[wiki/people/michael-hinkle]]
+- [[wiki/people/michael-hinkle]] — One-sided, unanswered 2017 Facebook message.
 - [[wiki/people/mike-cordaro]] — Childhood friend reconnecting summer 2024; new "uncle Dave" family lead.
 - [[wiki/people/mike-zollinger]] — Fellow Nemacolin caddy, 2018; early crypto banter predating the 2020-21 market era.
 - [[wiki/people/milo]] — Dan's Chihuahua, with him since at least 2018; the one presence explicitly carved out as exempt from forensic analysis. Stayed with Dan when the household split from Annie in 2025.
@@ -120,7 +120,7 @@ related: []
 - [[wiki/people/rick-frank]] — Father of Dan Frank. Born 22 May 1959 in Uniontown, Fayette County, Pennsylvania. Part of paternal Jewish…
 - [[wiki/people/rj-ritchey]] — Uniontown golf-circle friend and 2019 Manhattan visitor; the iMessage contact `+17249844280` was merged into this canonical page.
 - [[wiki/people/rob-orange]] — High-school-era Uniontown friend; died April 2014, cause never confirmed; the one loss both Dan and Jim Shaffer mourn without irony.
-- [[wiki/people/ryan-lisac]] — Childhood/early peer. Core figure in the "Snob Squad" developmental arc.
+- [[wiki/people/ryan-lisac]] — Childhood peer at the center of the "Snob Squad" era, whose vocabulary Dan later revived for a 2026 DJ-identity project.
 - [[wiki/people/ryan-scherich]] — Barely-known acquaintance; single-day Feb 2020 political flame war ending in a remark Dan calls racist.
 - [[wiki/people/sadie-harris]] — Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood,…
 - [[wiki/people/sam]] — NYC cannabis delivery dealer (2019–20) for the E 76th St years; fired Dan as a customer in Feb 2020, un-fired him when COVID hit.

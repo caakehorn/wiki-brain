@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-337 pages, ~467,883 tokens.
+337 pages, ~468,176 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -9990,6 +9990,9 @@ connections:
   - page: wiki/mind/synthesis/intake-constancy
     type: contains
     claim: "The two-constants section carries the intake-constancy finding; the standalone argument lives on its own page."
+  - page: wiki/people/ryan-lisac
+    type: parallels
+    claim: "The 'Snob Squad' name road-tested here for the 2026 DJ-identity relaunch is a deliberate callback to the childhood-era vocabulary originated around Ryan Lisac, not a coincidence of naming."
 ---
 
 
@@ -17016,17 +17019,17 @@ related: []
 - [[wiki/people/lukyan-mraz]] — Uniontown friend and short-lived 2015 cannabis-grow collaborator; ends in a March 2016 equipment dispute.
 - [[wiki/people/maddox]] — Little Caesars employee whose unprompted sidewalk testimony confirms Anita's Timmy blame-pivot (see [[wiki/work/bfs-foods|bfs-foods]]).
 - [[wiki/people/manuel]] — Au Za'atar coworker turned lasting friend, 2023-2026; Spanish-language banter.
-- [[wiki/people/marc-charles]]
+- [[wiki/people/marc-charles]] — Golf friend and past music-recording collaborator; a mutual sobriety-milestone acknowledgment in 2017.
 - [[wiki/people/marla]] — Paid caregiver on Fran's shift rotation; her messages corroborate the April 4, 2018 death date.
-- [[wiki/people/marty-martin]] — Per canonical BFS_BOOTLOADER_v2: "NOT a recruit for active operation — intelligence asset only. Protect…
+- [[wiki/people/marty-martin]] — BFS Foods coworker; primary trusted source on the store's off-books drawer-shortage culture.
 - [[wiki/people/mary-kate]] — Exemplifies vertical-authority-skepticism and forensic-self-construction via "obfuscation trench" analysis…
 - [[wiki/people/matt-dunn]] — Full Sail friend, affectionately abused as "the world's most annoying man woman or child"; the annual $5 birthday Venmo bit.
 - [[wiki/people/matthew-palermo]] — Uniontown classmate whose brother fatally overdosed after a relapse; recipient of Dan's starkest opiate-epidemic self-assessment.
 - [[wiki/people/max]] — Implements ai-collaborative-analysis and vertical-authority via "adversarial" pressure for robustness.…
-- [[wiki/people/max-danielle-bf]] — 1. "Versace" Rant (Low Culture vs Consciousness):
+- [[wiki/people/max-danielle-bf]] — Danielle's current boyfriend; subject of an unprompted AI personality analysis Dan ran on a recording of him.
 - [[wiki/people/md]] — Au Za'atar-affiliated contact; 2024 Bangladesh political-unrest discussion.
 - [[wiki/people/menore]] — "Additional family/friend" per master dump analysis and cross-refs. Handle +13476070497 (dedicated CSV messages_3476070497_all_time.csv).…
-- [[wiki/people/michael-hinkle]]
+- [[wiki/people/michael-hinkle]] — One-sided, unanswered 2017 Facebook message.
 - [[wiki/people/mike-cordaro]] — Childhood friend reconnecting summer 2024; new "uncle Dave" family lead.
 - [[wiki/people/mike-zollinger]] — Fellow Nemacolin caddy, 2018; early crypto banter predating the 2020-21 market era.
 - [[wiki/people/milo]] — Dan's Chihuahua, with him since at least 2018; the one presence explicitly carved out as exempt from forensic analysis. Stayed with Dan when the household split from Annie in 2025.
@@ -17038,7 +17041,7 @@ related: []
 - [[wiki/people/rick-frank]] — Father of Dan Frank. Born 22 May 1959 in Uniontown, Fayette County, Pennsylvania. Part of paternal Jewish…
 - [[wiki/people/rj-ritchey]] — Uniontown golf-circle friend and 2019 Manhattan visitor; the iMessage contact `+17249844280` was merged into this canonical page.
 - [[wiki/people/rob-orange]] — High-school-era Uniontown friend; died April 2014, cause never confirmed; the one loss both Dan and Jim Shaffer mourn without irony.
-- [[wiki/people/ryan-lisac]] — Childhood/early peer. Core figure in the "Snob Squad" developmental arc.
+- [[wiki/people/ryan-lisac]] — Childhood peer at the center of the "Snob Squad" era, whose vocabulary Dan later revived for a 2026 DJ-identity project.
 - [[wiki/people/ryan-scherich]] — Barely-known acquaintance; single-day Feb 2020 political flame war ending in a remark Dan calls racist.
 - [[wiki/people/sadie-harris]] — Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood,…
 - [[wiki/people/sam]] — NYC cannabis delivery dealer (2019–20) for the E 76th St years; fired Dan as a customer in Feb 2020, un-fired him when COVID hit.
@@ -21948,37 +21951,46 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-06-23
+date_modified: 2026-07-20
 sources: []
-related: ["wiki/self/context-core", "wiki/people/tom"]
 tags: [digital-footprint]
 infobox:
   name: "Ryan Lisac"
   relationship_to_dan: unknown
-  known_for: "Childhood/early peer. Core figure in the 'Snob Squad' developmental arc."
+  known_for: "Childhood peer and core figure in the 'Snob Squad' developmental era, whose vocabulary Dan later revived as a 2026 DJ-identity project"
+connections:
+  - page: wiki/mind/synthesis/totality-themes
+    type: parallels
+    claim: "The 'Snob Squad' name Dan road-tests for his 2026 DJ-identity relaunch is drawn directly from the childhood vocabulary originated in this era — a deliberate callback, not a coincidence of naming."
 ---
 
 # Ryan Lisac
 
-## Identity
+Ryan Lisac is a childhood or early-peer friend and the core figure in
+what Dan's own notes call the "Snob Squad" — a developmental era with
+its own vocabulary (including the shorthand `#sn0b`) that predates the
+bulk of the ingested corpus. A tribute letter from this era is
+confirmed to have been delivered and received warmly, though the letter
+itself isn't preserved. The relationship reads as historically closed
+rather than ongoing: occasional, positive mentions surface in later
+message logs (a 2018 reference to "Ryan Lisac closet" and a 2025 mention
+tied to Taking Back Sunday songs) without indicating renewed regular
+contact.
 
-Childhood/early peer. Core figure in the "Snob Squad" developmental arc.
+The name resurfaces much later and in an unrelated context: Dan's own
+identity-forensic notes (see
+[[wiki/mind/synthesis/totality-themes|totality-themes]]) document that
+his 2026 DJ-alias relaunch is deliberately named "Snob Squad" too — the
+name explicitly "road-tested against native vocabulary" from this
+childhood era rather than newly invented. The DJ project has no
+documented connection to Ryan Lisac himself; it borrows the name as a
+personal callback, not as a revival of the friendship or the group.
 
-## The Snob Squad & Gap
-
-> **Gap:** The "Snob Squad" narrative, the `#sn0b` origin vocabulary, and the confirmed tribute letter (delivered and received warmly) are present in memory but largely absent from the current ingested wiki corpus. Ryan Lisac appears in occasional message corpus mentions (e.g., "Ryan Lisac closet" in 2018 logs, a 2025 Taking Back Sunday reference) but the main arc needs ingestion.
-
-## Timeline
-- **Pre-2010s:** Active "Snob Squad" era and vocabulary origination.
-- **Post-era:** Tribute letter confirmed delivered and received warmly.
-- **2018-10-08:** Mentioned in iMessage ("Ryan Lisac closet").
-- **2025-07-10:** Mentioned in iMessage (Taking Back Sunday songs reference).
-
-## Domain: Self
-Represents a specific developmental era (Snob Squad) and early vocabulary (#sn0b). Needs expansion once raw sources are ingested.
-
-## Notes
-Status is closed as the active developmental phase is historical, though occasional positive contact/references remain.
+**Gaps:** the full "Snob Squad" narrative and the `#sn0b` origin
+vocabulary are not present anywhere in the ingested raw corpus — this
+page records what's recalled but not independently source-verified;
+the content of the tribute letter; how or when contact with Ryan
+specifically ended.
 
 
 ========================================================================

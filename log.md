@@ -468,3 +468,16 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - wiki/people/josh-brannan.md: fresh-mined the raw FB thread (41 messages, previously only partially represented) — a warm Feb 2017 reconnection with an old Uniontown friend, including an unprompted, undefensive admission of the webcam-modeling job ("DUDE IM A MODEL WE ARE MODEL BROS"). Added parallels connection to wiki/people/jerad-friedline.md re: the separate "josh brannan is innocent.wav" running joke.
 - Updated wiki/people/index.md one-liners for all 5.
 - Gates: wiki-lint 0 errors, wiki-connect check 0 errors.
+
+## [2026-07-20] fix | people | PR #59 bot review — wikilinks + truncation-safe openers
+- Addressed 6 gemini-code-assist review comments on PR #59: converted plain-text `bfs-foods`/`jerad-friedline` references to wikilinks in wiki/people/index.md, dakota.md, and josh-brannan.md connections claims; split the overlong opening sentences on dakota.md and maddox.md that were causing the auto-generated llm/manifest.json summary to truncate mid-link.
+- Gates: wiki-lint 0 errors, wiki-connect check 0 errors.
+
+## [2026-07-20] rewrite | people | swarm-stub batch 2 of 3 (marc-charles, marty-martin, max-danielle-bf, michael-hinkle, ryan-lisac)
+- wiki/people/marc-charles.md: converted an 85-message golf/music thread into prose — a 2018 golf-equipment-and-scores exchange plus a warmer 2017 mutual sobriety-milestone acknowledgment ("I'm 7 years clean from opiates" / "4 years in august") tied to old shared music recordings.
+- wiki/people/marty-martin.md: full prose conversion of the BFS Foods trusted-source page — the "make the store whole to keep your job" framing that anchors bfs-foods.md's structural (not isolated) reading of the drawer-shortage dispute, plus the Suz-relay channel (chili/goulash question, a later job-lead message) and a specific shift-cover reliability example.
+- wiki/people/max-danielle-bf.md: condensed a dossier-style page of long verbatim quote blocks (violating the quote-sparingly rule) into prose — Dan handing Gemini a recording of Danielle's boyfriend and requesting a full personality analysis; Gemini's "mirror image" / "Recursive Cognitive Machine" read.
+- wiki/people/michael-hinkle.md: previously near-empty placeholder; mined the raw 3-message FB thread (one-sided, unanswered, references Annie and "i found us something").
+- wiki/people/ryan-lisac.md: preserved the page's own honestly-flagged gap (the "Snob Squad" childhood narrative isn't present in the ingested raw corpus) rather than inventing content; added the genuinely new finding that Dan's 2026 DJ-identity relaunch deliberately reuses the "Snob Squad" name as a callback — added a parallels connection + inverse edge on wiki/mind/synthesis/totality-themes.md.
+- Updated wiki/people/index.md one-liners for all 5.
+- Gates: wiki-lint 0 errors, wiki-connect check 0 errors.

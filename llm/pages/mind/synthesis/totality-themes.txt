@@ -45,6 +45,9 @@ connections:
   - page: wiki/mind/synthesis/intake-constancy
     type: contains
     claim: "The two-constants section carries the intake-constancy finding; the standalone argument lives on its own page."
+  - page: wiki/people/ryan-lisac
+    type: parallels
+    claim: "The 'Snob Squad' name road-tested here for the 2026 DJ-identity relaunch is a deliberate callback to the childhood-era vocabulary originated around Ryan Lisac, not a coincidence of naming."
 ---
 
 

@@ -3,59 +3,80 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/message-csv/imessage_2124702449_both_2026-05-01_now.csv", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md", "raw/self/chats/Drawer shortage dispute with assistant manager (1).md", "wiki/work/bfs-foods.md"]
-related: ["wiki/work/bfs-foods", "wiki/timeline/periods/2025-collapse", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/message-corpora/master-message-dump", "wiki/people/anita", "wiki/people/kim", "wiki/people/timmy", "wiki/people/brandon-hill", "wiki/self/facebook", "wiki/people/maddox", "wiki/people/dakota"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/dox-md/BFS_BOOTLOADER_v2.md
+  - raw/self/message-csv/imessage_7243228715_both_all_now.csv
+  - raw/self/message-csv/imessage_2124702449_both_2026-05-01_now.csv
+  - raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv
+  - raw/self/dox-md/BFS Anita Quagmire strategy and legal exposure.md
+  - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
 tags: [digital-footprint, addiction-recovery]
 infobox:
   name: "Marty Martin"
   relationship_to_dan: unknown
-  known_for: "Role: BFS Foods gas station coworker (~6 months tenure as of May 2026). Dan's primary trusted source and designated inte"
+  known_for: "BFS Foods coworker and Dan's most trusted source on the store's off-books culture during the 2026 drawer-shortage dispute"
+connections:
+  - page: wiki/work/bfs-foods
+    type: evidenced-by
+    claim: "Marty's framing of the store's off-books culture ('make the store whole to keep your job') is the primary evidence for reading the $50 drawer-shortage demand as structural rather than an isolated shakedown."
+  - page: wiki/people/suzanne-frank
+    type: co-occurs
+    claim: "Nearly all documented post-incident contact with Marty runs through Suz as relay, not directly with Dan — including a later job-lead message."
 ---
 
 # Marty Martin
 
-**Role:** BFS Foods gas station coworker (~6 months tenure as of May 2026). Dan's primary trusted source and designated intelligence asset only. Provided key framing of the off-books cash-shortage culture ("make the store whole to keep your job"). Participant in the "brandon, +3" group text (Anita, Brandon, (724) 208-9869 unidentified employee, Marty Martin, Dan). Post-incident contact/relays documented via Dan's mother Suz thread; referenced in Brandon's $50 demand context.
+Marty Martin is a BFS Foods gas-station coworker, roughly six months
+into the job by May 2026, whom the bootloader synthesis names Dan's
+primary trusted source inside the store — an intelligence asset, not a
+recruit for anything active. His most consequential contribution is a
+single piece of framing that reframes the entire drawer-shortage dispute
+documented on [[wiki/work/bfs-foods]]: "make the store whole to keep
+your job," his own description of the store's off-books culture around
+cash shortages, offered as established practice rather than a one-off.
+That framing is treated as evidence the culture predates Dan and is
+structural, not a targeted setup — though it also collapses the moment
+Dan's hours get cut to nothing, at which point the logic of quietly
+eating a loss to protect a job stops applying.
 
-## Key Threads / Quotes Table
+## Around the dispute
 
-| Date | Source/Thread | Quote / Context | Evidence |
-|------|---------------|-----------------|----------|
-| Pre-May 2026 (~6mo tenure) | BFS_BOOTLOADER_v2 §II (Marty description) | "make the store whole to keep your job" framing describing how the off-books culture operates. | Dan's primary trusted source; "Has been there long enough to know patterns Dan doesn't." |
-| 2026-05-16 (Fri, pre-incident) | Group text "brandon, +3" (Marty participant) | "Schedule update to get the new guy trained. Please take note of the changes"; "Team please watch your clock in and clock out time. Time is tight and going over allotted hours and corporate is not liking the over time and hours" | Bootloader §IX; schedule images referenced; hours pressure pre-dates Sunday drawer shift |
-| 2026-05-18 | imessage_2124702449_both_2026-05-01_now.csv (to [[wiki/people/annie-ulmer|Annie]]) | Brandon (asshole): “and I heard you owe Marty money” (in context of $50 demand) | "the asshole who said I owe him $50 was like “and I heard you owe Marty money” like today was not the first time i had seen him since I got paid" |
-| 2026-05-23 16:16:37 | imessage_7243228715_both_all_now.csv (Suz received) | "What did Marty call this stuff he sent home that you called chili? Was it Goulash?" | Mom relay referencing Marty (food sent home) |
-| 2026-05-24 02:30:49 | imessage_7243228715_both_all_now.csv (Dan sent) | "Friday I wasn't even scheduled. I came in to cover Fran's shift, and when Marty called and asked me to stay until 11 because his wife was sick, I said yes to help out even though I wasn't feeling great. ... So I didn't walk out and I didn't quit." | Detailed account of Marty-initiated shift cover (draft/copy clarifying to Anita via mom thread?) |
-| 2026-06-07 16:46:49 | imessage_7243228715_both_all_now.csv (Suz received) | "Passing on a message from Marty. He said to call him about a job that pays $13+/hr. Also, I guess Anita hired a friend of hers and she didn’t show up today." | Post-incident relay; "Karma" follow-up on new hire |
-| May 2026 (post-May 16) | BFS_BOOTLOADER_v2 §IX, §XVIII | 5-day group silence after last message Fri May 16 2:15 PM (Brandon "Okay"); "The Marty check on the group text is the diagnostic move for whether Dan has been removed" | "Have you gotten any group texts this week? My phone's been acting up" proposed phrasing |
-| May 21 recording (context) | BFS_BOOTLOADER_v2 | Marty not present on sidewalk; group participants listed including Marty | Recording transcript; third-party Maddox present instead |
+Marty appears as a participant in a group text alongside
+[[wiki/people/anita|Anita]], [[wiki/people/brandon-hill|Brandon Hill]],
+and an unidentified fifth number in the days before the incident,
+including a May 16 message pushing back on overtime and clocked hours
+("Time is tight and going over allotted hours and corporate is not
+liking the over time"). He is invoked, but not present, the day after
+the $50 demand starts: Brandon tells Dan "and I heard you owe Marty
+money" while pressing the debt claim. He was not present for the May 21
+sidewalk recording where [[wiki/people/maddox|Maddox]] gave a fuller
+account of the same period's blame-pivot pattern; the bootloader treats
+a check-in with Marty on the group text as the practical way to tell
+whether Dan has been quietly removed from it.
 
-## Timeline
+## The Suz relay channel
 
-- ~ late 2025: Marty starts BFS (~6 months tenure by May 2026).
-- Late Apr 2026: Dan starts gas station cashier (phoneless, wifi texts only). Marty becomes trusted source on store operations and off-books patterns.
-- May 12-14: Group text documents Timmy ban/reversal (Marty in participant list).
-- 2026-05-16 Fri: Group text schedule update + OT/corporate hours pressure ("new guy trained"); pre-dates drawer incident.
-- 2026-05-18 Sun: Incident shift (Dan in withdrawal; gas preset error + Brandon Total > Cash phantom). Next-day Brandon demand references Marty ("owe Marty money").
-- 2026-05-19 Mon: Anita "$50 short" text; Brandon in-person conversion to personal debt.
-- 2026-05-21: Sidewalk recording (Marty not present; diagnostic Marty check recommended for group status).
-- 2026-05-23: Suz asks about Marty's chili/goulash.
-- 2026-05-24: Dan's clarification account of Marty-called shift cover sent (via mom thread?).
-- Post-May 16 (5+ days silence window): Group inactive; Marty check as removal test.
-- 2026-06-07: Marty passes job lead message via Suz; notes Anita's friend no-show.
+Nearly all of Marty's contact with Dan after the incident is relayed
+through Dan's mother, [[wiki/people/suzanne-frank|Suz]], rather than
+direct. On May 23 she asks Dan what Marty called the food he'd sent
+home ("chili" or "Goulash"), and on June 7 she passes on a message from
+Marty about a job lead paying $13+/hour — adding, unprompted, that
+Anita had hired a friend who then failed to show up for her first
+shift. Separately, in a message to Annie, Dan gives his own account of
+a specific instance of Marty's reliability: covering a shift Marty
+asked him to take because Marty's wife was sick, on a day Dan wasn't
+even scheduled — offered as evidence he "didn't walk out and didn't
+quit" of the job.
 
-## Behavioral Notes
+## Corpus record
 
-Per canonical BFS_BOOTLOADER_v2: "NOT a recruit for active operation — intelligence asset only. Protect the relationship." "The Marty group-text check ... is the diagnostic move for removal." Off-books "make the store whole" culture described by Marty predates Dan (supports structural Hypothesis A over isolated error). Post-incident flow limited to mom relay (no direct documented iMessage with Dan beyond group). Ties to core themes: vertical authority skepticism (Anita control vs worker intel), work-power-dynamics (off-books extraction predates Dan per Marty; phantom tender via closer procedure). Low-trust posture applied: use for status intel only, do not burn asset in docs/escalation (per Quagmire file: "a document that names Maddox and Marty burns the exact assets").
+| Metric | Value |
+|---|---|
+| Direct contact with Dan | None documented (group text + Suz relay only) |
+| Key framing | "Make the store whole to keep your job" |
+| Post-incident contact | Chili/goulash relay (May 23); job-lead relay (June 7) |
 
-## Connections
-
-- **Group text node**: [[wiki/people/anita]] (GM architect), [[wiki/people/brandon-hill]] (instrument), unidentified (724) 208-9869, Dan.
-- **Incident witnesses / pattern**: [[wiki/people/timmy]], [[wiki/people/kim]] (LC), [[wiki/people/maddox]] (sidewalk), [[wiki/people/dakota]] (initial disclosure).
-- **Relay / post**: Suz (mother thread in message-csv).
-- **BFS dispute**: [[wiki/work/bfs-foods]], [[wiki/people/brandon-hill]].
-- **Synthesis**: [[wiki/mind/synthesis/vertical-authority-skepticism]] (Marty culture description), [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]].
-
-**Cross-references:** [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/people/anita]], [[wiki/people/kim]], [[wiki/people/timmy]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/facebook]], [[wiki/work/bfs-foods]], [[wiki/people/maddox]], [[wiki/people/dakota]], [[wiki/self/context-core]]
-
-**Notes:** No primary direct FB or standalone iMessage thread with Dan (work group + indirect via Suz). Marty check (group text membership) remains open verification item per bootloader. Protect asset posture: do not name in external docs. Defer to raw group text screenshots, full csvs, and BFS_BOOTLOADER_v2 for verbatim. Sources list prioritizes raw dox + message-csv over derived. Hypothesis A (structural off-books) stronger per Marty framing.
+**Gaps:** no primary Facebook or standalone iMessage thread with Dan;
+how the two originally became close enough for Marty to be the trusted
+source; whether Dan followed up on the job lead.
