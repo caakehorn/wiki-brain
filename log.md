@@ -551,3 +551,20 @@ title checked (Carlin, Holland's Rubicon, Goldsworthy's Caesar, Shirer,
 Bird's American Prometheus, and the Jacob Bacharach "Doorposts" 5-star
 2022 read) is already captured on that page, including the specific
 jacob-bacharach.md cross-link. No new signal. Deprioritized, no wiki changes.
+
+## [2026-07-20] triage | self | Drive "MEMORY" folder confirmed duplicate archive
+Sampled 4 files from Drive MEMORY/STORYTIME folder (id 1eAILXQoPk6owa7_nfFx0mZU6xBCHdL8j):
+BOOKS.csv (dup of goodreads_library_export.md, see prior log entry),
+"Dan Frank_ Profound Psychological Speculations_" (= the exact DANSYNTH
+source already synthesized as wiki/mind/synthesis/ancestral-dialectic.md),
+"Fraan" storytime doc (= source of wiki/timeline/events/fran-death-vigil.md,
+same 8am/keno/IMG_0569.MOV details verbatim), "Au Za'Atar" storytime doc
+(= source of wiki/work/au-zaatar.md, same Dimitri/Tunisian-manager/Sergio
+details verbatim). Conclusion: this Drive folder is a re-uploaded backup
+of the already-mined DANSYNTH/STORYTIME corpus, not new material.
+Deprioritizing remaining unopened items in this folder (2_PHENOMENOLOGY
+PROFILE.md, 1_CORE PROFILE.md, FULL PROFILE 2026.md, THE_DAN_FRANK_BOOTLOADER.md,
+Location History subfolder, MUSIC LIST(start-2024).csv, YOUTUBE WATCH HISTORY
+html — all by-name matches to already-ingested raw/ sources) without
+opening each individually. Moving to the flagged-high-priority "NEW LOADER"
+folder (OMNI_FORENSIC_DOSSIER.md, THEORY OF EVERYTHING 31 MAR) next.
