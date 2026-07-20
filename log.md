@@ -676,3 +676,16 @@ chronology note to political-psyops.md. "Camming Career Review" (2025-06-07)
 turned out to be an image-analysis conversation with no extractable new
 facts (AI flourish responding to uploaded screencaps, not text data) —
 no wiki action, logged as lower-value-than-title-suggested in queue.md.
+
+## [2026-07-20] ingest | people | operator-provided Mike Cordaro export (imessage_17243226739_both_all_now.csv)
+Filed a proper per-contact export (50 messages, reliable Sent/Received
+direction) to raw/self/message-csv/, superseding the earlier 28-message
+partial pull off the unreliable-direction master CSV. mike-cordaro.md
+Corpus Dimensions corrected (28 -> 50 msgs; direction now confirmed
+reliable, genuine two-way conversation). Texture section expanded with
+the full 2024-election exchange (Mark Kelly/Shapiro/Walz/Bernie-endorsement
+reasoning on both sides, the "DEI hire" line, the enthusiasm-boost-on-18-35
+argument) previously only summarized. Converted the bare related:/##
+Related footer to a typed connections: block — a new `parallels` edge to
+rick-frank.md (the "maga-tized dads" framing), with inverse added on
+rick-frank.md. Gates: 0 errors.
