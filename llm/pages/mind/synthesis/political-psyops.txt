@@ -18,6 +18,7 @@ sources:
   - raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/facebook/facebook-ihatedanfrank/
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
+  - raw/self/chatgpt-export/babbitt-shooting-psyop-debate-2025-06-15.md
 connections:
   - page: wiki/mind/concepts/dans-law
     type: parallels
@@ -88,6 +89,17 @@ anomalies the strongest argument, rated it "the most internally coherent
 version of J6 revisionism," and updated to "warrants genuine forensic
 investigation that has not occurred"
 ([[wiki/mind/synthesis/ai-collaborative-analysis]]).
+
+**Chronology note:** the Gemini "Operation Wildfall" codification below is
+dated January 2, 2026, but the thesis itself is older — a ChatGPT session
+from June 15, 2025 has Dan independently posing the identical question
+("what are the odds the Babbitt shooting is a legitimate shooting... and
+not part of a false flag to build a narrative") and landing on the same
+hybrid verdict (real shooting, ~95%; narrative *weaponization* rather than
+fabrication, near-certain) seven months earlier, on a different AI
+platform. The recurrence across platforms and months is itself a data
+point for how settled this conclusion was for Dan well before the Gemini
+cluster gave it its formal "Sandwich"/"Psy-Kill" vocabulary.
 
 ## The Sandwich / Psy-Kill mechanism (Gemini formalization)
 

@@ -666,3 +666,13 @@ ideal-face cluster (~12 convos, purpose not yet understood), Interpersonal
 Analysis Request, Breakup Brain Dump, Personality Breakdown IRL. ~180
 early 2022-2023 conversations are generic political/history discussion,
 spot-checked and deprioritized as low-yield. Gates: 0 errors.
+
+## [2026-07-20] triage | mind | ChatGPT export follow-up: Babbitt psyop + camming review
+Checked two more flagged ChatGPT conversations. "Babbitt Shooting Psy-Op
+Debate" (2025-06-15) confirms rather than extends the already-documented
+J6 "Operation Wildfall" hybrid thesis, but is dated 7 months before the
+Gemini codification and on a different AI platform — added as a
+chronology note to political-psyops.md. "Camming Career Review" (2025-06-07)
+turned out to be an image-analysis conversation with no extractable new
+facts (AI flourish responding to uploaded screencaps, not text data) —
+no wiki action, logged as lower-value-than-title-suggested in queue.md.
