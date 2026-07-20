@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-340 pages, ~477,190 tokens.
+341 pages, ~479,023 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -4861,6 +4861,9 @@ connections:
   - page: wiki/mind/synthesis/message-circadian-latency
     type: parallels
     claim: "The latency analysis is the temporal counterpart to this volume metric; both converge on the single near-synchronous Annie channel."
+  - page: wiki/mind/synthesis/spatial-behavior
+    type: parallels
+    claim: "Both are quantitative cuts of the same underlying life converging on the same shape: extreme concentration around a small number of anchors (physical: home/work; social: a handful of contacts) punctuated by rare, decisive ruptures."
 ---
 
 
@@ -5778,6 +5781,7 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — capstone: was Dan correct to feel wronged? The real wrong + the diagnosis→behavior gap, held in one frame.
 - [[wiki/mind/synthesis/bond-switch-2015]] — the 2015 Alexis→Annie single-bond switch: same-week transfer, verified onset flood, 155 Virginia lair-continuity.
 - [[wiki/mind/synthesis/message-circadian-latency]] — primary cut of the raw corpus: circadian curve + era drift, 9× reply-latency asymmetry, burstiness, per-contact volume trajectories.
+- [[wiki/mind/synthesis/spatial-behavior]] — GPS-analysis reading of location history: extreme home-anchoring, the Friday release valve, and four sharply bounded life phases (Forge/Binary System/Collapse/Siege) rather than gradual drift.
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] — how LLMs are actually used: node logging, steelman, injection lab, capability contests.
 - [[wiki/mind/synthesis/millennial-digital-witness]] — the generational bridge self-theory and its uses.
 - [[wiki/mind/synthesis/totality-themes]] — the capstone: recurring structural themes across the entire corpus, extended with cross-corpus [JOIN] findings.
@@ -9936,6 +9940,129 @@ stress-test material — no loyalty to any team sport, forensic default
 always on.
 
 The ideology this page treats as settled has a documented birthday: the COVID-lockdown conversion of 2020-08-22, self-narrated in the message record and argued at [[wiki/mind/synthesis/2020-left-turn]] — Bernie 2020 as the electoral on-ramp, the dirtbag-left pipeline as the vehicle, the family union-busting guilt as the clinch.
+
+
+========================================================================
+PAGE: wiki/mind/synthesis/spatial-behavior.md
+========================================================================
+
+---
+domain: mind
+page_type: synthesis
+knowledge: mixed
+status: active
+date_created: 2026-07-20
+date_modified: 2026-07-20
+sources:
+  - raw/self/dox-md/GPS_ANALYSIS.md
+tags: [digital-footprint, relationships, career, housing]
+connections:
+  - page: wiki/self/location-history
+    type: instance-of
+    claim: "This page's behavioral/psychographic reading is built directly on the raw visit-count catalog that page maintains — the numbers are the same corpus, read for pattern rather than tabulated."
+  - page: wiki/mind/concepts/contact-gini
+    type: parallels
+    claim: "Both are quantitative cuts of the same underlying life converging on the same shape: extreme concentration around a small number of anchors (physical: home/work; social: a handful of contacts) punctuated by rare, decisive ruptures."
+  - page: wiki/timeline/periods/2017-poverty-floor
+    type: evidenced-by
+    claim: "The 2018 'System Collapse & Migration' phase — over a third of the entire 2014-2020 aggregate travel distance logged in one year — is the spatial-data signature of the poverty-floor/deep-cycle years destabilizing into the NYC move."
+  - page: wiki/timeline/periods/2018-deep-cycle
+    type: contradicts
+    claim: "The report's own framing may over-read: it treats the subject's low day-to-day movement-risk as evidence impulsivity 'manifests elsewhere,' but doesn't test whether the home-anchoring pattern itself is better explained by chronic financial constraint (documented at length on this period's page) than by a chosen psychological strategy."
+---
+
+# Spatial Behavior — GPS Analysis of Location History
+
+A behavioral/psychographic reading of Dan's Google Location History
+data (2014–2024), distinct from and built on top of the raw visit-count
+catalog on [[wiki/self/location-history]]. Where that page tabulates
+what places got visited how often, this one asks what the shape of the
+movement itself says — and the shape is a single repeating structure:
+long stretches of near-total predictability, punctuated by rare,
+total, and rapid system replacements.
+
+## The core numbers
+
+Across the full dataset, Dan spends roughly 68% of tracked time within
+a tight radius of his current home (a "Home Anchoring Index" of 0.68),
+with a Routine Index of 0.85 — very high day-to-day predictability —
+and a low Exploration Ratio (0.22): new locations are rare, and when
+they appear they get either absorbed into a new routine or dropped
+entirely, not casually sampled. Diurnal activity peaks 2–6 PM and
+troughs 3–7 AM (a late riser, not a 9-to-5 pattern), and weekly activity
+peaks hard on Fridays — a "release valve" signature of spatial variety
+and travel distance that shows up in every life phase, from Uniontown's
+Nemacolin/golf-and-caddie years through the NYC comedy-club circuit
+("The Stand" is named as a specific recurring Friday node).
+
+## Four phases, not a gradual drift
+
+The 2014–2020 window resolves into four sharply bounded chapters rather
+than a smooth trajectory:
+
+- **2014 — baseline stability.** The tightest, most predictable loop in
+  the dataset: home, work, one weekly release valve, all in Uniontown.
+- **2015–2017 — the two-node system.** The [[wiki/people/annie-ulmer|Annie]]
+  relationship introduces a second anchor, and the data shows Dan's
+  routine restructuring around oscillation between
+  [[wiki/places/337-saratoga-drive|Saratoga Drive]] and
+  [[wiki/places/155-virginia-ave|Virginia Avenue]] — a system that
+  visibly strains under its own maintenance cost through 2017.
+- **2018–2019 — collapse and migration.** The two-node system fails
+  outright in 2018: this single year accounts for over a third of the
+  entire 2014–2020 aggregate travel distance, a spike the raw data
+  reads as chaotic, high-mileage instability rather than planned
+  movement. It resolves in 2019 with a hard, total relocation to New
+  York and a new single anchor at
+  [[wiki/places/307-e-76th-st|307 E 76th St]].
+- **2020 — the siege.** The newly-built NYC system gets compressed to a
+  micro-radius by an entirely external shock (COVID), with Central Park
+  logged as the primary decompression location during that
+  compression — the pattern's structure (tight radius, one release
+  valve) holding even when its content is forced rather than chosen.
+
+The read that ties these together: stability isn't the core trait so
+much as *systemic integrity* — Dan appears to build tightly optimized,
+low-variance routines and defend them hard, but is capable of
+discarding one wholesale and rebuilding an entirely new one from
+scratch when it stops working, rather than adjusting it incrementally.
+The 2018 collapse and 2019 rebuild is the clearest instance in the
+spatial record; whether that same all-or-nothing restructuring pattern
+shows up in the non-spatial parts of the corpus (career, relationships)
+is a natural cross-check this page doesn't attempt.
+
+## A caution about the framing
+
+The source material's own interpretive layer treats the low-risk,
+low-novelty movement pattern as evidence that Dan's self-reported high
+impulsivity "manifests in other areas of life... rather than in
+physical navigation" — a clean, flattering reconciliation. It's worth
+naming the alternative the report doesn't test: chronic financial
+constraint, documented at length elsewhere in the corpus across the
+same years (the 2017 poverty floor, drug-fronts as informal credit,
+the 2018 "deep cycle"), would produce an observably identical
+signature — tight home radius, low exploration, concentrated spending
+at a small number of known-cheap locations (Walmart, fast food) — for
+reasons of necessity rather than psychological strategy. Both readings
+fit the same numbers; the source material only offers one.
+
+## Corpus record
+
+| Metric | Value |
+|---|---|
+| Home Anchoring Index | 0.68 |
+| Routine Index (predictability) | 0.85 |
+| Exploration Ratio | 0.22 |
+| Peak activity window | 2–6 PM; trough 3–7 AM |
+| Peak/trough day | Friday / Sunday |
+| 2014–2020 aggregate distance | ~170,000 km |
+| Unique locations, 2014–2020 | ~3,500 |
+
+**Gaps:** the report is AI-generated interpretation layered on genuine
+GPS data, not a primary quote from Dan; the "5-day smol bean magic
+pixie dream girl" 2014 anomaly it references in passing is otherwise
+undocumented anywhere in the wiki; no equivalent phase breakdown exists
+for 2021–2024 in the source material.
 
 
 ========================================================================
@@ -30144,6 +30271,9 @@ connections:
   - page: wiki/people/teddy
     type: contains
     claim: "Teddy's thread opens February 2018 at the onset of the period's multi-dealer configuration, forming its redundancy layer alongside Johnny."
+  - page: wiki/mind/synthesis/spatial-behavior
+    type: contradicts
+    claim: "The GPS analysis reads this year's spatial-collapse-and-migration signature as evidence of a chosen psychological strategy (systemic integrity via rebuild); this period's own financial-stress record offers an equally consistent alternative explanation — chronic constraint, not chosen minimalism."
 tags: [ai-collaboration, nyc-era, financial-stress, relationships, addiction-recovery]
 ---
 

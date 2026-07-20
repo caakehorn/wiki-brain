@@ -41,6 +41,9 @@ connections:
   - page: wiki/mind/synthesis/message-circadian-latency
     type: parallels
     claim: "The latency analysis is the temporal counterpart to this volume metric; both converge on the single near-synchronous Annie channel."
+  - page: wiki/mind/synthesis/spatial-behavior
+    type: parallels
+    claim: "Both are quantitative cuts of the same underlying life converging on the same shape: extreme concentration around a small number of anchors (physical: home/work; social: a handful of contacts) punctuated by rare, decisive ruptures."
 ---
 
 

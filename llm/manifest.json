@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 340,
+ "page_count": 341,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -409,7 +409,7 @@
    "title": "Contact Gini",
    "summary": "The \"Contact Gini\" concept refers to the application of the Gini coefficient to measure the concentration of Dan's relational load. It quantifies the degree ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/contact-gini.txt",
-   "bytes": 11207
+   "bytes": 11519
   },
   {
    "page": "wiki/mind/concepts/dans-law.md",
@@ -465,7 +465,7 @@
    "title": "mind \u2014 index",
    "summary": "Beliefs, ideology, psychology, and values. The domain is organized in four layers: **profile/** holds the measured personality results and their detailed bre...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/index.txt",
-   "bytes": 7831
+   "bytes": 8071
   },
   {
    "page": "wiki/mind/profile/big-five-psychometrics.md",
@@ -662,6 +662,13 @@
    "summary": "Dan's political skepticism is not partisan; it is the forensic default applied to institutions on every side. A democratic socialist with zero Trump or MAGA ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/political-psyops.txt",
    "bytes": 11863
+  },
+  {
+   "page": "wiki/mind/synthesis/spatial-behavior.md",
+   "title": "Spatial Behavior \u2014 GPS Analysis of Location History",
+   "summary": "A behavioral/psychographic reading of Dan's Google Location History data (2014\u20132024), distinct from and built on top of the raw visit-count catalog on [[wiki...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/spatial-behavior.txt",
+   "bytes": 6400
   },
   {
    "page": "wiki/mind/synthesis/supply-network.md",
@@ -2243,7 +2250,7 @@
    "title": "2018 Deep Cycle",
    "summary": "**Date range:** 2018",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2018-deep-cycle.txt",
-   "bytes": 3335
+   "bytes": 3716
   },
   {
    "page": "wiki/timeline/periods/2020-2021-market-era.md",

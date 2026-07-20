@@ -60,6 +60,7 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — capstone: was Dan correct to feel wronged? The real wrong + the diagnosis→behavior gap, held in one frame.
 - [[wiki/mind/synthesis/bond-switch-2015]] — the 2015 Alexis→Annie single-bond switch: same-week transfer, verified onset flood, 155 Virginia lair-continuity.
 - [[wiki/mind/synthesis/message-circadian-latency]] — primary cut of the raw corpus: circadian curve + era drift, 9× reply-latency asymmetry, burstiness, per-contact volume trajectories.
+- [[wiki/mind/synthesis/spatial-behavior]] — GPS-analysis reading of location history: extreme home-anchoring, the Friday release valve, and four sharply bounded life phases (Forge/Binary System/Collapse/Siege) rather than gradual drift.
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] — how LLMs are actually used: node logging, steelman, injection lab, capability contests.
 - [[wiki/mind/synthesis/millennial-digital-witness]] — the generational bridge self-theory and its uses.
 - [[wiki/mind/synthesis/totality-themes]] — the capstone: recurring structural themes across the entire corpus, extended with cross-corpus [JOIN] findings.
