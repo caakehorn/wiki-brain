@@ -29,6 +29,9 @@ connections:
   - page: wiki/health/hyperreflexivity
     type: contradicts
     claim: "An AI-collaborative session raises a tension this page doesn't otherwise carry: chronic Suboxone receptor occupancy may blunt the hedonic range needed to break an anxiety loop — the maintenance dose that stabilizes opiate dependency may cap capacity to regulate a separate system."
+  - page: wiki/people/sean-teets
+    type: co-occurs
+    claim: "Sean Teets' 2017/2018 Facebook outreach ('looking for tax or strpz'; 'Mushys and k') uses vocabulary consistent with this page's mushrooms/Suboxone-strips/ketamine-adjacent substance landscape, though his specific role in it is unconfirmed."
 ---
 
 # Chemical Architecture

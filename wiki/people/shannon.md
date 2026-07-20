@@ -1,36 +1,49 @@
 ---
 domain: people
 page_type: entity
-status: archived
+status: closed
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+tags: [career, digital-footprint]
 infobox:
   name: "Shannon"
   relationship_to_dan: unknown
-  known_for: "Contact +17245575578. 'Hey Daniel it’s Shannon give me a call when you get a c...'. 23 messages. Direct name intro, call"
+  handles: ["+17245575578"]
+  known_for: "Real estate client who hired Dan for drone photography and video, Nov 2018 – Jan 2019"
+connections:
+  - page: wiki/mind/concepts/contact-gini
+    type: instance-of
+    claim: "A brief, purely transactional client relationship — one of many low-volume, single-purpose nodes in the wide, shallow contact periphery."
 ---
 
 # Shannon
 
-## Identity
-Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct name intro, call request. Low-volume personal.
+Shannon is a real estate agent who hired Dan for drone photography and
+videography work over a roughly two-month window, November 2018 to
+January 2019 — the corpus's only documented instance of Dan doing paid
+drone work for a client. The 23-message thread (Shannon's side only is
+preserved; Dan's outbound texts aren't captured in this export) is
+almost entirely scheduling and delivery logistics: coordinating shoot
+times around her client meetings in Smithfield, confirming a noon
+session at her office, and repeatedly following up for "pictures and
+the drone video" and "a couple still shots" for a listing. One exchange
+in December shows friction over file delivery — Shannon says she can't
+download a video Dan sent and clarifies she'd only asked for "just a
+text," not an upload — a small but real breakdown in how deliverables
+were being handed off. The thread goes quiet after a January 2019
+message asking Dan to call her back, with no indication the relationship
+continued past that point.
 
-## Corpus Dimensions (Shannon)
+## Corpus record
+
 | Metric | Value |
-|--------|-------|
-| Total messages (master) | 23 |
-| Handle | +17245575578 |
-| Sample | "Hey Daniel it’s Shannon give me a call when you get a c..." |
-| Date range | Sampled (long tail) |
+|---|---|
+| Messages | 23 (iMessage, Shannon's side only) |
+| Date range | 2018-11-10 – 2019-01-11 |
+| Defining content | Drone photo/video delivery for real estate listings |
 
-## Domain: Self
-Low-volume personal outreach contact. Example of long-tail distribution in master corpora.
-
-## Notes
-Name self-identified. Call-me pattern common in sparse threads.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+**Gaps:** how Dan and Shannon connected professionally; Dan's own side
+of the conversation; whether the January 2019 follow-up was ever
+answered; any other real estate drone clients beyond this one instance.

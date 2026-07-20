@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-07-20
-337 pages, ~468,176 tokens.
+337 pages, ~468,507 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -41,6 +41,9 @@ connections:
   - page: wiki/health/hyperreflexivity
     type: contradicts
     claim: "An AI-collaborative session raises a tension this page doesn't otherwise carry: chronic Suboxone receptor occupancy may blunt the hedonic range needed to break an anxiety loop — the maintenance dose that stabilizes opiate dependency may cap capacity to regulate a separate system."
+  - page: wiki/people/sean-teets
+    type: co-occurs
+    claim: "Sean Teets' 2017/2018 Facebook outreach ('looking for tax or strpz'; 'Mushys and k') uses vocabulary consistent with this page's mushrooms/Suboxone-strips/ketamine-adjacent substance landscape, though his specific role in it is unconfirmed."
 ---
 
 # Chemical Architecture
@@ -17045,9 +17048,9 @@ related: []
 - [[wiki/people/ryan-scherich]] — Barely-known acquaintance; single-day Feb 2020 political flame war ending in a remark Dan calls racist.
 - [[wiki/people/sadie-harris]] — Paternal great-grandmother of Dan Frank. Born 14 December 1900 in Austria. Died 27 November 1997, Hopwood,…
 - [[wiki/people/sam]] — NYC cannabis delivery dealer (2019–20) for the E 76th St years; fired Dan as a customer in Feb 2020, un-fired him when COVID hit.
-- [[wiki/people/sean-teets]]
+- [[wiki/people/sean-teets]] — Peripheral contact; two apparent supply-seeking outreach messages a year apart, 2017-2018.
 - [[wiki/people/seth-ledonne]] — Uniontown counterculture-education friend; real-time June 2020 NYC protest-curfew account.
-- [[wiki/people/shannon]] — Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct…
+- [[wiki/people/shannon]] — Real estate client who hired Dan for drone photography and video, Nov 2018 – Jan 2019.
 - [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan saw alongside Annie spring–summer 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup July 2019.
 - [[wiki/people/stephanie-nalbone]] — Previously undocumented Sept-Nov 2009 relationship, right at the close of Full Sail; sequencing against Danielle and Alexis unresolved.
 - [[wiki/people/steve-kezmarsky]] — High-school-era Uniontown golf friend, self-described "dark and tormented soul"; alive and sober as of Dec 2018 while his father faced a life sentence (death claim withdrawn 2026-07-19).
@@ -22251,40 +22254,46 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["/Users/daniel/Documents/dan-wiki/raw/self/facebook/facebook-ihatedanfrank/messages/inbox/seanteets_ycj9jpkeba/message_1.html", "/Users/daniel/Documents/dan-wiki/ingest/facebook-ihatedanfrank/messages/inbox/seanteets_ycj9jpkeba/message_1.html"]
-related: ["wiki/self/facebook", "wiki/timeline/periods/2010s", "wiki/self/message-corpora/master-message-dump"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/seanteets_ycj9jpkeba/message_1.html
+tags: [addiction-recovery, digital-footprint]
 infobox:
   name: "Sean Teets"
   relationship_to_dan: unknown
-  known_for: "Role: Casual / peripheral contact. Low-volume FB exchanges (7 total messages). Topics include possible substance shortha"
+  known_for: "Sparse, initiator-Dan Facebook contact; two apparent supply-seeking outreach messages a year apart"
+connections:
+  - page: wiki/health/chemical-architecture
+    type: co-occurs
+    claim: "The 2017 and 2018 outreach messages ('looking for tax or strpz'; 'Mushys and k') read as supply-seeking language consistent with the mushrooms/Suboxone-strips/ketamine-adjacent substance vocabulary documented on chemical-architecture.md, though Sean's role in that supply network — buyer, seller, or fellow user — isn't established."
 ---
 
 # Sean Teets
 
-**Role:** Casual / peripheral contact. Low-volume FB exchanges (7 total messages). Topics include possible substance shorthand ("Mushys and k"), item sales (Nintendo Switch), and vague queries ("looking for tax or strpz", "know anything?").
+Sean Teets is a peripheral Facebook contact with a seven-message thread
+spanning October 2017 to August 2018, almost entirely initiated by Dan.
+Two of the three exchanges read as supply-seeking outreach: in October
+2017, "looking for tax or strpz... know anything?", and in August 2018,
+"Mushys and k... I'll put a nice lil bounty on two things if you can
+come across either" — vocabulary ("strpz," mushrooms, "k") consistent
+with the substance landscape documented on
+[[wiki/health/chemical-architecture]], though nothing in the thread
+confirms whether Sean supplied, used, or simply fielded the question.
+The one non-drug exchange is unrelated: in April 2018, Sean asks if Dan
+knows anyone who wants a lightly-used Nintendo Switch with Zelda for
+$200.
 
-## Key Exchanges (full thread; 7 messages)
+## Corpus record
 
-| Timestamp          | Sender     | Message |
-|--------------------|------------|---------|
-| Aug 23, 2018 7:18:15am | Dan Frank | Mushys and k |
-| Aug 23, 2018 7:18:07am | Dan Frank | I’ll put a nice lil bounty on two things if you can come across either |
-| Aug 23, 2018 7:17:45am | Dan Frank | Yo |
-| Apr 11, 2018 3:29:10am | Sean Teets | U know anyone wants a Nintendo switch with Zelda for 200$ only played one time |
-| Oct 08, 2017 11:21:40pm | Dan Frank | know anything? |
-| Oct 08, 2017 11:21:32pm | Dan Frank | looking for tax or strpz |
-| Oct 08, 2017 11:21:11pm | Dan Frank | yo |
+| Metric | Value |
+|---|---|
+| Messages | 7 (Facebook) |
+| Date range | 2017-10-08 – 2018-08-23 |
+| Defining content | Two supply-seeking outreach messages, a year apart |
 
-## Context
-- Sparse, initiatory from Dan side mostly. Example of breadth in social graph / contact-gini (many low-engagement nodes).
-- 2017-2018 window aligns with periods of PA re-engagement and varied peripheral outreach.
-- No sustained thread or deep cross-references found.
+**Gaps:** whether either outreach was answered or led anywhere; how Dan
+and Sean know each other; no contact before 2017 or after August 2018.
 
-## Related
-[[wiki/self/facebook]]
-[[wiki/timeline/periods/2010s]]
-[[wiki/self/message-corpora/master-message-dump]]
 
 ========================================================================
 PAGE: wiki/people/seth-ledonne.md
@@ -22378,39 +22387,52 @@ PAGE: wiki/people/shannon.md
 ---
 domain: people
 page_type: entity
-status: archived
+status: closed
 date_created: 2026-06-23
-date_modified: 2026-06-23
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/message-corpora/master-message-dump"]
+date_modified: 2026-07-20
+sources:
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+tags: [career, digital-footprint]
 infobox:
   name: "Shannon"
   relationship_to_dan: unknown
-  known_for: "Contact +17245575578. 'Hey Daniel it’s Shannon give me a call when you get a c...'. 23 messages. Direct name intro, call"
+  handles: ["+17245575578"]
+  known_for: "Real estate client who hired Dan for drone photography and video, Nov 2018 – Jan 2019"
+connections:
+  - page: wiki/mind/concepts/contact-gini
+    type: instance-of
+    claim: "A brief, purely transactional client relationship — one of many low-volume, single-purpose nodes in the wide, shallow contact periphery."
 ---
 
 # Shannon
 
-## Identity
-Contact +17245575578. "Hey Daniel it’s Shannon give me a call when you get a c...". 23 messages. Direct name intro, call request. Low-volume personal.
+Shannon is a real estate agent who hired Dan for drone photography and
+videography work over a roughly two-month window, November 2018 to
+January 2019 — the corpus's only documented instance of Dan doing paid
+drone work for a client. The 23-message thread (Shannon's side only is
+preserved; Dan's outbound texts aren't captured in this export) is
+almost entirely scheduling and delivery logistics: coordinating shoot
+times around her client meetings in Smithfield, confirming a noon
+session at her office, and repeatedly following up for "pictures and
+the drone video" and "a couple still shots" for a listing. One exchange
+in December shows friction over file delivery — Shannon says she can't
+download a video Dan sent and clarifies she'd only asked for "just a
+text," not an upload — a small but real breakdown in how deliverables
+were being handed off. The thread goes quiet after a January 2019
+message asking Dan to call her back, with no indication the relationship
+continued past that point.
 
-## Corpus Dimensions (Shannon)
+## Corpus record
+
 | Metric | Value |
-|--------|-------|
-| Total messages (master) | 23 |
-| Handle | +17245575578 |
-| Sample | "Hey Daniel it’s Shannon give me a call when you get a c..." |
-| Date range | Sampled (long tail) |
+|---|---|
+| Messages | 23 (iMessage, Shannon's side only) |
+| Date range | 2018-11-10 – 2019-01-11 |
+| Defining content | Drone photo/video delivery for real estate listings |
 
-## Domain: Self
-Low-volume personal outreach contact. Example of long-tail distribution in master corpora.
-
-## Notes
-Name self-identified. Call-me pattern common in sparse threads.
-
-## Related
-- [[wiki/self/message-corpora/master-message-dump]]
-- [[wiki/mind/concepts/contact-gini]]
+**Gaps:** how Dan and Shannon connected professionally; Dan's own side
+of the conversation; whether the January 2019 follow-up was ever
+answered; any other real estate drone clients beyond this one instance.
 
 
 ========================================================================

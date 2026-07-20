@@ -469,6 +469,13 @@ _Append-only. Format: `## [YYYY-MM-DD] <operation> | <domain> | <description>`_
 - Updated wiki/people/index.md one-liners for all 5.
 - Gates: wiki-lint 0 errors, wiki-connect check 0 errors.
 
+## [2026-07-20] rewrite | people | swarm-stub batch 3 of 3 (sean-teets, shannon) — final batch, all 12 swarm stubs closed out
+- wiki/people/shannon.md: fresh-mined the full 23-message iMessage thread previously represented by only its opening line — reveals Shannon was a real estate client who hired Dan for drone photography/video, Nov 2018 – Jan 2019 (scheduling, listing-photo delivery, one file-delivery friction point), the corpus's only documented instance of Dan doing paid drone work for a client.
+- wiki/people/sean-teets.md: converted the 7-message table to prose; identified the two outreach messages ("looking for tax or strpz"; "Mushys and k") as likely supply-seeking language consistent with wiki/health/chemical-architecture.md's substance vocabulary (mushrooms, Suboxone strips, ketamine), added as a co-occurs connection with an honest caveat that Sean's specific role isn't established.
+- Updated wiki/people/index.md one-liners for both.
+- Closes out the 12-page swarm-stub rewrite task in full (batch 1: aaron, charles-davenport, dakota, josh-brannan, maddox; batch 2: marc-charles, marty-martin, max-danielle-bf, michael-hinkle, ryan-lisac; batch 3: sean-teets, shannon).
+- Gates: wiki-lint 0 errors, wiki-connect check 0 errors.
+
 ## [2026-07-20] fix | people | PR #59 bot review — wikilinks + truncation-safe openers
 - Addressed 6 gemini-code-assist review comments on PR #59: converted plain-text `bfs-foods`/`jerad-friedline` references to wikilinks in wiki/people/index.md, dakota.md, and josh-brannan.md connections claims; split the overlong opening sentences on dakota.md and maddox.md that were causing the auto-generated llm/manifest.json summary to truncate mid-link.
 - Gates: wiki-lint 0 errors, wiki-connect check 0 errors.
