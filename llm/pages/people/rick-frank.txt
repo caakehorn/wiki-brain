@@ -5,7 +5,7 @@ title: "Richard Harrison \"Rick\" Frank"
 aliases: ["Rick", "Frank Sr."]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-07-20
 infobox:
   name: Rick Frank
   status: Estranged
@@ -37,6 +37,9 @@ connections:
   - page: wiki/mind/psychosexual/developmental-origins
     type: causes
     claim: "The November 2005 disclosure is the psychosexual cluster's named hinge event — per the dossier, the encoding moment of 'intimacy is a precursor to abandonment.'"
+  - page: wiki/people/mike-cordaro
+    type: parallels
+    claim: "Rick Frank and Mike Cordaro's father Pete are drawn as a matched pair in Dan and Mike's 2024 election-season texts — two Uniontown-area fathers who both drifted into MAGA politics, used as ironic shorthand rather than personal grievance."
 ---
 
 

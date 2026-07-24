@@ -4,10 +4,11 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-18
+date_modified: 2026-07-20
 sources:
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
   - raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html
+  - raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2026-07-20).html
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/browser_history_analysis.txt
 tags: [personality-profile, ai-collaboration, forensic-analysis]
@@ -33,6 +34,9 @@ connections:
   - page: wiki/mind/synthesis/supply-network
     type: parallels
     claim: "The supply network is this finding's material-layer counterpart: a constant appetite requires a constant procurement architecture, and both persist across every era while only the nodes rotate."
+  - page: wiki/self/youtube-watch-history
+    type: contradicts
+    claim: "The operator confirmed 2026-07-20 that multiple YouTube accounts share this Google login and that true total watching is higher than any single-account export shows -- downgrading both the 11.58/day figure here and the recomputed 9.53/day (ad-filtered) figure to single-account lower bounds, unresolved pending a consolidated export."
 ---
 
 
@@ -56,7 +60,11 @@ of the corpus cohere.
   earlier third-pass synthesis reported "~7/day" from a filtered "primary-role window"
   subset; the full raw export shows the real figure is higher, which *strengthens*
   rather than weakens the constancy thesis — the intake rate is even more robust than
-  the doc claimed.
+  the doc claimed. **Status downgraded 2026-07-20 (see Gaps):** this account is
+  confirmed by the operator to be only one of several YouTube accounts on the
+  same Google login, and true watch volume is confirmed higher than this
+  figure — read it as a floor, not a settled constant, until a consolidated
+  export exists.
 - **~20 logged actions per active day** (Google search/activity, 2006–2026,
   twenty years, corpus-wide across 5,391 active days).
 
@@ -205,6 +213,25 @@ answering: is the analysis shipping, or is it describing the instruction to ship
   9,022 is the third-highest year in twenty, which leaves no room for a six-month
   hole). If the per-year search distribution ever shows a crater in that window, the
   constancy claim needs revision. The current read is that it will not.
+- > **CONTRADICTION [2026-07-20], operator-clarified same day:** an
+  > extended YouTube export (through July 2026, filed to
+  > [[wiki/self/youtube-watch-history]]) showed essentially zero real
+  > YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine
+  > video against 78 ad impressions. Initially flagged as a candidate
+  > falsification (same shape as the 2023-24 gap below, but with
+  > ad-impression logging continuing on the *same* account through the
+  > window, which seemed to rule out a simple wrong-account explanation).
+  > **The operator corrected this directly:** this Google login has
+  > multiple YouTube accounts tied to it, and he confirms he was almost
+  > certainly watching on a different one during this window — an export
+  > he hasn't yet supplied. He also states true daily watch volume runs
+  > well above both the 11.58 figure above and the 9.53/day ad-filtered
+  > recomputation. **Net effect: both intake-constancy figures on this
+  > page are now confirmed single-account undercounts, not verified
+  > constants**, pending a consolidated multi-account export. This is a
+  > real downgrade in the strength of the YouTube-side evidence — it does
+  > not resolve to "constancy confirmed," it resolves to "current YouTube
+  > numbers are a floor, true rate unknown."
 | The constancy says nothing about *content* — only intensity. The substance of
   what is consumed still varies by era, relationship, and platform; this page
   governs the rate, not the object.

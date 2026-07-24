@@ -28,6 +28,9 @@ connections:
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: component-of
     claim: "The exocortex concept is developed in full across the AI-collaboration synthesis."
+  - page: wiki/work/tech/danmodel
+    type: instance-of
+    claim: "DANMODEL's CATO_COMPACT persona block is this exocortex thesis run mechanically: a compressed voice-prompt extracted algorithmically from the message corpus rather than hand-authored."
 ---
 
 

@@ -6,6 +6,7 @@ status: closed
 date_created: 2026-07-13
 date_modified: 2026-07-20
 sources:
+  - raw/self/message-csv/imessage_19178259183_both_all_now.csv
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/TheWaitersVisibleHigh.md
   - raw/self/dansynth/AuZaatarsFinalShift.md
@@ -45,6 +46,9 @@ connections:
   - page: wiki/health/hyperreflexivity
     type: co-occurs
     claim: "An AI session dated by internal reference to roughly mid-2025 records Dan returning to full-time work after nearly eleven months unemployed following this job's involuntary end — the corpus's only documented marker of what came after the Aug 2024 loss."
+  - page: wiki/people/tarik-fallous
+    type: contains
+    claim: "Tarik's own 80-message direct thread (filed 2026-07-20) is the primary source for the wine-inventory and hiring-coordination texture behind the 'de facto manager' framing below, and documents the relationship continuing, warmly, nearly two years past this job's end."
 ---
 
 
@@ -168,7 +172,11 @@ first quit there was simply no manager, and Dan became the de facto one —
 customers and neighbors." The tip pool had zero transparency and paychecks
 were suspiciously identical every week, so for over a year Dan told staff
 and customers alike that the owners were siphoning tips ("because they 100%
-were"). The 22-year-old Tunisian — hired as manager "because he speaks
+were"). Tarik's own direct texts corroborate the scope of the "de facto
+manager" role concretely: Dan ran grocery errands on Tarik's Barclays
+card, tracked liquor and wine stock by hand (two full inventory counts
+survive verbatim), and coordinated job-candidate interviews directly —
+see [[wiki/people/tarik-fallous]] for the primary texts. The 22-year-old Tunisian — hired as manager "because he speaks
 arabic" — took that to Tarik, and on **Thanksgiving 2023** Dan was sat down
 and "brought right up to the line of being let go." He held on. Then
 Dimitri returned ("WITH A STEEL CHAIR") as co-manager alongside the
