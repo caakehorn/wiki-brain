@@ -798,3 +798,35 @@ Status changed closed->active (relationship is ongoing, not closed with
 the employment). Converted related: to typed connections: (4 edges +
 inverses on au-zaatar.md and ismaila-barry.md); au-zaatar.md gained a
 corroborating sentence on the de facto-manager role. Gates: 0 errors.
+
+## [2026-07-24] revise | people | full re-analysis and rewrite of annie-ulmer.md
+Operator-directed full top-to-bottom re-analysis of wiki/people/annie-ulmer.md
+(a critical-importance exemplar page). Re-extracted all seven
+DanAnnie_*.docx dossiers (MasterRecord_FINAL, MasterRecord_March16,
+TenYears_WithAmendments, TheoryOfEverything_Updated, CompleteRecord_Final,
+CompleteAnalysis_Final, MoralAnalysis_SFW) via direct XML parse after
+libreoffice headless conversion failed in-session, plus re-read the
+CorrectiveAddendum, the DUI affidavit, and the two prior operator capture
+notes. Independently re-verified the core message-corpus numbers against
+the raw dual-handle CSV (88,549 lines; 44,513 sent / 41,073 received — both
+confirmed by direct count, matching every figure the dossiers cite from
+them). No headline conclusion changed (gaslighting-outweighs-affair verdict
+stands unrevised), but the rewrite added: the full year-by-year message-ratio
+table (2015-2025) from the dossier appendix; the verbal-abuse monthly
+escalation trajectory (9->0->5->14->22->25->36->7) and the 47-instance
+hostility-after-warmth finding; the unexecuted-threat pattern (18 block
+threats, 6+ maternal-disclosure threats, both ~100% unfollowed); a corrected
+wellbeing-check figure (7 raw / 4 genuine after removing perfunctory
+acknowledgments, vs. the page's prior uncorrected "7"); and new escort-economy
+detail mined from raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md
+(previously unlinked from this page) — the Nabeel and Jason client threads
+under Annie's "Hazel"/"Lily" persona, alongside the Jared/Tricia thread
+already documented on wiki/people/jaredtricia.md. Restructured the whole
+body into fresh prose (arrangement, financial oscillation, Eli affair,
+terminal phase, March 2026 confession/retraction/bathroom-incident sequence,
+closure, structural analysis) while preserving every earned conclusion and
+REVISED/CONTRADICTION blockquote from prior passes per the second-brain
+revise-don't-regenerate rule. Sources list gained the escort-messages export
+and the 2026-07-13 Eli-vs-Tuquick capture note. bin/wiki-lint: 0 errors (page
+flagged only for its pre-existing advisory size warning, exempt as a critical
+hub page). bin/wiki-connect check: 0 errors.

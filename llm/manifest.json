@@ -1,9 +1,9 @@
 {
- "generated": "2026-07-20",
+ "generated": "2026-07-24",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 342,
+ "page_count": 343,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -409,7 +409,7 @@
    "title": "Contact Gini",
    "summary": "The \"Contact Gini\" concept refers to the application of the Gini coefficient to measure the concentration of Dan's relational load. It quantifies the degree ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/contact-gini.txt",
-   "bytes": 11519
+   "bytes": 11776
   },
   {
    "page": "wiki/mind/concepts/dans-law.md",
@@ -430,7 +430,7 @@
    "title": "The Exocortex",
    "summary": "Dan has built a deliberate external cognitive system \u2014 a set of pasteable bootloader documents and master prompts that turn any fresh AI session into a pre-c...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/exocortex.txt",
-   "bytes": 6454
+   "bytes": 6707
   },
   {
    "page": "wiki/mind/concepts/forensic-method.md",
@@ -577,7 +577,7 @@
    "title": "AI Collaborative Analysis",
    "summary": "Large language models occupy a specific, unusual role in Dan's cognitive life: not conversational companions but external processors \u2014 memory, structuring en...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/ai-collaborative-analysis.txt",
-   "bytes": 20311
+   "bytes": 20589
   },
   {
    "page": "wiki/mind/synthesis/ancestral-dialectic.md",
@@ -612,7 +612,7 @@
    "title": "The Dan/Annie Fallout \u2014 Was He Correct to Feel Wronged? (Raw-Evidenced)",
    "summary": "The verdict, stated plainly: **yes \u2014 on the documented facts, Dan was correct to feel wronged, and the feeling was not a misreading.** The record supports a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dan-annie-fallout-verdict.txt",
-   "bytes": 26922
+   "bytes": 27924
   },
   {
    "page": "wiki/mind/synthesis/estate-money-spine.md",
@@ -626,7 +626,7 @@
    "title": "The Intake Constancy",
    "summary": "The most stable fact in twenty years of involuntary behavioral record is not a peak, a collapse, or a rupture. It is a rate. Two independent, platform-indepe...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/intake-constancy.txt",
-   "bytes": 13417
+   "bytes": 15531
   },
   {
    "page": "wiki/mind/synthesis/interests-as-era-markers.md",
@@ -743,9 +743,9 @@
   {
    "page": "wiki/people/annie-ulmer.md",
    "title": "Annie (Anne Louise Ulmer)",
-   "summary": "This page is also the largest single deployment anywhere in the corpus of",
+   "summary": "This page is the largest single deployment anywhere in the corpus of",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 46218
+   "bytes": 68517
   },
   {
    "page": "wiki/people/annoying.md",
@@ -1242,7 +1242,7 @@
    "title": "Eli",
    "summary": "Eli is the man [[wiki/people/annie-ulmer|Annie]] had the concealed NYC affair with \u2014 a male coworker from her New York restaurant world. The affair ran from ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/eli.txt",
-   "bytes": 5628
+   "bytes": 5998
   },
   {
    "page": "wiki/people/elizabeth-eleanor.md",
@@ -1326,7 +1326,7 @@
    "title": "Ismaila Barry (\"DJ\")",
    "summary": "Ismaila Barry \u2014 universally \"DJ\" \u2014 is the Senegalese busser-turned-server of [[wiki/work/au-zaatar|Au Za'atar]] Midtown whom Dan counts among his best friend...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ismaila-barry.txt",
-   "bytes": 2496
+   "bytes": 2916
   },
   {
    "page": "wiki/people/jack-rusko.md",
@@ -1662,7 +1662,7 @@
    "title": "Mike Cordaro",
    "summary": "Mike Cordaro is a childhood-era friend \u2014 the two attended the \"Rolling Rock Town Fair\" together as kids, a concert series Mike calculates they'd seen Def Lep...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/mike-cordaro.txt",
-   "bytes": 2312
+   "bytes": 3581
   },
   {
    "page": "wiki/people/mike-zollinger.md",
@@ -1718,7 +1718,7 @@
    "title": "Richard Harrison \"Rick\" Frank",
    "summary": "Rick Frank (b. May 22, 1959, Uniontown PA) is Dan's father: owner of **Frank's Auto Supermarket**, a chain of auto-parts stores (anti-union, per the househol...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/rick-frank.txt",
-   "bytes": 6924
+   "bytes": 7232
   },
   {
    "page": "wiki/people/rj-ritchey.md",
@@ -1816,7 +1816,7 @@
    "title": "Tarik Fallous",
    "summary": "Tarik Fallous \u2014 owner-operator (with his brother Ghassan) of [[wiki/work/au-zaatar|Au Za'atar]], the Lebanese restaurant near 58th and 1st in Midtown Manhatt...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/tarik-fallous.txt",
-   "bytes": 5275
+   "bytes": 12524
   },
   {
    "page": "wiki/people/teddy.md",
@@ -2142,10 +2142,10 @@
   },
   {
    "page": "wiki/self/youtube-watch-history.md",
-   "title": "YouTube Watch History (2007\u20132025)",
-   "summary": "Extensive personal YouTube activity log spanning nearly two decades. 17,302 \"Watched\" events + 248 likes/dislikes. Primary media consumption channel for news...",
+   "title": "YouTube Watch History (2007\u20132026)",
+   "summary": "Extensive personal YouTube activity log spanning nearly two decades. Primary media consumption channel for news, politics, comedy, and cultural commentary. D...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/youtube-watch-history.txt",
-   "bytes": 16005
+   "bytes": 23296
   },
   {
    "page": "wiki/timeline/events/annie-alexis-reunion-november-2018.md",
@@ -2166,7 +2166,7 @@
    "title": "Eli Incident",
    "summary": "The event that ended the Annie decade in substance if not yet in form: a sustained concealed affair between [[wiki/people/annie-ulmer]] and her coworker Eli,...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/eli-incident.txt",
-   "bytes": 9017
+   "bytes": 10543
   },
   {
    "page": "wiki/timeline/events/end-fight.md",
@@ -2194,7 +2194,7 @@
    "title": "March 2026 \u2014 The Terminal Phase Peak",
    "summary": "The last sixteen days of the documented Dan\u2013[[wiki/people/annie-ulmer|Annie]] record (which runs November 28, 2015 \u2013 March 16, 2026) contain the relationship...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/march-2026-terminal-phase.txt",
-   "bytes": 10392
+   "bytes": 10774
   },
   {
    "page": "wiki/timeline/events/shelbie-annie-threesome-april-2019.md",
@@ -2320,7 +2320,7 @@
    "title": "Au Za'atar (NYC, ~2021\u20132024)",
    "summary": "Au Za'atar Midtown \u2014 the Lebanese restaurant at 58th & 1st owned by",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/au-zaatar.txt",
-   "bytes": 15967
+   "bytes": 16700
   },
   {
    "page": "wiki/work/bfs-foods.md",
@@ -2358,6 +2358,13 @@
    "bytes": 4924
   },
   {
+   "page": "wiki/work/tech/danmodel.md",
+   "title": "DANMODEL \u2014 a voice-cloning ML pipeline trained on Dan's own texts",
+   "summary": "DANMODEL is a from-scratch machine-learning pipeline, found unfiled in a Google Drive folder (`~~DOCS/DANMODEL`), that does something no other project in thi...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/tech/danmodel.txt",
+   "bytes": 9778
+  },
+  {
    "page": "wiki/work/tech/grok-build/overview.md",
    "title": "Grok Build",
    "summary": "Grok Build refers to custom agentic / subagent workflows using Grok (xAI) as cognitive prosthetic, parallel to CATO/MAX. Includes specialized \"Grok Build sub...",
@@ -2376,7 +2383,7 @@
    "title": "Tech Index",
    "summary": "Personal technology projects: agent tooling, message-forensics pipelines, and reasoning frameworks.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/tech/index.txt",
-   "bytes": 2241
+   "bytes": 2495
   },
   {
    "page": "wiki/work/tech/max-framework/overview.md",
@@ -2390,7 +2397,7 @@
    "title": "MNEME \u2014 Personal Memory Corpus Platform",
    "summary": "A full product spec, dated April 2026, for a tool that solves the exact problem this wiki itself exists to solve: the \"cold-start\" problem of every LLM sessi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/tech/mneme/overview.txt",
-   "bytes": 4347
+   "bytes": 4375
   },
   {
    "page": "wiki/work/tech/vibe-coding-games.md",
