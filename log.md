@@ -830,3 +830,27 @@ revise-don't-regenerate rule. Sources list gained the escort-messages export
 and the 2026-07-13 Eli-vs-Tuquick capture note. bin/wiki-lint: 0 errors (page
 flagged only for its pre-existing advisory size warning, exempt as a critical
 hub page). bin/wiki-connect check: 0 errors.
+
+## [2026-07-24] revise | people | annie-ulmer.md — reimagined from scratch, second pass
+Operator feedback on the same-day rewrite above: it kept the prior page's
+section names, paragraph order, and much of its original sentence-level
+prose despite being framed as a rewrite. Operator asked for the page to be
+reimagined from scratch rather than revised in place. This second pass
+discards the old skeleton entirely and adopts a different organizing
+structure: the moral verdict opens as its own named section instead of
+arriving at the end; Annie's pre-Dan biography is split out from the 2015
+origin story; the sexual arrangement, the jealousy kink, and the
+Hazel/Lily escort-economy material are consolidated into one thematic
+"architecture" section instead of being threaded through a chronological
+arc; the financial oscillation and the payment-app figures get their own
+section; the terminal-phase mechanisms are regrouped by whose instrument
+they are (Annie's / Dan's / neither's) rather than presented as a flat
+bulleted list; and all quantitative tables are consolidated into one "By
+the numbers" section near the end instead of being scattered inline. No
+facts, figures, or citations changed from the verified same-day pass —
+this was a structural and prose rewrite only, not a re-research pass —
+but every paragraph was written fresh rather than edited from the prior
+draft. Two small typos introduced during the rewrite (a duplicated word,
+a garbled date) were caught and fixed before commit. bin/wiki-lint: 0
+errors (advisory size warning only, exempt as a critical hub page).
+bin/wiki-connect check: 0 errors.

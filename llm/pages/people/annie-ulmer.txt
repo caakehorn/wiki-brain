@@ -24,6 +24,8 @@ infobox:
   first_contact: 2015-11-01
   handles: ["@Annelouise28", "@Lo_weez", "@alexisarmel"]
 changelog:
+  - date: 2026-07-24b
+    note: "Second pass, same day: operator directive was to reimagine the page from scratch, not revise the existing skeleton — the first 2026-07-24 pass kept the prior section names, paragraph order, and much of the original sentence-level prose. This pass discards that structure entirely: new section architecture (verdict stated as its own opening block; Annie's pre-Dan history and the 2015 origin separated out; the arrangement/kink/escort-economy material consolidated into one thematic 'architecture' section instead of threaded through a chronological arc; money pulled into its own section; the terminal-phase mechanisms regrouped by whose instrument they are rather than a flat bulleted list; data pushed to a single numbers section near the end). All facts, figures, and sourcing carried over unchanged from the verified 2026-07-24 pass — no new claims, no re-verification needed — but every paragraph is freshly written."
   - date: 2026-07-24
     note: "Full top-to-bottom re-analysis and rewrite: re-verified message-corpus counts directly against raw CSVs (88,549-row dual-handle export confirms 44,513 sent/41,073 received; 0.961 Gini unchanged), re-extracted all seven DanAnnie_*.docx dossiers via raw XML parse (libreoffice conversion failed in-session) and cross-checked every cited statistic against them, added the full year-by-year message-ratio table (2015-2025) from the appendix, added the verbal-abuse monthly escalation trajectory (9→36) and the hostility-after-warmth finding (47 instances), added the unexecuted-threat pattern (18 block threats, 6+ maternal-disclosure threats, both ~100% unfollowed), sharpened the wellbeing-check number (7 total / 4 genuine after removing perfunctory acknowledgments), added the escort-economy detail from the newly read raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md (Nabeel and Jason threads, not previously mined), tightened the March 2026 confession/retraction and bathroom-incident narration against verbatim quotes"
   - date: 2026-07-15
@@ -142,789 +144,287 @@ connections:
     claim: "Annie's 'Hazel' persona (the paid-provider identity behind the Jared/Tricia, Nabeel, and Jason threads) is the same alias documented across three independent 2019–2020 escort threads, one of which Dan personally impersonated her inside."
 ---
 
-
 # Annie (Anne Louise Ulmer)
 
-This page is the largest single deployment anywhere in the corpus of
-[[wiki/mind/concepts/forensic-method|the forensic method]] — the same
-anomaly-hunting, primary-record-over-narrative default documented as
-Dan's cognitive baseline, run here for over a decade against the person
-who mattered most, producing the seven-document dossier corpus this page
-compresses and, as of this pass, has had every cited statistic re-checked
-directly against.
+Annie Ulmer was Dan's partner for ten years and seven months — November
+28, 2015 to June 1, 2026 — and the only relationship in his documented
+history to fully engage his attachment system. It is closed, historical,
+and the single most heavily analyzed relationship in this wiki: a
+126,683-message corpus, seven forensic dossiers written and revised
+across a decade of hindsight, and a verdict that this page states first
+rather than builds toward, per the standing house rule that consequence
+comes before chronology. That verdict has not moved across three
+successive analytical passes: **the gaslighting outweighed the affair.**
+What ended the relationship was infidelity; what did the deeper damage
+was the months Annie spent, while that infidelity was active, telling Dan
+that his correct perception of it was evidence of his own mental
+instability.
 
-Anne Louise "Annie" Ulmer was the defining relationship of Dan's adult
-life: ten years and seven months, from November 28, 2015 (the Saturday
-after Thanksgiving) to June 1, 2026, including roughly eight years of
-cohabitation in New York. It ended involuntarily, in a group chat, when
-third parties confirmed two things at once — a sustained concealed
-third-party relationship, and a defamation campaign she had been running
-against Dan inside their shared network while privately assuring him of
-her loyalty. The relationship is closed and historical. Its documented
-conclusion, carried throughout this wiki and unchanged by this
-re-analysis, is that **the gaslighting outweighed the affair**: the
-central moral event of the final phase was not the infidelity itself but
-the months Annie spent forcefully convincing Dan that his *accurate*
-perception of an ongoing affair was mental illness. He was right; he was
-told he was insane for being right; and he eventually chose to believe
-her because the alternative — sustained vigilance, proof-gathering, the
-destruction of the relationship on an accusation he couldn't yet prove —
-was worse. That injury, an attack on his capacity to know his own
-reality, is rated in the corrective dossier as more serious than the
-procurement system, the silences, or the betrayal it concealed.
+## The verdict, stated plainly
+
+Annie is the primary agent of harm in this relationship's final years.
+That finding is not softened by anything that follows on this page — her
+genuine early love, her real family obligations, her own documented
+distress about her own conduct. It is, however, complicated by all of
+those things, and the complication is part of the record, not a mitigant
+smuggled in to balance the ledger. She built, mostly without conscious
+design, a system that kept Dan hoping while she was elsewhere; she lied
+to him about an active affair by telling him his accurate suspicion of it
+was insanity; and in the relationship's last eight months she met twelve
+of his explicit statements of suicidal intent with a bar name, a laundry
+complaint, and silence.
+
+Dan is the primary victim of that system, and he is not blameless inside
+it. He said "fuck you" to her seventy-four times in seven months. He
+declared the relationship over 127 times and came back within two days
+essentially every time, which taught her his exits carried no weight. He
+built, with her active participation for most of a decade, a sexual
+arrangement whose retention logic he understood and used. None of that
+approaches equivalence with what it answered. Both things are documented
+here, in full, because a wiki that hedges its clearest finding to look
+balanced is worse than one that states an asymmetric truth and shows its
+work.
 
 ## LLM Quick Brief
 
 **For context injection:** Annie (Anne Louise Ulmer), Dan's partner
-2015–2026, the first relationship to fully activate his attachment system.
-Met through [[wiki/people/alexis-armel|Alexis]]; Annie left her prior
-partner within 24 hours. Former MyFreeCams cam model; the couple later
-cammed together as "smashonista" and ran a Dan-architected
+2015–2026, the first relationship to fully activate his attachment
+system. Met through [[wiki/people/alexis-armel|Alexis]]; left her prior
+partner within 24 hours of meeting Dan. Former MyFreeCams model; the
+couple later cammed together as "smashonista" and ran a Dan-architected
 quasi-non-monogamous arrangement (2018–2024, Dan present/arranging).
-Cohabited ~8 years (155 Virginia Ave, then NYC, largely Dan-funded early);
-financial burden oscillated by era. Concealed affair with NYC coworker
-[[wiki/people/eli|Eli]] through autumn 2024 (Eli's 11:18 PM self-introduction
-text, Jan 9 2025) while gaslighting Dan's accurate suspicions as paranoia;
-ended cohabitation on the Feb 2025 PA return. Terminal phase (Aug 2025–Mar
-2026): drug-supply dependency, a love-to-request pairing later shown to
-track her overall request rate rather than a targeted procurement pattern
-(see the revision below), 12 uncared-for crisis statements, two written
-denials, GPS removal, a March 2026 confession ("YES") retracted four days
-later as "a misunderstanding." Left Dan for
-[[wiki/people/tuquick-17248123683|Tuquick]]; June 1 2026 group-chat closure
-confirmed the relationship and a defamation campaign (false rape and
-"junkie" narratives). Tuquick defected 14 days later, independently calling
-her a compulsive liar. 126,683-message corpus is the empirical base of the
-wiki's attachment and conflict models. Closed — not a live thread. At a
-0.961 [[wiki/mind/concepts/contact-gini|Contact Gini]] coefficient, Annie's
-two handles alone account for the overwhelming share of Dan's entire
-relational volume across the corpus — a concentration the redundancy
-concept treats as the structural precondition for how total the June 2026
-collapse was.
+Cohabited ~8 years, largely Dan-funded early on; financial burden
+oscillated across four separate role-reversals over the decade.
+Concealed affair with NYC coworker [[wiki/people/eli|Eli]] through autumn
+2024 while actively convincing Dan his accurate suspicions were
+paranoia — the corpus's central moral event. Affair surfaced via Eli's
+own 11:18 PM self-introduction text (Jan 9 2025); cohabitation ended with
+the Feb 2025 return to Uniontown. Terminal phase (Aug 2025–Mar 2026): Dan
+controlled the drug supply, Annie was unemployed and dependent, and a
+gaslighting architecture ran on top of that dependency — a GPS removal
+reframed as a new demand, 12 crisis statements met with no substantive
+care, two written denials of a third party, a March 2026 confession
+("YES") retracted four days later as a "misunderstanding." Left Dan for
+[[wiki/people/tuquick-17248123683|Tuquick]]; the June 1, 2026 group-chat
+closure confirmed that relationship and exposed a parallel defamation
+campaign. Tuquick himself defected fourteen days later, independently
+calling her a compulsive liar. Closed, not a live thread. At a 0.961
+[[wiki/mind/concepts/contact-gini|Contact Gini]] coefficient, Annie's two
+handles alone carry the overwhelming share of Dan's entire relational
+message volume — the structural precondition, the redundancy concept
+argues, for how total the 2026 collapse was.
 
-## Who she was
+## Before Dan
 
-Annie came into the relationship a former MyFreeCams model who described
-her camming as the product of a dissociative period after her prior
-relationship: "That's when I started camming. Because I didn't care about
-myself. I wanted to be looked at." She was not naive about sexuality or
-its commercialization — she was a person who had worked through a dark
-period and arrived, repeatedly and in the first weeks with Dan, at
-something she described as never having felt before. Dan knew about the
-camming before they met — his ex told him — and was drawn to it rather
-than troubled by it; the record's earliest weeks already carry the
-affectionate, admiring register that would harden into his explicitly
-named jealousy kink within a few months. Her family anchors her
-Uniontown world: parents whose friendship with Dan's mother's circle goes
-back decades, her grandmother Sugie (a genuine, documented caretaking
-obligation that later doubled as her most-used alibi), a sister
-[[wiki/people/claire-ulmer|Claire]], a niece and nephew she helped care
-for, and the dog [[wiki/people/milo|Milo]], a fixture of the NYC domestic
-record — Claire is the one who first found Milo as a starving stray in
-her neighborhood.
+Annie arrived at this relationship already a former MyFreeCams model, and
+she described the camming, unprompted and more than once, as something
+that grew out of a dissociative period following her prior relationship:
+"That's when I started camming. Because I didn't care about myself. I
+wanted to be looked at." Dan knew this before they were ever introduced —
+his ex-girlfriend told him — and it drew him toward her rather than away.
+Her Uniontown world supplies the rest of the backdrop that recurs
+throughout this page: parents whose friendship with Dan's own mother's
+circle predates the relationship by decades; her grandmother Sugie, whose
+care was a real and continuing obligation that later doubled as her
+single most-used alibi; a sister, [[wiki/people/claire-ulmer|Claire]]; a
+niece and nephew she helped raise; and the dog
+[[wiki/people/milo|Milo]] — found as a starving stray by Claire, and a
+fixture of the New York years that outlasted almost everything else
+about them.
 
-A single, undated-elsewhere data point on Annie's history before Dan: in
-a March 29, 2020 message comforting [[wiki/people/bekah-fullem|Bekah
-Fullem]] through her own rape disclosure, Dan states that Annie is
-herself a rape survivor — that it took her years to report it, that the
-trial was "super painful and full of ptsd moments," and that the
-assailant, "a serial rapist," received a 45-year sentence. This is
-sourced only to Dan's own secondhand account, offered in the context of
-supporting a third party, and has no independent corroboration anywhere
-else in the corpus — treat as a real but unverified claim pending a
-primary source or a more direct account.
+One claim about her life before Dan exists only at second hand and stays
+flagged as such: in a March 29, 2020 message comforting
+[[wiki/people/bekah-fullem|Bekah Fullem]] through Bekah's own rape
+disclosure, Dan tells her that Annie is herself a rape survivor — a
+years-delayed report, a trial he calls "super painful and full of ptsd
+moments," and an assailant, "a serial rapist," sentenced to forty-five
+years. No other source in the corpus touches this. It is recorded here
+as real-but-unverified, offered by Dan in service of supporting a third
+party rather than documenting Annie's history for its own sake, and
+should not be treated as settled until something independent of Dan's
+own account confirms it.
 
-The early record is unambiguous about the love being real. On day three
-of the documented corpus (Nov 29, 2015) she wrote "YOU ARE MY EVERYTHING,"
-"I love you in every single inch of your being," and "You are my full
-life." These are not instrumental statements — they predate any supply
-chain, any dependency structure, any need to manage Dan. Her love-language
-frequency peaked in 2016 at 5.3% of all her messages (Dan's own peaked the
-same year, at 5.7%), and she initiated contact on 62% of days in 2015. The
-dossiers insist on this baseline because it makes the later record
-legible: the failures were trajectory, not character-from-birth. The same
-texture of voice that sent "wittle guy" in 2024 sent "I love you in every
-single inch of your being" in 2015. The target changed, not the voice.
+## The first weeks, and how fast they moved
 
-## The arc
+Annie and Dan met through [[wiki/people/alexis-armel|Alexis]] in November
+2015. Annie left her existing relationship within twenty-four hours of
+that introduction. Within days Dan was already afraid of losing her — "I'm
+really really scared that you won't want this anymore," December 2, 2015,
+written before there was anything to betray — and that fear, present from
+literally the third day of the documented record, became the organizing
+force of the next decade. This was new territory for him: nothing in the
+[[wiki/people/danielle-onesi]] or earlier [[wiki/people/alexis-armel]]
+history shows a comparably total activation.
 
-They met through Alexis in November 2015; Annie ended her existing
-relationship within twenty-four hours of the introduction. This was the
-first relationship in Dan's documented history to trigger full attachment
-activation — nothing comparable appears in the
-[[wiki/people/danielle-onesi]] or [[wiki/people/alexis-armel]] eras. Dan
-was afraid of losing her from day three ("I'm really really scared that
-you won't want this anymore," Dec 2 2015) — before any betrayal existed —
-and that fear became the organizing principle of the decade. From 2016
-she lived with him at 155 Virginia Avenue, then through the New York
-years, a move Dan funded and sustained: he was the household's financial
-foundation for roughly the first five NYC years, drawing on
-[[wiki/people/suzanne-frank|Suz]]'s resources. Dan's public Twitter
-independently corroborates the timing: the handle **@Lo_weez** enters as
-his "new primary" relational tag in December 2015 — "worlds best
-girlfriend" — continuing through 2016 with matching personal detail
-("Girlfriend drinks too much Cherry Coke," "@Lo_weez ur next
-maxxinista"), while @alexisarmel goes fully silent the same window. This
-resolves a standing gap on [[wiki/people/katie-fletcher]]'s page, which
-had flagged @Lo_weez as possibly a third person.
+The corpus's own volume confirms the intensity independent of anyone's
+memory of it. Dan sent 728 messages on December 10, 2015 alone, then 682,
+363, and 679 across the following three days — the single highest
+four-day sent-volume anywhere in the eleven-year record apart from the
+relationship's own 2025–26 termination window. The same shape — maximum
+output under maximum attachment — appears at both ends of this
+relationship and nowhere else in Dan's corpus with comparable force. The
+timing on the public record matches exactly: Dan's Twitter handle
+**@Lo_weez** debuts as his "new primary" relational tag in December 2015
+("worlds best girlfriend"), continuing through 2016 with matching
+personal texture ("Girlfriend drinks too much Cherry Coke"), in the same
+window that @alexisarmel goes silent — independent corroboration that
+also resolves a standing identification gap on
+[[wiki/people/katie-fletcher]]'s page.
 
-The near-simultaneous Alexis-ending / Annie-beginning is documented as
-the **single-bond switch** at [[wiki/mind/synthesis/bond-switch-2015]]:
-the sx/sp stack vacates one singular bond slot and reoccupies it near-
-simultaneously rather than running two bonds in parallel, and the shared
-"lair" at 155 Virginia Avenue (leased during the Alexis years, into which
-Annie moved) is the physical proof that the transfer was a swap, not a
-relocation. The bootloader corpus corroborates the activation's intensity
-with a verified onset flood: Dan sent **728 messages on 2015-12-10**, then
-682 (Dec 11), 363 (Dec 12), 679 (Dec 13) — the highest daily sent-volume
-anywhere in the 2011–2026 record except the 2025–26 termination window,
-recomputed exactly from `MASTER_MESSAGES_DB_DUMP.csv`. The same
-maximum-output-under-maximum-attachment shape appears at both ends of the
-relationship, and the full year-by-year ratio table below shows the
-pattern was not confined to the opening weeks.
+The near-simultaneity of one relationship ending and the next beginning
+is analyzed on its own page as the **single-bond switch**
+([[wiki/mind/synthesis/bond-switch-2015]]): rather than running two
+attachments in parallel, Dan's bond structure appears to vacate one slot
+and refill it almost immediately, and the shared apartment at 155
+Virginia Avenue — leased during the Alexis years, inherited by Annie when
+she moved in — is physical evidence that this was a transfer rather than
+a fresh start. And the love in these earliest weeks reads as real by any
+plain measure: on day three of the record (Nov 29, 2015) Annie wrote "YOU
+ARE MY EVERYTHING" and "You are my full life," at a moment when nothing
+about the relationship yet required managing him. Her love-language rate
+peaked the following year, in 2016, at 5.3% of all her messages — the
+highest of any year in the decade, matched almost exactly by Dan's own
+2016 peak of 5.7%. The dossiers return to this baseline deliberately: it
+is what makes everything that follows a trajectory rather than a
+character that was always going to end this way.
 
-> **CONTRADICTION (origin story):** `CATO_BOOTLOADER_DANFRANK.md`
-> preserves a different, more colorful origin account: Alexis, as
-> Annie's coworker, sent Dan to buy drugs from Annie, and the two hooked
-> up during that transaction, dated loosely to "~2014-15" rather than the
-> corpus-anchored November 28, 2015. The dated message record (day-three
-> "YOU ARE MY EVERYTHING," Dec 2 2015 abandonment-fear text) is the
-> stronger source and is what this page follows; the bootloader's version
-> is preserved here as an unresolved, stylized alternate account rather
-> than adopted or discarded outright — it may be dramatized retelling of
-> the same event, or a distinct, earlier first contact that predates the
-> relationship's documented start.
+> **CONTRADICTION (origin story):** a separate account preserved in
+> `CATO_BOOTLOADER_DANFRANK.md` tells the origin differently — Alexis, as
+> Annie's coworker, sending Dan to buy drugs from her, with the two of
+> them hooking up during the transaction, dated loosely to "~2014-15"
+> rather than the corpus-anchored November 28, 2015. The dated message
+> evidence (the day-three declarations, the December 2 fear of
+> abandonment) is the stronger source and is what this page follows. The
+> bootloader's version is kept on record rather than discarded: it may be
+> a stylized retelling of the same event, or a genuinely earlier first
+> contact that the documented relationship start doesn't capture.
 
-The same bootloader session records the immediate aftermath: after the
-breakup, Alexis returned to stay with Dan and Annie for about a month,
-bringing a new boyfriend who was — per the same account — both Dan's
-sister [[wiki/people/vanessa-frank|Vanessa]]'s first boyfriend and someone
-who had lost his virginity to Annie. That boyfriend was arrested during
-the stay picking up a mailed weed parcel.
+The same bootloader account describes what followed the breakup: Alexis
+stayed with Dan and Annie for roughly a month afterward with a new
+boyfriend in tow, a boyfriend later arrested at their home picking up a
+mailed weed parcel.
 
-> **REVISED [2026-07-14]:** independent corroboration has since surfaced
-> on [[wiki/people/alexis-armel]] — a retelling by Dan to
-> [[wiki/people/new-jim-shaffer]] (April 2018) describing the same
-> mechanism (a mail-order weed pickup that walked into an unrelated police
-> warrant) but dated concretely to **Valentine's Day 2017**, not the
-> immediate December 2015 aftermath, and naming Alexis herself (not only
-> the boyfriend, identified by full name as **Zac Shumar** — also
-> Vanessa's own ex-boyfriend before Alexis dated him) as arrested,
-> charged with felonies, and later incarcerated at SCI Muncy after
-> violating probation. A second independent retelling to
-> [[wiki/people/tom]] (Aug 2018) confirms the scale (10 pounds of
-> marijuana mailed) and sharpens the legal asymmetry: Zac's paid lawyer
-> got him out of the group plea deal's consequences while Alexis served
-> the time. Whether this is the same event as the bootloader's account
-> with the date and details corrected, or a second, separate arrest, is
-> unresolved — but the core mechanism (mail-drop bust) matching across
-> two independent sources makes a single conflated/misdated event the
-> more likely reading.
+> **REVISED [2026-07-14]:** two independent retellings — Dan to
+> [[wiki/people/new-jim-shaffer]] in April 2018, and separately to
+> [[wiki/people/tom]] in August 2018 — describe the same mail-drop bust
+> mechanism but date it concretely to Valentine's Day 2017, name the
+> boyfriend as **Zac Shumar** (also, separately, Vanessa Frank's own
+> ex-boyfriend before Alexis dated him), and put Alexis herself under
+> arrest and later incarceration at SCI Muncy, with Zac's paid lawyer
+> extracting him from the same plea deal's consequences. Whether this is
+> the bootloader's story with the details corrected, or a second and
+> distinct arrest, is unresolved — but two independent sources
+> converging on the same mechanism makes a single, misdated event the
+> likelier reading.
 
-### The arrangement (2018–2024)
+## The architecture: kink, camming, and the economy around it
 
-Camming was discussed within weeks of the start (Dec 2015) and the couple
-streamed together on Chaturbate as **smashonista** (confirmed Aug 18,
-2018; Patreon Oct 2019; Annie also ran an OnlyFans). Dan's jealousy kink —
-sexual arousal derived from watching or knowing about Annie's sexual
-contact with other men — is first explicitly named February 18, 2016
-("Jealousy is like the biggest kink") and documented with extraordinary
-density across the following four years ("it only became fun to toy with
-the notion of cheating and jealousy when it was actually a realistic
-possibility," May 23 2016; "honestly the jealousy stuff has been REALLY
-healthy for me," Jun 2019). This was not passive tolerance of Annie's
-sexuality — it was an active, named, enthusiastically pursued component
-of Dan's own sexual identity, and around 2018, after discovering Annie
-talking to other men online, he proposed a quasi-non-monogamous structure
-rather than an ultimatum: he would arrange encounters — typically with
-his own friends, always with himself present — built around that kink.
-Annie participated across years and said she enjoyed it ("I did enjoy our
-relationship/situation/arrangement we had with him," Nov 3 2024). The
-asymmetry is also documented on both sides: Annie's own participation was
-the variable — she often agreed to encounters that never materialized,
-generating the same escalated-commitment/non-delivery pattern that later
-defined Dan's exit declarations, just running in the opposite direction.
+Nothing about this relationship's sexual life was static, and understanding
+it requires treating it as a system Dan and Annie built together rather
+than a sequence of isolated incidents. Camming came up within weeks of
+the relationship's start, in December 2015, and by 2018 the couple was
+streaming jointly on Chaturbate as **smashonista** (confirmed live August
+18, 2018; a Patreon followed in October 2019; Annie separately ran an
+OnlyFans). Underneath the camming sat something Dan named for himself in
+February 2016 and never stopped naming afterward: an explicit jealousy
+kink, arousal drawn from watching or knowing about Annie's sexual contact
+with other men. "Jealousy is like the biggest kink," he wrote that month;
+by 2019 he was describing it as "REALLY healthy" for him. This was not
+tolerance dressed up after the fact — it was an actively pursued, openly
+discussed piece of his own sexual identity, and around 2018, when he
+discovered Annie talking to other men online, he answered it not with an
+ultimatum but with a structure: he would arrange encounters, usually with
+his own friends, always with himself present, built around that kink.
 
-The earliest concrete instance found runs even earlier than the
-arrangement's "formalized" 2018 date implies, and it is with a woman from
-Dan's own romantic history rather than a stranger or one of his friends:
-days after [[wiki/people/alexis-armel|Alexis]]'s release from her year at
-SCI Muncy, she and Annie hooked up at Dan and Annie's house with Dan
-present (Nov 3, 2018), and the household prepared for a same-week repeat
-the following evening — full account at
-[[wiki/timeline/events/annie-alexis-reunion-november-2018]]. The next
-well-documented instance with a woman is the
-[[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]
-with [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], whom Dan was
-also seeing one-on-one that spring — Shelbie's own messages through June
-2019 treat Annie's presence as an unremarkable condition of the
-relationship. The same spring also produced a paid encounter with adult
-performer [[wiki/people/trinity-st-clair|Trinity St. Clair]], booked and
-scheduled with both of them addressed directly, and by that fall the
-arrangement had a professionalized edge: a five-week run of paid sessions
-with NYC escort [[wiki/people/kelly-johansson|Kelly Johansson]], who
-treated Annie as a working peer rather than a client's girlfriend and
-pitched bringing both of them in as co-providers for one of her own
-regular clients.
+Annie's participation across this structure was real and, by her own
+later account, enjoyed ("I did enjoy our relationship/situation/
+arrangement we had with him," November 3, 2024) — and also asymmetric,
+since she frequently agreed to encounters that then didn't happen, a
+non-delivery pattern that mirrors, in miniature, the exit-declaration
+pattern Dan would later run against her in the terminal phase. The
+earliest identified instance predates the arrangement's "formal" 2018
+start and involves someone from Dan's own history rather than a stranger:
+days after [[wiki/people/alexis-armel|Alexis]]'s release from a year at
+SCI Muncy, she and Annie were together at Dan and Annie's house with Dan
+present (Nov 3, 2018) — full account at
+[[wiki/timeline/events/annie-alexis-reunion-november-2018]]. The
+best-documented instance with another woman is the
+[[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019
+threesome]] with [[wiki/people/shelbie-breakiron|Shelbie Breakiron]],
+whom Dan was also seeing separately that spring; the same season produced
+a paid session with adult performer
+[[wiki/people/trinity-st-clair|Trinity St. Clair]], and by that fall a
+five-week run of paid sessions with NYC escort
+[[wiki/people/kelly-johansson|Kelly Johansson]], who treated Annie as a
+working peer rather than a client's girlfriend.
 
-**The escort economy, from the other side.** That same June 2019, Annie
-was on the other side of that same economy: working as a paid provider
-herself under the alias **"Hazel"** (she also used "Lily Lush," alongside
-the joint Chaturcam handles "smashonistaa"/"sofvded" from the camming
-side of the arrangement). A newly read 2019–2020 export
-(`raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md`, not
-previously mined into this page) documents three separate client threads
-under the Hazel/Lily persona. **[[wiki/people/jaredtricia|Trish and
-Jared]]**, the married Gramercy couple, booked her twice in June 2019 at
-$1,000 for two hours (advertised via an Eros listing); a follow-up August
-2019 Google Voice thread captures Dan himself — not Annie — writing as
-"Hazel" to ask Trish for a keepsake photo from that first encounter,
-which she supplied, and Dan later confirmed the impersonation directly
-("or i wanted that picture"). A second thread with a client identified
-only as "Nabeel" (May 14–19, 2019, quoted rate $900/hr, vetted via
-Twitter) is confirmed by Dan to be genuinely Annie's own texting — an
-outcall from her Upper East Side address to Nabeel's Bushwick apartment,
-a lingerie-photo request in advance, and a post-visit exchange about
-something she'd left behind. A third client, "Jason" (June 2020, going by
-"Lily" until he tipped well), negotiated directly over having "my
-boyfriend filmed us a little bit during the foreplay" — Jason declined
-and Annie counter-offered having Dan leave so they'd be alone instead,
-explicitly framing it as something "used to" and "a big turn on for both
-of us"; the booking stalled out mid-arrangement and its outcome is
-undocumented. Read together with the Jared/Tricia and Brian threads
-already on file, these three 2019–2020 client relationships make Annie a
-working participant in the same paid-companion economy the arrangement
-drew clients from, not only its facilitator on Dan's side of the ledger.
+**Annie's own side of that economy** is the part this page previously
+under-documented. That same June 2019, she was working as a paid provider
+in her own right, under the alias **"Hazel"** (also "Lily Lush," and the
+joint camming handles "smashonistaa"/"sofvded"). A 2019–2020 export not
+folded into this page until this pass
+(`raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md`)
+documents three separate client threads under that persona. The
+[[wiki/people/jaredtricia|married Gramercy couple, Trish and Jared]]
+booked her twice in June 2019 at $1,000 for two hours; a follow-up August
+2019 thread on a new number shows Dan himself, not Annie, writing as
+"Hazel" to ask Trish for a keepsake photo from that first session — she
+sent it, and Dan later confirmed the impersonation outright ("or i wanted
+that picture"). A second client, known only as "Nabeel" (May 14–19,
+2019), ran
+through a genuine Annie-side conversation — an outcall from her Upper
+East Side address to his Bushwick apartment, a vetting process over
+Twitter, a quoted rate of $900/hr. A third, "Jason" (June 2020), initially
+knew her only as "Lily" and negotiated directly with her over having "my
+boyfriend filmed us a little bit during the foreplay" — Jason declined,
+Annie offered an alternative with Dan simply absent, and the booking
+stalled before its outcome was recorded. Together with the Jared/Tricia
+and Brian threads already documented elsewhere, these make Annie a
+working participant in the same paid-companion economy that supplied
+Dan's arrangement with some of its clients, not merely its facilitator on
+his side of the ledger.
 
-The final dossiers read the arrangement as the most concentrated
-expression of Dan's retention architecture — he converted the greatest
-threat to the relationship into its central kink, and it worked for
-years. The October 2024 Tom incident, first analyzed as coercion, was
-**materially revised** on full context: an established six-year
-framework, a willing historical participant, in a specific instance where
-she was exhausted and chemically depleted and said so bluntly ("Numb. I'm
-cool") while choosing to proceed, and afterward re-affirmed rather than
-recanted it ("I enjoy doing these things I promise... I am happy that you
-find pleasure in these things I honestly do Dan," Oct 26 2024). Her "I've
-lost all morals at this point… I don't care or feel anything anymore"
-(Oct 31 2024) still stands as the record of her interior dissolution
-going into the terminal era — a statement about her own condition, not a
+The October 2024 incident with [[wiki/people/tom]], first read as
+coercion in earlier analysis, does not survive full context: it sits
+inside a six-year consensual framework, with an active participant who
+was, by her own account that day, exhausted and chemically depleted
+("Numb. I'm cool") and chose to proceed anyway, then re-affirmed rather
+than recanted it the following day ("I enjoy doing these things I
+promise... I am happy that you find pleasure in these things I honestly
+do Dan"). Her separate statement eight days later — "I've lost all
+morals at this point… I don't care or feel anything anymore" — is a
+record of her own interior state heading into the terminal era, not a
 retraction of consent to the framework itself.
 
-### The Train Plan (September 2020)
+## What the money did
 
-The largest documented pre-2025 crisis, previously invisible because 2020
-was a near-absent year in some of the message exports. During COVID
-lockdown at Annie's parents' home, Dan discovered she had been telling
-another man "terrible, unforgivable, untrue things" about him, and that
-the man had made plans to pick her up from the train station. Dan took
-seven Xanax bars, threatened to leave permanently, and sent 200+ messages
-over several days. Annie's own words afterward: "I know what I said and I
-fucking regret it… I have messed shit up. Multiple times." Dan's
-characterization of the cumulative pattern used the word "cheated"; she
-did not contest it. See [[wiki/timeline/periods/covid-era-2020]] for the
-lockdown context this sits inside.
-
-### The financial oscillation
-
-Per the three accepted amendments: Dan funded the early NYC years,
-drawing on Suz's resources while Annie changed jobs repeatedly and worked
-inconsistently; in 2021 he was also her employment vector — a month into
-his own Au Za'atar hire he got her the hostess job at the original East
-Village location (she was later fired from it with zero notice, the
-"avatar of reliability" contrast documented on [[wiki/work/au-zaatar]]);
-in 2023 the roles inverted — he worked at
-[[wiki/work/au-zaatar|Au Za'atar]] while an unemployed Annie shared in
-accumulating ~$10,000 of landlord debt (paid down $650/week); he was
-involuntarily managed out in June 2024 (hours cut in a pattern he
+The financial history of this relationship inverted four separate times,
+and each inversion generated a grievance that was locally true and
+historically incomplete. Dan funded the household through roughly the
+first five New York years, drawing on
+[[wiki/people/suzanne-frank|Suz]]'s resources while Annie moved between
+jobs. In 2021 he became her employment vector as well, getting her the
+hostess job at the original East Village [[wiki/work/au-zaatar|Au
+Za'atar]] a month into his own hire there (she was later fired from it
+with zero notice — an "avatar of reliability" contrast that page
+documents in full). By 2023 the roles had flipped: Dan working, Annie
+between jobs, the two of them jointly accumulating roughly $10,000 in
+debt to their landlord that they paid down at $650 a week. Then, in
+mid-2024, Dan lost the Au Za'atar job — involuntarily, in a pattern he
 identified in real time as designed to force a resignation rather than a
-termination, avoiding the employer's unemployment obligations — "I'm a
-bit worried that they have been maneuvering in a way to try to prevent
-exactly that," Aug 6 2024; unemployment filed Aug 8 amid an active job
-search documented from early July). Only then did the "Annie working, Dan
-home" window open — the one her "I WORK 6 FUCKING DAYS A WEEK... You
-worry about having drugs. That's it" grievance (Nov 15 2024) generalized
-from. In 2024 she was the sole earner, carrying rent, the phone bill, a
-PNC loan she'd been told to get and never got help paying, and the shared
-drug budget; the grievance was locally valid — real hardship, real
-resentment — and historically partial, since it treated a single-year
-snapshot as the whole decade's pattern. In Uniontown the dependency
-inverted a third time: she lost income, independence, and drug supply in
-one move, and Dan became the supply chain. Each phase featured one party
-holding structural leverage over the other's exit; neither did it
-consciously; both did it effectively.
+firing ("I'm a bit worried that they have been maneuvering in a way to
+try to prevent exactly that," August 6, 2024) — and Annie became, for the
+only extended stretch in the decade, the household's sole earner: rent,
+the phone bill, a PNC loan she'd been told to take out and never got help
+repaying, and the shared drug budget. Her "I WORK 6 FUCKING DAYS
+A WEEK... You worry about having drugs. That's it" (November 15, 2024) is
+a real complaint about that specific year, generalized past what the
+decade as a whole would support. The fourth inversion came with the move
+to Uniontown, where Annie lost income, independence, and drug access all
+at once and Dan became her supply chain instead.
 
-**The full-decade message ratio confirms the oscillation independently.**
-Re-derived directly from the appendix of the master dossier and matching
-the corpus's own year-by-year breakdown:
-
-| Year | Dan sent | Annie sent | Ratio (Dan:Annie) |
-|---|---|---|---|
-| 2015 | 7,242 | 6,394 | 1.13 |
-| 2016 | 13,954 | 14,395 | 0.97 |
-| 2017 | 6,552 | 7,413 | 0.88 |
-| 2018 | 9,137 | 11,459 | 0.80 |
-| 2019 | 3,084 | 4,542 | 0.68 |
-| 2023 | 1,320 | 1,784 | 0.74 |
-| 2024 | 5,273 | 11,467 | 0.46 (Annie's peak dominance) |
-| 2025 | 9,565 | 10,074 | 0.95 (near-equal) |
-
-Annie out-messaged Dan in every year on record except 2015 and the
-2025–26 terminal window, where his volume overtakes hers as the
-attachment activation of the ending mirrors the onset flood of the
-beginning. 2024 is the single most Annie-dominant year in the decade
-(0.46, the year she also initiated contact on 78% of days) — the same
-year the Eli affair was active.
-
-**The money — quantified.** The oscillation above is the qualitative
-shape; the payment-app ledgers put a hard number on it. Per
-operator-provided screenshots of Annie's profiles viewed from Dan's own
-payment apps (2026-07-15; these are **not** in `raw/`, and the two totals
-come from two separate apps, so they are not a single summed ledger):
-
-- **Cash App** (Annie as `@Annelouise28`): Dan's "Total Sent" to that
-  profile = **$139,184.96**. This lines up with Dan's own account
-  dashboard, which shows **Total Sent $138,249.40 / Received $20,243.37 /
-  807 transactions** across all contacts — i.e. Annie was the dominant
-  destination of his outflow.
-- **Venmo** (Annie as `@$Louisexoxo`): Dan's "Sent" to that profile =
-  **$99.8K**, "Received" from it = **$15.8K**, across **448 payments**.
-
-Read together (and noting the two apps are separate ledgers), Dan sent
-Annie on the order of **~$139K** and received back only **~$16–20K** — a
-net outflow to her of roughly **$119K–$123K** over the relationship. A
-control screenshot of a *different* contact (Shelby Breakiron,
-`@$ShelbieRose`) shows the same schema — Dan's "Total Sent" $4,687.69 /
-"Received" $0.00 — confirming that when Dan views another profile, the
-Sent/Received figures are *his* flows with that person, not theirs. The
-~$139K figure is the concrete floor under the "Dan-funded" and
-"supply-chain architect" reads elsewhere on this page: the relationship
-was not just emotionally asymmetric but financially lopsided by roughly
-six-to-one in her favor. (Caveat: these are point-in-time screenshots of
-totals, not a per-month reconciliation; the exact share attributable to
-drugs vs household vs gifts is not separable from the totals alone.)
-
-### The Eli affair and the gaslighting of accurate perception
-
-By autumn 2024 at the latest, Annie's concealed relationship with her
-restaurant coworker Eli was active. Dan sensed it and said so, repeatedly,
-in real time — and was told, at length and by name, that his perception
-was insanity. This was not a discrete incident discovered on January 9,
-2025; the corrective dossier establishes that the affair was sustained
-and ongoing through the autumn, and that during that window Dan's
-response to raising suspicions was not deflection but active,
-forceful conviction that his own accurate detection was pathology. Two
-documented instances predate the housewarming: "I should be able to turn
-my phone off, go out with [someone], lie about it and then gaslight you
-into believing that the only reason I did it was you are such a
-smothering piece of shit" (Aug 6 2024), and "It's just so fucking
-degrading to be made to feel like I AM the one who has created a
-trust-less situation" (Aug 9 2024) — Dan naming the mechanism, with
-precision, while it was actively running.
-
-The October 19, 2024 housewarming argument is the clearest single
-episode, run across several hours and dozens of messages while the affair
-was live: "THERE IS NO SITUATION." / "You're literally fucking insane." /
-"I am literally trying to earn your trust and giving you all the
-information and you are still not satisfied." / "Grow up. And fucking
-trust me." Every one of those lines was a lie deployed against a person
-who was correctly perceiving that something was wrong. The Corrective
-Addendum retracts the earlier "controlling behavior" framing of Dan's
-autumn-2024 vigilance outright, not partially: his instincts were right,
-and his distress was proportionate to a real, ongoing deception, not a
-pattern of jealous control finding convenient cover. He eventually chose
-to believe her anyway — his May 27, 2025 retrospective names the
-mechanism explicitly: "looking back i tend to think of the period of time
-that you were not only cheating on me, but STILL doing it even after i
-had become suspicious and then chose to believe you again to get back to
-a normal life where i didn't have to try to find the evidence i would
-need to prove it." That sentence describes, from the inside, choosing
-self-betrayal over sustained vigilance because the vigilance had become
-unbearable — not weakness, but a rational response to two impossible
-options.
-
-On January 9, 2025 at 11:18 PM, Eli introduced himself by text ("Hey Dan.
-It's Eli. Annie is down stairs. I work with her."); the physical
-discovery — Annie unconscious in the building lobby, location sharing
-disabled, the confrontation met with violence — is covered at
-[[wiki/timeline/events/eli-incident]]. The record's most direct admission
-is a March 2025 message Annie wrote to Dan, verbatim: "you decided to
-split our lives up. you lied to me for months and cheated on me." The
-pronouns run backwards — read literally the sentence accuses Dan — but
-every dossier that cites it treats it as her acknowledgment of the months
-of lying and the cheating as established fact, and rates it "the most
-direct admission in the record." The grammatical oddity is preserved here
-rather than corrected. Dan's own retrospective language for the
-experience is consistent and repeated: "you would then torture him
-playing games with his head while you continued lying about your
-infidelity" (Feb 24 2025); "You cheated on me. You tortured me about
-whether or not we even had a future together. You left me." (Apr 9 2025);
-"you've gaslit me into literally breaking" (Jul 12 2025). The affair
-ended with the February 2025 NYC departure; Eli stayed in New York.
-
-**Why this is rated the central harm, not one item on a list.** The
-Corrective Addendum is explicit that prior versions of this analysis
-treated the sustained denial of Dan's accurate suspicion as one gaslighting
-tactic among several — alongside the silence pattern, the alibi count,
-the GPS removal. That framing understated it. Being lied to about an
-external fact deprives a person of accurate information; being told,
-repeatedly and with force, that an *accurate perception* is a symptom of
-one's own disordered mind attacks the tool used to evaluate information
-at all. Every other manipulation documented on this page operated on top
-of a foundation Dan could at least partially verify against his own
-judgment. This one removed the foundation itself, and the damage doesn't
-resolve when the truth emerges — it lingers as a standing question about
-one's own reliability as a witness to one's own life, one the record
-shows Dan wrestling with explicitly through 2025 and into 2026.
-
-### The move (February 2025)
-
-Weeks after the Eli text, Annie unilaterally ended eight years of
-cohabitation and returned to her parents' home in Uniontown, citing her
-grandmother's care — declining Dan's open-ended offer to fund an
-apartment anywhere she chose instead, the first concrete post-affair
-decision-making asymmetry in the record. The dossiers date the
-*functional* end of the relationship here — the shared life was
-dismantled, and the conditions for repair were destroyed by the same
-event that made repair necessary (parents' roof, no overnights, no daily
-presence). Her remorse in this window reads as genuine — "I don't want to
-be away from you. I don't. I am so sorry I caused this disaster" (Feb 22
-2025) — because there was, as yet, no supply structure for the remorse to
-serve. Dan's grief was equally real and simultaneous ("I remember the day
-you moved in being SO FUCKING happy that we wouldn't have to be apart
-anymore," same day). February 2025 is, in the dossiers' own accounting,
-the last moment genuine repair was theoretically available — foreclosed
-not by insincerity on either side but by the structural conditions the
-move itself created.
-
-## The terminal phase (August 2025 – March 2026)
-
-Sixteen months of idle followed. The structural fact underneath all of
-it: Dan controlled the drug supply ("bop") and Annie was unemployed and
-dependent — the primary retention mechanism, operating independently of
-love or strategy, and the precise mirror image of the 2024 inversion (in
-2024, Annie was the sole earner and Dan the dependent; in Uniontown, Dan
-controlled supply and Annie lost income, independence, and drug access in
-the same move). On this substrate the dossiers document a coherent
-gaslighting architecture, re-checked here against the underlying 18,236+
-message terminal-phase export and its follow-on audit:
-
-- **The "I love you" anchor / procurement function.** The original count
-  found 187 of 191 love declarations in the seven-month window adjacent
-  to a drug or money request within 24 hours (96.6%); 4 stood alone.
-  > **REVISED [2026-07-18]:** the 187:4 statistic is deflated by a
-  > base-rate control and should not be cited as evidence of a targeted
-  > procurement instrument. Primary recount (dual-handle export, same
-  > window): 212 of her 220 love-declarations are request-adjacent at
-  > ±24h (96.4% — the ratio reproduces), **but 97.2% of a random sample
-  > of ALL her window messages are request-adjacent at the same radius**
-  > — she made requests nearly daily, so the adjacency is uninformative.
-  > The directional test inverts the claim: a request follows within 1h
-  > of her love-declarations 3.2% of the time vs a 16.2% baseline for
-  > her average message. On the text record her love-declarations were
-  > *more isolated* from requests than her ordinary messages. The
-  > love-language rate collapse/rebound below is unaffected; Dan's Jan 24
-  > 2026 line stands as his subjective read (dossier-sourced). Full
-  > method: [[wiki/mind/synthesis/dan-annie-fallout-verdict]].
-  Her 2025 love-language rate (2.7%) rebounded to near-2016 levels
-  precisely when the supply relationship was established, whatever the
-  correct causal read of the love-declaration timing. Dan named the
-  pattern in real time regardless (Jan 24 2026): "You have never once
-  said I love you and not needed something from me immediately after."
-  Of the 35 days across the window on which Annie initiated warmth
-  unprompted, the dossier audit estimates 6–8 were genuinely
-  request-free — "I just woke up and wanted to tell you I do miss you Dan"
-  (Sep 10 2025); "I love you turd brain" (Dec 3 2025) — a real but
-  minority residue of unconditioned affection inside a pattern that was
-  otherwise structurally disconnected from behavior.
-- **Semantic drift.** After a night at her ex-partner's residence in
-  August 2025 she removed GPS sharing — a ten-year mutual norm — then
-  reframed Dan's objection as a new, controlling demand. His location
-  stayed shared throughout.
-- **The Crash-Out Trap (cause/effect inversion).** All 94 of Dan's burst
-  events were preceded by her deliberate silence; she re-entered engaging
-  only with the burst, never the silence. Zero acknowledgments of the
-  silence as cause, in 94 opportunities.
-- **The controlled void.** Disappearance at high-stakes moments; longest
-  documented silence 36.5 hours, re-entered via a money request.
-- **The moral-debt pivot.** 44 documented instances of a confrontation
-  about betrayal answered with a caretaking crisis (Sugie, the ankle, the
-  kids) — "At Sugies" appears hundreds of times, clustering around
-  confrontations rather than any medical schedule.
-- **The weaponized apology.** 13 major self-indicting apologies ("I am a
-  horrible human being… I fully understand if I am dead to you"), each
-  followed by unchanged behavior, sit inside a larger set: the follow-on
-  audit found 46 self-aware or self-indicting statements across the full
-  window ("I hate myself and I hate the person I have become," Oct 26
-  2025; "I don't know what's going on, what the hell is wrong with me,
-  why can't I communicate," Feb 7 2026). The audit's own reading softens
-  the "pure manipulation" framing without changing the culpability: 46
-  instances of self-condemnation across seven months reads less like a
-  cold program and more like a person watching herself do things she
-  knows are wrong, unable to stop, carrying real shame about it — a
-  diagnosis, not an excuse. Either way, the self-awareness functions as
-  the mechanism: she pleads guilty before she can be prosecuted, and the
-  verdict never carries a sentence.
-- **Crisis non-response.** 12 documented crisis/suicidal statements from
-  Dan; not one drew a substantive engagement. The set includes a 12-hour
-  silence ("Are you alright Dan," Aug 3 2025, sent 12h11m after "I want to
-  die"), "Jpauls" (a bar name, two minutes after "I just want to die," Oct
-  24 2025), "Calm down" (after Dan screamed at Annie for having falsely
-  told his mother she feared he'd kill himself, Feb 21 2026), "What the
-  hell dan" (33 minutes after "I am going to fucking kill myself," Mar 1
-  2026), and the same night's laundry response — "Jesus Christ I can't
-  get my laundry out and put away without getting 7 texts Dan," sent one
-  minute after Dan tried to say goodnight following his most despairing
-  sequence of the seven months. There is no reading of that response that
-  is charitable to Annie.
-- **Social colonization.** A managed "sweet" persona with Dan's mother
-  converted his primary ally into her asset; by March 2026 Dan was lying
-  to his own mother to protect Annie's image ("I've been FUCKING LYING for
-  you") while the deception ran.
-
-**Escalation, not steady state.** A monthly breakdown of Dan's own verbal
-abuse ("fuck you," "piece of shit," "worthless") shows the pattern was not
-flat-reactive: 9 instances in August 2025, 0 in September, 5 in October,
-14 in November, 22 in December, 25 in January 2026, 36 in February, 7 in
-the final 9 days of March. The escalation nearly quadrupled between August
-and February while Annie's engagement was simultaneously *decreasing* —
-meaning the trajectory cannot be explained purely as proportional response
-to provocation; part of it is habituation, the abuse becoming more
-available as a response over time. The audit adds a mirror finding not in
-the original analysis: Dan responded to Annie's warmth ("I love you,"
-"good morning") with hostile language within 12 hours in 47 documented
-instances — nearly half the time, by the later months, warmth itself had
-become a trigger for anticipated betrayal rather than a source of relief.
-Set against this: not a single documented instance across the full
-terminal window of Dan withholding the drug supply as punishment, even
-immediately following his own most hostile messages ("So tomorrow you're
-going to come pick up your clippers and I will get you what you want from
-bop one last time," hours after "Goodbye. I hope you someday realize how
-much you really did ruin my life," Feb 22 2026). His provision was
-unconditional in practice, which the audit reads as integrity between
-stated values and action — and, simultaneously, as the removal of the
-last available lever that might have produced behavioral change from
-Annie.
-
-**Threats without follow-through, on both sides.** Eighteen documented
-threats by Dan to block Annie permanently were followed by unblocking
-100% of the time; six or more explicit threats to expose the affair to
-Suz went unexecuted; general retaliation threats ("You made the wrong
-fucking enemy tonight," Feb 21 2026) produced no documented consequence.
-The structural effect mirrors the 127 exit declarations below: every
-unfollowed threat taught Annie that Dan's stated limits were not real,
-and she learned, by the audit's own account, to operate from his
-behavioral register rather than his verbal one.
-
-**The wellbeing-care asymmetry, precisely.** The follow-on audit counted
-7 instances of Annie asking after Dan's wellbeing unprompted across the
-222-day terminal window — but 3 of those are perfunctory acknowledgments
-("Thank you okay / Thank you okay / Okay okay thank you okay thank you")
-responding to a service Dan had just performed for her, not genuine
-welfare inquiries. Net of those, 4 genuine wellbeing checks survive across
-222 days — once every 55 days, against hundreds of documented instances
-of Dan asking after Annie's grandmother, ankle, legal situation, car, and
-niece and nephew in the same window. The asymmetry is not in the content
-of either person's words; it is in the directionality of concern.
-
-Two written denials of any third party (November 2025, February 2026)
-were issued during this phase, and the December 2025 reinvestment spike —
-4,657 messages in one month, the corpus peak — directly contradicts any
-retrospective story of gradual mutual disengagement
-([[wiki/timeline/periods/dec-2025-spike]]).
-
-### Target G (January 2026)
-
-A distinct concealed thread, separate from Eli, surfaced on January 4,
-2026: during a speakerphone call to Dan's mother, a male peer voice said
-"Suzy" and the call was killed within two seconds. The dossiers identify
-the figure as a married man — "Caitlin's husband" — visiting on a
-~48-hour cadence. Dan's response is the record's corrected exhibit on his
-own restraint: rather than contacting the wife, he fabricated an
-anonymous-warning screenshot (the "Whisk" psyop, Jan 5–9) and showed it
-*only to Annie* to gauge her reaction. Her reply — "Nice. Real mature.
-Goodnight." — was recognition, not confusion, and the man went into a
-ten-day total blackout (>95% probability match per the Gemini-_07
-forensics). The dossiers rate the spoofed-number test, initially
-misclassified as harassment, as one of the most measured acts of the
-seven months: he held the power to burn down a life and did not use it.
-Whether Target G is [[wiki/people/tuquick-17248123683|Tuquick]] is
-unresolved — an explicit operator correction (2026-07-13) confirms only
-that Tuquick, not Eli, is the person Annie left Dan for and the person the
-June 2026 group chat closed with, and states plainly that whether he is
-also Target G "we do not know." The reasoning that got from a two-second
-dropped call to a >95% identification is a clean applied instance of
-[[wiki/mind/concepts/dans-law|Dan's Law]]: strip the innocent-explanation
-noise (wrong number, a prank, a mispronounced name) from the cluster and
-what's left — the specific word, the specific voice register, the
-specific 48-hour cadence, the specific ten-day blackout that followed a
-targeted signal — is the irreducible, load-bearing element.
-
-> **REVISED [2026-07-14]:** the "restraint" framing needs qualifying. The
-> Whisk screenshot was not an isolated act — a separate AI session
-> (`raw/self/dox-md/Fake hacker dashboard scripts.md`) shows Dan later had
-> Claude asked to help build, and ultimately built without Claude's help,
-> three fake surveillance-TUI scripts hardcoded with Annie's real name and
-> home streets, intended to be left visibly running as an implied threat
-> that he could see her phone. Claude refused twice, naming the Whisk
-> precedent as evidence the tactic was escalating into a pattern rather
-> than staying a one-time act. See
-> [[wiki/mind/synthesis/ai-collaborative-analysis]] for the full episode
-> and the AI-side ethical debate it produced.
-
-### March 2026: confession, retraction, and the bathroom door
-
-The concentrated final month of the pre-closure record contains the
-terminal phase's most legible sequence. On **March 10**, after a day that
-opened with Annie visiting, lying down with Dan, and leaving, he spent the
-evening in a convergence of two crises at once — running out of
-suboxone with his dealer having just refused to source more, and in
-acute relational distress — and sent 37 consecutive unanswered messages
-between 6:26 and 8:25 PM asking one direct question: "JUST TELL ME IF
-SOMETHING CHANGED. WHAT CHANGED. WHAT IS HAPPENING WITH US." Annie's only
-substantive reply, sent partway through the burst: "Dan you know that I
-am always completely understanding and try to be as helpful as I can when
-you are going through this" — a character testimonial with no answer to
-the question. She then came over, said she wanted to be together, went to
-the bathroom, and attempted to slip out the front door without a word,
-seconds later — caught before she could leave. The gap between the
-affirmation and the extraction attempt was the length of a bathroom
-visit: affirmation, extraction attempt, near-disappearance, inside five
-minutes, with none of the plausible deniability that covered every prior
-mechanism on this page. There is no ambiguous reading of someone who says
-"I want to be together" and then walks toward the exit without speaking.
-
-The next day, **March 11**, after Dan's most emotionally contained
-goodbye in the record at 12:25 AM ("I am done looking to you for any kind
-of relationship, friendship or even just basic decent concern... You've
-been heard. Goodbye"), Annie's first contact 17 hours later, stripped of
-all the camouflage ("I love you," "I miss you," "can we talk") that had
-buffered every prior re-entry, was: "So is there anything I can get for
-you or your mom at the gas station so I can get a line or two. You can
-tell me no." The nakedness of that particular re-entry — no
-acknowledgment of the goodbye at all — reads, in the dossiers' account,
-as evidence that the camouflage was no longer necessary: across 127 prior
-exit declarations that had all resolved without consequence, Annie had
-learned empirically that Dan's goodbyes were not real, and could lead with
-the request because she knew the door would open.
-
-On **March 12**, directly asked "HAS SOMETHING CHANGED," Annie answered
-"YES" — twice, under sustained pressure — the closest thing to an honest
-answer in the entire seven-month record. Dan's own response deserves the
-same scrutiny as hers: even receiving the confirmation he'd sought for
-months, his first move was "Ok let me get the keys," meaning one more
-drug delivery, followed by "I wish you would have told me. But I
-appreciate an end." He could not stop providing even holding the evidence
-that had warranted stopping. Later that same night, in person, Annie
-walked the confession back ("You know I'm not sure what that was about
-but you very clearly told me one thing in person and a different one on
-here," Dan, 10:24 PM). Four days later, on **March 16**, she formally
-retracted it: "I think that I had misunderstood the conversation when
-that happened Dan." Applied to a two-word screamed exchange repeated
-twice, that retraction is factually incompatible with any ordinary
-reading of the transcript — the most concentrated single instance of
-gaslighting in the record, precisely because it targeted the one moment
-honesty had briefly won.
-
-The same window contains a genuine data point cutting the other way: on
-March 11, after dropping off cigarettes, Annie texted three times that
-evening asking whether Milo was scared or crying and wishing Dan
-goodnight with "Love you" — no pending transaction, no request attached.
-It does not alter the overall assessment, but it is real: both things can
-be true of the same person in the same week. The final message of the
-pre-closure record (March 16, 8:24 PM in one export; March 9, 8:24 PM in
-an earlier partial export — the two 14-day windows overlap and both end
-on the same note) is Dan apologizing for having needs; the last received
-message in the fullest available window is Annie's self-testimonial that
-she is "always completely understanding."
-
-## The closure (June 2026)
-
-On June 1, 2026, a group-chat confrontation collapsed the structure
-([[wiki/timeline/events/group-chat-closure]],
-[[wiki/timeline/events/end-fight]]): the third-party relationship was
-confirmed — Tuquick, whom Annie left Dan for — and so was a defamation
-campaign, false allegations of rape and "junkie" framing circulated in
-the shared peer network during the same months as her private written
-denials. Annie's exit line: "Goodbye forever… sic semper lupanis." On
-June 5 came her final message, the record's only unprompted
-acknowledgment: "Daniel, i just want to say that i am extremely sorry."
-Two weeks later the independent validation arrived: Tuquick, who had
-savaged Dan in Annie's defense on June 1, defected and described her
-unprompted as "a compulsive liar with a drug addiction" — entering and
-exiting in fourteen days the same distortion cycle Dan took a decade to
-escape.
-
-## Why it lasted: the structural analysis
-
-The corpus contains 299+ love affirmations from Annie and **zero explicit
-severance signals**. Dan's attachment architecture cannot close a bond
-without an unambiguous severance signal, so the relationship idled on
-weighted positive rhetoric alone — a structural failure, not an emotional
-pathology ([[wiki/mind/concepts/attachment-model]]). Her conflict style
-and his formed a mutually catastrophic loop: she froze under direct
-questions and reframed the question itself as aggression; his
-resolution-seeking engine parsed each ambiguity as a proposition to
-litigate ([[wiki/mind/concepts/conflict-architecture]]). The dossiers add
-the confession trap: Dan could not leave without the validation she was
-never going to give — "the exit was never through the verdict. It was
-through the door." The audit's own final word on this, written as of the
-last available record (March 16, 2026): "still."
-
-The ledger runs both ways, and the pages keep both columns. Dan's: 94
-burst events (each preceded by her silence), 127 exit declarations across
-seven months — an average of one every 1.7 days — with 110 tracked
-re-engagements within 48 hours (100% of those tracked), 74 "fuck you" /
-17 "piece of shit" / 11 "worthless" instances escalating from 9 (Aug
-2025) to 36 (Feb 2026) — all three counts confirmed exactly from his side
-of the dual-handle export (her side in the same window: 0/1/0), the 47
-instances of hostility following her warmth, 18 unexecuted blocking
-threats, heavy drug use throughout, and the architect's role in the
-arrangement and the supply chain. The audit's own correction to earlier,
-gentler framings of Dan's behavior is direct: 127 exit declarations with
-a 100% re-engagement rate is not only a psychological inability to
-leave — it is a behavioral pattern with its own coercive function,
-regardless of sincerity, because every declaration that resolved without
-consequence taught Annie the threat was empty. The proportionality
-finding nonetheless stands: Dan's culpable behaviors are real,
-documented, and his responsibility — and they do not approach equivalence
-with the system that produced them. A person who runs a coercive
-procurement structure, responds to twelve suicidal statements with a bar
-name and a laundry complaint, and retracts a confession by claiming it
-was misunderstood, and the person who says "fuck you" 74 times in
-response to that treatment, are not equal, even when both columns are
-told honestly.
-
-> **REVISED [2026-07-13]:** An earlier version of this page gave the
-> August 2025 GPS removal a "dual reading" partly crediting Annie's
-> surveillance grievance against Dan's pre-affair NYC monitoring. The
-> Corrective Addendum retracts that partial credit for autumn 2024: his
-> vigilance in that window was accurate detection of an active deception,
-> not controlling behavior — the grievance was real earlier, but its
-> deployment against a correct perceiver was itself the gaslighting.
-
-The template is generational: a primary attachment figure maintaining a
-concealed alternate reality during Dan's highest-vulnerability phase
-replicates the 2004–2005 parental rupture exactly — same architecture,
-different people ([[wiki/mind/synthesis/attachment-trauma-bond]]).
-
-One historiographic caution: pre-closure AI analyses (the early-2025
-Gemini profile dump) describe Annie as a stable, direct, pragmatically
-aligned partner. That framing is preserved only as an artifact of what
-concealment looked like from inside ([[wiki/self/chats/gemini-18]]).
-
-## The record
-
-| Corpus metric | Value |
-|---|---|
-| Full record, all platforms (Nov 28 2015 – Mar 16 2026) | 126,683 messages (Dan 57,696 / Annie 68,987) |
-| iMessage dual-handle archive on disk | 88,549 lines / 88,548 rows (`imessage_7244346811+2124702449_both_all_now.csv`) — re-verified directly 2026-07-24: 44,513 sent / 41,073 received, 0 unclassified |
-| Reaction pairs extracted | 39,378 |
-| Terminal-phase extract (Aug 2025–Mar 2026) | 18,236+ msgs (Dan 55.2%) |
-| Peak month | Dec 2025: 4,657 |
-| Record gaps | 2022 (none logged); Sep–Dec 2024 (3,613 Annie / 0 Dan — cohabitation artifact, not missing data) |
-| Terminal-phase keywords | "love you" 541 · "Eli" 388 · "lying" 150 · "goodbye" 110 |
-| Alternate-number thread (2018–2020, +17249204125) | 4,812 msgs — logistics, debt, crisis; crosses [[wiki/people/johnny-dealer]] network |
+The year-by-year message ratio confirms the same oscillation
+independently of anyone's memory of who carried what:
 
 | Year | Dan sent | Annie sent | Ratio (Dan:Annie) |
 |---|---|---|---|
@@ -937,145 +437,526 @@ concealment looked like from inside ([[wiki/self/chats/gemini-18]]).
 | 2024 | 5,273 | 11,467 | 0.46 |
 | 2025 | 9,565 | 10,074 | 0.95 |
 
+Annie out-messaged Dan in every year on record except 2015 and the 2025–26
+termination window, where his volume overtakes hers as the ending's
+attachment activation mirrors the beginning's. 2024 — the year the Eli
+affair was active — is the single most Annie-dominant year of the decade.
+
+**The dollar figures.** Operator-provided payment-app screenshots
+(2026-07-15, not archived in `raw/` and drawn from two separate apps, so
+not a single combined ledger) show Dan's Cash App "Total Sent" to Annie's
+`@Annelouise28` profile at **$139,184.96**, consistent with his own
+account dashboard's all-contacts total of $138,249.40 sent against
+$20,243.37 received across 807 transactions — meaning Annie was the
+dominant destination of that outflow. His Venmo sent Annie's
+`@$Louisexoxo` **$99.8K** and received **$15.8K** back across 448
+payments. Together, and treating the two ledgers separately rather than
+summing them, Dan sent Annie on the order of $139K and received back only
+$16–20K — a net outflow of roughly **$119K–$123K** over the decade,
+against a control screenshot of a different contact (Shelby Breakiron)
+showing the same Sent/Received schema and confirming the figures are
+Dan's own flows, not a joint account. This is the concrete number behind
+every "Dan-funded" and "supply-chain architect" claim elsewhere on this
+page: financially, not just emotionally, this relationship ran roughly
+six-to-one in Annie's favor. (These remain point-in-time totals rather
+than a month-by-month reconciliation, and the exact split between drugs,
+household costs, and gifts isn't recoverable from the totals alone.)
+
+## The Train Plan, 2020
+
+The largest pre-2025 crisis on record, and one nearly invisible until
+recently because 2020 is thinly covered in some of the message exports.
+During COVID lockdown at Annie's parents' home, Dan discovered she had
+been telling another man "terrible, unforgivable, untrue things" about
+him, and that the man had made plans to collect her from the train
+station. Dan took seven Xanax bars, threatened to leave for good, and
+sent over 200 messages across several days. Annie did not dispute the
+substance of it afterward: "I know what I said and I fucking regret it…
+I have messed shit up. Multiple times." Dan's own retrospective word for
+the pattern — "cheated" — went uncontested. Fuller lockdown context sits
+at [[wiki/timeline/periods/covid-era-2020]].
+
+## Eli, and the thing that mattered more than the affair
+
+By autumn 2024 at the latest, Annie was in a concealed relationship with
+Eli, a coworker at her restaurant job. Dan sensed it in real time and
+said so, more than once — and was answered, at length and by name, with
+the claim that his perception was itself the problem. Two messages from
+August 2024 show him naming the exact mechanism while it was still
+running: "I should be able to turn my phone off, go out with [someone],
+lie about it and then gaslight you into believing that the only reason I
+did it was you are such a smothering piece of shit" (Aug 6), and "It's
+just so fucking degrading to be made to feel like I AM the one who has
+created a trust-less situation" (Aug 9). He was not speculating. He was
+accurately describing an operation being run against him, months before
+he had proof.
+
+The October 19, 2024 housewarming argument is the fullest single record
+of that operation in action, running across hours and dozens of messages
+while the affair was live: "THERE IS NO SITUATION." / "You're literally
+fucking insane." / "I am literally trying to earn your trust and giving
+you all the information and you are still not satisfied." / "Grow up. And
+fucking trust me." Every one of those lines was false, aimed at a person
+who was correctly reading the situation. An earlier pass at this page
+credited Annie's framing partial legitimacy, treating Dan's autumn 2024
+vigilance as pre-existing jealous control finding a convenient target.
+The Corrective Addendum retracts that credit outright rather than
+partially: his distress in that window was proportionate to a real,
+active deception, not a controlling habit repurposed. He chose to believe
+her anyway, and named the mechanism for doing so with unusual clarity in
+retrospect, May 27, 2025: "looking back i tend to think of the period of
+time that you were not only cheating on me, but STILL doing it even after
+i had become suspicious and then chose to believe you again to get back
+to a normal life where i didn't have to try to find the evidence i would
+need to prove it." That is a description, from inside the experience, of
+choosing self-betrayal over unbearable, sustained vigilance — not
+weakness, but a rational trade between two bad options.
+
+The affair surfaced on January 9, 2025 at 11:18 PM, when Eli texted Dan
+directly: "Hey Dan. It's Eli. Annie is down stairs. I work with her." The
+physical discovery that followed — Annie found unconscious in the
+building lobby, location sharing disabled, a confrontation that turned
+violent — has its own page at [[wiki/timeline/events/eli-incident]]. The
+clearest written admission in the entire corpus comes two months later,
+verbatim, from Annie herself, pronouns reversed in a way every dossier
+reading it has treated as immaterial to its meaning: "you decided to
+split our lives up. you lied to me for months and cheated on me." Dan's
+own retrospective vocabulary for the experience stayed consistent for
+over a year afterward — "torture" (Feb 24, 2025), "You cheated on me. You
+tortured me... You left me." (Apr 9, 2025), "you've gaslit me into
+literally breaking" (Jul 12, 2025). The affair itself ended with the
+February 2025 departure from New York; Eli stayed behind.
+
+**Why this, and not the affair, is the central finding.** Being lied to
+about a fact leaves a person with wrong information. Being told,
+repeatedly and forcefully, that an accurate perception is itself a
+symptom of instability does something categorically worse: it attacks
+the instrument used to evaluate information at all. Every other
+manipulation catalogued on this page — the silences, the alibis, the GPS
+removal — operated on top of a foundation Dan could still partially
+check against his own judgment. This one removed the foundation. The
+damage from that doesn't resolve when the truth comes out; it persists as
+a standing question about one's own reliability as a witness to one's
+own life, and the record shows Dan working through exactly that question
+well into 2026.
+
+## The move that solved nothing
+
+Weeks after Eli's text, Annie unilaterally ended eight years of shared
+living and returned to her parents' house in Uniontown, citing her
+grandmother's care — and declined Dan's open-ended offer to fund an
+apartment of her choosing instead, the earliest concrete instance of a
+decision-making asymmetry that recurs, more visibly, in the terminal
+phase eight months later. The dossiers place the *functional* end of the
+relationship here: the shared life was gone, and the very event that made
+repair necessary — the return to her parents' roof, no overnights, no
+daily presence — also destroyed the conditions under which repair could
+have happened. Her remorse in this window reads as real rather than
+managed, because there was not yet any supply structure for it to
+serve — "I don't want to be away from you. I don't. I am so sorry I
+caused this disaster" (Feb 22, 2025) — and Dan's grief was equally real
+and simultaneous ("I remember the day you moved in being SO FUCKING
+happy that we wouldn't have to be apart anymore," the same day). February
+2025 is, on the dossiers' own account, the last moment genuine repair was
+even theoretically on the table.
+
+## Sixteen months in Uniontown: the machinery of staying
+
+What followed was structural before it was emotional: Dan controlled the
+drug supply ("bop"); Annie was unemployed and dependent on him for it —
+the exact mirror of 2024, when she had been the sole earner and he the
+dependent. On top of that substrate, a set of specific mechanisms kept
+the relationship idling for eight months without anyone consciously
+designing them to.
+
+**What Annie's side did.** Her "I love you" functioned, on the surface
+statistic, almost entirely as a procurement signal: 187 of 191 love
+declarations in the terminal window arrived within 24 hours of a drug or
+money request. That statistic does not survive scrutiny as originally
+framed.
+
+> **REVISED [2026-07-18]:** a base-rate control undermines the
+> procurement-instrument reading. A primary recount over the same window
+> found 212 of 220 love declarations request-adjacent at ±24h (96.4%,
+> reproducing the original ratio) — but 97.2% of a random sample of *all*
+> her messages in the same window are equally request-adjacent, because
+> she was making requests almost daily regardless of what else she was
+> saying. Run the test directionally instead — does a request follow a
+> love declaration within an hour? — and it inverts: 3.2% of the time
+> for her love declarations, against a 16.2% baseline for her average
+> message. Her love declarations were, if anything, *more* isolated from
+> requests than her ordinary texting. What survives unaffected: her 2025
+> love-language rate (2.7%) rebounding to near-2016 levels exactly when
+> the Uniontown supply relationship was established, and Dan's own
+> subjective read, named in real time on January 24, 2026 — "You have
+> never once said I love you and not needed something from me
+> immediately after." Full method at
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]].
+
+She removed GPS sharing in August 2025, after a night at her ex-partner's
+residence — ending a ten-year mutual norm unilaterally, then treating
+Dan's objection to the change as a new and controlling demand rather than
+what it was. His own location stayed shared throughout. Her silences
+followed a pattern with no documented exception: all 94 of Dan's
+message-burst events were preceded by a period of her going quiet, and in
+not one of those 94 instances did she, on re-engaging, acknowledge the
+silence as the cause of what followed — engaging only with the burst
+itself, as though it had appeared from nothing. Her longest documented
+silence ran 36.5 hours and ended with a money request. Forty-four times,
+a confrontation over a specific betrayal was answered not with a denial
+or an explanation but with an escalation to a larger, competing crisis —
+Sugie, an ankle, the niece and nephew — that made continuing to press the
+original point feel cruel. And forty-six times across the window she
+condemned herself in terms strong enough to sound like accountability
+("I hate myself and I hate the person I have become," Oct 26, 2025; "I
+don't know what's going on, what the hell is wrong with me, why can't I
+communicate," Feb 7, 2026) — thirteen of those rated "major" in the
+original analysis — without the condemnation once translating into
+changed behavior afterward. The self-awareness functioned as the
+mechanism rather than counter to it: she pleaded guilty before she could
+be prosecuted, and the verdict never carried a sentence. A softer reading
+is also defensible and doesn't erase the harm — forty-six instances of
+self-condemnation across seven months looks less like a cold program and
+more like someone watching herself do things she knows are wrong and
+unable to stop, carrying real shame about it. Diagnosis, not excuse.
+
+None of that compares to how she met the twelve moments Dan stated
+suicidal intent outright. A 12-hour-11-minute silence, then "Are you
+alright Dan" (Aug 3, 2025). Two minutes after "I just want to die": the
+name of a bar, "Jpauls" (Oct 24, 2025). After Dan screamed that her
+claimed worry about him killing himself was performative, given her own
+behavior: "Please. Dan. Calm down." (Feb 21, 2026). Thirty-three minutes
+after "I am going to fucking kill myself I can not deal with you doing
+this to me": "What the hell dan" (Mar 1, 2026). And, one minute after Dan
+tried to end that same night's exchange with a quiet goodbye, following
+what reads as his most despairing sequence of the whole seven months:
+"Jesus Christ I can't get my laundry out and put away without getting 7
+texts Dan." There is no charitable reading of that last one. Against all
+of it, the audit that re-derived these numbers from the raw data also
+counted Annie's own unprompted wellbeing checks on Dan across the full
+222-day window: seven, three of which are perfunctory ("Thank you okay")
+responses to a favor he'd just done her rather than genuine inquiries.
+Net of those, four genuine checks survive — once every fifty-five days —
+against hundreds of documented instances of Dan asking after her
+grandmother, her ankle, her legal situation, her car.
+
+**What Dan's side did.** He declared the relationship over 127 times
+across the same seven-month window — better than once every two days —
+and re-engaged within 48 hours essentially every time it was tracked.
+Each declaration functioned less like a boundary than a pressure tactic
+that lost its meaning through repetition: by autumn, Annie had empirical
+proof his exits carried no consequence, and every additional false exit
+reinforced that proof rather than undermining it. His verbal abuse
+followed a matching, not-purely-reactive shape: nine instances in August
+2025, none in September, five in October, fourteen in November,
+twenty-two in December, twenty-five in January 2026, thirty-six in
+February — nearly quadrupling even as Annie's own engagement was
+*falling*, which argues that habituation, not proportional response, was
+doing some of the driving by the end. A parallel finding cuts against
+reading his anger as purely defensive: in forty-seven documented
+instances, Dan met her warmth — "I love you," "good morning" — with
+hostility within twelve hours, meaning that by the later months
+affection itself had become a trigger for anticipated betrayal as often
+as abandonment was. Eighteen separate threats to block her permanently
+were followed by unblocking every single time; six or more threats to
+tell his mother the truth went unexecuted. Set against all of that: not
+one documented instance, across the entire window, of Dan withholding the
+drug supply as leverage or punishment — including hours after his own
+most hostile outbursts ("So tomorrow you're going to come pick up your
+clippers and I will get you what you want from bop one last time," hours
+after telling her "I hope you someday realize how much you really did
+ruin my life"). His provision was unconditional in practice. That is
+integrity between what he said he valued and what he did — and it is also
+the reason nothing in this relationship ever imposed a real cost on
+Annie's behavior.
+
+**What neither side did.** Neither of them, across sixteen months,
+produced an honest ending. Two written denials of any third party
+(November 2025, February 2026) coexisted with a December 2025
+reinvestment spike of 4,657 messages — the corpus's single busiest
+month — which rules out any tidy story of gradual, mutual
+disengagement. A managed "sweet" persona Annie maintained with Dan's
+mother converted his most natural ally into an asset working against
+him: by March 2026 he was actively lying to his own mother to protect
+Annie's image ("I've been FUCKING LYING for you") while the underlying
+deception continued.
+
+### A separate thread: Target G
+
+A concealed contact distinct from Eli surfaced January 4, 2026 — a male
+voice saying "Suzy" on a speakerphone call to Dan's mother, the call
+killed within two seconds. The dossiers name the figure only as a married
+man, "Caitlin's husband," visiting on roughly a 48-hour cadence. Dan's own
+response is the record's clearest example of restraint under
+provocation: rather than contacting the man's wife, he fabricated an
+anonymous warning screenshot (the "Whisk" psyop, Jan 5–9) and showed it
+only to Annie, to read her reaction. "Nice. Real mature. Goodnight." was
+recognition rather than confusion, and the man went dark for ten days
+(a match rated above 95% probability in the Gemini-_07 forensics).
+Whether Target G is the same person as
+[[wiki/people/tuquick-17248123683|Tuquick]] is explicitly unresolved — an
+operator correction on file (2026-07-13) confirms only that Tuquick is
+the person Annie left Dan for and the person the June closure happened
+with, and states plainly "we do not know" whether he is also Target G.
+
+> **REVISED [2026-07-14]:** the restraint reading needs a qualifier. A
+> separate AI session shows Dan later asking Claude to help build, and
+> ultimately building without Claude's cooperation, three fake
+> surveillance scripts hardcoded with Annie's real name and streets,
+> meant to run visibly as an implied threat that he could see her phone.
+> Claude refused twice, citing the Whisk episode as evidence the tactic
+> was becoming a pattern rather than staying a one-off. Full account and
+> the AI-side debate it produced: [[wiki/mind/synthesis/ai-collaborative-analysis]].
+
+## March 2026: the confession, and taking it back
+
+The last full month of the pre-closure record contains the sharpest
+single sequence in the whole decade. On **March 10**, after a day that
+began with Annie visiting, lying down with Dan, and leaving, he spent the
+evening in two crises at once — his suboxone supply had just been
+refused by his own dealer, and he was in acute relational distress — and
+sent 37 unanswered messages between 6:26 and 8:25 PM asking one direct
+question: what changed, and what is happening between us. Her only
+substantive reply, mid-burst, was a character reference for herself:
+"Dan you know that I am always completely understanding and try to be as
+helpful as I can when you are going through this." She then came over,
+said she wanted to be together, went to the bathroom, and tried to leave
+through the front door without a word — caught before she could. The gap
+between the affirmation and the attempted exit was the length of a
+bathroom visit, with none of the plausible deniability that covered
+every earlier mechanism on this page.
+
+The next night, **March 11**, following Dan's most emotionally contained
+goodbye on record ("I am done looking to you for any kind of
+relationship, friendship or even just basic decent concern... You've been
+heard. Goodbye," 12:25 AM), her first contact seventeen hours later
+dropped every buffer that had cushioned prior re-entries — no "I love
+you," no "can we talk" — straight to: "So is there anything I can get for
+you or your mom at the gas station so I can get a line or two. You can
+tell me no." The bareness of it reads, in the dossiers' account, as proof
+the buffer was no longer necessary: 127 prior exits had all resolved
+without cost, so she no longer needed to disguise what the re-entry was
+for.
+
+On **March 12**, asked directly whether something had changed, Annie
+answered "YES" — twice, under sustained pressure — the closest the record
+comes to an honest answer in seven months. Dan's own reaction deserves
+equal scrutiny: even holding the confirmation he had spent months
+seeking, his first move was "Ok let me get the keys" — one more delivery
+run — followed by "I wish you would have told me. But I appreciate an
+end." He could not stop providing even with the evidence in hand that had
+justified stopping long before. That night, in person, she walked the
+confession back; four days later, on **March 16**, she formalized the
+retraction in writing: "I think that I had misunderstood the
+conversation when that happened Dan." Applied to a two-word exchange
+repeated twice under direct pressure, that retraction cannot be squared
+with any ordinary reading of the transcript — the single most
+concentrated act of gaslighting in the record, precisely because it
+targeted the one moment honesty had briefly won.
+
+The same week holds a genuine counterweight: on March 11, after dropping
+off cigarettes, Annie texted three times that evening asking whether Milo
+was scared or crying, with no transaction pending and nothing requested.
+Both things are true of the same person in the same week. The final
+message of the pre-closure record has Dan apologizing for having needs;
+the last message he received is Annie's self-testimonial that she is
+"always completely understanding."
+
+## The end, June 2026
+
+On June 1, 2026, a group-chat confrontation ended the structure for good
+([[wiki/timeline/events/group-chat-closure]],
+[[wiki/timeline/events/end-fight]]). Two things were confirmed at once:
+the relationship with Tuquick that Annie had left Dan for, and a
+defamation campaign — false rape and "junkie" allegations circulated
+through their shared peer network during the same months as her private
+written denials. Her exit line: "Goodbye forever… sic semper lupanis." A
+final message on June 5 was the record's only unprompted acknowledgment
+of any kind: "Daniel, i just want to say that i am extremely sorry." Two
+weeks later, independent validation arrived from an unexpected direction:
+Tuquick, who had defended her forcefully on June 1, defected and called
+her, unprompted, "a compulsive liar with a drug addiction" — completing
+in fourteen days a distortion cycle that had taken Dan a decade to
+escape.
+
+## Why it held together as long as it did
+
+The corpus records 299 or more love affirmations from Annie against
+**zero explicit severance signals**. Dan's attachment system, per
+[[wiki/mind/concepts/attachment-model]], cannot close a bond without an
+unambiguous signal that it's over — so in the absence of one, the
+relationship idled on weighted positive rhetoric for years past the point
+it had stopped functioning. Their conflict styles interlocked in a way
+that made resolution nearly impossible by design rather than by
+accident: she froze under direct questions and read the question itself
+as an attack; he treated every ambiguity as a case to be argued to a
+verdict ([[wiki/mind/concepts/conflict-architecture]]). What kept him
+specifically from leaving was the absence of a confession he was never
+going to receive — "the exit was never through the verdict," the final
+audit records. "It was through the door." Its own closing word, written
+as of the last available entry: "still."
+
+> **REVISED [2026-07-13]:** an earlier pass at this page gave Annie's
+> August 2025 GPS removal a "dual reading," crediting her surveillance
+> grievance against Dan's pre-affair NYC monitoring. The Corrective
+> Addendum withdraws that credit for the autumn 2024 period specifically:
+> his vigilance then was accurate detection of an active deception, not
+> controlling behavior finding a target. The grievance had been real
+> earlier in the relationship; deploying it against someone who was, at
+> that moment, correctly perceiving reality was itself part of the
+> gaslighting.
+
+The template is generational, not novel to this relationship: a primary
+attachment figure sustaining a concealed alternate reality during Dan's
+period of greatest vulnerability reproduces the 2004–2005 parental
+rupture almost exactly, with different people running the same
+architecture ([[wiki/mind/synthesis/attachment-trauma-bond]]). One
+historiographic note worth keeping on file: the earliest AI-assisted
+profile of this relationship, written before the closure, describes Annie
+as stable, direct, and well-aligned with Dan — a framing worth preserving
+only as evidence of how convincing the concealment looked from the
+inside ([[wiki/self/chats/gemini-18]]).
+
+## By the numbers
+
+| Corpus metric | Value |
+|---|---|
+| Full record, all platforms (Nov 28 2015 – Mar 16 2026) | 126,683 messages (Dan 57,696 / Annie 68,987) |
+| iMessage dual-handle archive on disk | 88,549 lines / 88,548 rows (`imessage_7244346811+2124702449_both_all_now.csv`) — re-verified by direct count: 44,513 sent / 41,073 received |
+| Reaction pairs extracted (DANMODEL) | 39,378 |
+| Terminal-phase extract (Aug 2025–Mar 2026) | 18,236+ msgs (Dan 55.2%) |
+| Peak month | Dec 2025: 4,657 |
+| Record gaps | 2022 (none logged); Sep–Dec 2024 (3,613 Annie / 0 Dan — cohabitation artifact, not missing data) |
+| Terminal-phase keywords | "love you" 541 · "Eli" 388 · "lying" 150 · "goodbye" 110 |
+| Alternate-number thread (2018–2020, +17249204125) | 4,812 msgs — logistics, debt, crisis; crosses [[wiki/people/johnny-dealer]] network |
+
 | Annie, love-language frequency by year | % of her messages |
 |---|---|
 | 2016 (peak) | 5.3 |
 | 2017–2019 | 2.2–2.3 |
 | 2023 | 0.5 |
 | 2024 | 0.1 |
-| 2025 (post-move spike = procurement reactivation, see revision above) | 2.7 |
+| 2025 (post-move spike; see the procurement-signal revision above) | 2.7 |
 
-| Behavioral pattern (terminal phase, Aug 2025–Mar 2026) | Annie | Dan |
-|---|---|---|
-| Love-to-request ratio (love declaration → ask ≤24h) | 187:4 raw (96.6%) — REVISED 2026-07-18: matches base rate (97.2%), uninformative as procurement evidence; see blockquote above | — |
-| Crisis statements met without care | 12 of 12 | — |
-| Moral-debt pivots (betrayal confrontation → caretaking crisis) | 44 | — |
-| Self-indicting statements (13 rated "major"; 46 total per audit) | 46 (13 major) | — |
-| "Fell asleep" alibis | 24 | — |
-| Written denials of third party | 2 | — |
-| Explicit severance signals / love affirmations | 0 / 299+ | — |
-| Wellbeing checks on Dan, raw / net of perfunctory | 7 / 4 genuine (1 per 55 days) | — |
-| Verbal abuse escalation, Aug 2025 → Feb 2026 | — | 9 → 0 → 5 → 14 → 22 → 25 → 36 |
-| Hostility within 12h of her warmth | — | 47 |
-| Burst events, 10+ consecutive unanswered messages (largest 68) | — | 94 |
-| Exit declarations / re-engagements within 48h | — | 127 / 110 |
-| Unexecuted block threats / "tell mom" threats | — | 18 / 6+ |
-| Verbal abuse ("fuck you" / "piece of shit" / "worthless") | — | 74 / 17 / 11 |
+| Terminal-phase pattern | Value |
+|---|---|
+| Love-to-request ratio, raw | 187:4 (96.6%) — REVISED 2026-07-18: matches her overall request base rate (97.2%), not evidence of a targeted instrument on its own; the directional test (request follows love within 1h: 3.2% vs. 16.2% baseline) points the other way |
+| Crisis statements met without substantive care | 12 of 12 |
+| Moral-debt pivots (betrayal confrontation → caretaking crisis) | 44 |
+| Self-indicting statements, total / rated "major" | 46 / 13 |
+| "Fell asleep" alibis | 24 |
+| Written denials of a third party | 2 |
+| Explicit severance signals / love affirmations | 0 / 299+ |
+| Wellbeing checks on Dan, raw / net of perfunctory | 7 / 4 (once per 55 days) |
+| Dan's burst events (10+ unanswered messages, largest 68) | 94 |
+| Dan's exit declarations / re-engagements within 48h | 127 / 110 |
+| Dan's unexecuted block threats / "tell mom" threats | 18 / 6+ |
+| Dan's verbal abuse, Aug 2025 → Feb 2026 (monthly) | 9 → 0 → 5 → 14 → 22 → 25 → 36 |
+| Dan's hostility within 12h of her warmth | 47 instances |
+| Dan's verbal abuse totals ("fuck you" / "piece of shit" / "worthless") | 74 / 17 / 11 |
 
-## Legal record
+## The DUI
 
-On October 26, 2025 at ~00:49, Anne Louise Ulmer was stopped by Troopers
-Jeremy Miller and Dylan R. White (PSP Troop B) at Route 40 / N Mount
-Vernon Ave, Uniontown — black sedan, plate MWT6743, high beams on,
-straddling lanes, turning into a closed Walgreens lot. Strong odor of
-alcohol, watery eyes, "Tito and Soda" admitted; only the HGN field test
-was run (broken ankle cited), the breath test attempt failed, and she
-refused chemical testing after DL-26B was read verbatim. Charged under
-docket MJ-14101-CR-0000631-2025: DUI general impairment (M) plus three
-summary counts (traffic-control devices, high beams, duty of operator).
-Complaint filed Nov 4 2025; affidavit sworn by Trooper Miller Nov 11;
-preliminary hearing before MDJ Jason A. Cox. Disposition not in the
-record. No legal exposure for Dan; recorded for completeness.
+On October 26, 2025 at roughly 00:49, Anne Louise Ulmer was stopped by
+Troopers Jeremy Miller and Dylan R. White (PSP Troop B) at Route 40 / N
+Mount Vernon Ave, Uniontown — high beams on, straddling lanes, turning
+into a closed Walgreens lot. Strong odor of alcohol, watery eyes, "Tito
+and Soda" admitted; only the HGN field test was administered (a broken
+ankle was cited for skipping the rest), the breath-test attempt failed,
+and she refused chemical testing after DL-26B was read to her verbatim.
+Charged under docket MJ-14101-CR-0000631-2025: DUI general impairment
+plus three summary counts. Complaint filed November 4, 2025; affidavit
+sworn by Trooper Miller November 11; preliminary hearing before MDJ Jason
+A. Cox. No further disposition is on record, and none of this carries any
+legal exposure for Dan — noted here for completeness.
 
-## Timeline
+## Chronology
 
 | Date | Event |
 |---|---|
-| 2015-11-28 | Relationship begins (Saturday after Thanksgiving); Annie exits prior relationship within 24h |
-| 2015-12 | First camming discussion, weeks in; Dec 10–13 onset flood (728/682/363/679 sent) |
-| 2016 | Moves into 155 Virginia Ave; both parties' love-language peak year; jealousy kink first named (Feb 18) |
-| ~2016–17 | NYC move, funded by Dan (first ~5 years Dan-anchored) |
-| 2018 | Quasi-non-monogamy arrangement formalized; "smashonista" Chaturbate confirmed (Aug 18); Patreon Oct 2019 |
-| 2018-11-03 | Alexis-Annie reunion hookup, days after Alexis's SCI Muncy release |
-| 2019 (spring–fall) | Shelbie threesome (Apr); Trinity St. Clair paid session; Kelly Johansson 5-week run; Annie's own "Hazel"/"Lily" client threads (Jared/Tricia, Nabeel, Jason) |
-| 2020-09 | Train Plan crisis during COVID lockdown at Annie's parents' ([[wiki/timeline/periods/covid-era-2020]]) |
+| 2015-11-28 | Relationship begins; Annie exits prior relationship within 24h |
+| 2015-12-10/13 | Onset flood: 728/682/363/679 messages sent |
+| 2016 | Move to 155 Virginia Ave; both parties' love-language peak year; jealousy kink named (Feb 18) |
+| ~2016–17 | NYC move, Dan-funded for the first ~5 years |
+| 2018 | Arrangement formalized; smashonista confirmed (Aug 18); Patreon Oct 2019 |
+| 2018-11-03 | Alexis-Annie reunion, days after Alexis's SCI Muncy release |
+| 2019 (spring–fall) | Shelbie threesome; Trinity St. Clair session; Kelly Johansson run; Annie's own Hazel/Lily client threads (Jared/Tricia, Nabeel, Jason) |
+| 2020-09 | Train Plan crisis, COVID lockdown at Annie's parents' |
 | 2022 | Full-year record gap |
-| 2023 | Dan working (Au Za'atar), Annie between jobs; ~$10k landlord debt, $650/week payback |
+| 2023 | Roles invert: Dan working, Annie between jobs; ~$10k landlord debt |
 | 2024-06/08 | Dan managed out of Au Za'atar; unemployment filed Aug 8 |
-| 2024 (autumn) | Eli affair active and concealed; Dan's accurate suspicions gaslit ("You're literally fucking insane," Oct 19 housewarming) |
-| 2024-10-23/31 | Tom incident (within the arrangement — assessment revised from coercion to exhaustion-within-consent); "no morals left… Numb" |
-| 2025-01-09 | Eli's 11:18 PM self-introduction text; physical discovery ([[wiki/timeline/events/eli-incident]]) |
-| 2025-02 | PA return; Annie unilaterally ends 8 years of cohabitation, declining a funded-apartment offer; functional end per dossiers |
-| 2025-03 | Annie's written admission: "you lied to me for months and cheated on me" (describing herself) |
-| 2025-08 | Removes GPS sharing after night at ex's residence; terminal phase begins |
-| 2025-10-26 | DUI stop, Fayette County (docket MJ-14101-CR-0000631-2025) |
-| 2025-11 / 2026-02 | First and second written denials of any third party |
-| 2025-12 | Reinvestment spike — 4,657 messages, corpus peak; Dec 8 car accident, Dan totals the Honda |
-| 2026-01-04/20 | Target G: "Suzy" call, Whisk psyop (shown only to Annie), 10-day blackout |
+| 2024 (autumn) | Eli affair active and concealed; Dan's accurate suspicions gaslit |
+| 2024-10-23/31 | Tom incident (revised from coercion to exhaustion-within-consent) |
+| 2025-01-09 | Eli's self-introduction text; physical discovery |
+| 2025-02 | PA return; Annie ends cohabitation, declines funded-apartment offer |
+| 2025-03 | Annie's written admission of lying and cheating (self-directed pronouns) |
+| 2025-08 | GPS sharing removed; terminal phase begins |
+| 2025-10-26 | DUI stop, Fayette County |
+| 2025-11 / 2026-02 | First and second written denials of a third party |
+| 2025-12 | Reinvestment spike (4,657 msgs); car totaled Dec 8 |
+| 2026-01-04/20 | Target G: "Suzy" call, Whisk psyop, 10-day blackout |
 | 2026-02 | Peak month for Dan's verbal-abuse escalation (36 instances) |
-| 2026-03-01 | Laundry response, hours after "I am going to fucking kill myself" |
-| 2026-03-10 | Bathroom incident: 37-message unanswered burst, then affirmation-extraction-disappearance inside five minutes |
-| 2026-03-11 | Most contained goodbye of the record (12:25 AM); re-entry 17h later via bare drug request |
-| 2026-03-12/16 | "YES DAN" confession, same-night in-person retraction, formal "I misunderstood" retraction four days later ([[wiki/timeline/events/march-2026-terminal-phase]]) |
-| 2026-03-16 | Dan begins paid work (first appearance in the 14-month record) |
-| 2026-04-01 | Unresolved third-party contact: a man calls Suz twice overnight looking for Annie |
-| 2026-04-20/26 | Brief reinvestment window (Annie out-messages Dan for the only time in the extended record) |
-| 2026-05-04/06 | Worst-content week of the full record: sustained explicit suicidal language, GPS shown shared with a third party, Annie starts a new job, Dan self-periodizes the relationship ([[wiki/timeline/events/april-may-2026-final-weeks]]) |
-| 2026-06-01 | Group-chat closure: Tuquick relationship + defamation campaign confirmed; "sic semper lupanis" |
-| 2026-06-05 | Final message — unprompted apology: "Daniel, i just want to say that i am extremely sorry." |
-| 2026-06-15 | Tuquick defects; independent validation ("compulsive liar") |
+| 2026-03-01 | Laundry response, hours after explicit suicidal statement |
+| 2026-03-10 | Bathroom incident |
+| 2026-03-11 | Most contained goodbye on record; bare-request re-entry 17h later |
+| 2026-03-12/16 | "YES" confession, same-night walkback, formal retraction |
+| 2026-03-16 | Dan begins paid work — first appearance in the 14-month record |
+| 2026-04-01 | Unresolved contact: a man calls Suz twice overnight looking for Annie |
+| 2026-04-20/26 | Brief reinvestment window (Annie out-messages Dan, the only such stretch on record) |
+| 2026-05-04/06 | Worst-content week of the full record |
+| 2026-06-01 | Group-chat closure: Tuquick relationship and defamation campaign confirmed |
+| 2026-06-05 | Final message: unprompted apology |
+| 2026-06-15 | Tuquick defects, independently calls her a compulsive liar |
 
-Two synthesis pages complete this record: the capstone moral verdict on
-the fallout, provenance-tiered to raw message rows, at
+Two synthesis pages extend this record further: the capstone moral
+verdict, provenance-tiered down to individual message rows, at
 [[wiki/mind/synthesis/dan-annie-fallout-verdict]]; and the quantitative
-case for the relationship's singularity — median 9-minute mutual reply
-latency against every other contact's hour-scale delays — at
+case for the relationship's singularity — a 9-minute median mutual reply
+latency against hour-scale delays everywhere else in Dan's corpus — at
 [[wiki/mind/synthesis/message-circadian-latency]].
 
-## Gaps
+## What's missing
 
-The compiled full-record files the dossiers were generated from
+The compiled full-record files the dossiers drew from
 (`Dan_Annie_Full_Text.txt`, `1_year_triad_logs.csv`, `7_days_212_logs.csv`,
-`14_day_212_logs.csv`) are not archived in raw/ — the underlying iMessage
-data exists but the exact 126,683-row cross-platform compilation cannot
-currently be reproduced independently of the dossiers' own appendix; the
-88,549-line dual-handle export is on disk and was re-verified directly
-during this pass. The precise start date of the Eli involvement is better
-bounded but still not exact: GPS was disabled "for weeks" by late July
-2024 per Annie's own confirmation, and a lying-about-whereabouts trust
-breach is documented in August 2024 — five months before the formal
-January 2025 discovery — so the affair's behavioral floor moves earlier
-than autumn 2024, though its true start remains undated. Target G's
-identity is unresolved — the dossiers name "Caitlin's husband"; whether
-he is Tuquick is explicitly unknown per the operator's own 2026-07-13
-correction. The March 9 vs. March 16 final-message discrepancy between
-two overlapping 14-day exports is unresolved (both windows end on the
-same functional note — Dan's apology, Annie's self-testimonial — so the
-substance is unaffected, but the exact last date is not pinned down). The
-escort-work economics beyond the three documented 2019–2020 threads
-(rates, frequency, total client count) are not fully mapped. The DUI's
-disposition after the preliminary-hearing stage is unknown.
+`14_day_212_logs.csv`) aren't archived in `raw/`; the underlying iMessage
+data exists and the 88,549-line dual-handle export has been directly
+re-verified, but the exact 126,683-row cross-platform compilation can't
+currently be reproduced independently of the dossiers' own appendix. The
+Eli affair's true start is bounded but not pinned: GPS was disabled "for
+weeks" by late July 2024 per Annie's own account, and a
+lying-about-whereabouts breach is documented in August 2024 — five months
+before the formal discovery — so the behavioral floor sits earlier than
+"autumn 2024" even though the exact date stays open. Target G's identity
+is unresolved, and whether he is Tuquick is explicitly unknown rather
+than merely undocumented. The two overlapping 14-day exports disagree on
+whether the final pre-closure message fell on March 9 or March 16 — both
+end on the same functional note (Dan's apology, Annie's self-testimonial)
+so the substance isn't affected, but the exact date is not pinned down.
+The escort-work economics beyond the three documented 2019–2020 client
+threads — total volume, rates over time, how much of it Dan knew about in
+real time versus reconstructed later — aren't mapped. The DUI's
+disposition past the preliminary hearing is unknown.
 
-A pregnancy reference surfaces in two independent chat-analysis sources
-(not the primary dossiers) with unusual specificity — a claimed due date
-of November 18, working back to conception around February 11, 2025 (33
-days after the Eli discovery night), with Dan described as present at a
-clinic visit and referring to it as "ours." This is **not corroborated by
-any primary message export, dossier, or other wiki page**, appears in
-sources that elsewhere required correction of their own confabulations,
-and is not adopted as fact here. It is recorded only as an open item
-requiring verification against a primary source before being written into
-any page as established. Annie's post-closure perspective consists of a
-single line: the June 5 apology.
+Two pregnancy references sit at very different confidence levels. One,
+surfacing only in two chat-analysis sources that elsewhere required
+correcting their own confabulations, claims a specific due date (November
+18, working back to conception 33 days after the Eli discovery) with Dan
+present at a clinic visit — uncorroborated by any primary export or
+dossier, and recorded here only as an open item, not a fact. The other is
+better grounded: an outbound message from Dan dated May 31, 2019 lists
+"the abortion" alongside two other major shared events, in passing, as
+something they had "gone through together" by that point — read as Dan
+referencing settled history rather than disclosing something new, with no
+other source elaborating further. Treat it as established that it
+happened, circa 2019, without further detail.
 
-A separate and much better-corroborated pregnancy reference exists much
-earlier in the record: an outbound message from Dan dated 2019-05-31
-lists "the abortion" alongside Fran's decline and the move to NYC as
-among the major things the two of them "have gone through together" by
-that point — a passing, unremarked mention (not a chat-analysis claim)
-that reads as Dan referencing settled shared history rather than
-disclosing something new. No other source read so far elaborates on it;
-treat as established that it happened, circa 2019, with no further
-documented detail.
+## Closing note
 
-## Notes
-
-Analytical work on this corpus is concluded, and this pass — a full
-re-derivation of every cited statistic directly against the seven
-underlying dossier documents and the raw message exports, plus one newly
-mined source — changed no headline conclusion. Its living outputs are the
-theoretical pages it produced — [[wiki/mind/concepts/attachment-model]],
-[[wiki/mind/concepts/conflict-architecture]],
-[[wiki/mind/concepts/contact-gini]] — and the DANMODEL retrieval system
-built on the 39,378 reaction pairs. The relationship ended; its utility
-for system analysis did not.
+The analytical work on this specific corpus is done; what it produced
+keeps working elsewhere. [[wiki/mind/concepts/attachment-model]],
+[[wiki/mind/concepts/conflict-architecture]], and
+[[wiki/mind/concepts/contact-gini]] all draw their empirical spine from
+this relationship, and the DANMODEL retrieval system runs on the 39,378
+reaction pairs it produced. The relationship is over. What it taught this
+wiki about how Dan forms and loses attachments is not.
