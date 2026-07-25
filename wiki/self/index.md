@@ -3,7 +3,7 @@ domain: self
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-11
+date_modified: 2026-07-25
 sources: []
 related: []
 ---
@@ -20,7 +20,7 @@ The self domain contains files and data detailing identity, core biographical fa
 
 ---
 
-- [[wiki/self/ancestry]] — 23andMe personal genomics export combined with Ancestry.com GEDCOM family tree (sourced as "Daniel Frank…
+- [[wiki/self/ancestry]] — Hub page for ancestry data, split into the lineage subfolder.
 - [[wiki/self/tattoos]] — Six documented pieces, all cultural reference rather than abstract design: Misfits, Kanye/KAWS, Radiohead, and two traditional flash pieces. A starting list, not a complete inventory.
 - [[wiki/self/context-core]] — This is the behavioral spine — verified [DOC] data from iMessage, Twitter, GPS, residence records, and…
 - [[wiki/self/facebook]] — Full Facebook data export (79 MB, generated Sep 5 2022) for the account ihatedanfrank — registered January…
@@ -62,3 +62,10 @@ The self domain contains files and data detailing identity, core biographical fa
 
 - [[wiki/self/gemini-activity/archive/v1-extract]] — v1 extraction index + concept map (node locks, theme counts, cross-concept table)
 - [[wiki/mind/concepts/node-locking]] — the memory-persistence protocol behind the profile-lock commands in the Gemini corpus
+
+## lineage
+
+- [[wiki/self/lineage/index]] — Index page for the lineage subfolder.
+- [[wiki/self/lineage/family-tree]] — Ancestry.com GEDCOM family tree (515 individuals).
+- [[wiki/self/lineage/23andme-genomics]] — 23andMe DNA composition, chromosome painting, Neanderthal data.
+- [[wiki/self/lineage/hybrid-analysis]] — Cross-referenced analysis (speculative).
