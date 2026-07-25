@@ -1,0 +1,45 @@
+---
+domain: interests
+page_type: synthesis
+status: active
+date_created: 2026-07-25
+date_modified: 2026-07-25
+sources:
+  - wiki/health/hyperreflexivity
+  - wiki/work/au-zaatar
+  - wiki/work/bfs-foods
+  - wiki/work/caviar-courier
+  - wiki/work/tech/max-framework/overview
+  - wiki/people/alex-frank
+  - wiki/self/youtube-watch-history
+tags: [health, nyc-era, uniontown-era]
+knowledge: mixed
+---
+
+# Food and Diet
+
+The wiki-brain corpus contains no dedicated ingest or raw source explicitly about Dan's diet or food preferences. Instead, "food and diet" exists in the record as a scattered series of touchpoints across health, labor, and cultural identity. This page synthesizes those touchpoints.
+
+## Early Dietary Habits and Health Consequences
+
+The most direct reference to Dan's personal dietary habits appears in the health record, specifically [[wiki/health/hyperreflexivity]]. In that document, Dan notes an adolescent eating disorder ("bulimic as a high schooler") and describes "candy as a staple of my diet." This high-sugar diet is explicitly linked in the corpus to adult dental consequences, including the loss of two teeth (one being a visible canine).
+
+The pattern suggests food in the early record was a site of dysregulation rather than organized sustenance, aligning with broader corpus themes of bodily hyperreflexivity.
+
+## Food as Labor and Geography
+
+Food service and delivery form a significant portion of Dan's documented work history, placing him in direct proximity to different culinary worlds:
+
+- **[[wiki/work/au-zaatar|Au Za'atar]] (2021–2024):** A 41-month immersion in a Midtown Manhattan Lebanese restaurant. As a busser/server, Dan was exposed daily to Middle Eastern cuisine (tableside shawarma, specific wine varietals). The corpus records his affection for the Lebanese cultural tradition and humor, and his mother's visit where the owners comped the entire menu.
+- **[[wiki/work/caviar-courier|Caviar Courier]] (2019–2020):** Shift-based food delivery gig work across NYC, peaking in the summer of 2019 and spiking again at the onset of the COVID-19 lockdowns.
+- **[[wiki/work/bfs-foods|BFS Foods]] (2026):** Convenience store cashier work in Uniontown, PA, representing the "return" pole of the geographic dialectic — dispensing gas station food and cigarettes in Fayette County.
+
+## Cultural and Metaphorical References
+
+- **The Eat'n Park "Frownie" Cookie:** A deeply specific Western Pennsylvania cultural artifact. Mentioned by cousin [[wiki/people/alex-frank|Alex Frank]] in an essay about grandfather Morley's 1998 funeral, where Eat'n Park delivered "Frownie" cookies (the frowning counterpart to the chain's famous Smiley Cookie) to the grieving family. Dan continues to reference this anecdote decades later as peak regional dark humor.
+- **"The food and the cat are always real":** A grounding anchor quote from the [[wiki/work/tech/max-framework/overview|Max Framework]] and [[wiki/people/gabe]] pages, using food as a synecdoche for baseline, undeniable physical reality amid psychological complexity.
+- **Information Diet:** The term "diet" is most frequently used metaphorically in the corpus, particularly in [[wiki/self/youtube-watch-history]], to describe the intake of political commentary and media ("media diet" / "information diet").
+
+## Gaps
+
+There is no record of Dan's current daily eating habits, cooking skills, favorite restaurants (outside of work), or specific dietary restrictions beyond the historical notes above. This synthesis is derived entirely from secondary mentions in other contexts.
