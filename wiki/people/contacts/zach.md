@@ -9,6 +9,7 @@ date_range_end: 2018-04-13
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [digital-footprint]
+to-do_list: merge with zach-harshman people entry
 infobox:
   name: "Zach"
   relationship_to_dan: unknown
@@ -16,7 +17,7 @@ infobox:
   known_for: "Contact identified via Google Contacts as Zach. Previously unresolved contact from iMessage corpus at handle +1843990326"
 ---
 
-# Zach
+# Zach Harshman
 
 ## Identity
 Contact identified via Google Contacts as Zach. Previously unresolved contact from iMessage corpus at handle `+18439903264`. 22 messages exchanged over 2017-09-27 to 2018-04-13. Sample interaction: "Bro can I grab some smoke 💨?? You work today ??". Appears in personal message contexts (not obvious spam per filter).
