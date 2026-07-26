@@ -6,7 +6,7 @@ status: active
 importance: high
 knowledge: mixed
 date_created: 2026-07-20
-date_modified: 2026-07-20
+date_modified: 2026-07-26
 sources:
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle (1).md"
@@ -142,6 +142,18 @@ them. The same session develops a separate, related concept — Dan's
 own "mojo and magic" framing for a felt loss of attraction-outcome
 capacity — documented in full on
 [[wiki/mind/concepts/attachment-model|the attachment model page]].
+
+> **REVISED [2026-07-26]:** the reframe made a testable prediction — that
+> the loop tracks the two unresolved conditions rather than running
+> independently — and the July 2026 record gives a partial test. One of
+> the two conditions resolved: Dan completed a house move in July,
+> alone, and describes sleeping in a bed for the first time in some
+> while. The other did not, and got worse
+> ([[wiki/timeline/events/july-2026-recontact]]). The corpus does not
+> record what his anxiety did in the same window, so this is a resolved
+> variable rather than a result — worth re-checking against the next
+> export, because a loop that stayed at full amplitude with the housing
+> void closed would narrow the reframe considerably.
 
 ## No confirmed treatment engagement
 

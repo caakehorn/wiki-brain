@@ -3,7 +3,7 @@ domain: self
 page_type: synthesis
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-07-26
 sources: ["raw/self/location/2026-06-22-ingest/Location History (Timeline)-20260622T225253Z-3-001.zip", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/semantic_location.db", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/Records.json", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/archives/google-data-export-index-20260623.html"]
 related:
   - wiki/self/context-core
@@ -26,6 +26,10 @@ related:
   - wiki/people/david-j-frank
   - wiki/interests/favorites/music
 tags: [uniontown-era, nyc-era, career, financial-stress, housing]
+connections:
+  - page: wiki/self/lineage/family-tree
+    type: parallels
+    claim: "The genealogical record's multi-generational concentration in Fayette County reproduces, across four generations, the same geographic gravity the location export shows in Dan's own movement."
 ---
 
 # Location History (Google Timeline)

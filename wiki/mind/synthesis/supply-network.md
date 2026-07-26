@@ -11,6 +11,15 @@ sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/message-csv/messages_3476070497_all_time.csv"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+synthesizes:
+  - wiki/people/annie-ulmer
+  - wiki/people/tom
+  - wiki/people/teddy
+  - wiki/people/johnny-dealer
+  - wiki/people/menore
+  - wiki/people/sam
+  - wiki/people/vaughn
+  - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
   - page: wiki/timeline/events/july-2026-recontact

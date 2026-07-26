@@ -5,7 +5,7 @@ title: "April–May 2026 — The Final Documented Weeks"
 importance: high
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-20
+date_modified: 2026-07-26
 date_range_start: 2026-04-01
 date_range_end: 2026-05-06
 sources:
@@ -19,6 +19,9 @@ related:
   - wiki/mind/concepts/conflict-architecture
 tags: [relationships]
 connections:
+  - page: wiki/timeline/events/july-2026-recontact
+    type: precedes
+    claim: "The hostile-third-party pattern documented here recurs on July 26 2026, when a message calling Annie a slut arrives on Dan's phone from her number during the crisis — the same unidentified-caller shape, two months later."
   - page: wiki/people/suzanne-frank
     type: co-occurs
     claim: "The recurring blocked-caller impersonation campaign targeted Suz directly (personally insulted, threatened arrest-worthy retaliation) — the only documented instance of the relationship's terminal-phase conflict machinery reaching a third-party family member this directly."

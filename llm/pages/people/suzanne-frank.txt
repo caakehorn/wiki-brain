@@ -6,7 +6,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-20
+date_modified: 2026-07-26
 infobox:
   name: Suzanne Frank
   status: Active
@@ -30,11 +30,12 @@ sources:
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/LIFE REPORT.md
   - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
+  - "raw/self/dox-md/Crisis mode briefing.md"
+  - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
+synthesizes:
   - wiki/legal/463-morgantown
   - wiki/timeline/events/fran-death-vigil
   - wiki/places/337-saratoga-drive
-  - "raw/self/dox-md/Crisis mode briefing.md"
-  - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
@@ -276,6 +277,15 @@ mother, which is itself data.
 - Her own perspective on the 2005 rupture is undocumented — the corpus view is
   entirely Dan-side.
 - Post-sale housing intentions (hers and Dan's) are unrecorded as of 2026-07.
+
+  **Premise re-check (2026-07-26):** [[wiki/legal/463-morgantown]] moved after
+  this page was last written, gaining a probable date for the move itself —
+  Dan's July 24, 2026 account of having moved "the entire house by myself,"
+  a week past the vacate window. Nothing on this page is contradicted, and
+  the housing arc below stands. But the detail cuts against the "primary
+  housing anchor" framing at the arc's edge: if the identification is right,
+  the physical execution of the move fell entirely to Dan, and the corpus
+  does not say where Suz was. Recorded as a question, not a finding.
 - Whether a lease or POA has since been signed at 463 Morgantown is unresolved
   in the corpus.
 - The "wine mom" / evening-rhythm characterization is Dan's; no independent

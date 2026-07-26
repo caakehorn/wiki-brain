@@ -33,16 +33,43 @@ the contradiction/revision rules (flag and correct), you do not bulldoze it and
 re-derive from zero. Pages may declare which kind they are with an optional
 `knowledge: earned | derived | mixed` frontmatter field (see STYLE_GUIDE.md).
 
+### The wiki is an input to itself (adopted 2026-07-26)
+
+Reading raw once and writing it down is only the first half. The second half
+is that **finished pages are premises**: a page may reason from other pages
+rather than from `raw/`, declare that with `synthesizes:`, and become in turn
+a premise for something above it. Ground pages carry entities and events;
+junction pages carry the pattern across three or more of them; doctrine
+carries the rule across junctions. That ladder is the product. A repository
+of accurate ground pages with nothing above them is an archive, not a brain.
+
+Two obligations come with it, both mechanical:
+
+- **Premises that move make dependents stale.** If a page declares
+  `synthesizes: [A]` and A is modified later, `bin/wiki-climb check` flags
+  it. Clearing the flag means re-reading what changed and deciding whether
+  the conclusion survives — revise, or record the falsification. Bumping
+  `date_modified` to silence it is the one prohibited move in the system.
+- **Conclusions must be falsifiable, and their failures are kept.** Pages
+  state what they predict; when the corpus settles a prediction the
+  resolution goes *on the page*, wrong ones included. This is the mechanism
+  by which the wiki generates knowledge that exists in no source: a rule,
+  broken by a case it did not anticipate, comes back wider.
+
+Governing document: **`SYNTHESIS_SPEC.md`** (repo root), mandatory reading
+alongside this file, `STYLE_GUIDE.md` and `CONNECTIONS_SPEC.md`.
+
 ## Connections & Strategy (adopted 2026-07-17)
-**`CONNECTIONS_SPEC.md` and `STRATEGY.md` (repo root) are mandatory reading**
-alongside this file. Connections between pages are TYPED EDGES with argued
+**`CONNECTIONS_SPEC.md`, `SYNTHESIS_SPEC.md` and `STRATEGY.md` (repo root)
+are mandatory reading** alongside this file. Connections between pages are TYPED EDGES with argued
 claims (`connections:` frontmatter); bare `related:` lists and `## Related`
 footers are deprecated and being retired page-by-page. When you touch any
 page, write or refresh its `connections:` block per the spec, add inverse
-edges on target pages, and run `bin/wiki-connect check` next to
+edges on target pages, and run `bin/wiki-connect check` and `bin/wiki-climb check` next to
 `bin/wiki-lint` before committing. `bin/wiki-connect candidates` maintains
 `connection-queue.md`, the mined backlog of evidenced-but-unmade
-connections.
+connections; `bin/wiki-climb candidates` maintains `synthesis-queue.md`, the
+backlog of clusters with no page above them.
 
 ## LLM Handoff & Coordination
 **CRITICAL:** At the start of every session or turn, you MUST read `LLM_HANDOFF.md` in the root directory to understand the current project state, recent changes, and immediate priorities. When you end your session, you MUST update `LLM_HANDOFF.md` by logging what you accomplished and setting the focus for the next model. This ensures seamless continuity across different models and sessions.
@@ -84,7 +111,8 @@ uploaded    source      knowledge
   never updated.
 - **exports/** — output of `bin/export-corpus`; never hand-edit, gitignored.
 - **Meta files** (root): `index.md` master navigation, `log.md` append-only
-  operation log, `queue.md` pending-ingest ledger.
+  operation log, `queue.md` pending-ingest ledger, `connection-queue.md`
+  mined edge backlog, `synthesis-queue.md` mined climb backlog.
 
 Git is the history mechanism. Commit after every ingest with message
 `<op>: <short description>`. Never commit secrets or exports/.
@@ -93,6 +121,10 @@ Git is the history mechanism. Commit after every ingest with message
 
 - `bin/capture` — human-facing input: interactive typing/pasting, one-shot
   facts, file upload (`-f`), and `status` (inbox listing).
+- `bin/wiki-climb` — altitude engine: `check` (validates `synthesizes:` and
+  reports stale premises), `audit` (tier distribution, domains with no
+  junction above them, load-bearing pages), `candidates` (writes
+  `synthesis-queue.md`). See SYNTHESIS_SPEC.md.
 - `bin/export-corpus` — concatenates the wiki (optionally raw/ and inbox/)
   into a single markdown file for LLM ingestion, with a token estimate.
 - `bin/llm-publish` — builds `llm/`, the public LLM access point served by
@@ -145,10 +177,38 @@ otherwise you are re-doing settled work. If the synthesis is new and durable,
 save it as a page: that is how the brain grows, and it is what keeps the next
 answer from re-deriving this one.
 
+### CLIMB — the operation that raises altitude
+The only operation that runs on `wiki/` rather than `raw/`. Where INGEST adds
+ground, CLIMB builds above it: find a cluster of three or more pages spanning
+two or more domains that share a shape and have nothing above them, find the
+one rule true of all of them and false of the corpus generally, and write the
+page that states it. **Full protocol in `SYNTHESIS_SPEC.md` — follow it
+exactly; do not improvise a synthesis pass.** The short form:
+
+1. `bin/wiki-climb candidates` maintains `synthesis-queue.md`, the mined
+   backlog of unclimbed clusters. Take the top one, or one you have reason
+   to prefer.
+2. Read the member pages **in full** — you are reasoning from them.
+3. Find the governing rule, **or reject the cluster in the queue with a line
+   of reasoning.** A cluster that resists synthesis is knowledge too. Never
+   write a page whose thesis is "these things are related."
+4. Write it: `page_type: synthesis`, `knowledge: earned`, `synthesizes:`
+   listing every member, thesis in the first two sentences, the rule stated
+   plainly, the controls that carry it, at least one prediction, and Gaps.
+5. Wire it with typed edges both ways per CONNECTIONS_SPEC.md.
+6. All three gates at 0 errors; log `climb | <domain> | <page>`; commit.
+
+Climb when a cluster has survived two or more ingests, or immediately when an
+ingest makes you think "this is the third time I've seen this shape." Do not
+climb to raise a number: three thin pages stacked make one thin page.
+
 ### LINT (periodic)
 Sweep for: broken links, orphan pages, contradictions between pages, claims
 superseded by newer raw data, entities mentioned 3+ times with no page,
-pages over budget. Fix mechanically what you can; queue the rest.
+pages over budget, and **stale premises** (`bin/wiki-climb check` — pages
+whose `synthesizes:` inputs were modified after them). Fix mechanically what
+you can; queue the rest. A stale page is never fixed mechanically: re-read
+what changed in the premise before touching the dependent.
 
 ### IMPERATIVES, GENERALLY
 Articles must be robust, exhaustive and thoroughly linked. They should be seen as very unique nodes and shouldn't follow more structure than what is listed in teh style guide
@@ -171,7 +231,11 @@ related: []    # wiki page paths
 `active` = live situation · `stable` = accurate, settled · `stub` =
 placeholder · `closed` = formally ended · `archived` = pinned artifact in an
 archive/ dir, never update. Default for finished pages: stable, NOT archived.
-Run `bin/wiki-lint` and `bin/wiki-connect check` before committing any ingest.
+**`closed` means a thing has formally ended, not that the page feels
+finished** — the July 2026 reopening of `annie-ulmer.md`, marked closed six
+weeks earlier, is the standing cautionary example. Run `bin/wiki-lint`,
+`bin/wiki-connect check` and `bin/wiki-climb check` before committing any
+ingest or climb.
 
 ## Writing rules (v1 failed by ignoring these)
 

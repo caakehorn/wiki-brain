@@ -16,6 +16,7 @@ sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/report collection.txt
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
+synthesizes:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/eli-incident
   - wiki/timeline/events/group-chat-closure
@@ -24,6 +25,7 @@ sources:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
   - wiki/people/tuquick-17248123683
+  - wiki/timeline/events/july-2026-recontact
 tags: [relationships, trauma-bond, infidelity, attachment, mental-health]
 connections:
   - page: wiki/timeline/events/july-2026-recontact

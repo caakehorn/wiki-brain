@@ -2,6 +2,14 @@
 
 _Items waiting for or in the middle of ingestion. `bin/capture status` lists the inbox._
 
+## Highest-value pending item
+
+| Item | Priority | Notes |
+|------|----------|-------|
+| **Next export of the Annie 212 thread** | **CRITICAL** | The relationship reopened 2026-07-23 and the record ends mid-event at 2026-07-26 05:04 with "whatever goodbye annie," unanswered. Open questions the next export settles: whether the goodbye held (the loop's own base rate says 110 of 127 did not), whether Dan contacted her parents or acted on the exposure threat, whether the July 25 allegation is ever elaborated, and who the unnamed third party is. See [[wiki/timeline/events/july-2026-recontact]]. |
+| **Arnu mechanics lien, 463 Morgantown** | **CRITICAL — matures ~2026-07-27** | Time-sensitive and unresolved in every source read. See wiki/legal/463-morgantown.md. |
+| The July 4 2026 email thread (Annie → Dan, re Milo/fireworks) | HIGH | The message that reopened the relationship. Described inside the iMessage record but not itself archived; Dan's email is the only place it exists. |
+
 ## Inbox — pending ingestion
 
 | Item | Priority | Notes |

@@ -3,13 +3,17 @@ domain: timeline
 page_type: period
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-26
 date_range_start: 2025-12-01
 date_range_end: 2025-12-31
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx", "raw/self/facebook/facebook-ihatedanfrank/"]
 related: ["wiki/mind/concepts/attachment-model", "wiki/people/annie-ulmer", "wiki/timeline/events/timeline", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/self/facebook"]
 
 tags: [relationships, infidelity, trauma-bond]
+connections:
+  - page: wiki/timeline/events/group-chat-closure
+    type: precedes
+    claim: "The December 2025 volume peak is what makes the June closure a rupture rather than a drift: six months earlier the relationship was at its highest message volume on record."
 ---
 
 # December 2025 Spike

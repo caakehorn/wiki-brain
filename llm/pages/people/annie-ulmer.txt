@@ -5,25 +5,27 @@ title: "Annie (Anne Louise Ulmer)"
 aliases: ["Annie", "Anne Ulmer", "Anne Louise Ulmer", "@Lo_weez"]
 importance: critical
 knowledge: mixed
-status: closed
+status: active
 date_created: 2026-06-22
-date_modified: 2026-07-24
+date_modified: 2026-07-26
 date_range_start: 2015-11-01
-date_range_end: 2026-06-01
+date_range_end: 2026-07-26
 infobox:
   name: Annie Ulmer
-  status: Closed (relationship ended 2026-06-01)
-  type: Partner (2015–2026)
+  status: Open — contact resumed 2026-07-23 after a 52-day severance
+  type: Partner (2015–2026); ex-partner in live contact
   known_for: Decade-long relationship; subject of forensic dossiers
   partner: "[[wiki/self/overview|Dan Frank]]"
   first_mentioned: November 2015
-  closed: June 1, 2026
-  notes: See [[wiki/timeline/events/eli-incident|the Eli incident]]
+  closed: 'June 1, 2026 — severance failed July 23, 2026'
+  notes: See [[wiki/timeline/events/july-2026-recontact|the July 2026 re-contact]]
   relationship_to_dan: ex-partner
-  location: nyc
+  location: uniontown
   first_contact: 2015-11-01
   handles: ["@Annelouise28", "@Lo_weez", "@alexisarmel"]
 changelog:
+  - date: 2026-07-26
+    note: "Structural: the page is no longer historical. A fresh full-history export of the 212 thread (through 2026-07-26 05:04) shows contact resumed July 23 after a 52-day silence and running 624 messages across four days. status closed→active, date_range_end extended, infobox status rewritten, lead paragraph and Closing Note rewritten, REVISED block added under the lead, new section 'July 2026: the severance that failed' placed before 'Why it held together', six chronology rows added, two new gaps. The relationship's analysis is not reopened — the verdict, the numbers and the earned reads all stand unchanged — but the wiki's inference that June 1 was terminal is withdrawn. Full event at wiki/timeline/events/july-2026-recontact."
   - date: 2026-07-24b
     note: "Second pass, same day: operator directive was to reimagine the page from scratch, not revise the existing skeleton — the first 2026-07-24 pass kept the prior section names, paragraph order, and much of the original sentence-level prose. This pass discards that structure entirely: new section architecture (verdict stated as its own opening block; Annie's pre-Dan history and the 2015 origin separated out; the arrangement/kink/escort-economy material consolidated into one thematic 'architecture' section instead of threaded through a chronological arc; money pulled into its own section; the terminal-phase mechanisms regrouped by whose instrument they are rather than a flat bulleted list; data pushed to a single numbers section near the end). All facts, figures, and sourcing carried over unchanged from the verified 2026-07-24 pass — no new claims, no re-verification needed — but every paragraph is freshly written."
   - date: 2026-07-24
@@ -35,6 +37,7 @@ changelog:
   - date: 2026-07-11
     note: "Data audit: burst-event misattribution fixed, financial amendments folded in"
 sources:
+  - raw/self/message-csv/imessage_export_2124702449_20260726.csv
   - raw/self/message-csv/imessage_export_17245629389_both_all_now.csv
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -94,6 +97,15 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/timeline/events/group-chat-closure
+    type: contains
+    claim: "The June 1 2026 closure is the relationship's severance event — the only external signal the attachment system ever received — and it held 52 days before failing."
+  - page: wiki/timeline/events/july-2026-recontact
+    type: contains
+    claim: "The July 23-26 2026 re-contact is the event that reopened this page: 624 messages after a 52-day severance, ending in an unadjudicated rape allegation, the corpus's only refused supply request, and no resolution."
+  - page: wiki/people/milo
+    type: caused-by
+    claim: "The dog is the residual channel that survived every material dependency and reopened the relationship — Annie's July 4 email asking after him during fireworks is what Dan answered on July 23."
   - page: wiki/people/bekah-fullem
     type: evidences
     claim: "Dan's March 2020 disclosure to Bekah — that Annie is herself a rape survivor with a 45-year sentence for the assailant — is the only source for this fact anywhere in the corpus; unverified independently."
@@ -147,18 +159,36 @@ connections:
 # Annie (Anne Louise Ulmer)
 
 Annie Ulmer was Dan's partner for ten years and seven months — November
-28, 2015 to June 1, 2026 — and the only relationship in his documented
-history to fully engage his attachment system. It is closed, historical,
-and the single most heavily analyzed relationship in this wiki: a
-126,683-message corpus, seven forensic dossiers written and revised
-across a decade of hindsight, and a verdict that this page states first
-rather than builds toward, per the standing house rule that consequence
-comes before chronology. That verdict has not moved across three
-successive analytical passes: **the gaslighting outweighed the affair.**
-What ended the relationship was infidelity; what did the deeper damage
-was the months Annie spent, while that infidelity was active, telling Dan
-that his correct perception of it was evidence of his own mental
-instability.
+28, 2015 to June 1, 2026 — and is the only relationship in his documented
+history to fully engage his attachment system. It is the single most
+heavily analyzed relationship in this wiki: a 126,683-message dossier
+corpus, seven forensic reports written and revised across a decade of
+hindsight, and a verdict that this page states first rather than builds
+toward, per the standing house rule that consequence comes before
+chronology. That verdict has not moved across four successive analytical
+passes: **the gaslighting outweighed the affair.** What ended the
+relationship was infidelity; what did the deeper damage was the months
+Annie spent, while that infidelity was active, telling Dan that his
+correct perception of it was evidence of his own mental instability.
+
+**It is not, however, over.** On July 23, 2026 — fifty-two days after the
+closure this page treated as final — Dan answered an email from her about
+the dog, and the two exchanged 624 messages across four days that ended
+with an allegation of rape, a refused request for drugs, suicidal
+statements from both of them, and no resolution of any kind. The
+relationship's *analysis* is finished and nothing below has been
+reopened by this. Its *status* is open.
+
+> **REVISED [2026-07-26]:** every earlier version of this page called the
+> relationship "closed, historical," and the June 1, 2026 group chat is
+> cited across the wiki as its terminal event. That inference is
+> withdrawn. June 1 produced the longest severance in the relationship's
+> history — the first that ever survived past 48 hours, holding 52 days
+> against a documented record of 127 exits and 110 relapses — and then it
+> failed like all the others. The June 1 analysis itself stands: what
+> happened that night is accurately described below. What was wrong was
+> reading a severance as an ending. Full account:
+> [[wiki/timeline/events/july-2026-recontact]].
 
 ## The verdict, stated plainly
 
@@ -208,7 +238,9 @@ care, two written denials of a third party, a March 2026 confession
 [[wiki/people/tuquick-17248123683|Tuquick]]; the June 1, 2026 group-chat
 closure confirmed that relationship and exposed a parallel defamation
 campaign. Tuquick himself defected fourteen days later, independently
-calling her a compulsive liar. Closed, not a live thread. At a 0.961
+calling her a compulsive liar. **Live, not closed** — contact resumed
+July 23, 2026 after a 52-day silence and ran 624 messages in four days
+([[wiki/timeline/events/july-2026-recontact]]). At a 0.961
 [[wiki/mind/concepts/contact-gini|Contact Gini]] coefficient, Annie's two
 handles alone carry the overwhelming share of Dan's entire relational
 message volume — the structural precondition, the redundancy concept
@@ -779,6 +811,93 @@ her, unprompted, "a compulsive liar with a drug addiction" — completing
 in fourteen days a distortion cycle that had taken Dan a decade to
 escape.
 
+## July 2026: the severance that failed
+
+The full account is at [[wiki/timeline/events/july-2026-recontact]]; what
+belongs on this page is what it changes about the relationship.
+
+The silence after June 1 lasted fifty-two days and is, by a wide margin,
+the most successful severance either of them ever executed — against a
+documented record of 127 exit declarations and 110 re-engagements inside
+48 hours, this one held for seven and a half weeks. Annie tried three
+times in June and was not answered, and the third attempt is the terminal
+phase arriving intact eight days after the relationship had ended: a
+request that Dan search his file folders for her Valic/Corebridge
+statements so her father could close her dead grandmother's account.
+Neither "Are you okay" nor "Daniel" moved him. The paperwork request
+didn't either.
+
+What broke it was [[wiki/people/milo|Milo]]. Annie emailed over the July
+4 weekend to ask whether the dog was frightened by fireworks, resent it
+around July 21 when no answer came, and Dan replied on July 23 with a
+message whose first line is "I should not have responded to that email."
+Eight hours later they were exchanging dog photos, reviving New York
+in-jokes by nickname, and watching each other's videos; Annie sent
+footage of herself singing karaoke sober, and Dan — who names the
+mechanism while it is running, "so i will reset the 'days since i talked
+to annie' clock" — watched it four times. The night ends "Goodnight turd
+1 and turd 2." At 5:41 the next morning: "this was a mistake."
+
+This is the sharpest available test of
+[[wiki/mind/synthesis/block-unblock-loop|the loop's governing rule]] —
+that a severance holds exactly when nothing either party still needs runs
+through the channel — and it passes, but only after the rule is widened.
+The money had stopped. The drugs had stopped. Every material dependency
+this page spends thousands of words documenting was gone, and the block
+held as the rule predicts. What remained was a shared attachment to a
+seven-pound dog, and that was sufficient to reopen it inside a single
+afternoon. **The residual dependency does not have to be material.**
+
+Three further things on the record change what this page can claim.
+
+**Annie corroborates the verdict, unprompted and with nothing to gain.**
+Her parents found out; an intervention was held; she refused an inpatient
+placement and lost her car. With no supply to procure and the
+relationship already lost, she says: "I put your through hell. And I am
+sorry for that." "you were always true to me." "I wasn't enough." "I
+should have just accepted rehab and got myself fixed." Weigh it as what
+it is — statements under acute distress, from a person this page
+establishes as an unreliable narrator of her own conduct, several of them
+contradicted inside the same conversation — but the moral verdict above
+is no longer resting on Dan's account and behavioral inference alone. She
+also supplies the sentence that most damages his position while
+confirming his: she told her parents she had cut down "after I couldn't
+go through you."
+
+**Dan refuses to supply, for the first time in the record.** This page
+states, as one of its firmest findings, that his provision was
+unconditional in practice and that nothing in the relationship ever
+imposed a cost on Annie's behavior. At roughly 2:45 AM on July 26 —
+Annie at her uncle's house in Hopwood without a car, stating repeatedly
+that she is ready to end her life, asking him to bring drugs and offering
+cash — he says no. "i'm not getting rid of an 8 ball for 20 seconds in a
+dark car." The refusal is not clean and he does not dress it as
+principle: he is frightened of being jumped or set up, he says he nearly
+drove up anyway, and he grounds the no in her not loving him rather than
+in the harm of supplying — "i would have already been there if you loved
+me still as dumb as that would be." It is still the only documented
+refusal under pressure in eleven years, and it arrives at the exact
+moment the pressure is highest.
+
+**The forensic apparatus is turned outward.** Believing Annie had told
+her parents he was her drug source — and fearing, concretely, that it
+would reach [[wiki/people/rick-frank|Rick]] and force him into inpatient
+treatment himself — Dan built and sent her two public dashboards, an
+`ask.html` that surfaces every day's drug talk and links each hit back to
+the full message logs, and a `money.html` that sets her requests to her
+parents for money against what she was telling him at the same time. Every
+instrument this wiki documents — [[wiki/mind/concepts/forensic-method]],
+[[wiki/mind/concepts/exocortex]], the dossiers, the corpus itself — was
+built to answer the question of what had actually happened to him. This is
+the first time any of it is aimed at another person as leverage. He frames
+it as defensive ("i just wanted to be treated fairly") and delivers it as
+a threat ("keep acting like I'm fucking bluffing you liar"), and both
+framings are in the same hour of transcript.
+
+The four days end at 5:04 AM on July 26 with "whatever goodbye annie,"
+unanswered. Whether that holds is not knowable from anything currently on
+disk, and the record's own base rate on such statements is 110 out of 127.
+
 ## Why it held together as long as it did
 
 The corpus records 299 or more love affirmations from Annie against
@@ -905,8 +1024,14 @@ legal exposure for Dan — noted here for completeness.
 | 2026-04-20/26 | Brief reinvestment window (Annie out-messages Dan, the only such stretch on record) |
 | 2026-05-04/06 | Worst-content week of the full record |
 | 2026-06-01 | Group-chat closure: Tuquick relationship and defamation campaign confirmed |
-| 2026-06-05 | Final message: unprompted apology |
+| 2026-06-05 | Last message of the closure window: unprompted apology |
+| 2026-06-09/15 | Three unanswered re-contact attempts, one of them a request for financial paperwork |
 | 2026-06-15 | Tuquick defects, independently calls her a compulsive liar |
+| 2026-07-04 | Annie emails asking whether Milo is frightened by fireworks; unanswered until the 23rd |
+| 2026-07-18/19 | Intervention by her parents and sister; rehab placement refused; car taken |
+| 2026-07-23 | Dan answers the email; 52-day severance ends; eight hours of restored intimacy |
+| 2026-07-25 | Leviathan dashboards sent as leverage; Annie states she told her parents everything |
+| 2026-07-26 | Rape allegation, refused supply request, mutual suicidal statements, "whatever goodbye annie" (05:04) |
 
 Two synthesis pages extend this record further: the capstone moral
 verdict, provenance-tiered down to individual message rows, at
@@ -951,12 +1076,44 @@ referencing settled history rather than disclosing something new, with no
 other source elaborating further. Treat it as established that it
 happened, circa 2019, without further detail.
 
+Three gaps open with the July 2026 re-contact and stay open. The identity
+of the man Annie describes as having raped her on July 25 is not stated
+anywhere in the exchange, including whether he is
+[[wiki/people/tuquick-17248123683|Tuquick]]; the allegation itself is
+recorded as made, on that date, and is neither corroborated nor
+contradicted by anything in `raw/` — Dan's own stated position ("I am not
+taking a position on whether I think you're lying or not…I truly do not
+know") is the position this wiki takes. The "outing" Annie repeatedly
+accuses him of — sending "receipts" that "made things ten times worse for
+me personally" — is never explained: outed as what, and to whom, given
+that she had told him they were exclusive. He asks four times and gets
+"This isn't a text conversation." And the email thread that reopened
+everything is not archived; only her description of it survives, inside
+the messages.
+
 ## Closing note
 
-The analytical work on this specific corpus is done; what it produced
-keeps working elsewhere. [[wiki/mind/concepts/attachment-model]],
+An earlier version of this section read: "The analytical work on this
+specific corpus is done… The relationship is over." Half of that was
+right. The analytical work *is* done, and what it produced keeps working
+elsewhere — [[wiki/mind/concepts/attachment-model]],
 [[wiki/mind/concepts/conflict-architecture]], and
 [[wiki/mind/concepts/contact-gini]] all draw their empirical spine from
 this relationship, and the DANMODEL retrieval system runs on the 39,378
-reaction pairs it produced. The relationship is over. What it taught this
-wiki about how Dan forms and loses attachments is not.
+reaction pairs it produced. The other half was a prediction dressed as a
+finding, and July 2026 falsified it inside two months.
+
+The correction is worth keeping visible rather than quietly editing away,
+because it is the most instructive thing this page has done recently. The
+wiki's own model of Dan — a bond that cannot emit a severance signal, an
+exit that is declared and not executed, a loop that reopens wherever a
+dependency survives — predicted the July re-contact. The page's closing
+sentence contradicted the page's own analysis. The failure was not of
+evidence; it was of a page written at a moment when it felt finished, and
+finished is a feeling, not a status. Anything on this page that reads as
+"and that was the end of it" should be read as provisional until the
+mechanism that would end it is named.
+
+What this relationship taught the wiki about how Dan forms and loses
+attachments still stands. What it is teaching now is that he has not lost
+this one.

@@ -4,7 +4,8 @@ This file exists so that any model — including one less capable than the
 models that designed this system — can open this repository cold and continue
 the work correctly. It states the top-down strategy in plain language. It is
 mandatory reading alongside `CLAUDE.md` (process), `STYLE_GUIDE.md` (page
-format), and `CONNECTIONS_SPEC.md` (connection format).
+format), `CONNECTIONS_SPEC.md` (connection format), and `SYNTHESIS_SPEC.md`
+(altitude — how conclusions stack on conclusions).
 
 ## The purpose
 
@@ -13,9 +14,17 @@ storage. Its purpose is to **mine the elements of one life for hidden
 connections** — linkages between people, events, money, substances, music,
 work, and psychology that no single source states, but that the corpus,
 read across itself, proves. A fact filed is worth little; a connection
-argued is the product. The wiki compounds: every synthesized conclusion
-written today becomes a premise available tomorrow, so the system gets
-smarter with use instead of re-deriving everything from raw sources.
+argued is the product.
+
+And the product is not flat. Every conclusion written today is a **premise**
+available tomorrow: ground pages carry entities and events read out of
+`raw/`; junction pages carry the pattern found across three or more of them;
+doctrine carries the rule found across junctions — and each layer is declared
+with `synthesizes:` so the dependency is visible, checkable, and kept
+current. The loop is meant to run forever: ingest raises the floor, CLIMB
+raises the ceiling, the new ceiling becomes floor for the next climb. A
+repository of accurate ground pages with nothing above them is an archive.
+The altitude is the brain.
 
 ## The pipeline in one paragraph
 
@@ -47,14 +56,31 @@ and chains of typed edges compose into arguments (X causes Y, Y evidences
 Z). The full vocabulary and rules are in `CONNECTIONS_SPEC.md`. Bare
 `related:` lists and `## Related` footers are deprecated and being removed.
 
-## The junction-page mechanism
+## The junction-page mechanism — and the operation that runs it
 
 When three or more pages across two or more domains show the same pattern,
-that pattern gets its own synthesis page, and each member page carries an
-`instantiates` edge into it. This is how N scattered observations become one
-reusable premise — it is the compounding mechanism and the highest-value
-work in the repository. A discovered cross-domain pattern is worth more than
-any ten routine link fixes.
+that pattern gets its own synthesis page, each member carries an
+`instantiates` edge into it, and the new page declares `synthesizes:` listing
+its members. This is how N scattered observations become one reusable
+premise — the compounding mechanism, and the highest-value work in the
+repository. A discovered cross-domain pattern is worth more than any ten
+routine link fixes.
+
+The operation is called **CLIMB** and it is the fourth alongside INGEST,
+QUERY and LINT. `bin/wiki-climb candidates` mines the backlog into
+`synthesis-queue.md`; `bin/wiki-climb audit` shows which domains are all
+ground and no junction; `bin/wiki-climb check` reports **stale** pages —
+ones whose premises were modified after they were. Protocol in
+`SYNTHESIS_SPEC.md`. Two rules matter more than the rest:
+
+- **A cluster you cannot state a falsifiable rule about gets rejected in the
+  queue, with reasoning.** A considered non-synthesis is knowledge. A page
+  whose thesis is "these things are related" is worse than no page.
+- **When a conclusion is falsified, the failure stays on the page.** The
+  block/unblock loop predicted the June 2026 severance would hold, and was
+  wrong 52 days later because it had scored dependency as material and missed
+  a shared dog. The correction made the rule wider and truer — and that wider
+  rule exists in no raw source anywhere. That is what this system is for.
 
 ## The substance standard in one paragraph
 
@@ -80,10 +106,15 @@ is a failed page.
    names and handles first. Known trap: the `direction` column in
    `MASTER_MESSAGES_DB_DUMP.csv` is unreliable; reconstruct the speaker
    from content.
-3. **Leave the site as you found it, plus your work.** Run
-   `bin/wiki-lint` and `bin/wiki-connect check` before committing; commit
-   before ending the session; append to `log.md`; update `LLM_HANDOFF.md`
-   with what you did and the exact resume point.
+3. **Leave the site as you found it, plus your work.** Run `bin/wiki-lint`,
+   `bin/wiki-connect check` and `bin/wiki-climb check` before committing;
+   commit before ending the session; append to `log.md`; update
+   `LLM_HANDOFF.md` with what you did and the exact resume point.
+4. **Never clear a stale warning by bumping the date.** If `wiki-climb check`
+   says a page's premise moved, read what changed in the premise and decide
+   whether the conclusion survives. Silencing it is the one move that
+   corrupts the system quietly, because everything above the page keeps
+   compounding on a premise nobody re-checked.
 
 Follow these three and you cannot corrupt the system, even if you understand
 nothing else here.
@@ -95,6 +126,10 @@ its last session on 2026-07-18. Everything after this line is executed
 by less capable models, and the work has been shaped for that:
 
 **Safe to execute mechanically (do these freely):**
+- Clearing `bin/wiki-climb check` staleness warnings *properly* — read the
+  changed premise, add the one line saying the conclusion was re-checked and
+  holds, then bump the date. If it does not hold, that is a REVISED block and
+  a real pass, not a mechanical one.
 - The `related:` → `connections:` retrofit backlog (per the protocol in
   CONNECTIONS_SPEC.md, one page per pass) and `connection-queue.md`
   top-down.
@@ -124,8 +159,18 @@ named. Imitate their shape.
 
 ## Current campaign
 
-The retrofit: converting the legacy graph to typed connections, page by
-page, in the priority order given in `CONNECTIONS_SPEC.md` (islanded pages →
-synthesis pages → `connection-queue.md` top-down → remaining `related:`
-holders), deepening body copy from raw in the same pass. `bin/wiki-connect
-audit` shows live progress. See `LLM_HANDOFF.md` for the exact resume point.
+Two run in parallel.
+
+**Breadth (the retrofit):** converting the legacy graph to typed connections,
+page by page, in the priority order given in `CONNECTIONS_SPEC.md` (islanded
+pages → synthesis pages → `connection-queue.md` top-down → remaining
+`related:` holders), deepening body copy from raw in the same pass.
+`bin/wiki-connect audit` shows live progress.
+
+**Height (the climb):** as of 2026-07-26 only 3.6% of pages sit above ground
+level, and four domains — `self`, `timeline`, `work`, `places` — have three
+or more pages and nothing above any of them. That is the structural gap now.
+Work `synthesis-queue.md` top-down, one climb per pass, per
+`SYNTHESIS_SPEC.md`. `bin/wiki-climb audit` shows live progress.
+
+See `LLM_HANDOFF.md` for the exact resume point.

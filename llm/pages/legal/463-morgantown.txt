@@ -4,7 +4,7 @@ page_type: summary
 title: "463 Morgantown St (Housing / Property Risks)"
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-07-26
 sources:
   - raw/self/message-csv/imessage_7243228715_both_all_now.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -19,6 +19,9 @@ related:
   - wiki/timeline/periods/2025-collapse
 tags: [housing, uniontown-era]
 connections:
+  - page: wiki/timeline/events/july-2026-recontact
+    type: evidenced-by
+    claim: "The July 24 2026 line 'I moved the entire house by myself, it took an extra week' is the only dated evidence anywhere that the 337 Saratoga vacate completed — probable rather than confirmed, since no address is named."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "463 is where the money spine currently points: no lease, blended agency, a ~July 2026 lien deadline, and no absorber for a lien-sized shock — the housing configuration produced by the capital timeline's present state."
@@ -64,6 +67,7 @@ obvious absorber.
 | 2026-02-10 | Contractor day: Arnu no-shows; his associate Felix paints ("Felix is going to paint more"), brings Elijah |
 | 2026-03-27 | Suz shares the "John carney thing" analysis with Dan |
 | ~2026-06 | 337 Saratoga sale closing window; 7-day vacate clause |
+| ~2026-07 | A house move completes, run single-handed and a week late (probably the 337 vacate — see below) |
 | ~2026-07-27 | Estimated Arnu mechanics-lien deadline |
 
 ## Assessment
@@ -74,7 +78,29 @@ difference is exposure — at BFS the worst case was a lost job; here it is
 housing. As of the last ingest there is no documented post-close plan for
 where Dan lives if 463 becomes untenable.
 
+## The July 2026 move
+
+A dated detail from the [[wiki/timeline/events/july-2026-recontact|July 2026
+message record]] almost certainly belongs on this page, and is recorded here
+with the hedge it deserves: on July 24, 2026 Dan told
+[[wiki/people/annie-ulmer|Annie]], "I moved the entire house by myself. It
+took an extra week — the people were so fucking mad," and separately confirms
+he is now sleeping in a bed, having not been before. He names no address.
+
+The identification with the 337 Saratoga vacate is inferential but strong:
+the sale's closing window was ~June 2026 with a seven-day vacate clause, "the
+people" fits buyers held past a closing, and the one-week overrun matches a
+vacate clause missed rather than any other move in the record. If it is the
+same event, the 337 sale has completed, the 7-day clause was blown by roughly
+a week, and Dan executed the move alone — which says something about Suz's
+availability during it that the corpus does not otherwise document. Treat the
+move as established and the address as probable-not-confirmed until a source
+names it.
+
 **Gaps:** exact move-in date; whether a lease or POA has since been signed;
 any direct communications with owner Alexander Jackson; the content of the
 "John carney thing" document (referenced but not in raw/); resolution status
-of the Arnu lien as the July deadline approaches.
+of the Arnu lien as the July deadline approaches — **which is 2026-07-27,
+i.e. now**, and is the single most time-sensitive open item in the
+repository. Whether the July 2026 move was into 463 or somewhere else is
+not confirmed by any source that names an address.

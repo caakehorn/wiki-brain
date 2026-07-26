@@ -11,6 +11,17 @@ sources:
   - "raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md"
   - "raw/self/message-csv/messages_3476070497_all_time.csv"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+synthesizes:
+  - wiki/people/annie-ulmer
+  - wiki/people/tom
+  - wiki/people/kristin
+  - wiki/people/rick-frank
+  - wiki/people/menore
+  - wiki/people/milo
+  - wiki/timeline/events/march-2026-terminal-phase
+  - wiki/timeline/events/july-2026-recontact
+  - wiki/mind/concepts/attachment-model
+  - wiki/mind/concepts/conflict-architecture
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
   - page: wiki/people/milo
