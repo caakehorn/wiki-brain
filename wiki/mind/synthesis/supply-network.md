@@ -4,15 +4,27 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-07-19
+date_modified: 2026-07-26
 sources:
   - "raw/self/dox-md/MAX_PRIME.md"
   - "raw/self/dox-md/operating_manual.md"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/message-csv/messages_3476070497_all_time.csv"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+synthesizes:
+  - wiki/people/annie-ulmer
+  - wiki/people/tom
+  - wiki/people/teddy
+  - wiki/people/johnny-dealer
+  - wiki/people/menore
+  - wiki/people/sam
+  - wiki/people/vaughn
+  - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/timeline/events/july-2026-recontact
+    type: mirrors
+    claim: "Dan's 2:45 AM refusal on July 26 2026 — asked for drugs by a woman stating she was about to kill herself — is the network's only documented refusal under pressure, inverting the terminal phase's finding that his provision was unconditional."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: parallels
     claim: "Dependency predicts which severances hold: Tom's blocks failed while he was the sole node, and Menore's channel closed cleanly when geography ended the need — the loop and the network share one governing variable."

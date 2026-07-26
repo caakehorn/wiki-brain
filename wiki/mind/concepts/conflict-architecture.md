@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-07-26
 sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -14,6 +14,9 @@ sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
 tags: [addiction-recovery, trauma-bond, forensic-analysis]
 connections:
+  - page: wiki/timeline/events/group-chat-closure
+    type: instance-of
+    claim: "A confrontation escalated in front of an audience to force a verdict is the conflict engine's terminal form — the argue-to-resolution drive running with witnesses attached."
   - page: wiki/people/annie-ulmer
     type: evidenced-by
     claim: "The Annie corpus is the engine's behavioral fingerprint at full load: 74/17/11 abuse triad (primary-confirmed), 127 exits against 110 re-engagements, 94 silence-preceded bursts, and the terminal-phase volume asymmetry where her engagement halved while his stayed constant."

@@ -6,7 +6,7 @@ aliases: ["forensic analysis", "forensic methodology", "procedural tells", "loss
 status: stable
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-07-26
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
@@ -25,6 +25,9 @@ related:
   - wiki/timeline/events/eli-incident
 tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
 connections:
+  - page: wiki/timeline/events/july-2026-recontact
+    type: instance-of
+    claim: "The Leviathan dashboards of July 25 2026 are the method's first outward deployment — the same corpus instruments, aimed at another person as leverage in a live dispute rather than at the question of what happened to Dan."
   - page: wiki/mind/concepts/dans-law
     type: contains
     claim: "Dan's Law is the method's deconfounding filter — the formalized step that strips parasitic noise from a coincidence cluster to isolate the load-bearing element."
@@ -140,6 +143,40 @@ the self-model is whatever survives contact with the primary records, and
 this wiki is the current instantiation of that discipline. Music production
 is the one documented domain the forensic mode does not enter.
 
+## The outward turn, July 2026
+
+Every application above shares a property that went unremarked until it
+stopped being true: the method was always aimed at a question — what
+happened, who did what, is this account consistent — and its output was
+understanding. On July 25–26, 2026 it was aimed at a person, and its
+output was leverage.
+
+Believing [[wiki/people/annie-ulmer|Annie]] had told her parents he was
+her drug source, and fearing concretely that the claim would reach
+[[wiki/people/rick-frank|Rick]] and be used to commit him to inpatient
+treatment, Dan built two dashboards from the message corpus and sent her
+the URLs: one that surfaces every day's drug talk and links each hit back
+to the full logs "so everyone knows they're real," and one that sets her
+requests to her parents for money against what she was telling him on the
+same dates. The technique is the method exactly as documented — corpus,
+cross-reference, the record made checkable — with one substitution: the
+audience is no longer Dan. It is her, and behind her, her parents.
+
+Two things about it are worth holding at once, because the transcript
+holds both inside the same hour. The stated purpose is defensive and
+consistent with everything else on this page — "i just wanted to be
+treated fairly," a man who has spent a decade establishing that the
+record is the only thing that survives contact with an unreliable
+narrator, reaching for the record. The delivery is a threat: "keep acting
+like I'm fucking bluffing you liar." The method did not change. Its
+target did, and the reflexive turn that defines it — the discipline of
+running the instrument on yourself first — is the one thing absent from
+this instance. Full account at
+[[wiki/timeline/events/july-2026-recontact]].
+
 **Gaps:** the method's documented failure modes are thin — the corpus records
 its successes; systematic false-positive cases (clusters that resolved
-innocent) are largely absent outside the Bacharach audit.
+innocent) are largely absent outside the Bacharach audit. The July 2026
+deployment is also unaudited on its own terms: whether the dashboards'
+classifications are accurate, and what a hostile reader would find wrong
+with them, has not been checked by anyone.

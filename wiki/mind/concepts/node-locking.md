@@ -5,7 +5,7 @@ title: "Node Locking"
 aliases: ["profile locking", "DATA_LOGGED", "relational source code", "Deep Architecture"]
 status: stable
 date_created: 2026-07-15
-date_modified: 2026-07-19
+date_modified: 2026-07-26
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_07.md
@@ -57,7 +57,7 @@ holds:
 |------|---------------|-----------|
 | **Separation Logistics** | The February 2025 physical break: move back to PA from NYC (~Feb 22), Annie's Sugie-shift caregiver constraint (9am-3pm or 8pm-8am), the unilateral end of an 8-year cohabitation, the "List Defense" (recited chores used to shut down emotional requests) | Core |
 | **The Loop** | The pursuit-withdrawal trap; existential outsourcing of self-worth to Annie's availability; gaslighting inversion; the tether (money / drugs / Sugie). Briefly broken by the dog-death witness act | Core |
-| **The Betty Event** | The death of the dog Dan stayed with; Annie delayed / absent; briefly broke the avoidance loop. "Tier 1 Life Debt" | High-value |
+| **The Betty Event** | The death of the dog Dan stayed with (**June 24, 2025** — dated 2026-07-26 from Dan correcting Annie's misremembered anniversary in the July re-contact); Annie delayed / absent; briefly broke the avoidance loop. "Tier 1 Life Debt" | High-value |
 | **The Signals** | Communication tells, location spoofing, blackout patterns post-confront (e.g. the Suzy-call NACK, the 10-day radio silence) | Core |
 | **Eli Incident (Patient Zero)** | The February 2025 lobby incident with Annie's coworker Eli; location tracking disabled; texts from her phone; powder noted; 10-day blackout | Explicitly **purged** from exports meant for other models |
 | **Uniontown Generational Loop** | Fran (great-grandmother Coldren) + Sugie as 50-year country-club neighbors; "plot loop" weaponized as a DUI-defense "gentry indiscretion" | Bio / ancestry cross |

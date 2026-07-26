@@ -3,8 +3,10 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-06-23
-sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/message-csv/imessages_2124702449_last6months.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "wiki/legal/463-morgantown.md", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/Semantic Location History/2019/2019_FEBRUARY.json"]
+date_modified: 2026-07-26
+sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/message-csv/imessages_2124702449_last6months.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/Semantic Location History/2019/2019_FEBRUARY.json"]
+synthesizes:
+  - wiki/legal/463-morgantown
 related: ["wiki/legal/463-morgantown", "wiki/people/alexander-jackson", "wiki/people/arnu", "wiki/people/suzanne-frank", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse"]
 tags: [ai-collaboration]
 infobox:
@@ -46,3 +48,5 @@ Location history cross suggests possible auto-repair overlap or coincidence in U
 **Cross-references:** [[wiki/legal/463-morgantown]], [[wiki/people/alexander-jackson]], [[wiki/people/arnu]], [[wiki/people/suzanne-frank]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]], [[wiki/work/bfs-foods]].
 
 **Notes:** "John carney thing" implies dedicated prior analysis (similar to Gemini/Bacharach deep dives); full doc not in reviewed raw but referenced. Distinguish 2025 personal Carney refs from 2026 463 contractor. Defer to full message-csv + future 463 docs. Limited bio; focus on property ties.
+
+**Premise re-check (2026-07-26):** [[wiki/legal/463-morgantown]] moved on 2026-07-18 in a typed-connections pass; the incomplete-work and unreachability facts this page reasons from are unchanged, and the 'John carney thing' document is still absent from raw/.

@@ -3,8 +3,10 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-06-23
-sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "wiki/legal/463-morgantown.md"]
+date_modified: 2026-07-26
+sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
+synthesizes:
+  - wiki/legal/463-morgantown
 related: ["wiki/legal/463-morgantown", "wiki/people/alexander-jackson", "wiki/people/john-carney", "wiki/people/suzanne-frank", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse"]
 tags: [forensic-analysis]
 infobox:
@@ -42,3 +44,5 @@ Felix named in MAX_PRIME as "supply-adjacent figure" (2026 appearance); context 
 **Cross-references:** [[wiki/legal/463-morgantown]], [[wiki/people/alexander-jackson]], [[wiki/people/john-carney]], [[wiki/people/suzanne-frank]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]] (recent ingest), [[wiki/work/tech/max-framework/overview]] (Felix note).
 
 **Notes:** Direct data thin beyond one key Suz message + wiki timeline references (derived from operating/core). No deep personal bio. Defer to raw message-csv and future legal docs for liens/contracts. Expand on Elijah/Felix ties if surfaced. "John carney thing" suggests prior forensic analysis shared.
+
+**Premise re-check (2026-07-26):** [[wiki/legal/463-morgantown]] moved on 2026-07-18 in a typed-connections pass; no fact this page depends on changed. The mechanics-lien deadline it records, ~2026-07-27, is now imminent and remains unresolved in every source read so far.

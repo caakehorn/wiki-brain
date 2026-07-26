@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-17
+date_modified: 2026-07-26
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -23,6 +23,12 @@ sources:
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
+synthesizes:
+  - wiki/people/annie-ulmer
+  - wiki/people/rick-frank
+  - wiki/people/suzanne-frank
+  - wiki/mind/concepts/attachment-model
+  - wiki/mind/concepts/conflict-architecture
 tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
 connections:
   - page: wiki/people/annie-ulmer

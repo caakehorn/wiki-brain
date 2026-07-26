@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-07-18
+date_modified: 2026-07-26
 sources:
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
   - "raw/self/dox-md/operating_manual.md"
@@ -12,6 +12,12 @@ sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/message-csv/imessage_7243228715_both_all_now.csv"
   - "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"
+synthesizes:
+  - wiki/people/fran-coldren
+  - wiki/people/suzanne-frank
+  - wiki/people/rick-frank
+  - wiki/people/annie-ulmer
+  - wiki/places/337-saratoga-drive
 tags: [financial-stress, forensic-analysis, family]
 connections:
   - page: wiki/people/lewis-strosnider

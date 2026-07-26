@@ -3,7 +3,7 @@ domain: timeline
 page_type: event
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-07-26
 date_range_start: 2026-06-01
 date_range_end: 2026-06-01
 sources:
@@ -15,12 +15,23 @@ sources:
   - raw/self/message-csv/END_FIGHT_full.csv
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
-related:
-  - wiki/people/annie-ulmer
-  - wiki/mind/concepts/attachment-model
-  - wiki/mind/concepts/conflict-architecture
-  - wiki/timeline/periods/dec-2025-spike
 tags: [relationships]
+connections:
+  - page: wiki/timeline/events/july-2026-recontact
+    type: precedes
+    claim: "This event was read across the wiki as the relationship's terminal point; the July 23 2026 re-contact 52 days later shows it was the longest severance in its history rather than its end."
+  - page: wiki/people/annie-ulmer
+    type: component-of
+    claim: "The closure is the moment the third-party relationship and the parallel defamation campaign were confirmed simultaneously, converting a suspicion Dan had held for months into an external signal his attachment system could act on."
+  - page: wiki/mind/concepts/attachment-model
+    type: evidences
+    claim: "The model predicts a bond that cannot close without an unambiguous external severance signal; this is the only event in the corpus that supplied one, and it still failed to hold."
+  - page: wiki/mind/concepts/conflict-architecture
+    type: instantiates
+    claim: "A confrontation escalated in front of an audience to force a verdict is the conflict engine's terminal form — the argument-to-resolution drive running with witnesses attached."
+  - page: wiki/timeline/periods/dec-2025-spike
+    type: follows
+    claim: "The December 2025 reinvestment peak of 4,657 messages is what makes this closure a rupture rather than a drift: six months earlier the relationship was at its highest volume on record."
 ---
 
 # Group Chat Closure (June 1 2026)
@@ -38,6 +49,16 @@ The campaign included at minimum:
 - "Junkie" framing
 
 This occurred concurrent with prior written denials of any third-party relationship (Nov 2025 and Feb 2026) that Dan had taken at face value in good faith.
+
+> **REVISED [2026-07-26]:** "closure" overstates what this event
+> achieved, and the wiki inherited the overstatement. June 1 severed
+> contact for fifty-two days — by a wide margin the most durable
+> severance in a relationship with 127 declared exits and 110
+> re-engagements inside 48 hours — and then failed. Contact resumed
+> July 23, 2026 and ran 624 messages across four days
+> ([[wiki/timeline/events/july-2026-recontact]]). Everything described
+> on this page about what happened that night stands; what does not
+> stand is treating it as an ending.
 
 ## When
 June 1 2026 (single anchoring date for closure).

@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-20
+date_modified: 2026-07-26
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
@@ -16,6 +16,7 @@ sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/report collection.txt
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
+synthesizes:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/eli-incident
   - wiki/timeline/events/group-chat-closure
@@ -24,8 +25,12 @@ sources:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
   - wiki/people/tuquick-17248123683
+  - wiki/timeline/events/july-2026-recontact
 tags: [relationships, trauma-bond, infidelity, attachment, mental-health]
 connections:
+  - page: wiki/timeline/events/july-2026-recontact
+    type: evidenced-by
+    claim: "Annie's July 23-25 2026 statements — 'I put your through hell', 'you were always true to me', full accountability given to her parents, a rehab placement refused — are the first corroboration of this verdict from the other party with nothing left to procure."
   - page: wiki/people/annie-ulmer
     type: resolves
     claim: "States the capstone verdict on the question the relationship record poses — wronged in fact, with the diagnosis-to-behavior gap held in the same frame."

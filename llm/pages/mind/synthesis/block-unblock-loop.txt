@@ -4,15 +4,32 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-07-18
+date_modified: 2026-07-26
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
   - "raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md"
   - "raw/self/message-csv/messages_3476070497_all_time.csv"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+synthesizes:
+  - wiki/people/annie-ulmer
+  - wiki/people/tom
+  - wiki/people/kristin
+  - wiki/people/rick-frank
+  - wiki/people/menore
+  - wiki/people/milo
+  - wiki/timeline/events/march-2026-terminal-phase
+  - wiki/timeline/events/july-2026-recontact
+  - wiki/mind/concepts/attachment-model
+  - wiki/mind/concepts/conflict-architecture
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
+  - page: wiki/people/milo
+    type: evidenced-by
+    claim: "The dog is the case that widens the dependency rule: the channel whose survival defeats a block need not carry money, drugs or logistics — only something still needed."
+  - page: wiki/timeline/events/july-2026-recontact
+    type: instance-of
+    claim: "The live test of the dependency rule: the June 1 block held 52 days — the only severance in the record ever to survive past 48 hours — and failed on a channel that carried no money, drugs or logistics, only a shared dog."
   - page: wiki/people/annie-ulmer
     type: contains
     claim: "The central case: 127 exit declarations against 110 re-engagements (87% relapse, DERIVED) — and the loop ran on her side too, in the March 19–20 2026 block-unblock-block sequence."
@@ -61,11 +78,14 @@ whether a given severance will hold.
 
 ## The rule
 
-**A block holds if and only if nothing Dan needs still flows through
-the channel.** The block itself is an emotional act; it changes the
-channel's state but not the dependency behind it. When a dependency —
-supply, attachment, validation — still runs through the blocked
-channel, the dependency reopens it, usually quickly, and usually
+**A block holds if and only if nothing either party still needs flows
+through the channel — and what is needed need not be material.** The
+block itself is an emotional act; it changes the channel's state but not
+the dependency behind it. (The clause about materiality was added
+2026-07-26, after the June 1 closure held 52 days against a dead supply
+channel and then failed anyway, through a shared dog; see "What this
+changes" below.) When a dependency — supply, attachment, validation, a
+co-held object — still runs through the blocked channel, the dependency reopens it, usually quickly, and usually
 disguised as something other than contrition. When the dependency is
 dead, the block is permanent and effortless, with no relapse
 documented at all.
@@ -80,6 +100,7 @@ documented at all.
 | 2022 repatriation | — (the reverse operation) | Continuity value rediscovered | Deliberate, ramped return |
 | [[wiki/people/kristin]] (inbound) | She blocks Dan, Dec 9 2025 | She needed nothing from him | Held |
 | [[wiki/people/menore]] (control) | No block — farewell text, Feb 20 2025 | Dependency ended by geography | Clean close, no loop |
+| [[wiki/people/annie-ulmer]] 2026 | June 1 group-chat closure | Supply and money dead; [[wiki/people/milo]] still co-held | Held 52 days, then reopened |
 
 The two control rows carry the argument. Rick's amputation is the
 proof that Dan *can* hold a severance indefinitely — the capacity is
@@ -140,13 +161,46 @@ an exhaustible Fe function.
   terminal event, and — per the repair-asymmetry — its reversal should
   never be read as an apology. Both are channel-state toggles governed
   by dependency, not verdicts.
-- **The June 1, 2026 closure test.** The Annie closure is the loop's
-  live experiment: the first exit attempted *after* her material
-  dependency on his supply ended (the Marucas job) and after a decade
-  of 87% relapse. The rule predicts this one can hold where the
-  previous 110 could not — and the post-closure record (one apology
-  received June 5, no documented re-engagement from Dan's side) is,
-  so far, consistent with that prediction.
+- **The June 1, 2026 closure test — RESOLVED, and it cost the rule a
+  qualifier.** The Annie closure was this page's one live experiment:
+  the first exit attempted *after* her material dependency on his
+  supply ended, against a decade of 87% relapse. The prediction was
+  that it could hold. It held **fifty-two days** — better than any of
+  the previous 127 by an order of magnitude, all of which reopened
+  inside 48 hours — and then failed on July 23, 2026, running 624
+  messages across four days
+  ([[wiki/timeline/events/july-2026-recontact]]).
+
+  Read narrowly, the rule survives intact: something *was* still
+  flowing through the channel, so the block was never predicted to be
+  permanent. But the page had scored the dependency as dead because it
+  was reading dependency as **material** — supply, money, logistics,
+  the categories every row of the table above is built from. What
+  actually reopened the channel was [[wiki/people/milo|the dog]]: an
+  email from Annie over the July 4 weekend asking whether he had been
+  frightened by fireworks, which Dan answered nineteen days later.
+  Three earlier approaches from her in June — including a request for
+  financial paperwork, the most characteristic contact shape in the
+  entire terminal phase — went unanswered. The material channel really
+  was dead. The rule still fired.
+
+  **The corrected rule: a block holds if and only if nothing either
+  party still needs flows through the channel — and what is needed
+  need not be material.** A shared attachment object counts. This is
+  not a softening; it makes the rule harder to satisfy, and it means
+  the two control rows have to be re-read. Rick's amputation held for a
+  decade not merely because no supply flowed, but because nothing was
+  co-held. Menore's clean close is the same story: a purely
+  transactional channel has nothing left in it once the transaction
+  ends. The severances that hold are the ones with nothing jointly
+  owned on the other side.
+
+  What the 52 days do establish, and should not be lost in the
+  correction, is that **duration is not the variable.** Fifty-two days
+  of successful abstinence collapsed inside eight hours of the channel
+  reopening, with Dan narrating the relapse as it happened — "so i will
+  reset the 'days since i talked to annie' clock." Time away does not
+  weaken the loop. Only the death of the last shared thing does.
 
 ## Gaps
 
@@ -156,6 +210,12 @@ an exhaustible Fe function.
 - Whether the Tom channel reopened after May 30, 2026 is undocumented
   — the record simply ends; the rule's prediction for it is on the
   record above and is falsifiable by the next data drop.
+- The corrected rule has not been re-tested against the long tail. Every
+  row in the table was scored on material dependency alone, so any case
+  with a co-held object — a pet, a lease, a child, a shared account —
+  may have been scored wrong in the same direction the Annie row was.
+- Whether the July 26 goodbye holds is open. The rule now predicts it
+  does not, because the dog has not stopped being co-held.
 - Blocking events with minor contacts (the long tail) have not been
   systematically mined; the loop's frequency outside intense bonds is
   unmeasured.

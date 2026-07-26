@@ -6,12 +6,21 @@ title: "The Ancestral Dialectic: Ashkenazi Hypervigilance vs. Appalachian Numbne
 aliases: ["Dan Frank OS", "the binary engine"]
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-17
+date_modified: 2026-07-26
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
 tags: [uniontown-era, relationships, family, addiction-recovery, nyc-era]
 connections:
+  - page: wiki/self/lineage/family-tree
+    type: evidenced-by
+    claim: "The 515-individual GEDCOM is the documentary basis for the dialectic's two source-lines, fixing the immigration and Appalachian records as fact rather than family story."
+  - page: wiki/self/lineage/23andme-genomics
+    type: evidenced-by
+    claim: "The genomic export corroborates the same two lines biologically — the Ashkenazi signal and the sub-regional European mapping — independently of the paper trail."
+  - page: wiki/self/lineage/hybrid-analysis
+    type: contains
+    claim: "The hybrid analysis holds this page's evidentiary workings, and flags where the reading crosses from corroborated fact into interpretive frame."
   - page: wiki/self/ancestry
     type: evidenced-by
     claim: "The family-tree record — pogrom-era paternal immigration, the Fayette County maternal coal network — is the primary data the two-OS frame is built on."

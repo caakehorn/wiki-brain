@@ -4,7 +4,7 @@ page_type: entity
 title: "Gabe"
 status: closed
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-07-26
 date_range_start: 2008-08
 date_range_end: 2023-11
 sources:
@@ -22,6 +22,10 @@ infobox:
   location: nyc
   first_contact: 2008-08
   known_for: "Origin and end (per Dan directly, 2026-07-14): Gabe was adopted the"
+connections:
+  - page: wiki/people/milo
+    type: parallels
+    claim: "Gabe and Milo are both deliberately provocative namings Dan uses as a social tripwire, reading how a stranger reacts to the name rather than to the animal."
 ---
 
 # Gabe

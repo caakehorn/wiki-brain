@@ -6,6 +6,17 @@
 > targets). `bin/wiki-connect check` is a commit gate alongside
 > `bin/wiki-lint`. Read `STRATEGY.md` if this is your first session.
 
+> **Synthesis addendum (2026-07-26):** ingest raises the floor; it is not
+> the whole job. `SYNTHESIS_SPEC.md` adds the **CLIMB** operation and the
+> `synthesizes:` field (wiki pages a page reasons FROM, as against
+> `sources:` for raw paths). Two obligations land on every ingest pass:
+> (1) `bin/wiki-climb check` joins the commit gates, and a page it marks
+> **stale** must be re-checked against its moved premise rather than
+> date-bumped; (2) when a pass touches a page that some synthesis page
+> reasons from, expect to owe that synthesis page a look. If an ingest
+> makes you think "this is the third time I've seen this shape," stop and
+> climb instead of filing the fourth instance.
+
 > Self-contained instruction. Hand this to any model/agent and it should be able to
 > perform the task exactly as done on 2026-07-15: read Phase B RAW sources,
 > file them into `raw/`, and write ~5,000 words per pass of NEW connective

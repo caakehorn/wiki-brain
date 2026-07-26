@@ -23,6 +23,48 @@
 - **Phase 3 (Synthesis):** 5 of 12 done (forensic-methodology, attachment-trauma-bond, totality-themes, ai-collaborative-analysis, political-psyops).
 
 ## 🚀 Current Focus & Next Steps
+
+**⚠️ READ FIRST (2026-07-26): two things changed at the foundation.**
+
+**1. The Annie relationship is not closed.** `wiki/people/annie-ulmer.md` was
+`status: closed` and treated as historical across the wiki. A fresh export
+shows contact resumed **2026-07-23** after a 52-day silence and ran 624
+messages across four days, ending mid-event at 05:04 on 2026-07-26 with an
+unanswered "whatever goodbye annie." The page is now `active`. The new event
+page is `wiki/timeline/events/july-2026-recontact.md`. **The next export of
+that thread is the single highest-value pending ingest in the repository**
+(queue.md, top of file) — the event is open, not concluded. Do not write
+about this relationship in the past tense.
+
+Two things in that event have consequences beyond the page. The
+block/unblock loop's dependency rule was **falsified and widened** — it had
+predicted the June 1 severance could hold, scoring the dependency as dead
+because it read dependency as material; the channel reopened through the dog
+([[wiki/people/milo]]), and the rule now reads "nothing either party still
+needs flows through the channel — and what is needed need not be material."
+And the forensic apparatus was aimed outward for the first time: Dan built
+two public dashboards from the message corpus and sent them to Annie as
+leverage (`caakehorn.github.io/leviathan/`), documented on
+`wiki/mind/concepts/forensic-method.md`.
+
+**2. There is a fourth operation: CLIMB.** `SYNTHESIS_SPEC.md` (new, repo
+root, mandatory reading) formalizes what CLAUDE.md always claimed but never
+enforced — that finished pages are premises. New frontmatter field
+`synthesizes:` (wiki pages a page reasons FROM; `sources:` stays raw-only).
+New tool `bin/wiki-climb` with three subcommands, and **`bin/wiki-climb
+check` is now a third commit gate alongside wiki-lint and wiki-connect
+check**. It reports *stale* pages — ones whose premises were modified after
+they were. **Clearing a stale warning by bumping `date_modified` is the one
+prohibited move in the system**: re-read what changed in the premise, decide
+whether the conclusion survives, and record either a re-check line or a
+REVISED block.
+
+The altitude baseline as of adoption: **3.6% of pages sit above ground
+level**, and `self`, `timeline`, `work` and `places` each have 3+ pages with
+nothing above any of them. `synthesis-queue.md` holds 25 mined clusters.
+Working it top-down is now a first-class campaign alongside the connections
+retrofit — see STRATEGY.md "Current campaign."
+
 **Swarm-stub rewrite task — COMPLETE (2026-07-20, PR #59, open/draft):**
 Operator directive: "let's rewrite 5 agent swarm entries at a time" —
 targeting the 12 remaining untouched 2026-06-23 swarm-template stub

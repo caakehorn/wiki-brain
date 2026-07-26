@@ -1,10 +1,13 @@
 # Style Guide — Personal Wiki
 
 The binding rules for every page in `wiki/`. CLAUDE.md holds the operating
-process (ingest/query/lint); this file holds the page format. When the two
+process (ingest/query/climb/lint); this file holds the page format;
+`CONNECTIONS_SPEC.md` holds the edge format; `SYNTHESIS_SPEC.md` holds the
+altitude rules — how conclusions stack on conclusions. When any two
 disagree, this file wins on formatting, CLAUDE.md wins on process.
-`bin/wiki-lint` mechanically enforces the vocabularies below — run it before
-every commit.
+`bin/wiki-lint`, `bin/wiki-connect check` and `bin/wiki-climb check`
+mechanically enforce the vocabularies below — run all three before every
+commit.
 
 ## Frontmatter
 
@@ -17,10 +20,28 @@ page_type: entity | event | concept | period | summary | synthesis | profile | r
 status: active | stable | stub | closed | archived
 date_created: YYYY-MM-DD
 date_modified: YYYY-MM-DD
-sources: []    # real raw/ paths that exist on disk
-related: []    # wiki page paths (no .md extension needed)
+sources: []    # real raw/ paths that exist on disk — T0 evidence
+related: []    # wiki page paths (no .md extension needed) — DEPRECATED, use connections:
 ---
 ```
+
+**`sources:` vs `synthesizes:` — keep the two straight.** `sources:` is for
+paths under `raw/` and nothing else. `synthesizes:` is for wiki pages this
+page *reasons from* — the premises it stands on. A `wiki/` path inside
+`sources:`, or a `raw/` path inside `synthesizes:`, is a `bin/wiki-climb
+check` error.
+
+```yaml
+synthesizes:                  # wiki pages this page reasons FROM
+  - wiki/people/annie-ulmer
+  - wiki/people/tom
+```
+
+Declaring `synthesizes:` takes on an obligation: when one of those pages is
+modified after this one, `bin/wiki-climb check` marks this page **stale**,
+and clearing it means re-reading what changed and deciding whether the
+conclusion survives — not bumping `date_modified`. Full rules, the altitude
+ladder, and the CLIMB operation: `SYNTHESIS_SPEC.md`.
 
 Optional fields (adopted 2026-07-11 — use when they add value, never
 invent new ones):
@@ -165,6 +186,30 @@ genuine contradictions; but do not hedge documented conclusions into mush.
 **Gaps are content.** If something important is unknown (why the 2021–22
 corpus goes near-silent, where he'll live after the house sells), say so
 in a **Gaps** line rather than silently omitting the topic.
+
+**Height is content too.** A page that only reports is doing half the job.
+Where the material you are holding is the third or fourth instance of a
+shape you have seen elsewhere in the wiki, say so on the page and name the
+shape — and if there is no page above it yet, that is a CLIMB candidate, not
+a footnote (`SYNTHESIS_SPEC.md`). The wiki's product is not the facts; it is
+what the facts turn out to be instances of.
+
+**Say what would prove you wrong.** Any page carrying an argued conclusion —
+every `page_type: synthesis`, most `concept` pages, the load-bearing reads on
+entity pages — should state, in the body, what it predicts and what would
+falsify it. This is not hedging; it is the opposite. "The rule predicts this
+severance holds" is a claim the corpus can settle. "Dan's relationships are
+shaped by attachment" is not.
+
+**When a prediction is settled, record the resolution — never edit the
+prediction away.** A conclusion that turns out wrong, corrected in place with
+its original visible, is the most valuable artifact this repository
+produces: it is where the model of Dan actually improves. The worked
+examples are `wiki/mind/synthesis/block-unblock-loop.md` (predicted the June
+2026 severance could hold; falsified 52 days later; the rule is now wider and
+the failure is on the page) and the Closing Note on
+`wiki/people/annie-ulmer.md`. Quietly deleting a falsified claim destroys
+knowledge; flagging it creates some.
 
 **Exemplars:** `wiki/people/annie.md`, `wiki/people/suz.md`, and
 `wiki/timeline/events/eli-incident.md` show the standard. Before rewriting
