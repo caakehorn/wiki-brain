@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-07-19
+date_modified: 2026-07-26
 sources:
   - "raw/self/dox-md/MAX_PRIME.md"
   - "raw/self/dox-md/operating_manual.md"
@@ -13,6 +13,9 @@ sources:
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/timeline/events/july-2026-recontact
+    type: mirrors
+    claim: "Dan's 2:45 AM refusal on July 26 2026 — asked for drugs by a woman stating she was about to kill herself — is the network's only documented refusal under pressure, inverting the terminal phase's finding that his provision was unconditional."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: parallels
     claim: "Dependency predicts which severances hold: Tom's blocks failed while he was the sole node, and Menore's channel closed cleanly when geography ended the need — the loop and the network share one governing variable."

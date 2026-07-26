@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-20
+date_modified: 2026-07-26
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -14,6 +14,12 @@ sources:
   - "raw/self/dox-md/Reassessing with fresh perspective.md"
 tags: [relationships, attachment, addiction-recovery, trauma-bond, infidelity]
 connections:
+  - page: wiki/timeline/events/group-chat-closure
+    type: evidenced-by
+    claim: "The model predicts a bond that cannot close without an unambiguous external severance signal; June 1 2026 is the only event in the corpus that supplied one."
+  - page: wiki/timeline/events/july-2026-recontact
+    type: evidenced-by
+    claim: "Fifty-two days of successful no-contact collapsed within eight hours of the channel reopening, and Dan named the relapse while running it ('reset the days since i talked to annie clock') — duration of abstinence does not weaken the bond."
   - page: wiki/mind/psychosexual/emotional-imprinting
     type: parallels
     claim: "'Crush activation on contact' with no off switch and this model's no-counter-rule architecture are structurally identical claims from independent source bases — dossier theory and primary corpus converging."

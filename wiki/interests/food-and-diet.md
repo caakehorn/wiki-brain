@@ -12,7 +12,7 @@ sources:
   - wiki/work/tech/max-framework/overview
   - wiki/people/alex-frank
   - wiki/self/youtube-watch-history
-tags: [health, nyc-era, uniontown-era]
+tags: [physical-health, nyc-era, uniontown-era]
 knowledge: mixed
 ---
 

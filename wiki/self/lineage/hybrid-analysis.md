@@ -6,9 +6,11 @@ knowledge: mixed
 date_created: 2026-07-25
 date_modified: 2026-07-25
 sources: []
-tags: [analysis, heritage, psychology]
-connections: 
+tags: [family, personality-profile]
+connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
+    type: component-of
+    claim: "This page is the dialectic's evidentiary workings — where the genomic and documentary records are set against each other — and it flags its own conclusions as an interpretive frame rather than a clinical finding."
 ---
 
 # Hybrid Lineage Analysis

@@ -5,10 +5,14 @@ status: active
 date_created: 2026-07-25
 date_modified: 2026-07-25
 sources: ["raw/self/ancestry/dna-reports/Ancestry Composition - 23andMe.pdf", "raw/self/ancestry/dna-reports/chromosome.pdf", "raw/self/ancestry/dna-reports/health.pdf"]
-tags: [dna, genetics, 23andme]
-connections: 
+tags: [family, physical-health]
+connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
+    type: evidences
+    claim: "The Ashkenazi signal and the sub-regional European mapping are the biological half of the dialectic, corroborating from DNA what the paper trail already showed."
   - page: wiki/health/chemical-architecture
+    type: contextualizes
+    claim: "The 95th-percentile Neanderthal variant load is offered as background to the chemical architecture rather than a cause of it — the PheWAS links to mood, nicotine and chronotype are population-level associations, not a finding about Dan."
 ---
 
 # 23andMe Genomics

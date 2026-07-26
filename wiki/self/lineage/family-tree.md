@@ -5,11 +5,17 @@ status: active
 date_created: 2026-07-25
 date_modified: 2026-07-25
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/ancestry/extracted/"]
-tags: [family, ancestry, genealogy]
-connections: 
+tags: [family]
+connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
+    type: evidences
+    claim: "The documentary record supplies the dialectic's two source-lines as fact rather than metaphor: Russian and Austrian immigration on the paternal side against Fort Martin, WV and Fayette County roots on the maternal."
   - page: wiki/self/overview
+    type: contextualizes
+    claim: "The 515-individual GEDCOM fixes the birth dates, places and relations the overview asserts in prose, making it the documentary backstop for every biographical claim about family."
   - page: wiki/self/location-history
+    type: parallels
+    claim: "Multi-generational residence in Fayette County reproduces, in the genealogical record, the same geographic concentration the location export shows in Dan's own movement."
 ---
 
 # Family Tree
