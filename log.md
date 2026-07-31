@@ -874,3 +874,28 @@ draft. Two small typos introduced during the rewrite (a duplicated word,
 a garbled date) were caught and fixed before commit. bin/wiki-lint: 0
 errors (advisory size warning only, exempt as a critical hub page).
 bin/wiki-connect check: 0 errors.
+
+## [2026-08-01] climb | mind | alias-as-periodization.md — new T2 junction page
+Climbed synthesis-queue cluster #14 (score 12.80, domains interests+mind:
+the three alias pages, the music overview, and totality-themes). The rule:
+every alias change coincides with a life-period boundary, and no alias change
+coincides with a change in either musical invariant — the involuntary 63-85%
+sub-bass band or the complete absence of sung original lyrics. The individual
+alias pages each describe their rename as an artistic progression; read across
+each other that progression dissolves, because all three independently report
+the same measurement and the same remix-only output. Conclusion: the alias is
+a periodization device, not a style, and an alias boundary is therefore
+admissible evidence for dating a life transition independent of any narrative
+around it. Stated with three explicit falsifiers, and three gaps named on the
+page (mogged-up unexamined, the 2014/2015 handoff overlap unresolved, and the
+63-85% figure asserted three times from a single provenance rather than
+re-measured per alias).
+
+Loop closed both ways: the page declares synthesizes: over its five members,
+and sloppp / mogzart / gripnotic each gained an instantiates edge back into it.
+Linked from wiki/interests/music/overview, where the existing sentence claiming
+the aliases map to distinct "periods and aesthetics" is now explicitly disputed
+rather than left to disagree silently.
+
+bin/wiki-lint: 0 errors, no orphan. bin/wiki-connect check: 0 errors.
+bin/wiki-climb check: 321 pages, 12 with synthesizes:, 0 errors, 0 warnings.
