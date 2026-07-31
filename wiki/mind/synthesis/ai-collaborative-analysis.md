@@ -61,6 +61,9 @@ connections:
   - page: wiki/work/tech/ai-video-essays
     type: evidenced-by
     claim: "Requesting a data stress-test of his own creative-project hypothesis, then accepting a result that flatly contradicted his premise, is the honesty-enforcement pattern applied to a personal ambition rather than forensic or political material."
+  - page: wiki/mind/synthesis/instrument-is-subject
+    type: instantiates
+    claim: "The methodological consequence of this page: because LLM use is a documented daily organ of the subject, the same class of tool cannot serve as an independent observer of him, and interpretive output must carry provenance upward through every climb."
 ---
 
 
@@ -99,7 +102,9 @@ not oracle to be consulted — recurs across the corpus.
 prompt ([[wiki/mind/concepts/exocortex]]) forces models into
 "absolute and unwavering honesty": no softening, no balancing, conclusions
 with evidence and confidence levels, built for 100k+-message corpora. This
-wiki's own quality standard is downstream of that directive.
+wiki's own quality standard is downstream of that directive. See
+[[wiki/mind/synthesis/instrument-is-subject]] for what that inheritance costs:
+the repository's evidentiary standard is an artifact of its own subject.
 
 **Profile locking and cross-model transfer.** Gemini sessions lock named
 memory nodes into persistent profile state — Separation Logistics, The

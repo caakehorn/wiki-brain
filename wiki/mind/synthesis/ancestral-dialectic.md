@@ -39,6 +39,9 @@ connections:
   - page: wiki/self/overview
     type: mirrors
     claim: "The report's gravity-wins reading of the returns and the overview's deliberate-seal reading are independently arrived-at, inverted framings of the same fact set — both can be true."
+  - page: wiki/mind/synthesis/instrument-is-subject
+    type: instantiates
+    claim: "This page is the worked example of the provenance rule: an interpretive frame that arrived knowledge: mixed and must not have that status laundered by anything that later reasons from it."
 ---
 
 

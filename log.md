@@ -899,3 +899,36 @@ rather than left to disagree silently.
 
 bin/wiki-lint: 0 errors, no orphan. bin/wiki-connect check: 0 errors.
 bin/wiki-climb check: 321 pages, 12 with synthesizes:, 0 errors, 0 warnings.
+
+## [2026-08-01] climb | mind | instrument-is-subject.md — new T3 doctrine
+Climbed the densest recurring signal in the queue: ai-collaborative-analysis
+appears in five separate unclimbed clusters (#2, #3, #8, #16, #17), which is
+the strongest unanswered pattern the candidate miner has ever produced.
+
+Three facts already recorded separately and never put in one sentence: this
+wiki is written by an LLM; its subject uses LLMs as a documented daily
+cognitive organ; and its evidentiary standard is downstream of a prompt that
+subject wrote. Together they give the project's governing methodological
+constraint — the instrument compiling the second brain is the same class of
+instrument that is one of its subjects, so no page here is an independent
+observation of that relationship.
+
+The operational finding, which is the point: the contamination compounds with
+ALTITUDE. An interpretive frame enters as T2 marked knowledge: mixed; a T3
+climbs from it; if provenance does not travel, a model's reading of Dan has
+been silently promoted to a premise about Dan. Rule: knowledge: must propagate
+upward — a page synthesizing a mixed page cannot be earned unless it adds
+primary evidence.
+
+Introduces a distinction the repository has been making implicitly and never
+by name: RESIDUE (timestamps, alias boundaries, watch histories — produced for
+other reasons, admissible) vs TESTIMONY (AI readings, self-descriptions,
+dossiers — produced to characterize, requiring provenance). Testimony cannot
+become residue by being cited three times.
+
+Page names three falsifiers and three gaps, including that it is itself an
+instance of the problem it describes and a reader may reject its claim to
+knowledge: earned.
+
+bin/wiki-lint: 0 errors, no orphan. bin/wiki-connect check: 0 errors.
+bin/wiki-climb check: 322 pages, 13 with synthesizes:, 0 errors, 0 warnings.
