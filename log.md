@@ -1069,3 +1069,43 @@ should be treated as resting on three and a half.
 
 bin/wiki-lint: 0 errors, no orphan. bin/wiki-connect check: 0 errors.
 bin/wiki-climb check: 327 pages, 18 with synthesizes:.
+
+## [2026-08-01] measure | mind | contact-gini + single-channel — the 0.961 recomputed
+Executed the operation single-channel.md named as the repository's highest
+value: the contact Gini had been QUOTED from a profile document since it was
+first written and never recomputed. Recomputed directly from
+raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv — 184,359 rows, 105,405 with a
+contact handle.
+
+RESULT: 0.9601 across 496 unique handles. The quoted 0.961 survives to three
+decimals and the handle count matches exactly. The load-bearing measurement of
+the concentration architecture has moved from testimony to residue.
+
+But the per-year computation falsified a clause nobody had stated explicitly:
+that the concentration is a fixed disposition. It is not. Per year it ranges
+0.746 (2023) to 0.9576 (2025), with top-1 share from 25.4% (2020) to 84.4%
+(2017). Lifetime top-5 share is 70.1% — five handles carry seven-tenths of the
+archive.
+
+The sharpest finding is the 2025 row. The year the primary channel was failing
+is simultaneously the HIGHEST-concentration year (0.9576) and the
+HIGHEST-volume year (33,214 messages) in the entire archive. The response to a
+channel under stress was not to distribute away from it but to push more
+through it — which turns "no failover" from an inference into a mechanism
+stated in the data: a system with no failover does not reroute under load, it
+escalates into the failing path.
+
+single-channel.md revised per STRATEGY.md: the falsified narrow form of the
+rule is struck through and left visible rather than deleted, the rule is
+widened to a dynamic claim, falsifier 2 is marked SETTLED with its result, and
+the mechanism paragraph is added to the failover section.
+
+Two new gaps, both material. 69,953 rows — 38% of the archive — carry a blank
+contact_handle and were excluded; if those nulls are not randomly distributed
+every coefficient moves, and establishing what they are is now the highest-value
+next operation. And coverage before 2015 is too thin to compute (2015 itself
+shows only 11 handles, which is a statement about export coverage and not about
+a social world), so the dynamic claim rests on 2016-2026 only.
+
+bin/wiki-lint: 0 errors. bin/wiki-connect check: 0 errors.
+bin/wiki-climb check: 327 pages, 18 with synthesizes:, 0 errors, 0 warnings.

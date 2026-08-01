@@ -54,6 +54,16 @@ The wiki has been documenting the same shape one domain at a time without
 naming it. This page names it, and the naming has a consequence: **a
 single-channel architecture has no failover.**
 
+> **REVISED 2026-08-01 — the measurement held, one clause of the rule did not.**
+> The Gini has been recomputed from the master CSV rather than quoted:
+> **0.9601 across 496 handles**, confirming 0.961 to three decimals. But the
+> per-year computation falsifies the implicit claim that concentration is a
+> fixed disposition. It ranges **0.746 to 0.958**, and the tightest year is
+> **2025 — the collapse — which is also the highest-volume year in the
+> archive.** Concentration is not a constant; it *responds to load*. The rule
+> below is widened accordingly, and the original narrower form is left visible
+> rather than deleted.
+
 ## The four instances
 
 | Domain | Distributed alternative | What is actually there |
@@ -80,9 +90,14 @@ it is the architecture.**
 
 ## The rule, stated so it can be broken
 
-> In every domain where distributing load is available to him, load is
-> concentrated on one channel instead. The concentration is not a byproduct of
-> circumstance — it reproduces across domains that share no circumstances.
+> ~~In every domain where distributing load is available to him, load is
+> concentrated on one channel instead, *as a fixed property*.~~
+>
+> **Widened after measurement:** in every domain where distributing load is
+> available, load is concentrated on one channel instead — and **the
+> concentration is dynamic, tightening as load rises rather than holding
+> constant.** It reproduces across domains sharing no circumstances, so it is
+> not circumstantial; but it is a *response*, not a setting.
 
 Three falsifiers:
 
@@ -90,10 +105,11 @@ Three falsifiers:
    several simultaneous close confidants carrying comparable load, or evaluative
    criteria that differ by domain. Any one of these narrows the rule to the
    remaining domains.
-2. **The Gini not surviving recomputation.** 0.961 is quoted from a profile
-   document, not recomputed here. If it is an artifact of the window chosen —
-   for instance a window centred on the relationship's peak — the measured
-   instance collapses to an asserted one.
+2. ~~**The Gini not surviving recomputation.**~~ **SETTLED 2026-08-01 — it
+   survived.** Recomputed at 0.9601 over 496 handles, high in every year
+   measured and never below 0.746. Not an artifact of one window. What the
+   recomputation *did* break was the constancy assumption, which is why the rule
+   above is now stated dynamically.
 3. **Circumstance rather than architecture.** A small county, a narrow social
    field and a decade-long relationship would concentrate anyone's contact
    graph. If a comparable Gini shows up in demographically similar people, this
@@ -114,8 +130,15 @@ been one. `the-unbroken-bond` records what followed: the severance held **52
 days** and then failed, with **624 messages across four days** on recontact. The
 usual reading is that the bond was unusually strong. The architectural reading
 is simpler and worse: **there was nowhere else for the traffic to go.** A
-0.961 Gini means the alternatives were never built, and they could not be
+0.960 Gini means the alternatives were never built, and they could not be
 improvised in seven weeks.
+
+The per-year recomputation sharpens this from an inference into something closer
+to a mechanism. **2025 — the year the channel was failing — is simultaneously
+the highest-concentration year (0.9576) and the highest-volume year (33,214
+messages) in the entire archive.** The response to a channel under stress was not
+to distribute away from it. It was to push *more* through it. A system with no
+failover does not reroute under load; it escalates into the failing path.
 
 The same exposure exists, unexercised, in the other three domains. One alias
 carries the entire creative identity. One offboard processor carries memory and
@@ -141,12 +164,18 @@ cost is that the chosen carries everything, and it carries it alone.
 
 ## Gaps
 
-- **The Gini is quoted, not recomputed.** `contact-gini` sources it to a
-  profile document. `MASTER_MESSAGES_DB_DUMP.csv` is on disk and the coefficient
-  is straightforward to recompute per year — doing so would convert the central
-  measurement from testimony to residue, and would also show whether the
-  concentration is stable or an artifact of one era. **This is the single
-  highest-value next operation in the repository.**
+- ~~**The Gini is quoted, not recomputed.**~~ **CLOSED 2026-08-01.** Recomputed
+  per year from the master CSV; the lifetime figure held, the constancy
+  assumption did not. Full table on `contact-gini`.
+- **38% of the archive is excluded.** 69,953 of 184,359 rows carry a blank
+  `contact_handle` and could not be attributed. If those nulls are not randomly
+  distributed, every coefficient moves — a null-heavy bias toward *one* contact
+  inflates the concentration, a bias toward many deflates it. **This is now the
+  highest-value next operation:** establish what the unattributed rows are before
+  treating 0.9601 as final.
+- **Coverage is uneven before 2015.** Years prior to 2015 and the 2021–22 window
+  fall below a 200-message floor, and 2015 itself shows only 11 handles. The
+  dynamic claim rests on 2016–2026 and cannot speak to the earlier period.
 - **No base rate.** Falsifier 3 stands unanswered. Nothing here compares the
   coefficient against a demographically similar population, so "architectural"
   remains a reading.
