@@ -994,3 +994,41 @@ defensible span is seventeen years from 2009 rather than from graduation.
 
 bin/wiki-lint: 0 errors (3 advisory size warnings). bin/wiki-connect check:
 0 errors. bin/wiki-climb check: 325 pages, 16 with synthesizes:, 0 errors.
+
+## [2026-08-01] climb | mind | fayette-return.md — new T2 junction
+Climbed synthesis-queue cluster #23 (score 12.20, people+mind+self: the four
+paternal-line pages, self/ancestry, ancestral-dialectic). Targets the domain
+the climb audit flagged hardest — people carries 143 ground pages and almost
+nothing above them.
+
+The rule: no member of the paternal Frank line from G2 onward has both left
+Fayette County and ended elsewhere. Four generations, ~130 years, three towns
+inside twenty miles. The corpus already held this in pieces — the ancestry
+note's "elastic tether", and an edge on morley-frank calling the Seattle-and-
+back arc "the geographic template Dan's own returns repeat" — but it existed
+only as scattered edge claims. A rule is a different object from an
+observation: it can be broken, and three falsifiers are stated.
+
+Two things the page does that the loose observation could not. First it
+handles G3: Rick has no attested departure at all, which forces the rule into
+its better-supported form — not "departure implies return" (which he satisfies
+vacuously) but "the terminus is always Fayette", which includes him directly.
+Second it reframes Dan's own returns, which the timeline files individually as
+collapses and retreats, as the fourth iteration of a pattern with a 100%
+completion rate; two of his life periods are literally named for coming back.
+
+Raises a parsimony problem for ancestral-dialectic and records it on both
+pages rather than letting them disagree silently: the return is fully
+documented within the paternal line alone, whose immigrant ancestors are both
+the Ashkenazi side, so a two-line dialectic is not required to explain it. Per
+instrument-is-subject the distinction is the operative one — the dates, places
+and termini are residue; the psychogenealogical mechanism is testimony.
+
+Also makes a scoreable prediction: if the rule holds, the current tenancy at
+337 Saratoga is not the end state. Four gaps named, the largest being that the
+maternal line is unassessed and may make the pull regional rather than lineal,
+and that no regional base rate has been computed — Fayette out-migration was
+heavy, so a family that stays may be typical rather than distinctive.
+
+bin/wiki-lint: 0 errors, no orphan. bin/wiki-connect check: 0 errors.
+bin/wiki-climb check: 326 pages, 17 with synthesizes:, 0 errors, 0 warnings.
