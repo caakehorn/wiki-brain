@@ -39,10 +39,18 @@ connections:
   - page: wiki/self/overview
     type: mirrors
     claim: "The report's gravity-wins reading of the returns and the overview's deliberate-seal reading are independently arrived-at, inverted framings of the same fact set — both can be true."
+  - page: wiki/mind/synthesis/instrument-is-subject
+    type: instantiates
+    claim: "This page is the worked example of the provenance rule: an interpretive frame that arrived knowledge: mixed and must not have that status laundered by anything that later reasons from it."
 ---
 
 
 # The Ancestral Dialectic: Ashkenazi Hypervigilance vs. Appalachian Numbness
+
+> **Contested.** [[wiki/mind/synthesis/fayette-return]] shows the
+> return dynamic is fully documented within the paternal line alone, so a
+> two-line dialectic may be over-specified for it. The geography there is
+> residue; the psychology here is testimony.
 
 A long-form Gemini "deep research" report titled *"The Dan Frank OS: A
 Psychogenealogical Architecture of Collapse and Recursion"* — built from

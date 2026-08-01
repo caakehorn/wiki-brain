@@ -51,6 +51,9 @@ connections:
   - page: wiki/people/ryan-lisac
     type: parallels
     claim: "The 'Snob Squad' name road-tested here for the 2026 DJ-identity relaunch is a deliberate callback to the childhood-era vocabulary originated around Ryan Lisac, not a coincidence of naming."
+  - page: wiki/mind/synthesis/single-channel
+    type: instantiates
+    claim: "One of the unifying structures this page gestures at, stated as a rule with a failure mode: load is concentrated on one channel per domain, and a single-channel architecture has no failover."
 ---
 
 

@@ -4,7 +4,7 @@ page_type: entity
 title: "155 Virginia Ave"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-08-01
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
@@ -18,6 +18,9 @@ related:
   - wiki/places/337-saratoga-drive
 tags: [financial-stress, housing, relationships, uniontown-era, legal]
 connections:
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: evidences
+    claim: "Lair-continuity — the apartment leased for Alexis becoming the apartment Annie moves into — is the spatial signature of retaining the container while swapping the occupant."
   - page: wiki/timeline/periods/uniontown-return-2013-2015
     type: component-of
     claim: "The January 2015 move here happens inside the Uniontown-return period, and the lair-continuity it seeds is that period's pivotal physical fact."

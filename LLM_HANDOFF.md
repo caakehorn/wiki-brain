@@ -6,6 +6,25 @@
 
 ---
 
+### [2026-08-01] - Session: Two-sided contact Gini + climb (dormancy-not-exit)
+* **Model:** claude-opus-5 / Claude Code
+* **Branch/PR:** `claude/wiki-brain-synthesis-queue-90bd73` → wiki-brain PR #69 (draft). Companion work in leviathan PR #55.
+* **Summary:**
+  - **Settled the two-sided contact Gini.** Recovered the outbound recipients the export drops (78.5% of `Sent` rows) by pairing each `Sent` row to the attributed `Received` rows around it. Held out the 19,119 attributed `Sent` rows entirely as ground truth; bracket@30min scores 96.6% accuracy at 67.4% coverage against a 57.2% modal-handle control. Leave-one-out on `Received` extends validation to every year from 2015 (93.1-99.4%).
+  - **Bias check decided how the figures may be quoted:** imputation INFLATES concentration (+0.0225 bracket, +0.0996 nearest on held-out data), so every imputed number is an upper bound. The conclusion rests instead on 2026 (99.8% attributed outbound — no imputation at all: ten outbound handles against eighteen inbound) and on the tail-strip (above 25 messages the two sides agree to four decimals).
+  - **Result: the architecture is symmetric and narrower going out.** Two-sided Gini 0.9591-0.9636. The narrow-inbound-funnel / wide-outbound-spread alternative is falsified. 495 handles wrote in, 303 got anything back, and the 193 that drew nothing carry a median of one message each.
+  - **CLIMB: `wiki/mind/synthesis/dormancy-not-exit.md`** (queue cluster 5, marked CLIMBED). Nothing leaves the graph — sustained relationships change role and go dormant with full reactivation bandwidth. Menore is the measurement (2,044 days silent, one-minute reply); Franki Faris is the five-day control, and a sharp one: no person persisted but the NAME did. No-exit plus a single-occupancy primary slot is an accounting identity that produces the Gini.
+  - **Staleness handled properly, and it found something.** Editing `menore.md` made `block-unblock-loop` and `supply-network` stale. supply-network survives untouched. `block-unblock-loop` does NOT: its Menore "only fully clean closure" control had a prior closure of the same shape that ran 67 months and reopened. That row is now marked provisional on elapsed time; the two pages carry reciprocal `contradicts` edges.
+  - Added the 7 synthesis/concept pages that were missing from `wiki/mind/index.md`. Ran `bin/llm-publish`.
+* **Gates:** wiki-lint 328 pages / 0 errors · wiki-connect check 0 errors · wiki-climb check 328 pages, 19 with `synthesizes:`, 0 errors, 0 warnings.
+* **RESUME POINT — do these next, in order:**
+  1. **Drain `synthesis-queue.md`. 16 clusters remain unclimbed** (1, 4, 6, 7, 9, 10, 11, 12, 13, 15, 18-22, 24). Clusters 18-21 all sit on `au-zaatar` + `annie-ulmer` + `2025-collapse` and would raise the `work` domain, which still has nothing above ground. Cluster 1 (phenomenology-lens + alexis-armel + annie-ulmer + context-core) is the highest scoring.
+  2. **Test prediction 2 of `dormancy-not-exit`** — audit every `people/` page describing a relationship of more than a few months as "ended" for documented post-role contact. This is the cheap, mechanical way to attack the survivorship gap that page names, and it is safe for a lesser model to run.
+  3. **Check the 193 non-responder handles by name.** If any held a sustained role, `dormancy-not-exit` is falsified. Currently they look like strangers (486 messages, median 1).
+  4. **Inbox still holds the 3 July 11-12 items** (ANCESTRY_DNA.txt, google-takeout-manifest.html, the personality-profile capture note). Not touched this session; they predate the factstory queue and are tracked in `queue.md`.
+* **Handoff Note:** Tree clean, all three gates at 0 errors, work pushed to the branch above and open as a draft PR. The scripts behind the Gini measurement were scratch and are not committed; the method, validation numbers, controls and bias check are all recorded on `wiki/mind/concepts/contact-gini.md` in enough detail to reproduce.
+
+
 ## 🛑 INSTRUCTIONS FOR INCOMING MODELS
 1. **Read this file first** to understand the current state of the project.
 2. **Check `task.md`** in the root directory for the granular task checklist.

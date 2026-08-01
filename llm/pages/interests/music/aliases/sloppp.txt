@@ -31,6 +31,9 @@ connections:
   - page: wiki/people/zachariah-harshman
     type: evidenced-by
     claim: "Zach's January 2014 pitch to a Pittsburgh rave-scene contact is the earliest documented instance of SLOPPP actively seeking a live booking, less than two years before the alias's Dec 26, 2015 close."
+  - page: wiki/mind/synthesis/alias-as-periodization
+    type: instantiates
+    claim: "SLOPPP is the earliest instance and the one that dates the invariant: its 2013 material already carries the 63–85% sub-bass band, so the signature predates the first rename and cannot have been chosen under any later name."
 ---
 
 # SLOPPP
