@@ -78,6 +78,11 @@ factset, the faster the value compounds.
 
 All at repo root unless noted. Read them before touching anything.
 
+0. **`STRATEGY.md`** — read this one first. It states the purpose and **the core
+   loop** (Story → Entry → Analysis → Synthesized finding → **saved back to every
+   entry it touches** → repeat) that every other governance file exists to serve,
+   plus the four unbreakable rules. Where a process doc and STRATEGY.md disagree
+   on *intent*, STRATEGY.md wins.
 1. **`CLAUDE.md`** — the project charter. Defines the second-brain principle
    (earned vs derived knowledge), the ingest protocol, the architecture
    (`inbox/ → raw/ → wiki/`), the frontmatter spec, and the lint expectation.
@@ -344,6 +349,14 @@ operator's target was 10–30 total hours of this ingest):
 - Lint passes at 0 errors every commit.
 - The handoff log gets a real, useful entry so the NEXT model doesn't re-derive
   settled work.
+- **Every finding is written back into the entries it came from** (STRATEGY.md
+  core loop, step 5). A [JOIN] finding that appears only in the synthesis and not
+  on its members has been discovered once rather than permanently — the next
+  model to land on the member page will re-derive it from less evidence. This is
+  the quality bar item most often missed.
+- **Coverage counts.** Every data point the source contains gets an entry. A fact
+  read and not written down anywhere is a fact the brain cannot reason with
+  later; a thin `status: stub` page beats an omission.
 - Tone: forensic senior peer. Plain human voice in published prose (no LLM
   neologisms in derived writing). Lengthy and detailed by directive.
 

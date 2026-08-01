@@ -6,6 +6,29 @@
 
 ---
 
+### [2026-08-01] - Session: STRATEGY.md propagation
+* **Model:** claude-opus-5 / Claude Code
+* **Branch:** `claude/strategy-propagation-2026-08-01` (companion: leviathan same branch name)
+* **Summary:** The operator refined `STRATEGY.md` (f57e574). Most of the diff is tightening, but three changes are doctrinal and no other governance file carried them, so they were propagated:
+  1. **"Every data point gets an entry"** — coverage as standing ambition.
+  2. **An entry is a live node, not a record** — it carries what was known at ingestion AND everything later produced by using it in analysis against the corpus.
+  3. **The core loop, named** — Story → Entry → Analysis → Synthesized finding → **saved back to every entry it touches** → repeat, justified by **amortized insight**.
+  - `CLAUDE.md`: coverage + live-node doctrine in the charter; the core loop as its own section mapping each step to the operation that runs it; CLIMB step 5 hardened.
+  - `SYNTHESIS_SPEC.md`: new **"The write-back obligation"** section, framed as the counterpart to the staleness rule — staleness pushes information *down* when a premise moves, write-back pushes it *back out* when a conclusion is reached. New anti-pattern: **the write-only synthesis**.
+  - `CONNECTIONS_SPEC.md`: new section separating a *retrofit* inverse (frontmatter-only fine) from a *write-back* inverse (must state what the page turned out to be evidence OF), with failing/passing claims side by side.
+  - `STYLE_GUIDE.md`: "An entry accumulates" + "Every data point gets an entry" as substance rules; `contacts/` quarantine named as the one deliberate exception to coverage; header now reads STRATEGY.md wins on intent, CLAUDE.md on process, STYLE_GUIDE on format.
+  - `INGEST_RUNBOOK.md` (STRATEGY.md as governance file #0, two quality-bar items), `INGEST_PROTOCOL.md`, `README.md`.
+  - Cross-repo: `leviathan/factstory.html`'s INGEST BRIEF carries the same rules for models working without a checkout, so it was updated in lockstep — otherwise offline ingests would drift from in-repo ones.
+* **Deliberately not changed:** the "three unbreakable rules" phrase in this file's 2026-07-17 entry. The handoff log is append-only history and that entry was accurate when written.
+* **Gates:** wiki-lint 328 pages / 0 errors · wiki-connect check 0 errors · wiki-climb check 328 pages, 19 with `synthesizes:`, 0 errors, 0 warnings.
+* **RESUME POINT:**
+  1. **The write-back obligation is now doctrine but the existing graph predates it.** The 19 pages carrying `synthesizes:` should be audited: for each, check that every member listed carries an inverse claim that actually states the finding rather than naming a relationship. This is mechanical, safe for a lesser model, and is the highest-value cleanup available.
+  2. **`synthesis-queue.md` — 16 clusters unclimbed** (1, 4, 6, 7, 9, 10, 11, 12, 13, 15, 18-22, 24). Clusters 18-21 sit on `au-zaatar` + `annie-ulmer` + `2025-collapse` and would raise `work`, still all-ground.
+  3. Test prediction 2 of `dormancy-not-exit`; check the 193 non-responder handles by name.
+  4. Inbox: 3 July 11-12 items still pending, tracked in `queue.md`.
+* **Handoff Note:** Tree clean, all gates 0 errors.
+
+
 ### [2026-08-01] - Session: Two-sided contact Gini + climb (dormancy-not-exit)
 * **Model:** claude-opus-5 / Claude Code
 * **Branch/PR:** `claude/wiki-brain-synthesis-queue-90bd73` → wiki-brain PR #69 (draft). Companion work in leviathan PR #55.

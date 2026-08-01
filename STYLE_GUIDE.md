@@ -3,8 +3,9 @@
 The binding rules for every page in `wiki/`. CLAUDE.md holds the operating
 process (ingest/query/climb/lint); this file holds the page format;
 `CONNECTIONS_SPEC.md` holds the edge format; `SYNTHESIS_SPEC.md` holds the
-altitude rules — how conclusions stack on conclusions. When any two
-disagree, this file wins on formatting, CLAUDE.md wins on process.
+altitude rules — how conclusions stack on conclusions; `STRATEGY.md` holds the
+purpose and the core loop the rest of them serve. When any two disagree, this
+file wins on formatting, CLAUDE.md wins on process, STRATEGY.md wins on intent.
 `bin/wiki-lint`, `bin/wiki-connect check` and `bin/wiki-climb check`
 mechanically enforce the vocabularies below — run all three before every
 commit.
@@ -194,6 +195,30 @@ shape — and if there is no page above it yet, that is a CLIMB candidate, not
 a footnote (`SYNTHESIS_SPEC.md`). The wiki's product is not the facts; it is
 what the facts turn out to be instances of.
 
+**An entry accumulates.** Per `STRATEGY.md`, a page carries **two** things: what
+was known about it at ingestion, and what has since been *produced* by using it
+in analysis against the rest of the corpus. The second layer is not optional
+decoration — it is the difference between a record and a live node. Concretely,
+when a synthesis concludes something about this page, that conclusion comes back
+here: as a typed edge whose claim states the finding (`CONNECTIONS_SPEC.md`, "The
+inverse claim carries the finding") and, where it is load-bearing, as a sentence
+in the prose. A page that has been used as evidence five times and shows no trace
+of it is a page that will be re-read from scratch the sixth time.
+
+This is why **the page grows rather than being rewritten**. Integrate new
+material where it belongs in the existing argument; do not append a dated "new
+information" section at the bottom. That is how pages rot into changelogs.
+
+**Every data point gets an entry.** The standing ambition is total coverage —
+every story, friend, place, perspective, development and thought. Thinness is not
+a reason to withhold a page; a stub with `status: stub` that a later pass can
+deepen beats a fact that lives nowhere. Two boundaries on this, and they are the
+only two: `wiki/people/contacts/` remains **quarantine** for auto-generated
+stubs (they are not entries yet — they are unverified handles awaiting
+promotion, per Linking below), and one page per entity always wins over coverage
+— when a "new" data point belongs to an existing entity, it is merged into that
+page, never forked into a second one.
+
 **Say what would prove you wrong.** Any page carrying an argued conclusion —
 every `page_type: synthesis`, most `concept` pages, the load-bearing reads on
 entity pages — should state, in the body, what it predicts and what would
@@ -267,7 +292,11 @@ briefs to ordinary pages.
   orphan check enforces this).
 - `wiki/people/contacts/` is quarantine: auto-generated stubs, never linked
   from prose. Promote a contact to a real page (move it out of contacts/)
-  once it's mentioned 3+ times in prose or the user asks.
+  once it's mentioned 3+ times in prose or the user asks. This is the one
+  place "every data point gets an entry" is deliberately held back — a
+  machine-generated handle is not yet a data point about a person, and
+  promoting it on volume alone is how the graph filled with contact-xxxxxx
+  noise the first time. Promotion is the act that turns it into an entry.
 
 ## Capture-note handling (ingest)
 
