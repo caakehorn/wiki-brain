@@ -1109,3 +1109,31 @@ a social world), so the dynamic claim rests on 2016-2026 only.
 
 bin/wiki-lint: 0 errors. bin/wiki-connect check: 0 errors.
 bin/wiki-climb check: 327 pages, 18 with synthesizes:, 0 errors, 0 warnings.
+
+## [2026-08-01] measure | mind | the null-handle problem resolved — the coefficient is one-sided
+Characterised the 69,953 unattributed rows flagged in the previous entry. They
+are NOT randomly distributed: 69,869 of them — 99.88% — are Sent. The export
+drops the recipient on outbound messages. Inbound is 99.9% attributed; outbound
+is 78.5% unattributed. Blank rate sits near 50% every year through 2024, then
+falls to 20% in 2025 and 0% in 2026, which is a change in export method rather
+than in behaviour.
+
+Consequence: 0.9601 is an INBOUND coefficient. It measures the concentration of
+who contacts Dan, not the concentration of the whole relational load. The
+headline is restated rather than withdrawn, because the finding survives on the
+best-attributed data — 2025 is 80% attributed and still returns 0.9576 — so the
+concentration is not an artifact of the missing side, it is merely measured on
+one side. What remains genuinely unknown is whether he SENDS as concentratedly
+as he receives; a narrow inbound funnel with a wide outbound spread is a
+coherent alternative the data cannot currently exclude.
+
+single-channel.md narrowed accordingly: the relational leg now reads as
+received concentration, with outbound listed as unmeasured.
+
+Next operation, and it is tractable: recipients are likely recoverable by
+pairing each Sent row to the surrounding conversation window in the same
+export. That would produce the first true two-sided coefficient and settle
+whether the architecture is symmetric.
+
+bin/wiki-lint: 0 errors. bin/wiki-connect check: 0 errors.
+bin/wiki-climb check: 327 pages, 18 with synthesizes:, 0 errors, 0 warnings.

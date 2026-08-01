@@ -45,8 +45,8 @@ connections:
 Wherever a distributed architecture is available to him, Dan runs **one channel
 at maximum voltage instead**. This is not a description of his personality; it
 is a structural property that shows up independently in four separate domains,
-and in one of them it has been measured: the **contact Gini coefficient is
-0.961** across roughly 496 unique contacts. A Gini that high does not describe
+and in one of them it has been measured: the **inbound contact Gini
+coefficient is 0.960** across 496 unique handles. A Gini that high does not describe
 someone with a best friend. It describes a network in which nearly all
 relational load is routed through a single external node.
 
@@ -167,12 +167,18 @@ cost is that the chosen carries everything, and it carries it alone.
 - ~~**The Gini is quoted, not recomputed.**~~ **CLOSED 2026-08-01.** Recomputed
   per year from the master CSV; the lifetime figure held, the constancy
   assumption did not. Full table on `contact-gini`.
-- **38% of the archive is excluded.** 69,953 of 184,359 rows carry a blank
-  `contact_handle` and could not be attributed. If those nulls are not randomly
-  distributed, every coefficient moves — a null-heavy bias toward *one* contact
-  inflates the concentration, a bias toward many deflates it. **This is now the
-  highest-value next operation:** establish what the unattributed rows are before
-  treating 0.9601 as final.
+- ~~**38% of the archive is excluded.**~~ **RESOLVED 2026-08-01, and it
+  narrows the claim.** The 69,953 unattributed rows are **99.88% `Sent`** — the
+  export drops the recipient on outbound. Inbound is 99.9% attributed; outbound
+  is 78.5% unattributed. **So 0.9601 is an *inbound* coefficient: it measures
+  who contacts Dan, not the whole relational load.** The relational leg of this
+  rule should be read as *received* concentration until the outbound side is
+  recovered. It survives on the best-attributed years (2025 at 80% attribution
+  still gives 0.9576), so it is not an artifact — but it is one-sided.
+- **Outbound concentration is unmeasured.** A narrow inbound funnel with a wide
+  outbound spread is a coherent alternative architecture that the current data
+  cannot exclude. Recovering recipients by pairing each `Sent` row to its
+  surrounding conversation window is the operation that would settle it.
 - **Coverage is uneven before 2015.** Years prior to 2015 and the 2021–22 window
   fall below a 200-message floor, and 2015 itself shows only 11 handles. The
   dynamic claim rests on 2016–2026 and cannot speak to the earlier period.

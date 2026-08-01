@@ -102,10 +102,40 @@ Three readings, in descending confidence:
    world. Years before 2015 and the 2021–22 window fall below the 200-message
    floor entirely.
 
-**Caveat that limits all of the above:** 69,953 rows — **38% of the archive** —
-have a blank `contact_handle` and are excluded. If those nulls are not randomly
-distributed across contacts, every figure here moves. Establishing what they are
-is the next operation on this page.
+### The nulls are not random — resolved 2026-08-01
+
+The 69,953 unattributed rows have been characterised, and they are **not**
+randomly distributed. **69,869 of them — 99.88% — are `Sent`.**
+
+| | Received | Sent |
+|---|---|---|
+| has a handle | 86,286 | 19,119 |
+| **blank handle** | 84 | **69,869** |
+
+The export drops the recipient on outbound messages. Inbound is essentially
+fully attributed (99.9%); **outbound is 78.5% unattributed.** The blank rate
+sits near 50% every year through 2024, then falls to 20% in 2025 and 0% in 2026
+— a change in export method, not a change in behaviour.
+
+**Therefore the 0.9601 figure is a received-side coefficient.** It measures the
+concentration of who *contacts Dan*, not the concentration of the whole
+relational load. That is a real and useful quantity, and it is not the quantity
+the page previously implied. Three consequences:
+
+1. **The headline number must be restated**, not withdrawn: *inbound* contact
+   Gini 0.9601 over 496 handles.
+2. **The finding survives on the best-attributed data.** 2025 is 80% attributed
+   and 2026 is 100%, and they still show 0.9576 and 0.8928 — so the
+   concentration is not an artifact of the missing outbound side, it is merely
+   measured on one side.
+3. **Outbound concentration remains unmeasured.** Whether Dan *sends* as
+   concentratedly as he *receives* is unknown, and a person can plausibly have a
+   narrow inbound funnel and a wide outbound one.
+
+**Next operation:** recipients are likely recoverable by pairing each `Sent` row
+to the surrounding conversation window in the same export. That would produce
+the first true two-sided coefficient, and it is the only way to settle whether
+the architecture is symmetric.
 
 ## Relational Metrics
 
