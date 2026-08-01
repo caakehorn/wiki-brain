@@ -5,7 +5,7 @@ title: "Danielle Onesi"
 aliases: ["Danielle", "Dee"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-08-01
 knowledge: mixed
 importance: normal
 sources: [
@@ -41,6 +41,10 @@ infobox:
   relationship_to_dan: unknown
   location: nyc
   known_for: "Dan's first girlfriend (~2005–2009), Uniontown origin, and a figure who has quietly remained in his life ever since — no"
+connections:
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: instantiates
+    claim: "Seventeen years of continuous presence after the 2009 breakup — Suzanne's closest friend, the cat's co-guardian, a Christmas fixture — is the cleanest case of a romantic role ending without the tie ending."
 ---
 
 # Danielle Onesi ("Dee")
@@ -72,6 +76,12 @@ The same man asks Annie (through back-channels) for cocaine. Dan finds out. He s
 > "i was nice because i said nothing to danielle, his girlfriend who was my first girlfriend and who remains my moms closest friend to this day. she was here on christmas, last night and AGAIN tonight"
 
 The Gemini framing is explicit: "James is a parasite in this system. Danielle is a foundational support node." Telling Danielle would have protected her but detonated the family network — Suzanne's best friend in crisis during Christmas. Dan chose not to. Whether that was loyalty, cowardice, or strategic restraint is unresolved in the sources.
+
+The seventeen-year persistence itself is the point generalised at
+[[wiki/mind/synthesis/dormancy-not-exit]]: the romantic role ended in 2009 and
+the tie did not — it changed job. Danielle is the cleanest member of that rule,
+with the caveat noted there that the relationship now runs through Suzanne and
+may be his mother's maintenance rather than his own.
 
 > "You don't do it to hurt James. You do it to liberate Danielle."
 > "If Danielle ever sees your phone, or Annie's phone, or James's phone, the 'hearsay' defense dissolves."

@@ -36,6 +36,9 @@ connections:
   - page: wiki/interests/film-canon
     type: mirrors
     claim: "The control case: a stable eleven-title canon rather than an era binge — but Eyes Wide Shut's meaning is itself era-indexed (2017 completion target → 2019 arrangement self-lens → 2023 household ritual), so even the fixed list dates its own readings."
+  - page: wiki/mind/concepts/the-cool-metric
+    type: instantiates
+    claim: "The admission criterion operating upstream of the intake record: subjects had to pass a performed-versus-authentic filter before they could become era markers at all."
 ---
 
 # Interests as Era-Markers

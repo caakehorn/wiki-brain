@@ -4,7 +4,7 @@ page_type: entity
 title: "Franki Faris"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-08-01
 sources:
   - raw/self/dox-scan/Gemini-_58.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
@@ -22,6 +22,10 @@ infobox:
   relationship_to_dan: unknown
   location: nyc
   known_for: "Franki Faris was a five-day rebound during a brief split from"
+connections:
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: contradicts
+    claim: "Five days of occupancy in 2013 left no corpus and no later trace, which is the control bounding the retention rule to relationships that clear a tenure floor."
 ---
 
 # Franki Faris
@@ -101,6 +105,14 @@ thing with Alexis and Franki I stay away" — using the incident as
 established shorthand between them. By 2018, "Franki" had also drifted
 into a casual pet-nickname he used for Annie herself in a handful of
 messages, unrelated to the original person.
+
+This makes Franki the control case for
+[[wiki/mind/synthesis/dormancy-not-exit]], and a sharper one than a plain
+absence would be. Five days of occupancy left **no person** in the graph — no
+corpus, no contact, nothing after 2013 — while leaving **the name** behind as
+working vocabulary, first as shorthand for the abrupt-switch pattern and by 2018
+as a pet nickname for Annie. What survives below the tenure floor is the label,
+not the tie.
 
 **Gaps:** no primary chat log with Franki survives in the archive; how
 they met, her background, and anything about her life after 2013 are

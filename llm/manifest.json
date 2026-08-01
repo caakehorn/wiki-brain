@@ -1,9 +1,9 @@
 {
- "generated": "2026-07-26",
+ "generated": "2026-08-01",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 320,
+ "page_count": 328,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -269,7 +269,7 @@
    "title": "Gripnotic",
    "summary": "**GRIPNOTIC** is Dan Frank's current primary music brand, developed through the 2015\u20132019 Uniontown basement years (per the CATO timeline: \"Uniontown basemen...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/music/aliases/gripnotic.txt",
-   "bytes": 6741
+   "bytes": 7033
   },
   {
    "page": "wiki/interests/music/aliases/mogged-up.md",
@@ -283,14 +283,14 @@
    "title": "Mogzart",
    "summary": "**MOGZART** was Dan Frank's primary production alias from approximately 2014 to 2016, concurrent with the late Uniontown period before the NYC return \u2014 and i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/music/aliases/mogzart.txt",
-   "bytes": 4120
+   "bytes": 4411
   },
   {
    "page": "wiki/interests/music/aliases/sloppp.md",
    "title": "SLOPPP",
    "summary": "**SLOPPP** was Dan's first named production alias: a trap/festival-trap project run from SoundCloud (`soundcloud.com/sloppp`) from 2013 until a track literal...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/music/aliases/sloppp.txt",
-   "bytes": 9175
+   "bytes": 9489
   },
   {
    "page": "wiki/interests/music/bands/batteries-not-included.md",
@@ -325,7 +325,7 @@
    "title": "Music Overview",
    "summary": "Dan Frank is an independent music producer and label operator based in SW Pennsylvania, operating since approximately 2013. The production output is organize...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/music/overview.txt",
-   "bytes": 4420
+   "bytes": 4699
   },
   {
    "page": "wiki/interests/opie-and-anthony.md",
@@ -405,6 +405,13 @@
    "bytes": 3924
   },
   {
+   "page": "wiki/mind/concepts/chaos-preference.md",
+   "title": "The Chaos Preference",
+   "summary": "Dan wants the world to be less orderly than it is, and \u2014 with one large exception \u2014 he wants this consistently, quietly, and almost never out loud. The prefe...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/chaos-preference.txt",
+   "bytes": 10499
+  },
+  {
    "page": "wiki/mind/concepts/conflict-architecture.md",
    "title": "Conflict Architecture",
    "summary": "The \"conflict architecture\" refers to the involuntary cognitive process by which Dan's Ti-dominant processing engine applies forensic resolution logic to int...",
@@ -414,9 +421,9 @@
   {
    "page": "wiki/mind/concepts/contact-gini.md",
    "title": "Contact Gini",
-   "summary": "The \"Contact Gini\" concept refers to the application of the Gini coefficient to measure the concentration of Dan's relational load. It quantifies the degree ...",
+   "summary": "The coefficient is generalised in [[wiki/mind/synthesis/single-channel]]: the same concentration appears in the creative, cognitive and evaluative domains, a...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/contact-gini.txt",
-   "bytes": 11776
+   "bytes": 23335
   },
   {
    "page": "wiki/mind/concepts/dans-law.md",
@@ -468,11 +475,18 @@
    "bytes": 8998
   },
   {
+   "page": "wiki/mind/concepts/the-cool-metric.md",
+   "title": "The Cool Metric",
+   "summary": "Dan evaluates culture, objects, and people on a single axis, and the axis is not quality. It is whether the thing in question is **performed or authentic** \u2014...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/the-cool-metric.txt",
+   "bytes": 11132
+  },
+  {
    "page": "wiki/mind/index.md",
    "title": "mind \u2014 index",
    "summary": "Beliefs, ideology, psychology, and values. The domain is organized in four layers: **profile/** holds the measured personality results and their detailed bre...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/index.txt",
-   "bytes": 8071
+   "bytes": 9729
   },
   {
    "page": "wiki/mind/profile/big-five-psychometrics.md",
@@ -584,14 +598,21 @@
    "title": "AI Collaborative Analysis",
    "summary": "Large language models occupy a specific, unusual role in Dan's cognitive life: not conversational companions but external processors \u2014 memory, structuring en...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/ai-collaborative-analysis.txt",
-   "bytes": 20589
+   "bytes": 21083
+  },
+  {
+   "page": "wiki/mind/synthesis/alias-as-periodization.md",
+   "title": "The Alias Is a Clock, Not a Style",
+   "summary": "Dan has released music under four names in thirteen years, and the renaming has never once corresponded to a change in the music. Across SLOPPP, MOGZART and ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/alias-as-periodization.txt",
+   "bytes": 6539
   },
   {
    "page": "wiki/mind/synthesis/ancestral-dialectic.md",
    "title": "The Ancestral Dialectic: Ashkenazi Hypervigilance vs. Appalachian Numbness",
    "summary": "A long-form Gemini \"deep research\" report titled *\"The Dan Frank OS: A Psychogenealogical Architecture of Collapse and Recursion\"* \u2014 built from the same unde...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/ancestral-dialectic.txt",
-   "bytes": 9759
+   "bytes": 10295
   },
   {
    "page": "wiki/mind/synthesis/attachment-trauma-bond.md",
@@ -605,14 +626,14 @@
    "title": "The Block/Unblock Loop",
    "summary": "Across the corpus, Dan's severances follow one script: **the exit is declared, not executed.** A block, an \"I'm done,\" an account abandonment \u2014 a bounded bur...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/block-unblock-loop.txt",
-   "bytes": 13579
+   "bytes": 15495
   },
   {
    "page": "wiki/mind/synthesis/bond-switch-2015.md",
    "title": "The 2015 Single-Bond Switch",
-   "summary": "In late November 2015, Dan's primary attachment target transferred from [[wiki/people/alexis-armel|Alexis]] to [[wiki/people/annie-ulmer|Annie]] inside a sin...",
+   "summary": "This event is one instance of a longer pattern; see",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/bond-switch-2015.txt",
-   "bytes": 11957
+   "bytes": 12657
   },
   {
    "page": "wiki/mind/synthesis/dan-annie-fallout-verdict.md",
@@ -622,11 +643,32 @@
    "bytes": 28332
   },
   {
+   "page": "wiki/mind/synthesis/dormancy-not-exit.md",
+   "title": "Dormancy, Not Exit",
+   "summary": "**Nothing leaves this graph.** Every sustained relationship in the corpus that the record describes as \"over\" is, on inspection, not over \u2014 it has changed ro...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dormancy-not-exit.txt",
+   "bytes": 15674
+  },
+  {
    "page": "wiki/mind/synthesis/estate-money-spine.md",
    "title": "The Estate / Money Spine",
    "summary": "Money in this biography does not accumulate; it **arrives in lumps and exits through standing drains.** This page traces the capital timeline as a single cau...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/estate-money-spine.txt",
    "bytes": 11191
+  },
+  {
+   "page": "wiki/mind/synthesis/fayette-return.md",
+   "title": "The Fayette Return",
+   "summary": "Every generation of Dan's paternal line that has left Fayette County, Pennsylvania has come back to it. Four generations and roughly 130 years \u2014 Brownsville,...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/fayette-return.txt",
+   "bytes": 10159
+  },
+  {
+   "page": "wiki/mind/synthesis/instrument-is-subject.md",
+   "title": "The Instrument Is Also the Subject",
+   "summary": "This wiki is written by a large language model, about a person for whom large language models are a documented daily cognitive organ, using an evidentiary st...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/instrument-is-subject.txt",
+   "bytes": 6557
   },
   {
    "page": "wiki/mind/synthesis/intake-constancy.md",
@@ -640,7 +682,7 @@
    "title": "Interests as Era-Markers",
    "summary": "Dan's biography can be periodized two ways: by external events (jobs, moves, the Annie relationship's arcs) or by what his intake channel was locked onto. Th...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/interests-as-era-markers.txt",
-   "bytes": 7747
+   "bytes": 7995
   },
   {
    "page": "wiki/mind/synthesis/message-circadian-latency.md",
@@ -671,6 +713,13 @@
    "bytes": 12649
   },
   {
+   "page": "wiki/mind/synthesis/single-channel.md",
+   "title": "The Single Channel",
+   "summary": "Wherever a distributed architecture is available to him, Dan runs **one channel at maximum voltage instead**. This is not a description of his personality; i...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/single-channel.txt",
+   "bytes": 14871
+  },
+  {
    "page": "wiki/mind/synthesis/spatial-behavior.md",
    "title": "Spatial Behavior \u2014 GPS Analysis of Location History",
    "summary": "A behavioral/psychographic reading of Dan's Google Location History data (2014\u20132024). This analysis is distinct from and built on top of the raw visit-count ...",
@@ -682,14 +731,21 @@
    "title": "The Supply Network",
    "summary": "Since January 2011, Dan has been on a daily Suboxone regimen \u2014 fifteen years, described in the primary sources as structural rather than recreational: a medi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/supply-network.txt",
-   "bytes": 16738
+   "bytes": 17432
+  },
+  {
+   "page": "wiki/mind/synthesis/the-unbroken-bond.md",
+   "title": "The Unbroken Bond",
+   "summary": "Since leaving high school, Dan has been continuously inside a long-term monogamous relationship for approximately **seventeen years**, with an unattached tot...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-unbroken-bond.txt",
+   "bytes": 10899
   },
   {
    "page": "wiki/mind/synthesis/totality-themes.md",
    "title": "Totality Themes",
    "summary": "This synthesis extracts the recurring structural themes present across the entirety of the ingested corpus. By cross-referencing massive, disparate datasets\u2014...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/totality-themes.txt",
-   "bytes": 36689
+   "bytes": 36961
   },
   {
    "page": "wiki/mind/synthesis/vertical-authority-skepticism.md",
@@ -731,7 +787,7 @@
    "title": "Alexis Armel (\u201cLex\u201d)",
    "summary": "**Role / Relationship:** Prior relationship (pre-Annie); referenced as \"Lex\" / Alexis Armel in life calendar, profile dumps, attachment narratives, and photo...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/alexis-armel.txt",
-   "bytes": 21610
+   "bytes": 22324
   },
   {
    "page": "wiki/people/ally-lubin.md",
@@ -920,7 +976,7 @@
    "title": "Danielle Onesi (\"Dee\")",
    "summary": "Dan's first girlfriend (~2005\u20132009), Uniontown origin, and a figure who has quietly remained in his life ever since \u2014 not as a romantic presence but as his m...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/danielle-onesi.txt",
-   "bytes": 7493
+   "bytes": 8160
   },
   {
    "page": "wiki/people/danny-matthews.md",
@@ -948,7 +1004,7 @@
    "title": "David J. Frank",
    "summary": "Paternal great-grandfather of Dan Frank. Born 12 August 1892 in Russia (Jewish immigrant). Died 6 April 1960, Brownsville, Fayette County, Pennsylvania. Marr...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/david-j-frank.txt",
-   "bytes": 1685
+   "bytes": 1947
   },
   {
    "page": "wiki/people/del.md",
@@ -1053,7 +1109,7 @@
    "title": "Franki Faris",
    "summary": "Franki Faris was a five-day rebound during a brief split from",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/franki-faris.txt",
-   "bytes": 5433
+   "bytes": 6136
   },
   {
    "page": "wiki/people/gabe.md",
@@ -1396,7 +1452,7 @@
    "title": "Menore",
    "summary": "**Menore** (+13476070497) \u2014 Drug dealer / supply operator in New York City; Bedford Ave (Williamsburg) Brooklyn origin connection; operated Nov 2018\u2013Feb 2025...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/menore.txt",
-   "bytes": 17784
+   "bytes": 18234
   },
   {
    "page": "wiki/people/michael-hinkle.md",
@@ -1445,7 +1501,7 @@
    "title": "Morley Jay Frank",
    "summary": "Paternal grandfather of Dan Frank. Born 20 August 1927, Brownsville, Fayette County, Pennsylvania. Died 13 December 1998, Hopwood, PA. Extensive public recor...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/morley-frank.txt",
-   "bytes": 2608
+   "bytes": 2859
   },
   {
    "page": "wiki/people/new-jim-shaffer.md",
@@ -1473,7 +1529,7 @@
    "title": "Richard Harrison \"Rick\" Frank",
    "summary": "Rick Frank (b. May 22, 1959, Uniontown PA) is Dan's father: owner of **Frank's Auto Supermarket**, a chain of auto-parts stores (anti-union, per the househol...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/rick-frank.txt",
-   "bytes": 7232
+   "bytes": 7519
   },
   {
    "page": "wiki/people/rj-ritchey.md",
@@ -1711,7 +1767,7 @@
    "title": "155 Virginia Ave",
    "summary": "155 Virginia Ave, Uniontown PA was Dan's residence from January 2015 to February 2019 \u2014 the address where the two defining relationships of his adult life ha...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/155-virginia-ave.txt",
-   "bytes": 4112
+   "bytes": 4370
   },
   {
    "page": "wiki/places/307-e-76th-st.md",
@@ -1732,7 +1788,7 @@
    "title": "424 Bedford Ave (NYC-1)",
    "summary": "424 Bedford Ave, Apartment 6C, in Williamsburg, Brooklyn was Dan's first New York apartment \u2014 the home base of the **NYC-1** period (April 2010 \u2013 May 2013) a...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/424-bedford-ave.txt",
-   "bytes": 4627
+   "bytes": 5192
   },
   {
    "page": "wiki/places/90th-st-manhattan.md",

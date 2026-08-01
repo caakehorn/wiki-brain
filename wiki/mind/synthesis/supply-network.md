@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-07-26
+date_modified: 2026-08-01
 sources:
   - "raw/self/dox-md/MAX_PRIME.md"
   - "raw/self/dox-md/operating_manual.md"
@@ -244,6 +244,16 @@ sentiment, is the load-bearing structure of the relationship's final
 year — which is why her May 2026 job at "Marucas," reducing her
 dependency weeks before the June 1 closure, belongs in any account of
 why the end became possible.
+
+> **RE-CHECKED 2026-08-01 — holds.** `menore.md` moved on 2026-08-01 while this
+> page reasons from it. The change is interpretive rather than evidentiary: it
+> adds the reading that the 2013–2018 gap was a dormancy rather than an ending
+> ([[wiki/mind/synthesis/dormancy-not-exit]]), and touches none of the figures
+> this page depends on — the 99.3% availability, the 455-of-458 request record,
+> the median reply time, and the distance-outperforms-intimacy inversion are all
+> unchanged. If anything the reliability finding is strengthened: a node that
+> resumes at full bandwidth after 2,044 days of silence is *more* of an outlier
+> against the friendship-embedded nodes, not less.
 
 ## Gaps
 

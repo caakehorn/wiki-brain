@@ -5,7 +5,7 @@ title: "424 Bedford Ave (NYC-1)"
 status: closed
 knowledge: mixed
 date_created: 2026-07-20
-date_modified: 2026-07-20
+date_modified: 2026-08-01
 date_range_start: 2010-04-01
 date_range_end: 2013-05-01
 sources:
@@ -14,6 +14,9 @@ sources:
   - "raw/self/dox-md/Gemini-_18.md"
 tags: [nyc-era, music-production, relationships]
 connections:
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: instantiates
+    claim: "A residence vacated in 2012 that keeps producing through the Menore line it originated is the proof that the no-exit rule applies to places and not only to people."
   - page: wiki/people/jamie-mohler
     type: co-occurs
     claim: "Jamie's 2011 Google Talk log ('dial to 63 when you get here') is the corpus's only surviving description of getting into the apartment itself — the single physical detail attached to the address beyond the studio/work-era framing."
@@ -82,6 +85,12 @@ with a gap, into 2025.
 | Occupied | 2010-04 – 2012-04 (two years; NYC-1's first residence) |
 | Roommate/partner | Alexis Armel, for the full run |
 | Followed by | [[wiki/places/90th-st-manhattan|Manhattan UES sublet]], 90th St. bet. 3rd/Lexington (2012-03 – 2013-04) |
+
+The address is also the clearest non-human case of the rule at
+[[wiki/mind/synthesis/dormancy-not-exit]]: vacated in 2012, it goes on producing
+for thirteen more years through the Menore connection it originated. A residence
+this thinly documented should have stopped mattering when the lease ended, and
+it did not.
 
 **Gaps:** rent, lease terms, who else (if anyone) lived there beyond
 Dan and Alexis; any photos or physical description of the unit itself

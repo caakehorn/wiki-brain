@@ -40,6 +40,9 @@ connections:
   - page: wiki/people/mike-cordaro
     type: parallels
     claim: "Rick Frank and Mike Cordaro's father Pete are drawn as a matched pair in Dan and Mike's 2024 election-season texts — two Uniontown-area fathers who both drifted into MAGA politics, used as ironic shorthand rather than personal grievance."
+  - page: wiki/mind/synthesis/fayette-return
+    type: instantiates
+    claim: "The generation with no attested departure, which forces the rule into its better-supported form: the terminus is always Fayette, and never leaving satisfies that more completely than leaving and returning."
 ---
 
 

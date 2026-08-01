@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-07-26
+date_modified: 2026-08-01
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
@@ -24,6 +24,9 @@ synthesizes:
   - wiki/mind/concepts/conflict-architecture
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: contradicts
+    claim: "That page reads Menore's closures as dormancies and predicts the February 2025 farewell reopens, against this page's scoring of it as the record's one fully clean close — the 2,044-day precedent makes the control provisional on elapsed time."
   - page: wiki/people/milo
     type: evidenced-by
     claim: "The dog is the case that widens the dependency rule: the channel whose survival defeats a block need not carry money, drugs or logistics — only something still needed."
@@ -202,8 +205,31 @@ an exhaustible Fe function.
   reset the 'days since i talked to annie' clock." Time away does not
   weaken the loop. Only the death of the last shared thing does.
 
+> **RE-CHECKED 2026-08-01 — the rule survives, the Menore control row does
+> not, and it was weakened by Menore's own history.** `menore.md` moved on
+> 2026-08-01 while this page reasons from it, so the dependency was re-read.
+> The reliability and timeline facts are unchanged, but
+> [[wiki/mind/synthesis/dormancy-not-exit]] surfaces something on that same page
+> which this table never scored: **the February 2025 farewell is Menore's
+> second apparent closure, not his first.** The channel already went silent once
+> for **2,044 days** when Dan left New York in April 2013 — a gap that looked
+> exactly like a clean transactional close, for the same structural reason
+> (geography ended the dependency) — and it reopened in November 2018 with a
+> one-minute reply. The 2025 close has stood roughly seventeen months. **The
+> precedent ran sixty-seven.** The control row should therefore be read as *not
+> yet falsified* rather than as settled: it has not outlived the counterexample
+> sitting on the same page. The governing rule is untouched — nothing either
+> party needs flows through that channel today — but the row can no longer be
+> quoted as "the record's only fully clean closure" without the qualification,
+> because the record contains a prior closure of exactly that shape which turned
+> out to be a dormancy.
+
 ## Gaps
 
+- **The Menore control row is provisional on elapsed time** (see the re-check
+  above). If that channel reopens, this page loses its cleanest non-Annie
+  control, and the corrected rule needs a durability clause rather than a
+  dependency clause alone.
 - The 127/110 pair remains [DERIVED] from the dossier passes; a
   primary recount from the raw dumps is queued on
   [[wiki/mind/synthesis/dan-annie-fallout-verdict]].
