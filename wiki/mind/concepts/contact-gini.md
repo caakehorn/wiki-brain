@@ -47,12 +47,95 @@ connections:
   - page: wiki/work/tech/danmodel
     type: evidenced-by
     claim: "DANMODEL's independent extraction (39,378 reaction pairs, not raw messages) reproduces the same extreme concentration in a different unit: 40% of all pairs belong to Annie (early) alone."
+  - page: wiki/mind/synthesis/single-channel
+    type: instantiates
+    claim: "The 0.961 coefficient is the only measured instance of a concentration architecture that reproduces independently in the creative, cognitive and evaluative domains — this is the page that generalises it."
 ---
 
 
 # Contact Gini
 
+The coefficient is generalised in [[wiki/mind/synthesis/single-channel]]:
+the same concentration appears in the creative, cognitive and evaluative
+domains, and the architecture it describes has no failover.
+
 The "Contact Gini" concept refers to the application of the Gini coefficient to measure the concentration of Dan's relational load. It quantifies the degree to which his relational and emotional inputs are routed through a statistically single external communication node, rather than being distributed across a broader social network.
+
+## RECOMPUTED 2026-08-01 — the figure holds, the constancy does not
+
+> **The 0.961 coefficient was quoted from a profile document and had never been
+> recomputed.** It has now been recomputed directly from
+> `raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv` — 184,359 rows, of which
+> 105,405 carry a contact handle. **Result: 0.9601 across 496 unique handles.**
+> The quoted figure survives to three decimal places and the handle count
+> matches exactly. This metric is no longer testimony; it is residue.
+
+What the recomputation also shows — and what a single lifetime number
+concealed — is that **the concentration is not a constant.** Computed per year:
+
+| Year | Messages | Handles | Gini | Top-1 share |
+|---|---|---|---|---|
+| 2015 | 6,488 | 11 | 0.9019 | 98.6% |
+| 2016 | 10,207 | 24 | 0.9047 | 60.3% |
+| 2017 | 8,786 | 64 | 0.9268 | 84.4% |
+| 2018 | 20,277 | 145 | 0.9356 | 55.3% |
+| 2019 | 10,612 | 187 | 0.9024 | 42.8% |
+| 2020 | 3,155 | 107 | **0.8409** | **25.4%** |
+| 2023 | 452 | 32 | **0.7460** | 47.6% |
+| 2024 | 2,198 | 48 | 0.8633 | 34.0% |
+| 2025 | 33,214 | 70 | **0.9576** | 49.9% |
+| 2026 | 9,884 | 19 | 0.8928 | 70.8% |
+
+Lifetime top-1 share is **29.6%**; lifetime **top-5 share is 70.1%** — five
+handles carry seven-tenths of the entire archive.
+
+Three readings, in descending confidence:
+
+1. **The lifetime figure is real.** 0.9601 is not an artifact of one era. It is
+   high in every year measured, never dropping below 0.746.
+2. **It tightens under load.** The highest-concentration full year is **2025 at
+   0.9576 — also by far the highest-volume year at 33,214 messages**, and the
+   year of the collapse. The lowest is 2020 at 0.8409. Concentration is not a
+   fixed trait; it responds.
+3. **The early years cannot carry weight.** 2015 shows 11 handles and a 98.6%
+   top-1 share, which is a statement about export coverage, not about a social
+   world. Years before 2015 and the 2021–22 window fall below the 200-message
+   floor entirely.
+
+### The nulls are not random — resolved 2026-08-01
+
+The 69,953 unattributed rows have been characterised, and they are **not**
+randomly distributed. **69,869 of them — 99.88% — are `Sent`.**
+
+| | Received | Sent |
+|---|---|---|
+| has a handle | 86,286 | 19,119 |
+| **blank handle** | 84 | **69,869** |
+
+The export drops the recipient on outbound messages. Inbound is essentially
+fully attributed (99.9%); **outbound is 78.5% unattributed.** The blank rate
+sits near 50% every year through 2024, then falls to 20% in 2025 and 0% in 2026
+— a change in export method, not a change in behaviour.
+
+**Therefore the 0.9601 figure is a received-side coefficient.** It measures the
+concentration of who *contacts Dan*, not the concentration of the whole
+relational load. That is a real and useful quantity, and it is not the quantity
+the page previously implied. Three consequences:
+
+1. **The headline number must be restated**, not withdrawn: *inbound* contact
+   Gini 0.9601 over 496 handles.
+2. **The finding survives on the best-attributed data.** 2025 is 80% attributed
+   and 2026 is 100%, and they still show 0.9576 and 0.8928 — so the
+   concentration is not an artifact of the missing outbound side, it is merely
+   measured on one side.
+3. **Outbound concentration remains unmeasured.** Whether Dan *sends* as
+   concentratedly as he *receives* is unknown, and a person can plausibly have a
+   narrow inbound funnel and a wide outbound one.
+
+**Next operation:** recipients are likely recoverable by pairing each `Sent` row
+to the surrounding conversation window in the same export. That would produce
+the first true two-sided coefficient, and it is the only way to settle whether
+the architecture is symmetric.
 
 ## Relational Metrics
 

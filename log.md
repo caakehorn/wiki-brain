@@ -994,3 +994,146 @@ defensible span is seventeen years from 2009 rather than from graduation.
 
 bin/wiki-lint: 0 errors (3 advisory size warnings). bin/wiki-connect check:
 0 errors. bin/wiki-climb check: 325 pages, 16 with synthesizes:, 0 errors.
+
+## [2026-08-01] climb | mind | fayette-return.md — new T2 junction
+Climbed synthesis-queue cluster #23 (score 12.20, people+mind+self: the four
+paternal-line pages, self/ancestry, ancestral-dialectic). Targets the domain
+the climb audit flagged hardest — people carries 143 ground pages and almost
+nothing above them.
+
+The rule: no member of the paternal Frank line from G2 onward has both left
+Fayette County and ended elsewhere. Four generations, ~130 years, three towns
+inside twenty miles. The corpus already held this in pieces — the ancestry
+note's "elastic tether", and an edge on morley-frank calling the Seattle-and-
+back arc "the geographic template Dan's own returns repeat" — but it existed
+only as scattered edge claims. A rule is a different object from an
+observation: it can be broken, and three falsifiers are stated.
+
+Two things the page does that the loose observation could not. First it
+handles G3: Rick has no attested departure at all, which forces the rule into
+its better-supported form — not "departure implies return" (which he satisfies
+vacuously) but "the terminus is always Fayette", which includes him directly.
+Second it reframes Dan's own returns, which the timeline files individually as
+collapses and retreats, as the fourth iteration of a pattern with a 100%
+completion rate; two of his life periods are literally named for coming back.
+
+Raises a parsimony problem for ancestral-dialectic and records it on both
+pages rather than letting them disagree silently: the return is fully
+documented within the paternal line alone, whose immigrant ancestors are both
+the Ashkenazi side, so a two-line dialectic is not required to explain it. Per
+instrument-is-subject the distinction is the operative one — the dates, places
+and termini are residue; the psychogenealogical mechanism is testimony.
+
+Also makes a scoreable prediction: if the rule holds, the current tenancy at
+337 Saratoga is not the end state. Four gaps named, the largest being that the
+maternal line is unassessed and may make the pull regional rather than lineal,
+and that no regional base rate has been computed — Fayette out-migration was
+heavy, so a family that stays may be typical rather than distinctive.
+
+bin/wiki-lint: 0 errors, no orphan. bin/wiki-connect check: 0 errors.
+bin/wiki-climb check: 326 pages, 17 with synthesizes:, 0 errors, 0 warnings.
+
+## [2026-08-01] climb | mind | single-channel.md — new T3 doctrine
+Climbed synthesis-queue cluster #25 (gripnotic, contact-gini, totality-themes).
+The rule: wherever a distributed architecture is available, load is
+concentrated on one channel at maximum voltage instead — and it reproduces in
+four domains that share no circumstances. Relational (contact Gini 0.961 across
+~496 contacts; one bond, ~17 years). Creative (four aliases in thirteen years,
+strictly sequential, never parallel). Cognitive (one LLM as externalized
+prefrontal cortex rather than one tool among several). Evaluative (one
+performed-vs-authentic axis for every category, where most people run
+domain-specific criteria). Each was derived on its own page without reference
+to the others, which is why four independent derivations of one shape is the
+finding rather than a coincidence.
+
+The consequence that earns the page: a single-channel architecture has no
+failover. A distributed network degrades when a node fails; this stops. The
+record contains the test — the June 1 2026 severance had nowhere to route the
+load because by construction the alternatives had never been built, which
+reframes the 52-day failure from "the bond was unusually strong" to "there was
+nowhere else for the traffic to go". The same untested exposure sits in the
+other three domains.
+
+Resolves the apparent conflict with chaos-preference rather than ignoring it:
+concentration and entropy-appetite are one policy stated twice — maximum
+investment in the chosen, maximum indifference to the imposed.
+
+Names the highest-value next operation in the repository: the 0.961 figure is
+QUOTED from a profile document, not recomputed. MASTER_MESSAGES_DB_DUMP.csv is
+on disk; recomputing the coefficient per year would convert the central
+measurement from testimony to residue and show whether the concentration is
+stable or an artifact of one era. Also names the unanswered base-rate problem
+(a small county and a decade-long relationship would concentrate anyone) and
+flags that the evaluative leg was authored the same day, so a four-legged rule
+should be treated as resting on three and a half.
+
+bin/wiki-lint: 0 errors, no orphan. bin/wiki-connect check: 0 errors.
+bin/wiki-climb check: 327 pages, 18 with synthesizes:.
+
+## [2026-08-01] measure | mind | contact-gini + single-channel — the 0.961 recomputed
+Executed the operation single-channel.md named as the repository's highest
+value: the contact Gini had been QUOTED from a profile document since it was
+first written and never recomputed. Recomputed directly from
+raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv — 184,359 rows, 105,405 with a
+contact handle.
+
+RESULT: 0.9601 across 496 unique handles. The quoted 0.961 survives to three
+decimals and the handle count matches exactly. The load-bearing measurement of
+the concentration architecture has moved from testimony to residue.
+
+But the per-year computation falsified a clause nobody had stated explicitly:
+that the concentration is a fixed disposition. It is not. Per year it ranges
+0.746 (2023) to 0.9576 (2025), with top-1 share from 25.4% (2020) to 84.4%
+(2017). Lifetime top-5 share is 70.1% — five handles carry seven-tenths of the
+archive.
+
+The sharpest finding is the 2025 row. The year the primary channel was failing
+is simultaneously the HIGHEST-concentration year (0.9576) and the
+HIGHEST-volume year (33,214 messages) in the entire archive. The response to a
+channel under stress was not to distribute away from it but to push more
+through it — which turns "no failover" from an inference into a mechanism
+stated in the data: a system with no failover does not reroute under load, it
+escalates into the failing path.
+
+single-channel.md revised per STRATEGY.md: the falsified narrow form of the
+rule is struck through and left visible rather than deleted, the rule is
+widened to a dynamic claim, falsifier 2 is marked SETTLED with its result, and
+the mechanism paragraph is added to the failover section.
+
+Two new gaps, both material. 69,953 rows — 38% of the archive — carry a blank
+contact_handle and were excluded; if those nulls are not randomly distributed
+every coefficient moves, and establishing what they are is now the highest-value
+next operation. And coverage before 2015 is too thin to compute (2015 itself
+shows only 11 handles, which is a statement about export coverage and not about
+a social world), so the dynamic claim rests on 2016-2026 only.
+
+bin/wiki-lint: 0 errors. bin/wiki-connect check: 0 errors.
+bin/wiki-climb check: 327 pages, 18 with synthesizes:, 0 errors, 0 warnings.
+
+## [2026-08-01] measure | mind | the null-handle problem resolved — the coefficient is one-sided
+Characterised the 69,953 unattributed rows flagged in the previous entry. They
+are NOT randomly distributed: 69,869 of them — 99.88% — are Sent. The export
+drops the recipient on outbound messages. Inbound is 99.9% attributed; outbound
+is 78.5% unattributed. Blank rate sits near 50% every year through 2024, then
+falls to 20% in 2025 and 0% in 2026, which is a change in export method rather
+than in behaviour.
+
+Consequence: 0.9601 is an INBOUND coefficient. It measures the concentration of
+who contacts Dan, not the concentration of the whole relational load. The
+headline is restated rather than withdrawn, because the finding survives on the
+best-attributed data — 2025 is 80% attributed and still returns 0.9576 — so the
+concentration is not an artifact of the missing side, it is merely measured on
+one side. What remains genuinely unknown is whether he SENDS as concentratedly
+as he receives; a narrow inbound funnel with a wide outbound spread is a
+coherent alternative the data cannot currently exclude.
+
+single-channel.md narrowed accordingly: the relational leg now reads as
+received concentration, with outbound listed as unmeasured.
+
+Next operation, and it is tractable: recipients are likely recoverable by
+pairing each Sent row to the surrounding conversation window in the same
+export. That would produce the first true two-sided coefficient and settle
+whether the architecture is symmetric.
+
+bin/wiki-lint: 0 errors. bin/wiki-connect check: 0 errors.
+bin/wiki-climb check: 327 pages, 18 with synthesizes:, 0 errors, 0 warnings.

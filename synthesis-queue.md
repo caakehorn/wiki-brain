@@ -34,9 +34,9 @@ Mark entries `CLIMBED -> <page>` or `REJECTED — <reason>` as you work.
 | 20 | 12.30 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/work/au-zaatar]] |
 | 21 | 12.30 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/work/au-zaatar]] |
 | 22 | 12.25 | interests, timeline | [[wiki/interests/stand-up-comedy]] · [[wiki/interests/the-office]] · [[wiki/timeline/events/teen-concert-years]] |
-| 23 | 12.20 | mind, people, self | [[wiki/mind/synthesis/ancestral-dialectic]] · [[wiki/people/david-j-frank]] · [[wiki/people/morley-frank]] · [[wiki/people/rick-frank]] · [[wiki/people/sadie-harris]] · [[wiki/self/ancestry]] |
+| 23 | 12.20 | mind, people, self | [[wiki/mind/synthesis/ancestral-dialectic]] · [[wiki/people/david-j-frank]] · [[wiki/people/morley-frank]] · [[wiki/people/rick-frank]] · [[wiki/people/sadie-harris]] · [[wiki/self/ancestry]] | **CLIMBED -> [[wiki/mind/synthesis/fayette-return]]**
 | 24 | 12.00 | interests, self | [[wiki/interests/music/overview]] · [[wiki/self/context-core]] · [[wiki/self/overview]] |
-| 25 | 12.00 | interests, mind | [[wiki/interests/music/aliases/gripnotic]] · [[wiki/mind/concepts/contact-gini]] · [[wiki/mind/synthesis/totality-themes]] |
+| 25 | 12.00 | interests, mind | [[wiki/interests/music/aliases/gripnotic]] · [[wiki/mind/concepts/contact-gini]] · [[wiki/mind/synthesis/totality-themes]] | **CLIMBED -> [[wiki/mind/synthesis/single-channel]]**
 
 Shared signals per cluster:
 

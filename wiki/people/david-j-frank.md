@@ -12,6 +12,10 @@ infobox:
   relationship_to_dan: unknown
   location: uniontown
   known_for: "Paternal great-grandfather of Dan Frank. Born 12 August 1892 in Russia (Jewish immigrant). Died 6 April 1960, Brownsvill"
+connections:
+  - page: wiki/mind/synthesis/fayette-return
+    type: instantiates
+    claim: "The anchor rather than an instance — an immigrant arriving is not a person returning, and his 1960 Brownsville terminus is what the following four generations orbit."
 ---
 
 # David J. Frank

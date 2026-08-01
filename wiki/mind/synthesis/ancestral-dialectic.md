@@ -47,6 +47,11 @@ connections:
 
 # The Ancestral Dialectic: Ashkenazi Hypervigilance vs. Appalachian Numbness
 
+> **Contested.** [[wiki/mind/synthesis/fayette-return]] shows the
+> return dynamic is fully documented within the paternal line alone, so a
+> two-line dialectic may be over-specified for it. The geography there is
+> residue; the psychology here is testimony.
+
 A long-form Gemini "deep research" report titled *"The Dan Frank OS: A
 Psychogenealogical Architecture of Collapse and Recursion"* — built from
 the same underlying Pattern Mapping document behind several other

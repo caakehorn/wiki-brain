@@ -16,6 +16,9 @@ connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
     type: evidences
     claim: "The Seattle-and-back arc is offered as the geographic template Dan's own returns repeat."
+  - page: wiki/mind/synthesis/fayette-return
+    type: instantiates
+    claim: "The pre-Dan instance that turns a personal habit into a family rule: Seattle in 1957, Hopwood in 1998, the only documented leave-and-return in the line before Dan's own."
 ---
 
 
