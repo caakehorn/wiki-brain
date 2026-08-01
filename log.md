@@ -932,3 +932,65 @@ knowledge: earned.
 
 bin/wiki-lint: 0 errors, no orphan. bin/wiki-connect check: 0 errors.
 bin/wiki-climb check: 322 pages, 13 with synthesizes:, 0 errors, 0 warnings.
+
+## [2026-08-01] write | mind | three commissioned entry concepts
+Operator-commissioned: three high-importance entry pages, written from the
+corpus rather than from the brief. All three are ~10-11KB, deliberately over
+the 8KB advisory budget (operator asked for the longest and most data-rich in
+the corpus); size warnings are expected and accepted, as with the existing
+work/ hub pages.
+
+the-cool-metric.md (concept) — Dan evaluates culture, objects and people on a
+single performed-vs-authentic axis, with coolness as the operational proxy.
+The finding that earns the page: the metric is COMPILED, not merely held. The
+bootloader carries a literal standing instruction — "The system must
+immediately pass a check: 'Did you just treat Dan like a normie?'" — plus
+"anti-normie tone alignment" as a prompt-design mandate and Anti-Normie as a
+declared Current Vibe / Logic State with cite dates. Social use is stated in
+the corpus as filtration: an anti-normie persona deployed "to weed out
+disingenuous participants," irony-coded so the person being sorted cannot see
+the test. Includes the graded taxonomy (the Millennial Cringe cluster
+objected to for performing transgression while carrying zero structural
+threat) and the inward application (the 63-85% sub-bass trusted precisely
+because involuntary). Counter-reading kept and not dismissed: the corpus's own
+Schopenhauer Principle explicitly denies snobbery in favour of cognitive
+incompatibility. Vocabulary density: normie 68, taste 68, gatekeeping 12,
+snob 6.
+
+chaos-preference.md (concept) — a named tier of the architecture, not a quirk:
+FULL PROFILE 2026 carries section 2.5 "Chaotic Neutral: The Philosophical
+Alignment" with 2.5.1 Rejection of Law and 2.5.2 Embrace of Chaos. Read
+together these make an ontological claim rather than a taste for excitement:
+order is a story imposed on reality, entropy is reality with the story
+removed, so wanting chaos is wanting access. Explains resolution-as-
+disappointment. The micro/workplace case runs on the documented burst-and-
+collapse rhythm — a crisis is the only condition under which his native rhythm
+becomes the correct rhythm. Key asymmetry recorded: resists external structure
+while maintaining obsessive internal ones, so the preference is anti-imposed-
+order, not anti-order. Density: chaos 98, entropy 57, chaotic 47.
+
+the-unbroken-bond.md (synthesis) — ~17 years of continuous single-bond
+occupancy (Alexis ~Nov 2009-Nov 2015, Annie Nov 2015-present), the most stable
+fact in the record, more stable than address, employment, income, substance
+regime, politics, alias or social circle. Mechanism is already in the wiki and
+is merely assembled here: the sx-dominant stack organises life around one
+relationship at maximum voltage, which predicts singular-and-continuous rather
+than serial-with-gaps. Separates two variables the corpus had been conflating —
+slot OCCUPANCY vs attachment-system ACTIVATION — which resolves how a six-year
+bond can be simultaneously long and shallow. Costs section carries the hardest
+evidence: the June 1 2026 severance held 52 days and failed, 624 messages in
+four days after recontact.
+
+The three interlock: cool rejects inherited taste, chaos rejects inherited
+order, and the pair-bond is the one structure that is both chosen and
+permanent — which is why it is exempt from the entropy appetite. Everything
+else can burn because he did not pick it.
+
+Loops closed: instantiates edges from bond-switch-2015 and
+interests-as-era-markers; prose wikilink added to bond-switch-2015; the three
+pages cross-link each other. No orphans. Every page names falsifiers and gaps,
+including the biggest one — the 2007-2009 window is undocumented, so the
+defensible span is seventeen years from 2009 rather than from graduation.
+
+bin/wiki-lint: 0 errors (3 advisory size warnings). bin/wiki-connect check:
+0 errors. bin/wiki-climb check: 325 pages, 16 with synthesizes:, 0 errors.
