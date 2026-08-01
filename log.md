@@ -1137,3 +1137,59 @@ whether the architecture is symmetric.
 
 bin/wiki-lint: 0 errors. bin/wiki-connect check: 0 errors.
 bin/wiki-climb check: 327 pages, 18 with synthesizes:, 0 errors, 0 warnings.
+
+## [2026-08-01] measure | mind | two-sided contact Gini — the architecture is symmetric
+Recovered the missing outbound recipients and settled the question the last two
+passes opened. Each `Sent` row was paired to the nearest attributed `Received`
+rows on either side of it in the same export; only attributed `Received` rows
+were used as context, and the 19,119 `Sent` rows that DO carry a handle were
+held out entirely, so validation and deployment ran under identical conditions.
+
+VALIDATION: bracket rule (both neighbours inside the window agree) at 30 minutes
+scores 67.4% coverage at 96.6% accuracy; nearest-neighbour at 1 hour scores 96.7%
+coverage at 88.0%. Control: always guessing that year's busiest handle scores
+57.2%, so the method beats the concentration baseline by 39 points and is not
+riding on it. The held-out rows are 2025-26 only — the sole years the export
+attributes outbound — so a leave-one-out run against attributed `Received` rows
+was added to reach the earlier years: 93.1%-99.4% accuracy in every year from
+2015 to 2026.
+
+BIAS CHECK, and it changed which numbers may be quoted: on held-out rows,
+Gini(imputed) exceeds Gini(true) by +0.0225 (bracket) and +0.0996 (nearest).
+Misassignment invents recipients and lengthens the tail, so imputation inflates
+concentration and every imputed figure is an UPPER bound. The high-coverage rule
+is the worse instrument despite looking better on coverage.
+
+RESULT. Two-sided Gini 0.9591-0.9636 across three operating points that place
+between 77% and 99.9% of the outbound side — insensitive to how much gets filled
+in. Inbound alone is 0.9544 over 495 handles; the previously published 0.9601
+over 496 reproduces exactly as the coefficient over all attributed rows
+regardless of direction.
+
+The conclusion does not rest on the imputation. Two independent legs carry it.
+2026 is 99.8% attributed outbound and 99.9% inbound — a fully measured two-sided
+year: 5,838 sent to TEN handles against 4,046 received from EIGHTEEN, outbound
+Gini 0.8119 against inbound 0.8748. And stripping the tail: above a floor of 25
+messages the two distributions agree to four decimals (0.8586 vs 0.8586).
+
+So the narrow-inbound-funnel / wide-outbound-spread alternative is FALSIFIED.
+Outbound Gini reads marginally below inbound only because inbound carries a
+one-off tail that outbound has no counterpart to: 495 handles have written to
+Dan, 303 ever got anything back, and the 193 that never drew a reply account for
+486 messages — 0.56% of inbound, median one message each. The correct statement
+is stronger than symmetric: the funnel is narrow on both sides and narrower
+going out. Concentration is not a posture he is held in; it is one he maintains
+in both directions.
+
+contact-gini.md and single-channel.md revised per STRATEGY.md — the falsified
+"outbound is unmeasured" clause and the superseded inbound-only narrowing are
+struck through and left visible rather than deleted, and single-channel's second
+falsifier is marked FALSIFIED with its result. Three new gaps recorded: the
+method assumes the `direction` column is honest (a known trap, with the 99.88%
+blank/`Sent` correlation as partial internal support), pre-2015 stays
+unmeasurable, and everything counts handles rather than people — Annie holds at
+least three, so a person-level coefficient would be higher than any figure
+published.
+
+bin/wiki-lint: 0 errors. bin/wiki-connect check: 0 errors.
+bin/wiki-climb check: 327 pages, 18 with synthesizes:, 0 errors, 0 warnings.

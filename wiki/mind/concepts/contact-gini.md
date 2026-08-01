@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-08-01
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -49,7 +49,7 @@ connections:
     claim: "DANMODEL's independent extraction (39,378 reaction pairs, not raw messages) reproduces the same extreme concentration in a different unit: 40% of all pairs belong to Annie (early) alone."
   - page: wiki/mind/synthesis/single-channel
     type: instantiates
-    claim: "The 0.961 coefficient is the only measured instance of a concentration architecture that reproduces independently in the creative, cognitive and evaluative domains — this is the page that generalises it."
+    claim: "The two-sided coefficient is the only measured instance of a concentration architecture that reproduces independently in the creative, cognitive and evaluative domains — this is the page that generalises it, and the page whose narrow-inbound-funnel alternative this recovery falsified."
 ---
 
 
@@ -128,14 +128,155 @@ the page previously implied. Three consequences:
    and 2026 is 100%, and they still show 0.9576 and 0.8928 — so the
    concentration is not an artifact of the missing outbound side, it is merely
    measured on one side.
-3. **Outbound concentration remains unmeasured.** Whether Dan *sends* as
+3. ~~**Outbound concentration remains unmeasured.** Whether Dan *sends* as
    concentratedly as he *receives* is unknown, and a person can plausibly have a
-   narrow inbound funnel and a wide outbound one.
+   narrow inbound funnel and a wide outbound one.~~ **SETTLED 2026-08-01 — the
+   architecture is symmetric.** See the next section. The narrow-in/wide-out
+   alternative is falsified; the clause is left visible because it was the
+   hypothesis the measurement was built to kill.
 
-**Next operation:** recipients are likely recoverable by pairing each `Sent` row
-to the surrounding conversation window in the same export. That would produce
+~~**Next operation:** recipients are likely recoverable by pairing each `Sent`
+row to the surrounding conversation window in the same export. That would produce
 the first true two-sided coefficient, and it is the only way to settle whether
-the architecture is symmetric.
+the architecture is symmetric.~~ **DONE 2026-08-01.**
+
+## TWO-SIDED 2026-08-01 — the concentration is not a receiving posture
+
+The recipient recovery was run. **The architecture is symmetric.** Dan sends as
+concentratedly as he receives, and he sends to *fewer* people than write to him.
+
+### Method
+
+Each `Sent` row was paired to the nearest attributed `Received` rows on either
+side of it in the same export, on the assumption that an outbound message sits
+inside the conversation window it belongs to. Two rules were tested — `bracket`
+(assign only when the attributed neighbours on *both* sides fall within the
+window and name the same handle) and `nearest` (assign the closest attributed
+neighbour within the window).
+
+Only attributed `Received` rows were used as context. The **19,119 `Sent` rows
+that do carry a handle were held out entirely** and never used as context, so
+validation and deployment run under identical conditions.
+
+| Rule | Window | Coverage | Accuracy |
+|---|---|---|---|
+| bracket | 5 min | 50.3% | **97.7%** |
+| bracket | 30 min | 67.4% | **96.6%** |
+| bracket | 1 hr | 72.4% | 95.9% |
+| nearest | 1 hr | 96.7% | 88.0% |
+| nearest | 24 hr | 100.0% | 86.8% |
+
+**Control:** always guessing that year's single busiest handle scores 57.2%.
+The method is not riding on concentration — `bracket`@30min beats the modal
+guess by 39 points.
+
+Two limits on the validation, both real. The held-out rows are **2025–26 only**
+(19,115 of 19,119), because those are the only years the export attributes
+outbound at all — so accuracy is *directly* verified only for the recent window.
+To reach the earlier years, the same rules were run leave-one-out against the
+attributed `Received` rows, where ground truth exists for every year:
+`bracket`@30min scores 93.1%–99.4% accuracy in every year from 2015 to 2026.
+That is a proxy — imputing an inbound from inbound context is an easier task
+than imputing an outbound — but it establishes that the conversation-window
+structure is locally coherent throughout the archive, not just recently.
+
+### The bias check, which decides how the numbers may be quoted
+
+Imputation error is not neutral with respect to the thing being measured.
+Comparing, on the held-out rows only, the Gini of the *true* handles against the
+Gini of the *imputed* handles for the same messages:
+
+| Rule | Gini (true) | Gini (imputed) | Bias |
+|---|---|---|---|
+| bracket @ 30 min | 0.7546 | 0.7771 | **+0.0225** |
+| nearest @ 1 hr | 0.7739 | 0.8734 | **+0.0996** |
+
+**Imputation inflates concentration.** Misassignment invents handles that were
+never the recipient, which lengthens the tail and pushes the coefficient up.
+Every imputed outbound figure below is therefore an **upper bound**, and the
+high-coverage `nearest` rule is the worse instrument despite looking better on
+coverage. This is why the argument does not rest on the imputed numbers.
+
+### The anchor: 2026 requires no imputation at all
+
+The export's attribution improves to completeness at the end. In **2026, 99.8%
+of `Sent` rows and 99.9% of `Received` rows carry a handle** — a fully
+two-sided year, measured, nothing inferred:
+
+| 2026 (verified, no imputation) | Messages | Handles | Gini |
+|---|---|---|---|
+| Inbound | 4,046 | 18 | 0.8748 |
+| **Outbound** | **5,838** | **10** | **0.8119** |
+| Two-sided | 9,884 | 19 | 0.8928 |
+
+He sent *more* messages than he received, to **ten handles against eighteen**.
+Outbound top-1 share is 73.5% and top-5 is 99.2%. There is no wide outbound
+spread in the one year where the question can be answered without a model.
+
+### The whole archive, with recipients recovered
+
+| Rule | Outbound rows placed | Inbound Gini | Outbound Gini | Two-sided Gini |
+|---|---|---|---|---|
+| bracket @ 30 min | 68,822 (77%) | 0.9544 | 0.9347 | **0.9636** |
+| nearest @ 1 hr | 87,043 (98%) | 0.9544 | 0.9425 | **0.9599** |
+| nearest @ 24 hr | 88,856 (99.9%) | 0.9544 | 0.9441 | **0.9591** |
+
+The three operating points span 0.9591–0.9636 on the two-sided figure despite
+placing between 77% and 99.9% of the outbound side, which means the result is
+not sensitive to how much of the missing side gets filled in. For reference:
+inbound alone is **0.9544 over 495 handles**, and the previously published
+**0.9601 over 496 handles** is reproduced exactly here as the coefficient over
+*all attributed rows regardless of direction* — 82% of which are inbound.
+
+### The decisive control: strip the tail and the two sides become the same number
+
+Outbound Gini comes in marginally *below* inbound at every operating point,
+which reads at first like a trace of the wide-outbound hypothesis. It is not.
+It is a one-off tail on the inbound side that has no outbound counterpart.
+Restricting both sides to handles above a volume floor:
+
+| Volume floor | Inbound handles | Inbound Gini | Outbound handles | Outbound Gini | Gap |
+|---|---|---|---|---|---|
+| ≥1 | 495 | 0.9544 | 303 | 0.9441 | −0.0103 |
+| ≥2 | 327 | 0.9357 | 246 | 0.9325 | −0.0032 |
+| ≥5 | 223 | 0.9133 | 167 | 0.9064 | −0.0068 |
+| ≥10 | 165 | 0.8921 | 143 | 0.8947 | +0.0026 |
+| ≥25 | 105 | 0.8586 | 93 | 0.8586 | **−0.0001** |
+| ≥100 | 43 | 0.7597 | 40 | 0.7557 | −0.0040 |
+
+Above any floor at all the two distributions are indistinguishable, and at ≥25
+messages they agree to four decimal places. The entire inbound/outbound
+difference lives in handles that sent one or two messages.
+
+### What the recovery found that the one-sided figure could not
+
+**495 handles have written to Dan. 303 ever got anything back** — and that 303
+is generous, taken from the widest imputation. The 193 handles that never drew
+a recovered reply account for **486 messages, 0.56% of all inbound**; 118 of
+them sent exactly one message and the median is one. The long tail of the
+contact graph is not a set of thin relationships. It is a set of non-events he
+does not answer.
+
+So the correct statement is stronger than "symmetric." **The funnel is narrow
+on both sides and narrower going out.** Inbound concentration is if anything
+*understated* by the raw coefficient, because a spam-and-one-off tail inflates
+the number of handles without adding any relational load. Strip it and the
+sending behaviour is the receiving behaviour.
+
+### Gaps opened by this pass
+
+- **The method assumes the `direction` column is trustworthy**, which
+  `STRATEGY.md` explicitly warns against. There is one piece of internal support:
+  blank handles are 99.88% `Sent`, a correlation that could not arise if the
+  column were noise. But no content-level reconstruction was run to confirm it,
+  and if `direction` is wrong for some subpopulation, the inbound/outbound split
+  moves with it.
+- **Pre-2015 remains unmeasurable.** Recovery cannot invent context where the
+  export has none; the archive still effectively begins in 2015.
+- **Handles, not people.** Everything above counts handles. Annie holds at least
+  two (`+17244346811`, `+12124702449`) plus an email, so a person-level
+  coefficient would be *higher* than any figure on this page. That collapse has
+  not been done.
 
 ## Relational Metrics
 

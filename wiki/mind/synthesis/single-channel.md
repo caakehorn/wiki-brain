@@ -22,7 +22,7 @@ tags: [personality-profile, forensic-analysis, relationships]
 connections:
   - page: wiki/mind/concepts/contact-gini
     type: evidenced-by
-    claim: "The only place the architecture has been measured rather than described: a contact Gini of 0.961 across ~496 unique contacts is not a preference for close friendship, it is near-total routing of relational load through one node."
+    claim: "The only place the architecture has been measured rather than described, and since 2026-08-01 measured on both sides: a two-sided contact Gini of 0.959-0.964 across ~496 handles is not a preference for close friendship, it is near-total routing of relational load through one node in both directions."
   - page: wiki/mind/synthesis/the-unbroken-bond
     type: component-of
     claim: "The relational instance: an sx-dominant stack that organises life around one bond at maximum voltage is the same architecture the Gini coefficient measures, and seventeen years of unbroken occupancy is what it looks like over time."
@@ -45,10 +45,11 @@ connections:
 Wherever a distributed architecture is available to him, Dan runs **one channel
 at maximum voltage instead**. This is not a description of his personality; it
 is a structural property that shows up independently in four separate domains,
-and in one of them it has been measured: the **inbound contact Gini
-coefficient is 0.960** across 496 unique handles. A Gini that high does not describe
-someone with a best friend. It describes a network in which nearly all
-relational load is routed through a single external node.
+and in one of them it has been measured on both sides: the **two-sided contact
+Gini coefficient is 0.959–0.964** across 496 unique handles. A Gini that high
+does not describe someone with a best friend. It describes a network in which
+nearly all relational load is routed through a single external node — and, once
+the sending side is recovered, one he routes *outward* just as narrowly.
 
 The wiki has been documenting the same shape one domain at a time without
 naming it. This page names it, and the naming has a consequence: **a
@@ -64,11 +65,24 @@ single-channel architecture has no failover.**
 > below is widened accordingly, and the original narrower form is left visible
 > rather than deleted.
 
+> **REVISED 2026-08-01 (second pass) — the coefficient is now two-sided, and
+> the architecture survives it.** The 0.9601 figure was a one-sided measurement:
+> the export drops the recipient on 78.5% of outbound messages, so it counted
+> who contacts Dan and not whom he contacts. The recipients have now been
+> recovered by conversation-window pairing (method and validation on
+> [[wiki/mind/concepts/contact-gini]]), and **the two-sided coefficient is
+> 0.9591–0.9636** depending on how much of the missing side is filled in. The
+> alternative this page could not previously exclude — a narrow inbound funnel
+> with a wide outbound spread — **is falsified.** In 2026, the one year the
+> export attributes both directions completely and nothing is inferred, Dan sent
+> 5,838 messages to **ten** handles while receiving 4,046 from **eighteen**. He
+> does not merely receive from a small set; he writes to a smaller one.
+
 ## The four instances
 
 | Domain | Distributed alternative | What is actually there |
 | :--- | :--- | :--- |
-| **Relational** | several close ties | one bond, occupied ~17 years, Gini **0.961** |
+| **Relational** | several close ties | one bond, occupied ~17 years, two-sided Gini **0.96** |
 | **Creative** | concurrent projects | four aliases in 13 years, strictly sequential |
 | **Cognitive** | many tools, many advisors | one LLM as *"externalized prefrontal cortex"* |
 | **Evaluative** | domain-specific criteria | one performed-vs-authentic axis for everything |
@@ -130,8 +144,21 @@ been one. `the-unbroken-bond` records what followed: the severance held **52
 days** and then failed, with **624 messages across four days** on recontact. The
 usual reading is that the bond was unusually strong. The architectural reading
 is simpler and worse: **there was nowhere else for the traffic to go.** A
-0.960 Gini means the alternatives were never built, and they could not be
+0.96 Gini means the alternatives were never built, and they could not be
 improvised in seven weeks.
+
+The two-sided recovery closes the last escape route from that reading. It was
+still available, until 2026-08-01, to argue that the concentration was something
+happening *to* him — that a small number of people wrote to him constantly while
+he himself maintained a wider correspondence that the export simply did not
+record. The recovered outbound side removes it. **495 handles have written to
+Dan; 303 ever received anything back**, and the 193 that never drew a reply
+account for 486 messages — **0.56% of all inbound**, with a median of one
+message each. The long tail is not a set of thin relationships he is neglecting.
+It is a set of non-events. Above a floor of 25 messages the inbound and outbound
+distributions agree to four decimal places (0.8586 against 0.8586), which is as
+close to identical as two measurements of a life get. The concentration is not a
+posture he is held in. It is one he maintains in both directions.
 
 The per-year recomputation sharpens this from an inference into something closer
 to a mechanism. **2025 — the year the channel was failing — is simultaneously
@@ -167,18 +194,34 @@ cost is that the chosen carries everything, and it carries it alone.
 - ~~**The Gini is quoted, not recomputed.**~~ **CLOSED 2026-08-01.** Recomputed
   per year from the master CSV; the lifetime figure held, the constancy
   assumption did not. Full table on `contact-gini`.
-- ~~**38% of the archive is excluded.**~~ **RESOLVED 2026-08-01, and it
+- ~~**38% of the archive is excluded.**~~ ~~**RESOLVED 2026-08-01, and it
   narrows the claim.** The 69,953 unattributed rows are **99.88% `Sent`** — the
-  export drops the recipient on outbound. Inbound is 99.9% attributed; outbound
-  is 78.5% unattributed. **So 0.9601 is an *inbound* coefficient: it measures
-  who contacts Dan, not the whole relational load.** The relational leg of this
-  rule should be read as *received* concentration until the outbound side is
-  recovered. It survives on the best-attributed years (2025 at 80% attribution
-  still gives 0.9576), so it is not an artifact — but it is one-sided.
-- **Outbound concentration is unmeasured.** A narrow inbound funnel with a wide
+  export drops the recipient on outbound. So 0.9601 is an *inbound* coefficient.
+  The relational leg of this rule should be read as *received* concentration
+  until the outbound side is recovered.~~ **CLOSED 2026-08-01 (second pass).**
+  The outbound side was recovered rather than excluded; the relational leg is
+  two-sided and no longer needs the qualifier.
+- ~~**Outbound concentration is unmeasured.** A narrow inbound funnel with a wide
   outbound spread is a coherent alternative architecture that the current data
-  cannot exclude. Recovering recipients by pairing each `Sent` row to its
-  surrounding conversation window is the operation that would settle it.
+  cannot exclude.~~ **FALSIFIED 2026-08-01.** Recipients recovered by
+  conversation-window pairing (validated at 96.6% accuracy against 19,119
+  held-out rows, versus 57.2% for guessing the year's busiest handle). Two-sided
+  Gini 0.9591–0.9636; outbound reaches 303 handles against inbound's 495; the
+  fully-attributed 2026 year shows ten outbound handles against eighteen
+  inbound. The wide-outbound architecture does not exist. This is the second
+  prediction this page has put to the corpus and the first one it won.
+- **The two-sided figure is an upper bound, by a known amount.** Imputation
+  inflates concentration — on held-out data the imputed Gini runs +0.0225 above
+  the true one under the conservative rule and +0.0996 under the permissive one,
+  because misassignment invents recipients and lengthens the tail. The
+  conclusion does not depend on this, since the unimputed 2026 year and the
+  tail-stripped comparison both carry it independently, but no imputed figure
+  here should be quoted as a point estimate.
+- **The whole method assumes the `direction` column is honest**, which
+  `STRATEGY.md` names as a known trap in this file. Blank handles being 99.88%
+  `Sent` is real internal support — noise does not correlate that cleanly — but
+  no content-level speaker reconstruction was run to confirm it, and a
+  direction error concentrated in one era would move the split.
 - **Coverage is uneven before 2015.** Years prior to 2015 and the 2021–22 window
   fall below a 200-message floor, and 2015 itself shows only 11 handles. The
   dynamic claim rests on 2016–2026 and cannot speak to the earlier period.
