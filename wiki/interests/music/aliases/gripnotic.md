@@ -23,6 +23,10 @@ related:
   - wiki/self/context-core
   - wiki/interests/favorites/index
 tags: [music-production, forensic-analysis, uniontown-era]
+connections:
+  - page: wiki/mind/synthesis/alias-as-periodization
+    type: instantiates
+    claim: "GRIPNOTIC is the instance where the periodizing function leaves music entirely: the name is claimed for an AI agent in April 2026 while both musical invariants stay exactly where they were."
 ---
 
 # Gripnotic

@@ -23,6 +23,9 @@ connections:
   - page: wiki/timeline/periods/uniontown-return-2013-2015
     type: component-of
     claim: "The SLOPPP-to-MOGZART handoff (~2014, on the May account rotation) lands inside the Uniontown-return period, dating the alias churn to those years."
+  - page: wiki/mind/synthesis/alias-as-periodization
+    type: instantiates
+    claim: "MOGZART is the instance that uses one name twice — adopted as SLOPPP closes in December 2015, revived March 4 2026 — marking both ends of the same life period without either use changing the sound."
 ---
 
 # Mogzart
