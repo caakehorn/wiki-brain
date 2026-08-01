@@ -40,10 +40,17 @@ connections:
   - page: wiki/people/zachariah-harshman
     type: evidenced-by
     claim: "Zach's Dec 23, 2015 confrontation — furious at Dan for 'vanishing' while Zach himself had grown close to Alexis post-breakup — is an independent third-party account of the switch's social fallout, corroborating the timing from entirely outside Dan's own corpus."
+  - page: wiki/mind/synthesis/the-unbroken-bond
+    type: instantiates
+    claim: "The 2015 switch is the sharpest instance of a seventeen-year pattern: the attachment slot has never been left voluntarily empty, and this is the transition that proves it at the resolution of days."
 ---
 
 
 # The 2015 Single-Bond Switch
+
+This event is one instance of a longer pattern; see
+[[wiki/mind/synthesis/the-unbroken-bond]] for the seventeen-year continuity it
+sits inside.
 
 In late November 2015, Dan's primary attachment target transferred from [[wiki/people/alexis-armel|Alexis]] to [[wiki/people/annie-ulmer|Annie]] inside a single calendar month — the Alexis relationship ending and the Annie bond forming at the same moment. The bootloader corpus names this the **single-bond switch**: not a gradual disengagement followed by a new attachment, but one bond closing as the other opens, with no unattached gap between them. This page is the synthesis of that transition — its timing, its mechanics, and what the shared "lair" at 155 Virginia Avenue reveals about how the switch actually happened.
 
