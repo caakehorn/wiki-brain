@@ -119,6 +119,44 @@ This is the sense in which synthesis "generates new data": not by inventing
 facts, but by producing falsifiable structure whose failure is itself a
 finding.
 
+## The write-back obligation — how insight gets amortized
+
+Adopted 2026-08-01 from `STRATEGY.md`'s core loop. This is the counterpart to
+the staleness rule: staleness pushes information *down* the ladder when a
+premise moves, and write-back pushes it *up-and-back-out* when a conclusion is
+reached.
+
+**A finding that lives only on the synthesis page has been discovered once. A
+finding written back into its members has been discovered permanently.**
+
+When you write a T2 or T3 page, every page named in `synthesizes:` must come
+away carrying the finding:
+
+1. **A typed edge back into the synthesis** — `instantiates` from the member,
+   `instance-of` from the synthesis — on *every* member, without exception.
+2. **A claim that states what the member turned out to be evidence of**, not
+   merely that the two pages are related. The test: a reader who lands on the
+   member page and reads only its `connections:` block should learn the
+   conclusion the synthesis reached about it. "Franki Faris relates to
+   dormancy-not-exit" fails. "Five days of occupancy in 2013 left no corpus and
+   no later trace, which is the control bounding the retention rule to
+   relationships that clear a tenure floor" passes.
+3. **A prose sentence on the member** wherever the finding is load-bearing for
+   that member — i.e. where a stranger reading the member page would be misled
+   by its absence. Not every member needs one; the ones the argument turns on do.
+
+The reason this is mandatory rather than encouraged is entirely practical. The
+corpus is read one page at a time, by models with finite context, usually
+arriving at a member page rather than at the synthesis. If the member does not
+carry the conclusion, the conclusion is invisible at the moment it is needed and
+gets re-derived — badly, from less evidence, by a weaker model. Every skipped
+write-back is a future re-derivation.
+
+**This applies to revisions too.** When a synthesis is widened, corrected, or
+falsified, the members' claims are now stale in substance even though no tool
+will flag them — nothing checks that an inverse claim still says something true.
+Re-read them and update the ones the change touched.
+
 ## CLIMB — the fourth operation
 
 `CLAUDE.md` defines INGEST, QUERY and LINT. **CLIMB** is the fourth, and it is
@@ -143,9 +181,12 @@ One climb per pass, fully:
    rule stated plainly, a table of members against the rule, the controls or
    counterexamples that carry the argument, at least one prediction, and a
    Gaps section.
-5. **Wire it.** Typed edges both ways per `CONNECTIONS_SPEC.md`; each member
-   page gets an `instantiates`/`instance-of` edge and, where it is
-   load-bearing, a prose sentence.
+5. **Wire it, and write the finding back.** Typed edges both ways per
+   `CONNECTIONS_SPEC.md`. Every member page gets an `instantiates` edge whose
+   claim states what that page turned out to be evidence *of*, and a prose
+   sentence wherever the finding is load-bearing for it. See "The write-back
+   obligation" above — this step is the one that makes the synthesis compound
+   instead of merely existing, and it is the one most often left half-done.
 6. **Gates and log.** `bin/wiki-lint`, `bin/wiki-connect check`,
    `bin/wiki-climb check` — all three at 0 errors. `log.md`:
    `## [YYYY-MM-DD] climb | <domain> | <page> (N synthesized, M rejected)`.
@@ -175,6 +216,11 @@ build above it.
   warning without re-reading the premise. This is the one prohibited move.
 - **Climbing on sand.** Building T3 doctrine on T2 pages that are themselves
   thin. Altitude does not add rigor; it inherits whatever the floor had.
+- **The write-only synthesis.** A T2/T3 page that is correct, well-argued, and
+  wired to nothing — or wired with inverse claims so generic that a reader on the
+  member page learns nothing. The finding exists but cannot be found from below,
+  which is where readers actually arrive. This is the most common way good
+  synthesis work fails to compound.
 
 ## Tooling
 

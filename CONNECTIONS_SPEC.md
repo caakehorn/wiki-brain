@@ -87,6 +87,39 @@ reasoning lives. `## Related` / `## See also` footers are banned on
 retrofitted pages: if a footer link deserves to exist, it deserves a typed
 edge and a claim; if it can't earn a claim, delete it.
 
+## The inverse claim carries the finding (added 2026-08-01)
+
+Two different things both produce an inverse edge, and they are held to
+different standards. Confusing them is why some inverse claims say nothing.
+
+**A retrofit inverse** — added while converting a legacy `related:` list — may be
+frontmatter-only and may simply restate the relationship from the other side.
+Its prose pass comes later (retrofit protocol step 4).
+
+**A write-back inverse** — added because a synthesis page concluded something
+about this page — is held to `STRATEGY.md`'s core loop, step 5, and must state
+**what this page turned out to be evidence of.** The test: a reader who lands
+here and reads only the `connections:` block should come away with the
+conclusion, not with a pointer to where the conclusion is kept.
+
+```yaml
+# fails — names a relationship, transmits nothing
+- page: wiki/mind/synthesis/dormancy-not-exit
+  type: instantiates
+  claim: "This page is one of the members of the dormancy-not-exit synthesis."
+
+# passes — the finding itself, readable cold, at the point of arrival
+- page: wiki/mind/synthesis/dormancy-not-exit
+  type: instantiates
+  claim: "Seventeen years of continuous presence after the 2009 breakup — Suzanne's closest friend, the cat's co-guardian, a Christmas fixture — is the cleanest case of a romantic role ending without the tie ending."
+```
+
+The corpus is read one page at a time by models with finite context, and they
+arrive at member pages far more often than at synthesis pages. A claim that
+merely points is a claim that will be skipped, and the conclusion behind it will
+be re-derived from less evidence. Full rationale: `SYNTHESIS_SPEC.md`, "The
+write-back obligation."
+
 ## Junction pages — where cross-domain tissue accumulates
 
 When 3+ pages across ≥2 domains share a typed pattern, the pattern gets its
@@ -126,8 +159,10 @@ Same discipline as ingest — one page per pass, fully:
    anyway.
 3. Write the `connections:` block; delete `related:`; convert or delete the
    `## Related` footer; ensure load-bearing edges appear in prose.
-4. Add the inverse edge on each target page (frontmatter only is fine for
-   the inverse; its prose pass will come).
+4. Add the inverse edge on each target page. Frontmatter only is fine for a
+   *retrofit* inverse; its prose pass will come. A *write-back* inverse — one
+   carrying a synthesis finding — is held to the higher bar above and must state
+   the finding itself.
 5. `bin/wiki-connect check` and `bin/wiki-lint` must both pass.
 6. log.md: `## [YYYY-MM-DD] connect | <domain> | <page> (N edges, M rejected)`.
    Commit.

@@ -1246,3 +1246,49 @@ single-channel, the-cool-metric, chaos-preference) alongside the new page.
 Queue row 5 marked CLIMBED. bin/wiki-lint: 328 pages, 0 errors.
 bin/wiki-connect check: 0 errors.
 bin/wiki-climb check: 328 pages, 19 with synthesizes:, 0 errors, 0 warnings.
+
+## [2026-08-01] docs | meta | propagate the refined STRATEGY.md into every governance file
+The operator refined STRATEGY.md (f57e574). Most of the diff is tightening, but
+three changes are doctrinal and none of the other spec files carried them:
+
+1. **"Every data point gets an entry."** Coverage is now stated as the standing
+   ambition — every story, friend, place, perspective, development, thought.
+2. **An entry is a live node, not a record.** Each page carries what was known at
+   ingestion AND everything later produced by using it in analysis against the
+   rest of the corpus.
+3. **The core loop, named:** Story → Entry → Analysis → Synthesized finding →
+   **saved back to every entry it touches** → repeat. Step 5 is a new standing
+   obligation, and the rationale is **amortized insight** — analysis is expensive,
+   so it is done once, saved everywhere relevant, and each future pass starts
+   from a higher floor.
+
+Propagated:
+- **CLAUDE.md** — coverage rule and the live-node doctrine into the charter; the
+  full core loop as its own section mapping each step to the operation that runs
+  it; CLIMB step 5 hardened to require write-back on every member.
+- **SYNTHESIS_SPEC.md** — new section "The write-back obligation", stated as the
+  counterpart to the staleness rule (staleness pushes information down the ladder
+  when a premise moves; write-back pushes it back out when a conclusion is
+  reached). CLIMB step 5 rewritten. New anti-pattern: **the write-only
+  synthesis** — correct, well-argued, and wired to nothing, so the finding cannot
+  be reached from below, which is where readers actually arrive.
+- **CONNECTIONS_SPEC.md** — new section distinguishing a *retrofit* inverse
+  (frontmatter-only is fine) from a *write-back* inverse (must state what the
+  page turned out to be evidence OF), with a failing and a passing claim side by
+  side. Retrofit step 4 updated to point at the distinction.
+- **STYLE_GUIDE.md** — "An entry accumulates" and "Every data point gets an
+  entry" as substance rules; the contacts/ quarantine explicitly named as the one
+  place coverage is held back, and why; header now states STRATEGY.md wins on
+  intent as CLAUDE.md wins on process.
+- **INGEST_RUNBOOK.md** — STRATEGY.md added as governance file #0; quality bar
+  gains write-back and coverage items.
+- **INGEST_PROTOCOL.md** — both rules stated in the quality bar so any LLM
+  running the paste-box loop gets them.
+- **README.md** — STRATEGY.md added to the file map as the read-first document.
+
+Deliberately NOT changed: the "three unbreakable rules" reference in
+LLM_HANDOFF.md line 357 is a dated historical entry that was accurate when
+written; the handoff log is append-only history, not a spec.
+
+bin/wiki-lint: 328 pages, 0 errors. bin/wiki-connect check: 0 errors.
+bin/wiki-climb check: 328 pages, 19 with synthesizes:, 0 errors, 0 warnings.

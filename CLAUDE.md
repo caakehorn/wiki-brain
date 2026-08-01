@@ -6,6 +6,18 @@ in detailing everything about its creator, Dan Frank.
 It seeks to define and provide complete context for his life - biography, history, cognitive traits, ideology, tendencies and all other datapoints which point back to the real world individual. 
 
 As an ongoing project, this wiki strives to gradually fill in any and all knowledge gaps about Dan, as well as continuously update with realtime information as time passes.  
+
+**Every data point gets an entry.** Every story, every friend, every place,
+every perspective, every development, every thought. Coverage is not a
+nice-to-have that yields to tidiness — a thing that happened and has no entry
+is a thing the brain cannot reason with. When in doubt, write the entry.
+
+**And an entry is never just a record.** Each one carries two things: everything
+known about it at the moment it was ingested, and everything later *produced* by
+using it in analysis alongside the rest of the corpus. A page is a live node that
+accumulates conclusions drawn from reading it against everything else — see
+"The core loop" below, which is the mechanism the rest of this file exists to
+serve. Governing document: `STRATEGY.md`.
 ## Why this is a second brain, not a RAG
 
 A retrieval system keeps the sources and re-derives every answer from them on
@@ -32,6 +44,35 @@ synthesis already on disk and build on it; when new raw contradicts it, apply
 the contradiction/revision rules (flag and correct), you do not bulldoze it and
 re-derive from zero. Pages may declare which kind they are with an optional
 `knowledge: earned | derived | mixed` frontmatter field (see STYLE_GUIDE.md).
+
+### The core loop (STRATEGY.md, refined 2026-08-01)
+
+The system runs one repeating cycle, and every operation below is a step in it:
+
+**Story → Entry → Analysis → Synthesized finding → Saved back to every entry it
+touches → Repeat.**
+
+1. A memory, fact, or document is captured once and filed immutably into `raw/`.
+2. It is read from `raw/` exactly once, and that understanding is written into a
+   durable `wiki/` page — a ground-floor entry. *(INGEST)*
+3. Once enough ground entries exist, they are read **across** each other — not
+   one at a time — looking for a pattern no single entry states but that several
+   together prove. *(CLIMB, step 2)*
+4. That pattern becomes its own finding: a synthesis, stated as a falsifiable
+   claim, not a vague observation. *(CLIMB, steps 3–4)*
+5. **The finding is written back into every ground entry it draws from**, via a
+   typed connection carrying an argued claim — so the insight does not have to be
+   re-derived the next time someone lands on that entry. *(CLIMB, step 5 — the
+   step most often done partially, and the one that makes the difference)*
+6. The finding itself becomes a premise for the next round: junctions are read
+   across each other to find doctrine, exactly as ground entries were read across
+   each other to find junctions.
+
+This is **amortized insight**. Analysis is expensive to do well, so it is done
+once, saved at every point where it is relevant, and every future pass starts
+from a higher floor instead of re-deriving what is already known. A finding that
+exists only on the synthesis page has been done *once*; a finding written back
+into its members has been done *permanently*.
 
 ### The wiki is an input to itself (adopted 2026-07-26)
 
@@ -195,7 +236,12 @@ exactly; do not improvise a synthesis pass.** The short form:
 4. Write it: `page_type: synthesis`, `knowledge: earned`, `synthesizes:`
    listing every member, thesis in the first two sentences, the rule stated
    plainly, the controls that carry it, at least one prediction, and Gaps.
-5. Wire it with typed edges both ways per CONNECTIONS_SPEC.md.
+5. Wire it with typed edges both ways per CONNECTIONS_SPEC.md. **Every member
+   page gets the finding written back into it** — an `instantiates` edge whose
+   claim states what this page turned out to be evidence *of*, plus a prose
+   sentence wherever the finding is load-bearing for that member. A synthesis
+   whose members do not carry it back is half-built: the next reader landing on
+   the member learns nothing the synthesis discovered.
 6. All three gates at 0 errors; log `climb | <domain> | <page>`; commit.
 
 Climb when a cluster has survived two or more ingests, or immediately when an

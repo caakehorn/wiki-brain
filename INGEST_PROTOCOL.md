@@ -42,6 +42,16 @@ else in the response is ignored, so the model may think out loud first.
 
 ## Quality bar
 
+Two rules from `STRATEGY.md`'s core loop bind here as much as anywhere, and the
+prompt pack states both:
+
+- **Every data point gets an entry.** Coverage is the goal; a thin stub beats an
+  omission. The exception is `wiki/people/contacts/`, which stays quarantine.
+- **Findings get written back.** If the pass produces a conclusion spanning
+  several pages, that conclusion is written into each of them as a typed edge
+  whose claim states the finding — not left on one page for the others to
+  rediscover.
+
 The pack embeds STYLE_GUIDE.md and the ingest rules from CLAUDE.md
 (one source per pass, complete-sentence prose, tables for numbers,
 ~8 KB budget, one page per entity, contradictions flagged not overwritten,

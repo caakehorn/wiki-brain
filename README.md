@@ -53,8 +53,8 @@ You can also just drag files into `inbox/` yourself — same thing.
 
 ## Getting it into the wiki
 
-Two ways — either works, both follow the same rules (`CLAUDE.md` +
-`STYLE_GUIDE.md`):
+Two ways — either works, both follow the same rules (`STRATEGY.md` for intent,
+`CLAUDE.md` for process, `STYLE_GUIDE.md` for format):
 
 1. **Claude Code:** open it in this folder and say "ingest the inbox."
 2. **Any LLM (no subscription needed):** `bin/ingest-pack` bundles an inbox
@@ -107,6 +107,7 @@ raw/       original sources, immutable archive
 wiki/      the compiled knowledge (the actual second brain)
 exports/   generated LLM bundles (disposable, not in git)
 bin/       capture + export-corpus
+STRATEGY.md  what this repo is for and the core loop — read first
 CLAUDE.md  the agent's operating rules
 index.md   master navigation
 log.md     history of every operation
