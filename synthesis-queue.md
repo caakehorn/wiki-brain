@@ -36,7 +36,7 @@ Mark entries `CLIMBED -> <page>` or `REJECTED — <reason>` as you work.
 | 22 | 12.25 | interests, timeline | [[wiki/interests/stand-up-comedy]] · [[wiki/interests/the-office]] · [[wiki/timeline/events/teen-concert-years]] |
 | 23 | 12.20 | mind, people, self | [[wiki/mind/synthesis/ancestral-dialectic]] · [[wiki/people/david-j-frank]] · [[wiki/people/morley-frank]] · [[wiki/people/rick-frank]] · [[wiki/people/sadie-harris]] · [[wiki/self/ancestry]] | **CLIMBED -> [[wiki/mind/synthesis/fayette-return]]**
 | 24 | 12.00 | interests, self | [[wiki/interests/music/overview]] · [[wiki/self/context-core]] · [[wiki/self/overview]] |
-| 25 | 12.00 | interests, mind | [[wiki/interests/music/aliases/gripnotic]] · [[wiki/mind/concepts/contact-gini]] · [[wiki/mind/synthesis/totality-themes]] |
+| 25 | 12.00 | interests, mind | [[wiki/interests/music/aliases/gripnotic]] · [[wiki/mind/concepts/contact-gini]] · [[wiki/mind/synthesis/totality-themes]] | **CLIMBED -> [[wiki/mind/synthesis/single-channel]]**
 
 Shared signals per cluster:
 

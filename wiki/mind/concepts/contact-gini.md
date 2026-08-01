@@ -47,10 +47,17 @@ connections:
   - page: wiki/work/tech/danmodel
     type: evidenced-by
     claim: "DANMODEL's independent extraction (39,378 reaction pairs, not raw messages) reproduces the same extreme concentration in a different unit: 40% of all pairs belong to Annie (early) alone."
+  - page: wiki/mind/synthesis/single-channel
+    type: instantiates
+    claim: "The 0.961 coefficient is the only measured instance of a concentration architecture that reproduces independently in the creative, cognitive and evaluative domains — this is the page that generalises it."
 ---
 
 
 # Contact Gini
+
+The coefficient is generalised in [[wiki/mind/synthesis/single-channel]]:
+the same concentration appears in the creative, cognitive and evaluative
+domains, and the architecture it describes has no failover.
 
 The "Contact Gini" concept refers to the application of the Gini coefficient to measure the concentration of Dan's relational load. It quantifies the degree to which his relational and emotional inputs are routed through a statistically single external communication node, rather than being distributed across a broader social network.
 

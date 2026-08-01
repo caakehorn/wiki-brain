@@ -1032,3 +1032,40 @@ heavy, so a family that stays may be typical rather than distinctive.
 
 bin/wiki-lint: 0 errors, no orphan. bin/wiki-connect check: 0 errors.
 bin/wiki-climb check: 326 pages, 17 with synthesizes:, 0 errors, 0 warnings.
+
+## [2026-08-01] climb | mind | single-channel.md — new T3 doctrine
+Climbed synthesis-queue cluster #25 (gripnotic, contact-gini, totality-themes).
+The rule: wherever a distributed architecture is available, load is
+concentrated on one channel at maximum voltage instead — and it reproduces in
+four domains that share no circumstances. Relational (contact Gini 0.961 across
+~496 contacts; one bond, ~17 years). Creative (four aliases in thirteen years,
+strictly sequential, never parallel). Cognitive (one LLM as externalized
+prefrontal cortex rather than one tool among several). Evaluative (one
+performed-vs-authentic axis for every category, where most people run
+domain-specific criteria). Each was derived on its own page without reference
+to the others, which is why four independent derivations of one shape is the
+finding rather than a coincidence.
+
+The consequence that earns the page: a single-channel architecture has no
+failover. A distributed network degrades when a node fails; this stops. The
+record contains the test — the June 1 2026 severance had nowhere to route the
+load because by construction the alternatives had never been built, which
+reframes the 52-day failure from "the bond was unusually strong" to "there was
+nowhere else for the traffic to go". The same untested exposure sits in the
+other three domains.
+
+Resolves the apparent conflict with chaos-preference rather than ignoring it:
+concentration and entropy-appetite are one policy stated twice — maximum
+investment in the chosen, maximum indifference to the imposed.
+
+Names the highest-value next operation in the repository: the 0.961 figure is
+QUOTED from a profile document, not recomputed. MASTER_MESSAGES_DB_DUMP.csv is
+on disk; recomputing the coefficient per year would convert the central
+measurement from testimony to residue and show whether the concentration is
+stable or an artifact of one era. Also names the unanswered base-rate problem
+(a small county and a decade-long relationship would concentrate anyone) and
+flags that the evaluative leg was authored the same day, so a four-legged rule
+should be treated as resting on three and a half.
+
+bin/wiki-lint: 0 errors, no orphan. bin/wiki-connect check: 0 errors.
+bin/wiki-climb check: 327 pages, 18 with synthesizes:.
