@@ -42,7 +42,8 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/concepts/phenomenology-lens]] — the deliberate interpretive overlay (plain-language readings of the cognitive functions and recurring loops); subordinate to documented fact.
 - [[wiki/mind/concepts/erotic-architecture]] — sexuality as controlled-chaos engineering: externalized libido, taboo as rupture, emotional consumption.
 - [[wiki/mind/concepts/bunker-core]] — the self-built local chat.db forensics stack; documented software fact alongside an AI-authored "epistemic fortress" interpretive framing.
-
+- [[wiki/mind/concepts/the-cool-metric]] — the single performed-vs-authentic axis applied to music, language, politics, film, work and strangers alike.
+- [[wiki/mind/concepts/chaos-preference]] — the appetite for entropy and system failure, and the finding that it is strictly outward-facing.
 ## psychosexual — the sexuality cluster
 
 - [[wiki/mind/psychosexual/index]] — hub: theory-vs-practice provenance split, quick brief, cluster map.
@@ -72,3 +73,9 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/synthesis/supply-network]] — junction: fifteen years of procurement as one architecture — the node succession (Johnny → Tim → Tom; Menore in NYC), the reliability inversion (distance disciplines, intimacy licenses failure), redundancy decay to a single node, and the terminal-phase inversion with Dan as Annie's supplier.
 - [[wiki/mind/synthesis/estate-money-spine]] — junction: the capital timeline as one causal chain — two family source-lines (Ira estate / Frank's Auto), the Adams trusteeship, the 2020 distribution ($144,069.31) and its six-month burn, the ~$119–123K net Annie drain, Suz as switchboard, and the 337→463 present state.
 - [[wiki/mind/synthesis/block-unblock-loop]] — junction: the declared-not-executed exit generalized across Annie (127/110), Tom (2014 + 2026), Kristin, Rick, accounts, and the Grok-loop; the governing rule — a block holds iff no dependency still flows through the channel — with Menore's clean closure and the June 1 closure as the live test.
+- [[wiki/mind/synthesis/the-unbroken-bond]] — junction: ~17 continuous years inside a long-term bond, the single most stable fact in the record, held against a profile that is unstable in every other domain.
+- [[wiki/mind/synthesis/alias-as-periodization]] — junction: four music aliases in thirteen years running strictly in sequence, each one a dateable clock face for a life period rather than a style.
+- [[wiki/mind/synthesis/instrument-is-subject]] — junction: the LLM is both the tool doing the analysis and the thing being analysed, and the repository cannot independently check its output.
+- [[wiki/mind/synthesis/fayette-return]] — junction: the Fayette County gravitational return across four generations of the family record.
+- [[wiki/mind/synthesis/single-channel]] — doctrine: one channel at maximum voltage wherever a distributed architecture was available — relational, creative, cognitive, evaluative — measured at a two-sided contact Gini of 0.96 and carrying no failover.
+- [[wiki/mind/synthesis/dormancy-not-exit]] — doctrine: nothing leaves the graph. Sustained relationships change role and go dormant with full reactivation bandwidth (Menore: 2,044 days of silence, one-minute reply); Franki Faris is the five-day control that bounds it, and no-exit plus a single-occupancy slot is the mechanism producing the contact Gini.

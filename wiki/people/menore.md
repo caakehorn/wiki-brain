@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-08-01
 date_range_start: 2018-11-04
 date_range_end: 2025-02-20
 sources:
@@ -11,6 +11,9 @@ sources:
   - "raw/self/message-csv/messages_3476070497_all_time.csv"
   - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
 connections:
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: evidences
+    claim: "The 2,044-day silence answered in one minute is the measurement of reactivation bandwidth: dormancy in this graph involves no decay of the channel at all."
   - page: wiki/people/jamie-mohler
     type: co-occurs
     claim: "Jamie was present, per the operator, on the day Dan first met Menore during the NYC-1 years — the original introduction predates every message in this thread, which documents only the November 2018 reconnection after a 5.5-year gap."
@@ -48,7 +51,7 @@ infobox:
 
 **Menore** (+13476070497) — Drug dealer / supply operator in New York City; Bedford Ave (Williamsburg) Brooklyn origin connection; operated Nov 2018–Feb 2025 across 4,413 messages (two service eras split by a four-year gap) with 99.3% measured availability and zero recorded friction. Per the Au Za'atar storytime, he "delivered in black cars and worked as a legit taxi when not out on a snap" — the licensed-taxi cover explains the vehicle discipline documented below — and in 2024 he served Dan mid-shift at the restaurant's outdoor shed ([[wiki/work/au-zaatar]]) — primary-confirmed May–Aug 2024; the storytime's longer 2021–24 claim is unresolved (see the CONTRADICTION block below).
 
-Name likely variant of "Menor" or placeholder; re-entry contact after Dan left NYC (April 2013–Nov 2018, 5.5-year gap). Announces "new number" Nov 4, 2018 ("Text here bro new number. Is menor. Save this one"). Despite 2,044 days of radio silence, Dan's re-entry message received a 1-minute response. Operates as independent distributor with associate ("my boy") managing some runs.
+Name likely variant of "Menor" or placeholder; re-entry contact after Dan left NYC (April 2013–Nov 2018, 5.5-year gap). Announces "new number" Nov 4, 2018 ("Text here bro new number. Is menor. Save this one"). Despite 2,044 days of radio silence, Dan's re-entry message received a 1-minute response — the single sharpest measurement of reactivation bandwidth in the corpus, and the evidentiary anchor of [[wiki/mind/synthesis/dormancy-not-exit]]: five and a half years of zero contact cost this channel nothing. Operates as independent distributor with associate ("my boy") managing some runs.
 
 The "new number, save this one" framing is itself evidence of a prior
 relationship rather than a cold introduction — consistent with the

@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-17
+date_modified: 2026-08-01
 sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -13,6 +13,9 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [relationships, attachment, infidelity, trauma-bond, uniontown-era]
 connections:
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: parallels
+    claim: "The switch shows the primary slot changing hands inside a single month; the no-exit rule explains why a swap that fast costs nothing, since the departing partner is retained rather than lost."
   - page: wiki/timeline/periods/uniontown-return-2013-2015
     type: follows
     claim: "The single-bond switch is the terminal event of the Uniontown-return period — the same-week Alexis-to-Annie transfer that period runs toward."

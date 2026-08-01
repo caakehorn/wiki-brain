@@ -1193,3 +1193,56 @@ published.
 
 bin/wiki-lint: 0 errors. bin/wiki-connect check: 0 errors.
 bin/wiki-climb check: 327 pages, 18 with synthesizes:, 0 errors, 0 warnings.
+
+## [2026-08-01] climb | mind | dormancy-not-exit (7 synthesized, 0 rejected)
+Cluster 5 of synthesis-queue.md (alexis-armel · danielle-onesi · 424-bedford-ave;
+people + places). The rule: nothing leaves this graph. Every sustained
+relationship the record calls "over" has changed role and gone dormant with full
+reactivation bandwidth intact — endings in this corpus are reassignments, never
+exits. Members widened past the mined three to include menore, franki-faris,
+155-virginia-ave and the-unbroken-bond, all genuinely reasoned from.
+
+Danielle: romantic role ends 2009 by Dan's infidelity, and seventeen years later
+she is Suzanne's closest friend, the cat's co-guardian and a Christmas fixture.
+Alexis: the case that rules out passivity — paid into the Nov 2018 arrangement
+with her own successor, then carried as a warm 88-message correspondence to Feb
+2025. 424 Bedford: vacated 2012, still producing through 2025 via the Menore line
+it originated, so the rule is not confined to people. Menore is the measurement —
+2,044 days of silence answered in one minute, which is dormancy with no decay at
+all.
+
+Franki Faris is the control and a sharper one than a plain absence: five days of
+occupancy in 2013 left no person in the graph, but left the NAME in circulation
+as working vocabulary ("a Franki Faris 2.0 situation"; by 2018 a pet nickname for
+Annie). Below the tenure floor the label survives, not the tie. The floor itself
+is undetermined — five days is below it, six years above, nothing in between.
+
+What it explains: no-exit plus a single-occupancy primary slot is an accounting
+identity that produces concentration. The Gini measured this morning does not
+need a claim about temperament to arise. It also fits the two-sided finding
+without being fitted to it — 495 handles wrote in, 303 got anything back, and the
+193 that drew nothing carry a median of one message each. They are not lapsed
+relationships; they never entered. Entry is hard, exit does not exist. And it
+reframes the failed 52-day severance: severance is not an operation this system
+has.
+
+STALENESS, handled properly rather than bumped. Editing menore.md made
+block-unblock-loop and supply-network stale. supply-network survives untouched
+(the availability figures are unaffected; a node resuming at full bandwidth after
+2,044 days is MORE of a reliability outlier) — re-check noted, date bumped.
+block-unblock-loop does not fully survive: it scores Menore's Feb 2025 farewell
+as "the record's only fully clean closure," its strongest non-Annie control, and
+the same channel had already closed cleanly for the same structural reason in
+2013 and reopened 2,044 days later. The 2025 close has stood ~17 months; the
+precedent ran 67. That row is now marked provisional on elapsed time, carries a
+RE-CHECKED block, and the two pages carry reciprocal `contradicts` edges with a
+CONTRADICTION block on the new page. One of them will be wrong in a dated,
+recorded way when the next export lands.
+
+Also: added the six synthesis/concept pages missing from wiki/mind/index.md
+(the-unbroken-bond, alias-as-periodization, instrument-is-subject, fayette-return,
+single-channel, the-cool-metric, chaos-preference) alongside the new page.
+
+Queue row 5 marked CLIMBED. bin/wiki-lint: 328 pages, 0 errors.
+bin/wiki-connect check: 0 errors.
+bin/wiki-climb check: 328 pages, 19 with synthesizes:, 0 errors, 0 warnings.

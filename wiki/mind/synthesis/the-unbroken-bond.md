@@ -22,6 +22,9 @@ synthesizes:
   - wiki/mind/concepts/chaos-preference
 tags: [relationships, personality-profile, family, trauma-bond]
 connections:
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: mirrors
+    claim: "This page measures the slot that stays occupied; dormancy-not-exit measures what becomes of everyone who has vacated it, and together they describe one live position with no exits."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: component-of
     claim: "The single-bond switch is this pattern's sharpest instance and its best evidence: in November 2015 one bond closed and the next opened inside the same calendar month, which is continuity maintained at the level of days rather than years."

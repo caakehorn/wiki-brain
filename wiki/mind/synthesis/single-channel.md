@@ -20,6 +20,9 @@ synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: caused-by
+    claim: "No-exit plus a single-occupancy primary slot is an accounting identity that produces concentration without requiring any claim about temperament — the mechanism under the contact Gini."
   - page: wiki/mind/concepts/contact-gini
     type: evidenced-by
     claim: "The only place the architecture has been measured rather than described, and since 2026-08-01 measured on both sides: a two-sided contact Gini of 0.959-0.964 across ~496 handles is not a preference for close friendship, it is near-total routing of relational load through one node in both directions."
