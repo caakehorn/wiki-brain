@@ -13,9 +13,9 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 432 |
-| Pages touched in the last 14 days | 289 |
+| Pages touched in the last 14 days | 290 |
 | Pages reasoning from other pages (`synthesizes:`) | 20 |
-| Live contradictions | 30 |
+| Live contradictions | 27 |
 | Open gaps | 124 |
 | Standing predictions | 10 |
 
@@ -45,7 +45,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-02** — 64 pages
+**2026-08-02** — 66 pages
   - write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
   - climb | interests | food-and-diet — "food in every register except taste"; bounds the cool metric's jurisdiction
   - ingest | people | sadie-harris, david-j-frank, morley-frank rewritten from the GEDCOM; fayette-return revised (Sadie burial vs death, G1's NYC years, the Hopwood terminus)
@@ -58,8 +58,9 @@ this is the state of the thing.
   - fix | meta | wiki-brain went private — sync restored, dead Pages URLs repointed at the leviathan mirror
   - fix | interests | stray empty frontmatter fences on fall-out-boy and taking-back-sunday
   - mine | mind | message-density campaign opened — bin/mine-messages, calibrated-confidence, and a negative on the four axioms
+  - rewrite | people | fran-coldren rebuilt from scratch against the message corpus
 
-**2026-08-01** — 102 pages
+**2026-08-01** — 101 pages
   - climb | mind | alias-as-periodization.md — new T2 junction page
   - climb | mind | instrument-is-subject.md — new T3 doctrine
   - write | mind | three commissioned entry concepts

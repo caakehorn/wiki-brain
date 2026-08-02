@@ -27,6 +27,9 @@ related:
   - wiki/timeline/events/eli-incident
 tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
 connections:
+  - page: wiki/people/fran-coldren
+    type: evidenced-by
+    claim: "The method's hardest test on record is self-directed: within 24 hours of his great-grandmother's death Dan reviewed his own video of the moment, found the monitor alarm that explained its 'supernatural' timing, and retracted the story unprompted to a family member at no benefit to himself."
   - page: wiki/mind/concepts/calibrated-confidence
     type: evidenced-by
     claim: "The method's probabilistic core is not a posture adopted for analysis: graded numeric confidence appears in Dan's casual SMS in every year from 2015 to 2025, at 22x the rate of the 503 people texting him, eight years before the AI-collaboration era could have taught it to him."

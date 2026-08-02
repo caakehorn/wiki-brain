@@ -4,7 +4,7 @@ page_type: entity
 title: "155 Virginia Ave"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
@@ -58,7 +58,7 @@ The DANSYNTH ingest added the address's deepest layer: 155 Virginia sits
 Fran's house on the Uniontown Country Club fairway — on a boundary the
 Frank/Whyel and Ulmer families shared for fifty-plus years. Living there
 put Dan and Annie next door to the caregiving job that defined the era:
-they were Fran's paid 24/7 caregivers until her March 2018 fall
+they were Fran's caregivers until her March 2018 fall — paid full-time for roughly the last six months of it
 ([[wiki/timeline/events/fran-death-vigil]]). On March 29, 2018 — during
 the terminal vigil — Dan was served an eviction notice for 155 Virginia by
 Dian V. Moore, demanding the keys; the residence timeline has him staying

@@ -14,6 +14,9 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [personality-profile, addiction-recovery, legal, forensic-analysis]
 connections:
+  - page: wiki/people/fran-coldren
+    type: evidenced-by
+    claim: "Six months of paid full-time caregiving at $15/hour, held to the end, is the drive aimed at a self-set goal — and Dan's own verdict on it, 'finally did something in my life that wasn't completely selfish,' shows he read it as an exception to his character rather than an expression of it."
   - page: wiki/mind/profile/big-five-psychometrics
     type: contradicts
     claim: "The facet table reads the corpus's execution failures as Impulsiveness at 96 and stops there; this page claims a second, unmeasured dimension — a 95th-percentile completion drive — is running in the same behaviour, which means the instrument is scoring an engine as a brake failure."
@@ -28,7 +31,7 @@ connections:
     claim: "Snack food pursued to arrest by the state police is the drive's signature output shape — cost-benefit ratios that make no sense are the expected result of a system that optimises for completion rather than for value."
   - page: wiki/timeline/events/fran-death-vigil
     type: evidenced-by
-    claim: "Three years of round-the-clock caregiving is not counter-evidence to Altruism at the 1st percentile; it is the same drive pointed at a goal Dan generated himself, which is the only kind it can serve."
+    claim: "Six months of paid full-time caregiving at $15/hour — the duration Dan states contemporaneously, not the multi-year span the wiki had inferred — is not counter-evidence to Altruism at the 1st percentile; it is the same drive pointed at a goal Dan generated himself, which is the only kind it can serve."
   - page: wiki/mind/synthesis/supply-network
     type: causes
     claim: "The procurement architecture is this drive's infrastructure: a want that will be satisfied 'at all costs' requires a standing multi-node supply chain, which is why the network survives every era while its nodes rotate."
@@ -126,7 +129,7 @@ and this wiki. None of those were assigned to him.
 ## The consequence nobody had drawn: altruism was never the variable
 
 [[wiki/people/fran-coldren]] carries a standing claim that the three years of
-round-the-clock caregiving are "the strongest documented evidence against
+caregiving are "the strongest documented evidence against
 reading Dan's low-altruism scores as incapacity." Read against this page,
 that claim needs correcting rather than defending. The vigil is not evidence
 against Altruism at the 1st percentile. It is evidence that altruism was not
