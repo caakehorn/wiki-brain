@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-14
+date_modified: 2026-08-01
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
 related:
   - wiki/interests/favorites/music
@@ -15,6 +15,22 @@ related:
 changelog:
   - 2026-07-14: Full rewrite from stub. Added Tell All Your Friends betrayal-narrative context, direct thematic connection to attachment/betrayal patterns.
 tags: [personality-profile, trauma-bond]
+
+connections:
+  - page: wiki/interests/concert-record/festivals/the-bamboozle-2011
+    type: component-of
+    claim: "Taking Back Sunday performed at The Bamboozle 2011 on Apr 29 - May 1, 2011 (New Meadowlands Stadium, East Rutherford, NJ)."
+  - page: wiki/interests/favorites/music/artists/angels-and-airships
+    type: co-occurs
+    claim: "Angels & Airwaves and Taking Back Sunday appeared together at Chevrolet Amphitheatre, Pittsburgh, PA on Jun 27, 2006."
+  - page: wiki/interests/favorites/music/artists/head-automatica
+    type: co-occurs
+    claim: "Head Automatica and Taking Back Sunday appeared together at Chevrolet Amphitheatre, Pittsburgh, PA on Jun 27, 2006."
+  - page: wiki/interests/favorites/music/artists/the-subways
+    type: co-occurs
+    claim: "The Subways and Taking Back Sunday appeared together at Chevrolet Amphitheatre, Pittsburgh, PA on Jun 27, 2006."
+---
+
 ---
 
 # Taking Back Sunday
@@ -72,3 +88,16 @@ intentional rather than incidental.
 ## Related
 
 [[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/mind/concepts/attachment-model]]
+## Concert record — supplementary appearances (from the 2001-2019 log)
+
+The following live appearances are drawn from the consolidated concert table and were not part of the original page narrative. Dates, venues, and notes are preserved verbatim from the source.
+
+| Date | Context | Venue | City | Note |
+|------|---------|-------|------|------|
+| ~2006 | Taking Back Sunday | College campus | Pittsburgh, PA | Still open -- no verified campus date beyond the Jun 27 amphitheatre show. |
+| Jun 27, 2006 | Multi-act show | Chevrolet Amphitheatre | Pittsburgh, PA | Confirmed (corrected from 2007). |
+| Apr 29 - May 1, 2011 | The Bamboozle 2011 | New Meadowlands Stadium | East Rutherford, NJ | Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember. |
+
+- **~2006** — Taking Back Sunday, College campus, Pittsburgh, PA. Still open -- no verified campus date beyond the Jun 27 amphitheatre show.
+- **Jun 27, 2006** — Multi-act show, Chevrolet Amphitheatre, Pittsburgh, PA. Confirmed (corrected from 2007).
+- **Apr 29 - May 1, 2011** — The Bamboozle 2011, New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.

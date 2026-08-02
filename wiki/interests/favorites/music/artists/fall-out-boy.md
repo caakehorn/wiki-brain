@@ -3,13 +3,14 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-16
+date_modified: 2026-08-01
 sources:
   - "raw/self/favorites/FAVS MASTERLIST.csv"
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/(failed-wiki-project)log-archive-2026-06-23.md"
   - "raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html"
+  - "raw/self/concerts/table.csv"
 related:
   - wiki/interests/favorites/music
   - wiki/interests/favorites/music/artists/my-chemical-romance
@@ -24,10 +25,25 @@ changelog:
   - 2026-07-16: Major expansion. Added the 2007 touring record (3 shows + TRL taping), the Buffalo "Schrute Farms" secret show + Take-This-To-Your-Grave-in-full ChatGPT confirmation, the Folie-à-Deux cutoff / post-hiatus disavowal, and the teen-identity framing. Retained the deep-cut analysis.
   - 2026-07-14: Full rewrite from stub. Added track-specific analysis, deep-cut pattern, self-mythology reading.
 tags: [personality-profile, nyc-era, digital-footprint]
+
 connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: evidences
     claim: "The Folie a Deux cutoff is the prime exhibit for the freeze-at-boundary signature generalized on the music-as-identity page."
+  - page: wiki/interests/concert-record/festivals/nintendo-fusion-tour
+    type: component-of
+    claim: "Fall Out Boy performed at Nintendo Fusion Tour on Sep 28 - Nov 23, 2005 (Various (tour), Multiple cities)."
+  - page: wiki/interests/concert-record/festivals/vans-warped-tour
+    type: component-of
+    claim: "Fall Out Boy performed at Vans Warped Tour on Aug 1, 2005 (Post-Gazette Pavilion, Burgettstown, PA)."
+  - page: wiki/interests/favorites/music/artists/the-academy-is
+    type: co-occurs
+    claim: "The Academy Is... and Fall Out Boy appeared together at House of Blues, Orlando, FL on Dec 12, 2008."
+  - page: wiki/interests/favorites/music/artists/we-the-kings
+    type: co-occurs
+    claim: "We The Kings and Fall Out Boy appeared together at House of Blues, Orlando, FL on Dec 12, 2008."
+---
+
 ---
 
 
@@ -172,3 +188,20 @@ hard to read as coincidental.
 ## Related
 
 [[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/interests/the-office]] · [[wiki/timeline/events/teen-concert-years]] · [[wiki/mind/psychosexual/developmental-origins]]
+## Concert record — supplementary appearances (from the 2001-2019 log)
+
+The following live appearances are drawn from the consolidated concert table and were not part of the original page narrative. Dates, venues, and notes are preserved verbatim from the source.
+
+| Date | Context | Venue | City | Note |
+|------|---------|-------|------|------|
+| Aug 1, 2005 | Vans Warped Tour | Post-Gazette Pavilion | Burgettstown, PA | Warped Tour date. Lineup included Fall Out Boy, Alexisonfire, Gogol Bordello, Hawthorne Heights. |
+| Sep 28 - Nov 23, 2005 | Nintendo Fusion Tour | Various (tour) | Multiple cities | Confirmed tour window. |
+| Feb 6, 2007 | Fall Out Boy | Times Square (TRL) | New York, NY | Infinity On High release-day free show; same-day free shows also in Chicago & LA. |
+| Nov 19, 2007 | Fall Out Boy | Mohawk Place | Buffalo, NY | ~300-cap sellout under Office alias 'Schrute Farms'; full Take This to Your Grave; Keith Buckley guest on Pantera 'Walk'. |
+| Dec 12, 2008 | Multi-act show | House of Blues | Orlando, FL | Resolved. XL 106.7 'XL-ent Electric Xmas'. |
+
+- **Aug 1, 2005** — Vans Warped Tour, Post-Gazette Pavilion, Burgettstown, PA. Warped Tour date. Lineup included Fall Out Boy, Alexisonfire, Gogol Bordello, Hawthorne Heights.
+- **Sep 28 - Nov 23, 2005** — Nintendo Fusion Tour, Various (tour), Multiple cities. Confirmed tour window.
+- **Feb 6, 2007** — Fall Out Boy, Times Square (TRL), New York, NY. Infinity On High release-day free show; same-day free shows also in Chicago & LA.
+- **Nov 19, 2007** — Fall Out Boy, Mohawk Place, Buffalo, NY. ~300-cap sellout under Office alias 'Schrute Farms'; full Take This to Your Grave; Keith Buckley guest on Pantera 'Walk'.
+- **Dec 12, 2008** — Multi-act show, House of Blues, Orlando, FL. Resolved. XL 106.7 'XL-ent Electric Xmas'.
