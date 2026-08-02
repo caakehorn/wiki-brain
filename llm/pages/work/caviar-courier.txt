@@ -8,6 +8,10 @@ date_range_start: 2019-04-21
 date_range_end: 2020-04-14
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/del", "wiki/self/message-corpora/master-message-dump"]
+connections:
+  - page: wiki/interests/food-and-diet
+    type: evidences
+    claim: "Food as pure freight: 290 messages across a year of courier work, every one of them an automated dispatch notification, and not one of them about what was in the bag — the cleanest instance of food passing through this life without being evaluated."
 tags: [nyc-era, financial-stress, digital-footprint]
 knowledge: derived
 ---

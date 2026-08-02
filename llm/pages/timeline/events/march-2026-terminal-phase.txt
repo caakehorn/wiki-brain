@@ -29,6 +29,9 @@ connections:
   - page: wiki/mind/synthesis/block-unblock-loop
     type: component-of
     claim: "The March 19-20 fight is the loop's bidirectional exhibit: Annie threatens exposure, blocks, unblocks to send final lines, and blocks again — the operation is the bond's shared negotiating grammar, not Dan's private defect."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: evidences
+    claim: "This fortnight is where the verdict's two halves are visible in the same window: his 'I am going to fucking kill myself' at 19:41 on March 1 answered by a complaint about laundry is the diagnosis-to-behavior gap running in real time, and the March 16 'I think that I had misunderstood the conversation' is the row that upgraded the retraction half of the confession pair from dossier-only to [RAW-CSV]."
   - page: wiki/self/youtube-watch-history
     type: co-occurs
     claim: "A near-total gap in one YouTube account's real watch activity runs Nov 2025-Feb 2026, immediately preceding this fortnight — later clarified as a multi-account coverage limitation rather than a documented behavioral response to the crisis, but the temporal proximity was the reason it was checked at all."

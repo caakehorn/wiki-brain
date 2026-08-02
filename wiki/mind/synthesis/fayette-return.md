@@ -6,7 +6,7 @@ aliases: ["the elastic tether", "regional gravity", "leave-and-come-back"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 date_range_start: 1892-01-01
 date_range_end:
 sources:
@@ -23,14 +23,20 @@ synthesizes:
 tags: [family, uniontown-era, personality-profile, forensic-analysis]
 connections:
   - page: wiki/people/morley-frank
-    type: evidenced-by
-    claim: "The generation that proves the rule is not Dan's: Morley leaves for Seattle in 1957 and dies in Hopwood in 1998, a return already described on his own page as the geographic template Dan's returns repeat — an observation that existed as a loose edge claim and had never been climbed into a rule."
+    type: instance-of
+    claim: "The generation that proves the rule is not Dan's: Morley leaves for Seattle in 1957 and is back in Uniontown by 1959, a two-year turnaround and the only documented leave-and-return in the line before Dan's own."
   - page: wiki/people/rick-frank
-    type: evidenced-by
+    type: instance-of
     claim: "The generation that never left: born Uniontown 1959, builds an auto-parts chain in the same county, and is the only line member for whom departure is not attested — which the rule must account for rather than ignore."
   - page: wiki/people/david-j-frank
-    type: component-of
-    claim: "The arrival that sets the anchor: a Russian Jewish immigrant dying in Brownsville in 1960 establishes the Fayette County terminus that four subsequent generations orbit."
+    type: contains
+    claim: "The founder, and not merely an anchor: Manhattan 1900-1910 and the Bronx in 1915 before Brownsville in 1920 means the line's first move was New York City to Fayette County — the same vector Dan runs twice."
+  - page: wiki/people/sadie-harris
+    type: contains
+    claim: "The longest tenure in the record — seventy-seven Fayette years with no attested departure — and the burial that, with David's and Morley's, resolves the terminus from a county to one Hopwood cemetery."
+  - page: wiki/self/ancestry
+    type: evidenced-by
+    claim: "The 515-individual GEDCOM is the residue this rule is built from; every date, residence and terminus in the table below is a census, directory or burial record inside that export."
   - page: wiki/places/337-saratoga-drive
     type: instance-of
     claim: "The tether at maximum tension: the current return has landed Dan in the childhood home itself, the tightest possible value of the pattern, while that house is being sold out from under him."
@@ -65,17 +71,42 @@ it can be broken.**
 
 ## The line
 
-| Generation | Person | Born | Departure | Terminus |
-| :--- | :--- | :--- | :--- | :--- |
-| G1 | [[wiki/people/david-j-frank]] | 1892, **Russia** | emigration (arrival, not return) | d. 1960 **Brownsville, Fayette Co.** |
-| G1 | [[wiki/people/sadie-harris]] | 1900, **Austria** | emigration (arrival, not return) | d. 1997 **Hopwood, PA** |
-| G2 | [[wiki/people/morley-frank]] | 1927, Brownsville | **Seattle, 1957** | d. 1998 **Hopwood, PA** |
-| G3 | [[wiki/people/rick-frank]] | 1959, Uniontown | *none attested* | Fayette Co. (auto-parts chain) |
-| G4 | Dan | 1988, Uniontown | Florida, New York (twice) | **337 Saratoga Drive, Uniontown** |
+| Generation | Person | Born | Departure | Terminus | Burial |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| G1 | [[wiki/people/david-j-frank]] | 1892, **Russia** | **NYC 1900–1915**, then Fayette | d. 1960 **Brownsville, Fayette Co.** | **Hopwood** |
+| G1 | [[wiki/people/sadie-harris]] | 1900, **Austria** | emigration (arrival, not return) | d. 1997, place unrecorded | **Hopwood** |
+| G2 | [[wiki/people/morley-frank]] | 1927, Brownsville | **Seattle, 1957** → Uniontown by **1959** | d. 1998 **Hopwood, PA** | **Hopwood** |
+| G3 | [[wiki/people/rick-frank]] | 1959, Uniontown | *none attested* | Fayette Co. (auto-parts chain) | — |
+| G4 | Dan | 1988, Uniontown | Florida, New York (twice) | **337 Saratoga Drive, Uniontown** | — |
 
-G1 is the anchor rather than an instance: an immigrant arriving is not a person
-returning. The pattern properly begins with G2, the first generation with
-somewhere to come back *to*.
+> **REVISED [2026-08-02] — the rule survives and gets two corrections and one
+> sharpening, all from a direct read of the GEDCOM that this page was written
+> above rather than from.**
+>
+> 1. **Sadie did not die in Hopwood.** The export records only a death *date*
+>    (27 Nov 1997) and gives Hopwood as her **burial** place; her last attested
+>    residence is Brownsville in 1993. The original table asserted a death place
+>    the record does not contain.
+> 2. **G1 is not a bare arrival.** David J. Frank is documented in Manhattan in
+>    1900, 1905 and 1910 and in the Bronx on 1 June 1915, reaching Brownsville
+>    only by the 1920 census. The line's founding move was **New York City to
+>    Fayette County** — which is the identical vector Dan runs in
+>    [[wiki/timeline/periods/feb-apr-2025-return-and-rupture]]. It remains true
+>    that David had no Fayette County to return *to*, so he is not an instance of
+>    the rule; but "arrival, not return" understated him. He chose the county
+>    over New York at the first opportunity anyone in this family had to choose.
+> 3. **The terminus is a town, not a county.** All three of David, Sadie and
+>    Morley are buried in **Hopwood** — across thirty-eight years, and only one
+>    of the three died there. The rule's geography is tighter than it was stated.
+> 4. **Morley's return is now dated** (Seattle 1957 → Uniontown by 1959), which
+>    hardens the pre-Dan instance even though the *duration* of the Seattle stay
+>    stays open. See the gap list below, revised accordingly.
+
+G1 is the anchor rather than an instance: neither immigrant had a Fayette County
+to come back to. The pattern of *returning* properly begins with G2, the first
+generation with somewhere to come back *to* — but the pattern of *ending up
+there* begins with G1, and the burial record shows it beginning more sharply
+than the residence record does.
 
 Dan's iterations are the densest and the best documented:
 [[wiki/timeline/periods/full-sail-2008-2010]] takes him to Florida and ends;
@@ -101,7 +132,9 @@ Three falsifiers, each checkable against the GEDCOM and the census record:
    not been checked, which is the most likely place for this to fail.
 2. **Morley's Seattle move turning out to be administrative** — a brief
    posting or a work assignment rather than a relocation — which would remove
-   the only pre-Dan instance and reduce the pattern to one generation.
+   the only pre-Dan instance and reduce the pattern to one generation. His 1945
+   Selective Service record makes a service posting an ordinary possibility, and
+   the blank decade 1946–1956 is where the answer would be.
 3. **A departure by Dan that terminates outside the county.** This one is
    still live and cannot currently be settled, which is the correct status for
    a rule about a person who is not finished.
@@ -141,6 +174,17 @@ That does not falsify the dialectic. It does mean the geography is established
 and the psychology is not, and the wiki has been treating them as equally
 solid.
 
+> **CONTRADICTION:** this page and [[wiki/mind/synthesis/ancestral-dialectic]]
+> give incompatible accounts of the same phenomenon. The dialectic requires two
+> inherited operating systems from two parental lines; this page shows the return
+> is reproduced by the paternal line alone, whose two immigrant anchors are both
+> Ashkenazi. Both pages now carry the disagreement, and the direct GEDCOM read of
+> 2026-08-02 moved a second point in this page's favour: the paternal
+> immigration terminated in New York City and only reached Fayette County fifteen
+> years later, so the dialectic's image of pogrom-flight landing directly in the
+> coal patch — the moment at which its two codes are supposed to collide — is not
+> what the record shows.
+
 ## Consequences
 
 - **Dan's returns are misfiled as personal outcomes.** They are recorded across
@@ -166,9 +210,16 @@ solid.
 - **Collaterals unchecked.** The rule is asserted over the direct line of
   descent only. The 515-individual GEDCOM contains siblings and cousins who
   have not been enumerated, and falsifier 1 most likely lives there.
-- **Morley's Seattle duration is unknown.** A single 1957 datum is all that
-  attests it. Whether it was months or years materially changes how much weight
-  G2 can carry.
+- **Morley's Seattle duration is unknown — but the return is now dated.** The
+  residence table brackets him at Brownsville 1945, Seattle 1957, Uniontown 1959:
+  the turnaround is at most two years, and the open question has moved to the
+  front end, the blank decade 1946–1956.
+- **Champion, Pennsylvania is the nearest thing to a falsifier on the board.**
+  Morley holds a Champion address in the 1996–99 directories, concurrently with
+  Hopwood rather than instead of it. If Champion lies outside Fayette County — it
+  is the Seven Springs resort town, and the check has not been run — it is the
+  line's only attested out-of-county residence in four generations, though he
+  dies and is buried in Hopwood regardless, so the rule survives it either way.
 - **No control group.** Fayette County out-migration in this period was
   heavy — the coal economy collapsed — so a family that stays may be typical of
   the county rather than distinctive. Nothing here compares the line against a

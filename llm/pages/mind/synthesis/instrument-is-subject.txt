@@ -5,7 +5,7 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
@@ -22,6 +22,9 @@ connections:
   - page: wiki/mind/concepts/exocortex
     type: caused-by
     claim: "The wiki's own evidentiary standard — unwavering honesty, no softening, conclusions with confidence levels, never summarize away detail — is downstream of a prompt the subject wrote, so the epistemics of this repository are themselves an artifact of the person it documents."
+  - page: wiki/self/context-core
+    type: evidenced-by
+    claim: "The wiki's most authoritative source page is a curated AI-assisted compilation, not a primary record — so the residue/testimony grading this page defines has to be applied to the corpus's own foundation, not just to its interpretive pages."
   - page: wiki/mind/synthesis/alias-as-periodization
     type: mirrors
     claim: "The methodological contrast case: alias boundaries are admissible precisely because they were produced by the subject without intending to testify, which is the property AI-interpretive pages structurally lack."
@@ -98,6 +101,36 @@ testimony. It simply cannot be promoted to residue by being cited three times.
   the disagreement is recorded rather than resolved silently — the same
   discipline `STRATEGY.md` already applies to falsified conclusions.
 
+> **RE-CHECKED [2026-08-02] — the premise moved, the rule survives, and the
+> movement is the rule's first live exercise.**
+> [[wiki/mind/synthesis/ancestral-dialectic]] was revised on 2026-08-02 after a
+> direct read of the GEDCOM contradicted it: the report has the paternal line
+> fleeing the pogroms *into* the Fayette County coal patch, while the census
+> record puts David J. Frank in Manhattan from 1900 and the Bronx in 1915,
+> reaching Brownsville only by 1920. Testimony and residue disagreed about a
+> dated fact, residue won, and the disagreement was recorded on the page rather
+> than resolved silently — which is precisely the third obligation stated above,
+> executed for the first time. The worked example got more worked. Nothing on
+> this page needed weakening.
+
+> **GAP CLOSED [2026-08-02] — the enumeration was run, and `knowledge:` does not
+> propagate.** All 19 pages carrying `synthesizes:` were enumerated against their
+> premises' `knowledge:` values. **Ten of them reason from at least one `mixed`
+> premise, and every one is marked `earned`** — `attachment-trauma-bond`,
+> `block-unblock-loop`, `dan-annie-fallout-verdict`, `dormancy-not-exit`,
+> `estate-money-spine`, `fayette-return`, `instrument-is-subject` (this page),
+> `supply-network`, `the-unbroken-bond`, plus `suzanne-frank` with the field
+> unset. Only `food-and-diet` inherits `mixed`. So the inference from the spec's
+> silence was correct: nothing propagates the status upward.
+>
+> The finding is narrower than "ten violations," and the narrowing matters. Each
+> of the ten carries its own raw `sources:` list, so each has in fact added
+> primary evidence its premise lacked — which is exactly the escape clause the
+> rule permits. What none of them does is **state that line**, which is what the
+> rule actually requires. The obligation was never "inherit `mixed`"; it was
+> "inherit it or say what you added." The corpus satisfies the substance and
+> skips the sentence, in ten places out of ten.
+
 ## Gaps
 
 - **This page is itself an instance of the problem it describes.** It was
@@ -106,9 +139,11 @@ testimony. It simply cannot be promoted to residue by being cited three times.
   rule. It is marked `earned` because its claim is about the *structure of the
   repository* — checkable directly against the files — rather than about Dan.
   That distinction is load-bearing and a reader is entitled to reject it.
-- **No audit has been run.** The rule asserts that `knowledge:` does not
-  currently propagate upward; that is inferred from the spec's silence on the
-  matter, not from an enumeration of the 12 pages carrying `synthesizes:`.
-  Running that enumeration is the obvious next operation.
+- ~~**No audit has been run.**~~ **CLOSED 2026-08-02** — see the enumeration
+  above. Nineteen pages carry `synthesizes:`; ten reason from a `mixed` premise
+  and all ten are `earned`. The remaining question is not whether propagation
+  happens (it does not) but whether the one-line disclosure the rule offers
+  instead should be enforced mechanically by `bin/wiki-climb check`, which is
+  now the obvious next operation.
 - **`exocortex` is read here only through its role in setting the honesty
   standard.** Its other content is not assessed.

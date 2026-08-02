@@ -28,6 +28,9 @@ connections:
   - page: wiki/mind/concepts/conflict-architecture
     type: instantiates
     claim: "The live screaming match with Suz over whose grievance mattered more is a real-time instance of the resolution-seeking engine misreading an emotional bid as a proposition to be litigated, the same mechanism documented at scale in the Annie relationship."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: evidences
+    claim: "The verdict adopted this page selectively, and the split is the finding: the May 5 GPS-shared-with-a-third-party row and the May 4 '25 Nov 2015 - 04 May 2026' self-periodization are [RAW-CSV] verified and carry the terminal defamation case, while the Betrayal Catalog and pregnancy material from the same single chat-analysis source is explicitly excluded as uncorroborated and is not adopted as fact anywhere in the wiki."
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: evidenced-by
     claim: "An AI-drafted letter to Suz, explicitly authorized to include any criticism, is genuinely vulnerable first-person material Dan then declines to send in his own voice — outsourcing the authorship of vulnerability itself, not just memory or analysis."

@@ -8,6 +8,13 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/chats/The 2nd most famous 'Jimmy Pop' in Pennsylvania .md
+connections:
+  - page: wiki/mind/concepts/the-cool-metric
+    type: evidences
+    claim: "This signature is the clearest proof the authenticity metric is applied inward as well as outward: a 63-85% frequency presence identified post-hoc across thirteen years and every alias is trusted precisely because it was never chosen — the same involuntariness test used to judge other people's taste, turned on his own output."
+  - page: wiki/mind/synthesis/alias-as-periodization
+    type: evidences
+    claim: "The invariant that dates the rule: the band is already present in the 2013 SLOPPP material and never moves across four renames, which is what proves the aliases mark periods rather than aesthetics."
 related:
   - wiki/interests/music/aliases/gripnotic
   - wiki/interests/music/aliases/mogzart

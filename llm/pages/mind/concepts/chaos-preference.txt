@@ -6,7 +6,7 @@ aliases: ["chaotic neutral", "the entropy appetite", "rooting for the fire"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -24,6 +24,9 @@ connections:
   - page: wiki/mind/synthesis/the-unbroken-bond
     type: contradicts
     claim: "The single domain where the preference reverses: a declared Chaotic Neutral who prizes entropy has held near-unbroken single-bond continuity for roughly seventeen years, which means the appetite is strictly outward-facing and exempts the attachment slot entirely."
+  - page: wiki/mind/synthesis/single-channel
+    type: contradicts
+    claim: "The same carve-out generalised and made worse: a concentration architecture measured at a two-sided Gini of 0.96 is the most fragile personal structure available, which is the opposite of what an entropy appetite should build — and the resolution is this page's own, that the appetite is strictly outward-facing, so the chosen channels get the opposite discipline."
   - page: wiki/interests/music/overview
     type: evidenced-by
     claim: "The aesthetic expression of the preference is documented independently of the psychology: an output profile built on noise, decay and system failure, with instruments deliberately broken to reveal 'true' sounds."
@@ -161,6 +164,21 @@ The one structure he *did* choose is defended against exactly the disorder he
 wants everywhere else. A reading in which he simply likes chaos cannot account
 for this; a reading in which chaos is what he wants from *systems that claim
 authority over him* accounts for it exactly.
+
+> **CONTRADICTION:** [[wiki/mind/synthesis/single-channel]] shows the carve-out
+> is not confined to the attachment slot. The same concentration appears in four
+> domains — relational, creative, cognitive, evaluative — and in the one where it
+> has been measured it runs to a two-sided Gini of **0.959–0.964** across ~496
+> handles. That is the most fragile architecture a person can build: no failover,
+> total-loss failure modes rather than partial ones, and a documented response to
+> stress of pushing *more* load into the failing path (2025 is simultaneously the
+> highest-concentration and highest-volume year in the archive). Someone who
+> holds entropy as the fundamental truth of existence has constructed the one
+> personal system least able to survive it. The two pages resolve rather than
+> cancel: the appetite is outward-facing and the concentration is inward-facing,
+> which is a single policy stated twice — **maximum investment in the chosen,
+> maximum indifference to the imposed** — but the cost lands here, because the
+> chosen carries everything and carries it alone.
 
 ## Falsifiers
 

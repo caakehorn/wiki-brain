@@ -61,6 +61,9 @@ connections:
   - page: wiki/work/tech/ai-video-essays
     type: evidenced-by
     claim: "Requesting a data stress-test of his own creative-project hypothesis, then accepting a result that flatly contradicted his premise, is the honesty-enforcement pattern applied to a personal ambition rather than forensic or political material."
+  - page: wiki/mind/synthesis/single-channel
+    type: component-of
+    claim: "The LLM-as-externalized-prefrontal-cortex is the cognitive leg of a four-domain concentration architecture: one offboard processor carrying memory, structuring and honesty-enforcement rather than a tool among several, with no redundancy and a failure mode that has never been tested."
   - page: wiki/mind/synthesis/instrument-is-subject
     type: instantiates
     claim: "The methodological consequence of this page: because LLM use is a documented daily organ of the subject, the same class of tool cannot serve as an independent observer of him, and interpretive output must carry provenance upward through every climb."

@@ -29,6 +29,9 @@ connections:
   - page: wiki/mind/concepts/conflict-architecture
     type: instantiates
     claim: "A confrontation escalated in front of an audience to force a verdict is the conflict engine's terminal form — the argument-to-resolution drive running with witnesses attached."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: evidences
+    claim: "These rows are the point where the verdict's defamation finding stops being dossier-sourced and becomes primary: the 00:24–00:27 exchange and 'sic semper lupanis' at 00:27:49 are [RAW-CSV] verified, and the June 15 Tuquick defection fourteen days later is the independent external validation the verdict rests its concealment case on."
   - page: wiki/timeline/periods/dec-2025-spike
     type: follows
     claim: "The December 2025 reinvestment peak of 4,657 messages is what makes this closure a rupture rather than a drift: six months earlier the relationship was at its highest volume on record."

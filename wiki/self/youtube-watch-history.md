@@ -27,6 +27,9 @@ related:
   - wiki/timeline/events/april-may-2026-final-weeks
 tags: [politics, career, nyc-era]
 connections:
+  - page: wiki/interests/food-and-diet
+    type: evidences
+    claim: "'Media diet' and 'information diet' are where the word survives in this corpus: the metaphor is in constant use while the literal sense it was borrowed from has no evaluative record at all."
   - page: wiki/mind/synthesis/intake-constancy
     type: evidences
     claim: "The recomputed 11.58 watches/active-day figure from this export is the first of the two intake constants."

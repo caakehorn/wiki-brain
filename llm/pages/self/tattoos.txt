@@ -13,6 +13,10 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/dan tom 2010 2022.txt
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/chrisredmond_ewkx6qfqha/message_1.html
+connections:
+  - page: wiki/interests/food-and-diet
+    type: evidences
+    claim: "The one food image permanently on his body is a Misfits tattoo: the pizza slice was chosen because it was the unconventional alternative to the Crimson Ghost-in-a-coffin variant, which is a cool-metric operation executed through a food image without the food being the point."
 related:
   - wiki/self/ancestry
   - wiki/interests/favorites/music

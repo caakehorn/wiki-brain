@@ -154,6 +154,15 @@ connections:
   - page: wiki/people/jaredtricia
     type: evidences
     claim: "Annie's 'Hazel' persona (the paid-provider identity behind the Jared/Tricia, Nabeel, and Jason threads) is the same alias documented across three independent 2019–2020 escort threads, one of which Dan personally impersonated her inside."
+  - page: wiki/mind/synthesis/the-unbroken-bond
+    type: evidences
+    claim: "This is the case where the slot's occupancy and the attachment system's activation finally coincide, and its ending is the hardest evidence on that page: the June 1 2026 severance held 52 days before 624 messages across four days reopened it — seventeen years of continuous occupancy did not end when the relationship did."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: instantiates
+    claim: "This decade is what a trauma bond looks like measured rather than asserted: Annie's love-language frequency peaks at 5.3% of her messages in 2016, decays monotonically to 0.1% by 2024, then rebounds to 2.7% in 2025 exactly as the Uniontown supply dependency is established — affection returning at near-origin intensity inside a procurement relationship is the intermittent-reinforcement mechanism made visible in a rate."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: evidences
+    claim: "The record here settles the fallout question in a narrow, defensible form: Dan was wronged in fact — a concealed affair inside the non-monogamy framework he had built to prevent exactly that, months of gaslighting rated by the sources above the affair itself, and a defamation campaign running concurrently with written private denials — while the ten-year length of the catastrophe is co-authored by his own conflict engine and supply-chain control."
 ---
 
 # Annie (Anne Louise Ulmer)

@@ -4,7 +4,7 @@ page_type: summary
 title: "463 Morgantown St (Housing / Property Risks)"
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 sources:
   - raw/self/message-csv/imessage_7243228715_both_all_now.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -22,6 +22,18 @@ connections:
   - page: wiki/timeline/events/july-2026-recontact
     type: evidenced-by
     claim: "The July 24 2026 line 'I moved the entire house by myself, it took an extra week' is the only dated evidence anywhere that the 337 Saratoga vacate completed — probable rather than confirmed, since no address is named."
+  - page: wiki/people/arnu
+    type: contains
+    claim: "The address's nearest hard deadline and its clearest single instance of the off-books pattern — a mechanics lien estimated to mature ~2026-07-27, held by a contractor who no-showed while his associate did the work."
+  - page: wiki/people/john-carney
+    type: contains
+    claim: "The second contractor exposure — ~10-20% complete, unreachable since March 2026 — which is what establishes that the paperwork failure here is a property-wide pattern rather than one contractor."
+  - page: wiki/people/alexander-jackson
+    type: contains
+    claim: "The owner whose title the liens attach to, and the counterparty to every unwritten arrangement at the address; his absence from the paper is the mechanism by which Suz absorbs risks that are formally his."
+  - page: wiki/people/suzanne-frank
+    type: contains
+    claim: "The single point where all four unwritten relationships at this address converge — tenant, agent, caretaker, contracting counterparty — with no separation of liability and a documented $750/week borrowing cycle, which is why a lien-sized shock here has no absorber."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "463 is where the money spine currently points: no lease, blended agency, a ~July 2026 lien deadline, and no absorber for a lien-sized shock — the housing configuration produced by the capital timeline's present state."
@@ -39,6 +51,17 @@ mixed agent/tenant/caretaker role with no separation of liability, and two
 contractors have left the property with unresolved claims. The nearest hard
 deadline is a mechanics lien from contractor [[wiki/people/arnu|Arnu]],
 estimated to mature around **July 27, 2026**.
+
+> **DEADLINE ELAPSED [2026-08-02].** The mechanics-lien date this page has
+> carried as its nearest hard deadline — estimated ~**27 July 2026** — has now
+> passed, and **no source read to date records what happened.** The estimate was
+> always derived rather than documented (no filing, notice or contract for the
+> Arnu work exists on disk), so three states are equally consistent with the
+> record: the lien was filed, the claim was settled, or the deadline was never
+> real. This is now the single most actionable open item on the page, and it is
+> answerable from outside the corpus — a Fayette County prothonotary or recorder
+> search against the 463 Morgantown St parcel would settle it in one query. Until
+> then the risk table below should be read as **unresolved, not expired**.
 
 ## Open risks
 
@@ -100,7 +123,7 @@ names it.
 **Gaps:** exact move-in date; whether a lease or POA has since been signed;
 any direct communications with owner Alexander Jackson; the content of the
 "John carney thing" document (referenced but not in raw/); resolution status
-of the Arnu lien as the July deadline approaches — **which is 2026-07-27,
-i.e. now**, and is the single most time-sensitive open item in the
-repository. Whether the July 2026 move was into 463 or somewhere else is
+of the Arnu lien, whose estimated 2026-07-27 deadline has now **elapsed
+unrecorded** (see the block above) and remains the single most actionable open
+item here. Whether the July 2026 move was into 463 or somewhere else is
 not confirmed by any source that names an address.

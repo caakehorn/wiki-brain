@@ -28,6 +28,9 @@ related:
   - wiki/mind/concepts/institutional-out
 tags: [nyc-era, career, ai-collaboration, housing, forensic-analysis]
 connections:
+  - page: wiki/interests/food-and-diet
+    type: evidences
+    claim: "Forty-one months inside one cuisine is the strongest control the corpus offers for a rule about what Dan does not evaluate: the Lebanese culture and humour registered and are recorded, and no judgement of the food survives anywhere."
   - page: wiki/mind/concepts/institutional-out
     type: evidences
     claim: "The night-class alibi — a fictitious 9pm schedule held for over a year, securing peak shifts while exempting closing duty — is the out-protocol's documented masterpiece."

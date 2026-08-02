@@ -8,6 +8,9 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-
 related: ["wiki/self/context-core", "wiki/self/twitter", "wiki/self/youtube-watch-history", "wiki/self/favorites", "wiki/mind/concepts/forensic-method", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/facebook/messages", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/people/annie-ulmer"]
 tags: [digital-footprint, nyc-era, relationships, financial-stress, trauma-bond]
 connections:
+  - page: wiki/people/johnny-dealer
+    type: evidenced-by
+    claim: "The rank-7 handle in this dump, at 3,462 messages, resolves to a 2018-era dealer — which is the clearest demonstration that raw volume in this corpus measures logistical load rather than closeness."
   - page: wiki/mind/synthesis/message-circadian-latency
     type: contains
     claim: "The circadian/latency page is a primary analytical cut of this corpus, recomputed row-level."

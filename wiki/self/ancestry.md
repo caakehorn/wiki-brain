@@ -11,6 +11,15 @@ connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
     type: evidences
     claim: "The tree data here is the substrate of the two-OS interpretive frame."
+  - page: wiki/people/david-j-frank
+    type: evidenced-by
+    claim: "The founder's record is the hub's most consequential single entry: Manhattan 1900-1910, the Bronx 1915, Brownsville by 1920 — the family's arrival in Fayette County is a second migration, fifteen years after the immigration."
+  - page: wiki/people/sadie-harris
+    type: evidenced-by
+    claim: "The matriarch's record supplies the line's longest attested tenure (1920-1993, Fayette County, no departure) and the burial that resolves the family terminus to Hopwood."
+  - page: wiki/mind/synthesis/fayette-return
+    type: evidences
+    claim: "The GEDCOM under this hub turned out to contain a rule and not just a lineage: every documented departure in the paternal line is followed by a documented return, every terminus sits inside one twenty-mile radius, and three of the four burials are in the same Hopwood cemetery — which makes Dan's returns the fourth iteration of a family pattern rather than four personal failures."
 ---
 
 # Ancestry (Hub)

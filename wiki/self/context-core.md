@@ -18,6 +18,9 @@ sources:
   - raw/self/dox-md/Gemini-_18.md
 tags: [personality-profile, family, relationships, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/instrument-is-subject
+    type: evidences
+    claim: "The most authoritative source page in the wiki is itself a curated, AI-assisted compilation rather than a primary record, which is why the residue/testimony distinction has to be applied here too: its dated events and counts are admissible on different terms from its interpretive framings."
   - page: wiki/mind/concepts/phenomenology-lens
     type: contains
     claim: "The lens is a formally subordinate interpretive overlay on this spine: wherever its metaphors and the spine's hard counts disagree, the spine wins — the subordination rule is part of the spine's own governance."

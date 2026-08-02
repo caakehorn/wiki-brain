@@ -32,8 +32,20 @@ connections:
     type: evidenced-by
     claim: "Annie's July 23-25 2026 statements — 'I put your through hell', 'you were always true to me', full accountability given to her parents, a rehab placement refused — are the first corroboration of this verdict from the other party with nothing left to procure."
   - page: wiki/people/annie-ulmer
-    type: resolves
-    claim: "States the capstone verdict on the question the relationship record poses — wronged in fact, with the diagnosis-to-behavior gap held in the same frame."
+    type: evidenced-by
+    claim: "States the capstone verdict on the question the relationship record poses — wronged in fact, with the diagnosis-to-behavior gap held in the same frame — and draws every load-bearing count in it from that record."
+  - page: wiki/timeline/events/group-chat-closure
+    type: evidenced-by
+    claim: "The June 1 closure rows are the primary backbone of the defamation finding, and the Tuquick defection fourteen days later is its independent external validation."
+  - page: wiki/timeline/events/march-2026-terminal-phase
+    type: evidenced-by
+    claim: "The March fortnight supplies both halves of the verdict in one window: the March 1 crisis-statement exchange for the diagnosis-to-behavior gap, the March 16 retraction row for the confession pair."
+  - page: wiki/timeline/events/april-may-2026-final-weeks
+    type: evidenced-by
+    claim: "Adopted selectively: its May 4–5 rows are [RAW-CSV] verified and load-bearing, while the Betrayal Catalog and pregnancy material from the same chat-analysis source is excluded as uncorroborated."
+  - page: wiki/mind/concepts/attachment-model
+    type: caused-by
+    claim: "The model's inability to self-close without an explicit severance signal — none of which appear in Annie's 41,073 messages — is the mechanism that held the bond open through the fifteen-month terminal phase."
   - page: wiki/timeline/events/end-fight
     type: evidenced-by
     claim: "The June 1 closure rows — sic semper lupanis at 00:27:49, the 00:24-00:26 accusations, the June 15 Tuquick defection — are the primary RAW-CSV backbone of the defamation and independent-validation findings."
