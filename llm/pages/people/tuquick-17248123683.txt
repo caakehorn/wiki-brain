@@ -23,6 +23,9 @@ infobox:
   first_contact: 2026-05-31
   known_for: "Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal g"
 connections:
+  - page: wiki/people/the-unnamed-man
+    type: co-occurs
+    claim: "Tuquick is the only other man the corpus places in the interloper role, six weeks earlier and in the same town, and no source states whether he and the July 2026 third party are the same person."
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "The June 15 defection is the verdict's independent-validation exhibit: convergence on Dan's read within 14 days of attacking it."

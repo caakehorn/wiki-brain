@@ -20,10 +20,15 @@ synthesizes:
   - wiki/people/milo
   - wiki/timeline/events/march-2026-terminal-phase
   - wiki/timeline/events/july-2026-recontact
+  - wiki/timeline/events/july-august-2026-reentanglement
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: evidenced-by
+    claim: "The eight days confirm this page's standing prediction at the resolution of minutes — the July 26 goodbye broke in eighteen — and split the unexecuted-threat pattern along a new line: the impulsive disclosure executed, the deliberated one did not."
+
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: contradicts
     claim: "That page reads Menore's closures as dormancies and predicts the February 2025 farewell reopens, against this page's scoring of it as the record's one fully clean close — the 2,044-day precedent makes the control provisional on elapsed time."
@@ -233,8 +238,61 @@ an exhaustible Fe function.
 > draws from that page — the 127/110 exit-relapse record and the March 2026 bidirectional fight — is unaffected by who left whom in
 > November 2015.
 
+## Prediction resolved, and a threat rule that falls out of it
+
+> **RESOLVED [2026-08-02] — the July 26 prediction, confirmed at the
+> resolution of minutes.** The Gaps section below predicted that the "whatever
+> goodbye annie" of 05:04 on July 26 2026 would not hold, on the grounds that
+> the dog had not stopped being co-held. Contact resumed at **05:22 the same
+> morning — eighteen minutes** — and ran 1,880 messages and six in-person
+> meetings over the following eight days
+> ([[wiki/timeline/events/july-august-2026-reentanglement]]). This is the
+> shortest interval between an exit declaration and its reversal anywhere in
+> the record, against a prior median measured in hours, and it was called in
+> advance by the corrected dependency rule rather than by the base rate. The
+> gap is closed; the rule survives untouched.
+
+The same window splits a second pattern this page carries, and the split is
+new. The record holds eighteen block threats and six or more
+"I'm telling your mother" threats from Dan, essentially none of them
+executed — a regularity the corpus has treated as a single fact about him,
+that his threats are performative. **Both kinds appear in these eight days,
+forty-eight hours apart, and they resolve opposite ways.**
+
+On the morning of July 26, believing Annie to be in physical danger, Dan
+messaged [[wiki/people/ellen-ulmer|Ellen]] with screenshots. Elapsed time
+from decision to act: **sixteen minutes**, no announcement, no negotiation.
+It is the first executed maternal-disclosure threat in the corpus.
+
+On July 28 he announced at 11:48 that he would email both her parents, held
+the position for **twelve hours across roughly two hundred messages**,
+offered to let Annie read the draft before it went, floated having
+[[wiki/people/rick-frank|Rick]] deliver it instead, and absorbed everything
+she had — begging, jurisdictional claims, self-harm statements, surrender.
+**The email was never sent**, and nothing after that night refers to it.
+
+The rule the corpus had was *Dan's threats are not carried out*. The rule
+this supports is narrower and testable: **announcement is the mechanism of
+non-execution.** Stating an intention converts the act into a move in the
+conversation, and a move can be traded — for a promise, a concession, an
+argument survived. An unstated intention has nothing to trade against and is
+simply performed. That reframes the eighteen unexecuted block threats as
+something other than weakness of will: they were never attempts, they were
+bids, and the ones that got made were the ones nobody was given a chance to
+bargain over.
+
+It also makes a prediction. Any future exit or disclosure that appears in
+the record **without prior announcement** should be expected to execute; any
+that is announced in advance should not. The corpus can test this backwards
+across the 127 exit declarations, which is queued below.
+
 ## Gaps
 
+- **The announcement rule is untested against the back catalogue.** All 127
+  exit declarations are, by definition, announced — the falsifier is the
+  reverse case: silent exits that executed. Whether the record contains
+  unannounced severances that held has never been asked, because unannounced
+  events are the ones a message corpus is worst at showing.
 - **The Menore control row is provisional on elapsed time** (see the re-check
   above). If that channel reopens, this page loses its cleanest non-Annie
   control, and the corrected rule needs a durability clause rather than a
@@ -249,8 +307,6 @@ an exhaustible Fe function.
   row in the table was scored on material dependency alone, so any case
   with a co-held object — a pet, a lease, a child, a shared account —
   may have been scored wrong in the same direction the Annie row was.
-- Whether the July 26 goodbye holds is open. The rule now predicts it
-  does not, because the dog has not stopped being co-held.
 - Blocking events with minor contacts (the long tail) have not been
   systematically mined; the loop's frequency outside intense bonds is
   unmeasured.

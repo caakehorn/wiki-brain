@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-02
-432 pages, ~633,148 tokens.
+434 pages, ~648,777 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -8935,6 +8935,9 @@ sources:
   - "raw/self/dox-md/Reassessing with fresh perspective.md"
 tags: [relationships, attachment, addiction-recovery, trauma-bond, infidelity]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: evidenced-by
+    claim: "Between 05:22 and 20:20 on July 26 2026 the exchange runs from a rape accusation and 'don't contact me again' to a joke about the dog catching a rabbit, with nothing resolved in between — the reset is unconditional and takes fifteen hours."
   - page: wiki/timeline/events/group-chat-closure
     type: evidenced-by
     claim: "The model predicts a bond that cannot close without an unambiguous external severance signal; June 1 2026 is the only event in the corpus that supplied one."
@@ -10396,6 +10399,12 @@ related:
   - wiki/timeline/events/eli-incident
 tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
 connections:
+  - page: wiki/people/the-unnamed-man
+    type: contradicts
+    claim: "The method's claim to generality fails by deliberate choice here: the corpus's most consequential live antagonist is the one node Dan has refused to identify, on the stated grounds that knowing would cost him more than not knowing."
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: instance-of
+    claim: "The apparatus passes through four states in six days — published as an exhibit, retracted in five minutes on one request, rebuilt as an access-gated decoy, then offered as a gift — showing the target changes far more readily than the method does."
   - page: wiki/people/fran-coldren
     type: evidenced-by
     claim: "The method's hardest test on record is self-directed: within 24 hours of his great-grandmother's death Dan reviewed his own video of the moment, found the monitor alarm that explained its 'supernatural' timing, and retracted the story unprompted to a family member at no benefit to himself."
@@ -10553,6 +10562,64 @@ target did, and the reflexive turn that defines it — the discipline of
 running the instrument on yourself first — is the one thing absent from
 this instance. Full account at
 [[wiki/timeline/events/july-2026-recontact]].
+
+### And what happened to it in the following week
+
+The six days after that deployment show the whole range of what the
+apparatus is for, faster than any other stretch in the corpus
+([[wiki/timeline/events/july-august-2026-reentanglement]]). Four states, in
+order:
+
+**Exhibit.** At 05:36 on July 26 Dan published the complete text log at
+`caakehorn.github.io/leviathan/transcript.html` and sent it with "I'm not
+afraid of the truth." This is the escalation the previous section
+anticipates: not a dashboard summarising the record but the record itself,
+in public.
+
+**Retracted.** At 18:00 the same day Annie asked him to take it down — the
+third party had read it from her phone and forwarded it to himself. Dan
+argued nothing: "The logs will be offline in 30 seconds," confirmed at
+18:05. **The apparatus survived roughly twelve hours of deployment and one
+request from its subject.** This is the section's real correction. The
+outward turn reads, above, as an escalation in the method's power; the
+retraction shows that as leverage it was worth almost nothing, and that the
+person it was aimed at could switch it off by asking once.
+
+**Fortified.** From 22:41 that night the build turns adversarial rather than
+evidentiary. A five-second secret-pattern gate; failures routed to a decoy
+whose loading bar *decelerates* as it nears completion, resolving to another
+fake page and looping indefinitely, with roughly forty pop-ups per layer. By
+July 31 the live site needs two passwords and a legally-binding disclaimer
+that logs device information and carries a no-trespass covenant
+(`void.html`). The stated motive is not security and Dan says so: "sometimes
+i need a win to feel better too. this just feels like outsmarting someone
+with the intelligence of an actual child."
+
+**Gift.** On July 31 he showed Annie **this wiki** — the knowledge graph
+with her as "the big pink dot," and the page describing how they met. "I've
+spent a lot of time writing out as much of my life into story form as I
+possibly could… it organized it into basically my own personal wikipedia."
+The same instrument that was an exhibit five days earlier is offered as
+something to be admired, to the same person, and she replies, "That is
+pretty interesting."
+
+The sequence is worth stating as a finding: **the method's target changes
+much more readily than the method does.** In one week the identical corpus
+and the identical build served as evidence against her, as a concession to
+her, as a trap for someone else, and as a courtship object — with no change
+to how any of it was made. What varies is never the instrument. It is who
+Dan needs something from that day.
+
+One consequence lands on this repository directly. While showing her the
+page, Dan noticed an error in it and said so in the thread: "i need to fix
+the thing at the top, it should say that I left my relationship within 24
+hours…not you." That is the origin of the twenty-four-hour subject-reversal
+correction applied to [[wiki/mind/synthesis/bond-switch-2015|the 2015 bond
+switch]] and [[wiki/people/annie-ulmer]] on 2026-08-02 — and the export is
+now the primary-source record of where it came from, timestamped 22:04 on
+July 31. It is the first case in the corpus of the wiki being proofread by
+being shown to its own subject matter, which is a use for the apparatus that
+none of the four states above anticipated.
 
 **Gaps:** the method's documented failure modes are thin — the corpus records
 its successes; systematic false-positive cases (clusters that resolved
@@ -14141,10 +14208,15 @@ synthesizes:
   - wiki/people/milo
   - wiki/timeline/events/march-2026-terminal-phase
   - wiki/timeline/events/july-2026-recontact
+  - wiki/timeline/events/july-august-2026-reentanglement
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: evidenced-by
+    claim: "The eight days confirm this page's standing prediction at the resolution of minutes — the July 26 goodbye broke in eighteen — and split the unexecuted-threat pattern along a new line: the impulsive disclosure executed, the deliberated one did not."
+
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: contradicts
     claim: "That page reads Menore's closures as dormancies and predicts the February 2025 farewell reopens, against this page's scoring of it as the record's one fully clean close — the 2,044-day precedent makes the control provisional on elapsed time."
@@ -14354,8 +14426,61 @@ an exhaustible Fe function.
 > draws from that page — the 127/110 exit-relapse record and the March 2026 bidirectional fight — is unaffected by who left whom in
 > November 2015.
 
+## Prediction resolved, and a threat rule that falls out of it
+
+> **RESOLVED [2026-08-02] — the July 26 prediction, confirmed at the
+> resolution of minutes.** The Gaps section below predicted that the "whatever
+> goodbye annie" of 05:04 on July 26 2026 would not hold, on the grounds that
+> the dog had not stopped being co-held. Contact resumed at **05:22 the same
+> morning — eighteen minutes** — and ran 1,880 messages and six in-person
+> meetings over the following eight days
+> ([[wiki/timeline/events/july-august-2026-reentanglement]]). This is the
+> shortest interval between an exit declaration and its reversal anywhere in
+> the record, against a prior median measured in hours, and it was called in
+> advance by the corrected dependency rule rather than by the base rate. The
+> gap is closed; the rule survives untouched.
+
+The same window splits a second pattern this page carries, and the split is
+new. The record holds eighteen block threats and six or more
+"I'm telling your mother" threats from Dan, essentially none of them
+executed — a regularity the corpus has treated as a single fact about him,
+that his threats are performative. **Both kinds appear in these eight days,
+forty-eight hours apart, and they resolve opposite ways.**
+
+On the morning of July 26, believing Annie to be in physical danger, Dan
+messaged [[wiki/people/ellen-ulmer|Ellen]] with screenshots. Elapsed time
+from decision to act: **sixteen minutes**, no announcement, no negotiation.
+It is the first executed maternal-disclosure threat in the corpus.
+
+On July 28 he announced at 11:48 that he would email both her parents, held
+the position for **twelve hours across roughly two hundred messages**,
+offered to let Annie read the draft before it went, floated having
+[[wiki/people/rick-frank|Rick]] deliver it instead, and absorbed everything
+she had — begging, jurisdictional claims, self-harm statements, surrender.
+**The email was never sent**, and nothing after that night refers to it.
+
+The rule the corpus had was *Dan's threats are not carried out*. The rule
+this supports is narrower and testable: **announcement is the mechanism of
+non-execution.** Stating an intention converts the act into a move in the
+conversation, and a move can be traded — for a promise, a concession, an
+argument survived. An unstated intention has nothing to trade against and is
+simply performed. That reframes the eighteen unexecuted block threats as
+something other than weakness of will: they were never attempts, they were
+bids, and the ones that got made were the ones nobody was given a chance to
+bargain over.
+
+It also makes a prediction. Any future exit or disclosure that appears in
+the record **without prior announcement** should be expected to execute; any
+that is announced in advance should not. The corpus can test this backwards
+across the 127 exit declarations, which is queued below.
+
 ## Gaps
 
+- **The announcement rule is untested against the back catalogue.** All 127
+  exit declarations are, by definition, announced — the falsifier is the
+  reverse case: silent exits that executed. Whether the record contains
+  unannounced severances that held has never been asked, because unannounced
+  events are the ones a message corpus is worst at showing.
 - **The Menore control row is provisional on elapsed time** (see the re-check
   above). If that channel reopens, this page loses its cleanest non-Annie
   control, and the corrected rule needs a durability clause rather than a
@@ -14370,8 +14495,6 @@ an exhaustible Fe function.
   row in the table was scored on material dependency alone, so any case
   with a co-held object — a pet, a lease, a child, a shared account —
   may have been scored wrong in the same direction the Annie row was.
-- Whether the July 26 goodbye holds is open. The rule now predicts it
-  does not, because the dog has not stopped being co-held.
 - Blocking events with minor contacts (the long tail) have not been
   systematically mined; the loop's frequency outside intense bonds is
   unmeasured.
@@ -14565,6 +14688,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [relationships, trauma-bond, infidelity, attachment, mental-health]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: evidenced-by
+    claim: "Dan volunteers the verdict's central claim unprompted and against his own interest: 'even the worst thing I've done, getting you drugs, didn't really benefit me nearly as much as it was about that being the only way you would see me.'"
   - page: wiki/mind/synthesis/the-deferred-audit
     type: caused-by
     claim: "The diagnosis-to-behaviour gap this page names but does not explain is an audit lag: the instrument existed and had been running on drawers, agencies and strangers for two decades — it was not permitted to point at a chosen object until that object had already failed, which also explains why the exit required a confession no one was going to give."
@@ -14754,6 +14880,7 @@ sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 synthesizes:
+  - wiki/timeline/events/july-august-2026-reentanglement
   - wiki/people/alexis-armel
   - wiki/people/danielle-onesi
   - wiki/places/424-bedford-ave
@@ -14763,6 +14890,10 @@ synthesizes:
   - wiki/mind/synthesis/the-unbroken-bond
 tags: [relationships, nyc-era, uniontown-era, forensic-analysis]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: evidenced-by
+    claim: "Supplies the mechanism this page could only infer: Dan states that a tie closes only on an explicit terminating statement from the other party, then fails to obtain one from Annie across 1,880 messages of direct demand."
+
   - page: wiki/people/ellen-ulmer
     type: instance-of
     claim: "The rule holds even for ties Dan never chose: an in-law relationship opened by a friend's overdose in April 2017 was still sending unprompted birthday messages in November 2025, outliving the relationship it entirely depended on."
@@ -14860,6 +14991,42 @@ producing, because it is where Dan met [[wiki/people/menore|Menore]], and that
 connection reactivates in November 2018 and runs until February 2025. The
 address stopped being a home and became a permanent origin node, which is
 exactly what happens to the people.
+
+### The mechanism, stated by the subject (added 2026-08-02)
+
+Everything above establishes *that* ties do not terminate. It infers the
+mechanism from behaviour. On July 28, 2026, in the middle of an argument about
+something else, Dan states it directly, and the statement is worth quoting at
+length because nothing else in the corpus says it as plainly:
+
+> "You won't just fucking say you don't want to be with me anymore. You've
+> never once said it — and the one time you came close…you said 'disregard
+> everything I say after this' right before so I didn't think you were being
+> serious… And I'm fucking autistic. My brain can't cross out that part of my
+> life that I love unless I know that you don't feel that way."
+
+The claim is that a tie cannot be closed by evidence, duration, or even by the
+other person's conduct — it closes only on an **explicit terminating
+statement**, and in its absence the tie stays open indefinitely regardless of
+what else is true. He attributes this to autism, which the corpus should record
+as his own framing rather than adopt as a diagnosis.
+
+The same eight days then run the experiment. Dan asks for the statement
+directly and repeatedly across a full day; Annie, across **1,880 messages under
+sustained direct demand**, does not make it, and her nearest approach is its
+opposite ("Always have. Always fucking will," 00:02 July 29). Contact resumed
+eighteen minutes after a goodbye and produced six meetings in eight days
+([[wiki/timeline/events/july-august-2026-reentanglement]]).
+
+This tightens the page's rule usefully. "Nothing leaves the graph" is a
+description; the mechanism is that **the closing operation requires a
+counterparty and the counterparty rarely performs it.** Which reframes the
+member cases: Danielle, Alexis and Menore did not stay because Dan holds on.
+They stayed because nobody in the corpus has ever said the sentence, and the
+system has no other way to write a node out. It also predicts where the rule
+should fail — a tie ended by an explicit, unhedged severance from the other
+side ought to close cleanly, and [[wiki/people/kristin|Kristin's]] December 2025
+block is the closest thing the corpus has to that case.
 
 ## The measurement: dormancy involves no decay
 
@@ -17045,6 +17212,7 @@ sources:
   - "raw/self/message-csv/messages_3476070497_all_time.csv"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
 synthesizes:
+  - wiki/timeline/events/july-august-2026-reentanglement
   - wiki/people/annie-ulmer
   - wiki/people/tom
   - wiki/people/teddy
@@ -17055,6 +17223,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: instance-of
+    claim: "Supply is no longer the terminal phase's load-bearing structure but the relationship's only remaining structure — five handoffs in six days after a 52-day severance and the corpus's only refusal — and Dan states its function out loud: getting her drugs 'was about that being the only way you would see me.'"
   - page: wiki/people/jay-lauer
     type: contains
     claim: "Jay is the network's only documented fatality: a peer-trading node whose overdose in April 2017 shows what the reciprocal-credit tier actually risked, and whose death Dan attributes to a failed attempt to route him onto the Suboxone path that had worked for Dan himself."
@@ -17146,7 +17317,7 @@ transfers along the way.
 | [[wiki/people/teddy]] | 2018–2020 | Uniontown/Fairchance | Parallel informal supplier; strips, pills; credit and holds |
 | [[wiki/people/menore]] | 2013?, 2018–20 + 2024–25 | NYC | Professional delivery operator; 99.3% availability, median 7-min reply |
 | Tim | ~2020s | undocumented | Named in the MAX_PRIME succession; no thread yet identified |
-| "bop" / "Felix" | 2026 | Uniontown | Current-connect vocabulary; identities unresolved |
+| **Bop** (Felix is not a node) | 2026 | Uniontown | Current primary node — house calls daily at noon; Dan maintains his property in part-payment; identity otherwise unknown |
 
 Extending the succession earlier than previously documented, a 2015
 Facebook Messenger export dates [[wiki/people/zachariah-harshman|Zach
@@ -17321,6 +17492,28 @@ why the end became possible.
 > resumes at full bandwidth after 2,044 days of silence is *more* of an outlier
 > against the friendship-embedded nodes, not less.
 
+> **REVISED [2026-08-02] — the inversion did not end with the relationship,
+> and Dan has now stated its purpose himself.** This section describes Dan in
+> the supplier seat as the terminal phase's structure. The July–August 2026
+> export shows the configuration **survived both the June 1 closure and the
+> July 26 goodbye**: after a fifty-two-day gap and one documented refusal,
+> procurement resumed on July 27 and ran **five handoffs in six days**, and
+> every in-person meeting in that window either was a handoff or had one
+> attached ([[wiki/timeline/events/july-august-2026-reentanglement]]). The
+> supply architecture is no longer the load-bearing structure of the
+> relationship's final year — it is the only structure the relationship still
+> has.
+>
+> The section's central inference also stops being an inference. It reads the
+> arrangement as a retention mechanism; on July 28 Dan says so, unprompted and
+> against his own position in the argument he was having: *"even the worst
+> thing I've done — getting you drugs — didn't really benefit me nearly as
+> much as it was about that being the only way you would see me."* He is
+> explicit that the transaction buys access rather than gratitude, and he
+> continues supplying after saying it. The **thirty-one hours** between the
+> corpus's only refusal and its reversal is the measure of what the refusal
+> was worth.
+
 > **RE-CHECKED [2026-08-02] — premise moved, nothing here touched.**
 > [[wiki/people/annie-ulmer]] was corrected today to move the twenty-four-hour
 > bond-switch at the 2015 introduction from her column to Dan's. What this page
@@ -17331,15 +17524,29 @@ why the end became possible.
 
 - **Tim** is named in the MAX_PRIME succession between Johnny and Tom
   but no message thread has been identified; era and product unconfirmed.
-- **"bop"** (current-connect vocabulary) and **"Felix"** (2026
-  supply-adjacent figure per MAX_PRIME) are unresolved identities. The
-  strongest candidate for the 2026 Felix is the
-  [[wiki/people/felix|463 contractor Felix]], whose own page already
-  carries the MAX_PRIME "supply-adjacent" note; [[wiki/people/john-felix]]
-  is a 2016 household-adjacent contact and should NOT be assumed to be
-  the same person — different era, no supply content in his thread.
-- The post-May-2026 state of the network — whether the Tom node
-  recovered, was replaced, or the regimen changed — is undocumented.
+- ~~**"bop"** and **"Felix"** are unresolved identities.~~ **CLOSED
+  2026-08-02 — "Bop" is a person, and he is the network's current primary
+  node.** The July–August 2026 export removes the ambiguity this page has
+  carried since it was written: Bop is not a verb, a product or a term of art
+  for sourcing through Dan. He is a man who **comes to Dan's house at noon
+  every day** ("recently he comes here at noon every day and everything gets
+  taken care of then"), whose property Dan maintains in what reads as partial
+  payment ("I have to weed whack bops place"), who sits on the porch with
+  Felix and the dog, and who declines to come while Annie is there. Every one
+  of the five procurement handoffs in
+  [[wiki/timeline/events/july-august-2026-reentanglement|that window]] is
+  sourced from him. **Felix is confirmed as a separate person** present at
+  the same house on the same porch, consistent with
+  [[wiki/people/felix|the 463 contractor]] rather than with any supply role —
+  he appears in the new export only as a social fixture. What remains open on
+  Bop is his real name, his relationship to the
+  [[wiki/people/tom|Tom]] node he appears to have succeeded, and the terms of
+  the weed-whacking arrangement.
+- The post-May-2026 state of the network is **partly** answered by the
+  finding above — the network did not collapse with the Tom node; it was
+  replaced by a daily, house-calling, higher-availability node, which is the
+  reliability inversion documented above running one more time. Whether the
+  Tom channel itself recovered is still undocumented.
 - Menore's product was never named in-thread; the "8" unit remains
   uninterpreted.
 
@@ -19388,21 +19595,23 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-08-02
 date_range_start: 2015-11-01
-date_range_end: 2026-07-26
+date_range_end: 2026-08-02
 infobox:
   name: Annie Ulmer
-  status: Open — contact resumed 2026-07-23 after a 52-day severance
+  status: Open — in daily contact; supply relationship resumed 2026-07-27
   type: Partner (2015–2026); ex-partner in live contact
   known_for: Decade-long relationship; subject of forensic dossiers
   partner: "[[wiki/self/overview|Dan Frank]]"
   first_mentioned: November 2015
   closed: 'June 1, 2026 — severance failed July 23, 2026'
-  notes: See [[wiki/timeline/events/july-2026-recontact|the July 2026 re-contact]]
+  notes: See [[wiki/timeline/events/july-august-2026-reentanglement|the re-entanglement]]
   relationship_to_dan: ex-partner
   location: uniontown
   first_contact: 2015-11-01
   handles: ["@Annelouise28", "@Lo_weez", "@alexisarmel"]
 changelog:
+  - date: 2026-08-02
+    note: "The severance-that-failed section is superseded rather than revised: a fresh export through 2026-08-02 shows contact resumed eighteen minutes after 'whatever goodbye annie' and ran 1,880 messages and six in-person meetings across eight days, five of them drug handoffs. New section 'The re-entanglement, July 26 – August 2'; date_range_end and infobox status updated; three chronology rows and two numbers rows added; the word-volume ratio (2.88:1, against an all-time 2.95:1) added as the stable metric behind an unstable message-count ratio. Three findings written back from the new event page: Dan states the procurement-as-access thesis in his own voice; he names autism as the reason he cannot close the bond without an explicit severance signal, asks for one across a full day, and does not get it; Annie apologises to Suz in person on August 2. Full account at wiki/timeline/events/july-august-2026-reentanglement."
   - date: 2026-07-26
     note: "Structural: the page is no longer historical. A fresh full-history export of the 212 thread (through 2026-07-26 05:04) shows contact resumed July 23 after a 52-day silence and running 624 messages across four days. status closed→active, date_range_end extended, infobox status rewritten, lead paragraph and Closing Note rewritten, REVISED block added under the lead, new section 'July 2026: the severance that failed' placed before 'Why it held together', six chronology rows added, two new gaps. The relationship's analysis is not reopened — the verdict, the numbers and the earned reads all stand unchanged — but the wiki's inference that June 1 was terminal is withdrawn. Full event at wiki/timeline/events/july-2026-recontact."
   - date: 2026-07-24b
@@ -19416,6 +19625,7 @@ changelog:
   - date: 2026-07-11
     note: "Data audit: burst-event misattribution fixed, financial amendments folded in"
 sources:
+  - raw/self/message-csv/imessage_export_2124702449_20260802.csv
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/message-csv/imessage_export_2124702449_20260726.csv
   - raw/self/message-csv/imessage_export_17245629389_both_all_now.csv
@@ -19477,6 +19687,12 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: contains
+    claim: "Eight days in which the relationship stopped being a failed severance and became a supply arrangement with a schedule — six meetings, five handoffs, and Dan stating out loud that procurement was always the price of access."
+  - page: wiki/people/the-unnamed-man
+    type: co-occurs
+    claim: "The man Annie left Dan for and says raped her on July 25 2026; her refusal to state that she had cut him off is the condition Dan set for contact and the switch every hostile phase of the following week turns on."
   - page: wiki/people/betherin-mechling
     type: contains
     claim: "Annie's cousin is the reason Jay Lauer's supply relationship with Dan sat inside her extended family rather than beside it, and the reason his April 2017 overdose reached Dan through her mother rather than his own."
@@ -20329,8 +20545,70 @@ a threat ("keep acting like I'm fucking bluffing you liar"), and both
 framings are in the same hour of transcript.
 
 The four days end at 5:04 AM on July 26 with "whatever goodbye annie,"
-unanswered. Whether that holds is not knowable from anything currently on
-disk, and the record's own base rate on such statements is 110 out of 127.
+unanswered.
+
+> **REVISED [2026-08-02]:** the sentence that closed this section — "Whether
+> that holds is not knowable from anything currently on disk" — is now
+> answerable, and the base rate held. It broke in **eighteen minutes**. The
+> full account is [[wiki/timeline/events/july-august-2026-reentanglement|the
+> re-entanglement]]; what follows is what it changes about this page.
+
+## The re-entanglement, July 26 – August 2
+
+Eighteen minutes after the goodbye, Dan resumed. Over the following eight
+days they exchanged **1,880 messages and met in person six times** — more
+in-person contact than any comparable window since the March 2026 terminal
+phase, and more than the preceding four months combined.
+
+**Five of the six meetings were drug handoffs**, and the sixth had one
+attached forty minutes later. Procurement restarted on July 27 — thirty-one
+hours after the refusal documented above, which remains the only one of its
+kind and is now also the shortest-lived. The sequence is $40 in her parents'
+driveway traded for a hug, $100 thrown from a moving car at her uncle's
+house in Hopwood, two handoffs made on foot when neither of them had a
+vehicle, and $50 pre-crushed with a straw. Dan sets the terms out loud three
+times — "stop contacting me if you want me as your friend or dealer or
+anything other than wanting to be together" — and supplies every time he is
+asked.
+
+The window produces three things this page has to carry.
+
+**Dan states the procurement thesis in his own voice.** On the night of July
+28, mid-argument, unprompted and against his own position: *"even the worst
+thing I've done — getting you drugs — didn't really benefit me nearly as much
+as it was about that being the only way you would see me."* Everything on
+this page about supply-as-access, and the whole spine of
+[[wiki/mind/synthesis/dan-annie-fallout-verdict|the fallout verdict]], has
+until now been inference from the record. It is now also testimony.
+
+**The mechanism behind the missing severance signal is stated, and it holds
+for another 1,880 messages.** The section below explains the bond's
+persistence by the absence of any explicit ending from Annie — 299+ love
+affirmations against zero severance signals. On July 28 Dan names it himself
+and gives it a cause: *"You won't just fucking say you don't want to be with
+me anymore. You've never once said it… And I'm fucking autistic. My brain
+can't cross out that part of my life that I love unless I know that you don't
+feel that way."* He then asks for the statement, directly and repeatedly,
+across a full day. **She still does not make it.** Her nearest approach is
+its inverse, at 00:02 on July 29: "Always have. Always fucking will." Eleven
+years and a hundred and twenty-seven declared exits, and the count of
+explicit severance signals from Annie remains zero.
+
+**And she made one repair.** On August 2 Annie walked to Dan's house —
+declining the meeting point they had arranged, leaving him waiting on a
+corner — and apologised to [[wiki/people/suzanne-frank|Suz]] in person for
+the harassment [[wiki/people/the-unnamed-man|the third party]] had directed
+at her. "Neither of you, and especially her; someone who had nothing to do
+with our relationship, was harassed for no reason." It is the only act in
+the terminal record in which either party repairs anything with anyone
+outside the relationship, Dan had predicted its possibility twenty-seven
+hours earlier while Annie insisted it was impossible, and he records being
+wrong about her: "I did not think you would have the courage or the will to
+do that."
+
+Forty minutes after the apology she asked whether he had it, and he drove to
+Sugie's with fifty dollars' worth. Both facts belong to the same afternoon
+and neither cancels the other.
 
 ## Why it held together as long as it did
 
@@ -20382,6 +20660,23 @@ inside ([[wiki/self/chats/gemini-18]]).
 | Record gaps | 2022 (none logged); Sep–Dec 2024 (3,613 Annie / 0 Dan — cohabitation artifact, not missing data) |
 | Terminal-phase keywords | "love you" 541 · "Eli" 388 · "lying" 150 · "goodbye" 110 |
 | Alternate-number thread (2018–2020, +17249204125) | 4,812 msgs — logistics, debt, crisis; crosses [[wiki/people/johnny-dealer]] network |
+| **Word volume, Dan : Annie, all-time** | **2.95 : 1** (188,167 / 63,700 words across 23,719 messages, `imessage_2124702449_both_all_now.csv`, Dec 2022 – Jun 2026) |
+| Word volume, Jul 26 – Aug 2 2026 | 2.88 : 1 — unchanged by the crisis |
+| Annie's median message length | 4 words, in both the final year and the re-entanglement window |
+
+**A note on which ratio to quote.** The message-count ratios above are the
+unstable metric and should not be used to characterise the relationship's
+asymmetry on their own. Measured month by month across the final year they
+swing from 0.79 (October 2025) to 1.92 (February 2026); the eight days after
+the July 26 goodbye come closer to parity — 1.06 — than any comparable
+window on record, which reads as reciprocity and is not. Over the same
+periods the **word** ratio moves far less and lands at essentially the
+all-time value: 2.83 in the re-contact, 2.88 in the re-entanglement, 2.90
+across the final year, 2.95 all-time. What produced the apparent parity in
+those eight days was Annie taking more turns of exactly the same size — her
+median message is four words in both windows — while Dan's median grew from
+eight words to eleven. Her participation rose in frequency and not at all in
+substance.
 
 | Annie, love-language frequency by year | % of her messages |
 |---|---|
@@ -20466,6 +20761,10 @@ legal exposure for Dan — noted here for completeness.
 | 2026-07-23 | Dan answers the email; 52-day severance ends; eight hours of restored intimacy |
 | 2026-07-25 | Leviathan dashboards sent as leverage; Annie states she told her parents everything |
 | 2026-07-26 | Rape allegation, refused supply request, mutual suicidal statements, "whatever goodbye annie" (05:04) |
+| 2026-07-26 | Contact resumes 05:22; transcript published and retracted the same day; Dan messages Ellen at 06:22 — the first executed maternal-disclosure threat on record |
+| 2026-07-27 | Supply resumes: $40 in her parents' driveway, traded for a hug, 31 hours after the refusal |
+| 2026-07-28 | 770 messages; twelve-hour standoff over an email to her parents that is never sent |
+| 2026-08-02 | Annie walks to the house and apologises to Suz in person; buys $50 forty minutes later |
 
 Two synthesis pages extend this record further: the capstone moral
 verdict, provenance-tiered down to individual message rows, at
@@ -24951,6 +25250,7 @@ related: []
 - [[wiki/people/tom]] — Tom Maison — Dan's primary male ally and the clearest instance of safe, lateral (peer, non-paternal)…
 - [[wiki/people/trevor]] — Trevor Bevins: Dan's Nemacolin caddying peer, golf companion, and later market-era Facebook contact; the thread also records money strain between friends.
 - [[wiki/people/trinity-st-clair]] — Adult performer booked as a paid companion for Dan and Annie, spring 2019; same window as the Shelbie threesome.
+- [[wiki/people/the-unnamed-man]] — The man Annie left Dan for and says raped her in July 2026; the one node in the corpus Dan has deliberately refused to identify, and the reason he gives for it.
 - [[wiki/people/tuquick-17248123683]] — A hostile third party involved in the terminal sequence of the Annie relationship closure (the end-fight).…
 - [[wiki/people/urpaaa-at-yahoo-com]] — Unidentified teacher in a parental register who accompanied Dan to the Oct 2017 tooth extraction; identity is the page's open question.
 - [[wiki/people/valeria-iglesias-cid]] — Valeria Iglesias Cid — 19-year-old heiress to a laser-surgery empire (mother: Dra. Loreto Cid in…
@@ -29336,9 +29636,10 @@ status: active
 knowledge: mixed
 importance: high
 date_created: 2026-07-14
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 date_range_start: 2018-01-01
 sources:
+  - raw/self/message-csv/imessage_export_2124702449_20260802.csv
   - raw/self/dox-md/MAX_PRIME.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
   - raw/self/dox-md/LIFE REPORT.md
@@ -29348,6 +29649,10 @@ sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
 tags: [pets, relationships, physical-health, ai-collaboration, nyc-era]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: causes
+    claim: "Milo is not only the channel that reopened the relationship but the one that carries it: all four returns from hostility to warmth across the eight days run through him, and Dan speaks in the dog's voice at exactly the moments a direct approach would fail."
+
   - page: wiki/timeline/events/july-2026-recontact
     type: causes
     claim: "Milo is the proximate cause of the July 2026 re-contact: Annie's July 4 email asking whether he was frightened by fireworks is the message Dan answered on the 23rd, ending a 52-day severance."
@@ -29477,11 +29782,52 @@ record to a statement of what he has left: "i made him a promise that,
 even though his mom didn't want either of us in her life anymore, I would
 love him enough for both of us and i'm taking that promise seriously."
 
+### He is also the instrument, not only the channel
+
+The eight days after the July 26 goodbye
+([[wiki/timeline/events/july-august-2026-reentanglement]]) make the point
+harder than the re-contact could. Milo did not merely open the channel; he
+**carries** it. Each of the four transitions from hostility back into warmth
+across those days runs through him, and in each case nothing has been
+resolved when it happens:
+
+- July 26, 20:20 — fifteen hours of rape allegation, an executed disclosure
+  to Annie's mother, an attack on her weight and "Don't contact me again"
+  end with "Omg he caught one." Milo has caught a rabbit. Annie: "Bunny?
+  / Omg / He caught it?"
+- July 27, 00:09 — the thread restarts on the dog sighing in a pink kimono
+  after a shower.
+- July 30 — an entire day of repair conducted almost wholly in dog content:
+  a new carrier bag, expensive food, a petting zoo, a bee.
+- August 2 — the last exchange of the window is Milo and a thunderstorm.
+
+Dan also speaks **as** him. "Milo said you can borrow his pink kimono."
+"Milo said now he can send you even better pictures." "milo just wanted to
+know because he said he liked Craig st." The dog's voice is the register
+available when Dan's own has been spent, and it is used at exactly the
+moments a direct approach would fail.
+
+And the same attachment is used as the punishment instrument. On the morning
+of July 26: "you don't get milo and that's something you'll never have again
+… you've seen milo for the last time you ever will see him." Fifteen hours
+later Dan is sending her photographs of him. The threat and the reconciliation
+run through the same object, which is what makes it load-bearing rather than
+sentimental — nothing else in the relationship can do both.
+
+One further fact about **Betty**, Milo's companion and Annie's dog, surfaces
+here for the first time and is recorded because nothing else in the corpus
+carries it: Dan's account is that Annie withdrew from her in the weeks before
+she was put down and was not present at the end — "You couldn't even stay
+with her when they put her down so she had to go through it alone." Sourced
+only to Dan, delivered as an attack at 02:59 on July 28, and uncorroborated.
+
 **Gaps:** exact calendar date of the rescue (only bounded to before
 September 2018); breed-registry or vet details beyond the 2018 surgery
 and the 2025 vet visit. His status after the June 2026 closure is now
-answered — he is with Dan, moved house with him in July 2026, and is the
-channel the relationship reopened through.
+answered — he is with Dan, moved house with him in July 2026, is the
+channel the relationship reopened through, and by August 2026 is fully
+housebroken, off-leash on the porch with the neighbours' animals, and
+described by Dan as "like a different dog now."
 
 
 ========================================================================
@@ -31397,6 +31743,12 @@ synthesizes:
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
+  - page: wiki/people/the-unnamed-man
+    type: caused-by
+    claim: "The third party telephoned Suz to abuse her about a relationship she had no part in; on Dan's account it was the injury that mattered most to her, 'all I heard about for months', and the one Annie eventually came to the house to apologise for."
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: component-of
+    claim: "On August 2 2026 Annie walked to the house and apologised to Suz in person for the harassment campaign — the only repair either party made to anyone outside the relationship in the entire terminal record."
   - page: wiki/timeline/events/the-fall-of-fran
     type: co-occurs
     claim: "Fran's keep-me-home directive was given to Suz and Dan jointly, which is what let Dan read the March 2018 decision as honouring an instruction rather than making a private choice."
@@ -31952,6 +32304,193 @@ made about third parties.
 | Date range | 2018-02-20 – 2020-02-11 |
 | Documented role | Recurring informal pharmaceutical supplier |
 | Main setting | Uniontown/Fairchance logistics |
+
+
+========================================================================
+PAGE: wiki/people/the-unnamed-man.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+title: "The Unnamed Man"
+aliases: ["the third party", "him", "this person"]
+status: active
+knowledge: earned
+importance: high
+date_created: 2026-08-02
+date_modified: 2026-08-02
+date_range_start: 2026-07-25
+date_range_end: 2026-08-02
+tags: [relationships, trauma-bond, mental-health, forensic-analysis]
+infobox:
+  name: "Unidentified — name deliberately not sought"
+  relationship_to_dan: "antagonist; no direct relationship, never met"
+  location: uniontown
+  first_contact: 2026-07-26
+  known_for: "The man Annie left Dan for and says raped her; the one node in Dan's life he has decided on the record not to identify"
+  status: "Active in Annie's life as of 2026-08-01; identity unknown to Dan by choice"
+sources:
+  - raw/self/message-csv/imessage_export_2124702449_20260802.csv
+  - raw/self/message-csv/imessage_export_2124702449_20260726.csv
+connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: causes
+    claim: "Every hostile phase across the eight days is triggered by evidence of his continued presence, and every de-escalation follows Annie's assertion that he is gone — he is the switch the window runs on."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "He is the partner Annie describes as having broken her finger, raped her on July 25 2026, poured water on her while she slept and filmed himself asking whether he had raped her — and the one she would not agree to cut off when Dan made it the condition of contact."
+  - page: wiki/mind/concepts/forensic-method
+    type: contradicts
+    claim: "The method's claim to generality fails here by choice: the corpus's most consequential live antagonist is the one node Dan has refused to investigate, and the stated reason is that knowing would cost him more than not knowing."
+  - page: wiki/people/suzanne-frank
+    type: causes
+    claim: "He telephoned Suz to abuse her about a relationship she had no part in, which is what made the harassment a family matter and what Annie eventually walked to the house to apologise for."
+  - page: wiki/people/tuquick-17248123683
+    type: co-occurs
+    claim: "Tuquick is the only prior third party the corpus documents in this role, and no source states whether the two are the same man — the question is open in both directions."
+  - page: wiki/timeline/events/july-2026-recontact
+    type: follows
+    claim: "The 'She's a slut man lmfao' message that arrived on Annie's number at 00:25 on July 26 is his first appearance in the record; everything known about him postdates it by hours."
+---
+
+# The Unnamed Man
+
+He is the person [[wiki/people/annie-ulmer|Annie]] left Dan for, the person
+she says raped her on July 25, 2026, and the person whose continued presence
+in her life organises every hostile hour of
+[[wiki/timeline/events/july-august-2026-reentanglement|the eight days that
+followed]]. He has no name in this wiki because **Dan has decided not to
+learn it**, and said so twice on the record. That decision is the most
+interesting thing about the page and the reason it exists.
+
+The page is written from a single vantage: Annie's statements about him, and
+one direct exchange in which he wrote to Dan from her phone. Nothing here is
+independently corroborated. He should be read as a documented *presence* with
+documented *effects* — the effects are heavily evidenced — rather than as a
+person the corpus has established facts about.
+
+## What he did, on the record available
+
+**He wrote to Dan from Annie's phone.** The first appearance is a message on
+her number at 00:25 on July 26: "She's a slut man lmfao." The exchange that
+follows the next morning runs about twenty minutes and is the only direct
+contact in the corpus. His register is short, contemptuous and aimed at
+Dan's specific vulnerabilities — unemployment ("Time to get a job buddy"),
+sexual humiliation ("The cuck never gives up," "Can't get anyone else"), and
+Annie's escort history ("Had her fuck old men for drugs"). He then makes the
+accusation that structures the following week: "I have video proof how you
+fingered her for hours while she was unconscious."
+
+**He telephoned [[wiki/people/suzanne-frank|Suz]].** This is the act with the
+longest consequences. Dan's assessment — "the call to my mom was enough of a
+red flag alone. Annie NOBODY would do that, it's literally crazy and noone
+did anything to this dude. Noone knew he existed" — is the closest the record
+comes to a characterological read, and it is the injury that Annie eventually
+walked to the house on August 2 to apologise for. Dan's own account of the
+asymmetry is precise: "the actual insults themselves weren't really
+effective. With her, it's all I heard about for months."
+
+**He harassed Dan for hours on July 25–26**, in an exchange Annie was present
+for and, on Dan's account, endorsed in real time: "you literally told him you
+were choosing him in the middle of it all happening."
+
+**He took the transcript.** Dan published the full text log at
+`caakehorn.github.io/leviathan/transcript.html` and sent it to Annie; the man
+read it from her phone and forwarded it to himself. This is what caused the
+publication to be retracted five minutes after Annie asked — see
+[[wiki/mind/concepts/forensic-method|the forensic method]] — and it is the
+only documented instance of the apparatus being turned against its author.
+
+## What Annie says he did to her
+
+Recorded as her claims. They are consistent across eight days and she never
+retracts them, but the corpus holds no corroboration and this page adjudicates
+nothing.
+
+That he broke her finger, two months before July 2026, in an injury the
+[[wiki/timeline/events/july-2026-recontact|re-contact]] page also records. That
+he raped her on July 25 after reading her texts with Dan. That he came to her
+uncle's bedroom window while she was sleeping on the night of July 25–26,
+woke her, poured water over her, threw her belongings around the room, and
+filmed himself in her face asking "did I rape you." That he took her phone and
+ran, which is the call the police actually attended. That he later "admitted
+he did what he did." That she would press charges "if I felt it was necessary
+AT ANY POINT" — and that as of August 2 she had made no report and taken no
+rape kit, which Dan raised with her inside the seventy-two-hour window and did
+not get an answer to.
+
+Annie's parents, on her account, know what he has done and do not want her
+near him. She nonetheless spoke to him again on July 27 — the day after
+promising Dan she never would — and her explanation each time is contact
+initiated by him: "HE CONTACTED ME," "He came as I was sleeping / And knocked
+on my bedroom window."
+
+## The refusal to know
+
+Twice in six days Dan states that he is deliberately not finding out who this
+man is.
+
+> "I don't even want to know their fucking name and have made a point to not
+> even find out." (July 26, 18:09)
+
+> "you do understand that the reason I won't even learn who this is, is
+> because I do not want to live my life with the HATRED that I would feel
+> towards one person… I want to fuck this person's life up so badly and I
+> haven't because I'm not going to do something stupid and illegal to
+> accomplish it." (July 28, 23:45–23:46)
+
+This is worth stating as a finding rather than a curiosity. The operator's
+defining behaviour, across every domain this wiki documents, is total
+instrumentation: 181,585 archived messages, a browser history mined for
+relational traces, a reconstructed discography, dashboards built from his own
+text logs, and this repository. [[wiki/mind/concepts/forensic-method]] is
+described elsewhere as a general disposition — the thing he does to any
+question that will hold still.
+
+Here it does not fire, and the reason given is not that the answer is
+unobtainable. Uniontown is small, Annie's family knows the man, and Dan had
+her phone contents published on a website he controlled. The reason is that
+**the knowledge is judged to carry a cost he has decided not to pay** — a
+hatred with a face, and the risk of acting on it. The method has an off
+switch, it is under deliberate control, and its criterion is emotional
+consequence rather than difficulty or relevance.
+
+That is a real limit on how the corpus should describe him. Statements like
+"Dan documents everything" and "the forensic engine runs on whatever is put
+in front of it" are now known to be false in at least one case, and the
+exception was chosen, announced, and held for at least eight days under
+extreme provocation.
+
+It also has a practical consequence for this repository: the most
+consequential live antagonist in the corpus is likely to stay unnamed, because
+the person who would ordinarily identify him is the person who has decided not
+to.
+
+## Is he Tuquick?
+
+Unknown, and no source addresses it.
+[[wiki/people/tuquick-17248123683|Tuquick]] is the only other man the corpus
+places in this role — the interloper of the May 31–June 1 2026 end fight, who
+defected on June 15 and called Annie a compulsive liar. Points of contact: the
+same role, the same six-week span, the same town. Points against: Tuquick's
+recorded conduct toward Dan ended in agreement with him, which is hard to
+reconcile with the July 26 register; and neither Dan nor Annie treats the July
+26 arrival as a continuation of anything, which is unusual given how
+comprehensively both narrate their own histories. The question is left open,
+and it is one of the few in the corpus that will not be settled by re-reading
+`raw/` — it needs an answer from outside.
+
+## Gaps
+
+His name, age, occupation, relationship history with Annie, and how they met
+are all unknown. The duration of the relationship is unknown; the earliest
+event attributed to him is the finger injury around late May 2026, which would
+place its start at or before the end fight. Whether the harassment campaign
+against Dan and Suz has continued past August 1 is unknown — the last
+reference is an ambiguous incident that evening which Annie attributes to an
+accidental call from her recent-calls list. No source in `raw/` contains his
+side of anything except the twenty minutes he wrote from Annie's phone.
 
 
 ========================================================================
@@ -32580,6 +33119,9 @@ infobox:
   first_contact: 2026-05-31
   known_for: "Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal g"
 connections:
+  - page: wiki/people/the-unnamed-man
+    type: co-occurs
+    claim: "Tuquick is the only other man the corpus places in the interloper role, six weeks earlier and in the same town, and no source states whether he and the July 2026 third party are the same person."
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "The June 15 defection is the verdict's independent-validation exhibit: convergence on Dan's read within 14 days of attacking it."
@@ -38598,14 +39140,21 @@ title: "The July 2026 Re-contact"
 status: active
 knowledge: mixed
 date_created: 2026-07-26
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 date_range_start: 2026-07-23
 date_range_end: 2026-07-26
 importance: critical
 sources:
   - raw/self/message-csv/imessage_export_2124702449_20260726.csv
+  - raw/self/message-csv/imessage_export_2124702449_20260802.csv
 tags: [relationships, trauma-bond, attachment, addiction-recovery, forensic-analysis]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: precedes
+    claim: "The eight days after this page's final message answer all three of its open questions and reverse its central inference: the goodbye at 05:04 was followed by the densest contact period since March 2026, not by the disappearance it announced."
+  - page: wiki/people/the-unnamed-man
+    type: precedes
+    claim: "The 'She's a slut man lmfao' message recorded here at 00:25 on July 26 is the corpus's first trace of the third party, who becomes the organising figure of the week that follows."
   - page: wiki/legal/463-morgantown
     type: evidences
     claim: "Dan's account of moving the house single-handed a week late is the corpus's only dated evidence that the 337 Saratoga sale closed and its seven-day vacate clause was overrun."
@@ -38900,11 +39449,471 @@ The email thread Dan answered on July 23 is not in `raw/` — only Annie's
 description of it (sent over July 4 about Milo and the fireworks, resent
 around July 21) and the fact that he replied. The photos, videos, and the
 karaoke file are attachments the CSV export records only as markers. The
-third party is unidentified. Whether Dan followed through on contacting
-Annie's parents, on the exposure threat, or on the "disappear" statement
-is unknown as of this writing — this event is **open**, and the next
-export of this thread is the highest-value pending ingest in the
-repository.
+third party is unidentified.
+
+> **RESOLVED [2026-08-02]:** the three open questions this section closed
+> with — whether Dan followed through on contacting Annie's parents, on the
+> exposure threat, or on the "disappear" statement — are all answered by the
+> next export of the thread, filed as
+> `raw/self/message-csv/imessage_export_2124702449_20260802.csv`. **The
+> parents were contacted**, at 06:22 on July 26, seventy-eight minutes after
+> the last message on this page: "Alright I'm contacting Ellen," followed by
+> screenshots. That makes it the first of six-plus recorded
+> maternal-disclosure threats ever executed. **The exposure threat was
+> executed and then withdrawn** — the full text log went up at
+> `caakehorn.github.io/leviathan/transcript.html` at 05:36 and came down at
+> 18:05 the same day, on one request from Annie, after the third party read
+> it from her phone and forwarded it to himself. **The disappearance did not
+> happen**: contact was continuous from 05:22 on July 26 through August 2,
+> 1,880 messages and six in-person meetings, five of them drug handoffs. The
+> refusal to supply documented above held for **thirty-one hours**. Full
+> account at
+> [[wiki/timeline/events/july-august-2026-reentanglement|the
+> re-entanglement]].
+
+
+========================================================================
+PAGE: wiki/timeline/events/july-august-2026-reentanglement.md
+========================================================================
+
+---
+domain: timeline
+page_type: event
+title: "The Re-entanglement, July 26 – August 2 2026"
+status: active
+knowledge: earned
+date_created: 2026-08-02
+date_modified: 2026-08-02
+date_range_start: 2026-07-26
+date_range_end: 2026-08-02
+importance: critical
+sources:
+  - raw/self/message-csv/imessage_export_2124702449_20260802.csv
+tags: [relationships, trauma-bond, attachment, addiction-recovery, forensic-analysis, mental-health, pets]
+connections:
+  - page: wiki/timeline/events/july-2026-recontact
+    type: follows
+    claim: "That page ends at 05:04 on July 26 with an unanswered 'whatever goodbye annie' and three named open questions; this window answers all three — the parents were contacted eighty minutes later, the exposure threat was executed and then retracted the same day, and the disappearance did not happen."
+  - page: wiki/people/annie-ulmer
+    type: component-of
+    claim: "Eight days that convert the relationship from a failed severance into a functioning arrangement: six in-person meetings, five procurement handoffs, and an apology delivered in person to Dan's mother, all inside the week following the goodbye."
+  - page: wiki/people/the-unnamed-man
+    type: caused-by
+    claim: "Every hostile phase in the window is triggered by evidence of his continued presence in Annie's life, and every de-escalation follows Annie's assertion that he is gone."
+  - page: wiki/people/milo
+    type: caused-by
+    claim: "The dog is not merely the channel that reopened contact but the channel that carries it: every one of the four transitions from hostility back to warmth in this window runs through a photograph, a story, or a message spoken in the dog's voice."
+  - page: wiki/mind/synthesis/supply-network
+    type: instantiates
+    claim: "Procurement resumed within thirty-one hours of Dan's only documented refusal to supply, and by the end of the window it is the sole mechanism by which the two of them meet — five handoffs in six days, every in-person contact attached to one."
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: evidences
+    claim: "The window splits the unexecuted-threat pattern along a line the page could not previously see: the impulsive disclosure to Annie's mother was executed within sixteen minutes, and the deliberated one, announced twelve hours in advance and negotiated over two hundred messages, was not."
+  - page: wiki/mind/concepts/forensic-method
+    type: instantiates
+    claim: "In six days the Leviathan apparatus is published as an exhibit, retracted inside five minutes on a single request from its subject, rebuilt as an access-controlled honeypot, and then shown to that same subject as a gift — the full range of what the method is for, compressed."
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: evidences
+    claim: "Dan states the mechanism behind no-exit in his own voice and attributes it to autism: 'My brain can't cross out that part of my life that I love unless I know that you don't feel that way' — the tie persists because the terminating statement is never made."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: evidences
+    claim: "Dan volunteers the verdict's central claim unprompted and against his own interest — 'even the worst thing I've done, getting you drugs, didn't really benefit me nearly as much as it was about that being the only way you would see me.'"
+  - page: wiki/people/suzanne-frank
+    type: contains
+    claim: "Annie walked to the house on August 2 and apologized to Suz in person for the harassment campaign, the first repair either party made to anyone outside the relationship in the entire terminal record."
+  - page: wiki/mind/concepts/attachment-model
+    type: evidences
+    claim: "Between 05:22 and 20:20 on July 26 the exchange runs from a rape accusation and 'don't contact me again' to a joke about the dog catching a rabbit, with no apology or resolution in between — the reset is unconditional and takes fifteen hours."
+---
+
+# The Re-entanglement, July 26 – August 2 2026
+
+In the eight days after the goodbye that closed
+[[wiki/timeline/events/july-2026-recontact|the July 2026 re-contact]], Dan
+and [[wiki/people/annie-ulmer|Annie]] exchanged **1,880 messages** and met
+in person **six times**. Five of those meetings were drug handoffs. The
+sixth was the first, and the exchange did not survive it in any recognisable
+form: what began the window as an accusation of attempted assault ended it,
+on August 2, with Annie walking to Dan's house to apologise to his mother.
+
+What this window establishes is not that the relationship resumed — the
+re-contact already established that. It is that **the relationship
+reorganised around procurement as its only physical form**, and that both
+parties know it and say so. Dan states the terms three separate times
+("stop contacting me if you want me as your friend or dealer or anything
+other than wanting to be together") and then supplies anyway, every time he
+is asked, within hours. The severance failed in July; in this window it
+stops being a severance at all and becomes a working arrangement with a
+schedule.
+
+## LLM Quick Brief
+
+**For context injection:** July 26 – August 2, 2026. 1,880 messages, 969
+from Dan, 911 from Annie. Opens at 05:22 on July 26 with Dan concluding
+that the previous night's invitation to Hopwood was an ambush, publishing
+the full text log at `caakehorn.github.io/leviathan/transcript.html`, and
+messaging Annie's mother [[wiki/people/ellen-ulmer|Ellen]] at 06:22 in the
+belief that Annie was in physical danger. Annie's account: the man she says
+raped her on July 25 came to her uncle's bedroom window while she slept,
+poured water on her, threw her belongings, filmed himself asking "did I
+rape you," took her phone, and used it to message Dan. Four suicidal
+statements from Annie in three days. The transcript comes down at 18:05 at
+her request and is replaced by an access-gated decoy site. Procurement
+restarts July 27 and runs five handoffs in six days ($40, $100, ~$50, one
+undisclosed, $50). A twelve-hour standoff on July 28 over whether Dan will
+email her parents ends with the email never sent. The window closes on
+August 2 with Annie apologising to [[wiki/people/suzanne-frank|Suz]] in
+person, then buying $50 from Dan forty minutes later. Relationship status:
+**not severed, not resumed — supplied.**
+
+## The seventeen hours of July 26
+
+The single most compressed sequence in the corpus. It is worth taking
+slowly because the shape of the whole window is in it.
+
+**05:22 — the ambush conclusion.** Dan wakes to a realisation about the
+previous night: "i just now realized. this was not sent to me by accident by
+you. you were with him…again." Within fourteen minutes he has published the
+message log and written "I'm not afraid of the truth."
+
+**05:39–05:57 — the accusation.** The replies that come back are not
+Annie's. They are the man's, from her phone: "The cuck never gives up," "Had
+her fuck old men for drugs," and then the charge that organises the next
+week — "I have video proof how you fingered her for hours while she was
+unconscious." Dan's response is forensic rather than defensive, and it is a
+good example of what [[wiki/mind/concepts/forensic-method|the method]] does
+under fire: he dates the video against timestamped footage from before and
+after, notes that Annie's hair is wet in it, and observes that Betty — Annie's
+chihuahua, the aggressive one of the pair Dan and Annie raised together
+(see [[wiki/people/milo]]) — would not have stayed silent, and was in fact
+shut out of the room as she always was during sex.
+
+**06:22 — the disclosure, executed.** "Alright I'm contacting Ellen." Dan
+sends the screenshots to Annie's mother. This matters out of all proportion
+to its length: the wiki has recorded **six or more** "I'm telling your mom"
+threats from Dan across the relationship and **none previously carried out**.
+Sixteen minutes elapse between the decision and the act.
+
+**06:42–07:22 — the reversal of blame.** Annie's first response is not to
+the rape allegation but to the disclosure: "Please Dan / Do not." Then the
+correction that Dan reads as the collapse of the whole story: the police
+were involved because the man took her phone, "NOT BC HE ASSAULTED ME." She
+is angry at Dan and not at the man, and Dan says so eleven times in forty
+minutes. Her position: "god yeah I'm gonna get sent the fuck away / Bye /
+Kill ne / Fucking just kill me."
+
+**08:10–09:51 — the body comment.** Dan sees a photograph and attacks
+Annie's weight gain: "bad time to get off stimulants i guess," "hey you'll
+get to buy lots of new clothes." He defends it by citing six months of her
+jokes about his own weight ("size 36 pants because i was eating domino's
+during covid"). **This is the only injury Annie returns to unprompted
+across the entire window** — twice on July 26 and never conceded. Dan
+withdraws it completely twenty-eight hours later: "You were perfect when you
+looked like an anemic 80 pounds and you just as perfect now that you're
+healthy."
+
+**12:08–13:11 — the ultimatum.** Dan sets the condition that governs the
+rest of the week: "please do not contact me unless you have decided to
+completely and fully disassociate yourself with this person." Annie: "We are
+no longer speaking. Believe me."
+
+**17:20 — the concession.** "No I'm not okay. I need to seek help. I am
+ruining myself and everyone else in my life."
+
+**18:00–18:05 — the retraction.** Annie: "why would you send him our text
+log Dan… can you please find some way to make it private. That is not
+alright." Dan had sent it to *her*; the man read it from her phone. He takes
+the site down without argument — "The logs will be offline in 30 seconds"
+— and confirms at 18:05, "It's down." The forensic apparatus, built over
+months and deployed as leverage three days earlier, is withdrawn on one
+request in under five minutes.
+
+**19:06 — the scratch-off.** Dan buys a crossword scratch ticket, does not
+scratch it, and locks it away: "I will hold on to this scratch off in case
+eggie bagels ever finds her way back." It becomes the window's running
+wager (see below).
+
+**20:20 — the reset.** "Omg he caught one." Milo has caught a rabbit.
+Fifteen hours after "Don't contact me again," and with nothing resolved, no
+apology given and no position withdrawn, the register returns to the dog.
+Annie: "Bunny? / Omg / He caught it?"
+
+## The procurement schedule
+
+Every in-person contact in the window is a handoff or has one attached.
+This is the finding the window exists to establish.
+
+| Date | Place | Amount | Notes |
+|---|---|---|---|
+| Jul 27, ~13:00 | Her parents' bottom driveway | $40 (of $50 offered) | Milo brought; traded for a hug. "My heart omg 💔" |
+| Jul 28, ~22:20 | 115 Acorn Lane, Hopwood | $100 via ATM access code | Thrown from a moving car; Dan carried no phone, left his wallet behind, did not stop |
+| Jul 31, ~15:10 | On foot, United Dairy / Craig St | undisclosed ("a little chunk") | Neither party had a car; both walked |
+| Jul 31, ~21:10 | Her parents' front kerb | $50 cash collected | Dan drove [[wiki/people/suzanne-frank|Suz]]'s car and carried her phone |
+| Aug 1, ~15:00 | Union St, opposite the BF playground | $50 | "It's fresh" |
+| Aug 2, ~17:15 | Sugie's driveway, her father's truck | $50, pre-crushed, with a straw | Forty minutes after the apology to Suz |
+
+Two features of this table are the point. First, **the frequency**: five
+handoffs in six days, against a fifty-two-day severance immediately prior
+and against Dan's own refusal on July 26 — which held for **thirty-one
+hours**. Second, **the disclosure inside it**: on July 27 Dan asks the
+obvious question — "annie I'm so scared and what if you. Get drug tested
+again" — receives "My parents know. That it won't be out of my system. They
+know. I have been honest," and delivers fifteen minutes later. The stated
+recovery programme and the supply relationship are running in the same
+thread on the same afternoon, and neither party treats this as a
+contradiction.
+
+Dan names the arrangement's real function himself, unprompted, at 23:04 on
+July 28, in the middle of an argument about something else: **"even the
+worst thing I've done — getting you drugs — didn't really benefit me nearly
+as much as it was about that being the only way you would see me."** This is
+the thesis of [[wiki/mind/synthesis/dan-annie-fallout-verdict|the fallout
+verdict]] and of [[wiki/mind/synthesis/supply-network|the supply network]]
+stated in the operator's own voice, against his own interest, while the
+behaviour it describes is still running.
+
+## July 28: the disclosure standoff, and the rule it produces
+
+Seven hundred and twenty-one messages between 11:48 and 23:59 — the largest
+single-day volume in the window and the most sustained argument in it. Dan
+announces at 11:48 that he will email Annie's parents; the stated purpose is
+not her safety but his reputation: "all I want is to clear MY name."
+
+Annie's resistance escalates through every register she has. Petition
+("I am begging from the bottom of my heart"). Bargaining ("I will never ask
+anything of you ever again"). Jurisdiction ("It HAPPENED TO ME. NOT YOU.
+ITS NOT YOUR DECISION… It's my fucking body"). Self-harm ("I'll fucking
+hurt myself. Idgaf. Nothing is worth this madness anymore. I give up").
+Surrender ("Do whatever you want. My life is already ruined"). Dan holds
+the position for twelve hours across roughly two hundred messages, tells
+her he will show her the text before sending, and at 23:54 floats delegating
+it: "I'm literally considering having rick give it to them so it's not
+coming from ME."
+
+**The email was never sent.** Nothing in the record after this night
+references it, and by the afternoon of July 30 the thread is about a
+petting zoo at the library.
+
+That produces a genuine sharpening of the pattern
+[[wiki/mind/synthesis/block-unblock-loop|the block/unblock loop]] records —
+the eighteen block threats and six-plus maternal-disclosure threats that
+are essentially never executed. Both kinds of threat appear in this window,
+forty-eight hours apart, and they resolve **opposite ways**:
+
+- The July 26 disclosure was **impulsive**, made under a genuine belief that
+  Annie was in danger, and executed in sixteen minutes.
+- The July 28 disclosure was **deliberated**, announced twelve hours in
+  advance, negotiated over, drafted, offered for pre-approval, and never
+  sent.
+
+The rule the corpus had was "Dan's threats are not carried out." The rule
+this window supports is narrower and testable: **announcement is the
+mechanism of non-execution.** A stated intention converts the act into a
+move in the conversation, and once it is a move it can be traded; an
+unstated one is simply performed. The four-month lag on
+[[wiki/mind/synthesis/the-deferred-audit|the deferred audit]] is the same
+shape seen from a different angle.
+
+## What Annie is doing, on her own account
+
+Recorded as her claims, not as findings. Several are unverifiable from
+inside the corpus and one is contradicted by conduct in the same thread.
+
+She has come clean to her parents about "EVERYTHING," including telling them
+herself that it was the man and not Dan who had been harassing Dan and Suz.
+She has had a first counselling appointment and has agreed to therapy three
+times a week **as an alternative to being sent away** for months without
+outside contact. She has taken a drug test administered by her father. She
+is grounded, is not permitted to drive, and is not left unsupervised. She is
+walking for her mental health and describes the resulting state as a "high
+from being active." On July 28 she reports, in capitals, going to the
+library and getting a book. She is working shifts, moving between her
+parents' house and her uncle's in Hopwood, and reports crying herself to
+sleep nightly.
+
+She also asks Dan for drugs on five of the next six days.
+
+The corpus should not resolve this into hypocrisy. The more useful reading
+is the one the record actually supports: her recovery programme and her
+procurement channel are addressed to different people and do not know about
+each other, except that Dan is told about both and supplies anyway.
+
+## The man with no name
+
+The third party is now the most consequential undocumented person in the
+corpus, and Dan has made a deliberate decision not to identify him. He
+states it twice: "I don't even want to know their fucking name and have made
+a point to not even find out," and, more revealingly, "the reason I won't
+even learn who this is, is because I do not want to live my life with the
+HATRED that I would feel towards one person."
+
+This is a documented act of **chosen ignorance by a person whose defining
+method is exhaustive documentation**, and it is the sharpest counter-example
+the corpus holds to [[wiki/mind/concepts/forensic-method|the forensic
+method]]'s claim to generality. Everything else in Dan's life is
+instrumented. This one node is left dark on purpose, and the stated reason
+is emotional load-bearing rather than epistemic. Full page:
+[[wiki/people/the-unnamed-man]].
+
+## The apparatus, in four states
+
+Six days is enough to see the whole range of what
+[[wiki/mind/concepts/forensic-method|the Leviathan build]] is for.
+
+1. **Exhibit** (Jul 26, 05:36). `transcript.html` published and sent, framed
+   as "I'm not afraid of the truth."
+2. **Retracted** (Jul 26, 18:00–18:05). Taken offline on one request from
+   its subject, in under five minutes, without argument.
+3. **Fortified** (Jul 26 22:41 – Jul 31). Rebuilt behind a five-second
+   secret-pattern gate that routes failures into a decoy: a loading bar that
+   *decelerates* as it approaches completion, ending at another fake page,
+   looping indefinitely, with roughly forty pop-ups per layer. By July 31 the
+   real site requires two passwords and a legally-binding disclaimer that
+   logs device information and includes a no-trespass covenant
+   (`caakehorn.github.io/leviathan/void.html`). Dan's stated motive is not
+   security: "sometimes i need a win to feel better too. this just feels like
+   outsmarting someone with the intelligence of an actual child."
+4. **Gift** (Jul 31, 21:53). Dan shows Annie the wiki itself — the knowledge
+   graph, with her as "the big pink dot" — and sends her the page describing
+   how they met. "I've spent a lot of time writing out as much of my life
+   into story form as I possibly could… it organized it into basically my own
+   personal wikipedia."
+
+The fourth state is the one that matters to this repository, because it is
+**the wiki appearing inside its own primary source**, shown to its most
+documented subject, who replies "That is pretty interesting." It also
+produced a correction delivered by text message: "i need to fix the thing at
+the top, it should say that I left my relationship within 24 hours…not you"
+— a factual amendment to [[wiki/mind/synthesis/bond-switch-2015|the 2015
+bond switch]] arriving over iMessage from the person the page is about.
+
+## The scratch-off
+
+On July 26 Dan buys a crossword scratch-off for Annie and refuses to scratch
+it, holding it as a token contingent on seeing her again — "in case eggie
+bagels ever finds her way back." When the driveway handoff happens the next
+day he rules it insufficient: "your scratch off stays locked up and
+unchecked unless I ACTUALLY get to see you. This doesn't count." On August 1,
+after five days of contact and four meetings, he retires it: "I think I lose
+already and it's time to get rid of your scratch off."
+
+The object is worth recording because of what it discloses about the
+accounting. Four in-person meetings did not satisfy a condition that a
+single unpurchased visit would have. The wager was never on contact; it was
+on a visit with no transaction attached — and the window contains exactly
+one of those, on August 2, one day after he declared the bet lost.
+
+## August 2: the apology
+
+The window's last day is the only event in it that neither party's prior
+behaviour predicted, and Dan had predicted it in the abstract the day
+before. On August 1 Annie says Suz will never forgive her and that this is
+right; Dan replies that Suz would forgive her in thirty seconds and that
+Annie "just want[s] the easy way out all the time." Annie: "You are right."
+
+Twenty-seven hours later she walks to the house — declining the arranged
+meeting point, leaving Dan waiting on a street corner for half an hour
+wondering if he has been set up again — and apologises to Suzanne in person.
+Her account: "I have been wanting to speak especially with your mom… It
+weighs on me every single day… neither of you, and especially her; someone
+who had nothing to do with our relationship, was harassed for no reason."
+She reports that they talked about abusive situations and about suppressed
+things people avoid working through.
+
+Dan's response is the only unqualified gratitude in eight days: "you don't
+know how much psychic trauma you just spared us all," followed immediately
+by "I did not think you would have the courage or the will to do that so I
+was wrong."
+
+Forty minutes later she asks, "Do you have it?" He drives to Sugie's with
+fifty dollars' worth, crushed, and a straw.
+
+That sequence — the hardest repair either of them has made, followed inside
+the hour by the transaction that is now the relationship's only reliable
+form — is the window in miniature, and it is why this page does not describe
+the eight days as a reconciliation.
+
+## By the numbers
+
+| Metric | Value |
+|---|---|
+| Messages, Jul 26 05:22 – Aug 2 18:10 | 1,880 |
+| Dan / Annie, by message | 969 / 911 — **1.06:1** |
+| Dan / Annie, by word | 15,633 / 5,437 — **2.88:1** |
+| Annie's median message length | **4 words** (unchanged from the preceding year) |
+| Dan's median message length | 11 words (8 in the preceding year) |
+| Busiest day | Jul 28 — 770 messages |
+| Quietest active day | Jul 29 — 7 |
+| In-person meetings | 6 |
+| Procurement handoffs | 5 |
+| "please" — Dan / Annie | 23 / 39 |
+| "liar", "lying", "lie" — Dan / Annie | 23 / 4 |
+| "rape" — Dan / Annie | 22 / 1 |
+| "I love you" — Dan / Annie | 9 / 1 |
+| Tapback reactions — Dan / Annie | 3 / 13 |
+| Annie's suicidal statements | 4, across 3 days |
+
+Two of these rows carry the finding. **The turn-count came closer to parity
+than at any point in the recorded relationship** (1.06 against an all-time
+1.38 measured on `imessage_2124702449_both_all_now.csv`, 23,719 messages) —
+and **the word ratio did not move at all**, sitting at 2.88 against an
+all-time 2.95. Annie's median message was four words in this window and four
+words across the preceding year. Her participation rose in frequency and not
+at all in substance; what closed the gap was Annie taking more turns of the
+same size while Dan's median grew from eight words to eleven.
+
+The other row worth pausing on is `rape`. Dan uses the word twenty-two
+times; Annie uses it once. The allegation that structures the entire week is
+one that only the person not making it says out loud.
+
+## What this settles
+
+**It settles that June 1 was not a severance and July 26 was not an
+ending.** Two goodbyes are now on record, fifty-two days apart, followed by
+the highest-density contact period since March 2026.
+
+**It settles what the relationship is currently made of.** Not cohabitation,
+not a shared future, not — on the evidence of five days of Dan asking — a
+stated mutual want. It is a supply relationship with an affectionate
+register and a dog attached, and Dan describes it in exactly those terms
+before continuing to run it.
+
+**It gives the no-exit mechanism a stated cause.** On July 28 Dan explains
+why he cannot close the loop: "You won't just fucking say you don't want to
+be with me anymore. You've never once said it… And I'm fucking autistic. My
+brain can't cross out that part of my life that I love unless I know that
+you don't feel that way." Across 1,880 messages under repeated direct
+demand, **Annie never makes the statement.** Her nearest approach is its
+opposite — "Always have. Always fucking will," at 00:02 on July 29. This is
+[[wiki/mind/synthesis/dormancy-not-exit|dormancy-not-exit]] with the
+mechanism supplied by the subject: the tie survives because the terminating
+sentence is withheld, and the withholding is what the loop runs on.
+
+## Gaps
+
+- **The email to Ellen on July 26 is not in `raw/`** — only Dan's statement
+  that he sent it and Annie's reaction. Its contents, and Ellen's reply if
+  any, are unrecovered. The same is true of the July 28 email that appears
+  never to have been sent.
+- **The man is unidentified**, by design. Whether he is
+  [[wiki/people/tuquick-17248123683|Tuquick]] remains unstated in any
+  source.
+- **The rape allegation is unadjudicated** and this page does not weigh it,
+  consistent with [[wiki/timeline/events/july-2026-recontact]]. What is new
+  is that Annie states he "even fucking admitted he did it to me," that she
+  will press charges "if I felt it was necessary AT ANY POINT," and that no
+  report had been made as of August 2.
+- **Betty's final weeks** are described here for the first time — that Annie
+  withdrew from her before she was euthanised and was not present at the end
+  ("You couldn't even stay with her when they put her down so she had to go
+  through it alone"). Sourced only to Dan, in an attack, and uncorroborated.
+- **Attachments are unrecovered.** Roughly forty photographs and videos in
+  this window exist in the export only as markers, including the video that
+  the July 26 accusation concerns.
+- **New names, undocumented**: Sugie, Laura, Courtney, Brian (relocated to
+  California), Tanya, Lucky, Bailey, and "Bop" — a supplier described as
+  arriving at Dan's house daily at noon, who by volume is now the corpus's
+  most active supply contact and has no page.
 
 
 ========================================================================
@@ -39838,6 +40847,7 @@ related: []
 - [[wiki/timeline/events/uniontown-hospital-vape-alarm]] — early April 2018: one drag of nicotine, a hospital-wide fire alarm, four fire trucks and an escort off the property during Fran's death watch.
 - [[wiki/timeline/events/group-chat-closure]] — Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party…
 - [[wiki/timeline/events/july-2026-recontact]] — July 23–26 2026: the 52-day severance fails; 624 messages, a rape allegation, the corpus's only refused supply request, no resolution.
+- [[wiki/timeline/events/july-august-2026-reentanglement]] — July 26 – August 2 2026: the goodbye breaks in 18 minutes; 1,880 messages, six meetings, five drug handoffs, and an apology delivered in person to Suz.
 - [[wiki/timeline/events/march-2026-terminal-phase]] — the record's last 16 days: laundry response, bathroom incident, confession + retraction
 - [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] — Dan, Annie, and Shelbie Breakiron; the arrangement's clearest instance with a third woman rather than a male friend.
 - [[wiki/timeline/events/timeline]] — This is the master index. Full chronological + 1,104 in raw/self/dox-md/LIFE_EVENTS_CALENDAR.md. Re-mined…

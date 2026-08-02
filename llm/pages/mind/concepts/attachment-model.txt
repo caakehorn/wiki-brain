@@ -14,6 +14,9 @@ sources:
   - "raw/self/dox-md/Reassessing with fresh perspective.md"
 tags: [relationships, attachment, addiction-recovery, trauma-bond, infidelity]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: evidenced-by
+    claim: "Between 05:22 and 20:20 on July 26 2026 the exchange runs from a rape accusation and 'don't contact me again' to a joke about the dog catching a rabbit, with nothing resolved in between — the reset is unconditional and takes fifteen hours."
   - page: wiki/timeline/events/group-chat-closure
     type: evidenced-by
     claim: "The model predicts a bond that cannot close without an unambiguous external severance signal; June 1 2026 is the only event in the corpus that supplied one."

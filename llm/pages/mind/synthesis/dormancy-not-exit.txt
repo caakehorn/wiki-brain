@@ -11,6 +11,7 @@ sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 synthesizes:
+  - wiki/timeline/events/july-august-2026-reentanglement
   - wiki/people/alexis-armel
   - wiki/people/danielle-onesi
   - wiki/places/424-bedford-ave
@@ -20,6 +21,10 @@ synthesizes:
   - wiki/mind/synthesis/the-unbroken-bond
 tags: [relationships, nyc-era, uniontown-era, forensic-analysis]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: evidenced-by
+    claim: "Supplies the mechanism this page could only infer: Dan states that a tie closes only on an explicit terminating statement from the other party, then fails to obtain one from Annie across 1,880 messages of direct demand."
+
   - page: wiki/people/ellen-ulmer
     type: instance-of
     claim: "The rule holds even for ties Dan never chose: an in-law relationship opened by a friend's overdose in April 2017 was still sending unprompted birthday messages in November 2025, outliving the relationship it entirely depended on."
@@ -117,6 +122,42 @@ producing, because it is where Dan met [[wiki/people/menore|Menore]], and that
 connection reactivates in November 2018 and runs until February 2025. The
 address stopped being a home and became a permanent origin node, which is
 exactly what happens to the people.
+
+### The mechanism, stated by the subject (added 2026-08-02)
+
+Everything above establishes *that* ties do not terminate. It infers the
+mechanism from behaviour. On July 28, 2026, in the middle of an argument about
+something else, Dan states it directly, and the statement is worth quoting at
+length because nothing else in the corpus says it as plainly:
+
+> "You won't just fucking say you don't want to be with me anymore. You've
+> never once said it — and the one time you came close…you said 'disregard
+> everything I say after this' right before so I didn't think you were being
+> serious… And I'm fucking autistic. My brain can't cross out that part of my
+> life that I love unless I know that you don't feel that way."
+
+The claim is that a tie cannot be closed by evidence, duration, or even by the
+other person's conduct — it closes only on an **explicit terminating
+statement**, and in its absence the tie stays open indefinitely regardless of
+what else is true. He attributes this to autism, which the corpus should record
+as his own framing rather than adopt as a diagnosis.
+
+The same eight days then run the experiment. Dan asks for the statement
+directly and repeatedly across a full day; Annie, across **1,880 messages under
+sustained direct demand**, does not make it, and her nearest approach is its
+opposite ("Always have. Always fucking will," 00:02 July 29). Contact resumed
+eighteen minutes after a goodbye and produced six meetings in eight days
+([[wiki/timeline/events/july-august-2026-reentanglement]]).
+
+This tightens the page's rule usefully. "Nothing leaves the graph" is a
+description; the mechanism is that **the closing operation requires a
+counterparty and the counterparty rarely performs it.** Which reframes the
+member cases: Danielle, Alexis and Menore did not stay because Dan holds on.
+They stayed because nobody in the corpus has ever said the sentence, and the
+system has no other way to write a node out. It also predicts where the rule
+should fail — a tie ended by an explicit, unhedged severance from the other
+side ought to close cleanly, and [[wiki/people/kristin|Kristin's]] December 2025
+block is the closest thing the corpus has to that case.
 
 ## The measurement: dormancy involves no decay
 

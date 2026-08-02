@@ -5,14 +5,21 @@ title: "The July 2026 Re-contact"
 status: active
 knowledge: mixed
 date_created: 2026-07-26
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 date_range_start: 2026-07-23
 date_range_end: 2026-07-26
 importance: critical
 sources:
   - raw/self/message-csv/imessage_export_2124702449_20260726.csv
+  - raw/self/message-csv/imessage_export_2124702449_20260802.csv
 tags: [relationships, trauma-bond, attachment, addiction-recovery, forensic-analysis]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: precedes
+    claim: "The eight days after this page's final message answer all three of its open questions and reverse its central inference: the goodbye at 05:04 was followed by the densest contact period since March 2026, not by the disappearance it announced."
+  - page: wiki/people/the-unnamed-man
+    type: precedes
+    claim: "The 'She's a slut man lmfao' message recorded here at 00:25 on July 26 is the corpus's first trace of the third party, who becomes the organising figure of the week that follows."
   - page: wiki/legal/463-morgantown
     type: evidences
     claim: "Dan's account of moving the house single-handed a week late is the corpus's only dated evidence that the 337 Saratoga sale closed and its seven-day vacate clause was overrun."
@@ -307,8 +314,24 @@ The email thread Dan answered on July 23 is not in `raw/` — only Annie's
 description of it (sent over July 4 about Milo and the fireworks, resent
 around July 21) and the fact that he replied. The photos, videos, and the
 karaoke file are attachments the CSV export records only as markers. The
-third party is unidentified. Whether Dan followed through on contacting
-Annie's parents, on the exposure threat, or on the "disappear" statement
-is unknown as of this writing — this event is **open**, and the next
-export of this thread is the highest-value pending ingest in the
-repository.
+third party is unidentified.
+
+> **RESOLVED [2026-08-02]:** the three open questions this section closed
+> with — whether Dan followed through on contacting Annie's parents, on the
+> exposure threat, or on the "disappear" statement — are all answered by the
+> next export of the thread, filed as
+> `raw/self/message-csv/imessage_export_2124702449_20260802.csv`. **The
+> parents were contacted**, at 06:22 on July 26, seventy-eight minutes after
+> the last message on this page: "Alright I'm contacting Ellen," followed by
+> screenshots. That makes it the first of six-plus recorded
+> maternal-disclosure threats ever executed. **The exposure threat was
+> executed and then withdrawn** — the full text log went up at
+> `caakehorn.github.io/leviathan/transcript.html` at 05:36 and came down at
+> 18:05 the same day, on one request from Annie, after the third party read
+> it from her phone and forwarded it to himself. **The disappearance did not
+> happen**: contact was continuous from 05:22 on July 26 through August 2,
+> 1,880 messages and six in-person meetings, five of them drug handoffs. The
+> refusal to supply documented above held for **thirty-one hours**. Full
+> account at
+> [[wiki/timeline/events/july-august-2026-reentanglement|the
+> re-entanglement]].
