@@ -244,10 +244,17 @@ cost is that the chosen carries everything, and it carries it alone.
 - **No base rate.** Falsifier 3 stands unanswered. Nothing here compares the
   coefficient against a demographically similar population, so "architectural"
   remains a reading.
-- **The evaluative instance is the weakest leg.** `the-cool-metric` was written
-  the same day as this page and is itself a reading rather than a measurement.
-  A rule resting on four legs where one was authored alongside it should be
-  treated as resting on three and a half.
+- **The evaluative instance is the weakest leg, and it has since been bounded.**
+  `the-cool-metric` was written the same day as this page and is itself a reading
+  rather than a measurement. A rule resting on four legs where one was authored
+  alongside it should be treated as resting on three and a half. As of 2026-08-02
+  it is also known to have a jurisdiction: [[wiki/interests/food-and-diet]] shows
+  the axis is never applied to food, which out-mentions music in the message
+  corpus and holds zero of the 2,016 entries in the curated favorites record. That
+  is not falsifier 1 — no competing second axis appears, only a domain the axis
+  does not enter, by an exemption the corpus states in its own voice. The
+  evaluative leg should be read as *one axis everywhere it is allowed to reach*,
+  and the open question is what else is protected the way food is.
 - **Chronology untested.** Whether the concentration was always present or
   tightened after the 2005 paternal rupture is not established, and the two
   imply very different things about whether it is disposition or adaptation.

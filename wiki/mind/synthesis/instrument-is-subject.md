@@ -22,6 +22,9 @@ connections:
   - page: wiki/mind/concepts/exocortex
     type: caused-by
     claim: "The wiki's own evidentiary standard — unwavering honesty, no softening, conclusions with confidence levels, never summarize away detail — is downstream of a prompt the subject wrote, so the epistemics of this repository are themselves an artifact of the person it documents."
+  - page: wiki/self/context-core
+    type: evidenced-by
+    claim: "The wiki's most authoritative source page is a curated AI-assisted compilation, not a primary record — so the residue/testimony grading this page defines has to be applied to the corpus's own foundation, not just to its interpretive pages."
   - page: wiki/mind/synthesis/alias-as-periodization
     type: mirrors
     claim: "The methodological contrast case: alias boundaries are admissible precisely because they were produced by the subject without intending to testify, which is the property AI-interpretive pages structurally lack."

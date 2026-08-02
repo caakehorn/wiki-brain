@@ -12,6 +12,9 @@ sources:
 related:
   - wiki/self/ancestry
 connections:
+  - page: wiki/interests/food-and-diet
+    type: evidences
+    claim: "The Frownie cookie is the corpus's most durable food reference and it is not about a cookie: food surviving thirty years as regional dark-comic timing is the register food occupies here instead of taste."
   - page: wiki/people/morley-frank
     type: evidences
     claim: "Alex's funeral essay — Eat'n Park delivering 'Frownie' cookies to the gathering — is the only personal account of Morley anywhere in the corpus; without it that page is entirely census coordinates, and Dan still quotes it three decades on."
