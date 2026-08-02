@@ -31,6 +31,12 @@ connections:
   - page: wiki/interests/music/concepts/lyrics-as-timbre
     type: evidenced-by
     claim: "The second invariant: across thirteen years and every alias the catalog is remixes, bootlegs, instrumentals and spoken AI drops, and never a sung original lyric — a refusal that survives every rebrand it is supposedly subject to."
+  - page: wiki/mind/synthesis/single-channel
+    type: component-of
+    claim: "Four aliases in thirteen years running strictly in sequence and never in parallel is the creative leg of a four-domain concentration architecture: the creative identity is one occupied slot rather than a portfolio, carrying the same total-loss exposure as the relational channel and, unlike that one, never tested."
+  - page: wiki/interests/music/overview
+    type: contradicts
+    claim: "The overview's framing — four aliases mapping to distinct periods AND distinct aesthetics, unified by an involuntary signature — survives only in half: read against each other the alias pages show the aesthetics do not turn over at the renames, only the periods do, which makes the alias a clock rather than a style."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Alias churn is one instrument of the totality pattern: the periodic wholesale renaming of a self whose actual contents are measurably continuous."

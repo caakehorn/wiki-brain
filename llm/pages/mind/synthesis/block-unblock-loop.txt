@@ -30,6 +30,9 @@ connections:
   - page: wiki/people/milo
     type: evidenced-by
     claim: "The dog is the case that widens the dependency rule: the channel whose survival defeats a block need not carry money, drugs or logistics — only something still needed."
+  - page: wiki/people/menore
+    type: evidenced-by
+    claim: "The no-block control: a supply relationship that ended by geography rather than by severance, which is what the dependency rule predicts — held here as provisional on elapsed time since the same thread once reopened after 2,044 days."
   - page: wiki/timeline/events/july-2026-recontact
     type: instance-of
     claim: "The live test of the dependency rule: the June 1 block held 52 days — the only severance in the record ever to survive past 48 hours — and failed on a channel that carried no money, drugs or logistics, only a shared dog."

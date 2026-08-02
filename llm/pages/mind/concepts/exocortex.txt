@@ -25,6 +25,9 @@ connections:
   - page: wiki/mind/concepts/node-locking
     type: contains
     claim: "Node locking is this system's externalized-memory layer — the write-and-transfer protocol that makes an AI session a persistent, portable extension of the self-model."
+  - page: wiki/mind/synthesis/instrument-is-subject
+    type: causes
+    claim: "The honesty standard this wiki is written to — unwavering honesty, no softening, confidence levels on conclusions, never summarize away detail — is a prompt Dan wrote, which makes the repository's own epistemics an artifact of the person it documents rather than an independent check on him."
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: component-of
     claim: "The exocortex concept is developed in full across the AI-collaboration synthesis."

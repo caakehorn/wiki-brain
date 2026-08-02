@@ -13,6 +13,9 @@ sources:
   - "raw/self/dox-md/Reassessing with fresh perspective.md"
 tags: [mental-health, addiction-recovery, personality-profile]
 connections:
+  - page: wiki/interests/food-and-diet
+    type: evidences
+    claim: "The bulimia, the candy staple and the two lost teeth are the only place in the corpus where food is a subject in its own right — and the register is damage, which is what establishes that food enters this life through the body and never through taste."
   - page: wiki/health/chemical-architecture
     type: contradicts
     claim: "An AI-collaborative session raises a genuine tension the chemical-architecture page doesn't otherwise carry: chronic Suboxone receptor occupancy may blunt the hedonic range and reward-anticipation Dan would need to break the anxiety loop — the maintenance dose that stabilizes one system may be capping his capacity to regulate the other."

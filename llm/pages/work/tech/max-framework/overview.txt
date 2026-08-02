@@ -7,6 +7,9 @@ date_modified: 2026-07-26
 sources: ["raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-md/CATO_conflict_architecture.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_13.md", "log.md", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/chats/*"]
 related: ["wiki/mind/concepts/exocortex", "wiki/mind/concepts/conflict-architecture", "wiki/self/context-core", "wiki/work/tech/grok-build/overview", "wiki/work/tech/imessage-tooling/overview", "wiki/people/max", "wiki/people/mary-kate", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/timeline/periods/2025-collapse", "wiki/work/bfs-foods"]
 connections:
+  - page: wiki/interests/food-and-diet
+    type: causes
+    claim: "'The food and the cat are always real' is the instruction that produces the absence: food is designated exempt from the forensic treatment everything else in the record receives, so the missing evaluative history is a protection rather than an oversight."
   - page: wiki/people/milo
     type: contains
     claim: "MAX_PRIME carves Milo out of analysis explicitly — 'don't psychologize them, just receive them' — the framework's only documented exemption from its own analytic mandate."

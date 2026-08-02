@@ -6,7 +6,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 infobox:
   name: Suzanne Frank
   status: Active
@@ -54,6 +54,15 @@ connections:
   - page: wiki/people/tuquick-17248123683
     type: evidenced-by
     claim: "Tuquick's three-hour harassment call to Suz (~May 26, 2026), five days before the End Fight, is a second and distinct instance of the terminal-phase conflict machinery reaching her directly — a different actor and channel than the April blocked-caller campaign above."
+  - page: wiki/legal/463-morgantown
+    type: component-of
+    claim: "Suz is the point where all four unwritten relationships at 463 converge — tenant, agent, caretaker and contracting counterparty at once — so a mechanics lien formally against Jackson's title reaches her, and through her reaches Dan's housing."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: component-of
+    claim: "The vigil is where the caretaking role that later structures the estate distribution and the 463 arrangement is first documented in its acute form — Suz as the family member physically present through the ending."
+  - page: wiki/places/337-saratoga-drive
+    type: component-of
+    claim: "Suz is the childhood home's owner-realtor and the person who executes its $465k sale, which makes the loss of Dan's housing and the family's largest asset liquidation the same transaction, run by her."
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: evidences
     claim: "Suz is the trauma bond's material substrate on Dan's side: her resources funded the first five NYC years, which is the opening rotation of the leverage see-saw the bond analysis identifies as its real tether — neither party was ever free to leave in the same window the other was, and the first window in which Dan held the leverage was financed here."
@@ -289,6 +298,15 @@ mother, which is itself data.
   housing anchor" framing at the arc's edge: if the identification is right,
   the physical execution of the move fell entirely to Dan, and the corpus
   does not say where Suz was. Recorded as a question, not a finding.
+
+  **Premise re-check (2026-08-02):** [[wiki/legal/463-morgantown]] moved again,
+  recording that the Arnu mechanics-lien deadline elapsed on ~27 July 2026 with
+  no documented outcome. Nothing on this page is contradicted, and her exposure
+  is unchanged in kind — she is still the tenant, agent, caretaker and
+  contracting counterparty at that address simultaneously, which is what makes a
+  claim against Jackson's title reach her. What has changed is the epistemic
+  state: the risk is no longer pending, it is **unobserved**, and the corpus
+  cannot currently say whether it landed.
 - Whether a lease or POA has since been signed at 463 Morgantown is unresolved
   in the corpus.
 - The "wine mom" / evening-rhythm characterization is Dan's; no independent

@@ -35,6 +35,9 @@ connections:
   - page: wiki/places/424-bedford-ave
     type: caused-by
     claim: "The relationship traces its origin to a Bedford Ave/Williamsburg connection at Dan's first NYC apartment — the introduction predates the earliest message in this thread by over eight years."
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: evidences
+    claim: "Menore is the loop's dependency-rule control: no block was ever needed here because geography ended the dependency, exactly as the rule predicts — but this thread's own 2,044-day silence, answered in one minute, is what made the February 2025 farewell provisional on elapsed time rather than the corpus's one settled clean close."
 tags: [digital-footprint, addiction-recovery, nyc-era]
 knowledge: earned
 infobox:

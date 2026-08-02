@@ -28,6 +28,9 @@ related:
   - wiki/mind/concepts/dans-law
 tags: [addiction-recovery, career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/interests/food-and-diet
+    type: evidences
+    claim: "Food as counter labour at the return pole of the geography — dispensed across a register rather than chosen, the third of three documented jobs in which he handles food daily and evaluates none of it."
   - page: wiki/mind/concepts/dans-law
     type: evidences
     claim: "The drawer dispute is Dan's Law's cleanest low-stakes application: the missing paper trail read as the demand's feature, and the do-not-validate-by-paying conclusion followed from the stripped signal."

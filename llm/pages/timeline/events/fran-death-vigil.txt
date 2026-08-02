@@ -25,6 +25,9 @@ related:
   - wiki/people/new-jim-shaffer
 tags: [financial-stress, housing, uniontown-era, family, grief]
 connections:
+  - page: wiki/people/suzanne-frank
+    type: contains
+    claim: "Suz is the caretaking role in its acute form here, and this is where the pattern that later structures the estate distribution and the 463 Morgantown arrangement is first documented: the family member who is physically present through the ending is the one the money and the liability route through afterwards."
   - page: wiki/people/fran-coldren
     type: component-of
     claim: "The vigil is the terminal chapter of Fran's page — the fall-to-death sequence that closes the fifty-year Belmont Circle residency and settles her death date."

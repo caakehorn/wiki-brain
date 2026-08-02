@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 sources:
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
   - "raw/self/dox-md/operating_manual.md"
@@ -183,3 +183,14 @@ documents from the beginning.
   undocumented; no post-close plan exists in the record.
 - The coal-baron husband's identity (and thus the maternal line's true
   origin) remains unresolved on [[wiki/people/fran-coldren]].
+
+> **RE-CHECKED [2026-08-02] — premise moved, spine intact, one terminal
+> uncertainty added.** [[wiki/people/suzanne-frank]] gained the write-back edges
+> for 463 Morgantown, the Fran vigil and the 337 sale, plus a note that the Arnu
+> mechanics-lien deadline elapsed on ~27 July 2026 unobserved. The switchboard
+> finding is unaffected — every flow this page traces still runs through her, and
+> the 337 sale she executes as owner-realtor is still the spine's next capital
+> event. What changes is the state of the spine's *current* terminus: 463 was
+> written here as a pending risk with a dated deadline, and it is now a risk with
+> an elapsed deadline and no recorded outcome. The chain does not break; it ends
+> in an unread result, which is a worse place for it to end than a pending one.

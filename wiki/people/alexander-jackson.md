@@ -3,10 +3,14 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 sources: ["raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS_BOOTLOADER_v2.md"]
 synthesizes:
   - wiki/legal/463-morgantown
+connections:
+  - page: wiki/legal/463-morgantown
+    type: component-of
+    claim: "Jackson is the owner, and the structural reason every risk at this address lands somewhere other than on him: the lien attaches to his title while the tenancy, agency and caretaking arrangements that would allocate liability were never put on paper."
 related: ["wiki/legal/463-morgantown", "wiki/people/suzanne-frank", "wiki/people/arnu", "wiki/people/john-carney", "wiki/self/context-core", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/timeline/periods/2025-collapse", "wiki/self/facebook"]
 tags: [housing]
 infobox:
@@ -51,3 +55,11 @@ Owner communications TBD per timeline. Property separate from BFS (gas/LC buildi
 **Notes:** Limited direct corpus on Jackson himself (no messages/comm details surfaced in reviewed dox); expand via owner comms or lease docs. Defer to raw legal ingest. Evidence primarily property/role references in core + message fragments.
 
 **Premise re-check (2026-07-26):** [[wiki/legal/463-morgantown]] moved on 2026-07-18, but the change was a typed-connections pass rather than a factual revision — the ownership, lease and POA facts this page reasons from are unchanged. Note that the Arnu mechanics-lien deadline on that page matures 2026-07-27.
+
+**Premise re-check (2026-08-02):** that deadline has now **elapsed with no
+documented outcome**, and the update to [[wiki/legal/463-morgantown]] recording
+it does not change anything this page asserts: the ownership, lease and POA
+facts are unchanged, and Jackson remains undocumented in the corpus beyond his
+role. What the elapsed date sharpens is why that absence matters — a lien
+attaches to *his* title, so the one party with a formal legal interest in the
+outcome is the one the record cannot see at all.

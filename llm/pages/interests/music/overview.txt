@@ -23,6 +23,15 @@ connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: component-of
     claim: "The alias lineage documented here is the professional-identity facet of the four-mode music-as-identity thesis."
+  - page: wiki/mind/concepts/chaos-preference
+    type: evidences
+    claim: "The production output is where the entropy appetite is documented independently of any psychological reading — noise, decay and system failure as aesthetic material, instruments deliberately broken to expose their 'true' sound — which is what stops the chaos preference being an inference from personality alone."
+  - page: wiki/mind/concepts/the-cool-metric
+    type: evidences
+    claim: "The catalogue is where the metric is caught applying itself inward: the sub-bass band is trusted precisely because it was identified post-hoc rather than chosen, and a production note preserves an element 'inaudible to the normies' — value assigned in inverse proportion to legibility, inside his own work."
+  - page: wiki/mind/synthesis/alias-as-periodization
+    type: contradicts
+    claim: "This page's own framing — four aliases mapping to distinct periods and distinct aesthetics — does not survive a read of the alias pages against each other: the aesthetics do not turn over at the renames, only the periods do, so the alias functions as a clock rather than a style."
 ---
 
 

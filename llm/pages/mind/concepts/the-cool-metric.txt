@@ -6,7 +6,7 @@ aliases: ["anti-normie", "the normie check", "taste as sorting function"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -24,11 +24,20 @@ connections:
     type: mirrors
     claim: "Same operation, different target: the cool metric rejects inherited taste, the chaos preference rejects inherited order, and both resolve to the identical primitive — the performed is false, the unmanaged is true."
   - page: wiki/mind/synthesis/interests-as-era-markers
-    type: component-of
+    type: causes
     claim: "Era-marking explains WHEN a subject was consumed; the cool metric explains WHICH subjects were admissible to consume in the first place — the filter operating upstream of the intake pattern that page documents."
   - page: wiki/interests/music/concepts/sub-bass-signature
     type: evidenced-by
     claim: "The clearest proof the metric is applied inward as well as outward: a frequency preference measured at 63–85% across thirteen years and every alias is described as involuntary and therefore authentic — the same authenticity test used to judge other people, turned on his own output."
+  - page: wiki/interests/music/overview
+    type: evidenced-by
+    claim: "The production catalogue supplies the metric's inward application and its clearest single artefact: an element kept 'inaudible to the normies' inside a finished track, which is value assigned in inverse proportion to legibility in his own work rather than in his judgement of others'."
+  - page: wiki/mind/synthesis/single-channel
+    type: component-of
+    claim: "One performed-versus-authentic axis applied to music, language, politics, film, work and strangers alike is the evaluative leg of a four-domain concentration architecture — and, by that page's own accounting, its weakest leg, since this page was written the same day and is a reading rather than a measurement."
+  - page: wiki/interests/food-and-diet
+    type: contradicts
+    claim: "The metric is described here as the master filter across domains that normally use separate criteria, but it is never applied to food — a subject that out-mentions music in the message corpus and holds zero of the 2,016 entries in the curated favorites record, so the axis has a jurisdiction rather than being universal."
   - page: wiki/mind/concepts/exocortex
     type: instantiates
     claim: "The Normie Check is the metric compiled into machine-enforceable form — a standing instruction that any model must pass before it is permitted to continue, which is what distinguishes this from ordinary snobbery."
@@ -172,6 +181,25 @@ worth.
   proportional to legibility, anything that becomes widely appreciated
   *degrades in place* without changing. The metric cannot register a thing
   getting popular as neutral; popularity is evidence about the thing.
+
+> **CONTRADICTION [2026-08-02]:** the "applied across domains that normally use
+> separate criteria" claim above has a documented exception, and it is a large
+> one. [[wiki/interests/food-and-diet]] shows the axis is **never** pointed at
+> food, in a corpus where food is discussed more than music is: `food` returns
+> 968 hits and `eat` 650 in the 29 MB message dump against `album` at 47 and
+> `song` at 96, while the curated favorites record — 2,016 entries, the metric's
+> own output — holds Music, Book, Art and Movie and **zero food entries**. A
+> search for evaluative food phrasing across ~217,000 rows returns six hits, and
+> `favorite food` returns none.
+>
+> This is not a second competing axis, so it does not falsify the metric's
+> singularity. What it establishes is a **jurisdiction**: the corpus states the
+> exemption in its own voice, since `MAX_PRIME.md` instructs that "the food and
+> the cat are always real" and [[wiki/people/gabe]] records what that means —
+> food is held exempt from the forensic treatment everything else receives. The
+> claim this page should make is therefore "one axis for everything it is allowed
+> to touch," and the interesting question it raises is what else is protected in
+> the same way. Nobody has looked.
 
 ## Falsifiers
 

@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -32,8 +32,14 @@ synthesizes:
 tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
 connections:
   - page: wiki/people/annie-ulmer
-    type: contextualizes
-    claim: "Supplies the structural model — intermittent reinforcement, DARVO, the confession trap, the tether oscillation — for the relationship record that page holds."
+    type: instance-of
+    claim: "Supplies the structural model — intermittent reinforcement, DARVO, the confession trap, the tether oscillation — for the relationship record that page holds; the decade is this page's central and only full-magnitude case."
+  - page: wiki/people/rick-frank
+    type: caused-by
+    claim: "The 2005 paternal rupture is one of the older schemas the 2026 collapse reactivated — the reason the aura illness reads as historical pain wearing a 2026 mask rather than as proportionate grief."
+  - page: wiki/people/suzanne-frank
+    type: evidenced-by
+    claim: "Suz's resources financed the first five NYC years, the opening rotation of the leverage see-saw that is the trauma bond's material substrate; the maternal half of the 2005 rupture is the second schema its collapse reactivated."
   - page: wiki/people/eli
     type: evidenced-by
     claim: "The Eli incident is where the weaponized-ambiguity mechanism is most visible: obvious data patterns met with DARVO shutdowns during acute attachment activation."
@@ -78,7 +84,29 @@ Within this architecture, the concept of "unconditional love" was functionally i
 
 ## The Quantified Trajectory (from the final dossiers)
 
-The full-decade dossiers give the bond its measurable arc. The love was genuine at the origin — Annie's love-language frequency peaked at 5.3% of her messages in 2016, with "YOU ARE MY EVERYTHING" on day three of the record — and decayed monotonically to a statistical zero of 0.1% in 2024, before spiking back to 2.7% in 2025 precisely when the Uniontown supply-chain dependency was established. That 2025 reactivation is the single most diagnostic number in the corpus: the affection instrument returning at near-origin intensity in its procurement function (187 of 191 terminal-phase love declarations adjacent to a request within 24 hours). The dossiers also supply the intermittent-reinforcement machinery in counts: 13 major self-indicting apologies each followed by unchanged behavior, 44 betrayal confrontations answered with a caretaking crisis, 24 "fell asleep" alibis, and a longest silence of 36.5 hours re-entered via a money request.
+The full-decade dossiers give the bond its measurable arc. The love was genuine at the origin — Annie's love-language frequency peaked at 5.3% of her messages in 2016, with "YOU ARE MY EVERYTHING" on day three of the record — and decayed monotonically to a statistical zero of 0.1% in 2024, before spiking back to 2.7% in 2025 precisely when the Uniontown supply-chain dependency was established. That 2025 reactivation is the single most diagnostic number in the corpus: the affection instrument returning at near-origin intensity in its procurement function. The dossiers also supply the intermittent-reinforcement machinery in counts: 13 major self-indicting apologies each followed by unchanged behavior, 44 betrayal confrontations answered with a caretaking crisis, 24 "fell asleep" alibis, and a longest silence of 36.5 hours re-entered via a money request.
+
+> **REVISED [2026-08-02] — the 187:191 procurement statistic is withdrawn from
+> this page; the rate collapse-and-rebound is not.** The dossier figure — 187 of
+> 191 terminal-phase love declarations with a request inside 24 hours — was
+> recomputed under controls on [[wiki/mind/synthesis/dan-annie-fallout-verdict]]
+> on 2026-07-18 and did not survive. The ratio reproduces (212 of 220, 96.4%),
+> but **97.2% of a random sample of *all* her messages in the same window are
+> equally request-adjacent**: she made requests nearly every day, so any class of
+> her messages scores ~96–97% at a 24-hour radius and the adjacency carries no
+> information about love specifically. The directional test inverts it outright —
+> a drug or money request follows within an hour of a love-declaration only 3.2%
+> of the time against a 16.2% baseline for her average message. Her declarations
+> were *more* isolated from requests than her ordinary messages, not less.
+>
+> What survives, and is what the paragraph above should be read as asserting, is
+> the **love-language rate**: 5.3% in 2016, 0.1% by 2024, 2.7% in 2025 timed to
+> the supply relationship. That curve is unaffected by the control, and Dan's
+> January 2026 "you have never once said I love you and not needed something from
+> me immediately after" stands as his lived read rather than as a statistic. This
+> correction sat unpropagated on the verdict page for fifteen days while this page
+> continued to call the deflated figure the most diagnostic number in the corpus —
+> which is precisely the failure the write-back obligation exists to prevent.
 
 The bond's persistence mechanism on Dan's side is named in the dossiers as the **confession trap**: having built his identity around being the person who was right, he could not exit without the validating confession Annie was never going to give — "the exit was never through the verdict. It was through the door." His 127 exit declarations with 110 re-engagements are that trap running as designed.
 
@@ -115,5 +143,14 @@ The severity and focus of this period are quantitatively visible in the distribu
 ## System Recalibration Requirements
 
 The forensic analysis of this decade concludes that resolving the trauma bond does not require the partner to suddenly become consistent or honest, as that version of the partner does not exist in the historical data. Instead, it requires radical enforcement of the exit. Lingering contact, whether through logistical favors or intermittent apologies, functions strictly as a narcotic that prevents the nervous system from recalibrating. 
+
+> **RE-CHECKED [2026-08-02] — premise moved, conclusion unaffected.**
+> [[wiki/people/suzanne-frank]] was updated with write-back edges and a note that
+> the 463 Morgantown lien deadline elapsed unobserved. The claim this page draws
+> from her is the leverage see-saw's opening rotation — her resources financing
+> the first five NYC years — which is historical and untouched by anything in the
+> 2026 housing situation. Nothing here needed revising. Worth recording that the
+> see-saw's *present* rotation is now the housing one rather than the supply one,
+> and that its counterparty is Suz rather than Annie.
 
 Resolution demands grieving the fantasy of the relationship that could have been, rather than mourning the chaotic reality that actually was. It requires redirecting the massive recursive energy previously spent on understanding the partner into building the subject's own systemic architecture. Finally, the attachment wound must be addressed directly through somatic, trauma-focused regulation, allowing the nervous system to learn that it can survive without the external co-regulator.

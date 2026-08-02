@@ -13,6 +13,12 @@ connections:
   - page: wiki/mind/synthesis/supply-network
     type: component-of
     claim: "Johnny is the network's 2018 deep-cycle primary node; his vacations and MIA stretches produced the first documented single-node supply panics, and the MAX_PRIME succession (Johnny → Tim → Tom) starts with him."
+  - page: wiki/self/message-corpora/master-message-dump
+    type: evidences
+    claim: "Handle +17243223678 at 3,462 messages is the seventh-largest thread in the master dump, which is what promotes this relationship from an anecdote in the operating manual to a measured one — the volume alone puts a dealer inside Dan's top ten correspondents for the period."
+  - page: wiki/timeline/events/timeline
+    type: evidences
+    claim: "Johnny is the named node behind 2018's 254-event peak, the highest in the event calendar: the year the timeline records as maximum velocity is the year this thread is carrying the supply."
   - page: wiki/people/teddy
     type: parallels
     claim: "Johnny and Teddy are concurrent 2018 Uniontown nodes in the same market — Johnny the higher-volume primary, Teddy the accommodating secondary — together constituting the deep cycle's redundancy layer."

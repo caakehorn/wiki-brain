@@ -18,6 +18,9 @@ related:
   - wiki/interests/music/aliases/gripnotic
 tags: [music-production, uniontown-era, nyc-era, ai-collaboration]
 connections:
+  - page: wiki/people/suzanne-frank
+    type: contains
+    claim: "The owner-realtor who executes the $465k sale is also the person Dan lives with, which collapses the family's largest asset liquidation and the loss of his housing into a single transaction run by one party."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "The $465k sale is the money spine's next capital event and the first where Dan is bystander rather than beneficiary — the family-built asset liquidating around him."

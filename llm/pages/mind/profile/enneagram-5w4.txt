@@ -21,6 +21,9 @@ connections:
   - page: wiki/mind/psychosexual/developmental-origins
     type: parallels
     claim: "The sx/sp fusion-or-annihilation stacking arrives at the same total-intensity relational prediction the developmental accounts reach from attachment trauma and cultural imprinting — independent-framework convergence."
+  - page: wiki/mind/synthesis/the-unbroken-bond
+    type: causes
+    claim: "The sx-dominant instinctual stack recorded here is the mechanism behind the most stable fact in the corpus: a stack that organises life around one relationship at maximum voltage rather than several at moderate voltage predicts singular-and-continuous pair-bonding, and seventeen years with no voluntary vacancy is what that prediction looks like in the record."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: instantiates
     claim: "The 2015 switch is the sx/sp stack's logic executed in real time."
