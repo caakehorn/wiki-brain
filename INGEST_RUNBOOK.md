@@ -58,7 +58,7 @@ factset, the faster the value compounds.
 |------|-------|
 | Repo (local) | `/Users/Suzanne/Documents/GitHub/wiki-brain` |
 | Phase B RAW source volume | `/Volumes/MUSIC/PHASE B RAW` |
-| Published site | `https://caakehorn.github.io/wiki-brain/wiki/` |
+| Published site | `https://caakehorn.github.io/wiki-brain/wiki/` — **404 since 2026-08-02** (repo private). Public mirror: `https://caakehorn.github.io/leviathan/data/wiki-data.json` |
 | GitHub remote | `caakehorn/wiki-brain` (origin, https) |
 | Default branch | `main` |
 | Current ingest branch pattern | `feat/<descriptive-slug>` (e.g. `feat/wiki-wikipedia-chrome`) |

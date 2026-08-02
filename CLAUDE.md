@@ -183,7 +183,13 @@ Git is the history mechanism. Commit after every ingest with message
   per page; .txt bypasses Jekyll). Unlike exports/, **`llm/` is
   generated-but-COMMITTED** — rerun `bin/llm-publish` after any content
   pass and commit the diff so the published copy tracks the wiki.
-  Entry point: `https://caakehorn.github.io/wiki-brain/llm/index.txt`.
+  Entry point: `https://caakehorn.github.io/wiki-brain/llm/index.txt` —
+  **404 since 2026-08-02**, because this repo went private and Pages is
+  unpublished with it. Keep running `bin/llm-publish` (the artifact is committed
+  and goes live again if the repo is made public); for now agents should read
+  the public mirror at
+  `https://caakehorn.github.io/leviathan/data/wiki-data.json`. See
+  `AGENT_ACCESS.md`.
 
 ## The operations
 
