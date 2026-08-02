@@ -3,12 +3,15 @@ domain: interests
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-08-02
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/chats/The 2nd most famous 'Jimmy Pop' in Pennsylvania .md
 connections:
+  - page: wiki/people/fran-coldren
+    type: caused-by
+    claim: "The hardware this signature is produced on was a gift from a woman born in a West Virginia coal town in 1920 — a Numark NS7 II bought on top of her annual cheque, at Dan's asking."
   - page: wiki/mind/concepts/the-cool-metric
     type: evidences
     claim: "This signature is the clearest proof the authenticity metric is applied inward as well as outward: a 63-85% frequency presence identified post-hoc across thirteen years and every alias is trusted precisely because it was never chosen — the same involuntariness test used to judge other people's taste, turned on his own output."

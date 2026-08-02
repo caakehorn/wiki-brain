@@ -29,7 +29,7 @@ tags: [financial-stress, housing, uniontown-era, family, grief]
 connections:
   - page: wiki/mind/concepts/acquisition-drive
     type: evidences
-    claim: "Months of unglamorous round-the-clock caregiving held to the end is not counter-evidence to Altruism at the 1st percentile — it is the completion drive pointed at a goal Dan set himself, which is the only kind of goal it can serve."
+    claim: "Six months of paid full-time caregiving at $15/hour, held to the end, is not counter-evidence to Altruism at the 1st percentile — it is the completion drive pointed at a goal Dan set himself, which is the only kind of goal it can serve."
   - page: wiki/people/suzanne-frank
     type: contains
     claim: "Suz is the caretaking role in its acute form here, and this is where the pattern that later structures the estate distribution and the 463 Morgantown arrangement is first documented: the family member who is physically present through the ending is the one the money and the liability route through afterwards."
@@ -74,8 +74,9 @@ connections:
 # The Fran Vigil (March–April 2018)
 
 In spring 2018 Dan and [[wiki/people/annie-ulmer|Annie]] saw
-[[wiki/people/fran-coldren|Fran]] — his great-grandmother, whom they had
-been paid to care for around the clock so she could stay in her house —
+[[wiki/people/fran-coldren|Fran]] — his great-grandmother, whom Dan had
+been paid $15/hour to look after full time for the preceding six months so
+she could stay in her house —
 through her final fall, her two-week destruction in a nursing home, and
 her death in the Uniontown Hospital pediatric wing. A caregiver rotation
 (Dan, Annie, [[wiki/people/vicki|Vicki]], [[wiki/people/marla|Marla]])
@@ -243,7 +244,7 @@ rather than a conventional funeral.
 
 The vigil is load-bearing in three directions. For Dan's self-model, it
 is the counter-evidence to the low-altruism reading: months of
-unglamorous, round-the-clock care, held to the end. For the Annie
+unglamorous, paid full-time care — six months of it at $15/hour, on Dan's own contemporaneous account — held to the end. For the Annie
 record, it is the high-water mark — the one extended episode where the
 two of them function as a unit under real weight, which is part of why
 the bond survived so much after. And for the family record, it

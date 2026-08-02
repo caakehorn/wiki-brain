@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-02 — 64 pages
+## 2026-08-02 — 66 pages
 
 - **Session log:** write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
 - **Session log:** climb | interests | food-and-diet — "food in every register except taste"; bounds the cool metric's jurisdiction
@@ -22,11 +22,13 @@ simply listed.
 - **Session log:** fix | meta | wiki-brain went private — sync restored, dead Pages URLs repointed at the leviathan mirror
 - **Session log:** fix | interests | stray empty frontmatter fences on fall-out-boy and taking-back-sunday
 - **Session log:** mine | mind | message-density campaign opened — bin/mine-messages, calibrated-confidence, and a negative on the four axioms
+- **Session log:** rewrite | people | fran-coldren rebuilt from scratch against the message corpus
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/chemical-architecture]] | health | — |
 | [[wiki/interests/food-and-diet]] | interests | **REVISED** — An operator capture filed the same week documents an absolute dietary regime the page did not know existed, and "absent from its evaluative record entirely" cannot survive *"pickles are the mortal ene |
+| [[wiki/interests/music/concepts/sub-bass-signature]] | interests | — |
 | [[wiki/legal/2015-retail-theft-arrest]] | legal | _(carries a CONTRADICTION)_ |
 | [[wiki/legal/463-morgantown]] | legal | **DEADLINE ELAPSED** — The mechanics-lien date this page has carried as its nearest hard deadline — estimated ~**27 July 2026** — has now passed, and **no source read to date records what happened.** The estimate was always |
 | [[wiki/legal/index]] | legal | — |
@@ -63,7 +65,7 @@ simply listed.
 | [[wiki/people/david-j-frank]] | people | — |
 | [[wiki/people/diane-shrum]] | people | **CORRECTED** — family-tree drew Fran's descent through **George Dixon Shrum Jr.**, Dan's maternal *grandfather*. The GEDCOM family records show the opposite: Fran's daughter is Rebecca Diane Van Voorhis, Dan's mater |
 | [[wiki/people/ellen-ulmer]] | people | — |
-| [[wiki/people/fran-coldren]] | people | **REVISED** — this page previously read that devotion as "the strongest documented evidence against reading Dan's low-altruism scores as incapacity." acquisition-drive gives a better account, and the correction is  |
+| [[wiki/people/fran-coldren]] | people | **CONTRADICTION** — ancestral-dialectic offers *Fran's own great-grandmother* — "married three times under a shifting name structure" — as its archetype of "emotional dissociation via reinvention." That description fits  |
 | [[wiki/people/franki-faris]] | people | **CONTRADICTION** — This page has carried *"a five-day rebound"* and *"the Franki interlude lasted five days before collapsing,"* sourced to the Gemini-58 and DANSYNTH self-narrations, and dormancy-not-exit uses that fig |
 | [[wiki/people/fred-adams]] | people | — |
 | [[wiki/people/index]] | people | — |
@@ -77,6 +79,7 @@ simply listed.
 | [[wiki/people/suzanne-frank]] | people | — |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/places/117-belmont-circle]] | places | — |
+| [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-07-13)_ |
 | [[wiki/self/context-core]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/lineage/family-tree]] | self | **CORRECTED** — This page previously drew Fran's descent to Dan through **George Dixon Shrum Jr.**, the maternal grandfather. Read directly from the GEDCOM's family records (`Daniel Frank family tree.txt`), it is the |
 | [[wiki/self/message-corpora/master-message-dump]] | self | — |
@@ -90,7 +93,7 @@ simply listed.
 | [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
 | [[wiki/work/nemacolin-caddying]] | work | — |
 
-## 2026-08-01 — 102 pages
+## 2026-08-01 — 101 pages
 
 - **Session log:** climb | mind | alias-as-periodization.md — new T2 junction page
 - **Session log:** climb | mind | instrument-is-subject.md — new T3 doctrine
@@ -205,7 +208,6 @@ simply listed.
 | [[wiki/people/alexis-armel]] | people | — |
 | [[wiki/people/danielle-onesi]] | people | — |
 | [[wiki/people/menore]] | people | _(carries a REVISED from 2026-07-18)_ |
-| [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-07-13)_ |
 | [[wiki/places/424-bedford-ave]] | places | — |
 
 ## 2026-07-26 — 13 pages
@@ -653,7 +655,7 @@ simply listed.
 | [[wiki/self/facebook/interests]] | self | — |
 | [[wiki/self/gemini-activity/gemini-activity]] | self | — |
 
-## 2026-06-23 — 23 pages
+## 2026-06-23 — 22 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -662,7 +664,6 @@ simply listed.
 | [[wiki/interests/favorites/eclecticism]] | interests | — |
 | [[wiki/interests/favorites/index]] | interests | — |
 | [[wiki/interests/favorites/taste-profile]] | interests | — |
-| [[wiki/interests/music/concepts/sub-bass-signature]] | interests | — |
 | [[wiki/interests/music/overview]] | interests | — |
 | [[wiki/people/kim]] | people | — |
 | [[wiki/people/max]] | people | — |
