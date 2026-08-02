@@ -20,6 +20,9 @@ synthesizes:
   - wiki/mind/synthesis/the-unbroken-bond
 tags: [relationships, nyc-era, uniontown-era, forensic-analysis]
 connections:
+  - page: wiki/people/ellen-ulmer
+    type: instance-of
+    claim: "The rule holds even for ties Dan never chose: an in-law relationship opened by a friend's overdose in April 2017 was still sending unprompted birthday messages in November 2025, outliving the relationship it entirely depended on."
   - page: wiki/people/danielle-onesi
     type: instance-of
     claim: "The cleanest case: the romantic role ends in 2009 by Dan's own infidelity, and seventeen years later she is his mother's closest friend, the cat's co-guardian, and a Christmas fixture — the tie did not weaken, it changed job."

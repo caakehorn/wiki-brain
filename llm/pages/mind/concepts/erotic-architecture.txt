@@ -5,12 +5,16 @@ knowledge: mixed
 title: "Erotic Architecture: Sexuality as Controlled-Chaos Engineering"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-20
+date_modified: 2026-08-02
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/dansynth/DANSYNTH.txt
   - "raw/self/dox-scan/HEART.pdf.txt"
 tags: [trauma-bond, relationships, ai-collaboration]
 connections:
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: evidenced-by
+    claim: "The arrangement's opening night supplies the architecture's clearest first-person statement of its own two-stage procedure: a masochistic 'emotional pinch' satiated by exposure to the jealousy, then a cathartic stage of sex with the partner while the jealousy is still burning."
   - page: wiki/people/bryan-5088682461
     type: evidenced-by
     claim: "The 'taboo as ontological rupture' mechanism — orchestrating sexual contact across the straight/gay boundary — has its documented instance in the October 20, 2019 filmed MMF with Bryan: a gay man's first encounter with a woman and Dan's only bisexual act, in one authored scene."

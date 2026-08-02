@@ -11,6 +11,8 @@ date_modified: 2026-08-02
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, uniontown-era, music-production, grief]
 sources:
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/people/captures/2026-08-01_180942_fran-name-change.md
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -60,6 +62,18 @@ connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
     type: evidences
     claim: "Fran anchors the maternal numbness-of-survival half of the dialectic frame."
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: caused-by
+    claim: "One night in March 2018 ended a fifty-year residency and, four weeks later, her life — and it happened while a plan Dan had been arranging for a year was executing in the same house, which is the fact the family record had never carried."
+  - page: wiki/people/diane-shrum
+    type: contains
+    claim: "Fran's only documented child is Rebecca Diane Van Voorhis, born 1939 to her first marriage — which means the whole estate and every hostile letter of April 2018 descend through one person, and that the wiki's family tree had her line running through the wrong grandparent."
+  - page: wiki/people/fred-adams
+    type: supplies
+    claim: "Ira's law partner at Coldren Adams held the trustee's authority over her money for the last decades of her life and set the 24-hour mandate at her deathbed — the marriage is why an attorney, not a relative, controlled the estate."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: co-occurs
+    claim: "Her deathbed is the setting of the corpus's most disproportionate incident: four fire trucks and an escort off hospital property, triggered by one drag of nicotine feet from where she was dying."
 ---
 
 
@@ -130,10 +144,17 @@ own decade began sixty feet from where their families' had.
 ## The patron
 
 Fran ran a documented gift protocol — **$100 per year of the recipient's
-life** (age 20 = $2,000) — and at the hinge of Dan's career she deployed it
-with intent: she gave him a **Numark NS7 II DJ controller** plus a
-significant check, the seed capital and hardware of the entire production
-identity. Every alias since — SLOPPP, MOGZART, GRIPNOTIC — and the
+life**, running from about **age 13** ($1,400 at fourteen, $1,500 at fifteen,
+$2,000 at twenty) — and at the hinge of Dan's career she deployed it with
+intent: she gave him a **Numark NS7 II DJ controller** plus a significant
+check, the seed capital and hardware of the entire production identity. The
+2026-08-02 capture adds the detail that matters about how that happened: the
+controller was **not spontaneous**. As the annual figure ballooned with his
+age, Dan *convinced her* to buy the NS7 II on top of the check — he asked, and
+she paid. The founding act of the production identity is therefore a
+successful piece of persuasion aimed at a willing patron, which is the same
+faculty [[wiki/mind/concepts/acquisition-drive]] describes operating
+everywhere else in his life at considerably worse cost-benefit ratios. Every alias since — SLOPPP, MOGZART, GRIPNOTIC — and the
 involuntary sub-bass signature that runs through them
 ([[wiki/interests/music/concepts/sub-bass-signature]]) trace back to the
 patronage of a woman born in a West Virginia coal town in 1920. The corpus
@@ -144,22 +165,62 @@ creative channel became the same thing.
 
 As her dementia and physical health declined, Dan and Annie — living at
 [[wiki/places/155-virginia-ave|155 Virginia Ave]], on the lot adjacent to
-hers — were **paid as her round-the-clock caregivers**, executing her
-standing directive: "Stay in this house as long as humanly possible." The
-record's texture from those years is unlike anything else in the corpus:
-Dan entertaining her with GTA V stage-mode chaos (her review: "WHAT. THE
-[EXPLETIVE]. IS HAPPENING"); the photograph of her posing delightedly with
-his glass bong, which she had mistaken for "a lovely vase," a gray
-sweatshirt in the background accidentally composing itself into rising
-smoke. He treated a 97-year-old with dementia as a peer, and the record
-suggests she gave as good as she got.
+hers — were **paid as her round-the-clock caregivers**, covering the
+afternoons and the overnights, executing her standing directive: "Stay in
+this house as long as humanly possible." The directive was categorical and
+both Dan and [[wiki/people/suzanne-frank|Suz]] were given it in the same
+terms — *keep me at home no matter what, do everything you can to not let me
+get taken from this house* — with an explicit rationale attached that
+everyone involved understood: if she went into a nursing facility once, she
+was never getting out. She turned out to be right about that, which is why
+the directive governs the reading of every decision made in her last year,
+including some indefensible ones.
+
+The division of labour was clean and Dan describes it without flattering
+himself. Annie was, in his own assessment, "10,000× more responsible" — she
+handled the changing, the day-to-day survival, the actual nursing. Dan's
+contribution was the opposite and, on the evidence, not a lesser one: he
+refused to sanitize her existence and treated a 97-year-old with dementia as
+a peer. The texture from those years is unlike anything else in the corpus.
+He took her out in the golf cart on the course that had been her back garden
+for half a century, which is how he came to have the full story of her
+history with Arnold Palmer first-hand. They watched *Pretty Woman* together
+and analyzed it, Fran ruling that the prostitute narrative was "way classier
+than some Cary Grant movie." Already prone to talking to people on the
+television when nobody was watching, she was handed a version of it she
+could not parse at all: Dan fired up *GTA V* in stage mode and detonated
+several hundred cars on a photorealistic Los Angeles bridge, producing the
+line the family has kept — "WHAT. THE FUCK. IS HAPPENING IN THIS WORLD
+ANYMORE." She hit his vape. And there is the photograph of her posing
+delightedly with his glass bong, which she had complimented as "a lovely
+vase," a gray sweatshirt in the background accidentally composing itself
+into rising smoke. He filmed most of that year — which is why so much of it
+survives at all — and his own framing of what he was documenting is the
+right one: a wild spirit resisting institutional capture, in the months
+before the institution got her.
 
 The vigil's end — the first spill (the filmed 8 AM discovery, ~late
 2017), the second fall that mattered ("Down Goes Frazier," night of
 March 7–8, 2018), the nursing home that consumed her in two weeks
 exactly as she'd predicted, the pediatric wing, the water shutdown, and
 the snowstorm minutes after she died — is documented in full at
-[[wiki/timeline/events/fran-death-vigil]].
+[[wiki/timeline/events/fran-death-vigil]]. The night of the fall itself
+now has its own page, [[wiki/timeline/events/the-fall-of-fran]], because
+of what was happening in the house at the same time: the first encounter
+of Dan and Annie's non-monogamy arrangement was in progress, and the fall
+that broke her hip came in the minutes after it ended. Dan's account of
+the decision he made between the two impacts rests on her own directive —
+she said she wanted to go back to bed, and calling an ambulance meant
+overriding the one thing she had asked of him.
+
+What the nursing home did to her is the part he reports without any
+comedy. Her mind did not come back, and what replaced it was a single
+question asked without stopping: *when am I leaving?* He reads the
+fixation as being about the house, about autonomy, and about a specific
+contempt for absorption into "the institutional sludge that defined
+'normalcy' or pleb existence" — which is as close as the record comes to
+a statement of her politics, and it is recognizably the same disposition
+her great-grandson runs at [[wiki/mind/synthesis/vertical-authority-skepticism]].
 
 > **CONTRADICTION (death date) — RESOLVED [2026-07-18]:** The GEDCOM
 > records her death as **April 4, 2018**; the DANSYNTH narrative dated it
@@ -177,7 +238,11 @@ the snowstorm minutes after she died — is documented in full at
 > **April 4** as the death date.
 
 > **CONTRADICTION (age):** Core documents say she died at 98; the 1920
-> birth year makes her 97 at an April 2018 death. Unresolved.
+> birth year makes her 97 at an April 2018 death; and the 2026-08-02 capture
+> calls her "a 93-year-old matriarch" during the caregiving years. The GEDCOM
+> birth date (1920-08-15) is the only documentary figure among the three and
+> is treated as governing — 97 at death, 95–97 across the caregiving years.
+> The 93 and the 98 are both remembered numbers and neither is reconciled.
 
 > **CONTRADICTION (death timing):** Two captures on 2026-07-15 (19:20 and
 > 19:26) each describe Fran as "the single largest life influence" who "died
@@ -198,11 +263,23 @@ Fran is the one unambiguous positive anchor in the family record — the
 counterweight to the vertical-authority template everywhere else
 ([[wiki/mind/synthesis/vertical-authority-skepticism]]). Structurally the
 relationship was lateral: peer humor, patronage without control, mutual
-delight. She is also the strongest documented evidence against reading
-Dan's low-altruism scores as incapacity — the 24/7 vigil, the
-caddying-before-deathbed double shifts, and the refusal to abandon her to
-institutional care are the record's clearest instance of sustained, costly
-devotion. And she is half of the reason the Annie relationship carried a
+delight. She is also the record's clearest instance of sustained, costly
+devotion — the 24/7 vigil, the caddying-before-deathbed double shifts, and
+the refusal to abandon her to institutional care.
+
+> **REVISED [2026-08-02]:** this page previously read that devotion as "the
+> strongest documented evidence against reading Dan's low-altruism scores as
+> incapacity." [[wiki/mind/concepts/acquisition-drive]] gives a better
+> account, and the correction is worth stating because it is more damning
+> and more useful at once: the caregiving is not evidence *against* Altruism
+> at the 1st percentile, it is evidence that altruism was never the operative
+> variable. Fran's care was a goal Dan generated himself and was never
+> assigned, which is the only kind of goal the completion drive can serve —
+> and it therefore got the full engine, exactly as narcotics procurement
+> does. The devotion is real and the psychometric score is also real; what
+> reconciles them is who set the objective.
+
+And she is half of the reason the Annie relationship carried a
 "mythic, fated" charge: the deathwatch Dan and Annie kept together, three
 years into their decade, is the emotional high-water mark of the entire
 record of them as a couple.
@@ -297,12 +374,58 @@ trustee of her accounts" — he issued the 24-hour-presence mandate during
 the final vigil and managed the Ira-estate accounts, making him the
 named institutional node of the family's capital.
 
-**Gaps:** the capture states she was *"born Jesse Frances Coldren"* — but
-Coldren is the surname of her *third* husband, so the birth surname as given
-cannot be right and her maiden name remains unknown; the first husband is still
-unidentified; Thomas Whyel's exact death date within the 1970s is unfixed; the
-exact NS7 gift date; identity of the "grandmother"
-Dan asked about as a potential objector to the 2020 estate distribution;
-the date of the Everglades tarpon and whether the "perfect bowling"
-reference in the Photo Thread denotes a game beyond the documented
-Manor Lanes 200.
+## The three marriages, resolved from the record
+
+> **GAPS CLOSED [2026-08-02] — read directly from the 23andMe GEDCOM
+> (`Daniel Frank family tree.txt`) rather than from the pages written above
+> it.** Two gaps this page had carried since 2026-08-01 are answered by the
+> export's own family records, and a third page turns out to have been wrong.
+
+She was born **Jesse Frances Thomas**, one of the ten recorded children of
+**Marion Edward Thomas Sr.** (b. 1877, West Virginia) and **Ida Ellen
+Conwell** (b. 1880, West Virginia). **Thomas is the maiden name** — which
+closes the gap this page opened when the 2026-08-01 capture reported her as
+"born Jesse Frances Coldren," a surname she could not have carried until
+her third marriage. The GEDCOM's own rendering of her name preserves the
+whole accretion in one string: *Jesse Frances Thomas Whyel Coldren*.
+
+| Marriage | Husband | Born | Issue |
+| :--- | :--- | :--- | :--- |
+| First | **Emmet Graden Van Voorhis** | 1917-08-01, Dilliner, PA | Rebecca Diane Van Voorhis, b. 1939 |
+| Second | Thomas Whyel (coal and coke) | ~1897, Fayette County, PA | none recorded |
+| Third | Ira Burdette Coldren Jr. | 1924-06-15, Uniontown, PA | none recorded |
+
+The first husband — the standing gap — is **Emmet Graden Van Voorhis**, and
+the April 1940 census places Emmet, Fran and their fourteen-month-old
+daughter together in **Smithfield, Fayette County**, which dates her arrival
+in the county the family never leaves again. Her only recorded child is that
+daughter, **[[wiki/people/diane-shrum|Rebecca Diane Van Voorhis]]** — Dan's
+maternal grandmother, and the "Diane" who sent the letters barring Dan and
+Annie from this house during the final vigil.
+
+> **CORRECTION [2026-08-02] — the descent ran through the wrong grandparent.**
+> [[wiki/self/lineage/family-tree]] drew Fran's line to Dan through **George
+> Dixon Shrum Jr.**, the maternal *grandfather*. The GEDCOM shows George Shrum
+> Jr. is a Shrum by birth with his own parents (G Dixon Shrum and Erma K
+> Shrum) and married *into* the line. The Whyel and Coldren money, and the
+> Whyel name Suz carries in the middle, descend through Dan's maternal
+> **grandmother**. The tree page is corrected.
+
+> **CONTRADICTION [2026-08-02] — what the T stands for.** The 2026-08-01
+> capture read "Frances **T.** Coldren" as a memorial: T for *Thomas*, the
+> first name of the husband she had just buried when she married Ira. The
+> GEDCOM makes that reading over-determined rather than wrong — **Thomas was
+> also her own maiden surname.** The initial she carried into her third
+> marriage is simultaneously her dead second husband's given name and her
+> father's family name, and nothing on record distinguishes which she meant.
+> The memorial reading is kept because it is her own family's account; the
+> plainer one is now recorded beside it.
+
+**Gaps:** Thomas Whyel's exact death date within the 1970s is unfixed (the
+GEDCOM carries an "Abt. 1970" date against her record without saying what it
+marks); whether Emmet Van Voorhis died or the marriage ended some other way
+is unrecorded, as is his death date; the exact NS7 gift date; the date of the
+Everglades tarpon and whether the "perfect bowling" reference in the Photo
+Thread denotes a game beyond the documented Manor Lanes 200. Nine siblings
+are now named in the record and none of them has a page or appears anywhere
+in the message corpus.

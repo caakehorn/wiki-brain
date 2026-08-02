@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-02
-425 pages, ~604,661 tokens.
+431 pages, ~629,444 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -18,8 +18,9 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-20
+date_modified: 2026-08-02
 sources:
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -34,6 +35,9 @@ related:
   - wiki/work/bfs-foods
 tags: [addiction-recovery, family, relationships, trauma-bond]
 connections:
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: evidenced-by
+    claim: "Nicotine is catalogued here as the ritual regulator that smooths transitions between chemical states; the April 2018 hospital alarm is the record's demonstration that the regulator runs on its own schedule and does not defer to circumstance."
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "The fifteen-year daily Suboxone regimen begins at the front edge of NYC-1 (~Jan 2010, with a one-year discrepancy against legacy docs still unresolved)."
@@ -8467,8 +8471,9 @@ page_type: event
 title: "2015 Arrest (Retail Theft / \"The Combos Incident\")"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-08-02
 sources:
+  - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/imessage_ALL_both_all_now.csv
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/christocoan_2cxo0swo3g/message_1.html"
@@ -8480,6 +8485,13 @@ related:
   - wiki/self/context-core
   - wiki/mind/synthesis/vertical-authority-skepticism
 tags: [legal, relationships, dui]
+connections:
+  - page: wiki/mind/concepts/acquisition-drive
+    type: evidences
+    claim: "Snack food pursued as far as a state police arrest is the drive's signature output shape: cost-benefit ratios that make no sense are the expected result of a system optimising for completion rather than for value."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: parallels
+    claim: "Three years apart, the same shape twice: a trivially small want run to completion and producing charging paperwork wildly out of proportion to anything gained — Combos in 2015, one drag of nicotine in 2018."
 ---
 
 # 2015 Arrest (Retail Theft / "The Combos Incident")
@@ -8710,7 +8722,7 @@ domain: legal
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-13
+date_modified: 2026-08-02
 sources: []
 related: []
 ---
@@ -8724,6 +8736,186 @@ live in work/ — see [[wiki/work/bfs-foods]] for the 2026 BFS drawer dispute.
 
 - [[wiki/legal/2015-retail-theft-arrest]] — Dan's only *fully* documented arrest: retail theft ("the Combos incident"), resolved via ARD in February 2016 with expungement expected. Closed. A single October 2017 message references a separate, otherwise unrecorded prior DUI — flagged as a CONTRADICTION on that page, not yet its own event.
 - [[wiki/legal/463-morgantown]] — the live housing/property situation: no-lease occupancy, Suz's blended roles, contractor lien risk (~July 2026 deadline). Active.
+- [[wiki/timeline/events/uniontown-hospital-vape-alarm]] — filed under timeline/, noted here as the corpus's second brush with charging paperwork: a vape set off a hospital-wide fire alarm during Fran's April 2018 death watch, four fire trucks, escorted off the property. Whether anything was ever filed is unverified.
+
+
+========================================================================
+PAGE: wiki/mind/concepts/acquisition-drive.md
+========================================================================
+
+---
+domain: mind
+page_type: concept
+title: "The Acquisition Drive"
+aliases: ["the drive", "complete objective", "resilience for the goal"]
+status: active
+importance: high
+knowledge: earned
+date_created: 2026-08-02
+date_modified: 2026-08-02
+sources:
+  - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
+  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+tags: [personality-profile, addiction-recovery, legal, forensic-analysis]
+connections:
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: contradicts
+    claim: "The facet table reads the corpus's execution failures as Impulsiveness at 96 and stops there; this page claims a second, unmeasured dimension — a 95th-percentile completion drive — is running in the same behaviour, which means the instrument is scoring an engine as a brake failure."
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: evidenced-by
+    claim: "A plan a year in the making ran to completion through a catastrophic injury to the person Dan was being paid to protect — the costliest documented case of a live pursuit refusing to abort."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: evidenced-by
+    claim: "The purest instance, because the stakes were nil: a nicotine urge serviced on arrival in a deathbed room, with top-percentile reasoning recruited to authorise it rather than to interrogate it."
+  - page: wiki/legal/2015-retail-theft-arrest
+    type: evidenced-by
+    claim: "Snack food pursued to arrest by the state police is the drive's signature output shape — cost-benefit ratios that make no sense are the expected result of a system that optimises for completion rather than for value."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: evidenced-by
+    claim: "Three years of round-the-clock caregiving is not counter-evidence to Altruism at the 1st percentile; it is the same drive pointed at a goal Dan generated himself, which is the only kind it can serve."
+  - page: wiki/mind/synthesis/supply-network
+    type: causes
+    claim: "The procurement architecture is this drive's infrastructure: a want that will be satisfied 'at all costs' requires a standing multi-node supply chain, which is why the network survives every era while its nodes rotate."
+  - page: wiki/people/vanessa-frank
+    type: co-occurs
+    claim: "The undated episode in which Dan used his sister's ATM card while she was away at college, under a 'got them mixed up' pretext, is the operator's own chosen illustration of the drive running with no consequence-modelling attached."
+  - page: wiki/mind/concepts/chaos-preference
+    type: mirrors
+    claim: "Two appetites with inverted carve-outs: the chaos preference is strictly outward-facing and exempts what Dan has chosen, while the acquisition drive fires only on what Dan has chosen and is inert toward everything assigned to him."
+---
+
+# The Acquisition Drive
+
+Once Dan Frank converts a want into a decided outcome, the pursuit of it runs
+to completion more or less independently of cost, risk, proportion or
+circumstance. The operator's own statement of this is unusually direct and
+carries an explicit disclaimer against hyperbole: "there is no hyperbole in
+the claim that this resilience for the goal is truly 95+ percentile." His
+chosen analogy is a machine one — "much like an AI model" — a system that
+does not get discouraged, does not revise the objective downward, and does
+not stop because the situation changed.
+
+The important half of the claim is the second half, and it is a limitation
+rather than a boast: **the drive cannot be aimed.** Only desires that arise
+organically can recruit it. In the operator's words, "there is little control
+over what desires are organically felt, as these are the only ones which can
+truly take advantage of this determination." The engine is enormous and there
+is no steering column. Everything else on this page follows from those two
+sentences read together.
+
+## What it looks like at full load
+
+The domain where it runs most often is narcotics procurement. The threshold
+event is a decision, not a craving — the operator describes it as the moment
+"the determination is made that 'we/I are getting something'," after which
+"that thing will be obtained at all costs and challenges." The word doing the
+work is *determination*: a state change after which the outcome is treated as
+already owed. [[wiki/mind/synthesis/supply-network]] is the physical
+consequence of that state recurring for a decade — a standing multi-node
+supply architecture whose individual dealers rotate constantly while the
+architecture never lapses, because a want that must be satisfied at all costs
+cannot be left to a single supplier.
+
+Three documented episodes show the drive at very different stakes and the
+same indifference to context:
+
+| Episode | The objective | What it ran through |
+|---|---|---|
+| [[wiki/legal/2015-retail-theft-arrest]] (late 2015) | Combos snacks | A state police arrest, a lawyer, and the ARD program |
+| [[wiki/timeline/events/the-fall-of-fran]] (2018-03-07/08) | The arrangement's opening encounter | A 97-year-old's broken hip, in the house, mid-event |
+| [[wiki/timeline/events/uniontown-hospital-vape-alarm]] (April 2018) | One drag of nicotine | A hospital-wide fire alarm, four fire trucks, and an escort off the property |
+
+The middle row is the expensive one and the third is the diagnostic one. The
+vape alarm cost Dan more than it could possibly have gained under any
+accounting, which is exactly why it is the clean case: with nothing at stake,
+the pursuit still completed, and the deliberation that preceded it was not
+deliberation about *whether* — it was a physics argument constructed to
+authorise the act. That is the intellect/impulsivity paradox
+([[wiki/mind/profile/big-five-psychometrics]]) caught doing the thing it
+actually does. Top-percentile reasoning is not fighting the impulse and
+losing. It is working for the impulse.
+
+## The young form, and the class buffer
+
+The operator distinguishes an earlier and a later configuration of the same
+trait. In the earlier one the drive ran "in tandem with the kind of
+stupidity, impulsivity and short-sighted thinking that led to several
+situations which could have landed him in legal trouble." The illustration he
+picks is his sister's bank card: while [[wiki/people/vanessa-frank|Vanessa]]
+was away at college her ATM card was, for some reason, at
+[[wiki/people/suzanne-frank|Suz's]] house, and Dan used it "for a little
+while" under a pretext he flags in his own text as a pretext — "'accidentally'
+… 'got them mixed up'." The scare quotes are his. Note what the story is an
+example *of*: not theft as such, but a resource appearing within reach while a
+pursuit was live, and being consumed because it was there.
+
+He also supplies the structural explanation himself, which is rarer than it
+sounds: "a lot of observable behavior here … results from the sheltered, safe
+upper-middle class upbringing he enjoyed where consequences were less likely
+than those whose parents couldn't afford the same capital toolbelt." That is
+a first-person account of class as a risk-tolerance subsidy, and it is
+corroborated by the record rather than merely asserted — the 2015 arrest
+produced a hired lawyer named Jack and an ARD diversion with expungement, and
+the family's capital is documented across
+[[wiki/mind/synthesis/estate-money-spine]]. The drive did not become safer
+over time so much as it stopped being underwritten.
+
+The later configuration is described as "honed into something more useful and
+semi-productive." The corpus supports this without needing to be asked: the
+same engine, pointed at something that happened to be constructive, produces
+the two-sided Gini measurement on [[wiki/mind/concepts/contact-gini]], the
+DANMODEL extraction, the dashboards of [[wiki/mind/concepts/forensic-method]],
+and this wiki. None of those were assigned to him.
+
+## The consequence nobody had drawn: altruism was never the variable
+
+[[wiki/people/fran-coldren]] carries a standing claim that the three years of
+round-the-clock caregiving are "the strongest documented evidence against
+reading Dan's low-altruism scores as incapacity." Read against this page,
+that claim needs correcting rather than defending. The vigil is not evidence
+against Altruism at the 1st percentile. It is evidence that altruism was not
+the operative variable in either direction.
+
+Fran's care was a goal Dan generated himself, held privately, and was never
+assigned; it therefore had access to the full engine, and it got months of
+unglamorous, costly, sustained execution — the same faculty that obtains
+narcotics at all costs, pointed at an old woman's wish to stay in her house.
+The prediction that follows is testable against the corpus and is the reason
+to state this plainly: **there should be no documented instance of Dan
+absorbing comparable cost over comparable duration for a goal set for him by
+somebody else.** The employment record, the abandoned projects, and the
+prescription he was given rather than sought are where a falsification would
+be found if one exists.
+
+> **CONTRADICTION [2026-08-02]:**
+> [[wiki/mind/profile/big-five-psychometrics]] measures Impulsiveness at the
+> 96th percentile and reads the corpus's pattern of "brilliant analysis
+> coexisting with self-sabotaging execution" as an impulse-control deficit —
+> the diagnosis-to-behaviour gap. This page holds that a second dimension,
+> a 95th-percentile completion drive, is present in the same behaviour and is
+> not on the instrument's facet table at all. The two readings are not
+> compatible: one describes a brake that fails, the other an engine that
+> works. The evidence for the second is currently one first-person operator
+> claim plus the event record above; the evidence for the first is a scored
+> instrument. Neither is discarded here.
+
+## Gaps
+
+The ATM-card episode has no date, no amount, no duration and no corroboration
+anywhere in the message corpus — it exists only in the operator's own
+telling, and Vanessa's own thread (709 messages, December 2015 onward) never
+mentions it, which places it before December 2015 or entirely outside the
+record. The 95th-percentile figure is a self-estimate offered against a
+population baseline that is not specified; it is recorded as testimony, not
+as a measurement, and nothing in the psychometric battery tests persistence
+directly. The mechanism by which a want becomes a "determination" is
+undescribed — the operator reports the threshold without reporting what
+crosses it, which is the single most useful thing a future capture could
+supply. And the claim that the drive was "honed" into a productive form is
+asserted rather than dated: the corpus can show productive outputs after
+roughly 2020, but not that anything about the trait itself changed rather
+than its targets.
 
 
 ========================================================================
@@ -8987,6 +9179,9 @@ synthesizes:
   - wiki/interests/music/overview
 tags: [personality-profile, forensic-analysis]
 connections:
+  - page: wiki/mind/concepts/acquisition-drive
+    type: mirrors
+    claim: "Two appetites with inverted carve-outs: this preference is strictly outward-facing and exempts whatever Dan has chosen, while the acquisition drive fires only on what Dan has chosen and is inert toward everything assigned to him."
   - page: wiki/timeline/events/franki-fireworks-day-2013
     type: evidenced-by
     claim: "The macro-scale appetite finally has an attested instance: days without sleep watching the April 2013 Boston manhunt unfold, during months Dan otherwise describes as apathetic depression — the entropy interest was the one thing still running."
@@ -9743,12 +9938,16 @@ knowledge: mixed
 title: "Erotic Architecture: Sexuality as Controlled-Chaos Engineering"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-20
+date_modified: 2026-08-02
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/dansynth/DANSYNTH.txt
   - "raw/self/dox-scan/HEART.pdf.txt"
 tags: [trauma-bond, relationships, ai-collaboration]
 connections:
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: evidenced-by
+    claim: "The arrangement's opening night supplies the architecture's clearest first-person statement of its own two-stage procedure: a masochistic 'emotional pinch' satiated by exposure to the jealousy, then a cathartic stage of sex with the partner while the jealousy is still burning."
   - page: wiki/people/bryan-5088682461
     type: evidenced-by
     claim: "The 'taboo as ontological rupture' mechanism — orchestrating sexual contact across the straight/gay boundary — has its documented instance in the October 20, 2019 filmed MMF with Bryan: a gay man's first encounter with a woman and Dan's only bisexual act, in one authored scene."
@@ -10752,7 +10951,7 @@ domain: mind
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-13
+date_modified: 2026-08-02
 sources: []
 related: []
 ---
@@ -10793,6 +10992,7 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/concepts/bunker-core]] — the self-built local chat.db forensics stack; documented software fact alongside an AI-authored "epistemic fortress" interpretive framing.
 - [[wiki/mind/concepts/the-cool-metric]] — the single performed-vs-authentic axis applied to music, language, politics, film, work and strangers alike.
 - [[wiki/mind/concepts/chaos-preference]] — the appetite for entropy and system failure, and the finding that it is strictly outward-facing.
+- [[wiki/mind/concepts/acquisition-drive]] — the 95th-percentile completion drive that cannot be aimed: once a want becomes a decided outcome it runs to completion regardless of cost, and only self-originated goals can recruit it.
 ## psychosexual — the sexuality cluster
 
 - [[wiki/mind/psychosexual/index]] — hub: theory-vs-practice provenance split, quick brief, cluster map.
@@ -10843,8 +11043,9 @@ aliases: ["RLUEI", "Big30", "psychometrics", "personality disorder scores"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-20
+date_modified: 2026-08-02
 sources:
+  - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -10855,6 +11056,9 @@ related:
   - wiki/self/context-core
 tags: [personality-profile]
 connections:
+  - page: wiki/mind/concepts/acquisition-drive
+    type: contradicts
+    claim: "The facet table has no persistence dimension and reads the corpus's execution failures as Impulsiveness at 96; the operator claims a 95th-percentile completion drive is running in the same behaviour, which would mean this instrument is scoring an engine as a brake failure."
   - page: wiki/mind/synthesis/millennial-digital-witness
     type: evidences
     claim: "The psychometric fit underwrites — and flags as self-serving — the witness self-theory."
@@ -10899,6 +11103,21 @@ gap between it and its blueprint.
 | | Modesty | 5 |
 | | Sympathy | 6 |
 | | Trust | 9 |
+
+> **CONTRADICTION [2026-08-02] — the table may have no column for the thing
+> doing the work.** [[wiki/mind/concepts/acquisition-drive]] records the
+> operator's own claim, offered with an explicit disclaimer against
+> hyperbole, that his "resilience for the goal" sits at the 95th percentile
+> or above — a persistence dimension that appears nowhere in the Big30 facet
+> list and that the instrument does not test. If it is real, then a
+> substantial share of what this page scores as Impulsiveness at 96 is being
+> misread: the same episodes look like brake failure to a conscientiousness
+> instrument and like an engine running correctly to a goal-completion one,
+> and the two readings are not compatible. The evidence on one side is a
+> scored battery; on the other, one first-person claim plus the event record.
+> Neither is discarded, and the disagreement is the useful part: it predicts
+> that any instrument measuring persistence toward *self-set* goals
+> specifically would return a very different number than this one does.
 
 Two structural readings follow from the table. First, the
 **intellect/impulsivity paradox**: top-percentile reasoning bolted to
@@ -11977,9 +12196,11 @@ page_type: concept
 title: "Arrangement History"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 knowledge: mixed
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
@@ -11994,9 +12215,15 @@ connections:
   - page: wiki/people/annie-ulmer
     type: contains
     claim: "Annie is the constant across every documented instance — partner in the jealousy-kink baseline, co-operator of smashonista, co-participant in the paid and unpaid encounters — the arrangement is structurally a property of the Annie relationship."
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: instance-of
+    claim: "The arrangement's first executed encounter is dated to the night of March 7–8 2018 and to a single room — and it ran to completion through a catastrophic injury to the woman Dan was being paid to keep at home, which is the strongest single piece of evidence that this architecture does not yield to circumstance."
+  - page: wiki/people/danny-matthews
+    type: contains
+    claim: "Danny and Nicole are the arrangement's first outside participants: Dan's own message of 2018-02-16, 'you guys would be the first couple we were with,' establishes the start date and predates the Alexis reunion by eight months."
   - page: wiki/people/alexis-armel
     type: contains
-    claim: "The Nov–Dec 2018 reunion arrangement — opened with a $3,000 cash offer to Dan's own ex days after her prison release — is the earliest well-documented instance of the arrangement running on a woman from Dan's romantic history."
+    claim: "The Nov–Dec 2018 reunion arrangement — opened with a $3,000 cash offer to Dan's own ex days after her prison release — is the earliest documented instance of the arrangement running on a woman from Dan's romantic history, though no longer the earliest instance overall."
   - page: wiki/people/kelly-johansson
     type: contains
     claim: "The Sep–Oct 2019 Kelly run is the arrangement at its most professionalized — a repeat working relationship in which the escort treated Annie as a peer and pitched the couple as co-providers."
@@ -12033,7 +12260,9 @@ from raw iMessage/SMS data that had not previously been mined.
 | Period | What | Full account |
 |--------|------|---------------|
 | Feb 2016 | The "jealousy kink" is first named in the Annie relationship — the earliest dated reference to the dynamic that the rest of this table documents in practice | [[wiki/people/annie-ulmer]] |
-| Nov 3 – Dec 2018 | **Annie/Alexis reunion.** A six-week recurring arrangement between Annie and Dan's ex, [[wiki/people/alexis-armel|Alexis]], days after Alexis's release from a year in prison. Opens with a skeptical, explicitly transactional framing (Dan describes Alexis as "a really useful tool"), escalates through a birthday-night culmination (Nov 5) with a hidden-camera request, recurs through late November, and is retrospectively explained to a confidant as having started with a **$3,000 cash offer** — "initially I offered her $3000 to be a plaything for Annie." The earliest well-documented instance of the arrangement running with a woman from Dan's own romantic history. | [[wiki/timeline/events/annie-alexis-reunion-november-2018]] |
+| Feb 16, 2018 | **The arrangement is opened.** A single twenty-minute exchange with [[wiki/people/danny-matthews|Danny Matthews]] negotiates the first outside encounter, discloses the smashonista camming operation unprompted, and contains the sentence that fixes the chronology — "you guys would be the first couple we were with." | [[wiki/people/danny-matthews]] |
+| Mar 7–8, 2018 | **The first executed encounter, and the earliest instance in this table.** Annie with Danny Matthews inside [[wiki/places/117-belmont-circle|117 Belmont Circle]], arranged by Dan, who watched — and which proceeded between the two falls that broke [[wiki/people/fran-coldren|Fran's]] hip and ended her residency that night. Dan reports no memory of the encounter itself and a precise memory of its function: the "masochistic emotional pinch" satiated by exposure, with the cathartic stage cut short by the second fall. | [[wiki/timeline/events/the-fall-of-fran]] |
+| Nov 3 – Dec 2018 | **Annie/Alexis reunion.** A six-week recurring arrangement between Annie and Dan's ex, [[wiki/people/alexis-armel|Alexis]], days after Alexis's release from a year in prison. Opens with a skeptical, explicitly transactional framing (Dan describes Alexis as "a really useful tool"), escalates through a birthday-night culmination (Nov 5) with a hidden-camera request, recurs through late November, and is retrospectively explained to a confidant as having started with a **$3,000 cash offer** — "initially I offered her $3000 to be a plaything for Annie." The earliest instance running with a woman from Dan's own romantic history — though no longer, as this table long had it, the earliest instance overall. | [[wiki/timeline/events/annie-alexis-reunion-november-2018]] |
 | ~2018–present | **smashonista** — Dan and Annie's joint camming operation (Chaturbate and other platforms), confirmed by August 2018, with a Patreon added October 2019. Annie separately worked under paid-companion aliases **"Hazel"** and **"Lily Lush"** (joint handles "smashonistaa"/"sofvded"), a commercial thread distinct from but adjacent to the couple's own camming. | [[wiki/people/annie-ulmer]] |
 | Apr 2019 | **Shelbie/Annie threesome.** A three-way encounter with [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], a stripper and aspiring cam model Dan was also seeing one-on-one that spring — per Dan's own account, though the message corpus for Shelbie doesn't begin until May 15, 2019. A corroborating May 1, 2019 fight has Annie naming Shelbie directly as a rival, confirming the relationship (and the arrangement) predates the message record. Recurs as a two-person Annie/Shelbie dynamic by June 8, 2019. | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]], [[wiki/people/shelbie-breakiron]] |
 | Mar 2019 | **Trinity St. Clair** — a $1,500/hour paid encounter with the adult-film performer of that name, booked days after Dan's move back to NYC ("the first thing I did"), addressed to both Dan and Annie directly. The direct thread shows two cancellations (illness, oversleeping) and ends ambiguously, but a separately-dated message confirms the visit completed around March 28 – April 1; Trinity went on to function as a credibility reference in at least one later booking inquiry (July 2019). | [[wiki/people/trinity-st-clair]] |
@@ -12043,6 +12272,19 @@ from raw iMessage/SMS data that had not previously been mined.
 | Sep–Dec 2025 | **Kristin — the mirror structure.** A fourteen-week relationship built, within its first 48–72 hours, around a demand for total sexual exclusivity from Kristin ("That is my cum. Mine") — the inverse of the openness practiced with Annie during the same broad period. An AI analysis Dan commissioned of this specific relationship (the Chimera addendum) frames it as a "hyper-accelerated trauma bond" gated by escalating "purity tests," ending in a hostile blockade in December 2025. | [[wiki/people/kristin]] |
 
 ## What the pattern shows
+
+> **REVISED [2026-08-02] — the start date moved back eight months.** Until
+> now this table opened its practice record with the November 2018 Alexis
+> reunion and described it as "the earliest well-documented instance." Two
+> operator captures and the message corpus together place the first executed
+> encounter on the night of **March 7–8, 2018**, with Danny Matthews, and Dan
+> states its priority himself in writing three weeks beforehand: "you guys
+> would be the first couple we were with." The correction matters beyond
+> chronology. The arrangement's opening night was not a considered
+> experiment in a controlled setting — it ran inside a house where a
+> 97-year-old with dementia was in Dan's paid care, and it did not stop when
+> she fell. Whatever else the architecture is, it was load-bearing enough on
+> its first outing to outrank a medical emergency.
 
 Read together rather than page by page, three things stand out that no
 single page states on its own. First, **the arrangement is not confined to
@@ -14362,6 +14604,9 @@ synthesizes:
   - wiki/mind/synthesis/the-unbroken-bond
 tags: [relationships, nyc-era, uniontown-era, forensic-analysis]
 connections:
+  - page: wiki/people/ellen-ulmer
+    type: instance-of
+    claim: "The rule holds even for ties Dan never chose: an in-law relationship opened by a friend's overdose in April 2017 was still sending unprompted birthday messages in November 2025, outliving the relationship it entirely depended on."
   - page: wiki/people/danielle-onesi
     type: instance-of
     claim: "The cleanest case: the romantic role ends in 2009 by Dan's own infidelity, and seventeen years later she is his mother's closest friend, the cat's co-guardian, and a Christmas fixture — the tie did not weaken, it changed job."
@@ -14640,6 +14885,7 @@ knowledge: earned
 date_created: 2026-07-18
 date_modified: 2026-08-02
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
   - "raw/self/dox-md/operating_manual.md"
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -14654,6 +14900,12 @@ synthesizes:
   - wiki/places/337-saratoga-drive
 tags: [financial-stress, forensic-analysis, family]
 connections:
+  - page: wiki/people/fred-adams
+    type: contains
+    claim: "Adams is the spine's institutional valve: the Ira-estate capital that eventually reaches Dan as the 2020 distribution sat under one man's discretion for decades, which is why the family's largest asset never behaved like an inheritance in waiting."
+  - page: wiki/people/diane-shrum
+    type: contextualizes
+    claim: "The unnamed grandmother Dan feared would contest his 2020 distribution is almost certainly Fran's only child, who had already moved formally against his proximity to Fran two years earlier — the fear had a documented basis."
   - page: wiki/people/lewis-strosnider
     type: co-occurs
     claim: "Dan's July 2018 message anticipating a 'sizeable check' from the estate 'in a few months' shows the distribution was expected far earlier than the Sept 1, 2020 date it actually landed on."
@@ -16627,6 +16879,7 @@ knowledge: earned
 date_created: 2026-07-18
 date_modified: 2026-08-02
 sources:
+  - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
   - "raw/self/dox-md/operating_manual.md"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
@@ -16643,6 +16896,12 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/people/jay-lauer
+    type: contains
+    claim: "Jay is the network's only documented fatality: a peer-trading node whose overdose in April 2017 shows what the reciprocal-credit tier actually risked, and whose death Dan attributes to a failed attempt to route him onto the Suboxone path that had worked for Dan himself."
+  - page: wiki/mind/concepts/acquisition-drive
+    type: caused-by
+    claim: "The network is not a habit but an infrastructure requirement: a want that will be satisfied at all costs cannot be left to one supplier, which is why the architecture persists across every era while its individual nodes rotate constantly."
   - page: wiki/timeline/events/july-2026-recontact
     type: mirrors
     claim: "Dan's 2:45 AM refusal on July 26 2026 — asked for drugs by a woman stating she was about to kill herself — is the network's only documented refusal under pressure, inverting the terminal phase's finding that his provision was unconditional."
@@ -16846,6 +17105,30 @@ domain, and the corpus documents each path:
   [[wiki/people/menore]]). At the country club, Teddy timed handoffs around
   caddying reports. The network was never an after-hours activity; it
   was co-located with employment throughout.
+
+## What node failure cost once, and only once
+
+Every cost catalogued above is measured in money, panic, or ruptured
+friendships. One node's failure was measured differently.
+[[wiki/people/jay-lauer|Jay Lauer]] sat in the peer-trading tier — the layer
+where supply was mutual credit between broke men rather than vendor service,
+alongside [[wiki/people/nick-mattie|Nick Mattie]] — and traded suboxone and
+cocaine with Dan across seven weeks spanning the 2016–17 New Year. He died of
+a heroin overdose on or about **April 11, 2017**, eight weeks after the
+thread's last message. He is the network's only documented fatality.
+
+What makes it load-bearing for this page rather than merely sad is Dan's
+account of what the trading had been *for*. Written to his father the evening
+Jay died: "I tried to help him. I talked to him about Suboxone, and told him
+how it helped me finally get out of that world. He went to the doctor and
+sold his prescription for heroin. At that point, there's nothing anyone else
+can do." That is the only documented instance in the entire corpus of Dan
+attempting to move somebody *out* of this network rather than into or around
+it, and it is the one attempt on record that ended in a death. The
+peer-trading tier's characteristic feature — that the participants are
+substitutable for one another, one man's prescription becoming another man's
+supply — is exactly the feature that made the intervention convertible back
+into the drug it was meant to displace.
 
 ## The inversion at the end: Dan as the supply node
 
@@ -18086,6 +18369,7 @@ status: stable
 date_created: 2026-06-22
 date_modified: 2026-08-02
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
   - raw/self/chats/j6-chat.md
@@ -18094,6 +18378,9 @@ sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
 tags: [politics, relationships, family, personality-profile, nyc-era]
 connections:
+  - page: wiki/people/diane-shrum
+    type: evidenced-by
+    claim: "The April 2018 letters are the template at family scale: authority exercised through paperwork, monitors and advance written requests by people who, on the caregivers' own account, did not visit Fran once."
   - page: wiki/mind/synthesis/the-deferred-audit
     type: component-of
     claim: "The vertical/lateral split turns out to be a clock rather than a trust axis: the laterals are not trusted more than the verticals, they are audited later — Tom's model was revised only after the May 2026 supply failure, roughly eighteen years in, while an assistant manager's $50 claim was reconstructed the same day."
@@ -18970,6 +19257,7 @@ changelog:
   - date: 2026-07-11
     note: "Data audit: burst-event misattribution fixed, financial amendments folded in"
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/message-csv/imessage_export_2124702449_20260726.csv
   - raw/self/message-csv/imessage_export_17245629389_both_all_now.csv
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -19030,6 +19318,21 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/people/betherin-mechling
+    type: contains
+    claim: "Annie's cousin is the reason Jay Lauer's supply relationship with Dan sat inside her extended family rather than beside it, and the reason his April 2017 overdose reached Dan through her mother rather than his own."
+  - page: wiki/people/ellen-ulmer
+    type: contains
+    claim: "Annie's mother routed her worry about her own daughter through Dan twice — January 2019 and February 2020 — treating him as the more reliable channel to Annie than Annie, and her thread outlasted the relationship that created it."
+  - page: wiki/people/danny-matthews
+    type: co-occurs
+    claim: "A seven-year non-monogamous connection running from March 2018 to at least December 2024, surviving the NYC move, and outlasting most of the corpus's named friendships."
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: component-of
+    claim: "The first non-monogamous encounter of the decade-long relationship is dated to the night of March 7-8 2018 and to Fran's house, roughly two years and four months in — and neither Annie nor Dan stopped it for the medical emergency happening in the next room."
+  - page: wiki/people/jay-lauer
+    type: co-occurs
+    claim: "The April 2017 overdose in Annie's extended family produced the most unguarded thing Dan wrote to her in that year of the thread - 'all this stuff about jay just reminds me how important it is to protect us' - grief converting directly into attachment reinforcement."
   - page: wiki/timeline/events/group-chat-closure
     type: contains
     claim: "The June 1 2026 closure is the relationship's severance event — the only external signal the attachment system ever received — and it held 52 days before failing."
@@ -20316,6 +20619,120 @@ The outcome of the cat's medical crisis, the disposition of her assault
 report, and any relationship to Dan beyond these two crisis contacts
 are undocumented. The Annie-assault claim has no independent
 corroboration anywhere else in the corpus.
+
+
+========================================================================
+PAGE: wiki/people/betherin-mechling.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+title: "Betherin Mechling"
+aliases: ["Betherin", "B.E."]
+status: stable
+knowledge: mixed
+date_created: 2026-08-02
+date_modified: 2026-08-02
+date_range_start: 2015-12-10
+date_range_end: 2017-04-17
+sources:
+  - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+tags: [family, addiction-recovery, relationships, uniontown-era]
+infobox:
+  name: "Betherin Mechling"
+  sex: female
+  location: uniontown
+  relationship_to_dan: acquaintance
+  first_contact: 2015-12-10
+  known_for: "Annie's cousin; fiancée of Jay Lauer, who died of a heroin overdose in April 2017 weeks after she returned his ring"
+connections:
+  - page: wiki/people/jay-lauer
+    type: contextualizes
+    claim: "Betherin is the reason Jay's supply thread reads the way it does — she controlled the money he was constantly short of, and the domestic incident that ended their engagement weeks before his overdose is the last documented event in his life outside the drug economy."
+  - page: wiki/people/annie-ulmer
+    type: component-of
+    claim: "Betherin is Annie's cousin, which places Jay Lauer's supply relationship with Dan inside Annie's extended family rather than beside it — the network reached into the in-laws."
+  - page: wiki/people/ellen-ulmer
+    type: co-occurs
+    claim: "Ellen's first message in the entire eight-year thread names Betherin as the person she is most worried about ('especially with B. E.'), which is what the condolence exchange on April 11, 2017 was actually about."
+  - page: wiki/mind/synthesis/supply-network
+    type: contextualizes
+    claim: "She is the network's only documented external financial controller — a third party holding a node's money, producing the fronting requests that make Jay's thread structurally different from every dealer thread in the corpus."
+---
+
+# Betherin Mechling
+
+Betherin Mechling is [[wiki/people/annie-ulmer|Annie Ulmer's]] cousin, a
+member of the Mechling family whose Uniontown household appears throughout
+the 2015–2016 message record as a fixed point on the Ulmer social calendar,
+and the fiancée of [[wiki/people/jay-lauer|Jay Lauer]], who died of a heroin
+overdose on or about April 11, 2017. She is not a person Dan has a
+relationship with — she never messages him and he never messages her — but
+she is structurally important to two things the corpus documents at length,
+and she is the reason both of them look the way they do.
+
+## The family position
+
+The Mechlings sit inside Annie's extended family, and the corpus records
+that adjacency casually and often: Christmas visits ("my family is going to
+the Mechlings around 4"), a Memorial Day BBQ in 2016 that Dan attends and
+Annie negotiates around, and a December 2015 exchange in which Dan and Annie
+joke that a hypothetical hyphenate would "undoubtedly be Mechling Ulmer."
+Her father is referred to only as Rusty. Dan's own assessment of the family,
+written the day Jay died and therefore unlikely to be flattery, is
+unqualified: "Betherin (and all the Mechlings) are the most wholesome, nice,
+ethically-sound people."
+
+Geographically the Mechling house sits inside the same small circuit as
+[[wiki/people/fran-coldren|Fran's]] — a 2016 message asks how Dan will "get
+back to Frans/Mechlings," treating the two as one errand.
+
+## The engagement, the money, and the ring
+
+Jay Lauer's 116-message thread with Dan is a supply thread with an unusual
+feature: the person on the other end could not access his own money. Betherin
+"controls all the money" (December 31, 2016), his check clearing or not
+clearing is reported through her ("Betherin saying my check didn't clear"),
+and his availability is described in terms of getting away from her ("I
+escaped without Betherin"). That control is what produces the thread's
+characteristic texture — repeated requests to be fronted, partial payments of
+$10 and $20, and the reproach that Dan had said he would "look out." Read
+without her, the thread is a man who is broke. Read with her, it is a man
+whose fiancée had taken over his finances, which is what families do when
+someone is using.
+
+The engagement ended shortly before he died. Dan's account, given to his
+father the same evening, is that "there was a domestic issue recently and she
+gave him the ring back. It's a mess, they had just bought a house together."
+He also records that both the Mechlings and the Ulmers had disliked the
+relationship — "for reasons which are now only too obvious."
+
+## After
+
+[[wiki/people/ellen-ulmer|Ellen Ulmer]], Annie's mother, called Dan on the
+night of April 10, 2017 to tell him Jay had died. His condolence message to
+her the next evening is the **first message in a thread that is still running
+eight and a half years later**, and Ellen's reply names Betherin as the
+person the family was most concerned for: "I appreciate the offer and will
+keep it in mind as things progress — especially with B. E." Dan and Annie
+attended the early viewing on April 17, 2017, where Dan reports that "Mr.
+Mechling said to tell you hello"; the funeral was the following day.
+
+Nothing in the corpus after April 2017 mentions her again.
+
+## Gaps
+
+Her surname's spelling is taken from the operator capture and her first name
+from the message corpus, which uses "Betherin" consistently; no independent
+document confirms either. The relationship to Annie is given as "cousin" by
+the capture and is consistent with the corpus's "Mechling/Ulmer cousins"
+framing, but the exact degree — first cousin, or a cousin through the Ulmer
+side generally — is not established. Nothing records what became of her, the
+house she and Jay had just bought, or whether she remained in contact with
+the Ulmers. The nature of the "domestic issue" is not described anywhere and
+is not inferred here.
 
 
 ========================================================================
@@ -21696,23 +22113,46 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-08-02
 date_range_start: 2018-02-16
 date_range_end: 2024-12-26
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+sources:
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
 related: ["wiki/people/annie-ulmer", "wiki/places/117-belmont-circle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [relationships, uniontown-era, career]
 knowledge: mixed
 infobox:
   name: "Danny Matthews"
-  relationship_to_dan: unknown
+  sex: male
+  location: uniontown
+  relationship_to_dan: friend
+  role: "residential realtor, Uniontown area"
   first_contact: 2018-02-16
-  known_for: "Danny Matthews plays two unrelated roles in Dan's life: he's the local realtor who handled the sale of [[wiki/people/fra"
+  handles: ["+1724***3413"]
+  known_for: "The third party in the arrangement's opening encounter, March 2018 — and the realtor who later sold Fran's house"
+connections:
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: component-of
+    claim: "Danny is the third party in the arrangement's opening night, and his thread is what dates the whole sequence: it opens 2018-02-16, three weeks before the fall, so the encounter could not have happened in the March 2017 the operator's memory assigns it."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: component-of
+    claim: "Dan's own line to Danny on 2018-02-16 — 'you guys would be the first couple we were with' — makes this the arrangement's earliest documented consummated instance, moving its start eight months ahead of the November 2018 Alexis reunion the table used to open with."
+  - page: wiki/places/117-belmont-circle
+    type: co-occurs
+    claim: "Danny is the only person who appears at the house in both of its endings — inside it the night Fran's residency ended, and listing it for sale fifteen months later."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "A seven-year non-monogamous connection that survived the NYC move and outlasted most of the corpus's named friendships, running on Annie's participation as much as Dan's."
 ---
 
 # Danny Matthews
 
-Danny Matthews plays two unrelated roles in Dan's life: he's the local realtor who handled the sale of [[wiki/people/fran-coldren|Fran]]'s house at [[wiki/places/117-belmont-circle|117 Belmont Circle]] after her death, and — running the whole time alongside that professional thread — he's one half of a swinger couple (with his girlfriend Nicole) that Dan and [[wiki/people/annie-ulmer|Annie]] played with periodically from February 2018 through at least 2024. The two threads are interleaved in the same 349-message conversation with no apparent awkwardness on either side; Danny moves from confirming a real-estate closing to explicit sexual logistics in consecutive texts.
+Danny Matthews plays two roles in Dan's life that the wiki long treated as unrelated and which turn out to converge on a single house: he's the local realtor who handled the sale of [[wiki/people/fran-coldren|Fran]]'s house at [[wiki/places/117-belmont-circle|117 Belmont Circle]] after her death, and — running the whole time alongside that professional thread — he's one half of a swinger couple (with his girlfriend Nicole) that Dan and [[wiki/people/annie-ulmer|Annie]] played with periodically from February 2018 through at least 2024. The two threads are interleaved in the same 349-message conversation with no apparent awkwardness on either side; Danny moves from confirming a real-estate closing to explicit sexual logistics in consecutive texts.
+
+He is also, on the evidence of his own thread, **the first person outside the relationship that Dan and Annie's non-monogamy arrangement was ever executed with** — inside 117 Belmont Circle, on the night Fran fell and lost the house ([[wiki/timeline/events/the-fall-of-fran]]). Fifteen months later he was the agent who listed it.
 
 **A note on the data:** the CSV export's direction field marks every row "Received," which is not literally true — read this as a two-way conversation.
 
@@ -21723,6 +22163,31 @@ Danny works as a residential realtor, based near Uniontown ("the burgh" as backd
 ## The swinger relationship
 
 From the first messages (Feb 16, 2018) the tone is established: Danny and his girlfriend Nicole are an experienced but casual swinging couple ("we're not pros... but it's always been a good time for everyone"), and the four of them — plus, at points, other couples from what Danny describes as an established local circle — negotiate hangouts around golf, drinking, and sex over nearly seven years of intermittent contact.
+
+### The opening evening (February 16, 2018)
+
+The entire arrangement is opened, negotiated and disclosed inside a single
+twenty-minute exchange, and it is worth reading closely because it fixes a
+date the rest of the wiki depended on. Dan proposes a Sunday; Danny counters
+with the Palace Theatre in Greensburg and then discloses the asymmetry of
+experience ("you guys gotta be gentle though... we've had our own experiences
+before we got together, and a few since"); Dan answers with the line that
+settles the arrangement's chronology — **"you guys would be the first couple
+we were with"** — and follows it, four messages later, by volunteering the
+camming operation unprompted ("also we do a cam show... we make like $150 an
+hour... the key is just keep the frame filled with the girl haha. the more i
+show my face the less money we make"). Two strangers negotiating a first
+encounter, and within twenty minutes Dan has handed over the household's
+income structure and its production technique.
+
+That single sentence has consequences beyond this page. It establishes that
+the arrangement had not been executed with anyone before, which makes the
+encounter three weeks later — documented at
+[[wiki/timeline/events/the-fall-of-fran]] — the first, and moves
+[[wiki/mind/psychosexual/arrangement-history]]'s earliest entry eight months
+earlier than it stood. It also dates the operator's story: a plan Dan
+remembers as running in March 2017 was in fact negotiated in February 2018,
+because in March 2017 this thread did not exist.
 
 Recurring elements:
 - **Logistics friction.** Most exchanges are scheduling: Nicole's retail-type work shifts, Danny's real-estate appointments, and repeated near-misses ("abort mission — your mom pulled in right after me").
@@ -21741,11 +22206,7 @@ Recurring elements:
 
 ## Gaps
 
-Danny's last name and real-estate brokerage are not otherwise documented; whether the December 2024 invitation was taken up is unknown, and no further contact appears in the corpus after that date.
-
-## Related
-
-[[wiki/people/annie-ulmer]] · [[wiki/places/117-belmont-circle]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+Danny's real-estate brokerage is not otherwise documented; whether the December 2024 invitation was taken up is unknown, and no further contact appears in the corpus after that date. The largest gap is about the opening night itself: nothing in the thread — before, during, or in the six and a half years after — refers to Fran's fall, to an ambulance, or to anything having gone wrong that evening. Whether Danny knew a medical emergency was under way in the house while he was in it is unestablished and is answerable only by him. Dan describes him as "a grade above me at school, known as a dork then," which is the only account of how they knew each other and comes from the operator rather than the corpus.
 
 
 ========================================================================
@@ -22111,6 +22572,141 @@ No contact appears after August 16, 2019; whether the relationship continued pas
 ## Related
 
 [[wiki/people/menore]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+
+
+========================================================================
+PAGE: wiki/people/diane-shrum.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+title: "Diane (Rebecca Diane Van Voorhis Shrum)"
+aliases: ["Diane", "Rebecca Diane Van Voorhis", "Diane Shrum"]
+status: active
+knowledge: mixed
+date_created: 2026-08-02
+date_modified: 2026-08-02
+sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
+  - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+tags: [family, grief, uniontown-era, financial-stress]
+infobox:
+  name: "Rebecca Diane Van Voorhis Shrum"
+  dob: 1939-01-30
+  sex: female
+  location: unknown
+  relationship_to_dan: family
+  known_for: "The April 2018 letters barring Dan and Annie from Fran's house and from unsupervised visits during her final vigil"
+connections:
+  - page: wiki/people/fred-adams
+    type: co-occurs
+    claim: "The two authorities over Fran's final weeks acted in the same direction from different seats: Adams set the 24-hour rotation, these letters decided who was eligible for it, and neither instrument was held by anyone doing the caregiving."
+  - page: wiki/people/fran-coldren
+    type: component-of
+    claim: "Diane is Fran's only documented child — the GEDCOM records exactly one, born 1939 to Fran and her first husband Emmet Graden Van Voorhis — which makes the estate's whole intergenerational path run through a single person who was hostile to the grandson doing the caregiving."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: causes
+    claim: "The letters she and the family sent excluded Dan and Annie from the 24-hour hospital rotation Fred Adams had mandated, which is why the two people who had kept Fran at home for three years held no assigned shift during her death watch."
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: contextualizes
+    claim: "She is almost certainly the unnamed 'grandmother' Dan asked the estate attorney about in August 2020 as a possible objector to his $144,069.31 distribution — a fear with a documented basis, since she had already moved formally against him two years earlier."
+  - page: wiki/people/suzanne-frank
+    type: component-of
+    claim: "Diane is Suz's mother, which places the vigil's central conflict inside one maternal line: the daughter enforcing institutional distance while the granddaughter and great-great-grandson held the house."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: "The exclusion letters are the family-scale instance of the template: authority exercised through paperwork and monitors rather than presence, by people who — on Dan's account and Vicki's — did not visit Fran once."
+---
+
+# Diane (Rebecca Diane Van Voorhis Shrum)
+
+Diane is Dan's maternal grandmother, [[wiki/people/suzanne-frank|Suz's]]
+mother, and — the genealogical record now confirms — the only documented
+child of [[wiki/people/fran-coldren|Fran Coldren]]. She appears in the corpus
+almost entirely as an antagonist, and at one specific moment: in April 2018,
+while Fran was dying at Uniontown Hospital, Dan and
+[[wiki/people/annie-ulmer|Annie]] each received a letter informing them that
+they were not to be in Fran's house unsupervised and could not visit Fran
+without a family-assigned monitor and requests submitted in advance. Dan's
+account of the letters is unprintably hostile and entirely unhedged, and his
+objection is not that they inconvenienced him — it is that "nothing would
+have made Fran more upset and furious than this."
+
+## Who she is in the line
+
+The 23andMe genealogy export settles a descent the wiki previously had wrong.
+Fran married three times; her only recorded child came from the first
+marriage.
+
+| | Person | Born |
+|---|---|---|
+| Fran's first husband | Emmet Graden Van Voorhis | 1917-08-01, Dilliner, PA |
+| Their daughter | **Rebecca Diane Van Voorhis** | 1939-01-30, West Virginia |
+| Diane's husband | George Dixon Shrum Jr. | 1937-06-14, Pittsburgh |
+| Their daughter | Suzanne Whyel Shrum | 1962-09-15, Pittsburgh |
+
+The April 1940 census places Emmet, Fran and the fourteen-month-old Diane
+together in Smithfield, Fayette County — Fran's arrival in the county that
+becomes the family's terminus. The same record set shows Diane living in
+**Farmington Hills, Michigan between 1985 and 2010**, which is the only
+geographic fact the corpus supplies about her adult life and which would put
+her out of state for most of Dan's childhood. Nothing in the message corpus
+contradicts or confirms that.
+
+> **CORRECTED [2026-08-02]:** [[wiki/self/lineage/family-tree]] drew Fran's
+> descent through **George Dixon Shrum Jr.**, Dan's maternal *grandfather*.
+> The GEDCOM family records show the opposite: Fran's daughter is Rebecca
+> Diane Van Voorhis, Dan's maternal *grandmother*, and George Shrum Jr. is a
+> Shrum by birth with his own separate parents (G Dixon Shrum and Erma K
+> Shrum). The Whyel/Coldren money and the Whyel middle name descend to Suz
+> through her mother, not her father. The tree page has been corrected.
+
+## What she did, and why it lands the way it does
+
+The letters were sent before the final hospitalization, not in response to
+it — Dan is explicit that "they sent the letter well before this happened."
+That timing matters. It was not a reaction to a crisis; it was a standing
+position on who was permitted access to a 97-year-old woman and her house,
+issued while Dan and Annie were the people executing her stated wish to stay
+in it.
+
+The consequence was concrete. When Judge [[wiki/people/fred-adams|Fred
+Adams]] mandated that someone be with Fran twenty-four hours a day in the
+pediatric wing, shifts were assigned — and Dan and Annie were not given any.
+Dan's own note on this is characteristically flat: "I wasn't really
+complaining." They went anyway, on their own, and were the two people in the
+room when she died ([[wiki/timeline/events/fran-death-vigil]]). The
+exclusion order and the actual deathbed presence are the same story told
+twice: the family that held the authority did not attend, and the family
+members stripped of authority did.
+
+There is a second, quieter consequence. In August 2020, negotiating his
+$144,069.31 estate distribution, Dan asked the estate attorney directly what
+the odds were that his grandmother would contest it. The wiki has carried
+the identity of that grandmother as an open gap. It is almost certainly
+Diane — she is the estate's direct heir, she is the grandmother the corpus
+otherwise documents, and she had already, two years earlier, put her
+objection to Dan's proximity to Fran's assets in writing. The question was
+not paranoid.
+
+## Gaps
+
+Almost everything. Diane sends no messages in the corpus and receives none;
+there is no phone handle, no photograph, no direct exchange between her and
+Dan on record anywhere. The letters themselves are described but not
+preserved — no scan, no quoted text, no date beyond "well before" the April
+2018 admission, and no confirmation of whether they were sent by her alone,
+by her jointly with George, or by an attorney on the family's behalf. Her
+married surname is given here as Shrum on the strength of the documented
+marriage rather than a record naming her that way. Whether she attended the
+May 6, 2018 memorial at the Uniontown Country Club is unknown, as is whether
+she ever did contest the 2020 distribution — the attorney's read was that
+she would not, and no objection appears in anything since. The "grandparents
+who already hated you" that Dan feared during the earlier keno-morning fall
+are presumably Diane and George, but he never names them in that passage.
 
 
 ========================================================================
@@ -22607,23 +23203,66 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-08-02
 date_range_start: 2017-04-11
 date_range_end: 2025-11-01
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+sources:
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
 related: ["wiki/people/annie-ulmer", "wiki/people/bill-ulmer", "wiki/places/117-belmont-circle", "wiki/timeline/events/fran-death-vigil", "wiki/self/message-corpora/master-message-dump"]
-tags: [relationships, family]
+tags: [relationships, family, grief]
 knowledge: mixed
 infobox:
   name: "Ellen Ulmer"
-  relationship_to_dan: unknown
+  sex: female
+  location: uniontown
+  relationship_to_dan: family
   first_contact: 2017-04-11
-  known_for: "Ellen Ulmer is [[wiki/people/annie-ulmer|Annie]]'s mother — a steady, low-frequency but remarkably durable presence in D"
+  handles: ["+1724***2589"]
+  known_for: "The relationship that outlasted the one it came from — opened by a friend's overdose in 2017, still sending birthday wishes in 2025"
+connections:
+  - page: wiki/people/jay-lauer
+    type: caused-by
+    claim: "This thread does not merely begin near Jay Lauer's overdose — it begins because of it: Ellen's call on the night of April 10, 2017 and Dan's condolence at 19:09 the next evening are message one of an eight-and-a-half-year relationship, which makes a friend's death the documented origin of Dan's longest surviving tie to Annie's family."
+  - page: wiki/people/betherin-mechling
+    type: co-occurs
+    claim: "Ellen's first reply names Betherin as the person the family was most worried for — 'especially with B. E.' — which is what the condolence exchange was actually about."
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: instantiates
+    claim: "Ellen is the clearest case of the rule holding for a relationship Dan never chose: an in-law tie that survived the severance of the relationship it depended on, still sending unprompted birthday messages in November 2025 after the June 2026 collapse's precursors were already years underway."
+  - page: wiki/people/annie-ulmer
+    type: component-of
+    claim: "Annie's mother routed her worry about her own daughter through Dan twice — January 2019 and February 2020 — treating him as the more reliable channel to Annie than Annie."
 ---
 
 # Ellen Ulmer
 
 Ellen Ulmer is [[wiki/people/annie-ulmer|Annie]]'s mother — a steady, low-frequency but remarkably durable presence in Dan's life, with a thread that opens in April 2017 and is still sending him birthday wishes in November 2025, eight and a half years later and well past the relationship's various ruptures with Annie (`+17243662589`, 63 messages).
+
+## How it began
+
+The thread has an origin, and it is not the one anybody would guess for a
+boyfriend-and-mother relationship. Message one, at 19:09 on **April 11,
+2017**, is a condolence: "Hi Mrs. Ulmer, hope everyone is okay. It's still so
+hard to believe and only seems more tragic after reflecting. If I can help out
+in any way please don't hesitate to let me know. I don't know if I have
+anything particularly profound to offer, but (as someone who tried to help,
+and has gone through this a lot) I wanted to offer."
+
+The death was [[wiki/people/jay-lauer|Jay Lauer's]] — a heroin overdose the
+day before — and Jay had been engaged to Ellen's niece
+[[wiki/people/betherin-mechling|Betherin Mechling]]. Ellen had called Dan
+herself the previous night to tell him. Her reply that evening names the
+person she was carrying it for: "I appreciate the offer and will keep it in
+mind as things progress — especially with B. E."
+
+That is worth stating plainly because of what came after. The single most
+durable tie Dan has to Annie's family — the one still running unprompted in
+2025, through every severance in the relationship that occasioned it — opened
+because a mutual acquaintance died and Dan wrote a note as the person in the
+room who had "gone through this a lot." He offered, in his own framing, the
+one form of expertise he had. It was accepted, and the channel never closed.
 
 ## The relationship
 
@@ -22640,9 +23279,17 @@ Ellen sends her own condolence after Fran's death in April 2018 ("Fran was truly
 | Direction | Unreliable in this export (marked "Received" throughout) — read as mostly one-way (Ellen to Dan) |
 | Handle | +17243662589 |
 
-## Related
+## Gaps
 
-[[wiki/people/annie-ulmer]] · [[wiki/people/bill-ulmer]] · [[wiki/places/117-belmont-circle]] · [[wiki/timeline/events/fran-death-vigil]] · [[wiki/self/message-corpora/master-message-dump]]
+Ellen's side of the thread is the only side reliably preserved — the export
+marks every row "Received," so most of what Dan sent her is not recoverable
+except where it survives, as the April 2017 condolence does, in the full
+message dump. Nothing records whether she and Dan have had any contact since
+the June 2026 severance or the July 2026 re-contact
+([[wiki/timeline/events/july-2026-recontact]]); the last message on file is
+the November 2025 birthday note, which predates both. Her relation to
+Betherin Mechling is inferred from the Mechling/Ulmer cousin framing rather
+than stated.
 
 
 ========================================================================
@@ -23259,6 +23906,8 @@ date_modified: 2026-08-02
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, uniontown-era, music-production, grief]
 sources:
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/people/captures/2026-08-01_180942_fran-name-change.md
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -23308,6 +23957,18 @@ connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
     type: evidences
     claim: "Fran anchors the maternal numbness-of-survival half of the dialectic frame."
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: caused-by
+    claim: "One night in March 2018 ended a fifty-year residency and, four weeks later, her life — and it happened while a plan Dan had been arranging for a year was executing in the same house, which is the fact the family record had never carried."
+  - page: wiki/people/diane-shrum
+    type: contains
+    claim: "Fran's only documented child is Rebecca Diane Van Voorhis, born 1939 to her first marriage — which means the whole estate and every hostile letter of April 2018 descend through one person, and that the wiki's family tree had her line running through the wrong grandparent."
+  - page: wiki/people/fred-adams
+    type: supplies
+    claim: "Ira's law partner at Coldren Adams held the trustee's authority over her money for the last decades of her life and set the 24-hour mandate at her deathbed — the marriage is why an attorney, not a relative, controlled the estate."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: co-occurs
+    claim: "Her deathbed is the setting of the corpus's most disproportionate incident: four fire trucks and an escort off hospital property, triggered by one drag of nicotine feet from where she was dying."
 ---
 
 
@@ -23378,10 +24039,17 @@ own decade began sixty feet from where their families' had.
 ## The patron
 
 Fran ran a documented gift protocol — **$100 per year of the recipient's
-life** (age 20 = $2,000) — and at the hinge of Dan's career she deployed it
-with intent: she gave him a **Numark NS7 II DJ controller** plus a
-significant check, the seed capital and hardware of the entire production
-identity. Every alias since — SLOPPP, MOGZART, GRIPNOTIC — and the
+life**, running from about **age 13** ($1,400 at fourteen, $1,500 at fifteen,
+$2,000 at twenty) — and at the hinge of Dan's career she deployed it with
+intent: she gave him a **Numark NS7 II DJ controller** plus a significant
+check, the seed capital and hardware of the entire production identity. The
+2026-08-02 capture adds the detail that matters about how that happened: the
+controller was **not spontaneous**. As the annual figure ballooned with his
+age, Dan *convinced her* to buy the NS7 II on top of the check — he asked, and
+she paid. The founding act of the production identity is therefore a
+successful piece of persuasion aimed at a willing patron, which is the same
+faculty [[wiki/mind/concepts/acquisition-drive]] describes operating
+everywhere else in his life at considerably worse cost-benefit ratios. Every alias since — SLOPPP, MOGZART, GRIPNOTIC — and the
 involuntary sub-bass signature that runs through them
 ([[wiki/interests/music/concepts/sub-bass-signature]]) trace back to the
 patronage of a woman born in a West Virginia coal town in 1920. The corpus
@@ -23392,22 +24060,62 @@ creative channel became the same thing.
 
 As her dementia and physical health declined, Dan and Annie — living at
 [[wiki/places/155-virginia-ave|155 Virginia Ave]], on the lot adjacent to
-hers — were **paid as her round-the-clock caregivers**, executing her
-standing directive: "Stay in this house as long as humanly possible." The
-record's texture from those years is unlike anything else in the corpus:
-Dan entertaining her with GTA V stage-mode chaos (her review: "WHAT. THE
-[EXPLETIVE]. IS HAPPENING"); the photograph of her posing delightedly with
-his glass bong, which she had mistaken for "a lovely vase," a gray
-sweatshirt in the background accidentally composing itself into rising
-smoke. He treated a 97-year-old with dementia as a peer, and the record
-suggests she gave as good as she got.
+hers — were **paid as her round-the-clock caregivers**, covering the
+afternoons and the overnights, executing her standing directive: "Stay in
+this house as long as humanly possible." The directive was categorical and
+both Dan and [[wiki/people/suzanne-frank|Suz]] were given it in the same
+terms — *keep me at home no matter what, do everything you can to not let me
+get taken from this house* — with an explicit rationale attached that
+everyone involved understood: if she went into a nursing facility once, she
+was never getting out. She turned out to be right about that, which is why
+the directive governs the reading of every decision made in her last year,
+including some indefensible ones.
+
+The division of labour was clean and Dan describes it without flattering
+himself. Annie was, in his own assessment, "10,000× more responsible" — she
+handled the changing, the day-to-day survival, the actual nursing. Dan's
+contribution was the opposite and, on the evidence, not a lesser one: he
+refused to sanitize her existence and treated a 97-year-old with dementia as
+a peer. The texture from those years is unlike anything else in the corpus.
+He took her out in the golf cart on the course that had been her back garden
+for half a century, which is how he came to have the full story of her
+history with Arnold Palmer first-hand. They watched *Pretty Woman* together
+and analyzed it, Fran ruling that the prostitute narrative was "way classier
+than some Cary Grant movie." Already prone to talking to people on the
+television when nobody was watching, she was handed a version of it she
+could not parse at all: Dan fired up *GTA V* in stage mode and detonated
+several hundred cars on a photorealistic Los Angeles bridge, producing the
+line the family has kept — "WHAT. THE FUCK. IS HAPPENING IN THIS WORLD
+ANYMORE." She hit his vape. And there is the photograph of her posing
+delightedly with his glass bong, which she had complimented as "a lovely
+vase," a gray sweatshirt in the background accidentally composing itself
+into rising smoke. He filmed most of that year — which is why so much of it
+survives at all — and his own framing of what he was documenting is the
+right one: a wild spirit resisting institutional capture, in the months
+before the institution got her.
 
 The vigil's end — the first spill (the filmed 8 AM discovery, ~late
 2017), the second fall that mattered ("Down Goes Frazier," night of
 March 7–8, 2018), the nursing home that consumed her in two weeks
 exactly as she'd predicted, the pediatric wing, the water shutdown, and
 the snowstorm minutes after she died — is documented in full at
-[[wiki/timeline/events/fran-death-vigil]].
+[[wiki/timeline/events/fran-death-vigil]]. The night of the fall itself
+now has its own page, [[wiki/timeline/events/the-fall-of-fran]], because
+of what was happening in the house at the same time: the first encounter
+of Dan and Annie's non-monogamy arrangement was in progress, and the fall
+that broke her hip came in the minutes after it ended. Dan's account of
+the decision he made between the two impacts rests on her own directive —
+she said she wanted to go back to bed, and calling an ambulance meant
+overriding the one thing she had asked of him.
+
+What the nursing home did to her is the part he reports without any
+comedy. Her mind did not come back, and what replaced it was a single
+question asked without stopping: *when am I leaving?* He reads the
+fixation as being about the house, about autonomy, and about a specific
+contempt for absorption into "the institutional sludge that defined
+'normalcy' or pleb existence" — which is as close as the record comes to
+a statement of her politics, and it is recognizably the same disposition
+her great-grandson runs at [[wiki/mind/synthesis/vertical-authority-skepticism]].
 
 > **CONTRADICTION (death date) — RESOLVED [2026-07-18]:** The GEDCOM
 > records her death as **April 4, 2018**; the DANSYNTH narrative dated it
@@ -23425,7 +24133,11 @@ the snowstorm minutes after she died — is documented in full at
 > **April 4** as the death date.
 
 > **CONTRADICTION (age):** Core documents say she died at 98; the 1920
-> birth year makes her 97 at an April 2018 death. Unresolved.
+> birth year makes her 97 at an April 2018 death; and the 2026-08-02 capture
+> calls her "a 93-year-old matriarch" during the caregiving years. The GEDCOM
+> birth date (1920-08-15) is the only documentary figure among the three and
+> is treated as governing — 97 at death, 95–97 across the caregiving years.
+> The 93 and the 98 are both remembered numbers and neither is reconciled.
 
 > **CONTRADICTION (death timing):** Two captures on 2026-07-15 (19:20 and
 > 19:26) each describe Fran as "the single largest life influence" who "died
@@ -23446,11 +24158,23 @@ Fran is the one unambiguous positive anchor in the family record — the
 counterweight to the vertical-authority template everywhere else
 ([[wiki/mind/synthesis/vertical-authority-skepticism]]). Structurally the
 relationship was lateral: peer humor, patronage without control, mutual
-delight. She is also the strongest documented evidence against reading
-Dan's low-altruism scores as incapacity — the 24/7 vigil, the
-caddying-before-deathbed double shifts, and the refusal to abandon her to
-institutional care are the record's clearest instance of sustained, costly
-devotion. And she is half of the reason the Annie relationship carried a
+delight. She is also the record's clearest instance of sustained, costly
+devotion — the 24/7 vigil, the caddying-before-deathbed double shifts, and
+the refusal to abandon her to institutional care.
+
+> **REVISED [2026-08-02]:** this page previously read that devotion as "the
+> strongest documented evidence against reading Dan's low-altruism scores as
+> incapacity." [[wiki/mind/concepts/acquisition-drive]] gives a better
+> account, and the correction is worth stating because it is more damning
+> and more useful at once: the caregiving is not evidence *against* Altruism
+> at the 1st percentile, it is evidence that altruism was never the operative
+> variable. Fran's care was a goal Dan generated himself and was never
+> assigned, which is the only kind of goal the completion drive can serve —
+> and it therefore got the full engine, exactly as narcotics procurement
+> does. The devotion is real and the psychometric score is also real; what
+> reconciles them is who set the objective.
+
+And she is half of the reason the Annie relationship carried a
 "mythic, fated" charge: the deathwatch Dan and Annie kept together, three
 years into their decade, is the emotional high-water mark of the entire
 record of them as a couple.
@@ -23545,15 +24269,61 @@ trustee of her accounts" — he issued the 24-hour-presence mandate during
 the final vigil and managed the Ira-estate accounts, making him the
 named institutional node of the family's capital.
 
-**Gaps:** the capture states she was *"born Jesse Frances Coldren"* — but
-Coldren is the surname of her *third* husband, so the birth surname as given
-cannot be right and her maiden name remains unknown; the first husband is still
-unidentified; Thomas Whyel's exact death date within the 1970s is unfixed; the
-exact NS7 gift date; identity of the "grandmother"
-Dan asked about as a potential objector to the 2020 estate distribution;
-the date of the Everglades tarpon and whether the "perfect bowling"
-reference in the Photo Thread denotes a game beyond the documented
-Manor Lanes 200.
+## The three marriages, resolved from the record
+
+> **GAPS CLOSED [2026-08-02] — read directly from the 23andMe GEDCOM
+> (`Daniel Frank family tree.txt`) rather than from the pages written above
+> it.** Two gaps this page had carried since 2026-08-01 are answered by the
+> export's own family records, and a third page turns out to have been wrong.
+
+She was born **Jesse Frances Thomas**, one of the ten recorded children of
+**Marion Edward Thomas Sr.** (b. 1877, West Virginia) and **Ida Ellen
+Conwell** (b. 1880, West Virginia). **Thomas is the maiden name** — which
+closes the gap this page opened when the 2026-08-01 capture reported her as
+"born Jesse Frances Coldren," a surname she could not have carried until
+her third marriage. The GEDCOM's own rendering of her name preserves the
+whole accretion in one string: *Jesse Frances Thomas Whyel Coldren*.
+
+| Marriage | Husband | Born | Issue |
+| :--- | :--- | :--- | :--- |
+| First | **Emmet Graden Van Voorhis** | 1917-08-01, Dilliner, PA | Rebecca Diane Van Voorhis, b. 1939 |
+| Second | Thomas Whyel (coal and coke) | ~1897, Fayette County, PA | none recorded |
+| Third | Ira Burdette Coldren Jr. | 1924-06-15, Uniontown, PA | none recorded |
+
+The first husband — the standing gap — is **Emmet Graden Van Voorhis**, and
+the April 1940 census places Emmet, Fran and their fourteen-month-old
+daughter together in **Smithfield, Fayette County**, which dates her arrival
+in the county the family never leaves again. Her only recorded child is that
+daughter, **[[wiki/people/diane-shrum|Rebecca Diane Van Voorhis]]** — Dan's
+maternal grandmother, and the "Diane" who sent the letters barring Dan and
+Annie from this house during the final vigil.
+
+> **CORRECTION [2026-08-02] — the descent ran through the wrong grandparent.**
+> [[wiki/self/lineage/family-tree]] drew Fran's line to Dan through **George
+> Dixon Shrum Jr.**, the maternal *grandfather*. The GEDCOM shows George Shrum
+> Jr. is a Shrum by birth with his own parents (G Dixon Shrum and Erma K
+> Shrum) and married *into* the line. The Whyel and Coldren money, and the
+> Whyel name Suz carries in the middle, descend through Dan's maternal
+> **grandmother**. The tree page is corrected.
+
+> **CONTRADICTION [2026-08-02] — what the T stands for.** The 2026-08-01
+> capture read "Frances **T.** Coldren" as a memorial: T for *Thomas*, the
+> first name of the husband she had just buried when she married Ira. The
+> GEDCOM makes that reading over-determined rather than wrong — **Thomas was
+> also her own maiden surname.** The initial she carried into her third
+> marriage is simultaneously her dead second husband's given name and her
+> father's family name, and nothing on record distinguishes which she meant.
+> The memorial reading is kept because it is her own family's account; the
+> plainer one is now recorded beside it.
+
+**Gaps:** Thomas Whyel's exact death date within the 1970s is unfixed (the
+GEDCOM carries an "Abt. 1970" date against her record without saying what it
+marks); whether Emmet Van Voorhis died or the marriage ended some other way
+is unrecorded, as is his death date; the exact NS7 gift date; the date of the
+Everglades tarpon and whether the "perfect bowling" reference in the Photo
+Thread denotes a game beyond the documented Manor Lanes 200. Nine siblings
+are now named in the record and none of them has a page or appears anywhere
+in the message corpus.
 
 
 ========================================================================
@@ -23733,6 +24503,96 @@ school.
 
 
 ========================================================================
+PAGE: wiki/people/fred-adams.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+title: "Judge Fred Adams"
+aliases: ["Fred Adams", "Judge Adams"]
+status: stable
+knowledge: mixed
+date_created: 2026-08-02
+date_modified: 2026-08-02
+sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
+  - "raw/self/dox-md/_Photo Thread PT II_ Grand Finale Calibration .md"
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+tags: [family, legal, financial-stress, uniontown-era]
+infobox:
+  name: "Fred Adams"
+  sex: male
+  location: uniontown
+  relationship_to_dan: contact
+  role: "attorney, later judge; partner at Coldren Adams; trustee/executor of the Coldren estate"
+  known_for: "The 24-hour-presence mandate during Fran's final vigil, and control of the estate that produced Dan's 2020 distribution"
+connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: component-of
+    claim: "Adams is the money spine's institutional valve: the capital that reaches Dan as the 2020 distribution passed through one man's discretion for the whole period Fran was alive, which is why the family's largest asset never behaved like an inheritance in waiting."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: causes
+    claim: "His mandate that someone be with Fran twenty-four hours a day is what created the shift rotation, and therefore what made the family's exclusion of Dan and Annie from that rotation a formal act rather than a social one."
+  - page: wiki/people/fran-coldren
+    type: supplied-by
+    claim: "Adams's authority derives entirely from Ira Coldren Jr. — law partner first, then trustee of the accounts Ira's estate left her — so Fran's third marriage is the reason a lawyer controlled her money for the last decades of her life."
+  - page: wiki/people/diane-shrum
+    type: co-occurs
+    claim: "The two authorities over Fran's final weeks acted in the same direction from different seats: Adams set the rotation, the family's letters decided who was eligible for it, and neither instrument was held by anyone doing the caregiving."
+---
+
+# Judge Fred Adams
+
+Fred Adams is the institutional node of the Coldren family's money. He was
+[[wiki/people/fran-coldren|Fran Coldren's]] third husband Ira B. Coldren
+Jr.'s law partner — the operator names the firm as **Coldren Adams** — and
+after Ira's death he became, in Dan's own description, "basically the trustee
+of her accounts," the overseer of everything to do with Fran's money while
+she was alive and the executor of the estate afterward. He later became a
+judge, and the corpus refers to him from that point as Judge Adams.
+
+He appears in the record at two moments, and they are the two moments that
+matter most in the family's history.
+
+The first is the vigil. When Fran was moved to a private room in the
+Uniontown Hospital pediatric wing on April 1, 2018 — a room she got because
+she and Ira had been major donors to the hospital — it was Adams who mandated
+that someone be with her twenty-four hours a day so that she would not be
+alone when she died. That instruction is the reason a formal shift rotation
+existed at all ([[wiki/timeline/events/fran-death-vigil]]), and it is
+therefore also the reason that Dan and [[wiki/people/annie-ulmer|Annie]]
+being excluded from it — by the family letters described on
+[[wiki/people/diane-shrum]] — was an exclusion from something rather than
+merely an absence of invitation. The mandate is a humane instruction issued
+by the person furthest from the bedside, and it is the clearest single
+illustration of how the family's authority and the family's presence sat in
+different hands.
+
+The second is the money. The Ira-estate capital Adams administered is the
+upstream source of the **$144,069.31** court-ordered distribution Dan
+received in 2020 — a $10,000 advance in June, the judge's order signed
+August 21, and a final check of $134,069.31 released September 1, routed
+through [[wiki/people/suzanne-frank|Suz]]. That arrival is the largest single
+capital event in Dan's documented life
+([[wiki/mind/synthesis/estate-money-spine]]), and the fact that it took two
+and a half years to arrive after Fran's death is a function of the structure
+Adams sat at the centre of.
+
+## Gaps
+
+Adams sends and receives nothing in the message corpus; every fact here comes
+from Dan's narration or from the estate attorney's calls, and the estate
+attorney reached in August 2020 (`+17245706170`) is not established to be
+Adams or his office. His full name, the years he practised, when and to what
+bench he was appointed, and whether Coldren Adams still exists are all
+unverified and answerable from Fayette County bar and court records outside
+the corpus. Whether he was the executor in the formal legal sense the
+operator uses, or the trustee of a separate instrument, is not distinguished
+anywhere — the two roles are used interchangeably in every telling.
+
+
+========================================================================
 PAGE: wiki/people/gabe.md
 ========================================================================
 
@@ -23834,7 +24694,7 @@ domain: people
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 sources: []
 related: []
 ---
@@ -23850,6 +24710,7 @@ related: []
 - [[wiki/people/ally-lubin]] — Friend since a 2013 FB thread (dark humor, "North Carolina"); a much larger 452-message iMessage thread (2019-2023) merged in from a duplicate stub.
 - [[wiki/people/anita]] — BFS gas-station GM who originated the $50 drawer-shortage claim; her "gas, foodstamps, lottery" confabulation and the Timmy blame-pivot make her the vertical-suspect exhibit.
 - [[wiki/people/annie-ulmer]] — Anne ("Annie") Ulmer. Primary relationship from Thanksgiving 2015; the June 1 2026 closure held 52 days and failed — status open, not historical.
+- [[wiki/people/betherin-mechling]] — Annie's cousin; fiancée of Jay Lauer, controlled his finances, returned his ring weeks before his April 2017 overdose.
 - [[wiki/people/annoying]] — Unidentified 2019 cocaine dealer, saved under Dan's own "annoying" label.
 - [[wiki/people/arnu]] — Property work occurs amid context-core housing transition and work-power-dynamics (caretaker ambiguities +…
 - [[wiki/people/bekah-fullem]] — A brief flirtation, then two crisis contacts in early 2020: her dying cat and a rape disclosure Dan responded to warmly.
@@ -23874,6 +24735,7 @@ related: []
 - [[wiki/people/danielle-onesi]] — Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort).…
 - [[wiki/people/dan-polyak]] — Longtime friend; documented the April 2019 phone-number impersonation used to reach Ally Lubin, and received the same-morning account of the Bryan encounter.
 - [[wiki/people/danny-matthews]] — Realtor who sold Fran's house; also half of a swinger couple (with Nicole) Dan and Annie played with 2018–2024.
+- [[wiki/people/diane-shrum]] — Rebecca Diane Van Voorhis Shrum, Dan's maternal grandmother and Fran's only child; sent the April 2018 letters barring Dan and Annie from Fran's house.
 - [[wiki/people/davey-fitzpatrick]] — Nemacolin assistant caddie master (2018) and Dan's scheduler/friend for the last Uniontown working year; the thread ends the day Dan tells him about the NYC move.
 - [[wiki/people/david-beard]] — Golf-course-adjacent contact who sold Dan a used drone in Sept 2018, the middle purchase in a three-drone summer.
 - [[wiki/people/david-j-frank]] — Paternal great-grandfather of Dan Frank. Born 12 August 1892 in Russia (Jewish immigrant). Died 6 April…
@@ -23884,6 +24746,7 @@ related: []
 - [[wiki/people/elizabeth-eleanor]] — Fellow recovering addict; a single July 2013 conversation yielding the only Suboxone dosage figure and earliest INTP self-ID in the corpus.
 - [[wiki/people/eli]] — Coworker (male) of Annie Ulmer at Au Za'atar (or related NYC hospitality). Central to the eli-incident as…
 - [[wiki/people/ellen-ulmer]] — Annie's mother; steady contact 2017-2025, confirms Jim and Sugie as Annie's grandparents.
+- [[wiki/people/fred-adams]] — Ira Coldren's law partner at Coldren Adams, later a judge; trustee of Fran's accounts and the source of the 24-hour deathbed mandate.
 - [[wiki/people/emaly-minerd]] — Intense 5-month 2018-19 relationship; tried to refuse the couple's sex-first dynamic, collapsed into it anyway.
 - [[wiki/people/eric-jester]] — Full Sail friend, decade-spanning sparse contact; corroborates the Trinity St. Clair booking cost.
 - [[wiki/people/jamie-mohler]] — Full Sail friend present the day Dan first met Menore during the NYC-1 years; transitioned ~2023, now gendered female.
@@ -23902,7 +24765,7 @@ related: []
 - [[wiki/people/jaredtricia]] — Married couple who booked Annie (as "Hazel") for paid group encounters, June 2019.
 - [[wiki/people/jason-bermejo]] — Full Sail–era formative music friend, one of two people whose taste Dan defers to; Feb 2026 renewal at 400+ messages/month.
 - [[wiki/people/jason-cole]] — Artist friend; a 2016 pet-portrait commission that curdled over unpaid work.
-- [[wiki/people/jay-lauer]] — Friend and mutual sub/coke trading partner, winter 2016-2017.
+- [[wiki/people/jay-lauer]] — Friend and peer suboxone/cocaine trading partner, winter 2016-17; died of a heroin overdose on or about April 11 2017 — the supply network's only documented fatality.
 - [[wiki/people/jenn-lynn]] — Uniontown friend repeatedly solicited (with boyfriend Brad) for a two-couple swap, 2017-2020; parallel drug-sourcing relationship.
 - [[wiki/people/jerad-friedline]]
 - [[wiki/people/jess]] — Swinging-couple recruitment contact, spring 2017; fizzled after one dense day.
@@ -24980,42 +25843,172 @@ PAGE: wiki/people/jay-lauer.md
 ---
 domain: people
 page_type: entity
+title: "Jay Lauer"
+aliases: ["Jay"]
 status: closed
-date_created: 2026-06-23
-date_modified: 2026-07-14
-date_range_start: 2016-12-23
-date_range_end: 2017-02-11
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump"]
-tags: [addiction-recovery, financial-stress, uniontown-era]
 knowledge: mixed
+date_created: 2026-06-23
+date_modified: 2026-08-02
+date_range_start: 2016-12-23
+date_range_end: 2017-04-11
+sources:
+  - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+tags: [addiction-recovery, financial-stress, uniontown-era, grief]
 infobox:
   name: "Jay Lauer"
-  relationship_to_dan: unknown
+  sex: male
+  location: uniontown
+  relationship_to_dan: friend
   first_contact: 2016-12-23
-  known_for: "Jay Lauer was a friend and mutual suboxone/cocaine trading partner over a seven-week stretch spanning the 2016–2017 New "
+  handles: ["+1724***1368"]
+  known_for: "Died of a heroin overdose on or about April 11, 2017 — the only documented death in the supply network"
+connections:
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Jay is the network's only documented fatality, and the case that shows what the peer-trading tier actually risked: the same reciprocal suboxone-and-cash trading that reads as mutual credit between broke men everywhere else in the corpus ended here in an overdose four weeks after the thread went quiet."
+  - page: wiki/people/betherin-mechling
+    type: contextualizes
+    claim: "His fiancée controlled his money, which is why his thread is a chain of fronting requests rather than transactions — and she returned his ring after a domestic incident weeks before he died."
+  - page: wiki/people/ellen-ulmer
+    type: causes
+    claim: "Jay's death is what opened the Ellen Ulmer thread: her call on the night of April 10, 2017 and Dan's condolence the next evening are the first contact in a relationship still running eight and a half years later, outlasting the relationship with her daughter that occasioned it."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "The death reached Dan through Annie's family rather than his own, and produced the corpus's most unguarded declaration of the relationship's worth — 'all this stuff about jay just reminds me how important it is to protect us' — the day after."
+  - page: wiki/people/rick-frank
+    type: evidences
+    claim: "Dan's reply to his father the same night — recalling being called to Cross Creek and told 'there is no turning back from opiates and heroin, that you lose a part of yourself and your ability to be happy' — is the corpus's only record of Rick delivering a direct addiction warning to his son."
+  - page: wiki/timeline/periods/2017-poverty-floor
+    type: component-of
+    claim: "The overdose lands inside the corpus's documented financial trough and is its human cost: the same seven-week window of $10 and $20 fronting requests that measures the poverty floor is the window Jay did not come out of."
 ---
 
 # Jay Lauer
 
-Jay Lauer was a friend and mutual suboxone/cocaine trading partner over a seven-week stretch spanning the 2016–2017 New Year (`+17248121368`, 116 messages, Dec 23, 2016 – Feb 11, 2017). Unlike the purely mechanical dealer threads elsewhere in the corpus, this one has real friction and real friendship texture: Jay's finances are controlled by a partner named Betherin, he repeatedly comes up short and asks Dan to front him, and the two clearly hang out beyond the transactions — visiting each other's homes, planning to bring an acoustic guitar over, referencing a shared friend group and a New Year's Eve gathering at "Claire's."
+Jay Lauer was a friend of Dan's from the Uniontown-area circle around
+[[wiki/people/annie-ulmer|Annie's]] family — engaged to Annie's cousin
+[[wiki/people/betherin-mechling|Betherin Mechling]] — and a mutual
+suboxone-and-cocaine trading partner across a seven-week stretch spanning the
+2016–2017 New Year. **He died of a heroin overdose on or about April 11,
+2017**, two months after the thread's last message. He is the only person in
+the corpus whose death is attributable to the drug economy Dan was inside at
+the same time, and the record of the day he died is one of the most
+revealing single days in the whole message archive.
 
-## Texture
+## The thread (December 23, 2016 – February 11, 2017)
 
-Jay's messages track a familiar addiction-economy pattern: promising payment "when my check clears," scraping together partial amounts ($10, $20, $30–40 at a time), and repeatedly asking Dan to "look out" for him even after running out of money — "I need some bad man.. but I blew all my money under the impression you would look out." A January 19, 2017 exchange takes a dark turn when Jay, apparently joking about a physical confrontation over sunglasses, escalates into an offensive 9/11 joke ("I bet your a fuckin Muslim an I'm gonna beat you Just like the heroes did on flight 93... God bless"), then immediately walks it back ("Sorry I got carried away") — a jarring but characteristic register-swing for the thread. Political commentary (anti-Trump, impeachment talk) appears briefly in late January 2017. The thread ends abruptly on February 11, 2017 with an unanswered "Yo."
+The 116-message thread (`+17248121368`) has real friendship texture rather
+than the mechanical register of the dealer threads elsewhere in
+[[wiki/mind/synthesis/supply-network]]: the two visit each other's houses,
+plan to bring an acoustic guitar over, share a friend group, and reference a
+New Year's Eve gathering at "Claire's." What organizes it, though, is money
+Jay does not control. Betherin held his finances, and his side of the
+conversation is a chain of workarounds — "Betherin controls all the money,"
+"Betherin saying my check didn't clear," "I escaped without Betherin hmu."
+The requests are small and constant: $10, $20, $30–40, promises to settle
+when a check clears, and a reproach when Dan doesn't come through — "I need
+some bad man.. but I blew all my money under the impression you would look
+out."
 
-## Corpus Dimensions
+The register swings violently. A January 19, 2017 exchange about sunglasses
+escalates into an unprompted and offensive September 11 joke, then reverses
+into an apology within minutes ("Sorry I got carried away"). Brief anti-Trump
+and impeachment commentary appears in late January. The thread stops on
+February 11, 2017 with an unanswered "Yo."
 
 | Metric | Value |
 |--------|-------|
 | Messages | 116 |
-| Date range | 2016-12-23 to 2017-02-11 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Jay to Dan) |
+| Thread range | 2016-12-23 → 2017-02-11 |
+| Gap between last message and death | ~8 weeks |
+| Direction field | Marked "Received" throughout; unreliable — read as two-way |
 | Handle | +17248121368 |
 
-## Related
+## The death, and how it is dated
 
-[[wiki/timeline/periods/2017-poverty-floor]] · [[wiki/self/message-corpora/master-message-dump]]
+The operator capture that prompted this rewrite dates the death to "early
+2017" and asks for the exact date to be researched. The corpus supplies it
+with unusual precision, because Dan spent April 11, 2017 telling four
+different people at four different levels of candour.
+
+| Time (2017-04-11) | To | What |
+|---|---|---|
+| 11:07 | Annie | "I'm literally in disbelief over jay.. i dont know what to even think" |
+| 14:44 | [[wiki/people/lindsay-carolla|Lindsay]] | "Did u hear about jay?" |
+| 18:07 | [[wiki/people/rick-frank|Rick]] (father) | "Had another friend die of an overdose today" |
+| 19:09 | [[wiki/people/ellen-ulmer|Ellen Ulmer]] | The condolence — first message of that thread |
+| 20:48 | Annie | "I had to work all day, still tying to process jay" |
+
+The date is therefore fixed to **April 10 or 11, 2017**. Dan says the death
+happened "today" on the 11th but also that "Ellen called me last night to
+tell me," which puts the news in his hands on the evening of the 10th; the
+discrepancy is ordinary looseness and is not resolved here. Dan and Annie
+attended the early viewing on **April 17** ("Mr. Mechling said to tell you
+hello. I had a cancel today so we came to the early viewing"); the funeral
+was **April 18**.
+
+## What Dan says about it
+
+The messages to his father are the substantive ones, and they contain the
+single most important fact on this page — that Dan had tried to intervene,
+using his own experience as the template:
+
+> "I tried to help him. I talked to him about Suboxone, and told him how it
+> helped me finally get out of that world. He went to the doctor and sold his
+> prescription for heroin. At that point, there's nothing anyone else can do."
+
+That reframes the thread above entirely. The suboxone moving between the two
+of them was not simply trade; on Dan's account it was a harm-reduction route
+he had walked himself and was trying to hand over, and it was converted back
+into the drug it was meant to replace. This is the corpus's only documented
+instance of Dan attempting to move someone else out of the supply economy,
+and it failed.
+
+Two other things surface the same night. He describes the pattern as
+familiar — "as someone who tried to help, and has gone through this a lot,"
+and "I talked to her for almost an hour about how many times I've experienced
+this" — which asserts an overdose history broader than anything the wiki has
+so far documented. And he answers Rick by recalling Rick's own warning to
+him, delivered at Cross Creek: that "there is no turning back from opiates
+and heroin, that you lose a part of yourself and your ability to be happy."
+The son quotes the father's addiction warning back to him on the day it is
+vindicated by somebody else's death.
+
+His own summary of the day, sent to Annie at 20:48 that night, ends on
+something else entirely: work, then the family dog Sabrina being put down
+that evening, then a rejection — "and got humiliated getting rejected again
+because i can't even get a handjob to cheer me up… I fucking hate my life."
+The next evening he wrote her the least guarded thing in that year of the
+thread: "all this stuff about jay just reminds me how important it is to
+protect us and you and make sure you know how much you've changed my life for
+the better."
+
+## What the death opened
+
+The condolence Dan sent to [[wiki/people/ellen-ulmer|Ellen Ulmer]] at 19:09
+that evening is the **first message in a thread that was still running in
+November 2025** — Annie's mother sending him birthday wishes eight and a half
+years later, through every rupture in the relationship that connected them.
+The tie that outlasted the Annie relationship itself was opened by a friend's
+overdose, and Ellen's reply that night makes clear what she needed from him:
+"I appreciate the offer and will keep it in mind as things progress —
+especially with B. E."
+
+## Gaps
+
+The manner and place of death are recorded only as "an overdose" of heroin;
+no obituary, coroner's finding, or news item has been sought, and Fayette or
+Somerset County records would settle both the exact date and whether fentanyl
+was involved — Dan notes Jay was "from near Somerset." Nothing establishes
+whether the suboxone Dan supplied in December–February is connected to the
+prescription Jay later sold, or whether those are separate acquisitions. The
+broader claim that Dan has "gone through this a lot" is unquantified: no
+other overdose death is documented anywhere in the wiki, so either the corpus
+is missing them or the phrase is doing emotional rather than literal work.
+Zack Lauer appears as a separate Facebook contact and his relation to Jay is
+unestablished.
 
 
 ========================================================================
@@ -28833,7 +29826,7 @@ title: "Richard Harrison \"Rick\" Frank"
 aliases: ["Rick", "Frank Sr."]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-20
+date_modified: 2026-08-02
 infobox:
   name: Rick Frank
   status: Estranged
@@ -28850,6 +29843,9 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
+  - page: wiki/people/jay-lauer
+    type: evidenced-by
+    claim: "The night of the April 2017 overdose is the corpus's only record of Rick having delivered a direct addiction warning to his son — Dan quotes it back to him verbatim: called over to Cross Creek and told that 'there is no turning back from opiates and heroin, that you lose a part of yourself and your ability to be happy.'"
   - page: wiki/mind/synthesis/block-unblock-loop
     type: component-of
     claim: "The Rick amputation — a 12-day burst then a decade of unanswered inbound — is the loop's held-block control case, proving severance holds exactly where no dependency flows through the channel."
@@ -28940,6 +29936,21 @@ logistical, Dan's long and validation-seeking, "reinforcing fears of
 worthlessness tied to financial dependence." Other documented touchpoints:
 hockey tickets, pet inquiries — the periodic, low-intensity register the
 spine describes.
+
+The one substantial exception runs on the evening of **April 11, 2017**, and
+it is the closest thing on record to the two men talking about the thing they
+have in common. Dan told Rick that a friend had died of an overdose that day
+([[wiki/people/jay-lauer|Jay Lauer]]), described his own failed attempt to
+route Jay onto Suboxone, and then answered his father by quoting his father
+back at him: "I still remember the conversation where u called me over to
+cross creek and told me that there is no turning back from opiates and
+heroin, that you lose a part of yourself and your ability to be happy." That
+is the corpus's only record of Rick delivering a direct addiction warning to
+his son, and it survives only because Dan repeated it on the day somebody
+else's death confirmed it. Rick's reply is characteristically brief and, for
+once, exactly right: "U did the best that u could do... That's probably not
+enough but better than not doing anything." Four hours later Dan is telling
+him about getting his first customer feedback of the caddie season.
 
 ## Family position
 
@@ -30230,6 +31241,7 @@ infobox:
   relationship_to_dan: family
   first_contact: 1988-11-01
 sources:
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
@@ -30252,6 +31264,15 @@ synthesizes:
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: co-occurs
+    claim: "Fran's keep-me-home directive was given to Suz and Dan jointly, which is what let Dan read the March 2018 decision as honouring an instruction rather than making a private choice."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: causes
+    claim: "Suz vaping in Fran's hospital room without anyone remarking on it is what Dan credits with making his own far larger device feel permitted — the family habit of normalising the unremarkable-in-context producing, for once, four fire trucks and charging documents."
+  - page: wiki/people/diane-shrum
+    type: contains
+    claim: "Diane is Suz's mother and Fran's only child, which places the vigil's central conflict inside one maternal line: the daughter's letters enforcing institutional distance while the granddaughter's son held the house."
   - page: wiki/mind/psychosexual/developmental-origins
     type: causes
     claim: "Suz's affair with the shared dealer during Rick's 2005 treatment is the maternal half of the rupture the psychosexual cluster treats as its origin point."
@@ -31857,8 +32878,8 @@ title: "Vanessa C. Frank"
 aliases: ["Vanessa", "Vanessa Frank"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-12
-sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
+date_modified: 2026-08-02
+sources: ["raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md", "raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/suzanne-frank", "wiki/people/rick-frank", "wiki/self/ancestry", "wiki/self/overview", "wiki/people/annie-ulmer"]
 tags: [ai-collaboration]
 infobox:
@@ -31867,6 +32888,10 @@ infobox:
   sex: female
   location: nyc
   known_for: "Dan's younger sister, born January 16, 1994, in Greensburg, Pennsylvania —"
+connections:
+  - page: wiki/mind/concepts/acquisition-drive
+    type: co-occurs
+    claim: "The undated episode in which Dan used his sister's ATM card while she was away at college, under a pretext he flags in his own telling as a pretext, is the operator's chosen illustration of the drive running with no consequence-modelling attached."
 ---
 
 # Vanessa C. Frank
@@ -31934,6 +32959,25 @@ oscillations rather than a driver of them.
 | Date range | 2015-12-01 → 2026-03-01 |
 | Cadence | Steady low-volume over a decade; no crisis spikes |
 | Content profile | Politics, family logistics, sibling gossip |
+
+## The ATM card
+
+One episode in the sibling record comes from Dan rather than from the thread,
+and he supplies it as self-incrimination. At some point while Vanessa was
+away at college, her bank card was at [[wiki/people/suzanne-frank|Suz's]]
+house, and Dan used it — in his own telling, "'accidentally' … for a little
+while," having "got them mixed up," with the scare quotes his own. He offers
+it as his chosen illustration of a young pattern in which a determined
+pursuit and a resource within reach combined with no consequence-modelling
+attached ([[wiki/mind/concepts/acquisition-drive]]).
+
+Nothing about it is corroborated. Vanessa's own 709-message thread, which
+begins in December 2015, never mentions it, which places the episode either
+before that date or outside the record entirely; no amount, duration, date,
+or resolution is recorded, and there is no indication anywhere of whether she
+knew, whether she was repaid, or whether it was ever discussed between them.
+Given that the thread's defining quality is how low-conflict it is, the
+silence is itself worth noting rather than explaining away.
 
 ## Notes and gaps
 
@@ -32490,8 +33534,9 @@ page_type: entity
 title: "117 Belmont Circle"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-14
+date_modified: 2026-08-02
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
 related:
@@ -32503,6 +33548,12 @@ related:
   - wiki/people/ellen-ulmer
 tags: [uniontown-era]
 connections:
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: caused-by
+    claim: "The fifty-year residency did not end by sale or by decision — it ended in one night in March 2018, when Fran fell twice and left on a stretcher, and the house's later listing is a consequence rather than a cause."
+  - page: wiki/people/danny-matthews
+    type: co-occurs
+    claim: "Danny is the only person present at both of the house's endings: inside it the night Fran's residency ended, and listing it for sale fifteen months later."
   - page: wiki/people/christo-coan
     type: evidenced-by
     claim: "Dan's own October 2017 description to Christo — living on the golf course, next door to both his and Annie's grandparents, 'so noise isn't a problem' — is a first-person confirmation of this geography from outside the family record."
@@ -32531,6 +33582,16 @@ She left it only after the March 2018 fall
 ([[wiki/timeline/events/fran-death-vigil]]), and the record frames the
 two-week nursing-home collapse that followed as the confirmation that the
 house had been what was keeping her alive.
+
+The fifty-year residency therefore did not end by sale, by decision, or by
+the estate — it ended inside a single night, and the house was full at the
+time. The first encounter of Dan and Annie's non-monogamy arrangement was
+executing here when Fran fell the first time, and the second fall — the one
+that broke her hip and put her in the ambulance — came in the minutes after
+[[wiki/people/danny-matthews|Danny Matthews]] walked back out the front door
+([[wiki/timeline/events/the-fall-of-fran]]). Danny is the only person who
+appears at both of this property's endings: in it the night its occupancy
+ended, and listing it for sale fifteen months later.
 
 The house was actively re-listed after Fran's death; realtor
 [[wiki/people/danny-matthews|Danny Matthews]] (also a family acquaintance
@@ -34995,7 +36056,7 @@ domain: self
 page_type: report
 status: active
 date_created: 2026-07-25
-date_modified: 2026-07-25
+date_modified: 2026-08-02
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/ancestry/extracted/"]
 tags: [family]
 connections:
@@ -35025,9 +36086,10 @@ The documentary genealogical record of Dan Frank's ancestry, derived from an Anc
 | Paternal Grandfather | Morley Jay Frank | 1927-08-20 – 1998-12-13 | Brownsville – Hopwood, PA | [[wiki/people/morley-frank]] |
 | Paternal Great-Grandfather | David J. Frank | 1892-08-12 – 1960-04-06 | Russia – Brownsville, PA | [[wiki/people/david-j-frank]] |
 | Paternal Great-Grandmother | Sadie Harris | 1900-12-14 – 1997-11-27 | Austria – Hopwood, PA | [[wiki/people/sadie-harris]] |
-| Maternal Great-Grandmother | Frances "Fran" Whyel Coldren | 1920-08-15 – 2018-04-04 | Fort Martin, WV – Uniontown, PA | [[wiki/people/fran-coldren]] |
-| Maternal Grandfather | George Dixon Shrum Jr | 1937-06-14 | — | — |
-| Maternal Grandmother | Rebecca Diane Van Voorhis | 1939-01-30 | — | — |
+| Maternal Great-Grandmother | Frances "Fran" Whyel Coldren (b. Jesse Frances **Thomas**) | 1920-08-15 – 2018-04-04 | Fort Martin, WV – Uniontown, PA | [[wiki/people/fran-coldren]] |
+| Maternal Great-Grandfather | Emmet Graden Van Voorhis (Fran's **first** husband) | 1917-08-01 | Dilliner, PA | — |
+| Maternal Grandmother | Rebecca Diane Van Voorhis ("Diane") — **Fran's daughter** | 1939-01-30 | West Virginia | [[wiki/people/diane-shrum]] |
+| Maternal Grandfather | George Dixon Shrum Jr (married *into* the line) | 1937-06-14 | Pittsburgh, PA | — |
 
 ## Paternal Jewish Immigrant Heritage
 
@@ -35035,19 +36097,36 @@ David J. Frank (b. 1892, Russia) and Sadie Harris (b. 1900, Austria) immigrated 
 
 ## Geographic/Residence Patterns
 
-The family history demonstrates a heavy residential concentration in Fayette County (Uniontown, Brownsville, Hopwood, Champion) across generations. The paternal grandfather, Morley, lived in Brownsville (1930-1945), relocated briefly to Seattle (1957), and then moved back to Hopwood/Champion. Dan's father, Rick, lived in Uniontown from 1989 to 2002. On the maternal side, Fran's trajectory started with West Virginia origins (1920) before shifting to Pennsylvania (1940s–2018).
+The family history demonstrates a heavy residential concentration in Fayette County (Uniontown, Brownsville, Hopwood, Champion) across generations. The paternal grandfather, Morley, lived in Brownsville (1930-1945), relocated briefly to Seattle (1957), and then moved back to Hopwood/Champion. Dan's father, Rick, lived in Uniontown from 1989 to 2002. On the maternal side, Fran's trajectory started with West Virginia origins (1920) before shifting to Pennsylvania: the April 1940 census places her, her first husband Emmet Van Voorhis and their infant daughter Diane together in **Smithfield, Fayette County**, which dates the maternal line's arrival in the county it never leaves. Diane herself is the line's one documented departure — Farmington Hills, Michigan, 1985–2010.
 
 ```mermaid
 graph TD
     DJ["David J. Frank <br> 1892-1960"] --> MF["Morley Jay Frank <br> 1927-1998"]
     SH["Sadie Harris <br> 1900-1997"] --> MF
-    FC["Frances 'Fran' Whyel Coldren <br> 1920-2018"] --> GS["George Dixon Shrum Jr <br> b. 1937"]
-    RV["Rebecca Diane Van Voorhis <br> b. 1939"] --> SS["Suzanne Whyel Shrum <br> b. 1962"]
-    GS --> SS
+    FC["Frances 'Fran' Whyel Coldren <br> b. Jesse Frances Thomas <br> 1920-2018"] --> RV["Rebecca Diane Van Voorhis <br> b. 1939"]
+    EV["Emmet Graden Van Voorhis <br> b. 1917"] --> RV
+    RV --> SS["Suzanne Whyel Shrum <br> b. 1962"]
+    GS["George Dixon Shrum Jr <br> b. 1937"] --> SS
     MF --> RF["Richard Harrison Frank <br> b. 1959"]
     RF --> DF["Daniel Gillingham Frank <br> b. 1988"]
     SS --> DF
 ```
+
+> **CORRECTED [2026-08-02] — the maternal line ran through the wrong
+> grandparent.** This page previously drew Fran's descent to Dan through
+> **George Dixon Shrum Jr.**, the maternal grandfather. Read directly from the
+> GEDCOM's family records (`Daniel Frank family tree.txt`), it is the other
+> way round: Fran's only recorded child is **Rebecca Diane Van Voorhis**, born
+> 1939 to Fran and her first husband **Emmet Graden Van Voorhis** — Dan's
+> maternal *grandmother*. George Shrum Jr. is a Shrum by birth, with his own
+> parents (G Dixon Shrum and Erma K Shrum), and married into the line. The
+> consequence is not cosmetic: the Whyel coal money, the Coldren legal
+> connection, the estate that produced Dan's 2020 distribution, and the "Whyel"
+> Suz carries as a middle name all descend through the grandmother, not the
+> grandfather. The same records give Fran's maiden name as **Thomas** and
+> identify her first husband, closing two gaps
+> [[wiki/people/fran-coldren]] had carried since 2026-08-01. See
+> [[wiki/people/diane-shrum]].
 
 > **REVISED [2026-07-14]:** An earlier pass here inferred that a 2025-09-03 message ("eat n' park delivered frownie cookies to my granfather's funeral i swear to god lmao") referred to George's death around that date, since he was the only grandfather without a recorded death date. Confirmed by Dan to be wrong: the message references Morley Frank's 1998 funeral, recounted in an essay by Dan's cousin Alex Frank — the auto-extracted calendar dated the entry to when Dan referenced the essay (2025), not when the funeral happened (1998). George Dixon Shrum Jr's death date remains genuinely unknown.
 
@@ -36736,8 +37815,10 @@ status: stable
 importance: high
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -36755,6 +37836,9 @@ related:
   - wiki/people/new-jim-shaffer
 tags: [financial-stress, housing, uniontown-era, family, grief]
 connections:
+  - page: wiki/mind/concepts/acquisition-drive
+    type: evidences
+    claim: "Months of unglamorous round-the-clock caregiving held to the end is not counter-evidence to Altruism at the 1st percentile — it is the completion drive pointed at a goal Dan set himself, which is the only kind of goal it can serve."
   - page: wiki/people/suzanne-frank
     type: contains
     claim: "Suz is the caretaking role in its acute form here, and this is where the pattern that later structures the estate distribution and the 463 Morgantown arrangement is first documented: the family member who is physically present through the ending is the one the money and the liability route through afterwards."
@@ -36782,6 +37866,18 @@ connections:
   - page: wiki/places/155-virginia-ave
     type: co-occurs
     claim: "The March 29 eviction notice terminating Dan's residency landed mid-vigil — the estate moving on the house while he was holding the 24/7 line."
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: follows
+    claim: "The vigil's opening event was not only a fall: the first encounter of Dan and Annie's non-monogamy arrangement was executing in the house between the two impacts, which is the fact this page carried for six weeks without knowing it."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: contains
+    claim: "The SMOK-versus-10W-vape story this page set up with its ending missing resolves as a building-wide fire alarm, four fire trucks and an escort off hospital property — the punchline named here as an open gap since 2026-07-19."
+  - page: wiki/people/diane-shrum
+    type: caused-by
+    claim: "The reason the two people who had kept Fran at home for three years held no shift in Fred Adams's mandated rotation is a letter: Dan's maternal grandmother barred them from the house unsupervised and from visiting without an assigned monitor, sent before the final admission rather than in response to it."
+  - page: wiki/people/fred-adams
+    type: caused-by
+    claim: "The 24-hour rotation existed because the estate's trustee ordered it, which is what made the family's exclusion of Dan and Annie a formal act rather than a social slight."
 ---
 
 # The Fran Vigil (March–April 2018)
@@ -36801,21 +37897,46 @@ died, it started to snow.
 
 ## Sequence
 
-**The first spill (~late 2017?).** The famous filmed crisis — Dan waking
-to a "bump" at 8:00 AM, finding Fran on the floor screaming in agony and
-unable to stand, the record preserving her "I don't want to die" — was
-not the fall that ended her residency. She stayed on the floor most of
-that day: at 2:00 PM she was still down, "barely making any sense and
-screaming whenever she tries to stand" while Annie worked a full shift;
-[[wiki/people/suzanne-frank|Suz]] — whose response had been delayed by an
-all-night video-keno session — got back at 4:00 PM and performed the
-manual lift, captured in `IMG_0569.MOV`. Dan sustained himself through
-the hours of solo triage, by his own later account, with cocaine bumps.
-Fran recovered and "ma[de] it a few more months after this spill"; the
-formal shift rotation dates from roughly this period (Marla's first
-message is December 8, 2017).
+**The first spill — the keno morning (~late 2017?).** The famous filmed
+crisis — Dan waking to a "bump" at 8:00 AM, finding Fran collapsed on the
+carpet wrapped in a white faux-fur blanket, screaming in agony and unable
+to stand, the record preserving her "I don't want to die" — was not the
+fall that ended her residency. His own bedside manner on the tape is
+panic behind laughter ("I didn't know what to do... move her..."), and he
+admits reading the first signals wrong, taking her "all right" at face
+value until specific kitchen sounds forced the correction, then trying a
+food-based reboot: "Hungry yet?"
+
+She stayed on the floor most of that day. [[wiki/people/suzanne-frank|Suz]]
+arrived around **10:00 AM**, having spent the whole night into the morning
+in a video-keno marathon; the two of them tried to lift Fran and she
+screamed. Dan's response was the correct one and he was overruled in five
+words: he told his mother "we have to just call an ambulance, this is
+crazy," and Suz said **"nope. i'll be back in a little bit"** — and left.
+At 2:00 PM Fran was still down, "barely making any sense and screaming
+whenever she tries to stand" while Annie worked a full shift. Suz got back
+at 4:00 PM and performed the manual lift, captured in `IMG_0569.MOV`. Dan
+sustained himself through the hours of solo triage, by his own later
+account, with cocaine bumps.
+
+What kept him from overriding her is on the record and is not squeamishness:
+he was, in his own words, terrified that if the situation went sideways his
+grandparents — [[wiki/people/diane-shrum|Diane]] and George, who "already
+hated" him — would use it to strip his inheritance "or worse." An
+eight-hour delay in treating a fallen 97-year-old is thereby explained by
+an estate, which is the family's whole architecture in one morning. Fran
+recovered and "ma[de] it a few more months after this spill"; the formal
+shift rotation dates from roughly this period (Marla's first message is
+December 8, 2017).
 
 **The second fall — "Down Goes Frazier" (night of March 7–8, 2018).**
+The night has its own page — [[wiki/timeline/events/the-fall-of-fran]] —
+because of what else was happening in the house: Dan had arranged the first
+encounter of his and Annie's non-monogamy arrangement with
+[[wiki/people/danny-matthews|Danny Matthews]] for that evening, Fran fell
+once while Danny was en route, the encounter went ahead on the strength of
+her keep-me-home directive, and the second, worse fall came in the minutes
+after Danny left.
 The one that ended everything, dated precisely by the caregiver threads:
 Dan and Annie had taken the overnight ("we can stay tonight, annie
 didn't have to work"), and the next morning's messages document the
@@ -36867,6 +37988,28 @@ while Suz puffed a "dainty" 10W vape in the hospital bathroom. A video
 from the period, shown afterward to a friend
 ([[wiki/people/new-jim-shaffer]]), captures Fran smoking marijuana with
 Dan directly, Annie laughing in the background.
+
+The vape story has an ending, and this page has been carrying a question
+mark where it belongs since July. Dan stepped into the room's bathroom,
+took one pull from the sub-ohm device, set off the smoke detector, and
+triggered an alarm that chain-spread through the entire hospital; four
+fire trucks arrived within minutes, and a security guard escorted him off
+the property and wrote up charging documents while Fran lay dying feet
+away. The full account — including a direct contradiction with the
+sentence above over which of the two of them was in the bathroom — is at
+[[wiki/timeline/events/uniontown-hospital-vape-alarm]].
+
+The family's exclusion order belongs in this sequence too. Dan and Annie
+each received a letter from Dan's maternal grandmother
+[[wiki/people/diane-shrum|Diane]] — Fran's only child — barring them from
+the house unsupervised and from visiting Fran without a family-assigned
+monitor and an advance written request. It had been sent *before* the
+final admission rather than in response to it, and its operative effect
+was that the two people who had held the house together for three years
+were given no shifts in the rotation [[wiki/people/fred-adams|Fred Adams]]
+had mandated. They attended anyway, off the roster, and were the two in
+the room at the end. Dan's own note on being left out is four words long:
+"I wasn't really complaining."
 
 **The end (April 4).** The wider family — the relatives Dan's telling
 calls "these fucking shitheads" — "did not come to visit her ONE. TIME."
@@ -36933,13 +38076,21 @@ end.
 > the nite," 7:23 AM April 4) established. DANSYNTH's April 1 death date
 > conflated admission with death.
 
+> **GAP CLOSED [2026-08-02] — it was a fire alarm.** This page had carried
+> "the punchline of the SMOK-vs-10W vape story (set up in the session,
+> delivered only in an uploaded video — fire alarm? staff incident?)" as an
+> open question since 2026-07-19. Two operator captures deliver it: a
+> hospital-wide alarm, four fire trucks, and Dan escorted off the property
+> with charging documents written. See
+> [[wiki/timeline/events/uniontown-hospital-vape-alarm]].
+
 **Gaps:** exact date of the first spill (~late 2017?, inferred from
 "a few more months" plus the rotation's December 2017 start); the
 nursing home's name; whether the eviction was executed (Dan remained at
 155 Virginia until Feb 2019 per the residence timeline); Dian V. Moore's
-role/relation to the estate; the punchline of the SMOK-vs-10W vape story
-(set up in the session, delivered only in an uploaded video — fire
-alarm? staff incident?). **Media ledger (not on disk):** `IMG_0569.MOV`
+role/relation to the estate; the exact date the letters from Diane were
+sent, and whether they were hers alone or the wider family's.
+**Media ledger (not on disk):** `IMG_0569.MOV`
 (the 4 PM hoisting), `IMG_4361.MOV` (last conversation), `IMG_4637.mov`
 (Suz's April 2 visit), `1080p.mov` (post-death snow), `IMG_4647.jpg`
 (eviction notice), and a "97 Years Young" audio recording of Fran exist
@@ -38031,6 +39182,209 @@ This record is the itinerary/devotion facet of the four-mode thesis at [[wiki/mi
 
 
 ========================================================================
+PAGE: wiki/timeline/events/the-fall-of-fran.md
+========================================================================
+
+---
+domain: timeline
+page_type: event
+title: "The Fall of Fran (night of March 7–8, 2018)"
+aliases: ["The Fall of Fran", "the second fall", "Down Goes Frazier"]
+status: closed
+importance: high
+knowledge: mixed
+date_created: 2026-08-02
+date_modified: 2026-08-02
+date_range: ["2018-03-07", "2018-03-08"]
+sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - "raw/self/dox-md/_Photo Thread PT II_ Grand Finale Calibration .md"
+tags: [grief, relationships, family, uniontown-era]
+connections:
+  - page: wiki/people/suzanne-frank
+    type: co-occurs
+    claim: "Fran's keep-me-home directive was given to Suz and Dan jointly, which is what let Dan read the decision to let the evening proceed as honouring an instruction rather than making a private choice."
+  - page: wiki/work/nemacolin-caddying
+    type: co-occurs
+    claim: "Caddie-season opening day is a tag both April 2017 and April 2018 carry, which is the likeliest mechanism behind the operator's one-year misdating of this whole sequence."
+  - page: wiki/people/fran-coldren
+    type: causes
+    claim: "One night ended a fifty-year residency and, four weeks later, her life — and it happened while a plan Dan had been arranging for a year was executing in the same house, which is the fact her page had never carried."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: precedes
+    claim: "This is the night the vigil begins from — the fall that put Fran in an ambulance and started the four-week sequence ending in the pediatric wing on April 4."
+  - page: wiki/places/117-belmont-circle
+    type: causes
+    claim: "The fall is what ended a fifty-year residency in a single night: Fran left the house on a stretcher and never re-entered it, so this event is the terminal cause of the property's occupancy, not the estate's later sale."
+  - page: wiki/people/danny-matthews
+    type: contains
+    claim: "Danny is the third party in the arrangement's opening night, and the corpus dates the negotiation precisely — his thread opens 2018-02-16, three weeks before this fall, which is what fixes the whole sequence in 2018 rather than the 2017 the operator's memory assigns it."
+  - page: wiki/people/annie-ulmer
+    type: contains
+    claim: "The first non-monogamous encounter of the decade-long relationship happened here, roughly two years and four months in, and it happened during a medical emergency neither party stopped it for."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: instantiates
+    claim: "This night, not the November 2018 Alexis reunion, is the earliest documented consummated instance of the arrangement — Dan's own February 2018 message to Danny ('you guys would be the first couple we were with') establishes it as the first, moving the arrangement's start date eight months earlier."
+  - page: wiki/mind/concepts/erotic-architecture
+    type: evidences
+    claim: "The operator's own account names the two-stage mechanism explicitly — a masochistic 'emotional pinch' satiated by exposure to the jealousy, then a cathartic stage of sex with the partner while the jealousy is still burning — which is the architecture's clearest first-person statement of its own procedure."
+  - page: wiki/mind/concepts/acquisition-drive
+    type: evidences
+    claim: "A plan a year in the making proceeded through a catastrophic injury to the person Dan was being paid to protect, because the plan was live and nothing that arrives mid-pursuit aborts a pursuit — this is the drive's costliest documented instance."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: precedes
+    claim: "The fall and the fire alarm bracket the same four weeks and share one structure: an urge executed on schedule inside a room where something catastrophic was already happening."
+---
+
+# The Fall of Fran (night of March 7–8, 2018)
+
+On the night of March 7–8, 2018, two things Dan Frank had been building
+toward for the better part of a year arrived in the same house within
+minutes of each other. The first was the opening encounter of the
+non-monogamy arrangement he and [[wiki/people/annie-ulmer|Annie]] had been
+discussing since roughly early 2017 — a third party, [[wiki/people/danny-matthews|Danny
+Matthews]], due at the door. The second was the fall that broke
+[[wiki/people/fran-coldren|Fran Coldren's]] hip, removed her from
+[[wiki/places/117-belmont-circle|117 Belmont Circle]] on a stretcher after
+more than fifty years, and started the four-week collapse that killed her.
+They did not merely coincide. Fran's first fall happened while Danny was en
+route; the encounter went ahead anyway; and the second, worse fall happened
+in the minutes after Dan closed the door behind him. This page is the
+night's own record. The four weeks that follow it are at
+[[wiki/timeline/events/fran-death-vigil]].
+
+## The arrangement, and why it was that night
+
+The plan had been "tossed around for almost a year" before it was executed.
+The choice of third party was deliberately unthreatening: Danny Matthews, a
+local residential realtor a grade above Dan at school and remembered from
+then as a dork — someone with no standing to displace anyone. The framing
+Dan gives it is logistical rather than romantic: "a real quick and low
+stakes romp," an in-and-out.
+
+The corpus preserves the negotiation itself, and it is unusually clean. The
+Danny Matthews thread opens on **February 16, 2018** with Dan proposing a
+Sunday, Danny answering with his and his girlfriend Nicole's own experience
+("you guys gotta be gentle though... like I said we're not pros... we've had
+our own experiences before we got together, and a few since, but it's always
+been a good time for everyone"), and Dan replying with the line that dates
+the whole architecture: **"you guys would be the first couple we were
+with."** Within twenty minutes of that first exchange Dan has also disclosed
+the camming operation ("we supplement income on chaturbate... we make like
+$150 an hour"). The arrangement was opened, negotiated and disclosed in a
+single evening, three weeks before it was consummated.
+
+That single sentence resettles a date the wiki had wrong by eight months.
+[[wiki/mind/psychosexual/arrangement-history]] had the November 2018 Alexis
+reunion as "the earliest well-documented instance"; it is not. This night is,
+and Dan says so himself in writing at the time.
+
+## What happened
+
+Fran had been put to bed several minutes earlier. The first impact came
+while Danny was still en route — loud enough that Dan's own retelling
+renders it as a detonation. He reached her and knew immediately that this
+one was different from the previous spills, including the keno morning with
+[[wiki/people/suzanne-frank|Suz]] that had ended with a manual lift and no
+ambulance. She was hurt. She said, characteristically, "No, I'm... I'm
+okay," and the doorbell rang on the same beat.
+
+The decision Dan made in that moment is the part of the night he defends
+rather than apologizes for, and he defends it with her own instruction. The
+standing directive Fran had given him and Suz was categorical: **keep me at
+home no matter what, do everything you can to not let me get taken from this
+house.** She said she wanted to go back to bed. Calling an ambulance meant
+overriding the one thing she had asked of both of them. He put her back to
+bed, and the evening went ahead.
+
+He does not remember the encounter. His account is explicit about the gap:
+"I don't remember any of it. It happened" — the next thing in memory is the
+door closing behind Danny and the walk back to the bedroom. What he does
+remember is the function it served, which he states in mechanical terms:
+the exposure filled "the masochistic emotional pinch I was looking for
+(satiating the jealousy by basking in jealousy)," with the intended payoff
+still to come — sex with Annie while the jealousy was live. This is the most
+direct first-person statement of the two-stage procedure that
+[[wiki/mind/concepts/erotic-architecture]] theorizes from the outside.
+
+The second impact came before that payoff. It was louder than the first, and
+this time Fran was screaming. Dan called 911 with the physical residue of
+the preceding hour still on him — a detail he keeps in every telling, because
+the juxtaposition is the point of the story to him. The next fixed image in
+his memory is Fran being carried out of her own house on a stretcher.
+
+## What it cost
+
+Her hip was broken. She was stabilized and moved to a rehabilitation nursing
+home — the precise outcome the standing directive existed to prevent, and
+the one she had predicted would finish her. It did. Her mind did not come
+back. What remained was a single fixed question that she asked without
+stopping: *when am I leaving?* Dan reads that fixation as being about three
+things at once and says so — the house, the autonomy, and a specific
+contempt for being absorbed into "the institutional sludge that defined
+'normalcy.'" She deteriorated, got sick, and was dead four weeks later.
+
+The stretcher is the hinge. She never re-entered 117 Belmont Circle. A
+fifty-year residency, the physical seat of everything on her page, ended on
+one night — not by sale, not by decision, but because a plan was in motion
+and a fall arrived in the middle of it.
+
+## The year: the operator says 2017, the corpus says 2018
+
+> **CONTRADICTION [2026-08-02] — RESOLVED in favour of 2018.** Both captures
+> behind this page date the sequence to March–April **2017**, and one opens by
+> asserting the date twice. Every independent record in the corpus dates it to
+> **2018**, and they do not depend on each other:
+
+| Evidence | Date | What it fixes |
+|---|---|---|
+| Ancestry GEDCOM death record | 2018-04-04 | Death |
+| [[wiki/people/marla]] caregiver thread ("she made it thru the nite," 7:23 AM) | 2018-04-03/04 | Death |
+| [[wiki/people/vicki]] gurney messages ("screaming so loud when they were putting her on the gurney") | 2018-03-08 | **This fall** |
+| Danny Matthews thread opens; "first couple we were with" | 2018-02-16 | The arrangement |
+| Eviction notice served at [[wiki/places/155-virginia-ave|155 Virginia Ave]] | 2018-03-29 | Mid-vigil |
+| [[wiki/people/davey-fitzpatrick]] condolence, unprompted | 2018-04-05 | Death |
+| [[wiki/people/ellen-ulmer]] condolence | April 2018 | Death |
+
+> The Danny Matthews row is the one that matters most for this page, because it
+> is internal to the story rather than to the death: in March 2017 the corpus
+> holds no contact with Danny at all. The arrangement could not have been
+> executed a year before it was negotiated.
+>
+> **Why the memory says 2017, as an inference and not a record.** April 2017 and
+> April 2018 shared their most distinctive tag: both were caddie-season opening
+> at Nemacolin. The corpus has Dan writing to his father on **April 11, 2017** —
+> "I got the first customer feedback of the year on my first loop! I'm trying to
+> position myself to get the big money loops on **the new course**" — which is
+> the Shepherd's Rock detail the capture attaches to the death, and it belongs to
+> 2017. April 2017 also contained a death Dan spent that week processing
+> ([[wiki/people/jay-lauer]], overdose, April 11, 2017). The likeliest reading is
+> that a true 2017 season-opening memory and a true 2017 death have been fused
+> onto the 2018 one. This paragraph is reasoning, not testimony; the dates in the
+> table are testimony.
+
+The corpus's own name for this fall, from Dan's contemporaneous telling, is
+**"Down Goes Frazier."**
+
+## Gaps
+
+Nobody has recorded what Danny Matthews knew. The corpus shows no message in
+which the medical emergency is mentioned to him before, during or after, and
+his thread continues afterward with no reference to the night at all — so
+whether he understood that a 97-year-old woman had fallen twice in the house
+he was in is unestablished, and only he could settle it. The exact clock time
+of each fall is unrecorded; the ambulance is dated to the morning of March 8
+by the caregiver threads, which places the 911 call in the small hours.
+Whether Annie knew about the first fall before the encounter, or only about
+the second, is not stated in either capture. The nursing home is still
+unnamed. And no record anywhere establishes whether the arrangement's opening
+night was ever discussed between Dan and Annie afterward in terms other than
+its own success.
+
+
+========================================================================
 PAGE: wiki/timeline/events/timeline.md
 ========================================================================
 
@@ -38116,6 +39470,155 @@ This is the master index. Full chronological + 1,104 in raw/self/dox-md/LIFE_EVE
 
 
 ========================================================================
+PAGE: wiki/timeline/events/uniontown-hospital-vape-alarm.md
+========================================================================
+
+---
+domain: timeline
+page_type: event
+title: "The Uniontown Hospital Vape Alarm (early April 2018)"
+aliases: ["four firetrucks", "the Cloud King's exit", "the vape alarm"]
+status: closed
+importance: normal
+knowledge: mixed
+date_created: 2026-08-02
+date_modified: 2026-08-02
+date_range: ["2018-04-01", "2018-04-04"]
+sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
+  - "raw/self/dox-md/_Photo Thread PT II_ Grand Finale Calibration .md"
+tags: [legal, grief, family, uniontown-era]
+connections:
+  - page: wiki/timeline/events/fran-death-vigil
+    type: component-of
+    claim: "This closes the vigil page's own named gap — the SMOK-versus-10W-vape story was set up there with its punchline missing, and the punchline is a building-wide fire alarm, four fire trucks, and Dan escorted off hospital property during his great-grandmother's death watch."
+  - page: wiki/people/suzanne-frank
+    type: caused-by
+    claim: "Suz vaping in the room without anyone remarking on it is what Dan credits — hedged in his own telling as something that 'must have absorbed into my subconscious' — with making the act feel permitted, which is the family's normalization habit producing a consequence for once."
+  - page: wiki/mind/concepts/acquisition-drive
+    type: evidences
+    claim: "A nicotine urge, arriving in a room where a woman was four days into a water shutdown, was serviced on arrival with a reasoned engineering argument attached — the drive's smallest-stakes instance and therefore its purest, because nothing but the urge itself was at stake."
+  - page: wiki/legal/2015-retail-theft-arrest
+    type: parallels
+    claim: "Both are the same shape at three years' distance: a trivially small want pursued to completion, producing charging paperwork wildly out of proportion to anything gained — snack food in 2015, one drag of nicotine in 2018."
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: follows
+    claim: "The fall and the fire alarm bracket the same four weeks and share one structure: an urge executed on schedule inside a room where something catastrophic was already under way."
+  - page: wiki/people/fran-coldren
+    type: co-occurs
+    claim: "The alarm happened feet from her deathbed and she is the reason the story is told at all — the absurdity Dan reports grasping in one second is the gap between the scale of the emergency response and the scale of the death it interrupted."
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: "Nicotine is catalogued there as the 'ritualistic regulator' that smooths transitions between chemical states; this is the record's demonstration that the regulator runs on its own schedule and does not defer to circumstance."
+---
+
+# The Uniontown Hospital Vape Alarm (early April 2018)
+
+During the four-day death watch at Uniontown Hospital, in the pediatric wing
+where [[wiki/people/fran-coldren|Fran Coldren]] was dying of a deliberate
+water shutdown, Dan Frank stepped into the room's bathroom, took one pull
+from a high-wattage sub-ohm vaporizer, set off the smoke detector, and
+triggered a fire alarm that chain-spread across the entire hospital. Four
+fire trucks arrived within minutes. Firefighters and a security guard
+entered the room; Dan told them the device "went off in my pocket"; they
+shook their heads, killed the alarms, and walked him off the property, where
+the guard wrote up charging documents. It is the corpus's second documented
+brush with charges, and by some distance its most disproportionate: the
+thing obtained was one drag of nicotine.
+
+This page exists partly to close a gap. The Photo Thread session that
+supplied most of [[wiki/timeline/events/fran-death-vigil]] set this story up
+— the enormous SMOK box mod against [[wiki/people/suzanne-frank|Suz's]]
+dainty 10-watt eJoy — and then delivered the ending only inside an uploaded
+video that is not on disk. The vigil page has carried "fire alarm? staff
+incident?" as an open question since 2026-07-19. It was a fire alarm.
+
+## The reasoning, which is the actual content
+
+What distinguishes this from an ordinary lapse is that it was not one. Dan's
+account is emphatic that he ran the argument first and found it sound:
+smoke detectors respond to *combustion* particulates; a vaporizer does not
+burn anything; the two aerosols look alike but are physically different; the
+detector, correctly understood, would agree with him. He describes himself
+in that moment by the subculture's own title — "it's 2018, I'm a fucking
+cloud king" — and notes that cloud kings are not stupid. The deduction is
+valid in form and false in its premise, which is precisely the shape
+[[wiki/mind/profile/big-five-psychometrics]] describes as the
+intellect/impulsivity paradox: top-percentile reasoning recruited *to
+authorize* an impulse rather than to interrogate it. The reasoning did not
+slow the urge down. It cleared it for takeoff.
+
+His account of the aftermath is timed to the second and worth keeping in his
+proportions: five seconds to understand what had happened, one second to
+grasp the magnitude — the coming embarrassment, the "bone shaking stupidity
+of the act itself," and the absurdity of setting off a mass emergency
+response while his great-grandmother, so dehydrated she looked like a
+skeleton, lay dying in the middle of the room. He then sat down on the couch
+next to [[wiki/people/annie-ulmer|Annie]], who had no idea what had
+happened, and said nothing at all until the firefighters walked in.
+
+## The priming
+
+Dan attributes the act, hedged, to something he had watched a few hours
+earlier: Suz standing in the hospital room taking small drags from a tiny
+eJoy vape, "just not even spoken of, it happens so naturally." His own
+gloss — "this action must have absorbed into my subconscious somehow" — is
+the only causal account anyone has offered, and it is worth taking
+seriously in the specific form he gives it. What transferred was not the
+idea of vaping; it was the observation that nobody had objected. The
+family's characteristic move of normalizing the unremarkable-in-context is,
+here, the thing that produced a consequence.
+
+> **CONTRADICTION [2026-08-02] — who was where.**
+> [[wiki/timeline/events/fran-death-vigil]], written from the Photo Thread
+> session, has Dan blowing enormous clouds from a 110-watt SMOK **in the
+> room** while Suz puffed her 10-watt device **in the hospital bathroom**.
+> Both captures behind this page invert that: **Suz in the room, Dan in the
+> bathroom.** The positions are not decorative — a bathroom smoke detector is
+> exactly where an alarm would trip, so the capture's arrangement is the one
+> that produces the documented outcome, while the vigil's arrangement does
+> not obviously produce it at all. Neither account is contemporaneous and
+> both are Dan's, roughly two weeks apart. Recorded here unresolved; if the
+> `IMG_`-series uploads are ever recovered, they settle it.
+
+## The legal residue
+
+Dan reports that the security guard "wrote my charging documents" as he was
+escorted off the property. Nothing else in the corpus follows up: there is no
+citation, no court date, no fine, and no mention of the incident in any later
+message thread. Whether a summary offense was actually filed with a Fayette
+County magistrate, or whether the paperwork was an incident report a security
+guard described in charging language, is unestablished and answerable only
+from outside the corpus. What is on record is the moment itself and the
+escort. Alongside the 2015 retail theft ([[wiki/legal/2015-retail-theft-arrest]])
+it is the second time a want of essentially zero value ran all the way to
+official paperwork.
+
+## Dating
+
+The captures place this in April, during the pediatric-wing phase and after
+the water was stopped, which brackets it between the **April 1, 2018**
+admission and the **April 4, 2018** death. The one detail that would tighten
+it — the capture's "day four of the water shutdown," which the vigil page
+also carries — points at April 3 or 4, but the shutdown's start date is
+itself derived rather than documented, so the range stands as stated. The
+captures' own year, 2017, is corrected to 2018 on the same evidence set out
+at [[wiki/timeline/events/the-fall-of-fran]].
+
+## Gaps
+
+The hospital's own record — an incident report, a trespass notice, a filed
+citation — has never been sought and would settle both the legal question and
+the exact date. Whether Dan was permitted back onto the property before Fran
+died four days later is unstated in every telling, which matters, because
+[[wiki/people/diane-shrum|Diane]]'s letter had already excluded him from the shift
+rotation; the two exclusions may have overlapped without either being the
+operative one. Annie's reaction, once she learned what had happened, is not
+recorded anywhere.
+
+
+========================================================================
 PAGE: wiki/timeline/index.md
 ========================================================================
 
@@ -38124,7 +39627,7 @@ domain: timeline
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-13
+date_modified: 2026-08-02
 sources: []
 related: []
 ---
@@ -38139,6 +39642,8 @@ related: []
 - [[wiki/timeline/events/teen-concert-years]] — 2005–2008: the literal touring record (FOB×3 + TRL taping, MCR, TBS, Say Anything, Bamboozle) that the wiki had flattened into "top music artists."
 - [[wiki/timeline/events/end-fight]] — Extended confrontation sequence captured in dedicated "THE END FIGHT" CSV export and the…
 - [[wiki/timeline/events/fran-death-vigil]] — March–April 2018: the fall, the nursing home, the pediatric wing, the snowstorm; Dan and Annie alone at the end.
+- [[wiki/timeline/events/the-fall-of-fran]] — night of March 7–8 2018: the arrangement's first encounter and the fall that ended Fran's fifty-year residency, in the same house, minutes apart.
+- [[wiki/timeline/events/uniontown-hospital-vape-alarm]] — early April 2018: one drag of nicotine, a hospital-wide fire alarm, four fire trucks and an escort off the property during Fran's death watch.
 - [[wiki/timeline/events/group-chat-closure]] — Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party…
 - [[wiki/timeline/events/july-2026-recontact]] — July 23–26 2026: the 52-day severance fails; 624 messages, a rape allegation, the corpus's only refused supply request, no resolution.
 - [[wiki/timeline/events/march-2026-terminal-phase]] — the record's last 16 days: laundry response, bathroom incident, confession + retraction
@@ -38368,7 +39873,7 @@ page_type: period
 status: archived
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 date_range_start: 2017-01-01
 date_range_end: 2017-12-31
 changelog:
@@ -38395,6 +39900,9 @@ related:
   - "wiki/self/gemini-activity/gemini-activity"
 tags: [relationships, ai-collaboration, uniontown-era, financial-stress]
 connections:
+  - page: wiki/people/jay-lauer
+    type: contains
+    claim: "The period's human cost is a death: the same window of $10 and $20 fronting requests that measures the poverty floor is the window Jay Lauer did not come out of, dying of a heroin overdose on or about April 11 2017."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "The poverty floor is the money spine's zero point — water shut off, gold and clothes sold, a $120 drug debt as a materially significant liability — the reference state against which every later capital arrival and burn is measured."
@@ -40367,10 +41875,11 @@ page_type: event
 title: "Caddying — Nemacolin, Laurel Valley, Pikewood National (2016–2019)"
 status: closed
 date_created: 2026-07-14
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 date_range_start: 2016-04-06
 date_range_end: 2019-11-01
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/dox-scan/Resume.txt
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -40384,6 +41893,9 @@ related:
   - wiki/mind/concepts/forensic-method
 tags: [career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: co-occurs
+    claim: "Caddie-season opening day is a tag both April 2017 and April 2018 carry, which is the likeliest mechanism behind the operator's one-year misdating of the whole Fran sequence."
   - page: wiki/people/christo-coan
     type: co-occurs
     claim: "Christo's Oct 31, 2017 party — open to 'every caddie, staging, and pro shop employee' — is the yard cohort's own social event, thrown at Dan's house rather than the club."

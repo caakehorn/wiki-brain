@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-02 — 32 pages
+## 2026-08-02 — 57 pages
 
 - **Session log:** write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
 - **Session log:** climb | interests | food-and-diet — "food in every register except taste"; bounds the cool metric's jurisdiction
@@ -16,13 +16,24 @@ simply listed.
 - **Session log:** climb | mind | the-deferred-audit — provenance sets the audit's clock; the audit lag explains the diagnosis-to-behaviour gap (8 synthesized, doctrine tier)
 - **Session log:** climb | mind | the-deferred-audit predictions 1-2 scored same-day — P1 partially falsified and narrowed (lag is one-time per object), P2 confirmed pending failure
 - **Session log:** ingest | multi | factstory batch of 5 manual captures — queue cleared
+- **Session log:** fix | people | annie-ulmer — the 24-hour bond-switch was Dan's, not Annie's; corrected in two places and propagated to bond-switch-2015, the-unbroken-bond, dan-annie-fallout-verdict, block-unblock-loop, supply-network
+- **Session log:** tooling | meta | bin/wiki-digest — generates DIGEST.md, RECENT.md, OPEN.md as human reading aids (state of the wiki, what changed and why, every unresolved contradiction/gap/prediction)
+- **Session log:** ingest | multi | factstory batch of 4 manual captures — Jay Lauer's death, the Fall of Fran, the vape alarm, the acquisition drive
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/health/chemical-architecture]] | health | — |
 | [[wiki/interests/food-and-diet]] | interests | **REVISED** — An operator capture filed the same week documents an absolute dietary regime the page did not know existed, and "absent from its evaluative record entirely" cannot survive *"pickles are the mortal ene |
+| [[wiki/legal/2015-retail-theft-arrest]] | legal | _(carries a CONTRADICTION)_ |
 | [[wiki/legal/463-morgantown]] | legal | **DEADLINE ELAPSED** — The mechanics-lien date this page has carried as its nearest hard deadline — estimated ~**27 July 2026** — has now passed, and **no source read to date records what happened.** The estimate was always |
+| [[wiki/legal/index]] | legal | — |
+| [[wiki/mind/concepts/acquisition-drive]] | mind | **CONTRADICTION** — big-five-psychometrics measures Impulsiveness at the 96th percentile and reads the corpus's pattern of "brilliant analysis coexisting with self-sabotaging execution" as an impulse-control deficit — th |
 | [[wiki/mind/concepts/chaos-preference]] | mind | _(carries a CONTRADICTION)_ |
+| [[wiki/mind/concepts/erotic-architecture]] | mind | — |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | **CONTRADICTION** — the "applied across domains that normally use separate criteria" claim above has a documented exception, and it is a large one. food-and-diet shows the axis is **never** pointed at food, in a corpus w |
+| [[wiki/mind/index]] | mind | — |
+| [[wiki/mind/profile/big-five-psychometrics]] | mind | **CONTRADICTION** — acquisition-drive records the operator's own claim, offered with an explicit disclaimer against hyperbole, that his "resilience for the goal" sits at the 95th percentile or above — a persistence dimen |
+| [[wiki/mind/psychosexual/arrangement-history]] | mind | **REVISED** — Until now this table opened its practice record with the November 2018 Alexis reunion and described it as "the earliest well-documented instance." Two operator captures and the message corpus together |
 | [[wiki/mind/synthesis/ancestral-dialectic]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **REVISED** — The dossier figure — 187 of 191 terminal-phase love declarations with a request inside 24 hours — was recomputed under controls on dan-annie-fallout-verdict on 2026-07-18 and did not survive. The rati |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — annie-ulmer was corrected today to move the twenty-four-hour bond-switch at the 2015 introduction from her column to Dan's. What this page draws from that page — the 127/110 exit-relapse record and th |
@@ -40,17 +51,34 @@ simply listed.
 | [[wiki/people/alexander-jackson]] | people | — |
 | [[wiki/people/annie-ulmer]] | people | **REVISED** — This page previously stated, in two places, that *Annie* left her existing relationship within twenty-four hours of the introduction. Per the operator, that is backwards: **Dan** left Alexis inside tw |
 | [[wiki/people/arnu]] | people | **DEADLINE ELAPSED** — The ~27 July 2026 mechanics-lien date this page is organised around has passed with no recorded outcome. The date was an estimate derived from the February 2026 work window, not a documented filing —  |
+| [[wiki/people/betherin-mechling]] | people | — |
+| [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/people/david-j-frank]] | people | — |
-| [[wiki/people/fran-coldren]] | people | **GAP CLOSED** — An operator capture supplies the marital sequence and the name the wiki had been missing: **Thomas Whyel**, the coal and coke baron, was Fran's **second** husband and died in the 1970s. Ira B. Coldren |
+| [[wiki/people/diane-shrum]] | people | **CORRECTED** — family-tree drew Fran's descent through **George Dixon Shrum Jr.**, Dan's maternal *grandfather*. The GEDCOM family records show the opposite: Fran's daughter is Rebecca Diane Van Voorhis, Dan's mater |
+| [[wiki/people/ellen-ulmer]] | people | — |
+| [[wiki/people/fran-coldren]] | people | **REVISED** — this page previously read that devotion as "the strongest documented evidence against reading Dan's low-altruism scores as incapacity." acquisition-drive gives a better account, and the correction is  |
 | [[wiki/people/franki-faris]] | people | **CONTRADICTION** — This page has carried *"a five-day rebound"* and *"the Franki interlude lasted five days before collapsing,"* sourced to the Gemini-58 and DANSYNTH self-narrations, and dormancy-not-exit uses that fig |
+| [[wiki/people/fred-adams]] | people | — |
+| [[wiki/people/index]] | people | — |
+| [[wiki/people/jay-lauer]] | people | — |
 | [[wiki/people/joe-croftcheck]] | people | — |
 | [[wiki/people/john-carney]] | people | **RE-CHECKED** — 463-morgantown was updated to record that the Arnu mechanics-lien deadline elapsed on ~27 July 2026 with no documented outcome. The Carney exposure documented on this page is a separate claim on the s |
 | [[wiki/people/morley-frank]] | people | — |
+| [[wiki/people/rick-frank]] | people | — |
 | [[wiki/people/sadie-harris]] | people | _(carries a CONTRADICTION)_ |
 | [[wiki/people/suzanne-frank]] | people | — |
+| [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
+| [[wiki/places/117-belmont-circle]] | places | — |
+| [[wiki/self/lineage/family-tree]] | self | **CORRECTED** — This page previously drew Fran's descent to Dan through **George Dixon Shrum Jr.**, the maternal grandfather. Read directly from the GEDCOM's family records (`Daniel Frank family tree.txt`), it is the |
 | [[wiki/timeline/events/bald-eagle-cummings]] | timeline | — |
+| [[wiki/timeline/events/fran-death-vigil]] | timeline | **GAP CLOSED** — This page had carried "the punchline of the SMOK-vs-10W vape story (set up in the session, delivered only in an uploaded video — fire alarm? staff incident?)" as an open question since 2026-07-19. Two |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/events/teen-concert-years]] | timeline | **CONTRADICTION** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate |
+| [[wiki/timeline/events/the-fall-of-fran]] | timeline | **CONTRADICTION** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend |
+| [[wiki/timeline/events/uniontown-hospital-vape-alarm]] | timeline | **CONTRADICTION** — fran-death-vigil, written from the Photo Thread session, has Dan blowing enormous clouds from a 110-watt SMOK **in the room** while Suz puffed her 10-watt device **in the hospital bathroom**. Both cap |
+| [[wiki/timeline/index]] | timeline | — |
+| [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
+| [[wiki/work/nemacolin-caddying]] | work | — |
 
 ## 2026-08-01 — 102 pages
 
@@ -192,7 +220,7 @@ simply listed.
 | [[wiki/timeline/periods/dec-2025-spike]] | timeline | — |
 | [[wiki/work/tech/max-framework/overview]] | work | — |
 
-## 2026-07-25 — 15 pages
+## 2026-07-25 — 14 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -207,12 +235,11 @@ simply listed.
 | [[wiki/self/ancestry]] | self | — |
 | [[wiki/self/index]] | self | — |
 | [[wiki/self/lineage/23andme-genomics]] | self | — |
-| [[wiki/self/lineage/family-tree]] | self | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/self/lineage/hybrid-analysis]] | self | — |
 | [[wiki/self/lineage/index]] | self | — |
 | [[wiki/work/caviar-courier]] | work | — |
 
-## 2026-07-20 — 47 pages
+## 2026-07-20 — 43 pages
 
 - **Session log:** ingest | people | FB deep-scrape XII — matthew-palermo (new tier-one entry)
 - **Session log:** ingest | people | FB deep-scrape XIII — david-beard (new tier-one entry)
@@ -252,13 +279,10 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/chemical-architecture]] | health | — |
 | [[wiki/health/index]] | health | — |
 | [[wiki/interests/music/bands/batteries-not-included]] | interests | — |
 | [[wiki/interests/music/index]] | interests | — |
 | [[wiki/mind/concepts/bunker-core]] | mind | — |
-| [[wiki/mind/concepts/erotic-architecture]] | mind | — |
-| [[wiki/mind/profile/big-five-psychometrics]] | mind | — |
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
 | [[wiki/mind/synthesis/intake-constancy]] | mind | **CONTRADICTION** — an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad im |
 | [[wiki/mind/synthesis/spatial-behavior]] | mind | — |
@@ -279,7 +303,6 @@ simply listed.
 | [[wiki/people/max-danielle-bf]] | people | — |
 | [[wiki/people/michael-hinkle]] | people | — |
 | [[wiki/people/mike-cordaro]] | people | — |
-| [[wiki/people/rick-frank]] | people | — |
 | [[wiki/people/ryan-lisac]] | people | — |
 | [[wiki/people/ryan-scherich]] | people | — |
 | [[wiki/people/sean-teets]] | people | — |
@@ -300,7 +323,7 @@ simply listed.
 | [[wiki/work/tech/index]] | work | — |
 | [[wiki/work/tech/mneme/overview]] | work | — |
 
-## 2026-07-19 — 60 pages
+## 2026-07-19 — 55 pages
 
 - **Session log:** ingest | people | long-tail MINE pass (sam, davey-fitzpatrick, vaughn, nick-mattie, urpaaa) + kezmarsky death-claim correction
 - **Session log:** ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
@@ -331,7 +354,6 @@ simply listed.
 | [[wiki/mind/concepts/phenomenology-lens]] | mind | — |
 | [[wiki/mind/profile/deviance-mapping]] | mind | — |
 | [[wiki/mind/profile/enneagram-5w4]] | mind | — |
-| [[wiki/mind/psychosexual/arrangement-history]] | mind | — |
 | [[wiki/mind/psychosexual/developmental-origins]] | mind | — |
 | [[wiki/mind/psychosexual/emotional-imprinting]] | mind | — |
 | [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
@@ -347,7 +369,6 @@ simply listed.
 | [[wiki/people/ej-rags]] | people | — |
 | [[wiki/people/elizabeth-eleanor]] | people | — |
 | [[wiki/people/eric-jester]] | people | — |
-| [[wiki/people/index]] | people | — |
 | [[wiki/people/jack-rusko]] | people | — |
 | [[wiki/people/jamie-mohler]] | people | — |
 | [[wiki/people/jason-bermejo]] | people | **REVISED** — This section previously listed "Jamie Mohler" as Jason's current girlfriend. That was a misread of a single out-of-context corpus line. In full context (2025-10-06, Jason's thread), Dan is telling Jas |
@@ -376,12 +397,9 @@ simply listed.
 | [[wiki/self/context-core]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/tattoos]] | self | — |
 | [[wiki/timeline/events/annie-alexis-reunion-november-2018]] | timeline | — |
-| [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a REVISED from 2026-07-18)_ |
-| [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
 | [[wiki/timeline/periods/covid-era-2020]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | — |
 | [[wiki/work/bfs-foods]] | work | — |
-| [[wiki/work/nemacolin-caddying]] | work | — |
 
 ## 2026-07-18 — 17 pages
 
@@ -451,7 +469,7 @@ simply listed.
 | [[wiki/self/gemini-activity/archive/v1-extract]] | self | — |
 | [[wiki/work/fastly-fsly]] | work | — |
 
-## 2026-07-14 — 53 pages
+## 2026-07-14 — 49 pages
 
 - **Session log:** ingest+add | work+mind | Sergio-mediator correction, Dan Frank OS report mined
 - **Session log:** ingest | mind+people | fake-surveillance-dashboard episode (AI pushback)
@@ -505,17 +523,14 @@ simply listed.
 | [[wiki/people/christian-hanson]] | people | — |
 | [[wiki/people/claire-ulmer]] | people | — |
 | [[wiki/people/clyde]] | people | — |
-| [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/people/del]] | people | — |
 | [[wiki/people/drew]] | people | — |
-| [[wiki/people/ellen-ulmer]] | people | — |
 | [[wiki/people/eric-springer]] | people | — |
 | [[wiki/people/felipe]] | people | **REVISED** — confirmed by Dan directly — contact did **not** survive past the Au Za'atar job; he hasn't spoken to Felipe since. The earlier characterization above ("belongs to the small circle of AZ-era friendship |
 | [[wiki/people/jajuan-davis]] | people | — |
 | [[wiki/people/james]] | people | — |
 | [[wiki/people/jaredtricia]] | people | — |
 | [[wiki/people/jason-cole]] | people | — |
-| [[wiki/people/jay-lauer]] | people | — |
 | [[wiki/people/jess]] | people | — |
 | [[wiki/people/jim-vrabel]] | people | — |
 | [[wiki/people/jimmy]] | people | — |
@@ -532,10 +547,9 @@ simply listed.
 | [[wiki/people/mohammed-bin-salman]] | people | — |
 | [[wiki/people/rj-ritchey]] | people | — |
 | [[wiki/people/trinity-st-clair]] | people | — |
-| [[wiki/places/117-belmont-circle]] | places | — |
 | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] | timeline | **REVISED** — an earlier version of this page called the April 2019 threesome the earliest well-specified instance of the arrangement running with a woman. A November 2018 reunion between Annie and Alexis — Dan's o |
 
-## 2026-07-13 — 19 pages
+## 2026-07-13 — 15 pages
 
 - **Session log:** restructure | mind+self+legal+work | major re-architecture
 - **Session log:** ingest | people | operator correction: Eli vs Tuquick
@@ -553,9 +567,6 @@ simply listed.
 | [[wiki/interests/music/aliases/mogged-up]] | interests | — |
 | [[wiki/interests/music/aliases/mogzart]] | interests | — |
 | [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
-| [[wiki/legal/2015-retail-theft-arrest]] | legal | _(carries a CONTRADICTION)_ |
-| [[wiki/legal/index]] | legal | — |
-| [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/profile/intp]] | mind | — |
 | [[wiki/mind/profile/linguistic-profile]] | mind | — |
@@ -563,13 +574,12 @@ simply listed.
 | [[wiki/mind/profile/voice-modes]] | mind | — |
 | [[wiki/people/katie-fletcher]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/self/overview]] | self | — |
-| [[wiki/timeline/index]] | timeline | — |
 | [[wiki/timeline/periods/2015-2016-annie-relationship-start]] | timeline | — |
 | [[wiki/timeline/periods/dark-era-2007-2008]] | timeline | — |
 | [[wiki/work/index]] | work | — |
 | [[wiki/work/tech/vibe-coding-games]] | work | — |
 
-## 2026-07-12 — 2 pages
+## 2026-07-12 — 1 page
 
 - **Session log:** build | all | GUI v2: collapsible sidebar, page rename with wiki-wide link rewrite, in-GUI ingest loop (pack/copy/apply), git sync pill + public-repo warning banner
 - **Session log:** rename | people | wiki/people/annie.md -> wiki/people/annie-ulmer.md (45 pages relinked) via app
@@ -594,7 +604,6 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/people/jerad-friedline]] | people | — |
-| [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 
 ## 2026-07-11 — 10 pages
 

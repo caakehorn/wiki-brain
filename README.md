@@ -109,6 +109,8 @@ exports/   generated LLM bundles (disposable, not in git)
 bin/       capture + export-corpus
 STRATEGY.md  what this repo is for and the core loop — read first
 CLAUDE.md  the agent's operating rules
+FACTSTORY_BRIEF_TEMPLATE.md  the instruction block shipped with hand-typed
+           captures; source of truth for leviathan/factstory.html
 index.md   master navigation
 log.md     history of every operation
 queue.md   what's pending ingestion

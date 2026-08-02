@@ -4,10 +4,11 @@ page_type: event
 title: "Caddying — Nemacolin, Laurel Valley, Pikewood National (2016–2019)"
 status: closed
 date_created: 2026-07-14
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 date_range_start: 2016-04-06
 date_range_end: 2019-11-01
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/dox-scan/Resume.txt
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -21,6 +22,9 @@ related:
   - wiki/mind/concepts/forensic-method
 tags: [career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: co-occurs
+    claim: "Caddie-season opening day is a tag both April 2017 and April 2018 carry, which is the likeliest mechanism behind the operator's one-year misdating of the whole Fran sequence."
   - page: wiki/people/christo-coan
     type: co-occurs
     claim: "Christo's Oct 31, 2017 party — open to 'every caddie, staging, and pro shop employee' — is the yard cohort's own social event, thrown at Dan's house rather than the club."

@@ -4,8 +4,9 @@ page_type: event
 title: "2015 Arrest (Retail Theft / \"The Combos Incident\")"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-08-02
 sources:
+  - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/imessage_ALL_both_all_now.csv
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/christocoan_2cxo0swo3g/message_1.html"
@@ -17,6 +18,13 @@ related:
   - wiki/self/context-core
   - wiki/mind/synthesis/vertical-authority-skepticism
 tags: [legal, relationships, dui]
+connections:
+  - page: wiki/mind/concepts/acquisition-drive
+    type: evidences
+    claim: "Snack food pursued as far as a state police arrest is the drive's signature output shape: cost-benefit ratios that make no sense are the expected result of a system optimising for completion rather than for value."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: parallels
+    claim: "Three years apart, the same shape twice: a trivially small want run to completion and producing charging paperwork wildly out of proportion to anything gained — Combos in 2015, one drag of nicotine in 2018."
 ---
 
 # 2015 Arrest (Retail Theft / "The Combos Incident")

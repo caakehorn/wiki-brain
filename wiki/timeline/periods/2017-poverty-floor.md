@@ -4,7 +4,7 @@ page_type: period
 status: archived
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 date_range_start: 2017-01-01
 date_range_end: 2017-12-31
 changelog:
@@ -31,6 +31,9 @@ related:
   - "wiki/self/gemini-activity/gemini-activity"
 tags: [relationships, ai-collaboration, uniontown-era, financial-stress]
 connections:
+  - page: wiki/people/jay-lauer
+    type: contains
+    claim: "The period's human cost is a death: the same window of $10 and $20 fronting requests that measures the poverty floor is the window Jay Lauer did not come out of, dying of a heroin overdose on or about April 11 2017."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "The poverty floor is the money spine's zero point — water shut off, gold and clothes sold, a $120 drug debt as a materially significant liability — the reference state against which every later capital arrival and burn is measured."

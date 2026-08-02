@@ -7,6 +7,7 @@ status: stable
 date_created: 2026-06-22
 date_modified: 2026-08-02
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
   - raw/self/chats/j6-chat.md
@@ -15,6 +16,9 @@ sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
 tags: [politics, relationships, family, personality-profile, nyc-era]
 connections:
+  - page: wiki/people/diane-shrum
+    type: evidenced-by
+    claim: "The April 2018 letters are the template at family scale: authority exercised through paperwork, monitors and advance written requests by people who, on the caregivers' own account, did not visit Fran once."
   - page: wiki/mind/synthesis/the-deferred-audit
     type: component-of
     claim: "The vertical/lateral split turns out to be a clock rather than a trust axis: the laterals are not trusted more than the verticals, they are audited later — Tom's model was revised only after the May 2026 supply failure, roughly eighteen years in, while an assistant manager's $50 claim was reconstructed the same day."

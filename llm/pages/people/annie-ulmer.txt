@@ -37,6 +37,7 @@ changelog:
   - date: 2026-07-11
     note: "Data audit: burst-event misattribution fixed, financial amendments folded in"
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/message-csv/imessage_export_2124702449_20260726.csv
   - raw/self/message-csv/imessage_export_17245629389_both_all_now.csv
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -97,6 +98,21 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/people/betherin-mechling
+    type: contains
+    claim: "Annie's cousin is the reason Jay Lauer's supply relationship with Dan sat inside her extended family rather than beside it, and the reason his April 2017 overdose reached Dan through her mother rather than his own."
+  - page: wiki/people/ellen-ulmer
+    type: contains
+    claim: "Annie's mother routed her worry about her own daughter through Dan twice — January 2019 and February 2020 — treating him as the more reliable channel to Annie than Annie, and her thread outlasted the relationship that created it."
+  - page: wiki/people/danny-matthews
+    type: co-occurs
+    claim: "A seven-year non-monogamous connection running from March 2018 to at least December 2024, surviving the NYC move, and outlasting most of the corpus's named friendships."
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: component-of
+    claim: "The first non-monogamous encounter of the decade-long relationship is dated to the night of March 7-8 2018 and to Fran's house, roughly two years and four months in — and neither Annie nor Dan stopped it for the medical emergency happening in the next room."
+  - page: wiki/people/jay-lauer
+    type: co-occurs
+    claim: "The April 2017 overdose in Annie's extended family produced the most unguarded thing Dan wrote to her in that year of the thread - 'all this stuff about jay just reminds me how important it is to protect us' - grief converting directly into attachment reinforcement."
   - page: wiki/timeline/events/group-chat-closure
     type: contains
     claim: "The June 1 2026 closure is the relationship's severance event — the only external signal the attachment system ever received — and it held 52 days before failing."

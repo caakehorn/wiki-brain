@@ -6,8 +6,9 @@ aliases: ["RLUEI", "Big30", "psychometrics", "personality disorder scores"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-20
+date_modified: 2026-08-02
 sources:
+  - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -18,6 +19,9 @@ related:
   - wiki/self/context-core
 tags: [personality-profile]
 connections:
+  - page: wiki/mind/concepts/acquisition-drive
+    type: contradicts
+    claim: "The facet table has no persistence dimension and reads the corpus's execution failures as Impulsiveness at 96; the operator claims a 95th-percentile completion drive is running in the same behaviour, which would mean this instrument is scoring an engine as a brake failure."
   - page: wiki/mind/synthesis/millennial-digital-witness
     type: evidences
     claim: "The psychometric fit underwrites — and flags as self-serving — the witness self-theory."
@@ -62,6 +66,21 @@ gap between it and its blueprint.
 | | Modesty | 5 |
 | | Sympathy | 6 |
 | | Trust | 9 |
+
+> **CONTRADICTION [2026-08-02] — the table may have no column for the thing
+> doing the work.** [[wiki/mind/concepts/acquisition-drive]] records the
+> operator's own claim, offered with an explicit disclaimer against
+> hyperbole, that his "resilience for the goal" sits at the 95th percentile
+> or above — a persistence dimension that appears nowhere in the Big30 facet
+> list and that the instrument does not test. If it is real, then a
+> substantial share of what this page scores as Impulsiveness at 96 is being
+> misread: the same episodes look like brake failure to a conscientiousness
+> instrument and like an engine running correctly to a goal-completion one,
+> and the two readings are not compatible. The evidence on one side is a
+> scored battery; on the other, one first-person claim plus the event record.
+> Neither is discarded, and the disagreement is the useful part: it predicts
+> that any instrument measuring persistence toward *self-set* goals
+> specifically would return a very different number than this one does.
 
 Two structural readings follow from the table. First, the
 **intellect/impulsivity paradox**: top-percentile reasoning bolted to

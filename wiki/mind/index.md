@@ -3,7 +3,7 @@ domain: mind
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-13
+date_modified: 2026-08-02
 sources: []
 related: []
 ---
@@ -44,6 +44,7 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/concepts/bunker-core]] — the self-built local chat.db forensics stack; documented software fact alongside an AI-authored "epistemic fortress" interpretive framing.
 - [[wiki/mind/concepts/the-cool-metric]] — the single performed-vs-authentic axis applied to music, language, politics, film, work and strangers alike.
 - [[wiki/mind/concepts/chaos-preference]] — the appetite for entropy and system failure, and the finding that it is strictly outward-facing.
+- [[wiki/mind/concepts/acquisition-drive]] — the 95th-percentile completion drive that cannot be aimed: once a want becomes a decided outcome it runs to completion regardless of cost, and only self-originated goals can recruit it.
 ## psychosexual — the sexuality cluster
 
 - [[wiki/mind/psychosexual/index]] — hub: theory-vs-practice provenance split, quick brief, cluster map.

@@ -1,0 +1,173 @@
+---
+domain: mind
+page_type: concept
+title: "The Acquisition Drive"
+aliases: ["the drive", "complete objective", "resilience for the goal"]
+status: active
+importance: high
+knowledge: earned
+date_created: 2026-08-02
+date_modified: 2026-08-02
+sources:
+  - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
+  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+tags: [personality-profile, addiction-recovery, legal, forensic-analysis]
+connections:
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: contradicts
+    claim: "The facet table reads the corpus's execution failures as Impulsiveness at 96 and stops there; this page claims a second, unmeasured dimension — a 95th-percentile completion drive — is running in the same behaviour, which means the instrument is scoring an engine as a brake failure."
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: evidenced-by
+    claim: "A plan a year in the making ran to completion through a catastrophic injury to the person Dan was being paid to protect — the costliest documented case of a live pursuit refusing to abort."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: evidenced-by
+    claim: "The purest instance, because the stakes were nil: a nicotine urge serviced on arrival in a deathbed room, with top-percentile reasoning recruited to authorise it rather than to interrogate it."
+  - page: wiki/legal/2015-retail-theft-arrest
+    type: evidenced-by
+    claim: "Snack food pursued to arrest by the state police is the drive's signature output shape — cost-benefit ratios that make no sense are the expected result of a system that optimises for completion rather than for value."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: evidenced-by
+    claim: "Three years of round-the-clock caregiving is not counter-evidence to Altruism at the 1st percentile; it is the same drive pointed at a goal Dan generated himself, which is the only kind it can serve."
+  - page: wiki/mind/synthesis/supply-network
+    type: causes
+    claim: "The procurement architecture is this drive's infrastructure: a want that will be satisfied 'at all costs' requires a standing multi-node supply chain, which is why the network survives every era while its nodes rotate."
+  - page: wiki/people/vanessa-frank
+    type: co-occurs
+    claim: "The undated episode in which Dan used his sister's ATM card while she was away at college, under a 'got them mixed up' pretext, is the operator's own chosen illustration of the drive running with no consequence-modelling attached."
+  - page: wiki/mind/concepts/chaos-preference
+    type: mirrors
+    claim: "Two appetites with inverted carve-outs: the chaos preference is strictly outward-facing and exempts what Dan has chosen, while the acquisition drive fires only on what Dan has chosen and is inert toward everything assigned to him."
+---
+
+# The Acquisition Drive
+
+Once Dan Frank converts a want into a decided outcome, the pursuit of it runs
+to completion more or less independently of cost, risk, proportion or
+circumstance. The operator's own statement of this is unusually direct and
+carries an explicit disclaimer against hyperbole: "there is no hyperbole in
+the claim that this resilience for the goal is truly 95+ percentile." His
+chosen analogy is a machine one — "much like an AI model" — a system that
+does not get discouraged, does not revise the objective downward, and does
+not stop because the situation changed.
+
+The important half of the claim is the second half, and it is a limitation
+rather than a boast: **the drive cannot be aimed.** Only desires that arise
+organically can recruit it. In the operator's words, "there is little control
+over what desires are organically felt, as these are the only ones which can
+truly take advantage of this determination." The engine is enormous and there
+is no steering column. Everything else on this page follows from those two
+sentences read together.
+
+## What it looks like at full load
+
+The domain where it runs most often is narcotics procurement. The threshold
+event is a decision, not a craving — the operator describes it as the moment
+"the determination is made that 'we/I are getting something'," after which
+"that thing will be obtained at all costs and challenges." The word doing the
+work is *determination*: a state change after which the outcome is treated as
+already owed. [[wiki/mind/synthesis/supply-network]] is the physical
+consequence of that state recurring for a decade — a standing multi-node
+supply architecture whose individual dealers rotate constantly while the
+architecture never lapses, because a want that must be satisfied at all costs
+cannot be left to a single supplier.
+
+Three documented episodes show the drive at very different stakes and the
+same indifference to context:
+
+| Episode | The objective | What it ran through |
+|---|---|---|
+| [[wiki/legal/2015-retail-theft-arrest]] (late 2015) | Combos snacks | A state police arrest, a lawyer, and the ARD program |
+| [[wiki/timeline/events/the-fall-of-fran]] (2018-03-07/08) | The arrangement's opening encounter | A 97-year-old's broken hip, in the house, mid-event |
+| [[wiki/timeline/events/uniontown-hospital-vape-alarm]] (April 2018) | One drag of nicotine | A hospital-wide fire alarm, four fire trucks, and an escort off the property |
+
+The middle row is the expensive one and the third is the diagnostic one. The
+vape alarm cost Dan more than it could possibly have gained under any
+accounting, which is exactly why it is the clean case: with nothing at stake,
+the pursuit still completed, and the deliberation that preceded it was not
+deliberation about *whether* — it was a physics argument constructed to
+authorise the act. That is the intellect/impulsivity paradox
+([[wiki/mind/profile/big-five-psychometrics]]) caught doing the thing it
+actually does. Top-percentile reasoning is not fighting the impulse and
+losing. It is working for the impulse.
+
+## The young form, and the class buffer
+
+The operator distinguishes an earlier and a later configuration of the same
+trait. In the earlier one the drive ran "in tandem with the kind of
+stupidity, impulsivity and short-sighted thinking that led to several
+situations which could have landed him in legal trouble." The illustration he
+picks is his sister's bank card: while [[wiki/people/vanessa-frank|Vanessa]]
+was away at college her ATM card was, for some reason, at
+[[wiki/people/suzanne-frank|Suz's]] house, and Dan used it "for a little
+while" under a pretext he flags in his own text as a pretext — "'accidentally'
+… 'got them mixed up'." The scare quotes are his. Note what the story is an
+example *of*: not theft as such, but a resource appearing within reach while a
+pursuit was live, and being consumed because it was there.
+
+He also supplies the structural explanation himself, which is rarer than it
+sounds: "a lot of observable behavior here … results from the sheltered, safe
+upper-middle class upbringing he enjoyed where consequences were less likely
+than those whose parents couldn't afford the same capital toolbelt." That is
+a first-person account of class as a risk-tolerance subsidy, and it is
+corroborated by the record rather than merely asserted — the 2015 arrest
+produced a hired lawyer named Jack and an ARD diversion with expungement, and
+the family's capital is documented across
+[[wiki/mind/synthesis/estate-money-spine]]. The drive did not become safer
+over time so much as it stopped being underwritten.
+
+The later configuration is described as "honed into something more useful and
+semi-productive." The corpus supports this without needing to be asked: the
+same engine, pointed at something that happened to be constructive, produces
+the two-sided Gini measurement on [[wiki/mind/concepts/contact-gini]], the
+DANMODEL extraction, the dashboards of [[wiki/mind/concepts/forensic-method]],
+and this wiki. None of those were assigned to him.
+
+## The consequence nobody had drawn: altruism was never the variable
+
+[[wiki/people/fran-coldren]] carries a standing claim that the three years of
+round-the-clock caregiving are "the strongest documented evidence against
+reading Dan's low-altruism scores as incapacity." Read against this page,
+that claim needs correcting rather than defending. The vigil is not evidence
+against Altruism at the 1st percentile. It is evidence that altruism was not
+the operative variable in either direction.
+
+Fran's care was a goal Dan generated himself, held privately, and was never
+assigned; it therefore had access to the full engine, and it got months of
+unglamorous, costly, sustained execution — the same faculty that obtains
+narcotics at all costs, pointed at an old woman's wish to stay in her house.
+The prediction that follows is testable against the corpus and is the reason
+to state this plainly: **there should be no documented instance of Dan
+absorbing comparable cost over comparable duration for a goal set for him by
+somebody else.** The employment record, the abandoned projects, and the
+prescription he was given rather than sought are where a falsification would
+be found if one exists.
+
+> **CONTRADICTION [2026-08-02]:**
+> [[wiki/mind/profile/big-five-psychometrics]] measures Impulsiveness at the
+> 96th percentile and reads the corpus's pattern of "brilliant analysis
+> coexisting with self-sabotaging execution" as an impulse-control deficit —
+> the diagnosis-to-behaviour gap. This page holds that a second dimension,
+> a 95th-percentile completion drive, is present in the same behaviour and is
+> not on the instrument's facet table at all. The two readings are not
+> compatible: one describes a brake that fails, the other an engine that
+> works. The evidence for the second is currently one first-person operator
+> claim plus the event record above; the evidence for the first is a scored
+> instrument. Neither is discarded here.
+
+## Gaps
+
+The ATM-card episode has no date, no amount, no duration and no corroboration
+anywhere in the message corpus — it exists only in the operator's own
+telling, and Vanessa's own thread (709 messages, December 2015 onward) never
+mentions it, which places it before December 2015 or entirely outside the
+record. The 95th-percentile figure is a self-estimate offered against a
+population baseline that is not specified; it is recorded as testimony, not
+as a measurement, and nothing in the psychometric battery tests persistence
+directly. The mechanism by which a want becomes a "determination" is
+undescribed — the operator reports the threshold without reporting what
+crosses it, which is the single most useful thing a future capture could
+supply. And the claim that the drive was "honed" into a productive form is
+asserted rather than dated: the corpus can show productive outputs after
+roughly 2020, but not that anything about the trait itself changed rather
+than its targets.

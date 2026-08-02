@@ -5,8 +5,8 @@ title: "Vanessa C. Frank"
 aliases: ["Vanessa", "Vanessa Frank"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-12
-sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
+date_modified: 2026-08-02
+sources: ["raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md", "raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/suzanne-frank", "wiki/people/rick-frank", "wiki/self/ancestry", "wiki/self/overview", "wiki/people/annie-ulmer"]
 tags: [ai-collaboration]
 infobox:
@@ -15,6 +15,10 @@ infobox:
   sex: female
   location: nyc
   known_for: "Dan's younger sister, born January 16, 1994, in Greensburg, Pennsylvania —"
+connections:
+  - page: wiki/mind/concepts/acquisition-drive
+    type: co-occurs
+    claim: "The undated episode in which Dan used his sister's ATM card while she was away at college, under a pretext he flags in his own telling as a pretext, is the operator's chosen illustration of the drive running with no consequence-modelling attached."
 ---
 
 # Vanessa C. Frank
@@ -82,6 +86,25 @@ oscillations rather than a driver of them.
 | Date range | 2015-12-01 → 2026-03-01 |
 | Cadence | Steady low-volume over a decade; no crisis spikes |
 | Content profile | Politics, family logistics, sibling gossip |
+
+## The ATM card
+
+One episode in the sibling record comes from Dan rather than from the thread,
+and he supplies it as self-incrimination. At some point while Vanessa was
+away at college, her bank card was at [[wiki/people/suzanne-frank|Suz's]]
+house, and Dan used it — in his own telling, "'accidentally' … for a little
+while," having "got them mixed up," with the scare quotes his own. He offers
+it as his chosen illustration of a young pattern in which a determined
+pursuit and a resource within reach combined with no consequence-modelling
+attached ([[wiki/mind/concepts/acquisition-drive]]).
+
+Nothing about it is corroborated. Vanessa's own 709-message thread, which
+begins in December 2015, never mentions it, which places the episode either
+before that date or outside the record entirely; no amount, duration, date,
+or resolution is recorded, and there is no indication anywhere of whether she
+knew, whether she was repaid, or whether it was ever discussed between them.
+Given that the thread's defining quality is how low-conflict it is, the
+silence is itself worth noting rather than explaining away.
 
 ## Notes and gaps
 
