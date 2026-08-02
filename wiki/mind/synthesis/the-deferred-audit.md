@@ -25,6 +25,9 @@ synthesizes:
   - wiki/interests/food-and-diet
 tags: [personality-profile, forensic-analysis, relationships, ideology]
 connections:
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: parallels
+    claim: "Both describe an engine indifferent to the frame it is handed: the audit fires on a schedule set by provenance rather than importance, and the drive attaches to objectives rather than to the roles containing them."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: contains
     claim: "The vertical/lateral split is this rule seen from one side only: what that page calls a trust axis is a scheduling rule, since the laterals are not trusted more, they are audited later."

@@ -29,7 +29,26 @@ merely observe one: `fran-coldren` reads the vigil as counter-evidence to
 Altruism at the 1st percentile, and this rule says altruism was never the
 variable in either direction.
 
-**Why it is queued rather than written.** `acquisition-drive` is one day old and
+**[2026-08-02] CLIMBED, and the audit that earned it falsified the rule.**
+The specified work below was done — the employment and abandoned-project
+records were audited for an externally assigned goal pursued at comparable
+cost. **Two were found, and both dwarf the Fran vigil:** 41 months at
+`wiki/work/au-zaatar` and 43 at `wiki/work/nemacolin-caddying` against six
+months of caregiving. The candidate sentence is therefore false as written.
+
+What replaced it is better and is climbed to
+**[[wiki/mind/synthesis/the-embedded-objective]]**: assignment is a *container*,
+not a competing category — Dan sustains a long assigned commitment by installing
+a private objective inside it, and the commitment ends when that objective is
+destroyed rather than when the work gets hard. `bfs-foods` (~1 month, no payload,
+ended at the first assigned demand) and `caviar-courier` (nothing to embed in,
+12 months of availability with no tenure) are the controls. The abandoned-project
+half produced a second correction the original rule did not anticipate: MNEME,
+the DANMODEL eval and the AI video essays were all entirely self-set and none
+completed, so **self-origination is necessary for the engine to fire and not
+sufficient for it to finish.**
+
+**Why it was queued rather than written.** `acquisition-drive` is one day old and
 rests on a single operator capture. CLAUDE.md's rule is to climb when a cluster
 has survived two or more ingests; stacking a synthesis on a concept page written
 the same afternoon would be the write-only anti-pattern with extra steps. The
@@ -105,3 +124,30 @@ Shared signals per cluster:
 24. 2 shared raw source(s)
 25. 2 shared raw source(s)
 
+## Rejected hypotheses (2026-08-02) — tested against raw, recorded so nobody re-runs them
+
+Both were candidate cross-domain syntheses spanning `timeline` and `self`, the
+two largest all-ground domains. Both were measured against
+`raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv` (175,358 rows) and both fail.
+
+- **REJECTED — "ruptures cluster in the small hours."** Hypothesis: declared
+  exits and terminal hostility concentrate between midnight and 06:00, which
+  would have tied `block-unblock-loop` to `message-circadian-latency`. Measured
+  on 371 outbound messages matching rupture markers (goodbye / i'm done / never
+  speak / don't contact / leave me alone / fuck you / lose my number) against
+  the 88,945-message outbound baseline: **00:00–05:00 carries 17.5% of ruptures
+  against a 14.8% baseline — a lift of only 1.19×.** The largest lifts are
+  scattered and inconsistent (02:00 at 2.16×, but 21:00 at 1.75× and 12:00 at
+  1.83×), and n=371 will not support the distinction. There is no circadian
+  rupture signature.
+
+- **REJECTED — "the corpus has an annual rhythm."** Naive month-of-year shares
+  looked dramatic (December 15.98% and January 11.25% against a 5.3% June, i.e.
+  December at 1.9× uniform). It is an artifact of truncated years at both ends
+  of the corpus: **the record opens in November 2015**, so 88.6% of 2015's
+  messages fall in December, and **it ends in August 2026**, so 39% of 2026's
+  fall in January. With those removed the per-year peak month is 12, 5, 11, 6,
+  8, 9, 7, 9, 1 — no rhythm at all. Inbound and outbound track each other
+  closely, which would also have argued against a Dan-specific effect had the
+  pattern been real. **Any future month-of-year analysis on this corpus must
+  drop 2015 and the current year first.**

@@ -22,6 +22,9 @@ related:
   - wiki/mind/concepts/forensic-method
 tags: [career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: instantiates
+    claim: "Forty-three months of 4:30 AM departures are held by a private status ladder the employer never set or measured — the call-up to 'the real loopers', the first two-bag round, the Scottsdale transfer raised with Carl — which is why this is the corpus's second-longest assigned commitment and its second case of an assignment hosting someone else's goal."
   - page: wiki/timeline/events/the-fall-of-fran
     type: co-occurs
     claim: "Caddie-season opening day is a tag both April 2017 and April 2018 carry, which is the likeliest mechanism behind the operator's one-year misdating of the whole Fran sequence."
@@ -127,6 +130,18 @@ bulk — nothing after it (Au Za'atar's Triad excepted) produced a
 comparable social layer.
 
 ## Why the job matters
+
+At **43 months** this is the longest assigned commitment in the corpus after
+[[wiki/work/au-zaatar|Au Za'atar]], and the two together are what falsified
+the claim that Dan never absorbs sustained cost for a goal somebody else set
+([[wiki/mind/synthesis/the-embedded-objective]]). What the record shows him
+tracking across those years is not the assigned duties — guest assistance,
+pace-of-play, equipment logistics — but a private progression the employer
+never set or measured: the call-up to "the real loopers," the 4:30 AM Laurel
+Valley departure, the first round carrying two bags, and the Scottsdale
+transfer he raised directly with Carl. That ladder is the payload, and it is
+the weakest of the rule's three positive cases because it is inferred from
+what Dan chose to record rather than from any statement of intent.
 
 The caddying years run concurrent with the darkest financial stretch
 documented elsewhere in the wiki (the 2017 poverty floor, the 2018 deep

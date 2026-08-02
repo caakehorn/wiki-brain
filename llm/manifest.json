@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 434,
+ "page_count": 435,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1025,7 +1025,7 @@
    "title": "2015 Arrest (Retail Theft / \"The Combos Incident\")",
    "summary": "Dan's only documented arrest: in late 2015, at age 26\u201327, he was arrested by the Pennsylvania State Police over a retail theft \u2014 stealing Combos snacks, an e...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/legal/2015-retail-theft-arrest.txt",
-   "bytes": 6171
+   "bytes": 7150
   },
   {
    "page": "wiki/legal/463-morgantown.md",
@@ -1046,7 +1046,7 @@
    "title": "The Acquisition Drive",
    "summary": "Once Dan Frank converts a want into a decided outcome, the pursuit of it runs to completion more or less independently of cost, risk, proportion or circumsta...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/acquisition-drive.txt",
-   "bytes": 11431
+   "bytes": 14014
   },
   {
    "page": "wiki/mind/concepts/attachment-model.md",
@@ -1074,7 +1074,7 @@
    "title": "The Chaos Preference",
    "summary": "Dan wants the world to be less orderly than it is, and \u2014 with one large exception \u2014 he wants this consistently, quietly, and almost never out loud. The prefe...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/chaos-preference.txt",
-   "bytes": 13039
+   "bytes": 13029
   },
   {
    "page": "wiki/mind/concepts/conflict-architecture.md",
@@ -1123,7 +1123,7 @@
    "title": "The Institutional Out",
    "summary": "At every job he has ever taken, Dan pre-installs an escape mechanism \u2014 a standing, unfalsifiable reason to be absent more than anyone else at the institution...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/institutional-out.txt",
-   "bytes": 4025
+   "bytes": 5104
   },
   {
    "page": "wiki/mind/concepts/node-locking.md",
@@ -1151,7 +1151,7 @@
    "title": "mind \u2014 index",
    "summary": "Beliefs, ideology, psychology, and values. The domain is organized in four layers: **profile/** holds the measured personality results and their detailed bre...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/index.txt",
-   "bytes": 10600
+   "bytes": 11043
   },
   {
    "page": "wiki/mind/profile/big-five-psychometrics.md",
@@ -1403,7 +1403,14 @@
    "title": "The Deferred Audit",
    "summary": "Dan audits everything. What decides the outcome is not *whether* the audit runs \u2014 it always runs \u2014 but **when**, and the schedule is set by a single question...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-deferred-audit.txt",
-   "bytes": 25454
+   "bytes": 25754
+  },
+  {
+   "page": "wiki/mind/synthesis/the-embedded-objective.md",
+   "title": "The Embedded Objective",
+   "summary": "**Dan has never sustained an assignment. He sustains a self-set objective he has embedded inside one.** Every long commitment in the corpus is a host structu...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-embedded-objective.txt",
+   "bytes": 15397
   },
   {
    "page": "wiki/mind/synthesis/the-unbroken-bond.md",
@@ -1424,7 +1431,7 @@
    "title": "Vertical Authority Skepticism",
    "summary": "Dan treats the vertical axis \u2014 fathers, managers, owners, institutions, the state \u2014 as structurally suspect, and the horizontal axis \u2014 the vetted few peers \u2014...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/vertical-authority-skepticism.txt",
-   "bytes": 10266
+   "bytes": 10558
   },
   {
    "page": "wiki/people/aaron.md",
@@ -2894,7 +2901,7 @@
    "title": "2021\u20132023 Employment Block",
    "summary": "For three years \u2014 invisible in Dan's self-narrative until the location history exposed it \u2014 Dan held one sustained job: busser, then server, at",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2021-2023-employment-block.txt",
-   "bytes": 9385
+   "bytes": 9767
   },
   {
    "page": "wiki/timeline/periods/2025-collapse.md",
@@ -2950,21 +2957,21 @@
    "title": "Au Za'atar (NYC, ~2021\u20132024)",
    "summary": "Au Za'atar Midtown \u2014 the Lebanese restaurant at 58th & 1st owned by",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/au-zaatar.txt",
-   "bytes": 17005
+   "bytes": 18448
   },
   {
    "page": "wiki/work/bfs-foods.md",
    "title": "BFS Foods (2026)",
    "summary": "Dan worked as a gas-station cashier at BFS Foods \u2014 a Bruceton Farm Service convenience store paired with a company-owned Little Caesars in the same building ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/bfs-foods.txt",
-   "bytes": 21478
+   "bytes": 22345
   },
   {
    "page": "wiki/work/caviar-courier.md",
    "title": "Caviar Courier (Gig Work)",
    "summary": "The iMessage corpus contains 290 messages (April 2019 \u2013 April 2020) from `+14159801273`, the automated dispatch number for Caviar, the food-delivery app. The...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/caviar-courier.txt",
-   "bytes": 2171
+   "bytes": 3060
   },
   {
    "page": "wiki/work/fastly-fsly.md",
@@ -2985,7 +2992,7 @@
    "title": "Caddying \u2014 Nemacolin, Laurel Valley, Pikewood National (2016\u20132019)",
    "summary": "Between the [[wiki/legal/2015-retail-theft-arrest|retail-theft arrest]] and the deep 2017\u201318 poverty years, Dan held a caddying job at **Nemacolin Woodlands ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/nemacolin-caddying.txt",
-   "bytes": 8762
+   "bytes": 10036
   },
   {
    "page": "wiki/work/tech/ai-video-essays.md",

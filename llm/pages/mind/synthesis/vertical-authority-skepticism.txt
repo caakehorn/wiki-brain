@@ -16,6 +16,9 @@ sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
 tags: [politics, relationships, family, personality-profile, nyc-era]
 connections:
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: parallels
+    claim: "Refusal is only half the repertoire — where a vertical claim pays, Dan accepts the role and runs a private objective inside it instead of rejecting it, which is evasion by occupation rather than by exit."
   - page: wiki/people/diane-shrum
     type: evidenced-by
     claim: "The April 2018 letters are the template at family scale: authority exercised through paperwork, monitors and advance written requests by people who, on the caregivers' own account, did not visit Fran once."

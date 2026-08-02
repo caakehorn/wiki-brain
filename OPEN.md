@@ -10,7 +10,7 @@ filtered out, so this list shrinks only when something is actually settled.
 |---|---|
 | Live contradictions | 27 |
 | Open gaps | 129 |
-| Standing predictions | 10 |
+| Standing predictions | 13 |
 
 ## Live contradictions
 
@@ -61,6 +61,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **The 463 Morgantown arrangement will be reconstructed only after it fails.** 463-morgantown is a chosen housing situation running entirely on verbal understandings, with a lien deadline that has already elapsed unobserved. The rule predicts the paper trail ge
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **Any new primary bond will show the same onset shape.** High volume, no evaluative content, and no forensic material in the first years — matching the 728-messages-in-a-day onset of December 2015 rather than a vetting period.
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **The wiki itself is a chosen object and is therefore exempt.** Its epistemics were configured by Dan's own prompt (exocortex). This predicts the repository will under-audit its own method until the method visibly fails — which instrument-is-subject independen
+- **[[wiki/mind/synthesis/the-embedded-objective]]** — **Every job in the record, including any not yet documented, will show an out or a private objective installed in its first weeks — or it will be short.** A long tenure with no documented payload falsifies this page outright. The named test is the roughly elev
+- **[[wiki/mind/synthesis/the-embedded-objective]]** — **Jobs end when the payload is destroyed, not when conditions worsen.** Au Za'atar is the worked case. Any future job loss in the corpus should be checkable against which of the two happened first.
+- **[[wiki/mind/synthesis/the-embedded-objective]]** — **Assigned obligations with nothing embeddable should show acquisition documented and compliance undocumented**, as the ARD does. The Suboxone regimen is the sharpest available test in the other direction: it is a fifteen-year daily commitment originating in a
 
 ## Open gaps, by domain
 

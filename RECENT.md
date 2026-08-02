@@ -8,8 +8,9 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-02 — 70 pages
+## 2026-08-02 — 71 pages
 
+- **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
 - **Session log:** write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
 - **Session log:** climb | interests | food-and-diet — "food in every register except taste"; bounds the cool metric's jurisdiction
@@ -56,6 +57,7 @@ simply listed.
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-unbroken-bond was revised on 2026-08-02 to withdraw its claim that the pair-bond is the only structure that is simultaneously chosen and permanent — a claim written before the four-domain reading  |
 | [[wiki/mind/synthesis/supply-network]] | mind | **REVISED** — This section describes Dan in the supplier seat as the terminal phase's structure. The July–August 2026 export shows the configuration **survived both the June 1 closure and the July 26 goodbye**: aft |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **CORRECTED** — This page listed food alongside the pets as a "protected class" whose audit is scheduled for never. A capture filed the same day documents an **absolute composition regime**: every permitted item is a |
+| [[wiki/mind/synthesis/the-embedded-objective]] | mind | — |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — chaos-preference now carries the contradiction with single-channel, which shows the entropy carve-out is not confined to the attachment slot: the same single-occupancy discipline runs in |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/people/alexander-jackson]] | people | — |

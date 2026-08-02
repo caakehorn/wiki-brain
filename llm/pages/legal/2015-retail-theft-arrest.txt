@@ -19,6 +19,9 @@ related:
   - wiki/mind/synthesis/vertical-authority-skepticism
 tags: [legal, relationships, dui]
 connections:
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: evidences
+    claim: "The corpus records the getting and not the serving: five dated events across ten weeks document the acquisition of the ARD deal, and the six months of court-assigned probation that followed appear nowhere — the rule showing up in the shape of the evidence rather than its content."
   - page: wiki/mind/concepts/acquisition-drive
     type: evidences
     claim: "Snack food pursued as far as a state police arrest is the drive's signature output shape: cost-benefit ratios that make no sense are the expected result of a system optimising for completion rather than for value."
@@ -35,6 +38,16 @@ an event the corpus refers to almost exclusively as "the Combos incident."
 It is the earliest dated instance in the corpus of Dan on the receiving end
 of state authority rather than merely theorizing about it — the concrete
 ground floor underneath [[wiki/mind/synthesis/vertical-authority-skepticism]].
+The record's own shape here is evidence for
+[[wiki/mind/synthesis/the-embedded-objective|the payload rule]], and it is that
+page's hardest test. The *acquisition* of the ARD deal is documented across
+five dated events in ten weeks — the lawyer, the December barracks trips for
+lost paperwork, the January status check, the February hearing, the fines
+cleared. The six months of court-assigned probation that followed, which were
+the actually-assigned part, appear nowhere in the corpus at all, and whether
+the expungement was ever completed remains unconfirmed. The getting is
+recorded; the serving is not.
+
 He hired a lawyer ("Jack"), applied for Pennsylvania's ARD program
 (Accelerated Rehabilitative Disposition, the first-offender diversion track),
 was approved at a hearing before Judge Wagner on **February 17, 2016**, and

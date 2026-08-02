@@ -9,6 +9,9 @@ date_range_end: 2020-04-14
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/del", "wiki/self/message-corpora/master-message-dump"]
 connections:
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: instantiates
+    claim: "An app that dispatches orders offers nothing to embed a private objective in, and the engagement shape is what that predicts: twelve months of availability with no tenure — dense April–July 2019, near-silent to November, a final burst in April 2020. The appetite for income was constant; there was nothing to attach it to."
   - page: wiki/interests/food-and-diet
     type: evidences
     claim: "Food as pure freight: 290 messages across a year of courier work, every one of them an automated dispatch notification, and not one of them about what was in the bag — the cleanest instance of food passing through this life without being evaluated."
@@ -23,6 +26,14 @@ The iMessage corpus contains 290 messages (April 2019 – April 2020) from `+141
 ## What the pattern shows
 
 Activity is dense and clustered rather than steady — a heavy run in April–July 2019 (over 100 assigned orders, some sessions showing back-to-back assignments minutes apart, consistent with active shift-based courier work). This is followed by a long gap from August through November 2019, a scattered handful of orders in March 2020, and a final short burst April 7–14, 2020 — right as COVID-19 lockdowns began in NYC, suggesting gig delivery work was picked back up (or intensified) as a stopgap income source at the start of the pandemic.
+
+This shape is the second control for
+[[wiki/mind/synthesis/the-embedded-objective|the payload rule]]. An app that
+dispatches orders to a phone offers nothing to install a private objective in
+— no territory to hold, no ladder to climb, no counterparty to negotiate with,
+no oversight to evade. What results is twelve months of availability with no
+tenure: appetite for income that was constant across the period, attached to
+nothing, producing bursts rather than a job.
 
 ## Corpus Dimensions
 

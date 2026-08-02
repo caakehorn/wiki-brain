@@ -12,12 +12,12 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 434 |
-| Pages touched in the last 14 days | 292 |
-| Pages reasoning from other pages (`synthesizes:`) | 20 |
+| Pages | 435 |
+| Pages touched in the last 14 days | 293 |
+| Pages reasoning from other pages (`synthesizes:`) | 21 |
 | Live contradictions | 27 |
 | Open gaps | 129 |
-| Standing predictions | 10 |
+| Standing predictions | 13 |
 
 ## By domain
 
@@ -25,7 +25,7 @@ this is the state of the thing.
 |---|---|
 | people | 148 |
 | interests | 142 |
-| mind | 55 |
+| mind | 56 |
 | self | 31 |
 | timeline | 30 |
 | work | 14 |
@@ -38,14 +38,15 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 181 |
-| active | 121 |
+| active | 122 |
 | closed | 90 |
 | archived | 31 |
 | stub | 11 |
 
 ## The last few days
 
-**2026-08-02** — 70 pages
+**2026-08-02** — 71 pages
+  - climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
   - ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
   - write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
   - climb | interests | food-and-diet — "food in every register except taste"; bounds the cool metric's jurisdiction
@@ -136,6 +137,7 @@ have moved since.
 - [[wiki/mind/synthesis/single-channel]] — 6 premises
 - [[wiki/mind/synthesis/supply-network]] — 9 premises
 - [[wiki/mind/synthesis/the-deferred-audit]] — 9 premises
+- [[wiki/mind/synthesis/the-embedded-objective]] — 8 premises
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/people/alexander-jackson]] — 1 premise
 - [[wiki/people/arnu]] — 1 premise

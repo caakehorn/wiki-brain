@@ -11,6 +11,9 @@ sources:
   - raw/self/dansynth/AuZaatarsFinalShift.md
 tags: [personality-profile, nyc-era]
 connections:
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: instantiates
+    claim: "The out is how the payload gets installed, and Dan's own protocol statement — that he creates one at every job 'before the ink is even dry' — is what proves the embedding is deliberate and prior rather than something that accretes once a job turns bad."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: instance-of
     claim: "The pre-installed escape mechanism is the workplace expression of the architecture that refuses every vertical claim on his time — the same refusal, deployed on hire as protocol."
@@ -38,6 +41,17 @@ improvised under pressure; it is a deliberate protocol deployed on hire,
 "before the ink is even dry" — the workplace expression of the same
 architecture that refuses every vertical claim on his time
 ([[wiki/mind/synthesis/vertical-authority-skepticism]]).
+
+**What the out is for, structurally.** This page describes the escape
+mechanism; [[wiki/mind/synthesis/the-embedded-objective]] identifies what it
+delivers. The out is the first and most reliable of the private objectives Dan
+installs inside an assigned role, and the fact that he installs it "before the
+ink is even dry" — prior to any grievance, at every job — is the strongest
+evidence that the embedding is deliberate protocol rather than something that
+accretes once a job turns bad. The night class is the clearest case: eighteen
+months of maintained fiction that secured peak hours, exempted him from
+closing, and covered an affair. None of that is the job. All of it is what
+made forty-one months of the job survivable.
 
 ## Documented instances
 
