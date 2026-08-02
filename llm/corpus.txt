@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-02
-432 pages, ~633,148 tokens.
+432 pages, ~634,375 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -19609,7 +19609,7 @@ of his explicit statements of suicidal intent with a bar name, a laundry
 complaint, and silence.
 
 Dan is the primary victim of that system, and he is not blameless inside
-it. He said "fuck you" to her seventy-four times in seven months. He
+it. He said "fuck you" to her at least a hundred times between August 2025 and June 2026 — the seventy-four figure this page used to quote was a terminal-phase extract that stopped in March, and the count kept rising after it (see the re-verification below). He
 declared the relationship over 127 times and came back within two days
 essentially every time, which taught her his exits carried no weight. He
 built, with her active participation for most of a decade, a sexual
@@ -20370,6 +20370,82 @@ as stable, direct, and well-aligned with Dan — a framing worth preserving
 only as evidence of how convincing the concealment looked from the
 inside ([[wiki/self/chats/gemini-18]]).
 
+## Corpus re-verification (2026-08-02)
+
+The load-bearing quantities on this page were re-measured directly against
+the raw exports using `bin/mine-messages`, with patterns stated so the counts
+can be re-run and disputed. Two figures move materially, one escalation curve
+is independently confirmed, and one asymmetry the page never had appears.
+
+**Volume: the headline number counted one side of the conversation.** This
+page and [[wiki/self/message-corpora/master-message-dump]] both report
+**31,177** messages on Annie's early PA handle. That figure is her *inbound*
+messages only — an artifact of `MASTER_MESSAGES_DB_DUMP.csv`, whose `Sent`
+rows carry no `contact_handle` and therefore cannot be attributed to anyone.
+Counted from `all_imessages_complete_dump.txt`, where direction is reliable:
+
+| Handle | Sent | Received | Two-way total | Years |
+|---|---|---|---|---|
+| `+1724***6811` (PA, early) | 29,367 | 31,269 | **60,636** | 2015–2019 |
+| `+1212***2449` (NYC) | 16,497 | 23,513 | **40,010** | 2023–2025 |
+| `+1724***4125` (alternate) | 3,328 | 4,845 | **8,173** | 2018–2020 |
+
+The 31,269 received on the PA handle is what the old 31,177 was measuring.
+The real two-way volume on that handle alone is **roughly double** the
+number this page has been quoting, and **108,819** across the three handles
+in that one dump — which does not include 2021, 2022 or 2026 at all.
+
+**The verbal-abuse total was an extract, not a total.** The table below
+carried "fuck you" at **74**, and the prose above rendered it as
+"seventy-four times in seven months." Measured across
+`annie_all_time_logs.csv` (2022-12 → 2026-06-05), Dan sends it **100** times,
+distributed: Aug 2025 (6), Oct (2), Nov (10), Dec (11), Jan 2026 (11),
+**Feb 2026 (26)**, Mar (16), Apr (10), May (8). The 74 is approximately the
+Aug 2025–Mar 2026 window the terminal-phase extract covers; the count did not
+stop when the extract did.
+
+**The escalation curve is confirmed independently.** The monthly verbal-abuse
+row below (9 → 0 → 5 → 14 → 22 → 25 → 36 for Aug 2025 → Feb 2026) was derived
+from a different pass and a broader keyword set. A "fuck you"-only count over
+the same months returns 6 → 0 → 2 → 10 → 11 → 11 → 26 — a different scale,
+the same shape, and the same **February 2026 peak**, one month before the
+confession-and-retraction. Two independent measurements agreeing on the
+inflection is worth more than either alone.
+
+**The finding neither pass had: the exits invert.** This page's account of
+the exit dynamic is that Dan declared the relationship over 127 times and
+returned, teaching her his exits carried no weight. That is true of the
+terminal phase and false of the decade before it. Counting exit language
+("we're done," "it's over," "I'm done," "break up") by direction:
+
+| Era | Source | Dan → Annie | Annie → Dan |
+|---|---|---|---|
+| 2015–2025 | `all_imessages_complete_dump.txt` | 103 | **113** |
+| Dec 2022–Jun 2026 | `annie_all_time_logs.csv` | **62** | 4 |
+
+For most of the relationship Annie threatened to end it *slightly more often
+than Dan did*. In the terminal phase she essentially stops — 4 instances
+against his 62. The standard reading, that Dan was the one who could not
+leave, describes the last year accurately and inverts the earlier one. The
+likelier structure is that exit threats were a shared currency that Annie
+withdrew from circulation at exactly the point she had somewhere else to go.
+
+The same shape appears in the suicidal-statement counts, which this page has
+only ever reported for Dan. In the 2015–2025 dump: **Dan 21, Annie 11**. In
+the 2022–2026 export: **Dan 18, Annie 1**. Annie's own crisis statements are
+an earlier-era phenomenon that vanishes from the terminal phase; the page's
+"12 of 12 crisis statements met without substantive care" is a claim about
+the end, and it should not be read backwards over a decade in which she was
+making them too.
+
+> **METHOD:** these counts use plain regular expressions over
+> apostrophe-normalised text, message-level (a message containing a phrase
+> twice counts once), and they will not exactly reproduce figures derived by
+> the earlier forensic passes, which used their own definitions and were not
+> recorded. Where they diverge, both are shown rather than one overwritten.
+> The dump lacks 2021, 2022 and 2026; the `annie_all_time_logs` export starts
+> in Dec 2022. Neither covers the whole relationship on its own.
+
 ## By the numbers
 
 | Corpus metric | Value |
@@ -20402,11 +20478,11 @@ inside ([[wiki/self/chats/gemini-18]]).
 | Explicit severance signals / love affirmations | 0 / 299+ |
 | Wellbeing checks on Dan, raw / net of perfunctory | 7 / 4 (once per 55 days) |
 | Dan's burst events (10+ unanswered messages, largest 68) | 94 |
-| Dan's exit declarations / re-engagements within 48h | 127 / 110 |
+| Dan's exit declarations / re-engagements within 48h | 127 / 110 — terminal-phase behaviour; across 2015–2025 Annie used exit language *more* often than Dan (113 vs 103), see re-verification above |
 | Dan's unexecuted block threats / "tell mom" threats | 18 / 6+ |
 | Dan's verbal abuse, Aug 2025 → Feb 2026 (monthly) | 9 → 0 → 5 → 14 → 22 → 25 → 36 |
 | Dan's hostility within 12h of her warmth | 47 instances |
-| Dan's verbal abuse totals ("fuck you" / "piece of shit" / "worthless") | 74 / 17 / 11 |
+| Dan's verbal abuse totals ("fuck you" / "piece of shit" / "worthless") | 74 / 17 / 11 — the "fuck you" figure is an Aug 2025–Mar 2026 extract; the count through June 2026 is **100** (see re-verification above) |
 
 ## The DUI
 
