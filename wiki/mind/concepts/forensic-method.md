@@ -4,6 +4,7 @@ page_type: concept
 title: "The Forensic Method"
 aliases: ["forensic analysis", "forensic methodology", "procedural tells", "lossless retention"]
 status: stable
+knowledge: mixed
 importance: high
 date_created: 2026-06-22
 date_modified: 2026-07-26
@@ -25,6 +26,9 @@ related:
   - wiki/timeline/events/eli-incident
 tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
 connections:
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: causes
+    claim: "This method is the audit itself, and the one variable it never specified is when it fires: provenance sets the schedule, so the same engine reaches a cash-drawer claim in hours and a ten-year attachment only after closure."
   - page: wiki/timeline/events/july-2026-recontact
     type: instance-of
     claim: "The Leviathan dashboards of July 25 2026 are the method's first outward deployment — the same corpus instruments, aimed at another person as leverage in a live dispute rather than at the question of what happened to Dan."

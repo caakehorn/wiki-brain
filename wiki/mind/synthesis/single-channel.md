@@ -20,6 +20,9 @@ synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: component-of
+    claim: "'Maximum investment in the chosen, maximum indifference to the imposed' is a provenance rule stated as an allocation policy — a Gini of 0.96 is what a life composed exclusively of self-selected objects looks like measured from outside, and the no-failover exposure is the cost of never auditing those objects on arrival."
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: caused-by
     claim: "No-exit plus a single-occupancy primary slot is an accounting identity that produces concentration without requiring any claim about temperament — the mechanism under the contact Gini."

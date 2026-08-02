@@ -25,6 +25,9 @@ connections:
   - page: wiki/self/context-core
     type: evidenced-by
     claim: "The wiki's most authoritative source page is a curated AI-assisted compilation, not a primary record — so the residue/testimony grading this page defines has to be applied to the corpus's own foundation, not just to its interpretive pages."
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: parallels
+    claim: "The same operation at two scales: this page grades the wiki's evidence by where it came from, that one grades Dan's own objects by the identical question — and neither grades on quality, which is why the repository's epistemics and its subject's psychology turn out to share a shape."
   - page: wiki/mind/synthesis/alias-as-periodization
     type: mirrors
     claim: "The methodological contrast case: alias boundaries are admissible precisely because they were produced by the subject without intending to testify, which is the property AI-interpretive pages structurally lack."

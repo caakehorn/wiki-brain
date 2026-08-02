@@ -28,6 +28,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [relationships, trauma-bond, infidelity, attachment, mental-health]
 connections:
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: caused-by
+    claim: "The diagnosis-to-behaviour gap this page names but does not explain is an audit lag: the instrument existed and had been running on drawers, agencies and strangers for two decades — it was not permitted to point at a chosen object until that object had already failed, which also explains why the exit required a confession no one was going to give."
   - page: wiki/timeline/events/july-2026-recontact
     type: evidenced-by
     claim: "Annie's July 23-25 2026 statements — 'I put your through hell', 'you were always true to me', full accountability given to her parents, a rehab placement refused — are the first corroboration of this verdict from the other party with nothing left to procure."
@@ -157,6 +160,21 @@ The dossiers' own proportionality finding is the line to hold: these are "real, 
 - **Correct that he was wronged:** yes. The concealed affair inside an authorized framework, the months of gaslighting of accurate perception (the worst moral failure by the record's own rating — and the autumn-2024 "controlling" label was formally retracted because his vigilance was accurate), the procurement-structured love instrument he correctly diagnosed, and the concurrent defamation campaign with private denials — these are documented wrongs. The June 1 confirmation and the June 15 Tuquick defection are independent external validation, both **[RAW-CSV]** verified.
 - **Correct that the feeling was proportional to the harm:** mostly. The harm was real and severe; the anguish tracked it. What was *not* proportional was the duration and the self-destruction — ten years, 127 exits, a drug-supply tether, and a conflict engine running infinite loops on silence he could have named and walked from.
 - **Wrong that it was wholly her fault:** the diagnosis→behavior gap is his. The conflict engine, the no-self-closing attachment model, the supply-chain control, the arrangement, and the 87% relapse loop are Dan's contributions. He was wronged *and* complicit in the length and depth of the disaster.
+
+> **The gap now has a mechanism [2026-08-02].** This page establishes the
+> diagnosis-to-behaviour gap and does not explain it — he read the dynamic
+> accurately and acted as though he had not.
+> [[wiki/mind/synthesis/the-deferred-audit]] supplies the missing term: the
+> forensic instrument was not absent, it was **on a different clock**. The same
+> engine that reconstructed a $50 cash-drawer claim the same day, in opiate
+> withdrawal, took roughly nine years to point at this relationship, because in
+> that architecture an audit of a chosen object is also an audit of the choice —
+> and concession routes through Core Axiom 1, where a bad selection is not a
+> correctable error but a verdict on the self. The engine waits until the object
+> has failed on its own, at which point the finding is *the thing failed* rather
+> than *I chose wrong*. That also explains the confession trap named above: an
+> external admission is the only instrument that converts "I chose badly" into
+> "I was deceived," which is why the exit could not be taken without one.
 
 The synthesis the wiki already carries — "the gaslighting outweighed the affair" — survives this totality read, but it needs the second clause made explicit: the gaslighting was her act, and the inability to leave it was his. The wrong is established; the catastrophe is co-authored.
 

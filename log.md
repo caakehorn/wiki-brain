@@ -1296,3 +1296,4 @@ bin/wiki-climb check: 328 pages, 19 with synthesizes:, 0 errors, 0 warnings.
 ## [2026-08-02] write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
 ## [2026-08-02] climb | interests | food-and-diet — "food in every register except taste"; bounds the cool metric's jurisdiction
 ## [2026-08-02] ingest | people | sadie-harris, david-j-frank, morley-frank rewritten from the GEDCOM; fayette-return revised (Sadie burial vs death, G1's NYC years, the Hopwood terminus)
+## [2026-08-02] climb | mind | the-deferred-audit — provenance sets the audit's clock; the audit lag explains the diagnosis-to-behaviour gap (8 synthesized, doctrine tier)
