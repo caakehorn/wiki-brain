@@ -55,6 +55,7 @@ this is the state of the thing.
   - fix | people | annie-ulmer — the 24-hour bond-switch was Dan's, not Annie's; corrected in two places and propagated to bond-switch-2015, the-unbroken-bond, dan-annie-fallout-verdict, block-unblock-loop, supply-network
   - tooling | meta | bin/wiki-digest — generates DIGEST.md, RECENT.md, OPEN.md as human reading aids (state of the wiki, what changed and why, every unresolved contradiction/gap/prediction)
   - ingest | multi | factstory batch of 4 manual captures — Jay Lauer's death, the Fall of Fran, the vape alarm, the acquisition drive
+  - fix | meta | wiki-brain went private — sync restored, dead Pages URLs repointed at the leviathan mirror
 
 **2026-08-01** — 102 pages
   - climb | mind | alias-as-periodization.md — new T2 junction page

@@ -31,10 +31,6 @@ connections:
     claim: "The Subways and Taking Back Sunday appeared together at Chevrolet Amphitheatre, Pittsburgh, PA on Jun 27, 2006."
 ---
 
----
-
----
-
 # Taking Back Sunday
 
 Long Island band whose 2002 debut, *Tell All Your Friends*, is one of the

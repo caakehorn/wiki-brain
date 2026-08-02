@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-02
-431 pages, ~629,444 tokens.
+431 pages, ~629,439 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -3146,11 +3146,6 @@ connections:
     claim: "We The Kings and Fall Out Boy appeared together at House of Blues, Orlando, FL on Dec 12, 2008."
 ---
 
----
-
----
-
-
 # Fall Out Boy
 
 Chicago pop-punk band, formed 2001, the commercial flagship of the
@@ -5371,10 +5366,6 @@ connections:
   - page: wiki/interests/favorites/music/artists/the-subways
     type: co-occurs
     claim: "The Subways and Taking Back Sunday appeared together at Chevrolet Amphitheatre, Pittsburgh, PA on Jun 27, 2006."
----
-
----
-
 ---
 
 # Taking Back Sunday
