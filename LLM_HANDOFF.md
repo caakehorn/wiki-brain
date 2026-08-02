@@ -6,6 +6,20 @@
 
 ---
 
+### [2026-08-02] - Session: wiki-brain went private — sync repair and dead-URL repoint (follow-up, same session)
+* **Model:** claude-opus-5 / Claude Code
+* **Branches/PRs:** wiki-brain `claude/wiki-fact-story-entries-v6rsp6` → **PR #80**; leviathan `fix/sync-wiki-private-source` → **caakehorn/leviathan#57**
+* **What happened:** the operator made `caakehorn/wiki-brain` private. Two things broke silently and neither raised an alert anywhere visible.
+  1. **The hourly sync into leviathan died at 09:21 UTC** (last good 06:45). `sync-wiki.yml` there checked wiki-brain out with `actions/checkout@v4` and no token, so it used leviathan's `GITHUB_TOKEN` — scoped to leviathan, and a private third-party repo returns a bare `Not Found` that is indistinguishable from a deleted repo. The mirror sat pinned at `e7e1e53`, missing PR #79 entirely.
+  2. **This repo's Pages feed is unpublished** — `llms.txt`, `agent/*`, `wiki/*.md`, `llm/index.txt` all 404, and `deploy-site.yml` now fails on every push. Pages does not serve private repos on this plan.
+* **Fixes:** leviathan's workflow now takes `secrets.WIKI_BRAIN_TOKEN` with `persist-credentials: false`, plus a preflight step that fails with a readable `::error::` when the secret is missing rather than reproducing the ambiguous 404. Every wiki-brain doc that advertised a dead URL (`AGENT_ACCESS.md`, `README.md`, `CLAUDE.md`, `INGEST_RUNBOOK.md`, and `FACTSTORY_BRIEF_TEMPLATE.md` §1) now points at `https://caakehorn.github.io/leviathan/data/wiki-data.json` with guidance on reading it selectively. The brief template was the urgent one — it had been shipping seven dead orientation URLs to every model handed a capture brief since that morning.
+* **A real content bug fell out of it.** leviathan's `validate` job went red with `2 pages still carry frontmatter` — `fall-out-boy` and `taking-back-sunday` each closed their real frontmatter and then carried a second, empty `---\n\n---` fence before the H1. **`bin/wiki-lint` structurally cannot see this**: its parser matches only the first block and treats the leftover as ordinary markdown. The mirror was publishing two page bodies that began with raw delimiters. Fixed at source; a repo-wide scan found no others. Worth knowing that a downstream consumer caught something three in-repo gates could not.
+* **Mirror rebuilt by hand** (`build-wiki-data.py` + `build-brain.js` against a local checkout) to clear the backlog without waiting on the token: 425 → 431 pages, 155 → 161 log ops, PR #79 content now included. `source_commit` records the fix branch; the next real sync re-pins it to main.
+* **⚠️ BLOCKED ON THE OPERATOR — the sync stays red until this is done:** create a fine-grained PAT scoped to `caakehorn/wiki-brain` alone with **Contents: Read-only**, add it to **leviathan** as the secret `WIKI_BRAIN_TOKEN`, then re-run *Actions → Sync wiki data from wiki-brain*. Fine-grained tokens expire within a year and this will break again identically when it does; a read-only deploy key via `actions/checkout`'s `ssh-key:` is the non-expiring alternative.
+* **Decided, on the record:** `data/wiki-data.json` in the **public** leviathan repo carries the complete body prose of all 431 pages, served unauthenticated — so making this repo private did not make the wiki's contents private. Raised with the operator, who confirmed the exposure is intended and should stay. `brain.json` is described in `docs/SINGULARITY-BRAIN.md` as an opaque projection but retains readable `title` and `summary` fields; that is pre-existing and strictly less exposure than the file beside it, so it was left alone.
+* **Also not done:** `deploy-site.yml` is now permanently red and will fail on every push to `main`. Disabling it is one click and reversible, but that is the operator's call.
+
+
 ### [2026-08-02] - Session: factstory brief #4 ingest (4 captures) + brief template rewritten
 * **Model:** claude-opus-5 / Claude Code
 * **Branch:** `claude/wiki-fact-story-entries-v6rsp6`
