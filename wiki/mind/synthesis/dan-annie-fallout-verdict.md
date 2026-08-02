@@ -28,6 +28,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [relationships, trauma-bond, infidelity, attachment, mental-health]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: evidenced-by
+    claim: "Dan volunteers the verdict's central claim unprompted and against his own interest: 'even the worst thing I've done, getting you drugs, didn't really benefit me nearly as much as it was about that being the only way you would see me.'"
   - page: wiki/mind/synthesis/the-deferred-audit
     type: caused-by
     claim: "The diagnosis-to-behaviour gap this page names but does not explain is an audit lag: the instrument existed and had been running on drawers, agencies and strangers for two decades — it was not permitted to point at a chosen object until that object had already failed, which also explains why the exit required a confession no one was going to give."

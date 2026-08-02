@@ -8,8 +8,9 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-02 — 66 pages
+## 2026-08-02 — 70 pages
 
+- **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
 - **Session log:** write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
 - **Session log:** climb | interests | food-and-diet — "food in every register except taste"; bounds the cool metric's jurisdiction
 - **Session log:** ingest | people | sadie-harris, david-j-frank, morley-frank rewritten from the GEDCOM; fayette-return revised (Sadie burial vs death, G1's NYC years, the Hopwood terminus)
@@ -53,7 +54,7 @@ simply listed.
 | [[wiki/mind/synthesis/fayette-return]] | mind | **REVISED** — 1. **Sadie did not die in Hopwood.** The export records only a death *date* (27 Nov 1997) and gives Hopwood as her **burial** place; her last attested residence is Brownsville in 1993. The original ta |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — ancestral-dialectic was revised on 2026-08-02 after a direct read of the GEDCOM contradicted it: the report has the paternal line fleeing the pogroms *into* the Fayette County coal patch, while the ce |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-unbroken-bond was revised on 2026-08-02 to withdraw its claim that the pair-bond is the only structure that is simultaneously chosen and permanent — a claim written before the four-domain reading  |
-| [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — annie-ulmer was corrected today to move the twenty-four-hour bond-switch at the 2015 introduction from her column to Dan's. What this page draws from that page — Annie's dual role as logistics facilit |
+| [[wiki/mind/synthesis/supply-network]] | mind | **REVISED** — This section describes Dan in the supplier seat as the terminal phase's structure. The July–August 2026 export shows the configuration **survived both the June 1 closure and the July 26 goodbye**: aft |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **CORRECTED** — This page listed food alongside the pets as a "protected class" whose audit is scheduled for never. A capture filed the same day documents an **absolute composition regime**: every permitted item is a |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — chaos-preference now carries the contradiction with single-channel, which shows the entropy carve-out is not confined to the attachment slot: the same single-occupancy discipline runs in |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
@@ -73,10 +74,12 @@ simply listed.
 | [[wiki/people/joe-croftcheck]] | people | — |
 | [[wiki/people/john-carney]] | people | **RE-CHECKED** — 463-morgantown was updated to record that the Arnu mechanics-lien deadline elapsed on ~27 July 2026 with no documented outcome. The Carney exposure documented on this page is a separate claim on the s |
 | [[wiki/people/johnny-dealer]] | people | **RE-CHECKED** — master-message-dump moved when the message-density campaign added two findings to it: that graded numeric confidence is a measurable behavioural signature in the corpus, and — the relevant one here —  |
+| [[wiki/people/milo]] | people | — |
 | [[wiki/people/morley-frank]] | people | — |
 | [[wiki/people/rick-frank]] | people | — |
 | [[wiki/people/sadie-harris]] | people | _(carries a CONTRADICTION)_ |
 | [[wiki/people/suzanne-frank]] | people | — |
+| [[wiki/people/the-unnamed-man]] | people | — |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/places/117-belmont-circle]] | places | — |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-07-13)_ |
@@ -86,6 +89,8 @@ simply listed.
 | [[wiki/timeline/events/bald-eagle-cummings]] | timeline | — |
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | **GAP CLOSED** — This page had carried "the punchline of the SMOK-vs-10W vape story (set up in the session, delivered only in an uploaded video — fire alarm? staff incident?)" as an open question since 2026-07-19. Two |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
+| [[wiki/timeline/events/july-2026-recontact]] | timeline | — |
+| [[wiki/timeline/events/july-august-2026-reentanglement]] | timeline | — |
 | [[wiki/timeline/events/teen-concert-years]] | timeline | **CONTRADICTION** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate |
 | [[wiki/timeline/events/the-fall-of-fran]] | timeline | **CONTRADICTION** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] | timeline | **CONTRADICTION** — fran-death-vigil, written from the Photo Thread session, has Dan blowing enormous clouds from a 110-watt SMOK **in the room** while Suz puffed her 10-watt device **in the hospital bathroom**. Both cap |
@@ -210,7 +215,7 @@ simply listed.
 | [[wiki/people/menore]] | people | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/places/424-bedford-ave]] | places | — |
 
-## 2026-07-26 — 13 pages
+## 2026-07-26 — 11 pages
 
 - **Session log:** climb | all | SYNTHESIS_SPEC + bin/wiki-climb — the wiki becomes an input to itself
 - **Session log:** ingest | people+timeline | the July 2026 re-contact — annie-ulmer reopened
@@ -222,12 +227,10 @@ simply listed.
 | [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/mind/concepts/node-locking]] | mind | — |
 | [[wiki/people/gabe]] | people | _(carries a CONTRADICTION)_ |
-| [[wiki/people/milo]] | people | — |
 | [[wiki/people/valeria-iglesias-cid]] | people | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/self/location-history]] | self | — |
 | [[wiki/timeline/events/april-may-2026-final-weeks]] | timeline | — |
 | [[wiki/timeline/events/group-chat-closure]] | timeline | **REVISED** — "closure" overstates what this event achieved, and the wiki inherited the overstatement. June 1 severed contact for fifty-two days — by a wide margin the most durable severance in a relationship with  |
-| [[wiki/timeline/events/july-2026-recontact]] | timeline | — |
 | [[wiki/timeline/periods/dec-2025-spike]] | timeline | — |
 | [[wiki/work/tech/max-framework/overview]] | work | — |
 

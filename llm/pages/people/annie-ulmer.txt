@@ -9,21 +9,23 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-08-02
 date_range_start: 2015-11-01
-date_range_end: 2026-07-26
+date_range_end: 2026-08-02
 infobox:
   name: Annie Ulmer
-  status: Open — contact resumed 2026-07-23 after a 52-day severance
+  status: Open — in daily contact; supply relationship resumed 2026-07-27
   type: Partner (2015–2026); ex-partner in live contact
   known_for: Decade-long relationship; subject of forensic dossiers
   partner: "[[wiki/self/overview|Dan Frank]]"
   first_mentioned: November 2015
   closed: 'June 1, 2026 — severance failed July 23, 2026'
-  notes: See [[wiki/timeline/events/july-2026-recontact|the July 2026 re-contact]]
+  notes: See [[wiki/timeline/events/july-august-2026-reentanglement|the re-entanglement]]
   relationship_to_dan: ex-partner
   location: uniontown
   first_contact: 2015-11-01
   handles: ["@Annelouise28", "@Lo_weez", "@alexisarmel"]
 changelog:
+  - date: 2026-08-02
+    note: "The severance-that-failed section is superseded rather than revised: a fresh export through 2026-08-02 shows contact resumed eighteen minutes after 'whatever goodbye annie' and ran 1,880 messages and six in-person meetings across eight days, five of them drug handoffs. New section 'The re-entanglement, July 26 – August 2'; date_range_end and infobox status updated; three chronology rows and two numbers rows added; the word-volume ratio (2.88:1, against an all-time 2.95:1) added as the stable metric behind an unstable message-count ratio. Three findings written back from the new event page: Dan states the procurement-as-access thesis in his own voice; he names autism as the reason he cannot close the bond without an explicit severance signal, asks for one across a full day, and does not get it; Annie apologises to Suz in person on August 2. Full account at wiki/timeline/events/july-august-2026-reentanglement."
   - date: 2026-07-26
     note: "Structural: the page is no longer historical. A fresh full-history export of the 212 thread (through 2026-07-26 05:04) shows contact resumed July 23 after a 52-day silence and running 624 messages across four days. status closed→active, date_range_end extended, infobox status rewritten, lead paragraph and Closing Note rewritten, REVISED block added under the lead, new section 'July 2026: the severance that failed' placed before 'Why it held together', six chronology rows added, two new gaps. The relationship's analysis is not reopened — the verdict, the numbers and the earned reads all stand unchanged — but the wiki's inference that June 1 was terminal is withdrawn. Full event at wiki/timeline/events/july-2026-recontact."
   - date: 2026-07-24b
@@ -37,6 +39,7 @@ changelog:
   - date: 2026-07-11
     note: "Data audit: burst-event misattribution fixed, financial amendments folded in"
 sources:
+  - raw/self/message-csv/imessage_export_2124702449_20260802.csv
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/message-csv/imessage_export_2124702449_20260726.csv
   - raw/self/message-csv/imessage_export_17245629389_both_all_now.csv
@@ -98,6 +101,12 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: contains
+    claim: "Eight days in which the relationship stopped being a failed severance and became a supply arrangement with a schedule — six meetings, five handoffs, and Dan stating out loud that procurement was always the price of access."
+  - page: wiki/people/the-unnamed-man
+    type: co-occurs
+    claim: "The man Annie left Dan for and says raped her on July 25 2026; her refusal to state that she had cut him off is the condition Dan set for contact and the switch every hostile phase of the following week turns on."
   - page: wiki/people/betherin-mechling
     type: contains
     claim: "Annie's cousin is the reason Jay Lauer's supply relationship with Dan sat inside her extended family rather than beside it, and the reason his April 2017 overdose reached Dan through her mother rather than his own."
@@ -950,8 +959,70 @@ a threat ("keep acting like I'm fucking bluffing you liar"), and both
 framings are in the same hour of transcript.
 
 The four days end at 5:04 AM on July 26 with "whatever goodbye annie,"
-unanswered. Whether that holds is not knowable from anything currently on
-disk, and the record's own base rate on such statements is 110 out of 127.
+unanswered.
+
+> **REVISED [2026-08-02]:** the sentence that closed this section — "Whether
+> that holds is not knowable from anything currently on disk" — is now
+> answerable, and the base rate held. It broke in **eighteen minutes**. The
+> full account is [[wiki/timeline/events/july-august-2026-reentanglement|the
+> re-entanglement]]; what follows is what it changes about this page.
+
+## The re-entanglement, July 26 – August 2
+
+Eighteen minutes after the goodbye, Dan resumed. Over the following eight
+days they exchanged **1,880 messages and met in person six times** — more
+in-person contact than any comparable window since the March 2026 terminal
+phase, and more than the preceding four months combined.
+
+**Five of the six meetings were drug handoffs**, and the sixth had one
+attached forty minutes later. Procurement restarted on July 27 — thirty-one
+hours after the refusal documented above, which remains the only one of its
+kind and is now also the shortest-lived. The sequence is $40 in her parents'
+driveway traded for a hug, $100 thrown from a moving car at her uncle's
+house in Hopwood, two handoffs made on foot when neither of them had a
+vehicle, and $50 pre-crushed with a straw. Dan sets the terms out loud three
+times — "stop contacting me if you want me as your friend or dealer or
+anything other than wanting to be together" — and supplies every time he is
+asked.
+
+The window produces three things this page has to carry.
+
+**Dan states the procurement thesis in his own voice.** On the night of July
+28, mid-argument, unprompted and against his own position: *"even the worst
+thing I've done — getting you drugs — didn't really benefit me nearly as much
+as it was about that being the only way you would see me."* Everything on
+this page about supply-as-access, and the whole spine of
+[[wiki/mind/synthesis/dan-annie-fallout-verdict|the fallout verdict]], has
+until now been inference from the record. It is now also testimony.
+
+**The mechanism behind the missing severance signal is stated, and it holds
+for another 1,880 messages.** The section below explains the bond's
+persistence by the absence of any explicit ending from Annie — 299+ love
+affirmations against zero severance signals. On July 28 Dan names it himself
+and gives it a cause: *"You won't just fucking say you don't want to be with
+me anymore. You've never once said it… And I'm fucking autistic. My brain
+can't cross out that part of my life that I love unless I know that you don't
+feel that way."* He then asks for the statement, directly and repeatedly,
+across a full day. **She still does not make it.** Her nearest approach is
+its inverse, at 00:02 on July 29: "Always have. Always fucking will." Eleven
+years and a hundred and twenty-seven declared exits, and the count of
+explicit severance signals from Annie remains zero.
+
+**And she made one repair.** On August 2 Annie walked to Dan's house —
+declining the meeting point they had arranged, leaving him waiting on a
+corner — and apologised to [[wiki/people/suzanne-frank|Suz]] in person for
+the harassment [[wiki/people/the-unnamed-man|the third party]] had directed
+at her. "Neither of you, and especially her; someone who had nothing to do
+with our relationship, was harassed for no reason." It is the only act in
+the terminal record in which either party repairs anything with anyone
+outside the relationship, Dan had predicted its possibility twenty-seven
+hours earlier while Annie insisted it was impossible, and he records being
+wrong about her: "I did not think you would have the courage or the will to
+do that."
+
+Forty minutes after the apology she asked whether he had it, and he drove to
+Sugie's with fifty dollars' worth. Both facts belong to the same afternoon
+and neither cancels the other.
 
 ## Why it held together as long as it did
 
@@ -1003,6 +1074,23 @@ inside ([[wiki/self/chats/gemini-18]]).
 | Record gaps | 2022 (none logged); Sep–Dec 2024 (3,613 Annie / 0 Dan — cohabitation artifact, not missing data) |
 | Terminal-phase keywords | "love you" 541 · "Eli" 388 · "lying" 150 · "goodbye" 110 |
 | Alternate-number thread (2018–2020, +17249204125) | 4,812 msgs — logistics, debt, crisis; crosses [[wiki/people/johnny-dealer]] network |
+| **Word volume, Dan : Annie, all-time** | **2.95 : 1** (188,167 / 63,700 words across 23,719 messages, `imessage_2124702449_both_all_now.csv`, Dec 2022 – Jun 2026) |
+| Word volume, Jul 26 – Aug 2 2026 | 2.88 : 1 — unchanged by the crisis |
+| Annie's median message length | 4 words, in both the final year and the re-entanglement window |
+
+**A note on which ratio to quote.** The message-count ratios above are the
+unstable metric and should not be used to characterise the relationship's
+asymmetry on their own. Measured month by month across the final year they
+swing from 0.79 (October 2025) to 1.92 (February 2026); the eight days after
+the July 26 goodbye come closer to parity — 1.06 — than any comparable
+window on record, which reads as reciprocity and is not. Over the same
+periods the **word** ratio moves far less and lands at essentially the
+all-time value: 2.83 in the re-contact, 2.88 in the re-entanglement, 2.90
+across the final year, 2.95 all-time. What produced the apparent parity in
+those eight days was Annie taking more turns of exactly the same size — her
+median message is four words in both windows — while Dan's median grew from
+eight words to eleven. Her participation rose in frequency and not at all in
+substance.
 
 | Annie, love-language frequency by year | % of her messages |
 |---|---|
@@ -1087,6 +1175,10 @@ legal exposure for Dan — noted here for completeness.
 | 2026-07-23 | Dan answers the email; 52-day severance ends; eight hours of restored intimacy |
 | 2026-07-25 | Leviathan dashboards sent as leverage; Annie states she told her parents everything |
 | 2026-07-26 | Rape allegation, refused supply request, mutual suicidal statements, "whatever goodbye annie" (05:04) |
+| 2026-07-26 | Contact resumes 05:22; transcript published and retracted the same day; Dan messages Ellen at 06:22 — the first executed maternal-disclosure threat on record |
+| 2026-07-27 | Supply resumes: $40 in her parents' driveway, traded for a hug, 31 hours after the refusal |
+| 2026-07-28 | 770 messages; twelve-hour standoff over an email to her parents that is never sent |
+| 2026-08-02 | Annie walks to the house and apologises to Suz in person; buys $50 forty minutes later |
 
 Two synthesis pages extend this record further: the capstone moral
 verdict, provenance-tiered down to individual message rows, at

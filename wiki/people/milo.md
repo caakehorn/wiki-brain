@@ -6,9 +6,10 @@ status: active
 knowledge: mixed
 importance: high
 date_created: 2026-07-14
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 date_range_start: 2018-01-01
 sources:
+  - raw/self/message-csv/imessage_export_2124702449_20260802.csv
   - raw/self/dox-md/MAX_PRIME.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
   - raw/self/dox-md/LIFE REPORT.md
@@ -18,6 +19,10 @@ sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
 tags: [pets, relationships, physical-health, ai-collaboration, nyc-era]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: causes
+    claim: "Milo is not only the channel that reopened the relationship but the one that carries it: all four returns from hostility to warmth across the eight days run through him, and Dan speaks in the dog's voice at exactly the moments a direct approach would fail."
+
   - page: wiki/timeline/events/july-2026-recontact
     type: causes
     claim: "Milo is the proximate cause of the July 2026 re-contact: Annie's July 4 email asking whether he was frightened by fireworks is the message Dan answered on the 23rd, ending a 52-day severance."
@@ -147,8 +152,49 @@ record to a statement of what he has left: "i made him a promise that,
 even though his mom didn't want either of us in her life anymore, I would
 love him enough for both of us and i'm taking that promise seriously."
 
+### He is also the instrument, not only the channel
+
+The eight days after the July 26 goodbye
+([[wiki/timeline/events/july-august-2026-reentanglement]]) make the point
+harder than the re-contact could. Milo did not merely open the channel; he
+**carries** it. Each of the four transitions from hostility back into warmth
+across those days runs through him, and in each case nothing has been
+resolved when it happens:
+
+- July 26, 20:20 — fifteen hours of rape allegation, an executed disclosure
+  to Annie's mother, an attack on her weight and "Don't contact me again"
+  end with "Omg he caught one." Milo has caught a rabbit. Annie: "Bunny?
+  / Omg / He caught it?"
+- July 27, 00:09 — the thread restarts on the dog sighing in a pink kimono
+  after a shower.
+- July 30 — an entire day of repair conducted almost wholly in dog content:
+  a new carrier bag, expensive food, a petting zoo, a bee.
+- August 2 — the last exchange of the window is Milo and a thunderstorm.
+
+Dan also speaks **as** him. "Milo said you can borrow his pink kimono."
+"Milo said now he can send you even better pictures." "milo just wanted to
+know because he said he liked Craig st." The dog's voice is the register
+available when Dan's own has been spent, and it is used at exactly the
+moments a direct approach would fail.
+
+And the same attachment is used as the punishment instrument. On the morning
+of July 26: "you don't get milo and that's something you'll never have again
+… you've seen milo for the last time you ever will see him." Fifteen hours
+later Dan is sending her photographs of him. The threat and the reconciliation
+run through the same object, which is what makes it load-bearing rather than
+sentimental — nothing else in the relationship can do both.
+
+One further fact about **Betty**, Milo's companion and Annie's dog, surfaces
+here for the first time and is recorded because nothing else in the corpus
+carries it: Dan's account is that Annie withdrew from her in the weeks before
+she was put down and was not present at the end — "You couldn't even stay
+with her when they put her down so she had to go through it alone." Sourced
+only to Dan, delivered as an attack at 02:59 on July 28, and uncorroborated.
+
 **Gaps:** exact calendar date of the rescue (only bounded to before
 September 2018); breed-registry or vet details beyond the 2018 surgery
 and the 2025 vet visit. His status after the June 2026 closure is now
-answered — he is with Dan, moved house with him in July 2026, and is the
-channel the relationship reopened through.
+answered — he is with Dan, moved house with him in July 2026, is the
+channel the relationship reopened through, and by August 2026 is fully
+housebroken, off-leash on the porch with the neighbours' animals, and
+described by Dan as "like a different dog now."

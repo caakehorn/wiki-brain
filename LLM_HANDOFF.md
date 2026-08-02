@@ -6,6 +6,30 @@
 
 ---
 
+### [2026-08-02] - Session: the re-entanglement — Annie 212 export through 2026-08-02 (queue's #1 item, ingested)
+* **Model:** claude-opus-5 / Claude Code
+* **Branch:** `claude/annie-chat-logs-synthesis-pv8eji`
+* **Summary:** The operator uploaded the export the repository has been waiting for since 2026-07-26 — `imessage_export_2124702449_20260802.csv`, 4,848 rows, filed to `raw/self/message-csv/`. New material past the last filed export is **1,880 messages across eight days** (2026-07-26 05:22 → 2026-08-02 18:10). Read in full, not sampled.
+* **Findings, in order of value:**
+  1. **The goodbye broke in eighteen minutes, and everything `july-2026-recontact` left open is now closed.** That page ended with three named unknowns and a note that the next export was the highest-value pending ingest. All three resolve: Dan **did** contact Ellen (06:22 Jul 26, screenshots — the **first executed maternal-disclosure threat in the corpus** against six-plus recorded); the exposure threat was **executed and then retracted** (transcript.html published 05:36, offline 18:05, on one request from Annie after the third party read it from her phone); the "disappear" statement produced the densest contact period since March 2026. The corpus's only documented refusal to supply held **31 hours**.
+  2. **The relationship reorganised around procurement, and this is the pass's central claim.** Six in-person meetings in six days; **five were drug handoffs** and the sixth had one attached forty minutes later. Tabled with dates, places and amounts on the new event page. Dan states the mechanism himself, unprompted and against his own position mid-argument: *"even the worst thing I've done — getting you drugs — didn't really benefit me nearly as much as it was about that being the only way you would see me."* The `dan-annie-fallout-verdict` and `supply-network` thesis has until now been inference; it is now also testimony.
+  3. **A rule falls out of the threat record, and it is testable.** Both threat types appear 48 hours apart and resolve **opposite ways** — the July 26 disclosure was impulsive, unannounced, executed in 16 minutes; the July 28 disclosure was announced 12 hours ahead, argued over ~200 messages, offered for Annie's pre-approval, and **never sent**. New rule on `block-unblock-loop`: **announcement is the mechanism of non-execution** — a stated intention becomes a move that can be traded; an unstated one is simply performed. That reframes the 18 unexecuted block threats as bids rather than failures of will. Falsifier queued in that page's Gaps (the back catalogue is all announced by definition; the test is whether any silent severance executed).
+  4. **`block-unblock-loop`'s standing prediction resolved — confirmed at the resolution of minutes.** It had predicted the July 26 goodbye would fail because the dog remained co-held. Recorded as a RESOLVED block, not a date bump.
+  5. **`dormancy-not-exit` gains the mechanism it could only infer, stated by the subject.** "You won't just fucking say you don't want to be with me anymore. You've never once said it… And I'm fucking autistic. My brain can't cross out that part of my life that I love unless I know that you don't feel that way." He then asks for the statement across a full day and **does not get it** — across 1,880 messages under sustained demand, Annie's nearest approach is its inverse. The rule tightens from "nothing leaves the graph" to **the closing operation requires a counterparty who rarely performs it**, which predicts where it should fail (Kristin's Dec 2025 block).
+  6. **A gap `supply-network` has carried since it was written is closed: "Bop" is a person.** Not a verb, a product, or a term for sourcing through Dan — a man who **house-calls at noon daily**, whose property Dan maintains in apparent part-payment ("I have to weed whack bops place"), who sits on the porch with Felix and the dog, who declines to come while Annie is there, and who sourced all five handoffs. **Felix is confirmed as a separate person with no supply role** (consistent with the 463 contractor). The network did not collapse with the Tom node — it was replaced by a higher-availability one, which is the page's own reliability inversion running again.
+  7. **A metric on `annie-ulmer` is corrected, and the correction matters for how the relationship gets described.** The message-count ratio is the **unstable** metric — 0.79 to 1.92 monthly across the final year, and **1.06 in this window**, which reads as reciprocity. The word-volume ratio barely moves: **2.88 here against 2.95 all-time**, verified independently on `imessage_2124702449_both_all_now.csv` (23,719 msgs). Annie's median message is **4 words in both windows**; the apparent parity is her taking more turns of the same size while Dan's median grew 8→11. Her participation rose in frequency and not at all in substance. A note now tells future passes which ratio to quote.
+  8. **New page `wiki/people/the-unnamed-man.md`, written around a refusal.** Dan states twice that he has deliberately not learned the third party's name, and gives the reason: "I do not want to live my life with the HATRED that I would feel towards one person." This is **chosen ignorance by the person whose defining method is exhaustive documentation** — the sharpest counter-example the corpus holds to `forensic-method`'s claim to generality. The instrument has an off switch, it is under deliberate control, and its criterion is emotional cost rather than difficulty or relevance. Reciprocal `contradicts` edges wired.
+  9. **`forensic-method` gains four states in six days** — exhibit, retracted (5 minutes, one request; the apparatus was worth much less as leverage than the July 25 deployment suggested), fortified into an access-gated honeypot with a deliberately *decelerating* loading bar and a legally-binding no-trespass disclaimer (`void.html`), then offered to Annie as a **gift** on July 31 with her as "the big pink dot." The target changes far more readily than the method does. That July 31 exchange is also **the origin of today's bond-switch subject-reversal correction** — Dan spotted the error while showing her the page, timestamped 22:04, which the export now records as primary source.
+* **Coverage items filed rather than dropped:** Betty's final weeks (Annie withdrew before the euthanasia and was not present — sourced only to Dan, in an attack, flagged uncorroborated); Annie's four suicidal statements across three days; her stated recovery programme (3x weekly therapy accepted in lieu of being sent away, drug test, grounded, library); the scratch-off wager and its retirement; Dan's diet/body change framed by him as "flailing"; and eight undocumented names (Sugie, Laura, Courtney, Brian, Tanya, Lucky, Bailey, Bop).
+* **Gates:** wiki-lint **434 pages / 0 errors** · wiki-connect check **0 errors** (214 warnings, down from 220 — every edge introduced this pass has its correctly-paired inverse) · wiki-climb check **434 pages, 20 with `synthesizes:`, 0 errors, 0 warnings**. `bin/wiki-digest` and `bin/llm-publish` rerun.
+* **RESUME POINT:**
+  1. **The next export of this thread is again the top queue item**, and the reasons are now sharper than "the event is open." Specific tests waiting on it: does the announcement rule hold on the next threat; does the supply schedule continue, escalate or break; does Annie's therapy appear in the record; is the abandoned parents email ever sent.
+  2. **Test the announcement rule backwards.** All 127 exit declarations are announced by definition — the falsifier is the reverse case, a silent severance that executed. Worth a dedicated pass; it is the one claim this session made that the corpus can attack on its own.
+  3. **`the-unnamed-man` vs `tuquick-17248123683`** is the corpus's cleanest example of a question that re-reading `raw/` cannot settle. It needs an answer from outside.
+  4. Prior resume points stand: cluster 26 in `synthesis-queue.md`; the 16 miner-found clusters; the `arnu`/`alexander-jackson`/`john-carney` swarm stubs; and `leviathan/factstory.html`'s INGEST BRIEF is still out of lockstep with `FACTSTORY_BRIEF_TEMPLATE.md`.
+* **Handoff Note:** Tree clean, all three gates 0 errors.
+
+
 ### [2026-08-02] - Session: wiki-brain went private — sync repair and dead-URL repoint (follow-up, same session)
 * **Model:** claude-opus-5 / Claude Code
 * **Branches/PRs:** wiki-brain `claude/wiki-fact-story-entries-v6rsp6` → **PR #80**; leviathan `fix/sync-wiki-private-source` → **caakehorn/leviathan#57**
@@ -132,10 +156,18 @@
 shows contact resumed **2026-07-23** after a 52-day silence and ran 624
 messages across four days, ending mid-event at 05:04 on 2026-07-26 with an
 unanswered "whatever goodbye annie." The page is now `active`. The new event
-page is `wiki/timeline/events/july-2026-recontact.md`. **The next export of
-that thread is the single highest-value pending ingest in the repository**
-(queue.md, top of file) — the event is open, not concluded. Do not write
+page is `wiki/timeline/events/july-2026-recontact.md`. Do not write
 about this relationship in the past tense.
+
+> **UPDATED 2026-08-02.** The goodbye above broke in **eighteen minutes**. A
+> further export through 2026-08-02 is filed and ingested: 1,880 messages,
+> six in-person meetings and five drug handoffs across eight days, ending
+> with Annie apologising to Suz in person on August 2. The relationship is
+> not severed and not resumed — it is **supplied**, and both parties say so.
+> See `wiki/timeline/events/july-august-2026-reentanglement.md` and the
+> session entry at the top of this file. The next export of the thread is
+> **still** the top item in `queue.md`, now with four specific tests attached
+> to it rather than "the event is open."
 
 Two things in that event have consequences beyond the page. The
 block/unblock loop's dependency rule was **falsified and widened** — it had

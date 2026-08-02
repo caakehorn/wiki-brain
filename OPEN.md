@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 27 |
-| Open gaps | 124 |
+| Open gaps | 129 |
 | Standing predictions | 10 |
 
 ## Live contradictions
@@ -75,7 +75,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/interests/music/index]]** — DAW and hardware chain details
 - **[[wiki/interests/music/index]]** — Platform profile links for GRIPNOTIC
 
-### mind (71)
+### mind (70)
 
 - **[[wiki/mind/concepts/chaos-preference]]** — **The macro examples are not sourced.** The Boston-bombing coverage response used to frame the request is not attested in the searched corpus and is not cited here. The generalisation about resolution-as-disappointment is derived from the profile's ontological
 - **[[wiki/mind/concepts/chaos-preference]]** — **`accelerationist` appears 7 times and is uninspected.** Whether the political register is a genuine ideological commitment or an ironic pose is not resolved here, and it materially changes how this page should be read.
@@ -90,11 +90,11 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The fourth name is not examined here.** `wiki/interests/music/aliases/mogged-up` is outside this page's `synthesizes:` list and its dates were not checked against the rule. If it breaks the pattern, this page is wrong and should be revised, not deleted.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The handoffs are fuzzy.** MOGZART's recorded start (~2014) overlaps SLOPPP's run to December 2015. The rule claims coincidence with period boundaries, not instantaneous succession, and the overlap is unresolved.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The 63–85% figure is a single provenance.** It traces to the context-core measurement and is repeated by the alias pages rather than independently re-measured per alias. The invariant is asserted three times from one source, which is weaker than three measur
+- **[[wiki/mind/synthesis/block-unblock-loop]]** — **The announcement rule is untested against the back catalogue.** All 127 exit declarations are, by definition, announced — the falsifier is the reverse case: silent exits that executed. Whether the record contains unannounced severances that held has never be
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — **The Menore control row is provisional on elapsed time** (see the re-check above). If that channel reopens, this page loses its cleanest non-Annie control, and the corrected rule needs a durability clause rather than a dependency clause alone.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — The 127/110 pair remains [DERIVED] from the dossier passes; a primary recount from the raw dumps is queued on dan-annie-fallout-verdict.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — Whether the Tom channel reopened after May 30, 2026 is undocumented — the record simply ends; the rule's prediction for it is on the record above and is falsifiable by the next data drop.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — The corrected rule has not been re-tested against the long tail. Every row in the table was scored on material dependency alone, so any case with a co-held object — a pet, a lease, a child, a shared account — may have been scored wrong in the same direction th
-- **[[wiki/mind/synthesis/block-unblock-loop]]** — Whether the July 26 goodbye holds is open. The rule now predicts it does not, because the dog has not stopped being co-held.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — Blocking events with minor contacts (the long tail) have not been systematically mined; the loop's frequency outside intense bonds is unmeasured.
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — Whether the Alexis→Annie transfer at 155 Virginia was a clean same-month swap or had a brief overlap is not dated to the day in the on-disk record; the calendar gives Nov 28 (Alexis end) and Nov 29 (Annie start), one day apart.
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — Lease holder and physical layout of 155 Virginia across the transition are undocumented (see 155-virginia-ave).
@@ -132,8 +132,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/single-channel]]** — **The evaluative instance is the weakest leg, and it has since been bounded.** `the-cool-metric` was written the same day as this page and is itself a reading rather than a measurement. A rule resting on four legs where one was authored alongside it should be 
 - **[[wiki/mind/synthesis/single-channel]]** — **Chronology untested.** Whether the concentration was always present or tightened after the 2005 paternal rupture is not established, and the two imply very different things about whether it is disposition or adaptation.
 - **[[wiki/mind/synthesis/supply-network]]** — **Tim** is named in the MAX_PRIME succession between Johnny and Tom but no message thread has been identified; era and product unconfirmed.
-- **[[wiki/mind/synthesis/supply-network]]** — **"bop"** (current-connect vocabulary) and **"Felix"** (2026 supply-adjacent figure per MAX_PRIME) are unresolved identities. The strongest candidate for the 2026 Felix is the 463 contractor Felix, whose own page already carries the MAX_PRIME "supply-adjacent"
-- **[[wiki/mind/synthesis/supply-network]]** — The post-May-2026 state of the network — whether the Tom node recovered, was replaced, or the regimen changed — is undocumented.
+- **[[wiki/mind/synthesis/supply-network]]** — The post-May-2026 state of the network is **partly** answered by the finding above — the network did not collapse with the Tom node; it was replaced by a daily, house-calling, higher-availability node, which is the reliability inversion documented above runnin
 - **[[wiki/mind/synthesis/supply-network]]** — Menore's product was never named in-thread; the "8" unit remains uninterpreted.
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **The lag column is assembled from dated events, not measured uniformly.** Each row is sourced, but "when the audit fired" is a judgement about what counts as an audit firing. A stricter version would define the event operationally — e.g. first message contain
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **Selection bias in the chosen column.** The chosen objects listed are the ones that *failed*, because failure is what produced a documented audit. A chosen object that never failed would show an infinite lag and be indistinguishable from the protected class. 
@@ -192,7 +191,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/lineage/hybrid-analysis]]** — Further granular reconciliation of the chromosome painting segments with specific ancestors in the GEDCOM tree.
 - **[[wiki/self/lineage/index]]** — Further integration of genomic health traits with known ancestral lineage.
 
-### timeline (8)
+### timeline (14)
 
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **The date is unfixed.** Seventh grade for a student who started a year early puts it around the 2000–01 school year, but the capture says only "7th grade" and "one winter day." Nothing narrows it further.
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **Britney Bolen, Victor Fiano, Alan and Jon Allen have no other presence in the corpus.** None appears in any message export, Facebook archive or dossier located so far. Whether any of them remained in contact is unknown — which makes this cohort a direct test
@@ -202,4 +201,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **The five-day figure is now attached to two different things.** See the contradiction recorded on franki-faris: the wiki has carried "a five-day rebound" as the length of the Franki relationship, while this capture attaches five days to *Alexis's stay at 155 
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **Nothing here is contemporaneous.** The whole page rests on one 2026 capture. The July 9–31 2013 self-typology emails and the August 14 2013 post-mortem already in the corpus are the nearest dated material and they corroborate the window, not the day.
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **The hitchhikers, the ropes course job, and 15 Holly Lane** are single-source details with no independent confirmation anywhere in `raw/`.
+- **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **The email to Ellen on July 26 is not in `raw/`** — only Dan's statement that he sent it and Annie's reaction. Its contents, and Ellen's reply if any, are unrecovered. The same is true of the July 28 email that appears never to have been sent.
+- **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **The man is unidentified**, by design. Whether he is Tuquick remains unstated in any source.
+- **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **The rape allegation is unadjudicated** and this page does not weigh it, consistent with july-2026-recontact. What is new is that Annie states he "even fucking admitted he did it to me," that she will press charges "if I felt it was necessary AT ANY POINT," a
+- **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **Betty's final weeks** are described here for the first time — that Annie withdrew from her before she was euthanised and was not present at the end ("You couldn't even stay with her when they put her down so she had to go through it alone"). Sourced only to 
+- **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **Attachments are unrecovered.** Roughly forty photographs and videos in this window exist in the export only as markers, including the video that the July 26 accusation concerns.
+- **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **New names, undocumented**: Sugie, Laura, Courtney, Brian (relocated to California), Tanya, Lucky, Bailey, and "Bop" — a supplier described as arriving at Dan's house daily at noon, who by volume is now the corpus's most active supply contact and has no page.
 

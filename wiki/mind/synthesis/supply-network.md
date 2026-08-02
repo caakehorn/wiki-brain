@@ -13,6 +13,7 @@ sources:
   - "raw/self/message-csv/messages_3476070497_all_time.csv"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
 synthesizes:
+  - wiki/timeline/events/july-august-2026-reentanglement
   - wiki/people/annie-ulmer
   - wiki/people/tom
   - wiki/people/teddy
@@ -23,6 +24,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: instance-of
+    claim: "Supply is no longer the terminal phase's load-bearing structure but the relationship's only remaining structure — five handoffs in six days after a 52-day severance and the corpus's only refusal — and Dan states its function out loud: getting her drugs 'was about that being the only way you would see me.'"
   - page: wiki/people/jay-lauer
     type: contains
     claim: "Jay is the network's only documented fatality: a peer-trading node whose overdose in April 2017 shows what the reciprocal-credit tier actually risked, and whose death Dan attributes to a failed attempt to route him onto the Suboxone path that had worked for Dan himself."
@@ -114,7 +118,7 @@ transfers along the way.
 | [[wiki/people/teddy]] | 2018–2020 | Uniontown/Fairchance | Parallel informal supplier; strips, pills; credit and holds |
 | [[wiki/people/menore]] | 2013?, 2018–20 + 2024–25 | NYC | Professional delivery operator; 99.3% availability, median 7-min reply |
 | Tim | ~2020s | undocumented | Named in the MAX_PRIME succession; no thread yet identified |
-| "bop" / "Felix" | 2026 | Uniontown | Current-connect vocabulary; identities unresolved |
+| **Bop** (Felix is not a node) | 2026 | Uniontown | Current primary node — house calls daily at noon; Dan maintains his property in part-payment; identity otherwise unknown |
 
 Extending the succession earlier than previously documented, a 2015
 Facebook Messenger export dates [[wiki/people/zachariah-harshman|Zach
@@ -289,6 +293,28 @@ why the end became possible.
 > resumes at full bandwidth after 2,044 days of silence is *more* of an outlier
 > against the friendship-embedded nodes, not less.
 
+> **REVISED [2026-08-02] — the inversion did not end with the relationship,
+> and Dan has now stated its purpose himself.** This section describes Dan in
+> the supplier seat as the terminal phase's structure. The July–August 2026
+> export shows the configuration **survived both the June 1 closure and the
+> July 26 goodbye**: after a fifty-two-day gap and one documented refusal,
+> procurement resumed on July 27 and ran **five handoffs in six days**, and
+> every in-person meeting in that window either was a handoff or had one
+> attached ([[wiki/timeline/events/july-august-2026-reentanglement]]). The
+> supply architecture is no longer the load-bearing structure of the
+> relationship's final year — it is the only structure the relationship still
+> has.
+>
+> The section's central inference also stops being an inference. It reads the
+> arrangement as a retention mechanism; on July 28 Dan says so, unprompted and
+> against his own position in the argument he was having: *"even the worst
+> thing I've done — getting you drugs — didn't really benefit me nearly as
+> much as it was about that being the only way you would see me."* He is
+> explicit that the transaction buys access rather than gratitude, and he
+> continues supplying after saying it. The **thirty-one hours** between the
+> corpus's only refusal and its reversal is the measure of what the refusal
+> was worth.
+
 > **RE-CHECKED [2026-08-02] — premise moved, nothing here touched.**
 > [[wiki/people/annie-ulmer]] was corrected today to move the twenty-four-hour
 > bond-switch at the 2015 introduction from her column to Dan's. What this page
@@ -299,14 +325,28 @@ why the end became possible.
 
 - **Tim** is named in the MAX_PRIME succession between Johnny and Tom
   but no message thread has been identified; era and product unconfirmed.
-- **"bop"** (current-connect vocabulary) and **"Felix"** (2026
-  supply-adjacent figure per MAX_PRIME) are unresolved identities. The
-  strongest candidate for the 2026 Felix is the
-  [[wiki/people/felix|463 contractor Felix]], whose own page already
-  carries the MAX_PRIME "supply-adjacent" note; [[wiki/people/john-felix]]
-  is a 2016 household-adjacent contact and should NOT be assumed to be
-  the same person — different era, no supply content in his thread.
-- The post-May-2026 state of the network — whether the Tom node
-  recovered, was replaced, or the regimen changed — is undocumented.
+- ~~**"bop"** and **"Felix"** are unresolved identities.~~ **CLOSED
+  2026-08-02 — "Bop" is a person, and he is the network's current primary
+  node.** The July–August 2026 export removes the ambiguity this page has
+  carried since it was written: Bop is not a verb, a product or a term of art
+  for sourcing through Dan. He is a man who **comes to Dan's house at noon
+  every day** ("recently he comes here at noon every day and everything gets
+  taken care of then"), whose property Dan maintains in what reads as partial
+  payment ("I have to weed whack bops place"), who sits on the porch with
+  Felix and the dog, and who declines to come while Annie is there. Every one
+  of the five procurement handoffs in
+  [[wiki/timeline/events/july-august-2026-reentanglement|that window]] is
+  sourced from him. **Felix is confirmed as a separate person** present at
+  the same house on the same porch, consistent with
+  [[wiki/people/felix|the 463 contractor]] rather than with any supply role —
+  he appears in the new export only as a social fixture. What remains open on
+  Bop is his real name, his relationship to the
+  [[wiki/people/tom|Tom]] node he appears to have succeeded, and the terms of
+  the weed-whacking arrangement.
+- The post-May-2026 state of the network is **partly** answered by the
+  finding above — the network did not collapse with the Tom node; it was
+  replaced by a daily, house-calling, higher-availability node, which is the
+  reliability inversion documented above running one more time. Whether the
+  Tom channel itself recovered is still undocumented.
 - Menore's product was never named in-thread; the "8" unit remains
   uninterpreted.

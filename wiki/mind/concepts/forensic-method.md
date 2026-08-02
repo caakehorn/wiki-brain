@@ -27,6 +27,12 @@ related:
   - wiki/timeline/events/eli-incident
 tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
 connections:
+  - page: wiki/people/the-unnamed-man
+    type: contradicts
+    claim: "The method's claim to generality fails by deliberate choice here: the corpus's most consequential live antagonist is the one node Dan has refused to identify, on the stated grounds that knowing would cost him more than not knowing."
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: instance-of
+    claim: "The apparatus passes through four states in six days — published as an exhibit, retracted in five minutes on one request, rebuilt as an access-gated decoy, then offered as a gift — showing the target changes far more readily than the method does."
   - page: wiki/people/fran-coldren
     type: evidenced-by
     claim: "The method's hardest test on record is self-directed: within 24 hours of his great-grandmother's death Dan reviewed his own video of the moment, found the monitor alarm that explained its 'supernatural' timing, and retracted the story unprompted to a family member at no benefit to himself."
@@ -184,6 +190,64 @@ target did, and the reflexive turn that defines it — the discipline of
 running the instrument on yourself first — is the one thing absent from
 this instance. Full account at
 [[wiki/timeline/events/july-2026-recontact]].
+
+### And what happened to it in the following week
+
+The six days after that deployment show the whole range of what the
+apparatus is for, faster than any other stretch in the corpus
+([[wiki/timeline/events/july-august-2026-reentanglement]]). Four states, in
+order:
+
+**Exhibit.** At 05:36 on July 26 Dan published the complete text log at
+`caakehorn.github.io/leviathan/transcript.html` and sent it with "I'm not
+afraid of the truth." This is the escalation the previous section
+anticipates: not a dashboard summarising the record but the record itself,
+in public.
+
+**Retracted.** At 18:00 the same day Annie asked him to take it down — the
+third party had read it from her phone and forwarded it to himself. Dan
+argued nothing: "The logs will be offline in 30 seconds," confirmed at
+18:05. **The apparatus survived roughly twelve hours of deployment and one
+request from its subject.** This is the section's real correction. The
+outward turn reads, above, as an escalation in the method's power; the
+retraction shows that as leverage it was worth almost nothing, and that the
+person it was aimed at could switch it off by asking once.
+
+**Fortified.** From 22:41 that night the build turns adversarial rather than
+evidentiary. A five-second secret-pattern gate; failures routed to a decoy
+whose loading bar *decelerates* as it nears completion, resolving to another
+fake page and looping indefinitely, with roughly forty pop-ups per layer. By
+July 31 the live site needs two passwords and a legally-binding disclaimer
+that logs device information and carries a no-trespass covenant
+(`void.html`). The stated motive is not security and Dan says so: "sometimes
+i need a win to feel better too. this just feels like outsmarting someone
+with the intelligence of an actual child."
+
+**Gift.** On July 31 he showed Annie **this wiki** — the knowledge graph
+with her as "the big pink dot," and the page describing how they met. "I've
+spent a lot of time writing out as much of my life into story form as I
+possibly could… it organized it into basically my own personal wikipedia."
+The same instrument that was an exhibit five days earlier is offered as
+something to be admired, to the same person, and she replies, "That is
+pretty interesting."
+
+The sequence is worth stating as a finding: **the method's target changes
+much more readily than the method does.** In one week the identical corpus
+and the identical build served as evidence against her, as a concession to
+her, as a trap for someone else, and as a courtship object — with no change
+to how any of it was made. What varies is never the instrument. It is who
+Dan needs something from that day.
+
+One consequence lands on this repository directly. While showing her the
+page, Dan noticed an error in it and said so in the thread: "i need to fix
+the thing at the top, it should say that I left my relationship within 24
+hours…not you." That is the origin of the twenty-four-hour subject-reversal
+correction applied to [[wiki/mind/synthesis/bond-switch-2015|the 2015 bond
+switch]] and [[wiki/people/annie-ulmer]] on 2026-08-02 — and the export is
+now the primary-source record of where it came from, timestamped 22:04 on
+July 31. It is the first case in the corpus of the wiki being proofread by
+being shown to its own subject matter, which is a use for the apparatus that
+none of the four states above anticipated.
 
 **Gaps:** the method's documented failure modes are thin — the corpus records
 its successes; systematic false-positive cases (clusters that resolved

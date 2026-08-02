@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 432,
+ "page_count": 434,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1053,7 +1053,7 @@
    "title": "Attachment Model",
    "summary": "The attachment model details the first documented instance of full attachment-system activation in Dan's history, which occurred during his relationship with...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/attachment-model.txt",
-   "bytes": 14724
+   "bytes": 15065
   },
   {
    "page": "wiki/mind/concepts/bunker-core.md",
@@ -1116,7 +1116,7 @@
    "title": "The Forensic Method",
    "summary": "The forensic method is Dan's cognitive default, not a tool he picks up: every domain that contains evidence \u2014 a decade of relationship messages, raw J6 foota...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/forensic-method.txt",
-   "bytes": 11223
+   "bytes": 15253
   },
   {
    "page": "wiki/mind/concepts/institutional-out.md",
@@ -1291,7 +1291,7 @@
    "title": "The Block/Unblock Loop",
    "summary": "Across the corpus, Dan's severances follow one script: **the exit is declared, not executed.** A block, an \"I'm done,\" an account abandonment \u2014 a bounded bur...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/block-unblock-loop.txt",
-   "bytes": 16180
+   "bytes": 19710
   },
   {
    "page": "wiki/mind/synthesis/bond-switch-2015.md",
@@ -1305,14 +1305,14 @@
    "title": "The Dan/Annie Fallout \u2014 Was He Correct to Feel Wronged? (Raw-Evidenced)",
    "summary": "The verdict, stated plainly: **yes \u2014 on the documented facts, Dan was correct to feel wronged, and the feeling was not a misreading.** The record supports a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dan-annie-fallout-verdict.txt",
-   "bytes": 31909
+   "bytes": 32243
   },
   {
    "page": "wiki/mind/synthesis/dormancy-not-exit.md",
    "title": "Dormancy, Not Exit",
    "summary": "**Nothing leaves this graph.** Every sustained relationship in the corpus that the record describes as \"over\" is, on inspection, not over \u2014 it has changed ro...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dormancy-not-exit.txt",
-   "bytes": 18784
+   "bytes": 21358
   },
   {
    "page": "wiki/mind/synthesis/estate-money-spine.md",
@@ -1396,7 +1396,7 @@
    "title": "The Supply Network",
    "summary": "Since January 2011, Dan has been on a daily Suboxone regimen \u2014 fifteen years, described in the primary sources as structural rather than recreational: a medi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/supply-network.txt",
-   "bytes": 20324
+   "bytes": 23253
   },
   {
    "page": "wiki/mind/synthesis/the-deferred-audit.md",
@@ -1480,7 +1480,7 @@
    "title": "Annie (Anne Louise Ulmer)",
    "summary": "Annie Ulmer was Dan's partner for ten years and seven months \u2014 November 28, 2015 to June 1, 2026 \u2014 and is the only relationship in his documented history to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 75995
+   "bytes": 83010
   },
   {
    "page": "wiki/people/annoying.md",
@@ -1816,7 +1816,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 20024
+   "bytes": 20223
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -2187,7 +2187,7 @@
    "title": "Milo",
    "summary": "Milo is Dan's Chihuahua and the one recurring presence in the record that nothing \u2014 not the collapse of the Annie relationship, not the forensic AI sessions,...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/milo.txt",
-   "bytes": 8533
+   "bytes": 11306
   },
   {
    "page": "wiki/people/mohammed-bin-salman.md",
@@ -2334,7 +2334,7 @@
    "title": "Suz (Suzanne Frank)",
    "summary": "Dan's mother and, across four decades, the single most constant structural presence in his life \u2014 the person who has most often been both the floor under him...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/suzanne-frank.txt",
-   "bytes": 19668
+   "bytes": 20289
   },
   {
    "page": "wiki/people/tan-calabrese.md",
@@ -2356,6 +2356,13 @@
    "summary": "Teddy was a recurring Uniontown-area informal pharmaceutical supplier in Dan's 2018\u20132020 message record. The relationship was transactional but not anonymous...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/teddy.txt",
    "bytes": 6442
+  },
+  {
+   "page": "wiki/people/the-unnamed-man.md",
+   "title": "The Unnamed Man",
+   "summary": "He is the person [[wiki/people/annie-ulmer|Annie]] left Dan for, the person she says raped her on July 25, 2026, and the person whose continued presence in h...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/the-unnamed-man.txt",
+   "bytes": 10189
   },
   {
    "page": "wiki/people/timmy.md",
@@ -2390,7 +2397,7 @@
    "title": "Tuquick (+17248123683)",
    "summary": "Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal group chat that closed the relationshi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/tuquick-17248123683.txt",
-   "bytes": 9510
+   "bytes": 9776
   },
   {
    "page": "wiki/people/urpaaa-at-yahoo-com.md",
@@ -2789,7 +2796,14 @@
    "title": "The July 2026 Re-contact",
    "summary": "Between the afternoon of **July 23, 2026** and just after 5:00 AM on **July 26**, Dan and [[wiki/people/annie-ulmer|Annie]] exchanged 624 messages, ending a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/july-2026-recontact.txt",
-   "bytes": 18878
+   "bytes": 20506
+  },
+  {
+   "page": "wiki/timeline/events/july-august-2026-reentanglement.md",
+   "title": "The Re-entanglement, July 26 \u2013 August 2 2026",
+   "summary": "In the eight days after the goodbye that closed",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/july-august-2026-reentanglement.txt",
+   "bytes": 25867
   },
   {
    "page": "wiki/timeline/events/march-2026-terminal-phase.md",
@@ -2838,7 +2852,7 @@
    "title": "timeline \u2014 index",
    "summary": "",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/index.txt",
-   "bytes": 3923
+   "bytes": 4140
   },
   {
    "page": "wiki/timeline/periods/2010s.md",

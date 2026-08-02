@@ -12,22 +12,22 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 432 |
-| Pages touched in the last 14 days | 290 |
+| Pages | 434 |
+| Pages touched in the last 14 days | 292 |
 | Pages reasoning from other pages (`synthesizes:`) | 20 |
 | Live contradictions | 27 |
-| Open gaps | 124 |
+| Open gaps | 129 |
 | Standing predictions | 10 |
 
 ## By domain
 
 | Domain | Pages |
 |---|---|
-| people | 147 |
+| people | 148 |
 | interests | 142 |
 | mind | 55 |
 | self | 31 |
-| timeline | 29 |
+| timeline | 30 |
 | work | 14 |
 | places | 8 |
 | legal | 3 |
@@ -38,14 +38,15 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 181 |
-| active | 119 |
+| active | 121 |
 | closed | 90 |
 | archived | 31 |
 | stub | 11 |
 
 ## The last few days
 
-**2026-08-02** — 66 pages
+**2026-08-02** — 70 pages
+  - ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
   - write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
   - climb | interests | food-and-diet — "food in every register except taste"; bounds the cool metric's jurisdiction
   - ingest | people | sadie-harris, david-j-frank, morley-frank rewritten from the GEDCOM; fayette-return revised (Sadie burial vs death, G1's NYC years, the Hopwood terminus)
@@ -72,7 +73,7 @@ this is the state of the thing.
   - climb | mind | dormancy-not-exit (7 synthesized, 0 rejected)
   - docs | meta | propagate the refined STRATEGY.md into every governance file
 
-**2026-07-26** — 13 pages
+**2026-07-26** — 11 pages
   - climb | all | SYNTHESIS_SPEC + bin/wiki-climb — the wiki becomes an input to itself
   - ingest | people+timeline | the July 2026 re-contact — annie-ulmer reopened
 
@@ -126,14 +127,14 @@ have moved since.
 - [[wiki/mind/concepts/the-cool-metric]] — 3 premises
 - [[wiki/mind/synthesis/alias-as-periodization]] — 5 premises
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — 5 premises
-- [[wiki/mind/synthesis/block-unblock-loop]] — 10 premises
+- [[wiki/mind/synthesis/block-unblock-loop]] — 11 premises
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 9 premises
-- [[wiki/mind/synthesis/dormancy-not-exit]] — 7 premises
+- [[wiki/mind/synthesis/dormancy-not-exit]] — 8 premises
 - [[wiki/mind/synthesis/estate-money-spine]] — 5 premises
 - [[wiki/mind/synthesis/fayette-return]] — 6 premises
 - [[wiki/mind/synthesis/instrument-is-subject]] — 4 premises
 - [[wiki/mind/synthesis/single-channel]] — 6 premises
-- [[wiki/mind/synthesis/supply-network]] — 8 premises
+- [[wiki/mind/synthesis/supply-network]] — 9 premises
 - [[wiki/mind/synthesis/the-deferred-audit]] — 9 premises
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/people/alexander-jackson]] — 1 premise

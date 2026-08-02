@@ -40,6 +40,12 @@ synthesizes:
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
+  - page: wiki/people/the-unnamed-man
+    type: caused-by
+    claim: "The third party telephoned Suz to abuse her about a relationship she had no part in; on Dan's account it was the injury that mattered most to her, 'all I heard about for months', and the one Annie eventually came to the house to apologise for."
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: component-of
+    claim: "On August 2 2026 Annie walked to the house and apologised to Suz in person for the harassment campaign — the only repair either party made to anyone outside the relationship in the entire terminal record."
   - page: wiki/timeline/events/the-fall-of-fran
     type: co-occurs
     claim: "Fran's keep-me-home directive was given to Suz and Dan jointly, which is what let Dan read the March 2018 decision as honouring an instruction rather than making a private choice."
