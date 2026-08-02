@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-02
-329 pages, ~550,325 tokens.
+329 pages, ~551,571 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -12849,6 +12849,7 @@ sources:
   - raw/self/favorites/FAVS MASTERLIST.csv
   - raw/self/dox-scan/all_imessages_complete_dump.txt
 synthesizes:
+  - wiki/timeline/events/july-2026-recontact
   - wiki/mind/synthesis/vertical-authority-skepticism
   - wiki/mind/concepts/the-cool-metric
   - wiki/mind/concepts/chaos-preference
@@ -12883,6 +12884,9 @@ connections:
   - page: wiki/interests/food-and-diet
     type: contains
     claim: "Food is the floor of the scale — the one high-contact domain where the audit has not fired at all in the record, which is what a maximally deferred audit looks like from outside."
+  - page: wiki/timeline/events/july-2026-recontact
+    type: evidenced-by
+    claim: "The event that narrowed this rule on the day it was written: the Leviathan dashboards are a completed audit of the already-failed pre-June-1 object deployed live, and the 03:11 refusal is the engine firing in real time on a chosen object — which showed the lag is a one-time cost per object rather than a permanent property of it."
   - page: wiki/mind/synthesis/instrument-is-subject
     type: parallels
     claim: "Both pages are about provenance deciding admissibility: that one grades the wiki's evidence by where it came from, this one grades Dan's own objects by the same question, and neither grades on quality."
@@ -12940,11 +12944,19 @@ biography.
 
 ## The rule, stated so it can be broken
 
-> Every object in this life is audited by the same forensic engine. Provenance
+> ~~Every object in this life is audited by the same forensic engine. Provenance
 > does not determine whether the audit happens; it determines **when**. Objects
 > that arrive from outside are audited on contact or before. Objects that were
 > selected are audited only after they fail, and the delay scales with how
-> load-bearing the selection was.
+> load-bearing the selection was.~~
+>
+> **Narrowed the same day, by prediction 1 (see below):** every object in this
+> life is audited by the same forensic engine, and provenance determines **when
+> the first audit fires**. Imposed objects are audited on contact or before.
+> Selected objects are audited only after they fail, with the delay scaling to
+> how load-bearing the selection was — **and once audited, they stay audited**,
+> so real-time assessment is available on every subsequent engagement. The lag
+> is a one-time cost per object, not a permanent property of it.
 
 ## The two clocks
 
@@ -13103,6 +13115,65 @@ That is an interpretation. The two clocks are not.
    [[wiki/mind/synthesis/instrument-is-subject]] independently reached from the
    other direction, and which the 2026-08-02 write-back audit is the first
    counter-instance of.
+
+## Predictions scored (2026-08-02, same day)
+
+Predictions 1 and 2 were scoreable against the existing corpus without any new
+source, so they were run immediately. Both survive; **prediction 1 survives in a
+form narrower and more interesting than the one it was written in**, and the
+narrowing is recorded here rather than quietly absorbed.
+
+### Prediction 1 — PARTIALLY FALSIFIED, and the rule is better for it
+
+The claim was that no systematic reconstruction of the live July 23–26 exchange
+would occur until it closed. The literal claim holds: nothing in
+[[wiki/timeline/events/july-2026-recontact]] shows Dan reconstructing *that
+exchange* while it ran. But two things inside the event cut against the spirit
+of it, and both are dated.
+
+**The Leviathan deployment (July 25, 23:47 – July 26, 01:07).** Mid-event, Dan
+sent Annie two URLs on a public site built from the message corpus — a dashboard
+indexing "any drug talk or activity every single day" linked back to the full
+logs, and a second tracking when she asked her parents for money against what
+she was telling him at the same time. That is a completed forensic audit of a
+chosen object, deployed live. It does not falsify the rule, because **what it
+audits is the pre-June-1 relationship — the object that had already failed.**
+The audit ran on schedule; only its *use* was live.
+
+**The real-time threat assessment (July 26, ~03:11).** Under the maximum
+pressure the corpus records — a suicide statement on both sides, an
+unadjudicated rape allegation, and a supply request — Dan refused, and the
+refusal is grounded in an audit performed on the spot: *"why would i not think
+that i might get actually jumped / that i'm being set up again."* That is the
+engine firing in real time on a chosen object, which the rule as written did not
+allow.
+
+**The correction the rule needs:** the delay applies to the **first** audit of a
+chosen object, not to all subsequent ones. Once an object has been audited —
+which requires it to have failed — it stays audited, and real-time assessment
+becomes available for every later engagement with it. Annie post-June-1 is an
+audited object, so July 26 could be read live. This is not a rescue of the
+thesis; it is a genuine narrowing, and it makes a sharper prediction than the
+original: **the audit lag should be observable only once per object, and should
+be absent on re-engagement.**
+
+It also produces an uncomfortable corollary that the record supports. The July
+23–26 exchange is itself a *new* chosen object — 624 messages across four days,
+begun by answering an email about the dog — and it ran at full volume with no
+evaluative content until it ended. The clock resets per engagement, not per
+person, which is why an audited history did not prevent the re-entry.
+
+### Prediction 2 — CONFIRMED so far, by an absence
+
+The claim was that [[wiki/legal/463-morgantown]] would be reconstructed only
+after it failed. The first instance was already on the page before this one was
+written: the Arnu mechanics-lien deadline of ~27 July 2026 **elapsed with no
+recorded outcome**, in a housing arrangement running entirely on verbal
+understandings, where a county recorder search would settle it in one query.
+Nobody ran it. The arrangement is chosen, it has not yet failed, and it is
+therefore unaudited — exactly as predicted. This resolves as confirmed *pending
+the failure*, which is the only way a prediction of this shape can resolve
+before the fact.
 
 ## Gaps
 
@@ -32527,6 +32598,9 @@ connections:
   - page: wiki/people/milo
     type: caused-by
     claim: "Milo is the residual channel: Annie's July 4 email asking after him during fireworks is what Dan answered on July 23, and every de-escalation across the four days routes through the dog."
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: evidences
+    claim: "This event is what narrowed the audit-lag rule: the Leviathan dashboards audit the already-failed pre-June-1 relationship and are merely deployed live, but the 03:11 refusal — 'why would i not think that i might get actually jumped / that i'm being set up again' — is the forensic engine firing in real time on a chosen object, proving the lag is a one-time cost per object rather than a standing property."
   - page: wiki/mind/concepts/forensic-method
     type: instantiates
     claim: "The Leviathan dashboards are the first documented case of the corpus apparatus being aimed outward as leverage in a live dispute rather than inward as self-understanding."
