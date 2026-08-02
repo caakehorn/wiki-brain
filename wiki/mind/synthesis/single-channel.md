@@ -6,7 +6,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -27,17 +27,20 @@ connections:
     type: evidenced-by
     claim: "The only place the architecture has been measured rather than described, and since 2026-08-01 measured on both sides: a two-sided contact Gini of 0.959-0.964 across ~496 handles is not a preference for close friendship, it is near-total routing of relational load through one node in both directions."
   - page: wiki/mind/synthesis/the-unbroken-bond
-    type: component-of
+    type: contains
     claim: "The relational instance: an sx-dominant stack that organises life around one bond at maximum voltage is the same architecture the Gini coefficient measures, and seventeen years of unbroken occupancy is what it looks like over time."
   - page: wiki/mind/synthesis/alias-as-periodization
-    type: component-of
+    type: contains
     claim: "The creative instance: four aliases in thirteen years run strictly in sequence and never in parallel, so the creative identity is also a single occupied slot rather than a portfolio."
   - page: wiki/mind/concepts/the-cool-metric
-    type: component-of
+    type: contains
     claim: "The evaluative instance: one performed-versus-authentic axis is applied to music, language, politics, film, work and strangers alike, where most people run separate criteria per domain."
   - page: wiki/mind/synthesis/ai-collaborative-analysis
-    type: component-of
+    type: contains
     claim: "The cognitive instance: the LLM is described as an externalized prefrontal cortex — a single offboard processor carrying memory, structuring and honesty-enforcement, rather than a tool among several."
+  - page: wiki/mind/synthesis/totality-themes
+    type: instance-of
+    claim: "One of the unifying structures that page gestures at, stated as a rule with a failure mode: load is concentrated on one channel per domain, and a single-channel architecture has no failover."
   - page: wiki/mind/concepts/chaos-preference
     type: contradicts
     claim: "A concentration architecture is maximally fragile, which is the opposite of what someone who prizes entropy should build — unless the appetite for disorder was always strictly outward-facing, which is exactly what that page concludes."
@@ -191,6 +194,16 @@ are defended with the opposite discipline.
 Concentration and entropy-appetite are therefore the same policy stated twice:
 **maximum investment in the chosen, maximum indifference to the imposed.** The
 cost is that the chosen carries everything, and it carries it alone.
+
+> **RE-CHECKED [2026-08-02] — the premise moved because of this page, and the
+> movement confirms it.** [[wiki/mind/synthesis/the-unbroken-bond]] was revised on
+> 2026-08-02 to withdraw its claim that the pair-bond is the only structure that
+> is simultaneously chosen and permanent — a claim written before the four-domain
+> reading existed and falsified by it. What it now says is that the bond is the
+> **slowest-turning** of the occupied slots, which is a statement this page can
+> use: the concentration is uniform across domains while the turnover rate is
+> not, and the relational channel is the one where turnover approaches zero. The
+> relational leg is unchanged in substance and better stated.
 
 ## Gaps
 

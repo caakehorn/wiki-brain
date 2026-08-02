@@ -24,11 +24,17 @@ connections:
     type: mirrors
     claim: "Same operation, different target: the cool metric rejects inherited taste, the chaos preference rejects inherited order, and both resolve to the identical primitive — the performed is false, the unmanaged is true."
   - page: wiki/mind/synthesis/interests-as-era-markers
-    type: component-of
+    type: causes
     claim: "Era-marking explains WHEN a subject was consumed; the cool metric explains WHICH subjects were admissible to consume in the first place — the filter operating upstream of the intake pattern that page documents."
   - page: wiki/interests/music/concepts/sub-bass-signature
     type: evidenced-by
     claim: "The clearest proof the metric is applied inward as well as outward: a frequency preference measured at 63–85% across thirteen years and every alias is described as involuntary and therefore authentic — the same authenticity test used to judge other people, turned on his own output."
+  - page: wiki/interests/music/overview
+    type: evidenced-by
+    claim: "The production catalogue supplies the metric's inward application and its clearest single artefact: an element kept 'inaudible to the normies' inside a finished track, which is value assigned in inverse proportion to legibility in his own work rather than in his judgement of others'."
+  - page: wiki/mind/synthesis/single-channel
+    type: component-of
+    claim: "One performed-versus-authentic axis applied to music, language, politics, film, work and strangers alike is the evaluative leg of a four-domain concentration architecture — and, by that page's own accounting, its weakest leg, since this page was written the same day and is a reading rather than a measurement."
   - page: wiki/mind/concepts/exocortex
     type: instantiates
     claim: "The Normie Check is the metric compiled into machine-enforceable form — a standing instruction that any model must pass before it is permitted to continue, which is what distinguishes this from ordinary snobbery."

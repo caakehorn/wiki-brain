@@ -6,7 +6,7 @@ title: "The Ancestral Dialectic: Ashkenazi Hypervigilance vs. Appalachian Numbne
 aliases: ["Dan Frank OS", "the binary engine"]
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip

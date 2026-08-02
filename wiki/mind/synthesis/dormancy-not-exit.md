@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -240,6 +240,17 @@ implements dormancy, and dormancy is reversible by construction.
   his mother, who is the one maintaining the friendship. If the mechanism is
   Suzanne's social maintenance rather than Dan's retention policy, the cleanest
   member is also the one least attributable to him.
+> **RE-CHECKED [2026-08-02] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/the-unbroken-bond]] was narrowed on 2026-08-02: its claim
+> to being the *only* chosen-and-permanent structure gave way to the
+> four-domain reading in [[wiki/mind/synthesis/single-channel]], leaving it as
+> the slowest-turning occupied slot rather than the unique one. Nothing this page
+> draws from it depends on that clause. The mirror relationship holds exactly as
+> stated — that page measures the slot that stays occupied, this one measures
+> what becomes of everyone who has vacated it — and if anything the narrowing
+> helps, because a slot with faster turnover elsewhere implies more vacancies for
+> the no-exit rule to account for.
+
 - **No base rate, again.** Small-county social graphs retain people because the
   population is small and the exits are few. Nothing here compares this
   retention rate against a demographically similar cohort, so "policy" remains a

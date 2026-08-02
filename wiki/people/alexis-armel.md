@@ -28,6 +28,9 @@ connections:
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "Alexis was present for the entire NYC-1 period (Bridge Cafe until Sandy 2012), the first long cohabitation and the baseline the later single-bond switch is measured against."
+  - page: wiki/mind/synthesis/the-unbroken-bond
+    type: evidences
+    claim: "Six years is long enough to prove the attachment slot was continuously occupied and shallow enough — the deep system locked down since 2005 — to prove occupancy never required it to be active; this relationship is what establishes that the slot being filled and the attachment being live are two separate variables."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: evidences
     claim: "The six unactivated years make Alexis the control case for the 2015 single-bond switch analysis."

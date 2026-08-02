@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -26,11 +26,14 @@ connections:
     type: mirrors
     claim: "This page measures the slot that stays occupied; dormancy-not-exit measures what becomes of everyone who has vacated it, and together they describe one live position with no exits."
   - page: wiki/mind/synthesis/bond-switch-2015
-    type: component-of
+    type: instance-of
     claim: "The single-bond switch is this pattern's sharpest instance and its best evidence: in November 2015 one bond closed and the next opened inside the same calendar month, which is continuity maintained at the level of days rather than years."
   - page: wiki/mind/concepts/chaos-preference
     type: contradicts
     claim: "A declared Chaotic Neutral who holds entropy as the fundamental truth of existence has kept a single attachment slot continuously occupied for seventeen years — the one domain where he demands absolute order is the one he chose himself."
+  - page: wiki/mind/synthesis/single-channel
+    type: component-of
+    claim: "Seventeen years of unbroken occupancy is the relational leg of a four-domain concentration architecture, and it is the leg that supplies the failure mode: when the channel severed there was no distributed network to absorb the load, because a two-sided Gini of 0.96 means the alternatives were never built."
   - page: wiki/mind/profile/enneagram-5w4
     type: caused-by
     claim: "The sx-dominant instinctual stack is the mechanism: it organises life around one relationship at maximum voltage rather than several at moderate voltage, which predicts singular-and-continuous rather than serial-with-gaps."
@@ -160,6 +163,22 @@ satisfies both the demand for authenticity and the demand for continuity at
 once.
 
 Everything else can be allowed to burn, because he did not pick it.
+
+> **RE-CHECKED [2026-08-02] — the premise moved and one clause of this page does
+> not survive it.** [[wiki/mind/concepts/chaos-preference]] now carries the
+> contradiction with [[wiki/mind/synthesis/single-channel]], which shows the
+> entropy carve-out is not confined to the attachment slot: the same
+> single-occupancy discipline runs in four domains, relational, creative,
+> cognitive and evaluative. The claim above that **the pair-bond is "the one
+> structure that is simultaneously chosen and permanent"** was written before
+> that page existed and is now too strong. The creative identity has the same
+> shape — one alias occupied at a time, four in thirteen years, never in
+> parallel — and so does the cognitive one. What survives, and is the better
+> statement, is that the pair-bond is the **slowest-turning** of the occupied
+> slots and the only one whose vacancy has never been tolerated even briefly:
+> the aliases hand over at renames, the offboard processor is swapped between
+> models, and only the bond has a documented handoff measured in days. The
+> uniqueness was never in being chosen-and-permanent. It is in the turnover rate.
 
 ## Falsifiers
 
