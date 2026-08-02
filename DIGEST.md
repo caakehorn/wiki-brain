@@ -12,10 +12,10 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 425 |
-| Pages touched in the last 14 days | 270 |
+| Pages | 431 |
+| Pages touched in the last 14 days | 285 |
 | Pages reasoning from other pages (`synthesizes:`) | 20 |
-| Live contradictions | 24 |
+| Live contradictions | 30 |
 | Open gaps | 124 |
 | Standing predictions | 10 |
 
@@ -23,11 +23,11 @@ this is the state of the thing.
 
 | Domain | Pages |
 |---|---|
-| people | 144 |
+| people | 147 |
 | interests | 142 |
-| mind | 53 |
+| mind | 54 |
 | self | 31 |
-| timeline | 27 |
+| timeline | 29 |
 | work | 14 |
 | places | 8 |
 | legal | 3 |
@@ -37,21 +37,24 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
-| stable | 179 |
-| active | 116 |
-| closed | 88 |
+| stable | 181 |
+| active | 118 |
+| closed | 90 |
 | archived | 31 |
 | stub | 11 |
 
 ## The last few days
 
-**2026-08-02** — 32 pages
+**2026-08-02** — 57 pages
   - write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
   - climb | interests | food-and-diet — "food in every register except taste"; bounds the cool metric's jurisdiction
   - ingest | people | sadie-harris, david-j-frank, morley-frank rewritten from the GEDCOM; fayette-return revised (Sadie burial vs death, G1's NYC years, the Hopwood terminus)
   - climb | mind | the-deferred-audit — provenance sets the audit's clock; the audit lag explains the diagnosis-to-behaviour gap (8 synthesized, doctrine tier)
   - climb | mind | the-deferred-audit predictions 1-2 scored same-day — P1 partially falsified and narrowed (lag is one-time per object), P2 confirmed pending failure
   - ingest | multi | factstory batch of 5 manual captures — queue cleared
+  - fix | people | annie-ulmer — the 24-hour bond-switch was Dan's, not Annie's; corrected in two places and propagated to bond-switch-2015, the-unbroken-bond, dan-annie-fallout-verdict, block-unblock-loop, supply-network
+  - tooling | meta | bin/wiki-digest — generates DIGEST.md, RECENT.md, OPEN.md as human reading aids (state of the wiki, what changed and why, every unresolved contradiction/gap/prediction)
+  - ingest | multi | factstory batch of 4 manual captures — Jay Lauer's death, the Fall of Fran, the vape alarm, the acquisition drive
 
 **2026-08-01** — 102 pages
   - climb | mind | alias-as-periodization.md — new T2 junction page
@@ -69,9 +72,9 @@ this is the state of the thing.
   - climb | all | SYNTHESIS_SPEC + bin/wiki-climb — the wiki becomes an input to itself
   - ingest | people+timeline | the July 2026 re-contact — annie-ulmer reopened
 
-**2026-07-25** — 15 pages
+**2026-07-25** — 14 pages
 
-**2026-07-20** — 47 pages
+**2026-07-20** — 43 pages
   - ingest | people | FB deep-scrape XII — matthew-palermo (new tier-one entry)
   - ingest | people | FB deep-scrape XIII — david-beard (new tier-one entry)
   - ingest | people | FB deep-scrape XIV — ryan-scherich (new tier-one entry)

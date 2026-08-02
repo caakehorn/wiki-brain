@@ -17,6 +17,7 @@ infobox:
   relationship_to_dan: family
   first_contact: 1988-11-01
 sources:
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
@@ -39,6 +40,15 @@ synthesizes:
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: co-occurs
+    claim: "Fran's keep-me-home directive was given to Suz and Dan jointly, which is what let Dan read the March 2018 decision as honouring an instruction rather than making a private choice."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: causes
+    claim: "Suz vaping in Fran's hospital room without anyone remarking on it is what Dan credits with making his own far larger device feel permitted — the family habit of normalising the unremarkable-in-context producing, for once, four fire trucks and charging documents."
+  - page: wiki/people/diane-shrum
+    type: contains
+    claim: "Diane is Suz's mother and Fran's only child, which places the vigil's central conflict inside one maternal line: the daughter's letters enforcing institutional distance while the granddaughter's son held the house."
   - page: wiki/mind/psychosexual/developmental-origins
     type: causes
     claim: "Suz's affair with the shared dealer during Rick's 2005 treatment is the maternal half of the rupture the psychosexual cluster treats as its origin point."

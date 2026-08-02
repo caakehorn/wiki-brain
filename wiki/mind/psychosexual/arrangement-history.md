@@ -4,9 +4,11 @@ page_type: concept
 title: "Arrangement History"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 knowledge: mixed
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
@@ -21,9 +23,15 @@ connections:
   - page: wiki/people/annie-ulmer
     type: contains
     claim: "Annie is the constant across every documented instance — partner in the jealousy-kink baseline, co-operator of smashonista, co-participant in the paid and unpaid encounters — the arrangement is structurally a property of the Annie relationship."
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: instance-of
+    claim: "The arrangement's first executed encounter is dated to the night of March 7–8 2018 and to a single room — and it ran to completion through a catastrophic injury to the woman Dan was being paid to keep at home, which is the strongest single piece of evidence that this architecture does not yield to circumstance."
+  - page: wiki/people/danny-matthews
+    type: contains
+    claim: "Danny and Nicole are the arrangement's first outside participants: Dan's own message of 2018-02-16, 'you guys would be the first couple we were with,' establishes the start date and predates the Alexis reunion by eight months."
   - page: wiki/people/alexis-armel
     type: contains
-    claim: "The Nov–Dec 2018 reunion arrangement — opened with a $3,000 cash offer to Dan's own ex days after her prison release — is the earliest well-documented instance of the arrangement running on a woman from Dan's romantic history."
+    claim: "The Nov–Dec 2018 reunion arrangement — opened with a $3,000 cash offer to Dan's own ex days after her prison release — is the earliest documented instance of the arrangement running on a woman from Dan's romantic history, though no longer the earliest instance overall."
   - page: wiki/people/kelly-johansson
     type: contains
     claim: "The Sep–Oct 2019 Kelly run is the arrangement at its most professionalized — a repeat working relationship in which the escort treated Annie as a peer and pitched the couple as co-providers."
@@ -60,7 +68,9 @@ from raw iMessage/SMS data that had not previously been mined.
 | Period | What | Full account |
 |--------|------|---------------|
 | Feb 2016 | The "jealousy kink" is first named in the Annie relationship — the earliest dated reference to the dynamic that the rest of this table documents in practice | [[wiki/people/annie-ulmer]] |
-| Nov 3 – Dec 2018 | **Annie/Alexis reunion.** A six-week recurring arrangement between Annie and Dan's ex, [[wiki/people/alexis-armel|Alexis]], days after Alexis's release from a year in prison. Opens with a skeptical, explicitly transactional framing (Dan describes Alexis as "a really useful tool"), escalates through a birthday-night culmination (Nov 5) with a hidden-camera request, recurs through late November, and is retrospectively explained to a confidant as having started with a **$3,000 cash offer** — "initially I offered her $3000 to be a plaything for Annie." The earliest well-documented instance of the arrangement running with a woman from Dan's own romantic history. | [[wiki/timeline/events/annie-alexis-reunion-november-2018]] |
+| Feb 16, 2018 | **The arrangement is opened.** A single twenty-minute exchange with [[wiki/people/danny-matthews|Danny Matthews]] negotiates the first outside encounter, discloses the smashonista camming operation unprompted, and contains the sentence that fixes the chronology — "you guys would be the first couple we were with." | [[wiki/people/danny-matthews]] |
+| Mar 7–8, 2018 | **The first executed encounter, and the earliest instance in this table.** Annie with Danny Matthews inside [[wiki/places/117-belmont-circle|117 Belmont Circle]], arranged by Dan, who watched — and which proceeded between the two falls that broke [[wiki/people/fran-coldren|Fran's]] hip and ended her residency that night. Dan reports no memory of the encounter itself and a precise memory of its function: the "masochistic emotional pinch" satiated by exposure, with the cathartic stage cut short by the second fall. | [[wiki/timeline/events/the-fall-of-fran]] |
+| Nov 3 – Dec 2018 | **Annie/Alexis reunion.** A six-week recurring arrangement between Annie and Dan's ex, [[wiki/people/alexis-armel|Alexis]], days after Alexis's release from a year in prison. Opens with a skeptical, explicitly transactional framing (Dan describes Alexis as "a really useful tool"), escalates through a birthday-night culmination (Nov 5) with a hidden-camera request, recurs through late November, and is retrospectively explained to a confidant as having started with a **$3,000 cash offer** — "initially I offered her $3000 to be a plaything for Annie." The earliest instance running with a woman from Dan's own romantic history — though no longer, as this table long had it, the earliest instance overall. | [[wiki/timeline/events/annie-alexis-reunion-november-2018]] |
 | ~2018–present | **smashonista** — Dan and Annie's joint camming operation (Chaturbate and other platforms), confirmed by August 2018, with a Patreon added October 2019. Annie separately worked under paid-companion aliases **"Hazel"** and **"Lily Lush"** (joint handles "smashonistaa"/"sofvded"), a commercial thread distinct from but adjacent to the couple's own camming. | [[wiki/people/annie-ulmer]] |
 | Apr 2019 | **Shelbie/Annie threesome.** A three-way encounter with [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], a stripper and aspiring cam model Dan was also seeing one-on-one that spring — per Dan's own account, though the message corpus for Shelbie doesn't begin until May 15, 2019. A corroborating May 1, 2019 fight has Annie naming Shelbie directly as a rival, confirming the relationship (and the arrangement) predates the message record. Recurs as a two-person Annie/Shelbie dynamic by June 8, 2019. | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]], [[wiki/people/shelbie-breakiron]] |
 | Mar 2019 | **Trinity St. Clair** — a $1,500/hour paid encounter with the adult-film performer of that name, booked days after Dan's move back to NYC ("the first thing I did"), addressed to both Dan and Annie directly. The direct thread shows two cancellations (illness, oversleeping) and ends ambiguously, but a separately-dated message confirms the visit completed around March 28 – April 1; Trinity went on to function as a credibility reference in at least one later booking inquiry (July 2019). | [[wiki/people/trinity-st-clair]] |
@@ -70,6 +80,19 @@ from raw iMessage/SMS data that had not previously been mined.
 | Sep–Dec 2025 | **Kristin — the mirror structure.** A fourteen-week relationship built, within its first 48–72 hours, around a demand for total sexual exclusivity from Kristin ("That is my cum. Mine") — the inverse of the openness practiced with Annie during the same broad period. An AI analysis Dan commissioned of this specific relationship (the Chimera addendum) frames it as a "hyper-accelerated trauma bond" gated by escalating "purity tests," ending in a hostile blockade in December 2025. | [[wiki/people/kristin]] |
 
 ## What the pattern shows
+
+> **REVISED [2026-08-02] — the start date moved back eight months.** Until
+> now this table opened its practice record with the November 2018 Alexis
+> reunion and described it as "the earliest well-documented instance." Two
+> operator captures and the message corpus together place the first executed
+> encounter on the night of **March 7–8, 2018**, with Danny Matthews, and Dan
+> states its priority himself in writing three weeks beforehand: "you guys
+> would be the first couple we were with." The correction matters beyond
+> chronology. The arrangement's opening night was not a considered
+> experiment in a controlled setting — it ran inside a house where a
+> 97-year-old with dementia was in Dan's paid care, and it did not stop when
+> she fell. Whatever else the architecture is, it was load-bearing enough on
+> its first outing to outrank a medical emergency.
 
 Read together rather than page by page, three things stand out that no
 single page states on its own. First, **the arrangement is not confined to

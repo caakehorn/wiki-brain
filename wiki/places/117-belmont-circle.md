@@ -4,8 +4,9 @@ page_type: entity
 title: "117 Belmont Circle"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-14
+date_modified: 2026-08-02
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
 related:
@@ -17,6 +18,12 @@ related:
   - wiki/people/ellen-ulmer
 tags: [uniontown-era]
 connections:
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: caused-by
+    claim: "The fifty-year residency did not end by sale or by decision — it ended in one night in March 2018, when Fran fell twice and left on a stretcher, and the house's later listing is a consequence rather than a cause."
+  - page: wiki/people/danny-matthews
+    type: co-occurs
+    claim: "Danny is the only person present at both of the house's endings: inside it the night Fran's residency ended, and listing it for sale fifteen months later."
   - page: wiki/people/christo-coan
     type: evidenced-by
     claim: "Dan's own October 2017 description to Christo — living on the golf course, next door to both his and Annie's grandparents, 'so noise isn't a problem' — is a first-person confirmation of this geography from outside the family record."
@@ -45,6 +52,16 @@ She left it only after the March 2018 fall
 ([[wiki/timeline/events/fran-death-vigil]]), and the record frames the
 two-week nursing-home collapse that followed as the confirmation that the
 house had been what was keeping her alive.
+
+The fifty-year residency therefore did not end by sale, by decision, or by
+the estate — it ended inside a single night, and the house was full at the
+time. The first encounter of Dan and Annie's non-monogamy arrangement was
+executing here when Fran fell the first time, and the second fall — the one
+that broke her hip and put her in the ambulance — came in the minutes after
+[[wiki/people/danny-matthews|Danny Matthews]] walked back out the front door
+([[wiki/timeline/events/the-fall-of-fran]]). Danny is the only person who
+appears at both of this property's endings: in it the night its occupancy
+ended, and listing it for sale fifteen months later.
 
 The house was actively re-listed after Fran's death; realtor
 [[wiki/people/danny-matthews|Danny Matthews]] (also a family acquaintance

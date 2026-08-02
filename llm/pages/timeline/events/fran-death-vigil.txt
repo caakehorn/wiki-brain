@@ -6,8 +6,10 @@ status: stable
 importance: high
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -25,6 +27,9 @@ related:
   - wiki/people/new-jim-shaffer
 tags: [financial-stress, housing, uniontown-era, family, grief]
 connections:
+  - page: wiki/mind/concepts/acquisition-drive
+    type: evidences
+    claim: "Months of unglamorous round-the-clock caregiving held to the end is not counter-evidence to Altruism at the 1st percentile — it is the completion drive pointed at a goal Dan set himself, which is the only kind of goal it can serve."
   - page: wiki/people/suzanne-frank
     type: contains
     claim: "Suz is the caretaking role in its acute form here, and this is where the pattern that later structures the estate distribution and the 463 Morgantown arrangement is first documented: the family member who is physically present through the ending is the one the money and the liability route through afterwards."
@@ -52,6 +57,18 @@ connections:
   - page: wiki/places/155-virginia-ave
     type: co-occurs
     claim: "The March 29 eviction notice terminating Dan's residency landed mid-vigil — the estate moving on the house while he was holding the 24/7 line."
+  - page: wiki/timeline/events/the-fall-of-fran
+    type: follows
+    claim: "The vigil's opening event was not only a fall: the first encounter of Dan and Annie's non-monogamy arrangement was executing in the house between the two impacts, which is the fact this page carried for six weeks without knowing it."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: contains
+    claim: "The SMOK-versus-10W-vape story this page set up with its ending missing resolves as a building-wide fire alarm, four fire trucks and an escort off hospital property — the punchline named here as an open gap since 2026-07-19."
+  - page: wiki/people/diane-shrum
+    type: caused-by
+    claim: "The reason the two people who had kept Fran at home for three years held no shift in Fred Adams's mandated rotation is a letter: Dan's maternal grandmother barred them from the house unsupervised and from visiting without an assigned monitor, sent before the final admission rather than in response to it."
+  - page: wiki/people/fred-adams
+    type: caused-by
+    claim: "The 24-hour rotation existed because the estate's trustee ordered it, which is what made the family's exclusion of Dan and Annie a formal act rather than a social slight."
 ---
 
 # The Fran Vigil (March–April 2018)
@@ -71,21 +88,46 @@ died, it started to snow.
 
 ## Sequence
 
-**The first spill (~late 2017?).** The famous filmed crisis — Dan waking
-to a "bump" at 8:00 AM, finding Fran on the floor screaming in agony and
-unable to stand, the record preserving her "I don't want to die" — was
-not the fall that ended her residency. She stayed on the floor most of
-that day: at 2:00 PM she was still down, "barely making any sense and
-screaming whenever she tries to stand" while Annie worked a full shift;
-[[wiki/people/suzanne-frank|Suz]] — whose response had been delayed by an
-all-night video-keno session — got back at 4:00 PM and performed the
-manual lift, captured in `IMG_0569.MOV`. Dan sustained himself through
-the hours of solo triage, by his own later account, with cocaine bumps.
-Fran recovered and "ma[de] it a few more months after this spill"; the
-formal shift rotation dates from roughly this period (Marla's first
-message is December 8, 2017).
+**The first spill — the keno morning (~late 2017?).** The famous filmed
+crisis — Dan waking to a "bump" at 8:00 AM, finding Fran collapsed on the
+carpet wrapped in a white faux-fur blanket, screaming in agony and unable
+to stand, the record preserving her "I don't want to die" — was not the
+fall that ended her residency. His own bedside manner on the tape is
+panic behind laughter ("I didn't know what to do... move her..."), and he
+admits reading the first signals wrong, taking her "all right" at face
+value until specific kitchen sounds forced the correction, then trying a
+food-based reboot: "Hungry yet?"
+
+She stayed on the floor most of that day. [[wiki/people/suzanne-frank|Suz]]
+arrived around **10:00 AM**, having spent the whole night into the morning
+in a video-keno marathon; the two of them tried to lift Fran and she
+screamed. Dan's response was the correct one and he was overruled in five
+words: he told his mother "we have to just call an ambulance, this is
+crazy," and Suz said **"nope. i'll be back in a little bit"** — and left.
+At 2:00 PM Fran was still down, "barely making any sense and screaming
+whenever she tries to stand" while Annie worked a full shift. Suz got back
+at 4:00 PM and performed the manual lift, captured in `IMG_0569.MOV`. Dan
+sustained himself through the hours of solo triage, by his own later
+account, with cocaine bumps.
+
+What kept him from overriding her is on the record and is not squeamishness:
+he was, in his own words, terrified that if the situation went sideways his
+grandparents — [[wiki/people/diane-shrum|Diane]] and George, who "already
+hated" him — would use it to strip his inheritance "or worse." An
+eight-hour delay in treating a fallen 97-year-old is thereby explained by
+an estate, which is the family's whole architecture in one morning. Fran
+recovered and "ma[de] it a few more months after this spill"; the formal
+shift rotation dates from roughly this period (Marla's first message is
+December 8, 2017).
 
 **The second fall — "Down Goes Frazier" (night of March 7–8, 2018).**
+The night has its own page — [[wiki/timeline/events/the-fall-of-fran]] —
+because of what else was happening in the house: Dan had arranged the first
+encounter of his and Annie's non-monogamy arrangement with
+[[wiki/people/danny-matthews|Danny Matthews]] for that evening, Fran fell
+once while Danny was en route, the encounter went ahead on the strength of
+her keep-me-home directive, and the second, worse fall came in the minutes
+after Danny left.
 The one that ended everything, dated precisely by the caregiver threads:
 Dan and Annie had taken the overnight ("we can stay tonight, annie
 didn't have to work"), and the next morning's messages document the
@@ -137,6 +179,28 @@ while Suz puffed a "dainty" 10W vape in the hospital bathroom. A video
 from the period, shown afterward to a friend
 ([[wiki/people/new-jim-shaffer]]), captures Fran smoking marijuana with
 Dan directly, Annie laughing in the background.
+
+The vape story has an ending, and this page has been carrying a question
+mark where it belongs since July. Dan stepped into the room's bathroom,
+took one pull from the sub-ohm device, set off the smoke detector, and
+triggered an alarm that chain-spread through the entire hospital; four
+fire trucks arrived within minutes, and a security guard escorted him off
+the property and wrote up charging documents while Fran lay dying feet
+away. The full account — including a direct contradiction with the
+sentence above over which of the two of them was in the bathroom — is at
+[[wiki/timeline/events/uniontown-hospital-vape-alarm]].
+
+The family's exclusion order belongs in this sequence too. Dan and Annie
+each received a letter from Dan's maternal grandmother
+[[wiki/people/diane-shrum|Diane]] — Fran's only child — barring them from
+the house unsupervised and from visiting Fran without a family-assigned
+monitor and an advance written request. It had been sent *before* the
+final admission rather than in response to it, and its operative effect
+was that the two people who had held the house together for three years
+were given no shifts in the rotation [[wiki/people/fred-adams|Fred Adams]]
+had mandated. They attended anyway, off the roster, and were the two in
+the room at the end. Dan's own note on being left out is four words long:
+"I wasn't really complaining."
 
 **The end (April 4).** The wider family — the relatives Dan's telling
 calls "these fucking shitheads" — "did not come to visit her ONE. TIME."
@@ -203,13 +267,21 @@ end.
 > the nite," 7:23 AM April 4) established. DANSYNTH's April 1 death date
 > conflated admission with death.
 
+> **GAP CLOSED [2026-08-02] — it was a fire alarm.** This page had carried
+> "the punchline of the SMOK-vs-10W vape story (set up in the session,
+> delivered only in an uploaded video — fire alarm? staff incident?)" as an
+> open question since 2026-07-19. Two operator captures deliver it: a
+> hospital-wide alarm, four fire trucks, and Dan escorted off the property
+> with charging documents written. See
+> [[wiki/timeline/events/uniontown-hospital-vape-alarm]].
+
 **Gaps:** exact date of the first spill (~late 2017?, inferred from
 "a few more months" plus the rotation's December 2017 start); the
 nursing home's name; whether the eviction was executed (Dan remained at
 155 Virginia until Feb 2019 per the residence timeline); Dian V. Moore's
-role/relation to the estate; the punchline of the SMOK-vs-10W vape story
-(set up in the session, delivered only in an uploaded video — fire
-alarm? staff incident?). **Media ledger (not on disk):** `IMG_0569.MOV`
+role/relation to the estate; the exact date the letters from Diane were
+sent, and whether they were hers alone or the wider family's.
+**Media ledger (not on disk):** `IMG_0569.MOV`
 (the 4 PM hoisting), `IMG_4361.MOV` (last conversation), `IMG_4637.mov`
 (Suz's April 2 visit), `1080p.mov` (post-death snow), `IMG_4647.jpg`
 (eviction notice), and a "97 Years Young" audio recording of Fran exist

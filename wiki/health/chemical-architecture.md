@@ -6,8 +6,9 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-20
+date_modified: 2026-08-02
 sources:
+  - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -22,6 +23,9 @@ related:
   - wiki/work/bfs-foods
 tags: [addiction-recovery, family, relationships, trauma-bond]
 connections:
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: evidenced-by
+    claim: "Nicotine is catalogued here as the ritual regulator that smooths transitions between chemical states; the April 2018 hospital alarm is the record's demonstration that the regulator runs on its own schedule and does not defer to circumstance."
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "The fifteen-year daily Suboxone regimen begins at the front edge of NYC-1 (~Jan 2010, with a one-year discrepancy against legacy docs still unresolved)."

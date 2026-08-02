@@ -6,6 +6,7 @@ knowledge: earned
 date_created: 2026-07-18
 date_modified: 2026-08-02
 sources:
+  - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
   - "raw/self/dox-md/operating_manual.md"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
@@ -22,6 +23,12 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/people/jay-lauer
+    type: contains
+    claim: "Jay is the network's only documented fatality: a peer-trading node whose overdose in April 2017 shows what the reciprocal-credit tier actually risked, and whose death Dan attributes to a failed attempt to route him onto the Suboxone path that had worked for Dan himself."
+  - page: wiki/mind/concepts/acquisition-drive
+    type: caused-by
+    claim: "The network is not a habit but an infrastructure requirement: a want that will be satisfied at all costs cannot be left to one supplier, which is why the architecture persists across every era while its individual nodes rotate constantly."
   - page: wiki/timeline/events/july-2026-recontact
     type: mirrors
     claim: "Dan's 2:45 AM refusal on July 26 2026 — asked for drugs by a woman stating she was about to kill herself — is the network's only documented refusal under pressure, inverting the terminal phase's finding that his provision was unconditional."
@@ -225,6 +232,30 @@ domain, and the corpus documents each path:
   [[wiki/people/menore]]). At the country club, Teddy timed handoffs around
   caddying reports. The network was never an after-hours activity; it
   was co-located with employment throughout.
+
+## What node failure cost once, and only once
+
+Every cost catalogued above is measured in money, panic, or ruptured
+friendships. One node's failure was measured differently.
+[[wiki/people/jay-lauer|Jay Lauer]] sat in the peer-trading tier — the layer
+where supply was mutual credit between broke men rather than vendor service,
+alongside [[wiki/people/nick-mattie|Nick Mattie]] — and traded suboxone and
+cocaine with Dan across seven weeks spanning the 2016–17 New Year. He died of
+a heroin overdose on or about **April 11, 2017**, eight weeks after the
+thread's last message. He is the network's only documented fatality.
+
+What makes it load-bearing for this page rather than merely sad is Dan's
+account of what the trading had been *for*. Written to his father the evening
+Jay died: "I tried to help him. I talked to him about Suboxone, and told him
+how it helped me finally get out of that world. He went to the doctor and
+sold his prescription for heroin. At that point, there's nothing anyone else
+can do." That is the only documented instance in the entire corpus of Dan
+attempting to move somebody *out* of this network rather than into or around
+it, and it is the one attempt on record that ended in a death. The
+peer-trading tier's characteristic feature — that the participants are
+substitutable for one another, one man's prescription becoming another man's
+supply — is exactly the feature that made the intervention convertible back
+into the drug it was meant to displace.
 
 ## The inversion at the end: Dan as the supply node
 

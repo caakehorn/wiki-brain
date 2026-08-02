@@ -10,6 +10,34 @@ and move on. A considered non-synthesis is also knowledge.
 
 Mark entries `CLIMBED -> <page>` or `REJECTED — <reason>` as you work.
 
+**[2026-08-02] Cluster 26, registered by hand and deliberately NOT climbed
+yet — the unaimable engine.** Members: `wiki/mind/concepts/acquisition-drive`
+(mind), `wiki/timeline/events/the-fall-of-fran` (timeline),
+`wiki/timeline/events/uniontown-hospital-vape-alarm` (timeline),
+`wiki/timeline/events/fran-death-vigil` (timeline),
+`wiki/legal/2015-retail-theft-arrest` (legal),
+`wiki/mind/profile/big-five-psychometrics` (mind). Four domains.
+
+The candidate sentence, which does pass SYNTHESIS_SPEC step 3's test: *every
+documented instance of Dan absorbing large cost to complete something is a goal
+he generated himself, and no instance of comparable cost absorbed for an
+externally assigned goal exists in the corpus.* It is true of every member,
+false of the corpus generally (most people's costliest efforts are assigned —
+jobs, obligations, dependents), and falsifiable by a single counterexample from
+the employment record. It would also resolve a live disagreement rather than
+merely observe one: `fran-coldren` reads the vigil as counter-evidence to
+Altruism at the 1st percentile, and this rule says altruism was never the
+variable in either direction.
+
+**Why it is queued rather than written.** `acquisition-drive` is one day old and
+rests on a single operator capture. CLAUDE.md's rule is to climb when a cluster
+has survived two or more ingests; stacking a synthesis on a concept page written
+the same afternoon would be the write-only anti-pattern with extra steps. The
+work that would earn the climb is specific and cheap: **audit the employment
+record and the abandoned-project record for any assigned goal pursued at
+comparable cost.** If none exists, climb it. If one does, the rule comes back
+narrower, which is better.
+
 **[2026-08-02] Doctrine climb, taken outside the queue.** The miner scores
 clusters of *ground* pages, so it structurally cannot surface the highest-value
 cluster available: the **junction pages read across each other**, which is step 6

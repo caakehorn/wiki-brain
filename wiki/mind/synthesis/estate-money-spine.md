@@ -6,6 +6,7 @@ knowledge: earned
 date_created: 2026-07-18
 date_modified: 2026-08-02
 sources:
+  - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
   - "raw/self/dox-md/operating_manual.md"
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -20,6 +21,12 @@ synthesizes:
   - wiki/places/337-saratoga-drive
 tags: [financial-stress, forensic-analysis, family]
 connections:
+  - page: wiki/people/fred-adams
+    type: contains
+    claim: "Adams is the spine's institutional valve: the Ira-estate capital that eventually reaches Dan as the 2020 distribution sat under one man's discretion for decades, which is why the family's largest asset never behaved like an inheritance in waiting."
+  - page: wiki/people/diane-shrum
+    type: contextualizes
+    claim: "The unnamed grandmother Dan feared would contest his 2020 distribution is almost certainly Fran's only child, who had already moved formally against his proximity to Fran two years earlier — the fear had a documented basis."
   - page: wiki/people/lewis-strosnider
     type: co-occurs
     claim: "Dan's July 2018 message anticipating a 'sizeable check' from the estate 'in a few months' shows the distribution was expected far earlier than the Sept 1, 2020 date it actually landed on."

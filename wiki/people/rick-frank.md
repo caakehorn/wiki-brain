@@ -5,7 +5,7 @@ title: "Richard Harrison \"Rick\" Frank"
 aliases: ["Rick", "Frank Sr."]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-20
+date_modified: 2026-08-02
 infobox:
   name: Rick Frank
   status: Estranged
@@ -22,6 +22,9 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
+  - page: wiki/people/jay-lauer
+    type: evidenced-by
+    claim: "The night of the April 2017 overdose is the corpus's only record of Rick having delivered a direct addiction warning to his son — Dan quotes it back to him verbatim: called over to Cross Creek and told that 'there is no turning back from opiates and heroin, that you lose a part of yourself and your ability to be happy.'"
   - page: wiki/mind/synthesis/block-unblock-loop
     type: component-of
     claim: "The Rick amputation — a 12-day burst then a decade of unanswered inbound — is the loop's held-block control case, proving severance holds exactly where no dependency flows through the channel."
@@ -112,6 +115,21 @@ logistical, Dan's long and validation-seeking, "reinforcing fears of
 worthlessness tied to financial dependence." Other documented touchpoints:
 hockey tickets, pet inquiries — the periodic, low-intensity register the
 spine describes.
+
+The one substantial exception runs on the evening of **April 11, 2017**, and
+it is the closest thing on record to the two men talking about the thing they
+have in common. Dan told Rick that a friend had died of an overdose that day
+([[wiki/people/jay-lauer|Jay Lauer]]), described his own failed attempt to
+route Jay onto Suboxone, and then answered his father by quoting his father
+back at him: "I still remember the conversation where u called me over to
+cross creek and told me that there is no turning back from opiates and
+heroin, that you lose a part of yourself and your ability to be happy." That
+is the corpus's only record of Rick delivering a direct addiction warning to
+his son, and it survives only because Dan repeated it on the day somebody
+else's death confirmed it. Rick's reply is characteristically brief and, for
+once, exactly right: "U did the best that u could do... That's probably not
+enough but better than not doing anything." Four hours later Dan is telling
+him about getting his first customer feedback of the caddie season.
 
 ## Family position
 

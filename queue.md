@@ -10,7 +10,25 @@ _Items waiting for or in the middle of ingestion. `bin/capture status` lists the
 | **Arnu mechanics lien, 463 Morgantown** | **CRITICAL — matures ~2026-07-27** | Time-sensitive and unresolved in every source read. See wiki/legal/463-morgantown.md. |
 | The July 4 2026 email thread (Annie → Dan, re Milo/fireworks) | HIGH | The message that reopened the relationship. Described inside the iMessage record but not itself archived; Dan's email is the only place it exists. |
 
-## Factstory batch of 2026-08-02 — INGESTED, queue cleared
+## Factstory batch of 2026-08-02 (brief #4) — INGESTED, queue cleared
+
+Four manual captures (`wikibrainingestbrief4`). All four filed to `raw/` and
+synthesized on 2026-08-02; nothing from this batch remains pending.
+
+| Capture | Filed to | Landed on |
+|---|---|---|
+| Jay Lauer Death | `raw/people/captures/2026-08-02_010509_jay-lauer-death.md` | `wiki/people/jay-lauer.md` rewritten (death dated to Apr 10–11 2017 from the corpus); new `betherin-mechling`; `ellen-ulmer` thread origin; `supply-network` fatality section |
+| The Fall of Fran (F-alliteration version) | `raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md` | New `wiki/timeline/events/the-fall-of-fran.md` + `uniontown-hospital-vape-alarm.md`; `arrangement-history` start date corrected |
+| Fall of Fran (glyph version) | `raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md` | `fran-coldren` caregiving-years expansion; `fran-death-vigil` keno morning + gap closure; new `diane-shrum`, `fred-adams`; `family-tree` corrected |
+| Perspective: Complete Objective | `raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md` | New `wiki/mind/concepts/acquisition-drive.md`; `big-five-psychometrics` contradiction; `vanessa-frank` ATM episode |
+
+**Open from this batch, answerable only outside the corpus:** whether anything
+was ever filed after the April 2018 hospital vape incident (Fayette County
+magistrate records); Jay Lauer's exact date and cause of death (Fayette or
+Somerset County records — he was "from near Somerset"); and the date and
+authorship of Diane's exclusion letters.
+
+## Factstory batch of 2026-08-02 (brief #5) — INGESTED, queue cleared
 
 Five manual captures (`wikibrainingestbrief5`). All five filed to `raw/` and
 synthesized on 2026-08-02; nothing from this batch remains pending.
