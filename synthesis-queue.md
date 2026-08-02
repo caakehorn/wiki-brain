@@ -10,6 +10,17 @@ and move on. A considered non-synthesis is also knowledge.
 
 Mark entries `CLIMBED -> <page>` or `REJECTED — <reason>` as you work.
 
+**[2026-08-02] Doctrine climb, taken outside the queue.** The miner scores
+clusters of *ground* pages, so it structurally cannot surface the highest-value
+cluster available: the **junction pages read across each other**, which is step 6
+of the STRATEGY.md core loop. Four T2/T3 pages — `vertical-authority-skepticism`,
+`the-cool-metric`, `chaos-preference`, `single-channel` — turned out to describe
+one sorting operation in four vocabularies, each derived from a different
+evidence base, none citing another. Climbed to
+**[[wiki/mind/synthesis/the-deferred-audit]]**. Consider teaching
+`bin/wiki-climb candidates` to mine T2+ clusters as a separate section; the
+ground-level miner will never propose one.
+
 | # | score | domains | members |
 |---|---|---|---|
 | 1 | 14.15 | mind, people, self | [[wiki/mind/concepts/phenomenology-lens]] · [[wiki/people/alexis-armel]] · [[wiki/people/annie-ulmer]] · [[wiki/self/context-core]] |

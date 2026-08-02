@@ -28,6 +28,9 @@ connections:
   - page: wiki/people/milo
     type: caused-by
     claim: "Milo is the residual channel: Annie's July 4 email asking after him during fireworks is what Dan answered on July 23, and every de-escalation across the four days routes through the dog."
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: evidences
+    claim: "This event is what narrowed the audit-lag rule: the Leviathan dashboards audit the already-failed pre-June-1 relationship and are merely deployed live, but the 03:11 refusal — 'why would i not think that i might get actually jumped / that i'm being set up again' — is the forensic engine firing in real time on a chosen object, proving the lag is a one-time cost per object rather than a standing property."
   - page: wiki/mind/concepts/forensic-method
     type: instantiates
     claim: "The Leviathan dashboards are the first documented case of the corpus apparatus being aimed outward as leverage in a live dispute rather than inward as self-understanding."

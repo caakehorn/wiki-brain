@@ -22,6 +22,9 @@ synthesizes:
   - wiki/mind/concepts/chaos-preference
 tags: [relationships, personality-profile, family, trauma-bond]
 connections:
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: caused-by
+    claim: "A slot that must stay occupied is a slot whose occupant cannot be audited on arrival, because a failed audit would require a vacancy the architecture does not permit — the seventeen-year continuity and the nine-year audit lag on the same bond are one fact seen twice."
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: mirrors
     claim: "This page measures the slot that stays occupied; dormancy-not-exit measures what becomes of everyone who has vacated it, and together they describe one live position with no exits."

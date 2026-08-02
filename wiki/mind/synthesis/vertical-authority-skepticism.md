@@ -5,7 +5,7 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
@@ -15,6 +15,9 @@ sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
 tags: [politics, relationships, family, personality-profile, nyc-era]
 connections:
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: component-of
+    claim: "The vertical/lateral split turns out to be a clock rather than a trust axis: the laterals are not trusted more than the verticals, they are audited later — Tom's model was revised only after the May 2026 supply failure, roughly eighteen years in, while an assistant manager's $50 claim was reconstructed the same day."
   - page: wiki/mind/concepts/institutional-out
     type: contains
     claim: "The pre-installed workplace escape mechanism is this architecture's labor-side expression — the refusal of vertical claims on his time, deployed on hire as standing protocol."
@@ -135,6 +138,30 @@ bureaucracy is systemic death"), and the loneliness of positions no tribe
 will co-sign. The music thread is the one vertical-free zone: self-released,
 self-owned, no manager, no label — which the corpus explicitly connects to
 its status as the one sincere channel.
+
+## The axis is a clock (added 2026-08-02)
+
+[[wiki/mind/synthesis/the-deferred-audit]] reads this page against
+[[wiki/mind/concepts/the-cool-metric]], [[wiki/mind/concepts/chaos-preference]]
+and [[wiki/mind/synthesis/single-channel]] and finds that all four describe one
+sorting operation in four vocabularies — and that the vertical/lateral framing
+here understates what is happening. **The laterals are not trusted more than the
+verticals. They are audited later.**
+
+The evidence is on this page already. The BFS drawer claim was reconstructed
+within the day. The [[wiki/people/anita]] blame-pivot was mapped from a prior
+episode *before* it reached him. AI models get anti-softening constraints
+installed at session start, before any output exists to object to. Against
+those: the Tom model was revised only after the mid-May 2026 supply failure, in
+a friendship dating to the late 2000s — and the "lateral ally only during mutual
+alignment" correction that the BFS week produced is a retrospective audit
+finding, arrived at after the failure rather than before it. The lateral
+exception described above is real, but it is an exception in *timing*, not in
+whether scrutiny arrives.
+
+That reframing matters because it converts a disposition into a prediction: a
+newly chosen lateral tie should show no forensic material until it fails, and
+the delay should scale with how load-bearing the tie is.
 
 **Gaps:** no documented case of a vertical institution *earning* trust back
 — the model has no rehabilitation path; the 2021–23 corpus silence means the

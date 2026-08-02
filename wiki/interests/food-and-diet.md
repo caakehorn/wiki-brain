@@ -22,6 +22,9 @@ synthesizes:
   - wiki/mind/concepts/the-cool-metric
 tags: [physical-health, nyc-era, uniontown-era, personality-profile]
 connections:
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: component-of
+    claim: "Food is the floor of the scale — the audit scheduled for never — and with the pets it forms a deliberately maintained reserve of objects guaranteed not to return a verdict, which is what a person running a total audit on everything else requires somewhere."
   - page: wiki/mind/concepts/the-cool-metric
     type: contradicts
     claim: "The metric is described as the master filter applied to music, language, politics, film, work and strangers alike — but it is never applied to food, which is one of the most-discussed subjects in the message corpus, so the axis has a jurisdiction rather than being universal."

@@ -20,6 +20,9 @@ synthesizes:
   - wiki/interests/music/overview
 tags: [personality-profile, forensic-analysis, digital-footprint]
 connections:
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: component-of
+    claim: "Received-versus-sought is one face of a single provenance sort, and this page holds its decisive inward case: the only part of his own output he fully trusts is the sub-bass band, trusted precisely because it was identified post-hoc and never chosen — his own deliberate choices fail the same test he applies to strangers."
   - page: wiki/mind/concepts/chaos-preference
     type: mirrors
     claim: "Same operation, different target: the cool metric rejects inherited taste, the chaos preference rejects inherited order, and both resolve to the identical primitive — the performed is false, the unmanaged is true."
@@ -139,6 +142,15 @@ style choice." The reasoning is identical to the reasoning applied to other
 people: a trait you selected is suspect; a trait that persists without your
 consent is real. He trusts his own sub-bass because he did not choose it, in
 the same way he distrusts a stranger's taste because they did.
+
+This is the whole architecture in miniature, and
+[[wiki/mind/synthesis/the-deferred-audit]] reads it as the decisive case: the
+provenance test is not merely applied outward to other people's taste, it is
+applied to *himself*, and **his own deliberate choices fail it.** The only
+element of his own output that clears the bar is the one he did not select. A
+sorting rule that disqualifies its owner's intentions is not snobbery in any
+ordinary sense; it is a consistent epistemology about where reliability comes
+from, run without an exemption for the person running it.
 
 [[wiki/mind/synthesis/alias-as-periodization]] sharpens this. Across four
 aliases the two invariants — the sub-bass band and the refusal of sung original

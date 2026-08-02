@@ -18,6 +18,9 @@ synthesizes:
   - wiki/interests/music/overview
 tags: [personality-profile, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: component-of
+    claim: "The carve-out this page identifies is not an exception to the entropy appetite but the second clause of a scheduling rule: the chosen are not exempt from scrutiny, they are queued behind it, which is why the chosen structures look defended rather than examined."
   - page: wiki/mind/concepts/the-cool-metric
     type: mirrors
     claim: "The same primitive pointed at a different target: the cool metric rejects inherited taste, the chaos preference rejects inherited order, and both treat the managed and the performed as false while treating the unmanaged as real."

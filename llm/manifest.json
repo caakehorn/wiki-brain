@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 328,
+ "page_count": 329,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -241,7 +241,7 @@
    "title": "Food and Diet",
    "summary": "Food appears in this corpus in every register except taste. It is labour \u2014 three documented jobs, one of them a forty-one-month immersion in a single cuisine...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/food-and-diet.txt",
-   "bytes": 11855
+   "bytes": 12201
   },
   {
    "page": "wiki/interests/golf.md",
@@ -409,7 +409,7 @@
    "title": "The Chaos Preference",
    "summary": "Dan wants the world to be less orderly than it is, and \u2014 with one large exception \u2014 he wants this consistently, quietly, and almost never out loud. The prefe...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/chaos-preference.txt",
-   "bytes": 12046
+   "bytes": 12393
   },
   {
    "page": "wiki/mind/concepts/conflict-architecture.md",
@@ -451,7 +451,7 @@
    "title": "The Forensic Method",
    "summary": "The forensic method is Dan's cognitive default, not a tool he picks up: every domain that contains evidence \u2014 a decade of relationship messages, raw J6 foota...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/forensic-method.txt",
-   "bytes": 10123
+   "bytes": 10442
   },
   {
    "page": "wiki/mind/concepts/institutional-out.md",
@@ -479,14 +479,14 @@
    "title": "The Cool Metric",
    "summary": "Dan evaluates culture, objects, and people on a single axis, and the axis is not quality. It is whether the thing in question is **performed or authentic** \u2014...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/the-cool-metric.txt",
-   "bytes": 13543
+   "bytes": 14524
   },
   {
    "page": "wiki/mind/index.md",
    "title": "mind \u2014 index",
    "summary": "Beliefs, ideology, psychology, and values. The domain is organized in four layers: **profile/** holds the measured personality results and their detailed bre...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/index.txt",
-   "bytes": 9729
+   "bytes": 10125
   },
   {
    "page": "wiki/mind/profile/big-five-psychometrics.md",
@@ -640,7 +640,7 @@
    "title": "The Dan/Annie Fallout \u2014 Was He Correct to Feel Wronged? (Raw-Evidenced)",
    "summary": "The verdict, stated plainly: **yes \u2014 on the documented facts, Dan was correct to feel wronged, and the feeling was not a misreading.** The record supports a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dan-annie-fallout-verdict.txt",
-   "bytes": 29518
+   "bytes": 31015
   },
   {
    "page": "wiki/mind/synthesis/dormancy-not-exit.md",
@@ -668,7 +668,7 @@
    "title": "The Instrument Is Also the Subject",
    "summary": "This wiki is written by a large language model, about a person for whom large language models are a documented daily cognitive organ, using an evidentiary st...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/instrument-is-subject.txt",
-   "bytes": 9011
+   "bytes": 9379
   },
   {
    "page": "wiki/mind/synthesis/intake-constancy.md",
@@ -717,7 +717,7 @@
    "title": "The Single Channel",
    "summary": "Wherever a distributed architecture is available to him, Dan runs **one channel at maximum voltage instead**. This is not a description of his personality; i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/single-channel.txt",
-   "bytes": 16431
+   "bytes": 16839
   },
   {
    "page": "wiki/mind/synthesis/spatial-behavior.md",
@@ -734,11 +734,18 @@
    "bytes": 17432
   },
   {
+   "page": "wiki/mind/synthesis/the-deferred-audit.md",
+   "title": "The Deferred Audit",
+   "summary": "Dan audits everything. What decides the outcome is not *whether* the audit runs \u2014 it always runs \u2014 but **when**, and the schedule is set by a single question...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-deferred-audit.txt",
+   "bytes": 23782
+  },
+  {
    "page": "wiki/mind/synthesis/the-unbroken-bond.md",
    "title": "The Unbroken Bond",
    "summary": "Since leaving high school, Dan has been continuously inside a long-term monogamous relationship for approximately **seventeen years**, with an unattached tot...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-unbroken-bond.txt",
-   "bytes": 12444
+   "bytes": 12796
   },
   {
    "page": "wiki/mind/synthesis/totality-themes.md",
@@ -752,7 +759,7 @@
    "title": "Vertical Authority Skepticism",
    "summary": "Dan treats the vertical axis \u2014 fathers, managers, owners, institutions, the state \u2014 as structurally suspect, and the horizontal axis \u2014 the vetted few peers \u2014...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/vertical-authority-skepticism.txt",
-   "bytes": 8092
+   "bytes": 9900
   },
   {
    "page": "wiki/people/aaron.md",
@@ -2075,7 +2082,7 @@
    "title": "The July 2026 Re-contact",
    "summary": "Between the afternoon of **July 23, 2026** and just after 5:00 AM on **July 26**, Dan and [[wiki/people/annie-ulmer|Annie]] exchanged 624 messages, ending a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/july-2026-recontact.txt",
-   "bytes": 18385
+   "bytes": 18878
   },
   {
    "page": "wiki/timeline/events/march-2026-terminal-phase.md",
