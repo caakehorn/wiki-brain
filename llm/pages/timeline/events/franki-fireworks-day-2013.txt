@@ -31,6 +31,9 @@ connections:
   - page: wiki/interests/music/overview
     type: causes
     claim: "The DJ controller acquired at ishlab and left untouched is picked up in the spring of 2013 and becomes a daily occupation by that summer — the dated origin of the production identity, previously carried only as 'since approximately 2013'."
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: contradicts
+    claim: "This capture attaches five days to Alexis's stay at 155 Virginia Ave and describes Franki's own tenure only as immediate collapse — which puts the number that defines that page's tenure floor in question, without disturbing the control it draws from her non-persistence."
   - page: wiki/people/suzanne-frank
     type: co-occurs
     claim: "Three of Suz's instruments appear inside one day — the car, the ATM card that funded the cocaine, and a second property used to house the displaced partner — after which she convenes Alexis and Danielle to bond over their grievance against her son."

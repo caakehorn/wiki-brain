@@ -34,7 +34,7 @@ connections:
     claim: "The measurement of reactivation bandwidth: 2,044 days of total silence answered in one minute, which shows dormancy in this graph involves no decay of the channel at all."
   - page: wiki/people/franki-faris
     type: contradicts
-    claim: "The control that bounds the rule: five days of occupancy in 2013 produced no message corpus and no later trace, so persistence is earned by sustained tenure rather than granted to everyone who passes through."
+    claim: "The control that bounds the rule: an occupancy of days in 2013 produced no message corpus and no later trace, so persistence is earned by sustained tenure rather than granted to everyone who passes through — the five-day figure itself is contested as of 2026-08-02 and may have been transposed from Alexis's stay at 155 Virginia Ave."
   - page: wiki/places/155-virginia-ave
     type: evidenced-by
     claim: "Lair-continuity is the spatial signature of the same policy — the apartment leased for Alexis is the apartment Annie moves into, so the container is retained while the occupant is swapped."
@@ -44,6 +44,9 @@ connections:
   - page: wiki/mind/synthesis/single-channel
     type: causes
     claim: "A graph that admits people slowly and releases them never must concentrate over time, so the no-exit rule is the mechanism that produces the contact Gini rather than a separate finding about it."
+  - page: wiki/timeline/events/franki-fireworks-day-2013
+    type: contradicts
+    claim: "The capture attaches five days to Alexis's stay at 155 Virginia Ave, not to Franki's tenure, which puts this page's only quantity — the number defining its tenure floor — in question while leaving the qualitative control intact."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: contradicts
     claim: "That page scores Menore's February 2025 farewell as the record's only fully clean closure, but the same channel had already gone silent for 2,044 days under identical structural conditions and reopened — so its cleanest control is provisional on elapsed time rather than settled."
@@ -159,6 +162,30 @@ to everyone who passes through.** Where exactly the floor sits is not
 established — five days is below it and six years is above it, and there is no
 documented case in between. That gap is real and is named again under Gaps.
 
+> **CONTRADICTION [2026-08-02] — the "five days" may not be Franki's at all.**
+> An operator capture ingested on 2026-08-02
+> ([[wiki/timeline/events/franki-fireworks-day-2013]]) attaches five days to a
+> *different person in the same episode*: **Alexis** stayed at
+> [[wiki/places/155-virginia-ave|155 Virginia Ave]] *"for 5 days before returning
+> to carmichaels to her parents."* Of Franki's own tenure the capture says only
+> that she *"got sick of me basically immediately and it went nowhere."*
+>
+> The wiki's five-day figure traces to the Gemini-58 and DANSYNTH
+> self-narrations — later AI-assisted reconstructions, and exactly the class of
+> material most likely to have transposed one five-day span onto the other person
+> a week away from it. Per [[wiki/mind/synthesis/instrument-is-subject]], that is
+> testimony; the capture is first-person operator memory, which is also not
+> residue. **Neither is adopted.**
+>
+> What this costs the page, stated plainly: the control's *duration* is the only
+> quantity in it, and the tenure floor is defined by that quantity. If Franki's
+> occupancy was "immediately, and it went nowhere" rather than five measured
+> days, the control still holds — it holds *harder*, since a shorter tenure makes
+> the floor argument stronger, and nothing about her non-persistence changes. What
+> breaks is the number. **Every use of "five days" on this page should be read as
+> "below the floor, magnitude uncertain" until a primary source fixes it.** The
+> qualitative control survives; the figure does not.
+
 ## What this explains
 
 The consequence is the part that earns the page. A graph that acquires nodes
@@ -206,7 +233,8 @@ implements dormancy, and dormancy is reversible by construction.
 
 1. **A sustained role that genuinely disappears.** One person or place
    documented in a primary role for more than a few months with no trace after
-   it ends. Franki does not qualify — five days is below the tenure floor — but
+   it ends. Franki does not qualify — her tenure is below the floor, though the
+   exact figure is contested (see the contradiction above) — but
    a six-month relationship that vanishes cleanly would break the rule outright.
 2. **A failed reactivation.** Dan deliberately re-entering a dormant channel and
    receiving no answer. The February 2025 Alexis exchange is the nearest thing on
