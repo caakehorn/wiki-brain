@@ -10,8 +10,11 @@ sources:
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
   - raw/self/ancestry/extracted/Daniel Frank family tree.txt
 related:
-  - wiki/people/morley-frank
   - wiki/self/ancestry
+connections:
+  - page: wiki/people/morley-frank
+    type: evidences
+    claim: "Alex's funeral essay — Eat'n Park delivering 'Frownie' cookies to the gathering — is the only personal account of Morley anywhere in the corpus; without it that page is entirely census coordinates, and Dan still quotes it three decades on."
 tags: [relationships, family, grief, music-production]
 infobox:
   name: "Alex Frank"

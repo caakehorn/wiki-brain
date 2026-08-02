@@ -27,6 +27,9 @@ related:
   - wiki/interests/favorites/music
 tags: [uniontown-era, nyc-era, career, financial-stress, housing]
 connections:
+  - page: wiki/people/morley-frank
+    type: co-occurs
+    claim: "The paternal grandfather held a Champion, PA address in the 1996-99 directories — the Seven Springs resort town — concurrently with his Hopwood one, overlapping the childhood years CONTEXT_CORE records as a weekly ski identity; documented co-occurrence, causal link unestablished."
   - page: wiki/self/lineage/family-tree
     type: parallels
     claim: "The genealogical record's multi-generational concentration in Fayette County reproduces, across four generations, the same geographic gravity the location export shows in Dan's own movement."

@@ -50,6 +50,9 @@ connections:
   - page: wiki/mind/concepts/conflict-architecture
     type: mirrors
     claim: "The conflict engine demands resolution while the attachment model cannot issue severance — mutually amplifying architectures with no shared halt condition, recorded in conflict-architecture's paired CONTRADICTION blocks."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: causes
+    claim: "This model is where the verdict assigns Dan's half of the catastrophe: because the system cannot self-close without an explicit severance signal and a [RAW-CSV] sweep of Annie's 41,073 messages returns zero of them, positive rhetoric kept the bond active through a fifteen-month terminal phase — the confirmed zero, not the unlocated 299-affirmation figure, is what carries the asymmetry."
   - page: wiki/health/hyperreflexivity
     type: contextualizes
     claim: "A companion AI session reframes the anxiety loop as largely parasitized by the unresolved Annie situation and post-closure housing void, rather than a freestanding clinical pattern — the loop may be signal, not noise."

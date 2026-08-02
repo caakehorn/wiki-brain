@@ -39,6 +39,9 @@ connections:
   - page: wiki/self/overview
     type: mirrors
     claim: "The report's gravity-wins reading of the returns and the overview's deliberate-seal reading are independently arrived-at, inverted framings of the same fact set — both can be true."
+  - page: wiki/mind/synthesis/fayette-return
+    type: contradicts
+    claim: "The return dynamic this page explains with two inherited operating systems is documented across four generations of the paternal line alone, both of whose immigrant anchors are Ashkenazi — so a single-line geographic account is sufficient and the maternal half of the dialectic is unproven for this dynamic specifically."
   - page: wiki/mind/synthesis/instrument-is-subject
     type: instantiates
     claim: "This page is the worked example of the provenance rule: an interpretive frame that arrived knowledge: mixed and must not have that status laundered by anything that later reasons from it."
@@ -47,10 +50,29 @@ connections:
 
 # The Ancestral Dialectic: Ashkenazi Hypervigilance vs. Appalachian Numbness
 
-> **Contested.** [[wiki/mind/synthesis/fayette-return]] shows the
-> return dynamic is fully documented within the paternal line alone, so a
-> two-line dialectic may be over-specified for it. The geography there is
-> residue; the psychology here is testimony.
+> **CONTRADICTION:** [[wiki/mind/synthesis/fayette-return]] shows the return
+> dynamic is fully documented within the paternal line alone, across four
+> generations, so a two-line dialectic is not required to explain it and may be
+> over-specified. Both G1 immigrants — David from Russia, Sadie from Austria —
+> are on the Ashkenazi side; if one line reproduces the pattern by itself, the
+> maternal contribution to *this particular* dynamic is unproven rather than
+> established. The geography there is residue (censuses, directories, burial
+> records); the psychology here is testimony (one AI report's reading). Where
+> they disagree, residue wins. This does not falsify the dialectic as a frame for
+> the psychological material — it removes the return dynamic from the list of
+> things it is needed for.
+
+> **REVISED [2026-08-02] — the paternal line did not flee the pogroms *into*
+> the coal patch.** A direct read of the GEDCOM places
+> [[wiki/people/david-j-frank|David J. Frank]] in Manhattan in 1900, 1905 and
+> 1910 and in the Bronx in June 1915, reaching Brownsville only by the 1920
+> census. The immigration terminated in New York City and the family moved to
+> Fayette County fifteen years later, as a second and separate decision. The
+> report's "pogrom-flight directly into the Appalachian coal patch" image — which
+> is doing real work in the collision thesis below, because it makes the two
+> inheritances meet on arrival — is not what the record shows. The two codes
+> still meet; they meet a generation later and by choice rather than by
+> displacement.
 
 A long-form Gemini "deep research" report titled *"The Dan Frank OS: A
 Psychogenealogical Architecture of Collapse and Recursion"* — built from

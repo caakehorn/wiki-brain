@@ -40,6 +40,12 @@ connections:
   - page: wiki/people/mike-cordaro
     type: parallels
     claim: "Rick Frank and Mike Cordaro's father Pete are drawn as a matched pair in Dan and Mike's 2024 election-season texts — two Uniontown-area fathers who both drifted into MAGA politics, used as ironic shorthand rather than personal grievance."
+  - page: wiki/people/morley-frank
+    type: component-of
+    claim: "Son of the line's only pre-Dan leave-and-return, and the generation that converts the pattern into its anchor form by never departing at all."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: causes
+    claim: "The 2005 rupture is what the 2026 collapse was actually running on: the bond analysis scores the aura illness as historical pain wearing a 2026 mask, activating the parental rupture alongside the Alexis ending, which makes this page a driver of the trauma bond's amplitude rather than a parallel to it."
   - page: wiki/mind/synthesis/fayette-return
     type: instantiates
     claim: "The generation with no attested departure, which forces the rule into its better-supported form: the terminus is always Fayette, and never leaving satisfies that more completely than leaving and returning."

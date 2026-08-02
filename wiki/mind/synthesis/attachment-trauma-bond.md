@@ -32,8 +32,14 @@ synthesizes:
 tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
 connections:
   - page: wiki/people/annie-ulmer
-    type: contextualizes
-    claim: "Supplies the structural model — intermittent reinforcement, DARVO, the confession trap, the tether oscillation — for the relationship record that page holds."
+    type: instance-of
+    claim: "Supplies the structural model — intermittent reinforcement, DARVO, the confession trap, the tether oscillation — for the relationship record that page holds; the decade is this page's central and only full-magnitude case."
+  - page: wiki/people/rick-frank
+    type: caused-by
+    claim: "The 2005 paternal rupture is one of the older schemas the 2026 collapse reactivated — the reason the aura illness reads as historical pain wearing a 2026 mask rather than as proportionate grief."
+  - page: wiki/people/suzanne-frank
+    type: evidenced-by
+    claim: "Suz's resources financed the first five NYC years, the opening rotation of the leverage see-saw that is the trauma bond's material substrate; the maternal half of the 2005 rupture is the second schema its collapse reactivated."
   - page: wiki/people/eli
     type: evidenced-by
     claim: "The Eli incident is where the weaponized-ambiguity mechanism is most visible: obvious data patterns met with DARVO shutdowns during acute attachment activation."
