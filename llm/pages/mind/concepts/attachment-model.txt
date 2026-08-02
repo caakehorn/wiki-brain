@@ -50,6 +50,9 @@ connections:
   - page: wiki/mind/concepts/conflict-architecture
     type: mirrors
     claim: "The conflict engine demands resolution while the attachment model cannot issue severance — mutually amplifying architectures with no shared halt condition, recorded in conflict-architecture's paired CONTRADICTION blocks."
+  - page: wiki/timeline/events/bald-eagle-cummings
+    type: evidenced-by
+    claim: "The mismatch template is self-named at its first occurrence — 'somehow getting a girl way above my level to date me' as something 'i would go through many times' — which dates it to seventh grade and makes every adult instance a repetition rather than an origin."
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: causes
     claim: "This model is where the verdict assigns Dan's half of the catastrophe: because the system cannot self-close without an explicit severance signal and a [RAW-CSV] sweep of Annie's 41,073 messages returns zero of them, positive rhetoric kept the bond active through a fifteen-month terminal phase — the confirmed zero, not the unlocated 299-affirmation figure, is what carries the asymmetry."

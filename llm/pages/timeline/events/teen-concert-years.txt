@@ -1,10 +1,15 @@
 ---
 domain: timeline
 page_type: event
+title: "Concert Record (2001–2019)"
+aliases: ["teen concert years", "the itinerary"]
 status: stable
+knowledge: mixed
 date_created: 2026-07-16
-date_modified: 2026-07-16
+date_modified: 2026-08-02
 sources:
+  - raw/interests/captures/2026-08-01_222556_concerts-update.md
+  - raw/interests/captures/2026-08-01_222556_concerts-researched.csv
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/gemini-activity/Gemini Activity.html"
@@ -61,6 +66,83 @@ names as the "romantic collapse fantasy" imprinting period
 names "slaying on halo" and Super Mario Galaxy in the same breath — the
 concert devotion and [[wiki/interests/video-games|gaming]] were
 coordinates of one identity cluster, not separate hobbies.
+
+## The researched record (36 shows, 2001–2019)
+
+A later operator pass reconstructed the itinerary against venue routing, tour
+histories and support-act billing, producing a list four times the size of the
+Facebook note and extending it in both directions — back to **August 2001**,
+when Dan was twelve, and forward to **April 2019**. The list is filed as a
+structured CSV (`raw/interests/captures/2026-08-01_222556_concerts-researched.csv`,
+36 rows) as well as inside the capture text, and verification status is carried
+per row exactly as the source gives it, because the unresolved rows are
+as informative as the confirmed ones.
+
+| # | Artist(s) | Date | Venue | City / State | Status |
+|---|---|---|---|---|---|
+| 1 | Rolling Rock Town Fair 2 — STP, Deftones, Incubus, Live, Oleander, Staind, Tantric | 2001-08-04 | Westmoreland Fairgrounds | Latrobe / Mt. Pleasant, PA | Confirmed |
+| 2 | Rolling Rock Town Fair 3 — Godsmack, Outkast, Nickelback, P.O.D., Sevendust, Default, Injected, Tommy Lee | 2002-07-27 | Westmoreland Fairgrounds | Latrobe / Mt. Pleasant, PA | Alien Ant Farm cancelled (bus accident); Tommy Lee filled in |
+| 17 | Barenaked Ladies / Guster | 2002-07-24 | Post-Gazette Pavilion | Burgettstown, PA | Vertical Horizon credited opener |
+| 16 | Billy Joel / Elton John — Face2Face | 2003-03-07 | Mellon Arena | Pittsburgh, PA | Only indoor-arena Face2Face date |
+| 25 | HIM | 2004-04-21 | The Rock Club, Station Square | Pittsburgh, PA | Resolved — Love Metal Tour; Nov 18 2004 return also documented |
+| 5 | The Darkness | 2004-06-17 | Chevrolet Amphitheatre | Pittsburgh, PA | Resolved via Wildhearts support routing |
+| 3 | Rolling Rock Town Fair 5 — Staind, Disturbed, Velvet Revolver, Three Days Grace, Finch, Finger Eleven, Hoobastank, N.E.R.D, Sevendust | 2004-07-31 | Westmoreland Fairgrounds | Latrobe / Mt. Pleasant, PA | Heavy rain/mud; no postponement found |
+| 4 | Incubus (w/ Ben Kweller) | 2004-10-10 | A.J. Palumbo Center | Pittsburgh, PA | Confirmed; only Pittsburgh stop that era |
+| 22 | My Chemical Romance / Anberlin — Nintendo Fusion Tour | ~2004-10-22/23 | Rostraver Ice Garden | Belle Vernon, PA | Confirmed via routing |
+| 24 | The Early November / Ace Enders | ~2004 | Small venue | Pittsburgh, PA | **Still open** |
+| 18 | Saosin (w/ Anberlin, Acceptance, Terminal, Codeseven) | 2005-07-05 | Charleroi VFW | Charleroi, PA | Resolved — All Dudes All the Time Tour |
+| 8 | Vans Warped Tour 2005 | 2005-08-01 | Post-Gazette Pavilion | Burgettstown, PA | FOB, Alexisonfire, Gogol Bordello, Hawthorne Heights |
+| 33 | Coldplay | 2005-08-11 | Post-Gazette Pavilion | Burgettstown, PA | Twisted Logic Tour w/ Rilo Kiley |
+| 6 | Fall Out Boy — Nintendo Fusion Tour | 2005-09-28 → 11-23 | Various | Multiple cities | Confirmed tour window |
+| 34 | Taking Back Sunday / Angels & Airwaves / Head Automatica / The Subways | 2006-06-27 | Chevrolet Amphitheatre | Pittsburgh, PA | Confirmed (corrected from 2007) |
+| 7 | Panic! at the Disco / The Dresden Dolls / The Hush Sound | 2006-07-18 | Chevrolet Amphitheatre | Pittsburgh, PA | Headliner Panic! |
+| 9 | Vans Warped Tour 2006 | 2006-07-27 | Post-Gazette Pavilion | Burgettstown, PA | AFI, Rise Against, Thursday, MCS, NOFX |
+| 15 | Gym Class Heroes | ~2006 | California University of PA | California, PA | **Still open** |
+| 35 | Taking Back Sunday | ~2006 | College campus | Pittsburgh, PA | **Still open** |
+| 20 | Fall Out Boy — *Infinity on High* release-day free show (TRL) | 2007-02-06 | Times Square | New York, NY | Same-day shows also Chicago & LA |
+| 10 | Vans Warped Tour 2007 | 2007-08-08 | Post-Gazette Pavilion | Burgettstown, PA | Paramore, Coheed, All Time Low, Bad Religion |
+| 19 | Fall Out Boy / Four Year Strong — "Schrute Farms" secret show | 2007-11-19 | Mohawk Place | Buffalo, NY | ~300-cap sellout; full *Take This to Your Grave*; Keith Buckley guest on "Walk" |
+| 12 | The Bamboozle 2008 — Panic! & Coheed headline | 2008-05-04 | Meadowlands Sports Complex | East Rutherford, NJ | Paramore, Gym Class Heroes, Cobra Starship, The Academy Is… |
+| 11 | Vans Warped Tour 2008 | 2008-07-29 | Post-Gazette Pavilion | Burgettstown, PA | Anberlin, All Time Low, Against Me!, 3OH!3 |
+| 28 | All Time Low / Mayday Parade / The Maine / Every Avenue | 2008-10-18 | House of Blues | Orlando, FL | Resolved — joint fall 2008 package |
+| 26 | Jedi Mind Tricks (w/ Outerspace, Reef the Lost Cause) | 2008-11-17 | The Social | Orlando, FL | Resolved |
+| 29 | Fall Out Boy / The Academy Is… / We The Kings | 2008-12-12 | House of Blues | Orlando, FL | Resolved — XL 106.7 "XL-ent Electric Xmas" |
+| 27 | Jack's Mannequin | ~2008 | Unknown | Orlando, FL | **Still open** |
+| 36 | Hey Monday | 2008 | Unknown | Orlando, FL | **Still open** |
+| 30 | Flight of the Conchords | 2009-04-08 | UCF Arena | Orlando, FL | Confirmed |
+| 13 | The Bamboozle 2011 | 2011-04-29 → 05-01 | New Meadowlands Stadium | East Rutherford, NJ | Lil Wayne, Mötley Crüe, TBS, A Day to Remember |
+| 21 | LCD Soundsystem — "final" show | 2011-04-02 | Madison Square Garden | New York, NY | Billed as last ever; reunited 2016 |
+| 23 | Bloc Party | 2012-08-07/09 | Terminal 5 | New York, NY | Three-night sold-out *Four* run (recalled as "Terminal 9") |
+| 31 | Flight of the Conchords — Oddball Comedy Festival (w/ Chappelle, Buress, Mulaney) | 2013-08-30 | First Niagara Pavilion | Burgettstown, PA | Confirmed |
+| 14 | Freddie Gibbs — "High Tide" 4/20 cruise (w/ Wiki, Kota the Friend) | 2019-04-20 | Hornblower Infinity Yacht | New York, NY | Boarded at 353 West St. |
+| 32 | John Mayer | 2003-08-14 *or* 2004-08-11 *or* 2008-08-20 | Post-Gazette Pavilion | Burgettstown, PA | Three viable matches; none on a Coldplay bill |
+
+### What the expansion changes
+
+**The window is not 2005–2008.** It runs from age twelve to age thirty, and the
+first two entries are Rolling Rock Town Fairs in 2001 and 2002 — regional
+nu-metal festivals at the Westmoreland Fairgrounds, four years before the
+emo/pop-punk itinerary the Facebook note captures. The page's original framing
+treated the mid-2000s scene as the origin. It was the second chapter.
+
+**Six rows are unresolved and stay that way.** Gym Class Heroes at California
+University of PA, a Taking Back Sunday campus show, The Early November, Jack's
+Mannequin, Hey Monday, and the three-way John Mayer ambiguity are recorded as
+open rather than guessed at. The Mayer row is the useful one: three dates are
+individually plausible and the capture notes none of them sits on a Coldplay
+bill, which is how the memory had filed it.
+
+> **CONTRADICTION [2026-08-02] — the self-kept note and the researched list
+> disagree on two shows.** The Facebook "Concerts I've gone to" note dates HIM to
+> **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour
+> at **2004-04-21, The Rock Club at Station Square**, with a separate November
+> 2004 return. The note dates Taking Back Sunday / Angels & Airwaves to
+> **2006-07-04 in Columbus**; the researched list gives **2006-06-27 at the
+> Chevrolet Amphitheatre in Pittsburgh** and explicitly flags it as *"corrected
+> from 2007."* Neither source is discarded. The note is contemporaneous
+> self-reporting and is residue; the researched list is a later reconstruction
+> with routing evidence behind it and is stronger on dates but is not primary.
+> Both readings are held.
 
 ## What it shows
 

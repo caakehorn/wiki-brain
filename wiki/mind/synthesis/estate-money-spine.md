@@ -181,8 +181,15 @@ documents from the beginning.
   `raw/` — flagged on [[wiki/people/annie-ulmer]] as well.
 - Whether any 337 proceeds are earmarked for Dan's housing is
   undocumented; no post-close plan exists in the record.
-- The coal-baron husband's identity (and thus the maternal line's true
-  origin) remains unresolved on [[wiki/people/fran-coldren]].
+- ~~The coal-baron husband's identity (and thus the maternal line's true
+  origin) remains unresolved on [[wiki/people/fran-coldren]].~~ **CLOSED
+  2026-08-02: he was Thomas Whyel**, Fran's second husband, a coal and coke
+  baron who died in the 1970s; Ira B. Coldren Jr. was the third, married within
+  months of that death. The spine's maternal source therefore has two stages
+  rather than one — capital originating in the **Whyel** coal-and-coke fortune
+  and subsequently administered through the **Coldren** legal one, with Judge
+  Fred Adams (Ira's former law partner) as trustee. What remains open is the
+  first husband's identity and whether any of the money predates Whyel.
 
 > **RE-CHECKED [2026-08-02] — premise moved, spine intact, one terminal
 > uncertainty added.** [[wiki/people/suzanne-frank]] gained the write-back edges

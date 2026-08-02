@@ -13,6 +13,8 @@ related: []
 
 ## events
 
+- [[wiki/timeline/events/franki-fireworks-day-2013]] — early July 2013: the day Alexis discovered the Franki affair by text ten minutes into the drive; also dates the production identity's origin and supplies the chaos preference's first attested macro instance.
+- [[wiki/timeline/events/bald-eagle-cummings]] — seventh grade at Seven Springs: the corpus's earliest sexual event, a failure that produced a year-long school-wide nickname, and the first named girlfriend (Britney Bolen, predating Danielle by ~3 years).
 - [[wiki/timeline/events/teen-concert-years]] — 2005–2008: the literal touring record (FOB×3 + TRL taping, MCR, TBS, Say Anything, Bamboozle) that the wiki had flattened into "top music artists."
 - [[wiki/timeline/events/end-fight]] — Extended confrontation sequence captured in dedicated "THE END FIGHT" CSV export and the…
 - [[wiki/timeline/events/fran-death-vigil]] — March–April 2018: the fall, the nursing home, the pediatric wing, the snowstorm; Dan and Annie alone at the end.

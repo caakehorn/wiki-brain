@@ -28,6 +28,9 @@ connections:
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "Alexis was present for the entire NYC-1 period (Bridge Cafe until Sandy 2012), the first long cohabitation and the baseline the later single-bond switch is measured against."
+  - page: wiki/timeline/events/franki-fireworks-day-2013
+    type: caused-by
+    claim: "The six-year relationship ends on a text sent roughly ten minutes into someone else's car ride — 'I saw your messages. I know you're with Franki.' — which makes the ending an act of detection on her part rather than a drift, and dates the July-October 2013 separation to its first hour."
   - page: wiki/mind/synthesis/the-unbroken-bond
     type: evidences
     claim: "Six years is long enough to prove the attachment slot was continuously occupied and shallow enough — the deep system locked down since 2005 — to prove occupancy never required it to be active; this relationship is what establishes that the slot being filled and the attachment being live are two separate variables."

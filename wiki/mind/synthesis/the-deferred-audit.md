@@ -48,7 +48,7 @@ connections:
     claim: "A slot that must stay occupied is a slot whose occupant cannot be audited on arrival, because a failed audit would require a vacancy the architecture does not permit."
   - page: wiki/interests/food-and-diet
     type: contains
-    claim: "Food is the floor of the scale — the one high-contact domain where the audit has not fired at all in the record, which is what a maximally deferred audit looks like from outside."
+    claim: "Corrected 2026-08-02 from the floor of the scale to its ceiling: an absolute composition regime — every addition he did not specify refused outright — is the provenance sort running preemptively and physically, which makes a plate prepared by someone else an imposed object rather than a protected one."
   - page: wiki/timeline/events/july-2026-recontact
     type: evidenced-by
     claim: "The event that narrowed this rule on the day it was written: the Leviathan dashboards are a completed audit of the already-failed pre-June-1 object deployed live, and the 03:11 refusal is the engine firing in real time on a chosen object — which showed the lag is a one-time cost per object rather than a permanent property of it."
@@ -137,7 +137,7 @@ Every row is documented on a page in this wiki. The lag column is the finding.
 | [[wiki/people/tom]] — primary male ally | chosen | Model revised only after the mid-May 2026 supply failure; friendship dates to the late 2000s | **~18 years** |
 | [[wiki/people/annie-ulmer]] — primary bond | chosen | GPS vigilance autumn 2024; systematic reconstruction only after the June 1 2026 closure | **~9 / ~10.5 years** |
 | [[wiki/people/menore]] — supply node | chosen | 99.3% availability computed retrospectively, from a thread opened in 2018 | **~8 years** |
-| Food ([[wiki/interests/food-and-diet]]) | chosen / protected | Never — zero of 2,016 favorites entries, six evaluative phrases in ~217k rows | **never fired** |
+| Food ([[wiki/interests/food-and-diet]]) | **imposed, once re-read** | ~~Never~~ — **corrected 2026-08-02:** preemptively, on every plate. See the block below | **preemptive** |
 | Pets — [[wiki/people/gabe]], [[wiki/people/milo]] | chosen / protected | Explicitly exempt: *"the food and the cat are always real"* | **never fired** |
 | His own sub-bass signature | **not chosen** | Trusted *because* involuntary — identified post-hoc, never set as a goal | **n/a — passes** |
 
@@ -280,6 +280,30 @@ That is an interpretation. The two clocks are not.
    [[wiki/mind/synthesis/instrument-is-subject]] independently reached from the
    other direction, and which the 2026-08-02 write-back audit is the first
    counter-instance of.
+
+> **CORRECTED [2026-08-02] — the food row was wrong, and the correction
+> strengthens the rule.** This page listed food alongside the pets as a
+> "protected class" whose audit is scheduled for never. A capture filed the same
+> day documents an **absolute composition regime**: every permitted item is a
+> named food with its additions stripped (cheeseburger = meat, cheese, bread),
+> only corn and lettuce are accepted among vegetables, and anything containing
+> onion, tomato or pickle is refused outright as *"an absolute, dealbreaking,
+> no-questions-asked policy."*
+>
+> That is not an absent audit. It is a **preemptive** one, running at maximum
+> stringency on every object, and the criterion is exactly this page's: a plate
+> arriving with a component he did not specify is an object containing something
+> handed to him, and it is refused without negotiation. The three refused
+> vegetables are the three that **permeate** — they cannot be removed after the
+> fact, so the decision has already been made for him before the food arrives.
+>
+> Food therefore moves from the *chosen/protected* column to the *imposed*
+> column, because a meal prepared by someone else **is** an imposed object. The
+> mistake was reading "no evaluative record" as "no audit." Evaluation and
+> specification are different faculties, and only evaluation leaves a favourites
+> list. The protected class still exists — the pets remain in it, per
+> `MAX_PRIME`'s exemption of them from forensic treatment — but it has one
+> member, not two.
 
 ## Predictions scored (2026-08-02, same day)
 

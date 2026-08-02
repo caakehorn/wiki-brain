@@ -11,6 +11,10 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [relationships, attachment, family, trauma-bond, personality-profile]
 connections:
+connections:
+  - page: wiki/timeline/events/bald-eagle-cummings
+    type: caused-by
+    claim: "The first sexual event in the record is a public failure followed by a year of being renamed for it by older students — exposure and humiliation arriving in the same instant, three to four years before the November 2005 hinge this cluster is built around."
   - page: wiki/people/rick-frank
     type: caused-by
     claim: "The November 2005 rupture on the paternal line is the cluster's named hinge event — the dossier's claim is that it encoded the axiom 'intimacy is a precursor to abandonment' that operates underneath the whole arrangement history."

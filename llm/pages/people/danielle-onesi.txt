@@ -42,6 +42,14 @@ infobox:
   location: nyc
   known_for: "Dan's first girlfriend (~2005–2009), Uniontown origin, and a figure who has quietly remained in his life ever since — no"
 connections:
+connections:
+  - page: wiki/timeline/events/bald-eagle-cummings
+    type: follows
+    claim: "Danielle is not the first girlfriend after all: Britney Bolen predates her by roughly three years, which moves the start of Dan's documented relationship history from 2004 back to seventh grade."
+connections:
+  - page: wiki/timeline/events/franki-fireworks-day-2013
+    type: co-occurs
+    claim: "Suz brought Danielle and Alexis together to bond over their shared grievance against Dan in July 2013 — the earliest documented instance of the maternal switchboard operating on the relational graph rather than the financial one, and per the capture it 'caused a huge thing'."
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: instantiates
     claim: "Seventeen years of continuous presence after the 2009 breakup — Suzanne's closest friend, the cat's co-guardian, a Christmas fixture — is the cleanest case of a romantic role ending without the tie ending."

@@ -8,6 +8,7 @@ knowledge: earned
 date_created: 2026-07-25
 date_modified: 2026-08-02
 sources:
+  - raw/self/captures/2026-08-01_154556_picky-eater.md
   - raw/self/favorites/FAVS MASTERLIST.csv
   - raw/self/dox-scan/all_imessages_complete_dump.txt
 synthesizes:
@@ -24,7 +25,7 @@ tags: [physical-health, nyc-era, uniontown-era, personality-profile]
 connections:
   - page: wiki/mind/synthesis/the-deferred-audit
     type: component-of
-    claim: "Food is the floor of the scale — the audit scheduled for never — and with the pets it forms a deliberately maintained reserve of objects guaranteed not to return a verdict, which is what a person running a total audit on everything else requires somewhere."
+    claim: "Corrected 2026-08-02: food is not the audit scheduled for never but the audit run preemptively on every plate — an absolute composition regime refusing any component he did not specify, which is the provenance sort in its most literal and physical form."
   - page: wiki/mind/concepts/the-cool-metric
     type: contradicts
     claim: "The metric is described as the master filter applied to music, language, politics, film, work and strangers alike — but it is never applied to food, which is one of the most-discussed subjects in the message corpus, so the axis has a jurisdiction rather than being universal."
@@ -77,6 +78,63 @@ been pointed at.
 > record entirely. Every documented appearance of food is doing some other job —
 > earning, damaging, marking a region, standing in for physical reality, or
 > carrying a band — and none of them is judging it.
+
+> **REVISED [2026-08-02] — the rule above is falsified in its strong form, and
+> what replaces it is sharper.** An operator capture filed the same week
+> documents an absolute dietary regime the page did not know existed, and
+> "absent from its evaluative record entirely" cannot survive *"pickles are the
+> mortal enemy."* What survives, and is the better statement, is that **there is
+> no record of food being ranked** — no favourites, no cuisine preferences, no
+> better-or-worse. What exists instead is a **composition rule**, and it is
+> total. See "The regime" below. The controls in the next section are unaffected:
+> they measure the absence of *taste*, and taste is still absent.
+
+## The regime: subtraction as an absolute policy
+
+The capture describes eating *"quite literally, like a toddler"* — chicken
+strips, french fries, candy and fruit as staples — but the staples are not the
+finding. The finding is the rule applied to everything else, which the operator
+states is *"an absolute, dealbreaking, no-questions-asked policy"*:
+
+| Item | Permitted composition |
+| :--- | :--- |
+| Cheeseburger | meat, cheese, bread |
+| Taco | meat, cheese, shell |
+| Sandwich | meat, cheese, roll |
+| Vegetables accepted | corn, lettuce — and no others |
+| Refused outright | anything containing onion or tomato |
+| Absolute exclusion | pickles, *"the mortal enemy"* |
+
+Read the middle column again. Every permitted item is a named food **with its
+additions removed**, reduced to the constituents he specified. Nothing is ranked
+against anything else. What the regime governs is not which foods are good but
+**what is allowed to be in them** — and the answer is: only what was asked for.
+
+The refusal list is not random either. Corn and lettuce are separable and
+inert; they sit alongside the rest of the plate without changing it. Onion,
+tomato and pickle are the three that **permeate** — they wet the bread, they
+flavour everything they touch, and they cannot be picked out after the fact.
+The accepted vegetables are the ones that can be removed. The refused ones are
+the ones that have already committed the food to something before it reaches
+him.
+
+### This is the provenance filter in its most literal form
+
+[[wiki/mind/synthesis/the-deferred-audit]] argues that every object in this life
+is sorted by a single question — *was this handed to me, or did I select it?* —
+and that food appeared to be the one high-contact domain the sort never entered.
+That reading was wrong, and this capture is why. **Food is not exempt from the
+sort. It is where the sort is enforced most strictly and most physically.** A
+sandwich that arrives with something on it that he did not specify is an object
+containing an unrequested component, and it is refused outright rather than
+negotiated — the same operation the cool metric performs on received culture and
+vertical-authority-skepticism performs on unverified claims from above, executed
+on a plate, in under a second, without an argument.
+
+The distinction the earlier version of this page missed is between **evaluation**
+and **specification**. He does not judge food. He specifies it, and enforcement
+is absolute. Those are different faculties, and only the first one leaves a
+favourites list.
 
 ## The controls
 
@@ -197,6 +255,18 @@ for everything it is allowed to touch."
 - **Nothing here checks in-person or call behaviour**, which is invisible to a
   text corpus and is exactly where food opinions would ordinarily live. This is
   the most serious limitation on the page and it cannot be closed from `raw/`.
-- **No current dietary record exists at all.** Daily eating habits, cooking
-  ability, restrictions and allergies are undocumented. A single capture note
-  would close this, and would also be the fastest test of prediction 1.
+- ~~**No current dietary record exists at all.**~~ **CLOSED 2026-08-02** by the
+  picky-eating capture, which supplies the staples, the composition rule and the
+  exclusion list. What remains unknown is cooking ability, allergies as distinct
+  from refusals, and whether the regime has changed across eras — the capture is
+  written in the present tense and dates nothing.
+- **Prediction 1 was scored by this capture and it was wrong in the useful
+  direction.** The page predicted that any surfacing food judgement would sort on
+  region, class or provenance-authenticity rather than flavour. It sorts on
+  **composition** — which is a provenance criterion applied to the components of
+  an object rather than to the object's origin, so the prediction was directionally
+  right and mechanically wrong. Recorded rather than quietly amended.
+- **The regime's origin is undated.** Whether it predates or follows the
+  adolescent bulimia and candy-staple period on [[wiki/health/hyperreflexivity]]
+  is unknown, and the answer decides whether this is a control behaviour that
+  grew out of a disordered one or an independent lifelong trait.

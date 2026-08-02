@@ -31,6 +31,9 @@ connections:
   - page: wiki/interests/music/concepts/lyrics-as-timbre
     type: evidenced-by
     claim: "The second invariant: across thirteen years and every alias the catalog is remixes, bootlegs, instrumentals and spoken AI drops, and never a sung original lyric — a refusal that survives every rebrand it is supposedly subject to."
+  - page: wiki/people/fran-coldren
+    type: parallels
+    claim: "The operation predates him by two generations in the line he says shaped him most: Fran discarded her given first name at about eighteen and used the selected one for the rest of her life, which is the same rejection of the received name that the four production aliases perform — recorded as a parallel, with no claim that he knew of it."
   - page: wiki/mind/synthesis/single-channel
     type: component-of
     claim: "Four aliases in thirteen years running strictly in sequence and never in parallel is the creative leg of a four-domain concentration architecture: the creative identity is one occupied slot rather than a portfolio, carrying the same total-loss exposure as the relational channel and, unlike that one, never tested."

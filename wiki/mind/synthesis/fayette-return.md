@@ -31,6 +31,9 @@ connections:
   - page: wiki/people/david-j-frank
     type: contains
     claim: "The founder, and not merely an anchor: Manhattan 1900-1910 and the Bronx in 1915 before Brownsville in 1920 means the line's first move was New York City to Fayette County — the same vector Dan runs twice."
+  - page: wiki/timeline/events/bald-eagle-cummings
+    type: evidenced-by
+    claim: "Sharpens the Champion question rather than settling it: the family rented at Seven Springs for years before buying unit K2, and Champion is the resort's town — so Morley's 1996-99 listings are now a specific checkable question (that rental, a separate property, or the unit later purchased) instead of a vague adjacency."
   - page: wiki/people/sadie-harris
     type: contains
     claim: "The longest tenure in the record — seventy-seven Fayette years with no attested departure — and the burial that, with David's and Morley's, resolves the terminus from a county to one Hopwood cemetery."

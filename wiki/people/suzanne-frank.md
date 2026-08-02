@@ -54,6 +54,9 @@ connections:
   - page: wiki/people/tuquick-17248123683
     type: evidenced-by
     claim: "Tuquick's three-hour harassment call to Suz (~May 26, 2026), five days before the End Fight, is a second and distinct instance of the terminal-phase conflict machinery reaching her directly — a different actor and channel than the April blocked-caller campaign above."
+  - page: wiki/timeline/events/franki-fireworks-day-2013
+    type: co-occurs
+    claim: "Three of her instruments appear in one day of July 2013: the car, the ATM card that funded a quarter ounce of cocaine, and a second property at 155 Virginia Ave used to house the displaced partner — after which she convened Alexis and Danielle to bond over their grievance against her son."
   - page: wiki/legal/463-morgantown
     type: component-of
     claim: "Suz is the point where all four unwritten relationships at 463 converge — tenant, agent, caretaker and contracting counterparty at once — so a mechanics lien formally against Jackson's title reaches her, and through her reaches Dan's housing."

@@ -55,6 +55,9 @@ connections:
   - page: wiki/people/zachariah-harshman
     type: contains
     claim: "Zach is the earliest dated Uniontown node (2014–15), predating Johnny and Teddy by three years, and the first documented case of a supply relationship ending in a friendship rupture rather than a logistics failure."
+  - page: wiki/people/joe-croftcheck
+    type: contains
+    claim: "The network's earliest documented node, five years before Johnny, and the only one Dan describes as inherited rather than sought — 'the family plug', which makes the first link in the chain structurally unlike every link after it."
   - page: wiki/people/annie-ulmer
     type: contains
     claim: "Annie occupies both sides of the network across its life: logistics facilitator in the 2018–19 Johnny era, then dependent consumer in the terminal phase, when Dan controlling the supply ('bop') became the relationship's primary retention mechanism."

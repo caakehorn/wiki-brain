@@ -10,6 +10,24 @@ _Items waiting for or in the middle of ingestion. `bin/capture status` lists the
 | **Arnu mechanics lien, 463 Morgantown** | **CRITICAL — matures ~2026-07-27** | Time-sensitive and unresolved in every source read. See wiki/legal/463-morgantown.md. |
 | The July 4 2026 email thread (Annie → Dan, re Milo/fireworks) | HIGH | The message that reopened the relationship. Described inside the iMessage record but not itself archived; Dan's email is the only place it exists. |
 
+## Factstory batch of 2026-08-02 — INGESTED, queue cleared
+
+Five manual captures (`wikibrainingestbrief5`). All five filed to `raw/` and
+synthesized on 2026-08-02; nothing from this batch remains pending.
+
+| Capture | Filed to | Landed on |
+|---|---|---|
+| Bald Eagle Cummings | `raw/self/captures/2026-08-01_154050_bald-eagle-cummings.md` | New: `wiki/timeline/events/bald-eagle-cummings.md`; seven-springs gap closed |
+| Picky Eater | `raw/self/captures/2026-08-01_154556_picky-eater.md` | `wiki/interests/food-and-diet.md` (rule falsified and restated); `the-deferred-audit` food row corrected |
+| Fran name change | `raw/people/captures/2026-08-01_180942_fran-name-change.md` | `wiki/people/fran-coldren.md`; closed the coal-baron gap on `estate-money-spine` |
+| Concerts update | `raw/interests/captures/2026-08-01_222556_concerts-update.md` | `wiki/timeline/events/teen-concert-years.md` — 36-show researched record, two contradictions flagged |
+| Franki and the Fireworks | `raw/people/captures/2026-08-02_004832_franki-and-the-fireworks.md` | New: `franki-fireworks-day-2013`, `joe-croftcheck`; closed gaps on `franki-faris` and `chaos-preference` |
+
+Two earlier captures from this series had been committed to root-level
+`stories/` and `facts/` directories outside the inbox→raw→wiki flow (PR #70) and
+were therefore filed but never ingested. Those directories are removed and their
+contents are now in `raw/` where they belong.
+
 ## Inbox — pending ingestion
 
 | Item | Priority | Notes |

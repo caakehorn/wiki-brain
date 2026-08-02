@@ -13,7 +13,12 @@ sources:
   - "raw/self/dox-md/Reassessing with fresh perspective.md"
 tags: [mental-health, addiction-recovery, personality-profile]
 connections:
+  - page: wiki/timeline/events/bald-eagle-cummings
+    type: caused-by
+    claim: "A full year as the middle school's named laughing stock, at an age when he was already a year younger than every classmate and pre-pubertal, is the earliest documented source of the social-exposure sensitivity this page treats as a standing condition."
   - page: wiki/interests/food-and-diet
+    type: co-occurs
+    claim: "The adolescent bulimia and candy-staple period sits undated against an absolute adult composition regime — only corn and lettuce accepted, onion and tomato refused outright — and which came first decides whether the regime grew out of a disordered relationship with food or ran alongside it."
     type: evidences
     claim: "The bulimia, the candy staple and the two lost teeth are the only place in the corpus where food is a subject in its own right — and the register is damage, which is what establishes that food enters this life through the body and never through taste."
   - page: wiki/health/chemical-architecture

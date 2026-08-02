@@ -4,13 +4,14 @@ page_type: entity
 title: "Franki Faris"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 sources:
   - raw/self/dox-scan/Gemini-_58.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/people/captures/2026-08-02_004832_franki-and-the-fireworks.md
 related:
   - wiki/people/alexis-armel
   - wiki/people/katie-fletcher
@@ -21,8 +22,11 @@ infobox:
   name: "Franki Faris"
   relationship_to_dan: unknown
   location: nyc
-  known_for: "Franki Faris was a five-day rebound during a brief split from"
+  known_for: "The July 2013 interlude that ended the six-year Alexis relationship; known from junior high and high school, later a ropes-course attendant at Seven Springs."
 connections:
+  - page: wiki/timeline/events/franki-fireworks-day-2013
+    type: contains
+    claim: "One documented day carries effectively the whole relationship — the pickup at 15 Holly Lane, Alexis's discovery ten minutes in, the cocaine, the fireworks, and the collapse within days — which is why the tenure figure this page rests on is now in question."
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: contradicts
     claim: "Five days of occupancy in 2013 left no corpus and no later trace, which is the control bounding the retention rule to relationships that clear a tenure floor."
@@ -114,8 +118,53 @@ working vocabulary, first as shorthand for the abrupt-switch pattern and by 2018
 as a pet nickname for Annie. What survives below the tenure floor is the label,
 not the tie.
 
-**Gaps:** no primary chat log with Franki survives in the archive; how
-they met, her background, and anything about her life after 2013 are
-undocumented; the exact wording and date of Alexis's "I know you're with
-Franki" confrontation hasn't been located verbatim, only referenced
-retrospectively.
+## The day itself, and what a 2026 capture settled
+
+A first-person operator capture written on 2026-08-02 supplies the day this
+relationship consists of, documented in full at
+[[wiki/timeline/events/franki-fireworks-day-2013]]. It closes three of the four
+gaps this page had been carrying, and opens a fourth that matters more than any
+of them.
+
+**Closed — the confrontation, verbatim.** Alexis's challenge is no longer
+referenced-only. Roughly ten minutes after Dan picked Franki up, the text
+arrived: *"I saw your messages. I know you're with Franki."* The mechanism is
+now specific too — she had been reading his messages, prompted by something in
+his behaviour. The discovery was detection, not chance.
+
+**Closed — how they knew each other, and who she was.** Franki was not a
+stranger or a rebound found after the split: Dan knew her *"from highschool and
+junior high."* Her parents' house was 15 Holly Lane, Uniontown; she had her own
+apartment in Somerset, near Seven Springs, where she worked as a **ropes-course
+attendant at the resort**. That places her inside the Seven Springs orbit that
+[[wiki/timeline/events/bald-eagle-cummings]] establishes as the source of most of
+Dan's non-school friendships.
+
+**Closed, partially — the "July 4" framing.** This page previously recorded that
+no source anywhere tied a July 4 event to Franki, and declined to invent one.
+The capture describes driving under a municipal fireworks display staged at the
+mall, seen from the Rt 119 bypass near the Main Street exit. It does not name the
+date. The framing is now **supported rather than unsourced**, and still not
+fixed.
+
+> **CONTRADICTION [2026-08-02]: the "five days" may belong to Alexis, not
+> Franki.** This page has carried *"a five-day rebound"* and *"the Franki
+> interlude lasted five days before collapsing,"* sourced to the Gemini-58 and
+> DANSYNTH self-narrations, and [[wiki/mind/synthesis/dormancy-not-exit]] uses
+> that figure as its tenure-floor control. The 2026 capture attaches five days to
+> a different thing entirely: **Alexis** stayed at 155 Virginia Avenue *"for 5
+> days before returning to carmichaels to her parents."* Of Franki's own tenure it
+> says only that she *"got sick of me basically immediately and it went
+> nowhere."* Two five-day spans, in the same episode, one week apart — and the
+> earlier sources are later AI-assisted reconstructions, exactly the class of
+> material most likely to have conflated them. Neither reading is adopted here.
+> What follows is that **the control case on `dormancy-not-exit` rests on a
+> number that may have been transposed from another person**, and that page now
+> carries the same flag.
+
+**Gaps:** no primary chat log with Franki survives in the archive; nothing is
+known about her life after 2013; the exact date of the fireworks day is unfixed;
+and the tenure figure is contested per the block above. Her presence in the
+Seven Springs orbit raises an unasked question the corpus can probably answer —
+whether she was already known to Dan through skiing rather than only through
+school.

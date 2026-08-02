@@ -10,6 +10,10 @@ date_range_end: 2015-11-28
 sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/facebook/facebook-ihatedanfrank/"]
 tags: [relationships, uniontown-era, addiction-recovery]
 connections:
+connections:
+  - page: wiki/timeline/events/franki-fireworks-day-2013
+    type: contains
+    claim: "The day this period stops being a depressive interval and starts producing consequences — the Alexis relationship breaks, the DJ controller becomes an occupation, and the abrupt-switch pattern Dan later names 'Franki Faris 2.0' is established."
   - page: wiki/timeline/periods/2010s
     type: follows
     claim: "This period opens the moment NYC-1 closes — the May 2013 departure from Manhattan back to Uniontown is the hinge, and it is the fact the old timeline framing got wrong by filing these years under New York."
