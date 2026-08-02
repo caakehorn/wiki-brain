@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -77,7 +77,27 @@ The bootloader's reconstructed chronology, cross-checked against the message rec
 | 2015-12-12 | 363 sent | **MASTER_MESSAGES_DB_DUMP.csv, recomputed** |
 | 2015-12-13 | 679 sent | **MASTER_MESSAGES_DB_DUMP.csv, recomputed** |
 
-The "24 hours" figure carried in [[wiki/people/annie-ulmer]] ("Annie left her prior partner within twenty-four hours of the introduction") and the bootloader's own withdrawal-then-reinstatement both converge on the same reading: the Alexis ending and the Annie beginning were not sequential life chapters but the same event viewed from two sides. The bootloader initially *withdrew* the v1 claim that Dan "left Alexis within 24 hours of the Annie connection forming" because an earlier (wrong) dating of the Alexis breakup to summer 2013 created a 2.5-year gap. Recomputing the breakup to **November 2015** reinstates the contemporaneity: the two events are the same week.
+The bootloader's own withdrawal-then-reinstatement is the key to the "24 hours" figure. It initially *withdrew* the v1 claim that Dan **"left Alexis within 24 hours of the Annie connection forming"** because an earlier (wrong) dating of the Alexis breakup to summer 2013 created a 2.5-year gap. Recomputing the breakup to **November 2015** reinstates the contemporaneity: the two events are the same week, and the v1 claim was right all along.
+
+> **REVISED [2026-08-02] — the subject of the twenty-four-hour sentence was
+> flipped, and this page helped carry it.** Until today
+> [[wiki/people/annie-ulmer]] stated in two places that *Annie* left her existing
+> relationship within twenty-four hours of the introduction, and this page cited
+> that formulation approvingly as a second, independent convergence on the same
+> reading. Per the operator it is backwards: **Dan** left Alexis within
+> twenty-four hours of meeting Annie. There were never two convergent figures —
+> there was one figure, the bootloader's v1 claim, correctly stating Dan as the
+> subject, which was withdrawn on a bad date, reinstated on a good one, and
+> re-entered the wiki with its subject reversed.
+>
+> The correction strengthens this page rather than damaging it. A switch executed
+> by Dan inside twenty-four hours is a far better instance of the single-bond
+> mechanism than a switch executed by his new partner, because the mechanism this
+> page describes is **his**: the slot does not go empty, and the replacement is
+> sourced before the vacancy. Nothing in the dated sequence changes — 2015-11-28
+> revelation, 2015-11-29 introduction and the same-night *"you might be seeing a
+> lot more Annie very soon,"* the December 1 breakup — only who the record says
+> was doing it.
 
 ## The onset flood (verified)
 

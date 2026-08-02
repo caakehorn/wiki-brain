@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 sources:
   - "raw/self/dox-md/MAX_PRIME.md"
   - "raw/self/dox-md/operating_manual.md"
@@ -257,6 +257,12 @@ why the end became possible.
 > unchanged. If anything the reliability finding is strengthened: a node that
 > resumes at full bandwidth after 2,044 days of silence is *more* of an outlier
 > against the friendship-embedded nodes, not less.
+
+> **RE-CHECKED [2026-08-02] — premise moved, nothing here touched.**
+> [[wiki/people/annie-ulmer]] was corrected today to move the twenty-four-hour
+> bond-switch at the 2015 introduction from her column to Dan's. What this page
+> draws from that page — Annie's dual role as logistics facilitator and dependent consumer — is unaffected by who left whom in
+> November 2015.
 
 ## Gaps
 

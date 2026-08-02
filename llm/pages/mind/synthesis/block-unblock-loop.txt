@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
@@ -226,6 +226,12 @@ an exhaustible Fe function.
 > quoted as "the record's only fully clean closure" without the qualification,
 > because the record contains a prior closure of exactly that shape which turned
 > out to be a dormancy.
+
+> **RE-CHECKED [2026-08-02] — premise moved, nothing here touched.**
+> [[wiki/people/annie-ulmer]] was corrected today to move the twenty-four-hour
+> bond-switch at the 2015 introduction from her column to Dan's. What this page
+> draws from that page — the 127/110 exit-relapse record and the March 2026 bidirectional fight — is unaffected by who left whom in
+> November 2015.
 
 ## Gaps
 

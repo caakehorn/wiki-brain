@@ -7,7 +7,7 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 date_range_start: 2015-11-01
 date_range_end: 2026-07-26
 infobox:
@@ -228,8 +228,10 @@ work.
 
 **For context injection:** Annie (Anne Louise Ulmer), Dan's partner
 2015–2026, the first relationship to fully activate his attachment
-system. Met through [[wiki/people/alexis-armel|Alexis]]; left her prior
-partner within 24 hours of meeting Dan. Former MyFreeCams model; the
+system. Met through [[wiki/people/alexis-armel|Alexis]]; **Dan** left his
+six-year relationship with Alexis within 24 hours of meeting Annie
+(corrected 2026-08-02 — the wiki previously attributed the 24-hour
+switch to Annie). Former MyFreeCams model; the
 couple later cammed together as "smashonista" and ran a Dan-architected
 quasi-non-monogamous arrangement (2018–2024, Dan present/arranging).
 Cohabited ~8 years, largely Dan-funded early on; financial burden
@@ -288,14 +290,42 @@ own account confirms it.
 ## The first weeks, and how fast they moved
 
 Annie and Dan met through [[wiki/people/alexis-armel|Alexis]] in November
-2015. Annie left her existing relationship within twenty-four hours of
-that introduction. Within days Dan was already afraid of losing her — "I'm
+2015. **Dan** left his six-year relationship with Alexis within
+twenty-four hours of that introduction. Within days he was already afraid
+of losing Annie — "I'm
 really really scared that you won't want this anymore," December 2, 2015,
 written before there was anything to betray — and that fear, present from
 literally the third day of the documented record, became the organizing
 force of the next decade. This was new territory for him: nothing in the
 [[wiki/people/danielle-onesi]] or earlier [[wiki/people/alexis-armel]]
 history shows a comparably total activation.
+
+> **REVISED [2026-08-02] — the twenty-four-hour switch is Dan's, not
+> Annie's.** This page previously stated, in two places, that *Annie* left her
+> existing relationship within twenty-four hours of the introduction. Per the
+> operator, that is backwards: **Dan** left Alexis inside twenty-four hours of
+> meeting Annie. The corpus corroborates the corrected version and never
+> corroborated the old one — the Alexis cheating revelation is dated
+> **2015-11-28**, Dan meets Annie **2015-11-29**, and his own outbound text the
+> same night reads *"Things are collapsing with lex. You might be seeing a lot
+> more Annie very soon."* The formal breakup ("I'm in love with Annie Ulmer")
+> follows within days. [[wiki/mind/synthesis/bond-switch-2015]] records that the
+> bootloader's **v1 claim was the correct one** — "Dan left Alexis within 24
+> hours of the Annie connection forming" — and that it was withdrawn only
+> because an earlier, wrong dating of the Alexis breakup to summer 2013 appeared
+> to open a 2.5-year gap. When the breakup was recomputed to November 2015 the
+> contemporaneity was reinstated, but the subject of the sentence had already
+> been flipped, and the flipped version propagated.
+>
+> **This is not a cosmetic fix.** The sharpest single instance of abrupt
+> bond-switching in the corpus was sitting in the wrong column. It was being read
+> as evidence about Annie's volatility at the moment of introduction — a
+> character fact about the other party — when it is in fact the cleanest
+> available evidence for [[wiki/mind/synthesis/the-unbroken-bond]]'s central
+> claim, which is about **Dan**: that the attachment slot is never left
+> voluntarily empty, and that the replacement is sourced before the vacancy
+> occurs. Under [[wiki/mind/synthesis/dan-annie-fallout-verdict]]'s ledger it
+> belongs on the diagnosis-to-behaviour side, with his contributions, not hers.
 
 The corpus's own volume confirms the intensity independent of anyone's
 memory of it. Dan sent 728 messages on December 10, 2015 alone, then 682,
