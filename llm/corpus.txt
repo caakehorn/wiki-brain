@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-02
-431 pages, ~629,439 tokens.
+432 pages, ~633,089 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -9147,6 +9147,148 @@ the project is still active past its 2026 documentation window.
 
 
 ========================================================================
+PAGE: wiki/mind/concepts/calibrated-confidence.md
+========================================================================
+
+---
+domain: mind
+page_type: concept
+title: "Calibrated Confidence"
+aliases: ["percent sure", "graded certainty", "the confidence interval habit"]
+status: active
+importance: high
+knowledge: earned
+date_created: 2026-08-02
+date_modified: 2026-08-02
+sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+tags: [personality-profile, forensic-analysis, digital-footprint]
+connections:
+  - page: wiki/mind/concepts/forensic-method
+    type: evidences
+    claim: "The method's probabilistic core is not only an AI-session posture: Dan attaches graded numeric confidence to ordinary claims in casual SMS, which is the same reasoning running with no audience and nothing at stake."
+  - page: wiki/mind/concepts/dans-law
+    type: evidences
+    claim: "Dan's Law asks whether a coincidence cluster's joint probability is near zero, which presupposes someone who thinks in probabilities as a matter of habit rather than of method — this page is the habit, measured, a decade before and after the law was named."
+  - page: wiki/mind/profile/linguistic-profile
+    type: component-of
+    claim: "A concrete, countable stylistic marker to set beside the 99th-percentile lexical-diversity finding: graded numeric certainty appears 15 times in Dan's outbound text and zero times in 110,944 inbound messages from 503 handles."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: evidences
+    claim: "Intellect at the 95th percentile has a behavioural correlate that costs Dan nothing and that no instrument prompted: he quantifies his own uncertainty in text messages, unprompted, in every year of the corpus."
+  - page: wiki/self/context-core
+    type: evidences
+    claim: "The Ti-dominant 'reality parsed as high-fidelity system' claim, which the spine carries on typological authority, has a measured behavioural signature underneath it for the first time."
+  - page: wiki/self/message-corpora/master-message-dump
+    type: instantiates
+    claim: "The first finding produced by the message-density campaign, and the demonstration of what the corpus is actually good for — behavioural signatures Dan never knew were being counted, rather than self-report he was never going to type into SMS."
+---
+
+# Calibrated Confidence
+
+Dan Frank attaches **graded numeric probabilities to his own beliefs in casual
+text messages**, and he is effectively the only person in the corpus who does
+it. Across 106,629 outbound messages spanning 2015–2025 he writes a numeric
+confidence attached to an assertion — *"I'm 90% sure I will have z when she
+does," "Like 80% sure these were not hers," "I feel 0% confident about how it
+could go"* — 43 times. Across the 110,944 inbound messages from 503 other
+handles, it happens **twice**.
+
+The raw ratio understates it, and the interesting number is a different one.
+
+## The measurement
+
+| | Dan (outbound) | Everyone else (inbound) |
+|---|---|---|
+| Messages | 106,629 | 110,944 |
+| Numeric confidence attached to a belief | **43** | **2** |
+| Of those, plain "100%" | 27 | 2 |
+| **Graded values (not 0 / 50 / 100)** | **15** | **0** |
+| Distinct values used | 0, 75, 80, 89, 90, 95, 99, 99.9999, 99.99999999, 100 | 100 |
+
+Both inbound instances are the idiomatic "100%" that functions as a synonym for
+*definitely* — "100% convinced he has it." That is ordinary English and carries
+no arithmetic. What does not occur even once in a decade of other people's
+messages is a **value between the endpoints**: 75, 80, **89**, 90, 95. Eighty-nine
+per cent is the tell. Nobody reaches for 89% as an intensifier; 89% is an
+estimate.
+
+So the finding is not that Dan says "100% sure" more often than his friends. It
+is that Dan is using the *scale* and everyone else is using a word.
+
+## Why it survives the obvious objections
+
+Three alternative explanations were tested against the corpus and none holds.
+
+**It is not one relationship.** The 43 instances spread across **12 distinct
+handles**. [[wiki/people/annie-ulmer|Annie]] takes the largest share at 13, which
+is roughly her share of the corpus generally, so this is not a private register
+developed inside the primary relationship.
+
+**It is not an era.** It appears in **every single year the dump covers** —
+2015 (1), 2016 (6), 2017 (4), 2018 (8), 2019 (5), 2020 (7), 2023 (1), 2024 (4),
+2025 (7). It predates the AI-collaboration period by eight years, which matters
+because it means the habit was not learned from talking to models. If anything
+the models met a mind that already worked this way.
+
+**It is not numeracy in general.** Bare percentages of any kind — prices, tips,
+battery, odds — run at 2.94 per thousand outbound against 2.16 inbound, a ratio
+of only 1.36×. Dan is barely more numerate than his correspondents in ordinary
+usage. The divergence is specific to **percentages pointed at his own mental
+state**, where the ratio is 22×.
+
+## What it means
+
+The wiki's psychological layer is built largely on instruments and on AI
+sessions: [[wiki/mind/profile/big-five-psychometrics|Intellect at 95]],
+Ti-dominance, "reality parsed as a high-fidelity system,"
+[[wiki/mind/concepts/forensic-method|the forensic method]], and
+[[wiki/mind/concepts/dans-law|Dan's Law]] — a heuristic that opens by asking
+whether the joint probability of a coincidence cluster is near zero. All of that
+is asserted in venues where Dan was being asked about himself, or was
+constructing a self-description on purpose.
+
+This is the same architecture caught with nobody watching. Texting a friend
+about whether a coworker quit, he does not write *I think* — he writes *I am 95%
+sure, based on what RT said*, and appends his evidence. The probabilistic frame
+is not a method he adopts when doing analysis. It is the resting state of the
+sentence.
+
+Two details sharpen it. The first is **0% confident** (January 2018) — the scale
+runs downward as well as upward, which an intensifier cannot do. The second is
+the absurd tail: *"99.9999% sure," "99.9999999999999999% sure you don't."*
+Stacking nines past any possible warrant is a joke, but it is a joke that only
+works if the underlying scale is real to the person telling it — he is
+exaggerating along an axis he actually uses.
+
+## Prediction
+
+If this is a genuine cognitive signature rather than a verbal tic, it should
+appear **wherever Dan writes and nowhere that he does not**. The falsifiable
+form: graded numeric confidence should be findable at comparable or higher rates
+in his email, Facebook Messenger, Reddit and forum output, and in the
+`raw/self/chats/` AI sessions — and it should remain near-absent in the inbound
+half of every one of those corpora. If a scan of the Facebook Messenger export
+returns Dan at the inbound baseline instead, then the habit is
+iMessage-specific, this page is measuring a channel rather than a mind, and the
+claim should be narrowed to the channel.
+
+## Gaps
+
+The 43 instances are the yield of one pattern — numeric confidence adjacent to
+*sure / certain / positive / confident / convinced*. Adjacent constructions the
+pattern does not catch (*"odds are," "there's a good chance," "I'd bet,"
+"probably"*) are unmeasured, and a hedging-word study would put this finding on
+a much larger base; the 1.36× bare-percentage control suggests the effect is
+real but its true size is unknown. The dump covers 2015–2025 with **2022 and
+2026 entirely missing**, so nothing here speaks to the terminal phase or the
+July 2026 re-contact. Whether the habit is inherited, learned, or the residue of
+something specific is not addressed anywhere in the corpus — no message explains
+where it came from, and no source in `raw/` records anyone else in the family
+doing it.
+
+
+========================================================================
 PAGE: wiki/mind/concepts/chaos-preference.md
 ========================================================================
 
@@ -9874,13 +10016,17 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
 tags: [politics, trauma-bond, forensic-analysis]
 connections:
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: evidenced-by
+    claim: "The law opens by asking whether a coincidence cluster's joint probability is near zero, which presupposes habitual probabilistic thinking — and the message corpus supplies it directly: 15 graded confidence values in Dan's outbound text against zero in 110,944 inbound messages."
   - page: wiki/mind/concepts/forensic-method
     type: component-of
     claim: "Dan's Law is the method's deconfounding filter — the step that converts a raw anomaly list into actionable signal by stripping parasitic noise from the load-bearing element."
@@ -10224,8 +10370,9 @@ status: stable
 knowledge: mixed
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
@@ -10243,6 +10390,9 @@ related:
   - wiki/timeline/events/eli-incident
 tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
 connections:
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: evidenced-by
+    claim: "The method's probabilistic core is not a posture adopted for analysis: graded numeric confidence appears in Dan's casual SMS in every year from 2015 to 2025, at 22x the rate of the 503 people texting him, eight years before the AI-collaboration era could have taught it to him."
   - page: wiki/mind/synthesis/the-deferred-audit
     type: causes
     claim: "This method is the audit itself, and the one variable it never specified is when it fires: provenance sets the schedule, so the same engine reaches a cash-drawer claim in hours and a ten-year attachment only after closure."
@@ -10984,6 +11134,7 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/concepts/the-cool-metric]] — the single performed-vs-authentic axis applied to music, language, politics, film, work and strangers alike.
 - [[wiki/mind/concepts/chaos-preference]] — the appetite for entropy and system failure, and the finding that it is strictly outward-facing.
 - [[wiki/mind/concepts/acquisition-drive]] — the 95th-percentile completion drive that cannot be aimed: once a want becomes a decided outcome it runs to completion regardless of cost, and only self-originated goals can recruit it.
+- [[wiki/mind/concepts/calibrated-confidence]] — graded numeric probability attached to his own beliefs in casual SMS, at 22x the rate of the 503 people texting him; the first Ti-dominance evidence from behaviour rather than an instrument.
 ## psychosexual — the sexuality cluster
 
 - [[wiki/mind/psychosexual/index]] — hub: theory-vs-practice provenance split, quick brief, cluster map.
@@ -11036,6 +11187,7 @@ importance: high
 date_created: 2026-07-13
 date_modified: 2026-08-02
 sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -11047,6 +11199,9 @@ related:
   - wiki/self/context-core
 tags: [personality-profile]
 connections:
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: evidenced-by
+    claim: "Intellect at the 95th percentile finally has an unprompted behavioural correlate rather than an instrument score: Dan quantifies his own uncertainty in text messages, in every year of the corpus, where nobody texting him ever does."
   - page: wiki/mind/concepts/acquisition-drive
     type: contradicts
     claim: "The facet table has no persistence dimension and reads the corpus's execution failures as Impulsiveness at 96; the operator claims a 95th-percentile completion drive is running in the same behaviour, which would mean this instrument is scoring an engine as a brake failure."
@@ -11762,8 +11917,9 @@ title: "Linguistic Profile — Voice, Register, Stylometrics"
 aliases: ["voice", "stylometrics", "forensic intimacy"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-08-02
 sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ Linguistic.rtf
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -11776,6 +11932,9 @@ related:
   - wiki/self/twitter
 tags: [trauma-bond]
 connections:
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: contains
+    claim: "A countable stylistic marker to set beside the 99th-percentile lexical-diversity score: Dan uses the confidence scale (75, 80, 89, 90, 95, 99.9999) where every other person in the corpus uses '100%' as a synonym for 'definitely'."
   - page: wiki/mind/profile/voice-modes
     type: parallels
     claim: "This page's audience-based code-switching (romantic/platonic, supportive/conflict) and voice-modes.md's eight emotional-state modes are two independent organizing axes over the same baseline mechanics — who he's talking to and how he feels modulate register separately."
@@ -26734,7 +26893,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-18
+date_modified: 2026-08-02
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_7249204125_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 synthesizes:
   - wiki/self/message-corpora/master-message-dump
@@ -26773,6 +26932,20 @@ infobox:
 ---
 
 # Johnny (+17243223678)
+
+> **RE-CHECKED [2026-08-02] — conclusion survives, and the premise now
+> strengthens it.** [[wiki/self/message-corpora/master-message-dump]] moved when
+> the message-density campaign added two findings to it: that graded numeric
+> confidence is a measurable behavioural signature in the corpus, and — the
+> relevant one here — that the corpus is trustworthy for **behaviour** while
+> being silent on the **psychological** layer, which is why the four core axioms
+> could not be corroborated from it. Everything this page draws from the dump is
+> behavioural and countable: the 3,462-message volume, the seventh-largest-thread
+> ranking, the dated transactions, the supply-panic episodes. That is squarely
+> inside the jurisdiction the premise now defines rather than outside it, so no
+> claim here needs revision. Worth noting the one caveat the campaign added: the
+> canonical dump covers 2015–2025 with **2022 and 2026 missing**, which does not
+> touch this page's 2018–20 window.
 
 ## Corpus Dimensions (Johnny)
 | Metric | Value |
@@ -34988,8 +35161,9 @@ aliases: ["spine", "behavioral spine", "CONTEXT_CORE_EXPANDED"]
 status: stable
 importance: critical
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
   - raw/self/dox-md/operating_manual.md
@@ -35000,6 +35174,9 @@ sources:
   - raw/self/dox-md/Gemini-_18.md
 tags: [personality-profile, family, relationships, ai-collaboration]
 connections:
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: evidenced-by
+    claim: "The Ti-dominant 'reality parsed as a high-fidelity system' claim, carried here on typological authority, has a measured behavioural signature underneath it for the first time — 22x the corpus baseline, present in every year, spread across 12 handles."
   - page: wiki/mind/synthesis/instrument-is-subject
     type: evidences
     claim: "The most authoritative source page in the wiki is itself a curated, AI-assisted compilation rather than a primary record, which is why the residue/testimony distinction has to be applied here too: its dated events and counts are admissible on different terms from its interpretive framings."
@@ -35053,6 +35230,54 @@ changelog:
 **Cognitive stack** [DOC]: Ti-dominant (reality parsed as high-fidelity system, frameworks from first principles), Ne-auxiliary (cross-domain pattern recognition), Si-tertiary (high-fidelity archival recall), Fe-inferior (craves connection, distrusts emotional read). Methodology is domain-invariant "find where it breaks": hinge-instants over resolved states, anomaly detection as default. Metacognitive accuracy ~82nd percentile — the failure mode is never ignorance but the diagnosis-to-behavior gap. Self-deprecation sets the floor low so being right reads as surprise; the same mechanism that makes him updateable makes him chronically undersell competence. Threat model: "competence correctly deployed, outcome still catastrophic."
 
 **Core axioms (unconscious, load-bearing)** [DOC]: not exceptional = worthless · not vigilant = annihilated · love that doesn't cost everything isn't real · time = countdown.
+
+> **CORROBORATION ATTEMPTED [2026-08-02] — three of the four axioms are not
+> visible in the message corpus, and *time = countdown* is the clearest
+> negative.** The first systematic pass of the message-density campaign
+> (`MESSAGE_MINING.md`) tested the axioms lexically against all 106,629 of Dan's
+> outbound messages, 2015–2025, with the 110,944 inbound messages from 503 other
+> handles as a within-medium control. Results, per thousand messages:
+>
+> | Prediction if *time = countdown* holds | Dan | Others | |
+> |---|---|---|---|
+> | "running out of time / no time left" | 0.01 | 0.03 | **0.35×** |
+> | "deadline / last chance / now or never" | 0.09 | 0.23 | **0.42×** |
+> | "before I die / turn / lose / run out" | 0.00 | 0.04 | **0.00×** |
+> | "too late" | 0.47 | 0.25 | 1.86× |
+>
+> On every explicit urgency construction except one, Dan writes **less** of it
+> than the people texting him. "Rest of my life" looked promising at 3.5× until
+> the twenty hits were read: all of them are 2015–16 declarations to
+> [[wiki/people/annie-ulmer|Annie]] — *"I want to spend the rest of my life with
+> you"* — which is love-bombing, not mortality. Direct age self-reference
+> survives contamination at **n=8** across eleven years, half of it escort-ad
+> boilerplate.
+>
+> **This does not falsify the axiom, and the distinction matters.** An
+> unconscious load-bearing axiom is not a thing anyone would expect to find
+> people *typing*, and the control shows SMS is a near-zero-introspection medium
+> for everybody in it — "the thing about me" occurs zero times in 217,573
+> messages from either direction. What the result establishes is narrower and
+> more useful: **the message corpus cannot corroborate the axioms, so the
+> corpus's standing as final arbiter has a jurisdiction.** The LLM Quick Brief
+> above says all behavioural data defers to the message corpus. For behaviour
+> that is true. For the psychological layer the corpus is silent, and every
+> axiom on this line rests on the AI-session dossiers alone
+> ([[wiki/mind/synthesis/ai-collaborative-analysis]]) — which is a thinner
+> evidentiary base than the wiki's confidence in them has so far implied.
+>
+> One axiom did draw independent support, from behaviour rather than vocabulary:
+> see [[wiki/mind/concepts/calibrated-confidence]] for a Ti-dominance signature
+> measured at 22× the corpus baseline.
+
+> **METHOD NOTE — a false positive caught in the same pass, recorded because the
+> next reader will hit it too.** The first run of this test scored "age
+> self-reference" at 3.82× baseline and very nearly became a finding about the
+> countdown being experienced as *position rather than urgency*. Reading the
+> matches showed the pattern was catching **"I'm 99% sure"** — percentages, not
+> ages. The apparent countdown signal was Dan's probability habit wearing an age
+> pattern's clothes. Any future lexical pass over this corpus should read its
+> matches before believing its counts.
 
 ## Psychometrics [DOC]
 
@@ -36420,11 +36645,17 @@ domain: self
 page_type: report
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-06-23
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv", "raw/self/message-csv/imessage_2124702449_both_all_now.csv", "raw/self/message-csv/imessage_3307038747.csv", "raw/self/message-csv/* (37 total CSVs)", "raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/dox-md/Gemini-_18.md"]
+date_modified: 2026-08-02
+sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv", "raw/self/message-csv/imessage_2124702449_both_all_now.csv", "raw/self/message-csv/imessage_3307038747.csv", "raw/self/message-csv/* (37 total CSVs)", "raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/dox-md/Gemini-_18.md"]
 related: ["wiki/self/context-core", "wiki/self/twitter", "wiki/self/youtube-watch-history", "wiki/self/favorites", "wiki/mind/concepts/forensic-method", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/facebook/messages", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/people/annie-ulmer"]
 tags: [digital-footprint, nyc-era, relationships, financial-stress, trauma-bond]
 connections:
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: instance-of
+    claim: "The campaign's first finding, and the demonstration of what this corpus is actually for: behavioural signatures Dan never knew were being counted, not the self-report he was never going to type into a text message."
+  - page: wiki/self/context-core
+    type: contextualizes
+    claim: "The corpus cannot corroborate the four core axioms — SMS is a near-zero-introspection medium for everyone in it, with 'the thing about me' appearing zero times in 217,573 messages in either direction — so the spine's claim that all behavioural data defers to this corpus has a jurisdiction, and the psychological layer sits outside it."
   - page: wiki/people/johnny-dealer
     type: evidenced-by
     claim: "The rank-7 handle in this dump, at 3,462 messages, resolves to a 2018-era dealer — which is the clearest demonstration that raw volume in this corpus measures logistical load rather than closeness."

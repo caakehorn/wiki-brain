@@ -3,13 +3,17 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
 tags: [politics, trauma-bond, forensic-analysis]
 connections:
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: evidenced-by
+    claim: "The law opens by asking whether a coincidence cluster's joint probability is near zero, which presupposes habitual probabilistic thinking — and the message corpus supplies it directly: 15 graded confidence values in Dan's outbound text against zero in 110,944 inbound messages."
   - page: wiki/mind/concepts/forensic-method
     type: component-of
     claim: "Dan's Law is the method's deconfounding filter — the step that converts a raw anomaly list into actionable signal by stripping parasitic noise from the load-bearing element."

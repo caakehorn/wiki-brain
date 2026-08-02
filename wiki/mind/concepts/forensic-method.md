@@ -7,8 +7,9 @@ status: stable
 knowledge: mixed
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
@@ -26,6 +27,9 @@ related:
   - wiki/timeline/events/eli-incident
 tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
 connections:
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: evidenced-by
+    claim: "The method's probabilistic core is not a posture adopted for analysis: graded numeric confidence appears in Dan's casual SMS in every year from 2015 to 2025, at 22x the rate of the 503 people texting him, eight years before the AI-collaboration era could have taught it to him."
   - page: wiki/mind/synthesis/the-deferred-audit
     type: causes
     claim: "This method is the audit itself, and the one variable it never specified is when it fires: provenance sets the schedule, so the same engine reaches a cash-drawer claim in hours and a ten-year attachment only after closure."
