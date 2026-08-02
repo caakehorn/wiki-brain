@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-02
-425 pages, ~603,278 tokens.
+425 pages, ~604,661 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -13724,7 +13724,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
@@ -13947,6 +13947,12 @@ an exhaustible Fe function.
 > because the record contains a prior closure of exactly that shape which turned
 > out to be a dormancy.
 
+> **RE-CHECKED [2026-08-02] — premise moved, nothing here touched.**
+> [[wiki/people/annie-ulmer]] was corrected today to move the twenty-four-hour
+> bond-switch at the 2015 introduction from her column to Dan's. What this page
+> draws from that page — the 127/110 exit-relapse record and the March 2026 bidirectional fight — is unaffected by who left whom in
+> November 2015.
+
 ## Gaps
 
 - **The Menore control row is provisional on elapsed time** (see the re-check
@@ -13980,7 +13986,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -14053,7 +14059,27 @@ The bootloader's reconstructed chronology, cross-checked against the message rec
 | 2015-12-12 | 363 sent | **MASTER_MESSAGES_DB_DUMP.csv, recomputed** |
 | 2015-12-13 | 679 sent | **MASTER_MESSAGES_DB_DUMP.csv, recomputed** |
 
-The "24 hours" figure carried in [[wiki/people/annie-ulmer]] ("Annie left her prior partner within twenty-four hours of the introduction") and the bootloader's own withdrawal-then-reinstatement both converge on the same reading: the Alexis ending and the Annie beginning were not sequential life chapters but the same event viewed from two sides. The bootloader initially *withdrew* the v1 claim that Dan "left Alexis within 24 hours of the Annie connection forming" because an earlier (wrong) dating of the Alexis breakup to summer 2013 created a 2.5-year gap. Recomputing the breakup to **November 2015** reinstates the contemporaneity: the two events are the same week.
+The bootloader's own withdrawal-then-reinstatement is the key to the "24 hours" figure. It initially *withdrew* the v1 claim that Dan **"left Alexis within 24 hours of the Annie connection forming"** because an earlier (wrong) dating of the Alexis breakup to summer 2013 created a 2.5-year gap. Recomputing the breakup to **November 2015** reinstates the contemporaneity: the two events are the same week, and the v1 claim was right all along.
+
+> **REVISED [2026-08-02] — the subject of the twenty-four-hour sentence was
+> flipped, and this page helped carry it.** Until today
+> [[wiki/people/annie-ulmer]] stated in two places that *Annie* left her existing
+> relationship within twenty-four hours of the introduction, and this page cited
+> that formulation approvingly as a second, independent convergence on the same
+> reading. Per the operator it is backwards: **Dan** left Alexis within
+> twenty-four hours of meeting Annie. There were never two convergent figures —
+> there was one figure, the bootloader's v1 claim, correctly stating Dan as the
+> subject, which was withdrawn on a bad date, reinstated on a good one, and
+> re-entered the wiki with its subject reversed.
+>
+> The correction strengthens this page rather than damaging it. A switch executed
+> by Dan inside twenty-four hours is a far better instance of the single-bond
+> mechanism than a switch executed by his new partner, because the mechanism this
+> page describes is **his**: the slot does not go empty, and the replacement is
+> sourced before the vacancy. Nothing in the dated sequence changes — 2015-11-28
+> revelation, 2015-11-29 introduction and the same-night *"you might be seeing a
+> lot more Annie very soon,"* the December 1 breakup — only who the record says
+> was doing it.
 
 ## The onset flood (verified)
 
@@ -14114,7 +14140,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
@@ -14287,6 +14313,19 @@ The dossiers' own proportionality finding is the line to hold: these are "real, 
 > "I was deceived," which is why the exit could not be taken without one.
 
 The synthesis the wiki already carries — "the gaslighting outweighed the affair" — survives this totality read, but it needs the second clause made explicit: the gaslighting was her act, and the inability to leave it was his. The wrong is established; the catastrophe is co-authored.
+
+> **RE-CHECKED [2026-08-02] — a data point moved from her column to his.**
+> [[wiki/people/annie-ulmer]] was corrected today: the twenty-four-hour
+> bond-switch at the November 2015 introduction was **Dan's**, not Annie's. The
+> page had stated in two places that she left her existing relationship within a
+> day of meeting him; she did not — he left Alexis within a day of meeting her.
+> Nothing in this verdict's evidence base is built on the old reading, so no
+> finding here is withdrawn. But the ledger changes: an instance of abrupt,
+> unilateral bond-switching that read as a character fact about her at the
+> relationship's origin belongs on **the diagnosis-to-behaviour side**, with his
+> contributions. The verdict's second clause — that the response architecture is
+> his own — now has a data point at the relationship's first day rather than only
+> in its terminal phase.
 
 ## What still needs primary verification
 
@@ -16586,7 +16625,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-01
+date_modified: 2026-08-02
 sources:
   - "raw/self/dox-md/MAX_PRIME.md"
   - "raw/self/dox-md/operating_manual.md"
@@ -16839,6 +16878,12 @@ why the end became possible.
 > unchanged. If anything the reliability finding is strengthened: a node that
 > resumes at full bandwidth after 2,044 days of silence is *more* of an outlier
 > against the friendship-embedded nodes, not less.
+
+> **RE-CHECKED [2026-08-02] — premise moved, nothing here touched.**
+> [[wiki/people/annie-ulmer]] was corrected today to move the twenty-four-hour
+> bond-switch at the 2015 introduction from her column to Dan's. What this page
+> draws from that page — Annie's dual role as logistics facilitator and dependent consumer — is unaffected by who left whom in
+> November 2015.
 
 ## Gaps
 
@@ -17444,6 +17489,17 @@ Everything else can be allowed to burn, because he did not pick it.
 > the aliases hand over at renames, the offboard processor is swapped between
 > models, and only the bond has a documented handoff measured in days. The
 > uniqueness was never in being chosen-and-permanent. It is in the turnover rate.
+
+> **RE-CHECKED [2026-08-02] — the premise moved in this page's favour.**
+> [[wiki/people/annie-ulmer]] carried, in two places, the claim that *Annie* left
+> her existing relationship within twenty-four hours of the November 2015
+> introduction. Corrected today: it was **Dan** who left Alexis within
+> twenty-four hours of meeting Annie. This page's central claim — that the slot
+> is never voluntarily left empty and the replacement is sourced before the
+> vacancy occurs — was previously argued from the December 10 message volume and
+> the week-long handoff. It now has the sharpest possible instance, and the
+> instance is **his own act** rather than his partner's. Nothing needed revising;
+> the argument gained its best evidence.
 
 ## Falsifiers
 
@@ -18884,7 +18940,7 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 date_range_start: 2015-11-01
 date_range_end: 2026-07-26
 infobox:
@@ -19105,8 +19161,10 @@ work.
 
 **For context injection:** Annie (Anne Louise Ulmer), Dan's partner
 2015–2026, the first relationship to fully activate his attachment
-system. Met through [[wiki/people/alexis-armel|Alexis]]; left her prior
-partner within 24 hours of meeting Dan. Former MyFreeCams model; the
+system. Met through [[wiki/people/alexis-armel|Alexis]]; **Dan** left his
+six-year relationship with Alexis within 24 hours of meeting Annie
+(corrected 2026-08-02 — the wiki previously attributed the 24-hour
+switch to Annie). Former MyFreeCams model; the
 couple later cammed together as "smashonista" and ran a Dan-architected
 quasi-non-monogamous arrangement (2018–2024, Dan present/arranging).
 Cohabited ~8 years, largely Dan-funded early on; financial burden
@@ -19165,14 +19223,42 @@ own account confirms it.
 ## The first weeks, and how fast they moved
 
 Annie and Dan met through [[wiki/people/alexis-armel|Alexis]] in November
-2015. Annie left her existing relationship within twenty-four hours of
-that introduction. Within days Dan was already afraid of losing her — "I'm
+2015. **Dan** left his six-year relationship with Alexis within
+twenty-four hours of that introduction. Within days he was already afraid
+of losing Annie — "I'm
 really really scared that you won't want this anymore," December 2, 2015,
 written before there was anything to betray — and that fear, present from
 literally the third day of the documented record, became the organizing
 force of the next decade. This was new territory for him: nothing in the
 [[wiki/people/danielle-onesi]] or earlier [[wiki/people/alexis-armel]]
 history shows a comparably total activation.
+
+> **REVISED [2026-08-02] — the twenty-four-hour switch is Dan's, not
+> Annie's.** This page previously stated, in two places, that *Annie* left her
+> existing relationship within twenty-four hours of the introduction. Per the
+> operator, that is backwards: **Dan** left Alexis inside twenty-four hours of
+> meeting Annie. The corpus corroborates the corrected version and never
+> corroborated the old one — the Alexis cheating revelation is dated
+> **2015-11-28**, Dan meets Annie **2015-11-29**, and his own outbound text the
+> same night reads *"Things are collapsing with lex. You might be seeing a lot
+> more Annie very soon."* The formal breakup ("I'm in love with Annie Ulmer")
+> follows within days. [[wiki/mind/synthesis/bond-switch-2015]] records that the
+> bootloader's **v1 claim was the correct one** — "Dan left Alexis within 24
+> hours of the Annie connection forming" — and that it was withdrawn only
+> because an earlier, wrong dating of the Alexis breakup to summer 2013 appeared
+> to open a 2.5-year gap. When the breakup was recomputed to November 2015 the
+> contemporaneity was reinstated, but the subject of the sentence had already
+> been flipped, and the flipped version propagated.
+>
+> **This is not a cosmetic fix.** The sharpest single instance of abrupt
+> bond-switching in the corpus was sitting in the wrong column. It was being read
+> as evidence about Annie's volatility at the moment of introduction — a
+> character fact about the other party — when it is in fact the cleanest
+> available evidence for [[wiki/mind/synthesis/the-unbroken-bond]]'s central
+> claim, which is about **Dan**: that the attachment slot is never left
+> voluntarily empty, and that the replacement is sourced before the vacancy
+> occurs. Under [[wiki/mind/synthesis/dan-annie-fallout-verdict]]'s ledger it
+> belongs on the diagnosis-to-behaviour side, with his contributions, not hers.
 
 The corpus's own volume confirms the intensity independent of anyone's
 memory of it. Dan sent 728 messages on December 10, 2015 alone, then 682,

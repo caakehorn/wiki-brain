@@ -166,6 +166,14 @@ Git is the history mechanism. Commit after every ingest with message
   reports stale premises), `audit` (tier distribution, domains with no
   junction above them, load-bearing pages), `candidates` (writes
   `synthesis-queue.md`). See SYNTHESIS_SPEC.md.
+- `bin/wiki-digest` — human-facing reading aids, generated-but-COMMITTED at the
+  repo root: `DIGEST.md` (state of the wiki — counts, domains, the last few
+  days, every page with `synthesizes:`), `RECENT.md` (what changed, newest
+  first, with each page's own most recent REVISED/RE-CHECKED/CORRECTED block
+  as the reason) and `OPEN.md` (every live contradiction, open gap and
+  standing prediction in one place). Derived entirely from frontmatter and
+  from blocks pages already carry, so it is safe to rerun any time. Run it
+  alongside `bin/llm-publish` after a content pass.
 - `bin/export-corpus` — concatenates the wiki (optionally raw/ and inbox/)
   into a single markdown file for LLM ingestion, with a token estimate.
 - `bin/llm-publish` — builds `llm/`, the public LLM access point served by

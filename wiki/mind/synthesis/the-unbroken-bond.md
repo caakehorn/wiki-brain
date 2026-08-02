@@ -183,6 +183,17 @@ Everything else can be allowed to burn, because he did not pick it.
 > models, and only the bond has a documented handoff measured in days. The
 > uniqueness was never in being chosen-and-permanent. It is in the turnover rate.
 
+> **RE-CHECKED [2026-08-02] — the premise moved in this page's favour.**
+> [[wiki/people/annie-ulmer]] carried, in two places, the claim that *Annie* left
+> her existing relationship within twenty-four hours of the November 2015
+> introduction. Corrected today: it was **Dan** who left Alexis within
+> twenty-four hours of meeting Annie. This page's central claim — that the slot
+> is never voluntarily left empty and the replacement is sourced before the
+> vacancy occurs — was previously argued from the December 10 message volume and
+> the week-long handoff. It now has the sharpest possible instance, and the
+> instance is **his own act** rather than his partner's. Nothing needed revising;
+> the argument gained its best evidence.
+
 ## Falsifiers
 
 1. A documented unattached period of more than roughly six months between 2007

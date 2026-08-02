@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-26
+date_modified: 2026-08-02
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
@@ -177,6 +177,19 @@ The dossiers' own proportionality finding is the line to hold: these are "real, 
 > "I was deceived," which is why the exit could not be taken without one.
 
 The synthesis the wiki already carries — "the gaslighting outweighed the affair" — survives this totality read, but it needs the second clause made explicit: the gaslighting was her act, and the inability to leave it was his. The wrong is established; the catastrophe is co-authored.
+
+> **RE-CHECKED [2026-08-02] — a data point moved from her column to his.**
+> [[wiki/people/annie-ulmer]] was corrected today: the twenty-four-hour
+> bond-switch at the November 2015 introduction was **Dan's**, not Annie's. The
+> page had stated in two places that she left her existing relationship within a
+> day of meeting him; she did not — he left Alexis within a day of meeting her.
+> Nothing in this verdict's evidence base is built on the old reading, so no
+> finding here is withdrawn. But the ledger changes: an instance of abrupt,
+> unilateral bond-switching that read as a character fact about her at the
+> relationship's origin belongs on **the diagnosis-to-behaviour side**, with his
+> contributions. The verdict's second clause — that the response architecture is
+> his own — now has a data point at the relationship's first day rather than only
+> in its terminal phase.
 
 ## What still needs primary verification
 
