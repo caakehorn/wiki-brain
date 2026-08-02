@@ -18,6 +18,9 @@ synthesizes:
   - wiki/interests/music/overview
 tags: [personality-profile, forensic-analysis]
 connections:
+  - page: wiki/timeline/events/franki-fireworks-day-2013
+    type: evidenced-by
+    claim: "The macro-scale appetite finally has an attested instance: days without sleep watching the April 2013 Boston manhunt unfold, during months Dan otherwise describes as apathetic depression — the entropy interest was the one thing still running."
   - page: wiki/mind/synthesis/the-deferred-audit
     type: component-of
     claim: "The carve-out this page identifies is not an exception to the entropy appetite but the second clause of a scheduling rule: the chosen are not exempt from scrutiny, they are queued behind it, which is why the chosen structures look defended rather than examined."

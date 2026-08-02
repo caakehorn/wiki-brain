@@ -18,6 +18,9 @@ related:
   - wiki/places/337-saratoga-drive
 tags: [financial-stress, housing, relationships, uniontown-era, legal]
 connections:
+  - page: wiki/timeline/events/franki-fireworks-day-2013
+    type: evidenced-by
+    claim: "Alexis was housed here for five days in July 2013 — eighteen months before the January 2015 lease this page dates itself from — so the address was already under Suz's control and already performing the displaced-partner function that the lair-continuity finding describes."
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: evidences
     claim: "Lair-continuity — the apartment leased for Alexis becoming the apartment Annie moves into — is the spatial signature of retaining the container while swapping the occupant."

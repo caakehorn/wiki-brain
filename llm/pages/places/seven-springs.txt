@@ -11,6 +11,9 @@ sources:
   - "raw/self/dox-md/_Freeskiing's Early 2000s Cultural Revolution .md"
 tags: [uniontown-era]
 connections:
+  - page: wiki/timeline/events/bald-eagle-cummings
+    type: contains
+    claim: "The resort's own access asymmetry produced the corpus's earliest sexual event: family ownership of unit K2 meant Dan skipped the supervised ski-club bus entirely, which is why four unsupervised twelve-year-olds were on Boomerang after the school group had gone home — and the same capture names the crew this page had listed as an open gap."
   - page: wiki/self/context-core
     type: component-of
     claim: "Seven Springs is the childhood social anchor named in the canonical origin timeline — a weekly ritual that predates and outlasts the family's later collapse."

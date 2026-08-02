@@ -10,6 +10,7 @@ related: []
 
 # people — index
 
+- [[wiki/people/joe-croftcheck]] — "the family plug": the supply network's earliest documented node (2013), five years before Johnny, and the only one described as inherited rather than sought.
 - [[wiki/people/aaron]] — iMessage contact whose thread carries Dan's real-time reaction to the Sept 11, 2025 Charlie Kirk assassination.
 - [[wiki/people/al]] — 2018 cocaine dealer ("Socialist" contact label); thread ends in an unpaid-debt confrontation.
 - [[wiki/people/alex-frank]] — Dan's semi-famous cousin; Brooklyn-based music/culture journalist (FADER, Vogue, GQ, Pitchfork); wrote the essay about Morley Frank's funeral.

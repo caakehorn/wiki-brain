@@ -7,10 +7,11 @@ status: stable
 importance: critical
 relation_type: family
 date_created: 2026-06-23
-date_modified: 2026-07-18
+date_modified: 2026-08-02
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, uniontown-era, music-production, grief]
 sources:
+  - raw/people/captures/2026-08-01_180942_fran-name-change.md
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dansynth/DANSYNTH.txt
@@ -47,6 +48,12 @@ infobox:
   location: uniontown
   known_for: "Fran Whyel Coldren was Dan's maternal great-grandmother, his self-described"
 connections:
+  - page: wiki/mind/synthesis/alias-as-periodization
+    type: parallels
+    claim: "She performed the alias operation first: the given name Jesse discarded at about eighteen for a chosen one kept for life, seventy years before Dan's four production names ran the same rejection of the received label."
+  - page: wiki/mind/synthesis/ancestral-dialectic
+    type: contradicts
+    claim: "The 'married three times under a shifting name structure' archetype the dialectic attributes to Fran's great-grandmother describes Fran herself exactly — three marriages, a name that shifted twice — so either the pattern doubles or the report misattributed her biography."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "Fran is the money spine's maternal source node: the Ira-estate capital she held (Judge Fred Adams as trustee) became the 2020 distribution — the biography's largest documented single capital arrival."
@@ -236,17 +243,65 @@ without one being raised.
 | 2020-09-01 | Final estate check ($134,069.31) released to Dan via Suz |
 
 **On Ira:** confirmed by Dan (2026-07-14) — Ira was Fran's **third**
-husband, and he was the 33rd-degree Mason. That leaves the coal-baron
-marriage as a separate, presumably earlier husband (first or second),
-not yet identified or placed in sequence. The Judge Fred Adams question
+husband, and he was the 33rd-degree Mason.
+
+> **GAP CLOSED [2026-08-02] — the coal baron was Thomas Whyel, and he was the
+> second husband.** An operator capture supplies the marital sequence and the
+> name the wiki had been missing: **Thomas Whyel**, the coal and coke baron, was
+> Fran's **second** husband and died in the 1970s. Ira B. Coldren Jr. — lawyer,
+> West Point graduate, 33rd-degree Mason — was the third, married **several
+> months** after Thomas's death. This settles the standing gap here and the one
+> [[wiki/mind/synthesis/estate-money-spine]] names as the maternal line's
+> unresolved origin: the capital that eventually reaches Dan as the 2020
+> distribution enters the family through the Whyel coal-and-coke fortune and is
+> then administered through the Coldren legal one.
+
+## The name she chose, and the name she carried
+
+The same capture records something more unusual than the marital sequence, and
+it reaches further:
+
+| Stage | Name | When |
+| :--- | :--- | :--- |
+| At birth | **Jesse Frances** | 1920 |
+| At ~18 | Drops Jesse; becomes **Frances** | ~1938 |
+| After the third marriage | **Frances T. Coldren**, the **T for Thomas** | 1970s |
+
+Two acts, thirty years apart, and neither is ordinary. At around eighteen she
+**discarded her given first name and selected the one she used for the rest of
+her life** — an identity she chose rather than received. Then, on marrying Ira
+within months of Thomas Whyel's death, she took a middle initial standing for
+her dead husband's first name and carried it into the new marriage. The name
+she died under is therefore a composite of one chosen name and one memorial:
+**Frances**, selected at eighteen, and **T**, for a man she had already buried.
+
+That is worth stating plainly because of who is reading it. Dan names Fran as
+his single biggest life influence, and the operation she performed at eighteen —
+rejecting the inherited name, adopting the selected one — is precisely the
+operation his own four production aliases perform across thirteen years
+([[wiki/mind/synthesis/alias-as-periodization]]). Nothing in the record claims
+he knew about it. The parallel is recorded, not causally asserted.
+
+> **CONTRADICTION [2026-08-02]:** [[wiki/mind/synthesis/ancestral-dialectic]]
+> offers *Fran's own great-grandmother* — "married three times under a shifting
+> name structure" — as the archetype of "emotional dissociation via
+> reinvention." That description now fits **Fran herself** exactly: three
+> marriages, and a name that shifted twice. Either the pattern runs in both
+> generations, or the Gemini report attributed to the great-grandmother a
+> biography that belongs to Fran. The report is testimony and this capture is
+> first-person operator memory; neither is residue, and the question is not
+> settled here. The Judge Fred Adams question
 is now settled: per Dan's primary narration (Photo Thread PT II, 2026),
 Adams was "ira's old law partner — now a judge" and "basically the
 trustee of her accounts" — he issued the 24-hour-presence mandate during
 the final vigil and managed the Ira-estate accounts, making him the
 named institutional node of the family's capital.
 
-**Gaps:** identity of the coal-baron husband and where he falls in the
-marital sequence; the exact NS7 gift date; identity of the "grandmother"
+**Gaps:** the capture states she was *"born Jesse Frances Coldren"* — but
+Coldren is the surname of her *third* husband, so the birth surname as given
+cannot be right and her maiden name remains unknown; the first husband is still
+unidentified; Thomas Whyel's exact death date within the 1970s is unfixed; the
+exact NS7 gift date; identity of the "grandmother"
 Dan asked about as a potential objector to the 2020 estate distribution;
 the date of the Everglades tarpon and whether the "perfect bowling"
 reference in the Photo Thread denotes a game beyond the documented

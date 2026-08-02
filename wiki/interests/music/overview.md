@@ -23,6 +23,9 @@ connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: component-of
     claim: "The alias lineage documented here is the professional-identity facet of the four-mode music-as-identity thesis."
+  - page: wiki/timeline/events/franki-fireworks-day-2013
+    type: caused-by
+    claim: "The production identity has a dated origin and a cause: a DJ controller acquired at ishlab and never touched, picked up in the depressive interval after the failed first New York attempt, and a daily occupation by the summer of 2013."
   - page: wiki/mind/concepts/chaos-preference
     type: evidences
     claim: "The production output is where the entropy appetite is documented independently of any psychological reading — noise, decay and system failure as aesthetic material, instruments deliberately broken to expose their 'true' sound — which is what stops the chaos preference being an inference from personality alone."

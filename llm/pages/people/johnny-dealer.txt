@@ -19,6 +19,9 @@ connections:
   - page: wiki/timeline/events/timeline
     type: evidences
     claim: "Johnny is the named node behind 2018's 254-event peak, the highest in the event calendar: the year the timeline records as maximum velocity is the year this thread is carrying the supply."
+  - page: wiki/people/joe-croftcheck
+    type: follows
+    claim: "Johnny succeeds a household-level connection rather than founding the chain: the corpus's earliest dated purchase from a named supplier is Croftcheck in 2013, five years before this thread opens."
   - page: wiki/people/teddy
     type: parallels
     claim: "Johnny and Teddy are concurrent 2018 Uniontown nodes in the same market — Johnny the higher-volume primary, Teddy the accommodating secondary — together constituting the deep cycle's redundancy layer."

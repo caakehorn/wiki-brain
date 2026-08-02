@@ -34,6 +34,9 @@ connections:
     type: evidenced-by
     claim: "Morley's postwar Seattle move and collapse back to Uniontown is the geographic template the report says Dan's Full Sail/NYC/return arc repeats twice."
   - page: wiki/people/fran-coldren
+    type: contradicts
+    claim: "The reinvention archetype this page assigns to Fran's great-grandmother fits Fran herself exactly — three marriages and two name changes, one chosen at eighteen and one memorialising a dead husband — which raises the possibility the report attributed to an ancestor a biography belonging to its own anchor figure."
+  - page: wiki/people/fran-coldren
     type: evidenced-by
     claim: "Fran anchors the maternal numbness-of-survival reading; her thrice-married great-grandmother is offered as the dissociation-via-reinvention archetype."
   - page: wiki/self/overview
