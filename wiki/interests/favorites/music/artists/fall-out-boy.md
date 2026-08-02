@@ -46,6 +46,8 @@ connections:
 
 ---
 
+---
+
 
 # Fall Out Boy
 
@@ -185,9 +187,6 @@ extrapolation, not a claim made anywhere by Dan himself, but the overlap
 in both timing and content (grand, doomed, self-narrated intensity) is
 hard to read as coincidental.
 
-## Related
-
-[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/interests/the-office]] · [[wiki/timeline/events/teen-concert-years]] · [[wiki/mind/psychosexual/developmental-origins]]
 ## Concert record — supplementary appearances (from the 2001-2019 log)
 
 The following live appearances are drawn from the consolidated concert table and were not part of the original page narrative. Dates, venues, and notes are preserved verbatim from the source.

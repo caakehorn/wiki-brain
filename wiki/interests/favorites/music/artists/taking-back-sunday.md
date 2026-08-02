@@ -33,6 +33,8 @@ connections:
 
 ---
 
+---
+
 # Taking Back Sunday
 
 Long Island band whose 2002 debut, *Tell All Your Friends*, is one of the
@@ -85,9 +87,6 @@ than "sad breakup music," and the track selection (betrayal songs, not
 the poppier back half of the record) suggests the precision was
 intentional rather than incidental.
 
-## Related
-
-[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/mind/concepts/attachment-model]]
 ## Concert record — supplementary appearances (from the 2001-2019 log)
 
 The following live appearances are drawn from the consolidated concert table and were not part of the original page narrative. Dates, venues, and notes are preserved verbatim from the source.
