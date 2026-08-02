@@ -15,6 +15,7 @@ templated here.
 | Date | Change |
 |---|---|
 | 2026-08-01 | STRATEGY.md's core loop, coverage rule and live-node doctrine propagated in |
+| 2026-08-02 | §1 repointed to the leviathan mirror after wiki-brain went private and its Pages feed 404'd |
 | 2026-08-02 | Sections 2.5, 5.2b and 6 rewritten after the brief-#4 ingest: captures are testimony to be checked, not facts to be recorded; verification is a required step, not a courtesy; a reasoned non-climb is a finished climb |
 
 ---
@@ -72,18 +73,32 @@ Two consequences bind you directly:
 
 ## 1. Orient — read the existing wiki first (it is publicly readable)
 
-You do **not** need repo access to read the current wiki. It is published as
-plain text:
+You do **not** need repo access to read the current wiki, but note where it now
+lives. `caakehorn/wiki-brain` went **private on 2026-08-02**, which took its
+GitHub Pages feed down with it — every `caakehorn.github.io/wiki-brain/...` URL
+(`llms.txt`, `agent/manifest.json`, `agent/corpus.md`, `llm/index.txt`) now
+404s. The public mirror is served from the leviathan site instead:
 
 | What | URL |
 |---|---|
-| Discovery | `https://caakehorn.github.io/wiki-brain/llms.txt` |
-| Machine index (every page + metadata) | `https://caakehorn.github.io/wiki-brain/agent/manifest.json` |
-| Critical spine (start here if context is tight) | `https://caakehorn.github.io/wiki-brain/agent/critical.md` |
-| One domain at a time | `https://caakehorn.github.io/wiki-brain/agent/domains/<domain>.md` |
-| Whole corpus | `https://caakehorn.github.io/wiki-brain/agent/corpus.md` |
-| A single page | `https://caakehorn.github.io/wiki-brain/wiki/<path>.md` |
-| Plain-text mirror | `https://caakehorn.github.io/wiki-brain/llm/index.txt` |
+| **Everything, one file** (~2.6 MB) | `https://caakehorn.github.io/leviathan/data/wiki-data.json` |
+| Human-readable wiki browser | `https://caakehorn.github.io/leviathan/wiki.html` |
+
+That single JSON is the whole corpus. Read it **selectively**, not whole:
+
+- `wikiPages.pages[]` — one object per page (`id`, `title`, `domain`,
+  `page_type`, `status`, `summary`, `tags`, `links`, `connections`, `sources`,
+  `aliases`). This is the light index; read it in full. It is what tells you
+  which pages a capture touches and what typed edges already exist.
+- `wikiText[<page id>]` — the complete body prose of one page, same key. Pull
+  **only** the handful your captures touch; all 425 bodies will exhaust your
+  context before you write anything.
+- `wikiLog.ops[]` — operation history, if you need to see what changed when.
+
+**The mirror lags.** It is rebuilt by a scheduled job on wiki-brain commits, so
+it can trail `main` by up to an hour; `source_commit` in the JSON names the
+exact commit it was built from. If a page you are revising was touched very
+recently, assume you may be reading a slightly stale copy of it and say so.
 
 Domains: `self` · `timeline` · `people` · `mind` · `work` · `interests` ·
 `health` · `places` · `legal`

@@ -8,6 +8,7 @@ importance: high
 date_created: 2026-07-13
 date_modified: 2026-08-02
 sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -19,6 +20,9 @@ related:
   - wiki/self/context-core
 tags: [personality-profile]
 connections:
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: evidenced-by
+    claim: "Intellect at the 95th percentile finally has an unprompted behavioural correlate rather than an instrument score: Dan quantifies his own uncertainty in text messages, in every year of the corpus, where nobody texting him ever does."
   - page: wiki/mind/concepts/acquisition-drive
     type: contradicts
     claim: "The facet table has no persistence dimension and reads the corpus's execution failures as Impulsiveness at 96; the operator claims a 95th-percentile completion drive is running in the same behaviour, which would mean this instrument is scoring an engine as a brake failure."

@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-18
+date_modified: 2026-08-02
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_7249204125_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 synthesizes:
   - wiki/self/message-corpora/master-message-dump
@@ -42,6 +42,20 @@ infobox:
 ---
 
 # Johnny (+17243223678)
+
+> **RE-CHECKED [2026-08-02] — conclusion survives, and the premise now
+> strengthens it.** [[wiki/self/message-corpora/master-message-dump]] moved when
+> the message-density campaign added two findings to it: that graded numeric
+> confidence is a measurable behavioural signature in the corpus, and — the
+> relevant one here — that the corpus is trustworthy for **behaviour** while
+> being silent on the **psychological** layer, which is why the four core axioms
+> could not be corroborated from it. Everything this page draws from the dump is
+> behavioural and countable: the 3,462-message volume, the seventh-largest-thread
+> ranking, the dated transactions, the supply-panic episodes. That is squarely
+> inside the jurisdiction the premise now defines rather than outside it, so no
+> claim here needs revision. Worth noting the one caveat the campaign added: the
+> canonical dump covers 2015–2025 with **2022 and 2026 missing**, which does not
+> touch this page's 2018–20 window.
 
 ## Corpus Dimensions (Johnny)
 | Metric | Value |

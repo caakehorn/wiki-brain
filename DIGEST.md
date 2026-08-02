@@ -12,8 +12,8 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 431 |
-| Pages touched in the last 14 days | 285 |
+| Pages | 432 |
+| Pages touched in the last 14 days | 289 |
 | Pages reasoning from other pages (`synthesizes:`) | 20 |
 | Live contradictions | 30 |
 | Open gaps | 124 |
@@ -25,7 +25,7 @@ this is the state of the thing.
 |---|---|
 | people | 147 |
 | interests | 142 |
-| mind | 54 |
+| mind | 55 |
 | self | 31 |
 | timeline | 29 |
 | work | 14 |
@@ -38,14 +38,14 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 181 |
-| active | 118 |
+| active | 119 |
 | closed | 90 |
 | archived | 31 |
 | stub | 11 |
 
 ## The last few days
 
-**2026-08-02** — 57 pages
+**2026-08-02** — 64 pages
   - write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
   - climb | interests | food-and-diet — "food in every register except taste"; bounds the cool metric's jurisdiction
   - ingest | people | sadie-harris, david-j-frank, morley-frank rewritten from the GEDCOM; fayette-return revised (Sadie burial vs death, G1's NYC years, the Hopwood terminus)
@@ -55,6 +55,9 @@ this is the state of the thing.
   - fix | people | annie-ulmer — the 24-hour bond-switch was Dan's, not Annie's; corrected in two places and propagated to bond-switch-2015, the-unbroken-bond, dan-annie-fallout-verdict, block-unblock-loop, supply-network
   - tooling | meta | bin/wiki-digest — generates DIGEST.md, RECENT.md, OPEN.md as human reading aids (state of the wiki, what changed and why, every unresolved contradiction/gap/prediction)
   - ingest | multi | factstory batch of 4 manual captures — Jay Lauer's death, the Fall of Fran, the vape alarm, the acquisition drive
+  - fix | meta | wiki-brain went private — sync restored, dead Pages URLs repointed at the leviathan mirror
+  - fix | interests | stray empty frontmatter fences on fall-out-boy and taking-back-sunday
+  - mine | mind | message-density campaign opened — bin/mine-messages, calibrated-confidence, and a negative on the four axioms
 
 **2026-08-01** — 102 pages
   - climb | mind | alias-as-periodization.md — new T2 junction page
@@ -68,7 +71,7 @@ this is the state of the thing.
   - climb | mind | dormancy-not-exit (7 synthesized, 0 rejected)
   - docs | meta | propagate the refined STRATEGY.md into every governance file
 
-**2026-07-26** — 14 pages
+**2026-07-26** — 13 pages
   - climb | all | SYNTHESIS_SPEC + bin/wiki-climb — the wiki becomes an input to itself
   - ingest | people+timeline | the July 2026 re-contact — annie-ulmer reopened
 

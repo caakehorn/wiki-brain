@@ -44,11 +44,6 @@ connections:
     claim: "We The Kings and Fall Out Boy appeared together at House of Blues, Orlando, FL on Dec 12, 2008."
 ---
 
----
-
----
-
-
 # Fall Out Boy
 
 Chicago pop-punk band, formed 2001, the commercial flagship of the

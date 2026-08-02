@@ -3,11 +3,17 @@ domain: self
 page_type: report
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-06-23
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv", "raw/self/message-csv/imessage_2124702449_both_all_now.csv", "raw/self/message-csv/imessage_3307038747.csv", "raw/self/message-csv/* (37 total CSVs)", "raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/dox-md/Gemini-_18.md"]
+date_modified: 2026-08-02
+sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv", "raw/self/message-csv/imessage_2124702449_both_all_now.csv", "raw/self/message-csv/imessage_3307038747.csv", "raw/self/message-csv/* (37 total CSVs)", "raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/dox-md/Gemini-_18.md"]
 related: ["wiki/self/context-core", "wiki/self/twitter", "wiki/self/youtube-watch-history", "wiki/self/favorites", "wiki/mind/concepts/forensic-method", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/facebook/messages", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/people/annie-ulmer"]
 tags: [digital-footprint, nyc-era, relationships, financial-stress, trauma-bond]
 connections:
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: instance-of
+    claim: "The campaign's first finding, and the demonstration of what this corpus is actually for: behavioural signatures Dan never knew were being counted, not the self-report he was never going to type into a text message."
+  - page: wiki/self/context-core
+    type: contextualizes
+    claim: "The corpus cannot corroborate the four core axioms — SMS is a near-zero-introspection medium for everyone in it, with 'the thing about me' appearing zero times in 217,573 messages in either direction — so the spine's claim that all behavioural data defers to this corpus has a jurisdiction, and the psychological layer sits outside it."
   - page: wiki/people/johnny-dealer
     type: evidenced-by
     claim: "The rank-7 handle in this dump, at 3,462 messages, resolves to a 2018-era dealer — which is the clearest demonstration that raw volume in this corpus measures logistical load rather than closeness."

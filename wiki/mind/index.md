@@ -45,6 +45,7 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/concepts/the-cool-metric]] — the single performed-vs-authentic axis applied to music, language, politics, film, work and strangers alike.
 - [[wiki/mind/concepts/chaos-preference]] — the appetite for entropy and system failure, and the finding that it is strictly outward-facing.
 - [[wiki/mind/concepts/acquisition-drive]] — the 95th-percentile completion drive that cannot be aimed: once a want becomes a decided outcome it runs to completion regardless of cost, and only self-originated goals can recruit it.
+- [[wiki/mind/concepts/calibrated-confidence]] — graded numeric probability attached to his own beliefs in casual SMS, at 22x the rate of the 503 people texting him; the first Ti-dominance evidence from behaviour rather than an instrument.
 ## psychosexual — the sexuality cluster
 
 - [[wiki/mind/psychosexual/index]] — hub: theory-vs-practice provenance split, quick brief, cluster map.

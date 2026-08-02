@@ -86,8 +86,13 @@ ready to paste or upload into any LLM.
 
 The compiled wiki is published for agents on every push to `main`:
 
-- **Discovery:** https://caakehorn.github.io/wiki-brain/llms.txt
-- **Manifest:** https://caakehorn.github.io/wiki-brain/agent/manifest.json
+- **Discovery:** ~~https://caakehorn.github.io/wiki-brain/llms.txt~~ — **404 since
+  2026-08-02**; this repo is private, so its Pages site is unpublished.
+- **Manifest:** ~~https://caakehorn.github.io/wiki-brain/agent/manifest.json~~ — same.
+- **Read the wiki here instead:** https://caakehorn.github.io/leviathan/data/wiki-data.json
+  (the public mirror in `caakehorn/leviathan`, resynced hourly — full page text
+  under `wikiText`, metadata and typed edges under `wikiPages.pages`).
+  See `AGENT_ACCESS.md` for the details and the caveats.
 - **Critical spine / full corpus / per-domain bundles / individual pages**
 
 See [AGENT_ACCESS.md](AGENT_ACCESS.md) for the full URL table, a pasteable

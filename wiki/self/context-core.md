@@ -6,8 +6,9 @@ aliases: ["spine", "behavioral spine", "CONTEXT_CORE_EXPANDED"]
 status: stable
 importance: critical
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-08-02
 sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
   - raw/self/dox-md/operating_manual.md
@@ -18,6 +19,9 @@ sources:
   - raw/self/dox-md/Gemini-_18.md
 tags: [personality-profile, family, relationships, ai-collaboration]
 connections:
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: evidenced-by
+    claim: "The Ti-dominant 'reality parsed as a high-fidelity system' claim, carried here on typological authority, has a measured behavioural signature underneath it for the first time — 22x the corpus baseline, present in every year, spread across 12 handles."
   - page: wiki/mind/synthesis/instrument-is-subject
     type: evidences
     claim: "The most authoritative source page in the wiki is itself a curated, AI-assisted compilation rather than a primary record, which is why the residue/testimony distinction has to be applied here too: its dated events and counts are admissible on different terms from its interpretive framings."
@@ -71,6 +75,54 @@ changelog:
 **Cognitive stack** [DOC]: Ti-dominant (reality parsed as high-fidelity system, frameworks from first principles), Ne-auxiliary (cross-domain pattern recognition), Si-tertiary (high-fidelity archival recall), Fe-inferior (craves connection, distrusts emotional read). Methodology is domain-invariant "find where it breaks": hinge-instants over resolved states, anomaly detection as default. Metacognitive accuracy ~82nd percentile — the failure mode is never ignorance but the diagnosis-to-behavior gap. Self-deprecation sets the floor low so being right reads as surprise; the same mechanism that makes him updateable makes him chronically undersell competence. Threat model: "competence correctly deployed, outcome still catastrophic."
 
 **Core axioms (unconscious, load-bearing)** [DOC]: not exceptional = worthless · not vigilant = annihilated · love that doesn't cost everything isn't real · time = countdown.
+
+> **CORROBORATION ATTEMPTED [2026-08-02] — three of the four axioms are not
+> visible in the message corpus, and *time = countdown* is the clearest
+> negative.** The first systematic pass of the message-density campaign
+> (`MESSAGE_MINING.md`) tested the axioms lexically against all 106,629 of Dan's
+> outbound messages, 2015–2025, with the 110,944 inbound messages from 503 other
+> handles as a within-medium control. Results, per thousand messages:
+>
+> | Prediction if *time = countdown* holds | Dan | Others | |
+> |---|---|---|---|
+> | "running out of time / no time left" | 0.01 | 0.03 | **0.35×** |
+> | "deadline / last chance / now or never" | 0.09 | 0.23 | **0.42×** |
+> | "before I die / turn / lose / run out" | 0.00 | 0.04 | **0.00×** |
+> | "too late" | 0.47 | 0.25 | 1.86× |
+>
+> On every explicit urgency construction except one, Dan writes **less** of it
+> than the people texting him. "Rest of my life" looked promising at 3.5× until
+> the twenty hits were read: all of them are 2015–16 declarations to
+> [[wiki/people/annie-ulmer|Annie]] — *"I want to spend the rest of my life with
+> you"* — which is love-bombing, not mortality. Direct age self-reference
+> survives contamination at **n=8** across eleven years, half of it escort-ad
+> boilerplate.
+>
+> **This does not falsify the axiom, and the distinction matters.** An
+> unconscious load-bearing axiom is not a thing anyone would expect to find
+> people *typing*, and the control shows SMS is a near-zero-introspection medium
+> for everybody in it — "the thing about me" occurs zero times in 217,573
+> messages from either direction. What the result establishes is narrower and
+> more useful: **the message corpus cannot corroborate the axioms, so the
+> corpus's standing as final arbiter has a jurisdiction.** The LLM Quick Brief
+> above says all behavioural data defers to the message corpus. For behaviour
+> that is true. For the psychological layer the corpus is silent, and every
+> axiom on this line rests on the AI-session dossiers alone
+> ([[wiki/mind/synthesis/ai-collaborative-analysis]]) — which is a thinner
+> evidentiary base than the wiki's confidence in them has so far implied.
+>
+> One axiom did draw independent support, from behaviour rather than vocabulary:
+> see [[wiki/mind/concepts/calibrated-confidence]] for a Ti-dominance signature
+> measured at 22× the corpus baseline.
+
+> **METHOD NOTE — a false positive caught in the same pass, recorded because the
+> next reader will hit it too.** The first run of this test scored "age
+> self-reference" at 3.82× baseline and very nearly became a finding about the
+> countdown being experienced as *position rather than urgency*. Reading the
+> matches showed the pattern was catching **"I'm 99% sure"** — percentages, not
+> ages. The apparent countdown signal was Dan's probability habit wearing an age
+> pattern's clothes. Any future lexical pass over this corpus should read its
+> matches before believing its counts.
 
 ## Psychometrics [DOC]
 

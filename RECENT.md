@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-02 — 57 pages
+## 2026-08-02 — 64 pages
 
 - **Session log:** write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
 - **Session log:** climb | interests | food-and-diet — "food in every register except taste"; bounds the cool metric's jurisdiction
@@ -19,6 +19,9 @@ simply listed.
 - **Session log:** fix | people | annie-ulmer — the 24-hour bond-switch was Dan's, not Annie's; corrected in two places and propagated to bond-switch-2015, the-unbroken-bond, dan-annie-fallout-verdict, block-unblock-loop, supply-network
 - **Session log:** tooling | meta | bin/wiki-digest — generates DIGEST.md, RECENT.md, OPEN.md as human reading aids (state of the wiki, what changed and why, every unresolved contradiction/gap/prediction)
 - **Session log:** ingest | multi | factstory batch of 4 manual captures — Jay Lauer's death, the Fall of Fran, the vape alarm, the acquisition drive
+- **Session log:** fix | meta | wiki-brain went private — sync restored, dead Pages URLs repointed at the leviathan mirror
+- **Session log:** fix | interests | stray empty frontmatter fences on fall-out-boy and taking-back-sunday
+- **Session log:** mine | mind | message-density campaign opened — bin/mine-messages, calibrated-confidence, and a negative on the four axioms
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -28,11 +31,15 @@ simply listed.
 | [[wiki/legal/463-morgantown]] | legal | **DEADLINE ELAPSED** — The mechanics-lien date this page has carried as its nearest hard deadline — estimated ~**27 July 2026** — has now passed, and **no source read to date records what happened.** The estimate was always |
 | [[wiki/legal/index]] | legal | — |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | **CONTRADICTION** — big-five-psychometrics measures Impulsiveness at the 96th percentile and reads the corpus's pattern of "brilliant analysis coexisting with self-sabotaging execution" as an impulse-control deficit — th |
+| [[wiki/mind/concepts/calibrated-confidence]] | mind | — |
 | [[wiki/mind/concepts/chaos-preference]] | mind | _(carries a CONTRADICTION)_ |
+| [[wiki/mind/concepts/dans-law]] | mind | — |
 | [[wiki/mind/concepts/erotic-architecture]] | mind | — |
+| [[wiki/mind/concepts/forensic-method]] | mind | — |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | **CONTRADICTION** — the "applied across domains that normally use separate criteria" claim above has a documented exception, and it is a large one. food-and-diet shows the axis is **never** pointed at food, in a corpus w |
 | [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/profile/big-five-psychometrics]] | mind | **CONTRADICTION** — acquisition-drive records the operator's own claim, offered with an explicit disclaimer against hyperbole, that his "resilience for the goal" sits at the 95th percentile or above — a persistence dimen |
+| [[wiki/mind/profile/linguistic-profile]] | mind | — |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | **REVISED** — Until now this table opened its practice record with the November 2018 Alexis reunion and described it as "the earliest well-documented instance." Two operator captures and the message corpus together |
 | [[wiki/mind/synthesis/ancestral-dialectic]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **REVISED** — The dossier figure — 187 of 191 terminal-phase love declarations with a request inside 24 hours — was recomputed under controls on dan-annie-fallout-verdict on 2026-07-18 and did not survive. The rati |
@@ -63,13 +70,16 @@ simply listed.
 | [[wiki/people/jay-lauer]] | people | — |
 | [[wiki/people/joe-croftcheck]] | people | — |
 | [[wiki/people/john-carney]] | people | **RE-CHECKED** — 463-morgantown was updated to record that the Arnu mechanics-lien deadline elapsed on ~27 July 2026 with no documented outcome. The Carney exposure documented on this page is a separate claim on the s |
+| [[wiki/people/johnny-dealer]] | people | **RE-CHECKED** — master-message-dump moved when the message-density campaign added two findings to it: that graded numeric confidence is a measurable behavioural signature in the corpus, and — the relevant one here —  |
 | [[wiki/people/morley-frank]] | people | — |
 | [[wiki/people/rick-frank]] | people | — |
 | [[wiki/people/sadie-harris]] | people | _(carries a CONTRADICTION)_ |
 | [[wiki/people/suzanne-frank]] | people | — |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/places/117-belmont-circle]] | places | — |
+| [[wiki/self/context-core]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/lineage/family-tree]] | self | **CORRECTED** — This page previously drew Fran's descent to Dan through **George Dixon Shrum Jr.**, the maternal grandfather. Read directly from the GEDCOM's family records (`Daniel Frank family tree.txt`), it is the |
+| [[wiki/self/message-corpora/master-message-dump]] | self | — |
 | [[wiki/timeline/events/bald-eagle-cummings]] | timeline | — |
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | **GAP CLOSED** — This page had carried "the punchline of the SMOK-vs-10W vape story (set up in the session, delivered only in an uploaded video — fire alarm? staff incident?)" as an open question since 2026-07-19. Two |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
@@ -198,7 +208,7 @@ simply listed.
 | [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-07-13)_ |
 | [[wiki/places/424-bedford-ave]] | places | — |
 
-## 2026-07-26 — 14 pages
+## 2026-07-26 — 13 pages
 
 - **Session log:** climb | all | SYNTHESIS_SPEC + bin/wiki-climb — the wiki becomes an input to itself
 - **Session log:** ingest | people+timeline | the July 2026 re-contact — annie-ulmer reopened
@@ -208,7 +218,6 @@ simply listed.
 | [[wiki/health/hyperreflexivity]] | health | **REVISED** — the reframe made a testable prediction — that the loop tracks the two unresolved conditions rather than running independently — and the July 2026 record gives a partial test. One of the two conditions |
 | [[wiki/mind/concepts/attachment-model]] | mind | _(carries a REVISED from 2026-06-22)_ |
 | [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
-| [[wiki/mind/concepts/forensic-method]] | mind | — |
 | [[wiki/mind/concepts/node-locking]] | mind | — |
 | [[wiki/people/gabe]] | people | _(carries a CONTRADICTION)_ |
 | [[wiki/people/milo]] | people | — |
@@ -323,7 +332,7 @@ simply listed.
 | [[wiki/work/tech/index]] | work | — |
 | [[wiki/work/tech/mneme/overview]] | work | — |
 
-## 2026-07-19 — 55 pages
+## 2026-07-19 — 53 pages
 
 - **Session log:** ingest | people | long-tail MINE pass (sam, davey-fitzpatrick, vaughn, nick-mattie, urpaaa) + kezmarsky death-claim correction
 - **Session log:** ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
@@ -348,7 +357,6 @@ simply listed.
 | [[wiki/interests/music/aliases/sloppp]] | interests | — |
 | [[wiki/interests/opie-and-anthony]] | interests | — |
 | [[wiki/interests/stand-up-comedy]] | interests | — |
-| [[wiki/mind/concepts/dans-law]] | mind | — |
 | [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/concepts/institutional-out]] | mind | — |
 | [[wiki/mind/concepts/phenomenology-lens]] | mind | — |
@@ -394,14 +402,13 @@ simply listed.
 | [[wiki/people/vaughn]] | people | — |
 | [[wiki/people/zachariah-harshman]] | people | — |
 | [[wiki/places/307-e-76th-st]] | places | — |
-| [[wiki/self/context-core]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/tattoos]] | self | — |
 | [[wiki/timeline/events/annie-alexis-reunion-november-2018]] | timeline | — |
 | [[wiki/timeline/periods/covid-era-2020]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | — |
 | [[wiki/work/bfs-foods]] | work | — |
 
-## 2026-07-18 — 17 pages
+## 2026-07-18 — 16 pages
 
 - **Session log:** ingest | work+people | Gemini-_02 Au Za'atar storytime fully mined (50 approved data points); chats/gemini-02 page retired
 - **Session log:** build | meta | bin/llm-publish — public LLM access point (llm/) served by GitHub Pages
@@ -421,7 +428,6 @@ simply listed.
 | [[wiki/mind/synthesis/totality-themes]] | mind | _(carries a REVISED from 2026-07-15)_ |
 | [[wiki/people/anita]] | people | — |
 | [[wiki/people/brandon-hill]] | people | — |
-| [[wiki/people/johnny-dealer]] | people | — |
 | [[wiki/people/manuel]] | people | — |
 | [[wiki/people/teddy]] | people | — |
 | [[wiki/people/timmy]] | people | — |
@@ -549,7 +555,7 @@ simply listed.
 | [[wiki/people/trinity-st-clair]] | people | — |
 | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] | timeline | **REVISED** — an earlier version of this page called the April 2019 threesome the earliest well-specified instance of the arrangement running with a woman. A November 2018 reunion between Annie and Alexis — Dan's o |
 
-## 2026-07-13 — 15 pages
+## 2026-07-13 — 14 pages
 
 - **Session log:** restructure | mind+self+legal+work | major re-architecture
 - **Session log:** ingest | people | operator correction: Eli vs Tuquick
@@ -569,7 +575,6 @@ simply listed.
 | [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
 | [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/profile/intp]] | mind | — |
-| [[wiki/mind/profile/linguistic-profile]] | mind | — |
 | [[wiki/mind/profile/socionics-and-attitudinal]] | mind | — |
 | [[wiki/mind/profile/voice-modes]] | mind | — |
 | [[wiki/people/katie-fletcher]] | people | _(carries a REVISED from 2026-07-14)_ |
@@ -648,7 +653,7 @@ simply listed.
 | [[wiki/self/facebook/interests]] | self | — |
 | [[wiki/self/gemini-activity/gemini-activity]] | self | — |
 
-## 2026-06-23 — 24 pages
+## 2026-06-23 — 23 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -671,7 +676,6 @@ simply listed.
 | [[wiki/self/facebook/messages]] | self | — |
 | [[wiki/self/facebook/posts]] | self | — |
 | [[wiki/self/favorites]] | self | — |
-| [[wiki/self/message-corpora/master-message-dump]] | self | — |
 | [[wiki/timeline/events/end-fight]] | timeline | — |
 | [[wiki/timeline/events/timeline]] | timeline | — |
 | [[wiki/work/tech/grok-build/overview]] | work | — |

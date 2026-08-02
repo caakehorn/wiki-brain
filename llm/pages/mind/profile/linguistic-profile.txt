@@ -5,8 +5,9 @@ title: "Linguistic Profile — Voice, Register, Stylometrics"
 aliases: ["voice", "stylometrics", "forensic intimacy"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-08-02
 sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ Linguistic.rtf
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -19,6 +20,9 @@ related:
   - wiki/self/twitter
 tags: [trauma-bond]
 connections:
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: contains
+    claim: "A countable stylistic marker to set beside the 99th-percentile lexical-diversity score: Dan uses the confidence scale (75, 80, 89, 90, 95, 99.9999) where every other person in the corpus uses '100%' as a synonym for 'definitely'."
   - page: wiki/mind/profile/voice-modes
     type: parallels
     claim: "This page's audience-based code-switching (romantic/platonic, supportive/conflict) and voice-modes.md's eight emotional-state modes are two independent organizing axes over the same baseline mechanics — who he's talking to and how he feels modulate register separately."

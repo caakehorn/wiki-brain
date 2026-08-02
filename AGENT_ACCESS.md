@@ -2,13 +2,39 @@
 
 How to give models and agents the **current compiled wiki** from GitHub.
 
+> ## ⚠️ STATUS [2026-08-02]: the wiki-brain Pages feed is OFF
+>
+> `caakehorn/wiki-brain` is now a **private** repository, which unpublishes its
+> GitHub Pages site. **Every `caakehorn.github.io/wiki-brain/...` URL on this
+> page currently returns 404** — `llms.txt`, `agent/manifest.json`,
+> `agent/critical.md`, `agent/corpus.md`, `agent/domains/*`, `wiki/*.md` and
+> `llm/index.txt` alike. They are kept below because they become live again the
+> moment the repo is made public (or Pages is enabled for private repos on a
+> paid plan); nothing about the generated files themselves changed.
+>
+> **Where agents should read the wiki instead:**
+>
+> | What | URL |
+> |---|---|
+> | Everything, one file (~2.6 MB) | `https://caakehorn.github.io/leviathan/data/wiki-data.json` |
+> | Human-readable browser | `https://caakehorn.github.io/leviathan/wiki.html` |
+>
+> That mirror lives in the public `caakehorn/leviathan` repo, is rebuilt hourly
+> by its `sync-wiki.yml` workflow, and carries `wikiPages.pages[]` (metadata,
+> summaries, typed connections) plus `wikiText[<id>]` (full page prose) plus
+> `wikiLog.ops[]`. `source_commit` names the wiki-brain commit it was built
+> from, so you can tell how stale it is.
+>
+> `raw.githubusercontent.com/caakehorn/wiki-brain/...` also now requires an
+> authenticated token; it is no longer an anonymous fetch.
+
 ## What you already have
 
 | Layer | URL | Notes |
 |-------|-----|--------|
 | GitHub source of truth | https://github.com/caakehorn/wiki-brain | `main` is authoritative after merge |
-| GitHub raw file | `https://raw.githubusercontent.com/caakehorn/wiki-brain/main/wiki/…` | Always tracks `main`; good for one page |
-| GitHub Pages (agent feed) | https://caakehorn.github.io/wiki-brain/ | Rebuilt on every push to `main` by Actions |
+| GitHub raw file | `https://raw.githubusercontent.com/caakehorn/wiki-brain/main/wiki/…` | Tracks `main`, but **requires an auth token now** — the repo is private |
+| GitHub Pages (agent feed) | ~~https://caakehorn.github.io/wiki-brain/~~ | **Offline since 2026-08-02** — repo is private, see banner above |
 
 The local app (`app.py` on `localhost:8477`) is for **you** (capture, edit, ingest). Agents should use the online feed, not your laptop.
 
