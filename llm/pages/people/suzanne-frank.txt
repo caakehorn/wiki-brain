@@ -40,6 +40,15 @@ synthesizes:
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
+  - page: wiki/people/lucy
+    type: contains
+    claim: "Her blind Jack Russell, whose euthanasia she scheduled days after Fran's death 'because we wanted to get all the awful-ness out of the way at once' — the corpus's one documented case of batching grief rather than sequencing it."
+  - page: wiki/people/jack-connor
+    type: co-occurs
+    claim: "The lawyer who cleared Dan's arrest surfaces once elsewhere in the corpus at a casino cash-claw drawing, placing him in the same Fayette County gambling circuit Suz moved in — the likeliest route by which the family knew to call him."
+  - page: wiki/legal/2015-possession-arrest
+    type: causes
+    claim: "Her 2am request for lemons, sent from a pool hall during the worst of her gambling, is the proximate cause of the only real arrest in Dan's record — and the troopers detoured to that same venue en route to booking, partly to check whether his account of his mother could possibly be true."
   - page: wiki/people/the-unnamed-man
     type: caused-by
     claim: "The third party telephoned Suz to abuse her about a relationship she had no part in; on Dan's account it was the injury that mattered most to her, 'all I heard about for months', and the one Annie eventually came to the house to apologise for."

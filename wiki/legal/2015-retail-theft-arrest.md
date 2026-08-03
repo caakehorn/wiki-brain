@@ -1,111 +1,102 @@
 ---
 domain: legal
 page_type: event
-title: "2015 Arrest (Retail Theft / \"The Combos Incident\")"
+title: "The Combos Incident (2015 Retail Theft)"
+aliases: ["the Combos incident", "stealing combos"]
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-03
 sources:
+  - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/imessage_ALL_both_all_now.csv
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/christocoan_2cxo0swo3g/message_1.html"
-related:
-  - wiki/people/annie-ulmer
-  - wiki/people/rick-frank
-  - wiki/people/suzanne-frank
-  - wiki/timeline/periods/2015-2016-annie-relationship-start
-  - wiki/self/context-core
-  - wiki/mind/synthesis/vertical-authority-skepticism
-tags: [legal, relationships, dui]
+tags: [legal, relationships, uniontown-era]
 connections:
+  - page: wiki/legal/2015-possession-arrest
+    type: follows
+    claim: "The real arrest came a few weeks before this and carried the lawyer, the ARD and the hearing that this page wrongly claimed until 2026-08-03 — the theft is the smaller of two separate 2015 legal matters, not the one that produced a booking."
   - page: wiki/mind/concepts/acquisition-drive
     type: evidences
-    claim: "Snack food pursued as far as a state police arrest is the drive's signature output shape: cost-benefit ratios that make no sense are the expected result of a system optimising for completion rather than for value."
+    claim: "Snack food pursued as far as a criminal citation is the drive's signature output shape: cost-benefit ratios that make no sense are the expected result of a system optimising for completion rather than for value."
   - page: wiki/timeline/events/uniontown-hospital-vape-alarm
     type: parallels
     claim: "Three years apart, the same shape twice: a trivially small want run to completion and producing charging paperwork wildly out of proportion to anything gained — Combos in 2015, one drag of nicotine in 2018."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "The theft landed at the exact genesis of the relationship and was metabolised into a running couple's joke, which is the earliest documented instance of the pair converting Dan's legal trouble into shared comedy."
 ---
 
-# 2015 Arrest (Retail Theft / "The Combos Incident")
+# The Combos Incident (2015 Retail Theft)
 
-Dan's only documented arrest: in late 2015, at age 26–27, he was arrested by
-the Pennsylvania State Police over a retail theft — stealing Combos snacks,
-an event the corpus refers to almost exclusively as "the Combos incident."
-It is the earliest dated instance in the corpus of Dan on the receiving end
-of state authority rather than merely theorizing about it — the concrete
-ground floor underneath [[wiki/mind/synthesis/vertical-authority-skepticism]].
-He hired a lawyer ("Jack"), applied for Pennsylvania's ARD program
-(Accelerated Rehabilitative Disposition, the first-offender diversion track),
-was approved at a hearing before Judge Wagner on **February 17, 2016**, and
-paid off his fines the same day. ARD carried a six-month probationary period,
-after which the record was eligible for expungement — "the lightest possible
-outcome," as he described it to his father at the time. The case is closed
-and appears to have left no lasting record, but the arrest experience itself
-left a durable mark: a decade later he still cites it as the reason he is "an
-absolute fucking neurotic mess about car stuff."
+In 2015, a few weeks after
+[[wiki/legal/2015-possession-arrest|the possession arrest]], Dan stole
+Combos snacks and was cited for retail theft. It is the smaller of two
+separate legal matters he accumulated that year, and it is the one the
+corpus talks about — almost entirely as a joke.
 
-## What the record shows
+> **REVISED [2026-08-03] — this page was two events wearing one name.**
+> Until today it was titled "2015 Arrest (Retail Theft / 'The Combos
+> Incident')" and carried the lawyer, the ARD application, the Judge Wagner
+> hearing, the barracks trips and the family drama around them, all
+> attributed to a snack-food theft. Per the operator, the Combos theft and
+> the possession arrest are **both real and separate**, weeks apart, and the
+> arrest — with its three drug charges and the DA's categorical bar on ARD
+> for cocaine cases — is the one that produced all of that machinery. The
+> case material has moved to [[wiki/legal/2015-possession-arrest]]. What
+> stays here is the theft itself and what the corpus actually records about
+> it. Nothing has been deleted; the conclusions built on the old framing are
+> corrected in place on the pages that carried them.
 
-The arrest itself pre-dates the message archive (which begins November 28,
-2015), so it is reconstructed from its aftermath. During the stop he
-consented to a breath search — a decision he later credited with saving his
-driver's license ("I would have lost mine if I hadn't consented to the breath
-search when I got arrested," March 2026). No DUI resulted from this arrest.
+## What the record actually holds
 
-> **CONTRADICTION:** An October 19, 2017 message to
-> [[wiki/people/christo-coan|Christo Coan]] — "hell yeah I already got
-> a DUI I'm not getting any more of those :D" — indicates a *separate*,
-> otherwise undocumented DUI predating this message, distinct from both
-> this arrest (which produced none) and Annie's own documented DUI. No
-> date, location, or outcome for it exists anywhere else in the
-> corpus; the legal index's "only documented arrest" framing is stale
-> pending further investigation. See [[wiki/people/christo-coan]].
+The corpus contains no contemporaneous account of the theft — no store, no
+date, no charge grading, no disposition. What it contains is the joke, which
+outlived the event by a decade and is the reason the incident was ever
+prominent enough to be mistaken for the arrest.
 
-Through December
-2015 he made repeated trips to the state police barracks to replace case
-paperwork the barracks had lost; the trooper handling it remembered him and
-joked "DID YOU STEAL MORE COMBOS." The episode landed at the exact genesis of
-the [[wiki/people/annie-ulmer|Annie]] relationship — she drove him to at least one barracks trip and the
-theft became a running couple's joke ("I wonder if stealing combos counts as
-poison," she teased when he needed a background check).
+During the December 2015 barracks trips over the possession case, the trooper
+handling the paperwork recognised Dan and ribbed him: **"DID YOU STEAL MORE
+COMBOS."** That single line is the strongest evidence the wiki holds that the
+theft was real, chargeable, and known to the same barracks — a trooper does
+not make that joke about nothing.
 
-## Case timeline
+[[wiki/people/annie-ulmer|Annie]], three months into the relationship, took
+it up as a running bit; when Dan needed a background check she teased, "I
+wonder if stealing combos counts as poison." And Dan's own February 17, 2016
+line — **"My combos are paid off"** — records a fine being cleared, though
+whether that money was the theft's fine, the possession case's, or both
+running concurrently is not determinable from the message record.
 
-| Date | Event |
-|------|-------|
-| ~Fall 2015 | Arrest (retail theft, PA State Police); breath search consented, license kept |
-| Dec 9–11, 2015 | Barracks trips to replace lost case paperwork; ARD application filed ("Jack had to do some wheeling and dealing to make it happen") |
-| Jan 20, 2016 | ARD office visit to check application status |
-| Jan 25, 2016 | First fine installment paid ("$70 more to pay a month from now") |
-| Feb 17, 2016 | Final hearing — ARD approved (Judge Wagner); remaining fines paid ("My combos are paid off") |
-| ~Aug 2016 | Expected end of six-month probation → expungement eligibility |
+The episode's real significance is that it sat at the exact genesis of the
+[[wiki/people/annie-ulmer|Annie]] relationship and was immediately converted
+into shared comedy. That is the earliest documented instance of a pattern
+that runs the length of the decade: Dan's legal and financial trouble
+entering the relationship as material rather than as crisis.
 
-## Family dynamics around the hearing
+## Why it is a good instance of the drive
 
-The hearing day produced one of the sharpest documented snapshots of the
-post-2005 family geometry: [[wiki/people/rick-frank|Rick]] texted that
-morning wanting to attend but assumed he would be unwelcome — "You're
-obviously more comfortable with your mom. She's pretty well connected & I bet
-she knows the Judge also... I don't want to be responsible for screwing
-anything up for you" — while [[wiki/people/suzanne-frank|Suz]] played the
-connected, logistical parent. Annie was listed as his emergency contact with
-ARD, three months into the relationship.
+Combos remain the corpus's cleanest small-stakes illustration of
+[[wiki/mind/concepts/acquisition-drive|the acquisition drive]], and the
+correction above does not weaken that — it sharpens it. A want worth a few
+dollars was run to completion until it produced a criminal citation, and the
+same shape recurs three years later when one drag of nicotine produces a
+hospital-wide fire alarm and charging documents
+([[wiki/timeline/events/uniontown-hospital-vape-alarm]]). What the correction
+removes is the claim that this particular want cost a lawyer and a diversion
+programme. It did not. The other one did, and the fact that **2015 produced
+two separate chargeable incidents a few weeks apart** is itself the better
+evidence: the drive was not producing one anomalous night, it was producing a
+rate.
 
-## Significance
+## Gaps
 
-This is the single most consequential legal event in Dan's own record — the
-100 legal-category entries in the life-events calendar are otherwise
-dominated by other people's arrests, DUIs, and court dates (Tom's 2025 DUI,
-Annie's October 2025 arrest, friends' cases). It also calibrates his later
-behavior: the neurotic risk-aversion around vehicles and police contact he
-preaches to others (September 2025, to [[wiki/people/kristin|Kristin]]: "please make sure you run the
-cost/benefit analysis about what you're getting from that kind of risk
-exposure") traces directly to this experience rather than to any subsequent
-trouble.
-
-**Gaps:** exact arrest date, location/store, and charge grading are not in
-the corpus; whether the expungement was actually completed after the
-probation period is unconfirmed (his December 2015 mention of a "6 month
-probationary period" and clean background expectations suggest it was);
-"Jack" the lawyer's full name is unknown.
+Everything specific. The store, the date, the value of the goods, the charge
+grading, and the disposition are all absent from the corpus, as is any
+statement of how the theft was resolved — whether by fine, by summary
+citation, or folded into the possession case's disposition. The interval
+between the two incidents is known only as "a few weeks" from the operator,
+and their order is known only from the same source. No court record for
+either has been retrieved; both are answerable outside the corpus by a
+Fayette County docket search.

@@ -17,6 +17,9 @@ sources:
   - "raw/self/gemini-activity/Gemini Activity.html"
 tags: [nyc-era, career, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: evidences
+    claim: "Supplies the two figures the payload rule turns on: an eighteen-month alibi duration, and Dan's own account that the assigned work took 'literally EVERYTHING i had in me' — which is what separates the cost of the assignment from the private objective that was actually carrying him through it."
   - page: wiki/work/au-zaatar
     type: contains
     claim: "The Au Za'atar tenure (March 2021–August 2024) is the period's central institution — the 690-shift block that gives these three years their name and nearly all their documented events."

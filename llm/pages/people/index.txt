@@ -115,6 +115,8 @@ related: []
 - [[wiki/people/michael-hinkle]] — One-sided, unanswered 2017 Facebook message.
 - [[wiki/people/mike-cordaro]] — Childhood friend reconnecting summer 2024; new "uncle Dave" family lead.
 - [[wiki/people/mike-zollinger]] — Fellow Nemacolin caddy, 2018; early crypto banter predating the 2020-21 market era.
+- [[wiki/people/jack-connor]] — The Fayette County lawyer who got Dan into ARD in 2016 against a District Attorney policy that categorically barred it for cocaine charges; the reason the only real arrest left no record.
+- [[wiki/people/lucy]] — Suz's elderly blind Jack Russell terrier: in Dan's arms when he was cuffed in 2015, and put down days after Fran's death to consolidate the grief.
 - [[wiki/people/milo]] — Dan's Chihuahua, with him since at least 2018; the one presence explicitly carved out as exempt from forensic analysis. Stayed with Dan when the household split from Annie in 2025.
 - [[wiki/people/mohammed-bin-salman]] — Joke contact name; close gaming friend, 2023-2024.
 - [[wiki/people/morley-frank]] — Paternal grandfather of Dan Frank. Born 20 August 1927, Brownsville, Fayette County, Pennsylvania. Died 13…

@@ -28,6 +28,9 @@ related:
   - wiki/mind/concepts/institutional-out
 tags: [nyc-era, career, ai-collaboration, housing, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: instantiates
+    claim: "The 41 months were not held by the job — the work itself took 'literally EVERYTHING i had in me' — but by three self-set objectives installed inside it: the day-one tip split, the eighteen-month night-class alibi, and sole custody of the shed's cash tips. The job ended when a city work order bulldozed the third, not when the employer spent three months cutting his hours."
   - page: wiki/interests/food-and-diet
     type: evidences
     claim: "Forty-one months inside one cuisine is the strongest control the corpus offers for a rule about what Dan does not evaluate: the Lebanese culture and humour registered and are recorded, and no judgement of the food survives anywhere."
@@ -205,6 +208,21 @@ Za'atar host-stand hostess — which the post-mortem
 tags as the period's "CORE ANOMALY."
 
 ## Why the page matters
+
+**It is also the corpus's proof that a job never held Dan — a payload inside
+one did.** Forty-one months is the longest assigned commitment in the record
+and it dwarfs the six-month Fran vigil, which is why it falsifies
+[[wiki/mind/concepts/acquisition-drive]]'s prediction that no assigned goal
+ever received sustained costly effort. But the assignment itself was
+punishing by his own account, and what he actually sustained for those
+41 months was three objectives of his own installed inside the role: the
+veterans' tip split talked into existence on day one, the eighteen-month
+fabricated night class, and sole custody of the shed's cash tips. Each is
+separable from the job and each runs against the employer's interest. The
+tenure then tracks the payload rather than the employment — three months of
+deliberate hour-cutting in mid-2024 did not end it, and the destruction of
+the shed territory did. Argued in full at
+[[wiki/mind/synthesis/the-embedded-objective]].
 
 Au Za'atar fills what the timeline otherwise records as the 2021–2023
 employment block: he was employed, at volume, the whole time — the block was

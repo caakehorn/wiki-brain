@@ -28,6 +28,9 @@ related:
   - wiki/mind/concepts/dans-law
 tags: [addiction-recovery, career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: instantiates
+    claim: "The control case for the payload rule: roughly one month, no out installed and no private objective anywhere in the record — and the tenure ended at the first genuinely assigned demand, the $50 drawer payment. A 41-month job survived three months of deliberate hour-cutting; this one did not survive a single request."
   - page: wiki/interests/food-and-diet
     type: evidences
     claim: "Food as counter labour at the return pole of the geography — dispensed across a register rather than chosen, the third of three documented jobs in which he handles food daily and evaluates none of it."
@@ -72,6 +75,14 @@ evidence preservation, and a planned exit via a Little Caesars transfer
 arranged through [[wiki/people/kim]]. Context-core records it flatly:
 "BFS termination (cash-variance dispute); Little Caesars transfer via Kim
 as the exit."
+
+The tenure is also the control case for
+[[wiki/mind/synthesis/the-embedded-objective|the payload rule]]: one month
+against forty-one at [[wiki/work/au-zaatar]], with no institutional out
+installed and no private objective anywhere in the record of the job. It
+ended at the first genuinely assigned demand it produced. A job carrying a
+payload survived three months of the employer actively trying to force a
+quit; this one did not survive a single request.
 
 What makes the episode worth a full page is not the $50. It is that Dan
 worked the whole problem, in real time and in opiate withdrawal, as a

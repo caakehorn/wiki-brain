@@ -8,9 +8,9 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 27 |
+| Live contradictions | 29 |
 | Open gaps | 129 |
-| Standing predictions | 10 |
+| Standing predictions | 13 |
 
 ## Live contradictions
 
@@ -19,7 +19,9 @@ highest-value items here: each one is a place the corpus knows it is wrong
 somewhere and has not yet found out where.
 
 - **[[wiki/interests/food-and-diet]]** — the-cool-metric states that music, language, politics, film, work and strangers "all go through the same gate." Food does not, and food out-mentions music in the same corpus. Both pages carry the disagreement; the resolution below is that the metric has a jurisdiction rather than that it has an exception. It bounds it.
-- **[[wiki/legal/2015-retail-theft-arrest]]** — An October 19, 2017 message to Christo Coan — "hell yeah I already got a DUI I'm not getting any more of those :D" — indicates a *separate*, otherwise undocumented DUI predating this message, distinct from both this arrest (which produced none) and Annie's own documented DUI. No date, location, or outcome for it exists
+- **[[wiki/legal/2015-possession-arrest]]** — The capture places the arrest firmly *before* the move to 155 Virginia Ave — Alexis was still being hidden at 337 Saratoga, "before we made it to her 155 virginia ave house where she let me and lex live together." But that page dates the residence from **January 2015**, a month before the blotter filing. One of the thr
+- **[[wiki/legal/2015-possession-arrest]]** — This page's earlier form stated that during the stop Dan "consented to a breath search — a decision he later credited with saving his driver's license," citing a March 2026 message: "I would have lost mine if I hadn't consented to the breath search when I got arrested." The capture states the opposite in direct terms: 
+- **[[wiki/legal/2015-possession-arrest]]** — An October 19, 2017 message to Christo Coan — "hell yeah I already got a DUI I'm not getting any more of those :D" — indicates a separate, otherwise undocumented DUI. The capture's flat statement that this arrest is "my first and only real arrest" sharpens rather than settles the puzzle: a DUI can be issued by citation
 - **[[wiki/mind/concepts/acquisition-drive]]** — big-five-psychometrics measures Impulsiveness at the 96th percentile and reads the corpus's pattern of "brilliant analysis coexisting with self-sabotaging execution" as an impulse-control deficit — the diagnosis-to-behaviour gap. This page holds that a second dimension, a 95th-percentile completion drive, is present in
 - **[[wiki/mind/concepts/attachment-model]]** — Annie issued written denials of third-party involvement in November 2025 and February 2026. These denials were issued while she was involved with the third party she ultimately left for (Tuquick — tuquick-17248123683) and a defamation campaign was running within their shared peer network, creating a direct contradictio
 - **[[wiki/mind/concepts/chaos-preference]]** — single-channel shows the carve-out is not confined to the attachment slot. The same concentration appears in four domains — relational, creative, cognitive, evaluative — and in the one where it has been measured it runs to a two-sided Gini of **0.959–0.964** across ~496 handles. That is the most fragile architecture a 
@@ -61,6 +63,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **The 463 Morgantown arrangement will be reconstructed only after it fails.** 463-morgantown is a chosen housing situation running entirely on verbal understandings, with a lien deadline that has already elapsed unobserved. The rule predicts the paper trail ge
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **Any new primary bond will show the same onset shape.** High volume, no evaluative content, and no forensic material in the first years — matching the 728-messages-in-a-day onset of December 2015 rather than a vetting period.
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **The wiki itself is a chosen object and is therefore exempt.** Its epistemics were configured by Dan's own prompt (exocortex). This predicts the repository will under-audit its own method until the method visibly fails — which instrument-is-subject independen
+- **[[wiki/mind/synthesis/the-embedded-objective]]** — **Every job in the record, including any not yet documented, will show an out or a private objective installed in its first weeks — or it will be short.** A long tenure with no documented payload falsifies this page outright. The named test is the roughly elev
+- **[[wiki/mind/synthesis/the-embedded-objective]]** — **Jobs end when the payload is destroyed, not when conditions worsen.** Au Za'atar is the worked case. Any future job loss in the corpus should be checkable against which of the two happened first.
+- **[[wiki/mind/synthesis/the-embedded-objective]]** — **Assigned obligations with nothing embeddable should show acquisition documented and compliance undocumented**, as the ARD does. The Suboxone regimen is the sharpest available test in the other direction: it is a fifteen-year daily commitment originating in a
 
 ## Open gaps, by domain
 

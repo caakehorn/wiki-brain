@@ -20,7 +20,7 @@ tags: [personality-profile, forensic-analysis]
 connections:
   - page: wiki/mind/concepts/acquisition-drive
     type: mirrors
-    claim: "Two appetites with inverted carve-outs: this preference is strictly outward-facing and exempts whatever Dan has chosen, while the acquisition drive fires only on what Dan has chosen and is inert toward everything assigned to him."
+    claim: "Two appetites with inverted carve-outs: this preference is strictly outward-facing and exempts whatever Dan has chosen, while the acquisition drive fires only on what Dan has chosen and fires only on what he has chosen."
   - page: wiki/timeline/events/franki-fireworks-day-2013
     type: evidenced-by
     claim: "The macro-scale appetite finally has an attested instance: days without sleep watching the April 2013 Boston manhunt unfold, during months Dan otherwise describes as apathetic depression — the entropy interest was the one thing still running."

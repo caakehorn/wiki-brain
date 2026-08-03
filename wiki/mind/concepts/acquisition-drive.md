@@ -7,13 +7,17 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-03
 sources:
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
+  - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [personality-profile, addiction-recovery, legal, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: contradicts
+    claim: "This page's stated falsifier was found on the first place it pointed to: the employment record holds 41 months at Au Za'atar and 43 at Nemacolin against a six-month Fran vigil, so assigned goals DO receive sustained costly effort — via a private objective installed inside the assignment."
   - page: wiki/people/fran-coldren
     type: evidenced-by
     claim: "Six months of paid full-time caregiving at $15/hour, held to the end, is the drive aimed at a self-set goal — and Dan's own verdict on it, 'finally did something in my life that wasn't completely selfish,' shows he read it as an exception to his character rather than an expression of it."
@@ -28,7 +32,10 @@ connections:
     claim: "The purest instance, because the stakes were nil: a nicotine urge serviced on arrival in a deathbed room, with top-percentile reasoning recruited to authorise it rather than to interrogate it."
   - page: wiki/legal/2015-retail-theft-arrest
     type: evidenced-by
-    claim: "Snack food pursued to arrest by the state police is the drive's signature output shape — cost-benefit ratios that make no sense are the expected result of a system that optimises for completion rather than for value."
+    claim: "Snack food pursued as far as a criminal citation is the drive's signature output shape — cost-benefit ratios that make no sense are the expected result of a system optimising for completion rather than for value."
+  - page: wiki/legal/2015-possession-arrest
+    type: evidenced-by
+    claim: "The drive's smallest-stakes catastrophe: a saved bag corner good for a 10% bump and one hitter's worth of weed, carried on a 3am errand for no reason, producing three charges including a Class B controlled-substance count over residue."
   - page: wiki/timeline/events/fran-death-vigil
     type: evidenced-by
     claim: "Six months of paid full-time caregiving at $15/hour — the duration Dan states contemporaneously, not the multi-year span the wiki had inferred — is not counter-evidence to Altruism at the 1st percentile; it is the same drive pointed at a goal Dan generated himself, which is the only kind it can serve."
@@ -40,7 +47,7 @@ connections:
     claim: "The undated episode in which Dan used his sister's ATM card while she was away at college, under a 'got them mixed up' pretext, is the operator's own chosen illustration of the drive running with no consequence-modelling attached."
   - page: wiki/mind/concepts/chaos-preference
     type: mirrors
-    claim: "Two appetites with inverted carve-outs: the chaos preference is strictly outward-facing and exempts what Dan has chosen, while the acquisition drive fires only on what Dan has chosen and is inert toward everything assigned to him."
+    claim: "Two appetites with inverted carve-outs: the chaos preference is strictly outward-facing and exempts what Dan has chosen, while the acquisition drive fires only on what Dan has chosen — though not, per the 2026-08-02 falsification above, inert toward assignments, since an assignment can host a chosen objective inside it."
 ---
 
 # The Acquisition Drive
@@ -75,16 +82,19 @@ supply architecture whose individual dealers rotate constantly while the
 architecture never lapses, because a want that must be satisfied at all costs
 cannot be left to a single supplier.
 
-Three documented episodes show the drive at very different stakes and the
-same indifference to context:
+Four documented episodes show the drive at very different stakes and the
+same indifference to context. Two of them fall within weeks of each other in
+2015, which is the point: the drive was not producing one anomalous night, it
+was producing a rate.
 
 | Episode | The objective | What it ran through |
 |---|---|---|
-| [[wiki/legal/2015-retail-theft-arrest]] (late 2015) | Combos snacks | A state police arrest, a lawyer, and the ARD program |
+| [[wiki/legal/2015-retail-theft-arrest]] (2015) | Combos snacks | A retail-theft citation |
+| [[wiki/legal/2015-possession-arrest]] (2015, weeks earlier) | A 10% bump saved for later | A state police arrest, a lawyer, several thousand dollars and the ARD program |
 | [[wiki/timeline/events/the-fall-of-fran]] (2018-03-07/08) | The arrangement's opening encounter | A 97-year-old's broken hip, in the house, mid-event |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] (April 2018) | One drag of nicotine | A hospital-wide fire alarm, four fire trucks, and an escort off the property |
 
-The middle row is the expensive one and the third is the diagnostic one. The
+The Fran row is the expensive one and the vape alarm is the diagnostic one. The
 vape alarm cost Dan more than it could possibly have gained under any
 accounting, which is exactly why it is the clean case: with nothing at stake,
 the pursuit still completed, and the deliberation that preceded it was not
@@ -145,6 +155,39 @@ absorbing comparable cost over comparable duration for a goal set for him by
 somebody else.** The employment record, the abandoned projects, and the
 prescription he was given rather than sought are where a falsification would
 be found if one exists.
+
+> **PREDICTION FALSIFIED [2026-08-02] — and the rule is better for it.** The
+> employment record was audited, as this paragraph invited. It contains two
+> assigned commitments that dwarf the Fran vigil on both axes: **41 months at
+> [[wiki/work/au-zaatar]]** and **43 months at
+> [[wiki/work/nemacolin-caddying]]**, against six months of caregiving. On
+> duration and on cost the prediction fails outright, and it fails on the
+> first place it told anyone to look.
+>
+> What survives is the limitation, not the inference drawn from it. The engine
+> still cannot be aimed by anybody else — but an *assignment* turns out to be
+> a container rather than a competing category, and Dan sustains a long one by
+> installing a private objective inside it. At Au Za'atar those were a
+> negotiated tip split, an eighteen-month fabricated night class, and sole
+> custody of the shed's cash tips; the job ended when the third was destroyed
+> — the finished interior killed sidewalk demand, then the city ordered the
+> sheds torn down — and not during the three months the employer spent cutting
+> his hours to force a quit. The diagnostic property is that the embedded
+> objective is separable from the role and usually adversarial to it. Full
+> argument, with [[wiki/work/bfs-foods]] and
+> [[wiki/work/caviar-courier]] as controls, at
+> [[wiki/mind/synthesis/the-embedded-objective]].
+>
+> **A second correction, which costs this page more.** The strong reading
+> above — that a self-set pursuit runs to completion "more or less
+> independently of cost" — does not survive the project record either. MNEME
+> was never built past specification, the [[wiki/work/tech/danmodel|DANMODEL]]
+> blind evaluation has no results file anywhere and may never have been run,
+> and [[wiki/work/tech/ai-video-essays]] stalled at planning. All three were
+> entirely self-set and none completed. **Self-origination is necessary for
+> the engine to fire and is not sufficient for it to finish.** The 95th-
+> percentile claim should be read as being about what the drive does when it
+> engages, not about how reliably it engages.
 
 > **CONTRADICTION [2026-08-02]:**
 > [[wiki/mind/profile/big-five-psychometrics]] measures Impulsiveness at the
