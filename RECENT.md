@@ -8,7 +8,20 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-02 — 71 pages
+## 2026-08-03 — 6 pages
+
+- **Session log:** ingest | legal | factstory brief #5 — "The Arrest (the real one)"
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/legal/2015-possession-arrest]] | legal | **CONTRADICTION** — This page's earlier form stated that during the stop Dan "consented to a breath search — a decision he later credited with saving his driver's license," citing a March 2026 message: "I would have lost |
+| [[wiki/legal/2015-retail-theft-arrest]] | legal | **REVISED** — Until today it was titled "2015 Arrest (Retail Theft / 'The Combos Incident')" and carried the lawyer, the ARD application, the Judge Wagner hearing, the barracks trips and the family drama around the |
+| [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
+| [[wiki/mind/synthesis/the-embedded-objective]] | mind | — |
+| [[wiki/people/jack-connor]] | people | — |
+| [[wiki/people/lucy]] | people | — |
+
+## 2026-08-02 — 68 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -31,10 +44,8 @@ simply listed.
 | [[wiki/health/chemical-architecture]] | health | — |
 | [[wiki/interests/food-and-diet]] | interests | **REVISED** — An operator capture filed the same week documents an absolute dietary regime the page did not know existed, and "absent from its evaluative record entirely" cannot survive *"pickles are the mortal ene |
 | [[wiki/interests/music/concepts/sub-bass-signature]] | interests | — |
-| [[wiki/legal/2015-retail-theft-arrest]] | legal | _(carries a CONTRADICTION)_ |
 | [[wiki/legal/463-morgantown]] | legal | **DEADLINE ELAPSED** — The mechanics-lien date this page has carried as its nearest hard deadline — estimated ~**27 July 2026** — has now passed, and **no source read to date records what happened.** The estimate was always |
 | [[wiki/legal/index]] | legal | — |
-| [[wiki/mind/concepts/acquisition-drive]] | mind | **CONTRADICTION** — big-five-psychometrics measures Impulsiveness at the 96th percentile and reads the corpus's pattern of "brilliant analysis coexisting with self-sabotaging execution" as an impulse-control deficit — th |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | — |
 | [[wiki/mind/concepts/chaos-preference]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/concepts/dans-law]] | mind | — |
@@ -57,7 +68,6 @@ simply listed.
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-unbroken-bond was revised on 2026-08-02 to withdraw its claim that the pair-bond is the only structure that is simultaneously chosen and permanent — a claim written before the four-domain reading  |
 | [[wiki/mind/synthesis/supply-network]] | mind | **REVISED** — This section describes Dan in the supplier seat as the terminal phase's structure. The July–August 2026 export shows the configuration **survived both the June 1 closure and the July 26 goodbye**: aft |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **CORRECTED** — This page listed food alongside the pets as a "protected class" whose audit is scheduled for never. A capture filed the same day documents an **absolute composition regime**: every permitted item is a |
-| [[wiki/mind/synthesis/the-embedded-objective]] | mind | — |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — chaos-preference now carries the contradiction with single-channel, which shows the entropy carve-out is not confined to the attachment slot: the same single-occupancy discipline runs in |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/people/alexander-jackson]] | people | — |

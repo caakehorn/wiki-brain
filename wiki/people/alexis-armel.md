@@ -16,6 +16,9 @@ infobox:
   location: nyc
   known_for: "Role / Relationship: Prior relationship (pre-Annie); referenced as 'Lex' / Alexis Armel in life calendar, profile dumps,"
 connections:
+  - page: wiki/legal/2015-possession-arrest
+    type: co-occurs
+    claim: "The arrest is dated by her: Dan places it inside the roughly four months he was secretly housing her at 337 Saratoga after she was thrown out, which brackets it to 2015 before the November bond switch."
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: instantiates
     claim: "Being paid into the 2018 arrangement with her own successor and then carried as a warm correspondence to 2025 shows retention here is an active policy rather than passive inertia."

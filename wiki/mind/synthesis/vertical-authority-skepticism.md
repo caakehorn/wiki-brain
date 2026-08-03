@@ -16,6 +16,9 @@ sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
 tags: [politics, relationships, family, personality-profile, nyc-era]
 connections:
+  - page: wiki/legal/2015-possession-arrest
+    type: evidenced-by
+    claim: "The concrete floor under the disposition: troopers told Suz they knew something was wrong because Dan was being unnaturally polite and accommodating — the earliest documented case of deference itself reading as guilt."
   - page: wiki/mind/synthesis/the-embedded-objective
     type: parallels
     claim: "Refusal is only half the repertoire — where a vertical claim pays, Dan accepts the role and runs a private objective inside it instead of rejecting it, which is evasion by occupation rather than by exit."
@@ -109,7 +112,7 @@ reading via "everyone is in the wrong, then score who is *more* wrong"
 Trump as a gravity well of one man's selfish interest, the Democratic Party
 complicit through corporate capture and gerontocracy, institutions on all
 sides captured. No team. The personal ground floor under all of this
-abstraction is the [[wiki/legal/2015-retail-theft-arrest|2015 retail-theft
+abstraction is the [[wiki/legal/2015-possession-arrest|2015 possession
 arrest]] — the corpus's earliest instance of Dan on the *receiving* end of
 state authority rather than analyzing it from outside, years before the
 political theorizing had a name.

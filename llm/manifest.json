@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-02",
+ "generated": "2026-08-03",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 435,
+ "page_count": 438,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1021,11 +1021,18 @@
    "bytes": 4024
   },
   {
+   "page": "wiki/legal/2015-possession-arrest.md",
+   "title": "The 2015 Possession Arrest",
+   "summary": "Dan's only real arrest happened in **2015**, in downtown Uniontown at roughly 3am, and it was for drug possession \u2014 not for stealing snacks. He was pulled ov...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/legal/2015-possession-arrest.txt",
+   "bytes": 13571
+  },
+  {
    "page": "wiki/legal/2015-retail-theft-arrest.md",
-   "title": "2015 Arrest (Retail Theft / \"The Combos Incident\")",
-   "summary": "Dan's only documented arrest: in late 2015, at age 26\u201327, he was arrested by the Pennsylvania State Police over a retail theft \u2014 stealing Combos snacks, an e...",
+   "title": "The Combos Incident (2015 Retail Theft)",
+   "summary": "In 2015, a few weeks after",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/legal/2015-retail-theft-arrest.txt",
-   "bytes": 7150
+   "bytes": 5877
   },
   {
    "page": "wiki/legal/463-morgantown.md",
@@ -1039,14 +1046,14 @@
    "title": "legal \u2014 index",
    "summary": "Dan's own legal history and live property/dispute exposure. Other people's legal events (Annie's October 2025 arrest, Tom's 2025 DUI) live on their people pa...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/legal/index.txt",
-   "bytes": 1282
+   "bytes": 1584
   },
   {
    "page": "wiki/mind/concepts/acquisition-drive.md",
    "title": "The Acquisition Drive",
    "summary": "Once Dan Frank converts a want into a decided outcome, the pursuit of it runs to completion more or less independently of cost, risk, proportion or circumsta...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/acquisition-drive.txt",
-   "bytes": 14014
+   "bytes": 14682
   },
   {
    "page": "wiki/mind/concepts/attachment-model.md",
@@ -1410,7 +1417,7 @@
    "title": "The Embedded Objective",
    "summary": "**Dan has never sustained an assignment. He sustains a self-set objective he has embedded inside one.** Every long commitment in the corpus is a host structu...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-embedded-objective.txt",
-   "bytes": 15397
+   "bytes": 15813
   },
   {
    "page": "wiki/mind/synthesis/the-unbroken-bond.md",
@@ -1431,7 +1438,7 @@
    "title": "Vertical Authority Skepticism",
    "summary": "Dan treats the vertical axis \u2014 fathers, managers, owners, institutions, the state \u2014 as structurally suspect, and the horizontal axis \u2014 the vetted few peers \u2014...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/vertical-authority-skepticism.txt",
-   "bytes": 10558
+   "bytes": 10854
   },
   {
    "page": "wiki/people/aaron.md",
@@ -1466,7 +1473,7 @@
    "title": "Alexis Armel (\u201cLex\u201d)",
    "summary": "**Role / Relationship:** Prior relationship (pre-Annie); referenced as \"Lex\" / Alexis Armel in life calendar, profile dumps, attachment narratives, and photo...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/alexis-armel.txt",
-   "bytes": 23106
+   "bytes": 23385
   },
   {
    "page": "wiki/people/ally-lubin.md",
@@ -1627,7 +1634,7 @@
    "title": "Christo Coan",
    "summary": "Christo Coan was a Nemacolin-era golf-course coworker and DJ acquaintance whose short Facebook Messenger thread (September 2017 \u2013 June 2018) exists almost en...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/christo-coan.txt",
-   "bytes": 4396
+   "bytes": 4390
   },
   {
    "page": "wiki/people/claire-ulmer.md",
@@ -1795,7 +1802,7 @@
    "title": "Frances \"Fran\" Whyel Coldren",
    "summary": "Fran Whyel Coldren \u2014 born **Jesse Frances Thomas**, Fort Martin, West Virginia, **15 August 1920**; died Uniontown, Pennsylvania, **4 April 2018** \u2014 was Dan ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/fran-coldren.txt",
-   "bytes": 24992
+   "bytes": 25527
   },
   {
    "page": "wiki/people/franki-faris.md",
@@ -1823,7 +1830,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 20223
+   "bytes": 20619
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1831,6 +1838,13 @@
    "summary": "Ismaila Barry \u2014 universally \"DJ\" \u2014 is the Senegalese busser-turned-server of [[wiki/work/au-zaatar|Au Za'atar]] Midtown whom Dan counts among his best friend...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ismaila-barry.txt",
    "bytes": 2916
+  },
+  {
+   "page": "wiki/people/jack-connor.md",
+   "title": "Jack Connor",
+   "summary": "Jack Connor is the Fayette County defence lawyer who represented Dan after",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jack-connor.txt",
+   "bytes": 2869
   },
   {
    "page": "wiki/people/jack-rusko.md",
@@ -2071,6 +2085,13 @@
    "bytes": 4888
   },
   {
+   "page": "wiki/people/lucy.md",
+   "title": "Lucy",
+   "summary": "Lucy was [[wiki/people/suzanne-frank|Suz's]] Jack Russell terrier \u2014 elderly and fully blind by 2015 \u2014 and she appears in the corpus at two moments, both of w...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/lucy.txt",
+   "bytes": 2900
+  },
+  {
    "page": "wiki/people/lukyan-mraz.md",
    "title": "Lukyan Mraz",
    "summary": "Lukyan Mraz is a Uniontown friend, connected to the same household as",
@@ -2236,7 +2257,7 @@
    "title": "Richard Harrison \"Rick\" Frank",
    "summary": "Rick Frank (b. May 22, 1959, Uniontown PA) is Dan's father: owner of **Frank's Auto Supermarket**, a chain of auto-parts stores (anti-union, per the househol...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/rick-frank.txt",
-   "bytes": 9564
+   "bytes": 9864
   },
   {
    "page": "wiki/people/rj-ritchey.md",
@@ -2341,7 +2362,7 @@
    "title": "Suz (Suzanne Frank)",
    "summary": "Dan's mother and, across four decades, the single most constant structural presence in his life \u2014 the person who has most often been both the floor under him...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/suzanne-frank.txt",
-   "bytes": 20289
+   "bytes": 21246
   },
   {
    "page": "wiki/people/tan-calabrese.md",
@@ -2481,7 +2502,7 @@
    "title": "155 Virginia Ave",
    "summary": "155 Virginia Ave, Uniontown PA was Dan's residence from January 2015 to February 2019 \u2014 the address where the two defining relationships of his adult life ha...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/155-virginia-ave.txt",
-   "bytes": 4787
+   "bytes": 4783
   },
   {
    "page": "wiki/places/307-e-76th-st.md",
@@ -2719,7 +2740,7 @@
    "title": "Self Overview",
    "summary": "Daniel Gillingham Frank \u2014 Dan \u2014 was born November 1, 1988 in Uniontown, Fayette County, Pennsylvania, and at 37 he is living back in his childhood home at 33...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/overview.txt",
-   "bytes": 8351
+   "bytes": 8343
   },
   {
    "page": "wiki/self/tattoos.md",
@@ -2990,9 +3011,9 @@
   {
    "page": "wiki/work/nemacolin-caddying.md",
    "title": "Caddying \u2014 Nemacolin, Laurel Valley, Pikewood National (2016\u20132019)",
-   "summary": "Between the [[wiki/legal/2015-retail-theft-arrest|retail-theft arrest]] and the deep 2017\u201318 poverty years, Dan held a caddying job at **Nemacolin Woodlands ...",
+   "summary": "Between the [[wiki/legal/2015-possession-arrest|possession arrest]] and the deep 2017\u201318 poverty years, Dan held a caddying job at **Nemacolin Woodlands Reso...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/nemacolin-caddying.txt",
-   "bytes": 10036
+   "bytes": 10032
   },
   {
    "page": "wiki/work/tech/ai-video-essays.md",

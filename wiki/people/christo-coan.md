@@ -21,7 +21,7 @@ connections:
   - page: wiki/work/nemacolin-caddying
     type: co-occurs
     claim: "The Oct 31, 2017 party invite — open to 'every caddie, staging, and pro shop employee' — is a direct social artifact of the caddie-yard cohort, thrown at Dan's own house."
-  - page: wiki/legal/2015-retail-theft-arrest
+  - page: wiki/legal/2015-possession-arrest
     type: contradicts
     claim: "Dan's Oct 19, 2017 aside — 'hell yeah I already got a DUI I'm not getting any more of those' — references a separate, otherwise undocumented DUI, contradicting the retail-theft page's 'No DUI resulted' framing and the legal index's 'only documented arrest' claim."
   - page: wiki/places/117-belmont-circle
@@ -68,7 +68,7 @@ In the same conversation, declining a beer-pong-related mishap story
 with his own, Dan writes: "hell yeah I already got a DUI I'm not
 getting any more of those :D thanks bro." No other detail follows, and
 nothing elsewhere in the corpus names a Dan-side DUI — the
-[[wiki/legal/2015-retail-theft-arrest|2015 retail-theft arrest]] page
+[[wiki/legal/2015-possession-arrest|2015 possession arrest]] page
 explicitly states no DUI resulted from that stop, and the legal
 domain's only other DUI material belongs to
 [[wiki/people/annie-ulmer|Annie]]. This is therefore the corpus's only

@@ -50,7 +50,7 @@ connections:
 
 # Caddying — Nemacolin, Laurel Valley, Pikewood National (2016–2019)
 
-Between the [[wiki/legal/2015-retail-theft-arrest|retail-theft arrest]] and the deep 2017–18 poverty years, Dan
+Between the [[wiki/legal/2015-possession-arrest|possession arrest]] and the deep 2017–18 poverty years, Dan
 held a caddying job at **Nemacolin Woodlands Resort** (Farmington, PA)
 titled "Experience Associate – Golf," **April 2016 – November 2019** per
 his resume — borrowing golf shoes for the interview on April 6, 2016. The

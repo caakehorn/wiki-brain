@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-03
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -19,7 +19,7 @@ synthesizes:
   - wiki/mind/concepts/institutional-out
   - wiki/mind/concepts/acquisition-drive
   - wiki/timeline/periods/2021-2023-employment-block
-  - wiki/legal/2015-retail-theft-arrest
+  - wiki/legal/2015-possession-arrest
 tags: [career, personality-profile, forensic-analysis, uniontown-era, nyc-era]
 connections:
   - page: wiki/mind/concepts/acquisition-drive
@@ -43,9 +43,9 @@ connections:
   - page: wiki/timeline/periods/2021-2023-employment-block
     type: evidenced-by
     claim: "Supplies the two numbers the rule turns on — an eighteen-month alibi duration and Dan's own account that the work itself took 'literally EVERYTHING i had in me' — which together separate the cost of the assignment from what was actually carrying him through it."
-  - page: wiki/legal/2015-retail-theft-arrest
+  - page: wiki/legal/2015-possession-arrest
     type: evidenced-by
-    claim: "The hardest case and it holds: the acquisition of the ARD deal is documented across five dated events in ten weeks, and the six months of court-assigned probation that followed are documented nowhere — the corpus records the getting and not the serving."
+    claim: "The hardest case, and it survives narrowing: the acquisition of the ARD deal carries five dated contemporaneous events across ten weeks, while the six months of assigned probation are attested only by one retrospective clause a decade later — the getting is documented as it happens, the serving only in summary."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: parallels
     claim: "That page establishes that Dan refuses vertical claims on his time; this one shows what he does instead of refusing when the claim pays — he accepts the role and runs a private objective inside it, which is evasion by occupation rather than by exit."
@@ -82,7 +82,7 @@ falsification.
 | [[wiki/work/nemacolin-caddying]] | "Experience Associate – Golf" | The looper status ladder — the call-up to "the real loopers," the first two-bag round, the Scottsdale transfer pitched to Carl — plus golf itself as his own sport | **43 months** |
 | [[wiki/work/bfs-foods]] | Gas-station cashier | **None documented** | **~1 month** |
 | [[wiki/work/caviar-courier]] | App-dispatched courier | **None available to install** | 12 months, intermittent |
-| [[wiki/legal/2015-retail-theft-arrest]] | Six-month court-ordered ARD probation | — (the payload was the deal itself, obtained before the probation began) | Compliance undocumented |
+| [[wiki/legal/2015-possession-arrest]] | Six-month court-ordered ARD probation | — (the payload was the deal itself, obtained before the probation began) | Compliance attested only retrospectively |
 
 The first two rows are the falsifiers of the old rule and the evidence for the
 new one. The last three are what make it a claim rather than a description.
@@ -147,20 +147,25 @@ scattered orders in March 2020, one final burst in April 2020. Twelve months of
 availability, no tenure. The appetite for income was constant across the
 period; what was missing was anything to attach the engine to.
 
-**The 2015 arrest is the hardest case, and it is the one I most expected to
-break this.** A court assigned Dan a six-month ARD probation — an externally
-set goal, with real consequences for failure, that the record says he entered.
-If the corpus documented him serving it at cost, the rule would need rewriting
-again. It does not. What it documents in granular dated detail is the
-*acquisition* of the deal: hiring the lawyer, the December barracks trips to
-replace lost paperwork, the January ARD office visit to check the application,
-the February 17 hearing, the fines cleared — "My combos are paid off." Five
-dated events across ten weeks. Then the six months of compliance that were
-actually the assigned part appear nowhere at all, and
-[[wiki/legal/2015-retail-theft-arrest]] records that whether the expungement
-was ever completed is unconfirmed to this day. **The corpus records the getting
-and not the serving**, which is the rule showing up in the shape of the
-evidence rather than in its content.
+**The 2015 arrest is the hardest case, and a capture ingested on 2026-08-03
+narrowed it without breaking it.** A court assigned Dan a six-month ARD
+probation — an externally set goal with real consequences for failure. The
+corpus documents the *acquisition* of that deal in granular dated detail:
+hiring [[wiki/people/jack-connor|Jack Connor]], the December barracks trips to
+replace lost paperwork, the January ARD office visit, the February 17 hearing,
+the fines cleared. Five dated contemporaneous events across ten weeks.
+
+What has changed is that the six months of compliance are no longer documented
+*nowhere*. Dan's own account, given a decade later, is that he "completed that
+without incident" — so the serving happened and is now on the record. The
+asymmetry that carries the argument is therefore about density rather than
+existence: **the getting is recorded as it happens, in five separate dated
+traces; the serving is recorded once, retrospectively, in a single clause.**
+That is a weaker version of the original claim and it is the version the
+evidence supports. It is also worth noting what the same capture reveals about
+the acquisition — the DA held a categorical policy against ARD for cocaine
+charges, residue or not, which means the effort Dan put into *getting* the deal
+was aimed at a bar most defendants could not clear at all.
 
 ## What this does to the acquisition drive
 

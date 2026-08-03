@@ -39,6 +39,12 @@ infobox:
   role: "Maternal great-grandmother; matriarch of the Uniontown country-club era"
   known_for: "Dan's self-described biggest life influence; taught him to read, funded the production identity, and was his paid full-time care for the six months before she died"
 connections:
+  - page: wiki/people/lucy
+    type: co-occurs
+    claim: "The household's dog was put down within days of Fran's April 2018 death by deliberate scheduling, which makes Lucy the one loss in the corpus timed by another death rather than by its own decline."
+  - page: wiki/legal/2015-possession-arrest
+    type: co-occurs
+    claim: "Her disused car — uninspected, expired registration, bald tires — is what gave the troopers the impound that produced the inventory search, making her the unwitting mechanism of Dan's only arrest."
   - page: wiki/timeline/events/the-fall-of-fran
     type: caused-by
     claim: "One night in March 2018 ended a fifty-year residency and, four weeks later, her life — and it happened while a plan Dan had been arranging for a year was executing in the same house."

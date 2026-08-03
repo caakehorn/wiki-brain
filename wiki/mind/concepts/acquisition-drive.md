@@ -7,9 +7,10 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-03
 sources:
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
+  - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [personality-profile, addiction-recovery, legal, forensic-analysis]
@@ -31,7 +32,10 @@ connections:
     claim: "The purest instance, because the stakes were nil: a nicotine urge serviced on arrival in a deathbed room, with top-percentile reasoning recruited to authorise it rather than to interrogate it."
   - page: wiki/legal/2015-retail-theft-arrest
     type: evidenced-by
-    claim: "Snack food pursued to arrest by the state police is the drive's signature output shape — cost-benefit ratios that make no sense are the expected result of a system that optimises for completion rather than for value."
+    claim: "Snack food pursued as far as a criminal citation is the drive's signature output shape — cost-benefit ratios that make no sense are the expected result of a system optimising for completion rather than for value."
+  - page: wiki/legal/2015-possession-arrest
+    type: evidenced-by
+    claim: "The drive's smallest-stakes catastrophe: a saved bag corner good for a 10% bump and one hitter's worth of weed, carried on a 3am errand for no reason, producing three charges including a Class B controlled-substance count over residue."
   - page: wiki/timeline/events/fran-death-vigil
     type: evidenced-by
     claim: "Six months of paid full-time caregiving at $15/hour — the duration Dan states contemporaneously, not the multi-year span the wiki had inferred — is not counter-evidence to Altruism at the 1st percentile; it is the same drive pointed at a goal Dan generated himself, which is the only kind it can serve."
@@ -78,16 +82,19 @@ supply architecture whose individual dealers rotate constantly while the
 architecture never lapses, because a want that must be satisfied at all costs
 cannot be left to a single supplier.
 
-Three documented episodes show the drive at very different stakes and the
-same indifference to context:
+Four documented episodes show the drive at very different stakes and the
+same indifference to context. Two of them fall within weeks of each other in
+2015, which is the point: the drive was not producing one anomalous night, it
+was producing a rate.
 
 | Episode | The objective | What it ran through |
 |---|---|---|
-| [[wiki/legal/2015-retail-theft-arrest]] (late 2015) | Combos snacks | A state police arrest, a lawyer, and the ARD program |
+| [[wiki/legal/2015-retail-theft-arrest]] (2015) | Combos snacks | A retail-theft citation |
+| [[wiki/legal/2015-possession-arrest]] (2015, weeks earlier) | A 10% bump saved for later | A state police arrest, a lawyer, several thousand dollars and the ARD program |
 | [[wiki/timeline/events/the-fall-of-fran]] (2018-03-07/08) | The arrangement's opening encounter | A 97-year-old's broken hip, in the house, mid-event |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] (April 2018) | One drag of nicotine | A hospital-wide fire alarm, four fire trucks, and an escort off the property |
 
-The middle row is the expensive one and the third is the diagnostic one. The
+The Fran row is the expensive one and the vape alarm is the diagnostic one. The
 vape alarm cost Dan more than it could possibly have gained under any
 accounting, which is exactly why it is the clean case: with nothing at stake,
 the pursuit still completed, and the deliberation that preceded it was not

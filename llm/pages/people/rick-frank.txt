@@ -22,6 +22,9 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
+  - page: wiki/legal/2015-possession-arrest
+    type: co-occurs
+    claim: "The stop happened within sight of his store, and the hearing that closed the case produced the sharpest snapshot of the post-2005 family geometry — Rick assuming he would be unwelcome while Suz played the connected parent."
   - page: wiki/people/jay-lauer
     type: evidenced-by
     claim: "The night of the April 2017 overdose is the corpus's only record of Rick having delivered a direct addiction warning to his son — Dan quotes it back to him verbatim: called over to Cross Creek and told that 'there is no turning back from opiates and heroin, that you lose a part of yourself and your ability to be happy.'"
@@ -104,7 +107,7 @@ unknown — flagged for future ingest.
 
 The corpus's texture is sparse but pointed. The best-documented exchange is
 the morning of Dan's ARD hearing (February 17, 2016 —
-[[wiki/legal/2015-retail-theft-arrest]]): Rick wanted to attend and talked
+[[wiki/legal/2015-possession-arrest]]): Rick wanted to attend and talked
 himself out of it — "You're obviously more comfortable with your mom. She's
 pretty well connected & I bet she knows the Judge also... I don't want to
 be responsible for screwing anything up for you. Give me a buzz later & let

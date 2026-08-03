@@ -76,9 +76,9 @@ until February 2019, so the notice's outcome is undocumented.
 
 The address is also the physical anchor of the record's bleakest quantified
 period, and its four years contain the relationship genesis whose closure
-in 2026 the whole corpus orbits. The 2015 retail-theft arrest and ARD
+in 2026 the whole corpus orbits. The 2015 possession arrest and ARD
 process also fall in its first months
-([[wiki/legal/2015-retail-theft-arrest]]).
+([[wiki/legal/2015-possession-arrest]]).
 
 **Gaps:** lease details, rent, and who held the lease across the
 Alexis→Annie transition are undocumented; the physical layout appears

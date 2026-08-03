@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-02
-435 pages, ~655,256 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-03
+438 pages, ~660,805 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -8456,133 +8456,341 @@ family pressure. It earns a page.
 
 
 ========================================================================
+PAGE: wiki/legal/2015-possession-arrest.md
+========================================================================
+
+---
+domain: legal
+page_type: event
+title: "The 2015 Possession Arrest"
+aliases: ["the real arrest", "the lemon run", "the residue bag arrest"]
+status: closed
+knowledge: mixed
+importance: high
+date_created: 2026-08-03
+date_modified: 2026-08-03
+date_range_start: 2015-01-01
+date_range_end: 2016-02-17
+sources:
+  - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/message-csv/imessage_ALL_both_all_now.csv
+tags: [legal, addiction-recovery, family, uniontown-era]
+connections:
+  - page: wiki/people/christo-coan
+    type: contradicts
+    claim: "His October 2017 thread carries Dan saying 'I already got a DUI', which cannot be reconciled with this page's account of an arrest that produced no DUI and with the operator's statement that this was his first and only real arrest."
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: evidences
+    claim: "The corpus's densest record of acquiring an assigned outcome and its thinnest record of serving one: five dated contemporaneous events for the ARD deal against a single retrospective clause for the six months of probation."
+  - page: wiki/legal/2015-retail-theft-arrest
+    type: precedes
+    claim: "The Combos retail theft happened a few weeks after this and is a separate legal matter; until 2026-08-03 the wiki carried the two as one event, attributing this arrest's lawyer, ARD and hearing to a snack-food theft."
+  - page: wiki/people/suzanne-frank
+    type: caused-by
+    claim: "The 2am request for lemons, sent from a pool hall in the thick of her gambling addiction, is the proximate cause of the only real arrest in Dan's record — and the clearest single instance of her habit generating errands that carried his risk."
+  - page: wiki/people/jack-connor
+    type: caused-by
+    claim: "The DA's standing policy denied ARD to anyone charged with a cocaine misdemeanor, residue or not, so the diversion that kept Dan's record clean is entirely attributable to his lawyer defeating a categorical bar."
+  - page: wiki/people/lucy
+    type: co-occurs
+    claim: "Suz's elderly blind Jack Russell was in Dan's arms at the moment of arrest and was returned to Suz by the troopers en route to the barracks, which is why the police detoured to the pool hall."
+  - page: wiki/people/alexis-armel
+    type: co-occurs
+    claim: "The arrest is dated by Alexis being secretly housed at 337 Saratoga at the time — a roughly four-month concealment that places the event before the November 2015 bond switch."
+  - page: wiki/mind/concepts/acquisition-drive
+    type: evidences
+    claim: "The diagnostic detail is that the drive was running on almost nothing: a bag corner saved for a 10% bump and one hitter's worth of weed, carried on a 3am errand for no reason, which is what produced a felony-adjacent charge out of the smallest quantity in the record."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: "The troopers told Suz they knew something was wrong because Dan was unnaturally polite and accommodating — deference read as a tell, which is the concrete origin of a lifelong refusal to perform compliance for authority."
+  - page: wiki/people/rick-frank
+    type: co-occurs
+    claim: "The stop happened in downtown Uniontown within sight of Rick's store, and the February 2016 hearing produced the sharpest snapshot of the post-2005 family geometry — Rick assuming he would be unwelcome, Suz playing the connected parent."
+  - page: wiki/people/fran-coldren
+    type: co-occurs
+    claim: "The car Dan was driving was Fran's — uninspected, expired registration, bald tires, unused since she stopped driving — and its condition is what gave the troopers the impound that produced the inventory search."
+---
+
+# The 2015 Possession Arrest
+
+Dan's only real arrest happened in **2015**, in downtown Uniontown at
+roughly 3am, and it was for drug possession — not for stealing snacks. He
+was pulled over by the Pennsylvania State Police returning from delivering
+lemons to his mother at a pool hall, driving
+[[wiki/people/fran-coldren|Fran's]] disused car with an expired
+registration and bald tires, carrying his mother's blind dog and a
+narcotics pack containing, by his own account, the smallest quantity of
+drugs he could possibly have had. The car was impounded, the impound
+produced an inventory search, and the inventory search produced three
+charges: marijuana possession, paraphernalia for a one-hitter, and
+possession of a Class B controlled substance for **the residue in an empty
+cocaine bag**.
+
+This page exists because the wiki had the event wrong for three weeks. The
+lawyer, the ARD program, the Judge Wagner hearing and the family drama
+around it were all filed under
+[[wiki/legal/2015-retail-theft-arrest|the Combos incident]] — a genuinely
+separate retail theft that happened **a few weeks later**. Both are real.
+Only this one was an arrest.
+
+## The night
+
+The sequence is a chain of small decisions, each individually trivial,
+which is what makes it the corpus's cleanest illustration of
+[[wiki/mind/concepts/acquisition-drive|the acquisition drive]] running at
+almost zero stakes. At around 2am [[wiki/people/suzanne-frank|Suz]] — then,
+in Dan's phrasing, in the thick of her gambling addiction — texted from
+KJ's, better known as Anytime Billiards on Route 51, asking him to bring
+lemons so she could make lemon drops. He went. He took the car that was
+available, which was Fran's, unused since she stopped driving and unsafe on
+at least three counts. He took [[wiki/people/lucy|Lucy]], Suz's elderly and
+fully blind Jack Russell terrier. And he took the narcotics pack, which he
+flags in his own telling as inexplicable: he had no substances that night
+beyond a saved corner of a plastic bag good for "a 10% bump" and enough
+marijuana for perhaps one hitter. His summary of the setup is not
+self-flattering — "In other words, I was asking for it."
+
+The stop happened between his father's store and the import shop Romeo's
+across the street, in front of a hairdresser. Two details from it matter
+beyond the anecdote.
+
+**The politeness was the tell.** The troopers later told Suz that what
+alerted them was how *unnaturally polite and accommodating* Dan was being.
+This is the corpus's earliest documented instance of deference itself
+reading as guilt, and it is the concrete floor under
+[[wiki/mind/synthesis/vertical-authority-skepticism|his refusal to perform
+compliance]] — the lesson available from that night is not that authority
+is dangerous when resisted but that it is unsatisfiable when accommodated.
+
+**No sobriety testing was performed.** Dan states plainly that he was never
+asked to do field sobriety tests or a roadside breath test. This
+contradicts the account the wiki has carried since 2026-07-13; see the
+contradiction block below.
+
+Denied consent, the troopers went around him: the car was not in his name,
+so they sought permission from its custodian. That produced what Dan calls
+one of the stupidest and funniest conversations of his life — Suz, fully
+aware he was pulled over, repeating "well just let them search it" while he
+tried to remind her that this was the opposite of what she had taught him.
+Consent never came. The search happened anyway, through a route that
+required no consent at all: the car was declared undriveable, then declared
+badly parked — by roughly three feet — and therefore impounded, and an
+impounded vehicle is inventoried as a matter of policy.
+
+The arrest itself came after he had been released. Told to take the dog and
+go, Dan did not hurry, knowing what was in the car. Fewer than ten steps
+away he heard a trooper ask "Hey how do you turn this on?", turned around,
+and was cuffed with the dog still in his arms.
+
+En route to the barracks the troopers detoured to the pool hall — partly, Dan
+believes, to verify the improbable claim that his mother was out at 4am on a
+weeknight, and partly to hand off Lucy.
+
+## The charges, and why the disposition was not routine
+
+| Charge | Basis |
+|---|---|
+| Possession of marijuana | Roughly one hitter's worth |
+| Possession of drug paraphernalia | The one-hitter |
+| Possession of a Class B controlled substance | **Residue** in an empty cocaine bag |
+
+The third row is the one that made the case serious. The Fayette County
+District Attorney of the period held a categorical policy of refusing ARD —
+Pennsylvania's first-offender diversion track — to anyone charged with a
+cocaine or heroin misdemeanor, **residue or not**. On the face of it Dan was
+ineligible for the outcome he ultimately received.
+
+That he got it anyway is attributable to one person.
+[[wiki/people/jack-connor|Jack Connor]] defeated the bar, at a cost Dan puts
+at several thousand dollars, and Dan's assessment is unqualified in a corpus
+where almost nothing is: "my fucking absolute LEGEND of a lawyer." The
+contemporaneous message record independently describes the same manoeuvring
+without naming what it was against — "Jack had to do some wheeling and
+dealing to make it happen."
+
+## Case timeline
+
+Reconstructed from the message archive, which begins November 28, 2015 and
+therefore postdates the arrest itself.
+
+| Date | Event |
+|---|---|
+| 2015, before November | Arrest (PA State Police, downtown Uniontown, ~3am) |
+| Dec 9–11, 2015 | Barracks trips to replace case paperwork the barracks had lost; ARD application filed |
+| Jan 20, 2016 | ARD office visit to check application status |
+| Jan 25, 2016 | First fine installment paid ("$70 more to pay a month from now") |
+| Feb 17, 2016 | Hearing before Judge Wagner — ARD approved; remaining fines paid |
+| ~Aug 2016 | Expected end of six-month probation → expungement eligibility |
+
+**The dating.** The capture opens "It's sometime in early 2015," and that is
+almost certainly too early. Dan places the night firmly inside the roughly
+four-month period when [[wiki/people/alexis-armel|Alexis]] was secretly
+living at 337 Saratoga after being thrown out — hidden, snuck in and out,
+fed — which the corpus places before the November 2015 switch to
+[[wiki/people/annie-ulmer|Annie]] ([[wiki/mind/synthesis/bond-switch-2015]]).
+That brackets the arrest to 2015 and before November. The aftermath, running
+from the December barracks trips to the February hearing, is consistent with
+a late-2015 arrest and awkward for an early-2015 one, since it would leave a
+nine-month gap with no recorded activity. **The wiki dates it to 2015,
+before November, and treats "early 2015" as the operator's approximation
+rather than a fixed point.** This is the same one-directional dating drift
+that the March 2018 Fran captures showed, recorded here rather than
+silently corrected.
+
+> **CONTRADICTION [2026-08-03]:** This page's earlier form stated that
+> during the stop Dan "consented to a breath search — a decision he later
+> credited with saving his driver's license," citing a March 2026 message:
+> "I would have lost mine if I hadn't consented to the breath search when I
+> got arrested." The capture states the opposite in direct terms: "I was
+> never asked to complete field sobriety tests or take a roadside PBT." Both
+> are Dan's own testimony, ten years apart, and the wiki does not resolve
+> them. The most economical reading is that the 2026 message refers to a
+> *chemical* test administered later at the barracks rather than to roadside
+> testing, which would make both statements true — but that is an inference
+> and no source states it.
+
+> **CONTRADICTION (carried forward):** An October 19, 2017 message to
+> [[wiki/people/christo-coan|Christo Coan]] — "hell yeah I already got a DUI
+> I'm not getting any more of those :D" — indicates a separate, otherwise
+> undocumented DUI. The capture's flat statement that this arrest is "my
+> first and only real arrest" sharpens rather than settles the puzzle: a DUI
+> can be issued by citation without a booking arrest, which would make both
+> claims compatible, but nothing in the corpus dates or locates it.
+
+## What it left behind
+
+Dan's own verdict is that the arrest taught him "not to take stupid chances,"
+a lesson he describes as still potent a decade later — and the corpus bears
+that out in a specific and slightly odd form. The risk-aversion it produced
+attached to **vehicles and police contact** rather than to drugs: he still
+describes himself as "an absolute fucking neurotic mess about car stuff," and
+in September 2025 he was coaching [[wiki/people/kristin|Kristin]] to "run the
+cost/benefit analysis about what you're getting from that kind of risk
+exposure." The supply architecture documented at
+[[wiki/mind/synthesis/supply-network]] continued without interruption for the
+next eleven years. What changed was the transport layer, not the appetite.
+
+## Gaps
+
+The exact date is unknown and the capture's "early 2015" is probably wrong by
+some months. The arresting barracks, the docket number, the grading of each
+charge, and whether the expungement was ever completed are all unrecorded.
+Whether the fines referenced in January and February 2016 belong to this case,
+to [[wiki/legal/2015-retail-theft-arrest|the Combos matter]], or to both
+running concurrently is not determinable from the message record — the
+"combos are paid off" phrasing suggests at least some of that money was the
+theft fine. The identity of the DA holding the no-ARD-for-cocaine policy is
+not named. And Dan's claim that he completed ARD "without incident" is the
+only account of the six-month probation that exists anywhere in the corpus.
+
+
+========================================================================
 PAGE: wiki/legal/2015-retail-theft-arrest.md
 ========================================================================
 
 ---
 domain: legal
 page_type: event
-title: "2015 Arrest (Retail Theft / \"The Combos Incident\")"
+title: "The Combos Incident (2015 Retail Theft)"
+aliases: ["the Combos incident", "stealing combos"]
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-03
 sources:
+  - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/imessage_ALL_both_all_now.csv
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/christocoan_2cxo0swo3g/message_1.html"
-related:
-  - wiki/people/annie-ulmer
-  - wiki/people/rick-frank
-  - wiki/people/suzanne-frank
-  - wiki/timeline/periods/2015-2016-annie-relationship-start
-  - wiki/self/context-core
-  - wiki/mind/synthesis/vertical-authority-skepticism
-tags: [legal, relationships, dui]
+tags: [legal, relationships, uniontown-era]
 connections:
-  - page: wiki/mind/synthesis/the-embedded-objective
-    type: evidences
-    claim: "The corpus records the getting and not the serving: five dated events across ten weeks document the acquisition of the ARD deal, and the six months of court-assigned probation that followed appear nowhere — the rule showing up in the shape of the evidence rather than its content."
+  - page: wiki/legal/2015-possession-arrest
+    type: follows
+    claim: "The real arrest came a few weeks before this and carried the lawyer, the ARD and the hearing that this page wrongly claimed until 2026-08-03 — the theft is the smaller of two separate 2015 legal matters, not the one that produced a booking."
   - page: wiki/mind/concepts/acquisition-drive
     type: evidences
-    claim: "Snack food pursued as far as a state police arrest is the drive's signature output shape: cost-benefit ratios that make no sense are the expected result of a system optimising for completion rather than for value."
+    claim: "Snack food pursued as far as a criminal citation is the drive's signature output shape: cost-benefit ratios that make no sense are the expected result of a system optimising for completion rather than for value."
   - page: wiki/timeline/events/uniontown-hospital-vape-alarm
     type: parallels
     claim: "Three years apart, the same shape twice: a trivially small want run to completion and producing charging paperwork wildly out of proportion to anything gained — Combos in 2015, one drag of nicotine in 2018."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "The theft landed at the exact genesis of the relationship and was metabolised into a running couple's joke, which is the earliest documented instance of the pair converting Dan's legal trouble into shared comedy."
 ---
 
-# 2015 Arrest (Retail Theft / "The Combos Incident")
+# The Combos Incident (2015 Retail Theft)
 
-Dan's only documented arrest: in late 2015, at age 26–27, he was arrested by
-the Pennsylvania State Police over a retail theft — stealing Combos snacks,
-an event the corpus refers to almost exclusively as "the Combos incident."
-It is the earliest dated instance in the corpus of Dan on the receiving end
-of state authority rather than merely theorizing about it — the concrete
-ground floor underneath [[wiki/mind/synthesis/vertical-authority-skepticism]].
-The record's own shape here is evidence for
-[[wiki/mind/synthesis/the-embedded-objective|the payload rule]], and it is that
-page's hardest test. The *acquisition* of the ARD deal is documented across
-five dated events in ten weeks — the lawyer, the December barracks trips for
-lost paperwork, the January status check, the February hearing, the fines
-cleared. The six months of court-assigned probation that followed, which were
-the actually-assigned part, appear nowhere in the corpus at all, and whether
-the expungement was ever completed remains unconfirmed. The getting is
-recorded; the serving is not.
+In 2015, a few weeks after
+[[wiki/legal/2015-possession-arrest|the possession arrest]], Dan stole
+Combos snacks and was cited for retail theft. It is the smaller of two
+separate legal matters he accumulated that year, and it is the one the
+corpus talks about — almost entirely as a joke.
 
-He hired a lawyer ("Jack"), applied for Pennsylvania's ARD program
-(Accelerated Rehabilitative Disposition, the first-offender diversion track),
-was approved at a hearing before Judge Wagner on **February 17, 2016**, and
-paid off his fines the same day. ARD carried a six-month probationary period,
-after which the record was eligible for expungement — "the lightest possible
-outcome," as he described it to his father at the time. The case is closed
-and appears to have left no lasting record, but the arrest experience itself
-left a durable mark: a decade later he still cites it as the reason he is "an
-absolute fucking neurotic mess about car stuff."
+> **REVISED [2026-08-03] — this page was two events wearing one name.**
+> Until today it was titled "2015 Arrest (Retail Theft / 'The Combos
+> Incident')" and carried the lawyer, the ARD application, the Judge Wagner
+> hearing, the barracks trips and the family drama around them, all
+> attributed to a snack-food theft. Per the operator, the Combos theft and
+> the possession arrest are **both real and separate**, weeks apart, and the
+> arrest — with its three drug charges and the DA's categorical bar on ARD
+> for cocaine cases — is the one that produced all of that machinery. The
+> case material has moved to [[wiki/legal/2015-possession-arrest]]. What
+> stays here is the theft itself and what the corpus actually records about
+> it. Nothing has been deleted; the conclusions built on the old framing are
+> corrected in place on the pages that carried them.
 
-## What the record shows
+## What the record actually holds
 
-The arrest itself pre-dates the message archive (which begins November 28,
-2015), so it is reconstructed from its aftermath. During the stop he
-consented to a breath search — a decision he later credited with saving his
-driver's license ("I would have lost mine if I hadn't consented to the breath
-search when I got arrested," March 2026). No DUI resulted from this arrest.
+The corpus contains no contemporaneous account of the theft — no store, no
+date, no charge grading, no disposition. What it contains is the joke, which
+outlived the event by a decade and is the reason the incident was ever
+prominent enough to be mistaken for the arrest.
 
-> **CONTRADICTION:** An October 19, 2017 message to
-> [[wiki/people/christo-coan|Christo Coan]] — "hell yeah I already got
-> a DUI I'm not getting any more of those :D" — indicates a *separate*,
-> otherwise undocumented DUI predating this message, distinct from both
-> this arrest (which produced none) and Annie's own documented DUI. No
-> date, location, or outcome for it exists anywhere else in the
-> corpus; the legal index's "only documented arrest" framing is stale
-> pending further investigation. See [[wiki/people/christo-coan]].
+During the December 2015 barracks trips over the possession case, the trooper
+handling the paperwork recognised Dan and ribbed him: **"DID YOU STEAL MORE
+COMBOS."** That single line is the strongest evidence the wiki holds that the
+theft was real, chargeable, and known to the same barracks — a trooper does
+not make that joke about nothing.
 
-Through December
-2015 he made repeated trips to the state police barracks to replace case
-paperwork the barracks had lost; the trooper handling it remembered him and
-joked "DID YOU STEAL MORE COMBOS." The episode landed at the exact genesis of
-the [[wiki/people/annie-ulmer|Annie]] relationship — she drove him to at least one barracks trip and the
-theft became a running couple's joke ("I wonder if stealing combos counts as
-poison," she teased when he needed a background check).
+[[wiki/people/annie-ulmer|Annie]], three months into the relationship, took
+it up as a running bit; when Dan needed a background check she teased, "I
+wonder if stealing combos counts as poison." And Dan's own February 17, 2016
+line — **"My combos are paid off"** — records a fine being cleared, though
+whether that money was the theft's fine, the possession case's, or both
+running concurrently is not determinable from the message record.
 
-## Case timeline
+The episode's real significance is that it sat at the exact genesis of the
+[[wiki/people/annie-ulmer|Annie]] relationship and was immediately converted
+into shared comedy. That is the earliest documented instance of a pattern
+that runs the length of the decade: Dan's legal and financial trouble
+entering the relationship as material rather than as crisis.
 
-| Date | Event |
-|------|-------|
-| ~Fall 2015 | Arrest (retail theft, PA State Police); breath search consented, license kept |
-| Dec 9–11, 2015 | Barracks trips to replace lost case paperwork; ARD application filed ("Jack had to do some wheeling and dealing to make it happen") |
-| Jan 20, 2016 | ARD office visit to check application status |
-| Jan 25, 2016 | First fine installment paid ("$70 more to pay a month from now") |
-| Feb 17, 2016 | Final hearing — ARD approved (Judge Wagner); remaining fines paid ("My combos are paid off") |
-| ~Aug 2016 | Expected end of six-month probation → expungement eligibility |
+## Why it is a good instance of the drive
 
-## Family dynamics around the hearing
+Combos remain the corpus's cleanest small-stakes illustration of
+[[wiki/mind/concepts/acquisition-drive|the acquisition drive]], and the
+correction above does not weaken that — it sharpens it. A want worth a few
+dollars was run to completion until it produced a criminal citation, and the
+same shape recurs three years later when one drag of nicotine produces a
+hospital-wide fire alarm and charging documents
+([[wiki/timeline/events/uniontown-hospital-vape-alarm]]). What the correction
+removes is the claim that this particular want cost a lawyer and a diversion
+programme. It did not. The other one did, and the fact that **2015 produced
+two separate chargeable incidents a few weeks apart** is itself the better
+evidence: the drive was not producing one anomalous night, it was producing a
+rate.
 
-The hearing day produced one of the sharpest documented snapshots of the
-post-2005 family geometry: [[wiki/people/rick-frank|Rick]] texted that
-morning wanting to attend but assumed he would be unwelcome — "You're
-obviously more comfortable with your mom. She's pretty well connected & I bet
-she knows the Judge also... I don't want to be responsible for screwing
-anything up for you" — while [[wiki/people/suzanne-frank|Suz]] played the
-connected, logistical parent. Annie was listed as his emergency contact with
-ARD, three months into the relationship.
+## Gaps
 
-## Significance
-
-This is the single most consequential legal event in Dan's own record — the
-100 legal-category entries in the life-events calendar are otherwise
-dominated by other people's arrests, DUIs, and court dates (Tom's 2025 DUI,
-Annie's October 2025 arrest, friends' cases). It also calibrates his later
-behavior: the neurotic risk-aversion around vehicles and police contact he
-preaches to others (September 2025, to [[wiki/people/kristin|Kristin]]: "please make sure you run the
-cost/benefit analysis about what you're getting from that kind of risk
-exposure") traces directly to this experience rather than to any subsequent
-trouble.
-
-**Gaps:** exact arrest date, location/store, and charge grading are not in
-the corpus; whether the expungement was actually completed after the
-probation period is unconfirmed (his December 2015 mention of a "6 month
-probationary period" and clean background expectations suggest it was);
-"Jack" the lawyer's full name is unknown.
+Everything specific. The store, the date, the value of the goods, the charge
+grading, and the disposition are all absent from the corpus, as is any
+statement of how the theft was resolved — whether by fine, by summary
+citation, or folded into the possession case's disposition. The interval
+between the two incidents is known only as "a few weeks" from the operator,
+and their order is known only from the same source. No court record for
+either has been retrieved; both are answerable outside the corpus by a
+Fayette County docket search.
 
 
 ========================================================================
@@ -8741,7 +8949,8 @@ legal events (Annie's October 2025 arrest, Tom's 2025 DUI) live on their
 people pages, not here. Workplace disputes that never became legal actions
 live in work/ — see [[wiki/work/bfs-foods]] for the 2026 BFS drawer dispute.
 
-- [[wiki/legal/2015-retail-theft-arrest]] — Dan's only *fully* documented arrest: retail theft ("the Combos incident"), resolved via ARD in February 2016 with expungement expected. Closed. A single October 2017 message references a separate, otherwise unrecorded prior DUI — flagged as a CONTRADICTION on that page, not yet its own event.
+- [[wiki/legal/2015-possession-arrest]] — Dan's only real arrest: a 3am traffic stop in downtown Uniontown on a lemon run for Suz, an impound-triggered inventory search, and three drug charges including a Class B count over cocaine residue. Resolved by ARD in February 2016 against a DA policy that barred it. Closed.
+- [[wiki/legal/2015-retail-theft-arrest]] — the Combos incident: a separate retail theft a few weeks after the arrest, surviving in the corpus almost entirely as a running joke. Closed. A single October 2017 message references an otherwise unrecorded prior DUI — flagged as a CONTRADICTION on the possession-arrest page.
 - [[wiki/legal/463-morgantown]] — the live housing/property situation: no-lease occupancy, Suz's blended roles, contractor lien risk (~July 2026 deadline). Active.
 - [[wiki/timeline/events/uniontown-hospital-vape-alarm]] — filed under timeline/, noted here as the corpus's second brush with charging paperwork: a vape set off a hospital-wide fire alarm during Fran's April 2018 death watch, four fire trucks, escorted off the property. Whether anything was ever filed is unverified.
 
@@ -8759,9 +8968,10 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-03
 sources:
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
+  - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [personality-profile, addiction-recovery, legal, forensic-analysis]
@@ -8783,7 +8993,10 @@ connections:
     claim: "The purest instance, because the stakes were nil: a nicotine urge serviced on arrival in a deathbed room, with top-percentile reasoning recruited to authorise it rather than to interrogate it."
   - page: wiki/legal/2015-retail-theft-arrest
     type: evidenced-by
-    claim: "Snack food pursued to arrest by the state police is the drive's signature output shape — cost-benefit ratios that make no sense are the expected result of a system that optimises for completion rather than for value."
+    claim: "Snack food pursued as far as a criminal citation is the drive's signature output shape — cost-benefit ratios that make no sense are the expected result of a system optimising for completion rather than for value."
+  - page: wiki/legal/2015-possession-arrest
+    type: evidenced-by
+    claim: "The drive's smallest-stakes catastrophe: a saved bag corner good for a 10% bump and one hitter's worth of weed, carried on a 3am errand for no reason, producing three charges including a Class B controlled-substance count over residue."
   - page: wiki/timeline/events/fran-death-vigil
     type: evidenced-by
     claim: "Six months of paid full-time caregiving at $15/hour — the duration Dan states contemporaneously, not the multi-year span the wiki had inferred — is not counter-evidence to Altruism at the 1st percentile; it is the same drive pointed at a goal Dan generated himself, which is the only kind it can serve."
@@ -8830,16 +9043,19 @@ supply architecture whose individual dealers rotate constantly while the
 architecture never lapses, because a want that must be satisfied at all costs
 cannot be left to a single supplier.
 
-Three documented episodes show the drive at very different stakes and the
-same indifference to context:
+Four documented episodes show the drive at very different stakes and the
+same indifference to context. Two of them fall within weeks of each other in
+2015, which is the point: the drive was not producing one anomalous night, it
+was producing a rate.
 
 | Episode | The objective | What it ran through |
 |---|---|---|
-| [[wiki/legal/2015-retail-theft-arrest]] (late 2015) | Combos snacks | A state police arrest, a lawyer, and the ARD program |
+| [[wiki/legal/2015-retail-theft-arrest]] (2015) | Combos snacks | A retail-theft citation |
+| [[wiki/legal/2015-possession-arrest]] (2015, weeks earlier) | A 10% bump saved for later | A state police arrest, a lawyer, several thousand dollars and the ARD program |
 | [[wiki/timeline/events/the-fall-of-fran]] (2018-03-07/08) | The arrangement's opening encounter | A 97-year-old's broken hip, in the house, mid-event |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] (April 2018) | One drag of nicotine | A hospital-wide fire alarm, four fire trucks, and an escort off the property |
 
-The middle row is the expensive one and the third is the diagnostic one. The
+The Fran row is the expensive one and the vape alarm is the diagnostic one. The
 vape alarm cost Dan more than it could possibly have gained under any
 accounting, which is exactly why it is the clean case: with nothing at stake,
 the pursuit still completed, and the deliberation that preceded it was not
@@ -18030,7 +18246,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-03
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -18042,7 +18258,7 @@ synthesizes:
   - wiki/mind/concepts/institutional-out
   - wiki/mind/concepts/acquisition-drive
   - wiki/timeline/periods/2021-2023-employment-block
-  - wiki/legal/2015-retail-theft-arrest
+  - wiki/legal/2015-possession-arrest
 tags: [career, personality-profile, forensic-analysis, uniontown-era, nyc-era]
 connections:
   - page: wiki/mind/concepts/acquisition-drive
@@ -18066,9 +18282,9 @@ connections:
   - page: wiki/timeline/periods/2021-2023-employment-block
     type: evidenced-by
     claim: "Supplies the two numbers the rule turns on — an eighteen-month alibi duration and Dan's own account that the work itself took 'literally EVERYTHING i had in me' — which together separate the cost of the assignment from what was actually carrying him through it."
-  - page: wiki/legal/2015-retail-theft-arrest
+  - page: wiki/legal/2015-possession-arrest
     type: evidenced-by
-    claim: "The hardest case and it holds: the acquisition of the ARD deal is documented across five dated events in ten weeks, and the six months of court-assigned probation that followed are documented nowhere — the corpus records the getting and not the serving."
+    claim: "The hardest case, and it survives narrowing: the acquisition of the ARD deal carries five dated contemporaneous events across ten weeks, while the six months of assigned probation are attested only by one retrospective clause a decade later — the getting is documented as it happens, the serving only in summary."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: parallels
     claim: "That page establishes that Dan refuses vertical claims on his time; this one shows what he does instead of refusing when the claim pays — he accepts the role and runs a private objective inside it, which is evasion by occupation rather than by exit."
@@ -18105,7 +18321,7 @@ falsification.
 | [[wiki/work/nemacolin-caddying]] | "Experience Associate – Golf" | The looper status ladder — the call-up to "the real loopers," the first two-bag round, the Scottsdale transfer pitched to Carl — plus golf itself as his own sport | **43 months** |
 | [[wiki/work/bfs-foods]] | Gas-station cashier | **None documented** | **~1 month** |
 | [[wiki/work/caviar-courier]] | App-dispatched courier | **None available to install** | 12 months, intermittent |
-| [[wiki/legal/2015-retail-theft-arrest]] | Six-month court-ordered ARD probation | — (the payload was the deal itself, obtained before the probation began) | Compliance undocumented |
+| [[wiki/legal/2015-possession-arrest]] | Six-month court-ordered ARD probation | — (the payload was the deal itself, obtained before the probation began) | Compliance attested only retrospectively |
 
 The first two rows are the falsifiers of the old rule and the evidence for the
 new one. The last three are what make it a claim rather than a description.
@@ -18170,20 +18386,25 @@ scattered orders in March 2020, one final burst in April 2020. Twelve months of
 availability, no tenure. The appetite for income was constant across the
 period; what was missing was anything to attach the engine to.
 
-**The 2015 arrest is the hardest case, and it is the one I most expected to
-break this.** A court assigned Dan a six-month ARD probation — an externally
-set goal, with real consequences for failure, that the record says he entered.
-If the corpus documented him serving it at cost, the rule would need rewriting
-again. It does not. What it documents in granular dated detail is the
-*acquisition* of the deal: hiring the lawyer, the December barracks trips to
-replace lost paperwork, the January ARD office visit to check the application,
-the February 17 hearing, the fines cleared — "My combos are paid off." Five
-dated events across ten weeks. Then the six months of compliance that were
-actually the assigned part appear nowhere at all, and
-[[wiki/legal/2015-retail-theft-arrest]] records that whether the expungement
-was ever completed is unconfirmed to this day. **The corpus records the getting
-and not the serving**, which is the rule showing up in the shape of the
-evidence rather than in its content.
+**The 2015 arrest is the hardest case, and a capture ingested on 2026-08-03
+narrowed it without breaking it.** A court assigned Dan a six-month ARD
+probation — an externally set goal with real consequences for failure. The
+corpus documents the *acquisition* of that deal in granular dated detail:
+hiring [[wiki/people/jack-connor|Jack Connor]], the December barracks trips to
+replace lost paperwork, the January ARD office visit, the February 17 hearing,
+the fines cleared. Five dated contemporaneous events across ten weeks.
+
+What has changed is that the six months of compliance are no longer documented
+*nowhere*. Dan's own account, given a decade later, is that he "completed that
+without incident" — so the serving happened and is now on the record. The
+asymmetry that carries the argument is therefore about density rather than
+existence: **the getting is recorded as it happens, in five separate dated
+traces; the serving is recorded once, retrospectively, in a single clause.**
+That is a weaker version of the original claim and it is the version the
+evidence supports. It is also worth noting what the same capture reveals about
+the acquisition — the DA held a categorical policy against ARD for cocaine
+charges, residue or not, which means the effort Dan put into *getting* the deal
+was aimed at a bar most defendants could not clear at all.
 
 ## What this does to the acquisition drive
 
@@ -19048,6 +19269,9 @@ sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
 tags: [politics, relationships, family, personality-profile, nyc-era]
 connections:
+  - page: wiki/legal/2015-possession-arrest
+    type: evidenced-by
+    claim: "The concrete floor under the disposition: troopers told Suz they knew something was wrong because Dan was being unnaturally polite and accommodating — the earliest documented case of deference itself reading as guilt."
   - page: wiki/mind/synthesis/the-embedded-objective
     type: parallels
     claim: "Refusal is only half the repertoire — where a vertical claim pays, Dan accepts the role and runs a private objective inside it instead of rejecting it, which is evasion by occupation rather than by exit."
@@ -19141,7 +19365,7 @@ reading via "everyone is in the wrong, then score who is *more* wrong"
 Trump as a gravity well of one man's selfish interest, the Democratic Party
 complicit through corporate capture and gerontocracy, institutions on all
 sides captured. No team. The personal ground floor under all of this
-abstraction is the [[wiki/legal/2015-retail-theft-arrest|2015 retail-theft
+abstraction is the [[wiki/legal/2015-possession-arrest|2015 possession
 arrest]] — the corpus's earliest instance of Dan on the *receiving* end of
 state authority rather than analyzing it from outside, years before the
 political theorizing had a name.
@@ -19533,6 +19757,9 @@ infobox:
   location: nyc
   known_for: "Role / Relationship: Prior relationship (pre-Annie); referenced as 'Lex' / Alexis Armel in life calendar, profile dumps,"
 connections:
+  - page: wiki/legal/2015-possession-arrest
+    type: co-occurs
+    claim: "The arrest is dated by her: Dan places it inside the roughly four months he was secretly housing her at 337 Saratoga after she was thrown out, which brackets it to 2015 before the November bond switch."
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: instantiates
     claim: "Being paid into the 2018 arrangement with her own successor and then carried as a warm correspondence to 2025 shows retention here is an active policy rather than passive inertia."
@@ -22439,7 +22666,7 @@ connections:
   - page: wiki/work/nemacolin-caddying
     type: co-occurs
     claim: "The Oct 31, 2017 party invite — open to 'every caddie, staging, and pro shop employee' — is a direct social artifact of the caddie-yard cohort, thrown at Dan's own house."
-  - page: wiki/legal/2015-retail-theft-arrest
+  - page: wiki/legal/2015-possession-arrest
     type: contradicts
     claim: "Dan's Oct 19, 2017 aside — 'hell yeah I already got a DUI I'm not getting any more of those' — references a separate, otherwise undocumented DUI, contradicting the retail-theft page's 'No DUI resulted' framing and the legal index's 'only documented arrest' claim."
   - page: wiki/places/117-belmont-circle
@@ -22486,7 +22713,7 @@ In the same conversation, declining a beer-pong-related mishap story
 with his own, Dan writes: "hell yeah I already got a DUI I'm not
 getting any more of those :D thanks bro." No other detail follows, and
 nothing elsewhere in the corpus names a Dan-side DUI — the
-[[wiki/legal/2015-retail-theft-arrest|2015 retail-theft arrest]] page
+[[wiki/legal/2015-possession-arrest|2015 possession arrest]] page
 explicitly states no DUI resulted from that stop, and the legal
 domain's only other DUI material belongs to
 [[wiki/people/annie-ulmer|Annie]]. This is therefore the corpus's only
@@ -24699,6 +24926,12 @@ infobox:
   role: "Maternal great-grandmother; matriarch of the Uniontown country-club era"
   known_for: "Dan's self-described biggest life influence; taught him to read, funded the production identity, and was his paid full-time care for the six months before she died"
 connections:
+  - page: wiki/people/lucy
+    type: co-occurs
+    claim: "The household's dog was put down within days of Fran's April 2018 death by deliberate scheduling, which makes Lucy the one loss in the corpus timed by another death rather than by its own decline."
+  - page: wiki/legal/2015-possession-arrest
+    type: co-occurs
+    claim: "Her disused car — uninspected, expired registration, bald tires — is what gave the troopers the impound that produced the inventory search, making her the unwitting mechanism of Dan's only arrest."
   - page: wiki/timeline/events/the-fall-of-fran
     type: caused-by
     claim: "One night in March 2018 ended a fifty-year residency and, four weeks later, her life — and it happened while a plan Dan had been arranging for a year was executing in the same house."
@@ -25531,6 +25764,8 @@ related: []
 - [[wiki/people/michael-hinkle]] — One-sided, unanswered 2017 Facebook message.
 - [[wiki/people/mike-cordaro]] — Childhood friend reconnecting summer 2024; new "uncle Dave" family lead.
 - [[wiki/people/mike-zollinger]] — Fellow Nemacolin caddy, 2018; early crypto banter predating the 2020-21 market era.
+- [[wiki/people/jack-connor]] — The Fayette County lawyer who got Dan into ARD in 2016 against a District Attorney policy that categorically barred it for cocaine charges; the reason the only real arrest left no record.
+- [[wiki/people/lucy]] — Suz's elderly blind Jack Russell terrier: in Dan's arms when he was cuffed in 2015, and put down days after Fran's death to consolidate the grief.
 - [[wiki/people/milo]] — Dan's Chihuahua, with him since at least 2018; the one presence explicitly carved out as exempt from forensic analysis. Stayed with Dan when the household split from Annie in 2025.
 - [[wiki/people/mohammed-bin-salman]] — Joke contact name; close gaming friend, 2023-2024.
 - [[wiki/people/morley-frank]] — Paternal grandfather of Dan Frank. Born 20 August 1927, Brownsville, Fayette County, Pennsylvania. Died 13…
@@ -25636,6 +25871,66 @@ when he gets back from his vacation" — informal chatter suggesting DJ's
 own tenure may have ended around the same window, not corroborated
 anywhere else.
 Current contact status post-2024; his own exit from Au Za'atar.
+
+
+========================================================================
+PAGE: wiki/people/jack-connor.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+title: "Jack Connor"
+aliases: ["Jack"]
+status: stable
+date_created: 2026-08-03
+date_modified: 2026-08-03
+tags: [legal, uniontown-era]
+infobox:
+  name: "Jack Connor"
+  relationship_to_dan: "defence lawyer (2015–2016)"
+  location: uniontown
+  first_contact: 2015
+  known_for: "The Fayette County lawyer who got Dan into ARD against a District Attorney policy that categorically excluded cocaine charges"
+connections:
+  - page: wiki/legal/2015-possession-arrest
+    type: causes
+    claim: "The DA of the period refused ARD to anyone charged with a cocaine misdemeanor, residue or not, so the diversion that kept Dan's only real arrest off his record is attributable to Connor defeating a categorical bar rather than to the case being minor."
+  - page: wiki/people/suzanne-frank
+    type: co-occurs
+    claim: "The one other trace of Connor in the corpus places him at a casino cash-claw drawing Suz was also attending, which is consistent with a local professional known to the family through the gambling circuit rather than retained cold."
+---
+
+# Jack Connor
+
+Jack Connor is the Fayette County defence lawyer who represented Dan after
+[[wiki/legal/2015-possession-arrest|the 2015 possession arrest]], and he is
+the reason that arrest left no permanent record. Dan's assessment of him is
+the most unqualified endorsement of any professional anywhere in the corpus:
+"my fucking absolute LEGEND of a lawyer."
+
+The work he did was not routine. Dan was charged with possession of a Class B
+controlled substance over **residue** in an empty cocaine bag, and the
+District Attorney of the period held a standing policy of denying
+Pennsylvania's ARD diversion programme to anyone facing a cocaine or heroin
+misdemeanor — residue or not. On the face of it the outcome Dan received was
+unavailable to him. Connor obtained it anyway, at a cost Dan puts at several
+thousand dollars. The contemporaneous message record describes the same
+manoeuvring from the outside without knowing what it was against: "Jack had to
+do some wheeling and dealing to make it happen."
+
+One other trace of him survives in the corpus, and it is incidental rather
+than legal. A message describes a casino "cash claw" drawing at which "the
+first name they called was Jack Connor," alongside the observation that anyone
+who did not try to solicit a job from him would be crazy. It places Connor in
+the same Fayette County gambling-venue circuit that
+[[wiki/people/suzanne-frank|Suz]] moved in, which is a plausible route by which
+the family knew to call him — though no source states how he was retained.
+
+**Gaps:** his firm, his fee in exact terms, whether he handled
+[[wiki/legal/2015-retail-theft-arrest|the Combos matter]] as well, and any
+later contact are all unrecorded. The message placing him at the cash-claw
+drawing is undated in the extract available.
 
 
 ========================================================================
@@ -28647,6 +28942,67 @@ neighbor connection; the identity and fate of "Genie"/"Jeanie."
 
 
 ========================================================================
+PAGE: wiki/people/lucy.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+title: "Lucy"
+status: closed
+date_created: 2026-08-03
+date_modified: 2026-08-03
+date_range_end: 2018-04
+tags: [pets, family, uniontown-era]
+infobox:
+  name: "Lucy"
+  relationship_to_dan: "family dog (his mother's)"
+  location: uniontown
+  known_for: "Suz's elderly blind Jack Russell terrier; in Dan's arms at the moment of his only arrest, and put down days after Fran died"
+connections:
+  - page: wiki/people/suzanne-frank
+    type: component-of
+    claim: "Lucy was Suz's dog, and the decision to euthanise her within days of Fran's death — 'because we wanted to get all the awful-ness out of the way at once' — is a documented instance of Suz batching grief rather than sequencing it."
+  - page: wiki/legal/2015-possession-arrest
+    type: co-occurs
+    claim: "She was in Dan's arms when the troopers cuffed him and was handed back to Suz during a detour to the pool hall, which is the only reason the arrest route passed through the venue that caused it."
+  - page: wiki/people/fran-coldren
+    type: co-occurs
+    claim: "Her euthanasia was scheduled off Fran's death rather than her own decline, which makes her the one household loss in the corpus timed by another death instead of by its own clock."
+---
+
+# Lucy
+
+Lucy was [[wiki/people/suzanne-frank|Suz's]] Jack Russell terrier — elderly
+and fully blind by 2015 — and she appears in the corpus at two moments, both
+of which belong to somebody else's story.
+
+The first is [[wiki/legal/2015-possession-arrest|the 2015 possession arrest]].
+Dan had taken her along on the 3am errand that ended in a traffic stop, and
+when the troopers found the narcotics pack during the inventory search he was
+cuffed with the dog still in his arms. The detour the police then made to the
+pool hall on the way to the barracks was partly to hand her back.
+
+The second is her death. A message in the corpus records it plainly: Suz "put
+lucy down a couple days after fran died because we wanted to get all the
+awful-ness out of the way at once." [[wiki/people/fran-coldren|Fran]] died on
+April 4, 2018, which dates Lucy's euthanasia to within a few days of it. The
+reasoning is worth recording as given — the timing was chosen to consolidate
+two losses into one period rather than to follow the dog's own decline, which
+is the only documented instance in the corpus of a death being scheduled
+around another death for the convenience of grieving.
+
+A third, undated message carries the only affectionate trace of her: "do you
+remember when we went to cheat lake to take lucy and you were upset and saying
+goodbye to her in the back seat?"
+
+**Gaps:** her age, when she went blind, when she joined the household, and the
+date of the Cheat Lake trip are all unrecorded. Whether the euthanasia
+decision was medical as well as logistical is not stated anywhere — the only
+account is the one-sentence explanation above.
+
+
+========================================================================
 PAGE: wiki/people/lukyan-mraz.md
 ========================================================================
 
@@ -30629,6 +30985,9 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
+  - page: wiki/legal/2015-possession-arrest
+    type: co-occurs
+    claim: "The stop happened within sight of his store, and the hearing that closed the case produced the sharpest snapshot of the post-2005 family geometry — Rick assuming he would be unwelcome while Suz played the connected parent."
   - page: wiki/people/jay-lauer
     type: evidenced-by
     claim: "The night of the April 2017 overdose is the corpus's only record of Rick having delivered a direct addiction warning to his son — Dan quotes it back to him verbatim: called over to Cross Creek and told that 'there is no turning back from opiates and heroin, that you lose a part of yourself and your ability to be happy.'"
@@ -30711,7 +31070,7 @@ unknown — flagged for future ingest.
 
 The corpus's texture is sparse but pointed. The best-documented exchange is
 the morning of Dan's ARD hearing (February 17, 2016 —
-[[wiki/legal/2015-retail-theft-arrest]]): Rick wanted to attend and talked
+[[wiki/legal/2015-possession-arrest]]): Rick wanted to attend and talked
 himself out of it — "You're obviously more comfortable with your mom. She's
 pretty well connected & I bet she knows the Judge also... I don't want to
 be responsible for screwing anything up for you. Give me a buzz later & let
@@ -32050,6 +32409,15 @@ synthesizes:
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
+  - page: wiki/people/lucy
+    type: contains
+    claim: "Her blind Jack Russell, whose euthanasia she scheduled days after Fran's death 'because we wanted to get all the awful-ness out of the way at once' — the corpus's one documented case of batching grief rather than sequencing it."
+  - page: wiki/people/jack-connor
+    type: co-occurs
+    claim: "The lawyer who cleared Dan's arrest surfaces once elsewhere in the corpus at a casino cash-claw drawing, placing him in the same Fayette County gambling circuit Suz moved in — the likeliest route by which the family knew to call him."
+  - page: wiki/legal/2015-possession-arrest
+    type: causes
+    claim: "Her 2am request for lemons, sent from a pool hall during the worst of her gambling, is the proximate cause of the only real arrest in Dan's record — and the troopers detoured to that same venue en route to booking, partly to check whether his account of his mother could possibly be true."
   - page: wiki/people/the-unnamed-man
     type: caused-by
     claim: "The third party telephoned Suz to abuse her about a relationship she had no part in; on Dan's account it was the injury that mattered most to her, 'all I heard about for months', and the one Annie eventually came to the house to apologise for."
@@ -34674,9 +35042,9 @@ until February 2019, so the notice's outcome is undocumented.
 
 The address is also the physical anchor of the record's bleakest quantified
 period, and its four years contain the relationship genesis whose closure
-in 2026 the whole corpus orbits. The 2015 retail-theft arrest and ARD
+in 2026 the whole corpus orbits. The 2015 possession arrest and ARD
 process also fall in its first months
-([[wiki/legal/2015-retail-theft-arrest]]).
+([[wiki/legal/2015-possession-arrest]]).
 
 **Gaps:** lease details, rent, and who held the lease across the
 Alexis→Annie transition are undocumented; the physical layout appears
@@ -37657,8 +38025,8 @@ revived 2026) and AI/agent-pipeline builder. Democratic socialist, atheist
 zero relapse; no alcohol 13–15 yrs. Life hinges: parental rupture Nov 2005;
 Full Sail 2008–10; Alexis 2009–15; Annie Thanksgiving 2015–June 1 2026
 (closed after the [[wiki/people/eli|Eli]] affair, discovered Jan 2025 — the gaslighting
-outweighed the affair); 2015 retail-theft arrest resolved via ARD
-([[wiki/legal/2015-retail-theft-arrest]]); BFS termination 2026
+outweighed the affair); 2015 possession arrest resolved via ARD
+([[wiki/legal/2015-possession-arrest]]); BFS termination 2026
 ([[wiki/work/bfs-foods]]); 337 Saratoga being sold, landing at 463
 Morgantown unresolved ([[wiki/legal/463-morgantown]]). Music is the one
 sincere output channel. All facts defer to [[wiki/self/context-core]] and
@@ -37685,8 +38053,8 @@ engineered architecture ([[wiki/self/context-core]]).
 era, the Twitter voice forming. Back in Uniontown from May 2013: the
 production aliases develop (SLOPPP 2013–15, MOGZART 2014–16 —
 [[wiki/interests/music/overview]]), Alexis ends, and **Annie begins
-Thanksgiving 2015**, four weeks after the retail-theft arrest that ended in
-ARD and expungement ([[wiki/legal/2015-retail-theft-arrest]]). Then the
+Thanksgiving 2015**, four weeks after the possession arrest that ended in
+ARD and expungement ([[wiki/legal/2015-possession-arrest]]). Then the
 hard years: 2017 poverty floor (water shut off, free DJing, camming), 2018
 deep cycle (peak chaos, ~40k messages/year).
 
@@ -43473,7 +43841,7 @@ connections:
 
 # Caddying — Nemacolin, Laurel Valley, Pikewood National (2016–2019)
 
-Between the [[wiki/legal/2015-retail-theft-arrest|retail-theft arrest]] and the deep 2017–18 poverty years, Dan
+Between the [[wiki/legal/2015-possession-arrest|possession arrest]] and the deep 2017–18 poverty years, Dan
 held a caddying job at **Nemacolin Woodlands Resort** (Farmington, PA)
 titled "Experience Associate – Golf," **April 2016 – November 2019** per
 his resume — borrowing golf shoes for the interview on April 6, 2016. The
