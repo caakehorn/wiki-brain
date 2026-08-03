@@ -1,5 +1,5 @@
 WIKI-BRAIN — LLM ACCESS POINT
-generated 2026-08-03 · 438 pages · full corpus ~660,805 tokens
+generated 2026-08-03 · 438 pages · full corpus ~662,063 tokens
 
 WHAT THIS IS
 A machine-readable export of a personal wiki (a 'second brain') that
@@ -177,7 +177,7 @@ The Office (TV) | https://caakehorn.github.io/wiki-brain/llm/pages/interests/the
 Video Games | https://caakehorn.github.io/wiki-brain/llm/pages/interests/video-games.txt | Gaming is not a rated favorites category in the masterlist, and the wiki had no page for it — but it recurs across the corpus as a real, if background, threa...
 
 --- LEGAL ---
-The 2015 Possession Arrest | https://caakehorn.github.io/wiki-brain/llm/pages/legal/2015-possession-arrest.txt | Dan's only real arrest happened in **2015**, in downtown Uniontown at roughly 3am, and it was for drug possession — not for stealing snacks. He was pulled ov...
+The 2015 Possession Arrest | https://caakehorn.github.io/wiki-brain/llm/pages/legal/2015-possession-arrest.txt | Dan's only real arrest happened in **February 2015**, in downtown Uniontown at roughly 3am, and it was for drug possession — not for stealing snacks. He was ...
 The Combos Incident (2015 Retail Theft) | https://caakehorn.github.io/wiki-brain/llm/pages/legal/2015-retail-theft-arrest.txt | In 2015, a few weeks after
 463 Morgantown St | https://caakehorn.github.io/wiki-brain/llm/pages/legal/463-morgantown.txt | 463 Morgantown St, Uniontown PA is where Dan and his mother
 legal — index | https://caakehorn.github.io/wiki-brain/llm/pages/legal/index.txt | Dan's own legal history and live property/dispute exposure. Other people's legal events (Annie's October 2025 arrest, Tom's 2025 DUI) live on their people pa...

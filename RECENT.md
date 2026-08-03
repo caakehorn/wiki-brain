@@ -8,20 +8,23 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-03 — 6 pages
+## 2026-08-03 — 8 pages
 
+- **Session log:** ingest | legal | court blotter photo — the arrest is now primary-documented, and a wiki inference was wrong
 - **Session log:** ingest | legal | factstory brief #5 — "The Arrest (the real one)"
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/legal/2015-possession-arrest]] | legal | **CONTRADICTION** — This page's earlier form stated that during the stop Dan "consented to a breath search — a decision he later credited with saving his driver's license," citing a March 2026 message: "I would have lost |
+| [[wiki/legal/2015-possession-arrest]] | legal | **REVISED** — When this page was written earlier the same day, it judged the capture's opening line ("It's sometime in early 2015") to be "almost certainly too early," on the reasoning that a February arrest would  |
 | [[wiki/legal/2015-retail-theft-arrest]] | legal | **REVISED** — Until today it was titled "2015 Arrest (Retail Theft / 'The Combos Incident')" and carried the lawyer, the ARD application, the Judge Wagner hearing, the barracks trips and the family drama around the |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
+| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — 155-virginia-ave was edited today to flag that its January 2015 start date collides by a few weeks with Dan's account of the February 2015 possession arrest, which he places before the move there. Wha |
 | [[wiki/mind/synthesis/the-embedded-objective]] | mind | — |
 | [[wiki/people/jack-connor]] | people | — |
 | [[wiki/people/lucy]] | people | — |
+| [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-07-13)_ |
 
-## 2026-08-02 — 68 pages
+## 2026-08-02 — 66 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -61,7 +64,6 @@ simply listed.
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — annie-ulmer was corrected today to move the twenty-four-hour bond-switch at the 2015 introduction from her column to Dan's. What this page draws from that page — the 127/110 exit-relapse record and th |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | **REVISED** — Until today annie-ulmer stated in two places that *Annie* left her existing relationship within twenty-four hours of the introduction, and this page cited that formulation approvingly as a second, ind |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | **RE-CHECKED** — annie-ulmer was corrected today: the twenty-four-hour bond-switch at the November 2015 introduction was **Dan's**, not Annie's. The page had stated in two places that she left her existing relationshi |
-| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **CONTRADICTION** — An operator capture ingested on 2026-08-02 (franki-fireworks-day-2013) attaches five days to a *different person in the same episode*: **Alexis** stayed at 155 Virginia Ave * |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — suzanne-frank gained the write-back edges for 463 Morgantown, the Fran vigil and the 337 sale, plus a note that the Arnu mechanics-lien deadline elapsed on ~27 July 2026 unobserved. The switchboard fi |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **REVISED** — 1. **Sadie did not die in Hopwood.** The export records only a death *date* (27 Nov 1997) and gives Hopwood as her **burial** place; her last attested residence is Brownsville in 1993. The original ta |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — ancestral-dialectic was revised on 2026-08-02 after a direct read of the GEDCOM contradicted it: the report has the paternal line fleeing the pogroms *into* the Fayette County coal patch, while the ce |
@@ -94,7 +96,6 @@ simply listed.
 | [[wiki/people/the-unnamed-man]] | people | — |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/places/117-belmont-circle]] | places | — |
-| [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-07-13)_ |
 | [[wiki/self/context-core]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/lineage/family-tree]] | self | **CORRECTED** — This page previously drew Fran's descent to Dan through **George Dixon Shrum Jr.**, the maternal grandfather. Read directly from the GEDCOM's family records (`Daniel Frank family tree.txt`), it is the |
 | [[wiki/self/message-corpora/master-message-dump]] | self | — |

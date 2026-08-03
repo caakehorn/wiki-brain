@@ -15,7 +15,7 @@ this is the state of the thing.
 | Pages | 438 |
 | Pages touched in the last 14 days | 243 |
 | Pages reasoning from other pages (`synthesizes:`) | 21 |
-| Live contradictions | 28 |
+| Live contradictions | 29 |
 | Open gaps | 129 |
 | Standing predictions | 13 |
 
@@ -45,10 +45,11 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-03** — 6 pages
+**2026-08-03** — 8 pages
+  - ingest | legal | court blotter photo — the arrest is now primary-documented, and a wiki inference was wrong
   - ingest | legal | factstory brief #5 — "The Arrest (the real one)"
 
-**2026-08-02** — 68 pages
+**2026-08-02** — 66 pages
   - climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
   - ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
   - write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)

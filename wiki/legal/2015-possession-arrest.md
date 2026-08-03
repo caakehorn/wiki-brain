@@ -2,20 +2,24 @@
 domain: legal
 page_type: event
 title: "The 2015 Possession Arrest"
-aliases: ["the real arrest", "the lemon run", "the residue bag arrest"]
+aliases: ["the real arrest", "the lemon run", "the residue bag arrest", "February 2015 arrest"]
 status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-08-03
 date_modified: 2026-08-03
-date_range_start: 2015-01-01
+date_range_start: 2015-02-17
 date_range_end: 2016-02-17
 sources:
+  - raw/legal/documents/2015-02_fayette-court-blotter-possession-charges.md
   - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/imessage_ALL_both_all_now.csv
 tags: [legal, addiction-recovery, family, uniontown-era]
 connections:
+  - page: wiki/places/155-virginia-ave
+    type: contradicts
+    claim: "The blotter fixes the arrest to February 2015 while that page dates the move here to January 2015, which is incompatible with Dan's account of the night happening before the move and while Alexis was still being concealed at 337."
   - page: wiki/people/christo-coan
     type: contradicts
     claim: "His October 2017 thread carries Dan saying 'I already got a DUI', which cannot be reconciled with this page's account of an arrest that produced no DUI and with the operator's statement that this was his first and only real arrest."
@@ -53,7 +57,7 @@ connections:
 
 # The 2015 Possession Arrest
 
-Dan's only real arrest happened in **2015**, in downtown Uniontown at
+Dan's only real arrest happened in **February 2015**, in downtown Uniontown at
 roughly 3am, and it was for drug possession — not for stealing snacks. He
 was pulled over by the Pennsylvania State Police returning from delivering
 lemons to his mother at a pool hall, driving
@@ -128,11 +132,19 @@ weeknight, and partly to hand off Lucy.
 
 ## The charges, and why the disposition was not routine
 
-| Charge | Basis |
+| Charge, as printed | Basis, per Dan |
 |---|---|
-| Possession of marijuana | Roughly one hitter's worth |
+| Possession of a controlled substance | **Residue** in an empty cocaine bag |
+| Possession of a small amount of marijuana | Roughly one hitter's worth |
 | Possession of drug paraphernalia | The one-hitter |
-| Possession of a Class B controlled substance | **Residue** in an empty cocaine bag |
+
+The three charges are **confirmed by primary documentation**: a Fayette/Greene
+county newspaper court blotter covering filings from February 17–19 lists
+"Daniel Gillingham Frank, 26, of Uniontown … charged with possession of a
+controlled substance, possession of a small amount of marijuana and possession
+of drug paraphernalia," under Magisterial District Judge **Michael Metros**.
+The charge list matches Dan's account exactly, ten years after the fact and
+with no access to the clipping while telling it.
 
 The third row is the one that made the case serious. The Fayette County
 District Attorney of the period held a categorical policy of refusing ARD —
@@ -150,32 +162,70 @@ dealing to make it happen."
 
 ## Case timeline
 
-Reconstructed from the message archive, which begins November 28, 2015 and
-therefore postdates the arrest itself.
+The arrest and the charge filing are documented; everything from December 2015
+onward is reconstructed from the message archive, which begins November 28,
+2015 and therefore postdates the arrest by nine months.
 
 | Date | Event |
 |---|---|
-| 2015, before November | Arrest (PA State Police, downtown Uniontown, ~3am) |
+| On or shortly before Feb 17, 2015 | Arrest (PA State Police, downtown Uniontown, ~3am) |
+| Feb 17–19, 2015 | Charges filed before Magisterial District Judge Michael Metros; printed in the county court blotter |
 | Dec 9–11, 2015 | Barracks trips to replace case paperwork the barracks had lost; ARD application filed |
 | Jan 20, 2016 | ARD office visit to check application status |
 | Jan 25, 2016 | First fine installment paid ("$70 more to pay a month from now") |
 | Feb 17, 2016 | Hearing before Judge Wagner — ARD approved; remaining fines paid |
 | ~Aug 2016 | Expected end of six-month probation → expungement eligibility |
 
-**The dating.** The capture opens "It's sometime in early 2015," and that is
-almost certainly too early. Dan places the night firmly inside the roughly
-four-month period when [[wiki/people/alexis-armel|Alexis]] was secretly
-living at 337 Saratoga after being thrown out — hidden, snuck in and out,
-fed — which the corpus places before the November 2015 switch to
-[[wiki/people/annie-ulmer|Annie]] ([[wiki/mind/synthesis/bond-switch-2015]]).
-That brackets the arrest to 2015 and before November. The aftermath, running
-from the December barracks trips to the February hearing, is consistent with
-a late-2015 arrest and awkward for an early-2015 one, since it would leave a
-nine-month gap with no recorded activity. **The wiki dates it to 2015,
-before November, and treats "early 2015" as the operator's approximation
-rather than a fixed point.** This is the same one-directional dating drift
-that the March 2018 Fran captures showed, recorded here rather than
-silently corrected.
+**The dating, settled by primary evidence.** The blotter covers charges filed
+in Fayette and Greene counties **between February 17 and February 19**, and it
+gives Dan's age as **26**. Born November 1, 1988, he is 26 only between
+November 2014 and November 2015 — which fixes the filing to **February 2015**
+and the arrest to on or shortly before February 17, 2015.
+
+> **REVISED [2026-08-03] — a wiki inference was wrong and the operator's
+> capture was right.** When this page was written earlier the same day, it
+> judged the capture's opening line ("It's sometime in early 2015") to be
+> "almost certainly too early," on the reasoning that a February arrest would
+> leave a nine-month gap before the December 2015 barracks trips. That
+> reasoning is now falsified by the clipping. A twelve-month interval from
+> arrest to ARD admission is ordinary in Pennsylvania — magisterial filing,
+> preliminary hearing, formal arraignment, then the ARD application in December
+> 2015 and admission in February 2016 — so the gap the inference treated as
+> implausible is simply what the process takes. The lesson is recorded rather
+> than quietly patched: the capture's own dating was accurate to the month, and
+> the corpus's correction instinct, calibrated on the Fran captures being off by
+> exactly one year, over-fired here.
+
+The February 2015 date is independently consistent with the one constraint the
+capture supplies from inside the story: [[wiki/people/alexis-armel|Alexis]] was
+secretly living at 337 Saratoga at the time, hidden for roughly four months
+after being thrown out, which places the night well before the November 2015
+switch to [[wiki/people/annie-ulmer|Annie]]
+([[wiki/mind/synthesis/bond-switch-2015]]).
+
+> **CONTRADICTION [2026-08-03] — the February date collides with the 155
+> Virginia Ave timeline.** The capture places the arrest firmly *before* the
+> move to [[wiki/places/155-virginia-ave|155 Virginia Ave]] — Alexis was still
+> being hidden at 337 Saratoga, "before we made it to her 155 virginia ave
+> house where she let me and lex live together." But that page dates the
+> residence from **January 2015**, a month before the blotter filing. One of
+> the three is wrong: the 155 start date, the capture's sequencing, or the
+> reading that the concealment ended at the move. The most economical
+> reconciliation is that the roughly four-month concealment ran to about
+> January 2015 and the arrest fell just *after* the move rather than just
+> before it, which would make the capture off by weeks rather than by the era
+> — but the blotter only fixes the arrest, not the move, and this page does not
+> pick a winner. Resolving it needs the lease or a dated message from the
+> move.
+
+> **An unexplained date coincidence, recorded not resolved.** February 17
+> appears three times in Dan's record: the blotter window opens on it in 2015,
+> the ARD hearing is dated to it in 2016, and `wiki/self/index.md` gives
+> February 17, 2010 as the start of the daily Suboxone regimen. The 2015 and
+> 2016 dates could be a real anniversary of docket scheduling, or one of the
+> later two could be an artifact propagated through earlier passes. No source
+> read so far explains it, and it is worth a look before any of the three is
+> relied on.
 
 > **CONTRADICTION [2026-08-03]:** This page's earlier form stated that
 > during the stop Dan "consented to a breath search — a decision he later
@@ -212,9 +262,13 @@ next eleven years. What changed was the transport layer, not the appetite.
 
 ## Gaps
 
-The exact date is unknown and the capture's "early 2015" is probably wrong by
-some months. The arresting barracks, the docket number, the grading of each
-charge, and whether the expungement was ever completed are all unrecorded.
+The exact arrest date within the days before February 17, 2015 is not known,
+nor is the arresting barracks, the docket number, the grading of each charge,
+or whether the expungement was ever completed. The nine months between the
+February 2015 filing and the first surviving message about the case in December
+2015 contain the preliminary hearing and arraignment and are entirely
+undocumented. Magisterial District Judge **Michael Metros** appears once, in
+the blotter, and has no other trace in the corpus.
 Whether the fines referenced in January and February 2016 belong to this case,
 to [[wiki/legal/2015-retail-theft-arrest|the Combos matter]], or to both
 running concurrently is not determinable from the message record — the

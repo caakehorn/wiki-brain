@@ -4,7 +4,7 @@ page_type: entity
 title: "155 Virginia Ave"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-03
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
@@ -18,6 +18,9 @@ related:
   - wiki/places/337-saratoga-drive
 tags: [financial-stress, housing, relationships, uniontown-era, legal]
 connections:
+  - page: wiki/legal/2015-possession-arrest
+    type: contradicts
+    claim: "This page dates the residence from January 2015, but Dan's account of the February 2015 arrest places that night while Alexis was still hidden at 337 Saratoga and before the move here — so either the start date or the sequencing is off by weeks."
   - page: wiki/timeline/events/franki-fireworks-day-2013
     type: evidenced-by
     claim: "Alexis was housed here for five days in July 2013 — eighteen months before the January 2015 lease this page dates itself from — so the address was already under Suz's control and already performing the displaced-partner function that the lair-continuity finding describes."
@@ -76,9 +79,12 @@ until February 2019, so the notice's outcome is undocumented.
 
 The address is also the physical anchor of the record's bleakest quantified
 period, and its four years contain the relationship genesis whose closure
-in 2026 the whole corpus orbits. The 2015 possession arrest and ARD
-process also fall in its first months
-([[wiki/legal/2015-possession-arrest]]).
+in 2026 the whole corpus orbits. The [[wiki/legal/2015-possession-arrest|February 2015 possession
+arrest]] and the ARD process that followed also fall in its first months —
+though the arrest sits awkwardly against this page's January 2015 start date,
+because Dan's own account places that night while Alexis was still being hidden
+at 337 Saratoga and *before* the move here. The contradiction is recorded on
+the arrest page; a lease or a dated message from the move would settle it.
 
 **Gaps:** lease details, rent, and who held the lease across the
 Alexis→Annie transition are undocumented; the physical layout appears

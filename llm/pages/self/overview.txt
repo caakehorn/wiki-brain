@@ -67,7 +67,7 @@ revived 2026) and AI/agent-pipeline builder. Democratic socialist, atheist
 zero relapse; no alcohol 13–15 yrs. Life hinges: parental rupture Nov 2005;
 Full Sail 2008–10; Alexis 2009–15; Annie Thanksgiving 2015–June 1 2026
 (closed after the [[wiki/people/eli|Eli]] affair, discovered Jan 2025 — the gaslighting
-outweighed the affair); 2015 possession arrest resolved via ARD
+outweighed the affair); February 2015 possession arrest resolved via ARD
 ([[wiki/legal/2015-possession-arrest]]); BFS termination 2026
 ([[wiki/work/bfs-foods]]); 337 Saratoga being sold, landing at 463
 Morgantown unresolved ([[wiki/legal/463-morgantown]]). Music is the one
@@ -95,8 +95,9 @@ engineered architecture ([[wiki/self/context-core]]).
 era, the Twitter voice forming. Back in Uniontown from May 2013: the
 production aliases develop (SLOPPP 2013–15, MOGZART 2014–16 —
 [[wiki/interests/music/overview]]), Alexis ends, and **Annie begins
-Thanksgiving 2015**, four weeks after the possession arrest that ended in
-ARD and expungement ([[wiki/legal/2015-possession-arrest]]). Then the
+Thanksgiving 2015**, nine months after the February 2015 possession arrest
+that ended in ARD and expungement
+([[wiki/legal/2015-possession-arrest]]). Then the
 hard years: 2017 poverty floor (water shut off, free DJing, camming), 2018
 deep cycle (peak chaos, ~40k messages/year).
 

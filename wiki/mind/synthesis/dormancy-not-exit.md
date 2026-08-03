@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-02
+date_modified: 2026-08-03
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -158,6 +158,15 @@ system has no other way to write a node out. It also predicts where the rule
 should fail — a tie ended by an explicit, unhedged severance from the other
 side ought to close cleanly, and [[wiki/people/kristin|Kristin's]] December 2025
 block is the closest thing the corpus has to that case.
+
+> **RE-CHECKED [2026-08-03] — premise moved, conclusion untouched.**
+> [[wiki/places/155-virginia-ave]] was edited today to flag that its January
+> 2015 start date collides by a few weeks with Dan's account of the February
+> 2015 possession arrest, which he places before the move there. What this page
+> draws from that address is **lair-continuity** — the container retained while
+> the occupant is swapped, Alexis out and Annie in. That swap is dated to
+> November 2015 and is unaffected by whether the lease began in January or
+> February of that year. The row stands as written.
 
 ## The measurement: dormancy involves no decay
 
