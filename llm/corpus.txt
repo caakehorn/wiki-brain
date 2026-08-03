@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-03
-438 pages, ~662,063 tokens.
+438 pages, ~662,116 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -8527,9 +8527,9 @@ registration and bald tires, carrying his mother's blind dog and a
 narcotics pack containing, by his own account, the smallest quantity of
 drugs he could possibly have had. The car was impounded, the impound
 produced an inventory search, and the inventory search produced three
-charges: marijuana possession, paraphernalia for a one-hitter, and
-possession of a Class B controlled substance for **the residue in an empty
-cocaine bag**.
+charges: possession of a controlled substance for **the residue in an empty
+cocaine bag**, possession of a small amount of marijuana, and possession of
+drug paraphernalia for the one-hitter.
 
 This page exists because the wiki had the event wrong for three weeks. The
 lawyer, the ARD program, the Judge Wagner hearing and the family drama
@@ -8724,8 +8724,10 @@ next eleven years. What changed was the transport layer, not the appetite.
 ## Gaps
 
 The exact arrest date within the days before February 17, 2015 is not known,
-nor is the arresting barracks, the docket number, the grading of each charge,
-or whether the expungement was ever completed. The nine months between the
+nor is the arresting barracks, the docket number, or whether the expungement
+was ever completed. The blotter prints the charges without grading them; Dan's
+own telling calls the residue count a "class B controlled substance," which is
+recorded here as his description rather than as a documented grade. The nine months between the
 February 2015 filing and the first surviving message about the case in December
 2015 contain the preliminary hearing and arraignment and are entirely
 undocumented. Magisterial District Judge **Michael Metros** appears once, in
