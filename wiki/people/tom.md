@@ -13,6 +13,9 @@ infobox:
   location: uniontown
   known_for: "Tom Maison — Dan's primary male ally and, for most of the corpus, the clearest instance of safe, lateral (peer, non-pate"
 connections:
+  - page: wiki/people/zach-clingan
+    type: evidences
+    claim: "Tom's April 2014 thread supplies the only third-party assessment Clingan has, and the taxonomy it produces is the point: 'drug people' and 'assholes' are terms Dan applies to himself and Tom in the same breath, while 'shitty' is the one he reserves."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: component-of
     claim: "The May 18 2026 conditional unblock and the 2014 declared-done-then-return precedent are the loop's peer-bond case — blocks failed both times because Tom was the sole supply node."

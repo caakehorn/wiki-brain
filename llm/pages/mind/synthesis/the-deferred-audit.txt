@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-08
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -394,3 +394,15 @@ before the fact.
   establish that a reserve exists, not enough to characterise it. What else is
   in it has not been looked for, and the search is cheap: any domain with high
   corpus presence and zero evaluative content.
+
+> **RE-CHECKED [2026-08-08] — the mechanism survives and gains a second
+> instance.** [[wiki/mind/synthesis/the-unbroken-bond]] moved on 2026-08-08
+> without altering the premise this page rests on: a slot that must stay
+> occupied is a slot whose occupant cannot be audited on arrival. The Alexis
+> rewrite behind that movement supplies the same shape one relationship
+> earlier than this page had it. The six-year bond opened out of an
+> overlapping infidelity, ran warm and unexamined for its whole length, and
+> was closed inside a single day when a replacement appeared — an entry with
+> no audit, a tenure with no audit, and an exit that was a substitution
+> rather than a finding. The deferred audit is therefore not specific to the
+> 2015 handoff; it is how the previous occupancy ran too.

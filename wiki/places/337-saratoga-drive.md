@@ -18,6 +18,9 @@ related:
   - wiki/interests/music/aliases/gripnotic
 tags: [music-production, uniontown-era, nyc-era, ai-collaboration]
 connections:
+  - page: wiki/people/jacob-bacharach
+    type: co-occurs
+    claim: "Saratoga Drive is the real basis of the Bacharach relationship — his family lived halfway down the same street — and separating it from the unrelated 155 Virginia Avenue coincidence is what resolved a false contradiction the wiki carried for weeks."
   - page: wiki/people/suzanne-frank
     type: contains
     claim: "The owner-realtor who executes the $465k sale is also the person Dan lives with, which collapses the family's largest asset liquidation and the loss of his housing into a single transaction run by one party."

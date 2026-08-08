@@ -27,6 +27,9 @@ related:
   - wiki/timeline/events/eli-incident
 tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
 connections:
+  - page: wiki/people/jacob-bacharach
+    type: evidenced-by
+    claim: "The Uniontown Glitch is this method's flagship exhibit: the only case in the corpus where four confident model hypotheses were killed in sequence against ground truth the operator alone held, leaving a ranked improbability list instead of a cosmology."
   - page: wiki/people/the-unnamed-man
     type: contradicts
     claim: "The method's claim to generality fails by deliberate choice here: the corpus's most consequential live antagonist is the one node Dan has refused to identify, on the stated grounds that knowing would cost him more than not knowing."

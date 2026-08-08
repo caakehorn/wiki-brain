@@ -19,6 +19,9 @@ infobox:
   handles: ["+17244157286"]
   known_for: "High-school-era Uniontown golf friend, self-described 'dark and tormented soul'; sober with two kids by Dec 2018, family ruined by his father's arrest"
 connections:
+  - page: wiki/people/zach-clingan
+    type: co-occurs
+    claim: "Kezmarsky and Clingan are named together in one April 2014 sentence as a single social category, and both later surface around the Nemacolin caddie yard."
   - page: wiki/people/new-jim-shaffer
     type: co-occurs
     claim: "Steve's fate is the December 2018 Jim Shaffer thread's dark punchline — alive and sober while his family collapsed under his father's prosecution — told inside the same conversation that mourns Rob Orange, the cohort member who actually died."

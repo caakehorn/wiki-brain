@@ -24,6 +24,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/people/zach-clingan
+    type: evidenced-by
+    claim: "The Clingan thread runs the opposite way from every other node here — Dan holds the edibles, the kush and the leaf and Clingan asks — which is the network's clearest evidence that inside the caddie yard Dan was the seller."
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: instance-of
     claim: "Supply is no longer the terminal phase's load-bearing structure but the relationship's only remaining structure — five handoffs in six days after a 52-day severance and the corpus's only refusal — and Dan states its function out loud: getting her drugs 'was about that being the only way you would see me.'"

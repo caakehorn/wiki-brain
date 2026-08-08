@@ -29,6 +29,9 @@ related:
   - wiki/mind/synthesis/intake-constancy
 tags: [relationships, music-production, trauma-bond]
 connections:
+  - page: wiki/people/zach-clingan
+    type: instantiates
+    claim: "Forty-one messages across nine calendar years with more than half falling on a single day is the long tail's characteristic shape — a real multi-year acquaintance that the message record renders as one spike."
   - page: wiki/mind/synthesis/intake-constancy
     type: caused-by
     claim: "The nocturnal intake signature is the structural substrate under this isolation metric."

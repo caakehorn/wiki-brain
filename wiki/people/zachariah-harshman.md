@@ -17,6 +17,9 @@ infobox:
   relationship_to_dan: friend
   known_for: "High-school-era Laurel Highlands friend and 2014–15 Uniontown supply node whose Dec 23, 2015 rupture is an independent third-party account of the Alexis-to-Annie bond switch; friendship survived and revived as a platonic gaming relationship by 2020"
 connections:
+  - page: wiki/people/zach-clingan
+    type: mirrors
+    claim: "A phone-book merge fused two contemporaneous Uniontown Zachs and gave this one's surname to the other's messages; the supply direction inverts between them — Harshman supplied Dan in 2014-15, Clingan bought from him in the 2017 caddie yard."
   - page: wiki/mind/synthesis/supply-network
     type: component-of
     claim: "Zach is an undocumented 2014–15 Uniontown supply node (wax, dabs, flower, priced by the cut/quarter) operating out of the 155 Virginia Ave household — three years earlier than the network page's earliest-documented Johnny/Teddy era."

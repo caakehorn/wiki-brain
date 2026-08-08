@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-02
+date_modified: 2026-08-08
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -226,3 +226,30 @@ Everything else can be allowed to burn, because he did not pick it.
 - **Nothing here assesses the relationships' quality or the other parties.**
   This page is about a structural property of Dan's life and deliberately makes
   no claim about whether the bonds were good, nor about the people in them.
+
+> **RE-CHECKED [2026-08-08] — the thesis holds; two of this page's own gaps
+> move.** The premise [[wiki/people/alexis-armel]] was rewritten against 495
+> previously-unread Google Chat blocks spanning the NYC-1 years, which is the
+> first *primary* evidence this page has ever had about the six-year bond's
+> interior rather than the bootloader's retrospective read of it.
+>
+> **Gap 2 narrows.** The July–October 2013 separation now has a fixed opening
+> instant — a text Alexis sent about ten minutes into the Franki car ride,
+> *"I saw your messages. I know you're with Franki"* — and Dan's own later
+> assessment that the Franki interval was a five-day misreading of his own
+> feelings. The slot was not vacant for three months in any sense that
+> matters to falsifier 1; the burden now is to date the *reconciliation*,
+> which the message record should be able to do.
+>
+> **Gap 3 gets its first test, and the thesis passes narrowly.** The chat
+> archive shows six years of a mutually attentive, affectionate, unguarded
+> household — sustained baby-talk register, daily check-ins, shared money
+> and shared logistics. Read carelessly, that is evidence *against*
+> "shallow." It is not, because this page's claim was never that the
+> relationship was cold: it is that **occupancy and activation are separate
+> variables**, and warmth is not activation. What the archive does establish
+> is that the "suppressed deep system" reading can no longer be stated
+> without also stating that the suppression was invisible from inside the
+> relationship — which is a strictly stronger and more falsifiable version
+> of the same claim, and one the corpus can attack.
+

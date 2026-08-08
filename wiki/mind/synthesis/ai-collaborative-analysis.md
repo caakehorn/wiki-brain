@@ -28,6 +28,9 @@ sources:
   - "raw/self/dox-md/Crisis mode briefing.md"
   - "raw/self/dox-md/Creating robust video essays from scripts.md"
 connections:
+  - page: wiki/people/jacob-bacharach
+    type: instance-of
+    claim: "Not one usable sentence in the Bacharach chain came from the model unprompted; every one followed a reversal by Dan, which makes this the cleanest case that the value of the collaboration is adversarial rather than generative."
   - page: wiki/mind/concepts/bunker-core
     type: instance-of
     claim: "Local, self-hosted chat.db forensics is agent tooling that extends the same evidentiary-verification principle documented here — raw message history as proof against gaslighting, automated rather than manual."

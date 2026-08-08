@@ -8,7 +8,22 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-03 — 8 pages
+## 2026-08-08 — 8 pages
+
+- **Session log:** rewrite | people, places | full re-research and rewrite of four entries (jacob-bacharach, 117-belmont-circle, zach-harshman→zach-clingan, alexis-armel)
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — alexis-armel was rewritten from a newly-read source (495 Google Chat blocks) and the member's contribution to this page survives intact: the 2018 paid re-tasking and the five-year correspondence are c |
+| [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-unbroken-bond moved on 2026-08-08, but the movement is confined to two of its own gaps (the 2013 separation's opening instant, and the first primary-source test of the activation reading). The qua |
+| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — the-unbroken-bond moved on 2026-08-08 without altering the premise this page rests on: a slot that must stay occupied is a slot whose occupant cannot be audited on arrival. The Alexis rewrite behind t |
+| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — The premise alexis-armel was rewritten against 495 previously-unread Google Chat blocks spanning the NYC-1 years, which is the first *primary* evidence this page has ever had about the six-year bond's |
+| [[wiki/people/alexis-armel]] | people | — |
+| [[wiki/people/jacob-bacharach]] | people | **CONTRADICTION** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figu |
+| [[wiki/people/zach-clingan]] | people | **CORRECTED** — The handle `+18439903264` does not belong to Zachariah Harshman. Two independent contact exports separate the two men cleanly, and their number sets do not overlap at any point. | Source | Zach Clinga |
+| [[wiki/places/117-belmont-circle]] | places | **REVISED** — Earlier versions of this page dated the tenure as "more than fifty years" and left it there, which is true but soft. The GEDCOM fixes a floor at 1961 and supplies the mechanism (a return from Miami Be |
+
+## 2026-08-03 — 7 pages
 
 - **Session log:** ingest | legal | court blotter photo — the arrest is now primary-documented, and a wiki inference was wrong
 - **Session log:** ingest | legal | factstory brief #5 — "The Arrest (the real one)"
@@ -18,13 +33,12 @@ simply listed.
 | [[wiki/legal/2015-possession-arrest]] | legal | **REVISED** — When this page was written earlier the same day, it judged the capture's opening line ("It's sometime in early 2015") to be "almost certainly too early," on the reasoning that a February arrest would  |
 | [[wiki/legal/2015-retail-theft-arrest]] | legal | **REVISED** — Until today it was titled "2015 Arrest (Retail Theft / 'The Combos Incident')" and carried the lawyer, the ARD application, the Judge Wagner hearing, the barracks trips and the family drama around the |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
-| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — 155-virginia-ave was edited today to flag that its January 2015 start date collides by a few weeks with Dan's account of the February 2015 possession arrest, which he places before the move there. Wha |
 | [[wiki/mind/synthesis/the-embedded-objective]] | mind | — |
 | [[wiki/people/jack-connor]] | people | — |
 | [[wiki/people/lucy]] | people | — |
-| [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-07-13)_ |
+| [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-08-08)_ |
 
-## 2026-08-02 — 66 pages
+## 2026-08-02 — 62 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -67,10 +81,7 @@ simply listed.
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — suzanne-frank gained the write-back edges for 463 Morgantown, the Fran vigil and the 337 sale, plus a note that the Arnu mechanics-lien deadline elapsed on ~27 July 2026 unobserved. The switchboard fi |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **REVISED** — 1. **Sadie did not die in Hopwood.** The export records only a death *date* (27 Nov 1997) and gives Hopwood as her **burial** place; her last attested residence is Brownsville in 1993. The original ta |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — ancestral-dialectic was revised on 2026-08-02 after a direct read of the GEDCOM contradicted it: the report has the paternal line fleeing the pogroms *into* the Fayette County coal patch, while the ce |
-| [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-unbroken-bond was revised on 2026-08-02 to withdraw its claim that the pair-bond is the only structure that is simultaneously chosen and permanent — a claim written before the four-domain reading  |
 | [[wiki/mind/synthesis/supply-network]] | mind | **REVISED** — This section describes Dan in the supplier seat as the terminal phase's structure. The July–August 2026 export shows the configuration **survived both the June 1 closure and the July 26 goodbye**: aft |
-| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **CORRECTED** — This page listed food alongside the pets as a "protected class" whose audit is scheduled for never. A capture filed the same day documents an **absolute composition regime**: every permitted item is a |
-| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — chaos-preference now carries the contradiction with single-channel, which shows the entropy carve-out is not confined to the attachment slot: the same single-occupancy discipline runs in |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/people/alexander-jackson]] | people | — |
 | [[wiki/people/annie-ulmer]] | people | **REVISED** — This page previously stated, in two places, that *Annie* left her existing relationship within twenty-four hours of the introduction. Per the operator, that is backwards: **Dan** left Alexis inside tw |
@@ -95,7 +106,6 @@ simply listed.
 | [[wiki/people/suzanne-frank]] | people | — |
 | [[wiki/people/the-unnamed-man]] | people | — |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
-| [[wiki/places/117-belmont-circle]] | places | — |
 | [[wiki/self/context-core]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/lineage/family-tree]] | self | **CORRECTED** — This page previously drew Fran's descent to Dan through **George Dixon Shrum Jr.**, the maternal grandfather. Read directly from the GEDCOM's family records (`Daniel Frank family tree.txt`), it is the |
 | [[wiki/self/message-corpora/master-message-dump]] | self | — |
@@ -111,7 +121,7 @@ simply listed.
 | [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
 | [[wiki/work/nemacolin-caddying]] | work | — |
 
-## 2026-08-01 — 101 pages
+## 2026-08-01 — 100 pages
 
 - **Session log:** climb | mind | alias-as-periodization.md — new T2 junction page
 - **Session log:** climb | mind | instrument-is-subject.md — new T3 doctrine
@@ -223,7 +233,6 @@ simply listed.
 | [[wiki/interests/favorites/music/artists/wiki]] | interests | — |
 | [[wiki/mind/concepts/contact-gini]] | mind | _(carries a REVISED from 2026-06-23)_ |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | — |
-| [[wiki/people/alexis-armel]] | people | — |
 | [[wiki/people/danielle-onesi]] | people | — |
 | [[wiki/people/menore]] | people | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/places/424-bedford-ave]] | places | — |
@@ -247,7 +256,7 @@ simply listed.
 | [[wiki/timeline/periods/dec-2025-spike]] | timeline | — |
 | [[wiki/work/tech/max-framework/overview]] | work | — |
 
-## 2026-07-25 — 14 pages
+## 2026-07-25 — 13 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -257,7 +266,6 @@ simply listed.
 | [[wiki/people/slim]] | people | — |
 | [[wiki/people/tan-calabrese]] | people | — |
 | [[wiki/people/zach-clabaugh]] | people | — |
-| [[wiki/people/zach-harshman]] | people | — |
 | [[wiki/people/zach-hendricks]] | people | — |
 | [[wiki/self/ancestry]] | self | — |
 | [[wiki/self/index]] | self | — |
@@ -661,11 +669,10 @@ simply listed.
 | [[wiki/people/felix]] | people | — |
 | [[wiki/people/mary-kate]] | people | — |
 
-## 2026-07-02 — 5 pages
+## 2026-07-02 — 4 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/people/jacob-bacharach]] | people | _(carries a REVISED from 2026-07-13)_ |
 | [[wiki/self/chats/gemini-13]] | self | — |
 | [[wiki/self/facebook]] | self | _(carries a REVISED from 2026-06-23)_ |
 | [[wiki/self/facebook/interests]] | self | — |
@@ -676,7 +683,7 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/favorites/art-and-movies]] | interests | — |
-| [[wiki/interests/favorites/books]] | interests | — |
+| [[wiki/interests/favorites/books]] | interests | _(carries a CORRECTED from 2026-08-08)_ |
 | [[wiki/interests/favorites/eclecticism]] | interests | — |
 | [[wiki/interests/favorites/index]] | interests | — |
 | [[wiki/interests/favorites/taste-profile]] | interests | — |

@@ -40,6 +40,9 @@ synthesizes:
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
+  - page: wiki/people/jacob-bacharach
+    type: co-occurs
+    claim: "Suz owned the house a novelist fictionalised without knowing whose it was, and she is the person Dan forwarded Bacharach's February 2021 reply to within minutes of receiving it — which is why the only sample of Bacharach's own voice survives in the corpus at all."
   - page: wiki/people/lucy
     type: contains
     claim: "Her blind Jack Russell, whose euthanasia she scheduled days after Fran's death 'because we wanted to get all the awful-ness out of the way at once' — the corpus's one documented case of batching grief rather than sequencing it."

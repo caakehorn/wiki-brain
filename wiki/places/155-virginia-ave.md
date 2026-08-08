@@ -18,6 +18,15 @@ related:
   - wiki/places/337-saratoga-drive
 tags: [financial-stress, housing, relationships, uniontown-era, legal]
 connections:
+  - page: wiki/people/alexis-armel
+    type: co-occurs
+    claim: "Leased in January 2015 during the end of the Alexis relationship and inherited by Annie eleven months later, this address is the spatial form of the single-bond switch: the container held while the occupant changed."
+  - page: wiki/places/117-belmont-circle
+    type: co-occurs
+    claim: "Dan's own February 2026 statement puts this house on the lot adjacent to Fran's — so the four-year residence and the caregiving job that defined the era were a property line apart on the same fairway."
+  - page: wiki/people/jacob-bacharach
+    type: co-occurs
+    claim: "This house is the setting of the novel at the centre of the Uniontown Glitch, but the message record breaks the usual framing: The Bend of the World was published in 2014 and Dan's tenancy begins in January 2015, so he moved into the book's setting after the book existed."
   - page: wiki/legal/2015-possession-arrest
     type: contradicts
     claim: "This page dates the residence from January 2015, but Dan's account of the February 2015 arrest places that night while Alexis was still hidden at 337 Saratoga and before the move here — so either the start date or the sequencing is off by weeks."
@@ -69,13 +78,23 @@ until February 2019, so the notice's outcome is undocumented.
 
 > **REVISED [2026-07-13]:** Resolved — novelist
 > [[wiki/people/jacob-bacharach]] used this house's exterior only (never
-> set foot inside it) as a fictional rental setting in *The Bend of the
-> World*; the interior details in the book are invented. This is
-> unrelated to the Bacharach family's actual former home at
+> set foot inside it) as a fictional rental setting; the interior details
+> in the book are invented. This is unrelated to the Bacharach family's
+> actual former home at
 > [[wiki/places/337-saratoga-drive|337 Saratoga Drive]], down the street
 > from the Franks — two separate facts that an earlier pass had
 > conflated into a false contradiction. Full account at
 > [[wiki/people/jacob-bacharach]].
+>
+> **REVISED [2026-08-08]:** Two corrections to the above. The novel is
+> named as *The Bend of the World* in every retelling, but Bacharach's own
+> February 2021 message identifies a different book as his Uniontown novel
+> and the reading record backs him; the contradiction is open and is
+> documented on his page. And the chronology usually attached to the story
+> — that he was writing the house while Dan was living in it — does not
+> survive this page's own dates: *The Bend of the World* was published in
+> 2014 and the tenancy here begins in **January 2015**. Dan moved into the
+> setting after the book existed.
 
 The address is also the physical anchor of the record's bleakest quantified
 period, and its four years contain the relationship genesis whose closure

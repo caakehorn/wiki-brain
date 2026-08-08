@@ -101,6 +101,9 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/people/alexis-armel
+    type: follows
+    claim: "Annie was Alexis's coworker before she was Dan's partner, so the November 2015 replacement was not merely fast but internal — it came out of the displaced partner's own workplace, which is why the social fallout was immediate and public."
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: contains
     claim: "Eight days in which the relationship stopped being a failed severance and became a supply arrangement with a schedule — six meetings, five handoffs, and Dan stating out loud that procurement was always the price of access."
