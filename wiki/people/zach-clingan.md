@@ -174,17 +174,26 @@ thread ends there.
 
 | Metric | Value |
 |---|---|
-| iMessage messages | 41, both directions |
+| iMessage messages | 41 — **22 received, 19 sent** |
 | Date range (iMessage) | 2017-09-27 – 2018-04-13 |
-| Messages inside 2017-10-01 alone | 22 |
+| Messages inside 2017-10-01 alone | 28 |
 | Silent interval | 2017-10-18 → 2018-04-13 (177 days) |
 | Full documented span | 2009-10-06 – 2018-04-13, across three sources |
 | Handle | `+1843…3264` (843 = South Carolina) |
 
-The concentration is the notable figure. More than half the thread happens
-on a single day, and the remainder spreads across four. A page built from
-the message record alone — as the previous version of this page was — reads
-him as a six-month contact of 2017. The Facebook and Tom threads make him a
+The direction split localises the old page's error precisely. It reported
+"22 messages… Direction: all received (export artifact)" — and 22 is exactly
+the **received** count. It was not an export artifact and nothing was
+missing from the export: the page had been built off
+`MASTER_MESSAGES_DB_DUMP.csv`, which marks nearly everything `Received`, so
+Dan's own 19 messages were invisible to it. Recounted against
+`all_imessages_complete_dump.txt` with `bin/mine-messages`, which reassembles
+multi-line records, the thread is 41 and two-sided.
+
+The concentration is the other notable figure. **Twenty-eight of the 41
+messages fall on a single day**, October 1, 2017, and the remainder spreads
+across four. A page built from the message record alone — as the previous
+version of this page was — reads him as a six-month contact of 2017. The Facebook and Tom threads make him a
 nine-year one, and neither is in the message corpus at all. That is the
 generalisable lesson here: for the long tail, the iMessage export is the
 worst of the three available sources and the only one earlier passes used.

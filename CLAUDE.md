@@ -203,6 +203,16 @@ protocol, the frontmatter spec, the gotchas from prior sessions (including the
 "verify derived numbers against raw — the operator will catch unverified
 figures" rule), what's already done, and what remains. Do not improvise the
 ingest workflow; the runbook IS the standing instruction.
+**If you are instead told to rewrite, wipe, redo, re-research or overhaul a
+page that already exists — invoke the `wiki-rewrite` skill
+(`.claude/skills/wiki-rewrite/`) and follow it exactly.** INGEST governs new
+sources arriving; that skill governs an existing page being re-derived, and it
+carries the parts that pass gets wrong: snapshotting earned content before the
+wipe, ranking primary against AI-secondary sources, verifying derived numbers
+with `bin/mine-messages` rather than grep, resolving identity through two
+independent contact exports, and working the staleness cascade without bumping
+a date.
+
 Captured notes may carry `targets: [wiki/...paths]` in frontmatter (created by
 typing `@page` in the app's Capture tab). A targeted note is a correction or
 expansion of those specific pages: apply it there first (honoring the
