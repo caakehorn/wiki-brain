@@ -27,6 +27,18 @@
   4. Prior resume points stand: the next Annie export, the announcement-rule falsifier, cluster 26, the `arnu`/`alexander-jackson`/`john-carney` stubs, and the ten `[[raw/…]]` wikilinks that render as broken.
 * **Handoff Note:** Governance only — no wiki content was reasoned over this pass beyond the index counts and one reference fix in `context-core.md`. All three gates 0 errors.
 
+### [2026-08-08] - Session: tuquick identity unmasked + the-unnamed-man updated
+* **Model:** Claude Sonnet 5 (Claude Code, remote)
+* **Branch:** `main` (direct commit — single-pass identity correction, no PR)
+* **Summary:** Operator-supplied forensic capture (`/Volumes/MUSIC/alias/XXX/2026-08-08_190122_identity-of-the-interloper.md`) identified the real-world identity of "tuquick" as **Jerel Wayne Coles** (born ~1990, Uniontown, PA) via the FOREWARN background-check database. Filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md` and integrated per `EXTRACTION_SPEC.md` / `STYLE_GUIDE.md` protocols.
+* **Changes made:**
+  - Filed the forensic capture to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`.
+  - `wiki/people/tuquick-17248123683.md`: Added REVISED [2026-08-08] block revealing the identity; updated infobox name to "Jerel Wayne Coles (Tuquick 17248123683)"; added new `## Criminal record` section with a de-duplicated chronology table (9 incident clusters collapsing 64 raw court records, spanning 2008–2025: two DUIs with BAC ≥ .16, harassment, disorderly conduct, criminal mischief); updated notes; added the new source to frontmatter; status closed→active (under active revision); connections claim to `the-unnamed-man` updated to reflect the unmasking.
+  - `wiki/people/the-unnamed-man.md`: Added REVISED [2026-08-08] block to the "Is he Tuquick?" section — Tuquick is now identified as Jerel Wayne Coles, but the July 2026 unnamed interloper question remains open (Coles's known phone numbers don't appear in the July 2026 message export); added the new source to frontmatter; updated the co-occurs connection claim.
+  - `wiki/mind/synthesis/dan-annie-fallout-verdict.md`: Cleared staleness from `bin/wiki-climb check` — the verdict's independent-validation exhibit on Tuquick rests on his June 15 defection behavior, not his anonymity; the unmasking is additive identity data that doesn't alter any conclusion. RE-CHECKED block added.
+* **Gates:** wiki-lint 438 pages / 0 errors · wiki-connect check 0 errors / 208 warnings · wiki-climb check 438 pages, 21 with `synthesizes:`, 0 errors, 0 warnings.
+* **Handoff Note:** Tree clean. The one remaining open question is whether Jerel Wayne Coles is also the July 2026 unnamed interloper — circumstantially plausible (Uniontown resident, harassment charge, identical role) but not confirmed. No external corpus sources address this directly; it would require either a match on phone number in the July 2026 export or identifying commentary from Annie.
+
 ### [2026-08-08] - Session: four-article wipe-and-rewrite (bacharach, belmont circle, zach, alexis)
 * **Model:** claude-opus-5 / Claude Code
 * **Branch:** `claude/wiki-articles-rewrite-c94nom`
