@@ -6,34 +6,53 @@ published per-page mirror, this makes the *single artifact*: every page in
 wiki/, complete with frontmatter, in one file, losslessly, as small as the
 format allows.
 
-  bin/wiki-monolith                 build .txt + .xz, print the size report
-  bin/wiki-monolith --best          also emit PPMd (smallest; needs pyppmd)
-  bin/wiki-monolith --compact       shrink the PLAIN text via a path symbol
-                                    table (only worth it uncompressed)
-  bin/wiki-monolith --all           every tier x every available codec
+  bin/wiki-monolith --format csv    ONE .csv, smallest plain file (2.49 MB)
+  bin/wiki-monolith --format txt --plain
+                                    ONE .txt, no codecs (2.55 MB)
+  bin/wiki-monolith                 .txt plus every available codec
+  bin/wiki-monolith --best          also emit PPMd — smallest overall, 521 KB
+  bin/wiki-monolith --compact       txt: path symbol table (uncompressed only)
+  bin/wiki-monolith --all           every content tier x every codec
   bin/wiki-monolith --meta          include root governance/meta .md files
-  bin/wiki-monolith --verify        round-trip every artifact and diff
+  bin/wiki-monolith --verify        check every artifact against the pages
   bin/wiki-monolith --out DIR       output directory (default exports/)
 
-Findings that shaped the defaults (measured on 438 pages / 2.6 MB, and
-reproducible with --all):
+Which knob matters depends entirely on whether the output may be compressed,
+and the two answers are opposites.
 
-  * Compression is the only large lever. Plain 2.55 MB -> 521 KB PPMd is a
-    5.0:1 win with zero content loss.
-  * Hand-deduplication is nearly pointless once a codec runs. Substituting
-    the 442 repeated wiki/ paths saves 164 KB of plain text (6%) but only
-    6 KB of xz, and nothing at all of PPMd. Hence --compact is off by
-    default and applies to the plain file only.
-  * Dropping metadata is a bad trade. Frontmatter is 23% of the raw bytes,
-    but deleting all of it saves only 11% of the compressed size -- and
-    connections claims are earned content, not boilerplate. So the monolith
-    keeps everything.
+IF YOU CAN COMPRESS — compression is the only lever worth pulling. 2.55 MB
+plain -> 521 KB PPMd order-16, 5.0:1, lossless (brotli 638 KB, text-tuned xz
+644 KB, gzip 892 KB). Text-level cleverness is then wasted: symbol-
+substituting the 442 repeated wiki/ paths saves 164 KB of plain text but only
+6 KB of xz and nothing of PPMd, because a compressor already models that
+redundancy better than a symbol table does.
 
-Nothing here is lossy: --verify reconstructs every page byte-for-byte.
+IF IT MUST STAY A PLAIN .txt / .csv — those small levers are all there is,
+and the ceiling is low. Measured, everything kept:
+
+    TXT concat, no TOC                2.55 MB
+    CSV, 'wiki/' prefix stripped      2.49 MB   <- smallest clean plain file
+    TXT + path symbol table           2.40 MB   (lossless, but control chars)
+    bodies only, no frontmatter       1.97 MB   (LOSSY — drops the claims)
+
+CSV wins because 438 repeated YAML key names collapse into one header row
+(-48 KB) while quote-doubling costs only 9.8 KB. Beyond that there is no
+trick left: it is 2.5 MB of actual prose, and the only way materially
+smaller is to drop content.
+
+Dropping frontmatter is the one big cut available, and it is a bad trade:
+23% of raw bytes but only 11% of compressed size, and the typed connections:
+edges living there carry argued claims -- earned content, not boilerplate.
+So nothing is dropped by default in any format.
+
+--verify checks txt byte-for-byte against every page. CSV is a
+restructuring, so it is verified on content instead: every row present,
+every body exact, every frontmatter value recoverable.
 """
 import argparse
 import datetime
 import gzip
+import io
 import lzma
 import re
 import sys
@@ -170,6 +189,90 @@ def human(n):
     return f"{n/1024/1024:.2f} MB" if n >= 1 << 20 else f"{n/1024:.0f} KB"
 
 
+# Frontmatter keys promoted to their own CSV column. Anything not listed
+# still ships, in the catch-all `other_frontmatter` column, so no field is
+# ever silently dropped.
+CSV_COLS = ["domain", "page_type", "status", "knowledge", "importance",
+            "title", "aliases", "tags", "date_created", "date_modified",
+            "date_range_start", "date_range_end", "sources", "connections",
+            "synthesizes", "related"]
+
+
+def parse_fm(fm):
+    """Split YAML frontmatter into {key: value}, values kept verbatim.
+
+    Deliberately dumb: it only needs to recognise top-level `key:` lines and
+    keep everything beneath them untouched, so nested structures like
+    connections: survive as their original text.
+    """
+    out, cur = {}, None
+    for line in fm.split("\n"):
+        m = re.match(r"^([A-Za-z_][A-Za-z0-9_]*):\s?(.*)$", line)
+        if m:
+            cur = m.group(1)
+            out[cur] = m.group(2)
+        elif cur is not None and (line.startswith((" ", "\t", "-")) or not line.strip()):
+            out[cur] += "\n" + line
+    return {k: v.strip("\n") for k, v in out.items()}
+
+
+def build_csv(files, strip_prefix=True):
+    """One row per page. Smaller than TXT: the repeated YAML key names
+    collapse into a single header row."""
+    import csv as _csv
+    buf = io.StringIO()
+    w = _csv.writer(buf, lineterminator="\n")
+    w.writerow(["path"] + CSV_COLS + ["other_frontmatter", "body"])
+    for p in files:
+        rel = p.relative_to(ROOT).as_posix()
+        fm, body = split_frontmatter(p.read_text(encoding="utf-8", errors="replace"))
+        d = parse_fm(fm)
+        extra = "\n".join(f"{k}: {v}" for k, v in d.items() if k not in CSV_COLS)
+        row = [rel] + [d.get(c, "") for c in CSV_COLS] + [extra, body]
+        if strip_prefix:
+            row = [c.replace("wiki/", "") for c in row]
+        w.writerow(row)
+    return buf.getvalue()
+
+
+def split_frontmatter(t):
+    if t.startswith("---\n"):
+        e = t.find("\n---\n", 4)
+        if e != -1:
+            return t[4:e], t[e + 5:]
+    return "", t
+
+
+def verify_csv(text, files, strip_prefix=True):
+    """Content check, not a byte check: every page present, every body and
+    every frontmatter value recoverable from its row."""
+    import csv as _csv
+    rows = list(_csv.reader(io.StringIO(text)))
+    header, rows = rows[0], rows[1:]
+    if len(rows) != len(files):
+        print(f"  FAIL row count {len(rows)} != {len(files)} pages")
+        return False
+    ok = True
+    bi, pi = header.index("body"), header.index("path")
+    for row, p in zip(rows, files):
+        rel = p.relative_to(ROOT).as_posix()
+        fm, body = split_frontmatter(p.read_text(encoding="utf-8", errors="replace"))
+        if strip_prefix:
+            body, fm = body.replace("wiki/", ""), fm.replace("wiki/", "")
+        if row[pi] != (rel.replace("wiki/", "") if strip_prefix else rel):
+            print(f"  FAIL path mismatch: {rel}")
+            ok = False
+        if row[bi] != body:
+            print(f"  FAIL body mismatch: {rel}")
+            ok = False
+        for k, v in parse_fm(fm).items():
+            col = header.index(k) if k in header else header.index("other_frontmatter")
+            if v.strip() and v.strip() not in row[col]:
+                print(f"  FAIL missing frontmatter {k}: {rel}")
+                ok = False
+    return ok
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(add_help=False)
     ap.add_argument("--out", default=str(ROOT / "exports"))
@@ -179,6 +282,11 @@ def main(argv=None):
     ap.add_argument("--meta", action="store_true")
     ap.add_argument("--no-toc", action="store_true")
     ap.add_argument("--verify", action="store_true")
+    ap.add_argument("--format", choices=["txt", "csv", "both"], default="txt")
+    ap.add_argument("--plain", action="store_true",
+                    help="write only the uncompressed file, no codecs")
+    ap.add_argument("--keep-prefix", action="store_true",
+                    help="csv: keep the redundant 'wiki/' on every path")
     ap.add_argument("-h", "--help", action="store_true")
     a = ap.parse_args(argv)
     if a.help:
@@ -203,6 +311,30 @@ def main(argv=None):
     print(f"{len(files)} pages · {human(source_bytes)} on disk\n")
     print(f"{'artifact':<34}{'size':>12}{'ratio':>9}")
     print("-" * 55)
+
+    if a.format in ("csv", "both"):
+        text = build_csv(files, strip_prefix=not a.keep_prefix)
+        cpath = outdir / f"{stem}.csv"
+        cpath.write_text(text, encoding="utf-8")
+        print(f"{cpath.name:<34}{human(len(text.encode())):>12}"
+              f"{len(raw)/len(text.encode()):>8.1f}x")
+        if a.verify:
+            ok = verify_csv(text, files, strip_prefix=not a.keep_prefix)
+            print(f"  csv: {len(files)} rows · "
+                  f"{'all bodies + frontmatter present' if ok else 'ERRORS ABOVE'}")
+            if not ok:
+                return 1
+        if a.format == "csv":
+            print(f"\nsmallest: {cpath.name} — {human(len(text.encode()))}")
+            return 0
+
+    if a.plain:
+        ppath = outdir / f"{stem}.txt"
+        payload = compact(doc) if a.compact else doc
+        ppath.write_text(payload, encoding="utf-8")
+        print(f"{ppath.name:<34}{human(len(payload.encode())):>12}"
+              f"{len(raw)/len(payload.encode()):>8.1f}x")
+        return 0
 
     written = []
     for ext, label, enc, dec in codecs(a.best):
