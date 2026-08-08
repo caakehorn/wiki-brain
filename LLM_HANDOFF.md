@@ -6,6 +6,16 @@
 
 ---
 
+### [2026-08-08] - Session: wiki-monolith (single-document export, size-optimised)
+* **Model:** Claude Code
+* **Summary:**
+  - Added **`bin/wiki-monolith`** — the whole wiki as ONE document, at the smallest filesize. Emits the plain `.txt` plus `.gz`/`.xz`/`.br`/`.ppmd`, and `--verify` reconstructs all 438 pages byte-for-byte from the artifact.
+  - **Benchmarked the real levers** (`--all` reproduces the table): compression is the only big one — 2.55 MB plain → **521 KB PPMd order-16**, 5.0:1 lossless. brotli 638 KB, text-tuned xz 644 KB, gzip 892 KB.
+  - **Two intuitive optimisations measured and rejected.** Symbol-substituting the 442 repeated `wiki/` paths saves 6% of plain text but ~1% of xz and nothing of PPMd (hence `--compact` is opt-in, plain-file only). Stripping frontmatter is 23% of raw bytes but only 11% of compressed size — and `connections:` claims are earned content, so nothing is dropped.
+  - Fixed two bugs caught by round-trip verification: prefix-ambiguous symbol ids (now fixed-width hex) and an unguarded page delimiter.
+  - No wiki pages touched. `wiki-lint` / `wiki-connect check` / `wiki-climb check` all at 0 errors.
+* **Handoff Note:** Output lands in gitignored `exports/`, so rerun the tool rather than looking for the artifact in git. Default recommendation: `.txt.xz` when the reader needs standard tools, `.txt.ppmd` when the extra 19% matters (needs `pyppmd` or 7-Zip). PPMd and brotli are optional imports — the tool degrades to stdlib gzip/xz without them, so it stays dependency-free by default per the bin/ convention.
+
 ### [2026-08-08] - Session: the front end was serving the wrong build (no content pass)
 * **Model:** claude-opus-5 / Claude Code
 * **Branch:** `claude/wiki-frontend-broken-gw2gx7`
