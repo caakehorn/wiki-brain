@@ -56,9 +56,9 @@ Two consequences bind you directly:
 
 - **Every data point gets an entry.** Every story, friend, place, perspective,
   development and thought. Thinness is not a reason to withhold a page — a stub
-  marked `status: stub` beats a fact that lives nowhere. (One exception:
-  `wiki/people/contacts/` is quarantine for unverified auto-generated handles.
-  Do not add there.)
+  marked `status: stub` beats a fact that lives nowhere. The only boundary is
+  **one page per entity** — grep every alias and handle first, then merge rather
+  than fork.
 - **An entry is a live node, not a record.** Each page carries what was known at
   ingestion *and* everything later produced by using it in analysis against the
   rest of the corpus. If you conclude something about a page, that conclusion

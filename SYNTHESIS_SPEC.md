@@ -1,8 +1,9 @@
 # Synthesis Spec — how the wiki reasons from itself
 
-Adopted 2026-07-26. Binding on the same tier as `STYLE_GUIDE.md` (page
-format) and `CONNECTIONS_SPEC.md` (edge format). This file governs the third
-thing: **altitude** — how conclusions stack on top of conclusions, and what
+Adopted 2026-07-26. One of the six governing documents (see `STRATEGY.md` for
+the full set), binding on the same tier as `STYLE_GUIDE.md` (page format),
+`EXTRACTION_SPEC.md` (extraction depth) and `CONNECTIONS_SPEC.md` (edge format).
+This file governs **altitude** — how conclusions stack on top of conclusions, and what
 obligations a page takes on when it reasons from other pages instead of from
 `raw/`. `bin/wiki-climb` mechanically enforces it.
 

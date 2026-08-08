@@ -1,6 +1,19 @@
 # STRATEGY — what this repository is doing and why (read me if you read nothing else)
 
-Any model — including one less capable than the models that designed this system — should be able to open this repository cold and continue the work correctly by reading this file. It states the strategy in plain language. Read it alongside `CLAUDE.md` (process), `STYLE_GUIDE.md` (page format), `CONNECTIONS_SPEC.md` (connection format), and `SYNTHESIS_SPEC.md` (altitude — how conclusions stack on conclusions).
+Any model should be able to open this repository cold and continue the work correctly by reading this file. It states the strategy in plain language.
+
+The governing set, in the order a new reader should meet it:
+
+| File | Governs | Wins on |
+|---|---|---|
+| **STRATEGY.md** (this file) | what we are doing and why | intent |
+| **CLAUDE.md** | the operations — ingest, query, climb, lint | process |
+| **EXTRACTION_SPEC.md** | how deep to go into a source before writing | depth |
+| **STYLE_GUIDE.md** | page format and the substance standard | format |
+| **CONNECTIONS_SPEC.md** | typed edges and their claims | edges |
+| **SYNTHESIS_SPEC.md** | altitude — how conclusions stack on conclusions | climbing |
+
+`BACKLOG.md` holds the standing work; `LLM_HANDOFF.md` holds the exact resume point.
 
 ## The purpose
 
@@ -17,13 +30,27 @@ The system runs on one repeating cycle:
 **Story → Entry → Analysis → Synthesized finding → Saved back to every entry it touches → Repeat.**
 
 1. A memory, fact, or document is captured once and filed immutably into `raw/`.
-2. It's read from `raw/` exactly once, and that understanding is written into a durable `wiki/` page — this is a ground-floor entry.
+2. It's read from `raw/` **to exhaustion**, and that understanding is written into a durable `wiki/` page — this is a ground-floor entry.
 3. Once enough ground entries exist, they're read *across* each other — not one at a time — looking for a pattern that no single entry states but that several together prove.
 4. That pattern becomes its own finding: a synthesis, stated as a falsifiable claim, not a vague observation.
 5. The finding is written back into **every ground entry it draws from**, via a typed connection with an argued claim — so the insight doesn't have to be re-derived the next time someone lands on that entry.
 6. The finding itself becomes a premise for the *next* round: junctions can be read across each other to find doctrine, the same way ground entries were read across each other to find junctions.
 
 This is **amortized insight**. Analysis is expensive to do well, so it's done once, saved at every point it's relevant, and each future pass starts from a higher floor instead of re-deriving what's already known. Nothing above this line is optional flavor text — it's the actual mechanism the rest of the spec files exist to support.
+
+## Depth is the binding constraint
+
+For the first year the limiting factor was coverage: there were not enough pages. That is no longer true — there are 438. **The limiting factor now is how deeply each source gets mined and how much of what is found actually reaches a page.**
+
+The reason is mechanical, and it is the most important sentence in this file:
+
+> A pattern can only be found among details that were written down. Every detail dropped at extraction is a connection that can never be made, by anyone, later — because step 3 of the loop reasons from `wiki/`, not from `raw/`.
+
+So the standing instruction is **longer, denser, more exhaustive entries**, and the standard for reading a source is *exhaustion* rather than retrieval: a source is read when a second careful pass would find nothing material you missed. Sources already marked ingested routinely turn out to hold three times what the first pass took, and the leftovers are not marginal — they are the findings that reorganise pages.
+
+This is not hoarding. A detail's value is not its own significance, which is assigned later by the climb; it is the **surface area** it adds for the next climb to land on. The detail that looks meaningless at extraction time is exactly the one that turns out to be the third instance of a shape — and it can only do that if it is on a page. Page-size warnings are advisory and never a reason to drop content.
+
+`EXTRACTION_SPEC.md` is the full doctrine: the seven moves, the source tiers, and the per-source traps that fail silently.
 
 ## Why altitude matters
 
@@ -37,7 +64,7 @@ Each layer declares its `synthesizes:` list, naming exactly what it was built fr
 
 ## The pipeline in one paragraph
 
-Material enters `inbox/`, is filed immutably into `raw/`, and is read ONCE — the understanding extracted from it is written into `wiki/` as prose pages. From then on, reasoning happens FROM the wiki, returning to `raw/` only when the wiki is silent or a claim needs primary verification. Pages are either `derived` (mechanically regenerable from raw — counts, discographies) or `earned` (conclusions produced by reasoning — NOT regenerable, must be revised, never rewritten from scratch). `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` is the single most authoritative raw source.
+Material enters `inbox/`, is filed immutably into `raw/`, and is read to exhaustion — the understanding extracted from it is written into `wiki/` as prose pages. From then on, reasoning happens FROM the wiki, returning to `raw/` only when the wiki is silent or a claim needs primary verification. Pages are either `derived` (mechanically regenerable from raw — counts, discographies) or `earned` (conclusions produced by reasoning — NOT regenerable, must be revised, never rewritten from scratch). `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` is the single most authoritative raw source.
 
 ## Why connections are typed
 
@@ -63,41 +90,32 @@ The operation is called **CLIMB**, alongside INGEST, QUERY, and LINT. `bin/wiki-
 
 ## The substance standard in one paragraph
 
-The first paragraph of every page must answer the stranger's question (for a person: who is this to Dan, what is the current state, what is the defining thing; for an event: what happened and what changed). Order by consequence, not chronology. State load-bearing conclusions plainly. Name gaps explicitly. Tables hold numbers; prose holds meaning. Exemplar pages — imitate their shape — are `wiki/people/annie-ulmer.md`, `wiki/people/suzanne-frank.md`, `wiki/timeline/events/eli-incident.md`. A page that is tidy but leads with corpus statistics instead of the story is a failed page.
+The first paragraph of every page must answer the stranger's question (for a person: who is this to Dan, what is the current state, what is the defining thing; for an event: what happened and what changed). Order by consequence, not chronology. State load-bearing conclusions plainly. Name gaps explicitly. Tables hold numbers; prose holds meaning. Write long — the operator's standing directive is denser and more exhaustive entries than the current standard, and no page has yet been too long. Exemplar pages — imitate their shape — are `wiki/people/annie-ulmer.md`, `wiki/people/suzanne-frank.md`, `wiki/people/alexis-armel.md`, `wiki/timeline/events/eli-incident.md`. A page that is tidy but leads with corpus statistics instead of the story is a failed page.
 
-## If you are a limited model, or unsure: the four unbreakable rules
+## The five unbreakable rules
+
+If you are unsure about anything else here, follow these and you cannot corrupt the system.
 
 1. **Never write an untyped link.** Every connection gets a `type` from the CONNECTIONS_SPEC vocabulary and a `claim` sentence. If you cannot write the claim, do not make the connection — record the rejection in `connection-queue.md` with one line of reasoning.
-2. **Never state a fact without a raw source that exists on disk.** Verify numbers and quotes against `raw/` before writing them; flag dossier-only material as such. Never guess identities — grep all known names and handles first. Known trap: the `direction` column in `MASTER_MESSAGES_DB_DUMP.csv` is unreliable; reconstruct the speaker from content.
-3. **Leave the site as you found it, plus your work.** Run `bin/wiki-lint`, `bin/wiki-connect check`, and `bin/wiki-climb check` before committing; commit before ending the session; append to `log.md`; update `LLM_HANDOFF.md` with what you did and the exact resume point.
-4. **Never clear a stale warning by bumping the date.** If `wiki-climb check` says a page's premise moved, read what changed and decide whether the conclusion survives. Silencing it is the one move that corrupts the system quietly, because everything built above the page keeps compounding on a premise nobody re-checked.
+2. **Never state a fact without a raw source that exists on disk.** Verify numbers and quotes against `raw/` before writing them; attribute AI-generated material as such. Never guess identities — grep all known names and handles first. Known trap: `MASTER_MESSAGES_DB_DUMP.csv` marks nearly everything `Received`, so any claim about what *Dan* said must come from `all_imessages_complete_dump.txt`.
+3. **Never stop at what you came for.** A source is read when it is exhausted, not when it has answered your question. Chase every proper noun, re-derive every number, note what is conspicuously absent, and write down the mundane — the climb cannot reach what extraction filtered out (`EXTRACTION_SPEC.md`).
+4. **Never clear a stale warning by bumping the date.** If `wiki-climb check` says a page's premise moved, read what changed and decide whether the conclusion survives, then record that decision on the page. Silencing it is the one move that corrupts the system quietly, because everything built above the page keeps compounding on a premise nobody re-checked.
+5. **Leave the site as you found it, plus your work.** Run `bin/wiki-lint`, `bin/wiki-connect check`, and `bin/wiki-climb check` before committing; regenerate `bin/wiki-digest` and `bin/llm-publish` after a content pass; append to `log.md`; update `LLM_HANDOFF.md` with what you did and the exact resume point.
 
-Follow these four and you cannot corrupt the system, even if you understand nothing else here.
+## The model of the product
 
-## Running on lesser models (the post-2026-07-18 operating reality)
+What a finished piece of work looks like: the junction-page trio (`supply-network`, `estate-money-spine`, `block-unblock-loop`) for synthesis — verified members, typed edges with argued claims, inverse edges on every member, one governing rule stated plainly, gaps named. For ground pages, the four rewritten on 2026-08-08 (`alexis-armel`, `jacob-bacharach`, `117-belmont-circle`, `zach-clingan`) are the depth standard: every claim re-derived from raw, corrections flagged rather than silently applied, and the mundane kept.
 
-The most capable model that will ever work on this repository finished its last session on 2026-07-18. Everything after this line is executed by less capable models, and the work has been shaped for that.
-
-**Safe to execute mechanically (do these freely):**
-- Clearing `bin/wiki-climb check` staleness warnings *properly* — read the changed premise, add one line saying the conclusion was re-checked and holds, then bump the date. If it doesn't hold, that's a REVISED block and a real pass, not a mechanical one.
-- The `related:` → `connections:` retrofit backlog (per the protocol in `CONNECTIONS_SPEC.md`, one page per pass) and `connection-queue.md` top-down.
-- The standing verdicts in `LONG_TAIL_TRIAGE.md` — decisions are made; execute, don't re-litigate.
-- The storytime-mining workflow (`INGEST_RUNBOOK.md` §11) — with operator approval at step 3.
-- `bin/llm-publish` regeneration after every content pass; queue.md and inbox hygiene; knowledge-tagging pages you already touch.
-
-**Do NOT attempt without strong evidence in hand:**
-- Rewriting or re-deriving any `knowledge: earned` page (junction pages, the synthesis stack, the fallout verdict). Revise with REVISED/CONTRADICTION blocks only, and only when raw evidence forces it.
-- Changing a verdict or a verified number. The 2026-07-18 primary-count pass (`dan-annie-fallout-verdict.md`) is the worked example of the required discipline: base-rate controls, direction checks, exact-row citations. If you can't run that discipline, flag and queue instead.
-- Guessing identities. Grep every name and handle; when in doubt, add to `contact-review.md` and move on.
-
-**The model of the product** — what a finished piece of work looks like — is the junction-page trio (`supply-network`, `estate-money-spine`, `block-unblock-loop`): verified members, typed edges with argued claims, inverse edges on every member, one governing rule stated plainly, gaps named. Imitate their shape.
+Two things are worth more than volume of output. **Negative results** — "checked X, it is not there" — are cheap falsifiers and belong on pages. And **corrections of the wiki's own errors**, with the old claim left visible, are the most valuable artifact the repository produces, because they are where the model of Dan actually improves.
 
 ## Current campaign
 
-Two run in parallel.
+Three run in parallel.
 
-**Breadth (the retrofit):** converting the legacy graph to typed connections, page by page, in the priority order given in `CONNECTIONS_SPEC.md` (islanded pages → synthesis pages → `connection-queue.md` top-down → remaining `related:` holders), deepening body copy from raw in the same pass. `bin/wiki-connect audit` shows live progress.
+**Depth (extraction).** The binding constraint. Work `BACKLOG.md` §1 — the Gchat archive first, then behavioural rather than lexical mining, then second passes over sources already marked ingested. Per `EXTRACTION_SPEC.md`.
 
-**Height (the climb):** as of 2026-07-26 only 3.6% of pages sit above ground level, and four domains — `self`, `timeline`, `work`, `places` — have three or more pages and nothing above any of them. That is the structural gap now. Work `synthesis-queue.md` top-down, one climb per pass, per `SYNTHESIS_SPEC.md`. `bin/wiki-climb audit` shows live progress.
+**Height (the climb).** Four domains — `self`, `timeline`, `work`, `places` — have three or more pages and nothing above any of them. Work `synthesis-queue.md` top-down, one climb per pass, per `SYNTHESIS_SPEC.md`. `bin/wiki-climb audit` shows live progress.
+
+**Breadth (the retrofit).** Converting the legacy graph to typed connections, page by page, in the priority order in `CONNECTIONS_SPEC.md`, deepening body copy from raw in the same pass. `bin/wiki-connect audit` shows live progress.
 
 See `LLM_HANDOFF.md` for the exact resume point.

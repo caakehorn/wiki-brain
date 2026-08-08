@@ -56,16 +56,14 @@ factset, the faster the value compounds.
 
 | Fact | Value |
 |------|-------|
-| Repo (local) | `/Users/Suzanne/Documents/GitHub/wiki-brain` |
-| Phase B RAW source volume | `/Volumes/MUSIC/PHASE B RAW` |
-| Published site | `https://caakehorn.github.io/wiki-brain/wiki/` — **404 since 2026-08-02** (repo private). Public mirror: `https://caakehorn.github.io/leviathan/data/wiki-data.json` |
+| Repo (local) | varies by machine — never hardcode a path; work from the repo root |
+| Published site | `https://caakehorn.github.io/wiki-brain/wiki/` (live; see `AGENT_ACCESS.md`). Public mirror: `https://caakehorn.github.io/leviathan/data/wiki-data.json` |
 | GitHub remote | `caakehorn/wiki-brain` (origin, https) |
 | Default branch | `main` |
-| Current ingest branch pattern | `feat/<descriptive-slug>` (e.g. `feat/wiki-wikipedia-chrome`) |
-| Lint command | `python3 bin/wiki-lint` + `bin/wiki-connect check` (run from repo root) |
-| `gh` auth | already authenticated to `caakehorn` via keyring, https protocol |
-| OS | macOS (14.8.4) |
-| **Operator identity** | **Dan Frank** (`dfrank88@gmail.com`), b. 1988-11-01. The home dir is `/Users/Suzanne` but that is his MOTHER's machine — IGNORE the directory name; Suzanne is NEVER the user. Everything in this session is Dan. |
+| Ingest branch pattern | `feat/<descriptive-slug>`, or whatever branch the session's standing instruction names |
+| Gates | `bin/wiki-lint`, `bin/wiki-connect check`, `bin/wiki-climb check` — all three, 0 errors, from the repo root |
+| Environment | usually macOS locally; sessions also run in a Linux container with no `gh` CLI (use the GitHub MCP tools there) |
+| **Operator identity** | **Dan Frank** (`dfrank88@gmail.com`), b. 1988-11-01. On the local machine the home directory is `/Users/Suzanne` — that is his MOTHER's machine. IGNORE the directory name; Suzanne is NEVER the user. Everything in a session is Dan. |
 
 > The repo's own `CLAUDE.md` reinforces this: the wiki is about Dan Frank.
 > Treat `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` as the primary
@@ -76,33 +74,38 @@ factset, the faster the value compounds.
 
 ## 2. GOVERNANCE FILES — READ THESE FIRST, IN THIS ORDER
 
-All at repo root unless noted. Read them before touching anything.
+All at repo root. Each says what it wins on when two disagree.
 
-0. **`STRATEGY.md`** — read this one first. It states the purpose and **the core
-   loop** (Story → Entry → Analysis → Synthesized finding → **saved back to every
-   entry it touches** → repeat) that every other governance file exists to serve,
-   plus the four unbreakable rules. Where a process doc and STRATEGY.md disagree
-   on *intent*, STRATEGY.md wins.
-1. **`CLAUDE.md`** — the project charter. Defines the second-brain principle
-   (earned vs derived knowledge), the ingest protocol, the architecture
-   (`inbox/ → raw/ → wiki/`), the frontmatter spec, and the lint expectation.
-   CRITICAL rule inside it: **update `LLM_HANDOFF.md` at the end of every
-   session** with a dated entry of what you did + next-focus guidance.
-2. **`LLM_HANDOFF.md`** — the cross-model coordination log. Tells you current
-   state and what the last several models did. You MUST append to it at session end.
-3. **`STYLE_GUIDE.md`** — style rules. Already largely followed. NOTE: the
-   operator's direct instruction (lengthy, detailed, connective) outranks this
-   where they conflict. Do not strip "LLM-coined neologisms" from SOURCE-evidence
-   you quote, but the operator dislikes them in derived prose — keep published
-   wiki voice plain and human.
-4. **`INGEST_PROTOCOL.md`** — the ingest steps (one source per pass, etc.).
-5. **`AGENT_ACCESS.md`** — access/safety policy. Do NOT preserve any
-   credentials/tokens/API keys you encounter in sources; redact, don't replicate.
-6. **`bin/wiki-lint`** — read it to know exactly what it validates:
-   - `sources:` frontmatter paths MUST exist on disk (under `raw/`), or it errors.
-   - `wiki/` prefixed internal links are checked for reachability.
-   - `knowledge:` field, when present, must be `earned | derived | mixed`.
-   - Page size budget (8KB) produces WARNINGS, not errors.
+0. **`STRATEGY.md`** — read first. States the purpose, **the core loop**
+   (Story → Entry → Analysis → Synthesized finding → **saved back to every entry
+   it touches** → repeat), and the **five unbreakable rules**. Wins on intent.
+1. **`CLAUDE.md`** — the operations: architecture (`inbox/ → raw/ → wiki/`), the
+   second-brain principle (earned vs derived), ingest/query/climb/rewrite/lint,
+   the tool table. Wins on process. Its standing rule: **update `LLM_HANDOFF.md`
+   at the end of every session** with what you did and the exact next focus.
+2. **`EXTRACTION_SPEC.md`** — how deep to go into a source before writing. This
+   is the binding constraint on the whole project and the most important file for
+   an ingest pass specifically: the seven moves, primary vs AI-secondary source
+   tiers, and the per-source traps that fail *silently*. Wins on depth.
+3. **`LLM_HANDOFF.md`** — cross-model coordination. Current state and what the
+   last several sessions did. You MUST append to it at session end.
+4. **`STYLE_GUIDE.md`** — page format and the substance standard. Wins on format.
+   Note the operator's standing directive inside it: **longer, denser entries**;
+   size warnings are advisory and never a reason to cut. Keep published wiki voice
+   plain and human — do not carry LLM neologisms into derived prose, though you may
+   quote them from source evidence.
+5. **`CONNECTIONS_SPEC.md`** (edges) and **`SYNTHESIS_SPEC.md`** (altitude) — read
+   both before wiring anything or writing a synthesis page.
+6. **`BACKLOG.md`** — the standing work list, so you pick up something live.
+7. **`AGENT_ACCESS.md`** — access/safety policy. Do NOT preserve any
+   credentials/tokens/API keys you encounter in sources; redact, never replicate.
+8. **`bin/wiki-lint`** — read it to know exactly what it validates:
+   - `sources:` frontmatter paths MUST exist on disk under `raw/`, or it errors.
+   - `wiki/`-prefixed internal links are checked for reachability.
+   - `knowledge:`, when present, must be `earned | derived | mixed`.
+   - `domain: people` pages require an `infobox:` with `name` +
+     `relationship_to_dan`.
+   - Page size produces **warnings, not errors**, and the budget is 40 KB.
 
 ---
 
@@ -165,7 +168,7 @@ Per pass (a "pass" = one source or tight source-cluster, fully processed):
 9. **Run `python3 bin/wiki-lint`.** Fix every ERROR:
    - broken `wiki/` links (you referenced a page path that doesn't resolve),
    - `sources:` paths that don't exist on disk.
-   WARNINGS (page over 8KB budget) are pre-existing and safe to ignore UNLESS
+   WARNINGS (page size, orphans) are advisory and safe to ignore UNLESS
    your specific page is wildly over budget and splittable — otherwise leave them.
 10. **Commit.** `git add -A` then
     `git commit -m "<op>: <short description>"` — message should name the source
@@ -252,93 +255,45 @@ infer user identity from the path. The operator is Dan Frank throughout.
 
 ---
 
-## 7. WORK ALREADY DONE (so the next agent CONTINUES, not redoes)
+## 7. WHERE THE WORK STANDS
 
-**Branch:** `feat/wiki-wikipedia-chrome` (4 commits ahead of origin as of
-2026-07-15; pushed; **PR #34 open** against `main`).
+This runbook deliberately does not carry session state — it went stale twice
+doing so. Two files hold it, and both are current:
 
-**Sources filed into `raw/` this session:**
-- `raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md`
-- `raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md`
-- `raw/self/dox-md/THE_DAN_FRANK_MANUAL.md`
-- `raw/self/dox-md/DAN_COGNITIVE_PROFILE.txt`
+- **`LLM_HANDOFF.md`** — the exact resume point, newest entry at the top, with
+  what the last session found, the gate results, and what to do next.
+- **`BACKLOG.md`** — the standing work that outlives any one session: the
+  extraction campaign, structural gaps, named open questions, and the settled
+  decisions that should not be re-litigated.
 
-**Wiki pages extended/created (all lint 0 errors):**
-- `wiki/mind/synthesis/totality-themes.md` — +430 lines of cross-corpus [JOIN]
-  findings (two-constants intake metabolism, migration grammar, relational channel
-  map, housing clock, LLM-venue-vs-conflict-architecture, output-port bandwidth
-  war, precarity ledger, 4:1 distribution-to-tooling ratio confirmed from search
-  corpus).
-- `wiki/mind/synthesis/ai-collaborative-analysis.md` — +106 lines ("the venue
-  is shaped like the hole").
-- `wiki/mind/synthesis/intake-constancy.md` — NEW page (fixed-rate intake
-  metabolism; later cross-validated against the search corpus).
-- `wiki/mind/concepts/contact-gini.md` — 0.961 made mechanical across the full
-  181,585-message corpus.
-- `wiki/mind/concepts/conflict-architecture.md` — the 414-message Grok-loop as
-  a literal mechanical mirror of the no-domain-selector flaw; the 1,512 "I love
-  you" vs 232 "fuck you" vs 180 apologies triad.
-- `wiki/mind/index.md` — linked the new `intake-constancy` page.
-- `LLM_HANDOFF.md` — appended 2026-07-15 session entry.
-
-**The error that was caught and fixed:** the "~7 YouTube watches/day" figure was
-recomputed to 11.58/day from raw, corrected on both pages with provenance, then
-independently corroborated by the browser-history corpus (20.2 actions/active
-day over 5,391 days).
+Machine-maintained queues sit beside them: `queue.md` (pending ingest),
+`connection-queue.md` (mined edge candidates), `synthesis-queue.md` (mined climb
+clusters).
 
 ---
 
-## 8. WHAT REMAINS (next passes — pick one cluster, fully)
-
-Per the standing directive (one source-cluster per pass, compounding forward; the
-operator's target was 10–30 total hours of this ingest):
-
-1. **Bootloader relationship-chronology corrections** (from
-   `THE_DAN_FRANK_BOOTLOADER.md`, already filed): the November 2015 single-bond
-   switch (Alexis final breakup → Annie transition, Thanksgiving 2015, with the
-   155 Virginia Ave lair-continuity where Annie moved into the house Dan shared
-   with Alexis) — port into `wiki/mind/synthesis/attachment-trauma-bond.md` and
-   `wiki/people/annie-ulmer.md`. The existing pages already carry the Nov 2015
-   transition; the ADDED value is the explicit single-bond-switch *thesis* and the
-   lair-continuity detail.
-2. **Browser-history relational-name traces** (`browser_history_analysis.txt`,
-   §8): Tom most-searched/safe-attachment, Annie search-invisible (lived in
-   closed channels), Alexis/Kristin as post-hoc forensic subjects. Partially
-   ported; finish threading into the people pages.
-3. **Message-corpora people-thread pull** — `ANNIETEXTS.csv` (9.9MB) and the
-   `*FULL CORPUS*` CSVs at `/Volumes/MUSIC/PHASE B RAW/`. The handoff log lists
-   ~17 unstarted stub pages still open (e.g. nick-mattie, rj, rod-banks, sam,
-   shannon, slim, steve-kezmarsky, tan-calabrese, teddy, trevor, urpaaa,
-   vaughn, vicki, zach-clabaugh, zach-hendricks/zaco [same person], zach).
-   Mine per-contact pulls; watch specifically for Sent-row misattributions
-   (the master CSV's Sent rows carry an empty `contact_handle` — recipient is
-   inferred, never read directly; treat as real uncertainty).
-4. **Remaining Phase B sources not yet ingested** — confirm what's still in
-   `/Volumes/MUSIC/PHASE B RAW` that hasn't been filed/mined (the handoff note
-   records the 4 filed sources are NOT yet exhausted; the bootloader's nine
-   corpus findings and the browser doc's deeper sections are only partially
-   ported).
-
----
-
-## 9. CONCRETE FIRST ACTIONS FOR THE NEXT AGENT
+## 8. FIRST ACTIONS FOR THE NEXT AGENT
 
 ```
-1. cd /Users/Suzanne/Documents/GitHub/wiki-brain
-2. Read CLAUDE.md, LLM_HANDOFF.md, STYLE_GUIDE.md, INGEST_PROTOCOL.md, AGENT_ACCESS.md
-3. git status / git branch -vv   # confirm you're on the right ingest branch
-4. python3 bin/wiki-lint | tail -3   # baseline: expect "0 errors"
-5. List /Volumes/MUSIC/PHASE B RAW  # see what's uningested
-6. Pick cluster #1 above (bootloader relationship-chronology) OR whatever the
-   operator redirects to.
-7. File source into raw/, read completely, map to wiki, extend, verify numbers
-   from raw, update frontmatter, link, lint, commit, update LLM_HANDOFF.md.
-8. Only push + PR when the operator explicitly asks.
+1. Read STRATEGY.md, CLAUDE.md, EXTRACTION_SPEC.md, LLM_HANDOFF.md.
+2. git status && git branch -vv        # confirm the branch you should be on
+3. bin/wiki-lint | tail -1             # baseline: expect "0 errors"
+   bin/wiki-connect check | tail -1
+   bin/wiki-climb check | tail -1
+4. bin/capture status                  # what's waiting in inbox/
+5. Pick ONE item: the top of LLM_HANDOFF.md's resume point, or one cluster
+   from BACKLOG.md. One source per pass, fully — never parallel.
+6. File the source into raw/, read it TO EXHAUSTION (EXTRACTION_SPEC.md),
+   map it to wiki pages, re-derive every number from raw, write long,
+   wire typed edges both ways, run the three gates.
+7. Append to log.md as findings; update LLM_HANDOFF.md; commit.
+8. Push and open a PR when the operator asks, or per the session's standing
+   branch instruction.
 ```
 
 ---
 
-## 10. DEFINING QUALITY BAR (what "exactly as done" looks like)
+## 9. DEFINING QUALITY BAR (what "exactly as done" looks like)
 
 - Every quantitative claim traces to a `raw/` path in `sources:`.
 - Rates/volumes recomputed from raw exports, not lifted from a doc's prose.
@@ -360,7 +315,7 @@ operator's target was 10–30 total hours of this ingest):
 - Tone: forensic senior peer. Plain human voice in published prose (no LLM
   neologisms in derived writing). Lengthy and detailed by directive.
 
-## 11. THE STORYTIME-MINING WORKFLOW (codified 2026-07-18 — operator-approved, repeatable)
+## 10. THE STORYTIME-MINING WORKFLOW (codified 2026-07-18 — operator-approved, repeatable)
 
 For retiring `wiki/self/chats/` pages (gemini-XX, j6-chat, 9-11-chat, and
 the dox-md storytimes). This workflow ran successfully on Gemini-_02 and

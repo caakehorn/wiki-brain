@@ -20,7 +20,8 @@ VALID_TAGS = {
     "forensic-analysis", "ai-collaboration", "digital-footprint",
     "uniontown-era", "nyc-era", "pets",
 }
-PAGE_BUDGET = 8 * 1024
+PAGE_BUDGET = 40 * 1024   # advisory only — see STYLE_GUIDE.md substance rule 4;
+                          # depth is the standing directive, never trim to clear this
 INDEX_BUDGET = 8 * 1024
 MASTER_INDEX_BUDGET = 5 * 1024
 
@@ -65,7 +66,7 @@ for p in scan:
     if is_index and r != "index.md" and size > INDEX_BUDGET:
         warnings.append(f"{r}: index is {size//1024}KB (budget {INDEX_BUDGET//1024}KB) — likely session noise")
     elif not is_index and size > PAGE_BUDGET and not is_contact_stub:
-        warnings.append(f"{r}: page is {size//1024}KB (budget 8KB) — consider splitting")
+        warnings.append(f"{r}: page is {size//1024}KB — unusually long; split ONLY if navigation genuinely improves, never to shorten")
 
     fm = fm_parse(text)
     if fm is None:

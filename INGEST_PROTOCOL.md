@@ -56,11 +56,17 @@ file.
 
 ## Quality bar
 
-Four rules bind here as much as anywhere, and both the prompt pack and the
-factstory brief state all four:
+Five rules bind here as much as anywhere, and both the prompt pack and the
+factstory brief state all five:
 
 - **Every data point gets an entry.** Coverage is the goal; a thin stub beats an
-  omission. The exception is `wiki/people/contacts/`, which stays quarantine.
+  omission. The only boundary is one page per entity — merge, never fork.
+- **Read the source to exhaustion, and write long.** A source is read when a
+  second careful pass would find nothing material you missed, not when it has
+  answered the question you brought. Chase every proper noun, re-derive every
+  number, note what is conspicuously absent, and keep the mundane — synthesis
+  reasons from `wiki/`, so anything dropped here is a connection nobody can make
+  later (`EXTRACTION_SPEC.md`).
 - **Findings get written back.** If the pass produces a conclusion spanning
   several pages, that conclusion is written into each of them as a typed edge
   whose claim states the finding — not left on one page for the others to
@@ -80,7 +86,7 @@ factstory brief state all four:
 
 The pack embeds STYLE_GUIDE.md and the ingest rules from CLAUDE.md
 (one source per pass, complete-sentence prose, tables for numbers,
-~8 KB budget, one page per entity, contradictions flagged not overwritten,
+longer-is-better with no page cap, one page per entity, contradictions flagged not overwritten,
 absolute dates, `targets:` frontmatter applied first, `[BRACKET]` lines
 executed as operator instructions). The model is told to output full-file
 replacements — never diffs — so apply stays dumb and safe.
