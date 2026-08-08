@@ -1,0 +1,779 @@
+<title>NFL Topline — a betting worksheet</title>
+<style>
+  /* ---------- tokens: light is the base, both dark paths restate them ---------- */
+  :root {
+    --ground:    #eef1f2;
+    --surface:   #ffffff;
+    --surface-2: #e4e9eb;
+    --ink:       #10181c;
+    --ink-2:     #4a5b63;
+    --ink-3:     #74868f;
+    --line:      #cdd7da;
+    --line-2:    #b3c1c6;
+    --accent:    #2f6b7c;
+    --accent-2:  #d9e8ec;
+    --on-accent: #ffffff;
+    --good:      #2b7a4b;
+    --good-bg:   #dcefe2;
+    --warn:      #9a6a12;
+    --warn-bg:   #f5e8cd;
+    --bad:       #a34434;
+    --bad-bg:    #f4ddd8;
+    --shadow:    0 1px 2px rgba(16,24,28,.06), 0 8px 24px -16px rgba(16,24,28,.32);
+
+    --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:    #0c1214;
+      --surface:   #141d21;
+      --surface-2: #1c272c;
+      --ink:       #e6edef;
+      --ink-2:     #a3b4ba;
+      --ink-3:     #7d9097;
+      --line:      #26343a;
+      --line-2:    #35474e;
+      --accent:    #6fb4c6;
+      --accent-2:  #16303a;
+      --on-accent: #0c1214;
+      --good:      #6bc48c;
+      --good-bg:   #17301f;
+      --warn:      #d9ac52;
+      --warn-bg:   #322609;
+      --bad:       #e08472;
+      --bad-bg:    #351c16;
+      --shadow:    0 1px 2px rgba(0,0,0,.5), 0 8px 24px -16px rgba(0,0,0,.9);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:    #0c1214;
+    --surface:   #141d21;
+    --surface-2: #1c272c;
+    --ink:       #e6edef;
+    --ink-2:     #a3b4ba;
+    --ink-3:     #7d9097;
+    --line:      #26343a;
+    --line-2:    #35474e;
+    --accent:    #6fb4c6;
+    --accent-2:  #16303a;
+    --on-accent: #0c1214;
+    --good:      #6bc48c;
+    --good-bg:   #17301f;
+    --warn:      #d9ac52;
+    --warn-bg:   #322609;
+    --bad:       #e08472;
+    --bad-bg:    #351c16;
+    --shadow:    0 1px 2px rgba(0,0,0,.5), 0 8px 24px -16px rgba(0,0,0,.9);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.55;
+    margin: 0;
+    padding: 0 20px 80px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 1080px; margin: 0 auto; }
+
+  /* ---------- masthead ---------- */
+  .masthead {
+    display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px 28px;
+    padding: 40px 0 22px; border-bottom: 2px solid var(--ink);
+  }
+  .masthead h1 {
+    font-family: var(--font-mono);
+    font-size: clamp(28px, 4.6vw, 44px);
+    font-weight: 700; letter-spacing: -.02em; line-height: 1;
+    margin: 0; text-wrap: balance;
+  }
+  .masthead h1 span { color: var(--accent); }
+  .masthead p { margin: 0; color: var(--ink-2); max-width: 46ch; font-size: 14px; }
+
+  .caveat {
+    margin: 18px 0 0; padding: 12px 16px;
+    background: var(--surface); border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    font-size: 13.5px; color: var(--ink-2);
+  }
+  .caveat strong { color: var(--ink); }
+
+  /* ---------- step scaffolding ---------- */
+  .step { margin-top: 34px; }
+  .step-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 14px; }
+  .step-num {
+    font-family: var(--font-mono); font-size: 12px; font-weight: 700;
+    color: var(--accent); background: var(--accent-2);
+    border-radius: 2px; padding: 3px 7px; letter-spacing: .04em;
+  }
+  .step-head h2 {
+    font-family: var(--font-mono); font-size: 15px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .09em; margin: 0;
+  }
+  .step-head .hint { color: var(--ink-3); font-size: 13px; margin-left: auto; text-align: right; }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 3px; padding: 22px; box-shadow: var(--shadow);
+  }
+
+  /* ---------- form grid ---------- */
+  .grid { display: grid; gap: 16px 18px; }
+  .g-matchup { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+  .g-lines   { grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); }
+
+  .field { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+  label, .lbl {
+    font-family: var(--font-mono); font-size: 10.5px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3);
+  }
+  input, select, textarea {
+    font-family: var(--font-mono); font-size: 14px; color: var(--ink);
+    background: var(--ground); border: 1px solid var(--line-2);
+    border-radius: 2px; padding: 8px 10px; width: 100%;
+    font-variant-numeric: tabular-nums;
+  }
+  textarea { font-family: var(--font-sans); line-height: 1.5; resize: vertical; min-height: 62px; }
+  input:focus, select:focus, textarea:focus, button:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent);
+  }
+  .subhead {
+    font-family: var(--font-mono); font-size: 11px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .1em; color: var(--ink-2);
+    margin: 24px 0 12px; padding-top: 16px; border-top: 1px solid var(--line);
+  }
+  .subhead:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+
+  /* ---------- buttons ---------- */
+  button {
+    font-family: var(--font-mono); font-size: 12px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .07em;
+    padding: 11px 18px; border-radius: 2px; cursor: pointer;
+    border: 1px solid var(--accent); background: var(--accent);
+    color: var(--on-accent); transition: opacity .12s ease;
+  }
+  button:hover { opacity: .84; }
+  button.ghost { background: transparent; color: var(--accent); }
+  .btn-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 16px; }
+  .copied { font-family: var(--font-mono); font-size: 12px; color: var(--good); opacity: 0; transition: opacity .15s; }
+  .copied.on { opacity: 1; }
+
+  /* ---------- prompt block ---------- */
+  .prompt {
+    font-family: var(--font-mono); font-size: 12.5px; line-height: 1.6;
+    background: var(--ground); border: 1px solid var(--line);
+    border-radius: 2px; padding: 16px; max-height: 320px;
+    overflow: auto; white-space: pre-wrap; color: var(--ink-2); margin: 0;
+  }
+
+  /* ---------- results ---------- */
+  .verdict-banner {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px;
+    padding: 16px 20px; border-radius: 3px; margin-bottom: 20px;
+    background: var(--surface-2); border: 1px solid var(--line);
+  }
+  .verdict-banner .big {
+    font-family: var(--font-mono); font-size: 19px; font-weight: 700; letter-spacing: -.01em;
+  }
+  .verdict-banner .why { color: var(--ink-2); font-size: 13.5px; }
+
+  .tbl-scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; min-width: 640px; font-size: 13.5px; }
+  th {
+    font-family: var(--font-mono); font-size: 10px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3);
+    text-align: right; padding: 0 10px 8px; border-bottom: 1px solid var(--line-2);
+    white-space: nowrap;
+  }
+  th:first-child, td:first-child { text-align: left; padding-left: 0; }
+  th:last-child, td:last-child { padding-right: 0; }
+  td {
+    padding: 10px; text-align: right; border-bottom: 1px solid var(--line);
+    font-family: var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap;
+  }
+  td.name { font-family: var(--font-sans); white-space: normal; }
+  tr.best td { background: var(--accent-2); }
+
+  .chip {
+    display: inline-block; font-family: var(--font-mono); font-size: 10.5px;
+    font-weight: 700; letter-spacing: .07em; padding: 3px 8px; border-radius: 2px;
+  }
+  .chip.bet  { background: var(--good-bg); color: var(--good); }
+  .chip.lean { background: var(--warn-bg); color: var(--warn); }
+  .chip.pass { background: var(--bad-bg);  color: var(--bad);  }
+
+  .meta-row {
+    display: flex; flex-wrap: wrap; gap: 10px 28px; margin-top: 18px;
+    padding-top: 16px; border-top: 1px solid var(--line);
+    font-family: var(--font-mono); font-size: 12px; color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+  }
+  .meta-row b { color: var(--ink); font-weight: 700; }
+
+  .empty { color: var(--ink-3); font-size: 14px; text-align: center; padding: 26px 0; }
+
+  /* ---------- reference ---------- */
+  .ref { margin-top: 46px; padding-top: 26px; border-top: 1px solid var(--line-2); }
+  .ref h2 {
+    font-family: var(--font-mono); font-size: 13px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .1em; margin: 0 0 16px;
+  }
+  .defs { display: grid; gap: 16px 32px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .defs dt { font-family: var(--font-mono); font-size: 12px; font-weight: 700; color: var(--accent); }
+  .defs dd { margin: 3px 0 0; font-size: 13.5px; color: var(--ink-2); }
+
+  @media (max-width: 620px) {
+    .step-head .hint { margin-left: 0; width: 100%; text-align: left; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div>
+      <h1>NFL <span>TOPLINE</span></h1>
+      <p>One game in, one verdict out. The worksheet does the arithmetic; Claude does the reading.</p>
+    </div>
+  </header>
+
+  <p class="caveat">
+    <strong>Read this once.</strong> This is a decision aid, not an edge. Sportsbooks price NFL games
+    extremely well — if your projection differs from the market by less than about two points, that
+    difference is noise, not information. The verdicts below are deliberately conservative and most
+    honest reads come back <em>Pass</em>. Never stake money you would mind losing.
+  </p>
+
+  <!-- ═══════════ STEP 1 ═══════════ -->
+  <section class="step">
+    <div class="step-head">
+      <span class="step-num">01</span>
+      <h2>The game and the market</h2>
+      <span class="hint">Copy the numbers straight off your sportsbook.</span>
+    </div>
+    <div class="card">
+
+      <div class="subhead">Matchup</div>
+      <div class="grid g-matchup">
+        <div class="field">
+          <label for="away">Away team</label>
+          <input id="away" list="teams" value="Detroit Lions" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="home">Home team</label>
+          <input id="home" list="teams" value="Green Bay Packers" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="season">Season</label>
+          <input id="season" type="number" value="2026" min="2020" max="2100">
+        </div>
+        <div class="field">
+          <label for="week">Week</label>
+          <input id="week" type="number" value="1" min="1" max="22">
+        </div>
+      </div>
+      <datalist id="teams"></datalist>
+
+      <div class="subhead">Spread</div>
+      <div class="grid g-lines">
+        <div class="field">
+          <label for="spread">Home spread</label>
+          <input id="spread" type="number" step="0.5" value="-3">
+        </div>
+        <div class="field">
+          <label for="oddsHomeSpread">Home price</label>
+          <input id="oddsHomeSpread" type="number" step="5" value="-110">
+        </div>
+        <div class="field">
+          <label for="oddsAwaySpread">Away price</label>
+          <input id="oddsAwaySpread" type="number" step="5" value="-110">
+        </div>
+      </div>
+
+      <div class="subhead">Total</div>
+      <div class="grid g-lines">
+        <div class="field">
+          <label for="total">Total points</label>
+          <input id="total" type="number" step="0.5" value="47.5">
+        </div>
+        <div class="field">
+          <label for="oddsOver">Over price</label>
+          <input id="oddsOver" type="number" step="5" value="-110">
+        </div>
+        <div class="field">
+          <label for="oddsUnder">Under price</label>
+          <input id="oddsUnder" type="number" step="5" value="-110">
+        </div>
+      </div>
+
+      <div class="subhead">Moneyline &amp; staking</div>
+      <div class="grid g-lines">
+        <div class="field">
+          <label for="mlHome">Home moneyline</label>
+          <input id="mlHome" type="number" step="5" value="-165">
+        </div>
+        <div class="field">
+          <label for="mlAway">Away moneyline</label>
+          <input id="mlAway" type="number" step="5" value="140">
+        </div>
+        <div class="field">
+          <label for="bankroll">Bankroll ($)</label>
+          <input id="bankroll" type="number" step="50" value="1000" min="0">
+        </div>
+        <div class="field">
+          <label for="kellyFrac">Kelly fraction</label>
+          <select id="kellyFrac">
+            <option value="0.125">One eighth (safest)</option>
+            <option value="0.25" selected>One quarter (recommended)</option>
+            <option value="0.5">One half (aggressive)</option>
+            <option value="1">Full Kelly (don't)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="subhead">Anything you already know</div>
+      <div class="field">
+        <label for="notes">Optional — injuries, weather, a hunch worth testing</label>
+        <textarea id="notes" placeholder="e.g. Home starting QB was limited in Thursday practice. Forecast says 20 mph gusts."></textarea>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════ STEP 2 ═══════════ -->
+  <section class="step">
+    <div class="step-head">
+      <span class="step-num">02</span>
+      <h2>Ask Claude</h2>
+      <span class="hint">Copy this, paste it into Claude, press enter. That's the whole job.</span>
+    </div>
+    <div class="card">
+      <pre class="prompt" id="promptBox"></pre>
+      <div class="btn-row">
+        <button id="copyBtn" type="button">Copy prompt</button>
+        <span class="copied" id="copiedMsg">Copied — paste it into Claude</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ STEP 3 ═══════════ -->
+  <section class="step">
+    <div class="step-head">
+      <span class="step-num">03</span>
+      <h2>Type in the two numbers Claude gives back</h2>
+      <span class="hint">They're on the last lines of its answer, labelled in caps.</span>
+    </div>
+    <div class="card">
+      <div class="grid g-lines">
+        <div class="field">
+          <label for="projMargin">Projected margin</label>
+          <input id="projMargin" type="number" step="0.5" value="">
+        </div>
+        <div class="field">
+          <label for="projTotal">Projected total</label>
+          <input id="projTotal" type="number" step="0.5" value="">
+        </div>
+        <div class="field">
+          <label for="confidence">Confidence (1–5)</label>
+          <input id="confidence" type="number" step="1" min="1" max="5" value="3">
+        </div>
+      </div>
+      <p style="margin:14px 0 0;font-size:13px;color:var(--ink-3);">
+        Projected margin is from the <b id="marginHint">home team's</b> point of view: positive means
+        they win by that much, negative means they lose by it.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ STEP 4 ═══════════ -->
+  <section class="step">
+    <div class="step-head">
+      <span class="step-num">04</span>
+      <h2>The verdict</h2>
+      <span class="hint">Computed here, on your machine. No model was asked to do arithmetic.</span>
+    </div>
+    <div class="card" id="resultCard">
+      <div class="empty" id="emptyState">Enter a projected margin and total above to see the read.</div>
+      <div id="resultBody" hidden>
+        <div class="verdict-banner">
+          <span class="big" id="headline"></span>
+          <span class="why" id="headlineWhy"></span>
+        </div>
+        <div class="tbl-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Bet</th>
+                <th>Price</th>
+                <th>Fair odds</th>
+                <th>Market %</th>
+                <th>Our %</th>
+                <th>Edge</th>
+                <th>EV / $100</th>
+                <th>Stake</th>
+                <th>Call</th>
+              </tr>
+            </thead>
+            <tbody id="tblBody"></tbody>
+          </table>
+        </div>
+        <div class="meta-row" id="metaRow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ REFERENCE ═══════════ -->
+  <section class="ref">
+    <h2>What the columns mean</h2>
+    <dl class="defs">
+      <div>
+        <dt>Market %</dt>
+        <dd>The chance the sportsbook's price implies, after the house cut has been stripped out. This
+          is what you're betting against — not the raw price.</dd>
+      </div>
+      <div>
+        <dt>Our %</dt>
+        <dd>The chance implied by Claude's projected margin and total, run through the historical
+          scatter of NFL results (margins land about 13 points either side of the projection; totals
+          about 10.5). This treats every margin as equally likely, which isn't quite true — 3 and 7
+          come up far more often than neighbouring numbers, so trust this slightly less on spreads
+          sitting exactly on a key number.</dd>
+      </div>
+      <div>
+        <dt>Edge</dt>
+        <dd>Our % minus Market %. Positive means we think the bet is underpriced. Anything under about
+          four percentage points sits inside the model's own error bar — treat it as zero.</dd>
+      </div>
+      <div>
+        <dt>Hold</dt>
+        <dd>The book's built-in margin on that market. Standard is about 4.5% on a −110/−110 line. A
+          higher hold means you need a bigger real edge just to break even.</dd>
+      </div>
+      <div>
+        <dt>Stake</dt>
+        <dd>Fractional Kelly: the mathematically growth-optimal bet size, cut down by the fraction you
+          picked. Quarter Kelly is the sane default because your win probability is an estimate, not a fact.</dd>
+      </div>
+      <div>
+        <dt>Closing line value</dt>
+        <dd>The only honest scorekeeping. Write down the line you got. If it consistently moves in your
+          favour before kickoff, you're finding something real. Win-loss over one season tells you nothing.</dd>
+      </div>
+    </dl>
+
+    <h2 style="margin-top:34px;">House rules worth keeping</h2>
+    <dl class="defs">
+      <div>
+        <dt>One unit, always</dt>
+        <dd>Pick a stake size and hold it. Chasing a loss with a bigger bet is the single most reliable
+          way to go broke.</dd>
+      </div>
+      <div>
+        <dt>Shop the number</dt>
+        <dd>Getting −2.5 instead of −3 matters more over a season than any read on this page. Three is
+          the most common NFL margin by a wide distance.</dd>
+      </div>
+      <div>
+        <dt>Skip the parlay</dt>
+        <dd>Each leg carries the house cut and they compound. A four-leg parlay is a worse bet than any
+          of its legs alone.</dd>
+      </div>
+      <div>
+        <dt>Log every bet</dt>
+        <dd>Date, game, market, line, price, stake, result. Without the log you cannot tell skill from
+          a hot streak, and you will assume it was skill.</dd>
+      </div>
+    </dl>
+  </section>
+
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var TEAMS = ["Arizona Cardinals","Atlanta Falcons","Baltimore Ravens","Buffalo Bills",
+    "Carolina Panthers","Chicago Bears","Cincinnati Bengals","Cleveland Browns","Dallas Cowboys",
+    "Denver Broncos","Detroit Lions","Green Bay Packers","Houston Texans","Indianapolis Colts",
+    "Jacksonville Jaguars","Kansas City Chiefs","Las Vegas Raiders","Los Angeles Chargers",
+    "Los Angeles Rams","Miami Dolphins","Minnesota Vikings","New England Patriots",
+    "New Orleans Saints","New York Giants","New York Jets","Philadelphia Eagles",
+    "Pittsburgh Steelers","San Francisco 49ers","Seattle Seahawks","Tampa Bay Buccaneers",
+    "Tennessee Titans","Washington Commanders"];
+
+  var MARGIN_SD = 13.2;   // historical std dev of NFL result vs. projection
+  var TOTAL_SD  = 10.5;   // historical std dev of game totals
+
+  var $ = function (id) { return document.getElementById(id); };
+
+  document.getElementById("teams").innerHTML =
+    TEAMS.map(function (t) { return '<option value="' + t + '"></option>'; }).join("");
+
+  /* ---------- math ---------- */
+
+  function impliedProb(american) {
+    if (!isFinite(american) || american === 0) return NaN;
+    return american > 0 ? 100 / (american + 100) : -american / (-american + 100);
+  }
+
+  function toDecimal(american) {
+    return american > 0 ? american / 100 + 1 : 100 / -american + 1;
+  }
+
+  function fairAmerican(p) {
+    if (!(p > 0 && p < 1)) return "—";
+    var v = p >= 0.5 ? -(100 * p / (1 - p)) : (100 * (1 - p) / p);
+    return (v > 0 ? "+" : "") + Math.round(v);
+  }
+
+  // Zelen & Severo normal CDF approximation
+  function normCdf(z) {
+    var t = 1 / (1 + 0.2316419 * Math.abs(z));
+    var d = 0.3989422804014327 * Math.exp(-z * z / 2);
+    var p = d * t * (0.319381530 + t * (-0.356563782 + t * (1.781477937 +
+            t * (-1.821255978 + t * 1.330274429))));
+    return z > 0 ? 1 - p : p;
+  }
+
+  // Strip the house cut from a two-way market.
+  function devig(oddsA, oddsB) {
+    var a = impliedProb(oddsA), b = impliedProb(oddsB);
+    if (!isFinite(a) || !isFinite(b)) return null;
+    var sum = a + b;
+    return { a: a / sum, b: b / sum, hold: sum - 1 };
+  }
+
+  // Growth-optimal stake as a fraction of bankroll, scaled down.
+  function kelly(p, american, frac) {
+    var b = toDecimal(american) - 1;
+    var f = (b * p - (1 - p)) / b;
+    return Math.max(0, f) * frac;
+  }
+
+  function evPer100(p, american) {
+    var b = toDecimal(american) - 1;
+    return p * b * 100 - (1 - p) * 100;
+  }
+
+  function pct(x) { return (x * 100).toFixed(1) + "%"; }
+  function signedPct(x) { return (x >= 0 ? "+" : "") + (x * 100).toFixed(1) + "%"; }
+  function money(x) { return (x >= 0 ? "+$" : "−$") + Math.abs(x).toFixed(2); }
+
+  function num(id) { return parseFloat($(id).value); }
+  function str(id) { return $(id).value.trim(); }
+
+  /* ---------- prompt ---------- */
+
+  function signed(n) {
+    if (!isFinite(n)) return "—";
+    return (n > 0 ? "+" : "") + n;
+  }
+
+  function buildPrompt() {
+    var away = str("away") || "the away team";
+    var home = str("home") || "the home team";
+    var spread = num("spread");
+    var notes = str("notes");
+
+    var spreadLine = isFinite(spread)
+      ? home + " " + signed(spread) + " (" + signed(num("oddsHomeSpread")) + ")  /  " +
+        away + " " + signed(-spread) + " (" + signed(num("oddsAwaySpread")) + ")"
+      : "not set";
+
+    var lines = [];
+    lines.push("You are helping me produce a topline betting read on one NFL game. I do not want an essay — I want a short, structured, numeric read I can act on.");
+    lines.push("");
+    lines.push("GAME: " + away + " at " + home + " — " + str("season") + " Week " + str("week"));
+    lines.push("");
+    lines.push("CURRENT MARKET (from my sportsbook — treat these as given, do not look them up):");
+    lines.push("  Spread:    " + spreadLine);
+    lines.push("  Total:     " + num("total") + "  —  Over " + signed(num("oddsOver")) + " / Under " + signed(num("oddsUnder")));
+    lines.push("  Moneyline: " + home + " " + signed(num("mlHome")) + " / " + away + " " + signed(num("mlAway")));
+    if (notes) { lines.push(""); lines.push("WHAT I ALREADY KNOW: " + notes); }
+    lines.push("");
+    lines.push("RULES:");
+    lines.push("1. Use web search for every current-season number. Do not answer from memory — stats, injuries and lines all move weekly, and a stale number here costs me money.");
+    lines.push("2. Cite the source and the as-of date for each figure. If you cannot find something, write \"unavailable\" — never estimate and present it as fact.");
+    lines.push("3. Do not restate what the market implies and call it analysis. Build an independent projection first, then compare it to the market.");
+    lines.push("4. Keep the whole answer under about 400 words.");
+    lines.push("");
+    lines.push("WORK THROUGH THESE, BRIEFLY:");
+    lines.push("  - Efficiency: EPA per play on offence and defence for both teams, split pass vs. rush, with league rank.");
+    lines.push("  - Success rate and explosive-play rate on both sides of the ball.");
+    lines.push("  - Pace: plays per game and seconds per play — this is what drives the total.");
+    lines.push("  - Turnovers: margin so far, and whether it looks luck-driven (fumble recovery rate far from 50%, an unsustainable interception rate) and therefore due to regress.");
+    lines.push("  - Injuries: confirmed practice status for quarterbacks, offensive line, and top skill and coverage players. Quarterback status outweighs everything else here.");
+    lines.push("  - Situation: rest days, travel and time zones, short week, home and road splits.");
+    lines.push("  - Weather at kickoff. Wind above roughly 15 mph is the condition that actually moves totals.");
+    lines.push("");
+    lines.push("THEN END WITH EXACTLY THIS BLOCK, IN THIS FORMAT:");
+    lines.push("");
+    lines.push("TOPLINE — " + away + " at " + home);
+    lines.push("PROJECTED MARGIN: <one signed number. Positive = " + home + " wins by that much. Negative = " + away + " wins by that much.>");
+    lines.push("PROJECTED TOTAL: <one number — combined points scored by both teams>");
+    lines.push("CONFIDENCE: <1 to 5>");
+    lines.push("TOP THREE DRIVERS: <three short bullets>");
+    lines.push("RED FLAGS: <what makes this read fragile>");
+    lines.push("WHAT WOULD CHANGE MY MIND: <one sentence>");
+    lines.push("");
+    lines.push("PROJECTED MARGIN and PROJECTED TOTAL must each be a single number, not a range — I am feeding them into a worksheet.");
+    return lines.join("\n");
+  }
+
+  /* ---------- verdict table ---------- */
+
+  // Thresholds are set from the noise floor stated at the top of the page:
+  // ~2 points of spread disagreement is ~6% of win probability at this spread.
+  var BET_EDGE = 0.07;   // ≈ 2.3 points
+  var LEAN_EDGE = 0.04;  // ≈ 1.3 points
+
+  function verdictFor(edge) {
+    if (edge >= BET_EDGE) return { cls: "bet",  txt: "Bet"  };
+    if (edge >= LEAN_EDGE) return { cls: "lean", txt: "Lean" };
+    return { cls: "pass", txt: "Pass" };
+  }
+
+  function render() {
+    $("promptBox").textContent = buildPrompt();
+    $("marginHint").textContent = (str("home") || "home") + "'s";
+
+    var margin = num("projMargin");
+    var total  = num("projTotal");
+    var hasRead = isFinite(margin) && isFinite(total);
+
+    $("emptyState").hidden = hasRead;
+    $("resultBody").hidden = !hasRead;
+    if (!hasRead) return;
+
+    var home = str("home") || "Home";
+    var away = str("away") || "Away";
+    var spread = num("spread");
+    var totalLine = num("total");
+    var bankroll = num("bankroll") || 0;
+    var frac = parseFloat($("kellyFrac").value);
+
+    var spreadMkt = devig(num("oddsHomeSpread"), num("oddsAwaySpread"));
+    var totalMkt  = devig(num("oddsOver"), num("oddsUnder"));
+    var mlMkt     = devig(num("mlHome"), num("mlAway"));
+
+    // Our probabilities, from the projection.
+    var pHomeCover = normCdf((margin + spread) / MARGIN_SD);
+    var pOver      = 1 - normCdf((totalLine - total) / TOTAL_SD);
+    var pHomeWin   = normCdf(margin / MARGIN_SD);
+
+    var rows = [];
+    function add(name, price, ourP, mktP) {
+      if (!isFinite(price) || mktP == null) return;
+      var edge = ourP - mktP;
+      rows.push({
+        name: name, price: price, ourP: ourP, mktP: mktP, edge: edge,
+        ev: evPer100(ourP, price),
+        stake: kelly(ourP, price, frac) * bankroll,
+        v: verdictFor(edge)
+      });
+    }
+
+    if (spreadMkt) {
+      add(home + " " + signed(spread), num("oddsHomeSpread"), pHomeCover, spreadMkt.a);
+      add(away + " " + signed(-spread), num("oddsAwaySpread"), 1 - pHomeCover, spreadMkt.b);
+    }
+    if (totalMkt) {
+      add("Over " + totalLine, num("oddsOver"), pOver, totalMkt.a);
+      add("Under " + totalLine, num("oddsUnder"), 1 - pOver, totalMkt.b);
+    }
+    if (mlMkt) {
+      add(home + " moneyline", num("mlHome"), pHomeWin, mlMkt.a);
+      add(away + " moneyline", num("mlAway"), 1 - pHomeWin, mlMkt.b);
+    }
+
+    var best = rows.reduce(function (a, b) { return (!a || b.edge > a.edge) ? b : a; }, null);
+
+    $("tblBody").innerHTML = rows.map(function (r) {
+      return '<tr' + (r === best && r.edge >= LEAN_EDGE ? ' class="best"' : '') + '>' +
+        '<td class="name">' + esc(r.name) + '</td>' +
+        '<td>' + signed(r.price) + '</td>' +
+        '<td>' + fairAmerican(r.ourP) + '</td>' +
+        '<td>' + pct(r.mktP) + '</td>' +
+        '<td>' + pct(r.ourP) + '</td>' +
+        '<td>' + signedPct(r.edge) + '</td>' +
+        '<td>' + money(r.ev) + '</td>' +
+        '<td>' + (r.stake > 0.5 ? "$" + r.stake.toFixed(0) : "—") + '</td>' +
+        '<td><span class="chip ' + r.v.cls + '">' + r.v.txt + '</span></td>' +
+      '</tr>';
+    }).join("");
+
+    // Headline
+    var edgePts = Math.abs((margin + spread));
+    if (best && best.edge >= BET_EDGE) {
+      $("headline").textContent = "Bet — " + best.name;
+      $("headline").style.color = "var(--good)";
+      $("headlineWhy").textContent = "Roughly " + signedPct(best.edge) +
+        " better than the de-vigged market price. Suggested stake $" + best.stake.toFixed(0) +
+        " at " + signed(best.price) + ".";
+    } else if (best && best.edge >= LEAN_EDGE) {
+      $("headline").textContent = "Lean — " + best.name;
+      $("headline").style.color = "var(--warn)";
+      $("headlineWhy").textContent = "A real but thin " + signedPct(best.edge) +
+        " edge. Worth a reduced stake at most, and only if the line hasn't moved against you.";
+    } else {
+      $("headline").textContent = "Pass";
+      $("headline").style.color = "var(--bad)";
+      $("headlineWhy").textContent = "Nothing here clears the noise floor. The market has this game " +
+        "priced about where we do — the correct move is no bet.";
+    }
+
+    var conf = num("confidence");
+    $("metaRow").innerHTML =
+      "<span>Spread disagreement <b>" + edgePts.toFixed(1) + " pts</b></span>" +
+      "<span>Total disagreement <b>" + Math.abs(total - totalLine).toFixed(1) + " pts</b></span>" +
+      (spreadMkt ? "<span>Spread hold <b>" + pct(spreadMkt.hold) + "</b></span>" : "") +
+      (mlMkt ? "<span>Moneyline hold <b>" + pct(mlMkt.hold) + "</b></span>" : "") +
+      (isFinite(conf) ? "<span>Claude's confidence <b>" + conf + "/5</b></span>" : "") +
+      (isFinite(conf) && conf <= 2
+        ? "<span style='color:var(--bad)'><b>Low confidence — discount all of the above.</b></span>"
+        : "");
+  }
+
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+
+  /* ---------- wiring ---------- */
+
+  document.addEventListener("input", render);
+  document.addEventListener("change", render);
+
+  $("copyBtn").addEventListener("click", function () {
+    var text = buildPrompt();
+    var done = function () {
+      var m = $("copiedMsg");
+      m.classList.add("on");
+      setTimeout(function () { m.classList.remove("on"); }, 2200);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, fallback);
+    } else { fallback(); }
+
+    function fallback() {
+      var ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); done(); } catch (e) { /* clipboard unavailable */ }
+      document.body.removeChild(ta);
+    }
+  });
+
+  render();
+})();
+</script>
