@@ -6,6 +6,32 @@
 
 ---
 
+### [2026-08-08] - Session: the front end was serving the wrong build (no content pass)
+* **Model:** claude-opus-5 / Claude Code
+* **Branch:** `claude/wiki-frontend-broken-gw2gx7`
+* **Summary:** The operator reported the wiki could not be browsed by humans **or** agents. It was one root cause with two faces, and **the 2026-08-02 handoff entry above is now wrong on the facts**: the repo is **public again** (`visibility: public`) and Pages answers `200`. What had happened instead is that **Pages was switched to "Deploy from a branch"**, so the legacy Jekyll builder served the repo markdown verbatim rather than the `bin/build-site` artifact.
+* **Why nobody noticed for six days:** the site never went down. It returned `200` the whole time — just for a build in which nothing worked.
+  1. **Humans:** Jekyll has no concept of `[[wikilinks]]`, so all **~3,150** of them rendered as literal grey text, master index included. You could load the front page and click through to precisely nothing.
+  2. **Agents:** `llms.txt`, `agent/manifest.json`, `agent/critical.md`, `agent/corpus.md`, `agent/domains/*` are generated into `site/`, which is **gitignored** and only reaches Pages as a workflow artifact — so under branch builds they had never existed. Every entrypoint in `AGENT_ACCESS.md` 404'd. `wiki/**/*.md` 404'd too (Jekyll rewrites `.md`→`.html`).
+  3. `deploy-site.yml` had been **red on every push since 2026-08-02**, dying at `configure-pages` with *"Get Pages site failed … Not Found"* — the same setting, seen from the other side. The only thing still working was `llm/`, which survives because it is committed rather than generated at deploy.
+* **Fixes, in order of value:**
+  1. **The workflow now repairs the setting itself** — PUTs `build_type=workflow` to the Pages API (POST fallback if Pages was never enabled) and passes `enablement: true` to `configure-pages`. No Settings visit required.
+  2. **A post-deploy smoke test**, which is the part that was actually missing. It fetches nine paths that *only* the built artifact contains and fails the run otherwise, so "something is live" can no longer be mistaken for "our site is live."
+  3. **Four real defects in `bin/build-site`**, all found by crawling the 59,922 internal links in the output rather than by reading it:
+     - **Directory indexes were never emitted at all.** The pass skipped any dir already in `known` — but the registration loop immediately above had just added every dir to `known`, so the guard matched 100% of cases. Dead code since it was written. Now keyed off indexes backed by a real `index.md`; **23 folders gained a page**, and dirs containing only subdirs now list their children instead of rendering blank.
+     - Wikilinks with a section anchor appended `.html` **after** the fragment (`page#heading.html`).
+     - Markdown links naming a `.md` source or an extension-less page path were emitted verbatim and 404'd — including **index.md's five reading-aid links**. `DIGEST`/`RECENT`/`OPEN`/`log`/`queue` are now rendered into the site.
+     - `inline_text` tried to restore code-span placeholders belonging to its **caller's** table, crashing on any link label containing a code span (e.g. ``[`bin/wiki-digest`](…)``). Latent until the reading aids became the first content to hit it.
+  4. `_config.yml` carries a header explaining it is **not** the deploy path and is harmful under branch builds; `AGENT_ACCESS.md`'s stale "everything is 404" banner is replaced with what actually happened.
+* **Numbers:** dead internal links **25 → 16**; html files **445 → 468**. All 16 remaining are content-level, not front-end: 10 are deliberate `[[raw/…]]` references (raw/ is intentionally unpublished) and the rest are genuinely absent pages (`zaco`, `AFFIRM`, `CLAUDE`, `wiki/people/contacts/index` — **that directory no longer exists on disk**, though `index.md` and `CLAUDE.md` still advertise "32 contact stubs").
+* **Gates:** wiki-lint **438 pages / 0 errors** (111 warnings) · wiki-connect check **0 errors** (214 warnings) · wiki-climb check **438 pages, 21 with `synthesizes:`, 0 errors, 0 warnings**. `bin/llm-publish` and `bin/wiki-digest` deliberately **not** rerun — no wiki content changed this pass, and rerunning would churn 2.7 MB of generated files for nothing.
+* **RESUME POINT:**
+  1. **Merge to `main` and watch the deploy.** The fix cannot take effect from a branch — `deploy-site.yml` only runs on `main`. If the smoke test fails, the manual fallback is Settings → Pages → Source → **GitHub Actions**.
+  2. **`wiki/people/contacts/` is referenced but absent.** Decide whether the quarantine dir was deliberately removed (then fix `index.md` and `CLAUDE.md`, which both still describe it) or lost.
+  3. **The `raw/` wikilink question is unresolved by design.** Ten links point into an unpublished tree and render as red "page not found". Either publish a stub explaining raw/ is private, or mark them so they stop reading as broken.
+  4. Prior content resume points are untouched by this pass and all still stand — the next Annie export, the announcement-rule falsifier, cluster 26, the `arnu`/`alexander-jackson`/`john-carney` stubs, and `leviathan/factstory.html`'s out-of-lockstep INGEST BRIEF.
+* **Handoff Note:** No wiki content was read or written this session — tooling and deploy only. Tree clean, all three gates 0 errors.
+
 ### [2026-08-02] - Session: the re-entanglement — Annie 212 export through 2026-08-02 (queue's #1 item, ingested)
 * **Model:** claude-opus-5 / Claude Code
 * **Branch:** `claude/annie-chat-logs-synthesis-pv8eji`

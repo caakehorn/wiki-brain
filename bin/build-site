@@ -42,6 +42,11 @@ DOMAIN_TITLES = {
     "health": "Health", "places": "Places", "legal": "Legal",
 }
 
+# Root-level markdown index.md links to. Without these rendered into the site
+# the master index opens with five dead links, since the build only ever
+# writes .html and these live at the repo root rather than under wiki/.
+ROOT_DOCS = ["DIGEST", "RECENT", "OPEN", "log", "queue", "AGENT_ACCESS"]
+
 FM_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 
 
@@ -139,6 +144,12 @@ def make_wikilink(known: set[str], page_rel: str, title_map: dict[str, str]):
             label = label.strip()
         else:
             path, label = raw.strip(), ""
+        # Split a section anchor off before resolving, so [[page#heading]]
+        # yields page.html#heading rather than page#heading.html — which
+        # appends the extension past the fragment and 404s.
+        path, _, anchor = path.partition("#")
+        path = path.strip()
+        anchor = ("#" + anchor.strip()) if anchor.strip() else ""
         # strip a stray .md extension if present
         cleaned = path[:-3] if path.endswith(".md") else path
         # explicit root index
@@ -174,13 +185,35 @@ def make_wikilink(known: set[str], page_rel: str, title_map: dict[str, str]):
                     if idx in known:
                         target = idx
         exists = target in known
-        url = relative_url(page_rel, target)
+        url = relative_url(page_rel, target) + anchor
         if not label:
             label = title_map.get(target, cleaned.rstrip("/").split("/")[-1]) if exists \
                 else cleaned.rstrip("/").split("/")[-1]
         cls = "" if exists else ' class="wikilink-missing"'
         title_attr = "" if exists else ' title="page not found"'
         return f'<a href="{esc_attr(url)}"{cls}{title_attr}>{esc_html(label)}</a>'
+
+    def fix_href(href: str) -> str:
+        """Repoint an ordinary [text](target.md) link onto the .html we emit.
+
+        Pages are written as .html, so markdown links naming a .md source —
+        index.md's [DIGEST.md](DIGEST.md) row, or the odd /wiki/<d>/<p>.md in
+        prose — would 404. Left alone when the target is external or is not
+        something this build actually produces.
+        """
+        if "://" in href or href.startswith(("#", "mailto:")):
+            return href
+        stem = href.lstrip("/")
+        if stem.endswith(".md"):
+            stem = stem[:-3]
+        elif "." in stem.rsplit("/", 1)[-1]:
+            return href  # a genuine asset (.css, .json, .html) — not ours to rewrite
+        target = stem + ".html"
+        return relative_url(page_rel, target) if target in known else href
+
+    # carried on the closure so inline() can reach it without every caller
+    # inside md_to_html having to thread page_rel through as well
+    fn.fix_href = fix_href
     return fn
 
 
@@ -196,9 +229,11 @@ def inline(text: str, wikilink_fn) -> str:
 
     text = re.sub(r"`([^`]+)`", stash, text)
     text = re.sub(r"\[\[([^\]]+)\]\]", lambda m: wikilink_fn(m.group(1)), text)
+    fix_href = getattr(wikilink_fn, "fix_href", lambda h: h)
     text = re.sub(
         r"\[([^\]]+)\]\(([^)]+)\)",
-        lambda m: f'<a href="{esc_attr(m.group(2))}">{inline_text(m.group(1), wikilink_fn)}</a>',
+        lambda m: f'<a href="{esc_attr(fix_href(m.group(2)))}">'
+                  f'{inline_text(m.group(1), wikilink_fn)}</a>',
         text,
     )
     text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
@@ -223,9 +258,13 @@ def inline_text(text: str, wikilink_fn) -> str:
     text = re.sub(r"\[\[([^\]]+)\]\]", lambda m: wikilink_fn(m.group(1)), text)
     text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<em>\1</em>", text)
+    # A link label reaching us from inline() still holds THAT call's code-span
+    # placeholders, e.g. [`bin/wiki-digest`](…). Those indices belong to the
+    # caller's table, not ours — leave them for its own restore pass to close.
     text = re.sub(
         r"\x00(\d+)\x00",
-        lambda m: f"<code>{esc_html(codes[int(m.group(1))])}</code>",
+        lambda m: (f"<code>{esc_html(codes[int(m.group(1))])}</code>"
+                   if int(m.group(1)) < len(codes) else m.group(0)),
         text,
     )
     return text
@@ -810,6 +849,12 @@ def build(out: Path, base_url: str) -> dict:
 
     pages = collect_pages()
     known = build_known(out)
+    # Index pages backed by a real index.md, snapshotted before the synthetic
+    # ones below join `known`. The directory-index pass keys off this: it used
+    # to test against `known` itself, which by then listed every directory, so
+    # it skipped all of them and emitted nothing — leaving folders such as
+    # wiki/people/contacts/ linked from navigation but never written.
+    authored_indexes = {k for k in known if k.endswith("/index.html")}
     # register auto-generated directory index pages (.html) so wikilinks to
     # [[dir/]] and [[dir/index]] resolve during page render
     for p in pages:
@@ -818,6 +863,10 @@ def build(out: Path, base_url: str) -> dict:
             known.add("/".join(parts[: d + 1]) + "/index.html")
     for d in DOMAINS:
         known.add(f"{d}/index.html")
+    # root reading aids, so index.md's links to them resolve rather than 404
+    root_docs = [n for n in ROOT_DOCS if (ROOT / f"{n}.md").exists()]
+    for n in root_docs:
+        known.add(f"{n}.html")
     title_map = {}
     for p in pages:
         text = p.read_text(encoding="utf-8", errors="replace")
@@ -896,17 +945,31 @@ def build(out: Path, base_url: str) -> dict:
         dirs[child].append((rel.stem, title, durl))
     # also top-level domain dirs
     for d in DOMAINS:
-        dirs.setdefault(d, [])
+        dirs.setdefault(f"wiki/{d}", [])
     for dkey, entries in dirs.items():
         # skip if a real index.md exists (already rendered)
         idx_html = dkey + "/index.html"
-        if idx_html in known or idx_html == "index.html":
+        if idx_html in authored_indexes or idx_html == "index.html":
+            continue
+        # `known` also carries bare-domain aliases so [[self/index]] resolves;
+        # they are not real folders and must not be written out as pages.
+        if not (ROOT / dkey).is_dir():
             continue
         parent = dkey.rsplit("/", 1)[0] if "/" in dkey else ""
         home_url = relative_url(idx_html, "index.html")
         crumb = ('<div class="crumbs"><a href="' + home_url + '">Wiki</a> &rsaquo; '
                  '<span>' + esc_html(dkey) + "</span></div>")
+        # A directory holding only subdirectories has no entries of its own;
+        # listing the children keeps it a usable stop rather than a blank page.
+        subdirs = sorted(
+            k for k in dirs
+            if k.startswith(dkey + "/") and "/" not in k[len(dkey) + 1:]
+        )
         rows = "".join(
+            f'<li><a href="{relative_url(idx_html, sd + "/index.html")}">'
+            f'{esc_html(sd.split("/")[-1])}/</a></li>'
+            for sd in subdirs
+        ) + "".join(
             f'<li><a href="{relative_url(idx_html, e[2])}">{esc_html(e[1])}</a></li>'
             for e in sorted(entries)
         )
@@ -919,7 +982,7 @@ def build(out: Path, base_url: str) -> dict:
 <input id="q" type="search" placeholder="Search the wiki…" autocomplete="off"></header>
 <div class="layout">{render_sidebar(idx_html)}<main class="content">
 {crumb}<h1>{esc_html(title)}</h1>
-<p class="cardsmall">{len(entries)} page(s) in this section.</p>
+<p class="cardsmall">{len(entries)} page(s){f", {len(subdirs)} subsection(s)" if subdirs else ""} in this section.</p>
 <ul class="dirlist">{rows}</ul>
 <div class="meta-note">Auto-generated directory index.</div>
 </main></div>
@@ -927,6 +990,29 @@ def build(out: Path, base_url: str) -> dict:
 <script src="{relative_url(idx_html, 'assets/app.js')}"></script></body></html>"""
         (out / idx_html).parent.mkdir(parents=True, exist_ok=True)
         (out / idx_html).write_text(dp, encoding="utf-8")
+
+    # root reading aids (DIGEST / RECENT / OPEN / log / queue) as real pages
+    for name in root_docs:
+        src = ROOT / f"{name}.md"
+        doc_rel = f"{name}.html"
+        text = src.read_text(encoding="utf-8", errors="replace")
+        meta, body = parse_frontmatter(text)
+        doc_link = make_wikilink(known, doc_rel, title_map)
+        doc_title = meta.get("title") or first_heading(text) or name
+        (out / doc_rel).write_text(f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{esc_html(doc_title)} — wiki-brain</title>
+<link rel="stylesheet" href="assets/style.css"></head>
+<body><header class="site"><div class="brand">wiki-brain<small>compiled second brain</small></div>
+<input id="q" type="search" placeholder="Search the wiki…" autocomplete="off"></header>
+<div class="layout">{render_sidebar(doc_rel)}<main class="content">
+<div class="crumbs"><a href="index.html">Wiki</a> &rsaquo; <span>{esc_html(name)}.md</span></div>
+{md_to_html(body, doc_rel, doc_link)}
+<div class="meta-note">Generated reading aid — source: <code>{esc_html(name)}.md</code>.</div>
+</main></div>
+<div id="search-results" style="max-width:1200px;margin:0 auto;padding:0 2rem 3rem"></div>
+<script src="assets/app.js"></script></body></html>""", encoding="utf-8")
+        shutil.copy2(src, out / f"{name}.md")
 
     # root index.html from index.md
     root_index = ROOT / "index.md"

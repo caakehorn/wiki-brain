@@ -2,17 +2,41 @@
 
 How to give models and agents the **current compiled wiki** from GitHub.
 
-> ## ⚠️ STATUS [2026-08-02]: the wiki-brain Pages feed is OFF
+> ## ⚠️ STATUS [2026-08-08]: Pages is serving, but check which build
 >
-> `caakehorn/wiki-brain` is now a **private** repository, which unpublishes its
-> GitHub Pages site. **Every `caakehorn.github.io/wiki-brain/...` URL on this
-> page currently returns 404** — `llms.txt`, `agent/manifest.json`,
-> `agent/critical.md`, `agent/corpus.md`, `agent/domains/*`, `wiki/*.md` and
-> `llm/index.txt` alike. They are kept below because they become live again the
-> moment the repo is made public (or Pages is enabled for private repos on a
-> paid plan); nothing about the generated files themselves changed.
+> The 2026-08-02 banner here said every `caakehorn.github.io/wiki-brain/...`
+> URL returned 404 because the repo had gone private. That is **no longer the
+> situation, and the replacement failure was worse for being invisible**: the
+> site answers `200`, so nothing looked broken, but Pages had been switched to
+> **Deploy from a branch**. The legacy Jekyll builder then served the
+> repository markdown verbatim, which meant:
 >
-> **Where agents should read the wiki instead:**
+> - **Humans got a site with no navigation.** Jekyll has no idea what
+>   `[[wiki/self/index]]` means, so all ~3,150 wikilinks — including every
+>   row of the master index's Index column — rendered as literal grey text.
+>   You could reach the front page and go nowhere from it.
+> - **Agents got nothing at all.** `llms.txt`, `agent/manifest.json`,
+>   `agent/critical.md`, `agent/corpus.md` and `agent/domains/*` are written
+>   by `bin/build-site` into `site/`, which is gitignored and only ever
+>   reaches Pages as a workflow artifact. Under branch builds they were never
+>   published — every entrypoint below 404'd.
+> - `wiki/**/*.md` 404'd too: Jekyll rewrites `.md` to `.html`, so the
+>   documented one-page-fetch URLs did not exist in that build either.
+>
+> `deploy-site.yml` had been failing on every push since 2026-08-02 for the
+> matching reason — `configure-pages` returns *"Get Pages site failed"* when
+> Pages is not set to build from Actions.
+>
+> **Fixed in this branch**, and the workflow now repairs the setting itself:
+> it PUTs `build_type=workflow` to the Pages API before configuring, and a
+> post-deploy step fetches `llms.txt`, `agent/manifest.json` and friends,
+> failing the run when Pages is serving anything other than the built site.
+> That is the guard that was missing — the outage was silent for six days.
+>
+> If the smoke test ever fails again, the manual fix is
+> **Settings → Pages → Source → GitHub Actions**.
+>
+> **Mirror (independent of all of the above):**
 >
 > | What | URL |
 > |---|---|
@@ -25,16 +49,18 @@ How to give models and agents the **current compiled wiki** from GitHub.
 > `wikiLog.ops[]`. `source_commit` names the wiki-brain commit it was built
 > from, so you can tell how stale it is.
 >
-> `raw.githubusercontent.com/caakehorn/wiki-brain/...` also now requires an
-> authenticated token; it is no longer an anonymous fetch.
+> `llm/index.txt` and the rest of `llm/` are committed to the repo rather than
+> generated at deploy time, so they stayed reachable throughout and are the
+> safest entrypoint if you are unsure which build is live.
 
 ## What you already have
 
 | Layer | URL | Notes |
 |-------|-----|--------|
 | GitHub source of truth | https://github.com/caakehorn/wiki-brain | `main` is authoritative after merge |
-| GitHub raw file | `https://raw.githubusercontent.com/caakehorn/wiki-brain/main/wiki/…` | Tracks `main`, but **requires an auth token now** — the repo is private |
-| GitHub Pages (agent feed) | ~~https://caakehorn.github.io/wiki-brain/~~ | **Offline since 2026-08-02** — repo is private, see banner above |
+| GitHub raw file | `https://raw.githubusercontent.com/caakehorn/wiki-brain/main/wiki/…` | Tracks `main`; needs an auth token whenever the repo is private |
+| GitHub Pages (agent feed) | https://caakehorn.github.io/wiki-brain/ | Live. Serves the `bin/build-site` artifact **only** when Pages source is GitHub Actions — see banner |
+| Committed LLM feed | https://caakehorn.github.io/wiki-brain/llm/index.txt | Survives either Pages build, because `llm/` is committed rather than generated at deploy |
 
 The local app (`app.py` on `localhost:8477`) is for **you** (capture, edit, ingest). Agents should use the online feed, not your laptop.
 
@@ -113,6 +139,6 @@ Until then, treat everything in this repo as world-readable.
 | **Private + token API** | Secrets must not be public; agents use `Authorization: Bearer …` |
 | **MCP server** | Claude/Cursor tools: `search_wiki`, `get_page`, `list_domain` over the same feed |
 | **Search endpoint** | Full-text search without downloading corpora (small Worker over `manifest` + page bodies) |
-| **Disable old Jekyll workflow** | Jekyll is removed; deploy is `deploy-site.yml` (stdlib-only `bin/build-site`) |
+| **Delete `_config.yml`** | Deploy is `deploy-site.yml` (stdlib-only `bin/build-site`). The file is inert under Actions builds and actively harmful under branch builds — kept for now only as a degraded fallback |
 
 The agent site uses `.nojekyll` and replaces the human Jekyll theme with raw Markdown + JSON optimized for models.
