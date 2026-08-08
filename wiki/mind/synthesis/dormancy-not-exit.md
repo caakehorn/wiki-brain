@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-03
+date_modified: 2026-08-08
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -337,3 +337,20 @@ implements dormancy, and dormancy is reversible by construction.
   retention rate against a demographically similar cohort, so "policy" remains a
   reading rather than a measurement — the same unanswered objection standing
   against `single-channel`.
+
+> **RE-CHECKED [2026-08-08] — the rule holds, and gains a boundary.**
+> [[wiki/people/alexis-armel]] was rewritten from a newly-read source (495
+> Google Chat blocks) and the member's contribution to this page survives
+> intact: the 2018 paid re-tasking and the five-year correspondence are
+> confirmed and better dated. One new fact qualifies the rule rather than
+> breaking it. The thread's last exchange, 2025-02-19, opens with Alexis
+> replying **"Who is this?"** to a message from a number she no longer had
+> stored, and closes with **"Yup wrong number."** She had not kept his
+> contact. The retention this page measures is therefore demonstrably
+> *asymmetric* — Dan retains, and at least one retained party had let the
+> channel lapse on her side while the correspondence was still running.
+> That does not falsify the claim, which is about what Dan does; it does
+> mean "nothing leaves the graph" describes **his** graph, and that the
+> page's existing no-base-rate objection now has a second, sharper form:
+> the counterparties have not been asked.
+

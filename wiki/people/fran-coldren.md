@@ -39,6 +39,9 @@ infobox:
   role: "Maternal great-grandmother; matriarch of the Uniontown country-club era"
   known_for: "Dan's self-described biggest life influence; taught him to read, funded the production identity, and was his paid full-time care for the six months before she died"
 connections:
+  - page: wiki/places/117-belmont-circle
+    type: contains
+    claim: "The GEDCOM fixes her tenure at Belmont Circle from about 1961 — a return from Miami Beach, with her daughter married inside the house that February — which makes the residency fifty-seven years rather than the round fifty every retelling uses."
   - page: wiki/people/lucy
     type: co-occurs
     claim: "The household's dog was put down within days of Fran's April 2018 death by deliberate scheduling, which makes Lucy the one loss in the corpus timed by another death rather than by its own decline."

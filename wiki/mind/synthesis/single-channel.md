@@ -6,7 +6,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-02
+date_modified: 2026-08-08
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -261,3 +261,13 @@ cost is that the chosen carries everything, and it carries it alone.
 - **Chronology untested.** Whether the concentration was always present or
   tightened after the 2005 paternal rupture is not established, and the two
   imply very different things about whether it is disposition or adaptation.
+
+> **RE-CHECKED [2026-08-08] — no change to this page's argument.**
+> [[wiki/mind/synthesis/the-unbroken-bond]] moved on 2026-08-08, but the
+> movement is confined to two of its own gaps (the 2013 separation's opening
+> instant, and the first primary-source test of the activation reading). The
+> quantity this page takes from it — continuous occupancy of a single primary
+> slot across the documented span — is untouched, and the newly-read Alexis
+> chat archive supports rather than strains it: six years of daily,
+> single-target relational traffic is the same concentration shape the Gini
+> measures, observed in a source that had never been read.

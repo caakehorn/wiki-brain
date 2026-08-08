@@ -22,6 +22,12 @@ related:
   - wiki/mind/concepts/forensic-method
 tags: [career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/people/zach-clingan
+    type: contains
+    claim: "Zach Clingan is a previously undocumented member of the yard cohort whose entire thread runs on its clock — getting cut, the offered two-bag round, the end-of-season bonfire invite, and the next April's opening-day ping."
+  - page: wiki/places/117-belmont-circle
+    type: co-occurs
+    claim: "Across the 2018 season Fran's house served as the yard's staging point: a coworker put up there to save a hotel bill in April, a golf meet-up called from it in May, and a September pharmaceutical handoff — running five months past her death."
   - page: wiki/mind/synthesis/the-embedded-objective
     type: instantiates
     claim: "Forty-three months of 4:30 AM departures are held by a private status ladder the employer never set or measured — the call-up to 'the real loopers', the first two-bag round, the Scottsdale transfer raised with Carl — which is why this is the corpus's second-longest assigned commitment and its second case of an assignment hosting someone else's goal."

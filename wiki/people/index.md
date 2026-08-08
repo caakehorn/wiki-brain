@@ -15,7 +15,7 @@ related: []
 - [[wiki/people/al]] — 2018 cocaine dealer ("Socialist" contact label); thread ends in an unpaid-debt confrontation.
 - [[wiki/people/alex-frank]] — Dan's semi-famous cousin; Brooklyn-based music/culture journalist (FADER, Vogue, GQ, Pitchfork); wrote the essay about Morley Frank's funeral.
 - [[wiki/people/alexander-jackson]] — From context-core: 337 sale drives move; "no post-close plan". Mixed roles at 463 amplify vertical…
-- [[wiki/people/alexis-armel]] — Alexis (Lex) Armel — historical partner spanning ~2010-2015 (Full Sail University Recording Arts graduate…
+- [[wiki/people/alexis-armel]] — The six-year partner (late 2009 – Nov 2015) who occupied the attachment slot without activating it; the corpus's control case, and the friendship that outlasted the breakup by a decade.
 - [[wiki/people/ally-lubin]] — Friend since a 2013 FB thread (dark humor, "North Carolina"); a much larger 452-message iMessage thread (2019-2023) merged in from a duplicate stub.
 - [[wiki/people/anita]] — BFS gas-station GM who originated the $50 drawer-shortage claim; her "gas, foodstamps, lottery" confabulation and the Timmy blame-pivot make her the vertical-suspect exhibit.
 - [[wiki/people/annie-ulmer]] — Anne ("Annie") Ulmer. Primary relationship from Thanksgiving 2015; the June 1 2026 closure held 52 days and failed — status open, not historical.
@@ -68,7 +68,7 @@ related: []
 - [[wiki/people/gabe]] — Dan's cat, named for Cobra Starship/Midtown singer Gabe Saporta; other half of the Milo/Gabe/Max naming pattern.
 - [[wiki/people/ismaila-barry]] — "DJ": Senegalese best friend from the Shed; the Triad's other constant.
 - [[wiki/people/jack-rusko]] — Fellow Nemacolin caddy and friend, 2017-2018; a two-month laptop-loan saga.
-- [[wiki/people/jacob-bacharach]] — Jacob Bacharach — Uniontown-raised novelist (The Bend of the World, 2014) and Chapo Trap House guest, a…
+- [[wiki/people/jacob-bacharach]] — Uniontown-raised novelist and childhood neighbour; the other half of the Uniontown Glitch, the corpus's flagship demonstration of the forensic method.
 - [[wiki/people/jajuan-davis]] — 2018-19 winter dealer contact, second active source alongside Johnny.
 - [[wiki/people/james]] — Contact +18782477198. Self-ID: "Hey dan it james, Danielles working and im with the kids till like 4. But…
 - [[wiki/people/jaredtricia]] — Married couple who booked Annie (as "Hazel") for paid group encounters, June 2019.
@@ -150,6 +150,7 @@ related: []
 - [[wiki/people/vanessa-frank]] — Younger sister of Dan Frank. Born 16 January 1994 in Greensburg, Westmoreland County, Pennsylvania. Shares…
 - [[wiki/people/vaughn]] — Fellow Nemacolin caddie and small-time weed middleman (2017–18); left for a railroad job.
 - [[wiki/people/vicki]] — Longest-serving non-family caregiver on Fran's rotation (2016–2018); "this lady is like my grandmother I never had"; her thread dates the second fall and documents the vigil's final days.
+- [[wiki/people/zach-clingan]] — Nine-year Uniontown acquaintance and 2017 Nemacolin caddie-yard peer; the page an earlier pass filed under the wrong surname.
 - [[wiki/people/zachariah-harshman]] — High-school friend, 2014–15 Uniontown supply node (earliest documented), and independent witness to the Alexis-to-Annie bond switch's social fallout; friendship survives and revives as a platonic gaming friendship by 2020.
 
 ## contacts

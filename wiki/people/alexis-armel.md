@@ -2,170 +2,392 @@
 domain: people
 page_type: entity
 title: "Alexis Armel"
-aliases: ["Lex", "Alexis", "Alexi Armel"]
-status: stable
+aliases: ["Lex", "Lexie", "Alexi Armel", "@alexisarmel", "lexieamb"]
+status: closed
+knowledge: mixed
+importance: high
 date_created: 2026-06-23
-date_modified: 2026-08-01
-sources: [
-  "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/phenomenology-lens/PHENOMENOLOGY_LENS.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/_❈❈ ᴘʜᴏᴛᴏ ɪɴɢᴇsᴛ ❈❈ Pinned chat.md", "raw/self/gemini-activity/Gemini Activity.html", "raw/self/dox-md/Gemini-_00.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lucasthomas_eu0ir1uckq/message_1.html", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/qymuchauiq/message_1.html", "raw/self/message-csv/imessage_export_7249707658_both_all_now.csv"]
-related: ["wiki/people/annie-ulmer", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/self/context-core", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/gemini-activity/gemini-activity", "wiki/timeline/events/timeline", "wiki/people/valeria-iglesias-cid", "wiki/people/eli", "wiki/people/danielle-onesi", "wiki/people/max-danielle-bf", "wiki/mind/concepts/erotic-architecture", "wiki/people/franki-faris", "wiki/people/new-jim-shaffer", "wiki/people/tom", "wiki/people/vanessa-frank", "wiki/people/menore", "wiki/timeline/events/annie-alexis-reunion-november-2018", "wiki/mind/psychosexual/arrangement-history", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/forensic-method", "wiki/mind/synthesis/bond-switch-2015", "wiki/places/155-virginia-ave"]
-tags: [ai-collaboration, nyc-era, relationships, infidelity, trauma-bond]
+date_modified: 2026-08-08
+date_range_start: 2009-10-01
+date_range_end: 2025-02-19
+sources:
+  - raw/self/dox-scan/gmail_bodies.txt
+  - raw/self/message-csv/imessage_export_7249707658_both_all_now.csv
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/dox-scan/FULL TWITTER ANALYSIS.txt
+  - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
+  - raw/self/dox-scan/dan tom 2010 2022.txt
+  - raw/self/dox-scan/Gemini-_58.txt
+  - raw/self/dox-md/Gemini-_18.md
+  - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lucasthomas_eu0ir1uckq/message_1.html
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/qymuchauiq/message_1.html
+tags: [relationships, attachment, infidelity, nyc-era, uniontown-era]
 infobox:
   name: "Alexis Armel"
-  relationship_to_dan: unknown
+  sex: female
   location: nyc
-  known_for: "Role / Relationship: Prior relationship (pre-Annie); referenced as 'Lex' / Alexis Armel in life calendar, profile dumps,"
+  relationship_to_dan: ex-partner
+  role: "server, Bridge Cafe (South Street Seaport)"
+  first_contact: 2009
+  handles: ["+1724***7658", "lexieamb@gmail.com", "@alexisarmel"]
+  known_for: "the six-year relationship that occupied the attachment slot without ever activating it — the corpus's control case"
 connections:
-  - page: wiki/legal/2015-possession-arrest
-    type: co-occurs
-    claim: "The arrest is dated by her: Dan places it inside the roughly four months he was secretly housing her at 337 Saratoga after she was thrown out, which brackets it to 2015 before the November bond switch."
-  - page: wiki/mind/synthesis/dormancy-not-exit
-    type: instantiates
-    claim: "Being paid into the 2018 arrangement with her own successor and then carried as a warm correspondence to 2025 shows retention here is an active policy rather than passive inertia."
-  - page: wiki/mind/psychosexual/arrangement-history
-    type: component-of
-    claim: "The Nov–Dec 2018 reunion — opened with a $3,000 cash offer days after her prison release — is the arrangement's earliest well-documented run on a woman from Dan's own romantic history."
-  - page: wiki/timeline/periods/uniontown-return-2013-2015
-    type: component-of
-    claim: "The relationship's endgame — running out to the Nov 28 2015 cheating and switch — is the emotional spine of the Uniontown-return period."
-  - page: wiki/timeline/periods/2010s
-    type: component-of
-    claim: "Alexis was present for the entire NYC-1 period (Bridge Cafe until Sandy 2012), the first long cohabitation and the baseline the later single-bond switch is measured against."
-  - page: wiki/timeline/events/franki-fireworks-day-2013
-    type: caused-by
-    claim: "The six-year relationship ends on a text sent roughly ten minutes into someone else's car ride — 'I saw your messages. I know you're with Franki.' — which makes the ending an act of detection on her part rather than a drift, and dates the July-October 2013 separation to its first hour."
-  - page: wiki/mind/synthesis/the-unbroken-bond
-    type: evidences
-    claim: "Six years is long enough to prove the attachment slot was continuously occupied and shallow enough — the deep system locked down since 2005 — to prove occupancy never required it to be active; this relationship is what establishes that the slot being filled and the attachment being live are two separate variables."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: evidences
-    claim: "The six unactivated years make Alexis the control case for the 2015 single-bond switch analysis."
-  - page: wiki/people/lucas-thomas
-    type: evidenced-by
-    claim: "Lucas's Feb 11 and Feb 16, 2017 real-time Facebook thread independently corroborates and dates the Zac Shumar fire and arrest, adding detail (the RT informant angle, $35k bail, the lost glass rig) absent from either later retelling."
+    claim: "Six years ending inside a single day is what makes the November 2015 switch a switch rather than a transition, and the fact that the deep attachment system never fully engaged for her is what makes her the control the Annie activation is measured against."
+  - page: wiki/mind/synthesis/the-unbroken-bond
+    type: evidences
+    claim: "Six continuous years prove the attachment slot was occupied without being live, which is what establishes occupancy and activation as two separate variables rather than one."
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: instantiates
+    claim: "A former primary partner paid into the operations of the bond that replaced her and then carried as warm correspondence for another seven years is the corpus's proof that retention is a policy Dan runs, not inertia that happens to him."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: component-of
+    claim: "The Nov–Dec 2018 reunion — opened with a $3,000 cash offer days after her prison release — is the arrangement's only documented run on a woman from Dan's own romantic history."
+  - page: wiki/timeline/events/franki-fireworks-day-2013
+    type: caused-by
+    claim: "The six-year relationship's only rupture before its last one is dated to its first hour by a text she sent about ten minutes into someone else's car ride — 'I saw your messages. I know you're with Franki' — which makes the July 2013 break an act of detection on her part rather than a drift."
   - page: wiki/places/424-bedford-ave
     type: component-of
-    claim: "Alexis lived with Dan for the full two-year run of his first NYC apartment — 'with me the whole time we were in nyc' — the relationship's first sustained cohabitation, five years before the 155 Virginia Ave/Annie-era household."
+    claim: "She lived with Dan for the full two-year run of his first NYC apartment — the relationship's first sustained cohabitation and the setting of the 495-block chat archive that is the only daily record either of them left."
+  - page: wiki/places/155-virginia-ave
+    type: co-occurs
+    claim: "The apartment leased for her in January 2015 is the apartment Annie moved into eleven months later, which is the spatial form of the switch: the container held and the occupant changed."
+  - page: wiki/people/annie-ulmer
+    type: precedes
+    claim: "Annie was Alexis's coworker before she was Dan's partner, so the replacement was not merely fast but internal — it came out of the displaced partner's own workplace."
+  - page: wiki/legal/2015-possession-arrest
+    type: co-occurs
+    claim: "The arrest is dated by her: Dan places it inside the roughly four months he was secretly housing her at 337 Saratoga after she was thrown out, which brackets it to 2015 before the November switch."
+  - page: wiki/people/lucas-thomas
+    type: evidenced-by
+    claim: "Lucas's February 11 and 16, 2017 Facebook thread is the only contemporaneous account of the fire and the arrest, dating both to the day and adding the informant angle, the $35k bail and the lost glass rig that the later retellings drop."
   - page: wiki/people/jamie-mohler
     type: evidenced-by
-    claim: "A Dec 13, 2017 message on Jamie's rediscovered thread is the earliest of three tellings of the Zac Shumar arrest, and separately confirms the Alexis/Annie cam encounter fell inside Alexis's Feb-Oct 2017 bail window rather than contradicting her later incarceration."
+    claim: "A December 13, 2017 message on Jamie's thread is the earliest of three tellings of the Zac Shumar arrest and independently places the Alexis/Annie cam encounter inside her Feb–Oct 2017 bail window rather than during her incarceration."
+  - page: wiki/timeline/periods/2010s
+    type: component-of
+    claim: "Alexis is present for the whole of NYC-1 — Brooklyn through the Upper East Side, the Bridge Cafe job through Hurricane Sandy — and is the only continuous personal thread the decade's first half has."
 ---
 
+# Alexis Armel
 
-# Alexis Armel (“Lex”)
+Alexis Armel — "Lex" — was Dan Frank's partner for roughly six years, from
+late 2009 to November 28, 2015. She is the longest relationship of his life
+before [[wiki/people/annie-ulmer|Annie]], the person he lived with through
+both halves of the first New York chapter, and the woman he left inside a
+single day for one of her own coworkers. She is also the reason a large part
+of this wiki's model of him is falsifiable at all: across six continuous
+years the deep attachment system this corpus otherwise documents in
+catastrophic detail **never fully activated for her**, which is what makes
+her the control case against which the Annie bond's magnitude is measured.
 
-**Role / Relationship:** Prior relationship (pre-Annie); referenced as "Lex" / Alexis Armel in life calendar, profile dumps, attachment narratives, and photo forensic. 5-year window ~2010-2015 foundational point of reference for personal evolution. Breakup Nov 28 2015 (cheating revelations) immediately precedes Annie genesis. Part of pre-2015 attachment collapse sequence.
+The relationship did not end the connection. It was still warm in 2018 when
+she was paid into the arrangement with her successor, still warm in 2021
+when the two of them processed a mutual friend's murder in real time, and it
+finished in February 2025 with a wrong number and an in-joke from a New York
+apartment neither of them lived in any more.
 
-## Identity
-Alexis (Lex) Armel — historical partner spanning ~2010-2015 (Full Sail University Recording Arts graduate era). Stabilizing social anchor pre-hedonism/NYC pivot; "peak frizzle" vibe bridge; referenced in wardrobe evolution, capital veins tracing, and recursive timeline. FB profile explicitly lists "Previous relationships Danielle Onesi, Alexis Armel".
+## The record
 
-**Gemini-_18 verbatim:** "Alexis (Lex) Armel: Historical relationship partner spanning a five-year window from 2010 to 2015, acting as a foundational point of reference for personal evolution." Breakup Nov 28 2015 (cheating) immediately precedes Annie genesis per LIFE and calendar. Pre-2015 "Rod Stewart era" wardrobe referenced in photo-ingest/Gemini.
+Her page rests on a wider evidence base than almost any other person here,
+and until this pass the largest part of it had never been read.
 
-**_58 / early NYC enrichment (remaining Gemini signals):** Lex "with me the whole time we were in nyc" (Bedford Ave 424, ishlab overlap 2010-11); Lex job at Bridge Cafe (279 Water St, oldest tavern) until Hurricane Sandy (Oct 2012) which erased Seaport outpost; "Lex and the Buy-Buy-Buy" + post-CL payout lifestyle; 2013 Franki 5-day blip ("I KNOW YOU'RE WITH FRANKI") then return to Alexis ("I really didn't have the romantic feelings for franki..."); Sandy 2012 structural shock.
+| Source | Volume | What it holds |
+|---|---|---|
+| Google Chat archive (`gmail_bodies.txt`) | **495 blocks**, dated samples 2011-08 → 2013-05 | the daily NYC household — the only continuous first-person record of the relationship while it was working |
+| iMessage, two-sided export | 87 messages, 2020-09-14 → 2025-02-19 | the post-breakup friendship end to end |
+| Twitter corpus analysis | @alexisarmel across 2009–2013 | the public-facing register, and the only view of the Full Sail year |
+| Facebook (Lucas Thomas, others) | Feb 2017 | the contemporaneous arrest account |
+| Retellings to Jim Shaffer, Tom, Jamie Mohler | Dec 2017 – Aug 2018 | three independent narrations of the Zac Shumar years |
 
-## Key Events / Timeline (mined from LIFE + Gemini profile locks + _58/HTML)
-| Date | Event | Source |
-|------|-------|--------|
-| ~2010-2015 | Relationship span; Full Sail 2010 (graduation photo forensic); ishlab Music audio engineer NYC 2011-13 overlap; Lex "with me the whole time" | Gemini-_18.md full bio dump; photo-ingest pinned; _58.txt: "Lex was with me the whole time we were in nyc and she ended up working at the famous Bridge Cafe until Hurricane Sandy" |
-| 2010 May 1 | NYC arrival photo (Brooklyn Bridge) post-Danielle context (Suz + Danielle shot) | _58.txt |
-| 2011-2012 | Bridge Cafe Seaport job (Lex); CL era for Dan | _58 |
-| Oct 2012 | Hurricane Sandy floods Bridge Cafe; "Lex and the Seaport" fallout | _58.txt verbatim |
-| 2013 | Franki 5-day ESFP blip (post-rehab PA return); "I really didn't have the romantic feelings for franki that i said i did at the time"; return to Lex | _58.txt |
-| 2015-11-28 | Lex cheated on me 2 weeks in after I moved her to fla (💔 Cheating/Affair) | LIFE_EVENTS_CALENDAR.md; operating refs |
-| 2015-11-29 | Met Annie; "I met someone that instantly changed my life"; breakup comms with Lex | LIFE_EVENTS_CALENDAR.md; 2015-2016 period |
-| Pre-2015 | Rod Stewart era (jeans/tie); weaponizing mid-2000s rock-star protocols | photo-ingest pinned chat |
+The Google Chat archive is the find. Four hundred and ninety-five
+conversation blocks under `lexieamb@gmail.com` sit inside a file the
+repository has carried since ingest and repeatedly flagged as unmined. They
+are almost entirely mundane — and that is their value, because everything
+else the corpus holds about this relationship was written after it ended, by
+one of the two people in it, in the course of arguing about a different one.
 
-## _18 + _58 Corpus Additions (2026-06-23; numbers/tables first)
-**_18 Freqs (in Gemini-_18.md):** alexis:21, lex:8. "Historical relationship partner spanning a five-year window from 2010 to 2015, acting as a foundational point of reference for personal evolution." "high-volatility interpersonal dynamics, attachment friction". "The conclusion of this era directly preceded his deep-level integration into metropolitan hospitality and audio operations in NYC, acting as a structural pivot point".
+## Full Sail, and the beginning
 
-**_58 Freqs/cross (ishlab/NYC era):** Multiple "Lex" "nyc" "Bridge Cafe" "Sandy" "Franki" refs in _58.txt; "Lex was with me the whole time"; Bridge Cafe details; Sandy "structural shock"; Franki blip + return.
+She enters during the Winter Park years. The Twitter corpus of 2009 has
+`@alexisarmel` as its most frequent @-mention alongside Josh Brannan, in a
+closed network inherited from MySpace, threaded through Orlando nightlife —
+"springs w @alexisarmel," Jesters Court, meridian hookah — and the year's
+sentiment peaks late and romantically: *"I'm so in love <3"*, *"girlfriend is
+nursing me back to health."* The overlap is not clean. Context-core records
+the sequence flatly: Danielle ends, Dan having cheated, and Alexis begins.
+[[wiki/people/danielle-onesi|Danielle Onesi]] and Alexis are listed together
+on Dan's own Facebook profile under "Previous relationships," in that order.
 
-**Expanded Description (verbatim):** "Evaluated retrospectively through highly analytical, system-oriented lenses. ... critical study in high-volatility interpersonal dynamics, attachment friction, and the friction generated between individual autonomy and deep emotional interdependence." "remains a core case study used in his recursive internal processing models to identify behavioral loops, trust boundaries, and vulnerability limits."
-**Deep agent cross (_18 + HTML node locks + _58):** Foundational high-volatility enmeshed (anxious-avoidant) baseline; attachment shift to Annie compartmentalized in _18 psych. Full Sail/ishlab overlap in bio (Lex present); _58 NYC/Bridge/Sandy/Franki fill granular. Node/profile lock includes as "foundational" for Grok transfer. Cross [[wiki/timeline/periods/2025-collapse]], [[wiki/self/gemini-activity/gemini-activity]] (node locks master).
+The same year initialises two other things that run underneath the whole
+relationship: **Suboxone, from around January 2010**, and an aggressive
+atheism that turns out to be shared rather than tolerated. Both surface in
+the chat archive as ordinary household furniture rather than as topics.
 
-Updates to related: [[wiki/self/gemini-activity/gemini-activity]], [[wiki/self/chats/gemini-18]], [[wiki/timeline/periods/2025-collapse]], [[wiki/people/danielle-onesi]]. Sources append: "raw/self/dox-md/Gemini-_18.md" (already present); "raw/self/dox-scan/Gemini-_58.txt".
-| Gemini profile lock | "foundational point of reference for personal evolution"; detailed in exhaustive bio dump request for Grok transfer | Gemini-_18.md |
-| _58 ishlab/NYC | "Lex was with me the whole time we were in nyc and she ended up working at the famous Bridge Cafe until Hurricane Sandy" | _58.txt |
+## New York, in her own words and his
 
-## Post-breakup: the Zac Shumar arrest and incarceration (2017)
+Dan and Alexis moved to Brooklyn in April 2010 —
+[[wiki/places/424-bedford-ave|424 Bedford Ave]] for two years, then
+[[wiki/places/90th-st-manhattan|90th between 3rd and Lex]] until May 2013.
+She was there, in Dan's later phrasing, "the whole time we were in nyc." She
+worked at the **Bridge Cafe** on Water Street, under the Brooklyn Bridge,
+which she introduces to him in the chat with genuine delight — *"its the
+oldest restaurant in nyc lol it's neat inside… yes like 1744 or something
+crazy like that"* — after interviewing on the strength of wanting day
+shifts. Hurricane Sandy flooded the Seaport in October 2012 and the job went
+with it; Dan's later accounts treat that as a structural shock to the
+period, and the archive shows them following the storm coverage together the
+day it hit.
 
-Alexis's post-breakup boyfriend is identified by full name across two independent retellings: **Zac (Zachary) Shumar** — notably, also Dan's sister [[wiki/people/vanessa-frank|Vanessa]]'s ex-boyfriend before he dated Alexis, and — per the CATO bootloader's own synthesis of the corpus (an AI-generated compression, not a primary quote, so treated as a secondary read) — the same man who "lost his virginity to Annie," meaning all four of Dan, Alexis, Zac, and [[wiki/people/annie-ulmer|Annie]] were entangled with each other well before the arrest. Dan told the arrest story twice within the same year, to two different friends, with consistent core facts:
+The register of the archive is its most striking feature and it is
+unrepresented anywhere else in this corpus. Both of them write in a
+sustained, unembarrassed baby-talk — *hewwoo*, *i misses youu*, *wittle*,
+*otay*, *wuvs you* — across hundreds of exchanges and several years, with no
+irony and no audience. Dan is at this point twenty-two to twenty-five, and
+the same years of his Twitter output are the ones the corpus analysis
+describes as weaponised irony, edgelord provocation and aesthetic warfare.
+The two voices are running concurrently, to different audiences, from the
+same person. Nothing else in the wiki shows that contrast with this
+resolution, and it is a direct check on the "conflict architecture" reading
+of him: at home, at this age, there is no architecture at all.
 
-- To [[wiki/people/new-jim-shaffer]] (April 22, 2018), dated to **Valentine's Day 2017**: Alexis and Zac had been staying at Dan's house — meant to be one night, stretched to two weeks — until Dan kicked them out. That day, Zac went to pick up a mail-order marijuana package and happened to walk into police serving an unrelated warrant on a small-time dealer at the same address. Alexis, Zac, and a third person were arrested together and charged with four or five felonies.
-- To [[wiki/people/tom]] (August 23, 2018), told independently: "**Shumar got busted moving 10 pounds in the mail**... She was with him when he picked it up and got shook up by the cops." Dan's framing here is sharper about the legal aftermath: "he got a good lawyer and **fucked her over**. She got probation but that didn't last long" — because Zac fought the case with paid counsel while Alexis, whose own exposure was lower ("it legit wasn't her deal"), took the group plea deal the DA required from all three defendants together. The same message names the living arrangement directly: "All in the same house... Me and my ex, Annie and her ex... Dude they were living with us" — Dan and Annie under one roof with Alexis and Zac, not just a two-week stopover as the Jim Shaffer retelling frames it (the CATO synthesis puts the stay at "approximately one month," splitting the difference).
-- To [[wiki/people/jamie-mohler|Jamie Mohler]] (December 13, 2017), the earliest of the three tellings — barely ten months after the arrest itself: "THEN he gets a shipment of 10 pounds from California. Goes to pick it up, cops swarm, they both get tagged... Happened on Valentine's Day... she's in jail." A fourth-hand detail found nowhere else: "her bf never went to jail so something weird going on there" — Dan's own puzzlement, in the moment, at the asymmetric outcome the later tellings explain with the paid-lawyer framing.
+What the archive is actually *about* is money. Rent, hours, shifts, checks
+that come short, an electric bill credited back, a $100 monthly student-loan
+payment she resents, a paycheck of "a whopping 225" for three days' work,
+tips paid separately from wages, and a running joke-economy of Chipotle
+orders and birthday presents bought with money neither has. It is a
+two-income household in Williamsburg surviving on restaurant shifts and
+whatever Dan's audio and office work paid, and both of them are visibly
+tired. When she thinks she is about to be fired she has "a fucking
+meltdown"; when he is passed over at work he sends her the room-temperature
+version and she sends back *"we're going to do something reaaaaaally special
+when u get hired. because i know you will."*
 
-Alexis made bail first, initially believing she'd beat the charges easily since the marijuana wasn't hers — but the DA's contingent group-plea structure required all three to accept probation together, and she did. Within about a month she failed a drug test and violated probation; she was jailed around the end of October 2017 and, per the PA inmate locator as of the April 2018 conversation, remained incarcerated at **SCI Muncy** (Pennsylvania's primary women's state prison). Zac himself avoided jail entirely despite the marijuana being his. Dan sums up the asymmetry to Tom bluntly: "She honestly got a bad break... She stayed loyal to Zac" — loyalty that cost her a year in prison while he walked. Dan also references a separate, earlier incident between the two of them: Alexis pulled a knife on Zac during a fight and was charged with assault. He frames learning the full scope of it from inside his new relationship with grim irony: "Nothing makes you feel better about your life decisions... than when your 23 year old girlfriend tells you that your ex is in jail" — Annie, 23 at the time, was the one who told him.
+Three things in the archive settle questions the rest of the corpus could
+not.
 
-A third, independent, **contemporaneous** account exists: a Facebook Messenger thread with [[wiki/people/lucas-thomas|Lucas Thomas]], a mutual friend of Zac's, opens on February 11, 2017, with Lucas telling Dan that Lex's place had just caught fire and he can't reach her — dating the fire itself to that day, days before the arrest. The arrest account follows in real time on February 16, 2017, hours after it happened, and matches the Jim Shaffer/Tom retellings on every core fact while adding detail neither later account carries: Zac had gone to a man named **"RT"**'s house to pick up mail, and RT had reportedly "been hanging out with some talkative people, who may or may not have been getting government salaries" — Dan and Lucas both read this as a likely informant tip rather than coincidence ("that doesn't 'just happen'... it's a big 'yikes'"). Fifteen police were staged to swarm when Zac took the package from RT. Bail is given here as **$35,000 each**; Dan estimates Zac's exposure at "9-12" months. Zac, Alexis, and a third person had been staying at Dan and Annie's house, then moved to a hotel the night before, planning to leave for Philadelphia the next day — Zac stopped at RT's on the way out of town. A borrowed glass smoking rig, on loan to Lucas, was lost with the rest of the seized items. Zac's parents learned about both the arrest and the house fire in the same phone call, from jail — they hadn't been told about the fire beforehand. Dan is candid in the moment about his own exposure ("I never let him do it here thank the lord... not for a lack of him trying") and jokes that Annie ("my gf... will never let me hear the end of this") will use the bust as leverage against his own smoking — a small, real-time instance of the same relationship-leverage dynamic later documented at scale in the [[wiki/mind/psychosexual/arrangement-history|arrangement/coercion record]]. Dan's assessment of Alexis herself, delivered to Lucas in the same conversation, previews the "walking breathing bad luck" framing he'd repeat elsewhere: "Look I dated her for 7 years, and when I left her she didn't give a single fuck."
+**WEXUS is from here.** The 2025 wrong-number exchange ends with Dan proving
+his identity by invoking a word — *"if you do not know the word WEXUS… you
+can block lol"* — that no other page could source. It is in the chat
+archive, used unglossed as part of ordinary domestic accounting: *"did wexus
+pay it twice last month?"* The password on the last message of the
+relationship is a private household word from the first apartment, fourteen
+years earlier.
 
-**Zac Shumar's own relationship with Dan outlasted all of this.** A Facebook Messenger thread shows Dan and Zac collaborating on an apparel/print side project as late as October 2017 — mid-way through Alexis's probation and months before she'd be jailed — trading casual, friendly logistics about a design approval and a "patch" fix, no apparent rupture in the friendship. The connection persisted for years: a July 8, 2022 exchange with Tom has Dan mentioning "I just had a 5 hour argument with Zac Shumar" about politics, describing him as "a pipeline to reactionary politics" — meaning Dan remained close enough to Zac, five years after the arrest that sent his own ex-girlfriend to prison, to spend five hours arguing electoral politics with him.
+**The Suboxone is in the room.** Mid-conversation, between a video-conference
+setup and a client's job title, Dan writes *"hey can you see if i forgot my
+piece of subby / on the dresser by the tv."* Another block opens with him
+panicking that he lost it on the subway. Alexis's role is to find it and
+report back — *"aww, yes u did! poor bb."* The maintenance era is not a
+secret being kept from this relationship; it is a shared logistics problem,
+handled the way the electric bill is handled.
 
-Reflecting on the whole episode in the Jim Shaffer conversation, Dan calls leaving Alexis for [[wiki/people/annie-ulmer|Annie]] "literally the best decision of my life," and confirms he and Annie had been living together since August 2017 — Annie then working as a casino cocktail waitress by day and camming at night, Dan caddying six days a week "April to October." The pivot itself — total, near-instant transfer of primary attachment from Alexis to Annie inside a single day — is the clearest documented instance of the "fusion" mode named on [[wiki/mind/concepts/attachment-model]]: not a gradual disengagement followed by a new attachment, but one closing as the other opens.
+**She is an atheist on her own account, not by adoption.** She deletes her
+mother from Facebook over a religious argument — *"i can't fucking stand her
+condescending shit regarding god anymore… she's gonna sit there n say how
+atheists have this BIG chance of going to hell, then i go over to her wall,
+and she's talking about how she's gonna see my neighbor, who killed herself,
+in heaven. HOWRUSODUMB"* — in a stretch of 2011 when Dan's own atheism is at
+its most public and most aggrieved. And she argues politics back at him: the
+archive has her correcting him on the 2012 Republican field mid-rant, which
+is not a thing the later, retrospective accounts of her ever suggest she did.
 
-The 2015 transfer is documented in full as the **single-bond switch** at [[wiki/mind/synthesis/bond-switch-2015]]. The bootloader corpus (substantiated on the complete 181,585-message record) names Alexis the **control case** for the attachment system: across ~6 years (Nov 2009 – Nov 2015, including the July–Oct 2013 separation) the deep attachment system *never fully activated* for her — which is precisely why the Annie activation landed at a categorically higher magnitude, and why the 2026 collapse (the first real deep-bond break) operated on an uncalibrated substrate. The physical anchor of the switch is [[wiki/places/155-virginia-ave|155 Virginia Avenue]] — "the Alexis lair," leased during the end of this relationship and the apartment Annie moved into when the new bond began. The singular bond slot was reoccupied with the walls held constant: self-preservation lair-continuity, the sp instinct keeping the fortress still while the sx instinct swapped its one target.
+## The 2013 break, and the return
 
-Weeks after her release from that year at SCI Muncy, Alexis and Annie became sexually involved with each other in a recurring, six-week arrangement that ran from a skeptical, transactional opening (Dan describes offering Alexis $3,000 to be "a plaything for Annie") through a genuine birthday-night event and repeat visits into late November — full account at [[wiki/timeline/events/annie-alexis-reunion-november-2018]].
+The single interruption in six years is five days long. In July 2013, back
+in Pennsylvania after the New York chapter closed, Dan spent a fireworks day
+with [[wiki/people/franki-faris|Franki Faris]]; roughly ten minutes into the
+car ride Alexis texted **"I saw your messages. I know you're with Franki."**
+The relationship's only pre-terminal rupture is therefore dated to its first
+hour, and it is dated by her — an act of detection, not a drift
+([[wiki/timeline/events/franki-fireworks-day-2013]]). He went back to her
+within weeks, and later assessed the interval as an error of self-report:
+*"I really didn't have the romantic feelings for franki that i said i did at
+the time."*
 
-## Corpus Ties
-- 2015-11-28 cheating → direct transition marker to [[wiki/people/annie-ulmer]] era + 2015-2016 period start (43 events Dec).
-- Seeding for attachment patterns / the trauma-memory pattern (parental + Alexis collapses per [[wiki/mind/concepts/phenomenology-lens]]).
-- Profile lock in Gemini: "Alexis (Lex) Armel: Historical relationship partner... foundational point of reference for personal evolution."
-- Ties to music/tech: Full Sail Recording Arts + Pro Tools HD 8 cert; early production identity cross [[wiki/interests/favorites/music]] [[wiki/interests/music/overview]].
-- Low volume vs Annie corpus but high signal for early periods/trauma kernel.
-- A later AI-assisted retrospective (the "Dan Frank OS" report, 2026) names a facilitated encounter between Alexis and Annie during the Annie era — the "ANNIE_ALEXIS_HOOKUP_CORE" — read there as Dan orchestrating rather than participating; no independent primary source, date, or further detail exists for this beyond the retrospective naming ([[wiki/mind/concepts/erotic-architecture]]).
+The five-day Franki episode and the six-year Alexis relationship together
+make the point that neither makes alone. A name that occupied a slot for
+five days and a person who occupied one for six years were both, in the
+end, held rather than released — which is the observation
+[[wiki/mind/synthesis/dormancy-not-exit]] is built on.
 
-## Domain: Self
-Early attachment wound activator alongside family 2005 rupture (see [[wiki/self/ancestry]]). Cross to ancestry (Uniontown roots pre-Full Sail exit). _58: Lex anchor during ishlab/Creative License NYC (Bedford/Bridge Cafe/Sandy/Franki blip); pre-Danielle pivot echo; music production parallel (ishlab vs Max production house).
+## The end, in one day
 
-## Related
-- [[wiki/timeline/periods/2015-2016-annie-relationship-start]]
-- [[wiki/people/annie-ulmer]]
-- [[wiki/mind/concepts/attachment-model]]
-- [[wiki/people/danielle-onesi]]
-- [[wiki/self/chats/gemini-58]]
-- [[wiki/self/gemini-activity/gemini-activity]]
-- [[wiki/timeline/events/timeline]]
-- [[wiki/mind/synthesis/attachment-trauma-bond]]
+By January 2015 Dan had leased **[[wiki/places/155-virginia-ave|155 Virginia
+Avenue]]** — "the Alexis lair," known locally as Scerba's old place — during
+the relationship's endgame, having spent roughly four months before that
+secretly housing her at [[wiki/places/337-saratoga-drive|337 Saratoga]] after
+she was thrown out, the window that brackets the
+[[wiki/legal/2015-possession-arrest|February 2015 possession arrest]].
 
-## Message corpus: the post-breakup friendship (2020–2025)
+The end itself is compressed into a week in late 2015 and the corpus dates
+every beat of it:
 
-A full two-sided export (handle `+17249707658`, 88 messages, 2020-09-14
-to 2025-02-19) replaces the earlier 41-message, received-only extract
-and shows this was not a one-sided, unanswered channel — it was a real,
-if intermittent, friendship that ran five years after the 2015 breakup,
-well into the second NYC chapter and beyond. Dan replies consistently
-and warmly throughout.
+| Date | Event |
+|---|---|
+| ~mid-Nov 2015 | Dan moves her to Florida |
+| 2015-11-28 | *"Lex cheated on me 2 weeks in after I moved her to fla"* |
+| 2015-11-29 | Meets Annie at the Uniontown Country Club, ~2 AM, in the rain — *"I met someone that instantly changed my life"* |
+| 2015-12-02 | *"Listen I broke up with lex, I'm in love with Annie Ulmer"* |
+| 2015-12-08 | *"That was the night before I broke up with lex"* |
+| Dec 2015 | 728 / 682 / 679 messages sent on three consecutive days to Annie |
 
-The thread's content is mostly casual catch-up and shared politics:
-Dan announces hitting Twitch "affiliate status" and pitches doing
-political livestreams instead of gaming (Dec 2020–Jan 2021), the two
-trade 2020-election commentary ("we're living in the worst possible
-timeline"), and Alexis mentions a younger relative, Landon, whom Dan
-jokes he'll "radicalize" into starting a "Greene county DSA chapter."
-[[wiki/people/menore|Menore]] gets a passing, casual mention ("Menore
-says hi... She's stupid" — in the context of an unrelated joke, not a
-comment on the relationship). The two also process a shared, serious
-loss together in real time on January 29–30, 2021: a mutual friend
-named Alexa is reported missing, then confirmed to have died by
-suicide after her boyfriend and his father assaulted her ("shoved her
-in the back of her car in Walmart parking lot"); both express genuine
-shock and anger at the circumstances rather than treating it as
-gossip.
+Two facts about that week are usually left out of the retellings and both
+sharpen it. The first is that he had just relocated her to another state at
+his own expense — the cheating happened two weeks into a move he paid for.
+The second is that **Annie was Alexis's coworker.** The replacement did not
+merely arrive fast; it arrived from inside the displaced partner's own
+workplace, which is why the social fallout was immediate and public enough to
+detonate a separate friendship the same month
+([[wiki/people/zachariah-harshman|Zachariah Harshman's]] December 23
+confrontation).
 
-The thread's final exchange, five years later on February 19, 2025, is
-a small, quietly poignant coda: Dan texts a message clearly meant for
-someone else ("Guess what... Another 'New York I love you but you're
-bringing me down' situation"), Alexis doesn't recognize the sender and
-asks "Who is this?", and once Dan clarifies and offers a shared
-in-joke as proof ("if you do not know the word WEXUS... you can block
-lol"), she confirms: "Yup wrong number. Sorry Dan." Neither followed up
-after that. Every reference to "Alexis" or "Lex" elsewhere in the wiki
-denotes this person.
+The transfer is documented in full as the
+[[wiki/mind/synthesis/bond-switch-2015|single-bond switch]]. Its physical
+signature is that the walls did not move: Annie moved into the apartment
+leased for Alexis. Its psychological signature, per the bootloader's read of
+the full 181,585-message record, is that across roughly six years including
+the 2013 separation the deep attachment system **never fully activated** for
+Alexis — which is precisely why the Annie activation landed at a
+categorically higher magnitude, and why the 2026 collapse operated on an
+uncalibrated substrate. She is not the relationship that hurt. She is the
+reason the one that did could.
 
-That this thread exists at all — five warm years after the 2015 breakup, and
-running alongside the 2018 arrangement — makes Alexis the member that rules out
-passivity in [[wiki/mind/synthesis/dormancy-not-exit]]. A former primary partner
-was re-tasked into the operations of the bond that replaced her and then carried
-as correspondence for another seven years. Retention on that record is something
-Dan does, not something that happens to him.
+## The Shumar years
+
+Alexis began dating **Zac (Zachary) Shumar** after the breakup — a man who
+had previously dated Dan's sister [[wiki/people/vanessa-frank|Vanessa]], and
+who per the CATO bootloader's own compression of the corpus (an AI synthesis,
+not a primary quote) had also been Annie's first. All four were entangled
+before any of what follows.
+
+On **Valentine's Day 2017** Zac went to collect a mail-order marijuana
+shipment and walked into police staged for it. The contemporaneous account —
+[[wiki/people/lucas-thomas|Lucas Thomas]]'s Facebook thread, opened five days
+earlier with the news that Lex's place had caught fire and he could not reach
+her — has fifteen officers waiting, bail at $35,000 each, a likely informant
+tip, and Zac's parents learning about both the arrest and the house fire in
+the same phone call from jail. The retellings Dan gave later put the shipment
+at ten pounds from California and add the legal aftermath: Zac hired paid
+counsel, the DA required all three defendants to accept the same plea, and
+Alexis — whose own exposure was minimal, "it legit wasn't her deal" — took
+it. Within about a month she failed a drug test, violated probation, and was
+jailed around the end of October 2017; by April 2018 she was at **SCI
+Muncy**, Pennsylvania's women's state prison. Zac did no time.
+
+Dan's verdict on it, to [[wiki/people/tom|Tom]] in August 2018, is
+unambiguous and unusually generous: *"She honestly got a bad break… She
+stayed loyal to Zac,"* and Zac *"got a good lawyer and fucked her over."*
+His own puzzlement, delivered in real time to
+[[wiki/people/jamie-mohler|Jamie Mohler]] ten months after the arrest, is the
+same observation before he had the explanation: *"her bf never went to jail
+so something weird going on there."*
+
+Two details around the edges matter more than the case. Alexis, Zac and a
+third person had been **living with Dan and Annie** at the time — *"All in
+the same house… Me and my ex, Annie and her ex… Dude they were living with
+us"* — which is the arrangement's structural precondition sitting in plain
+view a year before anyone acted on it. And the friendship with Zac Shumar
+outlasted all of it: Dan and Zac were collaborating on an apparel side
+project in October 2017 while Alexis was on probation, and in July 2022 Dan
+was still close enough to him to report *"a 5 hour argument with Zac
+Shumar"* about politics.
+
+## Paid back in
+
+Weeks after her release, in November 2018, Alexis and Annie became sexually
+involved in a recurring six-week arrangement that Dan opened by offering
+**$3,000** for her to be, in his words, "a plaything for Annie," and which ran
+from that transactional start through a birthday-night encounter and repeat
+visits into late November ([[wiki/timeline/events/annie-alexis-reunion-november-2018]]).
+Dan's own summary of the situation, three years on, is characteristically
+flat: *"It's def a weird situation, like Alexis lived with Annie and I for a
+little while after the breakup."*
+
+This is the single event that makes her page load-bearing for
+[[wiki/mind/synthesis/dormancy-not-exit]]. A former primary partner was not
+merely retained after being displaced; she was **re-tasked into the
+operations of the bond that displaced her**, three years later, for money,
+and then carried as friendly correspondence for another seven. Retention at
+that specification is not something that happens to a person. It is a policy.
+
+## The yardstick, and the last message
+
+The two-sided export runs **September 2020 to February 2025**, 87 messages,
+and shows a real if intermittent friendship rather than a residue. Dan
+announces hitting Twitch affiliate status and floats doing political
+livestreams instead of gaming; they trade 2020 election commentary ("we're
+living in the worst possible timeline"); he threatens to radicalise a younger
+relative of hers into founding a Greene County DSA chapter. On January 29–30,
+2021 they process a shared loss in real time — a mutual friend, Alexa,
+reported missing and then confirmed dead after an assault by her boyfriend
+and his father — with shock and anger rather than gossip.
+
+The most consequential thing Alexis does in the 2020s, though, she does
+without being present for it. On **September 19, 2020**, mid-argument with
+Annie, Dan writes: *"its funny to me that my mom thinks alexis is 'the devil'
+even though she never really did anything shitty to me....you, on the other
+hand, are an angel who has lied, cheated, manipulated, taken advantage of,
+etc."* Five years after leaving her inside a day for the woman he is writing
+to, Alexis has become the **moral yardstick** — the calibration point Annie is
+measured against and found short. The woman whose six years never activated
+the attachment system is the one whose conduct is held up as the standard.
+That inversion is the sharpest single thing this page contains, and no
+account of either relationship written before it had noticed.
+
+The ending is small and it is accidental. On **February 19, 2025** Dan sends
+a message plainly intended for somebody else — *"Guess what… Another 'New
+York I love you but you're bringing me down' situation"* — announcing the end
+of the second New York chapter to a number he no longer had straight. She
+answers *"Who is this?"*, he offers WEXUS as proof, and she replies: *"Yup
+wrong number. Sorry Dan."* Neither followed up.
+
+A relationship that opened with an LCD Soundsystem ticket alert she spotted
+first, in an apartment they shared in 2011, closes with an LCD Soundsystem
+lyric sent to her by mistake in 2025, and the last word in it is her name for
+him.
+
+## What she proves
+
+Three of this wiki's standing conclusions rest on her, and each rests on a
+different property of the same six years:
+
+- **Occupancy and activation are separate variables.** The attachment slot
+  was continuously filled from 2009 to 2015 and the deep system did not
+  engage. [[wiki/mind/synthesis/the-unbroken-bond]] needs that separation to
+  be true of somebody, and she is the somebody.
+- **The switch was a swap, not a transition.** One relationship closed as
+  another opened, inside a day, into the same apartment, from the same
+  workplace — the "fusion" mode named on
+  [[wiki/mind/concepts/attachment-model]].
+- **Nothing leaves the graph.** Six years, then a break she initiated the
+  detection of, then a prison term, then paid participation in her
+  successor's arrangement, then five warm years, then a wrong number — and at
+  no point a severance.
+
+What she does *not* prove, and what the earlier version of this page
+implied she did, is anything about volatility. The Gemini profile dumps that
+page quoted at length describe "high-volatility interpersonal dynamics" and
+"attachment friction" as her defining contribution to Dan's development.
+The chat archive does not support it. The archive is six years of a soft,
+broke, funny, mutually attentive household, and the volatility in the record
+belongs to the week it ended.
+
+## Gaps
+
+The length of the relationship is quoted three different ways and the corpus
+does not settle it: Gemini's profile says 2010–2015, the bootloader says
+November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had
+"dated her for 7 years." The Twitter record favours a late-2009 start. Only
+43 of the 495 chat blocks carry dates, so the archive's true span is unknown
+beyond the 2011-08 → 2013-05 sample. Nothing in the corpus records how she
+learned about Annie, or whether the two women had any relationship as
+coworkers before the November 2018 arrangement. Her life after February 2025
+is entirely undocumented, as is whether she knows any of the rest of this
+exists. And the CATO bootloader's claim that Zac Shumar was also Annie's
+first has no primary source anywhere — it is an AI compression of the corpus
+repeating itself, and it should not be cited as fact until a message says it.

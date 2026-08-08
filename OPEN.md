@@ -8,7 +8,7 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 29 |
+| Live contradictions | 30 |
 | Open gaps | 129 |
 | Standing predictions | 13 |
 
@@ -40,6 +40,7 @@ somewhere and has not yet found out where.
 - **[[wiki/people/fran-coldren]]** — ancestral-dialectic offers *Fran's own great-grandmother* — "married three times under a shifting name structure" — as its archetype of "emotional dissociation via reinvention." That description fits **Fran herself** exactly: three marriages, and a name that shifted twice. Either the pattern runs in both generations, o
 - **[[wiki/people/franki-faris]]** — This page has carried *"a five-day rebound"* and *"the Franki interlude lasted five days before collapsing,"* sourced to the Gemini-58 and DANSYNTH self-narrations, and dormancy-not-exit uses that figure as its tenure-floor control. The 2026 capture attaches five days to a different thing entirely: **Alexis** stayed at
 - **[[wiki/people/gabe]]** — MAX_PRIME.md (a 2026-era document) refers to Gabe in the present tense as an ongoing, current fixture ("the food and the cat are always real"), which sits awkwardly against a November 2023 death. Possible explanations: the bootloader text is older than its last-edited date and was never updated after Gabe died, or the 
+- **[[wiki/people/jacob-bacharach]]** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figures prominently in my Doorposts of Your House novel."* The reading record sides with Bacharach. Dan's Goodreads library 
 - **[[wiki/people/kristin]]** — A prior version of this page described Kristin as "an ex-Brooklyn librarian living in Pittsburgh." The message corpus does not support this — it shows pharmacy, DoorDash, and courthouse legal-secretary work, and a rural (not Pittsburgh) residence. The librarian claim is unsourced and likely an error; corrected here pen
 - **[[wiki/people/menore]]** — the thread contains a **1,458-day silence — May 26, 2020 → May 24, 2024** (with 2020 already tapering: 35/17/15-day gaps, 158 messages all year). This contradicts this page's earlier "Phase 4: sustained operations Apr 2019–Feb 2025" framing, and it complicates the Au Za'atar storytime claim (au-zaatar) that Menore serv
 - **[[wiki/people/sadie-harris]]** — earlier versions of this page and the member table on fayette-return both recorded Sadie as having *died* in Hopwood on 27 November 1997. The GEDCOM records no death place at all — only the date — and lists Hopwood as the **burial** place. Her last attested residence is Brownsville in 1993. The Hopwood association is r
