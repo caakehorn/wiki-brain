@@ -6,6 +6,27 @@
 
 ---
 
+### [2026-08-08] - Session: governance rewrite — six specs, one backlog, six documents retired
+* **Model:** claude-opus-5 / Claude Code
+* **Branch:** `claude/wiki-articles-rewrite-c94nom`
+* **Summary:** Operator directive — clean up, streamline and rewrite the root governance markdown, taking direction from STRATEGY.md; push entry length and depth further; and emphasise that raw sources are still not being mined deeply enough. 25 root markdown files → 21, with six retired and two written.
+* **Findings, in order of value:**
+  1. **The governing set contradicted itself on the one prohibited move.** STRATEGY.md's "Running on lesser models" section instructed models to clear a staleness warning by adding a line and **bumping the date**, four paragraphs after rule 4 called that the one move that corrupts the system quietly. Its framing premise had also expired — "the most capable model that will ever work on this repository finished on 2026-07-18" — while Opus 5 sessions were running the deepest passes in the repo's history. Section retired entire.
+  2. **A gate was fighting the standing directive.** `bin/wiki-lint`'s 8 KB page budget produced **104 of 113 warnings — 92% noise** — on a project whose operator directive is longer entries. Raised to 40 KB and reworded ("split ONLY if navigation genuinely improves, never to shorten"). **Warnings 113 → 13**, and what remains is real.
+  3. **New `EXTRACTION_SPEC.md` is the substance of the directive.** Its argument ties the two asks together mechanically: *a pattern can only be found among details that were written down, and synthesis reasons from `wiki/` not `raw/`, so every detail dropped at extraction is a connection nobody can ever make.* That makes "every trivial detail gets an entry" surface area for the next climb rather than hoarding. Carries the exhaustion standard, the seven moves, source tiers (primary vs AI-secondary, with the laundering failure named), and the per-source traps that fail silently. Absorbs MESSAGE_MINING.md.
+  4. **The old trackers were mostly already done, and nobody had checked.** Building `BACKLOG.md` meant verifying inherited items rather than copying them: **four of `task.md`'s seven remaining Phase-3 targets were page names that never existed**, and all six of LONG_TAIL_TRIAGE.md's "MINE" items were **executed on 2026-07-19**. Both are now recorded as settled instead of pending.
+  5. **`wiki/people/contacts/` was eliminated on purpose in `65f80c2`** — the previous handoff's resume point #2 asked whether it was deliberate or lost. It was deliberate; the thing still wrong was the governance text describing it as live doctrine, now removed from CLAUDE.md, STYLE_GUIDE.md, INGEST_PROTOCOL.md, FACTSTORY_BRIEF_TEMPLATE.md and index.md. **Resume point #2 is closed.**
+  6. **Every domain count in `index.md` was stale** (people listed at 208, actually 149; interests at 35, actually 138). Recomputed from disk.
+* **Retired (history in git):** `task.md`, `lint-report.md`, `contact-review.md`, `LONG_TAIL_TRIAGE.md`, `TO-DO-LIST.md` (operator content carried into BACKLOG.md), `MESSAGE_MINING.md`. Every inbound reference swept, including `app.py`'s editable-meta lists and the `wiki-rewrite` skill.
+* **Rewritten:** STRATEGY.md (five unbreakable rules now, the new one "never stop at what you came for"), STYLE_GUIDE.md (Substance/Format split; rule 1 is *write long*), CLAUDE.md (335 → ~150 lines, a process router since it auto-loads every session; REWRITE added as a named operation), README.md, index.md, INGEST_RUNBOOK.md §2 and §7–9, INGEST_PROTOCOL.md, FACTSTORY_BRIEF_TEMPLATE.md, both spec headers.
+* **Gates:** wiki-lint **438 pages / 0 errors**, 13 warnings (from 113) · wiki-connect check **0 errors** · wiki-climb check **438 pages, 21 with `synthesizes:`, 0 errors, 0 warnings**. `bin/wiki-digest` and `bin/llm-publish` rerun.
+* **RESUME POINT:**
+  1. **Work `BACKLOG.md` §1 — extraction is now the named binding constraint.** The Gchat archive (`raw/self/dox-scan/gmail_bodies.txt`) is the top item: 495 blocks were one correspondent, the rest is unread, and it is the only daily-life record of 2010–2013 in the corpus.
+  2. **Run one ingest under `EXTRACTION_SPEC.md` and see whether the seven moves hold.** The spec is written from one rewrite pass and has never governed a fresh ingest; the first real use is also its first test.
+  3. **The `wiki-rewrite` skill is still untested** — nothing has run against it.
+  4. Prior resume points stand: the next Annie export, the announcement-rule falsifier, cluster 26, the `arnu`/`alexander-jackson`/`john-carney` stubs, and the ten `[[raw/…]]` wikilinks that render as broken.
+* **Handoff Note:** Governance only — no wiki content was reasoned over this pass beyond the index counts and one reference fix in `context-core.md`. All three gates 0 errors.
+
 ### [2026-08-08] - Session: four-article wipe-and-rewrite (bacharach, belmont circle, zach, alexis)
 * **Model:** claude-opus-5 / Claude Code
 * **Branch:** `claude/wiki-articles-rewrite-c94nom`

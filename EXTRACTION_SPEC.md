@@ -1,0 +1,322 @@
+# EXTRACTION SPEC — how deep to go into a source, and why deeper is the whole game
+
+Binding alongside `STRATEGY.md` (intent), `STYLE_GUIDE.md` (page format),
+`CONNECTIONS_SPEC.md` (edges) and `SYNTHESIS_SPEC.md` (altitude). Those four
+govern what you write. **This one governs what you find before you write.**
+
+It exists because the repository's limiting factor has changed. For the first
+year the constraint was coverage — there were not enough pages. That is no
+longer true: there are 438. The constraint now is **extraction depth**. Sources
+that have been "ingested" turn out, on a second reading, to contain three times
+what was taken from them the first time, and the findings left behind are not
+marginal — they are the ones that reorganise pages.
+
+## The argument: depth of mining and length of entries are one requirement
+
+The product of this system is not the facts. It is the **patterns found across
+facts that no single source states** (`STRATEGY.md`, "The core loop"). That has
+a mechanical consequence most passes miss:
+
+> A pattern can only be found among details that were written down.
+> Every detail dropped at extraction is a connection that can never be made,
+> by anyone, later — because the synthesis layer reasons from `wiki/`, not from
+> `raw/`.
+
+This is why "every trivial and potentially meaningless detail gets an entry" is
+not hoarding and not pedantry. A detail's value is not its own significance;
+it is the **surface area** it adds for the next climb to land on. The detail
+that looks meaningless in isolation is exactly the one that turns out to be the
+third instance of a shape — and it can only do that if it is on a page.
+
+Worked cases, all of them details that looked like nothing at the moment of
+extraction:
+
+- A street name in a stylised AI transcript — *"this house is on an adjacent lot
+  to the 155 virginia avenue house"* — sat unread for months. It collapses a
+  literary coincidence, a fifty-seven-year family seat and the geography that
+  produced the defining relationship of Dan's adult life into one strip of
+  ground. Nothing about it looked load-bearing.
+- A `PLAC` line in a genealogy export moved a house's documented history back a
+  decade and revealed the family's arrival there was a return from Florida —
+  which then rhymed with the *other* side of the tree returning from Seattle
+  within two years.
+- A private word used unglossed in a 2011 chat about an electricity bill turned
+  out to be the password on the last message of a relationship in 2025.
+- A four-word aside about a grandmother, chased into the genealogy, closed two
+  standing gaps and corrected the family tree.
+
+None of those was the point of the source it came from. All of them were
+findable in the first pass. The reason they were not found is that the pass
+stopped when it had what it came for.
+
+**So: length is not a style preference, and depth is not diligence theatre.
+They are the same instruction, and the instruction is that the corpus's
+analytical ceiling is set by how much got written down.**
+
+## What "read" means here
+
+A source is not read when you have searched it. It is read when it is
+**exhausted** — when a second careful pass by a fresh reader would find nothing
+material you did not.
+
+That standard is high on purpose, and it is achievable, because `raw/` is
+finite and immutable. Budget accordingly: reading one source to exhaustion
+beats skimming five. The pass that produces four findings from one file has
+done more for the wiki than the pass that produces one finding from four,
+because the four findings can be read against each other.
+
+Concretely, a source is exhausted when you can answer all of these:
+
+1. What does it say that no other source in the corpus says?
+2. What does it say that **contradicts** something already on a page?
+3. Which proper nouns does it contain that have no entry, and did you chase
+   each one?
+4. Which numbers does it contain, and did you re-derive them rather than copy
+   them?
+5. What is conspicuously **absent** from it that you expected?
+6. What in it looked mundane, and did you write that down anyway?
+
+If any answer is "I did not check," the source is not read. Say so in the log
+rather than claiming the ingest.
+
+## The seven moves
+
+These are the operations that produce depth. They are listed in the order they
+tend to pay off, not the order you must run them.
+
+### 1. Sweep wide before reading narrow
+
+Never start from a page's declared `sources:` list. That list records what a
+previous pass happened to open, not what exists — and on every page examined in
+the 2026-08-08 rewrite pass it was incomplete.
+
+```bash
+grep -ril "<subject>" raw/ | head -40     # and every alias, handle, nickname,
+                                          # maiden name, misspelling
+```
+
+Read what comes back, including the files you do not expect to be relevant. The
+Facebook address book is not where you look for a novelist, and the genealogy
+export is not where you look for a house's occupancy — which is exactly why
+those findings were still sitting there.
+
+### 2. Read whole records, never matching lines
+
+`grep` gives you the hit. The hit is almost never the finding; the finding is in
+the twenty messages around it, which supply the date, the interlocutor, the
+tone, and the reason it was said. A page built from matching lines reads like a
+concordance and misses the story it is standing in.
+
+This has a hard mechanical version too: several sources in `raw/` are
+multi-line-per-record, so line-based tools give you a *fragment* and call it a
+message. See "Traps by source type" below.
+
+### 3. Chase every proper noun outward
+
+Each name, street, business, band, book, handle and place in a source is a lead
+into the rest of the corpus. The capture or the transcript is the **prompt, not
+the boundary**.
+
+The highest-value findings in recent passes all came from this move: a brother's
+name into an obituary and a message thread, a street name into a genealogy
+export, a nickname into two contact exports, a book title into a reading log.
+Budget explicit time for it — it is where the delta lives, and it is the move
+that gets skipped when a pass is running long.
+
+Any proper noun with no entry is either a new page or a line in `BACKLOG.md`.
+Nothing gets silently dropped.
+
+### 4. Re-derive every number
+
+Counts, date ranges, direction splits, ratios and spans are the claims the
+operator checks, and they are the claims most often wrong. Copying a number
+forward from an existing page launders an error into a second place.
+
+Re-derive with the right instrument, not with `grep -c`. Writing this spec, a
+recount caught a per-day message figure in a page written the same day —
+eyeballed as 22, actually 28. The instrument catches you; the eyeball does not.
+
+And **read your matches before believing your counts.** A lexical pattern scored
+age self-reference at 3.82× baseline and nearly became a published finding about
+how Dan experiences time; it was catching *"I'm 99% sure"* — percentages, not
+ages. Corrected, the real figure was n=8 across eleven years, half of it ad
+boilerplate. Every count gets spot-read before it gets written.
+
+### 5. Compute the baseline, or don't state the rate
+
+The message corpus contains its own control: 106,629 outbound messages against
+110,944 inbound from 503 other people. **Any rate computed for Dan should be
+computed for the inbound baseline and reported as a ratio**, because most
+findings about how Dan writes are findings about how people text.
+
+The worked case: raw counts made Dan look strikingly un-introspective — *"the
+thing about me"* appears **zero** times outbound. Against the baseline it
+evaporates; it appears zero times inbound too, because SMS is a near-zero-
+introspection medium for everyone in it. What survived the control was sharper
+and real (graded numeric confidence at 22× baseline, which is now a page).
+
+A rate without a baseline is not a finding. It is a description of the medium.
+
+### 6. Check what is absent
+
+Absence is evidence, and it is the move nobody makes because there is nothing to
+grep for. You have to know what you expected.
+
+- A novel the entire page was built around was **not in the reading log at
+  all** — which broke the page's central claim.
+- A person's phone numbers were **not in the message dump** — which proved the
+  page was about somebody else.
+- A predicted urgency vocabulary was **absent from eleven years of messages** —
+  which did not falsify the axiom but established its jurisdiction, and that
+  negative result changed how an entire spine document should be read.
+
+Negative results get written down with the same weight as positive ones. State
+them on the page; they are the cheapest falsifiers the corpus produces.
+
+### 7. Keep the mundane
+
+The instinct to filter for significance at extraction time is the single most
+destructive habit available here, because significance is assigned later, by
+the climb, and the climb cannot reach what was filtered out.
+
+The 495-block chat archive that reorganised a person page is *almost entirely
+mundane* — rent, shifts, lunch orders, baby-talk, a lost pill on a dresser.
+That is precisely its value: it is the only **daily** record of those years,
+written while things were happening rather than reconstructed afterwards by one
+participant during an argument about something else. The dramatic sources were
+already read. The boring one held the register, the private vocabulary, the
+household logistics and the undramatised texture, and every one of those turned
+into something.
+
+When in doubt, write it down. The page budget is not a reason to drop a detail
+(`STYLE_GUIDE.md`, substance rule 4).
+
+## Source tiers — and the laundering failure
+
+`raw/` mixes two kinds of evidence and conflating them is how false claims get
+into the wiki wearing a citation.
+
+**Primary — records of what happened.** Message dumps and per-thread exports;
+the GEDCOM; `contacts.csv` and the Facebook address book; Goodreads, YouTube,
+Twitter and Facebook takeouts; the Gchat archive; photographs and documents.
+
+**AI-secondary — a model reasoning about the corpus.** The Gemini and ChatGPT
+sessions under `dox-md/`, `THE_DAN_FRANK_BOOTLOADER.md`, `THE_DAN_FRANK_MANUAL.md`,
+`CATO_*`, `DANSYNTH.txt`, the profile dumps.
+
+AI-secondary sources are not worthless — they are often the only place a memory,
+a self-assessment or an argument is recorded, and **Dan's own words inside a
+session are primary testimony**, including his corrections of the model, which
+are frequently the most valuable content in the file. What is *not* evidence is
+the model's factual assertions. These files confabulate specifics with total
+confidence: invented property-deed lookups, invented publication chronologies,
+probability estimates that wander four orders of magnitude between sessions.
+More than one has been sitting in the wiki as fact.
+
+When you keep an AI-secondary claim, **attribute it on the page as one.** Three
+words — "per the bootloader's own synthesis" — is the whole cost, and it lets
+the next reader know what they are standing on.
+
+`raw/self/context-core/CONTEXT_CORE_EXPANDED.md` sits above both tiers: curated,
+internally cross-checked, and explicit about its own gaps. Check it first for
+any self/mind/timeline question and treat other sources as supplementary or
+corrective to it, unless they carry a specific dated correction it lacks.
+
+## Traps by source type
+
+Each of these fails **silently** — it returns a plausible wrong answer rather
+than an error — and each has already produced a false claim on a page.
+
+**The iMessage dump** (`raw/self/dox-scan/all_imessages_complete_dump.txt`) — the
+only message source with trustworthy direction.
+- Records span multiple lines. A record starts `TS|Sent|handle|…`; everything to
+  the next header belongs to it. Line-based grep splits one message into several,
+  miscounts, and cannot show you a whole message.
+- Curly apostrophes outnumber straight ones **28,904 to 19,978** in Dan's sent
+  text. A pattern written `i'm` misses most of its own matches.
+- 2022 and 2026 are **absent entirely**. Nothing here speaks to the terminal
+  phase; that lives in `raw/self/message-csv/`.
+- Use `bin/mine-messages` (`stats`, `grep`, `timeline`, `battery`, `entities`).
+
+**`MASTER_MESSAGES_DB_DUMP.csv`** marks nearly everything `Received`. Any page
+built on it describes a one-sided thread that is not one-sided; the tell is a
+page reporting "all received (export artifact)". **Any claim about what Dan said
+must come from the dump.**
+
+**Contact identity** — `contacts.csv` (Google) merges records aggressively, so
+one card can carry numbers belonging to two people. The Facebook address book
+(`facebook/**/other_personal_information/your_address_books.html`) is unmerged
+and is the tiebreaker. Agreement across both is an identification; a single
+Google card is not. This trap put an entire page on the wrong human.
+
+**Facebook Messenger HTML** — each message is a `_3-95 _a6-g` div containing, in
+order, sender (`_a6-h _a6-i`), body (`_a6-p`), timestamp (`_a72d`). Newest
+first. The takeout also contains a duplicated nested tree; do not count a thread
+twice.
+
+**The GEDCOM** (`raw/self/ancestry/extracted/`) — a `PLAC` under `DEAT` is a
+burial place as often as a death place, and Ancestry attaches sources loosely,
+so a citation's publication date may not match the event date. Report both
+rather than picking one.
+
+**Goodreads / FAVS** — the shelving date is not the publication year, and shelf
+tags often contain the shelving year. Cross-check the `year published` column,
+and check whether a book the wiki claims was read appears in the export at all.
+
+**Activity exports** (Gemini, YouTube, search history) — tag soup with timestamps
+several fields away from the item title, so window around the match rather than
+grepping lines. Excellent for dating an interest precisely, and for catching a
+story that says "autoplay" when the record shows two related videos watched two
+minutes apart at 1 AM, which is a search.
+
+## What gets written down
+
+Extraction is not finished at the point of discovery. The output of a pass is
+**prose on pages**, and the density standard is the one in `STYLE_GUIDE.md`:
+longer, denser, consequence-ordered, with tables holding the numbers.
+
+- **Every proper noun gets an entry or a backlog line.** One page per entity
+  always wins over coverage — merge, never fork — but nothing is dropped
+  silently.
+- **Every finding gets written back** into every page it touches, as a typed
+  edge whose claim states the finding (`CONNECTIONS_SPEC.md`). A finding that
+  lives only where it was discovered will be re-derived from less evidence next
+  time.
+- **Every contradiction gets flagged, not resolved by preference.** Table the
+  evidence, say which governs and why.
+- **Every negative result gets stated.** "Checked X, it is not there" is a page
+  sentence, not a private observation.
+- **Nothing gets compressed to fit a budget.** If a source earns 20 KB of page,
+  it gets 20 KB of page.
+
+## Standing extraction backlog
+
+The live version is `BACKLOG.md`; this section names the structural gaps rather
+than the individual tasks, because they recur.
+
+The largest known under-mined source is **`raw/self/dox-scan/gmail_bodies.txt`**,
+the Gchat archive. One correspondent's slice of it (495 conversation blocks) was
+read in August 2026 and reorganised a page; the rest is unread. It is the only
+*daily-life* record of 2010–2013 anywhere in `raw/`, and daily-life records are
+exactly what the corpus is otherwise poorest in — everything else from those
+years is retrospective.
+
+Beyond it, the recurring shapes worth a dedicated pass:
+
+- **Behavioural rather than lexical mining.** What Dan *did* while unobserved —
+  latency, initiation, abandonment, escalation, time-of-day — has produced the
+  corpus's strongest findings (`contact-gini`, `message-circadian-latency`), and
+  lexical passes have hit diminishing returns.
+- **Corroboration sweeps against `OPEN.md`**, which lists every live
+  contradiction, gap and standing prediction. Many name a number or a date the
+  corpus could settle; work it top-down.
+- **Second passes over sources already marked ingested.** This is not
+  redundant work. The first pass does not know what to look for, because the
+  pages that would tell it what matters had not been written yet.
+
+## Logging an extraction pass
+
+Same bar as everything else: log the pass in `log.md` as findings rather than
+activity — what you found, what evidence, what changed. State what you checked
+and did **not** find. If you left a source partly read, say which part and why,
+so the next pass starts where you stopped instead of at the beginning.

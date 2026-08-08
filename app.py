@@ -36,7 +36,7 @@ UPLOADS = ROOT / "assets" / "uploads"
 PORT = 8477
 TEXT_EXT = {".md", ".txt", ".csv", ".json", ".html", ".rtf", ".yaml", ".yml"}
 IMG_EXT = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".avif"}
-META_EDITABLE = {"queue.md", "task.md", "contact-review.md", "LLM_HANDOFF.md"}
+META_EDITABLE = {"queue.md", "BACKLOG.md", "LLM_HANDOFF.md"}
 _vis_cache = {"checked": False, "public": None, "repo": None}
 
 
@@ -167,9 +167,10 @@ def tree():
                 "size": p.stat().st_size}
     wiki_files = [entry(p) for p in sorted(WIKI.rglob("*.md"))]
     meta = [entry(ROOT / n) for n in
-            ("index.md", "README.md", "STYLE_GUIDE.md", "INGEST_PROTOCOL.md",
-             "LLM_HANDOFF.md", "task.md", "queue.md", "log.md", "contact-review.md",
-             "CLAUDE.md") if (ROOT / n).exists()]
+            ("index.md", "README.md", "STRATEGY.md", "CLAUDE.md", "EXTRACTION_SPEC.md",
+             "STYLE_GUIDE.md", "CONNECTIONS_SPEC.md", "SYNTHESIS_SPEC.md",
+             "INGEST_PROTOCOL.md", "BACKLOG.md", "LLM_HANDOFF.md", "queue.md",
+             "log.md") if (ROOT / n).exists()]
     inbox = []
     if INBOX.exists():
         for p in sorted(INBOX.iterdir()):
@@ -1198,7 +1199,7 @@ function articleHtml(content, path, opts){
 }
 function isEditable(path){
   return /^wiki\/.+\.md$/.test(path) ||
-    /^(queue|task|contact-review|LLM_HANDOFF)\.md$/.test(path);
+    /^(queue|BACKLOG|LLM_HANDOFF)\.md$/.test(path);
 }
 function wireBody(el){
   el.querySelectorAll("a[data-wiki]").forEach(a=>{

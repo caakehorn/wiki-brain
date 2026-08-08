@@ -75,7 +75,7 @@ source with trustworthy direction. Pipe-delimited:
 YYYY-MM-DD HH:MM:SS|Sent|Received|handle|handle|text|attachment|service|4 numeric flags
 ```
 
-Three traps, all documented in `MESSAGE_MINING.md`, all of which have produced
+Three traps, all documented in `EXTRACTION_SPEC.md`, all of which have produced
 false measurements:
 
 1. **Records span multiple lines.** A record starts with a `TS|Sent|…` header;

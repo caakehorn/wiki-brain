@@ -11,6 +11,7 @@ simply listed.
 ## 2026-08-08 — 8 pages
 
 - **Session log:** rewrite | people, places | full re-research and rewrite of four entries (jacob-bacharach, 117-belmont-circle, zach-harshman→zach-clingan, alexis-armel)
+- **Session log:** govern | root | governance rewrite — six specs, one backlog, six documents retired
 
 | Page | Domain | What moved |
 |---|---|---|

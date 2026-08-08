@@ -72,7 +72,7 @@ contents are now in `raw/` where they belong.
 
 ## Re-synthesis queue (lint 2026-07-11: 22 oversized pages)
 
-All pages over the 8 KB budget, mostly mind/synthesis and self/chats — see lint-report.md.
+Superseded 2026-08-08: the page-size budget was raised to 40 KB because depth is the standing directive (STYLE_GUIDE.md substance rule 1). Size warnings are advisory and are not a backlog item.
 Worst offenders: ai-collaborative-analysis (21 KB, still contains v1 agent chatter in
 frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-history (14 KB).
 

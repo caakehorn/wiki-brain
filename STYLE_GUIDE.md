@@ -1,14 +1,108 @@
-# Style Guide — Personal Wiki
+# Style Guide — page format and the substance standard
 
-The binding rules for every page in `wiki/`. CLAUDE.md holds the operating
-process (ingest/query/climb/lint); this file holds the page format;
-`CONNECTIONS_SPEC.md` holds the edge format; `SYNTHESIS_SPEC.md` holds the
-altitude rules — how conclusions stack on conclusions; `STRATEGY.md` holds the
-purpose and the core loop the rest of them serve. When any two disagree, this
-file wins on formatting, CLAUDE.md wins on process, STRATEGY.md wins on intent.
-`bin/wiki-lint`, `bin/wiki-connect check` and `bin/wiki-climb check`
-mechanically enforce the vocabularies below — run all three before every
-commit.
+The binding rules for every page in `wiki/`.
+
+`STRATEGY.md` wins on intent, `CLAUDE.md` on process, `EXTRACTION_SPEC.md` on how deep to mine a source, `CONNECTIONS_SPEC.md` on edges, `SYNTHESIS_SPEC.md` on altitude, and **this file on format**. `bin/wiki-lint`, `bin/wiki-connect check` and `bin/wiki-climb check` mechanically enforce the vocabularies below — run all three before every commit.
+
+---
+
+# Part 1 — Substance
+
+These rules outrank everything in Part 2. A page is not good because it is tidy; it is good because it tells you what matters.
+
+The failure mode of this wiki's early drafts was **inventory masquerading as insight**: message counts and source citations up top, while the actual story — who this person is to Dan, what happened, why it mattered — was buried or missing.
+
+## 1. Write long. This is the standing directive.
+
+**The operator's standing instruction is longer, denser, more exhaustive entries than the current standard, and no page has yet been too long.** Short, choppy pages are the failure mode; a page should be as long as its subject earns, which is usually longer than the first draft.
+
+This is not a stylistic preference, and the reasoning matters because it changes what you do when you are unsure whether to include something:
+
+> The wiki's product is patterns found across pages. A pattern can only be found among details that were written down. Every detail dropped is a connection nobody can make later, because synthesis reasons from `wiki/`, not from `raw/`.
+
+So a detail's value is not its own apparent significance — significance gets assigned later, by the climb. Its value is the **surface area** it adds. The trivial-looking fact is exactly the one that turns out to be the third instance of a shape. **When in doubt, include it.**
+
+`bin/wiki-lint` warns at 40 KB. That warning is **advisory** — it means "check that navigation still works," never "shorten this." Never trim earned content to clear it, and never cite it as a reason to leave something out. Split a page only when a genuine navigational improvement results, not to hit a number.
+
+## 2. Every data point gets an entry
+
+Total coverage is the standing ambition: every story, friend, place, perspective, development and thought. Thinness is not a reason to withhold a page — a `status: stub` a later pass can deepen beats a fact that lives nowhere.
+
+The one boundary is **one page per entity**, which always wins over coverage. Before creating a people page, grep for the person under every known name, alias and handle. Merge, never fork. Resolve identity through two independent contact exports before writing, not from the page title (`EXTRACTION_SPEC.md`, "Traps by source type") — a page can be about the wrong human and read perfectly.
+
+## 3. The first-paragraph test
+
+After the title, the first paragraph must answer, in plain language, the question a stranger would ask. Corpus statistics come LAST, never first.
+
+- **Person** — Who is this to Dan, what is the current state of the relationship, and what one thing defines it?
+- **Event** — What happened, when, who was involved, and what changed because of it?
+- **Period** — What years, what defined daily life then, and how did it begin and end?
+- **Concept / synthesis** — State the thesis in one or two sentences, then prove it. Not "this page collects material about X."
+
+## 4. Consequence over chronology
+
+Order sections by importance, not by the order sources were ingested. If the Eli incident is why the relationship ended, it appears on page one of `annie-ulmer.md`, not as row 14 of a timeline table.
+
+## 5. Say the load-bearing thing plainly
+
+If the sources support "she gaslit him for months and the gaslighting hurt more than the affair," write that sentence. Do not scatter it across evidence fragments and hope the reader assembles it. Attribute contested claims to their source and flag genuine contradictions — but do not hedge documented conclusions into mush.
+
+## 6. An entry accumulates
+
+A page carries **two** things: what was known at ingestion, and what has since been *produced* by using it in analysis against the rest of the corpus. The second layer is the difference between a record and a live node.
+
+Concretely: when a synthesis concludes something about this page, that conclusion comes back here — as a typed edge whose claim states the finding (`CONNECTIONS_SPEC.md`), and, where it is load-bearing, as a sentence in the prose. A page used as evidence five times that shows no trace of it will be re-read from scratch the sixth time.
+
+This is why **the page grows rather than being rewritten**. Integrate new material where it belongs in the existing argument; do not append a dated "new information" section at the bottom. That is how pages rot into changelogs.
+
+## 7. Gaps and negative results are content
+
+If something important is unknown — why the 2021–22 corpus goes near-silent, where he'll live after the house sells — say so in a **Gaps** section rather than silently omitting the topic.
+
+Negative results belong on the page too, with the same weight as positive ones. "Checked the reading log; the novel is not in it" is a finding, and usually a cheap falsifier.
+
+## 8. Say what would prove you wrong
+
+Any page carrying an argued conclusion — every `page_type: synthesis`, most `concept` pages, the load-bearing reads on entity pages — should state what it predicts and what would falsify it. This is the opposite of hedging. *"The rule predicts this severance holds"* is a claim the corpus can settle. *"Dan's relationships are shaped by attachment"* is not.
+
+## 9. Corrections are flagged, never silent
+
+Contradictions get an inline `> **CONTRADICTION:**` blockquote; revisions get `> **REVISED [YYYY-MM-DD]:**`; fixed errors get `> **CORRECTED [YYYY-MM-DD]:**` with the old claim visible and the evidence that killed it.
+
+**When a prediction is settled, record the resolution — never edit the prediction away.** A conclusion that turned out wrong, corrected in place with its original visible, is the most valuable artifact this repository produces: it is where the model of Dan actually improves. The worked examples are `wiki/mind/synthesis/block-unblock-loop.md` (predicted the June 2026 severance would hold; falsified 52 days later; the rule is now wider and the failure is on the page) and the Closing Note on `wiki/people/annie-ulmer.md`. Quietly deleting a falsified claim destroys knowledge; flagging it creates some.
+
+The same applies to the wiki's own errors. A rewrite that fixes a false claim says so, because otherwise the next reader re-derives the error from the same bad source.
+
+## 10. Height is content too
+
+Where the material you are holding is the third or fourth instance of a shape seen elsewhere, say so on the page and name the shape. If there is no page above it yet, that is a CLIMB candidate, not a footnote (`SYNTHESIS_SPEC.md`). The wiki's product is not the facts; it is what the facts turn out to be instances of.
+
+## Exemplars
+
+Before rewriting any page, read the exemplar of the same `page_type` and match its shape.
+
+| Kind | Exemplar |
+|---|---|
+| Person (major) | `wiki/people/annie-ulmer.md`, `wiki/people/suzanne-frank.md` |
+| Person (depth standard, 2026-08-08) | `wiki/people/alexis-armel.md` |
+| Person (correction-led) | `wiki/people/zach-clingan.md` |
+| Event | `wiki/timeline/events/eli-incident.md`, `wiki/timeline/events/the-fall-of-fran.md` |
+| Place | `wiki/places/117-belmont-circle.md` |
+| Synthesis | `wiki/mind/synthesis/supply-network.md`, `block-unblock-loop.md`, `estate-money-spine.md` |
+
+---
+
+# Part 2 — Format
+
+## Prose rules
+
+1. **Complete sentences.** No dossier shorthand, no fragment chains. A page must read as prose to a human opening it cold.
+2. **Tables hold numbers, prose holds meaning.** Never narrate a table's contents in the surrounding text.
+3. **Primary-source voice belongs on the page.** Verbatim first-person material from the subject — his own accounts, essays, correspondence — is an exception to the usual "keep verbatim in raw/" rule: when his wording carries the meaning, it goes on the page as a block quote rather than being paraphrased away. Other sourced verbatim still prefers `raw/` with a short citation.
+4. **Attribute AI-generated material as such.** The Gemini/bootloader/CATO/DANSYNTH files are a model reasoning about the corpus, not a record of it. Dan's own words inside a session are primary testimony; the model's factual assertions are not evidence. Three words — "per the bootloader's own synthesis" — is the whole cost.
+5. **Dates are absolute.** Convert relative time at write time; flag uncertainty as `(~2019?)`.
+6. **No agent chatter anywhere.** No session notes, ingest logs, temp paths, model names, or "this pass did X" — that history lives in `log.md` and the git log.
+7. **Indexes are navigation only** — links plus one-line summaries. Index budgets stay tight (8 KB, master index 5 KB) precisely because pages do not.
 
 ## Frontmatter
 
@@ -22,15 +116,12 @@ status: active | stable | stub | closed | archived
 date_created: YYYY-MM-DD
 date_modified: YYYY-MM-DD
 sources: []    # real raw/ paths that exist on disk — T0 evidence
-related: []    # wiki page paths (no .md extension needed) — DEPRECATED, use connections:
 ---
 ```
 
-**`sources:` vs `synthesizes:` — keep the two straight.** `sources:` is for
-paths under `raw/` and nothing else. `synthesizes:` is for wiki pages this
-page *reasons from* — the premises it stands on. A `wiki/` path inside
-`sources:`, or a `raw/` path inside `synthesizes:`, is a `bin/wiki-climb
-check` error.
+`related: []` is **deprecated** — use `connections:` (`CONNECTIONS_SPEC.md`). It remains legal on untouched pages; new pages must not use it.
+
+**`sources:` vs `synthesizes:` — keep the two straight.** `sources:` is for paths under `raw/` and nothing else. `synthesizes:` is for wiki pages this page *reasons from* — the premises it stands on. A `wiki/` path inside `sources:`, or a `raw/` path inside `synthesizes:`, is a `bin/wiki-climb check` error.
 
 ```yaml
 synthesizes:                  # wiki pages this page reasons FROM
@@ -38,100 +129,45 @@ synthesizes:                  # wiki pages this page reasons FROM
   - wiki/people/tom
 ```
 
-Declaring `synthesizes:` takes on an obligation: when one of those pages is
-modified after this one, `bin/wiki-climb check` marks this page **stale**,
-and clearing it means re-reading what changed and deciding whether the
-conclusion survives — not bumping `date_modified`. Full rules, the altitude
-ladder, and the CLIMB operation: `SYNTHESIS_SPEC.md`.
+Declaring `synthesizes:` takes on an obligation: when one of those pages is modified after this one, `bin/wiki-climb check` marks this page **stale**, and clearing it means re-reading what changed and deciding whether the conclusion survives — recorded on the page as a `> **RE-CHECKED [date]:**` block. Never by bumping `date_modified`. Full rules in `SYNTHESIS_SPEC.md`.
 
-Optional fields (adopted 2026-07-11 — use when they add value, never
-invent new ones):
+### Optional fields
+
+Use when they add value; never invent new ones.
 
 ```yaml
 title: "Human Title"        # when the filename isn't the natural title
 aliases: ["nickname", ...]  # alternate names/handles for search & dedupe
-tags: [topic, topic]        # cross-domain topical hooks
+tags: [topic, topic]        # 2–5, most relevant first, from the closed set below
 importance: critical | high | normal   # triage for LLM context budgets
 knowledge: earned | derived | mixed    # is this regenerable from raw/?
+date_range_start / date_range_end: YYYY-MM-DD
 changelog:                  # only on critical pages; newest first
   - date: YYYY-MM-DD
     note: "one line"
-infobox:                    # Wikipedia-style right-hand box; rendered only if present
-  name: "Display Name"      # header of the box
-  # any of: born, born_date, status, type, aliases, occupation, known_for,
-  # relationship, partner, parents, location, duration, outcome, discovered,
-  # closed, diagnosis, medication, ideology, affiliation, period, notes
-  # values may contain [[wikilinks]]; they render as real links
-image: self                 # optional: override the auto illustration
-                             # (domain/type default). Name of assets/img/<name>.svg
-                             # (no real photographs are used anywhere in the wiki)
----
-
-### People infobox — mandatory classifier schema
-
-Every `domain: people` page MUST carry an `infobox:` block with the classifier
-fields below. The box exists so the corpus is searchable and narrowable later
-(filter "all NYC female dealers," "all Uniontown family," etc.). **Set a field
-only when the page body or raw gives a strong signal. Omit (do not guess) when
-unknown.** `unknown` is a valid explicit value for `sex` / `location` /
-`relationship_to_dan` when the corpus is silent.
-
-```yaml
-infobox:
-  name: "Display Name"
-  dob: 1988-11-01          # ISO YYYY-MM-DD; OMIT if not in corpus
-  sex: female | male | unknown     # recorded/observed sex per corpus (pronoun/relationship context), not self-identified gender; OMIT if no signal
-  location: uniontown | nyc | remote | unknown   # where they primarily sit relative to Dan
-  relationship_to_dan: partner | ex-partner | friend | family | dealer | coworker | contact | acquaintance | unknown
-  role: "cell phone store manager"   # occupation / functional role; OMIT if not stated
-  first_contact: 2018-09-02          # use existing date_range_start when present
-  handles: ["+172****5006", "@handle"]   # masked phones / handles found in body or raw
-  known_for: "the Jan 27 2019 'dead in 15 years' warning"   # one-line hook
+image: self                 # override the auto illustration; assets/img/<name>.svg
+                            # (no real photographs are used anywhere in the wiki)
 ```
 
-Classifier semantics:
+### `status`
 
-- **`sex`** — biological/recorded sex as observable in the corpus (pronoun
-  usage, relationship framing). Almost always inferable. Use `unknown` only
-  when the corpus gives no gendered signal. This is NOT self-identified gender
-  identity, which the corpus rarely records.
-- **`location`** — `uniontown` (incl. Brownsville/Perry/Uniontown-area),
-  `nyc` (New York City / Brooklyn / East Village), `remote` (contact only, no
-  physical proximity), or `unknown`.
-- **`relationship_to_dan`** — controlled vocabulary, the highest-value
-  classifier for a wiki *about Dan*: `partner` (current), `ex-partner`
-  (former romantic), `friend`, `family` (blood or by-marriage), `dealer`
-  (drug source), `coworker`, `contact` (acquaintance with no deeper tie),
-  `acquaintance`, or `unknown`.
-- **`first_contact`** — defaults to the page's existing `date_range_start`.
-- **`handles`** — masked phone numbers (`+1**…`) and platform handles pulled
-  from the body or raw; never full numbers.
+`active` = live situation, expect updates · `stable` = accurate, settled · `stub` = placeholder awaiting real content · `closed` = formally ended · `archived` = pinned artifact in an `archive/` dir, never updated, exempt from budgets.
 
-`bin/wiki-lint` enforces: every `domain: people` page must have an `infobox:`
-block containing at least `name` and `relationship_to_dan`. Pages in
-`wiki/people/contacts/` (quarantine stubs) are exempt from the lint rule but
-should still get `name` + `relationship_to_dan: contact` when promoted.
+Default for a finished page is **stable**, not archived. **`closed` means a thing has formally ended, not that the page feels finished** — the July 2026 reopening of `annie-ulmer.md`, marked closed six weeks earlier, is the standing cautionary example.
 
-**`knowledge`** marks what kind of understanding a page holds, so a future
-agent knows whether re-deriving it from `raw/` would lose anything (see
-CLAUDE.md, "Why this is a second brain, not a RAG"):
+### `knowledge`
 
-- `derived` — mechanical compilation (counts, catalogs, timelines built from
-  slugs). Safely regenerable from `raw/`.
-- `earned` — a conclusion reasoned to once, not present literally in `raw/` (a
-  thesis, a psychological read, a cross-referenced judgment). **Revise these,
-  never regenerate them from scratch.** `page_type: synthesis` and most
-  `concept` pages are earned.
-- `mixed` — both (most people/event pages: derived tables carrying an earned
-  read). Treat the earned prose as earned.
+Marks what kind of understanding a page holds, so a future agent knows whether re-deriving it from `raw/` would lose anything:
 
-The field is optional; an absent value means `mixed`. `bin/wiki-lint` rejects
-any other value.
+- **`derived`** — mechanical compilation (counts, catalogs, timelines built from slugs). Safely regenerable.
+- **`earned`** — a conclusion reasoned to once, not present literally in `raw/`. **Revise these, never regenerate them from scratch.** `page_type: synthesis` and most `concept` pages are earned.
+- **`mixed`** — both (most people/event pages: derived tables carrying an earned read). Treat the earned prose as earned.
 
-**`tags`** — controlled vocabulary, applied wiki-wide 2026-07-14. Reuse
-these rather than inventing new ones; if a page genuinely needs a tag
-outside this list, add the tag to this list too so it stays a closed set.
-2-5 tags per page, most-relevant first.
+Absent means `mixed`. `bin/wiki-lint` rejects any other value.
+
+### `tags` — closed set
+
+Reuse these rather than inventing new ones. If a page genuinely needs a tag outside this list, add it to **both** this list and `VALID_TAGS` in `bin/wiki-lint`, so the set stays closed.
 
 ```
 relationships, trauma-bond, infidelity, attachment, family,
@@ -142,167 +178,44 @@ forensic-analysis, ai-collaboration, digital-footprint,
 uniontown-era, nyc-era, pets
 ```
 
-There is **no** `author-stub` / `artist-stub` / other invented page_type: a
-stub is `page_type: entity` (or the appropriate type) with `status: stub`.
+There is **no** `author-stub` / `artist-stub` or other invented `page_type`: a stub is `page_type: entity` (or the appropriate type) with `status: stub`.
 
-## Status vocabulary
+## The people infobox — mandatory classifier schema
 
-`active` = live situation, expect updates · `stable` = accurate, settled ·
-`stub` = placeholder awaiting real content · `closed` = formally ended ·
-`archived` = pinned artifact in an `archive/` dir, never updated, exempt
-from budgets. Default for a finished page is `stable`, not `archived`.
+Every `domain: people` page MUST carry an `infobox:` block with at least `name` and `relationship_to_dan`; `bin/wiki-lint` errors otherwise. The box exists so the corpus can be narrowed later ("all NYC female dealers," "all Uniontown family").
 
-## Substance rules (these outrank everything below)
+**Set a field only when the page body or raw gives a strong signal. Omit — do not guess — when unknown.** `unknown` is a valid explicit value for `sex`, `location` and `relationship_to_dan`.
 
-A page is not good because it is tidy; it is good because it tells you what
-matters. The failure mode of this wiki's early drafts was **inventory
-masquerading as insight**: message counts and source citations up top,
-while the actual story — who this person is to Dan, what actually happened,
-why it mattered — was buried or missing.
+```yaml
+infobox:
+  name: "Display Name"
+  dob: 1988-11-01                  # ISO; omit if not in corpus
+  sex: female | male | unknown     # recorded/observed sex per corpus, not self-identified gender
+  location: uniontown | nyc | remote | unknown
+  relationship_to_dan: partner | ex-partner | friend | family | dealer | coworker | contact | acquaintance | unknown
+  role: "cell phone store manager" # occupation / functional role; omit if not stated
+  first_contact: 2018-09-02        # defaults to date_range_start
+  handles: ["+172****5006", "@handle"]   # MASKED phones / handles, never full numbers
+  known_for: "the Jan 27 2019 'dead in 15 years' warning"   # one-line hook
+```
 
-**The first paragraph test.** After the title, the first paragraph must
-answer, in plain language, the question a stranger would ask:
+- **`location`** — `uniontown` (incl. Brownsville/Perry/Uniontown-area), `nyc` (New York City / Brooklyn / East Village), `remote` (contact only, no physical proximity), or `unknown`.
+- **`relationship_to_dan`** — the highest-value classifier for a wiki *about Dan*. `partner` (current), `ex-partner` (former romantic), `friend`, `family` (blood or by marriage), `dealer` (drug source), `coworker`, `contact` (acquaintance with no deeper tie), `acquaintance`, `unknown`.
 
-- **Person:** Who is this to Dan, what is the current state of the
-  relationship, and what one thing defines it? (Corpus statistics come
-  LAST, never first.)
-- **Event:** What happened, when, who was involved, and what changed
-  because of it?
-- **Period:** What years, what defined daily life then, and how did it
-  begin and end?
-- **Concept/synthesis:** State the thesis in one or two sentences, then
-  prove it. Not "this page collects material about X."
-
-**Consequence over chronology.** Order sections by importance, not by the
-order sources were ingested. If the Eli incident is why the Annie
-relationship ended, it appears on page one of annie.md, not as row 14 of a
-timeline table.
-
-**Say the load-bearing thing plainly.** If the sources support "she
-gaslit him for months and the gaslighting hurt more than the affair,"
-write that sentence. Do not scatter it across evidence fragments and hope
-the reader assembles it. Attribute contested claims to their source; flag
-genuine contradictions; but do not hedge documented conclusions into mush.
-
-**Gaps are content.** If something important is unknown (why the 2021–22
-corpus goes near-silent, where he'll live after the house sells), say so
-in a **Gaps** line rather than silently omitting the topic.
-
-**Height is content too.** A page that only reports is doing half the job.
-Where the material you are holding is the third or fourth instance of a
-shape you have seen elsewhere in the wiki, say so on the page and name the
-shape — and if there is no page above it yet, that is a CLIMB candidate, not
-a footnote (`SYNTHESIS_SPEC.md`). The wiki's product is not the facts; it is
-what the facts turn out to be instances of.
-
-**An entry accumulates.** Per `STRATEGY.md`, a page carries **two** things: what
-was known about it at ingestion, and what has since been *produced* by using it
-in analysis against the rest of the corpus. The second layer is not optional
-decoration — it is the difference between a record and a live node. Concretely,
-when a synthesis concludes something about this page, that conclusion comes back
-here: as a typed edge whose claim states the finding (`CONNECTIONS_SPEC.md`, "The
-inverse claim carries the finding") and, where it is load-bearing, as a sentence
-in the prose. A page that has been used as evidence five times and shows no trace
-of it is a page that will be re-read from scratch the sixth time.
-
-This is why **the page grows rather than being rewritten**. Integrate new
-material where it belongs in the existing argument; do not append a dated "new
-information" section at the bottom. That is how pages rot into changelogs.
-
-**Every data point gets an entry.** The standing ambition is total coverage —
-every story, friend, place, perspective, development and thought. Thinness is not
-a reason to withhold a page; a stub with `status: stub` that a later pass can
-deepen beats a fact that lives nowhere. Two boundaries on this, and they are the
-only two: `wiki/people/contacts/` remains **quarantine** for auto-generated
-stubs (they are not entries yet — they are unverified handles awaiting
-promotion, per Linking below), and one page per entity always wins over coverage
-— when a "new" data point belongs to an existing entity, it is merged into that
-page, never forked into a second one.
-
-**Say what would prove you wrong.** Any page carrying an argued conclusion —
-every `page_type: synthesis`, most `concept` pages, the load-bearing reads on
-entity pages — should state, in the body, what it predicts and what would
-falsify it. This is not hedging; it is the opposite. "The rule predicts this
-severance holds" is a claim the corpus can settle. "Dan's relationships are
-shaped by attachment" is not.
-
-**When a prediction is settled, record the resolution — never edit the
-prediction away.** A conclusion that turns out wrong, corrected in place with
-its original visible, is the most valuable artifact this repository
-produces: it is where the model of Dan actually improves. The worked
-examples are `wiki/mind/synthesis/block-unblock-loop.md` (predicted the June
-2026 severance could hold; falsified 52 days later; the rule is now wider and
-the failure is on the page) and the Closing Note on
-`wiki/people/annie-ulmer.md`. Quietly deleting a falsified claim destroys
-knowledge; flagging it creates some.
-
-**Exemplars:** `wiki/people/annie.md`, `wiki/people/suz.md`, and
-`wiki/timeline/events/eli-incident.md` show the standard. Before rewriting
-any page, read the exemplar of the same page_type and match its shape:
-lead paragraph that answers the stranger's question, consequence-ordered
-sections, tables holding only numbers, a Gaps section naming the unknowns.
-
-## Prose rules
-
-1. **Complete sentences.** No dossier shorthand, no fragment chains. A page
-   must read as prose to a human opening it cold.
-2. **Tables hold numbers, prose holds meaning.** Never narrate a table's
-   contents in the surrounding text.
-3. **Primary-source voice belongs on the page.** Verbatim first-person
-   material from a subject (their own accounts, essays, correspondence)
-   is an exception to the old "quote ≤1 sentence / keep verbatim in raw/"
-   rule: when the subject's own wording carries the meaning, it goes on the
-   page as a block quote, not paraphrased away. Other sourced verbatim
-   still prefers raw/ with short citation, but a subject's own voice is
-   primary-source evidence and may be quoted at length.
-4. **Page budget is a soft floor, not a hard ceiling.** Articles should be
-   as long as the subject earns. Short, choppy pages are a failure mode;
-   prefer dense, narrative, fully-developed prose. Split only when a single
-   page would become unwieldy for navigation — not to hit an arbitrary size.
-   Settled 2026-07-18: `bin/wiki-lint` size warnings are **advisory** on
-   hub pages (importance: critical), junction/synthesis pages, and the
-   exemplars — never trim earned content to clear a warning, and never
-   cite the warning count as a reason to shorten. The operator's standing
-   directive is LONGER entries than the current standard.
-5. **No agent chatter anywhere.** No session notes, ingest logs, "/tmp/"
-   paths, model names, or "this pass did X" — that history lives in log.md
-   and the git log only.
-6. **One page per entity.** Grep for every known name/handle/alias before
-   creating a people page. Merge, never fork.
-7. **Contradictions are flagged, not overwritten:** inline
-   `> **CONTRADICTION:** ...` blockquote. Corrections get
-   `> **REVISED [YYYY-MM-DD]:** ...`.
-8. **Dates are absolute.** Convert relative time at write time; flag
-   uncertainty as `(~2019?)`.
+Non-people pages may carry a freer `infobox:` (any of: born, status, type, aliases, occupation, known_for, relationship, partner, parents, location, duration, outcome, discovered, closed, diagnosis, medication, ideology, affiliation, period, notes). Values may contain `[[wikilinks]]`; they render as real links.
 
 ## LLM Quick Brief
 
-Pages marked `importance: critical` should open (after the intro paragraph)
-with an `## LLM Quick Brief` section: one dense paragraph written for
-direct context injection — who/what this page covers and the load-bearing
-facts, self-contained, with wikilinks. Keep it under 200 words. Do not add
-briefs to ordinary pages.
+Pages marked `importance: critical` should open, after the intro paragraph, with an `## LLM Quick Brief` section: one dense paragraph written for direct context injection — who/what this page covers and the load-bearing facts, self-contained, with wikilinks, under 200 words. Do not add briefs to ordinary pages.
 
 ## Linking
 
-- Wikilinks use full repo-relative paths without extension:
-  `[[wiki/people/annie]]`. Directory links (`[[wiki/people/contacts/]]`)
-  are allowed when the directory exists.
-- Every non-index page must be reachable from its domain index (the lint
-  orphan check enforces this).
-- `wiki/people/contacts/` is quarantine: auto-generated stubs, never linked
-  from prose. Promote a contact to a real page (move it out of contacts/)
-  once it's mentioned 3+ times in prose or the user asks. This is the one
-  place "every data point gets an entry" is deliberately held back — a
-  machine-generated handle is not yet a data point about a person, and
-  promoting it on volume alone is how the graph filled with contact-xxxxxx
-  noise the first time. Promotion is the act that turns it into an entry.
+- Wikilinks use full repo-relative paths without extension: `[[wiki/people/annie-ulmer]]`. Piped labels are fine: `[[wiki/people/annie-ulmer|Annie]]`.
+- Every non-index page must be reachable from its domain index (the lint orphan check enforces this).
+- `## Related` / `## See also` footers are **banned**. If a link deserves to exist it deserves a typed edge and a claim; if it cannot earn a claim, delete it.
 
-## Capture-note handling (ingest)
+## Capture-note handling
 
-Captured notes may carry `targets: [wiki/...]` (from @-mentions) — apply
-the note to those pages first. Square-bracket lines like
-`[RENAME PAGE TO x]` are **operator instructions to the ingesting model**,
-not content: execute them (honoring all rules above, e.g. link updates on
-rename), and do not copy the bracket text into any page. The note still
-gets the full synthesis treatment and is filed into raw/ afterward.
+Captured notes may carry `targets: [wiki/...]` (from @-mentions) — apply the note to those pages first. Square-bracket lines like `[RENAME PAGE TO x]` are **operator instructions to the ingesting model**, not content: execute them (honoring all rules above, e.g. link updates on rename), and never copy the bracket text into a page.
+
+A capture is **testimony, not fact**. Hand-typed memories are the only place some events exist, and the dates attached to them are the least reliable part. Check every date, age and count against the corpus before writing prose; when they disagree, table the evidence and say which governs rather than silently picking one. The standing example is the brief-#4 batch, which dated the Fran sequence to 2017 against seven independent records putting it in 2018.

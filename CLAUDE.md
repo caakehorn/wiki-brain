@@ -1,119 +1,29 @@
 # Personal Wiki — second brain
 
-This repository is a custom built wiki system which aims to be as exhaustive and detailed as possible  
-in detailing everything about its creator, Dan Frank. 
+A custom wiki system that aims to be as exhaustive and detailed as possible about its creator, Dan Frank: biography, history, cognitive traits, ideology, tendencies, and every other datapoint that points back to the real person. It fills knowledge gaps as they are found and updates as time passes.
 
-It seeks to define and provide complete context for his life - biography, history, cognitive traits, ideology, tendencies and all other datapoints which point back to the real world individual. 
+**This file governs process — the operations and how to run them.** Read it with the rest of the governing set. When any two disagree, the "wins on" column decides.
 
-As an ongoing project, this wiki strives to gradually fill in any and all knowledge gaps about Dan, as well as continuously update with realtime information as time passes.  
+| File | Governs | Wins on |
+|---|---|---|
+| `STRATEGY.md` | what we're doing and why; the core loop | intent |
+| **CLAUDE.md** (this file) | the operations | process |
+| `EXTRACTION_SPEC.md` | how deep to mine a source before writing | depth |
+| `STYLE_GUIDE.md` | page format and the substance standard | format |
+| `CONNECTIONS_SPEC.md` | typed edges and their claims | edges |
+| `SYNTHESIS_SPEC.md` | altitude — how conclusions stack | climbing |
 
-**Every data point gets an entry.** Every story, every friend, every place,
-every perspective, every development, every thought. Coverage is not a
-nice-to-have that yields to tidiness — a thing that happened and has no entry
-is a thing the brain cannot reason with. When in doubt, write the entry.
+`BACKLOG.md` = standing work. `LLM_HANDOFF.md` = the exact resume point.
 
-**And an entry is never just a record.** Each one carries two things: everything
-known about it at the moment it was ingested, and everything later *produced* by
-using it in analysis alongside the rest of the corpus. A page is a live node that
-accumulates conclusions drawn from reading it against everything else — see
-"The core loop" below, which is the mechanism the rest of this file exists to
-serve. Governing document: `STRATEGY.md`.
-## Why this is a second brain, not a RAG
+## Start and end every session here
 
-A retrieval system keeps the sources and re-derives every answer from them on
-demand; it never learns, and yesterday's reasoning is thrown away. This wiki is
-the opposite. You read a source **once**, reason out what it *means*, and write
-that understanding into `wiki/`. From then on you reason **from** the wiki, not
-from `raw/`. Knowledge compounds: today's synthesized conclusion is tomorrow's
-premise, and the wiki grows to reflect what has actually been read and
-understood — a record of a shared journey through the data, not an index of it.
+**At the start of every session, read `LLM_HANDOFF.md`** to understand current state, recent changes and immediate priorities. **When you end, update it** — what you accomplished and the exact focus for the next model. This is what makes the work continuous across sessions and models.
 
-This has a hard consequence: the wiki is **not** a disposable cache of `raw/`.
-Two kinds of content live here.
+## The three things that matter most
 
-- **Derived** content — message counts, discographies reconstructed from
-  slugs, anything mechanical — is safely regenerable from `raw/`.
-- **Earned** content — a thesis, a psychological read, a conclusion cross-
-  referenced from many sources ("the gaslighting outweighed the affair") — is
-  the product of reasoning done once. `raw/` does not contain it literally, and
-  re-running the pipeline may not reproduce it. This is the actual point of the
-  system.
-
-So **never regenerate an earned page from scratch — revise it.** Trust the
-synthesis already on disk and build on it; when new raw contradicts it, apply
-the contradiction/revision rules (flag and correct), you do not bulldoze it and
-re-derive from zero. Pages may declare which kind they are with an optional
-`knowledge: earned | derived | mixed` frontmatter field (see STYLE_GUIDE.md).
-
-### The core loop (STRATEGY.md, refined 2026-08-01)
-
-The system runs one repeating cycle, and every operation below is a step in it:
-
-**Story → Entry → Analysis → Synthesized finding → Saved back to every entry it
-touches → Repeat.**
-
-1. A memory, fact, or document is captured once and filed immutably into `raw/`.
-2. It is read from `raw/` exactly once, and that understanding is written into a
-   durable `wiki/` page — a ground-floor entry. *(INGEST)*
-3. Once enough ground entries exist, they are read **across** each other — not
-   one at a time — looking for a pattern no single entry states but that several
-   together prove. *(CLIMB, step 2)*
-4. That pattern becomes its own finding: a synthesis, stated as a falsifiable
-   claim, not a vague observation. *(CLIMB, steps 3–4)*
-5. **The finding is written back into every ground entry it draws from**, via a
-   typed connection carrying an argued claim — so the insight does not have to be
-   re-derived the next time someone lands on that entry. *(CLIMB, step 5 — the
-   step most often done partially, and the one that makes the difference)*
-6. The finding itself becomes a premise for the next round: junctions are read
-   across each other to find doctrine, exactly as ground entries were read across
-   each other to find junctions.
-
-This is **amortized insight**. Analysis is expensive to do well, so it is done
-once, saved at every point where it is relevant, and every future pass starts
-from a higher floor instead of re-deriving what is already known. A finding that
-exists only on the synthesis page has been done *once*; a finding written back
-into its members has been done *permanently*.
-
-### The wiki is an input to itself (adopted 2026-07-26)
-
-Reading raw once and writing it down is only the first half. The second half
-is that **finished pages are premises**: a page may reason from other pages
-rather than from `raw/`, declare that with `synthesizes:`, and become in turn
-a premise for something above it. Ground pages carry entities and events;
-junction pages carry the pattern across three or more of them; doctrine
-carries the rule across junctions. That ladder is the product. A repository
-of accurate ground pages with nothing above them is an archive, not a brain.
-
-Two obligations come with it, both mechanical:
-
-- **Premises that move make dependents stale.** If a page declares
-  `synthesizes: [A]` and A is modified later, `bin/wiki-climb check` flags
-  it. Clearing the flag means re-reading what changed and deciding whether
-  the conclusion survives — revise, or record the falsification. Bumping
-  `date_modified` to silence it is the one prohibited move in the system.
-- **Conclusions must be falsifiable, and their failures are kept.** Pages
-  state what they predict; when the corpus settles a prediction the
-  resolution goes *on the page*, wrong ones included. This is the mechanism
-  by which the wiki generates knowledge that exists in no source: a rule,
-  broken by a case it did not anticipate, comes back wider.
-
-Governing document: **`SYNTHESIS_SPEC.md`** (repo root), mandatory reading
-alongside this file, `STYLE_GUIDE.md` and `CONNECTIONS_SPEC.md`.
-
-## Connections & Strategy (adopted 2026-07-17)
-**`CONNECTIONS_SPEC.md`, `SYNTHESIS_SPEC.md` and `STRATEGY.md` (repo root)
-are mandatory reading** alongside this file. Connections between pages are TYPED EDGES with argued
-claims (`connections:` frontmatter); bare `related:` lists and `## Related`
-footers are deprecated and being retired page-by-page. When you touch any
-page, write or refresh its `connections:` block per the spec, add inverse
-edges on target pages, and run `bin/wiki-connect check` and `bin/wiki-climb check` next to
-`bin/wiki-lint` before committing. `bin/wiki-connect candidates` maintains
-`connection-queue.md`, the mined backlog of evidenced-but-unmade
-connections; `bin/wiki-climb candidates` maintains `synthesis-queue.md`, the
-backlog of clusters with no page above them.
-
-## LLM Handoff & Coordination
-**CRITICAL:** At the start of every session or turn, you MUST read `LLM_HANDOFF.md` in the root directory to understand the current project state, recent changes, and immediate priorities. When you end your session, you MUST update `LLM_HANDOFF.md` by logging what you accomplished and setting the focus for the next model. This ensures seamless continuity across different models and sessions.
+1. **Depth is the binding constraint.** There are 438 pages; there are not enough *details on them*. A pattern can only be found among details that were written down, and synthesis reasons from `wiki/`, not `raw/` — so anything dropped at extraction is a connection nobody can ever make. Read sources to exhaustion, write long, keep the mundane. `EXTRACTION_SPEC.md`.
+2. **Findings get written back.** A conclusion that spans several pages is written into *each* of them as a typed edge whose claim states the finding — not left on one page for the others to rediscover. This is `STRATEGY.md`'s core loop, step 5, and the step most often done partially.
+3. **Never clear a stale warning by bumping a date.** Re-read the premise that moved, decide whether the conclusion survives, record the decision. This is the one move that corrupts the system quietly.
 
 ## Architecture — plain files, one direction of flow
 
@@ -123,213 +33,94 @@ typed &     immutable   compiled
 uploaded    source      knowledge
 ```
 
-- **inbox/** — staging. The human adds material here via `bin/capture` (typed
-  facts/stories or copied files) or by dropping files in manually. On ingest,
-  MOVE the file to the right `raw/` subdirectory, then synthesize. Never leave
-  a file in both inbox/ and raw/.
-- **raw/** — immutable source archive, organized `raw/<domain>/<collection>/`.
-  Never modify or delete anything here except when filing from inbox/.
-  **`raw/self/context-core/CONTEXT_CORE_EXPANDED.md` is the primary
-  authoritative source for facts about Dan** — biography, timeline,
-  psychology, relationships, ideology. It is curated and internally
-  cross-checked (flags its own gaps and unresolved items explicitly,
-  e.g. "do not speculate"), unlike the bulk chat/dossier exports, which
-  are raw and sometimes self-contradictory. When starting work on any
-  self/mind/timeline topic, check this file first before searching the
-  wider raw/ corpus — its wiki counterpart is [[wiki/self/context-core]].
-  Treat other raw sources as supplementary or corrective to it, not
-  co-equal, unless they carry a specific dated correction it lacks.
-- **wiki/** — the compiled product: accumulated understanding, not a cache of
-  raw/ (see the second-brain principle above — earned pages are not
-  regenerable). You own every byte. Domains: `self` (identity, core facts,
-  digital footprint), `timeline`
-  (periods & events), `people` (+ `people/contacts/` quarantine: auto-generated
-  stubs, never linked from prose), `mind` (beliefs, ideology, psychology,
-  values), `work`, `interests` (music production, favorites, taste),
-  `health`, `places`, `legal` (disputes, property matters). Add a domain only
-  when several pages clearly don't fit an existing one. `wiki/**/archive/`
-  holds pinned oversized artifacts (status `archived`) — exempt from budgets,
-  never updated.
-- **exports/** — output of `bin/export-corpus`; never hand-edit, gitignored.
-- **Meta files** (root): `index.md` master navigation, `log.md` append-only
-  operation log, `queue.md` pending-ingest ledger, `connection-queue.md`
-  mined edge backlog, `synthesis-queue.md` mined climb backlog.
+- **`inbox/`** — staging. Material arrives via `bin/capture` or by being dropped in. On ingest, MOVE the file to the right `raw/` subdirectory, then synthesize. Never leave a file in both.
+- **`raw/`** — immutable source archive, organized `raw/<domain>/<collection>/`. Never modify or delete anything here except when filing from `inbox/`. **`raw/self/context-core/CONTEXT_CORE_EXPANDED.md` is the primary authoritative source for facts about Dan** — curated, internally cross-checked, explicit about its own gaps. Check it first on any self/mind/timeline topic; treat other sources as supplementary or corrective to it unless they carry a specific dated correction it lacks. Source tiers and per-source traps: `EXTRACTION_SPEC.md`.
+- **`wiki/`** — the compiled product: accumulated understanding, not a cache of `raw/`. Domains: `self`, `timeline`, `people`, `mind`, `work`, `interests`, `health`, `places`, `legal`. Add a domain only when several pages clearly don't fit an existing one. `wiki/**/archive/` holds pinned oversized artifacts (`status: archived`) — exempt from budgets, never updated.
+- **`exports/`** — output of `bin/export-corpus`; never hand-edit, gitignored.
+- **Meta files** (root): `index.md` master navigation · `log.md` append-only operation log · `queue.md` pending-ingest ledger · `connection-queue.md` mined edge backlog · `synthesis-queue.md` mined climb backlog · `BACKLOG.md` standing work.
 
-Git is the history mechanism. Commit after every ingest with message
-`<op>: <short description>`. Never commit secrets or exports/.
+Git is the history mechanism. Commit after every ingest with `<op>: <short description>`. Never commit secrets or `exports/`.
 
-## Tools (bin/ — pure Python stdlib, no dependencies, no APIs)
+## Why this is a second brain, not a RAG
 
-- `bin/capture` — human-facing input: interactive typing/pasting, one-shot
-  facts, file upload (`-f`), and `status` (inbox listing).
-- `bin/wiki-climb` — altitude engine: `check` (validates `synthesizes:` and
-  reports stale premises), `audit` (tier distribution, domains with no
-  junction above them, load-bearing pages), `candidates` (writes
-  `synthesis-queue.md`). See SYNTHESIS_SPEC.md.
-- `bin/wiki-digest` — human-facing reading aids, generated-but-COMMITTED at the
-  repo root: `DIGEST.md` (state of the wiki — counts, domains, the last few
-  days, every page with `synthesizes:`), `RECENT.md` (what changed, newest
-  first, with each page's own most recent REVISED/RE-CHECKED/CORRECTED block
-  as the reason) and `OPEN.md` (every live contradiction, open gap and
-  standing prediction in one place). Derived entirely from frontmatter and
-  from blocks pages already carry, so it is safe to rerun any time. Run it
-  alongside `bin/llm-publish` after a content pass.
-- `bin/export-corpus` — concatenates the wiki (optionally raw/ and inbox/)
-  into a single markdown file for LLM ingestion, with a token estimate.
-- `bin/llm-publish` — builds `llm/`, the public LLM access point served by
-  GitHub Pages: `llm/index.txt` (the one URL to hand any model — plain-text
-  instructions + per-page URL manifest), `llm/corpus.txt` (whole wiki, one
-  file), `llm/manifest.json`, and `llm/pages/**.txt` (one plain-text file
-  per page; .txt bypasses Jekyll). Unlike exports/, **`llm/` is
-  generated-but-COMMITTED** — rerun `bin/llm-publish` after any content
-  pass and commit the diff so the published copy tracks the wiki.
-  Entry point: `https://caakehorn.github.io/wiki-brain/llm/index.txt` —
-  **404 since 2026-08-02**, because this repo went private and Pages is
-  unpublished with it. Keep running `bin/llm-publish` (the artifact is committed
-  and goes live again if the repo is made public); for now agents should read
-  the public mirror at
-  `https://caakehorn.github.io/leviathan/data/wiki-data.json`. See
-  `AGENT_ACCESS.md`.
+A retrieval system keeps the sources and re-derives every answer on demand; it never learns, and yesterday's reasoning is thrown away. This is the opposite. You read a source **once, to exhaustion**, reason out what it *means*, and write that understanding into `wiki/`. From then on you reason **from** the wiki. Knowledge compounds: today's synthesized conclusion is tomorrow's premise.
+
+This has a hard consequence — the wiki is **not** a disposable cache of `raw/`. Two kinds of content live here:
+
+- **Derived** content — message counts, discographies reconstructed from slugs, anything mechanical — is safely regenerable.
+- **Earned** content — a thesis, a psychological read, a conclusion cross-referenced from many sources — is the product of reasoning done once. `raw/` does not contain it literally, and re-running the pipeline may not reproduce it. This is the actual point of the system.
+
+So **never regenerate an earned page from scratch — revise it.** When new raw contradicts it, flag and correct; do not bulldoze and re-derive from zero. Pages declare which kind they are with `knowledge: earned | derived | mixed`.
+
+The one sanctioned exception is a deliberate wipe-and-rewrite the operator has asked for, which has its own protocol — see the `wiki-rewrite` skill below.
 
 ## The operations
 
 ### INGEST — one source per pass, never parallel
-**If you are given a general or unspecified instruction to "ingest," "do the
-Phase B ingest," "keep going on the wiki," or any open-ended synthesis task —
-READ `INGEST_RUNBOOK.md` (repo root) FIRST and follow it exactly.** That
-file is the complete, reproduction-grade instruction for the cross-corpus
-synthesis pass: environment facts, governance files to read, the per-pass
-protocol, the frontmatter spec, the gotchas from prior sessions (including the
-"verify derived numbers against raw — the operator will catch unverified
-figures" rule), what's already done, and what remains. Do not improvise the
-ingest workflow; the runbook IS the standing instruction.
-**If you are instead told to rewrite, wipe, redo, re-research or overhaul a
-page that already exists — invoke the `wiki-rewrite` skill
-(`.claude/skills/wiki-rewrite/`) and follow it exactly.** INGEST governs new
-sources arriving; that skill governs an existing page being re-derived, and it
-carries the parts that pass gets wrong: snapshotting earned content before the
-wipe, ranking primary against AI-secondary sources, verifying derived numbers
-with `bin/mine-messages` rather than grep, resolving identity through two
-independent contact exports, and working the staleness cascade without bumping
-a date.
 
-Captured notes may carry `targets: [wiki/...paths]` in frontmatter (created by
-typing `@page` in the app's Capture tab). A targeted note is a correction or
-expansion of those specific pages: apply it there first (honoring the
-contradiction/revision rules), then file the note into raw/ as usual.
-Humans can also edit pages directly in the app; those edits appear in log.md
-as `edit | <domain> | human edit via app` — treat them as authoritative
-content but normalize formatting/frontmatter on the next pass over that page.
-Parallel "swarm" ingests destroyed v1 (fragment prose, duplicate entities,
-wrong statuses). Ingest ONE inbox item per pass, fully:
-1. Move it from inbox/ to the right `raw/<domain>/<collection>/`.
-2. Read it completely.
-3. Put quantified data (dates, counts) into tables on the target pages.
-4. Write or update the relevant wiki pages — typically the domain summary
-   plus every person/event/concept the source touches.
+**If you are given a general or unspecified instruction to "ingest," "do the Phase B ingest," "keep going on the wiki," or any open-ended synthesis task — read `INGEST_RUNBOOK.md` first and follow it exactly.** That file is the reproduction-grade instruction for the cross-corpus synthesis pass. Do not improvise the ingest workflow.
+
+Parallel "swarm" ingests destroyed v1 (fragment prose, duplicate entities, wrong statuses). Ingest ONE inbox item per pass, fully:
+
+1. Move it from `inbox/` to the right `raw/<domain>/<collection>/`.
+2. **Read it to exhaustion** — not until it answers your question. `EXTRACTION_SPEC.md`.
+3. Put quantified data (dates, counts) into tables on the target pages; re-derive every number rather than copying it forward.
+4. Write or update every relevant page — typically the domain summary plus every person, event and concept the source touches.
 5. Update the domain index and `index.md` if pages were added.
-6. Update queue.md; append to log.md: `## [YYYY-MM-DD] ingest | <domain> | <source>`.
-7. Commit.
+6. Update `queue.md`; append to `log.md`: `## [YYYY-MM-DD] ingest | <domain> | <source>`.
+7. Run the three gates; commit.
 
-Large exports (social media dumps, message CSVs) may take multiple passes;
-track progress in queue.md rather than half-finishing silently.
+Large exports (social media dumps, message CSVs) may take multiple passes; track progress in `queue.md` rather than half-finishing silently.
+
+Captured notes may carry `targets: [wiki/...paths]` — a targeted note is a correction or expansion of those specific pages: apply it there first, then file the note into `raw/`. Humans also edit pages directly in the app; those appear in `log.md` as `edit | <domain> | human edit via app` — treat them as authoritative content but normalize formatting and frontmatter on the next pass.
 
 ### QUERY
-Start at index.md, follow domain indexes, answer with citations to wiki
-pages. Reason **from** the wiki first; only re-open `raw/` when the wiki is
-silent on the question or a source is newer than the page that used it —
-otherwise you are re-doing settled work. If the synthesis is new and durable,
-save it as a page: that is how the brain grows, and it is what keeps the next
-answer from re-deriving this one.
+
+Start at `index.md`, follow domain indexes, answer with citations to wiki pages. Reason **from** the wiki first; re-open `raw/` only when the wiki is silent on the question or a source is newer than the page that used it — otherwise you are re-doing settled work. If the synthesis is new and durable, save it as a page: that is how the brain grows.
 
 ### CLIMB — the operation that raises altitude
-The only operation that runs on `wiki/` rather than `raw/`. Where INGEST adds
-ground, CLIMB builds above it: find a cluster of three or more pages spanning
-two or more domains that share a shape and have nothing above them, find the
-one rule true of all of them and false of the corpus generally, and write the
-page that states it. **Full protocol in `SYNTHESIS_SPEC.md` — follow it
-exactly; do not improvise a synthesis pass.** The short form:
 
-1. `bin/wiki-climb candidates` maintains `synthesis-queue.md`, the mined
-   backlog of unclimbed clusters. Take the top one, or one you have reason
-   to prefer.
+The only operation that runs on `wiki/` rather than `raw/`. Where INGEST adds ground, CLIMB builds above it. **Full protocol in `SYNTHESIS_SPEC.md` — follow it exactly.** The short form:
+
+1. `bin/wiki-climb candidates` maintains `synthesis-queue.md`. Take the top cluster, or one you have reason to prefer.
 2. Read the member pages **in full** — you are reasoning from them.
-3. Find the governing rule, **or reject the cluster in the queue with a line
-   of reasoning.** A cluster that resists synthesis is knowledge too. Never
-   write a page whose thesis is "these things are related."
-4. Write it: `page_type: synthesis`, `knowledge: earned`, `synthesizes:`
-   listing every member, thesis in the first two sentences, the rule stated
-   plainly, the controls that carry it, at least one prediction, and Gaps.
-5. Wire it with typed edges both ways per CONNECTIONS_SPEC.md. **Every member
-   page gets the finding written back into it** — an `instantiates` edge whose
-   claim states what this page turned out to be evidence *of*, plus a prose
-   sentence wherever the finding is load-bearing for that member. A synthesis
-   whose members do not carry it back is half-built: the next reader landing on
-   the member learns nothing the synthesis discovered.
+3. Find the governing rule, **or reject the cluster in the queue with a line of reasoning.** A cluster that resists synthesis is knowledge too. Never write a page whose thesis is "these things are related."
+4. Write it: `page_type: synthesis`, `knowledge: earned`, `synthesizes:` listing every member, thesis in the first two sentences, the controls that carry it, at least one prediction, and Gaps.
+5. Wire it both ways. **Every member page gets the finding written back into it** — an `instantiates` edge whose claim states what this page turned out to be evidence *of*, plus a prose sentence wherever it is load-bearing. A synthesis whose members do not carry it back is half-built.
 6. All three gates at 0 errors; log `climb | <domain> | <page>`; commit.
 
-Climb when a cluster has survived two or more ingests, or immediately when an
-ingest makes you think "this is the third time I've seen this shape." Do not
-climb to raise a number: three thin pages stacked make one thin page.
+Climb when a cluster has survived two or more ingests, or immediately when an ingest makes you think "this is the third time I've seen this shape." Do not climb to raise a number: three thin pages stacked make one thin page.
+
+### REWRITE — wipe and re-derive an existing page
+
+When the operator asks to rewrite, wipe, redo, re-research or overhaul a page that already exists, **invoke the `wiki-rewrite` skill (`.claude/skills/wiki-rewrite/`) and follow it exactly.** INGEST governs new sources arriving; that skill governs an existing page being re-derived, and it carries the parts this pass gets wrong: snapshotting earned content before the wipe, ranking primary against AI-secondary sources, verifying derived numbers with `bin/mine-messages`, resolving identity through two independent contact exports, and working the staleness cascade without bumping a date.
 
 ### LINT (periodic)
-Sweep for: broken links, orphan pages, contradictions between pages, claims
-superseded by newer raw data, entities mentioned 3+ times with no page,
-pages over budget, and **stale premises** (`bin/wiki-climb check` — pages
-whose `synthesizes:` inputs were modified after them). Fix mechanically what
-you can; queue the rest. A stale page is never fixed mechanically: re-read
-what changed in the premise before touching the dependent.
 
-### IMPERATIVES, GENERALLY
-Articles must be robust, exhaustive and thoroughly linked. They should be seen as very unique nodes and shouldn't follow more structure than what is listed in teh style guide
+Sweep for: broken links, orphan pages, contradictions between pages, claims superseded by newer raw data, entities mentioned 3+ times with no page, and **stale premises** (`bin/wiki-climb check`). Fix mechanically what you can; queue the rest in `BACKLOG.md`. A stale page is never fixed mechanically — re-read what changed in the premise before touching the dependent.
 
+## Tools (`bin/` — pure Python stdlib, no dependencies, no APIs)
 
-## Frontmatter (every wiki page — metadata only, no prose)
+| Tool | Purpose |
+|---|---|
+| `bin/capture` | human-facing input: interactive typing/pasting, one-shot facts, file upload (`-f`), `status` |
+| `bin/mine-messages` | corpus mining over the full iMessage dump: `stats`, `grep`, `timeline`, `battery`, `entities`. **Use this instead of grep** — three properties of the dump make naive grep silently wrong |
+| `bin/wiki-lint` | frontmatter, links, orphans, sizes. Must be 0 errors before commit |
+| `bin/wiki-connect` | `check` (typed-edge lint), `audit` (graph health), `candidates` (writes `connection-queue.md`) |
+| `bin/wiki-climb` | `check` (validates `synthesizes:`, reports stale premises), `audit` (tier distribution), `candidates` (writes `synthesis-queue.md`) |
+| `bin/wiki-digest` | regenerates `DIGEST.md`, `RECENT.md`, `OPEN.md` — committed, safe to rerun any time |
+| `bin/llm-publish` | builds `llm/`, the public LLM access point — **generated but COMMITTED**; rerun after any content pass |
+| `bin/export-corpus` | concatenates the wiki into one markdown file for LLM ingestion, with a token estimate |
+| `bin/wiki-search`, `bin/wiki-status`, `bin/wiki-tui` | search, status, terminal browser |
+| `bin/ingest-pack` / `bin/ingest-apply` | the any-LLM paste-box route (`INGEST_PROTOCOL.md`) |
 
-```yaml
----
-domain: self | timeline | people | mind | work | interests | health | places | legal
-page_type: entity | event | concept | period | summary | synthesis | profile | report | chat | note | index
-status: active | stable | stub | closed | archived
-date_created: YYYY-MM-DD
-date_modified: YYYY-MM-DD
-sources: []    # real raw/ paths that exist on disk — bin/wiki-lint checks this
-related: []    # wiki page paths
----
+## Before every commit
+
+```bash
+bin/wiki-lint && bin/wiki-connect check && bin/wiki-climb check   # all at 0 errors
+bin/wiki-digest && bin/llm-publish                                 # after any content pass
 ```
 
-`active` = live situation · `stable` = accurate, settled · `stub` =
-placeholder · `closed` = formally ended · `archived` = pinned artifact in an
-archive/ dir, never update. Default for finished pages: stable, NOT archived.
-**`closed` means a thing has formally ended, not that the page feels
-finished** — the July 2026 reopening of `annie-ulmer.md`, marked closed six
-weeks earlier, is the standing cautionary example. Run `bin/wiki-lint`,
-`bin/wiki-connect check` and `bin/wiki-climb check` before committing any
-ingest or climb.
+Then append to `log.md` as **findings, not activity** — what was wrong, what the evidence was, what changed — and update `LLM_HANDOFF.md`.
 
-## Writing rules (v1 failed by ignoring these)
-
-**`STYLE_GUIDE.md` in the root is the binding page-format spec** (frontmatter
-fields incl. optional title/aliases/tags/importance/changelog, LLM Quick
-Brief convention, capture bracket-instruction handling). The rules below are
-the short form; read the style guide before writing pages.
-
-1. **Complete sentences.** No dossier shorthand or fragment chains. Every
-   page must read as prose to a human opening it cold.
-2. **Tables hold numbers, prose holds meaning.** Never repeat a table in prose.
-3. **Paraphrase, don't transplant.** Verbatim source text stays in raw/;
-   pages cite it. Quotes of one sentence or less allowed when the wording
-   itself is the evidence.
-4. **Page budget ~8 KB is a navigation heuristic, not a cap** (settled
-   2026-07-18; STYLE_GUIDE substance rule 4 governs). The operator's
-   standing preference is LONGER, denser entries. Lint size warnings are
-   advisory on hub/junction/exemplar pages — never trim earned content
-   to satisfy them; split only when navigation genuinely improves.
-5. **Indexes are navigation only** — links plus one-line summaries. No
-   session history or agent chatter anywhere in wiki/; that goes in log.md.
-6. **One page per entity.** Before creating a people/ page, grep for the
-   person under all known names and handles. Merge, never fork.
-7. **Contradictions are flagged, not overwritten.** Inline
-   `> **CONTRADICTION:**` blockquote; revisions get `> **REVISED [date]:**`.
-8. **Dates are absolute.** Convert "last summer" to a year at ingest time,
-   flagging uncertainty: `(~2019?)`.
+Size warnings from `bin/wiki-lint` are **advisory**. They mean "check navigation," never "shorten." Never trim earned content to clear one.

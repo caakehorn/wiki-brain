@@ -47,6 +47,7 @@ this is the state of the thing.
 
 **2026-08-08** — 8 pages
   - rewrite | people, places | full re-research and rewrite of four entries (jacob-bacharach, 117-belmont-circle, zach-harshman→zach-clingan, alexis-armel)
+  - govern | root | governance rewrite — six specs, one backlog, six documents retired
 
 **2026-08-03** — 7 pages
   - ingest | legal | court blotter photo — the arrest is now primary-documented, and a wiki inference was wrong

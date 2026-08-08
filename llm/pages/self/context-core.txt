@@ -79,7 +79,7 @@ changelog:
 > **CORROBORATION ATTEMPTED [2026-08-02] — three of the four axioms are not
 > visible in the message corpus, and *time = countdown* is the clearest
 > negative.** The first systematic pass of the message-density campaign
-> (`MESSAGE_MINING.md`) tested the axioms lexically against all 106,629 of Dan's
+> (`EXTRACTION_SPEC.md`) tested the axioms lexically against all 106,629 of Dan's
 > outbound messages, 2015–2025, with the 110,944 inbound messages from 503 other
 > handles as a within-medium control. Results, per thousand messages:
 >

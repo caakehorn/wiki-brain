@@ -41,8 +41,9 @@ whether each assertion is true → let what you find decide the new structure.
 Read, in this order: `CLAUDE.md`, `LLM_HANDOFF.md` (the current state and
 resume points), `STYLE_GUIDE.md` (binding page format), `CONNECTIONS_SPEC.md`
 (typed edges). If the pages you are rewriting carry `synthesizes:`, or anything
-above them does, read `SYNTHESIS_SPEC.md` too. `MESSAGE_MINING.md` is required
-reading before you count anything in the message corpus.
+above them does, read `SYNTHESIS_SPEC.md` too. `EXTRACTION_SPEC.md` is required
+reading — it governs how deep to go into a source, and its traps section is what
+keeps you from counting the message corpus wrong.
 
 Then **snapshot what you are about to destroy**, because this is the failure
 this repository has already had once and written down:
@@ -129,7 +130,7 @@ When you keep an AI-secondary claim, mark it as one on the page.
 **Verify every derived number with the right instrument.** Message counts,
 direction splits, date ranges and ratios are the figures the operator checks,
 and naive `grep` on the message dump is quietly wrong for three separate
-reasons documented in `MESSAGE_MINING.md`. Use `bin/mine-messages`:
+reasons documented in `EXTRACTION_SPEC.md`. Use `bin/mine-messages`:
 
 ```bash
 bin/mine-messages grep '<pattern>' --from 2017-01-01 --to 2018-12-31
@@ -287,7 +288,7 @@ Each of these has actually happened in this repository.
 | Reformatting instead of re-deriving | new headings, same facts | inventory the claims in Phase 1 and check each |
 | Trusting `sources:` | research stops at the declared list | `grep -ril` the whole of `raw/` first |
 | Laundering AI-secondary as fact | a Gemini-invented date sitting in the wiki | rank sources; mark what is secondary |
-| Naive grep on the message dump | miscounts, truncated messages, missed curly apostrophes | `bin/mine-messages`, and read `MESSAGE_MINING.md` |
+| Naive grep on the message dump | miscounts, truncated messages, missed curly apostrophes | `bin/mine-messages`, and read `EXTRACTION_SPEC.md` |
 | Trusting direction from the CSV | "all received (export artifact)" | direction only from `all_imessages_complete_dump.txt` |
 | Identity by page title | a page about the wrong person | resolve through two independent contact exports |
 | Regenerating over earned content | dropped inverse edges, deleted contradiction blocks | snapshot and extract before writing |

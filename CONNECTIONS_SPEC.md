@@ -1,9 +1,10 @@
 # Connections Spec — typed edges with claims
 
-Adopted 2026-07-17. This file is binding on the same tier as STYLE_GUIDE.md:
-STYLE_GUIDE.md governs page format, this file governs the format and
-discipline of inter-page connections. `bin/wiki-connect check` mechanically
-enforces it. It exists because the graph audit of 2026-07-17 found the wiki
+Adopted 2026-07-17. One of the six governing documents (see `STRATEGY.md` for
+the full set and what each wins on): `STYLE_GUIDE.md` governs page format,
+`EXTRACTION_SPEC.md` governs how deep to mine a source, and **this file governs
+the format and discipline of inter-page connections**. `bin/wiki-connect check`
+mechanically enforces it. It exists because the graph audit of 2026-07-17 found the wiki
 quantitatively linked (2,006 prose edges, 6.5 avg outdegree) but semantically
 under-connected: 33% of all links were bare list items or "## Related"
 footer dumps carrying zero information about WHY the pages relate, 1,620
