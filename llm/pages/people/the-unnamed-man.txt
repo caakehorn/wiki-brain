@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-08
 date_range_start: 2026-07-25
 date_range_end: 2026-08-02
 tags: [relationships, trauma-bond, mental-health, forensic-analysis]
@@ -21,6 +21,7 @@ infobox:
 sources:
   - raw/self/message-csv/imessage_export_2124702449_20260802.csv
   - raw/self/message-csv/imessage_export_2124702449_20260726.csv
+  - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
 connections:
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: causes
@@ -36,7 +37,7 @@ connections:
     claim: "He telephoned Suz to abuse her about a relationship she had no part in, which is what made the harassment a family matter and what Annie eventually walked to the house to apologise for."
   - page: wiki/people/tuquick-17248123683
     type: co-occurs
-    claim: "Tuquick is the only prior third party the corpus documents in this role, and no source states whether the two are the same man — the question is open in both directions."
+    claim: "Tuquick (now identified as Jerel Wayne Coles) is the only prior third party the corpus documents in this role. Coles's address history shows continuous residence in Uniontown, but his known phone numbers do not appear in the July 2026 message export and Annie never identifies him by name; the question of whether Coles is also the July 2026 unnamed interloper remains open."
   - page: wiki/timeline/events/july-2026-recontact
     type: follows
     claim: "The 'She's a slut man lmfao' message that arrived on Annie's number at 00:25 on July 26 is his first appearance in the record; everything known about him postdates it by hours."
@@ -157,17 +158,9 @@ to.
 
 ## Is he Tuquick?
 
-Unknown, and no source addresses it.
-[[wiki/people/tuquick-17248123683|Tuquick]] is the only other man the corpus
-places in this role — the interloper of the May 31–June 1 2026 end fight, who
-defected on June 15 and called Annie a compulsive liar. Points of contact: the
-same role, the same six-week span, the same town. Points against: Tuquick's
-recorded conduct toward Dan ended in agreement with him, which is hard to
-reconcile with the July 26 register; and neither Dan nor Annie treats the July
-26 arrival as a continuation of anything, which is unusual given how
-comprehensively both narrate their own histories. The question is left open,
-and it is one of the few in the corpus that will not be settled by re-reading
-`raw/` — it needs an answer from outside.
+> **REVISED [2026-08-08]:** Tuquick is now identified as **Jerel Wayne Coles** (born ~1990, Uniontown, PA) via a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`. Coles has a documented criminal record in Pennsylvania court databases including harassment (2009), two DUIs (2019, 2024), and criminal mischief (2025). This does not, however, establish whether the July 2026 unnamed interloper is Coles. Coles's known phone number is `(724) 628-7133` (residential) and `(724) 812-3683` (mobile) — neither appears in the July 2026 message export, and Annie does not identify the July 26 attacker by name in Dan's corpus. The question remains open, but the overlap of geography (Uniontown), the harassment charge, and the identical interloper role makes a strong circumstantial case. See [[wiki/people/tuquick-17248123683]] for Coles's full profile.
+
+Unknown, and no source addresses it directly. [[wiki/people/tuquick-17248123683|Tuquick]] is the only other man the corpus places in this role, six weeks earlier and in the same town, and no source states whether he and the July 2026 third party are the same person — the question is open in both directions. Tuquick's real identity (Jerel Wayne Coles) was unmasked on 2026-08-08 (see the REVISED block above); Coles's address history shows him in Uniontown continuously, but his recorded phone numbers do not appear in the July 2026 message export, and Annie never identifies him by name.
 
 ## Gaps
 

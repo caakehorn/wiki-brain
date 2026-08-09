@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -208,3 +208,13 @@ documents from the beginning.
 > written here as a pending risk with a dated deadline, and it is now a risk with
 > an elapsed deadline and no recorded outcome. The chain does not break; it ends
 > in an unread result, which is a worse place for it to end than a pending one.
+
+> **RE-CHECKED [2026-08-09] — paternal source-line gains an early
+> substance-use data point; capital chain unaffected.** [[wiki/people/rick-frank]]
+> was modified: a new connection and prose paragraph document June 15, 2005,
+> the day Dan worked a Frank's Auto Supermarket delivery shift before a
+> DXM-fueled trip that night, sourced from
+> [[wiki/timeline/events/robotussin-s-last-dance]]. This is a dated anecdote
+> about the business as a workplace, not a capital or ownership fact — it
+> touches nothing in the paternal source-line's role as the anti-union
+> "kushy lives" engine that funds this spine. No finding here changes.

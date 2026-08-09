@@ -16,6 +16,7 @@ related: []
 - [[wiki/timeline/events/franki-fireworks-day-2013]] — early July 2013: the day Alexis discovered the Franki affair by text ten minutes into the drive; also dates the production identity's origin and supplies the chaos preference's first attested macro instance.
 - [[wiki/timeline/events/bald-eagle-cummings]] — seventh grade at Seven Springs: the corpus's earliest sexual event, a failure that produced a year-long school-wide nickname, and the first named girlfriend (Britney Bolen, predating Danielle by ~3 years).
 - [[wiki/timeline/events/teen-concert-years]] — 2005–2008: the literal touring record (FOB×3 + TRL taping, MCR, TBS, Say Anything, Bamboozle) that the wiki had flattened into "top music artists."
+- [[wiki/timeline/events/robotussin-s-last-dance]] — June 15 2005: three 17-year-olds in a sold-out Tom Petty lot at Burgettstown, 20–40 DXM capsules each, a Ruby Tuesday's incapacitation near Pittsburgh airport, and a 95 mph drive down Rt 51 back to Uniontown — the capture that fills in the drug context the Tom Petty minivan story had always left blank.
 - [[wiki/timeline/events/end-fight]] — Extended confrontation sequence captured in dedicated "THE END FIGHT" CSV export and the…
 - [[wiki/timeline/events/fran-death-vigil]] — March–April 2018: the fall, the nursing home, the pediatric wing, the snowstorm; Dan and Annie alone at the end.
 - [[wiki/timeline/events/the-fall-of-fran]] — night of March 7–8 2018: the arrangement's first encounter and the fall that ended Fran's fifty-year residency, in the same house, minutes apart.

@@ -26,6 +26,9 @@ connections:
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Steve's death reaches the record through this thread — Jim hadn't heard, December 2018 — the second dead member (after Rob Orange) of the same high-school-era Uniontown circle."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: co-occurs
+    claim: "The June 15 2005 Tom Petty minivan trip is the documented shared outing that Jim retells four years later as pure adventure — this capture fills in the DXM-laced, 95 mph, cone-smashing substance context that both retellings leave blank."
 ---
 
 # "New Jim Shaffer" (Jim Shaffer)

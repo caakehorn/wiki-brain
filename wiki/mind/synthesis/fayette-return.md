@@ -6,7 +6,7 @@ aliases: ["the elastic tether", "regional gravity", "leave-and-come-back"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 date_range_start: 1892-01-01
 date_range_end:
 sources:
@@ -228,3 +228,13 @@ solid.
   the county rather than distinctive. Nothing here compares the line against a
   regional base rate, and until it does, "elastic tether" is a description and
   not yet an explanation.
+
+> **RE-CHECKED [2026-08-09] — Rick's "no attested departure" generation
+> gains a dated adolescent-era scene; rule unaffected.** [[wiki/people/rick-frank]]
+> was modified: a new connection and prose paragraph document June 15, 2005,
+> a Frank's Auto Supermarket workday preceding a DXM-fueled trip involving
+> Dan, not Rick, sourced from
+> [[wiki/timeline/events/robotussin-s-last-dance]]. Nothing about Rick's own
+> residence or departure history changes — the addition is about Dan's
+> adolescence, not Rick's generation-line data. G3's "none attested" entry
+> and the rule it instantiates are untouched.
