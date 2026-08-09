@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
@@ -285,6 +285,15 @@ It also makes a prediction. Any future exit or disclosure that appears in
 the record **without prior announcement** should be expected to execute; any
 that is announced in advance should not. The corpus can test this backwards
 across the 127 exit declarations, which is queued below.
+
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]], which moved on 2026-08-09 for the identity
+ingest (Tuquick = Jerel Wayne Coles, see [[wiki/people/jerel-coles]]) — a
+chronology row and a Target G revision note. Neither touches the 127/110
+exit-relapse count, the announcement-predicts-non-execution rule, or any
+prediction this page tracks. No finding here is affected.
 
 ## Gaps
 

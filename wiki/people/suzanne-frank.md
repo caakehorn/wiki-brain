@@ -6,7 +6,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 infobox:
   name: Suzanne Frank
   status: Active
@@ -257,6 +257,15 @@ source's other claims are flagged on
 [[wiki/people/tuquick-17248123683]]. The incident is the corpus's only
 documented instance of a third party escalating directly against Suz
 rather than against Dan or Annie.
+
+> **REVISED [2026-08-09]:** The caller is identified as
+> [[wiki/people/jerel-coles|Jerel Wayne Coles]], 36, of 106 Nassau St,
+> Uniontown — **the same municipality.** He carries a 2009 conviction for
+> harassment by subjecting another person to physical contact, a 2008
+> disorderly-conduct guilty plea for fighting, and an April 2025
+> criminal-mischief/property-damage charge. Provenance: commercial
+> background-check aggregator, not independently docket-verified. See
+> [[wiki/people/jerel-coles]] for the full record and its qualifiers.
 
 ## The colonization episode (terminal phase)
 

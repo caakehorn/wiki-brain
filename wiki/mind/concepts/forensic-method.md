@@ -7,7 +7,7 @@ status: stable
 knowledge: mixed
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -32,7 +32,13 @@ connections:
     claim: "The Uniontown Glitch is this method's flagship exhibit: the only case in the corpus where four confident model hypotheses were killed in sequence against ground truth the operator alone held, leaving a ranked improbability list instead of a cosmology."
   - page: wiki/people/the-unnamed-man
     type: contradicts
-    claim: "The method's claim to generality fails by deliberate choice here: the corpus's most consequential live antagonist is the one node Dan has refused to identify, on the stated grounds that knowing would cost him more than not knowing."
+    claim: "The method's claim to generality fails by deliberate choice here: the corpus's most consequential live antagonist is the one node Dan has refused to identify, on the stated grounds that knowing would cost him more than not knowing. Closed 2026-08-09 — the refusal terminated 2026-08-08 and the operator confirmed the identified man is this page's antagonist; see below."
+  - page: wiki/mind/synthesis/read-receipt-forensics
+    type: contains
+    claim: "Four instrument-level defects in chat.db metadata extraction, each of which silently returns a confident wrong answer rather than an error."
+  - page: wiki/people/jerel-coles
+    type: resolves
+    claim: "The method's one declared exception on the Tuquick identity terminated 2026-08-08 at 19:01:22, thirteen days after it was declared. Whether the exception also covered the unnamed-man antagonist is unresolved — see that page's own contradicts edge, which stands."
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: instance-of
     claim: "The apparatus passes through four states in six days — published as an exhibit, retracted in five minutes on one request, rebuilt as an access-gated decoy, then offered as a gift — showing the target changes far more readily than the method does."
@@ -258,3 +264,40 @@ innocent) are largely absent outside the Bacharach audit. The July 2026
 deployment is also unaudited on its own terms: whether the dashboards'
 classifications are accurate, and what a hostile reader would find wrong
 with them, has not been checked by anyone.
+
+## The off switch, closed [2026-08-09]
+
+[[wiki/people/the-unnamed-man]] filed a `contradicts` edge against this page
+holding that the method's claim to generality **fails by choice** — the
+corpus's most consequential live antagonist being the one node deliberately
+left uninvestigated.
+
+**That exception closed on 2026-08-08 at 19:01:22, and the closure is
+complete.** A FOREWARN lookup identified the Tuquick handle as
+[[wiki/people/jerel-coles|Jerel Wayne Coles]] — full account at
+[[wiki/timeline/events/august-2026-unmasking]]. That lookup's own capture
+targeted the Tuquick handle specifically, which initially left open whether
+Tuquick was also the July 2026 unnamed-man antagonist; the operator confirmed
+directly on 2026-08-09 that they are the same person (see
+[[wiki/people/jerel-coles]] §Is Coles the unnamed man too?), closing the
+identity question the `contradicts` edge depended on. The generality claim is
+restored. What replaces it is narrower and more useful: the off switch was
+real, was under deliberate control, was held for thirteen days under sustained
+provocation, and **failed under a specific load** — not under difficulty, not
+under relevance, and not gradually. Identifying the load is open. Working
+hypothesis: the threat model shifted from *historical antagonist* to *believed
+present tonight*, and the switch was rated for the first and not the second.
+
+## Instrument-integrity finding [2026-08-09]
+
+A single extraction session against `chat.db` produced **four** defects, three
+of which yielded a confident wrong intermediate conclusion with **no error
+raised**: a zero-row result read as a finding (SQLite type affinity), a
+directional column read as undirectional (`date_read`), and an auto-populated
+field read as intentional (`reply_to_guid`). Full detail:
+[[wiki/mind/synthesis/read-receipt-forensics]].
+
+The method's exposure is not to hard failures. It is to instruments that lie
+quietly, and in the direction of whatever is already suspected. Every prior
+analysis in this corpus that depended on `reply_to_guid` as a threading signal
+requires rechecking — none has been identified yet; see `BACKLOG.md`.

@@ -1,0 +1,177 @@
+---
+domain: mind
+page_type: synthesis
+status: active
+knowledge: earned
+title: "Read-Receipt Forensics — chat.db Metadata and Its Traps"
+aliases: ["read receipts", "date_read", "chat.db metadata"]
+tags: [forensic-analysis, digital-footprint]
+date_created: 2026-08-09
+date_modified: 2026-08-09
+sources: []
+synthesizes:
+  - wiki/mind/concepts/forensic-method
+  - wiki/timeline/events/august-2026-unmasking
+connections:
+  - page: wiki/mind/concepts/forensic-method
+    type: component-of
+    claim: "Three instrument-level defects found in a single extraction session, each of which silently produces a confident wrong answer rather than an error — the failure mode the method is least protected against."
+  - page: wiki/timeline/events/august-2026-unmasking
+    type: supplies
+    claim: "Every wakefulness claim on that page depends on the directional asymmetry defined here; read the column as one thing and the same data yields the opposite conclusion."
+---
+
+# Read-Receipt Forensics — chat.db Metadata and Its Traps
+
+Derived from a single extraction session, 2026-08-09. Three defects, each of
+which **silently produces a confident wrong answer rather than an error.** That
+is the failure mode the forensic method is least protected against, which is why
+this is a page and not a footnote.
+
+> **Sourcing note.** The session this page documents ran directly against the
+> operator's local `chat.db` (macOS Messages, requiring Full Disk Access — see
+> the extraction recipe below) rather than against a CSV filed in this
+> repository's `raw/`. No `raw/` export corresponding to the 230-row
+> `annie_metadata_24h.csv` extract cited throughout has been filed as of this
+> ingest; `sources:` above is left empty rather than pointing at a file that
+> does not exist on disk, per `bin/wiki-lint`'s source check. Filing that
+> export is the open item — see `queue.md`.
+
+## M1 — `date_read` is directional and asymmetric
+
+The single most consequential fact about the column, and it is not documented
+anywhere obvious.
+
+```
+ON is_from_me = 1  (messages you SENT)
+    date_read = when THE OTHER PARTY opened your message.
+    Requires THEIR read receipts to be ON. Absent entirely otherwise.
+
+ON is_from_me = 0  (messages you RECEIVED)
+    date_read = when YOU opened their message.
+    Recorded LOCALLY, ALWAYS, regardless of anyone's settings.
+```
+
+Observed in the 2026-08-08/09 extract:
+
+```
+RECEIVED rows with date_read :  81 / 101   (all of them are Dan)
+SENT     rows with date_read :  44 / 129   (all of them are her)
+```
+
+**Reading the column as one undifferentiated thing produces the conclusion that
+the counterparty was continuously active all day.** She was not visible at all
+before 23:10:40. Half the column is a log of the operator's own behaviour.
+
+**Rule:** always split by `is_from_me` before computing any latency statistic.
+Never aggregate across directions.
+
+## M2 — `reply_to_guid` is not a reply marker
+
+```
+reply_to_guid == guid of the immediately preceding message :  179 / 181
+reply_to_guid pointing anywhere else (a true inline reply) :    2 / 181
+thread_originator_guid populated (the real marker)         :    2 / 230
+```
+
+`reply_to_guid` is **auto-populated with the previous message in the thread.**
+It carries no intent. The genuine inline-reply marker is
+`thread_originator_guid`.
+
+**Consequence:** any argument of the form *"she replied inline to message X,
+therefore she had the thread open, therefore the absence of a read receipt means
+she disabled them"* is **void**. That argument was built and then withdrawn
+during the 2026-08-09 session.
+
+**Action owed:** audit the corpus for prior analysis that treated
+`reply_to_guid` as intentional threading. Any such claim needs rechecking.
+
+## M3 — SQLite type-affinity trap
+
+`strftime('%s', ...)` returns **TEXT**. When compared against a **computed
+expression** — which carries no column affinity — SQLite ranks INTEGER below
+TEXT unconditionally, so the predicate is **silently false for every row**.
+
+Reproduced directly:
+
+```
+expression >= strftime('%s','now','-24 hours')                 →  0 rows
+expression >= CAST(strftime('%s','now','-24 hours') AS INTEGER) →  1 row
+```
+
+This produced a zero-byte export that initially read as a substantive finding
+about the data rather than a bug in the query. No error was raised.
+
+**Canonical form** — cast explicitly, and keep the arithmetic on the right so
+the index on `m.date` is usable:
+
+```sql
+AND m.date >= (CAST(strftime('%s','now','-24 hours') AS INTEGER) - 978307200) * 1000000000
+```
+
+Note also that a column *with* INTEGER affinity coerces the TEXT operand
+correctly, so the same comparison works in one query and fails in another. That
+inconsistency is what makes it dangerous.
+
+## M4 — Absence of metadata is weak evidence in this corpus
+
+```
+SENT rows with NO delivered_at at all :  41 / 129
+```
+
+Clustered rather than random — a device-sync artifact (Mac vs. phone), not a
+signal about the counterparty. **Any argument from a missing timestamp must
+carry this caveat.** The record is incomplete by construction.
+
+## Extraction recipe
+
+Full-metadata pull for a single handle, macOS. Copy the database first — reading
+it live risks a lock, and the `-wal` file holds messages not yet checkpointed
+into the main file.
+
+```bash
+cp ~/Library/Messages/chat.db* /tmp/ ; sqlite3 -header -csv /tmp/chat.db "
+SELECT datetime(m.date/1000000000+978307200,'unixepoch','localtime') sent_at,
+  CASE m.is_from_me WHEN 1 THEN 'SENT' ELSE 'RECEIVED' END direction,
+  CASE WHEN m.date_delivered>0 THEN datetime(m.date_delivered/1000000000+978307200,'unixepoch','localtime') END delivered_at,
+  CASE WHEN m.date_read>0 THEN datetime(m.date_read/1000000000+978307200,'unixepoch','localtime') END read_at,
+  CASE WHEN m.date_read>0 THEN (m.date_read-m.date)/1000000000 END secs_to_read,
+  m.is_read, m.is_delivered, m.is_sent, m.is_delayed, m.error, m.item_type,
+  m.associated_message_type, m.thread_originator_guid, m.service, m.guid, m.ROWID,
+  COALESCE(m.text,'') text
+FROM message m
+WHERE m.ROWID IN (SELECT message_id FROM chat_message_join WHERE chat_id IN
+   (SELECT chat_id FROM chat_handle_join WHERE handle_id IN (<ROWIDs>)))
+AND m.date >= (CAST(strftime('%s','now','-24 hours') AS INTEGER)-978307200)*1000000000
+ORDER BY m.date;" > ~/Desktop/out.csv
+```
+
+Resolve handle ROWIDs first — a contact may have several, and a `LIKE '%2449%'`
+pattern will sweep in unrelated numbers:
+
+```bash
+sqlite3 /tmp/chat.db "SELECT ROWID, id FROM handle WHERE id LIKE '%<digits>';"
+```
+
+Requires **Full Disk Access** on the terminal. Without it the `cp` fails; do not
+suppress its stderr, or the failure presents as an empty result set.
+
+`m.text` is NULL for most recent messages on Monterey — the body lives in
+`attributedBody` as a serialised `NSAttributedString`. This extract is for
+metadata; pull text separately and join on timestamp.
+
+## Why this page exists
+
+Three of the four defects above produced, at some point in one session, a
+**confident and wrong** intermediate conclusion: a zero-row result read as a
+finding, a directional column read as undirectional, and an auto-populated field
+read as intentional. None raised an error. The forensic method's exposure is not
+to hard failures — it is to instruments that lie quietly and in the direction of
+whatever is already suspected.
+
+## Gaps
+
+The underlying `annie_metadata_24h.csv` this page's counts are drawn from has
+not been filed to `raw/self/message-csv/` — see the sourcing note above. Prior
+corpus analyses that used `reply_to_guid` as a threading signal (M2) have not
+yet been audited; that audit is owed and is listed in `BACKLOG.md`.

@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-08
+date_modified: 2026-08-09
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -366,6 +366,40 @@ Nobody ran it. The arrangement is chosen, it has not yet failed, and it is
 therefore unaudited — exactly as predicted. This resolves as confirmed *pending
 the failure*, which is the only way a prediction of this shape can resolve
 before the fact.
+
+## RE-CHECKED [2026-08-09] — a candidate counter-instance considered and set aside
+
+[[wiki/mind/concepts/forensic-method]] gained a finding this pass: the refusal
+to identify the interloper (declared 2026-07-26, terminated 2026-08-08 after
+13 days) is a documented case of the engine running **preemptively on a
+chosen-feeling delay** — the opposite pairing from this page's imposed→fast /
+chosen→slow rule, since a live antagonist reads as the most "imposed" object
+in the corpus. Worth checking against the rule directly rather than assuming
+consistency.
+
+**It does not move the rule, and the reason is the axis is different.** This
+page's provenance sort answers *whose claim is this* — did the assistant
+manager or the primary attachment hand me an unverified assertion, and how
+fast do I check it. The interloper refusal answers a different question — *do
+I want the answer at all* — and the stated reason was never provenance, it was
+projected emotional cost ("a hatred with a face"). An imposed claim under this
+page's rule gets audited fast because the claimant might be lying and the
+cost of believing a lie is immediate. The interloper's *existence* was never
+in doubt; what was deferred was a further fact (his name) whose only effect
+on Dan was internal. That is closer to
+[[wiki/mind/concepts/node-locking|the Eli redaction]] — a decision about what
+to hold, not about when to check a claim — than to this page's mechanism.
+**No finding on this page is withdrawn or revised.** The forensic-method page
+now cross-references this one for readers chasing the distinction; nothing
+here needs to reciprocate it structurally, since the two pages are answering
+different questions that happen to share a vocabulary ("the engine," "fires").
+
+The read-receipt-forensics addition to [[wiki/mind/concepts/forensic-method]]
+(chat.db metadata defects) and the standing-constraint section added to
+[[wiki/mind/synthesis/dan-annie-fallout-verdict]] are both orthogonal to this
+page's evidence base — neither touches the audit-lag timeline, the BFS/Annie
+comparison, or the Arnu prediction above — and are noted here only because
+`bin/wiki-climb check` flagged the premise as moved.
 
 ## Gaps
 

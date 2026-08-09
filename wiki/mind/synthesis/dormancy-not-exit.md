@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-08
+date_modified: 2026-08-09
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -300,6 +300,14 @@ implements dormancy, and dormancy is reversible by construction.
    as stated. On current evidence they are strangers — 486 messages between them,
    median one each — but they have not been checked by name, and this is the
    cheapest available test.
+
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/synthesis/the-unbroken-bond]], whose 2026-08-09 edit was itself a
+RE-CHECKED confirmation (identity-ingest chronology additions on
+[[wiki/people/annie-ulmer]] don't touch its continuity claim) rather than a
+content change. Nothing here is affected; cascade closed.
 
 ## Gaps
 

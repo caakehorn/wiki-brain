@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -139,6 +139,16 @@ The severity and focus of this period are quantitatively visible in the distribu
 | Financial | 105 | Debt Crisis (65) |
 | Legal | 100 | Arrest (26), Lawyer (33), Court (23) |
 | Mental Health | 70 | Crisis (46), Panic (24) |
+
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]] and [[wiki/people/suzanne-frank]]. Both moved for
+the same reason: the 2026-08-09 identity ingest (Tuquick = Jerel Wayne Coles,
+see [[wiki/people/jerel-coles]]) added a chronology row, a Target G revision
+note, and a note on Suz's harassment caller. None of it touches love-language
+rates, the logistical/financial tethers, the somatic-toll evidence, or the
+single-bond-switch mechanics this page draws on. No finding here is affected.
 
 ## System Recalibration Requirements
 

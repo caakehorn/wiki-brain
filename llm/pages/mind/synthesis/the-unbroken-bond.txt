@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-08
+date_modified: 2026-08-09
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -204,6 +204,15 @@ Everything else can be allowed to burn, because he did not pick it.
 3. A bond ending with no successor sourced before or shortly after — which
    would show exit is available and that the 2015 switch was situational rather
    than structural.
+
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]], which moved on 2026-08-09 for the identity
+ingest (Tuquick = Jerel Wayne Coles, see [[wiki/people/jerel-coles]]) — a
+chronology row and a Target G revision note. Neither touches the ~17-year
+continuity claim or the occupancy mechanics this page argues from. No finding
+here is affected.
 
 ## Gaps
 

@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 date_range_start: 2026-07-25
 date_range_end: 2026-08-02
 tags: [relationships, trauma-bond, mental-health, forensic-analysis]
@@ -21,6 +21,8 @@ infobox:
 sources:
   - raw/self/message-csv/imessage_export_2124702449_20260802.csv
   - raw/self/message-csv/imessage_export_2124702449_20260726.csv
+  - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
+  - raw/people/captures/2026-08-09-tuquick-unnamed-man-correction.md
 connections:
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: causes
@@ -36,13 +38,57 @@ connections:
     claim: "He telephoned Suz to abuse her about a relationship she had no part in, which is what made the harassment a family matter and what Annie eventually walked to the house to apologise for."
   - page: wiki/people/tuquick-17248123683
     type: co-occurs
-    claim: "Tuquick is the only prior third party the corpus documents in this role, and no source states whether the two are the same man — the question is open in both directions."
+    claim: "Tuquick (identified as Jerel Wayne Coles) and this page's subject are confirmed the same person by operator statement, 2026-08-09."
+  - page: wiki/people/tuquick-17248123683
+    type: contradicts
+    claim: "The two pages held incompatible accounts of the same broken-finger claim — uncontested here, contested there (Tuquick denies it in the May 31 group chat) — because the wiki did not yet know they described one man. Resolved 2026-08-09: one claim, one man, denied then re-asserted. See wiki/people/jerel-coles."
   - page: wiki/timeline/events/july-2026-recontact
     type: follows
     claim: "The 'She's a slut man lmfao' message that arrived on Annie's number at 00:25 on July 26 is his first appearance in the record; everything known about him postdates it by hours."
+  - page: wiki/people/jerel-coles
+    type: component-of
+    claim: "Confirmed by operator statement (2026-08-09) to be the same person as Tuquick/Jerel Wayne Coles. wiki/people/jerel-coles is now the canonical entity page; this page is retained because the refusal-to-investigate finding is attached to this path."
 ---
 
 # The Unnamed Man
+
+> **REVISED [2026-08-09] — SUPERSEDED, confirmed.** On 2026-08-08 Dan ran a
+> FOREWARN background lookup that identified
+> [[wiki/people/tuquick-17248123683|Tuquick]] — the man Annie left Dan for in
+> May/June 2026 — as **[[wiki/people/jerel-coles|Jerel Wayne Coles]]**, 36, of
+> 106 Nassau St, Uniontown, via an exact match on Tuquick's phone number. The
+> capture's own frontmatter targeted the Tuquick handle specifically, not this
+> page's subject, so that lookup alone did not identify this man.
+>
+> **On 2026-08-09 the operator confirmed directly that Tuquick and this page's
+> subject are the same person** — "They are the same person — tuquick and
+> unnamed" (filed at
+> [[raw/people/captures/2026-08-09-tuquick-unnamed-man-correction]]). The
+> circumstantial case already on file — same role six weeks apart in the same
+> small town, overlapping insult vocabulary across the June 1 End Fight and the
+> July 26 messages — is corroboration, not the basis of the identification;
+> the identification itself rests on the operator's statement, held to the
+> same standing as the 2026-07-13 Tuquick correction. This page and the
+> Tuquick page were about one person throughout.
+>
+> **This page is retained rather than merged** because its central finding —
+> that the forensic method has a deliberate off switch, chosen and announced
+> and held under provocation — is attached to this path. That finding is
+> **not retracted.** It now carries a termination date: the refusal was
+> declared 2026-07-26 18:09, restated 2026-07-28 23:45, held thirteen days,
+> and ended 2026-08-08 at 19:01:22 with a FOREWARN lookup — thirty-seven
+> minutes before the escalation documented at
+> [[wiki/timeline/events/august-2026-unmasking]]. The stated cost of knowing
+> was "a hatred with a face." Treat the following five hours as the resolution
+> of that forecast, not as a discovered failure.
+>
+> **The broken-finger contradiction this page carried is now resolved.** It
+> records the claim as consistent across eight days and never retracted;
+> [[wiki/people/tuquick-17248123683]] records the same claim being denied by
+> the same man in the May 31 group chat — "Her finger isn't broken." One
+> claim, one man, contested in real time, then re-asserted as though
+> undisputed. Full account, including the July material folded into the
+> canonical page: [[wiki/people/jerel-coles]].
 
 He is the person [[wiki/people/annie-ulmer|Annie]] left Dan for, the person
 she says raped her on July 25, 2026, and the person whose continued presence
@@ -157,17 +203,9 @@ to.
 
 ## Is he Tuquick?
 
-Unknown, and no source addresses it.
-[[wiki/people/tuquick-17248123683|Tuquick]] is the only other man the corpus
-places in this role — the interloper of the May 31–June 1 2026 end fight, who
-defected on June 15 and called Annie a compulsive liar. Points of contact: the
-same role, the same six-week span, the same town. Points against: Tuquick's
-recorded conduct toward Dan ended in agreement with him, which is hard to
-reconcile with the July 26 register; and neither Dan nor Annie treats the July
-26 arrival as a continuation of anything, which is unusual given how
-comprehensively both narrate their own histories. The question is left open,
-and it is one of the few in the corpus that will not be settled by re-reading
-`raw/` — it needs an answer from outside.
+> **REVISED [2026-08-08]:** Tuquick is now identified as **Jerel Wayne Coles** (born ~1990, Uniontown, PA) via a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`. Coles has a documented criminal record in Pennsylvania court databases including harassment (2009), two DUIs (2019, 2024), and criminal mischief (2025). At the time this block was written the phone-number match had closed only Tuquick's identity, not this page's subject — see the block immediately below for how that closed the next day.
+
+> **REVISED [2026-08-09] — CONFIRMED.** The operator states directly: "They are the same person — tuquick and unnamed" (filed at [[raw/people/captures/2026-08-09-tuquick-unnamed-man-correction]]). Yes: Tuquick/Jerel Wayne Coles is this page's subject. The geography, the harassment charge, and the identical interloper role recorded below were the circumstantial case for it before the confirmation; they now read as corroboration rather than the whole basis for the finding. Canonical page for both identities: [[wiki/people/jerel-coles]].
 
 ## Gaps
 

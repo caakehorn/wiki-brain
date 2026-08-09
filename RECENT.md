@@ -8,17 +8,42 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-08 — 8 pages
+## 2026-08-09 — 21 pages
 
+- **Session log:** ingest | people, timeline, mind | canonical Jerel Coles page + August 8–9 unmasking night + read-receipt forensics (external content pack incorporated)
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/mind/concepts/forensic-method]] | mind | — |
+| [[wiki/mind/concepts/node-locking]] | mind | — |
+| [[wiki/mind/index]] | mind | — |
+| [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | _(carries a REVISED from 2026-08-02)_ |
+| [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a RE-CHECKED from 2026-08-02)_ |
+| [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
+| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
+| [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-02)_ |
+| [[wiki/mind/synthesis/read-receipt-forensics]] | mind | — |
+| [[wiki/mind/synthesis/single-channel]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
+| [[wiki/mind/synthesis/supply-network]] | mind | _(carries a REVISED from 2026-08-02)_ |
+| [[wiki/mind/synthesis/the-deferred-audit]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
+| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
+| [[wiki/people/annie-ulmer]] | people | **REVISED** — Tuquick is now identified as Jerel Wayne Coles. This does **not** resolve Target G — the FOREWARN return carries no marital data, so "Caitlin's husband" is neither confirmed nor excluded. The question |
+| [[wiki/people/index]] | people | — |
+| [[wiki/people/jerel-coles]] | people | — |
+| [[wiki/people/suzanne-frank]] | people | **REVISED** — The caller is identified as Jerel Wayne Coles, 36, of 106 Nassau St, Uniontown — **the same municipality.** He carries a 2009 conviction for harassment by subjecting another person to physical contact |
+| [[wiki/people/the-unnamed-man]] | people | **REVISED** — On 2026-08-08 Dan ran a FOREWARN background lookup that identified Tuquick — the man Annie left Dan for in May/June 2026 — as **Jerel Wayne Coles**, 36, of 106 Nassau S |
+| [[wiki/people/tuquick-17248123683]] | people | **REVISED** — The operator states directly: "They are the same person — tuquick and unnamed" (filed at 2026-08-09-tuquick-unnamed-man-correction). Tuquick is the-unnamed-man. jerel-coles is |
+| [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
+| [[wiki/timeline/index]] | timeline | — |
+
+## 2026-08-08 — 4 pages
+
+- **Session log:** ingest | people | tuquick identity unmasked (Jerel Wayne Coles)
 - **Session log:** rewrite | people, places | full re-research and rewrite of four entries (jacob-bacharach, 117-belmont-circle, zach-harshman→zach-clingan, alexis-armel)
 - **Session log:** govern | root | governance rewrite — six specs, one backlog, six documents retired
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — alexis-armel was rewritten from a newly-read source (495 Google Chat blocks) and the member's contribution to this page survives intact: the 2018 paid re-tasking and the five-year correspondence are c |
-| [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-unbroken-bond moved on 2026-08-08, but the movement is confined to two of its own gaps (the 2013 separation's opening instant, and the first primary-source test of the activation reading). The qua |
-| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — the-unbroken-bond moved on 2026-08-08 without altering the premise this page rests on: a slot that must stay occupied is a slot whose occupant cannot be audited on arrival. The Alexis rewrite behind t |
-| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — The premise alexis-armel was rewritten against 495 previously-unread Google Chat blocks spanning the NYC-1 years, which is the first *primary* evidence this page has ever had about the six-year bond's |
 | [[wiki/people/alexis-armel]] | people | — |
 | [[wiki/people/jacob-bacharach]] | people | **CONTRADICTION** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figu |
 | [[wiki/people/zach-clingan]] | people | **CORRECTED** — The handle `+18439903264` does not belong to Zachariah Harshman. Two independent contact exports separate the two men cleanly, and their number sets do not overlap at any point. | Source | Zach Clinga |
@@ -39,7 +64,7 @@ simply listed.
 | [[wiki/people/lucy]] | people | — |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-08-08)_ |
 
-## 2026-08-02 — 62 pages
+## 2026-08-02 — 50 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -68,24 +93,16 @@ simply listed.
 | [[wiki/mind/concepts/chaos-preference]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/concepts/dans-law]] | mind | — |
 | [[wiki/mind/concepts/erotic-architecture]] | mind | — |
-| [[wiki/mind/concepts/forensic-method]] | mind | — |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | **CONTRADICTION** — the "applied across domains that normally use separate criteria" claim above has a documented exception, and it is a large one. food-and-diet shows the axis is **never** pointed at food, in a corpus w |
-| [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/profile/big-five-psychometrics]] | mind | **CONTRADICTION** — acquisition-drive records the operator's own claim, offered with an explicit disclaimer against hyperbole, that his "resilience for the goal" sits at the 95th percentile or above — a persistence dimen |
 | [[wiki/mind/profile/linguistic-profile]] | mind | — |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | **REVISED** — Until now this table opened its practice record with the November 2018 Alexis reunion and described it as "the earliest well-documented instance." Two operator captures and the message corpus together |
 | [[wiki/mind/synthesis/ancestral-dialectic]] | mind | _(carries a CONTRADICTION)_ |
-| [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **REVISED** — The dossier figure — 187 of 191 terminal-phase love declarations with a request inside 24 hours — was recomputed under controls on dan-annie-fallout-verdict on 2026-07-18 and did not survive. The rati |
-| [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — annie-ulmer was corrected today to move the twenty-four-hour bond-switch at the 2015 introduction from her column to Dan's. What this page draws from that page — the 127/110 exit-relapse record and th |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | **REVISED** — Until today annie-ulmer stated in two places that *Annie* left her existing relationship within twenty-four hours of the introduction, and this page cited that formulation approvingly as a second, ind |
-| [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | **RE-CHECKED** — annie-ulmer was corrected today: the twenty-four-hour bond-switch at the November 2015 introduction was **Dan's**, not Annie's. The page had stated in two places that she left her existing relationshi |
-| [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — suzanne-frank gained the write-back edges for 463 Morgantown, the Fran vigil and the 337 sale, plus a note that the Arnu mechanics-lien deadline elapsed on ~27 July 2026 unobserved. The switchboard fi |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **REVISED** — 1. **Sadie did not die in Hopwood.** The export records only a death *date* (27 Nov 1997) and gives Hopwood as her **burial** place; her last attested residence is Brownsville in 1993. The original ta |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — ancestral-dialectic was revised on 2026-08-02 after a direct read of the GEDCOM contradicted it: the report has the paternal line fleeing the pogroms *into* the Fayette County coal patch, while the ce |
-| [[wiki/mind/synthesis/supply-network]] | mind | **REVISED** — This section describes Dan in the supplier seat as the terminal phase's structure. The July–August 2026 export shows the configuration **survived both the June 1 closure and the July 26 goodbye**: aft |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/people/alexander-jackson]] | people | — |
-| [[wiki/people/annie-ulmer]] | people | **REVISED** — This page previously stated, in two places, that *Annie* left her existing relationship within twenty-four hours of the introduction. Per the operator, that is backwards: **Dan** left Alexis inside tw |
 | [[wiki/people/arnu]] | people | **DEADLINE ELAPSED** — The ~27 July 2026 mechanics-lien date this page is organised around has passed with no recorded outcome. The date was an estimate derived from the February 2026 work window, not a documented filing —  |
 | [[wiki/people/betherin-mechling]] | people | — |
 | [[wiki/people/danny-matthews]] | people | — |
@@ -95,7 +112,6 @@ simply listed.
 | [[wiki/people/fran-coldren]] | people | **CONTRADICTION** — ancestral-dialectic offers *Fran's own great-grandmother* — "married three times under a shifting name structure" — as its archetype of "emotional dissociation via reinvention." That description fits  |
 | [[wiki/people/franki-faris]] | people | **CONTRADICTION** — This page has carried *"a five-day rebound"* and *"the Franki interlude lasted five days before collapsing,"* sourced to the Gemini-58 and DANSYNTH self-narrations, and dormancy-not-exit uses that fig |
 | [[wiki/people/fred-adams]] | people | — |
-| [[wiki/people/index]] | people | — |
 | [[wiki/people/jay-lauer]] | people | — |
 | [[wiki/people/joe-croftcheck]] | people | — |
 | [[wiki/people/john-carney]] | people | **RE-CHECKED** — 463-morgantown was updated to record that the Arnu mechanics-lien deadline elapsed on ~27 July 2026 with no documented outcome. The Carney exposure documented on this page is a separate claim on the s |
@@ -104,8 +120,6 @@ simply listed.
 | [[wiki/people/morley-frank]] | people | — |
 | [[wiki/people/rick-frank]] | people | — |
 | [[wiki/people/sadie-harris]] | people | _(carries a CONTRADICTION)_ |
-| [[wiki/people/suzanne-frank]] | people | — |
-| [[wiki/people/the-unnamed-man]] | people | — |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/self/context-core]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/lineage/family-tree]] | self | **CORRECTED** — This page previously drew Fran's descent to Dan through **George Dixon Shrum Jr.**, the maternal grandfather. Read directly from the GEDCOM's family records (`Daniel Frank family tree.txt`), it is the |
@@ -118,7 +132,6 @@ simply listed.
 | [[wiki/timeline/events/teen-concert-years]] | timeline | **CONTRADICTION** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate |
 | [[wiki/timeline/events/the-fall-of-fran]] | timeline | **CONTRADICTION** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] | timeline | **CONTRADICTION** — fran-death-vigil, written from the Photo Thread session, has Dan blowing enormous clouds from a 110-watt SMOK **in the room** while Suz puffed her 10-watt device **in the hospital bathroom**. Both cap |
-| [[wiki/timeline/index]] | timeline | — |
 | [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
 | [[wiki/work/nemacolin-caddying]] | work | — |
 
@@ -238,7 +251,7 @@ simply listed.
 | [[wiki/people/menore]] | people | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/places/424-bedford-ave]] | places | — |
 
-## 2026-07-26 — 11 pages
+## 2026-07-26 — 10 pages
 
 - **Session log:** climb | all | SYNTHESIS_SPEC + bin/wiki-climb — the wiki becomes an input to itself
 - **Session log:** ingest | people+timeline | the July 2026 re-contact — annie-ulmer reopened
@@ -248,7 +261,6 @@ simply listed.
 | [[wiki/health/hyperreflexivity]] | health | **REVISED** — the reframe made a testable prediction — that the loop tracks the two unresolved conditions rather than running independently — and the July 2026 record gives a partial test. One of the two conditions |
 | [[wiki/mind/concepts/attachment-model]] | mind | _(carries a REVISED from 2026-06-22)_ |
 | [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
-| [[wiki/mind/concepts/node-locking]] | mind | — |
 | [[wiki/people/gabe]] | people | _(carries a CONTRADICTION)_ |
 | [[wiki/people/valeria-iglesias-cid]] | people | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/self/location-history]] | self | — |
@@ -359,7 +371,7 @@ simply listed.
 | [[wiki/work/tech/index]] | work | — |
 | [[wiki/work/tech/mneme/overview]] | work | — |
 
-## 2026-07-19 — 53 pages
+## 2026-07-19 — 52 pages
 
 - **Session log:** ingest | people | long-tail MINE pass (sam, davey-fitzpatrick, vaughn, nick-mattie, urpaaa) + kezmarsky death-claim correction
 - **Session log:** ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
@@ -424,7 +436,6 @@ simply listed.
 | [[wiki/people/stephanie-nalbone]] | people | — |
 | [[wiki/people/steve-kezmarsky]] | people | **REVISED** — This page previously stated Steve was dead by December 2018, citing the Jim Shaffer thread. The raw rows show the opposite: Jim's "Wait... he's dead?" was a misreading of Dan's joke, and Dan immediate |
 | [[wiki/people/trevor]] | people | — |
-| [[wiki/people/tuquick-17248123683]] | people | _(carries a REVISED from 2026-07-20)_ |
 | [[wiki/people/urpaaa-at-yahoo-com]] | people | — |
 | [[wiki/people/vaughn]] | people | — |
 | [[wiki/people/zachariah-harshman]] | people | — |

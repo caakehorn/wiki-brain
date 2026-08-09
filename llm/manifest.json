@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-08",
+ "generated": "2026-08-09",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 438,
+ "page_count": 441,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1123,7 +1123,7 @@
    "title": "The Forensic Method",
    "summary": "The forensic method is Dan's cognitive default, not a tool he picks up: every domain that contains evidence \u2014 a decade of relationship messages, raw J6 foota...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/forensic-method.txt",
-   "bytes": 15579
+   "bytes": 18427
   },
   {
    "page": "wiki/mind/concepts/institutional-out.md",
@@ -1137,7 +1137,7 @@
    "title": "Node Locking",
    "summary": "Node locking is the memory-persistence protocol Dan runs inside his AI sessions: he delivers granular, named \"Node X:\" observations and requires the model to...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/node-locking.txt",
-   "bytes": 6808
+   "bytes": 7800
   },
   {
    "page": "wiki/mind/concepts/phenomenology-lens.md",
@@ -1158,7 +1158,7 @@
    "title": "mind \u2014 index",
    "summary": "Beliefs, ideology, psychology, and values. The domain is organized in four layers: **profile/** holds the measured personality results and their detailed bre...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/index.txt",
-   "bytes": 11043
+   "bytes": 11398
   },
   {
    "page": "wiki/mind/profile/big-five-psychometrics.md",
@@ -1291,14 +1291,14 @@
    "title": "Attachment Trauma Bond and Aura Illness",
    "summary": "The ten-year relationship between Dan and [[wiki/people/annie-ulmer|Annie]], spanning from their initial meeting on Thanksgiving weekend in November 2015 to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/attachment-trauma-bond.txt",
-   "bytes": 15696
+   "bytes": 16247
   },
   {
    "page": "wiki/mind/synthesis/block-unblock-loop.md",
    "title": "The Block/Unblock Loop",
    "summary": "Across the corpus, Dan's severances follow one script: **the exit is declared, not executed.** A block, an \"I'm done,\" an account abandonment \u2014 a bounded bur...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/block-unblock-loop.txt",
-   "bytes": 19710
+   "bytes": 20149
   },
   {
    "page": "wiki/mind/synthesis/bond-switch-2015.md",
@@ -1312,21 +1312,21 @@
    "title": "The Dan/Annie Fallout \u2014 Was He Correct to Feel Wronged? (Raw-Evidenced)",
    "summary": "The verdict, stated plainly: **yes \u2014 on the documented facts, Dan was correct to feel wronged, and the feeling was not a misreading.** The record supports a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dan-annie-fallout-verdict.txt",
-   "bytes": 32243
+   "bytes": 34223
   },
   {
    "page": "wiki/mind/synthesis/dormancy-not-exit.md",
    "title": "Dormancy, Not Exit",
    "summary": "**Nothing leaves this graph.** Every sustained relationship in the corpus that the record describes as \"over\" is, on inspection, not over \u2014 it has changed ro...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dormancy-not-exit.txt",
-   "bytes": 23013
+   "bytes": 23377
   },
   {
    "page": "wiki/mind/synthesis/estate-money-spine.md",
    "title": "The Estate / Money Spine",
    "summary": "Money in this biography does not accumulate; it **arrives in lumps and exits through standing drains.** This page traces the capital timeline as a single cau...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/estate-money-spine.txt",
-   "bytes": 13246
+   "bytes": 13728
   },
   {
    "page": "wiki/mind/synthesis/fayette-return.md",
@@ -1385,11 +1385,18 @@
    "bytes": 12649
   },
   {
+   "page": "wiki/mind/synthesis/read-receipt-forensics.md",
+   "title": "Read-Receipt Forensics \u2014 chat.db Metadata and Its Traps",
+   "summary": "Derived from a single extraction session, 2026-08-09. Three defects, each of which **silently produces a confident wrong answer rather than an error.** That ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/read-receipt-forensics.txt",
+   "bytes": 7652
+  },
+  {
    "page": "wiki/mind/synthesis/single-channel.md",
    "title": "The Single Channel",
    "summary": "Wherever a distributed architecture is available to him, Dan runs **one channel at maximum voltage instead**. This is not a description of his personality; i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/single-channel.txt",
-   "bytes": 17497
+   "bytes": 17861
   },
   {
    "page": "wiki/mind/synthesis/spatial-behavior.md",
@@ -1403,14 +1410,14 @@
    "title": "The Supply Network",
    "summary": "Since January 2011, Dan has been on a daily Suboxone regimen \u2014 fifteen years, described in the primary sources as structural rather than recreational: a medi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/supply-network.txt",
-   "bytes": 23551
+   "bytes": 23964
   },
   {
    "page": "wiki/mind/synthesis/the-deferred-audit.md",
    "title": "The Deferred Audit",
    "summary": "Dan audits everything. What decides the outcome is not *whether* the audit runs \u2014 it always runs \u2014 but **when**, and the schedule is set by a single question...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-deferred-audit.txt",
-   "bytes": 26557
+   "bytes": 28760
   },
   {
    "page": "wiki/mind/synthesis/the-embedded-objective.md",
@@ -1424,7 +1431,7 @@
    "title": "The Unbroken Bond",
    "summary": "Since leaving high school, Dan has been continuously inside a long-term monogamous relationship for approximately **seventeen years**, with an unattached tot...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-unbroken-bond.txt",
-   "bytes": 15212
+   "bytes": 15617
   },
   {
    "page": "wiki/mind/synthesis/totality-themes.md",
@@ -1494,7 +1501,7 @@
    "title": "Annie (Anne Louise Ulmer)",
    "summary": "Annie Ulmer was Dan's partner for ten years and seven months \u2014 November 28, 2015 to June 1, 2026 \u2014 and is the only relationship in his documented history to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 83316
+   "bytes": 84046
   },
   {
    "page": "wiki/people/annoying.md",
@@ -1830,7 +1837,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 20899
+   "bytes": 21295
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1922,6 +1929,13 @@
    "summary": "Dan's oldest friend and his single highest-signal, lowest-frequency contact: a childhood friend from Uniontown now in Sacramento, married (Rachel, Jewish) wi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jerad-friedline.txt",
    "bytes": 4702
+  },
+  {
+   "page": "wiki/people/jerel-coles.md",
+   "title": "Jerel Wayne Coles",
+   "summary": "On **2026-08-08 at 19:01:22 EDT** Dan ran a FOREWARN background lookup on the man Annie left him for. The capture is filed at",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jerel-coles.txt",
+   "bytes": 21083
   },
   {
    "page": "wiki/people/jess.md",
@@ -2362,7 +2376,7 @@
    "title": "Suz (Suzanne Frank)",
    "summary": "Dan's mother and, across four decades, the single most constant structural presence in his life \u2014 the person who has most often been both the floor under him...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/suzanne-frank.txt",
-   "bytes": 21583
+   "bytes": 22129
   },
   {
    "page": "wiki/people/tan-calabrese.md",
@@ -2390,7 +2404,7 @@
    "title": "The Unnamed Man",
    "summary": "He is the person [[wiki/people/annie-ulmer|Annie]] left Dan for, the person she says raped her on July 25, 2026, and the person whose continued presence in h...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/the-unnamed-man.txt",
-   "bytes": 10189
+   "bytes": 13722
   },
   {
    "page": "wiki/people/timmy.md",
@@ -2425,7 +2439,7 @@
    "title": "Tuquick (+17248123683)",
    "summary": "Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal group chat that closed the relationshi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/tuquick-17248123683.txt",
-   "bytes": 9776
+   "bytes": 13999
   },
   {
    "page": "wiki/people/urpaaa-at-yahoo-com.md",
@@ -2778,6 +2792,13 @@
    "bytes": 9496
   },
   {
+   "page": "wiki/timeline/events/august-2026-unmasking.md",
+   "title": "The Unmasking and the August 8\u20139 Collapse",
+   "summary": "All figures recomputed from `annie_metadata_24h.csv` (230 rows, ROWID 228148\u2013228378) \u2014 see sourcing note above. Method and its traps:",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/august-2026-unmasking.txt",
+   "bytes": 11678
+  },
+  {
    "page": "wiki/timeline/events/bald-eagle-cummings.md",
    "title": "Bald Eagle Cummings (~2000\u20132001?)",
    "summary": "In seventh grade, on a night ski trip to [[wiki/places/seven-springs|Seven Springs]], Dan's girlfriend attempted to give him oral sex in the woods between tw...",
@@ -2880,7 +2901,7 @@
    "title": "timeline \u2014 index",
    "summary": "",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/index.txt",
-   "bytes": 4140
+   "bytes": 4440
   },
   {
    "page": "wiki/timeline/periods/2010s.md",
