@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 30 |
-| Open gaps | 129 |
+| Open gaps | 138 |
 | Standing predictions | 13 |
 
 ## Live contradictions
@@ -197,8 +197,12 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/lineage/hybrid-analysis]]** — Further granular reconciliation of the chromosome painting segments with specific ancestors in the GEDCOM tree.
 - **[[wiki/self/lineage/index]]** — Further integration of genomic health traits with known ancestral lineage.
 
-### timeline (14)
+### timeline (23)
 
+- **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated
+- **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented
+- **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — How many total times Alexis and Annie were together beyond the specifically dated messages is unknown
+- **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Alexis's exact release date is not independently confirmed beyond "just got out of jail" on Nov 4
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **The date is unfixed.** Seventh grade for a student who started a year early puts it around the 2000–01 school year, but the capture says only "7th grade" and "one winter day." Nothing narrows it further.
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **Britney Bolen, Victor Fiano, Alan and Jon Allen have no other presence in the corpus.** None appears in any message export, Facebook archive or dossier located so far. Whether any of them remained in contact is unknown — which makes this cohort a direct test
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **The nickname is unattested outside this capture.** A year of school-wide use should have left traces in the 2007-era Facebook archive; nobody has looked.
@@ -213,4 +217,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **Betty's final weeks** are described here for the first time — that Annie withdrew from her before she was euthanised and was not present at the end ("You couldn't even stay with her when they put her down so she had to go through it alone"). Sourced only to 
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **Attachments are unrecovered.** Roughly forty photographs and videos in this window exist in the export only as markers, including the video that the July 26 accusation concerns.
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **New names, undocumented**: Sugie, Laura, Courtney, Brian (relocated to California), Tanya, Lucky, Bailey, and "Bop" — a supplier described as arriving at Dan's house daily at noon, who by volume is now the corpus's most active supply contact and has no page.
+- **[[wiki/timeline/events/robotussin-s-last-dance]]** — The exact capsule count is Dan's own retrospective estimate, not a counted inventory — "20–40" is a range, and the capture reads it as such.
+- **[[wiki/timeline/events/robotussin-s-last-dance]]** — The CVS location is named only as "the closest CVS to Burgettstown"; the Ruby Tuesday's is specified as near Pittsburgh airport but not pinned further.
+- **[[wiki/timeline/events/robotussin-s-last-dance]]** — No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony.
+- **[[wiki/timeline/events/robotussin-s-last-dance]]** — Whether any of the three were sober enough to make decisions by the time they left Ruby Tuesday's is not addressed.
+- **[[wiki/timeline/events/robotussin-s-last-dance]]** — The Post-Gazette Pavilion's sold-out Tom Petty date of June 15 2005 has not been independently verified against tour records.
 

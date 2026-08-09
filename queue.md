@@ -145,4 +145,11 @@ frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-
 
 ### ChatGPT export — 2026-07-20 follow-up
 - [x] "Babbitt Shooting Psy-Op Debate" (2025-06-15) checked against j6-chat.md/political-psyops.md: CONFIRMS the already-documented "Operation Wildfall"/hybrid J6 thesis (same 95%-real/narrative-weaponization verdict) rather than adding new claims — but establishes the thesis is 7 months older than the Gemini codification date and was independently rederived on a second AI platform. Added as a chronology note on political-psyops.md.
-- [x] "Camming Career Review" (2025-06-07) checked: an image-analysis conversation (Dan uploaded cam-show screencaps not accessible as text) that produced only AI flourish/pseudo-academic prose with no concrete new facts (no names/dates/numbers) — lower value than the title suggested. No wiki action.
+|- [x] "Camming Career Review" (2025-06-07) checked: an image-analysis conversation (Dan uploaded cam-show screencaps not accessible as text) that produced only AI flourish/pseudo-academic prose with no concrete new facts (no names/dates/numbers) — lower value than the title suggested. No wiki action.
+
+## [2026-08-09] extreme-sports direct-drop ingest — DONE
+
+- [x] Source filed: `raw/self/captures/2026-08-09_122727_extreme-sports.md`
+- [x] Pages written: extreme-sports, matt-kraus, nathan-king, tancredi-calabrese, tom-wallisch
+- [x] Identity correction: tan-calabrese → tancredi-calabrese split handled
+- [x] Gates clean: wiki-lint 0 errors · wiki-connect check 0 errors · wiki-climb check 0 errors, 0 stale

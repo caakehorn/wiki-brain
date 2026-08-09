@@ -140,6 +140,10 @@ related: []
 - [[wiki/people/tarik-fallous]] — Tarik Fallous — owner-operator (with his brother Ghassan) of Au Za'atar, the Lebanese restaurant near 58th…
 - [[wiki/people/teddy]] — Recurring Uniontown-area informal pharmaceutical supplier, 2018–2020; a transactional but socially embedded local supply node.
 - [[wiki/people/timmy]] — Underage Little Caesars employee whose vape/gambling ban and Anita's Kim→"Daniel" blame-pivot is the two-weeks-prior template for the drawer dispute.
+- [[wiki/people/tom-wallisch]] — Professional freeskier who grew up in the same Seven Springs regional scene as Dan's adolescence (2000s); the 4Bi9 Media era later turned this regional terrain-park culture into a national film movement.
+- [[wiki/people/matt-kraus]] — Dan's closest documented childhood friend from the Seven Springs era; co-attendee of the Vans Skatepark birthday trips, the overlapping Seven Springs ski years, and Camp Woodward for rollerblading.
+- [[wiki/people/nathan-king]] — Childhood friend who attended Camp Woodward with Dan and Matt Kraus for three years of rollerblading camp before the program added skiing.
+- [[wiki/people/tancredi-calabrese]] — Childhood friend who planned the Windell's Whistler BC summer ski-camp trips; represents the aspirational post-adolescent ski-camp layer.
 - [[wiki/people/tom]] — Tom Maison — Dan's primary male ally and the clearest instance of safe, lateral (peer, non-paternal)…
 - [[wiki/people/trevor]] — Trevor Bevins: Dan's Nemacolin caddying peer, golf companion, and later market-era Facebook contact; the thread also records money strain between friends.
 - [[wiki/people/trinity-st-clair]] — Adult performer booked as a paid companion for Dan and Annie, spring 2019; same window as the Shelbie threesome.

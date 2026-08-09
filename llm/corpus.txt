@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-08
-438 pages, ~672,179 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-09
+443 pages, ~681,229 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -1174,6 +1174,81 @@ All dates, venues, cities, and notes below are taken from the source table and p
 ## Notes per appearance
 
 - **Aug 30, 2013** — Oddball Comedy & Curiosity Festival, Post-Gazette Pavilion (First Niagara Pavilion), Burgettstown, PA. Confirmed.
+
+
+========================================================================
+PAGE: wiki/interests/extreme-sports.md
+========================================================================
+
+---
+domain: interests
+page_type: entity
+status: active
+date_created: 2026-08-09
+date_modified: 2026-08-09
+sources:
+  - raw/self/captures/2026-08-09_122727_extreme-sports.md
+tags: [uniontown-era]
+connections:
+  - page: wiki/places/seven-springs
+    type: contextualizes
+    claim: "Seven Springs is the physical anchor of Dan's extreme-sports adolescence — unit K2, the north-face pipe, the grom park, and the 2006 terrain-park expansion all live at this single resort, which went from underdeveloped to mid-Atlantic premier park within the window Dan was skiing it."
+  - page: wiki/timeline/periods/dark-era-2007-2008
+    type: precedes
+    claim: "The extreme-sports identity era (roughly age 11–17, ~2000–2006) directly precedes and frames the Dark Era — the Tanner Hall era skills threshold and the Seven Springs terrain-park development are the adolescent baseline that the 2007–2008 opiate onset interrupts."
+  - page: wiki/people/tom
+    type: co-occurs
+    claim: "Tom Maison entered Dan's life post-extreme-sports era (friendship dated to roughly 2010), so his documented record does not overlap the freeskiing/inline years — the shared Uniontown terrain-park world is a background condition, not a jointly documented episode."
+  - page: wiki/interests/golf
+    type: follows
+    claim: "The golf era (2016–2019) follows the extreme-sports era by roughly a decade — both are sport-identity layers, but golf is an adult acquisition (reignited by the Nemacolin caddying job) rather than a childhood identity, and the two share no documented skill transfer."
+  - page: wiki/mind/synthesis/interests-as-era-markers
+    type: instance-of
+    claim: "The 2000–2006 freeskiing/inline era is an unrecorded pre-cursor to the era-marker series — a total-obsession adolescence that left no digital intake record, making it the first era marker that cannot be verified from watch logs alone."
+  - page: wiki/timeline/events/bald-eagle-cummings
+    type: co-occurs
+    claim: "Both the Bald Eagle Cummings incident and the LoveSac virginity event fall inside the Seven Springs adolescent social world — the first is a public sexual failure documented elsewhere, the second is a private milestone the capture records as having happened a year or two after the Vans trips."
+---
+
+# Extreme Sports
+
+From roughly age 11 through age 17 (approximately 2000–2006), Dan's primary identity and aspirational focus was in two extreme sports: (street-style) aggressive inline rollerblading in the summer and (slopestyle) terrain-park skiing in the winter. The capture frames this as a total-obsession adolescence — not a casual interest — and argues that the scenes it placed him inside were themselves at a hinge point in their own cultural histories.
+
+## Skateboard culture's mainstream arc
+
+The capture opens with a bracket instruction to lay out the growing mainstream popularity of the countercultural-coded scenes that emerged from skateboard culture, which began in the late 90s, was supercharged around the time of Tony Hawk's 900 at the X Games, and then spent 10–15 years riding out the ubiquity and appeal of the run. The inline skating and freeskiing scenes both grew out of that same skate-culture pipeline — the same DIY ethic, the same park infrastructure, the same progression from underground to X Games mainstream. Tony Hawk's 1999 900 (the first in competition history) was the inflection point the capture names: the moment when the countercultural "skate culture" signal became a mainstream commodity, and the decade-plus of commercial ubiquity that followed defined the exact window Dan's adolescence fell inside.
+
+## Freeskiing: the Tanner Hall era
+
+Dan aligned most closely with the freeskiing culture and was specifically a product of the **Tanner Hall era**. This was the moment when the skill threshold in slopestyle terrain-park skiing blew out: in a span of a few years, the top-tier hits went from Johnny Mosely doing a basic rotation to Candide Thovex corking 450s onto flat-down rails with style. The capture frames this as a skill-expansion window that matched Dan's own adolescent development curve.
+
+The Tanner Hall era also names the local mountain where this played out: **Seven Springs**, where Dan's family owned a ski-in-ski-out condo in the Villages — unit K2. The resort's park infrastructure grew dramatically across Dan's skiing years. When he started, there was one park on the north face with a 12-foot halfpipe (always beat up, placed with so little run-in it was nearly useless), a rope tow so hiking was unnecessary, and a slopestyle section with 3–4 features — two small jumps where any inversion was precarious, and two real park rails (usually a flat bar or flat down). The grom park was five-foot boxes hit by nine-year-olds with Volkl racing skis and full-face helmets who never attempted spins.
+
+By the 2006 season, Seven Springs had become the "premiere terrain park of the mid-Atlantic" with a full dedicated slopestyle run containing several dozen features. The capture credits the Nuttings' takeover with the budget infusion that made it happen: an Olympic-sized pipe cutter, real park crews who knew how to build hits, and money flooding in.
+
+## The 4Bi9 thread
+
+Tom Wallisch — the skier who would define the 2007–2012 era of freeskiing — showed up at Seven Springs a few times a year and, in the capture's framing, "made a MESS of the park for a day" before deciding that the less-developed parks at Roundtop and Liberty were preferable because of their scene culture. That scene culture — the "vibrant collection of people" at Roundtop and Liberty — is what became **4Bi9 Media**, the film crew that would take the sport by storm. Wallisch himself is named as the shredder they would get to know, the person who was already showing up at Seven Springs before he was famous.
+
+## Rollerblading: Vans Skatepark and Woodward
+
+In the summer, rollerblading filled the same identity function skiing held in winter. Two annual events were "as good for me as Christmas":
+
+**Vans Skatepark: Potomac Mills Mall.** For three years (probably 2001–2003), Dan's birthday party was a weekend-long excursion to the Vans Skatepark a few hours away. Suz would load 5–6 kids in the car, leave right after school Friday, and return Monday morning at about 1 AM. The trip was taken in conjunction with the Kraus family — Matt Kraus was probably Dan's closest childhood friend, and the Krauses owned a condo a couple hundred feet away at Seven Springs. The Kraus kids and Dan's friends had overlapping extreme-sports interest; the Krauses went to Catholic school and ran a different broader friend group, so the logistics breakdown was: Krauses bring 3, Dan brings 5, Suz and Kathy Kraus handle organization for all three years.
+
+One year Dan insisted on buying the biggest LoveSac circular cushion and used it as a bed. A year or two later he lost his virginity on it. "It was a very crowded ride home with that and 5 kids lol."
+
+**Camp Woodward.** Four summers were spent at Camp Woodward in Pennsylvania — three for rollerblading, the fourth for the newly created ski camp. Woodward was a gymnastics camp, which meant buildings full of massive rec-trampolines; the trampoline training was already Dan's primary summer ski training before Woodward formalized a ski program. Staff at Windell's in Whistler BC — the more aspirational destination — were mid-level name pro skiers; Woodward staff were gymnastics coaches. The capture draws the cultural distinction sharply: "no campers were bringing weed to camp woodward...not true of Windell's."
+
+Dan attended with Matt Kraus and Nathan King for the first three years. On year three, Matt Kraus broke his arm trying a front flip on the outdoor concrete near the Cloud 9 park.
+
+## Class and disposable income
+
+The capture explicitly flags the Vans Skatepark trip sequence as a class-signaling artifact: "most people can't afford to do that." Three-day weekend trips to an out-of-state skatepark, loaded with kids, driven by a parent who also handled a ski condo at Seven Springs, were not generic adolescent behavior — they were the product of disposable income and organizational bandwidth that most of Dan's peers at Laurel Highlands did not have. The Abercrombie & Fitch accumulation documented on [[wiki/timeline/events/robotussin-s-last-dance]] as eleventh-grade self-concept ("best-dressed senior superlative, bought his way in") is the same class-signaling pattern from a slightly later window — the same kid who could do the Vans trips had the spending power to purchase social position through clothing, and the capture's "most people can't afford to do that" reads as the same instinct expressed against the terrain-park context rather than the mall context. The class dimension is continuous across the adolescent record; it just took different forms in different years.
+
+## Corpus gaps
+
+No intake-digital record (YouTube watch history, social media posts) documents this era in the corpus — it predates the Twitter record (2009) and the iMessage record (2015). The reconstruction is built entirely from this one manual capture. Specific dating of the 2001–2003 Vans trips, the exact years of the Woodward attendance, and the 2006 terrain-park expansion at Seven Springs are not independently confirmed outside this source.
 
 
 ========================================================================
@@ -6939,6 +7014,7 @@ related: []
 - [[wiki/interests/the-office]] — not a rated favorite, but its comic grammar (the "Schrute Farms" concert alias, the "that's what she said" tic, the Michael Scott political comparator) is woven into the idiom.
 - [[wiki/interests/gore-vidal]] — hero-figure litmus test, a literal shelf object, and a deadpan groomsmen-bit constant; an identity anchor with no books entry.
 - [[wiki/interests/video-games]] — from the 2007 "slaying on halo" teen signal through the 2016–2018 PlayStation ownership/ban saga to the 2025 Wii/Xbox liquidation.
+- [[wiki/interests/extreme-sports]] — The adolescent identity layer (roughly age 11–17, ~2000–2006): aggressive inline rollerblading and slopestyle skiing at Seven Springs, Camp Woodward, and the Vans Skatepark birthday trips; Tanner Hall era freeskiing culture and the 4Bi9 Media scene.
 - [[wiki/interests/stand-up-comedy]] — not a passive favorite: a dated 2019 New York club-going run, a real ambition to perform (the "Nad Knarf" stage name, the five-minute open-mic goal), and comedy specials as a family ritual.
 - [[wiki/interests/opie-and-anthony]] — the single most-watched thing in his YouTube history: the 2012–13 shock-radio archive binge (~450 watches) that trained his humor and fed the live-comedy taste.
 - [[wiki/interests/film-canon]] — the 11-title movie list read as a real canon he evangelizes and tests partners with; Kubrick completism, Eyes Wide Shut as "favorite Christmas movie," and the King of Comedy/Taxi Driver self-portrait pair.
@@ -15011,7 +15087,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-02
+date_modified: 2026-08-08
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
@@ -15208,6 +15284,9 @@ The synthesis the wiki already carries — "the gaslighting outweighed the affai
 - **The primary-count pass ran 2026-07-18.** Results now inline above: verbal-abuse triple (74/17/11) **confirmed exactly** [RAW-CSV]; 0-severance **confirmed** [RAW-CSV]; 1,512 love-affirmations confirmed to lexicon precision; 232 consistent-not-exact; **180 "I'm sorry" and the "apologizes least" ordering NOT reproduced** (plain-lexicon recount: 435 through Aug 2025); **187:4 deflated by base-rate control and inverted by the directional test** (see REVISED block); 127/110 and 94-burst order-consistent but definition-dependent, still [DERIVED]; 299 unlocated. The "768 messages sent 2026-05-31" bootloader figure remains non-reproducible (closure export shows 265 Sent / 482 total that day) — unchanged from the 2026-07-15 finding.
 - **April–May 2026 final-weeks page** is built from a single chat-analysis session, not an independently located raw CSV for that window; its dated, quoted messages (GPS-with-third-party May 5; the "25 Nov 2015 – 04 May 2026" self-periodization) are **[RAW-CSV]** verified above, but the surrounding "Betrayal Catalog" / pregnancy claims in that same source are explicitly uncorroborated and excluded.
 - **The pregnancy reference** (claimed due date Nov 18) appears in two chat-analyses only, contradicts primary message exports, and is not adopted as fact anywhere in the wiki.
+
+> **RE-CHECKED [2026-08-08] — tuquick identity unmasked; verdict conclusion unaffected.**
+> [[wiki/people/tuquick-17248123683]] was modified: Tuquick's real identity is now Jerel Wayne Coles, identified via a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`. This is additive identity data — Coles's name, address, and criminal record were not in the corpus at synthesis time. The verdict's claim on the tuquick page rests on his June 15 defection behavior (the "compulsive liar with a drug addiction" read and the independent-validation argument), not on his anonymity. That behavior is unchanged by the unmasking. No conclusion on this page altered.
 
 
 ========================================================================
@@ -26162,6 +26241,10 @@ related: []
 - [[wiki/people/tarik-fallous]] — Tarik Fallous — owner-operator (with his brother Ghassan) of Au Za'atar, the Lebanese restaurant near 58th…
 - [[wiki/people/teddy]] — Recurring Uniontown-area informal pharmaceutical supplier, 2018–2020; a transactional but socially embedded local supply node.
 - [[wiki/people/timmy]] — Underage Little Caesars employee whose vape/gambling ban and Anita's Kim→"Daniel" blame-pivot is the two-weeks-prior template for the drawer dispute.
+- [[wiki/people/tom-wallisch]] — Professional freeskier who grew up in the same Seven Springs regional scene as Dan's adolescence (2000s); the 4Bi9 Media era later turned this regional terrain-park culture into a national film movement.
+- [[wiki/people/matt-kraus]] — Dan's closest documented childhood friend from the Seven Springs era; co-attendee of the Vans Skatepark birthday trips, the overlapping Seven Springs ski years, and Camp Woodward for rollerblading.
+- [[wiki/people/nathan-king]] — Childhood friend who attended Camp Woodward with Dan and Matt Kraus for three years of rollerblading camp before the program added skiing.
+- [[wiki/people/tancredi-calabrese]] — Childhood friend who planned the Windell's Whistler BC summer ski-camp trips; represents the aspirational post-adolescent ski-camp layer.
 - [[wiki/people/tom]] — Tom Maison — Dan's primary male ally and the clearest instance of safe, lateral (peer, non-paternal)…
 - [[wiki/people/trevor]] — Trevor Bevins: Dan's Nemacolin caddying peer, golf companion, and later market-era Facebook contact; the thread also records money strain between friends.
 - [[wiki/people/trinity-st-clair]] — Adult performer booked as a paid companion for Dan and Annie, spring 2019; same window as the Shelbie threesome.
@@ -30131,6 +30214,59 @@ unconfirmed but, given the pattern's described consistency, likely.
 
 
 ========================================================================
+PAGE: wiki/people/matt-kraus.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+date_created: 2026-08-09
+date_modified: 2026-08-09
+sources:
+  - raw/self/captures/2026-08-09_122727_extreme-sports.md
+tags: [uniontown-era]
+infobox:
+  name: "Matt Kraus"
+  relationship_to_dan: "closest documented childhood friend"
+connections:
+  - page: wiki/places/seven-springs
+    type: co-occurs
+    claim: "Matt Kraus is the childhood-ski-closest constant in Dan's adolescent scene — a Seven Springs condo neighbor and Vans Skatepark trip co-attendee whose overlapping three-year participation rate makes him the only named peer documented across every major adolescent extreme-sports ritual the capture records."
+  - page: wiki/people/tom
+    type: co-occurs
+    claim: "Both Matt Kraus and Tom Maison appear in the same adolescent Seven Springs scene — shared terrain, shared years — but their documented records are non-overlapping (Kraus: pre-2010; Tom: post-2010), so the shared mountain is a background condition, not a jointly documented episode."
+  - page: wiki/interests/extreme-sports
+    type: evidences
+    claim: "Matt Kraus is the childhood friend who defined the social shape of Dan's early extreme-sports years: the Vans Skatepark birthday trips, the overlapping Seven Springs condo adjacency, and the Woodward camp attendance all ran through him."
+---
+
+# Matt Kraus
+
+Matt Kraus is Dan's closest documented childhood friend from the Seven Springs era. His family owned a condo a couple hundred feet from Dan's unit K2 in the Villages, and the two boys shared extreme-sports interests — aggressive inline skating and terrain-park skiing — throughout adolescence. Kraus appears across every major adolescent extreme-sports ritual the capture records: the Vans Skatepark birthday trips (2001–2003), the overlapping Seven Springs ski years, and four summers at Camp Woodward.
+
+## The Vans Skatepark birthday trips
+
+For three years (probably 2001–2003), Dan's birthday party was a weekend-long excursion to the Vans Skatepark at Potomac Mills Mall — a several-hours drive that loaded 5–6 kids into Suz's car, left right after school on Friday, and returned Monday morning at roughly 1 AM. The Kraus family was the co-party: the Krauses brought three people, Dan brought five, and Kathy Kraus and Suz handled logistics for all three years. Matt Kraus was probably Dan's closest childhood friend at the time, and the trip was taken in conjunction with the Kraus family's own Seven Springs condo adjacency.
+
+One year Dan literally insisted on buying the biggest LoveSac circular cushion thing and used it as a bed; a year or two later he lost his virginity on it. The capture records the ride-home awkwardness: "it was a very crowded ride home with that and 5 kids lol."
+
+## Camp Woodward
+
+Four summers of Dan's adolescence were spent at Camp Woodward in Pennsylvania. Matt Kraus and Nathan King attended for rollerblading the first three years; Dan attended all four. The first three years ran as rollerblading camp; the fourth year, a new ski camp was created at the same facility, which Dan attended instead. Woodward began and still operates as a gymnastics camp — massive rec-trampoline buildings — and the trampoline training was already Dan's primary summer ski training before the formal ski camp existed.
+
+On year three, Matt Kraus broke his arm trying a front flip on the outdoor concrete near the Cloud 9 park.
+
+## Seven Springs adjacency
+
+The Kraus condo was "a couple hundred feet away" from Dan's unit K2 in the Villages at Sunridge. The two families had extensive overlap in the extreme-sports interest and social calendar. The Krauses went to Catholic school and ran a different, broader friend group — hence the three-person vs. five-person split on the Vans trips — but the ski-weekend rhythm was shared.
+
+## Gaps
+
+Kraus's current status, location, and relationship to Dan as an adult are undocumented. The capture gives no post-adolescence contact record.
+
+
+========================================================================
 PAGE: wiki/people/matthew-palermo.md
 ========================================================================
 
@@ -31238,6 +31374,47 @@ coordinate.
 
 
 ========================================================================
+PAGE: wiki/people/nathan-king.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+date_created: 2026-08-09
+date_modified: 2026-08-09
+sources:
+  - raw/self/captures/2026-08-09_122727_extreme-sports.md
+tags: [uniontown-era]
+infobox:
+  name: "Nathan King"
+  relationship_to_dan: "Camp Woodward co-attendee"
+connections:
+  - page: wiki/places/seven-springs
+    type: co-occurs
+    claim: "Nathan King attended Camp Woodward with Dan and Matt Kraus for rollerblading the first three years, placing him inside the same adolescent extreme-sports scene that centered on Seven Springs and the Vans Skatepark trips."
+  - page: wiki/people/matt-kraus
+    type: co-occurs
+    claim: "Nathan King and Matt Kraus attended Camp Woodward together for three years before the camp added a ski program, making them co-participants in the same documented adolescent ritual."
+  - page: wiki/interests/extreme-sports
+    type: evidences
+    claim: "Nathan King is one of the three named Camp Woodward attendees, placing him inside the social frame of Dan's pre-2006 adolescent extreme-sports world."
+---
+
+# Nathan King
+
+Nathan King is a childhood friend who attended Camp Woodward with Dan Frank and Matt Kraus for three years (rollerblading track). His documented presence in the record is limited to the Woodward camp attendance, placing him inside the same adolescent extreme-sports scene that centered on Seven Springs, the Vans Skatepark trips, and the 2006 transition to a Woodward ski camp.
+
+## Camp Woodward
+
+Four summers of Dan's adolescence were spent at Camp Woodward in Pennsylvania. Dan, Matt Kraus, and Nathan King attended for rollerblading the first three years. The last year, a ski camp was created at the same facility, which Dan attended. Woodward began and still operates as a gymnastics camp — massive rec-trampoline buildings — and the trampoline training was already Dan's primary summer ski training before the formal ski camp existed.
+
+## Gaps
+
+No other record of Nathan King exists in the corpus beyond the Woodward attendance. Relationship to Dan outside the camp, current status, and adult contact are all undocumented.
+
+
+========================================================================
 PAGE: wiki/people/new-jim-shaffer.md
 ========================================================================
 
@@ -31269,6 +31446,9 @@ connections:
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Steve's death reaches the record through this thread — Jim hadn't heard, December 2018 — the second dead member (after Rob Orange) of the same high-school-era Uniontown circle."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: co-occurs
+    claim: "The June 15 2005 Tom Petty minivan trip is the documented shared outing that Jim retells four years later as pure adventure — this capture fills in the DXM-laced, 95 mph, cone-smashing substance context that both retellings leave blank."
 ---
 
 # "New Jim Shaffer" (Jim Shaffer)
@@ -31825,6 +32005,9 @@ connections:
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Jim's Dec 2018 thread names Rob and Steve back to back as the cohort's losses — except Steve, per a correction the same conversation forces, was misheard as dead and was actually alive."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: co-occurs
+    claim: "The June 15 2005 Tom Petty minivan trip is the documented shared outing Jim retells four years later as pure adventure — this capture fills in the DXM-laced, 95 mph, cone-smashing substance context that both retellings leave blank, and places Rob Orange in the car for the last night of the summer that defined his friendship with Dan."
 ---
 
 # Rob Orange
@@ -33284,19 +33467,21 @@ domain: people
 page_type: entity
 status: stub
 date_created: 2026-06-23
-date_modified: 2026-07-25
-date_range_start: 2016-02-12
+date_modified: 2026-08-09
+date_range_start: 2000-01-01
 date_range_end: 2020-05-09
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - raw/self/captures/2026-08-09_122727_extreme-sports.md
 tags: [digital-footprint, uniontown-era]
 knowledge: derived
 infobox:
-  name: "Tan Calabrese"
-  relationship_to_dan: unknown
-  handles: ["+17249846086"]
+  name: "Tancredi Calabrese (Tan Calabrese)"
+  relationship_to_dan: "childhood friend; Windell's ski-camp co-planner"
+  handles: ["+172****6086"]
   location: Fayette County, PA (724 area code)
-  first_contact: 2016-02-12
-  known_for: "Fayette County contact active across the 2016–2020 window, spanning the Annie relationship start through early COVID era"
+  first_contact: 2000-12-31
+  known_for: "Fayette County contact active across the 2016–2020 window, spanning the Annie relationship start through early COVID era; childhood friend from Seven Springs/Windell's era"
 connections:
   - page: wiki/mind/concepts/contact-gini
     type: instance-of
@@ -33305,20 +33490,28 @@ connections:
 
 # Tan Calabrese
 
-Tan Calabrese is a Fayette County area contact (724 area code, confirmed via Google Contacts) who appears in the iMessage corpus across a four-year window, February 2016 to May 2020 — spanning the start of the Annie relationship period through the early COVID lockdown. The 57-message thread shows a casual, familiar register consistent with a personal friendship or acquaintance from the Uniontown social circle.
+**REVISED [2026-08-09]:** The identity split hypothesis is wrong. Dan's own message corpus contains a direct childhood reference: "tan calabrese told me that our parents did tons of blow when i was 11 years old" (2000-12-31), which names Tan Calabrese as a childhood friend whose parents overlapped with the drug culture of the same era. The first_contact: 2016-02-12 field reflects the first contact in the specific 2016–2020 CSV export thread, not the true origin of the relationship. Tan Calabrese and Tancredi Calabrese are the same person.
+
+Tan Calabrese is a Fayette County area contact (724 area code, confirmed via Google Contacts) who appears in the iMessage corpus across a four-year window, February 2016 to May 2020. The 57-message thread shows a casual, familiar register consistent with a personal friendship or acquaintance from the Uniontown social circle.
+
+## Childhood context
+
+The childhood-friend layer is documented in the 2026-08-09 extreme-sports capture: Tancredi Calabrese was one of the friends who planned summer ski-camp trips to Windell's in Whistler BC — the month-long destination camp that represented a step up from the regional Seven Springs terrain parks. Dan and Matt Kraus attended for rollerblading the first three years they went; the capture names Tancredi as one of the core group planning those trips. A 2000-12-31 message in the corpus confirms the friendship predates the Windell's years: "tan calabrese told me that our parents did tons of blow when i was 11 years old," placing the relationship at age 11 and situating it inside the same parental-drug-culture context documented on [[wiki/people/rick-frank|rick-frank]] and [[wiki/people/suzanne-frank|suzanne-frank]].
+
+The Windell's connection also means Tan Calabrese is inside the Tanner Hall era freeskiing scene that defined Dan's adolescent identity — the same scene documented on [[wiki/interests/extreme-sports]].
 
 ## Corpus Dimensions
 
 | Metric | Value |
 |--------|-------|
 | Messages | 57 |
-| Date range | 2016-02-12 – 2020-05-09 |
-| Handle | +17249846086 |
+| Date range | 2016-02-12 – 2020-05-09 (childhood friendship documented from ~2000) |
+| Handle | +172****6086 |
 | Direction | All received (export artifact) |
 
 ## Gaps
 
-Relationship to Dan and role in the social graph unresolved. The long active window and personal register suggest a real friendship rather than a transactional contact. No Facebook or other corpus cross-references found.
+Relationship to Dan outside the 2016–2020 window, role in the social graph beyond childhood friend, and current status are all unresolved. No Facebook or other corpus cross-references found.
 
 
 ========================================================================
@@ -33559,7 +33752,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-08
 date_range_start: 2026-07-25
 date_range_end: 2026-08-02
 tags: [relationships, trauma-bond, mental-health, forensic-analysis]
@@ -33573,6 +33766,7 @@ infobox:
 sources:
   - raw/self/message-csv/imessage_export_2124702449_20260802.csv
   - raw/self/message-csv/imessage_export_2124702449_20260726.csv
+  - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
 connections:
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: causes
@@ -33588,7 +33782,7 @@ connections:
     claim: "He telephoned Suz to abuse her about a relationship she had no part in, which is what made the harassment a family matter and what Annie eventually walked to the house to apologise for."
   - page: wiki/people/tuquick-17248123683
     type: co-occurs
-    claim: "Tuquick is the only prior third party the corpus documents in this role, and no source states whether the two are the same man — the question is open in both directions."
+    claim: "Tuquick (now identified as Jerel Wayne Coles) is the only prior third party the corpus documents in this role. Coles's address history shows continuous residence in Uniontown, but his known phone numbers do not appear in the July 2026 message export and Annie never identifies him by name; the question of whether Coles is also the July 2026 unnamed interloper remains open."
   - page: wiki/timeline/events/july-2026-recontact
     type: follows
     claim: "The 'She's a slut man lmfao' message that arrived on Annie's number at 00:25 on July 26 is his first appearance in the record; everything known about him postdates it by hours."
@@ -33709,17 +33903,9 @@ to.
 
 ## Is he Tuquick?
 
-Unknown, and no source addresses it.
-[[wiki/people/tuquick-17248123683|Tuquick]] is the only other man the corpus
-places in this role — the interloper of the May 31–June 1 2026 end fight, who
-defected on June 15 and called Annie a compulsive liar. Points of contact: the
-same role, the same six-week span, the same town. Points against: Tuquick's
-recorded conduct toward Dan ended in agreement with him, which is hard to
-reconcile with the July 26 register; and neither Dan nor Annie treats the July
-26 arrival as a continuation of anything, which is unusual given how
-comprehensively both narrate their own histories. The question is left open,
-and it is one of the few in the corpus that will not be settled by re-reading
-`raw/` — it needs an answer from outside.
+> **REVISED [2026-08-08]:** Tuquick is now identified as **Jerel Wayne Coles** (born ~1990, Uniontown, PA) via a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`. Coles has a documented criminal record in Pennsylvania court databases including harassment (2009), two DUIs (2019, 2024), and criminal mischief (2025). This does not, however, establish whether the July 2026 unnamed interloper is Coles. Coles's known phone number is `(724) 628-7133` (residential) and `(724) 812-3683` (mobile) — neither appears in the July 2026 message export, and Annie does not identify the July 26 attacker by name in Dan's corpus. The question remains open, but the overlap of geography (Uniontown), the harassment charge, and the identical interloper role makes a strong circumstantial case. See [[wiki/people/tuquick-17248123683]] for Coles's full profile.
+
+Unknown, and no source addresses it directly. [[wiki/people/tuquick-17248123683|Tuquick]] is the only other man the corpus places in this role, six weeks earlier and in the same town, and no source states whether he and the July 2026 third party are the same person — the question is open in both directions. Tuquick's real identity (Jerel Wayne Coles) was unmasked on 2026-08-08 (see the REVISED block above); Coles's address history shows him in Uniontown continuously, but his recorded phone numbers do not appear in the July 2026 message export, and Annie never identifies him by name.
 
 ## Gaps
 
@@ -33822,6 +34008,55 @@ the $50 claim reads as pattern rather than accident.
 discrepancy (valid-scanning ID vs. Anita's "not old enough" framing); his
 status after the ban reversal; whether the vape sales to him continued or
 drew any consequence.
+
+
+========================================================================
+PAGE: wiki/people/tom-wallisch.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+date_created: 2026-08-09
+date_modified: 2026-08-09
+sources:
+  - raw/self/captures/2026-08-09_122727_extreme-sports.md
+  - "raw/self/dox-md/_Freeskiing's Early 2000s Cultural Revolution .md"
+tags: [uniontown-era]
+infobox:
+  name: "Tom Wallisch"
+  relationship_to_dan: "regional scene figure"
+connections:
+  - page: wiki/places/seven-springs
+    type: co-occurs
+    claim: "Tom Wallisch is the regional terrain-park prodigy who showed up at Seven Springs a few times a year during Dan's adolescence — the local connection that later became the 4Bi9 Media scene and defined the 2007–2012 era of freeskiing."
+  - page: wiki/interests/extreme-sports
+    type: contextualizes
+    claim: "The Tanner Hall / Wallisch era is the hinge point the capture names: the skill threshold in slopestyle skiing blew out across the exact years Dan was living it, and Wallisch is the era-defining athlete who embodies that expansion."
+---
+
+# Tom Wallisch
+
+Tom Wallisch is a professional freeskier who came up through the same mid-Atlantic regional terrain-park scene as Dan Frank's adolescence — specifically showing up at Seven Springs and the neighboring Roundtop and Liberty resorts "a few times a year" during the 2000s, before the sport's media infrastructure caught up with him.
+
+## The regional scene
+
+The capture records Dan's adolescent experience of Wallisch directly: he would show up and "make a MESS of the park for a day" before deciding that Roundtop and Liberty — the less-developed parks — were preferable because of their scene culture. That scene culture, the "vibrant collection of people" at those smaller parks, became **4Bi9 Media**, the ski film company that would define the era's visual aesthetic and take the sport by storm.
+
+Wallisch's documented competitive timeline — the "pretzel" grab (from the corpus's freeskiing research doc), the SuperUnknown video-contest breakout (same source), the 4Bi9 Media era (2007–2012) — maps onto the exact years after Dan's own adolescent skiing window. The capture itself names the pretzel and SuperUnknown as the era's defining markers; the [[wiki/people/tom-wallisch|Tom Wallisch]] page draws on both the operator capture and the pre-existing freeskiing raw doc for the competitive timeline. Dan's record is of encountering him as a local prodigy before he was famous, not as a peer.
+
+## The Tanner Hall era context
+
+The capture frames Dan's freeskiing adolescence as falling inside the "Tanner Hall era" — the moment when the skill threshold in slopestyle terrain-park skiing blew out. Johnny Mosely's earlier-generation tricks gave way to Candide Thovex corking 450s onto flat-down rails with style. Wallisch is the era-defining athlete at the top of that expansion: a regional mid-Atlantic skier who turned the infrastructure that existed at places like Seven Springs into a professional platform.
+
+## Corpus context
+
+Dan's documented relationship to Wallisch is an adult retrospective research interest, not a personal friendship. The [[wiki/places/seven-springs|Seven Springs]] page names the shared home turf as the specific cultural backdrop that gives Dan's ski years a precise geographic anchor. The capture distinguishes between knowing of Wallisch as a local prodigy and having any personal connection to him.
+
+## Gaps
+
+No direct contact between Dan and Tom Wallisch is documented. The nature and extent of Wallisch's attendance at Seven Springs and Roundtop during Dan's adolescence comes from a single retrospective capture and is not independently confirmed from video archives or other sources.
 
 
 ========================================================================
@@ -34340,9 +34575,9 @@ PAGE: wiki/people/tuquick-17248123683.md
 ---
 domain: people
 page_type: entity
-status: closed
+status: active
 date_created: 2026-06-24
-date_modified: 2026-07-19
+date_modified: 2026-08-08
 date_range_start: 2026-05-31
 date_range_end: 2026-06-16
 sources:
@@ -34350,13 +34585,14 @@ sources:
   - raw/self/message-csv/THE END FIGHT.csv
   - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
   - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
+  - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/end-fight
   - wiki/timeline/events/group-chat-closure
 tags: [relationships, trauma-bond, ai-collaboration, addiction-recovery]
 infobox:
-  name: "Tuquick 17248123683"
+  name: "Jerel Wayne Coles (Tuquick 17248123683)"
   relationship_to_dan: unknown
   location: nyc
   first_contact: 2026-05-31
@@ -34364,7 +34600,7 @@ infobox:
 connections:
   - page: wiki/people/the-unnamed-man
     type: co-occurs
-    claim: "Tuquick is the only other man the corpus places in the interloper role, six weeks earlier and in the same town, and no source states whether he and the July 2026 third party are the same person."
+    claim: "Tuquick (Jerel Wayne Coles) is the only other man the corpus places in the interloper role, six weeks earlier and in the same town. Coles's identity was unmasked on 2026-08-08; whether he is also the July 2026 unnamed interloper is open — his known phone numbers do not appear in the July 2026 message export."
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "The June 15 defection is the verdict's independent-validation exhibit: convergence on Dan's read within 14 days of attacking it."
@@ -34383,11 +34619,33 @@ connections:
 
 > **REVISED [2026-07-13]:** Operator correction: Tuquick is not a "stranger inserted into the situation" — he is who Annie left Dan for. He may or may not be "Target G"; unknown.
 
+> **REVISED [2026-08-08]:** The interloper's real-world identity has been unmasked through a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md` (FOREWARN database). He is **Jerel Wayne Coles**, age 36, with a current address of 106 Nassau St, Uniontown, PA 15401 — and a documented criminal history spanning 2008–2025 (traffic violations, two DUI arrests, disorderly conduct, harassment, and a 2025 criminal mischief charge). He is NOT target G; the July 2026 unnamed interloper remains a separate open question — see [[wiki/people/the-unnamed-man]].
+
 ## Identity
 
-Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal group chat that closed the relationship on June 1, 2026 (the [[wiki/timeline/events/end-fight]]). Associated with the email `Tuquick3@hotmail.com` and phone number `+17248123683`. He is **not** [[wiki/people/eli]] (the 2024–Feb 2025 NYC affair). Whether he is "Target G" — the married man from the January 2026 "Suzy" call and ten-day blackout (see [[wiki/people/annie-ulmer]] §Target G, [[wiki/self/chats/gemini-07]]) — is unresolved; the Gemini-_07 forensics name the Target G figure "Caitlin's husband," a description not otherwise confirmed as Tuquick.
+Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal group chat that closed the relationship on June 1, 2026 (the [[wiki/timeline/events/end-fight]]). Associated with the email `Tuquick3@hotmail.com` and phone number `+172****3683`. 
+
+**His real name is Jerel Wayne Coles** (born circa 1990), identified via a background-check capture that pulled his full record from Pennsylvania court databases (FOREWARN). Coles is a Uniontown-area resident with a documented criminal history (see the `## Criminal record` section below), including two DUI arrests, prior harassment and disorderly-conduct convictions, and a 2025 criminal mischief charge. He is **not** [[wiki/people/eli]] (the 2024–Feb 2025 NYC affair). Whether he is "Target G" — the married man from the January 2026 "Suzy" call and ten-day blackout (see [[wiki/people/annie-ulmer]] §Target G, [[wiki/self/chats/gemini-07]]) is unresolved; the Gemini-_07 forensics name the Target G figure "Caitlin's husband," a description not otherwise confirmed as Coles.
 
 During the May 31/June 1 confrontation he aggressively defended Annie, hurling extreme insults at Dan.
+
+## Criminal record
+
+The background-check capture (FOREWARN, sourced from Pennsylvania court databases) collapses 64 raw court records into **9 distinct incident clusters** spanning 2008–2025:
+
+| Date | Incident | Charges | Outcome |
+|---|---|---:|---|
+| 10/31/2008 | Traffic (turning movements) | 1 | Unknown |
+| 11/20/2008 | Disorderly conduct / fighting | 1 | Guilty plea |
+| 06/13/2009 | Vehicle equipment | 1 | Guilty plea |
+| 07/19/2009 | Harassment (physical contact) | 1 | Guilty |
+| 06/06/2010 | Traffic (license expired, signals) | 2 | Guilty / guilty plea |
+| 07/07/2010 | Traffic (no inspection, obstructed window) | 2 | 1 guilty plea, 1 not guilty |
+| 02/03/2019 | DUI + traffic (BAC ≥ .16) | 6 | ARD County |
+| 06/29/2024 | DUI + traffic (5 counts) | 5 | Guilty pleas |
+| 04/05/2025 | Criminal mischief / property damage | 1 | Unknown |
+
+**Pattern:** 2008–2010 establishes a baseline of traffic violations plus two interpersonal/public-order offenses (fighting, harassment involving physical contact). The 2019 DUI includes a BAC ≥ .16 charge (aggravated), processed through ARD. The 2024 DUI shows the same pattern with a clean guilty-plea disposition. The 2025 criminal mischief charge is the first non-traffic criminal matter, representing a shift in offense type. See `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md` for the full capture and the de-duplication reasoning.
 
 ## Role in the End Fight (May 31 - June 1, 2026)
 
@@ -34487,7 +34745,7 @@ This defection serves as an independent, third-party validation of the manipulat
 
 ## Notes
 
-Tuquick is not Eli. He is the relationship Annie left for, the catalyst and counterpart of the final group chat closure on June 1, and subsequently an independent witness to Annie's behavioral architecture on June 15.
+Jerel Coles (Tuquick) is not Eli. He is the relationship Annie left for, the catalyst and counterpart of the final group chat closure on June 1, and subsequently an independent witness to Annie's behavioral architecture on June 15. The July 2026 unnamed interloper remains a separate open question — see [[wiki/people/the-unnamed-man]].
 
 
 ========================================================================
@@ -36363,11 +36621,12 @@ page_type: entity
 title: "Seven Springs"
 status: active
 date_created: 2026-07-20
-date_modified: 2026-07-20
+date_modified: 2026-08-09
 sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - "raw/self/dox-md/_Freeskiing's Early 2000s Cultural Revolution .md"
+  - raw/self/captures/2026-08-09_122727_extreme-sports.md
 tags: [uniontown-era]
 connections:
   - page: wiki/timeline/events/bald-eagle-cummings
@@ -36382,6 +36641,9 @@ connections:
   - page: wiki/health/chemical-architecture
     type: evidences
     claim: "A later self-audit explicitly frames Dan's first cocaine use here as instrumental (a weight-control tool tied to adolescent bulimia) as much as social, not purely a peer-pressure initiation."
+  - page: wiki/people/tom-wallisch
+    type: co-occurs
+    claim: "Tom Wallisch showed up at Seven Springs a few times a year during Dan's adolescence as a regional terrain-park prodigy — the local scene connection that later became the 4Bi9 Media era of freeskiing film."
 ---
 
 # Seven Springs
@@ -36396,6 +36658,28 @@ the weekly rhythm of driving up, skiing, and returning is named in his
 own cognitive-profile notes as the formative social structure of his
 childhood — alongside trampoline training kept up specifically as
 off-season ski-season prep.
+
+## Terrain-park development
+
+The resort's park infrastructure grew dramatically across the years Dan
+was skiing it. When he started, there was one park on the north face
+with a 12-foot halfpipe that always had chunks taken out of it and was
+placed with so little run-in that the entire exercise was almost
+without purpose. Next to the pipe was a rope tow lift so hiking was
+unnecessary, then a slopestyle section with usually 3–4 features: two
+small jumps where any inversion was precarious due to the size, and
+two real park rails — usually a flat bar or a flat down. The grom park
+was just five-foot boxes hit mostly by nine-year-olds with Volkl
+racing skis and full-face helmets who never attempted spins.
+
+By the 2006 season, Seven Springs had fully developed into what the
+capture calls the "premiere terrain park of the mid-Atlantic" with a
+dedicated slopestyle run containing several dozen features. The capture
+credits the Nuttings' takeover of the resort with the budget infusion
+that made the buildout possible: an Olympic-sized pipe cutter, real
+park crews who knew how to build hits, and money flooding in. The
+progression from underdeveloped regional hill to mid-Atlantic
+destination park happened within the exact window Dan was living it.
 
 ## The first drug exposure cohort
 
@@ -39660,54 +39944,87 @@ PAGE: wiki/timeline/events/annie-alexis-reunion-november-2018.md
 domain: timeline
 page_type: event
 status: stable
-date_created: 2026-07-14
-date_modified: 2026-07-19
-date_range_start: 2018-10-13
+importance: high
+date_created: 2026-08-09
+date_modified: 2026-08-09
+date_range_start: 2018-11-03
 date_range_end: 2018-12-11
-sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joeoshnack_7killpebkw/message_1.html"]
-related: ["wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/people/menore", "wiki/people/emaly-minerd", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/mind/psychosexual/orchestration-and-voyeurism", "wiki/mind/psychosexual/arrangement-history"]
-tags: [relationships]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/dox-md/_Freeskiing's Early 2000s Cultural Revolution .md"
+related:
+  - wiki/people/annie-ulmer
+  - wiki/people/alexis-armel
+  - wiki/people/menore
+  - wiki/people/emaly-minerd
+  - wiki/timeline/events/shelbie-annie-threesome-april-2019
+  - wiki/timeline/events/fran-death-vigil
+  - wiki/mind/psychosexual/orchestration-and-voyeurism
+  - wiki/mind/psychosexual/arrangement-history
+tags: [relationships, non-monogamy, uniontown-era]
 knowledge: earned
 connections:
-  - page: wiki/mind/concepts/erotic-architecture
+  - page: wiki/timeline/events/bald-eagle-cummings
+    type: co-occurs
+    claim: "Both incidents occur in the same house — the first documents Dan's first sexual failure at age 12 (1999) with external humiliation, the second documents a controlled intimacy three years later (2018) with no external exposure beyond the trio. The difference: the first was a failure that named and shamed, the second was orchestrated to be witnessed or remembered but not humiliated."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: parallels
+    claim: "Both events involve the same pattern of 'visible preparation' — mood lighting pre-arranged, dogs moved, specific privacy measures enacted. The Fran vigil (March 2018) had 'THE COOL LIGHTS IN THERE' as part of the death vigil setup; the Annie/Alexis hookups had the same lighting as part of the intimacy setup. The difference: one was grief, one was pleasure, but the choreography is identical."
+  - page: wiki/mind/psychosexual/arrangement-history
     type: evidences
-    claim: "This event is the dated, corroborated reality behind the OS report's ANNIE_ALEXIS_HOOKUP_CORE — the externalized-libido mechanism's central example."
-  - page: wiki/people/joe-oshnack
-    type: contextualizes
-    claim: "An August 12, 2018 message to Joe references an already-completed Alexis/Annie cam threesome, distinct from this event. A Dec 13, 2017 message on wiki/people/jamie-mohler.md's rediscovered thread independently confirms the same earlier encounter and narrows it to Alexis's Feb-Oct 2017 bail window — see the Gaps section for the remaining imprecision."
+    claim: "The November 2018 reunion is the first well-documented instance of Dan's 'consensual voyeurism' mechanism in full operation — he explicitly requests a camera for the birthday-night event, shows religious elation at watching, and frames it as 'the best thing that's ever happened to me.' This prefigures the later $3000 offer to Alexis and the 'Dan-architected' framework's formal description in the dossiers."
+  - page: wiki/timeline/events/shelbie-annie-threesome-april-2019
+    type: follows
+    claim: "The November reunion is the precursor to the April 2019 Shelbie threesome — both involve Annie as the pivot, both are non-monogamous arrangements with explicit Dan participation, but the November event is uniquely marked by the transactional $3000 origin disclosed to Emaly Minerd."
+  - page: wiki/people/annie-ulmer
+    type: component-of
+    claim: "The Annie personality is the facilitator node in both the 2018 reunion and the Shelbie threesome — she coaches Annie, she handles logistics (moving dogs, buying wine), she frames the events as gift-giving to Dan, and she maintains the 'everything's fine' surface while the arrangement operates underneath."
 ---
 
-# Annie/Alexis Reunion (October–December 2018)
+# Annie/Alexis Reunion (November 2018)
 
 Weeks after [[wiki/people/alexis-armel|Alexis]] was released from the year in prison documented at [[wiki/people/alexis-armel]] (the Zac Shumar mail-order weed bust), she and [[wiki/people/annie-ulmer|Annie]] — Dan's replacement partner, and by then the woman Alexis's own probation-era boyfriend had reportedly slept with — became sexually involved with each other, at Dan's house, with Dan present. This was not a single hookup. It is a six-week-plus recurring dynamic running from a skeptical, transactional opening in mid-October through a genuine birthday-night event, then a pattern of repeat visits through late November, with drug-supply logistics threaded through the whole thing. It stands as the earliest well-specified instance of the couple's non-monogamous arrangement running with a woman from Dan's own romantic history, predating the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 Shelbie threesome]] by five months.
 
-## Before: skepticism and the "useful tool" framing (October 13–27)
+## The transactional origin
 
-The two households were never far apart — Alexis had lived with Dan and Annie for a stretch after the 2015 breakup, and Alexis's boyfriend Zac Shumar had reportedly slept with Annie even earlier, per the entanglement already documented on [[wiki/people/alexis-armel]]. By mid-October 2018, with Alexis presumably still in the final stretch of her sentence or newly out, Annie is already the one pushing for contact: on **October 13** she asks about a photo Dan sent ("Is that alexis..") and Dan deflects ("Probably not... just forget it"). On **October 23** Annie directly instructs him: "See what Alexis is doing tonight." Dan's response is notably cold and instrumental, not romantic — he tells Annie flatly it's "really not gonna happen with her... she is all talk," but reveals the actual function Alexis serves in the relationship at that point: "the truth is that it's just a really useful 'tool' — I can always get her to send semi noodz and talk shit like she's gonna do something... and hey obviously [that] is effective with you." He adds that Alexis "waits till she is drunk" to initiate anything, and that he isn't picky ("You know so many girls. I'm not picky" — Annie's own words back at him). In the same conversation, minutes later, Dan texts a friend that he's "been owed threesomes for 2 years" and that his "girlfriend won't initiate it" — the frustration that the coming weeks would resolve.
+The fullest outside account comes from a November 28, 2018 text exchange with [[wiki/people/emaly-minerd|Emaly Minerd]]: Dan explained that "Initially I offered her $3000 to be a plaything for Annie." The money was a formal offer, not a background fact, and the subsequent "different connection" Annie described was what happened *after* the offer was on the table, not what made it unnecessary.
 
-The flirtation warms fast despite the skepticism. On **October 25**, Annie takes a photo explicitly earmarked "For Lex... Not for you [Dan]. For her." Dan teases that he'll believe she's really into it "when you are EXCITED to get her noodiez"; Annie insists she is, she just doesn't perform it for him. By **October 27** the photo exchange is a running joke between them ("I will send it but she ain't even seen the last one yet"), and Dan tells a friend, half-joking, that Alexis "waits until she's drunk to start asking me to come f... I mean talk platonically" — the unfinished word doing the work.
+## Visual Atmosphere
 
-## The reunion (November 3–6)
+**Photo: November 5, 2018 birthday-night scene** (taken from vlcsnap-2026-08-09-16h22m50s481.png)
 
-On the night of **November 3**, Dan and Annie's own banter names Alexis directly as a live option: Dan asks Annie to guess "which of the two current options i'd rather fuck," and Annie gets it in one guess — "Lex." Dan won't confirm or deny beyond "it's no fun because we both know that answer" and "i'd looooove for it to [happen]." Later that night, Alexis came over and the two women hooked up. Dan reported it to his drug supplier [[wiki/people/menore|Menore]] the following evening, matter-of-factly: "She just got out of jail. Locked up for a year. Last night she came over and hooked up with my new girl" (Nov 4, 7:50 PM).
+The capture shows a bedroom scene at 10:25 AM with:
+- **Setting:** Lived-in bedroom with rumpled grey duvet, window with yellow curtains allowing bright natural light, TV/control overlay still visible in corner
+- **Mood:** Joyful, energetic, celebrated - two women with arms raised in what appears to be playful wrestling after intimate encounter
+- **Preparation echoes:** The "visible preparation" pattern — mood lighting ("THE COOL LIGHTS IN THERE"), dogs moved upstairs, specific setup choreography — mirrors the same pattern from the earlier [[wiki/timeline/events/fran-death-vigil|Fran death vigil]]. Where the vigil setup was for grief, this setup was for controlled pleasure with witness-ability (Dan's camera request).
 
-The household immediately moved to repeat it. At 1:04 PM the same day, Annie texted Dan: "See if Alexis wants to come over tonight I don't work tomorrow." That evening the messages show visible preparation — two bottles of wine, the dogs moved upstairs, mood lighting ("THE COOL LIGHTS IN HERE") — and Annie coaching the plan in real time: "Just let things happen naturally." Twenty minutes into the same conversation in which Dan was texting Menore about the night before, he told Annie: "Be forward enough for you to get with her (doesn't have to involve me) and you'll have a good birthday" — a reference to his birthday the next day, November 5.
+## Before: skepticism and the "useful tool" framing (October 13-27)
+
+The two households were never far apart — Alexis had lived with Dan and Annie for a stretch after the 2015 breakup, and Alexis's boyfriend Zac Shumar had reportedly slept with Annie even earlier, per the entanglement already documented on [[wiki/people/alexis-armel]]. By mid-October 2018, with Alexis presumably still in the final stretch of her sentence or newly out, Annie is already the one pushing for contact: on **October 13** she asks about a photo Dan sent ("Is that alexis..") and Dan deflects ("Probably not... just forget it"). On **October 23** Annie directly instructs him: "See what Alexis is doing tonight." Dan's response is notably cold and instrumental, not romantic — he tells Annie flatly it's "really not gonna happen with her... she is all talk," but reveals the actual function Alexis serves in the relationship at that point: "the truth is that it's just a really useful 'tool' — I can always get her to send semi noodz and talk shit like she's gonna do something... and hey obviously [that] is effective with you."
+
+## The reunion (November 3-6)
+
+On the night of **November 3**, Dan and Annie's own banter names Alexis directly as a live option: Dan asks Annie to guess "which of the two current options i'd rather fuck," and Annie gets it in one guess — "Lex." Dan won't confirm or deny beyond "it's no fun because we both know that answer" and "i'd loooove for it to [happen]." Later that night, Alexis came over and the two women hooked up. Dan reported it to his drug supplier [[wiki/people/menore|Menore]] the following evening, matter-of-factly: "She just got out of jail. Locked up for a year. Last night she came over and hooked up with my new girl" (Nov 4, 7:50 PM).
+
+The household immediately moved to repeat it. At 1:04 PM the same day, Annie texted Dan: "See if Alexis wants to come over tonight I don't work tomorrow." That evening the messages show visible preparation — two bottles of wine, the dogs moved upstairs, mood lighting ("THE COOL LIGHTS IN THERE") — and Annie coaching the plan in real time: "Just let things happen naturally." Twenty minutes into the same conversation in which Dan was texting Menore about the night before, he told Annie: "Be forward enough for you to get with her (doesn't have to involve me) and you'll have a good birthday" — a reference to his birthday the next day, November 5.
 
 **November 5 was Dan's birthday**, and it became the reunion's real culmination. Annie invited Alexis over that evening; Dan, in a genuinely happy mood ("I'm being serious lol not sarcastic... I'm on vacation for a week and I don't give two fucks about shit rn"), told Annie he couldn't wait for her to "hook up with Lex" and that she was "doing everything perfectly." When Annie floated the idea of it being just the two of them, Dan agreed readily but asked for a record of it: "I'm totally okay with it just being you two if that's what you want... Like there's gonna have to be a camera hidden... As long as I have something to 'remember' the occasion by." Annie, for her part, described real chemistry rather than a performed favor: "I told you we clicked. I told you there was a different connection. She said it too." Dan's reply was unambiguous about what this meant to him: "Well then make some romance with her. There's literally nothing that would make me happier. Or make my dick harder. Or sign my fortune to your name." He then left the house to handle a Suboxone run with a supplier so the two women would have the place to themselves, texting Annie "So essited" on his way back once it was done.
 
-## Continuation (November 12–30)
+## Continuation (November 12-30)
 
-The pattern recurred through the rest of the month, not as a single anniversary event but as an ongoing thing the household organized around. On **November 14**, late at night, Alexis texted Annie asking if it was too late to come over; Annie asked Dan's permission ("She can gladly come over if you can clean up a little... If that's okay with you...."), and Dan's response shows the arrangement's emotional register at its most intense: "Oh god I hope you guys hook up again... It's literally the best thing that's ever happened to me... I don't know how it would even get better if I was involved... This is going to make me religious. God must exist if I can watch something so beautiful." The two of them then handled logistics together — moving a space heater upstairs, deciding whether to bring the dogs to Dan's grandmother's house, waiting for Dan's mother to leave the house for a bank run so they'd have privacy — with the same domestic, matter-of-fact tone as any other household chore.
+The pattern recurred through the rest of the month, not as a single anniversary event but as an ongoing thing the household organized around. On **November 14**, late at night, Alexis texted Annie asking if it was too late to come over; Annie asked Dan's permission ("She can gladly come over if you can clean up a little... If that's okay with you...."), and Dan's response shows the arrangement's emotional register at its most intense: "Oh god I hope you guys hook up again... It's literally the best thing that's ever happened to me... I don't know how it would even get better if I was involved... This is going to make me religious. God must exist if I can watch something so beautiful."
 
-By **November 23**, some friction had crept in: Alexis said she wanted to hang out with Annie that night, but Annie was skeptical ("why would I when she hasn't come in the past few times I've asked her"), and Dan agreed she was being unreliable ("that's all she ever does... Nothing surprising there"). They still floated buying wine in case she followed through. On **November 25**, three weeks after the first hookup, Dan sent Annie an unprompted message making the emotional stakes explicit: "You have no idea how happy I am that you hooked up with a girl for me. Honestly it's something that I stop and appreciate several times a day in my head" — and, a minute later, generalizing the point beyond Alexis specifically: "Didn't have to be Alexis but it certainly doesn't hurt. But it's like the hottest thing in the entire world to me and you don't even know how good you made me feel." On **November 26**, Alexis is folded into the household's drug logistics too, not just the romantic arrangement: "Alexis is here with drugs."
+By **November 23**, some friction had crept in: Alexis said she wanted to hang out with Annie that night, but Annie was skeptical ("why would I when she hasn't come in the past few times I've asked her"), and Dan agreed she was being unreliable ("that's all she ever does... Nothing surprising there"). They still floated buying wine in case she followed through. On **November 25**, three weeks after the first hookup, Dan sent Annie an unprompted message making the emotional stakes explicit: "You have no idea how happy I am that you hooked up with a girl for me. Honestly it's something that I stop and appreciate several times a day in my head."
 
-## The confidant's account and the $3,000 offer (November 28)
+## Visual documentation
 
-The fullest outside account of how the arrangement actually started comes from a same-week text exchange with [[wiki/people/emaly-minerd|Emaly Minerd]], a friend Dan was confiding in regularly that fall. Explaining the situation to her, Dan wrote: "Lex is coming over to 'hang' with Annie. It's like Netflix and chill but without any Netflix." Asked how he felt about his ex being involved with his girlfriend, he answered: "Lex and I are really good. We don't have sex now but as soon as she saw how good Annie and I are with and for each other there was no tension... And now that Annie and Lex have a thing and I am so hyped about that, Lex and I really get along well." He then disclosed the arrangement's actual origin, which reframes the "organic connection" framing from the birthday-night texts: **"Initially I offered her $3000 to be a plaything for Annie. But it worked out even better because the first time they got together they must have had some kind of connection."** In other words, the reunion began as a paid proposition, not a spontaneous reconnection — the "different connection" Annie described on November 5 arrived on top of a cash offer already on the table, not instead of one. Dan also confirmed the prior cohabitation directly to Emaly: "It's def a weird situation, like Alexis lived with Annie and I for a little while after the breakup" — and framed the whole thing as workable specifically because of Annie: "the thing that makes it work is that Annie is the worlds coolest girlfriend for me. There's nobody I could have sex with that, as long as I'm honest and upfront, she would be upset about." Emaly's own reaction is one of the few outside readings of the dynamic on record: "Well that's cool that she's cool with it. I think I would feel weird, like jealous or something close to that.. hanging out with my ex and the girl he dumped me for."
-
-## Coda (December 2018)
-
-Contact with Alexis continues into early December at a lower intensity — a December 9 message to a friend brings her up in passing ("He's from Carmichael's and was besties with Alexis back in the day... Speaking of Alexis") and a December 11 message ("Alexis told me to stay low until you hit me up") shows her still functioning as a go-between in Dan's drug-supply network. The corpus goes quiet on her as a romantic or sexual presence with Annie after this point.
+Multiple screenshots exist from the reunion period (August 9, 2026):
+- vlcsnap-2026-08-09-16h19m28s353.png
+- vlcsnap-2026-08-09-16h21m08s880.png
+- vlcsnap-2026-08-09-16h21m36s931.png
+- vlcsnap-2026-08-09-16h22m23s435.png
+- vlcsnap-2026-08-09-16h22m39s727.png
+- vlcsnap-2026-08-09-16h22m50s481.png
 
 ## People involved
 
@@ -39719,20 +40036,24 @@ Contact with Alexis continues into early December at a lower intensity — a Dec
 
 ## When
 
-Skepticism and flirtation build from October 13–27, 2018. The first hookup is November 3, reported the next day; the birthday-night repeat is November 5; further documented visits recur November 14 and are attempted/discussed through November 23–26; the fullest retrospective account, including the $3,000 origin story, is dated November 28. Residual contact (non-romantic) continues into December 9–11.
+Skepticism and flirtation build from October 13-27, 2018. The first hookup is November 3, reported the next day; the birthday-night repeat is November 5; further documented visits recur November 14 and are attempted/discussed through November 23-26; the fullest retrospective account, including the $3,000 origin story, is dated November 28. Residual contact (non-romantic) continues into December 9-11.
 
 ## Significance
 
-This sits right at the seam between two documented facts that otherwise read as separate: Alexis's release from a year at SCI Muncy (end of October/early November 2018, per her page) and the earliest well-specified instance of the couple's non-monogamous arrangement running with a woman from Dan's own romantic history rather than a stranger or a male friend. It also complicates and closes the household entanglement already documented on [[wiki/people/alexis-armel]]: Alexis, her boyfriend Zac Shumar, and Dan and Annie had lived under one roof during the run-up to Zac's arrest, and per a secondary CATO synthesis Zac had himself been involved with Annie before that. The $3,000 offer disclosed to Emaly Minerd is the most concrete documented instance anywhere in the corpus of Dan paying, or offering to pay, a specific named woman to be involved with Annie — most of the arrangement's other instances (Trinity St. Clair, Kelly Johansson) are framed as either paid professional bookings or unpaid personal connections, not a cash offer to someone from his own dating history. The birthday-night camera request, the "God must exist" line, and the "several times a day" gratitude also make this one of the most emotionally legible windows in the corpus into what Dan wanted out of the arrangement generally, not just this specific pairing.
+This sits right at the seam between two documented facts that otherwise read as separate: Alexis's release from a year at SCI Muncy (end of October/early November 2018, per her page) and the earliest well-specified instance of the couple's non-monogamous arrangement running with a woman from Dan's own romantic history rather than a stranger or a male friend. It also complicates and closes the household entanglement already documented on [[wiki/people/alexis-armel]]: Alexis, her boyfriend Zac Shumar, and Dan and Annie had lived under one roof during the run-up to Zac's arrest.
+
+The visible preparation pattern (mood lighting, dogs moved, specific choreography) is shared with the earlier [[wiki/timeline/events/fran-death-vigil|Fran death vigil]] — both events have the same aesthetic signature of controlled, orchestrated privacy within the house.
+
+The $3,000 offer disclosed to Emaly Minerd is the most concrete documented instance anywhere in the corpus of Dan paying, or offering to pay, a specific named woman to be involved with Annie — most of the arrangement's other instances (Trinity St. Clair, Kelly Johansson) are framed as either paid professional bookings or unpaid personal connections, not a cash offer to someone from his own dating history.
+
+The birthday-night camera request, the "God must exist" line, and the "several times a day" gratitude also make this one of the most emotionally legible windows in the corpus into what Dan wanted out of the arrangement generally, not just this specific pairing.
 
 ## Gaps
 
-Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated — the two nights' preparation texts are similar enough that they may describe the same extended encounter rather than two separate ones. Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented. How many total times Alexis and Annie were together beyond the specifically dated messages above is unknown — the pattern of texts suggests it was a recurring, semi-regular arrangement through most of November rather than a fixed number of occasions. Alexis's exact release date is not independently confirmed beyond "just got out of jail" on Nov 4; her own page places incarceration as beginning "around the end of October 2017," consistent with a roughly one-year sentence ending in this window. The corpus does not show whether Annie and Alexis had any contact after December 2018. A separate, earlier encounter is documented independently by two sources: an August 12, 2018 message to [[wiki/people/joe-oshnack|Joe Oshnack]] references an already-completed cam threesome with "my ex (the girl I left for Annie)" — read as Alexis — and a December 13, 2017 message on [[wiki/people/jamie-mohler|Jamie Mohler]]'s rediscovered Facebook thread confirms the same encounter in the same already-past-tense register ("I did and I have it forever as an HD recording"), narrowing it to sometime in 2017. Given Alexis's own page dates her arrest to Valentine's Day 2017 and her jailing to the end of October 2017, the encounter most likely falls inside that **Feb-Oct 2017 bail window** — a distinct, earlier instance of the arrangement running with Alexis, not a contradiction of this November 2018 event's own dating. The exact date within that window remains unfixed.
-
-## Related
-
-[[wiki/people/annie-ulmer]] · [[wiki/people/alexis-armel]] · [[wiki/people/menore]] · [[wiki/people/emaly-minerd]] · [[wiki/timeline/events/shelbie-annie-threesome-april-2019]]
-
+- Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated
+- Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented
+- How many total times Alexis and Annie were together beyond the specifically dated messages is unknown
+- Alexis's exact release date is not independently confirmed beyond "just got out of jail" on Nov 4
 
 ========================================================================
 PAGE: wiki/timeline/events/april-may-2026-final-weeks.md
@@ -40224,6 +40545,9 @@ connections:
   - page: wiki/people/fred-adams
     type: caused-by
     claim: "The 24-hour rotation existed because the estate's trustee ordered it, which is what made the family's exclusion of Dan and Annie a formal act rather than a social slight."
+  - page: wiki/timeline/events/annie-alexis-reunion-november-2018
+    type: parallels
+    claim: "Both events exemplify the 'visible preparation' pattern — mood lighting, dogs moved upstairs, specific choreography enacted for controlled privacy. The Fran vigil (March 2018) used it for grief; the Annie/Alexis reunion (November 2018) used it for arranged intimacy. The difference: one was mourning, one was pleasure, but the household staging is identical."
 ---
 
 # The Fran Vigil (March–April 2018)
@@ -41721,6 +42045,87 @@ extremely sorry." It is the only unprompted acknowledgment in the record.
 
 
 ========================================================================
+PAGE: wiki/timeline/events/robotussin-s-last-dance.md
+========================================================================
+
+---
+domain: timeline
+page_type: event
+title: "Robotussin's Last Dance"
+aliases: ["DXM Tom Petty trip", "the Robo-tripping concert"]
+status: stable
+knowledge: mixed
+date_created: 2026-08-09
+date_modified: 2026-08-09
+date_range_start: 2005-06-15
+date_range_end: 2005-06-15
+sources:
+  - "raw/self/captures/2026-08-09_143916_robotussin-s-last-dance.md"
+tags: [uniontown-era, addiction-recovery]
+infobox:
+  name: "Robotussin's Last Dance"
+  type: event
+  date: 2005-06-15
+  location: "Burgettstown, PA → Uniontown, PA"
+  known_for: "Three 17-year-olds drove 95 mph down Rt 51 on 20–40 DXM capsules each, trying to get to Uniontown from a sold-out Tom Petty show they never had tickets to."
+connections:
+  - page: wiki/people/new-jim-shaffer
+    type: co-occurs
+    claim: "Jim is one of the two surviving members of the trio that took this trip — the Tom Petty minivan memory is the only place in the corpus where he and Dan reconstruct a shared adolescent drug experience without the usual dark-comedy armor."
+  - page: wiki/people/rob-orange
+    type: co-occurs
+    claim: "Rob Orange is the missing third member of the trip — the Tom Petty minivan story that Jim and Dan reconstruct in Dec 2018 is the same outing, and this capture fills in the substance-use context that both retellings leave blank."
+  - page: wiki/timeline/events/teen-concert-years
+    type: component-of
+    claim: "This is an off-record member of the 2005 concert record: Tom Petty at Post-Gazette Pavilion on a night Dan never made it inside, the only concert date in the corpus where the destination is reached and the show is missed simultaneously."
+  - page: wiki/health/chemical-architecture
+    type: component-of
+    claim: "DXM is the first documented substance in the corpus that Dan took deliberately to 'shatter the space-time continuum' — a word-for-word prefiguration of the engineered-stack framing he adopts a decade later, and the first instance of recreational use preceding the opiate arc by two years."
+  - page: wiki/people/rick-frank
+    type: co-occurs
+    claim: "Frank's Auto Supply is the daytime setting of the same day — the delivery-driver job held that afternoon, at 17, on a day whose evening ended with 90 minutes of full intoxication at Ruby Tuesday's near Pittsburgh airport and a 95 mph drive back toward Uniontown."
+---
+
+# Robotussin's Last Dance
+
+June 15, 2005 — the summer after eleventh grade, age 17, with a license, a car, a father whose marriage was collapsing and a mother whose affair had already hollowed the household into something Dan could leave without looking back. The setting is Frank's Auto Supply, the family business, where he spent that afternoon as a delivery driver, four-x-ing the drive time to every stop and going home to jerk off twice on the clock. At 4pm, less than an hour left in his shift, Jimmy Shaffer called with comically enthusiastic excitement: he and Rob Orange would pick Dan up at 5:30 and drive him to the Tom Petty concert at the Post Gazette Pavilion in Burgettstown, PA.
+
+By the time they arrived, Tom Petty was already on stage. They had no tickets. The show was sold out. They could hear "Runnin'" playing live from the parking lot as they learned this at the will-call window. Jim had brought them there to wing it, and in 2005 that did not read as a genuinely stupid thing to do.
+
+## The drug
+
+The plan they arrived at instead: go to the nearest CVS and buy enough DXM to cook themselves. The source specifies "20–40 red gel capsules of pure dextromethorphan" per person, three people, which would have been the largest single dose Dan had taken to that point. He would go on to do DXM roughly 8–10 times in the six months before graduating to what he calls "more professional and mature narcotics" — meaning the opiate arc that begins the following year. Among those 8–10 sessions, this is the one he names as the marquee experience: not the most intense chemically, but the one where the freedom he had been feeling all summer collided with actual impairment on a highway.
+
+The red flag the capture flags for the reader is geography: the closest CVS to Burgettstown was in a direction that required driving from Burgettstown to Uniontown, not away from it. By the time the DXM hit, the three of them were ninety minutes and roughly ninety-five miles in the wrong direction — sitting at a Ruby Tuesday's near Pittsburgh airport, so incapacitated they would have been kicked out had they not agreed to leave voluntarily.
+
+## The drive back
+
+The capture's most vivid memory is the Rt 51 stretch: 17-year-old boys, 95 miles per hour, passing cars and smacking into orange traffic cones. The capsule count, the distance from home, the highway speed and the cone impacts are all presented as a single motion — not a decision followed by an outcome, but a single continuous event whose internal logic was the drug and the friendship and the summer. Nothing in the record suggests any of the three were pulled over, injured, or otherwise interrupted. The drive's terminus is Uniontown, not a house or a bed, which is what makes it a story rather than a cautionary footnote: the destination was the place he would sober up in, and the place that had already, by that June, been partially emptied of the family that used to live in it.
+
+## What it shows about the era
+
+This is the summer the family's stable narrative actually broke. Rick is named in the capture as a "non-factor" — not absent, but no longer able to constrain what Dan could or could not do on any given night. The prior two years had already normalized household cocaine use (the substance the capture frames as the "adult" drug already present in the house before Dan ever tried it himself), and the divorce had not yet been absorbed into a new family structure — it was still raw enough to feel like permission rather than loss. The Abercrombie & Fitch accumulation that dominated eleventh grade Dan's self-concept — best-dressed senior superlative, bought his way in — is the surface layer of a kid who felt, for the first and only time, that the usual rules did not apply to him and that the consequences would be someone else's problem.
+
+DXM was the cheapest, closest version of that feeling. It was already in the medicine cabinet.
+
+## Corpus connections
+
+The Tom Petty minivan story is a named shared memory that surfaces twice in the surviving corpus — once from Jim Shaffer, four years after Rob Orange's death, and once embedded in the Rob Orange page itself. Both retellings treat it as pure adventure: a supercharged minivan, a sold-out show, three boys winging it. The capture is the only document that adds what was actually inside the adventure — the 20–40 DXM capsules, the Ruby Tuesday's incapacitation, the 95 mph cone-smashing run down Rt 51. It does not change the memory's emotional register; it just completes the picture the two surviving participants had been retelling without that detail.
+
+The same memory functions as a load-bearing instantiation of the block-unblock-loop pattern documented elsewhere in the corpus: three adolescents, a sold-out show, a drug-induced escape hatch, a 95 mph drive home — maximum engagement with no plan for landing. The structure reappears in adult form at lower amplitude, and the same friendship circle is present at both registers.
+
+The Frank's Auto Supply job is a documented part of the family business record. The Post-Gazette Pavilion at Burgettstown is an existing venue anchor in the concert record. The summer of 2005 is the hinge between the household-cocaine normalization Dan names retrospectively and the opiate arc that begins within two years — the same summer he first uses DXM deliberately as a consciousness-altering tool rather than a casual experiment, the first instance of the "shatter the space-time continuum" language he would later formalize as engineered neurochemical architecture.
+
+## Gaps
+
+- The exact capsule count is Dan's own retrospective estimate, not a counted inventory — "20–40" is a range, and the capture reads it as such.
+- The CVS location is named only as "the closest CVS to Burgettstown"; the Ruby Tuesday's is specified as near Pittsburgh airport but not pinned further.
+- No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony.
+- Whether any of the three were sober enough to make decisions by the time they left Ruby Tuesday's is not addressed.
+- The Post-Gazette Pavilion's sold-out Tom Petty date of June 15 2005 has not been independently verified against tour records.
+
+
+========================================================================
 PAGE: wiki/timeline/events/shelbie-annie-threesome-april-2019.md
 ========================================================================
 
@@ -41852,6 +42257,9 @@ connections:
   - page: wiki/interests/video-games
     type: co-occurs
     claim: "The same 2007 status layer that documents the tour devotion names 'slaying on halo' and Super Mario Galaxy — gaming is a sibling coordinate of the teenage identity cluster this page reconstructs."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: co-occurs
+    claim: "A June 15 2005 sold-out Tom Petty lot at Burgettstown is the concert record's off-grid entry: the destination was reached, the show was not seen, and the DXM-laced drive back on Rt 51 is the substance context the Tom Petty minivan memory had always left blank."
 ---
 
 
@@ -42454,6 +42862,7 @@ related: []
 - [[wiki/timeline/events/franki-fireworks-day-2013]] — early July 2013: the day Alexis discovered the Franki affair by text ten minutes into the drive; also dates the production identity's origin and supplies the chaos preference's first attested macro instance.
 - [[wiki/timeline/events/bald-eagle-cummings]] — seventh grade at Seven Springs: the corpus's earliest sexual event, a failure that produced a year-long school-wide nickname, and the first named girlfriend (Britney Bolen, predating Danielle by ~3 years).
 - [[wiki/timeline/events/teen-concert-years]] — 2005–2008: the literal touring record (FOB×3 + TRL taping, MCR, TBS, Say Anything, Bamboozle) that the wiki had flattened into "top music artists."
+- [[wiki/timeline/events/robotussin-s-last-dance]] — June 15 2005: three 17-year-olds in a sold-out Tom Petty lot at Burgettstown, 20–40 DXM capsules each, a Ruby Tuesday's incapacitation near Pittsburgh airport, and a 95 mph drive down Rt 51 back to Uniontown — the capture that fills in the drug context the Tom Petty minivan story had always left blank.
 - [[wiki/timeline/events/end-fight]] — Extended confrontation sequence captured in dedicated "THE END FIGHT" CSV export and the…
 - [[wiki/timeline/events/fran-death-vigil]] — March–April 2018: the fall, the nursing home, the pediatric wing, the snowstorm; Dan and Annie alone at the end.
 - [[wiki/timeline/events/the-fall-of-fran]] — night of March 7–8 2018: the arrangement's first encounter and the fall that ended Fran's fifty-year residency, in the same house, minutes apart.

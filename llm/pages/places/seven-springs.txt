@@ -4,11 +4,12 @@ page_type: entity
 title: "Seven Springs"
 status: active
 date_created: 2026-07-20
-date_modified: 2026-07-20
+date_modified: 2026-08-09
 sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - "raw/self/dox-md/_Freeskiing's Early 2000s Cultural Revolution .md"
+  - raw/self/captures/2026-08-09_122727_extreme-sports.md
 tags: [uniontown-era]
 connections:
   - page: wiki/timeline/events/bald-eagle-cummings
@@ -23,6 +24,9 @@ connections:
   - page: wiki/health/chemical-architecture
     type: evidences
     claim: "A later self-audit explicitly frames Dan's first cocaine use here as instrumental (a weight-control tool tied to adolescent bulimia) as much as social, not purely a peer-pressure initiation."
+  - page: wiki/people/tom-wallisch
+    type: co-occurs
+    claim: "Tom Wallisch showed up at Seven Springs a few times a year during Dan's adolescence as a regional terrain-park prodigy — the local scene connection that later became the 4Bi9 Media era of freeskiing film."
 ---
 
 # Seven Springs
@@ -37,6 +41,28 @@ the weekly rhythm of driving up, skiing, and returning is named in his
 own cognitive-profile notes as the formative social structure of his
 childhood — alongside trampoline training kept up specifically as
 off-season ski-season prep.
+
+## Terrain-park development
+
+The resort's park infrastructure grew dramatically across the years Dan
+was skiing it. When he started, there was one park on the north face
+with a 12-foot halfpipe that always had chunks taken out of it and was
+placed with so little run-in that the entire exercise was almost
+without purpose. Next to the pipe was a rope tow lift so hiking was
+unnecessary, then a slopestyle section with usually 3–4 features: two
+small jumps where any inversion was precarious due to the size, and
+two real park rails — usually a flat bar or a flat down. The grom park
+was just five-foot boxes hit mostly by nine-year-olds with Volkl
+racing skis and full-face helmets who never attempted spins.
+
+By the 2006 season, Seven Springs had fully developed into what the
+capture calls the "premiere terrain park of the mid-Atlantic" with a
+dedicated slopestyle run containing several dozen features. The capture
+credits the Nuttings' takeover of the resort with the budget infusion
+that made the buildout possible: an Olympic-sized pipe cutter, real
+park crews who knew how to build hits, and money flooding in. The
+progression from underdeveloped regional hill to mid-Atlantic
+destination park happened within the exact window Dan was living it.
 
 ## The first drug exposure cohort
 
