@@ -27,6 +27,9 @@ connections:
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Jim's Dec 2018 thread names Rob and Steve back to back as the cohort's losses — except Steve, per a correction the same conversation forces, was misheard as dead and was actually alive."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: co-occurs
+    claim: "The June 15 2005 Tom Petty minivan trip is the documented shared outing Jim retells four years later as pure adventure — this capture fills in the DXM-laced, 95 mph, cone-smashing substance context that both retellings leave blank, and places Rob Orange in the car for the last night of the summer that defined his friendship with Dan."
 ---
 
 # Rob Orange
