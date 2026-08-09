@@ -17,6 +17,18 @@ sources:
   - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
 tags: [relationships, digital-footprint]
 connections:
+  - page: wiki/people/shelbie-breakiron
+    type: instantiates
+    claim: "An explicit financial-for-attention/access dynamic ('sugar dad,' recurring cash transfers, 'baby needs spoiled') layered onto a relationship Dan otherwise describes in affectionate terms — the paid-professional-adjacent baseline instance the Jenn Lynn solicitation pattern is measured against."
+  - page: wiki/people/jason-bermejo
+    type: evidenced-by
+    claim: "Jason's thread supplies the earliest dated instance of the Alexis/Annie overlap in the corpus — a January 20, 2017 message about a filmed threesome with 'my current and ex girlfriend' — the same story Dan is still calling his 'finest moment' in the same thread eight years later."
+  - page: wiki/people/kya-hansen
+    type: instantiates
+    claim: "An ongoing, active interest in the commercial-sexual creator economy — subreddit moderation, referrals into the circle — that runs in parallel to, not just downstream of, the relationship arrangement history."
+  - page: wiki/people/trinity-st-clair
+    type: instantiates
+    claim: "The clearest paid-professional instance on the arrangement timeline, with a dollar figure attached."
   - page: wiki/people/lauryn-ashly
     type: co-occurs
     claim: "The September 2020 solicitation to Lauryn — apologetic, self-conscious, and simply declined — is a rare documented instance of the arrangement being pitched outside the established circle, showing the pattern was not universally successful."

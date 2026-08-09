@@ -57,7 +57,7 @@ related: []
 - [[wiki/people/ellen-ulmer]] — Annie's mother; steady contact 2017-2025, confirms Jim and Sugie as Annie's grandparents.
 - [[wiki/people/fred-adams]] — Ira Coldren's law partner at Coldren Adams, later a judge; trustee of Fran's accounts and the source of the 24-hour deathbed mandate.
 - [[wiki/people/emaly-minerd]] — Intense 5-month 2018-19 relationship; tried to refuse the couple's sex-first dynamic, collapsed into it anyway.
-- [[wiki/people/eric-jester]] — Full Sail friend, decade-spanning sparse contact; corroborates the Trinity St. Clair booking cost.
+- [[wiki/people/eric-jester]] — Full Sail friend since Jan 2009 (via a previously unmined Facebook thread); corroborates the Trinity St. Clair booking cost and holds the corpus's most detailed first-person account of Fran's death, told to him within days.
 - [[wiki/people/jamie-mohler]] — Full Sail friend present the day Dan first met Menore during the NYC-1 years; transitioned ~2023, now gendered female.
 - [[wiki/people/eric-springer]] — Month-long 2016 supply contact; wearing an ankle monitor at the time.
 - [[wiki/people/ej-rags]] — Williamsburg NYC vinyl-collector friend; drew out Dan's stated philosophy of destroying his own creative work.
@@ -72,7 +72,7 @@ related: []
 - [[wiki/people/jajuan-davis]] — 2018-19 winter dealer contact, second active source alongside Johnny.
 - [[wiki/people/james]] — Contact +18782477198. Self-ID: "Hey dan it james, Danielles working and im with the kids till like 4. But…
 - [[wiki/people/jaredtricia]] — Married couple who booked Annie (as "Hazel") for paid group encounters, June 2019.
-- [[wiki/people/jason-bermejo]] — Full Sail–era formative music friend, one of two people whose taste Dan defers to; Feb 2026 renewal at 400+ messages/month.
+- [[wiki/people/jason-bermejo]] — Full Sail–era formative music friend, one of two people whose taste Dan defers to; documented 2017–2025, 292 messages.
 - [[wiki/people/jason-cole]] — Artist friend; a 2016 pet-portrait commission that curdled over unpaid work.
 - [[wiki/people/jay-lauer]] — Friend and peer suboxone/cocaine trading partner, winter 2016-17; died of a heroin overdose on or about April 11 2017 — the supply network's only documented fatality.
 - [[wiki/people/jenn-lynn]] — Uniontown friend repeatedly solicited (with boyfriend Brad) for a two-couple swap, 2017-2020; parallel drug-sourcing relationship.
@@ -133,7 +133,7 @@ related: []
 - [[wiki/people/sean-teets]] — Peripheral contact; two apparent supply-seeking outreach messages a year apart, 2017-2018.
 - [[wiki/people/seth-ledonne]] — Uniontown counterculture-education friend; real-time June 2020 NYC protest-curfew account.
 - [[wiki/people/shannon]] — Real estate client who hired Dan for drone photography and video, Nov 2018 – Jan 2019.
-- [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan financially supported alongside Annie, May–Aug 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup and a legal-threat follow-up.
+- [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan financially supported alongside Annie, April–Aug 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup and a legal-threat follow-up.
 - [[wiki/people/stephanie-nalbone]] — Previously undocumented Sept-Nov 2009 relationship, right at the close of Full Sail; sequencing against Danielle and Alexis unresolved.
 - [[wiki/people/steve-kezmarsky]] — High-school-era Uniontown golf friend, self-described "dark and tormented soul"; alive and sober as of Dec 2018 while his father faced a life sentence (death claim withdrawn 2026-07-19).
 - [[wiki/people/suzanne-frank]] — Mother of Dan Frank. Born 15 September 1962, Pittsburgh, Allegheny County, Pennsylvania (maiden: Whyel /…

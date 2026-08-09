@@ -6,7 +6,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 infobox:
   name: Suzanne Frank
   status: Active
@@ -342,3 +342,13 @@ mother, which is itself data.
   in the corpus.
 - The "wine mom" / evening-rhythm characterization is Dan's; no independent
   account of her relationship to alcohol is on file.
+
+  **RE-CHECKED (2026-08-09):** [[wiki/timeline/events/fran-death-vigil]] was
+  modified — a second, independent telling of the bedside-test moment (given
+  to [[wiki/people/eric-jester]] a day or two after the Lucie Dobbin account,
+  and diverging from it in several particulars) was added, along with a paid
+  caregiving detail and Dan's own inheritance-driven reason for leaving
+  Pennsylvania. None of this touches Suz's role on that page — her caretaking
+  presence, the estate-distribution and 463-arrangement pattern it seeds — which
+  is about her physical presence through the ending, not about which version of
+  Dan's bedside story is accurate. This page's claim survives unchanged.

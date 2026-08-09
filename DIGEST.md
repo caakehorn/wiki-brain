@@ -13,7 +13,7 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 439 |
-| Pages touched in the last 14 days | 190 |
+| Pages touched in the last 14 days | 193 |
 | Pages reasoning from other pages (`synthesizes:`) | 21 |
 | Live contradictions | 30 |
 | Open gaps | 135 |
@@ -45,7 +45,8 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-09** — 7 pages
+**2026-08-09** — 13 pages
+  - connect | timeline/health/people | robotussin's last dance — age correction and write-back completion (PR #91 fixes)
 
 **2026-08-08** — 11 pages
   - ingest | people | tuquick identity unmasked (Jerel Wayne Coles)
@@ -56,7 +57,7 @@ this is the state of the thing.
   - ingest | legal | court blotter photo — the arrest is now primary-documented, and a wiki inference was wrong
   - ingest | legal | factstory brief #5 — "The Arrest (the real one)"
 
-**2026-08-02** — 54 pages
+**2026-08-02** — 51 pages
   - climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
   - ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
   - write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)

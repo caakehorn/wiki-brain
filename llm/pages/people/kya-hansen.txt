@@ -11,12 +11,19 @@ date_range_end: 2020-03-23
 sources:
   - raw/self/captures/2026-07-14-kya-hansen.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
-related:
-  - wiki/people/shelbie-breakiron
-  - wiki/people/jerad-friedline
-  - wiki/mind/psychosexual/arrangement-history
+date_modified: 2026-08-09
 knowledge: mixed
 tags: [relationships, digital-footprint]
+connections:
+  - page: wiki/people/shelbie-breakiron
+    type: co-occurs
+    claim: "Dan's June 7, 2019 referral of Kya's Instagram to Shelbie, mid-relationship and mid-way through Shelbie building her own camming setup, put two women he was independently involved with in the sex-work economy into direct contact through him."
+  - page: wiki/people/jerad-friedline
+    type: evidenced-by
+    claim: "Jerad's March 23, 2020 conversation, and his ambiguous 'I don't think that's her,' is the corpus's only other dated contact point for Kya beyond the Shelbie referral, and the only place any doubt about her identity surfaces."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: instance-of
+    claim: "An ongoing, active interest in the commercial-sexual creator economy that runs in parallel to, not just downstream of, Dan's own relationship arrangement history."
 infobox:
   name: "Kya Hansen (\"bbblud\")"
   relationship_to_dan: unknown
@@ -76,7 +83,3 @@ recovered. Exact dates for the Reddit admin period, how the role began,
 and what (if anything) happened to the contact after March 2020 are all
 undocumented. Whether "Kya Hansen" is her real name or a stage name is
 not established from the current sources.
-
-## Related
-
-[[wiki/people/shelbie-breakiron]] · [[wiki/people/jerad-friedline]] · [[wiki/mind/psychosexual/arrangement-history]]

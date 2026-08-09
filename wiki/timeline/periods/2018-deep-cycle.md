@@ -7,6 +7,9 @@ date_modified: 2026-07-18
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/LIFE REPORT.md", "raw/self/dox-md/Gemini-_00.md"]
 related: ["wiki/timeline/events/timeline", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/totality-themes"]
 connections:
+  - page: wiki/timeline/events/shelbie-annie-threesome-april-2019
+    type: co-occurs
+    claim: "Falls inside the same window as this period's other documented non-monogamy instances."
   - page: wiki/people/johnny-dealer
     type: contains
     claim: "Johnny's 3,462-message logistics thread is this period's material infrastructure — the fronts, 1 AM ATM runs, and delivery cadence are the deep cycle at ground level."

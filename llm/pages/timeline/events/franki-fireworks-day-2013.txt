@@ -6,7 +6,7 @@ aliases: ["the franki fandango", "the fireworks day"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 date_range_start: 2013-07-01
 date_range_end: 2013-07-31
 sources:
@@ -43,6 +43,9 @@ connections:
   - page: wiki/timeline/periods/uniontown-return-2013-2015
     type: component-of
     claim: "This is the day the return period stops being a depressive interval and starts producing consequences: the Alexis relationship breaks, the DJ controller becomes an occupation, and the pattern Dan later calls 'Franki Faris 2.0' is established."
+  - page: wiki/people/eric-jester
+    type: evidenced-by
+    claim: "A July 5, 2013, 1:31 AM message to Eric — 'dude i got punched in the face by alexis today hahaha' — is the first primary-dated evidence located anywhere for this day, narrowing 'early July' to the July 4–5 weekend and adding a physical altercation absent from every other account; the same thread also supplies fresh texture for the Boston Marathon chaos-preference claim below — a named friend, Kendel, was two blocks from the blast, which Dan calls Eric about the same week Eric moves back to Orlando."
 ---
 
 # The Franki Fireworks Day (early July 2013)
@@ -156,9 +159,16 @@ immediately.
 
 ## Gaps
 
-- **The date is not fixed.** "Early July 2013" plus a fireworks display is as
-  close as the record gets. A dated ATM withdrawal on Suz's account, or a
-  Uniontown fireworks schedule for 2013, would close it.
+- **The date is narrowed, not fixed.** "Early July 2013" plus a fireworks
+  display was as close as the record got until this pass: a July 5, 2013,
+  1:31 AM message from Dan to [[wiki/people/eric-jester|Eric Jester]] —
+  "dude i got punched in the face by alexis today hahaha" — is the first
+  primary-dated evidence located anywhere for this day, and it narrows the
+  window to the July 4–5 weekend specifically. It does not resolve whether
+  "today" means the 4th or the 5th, and it adds a fact no other account
+  carries: whatever happened when Alexis found out escalated to a physical
+  blow. A dated ATM withdrawal on Suz's account, or a Uniontown fireworks
+  schedule for 2013, would close the remaining ambiguity.
 - **The five-day figure is now attached to two different things.** See the
   contradiction recorded on [[wiki/people/franki-faris]]: the wiki has carried
   "a five-day rebound" as the length of the Franki relationship, while this
