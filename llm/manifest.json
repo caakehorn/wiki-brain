@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 439,
+ "page_count": 440,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1053,7 +1053,7 @@
    "title": "The Acquisition Drive",
    "summary": "Once Dan Frank converts a want into a decided outcome, the pursuit of it runs to completion more or less independently of cost, risk, proportion or circumsta...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/acquisition-drive.txt",
-   "bytes": 14682
+   "bytes": 15053
   },
   {
    "page": "wiki/mind/concepts/attachment-model.md",
@@ -1221,7 +1221,7 @@
    "title": "Arrangement History",
    "summary": "Where the rest of this cluster synthesizes AI-authored theory, this page is the primary-source backbone: a chronological index of every independently-documen...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/psychosexual/arrangement-history.txt",
-   "bytes": 16853
+   "bytes": 17216
   },
   {
    "page": "wiki/mind/psychosexual/developmental-origins.md",
@@ -1249,7 +1249,7 @@
    "title": "Orchestration and Voyeurism",
    "summary": "The single most consistent claim across every source that touches Dan's sexuality \u2014 AI-authored dossiers and primary message threads alike \u2014 is that he is a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/psychosexual/orchestration-and-voyeurism.txt",
-   "bytes": 10329
+   "bytes": 10465
   },
   {
    "page": "wiki/mind/psychosexual/taboo-and-boundary-testing.md",
@@ -1306,6 +1306,13 @@
    "summary": "This event is one instance of a longer pattern; see",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/bond-switch-2015.txt",
    "bytes": 13751
+  },
+  {
+   "page": "wiki/mind/synthesis/creator-economy-connector.md",
+   "title": "Creator-Economy Connector",
+   "summary": "Dan's presence in the commercial sex-work economy is not fully accounted for by his own relationship's non-monogamy architecture. Alongside every instance wh...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/creator-economy-connector.txt",
+   "bytes": 9707
   },
   {
    "page": "wiki/mind/synthesis/dan-annie-fallout-verdict.md",
@@ -1417,7 +1424,7 @@
    "title": "The Embedded Objective",
    "summary": "**Dan has never sustained an assignment. He sustains a self-set objective he has embedded inside one.** Every long commitment in the corpus is a host structu...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-embedded-objective.txt",
-   "bytes": 15813
+   "bytes": 16528
   },
   {
    "page": "wiki/mind/synthesis/the-unbroken-bond.md",
@@ -1494,7 +1501,7 @@
    "title": "Annie (Anne Louise Ulmer)",
    "summary": "Annie Ulmer was Dan's partner for ten years and seven months \u2014 November 28, 2015 to June 1, 2026 \u2014 and is the only relationship in his documented history to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 83985
+   "bytes": 84427
   },
   {
    "page": "wiki/people/annoying.md",
@@ -1914,7 +1921,7 @@
    "title": "Jenn Lynn",
    "summary": "Jenn Lynn is a Uniontown-area acquaintance whose three-year Facebook Messenger thread (August 2017 \u2013 September 2020) runs two tracks in parallel: a recurring...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jenn-lynn.txt",
-   "bytes": 4786
+   "bytes": 5160
   },
   {
    "page": "wiki/people/jerad-friedline.md",
@@ -2040,7 +2047,7 @@
    "title": "Kya Hansen (\"bbblud\")",
    "summary": "Kya Hansen \u2014 online handle **bbblud** (\"blud\") \u2014 is a Canadian model and OnlyFans creator Dan was, by his own account (2026-07-14), the Reddit subreddit admi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/kya-hansen.txt",
-   "bytes": 4323
+   "bytes": 4793
   },
   {
    "page": "wiki/people/lauryn-ashly.md",
@@ -2334,7 +2341,7 @@
    "title": "Shelbie Breakiron",
    "summary": "Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams, Snapchat premium) Dan financially supported and saw on the side for about four months in...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/shelbie-breakiron.txt",
-   "bytes": 10731
+   "bytes": 11122
   },
   {
    "page": "wiki/people/slim.md",

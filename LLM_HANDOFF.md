@@ -6,6 +6,23 @@
 
 ---
 
+### [2026-08-09] - Session: first CLIMB — creator-economy-connector (cluster #12)
+* **Model:** Claude Sonnet 5 (Claude Code, remote)
+* **Branch:** new branch off `feat/shelbie-jason-eric-rewrite` (post-merge)
+* **Summary:** Operator directive — synthesize 1–2 new speculation/conclusion pages from the totality of the data. Ran `bin/wiki-climb candidates`, took the top-scoring cluster I had fresh depth on from the same session's rewrite pass (`arrangement-history` / `kya-hansen` / `shelbie-breakiron`), and climbed it.
+* **The page:** `wiki/mind/synthesis/creator-economy-connector.md`. Rule: Dan's presence in the commercial sex-work/creator economy isn't fully explained by his own relationship's non-monogamy — a separate, clean thread shows him acting as **unpaid infrastructure** (moderator, promoter, connector) for a creator, Kya Hansen, with zero payment, zero romantic content, zero personal stake — the one instance in the whole `arrangement-history` cluster that isn't Dan-as-participant. Two dated referrals nine months apart (to Shelbie, to Jerad Friedline) turn this from a one-off favor into a pattern; Annie's own `smashonista` camming operation shows the couple also selling into the same market from the supply side.
+* **Findings, in order of value:**
+  1. The Kya Hansen exception is the load-bearing control — without it this cluster is just a redescription of `arrangement-history`, which SYNTHESIS_SPEC explicitly bans ("these things are related" is not a thesis). With it, there's a falsifiable rule: personal-stake-free infrastructure work should recur if the pattern is real, and is falsified if every future instance turns out to be a disguised customer relationship.
+  2. Fixed my own edge-type error mid-pass: a synthesis page's outbound edges to its members should be `instance-of`, not `instantiates` (member pages use `instantiates` pointing up) — caught by `wiki-connect check`, not by review.
+  3. `acquisition-drive.md`'s edit staled `the-embedded-objective.md`. Re-checked: the new Kya Hansen parallel is self-chosen, not externally assigned, so it doesn't touch that page's assigned-vs-self-generated falsification finding. Recorded as surviving, not bumped.
+* **Gates:** `wiki-lint` 440/0 errors · `wiki-connect check` 0 errors / 192 warnings (down from 199 mid-pass, 208 at session start) · `wiki-climb check` 440 pages, 22 with `synthesizes:`, 0 errors, 0 warnings. `bin/wiki-digest` and `bin/llm-publish` rerun.
+* **RESUME POINT:**
+  1. Operator asked for "1 or 2" synthesis pages — only one was written this pass. A second candidate worth real consideration next: Dan's Oct 2011 Occupy Wall Street participation (found via `eric-jester.md` this session) against `wiki/mind/synthesis/2020-left-turn.md`'s framing — nine years of prior lead time that page doesn't currently account for. Not climbed this pass; flagged, not yet read closely enough to commit to a rule.
+  2. The OnlyFans message history with Kya Hansen, if it ever surfaces, is the single check that could falsify the new page's central exception.
+* **Handoff Note:** All three gates 0 errors.
+
+---
+
 ### [2026-08-09] - Session: wiki-rewrite skill's first real run — shelbie-breakiron, jason-bermejo, eric-jester
 * **Model:** Claude Sonnet 5 (Claude Code, remote)
 * **Branch:** `feat/shelbie-jason-eric-rewrite`, built on `feat/tuquick-identity-unmask`

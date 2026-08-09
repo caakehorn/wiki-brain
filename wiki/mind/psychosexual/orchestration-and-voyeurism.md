@@ -4,7 +4,7 @@ page_type: concept
 title: "Orchestration and Voyeurism"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-19
+date_modified: 2026-08-09
 knowledge: mixed
 sources:
   - raw/self/dox-scan/Dan Profile.txt
@@ -20,6 +20,9 @@ related:
   - wiki/people/fran-coldren
 tags: [relationships, trauma-bond, personality-profile]
 connections:
+  - page: wiki/mind/synthesis/creator-economy-connector
+    type: parallels
+    claim: "Both pages find Dan positioned above rather than inside a sexual economy — here as director of his own encounters; there as unpaid infrastructure for someone else's business with no personal stake in the outcome — but the director stance this page documents requires personal sexual involvement, and the connector pattern explicitly doesn't."
   - page: wiki/mind/psychosexual/emotional-imprinting
     type: mirrors
     claim: "Total imprinting on contact and years of orchestrated exposure sit in documented tension — unless authorship over the boundary routes around the imprinting channel, the framework's open structural question."
@@ -166,6 +169,3 @@ theorization in the corpus is either AI-authored or AI-co-written. The
 uncorroborated and should not be treated as established fact pending a
 primary source.
 
-## Related
-
-[[wiki/mind/psychosexual/index]] · [[wiki/mind/psychosexual/arrangement-history]] · [[wiki/mind/concepts/erotic-architecture]] · [[wiki/people/annie-ulmer]] · [[wiki/people/alexis-armel]] · [[wiki/timeline/events/annie-alexis-reunion-november-2018]] · [[wiki/people/fran-coldren]]

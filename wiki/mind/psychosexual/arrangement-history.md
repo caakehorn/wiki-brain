@@ -4,7 +4,7 @@ page_type: concept
 title: "Arrangement History"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 knowledge: mixed
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
@@ -17,6 +17,9 @@ sources:
   - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
 tags: [relationships, digital-footprint]
 connections:
+  - page: wiki/mind/synthesis/creator-economy-connector
+    type: instantiates
+    claim: "Every row on this table has Dan as a paying or directly participating party — which is exactly what makes the Kya Hansen exception (unpaid infrastructure, no personal stake) a genuinely separate category rather than an unlabeled instance that belongs on this timeline."
   - page: wiki/people/shelbie-breakiron
     type: instantiates
     claim: "An explicit financial-for-attention/access dynamic ('sugar dad,' recurring cash transfers, 'baby needs spoiled') layered onto a relationship Dan otherwise describes in affectionate terms — the paid-professional-adjacent baseline instance the Jenn Lynn solicitation pattern is measured against."

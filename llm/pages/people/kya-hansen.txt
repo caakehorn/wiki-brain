@@ -15,6 +15,9 @@ date_modified: 2026-08-09
 knowledge: mixed
 tags: [relationships, digital-footprint]
 connections:
+  - page: wiki/mind/synthesis/creator-economy-connector
+    type: instantiates
+    claim: "This page is the load-bearing exception a broader rule about Dan's role in the creator economy turns on: the one documented relationship in that economy with zero payment, zero romantic content, and zero sexual contact — Dan as unpaid moderator and, a year later, still promoting her — is what separates 'connector/infrastructure' from just another arrangement-history row."
   - page: wiki/people/shelbie-breakiron
     type: co-occurs
     claim: "Dan's June 7, 2019 referral of Kya's Instagram to Shelbie, mid-relationship and mid-way through Shelbie building her own camming setup, put two women he was independently involved with in the sex-work economy into direct contact through him."
