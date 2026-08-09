@@ -12,11 +12,11 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 439 |
-| Pages touched in the last 14 days | 193 |
-| Pages reasoning from other pages (`synthesizes:`) | 21 |
+| Pages | 440 |
+| Pages touched in the last 14 days | 196 |
+| Pages reasoning from other pages (`synthesizes:`) | 22 |
 | Live contradictions | 30 |
-| Open gaps | 135 |
+| Open gaps | 139 |
 | Standing predictions | 13 |
 
 ## By domain
@@ -25,7 +25,7 @@ this is the state of the thing.
 |---|---|
 | people | 150 |
 | interests | 142 |
-| mind | 56 |
+| mind | 57 |
 | self | 31 |
 | timeline | 31 |
 | work | 14 |
@@ -38,14 +38,15 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 183 |
-| active | 123 |
+| active | 124 |
 | closed | 92 |
 | archived | 31 |
 | stub | 10 |
 
 ## The last few days
 
-**2026-08-09** — 13 pages
+**2026-08-09** — 19 pages
+  - rewrite | people | shelbie-breakiron, jason-bermejo, eric-jester — wipe and re-research
   - connect | timeline/health/people | robotussin's last dance — age correction and write-back completion (PR #91 fixes)
 
 **2026-08-08** — 11 pages
@@ -53,11 +54,11 @@ this is the state of the thing.
   - rewrite | people, places | full re-research and rewrite of four entries (jacob-bacharach, 117-belmont-circle, zach-harshman→zach-clingan, alexis-armel)
   - govern | root | governance rewrite — six specs, one backlog, six documents retired
 
-**2026-08-03** — 7 pages
+**2026-08-03** — 5 pages
   - ingest | legal | court blotter photo — the arrest is now primary-documented, and a wiki inference was wrong
   - ingest | legal | factstory brief #5 — "The Arrest (the real one)"
 
-**2026-08-02** — 51 pages
+**2026-08-02** — 50 pages
   - climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
   - ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
   - write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
@@ -98,6 +99,7 @@ have moved since.
 - [[wiki/mind/synthesis/alias-as-periodization]] — 5 premises
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — 5 premises
 - [[wiki/mind/synthesis/block-unblock-loop]] — 11 premises
+- [[wiki/mind/synthesis/creator-economy-connector]] — 5 premises
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 9 premises
 - [[wiki/mind/synthesis/dormancy-not-exit]] — 8 premises
 - [[wiki/mind/synthesis/estate-money-spine]] — 5 premises

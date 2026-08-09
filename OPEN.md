@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 30 |
-| Open gaps | 135 |
+| Open gaps | 139 |
 | Standing predictions | 13 |
 
 ## Live contradictions
@@ -81,7 +81,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/interests/music/index]]** — DAW and hardware chain details
 - **[[wiki/interests/music/index]]** — Platform profile links for GRIPNOTIC
 
-### mind (70)
+### mind (74)
 
 - **[[wiki/mind/concepts/chaos-preference]]** — **The macro examples are not sourced.** The Boston-bombing coverage response used to frame the request is not attested in the searched corpus and is not cited here. The generalisation about resolution-as-disappointment is derived from the profile's ontological
 - **[[wiki/mind/concepts/chaos-preference]]** — **`accelerationist` appears 7 times and is uninspected.** Whether the political register is a genuine ideological commitment or an ironic pose is not resolved here, and it materially changes how this page should be read.
@@ -105,6 +105,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — Whether the Alexis→Annie transfer at 155 Virginia was a clean same-month swap or had a brief overlap is not dated to the day in the on-disk record; the calendar gives Nov 28 (Alexis end) and Nov 29 (Annie start), one day apart.
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — Lease holder and physical layout of 155 Virginia across the transition are undocumented (see 155-virginia-ave).
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — The 768/day termination figure's source export is not on disk; the closure-day volume is therefore a known provenance gap, not a settled number.
+- **[[wiki/mind/synthesis/creator-economy-connector]]** — The OnlyFans message history with Kya Hansen — the one place a hidden personal tie could surface — has not been recovered.
+- **[[wiki/mind/synthesis/creator-economy-connector]]** — Whether "Kya Hansen" is a real name or a stage name is unresolved, which limits how far any future cross-search can go.
+- **[[wiki/mind/synthesis/creator-economy-connector]]** — No other creator besides Kya Hansen has been identified in this unpaid-infrastructure role; the pattern currently rests on a single clean instance plus two dated referrals. A third independent instance would move this from a plausible rule to a settled one.
+- **[[wiki/mind/synthesis/creator-economy-connector]]** — Whether Dan's smashonista involvement itself included any moderation or promotional work *for other creators* (cross-promotion within the camming platform's own ecosystem, not just Kya) has not been checked.
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — **The tenure floor is undetermined.** Five days does not persist; six years does. No case between those bounds has been examined, so "sustained" is doing work the corpus has not yet defined.
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — **Survivorship is a live threat to member selection.** The corpus preserves what Dan kept. A relationship that ended and vanished would leave no page, and its absence would look exactly like it never existed. Prediction 2 is the way to attack this — auditing e
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — **The 2010s reactivations cluster in one window.** Menore's reopening (Nov 2018) and the Alexis arrangement (Nov–Dec 2018) fall within weeks of each other. That could be the rule operating twice, or it could be one episode of deliberate reconnection during the

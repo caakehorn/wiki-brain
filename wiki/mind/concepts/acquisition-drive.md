@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-03
+date_modified: 2026-08-09
 sources:
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
   - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
@@ -15,6 +15,9 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [personality-profile, addiction-recovery, legal, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/creator-economy-connector
+    type: parallels
+    claim: "The same completion-oriented drive read here in six months of unpaid, hour-tracked caregiving shows up again as unpaid subreddit administration held past the point of any personal benefit, ended only by a concrete operational frustration rather than boredom or a shift in interest."
   - page: wiki/mind/synthesis/the-embedded-objective
     type: contradicts
     claim: "This page's stated falsifier was found on the first place it pointed to: the employment record holds 41 months at Au Za'atar and 43 at Nemacolin against a six-month Fran vigil, so assigned goals DO receive sustained costly effort — via a private objective installed inside the assignment."

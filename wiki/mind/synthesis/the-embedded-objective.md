@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-03
+date_modified: 2026-08-09
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -234,3 +234,15 @@ by which a payload gets installed is unexamined here:
 [[wiki/mind/concepts/institutional-out]] establishes that Dan does it
 deliberately and says so, but nothing in the corpus describes him choosing
 *which* objective to embed, or what happens in a role that offers several.
+
+> **RE-CHECKED (2026-08-09):** [[wiki/mind/concepts/acquisition-drive]]
+> gained a new connection, drawing a parallel between the Fran vigil's
+> completion-oriented persistence and Dan's unpaid Reddit administration for
+> [[wiki/people/kya-hansen]] (see
+> [[wiki/mind/synthesis/creator-economy-connector]]). This doesn't touch this
+> page's finding: the Kya Hansen role was self-chosen from the start, not an
+> externally assigned commitment with a private objective installed inside
+> it, so it isn't a fifth test case for the assigned-vs-self-generated
+> distinction this page is built around — it's a same-drive instance in a
+> different, already-self-directed context. The falsification stands as
+> written.

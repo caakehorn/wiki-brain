@@ -4,7 +4,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-08-09
 date_range_start: 2017-08-12
 date_range_end: 2020-09-21
 sources:
@@ -23,6 +23,9 @@ connections:
   - page: wiki/people/shelbie-breakiron
     type: parallels
     claim: "The same uncompensated-friend-into-camming/swap-economy shape as the Shelbie relationship, but with a boyfriend explicitly in the mix from the start rather than added later — Shelbie is the arrangement-history baseline instance this pattern is measured against."
+  - page: wiki/mind/synthesis/creator-economy-connector
+    type: instantiates
+    claim: "One of several friend-adjacent solicitations that, read together with the Kya Hansen exception, shows Dan's creator-economy involvement isn't confined to his own direct partners — it extends outward through his social graph in both directions, propositioning and promoting alike."
 ---
 
 # Jenn Lynn

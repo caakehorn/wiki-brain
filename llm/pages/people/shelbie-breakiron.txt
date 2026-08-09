@@ -34,6 +34,9 @@ connections:
   - page: wiki/people/jenn-lynn
     type: parallels
     claim: "Jenn Lynn's 2019–2020 solicitation runs the same uncompensated-friend-into-camming-economy shape as this relationship, but with a boyfriend explicitly in the mix from the start rather than added later — Shelbie is the arrangement-history page's baseline instance for the pattern."
+  - page: wiki/mind/synthesis/creator-economy-connector
+    type: instantiates
+    claim: "Shelbie is the demand-side half of the connector pattern: the direct recipient of Dan's June 7, 2019 Kya Hansen referral, received mid-relationship while Shelbie was herself building a camming setup — the moment two of Dan's separate creator-economy roles (paying partner, unpaid promoter) touch."
 ---
 
 # Shelbie Breakiron

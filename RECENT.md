@@ -8,19 +8,26 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-09 — 13 pages
+## 2026-08-09 — 19 pages
 
+- **Session log:** rewrite | people | shelbie-breakiron, jason-bermejo, eric-jester — wipe and re-research
 - **Session log:** connect | timeline/health/people | robotussin's last dance — age correction and write-back completion (PR #91 fixes)
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/chemical-architecture]] | health | — |
+| [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
+| [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a REVISED from 2026-08-02)_ |
+| [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — rick-frank was modified: a new connection and prose paragraph document June 15, 2005, a DXM-fueled Tom Petty trip on which Rick is described as already a "non-factor," sourced from [[wiki/timeline/eve |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — rick-frank was modified: a new co-occurs edge and prose paragraph document June 15, 2005 — a DXM-fueled Tom Petty trip during which Rick is described as already a "non-factor" in what Dan could or cou |
+| [[wiki/mind/synthesis/creator-economy-connector]] | mind | — |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — rick-frank was modified: a new connection and prose paragraph document June 15, 2005, the day Dan worked a Frank's Auto Supermarket delivery shift before a DXM-fueled trip that night, sourced from [[w |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — rick-frank was modified: a new connection and prose paragraph document June 15, 2005, a Frank's Auto Supermarket workday preceding a DXM-fueled trip involving Dan, not Rick, sourced from [[wiki/timeli |
+| [[wiki/mind/synthesis/the-embedded-objective]] | mind | _(carries a RE-CHECKED)_ |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — The previous version of this page cited only `MASTER_MESSAGES_DB_DUMP.csv` and `interspersed_messages.csv`, reported "103 messages" and flagged direction as "unreliable in this export... marked Receiv |
 | [[wiki/people/jason-bermejo]] | people | **CORRECTED** — The previous version of this page claimed "451+ messages," a date range running to 2026-03-21, and a "Feb 2026 renewal... 400+ messages in a single month, the thread's all-time peak, landing in the ra |
+| [[wiki/people/jenn-lynn]] | people | — |
 | [[wiki/people/rick-frank]] | people | — |
 | [[wiki/people/shelbie-breakiron]] | people | — |
 | [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED)_ |
@@ -48,7 +55,7 @@ simply listed.
 | [[wiki/people/zach-clingan]] | people | **CORRECTED** — The handle `+18439903264` does not belong to Zachariah Harshman. Two independent contact exports separate the two men cleanly, and their number sets do not overlap at any point. | Source | Zach Clinga |
 | [[wiki/places/117-belmont-circle]] | places | **REVISED** — Earlier versions of this page dated the tenure as "more than fifty years" and left it there, which is true but soft. The GEDCOM fixes a floor at 1961 and supplies the mechanism (a return from Miami Be |
 
-## 2026-08-03 — 7 pages
+## 2026-08-03 — 5 pages
 
 - **Session log:** ingest | legal | court blotter photo — the arrest is now primary-documented, and a wiki inference was wrong
 - **Session log:** ingest | legal | factstory brief #5 — "The Arrest (the real one)"
@@ -57,13 +64,11 @@ simply listed.
 |---|---|---|
 | [[wiki/legal/2015-possession-arrest]] | legal | **REVISED** — When this page was written earlier the same day, it judged the capture's opening line ("It's sometime in early 2015") to be "almost certainly too early," on the reasoning that a February arrest would  |
 | [[wiki/legal/2015-retail-theft-arrest]] | legal | **REVISED** — Until today it was titled "2015 Arrest (Retail Theft / 'The Combos Incident')" and carried the lawyer, the ARD application, the Judge Wagner hearing, the barracks trips and the family drama around the |
-| [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
-| [[wiki/mind/synthesis/the-embedded-objective]] | mind | — |
 | [[wiki/people/jack-connor]] | people | — |
 | [[wiki/people/lucy]] | people | — |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-08-08)_ |
 
-## 2026-08-02 — 51 pages
+## 2026-08-02 — 50 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -96,7 +101,6 @@ simply listed.
 | [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/profile/big-five-psychometrics]] | mind | **CONTRADICTION** — acquisition-drive records the operator's own claim, offered with an explicit disclaimer against hyperbole, that his "resilience for the goal" sits at the 95th percentile or above — a persistence dimen |
 | [[wiki/mind/profile/linguistic-profile]] | mind | — |
-| [[wiki/mind/psychosexual/arrangement-history]] | mind | **REVISED** — Until now this table opened its practice record with the November 2018 Alexis reunion and described it as "the earliest well-documented instance." Two operator captures and the message corpus together |
 | [[wiki/mind/synthesis/ancestral-dialectic]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | **REVISED** — Until today annie-ulmer stated in two places that *Annie* left her existing relationship within twenty-four hours of the introduction, and this page cited that formulation approvingly as a second, ind |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — ancestral-dialectic was revised on 2026-08-02 after a direct read of the GEDCOM contradicted it: the report has the paternal line fleeing the pogroms *into* the Fayette County coal patch, while the ce |
@@ -371,7 +375,7 @@ simply listed.
 | [[wiki/work/tech/index]] | work | — |
 | [[wiki/work/tech/mneme/overview]] | work | — |
 
-## 2026-07-19 — 50 pages
+## 2026-07-19 — 48 pages
 
 - **Session log:** ingest | people | long-tail MINE pass (sam, davey-fitzpatrick, vaughn, nick-mattie, urpaaa) + kezmarsky death-claim correction
 - **Session log:** ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
@@ -403,7 +407,6 @@ simply listed.
 | [[wiki/mind/profile/enneagram-5w4]] | mind | — |
 | [[wiki/mind/psychosexual/developmental-origins]] | mind | — |
 | [[wiki/mind/psychosexual/emotional-imprinting]] | mind | — |
-| [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/people/bobby-cole]] | people | — |
@@ -417,7 +420,6 @@ simply listed.
 | [[wiki/people/elizabeth-eleanor]] | people | — |
 | [[wiki/people/jack-rusko]] | people | — |
 | [[wiki/people/jamie-mohler]] | people | — |
-| [[wiki/people/jenn-lynn]] | people | — |
 | [[wiki/people/kelly-johansson]] | people | — |
 | [[wiki/people/kristin]] | people | _(carries a REVISED from 2026-02-17)_ |
 | [[wiki/people/lauryn-ashly]] | people | — |

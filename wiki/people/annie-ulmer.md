@@ -99,6 +99,9 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/creator-economy-connector
+    type: instantiates
+    claim: "Smashonista puts Annie and Dan on the supply side of the same market Kya Hansen and Shelbie occupy — the couple aren't just adjacent to the creator economy through Dan's moderation and referrals, they sell into it themselves, which is what makes his unpaid infrastructure work for Kya read as comfort with the system rather than an isolated favor."
   - page: wiki/people/shelbie-breakiron
     type: co-occurs
     claim: "Annie is present throughout the Shelbie relationship, not concealed — the two women knew about each other, joked about the arrangement, and coordinated at least one three-way visit directly."
