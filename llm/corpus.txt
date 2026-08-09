@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-08
-438 pages, ~672,179 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-09
+439 pages, ~677,054 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -18,7 +18,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -56,6 +56,9 @@ connections:
   - page: wiki/timeline/periods/dark-era-2007-2008
     type: evidenced-by
     claim: "A November 2007 Las Vegas trip is newly dated as the point physical opiate dependence became undeniable, and a winter 2008 single heroin attempt was rejected on aesthetic grounds ('felt dirty') rather than fear of the drug itself."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: contains
+    claim: "The June 15 2005 DXM trip to a sold-out Tom Petty show — 20–40 capsules taken deliberately to 'shatter the space-time continuum' — is the earliest documented instance of Dan naming a substance's purpose in language that prefigures the engineered-stack framing this page describes a decade later, and predates the household's first cocaine use by weeks to months."
 ---
 
 # Chemical Architecture
@@ -112,7 +115,15 @@ substance later implicated in the November 2005 rupture (his father's
 rehab admission, his mother's affair with their dealer) was already a
 familiar, "adult" behavior in the house years before that hinge event,
 which complicates any clean story where the divorce alone triggers the
-pattern. His own first cocaine use follows at 17–18 (2005–2006), in the
+pattern. A few weeks to months before that first cocaine use, on June 15, 2005
+(age 16), Dan took the largest DXM dose of his life — 20–40 red gel
+capsules, on the way to a sold-out Tom Petty show he never got into —
+which he describes taking deliberately to "shatter the space-time
+continuum," the earliest instance in the corpus of him naming a
+substance's purpose in the same register he later uses for the
+engineered stack itself
+([[wiki/timeline/events/robotussin-s-last-dance]]). His own first
+cocaine use follows at 17–18 (2005–2006), in the
 [[wiki/places/seven-springs|Seven Springs]] ski-crew context, and this
 retrospective explicitly frames the choice as instrumental as much as
 social: cocaine as a chemical means of weight control tied to the
@@ -14377,7 +14388,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -14528,6 +14539,17 @@ The forensic analysis of this decade concludes that resolving the trauma bond do
 
 Resolution demands grieving the fantasy of the relationship that could have been, rather than mourning the chaotic reality that actually was. It requires redirecting the massive recursive energy previously spent on understanding the partner into building the subject's own systemic architecture. Finally, the attachment wound must be addressed directly through somatic, trauma-focused regulation, allowing the nervous system to learn that it can survive without the external co-regulator.
 
+> **RE-CHECKED [2026-08-09] — Rick's older schema gains a same-day origin
+> scene; reactivation reading unaffected.** [[wiki/people/rick-frank]] was
+> modified: a new connection and prose paragraph document June 15, 2005, a
+> DXM-fueled Tom Petty trip on which Rick is described as already a
+> "non-factor," sourced from
+> [[wiki/timeline/events/robotussin-s-last-dance]]. The claim this page draws
+> from Rick is the 2005 concealed-reality rupture as the older schema the 2026
+> collapse reactivates — that rupture's substance is unchanged by an
+> adolescent-drug anecdote from the same summer. No finding here needed
+> revising.
+
 
 ========================================================================
 PAGE: wiki/mind/synthesis/block-unblock-loop.md
@@ -14539,7 +14561,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
@@ -14846,6 +14868,17 @@ across the 127 exit declarations, which is queued below.
   systematically mined; the loop's frequency outside intense bonds is
   unmeasured.
 
+> **RE-CHECKED [2026-08-09] — Rick amputation gains a same-day origin
+> scene; control case unaffected.** [[wiki/people/rick-frank]] was modified:
+> a new co-occurs edge and prose paragraph document June 15, 2005 — a
+> DXM-fueled Tom Petty trip during which Rick is described as already a
+> "non-factor" in what Dan could or couldn't do — sourced from
+> [[wiki/timeline/events/robotussin-s-last-dance]]. This is additive
+> context for the *lead-up* to the rupture, not a change to the amputation
+> itself: the held-block control case here still rests on the 12-day
+> outbound burst in late 2015 and the decade of unanswered inbound after
+> it, both untouched by the new material. No finding on this page changes.
+
 
 ========================================================================
 PAGE: wiki/mind/synthesis/bond-switch-2015.md
@@ -15011,7 +15044,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-02
+date_modified: 2026-08-08
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
@@ -15208,6 +15241,9 @@ The synthesis the wiki already carries — "the gaslighting outweighed the affai
 - **The primary-count pass ran 2026-07-18.** Results now inline above: verbal-abuse triple (74/17/11) **confirmed exactly** [RAW-CSV]; 0-severance **confirmed** [RAW-CSV]; 1,512 love-affirmations confirmed to lexicon precision; 232 consistent-not-exact; **180 "I'm sorry" and the "apologizes least" ordering NOT reproduced** (plain-lexicon recount: 435 through Aug 2025); **187:4 deflated by base-rate control and inverted by the directional test** (see REVISED block); 127/110 and 94-burst order-consistent but definition-dependent, still [DERIVED]; 299 unlocated. The "768 messages sent 2026-05-31" bootloader figure remains non-reproducible (closure export shows 265 Sent / 482 total that day) — unchanged from the 2026-07-15 finding.
 - **April–May 2026 final-weeks page** is built from a single chat-analysis session, not an independently located raw CSV for that window; its dated, quoted messages (GPS-with-third-party May 5; the "25 Nov 2015 – 04 May 2026" self-periodization) are **[RAW-CSV]** verified above, but the surrounding "Betrayal Catalog" / pregnancy claims in that same source are explicitly uncorroborated and excluded.
 - **The pregnancy reference** (claimed due date Nov 18) appears in two chat-analyses only, contradicts primary message exports, and is not adopted as fact anywhere in the wiki.
+
+> **RE-CHECKED [2026-08-08] — tuquick identity unmasked; verdict conclusion unaffected.**
+> [[wiki/people/tuquick-17248123683]] was modified: Tuquick's real identity is now Jerel Wayne Coles, identified via a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`. This is additive identity data — Coles's name, address, and criminal record were not in the corpus at synthesis time. The verdict's claim on the tuquick page rests on his June 15 defection behavior (the "compulsive liar with a drug addiction" read and the independent-validation argument), not on his anonymity. That behavior is unchanged by the unmasking. No conclusion on this page altered.
 
 
 ========================================================================
@@ -15582,7 +15618,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -15787,6 +15823,16 @@ documents from the beginning.
 > an elapsed deadline and no recorded outcome. The chain does not break; it ends
 > in an unread result, which is a worse place for it to end than a pending one.
 
+> **RE-CHECKED [2026-08-09] — paternal source-line gains an early
+> substance-use data point; capital chain unaffected.** [[wiki/people/rick-frank]]
+> was modified: a new connection and prose paragraph document June 15, 2005,
+> the day Dan worked a Frank's Auto Supermarket delivery shift before a
+> DXM-fueled trip that night, sourced from
+> [[wiki/timeline/events/robotussin-s-last-dance]]. This is a dated anecdote
+> about the business as a workplace, not a capital or ownership fact — it
+> touches nothing in the paternal source-line's role as the anti-union
+> "kushy lives" engine that funds this spine. No finding here changes.
+
 
 ========================================================================
 PAGE: wiki/mind/synthesis/fayette-return.md
@@ -15800,7 +15846,7 @@ aliases: ["the elastic tether", "regional gravity", "leave-and-come-back"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 date_range_start: 1892-01-01
 date_range_end:
 sources:
@@ -16022,6 +16068,16 @@ solid.
   the county rather than distinctive. Nothing here compares the line against a
   regional base rate, and until it does, "elastic tether" is a description and
   not yet an explanation.
+
+> **RE-CHECKED [2026-08-09] — Rick's "no attested departure" generation
+> gains a dated adolescent-era scene; rule unaffected.** [[wiki/people/rick-frank]]
+> was modified: a new connection and prose paragraph document June 15, 2005,
+> a Frank's Auto Supermarket workday preceding a DXM-fueled trip involving
+> Dan, not Rick, sourced from
+> [[wiki/timeline/events/robotussin-s-last-dance]]. Nothing about Rick's own
+> residence or departure history changes — the addition is about Dan's
+> adolescence, not Rick's generation-line data. G3's "none attested" entry
+> and the rule it instantiates are untouched.
 
 
 ========================================================================
@@ -31269,6 +31325,9 @@ connections:
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Steve's death reaches the record through this thread — Jim hadn't heard, December 2018 — the second dead member (after Rob Orange) of the same high-school-era Uniontown circle."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: co-occurs
+    claim: "The June 15 2005 Tom Petty minivan trip is the documented shared outing that Jim retells four years later as pure adventure — this capture fills in the DXM-laced, 95 mph, cone-smashing substance context that both retellings leave blank."
 ---
 
 # "New Jim Shaffer" (Jim Shaffer)
@@ -31527,7 +31586,7 @@ title: "Richard Harrison \"Rick\" Frank"
 aliases: ["Rick", "Frank Sr."]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 infobox:
   name: Rick Frank
   status: Estranged
@@ -31577,6 +31636,9 @@ connections:
   - page: wiki/mind/synthesis/fayette-return
     type: instantiates
     claim: "The generation with no attested departure, which forces the rule into its better-supported form: the terminus is always Fayette, and never leaving satisfies that more completely than leaving and returning."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: co-occurs
+    claim: "Frank's Auto Supermarket is the daytime setting of the same June 15 2005 day that ends in a 95 mph DXM-fueled drive — Rick is named in the capture as a 'non-factor' by then, no longer able to constrain what Dan did on any given night, the same summer the 2005 rupture was unfolding."
 ---
 
 
@@ -31624,6 +31686,14 @@ of historical framework regarding local family footprint and industry
 logic." The CATO known-gaps list carries one unresolved thread: a **"We
 Speak Car" / Ford trademark litigation** involving the business, outcome
 unknown — flagged for future ingest.
+
+The store also supplies the one dated snapshot of Rick's absence as a
+constraint on Dan: on June 15, 2005, 16-year-old Dan worked a delivery
+shift there before Jim Shaffer and Rob Orange picked him up for the
+DXM-fueled Tom Petty trip that ends in a 95 mph drive down Rt 51 — a
+night Dan's own retelling frames as possible specifically because Rick,
+by then, was "a non-factor" in what he could or couldn't do
+([[wiki/timeline/events/robotussin-s-last-dance]]).
 
 ## The relationship on the record
 
@@ -31825,6 +31895,9 @@ connections:
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Jim's Dec 2018 thread names Rob and Steve back to back as the cohort's losses — except Steve, per a correction the same conversation forces, was misheard as dead and was actually alive."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: co-occurs
+    claim: "The June 15 2005 Tom Petty minivan trip is the documented shared outing Jim retells four years later as pure adventure — this capture fills in the DXM-laced, 95 mph, cone-smashing substance context that both retellings leave blank, and places Rob Orange in the car for the last night of the summer that defined his friendship with Dan."
 ---
 
 # Rob Orange
@@ -33559,7 +33632,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-08
 date_range_start: 2026-07-25
 date_range_end: 2026-08-02
 tags: [relationships, trauma-bond, mental-health, forensic-analysis]
@@ -33573,6 +33646,7 @@ infobox:
 sources:
   - raw/self/message-csv/imessage_export_2124702449_20260802.csv
   - raw/self/message-csv/imessage_export_2124702449_20260726.csv
+  - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
 connections:
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: causes
@@ -33588,7 +33662,7 @@ connections:
     claim: "He telephoned Suz to abuse her about a relationship she had no part in, which is what made the harassment a family matter and what Annie eventually walked to the house to apologise for."
   - page: wiki/people/tuquick-17248123683
     type: co-occurs
-    claim: "Tuquick is the only prior third party the corpus documents in this role, and no source states whether the two are the same man — the question is open in both directions."
+    claim: "Tuquick (now identified as Jerel Wayne Coles) is the only prior third party the corpus documents in this role. Coles's address history shows continuous residence in Uniontown, but his known phone numbers do not appear in the July 2026 message export and Annie never identifies him by name; the question of whether Coles is also the July 2026 unnamed interloper remains open."
   - page: wiki/timeline/events/july-2026-recontact
     type: follows
     claim: "The 'She's a slut man lmfao' message that arrived on Annie's number at 00:25 on July 26 is his first appearance in the record; everything known about him postdates it by hours."
@@ -33709,17 +33783,9 @@ to.
 
 ## Is he Tuquick?
 
-Unknown, and no source addresses it.
-[[wiki/people/tuquick-17248123683|Tuquick]] is the only other man the corpus
-places in this role — the interloper of the May 31–June 1 2026 end fight, who
-defected on June 15 and called Annie a compulsive liar. Points of contact: the
-same role, the same six-week span, the same town. Points against: Tuquick's
-recorded conduct toward Dan ended in agreement with him, which is hard to
-reconcile with the July 26 register; and neither Dan nor Annie treats the July
-26 arrival as a continuation of anything, which is unusual given how
-comprehensively both narrate their own histories. The question is left open,
-and it is one of the few in the corpus that will not be settled by re-reading
-`raw/` — it needs an answer from outside.
+> **REVISED [2026-08-08]:** Tuquick is now identified as **Jerel Wayne Coles** (born ~1990, Uniontown, PA) via a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`. Coles has a documented criminal record in Pennsylvania court databases including harassment (2009), two DUIs (2019, 2024), and criminal mischief (2025). This does not, however, establish whether the July 2026 unnamed interloper is Coles. Coles's known phone number is `(724) 628-7133` (residential) and `(724) 812-3683` (mobile) — neither appears in the July 2026 message export, and Annie does not identify the July 26 attacker by name in Dan's corpus. The question remains open, but the overlap of geography (Uniontown), the harassment charge, and the identical interloper role makes a strong circumstantial case. See [[wiki/people/tuquick-17248123683]] for Coles's full profile.
+
+Unknown, and no source addresses it directly. [[wiki/people/tuquick-17248123683|Tuquick]] is the only other man the corpus places in this role, six weeks earlier and in the same town, and no source states whether he and the July 2026 third party are the same person — the question is open in both directions. Tuquick's real identity (Jerel Wayne Coles) was unmasked on 2026-08-08 (see the REVISED block above); Coles's address history shows him in Uniontown continuously, but his recorded phone numbers do not appear in the July 2026 message export, and Annie never identifies him by name.
 
 ## Gaps
 
@@ -34340,9 +34406,9 @@ PAGE: wiki/people/tuquick-17248123683.md
 ---
 domain: people
 page_type: entity
-status: closed
+status: active
 date_created: 2026-06-24
-date_modified: 2026-07-19
+date_modified: 2026-08-08
 date_range_start: 2026-05-31
 date_range_end: 2026-06-16
 sources:
@@ -34350,13 +34416,14 @@ sources:
   - raw/self/message-csv/THE END FIGHT.csv
   - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
   - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
+  - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/end-fight
   - wiki/timeline/events/group-chat-closure
 tags: [relationships, trauma-bond, ai-collaboration, addiction-recovery]
 infobox:
-  name: "Tuquick 17248123683"
+  name: "Jerel Wayne Coles (Tuquick 17248123683)"
   relationship_to_dan: unknown
   location: nyc
   first_contact: 2026-05-31
@@ -34364,7 +34431,7 @@ infobox:
 connections:
   - page: wiki/people/the-unnamed-man
     type: co-occurs
-    claim: "Tuquick is the only other man the corpus places in the interloper role, six weeks earlier and in the same town, and no source states whether he and the July 2026 third party are the same person."
+    claim: "Tuquick (Jerel Wayne Coles) is the only other man the corpus places in the interloper role, six weeks earlier and in the same town. Coles's identity was unmasked on 2026-08-08; whether he is also the July 2026 unnamed interloper is open — his known phone numbers do not appear in the July 2026 message export."
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "The June 15 defection is the verdict's independent-validation exhibit: convergence on Dan's read within 14 days of attacking it."
@@ -34383,11 +34450,33 @@ connections:
 
 > **REVISED [2026-07-13]:** Operator correction: Tuquick is not a "stranger inserted into the situation" — he is who Annie left Dan for. He may or may not be "Target G"; unknown.
 
+> **REVISED [2026-08-08]:** The interloper's real-world identity has been unmasked through a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md` (FOREWARN database). He is **Jerel Wayne Coles**, age 36, with a current address of 106 Nassau St, Uniontown, PA 15401 — and a documented criminal history spanning 2008–2025 (traffic violations, two DUI arrests, disorderly conduct, harassment, and a 2025 criminal mischief charge). He is NOT target G; the July 2026 unnamed interloper remains a separate open question — see [[wiki/people/the-unnamed-man]].
+
 ## Identity
 
-Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal group chat that closed the relationship on June 1, 2026 (the [[wiki/timeline/events/end-fight]]). Associated with the email `Tuquick3@hotmail.com` and phone number `+17248123683`. He is **not** [[wiki/people/eli]] (the 2024–Feb 2025 NYC affair). Whether he is "Target G" — the married man from the January 2026 "Suzy" call and ten-day blackout (see [[wiki/people/annie-ulmer]] §Target G, [[wiki/self/chats/gemini-07]]) — is unresolved; the Gemini-_07 forensics name the Target G figure "Caitlin's husband," a description not otherwise confirmed as Tuquick.
+Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal group chat that closed the relationship on June 1, 2026 (the [[wiki/timeline/events/end-fight]]). Associated with the email `Tuquick3@hotmail.com` and phone number `+172****3683`. 
+
+**His real name is Jerel Wayne Coles** (born circa 1990), identified via a background-check capture that pulled his full record from Pennsylvania court databases (FOREWARN). Coles is a Uniontown-area resident with a documented criminal history (see the `## Criminal record` section below), including two DUI arrests, prior harassment and disorderly-conduct convictions, and a 2025 criminal mischief charge. He is **not** [[wiki/people/eli]] (the 2024–Feb 2025 NYC affair). Whether he is "Target G" — the married man from the January 2026 "Suzy" call and ten-day blackout (see [[wiki/people/annie-ulmer]] §Target G, [[wiki/self/chats/gemini-07]]) is unresolved; the Gemini-_07 forensics name the Target G figure "Caitlin's husband," a description not otherwise confirmed as Coles.
 
 During the May 31/June 1 confrontation he aggressively defended Annie, hurling extreme insults at Dan.
+
+## Criminal record
+
+The background-check capture (FOREWARN, sourced from Pennsylvania court databases) collapses 64 raw court records into **9 distinct incident clusters** spanning 2008–2025:
+
+| Date | Incident | Charges | Outcome |
+|---|---|---:|---|
+| 10/31/2008 | Traffic (turning movements) | 1 | Unknown |
+| 11/20/2008 | Disorderly conduct / fighting | 1 | Guilty plea |
+| 06/13/2009 | Vehicle equipment | 1 | Guilty plea |
+| 07/19/2009 | Harassment (physical contact) | 1 | Guilty |
+| 06/06/2010 | Traffic (license expired, signals) | 2 | Guilty / guilty plea |
+| 07/07/2010 | Traffic (no inspection, obstructed window) | 2 | 1 guilty plea, 1 not guilty |
+| 02/03/2019 | DUI + traffic (BAC ≥ .16) | 6 | ARD County |
+| 06/29/2024 | DUI + traffic (5 counts) | 5 | Guilty pleas |
+| 04/05/2025 | Criminal mischief / property damage | 1 | Unknown |
+
+**Pattern:** 2008–2010 establishes a baseline of traffic violations plus two interpersonal/public-order offenses (fighting, harassment involving physical contact). The 2019 DUI includes a BAC ≥ .16 charge (aggravated), processed through ARD. The 2024 DUI shows the same pattern with a clean guilty-plea disposition. The 2025 criminal mischief charge is the first non-traffic criminal matter, representing a shift in offense type. See `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md` for the full capture and the de-duplication reasoning.
 
 ## Role in the End Fight (May 31 - June 1, 2026)
 
@@ -34487,7 +34576,7 @@ This defection serves as an independent, third-party validation of the manipulat
 
 ## Notes
 
-Tuquick is not Eli. He is the relationship Annie left for, the catalyst and counterpart of the final group chat closure on June 1, and subsequently an independent witness to Annie's behavioral architecture on June 15.
+Jerel Coles (Tuquick) is not Eli. He is the relationship Annie left for, the catalyst and counterpart of the final group chat closure on June 1, and subsequently an independent witness to Annie's behavioral architecture on June 15. The July 2026 unnamed interloper remains a separate open question — see [[wiki/people/the-unnamed-man]].
 
 
 ========================================================================
@@ -41721,6 +41810,88 @@ extremely sorry." It is the only unprompted acknowledgment in the record.
 
 
 ========================================================================
+PAGE: wiki/timeline/events/robotussin-s-last-dance.md
+========================================================================
+
+---
+domain: timeline
+page_type: event
+title: "Robotussin's Last Dance"
+aliases: ["DXM Tom Petty trip", "the Robo-tripping concert"]
+status: stable
+knowledge: mixed
+date_created: 2026-08-09
+date_modified: 2026-08-09
+date_range_start: 2005-06-15
+date_range_end: 2005-06-15
+sources:
+  - "raw/self/captures/2026-08-09_143916_robotussin-s-last-dance.md"
+tags: [uniontown-era, addiction-recovery]
+infobox:
+  name: "Robotussin's Last Dance"
+  type: event
+  date: 2005-06-15
+  location: "Burgettstown, PA → Uniontown, PA"
+  known_for: "Three teenage boys (Dan 16) drove 95 mph down Rt 51 on 20–40 DXM capsules each, trying to get to Uniontown from a sold-out Tom Petty show they never had tickets to."
+connections:
+  - page: wiki/people/new-jim-shaffer
+    type: co-occurs
+    claim: "Jim is one of the two surviving members of the trio that took this trip — the Tom Petty minivan memory is the only place in the corpus where he and Dan reconstruct a shared adolescent drug experience without the usual dark-comedy armor."
+  - page: wiki/people/rob-orange
+    type: co-occurs
+    claim: "Rob Orange is the missing third member of the trip — the Tom Petty minivan story that Jim and Dan reconstruct in Dec 2018 is the same outing, and this capture fills in the substance-use context that both retellings leave blank."
+  - page: wiki/timeline/events/teen-concert-years
+    type: component-of
+    claim: "This is an off-record member of the 2005 concert record: Tom Petty at Post-Gazette Pavilion on a night Dan never made it inside, the only concert date in the corpus where the destination is reached and the show is missed simultaneously."
+  - page: wiki/health/chemical-architecture
+    type: component-of
+    claim: "DXM is the first documented substance in the corpus that Dan took deliberately to 'shatter the space-time continuum' — a word-for-word prefiguration of the engineered-stack framing he adopts a decade later, and the first instance of recreational use preceding the opiate arc by two years."
+  - page: wiki/people/rick-frank
+    type: co-occurs
+    claim: "Frank's Auto Supply is the daytime setting of the same day — the delivery-driver job held that afternoon, at 16, on a day whose evening ended with 90 minutes of full intoxication at Ruby Tuesday's near Pittsburgh airport and a 95 mph drive back toward Uniontown."
+---
+
+# Robotussin's Last Dance
+
+June 15, 2005 — the summer after eleventh grade, age 16 (the capture recalls "17," but Dan's documented DOB of 1988-11-01 puts him five months short of that birthday), with a license, a car, a father whose marriage was collapsing and a mother whose affair had already hollowed the household into something Dan could leave without looking back. The setting is Frank's Auto Supply, the family business, where he spent that afternoon as a delivery driver, four-x-ing the drive time to every stop and going home to jerk off twice on the clock. At 4pm, less than an hour left in his shift, Jimmy Shaffer called with comically enthusiastic excitement: he and Rob Orange would pick Dan up at 5:30 and drive him to the Tom Petty concert at the Post Gazette Pavilion in Burgettstown, PA.
+
+By the time they arrived, Tom Petty was already on stage. They had no tickets. The show was sold out. They could hear "Runnin'" playing live from the parking lot as they learned this at the will-call window. Jim had brought them there to wing it, and in 2005 that did not read as a genuinely stupid thing to do.
+
+## The drug
+
+The plan they arrived at instead: go to the nearest CVS and buy enough DXM to cook themselves. The source specifies "20–40 red gel capsules of pure dextromethorphan" per person, three people, which would have been the largest single dose Dan had taken to that point. He would go on to do DXM roughly 8–10 times in the six months before graduating to what he calls "more professional and mature narcotics" — meaning the opiate arc that begins the following year. Among those 8–10 sessions, this is the one he names as the marquee experience: not the most intense chemically, but the one where the freedom he had been feeling all summer collided with actual impairment on a highway.
+
+The red flag the capture flags for the reader is geography: the closest CVS to Burgettstown was in a direction that required driving from Burgettstown to Uniontown, not away from it. By the time the DXM hit, the three of them were ninety minutes and roughly ninety-five miles in the wrong direction — sitting at a Ruby Tuesday's near Pittsburgh airport, so incapacitated they would have been kicked out had they not agreed to leave voluntarily.
+
+## The drive back
+
+The capture's most vivid memory is the Rt 51 stretch: teenage boys, 95 miles per hour, passing cars and smacking into orange traffic cones. The capsule count, the distance from home, the highway speed and the cone impacts are all presented as a single motion — not a decision followed by an outcome, but a single continuous event whose internal logic was the drug and the friendship and the summer. Nothing in the record suggests any of the three were pulled over, injured, or otherwise interrupted. The drive's terminus is Uniontown, not a house or a bed, which is what makes it a story rather than a cautionary footnote: the destination was the place he would sober up in, and the place that had already, by that June, been partially emptied of the family that used to live in it.
+
+## What it shows about the era
+
+This is the summer the family's stable narrative actually broke. Rick is named in the capture as a "non-factor" — not absent, but no longer able to constrain what Dan could or could not do on any given night. The prior two years had already normalized household cocaine use (the substance the capture frames as the "adult" drug already present in the house before Dan ever tried it himself), and the divorce had not yet been absorbed into a new family structure — it was still raw enough to feel like permission rather than loss. The Abercrombie & Fitch accumulation that dominated eleventh grade Dan's self-concept — best-dressed senior superlative, bought his way in — is the surface layer of a kid who felt, for the first and only time, that the usual rules did not apply to him and that the consequences would be someone else's problem.
+
+DXM was the cheapest, closest version of that feeling. It was already in the medicine cabinet.
+
+## Corpus connections
+
+The Tom Petty minivan story is a named shared memory that surfaces twice in the surviving corpus — once from Jim Shaffer, four years after Rob Orange's death, and once embedded in the Rob Orange page itself. Both retellings treat it as pure adventure: a supercharged minivan, a sold-out show, three boys winging it. The capture is the only document that adds what was actually inside the adventure — the 20–40 DXM capsules, the Ruby Tuesday's incapacitation, the 95 mph cone-smashing run down Rt 51. It does not change the memory's emotional register; it just completes the picture the two surviving participants had been retelling without that detail.
+
+The same memory functions as a load-bearing instantiation of the block-unblock-loop pattern documented elsewhere in the corpus: three adolescents, a sold-out show, a drug-induced escape hatch, a 95 mph drive home — maximum engagement with no plan for landing. The structure reappears in adult form at lower amplitude, and the same friendship circle is present at both registers.
+
+The Frank's Auto Supply job is a documented part of the family business record. The Post-Gazette Pavilion at Burgettstown is an existing venue anchor in the concert record. The summer of 2005 is the hinge between the household-cocaine normalization Dan names retrospectively and the opiate arc that begins within two years — the same summer he first uses DXM deliberately as a consciousness-altering tool rather than a casual experiment, the first instance of the "shatter the space-time continuum" language he would later formalize as engineered neurochemical architecture.
+
+## Gaps
+
+- The exact capsule count is Dan's own retrospective estimate, not a counted inventory — "20–40" is a range, and the capture reads it as such.
+- The CVS location is named only as "the closest CVS to Burgettstown"; the Ruby Tuesday's is specified as near Pittsburgh airport but not pinned further.
+- No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony.
+- Whether any of the three were sober enough to make decisions by the time they left Ruby Tuesday's is not addressed.
+- The Post-Gazette Pavilion's sold-out Tom Petty date of June 15 2005 has not been independently verified against tour records.
+- The capture self-reports Dan's age as 17 throughout; his documented DOB (1988-11-01, `[DOC]`-tier per `CONTEXT_CORE_EXPANDED.md`) makes him 16 on June 15 2005, five months from turning 17. The corpus DOB governs — this page uses 16 — but the source's own framing of "17-year-old boys" is recorded here rather than silently corrected, since Jim's and Rob's ages are not independently documented.
+
+
+========================================================================
 PAGE: wiki/timeline/events/shelbie-annie-threesome-april-2019.md
 ========================================================================
 
@@ -41852,6 +42023,9 @@ connections:
   - page: wiki/interests/video-games
     type: co-occurs
     claim: "The same 2007 status layer that documents the tour devotion names 'slaying on halo' and Super Mario Galaxy — gaming is a sibling coordinate of the teenage identity cluster this page reconstructs."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: contains
+    claim: "A June 15 2005 sold-out Tom Petty lot at Burgettstown is the concert record's off-grid entry: the destination was reached, the show was not seen, and the DXM-laced drive back on Rt 51 is the substance context the Tom Petty minivan memory had always left blank."
 ---
 
 
@@ -42454,6 +42628,7 @@ related: []
 - [[wiki/timeline/events/franki-fireworks-day-2013]] — early July 2013: the day Alexis discovered the Franki affair by text ten minutes into the drive; also dates the production identity's origin and supplies the chaos preference's first attested macro instance.
 - [[wiki/timeline/events/bald-eagle-cummings]] — seventh grade at Seven Springs: the corpus's earliest sexual event, a failure that produced a year-long school-wide nickname, and the first named girlfriend (Britney Bolen, predating Danielle by ~3 years).
 - [[wiki/timeline/events/teen-concert-years]] — 2005–2008: the literal touring record (FOB×3 + TRL taping, MCR, TBS, Say Anything, Bamboozle) that the wiki had flattened into "top music artists."
+- [[wiki/timeline/events/robotussin-s-last-dance]] — June 15 2005: three 17-year-olds in a sold-out Tom Petty lot at Burgettstown, 20–40 DXM capsules each, a Ruby Tuesday's incapacitation near Pittsburgh airport, and a 95 mph drive down Rt 51 back to Uniontown — the capture that fills in the drug context the Tom Petty minivan story had always left blank.
 - [[wiki/timeline/events/end-fight]] — Extended confrontation sequence captured in dedicated "THE END FIGHT" CSV export and the…
 - [[wiki/timeline/events/fran-death-vigil]] — March–April 2018: the fall, the nursing home, the pediatric wing, the snowstorm; Dan and Annie alone at the end.
 - [[wiki/timeline/events/the-fall-of-fran]] — night of March 7–8 2018: the arrangement's first encounter and the fall that ended Fran's fifty-year residency, in the same house, minutes apart.

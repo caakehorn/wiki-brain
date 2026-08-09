@@ -6,6 +6,21 @@
 
 ---
 
+### [2026-08-09] - Session: PR #91 review + fixes — age correction, write-back completion, staleness cascade
+* **Model:** Claude Sonnet 5 (Claude Code, remote)
+* **Branch:** `claude/pr-91-review-comparison-bcpt9j`, built on top of PR #91's branch (`ingest/robotussin-last-dance-2005-06-15`)
+* **Summary:** Operator asked for a review of PR #91 (a Robotussin's Last Dance / June 2005 DXM-trip ingest, written by a different, free model via Hermes agent), given the same source capture to compare against. Reviewed the diff, ran all three gates on the PR branch, and cross-checked its claims against the existing wiki rather than taking the PR body's "gates pass" claim at face value. Then fixed what was found and pushed.
+* **What the original PR got right:** it correctly chased Jim Shaffer and Rob Orange, found that Jim's Dec 2018 "suped up mini van" message already referenced the same Tom Petty trip on two existing pages, and used that to fill in real substance-use context nobody had written down. Frontmatter, infobox, tags, and prose depth were all spec-compliant, and it did legitimately pass `wiki-lint`/`wiki-connect check`/`wiki-climb check` at 0 errors as claimed.
+* **What was wrong, in order of value:**
+  1. **Age error.** The capture self-reports Dan as 17; his documented DOB (1988-11-01, `[DOC]`-tier) makes him 16 on June 15 2005. STYLE_GUIDE.md's capture-handling rule exists specifically to catch this ("check every date, age and count against the corpus... table the evidence and say which governs") and wasn't applied. Corrected throughout, with the discrepancy recorded rather than silently overwritten.
+  2. **Half-finished write-back.** The new event page claimed `component-of` → `chemical-architecture` and `co-occurs` → `rick-frank`, but neither target page got the inverse edge — exactly the failure CLAUDE.md names as the most common one ("findings get written back... the step most often done partially"). Added both inverses with load-bearing prose, not just frontmatter. Also fixed a type mismatch on `teen-concert-years.md` (`co-occurs` back against a `component-of` forward edge — the real inverse is `contains`).
+  3. **Bookkeeping skipped.** `log.md`, `queue.md`, `LLM_HANDOFF.md` weren't touched, and `bin/wiki-digest`/`bin/llm-publish` weren't rerun, despite all being explicit CLAUDE.md ingest steps. `log.md` and this file now updated; digest/llm-publish rerun.
+* **Staleness handled properly, not date-bumped.** Editing `rick-frank.md` to add the inverse edge moved four synthesis pages that `synthesizes:` from it past their premise (`block-unblock-loop`, `estate-money-spine`, `fayette-return`, `attachment-trauma-bond`). Re-read each: the new material is a same-day adolescent anecdote, and none of the four conclusions (the 12-day-burst control case, the business's capital role, the no-attested-departure fact, the 2005-rupture-as-older-schema read) depend on it. RE-CHECKED blocks added to all four.
+* **Gates:** `wiki-lint` 439 pages / 0 errors (13 warnings, unrelated pre-existing) · `wiki-connect check` 0 errors / 208 warnings (down from 212) · `wiki-climb check` 439 pages, 21 with `synthesizes:`, 0 errors, 0 warnings. `bin/wiki-digest` and `bin/llm-publish` rerun.
+* **Handoff Note:** Pushed to `claude/pr-91-review-comparison-bcpt9j`, opened as a PR with base = PR #91's own branch (so it reads as the incremental fix set on top of #91, mergeable directly into it). No open resume point from this pass — it was a targeted fix, not a fresh ingest.
+
+---
+
 ### [2026-08-08] - Session: governance rewrite — six specs, one backlog, six documents retired
 * **Model:** claude-opus-5 / Claude Code
 * **Branch:** `claude/wiki-articles-rewrite-c94nom`

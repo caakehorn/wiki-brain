@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
@@ -310,3 +310,14 @@ across the 127 exit declarations, which is queued below.
 - Blocking events with minor contacts (the long tail) have not been
   systematically mined; the loop's frequency outside intense bonds is
   unmeasured.
+
+> **RE-CHECKED [2026-08-09] — Rick amputation gains a same-day origin
+> scene; control case unaffected.** [[wiki/people/rick-frank]] was modified:
+> a new co-occurs edge and prose paragraph document June 15, 2005 — a
+> DXM-fueled Tom Petty trip during which Rick is described as already a
+> "non-factor" in what Dan could or couldn't do — sourced from
+> [[wiki/timeline/events/robotussin-s-last-dance]]. This is additive
+> context for the *lead-up* to the rupture, not a change to the amputation
+> itself: the held-block control case here still rests on the 12-day
+> outbound burst in late 2015 and the decade of unanswered inbound after
+> it, both untouched by the new material. No finding on this page changes.

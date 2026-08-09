@@ -5,7 +5,7 @@ title: "Richard Harrison \"Rick\" Frank"
 aliases: ["Rick", "Frank Sr."]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 infobox:
   name: Rick Frank
   status: Estranged
@@ -55,6 +55,9 @@ connections:
   - page: wiki/mind/synthesis/fayette-return
     type: instantiates
     claim: "The generation with no attested departure, which forces the rule into its better-supported form: the terminus is always Fayette, and never leaving satisfies that more completely than leaving and returning."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: co-occurs
+    claim: "Frank's Auto Supermarket is the daytime setting of the same June 15 2005 day that ends in a 95 mph DXM-fueled drive — Rick is named in the capture as a 'non-factor' by then, no longer able to constrain what Dan did on any given night, the same summer the 2005 rupture was unfolding."
 ---
 
 
@@ -102,6 +105,14 @@ of historical framework regarding local family footprint and industry
 logic." The CATO known-gaps list carries one unresolved thread: a **"We
 Speak Car" / Ford trademark litigation** involving the business, outcome
 unknown — flagged for future ingest.
+
+The store also supplies the one dated snapshot of Rick's absence as a
+constraint on Dan: on June 15, 2005, 16-year-old Dan worked a delivery
+shift there before Jim Shaffer and Rob Orange picked him up for the
+DXM-fueled Tom Petty trip that ends in a 95 mph drive down Rt 51 — a
+night Dan's own retelling frames as possible specifically because Rick,
+by then, was "a non-factor" in what he could or couldn't do
+([[wiki/timeline/events/robotussin-s-last-dance]]).
 
 ## The relationship on the record
 

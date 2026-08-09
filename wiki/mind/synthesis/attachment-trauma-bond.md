@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -154,3 +154,14 @@ The forensic analysis of this decade concludes that resolving the trauma bond do
 > and that its counterparty is Suz rather than Annie.
 
 Resolution demands grieving the fantasy of the relationship that could have been, rather than mourning the chaotic reality that actually was. It requires redirecting the massive recursive energy previously spent on understanding the partner into building the subject's own systemic architecture. Finally, the attachment wound must be addressed directly through somatic, trauma-focused regulation, allowing the nervous system to learn that it can survive without the external co-regulator.
+
+> **RE-CHECKED [2026-08-09] — Rick's older schema gains a same-day origin
+> scene; reactivation reading unaffected.** [[wiki/people/rick-frank]] was
+> modified: a new connection and prose paragraph document June 15, 2005, a
+> DXM-fueled Tom Petty trip on which Rick is described as already a
+> "non-factor," sourced from
+> [[wiki/timeline/events/robotussin-s-last-dance]]. The claim this page draws
+> from Rick is the 2005 concealed-reality rupture as the older schema the 2026
+> collapse reactivates — that rupture's substance is unchanged by an
+> adolescent-drug anecdote from the same summer. No finding here needed
+> revising.
