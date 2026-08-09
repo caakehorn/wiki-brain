@@ -5,7 +5,7 @@ title: "Node Locking"
 aliases: ["profile locking", "DATA_LOGGED", "relational source code", "Deep Architecture"]
 status: stable
 date_created: 2026-07-15
-date_modified: 2026-07-26
+date_modified: 2026-08-09
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_07.md
@@ -24,6 +24,9 @@ connections:
   - page: wiki/people/annie-ulmer
     type: evidences
     claim: "The master node set is Dan's own curated minimal model of the Annie collapse — what he chose to make survive across AI sessions (the Loop, the Signals, Separation Logistics) is itself evidence of which facts he treated as load-bearing."
+  - page: wiki/timeline/events/august-2026-unmasking
+    type: instance-of
+    claim: "The 02:24:54 read-receipt cutoff is a third logged instance of the Signals node's go-dark-after-confrontation pattern, following the Suzy-call NACK and the ten-day January 2026 blackout."
 
 ---
 
@@ -102,3 +105,14 @@ enumerated in one place; the eight listed here are the ones confirmed by
 verbatim lock language in the HTML January 2, 2026 cluster and the _07/_18
 sessions. Other sessions (e.g. the 77-node pinned chat) likely define
 additional nodes not yet cataloged here.
+
+> **[2026-08-09] Third instance logged on the Signals node.** Her read
+> receipts, visible from 23:10:40 on 2026-08-08, produce their last value at
+> 02:24:54 — fifty-eight seconds before "I fell asleep," and roughly
+> twenty-three minutes after being told the receipts had exposed the claim.
+> Two subsequent messages generate none. Whether the receipts were toggled off
+> or the thread simply was not opened is **undetermined and left
+> undetermined** — the argument that would have settled it is void under
+> [[wiki/mind/synthesis/read-receipt-forensics]] finding M2. Logged alongside
+> the Suzy-call NACK and the ten-day January 2026 blackout. Full account:
+> [[wiki/timeline/events/august-2026-unmasking]].

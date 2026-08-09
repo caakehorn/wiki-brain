@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -177,6 +177,16 @@ difference that this lump is not Dan's. The record's own framing of the
 2025 return ("managing regional assets") positions him as caretaker of
 capital he does not hold — the same downstream position the spine
 documents from the beginning.
+
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/suzanne-frank]] and [[wiki/people/annie-ulmer]], both touched by
+the 2026-08-09 identity ingest (Tuquick = Jerel Wayne Coles, see
+[[wiki/people/jerel-coles]]) — a harassment-caller identification, a
+chronology row, and a Target G revision note. None of it touches the estate
+distribution figures, the Cash App/Venmo flows, or Suz's switchboard role. No
+finding here is affected.
 
 ## Gaps
 

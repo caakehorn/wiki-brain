@@ -3,7 +3,7 @@ domain: mind
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources: []
 related: []
 ---
@@ -83,3 +83,4 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/synthesis/the-deferred-audit]] — doctrine: the forensic engine runs on everything, but provenance sets its clock. Imposed objects are audited preemptively (a $50 drawer claim, same day, in withdrawal); chosen objects only after they fail (~9 years for the primary bond). Selection buys delay, not trust — and the audit lag is the mechanism under the diagnosis-to-behaviour gap.
 - [[wiki/mind/synthesis/single-channel]] — doctrine: one channel at maximum voltage wherever a distributed architecture was available — relational, creative, cognitive, evaluative — measured at a two-sided contact Gini of 0.96 and carrying no failover.
 - [[wiki/mind/synthesis/dormancy-not-exit]] — doctrine: nothing leaves the graph. Sustained relationships change role and go dormant with full reactivation bandwidth (Menore: 2,044 days of silence, one-minute reply); Franki Faris is the five-day control that bounds it, and no-exit plus a single-occupancy slot is the mechanism producing the contact Gini.
+- [[wiki/mind/synthesis/read-receipt-forensics]] — methodology: four chat.db metadata defects found in one extraction session, each silently returning a confident wrong answer rather than an error — a directional `date_read` column, an auto-populated `reply_to_guid`, a SQLite type-affinity trap, and clustered-not-random missing `delivered_at` rows.

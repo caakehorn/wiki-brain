@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-08
+date_modified: 2026-08-09
 date_range_start: 2026-07-25
 date_range_end: 2026-08-02
 tags: [relationships, trauma-bond, mental-health, forensic-analysis]
@@ -38,12 +38,51 @@ connections:
   - page: wiki/people/tuquick-17248123683
     type: co-occurs
     claim: "Tuquick (now identified as Jerel Wayne Coles) is the only prior third party the corpus documents in this role. Coles's address history shows continuous residence in Uniontown, but his known phone numbers do not appear in the July 2026 message export and Annie never identifies him by name; the question of whether Coles is also the July 2026 unnamed interloper remains open."
+  - page: wiki/people/tuquick-17248123683
+    type: contradicts
+    claim: "The two pages hold incompatible accounts of the same broken-finger claim — uncontested here, contested there (Tuquick denies it in the May 31 group chat) — because it is unconfirmed whether they describe one man."
   - page: wiki/timeline/events/july-2026-recontact
     type: follows
     claim: "The 'She's a slut man lmfao' message that arrived on Annie's number at 00:25 on July 26 is his first appearance in the record; everything known about him postdates it by hours."
+  - page: wiki/people/jerel-coles
+    type: co-occurs
+    claim: "A candidate identity for this man, not a confirmed one. Dan's 2026-08-08 FOREWARN lookup targeted the Tuquick handle specifically and closed Tuquick=Jerel Wayne Coles; whether Tuquick is also this page's subject remains open, resting on role and lexicon overlap rather than an independent identifier."
 ---
 
 # The Unnamed Man
+
+> **REVISED [2026-08-09] — a candidate identity, not a confirmed one.** On
+> 2026-08-08 Dan ran a FOREWARN background lookup that identified
+> [[wiki/people/tuquick-17248123683|Tuquick]] — the man Annie left Dan for in
+> May/June 2026 — as **[[wiki/people/jerel-coles|Jerel Wayne Coles]]**, 36, of
+> 106 Nassau St, Uniontown, via an exact match on Tuquick's phone number. The
+> capture's own frontmatter targeted the Tuquick handle specifically, not this
+> page's subject.
+>
+> **Whether Tuquick/Coles is also this man remains open.** No phone number for
+> this page's subject exists anywhere in the corpus to check against Coles's
+> two known numbers, and the case for a link is circumstantial: the same role
+> (who Annie left Dan for / was seeing), six weeks apart, in the same small
+> town, with an overlapping insult vocabulary ("cuck," unemployment, escort
+> history) across the June 1 End Fight and the July 26 messages sent from
+> Annie's phone. That is suggestive, not identifying — see
+> [[wiki/people/jerel-coles]] §Is Coles the unnamed man too? for the full case
+> and why it is not adopted.
+>
+> **The refusal-to-know finding below is unaffected either way.** The refusal
+> was declared 2026-07-26 18:09 and restated 2026-07-28 23:45, specifically
+> about this page's subject. The FOREWARN lookup that targeted Tuquick did not
+> resolve who this man is, so the refusal's status with respect to *this man*
+> is unchanged — Dan still has not identified him. What changed is that one of
+> the two candidate identities the corpus was carrying (Tuquick) now has a real
+> name attached to it.
+>
+> **One prior inconsistency is worth flagging rather than resolving.** This
+> page records the broken-finger claim as consistent across eight days and
+> never retracted; [[wiki/people/tuquick-17248123683]] records the same claim
+> being denied by Tuquick himself in the May 31 group chat. If the identity
+> link above turns out to hold, that is one claim, one man, contested in real
+> time. It is left as a flagged tension, not resolved, until the link does.
 
 He is the person [[wiki/people/annie-ulmer|Annie]] left Dan for, the person
 she says raped her on July 25, 2026, and the person whose continued presence

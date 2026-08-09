@@ -95,8 +95,20 @@ Each of these is a specific thing the corpus or the outside world could settle.
 - **The announcement rule, tested backwards.** All 127 exit declarations are
   announced by definition; the falsifier is the reverse case — a silent
   severance that executed. The one claim the corpus can attack on its own.
-- **`the-unnamed-man` vs `tuquick-17248123683`** — the cleanest example of a
-  question re-reading `raw/` cannot settle. Needs an answer from outside.
+- **`the-unnamed-man` vs `tuquick-17248123683`** — partially settled 2026-08-09.
+  A FOREWARN lookup identified Tuquick as **Jerel Wayne Coles** (see
+  [[wiki/people/jerel-coles]]) via an exact phone-number match. Whether Coles
+  is *also* the July 2026 unnamed-man antagonist is still open — no phone
+  number for that man exists anywhere in the corpus to check against Coles's
+  two known numbers, and the case rests on role and lexicon overlap only. Needs
+  an answer from outside (a name from Annie, a photo, an independent
+  identifier).
+- **Is Coles = Target G?** FOREWARN returned no marital data. `wiki/people/annie-ulmer.md` §Target G names him only as "Caitlin's husband."
+- **Why did Coles hold two addresses (Uniontown/Connellsville) for 22 months, 09/2024–07/2026?** Unexplained; see `wiki/people/jerel-coles.md` §Open questions.
+- **Does the "video proof / unconscious" accusation originate with Coles (2026-07-26, from Annie's phone) or with Annie (2026-05-31, 23:54)?** Now answerable from logs already held; not yet run.
+- **Independent docket verification of Coles's criminal record** via PA UJS (ujsportal.pacourts.us) — the FOREWARN capture is commercial-aggregator sourced, not court-verified.
+- **The `annie_metadata_24h.csv` / `imessage_export_2124702449_20260809084846_.csv` sourcing gap.** [[wiki/timeline/events/august-2026-unmasking]] and [[wiki/mind/synthesis/read-receipt-forensics]] were written from a session with direct `chat.db` access; the underlying CSV exports were never filed to `raw/self/message-csv/`. File them, then re-point `sources:` on both pages. See `queue.md`.
+- **`reply_to_guid`-as-threading audit.** [[wiki/mind/synthesis/read-receipt-forensics]] finding M2 voids any prior analysis that treated `reply_to_guid` as an intentional reply marker rather than an auto-populated field. No such prior analysis has been identified yet — sweep for one.
 - **The `463-morgantown` mechanics-lien deadline** (~2026-07-27) elapsed with no
   recorded outcome, and the date was always derived rather than documented. The
   risk is now unobserved rather than pending, which is worse. A Fayette County

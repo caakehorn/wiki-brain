@@ -6,7 +6,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-08
+date_modified: 2026-08-09
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -207,6 +207,14 @@ cost is that the chosen carries everything, and it carries it alone.
 > use: the concentration is uniform across domains while the turnover rate is
 > not, and the relational channel is the one where turnover approaches zero. The
 > relational leg is unchanged in substance and better stated.
+
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/synthesis/the-unbroken-bond]], whose 2026-08-09 edit was itself a
+RE-CHECKED confirmation (identity-ingest chronology additions on
+[[wiki/people/annie-ulmer]] don't touch its continuity claim) rather than a
+content change. Nothing here is affected; cascade closed.
 
 ## Gaps
 

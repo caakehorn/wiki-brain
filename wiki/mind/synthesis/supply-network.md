@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -323,6 +323,15 @@ why the end became possible.
 > bond-switch at the 2015 introduction from her column to Dan's. What this page
 > draws from that page — Annie's dual role as logistics facilitator and dependent consumer — is unaffected by who left whom in
 > November 2015.
+
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]], which moved on 2026-08-09 for the identity
+ingest (Tuquick = Jerel Wayne Coles, see [[wiki/people/jerel-coles]]) — a
+chronology row and a Target G revision note. Neither touches the node
+succession, the reliability inversion, or the terminal-phase supplier
+finding. No finding here is affected.
 
 ## Gaps
 

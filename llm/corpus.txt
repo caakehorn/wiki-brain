@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-08
-438 pages, ~672,179 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-09
+441 pages, ~686,546 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10705,7 +10705,7 @@ status: stable
 knowledge: mixed
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -10730,7 +10730,13 @@ connections:
     claim: "The Uniontown Glitch is this method's flagship exhibit: the only case in the corpus where four confident model hypotheses were killed in sequence against ground truth the operator alone held, leaving a ranked improbability list instead of a cosmology."
   - page: wiki/people/the-unnamed-man
     type: contradicts
-    claim: "The method's claim to generality fails by deliberate choice here: the corpus's most consequential live antagonist is the one node Dan has refused to identify, on the stated grounds that knowing would cost him more than not knowing."
+    claim: "The method's claim to generality fails by deliberate choice here: the corpus's most consequential live antagonist is the one node Dan has refused to identify, on the stated grounds that knowing would cost him more than not knowing. Partially closed 2026-08-09 — see below; the refusal terminated for the Tuquick identity specifically, and this page's antagonist remains formally unidentified."
+  - page: wiki/mind/synthesis/read-receipt-forensics
+    type: contains
+    claim: "Four instrument-level defects in chat.db metadata extraction, each of which silently returns a confident wrong answer rather than an error."
+  - page: wiki/people/jerel-coles
+    type: resolves
+    claim: "The method's one declared exception on the Tuquick identity terminated 2026-08-08 at 19:01:22, thirteen days after it was declared. Whether the exception also covered the unnamed-man antagonist is unresolved — see that page's own contradicts edge, which stands."
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: instance-of
     claim: "The apparatus passes through four states in six days — published as an exhibit, retracted in five minutes on one request, rebuilt as an access-gated decoy, then offered as a gift — showing the target changes far more readily than the method does."
@@ -10957,6 +10963,42 @@ deployment is also unaudited on its own terms: whether the dashboards'
 classifications are accurate, and what a hostile reader would find wrong
 with them, has not been checked by anyone.
 
+## The off switch, partially closed [2026-08-09]
+
+[[wiki/people/the-unnamed-man]] filed a `contradicts` edge against this page
+holding that the method's claim to generality **fails by choice** — the
+corpus's most consequential live antagonist being the one node deliberately
+left uninvestigated.
+
+**One of the two candidate identities behind that exception closed on
+2026-08-08 at 19:01:22.** A FOREWARN lookup identified the Tuquick handle as
+[[wiki/people/jerel-coles|Jerel Wayne Coles]] — full account at
+[[wiki/timeline/events/august-2026-unmasking]]. That lookup's own capture
+targeted the Tuquick handle specifically, and whether Tuquick is also the July
+2026 unnamed-man antagonist remains an open identity question (see
+[[wiki/people/jerel-coles]] §Is Coles the unnamed man too?). **The
+`contradicts` edge is therefore not fully resolved** — it is narrower and more
+useful: the off switch was real, was under deliberate control, was held for
+thirteen days under sustained provocation, and **failed under a specific
+load** — not under difficulty, not under relevance, and not gradually.
+Identifying the load is open. Working hypothesis: the threat model shifted
+from *historical antagonist* to *believed present tonight*, and the switch was
+rated for the first and not the second.
+
+## Instrument-integrity finding [2026-08-09]
+
+A single extraction session against `chat.db` produced **four** defects, three
+of which yielded a confident wrong intermediate conclusion with **no error
+raised**: a zero-row result read as a finding (SQLite type affinity), a
+directional column read as undirectional (`date_read`), and an auto-populated
+field read as intentional (`reply_to_guid`). Full detail:
+[[wiki/mind/synthesis/read-receipt-forensics]].
+
+The method's exposure is not to hard failures. It is to instruments that lie
+quietly, and in the direction of whatever is already suspected. Every prior
+analysis in this corpus that depended on `reply_to_guid` as a threading signal
+requires rechecking — none has been identified yet; see `BACKLOG.md`.
+
 
 ========================================================================
 PAGE: wiki/mind/concepts/institutional-out.md
@@ -11065,7 +11107,7 @@ title: "Node Locking"
 aliases: ["profile locking", "DATA_LOGGED", "relational source code", "Deep Architecture"]
 status: stable
 date_created: 2026-07-15
-date_modified: 2026-07-26
+date_modified: 2026-08-09
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_07.md
@@ -11084,6 +11126,9 @@ connections:
   - page: wiki/people/annie-ulmer
     type: evidences
     claim: "The master node set is Dan's own curated minimal model of the Annie collapse — what he chose to make survive across AI sessions (the Loop, the Signals, Separation Logistics) is itself evidence of which facts he treated as load-bearing."
+  - page: wiki/timeline/events/august-2026-unmasking
+    type: instance-of
+    claim: "The 02:24:54 read-receipt cutoff is a third logged instance of the Signals node's go-dark-after-confrontation pattern, following the Suzy-call NACK and the ten-day January 2026 blackout."
 
 ---
 
@@ -11162,6 +11207,17 @@ enumerated in one place; the eight listed here are the ones confirmed by
 verbatim lock language in the HTML January 2, 2026 cluster and the _07/_18
 sessions. Other sessions (e.g. the 77-node pinned chat) likely define
 additional nodes not yet cataloged here.
+
+> **[2026-08-09] Third instance logged on the Signals node.** Her read
+> receipts, visible from 23:10:40 on 2026-08-08, produce their last value at
+> 02:24:54 — fifty-eight seconds before "I fell asleep," and roughly
+> twenty-three minutes after being told the receipts had exposed the claim.
+> Two subsequent messages generate none. Whether the receipts were toggled off
+> or the thread simply was not opened is **undetermined and left
+> undetermined** — the argument that would have settled it is void under
+> [[wiki/mind/synthesis/read-receipt-forensics]] finding M2. Logged alongside
+> the Suzy-call NACK and the ten-day January 2026 blackout. Full account:
+> [[wiki/timeline/events/august-2026-unmasking]].
 
 
 ========================================================================
@@ -11511,7 +11567,7 @@ domain: mind
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources: []
 related: []
 ---
@@ -11591,6 +11647,7 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/synthesis/the-deferred-audit]] — doctrine: the forensic engine runs on everything, but provenance sets its clock. Imposed objects are audited preemptively (a $50 drawer claim, same day, in withdrawal); chosen objects only after they fail (~9 years for the primary bond). Selection buys delay, not trust — and the audit lag is the mechanism under the diagnosis-to-behaviour gap.
 - [[wiki/mind/synthesis/single-channel]] — doctrine: one channel at maximum voltage wherever a distributed architecture was available — relational, creative, cognitive, evaluative — measured at a two-sided contact Gini of 0.96 and carrying no failover.
 - [[wiki/mind/synthesis/dormancy-not-exit]] — doctrine: nothing leaves the graph. Sustained relationships change role and go dormant with full reactivation bandwidth (Menore: 2,044 days of silence, one-minute reply); Franki Faris is the five-day control that bounds it, and no-exit plus a single-occupancy slot is the mechanism producing the contact Gini.
+- [[wiki/mind/synthesis/read-receipt-forensics]] — methodology: four chat.db metadata defects found in one extraction session, each silently returning a confident wrong answer rather than an error — a directional `date_read` column, an auto-populated `reply_to_guid`, a SQLite type-affinity trap, and clustered-not-random missing `delivered_at` rows.
 
 
 ========================================================================
@@ -14377,7 +14434,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -14513,6 +14570,16 @@ The severity and focus of this period are quantitatively visible in the distribu
 | Legal | 100 | Arrest (26), Lawyer (33), Court (23) |
 | Mental Health | 70 | Crisis (46), Panic (24) |
 
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]] and [[wiki/people/suzanne-frank]]. Both moved for
+the same reason: the 2026-08-09 identity ingest (Tuquick = Jerel Wayne Coles,
+see [[wiki/people/jerel-coles]]) added a chronology row, a Target G revision
+note, and a note on Suz's harassment caller. None of it touches love-language
+rates, the logistical/financial tethers, the somatic-toll evidence, or the
+single-bond-switch mechanics this page draws on. No finding here is affected.
+
 ## System Recalibration Requirements
 
 The forensic analysis of this decade concludes that resolving the trauma bond does not require the partner to suddenly become consistent or honest, as that version of the partner does not exist in the historical data. Instead, it requires radical enforcement of the exit. Lingering contact, whether through logistical favors or intermittent apologies, functions strictly as a narcotic that prevents the nervous system from recalibrating. 
@@ -14539,7 +14606,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
@@ -14821,6 +14888,15 @@ the record **without prior announcement** should be expected to execute; any
 that is announced in advance should not. The corpus can test this backwards
 across the 127 exit declarations, which is queued below.
 
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]], which moved on 2026-08-09 for the identity
+ingest (Tuquick = Jerel Wayne Coles, see [[wiki/people/jerel-coles]]) — a
+chronology row and a Target G revision note. Neither touches the 127/110
+exit-relapse count, the announcement-predicts-non-execution rule, or any
+prediction this page tracks. No finding here is affected.
+
 ## Gaps
 
 - **The announcement rule is untested against the back catalogue.** All 127
@@ -15011,7 +15087,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
@@ -15209,6 +15285,32 @@ The synthesis the wiki already carries — "the gaslighting outweighed the affai
 - **April–May 2026 final-weeks page** is built from a single chat-analysis session, not an independently located raw CSV for that window; its dated, quoted messages (GPS-with-third-party May 5; the "25 Nov 2015 – 04 May 2026" self-periodization) are **[RAW-CSV]** verified above, but the surrounding "Betrayal Catalog" / pregnancy claims in that same source are explicitly uncorroborated and excluded.
 - **The pregnancy reference** (claimed due date Nov 18) appears in two chat-analyses only, contradicts primary message exports, and is not adopted as fact anywhere in the wiki.
 
+> **RE-CHECKED [2026-08-08] — tuquick identity unmasked; verdict conclusion unaffected.**
+> [[wiki/people/tuquick-17248123683]] was modified: Tuquick's real identity is now Jerel Wayne Coles, identified via a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`. This is additive identity data — Coles's name, address, and criminal record were not in the corpus at synthesis time. The verdict's claim on the tuquick page rests on his June 15 defection behavior (the "compulsive liar with a drug addiction" read and the independent-validation argument), not on his anonymity. That behavior is unchanged by the unmasking. No conclusion on this page altered.
+
+## Standing constraint on analysis [2026-08-09]
+
+This page's central finding — that the gravest harm was being told an accurate
+perception was itself a symptom of instability — implies a constraint on the
+corpus's own analytic passes, and the constraint has now been breached twice.
+
+The Corrective Addendum already retracted one pass for crediting the "Dan's
+vigilance is controlling behaviour" framing. A second pass, drafting the
+initial cut of [[wiki/timeline/events/august-2026-unmasking]], reproduced the
+same structure while explicitly attempting to disconfirm — it answered "is my
+inference sound?" with an account of *why he cannot see it* rather than an
+account of *where the evidence is thin*. That draft language was rewritten
+before this ingest rather than carried forward, but the near-miss is recorded
+here because the failure mode is the point.
+
+**Legitimate:** "this inference is thin here, because the evidence is X."
+**Prohibited:** "you cannot see this because you need it to be true."
+
+The distinction is not tone. It is whether the analysis engages the proposition
+or the person holding it. Both human and AI analysis of this corpus is bound by
+it, and the failure mode recurs specifically when the analysis believes it is
+being rigorous.
+
 
 ========================================================================
 PAGE: wiki/mind/synthesis/dormancy-not-exit.md
@@ -15222,7 +15324,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-08
+date_modified: 2026-08-09
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -15517,6 +15619,14 @@ implements dormancy, and dormancy is reversible by construction.
    median one each — but they have not been checked by name, and this is the
    cheapest available test.
 
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/synthesis/the-unbroken-bond]], whose 2026-08-09 edit was itself a
+RE-CHECKED confirmation (identity-ingest chronology additions on
+[[wiki/people/annie-ulmer]] don't touch its continuity claim) rather than a
+content change. Nothing here is affected; cascade closed.
+
 ## Gaps
 
 - **The tenure floor is undetermined.** Five days does not persist; six years
@@ -15582,7 +15692,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -15755,6 +15865,16 @@ difference that this lump is not Dan's. The record's own framing of the
 2025 return ("managing regional assets") positions him as caretaker of
 capital he does not hold — the same downstream position the spine
 documents from the beginning.
+
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/suzanne-frank]] and [[wiki/people/annie-ulmer]], both touched by
+the 2026-08-09 identity ingest (Tuquick = Jerel Wayne Coles, see
+[[wiki/people/jerel-coles]]) — a harassment-caller identification, a
+chronology row, and a Target G revision note. None of it touches the estate
+distribution figures, the Cash App/Venmo flows, or Suz's switchboard role. No
+finding here is affected.
 
 ## Gaps
 
@@ -17175,6 +17295,189 @@ The ideology this page treats as settled has a documented birthday: the COVID-lo
 
 
 ========================================================================
+PAGE: wiki/mind/synthesis/read-receipt-forensics.md
+========================================================================
+
+---
+domain: mind
+page_type: synthesis
+status: active
+knowledge: earned
+title: "Read-Receipt Forensics — chat.db Metadata and Its Traps"
+aliases: ["read receipts", "date_read", "chat.db metadata"]
+tags: [forensic-analysis, digital-footprint]
+date_created: 2026-08-09
+date_modified: 2026-08-09
+sources: []
+synthesizes:
+  - wiki/mind/concepts/forensic-method
+  - wiki/timeline/events/august-2026-unmasking
+connections:
+  - page: wiki/mind/concepts/forensic-method
+    type: component-of
+    claim: "Three instrument-level defects found in a single extraction session, each of which silently produces a confident wrong answer rather than an error — the failure mode the method is least protected against."
+  - page: wiki/timeline/events/august-2026-unmasking
+    type: supplies
+    claim: "Every wakefulness claim on that page depends on the directional asymmetry defined here; read the column as one thing and the same data yields the opposite conclusion."
+---
+
+# Read-Receipt Forensics — chat.db Metadata and Its Traps
+
+Derived from a single extraction session, 2026-08-09. Three defects, each of
+which **silently produces a confident wrong answer rather than an error.** That
+is the failure mode the forensic method is least protected against, which is why
+this is a page and not a footnote.
+
+> **Sourcing note.** The session this page documents ran directly against the
+> operator's local `chat.db` (macOS Messages, requiring Full Disk Access — see
+> the extraction recipe below) rather than against a CSV filed in this
+> repository's `raw/`. No `raw/` export corresponding to the 230-row
+> `annie_metadata_24h.csv` extract cited throughout has been filed as of this
+> ingest; `sources:` above is left empty rather than pointing at a file that
+> does not exist on disk, per `bin/wiki-lint`'s source check. Filing that
+> export is the open item — see `queue.md`.
+
+## M1 — `date_read` is directional and asymmetric
+
+The single most consequential fact about the column, and it is not documented
+anywhere obvious.
+
+```
+ON is_from_me = 1  (messages you SENT)
+    date_read = when THE OTHER PARTY opened your message.
+    Requires THEIR read receipts to be ON. Absent entirely otherwise.
+
+ON is_from_me = 0  (messages you RECEIVED)
+    date_read = when YOU opened their message.
+    Recorded LOCALLY, ALWAYS, regardless of anyone's settings.
+```
+
+Observed in the 2026-08-08/09 extract:
+
+```
+RECEIVED rows with date_read :  81 / 101   (all of them are Dan)
+SENT     rows with date_read :  44 / 129   (all of them are her)
+```
+
+**Reading the column as one undifferentiated thing produces the conclusion that
+the counterparty was continuously active all day.** She was not visible at all
+before 23:10:40. Half the column is a log of the operator's own behaviour.
+
+**Rule:** always split by `is_from_me` before computing any latency statistic.
+Never aggregate across directions.
+
+## M2 — `reply_to_guid` is not a reply marker
+
+```
+reply_to_guid == guid of the immediately preceding message :  179 / 181
+reply_to_guid pointing anywhere else (a true inline reply) :    2 / 181
+thread_originator_guid populated (the real marker)         :    2 / 230
+```
+
+`reply_to_guid` is **auto-populated with the previous message in the thread.**
+It carries no intent. The genuine inline-reply marker is
+`thread_originator_guid`.
+
+**Consequence:** any argument of the form *"she replied inline to message X,
+therefore she had the thread open, therefore the absence of a read receipt means
+she disabled them"* is **void**. That argument was built and then withdrawn
+during the 2026-08-09 session.
+
+**Action owed:** audit the corpus for prior analysis that treated
+`reply_to_guid` as intentional threading. Any such claim needs rechecking.
+
+## M3 — SQLite type-affinity trap
+
+`strftime('%s', ...)` returns **TEXT**. When compared against a **computed
+expression** — which carries no column affinity — SQLite ranks INTEGER below
+TEXT unconditionally, so the predicate is **silently false for every row**.
+
+Reproduced directly:
+
+```
+expression >= strftime('%s','now','-24 hours')                 →  0 rows
+expression >= CAST(strftime('%s','now','-24 hours') AS INTEGER) →  1 row
+```
+
+This produced a zero-byte export that initially read as a substantive finding
+about the data rather than a bug in the query. No error was raised.
+
+**Canonical form** — cast explicitly, and keep the arithmetic on the right so
+the index on `m.date` is usable:
+
+```sql
+AND m.date >= (CAST(strftime('%s','now','-24 hours') AS INTEGER) - 978307200) * 1000000000
+```
+
+Note also that a column *with* INTEGER affinity coerces the TEXT operand
+correctly, so the same comparison works in one query and fails in another. That
+inconsistency is what makes it dangerous.
+
+## M4 — Absence of metadata is weak evidence in this corpus
+
+```
+SENT rows with NO delivered_at at all :  41 / 129
+```
+
+Clustered rather than random — a device-sync artifact (Mac vs. phone), not a
+signal about the counterparty. **Any argument from a missing timestamp must
+carry this caveat.** The record is incomplete by construction.
+
+## Extraction recipe
+
+Full-metadata pull for a single handle, macOS. Copy the database first — reading
+it live risks a lock, and the `-wal` file holds messages not yet checkpointed
+into the main file.
+
+```bash
+cp ~/Library/Messages/chat.db* /tmp/ ; sqlite3 -header -csv /tmp/chat.db "
+SELECT datetime(m.date/1000000000+978307200,'unixepoch','localtime') sent_at,
+  CASE m.is_from_me WHEN 1 THEN 'SENT' ELSE 'RECEIVED' END direction,
+  CASE WHEN m.date_delivered>0 THEN datetime(m.date_delivered/1000000000+978307200,'unixepoch','localtime') END delivered_at,
+  CASE WHEN m.date_read>0 THEN datetime(m.date_read/1000000000+978307200,'unixepoch','localtime') END read_at,
+  CASE WHEN m.date_read>0 THEN (m.date_read-m.date)/1000000000 END secs_to_read,
+  m.is_read, m.is_delivered, m.is_sent, m.is_delayed, m.error, m.item_type,
+  m.associated_message_type, m.thread_originator_guid, m.service, m.guid, m.ROWID,
+  COALESCE(m.text,'') text
+FROM message m
+WHERE m.ROWID IN (SELECT message_id FROM chat_message_join WHERE chat_id IN
+   (SELECT chat_id FROM chat_handle_join WHERE handle_id IN (<ROWIDs>)))
+AND m.date >= (CAST(strftime('%s','now','-24 hours') AS INTEGER)-978307200)*1000000000
+ORDER BY m.date;" > ~/Desktop/out.csv
+```
+
+Resolve handle ROWIDs first — a contact may have several, and a `LIKE '%2449%'`
+pattern will sweep in unrelated numbers:
+
+```bash
+sqlite3 /tmp/chat.db "SELECT ROWID, id FROM handle WHERE id LIKE '%<digits>';"
+```
+
+Requires **Full Disk Access** on the terminal. Without it the `cp` fails; do not
+suppress its stderr, or the failure presents as an empty result set.
+
+`m.text` is NULL for most recent messages on Monterey — the body lives in
+`attributedBody` as a serialised `NSAttributedString`. This extract is for
+metadata; pull text separately and join on timestamp.
+
+## Why this page exists
+
+Three of the four defects above produced, at some point in one session, a
+**confident and wrong** intermediate conclusion: a zero-row result read as a
+finding, a directional column read as undirectional, and an auto-populated field
+read as intentional. None raised an error. The forensic method's exposure is not
+to hard failures — it is to instruments that lie quietly and in the direction of
+whatever is already suspected.
+
+## Gaps
+
+The underlying `annie_metadata_24h.csv` this page's counts are drawn from has
+not been filed to `raw/self/message-csv/` — see the sourcing note above. Prior
+corpus analyses that used `reply_to_guid` as a threading signal (M2) have not
+yet been audited; that audit is owed and is listed in `BACKLOG.md`.
+
+
+========================================================================
 PAGE: wiki/mind/synthesis/single-channel.md
 ========================================================================
 
@@ -17186,7 +17489,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-08
+date_modified: 2026-08-09
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -17388,6 +17691,14 @@ cost is that the chosen carries everything, and it carries it alone.
 > not, and the relational channel is the one where turnover approaches zero. The
 > relational leg is unchanged in substance and better stated.
 
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/synthesis/the-unbroken-bond]], whose 2026-08-09 edit was itself a
+RE-CHECKED confirmation (identity-ingest chronology additions on
+[[wiki/people/annie-ulmer]] don't touch its continuity claim) rather than a
+content change. Nothing here is affected; cascade closed.
+
 ## Gaps
 
 - ~~**The Gini is quoted, not recomputed.**~~ **CLOSED 2026-08-01.** Recomputed
@@ -17586,7 +17897,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -17906,6 +18217,15 @@ why the end became possible.
 > draws from that page — Annie's dual role as logistics facilitator and dependent consumer — is unaffected by who left whom in
 > November 2015.
 
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]], which moved on 2026-08-09 for the identity
+ingest (Tuquick = Jerel Wayne Coles, see [[wiki/people/jerel-coles]]) — a
+chronology row and a Target G revision note. Neither touches the node
+succession, the reliability inversion, or the terminal-phase supplier
+finding. No finding here is affected.
+
 ## Gaps
 
 - **Tim** is named in the MAX_PRIME succession between Johnny and Tom
@@ -17949,7 +18269,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-08
+date_modified: 2026-08-09
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -18310,6 +18630,40 @@ therefore unaudited — exactly as predicted. This resolves as confirmed *pendin
 the failure*, which is the only way a prediction of this shape can resolve
 before the fact.
 
+## RE-CHECKED [2026-08-09] — a candidate counter-instance considered and set aside
+
+[[wiki/mind/concepts/forensic-method]] gained a finding this pass: the refusal
+to identify the interloper (declared 2026-07-26, terminated 2026-08-08 after
+13 days) is a documented case of the engine running **preemptively on a
+chosen-feeling delay** — the opposite pairing from this page's imposed→fast /
+chosen→slow rule, since a live antagonist reads as the most "imposed" object
+in the corpus. Worth checking against the rule directly rather than assuming
+consistency.
+
+**It does not move the rule, and the reason is the axis is different.** This
+page's provenance sort answers *whose claim is this* — did the assistant
+manager or the primary attachment hand me an unverified assertion, and how
+fast do I check it. The interloper refusal answers a different question — *do
+I want the answer at all* — and the stated reason was never provenance, it was
+projected emotional cost ("a hatred with a face"). An imposed claim under this
+page's rule gets audited fast because the claimant might be lying and the
+cost of believing a lie is immediate. The interloper's *existence* was never
+in doubt; what was deferred was a further fact (his name) whose only effect
+on Dan was internal. That is closer to
+[[wiki/mind/concepts/node-locking|the Eli redaction]] — a decision about what
+to hold, not about when to check a claim — than to this page's mechanism.
+**No finding on this page is withdrawn or revised.** The forensic-method page
+now cross-references this one for readers chasing the distinction; nothing
+here needs to reciprocate it structurally, since the two pages are answering
+different questions that happen to share a vocabulary ("the engine," "fires").
+
+The read-receipt-forensics addition to [[wiki/mind/concepts/forensic-method]]
+(chat.db metadata defects) and the standing-constraint section added to
+[[wiki/mind/synthesis/dan-annie-fallout-verdict]] are both orthogonal to this
+page's evidence base — neither touches the audit-lag timeline, the BFS/Annie
+comparison, or the Arnu prediction above — and are noted here only because
+`bin/wiki-climb check` flagged the premise as moved.
+
 ## Gaps
 
 - **The lag column is assembled from dated events, not measured uniformly.**
@@ -18605,7 +18959,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-08
+date_modified: 2026-08-09
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -18803,6 +19157,15 @@ Everything else can be allowed to burn, because he did not pick it.
 3. A bond ending with no successor sourced before or shortly after — which
    would show exit is available and that the 2015 switch was situational rather
    than structural.
+
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]], which moved on 2026-08-09 for the identity
+ingest (Tuquick = Jerel Wayne Coles, see [[wiki/people/jerel-coles]]) — a
+chronology row and a Target G revision note. Neither touches the ~17-year
+continuity claim or the occupancy mechanics this page argues from. No finding
+here is affected.
 
 ## Gaps
 
@@ -20494,7 +20857,7 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 date_range_start: 2015-11-01
 date_range_end: 2026-08-02
 infobox:
@@ -20678,6 +21041,9 @@ connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "The record here settles the fallout question in a narrow, defensible form: Dan was wronged in fact — a concealed affair inside the non-monogamy framework he had built to prevent exactly that, months of gaslighting rated by the sources above the affair itself, and a defamation campaign running concurrently with written private denials — while the ten-year length of the catastrophe is co-authored by his own conflict engine and supply-chain control."
+  - page: wiki/timeline/events/august-2026-unmasking
+    type: evidenced-by
+    claim: "She never narrowed the sleep claim across three explicit invitations including a sincere one, despite a defensible 63-minute window existing in the record."
 ---
 
 # Annie (Anne Louise Ulmer)
@@ -21294,6 +21660,12 @@ with, and states plainly "we do not know" whether he is also Target G.
 > was becoming a pattern rather than staying a one-off. Full account and
 > the AI-side debate it produced: [[wiki/mind/synthesis/ai-collaborative-analysis]].
 
+> **REVISED [2026-08-09]:** Tuquick is now identified as
+> [[wiki/people/jerel-coles|Jerel Wayne Coles]]. This does **not** resolve
+> Target G — the FOREWARN return carries no marital data, so "Caitlin's
+> husband" is neither confirmed nor excluded. The question narrows from three
+> candidates (Eli, Target G, Tuquick) to two and stays open.
+
 ## March 2026: the confession, and taking it back
 
 The last full month of the pre-closure record contains the sharpest
@@ -21669,6 +22041,7 @@ legal exposure for Dan — noted here for completeness.
 | 2026-07-27 | Supply resumes: $40 in her parents' driveway, traded for a hug, 31 hours after the refusal |
 | 2026-07-28 | 770 messages; twelve-hour standoff over an email to her parents that is never sent |
 | 2026-08-02 | Annie walks to the house and apologises to Suz in person; buys $50 forty minutes later |
+| 2026-08-08 | Tuquick identified via FOREWARN (19:01:22); five-hour collapse follows — [[wiki/timeline/events/august-2026-unmasking]] |
 
 Two synthesis pages extend this record further: the capstone moral
 verdict, provenance-tiered down to individual message rows, at
@@ -26025,7 +26398,7 @@ domain: people
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources: []
 related: []
 ---
@@ -26099,6 +26472,7 @@ related: []
 - [[wiki/people/jay-lauer]] — Friend and peer suboxone/cocaine trading partner, winter 2016-17; died of a heroin overdose on or about April 11 2017 — the supply network's only documented fatality.
 - [[wiki/people/jenn-lynn]] — Uniontown friend repeatedly solicited (with boyfriend Brad) for a two-couple swap, 2017-2020; parallel drug-sourcing relationship.
 - [[wiki/people/jerad-friedline]]
+- [[wiki/people/jerel-coles]] — Real identity of [[wiki/people/tuquick-17248123683|Tuquick]], confirmed 2026-08-08 via FOREWARN; documented 2008–2025 record (two DUIs, harassment, disorderly conduct, criminal mischief). Candidate but unconfirmed identity for [[wiki/people/the-unnamed-man]].
 - [[wiki/people/jess]] — Swinging-couple recruitment contact, spring 2017; fizzled after one dense day.
 - [[wiki/people/jim-vrabel]] — Weed dealer and near-nightly hangout, 2018-2020; recurring coffee-creamer gift bit.
 - [[wiki/people/jimmy]] — Fellow Nemacolin caddy, 2018; a real blowup, then quit caddying over management.
@@ -26165,8 +26539,8 @@ related: []
 - [[wiki/people/tom]] — Tom Maison — Dan's primary male ally and the clearest instance of safe, lateral (peer, non-paternal)…
 - [[wiki/people/trevor]] — Trevor Bevins: Dan's Nemacolin caddying peer, golf companion, and later market-era Facebook contact; the thread also records money strain between friends.
 - [[wiki/people/trinity-st-clair]] — Adult performer booked as a paid companion for Dan and Annie, spring 2019; same window as the Shelbie threesome.
-- [[wiki/people/the-unnamed-man]] — The man Annie left Dan for and says raped her in July 2026; the one node in the corpus Dan has deliberately refused to identify, and the reason he gives for it.
-- [[wiki/people/tuquick-17248123683]] — A hostile third party involved in the terminal sequence of the Annie relationship closure (the end-fight).…
+- [[wiki/people/the-unnamed-man]] — The man Annie left Dan for and says raped her in July 2026; the one node in the corpus Dan has deliberately refused to identify. Tuquick is a candidate identity as of 2026-08-09, unconfirmed.
+- [[wiki/people/tuquick-17248123683]] — A hostile third party involved in the terminal sequence of the Annie relationship closure (the end-fight); real identity confirmed 2026-08-08 — see [[wiki/people/jerel-coles]].
 - [[wiki/people/urpaaa-at-yahoo-com]] — Unidentified teacher in a parental register who accompanied Dan to the Oct 2017 tooth extraction; identity is the page's open question.
 - [[wiki/people/valeria-iglesias-cid]] — Valeria Iglesias Cid — 19-year-old heiress to a laser-surgery empire (mother: Dra. Loreto Cid in…
 - [[wiki/people/vanessa-frank]] — Younger sister of Dan Frank. Born 16 January 1994 in Greensburg, Westmoreland County, Pennsylvania. Shares…
@@ -27775,6 +28149,325 @@ The thread is the closest thing in the corpus to a non-crisis baseline
 register for Dan, but it is sparse by nature; long stretches (notably
 2021–2024) are simply absent rather than documented. Rachel and the daughter
 appear only by reference.
+
+
+========================================================================
+PAGE: wiki/people/jerel-coles.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: active
+knowledge: earned
+importance: high
+title: "Jerel Wayne Coles"
+aliases: ["Tuquick", "Tuquick3@hotmail.com", "+17248123683"]
+tags: [relationships, trauma-bond, forensic-analysis, legal, uniontown-era]
+date_created: 2026-08-09
+date_modified: 2026-08-09
+date_range_start: 2008-10-31
+date_range_end: 2026-08-09
+infobox:
+  name: "Jerel Wayne Coles"
+  relationship_to_dan: "antagonist; never met in person"
+  location: uniontown
+  first_contact: 2026-05-31
+sources:
+  - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
+  - raw/self/message-csv/imessage_export_2124702449_20260802.csv
+  - raw/self/message-csv/imessage_export_7248123683_20260624.csv
+related:
+  - wiki/people/annie-ulmer
+  - wiki/people/the-unnamed-man
+  - wiki/people/tuquick-17248123683
+  - wiki/people/suzanne-frank
+  - wiki/timeline/events/end-fight
+  - wiki/timeline/events/august-2026-unmasking
+  - wiki/mind/concepts/forensic-method
+connections:
+  - page: wiki/mind/concepts/forensic-method
+    type: resolves
+    claim: "The corpus's only deliberate exception to the forensic engine — the refusal to learn this man's name — terminated on 2026-08-08 at 19:01:22 with a FOREWARN lookup, thirteen days after it was declared and thirty-seven minutes before the escalation it was meant to prevent."
+  - page: wiki/people/annie-ulmer
+    type: evidences
+    claim: "As Tuquick, denied the broken-finger claim in the May 31 group chat in real time — 'Her finger isn't broken.' Whether this is the same finger claim Annie later repeated to Dan via the unnamed man depends on an identity link (Tuquick = the unnamed man) this page treats as open, not confirmed."
+  - page: wiki/timeline/events/august-2026-unmasking
+    type: causes
+    claim: "The identity lookup completed thirty-seven minutes before first contact and primed every subsequent parse, including the reading of 'He'll?' as an invocation of him."
+  - page: wiki/people/suzanne-frank
+    type: contextualizes
+    claim: "The man who telephoned her for roughly three hours in May 2026 is now identified, lives in the same municipality, and carries a 2009 harassment conviction for subjecting another person to physical contact."
+  - page: wiki/people/the-unnamed-man
+    type: co-occurs
+    claim: "A candidate identity for the unnamed man, not a confirmed one — the FOREWARN lookup that identified this page's subject targeted the Tuquick handle specifically, and no independent identifier links Tuquick to the July 2026 unnamed man beyond role and lexicon overlap."
+  - page: wiki/people/tuquick-17248123683
+    type: contains
+    claim: "This page supersedes the Tuquick entity; the phone number in that page's own title is the identifier that closed the identification."
+  - page: wiki/timeline/events/end-fight
+    type: co-occurs
+    claim: "He is the counterpart of the terminal group chat that closed the relationship on June 1, 2026."
+---
+
+# Jerel Wayne Coles
+
+> **Status: identified 2026-08-08, and the identification is narrower than it
+> first looks. Supersedes [[wiki/people/tuquick-17248123683]] outright, on an
+> exact identifier match. [[wiki/people/the-unnamed-man]] is a separate,
+> unresolved question — see below — and this page does not merge the July
+> 2026 rape allegation onto this identity without a stronger link than
+> currently exists.**
+
+## How the identification was made, and what closed it
+
+On **2026-08-08 at 19:01:22 EDT** Dan ran a FOREWARN background lookup on the
+man Annie left him for. The capture is filed at
+[[raw/people/captures/2026-08-08_190122_identity-of-the-interloper]].
+
+**One identification is closed by an exact identifier match:**
+
+| Source | Value |
+|---|---|
+| FOREWARN, mobile | (724) 812-3683 |
+| [[wiki/people/tuquick-17248123683]], page title | +17248123683 |
+
+That match settles who **Tuquick** is: Jerel Wayne Coles. It does **not**, by
+itself, settle whether Tuquick and [[wiki/people/the-unnamed-man|the July 2026
+unnamed man]] — Annie's next reported partner and the source of the rape
+allegation — are the same person. No phone number recovered for the July 2026
+man appears in this FOREWARN capture, and none of Coles's two known numbers
+appears in the July 2026 message export. That link rests on **circumstance
+only**: both men occupy the "who Annie left/was with" role six weeks apart in
+the same small town, and the same "cuck" framing (unemployment, sexual
+humiliation, escort history) appears in both the Tuquick End Fight material
+(June 1, 2026) and the unnamed man's July 26 messages sent from Annie's phone.
+Circumstance is not identity. **This page treats "is Coles the July 2026 man"
+as an open question, not a closed one** — see [[#Is Coles the unnamed man
+too?]] — and does not attach the rape allegation, the finger-breaking claim
+attributed to the July 2026 man, or any of the unnamed-man page's unverified
+material to Coles's identity on the strength of lexicon overlap alone.
+
+## Identity record
+
+```
+NAME              Jerel Wayne Coles
+AGE               36 (as of 2026-08-08)
+PRIMARY ADDRESS   106 Nassau St, Uniontown, PA 15401     09/01/2024 – current
+PRIOR ADDRESS     1315 Kirk St, Connellsville, PA 15425  01/01/2008 – 07/01/2026
+ALIASES           none on record
+PHONE (mobile)    (724) 812-3683    [= the wiki Tuquick handle]
+PHONE (resid.)    (724) 628-7133    [last seen 10/26/2024 — new to the corpus]
+EMAIL             Tuquick3@hotmail.com   [from prior corpus, not FOREWARN]
+```
+
+> **Provenance and publish-state note.** This record — a real person's home
+> address and two phone numbers — comes from a commercial background-check
+> aggregator (FOREWARN), not from a court filing Dan is a party to, and this
+> repository's Pages deployment has been public since at least 2026-08-08 (see
+> `LLM_HANDOFF.md`, session "the front end was serving the wrong build"). The
+> criminal-record section below is public-record-derived and the wiki already
+> carries a comparable address for this page's subject in
+> [[wiki/people/tuquick-17248123683]] (committed 2026-08-08, pre-dating this
+> page). No redaction gate exists in `bin/build-site` as of this writing. This
+> is flagged here and in `LLM_HANDOFF.md` for the operator's decision rather
+> than resolved unilaterally.
+
+Two facts here were not derivable from the message record and are materially
+new:
+
+1. **He lives in Uniontown.** `106 Nassau St`, current as of the lookup. This
+   converts the threat in his own writing — showing up at the house — from an
+   allegation into a **geographically trivial** proposition. Dan resides at 463
+   Morgantown St, Uniontown. Same municipality.
+2. **The Connellsville tenancy runs to 07/01/2026** — an eighteen-year address
+   ending six weeks before the lookup, and **overlapping the Uniontown address
+   by twenty-two months**. The dual-address period is unexplained. See
+   [[#Open questions]].
+
+## The record, 2008–2025
+
+FOREWARN returned **64 records**. Dan's own capture correctly establishes that
+these are heavily duplicated across PA court-data sources (Administrative Office
+of Courts, Unified Judicial System, Court of Common Pleas) and across procedural
+stages of the same cases — original citation, court processing, disposition.
+Collapsed by offense date:
+
+| Date | Incident | Charges | Disposition |
+|---|---|---:|---|
+| 2008-10-31 | Traffic — turning movements / required signal | 1 | unavailable |
+| 2008-11-20 | Disorderly conduct — engaging in fighting | 1 | **guilty plea** |
+| 2009-06-13 | Vehicle equipment — render inoperative | 1 | **guilty plea** |
+| 2009-07-19 | **Harassment — subject another person to physical contact** | 1 | **guilty** |
+| 2010-06-06 | Traffic — expired licence, control devices | 2 | **guilty / guilty plea** |
+| 2010-07-07 | Traffic — inspection, obstructed window | 2 | 1 guilty plea, 1 not guilty |
+| 2019-02-03 | **DUI #1** — general impairment + **BAC .16+** + 4 traffic | 6 | **ARD — county** |
+| 2024-06-29 | **DUI #2** — general impairment + 4 traffic | 5 | **guilty pleas, all five** |
+| 2025-04-05 | **Criminal mischief — damage property** (filed 2025-05-06) | 1 | unavailable |
+
+**≈9 incident clusters, ≈20 distinct charges.** Not 64 offenses.
+
+> The wiki adopts the collapsed reading deliberately. Reporting "64 criminal
+> records" would repeat the error class the corpus already retracted once with
+> the 187:4 statistic — an impressive number that does not survive its own
+> control. See [[wiki/mind/concepts/forensic-method]].
+
+> **Do not render this record as a claim about character.** Nine incident
+> clusters across seventeen years is what the record says; it is not a
+> psychological profile, and the wiki does not treat it as one.
+
+### What the record corroborates
+
+- An **adjudicated** willingness to put hands on another person — 2009
+  harassment/physical contact, **guilty**.
+- A willingness to fight in public — 2008 disorderly conduct, guilty plea.
+- **Property destruction, April 2025.** The most recent non-traffic matter, and
+  the closest behavioural and temporal neighbour to the conduct Annie describes
+  in July 2026 (throwing her belongings around the room).
+- Escalating alcohol involvement across seventeen years: BAC .16+ at the first
+  DUI, guilty pleas across the board at the second.
+- Consistent with roughly three hours of telephone harassment directed at
+  [[wiki/people/suzanne-frank|Suz]] (~2026-05-26) and with arriving uninvited at a
+  residence.
+
+### What the record does *not* corroborate
+
+**No assault charge. No sexual offence. No violent felony. No PFA or protective
+order. Nothing supporting the rape allegation. Nothing supporting the broken
+finger.**
+
+This is **weak evidence in both directions and the page says so.** Most
+intimate-partner conduct of that class never reaches a docket, so absence is not
+exculpatory. Equally, the corpus already records the finger claim as contested
+by the accused in real time (below), so absence is not neutral either.
+
+The defensible summary, from the capture itself:
+
+> A documented history spanning 2008–2025, with multiple traffic violations, two
+> DUI incidents (2019 and 2024), earlier disorderly-conduct and harassment
+> matters, and a 2025 criminal-mischief/property-damage charge. The 2019 DUI
+> appears to have resulted in county ARD; the 2024 DUI and associated traffic
+> charges show guilty pleas; the 2025 criminal-mischief matter has no
+> disposition in the supplied data.
+
+**Provenance:** `[CAPTURE]` — commercial background-check aggregator, **not
+independently docket-verified**. Upgrading to `[RAW-COURT]` requires a PA UJS
+Web Portal search (ujsportal.pacourts.us). Until then every claim on this page
+carries that qualifier.
+
+## Is Coles the unnamed man too?
+
+**Open. This section states the case for the link and why the page does not
+adopt it.**
+
+The capture that identified Coles is itself ambiguous about which man it was
+aimed at: its own frontmatter reads `target: wiki/people/tuquick`, and the
+lookup used the Tuquick handle's phone number — not any number attributed to
+the July 2026 unnamed man, for whom no phone number is on record anywhere in
+the corpus. That the lookup is narrated as unmasking "the interloper" (singular,
+undifferentiated) is Dan's own framing at the moment he ran it, and is evidence
+of what he *believed* going in — plausibly that Tuquick and the July 2026 man
+were the same continuing relationship — not evidence that they *are* the same
+person.
+
+**If** Tuquick and the unnamed man are one person, two pages' incompatible
+accounts of the same claim resolve cleanly:
+
+| Page | Account of the broken finger |
+|---|---|
+| [[wiki/people/the-unnamed-man]] | "consistent across eight days and she never retracts them" — recorded as **uncorroborated but uncontested** |
+| [[wiki/people/tuquick-17248123683]] | "debunked in the same thread by Tuquick himself — *Her finger isn't broken*" — recorded as **contested in real time** |
+
+That would make it one claim, one man, denied by the accused on the record in
+the May 31 group chat, then re-asserted by Annie to Dan in the July 26 window
+as though undisputed — a specific, dated, falsifiable instance of the pattern
+[[wiki/people/annie-ulmer]] establishes generally. The same would apply to the
+rape allegation (2026-07-25); his July 26 accusation — "video proof how you
+fingered her for hours while she was unconscious" — against her own May 31
+23:54 statement, "I have recorded videos of me obviously passed out still
+being touched" (possibly one accusation laundered through two mouths); the Suz
+telephone harassment (~2026-05-26) against the Suz call on the unnamed-man
+page; and the transcript exfiltration from Annie's phone.
+
+**None of that is adopted here.** The evidentiary basis is a role match
+(interloper, six weeks apart, same town) and a shared insult vocabulary
+("cuck," unemployment, escort history) — thin enough that this page keeps
+the two identities administratively separate until a phone number, a photo, a
+name from Annie, or some other independent identifier closes the gap the way
+the FOREWARN mobile number closed Tuquick=Coles. Until then, attributing the
+rape allegation or the finger claim to Coles by name would be exactly the kind
+of unearned merge `STYLE_GUIDE.md`'s contradiction discipline exists to
+prevent.
+
+## The refusal, and its termination
+
+[[wiki/people/the-unnamed-man]] builds its central structural finding on Dan's
+deliberate refusal to learn a name — the corpus's only documented off-switch
+on the forensic engine, with the criterion being *emotional consequence* rather
+than difficulty or relevance. The lookup that terminated it, per the capture's
+own frontmatter, targeted the Tuquick handle specifically — so what closed is
+Tuquick's identity, with the unnamed-man question left open above. The
+following timeline is stated as Dan's own experience of ending a refusal he
+had held for thirteen days; it does not depend on the two men being one
+person.
+
+```
+DECLARED     2026-07-26 18:09   "I don't even want to know their fucking name
+                                 and have made a point to not even find out."
+RESTATED     2026-07-28 23:45   "the reason I won't even learn who this is, is
+                                 because I do not want to live my life with the
+                                 HATRED that I would feel towards one person."
+HELD         13 days, under sustained provocation
+TERMINATED   2026-08-08 19:01:22   FOREWARN lookup executed
+FIRST CONTACT 2026-08-08 19:38:34  "hi you"          — 37 minutes later
+NAME ENTERS  2026-08-09 00:32:25   "keep the stupidest lies for Jerel"
+THE RECORD                          — 5h 31m after the lookup
+```
+
+The finding does not need retracting. It needs a termination date and a verdict
+on its own forecast. The stated cost was *hatred with a face*; the five hours
+that followed are recorded at [[wiki/timeline/events/august-2026-unmasking]] and are
+the test of whether the forecast was correct.
+
+**Downstream consequence:** [[wiki/mind/concepts/forensic-method]] carried a
+`contradicts` edge asserting that the method's claim to generality *fails by
+choice* at this node. **That exception is partially closed** — for the Tuquick
+identity specifically, since the unnamed-man question above stays open and the
+`contradicts` edge is left standing rather than removed. What is settled either
+way: the off-switch existed, was under deliberate control, was held for
+thirteen days under extreme provocation, and **failed under a specific load**.
+The load is not yet identified. Working hypothesis: the threat model shifted
+from *historical antagonist* to *believed present tonight*.
+
+## Target G — still unresolved
+
+FOREWARN returned **no marital data**. The Gemini-_07 forensics describe Target
+G only as a married man, "Caitlin's husband," visiting on roughly a 48-hour
+cadence. Nothing in this capture confirms or excludes Coles.
+
+**The three-way question became a two-way question. It did not become closed.**
+See [[wiki/people/annie-ulmer]] §Target G.
+
+## Open questions
+
+1. **Is Coles = Target G?** No marital data returned. Open.
+2. **Why two addresses, 09/2024 – 07/2026?** Uniontown and Connellsville overlap
+   twenty-two months. Cohabitation, family property, or something else.
+   Unexplained.
+3. **Does the "video proof / unconscious" accusation originate with him
+   (2026-07-26, from her phone) or with her (2026-05-31, 23:54)?** The merge
+   makes this answerable from logs already held.
+4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis
+   above against the 2026-08-02 → 08-08 logs.
+5. **Independent docket verification** via PA UJS. Not yet run.
+
+## Gaps
+
+The message-level evidence for the 2026-08-08/09 identification night —
+`annie_metadata_24h.csv` and the 2026-08-09 export of the 212 thread — is cited
+by [[wiki/timeline/events/august-2026-unmasking]] and
+[[wiki/mind/synthesis/read-receipt-forensics]] but is **not yet filed to
+`raw/`**; only the derived analysis arrived in this ingest. Filing the source
+exports is the first item this page owes the next pass.
 
 
 ========================================================================
@@ -32937,7 +33630,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 infobox:
   name: Suzanne Frank
   status: Active
@@ -33188,6 +33881,15 @@ source's other claims are flagged on
 [[wiki/people/tuquick-17248123683]]. The incident is the corpus's only
 documented instance of a third party escalating directly against Suz
 rather than against Dan or Annie.
+
+> **REVISED [2026-08-09]:** The caller is identified as
+> [[wiki/people/jerel-coles|Jerel Wayne Coles]], 36, of 106 Nassau St,
+> Uniontown — **the same municipality.** He carries a 2009 conviction for
+> harassment by subjecting another person to physical contact, a 2008
+> disorderly-conduct guilty plea for fighting, and an April 2025
+> criminal-mischief/property-damage charge. Provenance: commercial
+> background-check aggregator, not independently docket-verified. See
+> [[wiki/people/jerel-coles]] for the full record and its qualifiers.
 
 ## The colonization episode (terminal phase)
 
@@ -33559,7 +34261,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 date_range_start: 2026-07-25
 date_range_end: 2026-08-02
 tags: [relationships, trauma-bond, mental-health, forensic-analysis]
@@ -33573,6 +34275,7 @@ infobox:
 sources:
   - raw/self/message-csv/imessage_export_2124702449_20260802.csv
   - raw/self/message-csv/imessage_export_2124702449_20260726.csv
+  - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
 connections:
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: causes
@@ -33588,13 +34291,52 @@ connections:
     claim: "He telephoned Suz to abuse her about a relationship she had no part in, which is what made the harassment a family matter and what Annie eventually walked to the house to apologise for."
   - page: wiki/people/tuquick-17248123683
     type: co-occurs
-    claim: "Tuquick is the only prior third party the corpus documents in this role, and no source states whether the two are the same man — the question is open in both directions."
+    claim: "Tuquick (now identified as Jerel Wayne Coles) is the only prior third party the corpus documents in this role. Coles's address history shows continuous residence in Uniontown, but his known phone numbers do not appear in the July 2026 message export and Annie never identifies him by name; the question of whether Coles is also the July 2026 unnamed interloper remains open."
+  - page: wiki/people/tuquick-17248123683
+    type: contradicts
+    claim: "The two pages hold incompatible accounts of the same broken-finger claim — uncontested here, contested there (Tuquick denies it in the May 31 group chat) — because it is unconfirmed whether they describe one man."
   - page: wiki/timeline/events/july-2026-recontact
     type: follows
     claim: "The 'She's a slut man lmfao' message that arrived on Annie's number at 00:25 on July 26 is his first appearance in the record; everything known about him postdates it by hours."
+  - page: wiki/people/jerel-coles
+    type: co-occurs
+    claim: "A candidate identity for this man, not a confirmed one. Dan's 2026-08-08 FOREWARN lookup targeted the Tuquick handle specifically and closed Tuquick=Jerel Wayne Coles; whether Tuquick is also this page's subject remains open, resting on role and lexicon overlap rather than an independent identifier."
 ---
 
 # The Unnamed Man
+
+> **REVISED [2026-08-09] — a candidate identity, not a confirmed one.** On
+> 2026-08-08 Dan ran a FOREWARN background lookup that identified
+> [[wiki/people/tuquick-17248123683|Tuquick]] — the man Annie left Dan for in
+> May/June 2026 — as **[[wiki/people/jerel-coles|Jerel Wayne Coles]]**, 36, of
+> 106 Nassau St, Uniontown, via an exact match on Tuquick's phone number. The
+> capture's own frontmatter targeted the Tuquick handle specifically, not this
+> page's subject.
+>
+> **Whether Tuquick/Coles is also this man remains open.** No phone number for
+> this page's subject exists anywhere in the corpus to check against Coles's
+> two known numbers, and the case for a link is circumstantial: the same role
+> (who Annie left Dan for / was seeing), six weeks apart, in the same small
+> town, with an overlapping insult vocabulary ("cuck," unemployment, escort
+> history) across the June 1 End Fight and the July 26 messages sent from
+> Annie's phone. That is suggestive, not identifying — see
+> [[wiki/people/jerel-coles]] §Is Coles the unnamed man too? for the full case
+> and why it is not adopted.
+>
+> **The refusal-to-know finding below is unaffected either way.** The refusal
+> was declared 2026-07-26 18:09 and restated 2026-07-28 23:45, specifically
+> about this page's subject. The FOREWARN lookup that targeted Tuquick did not
+> resolve who this man is, so the refusal's status with respect to *this man*
+> is unchanged — Dan still has not identified him. What changed is that one of
+> the two candidate identities the corpus was carrying (Tuquick) now has a real
+> name attached to it.
+>
+> **One prior inconsistency is worth flagging rather than resolving.** This
+> page records the broken-finger claim as consistent across eight days and
+> never retracted; [[wiki/people/tuquick-17248123683]] records the same claim
+> being denied by Tuquick himself in the May 31 group chat. If the identity
+> link above turns out to hold, that is one claim, one man, contested in real
+> time. It is left as a flagged tension, not resolved, until the link does.
 
 He is the person [[wiki/people/annie-ulmer|Annie]] left Dan for, the person
 she says raped her on July 25, 2026, and the person whose continued presence
@@ -33709,17 +34451,9 @@ to.
 
 ## Is he Tuquick?
 
-Unknown, and no source addresses it.
-[[wiki/people/tuquick-17248123683|Tuquick]] is the only other man the corpus
-places in this role — the interloper of the May 31–June 1 2026 end fight, who
-defected on June 15 and called Annie a compulsive liar. Points of contact: the
-same role, the same six-week span, the same town. Points against: Tuquick's
-recorded conduct toward Dan ended in agreement with him, which is hard to
-reconcile with the July 26 register; and neither Dan nor Annie treats the July
-26 arrival as a continuation of anything, which is unusual given how
-comprehensively both narrate their own histories. The question is left open,
-and it is one of the few in the corpus that will not be settled by re-reading
-`raw/` — it needs an answer from outside.
+> **REVISED [2026-08-08]:** Tuquick is now identified as **Jerel Wayne Coles** (born ~1990, Uniontown, PA) via a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`. Coles has a documented criminal record in Pennsylvania court databases including harassment (2009), two DUIs (2019, 2024), and criminal mischief (2025). This does not, however, establish whether the July 2026 unnamed interloper is Coles. Coles's known phone number is `(724) 628-7133` (residential) and `(724) 812-3683` (mobile) — neither appears in the July 2026 message export, and Annie does not identify the July 26 attacker by name in Dan's corpus. The question remains open, but the overlap of geography (Uniontown), the harassment charge, and the identical interloper role makes a strong circumstantial case. See [[wiki/people/tuquick-17248123683]] for Coles's full profile.
+
+Unknown, and no source addresses it directly. [[wiki/people/tuquick-17248123683|Tuquick]] is the only other man the corpus places in this role, six weeks earlier and in the same town, and no source states whether he and the July 2026 third party are the same person — the question is open in both directions. Tuquick's real identity (Jerel Wayne Coles) was unmasked on 2026-08-08 (see the REVISED block above); Coles's address history shows him in Uniontown continuously, but his recorded phone numbers do not appear in the July 2026 message export, and Annie never identifies him by name.
 
 ## Gaps
 
@@ -34340,9 +35074,9 @@ PAGE: wiki/people/tuquick-17248123683.md
 ---
 domain: people
 page_type: entity
-status: closed
+status: active
 date_created: 2026-06-24
-date_modified: 2026-07-19
+date_modified: 2026-08-09
 date_range_start: 2026-05-31
 date_range_end: 2026-06-16
 sources:
@@ -34350,13 +35084,14 @@ sources:
   - raw/self/message-csv/THE END FIGHT.csv
   - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
   - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
+  - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
 related:
   - wiki/people/annie-ulmer
   - wiki/timeline/events/end-fight
   - wiki/timeline/events/group-chat-closure
 tags: [relationships, trauma-bond, ai-collaboration, addiction-recovery]
 infobox:
-  name: "Tuquick 17248123683"
+  name: "Jerel Wayne Coles (Tuquick 17248123683)"
   relationship_to_dan: unknown
   location: nyc
   first_contact: 2026-05-31
@@ -34364,7 +35099,7 @@ infobox:
 connections:
   - page: wiki/people/the-unnamed-man
     type: co-occurs
-    claim: "Tuquick is the only other man the corpus places in the interloper role, six weeks earlier and in the same town, and no source states whether he and the July 2026 third party are the same person."
+    claim: "Tuquick (Jerel Wayne Coles) is the only other man the corpus places in the interloper role, six weeks earlier and in the same town. Coles's identity was unmasked on 2026-08-08; whether he is also the July 2026 unnamed interloper is open — his known phone numbers do not appear in the July 2026 message export."
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "The June 15 defection is the verdict's independent-validation exhibit: convergence on Dan's read within 14 days of attacking it."
@@ -34374,6 +35109,12 @@ connections:
   - page: wiki/people/bryan-5088682461
     type: co-occurs
     claim: "The video of the encounter with Bryan is the material Tuquick deployed as humiliation on closure night 2026 — Bryan's one documented appearance in the corpus made him ammunition six and a half years later."
+  - page: wiki/people/jerel-coles
+    type: component-of
+    claim: "The phone number in this page's own title is the identifier that closed the identification on 2026-08-08; wiki/people/jerel-coles is now the canonical entity page and carries the fuller identity record and criminal-history table."
+  - page: wiki/people/the-unnamed-man
+    type: contradicts
+    claim: "The two pages hold incompatible accounts of the same broken-finger claim — contested here (Tuquick denies it in the May 31 group chat), uncontested there — because it is unconfirmed whether they describe one man; see wiki/people/jerel-coles §Is Coles the unnamed man too?"
 ---
 
 
@@ -34383,11 +35124,42 @@ connections:
 
 > **REVISED [2026-07-13]:** Operator correction: Tuquick is not a "stranger inserted into the situation" — he is who Annie left Dan for. He may or may not be "Target G"; unknown.
 
+> **REVISED [2026-08-08]:** The interloper's real-world identity has been unmasked through a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md` (FOREWARN database). He is **Jerel Wayne Coles**, age 36, with a current address of 106 Nassau St, Uniontown, PA 15401 — and a documented criminal history spanning 2008–2025 (traffic violations, two DUI arrests, disorderly conduct, harassment, and a 2025 criminal mischief charge). He is NOT target G; the July 2026 unnamed interloper remains a separate open question — see [[wiki/people/the-unnamed-man]].
+
+> **REVISED [2026-08-09] — canonical page moved.** [[wiki/people/jerel-coles]]
+> is now the canonical entity page for this identity: the fuller identity
+> record (both phone numbers, address history, the FOREWARN provenance note),
+> the de-duplicated criminal-history table, and the analysis of what merging
+> this page with [[wiki/people/the-unnamed-man]] would and would not resolve
+> all live there. This page is retained rather than redirected because it is
+> the primary account of the End Fight and the June 15 defection, which stay
+> filed here.
+
 ## Identity
 
-Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal group chat that closed the relationship on June 1, 2026 (the [[wiki/timeline/events/end-fight]]). Associated with the email `Tuquick3@hotmail.com` and phone number `+17248123683`. He is **not** [[wiki/people/eli]] (the 2024–Feb 2025 NYC affair). Whether he is "Target G" — the married man from the January 2026 "Suzy" call and ten-day blackout (see [[wiki/people/annie-ulmer]] §Target G, [[wiki/self/chats/gemini-07]]) — is unresolved; the Gemini-_07 forensics name the Target G figure "Caitlin's husband," a description not otherwise confirmed as Tuquick.
+Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal group chat that closed the relationship on June 1, 2026 (the [[wiki/timeline/events/end-fight]]). Associated with the email `Tuquick3@hotmail.com` and phone number `+172****3683`. 
+
+**His real name is Jerel Wayne Coles** (born circa 1990), identified via a background-check capture that pulled his full record from Pennsylvania court databases (FOREWARN). Coles is a Uniontown-area resident with a documented criminal history (see the `## Criminal record` section below), including two DUI arrests, prior harassment and disorderly-conduct convictions, and a 2025 criminal mischief charge. He is **not** [[wiki/people/eli]] (the 2024–Feb 2025 NYC affair). Whether he is "Target G" — the married man from the January 2026 "Suzy" call and ten-day blackout (see [[wiki/people/annie-ulmer]] §Target G, [[wiki/self/chats/gemini-07]]) is unresolved; the Gemini-_07 forensics name the Target G figure "Caitlin's husband," a description not otherwise confirmed as Coles.
 
 During the May 31/June 1 confrontation he aggressively defended Annie, hurling extreme insults at Dan.
+
+## Criminal record
+
+The background-check capture (FOREWARN, sourced from Pennsylvania court databases) collapses 64 raw court records into **9 distinct incident clusters** spanning 2008–2025:
+
+| Date | Incident | Charges | Outcome |
+|---|---|---:|---|
+| 10/31/2008 | Traffic (turning movements) | 1 | Unknown |
+| 11/20/2008 | Disorderly conduct / fighting | 1 | Guilty plea |
+| 06/13/2009 | Vehicle equipment | 1 | Guilty plea |
+| 07/19/2009 | Harassment (physical contact) | 1 | Guilty |
+| 06/06/2010 | Traffic (license expired, signals) | 2 | Guilty / guilty plea |
+| 07/07/2010 | Traffic (no inspection, obstructed window) | 2 | 1 guilty plea, 1 not guilty |
+| 02/03/2019 | DUI + traffic (BAC ≥ .16) | 6 | ARD County |
+| 06/29/2024 | DUI + traffic (5 counts) | 5 | Guilty pleas |
+| 04/05/2025 | Criminal mischief / property damage | 1 | Unknown |
+
+**Pattern:** 2008–2010 establishes a baseline of traffic violations plus two interpersonal/public-order offenses (fighting, harassment involving physical contact). The 2019 DUI includes a BAC ≥ .16 charge (aggravated), processed through ARD. The 2024 DUI shows the same pattern with a clean guilty-plea disposition. The 2025 criminal mischief charge is the first non-traffic criminal matter, representing a shift in offense type. See `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md` for the full capture and the de-duplication reasoning.
 
 ## Role in the End Fight (May 31 - June 1, 2026)
 
@@ -34487,7 +35259,7 @@ This defection serves as an independent, third-party validation of the manipulat
 
 ## Notes
 
-Tuquick is not Eli. He is the relationship Annie left for, the catalyst and counterpart of the final group chat closure on June 1, and subsequently an independent witness to Annie's behavioral architecture on June 15.
+Jerel Coles (Tuquick) is not Eli. He is the relationship Annie left for, the catalyst and counterpart of the final group chat closure on June 1, and subsequently an independent witness to Annie's behavioral architecture on June 15. The July 2026 unnamed interloper remains a separate open question — see [[wiki/people/the-unnamed-man]].
 
 
 ========================================================================
@@ -39810,6 +40582,253 @@ This page is sourced from a single chat-based analysis session, not a directly r
 
 
 ========================================================================
+PAGE: wiki/timeline/events/august-2026-unmasking.md
+========================================================================
+
+---
+domain: timeline
+page_type: event
+status: closed
+knowledge: earned
+importance: high
+title: "The Unmasking and the August 8–9 Collapse"
+aliases: ["the unmasking", "the read-receipt night"]
+tags: [relationships, trauma-bond, forensic-analysis, mental-health]
+date_created: 2026-08-09
+date_modified: 2026-08-09
+date_range_start: 2026-08-08
+date_range_end: 2026-08-09
+sources:
+  - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
+connections:
+  - page: wiki/people/jerel-coles
+    type: caused-by
+    claim: "The identity lookup completed at 19:01:22 and primed every subsequent parse across the next ten hours, including the reading of 'He'll?' as an invocation of him."
+  - page: wiki/mind/synthesis/read-receipt-forensics
+    type: evidenced-by
+    claim: "Every claim about her wakefulness rests on chat.db date_read values whose directional asymmetry that page defines; read the wrong way the same column produces the opposite conclusion."
+  - page: wiki/mind/concepts/node-locking
+    type: instantiates
+    claim: "The 02:24:54 read-receipt cutoff is the third logged instance of the Signals node's go-dark-after-confrontation pattern, following the Suzy-call NACK and the ten-day January 2026 blackout."
+  - page: wiki/timeline/events/july-august-2026-reentanglement
+    type: follows
+    claim: "This night terminates the re-entanglement window that the July 4 email reopened; the same procurement dependency that structured the window structures its collapse."
+  - page: wiki/people/annie-ulmer
+    type: evidences
+    claim: "She never narrowed the sleep claim across three explicit invitations including a sincere one, despite a defensible 63-minute window being available in the record."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: contextualizes
+    claim: "The verdict's central procurement finding — that supplying drugs was the only route to being seen — is restated verbatim by the opening exchange of this night."
+---
+
+# The Unmasking and the August 8–9 Collapse
+
+> **One day. The refusal ends at 19:01:22, the conversation opens at 19:38:34,
+> and the last message goes unanswered at 03:41:32.**
+
+> **Sourcing note.** This page and
+> [[wiki/mind/synthesis/read-receipt-forensics]] were written from a session
+> that had direct access to the operator's `chat.db` and to a same-day export
+> of the 212 thread; the derived tables below are reproduced from that
+> session's output. The two underlying exports it names —
+> `annie_metadata_24h.csv` and `imessage_export_2124702449_20260809084846_.csv`
+> — arrived with the analysis but **have not themselves been filed to `raw/`**
+> as of this ingest. Treat the figures below as `[DERIVED, source pending]`
+> until those files land in `raw/self/message-csv/` and are cited on disk;
+> flagged in `queue.md`.
+
+## Spine
+
+| Time (EDT) | Event |
+|---|---|
+| 2026-08-08 19:01:22 | **FOREWARN lookup executed.** The interloper is identified as Jerel Wayne Coles. Thirteen-day refusal terminated. See [[wiki/people/jerel-coles]]. |
+| 19:38:34 | "hi you" — first contact |
+| 19:44:18 | "Did he come?" — her first reply is about the dealer |
+| 19:57:01 | "there's one reason you are interested in hearing from me" |
+| 20:07:17 | "I gave you more than enough money" |
+| 21:22:17 | "your big romantic Saturday night plans" — first inference of the third party from silence |
+| 22:40:49 | "if you even maintained contact with the person trying to fuck my life up" — inference now asserted as fact |
+| **23:09:20** | **"He'll?"** — almost certainly *Hell?* |
+| **23:10:38** | **"HE'LL rape you again."** Read by her in **2 seconds** |
+| 23:11:02 | ".stpp…" |
+| 00:03:30 | TRO drafted aloud; "portfolio of more than a dozen threats he's made in writing" |
+| 00:28:56 | "sleeping" — the claim enters the conversation |
+| 00:30:43 | The eight-timestamp list |
+| 00:32:25 | "keep the stupidest lies for **Jerel**" — the name enters the message record |
+| 00:38:10 | "annie if I am being crazy I honestly want to know" — read in 0s |
+| 00:43:29 | "Fucking drugs" — she names the subject |
+| **02:01:59** | "I see you figured out that you had read receipts on" |
+| **02:24:54** | **Last read receipt. Coverage ends.** |
+| 02:25:52 | "I fell asleep" — 58 seconds later |
+| 03:41:32 | "I seriously did fall asleep?" — **unanswered** |
+
+## The quantitative record
+
+All figures recomputed from `annie_metadata_24h.csv` (230 rows, ROWID
+228148–228378) — see sourcing note above. Method and its traps:
+[[wiki/mind/synthesis/read-receipt-forensics]].
+
+```
+READ-RECEIPT COVERAGE (hers, on his messages)
+  first  2026-08-08 23:10:40        last  2026-08-09 02:24:54
+  before: 64 SENT messages, 0 receipts
+  after :  2 SENT messages, 0 receipts
+
+HER READ LATENCY INSIDE THE WINDOW  (n = 44)
+  median 0 seconds  |  34 of 44 reads in ≤2 seconds
+
+LARGEST GAPS IN HER ACTIVITY (her sends + her read receipts, merged)
+  23:23:57 → 00:26:49    62.9 min
+  01:04:19 → 02:24:54    80.6 min
+  02:25:52 → 03:41:32    75.7 min
+
+VOLUME, 19:30 – 00:30
+  Dan  44 messages /  4,697 chars
+  Ann  18 messages /    191 chars      ratio 24.6 : 1
+  Ann median message length: 8 characters
+```
+
+> **The volume ratio is not diagnostic of this night.**
+> [[wiki/mind/synthesis/message-circadian-latency]] establishes across 175,358 rows
+> that 62.7% of Dan's inter-send gaps are under two minutes, the longest
+> unbroken run is 284 messages, and the median gap is 1.0 minute. The burst
+> profile is a fifteen-year constant across every relationship. Cite it as
+> characterisation, never as evidence.
+
+## The sleep narrative
+
+### The eight timestamps verify 8/8
+
+Presented at 00:30:43 as the product of "the research." They are in fact her own
+outbound message times, and every one matches:
+
+```
+8:07 → 20:07:02/:05/:17/:23     8:44 → 20:44:20      9:42 → 21:42:08
+10:03 → 22:03:51, 22:05:10      10:15 → 22:16:16     11:09 → 23:09:20, 23:10:04
+11:23 → 23:23:57                12:27 → 00:27:06
+```
+
+**But the claim they falsify was made two minutes *after* the list's window
+closed.** At each of those eight moments she was sending one- and two-word
+fragments — "Excuse me," "Dan," "Wait," "???" — none of which is a claim about
+being asleep. The list proves wakefulness at eight points she never contested.
+
+### The steelman, and its failure
+
+The strongest innocent reading is that each sleep statement explains the gap she
+had just emerged from. Tested directly:
+
+| Claim | Time | Gap immediately preceding |
+|---|---|---|
+| "I was shedding..:" | 00:28:03 | 0.4 min |
+| "sleeping" | 00:28:56 | 0.1 min |
+| "I was asleep" | 00:40:12 | 0.1 min |
+| "I fell asleep" | 02:25:52 | 1.0 min |
+| "I seriously did fall asleep?" | 03:41:32 | **75.7 min** |
+
+**Four of five fail.** They were authored mid-burst at zero-second read latency
+— a phone in hand, thread live. The fifth follows a genuine three-quarter-hour
+absence and is likely literally true.
+
+### What survives as the finding
+
+Not a lie about sleep. **A refusal to narrow.** A defensible 63-minute window
+existed in the record (23:23:57 → 00:26:49) and was never invoked, across three
+explicit invitations including a sincere one. The structure is refusal to
+concede any ground at all, maintained past the point where partial concession
+would have been cheaper and more credible than total denial.
+
+**Base rate:** [[wiki/mind/concepts/node-locking]] locks *blackout patterns
+post-confront* into the Signals node; [[wiki/mind/concepts/forensic-method]] models
+the January 2026 ten-day blackout as a Grim Trigger. Going dark after
+confrontation is a **catalogued signature with prior instances**, not a novel
+event.
+
+**Undetermined, and left undetermined:** whether receipts were toggled off at
+~02:25 or the thread simply was not opened. The `reply_to_guid` argument that
+would have settled this is void — see [[wiki/mind/synthesis/read-receipt-forensics]]
+finding M2.
+
+## The misparse
+
+```
+23:08:54  DAN  "Hey when you're sitting in jail or recovering in the hospital…"
+23:09:20  ANN  "He'll?"
+23:10:04  ANN  "Call me"
+23:10:38  DAN  "That's right HE'LL fracture more of your bones.
+                HE'LL rape you again. Destroy your life even more"
+                                                 ← READ BY HER IN 2 SECONDS
+23:11:02  ANN  ".stpp…"
+```
+
+`He'll?` belongs to the same garble family as `Whst????` (23:23:57), `Dani`
+(00:41:33) and `Post:. You're eight` (01:03:57). It was read as an invocation of
+Coles. It was almost certainly *Hell?* — a request for clarification, followed
+by a request to call, followed after the reply by *stop*.
+
+**Dan appears to catch it 105 minutes later:**
+
+```
+00:55:51  DAN  "He'll :.."            ← quoting her garble back
+00:56:12  ANN  "?"
+00:57:50  DAN  "Wait "
+00:58:32  DAN  "What the actual fuck"
+00:59:59  DAN  ".,stpp."              ← quoting her second garble back
+```
+
+**Priming, which explains without excusing:** he had spent that afternoon
+reading *harassment — subject another person to physical contact — guilty* and
+*criminal mischief — damage property*. Maximum priming to parse an ambiguous
+token as an invocation of the man. The message is unrecoverable by any framing,
+and it is the artifact that most contradicts the restraint documented at
+[[wiki/people/the-unnamed-man]].
+
+## Corrections to earlier analysis of this night
+
+Two readings produced in the first analytic pass are **retracted outright**, per
+the corpus's standing retraction discipline.
+
+**RETRACTED — "the research claim was a bluff."** At 00:32:25: *"I had to
+finally pull the cord today and do the research… what the real threat vector is
+in my life."* This is **literally true**; the research was executed at 19:01:22
+that day. The accurate and narrower finding is **implicature**: a true statement
+about research was placed adjacent to a timestamp list of different provenance,
+and the adjacency was left to do the work. That is not fabrication.
+
+**RETRACTED — "the third-party belief was constructed inside the thread."** The
+prior reading held that silence produced an inference of betrayal which then
+made her explanation for the silence necessarily a lie — a closed loop with no
+external input. **The conversation was entered thirty-seven minutes after
+completing a criminal-history profile.** The belief was primed by documented
+external research. The circularity finding is dead and is not carried forward.
+
+## Standing constraint on analysis of this page
+
+> [[wiki/people/annie-ulmer]] establishes as its central finding that the gravest
+> harm of the terminal phase was being told that an **accurate perception was
+> itself a symptom of instability** — and the Corrective Addendum formally
+> retracted an earlier wiki pass that credited the "Dan's vigilance is
+> controlling behaviour" framing.
+>
+> Any analysis that explains the operator's inference by his **psychology**
+> rather than evaluating it against **evidence** reproduces that harm. It has
+> now done so at least twice in this corpus.
+>
+> **Legitimate:** "this inference is thin here, because the evidence is X."
+> **Prohibited:** "you can't see this because you need it to be true."
+
+## Gaps
+
+`annie_metadata_24h.csv` and `imessage_export_2124702449_20260809084846_.csv`
+are the primary sources for every figure above and are not yet on disk in
+`raw/` — see the sourcing note at the top of this page and `queue.md`. Whether
+receipts were toggled off or the thread simply left unopened at ~02:25 is
+explicitly undetermined (see above). A baseline read-latency profile from prior
+weeks, needed to say whether the median-0s window is itself unusual, has not
+been run.
+
+
+========================================================================
 PAGE: wiki/timeline/events/bald-eagle-cummings.md
 ========================================================================
 
@@ -42441,7 +43460,7 @@ domain: timeline
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources: []
 related: []
 ---
@@ -42461,6 +43480,7 @@ related: []
 - [[wiki/timeline/events/group-chat-closure]] — Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party…
 - [[wiki/timeline/events/july-2026-recontact]] — July 23–26 2026: the 52-day severance fails; 624 messages, a rape allegation, the corpus's only refused supply request, no resolution.
 - [[wiki/timeline/events/july-august-2026-reentanglement]] — July 26 – August 2 2026: the goodbye breaks in 18 minutes; 1,880 messages, six meetings, five drug handoffs, and an apology delivered in person to Suz.
+- [[wiki/timeline/events/august-2026-unmasking]] — August 8–9 2026: the thirteen-day refusal to identify the interloper ends with a FOREWARN lookup, and a ten-hour collapse follows — a misparsed garble read as a threat, a contested sleep claim, and read-receipt coverage that ends at 02:24:54.
 - [[wiki/timeline/events/march-2026-terminal-phase]] — the record's last 16 days: laundry response, bathroom incident, confession + retraction
 - [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] — Dan, Annie, and Shelbie Breakiron; the arrangement's clearest instance with a third woman rather than a male friend.
 - [[wiki/timeline/events/timeline]] — This is the master index. Full chronological + 1,104 in raw/self/dox-md/LIFE_EVENTS_CALENDAR.md. Re-mined…

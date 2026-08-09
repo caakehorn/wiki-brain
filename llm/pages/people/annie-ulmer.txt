@@ -7,7 +7,7 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 date_range_start: 2015-11-01
 date_range_end: 2026-08-02
 infobox:
@@ -191,6 +191,9 @@ connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "The record here settles the fallout question in a narrow, defensible form: Dan was wronged in fact — a concealed affair inside the non-monogamy framework he had built to prevent exactly that, months of gaslighting rated by the sources above the affair itself, and a defamation campaign running concurrently with written private denials — while the ten-year length of the catastrophe is co-authored by his own conflict engine and supply-chain control."
+  - page: wiki/timeline/events/august-2026-unmasking
+    type: evidenced-by
+    claim: "She never narrowed the sleep claim across three explicit invitations including a sincere one, despite a defensible 63-minute window existing in the record."
 ---
 
 # Annie (Anne Louise Ulmer)
@@ -807,6 +810,12 @@ with, and states plainly "we do not know" whether he is also Target G.
 > was becoming a pattern rather than staying a one-off. Full account and
 > the AI-side debate it produced: [[wiki/mind/synthesis/ai-collaborative-analysis]].
 
+> **REVISED [2026-08-09]:** Tuquick is now identified as
+> [[wiki/people/jerel-coles|Jerel Wayne Coles]]. This does **not** resolve
+> Target G — the FOREWARN return carries no marital data, so "Caitlin's
+> husband" is neither confirmed nor excluded. The question narrows from three
+> candidates (Eli, Target G, Tuquick) to two and stays open.
+
 ## March 2026: the confession, and taking it back
 
 The last full month of the pre-closure record contains the sharpest
@@ -1182,6 +1191,7 @@ legal exposure for Dan — noted here for completeness.
 | 2026-07-27 | Supply resumes: $40 in her parents' driveway, traded for a hug, 31 hours after the refusal |
 | 2026-07-28 | 770 messages; twelve-hour standoff over an email to her parents that is never sent |
 | 2026-08-02 | Annie walks to the house and apologises to Suz in person; buys $50 forty minutes later |
+| 2026-08-08 | Tuquick identified via FOREWARN (19:01:22); five-hour collapse follows — [[wiki/timeline/events/august-2026-unmasking]] |
 
 Two synthesis pages extend this record further: the capstone moral
 verdict, provenance-tiered down to individual message rows, at

@@ -3,7 +3,7 @@ domain: people
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources: []
 related: []
 ---
@@ -77,6 +77,7 @@ related: []
 - [[wiki/people/jay-lauer]] — Friend and peer suboxone/cocaine trading partner, winter 2016-17; died of a heroin overdose on or about April 11 2017 — the supply network's only documented fatality.
 - [[wiki/people/jenn-lynn]] — Uniontown friend repeatedly solicited (with boyfriend Brad) for a two-couple swap, 2017-2020; parallel drug-sourcing relationship.
 - [[wiki/people/jerad-friedline]]
+- [[wiki/people/jerel-coles]] — Real identity of [[wiki/people/tuquick-17248123683|Tuquick]], confirmed 2026-08-08 via FOREWARN; documented 2008–2025 record (two DUIs, harassment, disorderly conduct, criminal mischief). Candidate but unconfirmed identity for [[wiki/people/the-unnamed-man]].
 - [[wiki/people/jess]] — Swinging-couple recruitment contact, spring 2017; fizzled after one dense day.
 - [[wiki/people/jim-vrabel]] — Weed dealer and near-nightly hangout, 2018-2020; recurring coffee-creamer gift bit.
 - [[wiki/people/jimmy]] — Fellow Nemacolin caddy, 2018; a real blowup, then quit caddying over management.
@@ -143,8 +144,8 @@ related: []
 - [[wiki/people/tom]] — Tom Maison — Dan's primary male ally and the clearest instance of safe, lateral (peer, non-paternal)…
 - [[wiki/people/trevor]] — Trevor Bevins: Dan's Nemacolin caddying peer, golf companion, and later market-era Facebook contact; the thread also records money strain between friends.
 - [[wiki/people/trinity-st-clair]] — Adult performer booked as a paid companion for Dan and Annie, spring 2019; same window as the Shelbie threesome.
-- [[wiki/people/the-unnamed-man]] — The man Annie left Dan for and says raped her in July 2026; the one node in the corpus Dan has deliberately refused to identify, and the reason he gives for it.
-- [[wiki/people/tuquick-17248123683]] — A hostile third party involved in the terminal sequence of the Annie relationship closure (the end-fight).…
+- [[wiki/people/the-unnamed-man]] — The man Annie left Dan for and says raped her in July 2026; the one node in the corpus Dan has deliberately refused to identify. Tuquick is a candidate identity as of 2026-08-09, unconfirmed.
+- [[wiki/people/tuquick-17248123683]] — A hostile third party involved in the terminal sequence of the Annie relationship closure (the end-fight); real identity confirmed 2026-08-08 — see [[wiki/people/jerel-coles]].
 - [[wiki/people/urpaaa-at-yahoo-com]] — Unidentified teacher in a parental register who accompanied Dan to the Oct 2017 tooth extraction; identity is the page's open question.
 - [[wiki/people/valeria-iglesias-cid]] — Valeria Iglesias Cid — 19-year-old heiress to a laser-surgery empire (mother: Dra. Loreto Cid in…
 - [[wiki/people/vanessa-frank]] — Younger sister of Dan Frank. Born 16 January 1994 in Greensburg, Westmoreland County, Pennsylvania. Shares…
