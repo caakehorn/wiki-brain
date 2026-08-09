@@ -32,7 +32,7 @@ simply listed.
 | [[wiki/people/jerel-coles]] | people | — |
 | [[wiki/people/suzanne-frank]] | people | **REVISED** — The caller is identified as Jerel Wayne Coles, 36, of 106 Nassau St, Uniontown — **the same municipality.** He carries a 2009 conviction for harassment by subjecting another person to physical contact |
 | [[wiki/people/the-unnamed-man]] | people | **REVISED** — On 2026-08-08 Dan ran a FOREWARN background lookup that identified Tuquick — the man Annie left Dan for in May/June 2026 — as **Jerel Wayne Coles**, 36, of 106 Nassau S |
-| [[wiki/people/tuquick-17248123683]] | people | **REVISED** — jerel-coles is now the canonical entity page for this identity: the fuller identity record (both phone numbers, address history, the FOREWARN provenance note), the de-duplicated criminal-history table |
+| [[wiki/people/tuquick-17248123683]] | people | **REVISED** — The operator states directly: "They are the same person — tuquick and unnamed" (filed at 2026-08-09-tuquick-unnamed-man-correction). Tuquick is the-unnamed-man. jerel-coles is |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 | [[wiki/timeline/index]] | timeline | — |
 

@@ -32,7 +32,7 @@ connections:
     claim: "The Uniontown Glitch is this method's flagship exhibit: the only case in the corpus where four confident model hypotheses were killed in sequence against ground truth the operator alone held, leaving a ranked improbability list instead of a cosmology."
   - page: wiki/people/the-unnamed-man
     type: contradicts
-    claim: "The method's claim to generality fails by deliberate choice here: the corpus's most consequential live antagonist is the one node Dan has refused to identify, on the stated grounds that knowing would cost him more than not knowing. Partially closed 2026-08-09 — see below; the refusal terminated for the Tuquick identity specifically, and this page's antagonist remains formally unidentified."
+    claim: "The method's claim to generality fails by deliberate choice here: the corpus's most consequential live antagonist is the one node Dan has refused to identify, on the stated grounds that knowing would cost him more than not knowing. Closed 2026-08-09 — the refusal terminated 2026-08-08 and the operator confirmed the identified man is this page's antagonist; see below."
   - page: wiki/mind/synthesis/read-receipt-forensics
     type: contains
     claim: "Four instrument-level defects in chat.db metadata extraction, each of which silently returns a confident wrong answer rather than an error."
@@ -265,27 +265,28 @@ deployment is also unaudited on its own terms: whether the dashboards'
 classifications are accurate, and what a hostile reader would find wrong
 with them, has not been checked by anyone.
 
-## The off switch, partially closed [2026-08-09]
+## The off switch, closed [2026-08-09]
 
 [[wiki/people/the-unnamed-man]] filed a `contradicts` edge against this page
 holding that the method's claim to generality **fails by choice** — the
 corpus's most consequential live antagonist being the one node deliberately
 left uninvestigated.
 
-**One of the two candidate identities behind that exception closed on
-2026-08-08 at 19:01:22.** A FOREWARN lookup identified the Tuquick handle as
+**That exception closed on 2026-08-08 at 19:01:22, and the closure is
+complete.** A FOREWARN lookup identified the Tuquick handle as
 [[wiki/people/jerel-coles|Jerel Wayne Coles]] — full account at
 [[wiki/timeline/events/august-2026-unmasking]]. That lookup's own capture
-targeted the Tuquick handle specifically, and whether Tuquick is also the July
-2026 unnamed-man antagonist remains an open identity question (see
-[[wiki/people/jerel-coles]] §Is Coles the unnamed man too?). **The
-`contradicts` edge is therefore not fully resolved** — it is narrower and more
-useful: the off switch was real, was under deliberate control, was held for
-thirteen days under sustained provocation, and **failed under a specific
-load** — not under difficulty, not under relevance, and not gradually.
-Identifying the load is open. Working hypothesis: the threat model shifted
-from *historical antagonist* to *believed present tonight*, and the switch was
-rated for the first and not the second.
+targeted the Tuquick handle specifically, which initially left open whether
+Tuquick was also the July 2026 unnamed-man antagonist; the operator confirmed
+directly on 2026-08-09 that they are the same person (see
+[[wiki/people/jerel-coles]] §Is Coles the unnamed man too?), closing the
+identity question the `contradicts` edge depended on. The generality claim is
+restored. What replaces it is narrower and more useful: the off switch was
+real, was under deliberate control, was held for thirteen days under sustained
+provocation, and **failed under a specific load** — not under difficulty, not
+under relevance, and not gradually. Identifying the load is open. Working
+hypothesis: the threat model shifted from *historical antagonist* to *believed
+present tonight*, and the switch was rated for the first and not the second.
 
 ## Instrument-integrity finding [2026-08-09]
 

@@ -95,14 +95,14 @@ Each of these is a specific thing the corpus or the outside world could settle.
 - **The announcement rule, tested backwards.** All 127 exit declarations are
   announced by definition; the falsifier is the reverse case — a silent
   severance that executed. The one claim the corpus can attack on its own.
-- **`the-unnamed-man` vs `tuquick-17248123683`** — partially settled 2026-08-09.
-  A FOREWARN lookup identified Tuquick as **Jerel Wayne Coles** (see
-  [[wiki/people/jerel-coles]]) via an exact phone-number match. Whether Coles
-  is *also* the July 2026 unnamed-man antagonist is still open — no phone
-  number for that man exists anywhere in the corpus to check against Coles's
-  two known numbers, and the case rests on role and lexicon overlap only. Needs
-  an answer from outside (a name from Annie, a photo, an independent
-  identifier).
+- ~~**`the-unnamed-man` vs `tuquick-17248123683`**~~ — **SETTLED 2026-08-09.**
+  A FOREWARN lookup identified Tuquick as **Jerel Wayne Coles** (exact
+  phone-number match, 2026-08-08); the operator then confirmed directly that
+  Tuquick and the July 2026 unnamed man are the same person ("They are the
+  same person — tuquick and unnamed," filed at
+  `raw/people/captures/2026-08-09-tuquick-unnamed-man-correction.md`).
+  [[wiki/people/jerel-coles]] is now the canonical entity page for all three
+  identities.
 - **Is Coles = Target G?** FOREWARN returned no marital data. `wiki/people/annie-ulmer.md` §Target G names him only as "Caitlin's husband."
 - **Why did Coles hold two addresses (Uniontown/Connellsville) for 22 months, 09/2024–07/2026?** Unexplained; see `wiki/people/jerel-coles.md` §Open questions.
 - **Does the "video proof / unconscious" accusation originate with Coles (2026-07-26, from Annie's phone) or with Annie (2026-05-31, 23:54)?** Now answerable from logs already held; not yet run.

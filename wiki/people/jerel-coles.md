@@ -5,7 +5,7 @@ status: active
 knowledge: earned
 importance: high
 title: "Jerel Wayne Coles"
-aliases: ["Tuquick", "Tuquick3@hotmail.com", "+17248123683"]
+aliases: ["Tuquick", "the unnamed man", "the interloper", "the third party", "Tuquick3@hotmail.com", "+17248123683"]
 tags: [relationships, trauma-bond, forensic-analysis, legal, uniontown-era]
 date_created: 2026-08-09
 date_modified: 2026-08-09
@@ -18,6 +18,7 @@ infobox:
   first_contact: 2026-05-31
 sources:
   - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
+  - raw/people/captures/2026-08-09-tuquick-unnamed-man-correction.md
   - raw/self/message-csv/imessage_export_2124702449_20260802.csv
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
 related:
@@ -34,7 +35,7 @@ connections:
     claim: "The corpus's only deliberate exception to the forensic engine — the refusal to learn this man's name — terminated on 2026-08-08 at 19:01:22 with a FOREWARN lookup, thirteen days after it was declared and thirty-seven minutes before the escalation it was meant to prevent."
   - page: wiki/people/annie-ulmer
     type: evidences
-    claim: "As Tuquick, denied the broken-finger claim in the May 31 group chat in real time — 'Her finger isn't broken.' Whether this is the same finger claim Annie later repeated to Dan via the unnamed man depends on an identity link (Tuquick = the unnamed man) this page treats as open, not confirmed."
+    claim: "As Tuquick, denied the broken-finger claim in the May 31 group chat in real time — 'Her finger isn't broken' — then, per operator confirmation that Tuquick and the unnamed man are one person, had the same claim re-asserted to him by Annie in the July 26 window as though undisputed."
   - page: wiki/timeline/events/august-2026-unmasking
     type: causes
     claim: "The identity lookup completed thirty-seven minutes before first contact and primed every subsequent parse, including the reading of 'He'll?' as an invocation of him."
@@ -42,8 +43,8 @@ connections:
     type: contextualizes
     claim: "The man who telephoned her for roughly three hours in May 2026 is now identified, lives in the same municipality, and carries a 2009 harassment conviction for subjecting another person to physical contact."
   - page: wiki/people/the-unnamed-man
-    type: co-occurs
-    claim: "A candidate identity for the unnamed man, not a confirmed one — the FOREWARN lookup that identified this page's subject targeted the Tuquick handle specifically, and no independent identifier links Tuquick to the July 2026 unnamed man beyond role and lexicon overlap."
+    type: contains
+    claim: "Confirmed by operator statement (2026-08-09) to be the same person as this page's subject — the corpus carried them as two separate people from 2026-08-02 until this correction. This page is the canonical entity for both."
   - page: wiki/people/tuquick-17248123683
     type: contains
     claim: "This page supersedes the Tuquick entity; the phone number in that page's own title is the identifier that closed the identification."
@@ -54,12 +55,13 @@ connections:
 
 # Jerel Wayne Coles
 
-> **Status: identified 2026-08-08, and the identification is narrower than it
-> first looks. Supersedes [[wiki/people/tuquick-17248123683]] outright, on an
-> exact identifier match. [[wiki/people/the-unnamed-man]] is a separate,
-> unresolved question — see below — and this page does not merge the July
-> 2026 rape allegation onto this identity without a stronger link than
-> currently exists.**
+> **Status: identified 2026-08-08; confirmed 2026-08-09 as also being the July
+> 2026 antagonist.** Supersedes [[wiki/people/tuquick-17248123683]] outright,
+> on an exact identifier match. Supersedes [[wiki/people/the-unnamed-man]] on
+> **direct operator confirmation** — see [[#Is Coles the unnamed man too?]]
+> for what closed the phone-number identity and what closed the merge, since
+> they are not the same kind of evidence and the page keeps that distinction
+> visible.
 
 ## How the identification was made, and what closed it
 
@@ -67,28 +69,30 @@ On **2026-08-08 at 19:01:22 EDT** Dan ran a FOREWARN background lookup on the
 man Annie left him for. The capture is filed at
 [[raw/people/captures/2026-08-08_190122_identity-of-the-interloper]].
 
-**One identification is closed by an exact identifier match:**
+**The Tuquick identity closes on an exact identifier match:**
 
 | Source | Value |
 |---|---|
 | FOREWARN, mobile | (724) 812-3683 |
 | [[wiki/people/tuquick-17248123683]], page title | +17248123683 |
 
-That match settles who **Tuquick** is: Jerel Wayne Coles. It does **not**, by
-itself, settle whether Tuquick and [[wiki/people/the-unnamed-man|the July 2026
-unnamed man]] — Annie's next reported partner and the source of the rape
-allegation — are the same person. No phone number recovered for the July 2026
-man appears in this FOREWARN capture, and none of Coles's two known numbers
-appears in the July 2026 message export. That link rests on **circumstance
-only**: both men occupy the "who Annie left/was with" role six weeks apart in
-the same small town, and the same "cuck" framing (unemployment, sexual
-humiliation, escort history) appears in both the Tuquick End Fight material
-(June 1, 2026) and the unnamed man's July 26 messages sent from Annie's phone.
-Circumstance is not identity. **This page treats "is Coles the July 2026 man"
-as an open question, not a closed one** — see [[#Is Coles the unnamed man
-too?]] — and does not attach the rape allegation, the finger-breaking claim
-attributed to the July 2026 man, or any of the unnamed-man page's unverified
-material to Coles's identity on the strength of lexicon overlap alone.
+That match settles who **Tuquick** is: Jerel Wayne Coles. **Whether Tuquick and
+[[wiki/people/the-unnamed-man|the July 2026 unnamed man]]** — Annie's next
+reported partner and the source of the rape allegation — **are the same
+person is confirmed separately, by the operator directly, on 2026-08-09.** No
+phone number recovered for the July 2026 man appears in the FOREWARN capture,
+and none of Coles's two known numbers appears in the July 2026 message export
+— so the merge is not closed by an independent identifier the way Tuquick=Coles
+is. It is closed by Dan's own statement, which this wiki treats as authoritative
+on facts about his own life the corpus cannot independently verify (the same
+standing as the 2026-07-13 Tuquick correction and the 2026-08-02
+twenty-four-hour-switch correction). The circumstantial case that was already
+on file — both men occupying the "who Annie left/was with" role six weeks
+apart in the same small town, and the same "cuck" framing (unemployment,
+sexual humiliation, escort history) across the Tuquick End Fight material and
+the unnamed man's July 26 messages — now reads as corroboration of a
+confirmed fact rather than the whole of the case for it. Full account:
+[[#Is Coles the unnamed man too?]].
 
 ## Identity record
 
@@ -199,59 +203,117 @@ carries that qualifier.
 
 ## Is Coles the unnamed man too?
 
-**Open. This section states the case for the link and why the page does not
-adopt it.**
+**Confirmed 2026-08-09, by the operator directly: "They are the same person —
+tuquick and unnamed."** This section keeps the two evidentiary bases visible
+rather than collapsing them, because they are not the same kind of proof.
 
-The capture that identified Coles is itself ambiguous about which man it was
-aimed at: its own frontmatter reads `target: wiki/people/tuquick`, and the
-lookup used the Tuquick handle's phone number — not any number attributed to
+**What was on file before the confirmation** was circumstantial: the capture
+that identified Coles is itself ambiguous about which man it was aimed at —
+its own frontmatter reads `target: wiki/people/tuquick`, and the lookup used
+the Tuquick handle's phone number, not any number independently attributed to
 the July 2026 unnamed man, for whom no phone number is on record anywhere in
-the corpus. That the lookup is narrated as unmasking "the interloper" (singular,
-undifferentiated) is Dan's own framing at the moment he ran it, and is evidence
-of what he *believed* going in — plausibly that Tuquick and the July 2026 man
-were the same continuing relationship — not evidence that they *are* the same
-person.
+the corpus. Both men occupy the "who Annie left/was with" role six weeks
+apart in the same small town, and the same "cuck" framing (unemployment,
+sexual humiliation, escort history) appears in both the Tuquick End Fight
+material (June 1, 2026) and the unnamed man's July 26 messages sent from
+Annie's phone. That was suggestive on its own, not identifying — no phone
+number, photo, or third-party statement closed it independently the way the
+FOREWARN mobile number closed Tuquick=Coles.
 
-**If** Tuquick and the unnamed man are one person, two pages' incompatible
-accounts of the same claim resolve cleanly:
+**What closes it is Dan's own statement**, which this wiki treats as
+authoritative on facts about his own life that the message corpus cannot
+independently verify — the same standing given the 2026-07-13 Tuquick
+correction ("he is who Annie left Dan for") and the 2026-08-02
+twenty-four-hour-switch correction. The circumstantial case above is not
+superseded by that; it becomes corroboration, and it is worth keeping on the
+page because it explains *why* the merge is unsurprising rather than only
+*that* it happened.
+
+**The merge resolves two pages' incompatible accounts of the same claim:**
 
 | Page | Account of the broken finger |
 |---|---|
 | [[wiki/people/the-unnamed-man]] | "consistent across eight days and she never retracts them" — recorded as **uncorroborated but uncontested** |
 | [[wiki/people/tuquick-17248123683]] | "debunked in the same thread by Tuquick himself — *Her finger isn't broken*" — recorded as **contested in real time** |
 
-That would make it one claim, one man, denied by the accused on the record in
+**Resolution: one claim, one man**, denied by the accused on the record in
 the May 31 group chat, then re-asserted by Annie to Dan in the July 26 window
 as though undisputed — a specific, dated, falsifiable instance of the pattern
-[[wiki/people/annie-ulmer]] establishes generally. The same would apply to the
-rape allegation (2026-07-25); his July 26 accusation — "video proof how you
-fingered her for hours while she was unconscious" — against her own May 31
-23:54 statement, "I have recorded videos of me obviously passed out still
-being touched" (possibly one accusation laundered through two mouths); the Suz
+[[wiki/people/annie-ulmer]] establishes generally. The same reconciliation
+now applies to: the rape allegation (2026-07-25); his July 26 accusation —
+"video proof how you fingered her for hours while she was unconscious" —
+against her own May 31 23:54 statement, "I have recorded videos of me
+obviously passed out still being touched" (possibly one accusation laundered
+through two mouths, and now answerable — see [[#Open questions]]); the Suz
 telephone harassment (~2026-05-26) against the Suz call on the unnamed-man
-page; and the transcript exfiltration from Annie's phone.
+page; and the transcript exfiltration from Annie's phone. All of this material
+is folded into this page as the canonical entity for both prior identities.
 
-**None of that is adopted here.** The evidentiary basis is a role match
-(interloper, six weeks apart, same town) and a shared insult vocabulary
-("cuck," unemployment, escort history) — thin enough that this page keeps
-the two identities administratively separate until a phone number, a photo, a
-name from Annie, or some other independent identifier closes the gap the way
-the FOREWARN mobile number closed Tuquick=Coles. Until then, attributing the
-rape allegation or the finger claim to Coles by name would be exactly the kind
-of unearned merge `STYLE_GUIDE.md`'s contradiction discipline exists to
-prevent.
+## July 2026, folded in from the unnamed-man record
+
+This section is the substance of [[wiki/people/the-unnamed-man]], carried over
+now that the identity is confirmed. It was written from a single vantage —
+Annie's statements about him, and one direct exchange in which he wrote to Dan
+from her phone — and nothing in it is independently corroborated beyond what
+is noted inline.
+
+**He wrote to Dan from Annie's phone.** The first appearance is a message on
+her number at 00:25 on July 26: "She's a slut man lmfao." The exchange that
+follows the next morning runs about twenty minutes and is the only direct
+contact in the corpus. His register is short, contemptuous and aimed at Dan's
+specific vulnerabilities — unemployment ("Time to get a job buddy"), sexual
+humiliation ("The cuck never gives up," "Can't get anyone else"), and Annie's
+escort history ("Had her fuck old men for drugs"). He then makes the
+accusation that structures the following week: "I have video proof how you
+fingered her for hours while she was unconscious."
+
+**He telephoned [[wiki/people/suzanne-frank|Suz]].** This is the act with the
+longest consequences. Dan's assessment — "the call to my mom was enough of a
+red flag alone. Annie NOBODY would do that, it's literally crazy and noone did
+anything to this dude. Noone knew he existed" — is the closest the record
+comes to a characterological read, and it is the injury Annie eventually
+walked to the house on August 2 to apologise for.
+
+**He harassed Dan for hours on July 25–26**, in an exchange Annie was present
+for and, on Dan's account, endorsed in real time: "you literally told him you
+were choosing him in the middle of it all happening."
+
+**He took the transcript.** Dan published the full text log at
+`caakehorn.github.io/leviathan/transcript.html` and sent it to Annie; he read
+it from her phone and forwarded it to himself — the only documented instance
+of the forensic apparatus being turned against its author, and what caused the
+publication to be retracted five minutes after Annie asked. See
+[[wiki/mind/concepts/forensic-method]].
+
+**What Annie says he did to her**, recorded as her claims: that he broke her
+finger two months before July 2026 — now resolved above, denied by him on the
+record in the May 31 group chat; that he raped her on July 25 after reading
+her texts with Dan; that he came to her uncle's bedroom window the night of
+July 25–26, woke her, poured water over her, threw her belongings around the
+room, and filmed himself in her face asking "did I rape you"; that he took her
+phone and ran, which is the call the police actually attended; that he later
+"admitted he did what he did." She had made no report and taken no rape kit as
+of August 2. Annie's parents, on her account, know what he has done and do not
+want her near him; she nonetheless spoke to him again on July 27 — the day
+after promising Dan she never would — with her explanation each time being
+contact initiated by him: "HE CONTACTED ME," "He came as I was sleeping / And
+knocked on my bedroom window."
+
+This material remains as uncorroborated as it was on the unnamed-man page —
+the identity confirmation resolves *who he is*, not the truth of contested
+claims about *what he did*, several of which (the rape allegation, the finger
+claim before this pass) have no docket support in the FOREWARN record above.
 
 ## The refusal, and its termination
 
 [[wiki/people/the-unnamed-man]] builds its central structural finding on Dan's
-deliberate refusal to learn a name — the corpus's only documented off-switch
+deliberate refusal to learn this name — the corpus's only documented off-switch
 on the forensic engine, with the criterion being *emotional consequence* rather
 than difficulty or relevance. The lookup that terminated it, per the capture's
-own frontmatter, targeted the Tuquick handle specifically — so what closed is
-Tuquick's identity, with the unnamed-man question left open above. The
-following timeline is stated as Dan's own experience of ending a refusal he
-had held for thirteen days; it does not depend on the two men being one
-person.
+own frontmatter, targeted the Tuquick handle specifically — and since the
+identity is now confirmed to be the same man, the refusal is fully terminated,
+not partially: the interloper Dan had declared he would not identify is the
+interloper the FOREWARN lookup identified.
 
 ```
 DECLARED     2026-07-26 18:09   "I don't even want to know their fucking name
@@ -273,13 +335,12 @@ the test of whether the forecast was correct.
 
 **Downstream consequence:** [[wiki/mind/concepts/forensic-method]] carried a
 `contradicts` edge asserting that the method's claim to generality *fails by
-choice* at this node. **That exception is partially closed** — for the Tuquick
-identity specifically, since the unnamed-man question above stays open and the
-`contradicts` edge is left standing rather than removed. What is settled either
-way: the off-switch existed, was under deliberate control, was held for
-thirteen days under extreme provocation, and **failed under a specific load**.
-The load is not yet identified. Working hypothesis: the threat model shifted
-from *historical antagonist* to *believed present tonight*.
+choice* at this node. **That exception is now closed.** What replaces it is
+narrower and more interesting: the off-switch existed, was under deliberate
+control, was held for thirteen days under extreme provocation, and **failed
+under a specific load**. The load is not yet identified. Working hypothesis:
+the threat model shifted from *historical antagonist* to *believed present
+tonight*.
 
 ## Target G — still unresolved
 
@@ -292,13 +353,14 @@ See [[wiki/people/annie-ulmer]] §Target G.
 
 ## Open questions
 
-1. **Is Coles = Target G?** No marital data returned. Open.
+1. **Is Coles = Target G?** No marital data returned. Open — unaffected by the
+   unnamed-man confirmation, which was a separate question.
 2. **Why two addresses, 09/2024 – 07/2026?** Uniontown and Connellsville overlap
    twenty-two months. Cohabitation, family property, or something else.
    Unexplained.
 3. **Does the "video proof / unconscious" accusation originate with him
-   (2026-07-26, from her phone) or with her (2026-05-31, 23:54)?** The merge
-   makes this answerable from logs already held.
+   (2026-07-26, from her phone) or with her (2026-05-31, 23:54)?** Now
+   answerable from logs already held — not yet run.
 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis
    above against the 2026-08-02 → 08-08 logs.
 5. **Independent docket verification** via PA UJS. Not yet run.
