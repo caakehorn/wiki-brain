@@ -6,10 +6,23 @@ date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2019-03-12
 date_range_end: 2019-12-24
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan/history.txt", "raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md"]
-related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/people/eric-jester", "wiki/self/message-corpora/master-message-dump", "wiki/mind/psychosexual/arrangement-history"]
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan/history.txt", "raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md", "raw/self/dox-scan/all_imessages_complete_dump.txt"]
+date_modified: 2026-08-09
 tags: [relationships, digital-footprint]
 knowledge: mixed
+connections:
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Annie is a direct participant in the booking, present for the hour Trinity was paid to spend with the couple."
+  - page: wiki/timeline/events/shelbie-annie-threesome-april-2019
+    type: co-occurs
+    claim: "Both are 2019 paid/arranged third-party encounters inside the same relationship window, documented at different levels of financial specificity."
+  - page: wiki/people/eric-jester
+    type: evidences
+    claim: "Dan's April 8, 2019 message to Eric — 'paid $1500 last week to have pornstar trinity st clair come hang out with my girlfriend and i for exactly one hour' — independently corroborates the booking cost and dates it to roughly the last week of March 2019, a specific figure not preserved in Trinity's own thread."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: instance-of
+    claim: "The clearest paid-professional instance on the arrangement timeline, with a dollar figure attached."
 infobox:
   name: "Trinity St Clair"
   relationship_to_dan: unknown
@@ -69,6 +82,3 @@ casual text rather than a real second rate.
 
 The December 2019 booking inquiry's outcome is undocumented. No literal OnlyFans DM export or email correspondence with Trinity herself survives in the raw corpus — the "vouch for us" reference is known only from Dan's own retelling in a text to Annie, not from the email itself. Whether the browser-history download of a Trinity St. Clair clip (undated, found in a late-night viewing session alongside dozens of other performers' content) predates or postdates the March 2019 booking is not established — it may represent prior familiarity with her work that led to the booking, or unrelated later viewing.
 
-## Related
-
-[[wiki/people/annie-ulmer]] · [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · [[wiki/people/eric-jester]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/psychosexual/arrangement-history]]

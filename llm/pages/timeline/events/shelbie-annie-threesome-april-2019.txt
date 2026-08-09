@@ -6,17 +6,32 @@ date_created: 2026-07-14
 date_modified: 2026-07-14
 date_range_start: 2019-04-01
 date_range_end: 2019-04-30
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/annie-ulmer", "wiki/people/shelbie-breakiron", "wiki/timeline/periods/2018-deep-cycle"]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/dox-scan/Shelbie Breakiron on 2019-04-17 at 16.08.35.rtf"
+date_modified: 2026-08-09
 tags: [relationships]
 knowledge: earned
+connections:
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Annie is a direct participant, not a bystander — the threesome is the clearest instance in the record of the couple's arrangement running with a woman rather than the more heavily documented male third party."
+  - page: wiki/people/shelbie-breakiron
+    type: evidences
+    claim: "This event is the reason Shelbie enters the corpus at all as more than a fling — a standalone April 17, 2019 message capture, twelve days after this event's dated month, independently confirms the two were already in dated contact by mid-April, tightening the window around Dan's own April dating rather than settling it outright."
+  - page: wiki/timeline/periods/2018-deep-cycle
+    type: co-occurs
+    claim: "Falls inside the same window as the deep-cycle period's other documented non-monogamy instances."
+  - page: wiki/people/trinity-st-clair
+    type: co-occurs
+    claim: "Both are 2019 paid/arranged third-party encounters inside the same relationship window, documented at different levels of financial specificity."
 ---
 
 # Shelbie/Annie Threesome (April 2019)
 
 A three-way sexual encounter between Dan, [[wiki/people/annie-ulmer|Annie]], and [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], dated April 2019 per Dan's own account. It is the clearest instance in the record of the couple's quasi-non-monogamous arrangement running with a woman rather than the more heavily documented male-third-party (Tom-type) encounters, and it predates the 2018-onward "Dan-architected" framework's formal description in the later dossiers — placing an early, concrete data point on when that arrangement actually started operating in practice.
 
-> **Sourcing note:** this event is recorded on Dan's direct account. The Shelbie message thread in `MASTER_MESSAGES_DB_DUMP.csv` only begins 2019-05-15, so it cannot independently confirm an April date; the corpus's closest corroborating material is a June 8, 2019 exchange in which Shelbie, Dan, and Annie coordinate a repeat or adjacent hangout in the same configuration (Shelbie: "U ad Annie duh," "We can hang for sure I'm fed not fucking her today," referencing Annie's period as the reason that night wouldn't be sexual) — see [[wiki/people/shelbie-breakiron]] for the full thread. Whether April and June 8 are two separate occasions or the same event misdated is unresolved.
+> **Sourcing note:** this event is recorded on Dan's direct account. The Shelbie message thread in `MASTER_MESSAGES_DB_DUMP.csv` only begins 2019-05-15, so it cannot independently confirm an April date; the corpus's closest corroborating material is a June 8, 2019 exchange in which Shelbie, Dan, and Annie coordinate a repeat or adjacent hangout in the same configuration (Shelbie: "U ad Annie duh," "We can hang for sure I'm fed not fucking her today," referencing Annie's period as the reason that night wouldn't be sexual) — see [[wiki/people/shelbie-breakiron]] for the full thread. A separate, standalone message capture dated **April 17, 2019** — twelve days after this event's stated month, and a full month before the CSV thread starts — confirms Dan and Shelbie were already in familiar, flirtatious contact by mid-April, narrowing but not closing the gap on whether this event happened as told. Whether April and June 8 are two separate occasions or the same event misdated is unresolved.
 
 ## What happened
 
@@ -83,8 +98,4 @@ Shelbie's own iMessage number doesn't start texting until two weeks later.
 
 ## Gaps
 
-Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown; Shelbie's thread ends in a hostile breakup on July 16, 2019 with no further contact recorded.
-
-## Related
-
-[[wiki/people/annie-ulmer]] · [[wiki/people/shelbie-breakiron]] · [[wiki/timeline/periods/2018-deep-cycle]]
+Exact date within April 2019 is not established, though the April 17 capture (see sourcing note) narrows the plausible window. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown; Shelbie's thread ends in a hostile breakup on July 16, 2019 with no further contact recorded.

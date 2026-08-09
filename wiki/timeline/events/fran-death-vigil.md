@@ -6,7 +6,7 @@ status: stable
 importance: high
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
@@ -69,6 +69,9 @@ connections:
   - page: wiki/people/fred-adams
     type: caused-by
     claim: "The 24-hour rotation existed because the estate's trustee ordered it, which is what made the family's exclusion of Dan and Annie a formal act rather than a social slight."
+  - page: wiki/people/eric-jester
+    type: evidenced-by
+    claim: "A second telling of the bedside-test moment, given to Eric a day or two after the Lucie Dobbin account and diverging from it — falling asleep rather than staying awake, a blink rather than a smile, a recovery rather than the death itself — is not corroboration so much as a second, honestly non-matching data point on the same act, along with a new fact neither other source carries: the caregiving was paid, $15/hour, and Dan names the inheritance as his reason for leaving Pennsylvania the same week she died."
 ---
 
 # The Fran Vigil (March–April 2018)
@@ -234,6 +237,29 @@ the moment "was so powerful and so 'human' that i will need to process
 just how differently the world might be than i had originally
 thought" — the record's most direct statement of genuine uncertainty
 anywhere in his corpus, offered nowhere else with this candor.
+
+A second telling exists, given to [[wiki/people/eric-jester|Eric
+Jester]] a day or two after the Lucie message, and it does not match in
+every particular. To Eric, Dan describes falling asleep at the bedside
+rather than staying awake for the test; the sign that follows is a
+blink, not a smile, and it comes with his girlfriend waking *him* rather
+than the two of them witnessing it together; and the moment reads as a
+recovery of presence — "she was like there again... she looked the same
+even" — rather than the death itself, which by his own account to Eric
+followed a four-day hospice stretch rather than arriving within minutes
+of the sign. Both tellings are Dan's own words, within 48 hours of each
+other, to two different friends, and both center the same structural
+act: a silent, deliberately skeptical test of an idea he says he doesn't
+believe in, validated by a startled witness. They are recorded here side
+by side rather than resolved into one version — memory and retelling
+under acute grief and exhaustion are the more parsimonious explanation
+than either account being invented, but nothing in the corpus settles
+which detail belongs to which night, or whether they describe the same
+moment at all. The Eric telling adds one fact neither the Lucie message
+nor any other source carries: the caregiving arrangement was paid, "$15
+an hour," and Dan names the inheritance money as his reason for wanting
+to leave Pennsylvania in the same breath he closes the story — dating
+that intention to the week of her death, not a later decision.
 
 A memorial celebration followed at the Uniontown Country Club, May 6,
 2018, 12–4 PM — deliberately framed, per Dan's invitation to Lucie, as

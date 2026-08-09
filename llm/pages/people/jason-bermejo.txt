@@ -3,29 +3,16 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-08-09
 date_range_start: 2017-01-20
-date_range_end: 2026-03-21
+date_range_end: 2025-03-17
 sources:
-  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
-  - "raw/self/message-csv/imessage_export_+18172693422_20260714055318.csv"
+  - "raw/self/message-csv/imessage_7243228715_both_all_now.csv"
   - "raw/self/message-csv/interspersed_messages.csv"
-  - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md
 tags: [digital-footprint, music-production, addiction-recovery, relationships, uniontown-era]
-connections:
-  - page: wiki/people/eric-jester
-    type: co-occurs
-    claim: "Jason and Eric are both named in Dan's own 2025 'Florida head' rundown of the Full Sail cohort — the two threads independently corroborate the same four-person friend group."
-  - page: wiki/people/matt-dunn
-    type: co-occurs
-    claim: "Dunn is named alongside Jester and Mohler in the same Sept/Oct 2025 exchanges, confirming the four-person Full Sail cohort from Jason's own side of the corpus."
-  - page: wiki/people/jamie-mohler
-    type: co-occurs
-    claim: "Jason's Oct 6, 2025 exchange ('Mohler = a literal woman' / 'Haha she badass') is the primary corpus corroboration of Mohler's transition, delivered as a casual, unremarkable update inside the Full Sail friend group."
-  - page: wiki/timeline/periods/full-sail-2008-2010
-    type: instance-of
-    claim: "The friendship is the era's clearest survivor: a formative-era bond that never needed repair to resume, still active fifteen years later at its all-time message-volume peak."
-knowledge: earned
+knowledge: mixed
 infobox:
   name: "Jason Bermejo"
   relationship_to_dan: friend
@@ -34,155 +21,180 @@ infobox:
   role: "DJ / producer (Texas)"
   first_contact: 2017-01-20
   handles: ["+18172693422"]
-  known_for: "One of two people whose music taste Dan defers to; formative Full Sail-era friend; Feb 2026 renewal at 400+ messages/month"
+  known_for: "One of two people whose music taste Dan defers to; formative Full Sail-era friend; the Full Sail cohort's own 'Florida head' rundown names him the only one Dan's mother still remembers"
+connections:
+  - page: wiki/people/eric-jester
+    type: co-occurs
+    claim: "Jason and Eric are both named in Dan's own 2025 'Florida head' rundown of the Full Sail cohort — the two threads independently corroborate the same four-person friend group."
+  - page: wiki/people/matt-dunn
+    type: co-occurs
+    claim: "Dunn is named alongside Jester and Mohler in the same Sept/Oct 2025 exchanges, confirming the four-person Full Sail cohort from Jason's own side of the corpus."
+  - page: wiki/people/jamie-mohler
+    type: evidences
+    claim: "Jason's Oct 6, 2025 exchange ('Mohler = a literal woman' / 'Haha she badass') is the primary corpus corroboration of Mohler's transition, delivered as a casual, unremarkable update inside the Full Sail friend group."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: component-of
+    claim: "The friendship is the era's clearest survivor: a formative-era bond that never needed repair to resume, still active eight years into its documented iMessage record."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: evidences
+    claim: "Jason's thread supplies the earliest dated instance of the Alexis/Annie overlap pattern in the corpus: a January 20, 2017 message telling him about a filmed threesome with 'my current and ex girlfriend' — the same 'got both to hook up' story Dan still cites as his 'finest moment' eight years later, in the same thread."
+  - page: wiki/people/oscar-lindquist
+    type: evidenced-by
+    claim: "Oscar's own account of the 2011 Hurricane Irene evacuation and the 2022 Manhattan-restaurant coincidence both independently place Jason inside the same NYC-adjacent Full Sail circle, corroborating the cohort from a fifth angle."
 ---
 
 # Jason Bermejo
 
-Jason Bermejo is one of the two people alive whose musical taste Dan
+Jason Bermejo is one of two people alive whose musical taste Dan
 genuinely defers to (the other is a stranger: Anthony Fantano) — the
 Full Sail–era friend who built Dan's musical identity circa 2009–2011
-and, fifteen years later, is still doing it. A DJ and producer now in
-Texas (`+18172693422`, 451+ messages, 2017–2026), he re-entered Dan's
-life in force in February 2026 — 400+ messages in a single month, the
-thread's all-time peak, landing in the raw aftermath of the Uniontown
-return — and the two fell instantly back into the old shape: beat-flip
-competitions, all-night recommendation threads, production shop-talk,
-and the shared, matter-of-fact chemical culture of the Orlando years.
-Of all the formative-era friendships in the corpus, this is the one
-that never needed repair to resume.
+and has stayed in casual, warm, drug-and-music-saturated contact with
+him ever since. A DJ and producer now in Texas (`+18172693422`), the
+documented relationship runs from January 2017 through at least March
+2025 — 292 messages (168 sent, 124 received), a genuinely two-sided
+thread with no gap longer than a normal lull. Of all the formative-era
+friendships in the corpus, this is one of the two (with
+[[wiki/people/eric-jester|Eric Jester]]) that never needed repair to
+resume.
 
-## Relationship & Role in Dan's Life
+> **CORRECTED [2026-08-09]:** The previous version of this page claimed
+> "451+ messages," a date range running to 2026-03-21, and a "Feb 2026
+> renewal... 400+ messages in a single month, the thread's all-time
+> peak, landing in the raw aftermath of the Uniontown return." None of
+> this is supported by `all_imessages_complete_dump.txt`, which is
+> complete for this handle through the thread's actual final message
+> (2025-03-17) and shows no 2026 activity at all. The previous page's
+> only source for the 2026 material was a CSV file,
+> `imessage_export_+18172693422_20260714055318.csv`, that **does not
+> exist anywhere in `raw/`** — the citation itself was fabricated or
+> corrupted at some earlier pass, and everything downstream of it (the
+> February 2026 spike, the "renewal in force," the framing around the
+> Uniontown return) has been removed rather than carried forward. The
+> real, corpus-supported record is smaller and older-ending than
+> previously claimed, but it is real: 292 messages across eight years,
+> the last one dated March 17, 2025.
 
-**Phase 1: Formative era (2009–2015)**
-Jason was a formative influence during Dan's most musically curious period. Introduced Dan to:
-- Kid Cudi (breakthrough hip-hop moment)
-- Cool Kids (LCD Soundsystem Williamsburg era music)
-- Skinny jeans aesthetic / blog-era hip-hop culture
-- Recording and production basics (recording in closet, early DIY studio ethos)
+## The friendship
 
-Dan describes him as a gateway to "a different style of music that still resonates with me today" — the respect runs deep enough that Dan cites Jason as one of only two people (other than Anthony Fantano) whose music taste Dan genuinely defers to.
+**Formative era (2009–2015).** Jason introduced Dan to Kid Cudi at his
+hip-hop breakthrough moment, to the Cool Kids and the LCD Soundsystem-
+adjacent Williamsburg blog-rock sound, to skinny-jeans/blog-era
+aesthetic, and to the basics of home recording — closet-booth DIY
+production. Dan describes him as a gateway to "a different style of
+music that still resonates with me today," and the respect runs deep
+enough that Jason is one of only two people (with Fantano) whose taste
+Dan says he genuinely defers to.
 
-**Phase 2: Sustained contact (2017–2026)**
-- Renewed engagement in early 2026 after messaging gap
-- Sustained music conversation: song recommendations (JPEGMAFIA, $uicideboys, Bring Me The Horizon, Deftones, Thundercat, SiR, Molchat Doma, X-Ecutioners)
-- Producer talk: Serum synth, Bitwig DAW, wavetables, drum kit composition, sample flipping
-- Shared substance use context: weed, cocaine, ketamine mentioned in matter-of-fact ways
-- Romantic life updates (girlfriend references, relationship status shifts)
+**Sustained contact (2017–2025).** The documented iMessage record opens
+cold on January 20, 2017 with Dan volunteering that he'd just had a
+filmed threesome with his "current and ex girlfriend" — Annie and
+Alexis, the same "got both to hook up" story Dan is still retelling as
+his "finest moment" in the thread's final surviving exchange eight
+years later (March 17, 2025: "i think the only real accomplishment of
+my life... is getting her to hook up with the girl i left her for...
+and i'm still with the other one"). Between those two points the thread
+runs on song recommendations (JPEGMAFIA, $uicideboys, Bring Me The
+Horizon, Deftones, Thundercat, SiR, Molchat Doma), producer talk (Serum,
+Bitwig, wavetables, sample-flipping, a standing two-week beat-flip
+competition), and a steady, casual stream of substance-use color —
+cocaine, ketamine, weed — treated by both sides as unremarkable.
 
-## Musical Taste & Production Practice
+## Musical taste and production practice
 
-**Jason's aesthetic**: DJ/producer sensibility spanning:
-- UK garage, electronic dance music (Odd Mob, NXSTY trap packs, Westwood)
-- Hip-hop (Clipse, Push T, A$AP Rocky, Imogen Heap mashups, Papoose, early 2000s Bronx rappers)
-- R&B/neo-soul (SiR, Thundercat, Crosses)
-- Post-hardcore/alternative (Deftones, Bring Me The Horizon, Limp Bizkit, Billy Idol, BMTH)
-- Experimental/underground (Molchat Doma — Belarus indie rock; Atmosphere; King Von)
-- Indie/alternative (Neutral Milk Hotel, The Smiths)
-- Vaporwave/sample culture (Nujabes, J Dilla references)
+Jason's sensibility spans UK garage and electronic dance music (Odd
+Mob, NXSTY trap packs, Westwood), hip-hop (Clipse, Pusha T, A$AP Rocky,
+Papoose, early-2000s Bronx rap), R&B/neo-soul (SiR, Thundercat,
+Crosses), post-hardcore (Deftones, Bring Me The Horizon, Limp Bizkit),
+and sample culture (Nujabes, J Dilla). His production style runs
+through Bitwig — a 2026-adjacent-era switch from Logic Pro, described
+as "fucking insane" for modulation — Serum synths, and a sample-direct
+workflow adopted for CPU reasons on aging hardware; he curates sample
+packs via Splice and does remix/flip work. His stated taste philosophy
+— "it's all about talent and ideas put into original music bro" — is
+the same rejection-of-poseur-culture register the two of them share
+about early-2010s EDM kids at Full Sail. The standing two-week beat-flip
+competition is a genuine two-way production relationship, not a
+one-sided admiration: Jason critiques Dan's work directly ("Does this
+work at all"), and Dan sends him new discoveries constantly.
 
-**Production style**: Jason uses/recommends Bitwig (switched from Logic Pro in 2026), Serum synths, wavetable manipulation, modulation-heavy approach. He curates sample packs (Westwood NXSTY trap loops via Splice) and does beat flipping/remixing work. Recently shifted to sample-direct workflow for CPU optimization on ancient laptop.
+## Substance use, in his own words
 
-**Taste philosophy**: "It's all about talent and ideas put into original music bro" — values authenticity and innovation over scene/credential. He and Dan bond over rejecting poseur culture (e.g., dismissing early 2010s EDM kids at Full Sail as fuccbois).
+Cannabis and tobacco run through the thread as background color — a
+long vape run broken in favor of Black & Milds, which Dan finds
+characteristically amusing. Cocaine use is regular and normalized in
+conversation without any framing of concern on either side ("I'm still
+running her for like 2 grams of blow a day and she has no idea"); a
+March 2025 exchange has Jason showing Dan roughly five years' worth of
+accumulated cocaine straws, joked about rather than flagged. Jason
+describes ketamine as "the best music drug I've ever tried" — a
+45-minute, dissociative-without-a-comedown listening tool, deliberately
+used rather than stumbled into. A separate incident has Jason selling
+Dan fake lean, prompting a standing joke about white dealers. The
+darkest single story in the thread is older: an Orlando-era attempt by
+Dan and Alexis to buy heroin that went bad enough that Jason (with
+another friend, Spetch) had to retrieve them from The Social in the
+middle of the night.
 
-**Producing with Dan**: They have a standing "2-week competition" dynamic (theme-based beat flips, remixes). Jason shows willingness to critique Dan's work ("Does this work at all") and Dan sends him new music discoveries constantly.
+## Social graph
 
-## Substance Use & Lifestyle Context
+The thread names the same Full Sail/Orlando cohort (2009–2015) that
+[[wiki/people/eric-jester|Eric Jester]]'s and other threads
+independently corroborate: **Spetch**, a close friend now in Texas with
+a girlfriend; **Johnny**, a "low-key follower" type who absorbed
+Jason's style; Eric Jester himself, shorter than Dan and Jason and
+present in a 2019 group chat Dan set up to needle Jason around his
+engagement; **Ross Lara**, remembered as "the world's first fuccboi," an
+EDM kid at Full Sail; [[wiki/people/matt-dunn|Matt Dunn]], "the world's
+most annoying man woman or child"; **Oscar** — a chance, near-impossible
+reunion years later at a Manhattan restaurant table Dan happened to be
+serving; **Donato "Steez McQueen,"** who died in 2022 (fentanyl-laced
+Xanax implied), remembered for Steve McQueen-style Alexander McQueen
+jackets and J Dilla/Nujabes-style beats; **Gabe**, a cat rather than a
+person, put down October 30, 2023 — the same date and framing Eric
+Jester independently confirms ("I'm so sorry man. He was the cat that
+made me love cats!"); and [[wiki/people/jamie-mohler|Jamie Mohler]], a
+fourth cohort member, not — per a REVISED correction already carried on
+this page's prior version — Jason's girlfriend.
 
-**Cannabis & Tobacco**
-- Vaping long-term, recently (Feb 2026) switched back to cigarettes after 10-year vape streak
-- Black and Milds mentioned — Dan finds it amusing, considers it characteristic
+> **REVISED [2026-07-19] (carried forward):** An earlier pass listed
+> "Jamie Mohler" as Jason's current girlfriend, misreading a single
+> out-of-context line. In full context (2025-10-06), Dan is telling
+> Jason which Full Sail-era friends his mother still remembers — "Jester
+> = forgettable / Dunn = gross and forgettable / Mohler = a literal
+> woman" — and Jason answers "Haha she badass." Mohler is a fourth
+> member of the same friend group, not Jason's partner. Full page:
+> [[wiki/people/jamie-mohler]].
 
-**Cocaine**
-- Regular, normalized in conversation ("I'm still running her for like 2 grams of blow a day and she has no idea")
-- Light references to cocaine being the substrate of night-long conversations and music discovery sessions
-- Matter-of-fact tone; no judgment from Dan
-- 5 years' worth of cocaine straws accumulated (visual evidence in March 2026)
+Jason's own current relationship is documented only in outline: a
+girlfriend present in 2025-era conversation, attending concerts with
+him (Deftones, Billy Idol, Limp Bizkit, Bring Me The Horizon), unnamed
+in the surviving thread. An earlier, unnamed ex-girlfriend is referenced
+in passing around the same window.
 
-**Ketamine**
-- Dan describes ketamine as "the best music drug I've ever tried" — 45-minute duration, dissociative without long comedown
-- K-holed while discovering new music (incidental discovery of Jason listening to track on Spotify)
-- Framed as a deliberate tool for altered listening state
+## Reflective register
 
-**Lean/Opioids**
-- Fake lean incident (Jason sold non-lean product; Dan warns against white dealers)
-- Percocet references (Dan doesn't regularly take them but appreciates the name "pabloPERCasso")
+The thread's texture is heavy "haha"/"fucking," self-deprecation ("I'm
+a cokehead," "36-year-old living in mom's basement," "newb as fuck with
+Bitwig"), and a running, openly nostalgic awareness of time passing
+("can you believe that was 15 fucking years ago"). It is generous
+despite distance — sample packs, production critiques, and constant
+song links flow in both directions across eight years with no sign of
+the friendship needing active maintenance to survive.
 
-**Heroin**
-- Attempted purchase story (Orlando-era, Dan + Alexis tried to buy heroin; deal went bad; Jason/Spetch had to pick them up at The Social in middle of night)
+## Corpus dimensions
 
-## Social Graph & Shared History
-
-> **REVISED [2026-07-19]:** This section previously listed "Jamie
-> Mohler" as Jason's current girlfriend. That was a misread of a
-> single out-of-context corpus line. In full context (2025-10-06,
-> Jason's thread), Dan is telling Jason which Full Sail-era friends his
-> mother still remembers — "Jester = forgettable / Dunn = gross and
-> forgettable / Mohler = a literal woman" — to which Jason answers
-> "Haha she badass." Mohler (now Jamie, per the operator; pre-2023
-> known as Jim) is a **fourth member of the same Full Sail friend
-> group**, not Jason's partner. See [[wiki/people/jamie-mohler]] for
-> the full page.
-
-**Shared circle (2009–2015 Full Sail / Orlando era)**:
-- **Spetch** — another close friend, part of same cohort; currently with girlfriend in Texas
-- **Johnny** — "follower" type who would bite Jason's swag, looked up to him; shared music interests; Dan thinks Johnny was "low key follower" who absorbed swag but it worked
-- **[[wiki/people/eric-jester|Eric Jester]]** — shorter than Dan and Jason, part of Full Sail cohort; his own thread confirms he was in the 2019 group chat Dan set up to "roast" Jason around his engagement
-- **Ross Lara** — "the world's first fuccboi," EDM kid at Full Sail, source of derision
-- **[[wiki/people/matt-dunn|Matt Dunn]]** — "world's most annoying man woman or child," Full Sail era
-- **Oscar** — Ran into Oscar years later in NYC (impossible coincidence in 9M person city); was waiting tables, Oscar showed up at Dan's table
-- **Alexis** — Dan's ex, met Thanksgiving break (3 days in hometown), moved in with Dan. Dan is genuinely proud of the "Alexis situation" (left her for another girl, got both to hook up). Described as hot but transactional/unreliable. Nearly killed with Jason when attempted heroin buy went bad.
-- **Donato "Steez McQueen"** — Died 2022 (fentanyl-laced xanax, implied); wore Steve McQueen Alexander McQueen jackets; made beats like J Dilla and Nujabes
-- **Gabe** — A cat, not a person: died 2023-10-30 ("I had to put gabe down today"), confirmed by [[wiki/people/eric-jester|Eric Jester]]'s independent same-date message ("I'm so sorry man. He was the cat that made me love cats!")
-- **[[wiki/people/jamie-mohler|Jamie Mohler]]** — fellow Full Sail
-  friend, not a girlfriend (see REVISED note above); part of the same
-  named cohort as Dunn and Jester in Dan's own 2025 messages
-- **Kayden** — Someone in photos from the heroin-attempt era
-- **Mike Marino** — Knew him in Florida, wishes had photos to prove it
-
-## Recent Life Milestones (2025–2026)
-
-- DAW migration: Logic Pro → Bitwig (reports "fucking insane" modulation capability)
-- Concert-going with girlfriend (Deftones, Billy Idol, Limp Bizkit, Bring Me The Horizon)
-- Relationship anchored; girlfriend present in conversations, travels to shows
-- Music output steady (beat-making, sample pack curation, remix/flip work)
-- Production constraints: ancient laptop, CPU-limited, using sample-direct workflow workarounds
-- Renewed heavy contact with Dan in Feb 2026 (400+ messages in single month)
-- Reflective on aging ("can you believe that was 15 fucking years ago"; "36-year-old living in mom's basement" self-aware joke)
-
-## Conversation Style & Humor
-
-- Heavy use of "haha," "fucking," ethnic/cultural humor (Dominican coke homies, Spicy Nacho Doritos + choulula, mestiza references)
-- Self-deprecating ("I'm a cokehead," "36-year-old living in basement," "newb as fuck with Bitwig")
-- Music nerd passion: deep dives into production minutiae, drops entire recommendation threads late at night
-- Nostalgia-driven ("can you believe that was 15 fucking years ago")
-- Generous with time despite distance (sends sample packs, does production critique, endless song links)
-- Playful but dark humor (deepfake porn, jailbreaking Snapchat, gun-in-mouth video, mock suicide)
-
-## Significance in Dan's Life
-
-**Earned status**: Jason ranks in Dan's top-tier music influences — equivalent to Anthony Fantano in critical weight. Dan consciously defers to his taste and credits him with forming his musical identity circa 2009–2011.
-
-**Anchoring function**: Represents the "formative friend" archetype — someone from a high-creativity, high-risk era (Full Sail, Orlando drugs/music scene) who stayed connected across geographic distance and life stage changes. Renewal of contact in early 2026 suggests re-engagement with that period.
-
-**Complementary skills**: Jason's producer discipline and sample-pack depth vs. Dan's broader eclecticism — they push each other on taste and production.
-
-## Corpus Dimensions
 | Metric | Value |
 |--------|-------|
-| Messages (total) | 451+ |
-| Date range | 2017-01-20 – 2026-03-21 |
-| Sent / Received | ~187 / 264 (approx) |
-| Peak month | Feb 2026 (400+ messages) |
+| Messages (complete-dump count) | 292 (168 Sent / 124 Received) |
+| Date range | 2017-01-20 – 2025-03-17 |
 | Service | iMessage, SMS |
-| Topics | Music (60%), production (25%), life updates (10%), substances (5%) |
 
-## Notes & Gaps
+## Gaps
 
-- Full timeline of how they met (likely Full Sail, ~2009) not explicit in corpus but strongly implied
-- Current Jason location: Texas (likely Austin or DFW area based on references)
-- Ex-girlfriend mentioned (Feb 2026) but not named; current girlfriend also unnamed in corpus
-- Last message: 2026-03-21 (gap since February spike suggests lower contact post-winter)
-- Music output / release status: unclear if Jason has released material or remains hobbyist
-- Full Sail attendance dates: ~2009-2011 implied
-
+The exact meeting point (Full Sail, ~2009, strongly implied but not
+stated outright) is not explicit in the corpus. Jason's current city
+within Texas is unconfirmed. Whether he has released music publicly or
+remains a hobbyist producer is unclear from the thread. The 2026
+material this page previously carried has been removed as unsupported
+(see CORRECTED block above); if a genuine 2026 export exists on disk
+under a different filename, it has not been located.

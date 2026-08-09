@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-09
-439 pages, ~677,054 tokens.
+439 pages, ~682,969 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -12790,6 +12790,18 @@ sources:
   - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
 tags: [relationships, digital-footprint]
 connections:
+  - page: wiki/people/shelbie-breakiron
+    type: instantiates
+    claim: "An explicit financial-for-attention/access dynamic ('sugar dad,' recurring cash transfers, 'baby needs spoiled') layered onto a relationship Dan otherwise describes in affectionate terms — the paid-professional-adjacent baseline instance the Jenn Lynn solicitation pattern is measured against."
+  - page: wiki/people/jason-bermejo
+    type: evidenced-by
+    claim: "Jason's thread supplies the earliest dated instance of the Alexis/Annie overlap in the corpus — a January 20, 2017 message about a filmed threesome with 'my current and ex girlfriend' — the same story Dan is still calling his 'finest moment' in the same thread eight years later."
+  - page: wiki/people/kya-hansen
+    type: instantiates
+    claim: "An ongoing, active interest in the commercial-sexual creator economy — subreddit moderation, referrals into the circle — that runs in parallel to, not just downstream of, the relationship arrangement history."
+  - page: wiki/people/trinity-st-clair
+    type: instantiates
+    claim: "The clearest paid-professional instance on the arrangement timeline, with a dollar figure attached."
   - page: wiki/people/lauryn-ashly
     type: co-occurs
     claim: "The September 2020 solicitation to Lauryn — apologetic, self-conscious, and simply declined — is a rare documented instance of the arrangement being pitched outside the established circle, showing the pattern was not universally successful."
@@ -20634,8 +20646,6 @@ related:
   - wiki/mind/psychosexual/arrangement-history
   - wiki/people/tuquick-17248123683
   - wiki/work/au-zaatar
-  - wiki/people/shelbie-breakiron
-  - wiki/people/trinity-st-clair
   - wiki/mind/concepts/contact-gini
   - wiki/mind/concepts/forensic-method
   - wiki/mind/concepts/dans-law
@@ -20644,6 +20654,15 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/people/shelbie-breakiron
+    type: co-occurs
+    claim: "Annie is present throughout the Shelbie relationship, not concealed — the two women knew about each other, joked about the arrangement, and coordinated at least one three-way visit directly."
+  - page: wiki/timeline/events/shelbie-annie-threesome-april-2019
+    type: co-occurs
+    claim: "Annie is a direct participant, not a bystander — the clearest instance in the record of the arrangement running with a woman rather than the more heavily documented male third party."
+  - page: wiki/people/trinity-st-clair
+    type: co-occurs
+    claim: "Annie is present for the paid hour Trinity was booked for, the arrangement's clearest paid-professional instance."
   - page: wiki/people/alexis-armel
     type: follows
     claim: "Annie was Alexis's coworker before she was Dan's partner, so the November 2015 replacement was not merely fast but internal — it came out of the displaced partner's own workplace, which is why the social fallout was immediate and public."
@@ -25114,13 +25133,15 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-19
-date_range_start: 2017-05-08
-date_range_end: 2025-08-15
+date_modified: 2026-08-09
+date_range_start: 2009-01-28
+date_range_end: 2025-04-22
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/message-csv/interspersed_messages.csv"
-tags: [relationships, uniontown-era]
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - "raw/self/facebook/facebook-ihatedanfrank/facebook-ihatedanfrank/messages/inbox/ericjester_ym0e6e-fxg/message_1.html"
+tags: [relationships, uniontown-era, grief]
 knowledge: mixed
 infobox:
   name: "Eric Jester"
@@ -25128,9 +25149,9 @@ infobox:
   location: remote
   relationship_to_dan: friend
   role: "Film/TV industry crew"
-  first_contact: 2017-05-08
+  first_contact: 2009-01-28
   handles: ["+14137703708"]
-  known_for: "Full Sail film-school friend; decade-spanning check-ins that resume exactly where they left off; independent corroboration of the Trinity St. Clair booking and Fran's death"
+  known_for: "Full Sail friend since 2009; the corpus's most detailed surviving first-person account of Fran's death, told to him in real time; independent corroboration of the Trinity St. Clair booking, and likely dating evidence for the Franki Fireworks Day"
 connections:
   - page: wiki/people/jason-bermejo
     type: co-occurs
@@ -25142,40 +25163,237 @@ connections:
     type: evidenced-by
     claim: "Dan's April 8, 2019 message to Eric ('paid $1500 last week to have pornstar trinity st clair come hang out with my girlfriend and i') independently corroborates the booking cost and dates it to late March 2019, a figure not preserved in Trinity's own thread."
   - page: wiki/timeline/events/fran-death-vigil
-    type: evidenced-by
-    claim: "Eric's April 2018 condolence, drawing a parallel to his own grandfather's death, is an outside-the-family reaction to Fran's passing that corroborates the vigil's emotional weight beyond the household."
+    type: evidences
+    claim: "Eric's April 5–6, 2018 exchange is the corpus's most granular first-person account of the vigil's end from Dan himself, told within days of the death — the paid $15/hour caregiving arrangement, the deliberate 'give me a sign' test at her bedside, his girlfriend waking him the instant Fran blinked for the first time in a week, the whole thing caught on camera, and the inheritance money he names as his ticket out of Pennsylvania."
+  - page: wiki/timeline/events/franki-fireworks-day-2013
+    type: evidences
+    claim: "A July 5, 2013, 1:31 AM message — 'dude i got punched in the face by alexis today hahaha' — is the first primary-dated evidence located for an event that page's own Gaps section calls undated ('early July 2013' from a fireworks display alone); it narrows the window to the July 4–5 weekend and adds a detail, a physical altercation, absent from every other account of that day."
   - page: wiki/timeline/periods/full-sail-2008-2010
-    type: instance-of
-    claim: "The friendship is the era's clearest survivor: sparse but genuinely warm check-ins that resume exactly where they left off across nearly a decade, with no repair ever needed."
+    type: component-of
+    claim: "The friendship is the era's clearest survivor: it predates Full Sail's own attendance window by a matter of weeks (Jan 2009) and, sparse but genuinely warm, has never needed repair across sixteen years."
 ---
 
 # Eric Jester
 
-Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose sparse but genuinely warm thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — check-ins that resurface every year or two, each one picking back up exactly where the last left off, alongside shared friends [[wiki/people/jason-bermejo|Jason Bermejo]], [[wiki/people/matt-dunn|Matt Dunn]], and [[wiki/people/jamie-mohler|Jamie Mohler]] from the same Orlando/Full Sail cohort. Eric's own thread independently names Dunn (see below); Jamie appears only in Jason's thread, not Eric's.
+Eric Jester is a Full Sail friend (contacts notes: "sandwich eater. dream
+killer.") whose relationship with Dan is documented across two
+completely different, previously unmerged sources — a Facebook Messenger
+thread running January 2009 to September 2020, and an iMessage/SMS
+thread running May 2017 to April 2025 — that together push the
+documented friendship back to **January 2009**, seven years earlier and
+predating the "2017-05-08" start this page previously carried by nearly
+a decade. The relationship is sparse but genuinely warm: check-ins that
+resurface every year or two, each one picking back up exactly where the
+last left off, with shared friends [[wiki/people/jason-bermejo|Jason
+Bermejo]], [[wiki/people/matt-dunn|Matt Dunn]], and
+[[wiki/people/jamie-mohler|Jamie Mohler]] from the same Orlando/Full
+Sail cohort. Buried inside the Facebook side of the thread — a source
+the previous version of this page never opened — is the corpus's single
+most detailed first-person account of the end of Fran Coldren's life,
+told by Dan to Eric within a day of it happening.
 
-## The relationship
+> **CORRECTED [2026-08-09]:** The previous version of this page cited
+> only `MASTER_MESSAGES_DB_DUMP.csv` and `interspersed_messages.csv`,
+> reported "103 messages" and flagged direction as "unreliable in this
+> export... marked Received throughout." Both problems trace to the same
+> cause: it never consulted `all_imessages_complete_dump.txt`, the file
+> `EXTRACTION_SPEC.md` names as authoritative specifically because
+> `MASTER_MESSAGES_DB_DUMP.csv` mismarks direction. The complete dump
+> shows a clean, genuinely bidirectional 235-message thread (133 Sent /
+> 102 Received), not 103 one-sided messages — and, separately, an entire
+> 220-message Facebook Messenger archive (2009–2020) was never searched
+> for at all. The friendship this page describes is both older and far
+> better documented than the previous version knew.
 
-Eric works in the film/TV industry as a bartender-adjacent crew role, living in Texas with a longtime girlfriend (later wife) he describes as unusually unjealous about an industry where "sex is just thrown at you day after day" — a dynamic he frames candidly and without judgment. He sends condolences after [[wiki/people/fran-coldren|Fran]]'s death in April 2018, drawing a parallel to his own grandfather; loses a beloved cat, Gabe, on October 30, 2023, remembering him as "the cat that made me love cats" (the same date and framing that resolves the ambiguous "Gabe" death reference on [[wiki/people/jason-bermejo]] as a pet, not a person); and announces his engagement in April 2019 after five years together, marrying "because we actually like each other."
+## The Facebook years (2009–2020)
 
-The April 8, 2019 engagement exchange also carries independent corroboration of the [[wiki/people/trinity-st-clair|Trinity St. Clair]] booking documented separately in her own thread: Dan tells Eric he'd "paid $1500 last week to have pornstar trinity st clair come hang out with my girlfriend and i for exactly one hour" — a specific figure not preserved in Trinity's own messages, dating the encounter to roughly the last week of March 2019, consistent with the window her thread covers.
+The record opens January 28, 2009 with Eric thanking Dan, deadpan, "for
+letting me come by and smoke all your weed last night" — consistent
+with a shared Full Sail class that spring (a February 2009 exchange has
+Eric formally apologizing for a joke about Dan's grandmother's death,
+made "in class," that Dan had taken hard: "My grandmother was one of
+the sweetest people I have ever met... I don't tell everyone about the
+fact that I found her after she had a stroke the day of my birthday
+party"). By September 2011 the two are trading real news rather than
+just jokes: Dan, then in New York, is actively participating in Occupy
+Wall Street — "was there all day yesterday... dropping supplies off
+after work and trying to catch the general assembly at night... the
+population in zuccotti is so different now than it was last week too...
+lots of suburbia is showing up" — a level of on-the-ground engagement
+not otherwise documented this early in the corpus's political record,
+years before the "2020 left turn" the wiki dates elsewhere. The
+following month, October 2, 2011, Eric tells his own story from the
+other side of a bar: suspended from his bartending job after nearly
+coming to blows with a drunk, condescending customer, the actual
+flashpoint being a thrown lemon rather than a punch ("i eventually told
+him 'fuck this' and threw a lemon at him... they didn't really want to
+suspend me... but they had to do something").
 
-A recurring bit through 2025: [[wiki/people/matt-dunn|Matt Dunn]] Venmo-requesting Eric $5 every year on his birthday, without fail, which Eric always pays ("Every damn year. And it's always $5. Of course I pay it," April 22, 2025) — the cohort's longest-running documented joke, independently confirmed a year later from Jason's side of the friend group.
+The thread runs through the usual register of college-friend Facebook
+correspondence for the next several years — inside jokes ("Ethan Kray"),
+shared music (Jonny Craig/Dance Gavin Dance gossip), and check-ins after
+Eric moves back to Orlando in April 2013. Immediately after that move,
+on **April 15–16, 2013**, Eric checks in about the Boston Marathon
+bombing — "Thinking of you with this shit going on. I know the
+Jester-house is far from the carnage" — and Dan's reply supplies a
+previously undocumented near-miss: "Kendel was 2 blocks away from it
+when it happened. She's fine but I'd been freaking out all day." This is
+new, personal-stakes texture for the same event a separate capture
+already credits with "days of no sleep watching the April 2013 Boston
+Marathon manhunt unfold" as the first attested instance of Dan's
+macro-scale chaos preference
+([[wiki/timeline/events/franki-fireworks-day-2013]]) — the manhunt
+wasn't only compelling to watch, someone in his own life was nearly
+caught in the blast itself. Three further dated exchanges from this
+stretch carry real weight beyond the jokes:
 
-Eric also supplies the only pre-2025 dated sighting of Dunn as an
-active presence rather than a punchline: on November 16, 2018 he
-reports "Dunn is down in that neighborhood right now… He was snapping
-me videos of full sail" — Dunn back at the Orlando campus itself,
-sending unprompted nostalgia footage seven years after the cohort's
-own attendance window.
+- **May 9, 2013** — Dan resurfaces an old video and tells Eric "that's
+  12 year old dan telling everyone about how 'rollerblading teaches me
+  about who i am.'" Eric's reply — "Want to know what's more
+  embarrassing? I've already seen that." — is independent, external
+  confirmation that Dan's childhood rollerblading identity (age ~11–17,
+  early-to-mid 2000s — no dedicated wiki page exists for this era as of
+  this pass) left a durable enough public trace, a video evidently
+  already in circulation, to become a running joke a decade later
+  between college friends who never knew Dan as a child.
+- **July 5, 2013, 1:31 AM** — Dan: "dude i got punched in the face / by
+  alexis today hahaha / i have a lot of things to tell you that you're
+  gonna be real proud of me for." [[wiki/timeline/events/franki-fireworks-day-2013]]
+  documents Alexis discovering the Franki affair by text "roughly ten
+  minutes into" a car ride "in early July 2013," with an explicit,
+  standing note that the exact date "is not fixed." This message is the
+  first primary-dated evidence located for that day anywhere in the
+  corpus — it narrows "early July" to the July 4–5 weekend specifically,
+  and it adds a fact absent from every other account: whatever happened
+  when Alexis found out escalated to a physical blow, not just a text.
 
-## Corpus Dimensions
+The thread goes quiet after a February 2014 "remember '09" callback,
+resurfaces briefly in 2016 (a photo exchange, "Mawfuckin J. Haven't hung
+out with him in a few years" — the "J" unidentified, plausibly but not
+confirmably Jason Bermejo), and closes on Facebook with a garbled,
+apparently intoxicated exchange on September 23, 2020 — misspelled
+fragments, a half-formed political jab about "history" and being "a non
+resiste[nt] nazi," and a run of empty messages — that Eric mostly
+declines to engage with ("Oh gawd"). No further Facebook activity is
+preserved after that day.
+
+## The vigil, in Dan's own words (April 5–6, 2018)
+
+The single most significant find in this thread is not about Eric at
+all — it is Dan's own account of the end of
+[[wiki/people/fran-coldren|Fran]]'s life, volunteered to Eric within
+weeks of her death and preserved nowhere else in this much detail. Eric
+opens on April 5, 2018 with a condolence — "I saw on Facebook about your
+great grandmother. I'm sorry to hear it man. She was an awesome lady" —
+and Dan, rather than simply accepting it, tells the whole story:
+
+He had been paid **$15 an hour** to look after her full-time for the
+preceding six months ("$15 an hour to play video games with gram is a
+good deal"), a caregiving arrangement independently documented on
+[[wiki/timeline/events/fran-death-vigil]]. When hospice began and
+feeding stopped, he sat with her for four days waiting for the end.
+On the last night, in the room with his girlfriend, he silently tested
+something he says he doesn't believe in: *"i said to myself 'if you can
+hear me give me some kind of sign.' my girlfriend who didn't know i was
+doing this shakes me awake immediately after and tells me she blinked
+for the first time in a week. i went over to her bed and something
+happened and she was like there again... you know how little credit i
+give supernatural or religious ideas. i'm the last person who would be
+pushing a bullshit story about something spiritual happening."* He adds,
+almost as an aside, that he has the whole thing on video.
+
+This is a second, independent telling of the same core act — a silent
+mental "test" at Fran's bedside, validated by a startled girlfriend —
+that [[wiki/timeline/events/fran-death-vigil]] already documents from a
+same-night Facebook message to Lucie Dobbin, and the two accounts do not
+match in every detail. Told to Lucie the night it happened: Dan stays
+awake, silently asks if Fran can hear him, **she wakes and smiles**
+almost immediately, and dies within minutes. Told to Eric a day or two
+later: Dan is **falling asleep**, his girlfriend wakes **him**
+immediately after **Fran blinks** for the first time in a week, and Fran
+"was like there again... she looked the same even" — recovering
+presence, not the death itself. Both center on the same act and the
+same corroborating witness (the girlfriend), but disagree on who fell
+asleep, what the sign was, and whether it preceded death by minutes or
+happened during an earlier, separate night of the four-day vigil. Both
+tellings are Dan's own, within 48 hours of each other, to two different
+friends — recorded here rather than harmonized into one version. The next day
+he sums it up in three lines that carry the entire arrangement's
+emotional logic in miniature: *"she was a trip dude but i spent the past
+six months looking after her full time... and we had a lot of fun. got
+good closure and finally did something in my life that wasn't
+completely selfish haha... and she got a poetic ended. what else can
+you ask for."* In the same breath he names what comes next: *"now that
+i'm not saddled here with gram anymore... and that inheritance money
+coming... ya boy is getting out of PA"* — dating the intention to leave
+Pennsylvania on inheritance money to literally the week after her death,
+not a later, more considered decision.
+
+Eric reciprocates with his own grandfather's death, and the two spend
+the rest of the exchange comparing notes on family, money, and
+industry — Eric's student-loan math on Full Sail ("until 2025... but
+that gets extended... I'm losing my fucking hearing" from bartending),
+his own long relationship, and an extended, entirely characteristic
+digression into the couple's non-monogamy that ends with Eric concluding
+"That's the most Dan Frank thing I've ever heard."
+
+This is new to the wiki in this level of granularity. `fran-death-vigil.md`
+already carries the $15/hour figure from other sources; the bedside
+"sign" moment, the video, and the "poetic ended" framing did not appear
+anywhere in the corpus before this pass.
+
+## The iMessage years (2017–2025)
+
+Once the SMS/iMessage record opens (May 8, 2017 — "Do you still have
+the final bounce of our studio project"), the register stays consistent
+with the Facebook years: sparse, warm, resuming without friction. Eric
+works in film/TV as bartender-adjacent crew, living in Texas with a
+longtime girlfriend (later wife) he describes as unusually unjealous
+about an industry where "sex is just thrown at you day after day" — a
+dynamic he frames candidly and without judgment, matching the tone of
+the April 2018 exchange above. His April 8, 2019 engagement announcement
+(five years together, "because we actually like each other") also
+carries an unrelated but independently valuable data point: Dan tells
+him he'd "paid $1500 last week to have pornstar trinity st clair come
+hang out with my girlfriend and i for exactly one hour" — a specific
+figure not preserved in
+[[wiki/people/trinity-st-clair|Trinity St. Clair]]'s own thread, dating
+that encounter to roughly the last week of March 2019. Eric loses a
+beloved cat, Gabe, on October 30, 2023 ("the cat that made me love
+cats!") — the same date and framing that independently resolves the
+ambiguous "Gabe" reference on [[wiki/people/jason-bermejo]] as a pet,
+not a person.
+
+A recurring bit runs through 2025: [[wiki/people/matt-dunn|Matt Dunn]]
+Venmo-requesting Eric $5 every year on his birthday, without fail, which
+Eric always pays ("Every damn year. And it's always $5. Of course I pay
+it," April 22, 2025) — the cohort's longest-running documented joke,
+independently confirmed a year later from Jason's side of the friend
+group. Eric also supplies the only pre-2025 dated sighting of Dunn as an
+active presence rather than a punchline: on November 16, 2018 he reports
+"Dunn is down in that neighborhood right now… He was snapping me videos
+of full sail" — Dunn back at the Orlando campus itself, sending
+unprompted nostalgia footage seven years after the cohort's own
+attendance window.
+
+## Corpus dimensions
 
 | Metric | Value |
-|--------|-------|
-| Messages | 103 |
-| Date range | 2017-05-08 to 2025-08-15 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Eric to Dan) |
+|---|---|
+| Facebook Messenger | 220 messages, Jan 2009 – Sep 2020 |
+| iMessage/SMS (complete dump) | 235 messages, 133 Sent / 102 Received, May 2017 – Apr 2025 |
+| Combined date range | 2009-01-28 to 2025-04-22 |
 | Handle | +14137703708 |
+
+## Gaps
+
+The identity of "J" in the 2016 Facebook exchange is unconfirmed —
+plausibly Jason Bermejo given the shared cohort, but nothing in either
+thread ties the initial to a full name. The image attachment referenced
+in the January 2011 Facebook exchange was not retrieved. Whether Eric
+and Dan have had any contact since the garbled September 2020 exchange
+is undocumented — no further messages survive on either platform after
+that date.
 
 
 ========================================================================
@@ -26135,7 +26353,7 @@ related: []
 - [[wiki/people/ellen-ulmer]] — Annie's mother; steady contact 2017-2025, confirms Jim and Sugie as Annie's grandparents.
 - [[wiki/people/fred-adams]] — Ira Coldren's law partner at Coldren Adams, later a judge; trustee of Fran's accounts and the source of the 24-hour deathbed mandate.
 - [[wiki/people/emaly-minerd]] — Intense 5-month 2018-19 relationship; tried to refuse the couple's sex-first dynamic, collapsed into it anyway.
-- [[wiki/people/eric-jester]] — Full Sail friend, decade-spanning sparse contact; corroborates the Trinity St. Clair booking cost.
+- [[wiki/people/eric-jester]] — Full Sail friend since Jan 2009 (via a previously unmined Facebook thread); corroborates the Trinity St. Clair booking cost and holds the corpus's most detailed first-person account of Fran's death, told to him within days.
 - [[wiki/people/jamie-mohler]] — Full Sail friend present the day Dan first met Menore during the NYC-1 years; transitioned ~2023, now gendered female.
 - [[wiki/people/eric-springer]] — Month-long 2016 supply contact; wearing an ankle monitor at the time.
 - [[wiki/people/ej-rags]] — Williamsburg NYC vinyl-collector friend; drew out Dan's stated philosophy of destroying his own creative work.
@@ -26150,7 +26368,7 @@ related: []
 - [[wiki/people/jajuan-davis]] — 2018-19 winter dealer contact, second active source alongside Johnny.
 - [[wiki/people/james]] — Contact +18782477198. Self-ID: "Hey dan it james, Danielles working and im with the kids till like 4. But…
 - [[wiki/people/jaredtricia]] — Married couple who booked Annie (as "Hazel") for paid group encounters, June 2019.
-- [[wiki/people/jason-bermejo]] — Full Sail–era formative music friend, one of two people whose taste Dan defers to; Feb 2026 renewal at 400+ messages/month.
+- [[wiki/people/jason-bermejo]] — Full Sail–era formative music friend, one of two people whose taste Dan defers to; documented 2017–2025, 292 messages.
 - [[wiki/people/jason-cole]] — Artist friend; a 2016 pet-portrait commission that curdled over unpaid work.
 - [[wiki/people/jay-lauer]] — Friend and peer suboxone/cocaine trading partner, winter 2016-17; died of a heroin overdose on or about April 11 2017 — the supply network's only documented fatality.
 - [[wiki/people/jenn-lynn]] — Uniontown friend repeatedly solicited (with boyfriend Brad) for a two-couple swap, 2017-2020; parallel drug-sourcing relationship.
@@ -26211,7 +26429,7 @@ related: []
 - [[wiki/people/sean-teets]] — Peripheral contact; two apparent supply-seeking outreach messages a year apart, 2017-2018.
 - [[wiki/people/seth-ledonne]] — Uniontown counterculture-education friend; real-time June 2020 NYC protest-curfew account.
 - [[wiki/people/shannon]] — Real estate client who hired Dan for drone photography and video, Nov 2018 – Jan 2019.
-- [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan financially supported alongside Annie, May–Aug 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup and a legal-threat follow-up.
+- [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan financially supported alongside Annie, April–Aug 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup and a legal-threat follow-up.
 - [[wiki/people/stephanie-nalbone]] — Previously undocumented Sept-Nov 2009 relationship, right at the close of Full Sail; sequencing against Danielle and Alexis unresolved.
 - [[wiki/people/steve-kezmarsky]] — High-school-era Uniontown golf friend, self-described "dark and tormented soul"; alive and sober as of Dec 2018 while his father faced a life sentence (death claim withdrawn 2026-07-19).
 - [[wiki/people/suzanne-frank]] — Mother of Dan Frank. Born 15 September 1962, Pittsburgh, Allegheny County, Pennsylvania (maiden: Whyel /…
@@ -27234,29 +27452,16 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-08-09
 date_range_start: 2017-01-20
-date_range_end: 2026-03-21
+date_range_end: 2025-03-17
 sources:
-  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
-  - "raw/self/message-csv/imessage_export_+18172693422_20260714055318.csv"
+  - "raw/self/message-csv/imessage_7243228715_both_all_now.csv"
   - "raw/self/message-csv/interspersed_messages.csv"
-  - "raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md"
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md
 tags: [digital-footprint, music-production, addiction-recovery, relationships, uniontown-era]
-connections:
-  - page: wiki/people/eric-jester
-    type: co-occurs
-    claim: "Jason and Eric are both named in Dan's own 2025 'Florida head' rundown of the Full Sail cohort — the two threads independently corroborate the same four-person friend group."
-  - page: wiki/people/matt-dunn
-    type: co-occurs
-    claim: "Dunn is named alongside Jester and Mohler in the same Sept/Oct 2025 exchanges, confirming the four-person Full Sail cohort from Jason's own side of the corpus."
-  - page: wiki/people/jamie-mohler
-    type: co-occurs
-    claim: "Jason's Oct 6, 2025 exchange ('Mohler = a literal woman' / 'Haha she badass') is the primary corpus corroboration of Mohler's transition, delivered as a casual, unremarkable update inside the Full Sail friend group."
-  - page: wiki/timeline/periods/full-sail-2008-2010
-    type: instance-of
-    claim: "The friendship is the era's clearest survivor: a formative-era bond that never needed repair to resume, still active fifteen years later at its all-time message-volume peak."
-knowledge: earned
+knowledge: mixed
 infobox:
   name: "Jason Bermejo"
   relationship_to_dan: friend
@@ -27265,158 +27470,183 @@ infobox:
   role: "DJ / producer (Texas)"
   first_contact: 2017-01-20
   handles: ["+18172693422"]
-  known_for: "One of two people whose music taste Dan defers to; formative Full Sail-era friend; Feb 2026 renewal at 400+ messages/month"
+  known_for: "One of two people whose music taste Dan defers to; formative Full Sail-era friend; the Full Sail cohort's own 'Florida head' rundown names him the only one Dan's mother still remembers"
+connections:
+  - page: wiki/people/eric-jester
+    type: co-occurs
+    claim: "Jason and Eric are both named in Dan's own 2025 'Florida head' rundown of the Full Sail cohort — the two threads independently corroborate the same four-person friend group."
+  - page: wiki/people/matt-dunn
+    type: co-occurs
+    claim: "Dunn is named alongside Jester and Mohler in the same Sept/Oct 2025 exchanges, confirming the four-person Full Sail cohort from Jason's own side of the corpus."
+  - page: wiki/people/jamie-mohler
+    type: evidences
+    claim: "Jason's Oct 6, 2025 exchange ('Mohler = a literal woman' / 'Haha she badass') is the primary corpus corroboration of Mohler's transition, delivered as a casual, unremarkable update inside the Full Sail friend group."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: component-of
+    claim: "The friendship is the era's clearest survivor: a formative-era bond that never needed repair to resume, still active eight years into its documented iMessage record."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: evidences
+    claim: "Jason's thread supplies the earliest dated instance of the Alexis/Annie overlap pattern in the corpus: a January 20, 2017 message telling him about a filmed threesome with 'my current and ex girlfriend' — the same 'got both to hook up' story Dan still cites as his 'finest moment' eight years later, in the same thread."
+  - page: wiki/people/oscar-lindquist
+    type: evidenced-by
+    claim: "Oscar's own account of the 2011 Hurricane Irene evacuation and the 2022 Manhattan-restaurant coincidence both independently place Jason inside the same NYC-adjacent Full Sail circle, corroborating the cohort from a fifth angle."
 ---
 
 # Jason Bermejo
 
-Jason Bermejo is one of the two people alive whose musical taste Dan
+Jason Bermejo is one of two people alive whose musical taste Dan
 genuinely defers to (the other is a stranger: Anthony Fantano) — the
 Full Sail–era friend who built Dan's musical identity circa 2009–2011
-and, fifteen years later, is still doing it. A DJ and producer now in
-Texas (`+18172693422`, 451+ messages, 2017–2026), he re-entered Dan's
-life in force in February 2026 — 400+ messages in a single month, the
-thread's all-time peak, landing in the raw aftermath of the Uniontown
-return — and the two fell instantly back into the old shape: beat-flip
-competitions, all-night recommendation threads, production shop-talk,
-and the shared, matter-of-fact chemical culture of the Orlando years.
-Of all the formative-era friendships in the corpus, this is the one
-that never needed repair to resume.
+and has stayed in casual, warm, drug-and-music-saturated contact with
+him ever since. A DJ and producer now in Texas (`+18172693422`), the
+documented relationship runs from January 2017 through at least March
+2025 — 292 messages (168 sent, 124 received), a genuinely two-sided
+thread with no gap longer than a normal lull. Of all the formative-era
+friendships in the corpus, this is one of the two (with
+[[wiki/people/eric-jester|Eric Jester]]) that never needed repair to
+resume.
 
-## Relationship & Role in Dan's Life
+> **CORRECTED [2026-08-09]:** The previous version of this page claimed
+> "451+ messages," a date range running to 2026-03-21, and a "Feb 2026
+> renewal... 400+ messages in a single month, the thread's all-time
+> peak, landing in the raw aftermath of the Uniontown return." None of
+> this is supported by `all_imessages_complete_dump.txt`, which is
+> complete for this handle through the thread's actual final message
+> (2025-03-17) and shows no 2026 activity at all. The previous page's
+> only source for the 2026 material was a CSV file,
+> `imessage_export_+18172693422_20260714055318.csv`, that **does not
+> exist anywhere in `raw/`** — the citation itself was fabricated or
+> corrupted at some earlier pass, and everything downstream of it (the
+> February 2026 spike, the "renewal in force," the framing around the
+> Uniontown return) has been removed rather than carried forward. The
+> real, corpus-supported record is smaller and older-ending than
+> previously claimed, but it is real: 292 messages across eight years,
+> the last one dated March 17, 2025.
 
-**Phase 1: Formative era (2009–2015)**
-Jason was a formative influence during Dan's most musically curious period. Introduced Dan to:
-- Kid Cudi (breakthrough hip-hop moment)
-- Cool Kids (LCD Soundsystem Williamsburg era music)
-- Skinny jeans aesthetic / blog-era hip-hop culture
-- Recording and production basics (recording in closet, early DIY studio ethos)
+## The friendship
 
-Dan describes him as a gateway to "a different style of music that still resonates with me today" — the respect runs deep enough that Dan cites Jason as one of only two people (other than Anthony Fantano) whose music taste Dan genuinely defers to.
+**Formative era (2009–2015).** Jason introduced Dan to Kid Cudi at his
+hip-hop breakthrough moment, to the Cool Kids and the LCD Soundsystem-
+adjacent Williamsburg blog-rock sound, to skinny-jeans/blog-era
+aesthetic, and to the basics of home recording — closet-booth DIY
+production. Dan describes him as a gateway to "a different style of
+music that still resonates with me today," and the respect runs deep
+enough that Jason is one of only two people (with Fantano) whose taste
+Dan says he genuinely defers to.
 
-**Phase 2: Sustained contact (2017–2026)**
-- Renewed engagement in early 2026 after messaging gap
-- Sustained music conversation: song recommendations (JPEGMAFIA, $uicideboys, Bring Me The Horizon, Deftones, Thundercat, SiR, Molchat Doma, X-Ecutioners)
-- Producer talk: Serum synth, Bitwig DAW, wavetables, drum kit composition, sample flipping
-- Shared substance use context: weed, cocaine, ketamine mentioned in matter-of-fact ways
-- Romantic life updates (girlfriend references, relationship status shifts)
+**Sustained contact (2017–2025).** The documented iMessage record opens
+cold on January 20, 2017 with Dan volunteering that he'd just had a
+filmed threesome with his "current and ex girlfriend" — Annie and
+Alexis, the same "got both to hook up" story Dan is still retelling as
+his "finest moment" in the thread's final surviving exchange eight
+years later (March 17, 2025: "i think the only real accomplishment of
+my life... is getting her to hook up with the girl i left her for...
+and i'm still with the other one"). Between those two points the thread
+runs on song recommendations (JPEGMAFIA, $uicideboys, Bring Me The
+Horizon, Deftones, Thundercat, SiR, Molchat Doma), producer talk (Serum,
+Bitwig, wavetables, sample-flipping, a standing two-week beat-flip
+competition), and a steady, casual stream of substance-use color —
+cocaine, ketamine, weed — treated by both sides as unremarkable.
 
-## Musical Taste & Production Practice
+## Musical taste and production practice
 
-**Jason's aesthetic**: DJ/producer sensibility spanning:
-- UK garage, electronic dance music (Odd Mob, NXSTY trap packs, Westwood)
-- Hip-hop (Clipse, Push T, A$AP Rocky, Imogen Heap mashups, Papoose, early 2000s Bronx rappers)
-- R&B/neo-soul (SiR, Thundercat, Crosses)
-- Post-hardcore/alternative (Deftones, Bring Me The Horizon, Limp Bizkit, Billy Idol, BMTH)
-- Experimental/underground (Molchat Doma — Belarus indie rock; Atmosphere; King Von)
-- Indie/alternative (Neutral Milk Hotel, The Smiths)
-- Vaporwave/sample culture (Nujabes, J Dilla references)
+Jason's sensibility spans UK garage and electronic dance music (Odd
+Mob, NXSTY trap packs, Westwood), hip-hop (Clipse, Pusha T, A$AP Rocky,
+Papoose, early-2000s Bronx rap), R&B/neo-soul (SiR, Thundercat,
+Crosses), post-hardcore (Deftones, Bring Me The Horizon, Limp Bizkit),
+and sample culture (Nujabes, J Dilla). His production style runs
+through Bitwig — a 2026-adjacent-era switch from Logic Pro, described
+as "fucking insane" for modulation — Serum synths, and a sample-direct
+workflow adopted for CPU reasons on aging hardware; he curates sample
+packs via Splice and does remix/flip work. His stated taste philosophy
+— "it's all about talent and ideas put into original music bro" — is
+the same rejection-of-poseur-culture register the two of them share
+about early-2010s EDM kids at Full Sail. The standing two-week beat-flip
+competition is a genuine two-way production relationship, not a
+one-sided admiration: Jason critiques Dan's work directly ("Does this
+work at all"), and Dan sends him new discoveries constantly.
 
-**Production style**: Jason uses/recommends Bitwig (switched from Logic Pro in 2026), Serum synths, wavetable manipulation, modulation-heavy approach. He curates sample packs (Westwood NXSTY trap loops via Splice) and does beat flipping/remixing work. Recently shifted to sample-direct workflow for CPU optimization on ancient laptop.
+## Substance use, in his own words
 
-**Taste philosophy**: "It's all about talent and ideas put into original music bro" — values authenticity and innovation over scene/credential. He and Dan bond over rejecting poseur culture (e.g., dismissing early 2010s EDM kids at Full Sail as fuccbois).
+Cannabis and tobacco run through the thread as background color — a
+long vape run broken in favor of Black & Milds, which Dan finds
+characteristically amusing. Cocaine use is regular and normalized in
+conversation without any framing of concern on either side ("I'm still
+running her for like 2 grams of blow a day and she has no idea"); a
+March 2025 exchange has Jason showing Dan roughly five years' worth of
+accumulated cocaine straws, joked about rather than flagged. Jason
+describes ketamine as "the best music drug I've ever tried" — a
+45-minute, dissociative-without-a-comedown listening tool, deliberately
+used rather than stumbled into. A separate incident has Jason selling
+Dan fake lean, prompting a standing joke about white dealers. The
+darkest single story in the thread is older: an Orlando-era attempt by
+Dan and Alexis to buy heroin that went bad enough that Jason (with
+another friend, Spetch) had to retrieve them from The Social in the
+middle of the night.
 
-**Producing with Dan**: They have a standing "2-week competition" dynamic (theme-based beat flips, remixes). Jason shows willingness to critique Dan's work ("Does this work at all") and Dan sends him new music discoveries constantly.
+## Social graph
 
-## Substance Use & Lifestyle Context
+The thread names the same Full Sail/Orlando cohort (2009–2015) that
+[[wiki/people/eric-jester|Eric Jester]]'s and other threads
+independently corroborate: **Spetch**, a close friend now in Texas with
+a girlfriend; **Johnny**, a "low-key follower" type who absorbed
+Jason's style; Eric Jester himself, shorter than Dan and Jason and
+present in a 2019 group chat Dan set up to needle Jason around his
+engagement; **Ross Lara**, remembered as "the world's first fuccboi," an
+EDM kid at Full Sail; [[wiki/people/matt-dunn|Matt Dunn]], "the world's
+most annoying man woman or child"; **Oscar** — a chance, near-impossible
+reunion years later at a Manhattan restaurant table Dan happened to be
+serving; **Donato "Steez McQueen,"** who died in 2022 (fentanyl-laced
+Xanax implied), remembered for Steve McQueen-style Alexander McQueen
+jackets and J Dilla/Nujabes-style beats; **Gabe**, a cat rather than a
+person, put down October 30, 2023 — the same date and framing Eric
+Jester independently confirms ("I'm so sorry man. He was the cat that
+made me love cats!"); and [[wiki/people/jamie-mohler|Jamie Mohler]], a
+fourth cohort member, not — per a REVISED correction already carried on
+this page's prior version — Jason's girlfriend.
 
-**Cannabis & Tobacco**
-- Vaping long-term, recently (Feb 2026) switched back to cigarettes after 10-year vape streak
-- Black and Milds mentioned — Dan finds it amusing, considers it characteristic
+> **REVISED [2026-07-19] (carried forward):** An earlier pass listed
+> "Jamie Mohler" as Jason's current girlfriend, misreading a single
+> out-of-context line. In full context (2025-10-06), Dan is telling
+> Jason which Full Sail-era friends his mother still remembers — "Jester
+> = forgettable / Dunn = gross and forgettable / Mohler = a literal
+> woman" — and Jason answers "Haha she badass." Mohler is a fourth
+> member of the same friend group, not Jason's partner. Full page:
+> [[wiki/people/jamie-mohler]].
 
-**Cocaine**
-- Regular, normalized in conversation ("I'm still running her for like 2 grams of blow a day and she has no idea")
-- Light references to cocaine being the substrate of night-long conversations and music discovery sessions
-- Matter-of-fact tone; no judgment from Dan
-- 5 years' worth of cocaine straws accumulated (visual evidence in March 2026)
+Jason's own current relationship is documented only in outline: a
+girlfriend present in 2025-era conversation, attending concerts with
+him (Deftones, Billy Idol, Limp Bizkit, Bring Me The Horizon), unnamed
+in the surviving thread. An earlier, unnamed ex-girlfriend is referenced
+in passing around the same window.
 
-**Ketamine**
-- Dan describes ketamine as "the best music drug I've ever tried" — 45-minute duration, dissociative without long comedown
-- K-holed while discovering new music (incidental discovery of Jason listening to track on Spotify)
-- Framed as a deliberate tool for altered listening state
+## Reflective register
 
-**Lean/Opioids**
-- Fake lean incident (Jason sold non-lean product; Dan warns against white dealers)
-- Percocet references (Dan doesn't regularly take them but appreciates the name "pabloPERCasso")
+The thread's texture is heavy "haha"/"fucking," self-deprecation ("I'm
+a cokehead," "36-year-old living in mom's basement," "newb as fuck with
+Bitwig"), and a running, openly nostalgic awareness of time passing
+("can you believe that was 15 fucking years ago"). It is generous
+despite distance — sample packs, production critiques, and constant
+song links flow in both directions across eight years with no sign of
+the friendship needing active maintenance to survive.
 
-**Heroin**
-- Attempted purchase story (Orlando-era, Dan + Alexis tried to buy heroin; deal went bad; Jason/Spetch had to pick them up at The Social in middle of night)
+## Corpus dimensions
 
-## Social Graph & Shared History
-
-> **REVISED [2026-07-19]:** This section previously listed "Jamie
-> Mohler" as Jason's current girlfriend. That was a misread of a
-> single out-of-context corpus line. In full context (2025-10-06,
-> Jason's thread), Dan is telling Jason which Full Sail-era friends his
-> mother still remembers — "Jester = forgettable / Dunn = gross and
-> forgettable / Mohler = a literal woman" — to which Jason answers
-> "Haha she badass." Mohler (now Jamie, per the operator; pre-2023
-> known as Jim) is a **fourth member of the same Full Sail friend
-> group**, not Jason's partner. See [[wiki/people/jamie-mohler]] for
-> the full page.
-
-**Shared circle (2009–2015 Full Sail / Orlando era)**:
-- **Spetch** — another close friend, part of same cohort; currently with girlfriend in Texas
-- **Johnny** — "follower" type who would bite Jason's swag, looked up to him; shared music interests; Dan thinks Johnny was "low key follower" who absorbed swag but it worked
-- **[[wiki/people/eric-jester|Eric Jester]]** — shorter than Dan and Jason, part of Full Sail cohort; his own thread confirms he was in the 2019 group chat Dan set up to "roast" Jason around his engagement
-- **Ross Lara** — "the world's first fuccboi," EDM kid at Full Sail, source of derision
-- **[[wiki/people/matt-dunn|Matt Dunn]]** — "world's most annoying man woman or child," Full Sail era
-- **Oscar** — Ran into Oscar years later in NYC (impossible coincidence in 9M person city); was waiting tables, Oscar showed up at Dan's table
-- **Alexis** — Dan's ex, met Thanksgiving break (3 days in hometown), moved in with Dan. Dan is genuinely proud of the "Alexis situation" (left her for another girl, got both to hook up). Described as hot but transactional/unreliable. Nearly killed with Jason when attempted heroin buy went bad.
-- **Donato "Steez McQueen"** — Died 2022 (fentanyl-laced xanax, implied); wore Steve McQueen Alexander McQueen jackets; made beats like J Dilla and Nujabes
-- **Gabe** — A cat, not a person: died 2023-10-30 ("I had to put gabe down today"), confirmed by [[wiki/people/eric-jester|Eric Jester]]'s independent same-date message ("I'm so sorry man. He was the cat that made me love cats!")
-- **[[wiki/people/jamie-mohler|Jamie Mohler]]** — fellow Full Sail
-  friend, not a girlfriend (see REVISED note above); part of the same
-  named cohort as Dunn and Jester in Dan's own 2025 messages
-- **Kayden** — Someone in photos from the heroin-attempt era
-- **Mike Marino** — Knew him in Florida, wishes had photos to prove it
-
-## Recent Life Milestones (2025–2026)
-
-- DAW migration: Logic Pro → Bitwig (reports "fucking insane" modulation capability)
-- Concert-going with girlfriend (Deftones, Billy Idol, Limp Bizkit, Bring Me The Horizon)
-- Relationship anchored; girlfriend present in conversations, travels to shows
-- Music output steady (beat-making, sample pack curation, remix/flip work)
-- Production constraints: ancient laptop, CPU-limited, using sample-direct workflow workarounds
-- Renewed heavy contact with Dan in Feb 2026 (400+ messages in single month)
-- Reflective on aging ("can you believe that was 15 fucking years ago"; "36-year-old living in mom's basement" self-aware joke)
-
-## Conversation Style & Humor
-
-- Heavy use of "haha," "fucking," ethnic/cultural humor (Dominican coke homies, Spicy Nacho Doritos + choulula, mestiza references)
-- Self-deprecating ("I'm a cokehead," "36-year-old living in basement," "newb as fuck with Bitwig")
-- Music nerd passion: deep dives into production minutiae, drops entire recommendation threads late at night
-- Nostalgia-driven ("can you believe that was 15 fucking years ago")
-- Generous with time despite distance (sends sample packs, does production critique, endless song links)
-- Playful but dark humor (deepfake porn, jailbreaking Snapchat, gun-in-mouth video, mock suicide)
-
-## Significance in Dan's Life
-
-**Earned status**: Jason ranks in Dan's top-tier music influences — equivalent to Anthony Fantano in critical weight. Dan consciously defers to his taste and credits him with forming his musical identity circa 2009–2011.
-
-**Anchoring function**: Represents the "formative friend" archetype — someone from a high-creativity, high-risk era (Full Sail, Orlando drugs/music scene) who stayed connected across geographic distance and life stage changes. Renewal of contact in early 2026 suggests re-engagement with that period.
-
-**Complementary skills**: Jason's producer discipline and sample-pack depth vs. Dan's broader eclecticism — they push each other on taste and production.
-
-## Corpus Dimensions
 | Metric | Value |
 |--------|-------|
-| Messages (total) | 451+ |
-| Date range | 2017-01-20 – 2026-03-21 |
-| Sent / Received | ~187 / 264 (approx) |
-| Peak month | Feb 2026 (400+ messages) |
+| Messages (complete-dump count) | 292 (168 Sent / 124 Received) |
+| Date range | 2017-01-20 – 2025-03-17 |
 | Service | iMessage, SMS |
-| Topics | Music (60%), production (25%), life updates (10%), substances (5%) |
 
-## Notes & Gaps
+## Gaps
 
-- Full timeline of how they met (likely Full Sail, ~2009) not explicit in corpus but strongly implied
-- Current Jason location: Texas (likely Austin or DFW area based on references)
-- Ex-girlfriend mentioned (Feb 2026) but not named; current girlfriend also unnamed in corpus
-- Last message: 2026-03-21 (gap since February spike suggests lower contact post-winter)
-- Music output / release status: unclear if Jason has released material or remains hobbyist
-- Full Sail attendance dates: ~2009-2011 implied
-
+The exact meeting point (Full Sail, ~2009, strongly implied but not
+stated outright) is not explicit in the corpus. Jason's current city
+within Texas is unconfirmed. Whether he has released music publicly or
+remains a hobbyist producer is unclear from the thread. The 2026
+material this page previously carried has been removed as unsupported
+(see CORRECTED block above); if a genuine 2026 export exists on disk
+under a different filename, it has not been located.
 
 
 ========================================================================
@@ -27673,6 +27903,9 @@ connections:
   - page: wiki/mind/psychosexual/arrangement-history
     type: component-of
     claim: "A three-year, repeatedly-solicited but never definitively confirmed swap arrangement with a local couple (Jenn and her boyfriend Brad) — distinct from the paid-professional and ex-partner instances already on the timeline in running alongside an ordinary Uniontown drug-sourcing friendship rather than a commercial or NYC-scene relationship."
+  - page: wiki/people/shelbie-breakiron
+    type: parallels
+    claim: "The same uncompensated-friend-into-camming/swap-economy shape as the Shelbie relationship, but with a boyfriend explicitly in the mix from the start rather than added later — Shelbie is the arrangement-history baseline instance this pattern is measured against."
 ---
 
 # Jenn Lynn
@@ -27752,7 +27985,11 @@ status: stable
 date_created: 2026-06-23
 date_modified: 2026-07-12
 sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/facebook/facebook-ihatedanfrank/friends_and_followers/friends.html", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/context-core", "wiki/timeline/periods/2020-2021-market-era", "wiki/self/message-corpora/master-message-dump", "wiki/self/twitter", "wiki/self/facebook", "wiki/people/kya-hansen"]
+related: ["wiki/self/context-core", "wiki/timeline/periods/2020-2021-market-era", "wiki/self/message-corpora/master-message-dump", "wiki/self/twitter", "wiki/self/facebook"]
+connections:
+  - page: wiki/people/kya-hansen
+    type: evidences
+    claim: "Jerad's March 23, 2020 conversation about the camming economy, and his ambiguous 'I don't think that's her,' is the corpus's only other dated contact point for Kya beyond the Shelbie referral, and the only place any doubt about her identity surfaces."
 tags: [relationships, politics]
 infobox:
   name: "Jerad Friedline"
@@ -29035,12 +29272,19 @@ date_range_end: 2020-03-23
 sources:
   - raw/self/captures/2026-07-14-kya-hansen.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
-related:
-  - wiki/people/shelbie-breakiron
-  - wiki/people/jerad-friedline
-  - wiki/mind/psychosexual/arrangement-history
+date_modified: 2026-08-09
 knowledge: mixed
 tags: [relationships, digital-footprint]
+connections:
+  - page: wiki/people/shelbie-breakiron
+    type: co-occurs
+    claim: "Dan's June 7, 2019 referral of Kya's Instagram to Shelbie, mid-relationship and mid-way through Shelbie building her own camming setup, put two women he was independently involved with in the sex-work economy into direct contact through him."
+  - page: wiki/people/jerad-friedline
+    type: evidenced-by
+    claim: "Jerad's March 23, 2020 conversation, and his ambiguous 'I don't think that's her,' is the corpus's only other dated contact point for Kya beyond the Shelbie referral, and the only place any doubt about her identity surfaces."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: instance-of
+    claim: "An ongoing, active interest in the commercial-sexual creator economy that runs in parallel to, not just downstream of, Dan's own relationship arrangement history."
 infobox:
   name: "Kya Hansen (\"bbblud\")"
   relationship_to_dan: unknown
@@ -29100,10 +29344,6 @@ recovered. Exact dates for the Reddit admin period, how the role began,
 and what (if anything) happened to the contact after March 2020 are all
 undocumented. Whether "Kya Hansen" is her real name or a stage name is
 not established from the current sources.
-
-## Related
-
-[[wiki/people/shelbie-breakiron]] · [[wiki/people/jerad-friedline]] · [[wiki/mind/psychosexual/arrangement-history]]
 
 
 ========================================================================
@@ -32598,36 +32838,44 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-20
-date_range_start: 2019-05-15
+date_modified: 2026-08-09
+date_range_start: 2019-04-17
 date_range_end: 2019-08-11
 sources:
   - raw/self/message-csv/imessage_export_7249124338_both_all_now.csv
+  - "raw/self/dox-scan/Shelbie Breakiron on 2019-04-17 at 16.08.35.rtf"
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
 tags: [relationships, digital-footprint, financial-stress]
 knowledge: mixed
 infobox:
   name: "Shelbie Breakiron"
   relationship_to_dan: unknown
   sex: female
-  first_contact: 2019-05-15
-  known_for: "A sugar-arrangement relationship that ran May-August 2019, involved Annie directly, and ended in a legal threat and a text tirade"
+  first_contact: 2019-04-17
+  known_for: "A sugar-arrangement relationship that ran April/May-August 2019, involved Annie directly, and ended in a legal threat and a text tirade"
 connections:
   - page: wiki/people/annie-ulmer
     type: co-occurs
     claim: "Annie is present throughout the relationship, not concealed — she is discussed, joked about, and directly involved in a three-way arrangement, including the logistics documented on shelbie-annie-threesome-april-2019."
   - page: wiki/timeline/events/shelbie-annie-threesome-april-2019
     type: evidenced-by
-    claim: "The June 8, 2019 three-way logistics exchange in this thread is either a repeat of the arrangement documented there or the corpus's only surviving direct trace of it."
+    claim: "The June 8, 2019 three-way logistics exchange in this thread is either a repeat of the arrangement documented there or the corpus's only surviving direct trace of it; a standalone April 17, 2019 message capture, twelve days before the threesome's stated date, is the earliest primary-dated contact in the corpus and independently confirms the relationship was already live before the threesome and a full month before this thread's own CSV export begins."
   - page: wiki/mind/psychosexual/arrangement-history
     type: instance-of
     claim: "An explicit financial-for-attention/access dynamic ('sugar dad,' recurring cash transfers, 'baby needs spoiled') layered onto a relationship Dan otherwise describes in affectionate terms."
+  - page: wiki/people/kya-hansen
+    type: co-occurs
+    claim: "Shelbie is the recipient of Dan's June 7, 2019 referral of Kya Hansen's OnlyFans/Instagram — sent mid-relationship, while Shelbie herself was building a camming setup, placing the two women's parallel sex-work economies in direct contact through Dan."
+  - page: wiki/people/jenn-lynn
+    type: parallels
+    claim: "Jenn Lynn's 2019–2020 solicitation runs the same uncompensated-friend-into-camming-economy shape as this relationship, but with a boyfriend explicitly in the mix from the start rather than added later — Shelbie is the arrangement-history page's baseline instance for the pattern."
 ---
 
 # Shelbie Breakiron
 
 Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams,
 Snapchat premium) Dan financially supported and saw on the side for
-about three months in 2019, in an arrangement that ran openly alongside
+about four months in 2019, in an arrangement that ran openly alongside
 his relationship with [[wiki/people/annie-ulmer|Annie]] — the two women
 knew about each other, joked about the arrangement directly, and at
 least once coordinated a three-way visit together. The full corpus
@@ -32635,25 +32883,49 @@ least once coordinated a three-way visit together. The full corpus
 2019-08-11) is substantially larger than the 306-message, direction-
 unreliable extract this page previously worked from, and a full export
 finally makes Dan's own side of the relationship — and its ending —
-legible for the first time.
+legible for the first time. A single standalone message capture, dated
+**April 17, 2019**, pushes the documented relationship a full month
+before the CSV thread even begins.
+
+## The April 17 capture, and when this actually started
+
+A saved single-message export — `Shelbie Breakiron on 2019-04-17 at
+16.08.35.rtf`, the same handle (`+17249124338`) confirmed via the
+attachment's embedded contact metadata — preserves one exchange from
+April 17, 2019: Shelbie asking Dan why he likes her, and his reply,
+"because you like to hear how great you are :)," alongside an image
+attachment not further analyzed here. This is the earliest dated
+primary contact with Shelbie anywhere in the corpus — twelve days
+before the April 2019 threesome documented on
+[[wiki/timeline/events/shelbie-annie-threesome-april-2019]], and nearly
+a month before the `imessage_export_7249124338_both_all_now.csv` thread
+even starts (2019-05-15). It does not itself confirm the threesome's
+April date, but it closes part of the standing gap: the relationship
+was demonstrably live, familiar, and already flirtatious by mid-April,
+which is consistent with — though not proof of — an April threesome
+rather than a June-only one. Combined with the May 1, 2019 fight in
+which Annie names Shelbie directly as a rival (see below), three
+independent data points now bracket the relationship's real start to
+somewhere in April 2019, a month before any surviving message thread
+begins.
 
 ## The arrangement
 
-The relationship opens as an explicit exchange: Dan pays for her
-transportation, gives her a laptop, and at one point references a
-$5,000 figure ("enjoy the $5,000 and laptop i gave you"), framed around
-her attempts to build a camming setup — a "cam room," MyFreeCams
-approval, Snapchat premium content. Dan calls himself her "sugar dad"
-and jokes about the imbalance directly ("i think idk / do i look like
-someone with a lot of experience"), while also describing real
-affection: "i think you're absolutely perfect," "i really tried to be
-good to you. i like you a lot," visits planned around her strip-club
-shifts and his trips into town. He is candid with her about his other
-relationship from the start — telling her plainly in a May 21 message
-that he lives with his girlfriend in New York and won't hide it, and
-naming Annie by name repeatedly and casually throughout, including
-having Annie "in my ear gloating that i look stupid for trying so hard
-with you."
+The relationship, once the CSV thread opens on May 15, reads as an
+explicit exchange: Dan pays for her transportation, gives her a laptop,
+and at one point references a $5,000 figure ("enjoy the $5,000 and
+laptop i gave you"), framed around her attempts to build a camming
+setup — a "cam room," MyFreeCams approval, Snapchat premium content.
+Dan calls himself her "sugar dad" and jokes about the imbalance
+directly ("i think idk / do i look like someone with a lot of
+experience"), while also describing real affection: "i think you're
+absolutely perfect," "i really tried to be good to you. i like you a
+lot," visits planned around her strip-club shifts and his trips into
+town. He is candid with her about his other relationship from the
+start — telling her plainly in a May 21 message that he lives with his
+girlfriend in New York and won't hide it, and naming Annie by name
+repeatedly and casually throughout, including having Annie "in my ear
+gloating that i look stupid for trying so hard with you."
 
 Money trouble runs underneath most of the thread's daily texture: broken
 Cash App and Venmo, requests routed through PayPal or Facebook Pay, and
@@ -32675,6 +32947,14 @@ matches the three-way dynamic documented on
 [[wiki/timeline/events/shelbie-annie-threesome-april-2019]]; whether
 June 8 is a second occasion or the corpus's only direct trace of that
 same arrangement remains unresolved (see Gaps).
+
+An overlapping thread makes Shelbie visible in a second, adjacent
+economy: on **June 7, 2019**, mid-relationship, Dan sends her
+[[wiki/people/kya-hansen|Kya Hansen]]'s Instagram handle
+(`instagram.com/bbblud`) with two images — the same window in which
+Shelbie herself is assembling a camming setup. Two women Dan was
+independently promoting or supporting inside the sex-work economy were,
+for one message, put in direct contact with each other through him.
 
 ## The breakup (July 16, 2019)
 
@@ -32698,8 +32978,8 @@ no resolution.
 
 ## The aftermath (August 2019)
 
-Contrary to the prior read of this thread as ending cold on July 16,
-Dan follows up nearly a month later with two more messages: an August 9
+Contrary to a prior read of this thread as ending cold on July 16, Dan
+follows up nearly a month later with two more messages: an August 9
 demand, giving Johnny (an intermediary) until 7am the next morning to
 return the ring light, DJ rig, and laptop or he'd "be filing this," and
 a final August 11 message — "i'll be stopping by with a few state
@@ -32711,21 +32991,33 @@ No reply from Shelbie is preserved after July 16.
 
 | Metric | Value |
 |---|---|
-| Messages | 685 (iMessage/SMS, both directions) |
-| Date range | 2019-05-15 – 2019-08-11 |
+| Messages | 685 (per-thread CSV export, both directions) |
+| Date range | 2019-05-15 – 2019-08-11 (thread); April 17, 2019 earliest dated contact |
 | Handle | +17249124338 |
 | Defining content | The sugar-arrangement texture; the July 16 breakup; the August legal-threat follow-up |
+
+**Instrument note:** `all_imessages_complete_dump.txt` — the file
+`EXTRACTION_SPEC.md` treats as authoritative for direction — only
+carries 471 messages for this handle (165 Sent / 306 Received),
+against 685 in the dedicated per-thread CSV. Rather than pick one
+silently, both are recorded: the CSV's own direction column (not
+"everything marked Received," the trap the dump file exists to guard
+against) reads as reliable on inspection, so 685 is kept as the page's
+figure, and the gap is logged as an unexplained shortfall in the
+complete-dump export for this specific thread, not a reason to distrust
+either source.
 
 **Gaps:** real last name and any life after August 2019 are
 undocumented. Whether the June 8, 2019 three-way logistics text is a
 second occurrence of the arrangement described on
 [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] or the same
-event's only trace in this handle's thread is unresolved — Shelbie's
-own iMessage thread starts May 15, 2019, but a May 1, 2019 fight (Annie,
-retaliating for an overnight Dan spent with her, calling her "a fucking
-low life Fayette County stripper") confirms the relationship predates
-this thread's start, supporting an April origin independent of this
-number.
+event's only trace in this handle's thread is unresolved — the CSV
+thread starts May 15, 2019, but the April 17 capture above and a May 1,
+2019 fight (Annie, retaliating for an overnight Dan spent with her,
+calling her "a fucking low life Fayette County stripper") both confirm
+the relationship predates this thread's start, supporting an April
+origin independent of this number. The image attached to the April 17
+capture was not analyzed for this pass.
 
 
 ========================================================================
@@ -33010,7 +33302,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 infobox:
   name: Suzanne Frank
   status: Active
@@ -33346,6 +33638,16 @@ mother, which is itself data.
   in the corpus.
 - The "wine mom" / evening-rhythm characterization is Dan's; no independent
   account of her relationship to alcohol is on file.
+
+  **RE-CHECKED (2026-08-09):** [[wiki/timeline/events/fran-death-vigil]] was
+  modified — a second, independent telling of the bedside-test moment (given
+  to [[wiki/people/eric-jester]] a day or two after the Lucie Dobbin account,
+  and diverging from it in several particulars) was added, along with a paid
+  caregiving detail and Dan's own inheritance-driven reason for leaving
+  Pennsylvania. None of this touches Suz's role on that page — her caretaking
+  presence, the estate-distribution and 463-arrangement pattern it seeds — which
+  is about her physical presence through the ending, not about which version of
+  Dan's bedside story is accurate. This page's claim survives unchanged.
 
 
 ========================================================================
@@ -34331,10 +34633,23 @@ date_created: 2026-06-23
 date_modified: 2026-07-14
 date_range_start: 2019-03-12
 date_range_end: 2019-12-24
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan/history.txt", "raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md"]
-related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threesome-april-2019", "wiki/people/eric-jester", "wiki/self/message-corpora/master-message-dump", "wiki/mind/psychosexual/arrangement-history"]
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan/history.txt", "raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md", "raw/self/dox-scan/all_imessages_complete_dump.txt"]
+date_modified: 2026-08-09
 tags: [relationships, digital-footprint]
 knowledge: mixed
+connections:
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Annie is a direct participant in the booking, present for the hour Trinity was paid to spend with the couple."
+  - page: wiki/timeline/events/shelbie-annie-threesome-april-2019
+    type: co-occurs
+    claim: "Both are 2019 paid/arranged third-party encounters inside the same relationship window, documented at different levels of financial specificity."
+  - page: wiki/people/eric-jester
+    type: evidences
+    claim: "Dan's April 8, 2019 message to Eric — 'paid $1500 last week to have pornstar trinity st clair come hang out with my girlfriend and i for exactly one hour' — independently corroborates the booking cost and dates it to roughly the last week of March 2019, a specific figure not preserved in Trinity's own thread."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: instance-of
+    claim: "The clearest paid-professional instance on the arrangement timeline, with a dollar figure attached."
 infobox:
   name: "Trinity St Clair"
   relationship_to_dan: unknown
@@ -34394,9 +34709,6 @@ casual text rather than a real second rate.
 
 The December 2019 booking inquiry's outcome is undocumented. No literal OnlyFans DM export or email correspondence with Trinity herself survives in the raw corpus — the "vouch for us" reference is known only from Dan's own retelling in a text to Annie, not from the email itself. Whether the browser-history download of a Trinity St. Clair clip (undated, found in a late-night viewing session alongside dozens of other performers' content) predates or postdates the March 2019 booking is not established — it may represent prior familiarity with her work that led to the booking, or unrelated later viewing.
 
-## Related
-
-[[wiki/people/annie-ulmer]] · [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · [[wiki/people/eric-jester]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/psychosexual/arrangement-history]]
 
 
 ========================================================================
@@ -40250,7 +40562,7 @@ status: stable
 importance: high
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
@@ -40313,6 +40625,9 @@ connections:
   - page: wiki/people/fred-adams
     type: caused-by
     claim: "The 24-hour rotation existed because the estate's trustee ordered it, which is what made the family's exclusion of Dan and Annie a formal act rather than a social slight."
+  - page: wiki/people/eric-jester
+    type: evidenced-by
+    claim: "A second telling of the bedside-test moment, given to Eric a day or two after the Lucie Dobbin account and diverging from it — falling asleep rather than staying awake, a blink rather than a smile, a recovery rather than the death itself — is not corroboration so much as a second, honestly non-matching data point on the same act, along with a new fact neither other source carries: the caregiving was paid, $15/hour, and Dan names the inheritance as his reason for leaving Pennsylvania the same week she died."
 ---
 
 # The Fran Vigil (March–April 2018)
@@ -40479,6 +40794,29 @@ just how differently the world might be than i had originally
 thought" — the record's most direct statement of genuine uncertainty
 anywhere in his corpus, offered nowhere else with this candor.
 
+A second telling exists, given to [[wiki/people/eric-jester|Eric
+Jester]] a day or two after the Lucie message, and it does not match in
+every particular. To Eric, Dan describes falling asleep at the bedside
+rather than staying awake for the test; the sign that follows is a
+blink, not a smile, and it comes with his girlfriend waking *him* rather
+than the two of them witnessing it together; and the moment reads as a
+recovery of presence — "she was like there again... she looked the same
+even" — rather than the death itself, which by his own account to Eric
+followed a four-day hospice stretch rather than arriving within minutes
+of the sign. Both tellings are Dan's own words, within 48 hours of each
+other, to two different friends, and both center the same structural
+act: a silent, deliberately skeptical test of an idea he says he doesn't
+believe in, validated by a startled witness. They are recorded here side
+by side rather than resolved into one version — memory and retelling
+under acute grief and exhaustion are the more parsimonious explanation
+than either account being invented, but nothing in the corpus settles
+which detail belongs to which night, or whether they describe the same
+moment at all. The Eric telling adds one fact neither the Lucie message
+nor any other source carries: the caregiving arrangement was paid, "$15
+an hour," and Dan names the inheritance money as his reason for wanting
+to leave Pennsylvania in the same breath he closes the story — dating
+that intention to the week of her death, not a later decision.
+
 A memorial celebration followed at the Uniontown Country Club, May 6,
 2018, 12–4 PM — deliberately framed, per Dan's invitation to Lucie, as
 "a happy occasion and something that gram would have approved of,"
@@ -40546,7 +40884,7 @@ aliases: ["the franki fandango", "the fireworks day"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 date_range_start: 2013-07-01
 date_range_end: 2013-07-31
 sources:
@@ -40583,6 +40921,9 @@ connections:
   - page: wiki/timeline/periods/uniontown-return-2013-2015
     type: component-of
     claim: "This is the day the return period stops being a depressive interval and starts producing consequences: the Alexis relationship breaks, the DJ controller becomes an occupation, and the pattern Dan later calls 'Franki Faris 2.0' is established."
+  - page: wiki/people/eric-jester
+    type: evidenced-by
+    claim: "A July 5, 2013, 1:31 AM message to Eric — 'dude i got punched in the face by alexis today hahaha' — is the first primary-dated evidence located anywhere for this day, narrowing 'early July' to the July 4–5 weekend and adding a physical altercation absent from every other account; the same thread also supplies fresh texture for the Boston Marathon chaos-preference claim below — a named friend, Kendel, was two blocks from the blast, which Dan calls Eric about the same week Eric moves back to Orlando."
 ---
 
 # The Franki Fireworks Day (early July 2013)
@@ -40696,9 +41037,16 @@ immediately.
 
 ## Gaps
 
-- **The date is not fixed.** "Early July 2013" plus a fireworks display is as
-  close as the record gets. A dated ATM withdrawal on Suz's account, or a
-  Uniontown fireworks schedule for 2013, would close it.
+- **The date is narrowed, not fixed.** "Early July 2013" plus a fireworks
+  display was as close as the record got until this pass: a July 5, 2013,
+  1:31 AM message from Dan to [[wiki/people/eric-jester|Eric Jester]] —
+  "dude i got punched in the face by alexis today hahaha" — is the first
+  primary-dated evidence located anywhere for this day, and it narrows the
+  window to the July 4–5 weekend specifically. It does not resolve whether
+  "today" means the 4th or the 5th, and it adds a fact no other account
+  carries: whatever happened when Alexis found out escalated to a physical
+  blow. A dated ATM withdrawal on Suz's account, or a Uniontown fireworks
+  schedule for 2013, would close the remaining ambiguity.
 - **The five-day figure is now attached to two different things.** See the
   contradiction recorded on [[wiki/people/franki-faris]]: the wiki has carried
   "a five-day rebound" as the length of the Franki relationship, while this
@@ -41903,17 +42251,32 @@ date_created: 2026-07-14
 date_modified: 2026-07-14
 date_range_start: 2019-04-01
 date_range_end: 2019-04-30
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/people/annie-ulmer", "wiki/people/shelbie-breakiron", "wiki/timeline/periods/2018-deep-cycle"]
+sources:
+  - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/dox-scan/Shelbie Breakiron on 2019-04-17 at 16.08.35.rtf"
+date_modified: 2026-08-09
 tags: [relationships]
 knowledge: earned
+connections:
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Annie is a direct participant, not a bystander — the threesome is the clearest instance in the record of the couple's arrangement running with a woman rather than the more heavily documented male third party."
+  - page: wiki/people/shelbie-breakiron
+    type: evidences
+    claim: "This event is the reason Shelbie enters the corpus at all as more than a fling — a standalone April 17, 2019 message capture, twelve days after this event's dated month, independently confirms the two were already in dated contact by mid-April, tightening the window around Dan's own April dating rather than settling it outright."
+  - page: wiki/timeline/periods/2018-deep-cycle
+    type: co-occurs
+    claim: "Falls inside the same window as the deep-cycle period's other documented non-monogamy instances."
+  - page: wiki/people/trinity-st-clair
+    type: co-occurs
+    claim: "Both are 2019 paid/arranged third-party encounters inside the same relationship window, documented at different levels of financial specificity."
 ---
 
 # Shelbie/Annie Threesome (April 2019)
 
 A three-way sexual encounter between Dan, [[wiki/people/annie-ulmer|Annie]], and [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], dated April 2019 per Dan's own account. It is the clearest instance in the record of the couple's quasi-non-monogamous arrangement running with a woman rather than the more heavily documented male-third-party (Tom-type) encounters, and it predates the 2018-onward "Dan-architected" framework's formal description in the later dossiers — placing an early, concrete data point on when that arrangement actually started operating in practice.
 
-> **Sourcing note:** this event is recorded on Dan's direct account. The Shelbie message thread in `MASTER_MESSAGES_DB_DUMP.csv` only begins 2019-05-15, so it cannot independently confirm an April date; the corpus's closest corroborating material is a June 8, 2019 exchange in which Shelbie, Dan, and Annie coordinate a repeat or adjacent hangout in the same configuration (Shelbie: "U ad Annie duh," "We can hang for sure I'm fed not fucking her today," referencing Annie's period as the reason that night wouldn't be sexual) — see [[wiki/people/shelbie-breakiron]] for the full thread. Whether April and June 8 are two separate occasions or the same event misdated is unresolved.
+> **Sourcing note:** this event is recorded on Dan's direct account. The Shelbie message thread in `MASTER_MESSAGES_DB_DUMP.csv` only begins 2019-05-15, so it cannot independently confirm an April date; the corpus's closest corroborating material is a June 8, 2019 exchange in which Shelbie, Dan, and Annie coordinate a repeat or adjacent hangout in the same configuration (Shelbie: "U ad Annie duh," "We can hang for sure I'm fed not fucking her today," referencing Annie's period as the reason that night wouldn't be sexual) — see [[wiki/people/shelbie-breakiron]] for the full thread. A separate, standalone message capture dated **April 17, 2019** — twelve days after this event's stated month, and a full month before the CSV thread starts — confirms Dan and Shelbie were already in familiar, flirtatious contact by mid-April, narrowing but not closing the gap on whether this event happened as told. Whether April and June 8 are two separate occasions or the same event misdated is unresolved.
 
 ## What happened
 
@@ -41980,11 +42343,7 @@ Shelbie's own iMessage number doesn't start texting until two weeks later.
 
 ## Gaps
 
-Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown; Shelbie's thread ends in a hostile breakup on July 16, 2019 with no further contact recorded.
-
-## Related
-
-[[wiki/people/annie-ulmer]] · [[wiki/people/shelbie-breakiron]] · [[wiki/timeline/periods/2018-deep-cycle]]
+Exact date within April 2019 is not established, though the April 17 capture (see sourcing note) narrows the plausible window. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown; Shelbie's thread ends in a hostile breakup on July 16, 2019 with no further contact recorded.
 
 
 ========================================================================
@@ -42971,6 +43330,9 @@ date_modified: 2026-07-18
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/LIFE REPORT.md", "raw/self/dox-md/Gemini-_00.md"]
 related: ["wiki/timeline/events/timeline", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/totality-themes"]
 connections:
+  - page: wiki/timeline/events/shelbie-annie-threesome-april-2019
+    type: co-occurs
+    claim: "Falls inside the same window as this period's other documented non-monogamy instances."
   - page: wiki/people/johnny-dealer
     type: contains
     claim: "Johnny's 3,462-message logistics thread is this period's material infrastructure — the fronts, 1 AM ATM runs, and delivery cadence are the deep cycle at ground level."

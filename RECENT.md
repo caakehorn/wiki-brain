@@ -8,7 +8,9 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-09 — 7 pages
+## 2026-08-09 — 13 pages
+
+- **Session log:** connect | timeline/health/people | robotussin's last dance — age correction and write-back completion (PR #91 fixes)
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -17,7 +19,13 @@ simply listed.
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — rick-frank was modified: a new co-occurs edge and prose paragraph document June 15, 2005 — a DXM-fueled Tom Petty trip during which Rick is described as already a "non-factor" in what Dan could or cou |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — rick-frank was modified: a new connection and prose paragraph document June 15, 2005, the day Dan worked a Frank's Auto Supermarket delivery shift before a DXM-fueled trip that night, sourced from [[w |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — rick-frank was modified: a new connection and prose paragraph document June 15, 2005, a Frank's Auto Supermarket workday preceding a DXM-fueled trip involving Dan, not Rick, sourced from [[wiki/timeli |
+| [[wiki/people/eric-jester]] | people | **CORRECTED** — The previous version of this page cited only `MASTER_MESSAGES_DB_DUMP.csv` and `interspersed_messages.csv`, reported "103 messages" and flagged direction as "unreliable in this export... marked Receiv |
+| [[wiki/people/jason-bermejo]] | people | **CORRECTED** — The previous version of this page claimed "451+ messages," a date range running to 2026-03-21, and a "Feb 2026 renewal... 400+ messages in a single month, the thread's all-time peak, landing in the ra |
 | [[wiki/people/rick-frank]] | people | — |
+| [[wiki/people/shelbie-breakiron]] | people | — |
+| [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED)_ |
+| [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a GAP CLOSED from 2026-08-02)_ |
+| [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/events/robotussin-s-last-dance]] | timeline | — |
 
 ## 2026-08-08 — 11 pages
@@ -55,7 +63,7 @@ simply listed.
 | [[wiki/people/lucy]] | people | — |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-08-08)_ |
 
-## 2026-08-02 — 54 pages
+## 2026-08-02 — 51 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -113,14 +121,11 @@ simply listed.
 | [[wiki/people/milo]] | people | — |
 | [[wiki/people/morley-frank]] | people | — |
 | [[wiki/people/sadie-harris]] | people | _(carries a CONTRADICTION)_ |
-| [[wiki/people/suzanne-frank]] | people | — |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/self/context-core]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/lineage/family-tree]] | self | **CORRECTED** — This page previously drew Fran's descent to Dan through **George Dixon Shrum Jr.**, the maternal grandfather. Read directly from the GEDCOM's family records (`Daniel Frank family tree.txt`), it is the |
 | [[wiki/self/message-corpora/master-message-dump]] | self | — |
 | [[wiki/timeline/events/bald-eagle-cummings]] | timeline | — |
-| [[wiki/timeline/events/fran-death-vigil]] | timeline | **GAP CLOSED** — This page had carried "the punchline of the SMOK-vs-10W vape story (set up in the session, delivered only in an uploaded video — fire alarm? staff incident?)" as an open question since 2026-07-19. Two |
-| [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/events/july-2026-recontact]] | timeline | — |
 | [[wiki/timeline/events/july-august-2026-reentanglement]] | timeline | — |
 | [[wiki/timeline/events/teen-concert-years]] | timeline | **CONTRADICTION** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate |
@@ -283,7 +288,7 @@ simply listed.
 | [[wiki/self/lineage/index]] | self | — |
 | [[wiki/work/caviar-courier]] | work | — |
 
-## 2026-07-20 — 43 pages
+## 2026-07-20 — 42 pages
 
 - **Session log:** ingest | people | FB deep-scrape XII — matthew-palermo (new tier-one entry)
 - **Session log:** ingest | people | FB deep-scrape XIII — david-beard (new tier-one entry)
@@ -352,7 +357,6 @@ simply listed.
 | [[wiki/people/sean-teets]] | people | — |
 | [[wiki/people/seth-ledonne]] | people | — |
 | [[wiki/people/shannon]] | people | — |
-| [[wiki/people/shelbie-breakiron]] | people | — |
 | [[wiki/people/tarik-fallous]] | people | **REVISED** — the prior version of this page stated flatly that "Tarik is a peripheral work figure with no independent message corpus" and that everything here came from the Gemini "STORYTIME" reconstruction. That  |
 | [[wiki/places/90th-st-manhattan]] | places | — |
 | [[wiki/places/index]] | places | — |
@@ -367,7 +371,7 @@ simply listed.
 | [[wiki/work/tech/index]] | work | — |
 | [[wiki/work/tech/mneme/overview]] | work | — |
 
-## 2026-07-19 — 52 pages
+## 2026-07-19 — 50 pages
 
 - **Session log:** ingest | people | long-tail MINE pass (sam, davey-fitzpatrick, vaughn, nick-mattie, urpaaa) + kezmarsky death-claim correction
 - **Session log:** ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
@@ -411,10 +415,8 @@ simply listed.
 | [[wiki/people/drew-mcgettigan]] | people | — |
 | [[wiki/people/ej-rags]] | people | — |
 | [[wiki/people/elizabeth-eleanor]] | people | — |
-| [[wiki/people/eric-jester]] | people | — |
 | [[wiki/people/jack-rusko]] | people | — |
 | [[wiki/people/jamie-mohler]] | people | — |
-| [[wiki/people/jason-bermejo]] | people | **REVISED** — This section previously listed "Jamie Mohler" as Jason's current girlfriend. That was a misread of a single out-of-context corpus line. In full context (2025-10-06, Jason's thread), Dan is telling Jas |
 | [[wiki/people/jenn-lynn]] | people | — |
 | [[wiki/people/kelly-johansson]] | people | — |
 | [[wiki/people/kristin]] | people | _(carries a REVISED from 2026-02-17)_ |

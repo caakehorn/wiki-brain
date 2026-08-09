@@ -20,6 +20,9 @@ connections:
   - page: wiki/mind/psychosexual/arrangement-history
     type: component-of
     claim: "A three-year, repeatedly-solicited but never definitively confirmed swap arrangement with a local couple (Jenn and her boyfriend Brad) — distinct from the paid-professional and ex-partner instances already on the timeline in running alongside an ordinary Uniontown drug-sourcing friendship rather than a commercial or NYC-scene relationship."
+  - page: wiki/people/shelbie-breakiron
+    type: parallels
+    claim: "The same uncompensated-friend-into-camming/swap-economy shape as the Shelbie relationship, but with a boyfriend explicitly in the mix from the start rather than added later — Shelbie is the arrangement-history baseline instance this pattern is measured against."
 ---
 
 # Jenn Lynn

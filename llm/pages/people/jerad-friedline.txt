@@ -7,7 +7,11 @@ status: stable
 date_created: 2026-06-23
 date_modified: 2026-07-12
 sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/facebook/facebook-ihatedanfrank/friends_and_followers/friends.html", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-related: ["wiki/self/context-core", "wiki/timeline/periods/2020-2021-market-era", "wiki/self/message-corpora/master-message-dump", "wiki/self/twitter", "wiki/self/facebook", "wiki/people/kya-hansen"]
+related: ["wiki/self/context-core", "wiki/timeline/periods/2020-2021-market-era", "wiki/self/message-corpora/master-message-dump", "wiki/self/twitter", "wiki/self/facebook"]
+connections:
+  - page: wiki/people/kya-hansen
+    type: evidences
+    claim: "Jerad's March 23, 2020 conversation about the camming economy, and his ambiguous 'I don't think that's her,' is the corpus's only other dated contact point for Kya beyond the Shelbie referral, and the only place any doubt about her identity surfaces."
 tags: [relationships, politics]
 infobox:
   name: "Jerad Friedline"

@@ -91,8 +91,6 @@ related:
   - wiki/mind/psychosexual/arrangement-history
   - wiki/people/tuquick-17248123683
   - wiki/work/au-zaatar
-  - wiki/people/shelbie-breakiron
-  - wiki/people/trinity-st-clair
   - wiki/mind/concepts/contact-gini
   - wiki/mind/concepts/forensic-method
   - wiki/mind/concepts/dans-law
@@ -101,6 +99,15 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/people/shelbie-breakiron
+    type: co-occurs
+    claim: "Annie is present throughout the Shelbie relationship, not concealed — the two women knew about each other, joked about the arrangement, and coordinated at least one three-way visit directly."
+  - page: wiki/timeline/events/shelbie-annie-threesome-april-2019
+    type: co-occurs
+    claim: "Annie is a direct participant, not a bystander — the clearest instance in the record of the arrangement running with a woman rather than the more heavily documented male third party."
+  - page: wiki/people/trinity-st-clair
+    type: co-occurs
+    claim: "Annie is present for the paid hour Trinity was booked for, the arrangement's clearest paid-professional instance."
   - page: wiki/people/alexis-armel
     type: follows
     claim: "Annie was Alexis's coworker before she was Dan's partner, so the November 2015 replacement was not merely fast but internal — it came out of the displaced partner's own workplace, which is why the social fallout was immediate and public."
