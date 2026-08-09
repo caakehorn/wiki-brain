@@ -31,7 +31,7 @@ connections:
     type: co-occurs
     claim: "The same 2007 status layer that documents the tour devotion names 'slaying on halo' and Super Mario Galaxy — gaming is a sibling coordinate of the teenage identity cluster this page reconstructs."
   - page: wiki/timeline/events/robotussin-s-last-dance
-    type: co-occurs
+    type: contains
     claim: "A June 15 2005 sold-out Tom Petty lot at Burgettstown is the concert record's off-grid entry: the destination was reached, the show was not seen, and the DXM-laced drive back on Rt 51 is the substance context the Tom Petty minivan memory had always left blank."
 ---
 

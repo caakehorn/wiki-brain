@@ -6,7 +6,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources:
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -44,6 +44,9 @@ connections:
   - page: wiki/timeline/periods/dark-era-2007-2008
     type: evidenced-by
     claim: "A November 2007 Las Vegas trip is newly dated as the point physical opiate dependence became undeniable, and a winter 2008 single heroin attempt was rejected on aesthetic grounds ('felt dirty') rather than fear of the drug itself."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: contains
+    claim: "The June 15 2005 DXM trip to a sold-out Tom Petty show — 20–40 capsules taken deliberately to 'shatter the space-time continuum' — is the earliest documented instance of Dan naming a substance's purpose in language that prefigures the engineered-stack framing this page describes a decade later, and predates the household's first cocaine use by weeks to months."
 ---
 
 # Chemical Architecture
@@ -100,7 +103,15 @@ substance later implicated in the November 2005 rupture (his father's
 rehab admission, his mother's affair with their dealer) was already a
 familiar, "adult" behavior in the house years before that hinge event,
 which complicates any clean story where the divorce alone triggers the
-pattern. His own first cocaine use follows at 17–18 (2005–2006), in the
+pattern. A few weeks to months before that first cocaine use, on June 15, 2005
+(age 16), Dan took the largest DXM dose of his life — 20–40 red gel
+capsules, on the way to a sold-out Tom Petty show he never got into —
+which he describes taking deliberately to "shatter the space-time
+continuum," the earliest instance in the corpus of him naming a
+substance's purpose in the same register he later uses for the
+engineered stack itself
+([[wiki/timeline/events/robotussin-s-last-dance]]). His own first
+cocaine use follows at 17–18 (2005–2006), in the
 [[wiki/places/seven-springs|Seven Springs]] ski-crew context, and this
 retrospective explicitly frames the choice as instrumental as much as
 social: cocaine as a chemical means of weight control tied to the
