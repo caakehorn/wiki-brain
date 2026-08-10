@@ -12,6 +12,7 @@ simply listed.
 
 - **Session log:** rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
 - **Session log:** ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
+- **Session log:** rewrite | people, places | annie-ulmer.md wiki-rewrite pass + 3 manual captures — sex resumption, the 307 E 76th St cast, Suz's Winter Park condo
 
 | Page | Domain | What moved |
 |---|---|---|

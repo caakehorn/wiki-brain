@@ -43,6 +43,9 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The drawer dispute is the micro-scale exhibit of the vertical-skepticism architecture: an unverified claim from above, backed by social pressure rather than records, met with procedural analysis and refusal."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "The May 2026 termination landed inside the same two-to-three-week window as the June 1 severance and the 337 Saratoga move-out notice — named by the operator himself, in one AI session, as a single compounding crisis ('aura illness')."
   - page: wiki/people/tom
     type: caused-by
     claim: "The entire incident cascade traces upstream to Tom's mid-May 2026 supply failure — the withdrawal it caused is what impaired the shift the drawer variance was then pinned to."

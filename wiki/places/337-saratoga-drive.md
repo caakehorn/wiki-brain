@@ -27,6 +27,9 @@ connections:
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "The $465k sale is the money spine's next capital event and the first where Dan is bystander rather than beneficiary — the family-built asset liquidating around him."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "The move-out notice ('we have to move out in like 3 weeks') lands the same week as the June 1, 2026 relationship severance — one of three compounding crises Dan named together, alongside a job termination and a friendship's collapse, as his own coined 'aura illness.'"
 ---
 
 # 337 Saratoga Drive

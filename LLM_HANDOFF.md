@@ -6,6 +6,28 @@
 
 ---
 
+### [2026-08-10] - Session (continued a third time): annie-ulmer.md deep-mining pass — new events from previously unread raw/ sources
+* **Model:** Claude Sonnet 5 (Claude Code, remote)
+* **Branch:** `claude/annie-ulmer-rewrite-and-captures` (same branch/PR as the previous entry — this is a second round of work on the still-open draft PR, not a new one)
+* **Trigger:** Operator, after the integration pass below: "no i want like an actual substantial rewrite of the annie entry by scrapining and minining a BUNCH of new data points or events to add in."
+* **Method:** Surveyed all 212 raw/ files touching "annie"/"ulmer," cross-checked against the page's already-long `sources:` list, and read to exhaustion the highest-value unmined files — two AI-analysis sessions (Grok "aura illness," Claude "interpersonal manipulation," both working from primary logs) plus a re-sweep of `LIFE_EVENTS_CALENDAR.md` (already sourced, not previously exhausted for Annie mentions).
+* **Five new findings:**
+  1. Annie's pre-Dan paid-content history and a blackmail episode (Oct 2018 retrospective mention) — predates the MyFreeCams history already on the page.
+  2. Grandfather Jim's death dated to **2019-10-02** — the origin point of the recurring Sugie-caregiving alibi; written back to `ellen-ulmer.md`.
+  3. Target G/"Whisk" section gained real resolution: four dated exchanges (Jan 5/9, Feb 1, Mar 1 2026) from a previously unmined Claude session, the most valuable being **Annie herself unprompted naming "Caitlin's husband"** (Feb 1, tied to an undisclosed five-sleeping-pills incident) — materially stronger than the dossiers' secondhand label the page carried before.
+  4. Independent April 2025 corroboration of the $10,000 landlord debt, plus a new $7,000 Con Edison utility debt not previously on this page.
+  5. The isolation compounding around the June 1, 2026 severance, named as one event in Dan's own words (a May 2026 BFS Foods termination + the 337 Saratoga move-out notice + Tom Maison's fallout over $35), including his own coined term **"aura illness."**
+* **Deliberately NOT added:** several quantified figures from the mined AI sessions (91 love-to-request instances, 94 burst events at a different count, 52 fell-asleep alibis, a 1.22x→1.94x response ratio) were checked against the page's own already-verified, more rigorously XML-parsed figures and found to be the weaker source in each case — not substituted in. Source-tiering discipline applies to which AI-secondary count wins, not just whether to trust one.
+* **New connections:** `annie-ulmer.md` ↔ `wiki/work/bfs-foods` and `wiki/places/337-saratoga-drive` (co-occurs). Prose-only cross-references to `wiki/people/tom.md` and `wiki/people/ellen-ulmer.md` (existing edges there already covered different facts).
+* **Gates:** wiki-lint **450 pages / 0 errors** (13 warnings, unchanged; `annie-ulmer.md` now 96KB, advisory) · wiki-connect check **0 errors** (216 warnings, unchanged — both new edge pairs matched) · wiki-climb check **450 pages, 23 with `synthesizes:`, 0 errors, 0 warnings** (no new cascade — same-day edit). `bin/wiki-digest` and `bin/llm-publish` rerun.
+* **RESUME POINT:**
+  1. **The four new Target G exchanges are one level removed from raw** — transcribed from a prior AI session's own reading of the timestamped log, not re-verified directly against `all_imessages_complete_dump.txt`. A `bin/mine-messages grep` pass around Jan 5, Jan 9, Feb 1, and Mar 1 2026 would settle it.
+  2. **Annie's Feb 1 "five sleeping pills" disclosure is uncorroborated** — worth a direct check against the primary corpus given its severity.
+  3. **`raw/self/dox-md/Attachment and Trust Breakdown.md` (2,408 lines) and `The-Eli-incident-investigation.md` were surveyed but not read to exhaustion** — grepped for structure and found to be largely theoretical/psychological framework material likely already reflected in the existing attachment-trauma-bond/eli-incident pages, but this was a judgment call under time pressure, not a confirmed finding. A future pass could verify that judgment directly.
+  4. **`dfrank-chatgpt-conversations-2022-2025.json`** (a large export) was never opened this pass — flagged as the highest-value remaining unmined file if another mining round is requested.
+  5. Prior resume points from the same day's earlier passes still stand (see the two entries below).
+* **Handoff Note:** All three gates 0 errors. This is a second round of commits on the same still-open draft PR from the previous entry — not a new branch or PR.
+
 ### [2026-08-10] - Session (continued again): annie-ulmer.md wiki-rewrite pass — 3 manual captures (sex resumption, 307 E 76th St cast, Suz's Winter Park condo)
 * **Model:** Claude Sonnet 5 (Claude Code, remote)
 * **Branch:** `claude/annie-ulmer-rewrite-and-captures` (both prior PRs from this session's earlier halves were merged before this continuation)
