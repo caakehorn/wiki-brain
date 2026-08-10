@@ -27,6 +27,9 @@ connections:
   - page: wiki/mind/synthesis/bond-switch-2015
     type: instantiates
     claim: "The 2015 switch is the sx/sp stack's logic executed in real time."
+  - page: wiki/mind/psychosexual/taboo-and-boundary-testing
+    type: parallels
+    claim: "The taboo-as-edge-condition drive is the same sx/sp-fused Ti-Ne pattern documented here, run on sexual and social categories instead of arguments or belief systems."
 ---
 
 

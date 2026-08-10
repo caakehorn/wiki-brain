@@ -19,6 +19,9 @@ connections:
   - page: wiki/mind/psychosexual/orchestration-and-voyeurism
     type: mirrors
     claim: "The two mechanisms sit in documented tension: total imprinting on contact does not obviously predict years of orchestrated exposure — unless authorship over the boundary routes around the imprinting channel, which remains the framework's open structural question."
+  - page: wiki/mind/psychosexual/taboo-and-boundary-testing
+    type: mirrors
+    claim: "Both mechanisms trace to the same 'Pattern Mapping' section of Dan Profile.txt and both have since gained real corroboration from outside that single document — this page from the independently-built attachment model, taboo-and-boundary-testing from the Bryan MMF — so neither is single-sourced any longer, though both remain thin."
 
 ---
 
@@ -54,9 +57,21 @@ to describe the Eli incident's effect on how Dan modeled
 
 ## Where this converges with independently-documented material
 
-Unlike the taboo-and-boundary-testing claim, this mechanism has real
-convergent support, even though it originates in the same single-source
-dossier. [[wiki/mind/concepts/attachment-model]] — built from a much
+> **REVISED [2026-08-10]:** This section previously contrasted this
+> mechanism's "real convergent support" against
+> [[wiki/mind/psychosexual/taboo-and-boundary-testing]], described as
+> having none. That contrast is now only partly true: the taboo page's
+> orientation-violation claim gained a documented primary-source instance
+> (the October 2019 Bryan MMF) on 2026-08-02, though it remains a single
+> dated event rather than a body of cases. The distinction that still
+> holds is the *kind* of convergence — this page's support comes from an
+> independently-built quantitative model (41,073 messages, an
+> activation-asymmetry finding reached without reference to this dossier),
+> while taboo-and-boundary-testing's support is one confirmed real-world
+> event. Both are corroborated; neither is corroborated the same way.
+
+This mechanism has real convergent support, even though it originates in
+the same single-source dossier. [[wiki/mind/concepts/attachment-model]] — built from a much
 broader evidence base, including the primary message corpus rather than a
 single AI report — independently documents an attachment-activation
 asymmetry: nothing before Annie is recorded as triggering full attachment

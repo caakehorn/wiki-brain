@@ -3,12 +3,19 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-26
+date_modified: 2026-08-10
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
+  - raw/self/dox-scan/DanAnnie_CompleteAnalysis_Final.docx
+  - raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx
+  - raw/self/dox-scan/DanAnnie_MoralAnalysis_SFW.docx
+  - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
+  - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
+  - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle (1).md"
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - "raw/self/dox-md/Reassessing with fresh perspective.md"
@@ -69,6 +76,26 @@ connections:
 
 The attachment model details the first documented instance of full attachment-system activation in Dan's history, which occurred during his relationship with [[wiki/people/annie-ulmer|Annie]]. His prior relationships with Danielle, Kelly, and [[wiki/people/alexis-armel|Alexis]] did not trigger this level of psychological attachment. Within Dan's cognitive processing architecture, positive verbal expressions function as absolute rules that remain active until an explicit, unambiguous signal of severance is received. If no explicit severance signal is issued, the internal system is unable to generate a counter-rule to close the model, leaving the attachment loop active indefinitely.
 
+> **CORRECTED [2026-08-10]:** A re-check of the source `.docx` files behind
+> the quantitative table below found two errors and one omission, none
+> visible from reading the page. First, the table's "13 major
+> self-indicting apologies" row cites `TheoryOfEverything_Updated` as its
+> source — but that same document explicitly supersedes the number:
+> "The original report identified 13 major apologies. The audit finds 46
+> self-aware or self-indicting statements across the record — a
+> significantly larger number than previously counted." The page was
+> citing the pre-audit figure from the document that corrects it. Fixed
+> below. Second, the "266 documented relationship events" and "84 cheating
+> and affair subcategory events" rows are not Annie-specific — they are
+> corpus-wide totals from `LIFE_EVENTS_CALENDAR.md`, auto-extracted from
+> 175,358 iMessages across all 66 contacts referenced in the corpus, not
+> from the Annie relationship alone. Relabeled below rather than dropped,
+> since the scale is still informative context. Third, a real omission:
+> four independent source documents converge on **12 documented crisis or
+> suicidal statements from Dan, met with no substantive response** — a
+> data point directly relevant to this model's central claim and absent
+> from the page until now. Added below.
+
 This cognitive architecture is heavily influenced by a multi-generational family layer. A paternal authority wound was established by a parental rupture in 2005, when his father Rick entered rehabilitation and his parents separated, leading to subsequent low-intensity contact. A pattern of functional alcoholism also spans several generations of Dan's family. Conversely, his maternal great-grandmother, Fran Whyel, was his self-described largest life influence. This background encoded relational templates characterized by intermittent attachment, vertical suspicion, and an expectation of abandonment. Further details on these family influences are found in [[wiki/people/rick-frank]], [[wiki/people/fran-coldren]], [[wiki/people/suzanne-frank]], and [[wiki/self/ancestry]].
 
 ## Quantitative Corpus Indicators
@@ -77,17 +104,18 @@ This cognitive architecture is heavily influenced by a multi-generational family
 |---|---|---|
 | Love affirmations from Annie to Dan | 299 | MasterRecord Synthesis (unlocated in primary recount 2026-07-18 — her terminal-phase love-messages: 231; all-time in dual-handle export: 1,302; the 0-severance half IS primary-verified: severance sweep of her 41,073 messages returns only false positives) |
 | Explicit severance signals from Annie to Dan | 0 | Full ten-year Annie Corpus |
-| Documented relationship events | 266 | LIFE_EVENTS_CALENDAR.md |
-| Cheating and affair subcategory events | 84 | LIFE_EVENTS_CALENDAR.md |
-| Written denials of a third-party relationship | 2 | MasterRecord Synthesis |
+| Relationship-tagged events, whole corpus (not Annie-specific) | 266 of 1,104 total event entries | `LIFE_EVENTS_CALENDAR.md` — auto-extracted from 175,358 iMessages, all 66 referenced contacts, 2015-11 to 2026-03; context for scale, not an Annie-relationship figure |
+| Cheating/affair-tagged events, whole corpus (not Annie-specific) | 84 | same auto-extraction; includes events about other relationships (e.g. Alexis's 2010s infidelity, Jeff's affair) alongside Annie material |
+| Written denials of a third-party relationship | 2 (Nov 2025, Feb 2026) | The Nov 2025 instance is dated and quoted in `THE_DAN_FRANK_BOOTLOADER.md` ("a written denial of another person") and discussed at length in `Breaking the anxiety avoidance cycle (1).md` ("No and no" — direct denial of seeing someone else); the Feb 2026 instance is carried only in the Documented Contradictions section below and has no independent primary quote located in this pass |
 | Sequences pairing an affection expression with a request | 187 of 191 (96.6%; earlier partial count 145) | MasterRecord_FINAL |
 | Standalone love declarations, 7-month terminal window | 4 | MasterRecord_FINAL |
-| Documented "fell asleep" alibis | 24 | MasterRecord Synthesis |
-| High-volume communication burst events | 94 | MasterRecord Synthesis |
-| Major self-indicting apologies followed by unchanged behavior | 13 | TheoryOfEverything_Updated |
-| Betrayal confrontations answered with a caretaking crisis | 44 | TheoryOfEverything_Updated |
+| Documented "fell asleep" alibis | 24 | confirmed verbatim across `CompleteAnalysis_Final`, `MasterRecord_March16`, `TheoryOfEverything_Updated` |
+| High-volume communication burst events (10+ consecutive Dan messages, all preceded by Annie's silence) | 94 | `MasterRecord_FINAL` |
+| Self-aware / self-indicting statements followed by unchanged behavior | 46 (supersedes an earlier count of 13 "major" apologies) | `CompleteAnalysis_Final`'s audit: "The original report identified 13 major apologies. The audit finds 46 self-aware or self-indicting statements... a significantly larger number than previously counted." |
+| Betrayal confrontations answered with a caretaking crisis | 44 | confirmed verbatim across `CompleteAnalysis_Final`, `MasterRecord_March16`, `TheoryOfEverything_Updated` |
+| Crisis or suicidal statements from Dan met with no substantive response | 12 | confirmed verbatim across four independent documents (`CompleteAnalysis_Final`, `CompleteRecord_Final`, `MoralAnalysis_SFW`, `TenYears_WithAmendments`); logged responses include a 12-hour silence, a bar name, a complaint about laundry, and "what the hell dan" — none classified in the source material as substantive crisis engagement |
 
-The complete lack of explicit severance signals across a ten-year corpus, combined with two hundred and ninety-nine love affirmations, meant that no internal data was available to generate a counter-rule. Consequently, the attachment model remained active until it was terminated by an external event.
+The complete lack of explicit severance signals across a ten-year corpus, combined with two hundred and ninety-nine love affirmations, meant that no internal data was available to generate a counter-rule. Consequently, the attachment model remained active until it was terminated by an external event. The 12 unmet crisis statements sit inside the same architecture from the opposite direction: even Dan's own most severe signals did not produce a response the model could register as care, and — per the "no counter-rule" structure — a non-response is not a severance signal either, so it too left the loop running rather than closing it.
 
 ## Model Narrative
 
@@ -146,6 +174,43 @@ entirely parasitized by two concrete, unresolved situations (Annie, and
 the post-closure housing void) rather than a freestanding clinical
 pattern, which reframes "treat the anxiety" as possibly the wrong
 target — the loop may be signal, not noise.
+
+## Gaps
+
+**The 127/110 exit-declaration figure used elsewhere in the wiki
+(`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`)
+does not fully reconcile with this page's own source material.**
+`MasterRecord_March16` and `CompleteAnalysis_Final` both describe "127
+false exits" but characterize the re-engagement rate as effectively
+**100%** ("127 false exits with 100% re-engagement is a coercive
+behavioral pattern in its own right"), not the 110-of-127 (87%) figure
+carried on the synthesis pages. `block-unblock-loop.md` already flags its
+own 127/110 pair as `[DERIVED] from the dossier passes`, so this is not a
+new problem this page introduces — but it is worth naming here explicitly,
+since this page's connections claim (below) cites "127/110 cycles" as
+settled. Neither figure has been re-derived directly from
+`all_imessages_complete_dump.txt`; both are dossier arithmetic. A future
+pass with `bin/mine-messages` against the raw dump would settle which
+count (if either) is correct.
+
+**The 299-affirmation / 0-severance-signal pairing remains internally
+asymmetric in its evidentiary weight**, and that asymmetry is worth
+stating plainly rather than letting the two numbers sit side by side as if
+equally solid: the 0 is primary-verified (a direct sweep of Annie's
+41,073 messages), while the 299 has never been located in any of the
+eleven `DanAnnie_*` documents now checked against it, across two separate
+rewrite passes eighteen days apart. The zero is load-bearing; the 299 is
+decorative and should be read that way until a source turns up.
+
+**The two "written denial" instances are unevenly sourced.** The November
+2025 instance ("No and no") has a real primary-adjacent trail — dated in
+`THE_DAN_FRANK_BOOTLOADER.md`'s timeline and discussed at length,
+message-by-message, in `Breaking the anxiety avoidance cycle (1).md`. The
+February 2026 instance has no equivalent trail located in this pass; it
+rests only on the Documented Contradictions section below, itself
+undated to a specific message. If a primary quote for the February
+instance surfaces, it should be added here; if none exists, the "2" in
+the table above should become "1 confirmed, 1 unlocated."
 
 ## Documented Contradictions
 

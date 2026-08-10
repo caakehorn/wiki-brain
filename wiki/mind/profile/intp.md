@@ -28,6 +28,9 @@ connections:
   - page: wiki/interests/film-canon
     type: evidenced-by
     claim: "The Taxi Driver / King of Comedy self-portrait pair in the film canon is the same hyperaware-observer self-myth chosen as a mirror in cinema."
+  - page: wiki/mind/psychosexual/taboo-and-boundary-testing
+    type: parallels
+    claim: "'Compulsive curiosity to find edge conditions and bypass arbitrary limits' is stated in nearly identical language on both pages — the cognitive-style claim and the sexual one are the same mechanism described from two source passes over the same dossier material."
 ---
 
 # INTP — The Cognitive Function Stack

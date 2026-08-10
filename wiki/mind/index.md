@@ -50,7 +50,7 @@ corroborated real-world practice. The authoritative factual spine remains
 
 - [[wiki/mind/psychosexual/index]] — hub: theory-vs-practice provenance split, quick brief, cluster map.
 - [[wiki/mind/psychosexual/orchestration-and-voyeurism]] — the "director, not participant" pattern; flagship case: the 2018 Annie/Alexis reunion.
-- [[wiki/mind/psychosexual/taboo-and-boundary-testing]] — taboo as category-rupture rather than transgression; the thinnest-sourced page in the cluster.
+- [[wiki/mind/psychosexual/taboo-and-boundary-testing]] — taboo as category-rupture rather than transgression; carries one dated primary instance (the Bryan MMF), corrected 2026-08-10 from a stale "thinnest-sourced page in the cluster" claim.
 - [[wiki/mind/psychosexual/emotional-imprinting]] — "unemotional sex is a myth"; crush-activation-on-contact; convergence with the independently-documented attachment model.
 - [[wiki/mind/psychosexual/arrangement-history]] — the primary-source backbone: every dated, named instance across a decade.
 - [[wiki/mind/psychosexual/developmental-origins]] — three convergent accounts: the 2005 parental-rupture axiom, the emo/pop-punk imprinting era, the sx/sp instinctual stack.

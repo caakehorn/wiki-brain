@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
@@ -294,6 +294,22 @@ ingest (Tuquick = Jerel Wayne Coles, see [[wiki/people/jerel-coles]]) — a
 chronology row and a Target G revision note. Neither touches the 127/110
 exit-relapse count, the announcement-predicts-non-execution rule, or any
 prediction this page tracks. No finding here is affected.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/concepts/attachment-model]], rewritten the same day. The
+rewrite's Gaps section names the same 127/110-vs-"100% re-engagement"
+discrepancy this page already carries as `[DERIVED]` below — it does not
+resolve it, just states it more explicitly and traces the "100%"
+alternative reading to `MasterRecord_March16` and `CompleteAnalysis_Final`
+directly. Nothing here changes as a result: this page's own Gaps already
+flagged the pair as needing a primary recount, and that recommendation
+stands, now with a specific alternative number to test against rather
+than an open question. The rewrite's other changes (the corpus-wide
+relabeling of the 266/84 figures, the corrected apology count, the added
+12-crisis-statement data point) do not touch the announcement rule, the
+Menore control, or any prediction this page tracks.
 
 ## Gaps
 
