@@ -60,7 +60,7 @@ connections:
     claim: "The 2020 conversion turning immediately on the family's union-busting money is a dated case of the vertical-suspect pattern operating on Dan's own paternal line."
   - page: wiki/work/creative-license
     type: evidenced-by
-    claim: "Named by the corpus's own dossiers as the founding case — 2011–2012, over airfare-billing discrepancies and altered intern contracts — but a dedicated pass found the specific allegation has no primary corroboration and the exit date is contradicted by Dan's own résumé; the pattern this page documents does not depend on that one case being confirmed, since BFS Foods and Au Za'atar independently instantiate it, but the 'founding' label should be read as narrative framing rather than settled fact until primary evidence surfaces."
+    claim: "The best-documented instance of the pattern in the corpus below the 2026 BFS case: a company's own accountant telling Dan in writing 'we don't trust you,' four months before its president backed a false, notarized claim to erase Dan's professional identity in retaliation for a whistleblower disclosure — recovered from the operator's own Gmail after the AI dossiers' original 'airfare-billing fraud' story turned out to be uncorroborated invention."
   - page: wiki/mind/politics/axioms
     type: instance-of
     claim: "The power axiom restates this page's vertical/lateral split as an explicit political premise and adds a self-authored artifact this page doesn't carry — the CATO persona's origin as Caesar's specific political opponent, not a general Roman figure — as primary evidence the skepticism is a conscious commitment, not only an inherited disposition."
@@ -98,17 +98,28 @@ as family memory ([[wiki/self/ancestry]]).
 
 ## The evidence runs at every scale
 
-**Micro — the workplace.** The corpus's own dossiers name the earliest
-workplace instance as [[wiki/work/creative-license|Creative License]],
-2011–2012 — Dan's exit from an executive-assistant job over alleged
-airfare-billing discrepancies and altered intern contracts, fourteen
-years before the same shape recurs at BFS. That founding case is worth
-flagging for what it is: a confident narrative claim with no primary
-corroboration located anywhere in the corpus, contradicted on its own
-timing by Dan's résumé. It should be read as a claim the wiki carries,
-not a settled premise this synthesis depends on — the pattern itself
-does not need it, since BFS and Au Za'atar are independently and far
-better documented. The BFS drawer dispute is the cleanest
+**Micro — the workplace.** The earliest and, after BFS, best-documented
+workplace instance is [[wiki/work/creative-license|Creative License]],
+2011–2012, fourteen years before the same shape recurs at BFS.
+
+> **RE-CORRECTED [2026-08-10, second pass]:** This section previously
+> flagged the Creative License case as an unconfirmed AI-dossier narrative
+> and declined to rely on it. A live Gmail search recovered the actual
+> record: Dan's final paycheck was disputed for six weeks, the company's
+> accountant wrote him "It's a trust issue. We don't trust you," Dan filed
+> IRS and NYS Department of Labor complaints, and — four months later —
+> he disclosed to a former coworker that the company's president had used
+> Dan's own account to pressure former employees and had altered departing
+> interns' contracts to silence them. The president retaliated with a
+> false, notarized LinkedIn claim asserting Dan had never worked there at
+> all. None of this is the dossiers' "airfare-billing" story, which does
+> not appear anywhere in the recovered record and should be treated as
+> invented — but the underlying claim ("this is the founding vertical-
+> authority case") survives on much stronger evidence than before. Full
+> account on [[wiki/work/creative-license]] and
+> [[wiki/people/kevin-mckiernan]].
+
+The BFS drawer dispute is the cleanest
 crystallization: an assistant manager's off-books "$50 short, you owe me"
 demand, read instantly as an unverified vertical claim whose missing paper
 trail was the point, met with refusal and documentation rather than

@@ -8,7 +8,10 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-10 — 14 pages
+## 2026-08-10 — 17 pages
+
+- **Session log:** rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
+- **Session log:** ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -23,9 +26,12 @@ simply listed.
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page as stale against exocortex, edited the same day to add one new connections edge (to the new axioms page) reading the CATO persona's origin line p |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page again against `dan-annie-fallout-verdict.md`'s 2026-08-10 RE-CHECKED block (itself downstream of the same-day `attachment-model.md` rewrite). That block correc |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
-| [[wiki/people/kevin-mckiernan]] | people | — |
+| [[wiki/people/katherine-palakovich]] | people | — |
+| [[wiki/people/kevin-mckiernan]] | people | _(carries a CORRECTED)_ |
+| [[wiki/people/marty-jackson]] | people | — |
+| [[wiki/people/renae-holland]] | people | — |
 | [[wiki/places/90th-st-manhattan]] | places | **CORRECTED** — This section previously stated the exit as "February 2012" without qualification. A dedicated pass on creative-license and kevin-mckiernan found the date is contradicted between sources: Dan's own rés |
-| [[wiki/work/creative-license]] | work | — |
+| [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
 
 ## 2026-08-09 — 17 pages
 

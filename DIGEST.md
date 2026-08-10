@@ -12,8 +12,8 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 445 |
-| Pages touched in the last 14 days | 190 |
+| Pages | 448 |
+| Pages touched in the last 14 days | 193 |
 | Pages reasoning from other pages (`synthesizes:`) | 23 |
 | Live contradictions | 30 |
 | Open gaps | 129 |
@@ -23,7 +23,7 @@ this is the state of the thing.
 
 | Domain | Pages |
 |---|---|
-| people | 152 |
+| people | 155 |
 | interests | 142 |
 | mind | 59 |
 | self | 31 |
@@ -39,13 +39,15 @@ this is the state of the thing.
 |---|---|
 | stable | 182 |
 | active | 127 |
-| closed | 95 |
+| closed | 98 |
 | archived | 31 |
 | stub | 10 |
 
 ## The last few days
 
-**2026-08-10** — 14 pages
+**2026-08-10** — 17 pages
+  - rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
+  - ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
 
 **2026-08-09** — 17 pages
   - ingest | people, timeline, mind | canonical Jerel Coles page + August 8–9 unmasking night + read-receipt forensics (external content pack incorporated)
