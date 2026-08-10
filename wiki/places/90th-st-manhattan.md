@@ -5,7 +5,7 @@ title: "90th St, Manhattan (NYC-1's third year)"
 status: closed
 knowledge: mixed
 date_created: 2026-07-20
-date_modified: 2026-07-20
+date_modified: 2026-08-10
 date_range_start: 2012-03-01
 date_range_end: 2013-04-01
 sources:
@@ -22,6 +22,9 @@ connections:
   - page: wiki/people/alexis-armel
     type: co-occurs
     claim: "Alexis lived here through the address's full run and worked at the Bridge Cafe until Hurricane Sandy closed it in October 2012 — the final economic shock of NYC-1 before the return to Uniontown the following spring."
+  - page: wiki/work/creative-license
+    type: co-occurs
+    claim: "The employer-side page for the Creative License exit; it corrects this page's confident February 2012 date, which is contradicted by Dan's own resume by roughly a year, and flags that the airfare-billing allegation has no primary-source corroboration."
 ---
 
 # 90th St, Manhattan (NYC-1's third year)
@@ -36,20 +39,35 @@ Like Bedford Ave, the address itself is thinly documented — no rent,
 lease, or physical description survives — but the year it anchors
 contains two of the period's most consequential events.
 
-## The Creative License exit (February 2012)
+## The Creative License exit
 
-Just before the move, Dan left his position at Creative License — the
-West Village production-services company at 71 8th Ave he'd worked for
-under Kevin McKiernan since arriving in New York — over airfare-billing
-discrepancies and altered intern contracts. The corpus's own forensic
-read identifies this as the **first documented instance** of a
-recurring pattern: a trusted vertical authority figure engaging in
-quiet financial manipulation, met with Dan's exit rather than
-confrontation. The same structure recurs, by the corpus's own naming,
-fourteen years later at [[wiki/work/bfs-foods|BFS Foods]] — making this
-2012 departure the founding case for
-[[wiki/mind/synthesis/vertical-authority-skepticism]] rather than a
-one-off employment change.
+Just before the move, Dan left his position at
+[[wiki/work/creative-license|Creative License]] — the West Village
+production-services company at 71 8th Ave he'd worked for under
+[[wiki/people/kevin-mckiernan|Kevin McKiernan]] since arriving in New
+York — over alleged airfare-billing discrepancies and altered intern
+contracts. The corpus's own forensic dossiers frame this as the **first
+documented instance** of a recurring pattern: a trusted vertical
+authority figure engaging in quiet financial manipulation, met with
+Dan's exit rather than confrontation. The same structure recurs, by the
+corpus's own naming, fourteen years later at
+[[wiki/work/bfs-foods|BFS Foods]] — making this departure the founding
+case for [[wiki/mind/synthesis/vertical-authority-skepticism]] rather
+than a one-off employment change.
+
+> **CORRECTED [2026-08-10]:** This section previously stated the exit
+> as "February 2012" without qualification. A dedicated pass on
+> [[wiki/work/creative-license]] and [[wiki/people/kevin-mckiernan]]
+> found the date is contradicted between sources: Dan's own résumé gives
+> "Jan 2011 – Feb 2013," a full year later than the AI-dossier chronology
+> this page had adopted as settled. It also found the specific fraud
+> allegation itself has **no primary-source corroboration anywhere in
+> the corpus** — it exists only in two AI dossiers restating each
+> other's language, not two independent accounts. Neither correction
+> changes the "founding case" framing, since the job did end and the
+> vertical-authority pattern this page cites is independently documented
+> elsewhere in the corpus; it does mean the specific mechanism and the
+> exact month should be read as unconfirmed narrative, not settled fact.
 
 ## Hurricane Sandy and the Bridge Cafe (October 2012)
 

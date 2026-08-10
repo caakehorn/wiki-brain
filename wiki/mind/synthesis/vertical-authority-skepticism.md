@@ -5,7 +5,7 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-10
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -58,6 +58,9 @@ connections:
   - page: wiki/mind/synthesis/2020-left-turn
     type: evidenced-by
     claim: "The 2020 conversion turning immediately on the family's union-busting money is a dated case of the vertical-suspect pattern operating on Dan's own paternal line."
+  - page: wiki/work/creative-license
+    type: evidenced-by
+    claim: "Named by the corpus's own dossiers as the founding case — 2011–2012, over airfare-billing discrepancies and altered intern contracts — but a dedicated pass found the specific allegation has no primary corroboration and the exit date is contradicted by Dan's own résumé; the pattern this page documents does not depend on that one case being confirmed, since BFS Foods and Au Za'atar independently instantiate it, but the 'founding' label should be read as narrative framing rather than settled fact until primary evidence surfaces."
 ---
 
 
@@ -92,7 +95,17 @@ as family memory ([[wiki/self/ancestry]]).
 
 ## The evidence runs at every scale
 
-**Micro — the workplace.** The BFS drawer dispute is the cleanest
+**Micro — the workplace.** The corpus's own dossiers name the earliest
+workplace instance as [[wiki/work/creative-license|Creative License]],
+2011–2012 — Dan's exit from an executive-assistant job over alleged
+airfare-billing discrepancies and altered intern contracts, fourteen
+years before the same shape recurs at BFS. That founding case is worth
+flagging for what it is: a confident narrative claim with no primary
+corroboration located anywhere in the corpus, contradicted on its own
+timing by Dan's résumé. It should be read as a claim the wiki carries,
+not a settled premise this synthesis depends on — the pattern itself
+does not need it, since BFS and Au Za'atar are independently and far
+better documented. The BFS drawer dispute is the cleanest
 crystallization: an assistant manager's off-books "$50 short, you owe me"
 demand, read instantly as an unverified vertical claim whose missing paper
 trail was the point, met with refusal and documentation rather than
