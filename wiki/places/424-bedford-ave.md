@@ -29,6 +29,9 @@ connections:
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "This is the residence anchor of the NYC-1 period's first two years (of three); the third year moved to a Manhattan UES sublet, 90th between 3rd and Lexington."
+  - page: wiki/work/creative-license
+    type: co-occurs
+    claim: "The Creative License job ran for the address's entire occupancy and into the following year at 90th Street — the studio-work era this page's own arrival section names."
 ---
 
 # 424 Bedford Ave (NYC-1)

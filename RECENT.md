@@ -8,24 +8,40 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-09 — 21 pages
+## 2026-08-10 — 14 pages
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/mind/concepts/attachment-model]] | mind | **CORRECTED** — A re-check of the source `.docx` files behind the quantitative table below found two errors and one omission, none visible from reading the page. First, the table's "13 major self-indicting apologies" |
+| [[wiki/mind/concepts/exocortex]] | mind | — |
+| [[wiki/mind/politics/axioms]] | mind | — |
+| [[wiki/mind/politics/index]] | mind | — |
+| [[wiki/mind/psychosexual/taboo-and-boundary-testing]] | mind | **CORRECTED** — This page previously said the orientation- violation claim had "no independent primary-source example... in the corpus searched for this page" and called it "the thinnest-supported claim in this entir |
+| [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **CORRECTED** — This section previously said "13 major self-indicting apologies each followed by unchanged behavior." That was the report's own pre-audit figure; the same document later revises it upward — "the audit |
+| [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a RE-CHECKED from 2026-08-02)_ |
+| [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
+| [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page as stale against exocortex, edited the same day to add one new connections edge (to the new axioms page) reading the CATO persona's origin line p |
+| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page again against `dan-annie-fallout-verdict.md`'s 2026-08-10 RE-CHECKED block (itself downstream of the same-day `attachment-model.md` rewrite). That block correc |
+| [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
+| [[wiki/people/kevin-mckiernan]] | people | — |
+| [[wiki/places/90th-st-manhattan]] | places | **CORRECTED** — This section previously stated the exit as "February 2012" without qualification. A dedicated pass on creative-license and kevin-mckiernan found the date is contradicted between sources: Dan's own rés |
+| [[wiki/work/creative-license]] | work | — |
+
+## 2026-08-09 — 17 pages
 
 - **Session log:** ingest | people, timeline, mind | canonical Jerel Coles page + August 8–9 unmasking night + read-receipt forensics (external content pack incorporated)
+- **Session log:** edit | people, mind | operator correction — Tuquick and the unnamed man confirmed as one person
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/mind/concepts/forensic-method]] | mind | — |
 | [[wiki/mind/concepts/node-locking]] | mind | — |
 | [[wiki/mind/index]] | mind | — |
-| [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | _(carries a REVISED from 2026-08-02)_ |
-| [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a RE-CHECKED from 2026-08-02)_ |
-| [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-02)_ |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | — |
 | [[wiki/mind/synthesis/single-channel]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
 | [[wiki/mind/synthesis/supply-network]] | mind | _(carries a REVISED from 2026-08-02)_ |
-| [[wiki/mind/synthesis/the-deferred-audit]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
 | [[wiki/people/annie-ulmer]] | people | **REVISED** — Tuquick is now identified as Jerel Wayne Coles. This does **not** resolve Target G — the FOREWARN return carries no marital data, so "Caitlin's husband" is neither confirmed nor excluded. The question |
 | [[wiki/people/index]] | people | — |
@@ -64,7 +80,7 @@ simply listed.
 | [[wiki/people/lucy]] | people | — |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-08-08)_ |
 
-## 2026-08-02 — 50 pages
+## 2026-08-02 — 48 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -100,8 +116,6 @@ simply listed.
 | [[wiki/mind/synthesis/ancestral-dialectic]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | **REVISED** — Until today annie-ulmer stated in two places that *Annie* left her existing relationship within twenty-four hours of the introduction, and this page cited that formulation approvingly as a second, ind |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **REVISED** — 1. **Sadie did not die in Hopwood.** The export records only a death *date* (27 Nov 1997) and gives Hopwood as her **burial** place; her last attested residence is Brownsville in 1993. The original ta |
-| [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — ancestral-dialectic was revised on 2026-08-02 after a direct read of the GEDCOM contradicted it: the report has the paternal line fleeing the pogroms *into* the Fayette County coal patch, while the ce |
-| [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/people/alexander-jackson]] | people | — |
 | [[wiki/people/arnu]] | people | **DEADLINE ELAPSED** — The ~27 July 2026 mechanics-lien date this page is organised around has passed with no recorded outcome. The date was an estimate derived from the February 2026 work window, not a documented filing —  |
 | [[wiki/people/betherin-mechling]] | people | — |
@@ -251,7 +265,7 @@ simply listed.
 | [[wiki/people/menore]] | people | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/places/424-bedford-ave]] | places | — |
 
-## 2026-07-26 — 10 pages
+## 2026-07-26 — 9 pages
 
 - **Session log:** climb | all | SYNTHESIS_SPEC + bin/wiki-climb — the wiki becomes an input to itself
 - **Session log:** ingest | people+timeline | the July 2026 re-contact — annie-ulmer reopened
@@ -259,7 +273,6 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/hyperreflexivity]] | health | **REVISED** — the reframe made a testable prediction — that the loop tracks the two unresolved conditions rather than running independently — and the July 2026 record gives a partial test. One of the two conditions |
-| [[wiki/mind/concepts/attachment-model]] | mind | _(carries a REVISED from 2026-06-22)_ |
 | [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/people/gabe]] | people | _(carries a CONTRADICTION)_ |
 | [[wiki/people/valeria-iglesias-cid]] | people | _(carries a REVISED from 2026-07-18)_ |
@@ -287,7 +300,7 @@ simply listed.
 | [[wiki/self/lineage/index]] | self | — |
 | [[wiki/work/caviar-courier]] | work | — |
 
-## 2026-07-20 — 43 pages
+## 2026-07-20 — 42 pages
 
 - **Session log:** ingest | people | FB deep-scrape XII — matthew-palermo (new tier-one entry)
 - **Session log:** ingest | people | FB deep-scrape XIII — david-beard (new tier-one entry)
@@ -358,7 +371,6 @@ simply listed.
 | [[wiki/people/shannon]] | people | — |
 | [[wiki/people/shelbie-breakiron]] | people | — |
 | [[wiki/people/tarik-fallous]] | people | **REVISED** — the prior version of this page stated flatly that "Tarik is a peripheral work figure with no independent message corpus" and that everything here came from the Gemini "STORYTIME" reconstruction. That  |
-| [[wiki/places/90th-st-manhattan]] | places | — |
 | [[wiki/places/index]] | places | — |
 | [[wiki/places/seven-springs]] | places | — |
 | [[wiki/self/youtube-watch-history]] | self | **REVISED** — the older export's own "Watched" counts (this page's 17,302, and the 17,426 total-events figure cited on intake-constancy and totality-themes) were never broken out by whether the "watch" was |
@@ -371,7 +383,7 @@ simply listed.
 | [[wiki/work/tech/index]] | work | — |
 | [[wiki/work/tech/mneme/overview]] | work | — |
 
-## 2026-07-19 — 52 pages
+## 2026-07-19 — 51 pages
 
 - **Session log:** ingest | people | long-tail MINE pass (sam, davey-fitzpatrick, vaughn, nick-mattie, urpaaa) + kezmarsky death-claim correction
 - **Session log:** ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
@@ -396,13 +408,12 @@ simply listed.
 | [[wiki/interests/music/aliases/sloppp]] | interests | — |
 | [[wiki/interests/opie-and-anthony]] | interests | — |
 | [[wiki/interests/stand-up-comedy]] | interests | — |
-| [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/concepts/institutional-out]] | mind | — |
 | [[wiki/mind/concepts/phenomenology-lens]] | mind | — |
 | [[wiki/mind/profile/deviance-mapping]] | mind | — |
 | [[wiki/mind/profile/enneagram-5w4]] | mind | — |
 | [[wiki/mind/psychosexual/developmental-origins]] | mind | — |
-| [[wiki/mind/psychosexual/emotional-imprinting]] | mind | — |
+| [[wiki/mind/psychosexual/emotional-imprinting]] | mind | _(carries a REVISED from 2026-08-10)_ |
 | [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
@@ -513,7 +524,7 @@ simply listed.
 | [[wiki/self/gemini-activity/archive/v1-extract]] | self | — |
 | [[wiki/work/fastly-fsly]] | work | — |
 
-## 2026-07-14 — 49 pages
+## 2026-07-14 — 48 pages
 
 - **Session log:** ingest+add | work+mind | Sergio-mediator correction, Dan Frank OS report mined
 - **Session log:** ingest | mind+people | fake-surveillance-dashboard episode (AI pushback)
@@ -552,7 +563,6 @@ simply listed.
 | [[wiki/interests/favorites/music/electronic-bass]] | interests | — |
 | [[wiki/interests/music/concepts/lyrics-as-timbre]] | interests | — |
 | [[wiki/mind/psychosexual/index]] | mind | — |
-| [[wiki/mind/psychosexual/taboo-and-boundary-testing]] | mind | — |
 | [[wiki/people/al]] | people | — |
 | [[wiki/people/ally-lubin]] | people | — |
 | [[wiki/people/annoying]] | people | — |
@@ -716,19 +726,4 @@ simply listed.
 | [[wiki/timeline/events/timeline]] | timeline | — |
 | [[wiki/work/tech/grok-build/overview]] | work | — |
 | [[wiki/work/tech/imessage-tooling/overview]] | work | — |
-
-## 2026-06-22 — 10 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/interests/favorites/books/topics/ancient-history]] | interests | — |
-| [[wiki/interests/favorites/books/topics/history]] | interests | — |
-| [[wiki/interests/favorites/books/topics/journalism]] | interests | — |
-| [[wiki/interests/favorites/books/topics/politics]] | interests | — |
-| [[wiki/interests/favorites/books/topics/trump]] | interests | — |
-| [[wiki/interests/favorites/books/topics/war]] | interests | — |
-| [[wiki/self/chats/9-11-chat]] | self | — |
-| [[wiki/self/chats/extract-messages-pinned]] | self | — |
-| [[wiki/self/chats/photo-ingest-pinned]] | self | — |
-| [[wiki/self/twitter]] | self | — |
 

@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-09",
+ "generated": "2026-08-10",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 441,
+ "page_count": 445,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -997,7 +997,7 @@
    "title": "Roman Republic & Ancient History",
    "summary": "The books favorites break down flagged ancient history as an \"interest in foundational power dynamics\" \u2014 one line ([[wiki/interests/favorites/books/topics/an...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/roman-republic.txt",
-   "bytes": 5478
+   "bytes": 6379
   },
   {
    "page": "wiki/interests/stand-up-comedy.md",
@@ -1060,7 +1060,7 @@
    "title": "Attachment Model",
    "summary": "The attachment model details the first documented instance of full attachment-system activation in Dan's history, which occurred during his relationship with...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/attachment-model.txt",
-   "bytes": 15065
+   "bytes": 20953
   },
   {
    "page": "wiki/mind/concepts/bunker-core.md",
@@ -1109,14 +1109,14 @@
    "title": "Erotic Architecture: Sexuality as Controlled-Chaos Engineering",
    "summary": "The same Gemini \"Dan Frank OS\" report that produced",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/erotic-architecture.txt",
-   "bytes": 9501
+   "bytes": 9813
   },
   {
    "page": "wiki/mind/concepts/exocortex.md",
    "title": "The Exocortex",
    "summary": "Dan has built a deliberate external cognitive system \u2014 a set of pasteable bootloader documents and master prompts that turn any fresh AI session into a pre-c...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/exocortex.txt",
-   "bytes": 7085
+   "bytes": 7612
   },
   {
    "page": "wiki/mind/concepts/forensic-method.md",
@@ -1156,9 +1156,23 @@
   {
    "page": "wiki/mind/index.md",
    "title": "mind \u2014 index",
-   "summary": "Beliefs, ideology, psychology, and values. The domain is organized in four layers: **profile/** holds the measured personality results and their detailed bre...",
+   "summary": "Beliefs, ideology, psychology, and values. The domain is organized in five layers: **profile/** holds the measured personality results and their detailed bre...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/index.txt",
-   "bytes": 11398
+   "bytes": 12231
+  },
+  {
+   "page": "wiki/mind/politics/axioms.md",
+   "title": "The Power Axiom: What Resolves the Leftist/Authoritarian \"Paradox\"",
+   "summary": "Dan's political axiom is not a position on policy outcomes; it is a position on the legitimacy of concentrated, unaccountable power \u2014 wherever it sits, whoev...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/politics/axioms.txt",
+   "bytes": 10908
+  },
+  {
+   "page": "wiki/mind/politics/index.md",
+   "title": "Politics & Axiomatic Ideologies",
+   "summary": "Dan's political material has existed in the wiki for weeks \u2014 a dated conversion event, a state-scale forensic method, a workplace-and-family distrust archite...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/politics/index.txt",
+   "bytes": 4356
   },
   {
    "page": "wiki/mind/profile/big-five-psychometrics.md",
@@ -1172,14 +1186,14 @@
    "title": "Deviance Mapping \u2014 The Statistical Outlier Audit",
    "summary": "In August 2025 Dan commissioned a \"Level 5 / Psycho-Structural Deviance Audit\": a systematic measurement of how far every domain of his life sits from a norm...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/deviance-mapping.txt",
-   "bytes": 7232
+   "bytes": 7577
   },
   {
    "page": "wiki/mind/profile/enneagram-5w4.md",
    "title": "Enneagram 5w4 sx/sp \u2014 The Iconoclast Hermit",
    "summary": "Dan's Enneagram result is Type 5 (the knowledge-hoarder whose core fear is incompetence and whose core strategy is resource conservation) with a 4 wing (trag...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/enneagram-5w4.txt",
-   "bytes": 7745
+   "bytes": 8003
   },
   {
    "page": "wiki/mind/profile/index.md",
@@ -1193,7 +1207,7 @@
    "title": "INTP \u2014 The Cognitive Function Stack",
    "summary": "Dan types INTP on every pass, and the function measurements are extreme enough to matter more than the four-letter label: dominant introverted thinking near ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/intp.txt",
-   "bytes": 8310
+   "bytes": 8995
   },
   {
    "page": "wiki/mind/profile/linguistic-profile.md",
@@ -1235,14 +1249,14 @@
    "title": "Emotional Imprinting",
    "summary": "Both dossier sources make the same claim in nearly the same language: \"unemotional sex is a myth\" for Dan. Every high-investment sexual or romantic encounter...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/psychosexual/emotional-imprinting.txt",
-   "bytes": 5562
+   "bytes": 6774
   },
   {
    "page": "wiki/mind/psychosexual/index.md",
    "title": "Psychosexual Profile",
    "summary": "The corpus's own diagnostic language names sexuality as one of Dan's central organizing systems, not a peripheral trait: the August 2025 deviance audit score...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/psychosexual/index.txt",
-   "bytes": 7005
+   "bytes": 7043
   },
   {
    "page": "wiki/mind/psychosexual/orchestration-and-voyeurism.md",
@@ -1254,9 +1268,9 @@
   {
    "page": "wiki/mind/psychosexual/taboo-and-boundary-testing.md",
    "title": "Taboo and Boundary-Testing",
-   "summary": "The dossier material frames Dan's interest in sexual and social taboo not as transgression-seeking for its own charge, but as an application of the same cogn...",
+   "summary": "Dan's fascination with sexual and social taboo is documented in the dossier material as an application of the same edge-seeking cognitive habit found through...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/psychosexual/taboo-and-boundary-testing.txt",
-   "bytes": 4419
+   "bytes": 10134
   },
   {
    "page": "wiki/mind/synthesis/2020-left-turn.md",
@@ -1291,14 +1305,14 @@
    "title": "Attachment Trauma Bond and Aura Illness",
    "summary": "The ten-year relationship between Dan and [[wiki/people/annie-ulmer|Annie]], spanning from their initial meeting on Thanksgiving weekend in November 2015 to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/attachment-trauma-bond.txt",
-   "bytes": 16247
+   "bytes": 17635
   },
   {
    "page": "wiki/mind/synthesis/block-unblock-loop.md",
    "title": "The Block/Unblock Loop",
    "summary": "Across the corpus, Dan's severances follow one script: **the exit is declared, not executed.** A block, an \"I'm done,\" an account abandonment \u2014 a bounded bur...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/block-unblock-loop.txt",
-   "bytes": 20149
+   "bytes": 21069
   },
   {
    "page": "wiki/mind/synthesis/bond-switch-2015.md",
@@ -1312,7 +1326,7 @@
    "title": "The Dan/Annie Fallout \u2014 Was He Correct to Feel Wronged? (Raw-Evidenced)",
    "summary": "The verdict, stated plainly: **yes \u2014 on the documented facts, Dan was correct to feel wronged, and the feeling was not a misreading.** The record supports a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dan-annie-fallout-verdict.txt",
-   "bytes": 34223
+   "bytes": 35431
   },
   {
    "page": "wiki/mind/synthesis/dormancy-not-exit.md",
@@ -1340,7 +1354,7 @@
    "title": "The Instrument Is Also the Subject",
    "summary": "This wiki is written by a large language model, about a person for whom large language models are a documented daily cognitive organ, using an evidentiary st...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/instrument-is-subject.txt",
-   "bytes": 9379
+   "bytes": 9973
   },
   {
    "page": "wiki/mind/synthesis/intake-constancy.md",
@@ -1417,7 +1431,7 @@
    "title": "The Deferred Audit",
    "summary": "Dan audits everything. What decides the outcome is not *whether* the audit runs \u2014 it always runs \u2014 but **when**, and the schedule is set by a single question...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-deferred-audit.txt",
-   "bytes": 28760
+   "bytes": 29322
   },
   {
    "page": "wiki/mind/synthesis/the-embedded-objective.md",
@@ -1445,7 +1459,7 @@
    "title": "Vertical Authority Skepticism",
    "summary": "Dan treats the vertical axis \u2014 fathers, managers, owners, institutions, the state \u2014 as structurally suspect, and the horizontal axis \u2014 the vetted few peers \u2014...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/vertical-authority-skepticism.txt",
-   "bytes": 10854
+   "bytes": 12586
   },
   {
    "page": "wiki/people/aaron.md",
@@ -1599,7 +1613,7 @@
    "title": "Bryan (+15088682461)",
    "summary": "Bryan is the third participant of the **October 20, 2019 filmed MMF threesome** with Dan and [[wiki/people/annie-ulmer|Annie]] in NYC \u2014 the encounter that wa...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/bryan-5088682461.txt",
-   "bytes": 5028
+   "bytes": 5379
   },
   {
    "page": "wiki/people/bub.md",
@@ -1837,7 +1851,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 21295
+   "bytes": 21552
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -2036,6 +2050,13 @@
    "bytes": 3809
   },
   {
+   "page": "wiki/people/kevin-mckiernan.md",
+   "title": "Kevin McKiernan",
+   "summary": "Kevin McKiernan was Dan's employer \u2014 company president at",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/kevin-mckiernan.txt",
+   "bytes": 6094
+  },
+  {
    "page": "wiki/people/kim.md",
    "title": "Kim (Little Caesars Manager)",
    "summary": "**Role:** LC manager on the franchise side of the BFS building (BFS Foods / Bruceton Farm Service, Inc.). Procedurally honest counterpoint to Anita (GM, gas ...",
@@ -2194,7 +2215,7 @@
    "title": "Menore",
    "summary": "**Menore** (+13476070497) \u2014 Drug dealer / supply operator in New York City; Bedford Ave (Williamsburg) Brooklyn origin connection; operated Nov 2018\u2013Feb 2025...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/menore.txt",
-   "bytes": 18648
+   "bytes": 18986
   },
   {
    "page": "wiki/people/michael-hinkle.md",
@@ -2537,14 +2558,14 @@
    "title": "424 Bedford Ave (NYC-1)",
    "summary": "424 Bedford Ave, Apartment 6C, in Williamsburg, Brooklyn was Dan's first New York apartment \u2014 the home base of the **NYC-1** period (April 2010 \u2013 May 2013) a...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/424-bedford-ave.txt",
-   "bytes": 5192
+   "bytes": 5432
   },
   {
    "page": "wiki/places/90th-st-manhattan.md",
    "title": "90th St, Manhattan (NYC-1's third year)",
    "summary": "A sublet on 90th Street between 3rd and Lexington, on the Upper East Side, was Dan and [[wiki/people/alexis-armel|Alexis]]'s final New York address \u2014 the thi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/90th-st-manhattan.txt",
-   "bytes": 3960
+   "bytes": 5248
   },
   {
    "page": "wiki/places/index.md",
@@ -3006,7 +3027,7 @@
    "title": "BFS Foods (2026)",
    "summary": "Dan worked as a gas-station cashier at BFS Foods \u2014 a Bruceton Farm Service convenience store paired with a company-owned Little Caesars in the same building ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/bfs-foods.txt",
-   "bytes": 22345
+   "bytes": 22756
   },
   {
    "page": "wiki/work/caviar-courier.md",
@@ -3014,6 +3035,13 @@
    "summary": "The iMessage corpus contains 290 messages (April 2019 \u2013 April 2020) from `+14159801273`, the automated dispatch number for Caviar, the food-delivery app. The...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/caviar-courier.txt",
    "bytes": 3060
+  },
+  {
+   "page": "wiki/work/creative-license.md",
+   "title": "Creative License (NYC, 2011\u20132012)",
+   "summary": "Creative License was a small production-services company at 71 8th Ave in the West Village where Dan worked as **Executive Assistant / Office Manager** under...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/creative-license.txt",
+   "bytes": 10218
   },
   {
    "page": "wiki/work/fastly-fsly.md",
@@ -3027,7 +3055,7 @@
    "title": "work \u2014 index",
    "summary": "Career and business history, plus the tech projects.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/index.txt",
-   "bytes": 1365
+   "bytes": 1724
   },
   {
    "page": "wiki/work/nemacolin-caddying.md",

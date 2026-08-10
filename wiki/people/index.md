@@ -91,6 +91,7 @@ related: []
 - [[wiki/people/josh-coccagna]] — Golf pro mentor turned DMT-cart supplier, 2017-2019.
 - [[wiki/people/katie-fletcher]] — the 2013 interim girlfriend: the Oddball/Chappelle night, the "Vase" incident.
 - [[wiki/people/kelly-johansson]] — NYC escort Dan and Annie booked together fall 2019; pitched them as co-providers for one of her own clients.
+- [[wiki/people/kevin-mckiernan]] — President of [[wiki/work/creative-license|Creative License]], Dan's employer 2011–2012ish; the corpus's dossiers name him in the founding vertical-authority-distrust case, an allegation with no primary corroboration.
 - [[wiki/people/kim]] — Exemplifies vertical-authority-skepticism and work-power-dynamics: Anita sole locus of agency + off-books…
 - [[wiki/people/kristin]] — Kristin Shaelene (handle +13307038747), introduced through tom as "Tom's friend." An ex-Brooklyn librarian…
 - [[wiki/people/kya-hansen]] — Canadian model/OnlyFans creator "bbblud"; Dan was her Reddit admin for a stretch in 2019, communicated mostly via OF.

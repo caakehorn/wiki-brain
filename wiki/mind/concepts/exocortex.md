@@ -5,7 +5,7 @@ title: "The Exocortex (Bootloaders & Master Prompts)"
 aliases: ["CATO", "operating manual", "master forensic prompt", "MAX"]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-08-10
 sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-md/CATO_conflict_architecture.md
@@ -34,6 +34,9 @@ connections:
   - page: wiki/work/tech/danmodel
     type: instance-of
     claim: "DANMODEL's CATO_COMPACT persona block is this exocortex thesis run mechanically: a compressed voice-prompt extracted algorithmically from the message corpus rather than hand-authored."
+  - page: wiki/mind/politics/axioms
+    type: evidenced-by
+    claim: "The CATO origin line names Cato the Younger only as 'the Roman Stoic who refused to compromise under pressure'; the politics page adds the specific political content this description elides — Cato is known specifically as Caesar's implacable opponent, who died rather than live under his one-man rule, which makes the persona choice primary evidence that Dan identifies with the opponent of concentrated power, not a general admirer of Roman strongmen."
 ---
 
 

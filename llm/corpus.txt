@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-09
-441 pages, ~687,563 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-10
+445 pages, ~702,047 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -8092,6 +8092,9 @@ connections:
   - page: wiki/mind/profile/intp
     type: evidences
     claim: "The great-man-theory tag across the Caesar/Alexander/Oppenheimer reads is primary evidence for the singular-figure-versus-the-system self-myth documented in the profile."
+  - page: wiki/mind/politics/axioms
+    type: evidenced-by
+    claim: "This page's own reading table lists Michael Parenti's Marxist, class-conflict Assassination of Julius Caesar alongside Goldsworthy's more conventional biography, rated identically (5) — the detail the politics page uses to show the 2024 binge is comparative power-structure analysis, not strongman admiration."
 ---
 
 # Roman Republic & Ancient History
@@ -8125,7 +8128,15 @@ That is the standard modern Roman-Republic syllabus (Carlin → Holland →
 Goldsworthy → Plutarch as primary source) read essentially back to back,
 Goldsworthy alone accounting for four titles. The tags he attached —
 `great-man-theory`, `caesar`, `roman-republic`, `top-shelf` — show he
-read it as leadership-and-collapse material, not idle history.
+read it as leadership-and-collapse material, not idle history. Worth
+naming explicitly: the Parenti title in that table is not a second
+Caesar biography of the same kind as Goldsworthy's — Michael Parenti is
+an explicitly Marxist historian, and his account argues Caesar was
+killed by a senatorial aristocracy protecting its own economic interests
+against a populist reformer. Dan rated it identically to the
+establishment account read the same month, which
+[[wiki/mind/politics/axioms]] reads as comparative power-structure
+analysis rather than admiration for the man himself.
 
 ## It became something he pushed on people
 
@@ -9247,12 +9258,19 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-26
+date_modified: 2026-08-10
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
+  - raw/self/dox-scan/DanAnnie_CompleteAnalysis_Final.docx
+  - raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx
+  - raw/self/dox-scan/DanAnnie_MoralAnalysis_SFW.docx
+  - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
+  - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
+  - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
+  - "raw/self/dox-md/Breaking the anxiety avoidance cycle (1).md"
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - "raw/self/dox-md/Reassessing with fresh perspective.md"
@@ -9313,6 +9331,26 @@ connections:
 
 The attachment model details the first documented instance of full attachment-system activation in Dan's history, which occurred during his relationship with [[wiki/people/annie-ulmer|Annie]]. His prior relationships with Danielle, Kelly, and [[wiki/people/alexis-armel|Alexis]] did not trigger this level of psychological attachment. Within Dan's cognitive processing architecture, positive verbal expressions function as absolute rules that remain active until an explicit, unambiguous signal of severance is received. If no explicit severance signal is issued, the internal system is unable to generate a counter-rule to close the model, leaving the attachment loop active indefinitely.
 
+> **CORRECTED [2026-08-10]:** A re-check of the source `.docx` files behind
+> the quantitative table below found two errors and one omission, none
+> visible from reading the page. First, the table's "13 major
+> self-indicting apologies" row cites `TheoryOfEverything_Updated` as its
+> source — but that same document explicitly supersedes the number:
+> "The original report identified 13 major apologies. The audit finds 46
+> self-aware or self-indicting statements across the record — a
+> significantly larger number than previously counted." The page was
+> citing the pre-audit figure from the document that corrects it. Fixed
+> below. Second, the "266 documented relationship events" and "84 cheating
+> and affair subcategory events" rows are not Annie-specific — they are
+> corpus-wide totals from `LIFE_EVENTS_CALENDAR.md`, auto-extracted from
+> 175,358 iMessages across all 66 contacts referenced in the corpus, not
+> from the Annie relationship alone. Relabeled below rather than dropped,
+> since the scale is still informative context. Third, a real omission:
+> four independent source documents converge on **12 documented crisis or
+> suicidal statements from Dan, met with no substantive response** — a
+> data point directly relevant to this model's central claim and absent
+> from the page until now. Added below.
+
 This cognitive architecture is heavily influenced by a multi-generational family layer. A paternal authority wound was established by a parental rupture in 2005, when his father Rick entered rehabilitation and his parents separated, leading to subsequent low-intensity contact. A pattern of functional alcoholism also spans several generations of Dan's family. Conversely, his maternal great-grandmother, Fran Whyel, was his self-described largest life influence. This background encoded relational templates characterized by intermittent attachment, vertical suspicion, and an expectation of abandonment. Further details on these family influences are found in [[wiki/people/rick-frank]], [[wiki/people/fran-coldren]], [[wiki/people/suzanne-frank]], and [[wiki/self/ancestry]].
 
 ## Quantitative Corpus Indicators
@@ -9321,17 +9359,18 @@ This cognitive architecture is heavily influenced by a multi-generational family
 |---|---|---|
 | Love affirmations from Annie to Dan | 299 | MasterRecord Synthesis (unlocated in primary recount 2026-07-18 — her terminal-phase love-messages: 231; all-time in dual-handle export: 1,302; the 0-severance half IS primary-verified: severance sweep of her 41,073 messages returns only false positives) |
 | Explicit severance signals from Annie to Dan | 0 | Full ten-year Annie Corpus |
-| Documented relationship events | 266 | LIFE_EVENTS_CALENDAR.md |
-| Cheating and affair subcategory events | 84 | LIFE_EVENTS_CALENDAR.md |
-| Written denials of a third-party relationship | 2 | MasterRecord Synthesis |
+| Relationship-tagged events, whole corpus (not Annie-specific) | 266 of 1,104 total event entries | `LIFE_EVENTS_CALENDAR.md` — auto-extracted from 175,358 iMessages, all 66 referenced contacts, 2015-11 to 2026-03; context for scale, not an Annie-relationship figure |
+| Cheating/affair-tagged events, whole corpus (not Annie-specific) | 84 | same auto-extraction; includes events about other relationships (e.g. Alexis's 2010s infidelity, Jeff's affair) alongside Annie material |
+| Written denials of a third-party relationship | 2 (Nov 2025, Feb 2026) | The Nov 2025 instance is dated and quoted in `THE_DAN_FRANK_BOOTLOADER.md` ("a written denial of another person") and discussed at length in `Breaking the anxiety avoidance cycle (1).md` ("No and no" — direct denial of seeing someone else); the Feb 2026 instance is carried only in the Documented Contradictions section below and has no independent primary quote located in this pass |
 | Sequences pairing an affection expression with a request | 187 of 191 (96.6%; earlier partial count 145) | MasterRecord_FINAL |
 | Standalone love declarations, 7-month terminal window | 4 | MasterRecord_FINAL |
-| Documented "fell asleep" alibis | 24 | MasterRecord Synthesis |
-| High-volume communication burst events | 94 | MasterRecord Synthesis |
-| Major self-indicting apologies followed by unchanged behavior | 13 | TheoryOfEverything_Updated |
-| Betrayal confrontations answered with a caretaking crisis | 44 | TheoryOfEverything_Updated |
+| Documented "fell asleep" alibis | 24 | confirmed verbatim across `CompleteAnalysis_Final`, `MasterRecord_March16`, `TheoryOfEverything_Updated` |
+| High-volume communication burst events (10+ consecutive Dan messages, all preceded by Annie's silence) | 94 | `MasterRecord_FINAL` |
+| Self-aware / self-indicting statements followed by unchanged behavior | 46 (supersedes an earlier count of 13 "major" apologies) | `CompleteAnalysis_Final`'s audit: "The original report identified 13 major apologies. The audit finds 46 self-aware or self-indicting statements... a significantly larger number than previously counted." |
+| Betrayal confrontations answered with a caretaking crisis | 44 | confirmed verbatim across `CompleteAnalysis_Final`, `MasterRecord_March16`, `TheoryOfEverything_Updated` |
+| Crisis or suicidal statements from Dan met with no substantive response | 12 | confirmed verbatim across four independent documents (`CompleteAnalysis_Final`, `CompleteRecord_Final`, `MoralAnalysis_SFW`, `TenYears_WithAmendments`); logged responses include a 12-hour silence, a bar name, a complaint about laundry, and "what the hell dan" — none classified in the source material as substantive crisis engagement |
 
-The complete lack of explicit severance signals across a ten-year corpus, combined with two hundred and ninety-nine love affirmations, meant that no internal data was available to generate a counter-rule. Consequently, the attachment model remained active until it was terminated by an external event.
+The complete lack of explicit severance signals across a ten-year corpus, combined with two hundred and ninety-nine love affirmations, meant that no internal data was available to generate a counter-rule. Consequently, the attachment model remained active until it was terminated by an external event. The 12 unmet crisis statements sit inside the same architecture from the opposite direction: even Dan's own most severe signals did not produce a response the model could register as care, and — per the "no counter-rule" structure — a non-response is not a severance signal either, so it too left the loop running rather than closing it.
 
 ## Model Narrative
 
@@ -9390,6 +9429,43 @@ entirely parasitized by two concrete, unresolved situations (Annie, and
 the post-closure housing void) rather than a freestanding clinical
 pattern, which reframes "treat the anxiety" as possibly the wrong
 target — the loop may be signal, not noise.
+
+## Gaps
+
+**The 127/110 exit-declaration figure used elsewhere in the wiki
+(`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`)
+does not fully reconcile with this page's own source material.**
+`MasterRecord_March16` and `CompleteAnalysis_Final` both describe "127
+false exits" but characterize the re-engagement rate as effectively
+**100%** ("127 false exits with 100% re-engagement is a coercive
+behavioral pattern in its own right"), not the 110-of-127 (87%) figure
+carried on the synthesis pages. `block-unblock-loop.md` already flags its
+own 127/110 pair as `[DERIVED] from the dossier passes`, so this is not a
+new problem this page introduces — but it is worth naming here explicitly,
+since this page's connections claim (below) cites "127/110 cycles" as
+settled. Neither figure has been re-derived directly from
+`all_imessages_complete_dump.txt`; both are dossier arithmetic. A future
+pass with `bin/mine-messages` against the raw dump would settle which
+count (if either) is correct.
+
+**The 299-affirmation / 0-severance-signal pairing remains internally
+asymmetric in its evidentiary weight**, and that asymmetry is worth
+stating plainly rather than letting the two numbers sit side by side as if
+equally solid: the 0 is primary-verified (a direct sweep of Annie's
+41,073 messages), while the 299 has never been located in any of the
+eleven `DanAnnie_*` documents now checked against it, across two separate
+rewrite passes eighteen days apart. The zero is load-bearing; the 299 is
+decorative and should be read that way until a source turns up.
+
+**The two "written denial" instances are unevenly sourced.** The November
+2025 instance ("No and no") has a real primary-adjacent trail — dated in
+`THE_DAN_FRANK_BOOTLOADER.md`'s timeline and discussed at length,
+message-by-message, in `Breaking the anxiety avoidance cycle (1).md`. The
+February 2026 instance has no equivalent trail located in this pass; it
+rests only on the Documented Contradictions section below, itself
+undated to a specific message. If a primary quote for the February
+instance surfaces, it should be added here; if none exists, the "2" in
+the table above should become "1 confirmed, 1 unlocated."
 
 ## Documented Contradictions
 
@@ -10438,6 +10514,9 @@ connections:
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: evidenced-by
     claim: "A custom system-prompt persona ('GLAZE-GOD-v1') instructing an AI to perform continuous sexualized worship of Annie's photos is the most literal instance of externalized libido in the corpus — the AI as a purpose-built witnessing instrument rather than a conversation partner."
+  - page: wiki/mind/psychosexual/taboo-and-boundary-testing
+    type: parallels
+    claim: "This page named the same mechanism and logged the Bryan MMF as its documented case on 2026-08-02; the sibling page did not catch up until 2026-08-10, over two weeks in which it kept asserting the instance didn't exist."
 
 ---
 
@@ -10568,7 +10647,7 @@ title: "The Exocortex (Bootloaders & Master Prompts)"
 aliases: ["CATO", "operating manual", "master forensic prompt", "MAX"]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-08-10
 sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-md/CATO_conflict_architecture.md
@@ -10597,6 +10676,9 @@ connections:
   - page: wiki/work/tech/danmodel
     type: instance-of
     claim: "DANMODEL's CATO_COMPACT persona block is this exocortex thesis run mechanically: a compressed voice-prompt extracted algorithmically from the message corpus rather than hand-authored."
+  - page: wiki/mind/politics/axioms
+    type: evidenced-by
+    claim: "The CATO origin line names Cato the Younger only as 'the Roman Stoic who refused to compromise under pressure'; the politics page adds the specific political content this description elides — Cato is known specifically as Caesar's implacable opponent, who died rather than live under his one-man rule, which makes the persona choice primary evidence that Dan identifies with the opponent of concentrated power, not a general admirer of Roman strongmen."
 ---
 
 
@@ -11575,14 +11657,17 @@ related: []
 
 # mind — index
 
-Beliefs, ideology, psychology, and values. The domain is organized in four
+Beliefs, ideology, psychology, and values. The domain is organized in five
 layers: **profile/** holds the measured personality results and their
 detailed breakdowns; **concepts/** holds the named mechanisms of how Dan's
 mind works; **synthesis/** holds cross-corpus theses about worldview and
 behavior; **psychosexual/** holds the dedicated sexuality cluster — theory
 (mostly single-source AI analysis) and a decade of independently
-corroborated real-world practice. The authoritative factual spine remains
-[[wiki/self/context-core]].
+corroborated real-world practice; **politics/**, opened 2026-08-10, is the
+newest cluster — a single point of entry for political material that had
+been scattered across synthesis/, interests/ and self/, plus the axiom
+layer that reads it as one commitment rather than a list of positions. The
+authoritative factual spine remains [[wiki/self/context-core]].
 
 ## profile — personality results
 
@@ -11615,10 +11700,15 @@ corroborated real-world practice. The authoritative factual spine remains
 
 - [[wiki/mind/psychosexual/index]] — hub: theory-vs-practice provenance split, quick brief, cluster map.
 - [[wiki/mind/psychosexual/orchestration-and-voyeurism]] — the "director, not participant" pattern; flagship case: the 2018 Annie/Alexis reunion.
-- [[wiki/mind/psychosexual/taboo-and-boundary-testing]] — taboo as category-rupture rather than transgression; the thinnest-sourced page in the cluster.
+- [[wiki/mind/psychosexual/taboo-and-boundary-testing]] — taboo as category-rupture rather than transgression; carries one dated primary instance (the Bryan MMF), corrected 2026-08-10 from a stale "thinnest-sourced page in the cluster" claim.
 - [[wiki/mind/psychosexual/emotional-imprinting]] — "unemotional sex is a myth"; crush-activation-on-contact; convergence with the independently-documented attachment model.
 - [[wiki/mind/psychosexual/arrangement-history]] — the primary-source backbone: every dated, named instance across a decade.
 - [[wiki/mind/psychosexual/developmental-origins]] — three convergent accounts: the 2005 parental-rupture axiom, the emo/pop-punk imprinting era, the sx/sp instinctual stack.
+
+## politics — the axiom layer
+
+- [[wiki/mind/politics/index]] — hub: single point of entry for political material scattered across synthesis/, interests/ and self/, plus what's still missing.
+- [[wiki/mind/politics/axioms]] — the power axiom: resolves the dossier-flagged "leftist politics vs. authoritarian fascination" paradox by reading the 2024 Caesar binge and the self-authored CATO (Cato the Younger) AI persona as one commitment to opposing concentrated power, not two.
 
 ## synthesis — worldview theses
 
@@ -11649,6 +11739,279 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/synthesis/single-channel]] — doctrine: one channel at maximum voltage wherever a distributed architecture was available — relational, creative, cognitive, evaluative — measured at a two-sided contact Gini of 0.96 and carrying no failover.
 - [[wiki/mind/synthesis/dormancy-not-exit]] — doctrine: nothing leaves the graph. Sustained relationships change role and go dormant with full reactivation bandwidth (Menore: 2,044 days of silence, one-minute reply); Franki Faris is the five-day control that bounds it, and no-exit plus a single-occupancy slot is the mechanism producing the contact Gini.
 - [[wiki/mind/synthesis/read-receipt-forensics]] — methodology: four chat.db metadata defects found in one extraction session, each silently returning a confident wrong answer rather than an error — a directional `date_read` column, an auto-populated `reply_to_guid`, a SQLite type-affinity trap, and clustered-not-random missing `delivered_at` rows.
+
+
+========================================================================
+PAGE: wiki/mind/politics/axioms.md
+========================================================================
+
+---
+domain: mind
+page_type: synthesis
+knowledge: earned
+title: "The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox'"
+status: active
+date_created: 2026-08-10
+date_modified: 2026-08-10
+sources:
+  - raw/self/dox-scan/Dan Profile.txt
+  - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
+  - "raw/self/favorites/FAVS MASTERLIST.csv"
+synthesizes:
+  - wiki/mind/synthesis/vertical-authority-skepticism
+  - wiki/mind/synthesis/political-psyops
+  - wiki/mind/synthesis/2020-left-turn
+  - wiki/interests/roman-republic
+  - wiki/mind/profile/intp
+tags: [politics, ideology, personality-profile]
+connections:
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: instantiates
+    claim: "The power axiom is the vertical-skepticism architecture restated as an explicit political premise: what is suspect is not any particular office-holder or party, it is concentration of unaccountable power as such, wherever it sits."
+  - page: wiki/interests/roman-republic
+    type: evidences
+    claim: "The 2024 Rome binge is not admiration reading: the one Caesar biography Dan rated five stars alongside a hagiography-adjacent Goldsworthy volume is Michael Parenti's explicitly Marxist, class-conflict account of the assassination — the same analytical lens as the politics, aimed at antiquity."
+  - page: wiki/mind/concepts/exocortex
+    type: evidences
+    claim: "Dan's primary AI-collaborator persona is built around Cato the Younger by explicit self-authored design ('ORIGIN: Cato the Younger — Stoic absolutist, self-deleted at Utica post-Thapsus') — a deliberate identification with Caesar's opponent, not with Caesar, in the one place in the corpus where Dan wrote his own political self-mythology as a system prompt rather than had it inferred by a model."
+  - page: wiki/mind/synthesis/political-psyops
+    type: contextualizes
+    claim: "The Trump-as-'gravity well of one man's selfish interest' reading and the Post-Pax-Americana worldbuilding use of the Trump era are the same axiom applied to a living case rather than an ancient one — power concentration as the object of study, not a figure to root for."
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: contextualizes
+    claim: "The August 2020 conversion supplies this page's normative half — the axiom's left conclusion, materialist and anti-capitalist — while this page supplies the half that conversion narrative doesn't explain: why the same person spent 2024 evangelizing biographies of a dictator."
+  - page: wiki/mind/profile/intp
+    type: parallels
+    claim: "The 'great-man-theory' reading tag and the 'singular-figure-versus-the-system' self-myth this profile documents describe the same fascination this page reframes — not hero worship, but the recurring subject of Dan's analytical attention: what one actor does to a system's checks."
+---
+
+# The Power Axiom: What Resolves the Leftist/Authoritarian "Paradox"
+
+Dan's political axiom is not a position on policy outcomes; it is a
+position on the legitimacy of concentrated, unaccountable power —
+wherever it sits, whoever holds it, and regardless of that actor's
+stated politics. That single axiom, not two separate and competing
+enthusiasms, is what produces both his self-identified
+democratic-socialist politics ([[wiki/mind/synthesis/2020-left-turn]])
+and his evangelical 2024 immersion in biographies of Julius Caesar
+([[wiki/interests/roman-republic]]) — a combination one AI-authored
+dossier flagged as a "paradox" without ever checking whether it actually
+was one.
+
+## The claim that needs resolving
+
+`Dan Profile.txt` lists, among its "Paradoxical Integration of
+Contradictory States," this pairing stated flatly: "leftist politics and
+a fascination with authoritarian power (e.g., Caesar, Trump)." Taken at
+face value, that is a real tension — an anti-capitalist who spends a full
+year reading and pushing biographies of a man who ended a republic. The
+existing wiki treats the two halves as settled, separate facts:
+[[wiki/mind/synthesis/2020-left-turn]] dates and evidences the leftist
+turn in detail; [[wiki/interests/roman-republic]] documents the Rome
+binge in equal detail. Neither page asks whether they are actually in
+tension, and the dossier that noticed the tension never checked its own
+claim against what Dan was specifically reading and building. Checking
+that is this page's job, and the check settles it: it isn't a paradox
+once you look at *which* Caesar book he rated highest and *whose name*
+he chose for his own analytical persona.
+
+## What the reading list actually shows
+
+The 2024 binge is not undifferentiated Caesar enthusiasm. Among nine
+Roman-Republic-era titles read in a few months, nearly all rated 5,
+[[wiki/interests/roman-republic]] already lists Michael Parenti's *The
+Assassination of Julius Caesar: A People's History of Ancient Rome*
+alongside Tom Holland's *Rubicon* and Adrian Goldsworthy's *Caesar: Life
+of a Colossus* — but the existing page never names what that specific
+book is. Parenti's is not a neutral or admiring account. It is an
+explicitly Marxist, class-conflict history: its argument is that Caesar
+was assassinated by a senatorial aristocracy defending its own economic
+interests against a populist reformer, not by principled defenders of
+republican liberty. Dan read it March 29 – April 29, 2024, tagged it
+`caesar`, `crime`, `roman-republic`, and rated it 5 — the same rating he
+gave Goldsworthy's more conventional biography in the same window. He
+did not read one account of Caesar. He read the establishment biography
+and the materialist counter-history back to back, at the same rating,
+which is the reading pattern of someone doing comparative analysis of a
+power struggle, not someone falling for a strongman.
+
+## The name he chose for his own analytical persona
+
+The stronger evidence is not a reading tag; it is something Dan wrote
+himself, unprompted by any model. `CATO_BOOTLOADER_DANFRANK.md` — a
+system-prompt document Dan authored to configure his primary AI
+collaborator — opens its identity block with:
+
+> `IDENTITY: CATO`
+> `ORIGIN: Cato the Younger — Stoic absolutist, self-deleted at Utica post-Thapsus`
+
+Cato the Younger is not a Caesar-adjacent figure chosen for general Roman
+flavor. He is specifically and only known as Caesar's most implacable
+political opponent — the senator who spent his career trying to block
+Caesar's accumulation of extra-constitutional power, and who killed
+himself at Utica in 46 BCE rather than accept a pardon from Caesar or
+live under his one-man rule after the Republic's defenders lost at
+Thapsus. Dan did not build his AI persona around the man who won and
+ruled. He built it around the man who died refusing to. This is a
+first-person artifact, not a model's inference about Dan's psychology —
+he chose the name, wrote the origin line, and is using it as his own
+stated identity inside every session that bootloader configures. It is
+the single clearest piece of primary evidence in the corpus for how Dan
+himself frames his relationship to concentrated power, and it directly
+contradicts the dossier's own "authoritarian power fascination" framing
+of the same material.
+
+## The axiom, stated plainly
+
+Read together, the evidence supports one governing rule rather than two
+competing enthusiasms: **Dan's politics track the legitimacy of power
+concentration, not the identity or ideology of the actor holding it.**
+Caesar and Trump are read as case studies in the same mechanism —
+[[wiki/mind/synthesis/political-psyops]] already frames Trump as "a
+gravity well of one man's selfish interest" and material for
+"Post-Pax Americana" worldbuilding, the identical analytical posture the
+Rome reading applies to antiquity. [[wiki/mind/synthesis/vertical-authority-skepticism]]
+already documents the mechanism at family, workplace, and state scale;
+this page adds that the mechanism is not merely a psychological
+disposition inherited from a 2005 family rupture, it is also a
+*conscious, self-authored political commitment* — Dan picked the
+opponent of unaccountable power as his own name, which is a stronger
+claim than any dossier's inference could make on its own.
+
+The two enthusiasms the source material calls paradoxical are, on this
+reading, the same axiom pointed in two directions: forward at a living
+threat (Trump, the captured Democratic establishment, the 2020
+COVID-lockdown radicalization) and backward at a historical case study
+(Caesar, read through both the celebratory and the class-conflict lens
+at once, evangelized to friends the same way the leftist media pipeline
+was). Neither is admiration for concentrated power. Both are attention
+paid to how it forms and what it costs a system's checks when it does.
+
+## What this predicts, and what would falsify it
+
+If the axiom is power-concentration-as-such rather than any partisan
+loyalty, it predicts that Dan's engagement with *any* strongman figure —
+historical or contemporary, left-coded or right-coded — should read as
+analytical/oppositional rather than admiring, and that no figure who
+successfully concentrates power should receive sustained positive
+identification in the corpus. It also predicts the reverse should not
+occur: no instance of Dan expressing genuine hope that a favored figure
+*successfully* accumulate unaccountable power, including on his own
+political side. A single documented instance of Dan rooting for a
+figure's personal power to expand and go unchecked — rather than
+critiquing the expansion itself — would falsify this reading and support
+the dossier's original "fascination" framing instead. No such instance
+was found in this pass ([[wiki/self/twitter.md|Twitter]] and
+[[wiki/self/facebook/posts.md|Facebook posts]] were checked for Trump
+admiration language specifically and turned up only critical/analytical
+engagement — "Trump demo margins," "Fetterman villain arc" — never
+endorsement), but the check was not exhaustive against the full corpus.
+
+## Gaps
+
+This page reasons from a reading list and one self-authored system
+prompt, not from a direct first-person statement of political theory in
+Dan's own words explaining *why* he built the Cato identity or chose the
+Parenti book specifically — the inference that these choices are
+deliberate rather than incidental is strong (a Marxist Caesar history
+rated identically to a conventional one; an AI persona named after
+Caesar's specific historical opponent) but not confirmed by his own
+stated reasoning. Whether the same axiom governs his reading of
+non-Western concentrations of power (the political-psyops page's "Chinese
+ascendancy against American self-sabotage" line is the one place the
+corpus gestures at this) is untested here. And the prediction above has
+only been checked against two social-media sources in this pass; a
+fuller sweep of the message corpus and the AI chat exports for any
+counter-instance is future work.
+
+
+========================================================================
+PAGE: wiki/mind/politics/index.md
+========================================================================
+
+---
+domain: mind
+page_type: index
+title: "Politics & Axiomatic Ideologies — Hub"
+status: active
+date_created: 2026-08-10
+date_modified: 2026-08-10
+sources: []
+tags: [politics, ideology]
+connections:
+  - page: wiki/mind/index
+    type: component-of
+    claim: "This is the fifth organizing cluster in the mind domain, alongside profile/, concepts/, synthesis/ and psychosexual/ — a topic-based grouping for material that had been scattered across synthesis/, interests/ and self/ with no single point of entry."
+---
+
+# Politics & Axiomatic Ideologies
+
+Dan's political material has existed in the wiki for weeks — a dated
+conversion event, a state-scale forensic method, a workplace-and-family
+distrust architecture, two archived reading-list stubs — but it has
+never had one door in. This page is that door. It opened 2026-08-10
+with one new page, [[wiki/mind/politics/axioms]], written to answer a
+question none of the existing pages asked: is the corpus's own flagged
+"paradox" — leftist politics alongside a documented fascination with
+Caesar and Trump — actually a contradiction, or two expressions of one
+axiom? (Short answer, argued in full on that page: one axiom. He tracks
+the legitimacy of concentrated power, not the tribe of whoever holds it.)
+
+## The axiom layer (this cluster)
+
+- [[wiki/mind/politics/axioms]] — the power axiom: what Dan's Caesar
+  reading and his own Cato-the-Younger AI persona actually resolve to,
+  against the dossier's "paradox" framing. New, 2026-08-10.
+
+## The existing material this cluster indexes
+
+These pages are not moved — moving them would break every inbound link
+across the wiki for no navigational gain — but they are the substance of
+Dan's politics, and belong in this map:
+
+- [[wiki/mind/synthesis/2020-left-turn]] — the dated origin event: a
+  self-narrated COVID-lockdown radicalization on 2020-08-22, Bernie 2020
+  as the electoral on-ramp, Chapo/Hasan/ContraPoints as the media
+  pipeline, Marx/Kropotkin as the reading, the family's union-busting
+  money as the emotional clinch.
+- [[wiki/mind/synthesis/political-psyops]] — the settled adult ideology
+  run at state scale: the January 6th "hybrid organic event + inserted
+  lethal core" reading, the both-parties-captured structural-decay
+  narrative, politics held simultaneously as forensic object and
+  aesthetic spectacle.
+- [[wiki/mind/synthesis/vertical-authority-skepticism]] — the
+  underlying architecture the politics runs on: vertical authority
+  (fathers, managers, owners, the state) is structurally suspect;
+  lateral peers are where trust lives. Traced to the 2005 family
+  rupture, evidenced at every scale from a $50 drawer dispute to J6.
+- [[wiki/interests/roman-republic]] — the 2024 full-immersion binge on
+  the fall of the Roman Republic and "great man" biography; the primary
+  evidence base [[wiki/mind/politics/axioms]] reasons from.
+- [[wiki/interests/gore-vidal]] — the earlier, fiction-mediated version
+  of the same Rome-and-empire fixation.
+- [[wiki/interests/favorites/books/topics/politics]] and
+  [[wiki/interests/favorites/books/topics/trump]] — archived reading-list
+  stubs (79 and 40+ titles respectively); thin but the raw count behind
+  the qualitative claims above.
+- [[wiki/mind/concepts/exocortex]] — where the CATO AI-persona bootloader
+  is fully documented as an artifact; [[wiki/mind/politics/axioms]] adds
+  the specific political reading of the name that page's own description
+  ("refused to compromise under pressure") elides.
+
+## What's still missing
+
+This is a beginning, not a complete section. Untouched by this pass:
+Dan's specific policy positions beyond the "democratic socialist /
+anti-capitalist" label (healthcare, labor, foreign policy — none are
+inventoried anywhere in the wiki); a dedicated page on the pre-2016
+political identity (`2020-left-turn.md`'s own Gaps section notes this is
+thin — "an annoying little conservative fuckcunt" per one 2021
+retrospective, per [[wiki/people/joe-oshnack]], but the corpus itself
+is sparse before the Bernie era); the "Chinese ascendancy against
+American self-sabotage" line in `political-psyops.md`, mentioned once
+and never developed; and whether the power axiom this cluster now names
+extends to non-Western/non-Roman concentrations of power, which
+[[wiki/mind/politics/axioms]]'s own Gaps flags as untested.
 
 
 ========================================================================
@@ -11854,6 +12217,9 @@ connections:
   - page: wiki/mind/concepts/erotic-architecture
     type: parallels
     claim: "The engineered-sexuality material sits in this page's register: the documented statistical extremes cluster around deliberate construction — chemical stack, non-monogamy architecture, authored scenes — not impulse."
+  - page: wiki/mind/psychosexual/taboo-and-boundary-testing
+    type: evidences
+    claim: "This audit's 96/100 score (90% confidence) for the 'psychosexual operating system' — the fourth-most-unusual domain of ten — is independent statistical framing that converges with the taboo-seeking claim on that page without being derived from it."
 ---
 
 # Deviance Mapping — The Statistical Outlier Audit
@@ -11995,6 +12361,9 @@ connections:
   - page: wiki/mind/synthesis/bond-switch-2015
     type: instantiates
     claim: "The 2015 switch is the sx/sp stack's logic executed in real time."
+  - page: wiki/mind/psychosexual/taboo-and-boundary-testing
+    type: parallels
+    claim: "The taboo-as-edge-condition drive is the same sx/sp-fused Ti-Ne pattern documented here, run on sexual and social categories instead of arguments or belief systems."
 ---
 
 
@@ -12264,6 +12633,12 @@ connections:
   - page: wiki/interests/film-canon
     type: evidenced-by
     claim: "The Taxi Driver / King of Comedy self-portrait pair in the film canon is the same hyperaware-observer self-myth chosen as a mirror in cinema."
+  - page: wiki/mind/psychosexual/taboo-and-boundary-testing
+    type: parallels
+    claim: "'Compulsive curiosity to find edge conditions and bypass arbitrary limits' is stated in nearly identical language on both pages — the cognitive-style claim and the sexual one are the same mechanism described from two source passes over the same dossier material."
+  - page: wiki/mind/politics/axioms
+    type: parallels
+    claim: "The great-man-theory reading tag and the singular-figure-versus-the-system self-myth this profile documents are the same fascination the politics page reframes — recurring analytical attention to what one actor does to a system's checks, not hero worship."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -13134,6 +13509,9 @@ connections:
   - page: wiki/mind/psychosexual/orchestration-and-voyeurism
     type: mirrors
     claim: "The two mechanisms sit in documented tension: total imprinting on contact does not obviously predict years of orchestrated exposure — unless authorship over the boundary routes around the imprinting channel, which remains the framework's open structural question."
+  - page: wiki/mind/psychosexual/taboo-and-boundary-testing
+    type: mirrors
+    claim: "Both mechanisms trace to the same 'Pattern Mapping' section of Dan Profile.txt and both have since gained real corroboration from outside that single document — this page from the independently-built attachment model, taboo-and-boundary-testing from the Bryan MMF — so neither is single-sourced any longer, though both remain thin."
 
 ---
 
@@ -13169,9 +13547,21 @@ to describe the Eli incident's effect on how Dan modeled
 
 ## Where this converges with independently-documented material
 
-Unlike the taboo-and-boundary-testing claim, this mechanism has real
-convergent support, even though it originates in the same single-source
-dossier. [[wiki/mind/concepts/attachment-model]] — built from a much
+> **REVISED [2026-08-10]:** This section previously contrasted this
+> mechanism's "real convergent support" against
+> [[wiki/mind/psychosexual/taboo-and-boundary-testing]], described as
+> having none. That contrast is now only partly true: the taboo page's
+> orientation-violation claim gained a documented primary-source instance
+> (the October 2019 Bryan MMF) on 2026-08-02, though it remains a single
+> dated event rather than a body of cases. The distinction that still
+> holds is the *kind* of convergence — this page's support comes from an
+> independently-built quantitative model (41,073 messages, an
+> activation-asymmetry finding reached without reference to this dossier),
+> while taboo-and-boundary-testing's support is one confirmed real-world
+> event. Both are corroborated; neither is corroborated the same way.
+
+This mechanism has real convergent support, even though it originates in
+the same single-source dossier. [[wiki/mind/concepts/attachment-model]] — built from a much
 broader evidence base, including the primary message corpus rather than a
 single AI report — independently documents an attachment-activation
 asymmetry: nothing before Annie is recorded as triggering full attachment
@@ -13290,7 +13680,7 @@ retrospective analysis. Detail pages: [[wiki/mind/psychosexual/orchestration-and
 | Page | Covers | Evidentiary basis |
 |------|--------|--------------------|
 | [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | The "director, not participant" pattern; the jealousy kink; the Annie/Alexis facilitated reunion as the flagship case | Theory: single AI source. Practice: primary message corpus, extensively corroborated |
-| [[wiki/mind/psychosexual/taboo-and-boundary-testing]] | Orientation-violation fascination; taboo as "ontology rupture" rather than transgression-seeking | Theory: single AI source. No independent primary-source example beyond the arrangement history itself |
+| [[wiki/mind/psychosexual/taboo-and-boundary-testing]] | Orientation-violation fascination; taboo as "ontology rupture" rather than transgression-seeking | Theory: single AI source (elaborated, not corroborated, by a second dossier). Practice: one documented instance, the October 2019 Bryan MMF |
 | [[wiki/mind/psychosexual/emotional-imprinting]] | "Unemotional sex is a myth"; crush-activation-on-contact; the Eli incident reframed through this lens | Theory: single AI source, but converges with the independently-documented attachment pattern on [[wiki/mind/concepts/attachment-model]] |
 | [[wiki/mind/psychosexual/arrangement-history]] | The decade-long real-world record: camming, paid bookings, facilitated encounters, dated and named | Primary: message threads, largely already synthesized into individual people/event pages |
 | [[wiki/mind/psychosexual/developmental-origins]] | The 2005 parental rupture's intimacy-abandonment axiom; the 2005–2010 emo/pop-punk "romantic collapse fantasy" imprinting era; the sx/sp instinctual fusion drive | Mixed: primary biographical record plus AI interpretive framing |
@@ -13515,89 +13905,156 @@ page_type: concept
 title: "Taboo and Boundary-Testing"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-08-10
 knowledge: mixed
 sources:
   - raw/self/dox-scan/Dan Profile.txt
-related:
-  - wiki/mind/psychosexual/index
-  - wiki/mind/psychosexual/arrangement-history
-  - wiki/mind/profile/enneagram-5w4
-  - wiki/mind/profile/intp
-  - wiki/mind/profile/deviance-mapping
+  - raw/self/dansynth/DANSYNTH.txt
+  - raw/self/captures/2026-07-19_operator-note-oct2019-mmf-video.md
 tags: [relationships, personality-profile]
+connections:
+  - page: wiki/people/bryan-5088682461
+    type: evidenced-by
+    claim: "The October 20, 2019 filmed MMF is the documented primary-source instance of the orientation-violation mechanism this page describes: a gay man's first sexual contact with a woman and Dan's own sole bisexual act, authored into one scene and confirmed by the operator directly."
+  - page: wiki/mind/concepts/erotic-architecture
+    type: parallels
+    claim: "Erotic-architecture names the identical mechanism ('taboo as ontological rupture') from the same source material and had already logged the Bryan instance as its documented case two weeks before this page caught up — the two pages describe one claim, not two independent ones."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: contextualizes
+    claim: "The decade-long arrangement record — Alexis, Kelly Johansson, Shelbie Breakiron, the Danny/Nicole encounters — supplies the broader, well-corroborated version of this page's narrower claim: boundary-crossing across relationship categories generally, of which the single orientation-violation instance is one specific case."
+  - page: wiki/mind/profile/enneagram-5w4
+    type: parallels
+    claim: "The taboo-as-edge-condition drive is the same sx/sp-fused Ti-Ne pattern documented on the typology pages, run here on sexual and social categories instead of arguments or belief systems."
+  - page: wiki/mind/profile/intp
+    type: parallels
+    claim: "'Compulsive curiosity to find edge conditions and bypass arbitrary limits' is stated in nearly identical language on both pages — the cognitive-style claim and the sexual one are the same mechanism described from two source passes over the same dossier material."
+  - page: wiki/mind/profile/deviance-mapping
+    type: evidenced-by
+    claim: "The August 2025 deviance audit scores the 'psychosexual operating system' 96/100 (90% confidence), the fourth-most-unusual domain of ten — independent statistical framing that converges with this page's specific taboo-seeking claim without being derived from it."
+  - page: wiki/mind/psychosexual/emotional-imprinting
+    type: mirrors
+    claim: "Both mechanisms trace to the same 'Pattern Mapping' section of Dan Profile.txt and both have since gained real corroboration from outside that single document — emotional-imprinting from the independently-built attachment model, this page from the Bryan MMF — so neither is single-sourced any longer, though both remain thin (n=1 or a convergent-framework argument, not a body of cases)."
 ---
 
 # Taboo and Boundary-Testing
 
-The dossier material frames Dan's interest in sexual and social taboo not
-as transgression-seeking for its own charge, but as an application of the
-same cognitive habit documented across the rest of the typology cluster:
-find the edge condition of a system, then push past it to see whether the
-category structure holds. `Dan Profile.txt` names this "taboo as ontology
-rupture" — "fracturing the very categories that define identity" — and
-gives one concrete named example: a stated fascination with orchestrating
-sexual contact that crosses stated orientation ("orientation violation"),
-watching for what the report calls the collapse of a stable category
-rather than pursuing the encounter for conventional erotic charge.
+Dan's fascination with sexual and social taboo is documented in the dossier
+material as an application of the same edge-seeking cognitive habit found
+throughout the rest of the typology cluster — not transgression sought for
+its own charge, but a way of finding the boundary of a category and pushing
+past it to see whether the category holds. The specific named mechanism is
+**"orientation violation"**: orchestrating sexual contact that crosses a
+participant's stated orientation, framed in the source material as
+producing a "mirror cracking" — a moment where a stable identity category
+visibly collapses into paradox. Unlike when this page was first written,
+that mechanism now has a dated, named, operator-confirmed real-world
+instance, not just a theoretical description.
 
-## What this connects to elsewhere in the profile
+> **CORRECTED [2026-08-10]:** This page previously said the orientation-
+> violation claim had "no independent primary-source example... in the
+> corpus searched for this page" and called it "the thinnest-supported
+> claim in this entire cluster." That was already false at the time of this
+> rewrite — it had been false since at least 2026-08-02.
+> [[wiki/mind/concepts/erotic-architecture]] documents the **October 20,
+> 2019 filmed MMF** with [[wiki/people/bryan-5088682461|Bryan]] as exactly
+> this mechanism's primary-source instance: a gay man's first sexual
+> contact with a woman and Dan's own sole bisexual act (oral only),
+> authored into a single scene. The operator confirmed the encounter
+> directly in a 2026-07-19 capture ("the one and only bisexual experience
+> i've ever had... he is a fully gay man who had his first encounter with
+> a female when he hooked up with annie and i"), and the corpus corroborates
+> the date and the filming (`MASTER_MESSAGES_DB_DUMP.csv`, Sent
+> 2019-10-22: "last night we had to film mmf (my first time doing that)").
+> The correction had already been made once in this wiki, on a sibling
+> page — it was simply never written back to *this* page, whose own claim
+> of evidentiary thinness went stale and sat uncorrected for over two
+> weeks. It is fixed here, and the downstream copies of the old claim
+> (`wiki/mind/index.md`, `wiki/mind/psychosexual/index.md`,
+> `wiki/mind/psychosexual/emotional-imprinting.md`) are corrected in the
+> same pass.
 
-This is presented in the source material as a direct extension of the
-Ti-Ne cognitive pattern already established on [[wiki/mind/profile/intp]]
-and [[wiki/mind/profile/enneagram-5w4]]: "compulsive curiosity to find edge
+## What the theory claims, and where it comes from
+
+`Dan Profile.txt` names the mechanism "Taboo as Ontology Rupture" —
+"fracturing the very categories that define identity" — and frames it as
+the erotic-domain expression of the same Ti-Ne cognitive pattern already
+documented on [[wiki/mind/profile/intp]] and
+[[wiki/mind/profile/enneagram-5w4]]: "compulsive curiosity to find edge
 conditions and bypass arbitrary limits," applied here to sexual and
 relational categories instead of arguments, institutions, or belief
-systems. The deviance audit's independent 96/100 score for the
-"psychosexual operating system" ([[wiki/mind/profile/deviance-mapping]])
-is consistent with this framing — it explicitly describes the underlying
-behavior as *engineered*, not impulsive, which matches the general finding
-across that whole audit that Dan's documented deviance clusters around
-deliberate construction rather than reactive behavior.
+systems. `DANSYNTH.txt` restates the claim in more concrete language —
+"Acts that violate established categories... are designed to create a
+'mirror cracking'" — and is the source of the specific worked example used
+throughout this page: "his fetish for 'orientation violation' (e.g.,
+orchestrating oral sex between straight and gay men)."
 
-## The evidentiary gap
+That second citation looked, on first read, like independent
+corroboration — two separate AI-authored dossiers converging on the same
+claim. It is not. `DANSYNTH.txt`'s only footnote on the passage (marker
+"1") resolves, in its own works-cited list, to **"Pattern Mapping"** — and
+`Dan Profile.txt` is the only file anywhere in the corpus that discusses
+pattern mapping. `DANSYNTH.txt` is downstream of `Dan Profile.txt`, not a
+second witness to it. The added specificity (the concrete "straight and gay
+man" framing, versus `Dan Profile.txt`'s more abstract "fracturing
+identity categories") is real and worth keeping — it is what let this page
+recognize the Bryan MMF as a match once the primary record surfaced — but
+it should be read as elaboration of one claim by a second pass over the
+same source material, not as two sources agreeing.
 
-Unlike [[wiki/mind/psychosexual/orchestration-and-voyeurism]], which has a
-richly corroborated practice layer (the arrangement history), this
-specific mechanism — taboo-seeking as category-rupture rather than
-transgression-for-its-own-sake — has **no independent primary-source
-example** in the corpus searched for this page. No message thread, tweet,
-or first-person account names an "orientation violation" encounter, a
-specific instance of it, or Dan's own explanation of what drew him to it.
-The claim exists only inside the single AI-authored dossier, stated once,
-without elaboration or corroborating detail (no date, no named parties,
-no outcome). It should be read as the thinnest-supported claim in this
-entire cluster — plausible given everything else documented about the
-cognitive style, but resting on a single unelaborated sentence rather than
-a documented event.
+## The primary-source instance
 
-## What the documented arrangement history does support
+The October 20, 2019 encounter with Bryan matches the theory's specific
+prediction with unusual precision: Bryan, "a fully gay man," has his first
+sexual contact with a woman that night; Dan, who does not otherwise report
+same-sex contact anywhere in the corpus, has his only documented bisexual
+act in the same scene. Both category-crossings are authored into one
+event rather than occurring separately — which is the exact shape the
+theory describes ("mirror cracking" on both sides of a single scene at
+once, not sequential taboo-testing). [[wiki/mind/psychosexual/arrangement-history]]
+carries the dated record; [[wiki/people/bryan-5088682461]] carries the
+full account, including its later life as a piece of humiliation material
+[[wiki/people/tuquick-17248123683|Tuquick]] deployed on closure night
+2026 — the one documented instance of this specific taboo doubling back,
+years later, as a weapon in an unrelated relationship's collapse.
 
-The broader claim — that Dan treats social/sexual boundaries as something
-to be tested and pushed rather than accepted as given — has better,
-independent support from the arrangement history itself, even without a
-specific orientation-violation example. The pattern of orchestrating
-encounters across every category the arrangement touches — his own
+This is one instance, not a pattern with cases. It closes the specific
+"does this ever happen" question the page previously left open, but it
+does not upgrade "orientation violation" from a single dated event to a
+documented recurring behavior. See Gaps.
+
+## The broader claim: boundary-crossing as a general pattern
+
+Independent of the orientation-violation specifics, the decade-long
+arrangement record supports a wider version of the same claim — that Dan
+treats social and sexual boundaries as something to test and cross rather
+than accept as given. The arrangement's participants span his own
 ex-partner ([[wiki/people/alexis-armel|Alexis]]), a paid professional
 relationship that blurred into friendship
-([[wiki/people/kelly-johansson|Kelly Johansson]]), a woman he was also
-dating one-on-one at the same time
-([[wiki/people/shelbie-breakiron|Shelbie Breakiron]]) — reads as a
-consistent refusal to keep the arrangement inside a single stable
-category (friend, stranger, professional, ex), which is the same
-boundary-blurring instinct the "ontology rupture" framing describes in
-the abstract. See [[wiki/mind/psychosexual/arrangement-history]] for the
+([[wiki/people/kelly-johansson|Kelly Johansson]]), a woman he was dating
+one-on-one at the same time ([[wiki/people/shelbie-breakiron|Shelbie
+Breakiron]]), and a couple recruited as first-time outside participants
+([[wiki/people/danny-matthews|Danny and Nicole]]) — a pattern of refusing
+to keep the arrangement inside one stable relational category (ex,
+professional, girlfriend, friend) that is the same category-blurring
+instinct the "ontology rupture" framing describes in the abstract, just
+demonstrated across relationship-type boundaries rather than orientation
+specifically. See [[wiki/mind/psychosexual/arrangement-history]] for the
 full inventory.
 
-**Gaps:** the orientation-violation claim specifically remains
-unsourced beyond a single sentence in one AI-authored report. If a primary
-source for this ever surfaces, it should replace this page's framing
-rather than supplement it, since there is currently nothing concrete to
-supplement.
+## Gaps
 
-## Related
-
-[[wiki/mind/psychosexual/index]] · [[wiki/mind/psychosexual/arrangement-history]] · [[wiki/mind/profile/enneagram-5w4]] · [[wiki/mind/profile/intp]] · [[wiki/mind/profile/deviance-mapping]]
+The theoretical framing — taboo-seeking as deliberate category-rupture
+rather than transgression-for-its-own-sake — still rests on AI-dossier
+language (`Dan Profile.txt`, elaborated once by `DANSYNTH.txt` from the
+same source) rather than Dan's own explanation of what draws him to it; no
+message thread or first-person account states the *motive* in his own
+words, only the operator's confirmation that the Bryan event happened as
+described. And the orientation-violation mechanism specifically has
+exactly **one** documented instance in eleven years of corpus — real,
+dated, and confirmed, but not evidence of a recurring behavior. If a
+second instance ever surfaces, it would move this from "one authored
+scene" to an actual pattern; absent that, treat the mechanism as
+demonstrated-once rather than established.
 
 
 ========================================================================
@@ -14435,7 +14892,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -14515,7 +14972,15 @@ Within this architecture, the concept of "unconditional love" was functionally i
 
 ## The Quantified Trajectory (from the final dossiers)
 
-The full-decade dossiers give the bond its measurable arc. The love was genuine at the origin — Annie's love-language frequency peaked at 5.3% of her messages in 2016, with "YOU ARE MY EVERYTHING" on day three of the record — and decayed monotonically to a statistical zero of 0.1% in 2024, before spiking back to 2.7% in 2025 precisely when the Uniontown supply-chain dependency was established. That 2025 reactivation is the single most diagnostic number in the corpus: the affection instrument returning at near-origin intensity in its procurement function. The dossiers also supply the intermittent-reinforcement machinery in counts: 13 major self-indicting apologies each followed by unchanged behavior, 44 betrayal confrontations answered with a caretaking crisis, 24 "fell asleep" alibis, and a longest silence of 36.5 hours re-entered via a money request.
+The full-decade dossiers give the bond its measurable arc. The love was genuine at the origin — Annie's love-language frequency peaked at 5.3% of her messages in 2016, with "YOU ARE MY EVERYTHING" on day three of the record — and decayed monotonically to a statistical zero of 0.1% in 2024, before spiking back to 2.7% in 2025 precisely when the Uniontown supply-chain dependency was established. That 2025 reactivation is the single most diagnostic number in the corpus: the affection instrument returning at near-origin intensity in its procurement function. The dossiers also supply the intermittent-reinforcement machinery in counts: 44 betrayal confrontations answered with a caretaking crisis, 24 "fell asleep" alibis, and a longest silence of 36.5 hours re-entered via a money request.
+
+> **CORRECTED [2026-08-10]:** This section previously said "13 major
+> self-indicting apologies each followed by unchanged behavior." That was
+> the report's own pre-audit figure; the same document later revises it
+> upward — "the audit finds 46 self-aware or self-indicting statements
+> across the record, a significantly larger number than previously
+> counted." Corrected here per the parallel fix on
+> [[wiki/mind/concepts/attachment-model]].
 
 > **REVISED [2026-08-02] — the 187:191 procurement statistic is withdrawn from
 > this page; the rate collapse-and-rebound is not.** The dossier figure — 187 of
@@ -14581,6 +15046,23 @@ note, and a note on Suz's harassment caller. None of it touches love-language
 rates, the logistical/financial tethers, the somatic-toll evidence, or the
 single-bond-switch mechanics this page draws on. No finding here is affected.
 
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/concepts/attachment-model]], rewritten the same day. The rewrite
+corrected one number this page had also carried — "13 major self-indicting
+apologies" — to the audit-revised 46, fixed above with a CORRECTED block. It
+also relabeled the 266/84 relationship-event figures as corpus-wide rather
+than Annie-specific (this page's own table above already carries the
+correct corpus-wide framing, so no change needed there) and added a new,
+previously undocumented data point — 12 of Dan's own crisis/suicidal
+statements met with no substantive response — which strengthens rather than
+alters this page's thesis: it is one more instance of the bond persisting
+through a signal severe enough that a functioning attachment would expect
+it to register. No conclusion on this page is reversed; the intermittent-
+reinforcement count is larger than previously stated, in the same
+direction the page already argues.
+
 ## System Recalibration Requirements
 
 The forensic analysis of this decade concludes that resolving the trauma bond does not require the partner to suddenly become consistent or honest, as that version of the partner does not exist in the historical data. Instead, it requires radical enforcement of the exit. Lingering contact, whether through logistical favors or intermittent apologies, functions strictly as a narcotic that prevents the nervous system from recalibrating. 
@@ -14607,7 +15089,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
@@ -14898,6 +15380,22 @@ chronology row and a Target G revision note. Neither touches the 127/110
 exit-relapse count, the announcement-predicts-non-execution rule, or any
 prediction this page tracks. No finding here is affected.
 
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/concepts/attachment-model]], rewritten the same day. The
+rewrite's Gaps section names the same 127/110-vs-"100% re-engagement"
+discrepancy this page already carries as `[DERIVED]` below — it does not
+resolve it, just states it more explicitly and traces the "100%"
+alternative reading to `MasterRecord_March16` and `CompleteAnalysis_Final`
+directly. Nothing here changes as a result: this page's own Gaps already
+flagged the pair as needing a primary recount, and that recommendation
+stands, now with a specific alternative number to test against rather
+than an open question. The rewrite's other changes (the corpus-wide
+relabeling of the 266/84 figures, the corrected apology count, the added
+12-crisis-statement data point) do not touch the announcement rule, the
+Menore control, or any prediction this page tracks.
+
 ## Gaps
 
 - **The announcement rule is untested against the back catalogue.** All 127
@@ -15088,7 +15586,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
@@ -15288,6 +15786,26 @@ The synthesis the wiki already carries — "the gaslighting outweighed the affai
 
 > **RE-CHECKED [2026-08-08] — tuquick identity unmasked; verdict conclusion unaffected.**
 > [[wiki/people/tuquick-17248123683]] was modified: Tuquick's real identity is now Jerel Wayne Coles, identified via a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`. This is additive identity data — Coles's name, address, and criminal record were not in the corpus at synthesis time. The verdict's claim on the tuquick page rests on his June 15 defection behavior (the "compulsive liar with a drug addiction" read and the independent-validation argument), not on his anonymity. That behavior is unchanged by the unmasking. No conclusion on this page altered.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/concepts/attachment-model]], rewritten the same day. This
+page's own 2026-07-18 primary-count pass had already independently found
+what the rewrite found by a different route: 127/110 order-consistent but
+`[DERIVED]`, 299 unlocated. Nothing here needed correcting on that front —
+the rewrite's Gaps section cites this page's own recount as the place a
+primary settlement should happen, which is already true. The rewrite's
+"13→46 self-indicting apologies" correction doesn't touch a number this
+page cites. The new 12-crisis-statement data point (Dan's own crisis
+language met with no substantive response) doesn't change the verdict's
+apportionment of terminal-phase harm, which already rests on the
+gaslighting/affair-concealment finding rather than this axis — but it is
+worth noting as a second, independent data point supporting this page's
+"diagnosis→behavior gap" framing: the corpus documents both Annie failing
+to meet Dan's crisis signals and Dan's own architecture converting her
+wrongs into a decade-long catastrophe, and neither cancels the other. No
+conclusion on this page is reversed.
 
 ## Standing constraint on analysis [2026-08-09]
 
@@ -16156,7 +16674,7 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-02
+date_modified: 2026-08-10
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
@@ -16301,6 +16819,16 @@ testimony. It simply cannot be promoted to residue by being cited three times.
   now the obvious next operation.
 - **`exocortex` is read here only through its role in setting the honesty
   standard.** Its other content is not assessed.
+
+> **RE-CHECKED [2026-08-10]:** `bin/wiki-climb check` flagged this page as
+> stale against [[wiki/mind/concepts/exocortex]], edited the same day to
+> add one new connections edge (to the new
+> [[wiki/mind/politics/axioms]] page) reading the CATO persona's origin
+> line politically. This page's claim rests entirely on a different fact
+> — that the wiki's honesty/no-softening standard is downstream of a
+> prompt Dan wrote — which the edit did not touch. No finding here is
+> affected; this is exactly the "its other content is not assessed"
+> boundary the Gaps note above already names.
 
 
 ========================================================================
@@ -18270,7 +18798,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -18664,6 +19192,15 @@ The read-receipt-forensics addition to [[wiki/mind/concepts/forensic-method]]
 page's evidence base — neither touches the audit-lag timeline, the BFS/Annie
 comparison, or the Arnu prediction above — and are noted here only because
 `bin/wiki-climb check` flagged the premise as moved.
+
+> **RE-CHECKED [2026-08-10]:** `bin/wiki-climb check` flagged this page
+> again against `dan-annie-fallout-verdict.md`'s 2026-08-10 RE-CHECKED
+> block (itself downstream of the same-day `attachment-model.md` rewrite).
+> That block corrects a number (13→46 self-indicting apologies) and adds
+> one new data point (12 unmet crisis statements) — neither touches the
+> diagnosis-to-behaviour gap or the confession trap this page reasons
+> from, and the verdict page's own note says its apportionment of harm is
+> unchanged. No finding on this page is affected.
 
 ## Gaps
 
@@ -19767,7 +20304,7 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-10
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -19820,6 +20357,12 @@ connections:
   - page: wiki/mind/synthesis/2020-left-turn
     type: evidenced-by
     claim: "The 2020 conversion turning immediately on the family's union-busting money is a dated case of the vertical-suspect pattern operating on Dan's own paternal line."
+  - page: wiki/work/creative-license
+    type: evidenced-by
+    claim: "Named by the corpus's own dossiers as the founding case — 2011–2012, over airfare-billing discrepancies and altered intern contracts — but a dedicated pass found the specific allegation has no primary corroboration and the exit date is contradicted by Dan's own résumé; the pattern this page documents does not depend on that one case being confirmed, since BFS Foods and Au Za'atar independently instantiate it, but the 'founding' label should be read as narrative framing rather than settled fact until primary evidence surfaces."
+  - page: wiki/mind/politics/axioms
+    type: instance-of
+    claim: "The power axiom restates this page's vertical/lateral split as an explicit political premise and adds a self-authored artifact this page doesn't carry — the CATO persona's origin as Caesar's specific political opponent, not a general Roman figure — as primary evidence the skepticism is a conscious commitment, not only an inherited disposition."
 ---
 
 
@@ -19854,7 +20397,17 @@ as family memory ([[wiki/self/ancestry]]).
 
 ## The evidence runs at every scale
 
-**Micro — the workplace.** The BFS drawer dispute is the cleanest
+**Micro — the workplace.** The corpus's own dossiers name the earliest
+workplace instance as [[wiki/work/creative-license|Creative License]],
+2011–2012 — Dan's exit from an executive-assistant job over alleged
+airfare-billing discrepancies and altered intern contracts, fourteen
+years before the same shape recurs at BFS. That founding case is worth
+flagging for what it is: a confident narrative claim with no primary
+corroboration located anywhere in the corpus, contradicted on its own
+timing by Dan's résumé. It should be read as a claim the wiki carries,
+not a settled premise this synthesis depends on — the pattern itself
+does not need it, since BFS and Au Za'atar are independently and far
+better documented. The BFS drawer dispute is the cleanest
 crystallization: an assistant manager's off-books "$50 short, you owe me"
 demand, read instantly as an unverified vertical claim whose missing paper
 trail was the point, met with refusal and documentation rather than
@@ -23056,6 +23609,9 @@ connections:
   - page: wiki/people/dan-polyak
     type: evidenced-by
     claim: "A same-morning (Oct 21, 2019) Facebook Messenger disclosure to Polyak supplies Dan's own real-time reaction to the encounter, and a Oct 25, 2019 follow-up reveals a previously undocumented repeat visit."
+  - page: wiki/mind/psychosexual/taboo-and-boundary-testing
+    type: evidences
+    claim: "This encounter is the theory's only documented real-world instance — a gay man's first contact with a woman and Dan's own sole bisexual act, authored into one scene, which is what let that page finally close its own long-standing 'no primary example' gap."
 ---
 
 # Bryan (+15088682461)
@@ -26487,6 +27043,7 @@ related: []
 - [[wiki/people/josh-coccagna]] — Golf pro mentor turned DMT-cart supplier, 2017-2019.
 - [[wiki/people/katie-fletcher]] — the 2013 interim girlfriend: the Oddball/Chappelle night, the "Vase" incident.
 - [[wiki/people/kelly-johansson]] — NYC escort Dan and Annie booked together fall 2019; pitched them as co-providers for one of her own clients.
+- [[wiki/people/kevin-mckiernan]] — President of [[wiki/work/creative-license|Creative License]], Dan's employer 2011–2012ish; the corpus's dossiers name him in the founding vertical-authority-distrust case, an allegation with no primary corroboration.
 - [[wiki/people/kim]] — Exemplifies vertical-authority-skepticism and work-power-dynamics: Anita sole locus of agency + off-books…
 - [[wiki/people/kristin]] — Kristin Shaelene (handle +13307038747), introduced through tom as "Tom's friend." An ex-Brooklyn librarian…
 - [[wiki/people/kya-hansen]] — Canadian model/OnlyFans creator "bbblud"; Dan was her Reddit admin for a stretch in 2019, communicated mostly via OF.
@@ -29448,6 +30005,121 @@ Whether the scripted client session ever occurred beyond the corpus's window, an
 
 
 ========================================================================
+PAGE: wiki/people/kevin-mckiernan.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-08-10
+date_modified: 2026-08-10
+date_range_start: 2011-01-01
+date_range_end: 2012-02-01
+sources:
+  - "raw/self/facebook/facebook-ihatedanfrank/other_personal_information/your_address_books.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/kevinmckiernan__3hd8v2u0g/message_1.html"
+  - raw/self/dox-scan/Resume.txt
+  - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
+  - raw/self/dox-md/THE_DAN_FRANK_MANUAL.md
+tags: [nyc-era, career, digital-footprint]
+infobox:
+  name: "Kevin McKiernan"
+  sex: male
+  location: nyc
+  relationship_to_dan: coworker
+  role: "President, Creative License"
+  first_contact: 2011-01-01
+  handles: ["+1917****6163", "+1312****6898", "kevin@creativelicense.com"]
+  known_for: "Dan's boss at Creative License, 2011–2012ish; the corpus's own dossiers name his exit as the founding case of the vertical-authority-distrust pattern, though the specific allegation against him has no primary corroboration"
+connections:
+  - page: wiki/work/creative-license
+    type: component-of
+    claim: "McKiernan is the company, functionally — its president, Dan's direct manager, and the only named human being anywhere in the corpus attached to this employer."
+  - page: wiki/places/90th-st-manhattan
+    type: co-occurs
+    claim: "The job under McKiernan ends around the same window as this address's occupancy begins, which is where the existing wiki page carries the exit story; this page carries the person the story is about."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: co-occurs
+    claim: "Named across two AI dossiers as the man on the other side of the founding vertical-authority-distrust case — a claim this page treats as unconfirmed rather than settled, since no primary source describes what he is alleged to have done."
+---
+
+# Kevin McKiernan
+
+Kevin McKiernan was Dan's employer — company president at
+[[wiki/work/creative-license|Creative License]], a small production-
+services company at 71 8th Ave in the West Village — for roughly the
+first half of Dan's post-Full-Sail stretch in New York, from January 2011
+until sometime in 2012 (the exact end date is contradicted between
+sources; see the employer page). He is the only person named in
+connection with this job anywhere in the corpus, and he is also, in an
+odd way, the corpus's thinnest well-attested figure: the wiki's AI
+dossiers assign him a load-bearing role — the antagonist in the founding
+instance of Dan's entire vertical-authority-skepticism architecture — on
+the strength of essentially no primary evidence about him personally.
+
+## What is actually documented
+
+Dan's resume lists the job's duties directly under McKiernan's
+supervision: daily executive-assistant tasks, travel logistics, calendar
+management, "personal project requests," graphic-design work for the
+company's website and business development, and — notably, given what
+comes next — "oversight of office and employee expenses." Beyond the job
+description, the only primary trace of McKiernan himself is a single
+Facebook message he sent Dan on **December 3, 2011**: "check your phone
+pls." No reply survives in the export, and nothing about the message's
+content indicates whether it was work-related or personal. McKiernan's
+contact card appears in five separate snapshots of Dan's Facebook address
+book spanning January 2016 through October 2021, consistently carrying
+the email `kevin@creativelicense.com` and, in most instances, the number
+`+1 917-549-6163` (one 2018 snapshot instead lists `+1 312-651-6898`).
+Dan kept this contact for close to a decade after the job that connects
+them ended.
+
+## The allegation the dossiers carry, and its evidentiary status
+
+`THE_DAN_FRANK_BOOTLOADER.md` and `THE_DAN_FRANK_MANUAL.md` — AI-authored
+synthesis documents, not primary records — both state that Dan "exits
+Creative License in February 2012 over airfare-billing discrepancies and
+altered intern contracts," language repeated near-verbatim across both
+files. Neither document names McKiernan as the specific person responsible
+for the alleged billing fraud or contract alterations, though he is the
+only person in the corpus with the authority to be — company president,
+Dan's direct supervisor, the one figure the job's "oversight of...
+expenses" duty would have put Dan in position to audit.
+
+No message, email, financial record, or contemporaneous first-person
+account describing the alleged fraud, its discovery, or McKiernan's
+specific conduct was located anywhere in `raw/` for this page. The claim
+exists solely inside the two dossiers, which restate it in nearly
+identical phrasing — evidence they share a common source or that one
+copied the other, not that two independent accounts corroborate it (the
+same non-independence pattern found and flagged on
+[[wiki/mind/psychosexual/taboo-and-boundary-testing]] for an unrelated
+claim). Full discussion of the date conflict and the missing primary
+support is on [[wiki/work/creative-license]] rather than duplicated here;
+this page's job is to be honest about what it can and cannot say about
+the man himself, which is: he existed, he employed Dan, he sent one
+documented text asking Dan to check his phone, and Dan kept his number
+for years afterward. Everything else attached to his name in this corpus
+is a role assigned to him by a narrative written years later, by a model,
+without his side ever being asked.
+
+## Gaps
+
+Nothing beyond the above is documented about McKiernan as a person — no
+age, no other employees, no account of what Creative License actually
+produced, no independent confirmation he is even still reachable at the
+address-book contact information. Whether the December 2011 message
+relates to the alleged billing dispute or is unrelated is unknown. If a
+primary source ever surfaces describing the actual circumstances of the
+job's end, it should replace the current framing rather than supplement
+it, since — as on the employer page — there is currently nothing
+first-hand to supplement.
+
+
+========================================================================
 PAGE: wiki/people/kim.md
 ========================================================================
 
@@ -31203,6 +31875,9 @@ connections:
   - page: wiki/mind/synthesis/block-unblock-loop
     type: evidences
     claim: "Menore is the loop's dependency-rule control: no block was ever needed here because geography ended the dependency, exactly as the rule predicts — but this thread's own 2,044-day silence, answered in one minute, is what made the February 2025 farewell provisional on elapsed time rather than the corpus's one settled clean close."
+  - page: wiki/work/creative-license
+    type: co-occurs
+    claim: "The quoted line contrasting Menore's reliability with 'Creative License style fraud' shows the earlier employer had become Dan's own shorthand for institutional unreliability years later — independent of whether the underlying fraud allegation is ever corroborated."
 tags: [digital-footprint, addiction-recovery, nyc-era]
 knowledge: earned
 infobox:
@@ -37016,6 +37691,9 @@ connections:
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "This is the residence anchor of the NYC-1 period's first two years (of three); the third year moved to a Manhattan UES sublet, 90th between 3rd and Lexington."
+  - page: wiki/work/creative-license
+    type: co-occurs
+    claim: "The Creative License job ran for the address's entire occupancy and into the following year at 90th Street — the studio-work era this page's own arrival section names."
 ---
 
 # 424 Bedford Ave (NYC-1)
@@ -37096,7 +37774,7 @@ title: "90th St, Manhattan (NYC-1's third year)"
 status: closed
 knowledge: mixed
 date_created: 2026-07-20
-date_modified: 2026-07-20
+date_modified: 2026-08-10
 date_range_start: 2012-03-01
 date_range_end: 2013-04-01
 sources:
@@ -37113,6 +37791,9 @@ connections:
   - page: wiki/people/alexis-armel
     type: co-occurs
     claim: "Alexis lived here through the address's full run and worked at the Bridge Cafe until Hurricane Sandy closed it in October 2012 — the final economic shock of NYC-1 before the return to Uniontown the following spring."
+  - page: wiki/work/creative-license
+    type: co-occurs
+    claim: "The employer-side page for the Creative License exit; it corrects this page's confident February 2012 date, which is contradicted by Dan's own resume by roughly a year, and flags that the airfare-billing allegation has no primary-source corroboration."
 ---
 
 # 90th St, Manhattan (NYC-1's third year)
@@ -37127,20 +37808,35 @@ Like Bedford Ave, the address itself is thinly documented — no rent,
 lease, or physical description survives — but the year it anchors
 contains two of the period's most consequential events.
 
-## The Creative License exit (February 2012)
+## The Creative License exit
 
-Just before the move, Dan left his position at Creative License — the
-West Village production-services company at 71 8th Ave he'd worked for
-under Kevin McKiernan since arriving in New York — over airfare-billing
-discrepancies and altered intern contracts. The corpus's own forensic
-read identifies this as the **first documented instance** of a
-recurring pattern: a trusted vertical authority figure engaging in
-quiet financial manipulation, met with Dan's exit rather than
-confrontation. The same structure recurs, by the corpus's own naming,
-fourteen years later at [[wiki/work/bfs-foods|BFS Foods]] — making this
-2012 departure the founding case for
-[[wiki/mind/synthesis/vertical-authority-skepticism]] rather than a
-one-off employment change.
+Just before the move, Dan left his position at
+[[wiki/work/creative-license|Creative License]] — the West Village
+production-services company at 71 8th Ave he'd worked for under
+[[wiki/people/kevin-mckiernan|Kevin McKiernan]] since arriving in New
+York — over alleged airfare-billing discrepancies and altered intern
+contracts. The corpus's own forensic dossiers frame this as the **first
+documented instance** of a recurring pattern: a trusted vertical
+authority figure engaging in quiet financial manipulation, met with
+Dan's exit rather than confrontation. The same structure recurs, by the
+corpus's own naming, fourteen years later at
+[[wiki/work/bfs-foods|BFS Foods]] — making this departure the founding
+case for [[wiki/mind/synthesis/vertical-authority-skepticism]] rather
+than a one-off employment change.
+
+> **CORRECTED [2026-08-10]:** This section previously stated the exit
+> as "February 2012" without qualification. A dedicated pass on
+> [[wiki/work/creative-license]] and [[wiki/people/kevin-mckiernan]]
+> found the date is contradicted between sources: Dan's own résumé gives
+> "Jan 2011 – Feb 2013," a full year later than the AI-dossier chronology
+> this page had adopted as settled. It also found the specific fraud
+> allegation itself has **no primary-source corroboration anywhere in
+> the corpus** — it exists only in two AI dossiers restating each
+> other's language, not two independent accounts. Neither correction
+> changes the "founding case" framing, since the job did end and the
+> vertical-authority pattern this page cites is independently documented
+> elsewhere in the corpus; it does mean the specific mechanism and the
+> exact month should be read as unconfirmed narrative, not settled fact.
 
 ## Hurricane Sandy and the Bridge Cafe (October 2012)
 
@@ -45296,6 +45992,9 @@ connections:
   - page: wiki/people/anita
     type: co-occurs
     claim: "Anita is the GM who originated the $50 claim and controls the levers (deposit, schedule, discipline); the dispute is the setting where her backward-narrative pattern is documented."
+  - page: wiki/work/creative-license
+    type: parallels
+    claim: "The corpus's own dossiers name this job's drawer dispute as the recurrence, fourteen years on, of the same shape first seen at Creative License in 2011–12 — a trusted vertical figure's undocumented financial claim met with exit rather than confrontation; unlike this well-documented instance, the 2012 case has no primary corroboration."
 ---
 
 # BFS Foods (2026)
@@ -45666,6 +46365,182 @@ No earnings totals or delivery-count summaries are available from this export al
 
 
 ========================================================================
+PAGE: wiki/work/creative-license.md
+========================================================================
+
+---
+domain: work
+page_type: event
+title: "Creative License (NYC, 2011–2012)"
+status: closed
+knowledge: mixed
+date_created: 2026-08-10
+date_modified: 2026-08-10
+date_range_start: 2011-01-01
+date_range_end: 2012-02-01
+sources:
+  - raw/self/dox-scan/Resume.txt
+  - "raw/self/facebook/facebook-ihatedanfrank/other_personal_information/your_address_books.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/kevinmckiernan__3hd8v2u0g/message_1.html"
+  - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
+  - raw/self/dox-md/THE_DAN_FRANK_MANUAL.md
+  - raw/self/dox-md/DAN_COGNITIVE_PROFILE.txt
+  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+tags: [nyc-era, career, digital-footprint]
+connections:
+  - page: wiki/people/kevin-mckiernan
+    type: contains
+    claim: "Kevin McKiernan was Creative License's president and Dan's direct manager for the full run of the job — the only named figure in the corpus attached to this employer."
+  - page: wiki/places/90th-st-manhattan
+    type: co-occurs
+    claim: "That page already carries the exit as its central event; this page is the employer-side record the exit happened at, and corrects one of its dates — the exit month is Resume.txt-contradicted, not settled to February 2012 as previously stated."
+  - page: wiki/places/424-bedford-ave
+    type: co-occurs
+    claim: "The job ran the entire time Dan lived at Bedford Ave and into the following year — it is the one period of his life audio-engineering training was the actual job, per Resume.txt's own two consecutive studio-adjacent entries (Ishlab, then this)."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: "Per the corpus's own dossiers, this is the founding case of the vertical-authority-distrust-to-detonation pattern that recurs at BFS Foods fourteen years later — but the specific allegation (airfare-billing fraud, altered intern contracts) has zero primary-source corroboration anywhere in the corpus searched for this page, and should be read as an AI-dossier narrative overlaid on a real, thinly-documented job change."
+  - page: wiki/people/menore
+    type: co-occurs
+    claim: "A later AI-reconstructed line ('a world of un-fun pandemic decay and Creative License style fraud') shows the company survived in Dan's own vocabulary as a byword for institutional unreliability years after it ended, independent of whether the underlying fraud claim is ever corroborated."
+  - page: wiki/work/bfs-foods
+    type: parallels
+    claim: "The corpus's own naming names these two jobs as the first and most recent instances of one shape — a trusted vertical figure's undocumented financial claim met with exit rather than confrontation — fourteen years apart."
+---
+
+# Creative License (NYC, 2011–2012)
+
+Creative License was a small production-services company at 71 8th Ave in
+the West Village where Dan worked as **Executive Assistant / Office
+Manager** under company president [[wiki/people/kevin-mckiernan|Kevin
+McKiernan]], the second of two consecutive studio-adjacent jobs in Dan's
+only NYC-era stretch of audio-engineering-track employment (the first was
+an internship/engineer role at Ishlab Studios under Jamin Gilbert, 10 Jay
+Street, DUMBO — undocumented in the wiki beyond this mention). The job
+itself is thinly but genuinely documented: Dan's own resume, a single
+surviving Facebook message from McKiernan, and an address-book entry
+giving McKiernan's contact details including a `@creativelicense.com`
+email address, which is what connects the person and the company in the
+corpus in the first place. What the job is best known for in the wiki,
+however, is not the job itself — it's how it ended, and that story rests
+on much thinner evidence than its confident retelling elsewhere in the
+corpus suggests.
+
+## What the primary record actually shows
+
+Dan's own resume (`Resume.txt`) lists the role in three bullet points:
+"Assisted company President with daily tasks including correspondence,
+travel logistics, calendar management and other personal project
+requests," "Created graphic design elements for website and business
+development," and "Oversight of office and employee expenses" — an
+executive-assistant/office-manager job with real financial-administration
+responsibility, which matters for reading the exit story below, since
+someone doing "oversight of office and employee expenses" is plausibly
+positioned to notice billing irregularities rather than merely allege
+them from outside.
+
+The only surviving message between Dan and McKiernan is a single Facebook
+message, undated relative to the job's start but timestamped **December
+3, 2011**: "check your phone pls." It is a one-line, one-message thread —
+no reply survives in the export — and it is consistent with an ordinary
+working relationship rather than documenting anything about the job's
+end, which was still roughly two months away by the dossier chronology
+(see below). McKiernan's contact card recurs across five snapshots of
+Dan's Facebook address book (2016–2021), always carrying the same
+`kevin@creativelicense.com` email and, in most snapshots, a `+1
+917-549-6163` number — meaning Dan kept McKiernan in his contacts for
+close to a decade after the job ended, which sits oddly next to the
+dossier's framing of the exit as a rupture (see Gaps).
+
+## What the AI dossiers add — and what they don't support
+
+`THE_DAN_FRANK_BOOTLOADER.md` and `THE_DAN_FRANK_MANUAL.md` both narrate
+the job's end the same way, in nearly identical language: Dan "exits
+Creative License in February 2012 over airfare-billing discrepancies and
+altered intern contracts," and both dossiers name this explicitly as
+"the first documented instance of the vertical-authority-distrust →
+detonation pattern that recurs at BFS fourteen years later" — i.e., the
+founding case for what the wiki elsewhere synthesizes as
+[[wiki/mind/synthesis/vertical-authority-skepticism]].
+
+**That specific allegation — airfare-billing discrepancies, altered
+intern contracts — has no primary-source corroboration anywhere in this
+corpus.** No message, email, or contemporaneous note describing what
+McKiernan actually did, what the discrepancy was, or how Dan discovered
+it survives or was located in this pass. The claim exists only inside
+two AI-authored dossiers restating each other's language almost verbatim
+— the same non-independence pattern documented on
+[[wiki/mind/psychosexual/taboo-and-boundary-testing]], where a second
+dossier's confident restatement of a first dossier's claim was mistaken
+for corroboration until checked. It should be read the same way here:
+one claim, stated twice, not two witnesses.
+
+What the dossiers get right, and what is independently verifiable, is
+that the job ended and NYC-1 entered its final phase around this time —
+Dan and Alexis's move from 424 Bedford Ave to the 90th Street sublet is
+independently dated (see [[wiki/places/90th-st-manhattan]]), and Resume.txt
+independently confirms Dan held this job and no longer holds it by the
+time his next listed job (Nemacolin, April 2016) begins. What is not
+independently verifiable is *why* it ended, or that it ended in a
+confrontation at all rather than an ordinary departure that a later
+narrative pass reframed into the vertical-authority thesis.
+
+## An unresolved date conflict
+
+Three sources give three different windows for this job, and none of
+them has been reconciled before this page:
+
+| Source | Window given |
+|---|---|
+| `Resume.txt` (Dan's own document) | "Jan 2011 – Feb **2013**" |
+| `THE_DAN_FRANK_BOOTLOADER.md` / `THE_DAN_FRANK_MANUAL.md` | Exit in February **2012** |
+| `DAN_COGNITIVE_PROFILE.txt` | Bedford Ave through **Apr 2012**; 90th St from **May 2012** |
+
+Resume.txt is the only document authored by Dan himself among these
+three, and it disagrees with the AI-dossier chronology by a full year.
+Résumés are also, in general, one of the least reliable date sources a
+person produces about their own life — end dates get rounded, jobs get
+stretched to close employment gaps, and this résumé was plainly composed
+long after 2013 (it lists the 2021–2024 Au Za'atar job at the top). No
+source in this pass resolves which is right. What can be said is that
+the wiki's existing page for this period
+([[wiki/places/90th-st-manhattan]]) had silently adopted the dossier's
+February 2012 date as settled fact; it is not settled, and this page
+corrects that rather than repeating it.
+
+## The word survived the job
+
+A later AI-reconstructed session (quoted on [[wiki/people/menore]])
+has Dan, describing the reliability of an informal supply relationship
+years afterward, contrasting it with institutional failure: "In a world
+of 'un-fun' pandemic decay and 'Creative License' style fraud, the
+Menore Protocol was the only thing that never dropped a packet." Whether
+or not the original fraud allegation is ever corroborated, the company's
+name had clearly become Dan's own shorthand for institutional
+unreliability by the time that later session was recorded — the
+allegation, true or not, is load-bearing in his own self-mythology
+regardless of its evidentiary status.
+
+## Gaps
+
+The core allegation behind the exit — airfare-billing discrepancies,
+altered intern contracts — is AI-dossier-only and unconfirmed. The exact
+end date is contradicted between Dan's own resume and the dossier
+chronology by roughly a year, and this page does not resolve it. Whether
+the December 2011 "check your phone pls" message relates to the job at
+all, or is purely social, is unknown — nothing in its content ties it to
+work. That Dan retained McKiernan's contact information for years after
+the job (2016, 2018, and 2021 address-book snapshots) sits in tension
+with the dossier's "detonation" framing and is worth naming rather than
+smoothing over: a person who exits a job over discovered fraud does not
+always keep the perpetrator in their phone for a decade, though they
+might for entirely mundane reasons (a shared industry, a mutual contact,
+simple contact-list inertia). Ishlab Studios, the job immediately
+preceding this one, has no page of its own and no named contact beyond
+"Jamin Gilbert" in the dossier text — a candidate for a future pass.
+
+
+========================================================================
 PAGE: wiki/work/fastly-fsly.md
 ========================================================================
 
@@ -45799,6 +46674,7 @@ Career and business history, plus the tech projects.
 
 - [[wiki/work/au-zaatar]] — Au Za'atar (East Village, ~2021–2024): the 41-month restaurant job, the Night Class alibi, the STORYTIME post-mortems. Closed.
 - [[wiki/work/bfs-foods]] — BFS Foods (Uniontown, 2026): the drawer dispute, the cast, the termination, the never-escalated legal posture. Closed.
+- [[wiki/work/creative-license]] — Creative License (West Village, 2011–2012ish): the second NYC studio-adjacent job, under [[wiki/people/kevin-mckiernan]]; the corpus's dossiers name the exit as the founding vertical-authority case, but the specific fraud allegation has no primary corroboration and the end date is contradicted between sources. Closed.
 - [[wiki/work/fastly-fsly]] — Fastly (FSLY): the edge-CDN tip from Jerad that opened the 2020–2021 market era; the momentum-trading lesson. Closed position.
 - [[wiki/work/nemacolin-caddying]] — Nemacolin/Laurel Valley/Pikewood National caddying (Apr 2016–Nov 2019): the looper hierarchy, day-trip call-ups. Closed.
 

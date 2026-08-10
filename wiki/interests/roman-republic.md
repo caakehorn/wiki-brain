@@ -24,6 +24,9 @@ connections:
   - page: wiki/mind/profile/intp
     type: evidences
     claim: "The great-man-theory tag across the Caesar/Alexander/Oppenheimer reads is primary evidence for the singular-figure-versus-the-system self-myth documented in the profile."
+  - page: wiki/mind/politics/axioms
+    type: evidenced-by
+    claim: "This page's own reading table lists Michael Parenti's Marxist, class-conflict Assassination of Julius Caesar alongside Goldsworthy's more conventional biography, rated identically (5) — the detail the politics page uses to show the 2024 binge is comparative power-structure analysis, not strongman admiration."
 ---
 
 # Roman Republic & Ancient History
@@ -57,7 +60,15 @@ That is the standard modern Roman-Republic syllabus (Carlin → Holland →
 Goldsworthy → Plutarch as primary source) read essentially back to back,
 Goldsworthy alone accounting for four titles. The tags he attached —
 `great-man-theory`, `caesar`, `roman-republic`, `top-shelf` — show he
-read it as leadership-and-collapse material, not idle history.
+read it as leadership-and-collapse material, not idle history. Worth
+naming explicitly: the Parenti title in that table is not a second
+Caesar biography of the same kind as Goldsworthy's — Michael Parenti is
+an explicitly Marxist historian, and his account argues Caesar was
+killed by a senatorial aristocracy protecting its own economic interests
+against a populist reformer. Dan rated it identically to the
+establishment account read the same month, which
+[[wiki/mind/politics/axioms]] reads as comparative power-structure
+analysis rather than admiration for the man himself.
 
 ## It became something he pushed on people
 

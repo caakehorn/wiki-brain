@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -84,7 +84,15 @@ Within this architecture, the concept of "unconditional love" was functionally i
 
 ## The Quantified Trajectory (from the final dossiers)
 
-The full-decade dossiers give the bond its measurable arc. The love was genuine at the origin — Annie's love-language frequency peaked at 5.3% of her messages in 2016, with "YOU ARE MY EVERYTHING" on day three of the record — and decayed monotonically to a statistical zero of 0.1% in 2024, before spiking back to 2.7% in 2025 precisely when the Uniontown supply-chain dependency was established. That 2025 reactivation is the single most diagnostic number in the corpus: the affection instrument returning at near-origin intensity in its procurement function. The dossiers also supply the intermittent-reinforcement machinery in counts: 13 major self-indicting apologies each followed by unchanged behavior, 44 betrayal confrontations answered with a caretaking crisis, 24 "fell asleep" alibis, and a longest silence of 36.5 hours re-entered via a money request.
+The full-decade dossiers give the bond its measurable arc. The love was genuine at the origin — Annie's love-language frequency peaked at 5.3% of her messages in 2016, with "YOU ARE MY EVERYTHING" on day three of the record — and decayed monotonically to a statistical zero of 0.1% in 2024, before spiking back to 2.7% in 2025 precisely when the Uniontown supply-chain dependency was established. That 2025 reactivation is the single most diagnostic number in the corpus: the affection instrument returning at near-origin intensity in its procurement function. The dossiers also supply the intermittent-reinforcement machinery in counts: 44 betrayal confrontations answered with a caretaking crisis, 24 "fell asleep" alibis, and a longest silence of 36.5 hours re-entered via a money request.
+
+> **CORRECTED [2026-08-10]:** This section previously said "13 major
+> self-indicting apologies each followed by unchanged behavior." That was
+> the report's own pre-audit figure; the same document later revises it
+> upward — "the audit finds 46 self-aware or self-indicting statements
+> across the record, a significantly larger number than previously
+> counted." Corrected here per the parallel fix on
+> [[wiki/mind/concepts/attachment-model]].
 
 > **REVISED [2026-08-02] — the 187:191 procurement statistic is withdrawn from
 > this page; the rate collapse-and-rebound is not.** The dossier figure — 187 of
@@ -149,6 +157,23 @@ see [[wiki/people/jerel-coles]]) added a chronology row, a Target G revision
 note, and a note on Suz's harassment caller. None of it touches love-language
 rates, the logistical/financial tethers, the somatic-toll evidence, or the
 single-bond-switch mechanics this page draws on. No finding here is affected.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/concepts/attachment-model]], rewritten the same day. The rewrite
+corrected one number this page had also carried — "13 major self-indicting
+apologies" — to the audit-revised 46, fixed above with a CORRECTED block. It
+also relabeled the 266/84 relationship-event figures as corpus-wide rather
+than Annie-specific (this page's own table above already carries the
+correct corpus-wide framing, so no change needed there) and added a new,
+previously undocumented data point — 12 of Dan's own crisis/suicidal
+statements met with no substantive response — which strengthens rather than
+alters this page's thesis: it is one more instance of the bond persisting
+through a signal severe enough that a functioning attachment would expect
+it to register. No conclusion on this page is reversed; the intermittent-
+reinforcement count is larger than previously stated, in the same
+direction the page already argues.
 
 ## System Recalibration Requirements
 

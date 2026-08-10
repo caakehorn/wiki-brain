@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
@@ -204,6 +204,26 @@ The synthesis the wiki already carries — "the gaslighting outweighed the affai
 
 > **RE-CHECKED [2026-08-08] — tuquick identity unmasked; verdict conclusion unaffected.**
 > [[wiki/people/tuquick-17248123683]] was modified: Tuquick's real identity is now Jerel Wayne Coles, identified via a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`. This is additive identity data — Coles's name, address, and criminal record were not in the corpus at synthesis time. The verdict's claim on the tuquick page rests on his June 15 defection behavior (the "compulsive liar with a drug addiction" read and the independent-validation argument), not on his anonymity. That behavior is unchanged by the unmasking. No conclusion on this page altered.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/concepts/attachment-model]], rewritten the same day. This
+page's own 2026-07-18 primary-count pass had already independently found
+what the rewrite found by a different route: 127/110 order-consistent but
+`[DERIVED]`, 299 unlocated. Nothing here needed correcting on that front —
+the rewrite's Gaps section cites this page's own recount as the place a
+primary settlement should happen, which is already true. The rewrite's
+"13→46 self-indicting apologies" correction doesn't touch a number this
+page cites. The new 12-crisis-statement data point (Dan's own crisis
+language met with no substantive response) doesn't change the verdict's
+apportionment of terminal-phase harm, which already rests on the
+gaslighting/affair-concealment finding rather than this axis — but it is
+worth noting as a second, independent data point supporting this page's
+"diagnosis→behavior gap" framing: the corpus documents both Annie failing
+to meet Dan's crisis signals and Dan's own architecture converting her
+wrongs into a decade-long catastrophe, and neither cancels the other. No
+conclusion on this page is reversed.
 
 ## Standing constraint on analysis [2026-08-09]
 

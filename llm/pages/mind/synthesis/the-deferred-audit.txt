@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -400,6 +400,15 @@ The read-receipt-forensics addition to [[wiki/mind/concepts/forensic-method]]
 page's evidence base — neither touches the audit-lag timeline, the BFS/Annie
 comparison, or the Arnu prediction above — and are noted here only because
 `bin/wiki-climb check` flagged the premise as moved.
+
+> **RE-CHECKED [2026-08-10]:** `bin/wiki-climb check` flagged this page
+> again against `dan-annie-fallout-verdict.md`'s 2026-08-10 RE-CHECKED
+> block (itself downstream of the same-day `attachment-model.md` rewrite).
+> That block corrects a number (13→46 self-indicting apologies) and adds
+> one new data point (12 unmet crisis statements) — neither touches the
+> diagnosis-to-behaviour gap or the confession trap this page reasons
+> from, and the verdict page's own note says its apportionment of harm is
+> unchanged. No finding on this page is affected.
 
 ## Gaps
 
