@@ -8,15 +8,17 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-10 — 27 pages
+## 2026-08-10 — 34 pages
 
 - **Session log:** rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
 - **Session log:** ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
 - **Session log:** rewrite | people, places | annie-ulmer.md wiki-rewrite pass + 3 manual captures — sex resumption, the 307 E 76th St cast, Suz's Winter Park condo
 - **Session log:** rewrite | people | annie-ulmer.md deep-mining pass — new events from previously unread raw/ sources
+- **Session log:** edit | people | Winter Park condo address confirmed — 2924 Antique Oaks Circle
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/interests/food-and-diet]] | interests | _(carries a REVISED from 2026-08-02)_ |
 | [[wiki/mind/concepts/attachment-model]] | mind | **CORRECTED** — A re-check of the source `.docx` files behind the quantitative table below found two errors and one omission, none visible from reading the page. First, the table's "13 major self-indicting apologies" |
 | [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/politics/axioms]] | mind | — |
@@ -28,9 +30,11 @@ simply listed.
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-02)_ |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page as stale against exocortex, edited the same day to add one new connections edge (to the new axioms page) reading the CATO persona's origin line p |
+| [[wiki/mind/synthesis/political-psyops]] | mind | **REVISED** — A previously unmined Facebook thread with Tom Maison has Dan discussing January 6th in real time, the same week it happened. On January 7, 2021 — the day after — he writes: *"i've been obsessively pou |
 | [[wiki/mind/synthesis/single-channel]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
 | [[wiki/mind/synthesis/supply-network]] | mind | _(carries a REVISED from 2026-08-02)_ |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page again against `dan-annie-fallout-verdict.md`'s 2026-08-10 RE-CHECKED block (itself downstream of the same-day `attachment-model.md` rewrite). That block correc |
+| [[wiki/mind/synthesis/the-embedded-objective]] | mind | — |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/people/annie-ulmer]] | people | **CORRECTED** — This section previously said the ~$10,000 landlord debt was "paid down," implying it was retired. It was not. A March 5, 2026 message from Paci — sent after Dan's February 2025 departure, once he'd fi |
@@ -39,10 +43,14 @@ simply listed.
 | [[wiki/people/katherine-palakovich]] | people | — |
 | [[wiki/people/kevin-mckiernan]] | people | _(carries a CORRECTED)_ |
 | [[wiki/people/marty-jackson]] | people | — |
+| [[wiki/people/new-jim-shaffer]] | people | _(carries a REVISED from 2026-07-19)_ |
 | [[wiki/people/renae-holland]] | people | — |
+| [[wiki/people/rob-orange]] | people | **CORRECTED** — a second contemporaneous account exists — a previously unmined Facebook thread with Tom Maison has Dan reporting the death the same day, 2:12 AM April 11, 2014: "Hey dude Rob Orange died," followed im |
 | [[wiki/people/suzanne-frank]] | people | **CORRECTED** — the exact address is now on record, supplied directly by the operator — **2924 Antique Oaks Circle, Winter Park, FL** — a unit in the **Parkview Village** condominium community (commonly listed at 350 |
+| [[wiki/people/tom]] | people | **CORRECTED** — this page previously stated the friendship "dates to roughly 2010," sourced to a raw filename (`dan tom 2010 2022.txt`) rather than a dated primary record. A previously unmined Facebook Messenger expo |
 | [[wiki/places/307-e-76th-st]] | places | — |
 | [[wiki/places/90th-st-manhattan]] | places | **CORRECTED** — This section previously stated the exit as "February 2012" without qualification. A dedicated pass on creative-license and kevin-mckiernan found the date is contradicted between sources: Dan's own rés |
+| [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
 
 ## 2026-08-09 — 10 pages
@@ -76,7 +84,7 @@ simply listed.
 | [[wiki/people/zach-clingan]] | people | **CORRECTED** — The handle `+18439903264` does not belong to Zachariah Harshman. Two independent contact exports separate the two men cleanly, and their number sets do not overlap at any point. | Source | Zach Clinga |
 | [[wiki/places/117-belmont-circle]] | places | **REVISED** — Earlier versions of this page dated the tenure as "more than fifty years" and left it there, which is true but soft. The GEDCOM fixes a floor at 1961 and supplies the mechanism (a return from Miami Be |
 
-## 2026-08-03 — 7 pages
+## 2026-08-03 — 6 pages
 
 - **Session log:** ingest | legal | court blotter photo — the arrest is now primary-documented, and a wiki inference was wrong
 - **Session log:** ingest | legal | factstory brief #5 — "The Arrest (the real one)"
@@ -86,12 +94,11 @@ simply listed.
 | [[wiki/legal/2015-possession-arrest]] | legal | **REVISED** — When this page was written earlier the same day, it judged the capture's opening line ("It's sometime in early 2015") to be "almost certainly too early," on the reasoning that a February arrest would  |
 | [[wiki/legal/2015-retail-theft-arrest]] | legal | **REVISED** — Until today it was titled "2015 Arrest (Retail Theft / 'The Combos Incident')" and carried the lawyer, the ARD application, the Judge Wagner hearing, the barracks trips and the family drama around the |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
-| [[wiki/mind/synthesis/the-embedded-objective]] | mind | — |
 | [[wiki/people/jack-connor]] | people | — |
 | [[wiki/people/lucy]] | people | — |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-08-08)_ |
 
-## 2026-08-02 — 48 pages
+## 2026-08-02 — 47 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -112,7 +119,6 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/chemical-architecture]] | health | — |
-| [[wiki/interests/food-and-diet]] | interests | **REVISED** — An operator capture filed the same week documents an absolute dietary regime the page did not know existed, and "absent from its evaluative record entirely" cannot survive *"pickles are the mortal ene |
 | [[wiki/interests/music/concepts/sub-bass-signature]] | interests | — |
 | [[wiki/legal/463-morgantown]] | legal | **DEADLINE ELAPSED** — The mechanics-lien date this page has carried as its nearest hard deadline — estimated ~**27 July 2026** — has now passed, and **no source read to date records what happened.** The estimate was always |
 | [[wiki/legal/index]] | legal | — |
@@ -311,7 +317,7 @@ simply listed.
 | [[wiki/self/lineage/index]] | self | — |
 | [[wiki/work/caviar-courier]] | work | — |
 
-## 2026-07-20 — 42 pages
+## 2026-07-20 — 41 pages
 
 - **Session log:** ingest | people | FB deep-scrape XII — matthew-palermo (new tier-one entry)
 - **Session log:** ingest | people | FB deep-scrape XIII — david-beard (new tier-one entry)
@@ -388,13 +394,12 @@ simply listed.
 | [[wiki/timeline/events/eli-incident]] | timeline | **REVISED** — the Eli discovery text was dossier-transcribed only through 2026-07-18 (three prior re-searches of `raw/` came up empty because the quote was searched as one string; iMessage actually split it into si |
 | [[wiki/timeline/events/march-2026-terminal-phase]] | timeline | — |
 | [[wiki/timeline/periods/feb-apr-2025-return-and-rupture]] | timeline | — |
-| [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/work/tech/ai-video-essays]] | work | — |
 | [[wiki/work/tech/danmodel]] | work | — |
 | [[wiki/work/tech/index]] | work | — |
 | [[wiki/work/tech/mneme/overview]] | work | — |
 
-## 2026-07-19 — 50 pages
+## 2026-07-19 — 47 pages
 
 - **Session log:** ingest | people | long-tail MINE pass (sam, davey-fitzpatrick, vaughn, nick-mattie, urpaaa) + kezmarsky death-claim correction
 - **Session log:** ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
@@ -427,7 +432,6 @@ simply listed.
 | [[wiki/mind/psychosexual/emotional-imprinting]] | mind | _(carries a REVISED from 2026-08-10)_ |
 | [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | — |
-| [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/people/bobby-cole]] | people | — |
 | [[wiki/people/brian]] | people | — |
 | [[wiki/people/bryan-5088682461]] | people | **REVISED** — Encounter date corrected to **October 20, 2019** per direct operator statement ("the threesome took place on 20 Oct 2019"), superseding the October 21 previously inferred from the Sent 2019-10-22 22:2 |
@@ -450,10 +454,8 @@ simply listed.
 | [[wiki/people/lucie-dobbin]] | people | — |
 | [[wiki/people/lukyan-mraz]] | people | — |
 | [[wiki/people/matt-dunn]] | people | — |
-| [[wiki/people/new-jim-shaffer]] | people | **REVISED** — This paragraph previously repeated the misreading that Steve Kezmarsky had died. The raw thread shows Dan explicitly correcting Jim's "Wait... he's dead?" in the next message. **A note on tone:** the  |
 | [[wiki/people/nick-mattie]] | people | — |
 | [[wiki/people/oscar-lindquist]] | people | — |
-| [[wiki/people/rob-orange]] | people | — |
 | [[wiki/people/sam]] | people | — |
 | [[wiki/people/stephanie-nalbone]] | people | — |
 | [[wiki/people/steve-kezmarsky]] | people | **REVISED** — This page previously stated Steve was dead by December 2018, citing the Jim Shaffer thread. The raw rows show the opposite: Jim's "Wait... he's dead?" was a misreading of Dan's joke, and Dan immediate |
@@ -467,7 +469,7 @@ simply listed.
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | — |
 | [[wiki/work/bfs-foods]] | work | — |
 
-## 2026-07-18 — 16 pages
+## 2026-07-18 — 15 pages
 
 - **Session log:** ingest | work+people | Gemini-_02 Au Za'atar storytime fully mined (50 approved data points); chats/gemini-02 page retired
 - **Session log:** build | meta | bin/llm-publish — public LLM access point (llm/) served by GitHub Pages
@@ -490,7 +492,6 @@ simply listed.
 | [[wiki/people/manuel]] | people | — |
 | [[wiki/people/teddy]] | people | — |
 | [[wiki/people/timmy]] | people | — |
-| [[wiki/people/tom]] | people | — |
 | [[wiki/people/vicki]] | people | — |
 | [[wiki/places/337-saratoga-drive]] | places | _(carries a REVISED from 2026-07-13)_ |
 | [[wiki/timeline/periods/2010s]] | timeline | **REVISED** — an earlier version of this page framed "NYC Round One" as 2010–2014 and described Alexis as "met through webcam work." Both are corrected against the canonical context-core §4 residence timeline. NYC- |

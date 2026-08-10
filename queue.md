@@ -2,6 +2,43 @@
 
 _Items waiting for or in the middle of ingestion. `bin/capture status` lists the inbox._
 
+## Facebook deep-mine, 2026-08-10 — one thread fully read, ~265 remain
+
+Operator asked for continued "gold mine" scraping, with a Facebook deep-scan
+named as the fallback. The four existing `wiki/self/facebook/*.md` pages
+(messages, posts, friends, interests) turned out to be genuine gold: written
+as category-level overviews rather than read-to-exhaustion, with 403 message
+threads cited in aggregate and only the Annie/Jamie Mohler/handful of others
+actually opened. This pass read **one** thread in full —
+`messages/inbox/tommaison_z_scvtnccq/message_1.html` (5,439 messages, May
+2008 – Aug 2022, the single largest thread in the export at 1.7MB) — and it
+alone produced: a corrected friendship-origin date on `tom.md` (~2005, not
+"roughly 2010"), a previously undocumented Jan–Feb 2021 crisis cluster for
+Tom (an earlier DUI, a breakup, a dog's death, a passing reference to a
+sister's death, a rehab stay), an independent contemporaneous news-article
+account of Jim Shaffer's 2017 embezzlement arrest (`new-jim-shaffer.md`), a
+second contemporaneous account of Rob Orange's death (`rob-orange.md`), a
+hire-date data point for Au Za'atar, and — the highest-value single find — a
+January 7, 2021 real-time Jan 6 discussion that pushes the J6-hypothesis's
+documented origin back more than four years (`political-psyops.md`).
+
+**What remains, ranked:**
+
+| Item | Priority | Notes |
+|---|---|---|
+| `messages/inbox/bobbycole_-p2picui8w/message_1.html` (332K) | HIGH | Second-largest thread; `bobby-cole.md` exists but this size suggests it's under-mined the same way Tom's was |
+| `messages/inbox/zachariahharshman_dgkcd6awma/message_1.html` (208K) | MEDIUM | `zachariah-harshman.md` exists; check for the same shallow-overview gap |
+| `messages/inbox/rjritchey_1zdzzhrtsw/message_1.html` (156K) | MEDIUM | `rj-ritchey.md` exists |
+| `messages/inbox/rebekahfullem_ng4ysbv8cq/message_1.html` (152K) | MEDIUM | `bekah-fullem.md` exists |
+| `messages/inbox/jobyanderson_xoayrhapbw/message_1.html` (108K), `nathanking_zpr1d_ig5g` (104K), `jameshunt_oxcke_y4na` (88K) | MEDIUM | Identities not yet resolved against any existing page — check first before reading |
+| `messages/inbox/facebookuser_avam4z9eww/message_1.html` (64K) | LOW | Anonymized handle, identity unknown |
+| ~255 remaining smaller threads | LOW | Category-level coverage already exists on `wiki/self/facebook/messages.md`; individual reads only worth it for threads over ~30K |
+| `comments_and_reactions/` (6.0MB) | HIGH | Never opened — real opinion signal (what he actually reacted to/commented on), zero current coverage |
+| `apps_and_websites_off_of_facebook/` (6.9MB) | MEDIUM | Off-platform activity tracking — never opened |
+| `your_topics/your_topics.html` | CHECKED, LOW VALUE | Facebook's own ad-interest inference (Bears, Deer, Labrador Retrievers...) — algorithmic guesswork, not personal signal. Don't re-open. |
+| `other_activity/pokes.html`, `notes.html` | CHECKED, LOW VALUE | Pokes list is thin (a handful of names/dates); notes.html not yet opened but pokes suggests this category is low-yield |
+| `events/`, `search/`, `notifications/`, `pages_and_profiles/`, `facebook_marketplace/`, `stories/`, `facebook_news/`, `your_interactions_on_facebook/` | UNCHECKED | Not surveyed this pass; sizes are all under 300K so cheap to check |
+
 ## Highest-value pending item
 
 | Item | Priority | Notes |

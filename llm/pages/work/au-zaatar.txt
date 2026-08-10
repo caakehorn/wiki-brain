@@ -4,8 +4,9 @@ page_type: event
 title: "Au Za'atar (NYC, ~2021–2024)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-20
+date_modified: 2026-08-10
 sources:
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/tommaison_z_scvtnccq/message_1.html
   - raw/self/message-csv/imessage_19178259183_both_all_now.csv
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/TheWaitersVisibleHigh.md
@@ -55,6 +56,9 @@ connections:
   - page: wiki/people/tarik-fallous
     type: contains
     claim: "Tarik's own 80-message direct thread (filed 2026-07-20) is the primary source for the wine-inventory and hiring-coordination texture behind the 'de facto manager' framing below, and documents the relationship continuing, warmly, nearly two years past this job's end."
+  - page: wiki/people/tom
+    type: evidenced-by
+    claim: "Dan's May 24, 2021 announcement to Tom Maison ('I got a Job at a Lebanese restaurant') is the most precisely dated primary mention of the hire anywhere in the corpus, roughly two months after the established March 2021 start date."
 ---
 
 
@@ -283,3 +287,13 @@ Locating the originals is an open collection task.
 > Her later zero-notice firing was from that separate location ("the
 > restaurants ran totally differently and with different people"), not
 > from the Midtown shed.
+
+> **NEW [2026-08-10]:** a previously unmined Facebook thread with
+> [[wiki/people/tom|Tom Maison]] has Dan announcing the job on **May 24,
+> 2021** ("I got a Job at a Lebanese restaurant") — about two months after
+> the March 2021 start date above. This doesn't overturn the established
+> date, which comes from a more deliberate DANSYNTH correction; it's
+> equally consistent with mentioning a new job to a friend some weeks
+> after starting. Recorded as the most precisely dated primary
+> *announcement* in the corpus, not necessarily the most precise start
+> date.

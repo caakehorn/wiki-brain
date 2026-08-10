@@ -4,11 +4,12 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-08-10
 date_range_start: 2013-03-26
 date_range_end: 2018-12-09
 sources:
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/tommaison_z_scvtnccq/message_1.html"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
 tags: [uniontown-era, addiction-recovery, grief]
 infobox:
@@ -23,10 +24,13 @@ connections:
     claim: "Jim's Dec 2018 remembrance — 'Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week' — and the Tom Petty minivan story are the corpus's second independent account of the friendship, four years after his death."
   - page: wiki/people/lauryn-ashly
     type: evidenced-by
-    claim: "Lauryn's April 11, 2014 real-time reaction to the death, traded with Dan the day the news broke, is the corpus's only contemporaneous account of Rob's death and its suspected cause."
+    claim: "Lauryn's April 11, 2014 real-time reaction to the death, traded with Dan the day the news broke, is the fuller of two contemporaneous accounts of Rob's death and its suspected cause."
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Jim's Dec 2018 thread names Rob and Steve back to back as the cohort's losses — except Steve, per a correction the same conversation forces, was misheard as dead and was actually alive."
+  - page: wiki/people/tom
+    type: evidenced-by
+    claim: "A second contemporaneous account of the death, traded with Tom the same day (2:12 AM, April 11, 2014) — Dan's own real-time overdose read, stated with more certainty than the ambivalence he shows Lauryn in the same window."
 ---
 
 # Rob Orange
@@ -40,9 +44,19 @@ material.
 
 ## The death (April 2014)
 
-The corpus's only contemporaneous account comes from
-[[wiki/people/lauryn-ashly|Lauryn Ashly]]'s Facebook thread, traded
-with Dan the day the news broke. Neither of them knew the cause for
+> **CORRECTED [2026-08-10]:** a second contemporaneous account exists — a
+> previously unmined Facebook thread with [[wiki/people/tom|Tom Maison]]
+> has Dan reporting the death the same day, 2:12 AM April 11, 2014: "Hey
+> dude Rob Orange died," followed immediately by "Which is only hilarious
+> in the sense that you beat addiction and he OD'd...the cosmic irony is
+> just unbearable" — Dan's own real-time cause-of-death read (overdose),
+> stated with more certainty here than the ambivalence he shows Lauryn
+> elsewhere in the same window. Tom's reply, "Thats crazy, what was he
+> doing?", gets no further elaboration in the surviving thread.
+
+The Lauryn Ashly account below remains the fuller contemporaneous
+record: a Facebook thread with [[wiki/people/lauryn-ashly|Lauryn Ashly]],
+also traded the day the news broke, where neither of them knew the cause for
 certain: "no he wasn't [in bad shape], he was doing great for a good
 min now, and rob was never good at hiding using as much as he thought
 he was, i have no clue what happened unless maybe his tolerance was low

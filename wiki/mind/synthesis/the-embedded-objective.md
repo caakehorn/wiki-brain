@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-03
+date_modified: 2026-08-10
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -234,3 +234,12 @@ by which a payload gets installed is unexamined here:
 [[wiki/mind/concepts/institutional-out]] establishes that Dan does it
 deliberately and says so, but nothing in the corpus describes him choosing
 *which* objective to embed, or what happens in a role that offers several.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/work/au-zaatar]], which moved on 2026-08-10 for a minor addition: a
+Facebook message pins the hire *announcement* to Tom Maison at May 24,
+2021, about two months after the page's own established March 2021 start
+date — explicitly not asserted as a correction. The **41 months** figure
+this page's table depends on is untouched. No finding here is affected.

@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-10
-450 pages, ~717,991 tokens.
+450 pages, ~721,249 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -6506,7 +6506,7 @@ aliases: ["the unevaluated domain", "food as everything but taste"]
 status: active
 knowledge: earned
 date_created: 2026-07-25
-date_modified: 2026-08-02
+date_modified: 2026-08-10
 sources:
   - raw/self/captures/2026-08-01_154556_picky-eater.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -6770,6 +6770,16 @@ for everything it is allowed to touch."
   adolescent bulimia and candy-staple period on [[wiki/health/hyperreflexivity]]
   is unknown, and the answer decides whether this is a control behaviour that
   grew out of a disordered one or an independent lifelong trait.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/work/au-zaatar]], which moved on 2026-08-10 for a minor addition: a
+Facebook message pins the hire *announcement* to Tom Maison at May 24,
+2021, about two months after the page's own established March 2021 start
+date — explicitly not asserted as a correction. The 41-month tenure this
+page's "Labour" control depends on is untouched. No finding here is
+affected.
 
 
 ========================================================================
@@ -17680,7 +17690,7 @@ title: "Political Psyops & Hybrid Events"
 tags: [politics, forensic-analysis, ideology]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-08-10
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
@@ -17691,6 +17701,7 @@ sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/facebook/facebook-ihatedanfrank/
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/tommaison_z_scvtnccq/message_1.html
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/chatgpt-export/babbitt-shooting-psyop-debate-2025-06-15.md
 connections:
@@ -17706,6 +17717,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "The totality's 'Political Intensity and Structural Decay' section states in brief what this page argues in full: the post-partisan, both-parties-captured diagnosis and the ruthless focus on procedural mechanics over tribal loyalty."
+  - page: wiki/people/tom
+    type: evidenced-by
+    claim: "A January 7, 2021 real-time exchange with Tom — Dan already suspecting police 'let them in' at the Capitol, days after the event — is the earliest documented seed of the cops-complicit reading later formalized as the J6/Operation Wildfall hypothesis, more than four years before the previously-earliest-known June 2025 instance."
 ---
 
 
@@ -17774,6 +17788,44 @@ fabrication, near-certain) seven months earlier, on a different AI
 platform. The recurrence across platforms and months is itself a data
 point for how settled this conclusion was for Dan well before the Gemini
 cluster gave it its formal "Sandwich"/"Psy-Kill" vocabulary.
+
+> **REVISED [2026-08-10]: the seed is not seven months old, it is more
+> than four years old — and it starts from the opposite political
+> valence.** A previously unmined Facebook thread with
+> [[wiki/people/tom|Tom Maison]] has Dan discussing January 6th in real
+> time, the same week it happened. On January 7, 2021 — the day after —
+> he writes: *"i've been obsessively pouring over the footage and it is
+> SO obvious that the cops were aware of what was happening and let them
+> in on the basis that they didn't damage anything"* — the specific
+> procedural-complicity claim ("let them in") that the "Inverted
+> Containment" doctrine formalizes five years later, already fully
+> formed. Tom's own contribution the same exchange is more extreme still:
+> *"It's a zog psyop."*
+>
+> What the 2021 exchange does **not** carry forward is the political
+> valence of the later, fully-formed hypothesis. Dan's contemporaneous
+> reaction is sharply critical of the rioters and of Trump: he calls them
+> "literally detached" people who "would have murdered any democrat they
+> found," mocks "these fucking lames who pretend like it's punk rock to
+> be christian, conservative or both," and argues a populist-left critique
+> of Trump specifically ("if trump was able to stay on message and
+> deliver the type of pro working class / pro union policy plancks that
+> bernie has, he would 100% be reelected") rather than any sympathy for
+> the rally's cause. He bets Tom $50 that participants would face real
+> consequences for the insurrection charges.
+>
+> Read together, the 2021 exchange is not a weaker version of the 2025–26
+> thesis — it's the same procedural-suspicion instinct (institutions,
+> including police, behave in ways that don't match their stated
+> account) arising independently of, and prior to, any sympathy for what
+> the rioters were doing. The **mechanism** (cops let it happen on
+> purpose) is present from day two; the **narrative-weaponization framing**
+> that turns this into evidence of an anti-populist psyop, rather than
+> simple institutional failure or complicity, only crystallizes later.
+> That sequencing — procedural doubt first, political interpretation
+> years afterward — is itself informative about how this method actually
+> operates: the forensic instinct doesn't originate from the political
+> conclusion, it precedes it and gets reinterpreted by it.
 
 ## The Sandwich / Psy-Kill mechanism (Gemini formalization)
 
@@ -19320,7 +19372,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-03
+date_modified: 2026-08-10
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -19547,6 +19599,15 @@ by which a payload gets installed is unexamined here:
 [[wiki/mind/concepts/institutional-out]] establishes that Dan does it
 deliberately and says so, but nothing in the corpus describes him choosing
 *which* objective to embed, or what happens in a role that offers several.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/work/au-zaatar]], which moved on 2026-08-10 for a minor addition: a
+Facebook message pins the hire *announcement* to Tom Maison at May 24,
+2021, about two months after the page's own established March 2021 start
+date — explicitly not asserted as a correction. The **41 months** figure
+this page's table depends on is untouched. No finding here is affected.
 
 
 ========================================================================
@@ -33299,10 +33360,10 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-19
-date_range_start: 2018-04-22
+date_modified: 2026-08-10
+date_range_start: 2017-03-11
 date_range_end: 2019-10-20
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"]
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/tommaison_z_scvtnccq/message_1.html"]
 tags: [relationships, career, financial-stress]
 knowledge: mixed
 infobox:
@@ -33322,6 +33383,9 @@ connections:
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Steve's death reaches the record through this thread — Jim hadn't heard, December 2018 — the second dead member (after Rob Orange) of the same high-school-era Uniontown circle."
+  - page: wiki/people/tom
+    type: evidenced-by
+    claim: "Tom and Dan discuss the arrest the same night it's charged (March 11, 2017), with Dan pasting the full contemporaneous news article — an independent record of the accusation, over a year before Jim's own self-serving account of it opens the direct thread above."
 ---
 
 # "New Jim Shaffer" (Jim Shaffer)
@@ -33331,6 +33395,31 @@ Jim Shaffer — "not the only Jim Shaffer" in Dan's life, hence the "new" contac
 ## The embezzlement case
 
 The very first messages (April 22, 2018) find Jim mid-vindication: accused of stealing roughly $200K, he says a "terrible prelim investigation" and a Herald-Standard "smear campaign" overstated the amount and falsely implicated his mother's house. He'd left the company six months before it collapsed with $235K of his own invested capital never collected — a fact he says made the theft accusation illogical on its face. He spent $55,000 on an attorney specifically to demonstrate he had no financial motive, and by June 2018 was paying a $115,800 settlement to the Fayette County courthouse to close the matter, with plans to countersue the six people who'd accused him. He calls the county's justice system "a fuckin joke."
+
+> **NEW [2026-08-10]:** an independent, contemporaneous record of the
+> accusation predates the thread above by over a year — Dan pastes a full
+> news article to [[wiki/people/tom|Tom Maison]] the night the arrest
+> warrant issues, March 11, 2017, naming Jim (as "James Harold Shaffer
+> Jr., 28") facing **37 felony charges** filed before Magisterial District
+> Judge Daniel C. Shimshock, investigated by Trooper Jonathan P.
+> Eberhardt: soliciting six men to invest in a company (Lock Trust Inc.,
+> formerly Cash Flow Consultants), keeping a total of roughly $190,000
+> across the transactions rather than forwarding it, in one case using a
+> mortgage guarantee backed by a house he did not own (his mother's) to
+> secure an investment, and in another using $50,000 of a $60,000
+> investment to pay off an unrelated company loan. The article dates the
+> underlying transactions to 2014–2015 — meaning the scheme itself
+> predates by roughly a year the "left the company six months before it
+> collapsed" framing Jim gives his own conduct in 2018. Dan's own
+> real-time reaction to the news, sent to Tom the same night, treats the
+> friendship's survivors as a shrinking set rather than passing judgment
+> on Jim specifically: *"how many old friends do you have left that
+> aren't dead/in jail?" / "It's just you and me bud."* This is recorded
+> as the independent charging-document account against which Jim's own
+> April 2018 self-description ("terrible prelim investigation," "smear
+> campaign") can be read — the two do not straightforwardly agree on how
+> much was actually taken or when the underlying conduct occurred, and
+> neither is corrected by the other here.
 
 ## Golf and wealth
 
@@ -33923,11 +34012,12 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-08-10
 date_range_start: 2013-03-26
 date_range_end: 2018-12-09
 sources:
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/tommaison_z_scvtnccq/message_1.html"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
 tags: [uniontown-era, addiction-recovery, grief]
 infobox:
@@ -33942,10 +34032,13 @@ connections:
     claim: "Jim's Dec 2018 remembrance — 'Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week' — and the Tom Petty minivan story are the corpus's second independent account of the friendship, four years after his death."
   - page: wiki/people/lauryn-ashly
     type: evidenced-by
-    claim: "Lauryn's April 11, 2014 real-time reaction to the death, traded with Dan the day the news broke, is the corpus's only contemporaneous account of Rob's death and its suspected cause."
+    claim: "Lauryn's April 11, 2014 real-time reaction to the death, traded with Dan the day the news broke, is the fuller of two contemporaneous accounts of Rob's death and its suspected cause."
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Jim's Dec 2018 thread names Rob and Steve back to back as the cohort's losses — except Steve, per a correction the same conversation forces, was misheard as dead and was actually alive."
+  - page: wiki/people/tom
+    type: evidenced-by
+    claim: "A second contemporaneous account of the death, traded with Tom the same day (2:12 AM, April 11, 2014) — Dan's own real-time overdose read, stated with more certainty than the ambivalence he shows Lauryn in the same window."
 ---
 
 # Rob Orange
@@ -33959,9 +34052,19 @@ material.
 
 ## The death (April 2014)
 
-The corpus's only contemporaneous account comes from
-[[wiki/people/lauryn-ashly|Lauryn Ashly]]'s Facebook thread, traded
-with Dan the day the news broke. Neither of them knew the cause for
+> **CORRECTED [2026-08-10]:** a second contemporaneous account exists — a
+> previously unmined Facebook thread with [[wiki/people/tom|Tom Maison]]
+> has Dan reporting the death the same day, 2:12 AM April 11, 2014: "Hey
+> dude Rob Orange died," followed immediately by "Which is only hilarious
+> in the sense that you beat addiction and he OD'd...the cosmic irony is
+> just unbearable" — Dan's own real-time cause-of-death read (overdose),
+> stated with more certainty here than the ambivalence he shows Lauryn
+> elsewhere in the same window. Tom's reply, "Thats crazy, what was he
+> doing?", gets no further elaboration in the surviving thread.
+
+The Lauryn Ashly account below remains the fuller contemporaneous
+record: a Facebook thread with [[wiki/people/lauryn-ashly|Lauryn Ashly]],
+also traded the day the news broke, where neither of them knew the cause for
 certain: "no he wasn't [in bad shape], he was doing great for a good
 min now, and rob was never good at hiding using as much as he thought
 he was, i have no clue what happened unless maybe his tolerance was low
@@ -36051,8 +36154,8 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-18
-sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md", "raw/self/dox-md/_Deconstructing a Chaotic 24 Hours .md"]
+date_modified: 2026-08-10
+sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md", "raw/self/dox-md/_Deconstructing a Chaotic 24 Hours .md", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/tommaison_z_scvtnccq/message_1.html"]
 tags: [addiction-recovery, dui, ai-collaboration, relationships, mental-health]
 infobox:
   name: "Tom"
@@ -36091,6 +36194,18 @@ connections:
   - page: wiki/people/johnny-dealer
     type: follows
     claim: "Tom succeeded Johnny (via the undocumented Tim) as primary strip source by 2025 — the succession from transactional dealer to friendship-embedded friend-supplier that exposed the network to the owe-and-silence failure mode."
+  - page: wiki/mind/synthesis/political-psyops
+    type: evidences
+    claim: "A January 7, 2021 real-time exchange — Dan already suspecting police 'let them in' at the Capitol, days after the event — is the earliest documented seed of the cops-complicit reading later formalized as the J6/Operation Wildfall hypothesis, more than four years before the previously-earliest-known June 2025 instance."
+  - page: wiki/people/new-jim-shaffer
+    type: evidences
+    claim: "Tom and Dan discuss Jim Shaffer's March 2017 embezzlement arrest the same night it's charged, with Dan pasting the full news article — an independent, contemporaneous record of the accusation that predates Jim's own later self-serving account of it by over a year."
+  - page: wiki/work/au-zaatar
+    type: evidences
+    claim: "Dan's May 24, 2021 message to Tom ('I got a Job at a Lebanese restaurant') is the most precisely dated record of the Au Za'atar hire anywhere in the corpus."
+  - page: wiki/people/rob-orange
+    type: evidences
+    claim: "Dan told Tom the same day (2:12 AM, April 11, 2014) he learned Rob had died, a second contemporaneous account alongside the one traded with Lauryn Ashly the same window."
 ---
 
 
@@ -36098,7 +36213,23 @@ connections:
 
 ## Identity
 
-Tom Maison — Dan's primary male ally and, for most of the corpus, the clearest instance of safe, lateral (peer, non-paternal) attachment in the record — the positive-case exhibit for [[wiki/mind/synthesis/vertical-authority-skepticism|the lateral-trusted, vertical-suspect split]] that structures Dan's relationship to authority generally. He is also the "Tom" of the October 2024 incident referenced on [[wiki/people/annie-ulmer]]: a participant, alongside Dan and Annie, in the couple's established quasi-non-monogamous arrangement (2018–2024) — the dossiers' final assessment revises that encounter from apparent coercion to exhaustion-within-an-established-consensual-framework, with Tom as one of the recurring participants Dan selected specifically because he was a friend he could manage the aftermath with; full arrangement context at [[wiki/mind/psychosexual/arrangement-history]]. About three weeks older than Dan, based in the Pittsburgh area, with Ohiopyle excursions a recurring shared setting. He functions simultaneously as anchor and supply line (Suboxone, mushrooms, cocaine, klonopin), and was described, through most of the record, as "the one place Dan is not performing." The friendship dates to roughly 2010. Handle +17249987341 (~4,160 messages in the master dump; a further ~1,600 under phloxenheim@gmail.com). Tom is also the connective tissue to [[wiki/people/kristin]], whose intense late-2025 thread runs through his social circle.
+Tom Maison — Dan's primary male ally and, for most of the corpus, the clearest instance of safe, lateral (peer, non-paternal) attachment in the record — the positive-case exhibit for [[wiki/mind/synthesis/vertical-authority-skepticism|the lateral-trusted, vertical-suspect split]] that structures Dan's relationship to authority generally. He is also the "Tom" of the October 2024 incident referenced on [[wiki/people/annie-ulmer]]: a participant, alongside Dan and Annie, in the couple's established quasi-non-monogamous arrangement (2018–2024) — the dossiers' final assessment revises that encounter from apparent coercion to exhaustion-within-an-established-consensual-framework, with Tom as one of the recurring participants Dan selected specifically because he was a friend he could manage the aftermath with; full arrangement context at [[wiki/mind/psychosexual/arrangement-history]]. About three weeks older than Dan, based in the Pittsburgh area, with Ohiopyle excursions a recurring shared setting. He functions simultaneously as anchor and supply line (Suboxone, mushrooms, cocaine, klonopin), and was described, through most of the record, as "the one place Dan is not performing." Handle +17249987341 (~4,160 messages in the master dump; a further ~1,600 under phloxenheim@gmail.com). Tom is also the connective tissue to [[wiki/people/kristin]], whose intense late-2025 thread runs through his social circle.
+
+> **CORRECTED [2026-08-10]:** this page previously stated the friendship
+> "dates to roughly 2010," sourced to a raw filename
+> (`dan tom 2010 2022.txt`) rather than a dated primary record. A
+> previously unmined Facebook Messenger export
+> (`messages/inbox/tommaison_z_scvtnccq/message_1.html`, 5,439 messages,
+> May 2008 – Aug 2022) pushes the documented friendship considerably
+> earlier on two independent lines of evidence: the earliest message on
+> file is dated **May 3, 2008**, and a Facebook system notification on
+> **December 24, 2019** reads "You and Tom Maison are celebrating 14
+> years of friendship on Facebook" — placing the actual Facebook-friend
+> connection at roughly **December 2005**, three years before the
+> earliest surviving message and years before the "post-dropout"
+> framing this page's Timeline table previously implied. The friendship
+> is at minimum 17 years old at the point the corpus ends, not "roughly
+> 2010."
 
 **The characterization above no longer holds without qualification.** The final months of the message record (March–May 2026) document the friendship's collapse under exactly the supply-line strain the "anchor" framing depended on. See "The Collapse (Spring 2026)" below.
 
@@ -36297,6 +36428,37 @@ shift) is that same asymmetric-period unreliability at its most costly —
 Tom's string-along "soon"s consumed the optionality Dan needed to source
 elsewhere while alternatives still existed.
 
+## NEW [2026-08-10]: Tom's own January–February 2021 crisis, and an earlier DUI
+
+The same Facebook thread that corrects the friendship's origin date also
+surfaces a January–February 2021 stretch in which Tom, not Dan, is the one
+in acute crisis — previously undocumented on this page. Over roughly three
+weeks: his dog died (Jan 18); a girlfriend left him and told him she'd
+never speak to him again if he went to New York again, after a visit
+during which — by his own account — "we got a hooker," which she
+discovered by going through his phone; a DUI was, in his words, "about to
+kick my ass" (Jan 21) — **a separate, earlier incident from the
+fall-2025/2026 DUI documented above**, which this page previously treated
+as Tom's only one; and, most gravely, a single unelaborated line two days
+earlier, in the middle of describing how bad things had gotten: "it's
+taking everything I have to not go out like my sister did" (Jan 20). No
+other message in the corpus mentions a sister, names her, dates her death,
+or gives any further context — this is recorded here as real testimony
+about a serious loss in Tom's life, not embellished beyond what he
+actually wrote. By February 12 he references having been in rehab in the
+intervening weeks ("Funny story, i made a black friend when i was in
+rehab"), suggesting the crisis stretch ended in treatment. Dan's response
+throughout is unconditional and immediate ("dude come up whenever you
+want") — consistent with everything else this page documents about the
+friendship's reliability running in Tom's favor at least as often as
+Dan's.
+
+A lighter, later data point from the same export: on July 8, 2022, in the
+same breath as offering Dan "an over abundance of k pins and bars," Tom
+mentions "fun fact, I'm on my way to a job as a prison guard" — an
+employment fact not previously on this page, and one whose irony (drug
+supplier to institutional drug-searcher) neither party remarks on.
+
 ## Domain: Tech
 
 Recurring conversations on AI, image generation, agentic tooling, and bots —
@@ -36332,9 +36494,17 @@ living with Jake Thwaite doing poppers."
 
 | Date | Event |
 |------|-------|
-| 2010+ | Friendship forms post-dropout |
+| ~2005-12 | Facebook-friend connection begins, per a Dec 24, 2019 "14 years of friendship" auto-notice (corrects the earlier "2010+" estimate) |
+| 2008-05-03 | Earliest surviving message in the corpus (Facebook) |
+| 2014-04-11 | Second contemporaneous notification of Rob Orange's death, same day as the Lauryn Ashly account |
+| 2017-03-11 | Tom and Dan discuss Jim Shaffer's 37-felony embezzlement arrest, same night it's charged |
 | 2017–2018 | Supply and anchor during the poverty floor |
+| 2018-04-05 | Fran's death, told to Tom in real time the same night as the "supernatural" account given to Suz |
 | 2020-09 | FSLY stock tip |
+| 2021-01/02 | Tom's own crisis cluster: dog dies, girlfriend leaves, an earlier DUI, a passing reference to a sister's death, rehab |
+| 2021-05-24 | Dan starts at Au Za'atar ("I got a Job at a Lebanese restaurant") |
+| 2021 | Extended real-time Jan 6 discussion — the earliest documented seed of the cops-let-them-in suspicion later formalized as the J6 hypothesis |
+| 2022-07-08 | Tom mentions starting a job as a prison guard |
 | 2024 | Political-burst exchanges |
 | 2025 | Supply during the Annie collapse; recurring silence patterns |
 | 2026-03-31 | Dan talks Tom through crisis/suicidal ideation ("I'm gonna make it your problem") |
@@ -46525,8 +46695,9 @@ page_type: event
 title: "Au Za'atar (NYC, ~2021–2024)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-20
+date_modified: 2026-08-10
 sources:
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/tommaison_z_scvtnccq/message_1.html
   - raw/self/message-csv/imessage_19178259183_both_all_now.csv
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
   - raw/self/dansynth/TheWaitersVisibleHigh.md
@@ -46576,6 +46747,9 @@ connections:
   - page: wiki/people/tarik-fallous
     type: contains
     claim: "Tarik's own 80-message direct thread (filed 2026-07-20) is the primary source for the wine-inventory and hiring-coordination texture behind the 'de facto manager' framing below, and documents the relationship continuing, warmly, nearly two years past this job's end."
+  - page: wiki/people/tom
+    type: evidenced-by
+    claim: "Dan's May 24, 2021 announcement to Tom Maison ('I got a Job at a Lebanese restaurant') is the most precisely dated primary mention of the hire anywhere in the corpus, roughly two months after the established March 2021 start date."
 ---
 
 
@@ -46804,6 +46978,16 @@ Locating the originals is an open collection task.
 > Her later zero-notice firing was from that separate location ("the
 > restaurants ran totally differently and with different people"), not
 > from the Midtown shed.
+
+> **NEW [2026-08-10]:** a previously unmined Facebook thread with
+> [[wiki/people/tom|Tom Maison]] has Dan announcing the job on **May 24,
+> 2021** ("I got a Job at a Lebanese restaurant") — about two months after
+> the March 2021 start date above. This doesn't overturn the established
+> date, which comes from a more deliberate DANSYNTH correction; it's
+> equally consistent with mentioning a new job to a friend some weeks
+> after starting. Recorded as the most precisely dated primary
+> *announcement* in the corpus, not necessarily the most precise start
+> date.
 
 
 ========================================================================
