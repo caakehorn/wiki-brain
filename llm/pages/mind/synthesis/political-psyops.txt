@@ -6,7 +6,7 @@ title: "Political Psyops & Hybrid Events"
 tags: [politics, forensic-analysis, ideology]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-08-10
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
@@ -17,6 +17,7 @@ sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/facebook/facebook-ihatedanfrank/
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/tommaison_z_scvtnccq/message_1.html
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/chatgpt-export/babbitt-shooting-psyop-debate-2025-06-15.md
 connections:
@@ -32,6 +33,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "The totality's 'Political Intensity and Structural Decay' section states in brief what this page argues in full: the post-partisan, both-parties-captured diagnosis and the ruthless focus on procedural mechanics over tribal loyalty."
+  - page: wiki/people/tom
+    type: evidenced-by
+    claim: "A January 7, 2021 real-time exchange with Tom — Dan already suspecting police 'let them in' at the Capitol, days after the event — is the earliest documented seed of the cops-complicit reading later formalized as the J6/Operation Wildfall hypothesis, more than four years before the previously-earliest-known June 2025 instance."
 ---
 
 
@@ -100,6 +104,44 @@ fabrication, near-certain) seven months earlier, on a different AI
 platform. The recurrence across platforms and months is itself a data
 point for how settled this conclusion was for Dan well before the Gemini
 cluster gave it its formal "Sandwich"/"Psy-Kill" vocabulary.
+
+> **REVISED [2026-08-10]: the seed is not seven months old, it is more
+> than four years old — and it starts from the opposite political
+> valence.** A previously unmined Facebook thread with
+> [[wiki/people/tom|Tom Maison]] has Dan discussing January 6th in real
+> time, the same week it happened. On January 7, 2021 — the day after —
+> he writes: *"i've been obsessively pouring over the footage and it is
+> SO obvious that the cops were aware of what was happening and let them
+> in on the basis that they didn't damage anything"* — the specific
+> procedural-complicity claim ("let them in") that the "Inverted
+> Containment" doctrine formalizes five years later, already fully
+> formed. Tom's own contribution the same exchange is more extreme still:
+> *"It's a zog psyop."*
+>
+> What the 2021 exchange does **not** carry forward is the political
+> valence of the later, fully-formed hypothesis. Dan's contemporaneous
+> reaction is sharply critical of the rioters and of Trump: he calls them
+> "literally detached" people who "would have murdered any democrat they
+> found," mocks "these fucking lames who pretend like it's punk rock to
+> be christian, conservative or both," and argues a populist-left critique
+> of Trump specifically ("if trump was able to stay on message and
+> deliver the type of pro working class / pro union policy plancks that
+> bernie has, he would 100% be reelected") rather than any sympathy for
+> the rally's cause. He bets Tom $50 that participants would face real
+> consequences for the insurrection charges.
+>
+> Read together, the 2021 exchange is not a weaker version of the 2025–26
+> thesis — it's the same procedural-suspicion instinct (institutions,
+> including police, behave in ways that don't match their stated
+> account) arising independently of, and prior to, any sympathy for what
+> the rioters were doing. The **mechanism** (cops let it happen on
+> purpose) is present from day two; the **narrative-weaponization framing**
+> that turns this into evidence of an anti-populist psyop, rather than
+> simple institutional failure or complicity, only crystallizes later.
+> That sequencing — procedural doubt first, political interpretation
+> years afterward — is itself informative about how this method actually
+> operates: the forensic instinct doesn't originate from the political
+> conclusion, it precedes it and gets reinterpreted by it.
 
 ## The Sandwich / Psy-Kill mechanism (Gemini formalization)
 

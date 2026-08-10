@@ -3,10 +3,10 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-19
-date_range_start: 2018-04-22
+date_modified: 2026-08-10
+date_range_start: 2017-03-11
 date_range_end: 2019-10-20
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"]
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/tommaison_z_scvtnccq/message_1.html"]
 tags: [relationships, career, financial-stress]
 knowledge: mixed
 infobox:
@@ -26,6 +26,9 @@ connections:
   - page: wiki/people/steve-kezmarsky
     type: co-occurs
     claim: "Steve's death reaches the record through this thread — Jim hadn't heard, December 2018 — the second dead member (after Rob Orange) of the same high-school-era Uniontown circle."
+  - page: wiki/people/tom
+    type: evidenced-by
+    claim: "Tom and Dan discuss the arrest the same night it's charged (March 11, 2017), with Dan pasting the full contemporaneous news article — an independent record of the accusation, over a year before Jim's own self-serving account of it opens the direct thread above."
 ---
 
 # "New Jim Shaffer" (Jim Shaffer)
@@ -35,6 +38,31 @@ Jim Shaffer — "not the only Jim Shaffer" in Dan's life, hence the "new" contac
 ## The embezzlement case
 
 The very first messages (April 22, 2018) find Jim mid-vindication: accused of stealing roughly $200K, he says a "terrible prelim investigation" and a Herald-Standard "smear campaign" overstated the amount and falsely implicated his mother's house. He'd left the company six months before it collapsed with $235K of his own invested capital never collected — a fact he says made the theft accusation illogical on its face. He spent $55,000 on an attorney specifically to demonstrate he had no financial motive, and by June 2018 was paying a $115,800 settlement to the Fayette County courthouse to close the matter, with plans to countersue the six people who'd accused him. He calls the county's justice system "a fuckin joke."
+
+> **NEW [2026-08-10]:** an independent, contemporaneous record of the
+> accusation predates the thread above by over a year — Dan pastes a full
+> news article to [[wiki/people/tom|Tom Maison]] the night the arrest
+> warrant issues, March 11, 2017, naming Jim (as "James Harold Shaffer
+> Jr., 28") facing **37 felony charges** filed before Magisterial District
+> Judge Daniel C. Shimshock, investigated by Trooper Jonathan P.
+> Eberhardt: soliciting six men to invest in a company (Lock Trust Inc.,
+> formerly Cash Flow Consultants), keeping a total of roughly $190,000
+> across the transactions rather than forwarding it, in one case using a
+> mortgage guarantee backed by a house he did not own (his mother's) to
+> secure an investment, and in another using $50,000 of a $60,000
+> investment to pay off an unrelated company loan. The article dates the
+> underlying transactions to 2014–2015 — meaning the scheme itself
+> predates by roughly a year the "left the company six months before it
+> collapsed" framing Jim gives his own conduct in 2018. Dan's own
+> real-time reaction to the news, sent to Tom the same night, treats the
+> friendship's survivors as a shrinking set rather than passing judgment
+> on Jim specifically: *"how many old friends do you have left that
+> aren't dead/in jail?" / "It's just you and me bud."* This is recorded
+> as the independent charging-document account against which Jim's own
+> April 2018 self-description ("terrible prelim investigation," "smear
+> campaign") can be read — the two do not straightforwardly agree on how
+> much was actually taken or when the underlying conduct occurred, and
+> neither is corrected by the other here.
 
 ## Golf and wealth
 

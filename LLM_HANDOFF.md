@@ -6,6 +6,27 @@
 
 ---
 
+### [2026-08-10] - New session: Facebook deep-mine — one thread (Tom Maison) rewrote four pages
+* **Model:** Claude Sonnet 5 (Claude Code, remote)
+* **Branch:** `claude/gold-mine-scan-and-facebook-deep-dive` (fresh branch off `main`, following the prior session's PR #100 being merged)
+* **Trigger:** Operator: "continue to scrape and analyze potential untapped gold mines of data. if there's nothing particularly substantive that is available then we need to do a much more thorough and deep scan of my facebook messages and general facebook account history/activity."
+* **What was found, in one sentence:** the four existing `wiki/self/facebook/*.md` sub-pages were written as category-level overviews rather than read to exhaustion — "403 threads... real signal concentrated in key nodes" — and only a handful had actually been opened; reading just one (Tom Maison's, 5,439 messages, the largest in the export, **zero Facebook sourcing on `tom.md` before this pass**) produced five real findings across four pages.
+* **Findings:**
+  1. `tom.md`'s friendship-origin date corrected from "roughly 2010" (sourced to a raw *filename*) to ~2005, via an actual FB "14 years of friendship" auto-notice and a May 2008 first message.
+  2. A previously undocumented Jan–Feb 2021 crisis cluster for Tom: an earlier/separate DUI, a breakup, his dog's death, rehab, and one careful, unembellished mention of a sister's death implied by suicide.
+  3. `new-jim-shaffer.md` gained independent corroboration of the 2017 embezzlement arrest — the actual contemporaneous news article, previously the page had only Jim's own 2018 self-serving account.
+  4. `rob-orange.md`'s "only contemporaneous account" claim was wrong — a second one, told to Tom the same day, is now on the page.
+  5. **The big one:** `political-psyops.md`'s J6-hypothesis chronology note gets pushed back from June 2025 to **January 7, 2021** — the actual week of the event — via a real-time exchange where Dan already suspects "the cops... let them in." The political valence doesn't carry forward (2021 Dan is critical of the rioters and Trump, arguing a populist-left position), which is itself the finding: the procedural-suspicion mechanism precedes the political interpretation by years.
+* **Gates:** wiki-lint **450 pages / 0 errors** (13 warnings, unchanged) · wiki-connect check **0 errors** (216 warnings — caught and fixed an evidences/co-occurs mismatch on the first attempt) · wiki-climb check **450 pages, 23 with `synthesizes:`, 0 errors, 0 warnings** after a two-page cascade closed (both survived unchanged). `bin/wiki-digest` and `bin/llm-publish` rerun.
+* **RESUME POINT — this is a genuinely rich, far-from-exhausted vein:**
+  1. **~265 Facebook message threads remain unread.** `queue.md` has a full ranked list. Next-largest: Bobby Cole (332K), Zachariah Harshman (208K), RJ Ritchey (156K), Bekah Fullem (152K) — all belong to existing pages and, given how much one under-mined thread produced, are very likely under-mined the same way.
+  2. **Three unidentified Facebook contacts** with substantial threads (jobyanderson, nathanking, jameshunt — 88–108K each) don't map to any existing page. Identity resolution first, then read.
+  3. **`comments_and_reactions/` (6.0MB) and `apps_and_websites_off_of_facebook/` (6.9MB) were never opened this pass** — real opinion/off-platform signal, flagged HIGH and MEDIUM priority respectively in `queue.md`.
+  4. **Checked and confirmed low-value, don't re-open:** `your_topics.html` (algorithmic ad-interest tags, not personal signal), `other_activity/pokes.html` (thin).
+  5. **Several smaller categories were never surveyed:** `events/`, `search/`, `notifications/`, `pages_and_profiles/`, `facebook_marketplace/`, `stories/`, `facebook_news/`, `your_interactions_on_facebook/` — all under 300K, cheap to check.
+  6. Once the branch is pushed, open a draft PR, subscribe to PR activity, and schedule the standard hour check-in per this repo's PR-monitoring instructions.
+* **Handoff Note:** All three gates 0 errors. Ready to commit and push.
+
 ### [2026-08-10] - Session (continued a third time): annie-ulmer.md deep-mining pass — new events from previously unread raw/ sources
 * **Model:** Claude Sonnet 5 (Claude Code, remote)
 * **Branch:** `claude/annie-ulmer-rewrite-and-captures` (same branch/PR as the previous entry — this is a second round of work on the still-open draft PR, not a new one)

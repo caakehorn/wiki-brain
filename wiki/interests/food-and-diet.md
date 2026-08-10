@@ -6,7 +6,7 @@ aliases: ["the unevaluated domain", "food as everything but taste"]
 status: active
 knowledge: earned
 date_created: 2026-07-25
-date_modified: 2026-08-02
+date_modified: 2026-08-10
 sources:
   - raw/self/captures/2026-08-01_154556_picky-eater.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -270,3 +270,13 @@ for everything it is allowed to touch."
   adolescent bulimia and candy-staple period on [[wiki/health/hyperreflexivity]]
   is unknown, and the answer decides whether this is a control behaviour that
   grew out of a disordered one or an independent lifelong trait.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/work/au-zaatar]], which moved on 2026-08-10 for a minor addition: a
+Facebook message pins the hire *announcement* to Tom Maison at May 24,
+2021, about two months after the page's own established March 2021 start
+date — explicitly not asserted as a correction. The 41-month tenure this
+page's "Labour" control depends on is untouched. No finding here is
+affected.

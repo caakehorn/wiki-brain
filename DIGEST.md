@@ -13,7 +13,7 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 450 |
-| Pages touched in the last 14 days | 196 |
+| Pages touched in the last 14 days | 201 |
 | Pages reasoning from other pages (`synthesizes:`) | 23 |
 | Live contradictions | 30 |
 | Open gaps | 129 |
@@ -45,11 +45,12 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-10** — 27 pages
+**2026-08-10** — 34 pages
   - rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
   - ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
   - rewrite | people, places | annie-ulmer.md wiki-rewrite pass + 3 manual captures — sex resumption, the 307 E 76th St cast, Suz's Winter Park condo
   - rewrite | people | annie-ulmer.md deep-mining pass — new events from previously unread raw/ sources
+  - edit | people | Winter Park condo address confirmed — 2924 Antique Oaks Circle
 
 **2026-08-09** — 10 pages
   - ingest | people, timeline, mind | canonical Jerel Coles page + August 8–9 unmasking night + read-receipt forensics (external content pack incorporated)
@@ -60,11 +61,11 @@ this is the state of the thing.
   - rewrite | people, places | full re-research and rewrite of four entries (jacob-bacharach, 117-belmont-circle, zach-harshman→zach-clingan, alexis-armel)
   - govern | root | governance rewrite — six specs, one backlog, six documents retired
 
-**2026-08-03** — 7 pages
+**2026-08-03** — 6 pages
   - ingest | legal | court blotter photo — the arrest is now primary-documented, and a wiki inference was wrong
   - ingest | legal | factstory brief #5 — "The Arrest (the real one)"
 
-**2026-08-02** — 48 pages
+**2026-08-02** — 47 pages
   - climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
   - ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
   - write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
