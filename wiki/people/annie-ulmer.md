@@ -7,12 +7,12 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 date_range_start: 2015-11-01
-date_range_end: 2026-08-02
+date_range_end: 2026-08-09
 infobox:
   name: Annie Ulmer
-  status: Open — in daily contact; supply relationship resumed 2026-07-27
+  status: Open — in daily contact; supply relationship resumed 2026-07-27; sexual contact resumed early August 2026 after a ~6-month gap (operator testimony)
   type: Partner (2015–2026); ex-partner in live contact
   known_for: Decade-long relationship; subject of forensic dossiers
   partner: "[[wiki/self/overview|Dan Frank]]"
@@ -24,6 +24,8 @@ infobox:
   first_contact: 2015-11-01
   handles: ["@Annelouise28", "@Lo_weez", "@alexisarmel"]
 changelog:
+  - date: 2026-08-10
+    note: "Operator capture (2026-08-10, no target field — applied here as the clear subject): sexual contact resumed 'the other night,' breaking a stated six-month gap. No message-corpus export exists past 2026-08-02, so this is recorded as operator testimony, dated only to the capture timestamp, not corroborated against raw. Same pass: corrected the 'What the money did' section's landlord-debt claim — a March 5, 2026 message from John Paci (raw/self/message-csv, +16314558185) shows a final $10,000 balance still owed after move-out, not a debt successfully paid down as the page previously implied; and expanded 'The Train Plan, 2020' with the previously undocumented cause of the September 2020 PA trip — a roach-bombing evacuation of 307 E 76th St, dated precisely (Sept 10-11, 2020) from the message corpus, with the Train Plan discovery itself now dated to Sept 19-20 rather than merely '2020.' New connections to wiki/people/john-paci and wiki/people/jim-blanchard; wiki/places/307-e-76th-st expanded to carry the full cast."
   - date: 2026-08-02
     note: "The severance-that-failed section is superseded rather than revised: a fresh export through 2026-08-02 shows contact resumed eighteen minutes after 'whatever goodbye annie' and ran 1,880 messages and six in-person meetings across eight days, five of them drug handoffs. New section 'The re-entanglement, July 26 – August 2'; date_range_end and infobox status updated; three chronology rows and two numbers rows added; the word-volume ratio (2.88:1, against an all-time 2.95:1) added as the stable metric behind an unstable message-count ratio. Three findings written back from the new event page: Dan states the procurement-as-access thesis in his own voice; he names autism as the reason he cannot close the bond without an explicit severance signal, asks for one across a full day, and does not get it; Annie apologises to Suz in person on August 2. Full account at wiki/timeline/events/july-august-2026-reentanglement."
   - date: 2026-07-26
@@ -68,6 +70,9 @@ sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md
   - raw/people/captures/2026-07-13-eli-vs-tuquick-correction.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/captures/2026-08-10_014646_annie-sex-resumption.md
+  - raw/self/captures/2026-08-10_014938_307-76th-cast-roach-bombing.md
 related:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
@@ -194,6 +199,12 @@ connections:
   - page: wiki/timeline/events/august-2026-unmasking
     type: evidenced-by
     claim: "She never narrowed the sleep claim across three explicit invitations including a sincere one, despite a defensible 63-minute window existing in the record."
+  - page: wiki/places/307-e-76th-st
+    type: evidenced-by
+    claim: "The six years at this address hold two previously undocumented findings written back here in 2026-08-10: the September 2020 Train Plan crisis had a mundane, dated cause (a roach-bombing evacuation, not an unexplained 'lockdown' relocation), and the ~$10,000 landlord debt that this page once described as paid down was still owed in full at move-out in 2025."
+  - page: wiki/people/john-paci
+    type: co-occurs
+    claim: "The landlord at 307 E 76th St for the entire tenancy — present at its start ('he's the one who stuck his neck out for us and held the apartment when we found it'), its 2020 pest crisis, and its 2025 unwound-debt aftermath, still texting Annie in July 2025."
 ---
 
 # Annie (Anne Louise Ulmer)
@@ -217,7 +228,14 @@ the dog, and the two exchanged 624 messages across four days that ended
 with an allegation of rape, a refused request for drugs, suicidal
 statements from both of them, and no resolution of any kind. The
 relationship's *analysis* is finished and nothing below has been
-reopened by this. Its *status* is open.
+reopened by this. Its *status* is open — and, per an operator capture
+filed 2026-08-10, sexual contact resumed "the other night," breaking a
+stated six-month gap. No message export exists past August 2, 2026, so
+this is recorded as testimony only, undated beyond the capture timestamp
+and unverifiable against `raw/` in this pass — but it is consistent with
+everything else this page documents about how this bond fails to close:
+a supply relationship reopened July 27, a household apology delivered
+August 2, and now this.
 
 > **REVISED [2026-07-26]:** every earlier version of this page called the
 > relationship "closed, historical," and the June 1, 2026 group chat is
@@ -510,9 +528,27 @@ hostess job at the original East Village [[wiki/work/au-zaatar|Au
 Za'atar]] a month into his own hire there (she was later fired from it
 with zero notice — an "avatar of reliability" contrast that page
 documents in full). By 2023 the roles had flipped: Dan working, Annie
-between jobs, the two of them jointly accumulating roughly $10,000 in
-debt to their landlord that they paid down at $650 a week. Then, in
-mid-2024, Dan lost the Au Za'atar job — involuntarily, in a pattern he
+between jobs, the two of them jointly accumulating debt to their
+landlord, [[wiki/people/john-paci|John Paci]], that they made partial
+payments against at $650 a week.
+
+> **CORRECTED [2026-08-10]:** This section previously said the ~$10,000
+> landlord debt was "paid down," implying it was retired. It was not. A
+> March 5, 2026 message from Paci — sent after Dan's February 2025
+> departure, once he'd finished "paying to have the remainder of the
+> stuff you left removed, and deducting the security deposit" — rounds
+> the outstanding balance to an even **$10,000.00** and asks Dan to
+> "begin to pay it down." The $650/week payments documented in late 2024
+> were real but insufficient; the debt that reached roughly $10,000 by
+> 2023 reads as essentially the same $10,000 still owed at move-out
+> fifteen months later, not a separate, larger sum successfully worked
+> down to zero. Annie's own July 2025 reaction to a Paci text —
+> "Fucking John Paci just texted me," months after Dan had left New
+> York — is consistent with the debt still being actively pursued. Full
+> account, including Paci himself, at [[wiki/places/307-e-76th-st]] and
+> [[wiki/people/john-paci]].
+
+Then, in mid-2024, Dan lost the Au Za'atar job — involuntarily, in a pattern he
 identified in real time as designed to force a resignation rather than a
 firing ("I'm a bit worried that they have been maneuvering in a way to
 try to prevent exactly that," August 6, 2024) — and Annie became, for the
@@ -568,15 +604,33 @@ household costs, and gifts isn't recoverable from the totals alone.)
 
 The largest pre-2025 crisis on record, and one nearly invisible until
 recently because 2020 is thinly covered in some of the message exports.
-During COVID lockdown at Annie's parents' home, Dan discovered she had
-been telling another man "terrible, unforgivable, untrue things" about
-him, and that the man had made plans to collect her from the train
-station. Dan took seven Xanax bars, threatened to leave for good, and
-sent over 200 messages across several days. Annie did not dispute the
-substance of it afterward: "I know what I said and I fucking regret it…
-I have messed shit up. Multiple times." Dan's own retrospective word for
-the pattern — "cheated" — went uncontested. Fuller lockdown context sits
-at [[wiki/timeline/periods/covid-era-2020]].
+Dan's own words, sent 07:13 the morning after the discovery, date and
+frame it precisely: "this isn't some accident Annie, you said TERRIBLE
+unforgivable, untrue shit to some guy who wanted you and then had him
+plan to pick you up from the train" (Sept 20, 2020). Annie did not
+dispute the substance of it afterward: "I know what I said and I fucking
+regret it… I have messed shit up. Multiple times." Dan's own retrospective
+word for the pattern — "cheated" — went uncontested. Fuller lockdown
+context sits at [[wiki/timeline/periods/covid-era-2020]].
+
+> **REVISED [2026-08-10]:** this section previously placed the crisis
+> "during COVID lockdown at Annie's parents' home" with no further
+> explanation of why they were there. An operator capture and a
+> corresponding message-corpus check supply the missing cause. On
+> September 10, 2020, the couple's apartment at
+> [[wiki/places/307-e-76th-st|307 E 76th St]] was scheduled for pest
+> extermination — "sorry to keep bugging you just wanted to give you an
+> update. they are bombing the apt tomorrow around 11 or so" — and the
+> couple relocated to Annie's parents' home in Uniontown for what became
+> roughly a week. The Train Plan discovery happened nine to ten days into
+> that stay, not as a separate, freestanding "lockdown" event: Dan
+> references "the past week, especially the first 4 days of the trip" in
+> the same overnight exchange as the confrontation, and the couple is
+> mid-argument, at 22:58 the night before, simultaneously coordinating a
+> **second** exterminator visit with the landlord ("i'm on the line with
+> john paci tomorrow… nobody is to enter that apartment, other than me and
+> the exterminators"). The full cast and the apartment's own
+> $10,000-debt afterlife are at [[wiki/places/307-e-76th-st]].
 
 ## Eli, and the thing that mattered more than the affair
 
@@ -1192,6 +1246,7 @@ legal exposure for Dan — noted here for completeness.
 | 2026-07-28 | 770 messages; twelve-hour standoff over an email to her parents that is never sent |
 | 2026-08-02 | Annie walks to the house and apologises to Suz in person; buys $50 forty minutes later |
 | 2026-08-08 | Tuquick identified via FOREWARN (19:01:22); five-hour collapse follows — [[wiki/timeline/events/august-2026-unmasking]] |
+| ~2026-08-07/09 | Sexual contact resumes, per operator testimony; breaks a stated six-month gap. Undated beyond the 2026-08-10 capture timestamp; no message export covers this window. |
 
 Two synthesis pages extend this record further: the capstone moral
 verdict, provenance-tiered down to individual message rows, at

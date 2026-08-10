@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-10
-448 pages, ~708,194 tokens.
+450 pages, ~714,957 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -15843,7 +15843,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -16146,6 +16146,24 @@ RE-CHECKED confirmation (identity-ingest chronology additions on
 [[wiki/people/annie-ulmer]] don't touch its continuity claim) rather than a
 content change. Nothing here is affected; cascade closed.
 
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale again against
+[[wiki/mind/synthesis/the-unbroken-bond]], which added a genuine finding
+this time: sexual contact with Annie resumed in early August 2026 after a
+six-month gap that appears to have opened *before* the June 1 severance —
+meaning the bond's sexual layer went dormant while the relational and
+administrative layers stayed live, then both layers reactivated together
+in the July–August reentanglement. That is this page's own subject
+(reactivation without channel decay) playing out at a finer grain than
+this page currently measures, but it does not change any of this page's
+own figures — the 2,044-day silence, the reactivation-bandwidth
+measurement, the five-day-occupancy control — all of which are about
+different channels entirely. Recorded as a corroborating instance, not a
+correction: a future pass on this page could add the Annie sexual-layer
+dormancy as a same-relationship example of the pattern it already
+documents across different people.
+
 ## Gaps
 
 - **The tenure floor is undetermined.** Five days does not persist; six years
@@ -16211,7 +16229,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -16394,6 +16412,28 @@ the 2026-08-09 identity ingest (Tuquick = Jerel Wayne Coles, see
 chronology row, and a Target G revision note. None of it touches the estate
 distribution figures, the Cash App/Venmo flows, or Suz's switchboard role. No
 finding here is affected.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale again against
+[[wiki/people/annie-ulmer]], moved for a manual-capture ingest touching
+[[wiki/places/307-e-76th-st]] and its landlord, [[wiki/people/john-paci]].
+This one does move a clause here. "The largest drain" section frames the
+Annie-relationship money history as a **three-rotation see-saw** — "Dan
+funds the early NYC years → Dan works through the 2023 landlord-debt
+stretch → Annie sole earner through 2024" — and the middle rotation's
+verb, "works through," implied the debt got worked off. Primary evidence
+now on `annie-ulmer` and `307-e-76th-st` shows it didn't: a March 5, 2025
+message from Paci rounds the balance to a final **$10,000 still owed**
+after move-out, and nothing in the recovered record shows any of it paid
+afterward. The correction is narrow — it does not touch the $119–123K
+Annie-outflow figure, the estate burn rate, or Suz's switchboard role, all
+of which stand on independent evidence — but "works through" should be
+read as "made scheduled payments against, without retiring." One more lump
+of unresolved debt belongs in the spine's ledger of drains that never
+closed clean, alongside the six unaccounted months of 2020–21: the
+landlord-debt rotation is not a completed cycle, it is an open one that
+simply changed which party it was Dan's problem to service.
 
 ## Gaps
 
@@ -18018,7 +18058,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -18228,6 +18268,19 @@ RE-CHECKED confirmation (identity-ingest chronology additions on
 [[wiki/people/annie-ulmer]] don't touch its continuity claim) rather than a
 content change. Nothing here is affected; cascade closed.
 
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale again against
+[[wiki/mind/synthesis/the-unbroken-bond]], which added a real finding —
+Annie's sexual and relational continuity may have decoupled for several
+months around the June 1 2026 severance, sex going dormant before the
+formal break and both resuming together in August. This page's own claim
+is an accounting identity at the level of the relational *slot*
+(no-exit plus single-occupancy produces concentration), not at the level
+of which specific functions of an occupied slot are live at a given
+moment — the slot was never vacant in the source page's own account, so
+the identity this page states is unaffected. No finding here changes.
+
 ## Gaps
 
 - ~~**The Gini is quoted, not recomputed.**~~ **CLOSED 2026-08-01.** Recomputed
@@ -18426,7 +18479,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -18754,6 +18807,17 @@ ingest (Tuquick = Jerel Wayne Coles, see [[wiki/people/jerel-coles]]) — a
 chronology row and a Target G revision note. Neither touches the node
 succession, the reliability inversion, or the terminal-phase supplier
 finding. No finding here is affected.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale again against
+[[wiki/people/annie-ulmer]], moved this time for a manual-capture ingest:
+sexual contact resumed in early August 2026 breaking a six-month gap, and
+an expanded, corrected account of the 307 E 76th St landlord debt and its
+2020 roach-bombing crisis. None of it touches supply — no node, handoff,
+or product is named in any of the three captures, and the debt in question
+is owed to the building's landlord ([[wiki/people/john-paci]]), not to any
+figure in this network. No finding here is affected.
 
 ## Gaps
 
@@ -19497,7 +19561,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -19704,6 +19768,39 @@ ingest (Tuquick = Jerel Wayne Coles, see [[wiki/people/jerel-coles]]) — a
 chronology row and a Target G revision note. Neither touches the ~17-year
 continuity claim or the occupancy mechanics this page argues from. No finding
 here is affected.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]], which moved on 2026-08-10 for a manual-capture
+ingest: sexual contact resumed in early August 2026, per operator testimony,
+"breaking a stated six-month gap." This bears directly on this page's own
+Falsifier 1 (*"a documented unattached period of more than roughly six
+months... would convert 'continuous' into 'serial' and break the central
+claim"*) and is worth reading carefully rather than waved through.
+
+It does not falsify the claim, but it does sharpen what the claim is about.
+The six-month gap is sexual, not relational — Dan and Annie remained in
+contact, in the relationship's terminal machinery (the June 1 severance, the
+52-day break, the July 23 reentanglement) throughout the window a sexual gap
+of that length implies, which puts its start around February 2026, several
+months *before* the June 1 closure this page already treats as the bond's
+hardest test. Read plainly: the pair-bond's sexual dimension appears to have
+gone dormant while the couple was still nominally together, months ahead of
+the formal severance, and the slot's *occupancy* — the variable this page
+argues from throughout ("occupancy and activation are separate variables")
+— never actually vacated during that window. If anything this is a second,
+independent instance of the same distinction the page already makes about
+the Alexis years: the slot can be filled without every one of its functions
+being active. The August reactivation, arriving inside the same
+reentanglement this page already treats as its "severance failed" evidence,
+reads as one more data point for that finding rather than a new one — the
+bond's sexual and administrative layers went dormant and resumed on
+different, overlapping timelines, and no unattached period is documented in
+either. Falsifier 1 is not met. Recorded as a genuine refinement, not a
+restatement: a future accounting of "the seventeen years" should distinguish
+relational continuity from sexual continuity, because this pass is the first
+point the corpus has supplied evidence they can diverge.
 
 ## Gaps
 
@@ -21422,12 +21519,12 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 date_range_start: 2015-11-01
-date_range_end: 2026-08-02
+date_range_end: 2026-08-09
 infobox:
   name: Annie Ulmer
-  status: Open — in daily contact; supply relationship resumed 2026-07-27
+  status: Open — in daily contact; supply relationship resumed 2026-07-27; sexual contact resumed early August 2026 after a ~6-month gap (operator testimony)
   type: Partner (2015–2026); ex-partner in live contact
   known_for: Decade-long relationship; subject of forensic dossiers
   partner: "[[wiki/self/overview|Dan Frank]]"
@@ -21439,6 +21536,8 @@ infobox:
   first_contact: 2015-11-01
   handles: ["@Annelouise28", "@Lo_weez", "@alexisarmel"]
 changelog:
+  - date: 2026-08-10
+    note: "Operator capture (2026-08-10, no target field — applied here as the clear subject): sexual contact resumed 'the other night,' breaking a stated six-month gap. No message-corpus export exists past 2026-08-02, so this is recorded as operator testimony, dated only to the capture timestamp, not corroborated against raw. Same pass: corrected the 'What the money did' section's landlord-debt claim — a March 5, 2026 message from John Paci (raw/self/message-csv, +16314558185) shows a final $10,000 balance still owed after move-out, not a debt successfully paid down as the page previously implied; and expanded 'The Train Plan, 2020' with the previously undocumented cause of the September 2020 PA trip — a roach-bombing evacuation of 307 E 76th St, dated precisely (Sept 10-11, 2020) from the message corpus, with the Train Plan discovery itself now dated to Sept 19-20 rather than merely '2020.' New connections to wiki/people/john-paci and wiki/people/jim-blanchard; wiki/places/307-e-76th-st expanded to carry the full cast."
   - date: 2026-08-02
     note: "The severance-that-failed section is superseded rather than revised: a fresh export through 2026-08-02 shows contact resumed eighteen minutes after 'whatever goodbye annie' and ran 1,880 messages and six in-person meetings across eight days, five of them drug handoffs. New section 'The re-entanglement, July 26 – August 2'; date_range_end and infobox status updated; three chronology rows and two numbers rows added; the word-volume ratio (2.88:1, against an all-time 2.95:1) added as the stable metric behind an unstable message-count ratio. Three findings written back from the new event page: Dan states the procurement-as-access thesis in his own voice; he names autism as the reason he cannot close the bond without an explicit severance signal, asks for one across a full day, and does not get it; Annie apologises to Suz in person on August 2. Full account at wiki/timeline/events/july-august-2026-reentanglement."
   - date: 2026-07-26
@@ -21483,6 +21582,9 @@ sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md
   - raw/people/captures/2026-07-13-eli-vs-tuquick-correction.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/captures/2026-08-10_014646_annie-sex-resumption.md
+  - raw/self/captures/2026-08-10_014938_307-76th-cast-roach-bombing.md
 related:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
@@ -21609,6 +21711,12 @@ connections:
   - page: wiki/timeline/events/august-2026-unmasking
     type: evidenced-by
     claim: "She never narrowed the sleep claim across three explicit invitations including a sincere one, despite a defensible 63-minute window existing in the record."
+  - page: wiki/places/307-e-76th-st
+    type: evidenced-by
+    claim: "The six years at this address hold two previously undocumented findings written back here in 2026-08-10: the September 2020 Train Plan crisis had a mundane, dated cause (a roach-bombing evacuation, not an unexplained 'lockdown' relocation), and the ~$10,000 landlord debt that this page once described as paid down was still owed in full at move-out in 2025."
+  - page: wiki/people/john-paci
+    type: co-occurs
+    claim: "The landlord at 307 E 76th St for the entire tenancy — present at its start ('he's the one who stuck his neck out for us and held the apartment when we found it'), its 2020 pest crisis, and its 2025 unwound-debt aftermath, still texting Annie in July 2025."
 ---
 
 # Annie (Anne Louise Ulmer)
@@ -21632,7 +21740,14 @@ the dog, and the two exchanged 624 messages across four days that ended
 with an allegation of rape, a refused request for drugs, suicidal
 statements from both of them, and no resolution of any kind. The
 relationship's *analysis* is finished and nothing below has been
-reopened by this. Its *status* is open.
+reopened by this. Its *status* is open — and, per an operator capture
+filed 2026-08-10, sexual contact resumed "the other night," breaking a
+stated six-month gap. No message export exists past August 2, 2026, so
+this is recorded as testimony only, undated beyond the capture timestamp
+and unverifiable against `raw/` in this pass — but it is consistent with
+everything else this page documents about how this bond fails to close:
+a supply relationship reopened July 27, a household apology delivered
+August 2, and now this.
 
 > **REVISED [2026-07-26]:** every earlier version of this page called the
 > relationship "closed, historical," and the June 1, 2026 group chat is
@@ -21925,9 +22040,27 @@ hostess job at the original East Village [[wiki/work/au-zaatar|Au
 Za'atar]] a month into his own hire there (she was later fired from it
 with zero notice — an "avatar of reliability" contrast that page
 documents in full). By 2023 the roles had flipped: Dan working, Annie
-between jobs, the two of them jointly accumulating roughly $10,000 in
-debt to their landlord that they paid down at $650 a week. Then, in
-mid-2024, Dan lost the Au Za'atar job — involuntarily, in a pattern he
+between jobs, the two of them jointly accumulating debt to their
+landlord, [[wiki/people/john-paci|John Paci]], that they made partial
+payments against at $650 a week.
+
+> **CORRECTED [2026-08-10]:** This section previously said the ~$10,000
+> landlord debt was "paid down," implying it was retired. It was not. A
+> March 5, 2026 message from Paci — sent after Dan's February 2025
+> departure, once he'd finished "paying to have the remainder of the
+> stuff you left removed, and deducting the security deposit" — rounds
+> the outstanding balance to an even **$10,000.00** and asks Dan to
+> "begin to pay it down." The $650/week payments documented in late 2024
+> were real but insufficient; the debt that reached roughly $10,000 by
+> 2023 reads as essentially the same $10,000 still owed at move-out
+> fifteen months later, not a separate, larger sum successfully worked
+> down to zero. Annie's own July 2025 reaction to a Paci text —
+> "Fucking John Paci just texted me," months after Dan had left New
+> York — is consistent with the debt still being actively pursued. Full
+> account, including Paci himself, at [[wiki/places/307-e-76th-st]] and
+> [[wiki/people/john-paci]].
+
+Then, in mid-2024, Dan lost the Au Za'atar job — involuntarily, in a pattern he
 identified in real time as designed to force a resignation rather than a
 firing ("I'm a bit worried that they have been maneuvering in a way to
 try to prevent exactly that," August 6, 2024) — and Annie became, for the
@@ -21983,15 +22116,33 @@ household costs, and gifts isn't recoverable from the totals alone.)
 
 The largest pre-2025 crisis on record, and one nearly invisible until
 recently because 2020 is thinly covered in some of the message exports.
-During COVID lockdown at Annie's parents' home, Dan discovered she had
-been telling another man "terrible, unforgivable, untrue things" about
-him, and that the man had made plans to collect her from the train
-station. Dan took seven Xanax bars, threatened to leave for good, and
-sent over 200 messages across several days. Annie did not dispute the
-substance of it afterward: "I know what I said and I fucking regret it…
-I have messed shit up. Multiple times." Dan's own retrospective word for
-the pattern — "cheated" — went uncontested. Fuller lockdown context sits
-at [[wiki/timeline/periods/covid-era-2020]].
+Dan's own words, sent 07:13 the morning after the discovery, date and
+frame it precisely: "this isn't some accident Annie, you said TERRIBLE
+unforgivable, untrue shit to some guy who wanted you and then had him
+plan to pick you up from the train" (Sept 20, 2020). Annie did not
+dispute the substance of it afterward: "I know what I said and I fucking
+regret it… I have messed shit up. Multiple times." Dan's own retrospective
+word for the pattern — "cheated" — went uncontested. Fuller lockdown
+context sits at [[wiki/timeline/periods/covid-era-2020]].
+
+> **REVISED [2026-08-10]:** this section previously placed the crisis
+> "during COVID lockdown at Annie's parents' home" with no further
+> explanation of why they were there. An operator capture and a
+> corresponding message-corpus check supply the missing cause. On
+> September 10, 2020, the couple's apartment at
+> [[wiki/places/307-e-76th-st|307 E 76th St]] was scheduled for pest
+> extermination — "sorry to keep bugging you just wanted to give you an
+> update. they are bombing the apt tomorrow around 11 or so" — and the
+> couple relocated to Annie's parents' home in Uniontown for what became
+> roughly a week. The Train Plan discovery happened nine to ten days into
+> that stay, not as a separate, freestanding "lockdown" event: Dan
+> references "the past week, especially the first 4 days of the trip" in
+> the same overnight exchange as the confrontation, and the couple is
+> mid-argument, at 22:58 the night before, simultaneously coordinating a
+> **second** exterminator visit with the landlord ("i'm on the line with
+> john paci tomorrow… nobody is to enter that apartment, other than me and
+> the exterminators"). The full cast and the apartment's own
+> $10,000-debt afterlife are at [[wiki/places/307-e-76th-st]].
 
 ## Eli, and the thing that mattered more than the affair
 
@@ -22607,6 +22758,7 @@ legal exposure for Dan — noted here for completeness.
 | 2026-07-28 | 770 messages; twelve-hour standoff over an email to her parents that is never sent |
 | 2026-08-02 | Annie walks to the house and apologises to Suz in person; buys $50 forty minutes later |
 | 2026-08-08 | Tuquick identified via FOREWARN (19:01:22); five-hour collapse follows — [[wiki/timeline/events/august-2026-unmasking]] |
+| ~2026-08-07/09 | Sexual contact resumes, per operator testimony; breaks a stated six-month gap. Undated beyond the 2026-08-10 capture timestamp; no message export covers this window. |
 
 Two synthesis pages extend this record further: the capstone moral
 verdict, provenance-tiered down to individual message rows, at
@@ -27042,12 +27194,14 @@ related: []
 - [[wiki/people/jerad-friedline]]
 - [[wiki/people/jerel-coles]] — Real identity of [[wiki/people/tuquick-17248123683|Tuquick]], confirmed 2026-08-08 via FOREWARN; documented 2008–2025 record (two DUIs, harassment, disorderly conduct, criminal mischief). Candidate but unconfirmed identity for [[wiki/people/the-unnamed-man]].
 - [[wiki/people/jess]] — Swinging-couple recruitment contact, spring 2017; fizzled after one dense day.
+- [[wiki/people/jim-blanchard]] — Named by the operator as 307 E 76th St's building super/real estate agent; the primary corpus confirms only that a real James Blanchard existed and was known to Dan, not the role. Status: stub.
 - [[wiki/people/jim-vrabel]] — Weed dealer and near-nightly hangout, 2018-2020; recurring coffee-creamer gift bit.
 - [[wiki/people/jimmy]] — Fellow Nemacolin caddy, 2018; a real blowup, then quit caddying over management.
 - [[wiki/people/joey-superick]] — Golf/music friend, June 2018; found his lost sunglasses on a gravel road.
 - [[wiki/people/john-anderson]] — 2019 dealer contact; recovered a lost hoverboard from a friend's trunk.
 - [[wiki/people/john-carney]] — Fits context-core §5 work/housing exit patterns and work-power-dynamics (unreachable contractors as…
 - [[wiki/people/john-felix]] — 2016 household-adjacent contact; possibly a partner of Suz's (unconfirmed).
+- [[wiki/people/john-paci]] — Landlord and owner of [[wiki/places/307-e-76th-st|307 E 76th St]] for the entire 2019-2025 tenancy; "sweetest and nicest landlord" per the operator, and the addressee of a $10,000 debt still owed at move-out.
 - [[wiki/people/johnny-dealer]] — Johnny functions as reliable but transactional dealer node during 2018 crisis (peak 40k+ messages year,…
 - [[wiki/people/joe-oshnack]] — High school bandmate; fullest first-person account of Dan's pre-2020 conservative identity and its reversal.
 - [[wiki/people/josh-brannan]] — Uniontown-era friend; a warm 2017 reconnection thread and the subject of a running joke with Jerad.
@@ -29150,6 +29304,68 @@ Last name and any resolution (a meeting, or a decline) are undocumented — the 
 
 
 ========================================================================
+PAGE: wiki/people/jim-blanchard.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: stub
+knowledge: mixed
+date_created: 2026-08-10
+date_modified: 2026-08-10
+sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - "raw/self/facebook/facebook-ihatedanfrank/other_personal_information/your_address_books.html"
+  - raw/self/captures/2026-08-10_014938_307-76th-cast-roach-bombing.md
+tags: [nyc-era, housing]
+infobox:
+  name: "James Blanchard"
+  aliases: ["Jim Blanchard"]
+  sex: male
+  location: nyc
+  relationship_to_dan: contact
+  role: "Building super / real estate agent (per operator; unconfirmed against primary corpus)"
+  handles: ["jtblanchard66@gmail.com", "+18082854597"]
+  known_for: "Named by the operator as '307 E 76th St's worst building super/real estate agent'; the primary corpus independently confirms only that a real James Blanchard existed and was known to Dan"
+connections:
+  - page: wiki/places/307-e-76th-st
+    type: co-occurs
+    claim: "Named by the operator as the building's super/real estate agent; the only independent corpus trace is a single November 2019 message placing Dan in his apartment, which doesn't itself establish the role."
+---
+
+# James "Jim" Blanchard
+
+James Blanchard is a real, NYC-based contact of Dan's — confirmed by a
+Facebook contact card (`jtblanchard66@gmail.com`, tagged location "Nyc")
+and by a single dated message, November 15, 2019: "i'm in jim blanchards
+apartment," sent to a Uniontown-area contact rather than to
+[[wiki/people/annie-ulmer|Annie]] or anyone at
+[[wiki/places/307-e-76th-st|307 E 76th St]]. That is the entire
+independent primary record.
+
+A 2026-08-10 operator capture names him separately, describing him as
+"worlds worst building super/real estate agent" for the 76th Street
+building, distinct from the landlord
+[[wiki/people/john-paci|John Paci]]. Nothing in the recovered message
+corpus corroborates this specific role, or the negative characterization,
+or any connection to the address at all — the one dated mention predates
+the operator's framing and is neutral in tone (a visit, not a
+grievance). Per capture-note handling, this is recorded as testimony
+about a real person, not as an independently verified fact, and the page
+is filed as a stub pending stronger corroboration.
+
+## Gaps
+
+Everything: whether Blanchard was ever actually the super or leasing
+agent at 307 E 76th St, what specifically made the operator characterize
+him negatively, and how the November 2019 apartment visit relates (if at
+all) to the building. A targeted search of the fuller message-export set
+(not just the primary dump) by his email or phone number, or a direct
+follow-up capture from the operator, would likely settle this quickly.
+
+
+========================================================================
 PAGE: wiki/people/jim-vrabel.md
 ========================================================================
 
@@ -29639,6 +29855,82 @@ Relationship to the household is inferred, not confirmed. "Elijah" is unidentifi
 ## Related
 
 [[wiki/people/suzanne-frank]] · [[wiki/self/message-corpora/master-message-dump]]
+
+
+========================================================================
+PAGE: wiki/people/john-paci.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+status: closed
+knowledge: mixed
+date_created: 2026-08-10
+date_modified: 2026-08-10
+date_range_start: 2019-02-01
+date_range_end: 2025-07-25
+sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/captures/2026-08-10_014938_307-76th-cast-roach-bombing.md
+tags: [nyc-era, housing, legal]
+infobox:
+  name: "John Paci"
+  aliases: ["John Paci Jr"]
+  sex: male
+  location: nyc
+  relationship_to_dan: contact
+  role: "Landlord and building owner, 307 E 76th St"
+  first_contact: 2019-02-01
+  handles: ["+12394951574", "+16313513671", "+16314558185", "+16312588085", "+19173631636 (building group text)"]
+  known_for: "Landlord for the entire six-year 307 E 76th St tenancy; the elderly Italian owner the operator describes as 'probably NYC's sweetest and nicest landlord,' and the addressee of the final $10,000 debt still owed at move-out"
+connections:
+  - page: wiki/places/307-e-76th-st
+    type: component-of
+    claim: "Paci owned and personally managed the building for the address's entire run — leasing it directly, scheduling exterminators himself, and collecting rent and debt payments into at least mid-2025."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Present at the start of the tenancy ('he's the one who stuck his neck out for us and held the apartment'), at its 2020 pest crisis, and at its 2025 debt aftermath — still texting Annie in July 2025, four months after Dan left the city."
+---
+
+# John Paci
+
+John Paci was the landlord and owner of [[wiki/places/307-e-76th-st|307
+E 76th St]] for the entire six-year tenancy Dan and
+[[wiki/people/annie-ulmer|Annie]] held there (February 2019 – February
+2025) and personally managed the building himself — leasing, exterminator
+scheduling, rent and debt collection all ran through him directly rather
+than a management company. The operator's own characterization, offered
+unprompted in a 2026-08-10 capture — "elderly i-talian owner of the
+building and probably NYC's sweetest and nicest landlord" — is consistent
+with the corpus's own record of him: Annie's first description of him,
+September 2020, calls him "a GREAT guy," and Dan's own gloss the same day
+— "he's the one who stuck his neck out for us and held the apartment when
+we found it" — describes someone who took a chance on them rather than a
+purely transactional owner.
+
+That warmth did not prevent him from being owed a substantial amount of
+money when the tenancy ended. By 2023 the couple had accumulated debt
+against him large enough to require scheduled payments ($650 sent in
+November 2024, "to tell John"). On March 5, 2025, weeks after Dan's
+departure, Paci wrote to close the account: "Dan, after paying to have
+the remainder of the stuff you left removed, and deducting the security
+deposit. I rounded the balance down to an even $10,000.00. Let me know
+when you can begin to pay it down. John." He remained in contact with
+Annie afterward — a building-wide group text under his name recurs
+(collecting October rent for the building in 2023, scheduling an
+exterminator for the building in December 2024), and Annie's own annoyed
+reaction to a Paci text in July 2025 ("Fucking John Paci just texted
+me") suggests the debt, or something adjacent to it, was still an active
+subject four months after Dan left New York.
+
+## Gaps
+
+Whether any part of the final $10,000 balance was ever paid down is
+unknown — no correspondence past July 2025 was located. Paci's full name,
+age, and any other properties he owns or manages are undocumented; the
+"Jr" in one contact-card entry ("John Paci Jr") is unexplained and may
+indicate a family business rather than sole ownership.
 
 
 ========================================================================
@@ -34732,6 +35024,9 @@ connections:
   - page: wiki/timeline/periods/feb-apr-2025-return-and-rupture
     type: evidences
     claim: "A 2024 personal bankruptcy and a spring-2025 listing attempt on the childhood home (337 Saratoga Drive) — a full year before the eventual 2026 sale this page documents — is the previously-missing first driver of that house's extended, multi-attempt sale process."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: co-occurs
+    claim: "The earliest documented instance of Suz using real property rather than cash to support Dan predates 337 Saratoga and the 463 Morgantown arrangement by well over a decade: buying a Winter Park condo outright rather than renting one when Dan left for Full Sail in 2008, per a 2026-08-10 operator capture with no corroborating record yet located."
 ---
 
 
@@ -34783,6 +35078,39 @@ both.
 The professional and the personal are not cleanly separable in her life: the
 house she sells is also the house her son lives in, and her work as an agent is
 the same skill set that organizes the family's housing in real time.
+
+## The Winter Park condo (~2008–2010), and what happened after
+
+The earliest documented instance of Suz using real property rather than
+cash to support Dan predates the poverty-floor and 337 Saratoga years by
+a decade: when Dan left for [[wiki/timeline/periods/full-sail-2008-2010|Full
+Sail]] in September 2008, Suz bought a condo near campus rather than
+renting one for him — an operator-captured fact (2026-08-10) with no
+corroborating record located in `raw/` in this pass. Dan lived there for
+roughly a year before Full Sail's own housing or social arrangements
+moved him elsewhere for his final months in Florida (see
+[[wiki/timeline/periods/full-sail-2008-2010]]); Suz then tried to rent
+the unit out.
+
+> **What the operator reports, and what could and couldn't be verified
+> [2026-08-10]:** per the capture, the tenant Suz rented to never paid a
+> single month's rent and was arrested a few months into the lease for
+> running a human-trafficking scheme — recruiting women who were about to
+> be released from prison and trapping them in sexual slavery. A web
+> search for the likely property (Full Sail's campus sits at the corner
+> of University Blvd and State Road 436/Semoran Blvd; a Crispers
+> restaurant at 1740 State Road 436 is confirmed nearby) turned up a
+> strong circumstantial candidate for the complex — **Indigo Winter
+> Park**, 220 S Semoran Blvd, listed commercially as "Indigo Condos" and
+> sitting on the same SR 436/University Blvd corner directly opposite
+> Full Sail, consistent with a condo-unit building later converted to
+> single-entity rental management — but nothing ties the Frank family to
+> that specific address, and no matching arrest, court record, or news
+> story from the relevant window (~2009–2011) was located. This is
+> recorded as the operator's own account, not yet independently verified
+> either way; see `raw/self/captures/2026-08-10_websearch-winter-park-condo-lead.md`
+> for the full search record. Orange County, FL court records or the
+> Orlando Sentinel's own archive are the next places to check.
 
 ## The financial relationship
 
@@ -37783,18 +38111,15 @@ domain: places
 page_type: entity
 title: "307 E 76th St (Manhattan)"
 status: closed
+knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-07-19
+date_modified: 2026-08-10
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
-related:
-  - wiki/people/annie-ulmer
-  - wiki/work/au-zaatar
-  - wiki/timeline/periods/2020-2021-market-era
-  - wiki/timeline/events/eli-incident
-  - wiki/self/location-history
-tags: [nyc-era, housing]
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/captures/2026-08-10_014938_307-76th-cast-roach-bombing.md
+tags: [nyc-era, housing, legal]
 connections:
   - page: wiki/people/menore
     type: co-occurs
@@ -37802,6 +38127,15 @@ connections:
   - page: wiki/people/sam
     type: co-occurs
     claim: "Sam's cannabis deliveries ran to the same door in 2019–20 — 'in front of 307,' apartment #17 — making the address the shared coordinate of two parallel delivery operations."
+  - page: wiki/people/annie-ulmer
+    type: evidences
+    claim: "This is the address behind two 2026-08-10 corrections to Annie's own page: the September 2020 Train Plan crisis had a mundane cause (a roach-bombing evacuation), and the landlord debt that page once called 'paid down' was still a full $10,000 owed at move-out."
+  - page: wiki/people/john-paci
+    type: contains
+    claim: "Paci owned and personally managed the building for the address's entire six-year run (Feb 2019–Feb 2025) and for at least several months after — the exterminator scheduler, the rent collector, and the final creditor."
+  - page: wiki/people/jim-blanchard
+    type: co-occurs
+    claim: "Named by the operator as the building's super/real estate agent; the only independent corpus trace is a single November 2019 message placing Dan in his apartment, which does not itself establish the role — recorded as operator testimony pending stronger corroboration."
 ---
 
 # 307 E 76th St (Manhattan)
@@ -37820,6 +38154,93 @@ unconscious with the coworker in a building lobby ~80 minutes after her
 shift, location sharing off. Dan left the address, and New York, on
 February 22, 2025.
 
+> **EXPANDED [2026-08-10]:** this page previously stood at four paragraphs
+> and named no one connected to the building itself — the landlord, the
+> super, the lease, the rent were all an explicit Gap. An operator capture
+> named two people (the building's super/real estate agent and its
+> landlord) and two events (a roach infestation serious enough to force a
+> week's evacuation, and roughly $10,000 in unpaid rent). Both check out
+> against the primary message corpus, in more precise and more consequential
+> form than the capture itself remembered — see below.
+
+## The cast
+
+**[[wiki/people/john-paci|John Paci]]** owned the building and ran it
+personally for the entire tenancy — leasing it directly ("he's the one who
+stuck his neck out for us and held the apartment when we found it," per
+Annie, September 2020), scheduling exterminators himself by text, and
+collecting rent and debt payments by name into at least mid-2025, four
+months after Dan had left. He is the addressee and signatory on the
+building's final word on the tenancy: a March 5, 2026 message rounding
+the couple's outstanding balance to an even $10,000 and asking Dan to
+begin paying it down (see "The debt," below). Full account at
+[[wiki/people/john-paci]].
+
+**[[wiki/people/jim-blanchard|Jim Blanchard]]** is named by the operator
+as "world's worst building super/real estate agent" — a second figure,
+distinct from Paci, who the capture implies handled the property's
+day-to-day management or leasing. The corpus corroborates only that a
+real James Blanchard existed and was known to Dan (a single November 15,
+2019 message: "i'm in jim blanchards apartment," sent to a Uniontown-area
+contact, plus a Facebook contact card tagging him "Nyc"). Nothing in the
+recovered record ties Blanchard specifically to 307 E 76th St, the
+super role, or a negative characterization — the sole primary trace
+predates the operator's framing of him and doesn't confirm it. Treated
+here as operator testimony about a real person whose specific role at
+this address remains unconfirmed; see [[wiki/people/jim-blanchard]] and
+its own Gaps.
+
+## The roach bombing and the September 2020 trip to PA
+
+On September 10, 2020, Dan told Annie the apartment was scheduled for
+extermination: "sorry to keep bugging you just wanted to give you an
+update. they are bombing the apt tomorrow around 11 or so." The couple
+relocated to Annie's parents' home in Uniontown for what became roughly a
+week — Dan references "the past week, especially the first 4 days of the
+trip" in a message sent nine days later. That nine-to-ten-day stay is the
+same trip during which the relationship's [[wiki/people/annie-ulmer|Train
+Plan crisis]] happened: on the night of September 19, mid-argument, Dan
+is simultaneously coordinating a **second** exterminator visit directly
+with Paci — "i'm on the line with john paci tomorrow… nobody is to enter
+that apartment, other than me and the exterminators" — while the
+relationship blows up around him. By the next morning both Dan and Annie
+are texting about packing, animals, and driving back, and Dan separately
+tells a PA-area contact "it's dan, suzanne's son" the following day,
+suggesting the household relocated in full, dog and cats included ("i got
+all my stuff packed and the dog and cats"). The roach problem was not a
+one-time event: a second, unrelated infestation shows up in the corpus
+in December 2020 and February 2021 ("I just found a fucking roach!!!!
+I'm furious"), and exterminator visits recur as late as December 2024
+("Exterminator will be at 307 on Monday morning. John PACI").
+
+The operator's own memory of the sequence — that the bombing happened
+"right after the train incident" — has the order reversed from what the
+corpus shows: the bombing (Sept 10–11) precedes the Train Plan discovery
+(Sept 19–20) by about nine days, and the two exterminator visits (the
+original bombing and the one Dan is arranging on the night of the
+blowup) are easy to conflate in memory into one event. Both readings
+converge on the same underlying fact, which is the one worth keeping:
+**the trip to PA that hosted the Train Plan crisis had a mundane,
+previously undocumented cause.** Nobody had connected the two before this
+pass.
+
+## The debt
+
+By 2023, Dan and Annie had accumulated debt to Paci substantial enough
+that they were making scheduled payments against it — $650 sent in
+November 2024, for instance, explicitly earmarked "to tell John." That
+debt was not retired. On March 5, 2025 — two weeks after Dan's
+departure — Paci wrote: "Dan, after paying to have the remainder of the
+stuff you left removed, and deducting the security deposit. I rounded the
+balance down to an even $10,000.00. Let me know when you can begin to pay
+it down. John." Annie's own reaction to a Paci text four months later
+("Fucking John Paci just texted me," July 2025) is consistent with the
+debt remaining an active, unpleasant subject well after the household
+dissolved. Whether any of the $10,000 was ever paid is not in the
+recovered record.
+
+## Location and identity record
+
 In the location record the address anchors the NYC cluster (2,301 of 6,227
 logged visits — [[wiki/self/location-history]]), and in the identity record
 it anchors the "punk as fuck" NYC self-concept ("reasons i moved to nyc: 1.
@@ -37827,9 +38248,16 @@ punk as fuck") that context-core preserves as an identity anchor even after
 the return to Pennsylvania. The freezer-phone shibboleth (phone run over on
 Second Avenue) belongs to this chapter's geography.
 
-**Gaps:** apartment details, rent, and lease arrangement (whose name,
-how it ended after Feb 2025) are undocumented; whether Annie stayed on at
-the address after Dan's departure is not in the record.
+## Gaps
+
+Jim Blanchard's actual role at this address is unconfirmed beyond the
+operator's own account — a targeted search by his email
+(`jtblanchard66@gmail.com`) or phone across the fuller export set (not
+just the primary dump) might surface more. Whether Dan or Annie ever paid
+any part of the final $10,000 balance is unknown; no further Paci
+correspondence past July 2025 was located. The apartment number is #17
+(per Sam's delivery notes); the lease's original signatory, the monthly
+rent, and how the roach infestation started were not recovered.
 
 
 ========================================================================
@@ -38179,7 +38607,7 @@ at [[wiki/self/location-history]].
 - [[wiki/places/337-saratoga-drive]] — the family-built childhood home, three-time residence, GRIPNOTIC basement studio, and (2026) the house being sold out from under him.
 - [[wiki/places/117-belmont-circle]] — Fran's house on the UCC fairway, documented from 1961; the Ulmer adjacency, the caregiving job, and the address Dan gave out for eight months of 2018.
 - [[wiki/places/155-virginia-ave]] — the 2015–2019 Uniontown apartment: the Alexis→Annie handoff, the poverty floor, the deep cycle.
-- [[wiki/places/307-e-76th-st]] — the 2019–2025 Manhattan home shared with Annie; the second NYC chapter and its rupture.
+- [[wiki/places/307-e-76th-st]] — the 2019–2025 Manhattan home shared with Annie; the second NYC chapter and its rupture; landlord John Paci, a 2020 roach-bombing evacuation, and a $10,000 debt still owed at move-out.
 - [[wiki/places/seven-springs]] — the childhood ski resort anchor; the first drug-exposure cohort, dated a year before the family's 2005 rupture.
 
 
@@ -45675,6 +46103,9 @@ connections:
   - page: wiki/people/stephanie-nalbone
     type: evidences
     claim: "A previously undocumented Sept-Nov 2009 relationship falls inside this period's own Danielle-to-Alexis pivot window without resolving how the three overlap."
+  - page: wiki/people/suzanne-frank
+    type: co-occurs
+    claim: "Suz bought the Winter Park condo Dan lived in during this period outright rather than renting it — a 2026-08-10 operator capture, the earliest documented instance of her using real property rather than cash to support him, with no corroborating record yet located."
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)

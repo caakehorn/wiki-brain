@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -332,6 +332,17 @@ ingest (Tuquick = Jerel Wayne Coles, see [[wiki/people/jerel-coles]]) — a
 chronology row and a Target G revision note. Neither touches the node
 succession, the reliability inversion, or the terminal-phase supplier
 finding. No finding here is affected.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale again against
+[[wiki/people/annie-ulmer]], moved this time for a manual-capture ingest:
+sexual contact resumed in early August 2026 breaking a six-month gap, and
+an expanded, corrected account of the 307 E 76th St landlord debt and its
+2020 roach-bombing crisis. None of it touches supply — no node, handoff,
+or product is named in any of the three captures, and the debt in question
+is owed to the building's landlord ([[wiki/people/john-paci]]), not to any
+figure in this network. No finding here is affected.
 
 ## Gaps
 

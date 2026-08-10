@@ -100,6 +100,9 @@ connections:
   - page: wiki/timeline/periods/feb-apr-2025-return-and-rupture
     type: evidences
     claim: "A 2024 personal bankruptcy and a spring-2025 listing attempt on the childhood home (337 Saratoga Drive) — a full year before the eventual 2026 sale this page documents — is the previously-missing first driver of that house's extended, multi-attempt sale process."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: co-occurs
+    claim: "The earliest documented instance of Suz using real property rather than cash to support Dan predates 337 Saratoga and the 463 Morgantown arrangement by well over a decade: buying a Winter Park condo outright rather than renting one when Dan left for Full Sail in 2008, per a 2026-08-10 operator capture with no corroborating record yet located."
 ---
 
 
@@ -151,6 +154,39 @@ both.
 The professional and the personal are not cleanly separable in her life: the
 house she sells is also the house her son lives in, and her work as an agent is
 the same skill set that organizes the family's housing in real time.
+
+## The Winter Park condo (~2008–2010), and what happened after
+
+The earliest documented instance of Suz using real property rather than
+cash to support Dan predates the poverty-floor and 337 Saratoga years by
+a decade: when Dan left for [[wiki/timeline/periods/full-sail-2008-2010|Full
+Sail]] in September 2008, Suz bought a condo near campus rather than
+renting one for him — an operator-captured fact (2026-08-10) with no
+corroborating record located in `raw/` in this pass. Dan lived there for
+roughly a year before Full Sail's own housing or social arrangements
+moved him elsewhere for his final months in Florida (see
+[[wiki/timeline/periods/full-sail-2008-2010]]); Suz then tried to rent
+the unit out.
+
+> **What the operator reports, and what could and couldn't be verified
+> [2026-08-10]:** per the capture, the tenant Suz rented to never paid a
+> single month's rent and was arrested a few months into the lease for
+> running a human-trafficking scheme — recruiting women who were about to
+> be released from prison and trapping them in sexual slavery. A web
+> search for the likely property (Full Sail's campus sits at the corner
+> of University Blvd and State Road 436/Semoran Blvd; a Crispers
+> restaurant at 1740 State Road 436 is confirmed nearby) turned up a
+> strong circumstantial candidate for the complex — **Indigo Winter
+> Park**, 220 S Semoran Blvd, listed commercially as "Indigo Condos" and
+> sitting on the same SR 436/University Blvd corner directly opposite
+> Full Sail, consistent with a condo-unit building later converted to
+> single-entity rental management — but nothing ties the Frank family to
+> that specific address, and no matching arrest, court record, or news
+> story from the relevant window (~2009–2011) was located. This is
+> recorded as the operator's own account, not yet independently verified
+> either way; see `raw/self/captures/2026-08-10_websearch-winter-park-condo-lead.md`
+> for the full search record. Orange County, FL court records or the
+> Orlando Sentinel's own archive are the next places to check.
 
 ## The financial relationship
 

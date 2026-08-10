@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-10 — 17 pages
+## 2026-08-10 — 26 pages
 
 - **Session log:** rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
 - **Session log:** ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
@@ -23,17 +23,26 @@ simply listed.
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **CORRECTED** — This section previously said "13 major self-indicting apologies each followed by unchanged behavior." That was the report's own pre-audit figure; the same document later revises it upward — "the audit |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a RE-CHECKED from 2026-08-02)_ |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
+| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
+| [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-02)_ |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page as stale against exocortex, edited the same day to add one new connections edge (to the new axioms page) reading the CATO persona's origin line p |
+| [[wiki/mind/synthesis/single-channel]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
+| [[wiki/mind/synthesis/supply-network]] | mind | _(carries a REVISED from 2026-08-02)_ |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page again against `dan-annie-fallout-verdict.md`'s 2026-08-10 RE-CHECKED block (itself downstream of the same-day `attachment-model.md` rewrite). That block correc |
+| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
+| [[wiki/people/annie-ulmer]] | people | **CORRECTED** — This section previously said the ~$10,000 landlord debt was "paid down," implying it was retired. It was not. A March 5, 2026 message from Paci — sent after Dan's February 2025 departure, once he'd fi |
+| [[wiki/people/jim-blanchard]] | people | — |
+| [[wiki/people/john-paci]] | people | — |
 | [[wiki/people/katherine-palakovich]] | people | — |
 | [[wiki/people/kevin-mckiernan]] | people | _(carries a CORRECTED)_ |
 | [[wiki/people/marty-jackson]] | people | — |
 | [[wiki/people/renae-holland]] | people | — |
+| [[wiki/places/307-e-76th-st]] | places | — |
 | [[wiki/places/90th-st-manhattan]] | places | **CORRECTED** — This section previously stated the exit as "February 2012" without qualification. A dedicated pass on creative-license and kevin-mckiernan found the date is contradicted between sources: Dan's own rés |
 | [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
 
-## 2026-08-09 — 17 pages
+## 2026-08-09 — 11 pages
 
 - **Session log:** ingest | people, timeline, mind | canonical Jerel Coles page + August 8–9 unmasking night + read-receipt forensics (external content pack incorporated)
 - **Session log:** edit | people, mind | operator correction — Tuquick and the unnamed man confirmed as one person
@@ -43,13 +52,7 @@ simply listed.
 | [[wiki/mind/concepts/forensic-method]] | mind | — |
 | [[wiki/mind/concepts/node-locking]] | mind | — |
 | [[wiki/mind/index]] | mind | — |
-| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
-| [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-02)_ |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | — |
-| [[wiki/mind/synthesis/single-channel]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
-| [[wiki/mind/synthesis/supply-network]] | mind | _(carries a REVISED from 2026-08-02)_ |
-| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | _(carries a RE-CHECKED from 2026-08-08)_ |
-| [[wiki/people/annie-ulmer]] | people | **REVISED** — Tuquick is now identified as Jerel Wayne Coles. This does **not** resolve Target G — the FOREWARN return carries no marital data, so "Caitlin's husband" is neither confirmed nor excluded. The question |
 | [[wiki/people/index]] | people | — |
 | [[wiki/people/jerel-coles]] | people | — |
 | [[wiki/people/suzanne-frank]] | people | **REVISED** — The caller is identified as Jerel Wayne Coles, 36, of 106 Nassau St, Uniontown — **the same municipality.** He carries a 2009 conviction for harassment by subjecting another person to physical contact |
@@ -389,7 +392,7 @@ simply listed.
 | [[wiki/work/tech/index]] | work | — |
 | [[wiki/work/tech/mneme/overview]] | work | — |
 
-## 2026-07-19 — 51 pages
+## 2026-07-19 — 50 pages
 
 - **Session log:** ingest | people | long-tail MINE pass (sam, davey-fitzpatrick, vaughn, nick-mattie, urpaaa) + kezmarsky death-claim correction
 - **Session log:** ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
@@ -456,7 +459,6 @@ simply listed.
 | [[wiki/people/urpaaa-at-yahoo-com]] | people | — |
 | [[wiki/people/vaughn]] | people | — |
 | [[wiki/people/zachariah-harshman]] | people | — |
-| [[wiki/places/307-e-76th-st]] | places | — |
 | [[wiki/self/tattoos]] | self | — |
 | [[wiki/timeline/events/annie-alexis-reunion-november-2018]] | timeline | — |
 | [[wiki/timeline/periods/covid-era-2020]] | timeline | — |
