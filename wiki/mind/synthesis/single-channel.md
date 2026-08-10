@@ -6,7 +6,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -215,6 +215,19 @@ cost is that the chosen carries everything, and it carries it alone.
 RE-CHECKED confirmation (identity-ingest chronology additions on
 [[wiki/people/annie-ulmer]] don't touch its continuity claim) rather than a
 content change. Nothing here is affected; cascade closed.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale again against
+[[wiki/mind/synthesis/the-unbroken-bond]], which added a real finding —
+Annie's sexual and relational continuity may have decoupled for several
+months around the June 1 2026 severance, sex going dormant before the
+formal break and both resuming together in August. This page's own claim
+is an accounting identity at the level of the relational *slot*
+(no-exit plus single-occupancy produces concentration), not at the level
+of which specific functions of an occupied slot are live at a given
+moment — the slot was never vacant in the source page's own account, so
+the identity this page states is unaffected. No finding here changes.
 
 ## Gaps
 

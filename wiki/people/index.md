@@ -79,12 +79,14 @@ related: []
 - [[wiki/people/jerad-friedline]]
 - [[wiki/people/jerel-coles]] — Real identity of [[wiki/people/tuquick-17248123683|Tuquick]], confirmed 2026-08-08 via FOREWARN; documented 2008–2025 record (two DUIs, harassment, disorderly conduct, criminal mischief). Candidate but unconfirmed identity for [[wiki/people/the-unnamed-man]].
 - [[wiki/people/jess]] — Swinging-couple recruitment contact, spring 2017; fizzled after one dense day.
+- [[wiki/people/jim-blanchard]] — Named by the operator as 307 E 76th St's building super/real estate agent; the primary corpus confirms only that a real James Blanchard existed and was known to Dan, not the role. Status: stub.
 - [[wiki/people/jim-vrabel]] — Weed dealer and near-nightly hangout, 2018-2020; recurring coffee-creamer gift bit.
 - [[wiki/people/jimmy]] — Fellow Nemacolin caddy, 2018; a real blowup, then quit caddying over management.
 - [[wiki/people/joey-superick]] — Golf/music friend, June 2018; found his lost sunglasses on a gravel road.
 - [[wiki/people/john-anderson]] — 2019 dealer contact; recovered a lost hoverboard from a friend's trunk.
 - [[wiki/people/john-carney]] — Fits context-core §5 work/housing exit patterns and work-power-dynamics (unreachable contractors as…
 - [[wiki/people/john-felix]] — 2016 household-adjacent contact; possibly a partner of Suz's (unconfirmed).
+- [[wiki/people/john-paci]] — Landlord and owner of [[wiki/places/307-e-76th-st|307 E 76th St]] for the entire 2019-2025 tenancy; "sweetest and nicest landlord" per the operator, and the addressee of a $10,000 debt still owed at move-out.
 - [[wiki/people/johnny-dealer]] — Johnny functions as reliable but transactional dealer node during 2018 crisis (peak 40k+ messages year,…
 - [[wiki/people/joe-oshnack]] — High school bandmate; fullest first-person account of Dan's pre-2020 conservative identity and its reversal.
 - [[wiki/people/josh-brannan]] — Uniontown-era friend; a warm 2017 reconnection thread and the subject of a running joke with Jerad.

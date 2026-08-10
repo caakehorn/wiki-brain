@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 448,
+ "page_count": 450,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1333,14 +1333,14 @@
    "title": "Dormancy, Not Exit",
    "summary": "**Nothing leaves this graph.** Every sustained relationship in the corpus that the record describes as \"over\" is, on inspection, not over \u2014 it has changed ro...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dormancy-not-exit.txt",
-   "bytes": 23377
+   "bytes": 24431
   },
   {
    "page": "wiki/mind/synthesis/estate-money-spine.md",
    "title": "The Estate / Money Spine",
    "summary": "Money in this biography does not accumulate; it **arrives in lumps and exits through standing drains.** This page traces the capital timeline as a single cau...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/estate-money-spine.txt",
-   "bytes": 13728
+   "bytes": 15119
   },
   {
    "page": "wiki/mind/synthesis/fayette-return.md",
@@ -1410,7 +1410,7 @@
    "title": "The Single Channel",
    "summary": "Wherever a distributed architecture is available to him, Dan runs **one channel at maximum voltage instead**. This is not a description of his personality; i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/single-channel.txt",
-   "bytes": 17861
+   "bytes": 18592
   },
   {
    "page": "wiki/mind/synthesis/spatial-behavior.md",
@@ -1424,7 +1424,7 @@
    "title": "The Supply Network",
    "summary": "Since January 2011, Dan has been on a daily Suboxone regimen \u2014 fifteen years, described in the primary sources as structural rather than recreational: a medi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/supply-network.txt",
-   "bytes": 23964
+   "bytes": 24557
   },
   {
    "page": "wiki/mind/synthesis/the-deferred-audit.md",
@@ -1445,7 +1445,7 @@
    "title": "The Unbroken Bond",
    "summary": "Since leaving high school, Dan has been continuously inside a long-term monogamous relationship for approximately **seventeen years**, with an unattached tot...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-unbroken-bond.txt",
-   "bytes": 15617
+   "bytes": 17770
   },
   {
    "page": "wiki/mind/synthesis/totality-themes.md",
@@ -1515,7 +1515,7 @@
    "title": "Annie (Anne Louise Ulmer)",
    "summary": "Annie Ulmer was Dan's partner for ten years and seven months \u2014 November 28, 2015 to June 1, 2026 \u2014 and is the only relationship in his documented history to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 84046
+   "bytes": 98812
   },
   {
    "page": "wiki/people/annoying.md",
@@ -1781,7 +1781,7 @@
    "title": "Ellen Ulmer",
    "summary": "Ellen Ulmer is [[wiki/people/annie-ulmer|Annie]]'s mother \u2014 a steady, low-frequency but remarkably durable presence in Dan's life, with a thread that opens i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ellen-ulmer.txt",
-   "bytes": 6202
+   "bytes": 6644
   },
   {
    "page": "wiki/people/emaly-minerd.md",
@@ -1851,7 +1851,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 22277
+   "bytes": 22748
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1959,6 +1959,13 @@
    "bytes": 1750
   },
   {
+   "page": "wiki/people/jim-blanchard.md",
+   "title": "James \"Jim\" Blanchard",
+   "summary": "James Blanchard is a real, NYC-based contact of Dan's \u2014 confirmed by a Facebook contact card (`jtblanchard66@gmail.com`, tagged location \"Nyc\") and by a sing...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jim-blanchard.txt",
+   "bytes": 2674
+  },
+  {
    "page": "wiki/people/jim-vrabel.md",
    "title": "Jim Vrabel",
    "summary": "Jim Vrabel was a marijuana dealer and, over two and a half years, something closer to a regular late-night hangout than a pure transaction (`+17247074184`, 3...",
@@ -2013,6 +2020,13 @@
    "summary": "John Felix's thread (`+17249636738`, 59 messages, February\u2013June 2016) is almost entirely logistics \u2014 arrival times, \"K,\" \"Come on,\" golf plans \u2014 but its dome...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/john-felix.txt",
    "bytes": 1906
+  },
+  {
+   "page": "wiki/people/john-paci.md",
+   "title": "John Paci",
+   "summary": "John Paci was the landlord and owner of [[wiki/places/307-e-76th-st|307 E 76th St]] for the entire six-year tenancy Dan and",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/john-paci.txt",
+   "bytes": 3692
   },
   {
    "page": "wiki/people/johnny-dealer.md",
@@ -2418,7 +2432,7 @@
    "title": "Suz (Suzanne Frank)",
    "summary": "Dan's mother and, across four decades, the single most constant structural presence in his life \u2014 the person who has most often been both the floor under him...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/suzanne-frank.txt",
-   "bytes": 22129
+   "bytes": 25378
   },
   {
    "page": "wiki/people/tan-calabrese.md",
@@ -2460,7 +2474,7 @@
    "title": "Tom",
    "summary": "Tom Maison \u2014 Dan's primary male ally and, for most of the corpus, the clearest instance of safe, lateral (peer, non-paternal) attachment in the record \u2014 the ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/tom.txt",
-   "bytes": 21365
+   "bytes": 21902
   },
   {
    "page": "wiki/people/trevor.md",
@@ -2565,14 +2579,14 @@
    "title": "307 E 76th St (Manhattan)",
    "summary": "307 E 76th St, Upper East Side, was home for the entire second New York chapter \u2014 February 2019 to February 2025 \u2014 shared with",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/307-e-76th-st.txt",
-   "bytes": 2461
+   "bytes": 8825
   },
   {
    "page": "wiki/places/337-saratoga-drive.md",
    "title": "337 Saratoga Drive",
    "summary": "337 Saratoga Drive, Uniontown PA is the family-built (1996) childhood home and Dan's residence for three separate eras of his life, including the GRIPNOTIC b...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/337-saratoga-drive.txt",
-   "bytes": 4577
+   "bytes": 4914
   },
   {
    "page": "wiki/places/424-bedford-ave.md",
@@ -2593,7 +2607,7 @@
    "title": "places \u2014 index",
    "summary": "Homes, cities, and significant locations. The quantified movement record is at [[wiki/self/location-history]].",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/index.txt",
-   "bytes": 1414
+   "bytes": 1510
   },
   {
    "page": "wiki/places/seven-springs.md",
@@ -3027,7 +3041,7 @@
    "title": "Full Sail (Sep 2008 \u2013 Mar 2010)",
    "summary": "Three years after the November 2005 family rupture and one year into the opiate arc ([[wiki/timeline/periods/dark-era-2007-2008]]), Dan left Uniontown for Wi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/full-sail-2008-2010.txt",
-   "bytes": 9766
+   "bytes": 10102
   },
   {
    "page": "wiki/timeline/periods/uniontown-return-2013-2015.md",
@@ -3048,7 +3062,7 @@
    "title": "BFS Foods (2026)",
    "summary": "Dan worked as a gas-station cashier at BFS Foods \u2014 a Bruceton Farm Service convenience store paired with a company-owned Little Caesars in the same building ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/bfs-foods.txt",
-   "bytes": 22756
+   "bytes": 23060
   },
   {
    "page": "wiki/work/caviar-courier.md",

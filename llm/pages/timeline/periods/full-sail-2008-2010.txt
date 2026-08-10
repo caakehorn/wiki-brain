@@ -44,6 +44,9 @@ connections:
   - page: wiki/people/stephanie-nalbone
     type: evidences
     claim: "A previously undocumented Sept-Nov 2009 relationship falls inside this period's own Danielle-to-Alexis pivot window without resolving how the three overlap."
+  - page: wiki/people/suzanne-frank
+    type: co-occurs
+    claim: "Suz bought the Winter Park condo Dan lived in during this period outright rather than renting it — a 2026-08-10 operator capture, the earliest documented instance of her using real property rather than cash to support him, with no corroborating record yet located."
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)

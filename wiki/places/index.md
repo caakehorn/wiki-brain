@@ -18,5 +18,5 @@ at [[wiki/self/location-history]].
 - [[wiki/places/337-saratoga-drive]] — the family-built childhood home, three-time residence, GRIPNOTIC basement studio, and (2026) the house being sold out from under him.
 - [[wiki/places/117-belmont-circle]] — Fran's house on the UCC fairway, documented from 1961; the Ulmer adjacency, the caregiving job, and the address Dan gave out for eight months of 2018.
 - [[wiki/places/155-virginia-ave]] — the 2015–2019 Uniontown apartment: the Alexis→Annie handoff, the poverty floor, the deep cycle.
-- [[wiki/places/307-e-76th-st]] — the 2019–2025 Manhattan home shared with Annie; the second NYC chapter and its rupture.
+- [[wiki/places/307-e-76th-st]] — the 2019–2025 Manhattan home shared with Annie; the second NYC chapter and its rupture; landlord John Paci, a 2020 roach-bombing evacuation, and a $10,000 debt still owed at move-out.
 - [[wiki/places/seven-springs]] — the childhood ski resort anchor; the first drug-exposure cohort, dated a year before the family's 2005 rupture.
