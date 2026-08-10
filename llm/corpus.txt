@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-10
-450 pages, ~717,803 tokens.
+450 pages, ~717,991 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -35058,7 +35058,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-09
+date_modified: 2026-08-10
 infobox:
   name: Suzanne Frank
   status: Active
@@ -35085,6 +35085,9 @@ sources:
   - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
   - "raw/self/dox-md/Crisis mode briefing.md"
   - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
+  - raw/self/captures/2026-08-10_015145_suz-winter-park-condo-tenant.md
+  - raw/self/captures/2026-08-10_websearch-winter-park-condo-lead.md
+  - raw/self/captures/2026-08-10_160647_winter-park-condo-address.md
 synthesizes:
   - wiki/legal/463-morgantown
   - wiki/timeline/events/fran-death-vigil
@@ -35224,21 +35227,32 @@ the unit out.
 > [2026-08-10]:** per the capture, the tenant Suz rented to never paid a
 > single month's rent and was arrested a few months into the lease for
 > running a human-trafficking scheme — recruiting women who were about to
-> be released from prison and trapping them in sexual slavery. A web
-> search for the likely property (Full Sail's campus sits at the corner
-> of University Blvd and State Road 436/Semoran Blvd; a Crispers
-> restaurant at 1740 State Road 436 is confirmed nearby) turned up a
-> strong circumstantial candidate for the complex — **Indigo Winter
-> Park**, 220 S Semoran Blvd, listed commercially as "Indigo Condos" and
-> sitting on the same SR 436/University Blvd corner directly opposite
-> Full Sail, consistent with a condo-unit building later converted to
-> single-entity rental management — but nothing ties the Frank family to
-> that specific address, and no matching arrest, court record, or news
-> story from the relevant window (~2009–2011) was located. This is
-> recorded as the operator's own account, not yet independently verified
-> either way; see `raw/self/captures/2026-08-10_websearch-winter-park-condo-lead.md`
-> for the full search record. Orange County, FL court records or the
-> Orlando Sentinel's own archive are the next places to check.
+> be released from prison and trapping them in sexual slavery.
+>
+> **CORRECTED [2026-08-10, same day]:** the exact address is now on
+> record, supplied directly by the operator — **2924 Antique Oaks
+> Circle, Winter Park, FL** — a unit in the **Parkview Village**
+> condominium community (commonly listed at 350 S Semoran Blvd, Winter
+> Park, FL 32792), confirmed as a real address directly across from Full
+> Sail University, consistent with the "Crispers on 436, complex directly
+> across the road" description. This retires the earlier "Indigo Winter
+> Park" candidate below as a wrong guess in the right corridor. A further
+> search anchored to the confirmed address and complex name still found
+> no matching arrest, court record, or news story — the address is now
+> settled; the arrest itself is not. Full search record at
+> `raw/self/captures/2026-08-10_websearch-winter-park-condo-lead.md`.
+> Orange County, FL court records (searchable by address) or the Orlando
+> Sentinel's own archive are the next places to check.
+>
+> *Superseded first-pass reasoning, kept for the record:* a web search
+> for the likely property (Full Sail's campus sits at the corner of
+> University Blvd and State Road 436/Semoran Blvd; a Crispers restaurant
+> at 1740 State Road 436 is confirmed nearby) had turned up a
+> circumstantial candidate — Indigo Winter Park, 220 S Semoran Blvd,
+> listed commercially as "Indigo Condos" and sitting on the same
+> SR 436/University Blvd corner directly opposite Full Sail — but nothing
+> tied the Frank family to that specific address, and it was the wrong
+> complex.
 
 ## The financial relationship
 

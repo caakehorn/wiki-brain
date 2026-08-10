@@ -6,6 +6,23 @@ trying to identify the specific apartment/condo complex the operator
 described from memory. Kept here so a future pass doesn't repeat the same
 searches from zero.
 
+> **RESOLVED [2026-08-10, later same day]:** the operator supplied the
+> exact address directly —
+> `raw/self/captures/2026-08-10_160647_winter-park-condo-address.md`:
+> **2924 Antique Oaks Circle, Winter Park, FL**. This is a real, verified
+> address: unit of the **Parkview Village** condominium community (HOA
+> registered as "Parkview Village Condo Association"), commonly listed at
+> **350 S Semoran Blvd, Winter Park, FL 32792**, with listings describing
+> it as directly across from Full Sail University — consistent with the
+> "Crispers on 436, complex directly across the road" description below.
+> This retires the "Indigo Winter Park" candidate as a wrong guess — the
+> circumstantial reasoning (SR 436/University Blvd corner, condo-unit
+> building) pointed at the right corridor but the wrong specific complex.
+> A further search for the trafficking arrest itself, now anchored to the
+> real address and "Parkview Village," still turned up no matching news
+> report, court record, or press release. The arrest remains unconfirmed;
+> the address no longer is.
+
 ## What was searched
 
 Full Sail University's Winter Park campus sits at the corner of University

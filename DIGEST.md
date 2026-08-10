@@ -45,12 +45,13 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-10** — 26 pages
+**2026-08-10** — 27 pages
   - rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
   - ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
   - rewrite | people, places | annie-ulmer.md wiki-rewrite pass + 3 manual captures — sex resumption, the 307 E 76th St cast, Suz's Winter Park condo
+  - rewrite | people | annie-ulmer.md deep-mining pass — new events from previously unread raw/ sources
 
-**2026-08-09** — 11 pages
+**2026-08-09** — 10 pages
   - ingest | people, timeline, mind | canonical Jerel Coles page + August 8–9 unmasking night + read-receipt forensics (external content pack incorporated)
   - edit | people, mind | operator correction — Tuquick and the unnamed man confirmed as one person
 

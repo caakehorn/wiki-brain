@@ -8,11 +8,12 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-10 — 26 pages
+## 2026-08-10 — 27 pages
 
 - **Session log:** rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
 - **Session log:** ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
 - **Session log:** rewrite | people, places | annie-ulmer.md wiki-rewrite pass + 3 manual captures — sex resumption, the 307 E 76th St cast, Suz's Winter Park condo
+- **Session log:** rewrite | people | annie-ulmer.md deep-mining pass — new events from previously unread raw/ sources
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -39,11 +40,12 @@ simply listed.
 | [[wiki/people/kevin-mckiernan]] | people | _(carries a CORRECTED)_ |
 | [[wiki/people/marty-jackson]] | people | — |
 | [[wiki/people/renae-holland]] | people | — |
+| [[wiki/people/suzanne-frank]] | people | **CORRECTED** — the exact address is now on record, supplied directly by the operator — **2924 Antique Oaks Circle, Winter Park, FL** — a unit in the **Parkview Village** condominium community (commonly listed at 350 |
 | [[wiki/places/307-e-76th-st]] | places | — |
 | [[wiki/places/90th-st-manhattan]] | places | **CORRECTED** — This section previously stated the exit as "February 2012" without qualification. A dedicated pass on creative-license and kevin-mckiernan found the date is contradicted between sources: Dan's own rés |
 | [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
 
-## 2026-08-09 — 11 pages
+## 2026-08-09 — 10 pages
 
 - **Session log:** ingest | people, timeline, mind | canonical Jerel Coles page + August 8–9 unmasking night + read-receipt forensics (external content pack incorporated)
 - **Session log:** edit | people, mind | operator correction — Tuquick and the unnamed man confirmed as one person
@@ -56,7 +58,6 @@ simply listed.
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | — |
 | [[wiki/people/index]] | people | — |
 | [[wiki/people/jerel-coles]] | people | — |
-| [[wiki/people/suzanne-frank]] | people | **REVISED** — The caller is identified as Jerel Wayne Coles, 36, of 106 Nassau St, Uniontown — **the same municipality.** He carries a 2009 conviction for harassment by subjecting another person to physical contact |
 | [[wiki/people/the-unnamed-man]] | people | **REVISED** — On 2026-08-08 Dan ran a FOREWARN background lookup that identified Tuquick — the man Annie left Dan for in May/June 2026 — as **Jerel Wayne Coles**, 36, of 106 Nassau S |
 | [[wiki/people/tuquick-17248123683]] | people | **REVISED** — The operator states directly: "They are the same person — tuquick and unnamed" (filed at 2026-08-09-tuquick-unnamed-man-correction). Tuquick is the-unnamed-man. jerel-coles is |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
