@@ -6,6 +6,22 @@
 
 ---
 
+### [2026-08-10] - Session (continued): live Gmail sweep corrects Creative License/Kevin McKiernan a second time
+* **Model:** Claude Sonnet 5 (Claude Code, remote)
+* **Branch:** `claude/kevin-mckiernan-gmail-corroboration` (the prior PR #98 from this session's first half was merged before this continued)
+* **Trigger:** Operator, after reading the merged PR: "i believe there IS corroborating info about kevin mckiernan in my gmail," then "check all of my gmail stuff and takeout archives for kevin mckiernan shit."
+* **The headline finding is about this session's own process, not just the corpus.** The morning pass correctly flagged the AI dossiers' "airfare-billing discrepancies" claim as uncorroborated. A live Gmail search (~35 recovered 2011–2012 threads, filed to `raw/self/gmail-captures/2026-08-10-creative-license-kevin-mckiernan-gmail.md`) found a real, richer conflict but no airfare dispute — and this session's own pages then **wrongly declared the airfare claim invented**, without checking `wiki/self/chats/gemini-58.md`, built from a source already in `raw/`. That page contains Dan's own primary testimony inside an AI chat, confirming he did cite an airfare issue when he quit ("i blew it up into a much much bigger thing but maybe i was just desensitized"). Corrected a second time, same day, with both correction passes left visible on the page rather than merged into one clean narrative — the sequence itself (wrong AI claim → real different conflict found → over-correction → primary testimony recovered) is worth reading as a worked example of why `EXTRACTION_SPEC.md`'s "sweep wide before reading narrow" applies to the wiki's own existing pages, not only to `raw/`.
+* **What's now well-documented:** a six-week 2012 payroll dispute (missing W-2, disputed $104 MetroCard charge, IRS + NYS Dept of Labor complaints, accountant Marty Jackson's "It's a trust issue. We don't trust you."); a May 2012 whistleblower disclosure to Renae Holland about altered intern contracts; a June 2012 retaliatory LinkedIn IP claim backed by notarized false statements from Director of Business Affairs Katherine Palakovich, which Dan successfully contested.
+* **New pages:** `wiki/people/marty-jackson.md`, `wiki/people/katherine-palakovich.md`, `wiki/people/renae-holland.md`.
+* **Gates:** wiki-lint **448 pages / 0 errors** · wiki-connect check **0 errors** (216 warnings) · wiki-climb check **448 pages, 23 with `synthesizes:`, 0 errors, 0 warnings**.
+* **RESUME POINT:**
+  1. **Several names from this pass are Gemini-58-only, not yet independently verified against email:** Rachel Rauch, Sarah Bromberg, Charley Siegel, Chris Marraffino, Michael DiTullio, Simona Rabsatt, Lori Estabrooks. A targeted Gmail search by name (rather than "mckiernan"/"creative license") would likely surface primary corroboration — flagged on `creative-license.md`'s Gaps.
+  2. **What "his attack against me" (Renae Holland's phrasing) refers to is unrecovered** — a real, chaseable lead.
+  3. **The `Creative License 2.pdf` notarized documents exist as a Gmail attachment but were never downloaded/read** — would settle exactly what Kevin and Katherine asserted.
+  4. **Ishlab Studios** (the job before Creative License, under "Jamin Gilbert," 10 Jay St) still has no page — surfaced twice now as a gap.
+  5. Prior resume points from the same day's earlier pass still stand (see the entry above this one): the politics/ cluster's own named gaps, the 127/110 discrepancy on `attachment-model.md`, and the standing resume points from 2026-08-09 (Gchat archive, `jerel-coles.md` publish-state decision, unfiled CSVs).
+* **Handoff Note:** All three gates 0 errors. This session's changes were pushed to a fresh branch (the prior PR merged mid-session) — see the commit for the exact file list, and open a new draft PR for this half.
+
 ### [2026-08-10] - Session: wiki-rewrite pass (taboo-and-boundary-testing, attachment-model) + two new pages (Kevin McKiernan, Creative License) + new politics/axioms cluster opened
 * **Model:** Claude Sonnet 5 (Claude Code, remote)
 * **Branch:** `claude/politics-ideologies-section-d7zpdf`

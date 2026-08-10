@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 445,
+ "page_count": 448,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1459,7 +1459,7 @@
    "title": "Vertical Authority Skepticism",
    "summary": "Dan treats the vertical axis \u2014 fathers, managers, owners, institutions, the state \u2014 as structurally suspect, and the horizontal axis \u2014 the vetted few peers \u2014...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/vertical-authority-skepticism.txt",
-   "bytes": 12586
+   "bytes": 13088
   },
   {
    "page": "wiki/people/aaron.md",
@@ -1851,7 +1851,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 21552
+   "bytes": 22277
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -2036,6 +2036,13 @@
    "bytes": 1687
   },
   {
+   "page": "wiki/people/katherine-palakovich.md",
+   "title": "Katherine Palakovich (\"Kittie\")",
+   "summary": "Katherine Palakovich was Director of Business Affairs at",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/katherine-palakovich.txt",
+   "bytes": 4034
+  },
+  {
    "page": "wiki/people/katie-fletcher.md",
    "title": "Katie Fletcher",
    "summary": "Katie Fletcher was Dan's interim girlfriend of roughly 2013 \u2014 the bridge relationship inside a fracture of the [[wiki/people/alexis-armel|Alexis]] years, bef...",
@@ -2054,7 +2061,7 @@
    "title": "Kevin McKiernan",
    "summary": "Kevin McKiernan was Dan's employer \u2014 company president at",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/kevin-mckiernan.txt",
-   "bytes": 6094
+   "bytes": 8987
   },
   {
    "page": "wiki/people/kim.md",
@@ -2160,6 +2167,13 @@
    "summary": "Marla was a paid caregiver on the shift-rotation team looking after [[wiki/people/fran-coldren|Fran]] alongside Dan and [[wiki/people/annie-ulmer|Annie]] thr...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/marla.txt",
    "bytes": 4227
+  },
+  {
+   "page": "wiki/people/marty-jackson.md",
+   "title": "Martin O. Jackson (\"Marty\")",
+   "summary": "Marty Jackson worked in the Accounting Department at",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/marty-jackson.txt",
+   "bytes": 3307
   },
   {
    "page": "wiki/people/marty-martin.md",
@@ -2286,6 +2300,13 @@
    "summary": "Oscar Lindquist is a friend from Dan's Florida years whose entire surviving footprint is a six-line Facebook Messenger thread (`724-208-3475`, August\u2013October...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/oscar-lindquist.txt",
    "bytes": 3946
+  },
+  {
+   "page": "wiki/people/renae-holland.md",
+   "title": "Renae Holland",
+   "summary": "Renae Holland is a former [[wiki/work/creative-license|Creative License]] contact \u2014 her exact role at the company is not stated in the recovered corresponden...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/renae-holland.txt",
+   "bytes": 3341
   },
   {
    "page": "wiki/people/rick-frank.md",
@@ -2565,7 +2586,7 @@
    "title": "90th St, Manhattan (NYC-1's third year)",
    "summary": "A sublet on 90th Street between 3rd and Lexington, on the Upper East Side, was Dan and [[wiki/people/alexis-armel|Alexis]]'s final New York address \u2014 the thi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/90th-st-manhattan.txt",
-   "bytes": 5248
+   "bytes": 6774
   },
   {
    "page": "wiki/places/index.md",
@@ -3039,9 +3060,9 @@
   {
    "page": "wiki/work/creative-license.md",
    "title": "Creative License (NYC, 2011\u20132012)",
-   "summary": "Creative License was a small production-services company at 71 8th Ave in the West Village where Dan worked as **Executive Assistant / Office Manager** under...",
+   "summary": "Creative License was a small celebrity-talent and licensed-music brokering company at 71 8th Avenue in the West Village \u2014 its one recovered client pitch is a...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/creative-license.txt",
-   "bytes": 10218
+   "bytes": 18476
   },
   {
    "page": "wiki/work/fastly-fsly.md",
@@ -3055,7 +3076,7 @@
    "title": "work \u2014 index",
    "summary": "Career and business history, plus the tech projects.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/index.txt",
-   "bytes": 1724
+   "bytes": 1723
   },
   {
    "page": "wiki/work/nemacolin-caddying.md",
