@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-02
+date_modified: 2026-08-08
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
@@ -201,3 +201,22 @@ The synthesis the wiki already carries — "the gaslighting outweighed the affai
 - **The primary-count pass ran 2026-07-18.** Results now inline above: verbal-abuse triple (74/17/11) **confirmed exactly** [RAW-CSV]; 0-severance **confirmed** [RAW-CSV]; 1,512 love-affirmations confirmed to lexicon precision; 232 consistent-not-exact; **180 "I'm sorry" and the "apologizes least" ordering NOT reproduced** (plain-lexicon recount: 435 through Aug 2025); **187:4 deflated by base-rate control and inverted by the directional test** (see REVISED block); 127/110 and 94-burst order-consistent but definition-dependent, still [DERIVED]; 299 unlocated. The "768 messages sent 2026-05-31" bootloader figure remains non-reproducible (closure export shows 265 Sent / 482 total that day) — unchanged from the 2026-07-15 finding.
 - **April–May 2026 final-weeks page** is built from a single chat-analysis session, not an independently located raw CSV for that window; its dated, quoted messages (GPS-with-third-party May 5; the "25 Nov 2015 – 04 May 2026" self-periodization) are **[RAW-CSV]** verified above, but the surrounding "Betrayal Catalog" / pregnancy claims in that same source are explicitly uncorroborated and excluded.
 - **The pregnancy reference** (claimed due date Nov 18) appears in two chat-analyses only, contradicts primary message exports, and is not adopted as fact anywhere in the wiki.
+
+> **RE-CHECKED [2026-08-08] — the exhibit holds, with its weight restated.**
+> The premise [[wiki/people/tuquick-17248123683]] moved when the August 2026
+> background-check capture put a name to the handle and surfaced a two-decade
+> public record. Nothing in it touches the June 15 defection this page relies
+> on: the convergence happened, it is quoted verbatim from the export, and a
+> witness's own record does not change whether he said the words.
+>
+> What it does change is the word **independent**, which this page has been
+> leaning on harder than it should. The defection's evidentiary value was
+> never that Tuquick is a reliable narrator — it is that he is a *hostile*
+> one, arriving at Dan's conclusion fourteen days after attacking him for it,
+> with every incentive to reach the opposite conclusion. That argument is
+> unaffected by his convictions and was always the real argument. The
+> temptation the new material creates is to treat the record as further
+> corroboration of Annie's account through him; it is not, and this page
+> should not start using it that way. He remains a witness whose value is
+> structural — where he stood, and when he moved — rather than personal.
+

@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-08
 date_range_start: 2026-07-25
 date_range_end: 2026-08-02
 tags: [relationships, trauma-bond, mental-health, forensic-analysis]
@@ -36,7 +36,7 @@ connections:
     claim: "He telephoned Suz to abuse her about a relationship she had no part in, which is what made the harassment a family matter and what Annie eventually walked to the house to apologise for."
   - page: wiki/people/tuquick-17248123683
     type: co-occurs
-    claim: "Tuquick is the only prior third party the corpus documents in this role, and no source states whether the two are the same man — the question is open in both directions."
+    claim: "Tuquick was named in August 2026 and placed in Uniontown from September 2024, which removes the one distinguishing fact that could have separated the two men negatively — the question of whether they are the same man is still open, but it can no longer be closed by geography."
   - page: wiki/timeline/events/july-2026-recontact
     type: follows
     claim: "The 'She's a slut man lmfao' message that arrived on Annie's number at 00:25 on July 26 is his first appearance in the record; everything known about him postdates it by hours."

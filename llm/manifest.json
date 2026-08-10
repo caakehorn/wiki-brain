@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08",
+ "generated": "2026-08-10",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
@@ -1312,7 +1312,7 @@
    "title": "The Dan/Annie Fallout \u2014 Was He Correct to Feel Wronged? (Raw-Evidenced)",
    "summary": "The verdict, stated plainly: **yes \u2014 on the documented facts, Dan was correct to feel wronged, and the feeling was not a misreading.** The record supports a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dan-annie-fallout-verdict.txt",
-   "bytes": 32243
+   "bytes": 33447
   },
   {
    "page": "wiki/mind/synthesis/dormancy-not-exit.md",
@@ -2390,7 +2390,7 @@
    "title": "The Unnamed Man",
    "summary": "He is the person [[wiki/people/annie-ulmer|Annie]] left Dan for, the person she says raped her on July 25, 2026, and the person whose continued presence in h...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/the-unnamed-man.txt",
-   "bytes": 10189
+   "bytes": 10296
   },
   {
    "page": "wiki/people/timmy.md",
@@ -2425,7 +2425,7 @@
    "title": "Tuquick (+17248123683)",
    "summary": "Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal group chat that closed the relationshi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/tuquick-17248123683.txt",
-   "bytes": 9776
+   "bytes": 17563
   },
   {
    "page": "wiki/people/urpaaa-at-yahoo-com.md",
