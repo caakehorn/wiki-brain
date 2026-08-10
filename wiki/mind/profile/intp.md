@@ -31,6 +31,9 @@ connections:
   - page: wiki/mind/psychosexual/taboo-and-boundary-testing
     type: parallels
     claim: "'Compulsive curiosity to find edge conditions and bypass arbitrary limits' is stated in nearly identical language on both pages — the cognitive-style claim and the sexual one are the same mechanism described from two source passes over the same dossier material."
+  - page: wiki/mind/politics/axioms
+    type: parallels
+    claim: "The great-man-theory reading tag and the singular-figure-versus-the-system self-myth this profile documents are the same fascination the politics page reframes — recurring analytical attention to what one actor does to a system's checks, not hero worship."
 ---
 
 # INTP — The Cognitive Function Stack

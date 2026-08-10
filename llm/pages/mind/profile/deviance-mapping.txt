@@ -22,6 +22,9 @@ connections:
   - page: wiki/mind/concepts/erotic-architecture
     type: parallels
     claim: "The engineered-sexuality material sits in this page's register: the documented statistical extremes cluster around deliberate construction — chemical stack, non-monogamy architecture, authored scenes — not impulse."
+  - page: wiki/mind/psychosexual/taboo-and-boundary-testing
+    type: evidences
+    claim: "This audit's 96/100 score (90% confidence) for the 'psychosexual operating system' — the fourth-most-unusual domain of ten — is independent statistical framing that converges with the taboo-seeking claim on that page without being derived from it."
 ---
 
 # Deviance Mapping — The Statistical Outlier Audit

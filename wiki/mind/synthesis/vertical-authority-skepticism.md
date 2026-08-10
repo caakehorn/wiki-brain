@@ -61,6 +61,9 @@ connections:
   - page: wiki/work/creative-license
     type: evidenced-by
     claim: "Named by the corpus's own dossiers as the founding case — 2011–2012, over airfare-billing discrepancies and altered intern contracts — but a dedicated pass found the specific allegation has no primary corroboration and the exit date is contradicted by Dan's own résumé; the pattern this page documents does not depend on that one case being confirmed, since BFS Foods and Au Za'atar independently instantiate it, but the 'founding' label should be read as narrative framing rather than settled fact until primary evidence surfaces."
+  - page: wiki/mind/politics/axioms
+    type: instance-of
+    claim: "The power axiom restates this page's vertical/lateral split as an explicit political premise and adds a self-authored artifact this page doesn't carry — the CATO persona's origin as Caesar's specific political opponent, not a general Roman figure — as primary evidence the skepticism is a conscious commitment, not only an inherited disposition."
 ---
 
 

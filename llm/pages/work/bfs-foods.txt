@@ -55,6 +55,9 @@ connections:
   - page: wiki/people/anita
     type: co-occurs
     claim: "Anita is the GM who originated the $50 claim and controls the levers (deposit, schedule, discipline); the dispute is the setting where her backward-narrative pattern is documented."
+  - page: wiki/work/creative-license
+    type: parallels
+    claim: "The corpus's own dossiers name this job's drawer dispute as the recurrence, fourteen years on, of the same shape first seen at Creative License in 2011–12 — a trusted vertical figure's undocumented financial claim met with exit rather than confrontation; unlike this well-documented instance, the 2012 case has no primary corroboration."
 ---
 
 # BFS Foods (2026)

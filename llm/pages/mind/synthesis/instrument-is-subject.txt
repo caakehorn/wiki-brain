@@ -5,7 +5,7 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-02
+date_modified: 2026-08-10
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
@@ -150,3 +150,13 @@ testimony. It simply cannot be promoted to residue by being cited three times.
   now the obvious next operation.
 - **`exocortex` is read here only through its role in setting the honesty
   standard.** Its other content is not assessed.
+
+> **RE-CHECKED [2026-08-10]:** `bin/wiki-climb check` flagged this page as
+> stale against [[wiki/mind/concepts/exocortex]], edited the same day to
+> add one new connections edge (to the new
+> [[wiki/mind/politics/axioms]] page) reading the CATO persona's origin
+> line politically. This page's claim rests entirely on a different fact
+> — that the wiki's honesty/no-softening standard is downstream of a
+> prompt Dan wrote — which the edit did not touch. No finding here is
+> affected; this is exactly the "its other content is not assessed"
+> boundary the Gaps note above already names.
