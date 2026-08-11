@@ -18,7 +18,7 @@ VALID_TAGS = {
     "legal", "dui", "financial-stress", "housing", "career",
     "music-production", "personality-profile", "ideology", "politics",
     "forensic-analysis", "ai-collaboration", "digital-footprint",
-    "uniontown-era", "nyc-era", "pets",
+    "uniontown-era", "nyc-era", "pets", "non-monogamy",
 }
 PAGE_BUDGET = 40 * 1024   # advisory only — see STYLE_GUIDE.md substance rule 4;
                           # depth is the standing directive, never trim to clear this

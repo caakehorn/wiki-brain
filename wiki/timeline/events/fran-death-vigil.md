@@ -69,6 +69,9 @@ connections:
   - page: wiki/people/fred-adams
     type: caused-by
     claim: "The 24-hour rotation existed because the estate's trustee ordered it, which is what made the family's exclusion of Dan and Annie a formal act rather than a social slight."
+  - page: wiki/timeline/events/annie-alexis-reunion-november-2018
+    type: parallels
+    claim: "Both events exemplify the 'visible preparation' pattern — mood lighting, dogs moved upstairs, specific choreography enacted for controlled privacy. The Fran vigil (March 2018) used it for grief; the Annie/Alexis reunion (November 2018) used it for arranged intimacy. The difference: one was mourning, one was pleasure, but the household staging is identical."
 ---
 
 # The Fran Vigil (March–April 2018)

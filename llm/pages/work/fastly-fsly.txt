@@ -5,16 +5,19 @@ title: "Fastly (FSLY)"
 aliases: ["FSLY", "Fastly Inc.", "$FSLY"]
 status: stable
 date_created: 2026-07-15
-date_modified: 2026-07-15
+date_modified: 2026-08-10
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/operating_manual.md
-  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
-related:
-  - wiki/people/jerad-friedline
+synthesizes:
   - wiki/timeline/periods/2020-2021-market-era
-  - wiki/timeline/periods/covid-era-2020
+synthesizes:
   - wiki/self/context-core
+connections:
+  - page: wiki/people/jerad-friedline
+    type: evidenced-by
+    claim: "Jerad's September 20, 2020 message from +191****3615 provides the verbatim FSLY tip that launched Dan into retail trading: 'Buy FSLY and do not touch for 2-3 years.' This is the entry point of the 2020–21 market era."
 tags: [financial-stress, nyc-era]
 ---
 
@@ -102,7 +105,14 @@ gains," matching the relational-broadcast instinct documented across the wiki.
 The position's modest size (~$15k in, ~$4k profit, a $600 day) is the floor
 under the later, larger GME/AMC/CCIV swings.
 
-**Gaps:** no exit accounting — when FSLY was closed, at what price, and whether
-any shares rode into the 2021–23 low-income stretch is undocumented. The
-raw shows the entry, the $600 day, the all-time-high window, and the momentum
-lesson, but not the close.
+## Corpus evidence
+
+The FSLY tip is preserved verbatim in the corpus (MASTER_MESSAGES_DB_DUMP.csv):
+
+| Date | Direction | Handle | Message |
+|------|-----------|--------|---------|
+| 2020-09-20 19:40:00 | Received | +191****3615 (Jerad) | "FSLY... busy at the moment but will send my research tomorrow. I made a little over $200k from April..." |
+| 2020-09-20 20:03:07 | Sent | (Dan) | "just buy FSLY?" |
+| 2020-09-20 20:03:28 | Received | +191****3615 | "Buy FSLY and do not touch for 2-3 years" |
+| 2020-10-06 15:37:33 | Sent | (Dan) | "dude i made $600 just from FSLY today" |
+| 2020-10-07 21:10:14 | Sent | (Dan) | "FSLC"
