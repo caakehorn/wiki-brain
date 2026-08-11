@@ -5,7 +5,7 @@ title: "The Institutional Out"
 aliases: ["migraine protocol", "strategic absenteeism", "night class alibi"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-19
+date_modified: 2026-08-11
 sources:
   - raw/self/dansynth/FromSidewalkShedtoAnalyticalProwess.md
   - raw/self/dansynth/AuZaatarsFinalShift.md
@@ -26,6 +26,9 @@ connections:
   - page: wiki/people/valeria-iglesias-cid
     type: co-occurs
     claim: "The night-class fiction doubled as cover for the Valeria affair — one unfalsifiable alibi serving the labor extraction and the concealment simultaneously."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "Pre-installing an escape from every job before the ink is dry is 'The Irreversibility Firewall's' labor-market instance: never let a vertical structure's claim on his time become the irreversible, cost-bearing commitment a completed tenure would represent."
 
 ---
 

@@ -6,7 +6,7 @@ aliases: ["the unevaluated domain", "food as everything but taste"]
 status: active
 knowledge: earned
 date_created: 2026-07-25
-date_modified: 2026-08-02
+date_modified: 2026-08-11
 sources:
   - raw/self/captures/2026-08-01_154556_picky-eater.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -270,3 +270,10 @@ for everything it is allowed to touch."
   adolescent bulimia and candy-staple period on [[wiki/health/hyperreflexivity]]
   is unknown, and the answer decides whether this is a control behaviour that
   grew out of a disordered one or an independent lifelong trait.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/mind/concepts/the-cool-metric]] moved the same day, but only to add
+> a new connection to `wiki/mind/synthesis/totality-themes` (the newly
+> derived "Irreversibility Firewall" doctrine page) — the master-filter
+> claim and the food/music jurisdiction dispute this page's CONTRADICTION
+> block tracks are both untouched. Nothing here needed revising.

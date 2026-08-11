@@ -25,6 +25,7 @@ sources:
   - raw/self/message-csv/imessage_7243667777_both_all_now.csv
   - raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv
   - raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md
+  - raw/self/message-exports/rick-frank-imessage-pdf-export-2018-thru-2018-04.txt
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
   - page: wiki/legal/2015-possession-arrest
@@ -239,7 +240,15 @@ who has been present the entire time this page previously described as
 > itself: a per-contact export claiming "all time" is a claim to verify,
 > not a claim to trust, and the fix is the same discipline that was already
 > written down for the general dumps — cross-check against the largest
-> available source before asserting completeness.
+> available source before asserting completeness. **Independent
+> corroboration, found the same day by coincidence:** a 73-page print-to-PDF
+> export of this exact thread, made by Dan himself in 2018 (`raw/self/message-exports/rick-frank-imessage-pdf-export-2018-thru-2018-04.txt`,
+> covering Dec 2015–Apr 2018, Messages.app's own render rather than a
+> reconstructed export), matches `all_imessages_complete_dump.txt`
+> verbatim for the same period — the "kicked to the curb" exchange, Dan's
+> same-day reply, and the Fran death-vigil correspondence all confirmed
+> word-for-word from a source seven years older than this correction and
+> entirely independent of it.
 
 **What actually happened in December 2015 — real, but resolved in weeks,
 not a decade-long rupture.** The Dec 2–16, 2015 exchange this page

@@ -61,6 +61,9 @@ connections:
   - page: wiki/mind/synthesis/bond-switch-2015
     type: parallels
     claim: "The switch documents the primary slot changing hands inside a single month; this page documents that the person leaving the slot stays in the graph, which is why a swap that fast costs nothing to execute."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "'Nothing leaves this graph' is 'The Irreversibility Firewall's' no-delete prediction stated as its own rule: leaving is exactly the irreversible act the firewall exists to prevent, so every documented 'ending' turns out to be a role change with reactivation bandwidth retained."
 ---
 
 # Dormancy, Not Exit

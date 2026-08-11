@@ -6,7 +6,7 @@ title: "Political Psyops & Hybrid Events"
 tags: [politics, forensic-analysis, ideology]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-08-11
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
@@ -31,7 +31,7 @@ connections:
     claim: "The J6 method is the vertical-skepticism architecture applied at state scale."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
-    claim: "The totality's 'Political Intensity and Structural Decay' section states in brief what this page argues in full: the post-partisan, both-parties-captured diagnosis and the ruthless focus on procedural mechanics over tribal loyalty."
+    claim: "The post-partisan, score-who-is-more-wrong posture instantiates 'The Irreversibility Firewall's' vertical-distrust prediction run on the state itself: every political actor is a vertical claim, audited on contact, with no lateral exemption because no politician is a vetted peer."
 ---
 
 

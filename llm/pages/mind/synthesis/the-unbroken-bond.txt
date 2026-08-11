@@ -46,6 +46,9 @@ connections:
   - page: wiki/people/annie-ulmer
     type: evidenced-by
     claim: "The ten-year case in which the deep system did activate, and whose 2026 severance failed after 52 days — the strongest available evidence that ending the state is harder than maintaining it."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "Seventeen years without a gap longer than weeks is 'The Irreversibility Firewall's' no-delete prediction at the level of the slot itself: leaving it empty long enough to become a real, examined choice would be exactly the irreversible fact the firewall exists to prevent."
 ---
 
 # The Unbroken Bond

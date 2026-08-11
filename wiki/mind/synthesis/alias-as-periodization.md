@@ -42,7 +42,7 @@ connections:
     claim: "The overview's framing — four aliases mapping to distinct periods AND distinct aesthetics, unified by an involuntary signature — survives only in half: read against each other the alias pages show the aesthetics do not turn over at the renames, only the periods do, which makes the alias a clock rather than a style."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
-    claim: "Alias churn is one instrument of the totality pattern: the periodic wholesale renaming of a self whose actual contents are measurably continuous."
+    claim: "Renaming, not the music, is what changes at a period boundary — this page instantiates 'The Irreversibility Firewall's' identity-layer prediction: reorganize the exposed name, never the involuntary signature underneath it, because the signature was never a choice and therefore never at risk."
 ---
 
 # The Alias Is a Clock, Not a Style

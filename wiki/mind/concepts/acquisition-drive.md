@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-03
+date_modified: 2026-08-11
 sources:
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
   - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
@@ -48,6 +48,9 @@ connections:
   - page: wiki/mind/concepts/chaos-preference
     type: mirrors
     claim: "Two appetites with inverted carve-outs: the chaos preference is strictly outward-facing and exempts what Dan has chosen, while the acquisition drive fires only on what Dan has chosen — though not, per the 2026-08-02 falsification above, inert toward assignments, since an assignment can host a chosen objective inside it."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "This page's own falsified prediction — that a converted want runs to completion 'independently of cost' — is 'The Irreversibility Firewall's' clearest counter-instance turned into confirming evidence: the self-set goals that stalled were exactly the ones nearing the irreversible, exposed act of finishing."
 ---
 
 # The Acquisition Drive

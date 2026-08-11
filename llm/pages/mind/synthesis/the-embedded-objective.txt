@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-03
+date_modified: 2026-08-11
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -52,6 +52,9 @@ connections:
   - page: wiki/mind/synthesis/the-deferred-audit
     type: parallels
     claim: "Both describe an engine that is indifferent to the frame it is handed: the audit fires on a schedule set by provenance rather than by importance, and the drive attaches to objectives rather than to the roles that contain them."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "This page's own unresolved gap — three purely self-set projects (MNEME, DANMODEL, the AI video essays) that never shipped despite no assignment to hide behind — is answered by 'The Irreversibility Firewall': self-origination defeats the imposed-audit risk but not the exposure risk, and completion is what creates exposure regardless of who set the goal."
 ---
 
 # The Embedded Objective

@@ -4,7 +4,7 @@ page_type: concept
 title: "Orchestration and Voyeurism"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-19
+date_modified: 2026-08-11
 knowledge: mixed
 sources:
   - raw/self/dox-scan/Dan Profile.txt
@@ -35,6 +35,9 @@ connections:
   - page: wiki/people/vaughn
     type: co-occurs
     claim: "The February 2018 Vaughn exchange — explicit photos shared to a curated audience, an offer to film, a 1 AM visit under 'complete gentleman' terms — pattern-matches the arrangement-onset orchestration window, though identity and outcome are uncorroborated."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "Director rather than participant is 'The Irreversibility Firewall's' clearest bodily instance: arrange the irreversible, exposed act, and place someone else inside the frame actually performing it."
 ---
 
 # Orchestration and Voyeurism

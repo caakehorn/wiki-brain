@@ -60,6 +60,9 @@ connections:
   - page: wiki/mind/synthesis/supply-network
     type: parallels
     claim: "The supply network is the spine's standing drain and its structural mirror: capital arrives in lumps (estates, market wins) and exits through constant metered flows (supply, rent, the Annie asymmetry) — the mismatch between lump income and metered outflow is why no arrival ever holds."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "Capital arriving in lumps and exiting through standing drains rather than accumulating is 'The Irreversibility Firewall' applied to money: a large, static balance is exactly the kind of examined, adjudicable fact the rule exists to prevent, so it never sits still long enough to become one."
 ---
 
 # The Estate / Money Spine

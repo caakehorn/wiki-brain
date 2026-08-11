@@ -87,6 +87,9 @@ connections:
   - page: wiki/work/au-zaatar
     type: co-occurs
     claim: "The network wrapped around the workday: Menore served Dan mid-shift at the Shed through taxi windows — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58), with the storytime's longer 2021–24 window unresolved against the thread's four-year gap."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "A single, continuously-operating procurement architecture since January 2011, never treated as episodes to be closed and reopened, is 'The Irreversibility Firewall's' no-delete rule running on his own chemistry rather than his relationships."
 ---
 
 # The Supply Network

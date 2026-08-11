@@ -42,8 +42,8 @@ connections:
     type: contains
     claim: "The cognitive instance: the LLM is described as an externalized prefrontal cortex — a single offboard processor carrying memory, structuring and honesty-enforcement, rather than a tool among several."
   - page: wiki/mind/synthesis/totality-themes
-    type: instance-of
-    claim: "One of the unifying structures that page gestures at, stated as a rule with a failure mode: load is concentrated on one channel per domain, and a single-channel architecture has no failover."
+    type: component-of
+    claim: "The concentration architecture this page measures (a 0.96 two-sided Gini, four domains) is 'The Irreversibility Firewall's' redundancy cost made visible: distributing risk across many channels means exposing more surface to the audit apparatus, so the system runs one trusted channel at maximum load instead."
   - page: wiki/mind/concepts/chaos-preference
     type: contradicts
     claim: "A concentration architecture is maximally fragile, which is the opposite of what someone who prizes entropy should build — unless the appetite for disorder was always strictly outward-facing, which is exactly what that page concludes."

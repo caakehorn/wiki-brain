@@ -49,6 +49,9 @@ connections:
   - page: wiki/mind/concepts/chaos-preference
     type: mirrors
     claim: "The same asymmetry as the entropy appetite: disorder is welcome everywhere except in the structures he did not choose, and geography is the one structure nobody in this line has successfully chosen against."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "Four generations, each leaving and returning to Fayette County, is 'The Irreversibility Firewall' run at the scale of geography: departure is never converted into the irreversible, examined fact of having left for good."
 ---
 
 # The Fayette Return

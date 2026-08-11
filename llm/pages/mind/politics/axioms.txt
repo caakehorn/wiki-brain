@@ -36,6 +36,9 @@ connections:
   - page: wiki/mind/profile/intp
     type: parallels
     claim: "The 'great-man-theory' reading tag and the 'singular-figure-versus-the-system' self-myth this profile documents describe the same fascination this page reframes — not hero worship, but the recurring subject of Dan's analytical attention: what one actor does to a system's checks."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "The power axiom promotes 'The Irreversibility Firewall's' vertical-distrust prediction to a conscious, self-authored political commitment — the CATO persona, built around Caesar's own opponent rather than Caesar, is Dan naming the firewall's outward-facing half on purpose, as an identity."
 ---
 
 # The Power Axiom: What Resolves the Leftist/Authoritarian "Paradox"

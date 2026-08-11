@@ -6,7 +6,7 @@ aliases: ["chaotic neutral", "the entropy appetite", "rooting for the fire"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-02
+date_modified: 2026-08-11
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -39,6 +39,9 @@ connections:
   - page: wiki/interests/music/overview
     type: evidenced-by
     claim: "The aesthetic expression of the preference is documented independently of the psychology: an output profile built on noise, decay and system failure, with instruments deliberately broken to reveal 'true' sounds."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "Wanting the world less orderly is 'The Irreversibility Firewall's' external-facing register: imposed order is another vertical claim to distrust, and disorder cannot indict a chooser because no one chose it."
 ---
 
 # The Chaos Preference
