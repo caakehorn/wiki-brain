@@ -20,6 +20,8 @@ sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/dox-md/Gemini-_18.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/dox-scan/Gemini-_58.txt
+  - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/rickfrank_-wir6jjh_a/message_1.html"
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
   - page: wiki/legal/2015-possession-arrest
@@ -55,6 +57,12 @@ connections:
   - page: wiki/mind/synthesis/fayette-return
     type: instantiates
     claim: "The generation with no attested departure, which forces the rule into its better-supported form: the terminus is always Fayette, and never leaving satisfies that more completely than leaving and returning."
+  - page: wiki/places/424-bedford-ave
+    type: causes
+    claim: "Rick funded the exit itself — a February 18, 2010 apartment-hunting trip and a standing $2,000/month offer 'while you intern,' floated as the alternative to an Entourage-style West Hollywood move — making the paternal relationship a direct enabling condition of NYC-1 rather than a backdrop to it."
+  - page: wiki/work/creative-license
+    type: component-of
+    claim: "Rick reviewed Dan's non-compete from the day the job started and, during the 2012 payroll dispute, switched registers entirely from brief/logistical to active tactical coach — 'You sound so desperate. That is what kevin wants. We'll talk about a strategy for this.' — the corpus's clearest instance of him operating as strategist rather than distant authority figure."
 ---
 
 
@@ -103,10 +111,35 @@ logic." The CATO known-gaps list carries one unresolved thread: a **"We
 Speak Car" / Ford trademark litigation** involving the business, outcome
 unknown — flagged for future ingest.
 
+## Funding the exit: NYC, 2010
+
+The single largest act of paternal support on record predates the sparse,
+periodic register the rest of this page describes. On **February 18, 2010**
+— four days before Dan's 22nd birthday — Rick met his son in Pittsburgh and
+the two boarded an Amtrak train together bound for New York, then spent the
+following months apartment-hunting; by June, Dan had a lease at
+[[wiki/places/424-bedford-ave|424 Bedford Ave]] in Williamsburg. The
+Gemini-58 reconstruction dates the offer that made this possible to the same
+window: Rick proposed **$2,000 a month "while you intern," plus help finding
+an apartment**, as the alternative to Dan's stated preference — an
+Entourage-style move to West Hollywood chasing the "Ari Gold" version of the
+entertainment industry. Rick's counter-offer won: it removed the survival
+friction of the internship-heavy first NYC year (unpaid at ishlab,
+low-paid at Creative License) that a self-funded move could not have
+absorbed. A Facebook message from Rick four days after the train ride — "you
+better call me asap!!! looks like the nyc deal is off," Feb 22, 2010 — is
+the corpus's only glimpse of the arrangement nearly not happening; no record
+survives of what resolved it, but the move went ahead on schedule. A month
+later, when Dan sent a workplace email he worried had been too aggressive
+(the "email heard round the world" to a Bellator/MSG contact), Rick's
+response was uncomplicated support: "It doesn't seem like an aggressive
+reply from you... I'm proud of you, boy!"
+
 ## The relationship on the record
 
-The corpus's texture is sparse but pointed. The best-documented exchange is
-the morning of Dan's ARD hearing (February 17, 2016 —
+The corpus's texture is sparse but pointed, and reads differently depending
+on the register. The best-documented single exchange is the morning of Dan's
+ARD hearing (February 17, 2016 —
 [[wiki/legal/2015-possession-arrest]]): Rick wanted to attend and talked
 himself out of it — "You're obviously more comfortable with your mom. She's
 pretty well connected & I bet she knows the Judge also... I don't want to
@@ -115,13 +148,40 @@ me know the good news" — followed by "Texting is way too much work to have
 a conversation. My head hurts!!!" and "I love you." The profile sources
 characterize the standing dynamic the same way: Rick's messages brief and
 logistical, Dan's long and validation-seeking, "reinforcing fears of
-worthlessness tied to financial dependence." Other documented touchpoints:
-hockey tickets, pet inquiries — the periodic, low-intensity register the
-spine describes.
+worthlessness tied to financial dependence." A recovered Facebook Messenger
+thread (2010–2015, Rick's outgoing side only — Dan's replies were not
+preserved in the export) confirms that register at scale: unadorned
+invitations and check-ins — skiing (Jan 22 and 29, 2015), a wedding (Aug
+2014), Kennywood (missed, Aug 2014), a hockey game (Jun 2013), "how are
+yunz doing? give me a buzz when you get a chance" (Jun 2013) — with no
+emotional content beyond the logistics themselves. Other documented
+touchpoints in the same vein: hockey tickets, pet inquiries.
 
-The one substantial exception runs on the evening of **April 11, 2017**, and
-it is the closest thing on record to the two men talking about the thing they
-have in common. Dan told Rick that a friend had died of an overdose that day
+That same thread also contains the one register the profile summaries
+don't capture: **impatient, parent-to-adult-child insistence when Rick
+wants something handled.** "Enough bullshit. Call me ASAP!" (Dec 13, 2012),
+"Call me now!" (Sep 11, 2012), and, sharpest of all, over a landlord
+matter — "You think I'm fucking kidding about sending me that information
+about the landlord? I want it ASAP" (Feb 15, 2013). None of these resolve
+to a documented outcome; they sit as a texture rather than an event. The
+same register shows up with more constructive intent during
+[[wiki/work/creative-license|Dan's 2012 payroll dispute]] with Creative
+License, where Rick was consulted on Dan's employment paperwork from the
+very start of the job (forwarded Dan's own non-compete the day it arrived,
+May 2011) and, once the dispute over a withheld W-2 and a disputed $104
+paycheck deduction escalated, switched from logistical to strategic: "You
+sound so desperate. That is what kevin wants. We'll talk about a
+strategy for this." It is the corpus's clearest instance of Rick operating
+as tactical coach rather than the brief, arm's-length figure the rest of
+the record shows — brief and logistical is the modal register, not the
+only one, and it shifts toward engaged and directive exactly when Dan is
+in a fight with an outside authority rather than asking for emotional
+validation.
+
+A third register — neither logistical nor strategic-coaching but the two men
+talking about the thing they actually have in common — runs on the evening
+of **April 11, 2017**, and it is the closest thing on record to that
+conversation. Dan told Rick that a friend had died of an overdose that day
 ([[wiki/people/jay-lauer|Jay Lauer]]), described his own failed attempt to
 route Jay onto Suboxone, and then answered his father by quoting his father
 back at him: "I still remember the conversation where u called me over to
@@ -146,3 +206,10 @@ record through 1989–2002; current address unconfirmed.
 "beyond complicated but not negative"; the Ford trademark litigation
 outcome; whether the business still exists or when it was sold; his side of
 the 2005 events is entirely unrecorded — everything here is Dan's corpus.
+What resolved the "nyc deal is off" scare of February 22, 2010 is unrecorded
+— the move went ahead four months later, but nothing documents how the
+near-collapse was fixed. The Facebook Messenger thread preserves only Rick's
+outgoing messages, not Dan's replies, so its texture (invitations, terse
+insistence) is one-sided by construction — a corroborating source with
+Dan's side would settle whether the "fucking kidding" landlord message
+(Feb 2013) was ever actually resolved and how Dan received it.

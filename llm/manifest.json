@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10",
+ "generated": "2026-08-11",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
@@ -2327,7 +2327,7 @@
    "title": "Richard Harrison \"Rick\" Frank",
    "summary": "Rick Frank (b. May 22, 1959, Uniontown PA) is Dan's father: owner of **Frank's Auto Supermarket**, a chain of auto-parts stores (anti-union, per the househol...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/rick-frank.txt",
-   "bytes": 9864
+   "bytes": 14769
   },
   {
    "page": "wiki/people/rj-ritchey.md",
@@ -2593,7 +2593,7 @@
    "title": "424 Bedford Ave (NYC-1)",
    "summary": "424 Bedford Ave, Apartment 6C, in Williamsburg, Brooklyn was Dan's first New York apartment \u2014 the home base of the **NYC-1** period (April 2010 \u2013 May 2013) a...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/424-bedford-ave.txt",
-   "bytes": 5432
+   "bytes": 5800
   },
   {
    "page": "wiki/places/90th-st-manhattan.md",
@@ -3076,7 +3076,7 @@
    "title": "Creative License (NYC, 2011\u20132012)",
    "summary": "Creative License was a small celebrity-talent and licensed-music brokering company at 71 8th Avenue in the West Village \u2014 its one recovered client pitch is a...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/work/creative-license.txt",
-   "bytes": 18476
+   "bytes": 18908
   },
   {
    "page": "wiki/work/fastly-fsly.md",

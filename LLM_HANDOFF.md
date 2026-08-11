@@ -6,6 +6,25 @@
 
 ---
 
+### [2026-08-11] - Session: rick-frank.md correspondence review — two unmined sources, write-back gap closed on three pages
+* **Model:** Claude Sonnet 5 (Claude Code, remote)
+* **Branch:** `claude/rick-correspondence-review-rb6mx2`
+* **Trigger:** Operator: "look through all raw sources that have data or correspondance with rick to see if there's anything frmo those i might need."
+* **Method:** Grepped every raw/ file for Rick Frank mentions (word-boundary, filtering false positives like "trick"/"rickety"), cross-checked each hit against `rick-frank.md`'s existing `sources:` list, and read the unmined ones to exhaustion.
+* **Findings:**
+  1. **A 2010–2015 Facebook Messenger thread with Rick was never mined at all.** One-sided (Rick's outgoing messages only — Dan's replies weren't preserved in the export). Confirms the "brief and logistical" register at scale (skiing/wedding/hockey invites) but also surfaces a sharper register the profile dossiers never captured — impatient insistence when Rick wants something handled ("Enough bullshit. Call me ASAP!"; a "You think I'm fucking kidding" landlord message).
+  2. **`Gemini-_58.txt` had already been mined — into `wiki/self/chats/gemini-58.md`, `wiki/places/424-bedford-ave.md`, and `wiki/work/creative-license.md` — but the finding was never written back to `rick-frank.md` itself.** This is exactly the CLAUDE.md rule-2 failure mode ("findings get written back... not left on one page for the others to rediscover"), sitting on three pages simultaneously. The buried finding: Rick funded Dan's 2010 move to NYC directly (Feb 18, 2010 apartment-hunting trip + a standing $2,000/month offer, the alternative to an Entourage-style LA move) — the single largest act of paternal financial support in the corpus, previously absent from the page about Rick.
+  3. Also recovered from `creative-license.md` and written back: Rick as active **tactical coach** during the 2012 payroll dispute ("You sound so desperate. That is what kevin wants. We'll talk about a strategy for this.") — a third register beyond brief/logistical.
+* **New section on `rick-frank.md`:** "Funding the exit: NYC, 2010." Existing "relationship on the record" section expanded with the Facebook texture and the coaching register, reframing "brief and logistical" as the modal register rather than the only one.
+* **New connections, wired both ways:** `rick-frank.md` ↔ `424-bedford-ave.md` (`causes`/`caused-by`), `rick-frank.md` ↔ `creative-license.md` (`component-of`/`contains`).
+* **Gates:** wiki-lint **450 pages / 0 errors** (13 warnings, unchanged) · wiki-connect check **0 errors** (216 warnings, unchanged) · wiki-climb check **450 pages, 23 with `synthesizes:`, 0 errors, 0 warnings**. `bin/wiki-digest` and `bin/llm-publish` rerun.
+* **RESUME POINT:**
+  1. **What resolved the Feb 22, 2010 "nyc deal is off" scare is unrecorded** — the move went ahead four months later regardless, but nothing documents how the near-collapse was fixed. Worth a targeted Gmail/email check around late Feb 2010 if that inbox is ever pulled.
+  2. **The Facebook thread is one-sided by construction** (Rick's outgoing messages only) — if a fuller Messenger export with Dan's sent side ever surfaces, it would settle whether the sharper messages (esp. the Feb 2013 landlord one) actually escalated or were routine friction.
+  3. **The Ford trademark litigation outcome and whether Frank's Auto Supermarket still exists remain open gaps**, both flagged in CATO and unchanged by this pass.
+  4. A `rickhamborsky` Facebook message-request thread exists in the same export (`message_requests/rickhamborsky_onu_jnermw/`) — different person, different surname, not screened this pass beyond confirming the name mismatch; low priority.
+* **Handoff Note:** All three gates 0 errors. Pushed to `claude/rick-correspondence-review-rb6mx2`; draft PR opened.
+
 ### [2026-08-10] - Session (continued a third time): annie-ulmer.md deep-mining pass — new events from previously unread raw/ sources
 * **Model:** Claude Sonnet 5 (Claude Code, remote)
 * **Branch:** `claude/annie-ulmer-rewrite-and-captures` (same branch/PR as the previous entry — this is a second round of work on the still-open draft PR, not a new one)

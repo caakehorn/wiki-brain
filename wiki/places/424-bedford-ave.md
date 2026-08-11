@@ -32,6 +32,9 @@ connections:
   - page: wiki/work/creative-license
     type: co-occurs
     claim: "The Creative License job ran for the address's entire occupancy and into the following year at 90th Street — the studio-work era this page's own arrival section names."
+  - page: wiki/people/rick-frank
+    type: caused-by
+    claim: "Rick funded the exit itself — a February 18, 2010 apartment-hunting trip and a standing $2,000/month offer 'while you intern,' floated as the alternative to an Entourage-style West Hollywood move — making the paternal relationship a direct enabling condition of NYC-1 rather than a backdrop to it."
 ---
 
 # 424 Bedford Ave (NYC-1)

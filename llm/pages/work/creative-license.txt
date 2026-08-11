@@ -44,6 +44,9 @@ connections:
   - page: wiki/work/bfs-foods
     type: parallels
     claim: "The corpus's own naming names these two jobs as the first and most recent instances of one shape — a trusted vertical figure's undocumented financial claim met with exit and documentation rather than confrontation — fourteen years apart."
+  - page: wiki/people/rick-frank
+    type: contains
+    claim: "Rick reviewed Dan's non-compete from the day the job started and, during the payroll dispute, switched registers entirely from brief/logistical to active tactical coach — 'You sound so desperate. That is what kevin wants. We'll talk about a strategy for this.' — the corpus's clearest instance of him operating as strategist rather than distant authority figure."
 ---
 
 # Creative License (NYC, 2011–2012)
