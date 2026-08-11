@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 30 |
-| Open gaps | 138 |
+| Open gaps | 139 |
 | Standing predictions | 13 |
 
 ## Live contradictions
@@ -186,11 +186,12 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/suzanne-frank]]** — Whether a lease or POA has since been signed at 463 Morgantown is unresolved in the corpus.
 - **[[wiki/people/suzanne-frank]]** — The "wine mom" / evening-rhythm characterization is Dan's; no independent account of her relationship to alcohol is on file.
 
-### self (8)
+### self (9)
 
 - **[[wiki/self/ancestry]]** — Centralization of scattered references to these sub-pages across older wiki entries.
-- **[[wiki/self/lineage/23andme-genomics]]** — No text-layer extraction is possible from the source PDFs, meaning specific percentage values are not digitally recorded.
-- **[[wiki/self/lineage/23andme-genomics]]** — Health report data remains unprocessed and unexplored.
+- **[[wiki/self/lineage/23andme-genomics]]** — The Sub-Saharan African 0.2% trace signal has no corroborating paper-trail source and is unexplained.
+- **[[wiki/self/lineage/23andme-genomics]]** — Chromosome-painting PDF still has no raw SNP/CSV export attached — visual only.
+- **[[wiki/self/lineage/23andme-genomics]]** — Whether the Hereditary Thrombophilia finding has ever been discussed with a physician or shown up in any documented medical event is unrecorded.
 - **[[wiki/self/lineage/family-tree]]** — George Dixon Shrum Jr's exact death date remains unknown and undocumented in the current GEDCOM export.
 - **[[wiki/self/lineage/family-tree]]** — Full accounting of collateral relatives beyond the direct lineage.
 - **[[wiki/self/lineage/hybrid-analysis]]** — Clinical validation of the speculative links between Neanderthal variants and behavioral traits like mood disorders or addiction.

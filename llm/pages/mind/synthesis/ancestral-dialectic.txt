@@ -6,10 +6,11 @@ title: "The Ancestral Dialectic: Ashkenazi Hypervigilance vs. Appalachian Numbne
 aliases: ["Dan Frank OS", "the binary engine"]
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-08-02
+date_modified: 2026-08-11
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
+  - raw/self/ancestry/extracted/health-report-extracted-layout.txt
 tags: [uniontown-era, relationships, family, addiction-recovery, nyc-era]
 connections:
   - page: wiki/self/lineage/family-tree
@@ -190,7 +191,17 @@ treated as a genealogical or psychiatric finding, only as one coherent
 interpretive lens among the others already on file (compare
 [[wiki/mind/synthesis/vertical-authority-skepticism]] for a similarly
 speculative but independently-arrived-at institutional-distrust
-genealogy). The 23andMe PDFs themselves were never OCR'd for exact
-percentages beyond the Neanderthal figure; a fuller ancestry-composition
-breakdown (European sub-regions, exact Ashkenazi percentage) remains
-unextracted in `raw/self/ancestry/dna-reports/`.
+genealogy).
+
+> **RESOLVED 2026-08-11:** the exact ancestry-composition breakdown this
+> page previously flagged as unextracted is now on file at
+> [[wiki/self/lineage/23andme-genomics]] — Ashkenazi Jewish 21.4%,
+> Northwestern European 78.3% (British & Irish 55.8%, French & German
+> 22.2%), plus a previously-undocumented 0.2% Sub-Saharan African trace
+> signal with no paper-trail explanation. The 21.4%/78.3% split roughly
+> matches this page's paternal/maternal two-line frame once compared as
+> Ashkenazi-vs-non-Ashkenazi-European rather than a strict 50/50, since the
+> GEDCOM shows Rick's own line was not exclusively Ashkenazi either. This
+> corroborates the dialectic's biological premise more precisely than the
+> Neanderthal figure alone did, without resolving the frame's core
+> unresolved status as interpretive rather than diagnostic.
