@@ -8,14 +8,17 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-11 — 12 pages
+## 2026-08-11 — 18 pages
 
+- **Session log:** correction | people | the "decade of silence" with Rick was wrong — full record recovered, childhood testimony captured, worldview mismatch documented
 - **Session log:** process | EXTRACTION_SPEC.md | two new moves, generalized from the Rick pass — per-contact CSVs, dangling-citation chasing
 - **Session log:** ingest | people | the December 2015 Rick rupture, recovered two-sided and verbatim — mechanism behind the present-day estrangement
 - **Session log:** ingest | people | rick-frank.md correspondence review — two unmined sources, findings written back from three pages that already had them
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — vertical-authority-skepticism moved the same day to add a second candidate origin (a childhood pattern of public confrontation and humiliation, dictated directly by Dan) alongside the existing 2005 fa |
+| [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes moved the same day to retract a false "Rick-file rhyme" comparison and downgrade a domain-crossing confirmation about the May 2014 account migration. This page's dependency is only on  |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — annie-ulmer and rick-frank both moved the same day. Annie's page gained one new detail on the December 2, 2015 origin night (her parents' attempted veto of the relationship, recovered from Rick's side |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a RE-CHECKED from 2026-08-02)_ |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | **RE-CHECKED** — annie-ulmer gained one new detail on the December 2, 2015 origin night: her parents' attempted veto of the relationship, recovered from Rick Frank's side of the corpus. It deepens an existing citation |
@@ -26,10 +29,14 @@ simply listed.
 | [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — annie-ulmer gained one new detail on the December 2, 2015 origin night (her parents' attempted veto of the relationship) — a relational finding from eleven years before this page's supply-chain materi |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — dan-annie-fallout-verdict and the-unbroken-bond both moved the same day, each only to add a RE-CHECKED note of its own confirming an unrelated Annie-page edit (a new detail on the Dece |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — annie-ulmer gained one new detail on the December 2, 2015 origin night: her parents' attempted veto of the relationship, recovered from Rick Frank's side of the corpus. It sharpens the existing citati |
+| [[wiki/mind/synthesis/totality-themes]] | mind | _(carries a REVISED from 2026-07-15)_ |
+| [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/people/annie-ulmer]] | people | _(carries a CORRECTED from 2026-08-10)_ |
-| [[wiki/people/rick-frank]] | people | — |
+| [[wiki/people/lisa-frank]] | people | — |
+| [[wiki/people/rick-frank]] | people | **CORRECTED** — An earlier pass this same day built an entire narrative — "the loudest silence," a "held-block control case," "that is the last message Dan ever sent to this number" — on `imessage_7243667777_both_all |
+| [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 
-## 2026-08-10 — 20 pages
+## 2026-08-10 — 18 pages
 
 - **Session log:** rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
 - **Session log:** ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
@@ -41,11 +48,9 @@ simply listed.
 |---|---|---|
 | [[wiki/mind/concepts/attachment-model]] | mind | **CORRECTED** — A re-check of the source `.docx` files behind the quantitative table below found two errors and one omission, none visible from reading the page. First, the table's "13 major self-indicting apologies" |
 | [[wiki/mind/concepts/exocortex]] | mind | — |
-| [[wiki/mind/politics/axioms]] | mind | — |
 | [[wiki/mind/politics/index]] | mind | — |
 | [[wiki/mind/psychosexual/taboo-and-boundary-testing]] | mind | **CORRECTED** — This page previously said the orientation- violation claim had "no independent primary-source example... in the corpus searched for this page" and called it "the thinnest-supported claim in this entir |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page as stale against exocortex, edited the same day to add one new connections edge (to the new axioms page) reading the CATO persona's origin line p |
-| [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/people/jerad-friedline]] | people | **CORRECTED** — The previous record cited 879 messages with handle +191****3615. Verification against `MASTER_MESSAGES_DB_DUMP.csv` reveals 857 total messages (832 received from Jerad, 25 sent to Jerad). ## The finan |
 | [[wiki/people/jim-blanchard]] | people | — |
 | [[wiki/people/john-paci]] | people | — |
@@ -60,7 +65,7 @@ simply listed.
 | [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
 | [[wiki/work/fastly-fsly]] | work | — |
 
-## 2026-08-09 — 18 pages
+## 2026-08-09 — 17 pages
 
 - **Session log:** ingest | self/timeline/people/interests | extreme-sports era expanded with visual documentation
 - **Session log:** ingest | self/extreme-sports, people, places, interests | childhood extreme-sports era captured
@@ -78,7 +83,6 @@ simply listed.
 | [[wiki/people/jerel-coles]] | people | — |
 | [[wiki/people/matt-kraus]] | people | — |
 | [[wiki/people/nathan-king]] | people | — |
-| [[wiki/people/tan-calabrese]] | people | **REVISED** — The identity split hypothesis is wrong. Dan's own message corpus contains a direct childhood reference: "tan calabrese told me that our parents did tons of blow when i was 11 years old" (2000-12-31),  |
 | [[wiki/people/the-unnamed-man]] | people | **REVISED** — On 2026-08-08 Dan ran a FOREWARN background lookup that identified Tuquick — the man Annie left Dan for in May/June 2026 — as **Jerel Wayne Coles**, 36, of 106 Nassau S |
 | [[wiki/people/tom-wallisch]] | people | — |
 | [[wiki/people/tuquick-17248123683]] | people | **REVISED** — The operator states directly: "They are the same person — tuquick and unnamed" (filed at 2026-08-09-tuquick-unnamed-man-correction). Tuquick is the-unnamed-man. jerel-coles is |
@@ -183,7 +187,7 @@ simply listed.
 | [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
 | [[wiki/work/nemacolin-caddying]] | work | — |
 
-## 2026-08-01 — 100 pages
+## 2026-08-01 — 99 pages
 
 - **Session log:** climb | mind | alias-as-periodization.md — new T2 junction page
 - **Session log:** climb | mind | instrument-is-subject.md — new T3 doctrine
@@ -294,7 +298,6 @@ simply listed.
 | [[wiki/interests/favorites/music/artists/we-the-kings]] | interests | — |
 | [[wiki/interests/favorites/music/artists/wiki]] | interests | — |
 | [[wiki/mind/concepts/contact-gini]] | mind | _(carries a REVISED from 2026-06-23)_ |
-| [[wiki/mind/synthesis/alias-as-periodization]] | mind | — |
 | [[wiki/people/danielle-onesi]] | people | — |
 | [[wiki/people/menore]] | people | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/places/424-bedford-ave]] | places | — |
@@ -487,7 +490,7 @@ simply listed.
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | — |
 | [[wiki/work/bfs-foods]] | work | — |
 
-## 2026-07-18 — 15 pages
+## 2026-07-18 — 14 pages
 
 - **Session log:** ingest | work+people | Gemini-_02 Au Za'atar storytime fully mined (50 approved data points); chats/gemini-02 page retired
 - **Session log:** build | meta | bin/llm-publish — public LLM access point (llm/) served by GitHub Pages
@@ -504,7 +507,6 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/golf]] | interests | — |
-| [[wiki/mind/synthesis/totality-themes]] | mind | _(carries a REVISED from 2026-07-15)_ |
 | [[wiki/people/anita]] | people | — |
 | [[wiki/people/brandon-hill]] | people | — |
 | [[wiki/people/manuel]] | people | — |

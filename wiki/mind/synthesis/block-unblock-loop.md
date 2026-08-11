@@ -52,8 +52,8 @@ connections:
     type: contains
     claim: "The inbound control case: Kristin's Dec 9 2025 block of Dan held permanently — the counterparty had no dependency running through the channel, so her severance was structural, not declarative."
   - page: wiki/people/rick-frank
-    type: contains
-    claim: "CORRECTED 2026-08-11: the held amputation is a single ~20-hour outbound window (Dec 2 evening–Dec 3 midday, 2015) — not the previously stated 12-day burst — followed by a decade of unanswered inbound (13 dated reaches 2025–26, verified against the per-number export) — the control case proving Dan's blocks hold precisely when nothing he needs still flows through the channel."
+    type: co-occurs
+    claim: "RETRACTED 2026-08-11: this page previously listed Rick as its cleanest held-block control case ('12-day burst, then a decade of unanswered inbound'), built on an incomplete per-contact export. The complete primary record shows the opposite — over 1,600 two-way messages 2015–2025 and real repair within weeks of the December 2015 friction — so this is no longer a control case for 'Dan can hold a family block indefinitely.' The real held silence is different and much more recent: total non-response from Dan since Feb 26, 2025, starting the day after Dan proposed a get-together Rick accepted."
   - page: wiki/timeline/events/march-2026-terminal-phase
     type: contains
     claim: "Carries the documented instance of Annie running the loop herself: threatens exposure, blocks, unblocks to send final lines, blocks again — the operation is bidirectional inside the bond."
@@ -107,21 +107,59 @@ documented at all.
 | [[wiki/people/annie-ulmer]] | 127 exit declarations, 2015–2026 | Attachment + (terminal phase) she needs his supply | 110 relapses (87%) |
 | [[wiki/people/tom]] 2014 | "I'm done… not doing this stupid fucking dance" (Sept 10) | Sole informal strip source | Reopened in 5 days ("yo looking to purchase") |
 | [[wiki/people/tom]] 2026 | Blocked May 18, unblocked same day with ultimatum | Still the only supply node | Reopened same day |
-| [[wiki/people/rick-frank]] | ~20-hour outbound window, Dec 2–3 2015, then dark (CORRECTED 2026-08-11, was "12-day burst") | None — no material or validating flow | Held a decade (13 unanswered reaches 2025–26, verified) |
+| [[wiki/people/rick-frank]] (RETRACTED, see below) | ~~Dec 2–3 2015, then dark for a decade~~ — false; see CORRECTED block | None claimed, but the underlying claim was wrong | Held for ~1 year, starting Feb 2025, not a decade |
 | May 2014 account | Migration burst, old account abandoned | None at the time | Held 8 years |
 | 2022 repatriation | — (the reverse operation) | Continuity value rediscovered | Deliberate, ramped return |
 | [[wiki/people/kristin]] (inbound) | She blocks Dan, Dec 9 2025 | She needed nothing from him | Held |
 | [[wiki/people/menore]] (control) | No block — farewell text, Feb 20 2025 | Dependency ended by geography | Clean close, no loop |
 | [[wiki/people/annie-ulmer]] 2026 | June 1 group-chat closure | Supply and money dead; [[wiki/people/milo]] still co-held | Held 52 days, then reopened |
 
-The two control rows carry the argument. Rick's amputation is the
-proof that Dan *can* hold a severance indefinitely — the capacity is
-not missing; it simply only operates where the dependency is already
-dead. And Menore is the proof of the converse: when a dependency ends
+> **RETRACTED 2026-08-11 — the Rick control row was built on an incomplete
+> source and its central claim is false.** This page (and `rick-frank.md`,
+> and `totality-themes.md`'s "Rick-file rhyme") described the Rick channel
+> as "a 12-day outbound burst in late 2015, then dark," treated as the
+> corpus's cleanest proof that Dan *can* hold a family severance
+> indefinitely once the dependency is dead. The claim traced back through
+> two layers of unverified sourcing: an AI dossier's original, never
+> primary-checked "12-day burst" figure, then this session's own
+> "verification" against `imessage_7243667777_both_all_now.csv` — a file
+> whose name claims completeness it doesn't have. The full primary dump
+> (`all_imessages_complete_dump.txt`) shows **over 1,600 two-way messages
+> across 2015–2025**, real repair within three weeks of the December 2015
+> friction, and a warm, high-volume correspondence through 2020 and again
+> in 2023–24. **Dan did not hold a decade-long block against Rick. He kept
+> re-engaging, repeatedly, for a decade.** Full corrected account on
+> `rick-frank.md`.
+>
+> What the corrected record actually shows is a *different*, much more
+> recent held silence: total non-response from Dan since February 26,
+> 2025 — about a year, not a decade — beginning the day after Dan himself
+> proposed a get-together and Rick agreed to it. That is a real data point
+> for this page, just not the one previously claimed, and it arrived after
+> physical proximity increased (Dan's move back to Uniontown) rather than
+> after a discrete rupture — which does not fit the "dependency ended, so
+> the block holds for free" mechanism this page argues for. It is left
+> here as an open case rather than forced into either column: the
+> corrected timeline does not currently supply a clean explanation for why
+> this particular silence is holding.
+>
+> **The load-bearing consequence: this page's claim that Dan's severance
+> *capacity* is proven — that he can hold a block indefinitely, just only
+> where nothing flows through the channel — no longer has a clean
+> supporting instance.** Menore remains a valid case for the *converse*
+> half of the argument (a dependency ending structurally needs no block at
+> all), but the corpus currently contains no verified case of Dan holding
+> a *long*, deliberate, decade-scale block against a person he once
+> depended on. This is recorded as a real gap in the argument, not
+> patched with a substitute example that hasn't been checked as carefully
+> as this one should have been the first time.
+
+Menore is the clearest surviving case: when a dependency ends
 structurally (the move to Pennsylvania), no block is needed at all —
 the record's only fully clean closure ("Thanks again for everythin.
 You guys are the best") is the one where the material need ended
-before the relationship did.
+before the relationship did (see its own RE-CHECKED caveat below —
+even this row is not as settled as first stated).
 
 ## Why the unblock is never an apology
 
@@ -199,13 +237,13 @@ an exhaustible Fe function.
   **The corrected rule: a block holds if and only if nothing either
   party still needs flows through the channel — and what is needed
   need not be material.** A shared attachment object counts. This is
-  not a softening; it makes the rule harder to satisfy, and it means
-  the two control rows have to be re-read. Rick's amputation held for a
-  decade not merely because no supply flowed, but because nothing was
-  co-held. Menore's clean close is the same story: a purely
-  transactional channel has nothing left in it once the transaction
-  ends. The severances that hold are the ones with nothing jointly
-  owned on the other side.
+  not a softening; it makes the rule harder to satisfy. It also means
+  the surviving control row has to be re-read on the same terms: Menore's
+  clean close fits it — a purely transactional channel has nothing left in
+  it once the transaction ends — but as the RETRACTED block above records,
+  the Rick row this paragraph originally paired it with never actually
+  supported the rule and has been removed from the argument rather than
+  patched to fit it.
 
   What the 52 days do establish, and should not be lost in the
   correction, is that **duration is not the variable.** Fifty-two days

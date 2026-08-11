@@ -5,7 +5,7 @@ knowledge: earned
 title: "The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox'"
 status: active
 date_created: 2026-08-10
-date_modified: 2026-08-10
+date_modified: 2026-08-11
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -176,3 +176,11 @@ corpus gestures at this) is untested here. And the prediction above has
 only been checked against two social-media sources in this pass; a
 fuller sweep of the message corpus and the AI chat exports for any
 counter-instance is future work.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/vertical-authority-skepticism]] moved the same day
+> to add a second candidate origin (a childhood pattern of public
+> confrontation and humiliation, dictated directly by Dan) alongside the
+> existing 2005 family rupture — an addition, not a replacement or
+> retraction of the 2005 claim this page draws on. This page's "psychological
+> disposition inherited from a 2005 family rupture" framing is unaffected.

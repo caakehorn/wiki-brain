@@ -8,11 +8,11 @@ date_created: 2026-06-23
 date_modified: 2026-08-11
 infobox:
   name: Rick Frank
-  status: Estranged
+  status: "Ongoing, warm-but-strained — currently one-sided (silence since Feb 2025)"
   relationship: Father of [[wiki/self/overview|Dan Frank]]
-  partner: "[[wiki/people/suzanne-frank|Suzanne Frank]] (estranged)"
+  partner: "Formerly [[wiki/people/suzanne-frank|Suzanne Frank]] (divorced ~2005); with Lisa Frank (surname per household use, unconfirmed if legally married) since at least Dec 2015"
   location: Uniontown, PA area
-  known_for: Paternal rejection; trauma source per [[wiki/mind/concepts/phenomenology-lens|phenomenology lens]]
+  known_for: Complicated father; source of the vertical-authority-distrust template per [[wiki/mind/synthesis/vertical-authority-skepticism]]
   relationship_to_dan: family
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -24,6 +24,7 @@ sources:
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/rickfrank_-wir6jjh_a/message_1.html"
   - raw/self/message-csv/imessage_7243667777_both_all_now.csv
   - raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv
+  - raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
   - page: wiki/legal/2015-possession-arrest
@@ -33,14 +34,14 @@ connections:
     type: evidenced-by
     claim: "The night of the April 2017 overdose is the corpus's only record of Rick having delivered a direct addiction warning to his son — Dan quotes it back to him verbatim: called over to Cross Creek and told that 'there is no turning back from opiates and heroin, that you lose a part of yourself and your ability to be happy.'"
   - page: wiki/mind/synthesis/block-unblock-loop
-    type: component-of
-    claim: "CORRECTED 2026-08-11: the Rick amputation is a single ~20-hour outbound window (Dec 2 evening–Dec 3 midday, 2015), not the previously stated 12-day burst, followed by a decade of unanswered inbound (13 dated reaches 2025–26, up from the prior figure of 12) — the loop's sharpest held-block control case, proving severance holds exactly where no dependency flows through the channel."
+    type: co-occurs
+    claim: "CORRECTED 2026-08-11: this was wrongly listed as the loop's cleanest held-block control case ('a 12-day burst, then a decade of unanswered inbound'), built on an incomplete per-contact export. The complete primary record shows the opposite of a held block — over 1,600 two-way messages 2015–2025, real repair after the December 2015 friction, and a warm correspondence through 2020 and again 2023–24. The real held silence is recent, dated, and different in shape: total one-sided silence from Dan since Feb 26, 2025, immediately after Dan himself proposed a get-together Rick accepted — a proximity-triggered withdrawal, not a decade-old amputation."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "Frank's Auto Supermarket is the money spine's paternal source-line — the anti-union 'kushy lives' engine Dan indicts in the Aug 22 2020 message, one day after his own estate distribution order was signed."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: causes
-    claim: "The 2005 concealed-reality template on the paternal line is the documented origin of the vertical-suspect pattern."
+    claim: "The 2005 concealed-reality template is one documented origin of the vertical-suspect pattern; a childhood pattern of public confrontation and humiliation over rule-adjacent 'moral' infractions (the Tan Calabrese/Angelfire incident, and — per Dan's own account and his aunt Wendy's independent read — a repeated practice of pulling Dan out of rooms at parties and events to scream at him where onlookers could still hear) predates it and is at least as load-bearing a candidate origin."
   - page: wiki/mind/concepts/attachment-model
     type: causes
     claim: "The 2005 rupture — a trusted primary figure maintaining a concealed alternate reality — is the template the attachment model replicates: the Annie decade re-ran verbal assurance over sustained concealment."
@@ -65,6 +66,12 @@ connections:
   - page: wiki/work/creative-license
     type: component-of
     claim: "Rick reviewed Dan's non-compete from the day the job started and, during the 2012 payroll dispute, switched registers entirely from brief/logistical to active tactical coach — 'You sound so desperate. That is what kevin wants. We'll talk about a strategy for this.' — the corpus's clearest instance of him operating as strategist rather than distant authority figure."
+  - page: wiki/people/lisa-frank
+    type: contains
+    claim: "Lisa has been Rick's partner and household co-anchor since at least December 2015 — a decade of continuous presence entirely absent from this page until the 2026-08-11 correspondence review, despite being named in the primary record dozens of times."
+  - page: wiki/people/tan-calabrese
+    type: co-occurs
+    claim: "Rick's confrontation of Tan over a harmless Angelfire site — conducted by humiliating Dan in front of him — cost Dan the friendship for months and is Dan's own example of the childhood control pattern; the friendship itself survived into the documented 2016–2020 message record, showing the rupture Rick caused was not permanent even though it was real."
 ---
 
 
@@ -75,11 +82,64 @@ Rick Frank (b. May 22, 1959, Uniontown PA) is Dan's father: owner of
 the household record), whose November 2005 rehab disclosure — delivered to
 17-year-old Dan in the car on the drive home from getting his learner's
 permit — is the single most load-bearing event in Dan's psychological
-record. The relationship since is periodic, low-intensity, and explicitly
-"complicated but not overly negative. Not hated" — but it is the origin of
-what the spine calls the **undischarged paternal-authority wound**, the
-template behind Dan's lifelong distrust of the vertical axis
-([[wiki/mind/synthesis/vertical-authority-skepticism]]).
+record. The relationship is genuinely complicated rather than simply
+distant: over a thousand primary messages across 2015–2025 show real
+repair, real shared grief, real financial-trust conflict, and real warmth
+(shared history podcasts, health-scare disclosures, "love you") alongside a
+documented childhood pattern of public confrontation and humiliation that
+Dan's own aunt names as the direct source of his present-day reluctance to
+be around his father. As of this pass, the relationship's *current* state
+is a real, dated, one-sided silence — not a decade-old one. See "The
+relationship, corrected" below for the record of how badly an earlier pass
+of this page got the shape of that silence wrong, and why it still matters
+that a wrong shape gets corrected rather than quietly patched.
+
+## Childhood: idiosyncratic control and public humiliation
+
+Dictated directly by Dan (2026-08-11, in the course of asking for a
+worldview/personality-mismatch deep dive on this relationship), and
+recorded in full at
+`raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md`.
+Dan's own framing: "he was idiosyncratic in his control, which he used to
+facilitate a strictness in both the psychic and moral sense, as well as the
+legal and tangible sense."
+
+**The Tan Calabrese / Angelfire incident.** [[wiki/people/tan-calabrese|Tan
+Calabrese]] — a childhood friend, later a corpus contact from 2016–2020 —
+once made an Angelfire website mocking his older brother's girlfriend. Rick
+found "this stupid harmless site" in the family browser history and took it
+as his own duty to act on it: he confronted Tan directly and humiliated Dan
+in the process, over something Dan is explicit carried "no technical
+deviance from the rules as we commonly understand them" — Tan had, in
+Dan's words, "run afoul of the spirit of the rule making institution
+itself" and been served "a very 90s kind of paternal vigilante justice."
+The result: "oh my god i got absolutely bodied and tan wouldn't hang out
+with me for months because of that." (The friendship was not permanently
+destroyed — Tan reappears as an active contact in the 2016–2020 message
+corpus, so whatever the rupture cost, it was recovered from; see
+[[wiki/people/tan-calabrese]].)
+
+**The pattern Dan calls "the ubiquitous example."** More significant than
+any single incident, per Dan, is a repeated behavior: "At parties, social
+events, in stores, anywhere in public but also at private functions if
+there was even the slightest issue with something i had done or any matter
+for address he would not wait until after but rather he would take me out
+of the room with everyone watching and SCREAM at me, often times loud
+enough that the people who had watched me leave could hear this seconds
+later." Dan names his aunt **Wendy** (Rick's sister) as the person who
+already holds this theory of his reluctance — independent of anything Dan
+has said to me. Dan's own assessment of whether to include this at all is
+worth preserving rather than resolving for him: "while i certainly
+recognize that as like really shitty and cruel thing to do to a little kid
+i'm not quite sure that it was something that would be relevant or helpful
+to talk about as being a helpful focus even if it was true." It is
+recorded here because it is exactly the kind of primary, dated, named-source
+testimony this page is supposed to hold, whether or not it turns out to be
+the load-bearing explanation.
+
+Dan explicitly asked that his mother Suz's version of events **not** be
+solicited or inferred alongside this — noted so a future pass does not
+assume the omission is an oversight.
 
 ## The 2005 hinge, from his side
 
@@ -115,10 +175,10 @@ unknown — flagged for future ingest.
 
 ## Funding the exit: NYC, 2010
 
-The single largest act of paternal support on record predates the sparse,
-periodic register the rest of this page describes. On **February 18, 2010**
-— four days before Dan's 22nd birthday — Rick met his son in Pittsburgh and
-the two boarded an Amtrak train together bound for New York, then spent the
+The single largest act of paternal support on record predates the register
+the rest of this page describes. On **February 18, 2010** — four days
+before Dan's 22nd birthday — Rick met his son in Pittsburgh and the two
+boarded an Amtrak train together bound for New York, then spent the
 following months apartment-hunting; by June, Dan had a lease at
 [[wiki/places/424-bedford-ave|424 Bedford Ave]] in Williamsburg. The
 Gemini-58 reconstruction dates the offer that made this possible to the same
@@ -137,144 +197,241 @@ later, when Dan sent a workplace email he worried had been too aggressive
 response was uncomplicated support: "It doesn't seem like an aggressive
 reply from you... I'm proud of you, boy!"
 
-## The relationship on the record
+## Lisa, Syd, and the household since 2015
 
-**The single most consequential exchange in the corpus was, until this pass,
-undocumented on this page: the December 2–16, 2015 rupture**, recovered
-complete and two-sided from `imessage_7243667777_both_all_now.csv` — the one
-export in the corpus carrying both Rick's and Dan's messages on this specific
-channel, all time. It turns the vague "brief and logistical, financially
-withholding" profile-dossier read into a dated, specific mechanism, and it is
-the strongest available answer to why contact with Rick reads as a "loudest
-silence" now rather than active anger.
+Rick has had a partner named **Lisa** continuously since at least
+**December 27, 2015** ("We're gonna watch the game & have some nachos &
+cheese if u want to come over to Lisa's") — a decade of presence that was
+entirely absent from this page until this pass, despite Lisa appearing by
+name dozens of times in the primary record: a teacher ("Lisa was thinking
+5–6," "Lisa is really under the weather," "Lisa is teaching online" during
+2020 COVID lockdown), a fixture of family invitations Dan is repeatedly
+asked to extend to ("do u and Lisa have any interest in going," 2018 and
+2024), present at a household with **Syd** (a birthday-cookout host in June
+2018 — "ribs corn & sides" — relationship to Lisa/Rick unconfirmed, likely
+her child) as recently as an October 2024 message ("Were Lisa and Syd with
+us?"). One 2023 message ("Other than the wedding & reception will I see
+you?") raises the unconfirmed possibility that a Frank/Lisa wedding
+happened around September 2023 — eight years into the relationship — but
+this is not stated plainly anywhere in the corpus and is flagged as a gap,
+not a fact. This household — Rick, Lisa, and Syd — is very likely who the
+operator means by "his new wife" in the register-mismatch discussion below;
+nothing in the corpus suggests Lisa is anyone other than the same partner
+who has been present the entire time this page previously described as
+"estranged."
 
-**The sequence.** On the afternoon of December 2, 2015 — three days into
-what would become the [[wiki/people/annie-ulmer|Annie]] relationship — Dan
-texted Rick "Gonna call you in a little bit. I have some news and I think
-you will be very very happy." Four hours later the news collapsed:
-"Nevermind. There's no good news." Rick's reply, reasonable on its face —
-"Not everything call has to be amazing news. Can u talk now?" — met a raw
-refusal: "No I can't. I don't know who it was that said something but that
-was enough to fuck the whole thing up." Late that night, unprompted, Dan
-volunteered what had actually happened, in the most vulnerable message to
-Rick on record: Annie's parents "finding out the way they did" and Dan's own
-"bad reputation" were "enough for them to squash it" — he'd left
-[[wiki/people/alexis-armel|Alexis]] within a week of meeting Annie, it
-mattered enough that he'd already "got a job" and "quit smoking" because of
-it, and he was planning to write Annie's parents a letter asking permission.
-(This is the same night `annie-ulmer.md` dates from Annie's side — "I'm
-really really scared that you won't want this anymore" — previously
-documented there only as a bare date with no context for what the fear was
-about; a parental veto attempt on the relationship's fourth day, not yet
-recorded anywhere, now is.)
+## The relationship, corrected: warm, high-volume, and asymmetric rather than silent
 
-Rick's response to that disclosure was support, not judgment — "Call me
-tomorrow. If u want, I can help u work thru this" — and the next eleven days
-are an unbroken run of Rick reaching out: an invitation to "stop by," a
-request to "give me an approx time," an apology for "misfires," a
-chicken-and-pretzels invite on the 12th. On December 13, Dan initiated
-once — "Hey what's your day look like" — got an immediate, itemized reply
-(errands, the Steelers, a retirement dinner, "What yinz up to?"), then went
-quiet for the rest of the day. Rick followed up twice more that afternoon:
-"Hello?" and, at 3:46pm, **"Yeah I get blown off again."** Three days later —
-preserved only in the separate `all_imessages_complete_dump.txt` export, not
-the per-number CSV — it escalates once more: **"I guess that u don't need me
-anymore so I get kicked to the curb."**
+> **CORRECTED 2026-08-11 — the prior version of this section was wrong, not
+> just incomplete, and the error is recorded rather than quietly fixed.** An
+> earlier pass this same day built an entire narrative — "the loudest
+> silence," a "held-block control case," "that is the last message Dan ever
+> sent to this number" — on `imessage_7243667777_both_all_now.csv`, a file
+> whose name claims "all time" but which turned out to hold only 43 of the
+> channel's true **1,600+ messages**. A routine cross-check while chasing
+> the operator's follow-up question (why does time with Rick and Lisa
+> produce dread rather than anger) found a sent message dated 2024-08-06 in
+> the full `all_imessages_complete_dump.txt` — a file the wrongly-confident
+> pass never re-checked against, because it had already decided the
+> question was settled. Re-pulling the complete two-sided record for
+> +17243667777 from the full dump changes nearly every quantitative claim
+> the prior version made. This is now flagged in `EXTRACTION_SPEC.md`
+> itself: a per-contact export claiming "all time" is a claim to verify,
+> not a claim to trust, and the fix is the same discipline that was already
+> written down for the general dumps — cross-check against the largest
+> available source before asserting completeness.
 
-**That is the last message Dan ever sent to this number.** The per-number
-export contains no further outbound message from Dan through a decade and
-dozens of inbound texts from Rick: a missed family gathering (April 2017),
-"Thank u... Have fun" (Nov 2019), a gap of over five years, then a
-2025–26 tail of thirteen dated, unanswered reaches — "What's going on?"
-(Aug 13), two photo attachments with no caption (Aug 19, Aug 23), "When is a
-good time to get together? You can fill me in on what you've been up to"
-(Sep 8), "What are you up to?" (Oct 9), a Halloween check-in (Oct 31), two
-birthday messages the same day (Nov 1), **"Is there some reason that I'm in
-timeout?"** (Nov 10), "How are you doing?" (Nov 16), **"Have you been a good
-boy this year? Santa's watching!"** (Dec 10), a note that his old ski boots
-are "still hanging around if you get the urge to shred the slopes" (Dec 22),
-and an unprompted political question, "Do you think the ultra wealthy should
-be taxed in NYC?" (Jan 1, 2026) — this list supersedes the previously cited
-"twelve unanswered reaches" with the verified count of thirteen.
+**What actually happened in December 2015 — real, but resolved in weeks,
+not a decade-long rupture.** The Dec 2–16, 2015 exchange this page
+previously centered its whole "estrangement" narrative on did happen as
+quoted: Dan's collapsed "good news" (about the four-day-old
+[[wiki/people/annie-ulmer|Annie]] relationship, and Annie's parents'
+attempt to "squash it" over his "bad reputation"), Rick's escalating "Yeah I
+get blown off again" and "I guess that u don't need me anymore so I get
+kicked to the curb." But the full record shows **Dan replied the same
+day** ("Not sure what that means or how I've kicked you to the curb," Dec
+16, 12:06pm — not documented in the prior version at all), the exchange
+continued through Dec 17 and Dec 19 (Dan reporting real progress with
+Annie's family: "I've hung out with both Claire and Will and they both
+approve. Also making (more gradual) progress with Bill and Ellen"), and by
+**December 25 and 27** Rick is inviting Dan to Christmas dinner and to
+watch a game at Lisa's, and Dan is actively participating ("Oh cool! What
+time is the game"). The friction was real and the "kicked to the curb"
+line is a genuine, ugly moment — but it resolved inside three weeks, not
+never.
 
-**Read as a mechanism rather than a mood, the pattern is exact.** Every
-inbound message either requests a scheduled commitment ("give me an approx
-time," the repeated "what are you up to" checks, an itemized-schedule reply
-that functions as an implicit demand for Dan's own itinerary in return) or
-frames Dan's non-response as a personal verdict on Rick specifically:
-"blown off," "kicked to the curb," "in timeout," "good boy... Santa's
-watching." None of it reads angry; all of it assumes rejection before
-rejection is confirmed, and all of it treats ordinary social contact — chicken,
-pretzels, skiing, hockey — as something owed an accounting or a check-in, a
-supervisory register laid over invitations that are otherwise completely
-mundane. Dan's own side of the channel, by contrast — the handful of
-substantive outbound messages that exist across the whole decade (the Dec 2
-apology, the April 2017 addiction-talk reply below) — is direct, unguarded,
-and non-defensive; nothing in the record shows Dan initiating a guilt appeal
-or a scheduling demand toward Rick. **The asymmetry is not a mood, it is
-what the primary record contains:** one side treats contact as a reporting
-obligation and reads silence as personal abandonment; the other side went
-quiet once, over one bad night in 2015, and never broke that silence again,
-while the check-ins kept arriving in a register that makes re-opening the
-channel feel like walking back into a supervision structure rather than a
-conversation.
+**2016–2020: an actual relationship, not silence.** The corrected record
+shows 1,177 messages across these five years (448 in 2016 and 512 in 2017
+alone), roughly balanced in direction. It includes:
+- **Years of caddying-career updates** from Dan — loop details, PGA event
+  logistics, tournament results, a running joke about breaking 80 — that
+  Rick tracked closely and Dan volunteered unprompted.
+- **A real financial-trust wound, named directly by both sides (Jan–Apr
+  2018).** When Dan asked for help navigating health insurance paperwork,
+  Rick's reply carried genuine hurt: *"I don't feel that u respect or
+  value my opinion... I would rather u let me be father than protector,
+  but u don't. I'm tired of u treating me... like Rod Banks or Fred Adams
+  [family financial/legal advisors]. U make it a point to keep me out of
+  ur life."* Dan's later self-description of the same dynamic — being in
+  the "advisor zone rather than the dad zone" — is Rick's own phrase,
+  reflected back. The wound resurfaces in April 2018 over tax paperwork,
+  where Dan, defending Rick against a comment from **Aunt Wendy** implying
+  Rick couldn't be trusted with his money, writes "fuck wendy, it wouldn't
+  matter if i didn't ever see her again" and "i've never ever ever thought
+  or accused you of anything like that... you've looked out for me 100% of
+  the time." This is the same Wendy named independently, above, as the
+  person who already has a theory about why Dan is reluctant around Rick —
+  she appears twice in unrelated contexts, which is worth keeping in mind
+  if her account is ever sought directly.
+- **[[wiki/people/fran-coldren|Fran]]'s death vigil, April 2018, told to
+  Rick in real time.** Dan narrated his great-grandmother's decline and
+  death to Rick message by message over four days — the source, in fact,
+  of the "90 seconds of consciousness... most human experience I've ever
+  been through" line already documented elsewhere in the corpus. Rick's
+  replies are simple and present ("Thinking about u. Hang in there"; "I'm
+  around all day tomorrow. U can come over anytime u want"), and Dan
+  explicitly credits him: "Jsyk— it makes me feel good that u reach out to
+  me... I think ur doing a great job in an incredibly emotional
+  situation," Rick tells Dan, and Dan later writes "one thing that kept me
+  going through this was how well i remember you leaving to go see pap pap
+  on the night he passed away."
+- **2019–2020: continued warmth, including COVID.** Rick checks in during
+  the March 2020 lockdown ("How r u doing? R u hunkered down?"); Dan's
+  reply is long, candid, and vulnerable about the pandemic's economic fear
+  — not the brief, guarded register the prior version of this page
+  described as the whole relationship.
 
-Another well-documented exchange is the morning of Dan's ARD hearing
-(February 17, 2016 —
-[[wiki/legal/2015-possession-arrest]]): Rick wanted to attend and talked
-himself out of it — "You're obviously more comfortable with your mom. She's
-pretty well connected & I bet she knows the Judge also... I don't want to
-be responsible for screwing anything up for you. Give me a buzz later & let
-me know the good news" — followed by "Texting is way too much work to have
-a conversation. My head hurts!!!" and "I love you." The profile sources
-characterize the standing dynamic the same way: Rick's messages brief and
-logistical, Dan's long and validation-seeking, "reinforcing fears of
-worthlessness tied to financial dependence." A recovered Facebook Messenger
-thread (2010–2015, Rick's outgoing side only — Dan's replies were not
-preserved in the export) confirms that register at scale: unadorned
-invitations and check-ins — skiing (Jan 22 and 29, 2015), a wedding (Aug
-2014), Kennywood (missed, Aug 2014), a hockey game (Jun 2013), "how are
-yunz doing? give me a buzz when you get a chance" (Jun 2013) — with no
-emotional content beyond the logistics themselves. Other documented
-touchpoints in the same vein: hockey tickets, pet inquiries.
+**2021–2022: near-total silence — but this matches a corpus-wide pattern,
+not a Rick-specific one.** The channel goes almost silent (21 messages
+combined across both years, against hundreds per year before), consistent
+with the broader, already-documented 2021–2022 near-silence across Dan's
+entire message corpus (`CONTEXT_CORE_EXPANDED.md` §6: "uncharacterized; do
+not speculate"). Nothing in the Rick channel specifically explains this
+gap; it should be read as an instance of the general pattern, not a
+separate rupture.
 
-That same thread also contains the one register the profile summaries
-don't capture: **impatient, parent-to-adult-child insistence when Rick
-wants something handled.** "Enough bullshit. Call me ASAP!" (Dec 13, 2012),
-"Call me now!" (Sep 11, 2012), and, sharpest of all, over a landlord
-matter — "You think I'm fucking kidding about sending me that information
-about the landlord? I want it ASAP" (Feb 15, 2013). None of these resolve
-to a documented outcome; they sit as a texture rather than an event. The
-same register shows up with more constructive intent during
-[[wiki/work/creative-license|Dan's 2012 payroll dispute]] with Creative
-License, where Rick was consulted on Dan's employment paperwork from the
-very start of the job (forwarded Dan's own non-compete the day it arrived,
-May 2011) and, once the dispute over a withheld W-2 and a disputed $104
-paycheck deduction escalated, switched from logistical to strategic: "You
-sound so desperate. That is what kevin wants. We'll talk about a
-strategy for this." It is the corpus's clearest instance of Rick operating
-as tactical coach rather than the brief, arm's-length figure the rest of
-the record shows — brief and logistical is the modal register, not the
-only one, and it shifts toward engaged and directive exactly when Dan is
-in a fight with an outside authority rather than asking for emotional
-validation.
+**2023–2024: real resumption, genuinely warm at points.** 44 messages in
+2023 (including the still-unresolved "wedding" thread, above), 130 in
+2024. The 2024 stretch is some of the warmest material in the whole
+record: Rick sends Dan a full **Hardcore History podcast** recommendation
+and a **Julius Caesar YouTube documentary series**, unprompted; Dan's
+uptake is genuine — "by the way — it's your fault for exposing me to talk
+radio and consequently making me the kind of weirdo who gets excited for
+something like a 25 hour long podcast lol" — and the two trade detailed
+messages about WWI infantry tactics and Roman history. Health scares are
+shared candidly and immediately in both directions during this stretch as
+well (see "The register" below for what this content says about the
+actual cultural overlap between them).
 
-A fourth register — neither logistical, guilt-laden, nor strategic-coaching
-but the two men talking about the thing they actually have in common — runs
-on the evening
-of **April 11, 2017**, and it is the closest thing on record to that
-conversation. Dan told Rick that a friend had died of an overdose that day
-([[wiki/people/jay-lauer|Jay Lauer]]), described his own failed attempt to
-route Jay onto Suboxone, and then answered his father by quoting his father
-back at him: "I still remember the conversation where u called me over to
-cross creek and told me that there is no turning back from opiates and
-heroin, that you lose a part of yourself and your ability to be happy." That
-is the corpus's only record of Rick delivering a direct addiction warning to
-his son, and it survives only because Dan repeated it on the day somebody
-else's death confirmed it. Rick's reply is characteristically brief and, for
-once, exactly right: "U did the best that u could do... That's probably not
-enough but better than not doing anything." Four hours later Dan is telling
-him about getting his first customer feedback of the caddie season.
+**February 2025 to the present: a real, one-sided, dated silence — the
+thing actually worth naming.** Dan moved back to Uniontown / 337 Saratoga
+Drive on **February 22, 2025**. On **February 25, 2025**, Dan sent Rick
+what is — as far as the corpus currently runs — **his last message to this
+number**: *"We did made it back safely but it's been a weird and not fun
+transition. Is there a night this week or weekend you are free? Annie said
+she would like to come also."* Rick agreed the next day: "Sure. I'd like
+to get together with you." **What followed is a full year of Rick trying
+to schedule the dinner Dan himself proposed, and getting no reply at all**
+— "Are you ok?" / "What are you up to?" / "How are you doing?" / "Do you
+want to do something for dinner tomorrow night?" / "What's going on on
+Saratoga Drive?" (March 2025); real health disclosures met with silence —
+a TIA scare requiring an overnight hospital stay (Nov 28, 2024, technically
+just before the cutoff but part of the same unanswered run), a heart
+catheterization (April 3, 2025), a capsule endoscopy (April 22, 2025); then
+into a documented **thirteen-message tail from Aug 2025 through Jan 1,
+2026** (recovered separately, since the main dump does not extend past
+July 30, 2025) with **zero replies from Dan**: "What's going on?," two
+uncaptioned photo attachments, "When is a good time to get together? You
+can fill me in on what you've been up to," a Halloween check-in, two
+birthday messages on the same day, **"Is there some reason that I'm in
+timeout?"**, "How are you doing?," **"Have you been a good boy this year?
+Santa's watching!"**, an offer of his old ski boots, and an unprompted
+political question about NYC taxation.
+
+**This is the actual finding, correctly stated: not a decade-long
+amputation, but roughly a year (and counting, as of the corpus's current
+coverage) of total non-response starting the moment physical proximity
+returned** — Dan moved back to the same town, immediately proposed seeing
+Rick, got a yes, and then never followed through or answered again. Read
+as a mechanism: every one of Rick's messages in this window either asks
+for a scheduled commitment or, twice, frames the silence as a personal
+verdict on him ("timeout," "good boy... Santa's watching") — the same
+supervisory-adjacent register the (mis-scoped) prior analysis correctly
+identified in the texture, just wrongly dated to the wrong decade.
+
+Two more registers are worth keeping on the record. The morning of Dan's
+ARD hearing (February 17, 2016 —
+[[wiki/legal/2015-possession-arrest]]) produced Rick talking himself out of
+attending — "You're obviously more comfortable with your mom. She's pretty
+well connected & I bet she knows the Judge also... Give me a buzz later &
+let me know the good news" — followed by "I love you." And a Facebook
+Messenger thread (2010–2015, Rick's side only) shows an impatient,
+parent-to-adult-child register when Rick wants something handled: "Enough
+bullshit. Call me ASAP!" (Dec 2012), "You think I'm fucking kidding about
+sending me that information about the landlord? I want it ASAP" (Feb
+2013) — texture, not resolved events. During
+[[wiki/work/creative-license|Dan's 2012 payroll dispute]] the same
+impatience turned constructive: "You sound so desperate. That is what
+kevin wants. We'll talk about a strategy for this." And on the evening of
+**April 11, 2017**, the two men had the closest thing on record to talking
+about the thing they actually have in common: Dan told Rick a friend
+([[wiki/people/jay-lauer|Jay Lauer]]) had died of an overdose that day and
+quoted his father's own addiction warning back at him — "I still remember
+the conversation where u called me over to cross creek and told me that
+there is no turning back from opiates and heroin, that you lose a part of
+yourself and your ability to be happy." Rick's reply: "U did the best that
+u could do... That's probably not enough but better than not doing
+anything."
+
+## The register: golf, Steelers, and the shape of the overlap
+
+The operator's own framing of the current-day dread — not hostility, but a
+sense that the acceptable range of conversation with Rick and Lisa sits in
+a narrow band of high school football, Pittsburgh-regional media, and
+Steelers/golf small talk, and a fear of the "cringe level" rather than of
+conflict — is well supported by the corrected record, with one important
+complication.
+
+**The regional/sports register is real and constant.** Across the full
+decade Rick's messages are steadily seeded with it: "watch the Steelers,"
+"How r u doing? Do u want to go to the Steelers game tomorrow?," "Watching
+golf?," "have y0u played any golf since you've been back," "Yinz doing
+okay?," "Bet you don't see this in the big apple" (a car-culture video),
+"Lisa's suv had these. Called puddle lights," photos "From my buddy Niel
+Van Beek." "yinz," "yunz," and Pittsburgh place-names ("Pittsburgh st,"
+"UT" for Uniontown) run through nearly every message. And Dan himself, in
+2024, reached for exactly this register as a self-aware joke rather than a
+straight description — texting Rick a 2024 VP-candidate meme with "You
+oughta love this guy! High school football, auto parts. That's how you win
+Pennsylvania lol" — which shows the stereotype is not invented; Dan has it
+loaded and ready as shorthand for his father's world, and uses it
+knowingly.
+
+**But the record complicates the stereotype rather than confirming it
+cleanly.** The same 2024 stretch that carries the football/golf/Steelers
+material also carries Rick unprompted sending a 25-hour history podcast and
+a multi-part Julius Caesar documentary series — a direct hit on Dan's own,
+separately documented "Roman Republic deep interest" (`CONTEXT_CORE_EXPANDED.md`
+§7) — and Dan's uptake was not polite tolerance, it was genuine ("the kind
+of weirdo who gets excited for something like a 25 hour long podcast").
+Rick also engages Dan's own political material seriously, if from a
+different angle: reacting to a VP pick with "I didn't think that Vp running
+mates mattered in Pres election," or asking in December 2024, apropos of
+nothing, "How do you NYC neighbors feel about the Daniel Penny trial?" —
+genuine curiosity about Dan's world, not deflection into football. **The
+mismatch is not that there is no shared register at all; it is that the
+shared register (history, some politics) is buried inside, and has to be
+excavated from, a much larger volume of small-town-local, sports-and-golf,
+regionally-coded material that dominates by sheer frequency** — and that
+this is compounded by the childhood pattern above, where the cost of
+misjudging what counted as a "matter for address" was public humiliation,
+not private correction. That combination — a narrow, unpredictable
+tolerance band historically enforced in public, layered under a
+genuinely-shared but numerically minor intellectual register, inside a
+folksy, sports-saturated, high-frequency communication style — is a more
+precise, better-evidenced account of "the loudest silence... all fun must
+be approved by management" than either "he's just a football-and-golf guy"
+or "we have nothing in common" would be on their own.
 
 ## Family position
 
@@ -284,19 +441,16 @@ Episcopalian himself ([[wiki/self/ancestry]]). One of the four documented
 generations of functional alcoholism. Multiple Uniontown residences on
 record through 1989–2002; current address unconfirmed.
 
-**Gaps (several flagged in CATO itself):** current relationship detail
-"beyond complicated but not negative"; the Ford trademark litigation
+**Gaps (several flagged in CATO itself):** the Ford trademark litigation
 outcome; whether the business still exists or when it was sold; his side of
-the 2005 events is entirely unrecorded — everything here is Dan's corpus.
-What resolved the "nyc deal is off" scare of February 22, 2010 is unrecorded
-— the move went ahead four months later, but nothing documents how the
-near-collapse was fixed. The Facebook Messenger thread preserves only Rick's
-outgoing messages, not Dan's replies, so its texture (invitations, terse
-insistence) is one-sided by construction — a corroborating source with
-Dan's side would settle whether the "fucking kidding" landlord message
-(Feb 2013) was ever actually resolved and how Dan received it. What
-Annie's parents actually objected to, beyond "the way they did" finding
-out and Dan's "bad reputation" (Dec 2, 2015), is unrecorded — no letter to
-them survives in the corpus, and whether one was ever sent is unknown. The
-two photo attachments in the 2025 tail (Aug 19, Aug 23) were not decoded
-for this pass — their content could matter and is worth a targeted look.
+the 2005 events, the Tan Calabrese incident, and every instance of the
+childhood public-humiliation pattern is entirely unrecorded from his own
+perspective — everything on this page is Dan's corpus. Whether the
+September 2023 "wedding & reception" was Rick and Lisa's own is unconfirmed.
+Syd's exact relationship to Lisa (and to Rick) is unconfirmed. What
+resolved the "nyc deal is off" scare of February 22, 2010 is unrecorded.
+The two photo attachments in the Aug 2025 tail were not decoded for this
+pass. Most importantly: **whether Dan has replied to Rick at all since
+February 26, 2025 is a claim about the corpus's current coverage, not a
+claim that he never will** — the record simply ends there, and a future
+pass should re-pull both sources before restating this finding.

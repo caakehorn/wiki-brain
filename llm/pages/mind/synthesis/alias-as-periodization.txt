@@ -5,7 +5,7 @@ title: "The Alias Is a Clock, Not a Style"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-08-11
 date_range_start: 2013-01-01
 date_range_end:
 synthesizes:
@@ -121,3 +121,10 @@ a period ended, the alias record was not written to persuade anyone.
   context-core measurement and is repeated by the alias pages rather than
   independently re-measured per alias. The invariant is asserted three times
   from one source, which is weaker than three measurements.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/totality-themes]] moved the same day to retract a
+> false "Rick-file rhyme" comparison and downgrade a domain-crossing
+> confirmation about the May 2014 account migration. This page's dependency
+> is only on the generic "alias churn is one instrument of the totality
+> pattern" claim, which neither edit touched. Nothing here needed revising.
