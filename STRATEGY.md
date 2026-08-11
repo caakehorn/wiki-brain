@@ -50,7 +50,7 @@ So the standing instruction is **longer, denser, more exhaustive entries**, and 
 
 This is not hoarding. A detail's value is not its own significance, which is assigned later by the climb; it is the **surface area** it adds for the next climb to land on. The detail that looks meaningless at extraction time is exactly the one that turns out to be the third instance of a shape — and it can only do that if it is on a page. Page-size warnings are advisory and never a reason to drop content.
 
-`EXTRACTION_SPEC.md` is the full doctrine: the seven moves, the source tiers, and the per-source traps that fail silently.
+`EXTRACTION_SPEC.md` is the full doctrine: the eight moves, the source tiers, and the per-source traps that fail silently.
 
 ## Why altitude matters
 

@@ -6,6 +6,13 @@
 
 ---
 
+### [2026-08-11] - Session (continued again): EXTRACTION_SPEC.md doctrine update — two new moves generalized from the Rick pass
+* **Model:** Claude Sonnet 5 (Claude Code, remote) · **Branch:** same `claude/rick-correspondence-review-rb6mx2`
+* **Trigger:** Operator, after the Annie-parents finding landed: "think about how that happened and if we can optimize to do more of that."
+* **What changed:** `EXTRACTION_SPEC.md` gained (1) a new trap entry naming per-contact `imessage_<number>_both_all_now.csv` exports as a distinct, easily-overlooked source category — check `raw/self/message-csv/` for every known number before writing/revising a message-based person page; (2) an extension to the contact-identity trap covering quote attribution (trace a dossier's paraphrased quote to its number before attributing it to anyone); (3) a new **Move 8, "Follow a dangling citation into someone else's channel"** — a dated-but-unexplained quote on any page is an open lead, chase it by date across other people's channels. Heading renamed `## The seven moves` → `## The eight moves`; `STRATEGY.md` and `INGEST_RUNBOOK.md` cross-references updated to match.
+* **Gates:** wiki-lint 450 pages / 0 errors · wiki-connect check 0 errors / 216 warnings · wiki-climb check 450 pages, 23 with `synthesizes:`, 0 errors, 0 warnings (doctrine-only change, no wiki/ pages touched, no cascade).
+* **RESUME POINT:** the new per-contact-CSV check has not been retroactively run against existing person pages — that's a `BACKLOG.md`-scale sweep, not something to do under time pressure. Worth queuing if a future session wants a systematic pass.
+
 ### [2026-08-11] - Session (continued): the December 2015 Rick rupture, recovered two-sided and verbatim
 * **Model:** Claude Sonnet 5 (Claude Code, remote)
 * **Branch:** `claude/rick-correspondence-review-rb6mx2` (the prior PR #102 from this session's first half was merged before this continuation; branch reset to `origin/main` before starting this round, per the merged-PR restart protocol)

@@ -85,7 +85,7 @@ All at repo root. Each says what it wins on when two disagree.
    at the end of every session** with what you did and the exact next focus.
 2. **`EXTRACTION_SPEC.md`** — how deep to go into a source before writing. This
    is the binding constraint on the whole project and the most important file for
-   an ingest pass specifically: the seven moves, primary vs AI-secondary source
+   an ingest pass specifically: the eight moves, primary vs AI-secondary source
    tiers, and the per-source traps that fail *silently*. Wins on depth.
 3. **`LLM_HANDOFF.md`** — cross-model coordination. Current state and what the
    last several sessions did. You MUST append to it at session end.

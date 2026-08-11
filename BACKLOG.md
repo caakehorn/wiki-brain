@@ -33,6 +33,7 @@ rough expected-value order.
   retrospective. Blocks are keyed `Subject: Chat with <name>`, unsorted, and
   mostly undated (43 of 495 in the read slice carried a `Date:` header), so
   report sample ranges rather than spans.
+- **Per-contact CSV sweep.** `raw/self/message-csv/imessage_<number>_both_all_now.csv` files exist per phone number and are the most complete two-sided record of individual relationships in the corpus, but no systematic check has been run for which person pages are missing theirs. The 2026-08-11 Rick pass found one (`imessage_7243667777_both_all_now.csv`) that had never been cited anywhere and that reversed a standing figure three pages had been carrying forward from an AI dossier. `ls raw/self/message-csv/*_both_all_now.csv`, resolve each number against a person page, and check it against that page's `sources:` list. See `EXTRACTION_SPEC.md`'s "Traps by source type" for the check to run per-page going forward.
 - **Behavioural mining over lexical.** What Dan *did* while unobserved —
   latency, initiation, abandonment, escalation, time-of-day. `contact-gini` and
   `message-circadian-latency` are the model and the corpus's strongest findings.

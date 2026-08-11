@@ -79,7 +79,7 @@ Concretely, a source is exhausted when you can answer all of these:
 If any answer is "I did not check," the source is not read. Say so in the log
 rather than claiming the ingest.
 
-## The seven moves
+## The eight moves
 
 These are the operations that produce depth. They are listed in the order they
 tend to pay off, not the order you must run them.
@@ -191,6 +191,29 @@ into something.
 When in doubt, write it down. The page budget is not a reason to drop a detail
 (`STYLE_GUIDE.md`, substance rule 4).
 
+### 8. Follow a dangling citation into someone else's channel
+
+A page will sometimes cite a dated quote as evidence for *when* something
+happened without ever saying *why* — a precise date, a raw emotional line,
+and no cause attached. That gap is not always a limit of the source; it is
+often a sign that the cause was said to a **different person, on a different
+channel**, and nobody has cross-referenced the date yet. When a page states a
+fact and dates it precisely but cannot explain it, search that exact date
+across every other channel the corpus has for the people involved — not only
+the subject's own words to the person the page is about.
+
+`annie-ulmer.md` carried "I'm really really scared that you won't want this
+anymore," dated December 2, 2015, for weeks with no explanation attached. The
+explanation was sitting four hours later that same night, in a message to a
+different person entirely — Dan's father — and surfaced only once that
+channel was read to exhaustion for an unrelated reason (move 8 as an accident,
+not a plan). Once found, it had to be written back to *both* pages: the page
+whose gap it filled, and the page whose channel it was found in
+(`EXTRACTION_SPEC` move 3 plus `CLAUDE.md`'s write-back rule, chained). Treat
+every dated-but-unexplained quote on any page as an open lead, not a finished
+fact — and when reading any channel to exhaustion, watch specifically for
+lines that date-match a gap already flagged elsewhere in the wiki.
+
 ## Source tiers — and the laundering failure
 
 `raw/` mixes two kinds of evidence and conflating them is how false claims get
@@ -243,11 +266,38 @@ built on it describes a one-sided thread that is not one-sided; the tell is a
 page reporting "all received (export artifact)". **Any claim about what Dan said
 must come from the dump.**
 
+**Per-contact `imessage_<number>_both_all_now.csv` exports** —
+`raw/self/message-csv/` holds dozens of these, one per phone number, each
+carrying *both* directions for that single contact, all time. They are easy to
+walk past because the filename is a phone number, not a name, and because the
+general dumps already look like they cover the same ground. They usually
+don't: the general dumps are one-sided-by-artifact or missing whole years
+(2022 and 2026 absent from the iMessage dump; nearly everything marked
+`Received` in the master CSV), while a per-contact export is often the single
+most complete, most authoritative record of one specific relationship in the
+whole corpus — frequently under 50 lines, cheap to read to full exhaustion in
+one pass, and the only place a relationship's real shape (who initiates, who
+goes quiet, the actual last message either side ever sent) is directly visible
+rather than inferred from a dossier's paraphrase. Before writing or revising
+any person page with message-based content, check
+`ls raw/self/message-csv/ | grep <every known number for that person>` and
+read whatever comes back completely — a 43-line file that had never been
+cited anywhere produced the largest single correction of the 2026-08-11
+Rick pass, reversing a "12-day burst" claim that three separate pages had
+been carrying forward from a dossier's un-verified summary.
+
 **Contact identity** — `contacts.csv` (Google) merges records aggressively, so
 one card can carry numbers belonging to two people. The Facebook address book
 (`facebook/**/other_personal_information/your_address_books.html`) is unmerged
 and is the tiebreaker. Agreement across both is an identification; a single
-Google card is not. This trap put an entire page on the wrong human.
+Google card is not. This trap put an entire page on the wrong human. The same
+resolution move settles **quote attribution**, not only page identity: when a
+dossier paraphrases a message without naming who sent it ("his father's
+perceived financial judgment"), do not write the dossier's framing onto a
+page — grep the exact phrase against the raw message exports, take the phone
+number or handle attached to the hit, and resolve *that* against the address
+book before attributing the quote to anyone. A dossier's summary is a lead,
+not a citation.
 
 **Facebook Messenger HTML** — each message is a `_3-95 _a6-g` div containing, in
 order, sender (`_a6-h _a6-i`), body (`_a6-p`), timestamp (`_a72d`). Newest
