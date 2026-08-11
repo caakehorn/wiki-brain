@@ -29,6 +29,9 @@ related:
   - wiki/mind/synthesis/intake-constancy
 tags: [relationships, music-production, trauma-bond]
 connections:
+  - page: wiki/people/jerad-friedline
+    type: evidences
+    claim: "Jerad's +191****3615 handle carries 857 messages (832 received, 25 sent), making it one of three handles with 100+ messages and documenting the high-concentration contact architecture (Gini 0.9601)."
   - page: wiki/people/zach-clingan
     type: instantiates
     claim: "Forty-one messages across nine calendar years with more than half falling on a single day is the long tail's characteristic shape — a real multi-year acquaintance that the message record renders as one spike."

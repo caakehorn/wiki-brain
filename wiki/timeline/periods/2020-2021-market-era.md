@@ -4,21 +4,20 @@ page_type: period
 title: "2020–2021 Market Era"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-08-10
 sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
-related:
-  - wiki/people/jerad-friedline
+synthesizes:
   - wiki/self/context-core
-  - wiki/mind/synthesis/political-psyops
-  - wiki/timeline/periods/2021-2023-employment-block
-  - wiki/timeline/periods/covid-era-2020
-tags: [career, addiction-recovery]
 connections:
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "The market era opens within weeks of the Sept 1 2020 estate check — the inheritance is the probable stake behind the ~$15k FSLY position and the $25k Robinhood peak, a temporal join flagged as inference on the spine page."
+  - page: wiki/people/jerad-friedline
+    type: instance-of
+    claim: "Jerad is the unique contact node through which Dan's first retail market position entered his behavioral repertoire, establishing the asymmetric investment pattern that defines the 2020–21 market era."
+tags: [career, financial-stress]
 ---
 
 # 2020–2021 Market Era
@@ -31,8 +30,8 @@ overtaken fundamentals in the retail-trading era. The timing is not
 incidental: this is the same window as the pandemic's "micro-radius siege"
 and GPS mobility collapse documented in
 [[wiki/timeline/periods/covid-era-2020]] — the market became a new outlet
-for an engine that had lost its normal environmental inputs. It began when childhood
-friend [[wiki/people/jerad-friedline]] passed the FSLY tip ([[wiki/work/fastly-fsly]] holds the trade-level detail) and Dan dumped
+for an engine that had lost its normal environmental inputs. It began when
+childhood friend [[wiki/people/jerad-friedline|Jerad Friedline]] passed the FSLY tip ([[wiki/work/fastly-fsly]] holds the trade-level detail) and Dan dumped
 his portfolio (~$15k) into 112 shares of Fastly, taking a quick ~$4k profit
 — then evangelized the tip onward, in classic form, to a friend who started
 calling in daily gains.
@@ -64,3 +63,10 @@ six weeks) is the same info-addiction pattern, migrated back to politics.
 −$6k CCIV day but no exit accounting; whether any position survived into the
 2021–23 low-income stretch ([[wiki/timeline/periods/2021-2023-employment-block]])
 is unknown.
+
+The period's significance extends beyond finance: it demonstrates the first
+application of Dan's anomaly-detection methodology to a structured dataset.
+Where politics is interpreted through the vertical-authority-skepticism lens,
+markets operate as a cultural-trend sensing exercise. Jerad's role as the
+"first-call node" for financial events mirrors his political role — crisis
+triggers reconnection across both domains.
