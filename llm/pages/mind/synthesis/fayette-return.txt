@@ -6,7 +6,7 @@ aliases: ["the elastic tether", "regional gravity", "leave-and-come-back"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-02
+date_modified: 2026-08-11
 date_range_start: 1892-01-01
 date_range_end:
 sources:
@@ -228,3 +228,11 @@ solid.
   the county rather than distinctive. Nothing here compares the line against a
   regional base rate, and until it does, "elastic tether" is a description and
   not yet an explanation.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/people/rick-frank]] gained a corrected, two-sided reading of the
+> December 2015 rupture (Dan's decade-long silence toward Rick, verified
+> against the per-number export) and a 2010 NYC-funding narrative from an
+> earlier pass. Neither touches Rick's residence record — no departure from
+> Fayette County is attested by either finding, so his G3 row ("*none
+> attested*") is unchanged. Nothing here needed revising.

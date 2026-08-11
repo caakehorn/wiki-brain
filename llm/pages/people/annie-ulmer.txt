@@ -7,7 +7,7 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-10
+date_modified: 2026-08-11
 date_range_start: 2015-11-01
 date_range_end: 2026-08-09
 infobox:
@@ -78,6 +78,7 @@ sources:
   - "raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md"
   - "raw/self/dox-md/Interpersonal manipulation_ Dan and Annie's toxic dynamic.md"
   - raw/self/chatgpt-export/relationship-breakdown-summary-2025-04-27.md
+  - raw/self/message-csv/imessage_7243667777_both_all_now.csv
 related:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
@@ -380,7 +381,15 @@ of losing Annie — "I'm
 really really scared that you won't want this anymore," December 2, 2015,
 written before there was anything to betray — and that fear, present from
 literally the third day of the documented record, became the organizing
-force of the next decade. This was new territory for him: nothing in the
+force of the next decade. The same night has a concrete cause, recovered
+from [[wiki/people/rick-frank|Rick]]'s side of the corpus rather than
+Annie's: Annie's parents had just found out about the relationship "the way
+they did" and, combined with Dan's own "bad reputation," moved to "squash
+it" — Dan told his father he planned to write them a letter asking
+permission. No letter survives in the corpus and whether one was sent is
+unknown, but the fear on Annie's side that same night was responding to a
+real, external threat to the relationship's survival, not free-floating
+anxiety. This was new territory for him: nothing in the
 [[wiki/people/danielle-onesi]] or earlier [[wiki/people/alexis-armel]]
 history shows a comparably total activation.
 

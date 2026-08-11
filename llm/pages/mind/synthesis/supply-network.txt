@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-10
+date_modified: 2026-08-11
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -373,3 +373,10 @@ figure in this network. No finding here is affected.
   Tom channel itself recovered is still undocumented.
 - Menore's product was never named in-thread; the "8" unit remains
   uninterpreted.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/people/annie-ulmer]] gained one new detail on the December 2, 2015
+> origin night (her parents' attempted veto of the relationship) — a
+> relational finding from eleven years before this page's supply-chain
+> material begins, touching neither her unemployment/dependency status nor
+> any supply-chain fact this page draws on. Nothing here needed revising.

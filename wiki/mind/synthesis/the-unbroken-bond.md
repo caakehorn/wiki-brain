@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-10
+date_modified: 2026-08-11
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -294,4 +294,12 @@ point the corpus has supplied evidence they can diverge.
 > without also stating that the suppression was invisible from inside the
 > relationship — which is a strictly stronger and more falsifiable version
 > of the same claim, and one the corpus can attack.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/people/annie-ulmer]] gained one new detail on the December 2, 2015
+> origin night: her parents' attempted veto of the relationship, recovered
+> from Rick Frank's side of the corpus. It sharpens the existing citation of
+> that night's fear-of-abandonment message with a concrete cause but changes
+> no date in the relationship's ~10.5-year span and no claim this page's
+> continuity argument draws on. Nothing here needed revising.
 

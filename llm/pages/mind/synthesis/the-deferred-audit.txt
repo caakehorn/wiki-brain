@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-10
+date_modified: 2026-08-11
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -449,3 +449,11 @@ comparison, or the Arnu prediction above — and are noted here only because
 > no audit, a tenure with no audit, and an exit that was a substitution
 > rather than a finding. The deferred audit is therefore not specific to the
 > 2015 handoff; it is how the previous occupancy ran too.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]] and
+> [[wiki/mind/synthesis/the-unbroken-bond]] both moved the same day, each only
+> to add a RE-CHECKED note of its own confirming an unrelated Annie-page edit
+> (a new detail on the December 2, 2015 origin night) didn't touch either
+> argument. No new claim, date, or figure entered either page. This page's
+> dependency on both is untouched.

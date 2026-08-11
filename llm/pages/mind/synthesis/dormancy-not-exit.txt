@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-10
+date_modified: 2026-08-11
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -379,4 +379,10 @@ documents across different people.
 > mean "nothing leaves the graph" describes **his** graph, and that the
 > page's existing no-base-rate objection now has a second, sharper form:
 > the counterparties have not been asked.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/the-unbroken-bond]] moved the same day, but only to
+> add a RE-CHECKED note of its own confirming an unrelated Annie-page edit
+> didn't touch its argument — no new claim, date, or figure was introduced.
+> This page's dependency on it is untouched.
 

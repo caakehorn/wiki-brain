@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-10
+date_modified: 2026-08-11
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -189,3 +189,14 @@ The forensic analysis of this decade concludes that resolving the trauma bond do
 > and that its counterparty is Suz rather than Annie.
 
 Resolution demands grieving the fantasy of the relationship that could have been, rather than mourning the chaotic reality that actually was. It requires redirecting the massive recursive energy previously spent on understanding the partner into building the subject's own systemic architecture. Finally, the attachment wound must be addressed directly through somatic, trauma-focused regulation, allowing the nervous system to learn that it can survive without the external co-regulator.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/people/annie-ulmer]] and [[wiki/people/rick-frank]] both moved the
+> same day. Annie's page gained one new detail on the December 2, 2015 origin
+> night (her parents' attempted veto of the relationship, recovered from
+> Rick's side of the corpus) — it deepens the existing Dec 2 fear-of-abandonment
+> citation with a concrete cause but changes no date, no figure, and no claim
+> this page draws on. Rick's page gained a corrected, two-sided reading of the
+> December 2015 rupture and its 2025–26 tail (13 verified unanswered reaches,
+> not 12) — richer evidence for the same paternal-rupture template this page
+> already cites, not a different one. Nothing here needed revising.

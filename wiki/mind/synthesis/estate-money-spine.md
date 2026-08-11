@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-10
+date_modified: 2026-08-11
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -240,3 +240,13 @@ simply changed which party it was Dan's problem to service.
 > written here as a pending risk with a dated deadline, and it is now a risk with
 > an elapsed deadline and no recorded outcome. The chain does not break; it ends
 > in an unread result, which is a worse place for it to end than a pending one.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/people/rick-frank]] and [[wiki/people/annie-ulmer]] both moved the
+> same day. Rick's page gained a corrected, two-sided reading of the December
+> 2015 rupture and its 2025–26 tail, plus a small correction to a
+> [[wiki/mind/synthesis/block-unblock-loop]] figure — none of it touches
+> Frank's Auto Supermarket, the "kushy lives" quote, or any other financial
+> fact this page draws from him. Annie's page gained one new relational
+> detail on the December 2, 2015 origin night, unrelated to money. Nothing
+> here needed revising.

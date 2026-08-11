@@ -45,7 +45,10 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-10** — 27 pages
+**2026-08-11** — 12 pages
+  - ingest | people | rick-frank.md correspondence review — two unmined sources, findings written back from three pages that already had them
+
+**2026-08-10** — 17 pages
   - rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
   - ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
   - rewrite | people, places | annie-ulmer.md wiki-rewrite pass + 3 manual captures — sex resumption, the 307 E 76th St cast, Suz's Winter Park condo
@@ -64,23 +67,6 @@ this is the state of the thing.
 **2026-08-03** — 7 pages
   - ingest | legal | court blotter photo — the arrest is now primary-documented, and a wiki inference was wrong
   - ingest | legal | factstory brief #5 — "The Arrest (the real one)"
-
-**2026-08-02** — 48 pages
-  - climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
-  - ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
-  - write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
-  - climb | interests | food-and-diet — "food in every register except taste"; bounds the cool metric's jurisdiction
-  - ingest | people | sadie-harris, david-j-frank, morley-frank rewritten from the GEDCOM; fayette-return revised (Sadie burial vs death, G1's NYC years, the Hopwood terminus)
-  - climb | mind | the-deferred-audit — provenance sets the audit's clock; the audit lag explains the diagnosis-to-behaviour gap (8 synthesized, doctrine tier)
-  - climb | mind | the-deferred-audit predictions 1-2 scored same-day — P1 partially falsified and narrowed (lag is one-time per object), P2 confirmed pending failure
-  - ingest | multi | factstory batch of 5 manual captures — queue cleared
-  - fix | people | annie-ulmer — the 24-hour bond-switch was Dan's, not Annie's; corrected in two places and propagated to bond-switch-2015, the-unbroken-bond, dan-annie-fallout-verdict, block-unblock-loop, supply-network
-  - tooling | meta | bin/wiki-digest — generates DIGEST.md, RECENT.md, OPEN.md as human reading aids (state of the wiki, what changed and why, every unresolved contradiction/gap/prediction)
-  - ingest | multi | factstory batch of 4 manual captures — Jay Lauer's death, the Fall of Fran, the vape alarm, the acquisition drive
-  - fix | meta | wiki-brain went private — sync restored, dead Pages URLs repointed at the leviathan mirror
-  - fix | interests | stray empty frontmatter fences on fall-out-boy and taking-back-sunday
-  - mine | mind | message-density campaign opened — bin/mine-messages, calibrated-confidence, and a negative on the four axioms
-  - rewrite | people | fran-coldren rebuilt from scratch against the message corpus
 
 ## Pages that reason from other pages
 
