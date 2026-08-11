@@ -70,6 +70,9 @@ connections:
   - page: wiki/timeline/periods/feb-apr-2025-return-and-rupture
     type: evidenced-by
     claim: "Dan's own self-authored April 2025 timeline — built with ChatGPT as an impartial-arbiter exercise — shows the same pursuit/withdrawal pattern this verdict quantifies from the Aug 2025 terminal-phase CSVs already present four months earlier, evidence the pattern was stable across the whole window rather than developing gradually."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "This verdict is not a counter-instance to 'The Irreversibility Firewall' but its cost, stated plainly: the response architecture that converted a survivable betrayal into a decade-long catastrophe is the same no-close, no-audit-on-the-chosen machinery that page derives, and this page is the check against ever offering the mechanism as a defense."
 ---
 
 

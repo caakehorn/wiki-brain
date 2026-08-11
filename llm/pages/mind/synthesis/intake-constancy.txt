@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-20
+date_modified: 2026-08-11
 sources:
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
   - raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html
@@ -15,7 +15,7 @@ tags: [personality-profile, ai-collaboration, forensic-analysis]
 connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
-    claim: "The intake-constancy finding is carried into the totality synthesis as its two-constants section; this page is the standalone argument."
+    claim: "A fixed twenty-year intake rate, invariant to every life variable, instantiates 'The Irreversibility Firewall': consumption alone leaves no finished, exposed object behind for anyone to render a verdict on, which is why it is the one channel that never needed to be audited or defended."
   - page: wiki/mind/concepts/phenomenology-lens
     type: resolves
     claim: "Resolves the Addiction Engine question at the consumption layer: output combusts, intake ticks — the cleanest correction the cross-corpus pass made to the interpretive overlay."

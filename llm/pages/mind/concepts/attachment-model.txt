@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-10
+date_modified: 2026-08-11
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -69,6 +69,9 @@ connections:
   - page: wiki/health/hyperreflexivity
     type: contextualizes
     claim: "A companion AI session reframes the anxiety loop as largely parasitized by the unresolved Annie situation and post-closure housing void, rather than a freestanding clinical pattern — the loop may be signal, not noise."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "No counter-rule mechanism for closing a bond absent an explicit severance signal is 'The Irreversibility Firewall' implemented as an actual data structure: without a delete operation, the only way out is force applied from outside the system, which is exactly how the Annie bond in fact closed."
 ---
 
 

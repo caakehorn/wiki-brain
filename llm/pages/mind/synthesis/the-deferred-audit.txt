@@ -58,6 +58,9 @@ connections:
   - page: wiki/mind/synthesis/instrument-is-subject
     type: parallels
     claim: "Both pages are about provenance deciding admissibility: that one grades the wiki's evidence by where it came from, this one grades Dan's own objects by the same question, and neither grades on quality."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "This page's clock rule — imposed objects audited on contact, chosen objects only after they fail — is the timing mechanism 'The Irreversibility Firewall' elevates to doctrine scope; the reconciling insight (auditing a chosen object risks a verdict on the chooser) is that page's actual engine."
 ---
 
 # The Deferred Audit

@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-11 — 18 pages
+## 2026-08-11 — 34 pages
 
 - **Session log:** correction | people | the "decade of silence" with Rick was wrong — full record recovered, childhood testimony captured, worldview mismatch documented
 - **Session log:** process | EXTRACTION_SPEC.md | two new moves, generalized from the Rick pass — per-contact CSVs, dangling-citation chasing
@@ -17,7 +17,17 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — the-cool-metric moved the same day, but only to add a new connection to `wiki/mind/synthesis/totality-themes` (the newly derived "Irreversibility Firewall" doctrine page) — the master-filter claim and |
+| [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
+| [[wiki/mind/concepts/attachment-model]] | mind | _(carries a CORRECTED from 2026-08-10)_ |
+| [[wiki/mind/concepts/chaos-preference]] | mind | _(carries a CONTRADICTION)_ |
+| [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
+| [[wiki/mind/concepts/erotic-architecture]] | mind | — |
+| [[wiki/mind/concepts/institutional-out]] | mind | — |
+| [[wiki/mind/concepts/node-locking]] | mind | — |
+| [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — vertical-authority-skepticism moved the same day to add a second candidate origin (a childhood pattern of public confrontation and humiliation, dictated directly by Dan) alongside the existing 2005 fa |
+| [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes moved the same day to retract a false "Rick-file rhyme" comparison and downgrade a domain-crossing confirmation about the May 2014 account migration. This page's dependency is only on  |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — annie-ulmer and rick-frank both moved the same day. Annie's page gained one new detail on the December 2, 2015 origin night (her parents' attempted veto of the relationship, recovered from Rick's side |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a RE-CHECKED from 2026-08-02)_ |
@@ -25,9 +35,15 @@ simply listed.
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — the-unbroken-bond moved the same day, but only to add a RE-CHECKED note of its own confirming an unrelated Annie-page edit didn't touch its argument — no new claim, date, or figure was introduced. Thi |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — rick-frank and annie-ulmer both moved the same day. Rick's page gained a corrected, two-sided reading of the December 2015 rupture and its 2025–26 tail, plus a small correction to a [[wiki/mind/synthe |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — rick-frank gained a corrected, two-sided reading of the December 2015 rupture (Dan's decade-long silence toward Rick, verified against the per-number export) and a 2010 NYC-funding narrative from an e |
+| [[wiki/mind/synthesis/instrument-is-subject]] | mind | _(carries a RE-CHECKED from 2026-08-10)_ |
+| [[wiki/mind/synthesis/intake-constancy]] | mind | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
+| [[wiki/mind/synthesis/music-as-identity]] | mind | — |
+| [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-unbroken-bond moved the same day, but only to add a RE-CHECKED note of its own confirming an unrelated Annie-page edit didn't touch its argument — no new claim, date, or figure was introduced. Thi |
 | [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — annie-ulmer gained one new detail on the December 2, 2015 origin night (her parents' attempted veto of the relationship) — a relational finding from eleven years before this page's supply-chain materi |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — dan-annie-fallout-verdict and the-unbroken-bond both moved the same day, each only to add a RE-CHECKED note of its own confirming an unrelated Annie-page edit (a new detail on the Dece |
+| [[wiki/mind/synthesis/the-embedded-objective]] | mind | — |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — annie-ulmer gained one new detail on the December 2, 2015 origin night: her parents' attempted veto of the relationship, recovered from Rick Frank's side of the corpus. It sharpens the existing citati |
 | [[wiki/mind/synthesis/totality-themes]] | mind | _(carries a REVISED from 2026-07-15)_ |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
@@ -36,7 +52,7 @@ simply listed.
 | [[wiki/people/rick-frank]] | people | **CORRECTED** — An earlier pass this same day built an entire narrative — "the loudest silence," a "held-block control case," "that is the last message Dan ever sent to this number" — on `imessage_7243667777_both_all |
 | [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 
-## 2026-08-10 — 18 pages
+## 2026-08-10 — 16 pages
 
 - **Session log:** rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
 - **Session log:** ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
@@ -46,11 +62,9 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/mind/concepts/attachment-model]] | mind | **CORRECTED** — A re-check of the source `.docx` files behind the quantitative table below found two errors and one omission, none visible from reading the page. First, the table's "13 major self-indicting apologies" |
 | [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/politics/index]] | mind | — |
 | [[wiki/mind/psychosexual/taboo-and-boundary-testing]] | mind | **CORRECTED** — This page previously said the orientation- violation claim had "no independent primary-source example... in the corpus searched for this page" and called it "the thinnest-supported claim in this entir |
-| [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page as stale against exocortex, edited the same day to add one new connections edge (to the new axioms page) reading the CATO persona's origin line p |
 | [[wiki/people/jerad-friedline]] | people | **CORRECTED** — The previous record cited 879 messages with handle +191****3615. Verification against `MASTER_MESSAGES_DB_DUMP.csv` reveals 857 total messages (832 received from Jerad, 25 sent to Jerad). ## The finan |
 | [[wiki/people/jim-blanchard]] | people | — |
 | [[wiki/people/john-paci]] | people | — |
@@ -65,7 +79,7 @@ simply listed.
 | [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
 | [[wiki/work/fastly-fsly]] | work | — |
 
-## 2026-08-09 — 17 pages
+## 2026-08-09 — 16 pages
 
 - **Session log:** ingest | self/timeline/people/interests | extreme-sports era expanded with visual documentation
 - **Session log:** ingest | self/extreme-sports, people, places, interests | childhood extreme-sports era captured
@@ -76,7 +90,6 @@ simply listed.
 |---|---|---|
 | [[wiki/interests/extreme-sports]] | interests | — |
 | [[wiki/mind/concepts/forensic-method]] | mind | — |
-| [[wiki/mind/concepts/node-locking]] | mind | — |
 | [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | — |
 | [[wiki/people/index]] | people | — |
@@ -105,7 +118,7 @@ simply listed.
 | [[wiki/people/zach-clingan]] | people | **CORRECTED** — The handle `+18439903264` does not belong to Zachariah Harshman. Two independent contact exports separate the two men cleanly, and their number sets do not overlap at any point. | Source | Zach Clinga |
 | [[wiki/places/117-belmont-circle]] | places | **REVISED** — Earlier versions of this page dated the tenure as "more than fifty years" and left it there, which is true but soft. The GEDCOM fixes a floor at 1961 and supplies the mechanism (a return from Miami Be |
 
-## 2026-08-03 — 7 pages
+## 2026-08-03 — 5 pages
 
 - **Session log:** ingest | legal | court blotter photo — the arrest is now primary-documented, and a wiki inference was wrong
 - **Session log:** ingest | legal | factstory brief #5 — "The Arrest (the real one)"
@@ -114,13 +127,11 @@ simply listed.
 |---|---|---|
 | [[wiki/legal/2015-possession-arrest]] | legal | **REVISED** — When this page was written earlier the same day, it judged the capture's opening line ("It's sometime in early 2015") to be "almost certainly too early," on the reasoning that a February arrest would  |
 | [[wiki/legal/2015-retail-theft-arrest]] | legal | **REVISED** — Until today it was titled "2015 Arrest (Retail Theft / 'The Combos Incident')" and carried the lawyer, the ARD application, the Judge Wagner hearing, the barracks trips and the family drama around the |
-| [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
-| [[wiki/mind/synthesis/the-embedded-objective]] | mind | — |
 | [[wiki/people/jack-connor]] | people | — |
 | [[wiki/people/lucy]] | people | — |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-08-08)_ |
 
-## 2026-08-02 — 46 pages
+## 2026-08-02 — 42 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -141,15 +152,11 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/chemical-architecture]] | health | — |
-| [[wiki/interests/food-and-diet]] | interests | **REVISED** — An operator capture filed the same week documents an absolute dietary regime the page did not know existed, and "absent from its evaluative record entirely" cannot survive *"pickles are the mortal ene |
 | [[wiki/interests/music/concepts/sub-bass-signature]] | interests | — |
 | [[wiki/legal/463-morgantown]] | legal | **DEADLINE ELAPSED** — The mechanics-lien date this page has carried as its nearest hard deadline — estimated ~**27 July 2026** — has now passed, and **no source read to date records what happened.** The estimate was always |
 | [[wiki/legal/index]] | legal | — |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | — |
-| [[wiki/mind/concepts/chaos-preference]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/concepts/dans-law]] | mind | — |
-| [[wiki/mind/concepts/erotic-architecture]] | mind | — |
-| [[wiki/mind/concepts/the-cool-metric]] | mind | **CONTRADICTION** — the "applied across domains that normally use separate criteria" claim above has a documented exception, and it is a large one. food-and-diet shows the axis is **never** pointed at food, in a corpus w |
 | [[wiki/mind/profile/big-five-psychometrics]] | mind | **CONTRADICTION** — acquisition-drive records the operator's own claim, offered with an explicit disclaimer against hyperbole, that his "resilience for the goal" sits at the 95th percentile or above — a persistence dimen |
 | [[wiki/mind/profile/linguistic-profile]] | mind | — |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | **REVISED** — Until now this table opened its practice record with the November 2018 Alexis reunion and described it as "the earliest well-documented instance." Two operator captures and the message corpus together |
@@ -302,7 +309,7 @@ simply listed.
 | [[wiki/people/menore]] | people | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/places/424-bedford-ave]] | places | — |
 
-## 2026-07-26 — 9 pages
+## 2026-07-26 — 8 pages
 
 - **Session log:** climb | all | SYNTHESIS_SPEC + bin/wiki-climb — the wiki becomes an input to itself
 - **Session log:** ingest | people+timeline | the July 2026 re-contact — annie-ulmer reopened
@@ -310,7 +317,6 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/hyperreflexivity]] | health | **REVISED** — the reframe made a testable prediction — that the loop tracks the two unresolved conditions rather than running independently — and the July 2026 record gives a partial test. One of the two conditions |
-| [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/people/gabe]] | people | _(carries a CONTRADICTION)_ |
 | [[wiki/people/valeria-iglesias-cid]] | people | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/self/location-history]] | self | — |
@@ -336,7 +342,7 @@ simply listed.
 | [[wiki/self/lineage/index]] | self | — |
 | [[wiki/work/caviar-courier]] | work | — |
 
-## 2026-07-20 — 41 pages
+## 2026-07-20 — 40 pages
 
 - **Session log:** ingest | people | FB deep-scrape XII — matthew-palermo (new tier-one entry)
 - **Session log:** ingest | people | FB deep-scrape XIII — david-beard (new tier-one entry)
@@ -381,7 +387,6 @@ simply listed.
 | [[wiki/interests/music/index]] | interests | — |
 | [[wiki/mind/concepts/bunker-core]] | mind | — |
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
-| [[wiki/mind/synthesis/intake-constancy]] | mind | **CONTRADICTION** — an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad im |
 | [[wiki/mind/synthesis/spatial-behavior]] | mind | — |
 | [[wiki/people/aaron]] | people | — |
 | [[wiki/people/bekah-fullem]] | people | — |
@@ -418,7 +423,7 @@ simply listed.
 | [[wiki/work/tech/index]] | work | — |
 | [[wiki/work/tech/mneme/overview]] | work | — |
 
-## 2026-07-19 — 49 pages
+## 2026-07-19 — 46 pages
 
 - **Session log:** ingest | people | long-tail MINE pass (sam, davey-fitzpatrick, vaughn, nick-mattie, urpaaa) + kezmarsky death-claim correction
 - **Session log:** ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
@@ -443,15 +448,12 @@ simply listed.
 | [[wiki/interests/music/aliases/sloppp]] | interests | — |
 | [[wiki/interests/opie-and-anthony]] | interests | — |
 | [[wiki/interests/stand-up-comedy]] | interests | — |
-| [[wiki/mind/concepts/institutional-out]] | mind | — |
 | [[wiki/mind/concepts/phenomenology-lens]] | mind | — |
 | [[wiki/mind/profile/deviance-mapping]] | mind | — |
 | [[wiki/mind/profile/enneagram-5w4]] | mind | — |
 | [[wiki/mind/psychosexual/developmental-origins]] | mind | — |
 | [[wiki/mind/psychosexual/emotional-imprinting]] | mind | _(carries a REVISED from 2026-08-10)_ |
-| [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | — |
-| [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/people/bobby-cole]] | people | — |
 | [[wiki/people/brian]] | people | — |
 | [[wiki/people/bryan-5088682461]] | people | **REVISED** — Encounter date corrected to **October 20, 2019** per direct operator statement ("the threesome took place on 20 Oct 2019"), superseding the October 21 previously inferred from the Sent 2019-10-22 22:2 |
@@ -521,7 +523,7 @@ simply listed.
 | [[wiki/timeline/periods/2025-collapse]] | timeline | — |
 | [[wiki/timeline/periods/uniontown-return-2013-2015]] | timeline | — |
 
-## 2026-07-17 — 4 pages
+## 2026-07-17 — 2 pages
 
 - **Session log:** connect | mind | connection-system adoption pass 2 — all 13 synthesis pages typed
 - **Session log:** connect | mind+people | connection-system adoption pass 1
@@ -531,8 +533,6 @@ simply listed.
 |---|---|---|
 | [[wiki/mind/synthesis/interests-as-era-markers]] | mind | — |
 | [[wiki/mind/synthesis/message-circadian-latency]] | mind | — |
-| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
-| [[wiki/mind/synthesis/music-as-identity]] | mind | — |
 
 ## 2026-07-16 — 7 pages
 

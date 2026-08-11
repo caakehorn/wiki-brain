@@ -67,8 +67,8 @@ connections:
     type: contextualizes
     claim: "The trauma-bond page documents the Annie loop as bond-specific; this page shows the same operation running on peer bonds, flings, family, accounts, and software — the loop is architectural, not partner-specific."
   - page: wiki/mind/synthesis/totality-themes
-    type: parallels
-    claim: "The amputation/repatriation grammar is this loop at the infrastructure layer: the May 2014 account migration is a block, the 2022 repatriation a documented return-from-amputation — one operation, domain-general."
+    type: component-of
+    claim: "This loop's own rule — the exit is declared, never executed, because execution is irreversible — is one of the four dated predictions totality-themes derives as 'The Irreversibility Firewall'; the amputation/repatriation grammar (the May 2014 account migration, the 2022 return) is the same operation at the infrastructure layer."
   - page: wiki/mind/synthesis/supply-network
     type: parallels
     claim: "Dependency predicts which blocks hold: the Tom block failed while he was the sole supply node, and the Menore channel closed cleanly the moment geography ended the dependency — no block ever needed."

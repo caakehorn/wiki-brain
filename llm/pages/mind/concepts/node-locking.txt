@@ -5,7 +5,7 @@ title: "Node Locking"
 aliases: ["profile locking", "DATA_LOGGED", "relational source code", "Deep Architecture"]
 status: stable
 date_created: 2026-07-15
-date_modified: 2026-08-09
+date_modified: 2026-08-11
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_07.md
@@ -27,6 +27,9 @@ connections:
   - page: wiki/timeline/events/august-2026-unmasking
     type: instance-of
     claim: "The 02:24:54 read-receipt cutoff is a third logged instance of the Signals node's go-dark-after-confrontation pattern, following the Suzy-call NACK and the ten-day January 2026 blackout."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "Demanding verbatim, unconsolidated AI memory retention extends 'The Irreversibility Firewall's' no-delete rule to the cognitive prosthetic itself: nothing, including a machine's summary of him, is allowed to lossily replace the original."
 
 ---
 

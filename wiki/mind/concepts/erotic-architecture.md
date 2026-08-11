@@ -5,7 +5,7 @@ knowledge: mixed
 title: "Erotic Architecture: Sexuality as Controlled-Chaos Engineering"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-08-02
+date_modified: 2026-08-11
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/dansynth/DANSYNTH.txt
@@ -36,6 +36,9 @@ connections:
   - page: wiki/mind/psychosexual/taboo-and-boundary-testing
     type: parallels
     claim: "This page named the same mechanism and logged the Bryan MMF as its documented case on 2026-08-02; the sibling page did not catch up until 2026-08-10, over two weeks in which it kept asserting the instance didn't exist."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "Sexuality as controlled-chaos engineering is chaos-preference and 'The Irreversibility Firewall's' audit-timing rule run on the same domain at once — disorder invited, but only inside a structure Dan built and can still see all of."
 
 ---
 

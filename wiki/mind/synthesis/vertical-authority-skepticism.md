@@ -65,6 +65,9 @@ connections:
   - page: wiki/mind/politics/axioms
     type: instance-of
     claim: "The power axiom restates this page's vertical/lateral split as an explicit political premise and adds a self-authored artifact this page doesn't carry — the CATO persona's origin as Caesar's specific political opponent, not a general Roman figure — as primary evidence the skepticism is a conscious commitment, not only an inherited disposition."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "The vertical axis is distrusted first and hardest because auditing it is free — the finding never lands on Dan — which is 'The Irreversibility Firewall's' fourth prediction; this page's two independently-dated origins (the 2005 concealed-reality hinge, and a childhood pattern of public confrontation) both teach that externally-imposed claims arrive already exposed."
 ---
 
 

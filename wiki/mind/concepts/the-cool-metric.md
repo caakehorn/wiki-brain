@@ -6,7 +6,7 @@ aliases: ["anti-normie", "the normie check", "taste as sorting function"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-02
+date_modified: 2026-08-11
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -44,6 +44,9 @@ connections:
   - page: wiki/mind/concepts/exocortex
     type: instantiates
     claim: "The Normie Check is the metric compiled into machine-enforceable form — a standing instruction that any model must pass before it is permitted to continue, which is what distinguishes this from ordinary snobbery."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "Authenticity-as-involuntariness is 'The Irreversibility Firewall's' trust rule stated positively: the one category never exposed to audit at all is the thing that was never a decision — the sub-bass signature, trusted precisely because choosing it was never possible."
 ---
 
 # The Cool Metric

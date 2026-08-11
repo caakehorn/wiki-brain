@@ -5,7 +5,7 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-10
+date_modified: 2026-08-11
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
@@ -31,6 +31,9 @@ connections:
   - page: wiki/mind/synthesis/alias-as-periodization
     type: mirrors
     claim: "The methodological contrast case: alias boundaries are admissible precisely because they were produced by the subject without intending to testify, which is the property AI-interpretive pages structurally lack."
+  - page: wiki/mind/synthesis/totality-themes
+    type: component-of
+    claim: "This wiki being written by the instrument it is auditing, using an evidentiary standard its subject authored, is 'The Irreversibility Firewall's' most recursive instance — and the reason that page's own provenance had to be corrected in public rather than quietly."
 ---
 
 # The Instrument Is Also the Subject

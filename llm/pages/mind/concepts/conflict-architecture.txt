@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-26
+date_modified: 2026-08-11
 sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -37,7 +37,7 @@ connections:
     claim: "The engine's no-halt-condition defect is what the block/unblock loop expresses as a channel operation; the 414-message Grok run is the mechanism reproduced in software."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
-    claim: "The conflict architecture is read against the LLM venue in the totality's bandwidth-war section."
+    claim: "Concession coded as self-annihilation via Core Axiom 1 ('not exceptional = worthless') is 'The Irreversibility Firewall's' actual mechanism named at the level of a single conversational turn: conceding a point is a small, forced irreversibility, and the engine has no halt condition because halting requires exactly that."
   - page: wiki/mind/synthesis/intake-constancy
     type: mirrors
     claim: "Intake ticks while this engine's output channel combusts — opposite dynamics, same substrate."
