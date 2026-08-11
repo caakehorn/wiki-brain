@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-11
-456 pages, ~743,618 tokens.
+456 pages, ~745,664 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -14820,10 +14820,11 @@ title: "The Ancestral Dialectic: Ashkenazi Hypervigilance vs. Appalachian Numbne
 aliases: ["Dan Frank OS", "the binary engine"]
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-08-02
+date_modified: 2026-08-11
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
+  - raw/self/ancestry/extracted/health-report-extracted-layout.txt
 tags: [uniontown-era, relationships, family, addiction-recovery, nyc-era]
 connections:
   - page: wiki/self/lineage/family-tree
@@ -15004,10 +15005,20 @@ treated as a genealogical or psychiatric finding, only as one coherent
 interpretive lens among the others already on file (compare
 [[wiki/mind/synthesis/vertical-authority-skepticism]] for a similarly
 speculative but independently-arrived-at institutional-distrust
-genealogy). The 23andMe PDFs themselves were never OCR'd for exact
-percentages beyond the Neanderthal figure; a fuller ancestry-composition
-breakdown (European sub-regions, exact Ashkenazi percentage) remains
-unextracted in `raw/self/ancestry/dna-reports/`.
+genealogy).
+
+> **RESOLVED 2026-08-11:** the exact ancestry-composition breakdown this
+> page previously flagged as unextracted is now on file at
+> [[wiki/self/lineage/23andme-genomics]] — Ashkenazi Jewish 21.4%,
+> Northwestern European 78.3% (British & Irish 55.8%, French & German
+> 22.2%), plus a previously-undocumented 0.2% Sub-Saharan African trace
+> signal with no paper-trail explanation. The 21.4%/78.3% split roughly
+> matches this page's paternal/maternal two-line frame once compared as
+> Ashkenazi-vs-non-Ashkenazi-European rather than a strict 50/50, since the
+> GEDCOM shows Rick's own line was not exclusively Ashkenazi either. This
+> corroborates the dialectic's biological premise more precisely than the
+> Neanderthal figure alone did, without resolving the frame's core
+> unresolved status as interpretive rather than diagnostic.
 
 
 ========================================================================
@@ -34447,6 +34458,8 @@ sources:
   - raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv
   - raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md
   - raw/self/message-exports/rick-frank-imessage-pdf-export-2018-thru-2018-04.txt
+  - raw/legal/documents/2009-03-27_ford-trademark-cease-desist-and-complaint.md
+  - raw/legal/documents/2009-04-19_herald-standard-ford-settlement-article.md
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
   - page: wiki/legal/2015-possession-arrest
@@ -34591,9 +34604,53 @@ paired in the same message with discomfort over the family's [[wiki/people/fran-
 inheritance being traceable to a "coal baron." The Gemini-era dossiers
 describe Rick as a "former automotive retail entrepreneur" and the "source
 of historical framework regarding local family footprint and industry
-logic." The CATO known-gaps list carries one unresolved thread: a **"We
-Speak Car" / Ford trademark litigation** involving the business, outcome
-unknown — flagged for future ingest.
+logic."
+
+### The Ford trademark suit, 2009 — resolved
+
+> **RESOLVED 2026-08-11:** the CATO known-gaps list carried one unresolved
+> thread since this page's creation — a "We Speak Car" / Ford trademark
+> litigation involving the business, outcome unknown. Two primary documents
+> the operator supplied close it: a scanned 11-page court/law-firm PDF
+> (`raw/legal/documents/2009-03-27_ford-trademark-cease-desist-and-complaint.md`)
+> and a Herald-Standard news article
+> (`raw/legal/documents/2009-04-19_herald-standard-ford-settlement-article.md`).
+
+The formal plaintiff, **Frank's Auto Supply, Inc.**, had used "WE SPEAK
+CAR" in interstate commerce since at least June 8, 2003 — in-store
+displays, signage, newspaper/radio/TV advertising, and the domains
+`wespeakcar.com` and `autosupermarket.com` — and had filed a pending
+federal trademark application (Serial No. 77/699,917) for the mark the day
+before this dispute broke open. The business itself: founded 1938, seven
+Pennsylvania locations as of 2009, principal address 75 South Beeson
+Avenue, Uniontown.
+
+On March 3, 2009, Ford launched a national ad campaign for the 2010 Ford
+Fusion and Fusion Hybrid — three commercials that debuted during *American
+Idol*, all opening with the narrator saying "We Speak Car" — with an
+estimated **$60–80 million** ad spend. Frank's counsel, **The Webb Law
+Firm** of Pittsburgh, sent Ford's General Counsel a cease-and-desist letter
+on **March 27, 2009** (cc'd to Ford's Group VP of Global Marketing at the
+time, **Jim Farley** — later Ford's CEO from 2020) while *simultaneously*
+filing the federal complaint the same day (**Frank's Auto Supply, Inc. v.
+Ford Motor Company**, Case No. 2:09-cv-365, W.D. Pa., Judge Arthur J.
+Schwab, jury trial demanded) — filed but held unserved as the opening move
+of a "resolve this amicably, or else" negotiating posture. The complaint
+sought (per the Herald-Standard article, which covers ground the available
+scan of the complaint itself is cut off before reaching) an order that all
+of Ford's "We Speak Car" literature and advertising be destroyed — an
+aggressive ask against a $60–80M national campaign, not a token filing.
+
+It worked fast: **Judge Schwab closed the case by order on Friday, April
+17, 2009**, noting the parties had "agreed to an amicable resolution of
+this matter" — settlement terms undisclosed, court retaining jurisdiction
+only if either side failed to execute the agreement (no record that
+happened). Three weeks from cease-and-desist to dismissal, against one of
+the largest advertisers in the country, is a genuine local-business win —
+worth noting alongside the "anti-union kushy lives" characterization above
+as a second, very different register of the same underlying trait: Rick's
+business asserting itself aggressively and effectively when its own
+interests were at stake.
 
 ## Funding the exit: NYC, 2010
 
@@ -34871,8 +34928,9 @@ Episcopalian himself ([[wiki/self/ancestry]]). One of the four documented
 generations of functional alcoholism. Multiple Uniontown residences on
 record through 1989–2002; current address unconfirmed.
 
-**Gaps (several flagged in CATO itself):** the Ford trademark litigation
-outcome; whether the business still exists or when it was sold; his side of
+**Gaps (several flagged in CATO itself):** ~~the Ford trademark litigation
+outcome~~ — resolved 2026-08-11, see "The Ford trademark suit, 2009" above.
+Whether the business still exists or when it was sold; his side of
 the 2005 events, the Tan Calabrese incident, and every instance of the
 childhood public-humiliation pattern is entirely unrecorded from his own
 perspective — everything on this page is Dan's corpus. Whether the
@@ -41964,8 +42022,8 @@ domain: self
 page_type: report
 status: active
 date_created: 2026-07-25
-date_modified: 2026-07-25
-sources: ["raw/self/ancestry/dna-reports/Ancestry Composition - 23andMe.pdf", "raw/self/ancestry/dna-reports/chromosome.pdf", "raw/self/ancestry/dna-reports/health.pdf"]
+date_modified: 2026-08-11
+sources: ["raw/self/ancestry/dna-reports/Ancestry Composition - 23andMe.pdf", "raw/self/ancestry/dna-reports/chromosome.pdf", "raw/self/ancestry/dna-reports/health.pdf", "raw/self/ancestry/extracted/health-report-extracted-layout.txt"]
 tags: [family, physical-health]
 connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
@@ -41978,23 +42036,100 @@ connections:
 
 # 23andMe Genomics
 
-Genomic profile exported from 23andMe provides a biological cross-reference to the documentary family tree, highlighting a significant Neanderthal variant load alongside the expected Ashkenazi and sub-regional European signals. Note that the source PDFs are image-based without an extractable text layer.
+Genomic profile exported from 23andMe provides a biological cross-reference to the documentary family tree, highlighting a significant Neanderthal variant load alongside the expected Ashkenazi and sub-regional European signals. The `Ancestry Composition - 23andMe.pdf` and `chromosome.pdf` visual exports are image-based without an extractable text layer (percentages below are read off the page images). `health.pdf` — a separate 23andMe "Reports Summary" export, uploaded independently by the operator 2026-08-11 as a "Huge find" and confirmed byte-identical to the copy already on file — **does** carry a text layer, but a two-column condition/result layout that a naive extraction badly mis-pairs; `pdftotext -layout` preserves the correct pairing and is the source for the two sections below (full extraction: `raw/self/ancestry/extracted/health-report-extracted-layout.txt`).
 
 ## Ancestry Composition
-The primary visual breakdown from the PDF (Ancestry Composition - 23andMe.pdf, 368 KB, 1 page, browser export 2025-03-30) shows ethnicity estimates, confidence regions, and global maps. The paternal Jewish immigrant line reliably predicts the prominent Ashkenazi signal shown, while maternal West Virginia/Pennsylvania roots provide the complementary sub-regional European context.
+
+Exact percentages, previously flagged as an extraction gap, now resolved from `health.pdf`'s Ancestry Reports section (Updated: October 25, 2024):
+
+| Region | % |
+|---|---|
+| **European** | 99.7% |
+| — Northwestern European | 78.3% |
+| —— British & Irish | 55.8% |
+| —— French & German | 22.2% |
+| —— Broadly Northwestern European | 0.3% |
+| — Ashkenazi Jewish | 21.4% |
+| **Sub-Saharan African** | 0.2% |
+| — West African (Ghanaian, Liberian & Sierra Leonean) | 0.2% |
+| **Unassigned** | 0.1% |
+
+**Maternal Haplogroup: R0. Paternal Haplogroup: R-Z93.**
+
+The paternal Jewish immigrant line ([[wiki/people/david-j-frank]], b. 1892
+Russia; [[wiki/people/sadie-harris]], b. 1900 Austria) reliably predicts the
+21.4% Ashkenazi signal, exactly matching what
+[[wiki/mind/synthesis/ancestral-dialectic]] already treats as the paternal
+"hypervigilance" line's biological substrate. The 78.3% Northwestern
+European (British & Irish 55.8%, French & German 22.2%) maps onto the
+maternal Fayette County / Appalachian network the same page treats as the
+"numbness" line — the two figures are within a few points of the
+theoretically-expected 50/50 split for a single-generation paternal/
+maternal divide, once the Ashkenazi and non-Ashkenazi European totals are
+compared (21.4% vs. 78.3%, i.e. the paternal signal is diluted below 50%
+because Rick's own maternal side, per the GEDCOM, was not exclusively
+Ashkenazi either).
+
+**A genuinely new, previously undocumented data point: a 0.2% Sub-Saharan
+African (Ghanaian, Liberian & Sierra Leonean) trace signal**, filed under
+23andMe's "Additional Ancestry Regions... that reflect mixed ancestry or
+more recent migration." At this magnitude (23andMe's own trace-region
+threshold), this is exactly the kind of low-confidence signal that can
+reflect distant reference-panel noise as easily as a real ancestor several
+generations back — it is recorded here as a documented fact of the report,
+not folded into [[wiki/mind/synthesis/ancestral-dialectic]]'s two-line
+frame, which concerns dominant heritage strands (Ashkenazi vs. British/
+German-Appalachian) rather than trace admixture. No paper-trail record in
+[[wiki/self/lineage/family-tree]] currently explains it; flagged as a gap
+rather than a finding.
 
 ## Chromosome Painting
+
 Derived from chromosome.pdf (199 KB, 2 pages), this segment visualizes ancestry assignments across all chromosomes. It provides a granular look at the distribution of different ethnic markers, though no raw SNPs are available in this specific export.
 
 ## Neanderthal Ancestry
-Dan's Neanderthal percentage places him in the 95th percentile of 23andMe customers. While PheWAS studies have linked some Neanderthal-introgressed variants to mood disorders, nicotine addiction, and chronotype, there is no direct causal link established here. Instead, this genetic data point functions as a symbolic reinforcement of an outsider identity.
+Dan's Neanderthal percentage places him in the 95th percentile of 23andMe customers ("More Neanderthal variants than 95% of customers" — health.pdf's exact wording, confirming the figure previously read off the visual export). While PheWAS studies have linked some Neanderthal-introgressed variants to mood disorders, nicotine addiction, and chronotype, there is no direct causal link established here. Instead, this genetic data point functions as a symbolic reinforcement of an outsider identity.
 
-## Health Report
-A health report export (`health.pdf`) exists in the raw directory, but its contents have not been text-extracted or integrated into this analysis.
+## Health Predisposition and Carrier Status
+
+Of 14+ Health Predisposition reports and 46+ Carrier Status reports, only
+two returned anything other than "Variants not detected":
+
+- **Hereditary Thrombophilia — slightly increased risk.** A predisposition
+  toward blood clotting (elevated risk of deep vein thrombosis / pulmonary
+  embolism). No other corpus material currently documents a clotting event
+  or diagnosis; filed here as a standing health datapoint, not a finding
+  about anything that has happened.
+- **Tyrosinemia Type I — variant detected (carrier status).** A recessive
+  metabolic disorder; carrier status alone has no expected health effect
+  for Dan himself, but is relevant to any future family-planning context —
+  it only matters if a partner is also a carrier.
+- **Age-Related Macular Degeneration** — "variant detected, not likely at
+  increased risk" (a variant present but not the risk-conferring
+  combination).
+- Every other tested condition — including Alzheimer's, Parkinson's,
+  BRCA1/2, Celiac, Hemochromatosis, G6PD deficiency, and the full 45-entry
+  remainder of the Carrier Status list (Cystic Fibrosis, Tay-Sachs, Sickle
+  Cell, Canavan, Gaucher Type 1, and so on) — returned "Variants not
+  detected" or, for BRCA1/2, "Complete tasks to view result" (never
+  completed).
+
+## Wellness and Traits (selected)
+
+Lower-signal but on the record: **unlikely to flush from alcohol**;
+**likely to consume less caffeine**; **less likely to be a deep sleeper**;
+**predisposed to weigh about average**; **muscle composition common in
+elite power athletes**; **lactose tolerant**; **likely to wake up around
+8:34am**; typical trait predictions for eye/hair color, earwax, bitter
+taste, and the rest of the standard 37-trait panel. None of this
+contradicts or extends anything else on file; recorded for completeness
+per the corpus's "keep the mundane" standard rather than because any of it
+is individually load-bearing.
 
 ## Gaps
-- No text-layer extraction is possible from the source PDFs, meaning specific percentage values are not digitally recorded.
-- Health report data remains unprocessed and unexplored.
+- The Sub-Saharan African 0.2% trace signal has no corroborating paper-trail source and is unexplained.
+- Chromosome-painting PDF still has no raw SNP/CSV export attached — visual only.
+- Whether the Hereditary Thrombophilia finding has ever been discussed with a physician or shown up in any documented medical event is unrecorded.
 
 
 ========================================================================

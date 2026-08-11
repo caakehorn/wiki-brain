@@ -13,10 +13,10 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 456 |
-| Pages touched in the last 14 days | 216 |
+| Pages touched in the last 14 days | 217 |
 | Pages reasoning from other pages (`synthesizes:`) | 27 |
 | Live contradictions | 30 |
-| Open gaps | 138 |
+| Open gaps | 139 |
 | Standing predictions | 13 |
 
 ## By domain
@@ -45,7 +45,8 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-11** — 34 pages
+**2026-08-11** — 36 pages
+  - climb | mind | totality-themes.md re-derived from the wiki's own T2/T3 layer — "The Irreversibility Firewall"
   - correction | people | the "decade of silence" with Rick was wrong — full record recovered, childhood testimony captured, worldview mismatch documented
   - process | EXTRACTION_SPEC.md | two new moves, generalized from the Rick pass — per-contact CSVs, dangling-citation chasing
   - ingest | people | the December 2015 Rick rupture, recovered two-sided and verbatim — mechanism behind the present-day estrangement

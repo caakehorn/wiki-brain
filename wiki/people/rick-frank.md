@@ -26,6 +26,8 @@ sources:
   - raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv
   - raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md
   - raw/self/message-exports/rick-frank-imessage-pdf-export-2018-thru-2018-04.txt
+  - raw/legal/documents/2009-03-27_ford-trademark-cease-desist-and-complaint.md
+  - raw/legal/documents/2009-04-19_herald-standard-ford-settlement-article.md
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
   - page: wiki/legal/2015-possession-arrest
@@ -170,9 +172,53 @@ paired in the same message with discomfort over the family's [[wiki/people/fran-
 inheritance being traceable to a "coal baron." The Gemini-era dossiers
 describe Rick as a "former automotive retail entrepreneur" and the "source
 of historical framework regarding local family footprint and industry
-logic." The CATO known-gaps list carries one unresolved thread: a **"We
-Speak Car" / Ford trademark litigation** involving the business, outcome
-unknown — flagged for future ingest.
+logic."
+
+### The Ford trademark suit, 2009 — resolved
+
+> **RESOLVED 2026-08-11:** the CATO known-gaps list carried one unresolved
+> thread since this page's creation — a "We Speak Car" / Ford trademark
+> litigation involving the business, outcome unknown. Two primary documents
+> the operator supplied close it: a scanned 11-page court/law-firm PDF
+> (`raw/legal/documents/2009-03-27_ford-trademark-cease-desist-and-complaint.md`)
+> and a Herald-Standard news article
+> (`raw/legal/documents/2009-04-19_herald-standard-ford-settlement-article.md`).
+
+The formal plaintiff, **Frank's Auto Supply, Inc.**, had used "WE SPEAK
+CAR" in interstate commerce since at least June 8, 2003 — in-store
+displays, signage, newspaper/radio/TV advertising, and the domains
+`wespeakcar.com` and `autosupermarket.com` — and had filed a pending
+federal trademark application (Serial No. 77/699,917) for the mark the day
+before this dispute broke open. The business itself: founded 1938, seven
+Pennsylvania locations as of 2009, principal address 75 South Beeson
+Avenue, Uniontown.
+
+On March 3, 2009, Ford launched a national ad campaign for the 2010 Ford
+Fusion and Fusion Hybrid — three commercials that debuted during *American
+Idol*, all opening with the narrator saying "We Speak Car" — with an
+estimated **$60–80 million** ad spend. Frank's counsel, **The Webb Law
+Firm** of Pittsburgh, sent Ford's General Counsel a cease-and-desist letter
+on **March 27, 2009** (cc'd to Ford's Group VP of Global Marketing at the
+time, **Jim Farley** — later Ford's CEO from 2020) while *simultaneously*
+filing the federal complaint the same day (**Frank's Auto Supply, Inc. v.
+Ford Motor Company**, Case No. 2:09-cv-365, W.D. Pa., Judge Arthur J.
+Schwab, jury trial demanded) — filed but held unserved as the opening move
+of a "resolve this amicably, or else" negotiating posture. The complaint
+sought (per the Herald-Standard article, which covers ground the available
+scan of the complaint itself is cut off before reaching) an order that all
+of Ford's "We Speak Car" literature and advertising be destroyed — an
+aggressive ask against a $60–80M national campaign, not a token filing.
+
+It worked fast: **Judge Schwab closed the case by order on Friday, April
+17, 2009**, noting the parties had "agreed to an amicable resolution of
+this matter" — settlement terms undisclosed, court retaining jurisdiction
+only if either side failed to execute the agreement (no record that
+happened). Three weeks from cease-and-desist to dismissal, against one of
+the largest advertisers in the country, is a genuine local-business win —
+worth noting alongside the "anti-union kushy lives" characterization above
+as a second, very different register of the same underlying trait: Rick's
+business asserting itself aggressively and effectively when its own
+interests were at stake.
 
 ## Funding the exit: NYC, 2010
 
@@ -450,8 +496,9 @@ Episcopalian himself ([[wiki/self/ancestry]]). One of the four documented
 generations of functional alcoholism. Multiple Uniontown residences on
 record through 1989–2002; current address unconfirmed.
 
-**Gaps (several flagged in CATO itself):** the Ford trademark litigation
-outcome; whether the business still exists or when it was sold; his side of
+**Gaps (several flagged in CATO itself):** ~~the Ford trademark litigation
+outcome~~ — resolved 2026-08-11, see "The Ford trademark suit, 2009" above.
+Whether the business still exists or when it was sold; his side of
 the 2005 events, the Tan Calabrese incident, and every instance of the
 childhood public-humiliation pattern is entirely unrecorded from his own
 perspective — everything on this page is Dan's corpus. Whether the
