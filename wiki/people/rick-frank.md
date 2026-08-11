@@ -5,7 +5,7 @@ title: "Richard Harrison \"Rick\" Frank"
 aliases: ["Rick", "Frank Sr."]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-08-02
+date_modified: 2026-08-11
 infobox:
   name: Rick Frank
   status: Estranged
@@ -22,6 +22,8 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Gemini-_58.txt
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/rickfrank_-wir6jjh_a/message_1.html"
+  - raw/self/message-csv/imessage_7243667777_both_all_now.csv
+  - raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
   - page: wiki/legal/2015-possession-arrest
@@ -32,7 +34,7 @@ connections:
     claim: "The night of the April 2017 overdose is the corpus's only record of Rick having delivered a direct addiction warning to his son — Dan quotes it back to him verbatim: called over to Cross Creek and told that 'there is no turning back from opiates and heroin, that you lose a part of yourself and your ability to be happy.'"
   - page: wiki/mind/synthesis/block-unblock-loop
     type: component-of
-    claim: "The Rick amputation — a 12-day burst then a decade of unanswered inbound — is the loop's held-block control case, proving severance holds exactly where no dependency flows through the channel."
+    claim: "CORRECTED 2026-08-11: the Rick amputation is a single ~20-hour outbound window (Dec 2 evening–Dec 3 midday, 2015), not the previously stated 12-day burst, followed by a decade of unanswered inbound (13 dated reaches 2025–26, up from the prior figure of 12) — the loop's sharpest held-block control case, proving severance holds exactly where no dependency flows through the channel."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "Frank's Auto Supermarket is the money spine's paternal source-line — the anti-union 'kushy lives' engine Dan indicts in the Aug 22 2020 message, one day after his own estate distribution order was signed."
@@ -137,9 +139,88 @@ reply from you... I'm proud of you, boy!"
 
 ## The relationship on the record
 
-The corpus's texture is sparse but pointed, and reads differently depending
-on the register. The best-documented single exchange is the morning of Dan's
-ARD hearing (February 17, 2016 —
+**The single most consequential exchange in the corpus was, until this pass,
+undocumented on this page: the December 2–16, 2015 rupture**, recovered
+complete and two-sided from `imessage_7243667777_both_all_now.csv` — the one
+export in the corpus carrying both Rick's and Dan's messages on this specific
+channel, all time. It turns the vague "brief and logistical, financially
+withholding" profile-dossier read into a dated, specific mechanism, and it is
+the strongest available answer to why contact with Rick reads as a "loudest
+silence" now rather than active anger.
+
+**The sequence.** On the afternoon of December 2, 2015 — three days into
+what would become the [[wiki/people/annie-ulmer|Annie]] relationship — Dan
+texted Rick "Gonna call you in a little bit. I have some news and I think
+you will be very very happy." Four hours later the news collapsed:
+"Nevermind. There's no good news." Rick's reply, reasonable on its face —
+"Not everything call has to be amazing news. Can u talk now?" — met a raw
+refusal: "No I can't. I don't know who it was that said something but that
+was enough to fuck the whole thing up." Late that night, unprompted, Dan
+volunteered what had actually happened, in the most vulnerable message to
+Rick on record: Annie's parents "finding out the way they did" and Dan's own
+"bad reputation" were "enough for them to squash it" — he'd left
+[[wiki/people/alexis-armel|Alexis]] within a week of meeting Annie, it
+mattered enough that he'd already "got a job" and "quit smoking" because of
+it, and he was planning to write Annie's parents a letter asking permission.
+(This is the same night `annie-ulmer.md` dates from Annie's side — "I'm
+really really scared that you won't want this anymore" — previously
+documented there only as a bare date with no context for what the fear was
+about; a parental veto attempt on the relationship's fourth day, not yet
+recorded anywhere, now is.)
+
+Rick's response to that disclosure was support, not judgment — "Call me
+tomorrow. If u want, I can help u work thru this" — and the next eleven days
+are an unbroken run of Rick reaching out: an invitation to "stop by," a
+request to "give me an approx time," an apology for "misfires," a
+chicken-and-pretzels invite on the 12th. On December 13, Dan initiated
+once — "Hey what's your day look like" — got an immediate, itemized reply
+(errands, the Steelers, a retirement dinner, "What yinz up to?"), then went
+quiet for the rest of the day. Rick followed up twice more that afternoon:
+"Hello?" and, at 3:46pm, **"Yeah I get blown off again."** Three days later —
+preserved only in the separate `all_imessages_complete_dump.txt` export, not
+the per-number CSV — it escalates once more: **"I guess that u don't need me
+anymore so I get kicked to the curb."**
+
+**That is the last message Dan ever sent to this number.** The per-number
+export contains no further outbound message from Dan through a decade and
+dozens of inbound texts from Rick: a missed family gathering (April 2017),
+"Thank u... Have fun" (Nov 2019), a gap of over five years, then a
+2025–26 tail of thirteen dated, unanswered reaches — "What's going on?"
+(Aug 13), two photo attachments with no caption (Aug 19, Aug 23), "When is a
+good time to get together? You can fill me in on what you've been up to"
+(Sep 8), "What are you up to?" (Oct 9), a Halloween check-in (Oct 31), two
+birthday messages the same day (Nov 1), **"Is there some reason that I'm in
+timeout?"** (Nov 10), "How are you doing?" (Nov 16), **"Have you been a good
+boy this year? Santa's watching!"** (Dec 10), a note that his old ski boots
+are "still hanging around if you get the urge to shred the slopes" (Dec 22),
+and an unprompted political question, "Do you think the ultra wealthy should
+be taxed in NYC?" (Jan 1, 2026) — this list supersedes the previously cited
+"twelve unanswered reaches" with the verified count of thirteen.
+
+**Read as a mechanism rather than a mood, the pattern is exact.** Every
+inbound message either requests a scheduled commitment ("give me an approx
+time," the repeated "what are you up to" checks, an itemized-schedule reply
+that functions as an implicit demand for Dan's own itinerary in return) or
+frames Dan's non-response as a personal verdict on Rick specifically:
+"blown off," "kicked to the curb," "in timeout," "good boy... Santa's
+watching." None of it reads angry; all of it assumes rejection before
+rejection is confirmed, and all of it treats ordinary social contact — chicken,
+pretzels, skiing, hockey — as something owed an accounting or a check-in, a
+supervisory register laid over invitations that are otherwise completely
+mundane. Dan's own side of the channel, by contrast — the handful of
+substantive outbound messages that exist across the whole decade (the Dec 2
+apology, the April 2017 addiction-talk reply below) — is direct, unguarded,
+and non-defensive; nothing in the record shows Dan initiating a guilt appeal
+or a scheduling demand toward Rick. **The asymmetry is not a mood, it is
+what the primary record contains:** one side treats contact as a reporting
+obligation and reads silence as personal abandonment; the other side went
+quiet once, over one bad night in 2015, and never broke that silence again,
+while the check-ins kept arriving in a register that makes re-opening the
+channel feel like walking back into a supervision structure rather than a
+conversation.
+
+Another well-documented exchange is the morning of Dan's ARD hearing
+(February 17, 2016 —
 [[wiki/legal/2015-possession-arrest]]): Rick wanted to attend and talked
 himself out of it — "You're obviously more comfortable with your mom. She's
 pretty well connected & I bet she knows the Judge also... I don't want to
@@ -178,8 +259,9 @@ only one, and it shifts toward engaged and directive exactly when Dan is
 in a fight with an outside authority rather than asking for emotional
 validation.
 
-A third register — neither logistical nor strategic-coaching but the two men
-talking about the thing they actually have in common — runs on the evening
+A fourth register — neither logistical, guilt-laden, nor strategic-coaching
+but the two men talking about the thing they actually have in common — runs
+on the evening
 of **April 11, 2017**, and it is the closest thing on record to that
 conversation. Dan told Rick that a friend had died of an overdose that day
 ([[wiki/people/jay-lauer|Jay Lauer]]), described his own failed attempt to
@@ -212,4 +294,9 @@ near-collapse was fixed. The Facebook Messenger thread preserves only Rick's
 outgoing messages, not Dan's replies, so its texture (invitations, terse
 insistence) is one-sided by construction — a corroborating source with
 Dan's side would settle whether the "fucking kidding" landlord message
-(Feb 2013) was ever actually resolved and how Dan received it.
+(Feb 2013) was ever actually resolved and how Dan received it. What
+Annie's parents actually objected to, beyond "the way they did" finding
+out and Dan's "bad reputation" (Dec 2, 2015), is unrecorded — no letter to
+them survives in the corpus, and whether one was ever sent is unknown. The
+two photo attachments in the 2025 tail (Aug 19, Aug 23) were not decoded
+for this pass — their content could matter and is worth a targeted look.

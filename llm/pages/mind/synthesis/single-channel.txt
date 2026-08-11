@@ -6,7 +6,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-10
+date_modified: 2026-08-11
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -292,3 +292,9 @@ the identity this page states is unaffected. No finding here changes.
 > chat archive supports rather than strains it: six years of daily,
 > single-target relational traffic is the same concentration shape the Gini
 > measures, observed in a source that had never been read.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/the-unbroken-bond]] moved the same day, but only to
+> add a RE-CHECKED note of its own confirming an unrelated Annie-page edit
+> didn't touch its argument — no new claim, date, or figure was introduced.
+> This page's dependency on it is untouched.

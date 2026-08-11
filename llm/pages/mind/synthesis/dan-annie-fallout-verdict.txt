@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-10
+date_modified: 2026-08-11
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
@@ -247,3 +247,11 @@ The distinction is not tone. It is whether the analysis engages the proposition
 or the person holding it. Both human and AI analysis of this corpus is bound by
 it, and the failure mode recurs specifically when the analysis believes it is
 being rigorous.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/people/annie-ulmer]] gained one new detail on the December 2, 2015
+> origin night: her parents' attempted veto of the relationship, recovered
+> from Rick Frank's side of the corpus. It deepens an existing citation
+> (the Dec 2 fear-of-abandonment message) with a concrete cause and touches
+> neither the money figures, the twenty-four-hour switch dating, nor any
+> other claim this page's verdict draws on. Nothing here needed revising.
