@@ -5,8 +5,9 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-10
+date_modified: 2026-08-11
 sources:
+  - raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
@@ -48,7 +49,7 @@ connections:
     claim: "Trust 9 / Altruism 1 / Submissiveness 1 / Assertiveness 5 is the architecture as measurement: he exits the axis and audits it, neither obeying nor competing."
   - page: wiki/people/rick-frank
     type: caused-by
-    claim: "The November 2005 hinge — the trusted paternal figure maintaining a concealed alternate reality — is the documented template the skepticism generalizes."
+    claim: "Two candidate origins, not one: the November 2005 hinge (a trusted vertical figure's concealed alternate reality) and, earlier and dictated directly by Dan, a childhood pattern of public confrontation and humiliation over unpredictable 'moral' infractions — the Tan Calabrese/Angelfire incident is the clearest instance — which teaches distrust of a vertical figure's judgment rather than only their honesty."
   - page: wiki/people/suzanne-frank
     type: caused-by
     claim: "The hinge's maternal half — the affair with the dealer surfacing — completes the template: both parental verticals running concealed realities at once."
@@ -82,13 +83,40 @@ lateral-solidarity-privileging."
 
 ## The template: family verticals
 
-The skepticism has a documented genealogy. The November 2005 hinge — father
-into rehab for cocaine, mother's affair with the dealer surfacing, the
-marriage ending — established the template of the trusted vertical figure
-maintaining a concealed alternate reality ([[wiki/people/rick-frank]],
+The skepticism has a documented genealogy, and it now has two candidate
+origins rather than one. The November 2005 hinge — father into rehab for
+cocaine, mother's affair with the dealer surfacing, the marriage ending —
+established the template of the trusted vertical figure maintaining a
+concealed alternate reality ([[wiki/people/rick-frank]],
 [[wiki/people/suzanne-frank]]). The spine names the residue an "undischarged
 paternal-authority wound"; the pervasive multi-generational family
-alcoholism pattern gave the template repetition. Even the positive pole is
+alcoholism pattern gave the template repetition.
+
+**A second, earlier candidate origin surfaced 2026-08-11, dictated directly
+by Dan rather than inferred from message data.** Independent of the 2005
+concealment, Rick had a childhood pattern of publicly confronting and
+humiliating Dan over "matters for address" — most vividly, pulling him out
+of rooms at parties, stores and family functions to scream at him where the
+people who'd just seen him leave could still hear it. The mechanism this
+adds to the vertical-authority thesis is different in kind from concealment:
+2005 teaches that a vertical figure's *stated* reality can be false; the
+childhood pattern teaches that a vertical figure's *judgment of what counts
+as an infraction* is unpredictable and its enforcement is public rather than
+private — which is arguably the more direct behavioral template for
+skepticism of authority as such, rather than skepticism of any one
+authority's honesty. The clearest single instance is the
+[[wiki/people/tan-calabrese|Tan Calabrese]] Angelfire incident: Rick found a
+"harmless" website in the family browser history, decided unilaterally that
+it violated "the spirit of the rule making institution itself," and
+enforced that reading by confronting Tan and humiliating Dan in front of
+him — a private, victimless act reclassified into a public one by a
+vertical figure's own unappealable judgment. Dan's aunt Wendy (Rick's
+sister) independently holds a version of this same theory — that this
+specific pattern, not general estrangement, is the source of Dan's present
+reluctance to be around Rick. Full account, dictated in Dan's own words:
+`raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md`.
+
+Even the positive pole is
 structurally lateral: great-grandmother Fran, the self-described biggest
 life influence, related to him as peer and patron (the Numark NS7 gift), not
 as authority ([[wiki/people/fran-coldren]]). The ancestry layer adds the

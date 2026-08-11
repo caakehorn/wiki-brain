@@ -266,25 +266,32 @@ built on it describes a one-sided thread that is not one-sided; the tell is a
 page reporting "all received (export artifact)". **Any claim about what Dan said
 must come from the dump.**
 
-**Per-contact `imessage_<number>_both_all_now.csv` exports** —
+**Per-contact `imessage_<number>_both_all_now.csv` exports — trustworthy for
+discovery, NOT trustworthy for completeness until cross-checked.**
 `raw/self/message-csv/` holds dozens of these, one per phone number, each
-carrying *both* directions for that single contact, all time. They are easy to
-walk past because the filename is a phone number, not a name, and because the
-general dumps already look like they cover the same ground. They usually
-don't: the general dumps are one-sided-by-artifact or missing whole years
-(2022 and 2026 absent from the iMessage dump; nearly everything marked
-`Received` in the master CSV), while a per-contact export is often the single
-most complete, most authoritative record of one specific relationship in the
-whole corpus — frequently under 50 lines, cheap to read to full exhaustion in
-one pass, and the only place a relationship's real shape (who initiates, who
-goes quiet, the actual last message either side ever sent) is directly visible
-rather than inferred from a dossier's paraphrase. Before writing or revising
-any person page with message-based content, check
-`ls raw/self/message-csv/ | grep <every known number for that person>` and
-read whatever comes back completely — a 43-line file that had never been
-cited anywhere produced the largest single correction of the 2026-08-11
-Rick pass, reversing a "12-day burst" claim that three separate pages had
-been carrying forward from a dossier's un-verified summary.
+carrying *both* directions for that single contact. They are easy to walk
+past because the filename is a phone number, not a name, and because the
+general dumps already look like they cover the same ground — genuinely
+useful for that reason, since a per-contact export is often the fastest way
+to find a relationship's real shape (who initiates, who goes quiet) without
+wading through the full dump. **But "all_now" in the filename is a claim,
+not a fact, and this pass caught the claim being false in the most damaging
+possible way.** A 43-line Rick Frank export, read and trusted as complete,
+produced a wrong, emotionally-loaded published finding — "a 12-day outbound
+burst, then a decade of silence" — that stood across three pages for
+several hours before a routine cross-check against
+`all_imessages_complete_dump.txt` turned up **over 1,600 messages** for the
+same number the "all_now" file had reduced to 43. The general dump is
+itself incomplete in different ways (2022 and 2026 absent entirely, per the
+next paragraph), so neither source alone is safe to call complete. **The
+rule: read the per-contact CSV first for orientation, but before publishing
+any claim about message count, last-contact date, or "silence," grep the
+same number against the full dump and reconcile the two — if they disagree,
+the fuller one wins, and the disagreement itself is worth a sentence on the
+page,** the way this correction now is on `rick-frank.md`. Treat "this
+export is titled all-time" with exactly the skepticism `EXTRACTION_SPEC`
+already tells you to apply to a dossier's paraphrase — a filename's promise
+is not a citation.
 
 **Contact identity** — `contacts.csv` (Google) merges records aggressively, so
 one card can carry numbers belonging to two people. The Facebook address book

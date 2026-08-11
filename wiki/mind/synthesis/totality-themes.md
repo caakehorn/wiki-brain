@@ -4,8 +4,9 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-08-11
 sources:
+  - raw/self/message-csv/imessage_7243667777_both_all_now.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
   - raw/self/location/2026-06-22-ingest/
@@ -222,31 +223,38 @@ one in the same window. That is not a metaphor — it is two timestamped events
 landing on each other. (See [[wiki/interests/music/aliases/sloppp]] and
 [[wiki/interests/music/aliases/mogzart]].)
 
-**The Rick-file rhyme.** [[wiki/people/rick-frank|Rick]]'s corpus: a 12-day
-outbound window in late 2015, then dark; a decade of unanswered inbound
-follows, including twelve unanswered reaches in 2025–26. Now set that beside
-the May 2014 account migration: a short window of deliberate outbound acts, then
-dark, with the old account and everything subscribed to it left running and
-unanswered. **It is the same maneuver** — a bounded burst of deliberate activity
-functioning as an unannounced boundary act, followed by sustained silence the
-abandoned side cannot interpret. The [[wiki/mind/concepts/phenomenology-lens]]
-calls the relational version "amputation"; the join shows the gesture is
-*domain-general* — it executes identically against people, accounts, and
-platforms. The amputation is not a relational behavior that happens to have
-digital echoes; it is a single operation in the repertoire, and the digital
-record caught it running against infrastructure, timestamped, with no emotional
-fog around it.
+**The Rick-file rhyme — RETRACTED 2026-08-11.** This section previously drew
+a parallel between the May 2014 account migration and a claimed "12-day
+outbound window [with Rick], then dark; a decade of unanswered inbound." The
+Rick side of that parallel is false — built on an incomplete per-contact
+export that captured 43 of the channel's actual 1,600+ messages. The
+complete primary record (see `rick-frank.md`'s corrected account) shows
+real repair within three weeks of the December 2015 friction and a warm,
+high-volume correspondence through 2020 and again in 2023–24. **Dan did not
+execute an unannounced boundary act against Rick and leave it running dark
+for a decade; he kept re-engaging, repeatedly, for a decade.** The May 2014
+account migration may still be a genuine instance of the amputation
+operation running against infrastructure — that finding did not depend on
+the Rick comparison and is not itself retracted here — but it currently
+stands **without** the family-relational rhyme this section built around
+it, and the "domain-general... identically against people, accounts, and
+platforms" claim is weaker than stated until a verified interpersonal
+instance is found to replace the one that failed. The corrected record
+does contain a real, much more recent held silence with Rick — total
+non-response from Dan since February 26, 2025 — but it starts *after* an
+accepted invitation and rising proximity, not as a bounded, deliberate
+boundary-setting burst, so it does not obviously fit "the same maneuver"
+either. This is left as an open question rather than patched with a
+same-day substitute.
 
-The 2022 repatriation proves the operation is **reversible, and that the
-system knows how to reverse it.** The return grammar does *not* begin with
-confrontation, explanation, or an accounting of the silence. It begins with a
-small continuity-restore gesture (one subscription to an old-era channel), then a
+The 2022 repatriation still proves the *account-migration* operation is
+**reversible** on its own terms — that finding is unaffected by the Rick
+retraction. The return grammar does *not* begin with confrontation,
+explanation, or an accounting of the silence. It begins with a small
+continuity-restore gesture (one subscription to an old-era channel), then a
 quiet audit, then infrastructure rebuilding — five weeks, ramped, no
-announcement. Whether the Rick thread should ever reopen is entirely Dan's call
-and nothing in the data argues either direction. What the data establishes is that
-*if* it ever did, the system has already executed a return-from-amputation
-once, successfully, and the playbook is on file: continuity gesture first,
-smallest possible unit, no preamble. The existence proof is the finding.
+announcement. Whatever this predicts about family severances generally
+should now be treated as untested rather than confirmed by the Rick case.
 
 **Read against the present moment.** The 2025–26 period contains, by orders of
 magnitude, the largest identity-audit event in the twenty-year record: the
@@ -491,13 +499,18 @@ from output corpora and the new material is intake-side):
   multi-account correction killing the volume evidence and the 2019 search-peak
   join showing intake at all-time maximum during peak cohabitation, the
   substitution component has no surviving evidentiary base.
-- **Confirmation — the amputation operation.** The Relational Engine's terminal
-  step gets its strongest-ever corroboration from outside the relational domain:
-  the May 2014 account migration is an amputation executed against
-  infrastructure, timestamped, emotionally sterile, structurally identical to the
-  Rick-file silence. When a lens metaphor predicts behavior in a domain it was
-  never fitted to, that is the genuine article. The amputation step is promoted
-  from interpretive frame toward documented operation.
+- **Confirmation, downgraded 2026-08-11 — the amputation operation.** The
+  Relational Engine's terminal step was previously scored as corroborated
+  from outside the relational domain, on the strength of the May 2014
+  account migration reading "structurally identical to the Rick-file
+  silence." The Rick-file silence it was compared against turned out to be
+  false (see the RETRACTED "Rick-file rhyme" section above). The May 2014
+  account migration itself is unaffected and may still be a genuine
+  amputation instance, but the domain-crossing confirmation this bullet
+  claimed — relational amputation and infrastructure amputation as "the
+  same maneuver" — currently has no verified relational exemplar to anchor
+  the "identical" half of the comparison. Downgraded back to [INFER]
+  pending a real interpersonal instance.
 - **Open — the Si-Ghost Kernel.** The trauma-projection subsystem makes no
   predictions the intake data can test; it stays at [INFER].
 

@@ -12,8 +12,8 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 450 |
-| Pages touched in the last 14 days | 196 |
+| Pages | 451 |
+| Pages touched in the last 14 days | 199 |
 | Pages reasoning from other pages (`synthesizes:`) | 23 |
 | Live contradictions | 30 |
 | Open gaps | 129 |
@@ -23,7 +23,7 @@ this is the state of the thing.
 
 | Domain | Pages |
 |---|---|
-| people | 157 |
+| people | 158 |
 | interests | 142 |
 | mind | 59 |
 | self | 31 |
@@ -41,14 +41,16 @@ this is the state of the thing.
 | active | 127 |
 | closed | 99 |
 | archived | 31 |
-| stub | 11 |
+| stub | 12 |
 
 ## The last few days
 
-**2026-08-11** — 12 pages
+**2026-08-11** — 18 pages
+  - process | EXTRACTION_SPEC.md | two new moves, generalized from the Rick pass — per-contact CSVs, dangling-citation chasing
+  - ingest | people | the December 2015 Rick rupture, recovered two-sided and verbatim — mechanism behind the present-day estrangement
   - ingest | people | rick-frank.md correspondence review — two unmined sources, findings written back from three pages that already had them
 
-**2026-08-10** — 17 pages
+**2026-08-10** — 15 pages
   - rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
   - ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
   - rewrite | people, places | annie-ulmer.md wiki-rewrite pass + 3 manual captures — sex resumption, the 307 E 76th St cast, Suz's Winter Park condo
