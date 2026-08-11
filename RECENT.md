@@ -10,6 +10,8 @@ simply listed.
 
 ## 2026-08-11 — 12 pages
 
+- **Session log:** process | EXTRACTION_SPEC.md | two new moves, generalized from the Rick pass — per-contact CSVs, dangling-citation chasing
+- **Session log:** ingest | people | the December 2015 Rick rupture, recovered two-sided and verbatim — mechanism behind the present-day estrangement
 - **Session log:** ingest | people | rick-frank.md correspondence review — two unmined sources, findings written back from three pages that already had them
 
 | Page | Domain | What moved |
@@ -27,7 +29,7 @@ simply listed.
 | [[wiki/people/annie-ulmer]] | people | _(carries a CORRECTED from 2026-08-10)_ |
 | [[wiki/people/rick-frank]] | people | — |
 
-## 2026-08-10 — 17 pages
+## 2026-08-10 — 20 pages
 
 - **Session log:** rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
 - **Session log:** ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
@@ -44,6 +46,7 @@ simply listed.
 | [[wiki/mind/psychosexual/taboo-and-boundary-testing]] | mind | **CORRECTED** — This page previously said the orientation- violation claim had "no independent primary-source example... in the corpus searched for this page" and called it "the thinnest-supported claim in this entir |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page as stale against exocortex, edited the same day to add one new connections edge (to the new axioms page) reading the CATO persona's origin line p |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
+| [[wiki/people/jerad-friedline]] | people | **CORRECTED** — The previous record cited 879 messages with handle +191****3615. Verification against `MASTER_MESSAGES_DB_DUMP.csv` reveals 857 total messages (832 received from Jerad, 25 sent to Jerad). ## The finan |
 | [[wiki/people/jim-blanchard]] | people | — |
 | [[wiki/people/john-paci]] | people | — |
 | [[wiki/people/katherine-palakovich]] | people | — |
@@ -53,24 +56,36 @@ simply listed.
 | [[wiki/people/suzanne-frank]] | people | **CORRECTED** — the exact address is now on record, supplied directly by the operator — **2924 Antique Oaks Circle, Winter Park, FL** — a unit in the **Parkview Village** condominium community (commonly listed at 350 |
 | [[wiki/places/307-e-76th-st]] | places | — |
 | [[wiki/places/90th-st-manhattan]] | places | **CORRECTED** — This section previously stated the exit as "February 2012" without qualification. A dedicated pass on creative-license and kevin-mckiernan found the date is contradicted between sources: Dan's own rés |
+| [[wiki/timeline/periods/2020-2021-market-era]] | timeline | — |
 | [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
+| [[wiki/work/fastly-fsly]] | work | — |
 
-## 2026-08-09 — 10 pages
+## 2026-08-09 — 18 pages
 
+- **Session log:** ingest | self/timeline/people/interests | extreme-sports era expanded with visual documentation
+- **Session log:** ingest | self/extreme-sports, people, places, interests | childhood extreme-sports era captured
 - **Session log:** ingest | people, timeline, mind | canonical Jerel Coles page + August 8–9 unmasking night + read-receipt forensics (external content pack incorporated)
 - **Session log:** edit | people, mind | operator correction — Tuquick and the unnamed man confirmed as one person
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/interests/extreme-sports]] | interests | — |
 | [[wiki/mind/concepts/forensic-method]] | mind | — |
 | [[wiki/mind/concepts/node-locking]] | mind | — |
 | [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | — |
 | [[wiki/people/index]] | people | — |
 | [[wiki/people/jerel-coles]] | people | — |
+| [[wiki/people/matt-kraus]] | people | — |
+| [[wiki/people/nathan-king]] | people | — |
+| [[wiki/people/tan-calabrese]] | people | **REVISED** — The identity split hypothesis is wrong. Dan's own message corpus contains a direct childhood reference: "tan calabrese told me that our parents did tons of blow when i was 11 years old" (2000-12-31),  |
 | [[wiki/people/the-unnamed-man]] | people | **REVISED** — On 2026-08-08 Dan ran a FOREWARN background lookup that identified Tuquick — the man Annie left Dan for in May/June 2026 — as **Jerel Wayne Coles**, 36, of 106 Nassau S |
+| [[wiki/people/tom-wallisch]] | people | — |
 | [[wiki/people/tuquick-17248123683]] | people | **REVISED** — The operator states directly: "They are the same person — tuquick and unnamed" (filed at 2026-08-09-tuquick-unnamed-man-correction). Tuquick is the-unnamed-man. jerel-coles is |
+| [[wiki/places/seven-springs]] | places | — |
+| [[wiki/timeline/events/annie-alexis-reunion-november-2018]] | timeline | — |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
+| [[wiki/timeline/events/robotussin-s-last-dance]] | timeline | — |
 | [[wiki/timeline/index]] | timeline | — |
 
 ## 2026-08-08 — 4 pages
@@ -301,7 +316,7 @@ simply listed.
 | [[wiki/timeline/periods/dec-2025-spike]] | timeline | — |
 | [[wiki/work/tech/max-framework/overview]] | work | — |
 
-## 2026-07-25 — 13 pages
+## 2026-07-25 — 12 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -309,7 +324,6 @@ simply listed.
 | [[wiki/people/mike-hinkle]] | people | — |
 | [[wiki/people/rod-banks]] | people | — |
 | [[wiki/people/slim]] | people | — |
-| [[wiki/people/tan-calabrese]] | people | — |
 | [[wiki/people/zach-clabaugh]] | people | — |
 | [[wiki/people/zach-hendricks]] | people | — |
 | [[wiki/self/ancestry]] | self | — |
@@ -319,7 +333,7 @@ simply listed.
 | [[wiki/self/lineage/index]] | self | — |
 | [[wiki/work/caviar-courier]] | work | — |
 
-## 2026-07-20 — 42 pages
+## 2026-07-20 — 41 pages
 
 - **Session log:** ingest | people | FB deep-scrape XII — matthew-palermo (new tier-one entry)
 - **Session log:** ingest | people | FB deep-scrape XIII — david-beard (new tier-one entry)
@@ -391,7 +405,6 @@ simply listed.
 | [[wiki/people/shelbie-breakiron]] | people | — |
 | [[wiki/people/tarik-fallous]] | people | **REVISED** — the prior version of this page stated flatly that "Tarik is a peripheral work figure with no independent message corpus" and that everything here came from the Gemini "STORYTIME" reconstruction. That  |
 | [[wiki/places/index]] | places | — |
-| [[wiki/places/seven-springs]] | places | — |
 | [[wiki/self/youtube-watch-history]] | self | **REVISED** — the older export's own "Watched" counts (this page's 17,302, and the 17,426 total-events figure cited on intake-constancy and totality-themes) were never broken out by whether the "watch" was |
 | [[wiki/timeline/events/eli-incident]] | timeline | **REVISED** — the Eli discovery text was dossier-transcribed only through 2026-07-18 (three prior re-searches of `raw/` came up empty because the quote was searched as one string; iMessage actually split it into si |
 | [[wiki/timeline/events/march-2026-terminal-phase]] | timeline | — |
@@ -402,7 +415,7 @@ simply listed.
 | [[wiki/work/tech/index]] | work | — |
 | [[wiki/work/tech/mneme/overview]] | work | — |
 
-## 2026-07-19 — 50 pages
+## 2026-07-19 — 49 pages
 
 - **Session log:** ingest | people | long-tail MINE pass (sam, davey-fitzpatrick, vaughn, nick-mattie, urpaaa) + kezmarsky death-claim correction
 - **Session log:** ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
@@ -470,12 +483,11 @@ simply listed.
 | [[wiki/people/vaughn]] | people | — |
 | [[wiki/people/zachariah-harshman]] | people | — |
 | [[wiki/self/tattoos]] | self | — |
-| [[wiki/timeline/events/annie-alexis-reunion-november-2018]] | timeline | — |
 | [[wiki/timeline/periods/covid-era-2020]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | — |
 | [[wiki/work/bfs-foods]] | work | — |
 
-## 2026-07-18 — 16 pages
+## 2026-07-18 — 15 pages
 
 - **Session log:** ingest | work+people | Gemini-_02 Au Za'atar storytime fully mined (50 approved data points); chats/gemini-02 page retired
 - **Session log:** build | meta | bin/llm-publish — public LLM access point (llm/) served by GitHub Pages
@@ -503,7 +515,6 @@ simply listed.
 | [[wiki/places/337-saratoga-drive]] | places | _(carries a REVISED from 2026-07-13)_ |
 | [[wiki/timeline/periods/2010s]] | timeline | **REVISED** — an earlier version of this page framed "NYC Round One" as 2010–2014 and described Alexis as "met through webcam work." Both are corrected against the canonical context-core §4 residence timeline. NYC- |
 | [[wiki/timeline/periods/2018-deep-cycle]] | timeline | — |
-| [[wiki/timeline/periods/2020-2021-market-era]] | timeline | — |
 | [[wiki/timeline/periods/2021-2023-employment-block]] | timeline | — |
 | [[wiki/timeline/periods/2025-collapse]] | timeline | — |
 | [[wiki/timeline/periods/uniontown-return-2013-2015]] | timeline | — |
@@ -533,14 +544,13 @@ simply listed.
 | [[wiki/interests/the-office]] | interests | — |
 | [[wiki/interests/video-games]] | interests | — |
 
-## 2026-07-15 — 4 pages
+## 2026-07-15 — 3 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/people/alex-frank]] | people | — |
 | [[wiki/people/emaly-minerd]] | people | — |
 | [[wiki/self/gemini-activity/archive/v1-extract]] | self | — |
-| [[wiki/work/fastly-fsly]] | work | — |
 
 ## 2026-07-14 — 48 pages
 
@@ -650,32 +660,6 @@ simply listed.
 | [[wiki/work/index]] | work | — |
 | [[wiki/work/tech/vibe-coding-games]] | work | — |
 
-## 2026-07-12 — 1 page
-
-- **Session log:** build | all | GUI v2: collapsible sidebar, page rename with wiki-wide link rewrite, in-GUI ingest loop (pack/copy/apply), git sync pill + public-repo warning banner
-- **Session log:** rename | people | wiki/people/annie.md -> wiki/people/annie-ulmer.md (45 pages relinked) via app
-- **Session log:** rename | people | wiki/people/aaron.md -> wiki/people/aaron-gaither.md (2 pages relinked) via app
-- **Session log:** rename | people | wiki/people/bruceburish.md -> wiki/people/bruce-burish.md (2 pages relinked) via app
-- **Session log:** rename | people | wiki/people/felix.md -> wiki/people/john-felix.md (5 pages relinked) via app
-- **Session log:** rename | people | wiki/people/johnny-dealer.md -> wiki/people/johnny-anderson.md (3 pages relinked) via app
-- **Session log:** rename | people | wiki/people/kristin.md -> wiki/people/kristin-prentiss.md (2 pages relinked) via app
-- **Session log:** rename | people | wiki/people/marc-charles.md -> wiki/people/marc-umbel.md (3 pages relinked) via app
-- **Session log:** rename | people | wiki/people/max-danielle-bf.md -> wiki/people/james-onesi.md (5 pages relinked) via app
-- **Session log:** rename | people | wiki/people/shannon.md -> wiki/people/shannon-muma.md (2 pages relinked) via app
-- **Session log:** rename | people | wiki/people/suz.md -> wiki/people/suzanne-frank.md (25 pages relinked) via app
-- **Session log:** rename | people | wiki/people/trin.md -> wiki/people/trinity-st-clair.md (2 pages relinked) via app
-- **Session log:** edit | people | human edit via app: wiki/people/trinity-st-clair.md
-- **Session log:** rename | people | wiki/people/annie.md -> wiki/people/annie-ulmer.md (45 pages relinked) via app
-- **Session log:** rename | people | wiki/people/suz.md -> wiki/people/suzanne-frank.md (25 pages relinked) via app
-- **Session log:** rename | people | wiki/people/trin.md -> wiki/people/trinity-st-clair.md (2 pages relinked) via app
-- **Session log:** enrich | people | mined MASTER_MESSAGES_DB_DUMP.csv for top non-Annie contacts: kristin (+corpus texture, fixed librarian error via CONTRADICTION flag), tom (phloxenheim AI-collab thread + political banter), jerad-friedline (full rewrite: verbatim FSLY $200k tip, Tesla calls, Josh Brannan origin), vanessa-frank (full rewrite: political kinship, family back-channel); corrected +13476070497 roster mislabel (dealer, not family)
-- **Session log:** rename | people | wiki/people/fran-whyel.md -> wiki/people/fran-coldren.md (14 pages relinked) via app
-- **Session log:** rename | people | wiki/people/jackson-alexander.md -> wiki/people/alexander-jackson.md (12 pages relinked) via app
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/people/jerad-friedline]] | people | — |
-
 ## 2026-07-11 — 10 pages
 
 - **Session log:** build | all | v2 repository created: structure, capture tool, export tool, CLAUDE.md
@@ -717,4 +701,31 @@ simply listed.
 | [[wiki/self/facebook]] | self | _(carries a REVISED from 2026-06-23)_ |
 | [[wiki/self/facebook/interests]] | self | — |
 | [[wiki/self/gemini-activity/gemini-activity]] | self | — |
+
+## 2026-06-23 — 22 pages
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/interests/favorites/art-and-movies]] | interests | — |
+| [[wiki/interests/favorites/books]] | interests | _(carries a CORRECTED from 2026-08-08)_ |
+| [[wiki/interests/favorites/eclecticism]] | interests | — |
+| [[wiki/interests/favorites/index]] | interests | — |
+| [[wiki/interests/favorites/taste-profile]] | interests | — |
+| [[wiki/interests/music/overview]] | interests | — |
+| [[wiki/people/kim]] | people | — |
+| [[wiki/people/max]] | people | — |
+| [[wiki/self/chats/danfrank-isms-pinned]] | self | — |
+| [[wiki/self/chats/gemini-07]] | self | — |
+| [[wiki/self/chats/gemini-18]] | self | — |
+| [[wiki/self/chats/gemini-21]] | self | — |
+| [[wiki/self/chats/gemini-58]] | self | — |
+| [[wiki/self/chats/j6-chat]] | self | — |
+| [[wiki/self/facebook/friends]] | self | — |
+| [[wiki/self/facebook/messages]] | self | — |
+| [[wiki/self/facebook/posts]] | self | — |
+| [[wiki/self/favorites]] | self | — |
+| [[wiki/timeline/events/end-fight]] | timeline | — |
+| [[wiki/timeline/events/timeline]] | timeline | — |
+| [[wiki/work/tech/grok-build/overview]] | work | — |
+| [[wiki/work/tech/imessage-tooling/overview]] | work | — |
 
