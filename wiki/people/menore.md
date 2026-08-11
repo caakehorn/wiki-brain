@@ -38,6 +38,9 @@ connections:
   - page: wiki/mind/synthesis/block-unblock-loop
     type: evidences
     claim: "Menore is the loop's dependency-rule control: no block was ever needed here because geography ended the dependency, exactly as the rule predicts — but this thread's own 2,044-day silence, answered in one minute, is what made the February 2025 farewell provisional on elapsed time rather than the corpus's one settled clean close."
+  - page: wiki/work/creative-license
+    type: co-occurs
+    claim: "The quoted line contrasting Menore's reliability with 'Creative License style fraud' shows the earlier employer had become Dan's own shorthand for institutional unreliability years later — independent of whether the underlying fraud allegation is ever corroborated."
 tags: [digital-footprint, addiction-recovery, nyc-era]
 knowledge: earned
 infobox:

@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-08
+date_modified: 2026-08-11
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -301,6 +301,32 @@ implements dormancy, and dormancy is reversible by construction.
    median one each — but they have not been checked by name, and this is the
    cheapest available test.
 
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/synthesis/the-unbroken-bond]], whose 2026-08-09 edit was itself a
+RE-CHECKED confirmation (identity-ingest chronology additions on
+[[wiki/people/annie-ulmer]] don't touch its continuity claim) rather than a
+content change. Nothing here is affected; cascade closed.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale again against
+[[wiki/mind/synthesis/the-unbroken-bond]], which added a genuine finding
+this time: sexual contact with Annie resumed in early August 2026 after a
+six-month gap that appears to have opened *before* the June 1 severance —
+meaning the bond's sexual layer went dormant while the relational and
+administrative layers stayed live, then both layers reactivated together
+in the July–August reentanglement. That is this page's own subject
+(reactivation without channel decay) playing out at a finer grain than
+this page currently measures, but it does not change any of this page's
+own figures — the 2,044-day silence, the reactivation-bandwidth
+measurement, the five-day-occupancy control — all of which are about
+different channels entirely. Recorded as a corroborating instance, not a
+correction: a future pass on this page could add the Annie sexual-layer
+dormancy as a same-relationship example of the pattern it already
+documents across different people.
+
 ## Gaps
 
 - **The tenure floor is undetermined.** Five days does not persist; six years
@@ -353,4 +379,10 @@ implements dormancy, and dormancy is reversible by construction.
 > mean "nothing leaves the graph" describes **his** graph, and that the
 > page's existing no-base-rate objection now has a second, sharper form:
 > the counterparties have not been asked.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/the-unbroken-bond]] moved the same day, but only to
+> add a RE-CHECKED note of its own confirming an unrelated Annie-page edit
+> didn't touch its argument — no new claim, date, or figure was introduced.
+> This page's dependency on it is untouched.
 

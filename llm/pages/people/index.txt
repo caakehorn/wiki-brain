@@ -3,7 +3,7 @@ domain: people
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources: []
 related: []
 ---
@@ -77,19 +77,24 @@ related: []
 - [[wiki/people/jay-lauer]] — Friend and peer suboxone/cocaine trading partner, winter 2016-17; died of a heroin overdose on or about April 11 2017 — the supply network's only documented fatality.
 - [[wiki/people/jenn-lynn]] — Uniontown friend repeatedly solicited (with boyfriend Brad) for a two-couple swap, 2017-2020; parallel drug-sourcing relationship.
 - [[wiki/people/jerad-friedline]]
+- [[wiki/people/jerel-coles]] — Real identity of [[wiki/people/tuquick-17248123683|Tuquick]], confirmed 2026-08-08 via FOREWARN; documented 2008–2025 record (two DUIs, harassment, disorderly conduct, criminal mischief). Candidate but unconfirmed identity for [[wiki/people/the-unnamed-man]].
 - [[wiki/people/jess]] — Swinging-couple recruitment contact, spring 2017; fizzled after one dense day.
+- [[wiki/people/jim-blanchard]] — Named by the operator as 307 E 76th St's building super/real estate agent; the primary corpus confirms only that a real James Blanchard existed and was known to Dan, not the role. Status: stub.
 - [[wiki/people/jim-vrabel]] — Weed dealer and near-nightly hangout, 2018-2020; recurring coffee-creamer gift bit.
 - [[wiki/people/jimmy]] — Fellow Nemacolin caddy, 2018; a real blowup, then quit caddying over management.
 - [[wiki/people/joey-superick]] — Golf/music friend, June 2018; found his lost sunglasses on a gravel road.
 - [[wiki/people/john-anderson]] — 2019 dealer contact; recovered a lost hoverboard from a friend's trunk.
 - [[wiki/people/john-carney]] — Fits context-core §5 work/housing exit patterns and work-power-dynamics (unreachable contractors as…
 - [[wiki/people/john-felix]] — 2016 household-adjacent contact; possibly a partner of Suz's (unconfirmed).
+- [[wiki/people/john-paci]] — Landlord and owner of [[wiki/places/307-e-76th-st|307 E 76th St]] for the entire 2019-2025 tenancy; "sweetest and nicest landlord" per the operator, and the addressee of a $10,000 debt still owed at move-out.
 - [[wiki/people/johnny-dealer]] — Johnny functions as reliable but transactional dealer node during 2018 crisis (peak 40k+ messages year,…
 - [[wiki/people/joe-oshnack]] — High school bandmate; fullest first-person account of Dan's pre-2020 conservative identity and its reversal.
 - [[wiki/people/josh-brannan]] — Uniontown-era friend; a warm 2017 reconnection thread and the subject of a running joke with Jerad.
 - [[wiki/people/josh-coccagna]] — Golf pro mentor turned DMT-cart supplier, 2017-2019.
+- [[wiki/people/katherine-palakovich]] — Director of Business Affairs at [[wiki/work/creative-license|Creative License]]; sent Dan his 2011 non-compete, then notarized the false statements used against him in 2012.
 - [[wiki/people/katie-fletcher]] — the 2013 interim girlfriend: the Oddball/Chappelle night, the "Vase" incident.
 - [[wiki/people/kelly-johansson]] — NYC escort Dan and Annie booked together fall 2019; pitched them as co-providers for one of her own clients.
+- [[wiki/people/kevin-mckiernan]] — President of [[wiki/work/creative-license|Creative License]], Dan's employer 2011–2012; documented in his own 2012 Gmail record using Dan's account against former employees, altering intern contracts, and backing a false notarized LinkedIn claim in retaliation for Dan's whistleblowing.
 - [[wiki/people/kim]] — Exemplifies vertical-authority-skepticism and work-power-dynamics: Anita sole locus of agency + off-books…
 - [[wiki/people/kristin]] — Kristin Shaelene (handle +13307038747), introduced through tom as "Tom's friend." An ex-Brooklyn librarian…
 - [[wiki/people/kya-hansen]] — Canadian model/OnlyFans creator "bbblud"; Dan was her Reddit admin for a stretch in 2019, communicated mostly via OF.
@@ -104,6 +109,7 @@ related: []
 - [[wiki/people/manuel]] — Au Za'atar coworker turned lasting friend, 2023-2026; Spanish-language banter.
 - [[wiki/people/marc-charles]] — Golf friend and past music-recording collaborator; a mutual sobriety-milestone acknowledgment in 2017.
 - [[wiki/people/marla]] — Paid caregiver on Fran's shift rotation; her messages corroborate the April 4, 2018 death date.
+- [[wiki/people/marty-jackson]] — Accounting Department at [[wiki/work/creative-license|Creative License]]; author of "It's a trust issue. We don't trust you" during the 2012 final-paycheck dispute.
 - [[wiki/people/marty-martin]] — BFS Foods coworker; primary trusted source on the store's off-books drawer-shortage culture.
 - [[wiki/people/mary-kate]] — Exemplifies vertical-authority-skepticism and forensic-self-construction via "obfuscation trench" analysis…
 - [[wiki/people/matt-dunn]] — Full Sail friend, affectionately abused as "the world's most annoying man woman or child"; the annual $5 birthday Venmo bit.
@@ -123,6 +129,7 @@ related: []
 - [[wiki/people/new-jim-shaffer]] — Wealthy childhood friend; 2018 embezzlement case, golf-equipment obsession, Rob Orange grief.
 - [[wiki/people/nick-mattie]] — Spring-2017 drug-scene trading peer: reciprocal fronts, a hand-kept ledger, eleven weeks from daily contact to silence.
 - [[wiki/people/oscar-lindquist]] — Full Sail-adjacent friend; his own thread precisely dates the Jamie Mohler Hurricane Irene evacuation and is the primary source behind a 2022 Manhattan-restaurant coincidence.
+- [[wiki/people/renae-holland]] — Former [[wiki/work/creative-license|Creative License]] contact; independent corroborating witness to Kevin McKiernan's document falsification, and recipient of Dan's May 2012 whistleblower disclosure.
 - [[wiki/people/rick-frank]] — Father of Dan Frank. Born 22 May 1959 in Uniontown, Fayette County, Pennsylvania. Part of paternal Jewish…
 - [[wiki/people/rj-ritchey]] — Uniontown golf-circle friend and 2019 Manhattan visitor; the iMessage contact `+17249844280` was merged into this canonical page.
 - [[wiki/people/rob-orange]] — High-school-era Uniontown friend; died April 2014, cause never confirmed; the one loss both Dan and Jim Shaffer mourn without irony.
@@ -147,8 +154,8 @@ related: []
 - [[wiki/people/tom]] — Tom Maison — Dan's primary male ally and the clearest instance of safe, lateral (peer, non-paternal)…
 - [[wiki/people/trevor]] — Trevor Bevins: Dan's Nemacolin caddying peer, golf companion, and later market-era Facebook contact; the thread also records money strain between friends.
 - [[wiki/people/trinity-st-clair]] — Adult performer booked as a paid companion for Dan and Annie, spring 2019; same window as the Shelbie threesome.
-- [[wiki/people/the-unnamed-man]] — The man Annie left Dan for and says raped her in July 2026; the one node in the corpus Dan has deliberately refused to identify, and the reason he gives for it.
-- [[wiki/people/tuquick-17248123683]] — A hostile third party involved in the terminal sequence of the Annie relationship closure (the end-fight).…
+- [[wiki/people/the-unnamed-man]] — The man Annie left Dan for and says raped her in July 2026; the one node in the corpus Dan has deliberately refused to identify. Tuquick is a candidate identity as of 2026-08-09, unconfirmed.
+- [[wiki/people/tuquick-17248123683]] — A hostile third party involved in the terminal sequence of the Annie relationship closure (the end-fight); real identity confirmed 2026-08-08 — see [[wiki/people/jerel-coles]].
 - [[wiki/people/urpaaa-at-yahoo-com]] — Unidentified teacher in a parental register who accompanied Dan to the Oct 2017 tooth extraction; identity is the page's open question.
 - [[wiki/people/valeria-iglesias-cid]] — Valeria Iglesias Cid — 19-year-old heiress to a laser-surgery empire (mother: Dra. Loreto Cid in…
 - [[wiki/people/vanessa-frank]] — Younger sister of Dan Frank. Born 16 January 1994 in Greensburg, Westmoreland County, Pennsylvania. Shares…

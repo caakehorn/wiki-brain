@@ -4,13 +4,14 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-02
+date_modified: 2026-08-11
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
   - "raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md"
   - "raw/self/message-csv/messages_3476070497_all_time.csv"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+  - raw/self/message-csv/imessage_7243667777_both_all_now.csv
 synthesizes:
   - wiki/people/annie-ulmer
   - wiki/people/tom
@@ -52,7 +53,7 @@ connections:
     claim: "The inbound control case: Kristin's Dec 9 2025 block of Dan held permanently — the counterparty had no dependency running through the channel, so her severance was structural, not declarative."
   - page: wiki/people/rick-frank
     type: contains
-    claim: "The held amputation: a 12-day outbound burst in late 2015 followed by a decade of unanswered inbound — the control case proving Dan's blocks hold precisely when nothing he needs still flows through the channel."
+    claim: "CORRECTED 2026-08-11: the held amputation is a single ~20-hour outbound window (Dec 2 evening–Dec 3 midday, 2015) — not the previously stated 12-day burst — followed by a decade of unanswered inbound (13 dated reaches 2025–26, verified against the per-number export) — the control case proving Dan's blocks hold precisely when nothing he needs still flows through the channel."
   - page: wiki/timeline/events/march-2026-terminal-phase
     type: contains
     claim: "Carries the documented instance of Annie running the loop herself: threatens exposure, blocks, unblocks to send final lines, blocks again — the operation is bidirectional inside the bond."
@@ -106,7 +107,7 @@ documented at all.
 | [[wiki/people/annie-ulmer]] | 127 exit declarations, 2015–2026 | Attachment + (terminal phase) she needs his supply | 110 relapses (87%) |
 | [[wiki/people/tom]] 2014 | "I'm done… not doing this stupid fucking dance" (Sept 10) | Sole informal strip source | Reopened in 5 days ("yo looking to purchase") |
 | [[wiki/people/tom]] 2026 | Blocked May 18, unblocked same day with ultimatum | Still the only supply node | Reopened same day |
-| [[wiki/people/rick-frank]] | 12-day outbound burst late 2015, then dark | None — no material or validating flow | Held a decade (12 unanswered reaches 2025–26) |
+| [[wiki/people/rick-frank]] | ~20-hour outbound window, Dec 2–3 2015, then dark (CORRECTED 2026-08-11, was "12-day burst") | None — no material or validating flow | Held a decade (13 unanswered reaches 2025–26, verified) |
 | May 2014 account | Migration burst, old account abandoned | None at the time | Held 8 years |
 | 2022 repatriation | — (the reverse operation) | Continuity value rediscovered | Deliberate, ramped return |
 | [[wiki/people/kristin]] (inbound) | She blocks Dan, Dec 9 2025 | She needed nothing from him | Held |
@@ -285,6 +286,31 @@ It also makes a prediction. Any future exit or disclosure that appears in
 the record **without prior announcement** should be expected to execute; any
 that is announced in advance should not. The corpus can test this backwards
 across the 127 exit declarations, which is queued below.
+
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]], which moved on 2026-08-09 for the identity
+ingest (Tuquick = Jerel Wayne Coles, see [[wiki/people/jerel-coles]]) — a
+chronology row and a Target G revision note. Neither touches the 127/110
+exit-relapse count, the announcement-predicts-non-execution rule, or any
+prediction this page tracks. No finding here is affected.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/concepts/attachment-model]], rewritten the same day. The
+rewrite's Gaps section names the same 127/110-vs-"100% re-engagement"
+discrepancy this page already carries as `[DERIVED]` below — it does not
+resolve it, just states it more explicitly and traces the "100%"
+alternative reading to `MasterRecord_March16` and `CompleteAnalysis_Final`
+directly. Nothing here changes as a result: this page's own Gaps already
+flagged the pair as needing a primary recount, and that recommendation
+stands, now with a specific alternative number to test against rather
+than an open question. The rewrite's other changes (the corpus-wide
+relabeling of the 266/84 figures, the corrected apology count, the added
+12-crisis-statement data point) do not touch the announcement rule, the
+Menore control, or any prediction this page tracks.
 
 ## Gaps
 

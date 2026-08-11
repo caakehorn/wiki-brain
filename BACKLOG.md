@@ -33,6 +33,7 @@ rough expected-value order.
   retrospective. Blocks are keyed `Subject: Chat with <name>`, unsorted, and
   mostly undated (43 of 495 in the read slice carried a `Date:` header), so
   report sample ranges rather than spans.
+- **Per-contact CSV sweep.** `raw/self/message-csv/imessage_<number>_both_all_now.csv` files exist per phone number and are the most complete two-sided record of individual relationships in the corpus, but no systematic check has been run for which person pages are missing theirs. The 2026-08-11 Rick pass found one (`imessage_7243667777_both_all_now.csv`) that had never been cited anywhere and that reversed a standing figure three pages had been carrying forward from an AI dossier. `ls raw/self/message-csv/*_both_all_now.csv`, resolve each number against a person page, and check it against that page's `sources:` list. See `EXTRACTION_SPEC.md`'s "Traps by source type" for the check to run per-page going forward.
 - **Behavioural mining over lexical.** What Dan *did* while unobserved —
   latency, initiation, abandonment, escalation, time-of-day. `contact-gini` and
   `message-circadian-latency` are the model and the corpus's strongest findings.
@@ -95,8 +96,20 @@ Each of these is a specific thing the corpus or the outside world could settle.
 - **The announcement rule, tested backwards.** All 127 exit declarations are
   announced by definition; the falsifier is the reverse case — a silent
   severance that executed. The one claim the corpus can attack on its own.
-- **`the-unnamed-man` vs `tuquick-17248123683`** — the cleanest example of a
-  question re-reading `raw/` cannot settle. Needs an answer from outside.
+- ~~**`the-unnamed-man` vs `tuquick-17248123683`**~~ — **SETTLED 2026-08-09.**
+  A FOREWARN lookup identified Tuquick as **Jerel Wayne Coles** (exact
+  phone-number match, 2026-08-08); the operator then confirmed directly that
+  Tuquick and the July 2026 unnamed man are the same person ("They are the
+  same person — tuquick and unnamed," filed at
+  `raw/people/captures/2026-08-09-tuquick-unnamed-man-correction.md`).
+  [[wiki/people/jerel-coles]] is now the canonical entity page for all three
+  identities.
+- **Is Coles = Target G?** FOREWARN returned no marital data. `wiki/people/annie-ulmer.md` §Target G names him only as "Caitlin's husband."
+- **Why did Coles hold two addresses (Uniontown/Connellsville) for 22 months, 09/2024–07/2026?** Unexplained; see `wiki/people/jerel-coles.md` §Open questions.
+- **Does the "video proof / unconscious" accusation originate with Coles (2026-07-26, from Annie's phone) or with Annie (2026-05-31, 23:54)?** Now answerable from logs already held; not yet run.
+- **Independent docket verification of Coles's criminal record** via PA UJS (ujsportal.pacourts.us) — the FOREWARN capture is commercial-aggregator sourced, not court-verified.
+- **The `annie_metadata_24h.csv` / `imessage_export_2124702449_20260809084846_.csv` sourcing gap.** [[wiki/timeline/events/august-2026-unmasking]] and [[wiki/mind/synthesis/read-receipt-forensics]] were written from a session with direct `chat.db` access; the underlying CSV exports were never filed to `raw/self/message-csv/`. File them, then re-point `sources:` on both pages. See `queue.md`.
+- **`reply_to_guid`-as-threading audit.** [[wiki/mind/synthesis/read-receipt-forensics]] finding M2 voids any prior analysis that treated `reply_to_guid` as an intentional reply marker rather than an auto-populated field. No such prior analysis has been identified yet — sweep for one.
 - **The `463-morgantown` mechanics-lien deadline** (~2026-07-27) elapsed with no
   recorded outcome, and the date was always derived rather than documented. The
   risk is now unobserved rather than pending, which is worse. A Fayette County

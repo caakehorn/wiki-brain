@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-02
+date_modified: 2026-08-11
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -324,6 +324,26 @@ why the end became possible.
 > draws from that page — Annie's dual role as logistics facilitator and dependent consumer — is unaffected by who left whom in
 > November 2015.
 
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]], which moved on 2026-08-09 for the identity
+ingest (Tuquick = Jerel Wayne Coles, see [[wiki/people/jerel-coles]]) — a
+chronology row and a Target G revision note. Neither touches the node
+succession, the reliability inversion, or the terminal-phase supplier
+finding. No finding here is affected.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale again against
+[[wiki/people/annie-ulmer]], moved this time for a manual-capture ingest:
+sexual contact resumed in early August 2026 breaking a six-month gap, and
+an expanded, corrected account of the 307 E 76th St landlord debt and its
+2020 roach-bombing crisis. None of it touches supply — no node, handoff,
+or product is named in any of the three captures, and the debt in question
+is owed to the building's landlord ([[wiki/people/john-paci]]), not to any
+figure in this network. No finding here is affected.
+
 ## Gaps
 
 - **Tim** is named in the MAX_PRIME succession between Johnny and Tom
@@ -353,3 +373,10 @@ why the end became possible.
   Tom channel itself recovered is still undocumented.
 - Menore's product was never named in-thread; the "8" unit remains
   uninterpreted.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/people/annie-ulmer]] gained one new detail on the December 2, 2015
+> origin night (her parents' attempted veto of the relationship) — a
+> relational finding from eleven years before this page's supply-chain
+> material begins, touching neither her unemployment/dependency status nor
+> any supply-chain fact this page draws on. Nothing here needed revising.

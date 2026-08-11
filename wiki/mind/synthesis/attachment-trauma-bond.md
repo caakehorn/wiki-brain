@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-11
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -84,7 +84,15 @@ Within this architecture, the concept of "unconditional love" was functionally i
 
 ## The Quantified Trajectory (from the final dossiers)
 
-The full-decade dossiers give the bond its measurable arc. The love was genuine at the origin — Annie's love-language frequency peaked at 5.3% of her messages in 2016, with "YOU ARE MY EVERYTHING" on day three of the record — and decayed monotonically to a statistical zero of 0.1% in 2024, before spiking back to 2.7% in 2025 precisely when the Uniontown supply-chain dependency was established. That 2025 reactivation is the single most diagnostic number in the corpus: the affection instrument returning at near-origin intensity in its procurement function. The dossiers also supply the intermittent-reinforcement machinery in counts: 13 major self-indicting apologies each followed by unchanged behavior, 44 betrayal confrontations answered with a caretaking crisis, 24 "fell asleep" alibis, and a longest silence of 36.5 hours re-entered via a money request.
+The full-decade dossiers give the bond its measurable arc. The love was genuine at the origin — Annie's love-language frequency peaked at 5.3% of her messages in 2016, with "YOU ARE MY EVERYTHING" on day three of the record — and decayed monotonically to a statistical zero of 0.1% in 2024, before spiking back to 2.7% in 2025 precisely when the Uniontown supply-chain dependency was established. That 2025 reactivation is the single most diagnostic number in the corpus: the affection instrument returning at near-origin intensity in its procurement function. The dossiers also supply the intermittent-reinforcement machinery in counts: 44 betrayal confrontations answered with a caretaking crisis, 24 "fell asleep" alibis, and a longest silence of 36.5 hours re-entered via a money request.
+
+> **CORRECTED [2026-08-10]:** This section previously said "13 major
+> self-indicting apologies each followed by unchanged behavior." That was
+> the report's own pre-audit figure; the same document later revises it
+> upward — "the audit finds 46 self-aware or self-indicting statements
+> across the record, a significantly larger number than previously
+> counted." Corrected here per the parallel fix on
+> [[wiki/mind/concepts/attachment-model]].
 
 > **REVISED [2026-08-02] — the 187:191 procurement statistic is withdrawn from
 > this page; the rate collapse-and-rebound is not.** The dossier figure — 187 of
@@ -140,6 +148,33 @@ The severity and focus of this period are quantitatively visible in the distribu
 | Legal | 100 | Arrest (26), Lawyer (33), Court (23) |
 | Mental Health | 70 | Crisis (46), Panic (24) |
 
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]] and [[wiki/people/suzanne-frank]]. Both moved for
+the same reason: the 2026-08-09 identity ingest (Tuquick = Jerel Wayne Coles,
+see [[wiki/people/jerel-coles]]) added a chronology row, a Target G revision
+note, and a note on Suz's harassment caller. None of it touches love-language
+rates, the logistical/financial tethers, the somatic-toll evidence, or the
+single-bond-switch mechanics this page draws on. No finding here is affected.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/concepts/attachment-model]], rewritten the same day. The rewrite
+corrected one number this page had also carried — "13 major self-indicting
+apologies" — to the audit-revised 46, fixed above with a CORRECTED block. It
+also relabeled the 266/84 relationship-event figures as corpus-wide rather
+than Annie-specific (this page's own table above already carries the
+correct corpus-wide framing, so no change needed there) and added a new,
+previously undocumented data point — 12 of Dan's own crisis/suicidal
+statements met with no substantive response — which strengthens rather than
+alters this page's thesis: it is one more instance of the bond persisting
+through a signal severe enough that a functioning attachment would expect
+it to register. No conclusion on this page is reversed; the intermittent-
+reinforcement count is larger than previously stated, in the same
+direction the page already argues.
+
 ## System Recalibration Requirements
 
 The forensic analysis of this decade concludes that resolving the trauma bond does not require the partner to suddenly become consistent or honest, as that version of the partner does not exist in the historical data. Instead, it requires radical enforcement of the exit. Lingering contact, whether through logistical favors or intermittent apologies, functions strictly as a narcotic that prevents the nervous system from recalibrating. 
@@ -154,3 +189,14 @@ The forensic analysis of this decade concludes that resolving the trauma bond do
 > and that its counterparty is Suz rather than Annie.
 
 Resolution demands grieving the fantasy of the relationship that could have been, rather than mourning the chaotic reality that actually was. It requires redirecting the massive recursive energy previously spent on understanding the partner into building the subject's own systemic architecture. Finally, the attachment wound must be addressed directly through somatic, trauma-focused regulation, allowing the nervous system to learn that it can survive without the external co-regulator.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/people/annie-ulmer]] and [[wiki/people/rick-frank]] both moved the
+> same day. Annie's page gained one new detail on the December 2, 2015 origin
+> night (her parents' attempted veto of the relationship, recovered from
+> Rick's side of the corpus) — it deepens the existing Dec 2 fear-of-abandonment
+> citation with a concrete cause but changes no date, no figure, and no claim
+> this page draws on. Rick's page gained a corrected, two-sided reading of the
+> December 2015 rupture and its 2025–26 tail (13 verified unanswered reaches,
+> not 12) — richer evidence for the same paternal-rupture template this page
+> already cites, not a different one. Nothing here needed revising.

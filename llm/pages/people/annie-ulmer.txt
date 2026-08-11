@@ -7,12 +7,12 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-11
 date_range_start: 2015-11-01
-date_range_end: 2026-08-02
+date_range_end: 2026-08-09
 infobox:
   name: Annie Ulmer
-  status: Open — in daily contact; supply relationship resumed 2026-07-27
+  status: Open — in daily contact; supply relationship resumed 2026-07-27; sexual contact resumed early August 2026 after a ~6-month gap (operator testimony)
   type: Partner (2015–2026); ex-partner in live contact
   known_for: Decade-long relationship; subject of forensic dossiers
   partner: "[[wiki/self/overview|Dan Frank]]"
@@ -24,6 +24,10 @@ infobox:
   first_contact: 2015-11-01
   handles: ["@Annelouise28", "@Lo_weez", "@alexisarmel"]
 changelog:
+  - date: 2026-08-10b
+    note: "Deep-mining pass over previously unread raw/ sources (operator request: 'a substantial rewrite... by scraping and mining a BUNCH of new data points or events'). New: (1) pre-Dan paid-content/blackmail history (Oct 2018 retrospective mention); (2) grandfather Jim's death dated to 2019-10-02, the origin point of the recurring Sugie-caregiving alibi, cross-linked to ellen-ulmer.md; (3) 'Target G' section expanded with four granular dated exchanges (Jan 5, Jan 9, Feb 1, Mar 1 2026) from a previously unmined Claude session, including Annie's own unprompted naming of 'Caitlin's husband' (tied to an undisclosed five-sleeping-pills incident) and an independent corroborating quote from Bop; (4) independent April 2025 corroboration of the $10,000 landlord debt figure plus a previously undocumented $7,000 ConEd utility debt; (5) new section on the isolation trifecta compounding around the June 1, 2026 severance — a May 2026 BFS Foods termination, the 337 Saratoga move-out notice, and the Tom Maison fallout, all named together by Dan in his own words in a Grok session, including his own coined term 'aura illness.' New connections to wiki/work/bfs-foods and wiki/places/337-saratoga-drive; prose cross-references added to wiki/people/tom.md and wiki/people/ellen-ulmer.md."
+  - date: 2026-08-10
+    note: "Operator capture (2026-08-10, no target field — applied here as the clear subject): sexual contact resumed 'the other night,' breaking a stated six-month gap. No message-corpus export exists past 2026-08-02, so this is recorded as operator testimony, dated only to the capture timestamp, not corroborated against raw. Same pass: corrected the 'What the money did' section's landlord-debt claim — a March 5, 2026 message from John Paci (raw/self/message-csv, +16314558185) shows a final $10,000 balance still owed after move-out, not a debt successfully paid down as the page previously implied; and expanded 'The Train Plan, 2020' with the previously undocumented cause of the September 2020 PA trip — a roach-bombing evacuation of 307 E 76th St, dated precisely (Sept 10-11, 2020) from the message corpus, with the Train Plan discovery itself now dated to Sept 19-20 rather than merely '2020.' New connections to wiki/people/john-paci and wiki/people/jim-blanchard; wiki/places/307-e-76th-st expanded to carry the full cast."
   - date: 2026-08-02
     note: "The severance-that-failed section is superseded rather than revised: a fresh export through 2026-08-02 shows contact resumed eighteen minutes after 'whatever goodbye annie' and ran 1,880 messages and six in-person meetings across eight days, five of them drug handoffs. New section 'The re-entanglement, July 26 – August 2'; date_range_end and infobox status updated; three chronology rows and two numbers rows added; the word-volume ratio (2.88:1, against an all-time 2.95:1) added as the stable metric behind an unstable message-count ratio. Three findings written back from the new event page: Dan states the procurement-as-access thesis in his own voice; he names autism as the reason he cannot close the bond without an explicit severance signal, asks for one across a full day, and does not get it; Annie apologises to Suz in person on August 2. Full account at wiki/timeline/events/july-august-2026-reentanglement."
   - date: 2026-07-26
@@ -68,6 +72,13 @@ sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md
   - raw/people/captures/2026-07-13-eli-vs-tuquick-correction.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/captures/2026-08-10_014646_annie-sex-resumption.md
+  - raw/self/captures/2026-08-10_014938_307-76th-cast-roach-bombing.md
+  - "raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md"
+  - "raw/self/dox-md/Interpersonal manipulation_ Dan and Annie's toxic dynamic.md"
+  - raw/self/chatgpt-export/relationship-breakdown-summary-2025-04-27.md
+  - raw/self/message-csv/imessage_7243667777_both_all_now.csv
 related:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
@@ -191,6 +202,21 @@ connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "The record here settles the fallout question in a narrow, defensible form: Dan was wronged in fact — a concealed affair inside the non-monogamy framework he had built to prevent exactly that, months of gaslighting rated by the sources above the affair itself, and a defamation campaign running concurrently with written private denials — while the ten-year length of the catastrophe is co-authored by his own conflict engine and supply-chain control."
+  - page: wiki/timeline/events/august-2026-unmasking
+    type: evidenced-by
+    claim: "She never narrowed the sleep claim across three explicit invitations including a sincere one, despite a defensible 63-minute window existing in the record."
+  - page: wiki/places/307-e-76th-st
+    type: evidenced-by
+    claim: "The six years at this address hold two previously undocumented findings written back here in 2026-08-10: the September 2020 Train Plan crisis had a mundane, dated cause (a roach-bombing evacuation, not an unexplained 'lockdown' relocation), and the ~$10,000 landlord debt that this page once described as paid down was still owed in full at move-out in 2025."
+  - page: wiki/people/john-paci
+    type: co-occurs
+    claim: "The landlord at 307 E 76th St for the entire tenancy — present at its start ('he's the one who stuck his neck out for us and held the apartment when we found it'), its 2020 pest crisis, and its 2025 unwound-debt aftermath, still texting Annie in July 2025."
+  - page: wiki/work/bfs-foods
+    type: co-occurs
+    claim: "Dan's May 2026 BFS Foods termination landed inside the same two-to-three-week window as the June 1 severance and the 337 Saratoga move-out notice — a compounding isolation the operator named himself, in real time, as 'aura illness.'"
+  - page: wiki/places/337-saratoga-drive
+    type: co-occurs
+    claim: "The childhood home's sale notice ('we have to move out in like 3 weeks') is dated by Dan's own words to the same week as the June 1, 2026 severance — one of three compounding crises named in a single session alongside the BFS termination and the Tom fallout."
 ---
 
 # Annie (Anne Louise Ulmer)
@@ -214,7 +240,14 @@ the dog, and the two exchanged 624 messages across four days that ended
 with an allegation of rape, a refused request for drugs, suicidal
 statements from both of them, and no resolution of any kind. The
 relationship's *analysis* is finished and nothing below has been
-reopened by this. Its *status* is open.
+reopened by this. Its *status* is open — and, per an operator capture
+filed 2026-08-10, sexual contact resumed "the other night," breaking a
+stated six-month gap. No message export exists past August 2, 2026, so
+this is recorded as testimony only, undated beyond the capture timestamp
+and unverifiable against `raw/` in this pass — but it is consistent with
+everything else this page documents about how this bond fails to close:
+a supply relationship reopened July 27, a household apology delivered
+August 2, and now this.
 
 > **REVISED [2026-07-26]:** every earlier version of this page called the
 > relationship "closed, historical," and the June 1, 2026 group chat is
@@ -303,6 +336,30 @@ niece and nephew she helped raise; and the dog
 fixture of the New York years that outlasted almost everything else
 about them.
 
+**Before Dan, and unprompted by him:** an October 2018 message — reminiscing
+rather than disclosing in the moment — describes Annie having run a paid
+photo/video account before they started dating (pre-November 2015), and
+being blackmailed by men threatening to expose it to people who knew her;
+the same message frames running a joint account "as a couple" once they
+were together as a direct improvement on that earlier, exploitable
+arrangement, "because it just sounds stupid to do it when you're doing it
+with" a partner rather than alone. This is the earliest documented
+instance of paid-content work in her record, predates the MyFreeCams
+account referenced above, and gives the extortion risk she'd already lived
+through — not novelty — as one motive for making the later joint
+arrangement (see "The architecture," below) a shared, defended project
+rather than a private one.
+
+Her grandmother Sugie's caregiving need, the alibi this page returns to
+repeatedly across a decade, has a dated origin: her grandfather **Jim**
+(confirmed as Sugie's husband via [[wiki/people/ellen-ulmer|Ellen]]'s own
+March 2018 message) died on **October 2, 2019** — surfaced only in an
+aside Dan sent a client to explain a possible scheduling conflict with
+"Monday night's booking." From that date the household had one fewer
+adult to share Sugie's care, which is the structural fact underneath
+every later "family obligations" excuse this page documents; it was not
+manufactured convenience, even where it was also convenient.
+
 One claim about her life before Dan exists only at second hand and stays
 flagged as such: in a March 29, 2020 message comforting
 [[wiki/people/bekah-fullem|Bekah Fullem]] through Bekah's own rape
@@ -324,7 +381,15 @@ of losing Annie — "I'm
 really really scared that you won't want this anymore," December 2, 2015,
 written before there was anything to betray — and that fear, present from
 literally the third day of the documented record, became the organizing
-force of the next decade. This was new territory for him: nothing in the
+force of the next decade. The same night has a concrete cause, recovered
+from [[wiki/people/rick-frank|Rick]]'s side of the corpus rather than
+Annie's: Annie's parents had just found out about the relationship "the way
+they did" and, combined with Dan's own "bad reputation," moved to "squash
+it" — Dan told his father he planned to write them a letter asking
+permission. No letter survives in the corpus and whether one was sent is
+unknown, but the fear on Annie's side that same night was responding to a
+real, external threat to the relationship's survival, not free-floating
+anxiety. This was new territory for him: nothing in the
 [[wiki/people/danielle-onesi]] or earlier [[wiki/people/alexis-armel]]
 history shows a comparably total activation.
 
@@ -507,9 +572,41 @@ hostess job at the original East Village [[wiki/work/au-zaatar|Au
 Za'atar]] a month into his own hire there (she was later fired from it
 with zero notice — an "avatar of reliability" contrast that page
 documents in full). By 2023 the roles had flipped: Dan working, Annie
-between jobs, the two of them jointly accumulating roughly $10,000 in
-debt to their landlord that they paid down at $650 a week. Then, in
-mid-2024, Dan lost the Au Za'atar job — involuntarily, in a pattern he
+between jobs, the two of them jointly accumulating debt to their
+landlord, [[wiki/people/john-paci|John Paci]], that they made partial
+payments against at $650 a week.
+
+> **CORRECTED [2026-08-10]:** This section previously said the ~$10,000
+> landlord debt was "paid down," implying it was retired. It was not. A
+> March 5, 2026 message from Paci — sent after Dan's February 2025
+> departure, once he'd finished "paying to have the remainder of the
+> stuff you left removed, and deducting the security deposit" — rounds
+> the outstanding balance to an even **$10,000.00** and asks Dan to
+> "begin to pay it down." The $650/week payments documented in late 2024
+> were real but insufficient; the debt that reached roughly $10,000 by
+> 2023 reads as essentially the same $10,000 still owed at move-out
+> fifteen months later, not a separate, larger sum successfully worked
+> down to zero. Annie's own July 2025 reaction to a Paci text —
+> "Fucking John Paci just texted me," months after Dan had left New
+> York — is consistent with the debt still being actively pursued. Full
+> account, including Paci himself, at [[wiki/places/307-e-76th-st]] and
+> [[wiki/people/john-paci]].
+>
+> **Independent corroboration, found the same pass:** a contemporaneous
+> April 27, 2025 account — two months after the move, weeks after Paci's
+> final $10,000 accounting letter — already puts the same figure on
+> record: Dan describes the apartment placed on a "shot clock" with
+> "roughly $10,000 already owed," plus a separate **$7,000 Con Edison
+> bill**, as the financial reality that made arguing to stay in New York
+> "not really even worth the time it would take to debate." The number
+> holding flat between Paci's own settlement letter and Dan's independent
+> April retelling rules out any reading where meaningful payments were
+> still landing on the balance in its final months. The $7,000 ConEd bill
+> is a distinct, previously undocumented-on-this-page debt, owed to the
+> utility rather than the landlord; full context at
+> [[wiki/timeline/periods/feb-apr-2025-return-and-rupture]].
+
+Then, in mid-2024, Dan lost the Au Za'atar job — involuntarily, in a pattern he
 identified in real time as designed to force a resignation rather than a
 firing ("I'm a bit worried that they have been maneuvering in a way to
 try to prevent exactly that," August 6, 2024) — and Annie became, for the
@@ -565,15 +662,33 @@ household costs, and gifts isn't recoverable from the totals alone.)
 
 The largest pre-2025 crisis on record, and one nearly invisible until
 recently because 2020 is thinly covered in some of the message exports.
-During COVID lockdown at Annie's parents' home, Dan discovered she had
-been telling another man "terrible, unforgivable, untrue things" about
-him, and that the man had made plans to collect her from the train
-station. Dan took seven Xanax bars, threatened to leave for good, and
-sent over 200 messages across several days. Annie did not dispute the
-substance of it afterward: "I know what I said and I fucking regret it…
-I have messed shit up. Multiple times." Dan's own retrospective word for
-the pattern — "cheated" — went uncontested. Fuller lockdown context sits
-at [[wiki/timeline/periods/covid-era-2020]].
+Dan's own words, sent 07:13 the morning after the discovery, date and
+frame it precisely: "this isn't some accident Annie, you said TERRIBLE
+unforgivable, untrue shit to some guy who wanted you and then had him
+plan to pick you up from the train" (Sept 20, 2020). Annie did not
+dispute the substance of it afterward: "I know what I said and I fucking
+regret it… I have messed shit up. Multiple times." Dan's own retrospective
+word for the pattern — "cheated" — went uncontested. Fuller lockdown
+context sits at [[wiki/timeline/periods/covid-era-2020]].
+
+> **REVISED [2026-08-10]:** this section previously placed the crisis
+> "during COVID lockdown at Annie's parents' home" with no further
+> explanation of why they were there. An operator capture and a
+> corresponding message-corpus check supply the missing cause. On
+> September 10, 2020, the couple's apartment at
+> [[wiki/places/307-e-76th-st|307 E 76th St]] was scheduled for pest
+> extermination — "sorry to keep bugging you just wanted to give you an
+> update. they are bombing the apt tomorrow around 11 or so" — and the
+> couple relocated to Annie's parents' home in Uniontown for what became
+> roughly a week. The Train Plan discovery happened nine to ten days into
+> that stay, not as a separate, freestanding "lockdown" event: Dan
+> references "the past week, especially the first 4 days of the trip" in
+> the same overnight exchange as the confrontation, and the couple is
+> mid-argument, at 22:58 the night before, simultaneously coordinating a
+> **second** exterminator visit with the landlord ("i'm on the line with
+> john paci tomorrow… nobody is to enter that apartment, other than me and
+> the exterminators"). The full cast and the apartment's own
+> $10,000-debt afterlife are at [[wiki/places/307-e-76th-st]].
 
 ## Eli, and the thing that mattered more than the affair
 
@@ -807,6 +922,55 @@ with, and states plainly "we do not know" whether he is also Target G.
 > was becoming a pattern rather than staying a one-off. Full account and
 > the AI-side debate it produced: [[wiki/mind/synthesis/ai-collaborative-analysis]].
 
+> **REVISED [2026-08-09]:** Tuquick is now identified as
+> [[wiki/people/jerel-coles|Jerel Wayne Coles]]. This does **not** resolve
+> Target G — the FOREWARN return carries no marital data, so "Caitlin's
+> husband" is neither confirmed nor excluded. The question narrows from three
+> candidates (Eli, Target G, Tuquick) to two and stays open.
+
+**EXPANDED [2026-08-10]:** a separate AI session (Claude, working directly
+from the timestamped message log rather than a dossier summary) supplies
+the granular record behind the "Whisk" episode and Annie's own naming of
+the man, at a resolution nothing previously on this page captured. The
+exchange runs across four dated exchanges:
+
+- **Jan 5, 20:56–23:22** — the psyop itself. Dan tells Annie in advance he
+  will not name her ("Don't worry I won't say your name specifically," 20:56),
+  frames the intent as verification rather than harm ("I do not feel one
+  bit bad about what I sent because it doesn't punish someone who is
+  innocent," 21:51), and, when she objects, points out that only someone
+  with something to hide would object ("You're very concerned about
+  something you don't have any involvement in," 21:08). Her 23:02 reply —
+  "Nice. Real mature. Goodnight." — is the recognition already on this
+  page; Dan's own annotation of it, sent back the same night, makes the
+  point explicit: "I want to remind you that I did not think the person
+  who sent this was immature and the only one who was mad that they sent
+  it was you" (23:22).
+- **Jan 9, 09:29–16:10** — a second spoof is threatened, not executed
+  ("I specifically DID NOT SAY ANYTHING and WAITED," 09:29), and Dan
+  withholds the man's identity even from his own mother (16:10) — the
+  restraint reading above holds through a second test, not just the first.
+- **Feb 1, 09:37–09:48** — the record's clearest single data point. Annie
+  herself, unprompted by any question about the man, names him while
+  explaining a crisis of her own: "Caitlin's husband came here last
+  night," offered in the same exchange where she discloses having taken
+  five sleeping pills. Neither the visit nor the pills are independently
+  corroborated elsewhere in the corpus, and both are flagged here as
+  needing it — but the naming itself resolves nothing the dossiers'
+  secondhand "Caitlin's husband" label left ambiguous: it is Annie's own
+  word, not an inference. Minutes later, Dan relays an unsolicited,
+  independent assessment from [[wiki/mind/synthesis/supply-network|Bop]]:
+  "She's always sneaking around" — a third-party observation Dan did not
+  feed and could not have coached.
+- **Mar 1, 19:24** — the last dated trace, timed to Dan's parents being out
+  of town: "Your favorite time to fuck around on me."
+
+None of these four exchanges were independently re-verified against
+`all_imessages_complete_dump.txt` in this pass — they are transcribed
+faithfully from a prior AI session's own reading of the timestamped
+log, one level removed from the raw export, and should be treated with
+that caveat until re-checked directly.
+
 ## March 2026: the confession, and taking it back
 
 The last full month of the pre-closure record contains the sharpest
@@ -877,6 +1041,38 @@ Tuquick, who had defended her forcefully on June 1, defected and called
 her, unprompted, "a compulsive liar with a drug addiction" — completing
 in fourteen days a distortion cycle that had taken Dan a decade to
 escape.
+
+**NEW [2026-08-10]: what else was collapsing at the same time.** A Grok
+session Dan ran in the days around the severance — dated internally to
+late May/early June 2026 by its own contents — names the specific
+compounding context, in his own words, that this page's account of June 1
+had not previously connected: he had just been fired "for a totally
+illegitimate thing" (the BFS Foods drawer-shortage termination,
+[[wiki/work/bfs-foods]], independently dated to "sometime in May [2026]");
+the childhood home was being sold with roughly three weeks' notice to
+vacate ([[wiki/places/337-saratoga-drive]], which closed June 23 and was
+vacated July 8 — three weeks out from "the house i grew up in is being
+sold and we have to move out in like 3 weeks" places this session in
+roughly the same week as the June 1 closure); and [[wiki/people/tom|Tom]]
+had stopped responding after a $35 sub-sandwich dispute
+([[wiki/people/tom]]'s own record dates the no-show breaking point to
+2026-05-15/16 and the last contact to 2026-05-29/30). In his own words:
+"i have LITERALLY noone now, even tom isnt talking to me." The severance
+that finally held for 52 days did not happen in isolation — it happened
+inside the same two-to-three-week window as a job loss, a forced housing
+exit, and the collapse of the one platonic relationship this page's own
+`the-unbroken-bond` synthesis treats as durable-by-default. Dan coins his
+own term for the resulting state, unprompted: **"aura illness"** — "i'm
+just a walking catastrophe until something turns it around," a phrase
+that recurs nowhere else in the corpus and is preserved here as his own
+vocabulary for the crisis rather than a clinical or dossier label. The
+same session also develops, in his own reasoning rather than the model's,
+why a clean ending felt impossible without a "hinge point" or "coup de
+grâce" — a single, unambiguous, self-owned act from Annie that would let
+him hate her without ambivalence — and his own diagnosis that her
+consistent "there's nothing going on" denial was structured specifically
+to deny him that, because a real reckoning would have cost her the
+low-accountability exit she was already taking.
 
 ## July 2026: the severance that failed
 
@@ -1146,6 +1342,7 @@ legal exposure for Dan — noted here for completeness.
 | 2018 | Arrangement formalized; smashonista confirmed (Aug 18); Patreon Oct 2019 |
 | 2018-11-03 | Alexis-Annie reunion, days after Alexis's SCI Muncy release |
 | 2019 (spring–fall) | Shelbie threesome; Trinity St. Clair session; Kelly Johansson run; Annie's own Hazel/Lily client threads (Jared/Tricia, Nabeel, Jason) |
+| 2019-10-02 | Grandfather Jim dies; origin point of the Sugie caregiving era |
 | 2020-09 | Train Plan crisis, COVID lockdown at Annie's parents' |
 | 2022 | Full-year record gap |
 | 2023 | Roles invert: Dan working, Annie between jobs; ~$10k landlord debt |
@@ -1169,6 +1366,7 @@ legal exposure for Dan — noted here for completeness.
 | 2026-04-01 | Unresolved contact: a man calls Suz twice overnight looking for Annie |
 | 2026-04-20/26 | Brief reinvestment window (Annie out-messages Dan, the only such stretch on record) |
 | 2026-05-04/06 | Worst-content week of the full record |
+| ~2026-05/06 | Isolation compounds around the severance: BFS Foods termination, 337 Saratoga sale notice, Tom fallout — Dan's own "aura illness" coinage |
 | 2026-06-01 | Group-chat closure: Tuquick relationship and defamation campaign confirmed |
 | 2026-06-05 | Last message of the closure window: unprompted apology |
 | 2026-06-09/15 | Three unanswered re-contact attempts, one of them a request for financial paperwork |
@@ -1182,6 +1380,8 @@ legal exposure for Dan — noted here for completeness.
 | 2026-07-27 | Supply resumes: $40 in her parents' driveway, traded for a hug, 31 hours after the refusal |
 | 2026-07-28 | 770 messages; twelve-hour standoff over an email to her parents that is never sent |
 | 2026-08-02 | Annie walks to the house and apologises to Suz in person; buys $50 forty minutes later |
+| 2026-08-08 | Tuquick identified via FOREWARN (19:01:22); five-hour collapse follows — [[wiki/timeline/events/august-2026-unmasking]] |
+| ~2026-08-07/09 | Sexual contact resumes, per operator testimony; breaks a stated six-month gap. Undated beyond the 2026-08-10 capture timestamp; no message export covers this window. |
 
 Two synthesis pages extend this record further: the capstone moral
 verdict, provenance-tiered down to individual message rows, at

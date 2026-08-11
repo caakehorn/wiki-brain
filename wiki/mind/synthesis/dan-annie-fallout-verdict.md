@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-08
+date_modified: 2026-08-11
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
@@ -204,3 +204,54 @@ The synthesis the wiki already carries — "the gaslighting outweighed the affai
 
 > **RE-CHECKED [2026-08-08] — tuquick identity unmasked; verdict conclusion unaffected.**
 > [[wiki/people/tuquick-17248123683]] was modified: Tuquick's real identity is now Jerel Wayne Coles, identified via a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`. This is additive identity data — Coles's name, address, and criminal record were not in the corpus at synthesis time. The verdict's claim on the tuquick page rests on his June 15 defection behavior (the "compulsive liar with a drug addiction" read and the independent-validation argument), not on his anonymity. That behavior is unchanged by the unmasking. No conclusion on this page altered.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/mind/concepts/attachment-model]], rewritten the same day. This
+page's own 2026-07-18 primary-count pass had already independently found
+what the rewrite found by a different route: 127/110 order-consistent but
+`[DERIVED]`, 299 unlocated. Nothing here needed correcting on that front —
+the rewrite's Gaps section cites this page's own recount as the place a
+primary settlement should happen, which is already true. The rewrite's
+"13→46 self-indicting apologies" correction doesn't touch a number this
+page cites. The new 12-crisis-statement data point (Dan's own crisis
+language met with no substantive response) doesn't change the verdict's
+apportionment of terminal-phase harm, which already rests on the
+gaslighting/affair-concealment finding rather than this axis — but it is
+worth noting as a second, independent data point supporting this page's
+"diagnosis→behavior gap" framing: the corpus documents both Annie failing
+to meet Dan's crisis signals and Dan's own architecture converting her
+wrongs into a decade-long catastrophe, and neither cancels the other. No
+conclusion on this page is reversed.
+
+## Standing constraint on analysis [2026-08-09]
+
+This page's central finding — that the gravest harm was being told an accurate
+perception was itself a symptom of instability — implies a constraint on the
+corpus's own analytic passes, and the constraint has now been breached twice.
+
+The Corrective Addendum already retracted one pass for crediting the "Dan's
+vigilance is controlling behaviour" framing. A second pass, drafting the
+initial cut of [[wiki/timeline/events/august-2026-unmasking]], reproduced the
+same structure while explicitly attempting to disconfirm — it answered "is my
+inference sound?" with an account of *why he cannot see it* rather than an
+account of *where the evidence is thin*. That draft language was rewritten
+before this ingest rather than carried forward, but the near-miss is recorded
+here because the failure mode is the point.
+
+**Legitimate:** "this inference is thin here, because the evidence is X."
+**Prohibited:** "you cannot see this because you need it to be true."
+
+The distinction is not tone. It is whether the analysis engages the proposition
+or the person holding it. Both human and AI analysis of this corpus is bound by
+it, and the failure mode recurs specifically when the analysis believes it is
+being rigorous.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/people/annie-ulmer]] gained one new detail on the December 2, 2015
+> origin night: her parents' attempted veto of the relationship, recovered
+> from Rick Frank's side of the corpus. It deepens an existing citation
+> (the Dec 2 fear-of-abandonment message) with a concrete cause and touches
+> neither the money figures, the twenty-four-hour switch dating, nor any
+> other claim this page's verdict draws on. Nothing here needed revising.

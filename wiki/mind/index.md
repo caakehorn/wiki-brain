@@ -3,21 +3,24 @@ domain: mind
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-02
+date_modified: 2026-08-09
 sources: []
 related: []
 ---
 
 # mind — index
 
-Beliefs, ideology, psychology, and values. The domain is organized in four
+Beliefs, ideology, psychology, and values. The domain is organized in five
 layers: **profile/** holds the measured personality results and their
 detailed breakdowns; **concepts/** holds the named mechanisms of how Dan's
 mind works; **synthesis/** holds cross-corpus theses about worldview and
 behavior; **psychosexual/** holds the dedicated sexuality cluster — theory
 (mostly single-source AI analysis) and a decade of independently
-corroborated real-world practice. The authoritative factual spine remains
-[[wiki/self/context-core]].
+corroborated real-world practice; **politics/**, opened 2026-08-10, is the
+newest cluster — a single point of entry for political material that had
+been scattered across synthesis/, interests/ and self/, plus the axiom
+layer that reads it as one commitment rather than a list of positions. The
+authoritative factual spine remains [[wiki/self/context-core]].
 
 ## profile — personality results
 
@@ -50,10 +53,15 @@ corroborated real-world practice. The authoritative factual spine remains
 
 - [[wiki/mind/psychosexual/index]] — hub: theory-vs-practice provenance split, quick brief, cluster map.
 - [[wiki/mind/psychosexual/orchestration-and-voyeurism]] — the "director, not participant" pattern; flagship case: the 2018 Annie/Alexis reunion.
-- [[wiki/mind/psychosexual/taboo-and-boundary-testing]] — taboo as category-rupture rather than transgression; the thinnest-sourced page in the cluster.
+- [[wiki/mind/psychosexual/taboo-and-boundary-testing]] — taboo as category-rupture rather than transgression; carries one dated primary instance (the Bryan MMF), corrected 2026-08-10 from a stale "thinnest-sourced page in the cluster" claim.
 - [[wiki/mind/psychosexual/emotional-imprinting]] — "unemotional sex is a myth"; crush-activation-on-contact; convergence with the independently-documented attachment model.
 - [[wiki/mind/psychosexual/arrangement-history]] — the primary-source backbone: every dated, named instance across a decade.
 - [[wiki/mind/psychosexual/developmental-origins]] — three convergent accounts: the 2005 parental-rupture axiom, the emo/pop-punk imprinting era, the sx/sp instinctual stack.
+
+## politics — the axiom layer
+
+- [[wiki/mind/politics/index]] — hub: single point of entry for political material scattered across synthesis/, interests/ and self/, plus what's still missing.
+- [[wiki/mind/politics/axioms]] — the power axiom: resolves the dossier-flagged "leftist politics vs. authoritarian fascination" paradox by reading the 2024 Caesar binge and the self-authored CATO (Cato the Younger) AI persona as one commitment to opposing concentrated power, not two.
 
 ## synthesis — worldview theses
 
@@ -83,3 +91,4 @@ corroborated real-world practice. The authoritative factual spine remains
 - [[wiki/mind/synthesis/the-deferred-audit]] — doctrine: the forensic engine runs on everything, but provenance sets its clock. Imposed objects are audited preemptively (a $50 drawer claim, same day, in withdrawal); chosen objects only after they fail (~9 years for the primary bond). Selection buys delay, not trust — and the audit lag is the mechanism under the diagnosis-to-behaviour gap.
 - [[wiki/mind/synthesis/single-channel]] — doctrine: one channel at maximum voltage wherever a distributed architecture was available — relational, creative, cognitive, evaluative — measured at a two-sided contact Gini of 0.96 and carrying no failover.
 - [[wiki/mind/synthesis/dormancy-not-exit]] — doctrine: nothing leaves the graph. Sustained relationships change role and go dormant with full reactivation bandwidth (Menore: 2,044 days of silence, one-minute reply); Franki Faris is the five-day control that bounds it, and no-exit plus a single-occupancy slot is the mechanism producing the contact Gini.
+- [[wiki/mind/synthesis/read-receipt-forensics]] — methodology: four chat.db metadata defects found in one extraction session, each silently returning a confident wrong answer rather than an error — a directional `date_read` column, an auto-populated `reply_to_guid`, a SQLite type-affinity trap, and clustered-not-random missing `delivered_at` rows.

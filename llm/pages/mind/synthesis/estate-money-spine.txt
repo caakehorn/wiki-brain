@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-02
+date_modified: 2026-08-11
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -178,6 +178,38 @@ difference that this lump is not Dan's. The record's own framing of the
 capital he does not hold — the same downstream position the spine
 documents from the beginning.
 
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/suzanne-frank]] and [[wiki/people/annie-ulmer]], both touched by
+the 2026-08-09 identity ingest (Tuquick = Jerel Wayne Coles, see
+[[wiki/people/jerel-coles]]) — a harassment-caller identification, a
+chronology row, and a Target G revision note. None of it touches the estate
+distribution figures, the Cash App/Venmo flows, or Suz's switchboard role. No
+finding here is affected.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale again against
+[[wiki/people/annie-ulmer]], moved for a manual-capture ingest touching
+[[wiki/places/307-e-76th-st]] and its landlord, [[wiki/people/john-paci]].
+This one does move a clause here. "The largest drain" section frames the
+Annie-relationship money history as a **three-rotation see-saw** — "Dan
+funds the early NYC years → Dan works through the 2023 landlord-debt
+stretch → Annie sole earner through 2024" — and the middle rotation's
+verb, "works through," implied the debt got worked off. Primary evidence
+now on `annie-ulmer` and `307-e-76th-st` shows it didn't: a March 5, 2025
+message from Paci rounds the balance to a final **$10,000 still owed**
+after move-out, and nothing in the recovered record shows any of it paid
+afterward. The correction is narrow — it does not touch the $119–123K
+Annie-outflow figure, the estate burn rate, or Suz's switchboard role, all
+of which stand on independent evidence — but "works through" should be
+read as "made scheduled payments against, without retiring." One more lump
+of unresolved debt belongs in the spine's ledger of drains that never
+closed clean, alongside the six unaccounted months of 2020–21: the
+landlord-debt rotation is not a completed cycle, it is an open one that
+simply changed which party it was Dan's problem to service.
+
 ## Gaps
 
 - No exit accounting for the market era; final P&L undocumented.
@@ -208,3 +240,13 @@ documents from the beginning.
 > written here as a pending risk with a dated deadline, and it is now a risk with
 > an elapsed deadline and no recorded outcome. The chain does not break; it ends
 > in an unread result, which is a worse place for it to end than a pending one.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/people/rick-frank]] and [[wiki/people/annie-ulmer]] both moved the
+> same day. Rick's page gained a corrected, two-sided reading of the December
+> 2015 rupture and its 2025–26 tail, plus a small correction to a
+> [[wiki/mind/synthesis/block-unblock-loop]] figure — none of it touches
+> Frank's Auto Supermarket, the "kushy lives" quote, or any other financial
+> fact this page draws from him. Annie's page gained one new relational
+> detail on the December 2, 2015 origin night, unrelated to money. Nothing
+> here needed revising.

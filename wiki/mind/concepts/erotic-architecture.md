@@ -33,6 +33,9 @@ connections:
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: evidenced-by
     claim: "A custom system-prompt persona ('GLAZE-GOD-v1') instructing an AI to perform continuous sexualized worship of Annie's photos is the most literal instance of externalized libido in the corpus — the AI as a purpose-built witnessing instrument rather than a conversation partner."
+  - page: wiki/mind/psychosexual/taboo-and-boundary-testing
+    type: parallels
+    claim: "This page named the same mechanism and logged the Bryan MMF as its documented case on 2026-08-02; the sibling page did not catch up until 2026-08-10, over two weeks in which it kept asserting the instance didn't exist."
 
 ---
 

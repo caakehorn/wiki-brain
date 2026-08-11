@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-08
+date_modified: 2026-08-11
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -205,6 +205,48 @@ Everything else can be allowed to burn, because he did not pick it.
    would show exit is available and that the 2015 switch was situational rather
    than structural.
 
+## RE-CHECKED [2026-08-09]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]], which moved on 2026-08-09 for the identity
+ingest (Tuquick = Jerel Wayne Coles, see [[wiki/people/jerel-coles]]) — a
+chronology row and a Target G revision note. Neither touches the ~17-year
+continuity claim or the occupancy mechanics this page argues from. No finding
+here is affected.
+
+## RE-CHECKED [2026-08-10]
+
+`bin/wiki-climb check` flagged this page as stale against
+[[wiki/people/annie-ulmer]], which moved on 2026-08-10 for a manual-capture
+ingest: sexual contact resumed in early August 2026, per operator testimony,
+"breaking a stated six-month gap." This bears directly on this page's own
+Falsifier 1 (*"a documented unattached period of more than roughly six
+months... would convert 'continuous' into 'serial' and break the central
+claim"*) and is worth reading carefully rather than waved through.
+
+It does not falsify the claim, but it does sharpen what the claim is about.
+The six-month gap is sexual, not relational — Dan and Annie remained in
+contact, in the relationship's terminal machinery (the June 1 severance, the
+52-day break, the July 23 reentanglement) throughout the window a sexual gap
+of that length implies, which puts its start around February 2026, several
+months *before* the June 1 closure this page already treats as the bond's
+hardest test. Read plainly: the pair-bond's sexual dimension appears to have
+gone dormant while the couple was still nominally together, months ahead of
+the formal severance, and the slot's *occupancy* — the variable this page
+argues from throughout ("occupancy and activation are separate variables")
+— never actually vacated during that window. If anything this is a second,
+independent instance of the same distinction the page already makes about
+the Alexis years: the slot can be filled without every one of its functions
+being active. The August reactivation, arriving inside the same
+reentanglement this page already treats as its "severance failed" evidence,
+reads as one more data point for that finding rather than a new one — the
+bond's sexual and administrative layers went dormant and resumed on
+different, overlapping timelines, and no unattached period is documented in
+either. Falsifier 1 is not met. Recorded as a genuine refinement, not a
+restatement: a future accounting of "the seventeen years" should distinguish
+relational continuity from sexual continuity, because this pass is the first
+point the corpus has supplied evidence they can diverge.
+
 ## Gaps
 
 - **The 2007–2009 window is undocumented.** The claim of continuity *since high
@@ -252,4 +294,12 @@ Everything else can be allowed to burn, because he did not pick it.
 > without also stating that the suppression was invisible from inside the
 > relationship — which is a strictly stronger and more falsifiable version
 > of the same claim, and one the corpus can attack.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/people/annie-ulmer]] gained one new detail on the December 2, 2015
+> origin night: her parents' attempted veto of the relationship, recovered
+> from Rick Frank's side of the corpus. It sharpens the existing citation of
+> that night's fear-of-abandonment message with a concrete cause but changes
+> no date in the relationship's ~10.5-year span and no claim this page's
+> continuity argument draws on. Nothing here needed revising.
 

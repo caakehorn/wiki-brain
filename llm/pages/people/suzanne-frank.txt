@@ -6,7 +6,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-10
 infobox:
   name: Suzanne Frank
   status: Active
@@ -33,6 +33,9 @@ sources:
   - raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx
   - "raw/self/dox-md/Crisis mode briefing.md"
   - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
+  - raw/self/captures/2026-08-10_015145_suz-winter-park-condo-tenant.md
+  - raw/self/captures/2026-08-10_websearch-winter-park-condo-lead.md
+  - raw/self/captures/2026-08-10_160647_winter-park-condo-address.md
 synthesizes:
   - wiki/legal/463-morgantown
   - wiki/timeline/events/fran-death-vigil
@@ -100,6 +103,9 @@ connections:
   - page: wiki/timeline/periods/feb-apr-2025-return-and-rupture
     type: evidences
     claim: "A 2024 personal bankruptcy and a spring-2025 listing attempt on the childhood home (337 Saratoga Drive) — a full year before the eventual 2026 sale this page documents — is the previously-missing first driver of that house's extended, multi-attempt sale process."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: co-occurs
+    claim: "The earliest documented instance of Suz using real property rather than cash to support Dan predates 337 Saratoga and the 463 Morgantown arrangement by well over a decade: buying a Winter Park condo outright rather than renting one when Dan left for Full Sail in 2008, per a 2026-08-10 operator capture with no corroborating record yet located."
 ---
 
 
@@ -151,6 +157,50 @@ both.
 The professional and the personal are not cleanly separable in her life: the
 house she sells is also the house her son lives in, and her work as an agent is
 the same skill set that organizes the family's housing in real time.
+
+## The Winter Park condo (~2008–2010), and what happened after
+
+The earliest documented instance of Suz using real property rather than
+cash to support Dan predates the poverty-floor and 337 Saratoga years by
+a decade: when Dan left for [[wiki/timeline/periods/full-sail-2008-2010|Full
+Sail]] in September 2008, Suz bought a condo near campus rather than
+renting one for him — an operator-captured fact (2026-08-10) with no
+corroborating record located in `raw/` in this pass. Dan lived there for
+roughly a year before Full Sail's own housing or social arrangements
+moved him elsewhere for his final months in Florida (see
+[[wiki/timeline/periods/full-sail-2008-2010]]); Suz then tried to rent
+the unit out.
+
+> **What the operator reports, and what could and couldn't be verified
+> [2026-08-10]:** per the capture, the tenant Suz rented to never paid a
+> single month's rent and was arrested a few months into the lease for
+> running a human-trafficking scheme — recruiting women who were about to
+> be released from prison and trapping them in sexual slavery.
+>
+> **CORRECTED [2026-08-10, same day]:** the exact address is now on
+> record, supplied directly by the operator — **2924 Antique Oaks
+> Circle, Winter Park, FL** — a unit in the **Parkview Village**
+> condominium community (commonly listed at 350 S Semoran Blvd, Winter
+> Park, FL 32792), confirmed as a real address directly across from Full
+> Sail University, consistent with the "Crispers on 436, complex directly
+> across the road" description. This retires the earlier "Indigo Winter
+> Park" candidate below as a wrong guess in the right corridor. A further
+> search anchored to the confirmed address and complex name still found
+> no matching arrest, court record, or news story — the address is now
+> settled; the arrest itself is not. Full search record at
+> `raw/self/captures/2026-08-10_websearch-winter-park-condo-lead.md`.
+> Orange County, FL court records (searchable by address) or the Orlando
+> Sentinel's own archive are the next places to check.
+>
+> *Superseded first-pass reasoning, kept for the record:* a web search
+> for the likely property (Full Sail's campus sits at the corner of
+> University Blvd and State Road 436/Semoran Blvd; a Crispers restaurant
+> at 1740 State Road 436 is confirmed nearby) had turned up a
+> circumstantial candidate — Indigo Winter Park, 220 S Semoran Blvd,
+> listed commercially as "Indigo Condos" and sitting on the same
+> SR 436/University Blvd corner directly opposite Full Sail — but nothing
+> tied the Frank family to that specific address, and it was the wrong
+> complex.
 
 ## The financial relationship
 
@@ -257,6 +307,15 @@ source's other claims are flagged on
 [[wiki/people/tuquick-17248123683]]. The incident is the corpus's only
 documented instance of a third party escalating directly against Suz
 rather than against Dan or Annie.
+
+> **REVISED [2026-08-09]:** The caller is identified as
+> [[wiki/people/jerel-coles|Jerel Wayne Coles]], 36, of 106 Nassau St,
+> Uniontown — **the same municipality.** He carries a 2009 conviction for
+> harassment by subjecting another person to physical contact, a 2008
+> disorderly-conduct guilty plea for fighting, and an April 2025
+> criminal-mischief/property-damage charge. Provenance: commercial
+> background-check aggregator, not independently docket-verified. See
+> [[wiki/people/jerel-coles]] for the full record and its qualifiers.
 
 ## The colonization episode (terminal phase)
 

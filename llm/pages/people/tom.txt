@@ -194,6 +194,15 @@ The record ends there, unresolved: no reconciliation, no formal severance,
 just the same silence pattern that used to resolve itself running out its
 string. Whether the friendship recovers past May 30, 2026 is not documented.
 
+**NEW [2026-08-10]:** Dan named this collapse himself, in a session found
+during the [[wiki/people/annie-ulmer|Annie]] page's own most recent
+mining pass, as one of three simultaneous losses — alongside a job
+termination and a forced housing exit — that hit inside the same
+two-to-three-week window as the June 1, 2026 relationship severance:
+"i have LITERALLY noone now, even tom isnt talking to me since he beat me
+for 35 dollars for a sub he never brought." Full account of the
+compounding window at [[wiki/people/annie-ulmer]].
+
 ## The pattern is twelve years old, not new (2014 precedent)
 
 The spring-2026 collapse is often read as a late-life degradation of an

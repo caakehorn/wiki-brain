@@ -43,6 +43,9 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The drawer dispute is the micro-scale exhibit of the vertical-skepticism architecture: an unverified claim from above, backed by social pressure rather than records, met with procedural analysis and refusal."
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "The May 2026 termination landed inside the same two-to-three-week window as the June 1 severance and the 337 Saratoga move-out notice — named by the operator himself, in one AI session, as a single compounding crisis ('aura illness')."
   - page: wiki/people/tom
     type: caused-by
     claim: "The entire incident cascade traces upstream to Tom's mid-May 2026 supply failure — the withdrawal it caused is what impaired the shift the drawer variance was then pinned to."
@@ -55,6 +58,9 @@ connections:
   - page: wiki/people/anita
     type: co-occurs
     claim: "Anita is the GM who originated the $50 claim and controls the levers (deposit, schedule, discipline); the dispute is the setting where her backward-narrative pattern is documented."
+  - page: wiki/work/creative-license
+    type: parallels
+    claim: "The corpus's own dossiers name this job's drawer dispute as the recurrence, fourteen years on, of the same shape first seen at Creative License in 2011–12 — a trusted vertical figure's undocumented financial claim met with exit rather than confrontation; unlike this well-documented instance, the 2012 case has no primary corroboration."
 ---
 
 # BFS Foods (2026)

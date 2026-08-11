@@ -5,12 +5,13 @@ title: "90th St, Manhattan (NYC-1's third year)"
 status: closed
 knowledge: mixed
 date_created: 2026-07-20
-date_modified: 2026-07-20
+date_modified: 2026-08-10
 date_range_start: 2012-03-01
 date_range_end: 2013-04-01
 sources:
   - "raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
+  - raw/self/gmail-captures/2026-08-10-creative-license-kevin-mckiernan-gmail.md
 tags: [nyc-era, career, relationships]
 connections:
   - page: wiki/places/424-bedford-ave
@@ -18,10 +19,13 @@ connections:
     claim: "This Upper East Side sublet is the third and final year of the NYC-1 period, following two years at 424 Bedford Ave — the household's last New York address before the May 2013 return to Uniontown."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: instance-of
-    claim: "The February 2012 Creative License exit over airfare-billing discrepancies and altered intern contracts is the first documented vertical-authority-to-detonation event in the corpus, recurring at BFS Foods fourteen years later."
+    claim: "The February 2012 Creative License exit — a six-week final-paycheck dispute, a whistleblower disclosure about altered intern contracts, and a retaliatory notarized false LinkedIn claim, per the operator's own recovered Gmail record — is the first well-documented vertical-authority-to-detonation event in the corpus, recurring at BFS Foods fourteen years later."
   - page: wiki/people/alexis-armel
     type: co-occurs
     claim: "Alexis lived here through the address's full run and worked at the Bridge Cafe until Hurricane Sandy closed it in October 2012 — the final economic shock of NYC-1 before the return to Uniontown the following spring."
+  - page: wiki/work/creative-license
+    type: co-occurs
+    claim: "The employer-side page for the Creative License exit; a Gmail search confirmed this page's February 2012 date directly (a dated Feb 15 2012 final-paycheck email) and replaced the unconfirmed airfare-billing allegation with the real, documented conflict."
 ---
 
 # 90th St, Manhattan (NYC-1's third year)
@@ -36,20 +40,54 @@ Like Bedford Ave, the address itself is thinly documented — no rent,
 lease, or physical description survives — but the year it anchors
 contains two of the period's most consequential events.
 
-## The Creative License exit (February 2012)
+## The Creative License exit
 
-Just before the move, Dan left his position at Creative License — the
-West Village production-services company at 71 8th Ave he'd worked for
-under Kevin McKiernan since arriving in New York — over airfare-billing
-discrepancies and altered intern contracts. The corpus's own forensic
-read identifies this as the **first documented instance** of a
-recurring pattern: a trusted vertical authority figure engaging in
-quiet financial manipulation, met with Dan's exit rather than
-confrontation. The same structure recurs, by the corpus's own naming,
-fourteen years later at [[wiki/work/bfs-foods|BFS Foods]] — making this
-2012 departure the founding case for
-[[wiki/mind/synthesis/vertical-authority-skepticism]] rather than a
-one-off employment change.
+Just before the move, Dan left his position at
+[[wiki/work/creative-license|Creative License]] — the West Village
+talent/licensed-music brokering company at 71 8th Ave he'd worked for
+under [[wiki/people/kevin-mckiernan|Kevin McKiernan]] since April 2011 —
+after a six-week dispute over a missing W-2, a wrong final paycheck, and a
+disputed $104 MetroCard charge, escalated by Dan to the IRS and the NYS
+Department of Labor. Three months later he privately disclosed to a former
+coworker that McKiernan had used Dan's own account to pressure former
+employees and had altered departing interns' contracts to add a
+CEO-approval gag clause; McKiernan retaliated the following month with a
+false, notarized LinkedIn claim asserting Dan had never been an employee
+at all. The same structure recurs, fourteen years later, at
+[[wiki/work/bfs-foods|BFS Foods]] — making this departure the founding
+case for [[wiki/mind/synthesis/vertical-authority-skepticism]] rather
+than a one-off employment change.
+
+> **CORRECTED [2026-08-10]:** This section previously stated the exit
+> as "February 2012" without qualification. A dedicated pass on
+> [[wiki/work/creative-license]] and [[wiki/people/kevin-mckiernan]]
+> found the date is contradicted between sources: Dan's own résumé gives
+> "Jan 2011 – Feb 2013," a full year later than the AI-dossier chronology
+> this page had adopted as settled. It also found the specific fraud
+> allegation itself has **no primary-source corroboration anywhere in
+> the corpus** — it exists only in two AI dossiers restating each
+> other's language, not two independent accounts. Neither correction
+> changes the "founding case" framing, since the job did end and the
+> vertical-authority pattern this page cites is independently documented
+> elsewhere in the corpus; it does mean the specific mechanism and the
+> exact month should be read as unconfirmed narrative, not settled fact.
+
+> **RE-CORRECTED [2026-08-10, same day]:** The paragraph above is now
+> superseded by a live Gmail search, run at the operator's request, that
+> recovered the operator's actual 2011–2012 correspondence with Creative
+> License. The February 2012 date is now **confirmed directly** (a dated
+> February 15, 2012 email flags the final-paycheck error) rather than
+> merely repeated from a dossier. The airfare-billing allegation is now
+> **confirmed absent** rather than merely unconfirmed — it appears nowhere
+> in roughly thirty-five recovered threads. And a real conflict, richer
+> than either prior version of this section described, is now documented:
+> see [[wiki/work/creative-license]] and [[wiki/people/kevin-mckiernan]]
+> for the full account. This is the second correction to this section in
+> one day, which is itself worth naming — the first correction (above)
+> was right to distrust the AI dossiers' specific claim, and right that
+> the claim needed checking against primary sources; it had simply not
+> yet checked the one primary source (the operator's own email) that
+> existed but hadn't been searched.
 
 ## Hurricane Sandy and the Bridge Cafe (October 2012)
 

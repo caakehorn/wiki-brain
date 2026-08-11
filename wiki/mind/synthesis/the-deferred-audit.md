@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-08
+date_modified: 2026-08-11
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -367,6 +367,49 @@ therefore unaudited — exactly as predicted. This resolves as confirmed *pendin
 the failure*, which is the only way a prediction of this shape can resolve
 before the fact.
 
+## RE-CHECKED [2026-08-09] — a candidate counter-instance considered and set aside
+
+[[wiki/mind/concepts/forensic-method]] gained a finding this pass: the refusal
+to identify the interloper (declared 2026-07-26, terminated 2026-08-08 after
+13 days) is a documented case of the engine running **preemptively on a
+chosen-feeling delay** — the opposite pairing from this page's imposed→fast /
+chosen→slow rule, since a live antagonist reads as the most "imposed" object
+in the corpus. Worth checking against the rule directly rather than assuming
+consistency.
+
+**It does not move the rule, and the reason is the axis is different.** This
+page's provenance sort answers *whose claim is this* — did the assistant
+manager or the primary attachment hand me an unverified assertion, and how
+fast do I check it. The interloper refusal answers a different question — *do
+I want the answer at all* — and the stated reason was never provenance, it was
+projected emotional cost ("a hatred with a face"). An imposed claim under this
+page's rule gets audited fast because the claimant might be lying and the
+cost of believing a lie is immediate. The interloper's *existence* was never
+in doubt; what was deferred was a further fact (his name) whose only effect
+on Dan was internal. That is closer to
+[[wiki/mind/concepts/node-locking|the Eli redaction]] — a decision about what
+to hold, not about when to check a claim — than to this page's mechanism.
+**No finding on this page is withdrawn or revised.** The forensic-method page
+now cross-references this one for readers chasing the distinction; nothing
+here needs to reciprocate it structurally, since the two pages are answering
+different questions that happen to share a vocabulary ("the engine," "fires").
+
+The read-receipt-forensics addition to [[wiki/mind/concepts/forensic-method]]
+(chat.db metadata defects) and the standing-constraint section added to
+[[wiki/mind/synthesis/dan-annie-fallout-verdict]] are both orthogonal to this
+page's evidence base — neither touches the audit-lag timeline, the BFS/Annie
+comparison, or the Arnu prediction above — and are noted here only because
+`bin/wiki-climb check` flagged the premise as moved.
+
+> **RE-CHECKED [2026-08-10]:** `bin/wiki-climb check` flagged this page
+> again against `dan-annie-fallout-verdict.md`'s 2026-08-10 RE-CHECKED
+> block (itself downstream of the same-day `attachment-model.md` rewrite).
+> That block corrects a number (13→46 self-indicting apologies) and adds
+> one new data point (12 unmet crisis statements) — neither touches the
+> diagnosis-to-behaviour gap or the confession trap this page reasons
+> from, and the verdict page's own note says its apportionment of harm is
+> unchanged. No finding on this page is affected.
+
 ## Gaps
 
 - **The lag column is assembled from dated events, not measured uniformly.**
@@ -406,3 +449,11 @@ before the fact.
 > no audit, a tenure with no audit, and an exit that was a substitution
 > rather than a finding. The deferred audit is therefore not specific to the
 > 2015 handoff; it is how the previous occupancy ran too.
+
+> **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]] and
+> [[wiki/mind/synthesis/the-unbroken-bond]] both moved the same day, each only
+> to add a RE-CHECKED note of its own confirming an unrelated Annie-page edit
+> (a new detail on the December 2, 2015 origin night) didn't touch either
+> argument. No new claim, date, or figure entered either page. This page's
+> dependency on both is untouched.
