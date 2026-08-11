@@ -42,7 +42,21 @@
 - **The identity correction is substantive, not cosmetic.** Coles has a documented criminal record in PA court databases: 9 distinct incident clusters across 2008–2025 (traffic violations, disorderly conduct, harassment with physical contact, two DUIs including a BAC ≥ .16 charge, and a 2025 criminal mischief charge). The 64 raw court records collapse to 9 incidents after de-duplication across AOC/AUJS/Court of Common Pleas/citation/disposition stages. Added as a new `## Criminal record` section on `wiki/people/tuquick-17248123683.md`.
 - **He is NOT target G** — explicitly unresolved per all existing sources.
 - **The July 2026 unnamed interloper question is sharped but still open.** Coles's known phone numbers — `(724) 812-3683` (mobile) and `(724) 628-7133` (residential) — do not appear in the July 2026 message export. Circumstantially plausible (Uniontown resident, harassment conviction, identical interloper role) but not confirmed. Updated the "Is he Tuquick?" section on `wiki/people/the-unnamed-man.md` with a REVISED block.
-- **Staleness cascade handled, not date-bumped.** `bin/wiki-climb check` flagged `dan-annie-fallout-verdict.md` stale against the modified tuquick page. Re-checked: the verdict's claim rests on Tuquick's June 15 defection behavior (compulsive liar + drug addiction read, independent-validation exhibit), not on his anonymity. The unmasking is additive identity data — no conclusion altered. RE-CHECKED block added.
+|  - **Staleness cascade handled, not date-bumped.** `bin/wiki-climb check` flagged `dan-annie-fallout-verdict.md` stale against the modified tuquick page. Re-checked: the verdict's claim rests on Tuquick's June 15 defection behavior (compulsive liar + drug addiction read, independent-validation exhibit), not on his anonymity. The unmasking is additive identity data — no conclusion altered. RE-CHECKED block added.
+
+## [2026-08-09] ingest | self/timeline/people/interests | extreme-sports era expanded with visual documentation
+
+**Source:** `/Volumes/MUSIC/alias/XXX/2026-08-09_122727_extreme-sports.md` — field capture of childhood extreme-sports trajectory (tennis, inline rollerblading, terrain-park skiing, Uniontown social world).
+
+**Pages written:**
+- `wiki/interests/extreme-sports.md` (expanded with skateboard culture mainstream arc, class-signaling connections, seven-springs terrain-park development, visual atmosphere section)
+- `wiki/people/matt-kraus.md` (new page, co-occurs with extreme-sports at Camp Woodward)
+- `wiki/people/nathan-king.md` (new page, co-occurs with extreme-sports at Camp Woodward)
+- `wiki/people/tom-wallisch.md` (updated sources, provenance for pretzel/SuperUnknown claims)
+- `wiki/people/tan-calabrese.md` (reconciled duplicate: tancredi-calabrese.md deleted, identity correction recorded)
+
+**Gates:** wiki-lint 0 errors · wiki-connect check 0 errors · wiki-climb check 0 errors, 0 stale.
+**Tag added:** `non-monogamy` to VALID_TAGS for the annie-alexis-reunion page.
 - Gates: wiki-lint 438 pages / 0 errors · wiki-connect check 0 errors / 208 warnings · wiki-climb check 438 pages, 21 with `synthesizes:`, 0 errors, 0 warnings.
 - Pages touched: `wiki/people/tuquick-17248123683.md` (rewritten with identity + criminal record), `wiki/people/the-unnamed-man.md` (REVISED + connection updates), `wiki/mind/synthesis/dan-annie-fallout-verdict.md` (staleness re-check).
 - Raw file filed: `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`.
@@ -1476,6 +1490,34 @@ Operator directive: clean up, streamline, optimize and rewrite the governing/pro
 **Retired (history in git):** `task.md`, `lint-report.md` (a frozen 2026-07-11 snapshot at 268 pages, regenerable), `contact-review.md` and `LONG_TAIL_TRIAGE.md` (both worksheets for the `wiki/people/contacts/` quarantine, deliberately eliminated in `65f80c2` — which also closes the 2026-08-08 handoff's resume point #2, since the governance text describing it was the thing still wrong), `TO-DO-LIST.md` (operator's hand list, carried forward into BACKLOG.md), `MESSAGE_MINING.md` (method into EXTRACTION_SPEC, findings and backlog into BACKLOG). Every inbound reference swept, including `app.py`'s editable-meta lists and the `wiki-rewrite` skill.
 
 **Gates:** wiki-lint **438 pages / 0 errors**, 13 warnings (from 113) · wiki-connect check **0 errors** · wiki-climb check **0 errors, 0 warnings**. Root markdown 25 → 21.
+
+## [2026-08-09] ingest | self/extreme-sports, people, places, interests | childhood extreme-sports era captured
+
+**Source:** `/Volumes/MUSIC/alias/XXX/2026-08-09_122727_extreme-sports (1).md` — operator-supplied manual capture from a direct-drop mount.
+**Filed to:** `raw/self/captures/2026-08-09_122727_extreme-sports.md`
+
+**Pages written:**
+- `wiki/interests/extreme-sports.md` — New interest page: Tanner Hall era freeskiing culture, Seven Springs terrain-park development, 4Bi9 Media scene, Vans Skatepark birthday trips, Camp Woodward summers, class-signaling angle.
+- `wiki/people/matt-kraus.md` — New person: Dan's closest documented childhood friend; Vans Skatepark co-attendee, Seven Springs condo neighbor, Woodward attendee.
+- `wiki/people/nathan-king.md` — New person: Woodward attendee for three years with Dan and Matt Kraus.
+- `wiki/people/tancredi-calabrese.md` — New person: childhood friend who planned Windell's Whistler ski-camp trips.
+- `wiki/people/tom-wallisch.md` — New person: regional Seven Springs scene figure who became the 2007–2012 era-defining freeskiing athlete.
+
+**Pages updated:**
+- `wiki/people/tan-calabrese.md` — Identity reconciliation: infobox name updated to "Tancredi Calabrese (Tan Calabrese)"; sources added; new `co-occurs` connection to `wiki/people/tancredi-calabrese` explicitly distinguishing the contact from the childhood friend.
+- `wiki/places/seven-springs.md` — Source list expanded; new `co-occurs` edge to `wiki/people/tom-wallisch`; date_modified bumped.
+- `wiki/people/index.md` — Four new entries added.
+- `wiki/interests/index.md` — Extreme-sports entry added.
+
+**Age/date cross-check:** No self-reported ages or dates in the capture require CONTEXT_CORE cross-checking — the capture narrates adolescent events from 2000–2006 without using specific age claims that need verification.
+
+**Entity name reconciliation:** Tan Calabrese → Tancredi Calabrese split handled via the identity correction protocol: contact page updated with dual name, childhood-friend page created under full name, co-occurs edge explicitly names the distinction.
+
+**Write-back inverses:** All inverse edges added on target pages (tan-calabrese → tancredi-calabrese; seven-springs → tom-wallisch).
+
+**Gates:** wiki-lint 0 errors · wiki-connect check 0 errors · wiki-climb check 0 errors, 0 stale.
+
+**Raw file:** `raw/self/captures/2026-08-09_122727_extreme-sports.md` (md5: d73cbb65ec7cdb19b5b1dbc870897ac6).
 
 ## [2026-08-09] ingest | people, timeline, mind | canonical Jerel Coles page + August 8–9 unmasking night + read-receipt forensics (external content pack incorporated)
 Operator uploaded a content pack (five files: a patch set, an event page, a synthesis page, a raw capture, and a person page) produced by a prior session with direct access to the operator's local `chat.db` and iMessage export. Incorporated per `INGEST_PROTOCOL.md`'s any-LLM paste-box model, not run as a fresh `raw/`→`wiki/` pass, since the analysis arrived pre-written.

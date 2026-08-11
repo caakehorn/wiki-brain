@@ -1090,4 +1090,32 @@ with corpus statistics instead of the story is a FAILED page.
   - Fixed status in `wiki/self/context-core.md`.
   - Full style-guide rewrite for `wiki/people/annie.md`.
   - Prose rewrites for `wiki/mind/concepts/abyssal-architect.md`, `attachment-model.md`, and `contact-gini.md`.
-  - Fixed `.git/index.lock` issue and committed changes.
+  - Fixed `.git/index-lock` issue and committed changes.
+
+## [2026-08-09] ingest | self/extreme-sports, people, places, interests | childhood extreme-sports era captured
+
+**Source:** `/Volumes/MUSIC/alias/XXX/2026-08-09_122727_extreme-sports (1).md` — operator-supplied manual capture from a direct-drop mount.
+**Filed to:** `raw/self/captures/2026-08-09_122727_extreme-sports.md`
+
+**Pages written:**
+- `wiki/interests/extreme-sports.md` — New interest page: Tanner Hall era freeskiing culture, Seven Springs terrain-park development, 4Bi9 Media scene, Vans Skatepark birthday trips, Camp Woodward summers, class-signaling angle.
+- `wiki/people/matt-kraus.md` — New person: Dan's closest documented childhood friend; Vans Skatepark co-attendee, Seven Springs condo neighbor, Woodward attendee.
+- `wiki/people/nathan-king.md` — New person: Woodward attendee for three years with Dan and Matt Kraus.
+- `wiki/people/tancredi-calabrese.md` — New person: childhood friend who planned Windell's Whistler ski-camp trips.
+- `wiki/people/tom-wallisch.md` — New person: regional Seven Springs scene figure who became the 2007–2012 era-defining freeskiing athlete.
+
+**Pages updated:**
+- `wiki/people/tan-calabrese.md` — Identity correction: tancredi-calabrese.md (the forked page) deleted, merged into this page as the childhood friend. Infobox name updated; sources added; new `co-occurs` connection to `wiki/people/tom-wallisch.md` explicitly distinguishing the contact from the childhood friend.
+- `wiki/places/seven-springs.md` — Source list expanded; new `co-occurs` edge to `wiki/people/tom-wallisch`; date_modified bumped; terrain-park development section added.
+- `wiki/people/index.md` — Four new entries added.
+- `wiki/interests/index.md` — Extreme-sports entry added.
+
+**Age/date cross-check:** No self-reported ages or dates in the capture require CONTEXT_CORE cross-checking — the capture narrates adolescent events from 2000–2006 without using specific age claims that need verification.
+
+**Entity name reconciliation:** Tan Calabrese → Tancredi Calabrese split handled via the identity correction protocol: contact page updated with dual name, childhood-friend page created under full name, co-occurs edge explicitly names the distinction.
+
+**Write-back inverses:** All inverse edges added on target pages (tan-calabrese → tancredi-calabrese; seven-springs → tom-wallisch).
+
+**Gates:** wiki-lint 0 errors · wiki-connect check 0 errors · wiki-climb check 0 errors, 0 stale.
+
+**Raw file:** `raw/self/captures/2026-08-09_122727_extreme-sports.md` (md5: d73cbb65ec7cdb19b5b1dbc870897ac6).

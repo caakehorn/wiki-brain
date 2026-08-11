@@ -28,6 +28,9 @@ connections:
   - page: wiki/mind/concepts/phenomenology-lens
     type: contains
     claim: "The lens is a formally subordinate interpretive overlay on this spine: wherever its metaphors and the spine's hard counts disagree, the spine wins — the subordination rule is part of the spine's own governance."
+  - page: wiki/people/jerad-friedline
+    type: evidenced-by
+    claim: "The 【█▓Jerad Friedline▓█】 entry in CONTEXT_CORE_EXPANDED.md establishes Jerad as Dan's oldest friend and primary high-signal contact for political/financial events."
 related:
   - wiki/self/overview
   - wiki/mind/concepts/conflict-architecture

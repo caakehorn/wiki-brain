@@ -12,22 +12,22 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 451 |
-| Pages touched in the last 14 days | 199 |
-| Pages reasoning from other pages (`synthesizes:`) | 23 |
+| Pages | 456 |
+| Pages touched in the last 14 days | 209 |
+| Pages reasoning from other pages (`synthesizes:`) | 26 |
 | Live contradictions | 30 |
-| Open gaps | 129 |
+| Open gaps | 138 |
 | Standing predictions | 13 |
 
 ## By domain
 
 | Domain | Pages |
 |---|---|
-| people | 158 |
-| interests | 142 |
+| people | 161 |
+| interests | 143 |
 | mind | 59 |
+| timeline | 32 |
 | self | 31 |
-| timeline | 31 |
 | work | 15 |
 | places | 8 |
 | legal | 4 |
@@ -37,8 +37,8 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
-| stable | 182 |
-| active | 127 |
+| stable | 183 |
+| active | 131 |
 | closed | 99 |
 | archived | 31 |
 | stub | 12 |
@@ -46,18 +46,21 @@ this is the state of the thing.
 ## The last few days
 
 **2026-08-11** — 18 pages
+  - correction | people | the "decade of silence" with Rick was wrong — full record recovered, childhood testimony captured, worldview mismatch documented
   - process | EXTRACTION_SPEC.md | two new moves, generalized from the Rick pass — per-contact CSVs, dangling-citation chasing
   - ingest | people | the December 2015 Rick rupture, recovered two-sided and verbatim — mechanism behind the present-day estrangement
   - ingest | people | rick-frank.md correspondence review — two unmined sources, findings written back from three pages that already had them
 
-**2026-08-10** — 15 pages
+**2026-08-10** — 18 pages
   - rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
   - ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
   - rewrite | people, places | annie-ulmer.md wiki-rewrite pass + 3 manual captures — sex resumption, the 307 E 76th St cast, Suz's Winter Park condo
   - rewrite | people | annie-ulmer.md deep-mining pass — new events from previously unread raw/ sources
   - edit | people | Winter Park condo address confirmed — 2924 Antique Oaks Circle
 
-**2026-08-09** — 10 pages
+**2026-08-09** — 17 pages
+  - ingest | self/timeline/people/interests | extreme-sports era expanded with visual documentation
+  - ingest | self/extreme-sports, people, places, interests | childhood extreme-sports era captured
   - ingest | people, timeline, mind | canonical Jerel Coles page + August 8–9 unmasking night + read-receipt forensics (external content pack incorporated)
   - edit | people, mind | operator correction — Tuquick and the unnamed man confirmed as one person
 
@@ -96,6 +99,9 @@ have moved since.
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/people/alexander-jackson]] — 1 premise
 - [[wiki/people/arnu]] — 1 premise
+- [[wiki/people/jerad-friedline]] — 1 premise
 - [[wiki/people/john-carney]] — 1 premise
 - [[wiki/people/johnny-dealer]] — 3 premises
 - [[wiki/people/suzanne-frank]] — 3 premises
+- [[wiki/timeline/periods/2020-2021-market-era]] — 1 premise
+- [[wiki/work/fastly-fsly]] — 1 premise
