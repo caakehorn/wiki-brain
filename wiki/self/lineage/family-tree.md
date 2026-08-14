@@ -16,6 +16,9 @@ connections:
   - page: wiki/self/location-history
     type: parallels
     claim: "Multi-generational residence in Fayette County reproduces, in the genealogical record, the same geographic concentration the location export shows in Dan's own movement."
+  - page: wiki/self/lineage/23andme-genomics
+    type: parallels
+    claim: "The 99.7% European composition with 21.4% Ashkenazi in the genomic data mirrors this documentary record's dual heritage — Russian and Austrian Jewish immigration against deep Appalachian roots — independently of the paper trail."
 ---
 
 # Family Tree
