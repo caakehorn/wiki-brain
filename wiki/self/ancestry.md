@@ -20,6 +20,9 @@ connections:
   - page: wiki/mind/synthesis/fayette-return
     type: evidences
     claim: "The GEDCOM under this hub turned out to contain a rule and not just a lineage: every documented departure in the paternal line is followed by a documented return, every terminus sits inside one twenty-mile radius, and three of the four burials are in the same Hopwood cemetery — which makes Dan's returns the fourth iteration of a family pattern rather than four personal failures."
+  - page: wiki/self/lineage/23andme-genomics
+    type: contains
+    claim: "The 23andMe genomic data — ancestry composition, haplogroups, Neanderthal percentage, health reports — is one of three sub-reports under this hub, providing the biological cross-reference to the documentary family tree and hybrid analysis."
 ---
 
 # Ancestry (Hub)

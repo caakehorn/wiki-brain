@@ -11,6 +11,9 @@ connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
     type: component-of
     claim: "This page is the dialectic's evidentiary workings — where the genomic and documentary records are set against each other — and it flags its own conclusions as an interpretive frame rather than a clinical finding."
+  - page: wiki/self/lineage/23andme-genomics
+    type: evidenced-by
+    claim: "The 23andMe ancestry composition, haplogroups, and Neanderthal data are one of the two evidentiary streams this page cross-references against the documentary family tree."
 ---
 
 # Hybrid Lineage Analysis
