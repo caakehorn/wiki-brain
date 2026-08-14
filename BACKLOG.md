@@ -163,3 +163,31 @@ Kept because re-proposing these wastes a pass each time.
   prose of every page, served unauthenticated.** Raised with the operator, who
   confirmed the exposure is intended. Making `wiki-brain` private did not make
   the wiki's contents private, and that is a decision, not an oversight.
+
+## Phantom citations — sources cited but empty (opened 2026-08-14)
+
+`bin/source-index` found four header-only files in `raw/self/message-csv/`,
+two of them cited by wiki pages as though they carried evidence:
+
+- **`END_FIGHT_full.csv`** (68 bytes, 0 rows) — cited on
+  `wiki/self/message-corpora/master-message-dump.md`,
+  `wiki/timeline/events/end-fight.md`,
+  `wiki/timeline/events/group-chat-closure.md` (credited specifically for
+  "sequence details"), and `wiki/mind/synthesis/dan-annie-fallout-verdict.md`.
+- **`annie_group_chat_may31-june1_2026.csv`** (68 bytes, 0 rows) — cited on
+  `wiki/mind/synthesis/bond-switch-2015.md`.
+- `annie_group_chat_relaxed.csv` (57 bytes) and
+  `messenger_export_THREADKEY_HERE.csv` (0 bytes) — not cited anywhere.
+
+**The work, not yet done:** for each of the five citing pages, determine
+whether any specific claim rests on the empty file *alone* rather than on a
+co-cited non-empty source. Every one of those pages also cites
+`THE END FIGHT.csv` (589 real rows) or `annie_all_time_logs.csv`, so the
+likely finding is that the empty citations are redundant decoration and no
+claim falls — but that is a hypothesis, not a result, and "likely redundant"
+is exactly the reasoning that let the `sic semper` inversion stand for two
+months. Do not close this by assuming.
+
+Do **not** delete the empty files. `raw/` is immutable, and per the
+2026-08-13 doctrine on artifacts that produced a documented failure, they are
+retained as the worked example behind this backlog item.
