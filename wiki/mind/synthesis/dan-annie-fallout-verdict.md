@@ -4,9 +4,10 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-11
+date_modified: 2026-08-13
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
+  - raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
   - raw/self/message-csv/annie_all_time_logs.csv
   - raw/self/message-csv/THE END FIGHT.csv
@@ -54,7 +55,7 @@ connections:
     claim: "The model's inability to self-close without an explicit severance signal — none of which appear in Annie's 41,073 messages — is the mechanism that held the bond open through the fifteen-month terminal phase."
   - page: wiki/timeline/events/end-fight
     type: evidenced-by
-    claim: "The June 1 closure rows — sic semper lupanis at 00:27:49, the 00:24-00:26 accusations, the June 15 Tuquick defection — are the primary RAW-CSV backbone of the defamation and independent-validation findings."
+    claim: "The June 1 closure rows are the primary RAW-CSV backbone of the defamation and independent-validation findings, and their authorship is now settled: every row from 00:21:47 through the 'sic semper lupanis' sign-off at 00:27:49 is Dan's own unbroken outbound run — the sign-off was misattributed to Annie here until 2026-08-13, and her only contribution to the closure is the June 5 apology."
   - page: wiki/timeline/events/eli-incident
     type: evidenced-by
     claim: "The concealed-affair finding rests on the Eli discovery sequence; the framework-violation framing — exactly what the arrangement was proposed to prevent — is the verdict's first pillar."
@@ -106,11 +107,53 @@ This page is the capstone synthesis of the fallout. **Every load-bearing claim b
 > **REVISED [2026-07-18] — the 187:4 statistic does not survive a controlled recomputation.** A primary recount from `imessage_7244346811+2124702449_both_all_now.csv` (Aug 1 2025 – Mar 16 2026; her side = 8,293 messages) reproduces the *ratio*: 212 of her 220 love-declarations (96.4%) have a request-like message from her within ±24h — statistically identical to the dossier's 187/191 (96.6%). **But the control the dossier never ran deflates it: 97.2% of a random sample of ALL her messages in the window have a request within ±24h.** She made requests nearly every day, so *any* class of her messages is ~96–97% "request-adjacent" at a 24-hour radius — the adjacency carries no information about love specifically. Worse for the thesis, the directional tight-window test **inverts** it: a drug/money request follows within 1 hour of her love-declarations only 3.2% of the time, against a 16.2% baseline for her average message (2h: 4.5% vs 20.8%; 6h: 9.1% vs 30.2%). On the text record, her love-declarations were systematically *more isolated* from requests than her ordinary messages, not less. What survives: the love-language *rate* collapse-and-rebound (2.7% recovery timed to the supply relationship) is unaffected, and Dan's Jan 24 2026 subjective report stands as his lived read — but the 187:4 figure should no longer be cited as statistical evidence of a procurement instrument. (Caveats: request lexicon is heuristic; in-person and call behavior is invisible to this test.)
 
 **4. The defamation campaign ran concurrently with private denials — the moral weight sits above ordinary betrayal.** Two written denials of any third party (Nov 2025, Feb 2026) were issued while she was involved with Tuquick, and while a defamation narrative (false rape allegation, "junkie" framing) circulated in their shared peer network. The June 1, 2026 group chat confirmed both:
-- *Annie exit line* — **[RAW-CSV]** `THE END FIGHT.csv` / `imessage_2124702449_both_all_now.csv` / `ANNIETEXTS.csv`: `2026-06-01 00:27:49 | Sent (Received by Dan) | +121****2449 | Goodbye forever. This was not how it should have ended but. sic semper lupanis.`
-- *Dan: "I saved you from fucking DYING…"* — **[RAW-CSV]** `THE END FIGHT.csv`: `2026-06-01 00:25:59 | Sent | I saved you from fucking DYING when you were shooting coke and you would sell me out to virtue signal your loyalty to someone else?`
 - *Dan: "You are not capable of love…"* — **[RAW-CSV]** `THE END FIGHT.csv`: `2026-06-01 00:24:59 | Sent | You are not capable of love and I really did try to not make you look like the treacherous person you are.`
+- *Dan: "I saved you from fucking DYING…"* — **[RAW-CSV]** `THE END FIGHT.csv`: `2026-06-01 00:25:59 | Sent | I saved you from fucking DYING when you were shooting coke and you would sell me out to virtue signal your loyalty to someone else?`
+- *Dan's closure line* — **[RAW-CSV]** `THE END FIGHT.csv` / `imessage_2124702449_both_all_now.csv`, corroborated in `imessage_export_deep.csv` (`Sent`, `HANDLE=Me`): `2026-06-01 00:27:49 America/New_York | Sent by Dan | dyad +121****2449 | Goodbye forever. This was not how it should have ended but. sic semper lupanis.` **This page attributed the line to Annie until 2026-08-13 — see the correction below.**
 - *Annie's only unprompted acknowledgment* — **[RAW-CSV]** `imessage_2124702449_both_all_now.csv`: `2026-06-05 00:37:42 | Received | Daniel, i just want to say that i am extremely sorry.`
 - *Tuquick defection (independent validation)* — **[RAW-CSV]** `imessage_export_7248123683_20260624.csv`: `2026-06-15 13:15:12 | Received | She's a compulsive liar with a drug addiction` (and `13:14:58 | You can have her back ? She's no good trauma bond to the cuck`). Tuquick, who had savaged Dan in Annie's defense on June 1, independently converged on Dan's decade-long read within 14 days.
+
+> **CORRECTED [2026-08-13] — "sic semper lupanis" is Dan's line, not Annie's, and it was the wiki's own direction column read backwards.**
+> This page stated in three places that the June 1 sign-off — *"Goodbye forever. This
+> was not how it should have ended but. sic semper lupanis."* — was Annie's. The bullet
+> above called it the *"Annie exit line"* and cited it as `Sent (Received by Dan)`; the
+> verbatim-anchor table logged it with no author; the `end-fight` connection claim
+> bundled it with the accusations as undifferentiated "closure rows." **All three were
+> wrong.** The row is Dan's outbound.
+>
+> The evidence, scope stated: in the deep whole-device export
+> (`imessage_export_deep.csv`, 186,671 rows, timestamps in **UTC**) the message is
+> `2026-06-01 04:27:49 UTC | SENT OR RECEIVED = Sent | HANDLE = Me | CHAT NAME =
+> +12124702449 | IS GROUP CHAT = No` — that is **2026-06-01 00:27:49 America/New_York**,
+> and `HANDLE = Me` is unambiguously outbound. The per-contact exports agree
+> independently: `THE END FIGHT.csv` and `imessage_2124702449_both_all_now.csv` both
+> carry it as `direction = sent`, and it is the last row of an unbroken seven-message
+> outbound run beginning `00:21:47 sent` — a run that includes the 00:24:59 and 00:25:59
+> lines this page has always correctly attributed to Dan, with no inbound row anywhere
+> between them.
+>
+> **Named cause, because it will recur.** The cited direction field
+> `Sent (Received by Dan)` is a **Dan's-eye-view direction column** — `sent` means *Dan
+> sent it* — and a prior pass glossed it as *"sent by the contact, received by Dan."*
+> The gloss inverts every row in the file. The tell was on the page the whole time: the
+> two adjacent rows two and three minutes earlier carry the identical `Sent` tag and are
+> attributed to Dan, so the same column was being read in two opposite directions inside
+> one bullet list. Any per-contact export in `raw/self/message-csv/` should be read this
+> way, and the same failure is the one already flagged at "Two corrections forced by the
+> raw" item 1 below, where a `Sent` row was left sender-unresolved for the same reason.
+>
+> **What this costs and what it does not.** Not the defamation finding: that rests on the
+> two written third-party denials, the 00:24–00:26 accusations, Annie's June 5 apology,
+> and the June 15 Tuquick defection, none of which change hands. Not the "0 explicit
+> severance signals from Annie" count — if anything that count is *reinforced*, because
+> the one line in the corpus that read as her terminating statement turns out never to
+> have been hers, so her severance total was never even a near-miss. What it costs is a
+> narrative fact this wiki has leaned on repeatedly: **the relationship's closing sentence
+> was authored by Dan.** The consequences for the three synthesis pages that argue he
+> cannot close a bond from the inside are worked through on those pages
+> ([[wiki/mind/synthesis/dormancy-not-exit]],
+> [[wiki/mind/synthesis/block-unblock-loop]], [[wiki/mind/synthesis/the-unbroken-bond]]),
+> each of which was re-checked the same day.
 
 ## The architecture of the feeling — why "wronged" was also a trap
 
@@ -120,13 +163,68 @@ The operator's directive is explicit: engage the diagnosis→behavior gap, do no
 
 **The attachment model cannot self-close without an explicit severance signal, and she issued none.** 299 love affirmations across the corpus, **0 explicit severance signals** — the 0-severance half is now **[RAW-CSV]** (2026-07-18 recount of her 41,073 messages in the dual-handle export: a severance-lexicon sweep returns only false positives — a quoted denial of "rather just break up," a literal ice-breaking anecdote; her final substantive message remains the June 5 apology). The 299 figure itself remains **[DERIVED]** — no window/lexicon reproduces it exactly (her terminal-phase love-messages: 231; his: 355; her all-time in this export: 1,302). Because positive verbal rhetoric functions as an absolute rule in his architecture until countermanded, the bond stayed active through a fifteen-month terminal phase. Every "I love you" while withdrawing behaviorally generated a data conflict that prevented closure.
 
+> **RE-CHECKED [2026-08-13] — the "she issued none" half stands; the "cannot self-close" half is now too strong.** The severance-signal count is unchanged and in fact firmer: the one line the corpus read as her terminating statement was Dan's (see the CORRECTED block above), so Annie's total stays at zero without even a candidate. But the clause *"cannot self-close"* asserts something the June 1 record does not support, because **Dan closed it himself and then held the closure for fifty-two days.** Counted from the deep whole-device export (`imessage_export_deep.csv`, timestamps converted UTC→America/New_York, all five Annie identifiers, dyadic and group threads both), the interval 2026-06-01 00:27:49 → 2026-07-23 14:54:01 contains **zero outbound messages from Dan** and **seven inbound from Annie across four separate approaches** — June 5 (the apology), June 9 (*"Are you okay" / "Please answer"*), June 10 (the Valic/Corebridge paperwork request, the terminal phase's single most characteristic contact shape), June 15 (*"Daniel"*) — every one of them unanswered. That is not an architecture that cannot emit a closure; it is one that emitted a closure, executed it correctly under direct adversarial pressure, and could not make it permanent. The corrected statement, worked through in full on [[wiki/mind/synthesis/block-unblock-loop]], [[wiki/mind/synthesis/dormancy-not-exit]] and [[wiki/mind/synthesis/the-unbroken-bond]], is that the system implements **suspend** and does not implement **delete**. The mechanism this paragraph names still explains the fifteen-month terminal phase; it no longer explains June 1, which needs the durability account instead.
+
 **The re-engagement loop trained her to ignore his limits.** 127 exit declarations, 110 re-engagements — an 87% relapse rate **[DERIVED]** (MasterRecord; a loose exit-lexicon sweep of his 44,513 messages finds 176 candidates, order-consistent but definition-dependent — the exact pair remains unreproduced). The apologies were re-affirmations, not contrition (the full-corpus triad: 1,512 "I love you" / 232 "fuck you" / 180 "I'm sorry" — **[DERIVED]**, bootloader v2.1 on the 181,585-message corpus). He affirms 6.5× more than he attacks. Reassurance restabilizes the bond *without resolving the breach*, so the loop reloads at a lower baseline every cycle.
 
 > **REVISED [2026-07-18] — triad partially confirmed, "apologizes least" not reproduced.** Recount from `all_imessages_complete_dump.txt` (217,573 rows through Aug 10 2025, sender-tagged): Sent "love you" = 1,528 messages (strict "i love you": 1,388) — the 1,512 figure is confirmed to lexicon precision. Sent "fuck you" = 111 through Aug 2025; his terminal-window count adds 74 (below), making the 232 total plausible for the full corpus through June 2026 — consistent, not exactly reproduced (the dump ends before the terminal phase). But Sent "I'm sorry / I am sorry" = **435** through Aug 2025 alone — more than double the claimed 180, and ~4× his attack count. Under any plain lexicon he apologizes *more* than he attacks, not "least of all"; the 180 figure would require an unstated narrower definition (e.g. contrition-to-Annie only, excluding sympathy usage). The load-bearing finding — **reassurance dominance** (affirmation an order of magnitude above both) — survives and strengthens; the apology-deficit ordering does not. The confession trap names the other side: he could not exit without the validation of a confession he had already earned, because leaving without the verdict would mean abandoning the identity of the person who was right. "The exit was never through the verdict. It was through the door."
 
 ## The ledger runs both ways — what was his responsibility
 
-- **94 burst events**, each preceded by her silence **[DERIVED]** (MasterRecord; the "crash-out" framing is hers, the sequence — burst-follows-silence — is the dossiers' corrected read; a full-dump run-count with a 2-minute gap threshold yields 11,666 sent-runs ≥3, max single run 149 through Aug 2025 — order-confirms burst behavior but the 94 figure is parameter-dependent and unreproduced exactly). Verbal abuse escalated 9 (Aug 2025) → 36 (Feb 2026): 74 "fuck you" / 17 "piece of shit" / 11 "worthless" — **upgraded [RAW-CSV] 2026-07-18: all three counts reproduce EXACTLY** from his side of the dual-handle export in the Aug 1 2025 – Mar 16 2026 window (74 / 17 / 11; her side in the same window: 0 / 1 / 0 — the asymmetry is complete). His in-window "I'm sorry" count, for the same ledger: 121.
+- **94 burst events**, each preceded by her silence **[DERIVED]** (MasterRecord; the "crash-out" framing is hers, the sequence — burst-follows-silence — is the dossiers' corrected read; a full-dump run-count with a 2-minute gap threshold yields 11,666 sent-runs ≥3, max single run 149 through Aug 2025 — order-confirms burst behavior but the 94 figure is parameter-dependent and unreproduced exactly). Verbal abuse escalated 9 (Aug 2025) → 36 (Feb 2026): 74 "fuck you" / 17 "piece of shit" / 11 "worthless" — **upgraded [RAW-CSV] 2026-07-18: all three counts reproduce EXACTLY** from his side of the dual-handle export in the Aug 1 2025 – Mar 16 2026 window (74 / 17 / 11; her side in the same window: 0 / 1 / 0 — the asymmetry is complete). His in-window "I'm sorry" count, for the same ledger: **119**, against **227** for hers under the identical test — see the two blocks below.
+
+> **RE-CHECKED [2026-08-13] — the verbal-abuse asymmetry holds on an independent recount.**
+> Scope for everything in this block: `raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv`,
+> `datetime_local` already in America/New_York, window **2025-08-01 00:00:00 → 2026-03-16 23:59:59**,
+> Annie's two handles `+17244346811` / `+12124702449`, direction column read Dan's-eye-view
+> (`sent` = Dan). Denominators: **10,346** messages from Dan, **8,293** from Annie.
+> Word-boundary regex, run both per-message and per-occurrence so the metric is not doing
+> hidden work: Dan **74 / 18 / 11** per occurrence and **73 / 17 / 11** per message; Annie
+> **0 / 1 / 0** under both. The published triple reproduces — "fuck you" = **exactly 74** on
+> the per-occurrence count, "piece of shit" = 17 and "worthless" = 11 on the per-message
+> count — so the trio as printed mixes two metrics by one message each. **That changes
+> nothing about the finding**: on either metric consistently applied the ratio is
+> 73–74 : 0, 17–18 : 1, 11 : 0. The asymmetry is unaffected and is re-asserted here
+> [RAW-CSV].
+
+> **CORRECTED [2026-08-13] — his apology figure was 121 and is 119; hers was never stated and is roughly twice his.**
+> Two problems with the sentence this block replaces, in ascending order of importance.
+>
+> **First, the count.** The published **121** reproduces exactly under the plain lexicon —
+> any of `i'm sorry` (straight or curly apostrophe), `i am sorry`, `im sorry`, case-insensitive,
+> counted per message, same file and window as the block above. But **two of the 121 are
+> tapback rows, not apologies**: `2026-01-29 20:41:29` and `2026-01-29 20:42:15`, both of the
+> form `Liked "…"` where the quoted text is *Annie's* apology — *"…And I should be and I'm
+> sorry…"* and *"Dan I am sorry I do really love you and need you in my life."* An iMessage
+> reaction reproduces the message it reacts to, so a lexicon sweep scores Dan as apologising
+> when he in fact acknowledged an apology of hers. **The true figure is 119** [RAW-CSV], and
+> the same defect will inflate every reaction-bearing count in this corpus by a few points
+> in whichever direction the reaction was sent.
+>
+> **Second, and this is the real error: the figure was stated alone, immediately after "the
+> asymmetry is complete."** Read in sequence, "0 / 1 / 0 — the asymmetry is complete… his
+> count: 121" invites the inference that his apologising is the other side of a one-sided
+> ledger. It is not, and the same file settles it in one pass. **Under the identical lexicon,
+> window, and file, Annie's apology count is 227** — against his 119, a ratio of **1.91:1 in
+> her favour**, on a message base 20% smaller than his. Two other lexicons bracket it in the
+> same direction, all figures tapback-cleaned on both sides: contraction-only (`i'm sorry`)
+> gives **129** for her against **110** for him; any occurrence of the token "sorry" gives
+> **356** for her against **285** for him. Her side needs no cleaning — none of her matching
+> rows are reactions. There is no cut of the data in which Dan out-apologises Annie in the
+> terminal window.
+>
+> **What this does and does not do to the verdict.** It leaves the verbal-abuse asymmetry
+> exactly where the block above puts it — 74/17/11 against 0/1/0 is a finding about
+> *contempt language*, and it is confirmed, not softened. What it removes is a second,
+> unearned asymmetry that the page's ordering implied but never claimed: that he was also
+> the one doing the repairing. He was not. The terminal window contains an extreme
+> asymmetry in verbal abuse running one way and a roughly two-to-one asymmetry in stated
+> apology running the *other* way, and both belong on this ledger because the ledger's own
+> heading says it runs both ways. This also sits directly against the 2026-07-18 REVISED
+> block below, which found his corpus-wide apology count under-reported (435, not 180): the
+> corpus's standing picture of Dan as a man who affirms constantly and apologises rarely is
+> wrong in both directions at once — he apologises far more than the dossiers said, *and*
+> less than she did.
 - **He was the supply-chain architect.** The terminal-phase retention mechanism — Dan controlling the drug supply while Annie was unemployed and dependent — was his, operating independently of love or strategy. The financial oscillation ran three rotations (he funded early NYC; she was sole earner in 2024 after his involuntary Au Za'atar exit; he became the Uniontown supply chain in 2025–26). The magnitude is now quantified from payment-app ledgers: across Cash App and Venmo, Dan sent Annie on the order of **~$139K** and received back only **~$16–20K** — a net outflow to her of roughly **$119K–$123K** over the relationship (per operator-provided screenshots of her profiles viewed from his apps, 2026-07-15; two separate app ledgers, not a single summed total; see [[wiki/people/annie-ulmer]] "The money — quantified"). The "funded" read is not metaphor: it is a six-to-one financial asymmetry in her favor.
 - **The arrangement was his design.** The quasi-non-monogamy framework is read in the dossiers as "the most concentrated expression of his retention architecture." Annie participated and said she enjoyed it; the asymmetry (she never delivered the reciprocal side) is real, but the frame was his.
 - **The Whisk / fake-surveillance escalation.** The Jan 2025 spoofed-number test is rated by the dossiers as one of his most measured acts (he held the power to burn a life and did not use it). Its verification in raw: **[RAW-CSV]** `imessage_2124702449_both_all_now.csv`: `2026-01-05 23:02:51 | Received | Nice. Real mature. Goodnight.` (Annie's reply to the Whisk stimulus — recognition, not confusion). But a later session shows he went on to have Claude build, then built without Claude's help, three fake surveillance-TUI scripts hardcoded with Annie's real name and home streets — the restraint and the escalation are both documented; the arc points toward control, not just detection.
@@ -150,13 +248,13 @@ The dossiers' own proportionality finding is the line to hold: these are "real, 
 | Apr 1 third-party call to mom | `imessage_2124702449_both_all_now.csv` | 2026-04-01 00:57:32 | sent | Your mom calls my mom at 730 and said you n… (a guy looking for you) |
 | May 5 GPS shared w/ third party | `imessage_2124702449_both_all_now.csv` | 2026-05-05 15:09:50 | sent | stay away from me you liar I can not believe you would give someone else your location after what you did to me |
 | May 4 self-periodization | `imessage_2124702449_both_all_now.csv` | 2026-05-04 20:08:01 | sent | 25 Nov 2015 - 04 May 2026 Now you can be happy… |
-| Jun 1 "sic semper lupanis" | `THE END FIGHT.csv` | 2026-06-01 00:27:49 | Sent | Goodbye forever… sic semper lupanis. |
+| Jun 1 "sic semper lupanis" | `THE END FIGHT.csv` | 2026-06-01 00:27:49 | **sent — by Dan** (corrected 2026-08-13) | Goodbye forever… sic semper lupanis. |
 | Jun 5 apology | `imessage_2124702449_both_all_now.csv` | 2026-06-05 00:37:42 | Received | Daniel, i just want to say that i am extremely sorry. |
 | Tuquick defection | `imessage_export_7248123683_20260624.csv` | 2026-06-15 13:15:12 | Received | She's a compulsive liar with a drug addiction |
 
 ## Two corrections forced by the raw (provenance discipline)
 
-1. **The "March 2025 admission" is misdated and its sender is contested by the row.** The dossiers cite Annie's March 2025 message *"you decided to split our lives up. you lied to me for months and cheated on me."* In `all_imessages_complete_dump.txt` the row is `2025-02-23 14:28:42 | Sent | +121****2449` — i.e. **February 23**, and tagged **Sent** from Dan's own handle, not Received from Annie. Every dossier that cites it treats it as Annie's acknowledgment, but the raw direction tag contradicts that assignment. This page records it as **[RAW-DUMP] but sender-attribution-unresolved** — the text exists verbatim; who authored it is not settled by the direction field alone (the dump's direction may reflect export-side tagging). Flagged, not asserted.
+1. **The "March 2025 admission" is misdated and its sender is contested by the row.** The dossiers cite Annie's March 2025 message *"you decided to split our lives up. you lied to me for months and cheated on me."* In `all_imessages_complete_dump.txt` the row is `2025-02-23 14:28:42 | Sent | +121****2449` — i.e. **February 23**, and tagged **Sent** from Dan's own handle, not Received from Annie. Every dossier that cites it treats it as Annie's acknowledgment, but the raw direction tag contradicts that assignment. This page records it as **[RAW-DUMP] but sender-attribution-unresolved** — the text exists verbatim; who authored it is not settled by the direction field alone (the dump's direction may reflect export-side tagging). Flagged, not asserted. **[2026-08-13] — one leg of this now moves and one does not.** The convention question is settled for the per-contact CSVs: `sent` there means *Dan sent it*, proven on the June 1 run in the CORRECTED block above, and the dump uses the same Dan's-eye-view convention on its own evidence (the Oct 19 2024 `Received` rows are Annie's, as this page reads them). So the reading "the direction field means the contact sent it" is dead, and the row's plain reading is that **Dan wrote it**. What is still not settled is whether the row is *mis-tagged*, which is a different objection and the one actually at issue: the sentence's content is an accusation only Annie's counterparty would make. The deep 2026 export was searched for the string this pass and **does not contain the row at all** — that export lost 41.8% of the record and its coverage of Feb 2025 is incomplete — so no independent second witness exists yet. Downgraded from "sender contested" to **"authored by Dan on the direction field; adopt-with-caution pending a second export"**, which is a narrower and more falsifiable state than before.
 2. **The March 2026 "YES DAN" confession is dossier-only; the "I misunderstood the conversation" retraction is now [RAW-CSV] confirmed.** The 42 "Yes Dan" rows in `all_imessages_complete_dump.txt` are unrelated confirmations across 2015–2024, and the confession half of the pair remains sourced only from `report collection.txt` / `Attachment and Trust Breakdown.md` (**[DOSSIER]**). But the retraction sentence itself **was located** in a 2026-07-20 re-search of `imessage_2124702449_both_all_now.csv`: `2026-03-16 18:47:51 | Received | I think that I had misunderstood the conversation when that happened Dan` — upgraded [DOSSIER]→[RAW-CSV]. The surrounding events (bathroom incident, "Calm down. Please. I will be over" at 7:37 PM Mar 10) remain **[DOSSIER]**-transcribed only.
 
 ## The honest answer to the question

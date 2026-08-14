@@ -6,10 +6,12 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-11
+date_modified: 2026-08-13
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/message-csv/imessage_2124702449_both_all_now.csv
+  - "raw/self/message-csv/THE END FIGHT.csv"
 synthesizes:
   - wiki/timeline/events/july-august-2026-reentanglement
   - wiki/people/alexis-armel
@@ -23,7 +25,7 @@ tags: [relationships, nyc-era, uniontown-era, forensic-analysis]
 connections:
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: evidenced-by
-    claim: "Supplies the mechanism this page could only infer: Dan states that a tie closes only on an explicit terminating statement from the other party, then fails to obtain one from Annie across 1,880 messages of direct demand."
+    claim: "Supplies the mechanism this page could only infer, in the form corrected 2026-08-13: the counterparty's terminating statement is not what performs a closure — Dan performed the June 1 one himself and held it 52 days — it is what would let him treat a closure as settled, which is why 1,880 messages of direct demand for it produced reactivation instead of an ending."
 
   - page: wiki/people/ellen-ulmer
     type: instance-of
@@ -162,6 +164,65 @@ should fail — a tie ended by an explicit, unhedged severance from the other
 side ought to close cleanly, and [[wiki/people/kristin|Kristin's]] December 2025
 block is the closest thing the corpus has to that case.
 
+> **CORRECTED [2026-08-13] — the rule holds; the mechanism this section adopted on 2026-08-02 does not, and it is replaced rather than patched.**
+>
+> **The premise that moved.** The June 1 2026 sign-off — *"Goodbye forever. This was
+> not how it should have ended but. sic semper lupanis."* — is **Dan's own outbound**,
+> not Annie's. Scope: `2026-06-01 00:27:49 America/New_York`, `SENT OR RECEIVED = Sent`,
+> `HANDLE = Me`, dyad `+12124702449`, non-group, in the deep whole-device export
+> (`04:27:49` in that file's UTC clock); `direction = sent` independently in
+> `THE END FIGHT.csv` and `imessage_2124702449_both_all_now.csv`; the last of an
+> unbroken seven-message outbound run from `00:21:47` with no inbound row inside it.
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]] carried it as Annie's for two months
+> and now carries the correction and its cause.
+>
+> And the fifty-two days that followed were tested. Across all five Annie identifiers,
+> dyadic and group threads together, `2026-06-01 00:27:49 → 2026-07-23 14:54:01` holds
+> **zero outbound from Dan** and **seven inbound from Annie in four separate approaches**
+> — June 5, June 9 (*"Are you okay" / "Please answer"*), June 10 (a financial-paperwork
+> request), June 15 (*"Daniel"*) — all unanswered.
+>
+> **Why this lands on this section specifically.** Everything above the 2026-08-02
+> addition is behavioural and survives untouched. What that addition did was adopt a
+> *mechanism*, in one sentence: **"the closing operation requires a counterparty and the
+> counterparty rarely performs it."** As stated, that is now false. Dan performed the
+> closing operation unilaterally, and performed it well.
+>
+> **The decision.** The page's rule — *nothing leaves this graph* — **survives, and is
+> untouched.** No node was deleted on June 1: Annie is on the graph today, the tie
+> reactivated on day fifty-two, and the reactivation ran 624 messages in four days. The
+> rule was never a claim about whether Dan can send a goodbye. It is a claim about
+> whether anything ends up gone, and nothing did.
+>
+> **What replaces the mechanism.** The counterparty's role was misidentified as
+> *performing* the operation. The corpus shows it is to **ratify** it. Dan can execute a
+> closure and can sustain the executed state against direct pressure for weeks; what he
+> cannot do without an external terminating statement is treat the result as **settled**,
+> so the closure has no stopping condition of its own and decays the moment a channel
+> opens. His own July 28 words are about exactly this and were misread here as being
+> about the sending: *"My brain can't cross out that part of my life that I love unless
+> I know that you don't feel that way."* Crossing out is not the same act as saying
+> goodbye. He said goodbye on June 1 without difficulty. It is the crossing-out that
+> requires the other person, and the crossing-out is what dormancy is the absence of.
+>
+> **Stated as a rule the corpus can attack: the graph implements *suspend* and does not
+> implement *delete*.** Suspension is available, unilateral, and demonstrably durable to
+> at least fifty-two days under adversarial contact. Deletion requires a counterparty
+> signature that nobody in this corpus has ever supplied. That is a narrower claim than
+> the one this section made and a stronger one than the page's original inference from
+> behaviour alone, because it now says *which* of two operations is missing rather than
+> asserting that ending is impossible in general.
+>
+> **The falsifier moves with it.** The old mechanism predicted that a tie ended by an
+> explicit unhedged severance from the other side should close cleanly — Kristin, above.
+> The replacement predicts something additionally testable on Dan's own side: **a
+> suspension he initiates should hold exactly as long as it takes for a co-held object to
+> generate a reason to make contact, and no longer.** June 1 gives one measurement,
+> fifty-two days, on one co-held object ([[wiki/people/milo|the dog]]), reopened through
+> email rather than the blocked channel. A second initiated suspension with nothing
+> co-held should not reopen at all, and if one does, the suspend/delete distinction is
+> wrong and the reopening is internal after all.
+
 > **RE-CHECKED [2026-08-03] — premise moved, conclusion untouched.**
 > [[wiki/places/155-virginia-ave]] was edited today to flag that its January
 > 2015 start date collides by a few weeks with Dan's account of the February
@@ -264,9 +325,18 @@ facts.
 
 It also reframes the June 2026 severance. `the-unbroken-bond` records that the
 break held fifty-two days and then failed. Under the rule stated here that
-outcome is not a measure of how strong the bond was — **severance is simply not
-an operation this system has.** The graph does not implement delete. It
-implements dormancy, and dormancy is reversible by construction.
+outcome is not a measure of how strong the bond was — the graph does not
+implement delete. It implements dormancy, and dormancy is reversible by
+construction.
+
+> **CORRECTED [2026-08-13]:** this paragraph used to read *"severance is simply not an
+> operation this system has."* That sentence is withdrawn. Severance is an operation this
+> system has, Dan issued it himself at `00:27:49` on June 1 2026, and it ran for
+> fifty-two days with zero outbound against four inbound approaches. What the system
+> lacks is not the operation but its **permanence** — see the correction block above.
+> The rest of the paragraph stands as written, and stands better: dormancy being
+> reversible by construction is precisely why a correctly executed severance still
+> reversed.
 
 ## Predictions
 

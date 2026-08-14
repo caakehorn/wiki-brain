@@ -4,8 +4,10 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-11
+date_modified: 2026-08-13
 sources:
+  - raw/self/message-csv/imessage_2124702449_both_all_now.csv
+  - "raw/self/message-csv/THE END FIGHT.csv"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
   - "raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md"
@@ -88,6 +90,14 @@ software Dan himself built. This page generalizes the pattern and
 states the one rule that predicts, across every documented case,
 whether a given severance will hold.
 
+**The headline formula is now known to be too strong, and the correction is
+worth carrying at the top rather than buried below.** On 2026-08-13 the June 1
+2026 closure line turned out to be Dan's own outbound and the fifty-two days
+that followed turned out to have been adversarially tested. He executed that
+exit — completely, under pressure, for fifty-two days. The axis was wrong:
+the thing that is never executed is not the *exit*, it is the *deletion*. Full
+working in the CORRECTED block under "What this changes."
+
 ## The rule
 
 **A block holds if and only if nothing either party still needs flows
@@ -112,7 +122,7 @@ documented at all.
 | 2022 repatriation | — (the reverse operation) | Continuity value rediscovered | Deliberate, ramped return |
 | [[wiki/people/kristin]] (inbound) | She blocks Dan, Dec 9 2025 | She needed nothing from him | Held |
 | [[wiki/people/menore]] (control) | No block — farewell text, Feb 20 2025 | Dependency ended by geography | Clean close, no loop |
-| [[wiki/people/annie-ulmer]] 2026 | June 1 group-chat closure | Supply and money dead; [[wiki/people/milo]] still co-held | Held 52 days, then reopened |
+| [[wiki/people/annie-ulmer]] 2026 | June 1 closure — **Dan's own sign-off**, 00:27:49 (corrected 2026-08-13) | Supply and money dead; [[wiki/people/milo]] still co-held | Held 52 days against four inbound approaches, then reopened |
 
 > **RETRACTED 2026-08-11 — the Rick control row was built on an incomplete
 > source and its central claim is false.** This page (and `rick-frank.md`,
@@ -252,6 +262,71 @@ an exhaustible Fe function.
   reset the 'days since i talked to annie' clock." Time away does not
   weaken the loop. Only the death of the last shared thing does.
 
+> **CORRECTED [2026-08-13] — the exit was executed, and this page's headline formula does not survive it. The dependency rule does.**
+>
+> **The premise that moved.** Two facts arrived together and they belong together.
+> First, the June 1 sign-off — *"Goodbye forever. This was not how it should have ended
+> but. sic semper lupanis."* — is **Dan's outbound**, not Annie's. It sits at
+> `2026-06-01 00:27:49 America/New_York` (`04:27:49` UTC in `imessage_export_deep.csv`,
+> `SENT OR RECEIVED = Sent`, `HANDLE = Me`, dyad `+12124702449`, not a group thread), is
+> the last of an unbroken seven-message outbound run beginning `00:21:47`, and carries
+> `direction = sent` in `THE END FIGHT.csv` and `imessage_2124702449_both_all_now.csv`
+> independently. [[wiki/mind/synthesis/dan-annie-fallout-verdict]] had it as the "Annie
+> exit line" for two months; the cause was a Dan's-eye-view direction column read
+> backwards, and that page now carries the correction.
+>
+> Second, the fifty-two days were **not** an untested silence. Counted from the deep
+> whole-device export across all five Annie identifiers, dyadic and group threads
+> together, UTC converted to local: between `2026-06-01 00:27:49` and
+> `2026-07-23 14:54:01` the record contains **zero outbound messages from Dan** and
+> **seven inbound from Annie across four separate approaches** — June 5 (*"Daniel, i
+> just want to say that i am extremely sorry"*), June 9 (*"Are you okay"* / *"Please
+> answer"*), June 10 (the Valic/Corebridge paperwork request plus *"Please"*), June 15
+> (*"Daniel"*). Every one unanswered. The June 10 approach matters most, because a
+> financial-paperwork request is the single most characteristic contact shape of the
+> entire terminal phase and the closest thing to a live dependency probe the corpus
+> could have designed. It drew nothing.
+>
+> **The decision, stated rather than deferred: the thesis survives in modified form,
+> and the modification is a real cost.**
+>
+> *What does not survive.* The opening formula — **"the exit is declared, not
+> executed"** — is false for the corpus's most important severance, and false in the
+> strongest available way. June 1 is not a declared exit that quietly leaked; it is a
+> declaration and its execution in the same message, followed by fifty-two days of
+> perfect compliance under four direct solicitations from the counterparty. Whatever the
+> other 127 declarations were, this one was an act. The page has been reading
+> declaration-versus-execution as the governing axis and it is the wrong axis.
+>
+> *What survives, and is strictly better.* The dependency rule is untouched — indeed
+> this is its cleanest run. The rule says a block holds while nothing either party
+> needs flows through the channel; the June 10 money-paperwork probe is exactly the
+> material dependency the rule scores as dead, and it produced no reopening, while the
+> July 4 email about the dog — a non-material co-held object, arriving on a *channel
+> the block did not cover* — did. The rule predicted which of two approaches would
+> break a fifty-two-day silence, and it picked correctly against the base rate.
+>
+> *The corrected formula.* **The exit is executed; the deletion never is.** Dan can
+> declare a severance, perform it, and hold it against sustained adversarial contact.
+> What he cannot do is make it terminal, because terminality is not a property of his
+> behaviour during the silence — it is a property of whether anything is still co-held
+> when the silence ends. This restates the loop as a durability problem rather than a
+> willpower problem, and it dissolves the page's long-standing implicit slur that the
+> 127 exits were failures of resolve. At least one of them was not.
+>
+> *A prediction the correction generates.* If execution is available and permanence is
+> not, then the useful measurement is no longer *whether* a severance holds but *how
+> long* — and the length should track the number of live co-held objects rather than
+> anything about the declaration's wording or vehemence. Fifty-two days against one
+> co-held object (the dog) is the current single data point; the rule predicts a
+> severance with two live co-held objects holds materially less, and one with none holds
+> indefinitely. The Menore row is the zero-object case and has stood roughly eighteen
+> months.
+>
+> *And a falsifier.* A severance where nothing is co-held and Dan reopens it anyway
+> would break the corrected formula as decisively as June 1 broke the old one, because
+> it would put the reopening back inside him rather than in the channel.
+
 > **RE-CHECKED 2026-08-01 — the rule survives, the Menore control row does
 > not, and it was weakened by Menore's own history.** `menore.md` moved on
 > 2026-08-01 while this page reasons from it, so the dependency was re-read.
@@ -324,6 +399,42 @@ It also makes a prediction. Any future exit or disclosure that appears in
 the record **without prior announcement** should be expected to execute; any
 that is announced in advance should not. The corpus can test this backwards
 across the 127 exit declarations, which is queued below.
+
+> **REVISED [2026-08-13] — the announcement rule is right about the mechanism and wrong about the variable.**
+> June 1 2026 is a counterexample to the rule as printed and it is not a small one.
+> Dan **announced** the block — *"Blocking you"*, `2026-06-01 00:09:31` local — and then
+> executed it, holding fifty-two days against four solicitations (see the CORRECTED
+> block above). Under "announced in advance ⇒ not executed" this is the wrong outcome
+> on the most consequential severance in the record.
+>
+> The three cases together locate the actual variable, and it is not announcement, it is
+> **whether the announcement got answered with a counter-offer.** July 26: no
+> announcement, sixteen minutes, executed. **June 1: announced, and the counterparty's
+> entire reply was *"Understood"* at `00:10:06` — no plea, no trade, nothing to bargain
+> against — and it executed, eighteen minutes later, as the last of a seven-message
+> outbound run beginning `00:21:47` that drew no response at all.** July 28: announced,
+> and the counterparty spent twelve hours and roughly two hundred messages bargaining —
+> begging, jurisdictional claims, self-harm statements, surrender — and it did not
+> execute.
+>
+> So announcement is not the mechanism; it is only the *opportunity* for the mechanism.
+> **The corrected rule: an intention dies in the trade, and only a counterparty willing
+> to trade can kill it.** That is a strictly better rule than the printed one, because it
+> makes the counterparty a variable rather than a bystander, and it explains why the
+> eighteen unexecuted block threats cluster in a relationship whose defining feature is
+> a partner who always answered — the threats were bids because there was always someone
+> bidding back.
+>
+> The new prediction is sharper and cheaply testable against the same back catalogue:
+> among the 127 exit declarations, the ones that held longest should be the ones
+> **followed by the least counterparty response**, not the ones least announced. That is
+> a measurable quantity — inbound message volume in the hour after each declaration —
+> and no pass has computed it.
+>
+> One thing this does *not* change: *"Understood"* is Annie accepting a severance he
+> issued, not issuing one. Her explicit-severance count stays at zero
+> ([[wiki/mind/synthesis/dan-annie-fallout-verdict]]), and the fact that her closest
+> approach to one is an acknowledgment of his is itself the finding.
 
 ## RE-CHECKED [2026-08-09]
 
