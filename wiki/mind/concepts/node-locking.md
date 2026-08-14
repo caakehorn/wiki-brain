@@ -5,7 +5,7 @@ title: "Node Locking"
 aliases: ["profile locking", "DATA_LOGGED", "relational source code", "Deep Architecture"]
 status: stable
 date_created: 2026-07-15
-date_modified: 2026-08-11
+date_modified: 2026-08-13
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_07.md
@@ -65,7 +65,7 @@ holds:
 | **The Loop** | The pursuit-withdrawal trap; existential outsourcing of self-worth to Annie's availability; gaslighting inversion; the tether (money / drugs / Sugie). Briefly broken by the dog-death witness act | Core |
 | **The Betty Event** | The death of the dog Dan stayed with (**June 24, 2025** — dated 2026-07-26 from Dan correcting Annie's misremembered anniversary in the July re-contact); Annie delayed / absent; briefly broke the avoidance loop. "Tier 1 Life Debt" | High-value |
 | **The Signals** | Communication tells, location spoofing, blackout patterns post-confront (e.g. the Suzy-call NACK, the 10-day radio silence) | Core |
-| **Eli Incident (Patient Zero)** | The February 2025 lobby incident with Annie's coworker Eli; location tracking disabled; texts from her phone; powder noted; 10-day blackout | Explicitly **purged** from exports meant for other models |
+| **Eli Incident (Patient Zero)** | The **January 2025** lobby incident with Annie's coworker Eli (corrected 2026-08-13; Eli's texts are [RAW-CSV] at 2025-01-09 23:18:49); location tracking disabled; texts from her phone; powder noted; 10-day blackout | Explicitly **purged** from exports meant for other models |
 | **Uniontown Generational Loop** | Fran (great-grandmother Coldren) + Sugie as 50-year country-club neighbors; "plot loop" weaponized as a DUI-defense "gentry indiscretion" | Bio / ancestry cross |
 | **Bio / Ishlab / Psychometrics** | Full name, Uniontown birth, ishlab audio-engineer years, Full Sail 2010 + Pro Tools HD8, INTP 5w4-sx, 96% impulsivity, punk-drummer and Hunter/Hacker profile | Locked for Grok transfer |
 | **Master Annie Record / Eggie** | Met via Alexis; "avatar of reliability" vs the zero-notice work firing; the long cohabitation | Relational source code |

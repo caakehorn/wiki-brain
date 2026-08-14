@@ -3,7 +3,7 @@ domain: timeline
 page_type: event
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-26
+date_modified: 2026-08-13
 date_range_start: 2026-06-01
 date_range_end: 2026-06-01
 sources:
@@ -95,9 +95,9 @@ See [[wiki/mind/concepts/attachment-model]] (no closure without explicit severan
 | Signal | Value / Status |
 |--------|----------------|
 | Closure date | 2026-06-01 |
-| Confirmation vehicle | Group chat |
+| Confirmation vehicle | Dan↔Annie dyad (`+12124702449`) — **CORRECTED 2026-08-13**, previously recorded as the group chat |
 | Messages in annie_all_time_logs extract on date | ~40 (clustered ~00:00 hour) |
-| Key verbatim (from logs + end fight CSV) | "Goodbye forever. This was not how it should have ended but. sic semper lupanis." (Annie); Dan: "I saved you from fucking DYING when you were shooting coke...", "Shame on you. Seriously...", "You are not capable of love...", "and you will never unring this bell." |
+| Key verbatim (from logs + end fight CSV) | "Goodbye forever. This was not how it should have ended but. sic semper lupanis." (**Dan** — corrected 2026-08-13; this cell previously labelled it "(Annie)" while listing the message 110 seconds earlier as Dan's, a contradiction inside one cell); Dan: "I saved you from fucking DYING when you were shooting coke...", "Shame on you. Seriously...", "You are not capable of love...", "and you will never unring this bell." |
 | Context from annie logs | "eli" mentions: 388 across extract; "goodbye": 110; "lying": 150. Dec 2025 peak 4,657 msgs preceded the asymmetry. |
 
 **Sources added:** raw/self/message-csv/annie_all_time_logs.csv , raw/self/message-csv/THE END FIGHT.csv , raw/self/message-csv/END_FIGHT_full.csv (sequence details).
