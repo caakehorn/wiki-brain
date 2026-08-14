@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-11
+date_modified: 2026-08-13
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -14,6 +14,8 @@ sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/self/message-csv/imessage_2124702449_both_all_now.csv
+  - "raw/self/message-csv/THE END FIGHT.csv"
 synthesizes:
   - wiki/mind/synthesis/bond-switch-2015
   - wiki/people/annie-ulmer
@@ -45,7 +47,7 @@ connections:
     claim: "The six-year control case: a bond long enough to prove the slot was occupied continuously, and — per the bond-switch synthesis — shallow enough to show that occupancy did not require the deep attachment system to be active."
   - page: wiki/people/annie-ulmer
     type: evidenced-by
-    claim: "The ten-year case in which the deep system did activate, and whose 2026 severance failed after 52 days — the strongest available evidence that ending the state is harder than maintaining it."
+    claim: "The ten-year case in which the deep system did activate, and whose 2026 severance — issued by Dan himself, not by her, per the 2026-08-13 correction — held 52 days of zero outbound against four unanswered approaches before failing: the strongest available evidence that what is unavailable to him is not leaving but staying gone."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Seventeen years without a gap longer than weeks is 'The Irreversibility Firewall's' no-delete prediction at the level of the slot itself: leaving it empty long enough to become a real, examined choice would be exactly the irreversible fact the firewall exists to prevent."
@@ -77,7 +79,7 @@ empty. **Any account of him that does not explain this is incomplete.**
 | :--- | :--- | :--- | :--- |
 | ~2007–2009 | *(not established)* | — | See gaps: the post-high-school window is not documented in `raw/` |
 | Nov 2009 – Nov 2015 | [[wiki/people/alexis-armel]] | ~6 years | Includes a Jul–Oct 2013 separation; the bond resumed |
-| Nov 2015 – present | [[wiki/people/annie-ulmer]] | ~10.5 years | Severance 2026-06-01; **contact resumed 2026-07-23** after 52 days |
+| Nov 2015 – present | [[wiki/people/annie-ulmer]] | ~10.5 years | Severance 2026-06-01, **issued by Dan** (corrected 2026-08-13); **contact resumed 2026-07-23** after 52 days |
 
 The two documented bonds are contiguous. The handoff is not approximate.
 
@@ -150,12 +152,72 @@ disorder he wants everywhere else, because it is his.
 - **Exit is structurally unavailable.** If the slot must be occupied, leaving
   requires a successor, and sourcing a successor while inside a bond is the
   behaviour documented in November 2015. The pattern makes clean endings
-  mechanically difficult, independent of anyone's intentions.
+  mechanically difficult, independent of anyone's intentions. *(Narrowed
+  2026-08-13 — see the correction below; the accurate statement is that a
+  **durable** exit is unavailable, not that exit is.)*
 - **The severance failed.** The single hardest piece of evidence on this page:
   the June 1 2026 closure held for **52 days** and then contact resumed on July
   23, running **624 messages across four days**. The wiki's own inference that
   June 1 was terminal has been formally withdrawn. Seventeen years of
   continuity did not end because the relationship ended.
+
+> **CORRECTED [2026-08-13] — Dan issued the June 1 severance himself and vacated the slot for fifty-two days with no successor. The thesis survives; the "exit is structurally unavailable" clause does not.**
+>
+> **The premise that moved, with its scope.** The June 1 closing line — *"Goodbye
+> forever. This was not how it should have ended but. sic semper lupanis."* — is **Dan's
+> outbound**, not Annie's: `2026-06-01 00:27:49 America/New_York`
+> (`04:27:49` UTC in the deep whole-device export), `SENT OR RECEIVED = Sent`,
+> `HANDLE = Me`, dyad `+12124702449`, non-group, and the last of an unbroken
+> seven-message outbound run from `00:21:47` with no inbound row inside it;
+> `direction = sent` independently in `THE END FIGHT.csv` and
+> `imessage_2124702449_both_all_now.csv`. It had been read as Annie's since June;
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]] carries the correction and its cause.
+> The fifty-two days are also now measured rather than assumed: across all five Annie
+> identifiers, dyadic and group threads together, the interval to
+> `2026-07-23 14:54:01` contains **zero outbound from Dan** and **seven inbound from
+> Annie in four separate approaches**, none answered.
+>
+> **The decision, made rather than deferred: the central thesis survives, and one of its
+> supporting clauses is withdrawn.**
+>
+> *The thesis survives.* Seventeen years of continuous occupancy is untouched. Fifty-two
+> days is not an unattached period in the sense Falsifier 1 requires — the falsifier
+> asks for more than roughly six months, and this is under two — and more to the point
+> the bond did not end, it resumed and is running. Nothing here converts "continuous"
+> into "serial."
+>
+> *The clause does not survive.* **"Exit is structurally unavailable"** and **"leaving
+> requires a successor"** are both falsified by this instance. Dan left, unilaterally,
+> by his own sentence, and sourced no successor — the corpus contains no replacement
+> bond in June or July 2026, and the slot sat empty for fifty-two days while he refused
+> four direct approaches from its previous occupant. Whatever November 2015 shows about
+> *how he has historically left*, it does not show that he *cannot* leave otherwise.
+>
+> **What replaces it, and why it is the better claim.** The constraint was never on the
+> act of leaving. It is on **staying gone**. The corrected statement: *the slot tolerates
+> vacancy, and tolerates it for weeks; what it does not tolerate is vacancy becoming
+> permanent.* That is a materially weaker claim than the one it replaces and the page is
+> better for it, because the strong version was doing work that only the 2015 switch
+> supported, and the 2015 switch is a single case. Two cases now exist and they disagree
+> about the method — 2015 filled the slot before vacating it, 2026 vacated it empty —
+> which means successor-sourcing is **situational**, not structural. That is exactly the
+> concession Falsifier 3 was written to extract, and it is recorded here rather than
+> argued around.
+>
+> **Falsifier 3, scored honestly.** It asks for *"a bond ending with no successor sourced
+> before or shortly after."* June 1 supplies the no-successor half and fails on the
+> other: the bond did not end. So the falsifier is **not met — but it is met halfway,
+> and the half it met is the half the page cared about.** The remaining defence of the
+> singular-slot mechanism now rests entirely on *duration of vacancy*, which makes it
+> quantitative and killable: **a vacancy of more than roughly six months with no
+> successor would settle it.** The corpus can only answer that going forward, and the
+> July–August reentanglement means the clock has already reset.
+>
+> **One thing it does not touch.** The `enneagram-5w4` sx-dominant mechanism — one bond
+> at maximum voltage rather than several at moderate voltage — is unaffected either way.
+> Fifty-two days of refusing the only occupant while sourcing nobody else is *maximum
+> voltage on a single object*, not evidence for multiplicity. If anything the abstinence
+> is the same singularity seen from its other side.
 
 ## The unifying reading
 
@@ -206,7 +268,13 @@ Everything else can be allowed to burn, because he did not pick it.
    singular-slot mechanism in favour of ordinary multiplicity.
 3. A bond ending with no successor sourced before or shortly after — which
    would show exit is available and that the 2015 switch was situational rather
-   than structural.
+   than structural. **Partially met, 2026-08-13.** The June 1 2026 severance was
+   issued by Dan and produced a fifty-two-day vacancy with no successor sourced,
+   which concedes the "situational rather than structural" half; it fails the
+   "ending" half, because the bond resumed on day fifty-two. The live form of
+   this falsifier is therefore now quantitative — **a vacancy of more than
+   roughly six months with no successor** — and the July–August reentanglement
+   has reset its clock. See the correction under "What it costs."
 
 ## RE-CHECKED [2026-08-09]
 

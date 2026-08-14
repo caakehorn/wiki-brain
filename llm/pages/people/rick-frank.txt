@@ -310,14 +310,45 @@ alone), roughly balanced in direction. It includes:
   — not the brief, guarded register the prior version of this page
   described as the whole relationship.
 
-**2021–2022: near-total silence — but this matches a corpus-wide pattern,
-not a Rick-specific one.** The channel goes almost silent (21 messages
-combined across both years, against hundreds per year before), consistent
-with the broader, already-documented 2021–2022 near-silence across Dan's
-entire message corpus (`CONTEXT_CORE_EXPANDED.md` §6: "uncharacterized; do
-not speculate"). Nothing in the Rick channel specifically explains this
-gap; it should be read as an instance of the general pattern, not a
-separate rupture.
+**2021–2022: the channel appears to go silent, and the appearance is an
+export artifact — there is no Rick-specific gap here, and there is no
+corpus-wide behavioral one either.** The record shows 21 messages combined
+across both years against hundreds per year before.
+
+> **CORRECTED [2026-08-13] — the reasoning here was right in its conclusion
+> and wrong in its premise, which matters because the premise was being
+> reused.** The prior version read this drop as "consistent with the
+> broader, already-documented 2021–2022 near-silence across Dan's entire
+> message corpus," and concluded it "should be read as an instance of the
+> general pattern, not a separate rupture." **There is no general pattern.**
+> The 2021–2022 corpus near-silence is not behavior at all: both
+> independent extractions carry a continuous hole across the window —
+> `all_imessages_complete_dump.txt` holds zero rows of *any* kind between
+> 2021-04-27 and 2023-08-09, 833.2 days unbroken — while the Google
+> location record logs 806 place visits in 2022 alone and the Au Za'atar
+> job ran continuously straight through it
+> ([[wiki/self/message-corpora/master-message-dump]]).
+>
+> **The conclusion survives and is in fact strengthened.** The point of the
+> paragraph was that nothing in the Rick channel explains the gap and that
+> it is not a separate rupture. That now holds on stronger grounds: the gap
+> is not *Dan's* behavior either. It is a device or restore boundary, and
+> reading anything at all into the Rick channel's 2021–2022 volume — warmth,
+> withdrawal, or continuity — is unsupported in both directions. The
+> surviving 21 messages are those that fall outside the hole's edges, not a
+> measurement of a quiet relationship.
+>
+> Two consequences for this page. The **February 2025 one-sided silence**
+> below is untouched by any of this and remains the page's real finding: it
+> is dated, it is inside a window both files cover densely, and Rick's
+> unanswered messages are physically present in the record — an absence of
+> Dan's replies among Rick's surviving inbound, which is a categorically
+> different observation from a window where nothing from anyone survives.
+> And the **2023–2024 "real resumption"** below needs its date read
+> carefully: the corpus's first row of any kind after the hole is
+> 2023-08-09, so the resumption's apparent start is the export's start.
+> Whether the correspondence actually resumed in August 2023 or had been
+> running unrecorded since 2021 is not answerable from this source.
 
 **2023–2024: real resumption, genuinely warm at points.** 44 messages in
 2023 (including the still-unresolved "wedding" thread, above), 130 in

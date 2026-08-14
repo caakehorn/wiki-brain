@@ -8,8 +8,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 30 |
-| Open gaps | 138 |
+| Live contradictions | 31 |
+| Open gaps | 139 |
 | Standing predictions | 13 |
 
 ## Live contradictions
@@ -48,6 +48,7 @@ somewhere and has not yet found out where.
 - **[[wiki/timeline/events/teen-concert-years]]** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate November 2004 return. The note dates Taking Back Sunday / Angels & Airwaves to **2006-07-04 in Columbus**; the research
 - **[[wiki/timeline/events/the-fall-of-fran]]** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend on each other: | Evidence | Date | What it fixes | |---|---|---| | Ancestry GEDCOM death record | 2018-04-04 | Death | 
 - **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — fran-death-vigil, written from the Photo Thread session, has Dan blowing enormous clouds from a 110-watt SMOK **in the room** while Suz puffed her 10-watt device **in the hospital bathroom**. Both captures behind this page invert that: **Suz in the room, Dan in the bathroom.** The positions are not decorative — a bathr
+- **[[wiki/timeline/periods/feb-apr-2025-return-and-rupture]]** — Two incompatible accounts sit four days apart in the same week, both in Dan's own outbound text. | Date / recipient | Message | Implies | |---|---|---| | 2025-02-04 16:33 ET, Annie → Dan | "My parents are willing to come tomorrow and literally help me find a place if I want to stay here" | The parents come at Annie's i
 
 ## Standing predictions
 
@@ -81,7 +82,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/interests/music/index]]** — DAW and hardware chain details
 - **[[wiki/interests/music/index]]** — Platform profile links for GRIPNOTIC
 
-### mind (70)
+### mind (71)
 
 - **[[wiki/mind/concepts/chaos-preference]]** — **The macro examples are not sourced.** The Boston-bombing coverage response used to frame the request is not attested in the searched corpus and is not cited here. The generalisation about resolution-as-disappointment is derived from the profile's ontological
 - **[[wiki/mind/concepts/chaos-preference]]** — **`accelerationist` appears 7 times and is uninspected.** Whether the political register is a genuine ideological commitment or an ironic pose is not resolved here, and it materially changes how this page should be read.
@@ -125,10 +126,11 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/intake-constancy]]** — The November 2023 → May 2024 177-day YouTube gap is, per the multi-account correction, a routing artifact rather than a blackout (the 2024 search volume of 9,022 is the third-highest year in twenty, which leaves no room for a six-month hole). If the per-year s
 - **[[wiki/mind/synthesis/intake-constancy]]** — **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad i
 - **[[wiki/mind/synthesis/intake-constancy]]** — **Upgraded [DOC]-grade (2026-07-15):** the search-side constant is no longer [INFER]-only. The longitudinal browser-history analysis (`raw/self/browser_history_analysis.txt`, ~108,961 records, 5,391 active days) independently reproduces **20.2 actions/active d
-- **[[wiki/mind/synthesis/message-circadian-latency]]** — Annie's 2019–2024 volume is not in this file (handle/export seam); the true decade arc needs the ANNIETEXTS / combined_annie_logs exports merged in. The 2019 "2 messages" is an export boundary, not a real gap.
-- **[[wiki/mind/synthesis/message-circadian-latency]]** — Reply-latency uses the "next opposite-speaker message in the same thread" method. In high-burst threads this slightly over-states Dan's reply speed (he may send 10 then get 1 back) but the *order-of-magnitude* asymmetry is robust across every contact.
-- **[[wiki/mind/synthesis/message-circadian-latency]]** — Phone handles are masked; identity of the non-Annie contacts (+133****8747 = a 2025 figure; +121****2449 = a 2025–26 figure) is inferred from volume timing and the wiki's existing people pages, not from unmasked data.
-- **[[wiki/mind/synthesis/message-circadian-latency]]** — `LEVIATHAN_FULL_CORPUS.csv` lives in `/Volumes/MUSIC/PHASE B RAW/`, not yet filed under `raw/` — its on-disk path is cited directly above.
+- **[[wiki/mind/synthesis/message-circadian-latency]]** — Annie's 2019–2024 volume is not in Leviathan (handle/export seam); the true decade arc needs the ANNIETEXTS / combined_annie_logs exports merged in. The 2019 "2 messages" is an export boundary, not a real gap.
+- **[[wiki/mind/synthesis/message-circadian-latency]]** — Reply-latency uses the "next opposite-speaker message in the same thread" method. In high-burst threads it slightly over-states *both* parties' speed symmetrically, which is why the retracted asymmetry cannot be rescued by appealing to it.
+- **[[wiki/mind/synthesis/message-circadian-latency]]** — The burstiness section has not been re-derived on `all_imessages_complete_dump.txt` and is the remaining unaudited quantitative claim on this page.
+- **[[wiki/mind/synthesis/message-circadian-latency]]** — `+13307038747` is **Kristin Prentiss** (kristin) and `+12124702449` is Annie's NYC handle; both were "inferred from volume timing" in the original pass and are now identified. `+17243228715` is Suz. The 2026-08-13 export carries unmasked handles, so the masked
+- **[[wiki/mind/synthesis/message-circadian-latency]]** — `LEVIATHAN_FULL_CORPUS.csv` lives in `/Volumes/MUSIC/PHASE B RAW/`, not filed under `raw/` — its on-disk path is cited directly above. It should not be used as a completeness reference for any window after 2024.
 - **[[wiki/mind/synthesis/music-as-identity]]** — The 2019–2024 message gap means the live concert habit after 2008 is under-documented; only the 2005–2008 record survives in his own hand.
 - **[[wiki/mind/synthesis/music-as-identity]]** — Whether the producer identity and the favorites pole ever consciously cross (does he hear his own sub-bass signature in what he consumes?) is not settled by the corpus.
 - **[[wiki/mind/synthesis/single-channel]]** — **The two-sided figure is an upper bound, by a known amount.** Imputation inflates concentration — on held-out data the imputed Gini runs +0.0225 above the true one under the conservative rule and +0.0996 under the permissive one, because misassignment invents

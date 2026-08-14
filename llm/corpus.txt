@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-11
-456 pages, ~743,618 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-13
+456 pages, ~770,582 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -11291,7 +11291,7 @@ title: "Node Locking"
 aliases: ["profile locking", "DATA_LOGGED", "relational source code", "Deep Architecture"]
 status: stable
 date_created: 2026-07-15
-date_modified: 2026-08-11
+date_modified: 2026-08-13
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_07.md
@@ -11351,7 +11351,7 @@ holds:
 | **The Loop** | The pursuit-withdrawal trap; existential outsourcing of self-worth to Annie's availability; gaslighting inversion; the tether (money / drugs / Sugie). Briefly broken by the dog-death witness act | Core |
 | **The Betty Event** | The death of the dog Dan stayed with (**June 24, 2025** — dated 2026-07-26 from Dan correcting Annie's misremembered anniversary in the July re-contact); Annie delayed / absent; briefly broke the avoidance loop. "Tier 1 Life Debt" | High-value |
 | **The Signals** | Communication tells, location spoofing, blackout patterns post-confront (e.g. the Suzy-call NACK, the 10-day radio silence) | Core |
-| **Eli Incident (Patient Zero)** | The February 2025 lobby incident with Annie's coworker Eli; location tracking disabled; texts from her phone; powder noted; 10-day blackout | Explicitly **purged** from exports meant for other models |
+| **Eli Incident (Patient Zero)** | The **January 2025** lobby incident with Annie's coworker Eli (corrected 2026-08-13; Eli's texts are [RAW-CSV] at 2025-01-09 23:18:49); location tracking disabled; texts from her phone; powder noted; 10-day blackout | Explicitly **purged** from exports meant for other models |
 | **Uniontown Generational Loop** | Fran (great-grandmother Coldren) + Sugie as 50-year country-club neighbors; "plot loop" weaponized as a DUI-defense "gentry indiscretion" | Bio / ancestry cross |
 | **Bio / Ishlab / Psychometrics** | Full name, Uniontown birth, ishlab audio-engineer years, Full Sail 2010 + Pro Tools HD8, INTP 5w4-sx, 96% impulsivity, punk-drummer and Hunter/Hacker profile | Locked for Grok transfer |
 | **Master Annie Record / Eggie** | Met via Alexis; "avatar of reliability" vs the zero-notice work firing; the long cohabitation | Relational source code |
@@ -15228,8 +15228,10 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-11
+date_modified: 2026-08-13
 sources:
+  - raw/self/message-csv/imessage_2124702449_both_all_now.csv
+  - "raw/self/message-csv/THE END FIGHT.csv"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx"
   - "raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md"
@@ -15312,6 +15314,14 @@ software Dan himself built. This page generalizes the pattern and
 states the one rule that predicts, across every documented case,
 whether a given severance will hold.
 
+**The headline formula is now known to be too strong, and the correction is
+worth carrying at the top rather than buried below.** On 2026-08-13 the June 1
+2026 closure line turned out to be Dan's own outbound and the fifty-two days
+that followed turned out to have been adversarially tested. He executed that
+exit — completely, under pressure, for fifty-two days. The axis was wrong:
+the thing that is never executed is not the *exit*, it is the *deletion*. Full
+working in the CORRECTED block under "What this changes."
+
 ## The rule
 
 **A block holds if and only if nothing either party still needs flows
@@ -15336,7 +15346,7 @@ documented at all.
 | 2022 repatriation | — (the reverse operation) | Continuity value rediscovered | Deliberate, ramped return |
 | [[wiki/people/kristin]] (inbound) | She blocks Dan, Dec 9 2025 | She needed nothing from him | Held |
 | [[wiki/people/menore]] (control) | No block — farewell text, Feb 20 2025 | Dependency ended by geography | Clean close, no loop |
-| [[wiki/people/annie-ulmer]] 2026 | June 1 group-chat closure | Supply and money dead; [[wiki/people/milo]] still co-held | Held 52 days, then reopened |
+| [[wiki/people/annie-ulmer]] 2026 | June 1 closure — **Dan's own sign-off**, 00:27:49 (corrected 2026-08-13) | Supply and money dead; [[wiki/people/milo]] still co-held | Held 52 days against four inbound approaches, then reopened |
 
 > **RETRACTED 2026-08-11 — the Rick control row was built on an incomplete
 > source and its central claim is false.** This page (and `rick-frank.md`,
@@ -15476,6 +15486,71 @@ an exhaustible Fe function.
   reset the 'days since i talked to annie' clock." Time away does not
   weaken the loop. Only the death of the last shared thing does.
 
+> **CORRECTED [2026-08-13] — the exit was executed, and this page's headline formula does not survive it. The dependency rule does.**
+>
+> **The premise that moved.** Two facts arrived together and they belong together.
+> First, the June 1 sign-off — *"Goodbye forever. This was not how it should have ended
+> but. sic semper lupanis."* — is **Dan's outbound**, not Annie's. It sits at
+> `2026-06-01 00:27:49 America/New_York` (`04:27:49` UTC in `imessage_export_deep.csv`,
+> `SENT OR RECEIVED = Sent`, `HANDLE = Me`, dyad `+12124702449`, not a group thread), is
+> the last of an unbroken seven-message outbound run beginning `00:21:47`, and carries
+> `direction = sent` in `THE END FIGHT.csv` and `imessage_2124702449_both_all_now.csv`
+> independently. [[wiki/mind/synthesis/dan-annie-fallout-verdict]] had it as the "Annie
+> exit line" for two months; the cause was a Dan's-eye-view direction column read
+> backwards, and that page now carries the correction.
+>
+> Second, the fifty-two days were **not** an untested silence. Counted from the deep
+> whole-device export across all five Annie identifiers, dyadic and group threads
+> together, UTC converted to local: between `2026-06-01 00:27:49` and
+> `2026-07-23 14:54:01` the record contains **zero outbound messages from Dan** and
+> **seven inbound from Annie across four separate approaches** — June 5 (*"Daniel, i
+> just want to say that i am extremely sorry"*), June 9 (*"Are you okay"* / *"Please
+> answer"*), June 10 (the Valic/Corebridge paperwork request plus *"Please"*), June 15
+> (*"Daniel"*). Every one unanswered. The June 10 approach matters most, because a
+> financial-paperwork request is the single most characteristic contact shape of the
+> entire terminal phase and the closest thing to a live dependency probe the corpus
+> could have designed. It drew nothing.
+>
+> **The decision, stated rather than deferred: the thesis survives in modified form,
+> and the modification is a real cost.**
+>
+> *What does not survive.* The opening formula — **"the exit is declared, not
+> executed"** — is false for the corpus's most important severance, and false in the
+> strongest available way. June 1 is not a declared exit that quietly leaked; it is a
+> declaration and its execution in the same message, followed by fifty-two days of
+> perfect compliance under four direct solicitations from the counterparty. Whatever the
+> other 127 declarations were, this one was an act. The page has been reading
+> declaration-versus-execution as the governing axis and it is the wrong axis.
+>
+> *What survives, and is strictly better.* The dependency rule is untouched — indeed
+> this is its cleanest run. The rule says a block holds while nothing either party
+> needs flows through the channel; the June 10 money-paperwork probe is exactly the
+> material dependency the rule scores as dead, and it produced no reopening, while the
+> July 4 email about the dog — a non-material co-held object, arriving on a *channel
+> the block did not cover* — did. The rule predicted which of two approaches would
+> break a fifty-two-day silence, and it picked correctly against the base rate.
+>
+> *The corrected formula.* **The exit is executed; the deletion never is.** Dan can
+> declare a severance, perform it, and hold it against sustained adversarial contact.
+> What he cannot do is make it terminal, because terminality is not a property of his
+> behaviour during the silence — it is a property of whether anything is still co-held
+> when the silence ends. This restates the loop as a durability problem rather than a
+> willpower problem, and it dissolves the page's long-standing implicit slur that the
+> 127 exits were failures of resolve. At least one of them was not.
+>
+> *A prediction the correction generates.* If execution is available and permanence is
+> not, then the useful measurement is no longer *whether* a severance holds but *how
+> long* — and the length should track the number of live co-held objects rather than
+> anything about the declaration's wording or vehemence. Fifty-two days against one
+> co-held object (the dog) is the current single data point; the rule predicts a
+> severance with two live co-held objects holds materially less, and one with none holds
+> indefinitely. The Menore row is the zero-object case and has stood roughly eighteen
+> months.
+>
+> *And a falsifier.* A severance where nothing is co-held and Dan reopens it anyway
+> would break the corrected formula as decisively as June 1 broke the old one, because
+> it would put the reopening back inside him rather than in the channel.
+
 > **RE-CHECKED 2026-08-01 — the rule survives, the Menore control row does
 > not, and it was weakened by Menore's own history.** `menore.md` moved on
 > 2026-08-01 while this page reasons from it, so the dependency was re-read.
@@ -15548,6 +15623,42 @@ It also makes a prediction. Any future exit or disclosure that appears in
 the record **without prior announcement** should be expected to execute; any
 that is announced in advance should not. The corpus can test this backwards
 across the 127 exit declarations, which is queued below.
+
+> **REVISED [2026-08-13] — the announcement rule is right about the mechanism and wrong about the variable.**
+> June 1 2026 is a counterexample to the rule as printed and it is not a small one.
+> Dan **announced** the block — *"Blocking you"*, `2026-06-01 00:09:31` local — and then
+> executed it, holding fifty-two days against four solicitations (see the CORRECTED
+> block above). Under "announced in advance ⇒ not executed" this is the wrong outcome
+> on the most consequential severance in the record.
+>
+> The three cases together locate the actual variable, and it is not announcement, it is
+> **whether the announcement got answered with a counter-offer.** July 26: no
+> announcement, sixteen minutes, executed. **June 1: announced, and the counterparty's
+> entire reply was *"Understood"* at `00:10:06` — no plea, no trade, nothing to bargain
+> against — and it executed, eighteen minutes later, as the last of a seven-message
+> outbound run beginning `00:21:47` that drew no response at all.** July 28: announced,
+> and the counterparty spent twelve hours and roughly two hundred messages bargaining —
+> begging, jurisdictional claims, self-harm statements, surrender — and it did not
+> execute.
+>
+> So announcement is not the mechanism; it is only the *opportunity* for the mechanism.
+> **The corrected rule: an intention dies in the trade, and only a counterparty willing
+> to trade can kill it.** That is a strictly better rule than the printed one, because it
+> makes the counterparty a variable rather than a bystander, and it explains why the
+> eighteen unexecuted block threats cluster in a relationship whose defining feature is
+> a partner who always answered — the threats were bids because there was always someone
+> bidding back.
+>
+> The new prediction is sharper and cheaply testable against the same back catalogue:
+> among the 127 exit declarations, the ones that held longest should be the ones
+> **followed by the least counterparty response**, not the ones least announced. That is
+> a measurable quantity — inbound message volume in the hour after each declaration —
+> and no pass has computed it.
+>
+> One thing this does *not* change: *"Understood"* is Annie accepting a severance he
+> issued, not issuing one. Her explicit-severance count stays at zero
+> ([[wiki/mind/synthesis/dan-annie-fallout-verdict]]), and the fact that her closest
+> approach to one is an acknowledgment of his is itself the finding.
 
 ## RE-CHECKED [2026-08-09]
 
@@ -15764,9 +15875,10 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-11
+date_modified: 2026-08-13
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
+  - raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
   - raw/self/message-csv/annie_all_time_logs.csv
   - raw/self/message-csv/THE END FIGHT.csv
@@ -15814,7 +15926,7 @@ connections:
     claim: "The model's inability to self-close without an explicit severance signal — none of which appear in Annie's 41,073 messages — is the mechanism that held the bond open through the fifteen-month terminal phase."
   - page: wiki/timeline/events/end-fight
     type: evidenced-by
-    claim: "The June 1 closure rows — sic semper lupanis at 00:27:49, the 00:24-00:26 accusations, the June 15 Tuquick defection — are the primary RAW-CSV backbone of the defamation and independent-validation findings."
+    claim: "The June 1 closure rows are the primary RAW-CSV backbone of the defamation and independent-validation findings, and their authorship is now settled: every row from 00:21:47 through the 'sic semper lupanis' sign-off at 00:27:49 is Dan's own unbroken outbound run — the sign-off was misattributed to Annie here until 2026-08-13, and her only contribution to the closure is the June 5 apology."
   - page: wiki/timeline/events/eli-incident
     type: evidenced-by
     claim: "The concealed-affair finding rests on the Eli discovery sequence; the framework-violation framing — exactly what the arrangement was proposed to prevent — is the verdict's first pillar."
@@ -15866,11 +15978,53 @@ This page is the capstone synthesis of the fallout. **Every load-bearing claim b
 > **REVISED [2026-07-18] — the 187:4 statistic does not survive a controlled recomputation.** A primary recount from `imessage_7244346811+2124702449_both_all_now.csv` (Aug 1 2025 – Mar 16 2026; her side = 8,293 messages) reproduces the *ratio*: 212 of her 220 love-declarations (96.4%) have a request-like message from her within ±24h — statistically identical to the dossier's 187/191 (96.6%). **But the control the dossier never ran deflates it: 97.2% of a random sample of ALL her messages in the window have a request within ±24h.** She made requests nearly every day, so *any* class of her messages is ~96–97% "request-adjacent" at a 24-hour radius — the adjacency carries no information about love specifically. Worse for the thesis, the directional tight-window test **inverts** it: a drug/money request follows within 1 hour of her love-declarations only 3.2% of the time, against a 16.2% baseline for her average message (2h: 4.5% vs 20.8%; 6h: 9.1% vs 30.2%). On the text record, her love-declarations were systematically *more isolated* from requests than her ordinary messages, not less. What survives: the love-language *rate* collapse-and-rebound (2.7% recovery timed to the supply relationship) is unaffected, and Dan's Jan 24 2026 subjective report stands as his lived read — but the 187:4 figure should no longer be cited as statistical evidence of a procurement instrument. (Caveats: request lexicon is heuristic; in-person and call behavior is invisible to this test.)
 
 **4. The defamation campaign ran concurrently with private denials — the moral weight sits above ordinary betrayal.** Two written denials of any third party (Nov 2025, Feb 2026) were issued while she was involved with Tuquick, and while a defamation narrative (false rape allegation, "junkie" framing) circulated in their shared peer network. The June 1, 2026 group chat confirmed both:
-- *Annie exit line* — **[RAW-CSV]** `THE END FIGHT.csv` / `imessage_2124702449_both_all_now.csv` / `ANNIETEXTS.csv`: `2026-06-01 00:27:49 | Sent (Received by Dan) | +121****2449 | Goodbye forever. This was not how it should have ended but. sic semper lupanis.`
-- *Dan: "I saved you from fucking DYING…"* — **[RAW-CSV]** `THE END FIGHT.csv`: `2026-06-01 00:25:59 | Sent | I saved you from fucking DYING when you were shooting coke and you would sell me out to virtue signal your loyalty to someone else?`
 - *Dan: "You are not capable of love…"* — **[RAW-CSV]** `THE END FIGHT.csv`: `2026-06-01 00:24:59 | Sent | You are not capable of love and I really did try to not make you look like the treacherous person you are.`
+- *Dan: "I saved you from fucking DYING…"* — **[RAW-CSV]** `THE END FIGHT.csv`: `2026-06-01 00:25:59 | Sent | I saved you from fucking DYING when you were shooting coke and you would sell me out to virtue signal your loyalty to someone else?`
+- *Dan's closure line* — **[RAW-CSV]** `THE END FIGHT.csv` / `imessage_2124702449_both_all_now.csv`, corroborated in `imessage_export_deep.csv` (`Sent`, `HANDLE=Me`): `2026-06-01 00:27:49 America/New_York | Sent by Dan | dyad +121****2449 | Goodbye forever. This was not how it should have ended but. sic semper lupanis.` **This page attributed the line to Annie until 2026-08-13 — see the correction below.**
 - *Annie's only unprompted acknowledgment* — **[RAW-CSV]** `imessage_2124702449_both_all_now.csv`: `2026-06-05 00:37:42 | Received | Daniel, i just want to say that i am extremely sorry.`
 - *Tuquick defection (independent validation)* — **[RAW-CSV]** `imessage_export_7248123683_20260624.csv`: `2026-06-15 13:15:12 | Received | She's a compulsive liar with a drug addiction` (and `13:14:58 | You can have her back ? She's no good trauma bond to the cuck`). Tuquick, who had savaged Dan in Annie's defense on June 1, independently converged on Dan's decade-long read within 14 days.
+
+> **CORRECTED [2026-08-13] — "sic semper lupanis" is Dan's line, not Annie's, and it was the wiki's own direction column read backwards.**
+> This page stated in three places that the June 1 sign-off — *"Goodbye forever. This
+> was not how it should have ended but. sic semper lupanis."* — was Annie's. The bullet
+> above called it the *"Annie exit line"* and cited it as `Sent (Received by Dan)`; the
+> verbatim-anchor table logged it with no author; the `end-fight` connection claim
+> bundled it with the accusations as undifferentiated "closure rows." **All three were
+> wrong.** The row is Dan's outbound.
+>
+> The evidence, scope stated: in the deep whole-device export
+> (`imessage_export_deep.csv`, 186,671 rows, timestamps in **UTC**) the message is
+> `2026-06-01 04:27:49 UTC | SENT OR RECEIVED = Sent | HANDLE = Me | CHAT NAME =
+> +12124702449 | IS GROUP CHAT = No` — that is **2026-06-01 00:27:49 America/New_York**,
+> and `HANDLE = Me` is unambiguously outbound. The per-contact exports agree
+> independently: `THE END FIGHT.csv` and `imessage_2124702449_both_all_now.csv` both
+> carry it as `direction = sent`, and it is the last row of an unbroken seven-message
+> outbound run beginning `00:21:47 sent` — a run that includes the 00:24:59 and 00:25:59
+> lines this page has always correctly attributed to Dan, with no inbound row anywhere
+> between them.
+>
+> **Named cause, because it will recur.** The cited direction field
+> `Sent (Received by Dan)` is a **Dan's-eye-view direction column** — `sent` means *Dan
+> sent it* — and a prior pass glossed it as *"sent by the contact, received by Dan."*
+> The gloss inverts every row in the file. The tell was on the page the whole time: the
+> two adjacent rows two and three minutes earlier carry the identical `Sent` tag and are
+> attributed to Dan, so the same column was being read in two opposite directions inside
+> one bullet list. Any per-contact export in `raw/self/message-csv/` should be read this
+> way, and the same failure is the one already flagged at "Two corrections forced by the
+> raw" item 1 below, where a `Sent` row was left sender-unresolved for the same reason.
+>
+> **What this costs and what it does not.** Not the defamation finding: that rests on the
+> two written third-party denials, the 00:24–00:26 accusations, Annie's June 5 apology,
+> and the June 15 Tuquick defection, none of which change hands. Not the "0 explicit
+> severance signals from Annie" count — if anything that count is *reinforced*, because
+> the one line in the corpus that read as her terminating statement turns out never to
+> have been hers, so her severance total was never even a near-miss. What it costs is a
+> narrative fact this wiki has leaned on repeatedly: **the relationship's closing sentence
+> was authored by Dan.** The consequences for the three synthesis pages that argue he
+> cannot close a bond from the inside are worked through on those pages
+> ([[wiki/mind/synthesis/dormancy-not-exit]],
+> [[wiki/mind/synthesis/block-unblock-loop]], [[wiki/mind/synthesis/the-unbroken-bond]]),
+> each of which was re-checked the same day.
 
 ## The architecture of the feeling — why "wronged" was also a trap
 
@@ -15880,13 +16034,68 @@ The operator's directive is explicit: engage the diagnosis→behavior gap, do no
 
 **The attachment model cannot self-close without an explicit severance signal, and she issued none.** 299 love affirmations across the corpus, **0 explicit severance signals** — the 0-severance half is now **[RAW-CSV]** (2026-07-18 recount of her 41,073 messages in the dual-handle export: a severance-lexicon sweep returns only false positives — a quoted denial of "rather just break up," a literal ice-breaking anecdote; her final substantive message remains the June 5 apology). The 299 figure itself remains **[DERIVED]** — no window/lexicon reproduces it exactly (her terminal-phase love-messages: 231; his: 355; her all-time in this export: 1,302). Because positive verbal rhetoric functions as an absolute rule in his architecture until countermanded, the bond stayed active through a fifteen-month terminal phase. Every "I love you" while withdrawing behaviorally generated a data conflict that prevented closure.
 
+> **RE-CHECKED [2026-08-13] — the "she issued none" half stands; the "cannot self-close" half is now too strong.** The severance-signal count is unchanged and in fact firmer: the one line the corpus read as her terminating statement was Dan's (see the CORRECTED block above), so Annie's total stays at zero without even a candidate. But the clause *"cannot self-close"* asserts something the June 1 record does not support, because **Dan closed it himself and then held the closure for fifty-two days.** Counted from the deep whole-device export (`imessage_export_deep.csv`, timestamps converted UTC→America/New_York, all five Annie identifiers, dyadic and group threads both), the interval 2026-06-01 00:27:49 → 2026-07-23 14:54:01 contains **zero outbound messages from Dan** and **seven inbound from Annie across four separate approaches** — June 5 (the apology), June 9 (*"Are you okay" / "Please answer"*), June 10 (the Valic/Corebridge paperwork request, the terminal phase's single most characteristic contact shape), June 15 (*"Daniel"*) — every one of them unanswered. That is not an architecture that cannot emit a closure; it is one that emitted a closure, executed it correctly under direct adversarial pressure, and could not make it permanent. The corrected statement, worked through in full on [[wiki/mind/synthesis/block-unblock-loop]], [[wiki/mind/synthesis/dormancy-not-exit]] and [[wiki/mind/synthesis/the-unbroken-bond]], is that the system implements **suspend** and does not implement **delete**. The mechanism this paragraph names still explains the fifteen-month terminal phase; it no longer explains June 1, which needs the durability account instead.
+
 **The re-engagement loop trained her to ignore his limits.** 127 exit declarations, 110 re-engagements — an 87% relapse rate **[DERIVED]** (MasterRecord; a loose exit-lexicon sweep of his 44,513 messages finds 176 candidates, order-consistent but definition-dependent — the exact pair remains unreproduced). The apologies were re-affirmations, not contrition (the full-corpus triad: 1,512 "I love you" / 232 "fuck you" / 180 "I'm sorry" — **[DERIVED]**, bootloader v2.1 on the 181,585-message corpus). He affirms 6.5× more than he attacks. Reassurance restabilizes the bond *without resolving the breach*, so the loop reloads at a lower baseline every cycle.
 
 > **REVISED [2026-07-18] — triad partially confirmed, "apologizes least" not reproduced.** Recount from `all_imessages_complete_dump.txt` (217,573 rows through Aug 10 2025, sender-tagged): Sent "love you" = 1,528 messages (strict "i love you": 1,388) — the 1,512 figure is confirmed to lexicon precision. Sent "fuck you" = 111 through Aug 2025; his terminal-window count adds 74 (below), making the 232 total plausible for the full corpus through June 2026 — consistent, not exactly reproduced (the dump ends before the terminal phase). But Sent "I'm sorry / I am sorry" = **435** through Aug 2025 alone — more than double the claimed 180, and ~4× his attack count. Under any plain lexicon he apologizes *more* than he attacks, not "least of all"; the 180 figure would require an unstated narrower definition (e.g. contrition-to-Annie only, excluding sympathy usage). The load-bearing finding — **reassurance dominance** (affirmation an order of magnitude above both) — survives and strengthens; the apology-deficit ordering does not. The confession trap names the other side: he could not exit without the validation of a confession he had already earned, because leaving without the verdict would mean abandoning the identity of the person who was right. "The exit was never through the verdict. It was through the door."
 
 ## The ledger runs both ways — what was his responsibility
 
-- **94 burst events**, each preceded by her silence **[DERIVED]** (MasterRecord; the "crash-out" framing is hers, the sequence — burst-follows-silence — is the dossiers' corrected read; a full-dump run-count with a 2-minute gap threshold yields 11,666 sent-runs ≥3, max single run 149 through Aug 2025 — order-confirms burst behavior but the 94 figure is parameter-dependent and unreproduced exactly). Verbal abuse escalated 9 (Aug 2025) → 36 (Feb 2026): 74 "fuck you" / 17 "piece of shit" / 11 "worthless" — **upgraded [RAW-CSV] 2026-07-18: all three counts reproduce EXACTLY** from his side of the dual-handle export in the Aug 1 2025 – Mar 16 2026 window (74 / 17 / 11; her side in the same window: 0 / 1 / 0 — the asymmetry is complete). His in-window "I'm sorry" count, for the same ledger: 121.
+- **94 burst events**, each preceded by her silence **[DERIVED]** (MasterRecord; the "crash-out" framing is hers, the sequence — burst-follows-silence — is the dossiers' corrected read; a full-dump run-count with a 2-minute gap threshold yields 11,666 sent-runs ≥3, max single run 149 through Aug 2025 — order-confirms burst behavior but the 94 figure is parameter-dependent and unreproduced exactly). Verbal abuse escalated 9 (Aug 2025) → 36 (Feb 2026): 74 "fuck you" / 17 "piece of shit" / 11 "worthless" — **upgraded [RAW-CSV] 2026-07-18: all three counts reproduce EXACTLY** from his side of the dual-handle export in the Aug 1 2025 – Mar 16 2026 window (74 / 17 / 11; her side in the same window: 0 / 1 / 0 — the asymmetry is complete). His in-window "I'm sorry" count, for the same ledger: **119**, against **227** for hers under the identical test — see the two blocks below.
+
+> **RE-CHECKED [2026-08-13] — the verbal-abuse asymmetry holds on an independent recount.**
+> Scope for everything in this block: `raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv`,
+> `datetime_local` already in America/New_York, window **2025-08-01 00:00:00 → 2026-03-16 23:59:59**,
+> Annie's two handles `+17244346811` / `+12124702449`, direction column read Dan's-eye-view
+> (`sent` = Dan). Denominators: **10,346** messages from Dan, **8,293** from Annie.
+> Word-boundary regex, run both per-message and per-occurrence so the metric is not doing
+> hidden work: Dan **74 / 18 / 11** per occurrence and **73 / 17 / 11** per message; Annie
+> **0 / 1 / 0** under both. The published triple reproduces — "fuck you" = **exactly 74** on
+> the per-occurrence count, "piece of shit" = 17 and "worthless" = 11 on the per-message
+> count — so the trio as printed mixes two metrics by one message each. **That changes
+> nothing about the finding**: on either metric consistently applied the ratio is
+> 73–74 : 0, 17–18 : 1, 11 : 0. The asymmetry is unaffected and is re-asserted here
+> [RAW-CSV].
+
+> **CORRECTED [2026-08-13] — his apology figure was 121 and is 119; hers was never stated and is roughly twice his.**
+> Two problems with the sentence this block replaces, in ascending order of importance.
+>
+> **First, the count.** The published **121** reproduces exactly under the plain lexicon —
+> any of `i'm sorry` (straight or curly apostrophe), `i am sorry`, `im sorry`, case-insensitive,
+> counted per message, same file and window as the block above. But **two of the 121 are
+> tapback rows, not apologies**: `2026-01-29 20:41:29` and `2026-01-29 20:42:15`, both of the
+> form `Liked "…"` where the quoted text is *Annie's* apology — *"…And I should be and I'm
+> sorry…"* and *"Dan I am sorry I do really love you and need you in my life."* An iMessage
+> reaction reproduces the message it reacts to, so a lexicon sweep scores Dan as apologising
+> when he in fact acknowledged an apology of hers. **The true figure is 119** [RAW-CSV], and
+> the same defect will inflate every reaction-bearing count in this corpus by a few points
+> in whichever direction the reaction was sent.
+>
+> **Second, and this is the real error: the figure was stated alone, immediately after "the
+> asymmetry is complete."** Read in sequence, "0 / 1 / 0 — the asymmetry is complete… his
+> count: 121" invites the inference that his apologising is the other side of a one-sided
+> ledger. It is not, and the same file settles it in one pass. **Under the identical lexicon,
+> window, and file, Annie's apology count is 227** — against his 119, a ratio of **1.91:1 in
+> her favour**, on a message base 20% smaller than his. Two other lexicons bracket it in the
+> same direction, all figures tapback-cleaned on both sides: contraction-only (`i'm sorry`)
+> gives **129** for her against **110** for him; any occurrence of the token "sorry" gives
+> **356** for her against **285** for him. Her side needs no cleaning — none of her matching
+> rows are reactions. There is no cut of the data in which Dan out-apologises Annie in the
+> terminal window.
+>
+> **What this does and does not do to the verdict.** It leaves the verbal-abuse asymmetry
+> exactly where the block above puts it — 74/17/11 against 0/1/0 is a finding about
+> *contempt language*, and it is confirmed, not softened. What it removes is a second,
+> unearned asymmetry that the page's ordering implied but never claimed: that he was also
+> the one doing the repairing. He was not. The terminal window contains an extreme
+> asymmetry in verbal abuse running one way and a roughly two-to-one asymmetry in stated
+> apology running the *other* way, and both belong on this ledger because the ledger's own
+> heading says it runs both ways. This also sits directly against the 2026-07-18 REVISED
+> block below, which found his corpus-wide apology count under-reported (435, not 180): the
+> corpus's standing picture of Dan as a man who affirms constantly and apologises rarely is
+> wrong in both directions at once — he apologises far more than the dossiers said, *and*
+> less than she did.
 - **He was the supply-chain architect.** The terminal-phase retention mechanism — Dan controlling the drug supply while Annie was unemployed and dependent — was his, operating independently of love or strategy. The financial oscillation ran three rotations (he funded early NYC; she was sole earner in 2024 after his involuntary Au Za'atar exit; he became the Uniontown supply chain in 2025–26). The magnitude is now quantified from payment-app ledgers: across Cash App and Venmo, Dan sent Annie on the order of **~$139K** and received back only **~$16–20K** — a net outflow to her of roughly **$119K–$123K** over the relationship (per operator-provided screenshots of her profiles viewed from his apps, 2026-07-15; two separate app ledgers, not a single summed total; see [[wiki/people/annie-ulmer]] "The money — quantified"). The "funded" read is not metaphor: it is a six-to-one financial asymmetry in her favor.
 - **The arrangement was his design.** The quasi-non-monogamy framework is read in the dossiers as "the most concentrated expression of his retention architecture." Annie participated and said she enjoyed it; the asymmetry (she never delivered the reciprocal side) is real, but the frame was his.
 - **The Whisk / fake-surveillance escalation.** The Jan 2025 spoofed-number test is rated by the dossiers as one of his most measured acts (he held the power to burn a life and did not use it). Its verification in raw: **[RAW-CSV]** `imessage_2124702449_both_all_now.csv`: `2026-01-05 23:02:51 | Received | Nice. Real mature. Goodnight.` (Annie's reply to the Whisk stimulus — recognition, not confusion). But a later session shows he went on to have Claude build, then built without Claude's help, three fake surveillance-TUI scripts hardcoded with Annie's real name and home streets — the restraint and the escalation are both documented; the arc points toward control, not just detection.
@@ -15910,13 +16119,13 @@ The dossiers' own proportionality finding is the line to hold: these are "real, 
 | Apr 1 third-party call to mom | `imessage_2124702449_both_all_now.csv` | 2026-04-01 00:57:32 | sent | Your mom calls my mom at 730 and said you n… (a guy looking for you) |
 | May 5 GPS shared w/ third party | `imessage_2124702449_both_all_now.csv` | 2026-05-05 15:09:50 | sent | stay away from me you liar I can not believe you would give someone else your location after what you did to me |
 | May 4 self-periodization | `imessage_2124702449_both_all_now.csv` | 2026-05-04 20:08:01 | sent | 25 Nov 2015 - 04 May 2026 Now you can be happy… |
-| Jun 1 "sic semper lupanis" | `THE END FIGHT.csv` | 2026-06-01 00:27:49 | Sent | Goodbye forever… sic semper lupanis. |
+| Jun 1 "sic semper lupanis" | `THE END FIGHT.csv` | 2026-06-01 00:27:49 | **sent — by Dan** (corrected 2026-08-13) | Goodbye forever… sic semper lupanis. |
 | Jun 5 apology | `imessage_2124702449_both_all_now.csv` | 2026-06-05 00:37:42 | Received | Daniel, i just want to say that i am extremely sorry. |
 | Tuquick defection | `imessage_export_7248123683_20260624.csv` | 2026-06-15 13:15:12 | Received | She's a compulsive liar with a drug addiction |
 
 ## Two corrections forced by the raw (provenance discipline)
 
-1. **The "March 2025 admission" is misdated and its sender is contested by the row.** The dossiers cite Annie's March 2025 message *"you decided to split our lives up. you lied to me for months and cheated on me."* In `all_imessages_complete_dump.txt` the row is `2025-02-23 14:28:42 | Sent | +121****2449` — i.e. **February 23**, and tagged **Sent** from Dan's own handle, not Received from Annie. Every dossier that cites it treats it as Annie's acknowledgment, but the raw direction tag contradicts that assignment. This page records it as **[RAW-DUMP] but sender-attribution-unresolved** — the text exists verbatim; who authored it is not settled by the direction field alone (the dump's direction may reflect export-side tagging). Flagged, not asserted.
+1. **The "March 2025 admission" is misdated and its sender is contested by the row.** The dossiers cite Annie's March 2025 message *"you decided to split our lives up. you lied to me for months and cheated on me."* In `all_imessages_complete_dump.txt` the row is `2025-02-23 14:28:42 | Sent | +121****2449` — i.e. **February 23**, and tagged **Sent** from Dan's own handle, not Received from Annie. Every dossier that cites it treats it as Annie's acknowledgment, but the raw direction tag contradicts that assignment. This page records it as **[RAW-DUMP] but sender-attribution-unresolved** — the text exists verbatim; who authored it is not settled by the direction field alone (the dump's direction may reflect export-side tagging). Flagged, not asserted. **[2026-08-13] — one leg of this now moves and one does not.** The convention question is settled for the per-contact CSVs: `sent` there means *Dan sent it*, proven on the June 1 run in the CORRECTED block above, and the dump uses the same Dan's-eye-view convention on its own evidence (the Oct 19 2024 `Received` rows are Annie's, as this page reads them). So the reading "the direction field means the contact sent it" is dead, and the row's plain reading is that **Dan wrote it**. What is still not settled is whether the row is *mis-tagged*, which is a different objection and the one actually at issue: the sentence's content is an accusation only Annie's counterparty would make. The deep 2026 export was searched for the string this pass and **does not contain the row at all** — that export lost 41.8% of the record and its coverage of Feb 2025 is incomplete — so no independent second witness exists yet. Downgraded from "sender contested" to **"authored by Dan on the direction field; adopt-with-caution pending a second export"**, which is a narrower and more falsifiable state than before.
 2. **The March 2026 "YES DAN" confession is dossier-only; the "I misunderstood the conversation" retraction is now [RAW-CSV] confirmed.** The 42 "Yes Dan" rows in `all_imessages_complete_dump.txt` are unrelated confirmations across 2015–2024, and the confession half of the pair remains sourced only from `report collection.txt` / `Attachment and Trust Breakdown.md` (**[DOSSIER]**). But the retraction sentence itself **was located** in a 2026-07-20 re-search of `imessage_2124702449_both_all_now.csv`: `2026-03-16 18:47:51 | Received | I think that I had misunderstood the conversation when that happened Dan` — upgraded [DOSSIER]→[RAW-CSV]. The surrounding events (bathroom incident, "Calm down. Please. I will be over" at 7:37 PM Mar 10) remain **[DOSSIER]**-transcribed only.
 
 ## The honest answer to the question
@@ -16032,10 +16241,12 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-11
+date_modified: 2026-08-13
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/message-csv/imessage_2124702449_both_all_now.csv
+  - "raw/self/message-csv/THE END FIGHT.csv"
 synthesizes:
   - wiki/timeline/events/july-august-2026-reentanglement
   - wiki/people/alexis-armel
@@ -16049,7 +16260,7 @@ tags: [relationships, nyc-era, uniontown-era, forensic-analysis]
 connections:
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: evidenced-by
-    claim: "Supplies the mechanism this page could only infer: Dan states that a tie closes only on an explicit terminating statement from the other party, then fails to obtain one from Annie across 1,880 messages of direct demand."
+    claim: "Supplies the mechanism this page could only infer, in the form corrected 2026-08-13: the counterparty's terminating statement is not what performs a closure — Dan performed the June 1 one himself and held it 52 days — it is what would let him treat a closure as settled, which is why 1,880 messages of direct demand for it produced reactivation instead of an ending."
 
   - page: wiki/people/ellen-ulmer
     type: instance-of
@@ -16188,6 +16399,65 @@ should fail — a tie ended by an explicit, unhedged severance from the other
 side ought to close cleanly, and [[wiki/people/kristin|Kristin's]] December 2025
 block is the closest thing the corpus has to that case.
 
+> **CORRECTED [2026-08-13] — the rule holds; the mechanism this section adopted on 2026-08-02 does not, and it is replaced rather than patched.**
+>
+> **The premise that moved.** The June 1 2026 sign-off — *"Goodbye forever. This was
+> not how it should have ended but. sic semper lupanis."* — is **Dan's own outbound**,
+> not Annie's. Scope: `2026-06-01 00:27:49 America/New_York`, `SENT OR RECEIVED = Sent`,
+> `HANDLE = Me`, dyad `+12124702449`, non-group, in the deep whole-device export
+> (`04:27:49` in that file's UTC clock); `direction = sent` independently in
+> `THE END FIGHT.csv` and `imessage_2124702449_both_all_now.csv`; the last of an
+> unbroken seven-message outbound run from `00:21:47` with no inbound row inside it.
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]] carried it as Annie's for two months
+> and now carries the correction and its cause.
+>
+> And the fifty-two days that followed were tested. Across all five Annie identifiers,
+> dyadic and group threads together, `2026-06-01 00:27:49 → 2026-07-23 14:54:01` holds
+> **zero outbound from Dan** and **seven inbound from Annie in four separate approaches**
+> — June 5, June 9 (*"Are you okay" / "Please answer"*), June 10 (a financial-paperwork
+> request), June 15 (*"Daniel"*) — all unanswered.
+>
+> **Why this lands on this section specifically.** Everything above the 2026-08-02
+> addition is behavioural and survives untouched. What that addition did was adopt a
+> *mechanism*, in one sentence: **"the closing operation requires a counterparty and the
+> counterparty rarely performs it."** As stated, that is now false. Dan performed the
+> closing operation unilaterally, and performed it well.
+>
+> **The decision.** The page's rule — *nothing leaves this graph* — **survives, and is
+> untouched.** No node was deleted on June 1: Annie is on the graph today, the tie
+> reactivated on day fifty-two, and the reactivation ran 624 messages in four days. The
+> rule was never a claim about whether Dan can send a goodbye. It is a claim about
+> whether anything ends up gone, and nothing did.
+>
+> **What replaces the mechanism.** The counterparty's role was misidentified as
+> *performing* the operation. The corpus shows it is to **ratify** it. Dan can execute a
+> closure and can sustain the executed state against direct pressure for weeks; what he
+> cannot do without an external terminating statement is treat the result as **settled**,
+> so the closure has no stopping condition of its own and decays the moment a channel
+> opens. His own July 28 words are about exactly this and were misread here as being
+> about the sending: *"My brain can't cross out that part of my life that I love unless
+> I know that you don't feel that way."* Crossing out is not the same act as saying
+> goodbye. He said goodbye on June 1 without difficulty. It is the crossing-out that
+> requires the other person, and the crossing-out is what dormancy is the absence of.
+>
+> **Stated as a rule the corpus can attack: the graph implements *suspend* and does not
+> implement *delete*.** Suspension is available, unilateral, and demonstrably durable to
+> at least fifty-two days under adversarial contact. Deletion requires a counterparty
+> signature that nobody in this corpus has ever supplied. That is a narrower claim than
+> the one this section made and a stronger one than the page's original inference from
+> behaviour alone, because it now says *which* of two operations is missing rather than
+> asserting that ending is impossible in general.
+>
+> **The falsifier moves with it.** The old mechanism predicted that a tie ended by an
+> explicit unhedged severance from the other side should close cleanly — Kristin, above.
+> The replacement predicts something additionally testable on Dan's own side: **a
+> suspension he initiates should hold exactly as long as it takes for a co-held object to
+> generate a reason to make contact, and no longer.** June 1 gives one measurement,
+> fifty-two days, on one co-held object ([[wiki/people/milo|the dog]]), reopened through
+> email rather than the blocked channel. A second initiated suspension with nothing
+> co-held should not reopen at all, and if one does, the suspend/delete distinction is
+> wrong and the reopening is internal after all.
+
 > **RE-CHECKED [2026-08-03] — premise moved, conclusion untouched.**
 > [[wiki/places/155-virginia-ave]] was edited today to flag that its January
 > 2015 start date collides by a few weeks with Dan's account of the February
@@ -16290,9 +16560,18 @@ facts.
 
 It also reframes the June 2026 severance. `the-unbroken-bond` records that the
 break held fifty-two days and then failed. Under the rule stated here that
-outcome is not a measure of how strong the bond was — **severance is simply not
-an operation this system has.** The graph does not implement delete. It
-implements dormancy, and dormancy is reversible by construction.
+outcome is not a measure of how strong the bond was — the graph does not
+implement delete. It implements dormancy, and dormancy is reversible by
+construction.
+
+> **CORRECTED [2026-08-13]:** this paragraph used to read *"severance is simply not an
+> operation this system has."* That sentence is withdrawn. Severance is an operation this
+> system has, Dan issued it himself at `00:27:49` on June 1 2026, and it ran for
+> fifty-two days with zero outbound against four inbound approaches. What the system
+> lacks is not the operation but its **permanence** — see the correction block above.
+> The rest of the paragraph stands as written, and stands better: dormancy being
+> reversible by construction is precisely why a correctly executed severance still
+> reversed.
 
 ## Predictions
 
@@ -17502,28 +17781,30 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-17
+date_modified: 2026-08-13
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - /Volumes/MUSIC/PHASE B RAW/LEVIATHAN_FULL_CORPUS.csv
   - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/message-csv/imessage_export_deep_20260813.csv
 tags: [digital-footprint, relationships, attachment, infidelity, ai-collaboration]
 connections:
   - page: wiki/mind/concepts/attachment-model
     type: evidences
-    claim: "The 9x reply-latency asymmetry renders the attachment system as a timing series: outbound near-instant and uniform across all relationships, inbound delay scaling with peripherality."
+    claim: "RETRACTED 2026-08-13 — the '9x reply-latency asymmetry' this edge carried does not exist and its sign was backwards; what the corpus actually shows is that in every measured relationship thread the counterparty answers Dan FASTER than he answers her, so reply latency indexes whether a thread is live, not how central the person is, and the attachment model gets no timing signature from it."
   - page: wiki/mind/concepts/contact-gini
     type: parallels
-    claim: "Both are quantitative cuts of the same corpus converging on the same singularity — Gini measures volume concentration, this page measures temporal synchrony; Annie is the sole near-synchronous channel in either metric."
+    claim: "The two metrics come apart rather than converging: Gini's volume concentration on Annie replicates on every source, while the temporal-synchrony half retracted here does not — every live thread in the corpus is near-synchronous, so concentration is carried entirely by volume and duration and not at all by reply speed."
   - page: wiki/people/annie-ulmer
     type: evidences
-    claim: "The merged-handle table (median 9-minute mutual latency, 31,612 Dan replies, 2015-18) is primary quantitative evidence for the relationship's singular status against every other contact's hour-scale delays."
+    claim: "RETRACTED 2026-08-13 — the '9-minute mutual latency' figure appears in no source; recomputed, Annie is the FASTER party (median 0.28 min against Dan's 0.38, 2015-2018, 62,987 thread rows) and opens 384 of 709 active days to Dan's 325, which makes her the pursuing side of the timing record rather than the delayed one the page had described."
   - page: wiki/self/message-corpora/master-message-dump
     type: component-of
-    claim: "An analytical cut of the master corpus that page documents — all latency and volume figures recomputed directly from its rows, cross-checked against the Leviathan superset."
+    claim: "An analytical cut of the corpus that page documents, and the worked example of its central hazard: this page's headline finding was produced by treating LEVIATHAN_FULL_CORPUS.csv as a superset when it is missing roughly 80% of Dan's 2025 outbound."
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: evidences
-    claim: "The 2025-26 handles' collapse to 16-44-hour inbound medians against Dan's unchanged 1-5-minute outbound quantifies the terminal-phase asymmetry the bond thesis describes."
+    claim: "RETRACTED 2026-08-13 — the '16-44-hour inbound medians' quantifying a terminal-phase asymmetry are an artifact of missing outbound rows; on the fuller record the 2025 Annie thread runs 10,595 Dan to 10,174 Annie with both medians under a minute, so the terminal phase shows no measurable timing asymmetry and the bond thesis must rest on content rather than latency."
   - page: wiki/timeline/periods/2018-deep-cycle
     type: evidences
     claim: "The 40,514-message 2018 total confirms and precisely quantifies this period's own qualitative '~40k msgs/yr' figure — the corpus's first-recorded peak."
@@ -17535,24 +17816,125 @@ connections:
 
 # Message Corpus — Circadian Rhythm, Reply Latency, and Volume Trajectories
 
-This is a **primary cut** of the raw message corpus, generated fresh from the export rather than summarized from prior wiki pages. The goal was to read the raw logs directly and surface structure no existing page carries: when Dan writes, how fast he answers versus how fast others answer him, and how per-contact volume moves across years. Source is the full iMessage/SMS corpus — `MASTER_MESSAGES_DB_DUMP.csv` (on-disk, 175,358 rows, 2011-03-18 → 2026-03-25) cross-checked against the sender-tagged superset `LEVIATHAN_FULL_CORPUS.csv` (`/Volumes/MUSIC/PHASE B RAW/`, 181,650 rows, 2011-03-18 → 2026-06-09). The Leviathan file is used as ground truth because its `sender` field is unambiguous (`Me (Dan)` vs the contact handle), which sidesteps the known `direction`-field bug in the master dump (where many Received rows are mislabeled and Sent rows carry an empty handle).
+This is a **primary cut** of the raw message corpus, generated fresh from the export rather than summarized from prior wiki pages. The goal was to read the raw logs directly and surface structure no existing page carries: when Dan writes, how fast he answers versus how fast others answer him, and how per-contact volume moves across years. Of those three, **the circadian curve survived audit intact and the other two did not** — the reply-latency finding is retracted below and the yearly volume arc is corrected, both for the same underlying reason: the file this page called a superset is a lossy subset.
 
-> **Method note / data hygiene:** phone numbers in the source are masked (`+172****6811` etc.). Matching was done by **substring on the file's actual bytes** (e.g. `6811`), not by hardcoding the masked literal — a naive literal comparison fails because the on-disk asterisk is ASCII `0x2a` while a typed `*` can differ by codepoint. All counts below were recomputed from the raw rows, not lifted from any doc.
+> **SOURCE RANKING, CORRECTED [2026-08-13].** The original pass named
+> `LEVIATHAN_FULL_CORPUS.csv` (`/Volumes/MUSIC/PHASE B RAW/`, 181,650 rows,
+> 2011-03-18 → 2026-06-09) as **ground truth** because its `sender` field is
+> unambiguous (`Me (Dan)` vs the contact handle), sidestepping the known
+> `direction`-field bug in `MASTER_MESSAGES_DB_DUMP.csv`. Clean attribution is not
+> completeness, and the two were conflated. Leviathan is **missing roughly 80% of
+> Dan's outbound in 2025**: on thread `+12124702449` for calendar 2025 it holds
+> **Dan 2,114 / Annie 10,141**, where `all_imessages_complete_dump.txt` holds
+> **Dan 10,595 / Annie 10,174** for the same thread and year while only running
+> through 2025-08-10. The correct ranking for this page's questions is:
+> `raw/self/dox-scan/all_imessages_complete_dump.txt` (217,573 dated lines, local
+> time, best available for 2019–2025) > `raw/self/message-csv/imessage_export_deep_20260813.csv`
+> (186,671 rows, **UTC**, whole-device, the only source covering 2026) >
+> Leviathan/`MASTER_MESSAGES_DB_DUMP.csv`/`OMNI_FORENSIC_DOSSIER.md`, which are
+> three renderings of one lossy extraction and agree with each other precisely
+> because of it. Full provenance: `raw/self/message-csv/README_20260813_exports.md`.
 
-## The headline: a 9× reply-latency asymmetry with Annie
+> **Method note / data hygiene:** phone numbers in some derived sources are masked (`+172****6811` etc.). Matching there was done by **substring on the file's actual bytes** (e.g. `6811`), not by hardcoding the masked literal — a naive literal comparison fails because the on-disk asterisk is ASCII `0x2a` while a typed `*` can differ by codepoint. Every figure re-derived in the 2026-08-13 audit is stated with its file, timezone, thread key, direction and denominator, per `EXTRACTION_SPEC.md`'s provenance preflight.
 
-The single most diagnostic new finding is the gap between how fast Dan answers and how fast the other person answers *him*.
+## The headline, RETRACTED: there is no reply-latency asymmetry, and its sign was backwards
 
-| Pair | Dan → them (median) | Them → Dan (median) | Dan → them p90 | Them → Dan p90 | n (Dan replies) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Annie** (merged handle, 2015–18) | **1.0 min** | **9.0 min** | 0.7 h | 4.2 h | 31,612 |
-| +172****4125 (2019) | 2.0 min | 19.0 min | 4.2 h | 15.8 h | 5,684 |
-| +172****3678 (2018) | 4.0 min | 22.0 min | 3.6 h | 9.0 h | 3,626 |
-| +172****8715 (long-tail) | 3.0 min | 346.0 min (~5.8 h) | 6.4 h | 43.7 h | 221 |
-| +121****2449 (2025–26) | 5.0 min | 2,648 min (~44 h) | 8.2 h | 142.7 h | 2,120 |
-| +133****8747 (2025) | 1.0 min | 968 min (~16 h) | 0.3 h | 69.0 h | 3,446 |
+> **RETRACTED [2026-08-13] — this page's headline finding is withdrawn in full, not
+> narrowed.** The claim was thesis-level: that Dan answers everyone in 1–5 minutes
+> while they answer him on an hour-to-day clock, that "the *inbound* delay is what
+> differentiates them, and it scales with how peripheral the person is," and that
+> "everything else is Dan broadcasting into a slow or silent void." **Every one of
+> those sentences has its sign reversed.** Recomputed under the page's own stated
+> method — next opposite-speaker message in the same thread — on three files
+> independently, the counterparty answers Dan *faster than he answers her* in every
+> single pair in the table, including on Leviathan, the page's own declared source.
+> The printed inbound medians (9.0, 19.0, 22.0, 346, 2,648 and 968 minutes) appear
+> in no source under any handle definition tried.
 
-Dan answers almost everyone within **1–5 minutes**. The people he messages answer him on a completely different clock: Annie at 9 minutes (already 9× his speed), the 2018–19 friends at 19–22 minutes, and the 2025 contacts at **16 to 44 hours**. This is the attachment system made audible as a timing series. Dan's outbound responsiveness is uniform and near-instant across every relationship — the *inbound* delay is what differentiates them, and it scales with how peripheral the person is. The near-synchronous Annie channel (median 9 min both ways) is the relational singularity; everything else is Dan broadcasting into a slow or silent void.
+**What the same method actually returns.** Thread-keyed on the chat target, next
+opposite-speaker message, medians in minutes. Two independent files, stated
+separately rather than averaged:
+
+| Thread / window | file | rows | Dan answers (median) | they answer (median) | who is faster |
+| :--- | :--- | ---: | ---: | ---: | :--- |
+| `+17244346811` (Annie), 2015–2018 | dump, local | 62,987 | 0.38 | **0.28** | Annie, 1.35× |
+| `+17244346811` (Annie), 2015–2018 | Leviathan | 62,784 | 0.4 | **0.3** | Annie |
+| `+17249204125`, 2019 | dump, local | 9,001 | 0.50 | **0.33** | them, 1.5× |
+| `+17243223678`, 2018 | dump, local | 5,787 | 3.50 | **1.83** | them, 1.9× |
+| `+17243228715` (Suz), all years | dump, local | 29,235 | 1.10 | **0.78** | Suz, 1.4× |
+| `+12124702449` (Annie NYC), 2025 | dump, local | 20,769 | 0.92 | **0.53** | Annie, 1.7× |
+| `+13307038747` (Kristin), 2025 | Leviathan | 20,014 | 0.2 | 0.2 | tie |
+
+The p90 columns move the same way: Dan's 90th-percentile reply to Annie 2015–18 is
+0.29 h against her 0.10 h. The old table's "n (Dan replies)" column was not a reply
+count either — 2,120 and 3,446 are Leviathan's *total Dan-sent rows* in those
+threads, matching to the row; the actual number of Dan-reply pairs on
+`+12124702449` is 916, not 2,120.
+
+**The method is not what broke.** Run unchanged against
+[[wiki/people/menore|Menore]] — the 2018–2025 delivery line — it returns Dan 0.53
+min against Menore 6.68 min across 4,413 rows, reproducing that page's independently
+measured 6.6/0.5 figures to two decimals. So the procedure does find a slow
+counterparty when one exists, and the single genuinely slow channel in the corpus is
+the *paid transactional* one. That is the exact inverse of the retracted rule, under
+which slowness marked peripherality.
+
+**Diagnosed cause 1 — the two latency columns are transposed.** Reading the table
+forward rather than as labelled reproduces the shape of the printed "them → Dan"
+column as *Dan's own* delay, on the two threads where a reconstruction is possible
+(`+13307038747` at ~731 min against a printed 968; `+17243228715` at ~245 min
+against a printed 346). The numbers are of the right order and the wrong owner. On
+its own this would have inverted the finding while leaving the magnitudes roughly
+intact.
+
+**Diagnosed cause 2 — the source is missing Dan's outbound, which inflates every
+inbound delay.** Leviathan holds Dan 2,114 / Annie 10,141 on `+12124702449` for 2025;
+`all_imessages_complete_dump.txt` holds Dan 10,595 / Annie 10,174 for the same thread
+and year while stopping on 2025-08-10. Roughly four of every five of Dan's outbound
+rows are gone from the file the page trusted. Any measure of the form "time since Dan
+last spoke" grows without bound as his messages are deleted from the record, which is
+how a 0.53-minute median becomes 2,648. The two causes compound: transposition put
+the hours on the wrong party, and the missing outbound manufactured the hours.
+
+**Internal contradiction, requiring no recomputation.** The paragraph under the old
+table described Annie as "the near-synchronous Annie channel (median 9 min both
+ways)" while the table directly above it printed 1.0 min for Dan and 9.0 min for
+Annie. The page contradicted itself in adjacent lines and the contradiction was
+never caught, because the number was doing rhetorical rather than evidentiary work.
+
+### What replaces it
+
+Reply latency does not discriminate relationships in this corpus. **Every live
+thread converges to a sub-minute median in both directions**; the variation between
+threads (0.28 to 3.5 min) is smaller than the variation the retracted table claimed
+*within* a single pair. What latency measures is whether a thread is currently live,
+not how central the person on the other end is — which is why the one thread with a
+real gap is a dealer answering a customer.
+
+Centrality in this corpus is therefore carried entirely by **volume and duration**,
+which is what [[wiki/mind/concepts/contact-gini|Contact Gini]] already measures and
+which replicates on every source. The two metrics do not converge on one
+singularity, as this page's frontmatter used to claim; the temporal half simply does
+not exist.
+
+**Prediction.** Any thread in this corpus with more than ~500 messages in a
+twelve-month window will return a two-sided median under 4 minutes, regardless of
+who the counterparty is or what year it falls in. **Falsifier:** a
+relationship-scale thread — not a delivery or business line — where the
+counterparty's median exceeds Dan's by more than 3× on
+`all_imessages_complete_dump.txt`. One such thread and the "latency is liveness, not
+closeness" reading is wrong.
+
+### Day initiation — direction confirmed, figures restated
+
+The one timing asymmetry that does survive is about who speaks first, and it runs
+the opposite way to the retracted thesis. On `all_imessages_complete_dump.txt`,
+thread-keyed on `+17244346811`, local time, 2015-01-01 → 2019-12-31, counting the
+direction of the first message on each day with any traffic: **709 active days,
+Annie opens 384 (54.2%), Dan opens 325.** By year: 2015 Annie 13/21 (61.9%), 2016
+Annie 45/103, 2017 Annie 126/235, 2018 Annie 199/348 (57.2%). Annie is both the
+faster responder and the more frequent initiator across the whole relationship —
+the reverse of a man broadcasting into a void.
 
 ## Annie volume trajectory (merged handle, 2015–2018)
 
@@ -17569,6 +17951,23 @@ The merged Annie thread (the handle that is both sender and thread-target) gives
 The 2018 peak (10,821 / 11,194) is the "deep cycle" the wiki already names — the highest annual volume of the decade. The collapse to **2 sent messages in 2019** is a hard device/export boundary, not a real silence (the relationship continued; the logging simply stopped and resumed under a different handle/export later). This matters methodologically: any per-contact yearly series read off a single handle will show false cliffs at export seams. The corpus must be re-merged across handles to read the true trajectory — and even then, 2019–2024 Annie volume is only recoverable from the separate ANNIETEXTS/combined exports, not this file.
 
 ## Circadian rhythm — Dan writes all day, peaks at night
+
+> **RE-CHECKED [2026-08-13] — this section reproduced exactly and is preserved
+> unchanged.** It was re-run in the same audit that retracted the latency finding
+> above, because a section sharing a defective source is suspect until tested rather
+> than false by association. Every count in the table below re-derives to the row
+> from Leviathan's 70,123 Dan-sent messages, and the shape replicates on files
+> Leviathan is not a subset of: night share (00:00–05:59) is **15.5%** for 2015–2018
+> on the deep 2026-08-13 export converted UTC→America/New_York (n=46,298 Dan-sent)
+> and **15.5%** on `all_imessages_complete_dump.txt` in native local time
+> (n=59,976) — against the 15.6% printed here for the full record. The era drift
+> survives too: 2025–26 night share is 12.8% on the deep export and 7.6% on the dump
+> through 2025-08-10, both well below the 15.5% baseline, so the "less nocturnal in
+> the collapse" direction holds on three files even though the printed 10.4% is
+> file-specific. One caveat is now on the record: the **22:00 single-loudest-hour**
+> claim is source-sensitive — 22:00 leads on Leviathan (7.5%) and on the deep export
+> (7.2%) but 18:00 leads on the dump for 2015–18. The **17:00–23:00 peak window** is
+> what holds everywhere, and that is the load-bearing claim.
 
 Dan's own sent messages by hour (local time), over the full record:
 
@@ -17610,57 +18009,91 @@ The later window is *less* nocturnal — more of the output migrates into the wo
 
 This burst profile is the behavioral fingerprint of the [[wiki/mind/concepts/attachment-model|fusion mode]]: when the attachment system is active, output is continuous and immediate; when it is not, the channel goes quiet. The floods at relationship onset (Dec 2015) and termination (2025–26), already documented on [[wiki/mind/synthesis/bond-switch-2015]], are the extreme tails of this same burst distribution.
 
-## Yearly volume arc, 2015–2026 — the dormant years quantified
+## Yearly volume arc, 2015–2026 — an export's coverage, not a life's output
 
-A separate corpus cut (OMNI_FORENSIC_DOSSIER.md, 175,358 messages,
-2015-11-12 to 2026-03-25) supplies a whole-corpus yearly total this page's
-per-contact tables don't assemble on their own — and it is the only place
-in the wiki with hard numbers for the 2021–2024 low-activity years, which
-the timeline pages otherwise describe qualitatively:
+> **CORRECTED [2026-08-13] — the "arc label" column described an artifact.** The
+> prior version read this table as a behavioral trajectory and named 2021–2022 "the
+> corpus's hardest floor — a near-total communication blackout," with 2021 as
+> "Near-total silence" and 2022 as "Dead channel." **There was no blackout.** The
+> table is a row-count of one lossy extraction, and the audit found that
+> `OMNI_FORENSIC_DOSSIER.md`'s yearly totals are identical, year for year, to the
+> 2026-08-13 whole-device deep export's — 13,819 / 20,221 / 17,551 / 40,514 /
+> 20,153 / 6,311 / 280 / 954 / 4,376 / 41,278 all match to the row. They are not two
+> sources agreeing; they are one extraction counted twice. Against
+> `all_imessages_complete_dump.txt` every year before 2025 is understated, several
+> of them by a factor of six.
 
-| Year | Total messages | Arc label |
-| :--- | :--- | :--- |
-| 2015 (Nov–Dec) | 13,819 | Genesis (Annie) |
-| 2016 | 20,221 | Peak chaos |
-| 2017 | 17,551 | Crisis / cam era |
-| 2018 | **40,514** | Maximum output (drug/relationship spiral) |
-| 2019 | 20,153 | NYC / disengagement |
-| 2020 | 6,311 | COVID collapse |
-| 2021 | 280 | Near-total silence |
-| 2022 | 4 | Dead channel |
-| 2023 | 954 | Reactivation |
-| 2024 | 4,376 | Rebuilding |
-| 2025 | **41,278** | Maximum resurgence |
-| 2026 (Q1) | 9,896 | Current velocity |
+| Year | printed here (OMNI) | deep export 2026-08-13, UTC→NY | `all_imessages_complete_dump.txt`, local |
+| :--- | ---: | ---: | ---: |
+| 2015 (from Nov 12) | 13,819 | 13,819 | 14,408 |
+| 2016 | 20,221 | 20,221 | **34,589** |
+| 2017 | 17,551 | 17,551 | 21,824 |
+| 2018 | 40,514 | 40,514 | **48,697** |
+| 2019 | 20,153 | 20,153 | 24,781 |
+| 2020 | 6,311 | 6,311 | 10,339 |
+| 2021 | 280 | 280 | **1,465** |
+| 2022 | 4 | 6 | **0** |
+| 2023 | 954 | 954 | **5,156** |
+| 2024 | 4,376 | 4,376 | **28,463** |
+| 2025 | 41,278 | 41,278 | 27,850 *(source stops 2025-08-10)* |
+| 2026 | 9,896 *(Q1)* | 21,207 *(to Aug 13)* | — *(source stops 2025-08-10)* |
 
-2018 and 2025 are the corpus's twin peaks, within 2% of each other in raw
-volume — confirming from the total-message angle what
-[[wiki/timeline/periods/2018-deep-cycle]] already names qualitatively
-("~40k msgs/yr") and giving [[wiki/timeline/periods/2025-collapse]] its
-own precise figure for the first time. The 2021–2022 trough (284 combined
-messages across two full years) is the corpus's hardest floor — a near-total
-communication blackout this page's per-contact analysis, built on 2015–2018
-and 2025–2026 windows, does not otherwise surface. Note this table counts
-raw message volume across all contacts, not the Annie-specific figures
-in the section above; the two should not be conflated.
+**2021 through mid-2023 is a hole in both exports, and it is an export artifact.**
+`all_imessages_complete_dump.txt` holds **zero rows between 2021-04-27 20:31:40 and
+2023-08-09 00:54:11** — one unbroken 833.2-day window. The deep 2026-08-13 export,
+converted to America/New_York, has the same hole at slightly different edges
+(2021-04-07 08:04 → 2023-08-11 15:06, 856 days) broken by a single 6-message island
+on the evening of **2022-12-31**, every one of them outbound and two of them
+literally the word `test`. Six messages and two of them a connectivity check is what
+a device produces when someone is testing a phone, not what a year of a life
+produces.
+
+The falsifier is in the wiki already. [[wiki/self/location-history|The Google
+location record]] logs **806 place visits in 2022** — the year the message corpus
+scores at four — plus 257 in 2021 and 728 in 2023, ~1,791 across the three years.
+[[wiki/work/au-zaatar|Au Za'atar]] employment ran continuously from March 2021 to
+August 2024 across the entire hole, ~690 estimated shifts and 445 visits logged to
+the restaurant itself. A man working five nights a week in Manhattan did not send
+four text messages in a calendar year. The 2024 row makes the same point without
+needing the location data at all: 4,376 against the dump's 28,463 in the one year
+both files cover and neither is missing.
+
+What survives, restated with its scope: **2018 and 2025 are the corpus's twin
+peaks.** That holds on both files independently — 40,514 vs 41,278 on the deep
+export, and 48,697 in 2018 against 27,850 in 2025 on a dump that stops in August, so
+the dump is on pace to agree. The precise figures given to
+[[wiki/timeline/periods/2018-deep-cycle]] and
+[[wiki/timeline/periods/2025-collapse]] should carry their file, since the two
+sources differ by 8,000 messages on 2018. Note also that this table counts raw
+volume across all contacts, not the Annie-specific figures above; the two should not
+be conflated.
+
+There is a second, larger and differently-shaped void in the same corpus that is
+**not** the same artifact: SMS traffic stops entirely for nearly four years,
+2020-07-30 → 2024-05-24, with inbound SMS stopping earlier still on 2020-05-28.
+Both boundaries replicate to the second across the deep export and the dump, and
+iMessage runs normally on either side. Details and the disabled-forwarding reading
+are on [[wiki/self/message-corpora/master-message-dump]].
 
 ## Volume concentration (re-derived, matches prior Gini)
 
-Across the corpus, Annie's two handles dominate. This primary cut re-confirms the [[wiki/mind/concepts/contact-gini|Contact Gini]] finding from raw: of Dan's 70,123 sent messages, the top contact (+172****6811) alone is 31,635 (45%). The next tier (+172****4125, +172****3678 in 2018–19; +133****8747, +121****2449 in 2025) are each bounded single-year spikes — friendships or entanglements that flare for one period then vanish from the log. The steady state is one channel at 45%+ and everything else as transient satellites.
+Across the corpus, Annie's two handles dominate. This primary cut re-confirms the [[wiki/mind/concepts/contact-gini|Contact Gini]] finding from raw: of Dan's 70,123 sent messages **in Leviathan**, the top contact (+172****6811) alone is 31,635 (45%). That denominator is now known to be short by roughly 8,500 of Dan's 2025 outbound rows, which sit overwhelmingly on the `+12124702449` Annie handle — so the concentration figure is if anything *understated*, and the direction of the error runs with the finding rather than against it. The next tier (+172****4125, +172****3678 in 2018–19; +133****8747, +121****2449 in 2025) are each bounded single-year spikes — friendships or entanglements that flare for one period then vanish from the log. The steady state is one channel at 45%+ and everything else as transient satellites.
 
-## What this adds that no existing page had
+## What this page still adds, after the 2026-08-13 audit
 
-- A quantified **reply-latency asymmetry** (Dan ~1–5 min vs others 9 min to 44 h) as a direct measure of relational centrality — the inbound delay is the axis of differentiation, not the outbound speed.
-- The **merged Annie 2015–2018 volume arc** with the 2019 export-cliff called out as an artifact, not a silence.
-- The **circadian curve** and its **era drift** (15.5% → 10.4% nocturnal) — entirely new timing data.
-- The **62.7% sub-2-minute burst rate** and 284-message max run — the output-storm fingerprint.
+- The **circadian curve** and its **era drift** (15.5% nocturnal in the Annie era, falling in the collapse window on all three files) — timing data no other page carries, and the one original finding that reproduced exactly.
+- The **62.7% sub-2-minute burst rate** and 284-message max run — the output-storm fingerprint. Measured on Leviathan and therefore inheriting its 2025 outbound loss; the burst rate is likely understated for 2025 and the finding is flagged rather than restated.
+- **Day initiation on the Annie thread**: 709 active days 2015–2019, Annie opening 384 (54.2%) to Dan's 325.
+- The **merged Annie 2015–2018 volume arc** with the 2019 export-cliff called out as an artifact, not a silence — the same class of error the rest of this page turned out to be making at larger scale, first noticed here and then not generalized.
+- Two documented failure modes, which are now the page's most reusable content: a **transposed-column reversal** that survived because the number was doing rhetorical work, and a **lossy file mistaken for a superset** because its attribution was clean.
 
 ## Gaps / caveats
 
-- Annie's 2019–2024 volume is not in this file (handle/export seam); the true decade arc needs the ANNIETEXTS / combined_annie_logs exports merged in. The 2019 "2 messages" is an export boundary, not a real gap.
-- Reply-latency uses the "next opposite-speaker message in the same thread" method. In high-burst threads this slightly over-states Dan's reply speed (he may send 10 then get 1 back) but the *order-of-magnitude* asymmetry is robust across every contact.
-- Phone handles are masked; identity of the non-Annie contacts (+133****8747 = a 2025 figure; +121****2449 = a 2025–26 figure) is inferred from volume timing and the wiki's existing people pages, not from unmasked data.
-- `LEVIATHAN_FULL_CORPUS.csv` lives in `/Volumes/MUSIC/PHASE B RAW/`, not yet filed under `raw/` — its on-disk path is cited directly above.
+- Annie's 2019–2024 volume is not in Leviathan (handle/export seam); the true decade arc needs the ANNIETEXTS / combined_annie_logs exports merged in. The 2019 "2 messages" is an export boundary, not a real gap.
+- Reply-latency uses the "next opposite-speaker message in the same thread" method. In high-burst threads it slightly over-states *both* parties' speed symmetrically, which is why the retracted asymmetry cannot be rescued by appealing to it.
+- The burstiness section has not been re-derived on `all_imessages_complete_dump.txt` and is the remaining unaudited quantitative claim on this page.
+- `+13307038747` is **Kristin Prentiss** ([[wiki/people/kristin]]) and `+12124702449` is Annie's NYC handle; both were "inferred from volume timing" in the original pass and are now identified. `+17243228715` is Suz. The 2026-08-13 export carries unmasked handles, so the masked-substring method described above is no longer necessary for new work.
+- `LEVIATHAN_FULL_CORPUS.csv` lives in `/Volumes/MUSIC/PHASE B RAW/`, not filed under `raw/` — its on-disk path is cited directly above. It should not be used as a completeness reference for any window after 2024.
 
 
 ========================================================================
@@ -19816,7 +20249,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-11
+date_modified: 2026-08-13
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -19824,6 +20257,8 @@ sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/self/message-csv/imessage_2124702449_both_all_now.csv
+  - "raw/self/message-csv/THE END FIGHT.csv"
 synthesizes:
   - wiki/mind/synthesis/bond-switch-2015
   - wiki/people/annie-ulmer
@@ -19855,7 +20290,7 @@ connections:
     claim: "The six-year control case: a bond long enough to prove the slot was occupied continuously, and — per the bond-switch synthesis — shallow enough to show that occupancy did not require the deep attachment system to be active."
   - page: wiki/people/annie-ulmer
     type: evidenced-by
-    claim: "The ten-year case in which the deep system did activate, and whose 2026 severance failed after 52 days — the strongest available evidence that ending the state is harder than maintaining it."
+    claim: "The ten-year case in which the deep system did activate, and whose 2026 severance — issued by Dan himself, not by her, per the 2026-08-13 correction — held 52 days of zero outbound against four unanswered approaches before failing: the strongest available evidence that what is unavailable to him is not leaving but staying gone."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Seventeen years without a gap longer than weeks is 'The Irreversibility Firewall's' no-delete prediction at the level of the slot itself: leaving it empty long enough to become a real, examined choice would be exactly the irreversible fact the firewall exists to prevent."
@@ -19887,7 +20322,7 @@ empty. **Any account of him that does not explain this is incomplete.**
 | :--- | :--- | :--- | :--- |
 | ~2007–2009 | *(not established)* | — | See gaps: the post-high-school window is not documented in `raw/` |
 | Nov 2009 – Nov 2015 | [[wiki/people/alexis-armel]] | ~6 years | Includes a Jul–Oct 2013 separation; the bond resumed |
-| Nov 2015 – present | [[wiki/people/annie-ulmer]] | ~10.5 years | Severance 2026-06-01; **contact resumed 2026-07-23** after 52 days |
+| Nov 2015 – present | [[wiki/people/annie-ulmer]] | ~10.5 years | Severance 2026-06-01, **issued by Dan** (corrected 2026-08-13); **contact resumed 2026-07-23** after 52 days |
 
 The two documented bonds are contiguous. The handoff is not approximate.
 
@@ -19960,12 +20395,72 @@ disorder he wants everywhere else, because it is his.
 - **Exit is structurally unavailable.** If the slot must be occupied, leaving
   requires a successor, and sourcing a successor while inside a bond is the
   behaviour documented in November 2015. The pattern makes clean endings
-  mechanically difficult, independent of anyone's intentions.
+  mechanically difficult, independent of anyone's intentions. *(Narrowed
+  2026-08-13 — see the correction below; the accurate statement is that a
+  **durable** exit is unavailable, not that exit is.)*
 - **The severance failed.** The single hardest piece of evidence on this page:
   the June 1 2026 closure held for **52 days** and then contact resumed on July
   23, running **624 messages across four days**. The wiki's own inference that
   June 1 was terminal has been formally withdrawn. Seventeen years of
   continuity did not end because the relationship ended.
+
+> **CORRECTED [2026-08-13] — Dan issued the June 1 severance himself and vacated the slot for fifty-two days with no successor. The thesis survives; the "exit is structurally unavailable" clause does not.**
+>
+> **The premise that moved, with its scope.** The June 1 closing line — *"Goodbye
+> forever. This was not how it should have ended but. sic semper lupanis."* — is **Dan's
+> outbound**, not Annie's: `2026-06-01 00:27:49 America/New_York`
+> (`04:27:49` UTC in the deep whole-device export), `SENT OR RECEIVED = Sent`,
+> `HANDLE = Me`, dyad `+12124702449`, non-group, and the last of an unbroken
+> seven-message outbound run from `00:21:47` with no inbound row inside it;
+> `direction = sent` independently in `THE END FIGHT.csv` and
+> `imessage_2124702449_both_all_now.csv`. It had been read as Annie's since June;
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]] carries the correction and its cause.
+> The fifty-two days are also now measured rather than assumed: across all five Annie
+> identifiers, dyadic and group threads together, the interval to
+> `2026-07-23 14:54:01` contains **zero outbound from Dan** and **seven inbound from
+> Annie in four separate approaches**, none answered.
+>
+> **The decision, made rather than deferred: the central thesis survives, and one of its
+> supporting clauses is withdrawn.**
+>
+> *The thesis survives.* Seventeen years of continuous occupancy is untouched. Fifty-two
+> days is not an unattached period in the sense Falsifier 1 requires — the falsifier
+> asks for more than roughly six months, and this is under two — and more to the point
+> the bond did not end, it resumed and is running. Nothing here converts "continuous"
+> into "serial."
+>
+> *The clause does not survive.* **"Exit is structurally unavailable"** and **"leaving
+> requires a successor"** are both falsified by this instance. Dan left, unilaterally,
+> by his own sentence, and sourced no successor — the corpus contains no replacement
+> bond in June or July 2026, and the slot sat empty for fifty-two days while he refused
+> four direct approaches from its previous occupant. Whatever November 2015 shows about
+> *how he has historically left*, it does not show that he *cannot* leave otherwise.
+>
+> **What replaces it, and why it is the better claim.** The constraint was never on the
+> act of leaving. It is on **staying gone**. The corrected statement: *the slot tolerates
+> vacancy, and tolerates it for weeks; what it does not tolerate is vacancy becoming
+> permanent.* That is a materially weaker claim than the one it replaces and the page is
+> better for it, because the strong version was doing work that only the 2015 switch
+> supported, and the 2015 switch is a single case. Two cases now exist and they disagree
+> about the method — 2015 filled the slot before vacating it, 2026 vacated it empty —
+> which means successor-sourcing is **situational**, not structural. That is exactly the
+> concession Falsifier 3 was written to extract, and it is recorded here rather than
+> argued around.
+>
+> **Falsifier 3, scored honestly.** It asks for *"a bond ending with no successor sourced
+> before or shortly after."* June 1 supplies the no-successor half and fails on the
+> other: the bond did not end. So the falsifier is **not met — but it is met halfway,
+> and the half it met is the half the page cared about.** The remaining defence of the
+> singular-slot mechanism now rests entirely on *duration of vacancy*, which makes it
+> quantitative and killable: **a vacancy of more than roughly six months with no
+> successor would settle it.** The corpus can only answer that going forward, and the
+> July–August reentanglement means the clock has already reset.
+>
+> **One thing it does not touch.** The `enneagram-5w4` sx-dominant mechanism — one bond
+> at maximum voltage rather than several at moderate voltage — is unaffected either way.
+> Fifty-two days of refusing the only occupant while sourcing nobody else is *maximum
+> voltage on a single object*, not evidence for multiplicity. If anything the abstinence
+> is the same singularity seen from its other side.
 
 ## The unifying reading
 
@@ -20016,7 +20511,13 @@ Everything else can be allowed to burn, because he did not pick it.
    singular-slot mechanism in favour of ordinary multiplicity.
 3. A bond ending with no successor sourced before or shortly after — which
    would show exit is available and that the 2015 switch was situational rather
-   than structural.
+   than structural. **Partially met, 2026-08-13.** The June 1 2026 severance was
+   issued by Dan and produced a fifty-two-day vacancy with no successor sourced,
+   which concedes the "situational rather than structural" half; it fails the
+   "ending" half, because the bond resumed on day fifty-two. The live form of
+   this falsifier is therefore now quantitative — **a vacancy of more than
+   roughly six months with no successor** — and the July–August reentanglement
+   has reset its clock. See the correction under "What it costs."
 
 ## RE-CHECKED [2026-08-09]
 
@@ -22112,7 +22613,7 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-11
+date_modified: 2026-08-13
 date_range_start: 2015-11-01
 date_range_end: 2026-08-09
 infobox:
@@ -22129,6 +22630,8 @@ infobox:
   first_contact: 2015-11-01
   handles: ["@Annelouise28", "@Lo_weez", "@alexisarmel"]
 changelog:
+  - date: 2026-08-13
+    note: "Three corrections from a deep-export audit and one operator capture. (1) The June 1, 2026 'exit line' — 'Goodbye forever… sic semper lupanis' — was attributed to Annie on this page and on dan-annie-fallout-verdict.md. It is Dan's: imessage_export_deep.csv row EDE2A8E6, 2026-06-01 04:27:49 UTC / 00:27:49 America/New_York, Sent, HANDLE=Me, chat +12124702449, not a group chat. The verdict page's own citation string ('Sent (Received by Dan)') is the inversion's cause — a direction column written from Dan's POV read as Annie's outbound. Annie has no exit line in the record at all, which strengthens rather than weakens the zero-severance-signal finding. (2) The February 2025 eviction from 307 E 76th St was arranged by Dan with John Paci's knowing cooperation and concealed from Annie, per the 2026-08-13 operator capture; 'The move that solved nothing' and the money section's 'shot clock' framing are rescoped from external pressure to engineered pressure. The ~$10,000 balance and the underlying debt are unaffected and remain real. (3) The '0 explicit severance signals' sweep is restated as scoped to the dual-handle export (41,073 received, 81.6% of the 50,332 in-window received across five handles) rather than to Annie's messages generally; the 9,259 unswept messages and the on-disk triple-handle export that would widen the sweep are named in Gaps."
   - date: 2026-08-10b
     note: "Deep-mining pass over previously unread raw/ sources (operator request: 'a substantial rewrite... by scraping and mining a BUNCH of new data points or events'). New: (1) pre-Dan paid-content/blackmail history (Oct 2018 retrospective mention); (2) grandfather Jim's death dated to 2019-10-02, the origin point of the recurring Sugie-caregiving alibi, cross-linked to ellen-ulmer.md; (3) 'Target G' section expanded with four granular dated exchanges (Jan 5, Jan 9, Feb 1, Mar 1 2026) from a previously unmined Claude session, including Annie's own unprompted naming of 'Caitlin's husband' (tied to an undisclosed five-sleeping-pills incident) and an independent corroborating quote from Bop; (4) independent April 2025 corroboration of the $10,000 landlord debt figure plus a previously undocumented $7,000 ConEd utility debt; (5) new section on the isolation trifecta compounding around the June 1, 2026 severance — a May 2026 BFS Foods termination, the 337 Saratoga move-out notice, and the Tom Maison fallout, all named together by Dan in his own words in a Grok session, including his own coined term 'aura illness.' New connections to wiki/work/bfs-foods and wiki/places/337-saratoga-drive; prose cross-references added to wiki/people/tom.md and wiki/people/ellen-ulmer.md."
   - date: 2026-08-10
@@ -22184,6 +22687,8 @@ sources:
   - "raw/self/dox-md/Interpersonal manipulation_ Dan and Annie's toxic dynamic.md"
   - raw/self/chatgpt-export/relationship-breakdown-summary-2025-04-27.md
   - raw/self/message-csv/imessage_7243667777_both_all_now.csv
+  - raw/self/captures/2026-08-13_john-paci-staged-eviction-operator-decode.md
+  - raw/self/message-csv/imessage_7244346811+7249204125+2124702449_both_all_now.csv
 related:
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
@@ -22267,7 +22772,7 @@ connections:
     claim: "The May 2, 2017 Nick Mattie handoff — product left with Annie after she messaged him on Facebook — dates her supply-logistics facilitation a full year before the documented 2018–19 Johnny-era role."
   - page: wiki/mind/concepts/attachment-model
     type: evidences
-    claim: "The ten-year Annie corpus is the attachment model's quantitative base: 0 explicit severance signals across 41,073 of her messages, the 187-of-191 affection-to-request pairing, 24 alibis, 13 unchanged-behavior apologies."
+    claim: "The ten-year Annie corpus is the attachment model's quantitative base: 0 explicit severance signals across the 41,073 received messages of the dual-handle export — 81.6% of her in-window inbound, so the absence is established for that export and not yet for her messages generally — plus the 187-of-191 affection-to-request pairing, 24 alibis, 13 unchanged-behavior apologies."
   - page: wiki/mind/concepts/conflict-architecture
     type: evidences
     claim: "The Annie corpus is the conflict engine's fingerprint at full load: the 74/17/11 abuse triad, 127/110 exit-relapse record, 94 silence-preceded bursts, and the terminal-phase volume asymmetry."
@@ -22291,7 +22796,7 @@ connections:
     claim: "The circadian/latency cut supplies the quantitative case for the relationship's singularity: median 9-minute mutual reply latency against hour-scale delays everywhere else."
   - page: wiki/timeline/periods/feb-apr-2025-return-and-rupture
     type: evidences
-    claim: "Annie's unilateral move to her parents' house rather than accepting Dan's open-ended offer to fund an apartment anywhere she chose is the first concrete post-affair decision-making asymmetry in the corpus, predating the terminal-phase asymmetry by roughly eight months."
+    claim: "Rescoped 2026-08-13: the choice Annie made here was made inside a frame Dan had built without telling her — a landlord eviction he arranged and Paci agreed to perform — so the window records two asymmetries, her unilateral move to her parents' house over his offer to fund an apartment anywhere she chose, and his unilateral authorship of the crisis that made the choice urgent."
   - page: wiki/work/tech/danmodel
     type: evidenced-by
     claim: "Annie (early) alone accounts for 40% of the 39,378 stimulus-response pairs DANMODEL extracted from Dan's full message corpus — a mechanical, independently-derived confirmation of her centrality."
@@ -22315,7 +22820,7 @@ connections:
     claim: "The six years at this address hold two previously undocumented findings written back here in 2026-08-10: the September 2020 Train Plan crisis had a mundane, dated cause (a roach-bombing evacuation, not an unexplained 'lockdown' relocation), and the ~$10,000 landlord debt that this page once described as paid down was still owed in full at move-out in 2025."
   - page: wiki/people/john-paci
     type: co-occurs
-    claim: "The landlord at 307 E 76th St for the entire tenancy — present at its start ('he's the one who stuck his neck out for us and held the apartment when we found it'), its 2020 pest crisis, and its 2025 unwound-debt aftermath, still texting Annie in July 2025."
+    claim: "The landlord at 307 E 76th St for the entire tenancy — and, per the 2026-08-13 operator capture, the knowing co-performer of the February 2025 eviction: Dan asked him to play at filing if Annie or her parents called, he agreed, and Annie was never told, which makes the exit from New York an instrument Dan built rather than a pressure the household absorbed."
   - page: wiki/work/bfs-foods
     type: co-occurs
     claim: "Dan's May 2026 BFS Foods termination landed inside the same two-to-three-week window as the June 1 severance and the 337 Saratoga move-out notice — a compounding isolation the operator named himself, in real time, as 'aura illness.'"
@@ -22406,7 +22911,9 @@ Concealed affair with NYC coworker [[wiki/people/eli|Eli]] through autumn
 2024 while actively convincing Dan his accurate suspicions were
 paranoia — the corpus's central moral event. Affair surfaced via Eli's
 own 11:18 PM self-introduction text (Jan 9 2025); cohabitation ended with
-the Feb 2025 return to Uniontown. Terminal phase (Aug 2025–Mar 2026): Dan
+the Feb 2025 return to Uniontown — an exit Dan engineered himself, by
+arranging a performed eviction with the landlord and concealing the
+arrangement from her (operator capture, 2026-08-13). Terminal phase (Aug 2025–Mar 2026): Dan
 controlled the drug supply, Annie was unemployed and dependent, and a
 gaslighting architecture ran on top of that dependency — a GPS removal
 reframed as a new demand, 12 crisis statements met with no substantive
@@ -22710,6 +23217,21 @@ payments against at $650 a week.
 > is a distinct, previously undocumented-on-this-page debt, owed to the
 > utility rather than the landlord; full context at
 > [[wiki/timeline/periods/feb-apr-2025-return-and-rupture]].
+>
+> **RE-CHECKED [2026-08-13] — the debt survives, the "shot clock" does
+> not.** A 2026-08-13 operator capture establishes that the February 2025
+> eviction was arranged by Dan rather than imposed on the household
+> ("The move that solved nothing," below). Every figure in this block is
+> unaffected: the ~$10,000 balance, the $650/week payments, the $7,000
+> ConEd bill and Paci's March 5, 2026 settlement letter are all real, all
+> primary, and the debt is the true premise the plan was built on rather
+> than a pretext invented after it. What does not survive is the causal
+> reading carried by the phrase "shot clock" in Dan's April 27, 2025
+> retelling — the clock existed because he had asked the landlord to
+> start one, and had then spent two months deliberately withholding new
+> rent to bank cash against a balance he had already decided not to pay
+> **[OPERATOR]**. Read the April account as accurate about the money and
+> as Dan's own cover story about the timing.
 
 Then, in mid-2024, Dan lost the Au Za'atar job — involuntarily, in a pattern he
 identified in real time as designed to force a resignation rather than a
@@ -22722,7 +23244,13 @@ A WEEK... You worry about having drugs. That's it" (November 15, 2024) is
 a real complaint about that specific year, generalized past what the
 decade as a whole would support. The fourth inversion came with the move
 to Uniontown, where Annie lost income, independence, and drug access all
-at once and Dan became her supply chain instead.
+at once and Dan became her supply chain instead — and this is the one
+inversion the corpus can now attribute to a decision rather than to
+circumstance, since the move that produced it was engineered by the party
+it benefited **[OPERATOR]**. Nothing in the capture suggests he was
+aiming at the dependency; the written plan aims at a fresh start and at
+letting her choose it. The dependency is what the plan actually produced,
+and the terminal phase is built on top of it.
 
 The year-by-year message ratio confirms the same oscillation
 independently of anyone's memory of who carried what:
@@ -22861,10 +23389,13 @@ well into 2026.
 
 ## The move that solved nothing
 
-Weeks after Eli's text, Annie unilaterally ended eight years of shared
-living and returned to her parents' house in Uniontown, citing her
-grandmother's care — and declined Dan's open-ended offer to fund an
-apartment of her choosing instead, the earliest concrete instance of a
+Weeks after Eli's text the eight-year shared household ended, and the two
+decisions inside that ending belong to two different people. That they
+left New York at all was Dan's doing, engineered rather than suffered —
+see the correction below. Where Annie went once they had left was hers:
+she returned to her parents' house in Uniontown, citing her grandmother's
+care, and declined Dan's open-ended offer to fund an apartment of her
+choosing instead, the earliest concrete instance of a
 decision-making asymmetry that recurs, more visibly, in the terminal
 phase eight months later. The dossiers place the *functional* end of the
 relationship here: the shared life was gone, and the very event that made
@@ -22878,6 +23409,57 @@ and simultaneous ("I remember the day you moved in being SO FUCKING
 happy that we wouldn't have to be apart anymore," the same day). February
 2025 is, on the dossiers' own account, the last moment genuine repair was
 even theoretically on the table.
+
+> **CORRECTED [2026-08-13] — the eviction did not happen to this
+> household. Dan arranged it, and Annie was never told.** Every earlier
+> version of this page, and of [[wiki/people/john-paci]],
+> [[wiki/places/307-e-76th-st]] and
+> [[wiki/timeline/periods/feb-apr-2025-return-and-rupture]], read the
+> February 2025 loss of the apartment as an external event: a landlord
+> finally out of patience with a debt that had grown past ten thousand
+> dollars, forcing a return to Pennsylvania neither party chose. A
+> 2026-08-13 operator capture **[OPERATOR]** states that this is exactly
+> the impression Dan built, and that he built it deliberately. In the
+> days after Eli brought Annie home he called Paci, told him the family
+> could no longer service the balance, and asked him to *pretend to be in
+> the process of filing an eviction* if Annie called. Paci agreed. Dan
+> then told Annie the eviction was punishment for her having been sick in
+> the hallway that night, stopped paying new rent for two months while
+> letting the balance grow on a debt he had already decided not to pay,
+> and used the manufactured deadline to move her back to Uniontown.
+> Annie called the landlord, her parents called the landlord, and both
+> calls were answered inside the performance. **She never found out.**
+> The capture is also explicit that some messages were deleted at the
+> time to keep the plan from her; the Paci thread (`+16314558185`)
+> carries **zero rows between 2024-08-18 10:22 and 2025-02-01 07:26**, a
+> 167-day silence spanning the entire setup **[RAW-CSV,
+> raw/self/message-csv, local time, both directions]**, and the two rows
+> that resume it — an answer with no surviving question ("Do it about
+> 9"), then Dan thanking the landlord *for help* twenty-eight minutes
+> later — are the only acknowledgment of the arrangement left in the
+> record.
+>
+> **What this does and does not change.** The debt is real; the $10,000
+> is real; Paci's patience really had run out, and the operator's own
+> account concedes the eviction was probably coming anyway once Annie
+> needed a new job. What is withdrawn is the causation and the moral
+> shape. Dan's stated purpose was not to punish her but to force the
+> household out of a status quo he thought was killing both of them — the
+> funded-apartment offer above is step six of the same written plan, and
+> he meant it. That does not make the method something other than what it
+> was, and the record already holds a smaller one of the same species: the
+> January 2026 "Whisk" psyop, a fabricated anonymous warning Dan sent to
+> test her reaction. What is new here is scale and recruitment. Whisk was
+> a single fabricated artifact, authored alone, and Dan told her he was
+> sending it before he sent it; the eviction ran for two
+> months, required a cooperating outsider who knowingly lied to Annie and
+> to her parents on Dan's behalf, and was never disclosed at all. The page's central finding — that the
+> gaslighting was worse than the affair, and that she was its author —
+> stands unmoved, because it rests on the autumn 2024 record and the
+> terminal phase, both of which are independent of this. But the record
+> can no longer say that deception in this relationship ran in one
+> direction only, and any future claim that it did should be read against
+> this block.
 
 ## Sixteen months in Uniontown: the machinery of staying
 
@@ -23138,7 +23720,9 @@ On June 1, 2026, a group-chat confrontation ended the structure for good
 the relationship with Tuquick that Annie had left Dan for, and a
 defamation campaign — false rape and "junkie" allegations circulated
 through their shared peer network during the same months as her private
-written denials. Her exit line: "Goodbye forever… sic semper lupanis." A
+written denials. The night's last word was Dan's, at 00:27:49: "Goodbye
+forever. This was not how it should have ended but. / sic semper
+lupanis." Annie sent nothing after it. A
 final message on June 5 was the record's only unprompted acknowledgment
 of any kind: "Daniel, i just want to say that i am extremely sorry." Two
 weeks later, independent validation arrived from an unexpected direction:
@@ -23146,6 +23730,47 @@ Tuquick, who had defended her forcefully on June 1, defected and called
 her, unprompted, "a compulsive liar with a drug addiction" — completing
 in fourteen days a distortion cycle that had taken Dan a decade to
 escape.
+
+> **CORRECTED [2026-08-13] — "sic semper lupanis" is Dan's line, not
+> Annie's, and Annie has no exit line at all.** This page previously read
+> *"Her exit line: 'Goodbye forever… sic semper lupanis.'"* — presenting
+> the closing words of June 1 as Annie's severance of the relationship.
+> They are Dan's. Verified directly against the deep export
+> **[RAW-CSV]** `imessage_export_deep.csv` (186,671 rows; the DATE/TIME
+> column is **UTC**), message GUID `EDE2A8E6-8DE0-4380-A55A-2A871991969C`:
+> `2026-06-01 04:27:49 UTC` = **`2026-06-01 00:27:49 America/New_York`**,
+> `SENT OR RECEIVED = Sent`, `HANDLE = Me`, `CHAT NAME = +12124702449`,
+> `IS GROUP CHAT = No`. `HANDLE == 'Me'` is outbound, and the row sits in
+> the dyad rather than the group chat, at the end of an unbroken run of
+> four outbound messages beginning 04:22:46 UTC — the same run that
+> contains "I saved you from fucking DYING…", already correctly
+> attributed to Dan on this page and on
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]].
+>
+> **How the inversion happened.** The verdict page's own citation string
+> for this row (`dan-annie-fallout-verdict.md:109`) reads
+> `2026-06-01 00:27:49 | Sent (Received by Dan) | +121****2449`. The
+> direction column in these exports is written from **Dan's** point of
+> view, so "Sent" means Dan sent it; the parenthetical "(Received by
+> Dan)" is a gloss added by an earlier pass that had already decided the
+> line was Annie's and reconciled the column to that decision rather than
+> to the export's schema. Every later page inherited the attribution
+> without re-reading the row. A semantic check points the same way and
+> should have been run at the time: *sic semper lupanis* parodies *sic
+> semper tyrannis*, and its noun (`lupa`, Latin slang for a prostitute)
+> makes the phrase an insult directed **at** its recipient — natural as a
+> parting shot, incoherent as a self-description.
+>
+> **What it changes.** The June 1 account of what was confirmed that
+> night — the Tuquick relationship, the defamation campaign — is
+> untouched; those rest on other rows. What changes is the closure's
+> shape. The wiki had one apparent instance of Annie declaring an ending,
+> and it was Dan's. That makes the "zero explicit severance signals"
+> finding below **stronger, not weaker** — the single counterexample the
+> record appeared to hold was a misread direction column — subject to the
+> coverage caveat in the scope re-check that follows it. It also removes the last support for
+> reading June 1 as her exit. She stopped answering; he ended it; and
+> fifty-two days later he answered an email about the dog.
 
 **NEW [2026-08-10]: what else was collapsing at the same time.** A Grok
 session Dan ran in the days around the severance — dated internally to
@@ -23310,7 +23935,10 @@ feel that way."* He then asks for the statement, directly and repeatedly,
 across a full day. **She still does not make it.** Her nearest approach is
 its inverse, at 00:02 on July 29: "Always have. Always fucking will." Eleven
 years and a hundred and twenty-seven declared exits, and the count of
-explicit severance signals from Annie remains zero.
+explicit severance signals from Annie remains zero across the
+41,073-message dual-handle export (see the scope re-check below); his own
+statement that she has "never once said it" is the independent testimony
+covering the handles that export does not reach.
 
 **And she made one repair.** On August 2 Annie walked to Dan's house —
 declining the meeting point they had arranged, leaving him waiting on a
@@ -23345,6 +23973,53 @@ going to receive — "the exit was never through the verdict," the final
 audit records. "It was through the door." Its own closing word, written
 as of the last available entry: "still."
 
+> **RE-CHECKED [2026-08-13] — the zero holds, but it is a zero over an
+> export, not over Annie.** "Zero explicit severance signals" is an
+> **absence** claim, and an absence is only ever as wide as the corpus it
+> was searched in. The sweep that produced it read
+> `raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv`:
+> **41,073 received messages** across two of Annie's five known handles
+> (+17244346811 = 31,177 and +12124702449 = 9,896; direction column is
+> from Dan's POV, so *received* = her inbound; timestamps already local)
+> **[RAW-CSV, re-counted directly this pass]**. Against **50,332**
+> in-window received messages across all five handles, that is **81.6%
+> coverage** and **9,259 messages never searched** **[DERIVED, export
+> audit 2026-08-13]**.
+>
+> The unswept remainder is not a rounding error and it is not redundant.
+> It sits on the alternate number **+17249204125** (4,812 received
+> **[RAW-CSV]**, the 2018–2020 logistics thread this page's numbers table
+> already lists) and on the two email handles **annieulmr@aol.com** and
+> **alulmer28@gmail.com**, and it is **0% duplicate** of the swept pair —
+> these are distinct rows, not the same conversation arriving twice. It
+> also lands exactly where an unexamined severance would be most
+> consequential: dated-line counts in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt` (both directions,
+> local time) put 15,789 of the AOL handle's 16,019 lines in **2016** and
+> 2,337 of the Gmail handle's 2,800 in **2020**, with the alternate
+> number spanning 2018–2020 **[DERIVED]**. The swept pair is thickest in
+> the years the absence is least surprising; the gap is thickest in 2016
+> and 2019–2020, which include the Train Plan crisis — the one pre-2025
+> event on this page where an ending was plausibly on the table.
+>
+> So the finding is restated with its scope attached: **across the
+> 41,073-message dual-handle export, Annie never issues an explicit
+> severance signal.** That is still the strongest quantitative fact on
+> this page, it is unaffected by the 2026-08-13 correction above (the one
+> apparent counterexample turned out to be Dan's line), and Dan's own
+> July 28, 2026 testimony — that she has "never once said it" across
+> eleven years — is independent testimony pointing the same way. But the
+> claim should not be written as a fact about Annie's messages generally
+> until the sweep is widened, and it is cheap to widen: the file
+> `raw/self/message-csv/imessage_7244346811+7249204125+2124702449_both_all_now.csv`
+> is already on disk, carries **45,885 received / 49,182 sent**
+> **[RAW-CSV, direct count this pass]**, and would raise coverage from
+> 81.6% to **91.2%** with no new export. Only the two email handles would
+> remain outside. **Prediction:** the widened sweep returns zero as well;
+> a single explicit severance signal found in those 9,259 messages would
+> falsify the strong form of the attachment-model claim this page
+> supplies to [[wiki/mind/concepts/attachment-model]].
+
 > **REVISED [2026-07-13]:** an earlier pass at this page gave Annie's
 > August 2025 GPS removal a "dual reading," crediting her surveillance
 > grievance against Dan's pre-affair NYC monitoring. The Corrective
@@ -23372,6 +24047,7 @@ inside ([[wiki/self/chats/gemini-18]]).
 |---|---|
 | Full record, all platforms (Nov 28 2015 – Mar 16 2026) | 126,683 messages (Dan 57,696 / Annie 68,987) |
 | iMessage dual-handle archive on disk | 88,549 lines / 88,548 rows (`imessage_7244346811+2124702449_both_all_now.csv`) — re-verified by direct count: 44,513 sent / 41,073 received |
+| iMessage triple-handle archive on disk, unswept as of 2026-08-13 | 49,182 sent / 45,885 received (`imessage_7244346811+7249204125+2124702449_both_all_now.csv`, direct count) — adds the +17249204125 thread's 4,812 received to the dual-handle base |
 | Reaction pairs extracted (DANMODEL) | 39,378 |
 | Terminal-phase extract (Aug 2025–Mar 2026) | 18,236+ msgs (Dan 55.2%) |
 | Peak month | Dec 2025: 4,657 |
@@ -23412,7 +24088,7 @@ substance.
 | Self-indicting statements, total / rated "major" | 46 / 13 |
 | "Fell asleep" alibis | 24 |
 | Written denials of a third party | 2 |
-| Explicit severance signals / love affirmations | 0 / 299+ |
+| Explicit severance signals / love affirmations | 0 / 299+ — the zero is scoped to the 41,073-received dual-handle export (81.6% of her in-window inbound), not to all five handles; see the 2026-08-13 scope re-check |
 | Wellbeing checks on Dan, raw / net of perfunctory | 7 / 4 (once per 55 days) |
 | Dan's burst events (10+ unanswered messages, largest 68) | 94 |
 | Dan's exit declarations / re-engagements within 48h | 127 / 110 |
@@ -23455,6 +24131,7 @@ legal exposure for Dan — noted here for completeness.
 | 2024 (autumn) | Eli affair active and concealed; Dan's accurate suspicions gaslit |
 | 2024-10-23/31 | Tom incident (revised from coercion to exhaustion-within-consent) |
 | 2025-01-09 | Eli's self-introduction text; physical discovery |
+| 2025-01/02 | Dan arranges the eviction with Paci and conceals it from Annie (operator capture, 2026-08-13); Paci fields her call and her parents' call inside the performance |
 | 2025-02 | PA return; Annie ends cohabitation, declines funded-apartment offer |
 | 2025-03 | Annie's written admission of lying and cheating (self-directed pronouns) |
 | 2025-08 | GPS sharing removed; terminal phase begins |
@@ -23517,6 +24194,24 @@ The escort-work economics beyond the three documented 2019–2020 client
 threads — total volume, rates over time, how much of it Dan knew about in
 real time versus reconstructed later — aren't mapped. The DUI's
 disposition past the preliminary hearing is unknown.
+
+Two gaps open with the 2026-08-13 pass. **The severance sweep is 81.6%
+complete**: 9,259 of Annie's 50,332 in-window received messages — the
++17249204125 thread and both email handles, concentrated in 2016 and
+2019–2020 — have never been searched for a severance signal, and the
+triple-handle export that would close most of that gap
+(`imessage_7244346811+7249204125+2124702449_both_all_now.csv`, 45,885
+received) is on disk and unread. Nobody should quote the zero without
+the scope until that sweep is run. **And the staged eviction has a
+missing middle**: the operator states messages were deleted to keep the
+plan from Annie, and the Paci thread's 167-day hole (2024-08-18 to
+2025-02-01) is consistent with that, but the deletion is inferred from an
+absence plus testimony rather than observed. What Dan actually said to
+Paci, what Paci said to Annie's parents when they called, and whether
+anything about the arrangement was ever said to Annie in a channel that
+survived, are all unrecoverable from `raw/` as it stands. If a Paci-side
+record or an older device backup ever enters the corpus, those rows are
+the first thing to look for.
 
 Two pregnancy references sit at very different confidence levels. One,
 surfacing only in two chat-analysis sources that elsewhere required
@@ -30608,15 +31303,16 @@ PAGE: wiki/people/john-paci.md
 ---
 domain: people
 page_type: entity
-status: closed
+status: stable
 knowledge: mixed
 date_created: 2026-08-10
-date_modified: 2026-08-10
+date_modified: 2026-08-13
 date_range_start: 2019-02-01
 date_range_end: 2025-07-25
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/captures/2026-08-10_014938_307-76th-cast-roach-bombing.md
+  - raw/self/captures/2026-08-13_john-paci-staged-eviction-operator-decode.md
 tags: [nyc-era, housing, legal]
 infobox:
   name: "John Paci"
@@ -30626,15 +31322,18 @@ infobox:
   relationship_to_dan: contact
   role: "Landlord and building owner, 307 E 76th St"
   first_contact: 2019-02-01
-  handles: ["+12394951574", "+16313513671", "+16314558185", "+16312588085", "+19173631636 (building group text)"]
-  known_for: "Landlord for the entire six-year 307 E 76th St tenancy; the elderly Italian owner the operator describes as 'probably NYC's sweetest and nicest landlord,' and the addressee of the final $10,000 debt still owed at move-out"
+  handles: ["+163****8185 (direct line)", "+163****8085 (building notices signed 'John PACI')", "+123****1574", "+163****3671"]
+  known_for: "Agreed in late January 2025 to perform an eviction Dan asked him to fake, and held the story against verification calls from both Annie and her parents"
 connections:
   - page: wiki/places/307-e-76th-st
     type: component-of
-    claim: "Paci owned and personally managed the building for the address's entire run — leasing it directly, scheduling exterminators himself, and collecting rent and debt payments into at least mid-2025."
+    claim: "Paci owned and personally managed the building for the address's entire run — leasing it directly, scheduling exterminators himself, collecting rent and debt payments into at least mid-2025 — and the address's final two months of unpaid rent were not passive accumulation but a deliberate capital-raising strategy Dan ran while Paci was performing the eviction Dan had asked him to perform."
   - page: wiki/people/annie-ulmer
     type: co-occurs
-    claim: "Present at the start of the tenancy ('he's the one who stuck his neck out for us and held the apartment'), at its 2020 pest crisis, and at its 2025 debt aftermath — still texting Annie in July 2025, four months after Dan left the city."
+    claim: "Paci is the one third party Annie and her parents independently telephoned in early February 2025 to check whether the eviction was real; he told both of them it was, which is the reason Annie never learned Dan had arranged it."
+  - page: wiki/timeline/periods/feb-apr-2025-return-and-rupture
+    type: causes
+    claim: "Paci's agreed performance of a landlord eviction is the proximate mechanism of the February 2025 exit from New York — what that period page called a 'forced exit' was his half of an arrangement Dan initiated by phone in January."
 ---
 
 # John Paci
@@ -30642,39 +31341,204 @@ connections:
 John Paci was the landlord and owner of [[wiki/places/307-e-76th-st|307
 E 76th St]] for the entire six-year tenancy Dan and
 [[wiki/people/annie-ulmer|Annie]] held there (February 2019 – February
-2025) and personally managed the building himself — leasing, exterminator
-scheduling, rent and debt collection all ran through him directly rather
-than a management company. The operator's own characterization, offered
-unprompted in a 2026-08-10 capture — "elderly i-talian owner of the
-building and probably NYC's sweetest and nicest landlord" — is consistent
-with the corpus's own record of him: Annie's first description of him,
-September 2020, calls him "a GREAT guy," and Dan's own gloss the same day
-— "he's the one who stuck his neck out for us and held the apartment when
-we found it" — describes someone who took a chance on them rather than a
-purely transactional owner.
+2025), and the one person outside the household who knew that the
+February 2025 eviction was not real. In late January 2025, two or three
+weeks after the [[wiki/timeline/events/eli-incident|Eli discovery]], Dan
+telephoned him with a partly-false story and asked him to *pretend* to be
+filing an eviction if Annie called. Paci agreed. Annie called. Her
+parents called separately. He told both of them it was done — and Annie
+never found out. He is therefore not, as this page previously had him,
+simply a patient creditor who got stiffed for $10,000; he is a
+co-performer in the single most consequential piece of stage management
+in the corpus, and the debt he was left holding was run up on purpose
+while he was performing it.
 
-That warmth did not prevent him from being owed a substantial amount of
-money when the tenancy ended. By 2023 the couple had accumulated debt
-against him large enough to require scheduled payments ($650 sent in
-November 2024, "to tell John"). On March 5, 2025, weeks after Dan's
-departure, Paci wrote to close the account: "Dan, after paying to have
-the remainder of the stuff you left removed, and deducting the security
-deposit. I rounded the balance down to an even $10,000.00. Let me know
-when you can begin to pay it down. John." He remained in contact with
-Annie afterward — a building-wide group text under his name recurs
-(collecting October rent for the building in 2023, scheduling an
-exterminator for the building in December 2024), and Annie's own annoyed
-reaction to a Paci text in July 2025 ("Fucking John Paci just texted
-me") suggests the debt, or something adjacent to it, was still an active
-subject four months after Dan left New York.
+> **REVISED [2026-08-13]:** the version of this page written on 2026-08-10
+> described a warm, long-suffering landlord and an eviction that simply
+> happened to him and to his tenants. The eviction was staged at Dan's
+> request. The revision is additive, not a reversal: every warmth claim
+> below survived checking and now reads as *more* remarkable, because
+> agreeing to play the villain for a tenant who owed you five figures is a
+> larger favor than holding an apartment for one. Source of the decode is
+> a single operator capture, `raw/self/captures/2026-08-13_john-paci-staged-eviction-operator-decode.md`
+> — [OPERATOR] throughout — but it is corroborated at four independent
+> points in the primary message record, set out under "The corroboration"
+> below.
+
+The operator's own characterization, offered unprompted in a 2026-08-10
+capture — "elderly i-talian owner of the building and probably NYC's
+sweetest and nicest landlord" [OPERATOR] — is consistent with the
+corpus's own record of him. Annie's first description of him, September
+2020, calls him "a GREAT guy," and Dan's gloss the same day — "he's the
+one who stuck his neck out for us and held the apartment when we found
+it" — describes someone who took a chance on them rather than a purely
+transactional owner [RAW-DUMP]. He ran the building himself: leasing,
+exterminator scheduling, rent and debt collection all went through him
+directly rather than through a management company, and building-wide
+notices went out over his name and signature ("Exterminator will be at
+307 on Monday morning. John PACI," 2024-12-08 15:19 ET, from
+`+16312588085`) [RAW-DUMP].
+
+## The arrangement, January–February 2025
+
+The plan, as the operator sets it out, had seven steps; Paci appears in
+the first two and is load-bearing for all of them [OPERATOR]:
+
+1. Dan called Paci and told him the apartment had to be vacated because
+   his father had suffered a TBI and he would need to travel back
+   constantly. **The TBI was true; the need to travel constantly was a
+   lie.**
+2. Dan asked Paci to help by *pretending to be in the process of filing
+   an eviction* if he got a call from Annie, on the stated logic that it
+   would speed everyone's exit.
+3. Dan then told Annie that Paci was evicting them because she had
+   vomited in the hallway the night Eli brought her home. (The vomiting
+   was true; the causal link to an eviction was invented.)
+4. Dan stopped paying new rent for the final two months and banked the
+   money as moving capital, knowing the balance would never be paid.
+
+Paci agreed to step 2 and executed it. Per the capture, Annie called
+him, and then her *parents* called him separately — two independent
+verification attempts by people with every reason to test the story —
+and he told them it was cooked [OPERATOR]. Dan's own retrospective
+judgment is that calling Paci rather than improvising was what saved the
+plan: "thank god i actually called him instead of just winging it because
+not only did annie call but she had her PARENTS call to see what could be
+done."
+
+An important qualification the record forces, which the capture does not
+make: **the vacancy itself was real and Paci had money riding on the
+date.** On 2025-02-03 20:39 ET he wrote "Give me a call please. Are we
+still good for this 8th. I I want to bring my guys in on 9th" [RAW-DUMP]
+— contractors booked against a February 8 move-out. What was performed
+was the *eviction threat*; the departure was genuinely agreed and
+genuinely scheduled, and when it slipped he was genuinely annoyed
+("Ok , but that will put my plans on hold. Let me know as soon as
+possible," 2025-02-04 20:38 ET). His 2025-02-04 09:53 ET line — "I guess
+if I don't hear from you I will have to start the eviction. Does it have
+to come to this ?" — is best read as both things at once: a real
+landlord's real frustration at a slipping date, written in the register
+he had already agreed to write in. That dual character is exactly why it
+survived as evidence: it reads perfectly as a genuine threat, which was
+the point.
+
+The plan executed completely and failed anyway. Annie refused to stay in
+Pennsylvania [OPERATOR], and Dan said so in writing four days before the
+move: "We are most likely going to be back here to stay again before too
+long. Annie doesn't want to leave" (2025-02-19 20:23 ET) [RAW-DUMP].
+
+## The corroboration
+
+Four independent structures in the primary record support the decode.
+All counts below are from `raw/self/dox-scan/all_imessages_complete_dump.txt`,
+which is already America/New_York local time; the dyadic thread with
+`+16314558185` only, both directions, 26 rows total (13 Sent, 13
+Received), spanning 2024-03-04 to 2025-07-25 [RAW-DUMP].
+
+| Evidence | Row / figure | Reading |
+|---|---|---|
+| The setup left no texts | Zero rows between 2024-08-18 10:22 and 2025-02-01 07:26 — **166 days** (the capture's "167" rounds up) | The arrangement was made by telephone, as the capture says, and as Dan's own words to Annie confirm ("I am calling John back now," 2025-01-11 15:35 ET) |
+| An answer with no question | 2025-02-01 07:26 Received, "Do it about 9" | Answers an outbound message that is not in the record |
+| Dan thanks his own evictor | 2025-02-01 07:54 Sent, "Sounds good.  Thanks for the help" | 28 minutes later. The surviving acknowledgment of the arrangement — nobody thanks a landlord *for help* mid-eviction |
+| Dan names the deal to Annie | 2025-02-04 18:06 ET Sent to Annie, "John is going to go to collections!!! That was part off the deal I made with him" | Said out loud, to the person it was hidden from, and survived because it reads as a payment plan |
+
+Two further rows tie the verification calls to the record. On 2025-02-05
+15:15 ET Annie writes "My parents are willing to do that. I dont know if
+John will let it happen" — Paci is the gatekeeper in her understanding of
+the situation, which is what the performance was for [RAW-DUMP]. And on
+2025-02-06 10:00 ET Dan wrote *to Paci*: "I had to call her parents and
+have them drive all the way up to get her to see some sense. At least
+they will be able to take the first load of stuff back with them"
+[RAW-DUMP] — Dan telling his co-performer that he summoned the parents,
+one day after telling Annie the opposite ("what you made them come all
+the way up here to figure out," 2025-02-05 15:19 ET). The two accounts
+cannot both be true; the Paci-facing one matches the capture and is the
+one written to the person there was no reason to mislead.
+
+The `+16314558185` thread is also thin on Dan's side in the 2026 deep
+whole-device export (`/Users/daniel/Desktop/imessage_export_deep.csv`,
+timestamps UTC, converted to America/New_York here): 13 rows for this
+thread, **all Received, zero Sent**. That export independently reproduces
+the same 2024-08-18 → 2025-02-01 silence, so the gap is a property of the
+record and not of one file [DERIVED].
+
+## The debt
+
+By 2023 the couple had accumulated a balance against him large enough to
+require scheduled payments ($650 sent in November 2024, "to tell John")
+[RAW-DUMP]. Annie's last statement of having paid rent is 2025-01-05
+("I paid all of the rent"); no rent payment to Paci appears anywhere in
+the dump after that date [DERIVED — absence of evidence in one file, not
+proof of non-payment], which is consistent with step 4 of the plan. On
+2025-03-05 10:42 ET, two weeks after the move, Paci wrote to close the
+account: "Dan, after paying to have the remainder of the stuff you left
+removed, and deducting the security deposit. I rounded the balance down
+to an even $10,000.00. Let me know when you can begin to pay it down.
+John." Four months later he was still asking — "Any chance of collecting
+some back rent?" (2025-07-25 11:18 ET) — and Annie's reaction to a Paci
+text the same day ("Fucking John Paci just texted me," 2025-07-25 11:25
+ET) shows the debt remained an active and unpleasant subject long after
+the household dissolved [RAW-DUMP]. Neither of the July 25 messages has a
+reply in the record.
+
+> **CORRECTED [2026-08-13] — `+19173631636` is not Paci's handle and the
+> "building-wide group text under his name" was not his.** The 2026-08-10
+> version of this page listed `+19173631636` among Paci's handles,
+> annotated "(building group text)," and cited it as evidence that Paci
+> collected October 2023 rent for the building by text. The thread on that
+> number is 57 rows spanning 2019-03-01 to 2023-12-27 and belongs to
+> **Jim** — Dan opens it "Hey jim it's Dan Frank" (2019-03-01 18:20 ET) —
+> who refers to Paci in the third person throughout ("John is painting
+> another apt in the building," 2019-03-02 11:59 ET; "John needs to get
+> into the apt," 2020-05-30 13:57 ET). The rent line the old version
+> attributed to Paci was written *about* him: "just a friendly reminder
+> that John Paci will be at the building tomorrow morning. He will be
+> working to help our new neighbor for apt 16 move in and also collecting
+> the rent for October" (2023-09-30 18:35 ET, Received from
+> `+19173631636`) [RAW-DUMP]. Paci collected October rent **in person**.
+> This is the identity trap `STYLE_GUIDE.md` §2 warns about: a page can
+> read perfectly while attributing one man's messages to another. See
+> [[wiki/people/jim-blanchard]], whose role at this address the same
+> thread now substantially corroborates.
+
+## What this predicts
+
+If the decode is right, three things should hold. First, **no message
+Dan ever sent Annie contains the word "eviction"** — a search of the dump
+across 2025-01-09 to 2025-03-10 returns exactly one row containing it,
+Paci's own 2025-02-04 line, and none to Annie [DERIVED]; the story was
+delivered by voice, where it could not be re-read. Second, **the money
+should be visibly short rather than visibly saved** — the final week
+shows the electricity cut off (Annie, 2025-02-04 15:57 ET: "Please can
+you call coned. See what the minimum is to get it back on") and no
+functioning driver's licence or credit card between them to rent a truck,
+which is what banked cash looks like when it is being spent on daily
+supply rather than logistics. Third, **Paci's own later messages should
+show no awareness of having been used**, and they do not: the March 5
+accounting is businesslike and the July 25 follow-up is mild. The decode
+would be falsified by any recovered message in which Paci refers to the
+eviction as fictitious, by an Annie-side message showing she knew, or by
+a rent receipt dated between 2025-01-05 and the move-out.
 
 ## Gaps
 
-Whether any part of the final $10,000 balance was ever paid down is
-unknown — no correspondence past July 2025 was located. Paci's full name,
-age, and any other properties he owns or manages are undocumented; the
-"Jr" in one contact-card entry ("John Paci Jr") is unexplained and may
-indicate a family business rather than sole ownership.
+Whether any part of the final $10,000 balance was ever paid is unknown —
+no correspondence past 2025-07-25 was located, and neither July 25
+message was answered. **Nothing in Paci's own voice confirms the
+arrangement**; his half of it lives entirely in telephone calls and in
+Dan's testimony, and the single strongest artifact — "Sounds good.
+Thanks for the help" — is suggestive rather than dispositive on its own.
+The outbound message that "Do it about 9" answers is missing, and it is
+not established whether it was deleted or simply never captured by the
+export. Paci's full name, age, and any other properties he owns or
+manages are undocumented; the "Jr" in one contact-card entry ("John Paci
+Jr") is unexplained and may indicate a family business rather than sole
+ownership. Two of the handles carried on his contact card
+(`+12394951574`, `+16313513671`) return zero rows in either export, so
+their attribution to him rests on the card alone [UNRESOLVED]. The
+`first_contact: 2019-02-01` in the infobox predates the earliest recovered
+Paci-thread row (2024-03-04) by five years and comes from the lease date,
+not from correspondence.
 
 
 ========================================================================
@@ -34731,14 +35595,45 @@ alone), roughly balanced in direction. It includes:
   — not the brief, guarded register the prior version of this page
   described as the whole relationship.
 
-**2021–2022: near-total silence — but this matches a corpus-wide pattern,
-not a Rick-specific one.** The channel goes almost silent (21 messages
-combined across both years, against hundreds per year before), consistent
-with the broader, already-documented 2021–2022 near-silence across Dan's
-entire message corpus (`CONTEXT_CORE_EXPANDED.md` §6: "uncharacterized; do
-not speculate"). Nothing in the Rick channel specifically explains this
-gap; it should be read as an instance of the general pattern, not a
-separate rupture.
+**2021–2022: the channel appears to go silent, and the appearance is an
+export artifact — there is no Rick-specific gap here, and there is no
+corpus-wide behavioral one either.** The record shows 21 messages combined
+across both years against hundreds per year before.
+
+> **CORRECTED [2026-08-13] — the reasoning here was right in its conclusion
+> and wrong in its premise, which matters because the premise was being
+> reused.** The prior version read this drop as "consistent with the
+> broader, already-documented 2021–2022 near-silence across Dan's entire
+> message corpus," and concluded it "should be read as an instance of the
+> general pattern, not a separate rupture." **There is no general pattern.**
+> The 2021–2022 corpus near-silence is not behavior at all: both
+> independent extractions carry a continuous hole across the window —
+> `all_imessages_complete_dump.txt` holds zero rows of *any* kind between
+> 2021-04-27 and 2023-08-09, 833.2 days unbroken — while the Google
+> location record logs 806 place visits in 2022 alone and the Au Za'atar
+> job ran continuously straight through it
+> ([[wiki/self/message-corpora/master-message-dump]]).
+>
+> **The conclusion survives and is in fact strengthened.** The point of the
+> paragraph was that nothing in the Rick channel explains the gap and that
+> it is not a separate rupture. That now holds on stronger grounds: the gap
+> is not *Dan's* behavior either. It is a device or restore boundary, and
+> reading anything at all into the Rick channel's 2021–2022 volume — warmth,
+> withdrawal, or continuity — is unsupported in both directions. The
+> surviving 21 messages are those that fall outside the hole's edges, not a
+> measurement of a quiet relationship.
+>
+> Two consequences for this page. The **February 2025 one-sided silence**
+> below is untouched by any of this and remains the page's real finding: it
+> is dated, it is inside a window both files cover densely, and Rick's
+> unanswered messages are physically present in the record — an absence of
+> Dan's replies among Rick's surviving inbound, which is a categorically
+> different observation from a window where nothing from anyone survives.
+> And the **2023–2024 "real resumption"** below needs its date read
+> carefully: the corpus's first row of any kind after the hole is
+> 2023-08-09, so the resumption's apparent start is the export's start.
+> Whether the correspondence actually resumed in August 2023 or had been
+> running unrecorded since 2021 is not answerable from this source.
 
 **2023–2024: real resumption, genuinely warm at points.** 44 messages in
 2023 (including the still-unresolved "wedding" thread, above), 130 in
@@ -37736,7 +38631,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-24
-date_modified: 2026-08-09
+date_modified: 2026-08-13
 date_range_start: 2026-05-31
 date_range_end: 2026-06-16
 sources:
@@ -37828,7 +38723,7 @@ The background-check capture (FOREWARN, sourced from Pennsylvania court database
 
 Tuquick served as the attack vector during the group chat confrontation, demonstrating the active defamation campaign running in Annie's peer network.
 - Hurled extreme insults at Dan, centering on "junkie," "cuck," and "molester" framing.
-- Acted as Annie's proxy and protector during the escalation that resulted in Annie's final "sic semper lupanis" text.
+- Acted as Annie's proxy and protector during the escalation that resulted in Dan's final "sic semper lupanis" (**corrected 2026-08-13** — previously attributed to Annie) text.
 - Dan attempted to engage him on geopolitical topics (Israel/Palestine) to derail the hostility, but Tuquick remained focused on the attack.
 
 > **REVISED [2026-07-20]:** A separate NotebookLM-style podcast dramatization
@@ -39431,12 +40326,15 @@ title: "307 E 76th St (Manhattan)"
 status: closed
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-10
+date_modified: 2026-08-13
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/captures/2026-08-10_014938_307-76th-cast-roach-bombing.md
+  - raw/self/captures/2026-08-13_john-paci-staged-eviction-operator-decode.md
+  - raw/self/message-csv/imessage_export_deep_20260813.csv
+  - "raw/self/location/2026-06-22-ingest/"
 tags: [nyc-era, housing, legal]
 connections:
   - page: wiki/people/menore
@@ -39444,16 +40342,19 @@ connections:
     claim: "76th Street between 1st and 2nd Avenue was Menore's primary service coordinate for years — the residence and the delivery zone are the same address."
   - page: wiki/people/sam
     type: co-occurs
-    claim: "Sam's cannabis deliveries ran to the same door in 2019–20 — 'in front of 307,' apartment #17 — making the address the shared coordinate of two parallel delivery operations."
+    claim: "Sam's cannabis deliveries ran to the same door in 2019–20 — 'in front of 307,' apartment #17 — making the address the shared coordinate of two parallel delivery operations, and the delivery notes are part of the 22-record corroboration that the unit was #17 rather than the 6C the 2026-08-10 capture's target field named."
   - page: wiki/people/annie-ulmer
     type: evidences
-    claim: "This is the address behind two 2026-08-10 corrections to Annie's own page: the September 2020 Train Plan crisis had a mundane cause (a roach-bombing evacuation), and the landlord debt that page once called 'paid down' was still a full $10,000 owed at move-out."
+    claim: "This is the address behind three corrections to Annie's own page: the September 2020 Train Plan crisis had a mundane cause (a roach-bombing evacuation), the landlord debt that page once called 'paid down' was still a full $10,000 owed at move-out, and the eviction that ended the tenancy was arranged by Dan with the landlord rather than imposed on the household — which is why Annie's telephone verification of it, on 2025-01-11, returned the answer Dan had already arranged for her to hear."
   - page: wiki/people/john-paci
     type: contains
-    claim: "Paci owned and personally managed the building for the address's entire six-year run (Feb 2019–Feb 2025) and for at least several months after — the exterminator scheduler, the rent collector, and the final creditor."
+    claim: "Paci owned and personally managed the building for the address's entire six-year run (Feb 2019–Feb 2025) and for at least five months after — exterminator scheduler, rent collector, final creditor — and in late January 2025 he agreed to Dan's telephoned request to perform an eviction he was not actually filing, which makes the address the only property in the corpus whose tenancy was ended by a staged act of its own landlord."
   - page: wiki/people/jim-blanchard
     type: co-occurs
     claim: "Named by the operator as the building's super/real estate agent; the only independent corpus trace is a single November 2019 message placing Dan in his apartment, which does not itself establish the role — recorded as operator testimony pending stronger corroboration."
+  - page: wiki/timeline/periods/feb-apr-2025-return-and-rupture
+    type: precedes
+    claim: "The address's final two months are the manufacturing stage of the period that follows it: the rent deliberately withheld here from January 2025 onward is the moving capital that funded the return to Pennsylvania, and the 'shot clock' that period page inherited from Dan's own retrospective account was set by Dan, not by the building."
 ---
 
 # 307 E 76th St (Manhattan)
@@ -39470,7 +40371,24 @@ final autumn — the concealed [[wiki/people/eli|Eli]] affair whose January 2025
 the household ([[wiki/timeline/events/eli-incident]]): Annie was found
 unconscious with the coworker in a building lobby ~80 minutes after her
 shift, location sharing off. Dan left the address, and New York, on
-February 22, 2025.
+February 22, 2025 — under an eviction he had asked the landlord to
+pretend to file.
+
+> **REVISED [2026-08-13]:** every previous version of this page treated the
+> end of the tenancy as something that happened *to* the household — a
+> balance that grew until the landlord ran out of patience. It was
+> arranged. In late January 2025 Dan telephoned
+> [[wiki/people/john-paci|John Paci]] and asked him to pretend to be
+> filing an eviction if Annie called; Paci agreed, Annie called, her
+> parents called separately, and both were told it was real
+> ([[wiki/people/john-paci]] carries the full decode). Nothing about the
+> $10,000, the roaches, or the six years of tenancy is withdrawn. What
+> changes is the causal direction of the last two months: the debt's final
+> increment was a strategy, not an accident, and the address was
+> vacated on a schedule Dan set. Source of the decode is a single operator
+> capture, `raw/self/captures/2026-08-13_john-paci-staged-eviction-operator-decode.md`
+> — [OPERATOR] — corroborated in the primary message record at the points
+> set out below.
 
 > **EXPANDED [2026-08-10]:** this page previously stood at four paragraphs
 > and named no one connected to the building itself — the landlord, the
@@ -39481,18 +40399,64 @@ February 22, 2025.
 > against the primary message corpus, in more precise and more consequential
 > form than the capture itself remembered — see below.
 
+## How the tenancy ended
+
+The apartment did not evict the household; the household evicted itself
+through the apartment. Between roughly January 10 and February 1, 2025,
+Dan called Paci, told him the family had to vacate because his father had
+suffered a TBI and he would be travelling back constantly — the TBI true,
+the constant travel invented — and asked him, as a favour, to say he was
+filing an eviction if Annie telephoned to check [OPERATOR]. Paci agreed.
+Dan then told Annie the eviction was Paci's own decision, provoked by her
+having vomited in the building hallway on the night Eli brought her home.
+
+The address is where that performance is visible, because the household's
+two occupants were getting different accounts of the same building. On
+2025-01-11 15:35 ET Dan wrote to Annie "I am calling John back now. I'm
+not asking for extra time. I need to know TODAY what you want - you want
+to be with me or you want to stay in New York" — the landlord call and
+the relationship ultimatum in a single message [RAW-DUMP]. Twelve minutes
+later Annie replied "I'll be contacting John as well bc I was not aware
+of this having to be out by feb 1," and three minutes after *that* Dan
+answered "I was on the phone with him as you sent that" and "And told him
+you would also be calling him to confirm" [RAW-DUMP]. That last line is
+the strongest artifact the address produces: Dan telling Annie, in
+writing, that he had pre-briefed the landlord for her verification call,
+in a register where it reads as diligence.
+
+The pattern holds for the rest of the tenancy's last month. Every piece of
+information Annie received about her own home arrived through Dan. On
+2025-02-05 she asked what Paci had said four separate times — "? John
+said we had to be out"; "Can you please tell me what John said and your
+mom"; "What did John say."; "What did John say dab." — and received "Talked
+to John" and "My mom is going to come get us later next week. John said
+okay" [RAW-DUMP]. Her one independent channel to the building, the
+telephone, had already been closed by the January 11 pre-brief.
+
+The performance succeeded and the plan failed anyway. Annie refused to
+stay in Pennsylvania, and Dan said so in writing three days before the
+move, to a New York contact: "We are most likely going to be back here to
+stay again before too long. Annie doesn't want to leave" (2025-02-19
+20:23 ET) [RAW-DUMP]. Full account of the arrangement, its seven steps and
+its four independent corroborations: [[wiki/people/john-paci]]. The
+period the exit opened: [[wiki/timeline/periods/feb-apr-2025-return-and-rupture]].
+
 ## The cast
 
 **[[wiki/people/john-paci|John Paci]]** owned the building and ran it
 personally for the entire tenancy — leasing it directly ("he's the one who
 stuck his neck out for us and held the apartment when we found it," per
 Annie, September 2020), scheduling exterminators himself by text, and
-collecting rent and debt payments by name into at least mid-2025, four
+collecting rent and debt payments by name into at least mid-2025, five
 months after Dan had left. He is the addressee and signatory on the
-building's final word on the tenancy: a March 5, 2026 message rounding
+building's final word on the tenancy: a March 5, 2025 message rounding
 the couple's outstanding balance to an even $10,000 and asking Dan to
-begin paying it down (see "The debt," below). Full account at
-[[wiki/people/john-paci]].
+begin paying it down (see "The debt," below). He is also, on the 2026-08-13
+decode, the one person outside the household who knew the eviction was
+theatre — which reframes rather than contradicts the warmth the corpus
+records of him: agreeing to play the villain for a tenant already five
+figures in arrears is a larger favour than holding an apartment. Full
+account at [[wiki/people/john-paci]].
 
 **[[wiki/people/jim-blanchard|Jim Blanchard]]** is named by the operator
 as "world's worst building super/real estate agent" — a second figure,
@@ -39506,7 +40470,89 @@ super role, or a negative characterization — the sole primary trace
 predates the operator's framing of him and doesn't confirm it. Treated
 here as operator testimony about a real person whose specific role at
 this address remains unconfirmed; see [[wiki/people/jim-blanchard]] and
-its own Gaps.
+its own Gaps. A separate 57-row thread on `+19173631636` that the
+2026-08-10 pass mistakenly read as Paci's own building-wide group text
+turns out to belong to a building neighbour, "Jim," who refers to Paci in
+the third person throughout — that correction is worked in full on
+[[wiki/people/john-paci]] and substantially corroborates a Jim at this
+address, though not yet the surname.
+
+## The debt
+
+The debt is the one part of the tenancy that was real from beginning to
+end, and it is also the part whose final increment was deliberate.
+
+By 2023, Dan and Annie had accumulated a balance to Paci substantial
+enough that they were making scheduled payments against it — $650 sent in
+November 2024, for instance, explicitly earmarked "to tell John." The
+operator's own account of the arrangement is that the balance behaved
+exactly the way the payments suggest: "we owed a bunch of money, were
+paying weekly rent for a long time with additional money on it each week
+to chip away at the balance, and yet our balance continued to grow when we
+would fuck something up" [OPERATOR]. That is the passive accumulation this
+page previously described, and for roughly five years it is the whole
+story.
+
+It stops being the whole story in January 2025. Step four of the seven-step
+plan was to "spend 2 months building up any money that came in by not
+paying any new rent and adding that to the balance, knowing that i wasn't
+going to pay any of it anyways" [OPERATOR] — the withheld rent converted
+into moving capital, with the growth of the balance as an accepted cost
+rather than an unwanted result. The message record is consistent with
+that and dates its start precisely: Annie's last statement of having paid
+rent is 2025-01-05 15:40 ET ("that leaves me with barely any money left
+for the week since I paid all of the rent"), and a sweep of every record
+between 2025-01-01 and the February 22 move-out returns **no further
+rent payment to Paci in either direction** [DERIVED — scope: all 217,573
+records of `raw/self/dox-scan/all_imessages_complete_dump.txt`,
+America/New_York, both directions, all handles; absence in one file is not
+proof of non-payment, but it is the only file with trustworthy direction].
+
+The debt was never retired. On March 5, 2025 — eleven days after Dan's
+departure — Paci wrote: "Dan, after paying to have the remainder of the
+stuff you left removed, and deducting the security deposit. I rounded the
+balance down to an even $10,000.00. Let me know when you can begin to pay
+it down. John." Four months later he was still asking ("Any chance of
+collecting some back rent?", 2025-07-25 11:18 ET), and Annie's own
+reaction to a Paci text seven minutes later ("Fucking John Paci just
+texted me") is consistent with the debt remaining an active, unpleasant
+subject well after the household dissolved. Neither July 25 message has a
+reply in the record. Whether any of the $10,000 was ever paid is not
+recovered.
+
+The dyadic Paci thread that carries all of this is small: **26 records,
+13 Sent and 13 Received, spanning 2024-03-04 to 2025-07-25** [DERIVED —
+scope: `+16314558185` only, both directions,
+`raw/self/dox-scan/all_imessages_complete_dump.txt`, America/New_York].
+Six years of tenancy produced twenty-six surviving texts with the
+landlord, and none at all across the 166 days between 2024-08-18 10:22
+and 2025-02-01 07:26 — the window in which the arrangement was made
+(elapsed time, matching [[wiki/people/john-paci]]; the capture's "167"
+counts calendar dates).
+
+## Which building, which apartment
+
+The 2026-08-10 capture that produced most of the cast carries a `target:`
+field reading **"306 E. 76th Street, Apt 6C"** while its own title reads
+"# 307 E. 76th Street." Neither half of the target field survives the
+corpus, and the discrepancy is worth stating rather than silently
+normalising, because a wrong street number would break every
+location-history figure on this page.
+
+| Claim | Evidence | Reading |
+|---|---|---|
+| 307 E 76th St | 38 records in the dump, 2019-02-25 → 2024-09-12; 35 string hits in the 2026-08-13 deep whole-device export; 1,346 place-string occurrences in Google semantic location history | Governs. Attested across three independent exports and five years. |
+| 306 E 76th St | **1** record: 2019-02-24 15:37:28 ET, Sent to Suzanne Frank, "306 e 76th street, New York, ny" — one day *before* the first 307 message; zero occurrences in the deep export; 146 place-string occurrences in location history | A typo on the day of the move, plus GPS drift across a narrow street onto the even-numbered side. Not the address. |
+| Apartment 17 | 22 records, 2019-03-03 → 2024-09-12, including Dan's own opening line to the landlord — "Hey John it's Dan Frank from apartment 17" (2024-03-04 17:02 ET) — and Sam's delivery notes | Governs. |
+| Apartment 6C | **0** records in the dump; 0 in the deep export; 0 anywhere in `raw/` outside the capture itself | [UNRESOLVED] — no corpus trace at all, and no account of where the memory comes from. |
+
+So the page title stands and the unit is #17. What remains genuinely
+open is the 6C: it is not a variant spelling of anything in the record, it
+is not a prior address (the pre-2019 New York apartments have their own
+pages), and the capture gives no reason for it. The most likely readings
+are a stray memory of a different building or a mis-typed field, but
+neither is evidenced, so it is recorded here as an unexplained artifact of
+one capture rather than resolved by preference [UNRESOLVED].
 
 ## The roach bombing and the September 2020 trip to PA
 
@@ -39542,20 +40588,14 @@ converge on the same underlying fact, which is the one worth keeping:
 previously undocumented cause.** Nobody had connected the two before this
 pass.
 
-## The debt
-
-By 2023, Dan and Annie had accumulated debt to Paci substantial enough
-that they were making scheduled payments against it — $650 sent in
-November 2024, for instance, explicitly earmarked "to tell John." That
-debt was not retired. On March 5, 2025 — two weeks after Dan's
-departure — Paci wrote: "Dan, after paying to have the remainder of the
-stuff you left removed, and deducting the security deposit. I rounded the
-balance down to an even $10,000.00. Let me know when you can begin to pay
-it down. John." Annie's own reaction to a Paci text four months later
-("Fucking John Paci just texted me," July 2025) is consistent with the
-debt remaining an active, unpleasant subject well after the household
-dissolved. Whether any of the $10,000 was ever paid is not in the
-recovered record.
+That inversion is worth holding alongside the 2026-08-13 decode, because
+the two captures fail in opposite directions and the difference is
+instructive. On the roaches, the operator's *sequence* was wrong and the
+corpus corrected it. On the eviction, the corpus reads perfectly on its
+own — a landlord's threat, a tenant's apology, a balance — and only the
+operator can correct it, because the record was curated at the time to
+survive exactly this kind of reading. A capture is testimony either way;
+what varies is whether the corpus is in a position to check it.
 
 ## Location and identity record
 
@@ -39571,11 +40611,20 @@ Second Avenue) belongs to this chapter's geography.
 Jim Blanchard's actual role at this address is unconfirmed beyond the
 operator's own account — a targeted search by his email
 (`jtblanchard66@gmail.com`) or phone across the fuller export set (not
-just the primary dump) might surface more. Whether Dan or Annie ever paid
-any part of the final $10,000 balance is unknown; no further Paci
-correspondence past July 2025 was located. The apartment number is #17
-(per Sam's delivery notes); the lease's original signatory, the monthly
-rent, and how the roach infestation started were not recovered.
+just the primary dump) might surface more, and the newly-identified
+neighbour "Jim" on `+19173631636` may or may not be the same man. Whether
+Dan or Annie ever paid any part of the final $10,000 balance is unknown;
+no further Paci correspondence past July 2025 was located. **Nothing in
+Paci's own voice confirms the arrangement** — his half of it lives
+entirely in telephone calls — so the address's terminal event rests on
+one operator capture plus circumstantial structure in the record. The
+lease's original signatory, the monthly rent, the security deposit amount,
+and how the roach infestation started were not recovered; the "Apt 6C" in
+the 2026-08-10 capture's target field has no corpus trace and no
+explanation [UNRESOLVED]. What the withheld two months of rent actually
+amounted to in cash is not derivable either: without the monthly rent
+figure, the size of the moving capital the plan raised cannot be
+computed, and it is not stated anywhere in `raw/`.
 
 
 ========================================================================
@@ -42377,10 +43426,10 @@ PAGE: wiki/self/message-corpora/master-message-dump.md
 ---
 domain: self
 page_type: report
-status: archived
+status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-02
-sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv", "raw/self/message-csv/imessage_2124702449_both_all_now.csv", "raw/self/message-csv/imessage_3307038747.csv", "raw/self/message-csv/* (37 total CSVs)", "raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/dox-md/Gemini-_18.md"]
+date_modified: 2026-08-13
+sources: ["raw/self/message-csv/imessage_export_deep_20260813.csv", "raw/self/message-csv/imessage_export_flat_20260813.csv", "raw/self/message-csv/README_20260813_exports.md", "raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv", "raw/self/message-csv/imessage_2124702449_both_all_now.csv", "raw/self/message-csv/imessage_3307038747.csv", "raw/self/message-csv/* (37 total CSVs)", "raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/dox-md/Gemini-_18.md"]
 related: ["wiki/self/context-core", "wiki/self/twitter", "wiki/self/youtube-watch-history", "wiki/self/favorites", "wiki/mind/concepts/forensic-method", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/facebook/messages", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/people/annie-ulmer"]
 tags: [digital-footprint, nyc-era, relationships, financial-stress, trauma-bond]
 connections:
@@ -42393,9 +43442,12 @@ connections:
   - page: wiki/people/johnny-dealer
     type: evidenced-by
     claim: "The rank-7 handle in this dump, at 3,462 messages, resolves to a 2018-era dealer — which is the clearest demonstration that raw volume in this corpus measures logistical load rather than closeness."
+  - page: wiki/timeline/periods/2021-2023-employment-block
+    type: evidences
+    claim: "The ~833-day export hole lands almost exactly on that period, which is what made three years of restaurant work look like a communication blackout; the location record's 806 place visits in 2022 against this corpus's four is the cleanest single falsifier of the silence reading anywhere in the wiki."
   - page: wiki/mind/synthesis/message-circadian-latency
     type: contains
-    claim: "The circadian/latency page is a primary analytical cut of this corpus, recomputed row-level."
+    claim: "The circadian/latency page is a primary analytical cut of this corpus, and the worked demonstration of the ranking below: its circadian finding reproduced on three files while its headline latency finding was retracted in full on 2026-08-13, because it had treated a lossy extraction as a superset on the strength of clean attribution."
 ---
 
 
@@ -42403,11 +43455,118 @@ connections:
 
 **Sources ingested from /Users/daniel/Documents/**DOX/DOC SCAN/CSV/**
 
+## Read this before citing any number on this page
+
+There is no single "the corpus." There are several partial extractions of one
+device history, they disagree with each other by up to a factor of six on the same
+calendar year, and at least one of them is in a different timezone from every other
+source in the repository. Every count below inherits whichever file produced it.
+This section is the ranking and the two structural holes; it sits first because
+skipping it is how [[wiki/mind/synthesis/message-circadian-latency]] lost its
+headline finding on 2026-08-13.
+
+### Source ranking [DERIVED, 2026-08-13]
+
+| Rank | File | Rows | Time | Covers | Use for |
+|---|---|---:|---|---|---|
+| 1 | `raw/self/dox-scan/all_imessages_complete_dump.txt` | 217,573 dated lines | **local** | 2011-03-18 → 2025-08-10 | anything 2019–2025; the completeness reference |
+| 2 | `raw/self/message-csv/imessage_export_deep_20260813.csv` | 186,671 | **UTC** | 2011-03-19 → 2026-08-13 | 2026, and anything needing unmasked handles, chat IDs or GUIDs |
+| 3 | `raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv`, `LEVIATHAN_FULL_CORPUS.csv`, `raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md` | ~175–184k | local | 2011 → 2026 | attribution-clean sampling only — **never completeness** |
+| — | `raw/self/message-csv/imessage_export_flat_20260813.csv` | 186,671 | UTC | same as rank 2 | **nothing.** No handle column; it cannot attribute any message to any person |
+
+Rank 3 is one tier because the three files are three renderings of a single lossy
+extraction rather than three sources: `OMNI_FORENSIC_DOSSIER.md`'s yearly totals
+match the rank-2 export's row for row (13,819 / 20,221 / 17,551 / 40,514 / 20,153 /
+6,311 / 280 / 954 / 4,376 / 41,278), so their agreement is not corroboration. The
+concrete cost of the confusion: on thread `+12124702449` for calendar 2025,
+Leviathan holds **Dan 2,114 / Annie 10,141** while the rank-1 dump holds **Dan
+10,595 / Annie 10,174** for the same thread and year despite stopping on 2025-08-10.
+Roughly four in five of Dan's outbound rows are absent from the file, which silently
+inflates any measure of the form "time since Dan last spoke." Clean attribution was
+mistaken for completeness. Provenance detail:
+`raw/self/message-csv/README_20260813_exports.md`.
+
+### The UTC convention [RAW-CSV]
+
+**`imessage_export_deep_20260813.csv` timestamps are UTC. Every other message source
+in this repository is America/New_York.** This was validated on 42,895 uniquely
+text-matched pairs against `imessage_7244346811+7249204125+2124702449_both_all_now.csv`:
+23,158 land at exactly +5.00 h (EST), 19,692 at +4.00 h (EDT), 45 outliers (0.1%).
+Convert before comparing any figure from that file to a published one — an
+unconverted timestamp shifts four or five hours, which is enough to move a message
+across midnight and corrupt any per-day, per-hour or circadian count. In that file,
+`HANDLE == 'Me'` marks outbound.
+
+### The ~833-day hole, 2021-04 → 2023-08 [RAW-CSV]
+
+Both independent extractions lose the same block of time in the middle of the
+record, and it is an artifact rather than silence.
+
+| File | Last row before | First row after | Span |
+|---|---|---|---|
+| `all_imessages_complete_dump.txt` (local) | 2021-04-27 20:31:40 | 2023-08-09 00:54:11 | **833.2 days, unbroken** |
+| `imessage_export_deep_20260813.csv` (UTC→NY) | 2021-04-07 08:04:35 | 2023-08-11 15:06:11 | 856 days, one island |
+
+The island is six messages on the evening of **2022-12-31**, 19:06–19:41 local, all
+six outbound and two of them literally the word `test` — the signature of someone
+checking that a handset sends, not of a year of correspondence. The two files also
+disagree about the hole's edges in both directions, so neither is a subset of the
+other and neither is authoritative about the boundary.
+
+Three independent records inside the window contradict the silence reading. The
+[[wiki/self/location-history|Google location export]] logs **806 place visits in
+2022**, the year the message record scores at four to six, plus 257 in 2021 and 728
+in 2023 (~1,791 across the three years). [[wiki/work/au-zaatar|Au Za'atar]]
+employment ran continuously from March 2021 to August 2024 straight through the
+hole, ~690 estimated shifts with 445 visits logged to the restaurant. And 2024 — a
+year outside the hole entirely, which both files cover — is recorded as 4,376
+messages in the rank-3 family against **28,463** in the rank-1 dump, showing the
+same loss operating where no silence is even claimed.
+
+The likeliest mechanism is a device or restore boundary: a handset used from spring
+2021 to summer 2023 whose message store never merged into the current database,
+with the present database assembled from a pre-2021 backup plus everything after
+August 2023. That is a hypothesis about hardware, not a finding; what is established
+is the negative — **the window is missing from the export, not from the life.**
+
+### The bidirectional SMS void, 2020-05 → 2024-05 [RAW-CSV]
+
+A second, larger and differently-shaped gap, and it is not the same artifact. SMS
+traffic — only SMS; iMessage runs normally on both sides of it — stops for nearly
+four years, and the boundaries replicate **to the second** across both extractions:
+
+| Direction | Last before | First after | Span |
+|---|---|---|---|
+| Inbound SMS | 2020-05-28 11:13:26 | 2024-05-23 22:02:52 | 1,456.5 days |
+| Outbound SMS | 2020-07-30 08:09:58 | 2024-05-24 18:18:31 | 1,394.4 days |
+| Either | 2020-07-30 08:09:58 | 2024-05-23 22:02:52 | 1,393.6 days |
+
+Identical timestamps in two separately-produced files means the void is in the
+underlying store, not in either extraction pass. The shape is diagnostic: inbound
+stops **63 days before** outbound. That is what a settings change looks like rather
+than a service outage — green-bubble traffic stops arriving first, then stops being
+sent. The reading consistent with the evidence is **SMS Text Message Forwarding
+disabled** across that span, so SMS lived only on the handset and never reached the
+store the exports were taken from. It follows that **every non-iMessage contact is
+invisible for those four years**, which is a coverage limit on any 2020–2024
+analysis of who Dan was talking to, and it is a different limit from the hole above:
+the two overlap in 2021–2023 but neither explains the other.
+
+**Consequences for existing pages.** Any claim of the form "the channel went quiet
+in 2021–2022," "the corpus's hardest floor," or "near-total silence" is describing
+an export and must be re-derived or withdrawn. The correction is worked through on
+[[wiki/mind/synthesis/message-circadian-latency]],
+[[wiki/timeline/periods/2021-2023-employment-block]],
+[[wiki/people/rick-frank]], [[wiki/self/overview]] and
+[[wiki/self/context-core]].
+
 ## Corpus Dimensions
 
 | Dump | Rows | Approx. Messages | Date Range (sampled) | Notes |
 |------|------|------------------|----------------------|-------|
-| MASTER_MESSAGES_DB_DUMP.csv | 184,359 | 175k+ | 2011-03-18 to 2026+ | Full master dump; columns: timestamp,contact_handle,direction,text,subject,service,date_read,error,is_read,is_delivered |
+| imessage_export_deep_20260813.csv | 186,671 | 186k | 2011-03-19 to 2026-08-13 | Whole-device, 15 cols, 499 handles, 598 chats, unmasked. **UTC.** `HANDLE=='Me'` is outbound. Lossy vs the dox-scan dump — 41.8% of that file's records are absent |
+| imessage_export_flat_20260813.csv | 186,671 | 186k | same extract | 3 cols, attribution stripped. **Never usable for attribution**; retained only as the worked example behind a documented 2026-08-13 misattribution |
+| MASTER_MESSAGES_DB_DUMP.csv | 184,359 | 175k+ | 2011-03-18 to 2026+ | Full master dump; columns: timestamp,contact_handle,direction,text,subject,service,date_read,error,is_read,is_delivered. Rank 3 — sampling only |
 | MASTER_DUMP_PART_1_ARCHAIC.csv | 124,178 | 124k | 2011-03-18 to ~2015+ | Archaic/partial dump overlapping master |
 | annie_all_time_logs.csv | 25,538 | 25k+ | 2015–2026 (2026 samples dominant in extract) | [[wiki/people/annie-ulmer|Annie]]-specific logs; timestamp,direction,text. Includes END FIGHT "Goodbye forever" 2026-06-01 |
 | imessage_2124702449_both_all_now.csv | 23,720 | 23k+ | Recent full (Annie NYC handle) | datetime_local,direction,contact,service,kind,has_attachments,chat_name,text |
@@ -42497,7 +43656,7 @@ Cross-references: [[wiki/self/context-core]], [[wiki/mind/concepts/forensic-meth
 
 **Sources:** raw/self/message-csv/* (37 files), raw/self/dox-md/operating_manual.md, raw/self/context-core/CONTEXT_CORE_EXPANDED.md, raw/self/facebook/facebook-ihatedanfrank/messages/ and groups/events htmls for cross.
 
-A primary analytical cut of this corpus — circadian rhythm, reply latency, and per-contact volume trajectories, recomputed row-level with the direction-field bug sidestepped via the Leviathan sender field — lives at [[wiki/mind/synthesis/message-circadian-latency]].
+A primary analytical cut of this corpus — circadian rhythm, reply latency, and per-contact volume trajectories — lives at [[wiki/mind/synthesis/message-circadian-latency]]. It sidestepped the master dump's `direction`-field bug via the Leviathan `sender` field, which worked; it then treated Leviathan as complete, which did not, and its reply-latency headline was retracted in full on 2026-08-13. Read that retraction alongside the ranking at the top of this page: the two documents are the same lesson from opposite ends.
 
 
 ========================================================================
@@ -43985,7 +45144,7 @@ domain: timeline
 page_type: event
 status: archived
 date_created: 2026-06-23
-date_modified: 2026-06-23
+date_modified: 2026-08-13
 date_range_start: 2026-05-31
 date_range_end: 2026-06-01
 sources: ["raw/self/message-csv/THE END FIGHT.csv", "raw/self/message-csv/END_FIGHT_full.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
@@ -44036,7 +45195,7 @@ Data record includes raw escalation from logistics/denial fragments to final myt
 - Key verbatim (from sequence):
   - Annie fragments: "Please…", cut-offs.
   - Dan: "i am not delusional enough to believe that you will ever want anything to do with me again but you know… it's probably time to cut your losses..."; "too bad so sad you just couldn't give me any decency and now there's a poison pill baked in"; "I saved you from fucking DYING when you were shooting coke and you would sell me out to virtue signal your loyalty to someone else?"; "Shame on you. Seriously. I hope your parents will be able to set you right also stop lying about whoever the fuck this is. Youre not being threatened. You just can’t stop lying"; "and you will never unring this bell. Have a nice life. Do not forget that you did this to me tonight."
-  - Annie closure: "Goodbye forever. This was not how it should have ended but. sic semper lupanis."
+  - Closure line — **Dan's outbound**, corrected 2026-08-13 (previously recorded as Annie's): "Goodbye forever. This was not how it should have ended but. sic semper lupanis." It is the last of an unbroken outbound run beginning 00:21:47; the next inbound row is Annie's June 5 apology.
 - Cross: Matches annie_all_time_logs end cluster and LIFE calendar relational/legal nodes.
 
 **Sources note:** Dedicated fight export provides granular thread order/timestamps not fully in master dump. Complements annie logs for the 2026-06-01 closure.
@@ -44530,7 +45689,7 @@ domain: timeline
 page_type: event
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-26
+date_modified: 2026-08-13
 date_range_start: 2026-06-01
 date_range_end: 2026-06-01
 sources:
@@ -44622,9 +45781,9 @@ See [[wiki/mind/concepts/attachment-model]] (no closure without explicit severan
 | Signal | Value / Status |
 |--------|----------------|
 | Closure date | 2026-06-01 |
-| Confirmation vehicle | Group chat |
+| Confirmation vehicle | Dan↔Annie dyad (`+12124702449`) — **CORRECTED 2026-08-13**, previously recorded as the group chat |
 | Messages in annie_all_time_logs extract on date | ~40 (clustered ~00:00 hour) |
-| Key verbatim (from logs + end fight CSV) | "Goodbye forever. This was not how it should have ended but. sic semper lupanis." (Annie); Dan: "I saved you from fucking DYING when you were shooting coke...", "Shame on you. Seriously...", "You are not capable of love...", "and you will never unring this bell." |
+| Key verbatim (from logs + end fight CSV) | "Goodbye forever. This was not how it should have ended but. sic semper lupanis." (**Dan** — corrected 2026-08-13; this cell previously labelled it "(Annie)" while listing the message 110 seconds earlier as Dan's, a contradiction inside one cell); Dan: "I saved you from fucking DYING when you were shooting coke...", "Shame on you. Seriously...", "You are not capable of love...", "and you will never unring this bell." |
 | Context from annie logs | "eli" mentions: 388 across extract; "goodbye": 110; "lying": 150. Dec 2025 peak 4,657 msgs preceded the asymmetry. |
 
 **Sources added:** raw/self/message-csv/annie_all_time_logs.csv , raw/self/message-csv/THE END FIGHT.csv , raw/self/message-csv/END_FIGHT_full.csv (sequence details).
@@ -46914,7 +48073,7 @@ page_type: period
 status: stable
 knowledge: mixed
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-08-13
 date_range_start: 2021-01-01
 date_range_end: 2023-12-31
 sources:
@@ -46925,6 +48084,8 @@ sources:
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/location/2026-06-22-ingest/"
   - "raw/self/gemini-activity/Gemini Activity.html"
+  - "raw/self/message-csv/imessage_export_deep_20260813.csv"
+  - "raw/self/message-csv/README_20260813_exports.md"
 tags: [nyc-era, career, ai-collaboration]
 connections:
   - page: wiki/mind/synthesis/the-embedded-objective
@@ -46945,6 +48106,9 @@ connections:
   - page: wiki/mind/profile/intp
     type: evidences
     claim: "The introversion cost is stated in primary voice — fifteen-table freezing Saturday nights took 'literally EVERYTHING i had in me' — hospitality as a direct stressor of the documented type."
+  - page: wiki/self/message-corpora/master-message-dump
+    type: evidenced-by
+    claim: "This period is where the corpus's ~833-day export hole lands, which is why its 'low mobility, one anchor institution' reading had to be split on 2026-08-13: 2021 is genuinely contracted at 257 place visits, while 2022-23 are a mobility resurgence (806 and 728) that only looked like continued silence because the message record for them does not exist."
 ---
 
 # 2021–2023 Employment Block
@@ -46956,10 +48120,49 @@ history exposed it — Dan held one sustained job: busser, then server, at
 making it the longest continuous employment of his adult life (the full
 tenure runs to August 2024). The period's texture is preserved in his own
 words in the two "STORYTIME: AU ZA'ATAR" Gemini sessions, which this page
-and its linked pages have absorbed; the LIFE calendar's near-silence for
-these years (5 events in 2021, against 254 in 2018) is not a gap in the
-record but the shape of the era itself — low mobility, one anchor
-institution, life organized around a plywood shed.
+and its linked pages have absorbed. The record for these years is thin,
+and how much of that thinness is the era and how much is the export was
+settled on 2026-08-13; the answer is "partly each," and it is worked
+through immediately below because it governs how every other number on
+this page should be read.
+
+> **REVISED [2026-08-13] — the "not a gap in the record but the shape of
+> the era itself" reading was applied too widely, and for the message
+> corpus specifically it was simply wrong.** The prior version of this
+> paragraph read the near-silence of these years as evidence about the
+> life: "low mobility, one anchor institution, life organized around a
+> plywood shed." The premise moved. **Both independent message
+> extractions contain a continuous multi-year hole sitting almost exactly
+> on this period** — `all_imessages_complete_dump.txt` holds zero rows
+> between 2021-04-27 and 2023-08-09 (833.2 days unbroken), and the
+> 2026-08-13 whole-device export holds the same hole broken only by six
+> outbound messages on the evening of 2022-12-31, two of them literally
+> the word `test`. It is an export artifact, not silence, and the
+> falsifier is this page's own data: the location record logs **806 place
+> visits in 2022**, the year the message corpus scores at four to six.
+> Full evidence at [[wiki/self/message-corpora/master-message-dump]].
+>
+> **What survives, and what does not.** The conclusion holds for **2021**
+> and fails for **2022–2023**. 2021 is genuinely low on a source that has
+> nothing to do with messages — 257 place visits, against 1,111 in 2017
+> and 1,716 in 2018 — so a year of low mobility organized around one
+> institution is real, and it is also the year the restaurant opened and
+> the shed economy began. But 2022 (806 visits) and 2023 (728) are a
+> **mobility resurgence**, not a continuation of it, and the era's
+> characterization as uniformly low-movement was carried by a message
+> record that does not exist for those two years. The corrected shape of
+> the block is not three flat years but **one contracted year followed by
+> two that reopened while the job stayed constant** — which makes the
+> restaurant the era's continuity rather than its whole content, and
+> makes the 2021-only reading of "life organized around a plywood shed"
+> the accurate one.
+>
+> The LIFE calendar's own near-silence (5 events in 2021 against 254 in
+> 2018) is a separate source and is **not** retracted here — but it has
+> not been audited for the same failure, and given that two message
+> extractions and one Google export all thin out or break in this exact
+> window, a fourth source thinning out in the same window is now weak
+> evidence rather than confirmation. It is listed in Gaps below.
 
 ## How it started
 
@@ -47057,10 +48260,18 @@ betray, kitchen allies don't.
 |---------|-------|
 | Estimated shifts (location history) | ~690 |
 | Au Za'atar place visits | 445 |
-| LIFE calendar events, 2021 | 5 (vs 254 in 2018, 259 in 2025) |
+| Place visits, 2021 / 2022 / 2023 | 257 / 806 / 728 (~1,791 total) |
+| LIFE calendar events, 2021 | 5 (vs 254 in 2018, 259 in 2025) — **unaudited, see Gaps** |
+| Message rows, 2021 / 2022 / 2023 | 1,465 (all Jan–Apr) / 0–6 / 5,156 (all from Aug 9) — **export artifact, not behavior** |
 | Tenure (full) | Mar 2021 – Aug 2024 (41 months) |
 | Time slot | 2pm–~9/10pm, opener, never closed |
 | Alibi duration ("night class") | 18+ months |
+
+Message-row scope: 2021 and 2023 from `all_imessages_complete_dump.txt`
+(local time, all handles, both directions); 2022 is 0 in that file and 6 in
+`imessage_export_deep_20260813.csv` (UTC→America/New_York). The location
+figures are `semantic_location.db` place-visit counts from the 2026-06-22
+Google Timeline export.
 
 ## Transition out
 
@@ -47072,11 +48283,31 @@ forensic post-mortem (Sergio, the Tunisian tip-siphon episode, the
 [[wiki/work/au-zaatar]], which has absorbed both STORYTIME volumes. The 2024
 wind-down feeds directly into the [[wiki/timeline/periods/2025-collapse|2025 collapse]].
 
-**Gaps:** what, if anything, filled the intake-obsession slot these
-years (the era-marker series' one unidentified marker); DJ's and
-Dimitri's exits; whether any 2021 marker obsession is recoverable from
-the thin 2021 message record (the iMessage dump holds only 1,465 rows
-for 2021 and none in the November birthday window).
+**Gaps:** what, if anything, filled the intake-obsession slot these years
+(the era-marker series' one unidentified marker); DJ's and Dimitri's
+exits.
+
+> **CORRECTED [2026-08-13]:** this section previously proposed recovering
+> a 2021 marker obsession "from the thin 2021 message record," noting the
+> dump "holds only 1,465 rows for 2021 and none in the November birthday
+> window." The absence of the November window is not thinness and carries
+> no information: **all 1,465 of those rows fall in January–April** (454 /
+> 449 / 197 / 365), and the file's last 2021 row is 2021-04-27. There is
+> nothing after April to be thin. Suz's November 2021 birthday visit,
+> documented in the STORYTIME sessions, is therefore uncorroborated by the
+> message record for a mechanical reason and should not be treated as
+> weakly evidenced.
+
+The 2021 marker obsession is not recoverable from messages at all and
+needs a different source — YouTube watch history and Gemini activity both
+cover the window and neither has been mined for it. Two further gaps are
+now open: whether the LIFE calendar's 2021 near-silence is itself an
+export boundary rather than a quiet year (it has not been checked against
+the calendar file's own coverage, and three other sources break in this
+same window); and what the 2022–2023 mobility resurgence consisted of,
+since 1,534 place visits across those two years are currently
+uncharacterized on this page and unsupported by any message traffic that
+would name where he was going.
 
 
 ========================================================================
@@ -47419,11 +48650,13 @@ page_type: period
 knowledge: mixed
 status: active
 date_created: 2026-07-20
-date_modified: 2026-07-20
+date_modified: 2026-08-13
 date_range_start: 2025-02-01
 date_range_end: 2025-04-27
 sources:
   - raw/self/chatgpt-export/relationship-breakdown-summary-2025-04-27.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/captures/2026-08-13_john-paci-staged-eviction-operator-decode.md
 tags: [relationships, financial-stress, addiction-recovery, housing]
 connections:
   - page: wiki/timeline/periods/2025-collapse
@@ -47431,43 +48664,231 @@ connections:
     claim: "This page fills the specific Feb-April 2025 window that the broader 2025-collapse period names only in aggregate — the immediate weeks after the NYC apartment exit, before the terminal-phase record (Aug 2025 onward) that dan-annie-fallout-verdict.md quantifies."
   - page: wiki/people/suzanne-frank
     type: evidences
-    claim: "Suz's 2024 personal bankruptcy and the resulting listing of the childhood home (337 Saratoga Drive) in spring 2025 is a full year earlier than the sale process suzanne-frank.md's housing-arc section otherwise documents starting from — the same house went through at least two listing attempts across 2025-2026."
+    claim: "Suz's 2024 personal bankruptcy and the resulting listing of the childhood home (337 Saratoga Drive) in spring 2025 is a full year earlier than the sale process suzanne-frank.md's housing-arc section otherwise documents starting from; and her 2025-01-16 message pricing Fayette County rentals — seven days after the Eli discovery and sixteen days before the staged eviction began — dates her knowledge of the return to Pennsylvania to the moment the plan was formed, not to the moment it became public."
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
-    claim: "Dan's own self-authored, contemporaneous timeline of this week (built with ChatGPT as an impartial-arbiter exercise) is independent corroborating material for the verdict's pursuit/withdrawal framing, predating the terminal-phase raw-CSV recount by four months."
+    claim: "Dan's own contemporaneous timeline of this week is independent corroborating material for the verdict's pursuit/withdrawal framing four months before the terminal-phase recount — but it is also the corpus's clearest case of the verdict's evidence base being one-sided at the source, because the account describes the apartment as having been 'given a shot clock' by circumstance while omitting that Dan set the clock himself."
   - page: wiki/people/annie-ulmer
     type: evidences
-    claim: "Annie's unilateral move to her parents' house rather than accepting Dan's open-ended offer to fund an apartment anywhere she chose is the first concrete post-affair decision-making asymmetry in the corpus, predating the terminal-phase asymmetry by roughly eight months."
+    claim: "The 'unilateral move to her parents' this page once called the first post-affair decision-making asymmetry is not one: Annie announced the pickup to Dan the night before it happened, and the month preceding it ran the asymmetry the other way — she was choosing among options inside a manufactured eviction whose only verification channel Dan had pre-briefed."
+  - page: wiki/people/john-paci
+    type: caused-by
+    claim: "Paci's agreed performance of a landlord eviction is the proximate mechanism that opens this period: the February 22 departure from New York was not forced by the building but produced by an arrangement Dan made with its owner by telephone in January 2025."
+  - page: wiki/places/307-e-76th-st
+    type: follows
+    claim: "This period begins where the address's six-year tenancy was deliberately terminated: the two months of rent withheld at 307 E 76th from January 5, 2025 onward are the capital that funded the move this page opens with, and the $10,000 balance it cites as a constraint on staying was in part a consequence of the decision to leave."
 ---
 
 # Feb–April 2025: Return and Rupture
 
 The immediate aftermath of the January 2025 affair discovery and the
-February 22, 2025 forced exit from the NYC apartment — the specific weeks
-the broader [[wiki/timeline/periods/2025-collapse]] page names only in
-aggregate. Source is a ChatGPT conversation Dan ran on April 27, 2025,
-asking the model to act as "an exclusively impartial arbiter of the fact
-patterns" over a ten-day message log (April 17–26) between him and
+February 22, 2025 exit from the NYC apartment — an exit Dan arranged
+with the landlord and presented to Annie as an eviction. These are the
+specific weeks the broader [[wiki/timeline/periods/2025-collapse]] page
+names only in aggregate. The page's primary source is a ChatGPT
+conversation Dan ran on April 27, 2025, asking the model to act as "an
+exclusively impartial arbiter of the fact patterns" over a ten-day
+message log (April 17–26) between him and
 [[wiki/people/annie-ulmer|Annie]] — a self-authored, contemporaneous
 analysis distinct from the later raw-CSV recounts that
 [[wiki/mind/synthesis/dan-annie-fallout-verdict]] performs on the Aug
-2025–Mar 2026 terminal phase. This page fills the four-month gap between
-the two.
+2025–Mar 2026 terminal phase. That source is both this page's greatest
+strength and its largest hazard, and the 2026-08-13 pass is mostly about
+the hazard: the arbiter was given a fact pattern with one fact removed.
+
+> **CORRECTED [2026-08-13] — the "forced exit" was not forced.** This page
+> opened by calling February 22, 2025 a "forced exit from the NYC
+> apartment," and built the whole first section on an apartment that "was
+> put on a 'shot clock'" by financial reality. Per the 2026-08-13 operator
+> capture (`raw/self/captures/2026-08-13_john-paci-staged-eviction-operator-decode.md`,
+> [OPERATOR]), the eviction was requested by Dan. In late January he
+> telephoned the landlord [[wiki/people/john-paci|John Paci]], told him a
+> partly-false story — his father's TBI (true) and a resulting need to
+> travel back constantly (invented) — and asked him to *pretend* to be
+> filing an eviction if Annie called. Paci agreed. Dan told Annie the
+> eviction was Paci's own decision, provoked by her having vomited in the
+> hallway the night Eli brought her home, and deliberately stopped paying
+> rent for the final two months to bank the money as moving capital. Annie
+> telephoned Paci to check and so, separately, did her parents; both were
+> told it was real. The financial pressure this page described was
+> genuine — the ~$10,000 balance and the $7,000 ConEd bill are not
+> withdrawn — but it did not produce the deadline. Dan did. The
+> corroborating structure in the primary record is set out on
+> [[wiki/people/john-paci]] and [[wiki/places/307-e-76th-st]]; the parts
+> that bear on this period are below.
+
+## The real hinge: January 9–11, 2025
+
+This period's declared window opens on February 1, but its cause sits
+three weeks earlier, and the page previously did not name it at all.
+
+On the night of **2025-01-09**, at 23:18 ET, a message arrived on Annie's
+phone written by someone else: "Hey Dan / It's Eli / Annie is down stairs
+/ I work with her" [RAW-DUMP]. That is the
+[[wiki/timeline/events/eli-incident|Eli discovery]] as the corpus
+timestamps it.
+
+**The next day Dan issued an ultimatum: if Annie wanted the relationship
+to continue she would have to quit her job and find another one** — the
+job being the one she worked nightly alongside Eli. Per the operator, it
+"was met with absolute indignant rejection from her, and it was at this
+point which maked the true beginning of the terminal era of the
+relationship. She was caught and still nto willing to compromise"
+[OPERATOR]. Nothing else in the corpus dates the start of the terminal
+era to a specific decision; every other account of 2025 starts from the
+affair itself. The distinction matters, because it relocates the
+breaking point from the betrayal to the refusal to restructure around it,
+and because everything that follows — the call to Paci, the staged
+eviction, the withheld rent, the return to Pennsylvania — is a response
+to that refusal rather than to the affair.
+
+The ultimatum was delivered by voice and left no text. What it left
+instead is a hole, and the hole is measurable.
+
+### January 10, 2025: the only silent day in 2025
+
+| Date | Sent | Received |
+|---|---|---|
+| 2025-01-07 | 19 | 33 |
+| 2025-01-08 | 5 | 12 |
+| 2025-01-09 | 25 | 31 |
+| **2025-01-10** | **0** | **6** |
+| 2025-01-11 | 39 | 45 |
+| 2025-01-12 | 44 | 49 |
+
+[DERIVED — scope: all 217,573 records of
+`raw/self/dox-scan/all_imessages_complete_dump.txt`, America/New_York
+local, both directions, all 503 handles, whole corpus not one thread.]
+
+Dan sent nothing at all on January 10, 2025. Against the corpus baseline
+this is not merely a quiet day: of the 222 days in 2025 on which the dump
+records any traffic at all (its 2025 coverage runs to 2025-08-10),
+**January 10 is the only one with zero outbound messages**. Across the
+full corpus the rate is 144 zero-outbound days out of 2,345 days with
+traffic — 6.1% — so the day is unremarkable by lifetime standards and
+singular by that year's [DERIVED, same scope].
+
+The six inbound records are their own finding. Two are automated Cash App
+notices (a Round-Ups summary, and a $10.88 Apple payment declined because
+the card was locked). The other four are all from one number,
+`+17243228715` — [[wiki/people/suzanne-frank|Suzanne Frank]], resolved
+through the unmerged Facebook address book, which carries six separate
+entries pairing that number with her name and the `7243228715@vzwpix.com`
+alias. They read, in order: "Is everything ok?" (02:14), "Hello?"
+(12:22), "Are you alive?" (23:26) [RAW-DUMP]. None was answered. The day
+the relationship's terminal era began is the day Dan's mother spent
+twenty-one hours asking whether he was still alive, into silence.
+
+### January 11: the ultimatum in writing, and the landlord pre-brief
+
+Traffic resumes on January 11 and immediately carries both halves of the
+plan. At 15:35 ET Dan wrote to Annie: **"I am calling John back now. I'm
+not asking for extra time. I need to know TODAY what you want - you want
+to be with me or you want to stay in New York"** [RAW-DUMP]. The word
+*back* is load-bearing — it presupposes an earlier call, which places the
+first approach to Paci on or before January 11, within two days of the
+refusal.
+
+Twelve minutes later Annie answered: "I'll be contacting John as well bc
+I was not aware of this having to be out by feb 1." Three minutes after
+that Dan replied "I was on the phone with him as you sent that," and then
+**"And told him you would also be calling him to confirm"** [RAW-DUMP].
+This is the verification call the operator's account turns on, visible in
+the record from the other side and a fortnight before it happens: Annie
+announces she will check with the landlord, and is told the landlord has
+already been prepared for her.
+
+By January 16, [[wiki/people/suzanne-frank|Suz]] was pricing rentals in
+Fayette County — "You can get a tolerable place for $800+ here. You can
+get a nice place for $1,000. Keep in mind, you are going to need a
+vehicle too" [RAW-DUMP] — seven days after the Eli discovery and sixteen
+days before the eviction performance began on February 1. The return to
+Pennsylvania was settled before the pressure that supposedly compelled it
+was applied.
 
 ## The exit and the asymmetric landing
 
-After the affair came to light, the NYC apartment was put on a "shot
-clock" — Dan describes roughly $10,000 already owed plus a $7,000 ConEd
-bill, financial realities he says made continuing to argue about staying
-in New York "not really even worth the time it would take to debate."
-His own account is that he never treated the affair as a "terminal blow"
-to the relationship: he proposed returning to Pennsylvania to regroup,
-funded by family money, and deliberately left the destination of a new
-apartment "intentionally empty" — offering to let Annie pick anywhere and
-to find the money to make it happen. Annie instead made a unilateral
-decision, without discussing it with Dan first, to move in with her own
-parents, while insisting this represented no change in the relationship's
-status. Dan landed alone at his mother's house.
+The financial facts this page has always carried are real and none of
+them change. Dan describes roughly $10,000 already owed on the apartment
+plus a $7,000 ConEd bill, and treats continuing to argue about staying in
+New York as "not really even worth the time it would take to debate."
+His account of his own posture is likewise borne out elsewhere in the
+corpus: he never treated the affair as a "terminal blow," proposed
+returning to Pennsylvania to regroup on family money, and deliberately
+left the destination of the next apartment "intentionally empty" —
+offering Annie any location on earth and undertaking to find the funds.
+
+What has to be re-read is the frame around those facts. The shot clock
+was not found; it was set. The offer of "anywhere on earth" was made
+inside a situation whose only fixed constraint — the February deadline —
+was Dan's own invention, which changes it from an unconditional gift into
+a choice between destinations after the one destination Annie wanted had
+been removed by arrangement. On 2025-03-02 Dan quoted her own words back
+to her: "Do you remember the other day when you said 'I just said I
+wanted to be in New York, not that that is going to happen'" [RAW-DUMP].
+That is what a manufactured option set sounds like from inside it.
+
+> **CORRECTED [2026-08-13] — "Annie instead made a unilateral decision,
+> without discussing it with Dan first."** The previous version of this
+> section, and the typed edge into [[wiki/people/annie-ulmer]] that
+> carried it, called Annie's move to her parents "the first concrete
+> post-affair decision-making asymmetry in the corpus." Three things kill
+> that claim.
+>
+> **1. The word is ChatGPT's, not the corpus's.** "Unilateral" appears
+> five times in `relationship-breakdown-summary-2025-04-27.md` and every
+> occurrence is in the model's output, generated from Dan's own account
+> after he asked it to be "an exclusively impartial arbiter." Dan's
+> supplied version reads "she decides to, without telling me, make the
+> call that she would be moving back in with her parents." Per
+> `EXTRACTION_SPEC.md`'s AI-secondary rule, the model's characterisation
+> is not evidence; it was laundered onto this page as a finding.
+>
+> **2. She told him the night before.** Annie left New York *with* Dan on
+> the night of 2025-02-21. At 22:54 ET she texted "Parked in front to the
+> right"; at 22:55 ET, "I told my mom I'll probably just stay at your moms
+> tonight and unload the car and she will get me in the morning"
+> [RAW-DUMP]. The pickup was announced to Dan before it happened, from
+> inside his mother's house. "Without telling me" is contradicted by the
+> primary record.
+>
+> **3. The asymmetry ran the other way for the preceding month.** Annie
+> was choosing among options inside an eviction that did not exist, having
+> attempted verification through the one independent channel available to
+> her and been fed a prepared answer. On 2025-02-05 she asked what the
+> landlord had said four separate times — "? John said we had to be out";
+> "Can you please tell me what John said and your mom"; "What did John
+> say."; "What did John say dab." — and got "Talked to John" and "My mom
+> is going to come get us later next week. John said okay" [RAW-DUMP].
+> Whatever asymmetry of decision-making this period contains, its first
+> concrete instance is not February 22.
+>
+> What survives, and is worth keeping, is the *outcome*: Annie landed in a
+> stable household and Dan landed alone in a house about to be sold, and
+> the plan's steps five through seven — the shared new chapter, chosen by
+> her, funded by family money — never happened. The plan executed
+> completely and failed at the last step.
+
+> **CONTRADICTION — who summoned Annie's parents to New York.** Two
+> incompatible accounts sit four days apart in the same week, both in
+> Dan's own outbound text.
+>
+> | Date / recipient | Message | Implies |
+> |---|---|---|
+> | 2025-02-04 16:33 ET, Annie → Dan | "My parents are willing to come tomorrow and literally help me find a place if I want to stay here" | The parents come at Annie's initiative, to help her *stay* |
+> | 2025-02-05 15:19 ET, Dan → Annie | "I've been trying to explain for months what you made them come all the way up here to figure out" | Annie summoned them |
+> | 2025-02-06 10:00 ET, Dan → Paci | "I had to call her parents and have them drive all the way up to get her to see some sense" | Dan summoned them |
+>
+> The Annie-facing and Paci-facing accounts cannot both be true. The
+> Paci-facing one governs: it was written to the co-performer, the one
+> correspondent in the week who already knew the eviction was staged and
+> therefore the one there was no reason to mislead — and it matches the
+> operator capture. The Annie-facing line is the same move as the eviction
+> itself, an event Dan caused being narrated back to her as something she
+> caused. Annie's Feb 4 message is not necessarily false either; the
+> readings reconcile if her parents offered and Dan then called them
+> independently, but nothing in the record settles that, so it stays open
+> [UNRESOLVED].
 
 That landing was itself precarious: Suzanne Frank had declared personal
 bankruptcy in 2024, and the childhood home — [[wiki/people/suzanne-frank|Suz]]'s
@@ -47480,7 +48901,17 @@ buyers Jennifer J. and Scott P. Delverm, contingent on *their* bankruptcy
 approval, closing around June 2026) — the same house evidently went
 through at least two separate listing attempts across 2025 and 2026
 before the eventual sale, with Suz's own 2024 bankruptcy as the
-previously undocumented first driver.
+previously undocumented first driver. The plan had counted on that house
+as the regrouping floor; within nine weeks of arriving, Dan was living in
+a house on the market.
+
+By March 1, 2025, Annie was fully established at her parents' in
+Pennsylvania — the corpus shows her driving her mother to work, taking
+"Sugie" to the dentist, and asking to "come over" — so the New York she
+had insisted on keeping lasted about a week past the move [RAW-DUMP]. The
+operator's "she was staying in new york and that is final" describes her
+negotiating position in February, not the outcome; what she actually
+refused was the plan's fifth step, not the departure.
 
 ## The week in miniature: April 17–25, 2025
 
@@ -47527,13 +48958,55 @@ than the wiki reconstructing it after the fact — evidence the pattern was
 stable across the whole terminal window, not something that developed
 gradually over 2025.
 
+What the 2026-08-13 decode adds is a second, colder reading of the same
+document, and it is the more useful one for anyone using this source
+again. The April 27 conversation is Dan asking a model to adjudicate a
+fact pattern he curated, ten weeks after removing the largest fact from
+it. The model's outputs — "unilateral," "a pivotal assertion of
+autonomy," "avoidant behavior rather than partnership" — are conclusions
+about a situation it was told had been imposed on both parties by money.
+That does not make the pursuit/withdrawal finding wrong; the terminal-phase
+recount reaches it independently from message counts, which is why it
+survives. It does mean **every characterisation of Annie's agency in
+this file is downstream of an omission**, and none of them should be
+carried onto a page without a corroborating primary row.
+
+There is a further, sharper reason to read it this way. In the same
+conversation Dan writes that "one day in january i get a text to my phone
+and from that moment forward - everything in my life has been just
+getting progressively worse." The text is Eli's. He is dating his own
+collapse, accurately, to January 9 — while describing the February exit
+as something that happened to him. He knew the difference and did not
+write it down, which is the cleanest available demonstration of what this
+source is: a truthful record of how Dan experienced the period, and an
+unreliable record of what caused it.
+
+**Prediction.** If the decode holds, no source authored by Dan for an
+outside reader between January 2025 and the 2026-08-13 capture should
+name the eviction as arranged. The ones checked so far do not: this
+ChatGPT conversation calls the apartment "given a shot clock" (April
+2025), and the message record contains no outbound use of the word
+"eviction" to Annie in the whole January 9 – March 10 window [DERIVED,
+per [[wiki/people/john-paci]]]. The prediction is falsified by any
+pre-2026 Dan-authored text — a chat log, a dossier prompt, a note —
+that describes the eviction as cooperative or fake.
+
 **Gaps:** the underlying message log Dan uploaded to ChatGPT is not
-itself on disk in `raw/` — only this analysis conversation is; the
-"shot clock" apartment's address and exact exit date are not named here
-(cross-reference [[wiki/places/307-e-76th-st]] if that was the final NYC
-address); Suz's 2024 bankruptcy filing itself is not independently
-corroborated by a legal-record source, only by Dan's own statement in
-this conversation.
+itself on disk in `raw/` — only this analysis conversation is, so the
+April 17–26 week cannot be independently recounted. The final NYC address
+is [[wiki/places/307-e-76th-st]] and the exit date is February 22, 2025,
+both now established, but the exact monthly rent — and therefore the size
+of the moving capital the two withheld months actually raised — is not in
+the record anywhere. Suz's 2024 bankruptcy filing is still not
+independently corroborated by a legal-record source, only by Dan's own
+statement here. **The ultimatum of January 10 rests entirely on the
+operator capture**; the corpus corroborates the day's silence and its
+consequences but contains no text stating the demand, which is consistent
+with it having been spoken and is not evidence that it was. Nothing in
+Annie's own voice, at any point in the recovered record, indicates she
+ever learned the eviction was arranged, and no message after February 2025
+revisits it — so whether the concealment held permanently or merely
+outlasted the corpus is unknown.
 
 
 ========================================================================

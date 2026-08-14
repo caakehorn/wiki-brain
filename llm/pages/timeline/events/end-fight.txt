@@ -3,7 +3,7 @@ domain: timeline
 page_type: event
 status: archived
 date_created: 2026-06-23
-date_modified: 2026-06-23
+date_modified: 2026-08-13
 date_range_start: 2026-05-31
 date_range_end: 2026-06-01
 sources: ["raw/self/message-csv/THE END FIGHT.csv", "raw/self/message-csv/END_FIGHT_full.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
@@ -54,7 +54,7 @@ Data record includes raw escalation from logistics/denial fragments to final myt
 - Key verbatim (from sequence):
   - Annie fragments: "Please…", cut-offs.
   - Dan: "i am not delusional enough to believe that you will ever want anything to do with me again but you know… it's probably time to cut your losses..."; "too bad so sad you just couldn't give me any decency and now there's a poison pill baked in"; "I saved you from fucking DYING when you were shooting coke and you would sell me out to virtue signal your loyalty to someone else?"; "Shame on you. Seriously. I hope your parents will be able to set you right also stop lying about whoever the fuck this is. Youre not being threatened. You just can’t stop lying"; "and you will never unring this bell. Have a nice life. Do not forget that you did this to me tonight."
-  - Annie closure: "Goodbye forever. This was not how it should have ended but. sic semper lupanis."
+  - Closure line — **Dan's outbound**, corrected 2026-08-13 (previously recorded as Annie's): "Goodbye forever. This was not how it should have ended but. sic semper lupanis." It is the last of an unbroken outbound run beginning 00:21:47; the next inbound row is Annie's June 5 apology.
 - Cross: Matches annie_all_time_logs end cluster and LIFE calendar relational/legal nodes.
 
 **Sources note:** Dedicated fight export provides granular thread order/timestamps not fully in master dump. Complements annie logs for the 2026-06-01 closure.
