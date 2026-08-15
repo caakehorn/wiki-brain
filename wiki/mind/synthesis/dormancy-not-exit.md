@@ -87,7 +87,7 @@ people who have vacated it — and finds that they are all still here.
 | Member | Role ended | What it became | Span since |
 | :--- | :--- | :--- | :--- |
 | [[wiki/people/danielle-onesi]] | 2009 (Dan's infidelity) | Suzanne's closest friend; cat co-guardian; Christmas fixture | **17 years, unbroken** |
-| [[wiki/people/alexis-armel]] | Nov 2015 (her infidelity) | Paid participant in the 2018 arrangement; warm correspondence to Feb 2025 | **~10 years** |
+| [[wiki/people/alexis-armel]] | Dec 2015 (Dan left for Annie) | Paid participant in the 2018 arrangement; warm correspondence to Feb 2025 | **~10 years** |
 | [[wiki/places/424-bedford-ave]] | 2012 (moved out) | Origin node of the Menore supply line, live to 2025 | **13 years** |
 | [[wiki/people/menore]] | Apr 2013 (Dan leaves NYC) | Dormant, then reactivated Nov 2018; ran to Feb 2025 | **12 years, one gap** |
 | [[wiki/places/155-virginia-ave]] | — | Container retained across the occupant swap | — |
