@@ -62,9 +62,14 @@ handles — `+17244346811` (2015-11 → 2018-12), `+17249204125` (2018-12 →
 
 | Read through | Messages read | Of 97,768 | Events recorded |
 |---|---|---|---|
-| **2015-11-29** | 1,136 | 1.2% | 25 |
+| **2015-11-30** | 1,539 | 1.6% | 34 |
 
-**Resume at `bin/annie-corpus read 2015-11-30`** (403 messages). Size the next
+Each pass produces **two** outputs: events here, and everything else —
+entity ledger, open leads, motif tracking, corrections queue — on
+[[wiki/timeline/annie-read-notes]]. Update both in the same pass; notes
+captured after the fact are notes not captured.
+
+**Resume at `bin/annie-corpus read 2015-12-01`.** Size the next
 window with `bin/annie-corpus days 2015-12` — December 2015 is 12,000 messages
 across 31 days and is the onset flood, so it will take several sessions on its
 own.
@@ -252,4 +257,70 @@ physically present through the first night and is the mechanism by which Dan
 leaves the house — context for the December 23 confrontation that
 [[wiki/people/zachariah-harshman]] records as the switch's social fallout.
 
-*(2015-11-30 not yet read — 403 messages. Resume there.)*
+**2015-11-30, 05:02 — Suz supplies cocaine and offers a car, conditional on
+evicting Alexis.** *"Suz just came to check on me, brought me a line, and told
+me she'd get me a car this week if I get Alexis out."* Read literally: the
+mother arrives at 5 AM, provides the drug, and attaches a vehicle to the
+completion of the eviction. The night before she had phoned to say Dan
+*"should date"* Annie because the **name** fits — *"I.e. Anne Dan Suzanne Fran
+Diane Van"* (13:48–13:49), and Dan confirms *"She srsly offered me a car last
+night."* **The family did not merely approve the switch; it brokered it, and
+paid.** This is the earliest and least ambiguous instance in the corpus of the
+maternal leverage [[wiki/mind/synthesis/estate-money-spine]] and
+[[wiki/mind/synthesis/supply-network]] document from much later material.
+
+**2015-11-30 — the eviction is run as a sequence of pressure steps, not a
+confrontation.** Key confiscated (Nov 28) → *"I got everything out of my guest
+bedroom / So she knows I could actually call the cops"* (00:35) → *"Everything
+is super packed up / Mirrors are down"* (13:26) → *"I just heard lex on the
+phone with her parents / I think they're coming for her soon"* (13:42). Each
+step is reversible and none is a scene. Alexis's **parents** collect her, which
+is how the Dec 1 *"Helping lex leave"* resolves.
+
+**2015-11-30 — Casey Bondarenka is three weeks old as a friend.** *"Casey will
+never stfu here"* / *"He just started hanging out with us last week"*
+(13:47–13:48). He is at the house buying beer for Alexis at 00:39, drives Dan
+to get his e-cig fixed at 13:44, and is the subject of an unresolved
+*"Casey saga"* that Dan moves to a phone call at 23:00 (*"It is bombastic"*).
+The wiki's inference that Casey received the Nov 29 *"Things are collapsing
+with lex"* text is consistent with his documented presence all week.
+
+**2015-11-30, 14:23–14:25 — the first joint drug purchase.** *"Can I pitch in
+100 for morgantown?"* → Annie: *"Gotta see what my paycheck are. We can just go
+all on one and he will throw in more for my bday."* A named Morgantown WV
+source, $100 from Dan against Annie's paycheck, with a birthday discount. Dan's
+day-two offer to abstain entirely (*"we can ALWAYSALWAYS not do drugs"*) is 19
+hours old at this point.
+
+**2015-11-30 — a jointly maintained cover story is confirmed to exist.**
+*"And jsyk I have stuck to the story 100% so you don't need to worry about
+saying something wrong"* (22:21). Both parties are running an agreed narrative
+to third parties; its content is never stated in the text. Same register as
+Nov 28's *"you don't need to worry as much as you might have thought"* —
+concealment delivered to Annie as care.
+
+**2015-11-30 — Dan is writing love letters by email, and none of them are in
+the corpus.** *"Whenever you wake up, you have love letters in your inbox"*
+(06:51); Annie can't find them (10:39, 13:20); Dan resends (13:22) and she
+replies *"Definitely just made me tear up / I've never read anything so sweet
+in my life"* (13:23–13:24). **The most deliberate writing of the first week
+went through an email channel the message archive does not contain** — a
+concrete, chaseable gap rather than a general one.
+
+**2015-11-30 — Annie floats moving in, on day three.** *"Okay lemme pack up my
+life and death and start moving my shit in. lol lolol jkjkjkjk"* → Dan: *"NO
+JK!!!!"* (13:28–13:29). She is at 155 Virginia that evening while the handover
+is still in progress (*"Do U wanna bail or stay here when she goes"*, 19:22).
+
+**2015-11-30 — the social cost is named the same week.** *"It's weird here
+because nobody understands why I'm doing this"* → *"My friends do a little bit
+I haven't been able to tell them / That like I'm NOT out getting my dick
+sucked"* (22:09–22:10). Three close friends had already asked (Nov 29, 18:37).
+Context for [[wiki/people/zachariah-harshman]]'s December 23 confrontation.
+
+**2015-11-30 — a laptop goes missing during the move-out.** Dan forgets to
+retrieve it (13:44–13:45); by 22:05 *"Harshman talked to her and found out that
+I shouldn't worry about the laptop / But... it shouldn't be missing in the
+first place."* Resolution unrecorded.
+
+*(2015-11-30 read in full. Resume at 2015-12-01.)*

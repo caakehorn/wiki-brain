@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-15
-459 pages, ~912,062 tokens.
+460 pages, ~915,721 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -45430,6 +45430,173 @@ The 2022+ left-commentary clusters documented here are the downstream trace of a
 
 
 ========================================================================
+PAGE: wiki/timeline/annie-read-notes.md
+========================================================================
+
+---
+domain: timeline
+page_type: reference
+status: active
+knowledge: earned
+date_created: 2026-08-15
+date_modified: 2026-08-15
+sources:
+  - exports/annie-corpus.csv (built by bin/annie-corpus)
+  - raw/people/captures/2026-08-15_annie-handle-confirmation-and-notes-directive.md
+tags: [timeline, annie, method, entity-ledger, open-leads]
+connections:
+  - page: wiki/timeline/annie-record
+    type: component-of
+    claim: "The second output of the same read pass: the chronology records what happened, this records everything else the window established — entities, leads, motifs and corrections — so that reading 97,768 messages is paid for once rather than once per question."
+---
+
+# The Annie Read — working notes
+
+Companion to [[wiki/timeline/annie-record]]. Same read, second output.
+
+**Why this page exists.** Reading is the expensive step and it is paid once.
+Pulling a second kind of finding out of a window I have already read costs
+almost nothing; re-reading 97,768 messages to recover something I noticed and
+did not write down costs the entire pass again. A read that records only
+*events* therefore throws away, at the moment of maximum information,
+everything that is not an event — which is `CLAUDE.md` rule 1's failure mode
+applied to the most expensive extraction in the repository. Adopted at the
+operator's suggestion, 2026-08-15.
+
+The chronology answers **"what happened."** This page answers **"what did this
+window establish that isn't a dated event, and what should someone look at
+next."**
+
+---
+
+## 1. Entity ledger
+
+Every named person, place or thing as it first appears, with what the corpus
+itself says about it. `→` marks an existing wiki page; **no page** marks a
+candidate.
+
+| First seen | Entity | What the corpus establishes | Status |
+|---|---|---|---|
+| 2015-11-28 | **Annie Ulmer** | birthday **Nov 28**; Twitter `@Lo_weez`; a pre-Dan nude leak forced the handle change | → `wiki/people/annie-ulmer` |
+| 2015-11-28 | **Alexis Armel** | living at 155 Virginia; volatile (phone-breaking feared); leaves ~Dec 1 with her parents collecting her | → `wiki/people/alexis-armel` |
+| 2015-11-28 | **Gabe** (cat) | in the household; Annie claims him immediately (*"gabes my babe"*) | → `wiki/people/gabe` |
+| 2015-11-29 | **"turd boy" / "dude"** | **Annie's own partner at the time**, present with her family on Nov 29; she says she will *"get rid of him"* | **no page — unnamed, high priority** |
+| 2015-11-29 | **Zachariah Harshman** | physically present through the first night; the cover story for leaving the house; later negotiates the laptop question with Alexis | → `wiki/people/zachariah-harshman` |
+| 2015-11-29 | **Shu** | rearranged Dan's living room *"more dab friendly"*; leaves for Philadelphia Nov 29 | **no page — recurring, likely supply** |
+| 2015-11-29 | **Ellen Ulmer** | throws Annie's family birthday dinner, Nov 29 | → `wiki/people/ellen-ulmer` |
+| 2015-11-29 | **Andre** | at the bar on Annie's birthday; later floated as Alexis's possible alternate drug source | **no page** |
+| 2015-11-29 | **Suz (Suzanne Frank)** | see motif M4 — actively promoting the switch | → `wiki/people/suzanne-frank` |
+| 2015-11-29 | **117 Belmont Circle / Fran's** | proposed affair venue in week one; key held by Suz | → `wiki/places/117-belmont-circle` |
+| 2015-11-29 | **Uniontown CC golf course, 3rd tee** | the meeting location, precisely | → `wiki/interests/golf` |
+| 2015-11-30 | **Casey Bondarenka** | *"just started hanging out with us last week"* — joins the friend group **~3rd week Nov 2015**; buys beer for Alexis; drives Dan around; subject of an unresolved *"Casey saga"* | → `wiki/people/casey-bondarenka` |
+| 2015-11-30 | **"Morgantown homeboy"** | drug source in Morgantown WV; joint $100 buy Nov 30, with a birthday bonus for Annie | **no page — named supply node** |
+| 2015-11-30 | **Dan's laptop** | missing during Alexis's move-out; Harshman intercedes | thread, not entity |
+| 2015-11-30 | **Diane / Van** | named in Suz's family-name list (*"Anne Dan Suzanne Fran Diane Van"*) | → `wiki/people/diane-shrum` |
+
+## 2. Open leads
+
+Chaseable questions this read raised. Each is a specific thing to look for, not
+a topic.
+
+1. **Who is "turd boy"?** Annie's partner as of 2015-11-29. He is with her
+   family that night and she ends it within days. **He is the missing half of
+   the single-bond switch** — every existing account treats Annie as
+   unattached. Look: early-December windows for a name, and Annie's own
+   outbound traffic around Dec 1–9.
+2. **The "Casey saga," Nov 30, 23:00** — *"the worst part of the Casey saga /
+   It is bombastic"* — moves to a phone call and is never restated in text.
+   Look: Dec 1–3 for a retelling, and Casey's own channel.
+3. **The missing laptop (Nov 30)** — disappears during Alexis's move-out;
+   Harshman reports Dan *"shouldn't worry"* about it. Resolution unrecorded.
+4. **Dan's "love letters" are sent to an inbox, not by text** (Nov 30, 06:51 /
+   13:20 — Annie initially cannot find them, Dan resends). **There is an email
+   channel carrying the most deliberate writing of the relationship's first
+   week, and none of it is in the message corpus.** Look: `gmail_bodies.txt`
+   and any Gmail export, late Nov 2015.
+5. **What was "the story" both parties stuck to?** (Nov 30, 22:21 — *"I have
+   stuck to the story 100% so you don't need to worry about saying something
+   wrong"*). A jointly maintained cover narrative existed; its content is not
+   in the text.
+6. **Annie's pre-Dan nude leak** (2015-11-29, 03:17) — distinct from the
+   MyFreeCams history and from the 2018 blackmail episode already on her page.
+   Three separate incidents may be being conflated somewhere.
+7. **Does the email handle `alulmer28@gmail.com` carry anything outside
+   2020-07→10?** It is the only source for autumn 2020; worth checking whether
+   other exports hold more of it.
+
+## 3. Motif tracker
+
+Patterns with dated instances, recorded now so a later climb can count them
+instead of re-reading.
+
+- **M1 — concealment framed as reassurance.** 2015-11-28 19:01 (*"Alexis
+  doesn't know that you have any part in this... So you don't need to worry"*);
+  2015-11-30 22:21 (*"I have stuck to the story 100%"*). Deception of a third
+  party is presented to Annie as protection **of her**. Earliest instances of a
+  shape the terminal-phase record makes central.
+- **M2 — total-merger idiom, fully formed on day one.** *"You own me"*,
+  *"I'm you in girl form"*, *"We see life the same"* (11-28); *"You are my full
+  life"*, *"YOU ARE MY EVERYTHING"* (11-29). **This does not develop — it is
+  present in the first hour.** Relevant to `the-unbroken-bond` and
+  `enneagram-5w4`'s sx-dominant reading.
+- **M3 — drugs as shared idiom, and one refusal.** *"Dan & Annie + Drugs = Heart
+  attack"* (11-28); Dan's *"we can ALWAYSALWAYS not do drugs"* (11-29 19:13);
+  joint $100 Morgantown buy (11-30 14:23). The boundary is offered on day two
+  and gone by day three.
+- **M4 — the family actively brokered the switch.** Suz phones Dan the night of
+  Nov 29 to say he *"should date"* Annie because the **name** fits the family
+  (*"Anne Dan Suzanne Fran Diane Van"*); on Nov 30 at 05:02 she *"brought me a
+  line, and told me she'd get me a car this week if I get Alexis out."*
+  **Cocaine and a car, from the mother, as consideration for completing the
+  eviction.** This is the earliest and bluntest instance of the maternal
+  leverage `estate-money-spine` and `supply-network` document later.
+- **M5 — escalation logged as procedure.** Key confiscated (11-28); property
+  removed from the guest bedroom *"so she knows I could actually call the
+  cops"* (11-30 00:35); parents summoned (11-30 13:42). The eviction is run as
+  a sequence of reversible pressure steps, not a confrontation.
+
+## 4. Corrections queue
+
+Wiki claims this read contradicts or sharpens. Not yet applied except where
+noted.
+
+| Page | Standing claim | What the read shows |
+|---|---|---|
+| `mind/synthesis/bond-switch-2015` | the switch is Dan leaving Alexis for an unattached Annie | **Annie had her own partner and ended it in the same week.** The switch was mutual. **Not yet applied — biggest open correction.** |
+| `people/annie-ulmer` | *"I met someone that instantly changed my life"* quoted without address | said **to Annie**, 2015-11-29 03:28, an hour after the meeting |
+| `timeline/periods/2015-2016-...` | *"YOU ARE MY EVERYTHING"* on "day two/three" | 2015-11-29 **03:24**, hours after the first meeting |
+| `people/casey-bondarenka` | (check) longstanding friend | *"just started hanging out with us last week"* — joins ~3rd week Nov 2015 |
+| `people/suzanne-frank` | supportive maternal figure, financier | on 11-29/11-30 she supplies cocaine and offers a car **conditional on evicting Alexis** |
+| `mind/synthesis/supply-network` | supply as a binding mechanism, documented late | Dan names it in real time on 2015-11-29 about **Alexis** (*"she doesn't have another drug source"*) |
+
+## 5. Quantitative markers
+
+Things worth counting once the read is further along, noted so the count is
+cheap later.
+
+- **Message volume is not evenly informative.** 2015-11-29 carries 1,026
+  messages and roughly 12 events; 2015-11-28 carries 110 and roughly 9. Volume
+  tracks affect, not incident — a warning against any future attempt to
+  prioritise reading by daily count.
+- **Annie initiates the record** (first surviving message is hers, 18:47).
+- Both parties' "I love you" appears **within 32 hours of the first in-person
+  meeting** (Dan 03:14, Annie 03:14, 2015-11-29) — a hard date for any later
+  claim about escalation speed.
+- Dan's sleep inversion is present from day one (asleep ~09:00, up 13:14–14:26
+  on both 11-29 and 11-30), relevant to `message-circadian-latency`.
+
+---
+
+## Method note for the next session
+
+Read a window with `bin/annie-corpus read FROM TO`. Write events to
+[[wiki/timeline/annie-record]] **and** update all five sections here in the
+same pass — the ledger and the leads are worthless if they lag the read,
+because their whole value is that they were captured while the material was in
+front of someone.
+
+
+========================================================================
 PAGE: wiki/timeline/annie-record.md
 ========================================================================
 
@@ -45497,9 +45664,14 @@ handles — `+17244346811` (2015-11 → 2018-12), `+17249204125` (2018-12 →
 
 | Read through | Messages read | Of 97,768 | Events recorded |
 |---|---|---|---|
-| **2015-11-29** | 1,136 | 1.2% | 25 |
+| **2015-11-30** | 1,539 | 1.6% | 34 |
 
-**Resume at `bin/annie-corpus read 2015-11-30`** (403 messages). Size the next
+Each pass produces **two** outputs: events here, and everything else —
+entity ledger, open leads, motif tracking, corrections queue — on
+[[wiki/timeline/annie-read-notes]]. Update both in the same pass; notes
+captured after the fact are notes not captured.
+
+**Resume at `bin/annie-corpus read 2015-12-01`.** Size the next
 window with `bin/annie-corpus days 2015-12` — December 2015 is 12,000 messages
 across 31 days and is the onset flood, so it will take several sessions on its
 own.
@@ -45687,7 +45859,73 @@ physically present through the first night and is the mechanism by which Dan
 leaves the house — context for the December 23 confrontation that
 [[wiki/people/zachariah-harshman]] records as the switch's social fallout.
 
-*(2015-11-30 not yet read — 403 messages. Resume there.)*
+**2015-11-30, 05:02 — Suz supplies cocaine and offers a car, conditional on
+evicting Alexis.** *"Suz just came to check on me, brought me a line, and told
+me she'd get me a car this week if I get Alexis out."* Read literally: the
+mother arrives at 5 AM, provides the drug, and attaches a vehicle to the
+completion of the eviction. The night before she had phoned to say Dan
+*"should date"* Annie because the **name** fits — *"I.e. Anne Dan Suzanne Fran
+Diane Van"* (13:48–13:49), and Dan confirms *"She srsly offered me a car last
+night."* **The family did not merely approve the switch; it brokered it, and
+paid.** This is the earliest and least ambiguous instance in the corpus of the
+maternal leverage [[wiki/mind/synthesis/estate-money-spine]] and
+[[wiki/mind/synthesis/supply-network]] document from much later material.
+
+**2015-11-30 — the eviction is run as a sequence of pressure steps, not a
+confrontation.** Key confiscated (Nov 28) → *"I got everything out of my guest
+bedroom / So she knows I could actually call the cops"* (00:35) → *"Everything
+is super packed up / Mirrors are down"* (13:26) → *"I just heard lex on the
+phone with her parents / I think they're coming for her soon"* (13:42). Each
+step is reversible and none is a scene. Alexis's **parents** collect her, which
+is how the Dec 1 *"Helping lex leave"* resolves.
+
+**2015-11-30 — Casey Bondarenka is three weeks old as a friend.** *"Casey will
+never stfu here"* / *"He just started hanging out with us last week"*
+(13:47–13:48). He is at the house buying beer for Alexis at 00:39, drives Dan
+to get his e-cig fixed at 13:44, and is the subject of an unresolved
+*"Casey saga"* that Dan moves to a phone call at 23:00 (*"It is bombastic"*).
+The wiki's inference that Casey received the Nov 29 *"Things are collapsing
+with lex"* text is consistent with his documented presence all week.
+
+**2015-11-30, 14:23–14:25 — the first joint drug purchase.** *"Can I pitch in
+100 for morgantown?"* → Annie: *"Gotta see what my paycheck are. We can just go
+all on one and he will throw in more for my bday."* A named Morgantown WV
+source, $100 from Dan against Annie's paycheck, with a birthday discount. Dan's
+day-two offer to abstain entirely (*"we can ALWAYSALWAYS not do drugs"*) is 19
+hours old at this point.
+
+**2015-11-30 — a jointly maintained cover story is confirmed to exist.**
+*"And jsyk I have stuck to the story 100% so you don't need to worry about
+saying something wrong"* (22:21). Both parties are running an agreed narrative
+to third parties; its content is never stated in the text. Same register as
+Nov 28's *"you don't need to worry as much as you might have thought"* —
+concealment delivered to Annie as care.
+
+**2015-11-30 — Dan is writing love letters by email, and none of them are in
+the corpus.** *"Whenever you wake up, you have love letters in your inbox"*
+(06:51); Annie can't find them (10:39, 13:20); Dan resends (13:22) and she
+replies *"Definitely just made me tear up / I've never read anything so sweet
+in my life"* (13:23–13:24). **The most deliberate writing of the first week
+went through an email channel the message archive does not contain** — a
+concrete, chaseable gap rather than a general one.
+
+**2015-11-30 — Annie floats moving in, on day three.** *"Okay lemme pack up my
+life and death and start moving my shit in. lol lolol jkjkjkjk"* → Dan: *"NO
+JK!!!!"* (13:28–13:29). She is at 155 Virginia that evening while the handover
+is still in progress (*"Do U wanna bail or stay here when she goes"*, 19:22).
+
+**2015-11-30 — the social cost is named the same week.** *"It's weird here
+because nobody understands why I'm doing this"* → *"My friends do a little bit
+I haven't been able to tell them / That like I'm NOT out getting my dick
+sucked"* (22:09–22:10). Three close friends had already asked (Nov 29, 18:37).
+Context for [[wiki/people/zachariah-harshman]]'s December 23 confrontation.
+
+**2015-11-30 — a laptop goes missing during the move-out.** Dan forgets to
+retrieve it (13:44–13:45); by 22:05 *"Harshman talked to her and found out that
+I shouldn't worry about the laptop / But... it shouldn't be missing in the
+first place."* Resolution unrecorded.
+
+*(2015-11-30 read in full. Resume at 2015-12-01.)*
 
 
 ========================================================================

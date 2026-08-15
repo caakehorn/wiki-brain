@@ -12,8 +12,8 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 459 |
-| Pages touched in the last 14 days | 226 |
+| Pages | 460 |
+| Pages touched in the last 14 days | 227 |
 | Pages reasoning from other pages (`synthesizes:`) | 27 |
 | Live contradictions | 30 |
 | Open gaps | 157 |
@@ -26,7 +26,7 @@ this is the state of the thing.
 | people | 161 |
 | interests | 143 |
 | mind | 59 |
-| timeline | 34 |
+| timeline | 35 |
 | self | 32 |
 | work | 15 |
 | places | 8 |
@@ -38,14 +38,16 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 184 |
-| active | 133 |
+| active | 134 |
 | closed | 99 |
 | archived | 31 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-08-15** — 23 pages
+**2026-08-15** — 24 pages
+  - read | timeline | the read pass gets a second output — entity ledger, leads, motifs — plus Nov 30: Suz paid for the eviction
+  - read | timeline | the Annie corpus is 97,768 messages across FOUR handles, and reading two days of it produced 25 events no script found
   - fix | timeline | the 2015 "Alexis cheating" was a 2009 event, and master-timeline.md was half non-events
 
 **2026-08-14** — 5 pages

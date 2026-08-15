@@ -1,5 +1,5 @@
 WIKI-BRAIN — LLM ACCESS POINT
-generated 2026-08-15 · 459 pages · full corpus ~912,062 tokens
+generated 2026-08-15 · 460 pages · full corpus ~915,721 tokens
 
 WHAT THIS IS
 A machine-readable export of a personal wiki (a 'second brain') that
@@ -452,6 +452,7 @@ Twitter / X Activity (@danfrank) | https://caakehorn.github.io/wiki-brain/llm/pa
 YouTube Watch History (2007–2026) | https://caakehorn.github.io/wiki-brain/llm/pages/self/youtube-watch-history.txt | Extensive personal YouTube activity log spanning nearly two decades. Primary media consumption channel for news, politics, comedy, and cultural commentary. D...
 
 --- TIMELINE ---
+The Annie Read — working notes | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/annie-read-notes.txt | Companion to [[wiki/timeline/annie-record]]. Same read, second output.
 The Annie Record — a read chronology | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/annie-record.txt | Every event here was found by **reading the messages**, in order, in small windows. Nothing on this page was pattern-matched or extracted by a script. That i...
 Annie/Alexis Reunion (November 2018) | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/annie-alexis-reunion-november-2018.txt | Weeks after [[wiki/people/alexis-armel|Alexis]] was released from the year in prison documented at [[wiki/people/alexis-armel]] (the Zac Shumar mail-order we...
 April–May 2026 — The Final Documented Weeks | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/april-may-2026-final-weeks.txt | The March 16, 2026 retraction ("I misunderstood the conversation") was not the record's actual end — a later analysis session, working from the same message ...

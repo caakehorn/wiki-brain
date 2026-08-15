@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 459,
+ "page_count": 460,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -2876,11 +2876,18 @@
    "bytes": 23558
   },
   {
+   "page": "wiki/timeline/annie-read-notes.md",
+   "title": "The Annie Read \u2014 working notes",
+   "summary": "Companion to [[wiki/timeline/annie-record]]. Same read, second output.",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/annie-read-notes.txt",
+   "bytes": 10178
+  },
+  {
    "page": "wiki/timeline/annie-record.md",
    "title": "The Annie Record \u2014 a read chronology",
    "summary": "Every event here was found by **reading the messages**, in order, in small windows. Nothing on this page was pattern-matched or extracted by a script. That i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/annie-record.txt",
-   "bytes": 14819
+   "bytes": 19276
   },
   {
    "page": "wiki/timeline/events/annie-alexis-reunion-november-2018.md",

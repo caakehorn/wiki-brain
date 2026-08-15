@@ -8,8 +8,10 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-15 — 23 pages
+## 2026-08-15 — 24 pages
 
+- **Session log:** read | timeline | the read pass gets a second output — entity ledger, leads, motifs — plus Nov 30: Suz paid for the eviction
+- **Session log:** read | timeline | the Annie corpus is 97,768 messages across FOUR handles, and reading two days of it produced 25 events no script found
 - **Session log:** fix | timeline | the 2015 "Alexis cheating" was a 2009 event, and master-timeline.md was half non-events
 
 | Page | Domain | What moved |
@@ -30,6 +32,7 @@ simply listed.
 | [[wiki/people/annie-ulmer]] | people | _(carries a RE-CHECKED from 2026-08-13)_ |
 | [[wiki/people/fran-coldren]] | people | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/people/johnny-dealer]] | people | **RE-CHECKED** — timeline moved on 2026-08-15 to correct a single 2015 bullet — the "Lex cheated" calendar row, now identified as a retrospective account of a 2009 episode (bond-switch-2015). This pag |
+| [[wiki/timeline/annie-read-notes]] | timeline | — |
 | [[wiki/timeline/annie-record]] | timeline | — |
 | [[wiki/timeline/events/timeline]] | timeline | — |
 | [[wiki/timeline/index]] | timeline | — |
