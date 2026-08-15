@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-02
+date_modified: 2026-08-15
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_7249204125_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 synthesizes:
   - wiki/self/message-corpora/master-message-dump
@@ -107,3 +107,16 @@ Johnny functions as reliable but transactional dealer node during 2018 crisis (p
 [[wiki/timeline/periods/2018-deep-cycle]]
 [[wiki/timeline/periods/2025-collapse]]
 [[wiki/self/context-core]]
+
+> **RE-CHECKED [2026-08-15] — premise moved, conclusion unaffected.**
+> [[wiki/timeline/events/timeline]] moved on 2026-08-15 to correct a single
+> 2015 bullet — the "Lex cheated" calendar row, now identified as a
+> retrospective account of a 2009 episode
+> ([[wiki/mind/synthesis/bond-switch-2015]]). This page's dependency on that
+> timeline is the 2018 peak of 254 events and its resolution to the handle
+> `+17243223678`. Neither the 2018 counts nor the handle attribution is touched.
+> **One caveat worth carrying forward:** the correction exposed a systematic
+> defect in `LIFE_EVENTS_CALENDAR.md` — it classifies by message date and
+> keyword, so any retrospective mention lands in the wrong year. The 2018 event
+> counts this page cites inherit that defect and should be treated as an upper
+> bound until re-derived directly.

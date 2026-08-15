@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-13
+date_modified: 2026-08-15
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -459,3 +459,23 @@ documents across different people.
 > didn't touch its argument — no new claim, date, or figure was introduced.
 > This page's dependency on it is untouched.
 
+> **RE-CHECKED [2026-08-15] — both premises moved, and both moves supply this
+> page with evidence rather than cost it any.**
+> [[wiki/people/alexis-armel]] and [[wiki/mind/synthesis/the-unbroken-bond]]
+> both moved on 2026-08-15 for the same correction: the "cheating" that dated
+> the end of the Alexis relationship to 2015-11-28 is a retrospective account
+> of a **2009** episode, roughly two weeks into the relationship, online-only
+> per the operator ([[wiki/mind/synthesis/bond-switch-2015]]). Two consequences
+> land squarely on this page's rule.
+> **First**, the retention claim gains its earliest instance by six years: an
+> infidelity inside the relationship's first month did not end it, and the bond
+> ran six more years. Retention as an active policy now has a documented
+> starting point, not just a documented pattern.
+> **Second**, the corpus timeline in that correction sharpens the re-roling
+> evidence this page's `alexis-armel` edge already claims: Alexis was living in
+> Dan's house through November 30, moved out December 1, and stayed in
+> Pennsylvania until mid-January 2016 — seven weeks of continued proximity
+> *after* the replacement had arrived, before the November 2018 arrangement and
+> the correspondence to 2025. The gap between "ended" and "gone" is now
+> measurable at the resolution of days at the very moment the bond was replaced.
+> Nothing on this page is withdrawn.

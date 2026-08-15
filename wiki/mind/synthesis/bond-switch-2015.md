@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-02
+date_modified: 2026-08-15
 sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -69,13 +69,60 @@ The bootloader's reconstructed chronology, cross-checked against the message rec
 
 | Date | Event | Source |
 | :--- | :--- | :--- |
-| 2015-11-28 (Sat, after Thanksgiving) | Alexis cheating revelation — "Lex cheated on me 2 weeks in after I moved her to fla" | LIFE_EVENTS_CALENDAR; master CSV pivot text (see below) |
-| 2015-11-29 | Dan meets Annie (golf course, 2am, rain; grandmothers were neighbors for 50 years). Same night, outbound: "Things are collapsing with lex. You might be seeing a lot more Annie very soon." | [[wiki/people/annie-ulmer]], [[wiki/timeline/periods/2015-2016-annie-relationship-start]] |
+| ~2015-11-24 | Annie enters — and **Alexis is the one who introduces them.** "HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME" (Annie, Dec 1) | `all_imessages_complete_dump.txt` |
+| 2015-11-28 (Sat, after Thanksgiving) | Dan, already texting Annie intimately, narrates the **2009 origin** of the Alexis relationship as a contrast case — *not* a 2015 event. See the correction below. | `all_imessages_complete_dump.txt` 19:07–19:08 |
+| 2015-11-29 ~2am | Dan meets Annie in person (golf course, rain; grandmothers were neighbors for 50 years). Same evening, outbound to Zachariah: "Things are collapsing with lex. You might be seeing a lot more Annie very soon." | [[wiki/people/annie-ulmer]], [[wiki/timeline/periods/2015-2016-annie-relationship-start]] |
+| 2015-11-30 | Alexis still in the house — "Alexis is sloshed"; Suz offers Dan a car "if I get Alexis out" | `all_imessages_complete_dump.txt` |
+| 2015-12-01 | Alexis moves out — "Helping lex leave" | `all_imessages_complete_dump.txt` |
 | 2015-12-01 to 12-09 | Breakup with Alexis ("I'm in love with Annie Ulmer"); first dates; panic attacks; move | LIFE_EVENTS_CALENDAR |
 | 2015-12-10 | 728 messages sent in one day — the first day of the onset flood | **MASTER_MESSAGES_DB_DUMP.csv, recomputed** |
 | 2015-12-11 | 682 sent | **MASTER_MESSAGES_DB_DUMP.csv, recomputed** |
 | 2015-12-12 | 363 sent | **MASTER_MESSAGES_DB_DUMP.csv, recomputed** |
 | 2015-12-13 | 679 sent | **MASTER_MESSAGES_DB_DUMP.csv, recomputed** |
+
+> **CORRECTED 2026-08-15 — the switch had no precipitating betrayal, and this
+> page was the main carrier of the claim that it did.** Every prior version of
+> this table opened with an "Alexis cheating revelation" on 2015-11-28, one day
+> before the Annie introduction, and the adjacency did the causal work
+> throughout the wiki: a betrayal, then a replacement.
+>
+> **The message is retrospective and the event is from 2009.** Read with the two
+> lines that precede it (`all_imessages_complete_dump.txt`, 2015-11-28
+> 19:07–19:08): *"I love this it's the exact opposite way I started my last
+> relationship"* → *"Like I truly trust you"* → *"Lex cheated on me 2 weeks in
+> after I moved her to fla."* The sentence's declared subject is **how the last
+> relationship started**. "Two weeks in" is two weeks into the Alexis
+> relationship, which began in 2009 at
+> [[wiki/timeline/periods/full-sail-2008-2010|Full Sail]], in the Florida he had
+> moved her to. Per the operator it was an **online-only** episode. It is now
+> filed at [[wiki/people/alexis-armel]] under the relationship's beginning.
+>
+> **The corpus refutes the 2015 reading independently of the operator.** Alexis
+> was living with Dan in Uniontown throughout the window the old chronology
+> placed her in Florida — "Alexis is sloshed" (Nov 30), "Helping lex leave"
+> (Dec 1), "Alexis only left yesterday" (Dec 2) — and did not leave for Florida
+> until **2016-01-18** ("I know but she leaves for fla this week"), seven weeks
+> after the breakup. `wiki/people/alexis-armel` had additionally invented a
+> "~mid-Nov 2015 Dan moves her to Florida" row by back-computing "2 weeks" from
+> the message timestamp; no source ever asserted it.
+>
+> **What this does to the thesis: it strengthens it, and the page should be read
+> as having been right for the wrong reason.** A switch executed *because the
+> partner cheated* is an ordinary, well-motivated breakup, and it is the weakest
+> possible instance of a single-bond mechanism — the cause is external and
+> sufficient on its own. With the betrayal removed, nothing Alexis did in
+> November 2015 explains the ending. Six years closed in roughly seventy-two
+> hours with no precipitating grievance, and the introduction came *from Alexis
+> herself*. That is the singular-slot mechanism operating with no cover story:
+> the bond did not end and then get replaced, it was replaced and therefore
+> ended. Every downstream page that leaned on "cheating → switch" was leaning on
+> the one detail that made the switch look normal.
+>
+> **Falsifier this correction accepts:** a dated 2015 source — any channel, any
+> direction — describing an Alexis infidelity contemporaneous with November
+> 2015, or placing her in Florida before January 2016, would restore the old
+> reading. The Nov 28 – Dec 2 window was swept across the full dump for this
+> pass and produced the opposite: an Alexis continuously present in Uniontown.
 
 The bootloader's own withdrawal-then-reinstatement is the key to the "24 hours" figure. It initially *withdrew* the v1 claim that Dan **"left Alexis within 24 hours of the Annie connection forming"** because an earlier (wrong) dating of the Alexis breakup to summer 2013 created a 2.5-year gap. Recomputing the breakup to **November 2015** reinstates the contemporaneity: the two events are the same week, and the v1 claim was right all along.
 
@@ -98,6 +145,11 @@ The bootloader's own withdrawal-then-reinstatement is the key to the "24 hours" 
 > revelation, 2015-11-29 introduction and the same-night *"you might be seeing a
 > lot more Annie very soon,"* the December 1 breakup — only who the record says
 > was doing it.
+>
+> *[2026-08-15: the "2015-11-28 revelation" beat named in the last sentence of
+> this 2026-08-02 block has since been retracted — see the CORRECTED block
+> above. The rest of that block stands; the twenty-four-hour subject-flip and
+> this correction are independent findings about the same week.]*
 
 ## The onset flood (verified)
 

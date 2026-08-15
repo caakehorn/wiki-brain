@@ -4,7 +4,7 @@ page_type: period
 title: "Full Sail (Sep 2008 – Mar 2010)"
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-19
+date_modified: 2026-08-15
 date_range_start: 2008-09-01
 date_range_end: 2010-03-01
 sources:
@@ -99,6 +99,21 @@ abrupt end by early November. Nothing in either thread resolves how it
 relates in time to the Danielle ending or the Alexis beginning; it is
 recorded as a real, dated event with an unresolved place in the
 sequence, not folded into either narrative.
+
+**A 2009 event was restored to this period on 2026-08-15, having spent the
+wiki's whole life misfiled six years downstream.** About two weeks after Dan
+moved Alexis to Florida to be with him, she cheated on him — per the operator
+an **online-only** episode, not in person, which is why nothing in the Winter
+Park record marks it. Dan's only surviving account of it is a single sentence
+told to Annie on 2015-11-28, as the contrast case for how the *next*
+relationship was starting: *"I love this it's the exact opposite way I started
+my last relationship... Lex cheated on me 2 weeks in after I moved her to
+fla."* Because the sentence was filed under the date it was sent rather than
+the date it describes, the wiki carried it for months as a November 2015
+betrayal that triggered the switch to Annie — a chain now retracted in full
+(see [[wiki/mind/synthesis/bond-switch-2015]] and
+[[wiki/people/alexis-armel]]). The episode belongs here, in the relationship's
+first month, and it is the earliest dated event in the Alexis record.
 
 Alexis wasn't a long-distance partner during this
 window — the Twitter corpus places her physically in Orlando with Dan,

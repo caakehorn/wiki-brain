@@ -7,7 +7,7 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-06-23
-date_modified: 2026-08-08
+date_modified: 2026-08-15
 date_range_start: 2009-10-01
 date_range_end: 2025-02-19
 sources:
@@ -123,6 +123,29 @@ the sequence flatly: Danielle ends, Dan having cheated, and Alexis begins.
 [[wiki/people/danielle-onesi|Danielle Onesi]] and Alexis are listed together
 on Dan's own Facebook profile under "Previous relationships," in that order.
 
+**The relationship's first documented rupture happens roughly two weeks into
+it, in 2009, and it is the earliest event on this page.** Dan moved Alexis to
+Florida to be with him at Full Sail; about a fortnight after she arrived she
+cheated on him. Per the operator the episode was **online only, not in
+person** — which is why nothing physical, geographic or social in the Winter
+Park record marks it, and why it left no trace in the Twitter corpus of the
+same months. Dan's own single-sentence account of it survives, but not from
+2009: he told it to Annie six years later, on 2015-11-28, as the contrast case
+for how the *new* relationship was starting — *"I love this it's the exact
+opposite way I started my last relationship... Like I truly trust you... Lex
+cheated on me 2 weeks in after I moved her to fla."* For six years this wiki
+read that message as a November 2015 event and built a causal chain on it; see
+the correction under [The end, in one day](#the-end-in-one-day). The episode
+belongs here, at the beginning, where Dan himself put it.
+
+That placement changes what the six years mean. The relationship the corpus
+calls the **control case** — the one that occupied the attachment slot for six
+years without ever activating it — opened with an infidelity inside its first
+month and continued anyway, for six more years, without the deep attachment
+system ever engaging. Low activation and high tolerance are the same fact seen
+from two sides: what never fully switched on also never registered a breach
+hard enough to switch it off.
+
 The same year initialises two other things that run underneath the whole
 relationship: **Suboxone, from around January 2010**, and an aggressive
 atheism that turns out to be shared rather than tolerated. Both surface in
@@ -229,19 +252,59 @@ every beat of it:
 
 | Date | Event |
 |---|---|
-| ~mid-Nov 2015 | Dan moves her to Florida |
-| 2015-11-28 | *"Lex cheated on me 2 weeks in after I moved her to fla"* |
-| 2015-11-29 | Meets Annie at the Uniontown Country Club, ~2 AM, in the rain — *"I met someone that instantly changed my life"* |
-| 2015-12-02 | *"Listen I broke up with lex, I'm in love with Annie Ulmer"* |
+| ~2015-11-24 | Annie enters the picture — *"HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME"* (Annie, Dec 1), i.e. Alexis herself made the introduction |
+| 2015-11-28 | Dan tells Annie the Alexis relationship's **origin** story (see the correction below) — Alexis is at this point still living with Dan in Uniontown |
+| 2015-11-29 ~2 AM | Meets Annie at the Uniontown Country Club, in the rain — *"I met someone that instantly changed my life"*; same evening, to Zachariah: *"Things are collapsing with lex"* |
+| 2015-11-30 | *"Alexis is sloshed"*; Suz offers Dan a car *"if I get Alexis out"* |
+| 2015-12-01 | Alexis moves out of 155 Virginia — *"Helping lex leave"* |
+| 2015-12-02 | *"Listen I broke up with lex, I'm in love with Annie Ulmer"*; *"Alexis only left yesterday"* |
 | 2015-12-08 | *"That was the night before I broke up with lex"* |
 | Dec 2015 | 728 / 682 / 679 messages sent on three consecutive days to Annie |
+| ~2016-01-18 | Alexis leaves Pennsylvania for Florida — *"I know but she leaves for fla this week"* |
+
+> **CORRECTED 2026-08-15 — the "cheating" that this page dated to November 28,
+> 2015 did not happen in 2015 at all, and the Florida move it was pinned to is
+> a fabrication.** The page previously opened this table with *"~mid-Nov 2015 |
+> Dan moves her to Florida"* and read the next day's message — *"Lex cheated on
+> me 2 weeks in after I moved her to fla"* — as a fresh betrayal that triggered
+> the switch to Annie. Both halves are wrong, and the second was invented by
+> back-computing "2 weeks" from the date of the message.
+>
+> **What the message actually says, from the two lines immediately before it**
+> (`raw/self/dox-scan/all_imessages_complete_dump.txt`, 2015-11-28 19:07–19:08):
+> *"I love this it's the exact opposite way I started my last relationship"* →
+> *"Like I truly trust you"* → *"Lex cheated on me 2 weeks in after I moved her
+> to fla."* The named subject of the sentence is **how the last relationship
+> started**, not how it was ending. "Two weeks in" is two weeks into the
+> **Alexis** relationship, which began in **2009** while Dan was at
+> [[wiki/timeline/periods/full-sail-2008-2010|Full Sail in Winter Park]] — the
+> Florida he moved her to. Per the operator the episode was **online only, not
+> in person**, and has no connection to 2015 whatsoever.
+>
+> **The corpus independently destroys the 2015 reading.** Alexis was physically
+> in Uniontown, living with Dan, across the exact window the old table put her
+> in Florida: *"Alexis is sloshed"* (Nov 30), *"I just heard lex on the phone
+> with her parents"* (Nov 30), *"Helping lex leave"* (Dec 1), *"Alexis only left
+> yesterday"* (Dec 2). She did not go to Florida until **mid-January 2016** —
+> *"I know but she leaves for fla this week"* (2016-01-18), seven weeks *after*
+> the breakup. A woman cannot be cheating on Dan in Florida two weeks into a
+> November move she did not make until the following January.
+>
+> **This is a message-date-as-event-date failure**, the same class as the
+> `_all_now` filename trap in `EXTRACTION_SPEC.md`: a real, correctly quoted,
+> correctly timestamped primary message whose *content* is retrospective, filed
+> under the timestamp of its telling. Nothing was misquoted; the quote was
+> misdated by six years.
 
 Two facts about that week are usually left out of the retellings and both
-sharpen it. The first is that he had just relocated her to another state at
-his own expense — the cheating happened two weeks into a move he paid for.
-The second is that **Annie was Alexis's coworker.** The replacement did not
-merely arrive fast; it arrived from inside the displaced partner's own
-workplace, which is why the social fallout was immediate and public enough to
+sharpen it. The first is that **there was no precipitating betrayal** — with
+the 2009 episode removed from the week, nothing on Alexis's side triggered the
+switch. The relationship did not end because of something she did in November
+2015; it ended because the slot was reoccupied. The second is that **Annie was
+Alexis's coworker**, and by Annie's own account it was Alexis who introduced
+them (*"LEX HANDED YOU TO ME"*). The replacement did not merely arrive fast; it
+arrived from inside the displaced partner's own workplace and through her own
+hand, which is why the social fallout was immediate and public enough to
 detonate a separate friendship the same month
 ([[wiki/people/zachariah-harshman|Zachariah Harshman's]] December 23
 confrontation).

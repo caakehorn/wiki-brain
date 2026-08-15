@@ -7,7 +7,7 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-13
+date_modified: 2026-08-15
 date_range_start: 2015-11-01
 date_range_end: 2026-08-09
 infobox:
@@ -404,8 +404,8 @@ history shows a comparably total activation.
 > existing relationship within twenty-four hours of the introduction. Per the
 > operator, that is backwards: **Dan** left Alexis inside twenty-four hours of
 > meeting Annie. The corpus corroborates the corrected version and never
-> corroborated the old one — the Alexis cheating revelation is dated
-> **2015-11-28**, Dan meets Annie **2015-11-29**, and his own outbound text the
+> corroborated the old one — Annie is introduced (by Alexis) around
+> **2015-11-24**, Dan meets her in person **2015-11-29**, and his own outbound text the
 > same night reads *"Things are collapsing with lex. You might be seeing a lot
 > more Annie very soon."* The formal breakup ("I'm in love with Annie Ulmer")
 > follows within days. [[wiki/mind/synthesis/bond-switch-2015]] records that the

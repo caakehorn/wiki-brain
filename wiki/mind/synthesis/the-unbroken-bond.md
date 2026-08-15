@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-13
+date_modified: 2026-08-15
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -92,17 +92,31 @@ it the *single-bond switch*: *"not a gradual disengagement followed by a new
 attachment, but one bond closing as the other opens, with no unattached gap
 between them."*
 
-- **2015-11-28** — the Alexis cheating revelation.
-- **2015-11-29** — meets Annie; the same night, outbound: *"Things are
+- **~2015-11-24** — Annie enters, introduced by Alexis herself (*"HAPPY ONE
+  WEEK SINCE LEX HANDED YOU TO ME"* — Annie, Dec 1).
+- **2015-11-29** — meets Annie in person; the same night, outbound: *"Things are
   collapsing with lex. You might be seeing a lot more Annie very soon."*
+- **2015-12-01** — Alexis moves out (*"Helping lex leave"*).
 - **2015-12-01 to 12-09** — breakup ("I'm in love with Annie Ulmer"), first
   dates, panic attacks, move.
 - **2015-12-10** — **728 messages sent in a single day.** Then 682, then 363.
 
+> **CORRECTED 2026-08-15.** The first bullet of this list previously read
+> *"**2015-11-28** — the Alexis cheating revelation."* There was no such
+> revelation that week; the message it rested on is Dan describing the **2009**
+> start of the Alexis relationship to Annie. See
+> [[wiki/mind/synthesis/bond-switch-2015]]. **This page's own claim survives
+> intact and gets sharper** — the removed bullet was the only item in the
+> sequence that supplied a *reason* for the ending, and its removal leaves a
+> six-year bond closing in seventy-two hours with nothing prompting it but the
+> arrival of a replacement.
+
 The slot was vacant for something on the order of a week, and the refill
 arrived at a volume of 728 messages in a day. That is not rebound behaviour in
 the ordinary sense — a rebound implies a gap being coped with. There was no gap
-to cope with. **The replacement was sourced before the vacancy occurred.**
+to cope with. **The replacement was sourced before the vacancy occurred** —
+and with no grievance on the record to license it, sourcing the replacement is
+the whole of the explanation, not half of it.
 
 ## Why: the mechanism is documented, not speculated
 

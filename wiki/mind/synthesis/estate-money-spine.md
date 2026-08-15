@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-11
+date_modified: 2026-08-15
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -253,3 +253,10 @@ simply changed which party it was Dan's problem to service.
 > fact this page draws from him. Annie's page gained one new relational
 > detail on the December 2, 2015 origin night, unrelated to money. Nothing
 > here needed revising.
+
+> **RE-CHECKED [2026-08-15] — premise moved, conclusion unaffected.**
+> [[wiki/people/annie-ulmer]] moved on 2026-08-15 to redate a 2015 infidelity
+> to 2009 ([[wiki/mind/synthesis/bond-switch-2015]]). This page's dependencies
+> on that page are the Annie-outflow figure, the landlord-debt stretch and Suz's
+> switchboard role — all money facts from 2023–2026. The correction introduces
+> no figure and moves no dated transaction. Closed unaffected.

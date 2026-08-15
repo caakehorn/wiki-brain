@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 30 |
-| Open gaps | 138 |
+| Open gaps | 157 |
 | Standing predictions | 13 |
 
 ## Live contradictions
@@ -186,15 +186,34 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/suzanne-frank]]** — Whether a lease or POA has since been signed at 463 Morgantown is unresolved in the corpus.
 - **[[wiki/people/suzanne-frank]]** — The "wine mom" / evening-rhythm characterization is Dan's; no independent account of her relationship to alcohol is on file.
 
-### self (8)
+### self (27)
 
-- **[[wiki/self/ancestry]]** — Centralization of scattered references to these sub-pages across older wiki entries.
-- **[[wiki/self/lineage/23andme-genomics]]** — No text-layer extraction is possible from the source PDFs, meaning specific percentage values are not digitally recorded.
-- **[[wiki/self/lineage/23andme-genomics]]** — Health report data remains unprocessed and unexplored.
+- **[[wiki/self/lineage/23andme-genomics]]** — The chromosome painting PDFs contain no extractable segment-level data — the per-chromosome ancestry assignments are visual only. The full CSV download from 23andMe's Scientific Details page was not part of the export in `raw/self/ancestry/dna-reports/`.
+- **[[wiki/self/lineage/23andme-genomics]]** — Two health predisposition results (Age-Related Macular Degeneration, Hereditary Thrombophilia) appear in the summary but their specific outcomes were not captured in the text extraction.
+- **[[wiki/self/lineage/23andme-genomics]]** — The Prostate Cancer (BRCA1/BRCA2) report is locked behind an incomplete questionnaire ("Complete tasks to view result").
+- **[[wiki/self/lineage/23andme-genomics]]** — The "chromosome copy.pdf" in the raw directory appears to be an identical duplicate of "chromosome.pdf" (both 204,233 bytes) — one should be flagged for deduplication.
+- **[[wiki/self/lineage/23andme-genomics]]** — The maternal haplogroup R0 is unusual for a supposedly purely Appalachian Protestant line and warrants further investigation — it may indicate a distant non-European ancestor on the maternal line, or it may simply reflect the deep-time distribution of R0 acros
+- **[[wiki/self/lineage/23andme-genomics]]** — The paternal haplogroup R-Z93 is consistent with Ashkenazi heritage but is not exclusively Jewish; its presence in the Frank line could be investigated further with more detailed Y-DNA testing.
+- **[[wiki/self/lineage/23andme-genomics]]** — Inverse connections to this page from family-tree, hybrid-analysis, and ancestry need to be added to those pages' frontmatter (the `bin/wiki-connect check` lint will flag these as missing inverses).
 - **[[wiki/self/lineage/family-tree]]** — George Dixon Shrum Jr's exact death date remains unknown and undocumented in the current GEDCOM export.
 - **[[wiki/self/lineage/family-tree]]** — Full accounting of collateral relatives beyond the direct lineage.
+- **[[wiki/self/lineage/family-tree]]** — The Harris paternal line is completely undocumented beyond Sadie Harris herself — research into Czech immigration records, census data, and synagogue records could resolve this.
+- **[[wiki/self/lineage/family-tree]]** — Henry Frank and Hannah Frank's relationship to Max Frank (parents vs. father + stepmother) is unclear from the GEDCOM.
+- **[[wiki/self/lineage/family-tree]]** — The Cohen connection (Meyer Cohen and Bertha Cohen, both born in Germany) — their relationship to the Frank/Harris line is undocumented.
+- **[[wiki/self/lineage/family-tree]]** — Place name inconsistencies throughout the GEDCOM ("Pennslyvania," "Westmorland Co," "Fayette" vs "Fayette County" vs "Fayette, Pennsylvania") complicate geographic analysis.
+- **[[wiki/self/lineage/family-tree]]** — The Lincoln line (31 individuals) — their relationship to the direct ancestry is unclear.
+- **[[wiki/self/lineage/family-tree]]** — The 0.2% Sub-Saharan African trace in the 23andMe data has no documentary counterpart.
+- **[[wiki/self/lineage/family-tree]]** — The maternal R0 haplogroup is unusual for an Appalachian Protestant line — its origin is unexplained.
+- **[[wiki/self/lineage/family-tree]]** — The paternal R-Z93 haplogroup is more common in Central/South Asia than typical Ashkenazi populations — its origin is unexplained.
 - **[[wiki/self/lineage/hybrid-analysis]]** — Clinical validation of the speculative links between Neanderthal variants and behavioral traits like mood disorders or addiction.
 - **[[wiki/self/lineage/hybrid-analysis]]** — Further granular reconciliation of the chromosome painting segments with specific ancestors in the GEDCOM tree.
+- **[[wiki/self/lineage/hybrid-analysis]]** — The Harris paternal line is completely undocumented beyond Sadie Harris herself — research into Czech immigration records could resolve the 12.5% of Dan's DNA from this line.
+- **[[wiki/self/lineage/hybrid-analysis]]** — The maternal R0 haplogroup's origin is unexplained — research into the Conwell, Zearly, and Amelia lines could resolve this.
+- **[[wiki/self/lineage/hybrid-analysis]]** — The paternal R-Z93 haplogroup's origin is unexplained — Y-DNA testing (e.g., FamilyTreeDNA) could confirm or refine the 23andMe prediction.
+- **[[wiki/self/lineage/hybrid-analysis]]** — The 0.2% Sub-Saharan African trace cannot be resolved without chromosome location and segment size data.
+- **[[wiki/self/lineage/hybrid-analysis]]** — Two health predisposition results (Age-Related Macular Degeneration, Hereditary Thrombophilia) were not fully extracted from the PDF.
+- **[[wiki/self/lineage/hybrid-analysis]]** — The Prostate Cancer (BRCA1/BRCA2) report is locked behind an incomplete questionnaire.
+- **[[wiki/self/lineage/hybrid-analysis]]** — Inverse connections to this page from ancestry, 23andme-genomics, and family-tree need to be added to those pages' frontmatter.
 - **[[wiki/self/lineage/index]]** — Further integration of genomic health traits with known ancestral lineage.
 
 ### timeline (23)

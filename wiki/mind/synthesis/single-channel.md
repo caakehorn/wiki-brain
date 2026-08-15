@@ -6,7 +6,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-11
+date_modified: 2026-08-15
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -298,3 +298,13 @@ the identity this page states is unaffected. No finding here changes.
 > add a RE-CHECKED note of its own confirming an unrelated Annie-page edit
 > didn't touch its argument — no new claim, date, or figure was introduced.
 > This page's dependency on it is untouched.
+
+> **RE-CHECKED [2026-08-15] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/the-unbroken-bond]] moved on 2026-08-15 to retract one
+> bullet — the "2015-11-28 Alexis cheating revelation," now redated to 2009
+> ([[wiki/mind/synthesis/bond-switch-2015]]). The quantity this page takes from
+> that page is continuous single-slot occupancy across the documented span, and
+> the retraction removes a *cause* from the 2015 transition without moving any
+> of its dates or touching the occupancy itself. The Gini concentration measure
+> and the no-failover argument are computed from message volumes, which the
+> correction does not touch at all.

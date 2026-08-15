@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-11
+date_modified: 2026-08-15
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -84,7 +84,7 @@ connections:
     claim: "The exit is declared, never executed, because execution is the irreversible act; the loop's own retraction (2026-08-11 — the Rick case was never actually a held severance) removed the corpus's best claimed interpersonal counter-instance, leaving the firewall's 'blocks don't hold on people' prediction stronger, not weaker."
   - page: wiki/mind/concepts/attachment-model
     type: contains
-    claim: "No counter-rule mechanism for closing a bond absent explicit severance is the firewall implemented as an actual data structure: without a delete operation, the only way out is force applied from outside the system, which is exactly how the Annie bond in fact closed."
+    claim: "No counter-rule mechanism for closing a bond absent explicit severance is the firewall implemented as an actual data structure: without a delete operation, a severance Dan issues alone stays reversible — the June 1 2026 goodbye was his own, held 52 days, and broke — so what the system cannot produce unilaterally is not the exit but its irreversibility."
   - page: wiki/mind/concepts/conflict-architecture
     type: contains
     claim: "Concession is coded as self-annihilation via Core Axiom 1 ('not exceptional = worthless') — the firewall's actual mechanism named at the level of a single conversational turn: conceding a point is a small, forced irreversibility, and the engine has no halt condition because halting requires exactly that."
@@ -226,14 +226,53 @@ bug this produces: positive verbal affirmations are absolute rules that stay
 active until an *explicit* severance signal arrives, and the system has no
 counter-rule mechanism to close a loop on its own — which is why the Annie
 bond, on [[wiki/mind/synthesis/block-unblock-loop]]'s own accounting, took
-127 declared exits and only ever closed when an outside party (Ellen
-Ulmer, informed directly) forced the irreversible act from outside the
-system. [[wiki/mind/concepts/node-locking]] shows the same retention rule
+127 declared exits before any of them held for even a season, and why none
+of them ever became irreversible without the other party's participation
+(see the RETRACTION and restatement at the foot of this section). [[wiki/mind/concepts/node-locking]] shows the same retention rule
 extended to the cognitive prosthetic itself: Dan requires his AI sessions
 to retain observations verbatim and unconsolidated, because a lossy summary
 is itself a kind of small, unauthorized deletion. **Prediction:** any
 relationship, account, or structure the corpus calls "ended" should, on
-inspection, still be reachable. **Falsifier:** a documented case where Dan
+inspection, still be reachable.
+
+> **RETRACTED and restated [2026-08-15] — Prediction 1's supporting clause was
+> false, and the correction sharpens the firewall rather than damaging it.**
+> This section stated that the Annie bond *"only ever closed when an outside
+> party (Ellen Ulmer, informed directly) forced the irreversible act from
+> outside the system."* [[wiki/mind/synthesis/dormancy-not-exit]] moved on
+> 2026-08-13 and says the opposite on the record: **Dan issued the June 1 2026
+> severance himself**, at 00:27:49, and held it for 52 days. The act was
+> performable, unforced, and unilateral. As written, the clause is dead.
+>
+> **What survives is the distinction the old wording collapsed.** Saying
+> goodbye and *making the goodbye true* are different operations, and only the
+> second is the irreversible, externally-adjudicable act the firewall polices.
+> Dan performed the first alone and it did not hold: the 52 days ended in the
+> [[wiki/timeline/events/july-2026-recontact|July 23–26 recontact]] and the
+> [[wiki/timeline/events/july-august-2026-reentanglement|reentanglement]] that
+> followed. `dormancy-not-exit` states the refined form directly — *"it is the
+> crossing-out that requires the other person, and the crossing-out is what
+> dormancy is the absence of."* The firewall's prediction was never about who
+> can utter a severance; it is about who can make one stick. Restated:
+> **closures Dan can perform alone are the reversible kind, and the corpus
+> contains no instance of him unilaterally producing an irreversible one.**
+>
+> **A third instance, one relationship earlier, arrived the same day.** The
+> 2015 Alexis closure was corrected on 2026-08-15
+> ([[wiki/mind/synthesis/bond-switch-2015]]): the "cheating revelation" that
+> supposedly triggered it was a retrospective account of a **2009** episode,
+> so the six-year bond closed in roughly seventy-two hours with *no grievance
+> on the record at all* — and Alexis was then retained anyway, paid into the
+> November 2018 arrangement with her own successor and carried as warm
+> correspondence to 2025. Same shape, eleven years apart: the ending is
+> performed easily and unilaterally, and the crossing-out never happens.
+>
+> **Falsifier, unchanged in force and now more specific:** a documented case
+> where Dan unilaterally makes a relationship or account permanently
+> unreachable — deleted, blocked without reversal, severed and never
+> reactivated — with no participation from the other party.
+
+**Falsifier:** a documented case where Dan
 himself, unforced, declares and executes a permanent closure with no
 later reopening. None has been found in this pass; the 2015–2025 Rick
 correspondence was checked specifically for this and failed to supply one
@@ -826,3 +865,15 @@ cost:
   whose names enter the ambient search layer (the redundancy gauge); and the
   housing variable, which stopped being a question and became a deadline while
   the source document was being compiled.
+
+> **RE-CHECKED [2026-08-15] — the three remaining moved premises, closed.**
+> [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-15) moved only to retract
+> an "Alexis cheating revelation" bullet from its 2015 sequence; the quantity
+> this page takes from it — continuous occupancy of the primary slot for
+> seventeen years — is unchanged and, with the bullet gone, rests on a closure
+> that had no cause rather than one that did, which is the stronger reading for
+> Prediction 1. [[wiki/mind/synthesis/block-unblock-loop]] and
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]] (both 2026-08-13) moved on
+> the June 1 severance and the direction-field convention; the first is handled
+> in the RETRACTION above, and the second touches sender attribution on a
+> February 2025 row this page never cites. No further revision required.

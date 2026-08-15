@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-11
+date_modified: 2026-08-15
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -460,3 +460,23 @@ comparison, or the Arnu prediction above — and are noted here only because
 > (a new detail on the December 2, 2015 origin night) didn't touch either
 > argument. No new claim, date, or figure entered either page. This page's
 > dependency on both is untouched.
+
+> **RE-CHECKED [2026-08-15] — both open premises closed; one of them confirms
+> this page rather than merely sparing it.**
+> [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-15) retracted the "Alexis
+> cheating revelation" from the November 2015 sequence: the message it rested
+> on describes a **2009** episode, and the corpus places Alexis in Dan's house
+> until December 1 and in Pennsylvania until January 2016
+> ([[wiki/mind/synthesis/bond-switch-2015]]). **This is a direct confirmation of
+> the 2026-08-08 block above**, which already read the Alexis occupancy as "an
+> entry with no audit, a tenure with no audit, and an exit that was a
+> substitution rather than a finding." That last clause was the weakest of the
+> three while a betrayal sat in the week — a betrayal *is* a finding, and an
+> exit that follows one is an audit concluding. With the betrayal removed to
+> 2009, the exit is a substitution and nothing else. The page's own strongest
+> instance got stronger by losing a fact.
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]] (2026-08-13) — the older
+> warning, open since PR #110 — moved on the direction-field convention for
+> per-contact CSVs and the attribution of one February 2025 row. This page
+> reasons from that page's *audit-timing* finding, not from its sender
+> attributions, and cites no row from February 2025. Closed unaffected.
