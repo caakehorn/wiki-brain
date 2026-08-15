@@ -125,6 +125,7 @@ META_WORDS = [
     "revised", "corrected", "retracted", "re-check", "recheck", "date_modified",
     "date_created", "wiki-lint", "wiki-climb", "wiki-connect", "synthesizes",
     "this page", "this pass", "this session", "this analysis", "the wiki",
+    "this wiki", "read that message", "built a causal chain",
     "prior version", "previous version", "earlier version", "see above",
     "see below", "[infer]", "[derived]", "[join]", "budget", "orphan",
     "wikilink", "frontmatter", "the corpus's", "unverified against",

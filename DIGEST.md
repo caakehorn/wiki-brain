@@ -46,6 +46,7 @@ this is the state of the thing.
 ## The last few days
 
 **2026-08-15** — 21 pages
+  - fix | timeline | the 2015 "Alexis cheating" was a 2009 event, and master-timeline.md was half non-events
 
 **2026-08-14** — 5 pages
   - lint | self | the archive is 9.6x duplicated, four cited sources are empty, and 18 filenames overstate their coverage

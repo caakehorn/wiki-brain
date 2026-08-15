@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-15
-458 pages, ~907,776 tokens.
+458 pages, ~907,345 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -48618,7 +48618,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**2,015 events** across **77 years** (1796–2026), drawn from **313 pages**. Tier 1 481 · Tier 2 280 · Tier 3 1,254.
+**2,010 events** across **77 years** (1796–2026), drawn from **313 pages**. Tier 1 479 · Tier 2 280 · Tier 3 1,251.
 
 ## What counts as an event here
 
@@ -49985,8 +49985,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The 2015 Single-Bond Switch
 - ★ **November 2015** — Recomputing the breakup to **November 2015** reinstates the contemporaneity: the two events are the same week, and the v1 claim was right all along.  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
-- ★ **November 2015** — Lex cheated on me 2 weeks in after I moved her to fla."* For six years this wiki read that message as a November 2015 event and built a causal chain on it; see the correction under [The end, in one day](#the-end-in-one-day).  
-  ↳ [[wiki/people/alexis-armel]] · Full Sail, and the beginning
 - ★ **November 2015** — The relationship did not end because of something she did in November 2015; it ended because the slot was reoccupied.  
   ↳ [[wiki/people/alexis-armel]] · The end, in one day
 - ★ **November 2015** — Annie and Dan met through Alexis in November 2015.  
@@ -51600,8 +51598,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/location-history]] · Ties to Facebook Events / Security / Profile (2010+)
 - · **August 2022** — "pa" mentions frequent in loc fields. Limited older export data but consistent with FB profile timeline.  
   ↳ [[wiki/self/location-history]] · Ties to Facebook Events / Security / Profile (2010+)
-- · **September 2022** — The arc ends with the September 2022 full export — the witness repossessing his own commodified record — and, ultimately, with this wiki: the archive of the archive (facebook).  
-  ↳ [[wiki/mind/synthesis/millennial-digital-witness]] · Dan as specimen: the Facebook fossil record
 - · **September 2022** — Waiting on Dan:** the August–September 2022 question — the most precisely  
   ↳ [[wiki/mind/synthesis/totality-themes]] · Gaps and open questions carried from the third pass
 - · **2022-09-05** — Full Facebook data export (79 MB, generated Sep 5 2022) for the account **ihatedanfrank** — registered January 9, 2007.  
@@ -52702,10 +52698,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - ★ **2026-07-13** — Whether Target G is the same person as Tuquick is explicitly unresolved — an operator correction on file (2026-07-13) confirms only that Tuquick is the person Annie left Dan for and the person the June closure happened with, and states plainly "we do not know" whether he is also Target G.  
   ↳ [[wiki/people/annie-ulmer]] · A separate thread: Target G
-- · **2026-07-13** — It is closed by Dan's own statement, which this wiki treats as authoritative on facts about his own life the corpus cannot independently verify (the same standing as the 2026-07-13 Tuquick correction and the 2026-08-02 twenty-four-hour-switch correction).  
-  ↳ [[wiki/people/jerel-coles]] · How the identification was made, and what closed it
-- · **2026-07-13** — What closes it is Dan's own statement**, which this wiki treats as authoritative on facts about his own life that the message corpus cannot independently verify — the same standing given the 2026-07-13 Tuquick correction ("he is who Annie left Dan for") and the 2026-08-02 twenty-four-hour-switch…  
-  ↳ [[wiki/people/jerel-coles]] · Is Coles the unnamed man too?
 - · **2026-07-13** — The page for Franki has carried a standing note since 2026-07-13 that the "July 4" framing used elsewhere in the corpus **had no source anywhere in the archive** and was flagged rather than adopted.  
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · The fireworks date the day, almost
 - · **2026-07-13** — Financial substrate (final dossiers, added 2026-07-13):** the terminal-phase dependency structure — Dan controlling the drug supply while Annie was unemployed and dependent — was the latest of three rotations, per the accepted amendments: Dan funded the early NYC years; Dan worked through the 2023…  
@@ -52786,8 +52778,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/youtube-watch-history]] · Identity
 - ★ **2026-07-23** — 52-day severance ends  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
-- ★ **2026-07-23** — Between the afternoon of **July 23, 2026** and just after 5:00 AM on **July 26**, Dan and Annie exchanged 624 messages, ending a 52-day silence that every page in this wiki had recorded as the end of the relationship.  
-  ↳ [[wiki/timeline/events/july-2026-recontact]] · The July 2026 Re-contact
 - · **2026-07-23** — It held **fifty-two days** — better than any of the previous 127 by an order of magnitude, all of which reopened inside 48 hours — and then failed on July 23, 2026, running 624 messages across four days (july 2026 recontact).  
   ↳ [[wiki/mind/synthesis/block-unblock-loop]] · What this changes
 - · **2026-07-23** — Live, not closed** — contact resumed July 23, 2026 after a 52-day silence and ran 624 messages in four days (july 2026 recontact).  
@@ -52943,7 +52933,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 313 wiki pages. 500 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 313 wiki pages. 505 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================

@@ -10,6 +10,8 @@ simply listed.
 
 ## 2026-08-15 — 21 pages
 
+- **Session log:** fix | timeline | the 2015 "Alexis cheating" was a 2009 event, and master-timeline.md was half non-events
+
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes moved to retract Prediction 1's supporting clause (the Annie bond did not "only ever close when an outside party forced it" — Dan issued the June 1 2026 severance himself and held it 5 |
