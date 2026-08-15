@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-13
+date_modified: 2026-08-15
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - "raw/self/message-csv/THE END FIGHT.csv"
@@ -485,3 +485,13 @@ Menore control, or any prediction this page tracks.
 - Blocking events with minor contacts (the long tail) have not been
   systematically mined; the loop's frequency outside intense bonds is
   unmeasured.
+
+> **RE-CHECKED [2026-08-15] — premise moved, conclusion unaffected.**
+> [[wiki/people/annie-ulmer]] moved on 2026-08-15, but only inside its
+> 2026-08-02 REVISED block, and only to restate how the November 2015 sequence
+> opened: the "Alexis cheating revelation" clause was replaced with the
+> introduction date (~Nov 24, made by Alexis herself) after the underlying
+> message was redated to 2009 ([[wiki/mind/synthesis/bond-switch-2015]]). That
+> block's actual finding — that the twenty-four-hour switch was Dan's, not
+> Annie's — is untouched and is what this page cites. No block/unblock count,
+> date or declared-exit tally moves.

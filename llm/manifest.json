@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-14",
+ "generated": "2026-08-15",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 457,
+ "page_count": 458,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1298,7 +1298,7 @@
    "title": "The Alias Is a Clock, Not a Style",
    "summary": "Dan has released music under four names in thirteen years, and the renaming has never once corresponded to a change in the music. Across SLOPPP, MOGZART and ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/alias-as-periodization.txt",
-   "bytes": 8329
+   "bytes": 9154
   },
   {
    "page": "wiki/mind/synthesis/ancestral-dialectic.md",
@@ -1312,42 +1312,42 @@
    "title": "Attachment Trauma Bond and Aura Illness",
    "summary": "The ten-year relationship between Dan and [[wiki/people/annie-ulmer|Annie]], spanning from their initial meeting on Thanksgiving weekend in November 2015 to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/attachment-trauma-bond.txt",
-   "bytes": 18402
+   "bytes": 19411
   },
   {
    "page": "wiki/mind/synthesis/block-unblock-loop.md",
    "title": "The Block/Unblock Loop",
    "summary": "Across the corpus, Dan's severances follow one script: **the exit is declared, not executed.** A block, an \"I'm done,\" an account abandonment \u2014 a bounded bur...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/block-unblock-loop.txt",
-   "bytes": 31953
+   "bytes": 32596
   },
   {
    "page": "wiki/mind/synthesis/bond-switch-2015.md",
    "title": "The 2015 Single-Bond Switch",
    "summary": "This event is one instance of a longer pattern; see",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/bond-switch-2015.txt",
-   "bytes": 13751
+   "bytes": 17513
   },
   {
    "page": "wiki/mind/synthesis/dan-annie-fallout-verdict.md",
    "title": "The Dan/Annie Fallout \u2014 Was He Correct to Feel Wronged? (Raw-Evidenced)",
    "summary": "The verdict, stated plainly: **yes \u2014 on the documented facts, Dan was correct to feel wronged, and the feeling was not a misreading.** The record supports a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dan-annie-fallout-verdict.txt",
-   "bytes": 46997
+   "bytes": 47553
   },
   {
    "page": "wiki/mind/synthesis/dormancy-not-exit.md",
    "title": "Dormancy, Not Exit",
    "summary": "**Nothing leaves this graph.** Every sustained relationship in the corpus that the record describes as \"over\" is, on inspection, not over \u2014 it has changed ro...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dormancy-not-exit.txt",
-   "bytes": 30218
+   "bytes": 31628
   },
   {
    "page": "wiki/mind/synthesis/estate-money-spine.md",
    "title": "The Estate / Money Spine",
    "summary": "Money in this biography does not accumulate; it **arrives in lumps and exits through standing drains.** This page traces the capital timeline as a single cau...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/estate-money-spine.txt",
-   "bytes": 16109
+   "bytes": 16566
   },
   {
    "page": "wiki/mind/synthesis/fayette-return.md",
@@ -1417,7 +1417,7 @@
    "title": "The Single Channel",
    "summary": "Wherever a distributed architecture is available to him, Dan runs **one channel at maximum voltage instead**. This is not a description of his personality; i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/single-channel.txt",
-   "bytes": 19058
+   "bytes": 19719
   },
   {
    "page": "wiki/mind/synthesis/spatial-behavior.md",
@@ -1431,14 +1431,14 @@
    "title": "The Supply Network",
    "summary": "Since January 2011, Dan has been on a daily Suboxone regimen \u2014 fifteen years, described in the primary sources as structural rather than recreational: a medi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/supply-network.txt",
-   "bytes": 25321
+   "bytes": 25831
   },
   {
    "page": "wiki/mind/synthesis/the-deferred-audit.md",
    "title": "The Deferred Audit",
    "summary": "Dan audits everything. What decides the outcome is not *whether* the audit runs \u2014 it always runs \u2014 but **when**, and the schedule is set by a single question...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-deferred-audit.txt",
-   "bytes": 30172
+   "bytes": 31552
   },
   {
    "page": "wiki/mind/synthesis/the-embedded-objective.md",
@@ -1452,14 +1452,14 @@
    "title": "The Unbroken Bond",
    "summary": "Since leaving high school, Dan has been continuously inside a long-term monogamous relationship for approximately **seventeen years**, with an unattached tot...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-unbroken-bond.txt",
-   "bytes": 23714
+   "bytes": 24611
   },
   {
    "page": "wiki/mind/synthesis/totality-themes.md",
    "title": "Totality Themes",
    "summary": "**The single generative rule this page derives, stated in one sentence:** an action, object, or relationship is trusted, left alone, and allowed to run indef...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/totality-themes.txt",
-   "bytes": 56750
+   "bytes": 60221
   },
   {
    "page": "wiki/mind/synthesis/vertical-authority-skepticism.md",
@@ -1501,7 +1501,7 @@
    "title": "Alexis Armel",
    "summary": "Alexis Armel \u2014 \"Lex\" \u2014 was Dan Frank's partner for roughly six years, from late 2009 to November 28, 2015. She is the longest relationship of his life before...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/alexis-armel.txt",
-   "bytes": 23757
+   "bytes": 28372
   },
   {
    "page": "wiki/people/ally-lubin.md",
@@ -1522,7 +1522,7 @@
    "title": "Annie (Anne Louise Ulmer)",
    "summary": "Annie Ulmer was Dan's partner for ten years and seven months \u2014 November 28, 2015 to June 1, 2026 \u2014 and is the only relationship in his documented history to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 114215
+   "bytes": 114222
   },
   {
    "page": "wiki/people/annoying.md",
@@ -2040,7 +2040,7 @@
    "title": "Johnny (+17243223678)",
    "summary": "**Role:** Dealer (2018 era primary contact). Supplied \"b's\" (balls/cocaine reference), suboxone strips (8mg for $15, 12mg for $20); fronts, repeated in-perso...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/johnny-dealer.txt",
-   "bytes": 11700
+   "bytes": 12542
   },
   {
    "page": "wiki/people/josh-brannan.md",
@@ -2654,9 +2654,9 @@
   {
    "page": "wiki/self/ancestry.md",
    "title": "Ancestry (Hub)",
-   "summary": "This page has been split into dedicated sub-pages to better organize the intersection of documentary genealogy and genomic data.",
+   "summary": "Dan Frank's ancestry is a multi-generational blend of Eastern European Jewish (Frank/Harris line from Russia and Austria), Anglo-American Protestant (Gilling...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/ancestry.txt",
-   "bytes": 2377
+   "bytes": 29761
   },
   {
    "page": "wiki/self/chats/9-11-chat.md",
@@ -2801,23 +2801,23 @@
   {
    "page": "wiki/self/lineage/23andme-genomics.md",
    "title": "23andMe Genomics",
-   "summary": "Genomic profile exported from 23andMe provides a biological cross-reference to the documentary family tree, highlighting a significant Neanderthal variant lo...",
+   "summary": "The full extraction of Dan Frank's 23andMe genomic profile \u2014 ancestry composition, haplogroups, chromosome painting, Neanderthal ancestry, health predisposit...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/lineage/23andme-genomics.txt",
-   "bytes": 2630
+   "bytes": 19584
   },
   {
    "page": "wiki/self/lineage/family-tree.md",
    "title": "Family Tree",
-   "summary": "The documentary genealogical record of Dan Frank's ancestry, derived from an Ancestry.com GEDCOM file containing 515 individuals, establishes a deep regional...",
+   "summary": "The documentary genealogical record of Dan Frank's ancestry, derived from an Ancestry.com GEDCOM file containing 515 individuals and 218 families, establishe...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/lineage/family-tree.txt",
-   "bytes": 6448
+   "bytes": 19183
   },
   {
    "page": "wiki/self/lineage/hybrid-analysis.md",
    "title": "Hybrid Lineage Analysis",
-   "summary": "This speculative synthesis cross-references 23andMe genomic data against the Ancestry.com documentary record to map the interaction between biological inheri...",
+   "summary": "This page cross-references the 23andMe genomic data against the Ancestry.com documentary record to map the interaction between biological inheritance and cul...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/lineage/hybrid-analysis.txt",
-   "bytes": 2442
+   "bytes": 8763
   },
   {
    "page": "wiki/self/lineage/index.md",
@@ -2992,7 +2992,7 @@
    "title": "Master Life Events Timeline",
    "summary": "**Source:** LIFE_EVENTS_CALENDAR.md (auto-extracted from 175,358 iMessages Nov 2015 \u2013 Mar 2026)",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/timeline.txt",
-   "bytes": 6910
+   "bytes": 7166
   },
   {
    "page": "wiki/timeline/events/uniontown-hospital-vape-alarm.md",
@@ -3004,9 +3004,16 @@
   {
    "page": "wiki/timeline/index.md",
    "title": "timeline \u2014 index",
-   "summary": "",
+   "summary": "order** (2,015 events, 1796\u20132026, drawn from 313 pages), each linked back to the page and section that documents it. Generated by `bin/wiki-timeline`; fix an...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/index.txt",
-   "bytes": 4803
+   "bytes": 5136
+  },
+  {
+   "page": "wiki/timeline/master-timeline.md",
+   "title": "Master Timeline",
+   "summary": "Every dated event recorded anywhere in this wiki, in order, each linked back to the page and section that documents it.",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/master-timeline.txt",
+   "bytes": 499446
   },
   {
    "page": "wiki/timeline/periods/2010s.md",
@@ -3020,7 +3027,7 @@
    "title": "2015-2016 Annie Relationship Start",
    "summary": "**Date range:** Nov 2015 - 2016",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2015-2016-annie-relationship-start.txt",
-   "bytes": 6070
+   "bytes": 7638
   },
   {
    "page": "wiki/timeline/periods/2017-poverty-floor.md",
@@ -3090,14 +3097,14 @@
    "title": "Full Sail (Sep 2008 \u2013 Mar 2010)",
    "summary": "Three years after the November 2005 family rupture and one year into the opiate arc ([[wiki/timeline/periods/dark-era-2007-2008]]), Dan left Uniontown for Wi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/full-sail-2008-2010.txt",
-   "bytes": 10102
+   "bytes": 11140
   },
   {
    "page": "wiki/timeline/periods/uniontown-return-2013-2015.md",
    "title": "Uniontown Return (2013\u20132015)",
    "summary": "The most-corrected stretch in the whole timeline. For two and a half years \u2014 **May 2013 to Thanksgiving 2015** \u2014 Dan was back in Uniontown, not New York, and...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/uniontown-return-2013-2015.txt",
-   "bytes": 6987
+   "bytes": 7849
   },
   {
    "page": "wiki/work/au-zaatar.md",

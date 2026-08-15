@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-13
+date_modified: 2026-08-15
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv
@@ -356,3 +356,12 @@ being rigorous.
 > (the Dec 2 fear-of-abandonment message) with a concrete cause and touches
 > neither the money figures, the twenty-four-hour switch dating, nor any
 > other claim this page's verdict draws on. Nothing here needed revising.
+
+> **RE-CHECKED [2026-08-15] — premise moved, conclusion unaffected.**
+> [[wiki/people/annie-ulmer]] moved on 2026-08-15 for the Alexis redating
+> correction ([[wiki/mind/synthesis/bond-switch-2015]]): a November 2015 clause
+> inside that page's 2026-08-02 REVISED block now names the introduction date
+> instead of a cheating revelation. This page's verdict reasons entirely from
+> the 2025–2026 terminal phase — the admission line, the direction-field
+> convention, the June 1 closure — and cites nothing from November 2015. Closed
+> unaffected.

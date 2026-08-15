@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-11
+date_modified: 2026-08-15
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -132,7 +132,21 @@ This somatic toll was the result of a specific typological collision. Dan's INTP
 
 ## The single-bond switch (the Alexis→Annie transfer)
 
-The Annie bond did not arrive into an empty attachment field. It replaced the one prior long-term target. The 2015 transition is documented in detail at [[wiki/mind/synthesis/bond-switch-2015]]: the Alexis relationship ended and the Annie bond formed in the *same week* (Alexis cheating revelation Nov 28 2015; Annie met Nov 29; Dan's own same-night outbound text, "Things are collapsing with lex. You might be seeing a lot more Annie very soon," is the earliest primary-source record of the pivot). The bootloader names this the **single-bond switch** — one bond closing as the other opens, with no unattached gap.
+The Annie bond did not arrive into an empty attachment field. It replaced the one prior long-term target. The 2015 transition is documented in detail at [[wiki/mind/synthesis/bond-switch-2015]]: the Alexis relationship ended and the Annie bond formed in the *same week* (introduction ~Nov 24, made by Alexis herself; Annie met in person Nov 29; Dan's own same-night outbound text, "Things are collapsing with lex. You might be seeing a lot more Annie very soon," is the earliest primary-source record of the pivot; Alexis moves out Dec 1). The bootloader names this the **single-bond switch** — one bond closing as the other opens, with no unattached gap.
+
+> **CORRECTED 2026-08-15 — there was no "Alexis cheating revelation" in this
+> week, and the sentence above used to say there was.** The Nov 28 2015 message
+> Dan sent Annie — *"Lex cheated on me 2 weeks in after I moved her to fla"* —
+> is him narrating the **2009** beginning of the Alexis relationship as a
+> contrast to how the Annie one was starting; the line immediately before it is
+> *"I love this it's the exact opposite way I started my last relationship."*
+> Alexis was living in Dan's Uniontown house that entire week and did not go to
+> Florida until January 2016. Full evidence at
+> [[wiki/mind/synthesis/bond-switch-2015]]. **For the trauma-bond read the
+> correction cuts the right way:** the switch had no precipitating grievance, so
+> the transfer cannot be explained as a justified response to betrayal — which
+> is what the paragraph below needs it to be if "the vacated socket" is to mean
+> anything mechanical rather than circumstantial.
 
 This matters for the trauma-bond read because Alexis is the **control case**: across ~6 years the deep attachment system never fully activated for her, which is exactly why the Annie activation operated at a categorically higher magnitude. There was no prior experience metabolizing a deep-bond break, so when the Annie bond finally collapsed in 2026 the substrate was uncalibrated — the loss registered as historical pain (the 2004–05 parental rupture, the Alexis collapse) precisely because those earlier endings had never been fully processed. The lair itself is part of this: [[wiki/places/155-virginia-ave|155 Virginia Avenue]], "the Alexis lair," is the apartment Annie moved into when the new relationship began — the singular bond slot was reoccupied while the physical fortress stayed constant (self-preservation lair-continuity). The trauma bond's origin is thus not just "Annie," but "Annie installed into the vacated socket of an unclosed Alexis attachment, inside the same walls."
 

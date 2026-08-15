@@ -5,7 +5,7 @@ title: "The Alias Is a Clock, Not a Style"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-11
+date_modified: 2026-08-15
 date_range_start: 2013-01-01
 date_range_end:
 synthesizes:
@@ -128,3 +128,16 @@ a period ended, the alias record was not written to persuade anyone.
 > confirmation about the May 2014 account migration. This page's dependency
 > is only on the generic "alias churn is one instrument of the totality
 > pattern" claim, which neither edit touched. Nothing here needed revising.
+
+> **RE-CHECKED [2026-08-15] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/totality-themes]] moved to retract Prediction 1's
+> supporting clause (the Annie bond did not "only ever close when an outside
+> party forced it" — Dan issued the June 1 2026 severance himself and held it
+> 52 days) and to restate the firewall as governing *irreversibility* rather
+> than the act of ending. This page instantiates the firewall's **identity
+> layer**: rename the exposed handle, never the involuntary sub-bass
+> signature. That prediction is untouched by the restatement, and if anything
+> reads more cleanly under it — an alias rotation is precisely a closure that
+> stays reversible, since every prior name remains reachable and nothing is
+> deleted. No date, figure or alias boundary on this page moves.
+

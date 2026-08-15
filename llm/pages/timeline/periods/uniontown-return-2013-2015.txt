@@ -4,12 +4,11 @@ page_type: period
 status: stable
 knowledge: mixed
 date_created: 2026-07-18
-date_modified: 2026-07-18
+date_modified: 2026-08-15
 date_range_start: 2013-05-01
-date_range_end: 2015-11-28
+date_range_end: 2015-12-01
 sources: ["raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-scan/Gemini-_58.txt", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/facebook/facebook-ihatedanfrank/"]
 tags: [relationships, uniontown-era, addiction-recovery]
-connections:
 connections:
   - page: wiki/timeline/events/franki-fireworks-day-2013
     type: contains
@@ -19,7 +18,7 @@ connections:
     claim: "This period opens the moment NYC-1 closes — the May 2013 departure from Manhattan back to Uniontown is the hinge, and it is the fact the old timeline framing got wrong by filing these years under New York."
   - page: wiki/timeline/periods/2015-2016-annie-relationship-start
     type: precedes
-    claim: "The period ends exactly at the Alexis→Annie switch of Thanksgiving weekend 2015 — Alexis cheated Nov 28, Dan met Annie Nov 29 — which opens the relationship-start period."
+    claim: "The period ends exactly at the Alexis→Annie switch of Thanksgiving weekend 2015 — Annie introduced ~Nov 24 by Alexis herself, met in person Nov 29, Alexis moved out Dec 1 — which opens the relationship-start period."
   - page: wiki/interests/music/aliases/sloppp
     type: contains
     claim: "SLOPPP — Dan's first named production alias (2013 launch, 2014 output peak) — is the era's signature project, the recording-arts ambition surviving the NYC-career failure by migrating to a Uniontown SoundCloud."
@@ -28,7 +27,7 @@ connections:
     claim: "The SLOPPP→MOGZART alias handoff (~2014) lands inside this period and on the May-2014 account rotation the migration-grammar analysis flags — the identity churn is dateable to these years."
   - page: wiki/people/alexis-armel
     type: contains
-    claim: "The five-year Alexis relationship runs out its endgame here, ending Nov 28 2015 when she cheated 'two weeks in after I moved her to fla' — the collapse that immediately precedes the Annie genesis."
+    claim: "The five-year Alexis relationship runs out its endgame here, ending across Nov 29 - Dec 1 2015 with no grievance on her side on the record — the uncaused collapse that immediately precedes the Annie genesis."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: precedes
     claim: "This period is the runway to the single-bond switch: the whole 2013–2015 stretch is the Alexis relationship winding down toward the same-week transfer that this synthesis page analyzes."
@@ -87,10 +86,11 @@ all of NYC-1 — reached its end in this period. The
 covers the mechanics in full; the period-level fact is the sequence.
 **January 2015:** Dan moved into **155 Virginia Ave**, the apartment
 context-core calls "the Alexis lair," leased during the relationship's
-end phase. **November 28, 2015:** Alexis cheated — "two weeks in after I
-moved her to fla," per the life calendar. **November 29, 2015:** Dan met
-Annie, at the Uniontown Country Club golf course around 2am in the rain,
-and left Alexis within a day. Annie moved into 155 Virginia — the same
+end phase. **~November 24, 2015:** Annie enters, introduced by Alexis
+herself. **November 29, 2015:** Dan met
+Annie in person, at the Uniontown Country Club golf course around 2am in the
+rain, and left Alexis within a day; Alexis moved out **December 1**. Annie
+moved into 155 Virginia — the same
 apartment — making the transfer a *swap*, not a relocation: the
 [[wiki/places/155-virginia-ave|lair-continuity]] the switch turns on. A
 brief 2013 [[wiki/people/franki-faris|Franki]] blip earlier in the
@@ -98,10 +98,22 @@ period ("I really didn't have the romantic feelings for franki that i
 said i did at the time," then a return to Alexis) had already rehearsed
 the same slot mechanics.
 
+> **CORRECTED 2026-08-15 — this section used to date an Alexis infidelity to
+> November 28, 2015 and read it as the trigger.** The message behind it (*"Lex
+> cheated on me 2 weeks in after I moved her to fla"*) is Dan telling Annie how
+> the Alexis relationship **began, in 2009**, at Full Sail — the line before it
+> is *"the exact opposite way I started my last relationship."* Per the operator
+> the episode was online-only and has no connection to 2015. Alexis was living
+> in the Uniontown house all week and did not leave for Florida until January
+> 2016. Full evidence and the consequences for the switch thesis:
+> [[wiki/mind/synthesis/bond-switch-2015]]. **The period-level fact is
+> unchanged** — the era still ends at this exact seam — but it ends without a
+> cause on Alexis's side.
+
 ## Transition
 
-The period ends precisely at the switch. November 28–29, 2015 closes the
-Alexis era and opens
+The period ends precisely at the switch. November 29 – December 1, 2015 closes
+the Alexis era and opens
 [[wiki/timeline/periods/2015-2016-annie-relationship-start|the Annie
 relationship]] — which inherits the apartment, the town, and the alias
 identity mid-transition, and runs from here to 2026.

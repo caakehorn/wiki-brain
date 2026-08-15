@@ -3,7 +3,7 @@ domain: timeline
 page_type: event
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-08-15
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/LIFE REPORT.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/*", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/FAVORITES DATA (2).md", "raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/ancestry/"]
 connections:
   - page: wiki/people/johnny-dealer
@@ -36,7 +36,7 @@ tags: [relationships, infidelity, financial-stress, career, ai-collaboration]
 - **2026**: Closure, 86 events.
 
 **Sample Events (expanded from LIFE_EVENTS_CALENDAR.md + operating_manual + FB cross + Gemini bio; full 1,104 in raw):**
-- 2015-11-28: Lex cheated on me 2 weeks in after I moved her to fla (💔 Cheating/Affair). Per operating: moved Lex to fla. [[wiki/people/alexis-armel]]
+- 2015-11-28: Dan narrates the **2009** origin of the Alexis relationship to Annie ("Lex cheated on me 2 weeks in after I moved her to fla") as a contrast to how the new one is starting. **Not a 2015 event** — the LIFE_EVENTS_CALENDAR row that dated it here classified a retrospective message by its send date; corrected 2026-08-15, see [[wiki/mind/synthesis/bond-switch-2015]]. [[wiki/people/alexis-armel]]
 - 2015-11-29: Met Annie Ulmer at Uniontown Country Club golf course 2am rain; "I met someone that instantly changed my life and showed me that I was really unhappy"; "Fuck my friends. Fuck birthday dinner." Genesis per operating_manual + calendar.
 - 2015-12: Multiple: Breakup with Lex ("Call him and be like. Listen I broke up with lex, I'm in love with Annie Ulmer"); First Date notes; Moved; Got Hired; Panic Attack; Arrest refs in context of prior. 39 events in Dec alone. (See 2015-2016 period)
 - 2016-01: Quit Job; Breakup comms with Annie; Holiday gathering (Caitlin cousin); Road trip refs; Major Decision "You know that you've changed my life"; Engagement tease Valentine's; Fran hospitalized; Moved mentions.
