@@ -12,8 +12,8 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 458 |
-| Pages touched in the last 14 days | 225 |
+| Pages | 459 |
+| Pages touched in the last 14 days | 226 |
 | Pages reasoning from other pages (`synthesizes:`) | 27 |
 | Live contradictions | 30 |
 | Open gaps | 157 |
@@ -26,7 +26,7 @@ this is the state of the thing.
 | people | 161 |
 | interests | 143 |
 | mind | 59 |
-| timeline | 33 |
+| timeline | 34 |
 | self | 32 |
 | work | 15 |
 | places | 8 |
@@ -38,14 +38,14 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 184 |
-| active | 132 |
+| active | 133 |
 | closed | 99 |
 | archived | 31 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-08-15** — 22 pages
+**2026-08-15** — 23 pages
   - fix | timeline | the 2015 "Alexis cheating" was a 2009 event, and master-timeline.md was half non-events
 
 **2026-08-14** — 5 pages
