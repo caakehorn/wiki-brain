@@ -46,7 +46,7 @@ connections:
 - 2015-11-30: Alexis still in the house ("Alexis is sloshed"); Suz offers Dan a car "if I get Alexis out."
 - 2015-12-01: Alexis moves out of 155 Virginia ("Helping lex leave").
 - 2015-12-01 to 09: Breakup with Lex ("I'm in love with Annie Ulmer"); "Is this the best day of my life"; Moved; Got Hired (Mom/parents squash attempt due to rep); Panic Attack; First Date ("our almost first date"); Arrest context.
-- ~2016-01-18: Alexis leaves Pennsylvania for Florida ("I know but she leaves for fla this week") — seven weeks after the breakup, and the only Florida relocation the 2015-16 record contains.
+- ~2016-01-18: **Fran** leaves for her Florida winter ("I know but she leaves for fla this week" — Dan to Annie, explaining why he needs to finish a paid work list at his grandmother's now). Logged here because an earlier pass on 2026-08-15 misread this "she" as Alexis; Alexis's only Florida residency was 2009–2010.
 - 2016-01 samples: Quit Job; Annie breakup comms + church; Holiday (Cousin Caitlin Christmas Eve); Road trip prefs; Major Decision "you've changed my life"; Valentine's engagement tease "crossing paths ring"; Fran hospitalized; Moved/job step out of town.
 - Full Sail/early context (Gemini-_18 + _58): 2010 Full Sail Recording Arts grad + Pro Tools cert; 2011-13 NYC ishlab audio/production; pre-2015 Lex as anchor during this era (photo ingest cross); _58: Lex "with me the whole time we were in nyc", Bridge Cafe job, Sandy 2012, Franki blip 2013 return to Lex; Danielle (first gf 2005-09) pre-anchor + 2010 photo cross.
 

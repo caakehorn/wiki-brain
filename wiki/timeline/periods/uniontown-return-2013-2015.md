@@ -103,9 +103,10 @@ the same slot mechanics.
 > cheated on me 2 weeks in after I moved her to fla"*) is Dan telling Annie how
 > the Alexis relationship **began, in 2009**, at Full Sail — the line before it
 > is *"the exact opposite way I started my last relationship."* Per the operator
-> the episode was online-only and has no connection to 2015. Alexis was living
-> in the Uniontown house all week and did not leave for Florida until January
-> 2016. Full evidence and the consequences for the switch thesis:
+> the episode was online-only and has no connection to 2015. Alexis lived in
+> Florida exactly once — 2009 to April 2010, the Full Sail stretch — and was
+> living in the Uniontown house all through the week in question. Full evidence
+> and the consequences for the switch thesis:
 > [[wiki/mind/synthesis/bond-switch-2015]]. **The period-level fact is
 > unchanged** — the era still ends at this exact seam — but it ends without a
 > cause on Alexis's side.

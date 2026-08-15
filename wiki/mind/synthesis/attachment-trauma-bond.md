@@ -140,8 +140,8 @@ The Annie bond did not arrive into an empty attachment field. It replaced the on
 > is him narrating the **2009** beginning of the Alexis relationship as a
 > contrast to how the Annie one was starting; the line immediately before it is
 > *"I love this it's the exact opposite way I started my last relationship."*
-> Alexis was living in Dan's Uniontown house that entire week and did not go to
-> Florida until January 2016. Full evidence at
+> Alexis was living in Dan's Uniontown house that entire week, and her only
+> Florida residency was 2009–2010. Full evidence at
 > [[wiki/mind/synthesis/bond-switch-2015]]. **For the trauma-bond read the
 > correction cuts the right way:** the switch had no precipitating grievance, so
 > the transfer cannot be explained as a justified response to betrayal — which

@@ -473,9 +473,11 @@ documents across different people.
 > starting point, not just a documented pattern.
 > **Second**, the corpus timeline in that correction sharpens the re-roling
 > evidence this page's `alexis-armel` edge already claims: Alexis was living in
-> Dan's house through November 30, moved out December 1, and stayed in
-> Pennsylvania until mid-January 2016 — seven weeks of continued proximity
-> *after* the replacement had arrived, before the November 2018 arrangement and
-> the correspondence to 2025. The gap between "ended" and "gone" is now
-> measurable at the resolution of days at the very moment the bond was replaced.
-> Nothing on this page is withdrawn.
+> Dan's house through November 30 and moved out December 1 — she did not leave
+> the area, and she remained in the record continuously through the November
+> 2018 arrangement and the correspondence to 2025. The gap between "ended" and
+> "gone" is now measurable at the resolution of days at the very moment the bond
+> was replaced. Nothing on this page is withdrawn.
+> *(A first version of this block put her departure from Pennsylvania in
+> mid-January 2016 on a misread pronoun; corrected the same day — see
+> [[wiki/mind/synthesis/bond-switch-2015]]. She stayed.)*
