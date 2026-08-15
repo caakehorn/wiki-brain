@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-15 — 21 pages
+## 2026-08-15 — 22 pages
 
 - **Session log:** fix | timeline | the 2015 "Alexis cheating" was a 2009 event, and master-timeline.md was half non-events
 
@@ -28,6 +28,7 @@ simply listed.
 | [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — the-unbroken-bond (2026-08-15) moved only to retract an "Alexis cheating revelation" bullet from its 2015 sequence; the quantity this page takes from it — continuous occupancy of the primary slot for  |
 | [[wiki/people/alexis-armel]] | people | **CORRECTED** — The page previously opened this table with *"~mid-Nov 2015 | Dan moves her to Florida"* and read the next day's message — *"Lex cheated on me 2 weeks in after I moved her to fla"* — as a fresh betraya |
 | [[wiki/people/annie-ulmer]] | people | _(carries a RE-CHECKED from 2026-08-13)_ |
+| [[wiki/people/fran-coldren]] | people | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/people/johnny-dealer]] | people | **RE-CHECKED** — timeline moved on 2026-08-15 to correct a single 2015 bullet — the "Lex cheated" calendar row, now identified as a retrospective account of a 2009 episode (bond-switch-2015). This pag |
 | [[wiki/timeline/events/timeline]] | timeline | — |
 | [[wiki/timeline/index]] | timeline | — |
@@ -165,7 +166,7 @@ simply listed.
 | [[wiki/people/lucy]] | people | — |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-08-08)_ |
 
-## 2026-08-02 — 39 pages
+## 2026-08-02 — 38 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -202,7 +203,6 @@ simply listed.
 | [[wiki/people/david-j-frank]] | people | — |
 | [[wiki/people/diane-shrum]] | people | **CORRECTED** — family-tree drew Fran's descent through **George Dixon Shrum Jr.**, Dan's maternal *grandfather*. The GEDCOM family records show the opposite: Fran's daughter is Rebecca Diane Van Voorhis, Dan's mater |
 | [[wiki/people/ellen-ulmer]] | people | — |
-| [[wiki/people/fran-coldren]] | people | **CONTRADICTION** — ancestral-dialectic offers *Fran's own great-grandmother* — "married three times under a shifting name structure" — as its archetype of "emotional dissociation via reinvention." That description fits  |
 | [[wiki/people/franki-faris]] | people | **CONTRADICTION** — This page has carried *"a five-day rebound"* and *"the Franki interlude lasted five days before collapsing,"* sourced to the Gemini-58 and DANSYNTH self-narrations, and dormancy-not-exit uses that fig |
 | [[wiki/people/fred-adams]] | people | — |
 | [[wiki/people/jay-lauer]] | people | — |

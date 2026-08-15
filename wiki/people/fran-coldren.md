@@ -8,7 +8,7 @@ importance: critical
 relation_type: family
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-02
+date_modified: 2026-08-15
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, uniontown-era, grief, music-production, financial-stress]
 sources:
@@ -231,6 +231,23 @@ and driver for numark ns7 II" — though it does not date the gift.
 Every alias since (SLOPPP, MOGZART, GRIPNOTIC) and the involuntary sub-bass
 signature running through them ([[wiki/interests/music/concepts/sub-bass-signature]])
 trace to the patronage of a woman born in a West Virginia coal town in 1920.
+
+The patronage also ran in a smaller, more ordinary register: **paid work at her
+house, timed around her Florida winters.** On **2016-01-18** Dan tells Annie he
+has *"went to grams and made a list of work to do for her tomorrow"* because he
+needs money for a tux; Annie points out the event *"[isn't] until the end of
+February,"* and he answers *"I know but she leaves for fla this week."* The
+snowbird departure set the deadline — the work had to be done and paid before
+she left. It is a small window onto the routine mechanics of the arrangement
+that the large gifts obscure, and it independently dates one of the Florida
+winters the page otherwise refers to only in general terms.
+
+> **Filed here 2026-08-15 after being misattributed elsewhere.** That message
+> was briefly read on [[wiki/people/alexis-armel]] as Alexis relocating to
+> Florida in January 2016, which was wrong on two counts: the conversation is
+> Dan↔Annie about Fran, and Alexis's only Florida residency was 2009–2010. The
+> correction is recorded at [[wiki/mind/synthesis/bond-switch-2015]]; the
+> datapoint belongs to Fran.
 
 ## The caregiving arrangement (≈October 2017 – April 2018)
 

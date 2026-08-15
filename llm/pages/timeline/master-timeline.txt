@@ -20,7 +20,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**2,010 events** across **77 years** (1796–2026), drawn from **313 pages**. Tier 1 479 · Tier 2 280 · Tier 3 1,251.
+**2,012 events** across **77 years** (1796–2026), drawn from **313 pages**. Tier 1 478 · Tier 2 282 · Tier 3 1,252.
 
 ## What counts as an event here
 
@@ -1574,7 +1574,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - · **2016-01-09** — Annie's own messages confirm both a shared history and lasting physical effects — "Two people with previous eating disorders together is something else" (Jan 9 2016) and, describing herself, "I know that I fucked my stomach up from having an eating disorder" (May 31 2016).  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The eating disorder
-- ★ **2016-01-18** — Alexis leaves Pennsylvania for Florida ("I know but she leaves for fla this week") — seven weeks after the breakup, and the only Florida relocation the 2015-16 record contains.  
+- ◆ **2016-01-18** — The patronage also ran in a smaller, more ordinary register: **paid work at her house, timed around her Florida winters.** On **2016-01-18** Dan tells Annie he has *"went to grams and made a list of work to do for her tomorrow"* because he needs money for a tux; Annie points out the event *"[isn't]…  
+  ↳ [[wiki/people/fran-coldren]] · The patron
+- ◆ **2016-01-18** — Fran** leaves for her Florida winter ("I know but she leaves for fla this week" — Dan to Annie, explaining why he needs to finish a paid work list at his grandmother's now). Logged here because an earlier pass on 2026-08-15 misread this "she" as Alexis  
+  ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
+- · **2016-01-18** — Alexis's only Florida residency was 2009–2010.  
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - ◆ **2016-01-20** — ARD office visit to check application status  
   ↳ [[wiki/legal/2015-possession-arrest]] · Case timeline

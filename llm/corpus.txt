@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-15
-458 pages, ~907,345 tokens.
+458 pages, ~908,258 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -15169,8 +15169,8 @@ The Annie bond did not arrive into an empty attachment field. It replaced the on
 > is him narrating the **2009** beginning of the Alexis relationship as a
 > contrast to how the Annie one was starting; the line immediately before it is
 > *"I love this it's the exact opposite way I started my last relationship."*
-> Alexis was living in Dan's Uniontown house that entire week and did not go to
-> Florida until January 2016. Full evidence at
+> Alexis was living in Dan's Uniontown house that entire week, and her only
+> Florida residency was 2009–2010. Full evidence at
 > [[wiki/mind/synthesis/bond-switch-2015]]. **For the trauma-bond read the
 > correction cuts the right way:** the switch had no precipitating grievance, so
 > the transfer cannot be explained as a justified response to betrayal — which
@@ -15851,14 +15851,17 @@ The bootloader's reconstructed chronology, cross-checked against the message rec
 > moved her to. Per the operator it was an **online-only** episode. It is now
 > filed at [[wiki/people/alexis-armel]] under the relationship's beginning.
 >
-> **The corpus refutes the 2015 reading independently of the operator.** Alexis
-> was living with Dan in Uniontown throughout the window the old chronology
-> placed her in Florida — "Alexis is sloshed" (Nov 30), "Helping lex leave"
-> (Dec 1), "Alexis only left yesterday" (Dec 2) — and did not leave for Florida
-> until **2016-01-18** ("I know but she leaves for fla this week"), seven weeks
-> after the breakup. `wiki/people/alexis-armel` had additionally invented a
-> "~mid-Nov 2015 Dan moves her to Florida" row by back-computing "2 weeks" from
-> the message timestamp; no source ever asserted it.
+> **The residence record settles it without needing the message at all.**
+> Alexis lived in Florida exactly once, **2009 to April 2010** — the Full Sail
+> stretch, ending when she and Dan moved to Brooklyn together. There is no
+> second Florida move in her record, so "after I moved her to fla" has one
+> possible referent. The message corpus agrees for the specific week: Alexis was
+> living with Dan in Uniontown throughout the window the old chronology placed
+> her in Florida — "Alexis is sloshed" (Nov 30), "Helping lex leave" (Dec 1),
+> "Alexis only left yesterday" (Dec 2) — and stayed in Pennsylvania after moving
+> out. `wiki/people/alexis-armel` had additionally invented a "~mid-Nov 2015 Dan
+> moves her to Florida" row by back-computing "2 weeks" from the message
+> timestamp; no source ever asserted it.
 >
 > **What this does to the thesis: it strengthens it, and the page should be read
 > as having been right for the wrong reason.** A switch executed *because the
@@ -15872,11 +15875,28 @@ The bootloader's reconstructed chronology, cross-checked against the message rec
 > ended. Every downstream page that leaned on "cheating → switch" was leaning on
 > the one detail that made the switch look normal.
 >
-> **Falsifier this correction accepts:** a dated 2015 source — any channel, any
+> **Falsifier this correction accepts:** a dated source — any channel, any
 > direction — describing an Alexis infidelity contemporaneous with November
-> 2015, or placing her in Florida before January 2016, would restore the old
-> reading. The Nov 28 – Dec 2 window was swept across the full dump for this
-> pass and produced the opposite: an Alexis continuously present in Uniontown.
+> 2015, or placing her in Florida at any point after April 2010, would restore
+> the old reading. The Nov 28 – Dec 2 window was swept across the full dump for
+> this pass and produced the opposite: an Alexis continuously present in
+> Uniontown.
+>
+> **CORRECTION TO THIS CORRECTION [2026-08-15, same day].** The first version of
+> this block argued the point partly from a message reading *"I know but she
+> leaves for fla this week"* (2016-01-18), taken as Alexis relocating seven
+> weeks after the breakup. **That was wrong, and it was the same error this
+> block exists to fix** — a pronoun resolved to the person the passage was
+> about rather than to the person the conversation was about. In context Dan is
+> texting Annie about needing money for a tux and having gone to *"grams"* for a
+> work list: *"I went to grams and made a list of work to do for her tomorrow /
+> Because I need a tux and shit"* → Annie: *"that's not until the end of
+> February"* → *"I know but she leaves for fla this week."* **"She" is Fran**,
+> whose Florida winters are already documented on
+> [[wiki/people/fran-coldren]] — he needed the paid work done before she left.
+> Corrected per the operator, who supplied the governing fact: Alexis's only
+> Florida residency was 2009–2010. The argument above now rests on the residence
+> record, which is the stronger ground and never needed the 2016 message.
 
 The bootloader's own withdrawal-then-reinstatement is the key to the "24 hours" figure. It initially *withdrew* the v1 claim that Dan **"left Alexis within 24 hours of the Annie connection forming"** because an earlier (wrong) dating of the Alexis breakup to summer 2013 created a 2.5-year gap. Recomputing the breakup to **November 2015** reinstates the contemporaneity: the two events are the same week, and the v1 claim was right all along.
 
@@ -16806,12 +16826,14 @@ documents across different people.
 > starting point, not just a documented pattern.
 > **Second**, the corpus timeline in that correction sharpens the re-roling
 > evidence this page's `alexis-armel` edge already claims: Alexis was living in
-> Dan's house through November 30, moved out December 1, and stayed in
-> Pennsylvania until mid-January 2016 — seven weeks of continued proximity
-> *after* the replacement had arrived, before the November 2018 arrangement and
-> the correspondence to 2025. The gap between "ended" and "gone" is now
-> measurable at the resolution of days at the very moment the bond was replaced.
-> Nothing on this page is withdrawn.
+> Dan's house through November 30 and moved out December 1 — she did not leave
+> the area, and she remained in the record continuously through the November
+> 2018 arrangement and the correspondence to 2025. The gap between "ended" and
+> "gone" is now measurable at the resolution of days at the very moment the bond
+> was replaced. Nothing on this page is withdrawn.
+> *(A first version of this block put her departure from Pennsylvania in
+> mid-January 2016 on a misread pronoun; corrected the same day — see
+> [[wiki/mind/synthesis/bond-switch-2015]]. She stayed.)*
 
 
 ========================================================================
@@ -22339,7 +22361,6 @@ every beat of it:
 | 2015-12-02 | *"Listen I broke up with lex, I'm in love with Annie Ulmer"*; *"Alexis only left yesterday"* |
 | 2015-12-08 | *"That was the night before I broke up with lex"* |
 | Dec 2015 | 728 / 682 / 679 messages sent on three consecutive days to Annie |
-| ~2016-01-18 | Alexis leaves Pennsylvania for Florida — *"I know but she leaves for fla this week"* |
 
 > **CORRECTED 2026-08-15 — the "cheating" that this page dated to November 28,
 > 2015 did not happen in 2015 at all, and the Florida move it was pinned to is
@@ -22360,14 +22381,20 @@ every beat of it:
 > Florida he moved her to. Per the operator the episode was **online only, not
 > in person**, and has no connection to 2015 whatsoever.
 >
-> **The corpus independently destroys the 2015 reading.** Alexis was physically
-> in Uniontown, living with Dan, across the exact window the old table put her
+> **The residence record settles it on its own.** Alexis lived in Florida
+> **once, from 2009 to April 2010** — the Full Sail stretch in Winter Park,
+> ending when she and Dan moved to Brooklyn together (documented under
+> [New York, in her own words and his](#new-york-in-her-own-words-and-his) and
+> in this page's own `date_range_start: 2009-10-01`). There is no second
+> Florida move anywhere in her record. "After I moved her to fla" therefore has
+> exactly one referent, and it is 2009.
+>
+> **The message corpus agrees for the specific week.** Alexis was physically in
+> Uniontown, living with Dan, across the exact window the old table placed her
 > in Florida: *"Alexis is sloshed"* (Nov 30), *"I just heard lex on the phone
 > with her parents"* (Nov 30), *"Helping lex leave"* (Dec 1), *"Alexis only left
-> yesterday"* (Dec 2). She did not go to Florida until **mid-January 2016** —
-> *"I know but she leaves for fla this week"* (2016-01-18), seven weeks *after*
-> the breakup. A woman cannot be cheating on Dan in Florida two weeks into a
-> November move she did not make until the following January.
+> yesterday"* (Dec 2). She moved out of 155 Virginia on December 1 and stayed in
+> Pennsylvania.
 >
 > **This is a message-date-as-event-date failure**, the same class as the
 > `_all_now` filename trap in `EXTRACTION_SPEC.md`: a real, correctly quoted,
@@ -27920,7 +27947,7 @@ importance: critical
 relation_type: family
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-02
+date_modified: 2026-08-15
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, uniontown-era, grief, music-production, financial-stress]
 sources:
@@ -28143,6 +28170,23 @@ and driver for numark ns7 II" — though it does not date the gift.
 Every alias since (SLOPPP, MOGZART, GRIPNOTIC) and the involuntary sub-bass
 signature running through them ([[wiki/interests/music/concepts/sub-bass-signature]])
 trace to the patronage of a woman born in a West Virginia coal town in 1920.
+
+The patronage also ran in a smaller, more ordinary register: **paid work at her
+house, timed around her Florida winters.** On **2016-01-18** Dan tells Annie he
+has *"went to grams and made a list of work to do for her tomorrow"* because he
+needs money for a tux; Annie points out the event *"[isn't] until the end of
+February,"* and he answers *"I know but she leaves for fla this week."* The
+snowbird departure set the deadline — the work had to be done and paid before
+she left. It is a small window onto the routine mechanics of the arrangement
+that the large gifts obscure, and it independently dates one of the Florida
+winters the page otherwise refers to only in general terms.
+
+> **Filed here 2026-08-15 after being misattributed elsewhere.** That message
+> was briefly read on [[wiki/people/alexis-armel]] as Alexis relocating to
+> Florida in January 2016, which was wrong on two counts: the conversation is
+> Dan↔Annie about Fran, and Alexis's only Florida residency was 2009–2010. The
+> correction is recorded at [[wiki/mind/synthesis/bond-switch-2015]]; the
+> datapoint belongs to Fran.
 
 ## The caregiving arrangement (≈October 2017 – April 2018)
 
@@ -48618,7 +48662,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**2,010 events** across **77 years** (1796–2026), drawn from **313 pages**. Tier 1 479 · Tier 2 280 · Tier 3 1,251.
+**2,012 events** across **77 years** (1796–2026), drawn from **313 pages**. Tier 1 478 · Tier 2 282 · Tier 3 1,252.
 
 ## What counts as an event here
 
@@ -50172,7 +50216,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - · **2016-01-09** — Annie's own messages confirm both a shared history and lasting physical effects — "Two people with previous eating disorders together is something else" (Jan 9 2016) and, describing herself, "I know that I fucked my stomach up from having an eating disorder" (May 31 2016).  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The eating disorder
-- ★ **2016-01-18** — Alexis leaves Pennsylvania for Florida ("I know but she leaves for fla this week") — seven weeks after the breakup, and the only Florida relocation the 2015-16 record contains.  
+- ◆ **2016-01-18** — The patronage also ran in a smaller, more ordinary register: **paid work at her house, timed around her Florida winters.** On **2016-01-18** Dan tells Annie he has *"went to grams and made a list of work to do for her tomorrow"* because he needs money for a tux; Annie points out the event *"[isn't]…  
+  ↳ [[wiki/people/fran-coldren]] · The patron
+- ◆ **2016-01-18** — Fran** leaves for her Florida winter ("I know but she leaves for fla this week" — Dan to Annie, explaining why he needs to finish a paid work list at his grandmother's now). Logged here because an earlier pass on 2026-08-15 misread this "she" as Alexis  
+  ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
+- · **2016-01-18** — Alexis's only Florida residency was 2009–2010.  
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - ◆ **2016-01-20** — ARD office visit to check application status  
   ↳ [[wiki/legal/2015-possession-arrest]] · Case timeline
@@ -53123,7 +53171,7 @@ connections:
 - 2015-11-30: Alexis still in the house ("Alexis is sloshed"); Suz offers Dan a car "if I get Alexis out."
 - 2015-12-01: Alexis moves out of 155 Virginia ("Helping lex leave").
 - 2015-12-01 to 09: Breakup with Lex ("I'm in love with Annie Ulmer"); "Is this the best day of my life"; Moved; Got Hired (Mom/parents squash attempt due to rep); Panic Attack; First Date ("our almost first date"); Arrest context.
-- ~2016-01-18: Alexis leaves Pennsylvania for Florida ("I know but she leaves for fla this week") — seven weeks after the breakup, and the only Florida relocation the 2015-16 record contains.
+- ~2016-01-18: **Fran** leaves for her Florida winter ("I know but she leaves for fla this week" — Dan to Annie, explaining why he needs to finish a paid work list at his grandmother's now). Logged here because an earlier pass on 2026-08-15 misread this "she" as Alexis; Alexis's only Florida residency was 2009–2010.
 - 2016-01 samples: Quit Job; Annie breakup comms + church; Holiday (Cousin Caitlin Christmas Eve); Road trip prefs; Major Decision "you've changed my life"; Valentine's engagement tease "crossing paths ring"; Fran hospitalized; Moved/job step out of town.
 - Full Sail/early context (Gemini-_18 + _58): 2010 Full Sail Recording Arts grad + Pro Tools cert; 2011-13 NYC ishlab audio/production; pre-2015 Lex as anchor during this era (photo ingest cross); _58: Lex "with me the whole time we were in nyc", Bridge Cafe job, Sandy 2012, Franki blip 2013 return to Lex; Danielle (first gf 2005-09) pre-anchor + 2010 photo cross.
 
@@ -54336,9 +54384,10 @@ the same slot mechanics.
 > cheated on me 2 weeks in after I moved her to fla"*) is Dan telling Annie how
 > the Alexis relationship **began, in 2009**, at Full Sail — the line before it
 > is *"the exact opposite way I started my last relationship."* Per the operator
-> the episode was online-only and has no connection to 2015. Alexis was living
-> in the Uniontown house all week and did not leave for Florida until January
-> 2016. Full evidence and the consequences for the switch thesis:
+> the episode was online-only and has no connection to 2015. Alexis lived in
+> Florida exactly once — 2009 to April 2010, the Full Sail stretch — and was
+> living in the Uniontown house all through the week in question. Full evidence
+> and the consequences for the switch thesis:
 > [[wiki/mind/synthesis/bond-switch-2015]]. **The period-level fact is
 > unchanged** — the era still ends at this exact seam — but it ends without a
 > cause on Alexis's side.

@@ -260,7 +260,6 @@ every beat of it:
 | 2015-12-02 | *"Listen I broke up with lex, I'm in love with Annie Ulmer"*; *"Alexis only left yesterday"* |
 | 2015-12-08 | *"That was the night before I broke up with lex"* |
 | Dec 2015 | 728 / 682 / 679 messages sent on three consecutive days to Annie |
-| ~2016-01-18 | Alexis leaves Pennsylvania for Florida — *"I know but she leaves for fla this week"* |
 
 > **CORRECTED 2026-08-15 — the "cheating" that this page dated to November 28,
 > 2015 did not happen in 2015 at all, and the Florida move it was pinned to is
@@ -281,14 +280,20 @@ every beat of it:
 > Florida he moved her to. Per the operator the episode was **online only, not
 > in person**, and has no connection to 2015 whatsoever.
 >
-> **The corpus independently destroys the 2015 reading.** Alexis was physically
-> in Uniontown, living with Dan, across the exact window the old table put her
+> **The residence record settles it on its own.** Alexis lived in Florida
+> **once, from 2009 to April 2010** — the Full Sail stretch in Winter Park,
+> ending when she and Dan moved to Brooklyn together (documented under
+> [New York, in her own words and his](#new-york-in-her-own-words-and-his) and
+> in this page's own `date_range_start: 2009-10-01`). There is no second
+> Florida move anywhere in her record. "After I moved her to fla" therefore has
+> exactly one referent, and it is 2009.
+>
+> **The message corpus agrees for the specific week.** Alexis was physically in
+> Uniontown, living with Dan, across the exact window the old table placed her
 > in Florida: *"Alexis is sloshed"* (Nov 30), *"I just heard lex on the phone
 > with her parents"* (Nov 30), *"Helping lex leave"* (Dec 1), *"Alexis only left
-> yesterday"* (Dec 2). She did not go to Florida until **mid-January 2016** —
-> *"I know but she leaves for fla this week"* (2016-01-18), seven weeks *after*
-> the breakup. A woman cannot be cheating on Dan in Florida two weeks into a
-> November move she did not make until the following January.
+> yesterday"* (Dec 2). She moved out of 155 Virginia on December 1 and stayed in
+> Pennsylvania.
 >
 > **This is a message-date-as-event-date failure**, the same class as the
 > `_all_now` filename trap in `EXTRACTION_SPEC.md`: a real, correctly quoted,

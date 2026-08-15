@@ -97,14 +97,17 @@ The bootloader's reconstructed chronology, cross-checked against the message rec
 > moved her to. Per the operator it was an **online-only** episode. It is now
 > filed at [[wiki/people/alexis-armel]] under the relationship's beginning.
 >
-> **The corpus refutes the 2015 reading independently of the operator.** Alexis
-> was living with Dan in Uniontown throughout the window the old chronology
-> placed her in Florida — "Alexis is sloshed" (Nov 30), "Helping lex leave"
-> (Dec 1), "Alexis only left yesterday" (Dec 2) — and did not leave for Florida
-> until **2016-01-18** ("I know but she leaves for fla this week"), seven weeks
-> after the breakup. `wiki/people/alexis-armel` had additionally invented a
-> "~mid-Nov 2015 Dan moves her to Florida" row by back-computing "2 weeks" from
-> the message timestamp; no source ever asserted it.
+> **The residence record settles it without needing the message at all.**
+> Alexis lived in Florida exactly once, **2009 to April 2010** — the Full Sail
+> stretch, ending when she and Dan moved to Brooklyn together. There is no
+> second Florida move in her record, so "after I moved her to fla" has one
+> possible referent. The message corpus agrees for the specific week: Alexis was
+> living with Dan in Uniontown throughout the window the old chronology placed
+> her in Florida — "Alexis is sloshed" (Nov 30), "Helping lex leave" (Dec 1),
+> "Alexis only left yesterday" (Dec 2) — and stayed in Pennsylvania after moving
+> out. `wiki/people/alexis-armel` had additionally invented a "~mid-Nov 2015 Dan
+> moves her to Florida" row by back-computing "2 weeks" from the message
+> timestamp; no source ever asserted it.
 >
 > **What this does to the thesis: it strengthens it, and the page should be read
 > as having been right for the wrong reason.** A switch executed *because the
@@ -118,11 +121,28 @@ The bootloader's reconstructed chronology, cross-checked against the message rec
 > ended. Every downstream page that leaned on "cheating → switch" was leaning on
 > the one detail that made the switch look normal.
 >
-> **Falsifier this correction accepts:** a dated 2015 source — any channel, any
+> **Falsifier this correction accepts:** a dated source — any channel, any
 > direction — describing an Alexis infidelity contemporaneous with November
-> 2015, or placing her in Florida before January 2016, would restore the old
-> reading. The Nov 28 – Dec 2 window was swept across the full dump for this
-> pass and produced the opposite: an Alexis continuously present in Uniontown.
+> 2015, or placing her in Florida at any point after April 2010, would restore
+> the old reading. The Nov 28 – Dec 2 window was swept across the full dump for
+> this pass and produced the opposite: an Alexis continuously present in
+> Uniontown.
+>
+> **CORRECTION TO THIS CORRECTION [2026-08-15, same day].** The first version of
+> this block argued the point partly from a message reading *"I know but she
+> leaves for fla this week"* (2016-01-18), taken as Alexis relocating seven
+> weeks after the breakup. **That was wrong, and it was the same error this
+> block exists to fix** — a pronoun resolved to the person the passage was
+> about rather than to the person the conversation was about. In context Dan is
+> texting Annie about needing money for a tux and having gone to *"grams"* for a
+> work list: *"I went to grams and made a list of work to do for her tomorrow /
+> Because I need a tux and shit"* → Annie: *"that's not until the end of
+> February"* → *"I know but she leaves for fla this week."* **"She" is Fran**,
+> whose Florida winters are already documented on
+> [[wiki/people/fran-coldren]] — he needed the paid work done before she left.
+> Corrected per the operator, who supplied the governing fact: Alexis's only
+> Florida residency was 2009–2010. The argument above now rests on the residence
+> record, which is the stronger ground and never needed the 2016 message.
 
 The bootloader's own withdrawal-then-reinstatement is the key to the "24 hours" figure. It initially *withdrew* the v1 claim that Dan **"left Alexis within 24 hours of the Annie connection forming"** because an earlier (wrong) dating of the Alexis breakup to summer 2013 created a 2.5-year gap. Recomputing the breakup to **November 2015** reinstates the contemporaneity: the two events are the same week, and the v1 claim was right all along.
 
