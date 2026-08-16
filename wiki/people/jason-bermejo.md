@@ -180,7 +180,7 @@ Dan describes him as a gateway to "a different style of music that still resonat
 
 ## Notes & Gaps
 
-- Current Jason location: Texas (likely Austin or DFW area based on references)
+- Full timeline of how they met (likely Full Sail, ~2009) not explicit in corpus but strongly implied
 - Ex-girlfriend mentioned (Feb 2026) but not named; current girlfriend also unnamed in corpus
 - Last message: 2026-03-21 (gap since February spike suggests lower contact post-winter)
 - Music output / release status: unclear if Jason has released material or remains hobbyist
@@ -197,12 +197,12 @@ Dan describes him as a gateway to "a different style of music that still resonat
 > section and the `pending_ingest:` flag. It is not allowed to accumulate into
 > a changelog — STYLE_GUIDE rule 6.
 
-### ANSWERED [2026-08-16] — Full timeline of how they met (likely Full Sail, ~2009) not explicit in…
+### ANSWERED [2026-08-16] — Current Jason location: Texas (likely Austin or DFW area based on refer…
 
 **The gap, as this page stated it:**
 
-> - Full timeline of how they met (likely Full Sail, ~2009) not explicit in corpus but strongly implied
+> - Current Jason location: Texas (likely Austin or DFW area based on references)
 
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-16_151133_gap-jason-bermejo.md`.
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-16_151317_gap-jason-bermejo.md`.
 
-We were in the same Recording Arts full sail class (August 2009 start)
+Dallas Texas
