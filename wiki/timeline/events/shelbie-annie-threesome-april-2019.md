@@ -107,7 +107,7 @@ _All recorded gaps have been answered and are staged below._
 
 > Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown; Shelbie's thread ends in a hostile breakup on July 16, 2019 with no further contact recorded.
 
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/timeline/captures/2026-08-16_145532_gap-shelbie-annie-threesome-april-2019.md`.
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/timeline/captures/2026-08-16_145552_gap-shelbie-annie-threesome-april-2019.md`.
 
 Threesome #1 : 14 April 2019 (9pm - 4am)
 Threesome #2 : 17 April 2019 (2am - 7am)
