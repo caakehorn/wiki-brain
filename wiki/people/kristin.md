@@ -386,6 +386,12 @@ material, and every per-year message count that treats the dump as complete for
 - **The Kayden contradiction is open**, and is the most important unresolved thing
   on this page. It needs either the dossier's underlying `chat_162.txt` (not in
   `raw/`) or a direct operator answer.
+- **Identity cannot be verified the way the protocol requires.**
+  `EXTRACTION_SPEC.md` mandates cross-checking two independent contact exports.
+  `contacts.csv` and the Facebook address book both **predate her entirely** —
+  stamped 2018-02-13 and 2021-10-16, containing no Kristin Prentiss and no
+  `3307038747`. The surname rests on her own first-person testimony, which is
+  strong evidence but is one source.
 - **The Facebook thread is a screen capture, not an export.** 2,009 messages were
   recovered from rendered UI; anything not scrolled into view that morning is
   absent, so the August volume is a floor, not a total. A real Messenger export
@@ -397,8 +403,6 @@ material, and every per-year message count that treats the dump as complete for
 - **The second export**, `imessage_export_3307038747_20260624.csv` (2.58 MB, larger
   than the 2.41 MB canonical), has not been diffed against the primary. It may
   carry messages this analysis missed.
-- **Nothing after 2025-12-10.** The block appears to have held; whether contact
-  resumed off-corpus is unknown.
 
 ## Notes
 
@@ -437,17 +441,13 @@ contradicts something already there.
 
 As the article mentions, on November 2 2025 Dan references the $40 debt as being a week old already which would place it in October
 
-### ANSWERED [2026-08-16] — Identity cannot be verified the way the protocol requires. EXTRACTIONSP…
+### ANSWERED [2026-08-16] — Nothing after 2025-12-10. The block appears to have held; whether conta…
 
 **The gap, as this page stated it:**
 
-> - **Identity cannot be verified the way the protocol requires.**
->   `EXTRACTION_SPEC.md` mandates cross-checking two independent contact exports.
->   `contacts.csv` and the Facebook address book both **predate her entirely** —
->   stamped 2018-02-13 and 2021-10-16, containing no Kristin Prentiss and no
->   `3307038747`. The surname rests on her own first-person testimony, which is
->   strong evidence but is one source.
+> - **Nothing after 2025-12-10.** The block appears to have held; whether contact
+>   resumed off-corpus is unknown.
 
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-16_195050_gap-kristin.md`.
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-16_195122_gap-kristin.md`.
 
-Full name : Kristin Shalene Prentiss
+No contact after 10 Dec 2025
