@@ -1,0 +1,659 @@
+#!/usr/bin/env python3
+"""wiki-gaps — answer an open gap and park the answer for the next pass.
+
+A page's `## Gaps` section is the wiki admitting what it does not know. Most of
+those admissions are not waiting on a new export or a better tool; they are
+waiting on the one source that is sitting right here and cannot be mined. This
+tool is that source's keyboard.
+
+    bin/wiki-gaps                      pages with open gaps, most gaps first
+    bin/wiki-gaps kristin              open that page: list its gaps, answer one
+    bin/wiki-gaps pending              every page holding an unintegrated answer
+    bin/wiki-gaps close <page> <n>     answer gap n, body on stdin (scriptable)
+    bin/wiki-gaps close <page> manual  volunteer a note not tied to a listed gap
+    bin/wiki-gaps clear <page>         next pass: drop the staged section + flag
+
+WHAT ANSWERING DOES
+
+Three writes, and deliberately not a fourth:
+
+  1. The gap is **cut out of `## Gaps`** and moved, verbatim, into a staging
+     section at the foot of the page — `## Operator answers — pending ingest` —
+     together with the answer.
+  2. The page is flagged `pending_ingest: YYYY-MM-DD` in its frontmatter, which
+     is what `bin/wiki-gaps pending`, `bin/wiki-digest` and the next agent read.
+  3. The answer is filed verbatim to `raw/<domain>/captures/` as a capture note
+     carrying `targets:`, so it survives as T0 evidence after the staging
+     section is cleared. The staging section is scaffolding; `raw/` is the
+     record.
+
+The fourth write — actually correcting the page and every page that inherited
+the gap — is **not** done here, and the omission is the point. That work needs
+judgement, the rest of the corpus, and the cascade into linked pages; a text
+box cannot do it and should not pretend to. What this tool guarantees is that
+the answer is captured at the moment it exists and is impossible to miss later.
+
+`date_modified` is deliberately **not** bumped. The page has not been corrected
+yet, and bumping the date would clear the staleness warnings on every page that
+reasons from this one — the exact move CLAUDE.md §3 forbids. The date moves when
+the correction lands.
+
+THE MANUAL OPTION
+
+Selecting `manual` instead of a gap number opens the same box for something the
+page never thought to ask about. It is staged, flagged, filed and ingested
+identically; it simply has no gap to cut out. Most of what an operator knows is
+not in the shape of an answer to a question the wiki already wrote down.
+
+Pure stdlib. Reads and writes files, runs no agents, calls nothing.
+"""
+import datetime
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+WIKI = ROOT / "wiki"
+
+SECTION = "## Operator answers — pending ingest"
+FLAG = "pending_ingest"
+
+# The heading of a gaps section. `## Gaps` is 107 of the 112 in the corpus; the
+# rest are the same section under a different name. Matched exactly rather than
+# by "contains the word gap", which would swallow prose headings like
+# "## The landscape gap he identifies".
+GAP_HEAD = re.compile(
+    r"^(#{2,3})\s+(gaps?\b|notes\s+(and|&)\s+gaps\b|corpus gaps\b|open questions\b)",
+    re.I,
+)
+BULLET = re.compile(r"^([-*]|\d+\.)\s+\S")
+
+PREAMBLE = [
+    "> Transient staging, written by `bin/wiki-gaps`. Each block below is the",
+    "> operator answering something this page said it did not know. **Nothing here",
+    "> has been integrated yet.** The next pass over this page reads these answers,",
+    "> corrects this page *and every page that inherited the gap*, records each",
+    # Written without its asterisks on purpose: bin/wiki-digest scans every page
+    # for a literal `**GAP CLOSED`, and an instruction to write one would be
+    # picked up by RECENT.md as a gap that had actually been closed.
+    "> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,",
+    "> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this",
+    "> section and the `pending_ingest:` flag. It is not allowed to accumulate into",
+    "> a changelog — STYLE_GUIDE rule 6.",
+]
+
+
+# ---------------------------------------------------------------------------
+# reading
+
+
+def today():
+    return datetime.date.today().isoformat()
+
+
+def slugify(text, maxlen=44):
+    slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+    return slug[:maxlen].rstrip("-") or "note"
+
+
+def flatten(text):
+    """One line, links unwrapped, for display and for the block's gist."""
+    s = re.sub(r"\[\[[^\]|]+\|([^\]]+)\]\]", r"\1", text)
+    s = re.sub(r"\[\[([^\]]+)\]\]", lambda m: m.group(1).rstrip("/").split("/")[-1], s)
+    s = re.sub(r"^\s*([-*]|\d+\.)\s+", "", s)
+    s = re.sub(r"[*_`]", "", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def clip(s, n):
+    return s if len(s) <= n else s[: n - 1].rstrip() + "…"
+
+
+def all_pages():
+    return sorted(p for p in WIKI.rglob("*.md"))
+
+
+def slug_of(path):
+    return str(path.relative_to(ROOT)).replace(".md", "")
+
+
+def read(path):
+    return path.read_text(encoding="utf-8", errors="replace")
+
+
+def frontmatter(text):
+    """(body_start_line, {key: line_index}) for a leading `---` block."""
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        return None, {}
+    for i in range(1, len(lines)):
+        if lines[i].strip() == "---":
+            keys = {}
+            for j in range(1, i):
+                m = re.match(r"^([A-Za-z_][\w_]*):", lines[j])
+                if m:
+                    keys[m.group(1)] = j
+            return i, keys
+    return None, {}
+
+
+def field(text, name):
+    m = re.search(r"^%s:\s*(.+)$" % re.escape(name), text, re.M)
+    return m.group(1).strip().strip("\"'") if m else ""
+
+
+def find_sections(lines, matches):
+    """Every (heading_index, end_index_exclusive) span `matches` picks.
+
+    A section ends at the next heading of the same or shallower level, so a
+    `## Gaps` holding `###` sub-headings keeps them.
+    """
+    spans = []
+    for i, line in enumerate(lines):
+        if not matches(line):
+            continue
+        level = len(re.match(r"^(#+)", line).group(1))
+        end = len(lines)
+        for j in range(i + 1, len(lines)):
+            h = re.match(r"^(#+)\s", lines[j])
+            if h and len(h.group(1)) <= level:
+                end = j
+                break
+        spans.append((i, end))
+    return spans
+
+
+def find_section(lines, matches):
+    """The first such span, or (None, None)."""
+    spans = find_sections(lines, matches)
+    return spans[0] if spans else (None, None)
+
+
+def is_gap_head(line):
+    return bool(GAP_HEAD.match(line))
+
+
+def is_stage_head(line):
+    return line.rstrip() == SECTION
+
+
+def parse_items(lines, lo, hi):
+    """Split a gaps section body into individual gaps.
+
+    Two shapes appear in the corpus and both are legal: bulleted lists — with
+    wrapped continuation lines and nested sub-bullets — and bare paragraphs.
+    So: group into blank-line-separated blocks, then split any block that opens
+    with a top-level bullet at each *subsequent* top-level bullet. Nested
+    bullets are indented, so they stay attached to the item they belong to.
+
+    Returns dicts of absolute line indices, `hi` exclusive.
+    """
+    items, blocks, cur = [], [], []
+    for i in range(lo, hi):
+        if lines[i].strip():
+            cur.append(i)
+        elif cur:
+            blocks.append(cur)
+            cur = []
+    if cur:
+        blocks.append(cur)
+
+    for block in blocks:
+        first = lines[block[0]].lstrip()
+        # meta rather than a gap: sub-headings, blockquotes, "_None open._"
+        if first.startswith("#") or first.startswith(">"):
+            continue
+        # a whole-line italic placeholder ("_None open._") is a marker, not a gap
+        if len(block) == 1 and re.fullmatch(r"[_*].+[_*]", first.strip()):
+            continue
+        starts = [i for i in block if BULLET.match(lines[i])]
+        if not starts:
+            items.append({"lo": block[0], "hi": block[-1] + 1})
+            continue
+        bounds = starts + [block[-1] + 1]
+        if starts[0] > block[0]:
+            items.append({"lo": block[0], "hi": starts[0]})
+        for a, b in zip(bounds, bounds[1:]):
+            items.append({"lo": a, "hi": b})
+
+    live = []
+    for it in items:
+        it["text"] = "\n".join(lines[it["lo"] : it["hi"]])
+        it["gist"] = flatten(it["text"])
+        if not it["gist"]:
+            continue
+        # Already settled, by the same two marks `bin/wiki-digest` filters OPEN.md
+        # on: struck through, or carrying CLOSED/RESOLVED/SETTLED. Offering one of
+        # these up to be answered would invite re-answering a solved question.
+        if it["gist"].startswith("~~") or re.search(r"\b(CLOSED|RESOLVED|SETTLED)\b", it["gist"]):
+            continue
+        live.append(it)
+    return live
+
+
+def gaps_of(path):
+    """(lines, [section spans], [gap items]) — every gaps section on the page.
+
+    Pages carry more than one: `wiki/people/jerel-coles.md` has both an `## Open
+    questions` and a `## Gaps`, and reading only the first would have hidden
+    four gaps behind five others.
+    """
+    lines = read(path).splitlines()
+    spans = find_sections(lines, is_gap_head)
+    items = []
+    for i, j in spans:
+        for it in parse_items(lines, i + 1, j):
+            it["section"] = (i, j)
+            items.append(it)
+    items.sort(key=lambda it: it["lo"])
+    return lines, spans, items
+
+
+# ---------------------------------------------------------------------------
+# writing
+
+
+def stage_block(gap_text, answer, source_rel):
+    """The `### ANSWERED` block appended to the staging section.
+
+    Note what this heading is *not*: `GAP CLOSED`. `bin/wiki-digest` scans for
+    that exact string to build RECENT.md, and claiming a gap is closed while it
+    is only answered would put the wrong thing in the wrong file. It becomes a
+    GAP CLOSED block when the correction is actually written.
+    """
+    out = []
+    if gap_text is None:
+        out.append("### ANSWERED [%s] — manual note" % today())
+        out.append("")
+        out.append("**Not from the gap list** — volunteered by the operator, so the ingest")
+        out.append("has to work out for itself where on the page it belongs, and whether it")
+        out.append("contradicts something already there.")
+    else:
+        out.append("### ANSWERED [%s] — %s" % (today(), clip(flatten(gap_text), 72)))
+        out.append("")
+        out.append("**The gap, as this page stated it:**")
+        out.append("")
+        for line in gap_text.splitlines():
+            out.append(("> " + line).rstrip())
+    out.append("")
+    out.append("**Operator's answer — verbatim, first person, T0.** Filed at `%s`." % source_rel)
+    out.append("")
+    out += answer.strip().splitlines()
+    out.append("")
+    return out
+
+
+def set_flag(lines, end):
+    """Add or refresh `pending_ingest:` in the frontmatter.
+
+    Placed straight after `date_modified` — always present, always one line —
+    so the transient marker sits next to the dates a maintainer already reads,
+    and never lands inside a multi-line `connections:` or `infobox:` block.
+    """
+    _, keys = frontmatter("\n".join(lines))
+    if FLAG in keys:
+        lines[keys[FLAG]] = "%s: %s" % (FLAG, today())
+        return lines
+    anchor = keys.get("date_modified", keys.get("status"))
+    at = (anchor + 1) if anchor is not None else end
+    lines.insert(at, "%s: %s" % (FLAG, today()))
+    return lines
+
+
+def file_capture(page, gap_text, answer):
+    """Persist the answer to raw/ as T0 evidence, in capture-note format.
+
+    The staging section gets deleted by `clear`; this does not. It also carries
+    `targets:`, which `bin/ingest-pack` already understands, so the note routes
+    itself if it ever goes through the paste-box instead.
+    """
+    text = read(page)
+    domain = field(text, "domain") or "self"
+    dest = ROOT / "raw" / domain / "captures"
+    dest.mkdir(parents=True, exist_ok=True)
+    stamp = datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
+    # Answering two gaps on one page takes well under a second, and the capture
+    # stamp only resolves to the second — so the name is claimed, not assumed.
+    base = "%s_gap-%s" % (stamp, slugify(page.stem))
+    name, n = base + ".md", 1
+    while (dest / name).exists():
+        n += 1
+        name = "%s-%d.md" % (base, n)
+    slug = slug_of(page)
+    head = [
+        "---",
+        "captured: %s" % datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "title: gap answer — %s" % clip(flatten(gap_text) if gap_text else page.stem, 60),
+        "type: fact",
+        "tags: []",
+        "source: wiki-gaps",
+        "targets: [%s]" % slug,
+        "---",
+        "",
+    ]
+    if gap_text:
+        head.append("THE GAP, as %s stated it:" % slug)
+        head.append("")
+        for line in gap_text.splitlines():
+            head.append(("  " + line).rstrip())
+        head.append("")
+    else:
+        head.append("Volunteered by the operator — not an answer to a listed gap on %s." % slug)
+        head.append("")
+    head.append("THE ANSWER (verbatim):")
+    head.append("")
+    out = dest / name
+    out.write_text("\n".join(head) + "\n" + answer.strip() + "\n", encoding="utf-8")
+    return str(out.relative_to(ROOT))
+
+
+def apply_answer(page, item, answer):
+    """Cut the gap, stage it with the answer, flag the page, file the raw note."""
+    lines = read(page).splitlines()
+    end, _ = frontmatter("\n".join(lines))
+    if end is None:
+        return None, "%s has no frontmatter — fix that before staging anything" % slug_of(page)
+
+    gap_text = item["text"] if item else None
+    source_rel = file_capture(page, gap_text, answer)
+
+    # 1. cut the gap out of ## Gaps, taking one trailing blank with it so the
+    #    section does not slowly fill up with holes
+    if item:
+        lo, hi = item["lo"], item["hi"]
+        while hi < len(lines) and not lines[hi].strip() and (hi + 1 >= len(lines) or not lines[hi + 1].strip()):
+            hi += 1
+        del lines[lo:hi]
+        # An emptied section says so rather than sitting as a bare heading. Its
+        # *end* moved with the delete, so re-find the span — the heading index
+        # itself did not, since everything removed sat below it.
+        head = item["section"][0]
+        for i, j in find_sections(lines, is_gap_head):
+            if i == head and not any(lines[k].strip() for k in range(i + 1, j)):
+                lines[i + 1 : j] = ["", "_All recorded gaps have been answered and are staged below._", ""]
+                break
+
+    # 2. stage it
+    hi_head, hi_end = find_section(lines, is_stage_head)
+    block = stage_block(gap_text, answer, source_rel)
+    if hi_head is None:
+        while lines and not lines[-1].strip():
+            lines.pop()
+        lines += ["", SECTION, ""] + PREAMBLE + [""] + block
+    else:
+        at = hi_end
+        while at > hi_head and not lines[at - 1].strip():
+            at -= 1
+        lines[at:at] = [""] + block
+
+    # 3. flag it
+    end, _ = frontmatter("\n".join(lines))
+    lines = set_flag(lines, end)
+
+    page.write_text("\n".join(lines).rstrip("\n") + "\n", encoding="utf-8")
+    return source_rel, None
+
+
+def clear(page):
+    lines = read(page).splitlines()
+    i, j = find_section(lines, is_stage_head)
+    _, keys = frontmatter("\n".join(lines))
+    if i is None and FLAG not in keys:
+        print("%s: nothing staged" % slug_of(page))
+        return 0
+    n = sum(1 for k in range(i or 0, j or 0) if lines[k].startswith("### ANSWERED"))
+    if i is not None:
+        while i > 0 and not lines[i - 1].strip():
+            i -= 1
+        del lines[i:j]
+    if FLAG in keys:
+        # recompute: the delete above may have shifted frontmatter line numbers
+        _, keys = frontmatter("\n".join(lines))
+        if FLAG in keys:
+            del lines[keys[FLAG]]
+    page.write_text("\n".join(lines).rstrip("\n") + "\n", encoding="utf-8")
+    print("%s: cleared %d staged answer(s) and the %s flag" % (slug_of(page), n, FLAG))
+    print("  the answers remain in raw/ — cleared means integrated, not discarded")
+    return n
+
+
+# ---------------------------------------------------------------------------
+# selection
+
+
+def resolve(query):
+    """Pages matching a query, best first. An exact stem match wins outright."""
+    q = query.lower().strip()
+    pages = all_pages()
+    exact = [p for p in pages if p.stem.lower() == q]
+    if exact:
+        return exact
+    hits = [p for p in pages if q in slug_of(p).lower()]
+    hits.sort(key=lambda p: (0 if q in p.stem.lower() else 1, len(slug_of(p))))
+    return hits
+
+
+def pick_page(query):
+    hits = resolve(query)
+    if not hits:
+        print("no page matches %r" % query)
+        return None
+    if len(hits) == 1:
+        return hits[0]
+    print("%d pages match %r:\n" % (len(hits), query))
+    for n, p in enumerate(hits[:30], 1):
+        _, _, items = gaps_of(p)
+        print("  %2d. %-58s %s" % (n, slug_of(p), "%d gap(s)" % len(items) if items else "—"))
+    if len(hits) > 30:
+        print("  … %d more; narrow the query" % (len(hits) - 30))
+    choice = ask("\nPage number (Enter to cancel): ")
+    if not choice.isdigit() or not 1 <= int(choice) <= min(len(hits), 30):
+        return None
+    return hits[int(choice) - 1]
+
+
+_tty = None
+
+
+def ask(prompt):
+    """Prompt on the tty — stdin may be a heredoc carrying the answer body.
+
+    Line-buffered and opened once: the menu answer comes through this handle and
+    the answer body comes through sys.stdin, so a read-ahead here would eat the
+    first line of what the operator typed next.
+    """
+    global _tty
+    if _tty is None:
+        try:
+            _tty = open("/dev/tty", buffering=1)
+        except OSError:
+            return ""
+    print(prompt, end="", flush=True)
+    return _tty.readline().strip()
+
+
+def read_answer():
+    print("\nType or paste the answer. Finish with Ctrl-D, or a line containing only '.'")
+    print("-" * 72)
+    lines = []
+    try:
+        for line in sys.stdin:
+            if line.strip() == ".":
+                break
+            lines.append(line)
+    except KeyboardInterrupt:
+        return ""
+    return "".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# commands
+
+
+def cmd_list(query=None):
+    rows = []
+    for p in all_pages():
+        _, _, items = gaps_of(p)
+        if not items:
+            continue
+        slug = slug_of(p)
+        if query and query.lower() not in slug.lower():
+            continue
+        rows.append((len(items), slug, items[0]["gist"]))
+    if not rows:
+        print("no open gaps" + (" matching %r" % query if query else ""))
+        return
+    rows.sort(key=lambda r: (-r[0], r[1]))
+    total = sum(r[0] for r in rows)
+    print("%d open gap(s) across %d page(s)%s\n" % (total, len(rows), " matching %r" % query if query else ""))
+    for n, slug, gist in rows:
+        print("  %3d  %-52s %s" % (n, clip(slug, 52), clip(gist, 60)))
+    print("\nOpen one:  bin/wiki-gaps <part-of-a-page-name>")
+
+
+def cmd_pending():
+    rows = []
+    for p in all_pages():
+        text = read(p)
+        if not re.search(r"^%s:" % FLAG, text, re.M):
+            continue
+        n = len(re.findall(r"^### ANSWERED ", text, re.M))
+        rows.append((field(text, FLAG), slug_of(p), n))
+    if not rows:
+        print("nothing staged — no page is carrying an unintegrated answer")
+        return
+    rows.sort()
+    print("%d page(s) holding %d answer(s) the wiki has not acted on yet:\n"
+          % (len(rows), sum(r[2] for r in rows)))
+    for when, slug, n in rows:
+        print("  %s  %-52s %d answer(s)" % (when, clip(slug, 52), n))
+    print("\nEach one needs a pass that corrects the page and every page that")
+    print("inherited the gap, then: bin/wiki-gaps clear <page>")
+
+
+def cmd_close(argv):
+    if len(argv) < 2:
+        print("usage: bin/wiki-gaps close <page> <n|manual>   (answer body on stdin)")
+        return 1
+    hits = resolve(argv[0])
+    if len(hits) != 1:
+        print("%r matches %d pages — be specific" % (argv[0], len(hits)))
+        for p in hits[:10]:
+            print("  %s" % slug_of(p))
+        return 1
+    page = hits[0]
+    _, _, items = gaps_of(page)
+    which = argv[1].lower()
+    if which in ("manual", "m"):
+        item = None
+    elif which.isdigit() and 1 <= int(which) <= len(items):
+        item = items[int(which) - 1]
+    else:
+        print("gap %r not on %s (%d gap(s) listed)" % (argv[1], slug_of(page), len(items)))
+        return 1
+    answer = sys.stdin.read()
+    if not answer.strip():
+        print("empty answer — nothing written")
+        return 1
+    return report(page, item, answer)
+
+
+def report(page, item, answer):
+    source, err = apply_answer(page, item, answer)
+    if err:
+        print("REFUSED: %s" % err)
+        return 1
+    print("\n%s" % slug_of(page))
+    if item:
+        print("  gap cut from ## Gaps:  %s" % clip(item["gist"], 64))
+    else:
+        print("  manual note — no gap cut")
+    print("  staged under:          %s" % SECTION)
+    print("  flagged:               %s: %s" % (FLAG, today()))
+    print("  filed as evidence:     %s" % source)
+    print("\nThe page is NOT corrected yet — that is the next pass's job.")
+    print("See it in the queue:     bin/wiki-gaps pending")
+    return 0
+
+
+def cmd_open(query):
+    page = pick_page(query)
+    if page is None:
+        return 1
+    lines, span, items = gaps_of(page)
+    slug = slug_of(page)
+    print("\n%s" % slug)
+    print("=" * min(len(slug), 72))
+    if items:
+        print("\n%d open gap(s):\n" % len(items))
+        for n, it in enumerate(items, 1):
+            print("  %2d. %s" % (n, clip(it["gist"], 66)))
+    elif span:
+        print("\nIts Gaps section lists nothing open.")
+    else:
+        print("\nNo Gaps section on this page.")
+    print("\n   M. MANUAL — something the page never thought to ask about")
+    print("   Q. quit\n")
+
+    choice = ask("Which? ")
+    if not choice or choice.lower() in ("q", "quit"):
+        print("nothing written")
+        return 0
+    if choice.lower() in ("m", "manual"):
+        item = None
+        print("\nMANUAL — this is staged and ingested exactly like an answered gap.")
+    elif choice.isdigit() and 1 <= int(choice) <= len(items):
+        item = items[int(choice) - 1]
+        print("\nGAP %s\n%s" % (choice, "-" * 72))
+        print(item["text"])
+        print("-" * 72)
+    else:
+        print("not a listed gap — nothing written")
+        return 1
+
+    answer = read_answer()
+    if not answer.strip():
+        print("empty, nothing written")
+        return 0
+    return report(page, item, answer)
+
+
+def main(argv):
+    if argv and argv[0] in ("-h", "--help", "help"):
+        print(__doc__)
+        return 0
+    if not argv:
+        cmd_list()
+        return 0
+    cmd = argv[0]
+    if cmd == "list":
+        cmd_list(argv[1] if len(argv) > 1 else None)
+        return 0
+    if cmd == "pending":
+        cmd_pending()
+        return 0
+    if cmd == "close":
+        return cmd_close(argv[1:])
+    if cmd == "clear":
+        if len(argv) < 2:
+            print("usage: bin/wiki-gaps clear <page>")
+            return 1
+        hits = resolve(argv[1])
+        if len(hits) != 1:
+            print("%r matches %d pages — be specific" % (argv[1], len(hits)))
+            return 1
+        clear(hits[0])
+        return 0
+    return cmd_open(" ".join(argv))
+
+
+if __name__ == "__main__":
+    try:
+        sys.exit(main(sys.argv[1:]))
+    except KeyboardInterrupt:
+        print("\ncancelled, nothing written")
+        sys.exit(130)
+    except BrokenPipeError:
+        # `bin/wiki-gaps | head` is the normal way to read a 268-item list
+        sys.stderr.close()
+        sys.exit(0)
