@@ -8,20 +8,23 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-16 — 8 pages
+## 2026-08-16 — 10 pages
 
+- **Session log:** close | timeline | shelbie-annie-threesome — the operator dated it, and the corpus showed the page had the authorship backwards
 - **Session log:** build | all | bin/wiki-gaps — 269 open gaps, no way for the one source that can settle them to answer, and OPEN.md could only see 164 of them
 - **Session log:** rewrite | people | kristin.md — surname wrong, dates wrong, count wrong, and the wiki's own instrument cannot see the thread
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/mind/profile/big-five-psychometrics]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
+| [[wiki/mind/psychosexual/arrangement-history]] | mind | **REVISED** — April 2019 was tabled here as an instance of the arrangement operating. Minute-level reconstruction from Annie's thread shows the opposite: Dan paid for a one-on-one and Annie converted it into a thre |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — kristin was rewritten from the primary exports on 2026-08-16. Two of its changes bear on this page. **The row's reasoning is now better supported than when it was written.** The table reads *"She bloc |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — context-core was revised on 2026-08-16 by a staleness audit that corrected seven claims: the Annie status (closed → live), Tom's corpus weight (16,563 was Kristin's handle), the 337 Saratoga sale and  |
 | [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — block-unblock-loop moved on 2026-08-16 after kristin was rewritten from primary exports. This page's edge reads that *"the exit is declared, never executed, because execution is the irrevers |
 | [[wiki/people/jerad-friedline]] | people | **RE-CHECKED** — context-core was revised on 2026-08-16 by a staleness audit that corrected seven claims: the Annie status (closed → live), Tom's corpus weight (16,563 was Kristin's handle), the 337 Saratoga sale and  |
 | [[wiki/people/kristin]] | people | **CORRECTED** — The previous version of this page stated: *"Last name confirmed as Shaelene from the dox-scan messenger export (the operating manual had listed 'Shalene or Prentiss' as unknown)."* That confirmation w |
 | [[wiki/self/context-core]] | self | _(carries a CORRECTED)_ |
+| [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] | timeline | **GAP CLOSED** — This page carried "Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown" as an open question since 2026-07-14. The opera |
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — context-core was revised on 2026-08-16 by a staleness audit that corrected seven claims: the Annie status (closed → live), Tom's corpus weight (16,563 was Kristin's handle), the 337 Saratoga sale and  |
 
 ## 2026-08-15 — 22 pages
@@ -181,7 +184,7 @@ simply listed.
 | [[wiki/people/lucy]] | people | — |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-08-08)_ |
 
-## 2026-08-02 — 36 pages
+## 2026-08-02 — 35 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -208,7 +211,6 @@ simply listed.
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | — |
 | [[wiki/mind/concepts/dans-law]] | mind | — |
 | [[wiki/mind/profile/linguistic-profile]] | mind | — |
-| [[wiki/mind/psychosexual/arrangement-history]] | mind | **REVISED** — Until now this table opened its practice record with the November 2018 Alexis reunion and described it as "the earliest well-documented instance." Two operator captures and the message corpus together |
 | [[wiki/mind/synthesis/ancestral-dialectic]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/people/alexander-jackson]] | people | — |
 | [[wiki/people/arnu]] | people | **DEADLINE ELAPSED** — The ~27 July 2026 mechanics-lien date this page is organised around has passed with no recorded outcome. The date was an estimate derived from the February 2026 work window, not a documented filing —  |
@@ -592,7 +594,7 @@ simply listed.
 | [[wiki/people/emaly-minerd]] | people | — |
 | [[wiki/self/gemini-activity/archive/v1-extract]] | self | — |
 
-## 2026-07-14 — 48 pages
+## 2026-07-14 — 47 pages
 
 - **Session log:** ingest+add | work+mind | Sergio-mediator correction, Dan Frank OS report mined
 - **Session log:** ingest | mind+people | fake-surveillance-dashboard episode (AI pushback)
@@ -669,5 +671,4 @@ simply listed.
 | [[wiki/people/mohammed-bin-salman]] | people | — |
 | [[wiki/people/rj-ritchey]] | people | — |
 | [[wiki/people/trinity-st-clair]] | people | — |
-| [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] | timeline | **REVISED** — an earlier version of this page called the April 2019 threesome the earliest well-specified instance of the arrangement running with a woman. A November 2018 reunion between Annie and Alexis — Dan's o |
 

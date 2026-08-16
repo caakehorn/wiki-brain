@@ -8,8 +8,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 30 |
-| Open gaps | 269 |
+| Live contradictions | 31 |
+| Open gaps | 271 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 13 |
 
@@ -56,6 +56,7 @@ somewhere and has not yet found out where.
 - **[[wiki/people/menore]]** — the thread contains a **1,458-day silence — May 26, 2020 → May 24, 2024** (with 2020 already tapering: 35/17/15-day gaps, 158 messages all year). This contradicts this page's earlier "Phase 4: sustained operations Apr 2019–Feb 2025" framing, and it complicates the Au Za'atar storytime claim (au-zaatar) that Menore serv
 - **[[wiki/people/sadie-harris]]** — earlier versions of this page and the member table on fayette-return both recorded Sadie as having *died* in Hopwood on 27 November 1997. The GEDCOM records no death place at all — only the date — and lists Hopwood as the **burial** place. Her last attested residence is Brownsville in 1993. The Hopwood association is r
 - **[[wiki/self/context-core]]** — fran-coldren resolved it on 2026-08-02 against a dated message in which Dan describes her, at the time, as *"a 97 year old woman with advanced dimentia"* (2017-12-29) — consistent with an August 1920 birth and an April 2018 death. The **98** in this page and in `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`, and the 
+- **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — the operator's account says Annie *"contacted her independently without me knowing and invited her back over."* The 22:56 `Shelbie Breakiron.vcf` attachment, sent by Dan to Annie, is hard to reconcile with that. The likeliest reading is that the memory compresses a night in which he supplied the means and did not expec
 - **[[wiki/timeline/events/teen-concert-years]]** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate November 2004 return. The note dates Taking Back Sunday / Angels & Airwaves to **2006-07-04 in Columbus**; the research
 - **[[wiki/timeline/events/the-fall-of-fran]]** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend on each other: | Evidence | Date | What it fixes | |---|---|---| | Ancestry GEDCOM death record | 2018-04-04 | Death | 
 - **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — fran-death-vigil, written from the Photo Thread session, has Dan blowing enormous clouds from a 110-watt SMOK **in the room** while Suz puffed her 10-watt device **in the hospital bathroom**. Both captures behind this page invert that: **Suz in the room, Dan in the bathroom.** The positions are not decorative — a bathr
@@ -333,7 +334,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 
-### timeline (32)
+### timeline (34)
 
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented
@@ -361,7 +362,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony.
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — Whether any of the three were sober enough to make decisions by the time they left Ruby Tuesday's is not addressed.
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — The Post-Gazette Pavilion's sold-out Tom Petty date of June 15 2005 has not been independently verified against tour records.
-- **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown; Shelbie's thread ends in a hostile breakup on July 16, 2019 with no further contact recorded.
+- **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — Shelbie's own account of either night is absent — her iMessage number begins 2019-05-15, and the two encounters sit entirely inside Annie's thread and Dan's memory. Nothing records what she was told the arrangement was.
+- **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — Whether the 17 April window is the second encounter is inferred from the operator's account plus a long late-night drive; no message that night names her. The June 8, 2019 coordination remains unresolved as either a third occasion or a misdated recollection of
+- **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — Whether sending the `.vcf` at 22:56 was capitulation, invitation, or unthinking — see the contradiction above — is not answerable from the record.
 - **[[wiki/timeline/events/the-fall-of-fran]]** — Nobody has recorded what Danny Matthews knew. The corpus shows no message in which the medical emergency is mentioned to him before, during or after, and his thread continues afterward with no reference to the night at all — so whether he understood that a 97-
 - **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — The hospital's own record — an incident report, a trespass notice, a filed citation — has never been sought and would settle both the legal question and the exact date. Whether Dan was permitted back onto the property before Fran died four days later is unstat
 - **[[wiki/timeline/periods/covid-era-2020]]** — No primary source narrates the lockdown period day-to-day beyond the Train Plan incident and the trading record — there is no documented account of remote work, isolation's effect on the relationship outside that one crisis, or health precautions taken. The ex

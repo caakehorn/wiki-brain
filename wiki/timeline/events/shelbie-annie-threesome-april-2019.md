@@ -3,11 +3,10 @@ domain: timeline
 page_type: event
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-07-14
-pending_ingest: 2026-08-16
-date_range_start: 2019-04-01
-date_range_end: 2019-04-30
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+date_modified: 2026-08-16
+date_range_start: 2019-04-14
+date_range_end: 2019-04-17
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/timeline/captures/2026-08-16_145552_gap-shelbie-annie-threesome-april-2019.md"]
 related: ["wiki/people/annie-ulmer", "wiki/people/shelbie-breakiron", "wiki/timeline/periods/2018-deep-cycle"]
 tags: [relationships]
 knowledge: earned
@@ -15,17 +14,121 @@ knowledge: earned
 
 # Shelbie/Annie Threesome (April 2019)
 
-A three-way sexual encounter between Dan, [[wiki/people/annie-ulmer|Annie]], and [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], dated April 2019 per Dan's own account. It is the clearest instance in the record of the couple's quasi-non-monogamous arrangement running with a woman rather than the more heavily documented male-third-party (Tom-type) encounters, and it predates the 2018-onward "Dan-architected" framework's formal description in the later dossiers — placing an early, concrete data point on when that arrangement actually started operating in practice.
+Two three-way sexual encounters between Dan, [[wiki/people/annie-ulmer|Annie]], and [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], on the nights of **14 April 2019** (9pm–4am) and **17 April 2019** (2am–7am). **Neither was planned as a threesome.** Dan had paid Shelbie for a one-on-one; Annie, locked out of the house and texting from the driveway, forced her way into it — and the wiki had this backwards for a month, filing it as an instance of a *Dan*-architected arrangement.
 
-> **Sourcing note:** this event is recorded on Dan's direct account. The Shelbie message thread in `MASTER_MESSAGES_DB_DUMP.csv` only begins 2019-05-15, so it cannot independently confirm an April date; the corpus's closest corroborating material is a June 8, 2019 exchange in which Shelbie, Dan, and Annie coordinate a repeat or adjacent hangout in the same configuration (Shelbie: "U ad Annie duh," "We can hang for sure I'm fed not fucking her today," referencing Annie's period as the reason that night wouldn't be sexual) — see [[wiki/people/shelbie-breakiron]] for the full thread. Whether April and June 8 are two separate occasions or the same event misdated is unresolved.
+> **GAP CLOSED [2026-08-16] — the dates are exact, and the event runs the opposite way round.** This page carried "Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown" as an open question since 2026-07-14. The operator supplied both dates and the sequence; the direction-reliable dump then corroborated it to the minute, because April 2019 sits well inside that file's coverage and nobody had looked. The old reading — *"the clearest instance in the record of the couple's quasi-non-monogamous arrangement running with a woman… the 2018-onward 'Dan-architected' framework"* — survives only as a description of the configuration. As a description of **who arranged it**, it is wrong: Dan bought a one-on-one and Annie converted it into a threesome over his live objection.
 
 ## What happened
 
 Dan, Annie, and Shelbie — a stripper and aspiring cam model Dan was also seeing one-on-one that spring — had a threesome. Shelbie's messages from the following weeks show the arrangement was not a secret to her: she asks directly about Annie's involvement in future plans ("where's Annie gonna b"), jokes about the shared dynamic, and treats Annie's presence as a normal condition of seeing Dan rather than something to be managed around.
 
+## The night of 14 April 2019, minute by minute
+
+The whole event is in the direction-reliable dump, in the Annie thread on
+`+17249204125`. **109 messages pass between them between 9pm and 4am, 79 of them
+Annie's.** The bare density is the first fact: this is the shape of the night.
+
+**The purchase is documented.** Cash App receipts that day — Shelbie accepts
+**$31** at 04:16 and **$700** at 15:37. By 19 April, Dan writes the total to a
+third party: *"$3700 and one amazon prime'd laptop later...we're in love."* This
+was not a date that became a threesome. It was bought.
+
+**21:00 — Annie is locked out, and escalating.** *"You're an idiot."* · *"I'm
+locked out of VA. you didn't put a fold outside. You left the garage op[en]"* ·
+*"I have no where to go now"* · *"I guess I'll wait in my car"* · *"Now your
+phones dead."* This is the burst Dan remembers as being unable to concentrate.
+Its content is not jealousy — it is a woman standing outside her own house.
+
+**22:21 — the objection is not "stop", it is "let me in".** *"It'll be
+funnnnnn"* · *"PUH-LEASE"* · *"She can stay as long as she pleases I don't care.
+**I just wanna play a little too** 😩"* · *"I'll ring the doorbell idc"* ·
+*"Can I please come in Dan"*. Annie is not trying to end the encounter. She is
+demanding to be included in it, from the driveway, while it is happening.
+
+**22:25–22:38 — it collapses, and Dan blames the consent.** Dan: *"shes about to
+leave i cant believe this."* Annie, in caps: *"SHE XAN STAY"* · *"I WANT HER TO
+STAY"* · *"For real Dan. I am not trying to ruin anything"* · *"Don't let her
+go."* · *"Please. Don't let her leave"* · *"I am seriously sorry rn and I am
+shutting up and leaving you alone"* · *"I love you."* Dan: *"she left and you
+really should give me a few minutes to chill out"*, then the line that carries
+the whole reading — **"just say fucking no next time."** He is not angry that she
+objected. He is angry that she agreed and then did this.
+
+**22:56 — Dan sends Annie the contact card.** The attachment is
+`Shelbie Breakiron.vcf`. Twenty minutes after Shelbie walks out, Dan hands Annie
+her number.
+
+**23:34 — Annie has her back.** *"She here. Everything is cool 😎 we hugged."*
+The threesome that follows is Annie's, executed with a number Dan gave her.
+
+**01:56 — Dan prices it.** *"if you date her i get her once a week"*, then
+*"because you look starry eyed. have fun bye and when i come back you get to
+watch me fuck her better than you."* Within four hours the encounter he paid for
+has become a competition with his own partner over the woman he paid.
+
+> **CONTRADICTION:** the operator's account says Annie *"contacted her
+> independently without me knowing and invited her back over."* The 22:56
+> `Shelbie Breakiron.vcf` attachment, sent by Dan to Annie, is hard to reconcile
+> with that. The likeliest reading is that the memory compresses a night in
+> which he supplied the means and did not expect or authorise the use — which is
+> a materially different act from being cut out of it, and closer to the pattern
+> on this page than the memory is. Held rather than resolved: only Dan can say
+> whether sending the card was capitulation, invitation, or something he did
+> without deciding.
+
+## The second encounter, 17 April 2019
+
+Two nights later, per the operator, they drove two hours to collect Shelbie from
+the club. The thread that night is thinner but consistent: Dan at 03:07 —
+*"barely a word spoken the whole way"*, *"she flipped out because she thought
+she forgot her wallet"* — with Annie travelling separately (*"Where are you I'm
+passing bville"*, Dan: *"mt pleasant"*). At 03:13 Annie writes **"Well cheer her
+up. You can do your thing first if you want. That's perfect"** — coordinating
+the encounter outright, three nights after having to beg through a locked door
+to be admitted to the first one.
+
+This window is corroborative rather than decisive: it establishes a long
+late-night drive with a third person and Annie's explicit sanction, but no
+message in it names Shelbie.
+
+## What the sequence is evidence of
+
+The value of the night is not that a threesome happened. It is that the corpus
+caught, in real time and at one-minute resolution, a sequence the wiki elsewhere
+only infers:
+
+1. **Consent is given in advance.** Annie agreed to the one-on-one.
+2. **It is withdrawn by intrusion rather than by refusal** — not "don't", but
+   a locked door, a dead phone, and eleven messages in three minutes.
+3. **The objection resolves into a demand for inclusion**, not for cancellation:
+   *"I just wanna play a little too."*
+4. **Dan supplies the means** and resents the outcome in the same hour.
+5. **Within two hours it is a rivalry** over the third party, priced and
+   scheduled: *"if you date her i get her once a week."*
+
+Two weeks later Annie is calling Shelbie *"a fucking low life Fayette County
+stripper"* and *"you are treating her like she's your fucking gf"* (see the May 1
+fight below). The woman she is enraged about is the one she went and collected
+from the driveway herself.
+
 ## When
 
-April 2019, per Dan. The surviving message corpus for Shelbie begins May 15, 2019 and documents a materially similar three-person coordination on June 8, 2019.
+**14 April 2019, 9pm–4am** and **17 April 2019, 2am–7am**, per Dan, with the
+first fully corroborated in the Annie thread of
+`all_imessages_complete_dump.txt` and the second partially. Shelbie's own
+iMessage number does not begin until May 15, 2019, and documents a materially
+similar three-person coordination on June 8, 2019 — so the April dates were
+previously unfixable from Shelbie's side alone. **They were always fixable from
+Annie's.** Nobody had looked, because the page treated the event as
+Shelbie-sourced and the Shelbie thread starts a month late.
+
+> **The method failure is worth more than the dates.** The page said in its own
+> sourcing note that the corpus "cannot independently confirm an April date."
+> That was true of the thread it checked and false of the corpus. A dated event
+> involving three people has three threads to check; this page checked one, and
+> the negative result got written down as though it were a property of the
+> archive rather than of the query. Where a claim about person A is
+> undocumented, look in the threads of B and C before recording an absence.
 
 ## People involved
 
@@ -43,6 +146,15 @@ April 2019, per Dan. The surviving message corpus for Shelbie begins May 15, 201
 > This is still the earliest documented instance with a woman *outside*
 > Dan's own romantic history, and the first with a recurring, named
 > third-party dynamic rather than a same-week reunion.
+
+> **REVISED [2026-08-16]:** and it is no longer an instance of the arrangement
+> at all, in the sense this section meant. The reconstruction above shows a
+> purchased one-on-one that Annie converted into a threesome from outside a
+> locked door. What April 2019 documents is not the arrangement operating — it
+> is the arrangement being *imposed* by the partner the later dossiers cast as
+> its subject. Any claim resting on this page as evidence that Dan architected
+> the 2018-onward framework has lost its footing here and needs re-checking
+> against its other instances.
 
 This sits inside the same spring/summer 2019 window as an unrelated but nearby reference: an outbound May 31, 2019 message from Dan lists "the abortion" alongside Fran's decline and the NYC move as major things he and Annie had "gone through together" by that point (see [[wiki/people/annie-ulmer]] for that separate item) — the two events are not connected beyond proximity in time, but both mark 2019 as a year of unusually consequential, thinly documented relationship history for the couple.
 
@@ -84,34 +196,18 @@ Shelbie's own iMessage number doesn't start texting until two weeks later.
 
 ## Gaps
 
-_All recorded gaps have been answered and are staged below._
+Shelbie's own account of either night is absent — her iMessage number begins
+2019-05-15, and the two encounters sit entirely inside Annie's thread and Dan's
+memory. Nothing records what she was told the arrangement was.
+
+Whether the 17 April window is the second encounter is inferred from the
+operator's account plus a long late-night drive; no message that night names
+her. The June 8, 2019 coordination remains unresolved as either a third
+occasion or a misdated recollection of one of these two.
+
+Whether sending the `.vcf` at 22:56 was capitulation, invitation, or unthinking
+— see the contradiction above — is not answerable from the record.
 
 ## Related
 
 [[wiki/people/annie-ulmer]] · [[wiki/people/shelbie-breakiron]] · [[wiki/timeline/periods/2018-deep-cycle]]
-
-## Operator answers — pending ingest
-
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-16] — Exact date within April 2019 is not established. Whether this was a one…
-
-**The gap, as this page stated it:**
-
-> Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown; Shelbie's thread ends in a hostile breakup on July 16, 2019 with no further contact recorded.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/timeline/captures/2026-08-16_145552_gap-shelbie-annie-threesome-april-2019.md`.
-
-Threesome #1 : 14 April 2019 (9pm - 4am)
-Threesome #2 : 17 April 2019 (2am - 7am)
-
-Noteworthy here is that these were not supposed to be threesomes. I had paid Shelbie to hook up and she came and Annie said she didn’t have a problem with it. When Shelbie got there; however she started blowing my phone up so much that I couldn’t get hard I was so distracted. Shelbie left and Annie contacted her independently without me knowing and invited her back over. She came and we had a threesome: 
-
-Two nights later we drove 2 hours to pick Shelbie up from work at the strip club for a second threesome

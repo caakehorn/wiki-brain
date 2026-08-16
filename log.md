@@ -1,3 +1,17 @@
+## [2026-08-16] close | timeline | shelbie-annie-threesome — the operator dated it, and the corpus showed the page had the authorship backwards
+
+First use of the portal GAPS tool. Operator answered *"Exact date within April 2019 is not established"* with both dates and the sequence; that answer sent the pass back to a thread nobody had checked, and the page's central claim did not survive it.
+
+**The dates are exact and were always recoverable.** 14 April 2019 (9pm–4am) and 17 April 2019 (2am–7am). The page had said the corpus "cannot independently confirm an April date" — true of the Shelbie thread, which begins 2019-05-15, and false of the corpus. **The whole first night is in Annie's thread on `+17249204125`: 109 messages between 9pm and 4am, 79 of them hers.** A dated event involving three people has three threads; this page checked one and wrote the negative result down as a property of the archive rather than of the query.
+
+**The event runs the opposite way from how it was filed.** It sat in `arrangement-history` as an instance of the Dan-architected arrangement. The minute-level record shows a purchased one-on-one — Cash App receipts to Shelbie of **$31 and $700 on the 14th**, *"$3700 and one amazon prime'd laptop later"* by the 19th — that **Annie converted into a threesome from outside a locked door**. Her texts are not objections: *"She can stay as long as she pleases I don't care. I just wanna play a little too"*, *"I'll ring the doorbell idc"*, then in caps *"SHE XAN STAY"* / *"TELL HER TO COME THE FUCK BACK"*. Shelbie left at 22:36. Dan: *"she left"*, then **"just say fucking no next time"** — anger at consent-then-intrusion, not at refusal. At 22:56 he sends Annie `Shelbie Breakiron.vcf`; at 23:34 Annie has her back: *"She here. Everything is cool 😎 we hugged."* By 01:56 it is a rivalry with a price — *"if you date her i get her once a week."*
+
+**One correction to the operator's own account, held not resolved.** He recalls Annie contacting Shelbie *"independently without me knowing."* The 22:56 contact-card attachment is his. Recorded as a `CONTRADICTION` rather than decided: supplying the means and not expecting the use is a different act from being cut out, and only he can say which it was.
+
+**The cascade is the part that matters.** `arrangement-history` carries the correction plus the falsifier it implies: the instances that page reads as Dan-architected are mostly reconstructed from **negotiation threads with the third party**, where Dan is by construction the correspondent. April 2019 is the one reconstructed from the couple's own thread *during* the event — and it is the one that inverts. That is a sampling artefact large enough to have manufactured the pattern, and it is now the first thing to test on that page rather than a footnote to it.
+
+Three gaps opened where one closed: Shelbie's own account of either night (her number starts a month late), whether the 17 April window is really the second encounter (a long late-night drive and Annie's *"You can do your thing first if you want. That's perfect"*, but no message names her), and the meaning of the `.vcf`.
+
 ## [2026-08-16] build | all | bin/wiki-gaps — 269 open gaps, no way for the one source that can settle them to answer, and OPEN.md could only see 164 of them
 
 Operator: *"make a wiki tool that helps me close gaps… select an entry, bring up the gaps, select one, input explanation/context… there should also be a MANUAL option."*

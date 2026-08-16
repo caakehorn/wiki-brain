@@ -4,7 +4,7 @@ page_type: concept
 title: "Arrangement History"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-08-02
+date_modified: 2026-08-16
 knowledge: mixed
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
@@ -72,7 +72,7 @@ from raw iMessage/SMS data that had not previously been mined.
 | Mar 7–8, 2018 | **The first executed encounter, and the earliest instance in this table.** Annie with Danny Matthews inside [[wiki/places/117-belmont-circle|117 Belmont Circle]], arranged by Dan, who watched — and which proceeded between the two falls that broke [[wiki/people/fran-coldren|Fran's]] hip and ended her residency that night. Dan reports no memory of the encounter itself and a precise memory of its function: the "masochistic emotional pinch" satiated by exposure, with the cathartic stage cut short by the second fall. | [[wiki/timeline/events/the-fall-of-fran]] |
 | Nov 3 – Dec 2018 | **Annie/Alexis reunion.** A six-week recurring arrangement between Annie and Dan's ex, [[wiki/people/alexis-armel|Alexis]], days after Alexis's release from a year in prison. Opens with a skeptical, explicitly transactional framing (Dan describes Alexis as "a really useful tool"), escalates through a birthday-night culmination (Nov 5) with a hidden-camera request, recurs through late November, and is retrospectively explained to a confidant as having started with a **$3,000 cash offer** — "initially I offered her $3000 to be a plaything for Annie." The earliest instance running with a woman from Dan's own romantic history — though no longer, as this table long had it, the earliest instance overall. | [[wiki/timeline/events/annie-alexis-reunion-november-2018]] |
 | ~2018–present | **smashonista** — Dan and Annie's joint camming operation (Chaturbate and other platforms), confirmed by August 2018, with a Patreon added October 2019. Annie separately worked under paid-companion aliases **"Hazel"** and **"Lily Lush"** (joint handles "smashonistaa"/"sofvded"), a commercial thread distinct from but adjacent to the couple's own camming. | [[wiki/people/annie-ulmer]] |
-| Apr 2019 | **Shelbie/Annie threesome.** A three-way encounter with [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], a stripper and aspiring cam model Dan was also seeing one-on-one that spring — per Dan's own account, though the message corpus for Shelbie doesn't begin until May 15, 2019. A corroborating May 1, 2019 fight has Annie naming Shelbie directly as a rival, confirming the relationship (and the arrangement) predates the message record. Recurs as a two-person Annie/Shelbie dynamic by June 8, 2019. | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]], [[wiki/people/shelbie-breakiron]] |
+| **Apr 14 + 17, 2019** | **Shelbie/Annie threesomes — the row that runs backwards.** Two encounters with [[wiki/people/shelbie-breakiron|Shelbie Breakiron]], a stripper and aspiring cam model, on nights now fixed to the minute from Annie's thread. **Neither was arranged by Dan.** He bought a one-on-one ($31 + $700 by Cash App on the 14th; *"$3700 and one amazon prime'd laptop"* by the 19th); Annie, locked out of the house, sent 79 messages between 9pm and 4am demanding to be let *in* — *"She can stay as long as she pleases I don't care. I just wanna play a little too"* — Shelbie left, Dan sent Annie her contact card at 22:56, and Annie brought her back (*"She here. Everything is cool 😎 we hugged"*). Within four hours Dan is pricing a rivalry over her (*"if you date her i get her once a week"*). Two weeks later Annie is calling her *"a fucking low life Fayette County stripper."* Recurs as a two-person Annie/Shelbie dynamic by June 8, 2019. | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]], [[wiki/people/shelbie-breakiron]] |
 | Mar 2019 | **Trinity St. Clair** — a $1,500/hour paid encounter with the adult-film performer of that name, booked days after Dan's move back to NYC ("the first thing I did"), addressed to both Dan and Annie directly. The direct thread shows two cancellations (illness, oversleeping) and ends ambiguously, but a separately-dated message confirms the visit completed around March 28 – April 1; Trinity went on to function as a credibility reference in at least one later booking inquiry (July 2019). | [[wiki/people/trinity-st-clair]] |
 | Sep–Oct 2019 | **Kelly Johansson** — a five-week run of paid sessions with a New York escort, the most professionalized instance in the corpus: not a one-off booking but a repeat working relationship, with Kelly treating Annie as a working peer rather than a client's girlfriend and pitching bringing both of them in as co-providers for one of her own regular clients. | [[wiki/people/kelly-johansson]] |
 | Oct 20, 2019 | **The filmed MMF — Dan's sole bisexual experience.** An NYC threesome with Annie and [[wiki/people/bryan-5088682461|Bryan]] — a gay man whose first encounter with a woman was that same night, making the crossing symmetric — filmed, in which Dan participated orally — per the operator "the one and only bisexual experience i've ever had (only oral)." Date is operator-attested (Oct 20); the corpus corroborates the event two days later — "last night we had to film mmf (my first time doing that) so i thought i should treat myself to some fun to wash the bad taste out of my mouth......literally" (Sent, 2019-10-22), whose "last night" phrasing reads one day later than the operator's date; the operator's date governs — and is independently corroborated by a same-morning 2:52 AM, Oct 21, 2019 disclosure to [[wiki/people/dan-polyak|Dan Polyak]] ("i had my first experience with another guy"), which reads as the night just past and lines up with the operator's Oct 20 date rather than the Oct 22 message. The plan develops inside the same autumn-2019 professionalized window (an Oct 3–6 thread negotiates "a 3some… Love if Annie can join" and "I can lead a bit of the mmf stuff since I have more experience"). The video resurfaced six and a half years later as a weapon: shared to Annie's next boyfriend and thrown at Dan during the June 2026 closure — see [[wiki/people/tuquick-17248123683]]. | [[wiki/people/tuquick-17248123683]], [[wiki/people/kelly-johansson]] |
@@ -80,6 +80,23 @@ from raw iMessage/SMS data that had not previously been mined.
 | Sep–Dec 2025 | **Kristin — the mirror structure.** A fourteen-week relationship built, within its first 48–72 hours, around a demand for total sexual exclusivity from Kristin ("That is my cum. Mine") — the inverse of the openness practiced with Annie during the same broad period. An AI analysis Dan commissioned of this specific relationship (the Chimera addendum) frames it as a "hyper-accelerated trauma bond" gated by escalating "purity tests," ending in a hostile blockade in December 2025. | [[wiki/people/kristin]] |
 
 ## What the pattern shows
+
+> **REVISED [2026-08-16] — one row runs the other way, and it was the most
+> detailed one.** April 2019 was tabled here as an instance of the arrangement
+> operating. Minute-level reconstruction from Annie's thread shows the opposite:
+> Dan paid for a one-on-one and Annie converted it into a threesome from outside
+> a locked door, against his live objection (*"just say fucking no next time"*).
+> That does not overturn the table — Feb 2018, Mar 2018 and Oct 2019 remain
+> Dan-arranged on their own evidence — but it does break the claim that every
+> instance shares one author, and it is the only row where the corpus captures
+> the arrangement being *initiated* rather than reported afterwards. **The
+> asymmetry to test against the other rows: the instances the wiki reads as
+> Dan-architected are mostly reconstructed from negotiation threads with the
+> third party, where Dan is by definition the correspondent. April 2019 is the
+> one reconstructed from the couple's own thread during the event.** That is a
+> sampling artefact large enough to have manufactured the pattern, and it is now
+> the first thing to check on this page rather than a footnote to it. See
+> [[wiki/timeline/events/shelbie-annie-threesome-april-2019]].
 
 > **REVISED [2026-08-02] — the start date moved back eight months.** Until
 > now this table opened its practice record with the November 2018 Alexis
