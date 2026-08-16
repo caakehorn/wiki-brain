@@ -23,6 +23,9 @@ synthesizes:
   - wiki/mind/synthesis/the-unbroken-bond
 tags: [relationships, nyc-era, uniontown-era, forensic-analysis]
 connections:
+  - page: wiki/people/kristin
+    type: instance-of
+    claim: "The Kristin thread is the rule's shortest instance and its cleanest: November 2025 holds 53 messages, the channel goes dormant rather than closing, and the December burst is Dan re-entering it — a failed reactivation, not a collapse."
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: evidenced-by
     claim: "Supplies the mechanism this page could only infer, in the form corrected 2026-08-13: the counterparty's terminating statement is not what performs a closure — Dan performed the June 1 one himself and held it 52 days — it is what would let him treat a closure as settled, which is why 1,880 messages of direct demand for it produced reactivation instead of an ending."

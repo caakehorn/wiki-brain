@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-15
+date_modified: 2026-08-16
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -209,6 +209,27 @@ state into a public, closed, adjudicable one. The firewall's job is to keep
 that conversion from happening, or to happen only when it can no longer be
 avoided — and the four sections below are the same mechanism read off four
 completely different corpora, none of which cite each other.
+
+
+> **RE-CHECKED [2026-08-16] — premise moved, conclusion survives, and one
+> prediction gains a boundary.**
+> [[wiki/mind/synthesis/block-unblock-loop]] moved on 2026-08-16 after
+> [[wiki/people/kristin]] was rewritten from primary exports.
+>
+> This page's edge reads that *"the exit is declared, never executed, because
+> execution is the irreversible act,"* with the firewall's **"blocks don't hold on
+> people"** prediction strengthened by the 2026-08-11 Rick retraction. **That
+> holds.** Nothing in the Kristin rewrite touches Dan's own severances; the
+> Kristin block is a *counterparty's* and was already scoped as such.
+>
+> **The boundary it gains.** The rewrite establishes that Dan stopped answering
+> Kristin in early November 2025 and did not resume for five weeks — a withdrawal
+> he performed, sustained, and then broke himself in December. That is one more
+> instance of the shape this page already names for the Annie June-1 severance
+> (**closures Dan can perform alone are the reversible kind**), now with a second
+> subject and a much shorter clock. It is not a counter-instance: he did not
+> execute an irreversible act, he executed a *reversible* one and then reversed it.
+> The prediction survives; its evidence base widens from one relationship to two.
 
 ## The four predictions, and where the wiki already proves each one
 

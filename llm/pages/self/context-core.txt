@@ -6,7 +6,7 @@ aliases: ["spine", "behavioral spine", "CONTEXT_CORE_EXPANDED"]
 status: stable
 importance: critical
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-16
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -62,7 +62,44 @@ changelog:
 
 ## LLM Quick Brief
 
-**For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA. Age 37 as of 2026. Independent music producer (GRIPNOTIC alias, active) and AI-consulting/agent pipeline work. Democratic socialist, atheist, autistic (self-identified), Jewish heritage on the paternal line. INTP 5w4 sx/sp — Ti-dominant forensic analyst who treats every domain (relationships, politics, work, AI) through the same anomaly-detection lens. The failure mode is never ignorance; it is the diagnosis-to-behavior gap. Core unconscious axioms: *not exceptional = worthless; not vigilant = annihilated; love that doesn't cost everything isn't real; time = countdown.* The decade-long relationship with [[wiki/people/annie-ulmer]] closed June 1, 2026 — not live. Housing is in active transition (337 Saratoga St being sold, no confirmed successor). BFS termination (cash dispute) in 2026. The one consistently sincere output channel is music production. All behavioral data defers to the 181,585-row message corpus and documented primary records, not memory or narrative.
+**For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA (age from DOB — do not carry a hardcoded number). Independent music producer (GRIPNOTIC alias, active) and AI-consulting/agent pipeline work. Democratic socialist, atheist, autistic (self-identified), Jewish heritage on the paternal line. INTP 5w4 sx/sp — Ti-dominant forensic analyst who treats every domain (relationships, politics, work, AI) through the same anomaly-detection lens. The failure mode is never ignorance; it is the diagnosis-to-behavior gap. Core unconscious axioms: *not exceptional = worthless; not vigilant = annihilated; love that doesn't cost everything isn't real; time = countdown.* The decade-long relationship with [[wiki/people/annie-ulmer]] took an involuntary closure June 1, 2026 and **reopened in early August 2026 — treat it as live, not historical**; contact, an in-person apology to Suz, and resumed sexual contact all fall between 2026-08-02 and 2026-08-09. Housing is in transition: 337 Saratoga **Drive** sold ~June 2026 ($465k, Suz's transaction); the documented landing place is [[wiki/legal/463-morgantown|463 Morgantown St]], occupied on no signed lease with no post-close financial plan on record. BFS termination (cash dispute) in 2026. The one consistently sincere output channel is music production. All behavioral data defers to the message corpus — **217,573 records, 106,629 sent / 110,944 received across 503 handles**, per `bin/mine-messages stats` — and to documented primary records, not memory or narrative.
+
+> **STALENESS AUDIT [2026-08-16] — the spine had drifted fourteen days behind its
+> own corpus, and the drift was concentrated in the one paragraph that gets
+> injected into LLM sessions.**
+>
+> Ninety of 456 pages were modified after this page's 2026-08-02 revision. Seven
+> claims here were superseded by that newer work. They are corrected in place
+> above; each is recorded here rather than silently overwritten, per `CLAUDE.md`
+> §3 — *never clear a stale warning by bumping a date.*
+>
+> | Claim as it stood | What moved it | Verdict |
+> |---|---|---|
+> | Annie "closed — not live" | [[wiki/people/annie-ulmer]] 2026-08-15: *"Live, not closed"*, three dated Aug 2026 events | **REVERSED** |
+> | Tom "~16,563 msgs (rank 4)" | Handle `+13307038747` is [[wiki/people/kristin]]; [[wiki/self/message-corpora/master-message-dump]] flags the prior mislabel | **REASSIGNED** — Tom is ~5,763, rank #5 |
+> | "337 Saratoga St", "no confirmed successor" | [[wiki/legal/463-morgantown]]; [[wiki/mind/synthesis/estate-money-spine]] ($465k, ~2026-06) | **CORRECTED + RESOLVED** |
+> | "181,585-row message corpus" | [[wiki/self/message-corpora/source-coverage-index]] 2026-08-14 | **WRONG OBJECT** — that is one file, not the corpus |
+> | "97,199 sent iMessages" | `bin/mine-messages` header: the dump that yields 97,199 marks nearly everything `Received` | **SUPERSEDED** by 106,629 |
+> | Annie "126k+ msgs" | Four-handle merge = 97,768 unique (`LLM_HANDOFF` 2026-08-15) | **ROWS ≠ UNIQUE** |
+> | Fran "age ~97–98" + open contradiction | [[wiki/people/fran-coldren]] resolved 2026-08-02 from a dated message | **CLOSED at 97** |
+>
+> **The Tom/Kristin one is the load-bearing error.** This page is cited by name as
+> an authority — [[wiki/work/bfs-foods]] quotes it directly — so a person's corpus
+> weight being overstated ~2.9× by absorbing somebody else's thread is the kind of
+> mistake that gets reasoned *from*. Tom is the wiki's exhibit for safe lateral
+> attachment; the volume behind that claim was mostly a different relationship.
+>
+> **Two failure classes worth naming, because both will recur.** First, *a number
+> that is right about one file and wrong about the corpus* — 181,585 is a true row
+> count and a false corpus size, and it had already propagated to six pages.
+> Second, *a hardcoded age*: "Age 37 as of 2026" is true until 1 November and then
+> silently false, with nothing to trip on it. Both are now expressed as
+> derivations rather than constants.
+>
+> **What this audit could not settle.** The Annie status is corpus-derived and its
+> last dated evidence is 2026-08-09; the 463 Morgantown move-in date, whether the
+> Little Caesars transfer executed, and the current state of the Arnu lien are all
+> unpinned in the record. They are marked as open above rather than guessed.
 
 ---
 
@@ -139,11 +176,11 @@ Read the low-sociability / low-trust / low-altruism scores as architecture, not 
 
 ## Chemical architecture [MEM/DOC]
 
-Engineered neurochemical system, instrumental with tradeoffs; the recovery model is explicitly rejected. Suboxone: daily chassis since **Feb 17, 2010** (day-zero confirmed; earlier entries saying ~Jan 2010 were corrected) — 15+ years, zero relapse, the residual 1% opiate glow intentional. Cocaine: cognitive accelerant, daily, framed as tool. Nicotine: ritual regulator; weed daily. Alcohol: zero for 13–15 years, active aversion — family pattern heavily implicated in prior conflicts.
+Engineered neurochemical system, instrumental with tradeoffs; the recovery model is explicitly rejected. Suboxone: daily chassis since **Feb 17, 2010** (day-zero confirmed; earlier entries saying ~Jan 2010 were corrected) — **16+ years as of 2026** (compute from the day-zero date rather than carrying a frozen figure), zero relapse, the residual 1% opiate glow intentional. Cocaine: cognitive accelerant, daily, framed as tool. Nicotine: ritual regulator; weed daily. Alcohol: zero for 13–15 years, active aversion — family pattern heavily implicated in prior conflicts.
 
 ## Voice [DOC]
 
-Two independent corpora confirm one stable voice: 97,199 sent iMessages (2015–2025) and the @danfrank Twitter archive (2009–2024). The lowercase/fragment/ellipsis idiom is present in 2009 tweets — stable architecture, not platform artifact.
+Two independent corpora confirm one stable voice: **106,629 sent iMessages (2015–2025)** and the @danfrank Twitter archive (2009–2024). The lowercase/fragment/ellipsis idiom is present in 2009 tweets — stable architecture, not platform artifact.
 
 | Marker | Count / Value |
 |--------|---------------|
@@ -163,17 +200,29 @@ Pivot words `actually` / `honestly` / `literally` mark the turn from cynical obs
 
 | Person | Role | Corpus weight |
 |--------|------|---------------|
-| [[wiki/people/tom]] (Tom Maison) | Primary male ally, safe attachment, first-call for major events; drug supply line; Ohiopyle excursions; ~3 weeks older, Pittsburgh area | ~16,563 msgs (rank 4) |
+| [[wiki/people/tom]] (Tom Maison) | Primary male ally, safe attachment, first-call for major events; drug supply line; Ohiopyle excursions; ~3 weeks older, Pittsburgh area | **4,160** (`+17249987341`) + ~1,603 (`phloxenheim@gmail.com`) ≈ **5,763; rank #5** |
 | [[wiki/people/suzanne-frank]] (Suzanne Frank, mother) | Realtor, primary financial line, oscillates savior↔adversary; "Blue MAGA wine mom," functional alcoholic; selling 337 Saratoga Dr (June 2026) | High |
 | [[wiki/people/jerad-friedline]] | Childhood friend (Sacramento); married, one daughter; e-commerce; political mirror; FSLY tip; "josh brannan is innocent.wav" last exchange | High (first-call) |
-| [[wiki/people/annie-ulmer]] (Anne Ulmer) | Decade-defining relationship ~2015–2026, met via [[wiki/people/alexis-armel|Alexis]]; closed June 1, 2026 (group chat); defamation confirmed; [[wiki/people/eli|Eli]] affair central — the gaslighting outweighed the affair | 126k+ msgs |
+| [[wiki/people/annie-ulmer]] (Anne Ulmer) | Decade-defining relationship ~2015–2026, met via [[wiki/people/alexis-armel|Alexis]]; closed June 1, 2026 (group chat); defamation confirmed; [[wiki/people/eli|Eli]] affair central — the gaslighting outweighed the affair | **97,768 unique across four handles** (`7244346811`, `7249204125`, `2124702449`, `alulmer28@gmail.com`); the older "126k+" is a row count over overlapping exports, not unique messages |
 | [[wiki/people/rick-frank]] (father) | Periodic low-intensity contact; undischarged paternal-authority wound | Low |
 | Vanessa (sister) | Vail, ski school; minimal presence | Low |
-| [[wiki/people/fran-coldren]] (great-grandmother) | d. April 2018 age ~97–98; self-described biggest life influence; dirt-poor WV → coal-baron marriage; gifted the Numark NS7; seven-day deathwatch with Annie | High |
+| [[wiki/people/fran-coldren]] (great-grandmother) | b. 15 Aug 1920, d. 4 Apr 2018, **age 97**; self-described biggest life influence; dirt-poor WV → coal-baron marriage; gifted the Numark NS7; seven-day deathwatch with Annie | High |
 
 Lower-resolution contacts with known gaps: Chris James. (The former "Ismaila" gap is resolved: Ismaila Barry = "DJ" of [[wiki/work/au-zaatar|Au Za'atar]] — [[wiki/people/ismaila-barry]].)
 
-> **CONTRADICTION:** Fran Whyel's 2018 death vs. a potential oral-history conflict on age/year remains unresolved — check against ancestry sources.
+> **CONTRADICTION CLOSED [2026-08-16] — she was 97, and this page was the last copy still carrying the spread.**
+> [[wiki/people/fran-coldren]] resolved it on 2026-08-02 against a dated message
+> in which Dan describes her, at the time, as *"a 97 year old woman with advanced
+> dimentia"* (2017-12-29) — consistent with an August 1920 birth and an April 2018
+> death. The **98** in this page and in
+> `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`, and the "93-year-old
+> matriarch" in an operator capture, are both superseded. Note the direction of
+> travel: the raw spine was wrong and a dated primary message corrected it, which
+> is the one case `CLAUDE.md` allows a non-raw source to outrank
+> `CONTEXT_CORE_EXPANDED.md`.
+>
+> The Coldren / Whyel / Thomas naming is **not** a contradiction — three marriages,
+> all three surnames canonical, all carried as aliases on her page.
 
 ## Residence timeline (canonical) [DOC/MEM]
 
@@ -185,16 +234,32 @@ Lower-resolution contacts with known gaps: Chris James. (The former "Ismaila" ga
 | Apr 2010–May 2013 | NYC — Brooklyn 424 Bedford → Manhattan UES | Studio-work era; Twitter voice weaponized |
 | May 2013–Feb 2019 | Uniontown — 337 Saratoga → 155 Virginia Ave | SLOPPP (2013–14) → MOGZART (2014–16); Annie begins Thanksgiving 2015; poverty floor 2017, deep cycle 2018 |
 | Feb 2019–Feb 2025 | Manhattan · 307 E 76th St | Hard-left turn 2019 (Bernie + Chapo); market era 2020–21; Eli affair autumn 2024, discovered Jan 2025 |
-| Feb 2025–present | Uniontown PA · 337 Saratoga Dr | Returned Feb 22, 2025; Annie closure June 1, 2026; house being sold June 2026; music reactivation, agent/AI work |
+| Feb 2025–~Jun 2026 | Uniontown PA · 337 Saratoga Drive | Returned Feb 22, 2025; Annie closure June 1, 2026; **house sold ~June 2026 ($465k)**; music reactivation, agent/AI work |
+| ~Jun 2026–present | Uniontown PA · [[wiki/legal/463-morgantown|463 Morgantown St]] | Dan and Suz land here on no signed lease and no confirmed power of attorney; owner is [[wiki/people/alexander-jackson]]. **Occupancy documented, move-in date not fixed in the record** — the transition is described prospectively on the source page and no message or record yet pins the day. Annie reopens Aug 2026 |
 
 NYC was two distinct chapters split by a six-year Uniontown stretch; the producer development and deep-cycle years happened in Uniontown.
 
-## Current state (as of mid-2026)
+## Current state (last re-derived 2026-08-16)
 
-- **Annie:** involuntary closure June 1, 2026 — historical, not live.
-- **Housing (acute):** Suz selling 337 Saratoga Drive, Dan's residence, with no confirmed post-close plan.
+- **Annie: LIVE, not historical.** The June 1 2026 severance held 52 days and then
+  broke. [[wiki/people/annie-ulmer]] (2026-08-15) states it outright — *"Live, not
+  closed — contact resumed"* — on three dated events: **2026-08-02** Annie walks to
+  the house and apologises to Suz in person; **2026-08-08** [[wiki/people/jerel-coles|Jerel Coles]]
+  identified via FOREWARN at 19:01:22, five-hour collapse follows
+  ([[wiki/timeline/events/august-2026-unmasking]]); **~2026-08-07/09** sexual contact
+  resumes, breaking a stated six-month gap. [[wiki/mind/synthesis/dormancy-not-exit]]
+  reaches the same conclusion independently. *Not operator-confirmed past 2026-08-09
+  — the corpus is the source, and the last dated evidence is a week old.*
+- **Housing:** 337 Saratoga Drive **sold** ~June 2026 ($465k, Suz's transaction as
+  owner-realtor). Landing place is [[wiki/legal/463-morgantown|463 Morgantown St]] —
+  no signed lease, no confirmed power of attorney, Suz in a mixed
+  agent/tenant/caretaker role with no separation of liability. **Open exposure:** the
+  [[wiki/people/arnu|Arnu]] mechanics lien was estimated to mature ~**27 July 2026**
+  and [[wiki/mind/synthesis/estate-money-spine]] records the deadline as having
+  *elapsed unobserved*. Whether any 337 proceeds are earmarked for Dan's housing is
+  still undocumented.
 - **Music:** the one sincere self-assembling thread; involuntary sub-bass signature (63–85% across 13 years, every alias); bottleneck is shipping.
-- **Work exit:** BFS termination (cash-variance dispute — [[wiki/work/bfs-foods]]); Little Caesars transfer via Kim.
+- **Work exit:** BFS termination (cash-variance dispute — [[wiki/work/bfs-foods]]); Little Caesars transfer via Kim **planned, not confirmed executed** — no page records the transfer completing.
 
 ## Dan's Law, trauma nodes, gaps
 
@@ -214,4 +279,4 @@ Freezer phone (run over on Second Ave) · Wall of Despair (Tom's [[wiki/people/k
 
 ## Notes
 
-When in doubt, the documented counts, timelines, and primary records here override generated metaphor. The raw corpus behind this page: 181,585 message rows plus audio and listening/library data.
+When in doubt, the documented counts, timelines, and primary records here override generated metaphor. The raw corpus behind this page: **217,573 message records** (106,629 sent / 110,944 received, 503 handles) in the direction-reliable dump, plus audio and listening/library data. **181,585 is not the corpus** — it is the row count of a single file, `imessage_ALL_both_all_now.csv`; see [[wiki/self/message-corpora/source-coverage-index]], which counts 52 sources and 1,786,124 rows against roughly 187,000 unique messages.

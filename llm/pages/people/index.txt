@@ -96,7 +96,7 @@ related: []
 - [[wiki/people/kelly-johansson]] — NYC escort Dan and Annie booked together fall 2019; pitched them as co-providers for one of her own clients.
 - [[wiki/people/kevin-mckiernan]] — President of [[wiki/work/creative-license|Creative License]], Dan's employer 2011–2012; documented in his own 2012 Gmail record using Dan's account against former employees, altering intern contracts, and backing a false notarized LinkedIn claim in retaliation for Dan's whistleblowing.
 - [[wiki/people/kim]] — Exemplifies vertical-authority-skepticism and work-power-dynamics: Anita sole locus of agency + off-books…
-- [[wiki/people/kristin]] — Kristin Shaelene (handle +13307038747), introduced through tom as "Tom's friend." An ex-Brooklyn librarian…
+- [[wiki/people/kristin]] — Kristin Prentiss (`+13307038747`, Akron OH). Dan's only other relationship of the Annie decade: ten weeks, Aug–Nov 2025, ~22,000 messages, ended over $40. Introduced through [[wiki/people/tom]]. Closed hostile Dec 2025.
 - [[wiki/people/kya-hansen]] — Canadian model/OnlyFans creator "bbblud"; Dan was her Reddit admin for a stretch in 2019, communicated mostly via OF.
 - [[wiki/people/lindsay-carolla]] — Thanksgiving 2016 supply contact; an unexplained "are you okay?" message in April 2017.
 - [[wiki/people/lauryn-ashly]] — Uniontown-era friend; real-time grief over Rob Orange's 2014 death, and a declined 2020 arrangement solicitation.

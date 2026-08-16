@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-15",
+ "generated": "2026-08-16",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
@@ -1067,7 +1067,7 @@
    "title": "Attachment Model",
    "summary": "The attachment model details the first documented instance of full attachment-system activation in Dan's history, which occurred during his relationship with...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/attachment-model.txt",
-   "bytes": 21330
+   "bytes": 21543
   },
   {
    "page": "wiki/mind/concepts/bunker-core.md",
@@ -1102,7 +1102,7 @@
    "title": "Contact Gini",
    "summary": "The coefficient is generalised in [[wiki/mind/synthesis/single-channel]]: the same concentration appears in the creative, cognitive and evaluative domains, a...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/contact-gini.txt",
-   "bytes": 23884
+   "bytes": 24276
   },
   {
    "page": "wiki/mind/concepts/dans-law.md",
@@ -1186,7 +1186,7 @@
    "title": "Big Five / Big30 Psychometrics & PD Vector",
    "summary": "The trait-level numbers are the profile's hardest data and its most extreme: a Big30 facet spread that puts Dan simultaneously in the top decile of the popul...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/big-five-psychometrics.txt",
-   "bytes": 8950
+   "bytes": 15780
   },
   {
    "page": "wiki/mind/profile/deviance-mapping.md",
@@ -1319,7 +1319,7 @@
    "title": "The Block/Unblock Loop",
    "summary": "Across the corpus, Dan's severances follow one script: **the exit is declared, not executed.** A block, an \"I'm done,\" an account abandonment \u2014 a bounded bur...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/block-unblock-loop.txt",
-   "bytes": 32596
+   "bytes": 34379
   },
   {
    "page": "wiki/mind/synthesis/bond-switch-2015.md",
@@ -1340,7 +1340,7 @@
    "title": "Dormancy, Not Exit",
    "summary": "**Nothing leaves this graph.** Every sustained relationship in the corpus that the record describes as \"over\" is, on inspection, not over \u2014 it has changed ro...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dormancy-not-exit.txt",
-   "bytes": 31782
+   "bytes": 32087
   },
   {
    "page": "wiki/mind/synthesis/estate-money-spine.md",
@@ -1361,7 +1361,7 @@
    "title": "The Instrument Is Also the Subject",
    "summary": "This wiki is written by a large language model, about a person for whom large language models are a documented daily cognitive organ, using an evidentiary st...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/instrument-is-subject.txt",
-   "bytes": 10322
+   "bytes": 11036
   },
   {
    "page": "wiki/mind/synthesis/intake-constancy.md",
@@ -1459,7 +1459,7 @@
    "title": "Totality Themes",
    "summary": "**The single generative rule this page derives, stated in one sentence:** an action, object, or relationship is trusted, left alone, and allowed to run indef...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/totality-themes.txt",
-   "bytes": 60221
+   "bytes": 61502
   },
   {
    "page": "wiki/mind/synthesis/vertical-authority-skepticism.md",
@@ -1501,7 +1501,7 @@
    "title": "Alexis Armel",
    "summary": "Alexis Armel \u2014 \"Lex\" \u2014 was Dan Frank's partner for roughly six years, from late 2009 to November 28, 2015. She is the longest relationship of his life before...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/alexis-armel.txt",
-   "bytes": 28562
+   "bytes": 28587
   },
   {
    "page": "wiki/people/ally-lubin.md",
@@ -1858,7 +1858,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 23795
+   "bytes": 23907
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -1949,7 +1949,7 @@
    "title": "Jerad Friedline",
    "summary": "Dan's oldest friend and the primary high-signal, low-frequency contact: a childhood friend from Uniontown now in Sacramento, married to Rachel (Jewish) with ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jerad-friedline.txt",
-   "bytes": 6373
+   "bytes": 7087
   },
   {
    "page": "wiki/people/jerel-coles.md",
@@ -2093,10 +2093,10 @@
   },
   {
    "page": "wiki/people/kristin.md",
-   "title": "Kristin",
-   "summary": "Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] as \"Tom's friend.\" She became Dan's most intense non-Annie messaging node duri...",
+   "title": "Kristin Prentiss",
+   "summary": "Kristin Prentiss is the only other person Dan had a relationship with during the Annie decade, and it lasted ten weeks. It ran from the end of August 2025 to...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/kristin.txt",
-   "bytes": 16812
+   "bytes": 26227
   },
   {
    "page": "wiki/people/kya-hansen.md",
@@ -2733,7 +2733,7 @@
    "title": "Context Core",
    "summary": "**The authoritative behavioral spine.** All self-knowledge in the wiki defers to this synthesis and its raw source for documented facts. Facts tagged `[DOC]`...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/context-core.txt",
-   "bytes": 16654
+   "bytes": 23048
   },
   {
    "page": "wiki/self/facebook/friends.md",
@@ -2838,14 +2838,14 @@
    "title": "Master Message Corpora (iMessage Dumps)",
    "summary": "**Sources ingested from /Users/daniel/Documents/**DOX/DOC SCAN/CSV/**",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/message-corpora/master-message-dump.txt",
-   "bytes": 14222
+   "bytes": 14369
   },
   {
    "page": "wiki/self/message-corpora/source-coverage-index.md",
    "title": "Source Coverage Index",
    "summary": "**Generated by `bin/source-index scan` on 2026-08-14. Do not hand-edit \u2014 rerun the tool.**",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/message-corpora/source-coverage-index.txt",
-   "bytes": 12821
+   "bytes": 13950
   },
   {
    "page": "wiki/self/overview.md",
@@ -3027,7 +3027,7 @@
    "title": "Master Timeline",
    "summary": "Every dated event recorded anywhere in this wiki, in order, each linked back to the page and section that documents it.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/master-timeline.txt",
-   "bytes": 498354
+   "bytes": 511447
   },
   {
    "page": "wiki/timeline/periods/2010s.md",
@@ -3062,7 +3062,7 @@
    "title": "2020\u20132021 Market Era",
    "summary": "For roughly a year \u2014 September 2020 through early 2021, during the second NYC period \u2014 Dan ran his pattern-recognition engine on retail markets, rode the mem...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2020-2021-market-era.txt",
-   "bytes": 3977
+   "bytes": 4691
   },
   {
    "page": "wiki/timeline/periods/2021-2023-employment-block.md",

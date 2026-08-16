@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-15
-460 pages, ~915,721 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-16
+460 pages, ~926,536 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -9449,7 +9449,7 @@ This cognitive architecture is heavily influenced by a multi-generational family
 | Love affirmations from Annie to Dan | 299 | MasterRecord Synthesis (unlocated in primary recount 2026-07-18 — her terminal-phase love-messages: 231; all-time in dual-handle export: 1,302; the 0-severance half IS primary-verified: severance sweep of her 41,073 messages returns only false positives) |
 | Explicit severance signals from Annie to Dan | 0 | Full ten-year Annie Corpus |
 | Relationship-tagged events, whole corpus (not Annie-specific) | 266 of 1,104 total event entries | `LIFE_EVENTS_CALENDAR.md` — auto-extracted from 175,358 iMessages, all 66 referenced contacts, 2015-11 to 2026-03; context for scale, not an Annie-relationship figure |
-| Cheating/affair-tagged events, whole corpus (not Annie-specific) | 84 | same auto-extraction; includes events about other relationships (e.g. Alexis's 2010s infidelity, Jeff's affair) alongside Annie material |
+| Cheating/affair-tagged events, whole corpus (not Annie-specific) | 84 | same auto-extraction; includes events about other relationships (e.g. Alexis's 2009 online infidelity, Jeff's affair) alongside Annie material. Note that this auto-extraction dates events by message send date, which is exactly the error that filed the 2009 Alexis episode under 2015-11-28 — treat the tagged dates as message dates, not event dates |
 | Written denials of a third-party relationship | 2 (Nov 2025, Feb 2026) | The Nov 2025 instance is dated and quoted in `THE_DAN_FRANK_BOOTLOADER.md` ("a written denial of another person") and discussed at length in `Breaking the anxiety avoidance cycle (1).md` ("No and no" — direct denial of seeing someone else); the Feb 2026 instance is carried only in the Documented Contradictions section below and has no independent primary quote located in this pass |
 | Sequences pairing an affection expression with a request | 187 of 191 (96.6%; earlier partial count 145) | MasterRecord_FINAL |
 | Standalone love declarations, 7-month terminal window | 4 | MasterRecord_FINAL |
@@ -10183,6 +10183,9 @@ related:
   - wiki/mind/synthesis/intake-constancy
 tags: [relationships, music-production, trauma-bond]
 connections:
+  - page: wiki/people/kristin
+    type: evidenced-by
+    claim: "22,018 messages in ten weeks is the corpus's most concentrated single node — and it falls entirely outside the dump this concept's coefficient was computed over, so the measured Gini understates the concentration it describes."
   - page: wiki/people/jerad-friedline
     type: evidences
     claim: "Jerad's +191****3615 handle carries 857 messages (832 received, 25 sent), making it one of three handles with 100+ messages and documenting the high-concentration contact architecture (Gini 0.9601)."
@@ -10454,7 +10457,7 @@ sending behaviour is the receiving behaviour.
 |---|---|---|---|
 | Annie (PA handle `+17244346811`) | 31,177 | Primary partner | MASTER_MESSAGES_DB_DUMP.csv |
 | Annie (NYC handle `+12124702449`) | 17,145 | Primary partner | MASTER_MESSAGES_DB_DUMP.csv |
-| [[wiki/people/kristin|Kristin]] (`+13307038747`) | 16,563 | Secondary contact (friend of Tom) | tom_kristin_master_dossier.md |
+| [[wiki/people/kristin|Kristin]] (`+13307038747`) | **20,009** | Ten-week relationship Aug–Nov 2025, not a secondary contact | `imessage_3307038747_both_all_now.csv` (recount 2026-08-16; 16,563 was the MASTER_DUMP figure) |
 | Frequent PA Contact (`+17249204125`) | 4,812 | Logistical/work contact | MASTER_MESSAGES_DB_DUMP.csv |
 | [[wiki/people/tom|Tom Maison]] (`+17249987341`) | 4,160 | Primary male ally | MASTER_MESSAGES_DB_DUMP.csv |
 | Johnny (`+17243223678`) | 3,462 | Transactional dealer node | MASTER_MESSAGES_DB_DUMP.csv |
@@ -12144,7 +12147,7 @@ aliases: ["RLUEI", "Big30", "psychometrics", "personality disorder scores"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-16
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
@@ -12305,6 +12308,130 @@ behavioral corpus instantiates.
 **Gaps:** no instrument name, norm group, or administration date for the
 Big30 or PD screens; scores appear identically across dossiers, suggesting a
 single unrecorded test session; no post-2026 retest.
+
+---
+
+## The corpus audit [2026-08-16] — every score tested against 217,573 messages
+
+**The problem this closes.** Every number above is self-report: one unrecorded
+test session, restated across four dossiers. The wiki holds 217,573 measured
+messages and had never pointed them at this table. Meanwhile `mind/` carries
+17,644 words on the Annie relationship — more than twice this entire wing —
+because that material had evidence to grow on and these scores did not.
+
+A facet score is a claim about behaviour, so **`bin/psychometrics` turns each
+one into a directional prediction with a lexical proxy**, run over Dan's
+**106,629 sent** messages against the **110,944 received from 503 other
+handles** as a within-medium control. The control is what makes it a
+measurement: rates are meaningless alone, because SMS is a low-introspection
+medium for everybody in it, so everything below is a ratio against what the
+people texting him do.
+
+**The jurisdiction, carried over from [[wiki/self/context-core]] unchanged:
+failure to corroborate is not falsification.** A trait can be real and leave no
+lexical trace. A low ratio here means *the corpus does not carry this*, never
+*the instrument is wrong*. Only an elevated ratio is positive evidence, and only
+an inversion — a low-scored facet showing markedly *raised* language — is
+evidence against a score.
+
+### The headline: Altruism 1 is inverted, and the inversion is specific
+
+| Proxy | Dan | Control | Rate /1k | Ratio |
+|---|---:|---:|---|---:|
+| Offering help unprompted | 298 | 173 | 2.79 vs 1.56 | **1.79×** |
+| Concern for the other person | 213 | 89 | 2.00 vs 0.80 | **2.49×** |
+| Sympathy tokens | 45 | 103 | 0.42 vs 0.93 | **0.45×** |
+
+A 1st-percentile Altruism score predicts less helping language than the people
+around him. He produces **roughly twice as much**. That is the strongest
+disconfirmation in the sheet — and it does not generalise, which is the actual
+finding.
+
+**The instrument collapses two channels the corpus separates.** Altruism 1 and
+Sympathy 6 sit adjacent in the table and read as one low-warmth cluster. In
+behaviour they run in opposite directions: the **instrumental** half — offering
+to *do* something, asking if you are okay — runs at 1.8–2.5× baseline, while the
+**affective** half — expressing feeling *about* your feeling — runs at 0.45×,
+less than half. He is not low-warmth. He is high-provision and low-condolence.
+"Let me know if you need anything" at double rate; "I'm so sorry to hear that"
+at less than half.
+
+That reframes the standing instruction on this page — *read the low-sociability
+/ low-trust / low-altruism scores as architecture, not deficit to fix* — because
+one of the three is not there to read. The architecture is real; Altruism 1 is
+measuring the register the offer is made in, not whether it is made.
+
+### Where the corpus does confirm the table
+
+| Facet | Score | Proxy | Ratio | Verdict |
+|---|---:|---|---:|---|
+| Artistic Interests | 81 | aesthetic register | **3.82×** | supported |
+| Schizotypal | 79 | pattern / conspiracy cognition | **2.39×** | supported |
+| Trust | 9 | suspicion of motive | **1.96×** | supported (low trust → raised suspicion) |
+| Sympathy | 6 | sympathy tokens | **0.45×** | supported |
+| Antisocial | 58 | rule indifference | 1.85× | leans yes |
+| Self-Consciousness | 91 | self-monitoring in company | 1.85× | leans yes |
+| Sociability | 3 | initiating contact / plans | 0.73× | leans yes |
+
+### Ti-dominance is not elevated. It is categorical.
+
+The narrow construction — quantifying **your own confidence** as a percentage,
+*"I'm 95% sure"* — appears **21 times in Dan's 106,629 messages and zero times
+in the 110,944 he received.** Not rarer among others. Absent.
+
+> `2015-12-03` — *"I am 95% sure she quit and didn't tell anyone, based on what RT said"*
+> `2018-07-20` — *"I'm 99% sure it was a sedative in that. Fucked up"*
+> `2017-11-06` — *"though i'm 99.9999999999999999% sure you don't"*
+
+This reconciles the 22× figure on
+[[wiki/mind/concepts/calibrated-confidence]] with the 3.25× a broad
+"any percentage" proxy returns: the broad pattern dilutes the signal with prices,
+percentages and — checked by reading the matches — at least one Fandango URL.
+The signature is not *using numbers*. It is **attaching a probability to your own
+belief, unprompted, in a text message**, and on this evidence it is a thing only
+he does.
+
+### The silences, which are the more interesting half
+
+**Impulsiveness 96 — the highest score in the entire instrument — leaves no
+trace at all.** Immediacy language: 784 for Dan, 883 for the control, **0.92×**.
+If anything the people texting him reach for *right now / can't wait / fuck it*
+slightly more often. Introspection 87 is likewise flat (0.96×), and Vulnerability
+78 comes in *below* baseline (0.81×).
+
+Under the jurisdiction above none of these falsifies anything. But note what the
+pattern is: **the facets that survive contact with the corpus are the ones about
+what he attends to** — aesthetics, patterns, other people's motives. **The
+facets that vanish are the ones about how he is internally regulated** —
+impulse, overwhelm, introspection. That is the same jurisdiction the axiom test
+found in [[wiki/self/context-core]] (three of four axioms invisible), arriving
+independently through a different instrument. The corpus is a record of
+attention, not of interior state, and any future lexical pass should expect that
+boundary rather than rediscover it.
+
+Two proxies returned too few matches to read (Intellect 95, n=13; Narcissistic
+67, n=16) — the patterns are too literary for SMS and want rewriting, not
+believing.
+
+### Instrument notes — two bugs found in this tool's own predictions
+
+Recorded because the next pass will make the same class of mistake. The first
+run scored **Trust 9** and **Modesty 5** as predicting *less* suspicion and
+*less* self-elevation. Both are backwards: a low trust score predicts **more**
+suspicion, a low modesty score **more** self-elevation. Both produced a
+confident `INVERTED` verdict that was an artefact of the prediction table rather
+than anything in the corpus. Fixed before any of the above was written; Trust
+moved from a false inversion to genuine support.
+
+This is the same failure the method note on [[wiki/self/context-core]] records
+from the axiom pass, in a new place: there, a pattern caught *"I'm 99% sure"* and
+called it age self-reference. Here, the pattern was right and the *hypothesis*
+was pointed the wrong way. **A lexical pass has two things that can be
+backwards, and checking the matches only catches one of them.**
+
+**Reproduce:** `bin/psychometrics run --examples 5` · one facet:
+`bin/psychometrics run --facet altruism --examples 8` · the predictions and
+their proxies: `bin/psychometrics list`.
 
 
 ========================================================================
@@ -15255,7 +15382,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-15
+date_modified: 2026-08-16
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - "raw/self/message-csv/THE END FIGHT.csv"
@@ -15444,6 +15571,36 @@ executing a block against him. The operation is not a private defect;
 it is the negotiating grammar both sides of Dan's intense bonds learn
 to speak. What distinguishes the counterparties' blocks is only the
 rule above: Kristin's held because she needed nothing back.
+
+
+> **RE-CHECKED [2026-08-16] — the Kristin premise moved substantially, and the
+> conclusion survives strengthened rather than merely intact.**
+> [[wiki/people/kristin]] was rewritten from the primary exports on 2026-08-16.
+> Two of its changes bear on this page.
+>
+> **The row's reasoning is now better supported than when it was written.** The
+> table reads *"She blocks Dan, Dec 9 2025 | She needed nothing from him | Held."*
+> The rewrite establishes that the dependency had already been dead for **five
+> weeks** before the block: November 2025 holds 53 messages, most of them
+> unanswered image sends, after Dan stopped replying over the $40. So "she needed
+> nothing back" is not an inference from the block — it is a fact she had already
+> demonstrated for a month by not pursuing him. The control case is cleaner than
+> the page claimed.
+>
+> **But the December sequence is no longer only an inbound-block case.** The old
+> reading treated Dec 7–10 as the end of a live relationship. It was a **failed
+> reactivation** — Dan re-entering a channel that had gone dormant in early
+> November, which he had left. That makes the episode an instance of *both* sides
+> of the loop in one event: Dan running the re-entry, Kristin answering it with a
+> terminal block. Filed accordingly on
+> [[wiki/mind/synthesis/dormancy-not-exit]], which now carries it as its shortest
+> documented instance.
+>
+> One consequence for the loop's own asymmetry claim: the counterparty blocks that
+> hold are not distinguished only by "needed nothing back." Kristin's also
+> followed a withdrawal **Dan** performed first — so the durable-block cases may
+> be better predicted by *who left the channel first* than by dependency alone.
+> Left as an open lead rather than folded into the rule.
 
 ## The machine proof
 
@@ -16376,6 +16533,9 @@ synthesizes:
   - wiki/mind/synthesis/the-unbroken-bond
 tags: [relationships, nyc-era, uniontown-era, forensic-analysis]
 connections:
+  - page: wiki/people/kristin
+    type: instance-of
+    claim: "The Kristin thread is the rule's shortest instance and its cleanest: November 2025 holds 53 messages, the channel goes dormant rather than closing, and the December burst is Dan re-entering it — a failed reactivation, not a collapse."
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: evidenced-by
     claim: "Supplies the mechanism this page could only infer, in the form corrected 2026-08-13: the counterparty's terminating statement is not what performs a closure — Dan performed the June 1 one himself and held it 52 days — it is what would let him treat a closure as settled, which is why 1,880 messages of direct demand for it produced reactivation instead of an ending."
@@ -16440,7 +16600,7 @@ people who have vacated it — and finds that they are all still here.
 | Member | Role ended | What it became | Span since |
 | :--- | :--- | :--- | :--- |
 | [[wiki/people/danielle-onesi]] | 2009 (Dan's infidelity) | Suzanne's closest friend; cat co-guardian; Christmas fixture | **17 years, unbroken** |
-| [[wiki/people/alexis-armel]] | Nov 2015 (her infidelity) | Paid participant in the 2018 arrangement; warm correspondence to Feb 2025 | **~10 years** |
+| [[wiki/people/alexis-armel]] | Dec 2015 (Dan left for Annie) | Paid participant in the 2018 arrangement; warm correspondence to Feb 2025 | **~10 years** |
 | [[wiki/places/424-bedford-ave]] | 2012 (moved out) | Origin node of the Menore supply line, live to 2025 | **13 years** |
 | [[wiki/people/menore]] | Apr 2013 (Dan leaves NYC) | Dormant, then reactivated Nov 2018; ran to Feb 2025 | **12 years, one gap** |
 | [[wiki/places/155-virginia-ave]] | — | Container retained across the occupant swap | — |
@@ -17362,7 +17522,7 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-11
+date_modified: 2026-08-16
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
@@ -17394,6 +17554,17 @@ connections:
 ---
 
 # The Instrument Is Also the Subject
+
+
+> **RE-CHECKED [2026-08-16] — premise moved, conclusion unaffected.**
+> [[wiki/self/context-core]] was revised on 2026-08-16 by a staleness audit that
+> corrected seven claims: the Annie status (closed → live), Tom's corpus weight
+> (16,563 was Kristin's handle), the 337 Saratoga sale and the 463 Morgantown
+> landing, the corpus size (181,585 is one file, not the corpus), the sent-message
+> count (97,199 → 106,629), Annie's message volume (rows → 97,768 unique), and
+> Fran's age at death (~97–98 → 97). **This page reasons from none of them** —
+> checked by grep against every changed figure and claim — so nothing here is
+> rederived. Recorded rather than date-bumped, per `CLAUDE.md` §3.
 
 This wiki is written by a large language model, about a person for whom large
 language models are a documented daily cognitive organ, using an evidentiary
@@ -20674,7 +20845,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-15
+date_modified: 2026-08-16
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -20879,6 +21050,27 @@ state into a public, closed, adjudicable one. The firewall's job is to keep
 that conversion from happening, or to happen only when it can no longer be
 avoided — and the four sections below are the same mechanism read off four
 completely different corpora, none of which cite each other.
+
+
+> **RE-CHECKED [2026-08-16] — premise moved, conclusion survives, and one
+> prediction gains a boundary.**
+> [[wiki/mind/synthesis/block-unblock-loop]] moved on 2026-08-16 after
+> [[wiki/people/kristin]] was rewritten from primary exports.
+>
+> This page's edge reads that *"the exit is declared, never executed, because
+> execution is the irreversible act,"* with the firewall's **"blocks don't hold on
+> people"** prediction strengthened by the 2026-08-11 Rick retraction. **That
+> holds.** Nothing in the Kristin rewrite touches Dan's own severances; the
+> Kristin block is a *counterparty's* and was already scoped as such.
+>
+> **The boundary it gains.** The rewrite establishes that Dan stopped answering
+> Kristin in early November 2025 and did not resume for five weeks — a withdrawal
+> he performed, sustained, and then broke himself in December. That is one more
+> instance of the shape this page already names for the Annie June-1 severance
+> (**closures Dan can perform alone are the reversible kind**), now with a second
+> subject and a much shorter clock. It is not a counter-instance: he did not
+> execute an irreversible act, he executed a *reversible* one and then reversed it.
+> The prediction survives; its evidence base widens from one relationship to two.
 
 ## The four predictions, and where the wiki already proves each one
 
@@ -22227,8 +22419,8 @@ on Dan's own Facebook profile under "Previous relationships," in that order.
 **The relationship's first documented rupture happens roughly two weeks into
 it, in 2009, and it is the earliest event on this page.** Dan moved Alexis to
 Florida to be with him at Full Sail; about a fortnight after she arrived she
-cheated on him. Per the operator the episode was **online only, not in
-person** — which is why nothing physical, geographic or social in the Winter
+cheated on him. Per the operator the episode was **sexting someone else —
+online only, not in person** — which is why nothing physical, geographic or social in the Winter
 Park record marks it, and why it left no trace in the Twitter corpus of the
 same months. Dan's own single-sentence account of it survives, but not from
 2009: he told it to Annie six years later, on 2015-11-28, as the contrast case
@@ -28817,7 +29009,7 @@ related: []
 - [[wiki/people/kelly-johansson]] — NYC escort Dan and Annie booked together fall 2019; pitched them as co-providers for one of her own clients.
 - [[wiki/people/kevin-mckiernan]] — President of [[wiki/work/creative-license|Creative License]], Dan's employer 2011–2012; documented in his own 2012 Gmail record using Dan's account against former employees, altering intern contracts, and backing a false notarized LinkedIn claim in retaliation for Dan's whistleblowing.
 - [[wiki/people/kim]] — Exemplifies vertical-authority-skepticism and work-power-dynamics: Anita sole locus of agency + off-books…
-- [[wiki/people/kristin]] — Kristin Shaelene (handle +13307038747), introduced through tom as "Tom's friend." An ex-Brooklyn librarian…
+- [[wiki/people/kristin]] — Kristin Prentiss (`+13307038747`, Akron OH). Dan's only other relationship of the Annie decade: ten weeks, Aug–Nov 2025, ~22,000 messages, ended over $40. Introduced through [[wiki/people/tom]]. Closed hostile Dec 2025.
 - [[wiki/people/kya-hansen]] — Canadian model/OnlyFans creator "bbblud"; Dan was her Reddit admin for a stretch in 2019, communicated mostly via OF.
 - [[wiki/people/lindsay-carolla]] — Thanksgiving 2016 supply contact; an unexplained "are you okay?" message in April 2017.
 - [[wiki/people/lauryn-ashly]] — Uniontown-era friend; real-time grief over Rob Orange's 2014 death, and a declined 2020 arrangement solicitation.
@@ -30405,7 +30597,7 @@ title: "Jerad Friedline"
 aliases: ["Jerad", "Jerad Friendline"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-08-10
+date_modified: 2026-08-16
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -30441,6 +30633,17 @@ infobox:
 ---
 
 # Jerad Friedline
+
+
+> **RE-CHECKED [2026-08-16] — premise moved, conclusion unaffected.**
+> [[wiki/self/context-core]] was revised on 2026-08-16 by a staleness audit that
+> corrected seven claims: the Annie status (closed → live), Tom's corpus weight
+> (16,563 was Kristin's handle), the 337 Saratoga sale and the 463 Morgantown
+> landing, the corpus size (181,585 is one file, not the corpus), the sent-message
+> count (97,199 → 106,629), Annie's message volume (rows → 97,768 unique), and
+> Fran's age at death (~97–98 → 97). **This page reasons from none of them** —
+> checked by grep against every changed figure and claim — so nothing here is
+> rederived. Recorded rather than date-bumped, per `CLAUDE.md` §3.
 
 Dan's oldest friend and the primary high-signal, low-frequency contact: a childhood friend from Uniontown now in Sacramento, married to Rachel (Jewish) with one daughter, running an e-commerce business.
 
@@ -32408,20 +32611,21 @@ PAGE: wiki/people/kristin.md
 domain: people
 page_type: entity
 status: closed
+knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-19
-date_range_start: 2025-09-01
+date_modified: 2026-08-16
+date_range_start: 2025-08-29
 date_range_end: 2025-12-10
-sources: ["raw/people/kristin/chimera-genesis-addendum.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
-related: ["wiki/people/tom", "wiki/people/annie-ulmer", "wiki/mind/concepts/contact-gini", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/mind/psychosexual/arrangement-history", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/conflict-architecture"]
+sources: ["raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/people/kristin/chimera-genesis-addendum.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
+related: ["wiki/people/tom", "wiki/people/annie-ulmer", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/dormancy-not-exit", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike", "wiki/self/message-corpora/master-message-dump", "wiki/self/message-corpora/source-coverage-index", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/mind/psychosexual/arrangement-history", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/conflict-architecture"]
 tags: [relationships, trauma-bond, digital-footprint, legal, ai-collaboration]
 infobox:
-  name: "Kristin"
-  relationship_to_dan: unknown
+  name: "Kristin Prentiss"
+  relationship_to_dan: "girlfriend (Aug-Nov 2025), closed hostile"
   sex: female
-  location: nyc
-  first_contact: 2025-09-01
-  known_for: "Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] as 'Tom's friend.' She became Dan's most "
+  location: "Akron / Barberton, Ohio"
+  first_contact: 2025-08-29
+  known_for: "Dan's only other relationship of the Annie decade - ten weeks in autumn 2025, 22,000 messages, ended over $40"
 connections:
   - page: wiki/mind/psychosexual/arrangement-history
     type: component-of
@@ -32431,192 +32635,400 @@ connections:
     claim: "Kristin's Dec 9 2025 block of Dan held permanently — the loop's inbound control case: her severance was structural because she needed nothing from the channel."
   - page: wiki/people/tom
     type: component-of
-    claim: "The Kristin thread enters the corpus through Tom's social circle; he is the introduction vector."
+    claim: "The Kristin thread enters the corpus through Tom's social circle; he is the introduction vector, and the AI dossier the wiki drew her biography from is about her relationship with him rather than with Dan."
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: instantiates
+    claim: "December 2025 is a failed reactivation rather than a collapse: the thread had already gone dormant in November at 53 messages for the month, and Dan re-entered a dead channel — the rule's predicted shape and its shortest documented instance."
+  - page: wiki/self/message-corpora/source-coverage-index
+    type: evidenced-by
+    claim: "This relationship is the clearest demonstration that the direction-reliable dump has a coverage ceiling: all_imessages_complete_dump.txt ends 2025-08-10 and holds zero of these 20,009 messages, so bin/mine-messages returns silence rather than an error across the whole thread."
+  - page: wiki/mind/concepts/contact-gini
+    type: evidences
+    claim: "22,018 messages compressed into ten weeks, 73% of them into September alone, is the corpus's most extreme single-node concentration — and it lands entirely outside the dump the Gini was computed over."
 ---
 
+# Kristin Prentiss
 
-# Kristin
+Kristin Prentiss is the only other person Dan had a relationship with during the
+Annie decade, and it lasted ten weeks. It ran from the end of August 2025 to
+early November, produced about **22,000 messages across two platforms**, and
+ended in an argument about **forty dollars** that neither of them got past. A
+month of near-silence followed, then a four-day attempt to restart it in December
+that ended with her blocking him and sending links to two federal complaint
+portals. She has not appeared in the corpus since.
 
-## Identity
+She is from **Barberton, Ohio**, born 21 July 1990, and was living in the Akron
+area — about two hours from Uniontown — throughout. The distance is not
+incidental: *you wouldn't drive to see me* is the grievance underneath the
+grievance, and the $40 is the form it finally took.
 
-Kristin Shaelene (handle +13307038747), introduced through [[wiki/people/tom]] as "Tom's friend." She became Dan's most intense non-Annie messaging node during the late-2025 collapse: a flirtatious, sexual, high-volume thread that ran from September 1 to December 10, 2025 and ended in a hostile blockade involving threats of law enforcement. The relationship is a textbook instance of the redundancy impulse — an attempt to open a new attachment channel while the primary Annie thread was disintegrating.
+> **CORRECTED [2026-08-16] — her surname is Prentiss, not Shaelene, and she says
+> so herself.** The previous version of this page stated: *"Last name confirmed as
+> Shaelene from the dox-scan messenger export (the operating manual had listed
+> 'Shalene or Prentiss' as unknown)."* That confirmation was taken from a
+> **filename** — `messenger_Kristin Shaelene_2025-09-01-07-53-22.txt` — which
+> records a Facebook *display name*, conventionally first + middle. Her own
+> messages settle it twice in the first person:
+>
+> > `2025-09-11` — *"I just don't know how you expect me, **Kristin Prentiss** - to believe that you, Dan Frank are sufficiently healed…"*
+> > `2025-09-13` — *"The thing about **Kristin Prentiss** is I am extremely good at hiding my emotions"*
+>
+> Dan uses it too — *"I love you so much kristin prentiss"*, *"Empress Kristin
+> Prentiss"*. `operating_manual.md` had offered "Shalene or Prentiss" and marked it
+> unknown; the wiki resolved that uncertainty in the wrong direction, and resolved
+> it from the weaker of the two available kinds of evidence.
 
-She lives in a rural area outside the city — the corpus has her describing roads with "no fucking lights … for hundreds of miles" and her inability to drive at night — and pieces together income across three jobs: a pharmacy on weekends, DoorDash four days a week, and courthouse work she references having done twice as a legal secretary/legal assistant. She is a mother, and custody and court recur as live stressors in the thread.
+## The correction that reorganises the page: it ended in November
 
-> **CONTRADICTION:** A prior version of this page described Kristin as "an ex-Brooklyn librarian living in Pittsburgh." The message corpus does not support this — it shows pharmacy, DoorDash, and courthouse legal-secretary work, and a rural (not Pittsburgh) residence. The librarian claim is unsourced and likely an error; corrected here pending confirmation.
+The old page dated the relationship `2025-09-01 → 2025-12-10` and described
+"sustained high-intensity flirtation" running September through November before a
+four-day collapse. The month-by-month counts say something else.
 
-> **REVISED [2026-02-17]:** Per [[wiki/people/tom]] (not the direct Kristin thread, which had already gone dark by then): "Kristin got kicked out of her pharmacy over benzos." One leg of the three-job income stack above no longer holds as of this date.
+| Month | Messages | Share | Dan's share of sends |
+|---|---:|---:|---:|
+| September 2025 | 14,688 | 73.4% | 51.5% |
+| October 2025 | 4,896 | 24.5% | 46.9% |
+| **November 2025** | **53** | **0.3%** | 26.4% |
+| December 2025 | 372 | 1.9% | 61.8% |
 
-## Corpus Dimensions
+**November is fifty-three messages.** Not a quieter month — a stopped one. The
+relationship is over by its first week, and the December burst is not a collapse
+but a **failed reactivation of a channel that had already gone dormant** — the
+exact shape [[wiki/mind/synthesis/dormancy-not-exit]] predicts, and its shortest
+documented instance by an order of magnitude.
 
-| Metric | Value |
-|--------|-------|
-| Total messages (master dump) | 16,563 |
-| Volume rank | #3 overall — the top non-Annie node |
-| Date range | 2025-09-01 to 2025-12-10 (a single ~14-week burst) |
-| Direction | High bidirectional through the flirtation phase; sharply asymmetric (Dan-heavy) in the terminal week |
-| Dedicated sources | imessage_3307038747_both_all_now.csv; terminal export imessage_export_3307038747_20260624.csv; Tom-side detail in tom_kristin_master_dossier.md |
+The thread is extraordinarily front-loaded even within its live period.
+Three-quarters of everything ever said happened in September. The heaviest single
+day is **2025-09-09 at 1,324 messages** — the day they spent going through her old
+Twitter account together.
 
-## Behavioral Counts (Dan, Calibrated)
+## The $40, which is a November event
 
-| Pattern | Evidence |
-|---------|----------|
-| Rapid multi-burst texting | Sustained high-frequency sends across Sep–Dec |
-| Transparency/control-cede framing | Early offers of "full transparency, honesty, and accountability" and explicit no-commitment framing |
-| AI-mediated conflict analysis | Ran a ChatGPT analysis of their fights mid-thread and told her he had done so — a small, real-time instance of the [[wiki/mind/synthesis/ai-collaborative-analysis|AI-collaborative analysis]] pattern documented at scale elsewhere in the corpus, here deployed on a fourteen-week relationship rather than a decade-long one |
-| Escalation under rejection | Dec 9 pivot to technical threats (see Terminal Phase) |
+> **CORRECTED [2026-08-16]:** the old page placed the $40 dispute on **Dec 9** —
+> *"Dec 9 (a.m.) | Fight over $40 Kristin allegedly took from Dan's mother"* — as
+> the trigger for the terminal sequence. It is a **November** event, and by
+> December it is a five-week-old grievance being recited, not a fresh fight.
 
-The purity-test structure itself — exclusivity demanded of Kristin as a
-condition of intimacy, mirrored against the openness practiced in the
-[[wiki/people/annie-ulmer|Annie]] relationship during the same broad
-window — reads as the [[wiki/mind/concepts/conflict-architecture|conflict
-architecture]]'s resolution-engine logic applied to relational structure
-itself: a fixed rule imposed and then rigidly enforced, rather than a
-negotiated boundary that could flex.
+The whole of November is legible because there is so little of it. Dan's birthday
+is 1 November and she sends a video for it. By the next afternoon the money is
+already the subject:
 
-## Attachment Context (from the Tom/Kristin dossier)
+> `2025-11-02 14:33` **Dan** — *"You do realize that that was not my money right I've been answering for where it is gone for the last week…"*
 
-The dossier frames Kristin primarily through her dynamic with Tom: maternal agony over Kayden, "brat"-style boundary testing, edge play, and chemical escapism (cabin trips on ketamine, MDMA, and LSD) with Tom acting as the stoic absorber and supply line. Dan's thread runs parallel to that dyad rather than inside it — a separate, direct, flirtatious channel. Kristin surfaces in the Suz thread only as logistics ("Kristin who?", "kristin is working for another few hours"), which places her in Dan's lateral (Tom-circle) social load rather than the vertical family load.
+He litigates it at length on 4 November, in the register the corpus shows him
+using whenever he is trying to be reasonable at somebody:
 
-## The girlfriend era: genesis architecture (Project Chimera addendum)
+> `2025-11-04 21:56` — *"how would you like me to explain what happened to the $40 that doesn't result in the outcome that makes it appear that i…"*
+> `2025-11-04 21:57` — *"like i have been SO careful to not word this stuff as rude or pushy or even urgent"*
 
-The relationship was, for its fourteen weeks, a real girlfriend era — and
-the Genesis-phase Messenger logs (September 1, 2025, pre-dating the
-iMessage thread) show its entire architecture installed within the first
-48–72 hours. Within the first day Dan set the Messenger nicknames himself:
-his own to "⛤✵ LONELY LOSER ✵⛤" and hers to "☉☾ ᴇɴɪɢᴍᴀ ☾☉" — supplicant and
-gatekeeper, self-assigned. Within the same hours Kristin laid down the
-system's explicit rules: total sexual exclusivity ("That is my cum. Mine."),
-abandonment as the standing consequence ("I don't settle… I leave"), and
-climax-as-oath ("If I cum with you in my presence I'll be with you until
-death. That is a very serious thing to me"). The foundational myth
-underneath, disclosed almost immediately, was **Danny** — her prior
-great-intensity partner, dead ("there was never supposed to be 'on and off'
-with Danny") — with Dan explicitly auditioning for the role of the Danny
-who stays: "I am the person who can give you the passion, intensity and
-real spirit of romantic adventure that you've described in your
-relationship with danny, but with a sense of permanence and stability"
-(Sep 25). Ahmed, the Egyptian ex, entered the record the same first night.
+Then he stops answering. Her side of the month is almost entirely image
+attachments — of the 53 messages, a majority are bare `￼` placeholders — until
+13 November, when she names what happened:
 
-The Chimera addendum's model (an AI analysis Dan commissioned; read with
-that provenance): a **hyper-accelerated trauma bond** (assessed at 80%
-probability over "authentic partnership" at 15%), gated by escalating
-"purity tests" of unconditional devotion — the porn pop-up and the
-weed-vs-coke lie being documented failures — built by both parties as a
-deliberately totalizing world ("us against the world"; Dan: "completely
-throw myself into the situation"). Its bleakest structural finding: the
-system's failure state was success — full trust would have ended the
-game that powered it, so crisis was load-bearing. The forecast it issued
-(stagnation via cyclical conflict, death by attrition) is roughly what the
-terminal record shows happening by December.
+> `2025-11-13 06:21` **Kristin** — *"Well - that was stupid. Lol. Idk why you just up and ghosted like that. It's silly really and unnecessary."*
+> `2025-11-13 13:51` **Dan** — *"do you think it has anything to do with you beating my mom for $40 and not wanting to see me in person?"*
 
-## Texture from the corpus
+That is the end of the relationship, on 13 November, in two messages. **Dan is the
+one who withdrew** — a detail the collapse narrative had no room for, and one that
+matters because the standing model of him is a man who does not perform
+unilateral closures ([[wiki/mind/synthesis/totality-themes]]).
 
-The thread's register is immediate and destabilizing from day one — the very
-first morning (moving day, September 1) already mixes "I love you stupid"
-with negotiation and jealousy. The pattern that recurs across the fourteen
-weeks is the collision of intense affection with logistical churn: pledges
-like "I'll quit today for you," offers of a step-father's loan, and repeated
-demands to "Call me now" set against Dan's documented need to litigate every
-ambiguity.
+## The terminal sixteen minutes
 
-An unexpected recurring bonding activity, expanded 2026-07-14: astrology,
-running from Sept 1 through at least Sept 9, 2025, with Kristin as the
-expert rather than Dan. She sends her exact birth data and insists on a
-"Western style chart — Placidus style specifically," then walks Dan through
-her own chart in real time ("You have a birth chart of your life from
-start to finish... I showed you the chart graphs. Those are the literal
-degrees the planets sit in the sky... 12 houses. 12 signs. 10 planets.")
-and cross-reads it against his: her Moon in Leo against his Mercury in
-Leo, her Mercury in Libra, a 2nd-house Taurus Mars against what she reads
-as his Aries Mars near a "critical degree." She frames it as earned
-expertise, not vibes — "18 years of personal test theory," self-taught —
-and offers it as evidence-based rather than mystical, citing a friend's
-dog getting sick because "Mars was transiting her 6th house conjunct her
-moon." The exchange sours by Sept 6–7 into the same trust/ex-partner
-territory as the rest of the thread: she tells him "I don't know your
-stance with your x or other females," says she "didn't like that you hung
-up" on a related call, and pivots into naming the pattern she says defines
-her — "I leave instantly at the first sign of" trouble, versus Dan, who
-"stayed and tried to make things work to an extreme degree" — turning what
-started as a shared hobby into another vector for the same abandonment-vs-
-persistence dynamic that structures the whole relationship.
+The December exchange is real and the old account of its content was broadly
+right; what it lacked was the provocation and the clock. On 9 December Dan
+recites the accumulated list —
 
-A September 19, 2025 exchange (expanded 2026-07-14) traces a specific
-trigger-to-withdrawal sequence rather than a single line. Late that night,
-mid-conversation about her mother's garage sale, Kristin abruptly pivots
-after Dan shares results of a self-administered psychological "disorder
-test": "I feel some type of way about your little disorder test... I'm now
-concerned and I'm going to do the thing I do — like... pull away." She
-frames the retreat as a defense mechanism she names explicitly ("I have the
-ability to replace my feelings inside of me. Odd. But are we surprised?
-No") rather than rejection, and tells him he needs "more time to heal
-before you start pouring your unhealed pain into my purity." She then
-surfaces a dead ex-partner, "Jeff," whose name she had tattooed and later
-covered up, as the analogy for her own right to control emotional exposure
-— contrasted with Dan apparently not wanting to cover a tattoo tied to his
-own past: "There's a reason I got Jeff covered. And there's a reason you
-don't want to. There's just a lot of things." Within the hour she partially
-walks it back ("Ughhhhhhh don't read anything I said. I can't get it
-together. I'm unhinged... I have fought so hard to get where I am and I'm
-nowhere close to where I need to be. You are amazing. But you are
-damaged"), citing an unresolved "girlfriend that I still don't know that
-you do[ne with]" as a live source of her own doubt, before signing off with
-love and an offer to meet the next day. The whole arc — instant retreat,
-self-diagnosed pattern, partial retraction, love restated — is one of the
-clearest single-session demonstrations of the same "leave at the first
-sign of trouble" self-description she gives elsewhere in the thread.
+> `2025-12-09 06:51` — *"you re-neg on us dating, start talking to your ex, put things on pause, steal my moms $40 and wouldn't hang out ever"*
 
-Tom sits inside the thread as an active irritant rather than a background
-figure. During a September 20 crisis over where Kristin would sleep, she
-refuses to stay at another man's house out of stated loyalty to Dan while he
-rages about having to "hide … from Tom fucking faggot Maison" — the supply
-logistics, the jealousy triangle, and the drug-stashing plans ("stash it for
-me at his fucking grandparents in their backyard") all braided together in a
-single evening. Her own self-aware line, "WHAT IS MY LIFE," captures the tone.
+— and twelve hours later it ends, start to finish, in **sixteen minutes**:
 
-A September 9, 2025 exchange (found 2026-07-14, random corpus sample; expanded 2026-07-14 with the surrounding half-hour) is not a spontaneous confession but the product of a joint digital-archaeology session: the two of them going through her old, apparently deactivated Twitter account (@kpdope) together, with Dan offering to run it through the Wayback Machine to recover deleted history and to use ChatGPT to help her sort and caption what she says is a backlog of "7K photos." Along the way Kristin raises, with real uncertainty rather than confidence, a possibly-related old handle or nickname — "Krazy Krez" — and a name, "Daniel Kresowaty," that she isn't sure is even connected to her; neither is resolved in the thread. Inside that archival dig she surfaces the meth/homelessness photos unprompted — one she captions "that's me on meth... I was homeless in that pic... calling around, methed up," adding she'd "been trying to do this since 8/14/15" (get clean, on the evidence of the date). Dan responds with curiosity rather than alarm ("i am so FUCKING curious about young kristin"). It's the clearest first-person disclosure of her own addiction and homelessness history anywhere in the thread, offered within the first two weeks of the relationship, and it arrives embedded in a collaborative project to reconstruct her own digital past rather than as an isolated admission.
+| Time | Who | What |
+|---|---|---|
+| 18:40 | Kristin | *"Get off my shit I'll block you bitch"* |
+| 18:42 | Dan | *"guess who has your IP address"* · *"guess who has your WPA2 password"* |
+| 18:45 | Kristin | sends `complaint.ic3.gov` (FBI IC3) |
+| 18:51 | Kristin | sends the DHS IPR Center referral form |
+| 18:52–53 | Dan | *"'I'm CALLING THE POLICE ON YOU!'"* · *"lawyer first question : so did you block him and he used other numbers?"* |
+| 18:54 | Kristin | *"I didn't give you my IP address. And trust me I already know the entire process"* |
+| 18:55 | Kristin | *"All this is screenshotted. Blocking you now. Don't contact me again or an officer will be reaching out."* |
+| 18:56 | Dan | *"mr. officer i live at 337 saratoga drive"* |
 
-A late-October message shows Dan naming the redundancy dynamic to her face:
-he asks what she would think if he "notably started talking to annie
-regularly and then backed out of a relationship immediately and then put you
-on pause" — the exact sequence she later accuses him of. It is a rare instance
-of the pattern being described by its own subject in real time.
+Dan's escalation is a **response to being told to get lost**, not an unprompted
+pivot to technical threats — the old ordering implied the latter. The final
+message on 10 December is a single outbound send into a block. No charges are
+documented on either side; the threat surface is real and uncharged, recorded
+here for completeness alongside the [[wiki/work/bfs-foods]] material from the same
+window.
 
-## Terminal Phase (December 7–10, 2025)
+## Facebook came first, and the page never knew it
 
-The relationship did not fade; it collapsed over four days into a hostile blockade.
+> **CORRECTED [2026-08-16]:** the relationship did not begin on 1 September. The
+> old page set `date_range_start: 2025-09-01` and described the Messenger material
+> as *"Genesis-phase … pre-dating the iMessage thread"* while dating it to the same
+> day. The Messenger file is a **screen capture of the app UI**, taken on the
+> morning of 2025-09-01 between 07:04:39Z and 07:53:01Z, and the conversation
+> inside it is timestamped **August 29 and 30**. First contact is `2025-08-29` at
+> the latest.
 
-| Date | What happened |
-|------|---------------|
-| Dec 7–8 | Extreme asymmetry: Dan pushes for connection and recounts a sex dream; Kristin responds with flat dismissal and hostility |
-| Dec 9 (a.m.) | Fight over $40 Kristin allegedly took from Dan's mother |
-| Dec 9 (mid) | Dan escalates by claiming technical supremacy — that he has her WPA2 password and IP address and can throttle her Wi-Fi |
-| Dec 9 (end) | Kristin calls the bluff, sends links to the FBI IC3 and DHS IPR Center complaint portals, says everything is screenshotted, blocks him, and warns that an officer will reach out |
-| Dec 10 | A final outbound message from Dan (likely undelivered through the block) |
+Parsing the capture by speaker recovers **2,009 distinct messages — 1,439 from
+Dan, 570 from her.** He is sending **2.5×** what she sends before the iMessage
+thread ever opens; the near-parity of the iMessage phase (51.5% / 48.5%) is
+something the relationship settled into, not how it started.
 
-## Domain: Legal
+The Facebook phase consists almost entirely of **links**, and they are the two
+registers that run through everything after: **politics and music.**
+politicalcompass.org, *Zeitgeist*, Aaron Parnas clips on Trump cutting pediatric
+cancer research, a Trump/MAGA reel — against Scissor Sisters' *It Can't Come
+Quickly Enough*, Michael Jackson's *Human Nature*, Mark Morrison's *Return of the
+Mack*, and a shared Google Sheet. A courtship conducted by forwarding things.
 
-The terminal exchange produced an explicit but uncharged threat surface on both sides: Dan's stated intent to compromise her Wi-Fi and Kristin's report threat via IC3 and the IPR Center, plus her claim that an officer would make contact. No charges are documented. Recorded for completeness alongside the [[wiki/work/bfs-foods]] and BFS material from the same window.
+The nicknames the Chimera addendum builds its power-dynamic reading on are in the
+capture and are genuine: Dan sets hers to `☉☾ ᴇɴɪɢᴍᴀ ☾☉` and his own to
+`⛤✵ LONELY LOSER ✵⛤`, then re-sets both twice inside the same 22-minute window.
+**Two cautions the addendum does not carry.** The timestamps on those events are
+*capture* times, not *set* times — the nicknames were on screen that morning, and
+when they were assigned is unknown. And the addendum's chronology, "installed
+within the first 48–72 hours of contact," is measured from a start date now known
+to be wrong by two to three days.
+
+## Who she is, from her own messages
+
+The old biography was half right, and the wrong half came from an AI dossier
+about a different relationship.
+
+**Confirmed from her own words.** Three concurrent income streams: a **pharmacy**
+Friday through Sunday (*"I work at the pharmacy Friday Saturday and Sunday all
+day"*, 3 Sep), **DoorDash** on weekdays, and **courthouse** work — *"I've been
+hired as the legal secretary aside from a legal assistant - twice now here at the
+courthouse and I'm just like … no thanks"* (4 Sep). Birth data given in full for
+the astrology sessions: **21 July 1990, 22:29, Barberton, Ohio**. Prior partners
+named in one list on 2 September — *"Bill, Ryan, Danny, Jeff, Daniel, Tomas,
+Marcus, Aziz, Ahmed"*. **Danny is dead**, and is the relationship's founding myth:
+*"I'm sitting in the same spot I found out Danny died"* (1 Sep); *"There was never
+supposed to be 'on and off' with Danny"* (6 Sep). **Jeff** is a covered-up tattoo,
+raised on 19 September as an argument about Dan's refusal to cover his own.
+
+> **CORRECTED [2026-08-16] — she is not a mother, and "Kayden" appears nowhere in
+> 20,009 messages.** The old page stated *"She is a mother, and custody and court
+> recur as live stressors in the thread"*, and attributed to the dossier *"maternal
+> agony over Kayden."* Searching the entire iMessage thread returns **zero** hits
+> for Kayden in any spelling and **zero** for custody. What she says on
+> 22 September is the opposite:
+>
+> > *"He's the only kid I've ever been around ever and the love of my life. My half sister is a cunt. That's not her kid biologically it's her husband's…"*
+>
+> The child is **Ryder**, her half-sister's stepson.
+>
+> The claim's source is `tom_kristin_master_dossier.md`, which is **AI-secondary**
+> and — by its own opening — analyses *"the intimate interpersonal dynamic between
+> 'Tom' and 'Kristin'"* at a time when *"Dan is entirely separate from Kristin."*
+> It asserts *"her son, Kayden, who suffers from severe, violent behavioral issues
+> requiring institutional care"* and quotes *"I'm literally sad every day because I
+> think I'm a bad mom."* None of that is corroborated anywhere in Dan's own corpus.
+> **This is left as an open contradiction rather than resolved** — the honest
+> possibilities are that the dossier fabricated it, that it describes a different
+> person, or that she withheld a child across 20,009 messages, and the third is
+> hard to reconcile with the Ryder line. Do not repeat the "mother" framing as fact
+> without new primary evidence.
+
+> **CONTRADICTION [carried forward from 2026-07-19, still open]:** an earlier
+> version described her as "an ex-Brooklyn librarian living in Pittsburgh." The
+> corpus supports neither. It supports pharmacy / DoorDash / courthouse work and an
+> Akron, Ohio residence. She does say *"okay this is one of the things i miss most
+> about living in new york"* on Facebook — so a New York period is plausible and
+> unverified; "Brooklyn librarian" is not.
+
+> **REVISED [2026-02-17, carried forward]:** per [[wiki/people/tom]] — not the
+> direct thread, which had been dark for two months by then — *"Kristin got kicked
+> out of her pharmacy over benzos."* One leg of the three-job stack no longer holds
+> as of that date.
+
+## What the September thread is actually about
+
+Three things recur, and none is the sexual material the old page led with.
+
+**Astrology, with her as the expert.** From 1 to 9 September she runs Dan through
+Western/Placidus charts, hers against his, framing it as earned rather than
+mystical — *"18 years of personal test theory"*, self-taught — and offering
+falsifiable-sounding evidence (a friend's dog falling ill with *"Mars transiting
+her 6th house conjunct her moon"*). It is the only domain in the relationship
+where she holds the authority and he is the student.
+
+**Joint digital archaeology.** The 9 September peak (1,324 messages) is the two of
+them excavating her deactivated Twitter, `@kpdope`, with Dan offering the Wayback
+Machine and ChatGPT to caption a backlog of *"7K photos."* Inside that dig she
+volunteers the meth-and-homelessness photographs — *"that's me on meth… I was
+homeless in that pic… calling around, methed up"*, with *"been trying to do this
+since 8/14/15"* dating her attempt to get clean. Dan's response is curiosity, not
+alarm: *"i am so FUCKING curious about young kristin."* It is the most exposed
+disclosure in the thread, and it arrives inside a shared project rather than as a
+confession.
+
+> **CORRECTED [2026-08-16]:** the old page reported that during this session she
+> raised *"a possibly-related old handle or nickname — 'Krazy Krez' — and a name,
+> 'Daniel Kresowaty,' that she isn't sure is even connected to her."* Read in full,
+> the message is about **a man**, not herself: *"He has a few maybe and his FB's lol
+> they're all aliens and shit really. Weird mf. Uhh Daniel Kresowaty but never this
+> name I doubt it's always Krazy Krez or some shi[t]."* Her own former handle is
+> `@kpdope` and only that. A third party's aliases had been attached to her.
+
+**Leave-versus-stay, stated as doctrine.** She describes her own architecture
+early and keeps to it: *"I leave instantly at the first sign of"* trouble, against
+Dan who *"stayed and tried to make things work to an extreme degree."* The
+19 September sequence is the clearest single demonstration — a psychological
+self-test he shares triggers immediate withdrawal (*"I'm now concerned and I'm
+going to do the thing I do — like… pull away"*), self-diagnosis (*"I have the
+ability to replace my feelings inside of me"*), the Jeff tattoo as the analogy for
+her right to control exposure, then a partial retraction inside the hour (*"don't
+read anything I said… You are amazing. But you are damaged"*). Instant retreat,
+named pattern, walk-back, love restated — the whole loop in one evening, ten weeks
+before she executed it for real.
+
+**Tom is inside the thread, not behind it.** During a 20 September crisis over
+where she would sleep she refuses another man's house out of loyalty to Dan while
+he rages about hiding *"from Tom fucking faggot Maison"* — jealousy, supply
+logistics and a plan to stash drugs *"at his fucking grandparents in their
+backyard"* braided into one evening. Her own summary: *"WHAT IS MY LIFE."*
+
+**The redundancy dynamic, named by its subject.** In late October Dan asks her
+what she would think if he *"notably started talking to annie regularly and then
+backed out of a relationship immediately and then put you on pause"* — the exact
+sequence she later accuses him of, described in advance by the person who went on
+to perform it.
+
+## The AI reading, marked as such
+
+`chimera-genesis-addendum.md` is an analysis Dan commissioned and supplied on
+2026-07-13, framed by him as *"kristin as gf era."* Its model: a
+**hyper-accelerated trauma bond** (assessed at 80% against "authentic partnership"
+at 15%), gated by escalating purity tests, built deliberately as a totalising
+world (*"us against the world"*; Dan: *"completely throw myself into the
+situation"*). Its sharpest structural claim is that the system's failure state was
+success — full trust would have ended the game powering it, so crisis was
+load-bearing. Its forecast was stagnation via cyclical conflict and death by
+attrition.
+
+**Read with that provenance.** The probabilities are a model's confidence, not a
+measurement, and the same document supplied the Kayden claim now known to be
+uncorroborated. Where the addendum is checkable it does well — the exclusivity
+rules, the climax-as-oath (*"If I cum with you in my presence I'll be with you
+until death"*), the Danny myth, and Dan's explicit audition for the role of the
+Danny who stays (*"I am the person who can give you the passion, intensity and real
+spirit of romantic adventure that you've described in your relationship with
+danny, but with a sense of permanence and stability"*, 25 Sep) are all in the
+primary record. And death-by-attrition is roughly what happened — five weeks
+earlier than the page previously recorded.
+
+## Corpus dimensions
+
+| Metric | Value | Source |
+|---|---|---|
+| iMessage total | **20,009** (sent 10,102 / received 9,907) | `imessage_3307038747_both_all_now.csv` |
+| Facebook Messenger | **2,009 distinct** (Dan 1,439 / Kristin 570) | UI capture, 2025-09-01 |
+| Combined | **~22,018** | — |
+| Span | 2025-08-29 → 2025-12-10 | 67 active iMessage days |
+| Dan's share, iMessage | 50.5% | near-parity overall |
+| Heaviest day | 2025-09-09 — 1,324 | the Twitter excavation |
+| Handle | `+13307038747` (Ohio, 330) | — |
+
+> **CORRECTED [2026-08-16] — the message count was wrong, and the file it came
+> from is the one the repo documents as unreliable.** The old page reported *"Total
+> messages (master dump) | 16,563"* and *"Volume rank | #3 overall."* The dedicated
+> both-direction export holds **20,009** — an undercount of 3,446, or 17%. 16,563
+> is the figure from `MASTER_MESSAGES_DB_DUMP.csv`, which `EXTRACTION_SPEC.md`
+> records as marking nearly everything `Received`. Every directional claim on the
+> old page therefore rested on the file the repository already knew not to trust
+> for direction.
+>
+> The same 16,563 was, until 2026-08-16, also credited to **Tom** on
+> [[wiki/self/context-core]] — see the audit there. One wrong number was doing
+> damage on two pages.
+
+## Why nobody caught any of this
+
+**`bin/mine-messages` cannot see this relationship.** The direction-reliable dump,
+`all_imessages_complete_dump.txt` — the file `CLAUDE.md` mandates over grep, the
+one the corpus figures on [[wiki/self/context-core]] are computed from — runs
+**2011-03-18 → 2025-08-10** and contains **zero** of these 22,018 messages. The
+handle `3307038747` does not occur in it once. Neither does any message from
+September, October, November or December 2025.
+
+This is the failure the rewrite protocol warns about, in a form the guard does not
+catch. The documented trap is *"any claim about what Dan said must come from
+`all_imessages_complete_dump.txt`"* — but when a thread falls outside the dump's
+window, the instrument returns **silence, not an error**. A query for Kristin looks
+exactly like a query for someone who never texted. So the page was built from the
+fallback file, its numbers were never contradicted, and the wiki's own verification
+step could not have flagged it.
+
+**Anything in this wiki dated after 2025-08-10 has the same exposure.** That
+includes the whole of [[wiki/timeline/periods/dec-2025-spike]], the 2025 collapse
+material, and every per-year message count that treats the dump as complete for
+2025. Recorded on [[wiki/self/message-corpora/source-coverage-index]].
 
 ## Timeline
 
 | Date | Event |
-|------|-------|
-| 2025-09-01 | Thread ignites on iMessage (moving day); early flirtation and an "i'm in love" send; Tom acid-trip reference |
-| 2025-10-02 | Dan tells [[wiki/people/tom]] he and Kristin have "worked out that we are now officially dating" — the relationship's only explicit-commitment milestone |
-| 2025-09 to 2025-11 | Sustained high-intensity flirtation, sexual negotiation, and boundary testing; AI-mediated conflict analysis |
-| 2025-12-07/08 | Asymmetry peaks; Dan pursues, Kristin dismisses |
-| 2025-12-09 | $40 dispute → Wi-Fi hack threat → IC3/DHS links → block |
-| 2025-12-10 | Final outbound message from Dan |
+|---|---|
+| 2025-08-29 | First contact in evidence — Facebook Messenger |
+| 2025-08-30 | Bulk of the Facebook thread; link-trading, politics and music |
+| 2025-09-01 | Messenger UI captured 07:04–07:53; iMessage thread opens (933 messages) |
+| 2025-09-01→09 | Astrology sessions, her as expert; birth data given |
+| 2025-09-09 | Heaviest day of the relationship (1,324) — `@kpdope` excavation, meth/homelessness disclosure |
+| 2025-09-19 | The disorder-test withdrawal sequence; Jeff tattoo |
+| 2025-09-20 | Sleeping-arrangements crisis; Tom as active irritant |
+| 2025-09-22 | Ryder named — *"the only kid I've ever been around"* |
+| 2025-10-02 | Dan tells Tom they are "officially dating" (1,206 messages that day) |
+| 2025-10 (late) | Dan names the redundancy sequence to her in advance |
+| 2025-11-01 | Dan's birthday; she sends a video. Last warm day in the record |
+| 2025-11-02→04 | The $40 dispute |
+| 2025-11-05 | Mamdani's NYC win — *"I want to move to the border of NY but not the city"* |
+| 2025-11-13 | *"Idk why you just up and ghosted"* / *"beating my mom for $40"* — the actual end |
+| 2025-12-07→09 | Failed reactivation, 371 messages |
+| 2025-12-09 18:40–18:56 | Block, IC3 and IPR Center links, the sixteen minutes |
+| 2025-12-10 | One outbound message into a block |
+
+## Gaps
+
+- **The Kayden contradiction is open**, and is the most important unresolved thing
+  on this page. It needs either the dossier's underlying `chat_162.txt` (not in
+  `raw/`) or a direct operator answer.
+- **Identity cannot be verified the way the protocol requires.**
+  `EXTRACTION_SPEC.md` mandates cross-checking two independent contact exports.
+  `contacts.csv` and the Facebook address book both **predate her entirely** —
+  stamped 2018-02-13 and 2021-10-16, containing no Kristin Prentiss and no
+  `3307038747`. The surname rests on her own first-person testimony, which is
+  strong evidence but is one source.
+- **The Facebook thread is a screen capture, not an export.** 2,009 messages were
+  recovered from rendered UI; anything not scrolled into view that morning is
+  absent, so the August volume is a floor, not a total. A real Messenger export
+  would settle the first-contact date and the pre-iMessage ratio.
+- **Duplicate-suppression on that capture** may merge genuinely repeated short
+  messages ("Yea", "ok"), so 2,009 is conservative in one direction and
+  approximate in the other.
+- **No verification of the New York period** she references on Facebook.
+- **The second export**, `imessage_export_3307038747_20260624.csv` (2.58 MB, larger
+  than the 2.41 MB canonical), has not been diffed against the primary. It may
+  carry messages this analysis missed.
+- **Nothing after 2025-12-10.** The block appears to have held; whether contact
+  resumed off-corpus is unknown.
 
 ## Notes
 
-Last name confirmed as Shaelene from the dox-scan messenger export (the operating manual had listed "Shalene or Prentiss" as unknown). No evidence of continuation past the December 2025 burst appears in the master dump. Extreme volume concentrated in a short window makes this a strong data point for [[wiki/mind/concepts/contact-gini]], and the redundancy-under-collapse framing ties it directly to [[wiki/timeline/periods/2025-collapse]] and [[wiki/mind/synthesis/attachment-trauma-bond]].
+Extreme volume in a short window makes this the strongest single data point for
+[[wiki/mind/concepts/contact-gini]] — with the caveat, now established, that the
+Gini was computed over a dump this relationship is entirely absent from. The
+redundancy-under-collapse framing ties it to
+[[wiki/timeline/periods/2025-collapse]] and
+[[wiki/mind/synthesis/attachment-trauma-bond]]; the December burst belongs to
+[[wiki/mind/synthesis/dormancy-not-exit]] rather than to any collapse narrative.
 
-## Related
-
-[[wiki/people/tom]] · [[wiki/people/annie-ulmer]] · [[wiki/mind/concepts/contact-gini]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/timeline/periods/dec-2025-spike]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/synthesis/attachment-trauma-bond]]
+A method note for the next pass, because it cost time here: the Messenger capture
+stores some text in **mathematical-monospace Unicode**, so a plain grep for
+`LONELY LOSER` returns nothing while the string is plainly present. Fold with
+`unicodedata.normalize('NFKC', …)` before matching. This is the same family as the
+curly-apostrophe trap in `EXTRACTION_SPEC.md` and belongs beside it.
 
 
 ========================================================================
@@ -42258,7 +42670,7 @@ aliases: ["spine", "behavioral spine", "CONTEXT_CORE_EXPANDED"]
 status: stable
 importance: critical
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-16
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -42314,7 +42726,44 @@ changelog:
 
 ## LLM Quick Brief
 
-**For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA. Age 37 as of 2026. Independent music producer (GRIPNOTIC alias, active) and AI-consulting/agent pipeline work. Democratic socialist, atheist, autistic (self-identified), Jewish heritage on the paternal line. INTP 5w4 sx/sp — Ti-dominant forensic analyst who treats every domain (relationships, politics, work, AI) through the same anomaly-detection lens. The failure mode is never ignorance; it is the diagnosis-to-behavior gap. Core unconscious axioms: *not exceptional = worthless; not vigilant = annihilated; love that doesn't cost everything isn't real; time = countdown.* The decade-long relationship with [[wiki/people/annie-ulmer]] closed June 1, 2026 — not live. Housing is in active transition (337 Saratoga St being sold, no confirmed successor). BFS termination (cash dispute) in 2026. The one consistently sincere output channel is music production. All behavioral data defers to the 181,585-row message corpus and documented primary records, not memory or narrative.
+**For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA (age from DOB — do not carry a hardcoded number). Independent music producer (GRIPNOTIC alias, active) and AI-consulting/agent pipeline work. Democratic socialist, atheist, autistic (self-identified), Jewish heritage on the paternal line. INTP 5w4 sx/sp — Ti-dominant forensic analyst who treats every domain (relationships, politics, work, AI) through the same anomaly-detection lens. The failure mode is never ignorance; it is the diagnosis-to-behavior gap. Core unconscious axioms: *not exceptional = worthless; not vigilant = annihilated; love that doesn't cost everything isn't real; time = countdown.* The decade-long relationship with [[wiki/people/annie-ulmer]] took an involuntary closure June 1, 2026 and **reopened in early August 2026 — treat it as live, not historical**; contact, an in-person apology to Suz, and resumed sexual contact all fall between 2026-08-02 and 2026-08-09. Housing is in transition: 337 Saratoga **Drive** sold ~June 2026 ($465k, Suz's transaction); the documented landing place is [[wiki/legal/463-morgantown|463 Morgantown St]], occupied on no signed lease with no post-close financial plan on record. BFS termination (cash dispute) in 2026. The one consistently sincere output channel is music production. All behavioral data defers to the message corpus — **217,573 records, 106,629 sent / 110,944 received across 503 handles**, per `bin/mine-messages stats` — and to documented primary records, not memory or narrative.
+
+> **STALENESS AUDIT [2026-08-16] — the spine had drifted fourteen days behind its
+> own corpus, and the drift was concentrated in the one paragraph that gets
+> injected into LLM sessions.**
+>
+> Ninety of 456 pages were modified after this page's 2026-08-02 revision. Seven
+> claims here were superseded by that newer work. They are corrected in place
+> above; each is recorded here rather than silently overwritten, per `CLAUDE.md`
+> §3 — *never clear a stale warning by bumping a date.*
+>
+> | Claim as it stood | What moved it | Verdict |
+> |---|---|---|
+> | Annie "closed — not live" | [[wiki/people/annie-ulmer]] 2026-08-15: *"Live, not closed"*, three dated Aug 2026 events | **REVERSED** |
+> | Tom "~16,563 msgs (rank 4)" | Handle `+13307038747` is [[wiki/people/kristin]]; [[wiki/self/message-corpora/master-message-dump]] flags the prior mislabel | **REASSIGNED** — Tom is ~5,763, rank #5 |
+> | "337 Saratoga St", "no confirmed successor" | [[wiki/legal/463-morgantown]]; [[wiki/mind/synthesis/estate-money-spine]] ($465k, ~2026-06) | **CORRECTED + RESOLVED** |
+> | "181,585-row message corpus" | [[wiki/self/message-corpora/source-coverage-index]] 2026-08-14 | **WRONG OBJECT** — that is one file, not the corpus |
+> | "97,199 sent iMessages" | `bin/mine-messages` header: the dump that yields 97,199 marks nearly everything `Received` | **SUPERSEDED** by 106,629 |
+> | Annie "126k+ msgs" | Four-handle merge = 97,768 unique (`LLM_HANDOFF` 2026-08-15) | **ROWS ≠ UNIQUE** |
+> | Fran "age ~97–98" + open contradiction | [[wiki/people/fran-coldren]] resolved 2026-08-02 from a dated message | **CLOSED at 97** |
+>
+> **The Tom/Kristin one is the load-bearing error.** This page is cited by name as
+> an authority — [[wiki/work/bfs-foods]] quotes it directly — so a person's corpus
+> weight being overstated ~2.9× by absorbing somebody else's thread is the kind of
+> mistake that gets reasoned *from*. Tom is the wiki's exhibit for safe lateral
+> attachment; the volume behind that claim was mostly a different relationship.
+>
+> **Two failure classes worth naming, because both will recur.** First, *a number
+> that is right about one file and wrong about the corpus* — 181,585 is a true row
+> count and a false corpus size, and it had already propagated to six pages.
+> Second, *a hardcoded age*: "Age 37 as of 2026" is true until 1 November and then
+> silently false, with nothing to trip on it. Both are now expressed as
+> derivations rather than constants.
+>
+> **What this audit could not settle.** The Annie status is corpus-derived and its
+> last dated evidence is 2026-08-09; the 463 Morgantown move-in date, whether the
+> Little Caesars transfer executed, and the current state of the Arnu lien are all
+> unpinned in the record. They are marked as open above rather than guessed.
 
 ---
 
@@ -42391,11 +42840,11 @@ Read the low-sociability / low-trust / low-altruism scores as architecture, not 
 
 ## Chemical architecture [MEM/DOC]
 
-Engineered neurochemical system, instrumental with tradeoffs; the recovery model is explicitly rejected. Suboxone: daily chassis since **Feb 17, 2010** (day-zero confirmed; earlier entries saying ~Jan 2010 were corrected) — 15+ years, zero relapse, the residual 1% opiate glow intentional. Cocaine: cognitive accelerant, daily, framed as tool. Nicotine: ritual regulator; weed daily. Alcohol: zero for 13–15 years, active aversion — family pattern heavily implicated in prior conflicts.
+Engineered neurochemical system, instrumental with tradeoffs; the recovery model is explicitly rejected. Suboxone: daily chassis since **Feb 17, 2010** (day-zero confirmed; earlier entries saying ~Jan 2010 were corrected) — **16+ years as of 2026** (compute from the day-zero date rather than carrying a frozen figure), zero relapse, the residual 1% opiate glow intentional. Cocaine: cognitive accelerant, daily, framed as tool. Nicotine: ritual regulator; weed daily. Alcohol: zero for 13–15 years, active aversion — family pattern heavily implicated in prior conflicts.
 
 ## Voice [DOC]
 
-Two independent corpora confirm one stable voice: 97,199 sent iMessages (2015–2025) and the @danfrank Twitter archive (2009–2024). The lowercase/fragment/ellipsis idiom is present in 2009 tweets — stable architecture, not platform artifact.
+Two independent corpora confirm one stable voice: **106,629 sent iMessages (2015–2025)** and the @danfrank Twitter archive (2009–2024). The lowercase/fragment/ellipsis idiom is present in 2009 tweets — stable architecture, not platform artifact.
 
 | Marker | Count / Value |
 |--------|---------------|
@@ -42415,17 +42864,29 @@ Pivot words `actually` / `honestly` / `literally` mark the turn from cynical obs
 
 | Person | Role | Corpus weight |
 |--------|------|---------------|
-| [[wiki/people/tom]] (Tom Maison) | Primary male ally, safe attachment, first-call for major events; drug supply line; Ohiopyle excursions; ~3 weeks older, Pittsburgh area | ~16,563 msgs (rank 4) |
+| [[wiki/people/tom]] (Tom Maison) | Primary male ally, safe attachment, first-call for major events; drug supply line; Ohiopyle excursions; ~3 weeks older, Pittsburgh area | **4,160** (`+17249987341`) + ~1,603 (`phloxenheim@gmail.com`) ≈ **5,763; rank #5** |
 | [[wiki/people/suzanne-frank]] (Suzanne Frank, mother) | Realtor, primary financial line, oscillates savior↔adversary; "Blue MAGA wine mom," functional alcoholic; selling 337 Saratoga Dr (June 2026) | High |
 | [[wiki/people/jerad-friedline]] | Childhood friend (Sacramento); married, one daughter; e-commerce; political mirror; FSLY tip; "josh brannan is innocent.wav" last exchange | High (first-call) |
-| [[wiki/people/annie-ulmer]] (Anne Ulmer) | Decade-defining relationship ~2015–2026, met via [[wiki/people/alexis-armel|Alexis]]; closed June 1, 2026 (group chat); defamation confirmed; [[wiki/people/eli|Eli]] affair central — the gaslighting outweighed the affair | 126k+ msgs |
+| [[wiki/people/annie-ulmer]] (Anne Ulmer) | Decade-defining relationship ~2015–2026, met via [[wiki/people/alexis-armel|Alexis]]; closed June 1, 2026 (group chat); defamation confirmed; [[wiki/people/eli|Eli]] affair central — the gaslighting outweighed the affair | **97,768 unique across four handles** (`7244346811`, `7249204125`, `2124702449`, `alulmer28@gmail.com`); the older "126k+" is a row count over overlapping exports, not unique messages |
 | [[wiki/people/rick-frank]] (father) | Periodic low-intensity contact; undischarged paternal-authority wound | Low |
 | Vanessa (sister) | Vail, ski school; minimal presence | Low |
-| [[wiki/people/fran-coldren]] (great-grandmother) | d. April 2018 age ~97–98; self-described biggest life influence; dirt-poor WV → coal-baron marriage; gifted the Numark NS7; seven-day deathwatch with Annie | High |
+| [[wiki/people/fran-coldren]] (great-grandmother) | b. 15 Aug 1920, d. 4 Apr 2018, **age 97**; self-described biggest life influence; dirt-poor WV → coal-baron marriage; gifted the Numark NS7; seven-day deathwatch with Annie | High |
 
 Lower-resolution contacts with known gaps: Chris James. (The former "Ismaila" gap is resolved: Ismaila Barry = "DJ" of [[wiki/work/au-zaatar|Au Za'atar]] — [[wiki/people/ismaila-barry]].)
 
-> **CONTRADICTION:** Fran Whyel's 2018 death vs. a potential oral-history conflict on age/year remains unresolved — check against ancestry sources.
+> **CONTRADICTION CLOSED [2026-08-16] — she was 97, and this page was the last copy still carrying the spread.**
+> [[wiki/people/fran-coldren]] resolved it on 2026-08-02 against a dated message
+> in which Dan describes her, at the time, as *"a 97 year old woman with advanced
+> dimentia"* (2017-12-29) — consistent with an August 1920 birth and an April 2018
+> death. The **98** in this page and in
+> `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`, and the "93-year-old
+> matriarch" in an operator capture, are both superseded. Note the direction of
+> travel: the raw spine was wrong and a dated primary message corrected it, which
+> is the one case `CLAUDE.md` allows a non-raw source to outrank
+> `CONTEXT_CORE_EXPANDED.md`.
+>
+> The Coldren / Whyel / Thomas naming is **not** a contradiction — three marriages,
+> all three surnames canonical, all carried as aliases on her page.
 
 ## Residence timeline (canonical) [DOC/MEM]
 
@@ -42437,16 +42898,32 @@ Lower-resolution contacts with known gaps: Chris James. (The former "Ismaila" ga
 | Apr 2010–May 2013 | NYC — Brooklyn 424 Bedford → Manhattan UES | Studio-work era; Twitter voice weaponized |
 | May 2013–Feb 2019 | Uniontown — 337 Saratoga → 155 Virginia Ave | SLOPPP (2013–14) → MOGZART (2014–16); Annie begins Thanksgiving 2015; poverty floor 2017, deep cycle 2018 |
 | Feb 2019–Feb 2025 | Manhattan · 307 E 76th St | Hard-left turn 2019 (Bernie + Chapo); market era 2020–21; Eli affair autumn 2024, discovered Jan 2025 |
-| Feb 2025–present | Uniontown PA · 337 Saratoga Dr | Returned Feb 22, 2025; Annie closure June 1, 2026; house being sold June 2026; music reactivation, agent/AI work |
+| Feb 2025–~Jun 2026 | Uniontown PA · 337 Saratoga Drive | Returned Feb 22, 2025; Annie closure June 1, 2026; **house sold ~June 2026 ($465k)**; music reactivation, agent/AI work |
+| ~Jun 2026–present | Uniontown PA · [[wiki/legal/463-morgantown|463 Morgantown St]] | Dan and Suz land here on no signed lease and no confirmed power of attorney; owner is [[wiki/people/alexander-jackson]]. **Occupancy documented, move-in date not fixed in the record** — the transition is described prospectively on the source page and no message or record yet pins the day. Annie reopens Aug 2026 |
 
 NYC was two distinct chapters split by a six-year Uniontown stretch; the producer development and deep-cycle years happened in Uniontown.
 
-## Current state (as of mid-2026)
+## Current state (last re-derived 2026-08-16)
 
-- **Annie:** involuntary closure June 1, 2026 — historical, not live.
-- **Housing (acute):** Suz selling 337 Saratoga Drive, Dan's residence, with no confirmed post-close plan.
+- **Annie: LIVE, not historical.** The June 1 2026 severance held 52 days and then
+  broke. [[wiki/people/annie-ulmer]] (2026-08-15) states it outright — *"Live, not
+  closed — contact resumed"* — on three dated events: **2026-08-02** Annie walks to
+  the house and apologises to Suz in person; **2026-08-08** [[wiki/people/jerel-coles|Jerel Coles]]
+  identified via FOREWARN at 19:01:22, five-hour collapse follows
+  ([[wiki/timeline/events/august-2026-unmasking]]); **~2026-08-07/09** sexual contact
+  resumes, breaking a stated six-month gap. [[wiki/mind/synthesis/dormancy-not-exit]]
+  reaches the same conclusion independently. *Not operator-confirmed past 2026-08-09
+  — the corpus is the source, and the last dated evidence is a week old.*
+- **Housing:** 337 Saratoga Drive **sold** ~June 2026 ($465k, Suz's transaction as
+  owner-realtor). Landing place is [[wiki/legal/463-morgantown|463 Morgantown St]] —
+  no signed lease, no confirmed power of attorney, Suz in a mixed
+  agent/tenant/caretaker role with no separation of liability. **Open exposure:** the
+  [[wiki/people/arnu|Arnu]] mechanics lien was estimated to mature ~**27 July 2026**
+  and [[wiki/mind/synthesis/estate-money-spine]] records the deadline as having
+  *elapsed unobserved*. Whether any 337 proceeds are earmarked for Dan's housing is
+  still undocumented.
 - **Music:** the one sincere self-assembling thread; involuntary sub-bass signature (63–85% across 13 years, every alias); bottleneck is shipping.
-- **Work exit:** BFS termination (cash-variance dispute — [[wiki/work/bfs-foods]]); Little Caesars transfer via Kim.
+- **Work exit:** BFS termination (cash-variance dispute — [[wiki/work/bfs-foods]]); Little Caesars transfer via Kim **planned, not confirmed executed** — no page records the transfer completing.
 
 ## Dan's Law, trauma nodes, gaps
 
@@ -42466,7 +42943,7 @@ Freezer phone (run over on Second Ave) · Wall of Despair (Tom's [[wiki/people/k
 
 ## Notes
 
-When in doubt, the documented counts, timelines, and primary records here override generated metaphor. The raw corpus behind this page: 181,585 message rows plus audio and listening/library data.
+When in doubt, the documented counts, timelines, and primary records here override generated metaphor. The raw corpus behind this page: **217,573 message records** (106,629 sent / 110,944 received, 503 handles) in the direction-reliable dump, plus audio and listening/library data. **181,585 is not the corpus** — it is the row count of a single file, `imessage_ALL_both_all_now.csv`; see [[wiki/self/message-corpora/source-coverage-index]], which counts 52 sources and 1,786,124 rows against roughly 187,000 unique messages.
 
 
 ========================================================================
@@ -44405,7 +44882,7 @@ connections:
 | MASTER_DUMP_PART_1_ARCHAIC.csv | 124,178 | 124k | 2011-03-18 to ~2015+ | Archaic/partial dump overlapping master |
 | annie_all_time_logs.csv | 25,538 | 25k+ | 2015–2026 (2026 samples dominant in extract) | [[wiki/people/annie-ulmer|Annie]]-specific logs; timestamp,direction,text. Includes END FIGHT "Goodbye forever" 2026-06-01 |
 | imessage_2124702449_both_all_now.csv | 23,720 | 23k+ | Recent full (Annie NYC handle) | datetime_local,direction,contact,service,kind,has_attachments,chat_name,text |
-| imessage_3307038747*.csv (both_all_now + variants) | 16,563+ | 16,563 | 2025-09-01 to 2025-12-10 | [[wiki/people/kristin|Kristin]] (+13307038747; Tom's friend, potential romantic; intense flirty/sexual 2025 thread; "boner Ave", "I love you stupid", "kristin hole", "only cum to kristin rule") |
+| imessage_3307038747*.csv (both_all_now + variants) | 20,009 | 20,009 | 2025-09-01 to 2025-12-10 (iMessage only; first contact is 2025-08-29 on Messenger) | [[wiki/people/kristin|Kristin]] (+13307038747; Tom's friend, potential romantic; intense flirty/sexual 2025 thread; "boner Ave", "I love you stupid", "kristin hole", "only cum to kristin rule") |
 | imessage_export_3307038747_20260624.csv | 21,727 | ~21k | 2025-09 to 2025-12-10 | Kristin terminal phase extension, documenting the $40 dispute, IP/Wi-Fi hacking threats, and her blockade citing IC3/Homeland Security |
 | imessage_*_both_all_now.csv variants (multiple) | 10k+ combined | Various | 2025-2026 slices | Sent/received splits, group, last-6mo, ALL both |
 | messages_3476070497_all_time.csv | 4,414 | 4k | 2018-11 samples | Specific contact/thread |
@@ -44452,7 +44929,7 @@ Top handles by volume (approximate counts; Annie dual handles dominant):
 |------|--------|-------|-------------|
 | 1 | +17244346811 | 31,177 | Early Annie Ulmer (PA) primary; high relationship volume |
 | 2 | +12124702449 | 17,145 | Later Annie (NYC/212) ; ongoing 10yr thread |
-| 3 | +13307038747 | 16,563 | Kristin (Tom's friend, potential romantic interest; intense flirty/sexual 2025 thread) [CORRECTED from prior mislabel as Jerad?/Tom cross in thread CSV row] |
+| 3 | +13307038747 | 20,009 | Kristin Prentiss (Tom's friend, then Dan's girlfriend Aug–Nov 2025) [CORRECTED from prior mislabel as Jerad?/Tom cross in thread CSV row; count re-derived 2026-08-16 — 16,563 was this file's undercount, the both-direction export holds 20,009] |
 | 4 | +17249204125 | 4,812 | Frequent PA contact |
 | 5 | +17249987341 | 4,160 | Tom (+17249987341 per operating_manual) — supply/anchor |
 | 6 | annieulmr@aol.com | 3,645 | Annie email variant |
@@ -44532,6 +45009,10 @@ sources:
   - raw/self/message-csv/README_20260813_exports.md
 related: ["wiki/self/message-corpora/master-message-dump"]
 tags: [digital-footprint, forensic-analysis]
+connections:
+  - page: wiki/people/kristin
+    type: evidences
+    claim: "Kristin is the worked demonstration of this index's central warning: all_imessages_complete_dump.txt ends 2025-08-10, so a 22,018-message relationship returns silence rather than an error from bin/mine-messages, and the page built on the fallback file went unchallenged for two months."
 infobox:
   name: "Source Coverage Index"
   generated_by: "bin/source-index scan"
@@ -44540,6 +45021,17 @@ infobox:
 ---
 
 # Source Coverage Index
+
+> **The ceiling matters more than the row counts [2026-08-16].**
+> `all_imessages_complete_dump.txt` — the one dump whose `direction` field is
+> trustworthy, and the default for `bin/mine-messages` — runs **2011-03-18 →
+> 2025-08-10**. Everything after that date is invisible to the wiki's designated
+> instrument, and the instrument reports the absence as **zero matches rather than
+> an error**, so a query about a post-August-2025 thread is indistinguishable from
+> a query about someone who never existed. [[wiki/people/kristin]] is the worked
+> case: a 22,018-message relationship, none of it in the dump, with a page built
+> from the fallback file that nothing could contradict. Any claim in this wiki
+> dated after 2025-08-10 carries the same exposure.
 
 **Generated by `bin/source-index scan` on 2026-08-14. Do not hand-edit — rerun the tool.**
 
@@ -49167,7 +49659,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**2,012 events** across **77 years** (1796–2026), drawn from **313 pages**. Tier 1 478 · Tier 2 282 · Tier 3 1,252.
+**2,076 events** across **77 years** (1796–2026), drawn from **315 pages**. Tier 1 496 · Tier 2 285 · Tier 3 1,295.
 
 ## What counts as an event here
 
@@ -49351,6 +49843,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/fran-coldren]] · Frances "Fran" Whyel Coldren
 - ★ **1920-08-15** — Born Jesse Frances Thomas in Fort Martin, West Virginia (15 August 1920), she married three times (Whyel, then Coldren, then back to Van Voorhis via her daughter's marriage).  
   ↳ [[wiki/self/ancestry]] · Fran Coldren (1920–2018)
+- · **1920-08-15** — fran coldren (great-grandmother) — High  
+  ↳ [[wiki/self/context-core]] · Social graph
 - · **1920-08-15** — Maternal Great-Grandmother — Frances "Fran" Whyel Coldren (b. Jesse Frances **Thomas**) — Fort Martin, WV – Uniontown, PA — fran coldren  
   ↳ [[wiki/self/lineage/family-tree]] · Immediate Family Table
 - · **1920-08-15** — 3 — Jesse Frances Thomas Whyel Coldren — 04 Apr 2018, Uniontown, PA  
@@ -49571,7 +50065,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/legal/2015-possession-arrest]] · Case timeline
 - ★ **1988-11-01** — "Born November 1, 1988. ... Uniontown, Pennsylvania." Suzanne (real estate), Rick (auto), Vanessa. Skate + Pikewood/Nemacolin caddying.  
   ↳ [[wiki/self/chats/gemini-18]] · _18 Stats + Full Bio Timeline Table (2026-06-23 analysis)
-- ★ **1988-11-01** — For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA.  
+- ★ **1988-11-01** — For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA (age from DOB — do not carry a hardcoded number).  
   ↳ [[wiki/self/context-core]] · LLM Quick Brief
 - ★ **1988-11-01** — Dan born 1988-11-01 Uniontown, Fayette, PA.  
   ↳ [[wiki/self/location-history]] · Family Geographic Roots (from 23andMe + Ancestry GEDCOM tree)
@@ -49597,6 +50091,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/morley-frank]] · The residence record
 - · **1990** — Uniontown, PA  
   ↳ [[wiki/self/lineage/family-tree]] · Morley Jay Frank (1927–1998)
+- ★ **1990-07-21** — She is from **Barberton, Ohio**, born 21 July 1990, and was living in the Akron area — about two hours from Uniontown — throughout.  
+  ↳ [[wiki/people/kristin]] · Kristin Prentiss
+- ★ **1990-07-21** — Birth data given in full for the astrology sessions: **21 July 1990, 22:29, Barberton, Ohio**.  
+  ↳ [[wiki/people/kristin]] · Who she is, from her own messages
 
 ### 1993
 
@@ -50540,12 +51038,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - ★ **November 2015** — Relationship formation with Annie, breakup with Lex. High events in Dec 2015 (39 in sample).  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
-- ◆ **November 2015** — alexis armel — Paid participant in the 2018 arrangement  
-  ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The members against the rule
-- · **November 2015** — warm correspondence to Feb 2025 — **~10 years  
-  ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The members against the rule
 - · **November 2015** — Casey Bondarenka was a friend who overstayed his welcome during a chaotic late-2015 stretch involving Alexis and Vanessa, then resurfaced sporadically through 2018 (`+17245626199`, 36 messages, Nov 2015 – Oct 2018).  
   ↳ [[wiki/people/casey-bondarenka]] · Casey Bondarenka
+- · **November 2015** — (check) longstanding friend  
+  ↳ [[wiki/timeline/annie-read-notes]] · 4. Corrections queue
+- · **November 2015** — This is the primary evidence that the "Alexis was in Florida in November 2015" reading was false** (see bond switch 2015).  
+  ↳ [[wiki/timeline/annie-record]] · November
 - · **2015-11-24** — Annie enters — and **Alexis is the one who introduces them.** "HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME" (Annie, Dec 1)  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
 - · **2015-11-24** — Annie enters, introduced by Alexis herself (*"HAPPY ONE  
@@ -50572,16 +51070,34 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
 - ★ **2015-11-28** — Every field cross-checks against context core — this export is the strongest independent [DOC] confirmation of the biographical spine: birth date, Uniontown → Brooklyn 2010 move, Full Sail, the work chain, and the exact Annie relationship timestamp (Nov 28 2015, anchoring 2015 2016 annie…  
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
+- ★ **2015-11-28** — dense** — the relationship's first five years, near-daily  
+  ↳ [[wiki/timeline/annie-record]] · What the record actually covers
+- ★ **2015-11-28** — Annie's birthday, and the affair is already running.** The corpus opens mid-relationship, not at a beginning.  
+  ↳ [[wiki/timeline/annie-record]] · November
 - ★ **2015-11-28** — The last sixteen days of the documented Dan–Annie record (which runs November 28, 2015 – March 16, 2026) contain the relationship's most concentrated gaslighting events.  
   ↳ [[wiki/timeline/events/march-2026-terminal-phase]] · March 2026 — The Terminal Phase Peak
 - ★ **2015-11-28** — Dan tells Annie the **2009** origin of the Alexis relationship ("Lex cheated on me 2 weeks in after I moved her to fla") as a contrast case. **This is not a 2015 event** — see the correction above.  
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - ★ **2015-11-28** — Dan's only surviving account of it is a single sentence told to Annie on 2015-11-28, as the contrast case for how the *next* relationship was starting: *"I love this it's the exact opposite way I started my last relationship...  
   ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · The relationship pivot: Danielle ends, Alexis begins
+- ◆ **2015-11-28** — 97,768 unique messages, 2015-11-28 → 2026-06-05**, across Annie's four handles — `+17244346811` (2015-11 → 2018-12), `+17249204125` (2018-12 → 2020-06, opened with *"I texted her yesterday from my new number!"*), `alulmer28@gmail.com` (2020-07 → 2020-10), and `+12124702449` (2022, then 2025-03 →…  
+  ↳ [[wiki/timeline/annie-record]] · What the record actually covers
+- · **2015-11-28** — Cheating/affair-tagged events, whole corpus (not Annie-specific) — 84  
+  ↳ [[wiki/mind/concepts/attachment-model]] · Quantitative Corpus Indicators
 - · **2015-11-28** — Alexis Armel — "Lex" — was Dan Frank's partner for roughly six years, from late 2009 to November 28, 2015.  
   ↳ [[wiki/people/alexis-armel]] · Alexis Armel
 - · **2015-11-28** — Matches profile "since Nov 28 2015".  
   ↳ [[wiki/self/facebook/messages]] · Ally Lubin (dark humor peripheral, 2013)
+- · **2015-11-28** — M1 — concealment framed as reassurance.** 2015-11-28 19:01 (*"Alexis  
+  ↳ [[wiki/timeline/annie-read-notes]] · 3. Motif tracker
+- · **2015-11-28** — Alexis is living in the house, and the household is volatile.** Dan's plan for the evening includes going home to *"make sure she's not stealing or destroying my stuff"* (18:49); at 19:20 he is *"walking into the house now.  
+  ↳ [[wiki/timeline/annie-record]] · November
+- · **2015-11-28** — Gonna hide phone so it doesn't get broked"*; at 23:53, *"Just hid my phone while I was here to prevent drama and violence."* Three independent lines in one evening place Alexis physically in Dan's house on 2015-11-28 and describe an expectation of property damage.  
+  ↳ [[wiki/timeline/annie-record]] · November
+- · **2015-11-28** — Annie names the fear that the next ten years will test.** *"Im scared that since you've been together so long that you'll just go right back to her because I'm just a little fling"* (19:03).  
+  ↳ [[wiki/timeline/annie-record]] · November
+- · **2015-11-28** — Gabe the cat is in the household** (*"No!!!!!  
+  ↳ [[wiki/timeline/annie-record]] · November
 - · **2015-11-28** — Date Range: 2015-11-28 → 2026-03-23  
   ↳ [[wiki/timeline/events/timeline]] · Master Life Events Timeline
 - · **2015-11-28** — Message record begins Nov 28 2015; day two carries Annie's "YOU ARE MY EVERYTHING" / "You are my full life." Love-language frequency 2015: 3.6% for both parties; 2016 peaks — Annie 5.3%, Dan 5.7%, the decade highs.  
@@ -50594,6 +51110,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/alexis-armel]] · The end, in one day
 - ★ **2015-11-29** — And the love in these earliest weeks reads as real by any plain measure: on day three of the record (Nov 29, 2015) Annie wrote "YOU ARE MY EVERYTHING" and "You are my full life," at a moment when nothing about the relationship yet required managing him.  
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- ★ **2015-11-29** — Andre** — at the bar on Annie's birthday  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- ★ **2015-11-29** — "I met someone that instantly changed my life"* quoted without address  
+  ↳ [[wiki/timeline/annie-read-notes]] · 4. Corrections queue
+- ★ **2015-11-29** — Alexis is in the house all day, and the eviction is stalling.** *"She's upstairs I didn't go up after I got back"* (03:33); *"She's still... here....ughhhh"* (14:38); *"I just walked upstairs and she's on the phone with some dude"* (18:40).  
+  ↳ [[wiki/timeline/annie-record]] · November
 - ★ **2015-11-29** — Met Annie Ulmer at Uniontown Country Club golf course 2am rain  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
 - ★ **2015-11-29** — "I met someone that instantly changed my life and showed me that I was really unhappy"  
@@ -50608,6 +51130,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - ★ **2015-11-29** — November 29, 2015:** Dan met Annie in person, at the Uniontown Country Club golf course around 2am in the rain, and left Alexis within a day; Alexis moved out **December 1**.  
   ↳ [[wiki/timeline/periods/uniontown-return-2013-2015]] · The Alexis endgame and the switch
+- ◆ **2015-11-29** — Annie's pre-Dan nude leak** (2015-11-29, 03:17) — distinct from the MyFreeCams history and from the 2018 blackmail episode already on her page.  
+  ↳ [[wiki/timeline/annie-read-notes]] · 2. Open leads
 - · **2015-11-29** — Dan meets Annie in person (golf course, rain  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
 - · **2015-11-29** — meets Annie in person  
@@ -50618,8 +51142,52 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/alexis-armel]] · The end, in one day
 - · **2015-11-29** — The same day (Nov 29, 2015, 18:34) also carries Casey warning Dan off an unnamed woman ("Dude that's a slippery slope with her man...  
   ↳ [[wiki/people/casey-bondarenka]] · Late 2015: the friend-circle friction
+- · **2015-11-29** — "turd boy" / "dude"** — **Annie's own partner at the time**, present with her family on Nov 29  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — she says she will *"get rid of him"* — **no page — unnamed, high priority  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — Shu** — rearranged Dan's living room *"more dab friendly"*  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — leaves for Philadelphia Nov 29 — **no page — recurring, likely supply  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — later floated as Alexis's possible alternate drug source — **no page  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — Who is "turd boy"?** Annie's partner as of 2015-11-29.  
+  ↳ [[wiki/timeline/annie-read-notes]] · 2. Open leads
+- · **2015-11-29** — "YOU ARE MY EVERYTHING"* on "day two/three"  
+  ↳ [[wiki/timeline/annie-read-notes]] · 4. Corrections queue
+- · **2015-11-29** — supply as a binding mechanism, documented late  
+  ↳ [[wiki/timeline/annie-read-notes]] · 4. Corrections queue
+- · **2015-11-29** — Annie was leaving someone too, and says so.** *"my fam and dude are here and are going to force me to leave with them"* (01:35); Dan refers to him as *"turd boy"* (02:49); Annie: *"I don't like him.  
+  ↳ [[wiki/timeline/annie-record]] · November
+- · **2015-11-29** — Dan's own read on why Alexis can't leave: supply.** *"Ahhhh I know why she isn't leaving / Or like HASNT left / ...she doesn't have another drug source"* (14:54).  
+  ↳ [[wiki/timeline/annie-record]] · November
+- · **2015-11-29** — Dan took Alexis's house key.** *"She left her key out yesterday and I snagged it"* — i.e. on Nov 28.  
+  ↳ [[wiki/timeline/annie-record]] · November
+- · **2015-11-29** — Annie's own baseline, volunteered.** *"I haven't been happy in years / Beyond years"* → *"I've been so down for so long"* (03:39–03:40); later, *"this is the me that I've been waiting for someone to bring out of me"* / *"I don't have to pretend"* (15:19).  
+  ↳ [[wiki/timeline/annie-record]] · November
+- · **2015-11-29** — Zachariah Harshman is the cover story and the alibi.** *"Harshman leaving soon, so I'll have him drop me and say I'm going to his house"* (01:33); *"Just me and Harshman here now"* (03:56); *"Oh hey Zac"* (04:14).  
+  ↳ [[wiki/timeline/annie-record]] · November
+- ★ **2015-11-30** — joint $100 buy Nov 30, with a birthday bonus for Annie — **no page — named supply node  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- ★ **2015-11-30** — Dan's laptop** — missing during Alexis's move-out  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- ★ **2015-11-30** — Annie floats moving in, on day three.** *"Okay lemme pack up my life and death and start moving my shit in. lol lolol jkjkjkjk"* → Dan: *"NO JK!!!!"* (13:28–13:29).  
+  ↳ [[wiki/timeline/annie-record]] · November
+- ◆ **2015-11-30** — Casey Bondarenka is three weeks old as a friend.** *"Casey will never stfu here"* / *"He just started hanging out with us last week"* (13:47–13:48).  
+  ↳ [[wiki/timeline/annie-record]] · November
 - · **2015-11-30** — "Alexis is sloshed"*  
   ↳ [[wiki/people/alexis-armel]] · The end, in one day
+- · **2015-11-30** — "Morgantown homeboy"** — drug source in Morgantown WV  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-30** — Harshman intercedes — thread, not entity  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-30** — So you don't need to worry"*); 2015-11-30 22:21 (*"I have stuck to the story 100%"*).  
+  ↳ [[wiki/timeline/annie-read-notes]] · 3. Motif tracker
+- · **2015-11-30** — Suz supplies cocaine and offers a car, conditional on evicting Alexis.** *"Suz just came to check on me, brought me a line, and told me she'd get me a car this week if I get Alexis out."* Read literally: the mother arrives at 5 AM, provides the drug, and attaches a vehicle to the completion of the…  
+  ↳ [[wiki/timeline/annie-record]] · November
+- · **2015-11-30** — Dan is writing love letters by email, and none of them are in the corpus.** *"Whenever you wake up, you have love letters in your inbox"* (06:51); Annie can't find them (10:39, 13:20); Dan resends (13:22) and she replies *"Definitely just made me tear up / I've never read anything so sweet in my…  
+  ↳ [[wiki/timeline/annie-record]] · November
 - · **2015-11-30** — Alexis still in the house ("Alexis is sloshed")  
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - · **2015-11-30** — Suz offers Dan a car "if I get Alexis out."  
@@ -50640,6 +51208,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
 - ◆ **December 2015** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before December 2015 or entirely outside the…  
   ↳ [[wiki/mind/concepts/acquisition-drive]] · Gaps
+- ◆ **December 2015** — alexis armel — Paid participant in the 2018 arrangement  
+  ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The members against the rule
 - ◆ **December 2015** — Any new primary bond will show the same onset shape.** High volume, no evaluative content, and no forensic material in the first years — matching the 728-messages-in-a-day onset of December 2015 rather than a vetting period. 4.  
   ↳ [[wiki/mind/synthesis/the-deferred-audit]] · Predictions
 - ◆ **December 2015** — The Mechlings sit inside Annie's extended family, and the corpus records that adjacency casually and often: Christmas visits ("my family is going to the Mechlings around 4"), a Memorial Day BBQ in 2016 that Dan attends and Annie negotiates around, and a December 2015 exchange in which Dan and Annie…  
@@ -50648,6 +51218,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/vanessa-frank]] · The ATM card
 - · **December 2015** — SLOPPP's run to December 2015.  
   ↳ [[wiki/mind/synthesis/alias-as-periodization]] · Gaps
+- · **December 2015** — warm correspondence to Feb 2025 — **~10 years  
+  ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The members against the rule
 - · **December 2015** — The timing on the public record matches exactly: Dan's Twitter handle **@Lo_weez** debuts as his "new primary" relational tag in December 2015 ("worlds best girlfriend"), continuing through 2016 with matching personal texture ("Girlfriend drinks too much Cherry Coke"), in the same window that…  
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - · **December 2015** — Vicki (`+17248808079`, 234 messages, December 2015 – April 5, 2018) was the longest-serving non-family caregiver on Fran's rotation — present in the thread from at least January 2016, more than two years before the end — and one of the people who, per Dan's correction of the record, "stayed with…  
@@ -50666,6 +51238,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - ★ **2015-12-01** — November 29 – December 1, 2015 closes the Alexis era and opens the Annie relationship — which inherits the apartment, the town, and the alias identity mid-transition, and runs from here to 2026.  
   ↳ [[wiki/timeline/periods/uniontown-return-2013-2015]] · Transition
+- · **2015-12-01** — Resume at `bin/annie-corpus read 2015-12-01`.** Size the next window with `bin/annie-corpus days 2015-12` — December 2015 is 12,000 messages across 31 days and is the onset flood, so it will take several sessions on its own.  
+  ↳ [[wiki/timeline/annie-record]] · Reading progress
 - ★ **2015-12-02** — "Listen I broke up with lex, I'm in love with Annie Ulmer"*  
   ↳ [[wiki/people/alexis-armel]] · The end, in one day
 - ★ **2015-12-02** — The bulk of the thread (Nov 29 – Dec 2, 2015) documents Casey inserting himself into Dan's household during a period of relationship turbulence with Alexis: he asks bluntly whether he can pursue her if things end ("if you're breaking things with Alexis...  
@@ -51167,8 +51741,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/sean-teets]] · Sean Teets
 - · **April 2018** — What he did outside the caddie yard is unrecorded — the thread has him driving down from IUP, heading to southern West Virginia, and stopping on I-79, but no occupation, and no page in the corpus places him after April 2018.  
   ↳ [[wiki/people/zach-clingan]] · Gaps
-- · **April 2018** — fran coldren (great-grandmother) — High  
-  ↳ [[wiki/self/context-core]] · Social graph
 - ★ **2018-04-01** — When Fran was moved to a private room in the Uniontown Hospital pediatric wing on April 1, 2018 — a room she got because she and Ira had been major donors to the hospital — it was Adams who mandated that someone be with her twenty-four hours a day so that she would not be alone when she died.  
   ↳ [[wiki/people/fred-adams]] · Judge Fred Adams
 - ★ **2018-04-01** — The pediatric death-shrine (April 1).** On April 1, 2018 — the first day of caddie season — Dan worked two loops at Nemacolin in the freezing cold, then got the call.  
@@ -52009,6 +52581,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/emaly-minerd]] · Gaps
 - · **2020-09-30** — By 2020-09-30 he told Jerad "112 shares my dude" and "fastly killing it." On 2020-10-06: "dude i made $600 just from FSLY today." He had dumped roughly $15k of his portfolio into the position and taken a quick ~$4k profit before the meme-stock eruption widened the game in January 2021.  
   ↳ [[wiki/work/fastly-fsly]] · How it started — the Jerad tip
+- · **Autumn 2020** — Does the email handle `alulmer28@gmail.com` carry anything outside 2020-07→10?** It is the only source for autumn 2020; worth checking whether other exports hold more of it.  
+  ↳ [[wiki/timeline/annie-read-notes]] · 2. Open leads
 - ◆ **2020-10-06** — By October 6, 2020, Dan reported "dude i made $600 just from FSLY today." Later messages show Jerad advising Dan on the position through October 2020, with both monitoring the vertical tail.  
   ↳ [[wiki/people/jerad-friedline]] · The financial channel
 - · **2020-10-06** — Dan skimmed a $600 day on 2020-10-06 and was out before the exit.  
@@ -52023,6 +52597,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/facebook/interests]] · Ads Profile & Off-Facebook Tracking
 - · **November 2020** — When it resumes, in November 2020, the register has changed entirely: two men in their thirties trading deep, technical, entirely sober opinions about Skater XL and the Tony Hawk's Pro Skater remake — replay value, trick mechanics, PS5 load times — with the warmth of the original high-school…  
   ↳ [[wiki/people/zachariah-harshman]] · After the rupture: dormancy, then revival
+- · **November 2020** — empty — 5 messages in four years  
+  ↳ [[wiki/timeline/annie-record]] · What the record actually covers
 - ◆ **December 2020** — The roach problem was not a one-time event: a second, unrelated infestation shows up in the corpus in December 2020 and February 2021 ("I just found a fucking roach!!!!  
   ↳ [[wiki/places/307-e-76th-st]] · The roach bombing and the September 2020 trip to PA
 
@@ -52474,7 +53050,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The chain, event by event
 - ★ **February 2025** — Connection to other arcs:** Post-separation (Feb 2025 PA move per profile/operating/LIFE); mom co-residence implied (337 Saratoga); prefigures 2026 closure.  
   ↳ [[wiki/self/chats/gemini-07]] · Gemini Session 07 (Suzy Call & Blackout / Target G Forensic)
-- ★ **February 2025** — Uniontown PA · 337 Saratoga Dr — Returned Feb 22, 2025; Annie closure June 1, 2026; house being sold June 2026; music reactivation, agent/AI work  
+- ★ **February 2025** — Uniontown PA · 337 Saratoga Drive — Returned Feb 22, 2025; Annie closure June 1, 2026; **house sold ~June 2026 ($465k)**; music reactivation, agent/AI work  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - ★ **February 2025** — Current / post-closure**: Low 2024 counts may reflect data export cutoff, phone changes, or reduced travel after return to Uniontown Feb 2025 and major life events (Annie closure June 2026). 337 Saratoga remains high-signal home base. Ties 2025 collapse.  
   ↳ [[wiki/self/location-history]] · Relation to Self Model
@@ -52570,6 +53146,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Eli, and the thing that mattered more than the affair
 - · **2025-02-25** — On **February 25, 2025**, Dan sent Rick what is — as far as the corpus currently runs — **his last message to this number**: *"We did made it back safely but it's been a weird and not fun transition.  
   ↳ [[wiki/people/rick-frank]] · The relationship, corrected: warm, high-volume, and asymmetric rather than silent
+- ★ **March 2025** — dense** — the collapse and closure  
+  ↳ [[wiki/timeline/annie-record]] · What the record actually covers
 - ★ **March 2025** — The record's most direct admission came after the move, in a March 2025 message from Annie to Dan (verbatim, pronouns as written): "you decided to split our lives up. you lied to me for months and cheated on me" — read literally it accuses Dan, but every dossier that cites it treats it as her…  
   ↳ [[wiki/timeline/events/eli-incident]] · What happened
 - · **March 2025** — Annie's written admission of lying and cheating (self-directed pronouns)  
@@ -52666,6 +53244,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **August 2025** — terminal phase begins  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **August 2025** — It ran from the end of August 2025 to early November, produced about **22,000 messages across two platforms**, and ended in an argument about **forty dollars** that neither of them got past.  
+  ↳ [[wiki/people/kristin]] · Kristin Prentiss
 - · **August 2025** — Top channels, real watches only, Aug 2025 – Jul 2026:** Breaking Points (112), LastWeekTonight (95), The Majority Report w/ Sam Seder (93), Tor's Cabinet of Curiosities (91), We're In Hell (42), JREG (23), Tucker Carlson (22), STRANGE ÆONS (22), exurb1a (19), DJ Peach Cobbler (17), HasanAbi (16)…  
   ↳ [[wiki/self/youtube-watch-history]] · Extended coverage: August 2025 – July 2026 (new, 2026-07-20)
 - · **August 2025** — Terminal collapse: Cheating accusation; Burning ritual ("One more load to burn..."); Wall of Despair; Unconditional love monologues; GPS proxy; drug tether; 259 events (Aug 30, Sep 97, Oct 58).  
@@ -52674,46 +53254,60 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/dec-2025-spike]] · Key events within period (from calendar samples + operating)
 - · **2025-08-03** — A 12-hour-11-minute silence, then "Are you alright Dan" (Aug 3, 2025).  
   ↳ [[wiki/people/annie-ulmer]] · Sixteen months in Uniontown: the machinery of staying
+- · **2025-08-29** — Span — 67 active iMessage days  
+  ↳ [[wiki/people/kristin]] · Corpus dimensions
+- · **2025-08-29** — First contact in evidence — Facebook Messenger  
+  ↳ [[wiki/people/kristin]] · Timeline
+- · **2025-08-30** — Bulk of the Facebook thread  
+  ↳ [[wiki/people/kristin]] · Timeline
+- · **2025-08-30** — link-trading, politics and music  
+  ↳ [[wiki/people/kristin]] · Timeline
 - · **September 2025** — The risk-aversion it produced attached to **vehicles and police contact** rather than to drugs: he still describes himself as "an absolute fucking neurotic mess about car stuff," and in September 2025 he was coaching Kristin to "run the cost/benefit analysis about what you're getting from that kind…  
   ↳ [[wiki/legal/2015-possession-arrest]] · What it left behind
-- · **September 2025** — Sustained high-intensity flirtation, sexual negotiation, and boundary testing  
+- ★ **2025-09-01** — The old page dated the relationship `2025-09-01 → 2025-12-10` and described "sustained high-intensity flirtation" running September through November before a four-day collapse.  
+  ↳ [[wiki/people/kristin]] · The correction that reorganises the page: it ended in November
+- ★ **2025-09-01** — Astrology sessions, her as expert; birth data given  
   ↳ [[wiki/people/kristin]] · Timeline
-- · **September 2025** — AI-mediated conflict analysis  
-  ↳ [[wiki/people/kristin]] · Timeline
-- ★ **2025-09-01** — The relationship was, for its fourteen weeks, a real girlfriend era — and the Genesis-phase Messenger logs (September 1, 2025, pre-dating the iMessage thread) show its entire architecture installed within the first 48–72 hours.  
-  ↳ [[wiki/people/kristin]] · The girlfriend era: genesis architecture (Project Chimera addendum)
-- ◆ **2025-09-01** — Tom acid-trip reference  
-  ↳ [[wiki/people/kristin]] · Timeline
-- · **2025-09-01** — Thread ignites on iMessage (moving day)  
-  ↳ [[wiki/people/kristin]] · Timeline
-- · **2025-09-01** — early flirtation and an "i'm in love" send  
-  ↳ [[wiki/people/kristin]] · Timeline
+- · **2025-09-01** — Facebook Messenger — **2,009 distinct** (Dan 1,439 / Kristin 570)  
+  ↳ [[wiki/people/kristin]] · Corpus dimensions
 - · **2025-09-02** — In a 2025 message laying down a rule for what music is allowed in a shared space, Dan wrote: "if she insists on playing r&b it has to be before 1979 or it will be overproduced trash… you cut that shit out and go back to listening to real music like elliott smith or radiohead" (2025-09-02).  
   ↳ [[wiki/interests/favorites/music/artists/elliott-smith]] · The R&B-before-1979 gate (2025)
 - · **2025-09-04** — The thread resurfaces as a material event in late 2025: Dan texts his mother "i'm so annoyed my mom now wants to go sell fucking old video games and i have told her so many times" (2025-09-04), and a separate 2025 message searches "is there any market for empty Wii and Xbox cases that include the…  
   ↳ [[wiki/interests/video-games]] · The 2025 liquidation
+- ★ **2025-09-09** — Heaviest day of the relationship (1,324) — `@kpdope` excavation, meth/homelessness disclosure  
+  ↳ [[wiki/people/kristin]] · Timeline
+- ◆ **2025-09-09** — The heaviest single day is **2025-09-09 at 1,324 messages** — the day they spent going through her old Twitter account together.  
+  ↳ [[wiki/people/kristin]] · The correction that reorganises the page: it ended in November
+- · **2025-09-09** — Heaviest day — the Twitter excavation  
+  ↳ [[wiki/people/kristin]] · Corpus dimensions
 - · **2025-09-11** — Defining content  
   ↳ [[wiki/people/aaron]] · Corpus record
 - ◆ **2025-09-13** — Aaron is a short-lived but substantive iMessage contact (`+17245624801`, 38 messages, August 21 – September 13, 2025) whose thread's real value is a single real-time exchange: Dan's own reaction to the September 11, 2025 assassination of Charlie Kirk, delivered the same day.  
   ↳ [[wiki/people/aaron]] · Aaron
-- ◆ **2025-09-19** — A September 19, 2025 exchange (expanded 2026-07-14) traces a specific trigger-to-withdrawal sequence rather than a single line.  
-  ↳ [[wiki/people/kristin]] · Texture from the corpus
 - · **2025-09-19** — First documented friend-group reference post-transition  
   ↳ [[wiki/people/jamie-mohler]] · Corpus record
+- · **2025-09-19** — The disorder-test withdrawal sequence; Jeff tattoo  
+  ↳ [[wiki/people/kristin]] · Timeline
+- · **2025-09-20** — Sleeping-arrangements crisis  
+  ↳ [[wiki/people/kristin]] · Timeline
+- · **2025-09-20** — Tom as active irritant  
+  ↳ [[wiki/people/kristin]] · Timeline
+- · **2025-09-22** — Ryder named — *"the only kid I've ever been around"  
+  ↳ [[wiki/people/kristin]] · Timeline
 - · **2025-09-22** — Kanye West *808s & Heartbreak* KAWS bear — KAWS's reworked "Dropout Bear" from the *808s* era art/toy campaign — Unknown — Unknown  
   ↳ [[wiki/self/tattoos]] · The list
 - · **2025-09-22** — Disclosed to Tom on September 22, 2025, with a specific and fairly calculated rationale: "Did I ever tell you that I specifically got the KAWS version off my Kanye tattoo.  
   ↳ [[wiki/self/tattoos]] · Kanye — *808s & Heartbreak*, via KAWS
 - · **2025-09-24** — A September 24, 2025 exchange with Kristin adds a genuinely self-aware complication to the whole piece's meaning.  
   ↳ [[wiki/self/tattoos]] · Radiohead: the bear
+- · **October 2025** — Dan names the redundancy sequence to her in advance  
+  ↳ [[wiki/people/kristin]] · Timeline
 - · **October 2025** — Of course I pay it" — and Dan's own October 2025 aside to Jason, delivered as a household-name fact requiring no explanation, treats the same bit as common cohort knowledge.  
   ↳ [[wiki/people/matt-dunn]] · What the wider record shows
 - · **October 2025** — A late-October 2025 (Oct 28) exchange (found 2026-07-14, random corpus sample; re-examined 2026-07-14 with the full night's thread — the earlier summary had the speaker attributions backwards on the music half) adds self-description on both sides.  
   ↳ [[wiki/people/tom]] · Domain: Tech
 - · **October 2025** — It's Dan, not Tom, who goes on to describe having gone roughly seven years without caring about music before recently picking dance-music production back up — "i swear i forget how to produce music... i can not for the life of me remember how to actually throw a song together" — and finding the…  
   ↳ [[wiki/people/tom]] · Domain: Tech
-- ★ **2025-10-02** — Dan tells tom he and Kristin have "worked out that we are now officially dating" — the relationship's only explicit-commitment milestone  
-  ↳ [[wiki/people/kristin]] · Timeline
 - · **2025-10-06** — The corpus corroborates this change from inside the friend group itself, not from Jamie directly: in an October 6, 2025 exchange with Jason Bermejo, Dan runs through which Full Sail-era friends his mother still remembers — "Jester = forgettable / Dunn = gross and forgettable / Mohler = a literal…  
   ↳ [[wiki/people/jamie-mohler]] · The 2023 transition
 - · **2025-10-06** — Dunn surfaces once more in the October 6, 2025 Jason exchange that also corrects the record on Jamie Mohler (see jamie mohler): asked whether Dan's mother remembers his old Florida friends, Dan ranks the cohort — "Jester = forgettable / Dunn = gross and forgettable / Mohler = a literal woman" — the…  
@@ -52746,12 +53340,22 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · The case that he was right to feel wronged
 - ◆ **November 2025** — First and second written denials of a third party  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **November 2025** — kristin — Kristin (`+13307038747`) — **20,009  
+  ↳ [[wiki/mind/concepts/contact-gini]] · Message Volume Concentration by Node
 - · **November 2025** — Nov 2025 and Feb 2026 written denials (issued while defamation campaign was active)  
   ↳ [[wiki/timeline/events/group-chat-closure]] · Related events
 - · **November 2025** — Written denials previously issued  
   ↳ [[wiki/timeline/events/group-chat-closure]] · Data Record
+- ★ **2025-11-01** — Dan's birthday; she sends a video. Last warm day in the record  
+  ↳ [[wiki/people/kristin]] · Timeline
+- · **2025-11-02** — The $40 dispute  
+  ↳ [[wiki/people/kristin]] · Timeline
 - · **2025-11-04** — Complaint filed November 4, 2025; affidavit sworn by Trooper Miller November 11; preliminary hearing before MDJ Jason A.  
   ↳ [[wiki/people/annie-ulmer]] · The DUI
+- ★ **2025-11-05** — Mamdani's NYC win — *"I want to move to the border of NY but not the city"  
+  ↳ [[wiki/people/kristin]] · Timeline
+- · **2025-11-13** — "Idk why you just up and ghosted"* / *"beating my mom for $40"* — the actual end  
+  ↳ [[wiki/people/kristin]] · Timeline
 - ★ **December 2025** — Kristin — the mirror structure.** A fourteen-week relationship built, within its first 48–72 hours, around a demand for total sexual exclusivity from Kristin ("That is my cum. Mine") — the inverse of the openness practiced with Annie during the same broad period. An AI analysis Dan commissioned of…  
   ↳ [[wiki/mind/psychosexual/arrangement-history]] · Timeline
 - ★ **December 2025** — It also predicts where the rule should fail — a tie ended by an explicit, unhedged severance from the other side ought to close cleanly, and Kristin's December 2025 block is the closest thing the corpus has to that case.  
@@ -52766,8 +53370,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/intake-constancy]] · What an agent should take from this
 - · **December 2025** — Reinvestment spike (4,657 msgs); car totaled Dec 8  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
-- · **December 2025** — No evidence of continuation past the December 2025 burst appears in the master dump.  
-  ↳ [[wiki/people/kristin]] · Notes
+- · **December 2025** — Neither does any message from September, October, November or December 2025.  
+  ↳ [[wiki/people/kristin]] · Why nobody caught any of this
 - · **December 2025** — The friendship persists past Au Za'atar: by December 2025 Manuel is asking after "mi novia" (Dan confirms, "Me encanta valeria," referencing Valeria) and separately after "mi Ani" — Annie — with Dan replying she's there with him and that they have "tres gramas de perico." A December 23, 2025…  
   ↳ [[wiki/people/manuel]] · Texture
 - · **December 2025** — December 2025 (938 entries) sits inside dec 2025 spike; the January 2, 2026 cluster combines J6/Wildfall forensic deconstruction with the heaviest profile-locking activity, both within 2025 collapse.  
@@ -52782,16 +53386,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/group-chat-closure]] · Data Record
 - · **December 2025** — Massive Dec 2025 spike confirms reinvestment.  
   ↳ [[wiki/timeline/periods/2025-collapse]] · 2025 Collapse
-- · **2025-12-07** — Asymmetry peaks; Dan pursues, Kristin dismisses  
-  ↳ [[wiki/people/kristin]] · Timeline
 - · **2025-12-09** — kristin (inbound) — She needed nothing from him — Held  
   ↳ [[wiki/mind/synthesis/block-unblock-loop]] · The rule
-- · **2025-12-09** — $40 dispute → Wi-Fi hack threat → IC3/DHS links → block  
+- · **2025-12-09** — Block, IC3 and IPR Center links, the sixteen minutes  
   ↳ [[wiki/people/kristin]] · Timeline
-- · **2025-12-10** — Kristin Shaelene (handle +13307038747), introduced through tom as "Tom's friend." She became Dan's most intense non-Annie messaging node during the late-2025 collapse: a flirtatious, sexual, high-volume thread that ran from September 1 to December 10, 2025 and ended in a hostile blockade involving…  
-  ↳ [[wiki/people/kristin]] · Identity
-- · **2025-12-10** — Final outbound message from Dan  
+- · **2025-12-10** — One outbound message into a block  
   ↳ [[wiki/people/kristin]] · Timeline
+- · **2025-12-10** — Nothing after 2025-12-10.** The block appears to have held; whether contact  
+  ↳ [[wiki/people/kristin]] · Gaps
 - ★ **2025-12-13** — By **December 13, 2025** — deep in the relationship's terminal decline (see dec 2025 spike) — golf resurfaces as something much sharper: Annie tells Dan "you would just have to walk out your door, i wouldn't make you go out on the golf course like when [we] used to, when you ACTUALLY liked me"…  
   ↳ [[wiki/interests/golf]] · Golf as relationship touchstone
 - · **2025-12-21** — Dan reads the novel and identifies the house  
@@ -53121,12 +53723,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/ellen-ulmer]] · Gaps
 - ★ **June 2026** — His status after the June 2026 closure is now answered — he is with Dan, moved house with him in July 2026, is the channel the relationship reopened through, and by August 2026 is fully housebroken, off-leash on the porch with the neighbours' animals, and described by Dan as "like a different dog…  
   ↳ [[wiki/people/milo]] · He is also the instrument, not only the channel
+- ★ **June 2026** — Housing is in transition: 337 Saratoga **Drive** sold ~June 2026 ($465k, Suz's transaction); the documented landing place is 463 Morgantown St, occupied on no signed lease with no post-close financial plan on record.  
+  ↳ [[wiki/self/context-core]] · LLM Quick Brief
+- ★ **June 2026** — Uniontown PA · 463 morgantown — 463 Morgantown St — Dan and Suz land here on no signed lease and no confirmed power of attorney; owner is alexander jackson. **Occupancy documented, move-in date not fixed in the record** — the transition is described prospectively on the source page and no message…  
+  ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - ★ **June 2026** — Defining characteristics:** Terminal collapse, cheating accusations, burning rituals, Wall of Despair, drug procurement as bond, AI as salvation, high event volume leading to June 2026 closure.  
   ↳ [[wiki/timeline/periods/2025-collapse]] · 2025 Collapse
 - ★ **June 2026** — Contradicts narrative of mutual disengagement prior to June 2026 closure. 2025 high activity aligns with spike before collapse.  
   ↳ [[wiki/timeline/periods/dec-2025-spike]] · Key events within period (from calendar samples + operating)
 - ★ **June 2026** — Delverm, contingent on *their* bankruptcy approval, closing around June 2026) — the same house evidently went through at least two separate listing attempts across 2025 and 2026 before the eventual sale, with Suz's own 2024 bankruptcy as the previously undocumented first driver.  
   ↳ [[wiki/timeline/periods/feb-apr-2025-return-and-rupture]] · The exit and the asymmetric landing
+- ◆ **June 2026** — Housing:** 337 Saratoga Drive **sold** ~June 2026 ($465k, Suz's transaction as  
+  ↳ [[wiki/self/context-core]] · Current state (last re-derived 2026-08-16)
 - · **June 2026** — 337 Saratoga sale closing window  
   ↳ [[wiki/legal/463-morgantown]] · Timeline
 - · **June 2026** — 7-day vacate clause  
@@ -53165,12 +53773,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/milo]] · The dog as the last open channel
 - ★ **2026-06-01** — Tuquick is the interloper: the man Annie left Dan for, and the counterpart of the terminal group chat that closed the relationship on June 1, 2026 (the end fight).  
   ↳ [[wiki/people/tuquick-17248123683]] · Identity
-- ★ **2026-06-01** — Core unconscious axioms: *not exceptional = worthless; not vigilant = annihilated; love that doesn't cost everything isn't real; time = countdown.* The decade-long relationship with annie ulmer closed June 1, 2026 — not live.  
+- ★ **2026-06-01** — Core unconscious axioms: *not exceptional = worthless; not vigilant = annihilated; love that doesn't cost everything isn't real; time = countdown.* The decade-long relationship with annie ulmer took an involuntary closure June 1, 2026 and **reopened in early August 2026 — treat it as live, not…  
   ↳ [[wiki/self/context-core]] · LLM Quick Brief
-- ★ **2026-06-01** — annie ulmer (Anne Ulmer) — Decade-defining relationship ~2015–2026, met via alexis armel — Eli affair central — the gaslighting outweighed the affair — 126k+ msgs  
+- ★ **2026-06-01** — annie ulmer (Anne Ulmer) — Decade-defining relationship ~2015–2026, met via alexis armel — Eli affair central — the gaslighting outweighed the affair — **97,768 unique across four handles** (`7244346811`, `7249204125`, `2124702449`, `alulmer28@gmail.com`)  
   ↳ [[wiki/self/context-core]] · Social graph
-- ★ **2026-06-01** — Annie:** involuntary closure June 1, 2026 — historical, not live.  
-  ↳ [[wiki/self/context-core]] · Current state (as of mid-2026)
+- ★ **2026-06-01** — Annie: LIVE, not historical.** The June 1 2026 severance held 52 days and then  
+  ↳ [[wiki/self/context-core]] · Current state (last re-derived 2026-08-16)
 - ★ **2026-06-01** — The defining event of his adult life, the decade-long relationship with Annie Ulmer, closed involuntarily on June 1, 2026; the mid-2026 present tense is aftermath: housing in transition, work in transition, music reactivated.  
   ↳ [[wiki/self/overview]] · Self Overview
 - ★ **2026-06-01** — The Annie terminal phase ran to the June 1, 2026 group-chat closure.  
@@ -53193,6 +53801,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/the-deferred-audit]] · The two clocks
 - · **2026-06-01** — Both men occupy the "who Annie left/was with" role six weeks apart in the same small town, and the same "cuck" framing (unemployment, sexual humiliation, escort history) appears in both the Tuquick End Fight material (June 1, 2026) and the unnamed man's July 26 messages sent from Annie's phone.  
   ↳ [[wiki/people/jerel-coles]] · Is Coles the unnamed man too?
+- · **2026-06-01** — the older "126k+" is a row count over overlapping exports, not unique messages  
+  ↳ [[wiki/self/context-core]] · Social graph
 - · **2026-06-01** — "Goodbye forever..." from annie logs + received "Daniel, i just want to say that i am extremely sorry."  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
 - ★ **2026-06-05** — Last message of the closure window: unprompted apology  
@@ -53273,8 +53883,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/gabe]] · Gabe
 - · **2026-07-14** — Inside that same conversation, "Hazel" — this side of the exchange confirmed by Dan (2026-07-14) to be **him writing as her, not Annie herself** — asks for something new: "i forgot to ask last time i saw you if i'd be allowed to get one or two of the pictures of the 'girl fun' from the first time…  
   ↳ [[wiki/people/jaredtricia]] · August 2, 2019: the photo, and Dan wearing the "Hazel" voice
-- · **2026-07-14** — An unexpected recurring bonding activity, expanded 2026-07-14: astrology, running from Sept 1 through at least Sept 9, 2025, with Kristin as the expert rather than Dan.  
-  ↳ [[wiki/people/kristin]] · Texture from the corpus
 - · **2026-07-14** — Kya Hansen — online handle **bbblud** ("blud") — is a Canadian model and OnlyFans creator Dan was, by his own account (2026-07-14), the Reddit subreddit admin for during a stretch of 2019.  
   ↳ [[wiki/people/kya-hansen]] · Kya Hansen ("bbblud")
 - · **2026-07-14** — Origin story (per Dan directly, 2026-07-14):** Milo was found as a stray by Claire, Annie's sister — spotted around her neighborhood by several people, clearly not equipped to survive on his own.  
@@ -53379,6 +53987,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/arnu]] · Behavioral / Core Notes
 - · **2026-07-27** — Arnu lien deadline (Carney risk concurrent).  
   ↳ [[wiki/people/john-carney]] · Timeline Snippets
+- · **2026-07-27** — Open exposure:** the Arnu mechanics lien was estimated to mature ~**27 July 2026** and estate money spine records the deadline as having *elapsed unobserved*.  
+  ↳ [[wiki/self/context-core]] · Current state (last re-derived 2026-08-16)
 - · **2026-07-28** — On July 28, 2026, in the middle of an argument about something else, Dan states it directly, and the statement is worth quoting at length because nothing else in the corpus says it as plainly:  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The mechanism, stated by the subject (added 2026-08-02)
 - · **2026-08-01** — That would produce the first true two-sided coefficient, and it is the only way to settle whether the architecture is symmetric.~~ **DONE 2026-08-01.  
@@ -53413,6 +54023,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-08-02** — What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs. 5.  
   ↳ [[wiki/people/jerel-coles]] · Open questions
+- · **2026-08-02** — The switch was mutual and simultaneous.** Every prior account of this week — including bond switch 2015's twenty-four-hour analysis and its 2026-08-02 correction about whose exit it was — treats Annie as unattached.  
+  ↳ [[wiki/timeline/annie-record]] · November
 - · **2026-08-02** — For context injection:** July 26 – August 2, 2026. 1,880 messages, 969 from Dan, 911 from Annie.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · LLM Quick Brief
 - · **2026-08-07** — Sexual contact resumes, per operator testimony  
@@ -53441,6 +54053,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jerel-coles]] · Is Coles the unnamed man too?
 - · **2026-08-09** — He is also confirmed (2026-08-09, operator statement) to be the July 2026 unnamed interloper — see the unnamed man and the canonical page jerel coles.  
   ↳ [[wiki/people/tuquick-17248123683]] · Notes
+- · **2026-08-09** — Not operator-confirmed past 2026-08-09 — the corpus is the source, and the last dated evidence is a week old.  
+  ↳ [[wiki/self/context-core]] · Current state (last re-derived 2026-08-16)
 - · **2026-08-09** — Multiple screenshots exist from the reunion period (August 9, 2026):  
   ↳ [[wiki/timeline/events/annie-alexis-reunion-november-2018]] · Visual documentation
 - · **2026-08-09** — vlcsnap-2026-08-09-16h19m28s353.png  
@@ -53483,10 +54097,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · What it costs and what it buys
 - · **2026-08-13** — Two gaps open with the 2026-08-13 pass.  
   ↳ [[wiki/people/annie-ulmer]] · What's missing
+- ★ **2026-08-14** — That is the point: the two mechanical attempts at a timeline (2026-08-14 and its 2026-08-15 replacement) both produced pages where a large share of the "events" were prose fragments, edit stamps and corpus metadata, because a date next to a sentence is not an event and no regex can tell the…  
+  ↳ [[wiki/timeline/annie-record]] · The Annie Record — a read chronology
+- ★ **2026-08-14** — The first day of a relationship is unusually dense, so this rate will fall — but the 2026-08-14 mechanical pass produced *zero* of these 25 from the same underlying material, because none of them are stated anywhere as a dated sentence.  
+  ↳ [[wiki/timeline/annie-record]] · Reading progress
+- · **2026-08-15** — Adopted at the operator's suggestion, 2026-08-15.  
+  ↳ [[wiki/timeline/annie-read-notes]] · The Annie Read — working notes
 
 ---
 
-*Generated by `bin/wiki-timeline` from 313 wiki pages. 505 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 315 wiki pages. 552 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================
@@ -53880,7 +54500,7 @@ page_type: period
 title: "2020–2021 Market Era"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-10
+date_modified: 2026-08-16
 sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -53897,6 +54517,17 @@ tags: [career, financial-stress]
 ---
 
 # 2020–2021 Market Era
+
+
+> **RE-CHECKED [2026-08-16] — premise moved, conclusion unaffected.**
+> [[wiki/self/context-core]] was revised on 2026-08-16 by a staleness audit that
+> corrected seven claims: the Annie status (closed → live), Tom's corpus weight
+> (16,563 was Kristin's handle), the 337 Saratoga sale and the 463 Morgantown
+> landing, the corpus size (181,585 is one file, not the corpus), the sent-message
+> count (97,199 → 106,629), Annie's message volume (rows → 97,768 unique), and
+> Fran's age at death (~97–98 → 97). **This page reasons from none of them** —
+> checked by grep against every changed figure and claim — so nothing here is
+> rederived. Recorded rather than date-bumped, per `CLAUDE.md` §3.
 
 For roughly a year — September 2020 through early 2021, during the second
 NYC period — Dan ran his pattern-recognition engine on retail markets, rode

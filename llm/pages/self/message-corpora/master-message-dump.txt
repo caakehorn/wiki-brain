@@ -35,7 +35,7 @@ connections:
 | MASTER_DUMP_PART_1_ARCHAIC.csv | 124,178 | 124k | 2011-03-18 to ~2015+ | Archaic/partial dump overlapping master |
 | annie_all_time_logs.csv | 25,538 | 25k+ | 2015–2026 (2026 samples dominant in extract) | [[wiki/people/annie-ulmer|Annie]]-specific logs; timestamp,direction,text. Includes END FIGHT "Goodbye forever" 2026-06-01 |
 | imessage_2124702449_both_all_now.csv | 23,720 | 23k+ | Recent full (Annie NYC handle) | datetime_local,direction,contact,service,kind,has_attachments,chat_name,text |
-| imessage_3307038747*.csv (both_all_now + variants) | 16,563+ | 16,563 | 2025-09-01 to 2025-12-10 | [[wiki/people/kristin|Kristin]] (+13307038747; Tom's friend, potential romantic; intense flirty/sexual 2025 thread; "boner Ave", "I love you stupid", "kristin hole", "only cum to kristin rule") |
+| imessage_3307038747*.csv (both_all_now + variants) | 20,009 | 20,009 | 2025-09-01 to 2025-12-10 (iMessage only; first contact is 2025-08-29 on Messenger) | [[wiki/people/kristin|Kristin]] (+13307038747; Tom's friend, potential romantic; intense flirty/sexual 2025 thread; "boner Ave", "I love you stupid", "kristin hole", "only cum to kristin rule") |
 | imessage_export_3307038747_20260624.csv | 21,727 | ~21k | 2025-09 to 2025-12-10 | Kristin terminal phase extension, documenting the $40 dispute, IP/Wi-Fi hacking threats, and her blockade citing IC3/Homeland Security |
 | imessage_*_both_all_now.csv variants (multiple) | 10k+ combined | Various | 2025-2026 slices | Sent/received splits, group, last-6mo, ALL both |
 | messages_3476070497_all_time.csv | 4,414 | 4k | 2018-11 samples | Specific contact/thread |
@@ -82,7 +82,7 @@ Top handles by volume (approximate counts; Annie dual handles dominant):
 |------|--------|-------|-------------|
 | 1 | +17244346811 | 31,177 | Early Annie Ulmer (PA) primary; high relationship volume |
 | 2 | +12124702449 | 17,145 | Later Annie (NYC/212) ; ongoing 10yr thread |
-| 3 | +13307038747 | 16,563 | Kristin (Tom's friend, potential romantic interest; intense flirty/sexual 2025 thread) [CORRECTED from prior mislabel as Jerad?/Tom cross in thread CSV row] |
+| 3 | +13307038747 | 20,009 | Kristin Prentiss (Tom's friend, then Dan's girlfriend Aug–Nov 2025) [CORRECTED from prior mislabel as Jerad?/Tom cross in thread CSV row; count re-derived 2026-08-16 — 16,563 was this file's undercount, the both-direction export holds 20,009] |
 | 4 | +17249204125 | 4,812 | Frequent PA contact |
 | 5 | +17249987341 | 4,160 | Tom (+17249987341 per operating_manual) — supply/anchor |
 | 6 | annieulmr@aol.com | 3,645 | Annie email variant |

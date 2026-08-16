@@ -29,6 +29,9 @@ related:
   - wiki/mind/synthesis/intake-constancy
 tags: [relationships, music-production, trauma-bond]
 connections:
+  - page: wiki/people/kristin
+    type: evidenced-by
+    claim: "22,018 messages in ten weeks is the corpus's most concentrated single node — and it falls entirely outside the dump this concept's coefficient was computed over, so the measured Gini understates the concentration it describes."
   - page: wiki/people/jerad-friedline
     type: evidences
     claim: "Jerad's +191****3615 handle carries 857 messages (832 received, 25 sent), making it one of three handles with 100+ messages and documenting the high-concentration contact architecture (Gini 0.9601)."
@@ -300,7 +303,7 @@ sending behaviour is the receiving behaviour.
 |---|---|---|---|
 | Annie (PA handle `+17244346811`) | 31,177 | Primary partner | MASTER_MESSAGES_DB_DUMP.csv |
 | Annie (NYC handle `+12124702449`) | 17,145 | Primary partner | MASTER_MESSAGES_DB_DUMP.csv |
-| [[wiki/people/kristin|Kristin]] (`+13307038747`) | 16,563 | Secondary contact (friend of Tom) | tom_kristin_master_dossier.md |
+| [[wiki/people/kristin|Kristin]] (`+13307038747`) | **20,009** | Ten-week relationship Aug–Nov 2025, not a secondary contact | `imessage_3307038747_both_all_now.csv` (recount 2026-08-16; 16,563 was the MASTER_DUMP figure) |
 | Frequent PA Contact (`+17249204125`) | 4,812 | Logistical/work contact | MASTER_MESSAGES_DB_DUMP.csv |
 | [[wiki/people/tom|Tom Maison]] (`+17249987341`) | 4,160 | Primary male ally | MASTER_MESSAGES_DB_DUMP.csv |
 | Johnny (`+17243223678`) | 3,462 | Transactional dealer node | MASTER_MESSAGES_DB_DUMP.csv |
