@@ -4,6 +4,7 @@ page_type: event
 status: stable
 date_created: 2026-07-14
 date_modified: 2026-07-14
+pending_ingest: 2026-08-16
 date_range_start: 2019-04-01
 date_range_end: 2019-04-30
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -83,8 +84,34 @@ Shelbie's own iMessage number doesn't start texting until two weeks later.
 
 ## Gaps
 
-Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown; Shelbie's thread ends in a hostile breakup on July 16, 2019 with no further contact recorded.
+_All recorded gaps have been answered and are staged below._
 
 ## Related
 
 [[wiki/people/annie-ulmer]] · [[wiki/people/shelbie-breakiron]] · [[wiki/timeline/periods/2018-deep-cycle]]
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-16] — Exact date within April 2019 is not established. Whether this was a one…
+
+**The gap, as this page stated it:**
+
+> Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown; Shelbie's thread ends in a hostile breakup on July 16, 2019 with no further contact recorded.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/timeline/captures/2026-08-16_145532_gap-shelbie-annie-threesome-april-2019.md`.
+
+Threesome #1 : 14 April 2019 (9pm - 4am)
+Threesome #2 : 17 April 2019 (2am - 7am)
+
+Noteworthy here is that these were not supposed to be threesomes. I had paid Shelbie to hook up and she came and Annie said she didn’t have a problem with it. When Shelbie got there; however she started blowing my phone up so much that I couldn’t get hard I was so distracted. Shelbie left and Annie contacted her independently without me knowing and invited her back over. She came and we had a threesome: 
+
+Two nights later we drove 2 hours to pick Shelbie up from work at the strip club for a second threesome
