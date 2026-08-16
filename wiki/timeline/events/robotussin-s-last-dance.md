@@ -7,6 +7,7 @@ status: stable
 knowledge: mixed
 date_created: 2026-08-09
 date_modified: 2026-08-09
+pending_ingest: 2026-08-16
 date_range_start: 2005-06-15
 date_range_end: 2005-06-15
 sources:
@@ -71,5 +72,25 @@ The Frank's Auto Supply job is a documented part of the family business record. 
 - The exact capsule count is Dan's own retrospective estimate, not a counted inventory — "20–40" is a range, and the capture reads it as such.
 - The CVS location is named only as "the closest CVS to Burgettstown"; the Ruby Tuesday's is specified as near Pittsburgh airport but not pinned further.
 - No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony.
-- Whether any of the three were sober enough to make decisions by the time they left Ruby Tuesday's is not addressed.
 - The Post-Gazette Pavilion's sold-out Tom Petty date of June 15 2005 has not been independently verified against tour records.
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-16] — Whether any of the three were sober enough to make decisions by the tim…
+
+**The gap, as this page stated it:**
+
+> - Whether any of the three were sober enough to make decisions by the time they left Ruby Tuesday's is not addressed.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/timeline/captures/2026-08-16_185413_gap-robotussin-s-last-dance.md`.
+
+on the contrary, we were all MUCH less sober and subsequently even more intoxicated before a 90 minute drive
