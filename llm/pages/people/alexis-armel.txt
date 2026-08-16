@@ -126,8 +126,8 @@ on Dan's own Facebook profile under "Previous relationships," in that order.
 **The relationship's first documented rupture happens roughly two weeks into
 it, in 2009, and it is the earliest event on this page.** Dan moved Alexis to
 Florida to be with him at Full Sail; about a fortnight after she arrived she
-cheated on him. Per the operator the episode was **online only, not in
-person** — which is why nothing physical, geographic or social in the Winter
+cheated on him. Per the operator the episode was **sexting someone else —
+online only, not in person** — which is why nothing physical, geographic or social in the Winter
 Park record marks it, and why it left no trace in the Twitter corpus of the
 same months. Dan's own single-sentence account of it survives, but not from
 2009: he told it to Annie six years later, on 2015-11-28, as the contrast case

@@ -5,7 +5,7 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-11
+date_modified: 2026-08-16
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
@@ -37,6 +37,17 @@ connections:
 ---
 
 # The Instrument Is Also the Subject
+
+
+> **RE-CHECKED [2026-08-16] — premise moved, conclusion unaffected.**
+> [[wiki/self/context-core]] was revised on 2026-08-16 by a staleness audit that
+> corrected seven claims: the Annie status (closed → live), Tom's corpus weight
+> (16,563 was Kristin's handle), the 337 Saratoga sale and the 463 Morgantown
+> landing, the corpus size (181,585 is one file, not the corpus), the sent-message
+> count (97,199 → 106,629), Annie's message volume (rows → 97,768 unique), and
+> Fran's age at death (~97–98 → 97). **This page reasons from none of them** —
+> checked by grep against every changed figure and claim — so nothing here is
+> rederived. Recorded rather than date-bumped, per `CLAUDE.md` §3.
 
 This wiki is written by a large language model, about a person for whom large
 language models are a documented daily cognitive organ, using an evidentiary

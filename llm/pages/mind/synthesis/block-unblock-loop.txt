@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-15
+date_modified: 2026-08-16
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - "raw/self/message-csv/THE END FIGHT.csv"
@@ -193,6 +193,36 @@ executing a block against him. The operation is not a private defect;
 it is the negotiating grammar both sides of Dan's intense bonds learn
 to speak. What distinguishes the counterparties' blocks is only the
 rule above: Kristin's held because she needed nothing back.
+
+
+> **RE-CHECKED [2026-08-16] — the Kristin premise moved substantially, and the
+> conclusion survives strengthened rather than merely intact.**
+> [[wiki/people/kristin]] was rewritten from the primary exports on 2026-08-16.
+> Two of its changes bear on this page.
+>
+> **The row's reasoning is now better supported than when it was written.** The
+> table reads *"She blocks Dan, Dec 9 2025 | She needed nothing from him | Held."*
+> The rewrite establishes that the dependency had already been dead for **five
+> weeks** before the block: November 2025 holds 53 messages, most of them
+> unanswered image sends, after Dan stopped replying over the $40. So "she needed
+> nothing back" is not an inference from the block — it is a fact she had already
+> demonstrated for a month by not pursuing him. The control case is cleaner than
+> the page claimed.
+>
+> **But the December sequence is no longer only an inbound-block case.** The old
+> reading treated Dec 7–10 as the end of a live relationship. It was a **failed
+> reactivation** — Dan re-entering a channel that had gone dormant in early
+> November, which he had left. That makes the episode an instance of *both* sides
+> of the loop in one event: Dan running the re-entry, Kristin answering it with a
+> terminal block. Filed accordingly on
+> [[wiki/mind/synthesis/dormancy-not-exit]], which now carries it as its shortest
+> documented instance.
+>
+> One consequence for the loop's own asymmetry claim: the counterparty blocks that
+> hold are not distinguished only by "needed nothing back." Kristin's also
+> followed a withdrawal **Dan** performed first — so the durable-block cases may
+> be better predicted by *who left the channel first* than by dependency alone.
+> Left as an open lead rather than folded into the rule.
 
 ## The machine proof
 

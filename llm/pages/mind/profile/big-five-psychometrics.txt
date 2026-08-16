@@ -6,7 +6,7 @@ aliases: ["RLUEI", "Big30", "psychometrics", "personality disorder scores"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-16
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
@@ -167,3 +167,127 @@ behavioral corpus instantiates.
 **Gaps:** no instrument name, norm group, or administration date for the
 Big30 or PD screens; scores appear identically across dossiers, suggesting a
 single unrecorded test session; no post-2026 retest.
+
+---
+
+## The corpus audit [2026-08-16] — every score tested against 217,573 messages
+
+**The problem this closes.** Every number above is self-report: one unrecorded
+test session, restated across four dossiers. The wiki holds 217,573 measured
+messages and had never pointed them at this table. Meanwhile `mind/` carries
+17,644 words on the Annie relationship — more than twice this entire wing —
+because that material had evidence to grow on and these scores did not.
+
+A facet score is a claim about behaviour, so **`bin/psychometrics` turns each
+one into a directional prediction with a lexical proxy**, run over Dan's
+**106,629 sent** messages against the **110,944 received from 503 other
+handles** as a within-medium control. The control is what makes it a
+measurement: rates are meaningless alone, because SMS is a low-introspection
+medium for everybody in it, so everything below is a ratio against what the
+people texting him do.
+
+**The jurisdiction, carried over from [[wiki/self/context-core]] unchanged:
+failure to corroborate is not falsification.** A trait can be real and leave no
+lexical trace. A low ratio here means *the corpus does not carry this*, never
+*the instrument is wrong*. Only an elevated ratio is positive evidence, and only
+an inversion — a low-scored facet showing markedly *raised* language — is
+evidence against a score.
+
+### The headline: Altruism 1 is inverted, and the inversion is specific
+
+| Proxy | Dan | Control | Rate /1k | Ratio |
+|---|---:|---:|---|---:|
+| Offering help unprompted | 298 | 173 | 2.79 vs 1.56 | **1.79×** |
+| Concern for the other person | 213 | 89 | 2.00 vs 0.80 | **2.49×** |
+| Sympathy tokens | 45 | 103 | 0.42 vs 0.93 | **0.45×** |
+
+A 1st-percentile Altruism score predicts less helping language than the people
+around him. He produces **roughly twice as much**. That is the strongest
+disconfirmation in the sheet — and it does not generalise, which is the actual
+finding.
+
+**The instrument collapses two channels the corpus separates.** Altruism 1 and
+Sympathy 6 sit adjacent in the table and read as one low-warmth cluster. In
+behaviour they run in opposite directions: the **instrumental** half — offering
+to *do* something, asking if you are okay — runs at 1.8–2.5× baseline, while the
+**affective** half — expressing feeling *about* your feeling — runs at 0.45×,
+less than half. He is not low-warmth. He is high-provision and low-condolence.
+"Let me know if you need anything" at double rate; "I'm so sorry to hear that"
+at less than half.
+
+That reframes the standing instruction on this page — *read the low-sociability
+/ low-trust / low-altruism scores as architecture, not deficit to fix* — because
+one of the three is not there to read. The architecture is real; Altruism 1 is
+measuring the register the offer is made in, not whether it is made.
+
+### Where the corpus does confirm the table
+
+| Facet | Score | Proxy | Ratio | Verdict |
+|---|---:|---|---:|---|
+| Artistic Interests | 81 | aesthetic register | **3.82×** | supported |
+| Schizotypal | 79 | pattern / conspiracy cognition | **2.39×** | supported |
+| Trust | 9 | suspicion of motive | **1.96×** | supported (low trust → raised suspicion) |
+| Sympathy | 6 | sympathy tokens | **0.45×** | supported |
+| Antisocial | 58 | rule indifference | 1.85× | leans yes |
+| Self-Consciousness | 91 | self-monitoring in company | 1.85× | leans yes |
+| Sociability | 3 | initiating contact / plans | 0.73× | leans yes |
+
+### Ti-dominance is not elevated. It is categorical.
+
+The narrow construction — quantifying **your own confidence** as a percentage,
+*"I'm 95% sure"* — appears **21 times in Dan's 106,629 messages and zero times
+in the 110,944 he received.** Not rarer among others. Absent.
+
+> `2015-12-03` — *"I am 95% sure she quit and didn't tell anyone, based on what RT said"*
+> `2018-07-20` — *"I'm 99% sure it was a sedative in that. Fucked up"*
+> `2017-11-06` — *"though i'm 99.9999999999999999% sure you don't"*
+
+This reconciles the 22× figure on
+[[wiki/mind/concepts/calibrated-confidence]] with the 3.25× a broad
+"any percentage" proxy returns: the broad pattern dilutes the signal with prices,
+percentages and — checked by reading the matches — at least one Fandango URL.
+The signature is not *using numbers*. It is **attaching a probability to your own
+belief, unprompted, in a text message**, and on this evidence it is a thing only
+he does.
+
+### The silences, which are the more interesting half
+
+**Impulsiveness 96 — the highest score in the entire instrument — leaves no
+trace at all.** Immediacy language: 784 for Dan, 883 for the control, **0.92×**.
+If anything the people texting him reach for *right now / can't wait / fuck it*
+slightly more often. Introspection 87 is likewise flat (0.96×), and Vulnerability
+78 comes in *below* baseline (0.81×).
+
+Under the jurisdiction above none of these falsifies anything. But note what the
+pattern is: **the facets that survive contact with the corpus are the ones about
+what he attends to** — aesthetics, patterns, other people's motives. **The
+facets that vanish are the ones about how he is internally regulated** —
+impulse, overwhelm, introspection. That is the same jurisdiction the axiom test
+found in [[wiki/self/context-core]] (three of four axioms invisible), arriving
+independently through a different instrument. The corpus is a record of
+attention, not of interior state, and any future lexical pass should expect that
+boundary rather than rediscover it.
+
+Two proxies returned too few matches to read (Intellect 95, n=13; Narcissistic
+67, n=16) — the patterns are too literary for SMS and want rewriting, not
+believing.
+
+### Instrument notes — two bugs found in this tool's own predictions
+
+Recorded because the next pass will make the same class of mistake. The first
+run scored **Trust 9** and **Modesty 5** as predicting *less* suspicion and
+*less* self-elevation. Both are backwards: a low trust score predicts **more**
+suspicion, a low modesty score **more** self-elevation. Both produced a
+confident `INVERTED` verdict that was an artefact of the prediction table rather
+than anything in the corpus. Fixed before any of the above was written; Trust
+moved from a false inversion to genuine support.
+
+This is the same failure the method note on [[wiki/self/context-core]] records
+from the axiom pass, in a new place: there, a pattern caught *"I'm 99% sure"* and
+called it age self-reference. Here, the pattern was right and the *hypothesis*
+was pointed the wrong way. **A lexical pass has two things that can be
+backwards, and checking the matches only catches one of them.**
+
+**Reproduce:** `bin/psychometrics run --examples 5` · one facet:
+`bin/psychometrics run --facet altruism --examples 8` · the predictions and
+their proxies: `bin/psychometrics list`.

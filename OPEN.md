@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 30 |
-| Open gaps | 157 |
+| Open gaps | 164 |
 | Standing predictions | 13 |
 
 ## Live contradictions
@@ -41,10 +41,10 @@ somewhere and has not yet found out where.
 - **[[wiki/people/franki-faris]]** — This page has carried *"a five-day rebound"* and *"the Franki interlude lasted five days before collapsing,"* sourced to the Gemini-58 and DANSYNTH self-narrations, and dormancy-not-exit uses that figure as its tenure-floor control. The 2026 capture attaches five days to a different thing entirely: **Alexis** stayed at
 - **[[wiki/people/gabe]]** — MAX_PRIME.md (a 2026-era document) refers to Gabe in the present tense as an ongoing, current fixture ("the food and the cat are always real"), which sits awkwardly against a November 2023 death. Possible explanations: the bootloader text is older than its last-edited date and was never updated after Gabe died, or the 
 - **[[wiki/people/jacob-bacharach]]** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figures prominently in my Doorposts of Your House novel."* The reading record sides with Bacharach. Dan's Goodreads library 
-- **[[wiki/people/kristin]]** — A prior version of this page described Kristin as "an ex-Brooklyn librarian living in Pittsburgh." The message corpus does not support this — it shows pharmacy, DoorDash, and courthouse legal-secretary work, and a rural (not Pittsburgh) residence. The librarian claim is unsourced and likely an error; corrected here pen
+- **[[wiki/people/kristin]]** — an earlier version described her as "an ex-Brooklyn librarian living in Pittsburgh." The corpus supports neither. It supports pharmacy / DoorDash / courthouse work and an Akron, Ohio residence. She does say *"okay this is one of the things i miss most about living in new york"* on Facebook — so a New York period is pla
 - **[[wiki/people/menore]]** — the thread contains a **1,458-day silence — May 26, 2020 → May 24, 2024** (with 2020 already tapering: 35/17/15-day gaps, 158 messages all year). This contradicts this page's earlier "Phase 4: sustained operations Apr 2019–Feb 2025" framing, and it complicates the Au Za'atar storytime claim (au-zaatar) that Menore serv
 - **[[wiki/people/sadie-harris]]** — earlier versions of this page and the member table on fayette-return both recorded Sadie as having *died* in Hopwood on 27 November 1997. The GEDCOM records no death place at all — only the date — and lists Hopwood as the **burial** place. Her last attested residence is Brownsville in 1993. The Hopwood association is r
-- **[[wiki/self/context-core]]** — Fran Whyel's 2018 death vs. a potential oral-history conflict on age/year remains unresolved — check against ancestry sources. ## Residence timeline (canonical) [DOC/MEM] | Period | Residence | Notes | |--------|-----------|-------| | 1988–1996 | Uniontown PA · 12 Bryer Ave | | | 1996–Sep 2008 | Uniontown PA · 337 Sara
+- **[[wiki/self/context-core]]** — fran-coldren resolved it on 2026-08-02 against a dated message in which Dan describes her, at the time, as *"a 97 year old woman with advanced dimentia"* (2017-12-29) — consistent with an August 1920 birth and an April 2018 death. The **98** in this page and in `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`, and the 
 - **[[wiki/timeline/events/teen-concert-years]]** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate November 2004 return. The note dates Taking Back Sunday / Angels & Airwaves to **2006-07-04 in Columbus**; the research
 - **[[wiki/timeline/events/the-fall-of-fran]]** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend on each other: | Evidence | Date | What it fixes | |---|---|---| | Ancestry GEDCOM death record | 2018-04-04 | Death | 
 - **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — fran-death-vigil, written from the Photo Thread session, has Dan blowing enormous clouds from a 110-watt SMOK **in the room** while Suz puffed her 10-watt device **in the hospital bathroom**. Both captures behind this page invert that: **Suz in the room, Dan in the bathroom.** The positions are not decorative — a bathr
@@ -154,7 +154,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (29)
+### people (36)
 
 - **[[wiki/people/david-j-frank]]** — **The immigration itself is undocumented on disk.** No passenger manifest, naturalization record or arrival date for David appears in the export as extracted; "born Russia 1892, in Manhattan by 1900" is the whole of it.
 - **[[wiki/people/david-j-frank]]** — **The reason for the move is unknown.** Nothing explains why a New York family went to a Fayette County coal town between 1915 and 1920 — work, kin, or a business opportunity are all plausible and none is attested.
@@ -167,6 +167,13 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/joe-croftcheck]]** — **"The family plug" is unexplained.** Whether the relationship ran through Suz, through Rick, through the wider household, or was simply the local option, is unknown, and the answer would materially change what this node means for supply-network.
 - **[[wiki/people/joe-croftcheck]]** — **The date range of the relationship is unknown.** One transaction is documented; whether it was the first, the only, or one of many is not.
 - **[[wiki/people/joe-croftcheck]]** — **The news citations are unchecked.** Reading the three linked articles would establish whether he is named at all, which is the single cheapest thing that could be done to this page.
+- **[[wiki/people/kristin]]** — **The Kayden contradiction is open**, and is the most important unresolved thing on this page. It needs either the dossier's underlying `chat_162.txt` (not in `raw/`) or a direct operator answer.
+- **[[wiki/people/kristin]]** — **Identity cannot be verified the way the protocol requires.** `EXTRACTION_SPEC.md` mandates cross-checking two independent contact exports. `contacts.csv` and the Facebook address book both **predate her entirely** — stamped 2018-02-13 and 2021-10-16, contain
+- **[[wiki/people/kristin]]** — **The Facebook thread is a screen capture, not an export.** 2,009 messages were recovered from rendered UI; anything not scrolled into view that morning is absent, so the August volume is a floor, not a total. A real Messenger export would settle the first-con
+- **[[wiki/people/kristin]]** — **Duplicate-suppression on that capture** may merge genuinely repeated short messages ("Yea", "ok"), so 2,009 is conservative in one direction and approximate in the other.
+- **[[wiki/people/kristin]]** — **No verification of the New York period** she references on Facebook.
+- **[[wiki/people/kristin]]** — **The second export**, `imessage_export_3307038747_20260624.csv` (2.58 MB, larger than the 2.41 MB canonical), has not been diffed against the primary. It may carry messages this analysis missed.
+- **[[wiki/people/kristin]]** — **Nothing after 2025-12-10.** The block appears to have held; whether contact resumed off-corpus is unknown.
 - **[[wiki/people/menore]]** — **Real name**: "Menore" may be nickname, placeholder, or transcription variant
 - **[[wiki/people/menore]]** — **Supply chain**: Source of product not visible in corpus
 - **[[wiki/people/menore]]** — **Geographic extent**: Serves only Manhattan/Brooklyn or wider region unclear
