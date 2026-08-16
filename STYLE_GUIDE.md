@@ -61,6 +61,8 @@ If something important is unknown — why the 2021–22 corpus goes near-silent,
 
 Negative results belong on the page too, with the same weight as positive ones. "Checked the reading log; the novel is not in it" is a finding, and usually a cheap falsifier.
 
+**Write each gap so it can be answered by one person in one paragraph.** Most gaps here are not waiting on a better export or a smarter tool — they are waiting on the operator, who can settle them in thirty seconds if the page asks a question rather than gesturing at a fog. *"No verification of the New York period"* is answerable; *"more research needed on this era"* is not. `bin/wiki-gaps` puts the whole list in front of him one page at a time, so a vague gap is a question that never gets asked.
+
 ## 8. Say what would prove you wrong
 
 Any page carrying an argued conclusion — every `page_type: synthesis`, most `concept` pages, the load-bearing reads on entity pages — should state what it predicts and what would falsify it. This is the opposite of hedging. *"The rule predicts this severance holds"* is a claim the corpus can settle. *"Dan's relationships are shaped by attachment"* is not.
@@ -147,7 +149,10 @@ changelog:                  # only on critical pages; newest first
     note: "one line"
 image: self                 # override the auto illustration; assets/img/<name>.svg
                             # (no real photographs are used anywhere in the wiki)
+pending_ingest: YYYY-MM-DD  # written by bin/wiki-gaps, removed by bin/wiki-gaps clear
 ```
+
+`pending_ingest:` is the one field on this list that is **not** yours to write by hand. It means the page is carrying an operator answer nobody has acted on yet, and it is removed by the pass that acts on it — see CLAUDE.md, CLOSE. Its date is when the answer was staged, deliberately not the same thing as `date_modified`: a page holding an unintegrated answer has not moved yet.
 
 ### `status`
 

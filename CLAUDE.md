@@ -19,6 +19,8 @@ A custom wiki system that aims to be as exhaustive and detailed as possible abou
 
 **At the start of every session, read `LLM_HANDOFF.md`** to understand current state, recent changes and immediate priorities. **When you end, update it** — what you accomplished and the exact focus for the next model. This is what makes the work continuous across sessions and models.
 
+**Then run `bin/wiki-gaps pending`.** Anything it lists is a question the wiki asked and the operator has already answered; it outranks whatever else was queued, because the evidence is in the repo and the only thing missing is the pass that applies it. See CLOSE below.
+
 ## The three things that matter most
 
 1. **Depth is the binding constraint.** There are 438 pages; there are not enough *details on them*. A pattern can only be found among details that were written down, and synthesis reasons from `wiki/`, not `raw/` — so anything dropped at extraction is a connection nobody can ever make. Read sources to exhaustion, write long, keep the mundane. `EXTRACTION_SPEC.md`.
@@ -95,6 +97,23 @@ Climb when a cluster has survived two or more ingests, or immediately when an in
 
 When the operator asks to rewrite, wipe, redo, re-research or overhaul a page that already exists, **invoke the `wiki-rewrite` skill (`.claude/skills/wiki-rewrite/`) and follow it exactly.** INGEST governs new sources arriving; that skill governs an existing page being re-derived, and it carries the parts this pass gets wrong: snapshotting earned content before the wipe, ranking primary against AI-secondary sources, verifying derived numbers with `bin/mine-messages`, resolving identity through two independent contact exports, and working the staleness cascade without bumping a date.
 
+### CLOSE — integrate an answer the operator has already given
+
+Every other operation starts from a source. This one starts from the operator having sat down and answered something a page admitted it did not know. `bin/wiki-gaps` stages those answers; **applying them is not optional and is not low-priority work.** An answer sitting in a staging block is the wiki holding knowledge it has not absorbed — strictly worse than not having it, because `OPEN.md` now reads as if the question were still open somewhere and the answer is invisible to every page that needed it.
+
+`bin/wiki-gaps pending` lists them; `OPEN.md` carries the same list under **Answered, awaiting ingest**. For each page:
+
+1. **Read the whole page first**, then the staged blocks under `## Operator answers — pending ingest`. Each block carries the gap as the page stated it, the operator's answer verbatim, and the `raw/` path the answer was filed to.
+2. Treat the answer as **T0 first-person testimony, not as proof.** It is the strongest source class the corpus has and it is still one source. Where it can be checked against `raw/` — `bin/mine-messages`, an export, a contacts file — check it, and say on the page which parts were corroborated and which rest on testimony alone. Where it *contradicts* something the page derived from a primary source, that is a `> **CONTRADICTION:**` to hold, not a disagreement to settle by seniority.
+3. **Rewrite the page around the answer** — integrate it where it belongs in the existing argument. Do not leave the staged block in place as the answer's permanent home; that is the changelog rot STYLE_GUIDE rule 6 forbids.
+4. Record the result inline as a `> **GAP CLOSED [YYYY-MM-DD]:**` blockquote with the original gap visible (STYLE_GUIDE rule 9), and cite the `raw/` capture in `sources:`.
+5. **Cascade.** A gap is rarely local: every page that reasoned from the unknown, cited the gap, or carries a typed edge into this one gets the correction written back. This is the step most often skipped, and skipping it is what leaves a corrected page contradicting three uncorrected ones.
+6. Bump `date_modified` **now** — the page has actually moved, which it had not when the answer was merely staged.
+7. `bin/wiki-gaps clear <page>` to delete the staging section and the `pending_ingest:` flag. Clearing means integrated, never discarded: the answer is permanent in `raw/`.
+8. Three gates at 0 errors; log `close | <domain> | <page> — <what the answer changed>`; commit.
+
+If an answer turns out to be **wrong** against a primary source, that is a finding worth more than the answer was — write it up, keep both claims visible, and clear the flag anyway. A staged answer that was never acted on and a staged answer that was checked and rejected must not look the same from outside.
+
 ### LINT (periodic)
 
 Sweep for: broken links, orphan pages, contradictions between pages, claims superseded by newer raw data, entities mentioned 3+ times with no page, and **stale premises** (`bin/wiki-climb check`). Fix mechanically what you can; queue the rest in `BACKLOG.md`. A stale page is never fixed mechanically — re-read what changed in the premise before touching the dependent.
@@ -113,6 +132,7 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 | `bin/export-corpus` | concatenates the wiki into one markdown file for LLM ingestion, with a token estimate |
 | `bin/wiki-search`, `bin/wiki-status`, `bin/wiki-tui` | search, status, terminal browser |
 | `bin/ingest-pack` / `bin/ingest-apply` | the any-LLM paste-box route (`INGEST_PROTOCOL.md`) |
+| `bin/wiki-gaps` | operator-facing: answer an open gap, or volunteer a fact the page never asked for, and stage it for the next pass. `pending` lists what is waiting; `clear` closes the loop |
 
 ## Before every commit
 

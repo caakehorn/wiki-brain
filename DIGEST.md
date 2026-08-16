@@ -6,7 +6,8 @@ The front door for a human. [index.md](index.md) is the navigational map;
 this is the state of the thing.
 
 - **[RECENT.md](RECENT.md)** — what changed lately and why
-- **[OPEN.md](OPEN.md)** — every unresolved contradiction, gap and prediction
+- **[OPEN.md](OPEN.md)** — every unresolved contradiction, gap and prediction,
+  and every operator answer still waiting to be ingested
 
 ## Size
 
@@ -16,7 +17,7 @@ this is the state of the thing.
 | Pages touched in the last 14 days | 129 |
 | Pages reasoning from other pages (`synthesizes:`) | 27 |
 | Live contradictions | 30 |
-| Open gaps | 164 |
+| Open gaps | 269 |
 | Standing predictions | 13 |
 
 ## By domain
@@ -46,6 +47,7 @@ this is the state of the thing.
 ## The last few days
 
 **2026-08-16** — 8 pages
+  - build | all | bin/wiki-gaps — 269 open gaps, no way for the one source that can settle them to answer, and OPEN.md could only see 164 of them
   - rewrite | people | kristin.md — surname wrong, dates wrong, count wrong, and the wiki's own instrument cannot see the thread
 
 **2026-08-15** — 22 pages

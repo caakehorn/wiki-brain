@@ -29,6 +29,19 @@ BLOCK_RE = re.compile(
 )
 CONTRA_RE = re.compile(r"^>\s*\*\*CONTRADICTION[^*]*\*\*:?\s*(.{0,400})", re.M | re.S)
 
+# Where a page writes down what it does not know. `## Gaps` is 107 of the 112 in
+# the corpus; the rest are the same section under another name, and were invisible
+# here until they were listed. Matched by the whole heading rather than by "the
+# word gap appears", which would swallow prose headings like "## The landscape gap
+# he identifies". Kept in step with GAP_HEAD in bin/wiki-gaps. Pages carry more
+# than one — jerel-coles has both an `## Open questions` and a `## Gaps` — so this
+# is iterated, never searched once.
+GAPS_SECTION = re.compile(
+    r"^##+[ \t]+(?:gaps?\b|notes[ \t]+(?:and|&)[ \t]+gaps\b|corpus gaps\b|open questions\b)"
+    r".*?$(.*?)(?=^##\s|\Z)",
+    re.M | re.S | re.I,
+)
+
 
 def pages():
     for dirpath, _dirs, files in os.walk(WIKI):
@@ -163,8 +176,37 @@ def write_recent(entries, reasons):
     return sum(len(v) for v in by_date.values())
 
 
+def gap_items(section):
+    """Split a Gaps section into individual gaps.
+
+    Two shapes are in the corpus and both are legal: bulleted lists — with
+    wrapped continuation lines and nested sub-bullets — and bare paragraphs.
+    This used to match `^-\\s+` only, which meant every prose gaps section in
+    the wiki (83 gaps across 78 pages when this was fixed) was silently absent
+    from OPEN.md: the pages had written down what they did not know and the
+    file collecting exactly that could not see them.
+
+    So: split on blank lines, then split any block that opens with a top-level
+    bullet at each subsequent top-level bullet. Nested bullets are indented, so
+    they stay with the item they belong to.
+    """
+    out = []
+    for block in re.split(r"\n\s*\n", section):
+        block = block.rstrip()
+        if not block.strip():
+            continue
+        first = block.lstrip()
+        if first.startswith("#") or first.startswith(">"):
+            continue  # sub-heading or blockquote — commentary, not a gap
+        if re.match(r"^[-*]|^\d+\.", first):
+            out += [b for b in re.split(r"^(?=[-*]\s|\d+\.\s)", block, flags=re.M) if b.strip()]
+        else:
+            out.append(block)
+    return out
+
+
 def write_open(entries):
-    contradictions, gaps, predictions = [], [], []
+    contradictions, gaps, predictions, answered = [], [], [], []
 
     for e in entries:
         body = e["body"]
@@ -172,9 +214,16 @@ def write_open(entries):
         for m in CONTRA_RE.finditer(body):
             contradictions.append((e, tidy(m.group(1))[:320]))
 
-        gs = re.search(r"^##+\s*Gaps?\b.*?$(.*?)(?=^##\s|\Z)", body, re.M | re.S)
-        if gs:
-            for line in re.findall(r"^-\s+(.+?)(?=\n-\s|\n\n|\Z)", gs.group(1), re.M | re.S):
+        # Gaps the operator has answered but nobody has acted on yet — staged by
+        # bin/wiki-gaps and flagged in frontmatter. These are the cheapest items
+        # in this file by a wide margin: the evidence is already in the repo and
+        # the work is integration, not research.
+        if field(e["fm"], "pending_ingest"):
+            heads = re.findall(r"^### ANSWERED \[[\d-]+\] — (.+)$", body, re.M)
+            answered.append((e, field(e["fm"], "pending_ingest"), heads))
+
+        for gs in GAPS_SECTION.finditer(body):
+            for line in gap_items(gs.group(1)):
                 flat = tidy(line)
                 if not flat or flat.startswith("~~"):
                     continue  # struck through = resolved
@@ -202,7 +251,27 @@ def write_open(entries):
         "|---|---|",
         "| Live contradictions | %d |" % len(contradictions),
         "| Open gaps | %d |" % len(gaps),
+        "| Answered, awaiting ingest | %d |" % sum(len(h) for _, _, h in answered),
         "| Standing predictions | %d |" % len(predictions),
+        "",
+        "## Answered, awaiting ingest",
+        "",
+        "Gaps the operator has already answered in a `## Operator answers — pending",
+        "ingest` block, which nothing has acted on yet. The evidence is in the repo;",
+        "what is missing is the pass that corrects the page and every page that",
+        "inherited the gap, then runs `bin/wiki-gaps clear <page>`. Cheapest work",
+        "here — no new source required, and the answer is already written down.",
+        "",
+    ]
+    for e, when, heads in sorted(answered, key=lambda x: (x[1], x[0]["path"])):
+        out.append("- **[[%s]]** — staged %s, %d answer%s"
+                   % (e["path"], when, len(heads), "" if len(heads) == 1 else "s"))
+        for h in heads:
+            out.append("  - %s" % tidy(h)[:200])
+    if not answered:
+        out.append("_Nothing staged._")
+
+    out += [
         "",
         "## Live contradictions",
         "",
@@ -266,7 +335,8 @@ def write_digest(entries, touched, counts, reasons):
         "this is the state of the thing.",
         "",
         "- **[RECENT.md](RECENT.md)** — what changed lately and why",
-        "- **[OPEN.md](OPEN.md)** — every unresolved contradiction, gap and prediction",
+        "- **[OPEN.md](OPEN.md)** — every unresolved contradiction, gap and prediction,\n"
+        "  and every operator answer still waiting to be ingested",
         "",
         "## Size",
         "",

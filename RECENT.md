@@ -10,6 +10,7 @@ simply listed.
 
 ## 2026-08-16 — 8 pages
 
+- **Session log:** build | all | bin/wiki-gaps — 269 open gaps, no way for the one source that can settle them to answer, and OPEN.md could only see 164 of them
 - **Session log:** rewrite | people | kristin.md — surname wrong, dates wrong, count wrong, and the wiki's own instrument cannot see the thread
 
 | Page | Domain | What moved |
