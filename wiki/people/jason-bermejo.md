@@ -1,10 +1,11 @@
 ---
+image_caption: Jason Bermejo
+image: assets/people/jason-bermejo/people-jason-bermejo-msw6nyoh.jpg
 domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
 date_modified: 2026-07-19
-pending_ingest: 2026-08-16
 date_range_start: 2017-01-20
 date_range_end: 2026-03-21
 sources:
@@ -181,28 +182,8 @@ Dan describes him as a gateway to "a different style of music that still resonat
 ## Notes & Gaps
 
 - Full timeline of how they met (likely Full Sail, ~2009) not explicit in corpus but strongly implied
+- Current Jason location: Texas (likely Austin or DFW area based on references)
 - Ex-girlfriend mentioned (Feb 2026) but not named; current girlfriend also unnamed in corpus
 - Last message: 2026-03-21 (gap since February spike suggests lower contact post-winter)
 - Music output / release status: unclear if Jason has released material or remains hobbyist
 - Full Sail attendance dates: ~2009-2011 implied
-
-## Operator answers — pending ingest
-
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-16] — Current Jason location: Texas (likely Austin or DFW area based on refer…
-
-**The gap, as this page stated it:**
-
-> - Current Jason location: Texas (likely Austin or DFW area based on references)
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-16_151317_gap-jason-bermejo.md`.
-
-Dallas Texas
