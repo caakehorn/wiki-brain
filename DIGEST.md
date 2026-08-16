@@ -14,10 +14,10 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 460 |
-| Pages touched in the last 14 days | 129 |
+| Pages touched in the last 14 days | 130 |
 | Pages reasoning from other pages (`synthesizes:`) | 27 |
-| Live contradictions | 30 |
-| Open gaps | 269 |
+| Live contradictions | 31 |
+| Open gaps | 271 |
 | Standing predictions | 13 |
 
 ## By domain
@@ -46,7 +46,8 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-16** — 8 pages
+**2026-08-16** — 10 pages
+  - close | timeline | shelbie-annie-threesome — the operator dated it, and the corpus showed the page had the authorship backwards
   - build | all | bin/wiki-gaps — 269 open gaps, no way for the one source that can settle them to answer, and OPEN.md could only see 164 of them
   - rewrite | people | kristin.md — surname wrong, dates wrong, count wrong, and the wiki's own instrument cannot see the thread
 
