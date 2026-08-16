@@ -6,6 +6,7 @@ status: active
 knowledge: earned
 date_created: 2026-08-02
 date_modified: 2026-08-02
+pending_ingest: 2026-08-16
 date_range_start: 2026-07-26
 date_range_end: 2026-08-02
 importance: critical
@@ -413,10 +414,6 @@ sentence is withheld, and the withholding is what the loop runs on.
 
 ## Gaps
 
-- **The email to Ellen on July 26 is not in `raw/`** — only Dan's statement
-  that he sent it and Annie's reaction. Its contents, and Ellen's reply if
-  any, are unrecovered. The same is true of the July 28 email that appears
-  never to have been sent.
 - **The man is unidentified**, by design. Whether he is
   [[wiki/people/tuquick-17248123683|Tuquick]] remains unstated in any
   source.
@@ -436,3 +433,32 @@ sentence is withheld, and the withholding is what the loop runs on.
   California), Tanya, Lucky, Bailey, and "Bop" — a supplier described as
   arriving at Dan's house daily at noon, who by volume is now the corpus's
   most active supply contact and has no page.
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-16] — The email to Ellen on July 26 is not in raw/ — only Dan's statement tha…
+
+**The gap, as this page stated it:**
+
+> - **The email to Ellen on July 26 is not in `raw/`** — only Dan's statement
+>   that he sent it and Annie's reaction. Its contents, and Ellen's reply if
+>   any, are unrecovered. The same is true of the July 28 email that appears
+>   never to have been sent.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/timeline/captures/2026-08-16_183338_gap-july-august-2026-reentanglement.md`.
+
+"I am so incredibly sorry to bother you and I really, really hope that this is an overreaction and completely unnecessary but I started receiving messages from Annie’s phone that were being written by someone other than Annie,  the same person who she had filed a police report for sexual assault against yesterday (you were involved in contact police, according to whatshe told me) and while I’m very confused and have absolutely no idea what has happened or is going on at the moment I just needed to make sure that I told you, just in case.
+
+I had not spoken to her in several months before yesterday so I’m fully without contextbut she was clear about what happened and I just didn’t know what to make of the bizarre messages from her phone at this hour. Again I am so sorry for bothering you and I hope that I was just misled and you don’t have any idea what I’m talking about butIi couldn’t live with myself if something happened to her and I didn’t say anything when I had the chance. Sorry to bother you" 
+
+SENT BY DAN 7:06AM SUN 26 JULY 2026
+NO REPLY
