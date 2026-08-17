@@ -6,11 +6,11 @@ aliases: ["DXM Tom Petty trip", "the Robo-tripping concert"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-09
-date_modified: 2026-08-09
-pending_ingest: 2026-08-16
+date_modified: 2026-08-17
 date_range_start: 2005-06-15
 date_range_end: 2005-06-15
 sources:
+  - raw/timeline/captures/2026-08-16_185413_gap-robotussin-s-last-dance.md
   - "raw/self/captures/2026-08-09_143916_robotussin-s-last-dance.md"
 tags: [uniontown-era, addiction-recovery]
 infobox:
@@ -53,6 +53,28 @@ The red flag the capture flags for the reader is geography: the closest CVS to B
 
 The capture's most vivid memory is the Rt 51 stretch: 17-year-old boys, 95 miles per hour, passing cars and smacking into orange traffic cones. The capsule count, the distance from home, the highway speed and the cone impacts are all presented as a single motion — not a decision followed by an outcome, but a single continuous event whose internal logic was the drug and the friendship and the summer. Nothing in the record suggests any of the three were pulled over, injured, or otherwise interrupted. The drive's terminus is Uniontown, not a house or a bed, which is what makes it a story rather than a cautionary footnote: the destination was the place he would sober up in, and the place that had already, by that June, been partially emptied of the family that used to live in it.
 
+> **GAP CLOSED [2026-08-17] — they were peaking, not coming down.** This page
+> asked *"whether any of the three were sober enough to make decisions by the
+> time they left Ruby Tuesday's."* The operator:
+> **"on the contrary, we were all MUCH less sober and subsequently even more
+> intoxicated before a 90 minute drive"**
+> (`raw/timeline/captures/2026-08-16_185413_gap-robotussin-s-last-dance.md`).
+>
+> That inverts the assumption the section above rests on. The implicit reading
+> was of a night winding down — incapacitated at the restaurant, then a drive
+> home. The pharmacokinetics ran the other way: DXM was **still coming up** when
+> they left, so the ninety-minute, ninety-five-mile-per-hour run down Rt 51 was
+> made at or near peak intoxication by a seventeen-year-old who was *more*
+> impaired at the wheel than he had been at the table he was nearly ejected
+> from.
+>
+> The answer is also the only correction to the record that makes it **worse**
+> rather than more explicable — which is worth noting, because the capture it
+> comes from is Dan's own retelling of a story he and two friends have always
+> told as adventure. Asked to fill a gap about his own culpability, he
+> volunteered the fact that makes the story less defensible. Weigh that against
+> the in-attack claims elsewhere in the corpus that do the opposite.
+
 ## What it shows about the era
 
 This is the summer the family's stable narrative actually broke. Rick is named in the capture as a "non-factor" — not absent, but no longer able to constrain what Dan could or could not do on any given night. The prior two years had already normalized household cocaine use (the substance the capture frames as the "adult" drug already present in the house before Dan ever tried it himself), and the divorce had not yet been absorbed into a new family structure — it was still raw enough to feel like permission rather than loss. The Abercrombie & Fitch accumulation that dominated eleventh grade Dan's self-concept — best-dressed senior superlative, bought his way in — is the surface layer of a kid who felt, for the first and only time, that the usual rules did not apply to him and that the consequences would be someone else's problem.
@@ -71,26 +93,5 @@ The Frank's Auto Supply job is a documented part of the family business record. 
 
 - The exact capsule count is Dan's own retrospective estimate, not a counted inventory — "20–40" is a range, and the capture reads it as such.
 - The CVS location is named only as "the closest CVS to Burgettstown"; the Ruby Tuesday's is specified as near Pittsburgh airport but not pinned further.
-- No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony.
+- No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony. The 2026-08-17 answer about intoxication at the wheel is from the same single source and inherits the same limit; it is first-person and self-incriminating, which is the strongest form single-source testimony takes, but it is still one witness.
 - The Post-Gazette Pavilion's sold-out Tom Petty date of June 15 2005 has not been independently verified against tour records.
-
-## Operator answers — pending ingest
-
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-16] — Whether any of the three were sober enough to make decisions by the tim…
-
-**The gap, as this page stated it:**
-
-> - Whether any of the three were sober enough to make decisions by the time they left Ruby Tuesday's is not addressed.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/timeline/captures/2026-08-16_185413_gap-robotussin-s-last-dance.md`.
-
-on the contrary, we were all MUCH less sober and subsequently even more intoxicated before a 90 minute drive

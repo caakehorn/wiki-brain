@@ -4,8 +4,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-16
-pending_ingest: 2026-08-16
+date_modified: 2026-08-17
 date_range_start: 2025-08-29
 date_range_end: 2025-12-10
 sources: ["raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/people/kristin/chimera-genesis-addendum.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
@@ -94,12 +93,27 @@ Three-quarters of everything ever said happened in September. The heaviest singl
 day is **2025-09-09 at 1,324 messages** — the day they spent going through her old
 Twitter account together.
 
-## The $40, which is a November event
+## The $40, which is an October event litigated in November
 
 > **CORRECTED [2026-08-16]:** the old page placed the $40 dispute on **Dec 9** —
 > *"Dec 9 (a.m.) | Fight over $40 Kristin allegedly took from Dan's mother"* — as
 > the trigger for the terminal sequence. It is a **November** event, and by
 > December it is a five-week-old grievance being recited, not a fresh fight.
+
+> **SHARPENED [2026-08-17] — and the evidence was already quoted below.** The
+> operator: *"on November 2 2025 Dan references the $40 debt as being a week old
+> already which would place it in October"*
+> (`raw/people/captures/2026-08-16_172243_gap-kristin.md`). The 14:33 message
+> quoted just below says it in Dan's own words — *"I've been answering for where
+> it is gone for **the last week**"* — so **the money went missing in late
+> October**, not November. This page carried the line and did not draw the
+> inference from it.
+>
+> That lengthens the grievance without changing its shape, and the shape is what
+> the argument rests on: not a fresh fight on Dec 9 but a **six-week**
+> accumulation being recited — late October through Dec 9, against the five
+> weeks recorded above. The relationship ran roughly ten weeks in total, so the
+> money was contested for more of it than it was not.
 
 The whole of November is legible because there is so little of it. Dan's birthday
 is 1 November and she sends a video for it. By the next afternoon the money is
@@ -404,6 +418,18 @@ material, and every per-year message count that treats the dump as complete for
   than the 2.41 MB canonical), has not been diffed against the primary. It may
   carry messages this analysis missed.
 
+> **GAP CLOSED [2026-08-17]:** this page previously said *"Nothing after
+> 2025-12-10. The block appears to have held; whether contact resumed
+> off-corpus is unknown."* The operator: **"No contact after 10 Dec 2025"**
+> (`raw/people/captures/2026-08-16_195122_gap-kristin.md`). The block held, and
+> has now held for **eight months** — which is what makes Kristin the cleanest
+> inbound control case on [[wiki/mind/synthesis/block-unblock-loop]]. Her
+> severance is the one in the corpus that stayed shut, and the rule's
+> explanation is that she had no dependency running through the channel. That
+> the silence is corroborated off-corpus, rather than merely unobserved, is the
+> difference between a control and an absence of data — a distinction this
+> corpus is otherwise bad at making.
+
 ## Notes
 
 Extreme volume in a short window makes this the strongest single data point for
@@ -419,35 +445,3 @@ stores some text in **mathematical-monospace Unicode**, so a plain grep for
 `LONELY LOSER` returns nothing while the string is plainly present. Fold with
 `unicodedata.normalize('NFKC', …)` before matching. This is the same family as the
 curly-apostrophe trap in `EXTRACTION_SPEC.md` and belongs beside it.
-
-## Operator answers — pending ingest
-
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-16] — manual note
-
-**Not from the gap list** — volunteered by the operator, so the ingest
-has to work out for itself where on the page it belongs, and whether it
-contradicts something already there.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-16_172243_gap-kristin.md`.
-
-As the article mentions, on November 2 2025 Dan references the $40 debt as being a week old already which would place it in October
-
-### ANSWERED [2026-08-16] — Nothing after 2025-12-10. The block appears to have held; whether conta…
-
-**The gap, as this page stated it:**
-
-> - **Nothing after 2025-12-10.** The block appears to have held; whether contact
->   resumed off-corpus is unknown.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-16_195122_gap-kristin.md`.
-
-No contact after 10 Dec 2025

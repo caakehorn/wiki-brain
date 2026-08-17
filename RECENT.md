@@ -8,31 +8,37 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-17 — 15 pages
+## 2026-08-17 — 20 pages
 
 - **Session log:** restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
 - **Session log:** climb | timeline, people, mind | the 2015 Annie read spread to ten pages, and five of its own corrections did not survive the evidence gate
 - **Session log:** close | people, timeline, mind | the operator named "turd boy", and three separate incidents became one retaliation arc
+- **Session log:** tool | meta | bin/wiki-gaps could not see two-thirds of the wiki's unsettled information, and left no trace of what the operator added
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a RE-CHECKED from 2026-08-16)_ |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | **CORRECTED** — This page, and its own 2026-08-02 correction about whose exit it was, both assume Annie was unattached. **She was not.** The hand-read of the two-sided corpus (annie-record) has her ending her own rel |
 | [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
 | [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-08-15)_ |
 | [[wiki/people/annie-ulmer]] | people | _(carries a CORRECTED from 2026-08-16)_ |
 | [[wiki/people/casey-bondarenka]] | people | **CORRECTED** — "Overstayed his welcome" implied an established friendship. The hand-read of the Annie corpus (annie-record) dates his arrival precisely: on 2015-11-30 Dan complains *"Casey will never stfu here"* and |
 | [[wiki/people/claire-ulmer]] | people | — |
-| [[wiki/people/ellen-ulmer]] | people | — |
+| [[wiki/people/ellen-ulmer]] | people | **GAP CLOSED** — This page previously said *"Nothing records whether she and Dan have had any contact since the June 2026 severance or the July 2026 re-contact; the last message on file is the November 2025 birthday n |
 | [[wiki/people/emilio]] | people | — |
+| [[wiki/people/kristin]] | people | **GAP CLOSED** — this page previously said *"Nothing after 2025-12-10. The block appears to have held; whether contact resumed off-corpus is unknown."* The operator: **"No contact after 10 Dec 2025"** (`raw/people/cap |
+| [[wiki/people/milo]] | people | **GAP CLOSED** — The operator's account, given calmly ten months later (`raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md`): > *"betty, in june 2025, while staying with me began having se |
 | [[wiki/people/suzanne-frank]] | people | **CONTRADICTION** — A $200 cocaine spend on 2015-12-29 is **not** established as hers, and an earlier pass wrongly recorded it as such. The record has Annie saying *"And that $200 wasn't even your own"* (23:48) and Dan a |
 | [[wiki/people/zach-clingan]] | people | _(carries a CORRECTED from 2026-08-08)_ |
 | [[wiki/people/zachariah-harshman]] | people | — |
 | [[wiki/timeline/2015-annie-read-wiki-impact-analysis]] | timeline | — |
 | [[wiki/timeline/annie-read-notes]] | timeline | — |
 | [[wiki/timeline/annie-record]] | timeline | — |
+| [[wiki/timeline/events/july-august-2026-reentanglement]] | timeline | **GAP CLOSED** — This page flagged Dan's 02:59 line — *"You couldn't even stay with her when they put her down so she had to go through it alone"* — as *"sourced only to Dan, in an attack, and uncorroborated."* The op |
+| [[wiki/timeline/events/robotussin-s-last-dance]] | timeline | **GAP CLOSED** — This page asked *"whether any of the three were sober enough to make decisions by the time they left Ruby Tuesday's."* The operator: **"on the contrary, we were all MUCH less sober and subsequently ev |
 | [[wiki/timeline/periods/2015-2016-annie-relationship-start]] | timeline | **CORRECTED** — The dossier baseline above reads as though two days of relationship had elapsed before *"YOU ARE MY EVERYTHING."* The hand-read (annie-record) times it to **2015-11-29 03:24**, with *"You are my full  |
 
-## 2026-08-16 — 10 pages
+## 2026-08-16 — 8 pages
 
 - **Session log:** close | timeline | shelbie-annie-threesome — the operator dated it, and the corpus showed the page had the authorship backwards
 - **Session log:** build | all | bin/wiki-gaps — 269 open gaps, no way for the one source that can settle them to answer, and OPEN.md could only see 164 of them
@@ -42,11 +48,9 @@ simply listed.
 |---|---|---|
 | [[wiki/mind/profile/big-five-psychometrics]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | **REVISED** — April 2019 was tabled here as an instance of the arrangement operating. Minute-level reconstruction from Annie's thread shows the opposite: Dan paid for a one-on-one and Annie converted it into a thre |
-| [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — kristin was rewritten from the primary exports on 2026-08-16. Two of its changes bear on this page. **The row's reasoning is now better supported than when it was written.** The table reads *"She bloc |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — context-core was revised on 2026-08-16 by a staleness audit that corrected seven claims: the Annie status (closed → live), Tom's corpus weight (16,563 was Kristin's handle), the 337 Saratoga sale and  |
 | [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — block-unblock-loop moved on 2026-08-16 after kristin was rewritten from primary exports. This page's edge reads that *"the exit is declared, never executed, because execution is the irrevers |
 | [[wiki/people/jerad-friedline]] | people | **RE-CHECKED** — context-core was revised on 2026-08-16 by a staleness audit that corrected seven claims: the Annie status (closed → live), Tom's corpus weight (16,563 was Kristin's handle), the 337 Saratoga sale and  |
-| [[wiki/people/kristin]] | people | **CORRECTED** — The previous version of this page stated: *"Last name confirmed as Shaelene from the dox-scan messenger export (the operating manual had listed 'Shalene or Prentiss' as unknown)."* That confirmation w |
 | [[wiki/self/context-core]] | self | _(carries a CORRECTED)_ |
 | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] | timeline | **GAP CLOSED** — This page carried "Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown" as an open question since 2026-07-14. The opera |
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — context-core was revised on 2026-08-16 by a staleness audit that corrected seven claims: the Annie status (closed → live), Tom's corpus weight (16,563 was Kristin's handle), the 337 Saratoga sale and  |
@@ -150,7 +154,7 @@ simply listed.
 | [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
 | [[wiki/work/fastly-fsly]] | work | — |
 
-## 2026-08-09 — 15 pages
+## 2026-08-09 — 14 pages
 
 - **Session log:** ingest | self/timeline/people/interests | extreme-sports era expanded with visual documentation
 - **Session log:** ingest | self/extreme-sports, people, places, interests | childhood extreme-sports era captured
@@ -173,7 +177,6 @@ simply listed.
 | [[wiki/places/seven-springs]] | places | — |
 | [[wiki/timeline/events/annie-alexis-reunion-november-2018]] | timeline | — |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
-| [[wiki/timeline/events/robotussin-s-last-dance]] | timeline | — |
 
 ## 2026-08-08 — 2 pages
 
@@ -199,7 +202,7 @@ simply listed.
 | [[wiki/people/lucy]] | people | — |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-08-08)_ |
 
-## 2026-08-02 — 34 pages
+## 2026-08-02 — 32 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -238,7 +241,6 @@ simply listed.
 | [[wiki/people/jay-lauer]] | people | — |
 | [[wiki/people/joe-croftcheck]] | people | — |
 | [[wiki/people/john-carney]] | people | **RE-CHECKED** — 463-morgantown was updated to record that the Arnu mechanics-lien deadline elapsed on ~27 July 2026 with no documented outcome. The Carney exposure documented on this page is a separate claim on the s |
-| [[wiki/people/milo]] | people | — |
 | [[wiki/people/morley-frank]] | people | — |
 | [[wiki/people/sadie-harris]] | people | _(carries a CONTRADICTION)_ |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
@@ -247,7 +249,6 @@ simply listed.
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | **GAP CLOSED** — This page had carried "the punchline of the SMOK-vs-10W vape story (set up in the session, delivered only in an uploaded video — fire alarm? staff incident?)" as an open question since 2026-07-19. Two |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/events/july-2026-recontact]] | timeline | — |
-| [[wiki/timeline/events/july-august-2026-reentanglement]] | timeline | — |
 | [[wiki/timeline/events/teen-concert-years]] | timeline | **CONTRADICTION** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate |
 | [[wiki/timeline/events/the-fall-of-fran]] | timeline | **CONTRADICTION** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] | timeline | **CONTRADICTION** — fran-death-vigil, written from the Photo Thread session, has Dan blowing enormous clouds from a 110-watt SMOK **in the room** while Suz puffed her 10-watt device **in the hospital bathroom**. Both cap |
