@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-15
+date_modified: 2026-08-17
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -24,6 +24,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/timeline/annie-record
+    type: evidenced-by
+    claim: "Dan names supply as the tie holding a partner in place on 2015-11-29 (\"she doesn't have another drug source\"), roughly three years earlier than any node previously on this page and applied to the departing partner rather than to himself."
   - page: wiki/people/zach-clingan
     type: evidenced-by
     claim: "The Clingan thread runs the opposite way from every other node here — Dan holds the edibles, the kush and the leaf and Clingan asks — which is the network's clearest evidence that inside the caddie yard Dan was the seller."
@@ -125,6 +128,40 @@ transfers along the way.
 | [[wiki/people/menore]] | 2013?, 2018–20 + 2024–25 | NYC | Professional delivery operator; 99.3% availability, median 7-min reply |
 | Tim | ~2020s | undocumented | Named in the MAX_PRIME succession; no thread yet identified |
 | **Bop** (Felix is not a node) | 2026 | Uniontown | Current primary node — house calls daily at noon; Dan maintains his property in part-payment; identity otherwise unknown |
+
+### Supply named as the bond, in real time, in 2015
+
+This page's thesis — that procurement functions as a tie rather than a
+transaction — was assembled from late material and read backwards. The
+hand-read of the Annie corpus ([[wiki/timeline/annie-record]]) shows Dan
+stating it outright on **2015-11-29 at 14:54**, about
+[[wiki/people/alexis-armel|Alexis]], while working out why she will not leave
+the house:
+
+> *"Ahhhh I know why she isn't leaving / Or like HASNT left / …she doesn't have
+> another drug source"*
+
+Two things make this the most valuable single line on this page. It is the
+earliest instance in the corpus by roughly three years, and it is applied to
+the **departing** partner rather than to Dan — the mechanism is named as
+something that holds *someone else* in place, by the person who would later be
+held by it. The inversion documented below ("Dan as the supply node") therefore
+has a symmetric origin: Dan understood the tie as leverage before he was
+subject to it.
+
+The same window adds [[wiki/people/suzanne-frank|Suz]] as an earlier node than
+any in the table above — cocaine delivered at 05:02 on 2015-11-30 with a car
+made conditional on completing the eviction, and a further supply on 2015-12-31
+(*"She only had 300 total so I got like 120"*). A "Morgantown homeboy" node is
+named on 2015-11-30 in a joint $100 purchase.
+
+By the end of that December the cost is being contested rather than absorbed.
+Annie, 2015-12-29: *"Some people can't even get $200 to pay their rent"* → *"I
+want stability / Our own money / Jobs / I don't want to fall into a deeper hole
+than we already our in"* (23:25–23:28); Dan: *"let's cut this shit out so we can
+be really happy"* (23:45). Whether that $200 was Dan's own money is disputed
+**within the record itself** and is flagged unresolved on
+[[wiki/people/suzanne-frank]] rather than settled here.
 
 Extending the succession earlier than previously documented, a 2015
 Facebook Messenger export dates [[wiki/people/zachariah-harshman|Zach

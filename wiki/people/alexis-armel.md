@@ -7,7 +7,7 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-06-23
-date_modified: 2026-08-15
+date_modified: 2026-08-17
 date_range_start: 2009-10-01
 date_range_end: 2025-02-19
 sources:
@@ -35,6 +35,9 @@ infobox:
   handles: ["+1724***7658", "lexieamb@gmail.com", "@alexisarmel"]
   known_for: "the six-year relationship that occupied the attachment slot without ever activating it — the corpus's control case"
 connections:
+  - page: wiki/timeline/annie-record
+    type: evidenced-by
+    claim: "Three independent lines on 2015-11-28 place Alexis inside the house with an expectation of property damage, and Dan names her lack of another drug source as the reason she has not left — the eviction is then run as reversible pressure steps rather than a confrontation."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: evidences
     claim: "Six years ending inside a single day is what makes the November 2015 switch a switch rather than a transition, and the fact that the deep attachment system never fully engaged for her is what makes her the control the Annie activation is measured against."
@@ -254,7 +257,8 @@ every beat of it:
 |---|---|
 | ~2015-11-24 | Annie enters the picture — *"HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME"* (Annie, Dec 1), i.e. Alexis herself made the introduction |
 | 2015-11-28 | Dan tells Annie the Alexis relationship's **origin** story (see the correction below) — Alexis is at this point still living with Dan in Uniontown |
-| 2015-11-29 ~2 AM | Meets Annie at the Uniontown Country Club, in the rain — *"I met someone that instantly changed my life"*; same evening, to Zachariah: *"Things are collapsing with lex"* |
+| 2015-11-29 ~2 AM | Meets Annie at the Uniontown Country Club, in the rain. *"I met someone that instantly changed my life"* is said **to Annie herself**, at 03:28, roughly an hour afterwards — not to a third party about her. Same evening, to Zachariah: *"Things are collapsing with lex"* |
+| 2015-11-29 14:54 | Dan names the tie holding her in the house: *"Ahhhh I know why she isn't leaving / Or like HASNT left / …she doesn't have another drug source"* |
 | 2015-11-30 | *"Alexis is sloshed"*; Suz offers Dan a car *"if I get Alexis out"* |
 | 2015-12-01 | Alexis moves out of 155 Virginia — *"Helping lex leave"* |
 | 2015-12-02 | *"Listen I broke up with lex, I'm in love with Annie Ulmer"*; *"Alexis only left yesterday"* |

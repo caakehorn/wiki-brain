@@ -7,7 +7,7 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-15
+date_modified: 2026-08-17
 date_range_start: 2015-11-01
 date_range_end: 2026-08-09
 infobox:
@@ -116,6 +116,9 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/timeline/annie-record
+    type: evidenced-by
+    claim: "The two-sided read establishes that Annie was ending her own relationship in the same seventy-two hours (\"I am going to get rid of him just like you just did\", 2015-11-29), and recovers the December 2 family confrontation from her side, including \"I'd rather lose all of them then to not be with you\"."
   - page: wiki/people/alexis-armel
     type: follows
     claim: "Annie was Alexis's coworker before she was Dan's partner, so the November 2015 replacement was not merely fast but internal — it came out of the displaced partner's own workplace, which is why the social fallout was immediate and public."
@@ -323,24 +326,9 @@ July 23, 2026 after a 52-day silence and ran 624 messages in four days
 handles alone carry the overwhelming share of Dan's entire relational
 message volume — the structural precondition, the redundancy concept
 argues, for how total the 2026 collapse was.
+> **CORRECTED 2026-08-16 — the "j's" needle/ice incident predates MyFreeCams.** On Dec 29, 2015, Annie references "one of the last times I was over at j's" — a man "literally gave me a chunk of ice" (crystal meth) without her asking. This is a distinct, earlier episode from the MyFreeCams history already on this page. The MyFreeCams history may be a later development, not the first. Worth separating rather than folding into either.
 
 ## Before Dan
-
-Annie arrived at this relationship already a former MyFreeCams model, and
-she described the camming, unprompted and more than once, as something
-that grew out of a dissociative period following her prior relationship:
-"That's when I started camming. Because I didn't care about myself. I
-wanted to be looked at." Dan knew this before they were ever introduced —
-his ex-girlfriend told him — and it drew him toward her rather than away.
-Her Uniontown world supplies the rest of the backdrop that recurs
-throughout this page: parents whose friendship with Dan's own mother's
-circle predates the relationship by decades; her grandmother Sugie, whose
-care was a real and continuing obligation that later doubled as her
-single most-used alibi; a sister, [[wiki/people/claire-ulmer|Claire]]; a
-niece and nephew she helped raise; and the dog
-[[wiki/people/milo|Milo]] — found as a starving stray by Claire, and a
-fixture of the New York years that outlasted almost everything else
-about them.
 
 **Before Dan, and unprompted by him:** an October 2018 message — reminiscing
 rather than disclosing in the moment — describes Annie having run a paid
@@ -398,6 +386,38 @@ real, external threat to the relationship's survival, not free-floating
 anxiety. This was new territory for him: nothing in the
 [[wiki/people/danielle-onesi]] or earlier [[wiki/people/alexis-armel]]
 history shows a comparably total activation.
+
+**Two things the 2026-08-17 hand-read of the two-sided corpus changes here.**
+
+First, *Annie was not unattached* — which reopens, from the other side, the
+2026-08-02 revision printed immediately below. On the night of the golf-course
+meeting her family and a partner are with her: *"my fam and dude are here and
+are going to force me to leave with them"* (2015-11-29 01:35). Dan calls him
+*"turd boy"* (02:49); Annie says *"I don't like him. At all."* and then **"I am
+going to get rid of him just like you just did"** (02:50–02:52). The switch was
+mutual and simultaneous. **The man is never named in this window**, and
+identifying him is the highest-priority open lead on
+[[wiki/timeline/annie-read-notes]] — he is *not* established to be Emilio, who
+enters the record on 2015-12-02.
+
+Second, the December 2 crisis is recoverable from Annie's own side, and it is
+sharper than the version reconstructed from Rick's. The trigger is
+surveillance: *"someone told me your car was at Dan Frank's this morning"*
+(18:44) — **the informant is never identified**, though both parties blame
+[[wiki/people/casey-bondarenka|Casey]]. The objection her mother raises is not
+the affair but Dan's reputation — *"he has a bad past do you know what he's
+done to his family"* (18:47) — escalating to *"am I going to have to treat you
+like a 12 year old"* (18:49). Annie's answer, the same evening: **"I'd rather
+lose all of them then to not be with you"** (19:00). Within the hour Dan is
+calling it *"Romeo and Juliet"*, and by 22:41 he is drafting the letter to her
+parents that this page already notes was never found.
+
+The reputation gets its only first-person accounting that night: *"I took $500
+from my grandma one time and got caught / But that's the worst thing I've ever
+done in my life"* (19:17–19:18). Whatever her family had heard, the gap between
+their version and his own is the relationship's first structural problem — and
+it is stated on day five, by both of them, in writing. Detail on
+[[wiki/people/ellen-ulmer]].
 
 > **REVISED [2026-08-02] — the twenty-four-hour switch is Dan's, not
 > Annie's.** This page previously stated, in two places, that *Annie* left her

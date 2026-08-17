@@ -6,7 +6,7 @@ aliases: ["Suz", "Suzanne Frank", "Suzanne Whyel Shrum Frank", "Suzy"]
 importance: critical
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-10
+date_modified: 2026-08-17
 infobox:
   name: Suzanne Frank
   status: Active
@@ -43,6 +43,9 @@ synthesizes:
 related: ["wiki/people/rick-frank", "wiki/people/vanessa-frank", "wiki/people/fran-coldren", "wiki/people/annie-ulmer", "wiki/self/ancestry", "wiki/self/overview", "wiki/mind/concepts/attachment-model", "wiki/timeline/periods/2025-collapse", "wiki/timeline/events/eli-incident", "wiki/legal/463-morgantown", "wiki/self/chats/gemini-07", "wiki/mind/synthesis/ancestral-dialectic", "wiki/mind/concepts/dans-law", "wiki/mind/concepts/contact-gini", "wiki/places/337-saratoga-drive", "wiki/timeline/events/fran-death-vigil"]
 tags: [ai-collaboration, uniontown-era, relationships, addiction-recovery, housing]
 connections:
+  - page: wiki/timeline/annie-record
+    type: evidenced-by
+    claim: "On 2015-11-30 at 05:02 she arrives at five in the morning with cocaine and makes a car conditional on completing the Alexis eviction — the earliest and bluntest instance in the corpus of the maternal leverage the later estate and supply pages document, and the reason the 2015 switch is now recorded as brokered rather than private."
   - page: wiki/people/jacob-bacharach
     type: co-occurs
     claim: "Suz owned the house a novelist fictionalised without knowing whose it was, and she is the person Dan forwarded Bacharach's February 2021 reply to within minutes of receiving it — which is why the only sample of Bacharach's own voice survives in the corpus at all."
@@ -246,6 +249,46 @@ The through-line: she is, at once, the person deciding where the family lives
 and the person whose own arrangements are themselves in motion. The housing
 story is therefore less "a decision about Dan" than "a shared transition two
 people are navigating without a fixed destination yet named."
+
+## Brokering the switch (November–December 2015)
+
+The Ulmer nexus below records that Suz and Annie's father had already run the
+same pairing a generation earlier, and offers it "as context rather than
+cause." The hand-read of the two-sided corpus
+([[wiki/timeline/annie-record]]) shows her doing considerably more than
+providing context. She promoted the match, supplied the drug, and attached a
+price to the outcome, inside seventy-two hours.
+
+On 2015-11-29 she phones Dan to say he *should* date Annie, and the reason she
+gives is that the name fits the family — *"I.e. Anne Dan Suzanne Fran Diane
+Van"* (13:48–13:49). Dan confirms in the same window that *"She srsly offered
+me a car last night."* Then, at 05:02 on 2015-11-30:
+
+> **"Suz just came to check on me, brought me a line, and told me she'd get me
+> a car this week if I get Alexis out."**
+
+Read literally: the mother arrives at five in the morning, provides cocaine,
+and makes a vehicle conditional on the completion of an eviction. This is the
+earliest and least ambiguous instance in the corpus of the mechanism
+[[wiki/mind/synthesis/estate-money-spine]] and
+[[wiki/mind/synthesis/supply-network]] document from much later material — and
+it is the reason [[wiki/mind/synthesis/bond-switch-2015]] now records the
+switch as brokered rather than private.
+
+The pattern holds through the month. On 2015-12-16 she pays Dan in cash for
+cleaning cars at her office (*"she gave me two 50's"*) and had been calling
+Annie his girlfriend for two weeks before he used the word himself — Annie's
+reaction, *"SHE CALLED ME YOUR GIRLFRIEND / IM IN LOVE IM IN LOVE"* (16:46),
+is the strongest positive response to a family-approval signal anywhere in the
+first month. On 2015-12-31 she supplies again: *"She only had 300 total so I
+got like 120"* (17:44).
+
+> **CONTRADICTION [2026-08-17]:** A $200 cocaine spend on 2015-12-29 is
+> **not** established as hers, and an earlier pass wrongly recorded it as
+> such. The record has Annie saying *"And that $200 wasn't even your own"*
+> (23:48) and Dan answering *"It was my money"* (23:50). The two lines conflict
+> and the corpus does not settle them. Held open rather than resolved by
+> seniority; the ~$120 on 12-31 is separately and unambiguously from Suz.
 
 ## The Ulmer nexus — a generational loop
 

@@ -1,5 +1,5 @@
 WIKI-BRAIN — LLM ACCESS POINT
-generated 2026-08-17 · 460 pages · full corpus ~948,117 tokens
+generated 2026-08-17 · 461 pages · full corpus ~961,070 tokens
 
 WHAT THIS IS
 A machine-readable export of a personal wiki (a 'second brain') that
@@ -452,6 +452,7 @@ Twitter / X Activity (@danfrank) | https://caakehorn.github.io/wiki-brain/llm/pa
 YouTube Watch History (2007–2026) | https://caakehorn.github.io/wiki-brain/llm/pages/self/youtube-watch-history.txt | Extensive personal YouTube activity log spanning nearly two decades. Primary media consumption channel for news, politics, comedy, and cultural commentary. D...
 
 --- TIMELINE ---
+2015 Annie Read — Wiki Impact Analysis | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/2015-annie-read-wiki-impact-analysis.txt | **Coverage:** 2015-11-28 → 2015-12-31 (34 days, 13,635 messages, ~160 events) **Goal:** Map how this data spreads across the wiki — what gets linked, what ge...
 The Annie Read — working notes | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/annie-read-notes.txt | Companion to [[wiki/timeline/annie-record]]. Same read, second output.
 The Annie Record — a read chronology | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/annie-record.txt | Every event here was found by **reading the messages**, in order, in small windows. Nothing on this page was pattern-matched or extracted by a script. That i...
 Annie/Alexis Reunion (November 2018) | https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/annie-alexis-reunion-november-2018.txt | Weeks after [[wiki/people/alexis-armel|Alexis]] was released from the year in prison documented at [[wiki/people/alexis-armel]] (the Zac Shumar mail-order we...

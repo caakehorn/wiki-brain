@@ -3,11 +3,14 @@ domain: timeline
 page_type: period
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-15
+date_modified: 2026-08-17
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx", "raw/self/dox-scan/DanAnnie_MoralAnalysis_SFW.docx", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE REPORT.md", "raw/self/ancestry/"]
 related: ["wiki/timeline/events/timeline", "wiki/people/annie-ulmer", "wiki/people/alexis-armel", "wiki/self/facebook", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/message-corpora/master-message-dump", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/gemini-activity/gemini-activity", "wiki/self/ancestry"]
 tags: [relationships, ai-collaboration, infidelity, financial-stress, trauma-bond]
 connections:
+  - page: wiki/timeline/annie-record
+    type: evidenced-by
+    claim: "The hand-read times \"YOU ARE MY EVERYTHING\" to 2015-11-29 03:24 — ninety minutes after the golf-course meeting, not \"day two\" — and recovers the December 2 family crisis this page compresses to \"parents squash attempt due to rep\"."
   - page: wiki/timeline/periods/uniontown-return-2013-2015
     type: follows
     claim: "The Annie relationship-start period opens exactly where the Uniontown-return period ends — the Nov 29 - Dec 1 2015 Alexis-to-Annie switch is the shared boundary."
@@ -51,6 +54,36 @@ connections:
 - Full Sail/early context (Gemini-_18 + _58): 2010 Full Sail Recording Arts grad + Pro Tools cert; 2011-13 NYC ishlab audio/production; pre-2015 Lex as anchor during this era (photo ingest cross); _58: Lex "with me the whole time we were in nyc", Bridge Cafe job, Sandy 2012, Franki blip 2013 return to Lex; Danielle (first gf 2005-09) pre-anchor + 2010 photo cross.
 
 **Dossier baseline (MasterRecord_FINAL / MoralAnalysis, added 2026-07-13):** The final dossiers anchor this period as the genuine-love baseline against which the whole decade is measured. Message record begins Nov 28 2015; day two carries Annie's "YOU ARE MY EVERYTHING" / "You are my full life." Love-language frequency 2015: 3.6% for both parties; 2016 peaks — Annie 5.3%, Dan 5.7%, the decade highs. Annie initiated contact 62% of days in 2015; Dan 54% in 2016. Dan's abandonment fear predates any betrayal: "I'm really really scared that you won't want this anymore" (Dec 2 2015). Volumes: 2015 Dan 7,242 / Annie 6,394; 2016 Dan 13,954 / Annie 14,395 (the pair's highest year). Annie entered as a former MyFreeCams model (disclosed; Dan knew via his ex and was drawn to it); first camming discussion between them came within weeks (Dec 2015), seeding the later smashonista/arrangement era. The dossiers' verdict on this period: both people genuinely present — "the later failures were trajectory, not character."
+
+> **CORRECTED [2026-08-17] — "day two" understates the speed by about two
+> days.** The dossier baseline above reads as though two days of relationship
+> had elapsed before *"YOU ARE MY EVERYTHING."* The hand-read
+> ([[wiki/timeline/annie-record]]) times it to **2015-11-29 03:24**, with *"You
+> are my full life"* at 03:23 — roughly **ninety minutes after the golf-course
+> meeting ended**, in the same overnight burst, and before either had slept.
+> *"I met someone that instantly changed my life"* is 03:28 in that same burst
+> and, contrary to how it is quoted here and on [[wiki/people/annie-ulmer]],
+> **was said to Annie**, not about her to a third party. Both parties' first
+> "I love you" is 03:14 the same night. The correct statement is not "day two"
+> but *"inside two hours of first physical contact."*
+
+> **ADDED [2026-08-17] — the December 2 family crisis.** "Mom/parents squash
+> attempt due to rep" in the key-events list is the compressed form of the
+> single largest event of this period, and the read recovers it. Annie's
+> mother learns Annie's car was at Dan's house (*"someone told me your car was
+> at Dan Frank's this morning"*, 18:44 — **the informant is never named**), and
+> the objection raised is Dan's reputation: *"he has a bad past do you know
+> what he's done to his family"* (18:47), with *"am I going to have to treat
+> you like a 12 year old"* (18:49). Annie answers *"I'd rather lose all of
+> them then to not be with you"* (19:00). Dan's own account of the reputation
+> is *"I took $500 from my grandma one time and got caught / But that's the
+> worst thing I've ever done in my life"* (19:17–19:18) — the gap between the
+> family's version and his own is the relationship's first structural problem,
+> stated on day five. [[wiki/people/rick-frank|Rick]] intervenes that night
+> (*"Call me tomorrow. I will help you fix this"*, 23:56) and the crisis
+> resolves through the fathers rather than between the couple. Detail on
+> [[wiki/people/ellen-ulmer]], [[wiki/people/claire-ulmer]] and
+> [[wiki/people/rick-frank]].
 
 **Real-time corroboration (found 2026-07-14, master CSV; re-checked
 2026-07-14 against the raw row):** The evening of November 29, 2015 — the

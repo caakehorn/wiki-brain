@@ -151,3 +151,46 @@ two largest all-ground domains. Both were measured against
   closely, which would also have argued against a Dan-specific effect had the
   pattern been real. **Any future month-of-year analysis on this corpus must
   drop 2015 and the current year first.**
+
+**[2026-08-17] Cluster 27, registered by hand from the Annie read (2015-11-28 →
+2015-12-31) and deliberately NOT climbed — information control as intimacy.**
+Members: `wiki/people/annie-ulmer` (people), `wiki/people/alexis-armel`
+(people), `wiki/timeline/annie-record` (timeline),
+`wiki/mind/synthesis/bond-switch-2015` (mind). Three domains.
+
+The candidate sentence: *Dan manages what a partner is allowed to know about
+the previous partner, and then discloses the management itself as evidence of
+closeness.* Three dated instances inside five weeks. 2015-11-28 19:01 —
+*"Alexis doesn't know that you have any part in this… So you don't need to
+worry as much as you might have thought"*: concealment of a third party
+delivered to Annie as protection **of her**. 2015-11-30 22:21 — *"I have stuck
+to the story 100% so you don't need to worry about saying something wrong"*: a
+jointly maintained cover narrative, again framed as relieving her. 2015-12-10
+19:57 — *"do you remember that lex texted you / And I grabbed the phone / And
+pretended like it was me"*: Dan intercepted an inbound message from Alexis to
+Annie on the first night, and tells her about it eleven days later as a
+revelation.
+
+**Held rather than climbed, for two reasons.** First, the third instance is the
+only one where Dan controls Annie's *inbound* information rather than a third
+party's — it may be a different mechanism wearing the same clothes, and one
+disclosed instance is not a pattern of interception. Second, and decisive: the
+obvious climb would be to generalise this to the 2026 material, where the
+terminal-phase record makes concealment central — but doing that from three
+2015 instances is `SYNTHESIS_SPEC.md`'s "climbing on sand," since the December
+entries these rest on have not been through a corrections pass and several
+sibling entries in the same window were found to assert facts their quotes did
+not support.
+
+**What would settle it:** a fourth instance from Jan–Mar 2016, and the
+corrections pass over Dec 1–31. If the fourth instance is also *inbound*
+interception, this is a real T2 and probably belongs under
+`wiki/mind/synthesis/` rather than on either person's page.
+
+A second cluster was considered and **REJECTED — family capital underwriting
+the switch**. Suz's cocaine-and-car offer (2015-11-30), Fran's cash
+(2015-12-17), Suz's two $50s (2015-12-16) and the *"$500 from my grandma"*
+admission (2015-12-02) are a real shape, but `wiki/mind/synthesis/estate-money-spine`
+and `wiki/mind/synthesis/supply-network` already exist to hold it, and a new
+page above them would be an umbrella whose thesis is that its members share a
+topic. Written back into both instead.

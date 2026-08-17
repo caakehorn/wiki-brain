@@ -4,6 +4,24 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-17] - Session: the 2015 Annie read spread to ten pages, and five of its own corrections failed the evidence gate
+
+* **Model:** Claude Code (remote) · **Branch:** `annie-synthesis-2015-11-12`
+* **Trigger:** Operator: *"can you run this skill instruction on the current annie-read progress. you can stop at dec 31 where it ends."*
+* **THE GATE IS THE DELIVERABLE.** Every claim was required to carry a verbatim quote pasted from `annie-record.md`. 26 candidate rows, **5 cut** — and four of the five had already been applied or queued as fact somewhere. Cut: *"turd boy" = Emilio* (the quote names no one; Emilio appears three days later; already written into `bond-switch-2015`); *"Suz gives Dan $200 of cocaine"* (Annie: *"that $200 wasn't even your own"*, Dan: *"It was my money"* — recorded as an open contradiction on her page instead); *the Dec 9 threat is Harshman's* (it is **Zach Clingan's**); *`zgurd` = whiskey* (unresolved, now a ledger term); *"Annie quit CT's voluntarily (Dec 9)"* (no quote anywhere; she bartends Dec 16 and works Dec 30-31).
+* **Biggest single gain: an origin fact nobody had.** Dan on Clingan, 2015-12-09 15:20 — *"THAT is who introduced me to drugs."* `zach-clingan` had him only as a fixed point in a 2014 moral taxonomy; he is the earliest point on the supply chain, and a person rather than a node.
+* **Ten pages now carry the read:** `bond-switch-2015` (mutual **and** brokered — cocaine and a car conditional on the eviction, 05:02 on 11-30), `suzanne-frank`, `supply-network` (mechanism named in real time 11-29 about the *departing* partner, ~3 years earlier than any tracked node), `annie-ulmer`, `ellen-ulmer` (Dec 2 crisis, 15 months before her own thread opens, relay attribution explicit), `zach-clingan`, `zachariah-harshman`, `casey-bondarenka` (one week in the friend group), `alexis-armel`, `2015-2016-annie-relationship-start` ("day two" → ~90 minutes after first physical contact).
+* **Dec 20-24 zero vs the Dec 23 Harshman rupture is a channel fact, not a contradiction** — that rupture is Facebook Messenger, the Annie corpus is iMessage. Recorded on both pages.
+* **`annie-record` and `annie-read-notes` had never passed `bin/wiki-lint`** — invented `page_type` (`chronology`, `reference`) and tags outside the closed set, since creation. Fixed. This is the mechanical proof that no earlier pass ran the gates.
+* **Gates:** wiki-lint **1 error** (`master-timeline.md` invalid tags — pre-existing, generated, fix belongs in `bin/wiki-timeline`), down from 6 · wiki-connect **0** · wiki-climb **0 errors, 15 staleness warnings, 11 newly created by this pass and deliberately not cleared.**
+* **RESUME POINT:**
+  1. **Clear the 11 new staleness warnings** — `attachment-trauma-bond`, `block-unblock-loop`, `dan-annie-fallout-verdict`, `dormancy-not-exit`, `estate-money-spine`, `the-unbroken-bond`, `totality-themes` all reason from pages this pass moved. Per `SYNTHESIS_SPEC.md` that means re-reading what changed and deciding whether each conclusion survives, recorded as `RE-CHECKED` blocks. **Never by bumping the date.** `the-unbroken-bond` is the one most likely to actually change: it reasons from `bond-switch-2015`, whose thesis just gained a second simultaneous exit.
+  2. **The corrections pass over Dec 1-31 is still not done.** The spread carried the December text's defects unchanged. Timestamp drift, unsupported headline quotes, and the undeclared Dec 18-28 gap are all still in `annie-record`.
+  3. **Cross-linking is only started.** `annie-record` went 13 → 25 `[[wiki/…]]` links, but the December entries are still nearly bare.
+  4. **`wiki/timeline/2015-annie-read-wiki-impact-analysis.md` is a work plan filed as a wiki page.** Given frontmatter so it stops failing lint; its home is `synthesis-queue.md`. Moving it is an operator call.
+  5. Continue the read at `bin/annie-corpus read 2016-01-01`.
+* **Handoff Note:** Cluster 27 (information control as intimacy) is registered in `synthesis-queue.md` and deliberately unclimbed; a fourth instance from Jan-Mar 2016 would settle it.
+
 ### [2026-08-17] - Session: the Dec 2015 Annie read was written into the portal's derived snapshot and deleted by a cron; restored to source
 
 * **Model:** Claude Code (remote) · **Branch:** `claude/annie-extraction-quality-6omukb`

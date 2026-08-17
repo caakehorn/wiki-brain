@@ -1,6 +1,6 @@
 ---
 domain: timeline
-page_type: reference
+page_type: note
 status: active
 knowledge: earned
 date_created: 2026-08-15
@@ -8,7 +8,7 @@ date_modified: 2026-08-17
 sources:
   - exports/annie-corpus.csv (built by bin/annie-corpus)
   - raw/people/captures/2026-08-15_annie-handle-confirmation-and-notes-directive.md
-tags: [timeline, annie, method, entity-ledger, open-leads]
+tags: [relationships, forensic-analysis, uniontown-era]
 connections:
   - page: wiki/timeline/annie-record
     type: component-of
@@ -69,7 +69,7 @@ candidate.
 | 2015-12-08 | **Dave** | from CT's; calls Dan looking for Alexis on Dec 8 | **no page — CT's employee** |
 | 2015-12-08 | **Chuck** | drug supplier; has $100 of cocaine for Annie on Dec 8 | **no page — supply node** |
 | 2015-12-08 | **Caribou** | Dan's friend; in the studio with Dan on Dec 8; starting a collective called "dat noise" | **no page — friend** |
-| 2015-12-08 | **Zach** (Zach Clingan) | texts Annie "I have to talk to you" on Dec 9; wants her back; tells her she looks like shit | **no page — ex, recurring problem** |
+| 2015-12-08 | **Zach Clingan** | texts Annie *"I have to talk to you"* on Dec 9 and warns her off Dan; **named by Dan the same day as the origin of his drug use** (*"THAT is who introduced me to drugs"*). Not to be confused with Zachariah Harshman. | → `wiki/people/zach-clingan` |
 | 2015-12-09 | **Nguyen's** | restaurant; Annie's dad eats there; they offer Annie a job starting Jan 1 | **no page — employer** |
 | 2015-12-09 | **Dar** | Annie's friend; does her hair on Dec 9; jealous of Annie's happiness | **no page — friend** |
 | 2015-12-10 | **Lucy** | Suz's cat; Dan is taking care of her while Suz is on vacation | **no page — pet** |
@@ -283,7 +283,7 @@ front of someone.
 |---|---|---|---|
 | Annie Ulmer | Pre-Dan nude leak from MyFreeCams | Dec 13, 11:11: Annie references "doing all the shit I did before" — this predates the MyFreeCams history and is a distinct earlier episode. The MyFreeCams history on her page may be a later development, not the first. | queued |
 | Annie Ulmer | Birthday not fixed | Dec 13 entries corroborate Nov 24 introduction and Nov 28 birthday — no contradiction. | n/a |
-| Bond Switch 2015 | Annie was unattached | Dec 13, 21:07: Emilio texts Annie on Dec 13 — she tells him off and says she has a boyfriend. This is consistent with the "Annie was leaving someone too" finding from Nov 29. The man (Emilio) is now named. | queued |
+| Bond Switch 2015 | Annie was unattached | Dec 13, 21:07: Emilio texts Annie on Dec 13 — she tells him off and says she has a boyfriend. Consistent with the "Annie was leaving someone too" finding from Nov 29. ~~The man (Emilio) is now named.~~ **RETRACTED [2026-08-17]: he is not.** Emilio first appears 2015-12-02; the Nov 29 partner is "turd boy" and is never named. Being an ex who resurfaces later is not evidence of being *that* ex. Open lead #1 stays open. | **applied 2026-08-17** (mutual-exit correction landed on `bond-switch-2015`, without the identification) |
 
 ## Quantitative markers (Dec 13-16)
 
@@ -311,6 +311,7 @@ front of someone.
 | Russ | Dec 31, 20:09 | Yells at Annie at CT's, says she won't make tips | no page |
 | Robyn | Dec 31, 22:10 | Waitress at CT's, Annie asked to wait on her | no page |
 | Marika | Dec 25, 18:16 | Sugie's daughter, talks about Fran | no page |
+| **`zgurd`** (term, not entity) | Dec 25 onward | **Meaning unresolved — do not gloss.** Bought from Suz in quantity (*"She only had 300 total so I got like 120"*, Dec 31), and the *"stay away from coca"* plan is organised around avoiding it, which reads as cocaine. But the Dec 25 entry glosses it *"(whiskey)"* on Fran's nosebleed. The two uses are incompatible and the corpus has not been read closely enough to settle it. Any page citing a `zgurd` event must say which reading it assumes. | term |
 | Will (brother) | Dec 17, 17:24 | Annie's brother, coming home for Christmas | no page |
 
 ## New open leads
@@ -349,9 +350,10 @@ front of someone.
 |---|---|---|---|
 | Annie Ulmer | Pre-Dan nude leak from MyFreeCams | Dec 29, 17:43: Annie references a needle/ice incident at "j's" — this predates the MyFreeCams history and is a distinct earlier episode. The MyFreeCams history on her page may be a later development, not the first. | queued |
 | Bond Switch 2015 | Annie was unattached | Dec 29, 17:43: Annie references "one of the last times I was over at j's" — she had her own life/partners. Consistent with the "Annie was leaving someone too" finding from Nov 29. | queued |
-| Suzanne Frank | Supportive maternal figure | Dec 29, 19:08: Suz gives Dan $200 worth of cocaine. Dec 31, 17:22: Suz gives Dan $120 worth of cocaine. She is the primary supply source. | queued |
-| Supply Network | Supply as a binding mechanism, documented late | Dec 29, 19:08: Dan spends $200 on cocaine in one day. Dec 30, 17:34: Dan gets weed from Luke. Dec 31, 17:44: Dan gets $120 from Suz. The network is documented from the start. | queued |
-| Zachariah Harshman | Cover story for the first night | Dec 30, 19:30: Luke calls Zach to arrange for more cocaine. Zach is still in the supply network post-breakup. | queued |
+| Suzanne Frank | Supportive maternal figure | ~~Dec 29, 19:08: Suz gives Dan $200 worth of cocaine.~~ **RETRACTED [2026-08-17]: the record contradicts this** — Annie says *"that $200 wasn't even your own"* (23:48) and Dan answers *"It was my money"* (23:50). The two lines conflict and the corpus does not settle them; recorded on her page as an open contradiction, not as a supply event. The Dec 31 ~$120 (*"She only had 300 total so I got like 120"*) **is** hers and stands. | **applied 2026-08-17** (Nov 29–30 brokering + Dec 31 supply; $200 flagged as contradiction) |
+| Supply Network | Supply as a binding mechanism, documented late | Dan names the mechanism in real time on **2015-11-29 14:54** — *"she doesn't have another drug source"* — about the **departing** partner, roughly three years earlier than any node the page tracked. Suz enters as an earlier node than any in the succession table. | **applied 2026-08-17** |
+| Zachariah Harshman | Cover story for the first night | Dec 30, 19:30: *"he already called Zach to arrange for more"* — **the referent is not established.** "He" is ambiguous and the record does not say which Zach. Harshman's documented role in this window is cover story (Nov 29) and laptop negotiation (Nov 30). | **applied 2026-08-17** as the cover-story expansion only; the supply inference is **not** applied |
+| Zach Clingan | (no 2015 record) | **Dec 9, 15:17–15:39 belongs to Zach Clingan, not Zachariah Harshman** — *"Zach clingan just texted me"*. Dan names him as the origin of his drug use: *"THAT is who introduced me to drugs"* (15:20). Clingan's warning to Annie is the first documented use of the switch against her by a third party. | **applied 2026-08-17** |
 
 ## Quantitative markers (Dec 17-31)
 
@@ -367,3 +369,50 @@ front of someone.
 | Dec 31 | 337 | ~170 | ~167 | NYE at CT's |
 | **Total** | **1,713** | **~868** | **~845** | |
 
+
+---
+
+## Synthesis pass — 2026-08-17 (window 2015-11-28 → 2015-12-31)
+
+First run of the spread step on this read. Every claim below was gated on a
+verbatim quote pasted from [[wiki/timeline/annie-record]]; the working evidence
+table carried 26 rows and **five were cut**, listed under "Not applied."
+
+**Applied — 10 pages carry the read now.**
+
+| Page | What landed |
+|---|---|
+| [[wiki/mind/synthesis/bond-switch-2015]] | `CORRECTED` block: the switch was **mutual** — Annie ending her own relationship in the same 72 hours. New section: the switch was **brokered and paid for** (Suz's cocaine + car conditional on the eviction), the eviction run as reversible pressure steps, and Alexis physically in the house on 11-28. Plus the Dec 23 channel reconciliation. |
+| [[wiki/people/suzanne-frank]] | New section "Brokering the switch"; the $200 held open as a flagged contradiction. |
+| [[wiki/mind/synthesis/supply-network]] | New section: the mechanism named in real time on 2015-11-29, about the **departing** partner — earliest instance by ~3 years. |
+| [[wiki/people/annie-ulmer]] | Mutual-switch finding; the Dec 2 crisis from her side. |
+| [[wiki/people/ellen-ulmer]] | New section covering Dec 2 2015, fifteen months before her own thread opens, with relay attribution made explicit. |
+| [[wiki/people/zach-clingan]] | New section: *"THAT is who introduced me to drugs"* — an origin fact the page did not have. |
+| [[wiki/people/zachariah-harshman]] | Annie-side role before the rupture; `ATTRIBUTION` block de-crediting the Dec 9 texts. |
+| [[wiki/people/casey-bondarenka]] | `CORRECTED`: ~1 week in the friend group, not a longstanding friend; retrofitted to `connections:`. |
+| [[wiki/people/alexis-armel]] | Timeline rows corrected and extended. |
+| [[wiki/timeline/periods/2015-2016-annie-relationship-start]] | "day two" corrected to ~90 minutes; Dec 2 crisis expanded. |
+
+**Not applied — cut at the evidence gate.**
+
+1. **"turd boy" = Emilio.** The quote names no one. Open lead #1 stands.
+2. **"Suz gives Dan $200 worth of cocaine."** Dan says *"It was my money."*
+   Recorded as a contradiction instead.
+3. **Dec 9 texts as Zachariah Harshman's.** They are Zach Clingan's.
+4. **`zgurd` = whiskey.** Unresolved; now in the ledger as a term.
+5. **"Annie quit CT's voluntarily (Dec 9)."** No supporting quote anywhere, and
+   she is bartending on Dec 16 and working Dec 30–31.
+
+**No climb was written**, deliberately. The strongest candidate — that the
+first month contains a dated rehearsal of mechanisms the wiki documents a
+decade later — is close to the umbrella anti-pattern in `SYNTHESIS_SPEC.md`,
+and the two patterns with real support (family capital underwriting the switch;
+Dan managing Annie's information about Alexis) both belong to existing
+synthesis pages rather than to a new one. Queued with reasoning in
+`synthesis-queue.md`.
+
+**Next on this page.** [[wiki/timeline/annie-record]] still carries **zero
+`[[wiki/…]]` links across its December entries** against 13 in the Nov 28–30
+block. Cross-linking Dec 1–31 is mechanical, high-value and not done — the page
+is described in its own frontmatter as the evidentiary floor, and an entry with
+no outbound link cannot be reached from the pages it supports.
