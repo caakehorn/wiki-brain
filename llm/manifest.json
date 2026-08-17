@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 461,
+ "page_count": 462,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1326,7 +1326,7 @@
    "title": "The 2015 Single-Bond Switch",
    "summary": "This event is one instance of a longer pattern; see",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/bond-switch-2015.txt",
-   "bytes": 22986
+   "bytes": 25293
   },
   {
    "page": "wiki/mind/synthesis/dan-annie-fallout-verdict.md",
@@ -1522,7 +1522,7 @@
    "title": "Annie (Anne Louise Ulmer)",
    "summary": "Annie Ulmer was Dan's partner for ten years and seven months \u2014 November 28, 2015 to June 1, 2026 \u2014 and is the only relationship in his documented history to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 116080
+   "bytes": 116407
   },
   {
    "page": "wiki/people/annoying.md",
@@ -1669,7 +1669,7 @@
    "title": "Claire Ulmer",
    "summary": "Claire is [[wiki/people/annie-ulmer|Annie Ulmer]]'s sister \u2014 the reason",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/claire-ulmer.txt",
-   "bytes": 1778
+   "bytes": 2085
   },
   {
    "page": "wiki/people/clyde.md",
@@ -1796,6 +1796,13 @@
    "summary": "Emaly Minerd was a relationship that ran in three separate bursts across more than two years \u2014 a five-month intensive chapter in late 2018 / early 2019 (613 ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/emaly-minerd.txt",
    "bytes": 23882
+  },
+  {
+   "page": "wiki/people/emilio.md",
+   "title": "Emilio",
+   "summary": "Emilio was [[wiki/people/annie-ulmer|Annie]]'s partner at the moment",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/emilio.txt",
+   "bytes": 5658
   },
   {
    "page": "wiki/people/eric-jester.md",
@@ -2887,14 +2894,14 @@
    "title": "The Annie Read \u2014 working notes",
    "summary": "Companion to [[wiki/timeline/annie-record]]. Same read, second output.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/annie-read-notes.txt",
-   "bytes": 31308
+   "bytes": 32967
   },
   {
    "page": "wiki/timeline/annie-record.md",
    "title": "The Annie Record \u2014 a read chronology",
    "summary": "Every event here was found by **reading the messages**, in order, in small windows. Nothing on this page was pattern-matched or extracted by a script. That i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/annie-record.txt",
-   "bytes": 76311
+   "bytes": 76781
   },
   {
    "page": "wiki/timeline/events/annie-alexis-reunion-november-2018.md",

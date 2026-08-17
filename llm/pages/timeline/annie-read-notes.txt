@@ -45,7 +45,7 @@ candidate.
 | 2015-11-28 | **Annie Ulmer** | birthday **Nov 28**; Twitter `@Lo_weez`; a pre-Dan nude leak forced the handle change | → `wiki/people/annie-ulmer` |
 | 2015-11-28 | **Alexis Armel** | living at 155 Virginia; volatile (phone-breaking feared); leaves ~Dec 1 with her parents collecting her | → `wiki/people/alexis-armel` |
 | 2015-11-28 | **Gabe** (cat) | in the household; Annie claims him immediately (*"gabes my babe"*) | → `wiki/people/gabe` |
-| 2015-11-29 | **"turd boy" / "dude"** | **Annie's own partner at the time**, present with her family on Nov 29; she says she will *"get rid of him"* | **no page — unnamed, high priority** |
+| 2015-11-29 | **"turd boy" / "dude" = Emilio** | **Annie's own partner at the time**, present with her family on Nov 29; she says she will *"get rid of him"*. **Identified by the operator, 2026-08-17** — the corpus never names him in this window, so the identification is T0 testimony, not a corpus derivation. Same man as the Dec 2 and Dec 13 Emilio. | → `wiki/people/emilio` |
 | 2015-11-29 | **Zachariah Harshman** | physically present through the first night; the cover story for leaving the house; later negotiates the laptop question with Alexis | → `wiki/people/zachariah-harshman` |
 | 2015-11-29 | **Shu** | rearranged Dan's living room *"more dab friendly"*; leaves for Philadelphia Nov 29 | **no page — recurring, likely supply** |
 | 2015-11-29 | **Ellen Ulmer** | throws Annie's family birthday dinner, Nov 29 | → `wiki/people/ellen-ulmer` |
@@ -61,7 +61,7 @@ candidate.
 | 2015-12-01 | **Bruce** | Annie's employer (bar); called to ask about the schedule; connected to Annie's dad ("besties from high school") | **no page — employer** |
 | 2015-12-01 | **Rick Frank** | Dan's father; Annie reports that he *"already wikes me"*; Dan is nervous to call him | → `wiki/people/rick-frank` |
 | 2015-12-02 | **Claire Ulmer** | Annie's sister; jumps on Annie when Ellen finds out about Dan; involved in the confrontation | → `wiki/people/claire-ulmer` |
-| 2015-12-02 | **Emilio** | Annie's ex-boyfriend; texts Claire about Annie when he finds out about Dan; causes the Dec 2 confrontation | **no page — ex, recurring problem** |
+| 2015-12-02 | **Emilio** | *(same person as the 2015-11-29 "turd boy" row above — merged 2026-08-17 on the operator's identification)* Annie's partner until ~Nov 29; texts Claire about Annie when he finds out about Dan, pulling Claire into the Dec 2 confrontation; still contacting Annie on Dec 13. | → `wiki/people/emilio` |
 | 2015-12-03 | **RT** | messages Dan about Alexis working at the bar; source of information about Alexis's schedule | **no page** |
 | 2015-12-03 | **Scott** | hits on Alexis at the bar the same night; friend of the family | **no page** |
 | 2015-12-03 | **Sean** | "the hallway bully" from Alexis's past; referenced in story told at the bar | **no page** |
@@ -81,11 +81,15 @@ candidate.
 Chaseable questions this read raised. Each is a specific thing to look for, not
 a topic.
 
-1. **Who is "turd boy"?** Annie's partner as of 2015-11-29. He is with her
-   family that night and she ends it within days. **He is the missing half of
-   the single-bond switch** — every existing account treats Annie as
-   unattached. Look: early-December windows for a name, and Annie's own
-   outbound traffic around Dec 1–9.
+1. ~~**Who is "turd boy"?**~~ **CLOSED [2026-08-17] — he is Emilio**, per the
+   operator. The corpus never names him in the Nov 29 window, so this is
+   answered by testimony rather than by the record; anything built on it should
+   say so. Closing it collapses three separate incidents into one arc — see
+   motif M6, which is now the strongest pattern in the window. **Still open
+   underneath it:** Emilio's surname, his own channel (nothing of his traffic is
+   in any export), and whether he is the unnamed person who told Ellen about
+   the car on Dec 2 — he is *not* currently that person, and Casey is the one
+   both parties blame.
 2. **The "Casey saga," Nov 30, 23:00** — *"the worst part of the Casey saga /
    It is bombastic"* — moves to a phone call and is never restated in text.
    Look: Dec 1–3 for a retelling, and Casey's own channel.
@@ -155,11 +159,18 @@ instead of re-reading.
   removed from the guest bedroom *"so she knows I could actually call the
   cops"* (11-30 00:35); parents summoned (11-30 13:42). The eviction is run as
   a sequence of reversible pressure steps, not a confrontation.
-- **M6 — the ex as a recurring destabilizer.** Emilio texts Claire on Dec 2
-  the moment he finds out about Dan, triggering the parental confrontation.
-  The pattern recurs: the ex-partner's re-entry is treated as a structural
-  threat rather than a personal one. Relevant to `block-unblock-loop`'s
-  pre-history.
+- **M6 — the displaced partner retaliates through the family, inside 72 hours.**
+  **Strengthened 2026-08-17** once the operator identified "turd boy" as Emilio:
+  the man Annie says she will *"get rid of him just like you just did"* (11-29
+  02:52) is the same man who *"texted her about me"* — her sister — on 12-02
+  18:45, pulling [[wiki/people/claire-ulmer|Claire]] into the confrontation that
+  nearly ends the relationship; and the same man still contacting her on 12-13
+  after *"throwing shit at me the other night"*, closing with *"Honestly I just
+  miss having fun with you!"* Three incidents previously filed separately are
+  one sequence: **displacement on Nov 29, retaliation through her family within
+  three days, and persistence for at least a fortnight.** The ex's re-entry is
+  treated as a structural threat rather than a personal one — the pre-history
+  `block-unblock-loop` reasons about, now dated to the switch itself.
 - **M7 — Dan's reputation as a named obstacle.** Annie's parents: *"he has a
   bad past do you know what he's done to his family"* (Dec 2, 18:47). Dan: *"I
   took $500 from my grandma one time and got caught / But that's the worst thing
@@ -395,7 +406,12 @@ table carried 26 rows and **five were cut**, listed under "Not applied."
 
 **Not applied — cut at the evidence gate.**
 
-1. **"turd boy" = Emilio.** The quote names no one. Open lead #1 stands.
+1. ~~**"turd boy" = Emilio.**~~ **REVERSED [2026-08-17]:** cut at the gate
+   because the quote names no one — correctly, on the corpus alone — and then
+   **supplied by the operator**, which outranks a corpus silence. Applied, with
+   the provenance recorded everywhere it lands. The gate did its job: it stopped
+   an *inference* from being written as a derivation, and the claim arrived by
+   the route that can actually carry it.
 2. **"Suz gives Dan $200 worth of cocaine."** Dan says *"It was my money."*
    Recorded as a contradiction instead.
 3. **Dec 9 texts as Zachariah Harshman's.** They are Zach Clingan's.

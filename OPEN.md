@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 32 |
-| Open gaps | 271 |
+| Open gaps | 276 |
 | Answered, awaiting ingest | 5 |
 | Standing predictions | 13 |
 
@@ -137,7 +137,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — The 127/110 pair remains [DERIVED] from the dossier passes; a primary recount from the raw dumps is queued on dan-annie-fallout-verdict.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — The corrected rule has not been re-tested against the long tail. Every row in the table was scored on material dependency alone, so any case with a co-held object — a pet, a lease, a child, a shared account — may have been scored wrong in the same direction th
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — Blocking events with minor contacts (the long tail) have not been systematically mined; the loop's frequency outside intense bonds is unmeasured.
-- **[[wiki/mind/synthesis/bond-switch-2015]]** — **Who Annie's own partner was.** Unnamed in the 2015-11-29 window ("turd boy"); he is the missing half of the switch and every account before 2026-08-17 assumed he did not exist. Open lead #1.
+- **[[wiki/mind/synthesis/bond-switch-2015]]** — **Emilio's surname, and his own channel.** The partner Annie left is named by the operator but appears in no export of his own; everything known about him is relayed through Annie. Whether he is also the unnamed person who told Ellen about the car on Dec 2 is 
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — Whether the Alexis→Annie transfer at 155 Virginia was a clean same-month swap or had a brief overlap is not dated to the day in the on-disk record; the calendar gives Nov 28 (Alexis end) and Nov 29 (Annie start), one day apart.
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — Lease holder and physical layout of 155 Virginia across the transition are undocumented (see 155-virginia-ave).
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — The 768/day termination figure's source export is not on disk; the closure-day volume is therefore a known provenance gap, not a settled number.
@@ -193,7 +193,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (101)
+### people (106)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -219,6 +219,11 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/emaly-minerd]]** — Whether the September 21, 2020 Facebook thread ever got a reply from Dan is undocumented in the captured export (the "selling some bars" line to Annie is the only same-day trace on his side).
 - **[[wiki/people/emaly-minerd]]** — No contact after September 2020 appears in the corpus.
 - **[[wiki/people/emaly-minerd]]** — The August 2019 "noods" and the blocked contact are known only from Dan's side (his message to a third party and the un-answered Cash App requests); Emaly's own words from that revival are not in the captured record.
+- **[[wiki/people/emilio]]** — **Surname.** Unknown. He is "Emilio" in every reference.
+- **[[wiki/people/emilio]]** — **His own channel.** Nothing of his traffic is in any export. Every line here is Annie quoting or describing him.
+- **[[wiki/people/emilio]]** — **Whether he told Ellen about the car.** He is **not** currently that person — the informant on *"someone told me your car was at Dan Frank's this morning"* is never named, and both Dan and Annie blame Casey. His documented vector is Claire. Do not collapse th
+- **[[wiki/people/emilio]]** — **When and how it actually ended between him and Annie**, and whether the December 13 contact was the last.
+- **[[wiki/people/emilio]]** — **Becca** (2015-12-29) — described as the ex's new girlfriend; not firmly attached to Emilio.
 - **[[wiki/people/fran-coldren]]** — The nursing home is still unnamed. The NS7 II gift is undated — the corpus confirms the machine in use by April 2017 but never records its arrival, and the gift-protocol figures come from operator memory alone. Thomas Whyel's exact death date within the 1970s 
 - **[[wiki/people/fred-adams]]** — Adams sends and receives nothing in the message corpus; every fact here comes from Dan's narration or from the estate attorney's calls, and the estate attorney reached in August 2020 (`+17245706170`) is not established to be Adams or his office. His full name,
 - **[[wiki/people/jacob-bacharach]]** — Whether the two men remained in contact after February 11, 2021 is undocumented; Dan says "we keep in touch," and the corpus preserves exactly one exchange. Whether the HTML artifact was ever sent, and whether Bacharach ever learned that the house was in the f

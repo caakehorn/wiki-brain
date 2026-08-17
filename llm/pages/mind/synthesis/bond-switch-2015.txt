@@ -13,6 +13,9 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [relationships, attachment, infidelity, trauma-bond, uniontown-era]
 connections:
+  - page: wiki/people/emilio
+    type: evidenced-by
+    claim: "The partner displaced on Annie's side, whose message to her sister three days later triggered the December 2 confrontation — the symmetric cost the singular-slot thesis predicts but had no instance of until 2026-08-17."
   - page: wiki/timeline/annie-record
     type: evidenced-by
     claim: "The hand-read of the two-sided corpus establishes that Annie was ending her own relationship in the same seventy-two hours (\"I am going to get rid of him just like you just did\", 2015-11-29 02:52), and that Suz supplied cocaine and offered a car conditional on the eviction — the switch was mutual, and it was brokered and paid for by the family."
@@ -76,9 +79,11 @@ The switch is a direct behavioral expression of the sx/sp instinctual stack docu
 > just like you just did"** (02:52). The switch was **mutual and simultaneous**,
 > which the thesis above does not merely survive but is sharpened by: the
 > singular slot was vacated and reoccupied on *both* sides inside the same
-> seventy-two hours. **The man is unnamed in this window** and identifying him
-> is open lead #1 on [[wiki/timeline/annie-read-notes]] — he is not established
-> to be Emilio, who first appears on 2015-12-02.
+> seventy-two hours. **The man is unnamed in the corpus and is identified by
+> the operator (2026-08-17) as Emilio** — testimony rather than a corpus
+> derivation, and load-bearing enough that anything built on it should say so.
+> That identification is what turns the December 2 crisis from bad luck into
+> retaliation: see below.
 
 ## The switch was brokered, and paid for
 
@@ -271,9 +276,39 @@ evidence that the switch's social fallout was transacted in a channel the
 message corpus does not cover, which is itself worth knowing before any
 claim is built on Annie-corpus silence in that window.
 
+## The displaced partner retaliates, within three days
+
+The switch has a fourth party on Annie's side, and once he is named the
+December 2 crisis stops looking like exposure by accident. Annie says she will
+*"get rid of him just like you just did"* on 2015-11-29 at 02:52. Seventy-two
+hours later her sister [[wiki/people/claire-ulmer|Claire]] turns on her inside
+the family confrontation, and Annie says why in the moment: *"because fucking
+Emilio texted her about me"* (12-02 18:45).
+
+The displaced partner did not contact Annie. He contacted her **family**, and
+the family's objection then ran on
+[[wiki/people/ellen-ulmer|Ellen's]] own material — Dan's reputation, *"he has a
+bad past do you know what he's done to his family"* — which is why the crisis
+reads as parental rather than romantic and why no account of it before
+2026-08-17 had an agent. He persists: on 2015-12-13 Annie is *"gonna go off on
+him about throwing shit at me the other night"*, and his own message that night
+is *"Honestly I just miss having fun with you!"*
+
+This is the symmetry the thesis was missing. Both partners were displaced in the
+same seventy-two hours, and **both displacements produced fallout that
+detonated a relationship in the following month** — Emilio through Annie's
+family on December 2, and [[wiki/people/zachariah-harshman|Zach Harshman]]
+through Dan's friendship on December 23. The singular-slot mechanism this page
+documents has a cost, and it is paid by the people vacated, who then act.
+
+**Caveat kept deliberately:** the person who told Ellen that Annie's car was at
+Dan's house that morning is **never named**, and both Dan and Annie blame
+[[wiki/people/casey-bondarenka|Casey]]. Emilio's documented vector is Claire,
+not Ellen. Do not collapse the two.
+
 ## Gaps
 
-- **Who Annie's own partner was.** Unnamed in the 2015-11-29 window ("turd boy"); he is the missing half of the switch and every account before 2026-08-17 assumed he did not exist. Open lead #1.
+- **Emilio's surname, and his own channel.** The partner Annie left is named by the operator but appears in no export of his own; everything known about him is relayed through Annie. Whether he is also the unnamed person who told Ellen about the car on Dec 2 is **not** established — Casey is the one both parties blame.
 - Whether the Alexis→Annie transfer at 155 Virginia was a clean same-month swap or had a brief overlap is not dated to the day in the on-disk record; the calendar gives Nov 28 (Alexis end) and Nov 29 (Annie start), one day apart.
 - Lease holder and physical layout of 155 Virginia across the transition are undocumented (see [[wiki/places/155-virginia-ave]]).
 - The 768/day termination figure's source export is not on disk; the closure-day volume is therefore a known provenance gap, not a settled number.

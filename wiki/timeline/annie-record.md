@@ -14,6 +14,9 @@ sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
 tags: [relationships, forensic-analysis, uniontown-era]
 connections:
+  - page: wiki/people/emilio
+    type: evidences
+    claim: "Everything known about Emilio is relayed through Annie in this record — the November window calls him only \"dude\" and \"turd boy\", and he has no channel of his own in any export."
   - page: wiki/people/annie-ulmer
     type: evidences
     claim: "The day-by-day event record of the relationship, read directly out of the 97,768-message two-sided corpus rather than inferred from dossiers — this is the evidentiary floor the Annie page's claims are supposed to rest on."
@@ -183,7 +186,10 @@ going to get rid of him just like you just did"** (02:50–02:52). **The switch
 was mutual and simultaneous.** Every prior account of this week — including
 [[wiki/mind/synthesis/bond-switch-2015]]'s twenty-four-hour analysis and its
 2026-08-02 correction about whose exit it was — treats Annie as unattached.
-She was not. The man is unnamed in this window.
+She was not. The man is unnamed in this window; the operator identifies him as
+[[wiki/people/emilio|Emilio]] (2026-08-17), which is testimony rather than
+something this record establishes — the same man who texts Claire on Dec 2 and
+is still contacting Annie on Dec 13.
 
 **2015-11-29 — Alexis is in the house all day, and the eviction is stalling.**
 *"She's upstairs I didn't go up after I got back"* (03:33); *"She's still...

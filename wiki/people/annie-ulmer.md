@@ -116,6 +116,9 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/people/emilio
+    type: follows
+    claim: "Annie was still with Emilio on the night she met Dan and ended it within days — which makes her side of the November 2015 switch an exit she performed, not a vacancy she happened to have, and makes the December 2 family crisis his retaliation rather than bad luck."
   - page: wiki/timeline/annie-record
     type: evidenced-by
     claim: "The two-sided read establishes that Annie was ending her own relationship in the same seventy-two hours (\"I am going to get rid of him just like you just did\", 2015-11-29), and recovers the December 2 family confrontation from her side, including \"I'd rather lose all of them then to not be with you\"."

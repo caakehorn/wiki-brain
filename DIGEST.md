@@ -13,18 +13,18 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 461 |
-| Pages touched in the last 14 days | 99 |
+| Pages | 462 |
+| Pages touched in the last 14 days | 101 |
 | Pages reasoning from other pages (`synthesizes:`) | 27 |
 | Live contradictions | 32 |
-| Open gaps | 271 |
+| Open gaps | 276 |
 | Standing predictions | 13 |
 
 ## By domain
 
 | Domain | Pages |
 |---|---|
-| people | 161 |
+| people | 162 |
 | interests | 143 |
 | mind | 59 |
 | timeline | 36 |
@@ -42,11 +42,11 @@ this is the state of the thing.
 | active | 135 |
 | closed | 99 |
 | archived | 31 |
-| stub | 12 |
+| stub | 13 |
 
 ## The last few days
 
-**2026-08-17** — 13 pages
+**2026-08-17** — 15 pages
   - restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
   - climb | timeline, people, mind | the 2015 Annie read spread to ten pages, and five of its own corrections did not survive the evidence gate
 
