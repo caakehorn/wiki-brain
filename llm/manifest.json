@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16",
+ "generated": "2026-08-17",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
@@ -1319,7 +1319,7 @@
    "title": "The Block/Unblock Loop",
    "summary": "Across the corpus, Dan's severances follow one script: **the exit is declared, not executed.** A block, an \"I'm done,\" an account abandonment \u2014 a bounded bur...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/block-unblock-loop.txt",
-   "bytes": 34379
+   "bytes": 35343
   },
   {
    "page": "wiki/mind/synthesis/bond-switch-2015.md",
@@ -1921,7 +1921,7 @@
    "title": "Jason Bermejo",
    "summary": "Jason Bermejo is one of the two people alive whose musical taste Dan genuinely defers to (the other is a stranger: Anthony Fantano) \u2014 the Full Sail\u2013era frien...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jason-bermejo.txt",
-   "bytes": 12018
+   "bytes": 12114
   },
   {
    "page": "wiki/people/jason-cole.md",
@@ -2096,7 +2096,7 @@
    "title": "Kristin Prentiss",
    "summary": "Kristin Prentiss is the only other person Dan had a relationship with during the Annie decade, and it lasted ten weeks. It ran from the end of August 2025 to...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/kristin.txt",
-   "bytes": 26227
+   "bytes": 27647
   },
   {
    "page": "wiki/people/kya-hansen.md",
@@ -2880,14 +2880,14 @@
    "title": "The Annie Read \u2014 working notes",
    "summary": "Companion to [[wiki/timeline/annie-record]]. Same read, second output.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/annie-read-notes.txt",
-   "bytes": 10178
+   "bytes": 26031
   },
   {
    "page": "wiki/timeline/annie-record.md",
    "title": "The Annie Record \u2014 a read chronology",
    "summary": "Every event here was found by **reading the messages**, in order, in small windows. Nothing on this page was pattern-matched or extracted by a script. That i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/annie-record.txt",
-   "bytes": 19276
+   "bytes": 75920
   },
   {
    "page": "wiki/timeline/events/annie-alexis-reunion-november-2018.md",
@@ -2964,7 +2964,7 @@
    "title": "The Re-entanglement, July 26 \u2013 August 2 2026",
    "summary": "In the eight days after the goodbye that closed",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/july-august-2026-reentanglement.txt",
-   "bytes": 25867
+   "bytes": 27224
   },
   {
    "page": "wiki/timeline/events/march-2026-terminal-phase.md",
@@ -2978,7 +2978,7 @@
    "title": "Robotussin's Last Dance",
    "summary": "June 15, 2005 \u2014 the summer after eleventh grade, age 17, with a license, a car, a father whose marriage was collapsing and a mother whose affair had already ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/robotussin-s-last-dance.txt",
-   "bytes": 8663
+   "bytes": 9700
   },
   {
    "page": "wiki/timeline/events/shelbie-annie-threesome-april-2019.md",

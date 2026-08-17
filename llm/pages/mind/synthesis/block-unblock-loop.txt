@@ -5,6 +5,7 @@ status: active
 knowledge: earned
 date_created: 2026-07-18
 date_modified: 2026-08-16
+pending_ingest: 2026-08-16
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - "raw/self/message-csv/THE END FIGHT.csv"
@@ -505,9 +506,6 @@ Menore control, or any prediction this page tracks.
 - The 127/110 pair remains [DERIVED] from the dossier passes; a
   primary recount from the raw dumps is queued on
   [[wiki/mind/synthesis/dan-annie-fallout-verdict]].
-- Whether the Tom channel reopened after May 30, 2026 is undocumented
-  — the record simply ends; the rule's prediction for it is on the
-  record above and is falsifiable by the next data drop.
 - The corrected rule has not been re-tested against the long tail. Every
   row in the table was scored on material dependency alone, so any case
   with a co-held object — a pet, a lease, a child, a shared account —
@@ -525,3 +523,26 @@ Menore control, or any prediction this page tracks.
 > block's actual finding — that the twenty-four-hour switch was Dan's, not
 > Annie's — is untouched and is what this page cites. No block/unblock count,
 > date or declared-exit tally moves.
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-16] — Whether the Tom channel reopened after May 30, 2026 is undocumented — t…
+
+**The gap, as this page stated it:**
+
+> - Whether the Tom channel reopened after May 30, 2026 is undocumented
+>   — the record simply ends; the rule's prediction for it is on the
+>   record above and is falsifiable by the next data drop.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md`.
+
+No I have not been in contact with tom

@@ -30,8 +30,8 @@ A custom wiki system that aims to be as exhaustive and detailed as possible abou
 ## Architecture — plain files, one direction of flow
 
 ```
-inbox/  →  raw/  →  wiki/          exports/ (generated, disposable)
-typed &     immutable   compiled
+inbox/  →  raw/  →  wiki/  →  caakehorn/home public/wiki/   exports/ (generated,
+typed &     immutable   compiled    derived snapshot, never edited            disposable)
 uploaded    source      knowledge
 ```
 
@@ -39,6 +39,7 @@ uploaded    source      knowledge
 - **`raw/`** — immutable source archive, organized `raw/<domain>/<collection>/`. Never modify or delete anything here except when filing from `inbox/`. **`raw/self/context-core/CONTEXT_CORE_EXPANDED.md` is the primary authoritative source for facts about Dan** — curated, internally cross-checked, explicit about its own gaps. Check it first on any self/mind/timeline topic; treat other sources as supplementary or corrective to it unless they carry a specific dated correction it lacks. Source tiers and per-source traps: `EXTRACTION_SPEC.md`.
 - **`wiki/`** — the compiled product: accumulated understanding, not a cache of `raw/`. Domains: `self`, `timeline`, `people`, `mind`, `work`, `interests`, `health`, `places`, `legal`. Add a domain only when several pages clearly don't fit an existing one. `wiki/**/archive/` holds pinned oversized artifacts (`status: archived`) — exempt from budgets, never updated.
 - **`exports/`** — output of `bin/export-corpus`; never hand-edit, gitignored.
+- **The portal** — [`caakehorn/home`](https://github.com/caakehorn/home) renders this wiki, and its `public/wiki/**` is a **derived snapshot of `wiki/`, not a second copy of it.** A workflow there re-runs the derivation against this repo on dispatch *and hourly*, deleting the directory and rebuilding it, so **anything written into `public/wiki/` is destroyed within the hour** — including a change that merged. If a session finds itself editing a page as JSON, it is in the wrong repository: pages are `wiki/**.md`, here. This is not a style preference; two December 2015 read passes were written into the snapshot and one was reverted 39 minutes after merging (restored 2026-08-17).
 - **Meta files** (root): `index.md` master navigation · `log.md` append-only operation log · `queue.md` pending-ingest ledger · `connection-queue.md` mined edge backlog · `synthesis-queue.md` mined climb backlog · `BACKLOG.md` standing work.
 
 Git is the history mechanism. Commit after every ingest with `<op>: <short description>`. Never commit secrets or `exports/`.
