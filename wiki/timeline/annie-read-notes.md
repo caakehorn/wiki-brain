@@ -128,6 +128,16 @@ a topic.
     for her). The Christmas present is never described; its identity is a gap.
 12. **What happens on Dec 12?** The Dec 12 window ends with Annie coming over
     and the promise of "the BEST night"; the rest of the day is unread.
+13. **Who is "bimel"?** (Jan 21, ~00:27 — Annie tells Dan that "bimel" is
+    bringing her drugs "more addictive than the ones we're already dealing with."
+    Dan asks if it's someone in Annie's family. Not in any contact list.
+14. **Who is "j"?** (Dec 29, 17:43; Jan 4, 18:22 — The needle/ice incident.
+    Annie says "j" got her started on drugs and "the one who had to do brown."
+    Not in any contact list.
+15. **Who is Lukyan?** (Dec 30, 01:29 — Drops off "greens" for the "stay away
+    from coca" plan. Not in any contact list.
+16. **Who is Gina?** (Jan 1, 17:30 — Sends Annie a friend request. Annie is
+    annoyed.
 
 ## 3. Motif tracker
 
@@ -379,6 +389,36 @@ front of someone.
 | Dec 30 | 577 | ~290 | ~287 | NYE prep, ceiling leak, cooking |
 | Dec 31 | 337 | ~170 | ~167 | NYE at CT's |
 | **Total** | **1,713** | **~868** | **~845** | |
+
+## Quantitative markers (Jan 1-24, 2016)
+
+| Day | Messages | Sent | Received | Notable |
+|---|---|---|---|---|
+| Jan 1 | 332 | ~170 | ~162 | New Year's morning, trust deficit, vaginal tears, $100 purchase |
+| Jan 2 | 189 | ~95 | ~94 | Annie pricked herself, "throw away my last needles" |
+| Jan 3 | 320 | ~160 | ~160 | "typical of my entire life," marriage talk, Sunoco run |
+| Jan 4 | 460 | ~230 | ~230 | Drug use confrontation, "I've never trusted anyone before" |
+| Jan 5 | 272 | ~140 | ~132 | Annie tried to shoot up, quits CT's |
+| Jan 6 | 215 | ~110 | ~105 | Dan still sick, Apple TV, Valentine's Day plan |
+| Jan 7 | 373 | ~190 | ~183 | Dan slept 18 hours, work fight |
+| Jan 8 | 206 | ~105 | ~101 | Work fight continues, reconciliation |
+| Jan 9 | 280 | ~140 | ~140 | Period done, sex again, JPaul's |
+| Jan 10 | 220 | ~110 | ~110 | Annie at CT's, Golden Globes |
+| Jan 11 | 406 | ~200 | ~206 | Annie's doctor lowered pill prescription |
+| Jan 12 | 218 | ~110 | ~108 | "Don't be mad at me" |
+| Jan 13 | 256 | ~130 | ~126 | Annie's mom drags her to Cosmo Prof, "I need some drugs" |
+| Jan 14 | 157 | ~80 | ~77 | Annie had a dream about having a baby, Alan Rickman died |
+| Jan 15 | 155 | ~80 | ~75 | "Home love bug" |
+| Jan 16 | 145 | ~75 | ~70 | Annie's long love letter |
+| Jan 17 | 149 | ~75 | ~74 | Dan took Xanax, "You're absolutely everything to me" |
+| Jan 18 | 195 | ~100 | ~95 | "Everything is fine" |
+| Jan 19 | 147 | ~75 | ~72 | Annie's jaw clenched, dad puts air in tire |
+| Jan 20 | 356 | ~180 | ~176 | "I love kissing you," save cocaine for work |
+| Jan 21 | 88 | ~45 | ~43 | Major drug fight, "bimel" bringing more addictive drugs |
+| Jan 22 | 273 | ~140 | ~133 | Checking out of hotel/motel |
+| Jan 23 | 278 | ~140 | ~139 | Annie covered in snow, weed and granola |
+| Jan 24 | 114 | ~60 | ~54 | "I'll be with you forever and ever" |
+| **Total** | **4,877** | **~2,455** | **~2,422** | |
 
 
 ---
