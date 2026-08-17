@@ -8,8 +8,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 31 |
-| Open gaps | 267 |
+| Live contradictions | 32 |
+| Open gaps | 276 |
 | Answered, awaiting ingest | 5 |
 | Standing predictions | 13 |
 
@@ -63,6 +63,7 @@ somewhere and has not yet found out where.
 - **[[wiki/people/kristin]]** — an earlier version described her as "an ex-Brooklyn librarian living in Pittsburgh." The corpus supports neither. It supports pharmacy / DoorDash / courthouse work and an Akron, Ohio residence. She does say *"okay this is one of the things i miss most about living in new york"* on Facebook — so a New York period is pla
 - **[[wiki/people/menore]]** — the thread contains a **1,458-day silence — May 26, 2020 → May 24, 2024** (with 2020 already tapering: 35/17/15-day gaps, 158 messages all year). This contradicts this page's earlier "Phase 4: sustained operations Apr 2019–Feb 2025" framing, and it complicates the Au Za'atar storytime claim (au-zaatar) that Menore serv
 - **[[wiki/people/sadie-harris]]** — earlier versions of this page and the member table on fayette-return both recorded Sadie as having *died* in Hopwood on 27 November 1997. The GEDCOM records no death place at all — only the date — and lists Hopwood as the **burial** place. Her last attested residence is Brownsville in 1993. The Hopwood association is r
+- **[[wiki/people/suzanne-frank]]** — A $200 cocaine spend on 2015-12-29 is **not** established as hers, and an earlier pass wrongly recorded it as such. The record has Annie saying *"And that $200 wasn't even your own"* (23:48) and Dan answering *"It was my money"* (23:50). The two lines conflict and the corpus does not settle them. Held open rather than 
 - **[[wiki/self/context-core]]** — fran-coldren resolved it on 2026-08-02 against a dated message in which Dan describes her, at the time, as *"a 97 year old woman with advanced dimentia"* (2017-12-29) — consistent with an August 1920 birth and an April 2018 death. The **98** in this page and in `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`, and the 
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — the operator's account says Annie *"contacted her independently without me knowing and invited her back over."* The 22:56 `Shelbie Breakiron.vcf` attachment, sent by Dan to Annie, is hard to reconcile with that. The likeliest reading is that the memory compresses a night in which he supplied the means and did not expec
 - **[[wiki/timeline/events/teen-concert-years]]** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate November 2004 return. The note dates Taking Back Sunday / Angels & Airwaves to **2006-07-04 in Columbus**; the research
@@ -108,7 +109,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — The exact arrest date within the days before February 17, 2015 is not known, nor is the arresting barracks, the docket number, or whether the expungement was ever completed. The blotter prints the charges without grading them; Dan's own telling calls the resid
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (80)
+### mind (81)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -136,6 +137,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — The 127/110 pair remains [DERIVED] from the dossier passes; a primary recount from the raw dumps is queued on dan-annie-fallout-verdict.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — The corrected rule has not been re-tested against the long tail. Every row in the table was scored on material dependency alone, so any case with a co-held object — a pet, a lease, a child, a shared account — may have been scored wrong in the same direction th
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — Blocking events with minor contacts (the long tail) have not been systematically mined; the loop's frequency outside intense bonds is unmeasured.
+- **[[wiki/mind/synthesis/bond-switch-2015]]** — **Emilio's surname, and his own channel.** The partner Annie left is named by the operator but appears in no export of his own; everything known about him is relayed through Annie. Whether he is also the unnamed person who told Ellen about the car on Dec 2 is 
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — Whether the Alexis→Annie transfer at 155 Virginia was a clean same-month swap or had a brief overlap is not dated to the day in the on-disk record; the calendar gives Nov 28 (Alexis end) and Nov 29 (Annie start), one day apart.
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — Lease holder and physical layout of 155 Virginia across the transition are undocumented (see 155-virginia-ave).
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — The 768/day termination figure's source export is not on disk; the closure-day volume is therefore a known provenance gap, not a settled number.
@@ -191,7 +193,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (98)
+### people (106)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -203,6 +205,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/bruce-burish]]** — Role and relationship to Dan unknown. The 4-day intensity suggests either a transactional exchange or a reconnection that didn't sustain. No Facebook, dox, or other corpus cross-references found.
 - **[[wiki/people/bruceburish]]** — Whether Bruce's November visit or any cam-show collaboration materialized is undocumented; no further contact appears in the corpus after this window, though a separate Facebook Messenger thread (`bruceburish_t6vdszljtq`) exists in the raw archive and has not 
 - **[[wiki/people/bub]]** — Real name and how the friendship originated (likely college, given the roommate references) are undocumented.
+- **[[wiki/people/casey-bondarenka]]** — **The "Casey saga."** Whatever Dan called *"bombastic"* on 2015-11-30 moved to a phone call and is never restated in text. Look: Dec 1–3 for a retelling.
+- **[[wiki/people/casey-bondarenka]]** — **Who told Ellen Ulmer about the car.** Casey is blamed by both parties and never confirmed.
+- **[[wiki/people/casey-bondarenka]]** — Relationship to Vanessa Frank beyond the smoking incident is undocumented.
 - **[[wiki/people/danny-matthews]]** — Danny's real-estate brokerage is not otherwise documented; whether the December 2024 invitation was taken up is unknown, and no further contact appears in the corpus after that date. The largest gap is about the opening night itself: nothing in the thread — be
 - **[[wiki/people/david-j-frank]]** — **The immigration itself is undocumented on disk.** No passenger manifest, naturalization record or arrival date for David appears in the export as extracted; "born Russia 1892, in Manhattan by 1900" is the whole of it.
 - **[[wiki/people/david-j-frank]]** — **The reason for the move is unknown.** Nothing explains why a New York family went to a Fayette County coal town between 1915 and 1920 — work, kin, or a business opportunity are all plausible and none is attested.
@@ -214,6 +219,11 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/emaly-minerd]]** — Whether the September 21, 2020 Facebook thread ever got a reply from Dan is undocumented in the captured export (the "selling some bars" line to Annie is the only same-day trace on his side).
 - **[[wiki/people/emaly-minerd]]** — No contact after September 2020 appears in the corpus.
 - **[[wiki/people/emaly-minerd]]** — The August 2019 "noods" and the blocked contact are known only from Dan's side (his message to a third party and the un-answered Cash App requests); Emaly's own words from that revival are not in the captured record.
+- **[[wiki/people/emilio]]** — **Surname.** Unknown. He is "Emilio" in every reference.
+- **[[wiki/people/emilio]]** — **His own channel.** Nothing of his traffic is in any export. Every line here is Annie quoting or describing him.
+- **[[wiki/people/emilio]]** — **Whether he told Ellen about the car.** He is **not** currently that person — the informant on *"someone told me your car was at Dan Frank's this morning"* is never named, and both Dan and Annie blame Casey. His documented vector is Claire. Do not collapse th
+- **[[wiki/people/emilio]]** — **When and how it actually ended between him and Annie**, and whether the December 13 contact was the last.
+- **[[wiki/people/emilio]]** — **Becca** (2015-12-29) — described as the ex's new girlfriend; not firmly attached to Emilio.
 - **[[wiki/people/fran-coldren]]** — The nursing home is still unnamed. The NS7 II gift is undated — the corpus confirms the machine in use by April 2017 but never records its arrival, and the gift-protocol figures come from operator memory alone. Thomas Whyel's exact death date within the 1970s 
 - **[[wiki/people/fred-adams]]** — Adams sends and receives nothing in the message corpus; every fact here comes from Dan's narration or from the estate attorney's calls, and the estate attorney reached in August 2020 (`+17245706170`) is not established to be Adams or his office. His full name,
 - **[[wiki/people/jacob-bacharach]]** — Whether the two men remained in contact after February 11, 2021 is undocumented; Dan says "we keep in touch," and the corpus preserves exactly one exchange. Whether the HTML artifact was ever sent, and whether Bacharach ever learned that the house was in the f

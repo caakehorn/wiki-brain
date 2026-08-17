@@ -6,7 +6,7 @@ aliases: ["Zach", "Clingan"]
 status: stable
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-08
+date_modified: 2026-08-17
 date_range_start: 2009-10-06
 date_range_end: 2018-04-13
 sources:
@@ -27,6 +27,9 @@ infobox:
   handles: ["+1843***3264", "+1413***0339", "+1724***0771"]
   known_for: "the nine-year Uniontown acquaintance an earlier pass filed under the wrong surname"
 connections:
+  - page: wiki/timeline/annie-record
+    type: evidenced-by
+    claim: "Dan names Clingan in real time as the origin of his drug use — \"THAT is who introduced me to drugs\" (2015-12-09) — which places him earlier on the supply chain than any node the network page tracks, and his warning to Annie the same day is the first documented use of the switch against her by a third party."
   - page: wiki/people/zachariah-harshman
     type: mirrors
     claim: "Two contemporaneous Uniontown Zachs whose contact records a phone-book merge fused: Harshman supplied Dan in 2014–15 out of the Virginia Avenue house, Clingan bought from him in the 2017 caddie yard, and the supply direction inverts between them."
@@ -123,6 +126,55 @@ of the three that he reserves. The corpus's most-cited framework for how Dan
 sorts people is vertical-versus-lateral trust; this is a lateral sort, and
 its criterion is neither competence nor closeness but a judgement about
 character that he applies to himself first.
+
+## December 2015: "THAT is who introduced me to drugs"
+
+Between the 2014 taxonomy and the 2017 caddie season sits an appearance
+nothing on this page previously recorded, recovered from the hand-read of the
+Annie corpus ([[wiki/timeline/annie-record]]). It carries the single most
+load-bearing sentence about Clingan anywhere in the wiki.
+
+Clingan is one of [[wiki/people/annie-ulmer|Annie's]] exes. On **2015-12-09**,
+eleven days after the switch, he texts her — *"Zach clingan just texted me
+saying 'I have to talk to you'"* (15:17). Dan's reaction is immediate and
+disproportionate to a rival's phone call: *"My arch rival / Glad he's in the
+mix too"*, then *"Literally makes me want to puke. **THAT is who introduced me
+to drugs**"* (15:19–15:20).
+
+That line reframes the whole page. Everywhere else Clingan is a fixed point in
+a moral taxonomy — one of the "drug people" Dan uses to locate himself and
+[[wiki/people/tom|Tom]] on a scale. Here he is named, in real time and
+unprompted, as the **origin** of the use itself. The 2014 sorting exercise
+reads differently once you know Dan was categorising the person he holds
+responsible for starting him: applying "drug people" to himself in the same
+breath is not only self-deprecation, it is a claim about lineage.
+[[wiki/mind/synthesis/supply-network]] traces the succession of nodes forward
+from 2014; this is the earliest point on that chain and it is a person, not a
+supplier relationship.
+
+Clingan then calls Annie directly: *"have you lost your damn mind / And to keep
+my eyes open"* (15:38–15:39), followed by the warning that makes it an
+intervention rather than jealousy:
+
+> *"he had his ex move out and you were there the next day. That makes you look
+> like shit and he's going to treat you like it"* (15:39)
+
+This is **the first documented instance of the switch being used against Annie
+by a third party**, and an outsider independently reading the same
+twenty-four-hour sequence [[wiki/mind/synthesis/bond-switch-2015]]
+reconstructs — arriving at a prediction about Dan's future conduct rather than
+a chronology. Dan confronts him within the hour: *"I just talked to him / Told
+him he doesn't know me and to stay the fuck out of my life / And to not threaten
+you"* (15:37–15:38), and sends him a photograph understood to be an obscene
+gesture. The content of Clingan's side of that call is not in the corpus.
+
+> **DISAMBIGUATION [2026-08-17]:** A synthesis pass attributed these messages
+> to [[wiki/people/zachariah-harshman|Zachariah Harshman]] — the same two-Zachs
+> collision this page already documents, running in the opposite direction from
+> the phone-book merge that once gave Harshman's surname to Clingan's messages.
+> The record names *"Zach clingan"* explicitly here, and Harshman appears
+> nowhere in Annie's inbound traffic. Any pass reading the Annie corpus should
+> treat a bare "Zach" as ambiguous until the entity ledger resolves it.
 
 ## 2017–18: one caddie season
 

@@ -4,7 +4,7 @@ page_type: entity
 status: active
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-08-17
 date_range_start: 2011-10-16
 date_range_end: 2021-10-01
 sources:
@@ -17,6 +17,9 @@ infobox:
   relationship_to_dan: friend
   known_for: "High-school-era Laurel Highlands friend and 2014–15 Uniontown supply node whose Dec 23, 2015 rupture is an independent third-party account of the Alexis-to-Annie bond switch; friendship survived and revived as a platonic gaming relationship by 2020"
 connections:
+  - page: wiki/timeline/annie-record
+    type: co-occurs
+    claim: "Through the fortnight before the December 23 rupture Zach is the operational cover for the switch — \"I'll have him drop me and say I'm going to his house\" (2015-11-29) — and is still being used as Annie's excuse to her family on 2015-12-13."
   - page: wiki/people/zach-clingan
     type: mirrors
     claim: "A phone-book merge fused two contemporaneous Uniontown Zachs and gave this one's surname to the other's messages; the supply direction inverts between them — Harshman supplied Dan in 2014-15, Clingan bought from him in the 2017 caddie yard."
@@ -130,6 +133,39 @@ happen. The date also sits three days before
 [[wiki/interests/music/aliases/sloppp|SLOPPP's]] own December 26, 2015
 "Goodbye Demo" — a temporal adjacency worth noting, though nothing in
 either thread asserts the two closures are connected.
+
+### What the Annie corpus adds, and one thing it does not
+
+The hand-read of the two-sided Annie corpus
+([[wiki/timeline/annie-record]]) covers this window and **contains no trace of
+the December 23 rupture** — 2015-12-20 → 12-24 carries zero messages. That is a
+channel fact, not a contradiction: this thread is Facebook Messenger and the
+Annie corpus is iMessage. Anyone comparing the two should not read the silence
+as evidence against the date.
+
+What the Annie side does add is Zach's role in the fortnight *before* the
+rupture, which sharpens why it detonated. He is physically present through the
+night of 2015-11-29 and is the mechanism by which Dan leaves the house
+undetected — *"Harshman leaving soon, so I'll have him drop me and say I'm
+going to his house"* (01:33). He is still being used as cover on 2015-12-13,
+when Annie tries to pass off seeing him as an excuse to her family and is
+caught out by her sister. He also negotiates the missing-laptop question with
+[[wiki/people/alexis-armel|Alexis]] on 2015-11-30. So the man Dan accuses of
+"vanishing" had, three weeks earlier, been the operational cover for the
+switch that cost him his other friendship — which is the part neither side of
+the December 23 exchange says out loud.
+
+> **ATTRIBUTION [2026-08-17]:** An earlier synthesis pass credited this page
+> with a 2015-12-09 confrontation — *"have you lost your damn mind"*, *"keep my
+> eyes open"*, *"he had his ex move out and you were there the next day. That
+> makes you look like shit and he's going to treat you like it"*, texted to
+> Annie. **That is [[wiki/people/zach-clingan|Zach Clingan]], a different
+> person** — the same two-Zachs confusion this page's own `zach-clingan` edge
+> already documents as a phone-book merge, recurring in a new place and in the
+> opposite direction. Nothing in the Annie corpus has Zachariah Harshman
+> contacting Annie directly. In the record the two are separated only by first
+> name, so any pass reading it must check the ledger before attributing; this
+> page must not absorb the other Zach's behaviour.
 
 ## After the rupture: dormancy, then revival
 

@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-02
+date_modified: 2026-08-17
 date_range_start: 2017-04-11
 date_range_end: 2025-11-01
 sources:
@@ -22,6 +22,9 @@ infobox:
   handles: ["+1724***2589"]
   known_for: "The relationship that outlasted the one it came from — opened by a friend's overdose in 2017, still sending birthday wishes in 2025"
 connections:
+  - page: wiki/timeline/annie-record
+    type: evidenced-by
+    claim: "Fifteen months before her own message thread opens, Ellen is the relationship's first obstacle — objecting on 2015-12-02 to Dan's inherited family reputation rather than to the relationship itself, and relayed only through Annie, never in her own words."
   - page: wiki/people/jay-lauer
     type: caused-by
     claim: "This thread does not merely begin near Jay Lauer's overdose — it begins because of it: Ellen's call on the night of April 10, 2017 and Dan's condolence at 19:09 the next evening are message one of an eight-and-a-half-year relationship, which makes a friend's death the documented origin of Dan's longest surviving tie to Annie's family."
@@ -39,6 +42,46 @@ connections:
 # Ellen Ulmer
 
 Ellen Ulmer is [[wiki/people/annie-ulmer|Annie]]'s mother — a steady, low-frequency but remarkably durable presence in Dan's life, with a thread that opens in April 2017 and is still sending him birthday wishes in November 2025, eight and a half years later and well past the relationship's various ruptures with Annie (`+17243662589`, 63 messages).
+
+## Before the thread: December 2, 2015
+
+Ellen's own message thread opens in 2017, but she is present in the record
+**fifteen months earlier, as the relationship's first serious obstacle** — and
+the direct-thread framing below, of a durable maternal warmth, is incomplete
+without it. The account comes from the hand-read of the Annie corpus
+([[wiki/timeline/annie-record]]), where every line below is **Annie relaying
+her mother in real time**, not Ellen writing. Ellen's own words are not in any
+export for this date.
+
+On the fifth day of the relationship, Ellen learns of it through surveillance
+rather than disclosure: *"someone told me your car was at Dan Frank's this
+morning"* (18:44). **The informant is never identified** —
+[[wiki/people/casey-bondarenka|Casey]] is blamed by both Dan and Annie, and
+never confirmed.
+
+What she objects to is not the speed or the circumstances but **Dan's
+reputation**: *"he has a bad past do you know what he's done to his family"*
+(18:47), escalating within two minutes to *"am I going to have to treat you
+like a 12 year old"* (18:49). Annie's sister
+[[wiki/people/claire-ulmer|Claire]] joins the confrontation. Annie's answer
+that evening is the sharpest statement of her position anywhere in the first
+month: **"I'd rather lose all of them then to not be with you"** (19:00).
+
+Two things follow from this that the later thread would not let you guess.
+The objection was **specific and inherited** — a family reputation, not a
+judgment formed on contact — and Dan's only first-person accounting of it is
+that same night: *"I took $500 from my grandma one time and got caught / But
+that's the worst thing I've ever done in my life"* (19:17–19:18). And it was
+resolved **between the fathers, not with Ellen**:
+[[wiki/people/rick-frank|Rick Frank]] offers to intervene at 23:56 — *"Call me
+tomorrow. I will help you fix this"* — on the strength of knowing Annie's dad.
+The content of that conversation is not in any corpus.
+
+Read against the section below, the arc is the finding: the woman who moved to
+"squash" the relationship on day five is the same one still sending unprompted
+birthday messages in 2025, eight years after the thread opened and through
+every rupture since. Nothing in the record shows when or how the objection was
+withdrawn — see Gaps.
 
 ## How it began
 

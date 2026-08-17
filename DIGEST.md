@@ -13,21 +13,21 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 460 |
-| Pages touched in the last 14 days | 95 |
+| Pages | 462 |
+| Pages touched in the last 14 days | 101 |
 | Pages reasoning from other pages (`synthesizes:`) | 27 |
-| Live contradictions | 31 |
-| Open gaps | 267 |
+| Live contradictions | 32 |
+| Open gaps | 276 |
 | Standing predictions | 13 |
 
 ## By domain
 
 | Domain | Pages |
 |---|---|
-| people | 161 |
+| people | 162 |
 | interests | 143 |
 | mind | 59 |
-| timeline | 35 |
+| timeline | 36 |
 | self | 32 |
 | work | 15 |
 | places | 8 |
@@ -39,22 +39,23 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 184 |
-| active | 134 |
+| active | 135 |
 | closed | 99 |
 | archived | 31 |
-| stub | 12 |
+| stub | 13 |
 
 ## The last few days
 
-**2026-08-17** — 2 pages
+**2026-08-17** — 15 pages
   - restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
+  - climb | timeline, people, mind | the 2015 Annie read spread to ten pages, and five of its own corrections did not survive the evidence gate
 
 **2026-08-16** — 10 pages
   - close | timeline | shelbie-annie-threesome — the operator dated it, and the corpus showed the page had the authorship backwards
   - build | all | bin/wiki-gaps — 269 open gaps, no way for the one source that can settle them to answer, and OPEN.md could only see 164 of them
   - rewrite | people | kristin.md — surname wrong, dates wrong, count wrong, and the wiki's own instrument cannot see the thread
 
-**2026-08-15** — 20 pages
+**2026-08-15** — 15 pages
   - read | timeline | the read pass gets a second output — entity ledger, leads, motifs — plus Nov 30: Suz paid for the eviction
   - read | timeline | the Annie corpus is 97,768 messages across FOUR handles, and reading two days of it produced 25 events no script found
   - fix | timeline | the 2015 "Alexis cheating" was a 2009 event, and master-timeline.md was half non-events

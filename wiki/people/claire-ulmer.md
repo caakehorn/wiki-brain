@@ -4,7 +4,7 @@ page_type: entity
 title: "Claire Ulmer"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-08-17
 sources:
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
@@ -12,6 +12,10 @@ related:
   - wiki/people/annie-ulmer
   - wiki/people/milo
 tags: [pets, relationships, grief]
+connections:
+  - page: wiki/people/emilio
+    type: co-occurs
+    claim: "Claire is the channel Annie's displaced partner used to reach the family — \"because fucking Emilio texted her about me\" is Annie's own account, in the moment, of why her sister turned on her during the 2015-12-02 confrontation."
 infobox:
   name: "Claire Ulmer"
   relationship_to_dan: unknown

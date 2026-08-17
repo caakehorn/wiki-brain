@@ -1,6 +1,6 @@
 ---
 domain: timeline
-page_type: chronology
+page_type: report
 status: active
 knowledge: earned
 date_created: 2026-08-15
@@ -12,8 +12,11 @@ sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessage_ALL_both_all_now.csv
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
-tags: [timeline, annie, chronology, primary-source]
+tags: [relationships, forensic-analysis, uniontown-era]
 connections:
+  - page: wiki/people/emilio
+    type: evidences
+    claim: "Everything known about Emilio is relayed through Annie in this record — the November window calls him only \"dude\" and \"turd boy\", and he has no channel of his own in any export."
   - page: wiki/people/annie-ulmer
     type: evidences
     claim: "The day-by-day event record of the relationship, read directly out of the 97,768-message two-sided corpus rather than inferred from dossiers — this is the evidentiary floor the Annie page's claims are supposed to rest on."
@@ -182,7 +185,10 @@ going to get rid of him just like you just did"** (02:50–02:52). **The switch
 was mutual and simultaneous.** Every prior account of this week — including
 [[wiki/mind/synthesis/bond-switch-2015]]'s twenty-four-hour analysis and its
 2026-08-02 correction about whose exit it was — treats Annie as unattached.
-She was not. The man is unnamed in this window.
+She was not. The man is unnamed in this window; the operator identifies him as
+[[wiki/people/emilio|Emilio]] (2026-08-17), which is testimony rather than
+something this record establishes — the same man who texts Claire on Dec 2 and
+is still contacting Annie on Dec 13.
 
 **2015-11-29 — Alexis is in the house all day, and the eviction is stalling.**
 *"She's upstairs I didn't go up after I got back"* (03:33); *"She's still...
@@ -413,7 +419,7 @@ about things more clearly"* (16:10). Rick becomes the family mediator.
 **2015-12-02, ~16:31 — Annie comes over.** *"Here I come :)"* (16:31). Dan is
 doing laundry and Zach is smoking a blunt. Annie arrives; they clean together.
 
-**2015-12-02, ~18:39 — the crisis begins.** Dan: *"I'm in love"* (18:39).
+**2015-12-02, ~18:39 — the crisis begins.** ([[wiki/people/ellen-ulmer]], [[wiki/people/claire-ulmer]]) Dan: *"I'm in love"* (18:39).
 Annie: *"Problem / Big problem / My mom / I called her back / She's like someone
 told me your car was at Dan Frank's this morning"* (18:43–18:44).
 
@@ -451,7 +457,7 @@ you're ready you can give it to them"* (22:41–22:42).
 cleaning supplies. She wanted Rick to know Dan was doing better. *"And my parents
 had to take it and ruin it"* (23:26).
 
-**2015-12-02, 23:36–23:59 — Rick's offer.** Dan: *"I just got the weirdest
+**2015-12-02, 23:36–23:59 — Rick's offer.** ([[wiki/people/rick-frank]]) Dan: *"I just got the weirdest
 message from Rick"* (23:36). Rick: *"Call me tomorrow. I will help you fix this"*
 (23:56). Annie: *"Rick will fix this / He and my dad are buds"* (23:57). Rick
 is positioned as the family mediator. Dan: *"He also is chomping at the bit for
@@ -627,7 +633,7 @@ Annie gets a job at Nguyen's starting Jan 1.
 I want salad and bread sticks / Soooo bad"* (14:42–14:43). Annie: *"And soup😍"*
 (14:42). Dan: *"It will be our almost first date"* (14:43).
 
-**2015-12-09, ~15:17 — Zach Clingan texts Annie.** Annie: *"Issue / Zach clingan
+**2015-12-09, ~15:17 — Zach Clingan texts Annie.** ([[wiki/people/zach-clingan]] — *not* [[wiki/people/zachariah-harshman]]) Annie: *"Issue / Zach clingan
 just texted me saying 'I have to talk to you' / And said he's going to call me"*
 (15:17–15:18). Dan: *"Oh good / My arch rival / Glad he's in the mix too"*
 (15:18–15:19). Dan: *"WHY can't we be left alone / Fuck / Literally makes me
@@ -803,7 +809,7 @@ life partner / A guy could ask for"* (16:56).
 
 **2015-12-16, ~15:04 — Dan cleans cars at Suz's.** Dan is working — cleaning cars at his mother's office. Annie: *"Look at you!! / It's such a nice day for cleaning out cars"* (15:16). Dan: *"I will be free as a bird"* (15:05). This is the first documented instance of Dan doing manual labor for Suz's business — the "I have to weed whack bops place" of the later Supply Network, but for his mother, and paid in cash. Suz gives him two $50's (16:44).
 
-**2015-12-16, ~16:41 — Suz calls Annie "your girlfriend."** Dan: *"SAVE ONE OF THOSE FOR YOUR GIRLFRIEND / (Because she gave me two 50's)"* (16:43). Annie: *"SHE CALLED ME YOUR GIRLFRIEND / IM IN LOVE IM IN LOVE"* (16:46). Dan: *"OMG she was calling you my girlfriend for the past 2 weeks"* (16:46). This is the first documented instance of Suz using the title. Dan had been correcting her ("I kept reminding her that I don't know how that works but not to be presumptuous"), but Suz ignored him. Annie's reaction — all-caps joy — is the strongest positive response to a family-approval signal in the record.
+**2015-12-16, ~16:41 — Suz calls Annie "your girlfriend."** ([[wiki/people/suzanne-frank]]) Dan: *"SAVE ONE OF THOSE FOR YOUR GIRLFRIEND / (Because she gave me two 50's)"* (16:43). Annie: *"SHE CALLED ME YOUR GIRLFRIEND / IM IN LOVE IM IN LOVE"* (16:46). Dan: *"OMG she was calling you my girlfriend for the past 2 weeks"* (16:46). This is the first documented instance of Suz using the title. Dan had been correcting her ("I kept reminding her that I don't know how that works but not to be presumptuous"), but Suz ignored him. Annie's reaction — all-caps joy — is the strongest positive response to a family-approval signal in the record.
 
 **2015-12-16, ~16:41 — Annie gets a shift at CT's.** Annie: *"BRUCE JUST SAID IM BARTENDING FRIDAY / COUSIN FUCKING CHRISTMAS"* (16:44). The same Cousin Christmas she declined on Dec 13 is now her first scheduled shift back. Dan: *"Cousin Christmas >>>>>> CTS"* (22:00). Annie also babysits Friday morning (16:36). She's stacking income — Nguyen's starts Jan 1, but CT's fills the gap.
 
@@ -823,7 +829,7 @@ life partner / A guy could ask for"* (16:56).
 
 **2015-12-17, ~00:48 — "I fell asleep in middle of sayin goodnight I love you boyfriend!"** Annie's first message of the day — she fell asleep while saying goodnight. Dan: *"It's raining It's pouring My girlfriend Is snoring"* (07:12). Annie: *"Actually i believe i just grind my teeth"* (07:58). This is the first documented instance of Annie's sleep issues in the record — teeth grinding and snoring.
 
-**2015-12-17, ~11:12 — Annie is broke, and Dan wants to help.** Annie: *"So I'm literally counting all the change I have / This is what my life has come to"* (11:12–11:15). Dan: *"I wanna help!"* (11:36). Annie: *"Wanna roll change with me?"* (11:28). Dan: *"Of course!! / I'd do anything with ya"* (11:29). Annie rolls change. Dan gives her money from Fran later that day: *"I got da monayyyy / Fran to the rescue"* (17:39–17:40). This is the earliest documented instance of Annie's post-switch financial stress — she quit CT's (Dec 9), Nguyen's doesn't start until Jan 1, and she's counting change.
+**2015-12-17, ~11:12 — Annie is broke, and Dan wants to help.** ([[wiki/mind/synthesis/estate-money-spine]], [[wiki/places/117-belmont-circle]]) Annie: *"So I'm literally counting all the change I have / This is what my life has come to"* (11:12–11:15). Dan: *"I wanna help!"* (11:36). Annie: *"Wanna roll change with me?"* (11:28). Dan: *"Of course!! / I'd do anything with ya"* (11:29). Annie rolls change. Dan gives her money from Fran later that day: *"I got da monayyyy / Fran to the rescue"* (17:39–17:40). This is the earliest documented instance of Annie's post-switch financial stress — she quit CT's (Dec 9), Nguyen's doesn't start until Jan 1, and she's counting change.
 
 **2015-12-17, ~17:14 — "I can't wait to be your house wife."** Annie: *"I love every single day with you / I can't wait to be your house wife"* (17:14). Dan: *"Yeah let's do that ASAP"* (17:15). Annie: *"And cook and clean all day every day for you"* (17:15). Dan: *"Nahhh well pay someone for that. You can mani pedi etc"* (17:15–17:16). Annie: *"No no no / I enjoy those things"* (17:16). This is the first explicit "house wife" discussion — Annie framing domestic labor as desire, Dan reframing it as something to outsource so Annie can enjoy herself.
 
@@ -843,13 +849,13 @@ life partner / A guy could ask for"* (16:56).
 
 **2015-12-29, ~14:12 — Ex boyfriend drama (Becca).** Annie: *"I knew it was ex boyfriend issues / Over it"* (14:12–14:17). Becca is the ex's new girlfriend. Annie is over it. Dan is supportive.
 
-**2015-12-29, ~17:43 — Annie tells Dan about the needle incident.** Annie: *"Speaking of.... I forgot to tell you this / One of the last times I was over at j's / There was some dude there / He literally gave me and chunk of ice... / I didn't ask for it / I didn't say no. / He just gave me it"* (17:43–17:52). Dan: *"Oh my! That's intense / I mean I've never done it but someone giving it to you is intense"* (17:48–17:52). Dan: *"Were you asking if I wanted to try? Or just telling me about it?"* (17:52). Annie: *"I guess both"* (17:52). Dan: *"First of all I always appreciate your honesty. You really do everything possible to make sure that I know I can trust your completely / I'll think about it b. It's a possibility. Btw- you should feel good that I gave you ^that answer. For the first time in my adult life I feel happy, and I'm not using drugs to derive smiles"* (17:53–17:56). Annie: *"I'm a sponge when it comes to peer pressure / I just suck it all in and don't give a fuck"* (18:08). Dan: *"I just wanna make sure that you have the same strength to face adversity / Because you'll know that there's someone who looks at you like a goddess...and thinks you're perfect / And wants to make sure you don't feel used or manipulated"* (18:11–18:14). This is the most extensive discussion of boundaries and drug use in the record — Dan acknowledges the appeal but worries about "adding (or subtracting) anything else from the equation."
+**2015-12-29, ~17:43 — Annie tells Dan about the needle incident.** ([[wiki/mind/synthesis/supply-network]]) Annie: *"Speaking of.... I forgot to tell you this / One of the last times I was over at j's / There was some dude there / He literally gave me and chunk of ice... / I didn't ask for it / I didn't say no. / He just gave me it"* (17:43–17:52). Dan: *"Oh my! That's intense / I mean I've never done it but someone giving it to you is intense"* (17:48–17:52). Dan: *"Were you asking if I wanted to try? Or just telling me about it?"* (17:52). Annie: *"I guess both"* (17:52). Dan: *"First of all I always appreciate your honesty. You really do everything possible to make sure that I know I can trust your completely / I'll think about it b. It's a possibility. Btw- you should feel good that I gave you ^that answer. For the first time in my adult life I feel happy, and I'm not using drugs to derive smiles"* (17:53–17:56). Annie: *"I'm a sponge when it comes to peer pressure / I just suck it all in and don't give a fuck"* (18:08). Dan: *"I just wanna make sure that you have the same strength to face adversity / Because you'll know that there's someone who looks at you like a goddess...and thinks you're perfect / And wants to make sure you don't feel used or manipulated"* (18:11–18:14). This is the most extensive discussion of boundaries and drug use in the record — Dan acknowledges the appeal but worries about "adding (or subtracting) anything else from the equation."
 
 **2015-12-29, ~18:23 — "You're the only thing that makes life seem like magic again."** Dan: *"Anne you're the only thing that makes life seem like magic again. You're the only thing that makes me feel like the cloud of 'bad' that i lived in for over a decade, has been lifted"* (18:23). This is a restatement of the Dec 16 "magic" line, but in the context of the needle discussion — Dan is saying Annie does for him what drugs never could.
 
 **2015-12-29, ~19:08 — Dan gets zgurd, Annie stresses about money.** Suz gives Dan zgurd. Annie stressed about spending. Dan: *"Do u know how much I spent on that stuff today? / $200"* (23:46–23:47). Annie: *"Exactly... / Some people can't even get $200 to pay their rent. / If I had $200 right now I'd pay my damn dentist bill / And that $200 wasn't even your own"* (23:47–23:48). Dan: *"It was my money"* (23:50). Annie: *"We gotta really cut back for real this time"* (23:24). This is the earliest documented instance of Annie naming the cost of cocaine as a problem — she's been saying "cut back" since Dec 14, but this is the first time she names $200 as the specific amount.
 
-**2015-12-29, ~23:23 — "I want stability. Jobs."** Annie: *"I don't want you having to take people's money. I don't want that. / I want to grow / I want stability / Our own money / Jobs / I don't want to fall into a deeper hole than we already our in"* (23:25–23:28). Dan: *"I want that too and I feel bad for making it easier for us to have it all the time"* (23:28). Annie: *"You may have had to provide lex with drugs too much / And I'm not like that"* (23:43). This is Annie's most explicit statement of what she wants — stability, jobs, money, growth — and her first direct comparison with Alexis around drug provision.
+**2015-12-29, ~23:23 — "I want stability. Jobs."** ([[wiki/mind/synthesis/supply-network]], [[wiki/people/suzanne-frank]]) Annie: *"I don't want you having to take people's money. I don't want that. / I want to grow / I want stability / Our own money / Jobs / I don't want to fall into a deeper hole than we already our in"* (23:25–23:28). Dan: *"I want that too and I feel bad for making it easier for us to have it all the time"* (23:28). Annie: *"You may have had to provide lex with drugs too much / And I'm not like that"* (23:43). This is Annie's most explicit statement of what she wants — stability, jobs, money, growth — and her first direct comparison with Alexis around drug provision.
 
 **2015-12-29, ~23:44 — "Let's cut this shit out so we can be really happy."** Dan: *"I'm sorry if I've used drugs as a perk. I've just really been consumed with trying to impress you or provide stuff"* (23:42). Annie: *"I don't need all that. I have you / And you are all I need"* (23:43). Dan: *"You couldn't be further from her in that regard. You're conscientious and considerate / But let's cut this shit out so we can be really happy"* (23:44–23:45). This is Dan's most explicit statement of cutting back — not just "cut back" but "cut this shit out."
 

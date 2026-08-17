@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-15
+date_modified: 2026-08-17
 sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -13,6 +13,12 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [relationships, attachment, infidelity, trauma-bond, uniontown-era]
 connections:
+  - page: wiki/people/emilio
+    type: evidenced-by
+    claim: "The partner displaced on Annie's side, whose message to her sister three days later triggered the December 2 confrontation — the symmetric cost the singular-slot thesis predicts but had no instance of until 2026-08-17."
+  - page: wiki/timeline/annie-record
+    type: evidenced-by
+    claim: "The hand-read of the two-sided corpus establishes that Annie was ending her own relationship in the same seventy-two hours (\"I am going to get rid of him just like you just did\", 2015-11-29 02:52), and that Suz supplied cocaine and offered a car conditional on the eviction — the switch was mutual, and it was brokered and paid for by the family."
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: parallels
     claim: "The switch shows the primary slot changing hands inside a single month; the no-exit rule explains why a swap that fast costs nothing, since the departing partner is retained rather than lost."
@@ -62,6 +68,53 @@ In late November 2015, Dan's primary attachment target transferred from [[wiki/p
 The structural claim is that the deep attachment system, locked down since the 2005 [paternal rupture](wiki/self/ancestry), had never fully activated for Alexis across roughly six years (Nov 2009 – Nov 2015, including the July–Oct 2013 separation). Alexis is the **control case** proving how suppressed the system was. Annie was the *first* activation of that system. The magnitude of the later loss is therefore categorically different from any prior ending — there was no prior experience metabolizing a deep-bond break, so the 2026 closure operated on an uncalibrated substrate. The single-bond switch is the moment that activation transferred from the control case to the first real case.
 
 The switch is a direct behavioral expression of the sx/sp instinctual stack documented on [[wiki/mind/profile/enneagram-5w4]]: sexual (sx) dominant organizes life around *one* relationship at maximum voltage, not many. The 2015 event is that stack executing its logic in real time — the prior bond is not kept warm while a new one forms; the singular slot is vacated and reoccupied near-simultaneously.
+
+> **CORRECTED [2026-08-17]:** This page, and its own 2026-08-02 correction
+> about whose exit it was, both assume Annie was unattached. **She was not.**
+> The hand-read of the two-sided corpus ([[wiki/timeline/annie-record]]) has her
+> ending her own relationship in the same week: her family and a partner are
+> with her on the night of the golf-course meeting — *"my fam and dude are here
+> and are going to force me to leave with them"* (2015-11-29 01:35) — Dan refers
+> to him as *"turd boy"* (02:49), and Annie says **"I am going to get rid of him
+> just like you just did"** (02:52). The switch was **mutual and simultaneous**,
+> which the thesis above does not merely survive but is sharpened by: the
+> singular slot was vacated and reoccupied on *both* sides inside the same
+> seventy-two hours. **The man is unnamed in the corpus and is identified by
+> the operator (2026-08-17) as Emilio** — testimony rather than a corpus
+> derivation, and load-bearing enough that anything built on it should say so.
+> That identification is what turns the December 2 crisis from bad luck into
+> retaliation: see below.
+
+## The switch was brokered, and paid for
+
+The account below treats the switch as a private reallocation between Dan,
+Alexis and Annie. The read shows a fourth party operating it. On 2015-11-29
+[[wiki/people/suzanne-frank|Suz]] phones to say Dan *should* date Annie, and
+the reason she gives is that the name fits the family — *"I.e. Anne Dan
+Suzanne Fran Diane Van"* (13:48–13:49). Roughly fifteen hours later, at 05:02
+on 2015-11-30: **"Suz just came to check on me, brought me a line, and told me
+she'd get me a car this week if I get Alexis out."**
+
+Cocaine and a vehicle, from the mother, as consideration for completing the
+eviction. The family did not merely approve the transfer; it supplied the
+means and attached a price to the outcome. This is the earliest and least
+ambiguous instance in the corpus of the maternal leverage
+[[wiki/mind/synthesis/estate-money-spine]] documents from much later material,
+and it means the singular slot was not only Dan's to reassign.
+
+The eviction is then run as procedure rather than confrontation, which is why
+no scene appears anywhere in the record: the key is confiscated on 11-28
+(*"She left her key out yesterday and I snagged it"*, 11-29 14:39), property is
+removed from the guest bedroom *"so she knows I could actually call the cops"*
+(11-30 00:35), and Alexis's parents are summoned to collect her (13:42). Each
+step is reversible and none is a rupture.
+
+**Alexis was physically in the house throughout**, which falsifies the reading
+that placed her in Florida in November 2015. Three independent lines on 11-28
+alone: Dan goes home to *"make sure she's not stealing or destroying my stuff"*
+(18:49); at 19:20 he is *"walking into the house now. Gonna hide phone so it
+doesn't get broked"*; at 23:53, *"Just hid my phone while I was here to prevent
+drama and violence."*
 
 ## The timing (verified against raw)
 
@@ -213,8 +266,49 @@ Alexis's own post-breakup orbit, independently placing the switch's
 visible social fallout in the same one-month window the table above
 establishes from the primary record.
 
+**The Annie corpus does not contain this event, and that is a channel fact
+rather than a contradiction.** The hand-read records **zero messages across
+2015-12-20 → 12-24** ([[wiki/timeline/annie-read-notes]], quantitative
+markers), which spans December 23 exactly. The rupture is documented in
+Facebook Messenger; the Annie corpus is iMessage. A future reader comparing
+the two should not treat the silence as evidence against the date — it is
+evidence that the switch's social fallout was transacted in a channel the
+message corpus does not cover, which is itself worth knowing before any
+claim is built on Annie-corpus silence in that window.
+
+## The displaced partner retaliates, within three days
+
+The switch has a fourth party on Annie's side, and once he is named the
+December 2 crisis stops looking like exposure by accident. Annie says she will
+*"get rid of him just like you just did"* on 2015-11-29 at 02:52. Seventy-two
+hours later her sister [[wiki/people/claire-ulmer|Claire]] turns on her inside
+the family confrontation, and Annie says why in the moment: *"because fucking
+Emilio texted her about me"* (12-02 18:45).
+
+The displaced partner did not contact Annie. He contacted her **family**, and
+the family's objection then ran on
+[[wiki/people/ellen-ulmer|Ellen's]] own material — Dan's reputation, *"he has a
+bad past do you know what he's done to his family"* — which is why the crisis
+reads as parental rather than romantic and why no account of it before
+2026-08-17 had an agent. He persists: on 2015-12-13 Annie is *"gonna go off on
+him about throwing shit at me the other night"*, and his own message that night
+is *"Honestly I just miss having fun with you!"*
+
+This is the symmetry the thesis was missing. Both partners were displaced in the
+same seventy-two hours, and **both displacements produced fallout that
+detonated a relationship in the following month** — Emilio through Annie's
+family on December 2, and [[wiki/people/zachariah-harshman|Zach Harshman]]
+through Dan's friendship on December 23. The singular-slot mechanism this page
+documents has a cost, and it is paid by the people vacated, who then act.
+
+**Caveat kept deliberately:** the person who told Ellen that Annie's car was at
+Dan's house that morning is **never named**, and both Dan and Annie blame
+[[wiki/people/casey-bondarenka|Casey]]. Emilio's documented vector is Claire,
+not Ellen. Do not collapse the two.
+
 ## Gaps
 
+- **Emilio's surname, and his own channel.** The partner Annie left is named by the operator but appears in no export of his own; everything known about him is relayed through Annie. Whether he is also the unnamed person who told Ellen about the car on Dec 2 is **not** established — Casey is the one both parties blame.
 - Whether the Alexis→Annie transfer at 155 Virginia was a clean same-month swap or had a brief overlap is not dated to the day in the on-disk record; the calendar gives Nov 28 (Alexis end) and Nov 29 (Annie start), one day apart.
 - Lease holder and physical layout of 155 Virginia across the transition are undocumented (see [[wiki/places/155-virginia-ave]]).
 - The 768/day termination figure's source export is not on disk; the closure-day volume is therefore a known provenance gap, not a settled number.

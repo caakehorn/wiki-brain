@@ -8,14 +8,28 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-17 — 2 pages
+## 2026-08-17 — 15 pages
 
 - **Session log:** restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
+- **Session log:** climb | timeline, people, mind | the 2015 Annie read spread to ten pages, and five of its own corrections did not survive the evidence gate
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/mind/synthesis/bond-switch-2015]] | mind | **CORRECTED** — This page, and its own 2026-08-02 correction about whose exit it was, both assume Annie was unattached. **She was not.** The hand-read of the two-sided corpus (annie-record) has her ending her own rel |
+| [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
+| [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-08-15)_ |
+| [[wiki/people/annie-ulmer]] | people | _(carries a CORRECTED from 2026-08-16)_ |
+| [[wiki/people/casey-bondarenka]] | people | **CORRECTED** — "Overstayed his welcome" implied an established friendship. The hand-read of the Annie corpus (annie-record) dates his arrival precisely: on 2015-11-30 Dan complains *"Casey will never stfu here"* and |
+| [[wiki/people/claire-ulmer]] | people | — |
+| [[wiki/people/ellen-ulmer]] | people | — |
+| [[wiki/people/emilio]] | people | — |
+| [[wiki/people/suzanne-frank]] | people | **CONTRADICTION** — A $200 cocaine spend on 2015-12-29 is **not** established as hers, and an earlier pass wrongly recorded it as such. The record has Annie saying *"And that $200 wasn't even your own"* (23:48) and Dan a |
+| [[wiki/people/zach-clingan]] | people | _(carries a CORRECTED from 2026-08-08)_ |
+| [[wiki/people/zachariah-harshman]] | people | — |
+| [[wiki/timeline/2015-annie-read-wiki-impact-analysis]] | timeline | — |
 | [[wiki/timeline/annie-read-notes]] | timeline | — |
 | [[wiki/timeline/annie-record]] | timeline | — |
+| [[wiki/timeline/periods/2015-2016-annie-relationship-start]] | timeline | **CORRECTED** — The dossier baseline above reads as though two days of relationship had elapsed before *"YOU ARE MY EVERYTHING."* The hand-read (annie-record) times it to **2015-11-29 03:24**, with *"You are my full  |
 
 ## 2026-08-16 — 10 pages
 
@@ -36,7 +50,7 @@ simply listed.
 | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] | timeline | **GAP CLOSED** — This page carried "Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown" as an open question since 2026-07-14. The opera |
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — context-core was revised on 2026-08-16 by a staleness audit that corrected seven claims: the Annie status (closed → live), Tom's corpus weight (16,563 was Kristin's handle), the 337 Saratoga sale and  |
 
-## 2026-08-15 — 20 pages
+## 2026-08-15 — 15 pages
 
 - **Session log:** read | timeline | the read pass gets a second output — entity ledger, leads, motifs — plus Nov 30: Suz paid for the eviction
 - **Session log:** read | timeline | the Annie corpus is 97,768 messages across FOUR handles, and reading two days of it produced 25 events no script found
@@ -46,22 +60,17 @@ simply listed.
 |---|---|---|
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes moved to retract Prediction 1's supporting clause (the Annie bond did not "only ever close when an outside party forced it" — Dan issued the June 1 2026 severance himself and held it 5 |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **CORRECTED** — The Nov 28 2015 message Dan sent Annie — *"Lex cheated on me 2 weeks in after I moved her to fla"* — is him narrating the **2009** beginning of the Alexis relationship as a contrast to how the Annie o |
-| [[wiki/mind/synthesis/bond-switch-2015]] | mind | **CORRECTED** — Every prior version of this table opened with an "Alexis cheating revelation" on 2015-11-28, one day before the Annie introduction, and the adjacency did the causal work throughout the wiki: a betraya |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | **RE-CHECKED** — annie-ulmer moved on 2026-08-15 for the Alexis redating correction (bond-switch-2015): a November 2015 clause inside that page's 2026-08-02 REVISED block now names the introduction date instea |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — alexis-armel and the-unbroken-bond both moved on 2026-08-15 for the same correction: the "cheating" that dated the end of the Alexis relationship to 2015-11-28 is a retrospective account of a |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — annie-ulmer moved on 2026-08-15 to redate a 2015 infidelity to 2009 (bond-switch-2015). This page's dependencies on that page are the Annie-outflow figure, the landlord-debt stretch and Suz's |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-unbroken-bond moved on 2026-08-15 to retract one bullet — the "2015-11-28 Alexis cheating revelation," now redated to 2009 (bond-switch-2015). The quantity this page takes from tha |
-| [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — annie-ulmer moved on 2026-08-15 for the Alexis redating correction (bond-switch-2015). This page references the Alexis-to-Annie switch only as the point at which the primary relationship chang |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — the-unbroken-bond (2026-08-15) retracted the "Alexis cheating revelation" from the November 2015 sequence: the message it rested on describes a **2009** episode, and the corpus places Alexis in Dan's  |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **CORRECTED** — The first bullet of this list previously read *"**2015-11-28** — the Alexis cheating revelation."* There was no such revelation that week; the message it rested on is Dan describing the **2009** start |
-| [[wiki/people/alexis-armel]] | people | **CORRECTED** — The page previously opened this table with *"~mid-Nov 2015 | Dan moves her to Florida"* and read the next day's message — *"Lex cheated on me 2 weeks in after I moved her to fla"* — as a fresh betraya |
-| [[wiki/people/annie-ulmer]] | people | _(carries a RE-CHECKED from 2026-08-13)_ |
 | [[wiki/people/fran-coldren]] | people | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/people/johnny-dealer]] | people | **RE-CHECKED** — timeline moved on 2026-08-15 to correct a single 2015 bullet — the "Lex cheated" calendar row, now identified as a retrospective account of a 2009 episode (bond-switch-2015). This pag |
 | [[wiki/timeline/events/timeline]] | timeline | — |
 | [[wiki/timeline/index]] | timeline | — |
 | [[wiki/timeline/master-timeline]] | timeline | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/timeline/periods/2015-2016-annie-relationship-start]] | timeline | **CORRECTED** — The LIFE_EVENTS_CALENDAR row `2015-11-28: Lex cheated on me 2 weeks in after I moved her to fla` was generated by tagging a message on the date it was *sent*. The message is Dan narrating the **2009** |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | — |
 | [[wiki/timeline/periods/uniontown-return-2013-2015]] | timeline | **CORRECTED** — The message behind it (*"Lex cheated on me 2 weeks in after I moved her to fla"*) is Dan telling Annie how the Alexis relationship **began, in 2009**, at Full Sail — the line before it is *"the exact  |
 
@@ -117,7 +126,7 @@ simply listed.
 | [[wiki/people/rick-frank]] | people | **CORRECTED** — An earlier pass this same day built an entire narrative — "the loudest silence," a "held-block control case," "that is the last message Dan ever sent to this number" — on `imessage_7243667777_both_all |
 | [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 
-## 2026-08-10 — 13 pages
+## 2026-08-10 — 12 pages
 
 - **Session log:** rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
 - **Session log:** ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
@@ -135,7 +144,6 @@ simply listed.
 | [[wiki/people/kevin-mckiernan]] | people | _(carries a CORRECTED)_ |
 | [[wiki/people/marty-jackson]] | people | — |
 | [[wiki/people/renae-holland]] | people | — |
-| [[wiki/people/suzanne-frank]] | people | **CORRECTED** — the exact address is now on record, supplied directly by the operator — **2924 Antique Oaks Circle, Winter Park, FL** — a unit in the **Parkview Village** condominium community (commonly listed at 350 |
 | [[wiki/places/307-e-76th-st]] | places | — |
 | [[wiki/places/90th-st-manhattan]] | places | **CORRECTED** — This section previously stated the exit as "February 2012" without qualification. A dedicated pass on creative-license and kevin-mckiernan found the date is contradicted between sources: Dan's own rés |
 | [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
@@ -166,7 +174,7 @@ simply listed.
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 | [[wiki/timeline/events/robotussin-s-last-dance]] | timeline | — |
 
-## 2026-08-08 — 3 pages
+## 2026-08-08 — 2 pages
 
 - **Session log:** ingest | people | tuquick identity unmasked (Jerel Wayne Coles)
 - **Session log:** rewrite | people, places | full re-research and rewrite of four entries (jacob-bacharach, 117-belmont-circle, zach-harshman→zach-clingan, alexis-armel)
@@ -175,7 +183,6 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/people/jacob-bacharach]] | people | **CONTRADICTION** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figu |
-| [[wiki/people/zach-clingan]] | people | **CORRECTED** — The handle `+18439903264` does not belong to Zachariah Harshman. Two independent contact exports separate the two men cleanly, and their number sets do not overlap at any point. | Source | Zach Clinga |
 | [[wiki/places/117-belmont-circle]] | places | **REVISED** — Earlier versions of this page dated the tenure as "more than fifty years" and left it there, which is true but soft. The GEDCOM fixes a floor at 1961 and supplies the mechanism (a return from Miami Be |
 
 ## 2026-08-03 — 5 pages
@@ -191,7 +198,7 @@ simply listed.
 | [[wiki/people/lucy]] | people | — |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-08-08)_ |
 
-## 2026-08-02 — 35 pages
+## 2026-08-02 — 34 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -225,7 +232,6 @@ simply listed.
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/people/david-j-frank]] | people | — |
 | [[wiki/people/diane-shrum]] | people | **CORRECTED** — family-tree drew Fran's descent through **George Dixon Shrum Jr.**, Dan's maternal *grandfather*. The GEDCOM family records show the opposite: Fran's daughter is Rebecca Diane Van Voorhis, Dan's mater |
-| [[wiki/people/ellen-ulmer]] | people | — |
 | [[wiki/people/franki-faris]] | people | **CONTRADICTION** — This page has carried *"a five-day rebound"* and *"the Franki interlude lasted five days before collapsing,"* sourced to the Gemini-58 and DANSYNTH self-narrations, and dormancy-not-exit uses that fig |
 | [[wiki/people/fred-adams]] | people | — |
 | [[wiki/people/jay-lauer]] | people | — |
@@ -473,7 +479,7 @@ simply listed.
 | [[wiki/work/tech/index]] | work | — |
 | [[wiki/work/tech/mneme/overview]] | work | — |
 
-## 2026-07-19 — 44 pages
+## 2026-07-19 — 43 pages
 
 - **Session log:** ingest | people | long-tail MINE pass (sam, davey-fitzpatrick, vaughn, nick-mattie, urpaaa) + kezmarsky death-claim correction
 - **Session log:** ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
@@ -535,7 +541,6 @@ simply listed.
 | [[wiki/people/trevor]] | people | — |
 | [[wiki/people/urpaaa-at-yahoo-com]] | people | — |
 | [[wiki/people/vaughn]] | people | — |
-| [[wiki/people/zachariah-harshman]] | people | — |
 | [[wiki/self/tattoos]] | self | — |
 | [[wiki/timeline/periods/covid-era-2020]] | timeline | — |
 | [[wiki/work/bfs-foods]] | work | — |
