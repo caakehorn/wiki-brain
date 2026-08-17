@@ -19,7 +19,9 @@ A custom wiki system that aims to be as exhaustive and detailed as possible abou
 
 **At the start of every session, read `LLM_HANDOFF.md`** to understand current state, recent changes and immediate priorities. **When you end, update it** — what you accomplished and the exact focus for the next model. This is what makes the work continuous across sessions and models.
 
-**Then run `bin/wiki-gaps pending`.** Anything it lists is a question the wiki asked and the operator has already answered; it outranks whatever else was queued, because the evidence is in the repo and the only thing missing is the pass that applies it. See CLOSE below.
+**Then read `operator-log.md`, and run `bin/wiki-gaps pending`.** Both list the same thing from different ends: context the operator has supplied that no pass has acted on. It outranks whatever else was queued, because the evidence is already in the repo and the only thing missing is the pass that applies it. See CLOSE below.
+
+The log is the durable half — one append-only file rather than a 460-page scan, it survives `clear`, and it records what was *already* integrated so a session can tell a fresh answer from an old one without reading git history. `pending` is the live half: which pages are carrying a staged answer right now.
 
 ## The three things that matter most
 
@@ -40,7 +42,7 @@ uploaded    source      knowledge
 - **`wiki/`** — the compiled product: accumulated understanding, not a cache of `raw/`. Domains: `self`, `timeline`, `people`, `mind`, `work`, `interests`, `health`, `places`, `legal`. Add a domain only when several pages clearly don't fit an existing one. `wiki/**/archive/` holds pinned oversized artifacts (`status: archived`) — exempt from budgets, never updated.
 - **`exports/`** — output of `bin/export-corpus`; never hand-edit, gitignored.
 - **The portal** — [`caakehorn/home`](https://github.com/caakehorn/home) renders this wiki, and its `public/wiki/**` is a **derived snapshot of `wiki/`, not a second copy of it.** A workflow there re-runs the derivation against this repo on dispatch *and hourly*, deleting the directory and rebuilding it, so **anything written into `public/wiki/` is destroyed within the hour** — including a change that merged. If a session finds itself editing a page as JSON, it is in the wrong repository: pages are `wiki/**.md`, here. This is not a style preference; two December 2015 read passes were written into the snapshot and one was reverted 39 minutes after merging (restored 2026-08-17).
-- **Meta files** (root): `index.md` master navigation · `log.md` append-only operation log · `queue.md` pending-ingest ledger · `connection-queue.md` mined edge backlog · `synthesis-queue.md` mined climb backlog · `BACKLOG.md` standing work.
+- **Meta files** (root): `index.md` master navigation · `log.md` append-only operation log · `operator-log.md` append-only ledger of operator additions (written by `bin/wiki-gaps`, never by hand) · `queue.md` pending-ingest ledger · `connection-queue.md` mined edge backlog · `synthesis-queue.md` mined climb backlog · `BACKLOG.md` standing work.
 
 Git is the history mechanism. Commit after every ingest with `<op>: <short description>`. Never commit secrets or `exports/`.
 
@@ -133,7 +135,7 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 | `bin/export-corpus` | concatenates the wiki into one markdown file for LLM ingestion, with a token estimate |
 | `bin/wiki-search`, `bin/wiki-status`, `bin/wiki-tui` | search, status, terminal browser |
 | `bin/ingest-pack` / `bin/ingest-apply` | the any-LLM paste-box route (`INGEST_PROTOCOL.md`) |
-| `bin/wiki-gaps` | operator-facing: answer an open gap, or volunteer a fact the page never asked for, and stage it for the next pass. `pending` lists what is waiting; `clear` closes the loop |
+| `bin/wiki-gaps` | operator-facing: answer an open gap, or volunteer a fact the page never asked for, and stage it for the next pass. `pages [filter]` lists **every** page so any of them can take a manual addition; `list` lists only those with open items; `pending` lists what is waiting; `clear` closes the loop and marks `operator-log.md`. Reads gaps, open leads, corrections queues and "what's missing" sections alike |
 
 ## Before every commit
 

@@ -12,6 +12,7 @@ simply listed.
 
 - **Session log:** restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
 - **Session log:** climb | timeline, people, mind | the 2015 Annie read spread to ten pages, and five of its own corrections did not survive the evidence gate
+- **Session log:** close | people, timeline, mind | the operator named "turd boy", and three separate incidents became one retaliation arc
 
 | Page | Domain | What moved |
 |---|---|---|

@@ -56,17 +56,73 @@ ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
 
 SECTION = "## Operator answers — pending ingest"
+# Append-only ledger of every addition this tool stages. The `pending_ingest:`
+# flag marks a page; this records the *event*, survives `clear`, and is one file
+# rather than a 460-page scan — so a session can open it first and see the whole
+# backlog, and see what was already integrated without reading git history.
+LOG = ROOT / "operator-log.md"
+LOG_HEADER = [
+    "# Operator Additions Log",
+    "",
+    "_Append-only. Written by `bin/wiki-gaps`; do not hand-edit — the tool marks",
+    "rows integrated when `bin/wiki-gaps clear <page>` runs._",
+    "",
+    "**Read this at the start of a session.** Every row with an empty",
+    "**Integrated** cell is context the operator has supplied that no pass has",
+    "acted on yet. That outranks queued work: the evidence is already in the",
+    "repo and the only thing missing is the pass that applies it. The protocol",
+    "for applying one is CLAUDE.md's CLOSE operation — treat the answer as T0",
+    "testimony rather than proof, integrate rather than append, cascade into",
+    "every page that inherited the gap, then clear.",
+    "",
+    "| Staged | Page | Kind | Gist | Capture | Integrated |",
+    "|---|---|---|---|---|---|",
+]
 FLAG = "pending_ingest"
 
-# The heading of a gaps section. `## Gaps` is 107 of the 112 in the corpus; the
-# rest are the same section under a different name. Matched exactly rather than
+# The heading of an *unsettled-information* section. `## Gaps` is most of them;
+# the rest are the same idea under a different name. Matched exactly rather than
 # by "contains the word gap", which would swallow prose headings like
 # "## The landscape gap he identifies".
+#
+# Widened 2026-08-17 beyond gaps proper, because a gap is not the only shape
+# unsettled information takes. A read pass records what it could not resolve as
+# "open leads"; a pass that finds a standing claim wrong records it in a
+# "corrections queue" — both are questions the operator can answer, and neither
+# was reachable by this tool. `wiki/timeline/annie-read-notes.md` alone carried
+# four such sections holding sixteen items, none of them listed anywhere.
+#
+# An optional leading number is allowed because those sections are often
+# numbered (`## 2. Open leads`), and an optional leading "new" because a read
+# that appends per-batch sections names them `## New open leads`.
+#
+# KEEP IN STEP with the same pattern in `bin/wiki-digest` and with GAP_HEAD in
+# caakehorn/home's `scripts/sync-wiki.mjs` — all three must agree page-for-page,
+# or the tool cuts an item the site cannot find and the digest miscounts.
 GAP_HEAD = re.compile(
-    r"^(#{2,3})\s+(gaps?\b|notes\s+(and|&)\s+gaps\b|corpus gaps\b|open questions\b)",
+    r"^(#{2,3})[ \t]+(?:\d+[.)][ \t]*)?(?:new[ \t]+)?("
+    r"gaps?\b"
+    r"|notes[ \t]+(?:and|&)[ \t]+gaps\b"
+    r"|corpus[ \t]+gaps\b"
+    r"|open[ \t]+questions\b"
+    r"|open[ \t]+leads\b"
+    r"|leads\b"
+    r"|corrections[ \t]+queue\b"
+    r"|what'?s[ \t]+missing\b"
+    r"|unresolved\b"
+    r")",
     re.I,
 )
 BULLET = re.compile(r"^([-*]|\d+\.)\s+\S")
+# A corrections queue is a table, and its *rows* are the unsettled items — the
+# whole table is not one answerable thing. Added 2026-08-17 with the widened
+# GAP_HEAD, without which those sections arrive as a single 40-line blob.
+TABLE_ROW = re.compile(r"^[ \t]*\|")
+TABLE_RULE = re.compile(r"^[ \t]*\|[\s:|-]+\|[ \t]*$")
+# A row that has already been dealt with. `~~`/CLOSED/RESOLVED/SETTLED are
+# handled for every item shape; these two are how the corrections tables in
+# wiki/timeline/annie-read-notes.md mark a row done.
+DONE_CELL = re.compile(r"\b(applied|n/a)\b", re.I)
 
 PREAMBLE = [
     "> Transient staging, written by `bin/wiki-gaps`. Each block below is the",
@@ -198,8 +254,37 @@ def parse_items(lines, lo, hi):
     if cur:
         blocks.append(cur)
 
-    for block in blocks:
+    # A section that lists its items as bullets may also open with a sentence
+    # or two of prose explaining the list. `## Gaps` rarely does; `## Open
+    # leads` and `## Corrections queue` usually do, and offering that prose up
+    # as an answerable item is noise the operator has to skip every time. So:
+    # once a section is known to use bullets, anything before the first bullet
+    # is preamble. Sections with no bullets anywhere keep the old behaviour,
+    # because there a bare paragraph *is* the gap.
+    def itemised(block):
+        return any(BULLET.match(lines[i]) or TABLE_ROW.match(lines[i]) for i in block)
+
+    first_itemised = next((n for n, b in enumerate(blocks) if itemised(b)), None)
+
+    for n, block in enumerate(blocks):
+        if first_itemised is not None and n < first_itemised:
+            continue
         first = lines[block[0]].lstrip()
+        # a table: one item per data row, header and rule dropped
+        if TABLE_ROW.match(lines[block[0]]):
+            for i in block:
+                if TABLE_RULE.match(lines[i]):
+                    continue
+                cells = [c.strip() for c in lines[i].strip().strip("|").split("|")]
+                # the header row is the one immediately above the rule
+                if any(TABLE_RULE.match(lines[j]) for j in block if j == i + 1):
+                    continue
+                if not any(cells):
+                    continue
+                if DONE_CELL.search(cells[-1]):
+                    continue
+                items.append({"lo": i, "hi": i + 1})
+            continue
         # meta rather than a gap: sub-headings, blockquotes, "_None open._"
         if first.startswith("#") or first.startswith(">"):
             continue
@@ -219,7 +304,14 @@ def parse_items(lines, lo, hi):
     live = []
     for it in items:
         it["text"] = "\n".join(lines[it["lo"] : it["hi"]])
-        it["gist"] = flatten(it["text"])
+        if TABLE_ROW.match(it["text"]):
+            # a row reads as prose with the pipes turned into separators; the
+            # raw text is kept intact for staging, only the one-line gist changes
+            it["gist"] = flatten(" · ".join(
+                c.strip() for c in it["text"].strip().strip("|").split("|") if c.strip()
+            ))
+        else:
+            it["gist"] = flatten(it["text"])
         if not it["gist"]:
             continue
         # Already settled, by the same two marks `bin/wiki-digest` filters OPEN.md
@@ -242,8 +334,13 @@ def gaps_of(path):
     spans = find_sections(lines, is_gap_head)
     items = []
     for i, j in spans:
+        # The heading an item came from, so a consumer can tell an unanswered
+        # question ("## Gaps") from an unchased one ("## Open leads") from a
+        # standing claim the read contradicted ("## Corrections queue").
+        head = re.sub(r"^#+[ \t]*(?:\d+[.)][ \t]*)?", "", lines[i]).strip()
         for it in parse_items(lines, i + 1, j):
             it["section"] = (i, j)
+            it["head"] = head
             items.append(it)
     items.sort(key=lambda it: it["lo"])
     return lines, spans, items
@@ -391,7 +488,43 @@ def apply_answer(page, item, answer):
     lines = set_flag(lines, end)
 
     page.write_text("\n".join(lines).rstrip("\n") + "\n", encoding="utf-8")
+    log_row(page, item, source_rel, answer)
     return source_rel, None
+
+
+def log_row(page, item, source_rel, answer):
+    """Append one row to the operator log. Never rewrites an existing row."""
+    if not LOG.exists():
+        LOG.write_text("\n".join(LOG_HEADER) + "\n", encoding="utf-8")
+    gist = flatten(item["text"]) if item else flatten(answer)
+    kind = "gap" if item else "manual"
+    if item and item.get("head"):
+        kind = slugify(item["head"], 18) or "gap"
+    row = "| %s | %s | %s | %s | %s | |" % (
+        today(), slug_of(page), kind, clip(gist.replace("|", "\\|"), 90),
+        source_rel,
+    )
+    with LOG.open("a", encoding="utf-8") as fh:
+        fh.write(row + "\n")
+    return row
+
+
+def log_integrated(page):
+    """Mark this page's open rows integrated. Rows are kept, never deleted."""
+    if not LOG.exists():
+        return 0
+    slug = slug_of(page)
+    out, n = [], 0
+    for line in LOG.read_text(encoding="utf-8").split("\n"):
+        cells = line.split("|")
+        # a data row is `| staged | page | kind | gist | capture | integrated |`
+        if len(cells) == 8 and cells[2].strip() == slug and not cells[6].strip():
+            cells[6] = " %s " % today()
+            line = "|".join(cells)
+            n += 1
+        out.append(line)
+    LOG.write_text("\n".join(out), encoding="utf-8")
+    return n
 
 
 def clear(page):
@@ -412,8 +545,11 @@ def clear(page):
         if FLAG in keys:
             del lines[keys[FLAG]]
     page.write_text("\n".join(lines).rstrip("\n") + "\n", encoding="utf-8")
+    marked = log_integrated(page)
     print("%s: cleared %d staged answer(s) and the %s flag" % (slug_of(page), n, FLAG))
     print("  the answers remain in raw/ — cleared means integrated, not discarded")
+    if marked:
+        print("  %d row(s) marked integrated in %s" % (marked, LOG.name))
     return n
 
 
@@ -508,7 +644,37 @@ def cmd_list(query=None):
     print("%d open gap(s) across %d page(s)%s\n" % (total, len(rows), " matching %r" % query if query else ""))
     for n, slug, gist in rows:
         print("  %3d  %-52s %s" % (n, clip(slug, 52), clip(gist, 60)))
-    print("\nOpen one:  bin/wiki-gaps <part-of-a-page-name>")
+    print("\nOpen one:      bin/wiki-gaps <part-of-a-page-name>")
+    print("Any page:      bin/wiki-gaps pages [filter]   — add to a page with no open items")
+
+
+def cmd_pages(query=None):
+    """Every page, so any of them can carry a manual addition.
+
+    `list` answers "where are the open questions"; this answers "what can I add
+    to", which is a different question and used to have no answer — a page with
+    no Gaps section was unreachable from the tool's own listings even though
+    MANUAL has always worked on it.
+    """
+    rows = []
+    for p in all_pages():
+        slug = slug_of(p)
+        if query and query.lower() not in slug.lower():
+            continue
+        _, _, items = gaps_of(p)
+        staged = bool(re.search(r"^%s:" % FLAG, read(p), re.M))
+        rows.append((slug, len(items), staged))
+    if not rows:
+        print("no page matches %r" % query)
+        return
+    rows.sort()
+    print("%d page(s)%s — any of them can take a manual addition:\n"
+          % (len(rows), " matching %r" % query if query else ""))
+    for slug, n, staged in rows:
+        mark = "*" if staged else " "
+        print("  %s %-58s %s" % (mark, clip(slug, 58), "%d open" % n if n else "—"))
+    print("\n  * = already holding a staged answer")
+    print("\nAdd to one:  bin/wiki-gaps <part-of-a-page-name>   then choose M")
 
 
 def cmd_pending():
@@ -628,6 +794,9 @@ def main(argv):
     cmd = argv[0]
     if cmd == "list":
         cmd_list(argv[1] if len(argv) > 1 else None)
+        return 0
+    if cmd == "pages":
+        cmd_pages(argv[1] if len(argv) > 1 else None)
         return 0
     if cmd == "pending":
         cmd_pending()
