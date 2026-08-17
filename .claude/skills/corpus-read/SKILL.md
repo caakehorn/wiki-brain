@@ -420,6 +420,8 @@ The Annie Read project stores data in **two repos with a strict hierarchy**:
 
 **The home repo is derived from wiki-brain via `sync-wiki.yml`** (runs hourly and on dispatch). Edits to home's `public/wiki/` are overwritten by the sync. **Always edit wiki-brain first.** The home repo receives the content through the sync pipeline.
 
+**Work in caakehorn/wiki-brain. Pages are wiki/**.md — edit those. Run bin/annie-corpus read FROM TO for the window, and update both wiki/timeline/annie-record.md and wiki/timeline/annie-read-notes.md in the same pass. Never edit public/wiki/** in caakehorn/home: it is a build artifact regenerated from this repo hourly, and anything written there is deleted within the hour.**
+
 ## 10. Known failure modes, in the order they actually occur
 
 1. **Reaching for a script.** The instant the corpus feels too big, the urge is
