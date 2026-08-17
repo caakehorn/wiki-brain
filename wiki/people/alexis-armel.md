@@ -445,6 +445,17 @@ The chat archive does not support it. The archive is six years of a soft,
 broke, funny, mutually attentive household, and the volatility in the record
 belongs to the week it ended.
 
+## Post-eviction hostility (Dec 2015)
+
+After the eviction, Alexis remains hostile toward Annie and Dan:
+
+- **Dec 3, 2015**: Alexis texts Annie: *"happy 7 years. enjoy your herpes. bye"* (16:29). Dan shows Annie. Dan drafts a text to Alexis asking her to lay off Annie. Annie edits it. Dan sends it (16:56). Alexis's phone goes off at the bar.
+- **Dec 9, 2015**: Alexis texts Annie: *"You don't need to come in"* (13:57). Annie quits CT's.
+- **Dec 14, 2015**: Alexis asks Dan for help. Dan refuses: *"I'm not actively trying to fuck her life up but I would neeeever do a single thing to HELP her"* (10:52).
+
+This is the earliest post-eviction statement of Dan's policy toward Alexis — non-intervention, non-assistance.
+
+
 ## Gaps
 
 The length of the relationship is quoted three different ways and the corpus
