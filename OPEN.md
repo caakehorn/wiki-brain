@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 32 |
-| Open gaps | 276 |
+| Open gaps | 305 |
 | Answered, awaiting ingest | 5 |
 | Standing predictions | 13 |
 
@@ -193,10 +193,14 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (106)
+### people (110)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
+- **[[wiki/people/annie-ulmer]]** — The compiled full-record files the dossiers drew from (`Dan_Annie_Full_Text.txt`, `1_year_triad_logs.csv`, `7_days_212_logs.csv`, `14_day_212_logs.csv`) aren't archived in `raw/`; the underlying iMessage data exists and the 88,549-line dual-handle export has b
+- **[[wiki/people/annie-ulmer]]** — Two gaps open with the 2026-08-13 pass. **The severance sweep is 81.6% complete**: 9,259 of Annie's 50,332 in-window received messages — the +17249204125 thread and both email handles, concentrated in 2016 and 2019–2020 — have never been searched for a severan
+- **[[wiki/people/annie-ulmer]]** — Two pregnancy references sit at very different confidence levels. One, surfacing only in two chat-analysis sources that elsewhere required correcting their own confabulations, claims a specific due date (November 18, working back to conception 33 days after th
+- **[[wiki/people/annie-ulmer]]** — Three gaps open with the July 2026 re-contact and stay open. The identity of the man Annie describes as having raped her on July 25 is not stated anywhere in the exchange, including whether he is Tuquick; the allegation itself is recorded as made, on that date
 - **[[wiki/people/annoying]]** — Real identity is unknown — "annoying" is Dan's own contact-card label, giving no clue to a real name. No activity is recorded before or after the six-week window.
 - **[[wiki/people/betherin-mechling]]** — Her surname's spelling is taken from the operator capture and her first name from the message corpus, which uses "Betherin" consistently; no independent document confirms either. The relationship to Annie is given as "cousin" by the capture and is consistent w
 - **[[wiki/people/bill]]** — Last name, and whether contact continued past September 2018, are undocumented.
@@ -350,8 +354,33 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 
-### timeline (32)
+### timeline (57)
 
+- **[[wiki/timeline/2015-annie-read-wiki-impact-analysis]]** — These are the standing wiki claims the read contradicts or sharpens. **None have been applied.**
+- **[[wiki/timeline/annie-read-notes]]** — Chaseable questions this read raised. Each is a specific thing to look for, not a topic.
+- **[[wiki/timeline/annie-read-notes]]** — 2. **The "Casey saga," Nov 30, 23:00** — *"the worst part of the Casey saga / It is bombastic"* — moves to a phone call and is never restated in text. Look: Dec 1–3 for a retelling, and Casey's own channel.
+- **[[wiki/timeline/annie-read-notes]]** — 3. **The missing laptop (Nov 30)** — disappears during Alexis's move-out; Harshman reports Dan *"shouldn't worry"* about it. Resolution unrecorded.
+- **[[wiki/timeline/annie-read-notes]]** — 4. **Dan's "love letters" are sent to an inbox, not by text** (Nov 30, 06:51 / 13:20 — Annie initially cannot find them, Dan resends). **There is an email channel carrying the most deliberate writing of the relationship's first week, and none of it is in the m
+- **[[wiki/timeline/annie-read-notes]]** — 5. **What was "the story" both parties stuck to?** (Nov 30, 22:21 — *"I have stuck to the story 100% so you don't need to worry about saying something wrong"*). A jointly maintained cover narrative existed; its content is not in the text.
+- **[[wiki/timeline/annie-read-notes]]** — 6. **Annie's pre-Dan nude leak** (2015-11-29, 03:17) — distinct from the MyFreeCams history and from the 2018 blackmail episode already on her page. Three separate incidents may be being conflated somewhere.
+- **[[wiki/timeline/annie-read-notes]]** — 7. **Does the email handle `alulmer28@gmail.com` carry anything outside 2020-07→10?** It is the only source for autumn 2020; worth checking whether other exports hold more of it.
+- **[[wiki/timeline/annie-read-notes]]** — 8. **Who told Ellen Ulmer that Annie's car was at Dan's?** (Dec 2, ~18:44 — *"someone told me your car was at Dan Frank's this morning"*). The informant is unnamed; Casey is blamed by both parties. Resolution unrecorded.
+- **[[wiki/timeline/annie-read-notes]]** — 9. **What does Rick Frank say to Annie's dad?** (Dec 2, 23:56 — *"Rick said Call me tomorrow. I will help you fix this"* / *"He and my dad are buds"*). Rick's intervention is the turning point of the Dec 2 crisis; its content is not in the text.
+- **[[wiki/timeline/annie-read-notes]]** — 10. **What is Zach Clingan's threat?** (Dec 9, ~15:17 — *"I have to talk to you"* / *"have you lost your damn mind"* / *"keep my eyes open"* / *"he had his ex move out and you were there the next day. That makes you look like shit and he's going to treat you l
+- **[[wiki/timeline/annie-read-notes]]** — 11. **What is in the "large package"?** (Dec 11, ~11:30 — Dan signs for a "certain large package" and tells Annie there's an "even BIGGER package" for her). The Christmas present is never described; its identity is a gap.
+- **[[wiki/timeline/annie-read-notes]]** — 12. **What happens on Dec 12?** The Dec 12 window ends with Annie coming over and the promise of "the BEST night"; the rest of the day is unread.
+- **[[wiki/timeline/annie-read-notes]]** — Wiki claims this read contradicts or sharpens. Not yet applied except where noted.
+- **[[wiki/timeline/annie-read-notes]]** — | Page | Standing claim | What the read shows | |---|---|---| | `mind/synthesis/bond-switch-2015` | the switch is Dan leaving Alexis for an unattached Annie | **Annie had her own partner and ended it in the same week.** The switch was mutual. **Not yet applied
+- **[[wiki/timeline/annie-read-notes]]** — 1. **What did Alexis ask Dan for on Dec 13?** Annie says "I can't believe she asked you that last night" — the content is never stated. Worth a targeted read of the Alexis export around Dec 12-13.
+- **[[wiki/timeline/annie-read-notes]]** — 2. **Who is "Lukeyan"?** Dan debriefed him at 3:43am on Dec 15. Not in any existing contact list. Identity question.
+- **[[wiki/timeline/annie-read-notes]]** — 3. **What is Annie'scam history?** She references "doing all the shit I did before" (Dec 13, 11:13) and "I wouldn't go as far as I did before" — this predates the MyFreeCams history on her wiki page.
+- **[[wiki/timeline/annie-read-notes]]** — 4. **Did Annie take a pregnancy test?** The Dec 16 scare is unresolved in this window. The next export (Dec 17+) should address it.
+- **[[wiki/timeline/annie-read-notes]]** — | Page | Standing claim | What the read shows | Applied? | |---|---|---|---| | Annie Ulmer | Pre-Dan nude leak from MyFreeCams | Dec 13, 11:11: Annie references "doing all the shit I did before" — this predates the MyFreeCams history and is a distinct earlier 
+- **[[wiki/timeline/annie-read-notes]]** — 1. **Who is Lukyan?** He drops off marijuana for the "stay away from coca" plan. Not in any existing contact list. Identity question.
+- **[[wiki/timeline/annie-read-notes]]** — 2. **What happened at j's?** Annie references "one of the last times I was over at j's" — a needle/ice incident. Who is j?
+- **[[wiki/timeline/annie-read-notes]]** — 3. **Did Annie take a pregnancy test?** The Dec 16 scare is unresolved. The next export (Jan 1+) should address it.
+- **[[wiki/timeline/annie-read-notes]]** — 4. **What happened with the CT's job?** Annie was told she'd be bartending NYE but was forced to serve. She's furious. Next shift unknown.
+- **[[wiki/timeline/annie-read-notes]]** — | Page | Standing claim | What the read shows | Applied? | |---|---|---|---| | Annie Ulmer | Pre-Dan nude leak from MyFreeCams | Dec 29, 17:43: Annie references a needle/ice incident at "j's" — this predates the MyFreeCams history and is a distinct earlier epi
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — How many total times Alexis and Annie were together beyond the specifically dated messages is unknown

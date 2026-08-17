@@ -37,7 +37,9 @@ CONTRA_RE = re.compile(r"^>\s*\*\*CONTRADICTION[^*]*\*\*:?\s*(.{0,400})", re.M |
 # than one — jerel-coles has both an `## Open questions` and a `## Gaps` — so this
 # is iterated, never searched once.
 GAPS_SECTION = re.compile(
-    r"^##+[ \t]+(?:gaps?\b|notes[ \t]+(?:and|&)[ \t]+gaps\b|corpus gaps\b|open questions\b)"
+    r"^##+[ \t]+(?:\d+[.)][ \t]*)?(?:new[ \t]+)?"
+    r"(?:gaps?\b|notes[ \t]+(?:and|&)[ \t]+gaps\b|corpus[ \t]+gaps\b|open[ \t]+questions\b"
+    r"|open[ \t]+leads\b|leads\b|corrections[ \t]+queue\b|what'?s[ \t]+missing\b|unresolved\b)"
     r".*?$(.*?)(?=^##\s|\Z)",
     re.M | re.S | re.I,
 )

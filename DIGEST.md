@@ -17,7 +17,7 @@ this is the state of the thing.
 | Pages touched in the last 14 days | 101 |
 | Pages reasoning from other pages (`synthesizes:`) | 27 |
 | Live contradictions | 32 |
-| Open gaps | 276 |
+| Open gaps | 305 |
 | Standing predictions | 13 |
 
 ## By domain
@@ -49,6 +49,7 @@ this is the state of the thing.
 **2026-08-17** — 15 pages
   - restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
   - climb | timeline, people, mind | the 2015 Annie read spread to ten pages, and five of its own corrections did not survive the evidence gate
+  - close | people, timeline, mind | the operator named "turd boy", and three separate incidents became one retaliation arc
 
 **2026-08-16** — 10 pages
   - close | timeline | shelbie-annie-threesome — the operator dated it, and the corpus showed the page had the authorship backwards

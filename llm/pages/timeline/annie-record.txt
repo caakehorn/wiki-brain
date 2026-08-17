@@ -64,7 +64,7 @@ handles — `+17244346811` (2015-11 → 2018-12), `+17249204125` (2018-12 →
 
 | Read through | Messages read | Of 97,768 | Events recorded |
 |---|---|---|---|
-| **2015-12-31** | 13,635 | 13.9% | ~160 |
+| **2015-12-31** | 13,635 | 13.9% | 186 |
 
 Each pass produces **two** outputs: events here, and everything else —
 entity ledger, open leads, motif tracking, corrections queue — on
@@ -74,8 +74,7 @@ captured after the fact are notes not captured.
 **Resume at `bin/annie-corpus read 2016-01-01`.** January 2016 is the first full month of the relationship — Annie starts Nguyen's (Jan 1), and the holiday flood ends. December 2015 is the onset
 flood — 12,000 messages across 31 days — and it will take several sessions.
 
-**Rate note for whoever picks this up:** five days of reading produced 79
-events, several of which correct or date claims the wiki has carried for months.
+**Rate note for whoever picks this up:** the first 34 days of the relationship produced ~160 events from 13,635 messages, several of which correct or date claims the wiki has carried for months.
 The first days of a relationship are unusually dense, so this rate will fall —
 but the 2026-08-14 mechanical pass produced *zero* of these from the same
 underlying material, because none of them are stated anywhere as a dated
@@ -835,6 +834,8 @@ life partner / A guy could ask for"* (16:56).
 **2015-12-17, ~17:14 — "I can't wait to be your house wife."** Annie: *"I love every single day with you / I can't wait to be your house wife"* (17:14). Dan: *"Yeah let's do that ASAP"* (17:15). Annie: *"And cook and clean all day every day for you"* (17:15). Dan: *"Nahhh well pay someone for that. You can mani pedi etc"* (17:15–17:16). Annie: *"No no no / I enjoy those things"* (17:16). This is the first explicit "house wife" discussion — Annie framing domestic labor as desire, Dan reframing it as something to outsource so Annie can enjoy herself.
 
 **2015-12-19, ~01:58 — Email confusion, and Betty peeping.** A brief window: 16 messages. Annie's email coming through Emil's (2am). Betty peeping. Minimal content — a data gap or genuine quiet period.
+
+> **Gap note:** Dec 18–24 have no entries (Dec 17 and Dec 19 have minimal traffic). This is a data gap — no traffic or missing exports. Per EXTRACTION_SPEC.md: a zero is data only when the system could have observed a one.
 
 **2015-12-25, ~08:15 — Merry Christmas.** Dan: *"Hi / Merry Christmas perfect"* (08:15). Annie: *"Merry Christmas worlds best boyfriend!!!!"* (08:15). Annie opens gifts: turntable, record, clothes, makeup, Kate Spade purse (10:18–10:19). Dan: *"There it is"* (recognizing the Kate Spade). Annie: *"First thing he played was the album from you and we listened all during breakfast"* (10:54). The turntable and record are from Will (Annie's brother). Dan: *"2015 is my fav Christmas of all time / It's better than my kid Christmases when I'd get mad toys and stuff / Last year I think I woke up at 3pm / On Christmas and couldn't have given less of a fuck that it was happening / I bought gifts for nobody / Idk everything just feels super different / YOU did this!"* (10:32–10:39). This is Dan's most explicit statement of what Christmas means to him — the contrast between last year (alone, 3pm wakeup, no gifts) and this year (with Annie).
 
