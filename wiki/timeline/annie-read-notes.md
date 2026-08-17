@@ -427,7 +427,6 @@ front of someone.
 | Jan 24 | 114 | ~60 | ~54 | "I'll be with you forever and ever" |
 | **Total** | **4,877** | **~2,455** | **~2,422** | |
 
-
 ---
 
 ## Synthesis pass — 2026-08-18 (window 2016-01-01 → 2016-01-24)
@@ -450,6 +449,7 @@ Second run of the spread step on this read. Every claim below was gated on a ver
 **No climb was written**, deliberately. The January 2016 material is dense but it all belongs to existing pages — annie-ulmer for the relationship narrative, supply-network for the drug escalation, bond-switch-2015 for the marriage frame. No new synthesis page is warranted.
 
 **Next on this page.** [[wiki/timeline/annie-record]] still carries **zero `[[wiki/…]]` links across its December entries** against 13 in the Nov 28–30 block. Cross-linking Dec 1–31 remains mechanical, high-value and not done.
+>>>>>>> origin/main
 
 ---
 

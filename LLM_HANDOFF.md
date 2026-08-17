@@ -4,6 +4,26 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-17] - Session: every staged operator answer integrated, and one of them contradicted the man who gave it
+
+* **Model:** Claude Code (remote) · **Branch:** `claude/close-staged-answers`
+* **Trigger:** Operator: *"Can you incorporate and ingest all outstanding additions to the gaps tool which haven't been implemented yet."*
+* **Six answers across five pages, all applied per CLAUDE.md CLOSE.** `bin/wiki-gaps pending` now reports **nothing staged**.
+* **Two of the six were already answerable from the wiki's own pages.** `ellen-ulmer` asked whether Ellen and Dan had contact after the June 2026 severance — `july-august-2026-reentanglement` has carried the 06:22 July 26 disclosure since it was written. `kristin` asked when the $40 went missing — its own body quotes *"I've been answering for where it is gone for the last week"* (Nov 2). **Neither was a missing fact; both were cascade failures**, a page declaring a gap the corpus had already filled.
+* **THE FINDING: an in-attack claim was contradicted by the man who made it.** `milo` carried Dan's line that Annie *"couldn't even stay with her when they put her down so she had to go through it alone"*, flagged as *"sourced only to Dan, in an attack, and uncorroborated."* The operator ten months later: Betty seized at Dan's in June 2025, he called Annie urgently, *"we took her to the vet where annie made the decision to euthanize her."* Annie was present; it was her decision. **This is the corpus's first real test of a heuristic the wiki applies constantly and had never validated** — a mid-fight assertion is weak evidence even from the only witness. Every July-August 2026 claim resting on one party's word in a fight inherits the discount.
+* **The same answer supplies a mechanism.** Betty came to Dan because Annie asked and he agreed — *"As i saw it as an 'in' to more time with annie, i enthusiastically accepted."* A year later the June 2026 closure broke through Milo, the co-held animal `block-unblock-loop` calls the channel carrying nothing material. Dan named that mechanism himself, in 2025, as a thing he chose. The 2026 reopening is its second run.
+* **A standing prediction resolved.** Tom endpoint held — *"No I have not been in contact with tom"*, eleven weeks. Recorded as a confirmation **and** as provisional on elapsed time: the Annie closure ran fifty-two days before failing, so eleven weeks is weaker evidence than it looks. Kristin's block confirmed held at eight months, upgrading her from unobserved silence to a real inbound control.
+* **One answer made the record worse.** `robotussin-s-last-dance`: the DXM was still coming up when they left Ruby Tuesday's, so the 95 mph Rt 51 drive was at peak intoxication, not a downslope. Volunteered, self-incriminating, about a story always told as adventure — the opposite behaviour to the in-attack claim, from the same source.
+* **TOOL DEFECT FOUND AND FIXED.** All six were staged **from the portal**, and `operator-log.md` logged only CLI writes — it would have silently understated what was waiting. The log is now **reconciled from the pages** before `pending` and before `clear`, so an answer staged anywhere is caught and a portal-staged answer cleared without logging still leaves a row. New `bin/wiki-gaps log`.
+* **Gates:** wiki-lint **1 error** (`master-timeline.md` invalid tags, pre-existing/generated) · wiki-connect **0** · wiki-climb **0 errors, 16 staleness warnings**.
+* **RESUME POINT:**
+  1. **Staleness is now 16 and none of it is cleared.** 11 from the synthesis pass, plus `milo` moving. `the-unbroken-bond` and `dormancy-not-exit` are the ones whose conclusions may actually move.
+  2. **Re-check the Tom and Menore control rows on elapsed time** — both are holds scored at a duration shorter than the one failure the rule has.
+  3. **Pull the 2026-07-26 Ellen message from the text logs.** The operator says it is there, around 7am; `july-august-2026-reentanglement` records it as an email at 06:22 and *"not in `raw/`"*. Medium and time both disagree — pull the window and settle it.
+  4. Corrections pass over the Dec 1-31 Annie entries, still not started.
+  5. Continue the read at `bin/annie-corpus read 2016-01-01`.
+* **Handoff Note:** `bin/wiki-gaps log` is the fastest way to see operator context awaiting a pass; it reconciles as a side effect, so run it rather than trusting the file.
+
 ### [2026-08-17] - Session: the 2015 Annie read spread to ten pages, and five of its own corrections failed the evidence gate
 
 * **Model:** Claude Code (remote) · **Branch:** `annie-synthesis-2015-11-12`

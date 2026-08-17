@@ -5,12 +5,12 @@ title: "The Re-entanglement, July 26 – August 2 2026"
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-02
-pending_ingest: 2026-08-16
+date_modified: 2026-08-17
 date_range_start: 2026-07-26
 date_range_end: 2026-08-02
 importance: critical
 sources:
+  - raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md
   - raw/self/message-csv/imessage_export_2124702449_20260802.csv
 tags: [relationships, trauma-bond, attachment, addiction-recovery, forensic-analysis, mental-health, pets]
 connections:
@@ -414,10 +414,15 @@ sentence is withheld, and the withholding is what the loop runs on.
 
 ## Gaps
 
-- **The email to Ellen on July 26 is not in `raw/`** — only Dan's statement
-  that he sent it and Annie's reaction. Its contents, and Ellen's reply if
-  any, are unrecovered. The same is true of the July 28 email that appears
-  never to have been sent.
+- **The Ellen message of July 26 may be recoverable after all, and may not be
+  an email.** This page recorded it as an email not in `raw/`. The operator
+  (2026-08-17) places it *"in the text logs on 26 July 2026 at around 7am"*,
+  along with the threatening messages sent from Annie's number in the hours
+  before. If that is right the contents are retrievable and this gap is a
+  search, not an absence — but the two accounts disagree on both **medium**
+  (email vs text) and **time** (06:22 here vs ~07:00), so pull the window
+  rather than assuming either. The July 28 email that appears never to have
+  been sent is unaffected.
 - **The man is unidentified**, by design. Whether he is
   [[wiki/people/tuquick-17248123683|Tuquick]] remains unstated in any
   source.
@@ -434,28 +439,26 @@ sentence is withheld, and the withholding is what the loop runs on.
   arriving at Dan's house daily at noon, who by volume is now the corpus's
   most active supply contact and has no page.
 
-## Operator answers — pending ingest
+> **GAP CLOSED [2026-08-17] — Betty, and what it says about in-attack claims.**
+> This page flagged Dan's 02:59 line — *"You couldn't even stay with her when
+> they put her down so she had to go through it alone"* — as *"sourced only to
+> Dan, in an attack, and uncorroborated."* The operator's later account
+> contradicts it: Betty seized early one morning in **June 2025** while staying
+> at Dan's, he called Annie urgently, *"we took her to the vet where annie made
+> the decision to euthanize her."* Annie was present and it was her call.
+>
+> The full account, including how Betty came to be in Dan's care — Annie asked,
+> and Dan accepted because he *"saw it as an 'in' to more time with annie"* — is
+> written up on [[wiki/people/milo]], where the Betty material already lived.
+> What belongs here is the methodological result: **an in-attack claim this page
+> declined to treat as fact was later contradicted by the person who made it.**
+> Every assertion in the July–August window that rests on one party's word
+> mid-fight inherits that discount, and this page carries several.
 
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-16] — Betty's final weeks are described here for the first time — that Annie…
-
-**The gap, as this page stated it:**
-
-> - **Betty's final weeks** are described here for the first time — that Annie
->   withdrew from her before she was euthanised and was not present at the end
->   ("You couldn't even stay with her when they put her down so she had to go
->   through it alone"). Sourced only to Dan, in an attack, and uncorroborated.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md`.
-
-Betty, being her dog (and Milo being mine), had gone with her to stay t her parents house until annie asked me if she could start leaving betty with me. As i saw it as an 'in' to more time with annie, i enthusiastically accepted. 
-
-betty, in june 2025, while staying with me began having seizures early one morning. i called annie urgently and we took her to the vet whereannie made the decision to euthanize her.
+> **WRITTEN BACK [2026-08-17]:** the 06:22 Ellen disclosure recorded above now
+> has a motive on [[wiki/people/ellen-ulmer]] — per the operator, Dan believed
+> Annie was in physical danger from [[wiki/people/jerel-coles|Coles]], who began
+> texting him threats from Annie's phone minutes after her rape and hostage
+> claims. That reframes the act: not the seventh "I'm telling your mom" threat
+> finally executed as leverage, but the one time the channel was used because he
+> thought her life was at risk.

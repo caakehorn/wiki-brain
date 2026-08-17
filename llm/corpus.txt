@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-17
-462 pages, ~963,818 tokens.
+462 pages, ~965,080 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -15399,9 +15399,9 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-16
-pending_ingest: 2026-08-16
+date_modified: 2026-08-17
 sources:
+  - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - "raw/self/message-csv/THE END FIGHT.csv"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
@@ -15448,7 +15448,7 @@ connections:
     claim: "The peer-bond case: the May 18 2026 conditional unblock ('I'm unblocking you for the moment… otherwise fuck you'), with the 2014 declared-done-then-return precedent proving the loop predates Annie by a decade."
   - page: wiki/people/kristin
     type: contains
-    claim: "The inbound control case: Kristin's Dec 9 2025 block of Dan held permanently — the counterparty had no dependency running through the channel, so her severance was structural, not declarative."
+    claim: "The inbound control case: Kristin's Dec 9 2025 block of Dan held permanently — the counterparty had no dependency running through the channel, so her severance was structural, not declarative. Corroborated off-corpus by the operator on 2026-08-17 (\"No contact after 10 Dec 2025\"), which upgrades it from unobserved silence to a confirmed hold at eight months."
   - page: wiki/people/rick-frank
     type: co-occurs
     claim: "RETRACTED 2026-08-11: this page previously listed Rick as its cleanest held-block control case ('12-day burst, then a decade of unanswered inbound'), built on an incomplete per-contact export. The complete primary record shows the opposite — over 1,600 two-way messages 2015–2025 and real repair within weeks of the December 2015 friction — so this is no longer a control case for 'Dan can hold a family block indefinitely.' The real held silence is different and much more recent: total non-response from Dan since Feb 26, 2025, starting the day after Dan proposed a get-together Rick accepted."
@@ -15636,13 +15636,35 @@ an exhaustible Fe function.
 
 ## What this changes
 
-- **Prediction.** Any current or future severance in the record can be
-  scored by the rule: is anything still flowing through the channel?
-  The May 30, 2026 Tom endpoint (threat to involve Phil, no
-  reconciliation documented) is unresolved precisely because the
-  dependency question is unresolved — if the supply need persists and
-  no replacement node exists, the loop's history says the channel
-  reopens.
+- **Prediction — the Tom endpoint, now RESOLVED, and the rule holds.** Any
+  current or future severance in the record can be scored by the rule: is
+  anything still flowing through the channel? The May 30, 2026 Tom endpoint
+  (threat to involve Phil, no reconciliation documented) was left unresolved
+  precisely because the dependency question was — if the supply need persisted
+  and no replacement node existed, the loop's history said the channel would
+  reopen.
+
+  > **PREDICTION RESOLVED [2026-08-17] — it did not reopen.** The operator,
+  > asked directly: **"No I have not been in contact with tom"**
+  > (`raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md`). Roughly
+  > **eleven weeks** of silence after May 30, against a back catalogue of 127
+  > declared exits in which all but one reopened inside 48 hours.
+  >
+  > This is a confirmation, and one the rule could cheaply have got wrong. It
+  > scored Tom as a case where the dependency had *ended* —
+  > [[wiki/mind/synthesis/supply-network]] has the current primary node as Bop,
+  > house-calling daily, so the supply need has a replacement and this channel
+  > carries nothing. The rule predicted a hold; it held. Read against the Annie
+  > row, which the rule got **wrong** by scoring dependency without noticing a
+  > co-held object, this is the same rule succeeding in the case where the
+  > object question does not arise: Dan and Tom co-held nothing.
+  >
+  > **What it does not settle.** Eleven weeks is only a fortnight longer than
+  > the Annie closure ran before failing on day fifty-three. The Tom row is
+  > therefore provisional on elapsed time in exactly the way the Menore control
+  > already is, and should be re-checked rather than treated as closed — a
+  > confirmation at eleven weeks is weaker evidence than the Annie failure was,
+  > and this page gains nothing by pretending otherwise.
 - **Reading blocks correctly.** A Dan block should never be read as a
   terminal event, and — per the repair-asymmetry — its reversal should
   never be read as an apology. Both are channel-state toggles governed
@@ -15898,6 +15920,12 @@ Menore control, or any prediction this page tracks.
   above). If that channel reopens, this page loses its cleanest non-Annie
   control, and the corrected rule needs a durability clause rather than a
   dependency clause alone.
+- **The Tom row is now provisional in the same way.** Resolved as a hold on
+  2026-08-17 at roughly eleven weeks — a fortnight longer than the Annie
+  closure survived before failing. Re-check it; a reopening would not falsify
+  the dependency rule (nothing flows through that channel) but would say the
+  rule is not the only thing holding a block shut, which is a bigger finding
+  than the confirmation was.
 - The 127/110 pair remains [DERIVED] from the dossier passes; a
   primary recount from the raw dumps is queued on
   [[wiki/mind/synthesis/dan-annie-fallout-verdict]].
@@ -15918,29 +15946,6 @@ Menore control, or any prediction this page tracks.
 > block's actual finding — that the twenty-four-hour switch was Dan's, not
 > Annie's — is untouched and is what this page cites. No block/unblock count,
 > date or declared-exit tally moves.
-
-## Operator answers — pending ingest
-
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-16] — Whether the Tom channel reopened after May 30, 2026 is undocumented — t…
-
-**The gap, as this page stated it:**
-
-> - Whether the Tom channel reopened after May 30, 2026 is undocumented
->   — the record simply ends; the rule's prediction for it is on the
->   record above and is falsifiable by the next data drop.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md`.
-
-No I have not been in contact with tom
 
 
 ========================================================================
@@ -27700,6 +27705,7 @@ sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
+  - raw/people/captures/2026-08-17_053844_gap-ellen-ulmer.md
 related: ["wiki/people/annie-ulmer", "wiki/people/bill-ulmer", "wiki/places/117-belmont-circle", "wiki/timeline/events/fran-death-vigil", "wiki/self/message-corpora/master-message-dump"]
 tags: [relationships, family, grief]
 knowledge: mixed
@@ -27712,9 +27718,6 @@ infobox:
   handles: ["+1724***2589"]
   known_for: "The relationship that outlasted the one it came from — opened by a friend's overdose in 2017, still sending birthday wishes in 2025"
 connections:
-  - page: wiki/timeline/annie-record
-    type: evidenced-by
-    claim: "Fifteen months before her own message thread opens, Ellen is the relationship's first obstacle — objecting on 2015-12-02 to Dan's inherited family reputation rather than to the relationship itself, and relayed only through Annie, never in her own words."
   - page: wiki/people/jay-lauer
     type: caused-by
     claim: "This thread does not merely begin near Jay Lauer's overdose — it begins because of it: Ellen's call on the night of April 10, 2017 and Dan's condolence at 19:09 the next evening are message one of an eight-and-a-half-year relationship, which makes a friend's death the documented origin of Dan's longest surviving tie to Annie's family."
@@ -27732,46 +27735,6 @@ connections:
 # Ellen Ulmer
 
 Ellen Ulmer is [[wiki/people/annie-ulmer|Annie]]'s mother — a steady, low-frequency but remarkably durable presence in Dan's life, with a thread that opens in April 2017 and is still sending him birthday wishes in November 2025, eight and a half years later and well past the relationship's various ruptures with Annie (`+17243662589`, 63 messages).
-
-## Before the thread: December 2, 2015
-
-Ellen's own message thread opens in 2017, but she is present in the record
-**fifteen months earlier, as the relationship's first serious obstacle** — and
-the direct-thread framing below, of a durable maternal warmth, is incomplete
-without it. The account comes from the hand-read of the Annie corpus
-([[wiki/timeline/annie-record]]), where every line below is **Annie relaying
-her mother in real time**, not Ellen writing. Ellen's own words are not in any
-export for this date.
-
-On the fifth day of the relationship, Ellen learns of it through surveillance
-rather than disclosure: *"someone told me your car was at Dan Frank's this
-morning"* (18:44). **The informant is never identified** —
-[[wiki/people/casey-bondarenka|Casey]] is blamed by both Dan and Annie, and
-never confirmed.
-
-What she objects to is not the speed or the circumstances but **Dan's
-reputation**: *"he has a bad past do you know what he's done to his family"*
-(18:47), escalating within two minutes to *"am I going to have to treat you
-like a 12 year old"* (18:49). Annie's sister
-[[wiki/people/claire-ulmer|Claire]] joins the confrontation. Annie's answer
-that evening is the sharpest statement of her position anywhere in the first
-month: **"I'd rather lose all of them then to not be with you"** (19:00).
-
-Two things follow from this that the later thread would not let you guess.
-The objection was **specific and inherited** — a family reputation, not a
-judgment formed on contact — and Dan's only first-person accounting of it is
-that same night: *"I took $500 from my grandma one time and got caught / But
-that's the worst thing I've ever done in my life"* (19:17–19:18). And it was
-resolved **between the fathers, not with Ellen**:
-[[wiki/people/rick-frank|Rick Frank]] offers to intervene at 23:56 — *"Call me
-tomorrow. I will help you fix this"* — on the strength of knowing Annie's dad.
-The content of that conversation is not in any corpus.
-
-Read against the section below, the arc is the finding: the woman who moved to
-"squash" the relationship on day five is the same one still sending unprompted
-birthday messages in 2025, eight years after the thread opened and through
-every rupture since. Nothing in the record shows when or how the objection was
-withdrawn — see Gaps.
 
 ## How it began
 
@@ -27805,6 +27768,54 @@ Ellen's messages read as genuinely maternal: an unfailing annual "Happy birthday
 
 Ellen sends her own condolence after Fran's death in April 2018 ("Fran was truly an incredible lady... there's going to be a whole in your lives" — corrected in her own next message to "Hole..."). She surfaces twice as a worried mother unable to reach her daughter directly — January 8, 2019 ("Can't get Annie to answer") and February 16, 2020 ("Haven't heard from Annie. All ok there?") — both instances routed through Dan rather than Annie's father or siblings, suggesting Dan was treated as a reliable go-between during the relationship's active years.
 
+## July 26, 2026 — the one time Dan initiated, under duress
+
+Every other message in this thread is Ellen's. The exception is the last
+documented contact, and it is the opposite of the warm channel above: Dan
+messaged her at **06:22 on July 26, 2026**, during the crisis recorded at
+[[wiki/timeline/events/july-august-2026-reentanglement]].
+
+The operator's account of why (2026-08-17, T0):
+
+> *"Dan was forced to contact her during the conflict that Annie created in
+> late July where she claimed to be raped and held hostage by Jerel Coles. She
+> made these claims minutes before Coles began texting Dan threats from Annie's
+> phone, leading Dan to believe Annie was in danger."*
+
+**Corroborated, not merely asserted.** The contact itself is independently on
+file: `july-august-2026-reentanglement` records *"Alright I'm contacting
+Ellen"* at 06:22 and the screenshots being sent, and notes that the wiki has
+logged **six or more** "I'm telling your mom" threats across the relationship
+with **none previously carried out**. What the operator's answer adds is the
+motive — that this was not the threat finally executed as leverage, but a
+belief that Annie was in physical danger from
+[[wiki/people/jerel-coles|Jerel Coles]], formed minutes before Coles began
+texting Dan from Annie's phone.
+
+That distinction matters for this page specifically. The eight-and-a-half-year
+tie documented above is one Dan never used and never leveraged; the single time
+he initiated on it, he did so believing her daughter's life was at risk. Read
+against the six unexecuted threats, the channel's function holds even at the
+moment it looks most like it broke.
+
+> **GAP CLOSED [2026-08-17]:** This page previously said *"Nothing records
+> whether she and Dan have had any contact since the June 2026 severance or the
+> July 2026 re-contact; the last message on file is the November 2025 birthday
+> note, which predates both."* There was contact, on 2026-07-26 — **and the
+> wiki already knew.** The 06:22 disclosure has been on
+> `july-august-2026-reentanglement` since that page was written; it was never
+> written back here, so this page went on declaring a gap the corpus had
+> already filled. A cascade failure, not a missing fact.
+
+> **DISCREPANCY [2026-08-17]:** The operator places the message *"in the text
+> logs on 26 July 2026 at around 7am"*;
+> `july-august-2026-reentanglement` times the disclosure to **06:22** and its
+> own Gaps section calls it *"the email to Ellen"*, recorded as **not in
+> `raw/`**. Text versus email, and 06:22 versus ~07:00, are not settled here.
+> The operator's pointer is the more chaseable of the two — if the message is in
+> the iMessage logs it is recoverable, and that page's gap should be re-checked
+> against them rather than left as "not in `raw/`".
+
 ## Corpus Dimensions
 
 | Metric | Value |
@@ -27816,15 +27827,17 @@ Ellen sends her own condolence after Fran's death in April 2018 ("Fran was truly
 
 ## Gaps
 
-Ellen's side of the thread is the only side reliably preserved — the export
-marks every row "Received," so most of what Dan sent her is not recoverable
-except where it survives, as the April 2017 condolence does, in the full
-message dump. Nothing records whether she and Dan have had any contact since
-the June 2026 severance or the July 2026 re-contact
-([[wiki/timeline/events/july-2026-recontact]]); the last message on file is
-the November 2025 birthday note, which predates both. Her relation to
-Betherin Mechling is inferred from the Mechling/Ulmer cousin framing rather
-than stated.
+- **Ellen's side is the only side reliably preserved.** The export marks every
+  row "Received," so most of what Dan sent her is not recoverable except where
+  it survives, as the April 2017 condolence does, in the full message dump.
+  The 2026-07-26 message above is the test case: the operator says it is in the
+  text logs, and it has not yet been pulled.
+- **Her relation to [[wiki/people/betherin-mechling|Betherin]] is inferred**
+  from the Mechling/Ulmer cousin framing rather than stated.
+- **Whether there has been any contact after 2026-07-26** — the birthday note
+  of November 2025 and the crisis message are the last two entries, and 2026's
+  November has not happened yet. Whether the annual note survives the collapse
+  is the cleanest live prediction this page carries.
 
 
 ========================================================================
@@ -33023,8 +33036,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-16
-pending_ingest: 2026-08-16
+date_modified: 2026-08-17
 date_range_start: 2025-08-29
 date_range_end: 2025-12-10
 sources: ["raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/people/kristin/chimera-genesis-addendum.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
@@ -33113,12 +33125,27 @@ Three-quarters of everything ever said happened in September. The heaviest singl
 day is **2025-09-09 at 1,324 messages** — the day they spent going through her old
 Twitter account together.
 
-## The $40, which is a November event
+## The $40, which is an October event litigated in November
 
 > **CORRECTED [2026-08-16]:** the old page placed the $40 dispute on **Dec 9** —
 > *"Dec 9 (a.m.) | Fight over $40 Kristin allegedly took from Dan's mother"* — as
 > the trigger for the terminal sequence. It is a **November** event, and by
 > December it is a five-week-old grievance being recited, not a fresh fight.
+
+> **SHARPENED [2026-08-17] — and the evidence was already quoted below.** The
+> operator: *"on November 2 2025 Dan references the $40 debt as being a week old
+> already which would place it in October"*
+> (`raw/people/captures/2026-08-16_172243_gap-kristin.md`). The 14:33 message
+> quoted just below says it in Dan's own words — *"I've been answering for where
+> it is gone for **the last week**"* — so **the money went missing in late
+> October**, not November. This page carried the line and did not draw the
+> inference from it.
+>
+> That lengthens the grievance without changing its shape, and the shape is what
+> the argument rests on: not a fresh fight on Dec 9 but a **six-week**
+> accumulation being recited — late October through Dec 9, against the five
+> weeks recorded above. The relationship ran roughly ten weeks in total, so the
+> money was contested for more of it than it was not.
 
 The whole of November is legible because there is so little of it. Dan's birthday
 is 1 November and she sends a video for it. By the next afternoon the money is
@@ -33423,6 +33450,18 @@ material, and every per-year message count that treats the dump as complete for
   than the 2.41 MB canonical), has not been diffed against the primary. It may
   carry messages this analysis missed.
 
+> **GAP CLOSED [2026-08-17]:** this page previously said *"Nothing after
+> 2025-12-10. The block appears to have held; whether contact resumed
+> off-corpus is unknown."* The operator: **"No contact after 10 Dec 2025"**
+> (`raw/people/captures/2026-08-16_195122_gap-kristin.md`). The block held, and
+> has now held for **eight months** — which is what makes Kristin the cleanest
+> inbound control case on [[wiki/mind/synthesis/block-unblock-loop]]. Her
+> severance is the one in the corpus that stayed shut, and the rule's
+> explanation is that she had no dependency running through the channel. That
+> the silence is corroborated off-corpus, rather than merely unobserved, is the
+> difference between a control and an absence of data — a distinction this
+> corpus is otherwise bad at making.
+
 ## Notes
 
 Extreme volume in a short window makes this the strongest single data point for
@@ -33438,38 +33477,6 @@ stores some text in **mathematical-monospace Unicode**, so a plain grep for
 `LONELY LOSER` returns nothing while the string is plainly present. Fold with
 `unicodedata.normalize('NFKC', …)` before matching. This is the same family as the
 curly-apostrophe trap in `EXTRACTION_SPEC.md` and belongs beside it.
-
-## Operator answers — pending ingest
-
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-16] — manual note
-
-**Not from the gap list** — volunteered by the operator, so the ingest
-has to work out for itself where on the page it belongs, and whether it
-contradicts something already there.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-16_172243_gap-kristin.md`.
-
-As the article mentions, on November 2 2025 Dan references the $40 debt as being a week old already which would place it in October
-
-### ANSWERED [2026-08-16] — Nothing after 2025-12-10. The block appears to have held; whether conta…
-
-**The gap, as this page stated it:**
-
-> - **Nothing after 2025-12-10.** The block appears to have held; whether contact
->   resumed off-corpus is unknown.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-16_195122_gap-kristin.md`.
-
-No contact after 10 Dec 2025
 
 
 ========================================================================
@@ -35557,9 +35564,10 @@ status: active
 knowledge: mixed
 importance: high
 date_created: 2026-07-14
-date_modified: 2026-08-02
+date_modified: 2026-08-17
 date_range_start: 2018-01-01
 sources:
+  - raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md
   - raw/self/message-csv/imessage_export_2124702449_20260802.csv
   - raw/self/dox-md/MAX_PRIME.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
@@ -35741,6 +35749,47 @@ carries it: Dan's account is that Annie withdrew from her in the weeks before
 she was put down and was not present at the end — "You couldn't even stay
 with her when they put her down so she had to go through it alone." Sourced
 only to Dan, delivered as an attack at 02:59 on July 28, and uncorroborated.
+
+> **GAP CLOSED [2026-08-17] — and the attack line does not survive it.** The
+> operator's account, given calmly ten months later
+> (`raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md`):
+>
+> > *"betty, in june 2025, while staying with me began having seizures early one
+> > morning. i called annie urgently and we took her to the vet where **annie
+> > made the decision to euthanize her**."*
+>
+> Annie was there, and it was her decision. That is not compatible with *"you
+> couldn't even stay with her when they put her down so she had to go through it
+> alone."* The narrower question — whether Annie stayed in the room at the final
+> moment — is not addressed either way, and is left open rather than settled by
+> preferring the calmer account.
+>
+> **The important part is the source, not the dog.** This page flagged the claim
+> as *"sourced only to Dan, delivered as an attack, and uncorroborated"* and
+> declined to treat it as fact. Ten months later the same person, not under
+> pressure, gave an account that contradicts it. This is Dan against Dan, and it
+> is the corpus's cleanest validation of a heuristic the wiki applies constantly
+> but had never actually tested: **a claim made inside an attack is weak evidence
+> even when the attacker is the only witness.** Weight it wherever the
+> July–August 2026 material rests on in-fight assertions.
+
+**Betty's custody, and the dog as a channel.** The same answer records how she
+came to be at Dan's at all. Betty went with Annie to her parents' house after
+the separation — *"Betty, being her dog (and Milo being mine), had gone with her
+to stay t her parents house"* — until **Annie asked Dan to start keeping her**.
+Dan's stated reason for agreeing is unguarded and worth quoting:
+
+> *"As i saw it as an 'in' to more time with annie, i enthusiastically
+> accepted."*
+
+That is the mechanism this page documents a year later, stated in advance and
+about the other dog. In June 2026 the closure held fifty-two days and then
+failed through Milo — a channel carrying no money, drugs or logistics, only a
+co-held animal ([[wiki/mind/synthesis/block-unblock-loop]]). Here Dan names the
+pattern himself, in 2025, as something he *chose*: custody of a dog accepted
+specifically because it buys contact. Milo being the reopening channel in 2026
+is therefore not an accident of circumstance — it is the second run of an
+arrangement Dan had already entered deliberately once, with his eyes open.
 
 **Gaps:** exact calendar date of the rescue (only bounded to before
 September 2018); breed-registry or vet details beyond the 2018 surgery
@@ -50012,12 +50061,12 @@ title: "The Re-entanglement, July 26 – August 2 2026"
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-02
-pending_ingest: 2026-08-16
+date_modified: 2026-08-17
 date_range_start: 2026-07-26
 date_range_end: 2026-08-02
 importance: critical
 sources:
+  - raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md
   - raw/self/message-csv/imessage_export_2124702449_20260802.csv
 tags: [relationships, trauma-bond, attachment, addiction-recovery, forensic-analysis, mental-health, pets]
 connections:
@@ -50421,10 +50470,15 @@ sentence is withheld, and the withholding is what the loop runs on.
 
 ## Gaps
 
-- **The email to Ellen on July 26 is not in `raw/`** — only Dan's statement
-  that he sent it and Annie's reaction. Its contents, and Ellen's reply if
-  any, are unrecovered. The same is true of the July 28 email that appears
-  never to have been sent.
+- **The Ellen message of July 26 may be recoverable after all, and may not be
+  an email.** This page recorded it as an email not in `raw/`. The operator
+  (2026-08-17) places it *"in the text logs on 26 July 2026 at around 7am"*,
+  along with the threatening messages sent from Annie's number in the hours
+  before. If that is right the contents are retrievable and this gap is a
+  search, not an absence — but the two accounts disagree on both **medium**
+  (email vs text) and **time** (06:22 here vs ~07:00), so pull the window
+  rather than assuming either. The July 28 email that appears never to have
+  been sent is unaffected.
 - **The man is unidentified**, by design. Whether he is
   [[wiki/people/tuquick-17248123683|Tuquick]] remains unstated in any
   source.
@@ -50441,31 +50495,29 @@ sentence is withheld, and the withholding is what the loop runs on.
   arriving at Dan's house daily at noon, who by volume is now the corpus's
   most active supply contact and has no page.
 
-## Operator answers — pending ingest
+> **GAP CLOSED [2026-08-17] — Betty, and what it says about in-attack claims.**
+> This page flagged Dan's 02:59 line — *"You couldn't even stay with her when
+> they put her down so she had to go through it alone"* — as *"sourced only to
+> Dan, in an attack, and uncorroborated."* The operator's later account
+> contradicts it: Betty seized early one morning in **June 2025** while staying
+> at Dan's, he called Annie urgently, *"we took her to the vet where annie made
+> the decision to euthanize her."* Annie was present and it was her call.
+>
+> The full account, including how Betty came to be in Dan's care — Annie asked,
+> and Dan accepted because he *"saw it as an 'in' to more time with annie"* — is
+> written up on [[wiki/people/milo]], where the Betty material already lived.
+> What belongs here is the methodological result: **an in-attack claim this page
+> declined to treat as fact was later contradicted by the person who made it.**
+> Every assertion in the July–August window that rests on one party's word
+> mid-fight inherits that discount, and this page carries several.
 
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-16] — Betty's final weeks are described here for the first time — that Annie…
-
-**The gap, as this page stated it:**
-
-> - **Betty's final weeks** are described here for the first time — that Annie
->   withdrew from her before she was euthanised and was not present at the end
->   ("You couldn't even stay with her when they put her down so she had to go
->   through it alone"). Sourced only to Dan, in an attack, and uncorroborated.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md`.
-
-Betty, being her dog (and Milo being mine), had gone with her to stay t her parents house until annie asked me if she could start leaving betty with me. As i saw it as an 'in' to more time with annie, i enthusiastically accepted. 
-
-betty, in june 2025, while staying with me began having seizures early one morning. i called annie urgently and we took her to the vet whereannie made the decision to euthanize her.
+> **WRITTEN BACK [2026-08-17]:** the 06:22 Ellen disclosure recorded above now
+> has a motive on [[wiki/people/ellen-ulmer]] — per the operator, Dan believed
+> Annie was in physical danger from [[wiki/people/jerel-coles|Coles]], who began
+> texting him threats from Annie's phone minutes after her rape and hostage
+> claims. That reframes the act: not the seventh "I'm telling your mom" threat
+> finally executed as leverage, but the one time the channel was used because he
+> thought her life was at risk.
 
 
 ========================================================================
@@ -50671,11 +50723,11 @@ aliases: ["DXM Tom Petty trip", "the Robo-tripping concert"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-09
-date_modified: 2026-08-09
-pending_ingest: 2026-08-16
+date_modified: 2026-08-17
 date_range_start: 2005-06-15
 date_range_end: 2005-06-15
 sources:
+  - raw/timeline/captures/2026-08-16_185413_gap-robotussin-s-last-dance.md
   - "raw/self/captures/2026-08-09_143916_robotussin-s-last-dance.md"
 tags: [uniontown-era, addiction-recovery]
 infobox:
@@ -50718,6 +50770,28 @@ The red flag the capture flags for the reader is geography: the closest CVS to B
 
 The capture's most vivid memory is the Rt 51 stretch: 17-year-old boys, 95 miles per hour, passing cars and smacking into orange traffic cones. The capsule count, the distance from home, the highway speed and the cone impacts are all presented as a single motion — not a decision followed by an outcome, but a single continuous event whose internal logic was the drug and the friendship and the summer. Nothing in the record suggests any of the three were pulled over, injured, or otherwise interrupted. The drive's terminus is Uniontown, not a house or a bed, which is what makes it a story rather than a cautionary footnote: the destination was the place he would sober up in, and the place that had already, by that June, been partially emptied of the family that used to live in it.
 
+> **GAP CLOSED [2026-08-17] — they were peaking, not coming down.** This page
+> asked *"whether any of the three were sober enough to make decisions by the
+> time they left Ruby Tuesday's."* The operator:
+> **"on the contrary, we were all MUCH less sober and subsequently even more
+> intoxicated before a 90 minute drive"**
+> (`raw/timeline/captures/2026-08-16_185413_gap-robotussin-s-last-dance.md`).
+>
+> That inverts the assumption the section above rests on. The implicit reading
+> was of a night winding down — incapacitated at the restaurant, then a drive
+> home. The pharmacokinetics ran the other way: DXM was **still coming up** when
+> they left, so the ninety-minute, ninety-five-mile-per-hour run down Rt 51 was
+> made at or near peak intoxication by a seventeen-year-old who was *more*
+> impaired at the wheel than he had been at the table he was nearly ejected
+> from.
+>
+> The answer is also the only correction to the record that makes it **worse**
+> rather than more explicable — which is worth noting, because the capture it
+> comes from is Dan's own retelling of a story he and two friends have always
+> told as adventure. Asked to fill a gap about his own culpability, he
+> volunteered the fact that makes the story less defensible. Weigh that against
+> the in-attack claims elsewhere in the corpus that do the opposite.
+
 ## What it shows about the era
 
 This is the summer the family's stable narrative actually broke. Rick is named in the capture as a "non-factor" — not absent, but no longer able to constrain what Dan could or could not do on any given night. The prior two years had already normalized household cocaine use (the substance the capture frames as the "adult" drug already present in the house before Dan ever tried it himself), and the divorce had not yet been absorbed into a new family structure — it was still raw enough to feel like permission rather than loss. The Abercrombie & Fitch accumulation that dominated eleventh grade Dan's self-concept — best-dressed senior superlative, bought his way in — is the surface layer of a kid who felt, for the first and only time, that the usual rules did not apply to him and that the consequences would be someone else's problem.
@@ -50736,29 +50810,8 @@ The Frank's Auto Supply job is a documented part of the family business record. 
 
 - The exact capsule count is Dan's own retrospective estimate, not a counted inventory — "20–40" is a range, and the capture reads it as such.
 - The CVS location is named only as "the closest CVS to Burgettstown"; the Ruby Tuesday's is specified as near Pittsburgh airport but not pinned further.
-- No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony.
+- No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony. The 2026-08-17 answer about intoxication at the wheel is from the same single source and inherits the same limit; it is first-person and self-incriminating, which is the strongest form single-source testimony takes, but it is still one witness.
 - The Post-Gazette Pavilion's sold-out Tom Petty date of June 15 2005 has not been independently verified against tour records.
-
-## Operator answers — pending ingest
-
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-16] — Whether any of the three were sober enough to make decisions by the tim…
-
-**The gap, as this page stated it:**
-
-> - Whether any of the three were sober enough to make decisions by the time they left Ruby Tuesday's is not addressed.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/timeline/captures/2026-08-16_185413_gap-robotussin-s-last-dance.md`.
-
-on the contrary, we were all MUCH less sober and subsequently even more intoxicated before a 90 minute drive
 
 
 ========================================================================
