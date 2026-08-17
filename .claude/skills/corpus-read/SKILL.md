@@ -399,7 +399,26 @@ is reasoning done once and must never be regenerated from scratch, only revised
 `sources:`. Wire them to each other and outward with typed `connections:` per
 `CONNECTIONS_SPEC.md`.
 
----
+## 9.5 Data Locations
+
+The Annie Read project stores data in **two repos with a strict hierarchy**:
+
+### caakehorn/wiki-brain (PRIMARY — source of truth)
+- **Local clone:** `/Users/daniel/wiki-brain`
+- **Record:** `wiki/timeline/annie-record.md` — markdown, not JSON-wrapped
+- **Notes:** `wiki/timeline/annie-read-notes.md` — markdown
+- **Raw exports:** `raw/self/message-csv/`
+- **LLM_HANDOFF.md:** resume point and session log
+- **queue.md:** ingest queue
+
+### caakehorn/home (DERIVED — do not edit directly)
+- **Local clone:** `/tmp/homeclone`
+- **Record:** `public/wiki/pages/timeline__annie-record.json` — JSON-wrapped, update `body` field
+- **Notes:** `public/wiki/pages/timeline__annie-read-notes.json` — JSON-wrapped, update `body` field
+- **URL:** https://caakehorn.github.io/home/brain/timeline/annie-record
+- **Notes URL:** https://caakehorn.github.io/home/brain/timeline/annie-read-notes
+
+**The home repo is derived from wiki-brain via `sync-wiki.yml`** (runs hourly and on dispatch). Edits to home's `public/wiki/` are overwritten by the sync. **Always edit wiki-brain first.** The home repo receives the content through the sync pipeline.
 
 ## 10. Known failure modes, in the order they actually occur
 

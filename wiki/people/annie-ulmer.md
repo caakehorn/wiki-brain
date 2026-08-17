@@ -323,6 +323,7 @@ July 23, 2026 after a 52-day silence and ran 624 messages in four days
 handles alone carry the overwhelming share of Dan's entire relational
 message volume — the structural precondition, the redundancy concept
 argues, for how total the 2026 collapse was.
+> **CORRECTED 2026-08-16 — the "j's" needle/ice incident predates MyFreeCams.** On Dec 29, 2015, Annie references "one of the last times I was over at j's" — a man "literally gave me a chunk of ice" (crystal meth) without her asking. This is a distinct, earlier episode from the MyFreeCams history already on this page. The MyFreeCams history may be a later development, not the first. Worth separating rather than folding into either.
 
 ## Before Dan
 
@@ -341,6 +342,7 @@ niece and nephew she helped raise; and the dog
 [[wiki/people/milo|Milo]] — found as a starving stray by Claire, and a
 fixture of the New York years that outlasted almost everything else
 about them.
+> **CORRECTED 2026-08-16 — the "j's" needle/ice incident predates MyFreeCams.** On Dec 29, 2015, Annie references "one of the last times I was over at j's" — a man "literally gave me a chunk of ice" (crystal meth) without her asking. This is a distinct, earlier episode from the MyFreeCams history described above. The MyFreeCams history may be a later development, not the first. Worth separating rather than folding into either.
 
 **Before Dan, and unprompted by him:** an October 2018 message — reminiscing
 rather than disclosing in the moment — describes Annie having run a paid
