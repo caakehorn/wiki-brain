@@ -7,7 +7,7 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-17
+date_modified: 2026-08-18
 date_range_start: 2015-11-01
 date_range_end: 2026-08-09
 infobox:
@@ -507,10 +507,102 @@ mailed weed parcel.
 > extracting him from the same plea deal's consequences. Whether this is
 > the bootloader's story with the details corrected, or a second and
 > distinct arrest, is unresolved — but two independent sources
-> converging on the same mechanism makes a single, misdated event the
-> likelier reading.
-
-## The architecture: kink, camming, and the economy around it
+510|> converging on the same mechanism makes a single, misdated event the
+511|> likelier reading.
+512|
+513|## The first year (January 2016)
+514|
+515|The relationship's first full month — January 2016 — is a dense
+516|rehearsal of mechanisms the wiki documents across the entire decade.
+517|Every pattern that later defines the bond is already present: Dan's
+518|trust deficit, Annie's drug use escalation, the marriage frame, the
+519|abandonment anxiety, the work-fight oscillation, and the supply-chain
+520|dependency. The month reads like a compressed version of the whole
+521|relationship.
+522|
+523|**Dan's trust deficit, stated outright.** On New Year's morning, Dan
+524|tells Annie: *"Because I've never been able to trust anyone before tbh"*
+525|(2016-01-01 01:30). This is the earliest explicit statement of a trust
+526|deficit that the attachment model treats as structural. It is not a
+527|response to betrayal — it is stated on day one of the new year, in a
+528|relationship that is weeks old, before there is anything to betray. The
+529|fear that follows is equally explicit: *"I just see how much happiness
+530|you give me and I'm scared to lose that"* (01:28). The attachment system
+531|is already operating at full activation.
+532|
+533|**Annie's drug use escalates to intravenous.** The record of Annie's drug
+534|use in January 2016 shows a clear escalation: from snorting/smoking in
+535|December, to pricking herself with a needle on Jan 2 (*"I pricked myself
+536|/ I know I said I would stop / I'm trying Dan"*, 23:29), to attempting to
+537|shoot up on Jan 5 (*"I did try to shoot this morning.. I couldn't get a
+538|vain"*, 10:45). Each step is documented in real time, and each step is
+539|met with Dan's concern — *"I just don't think you realize how likely it
+540|is to destroy what we are working for"* (13:10) — and his own admission
+541|that he is fighting the temptation to try it himself: *"i'm fighting
+542|MYSELF from wanting to try this"* (23:47, Jan 2).
+543|
+544|**The marriage frame, revisited.** On Jan 3, Dan tells Annie: *"I would
+545|marry you today. I promise you"* (20:52). This is the first explicit
+546|marriage proposal in the corpus, and it is not a response to a crisis or
+547|a bid for commitment — it is stated as a fact, in the context of a
+548|discussion about having children. Dan: *"I would do that today with
+549|you...because i really can see what life with YOU would be and I want that
+550|more than anything I've ever wanted"* (20:44). The contrast with Alexis
+551|is explicit: *"I never wanted or even imagined having kids with her"*
+552|(20:42). The singular-slot mechanism is operating in the marriage domain
+553|as well — the frame is total, and it is stated within weeks of the
+554|relationship's start.
+555|
+556|**Dan's abandonment anxiety, named.** On Jan 3, Dan tells Annie: *"it would
+557|be so typical of my entire life / to find something that makes me TRULY
+558|happy / and find the most beautiful girl in the world / who for whatever
+559|reason loves ME for who i am / and have everything be perfect / until it's
+560|just gone"* (00:01–00:02). This is the abandonment schema stated as a
+561|worldview — not a reaction to a specific event, but a standing
+562|expectation that happiness is temporary and loss is inevitable. The
+563|attachment model treats this as the core wound, and here it is stated
+564|explicitly, in the relationship's first month, unprompted.
+565|
+566|**The work fight, and the distance problem.** On Jan 7-8, the couple has
+567|their first major fight about work. Annie wants to work every other day
+568|in an area she would like to move to; Dan is upset that this means he
+569|will see her 50% less. The fight is sharp: *"I do want that! But I don't
+570|understand why the only way to do that is to work so far away that we'll
+571|see each other 50% less"* (23:20, Jan 7). Annie: *"I told you... I cannot
+572|work in this town"* (23:20, Jan 7). The underlying issue is her parents'
+573|perception: *"my parents are convinced I'm not working cause they know you
+574|aren't working"* (23:30, Jan 7). The fight resolves with Dan saying he'll
+575|get a job around here, and Annie saying *"I'm over this. Seriously over
+576|it"* (11:33, Jan 8). This oscillation — one party's independence
+577|threatening the other's sense of togetherness — repeats across the
+578|decade.
+579|
+580|**Dan's illness, and Annie's care.** Dan is seriously ill in early
+581|January — on Jan 7 he tells Annie: *"Annie I slept for 18 hours / And I
+582|think I'm dying"* (09:07). He dry heaved every hour on the hour the
+583|night before: *"It was legit the worst night of my life"* (09:13). Annie
+584|cares for him, brings him medicine, and is scared of getting sick herself.
+585|The illness is a window into the care dynamic that will define the
+586|relationship: Annie as Dan's primary caregiver, Dan as the one who needs
+587|to be cared for.
+588|
+589|**Annie quits CT's.** On Jan 5, Annie quits her job at CT's after being
+590|taken off the schedule again: *"Wow. I quit / I literally fuckig quit"*
+591|(21:38). The final straw: she was told she'd work later in the week, but
+592|the rest of the schedule was posted and she's not on it. Dan is furious
+593|on her behalf: *"Omfg are you serious right now / Why are they doing this"*
+594|(21:39). Annie's dad yells at her for quitting — *"Saying I didn't go to
+595|school to be waiting around to see if I get on a schedule to bartend"*
+596|(21:59) — and the parents' anger at her not working is the structural
+597|pressure that will keep Annie in a cycle of unemployment and dependency.
+598|
+599|**The "bimel" lead.** On Jan 21, Annie tells Dan that "bimel" is bringing
+600|her drugs "more addictive than the ones we're already dealing with." Dan
+601|asks if it's someone in Annie's family. This is the first mention of a
+602|new dealer in the record, and the identity is unresolved. The name does
+603|not appear in any contact list.
+604|
+605|## The architecture: kink, camming, and the economy around it
 
 Nothing about this relationship's sexual life was static, and understanding
 it requires treating it as a system Dan and Annie built together rather

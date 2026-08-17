@@ -4,7 +4,7 @@ page_type: note
 status: active
 knowledge: earned
 date_created: 2026-08-15
-date_modified: 2026-08-17
+date_modified: 2026-08-18
 sources:
   - exports/annie-corpus.csv (built by bin/annie-corpus)
   - raw/people/captures/2026-08-15_annie-handle-confirmation-and-notes-directive.md
@@ -322,7 +322,14 @@ front of someone.
 |---|---|---|---|
 | **2015-12-31** | 13,635 | 13.9% | ~160 |
 
-## New entities (Dec 17-31)
+## New entities (Jan 1-24, 2016)
+
+| Entity | First appearance | What the corpus establishes | Wiki page |
+|---|---|---|---|
+| "bimel" | Jan 21, 00:27 | Bringing Annie drugs "more addictive than the ones we're already dealing with." Dan asks if it's someone in Annie's family. | no page |
+| Gina | Jan 1, 17:30 | Sends Annie a friend request. Annie is annoyed. | no page |
+| Jimmy Shaffer | Jan 3, 02:19 | At Suz's house with Dan's mom, acting weird on molly. | no page |
+| Caitlin | Jan 3, 12:26 | Annie's cousin from high school. Remembers Dan. | no page |
 
 | Entity | First appearance | What the corpus establishes | Wiki page |
 |---|---|---|---|
@@ -420,6 +427,29 @@ front of someone.
 | Jan 24 | 114 | ~60 | ~54 | "I'll be with you forever and ever" |
 | **Total** | **4,877** | **~2,455** | **~2,422** | |
 
+
+---
+
+## Synthesis pass — 2026-08-18 (window 2016-01-01 → 2016-01-24)
+
+Second run of the spread step on this read. Every claim below was gated on a verbatim quote pasted from [[wiki/timeline/annie-record]]; the working evidence table carried 12 rows and **two were cut**, listed under "Not applied."
+
+**Applied — 1 page carries the read now.**
+
+| Page | What landed |
+|---|---|
+| [[wiki/people/annie-ulmer]] | New section "The first year (January 2016)" — Dan's trust deficit, Annie's drug use escalation to intravenous, marriage frame revisited, abandonment anxiety named, work fight, Dan's illness and Annie's care, Annie quits CT's, "bimel" lead. 94 lines of prose with 12 dated quotes. |
+
+**Cross-links added — 8 entries in [[wiki/timeline/annie-record]] now carry `[[wiki/…]]` links** to annie-ulmer, supply-network, and bond-switch-2015.
+
+**Not applied — cut at the evidence gate.**
+
+1. **"Dan's trust deficit is the root cause of the 2026 rupture."** The Jan 1 quote establishes the deficit exists, but the causal chain to the 2026 rupture is inference, not evidence. The attachment model already documents the mechanism; this would be restating.
+2. **"Annie's drug use escalation in January 2016 predicts the terminal phase."** Real, quotable, but its meaning depends on a comparison to the terminal phase that this pass didn't do. Would need to verify against the 2025-26 corpus to assert.
+
+**No climb was written**, deliberately. The January 2016 material is dense but it all belongs to existing pages — annie-ulmer for the relationship narrative, supply-network for the drug escalation, bond-switch-2015 for the marriage frame. No new synthesis page is warranted.
+
+**Next on this page.** [[wiki/timeline/annie-record]] still carries **zero `[[wiki/…]]` links across its December entries** against 13 in the Nov 28–30 block. Cross-linking Dec 1–31 remains mechanical, high-value and not done.
 
 ---
 
