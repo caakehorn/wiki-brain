@@ -8,6 +8,15 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
+## 2026-08-17 — 2 pages
+
+- **Session log:** restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/timeline/annie-read-notes]] | timeline | — |
+| [[wiki/timeline/annie-record]] | timeline | — |
+
 ## 2026-08-16 — 10 pages
 
 - **Session log:** close | timeline | shelbie-annie-threesome — the operator dated it, and the corpus showed the page had the authorship backwards
@@ -27,7 +36,7 @@ simply listed.
 | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] | timeline | **GAP CLOSED** — This page carried "Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown" as an open question since 2026-07-14. The opera |
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — context-core was revised on 2026-08-16 by a staleness audit that corrected seven claims: the Annie status (closed → live), Tom's corpus weight (16,563 was Kristin's handle), the 337 Saratoga sale and  |
 
-## 2026-08-15 — 22 pages
+## 2026-08-15 — 20 pages
 
 - **Session log:** read | timeline | the read pass gets a second output — entity ledger, leads, motifs — plus Nov 30: Suz paid for the eviction
 - **Session log:** read | timeline | the Annie corpus is 97,768 messages across FOUR handles, and reading two days of it produced 25 events no script found
@@ -49,8 +58,6 @@ simply listed.
 | [[wiki/people/annie-ulmer]] | people | _(carries a RE-CHECKED from 2026-08-13)_ |
 | [[wiki/people/fran-coldren]] | people | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/people/johnny-dealer]] | people | **RE-CHECKED** — timeline moved on 2026-08-15 to correct a single 2015 bullet — the "Lex cheated" calendar row, now identified as a retrospective account of a 2009 episode (bond-switch-2015). This pag |
-| [[wiki/timeline/annie-read-notes]] | timeline | — |
-| [[wiki/timeline/annie-record]] | timeline | — |
 | [[wiki/timeline/events/timeline]] | timeline | — |
 | [[wiki/timeline/index]] | timeline | — |
 | [[wiki/timeline/master-timeline]] | timeline | _(carries a CONTRADICTION from 2026-07-20)_ |
@@ -593,82 +600,4 @@ simply listed.
 | [[wiki/people/alex-frank]] | people | — |
 | [[wiki/people/emaly-minerd]] | people | — |
 | [[wiki/self/gemini-activity/archive/v1-extract]] | self | — |
-
-## 2026-07-14 — 47 pages
-
-- **Session log:** ingest+add | work+mind | Sergio-mediator correction, Dan Frank OS report mined
-- **Session log:** ingest | mind+people | fake-surveillance-dashboard episode (AI pushback)
-- **Session log:** ingest | mind | exocortex.md — the naming ceremony ritual
-- **Session log:** add | work | MNEME product spec page
-- **Session log:** add | people+interests | Milo entity page + Goodreads "want to read" mining
-- **Session log:** add | people | Gabe entity page (Milo's other half)
-- **Session log:** lint | wiki-wide | expanded cross-linking pass
-- **Session log:** ingest | multi-domain | LIFE_EVENTS_CALENDAR.md event mining pass
-- **Session log:** ingest | people | Milo origin story (user clarification)
-- **Session log:** add | people | Claire Ulmer entity page (user correction)
-- **Session log:** add+fix | people+self | Gabe's story, Alex Frank page, ancestry correction
-- **Session log:** ingest | people | Dimitri surname partial + Eli skipped
-- **Session log:** ingest | people | Fran Coldren's husband Ira identified
-- **Session log:** fix | people+work | Felipe contact-status correction
-- **Session log:** ingest | people | Tom's Phil confirmed, girlfriend name clarified
-- **Session log:** ingest | work | BFS Foods termination narrowed to May 2026
-- **Session log:** ingest | work | Au Za'atar wage/tip details confirmed
-- **Session log:** ingest | places | 337 Saratoga Drive sale closed and confirmed
-- **Session log:** promote | people | 58 contact stubs promoted from quarantine
-- **Session log:** lint | wiki-wide | tag taxonomy added
-- **Session log:** ingest | work+people+timeline | ADD-ME pass 2 (caddying, Pro Tools date, Danielle breakup detail, Annie origin contradiction)
-- **Session log:** ingest | people | @Lo_weez resolved as Annie's Twitter handle
-- **Session log:** ingest | places | 337 Saratoga Drive sale-closure capture filed
-- **Session log:** build | mind | new wiki/mind/psychosexual/ category (hub + 5 subpages)
-- **Session log:** expand | people | Trevor Bevins and Teddy rebuilt from master CSV; Trevor cross-checked against Facebook export; duplicate RJ stub merged into RJ Ritchey
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/interests/favorites/books/want-to-read]] | interests | — |
-| [[wiki/interests/favorites/music]] | interests | — |
-| [[wiki/interests/favorites/music/artists/knock2]] | interests | — |
-| [[wiki/interests/favorites/music/artists/lyny]] | interests | — |
-| [[wiki/interests/favorites/music/artists/my-chemical-romance]] | interests | — |
-| [[wiki/interests/favorites/music/artists/new-found-glory]] | interests | — |
-| [[wiki/interests/favorites/music/electronic-bass]] | interests | — |
-| [[wiki/interests/music/concepts/lyrics-as-timbre]] | interests | — |
-| [[wiki/mind/psychosexual/index]] | mind | — |
-| [[wiki/people/al]] | people | — |
-| [[wiki/people/ally-lubin]] | people | — |
-| [[wiki/people/annoying]] | people | — |
-| [[wiki/people/bill]] | people | — |
-| [[wiki/people/bill-ulmer]] | people | — |
-| [[wiki/people/brad-hubeaut]] | people | — |
-| [[wiki/people/brennan-meadows]] | people | — |
-| [[wiki/people/bruceburish]] | people | — |
-| [[wiki/people/bub]] | people | — |
-| [[wiki/people/casey-bondarenka]] | people | — |
-| [[wiki/people/chad-johnson]] | people | — |
-| [[wiki/people/christian-hanson]] | people | — |
-| [[wiki/people/claire-ulmer]] | people | — |
-| [[wiki/people/clyde]] | people | — |
-| [[wiki/people/del]] | people | — |
-| [[wiki/people/drew]] | people | — |
-| [[wiki/people/eric-springer]] | people | — |
-| [[wiki/people/felipe]] | people | **REVISED** — confirmed by Dan directly — contact did **not** survive past the Au Za'atar job; he hasn't spoken to Felipe since. The earlier characterization above ("belongs to the small circle of AZ-era friendship |
-| [[wiki/people/jajuan-davis]] | people | — |
-| [[wiki/people/james]] | people | — |
-| [[wiki/people/jaredtricia]] | people | — |
-| [[wiki/people/jason-cole]] | people | — |
-| [[wiki/people/jess]] | people | — |
-| [[wiki/people/jim-vrabel]] | people | — |
-| [[wiki/people/jimmy]] | people | — |
-| [[wiki/people/joey-superick]] | people | — |
-| [[wiki/people/john-anderson]] | people | — |
-| [[wiki/people/john-felix]] | people | — |
-| [[wiki/people/josh-coccagna]] | people | — |
-| [[wiki/people/kya-hansen]] | people | — |
-| [[wiki/people/lindsay-carolla]] | people | — |
-| [[wiki/people/lisa-durbin]] | people | — |
-| [[wiki/people/marla]] | people | — |
-| [[wiki/people/md]] | people | — |
-| [[wiki/people/mike-zollinger]] | people | — |
-| [[wiki/people/mohammed-bin-salman]] | people | — |
-| [[wiki/people/rj-ritchey]] | people | — |
-| [[wiki/people/trinity-st-clair]] | people | — |
 

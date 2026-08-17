@@ -9,8 +9,8 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 31 |
-| Open gaps | 271 |
-| Answered, awaiting ingest | 0 |
+| Open gaps | 267 |
+| Answered, awaiting ingest | 5 |
 | Standing predictions | 13 |
 
 ## Answered, awaiting ingest
@@ -21,7 +21,15 @@ what is missing is the pass that corrects the page and every page that
 inherited the gap, then runs `bin/wiki-gaps clear <page>`. Cheapest work
 here — no new source required, and the answer is already written down.
 
-_Nothing staged._
+- **[[wiki/mind/synthesis/block-unblock-loop]]** — staged 2026-08-16, 1 answer
+  - Whether the Tom channel reopened after May 30, 2026 is undocumented — t…
+- **[[wiki/people/kristin]]** — staged 2026-08-16, 2 answers
+  - manual note
+  - Nothing after 2025-12-10. The block appears to have held; whether conta…
+- **[[wiki/timeline/events/july-august-2026-reentanglement]]** — staged 2026-08-16, 1 answer
+  - Betty's final weeks are described here for the first time — that Annie…
+- **[[wiki/timeline/events/robotussin-s-last-dance]]** — staged 2026-08-16, 1 answer
+  - Whether any of the three were sober enough to make decisions by the tim…
 
 ## Live contradictions
 
@@ -100,7 +108,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — The exact arrest date within the days before February 17, 2015 is not known, nor is the arresting barracks, the docket number, or whether the expungement was ever completed. The blotter prints the charges without grading them; Dan's own telling calls the resid
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (81)
+### mind (80)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -126,7 +134,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — **The announcement rule is untested against the back catalogue.** All 127 exit declarations are, by definition, announced — the falsifier is the reverse case: silent exits that executed. Whether the record contains unannounced severances that held has never be
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — **The Menore control row is provisional on elapsed time** (see the re-check above). If that channel reopens, this page loses its cleanest non-Annie control, and the corrected rule needs a durability clause rather than a dependency clause alone.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — The 127/110 pair remains [DERIVED] from the dossier passes; a primary recount from the raw dumps is queued on dan-annie-fallout-verdict.
-- **[[wiki/mind/synthesis/block-unblock-loop]]** — Whether the Tom channel reopened after May 30, 2026 is undocumented — the record simply ends; the rule's prediction for it is on the record above and is falsifiable by the next data drop.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — The corrected rule has not been re-tested against the long tail. Every row in the table was scored on material dependency alone, so any case with a co-held object — a pet, a lease, a child, a shared account — may have been scored wrong in the same direction th
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — Blocking events with minor contacts (the long tail) have not been systematically mined; the loop's frequency outside intense bonds is unmeasured.
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — Whether the Alexis→Annie transfer at 155 Virginia was a clean same-month swap or had a brief overlap is not dated to the day in the on-disk record; the calendar gives Nov 28 (Alexis end) and Nov 29 (Annie start), one day apart.
@@ -184,7 +191,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (99)
+### people (98)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -244,7 +251,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/kristin]]** — **Duplicate-suppression on that capture** may merge genuinely repeated short messages ("Yea", "ok"), so 2,009 is conservative in one direction and approximate in the other.
 - **[[wiki/people/kristin]]** — **No verification of the New York period** she references on Facebook.
 - **[[wiki/people/kristin]]** — **The second export**, `imessage_export_3307038747_20260624.csv` (2.58 MB, larger than the 2.41 MB canonical), has not been diffed against the primary. It may carry messages this analysis missed.
-- **[[wiki/people/kristin]]** — **Nothing after 2025-12-10.** The block appears to have held; whether contact resumed off-corpus is unknown.
 - **[[wiki/people/kya-hansen]]** — The actual OnlyFans message history with Kya Hansen — which Dan believes may be extractable from a source not yet in the raw corpus — has not been recovered. Exact dates for the Reddit admin period, how the role began, and what (if anything) happened to the co
 - **[[wiki/people/lindsay-carolla]]** — What Claire told Lindsay in April 2017, and whether it connects to anything else documented in the corpus around that date, is unknown.
 - **[[wiki/people/lisa-durbin]]** — Exact family relationship (aunt, cousin, family friend) is not stated in the thread itself.
@@ -334,7 +340,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 
-### timeline (34)
+### timeline (32)
 
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented
@@ -354,13 +360,11 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **The email to Ellen on July 26 is not in `raw/`** — only Dan's statement that he sent it and Annie's reaction. Its contents, and Ellen's reply if any, are unrecovered. The same is true of the July 28 email that appears never to have been sent.
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **The man is unidentified**, by design. Whether he is Tuquick remains unstated in any source.
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **The rape allegation is unadjudicated** and this page does not weigh it, consistent with july-2026-recontact. What is new is that Annie states he "even fucking admitted he did it to me," that she will press charges "if I felt it was necessary AT ANY POINT," a
-- **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **Betty's final weeks** are described here for the first time — that Annie withdrew from her before she was euthanised and was not present at the end ("You couldn't even stay with her when they put her down so she had to go through it alone"). Sourced only to 
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **Attachments are unrecovered.** Roughly forty photographs and videos in this window exist in the export only as markers, including the video that the July 26 accusation concerns.
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **New names, undocumented**: Sugie, Laura, Courtney, Brian (relocated to California), Tanya, Lucky, Bailey, and "Bop" — a supplier described as arriving at Dan's house daily at noon, who by volume is now the corpus's most active supply contact and has no page.
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — The exact capsule count is Dan's own retrospective estimate, not a counted inventory — "20–40" is a range, and the capture reads it as such.
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — The CVS location is named only as "the closest CVS to Burgettstown"; the Ruby Tuesday's is specified as near Pittsburgh airport but not pinned further.
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony.
-- **[[wiki/timeline/events/robotussin-s-last-dance]]** — Whether any of the three were sober enough to make decisions by the time they left Ruby Tuesday's is not addressed.
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — The Post-Gazette Pavilion's sold-out Tom Petty date of June 15 2005 has not been independently verified against tour records.
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — Shelbie's own account of either night is absent — her iMessage number begins 2019-05-15, and the two encounters sit entirely inside Annie's thread and Dan's memory. Nothing records what she was told the arrangement was.
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — Whether the 17 April window is the second encounter is inferred from the operator's account plus a long late-night drive; no message that night names her. The June 8, 2019 coordination remains unresolved as either a third occasion or a misdated recollection of

@@ -6,6 +6,7 @@ status: active
 knowledge: earned
 date_created: 2026-08-02
 date_modified: 2026-08-02
+pending_ingest: 2026-08-16
 date_range_start: 2026-07-26
 date_range_end: 2026-08-02
 importance: critical
@@ -425,10 +426,6 @@ sentence is withheld, and the withholding is what the loop runs on.
   is that Annie states he "even fucking admitted he did it to me," that she
   will press charges "if I felt it was necessary AT ANY POINT," and that no
   report had been made as of August 2.
-- **Betty's final weeks** are described here for the first time — that Annie
-  withdrew from her before she was euthanised and was not present at the end
-  ("You couldn't even stay with her when they put her down so she had to go
-  through it alone"). Sourced only to Dan, in an attack, and uncorroborated.
 - **Attachments are unrecovered.** Roughly forty photographs and videos in
   this window exist in the export only as markers, including the video that
   the July 26 accusation concerns.
@@ -436,3 +433,29 @@ sentence is withheld, and the withholding is what the loop runs on.
   California), Tanya, Lucky, Bailey, and "Bop" — a supplier described as
   arriving at Dan's house daily at noon, who by volume is now the corpus's
   most active supply contact and has no page.
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-16] — Betty's final weeks are described here for the first time — that Annie…
+
+**The gap, as this page stated it:**
+
+> - **Betty's final weeks** are described here for the first time — that Annie
+>   withdrew from her before she was euthanised and was not present at the end
+>   ("You couldn't even stay with her when they put her down so she had to go
+>   through it alone"). Sourced only to Dan, in an attack, and uncorroborated.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md`.
+
+Betty, being her dog (and Milo being mine), had gone with her to stay t her parents house until annie asked me if she could start leaving betty with me. As i saw it as an 'in' to more time with annie, i enthusiastically accepted. 
+
+betty, in june 2025, while staying with me began having seizures early one morning. i called annie urgently and we took her to the vet whereannie made the decision to euthanize her.
