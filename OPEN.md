@@ -9,8 +9,8 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 32 |
-| Open gaps | 305 |
-| Answered, awaiting ingest | 5 |
+| Open gaps | 308 |
+| Answered, awaiting ingest | 0 |
 | Standing predictions | 13 |
 
 ## Answered, awaiting ingest
@@ -21,15 +21,7 @@ what is missing is the pass that corrects the page and every page that
 inherited the gap, then runs `bin/wiki-gaps clear <page>`. Cheapest work
 here — no new source required, and the answer is already written down.
 
-- **[[wiki/mind/synthesis/block-unblock-loop]]** — staged 2026-08-16, 1 answer
-  - Whether the Tom channel reopened after May 30, 2026 is undocumented — t…
-- **[[wiki/people/kristin]]** — staged 2026-08-16, 2 answers
-  - manual note
-  - Nothing after 2025-12-10. The block appears to have held; whether conta…
-- **[[wiki/timeline/events/july-august-2026-reentanglement]]** — staged 2026-08-16, 1 answer
-  - Betty's final weeks are described here for the first time — that Annie…
-- **[[wiki/timeline/events/robotussin-s-last-dance]]** — staged 2026-08-16, 1 answer
-  - Whether any of the three were sober enough to make decisions by the tim…
+_Nothing staged._
 
 ## Live contradictions
 
@@ -109,7 +101,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — The exact arrest date within the days before February 17, 2015 is not known, nor is the arresting barracks, the docket number, or whether the expungement was ever completed. The blotter prints the charges without grading them; Dan's own telling calls the resid
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (81)
+### mind (82)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -134,6 +126,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The 63–85% figure is a single provenance.** It traces to the context-core measurement and is repeated by the alias pages rather than independently re-measured per alias. The invariant is asserted three times from one source, which is weaker than three measur
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — **The announcement rule is untested against the back catalogue.** All 127 exit declarations are, by definition, announced — the falsifier is the reverse case: silent exits that executed. Whether the record contains unannounced severances that held has never be
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — **The Menore control row is provisional on elapsed time** (see the re-check above). If that channel reopens, this page loses its cleanest non-Annie control, and the corrected rule needs a durability clause rather than a dependency clause alone.
+- **[[wiki/mind/synthesis/block-unblock-loop]]** — **The Tom row is now provisional in the same way.** Resolved as a hold on 2026-08-17 at roughly eleven weeks — a fortnight longer than the Annie closure survived before failing. Re-check it; a reopening would not falsify the dependency rule (nothing flows thro
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — The 127/110 pair remains [DERIVED] from the dossier passes; a primary recount from the raw dumps is queued on dan-annie-fallout-verdict.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — The corrected rule has not been re-tested against the long tail. Every row in the table was scored on material dependency alone, so any case with a co-held object — a pet, a lease, a child, a shared account — may have been scored wrong in the same direction th
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — Blocking events with minor contacts (the long tail) have not been systematically mined; the loop's frequency outside intense bonds is unmeasured.
@@ -193,7 +186,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (110)
+### people (112)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -218,7 +211,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/david-j-frank]]** — **Occupation unrecorded.** The extraction pulled no trade or employer for him, which leaves the family's economic footing in its first Fayette decades blank.
 - **[[wiki/people/del]]** — No contact appears after August 16, 2019; whether the relationship continued past the exported window, or ended with Dan's later move out of the city, is undocumented.
 - **[[wiki/people/diane-shrum]]** — Almost everything. Diane sends no messages in the corpus and receives none; there is no phone handle, no photograph, no direct exchange between her and Dan on record anywhere. The letters themselves are described but not preserved — no scan, no quoted text, no
-- **[[wiki/people/ellen-ulmer]]** — Ellen's side of the thread is the only side reliably preserved — the export marks every row "Received," so most of what Dan sent her is not recoverable except where it survives, as the April 2017 condolence does, in the full message dump. Nothing records wheth
+- **[[wiki/people/ellen-ulmer]]** — **Ellen's side is the only side reliably preserved.** The export marks every row "Received," so most of what Dan sent her is not recoverable except where it survives, as the April 2017 condolence does, in the full message dump. The 2026-07-26 message above is 
+- **[[wiki/people/ellen-ulmer]]** — **Her relation to Betherin is inferred** from the Mechling/Ulmer cousin framing rather than stated.
+- **[[wiki/people/ellen-ulmer]]** — **Whether there has been any contact after 2026-07-26** — the birthday note of November 2025 and the crisis message are the last two entries, and 2026's November has not happened yet. Whether the annual note survives the collapse is the cleanest live predictio
 - **[[wiki/people/emaly-minerd]]** — The fate of her book ("stamp notes"), her relationship with Derek, and her son are unknown past January 2019.
 - **[[wiki/people/emaly-minerd]]** — Whether the September 21, 2020 Facebook thread ever got a reply from Dan is undocumented in the captured export (the "selling some bars" line to Annie is the only same-day trace on his side).
 - **[[wiki/people/emaly-minerd]]** — No contact after September 2020 appears in the corpus.
@@ -396,14 +391,14 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **Nothing here is contemporaneous.** The whole page rests on one 2026 capture. The July 9–31 2013 self-typology emails and the August 14 2013 post-mortem already in the corpus are the nearest dated material and they corroborate the window, not the day.
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **The hitchhikers, the ropes course job, and 15 Holly Lane** are single-source details with no independent confirmation anywhere in `raw/`.
 - **[[wiki/timeline/events/july-2026-recontact]]** — The email thread Dan answered on July 23 is not in `raw/` — only Annie's description of it (sent over July 4 about Milo and the fireworks, resent around July 21) and the fact that he replied. The photos, videos, and the karaoke file are attachments the CSV exp
-- **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **The email to Ellen on July 26 is not in `raw/`** — only Dan's statement that he sent it and Annie's reaction. Its contents, and Ellen's reply if any, are unrecovered. The same is true of the July 28 email that appears never to have been sent.
+- **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **The Ellen message of July 26 may be recoverable after all, and may not be an email.** This page recorded it as an email not in `raw/`. The operator (2026-08-17) places it *"in the text logs on 26 July 2026 at around 7am"*, along with the threatening messages
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **The man is unidentified**, by design. Whether he is Tuquick remains unstated in any source.
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **The rape allegation is unadjudicated** and this page does not weigh it, consistent with july-2026-recontact. What is new is that Annie states he "even fucking admitted he did it to me," that she will press charges "if I felt it was necessary AT ANY POINT," a
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **Attachments are unrecovered.** Roughly forty photographs and videos in this window exist in the export only as markers, including the video that the July 26 accusation concerns.
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **New names, undocumented**: Sugie, Laura, Courtney, Brian (relocated to California), Tanya, Lucky, Bailey, and "Bop" — a supplier described as arriving at Dan's house daily at noon, who by volume is now the corpus's most active supply contact and has no page.
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — The exact capsule count is Dan's own retrospective estimate, not a counted inventory — "20–40" is a range, and the capture reads it as such.
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — The CVS location is named only as "the closest CVS to Burgettstown"; the Ruby Tuesday's is specified as near Pittsburgh airport but not pinned further.
-- **[[wiki/timeline/events/robotussin-s-last-dance]]** — No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony.
+- **[[wiki/timeline/events/robotussin-s-last-dance]]** — No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony. The 2026-08-17 answer about intoxication at the wheel is from the same single source an
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — The Post-Gazette Pavilion's sold-out Tom Petty date of June 15 2005 has not been independently verified against tour records.
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — Shelbie's own account of either night is absent — her iMessage number begins 2019-05-15, and the two encounters sit entirely inside Annie's thread and Dan's memory. Nothing records what she was told the arrangement was.
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — Whether the 17 April window is the second encounter is inferred from the operator's account plus a long late-night drive; no message that night names her. The June 8, 2019 coordination remains unresolved as either a third occasion or a misdated recollection of

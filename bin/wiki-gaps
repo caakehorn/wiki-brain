@@ -509,6 +509,58 @@ def log_row(page, item, source_rel, answer):
     return row
 
 
+def logged_pages():
+    """Page slugs that already have a row in the log, open or integrated."""
+    if not LOG.exists():
+        return set()
+    out = set()
+    for line in LOG.read_text(encoding="utf-8").split("\n"):
+        cells = line.split("|")
+        if len(cells) == 8 and cells[2].strip().startswith("wiki/"):
+            out.add(cells[2].strip())
+    return out
+
+
+def reconcile_log():
+    """Log any staged answer this tool did not write.
+
+    The CLI is not the only way an answer gets staged — the portal editor writes
+    the same block and flag directly, and every answer staged before 2026-08-17
+    arrived that way. Those would never appear in the log, which would make the
+    log quietly wrong in the one direction that matters: understating what is
+    waiting. So the log is reconciled from the pages themselves rather than
+    trusted to have caught every write.
+
+    Runs before `pending` and before `clear` — the second matters, because a
+    portal-staged answer that is cleared without ever being logged would leave
+    no trace at all.
+    """
+    known = logged_pages()
+    added = 0
+    for p in all_pages():
+        text = read(p)
+        m = re.search(r"^%s:\s*(\S+)" % FLAG, text, re.M)
+        if not m or slug_of(p) in known:
+            continue
+        when = m.group(1)
+        for blk in re.findall(r"^### ANSWERED[^\n]*\n(.*?)(?=^### |\Z)", text, re.M | re.S):
+            gist = ""
+            for line in blk.split("\n"):
+                s = flatten(line)
+                if s and not s.startswith("|") and "Operator's answer" not in s:
+                    gist = s
+                    break
+            src = re.search(r"(raw/[^\s`)]+)", blk)
+            if not LOG.exists():
+                LOG.write_text("\n".join(LOG_HEADER) + "\n", encoding="utf-8")
+            with LOG.open("a", encoding="utf-8") as fh:
+                fh.write("| %s | %s | staged-elsewhere | %s | %s | |\n"
+                         % (when, slug_of(p), clip(gist.replace("|", "\\|"), 90),
+                            src.group(1) if src else "—"))
+            added += 1
+    return added
+
+
 def log_integrated(page):
     """Mark this page's open rows integrated. Rows are kept, never deleted."""
     if not LOG.exists():
@@ -528,6 +580,7 @@ def log_integrated(page):
 
 
 def clear(page):
+    reconcile_log()
     lines = read(page).splitlines()
     i, j = find_section(lines, is_stage_head)
     _, keys = frontmatter("\n".join(lines))
@@ -678,6 +731,9 @@ def cmd_pages(query=None):
 
 
 def cmd_pending():
+    caught = reconcile_log()
+    if caught:
+        print("(%d answer(s) staged outside this tool, now in %s)\n" % (caught, LOG.name))
     rows = []
     for p in all_pages():
         text = read(p)
@@ -794,6 +850,23 @@ def main(argv):
     cmd = argv[0]
     if cmd == "list":
         cmd_list(argv[1] if len(argv) > 1 else None)
+        return 0
+    if cmd == "log":
+        caught = reconcile_log()
+        if not LOG.exists():
+            print("no additions logged yet")
+            return 0
+        text = LOG.read_text(encoding="utf-8")
+        rows = [l for l in text.split("\n") if l.count("|") == 7 and "wiki/" in l]
+        openrows = [l for l in rows if not l.split("|")[6].strip()]
+        print("%d addition(s) logged, %d awaiting integration%s\n"
+              % (len(rows), len(openrows),
+                 " (%d just reconciled)" % caught if caught else ""))
+        for l in (openrows or rows[-15:]):
+            c = [x.strip() for x in l.split("|")]
+            print("  %s  %-46s %s" % (c[1], clip(c[2], 46), clip(c[4], 60)))
+        if openrows:
+            print("\nEach needs a CLOSE pass — CLAUDE.md — then: bin/wiki-gaps clear <page>")
         return 0
     if cmd == "pages":
         cmd_pages(argv[1] if len(argv) > 1 else None)

@@ -14,10 +14,10 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 462 |
-| Pages touched in the last 14 days | 101 |
+| Pages touched in the last 14 days | 103 |
 | Pages reasoning from other pages (`synthesizes:`) | 27 |
 | Live contradictions | 32 |
-| Open gaps | 305 |
+| Open gaps | 308 |
 | Standing predictions | 13 |
 
 ## By domain
@@ -46,12 +46,13 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-17** — 15 pages
+**2026-08-17** — 20 pages
   - restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
   - climb | timeline, people, mind | the 2015 Annie read spread to ten pages, and five of its own corrections did not survive the evidence gate
   - close | people, timeline, mind | the operator named "turd boy", and three separate incidents became one retaliation arc
+  - tool | meta | bin/wiki-gaps could not see two-thirds of the wiki's unsettled information, and left no trace of what the operator added
 
-**2026-08-16** — 10 pages
+**2026-08-16** — 8 pages
   - close | timeline | shelbie-annie-threesome — the operator dated it, and the corpus showed the page had the authorship backwards
   - build | all | bin/wiki-gaps — 269 open gaps, no way for the one source that can settle them to answer, and OPEN.md could only see 164 of them
   - rewrite | people | kristin.md — surname wrong, dates wrong, count wrong, and the wiki's own instrument cannot see the thread

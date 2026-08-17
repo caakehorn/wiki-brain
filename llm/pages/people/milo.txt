@@ -6,9 +6,10 @@ status: active
 knowledge: mixed
 importance: high
 date_created: 2026-07-14
-date_modified: 2026-08-02
+date_modified: 2026-08-17
 date_range_start: 2018-01-01
 sources:
+  - raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md
   - raw/self/message-csv/imessage_export_2124702449_20260802.csv
   - raw/self/dox-md/MAX_PRIME.md
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
@@ -190,6 +191,47 @@ carries it: Dan's account is that Annie withdrew from her in the weeks before
 she was put down and was not present at the end — "You couldn't even stay
 with her when they put her down so she had to go through it alone." Sourced
 only to Dan, delivered as an attack at 02:59 on July 28, and uncorroborated.
+
+> **GAP CLOSED [2026-08-17] — and the attack line does not survive it.** The
+> operator's account, given calmly ten months later
+> (`raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md`):
+>
+> > *"betty, in june 2025, while staying with me began having seizures early one
+> > morning. i called annie urgently and we took her to the vet where **annie
+> > made the decision to euthanize her**."*
+>
+> Annie was there, and it was her decision. That is not compatible with *"you
+> couldn't even stay with her when they put her down so she had to go through it
+> alone."* The narrower question — whether Annie stayed in the room at the final
+> moment — is not addressed either way, and is left open rather than settled by
+> preferring the calmer account.
+>
+> **The important part is the source, not the dog.** This page flagged the claim
+> as *"sourced only to Dan, delivered as an attack, and uncorroborated"* and
+> declined to treat it as fact. Ten months later the same person, not under
+> pressure, gave an account that contradicts it. This is Dan against Dan, and it
+> is the corpus's cleanest validation of a heuristic the wiki applies constantly
+> but had never actually tested: **a claim made inside an attack is weak evidence
+> even when the attacker is the only witness.** Weight it wherever the
+> July–August 2026 material rests on in-fight assertions.
+
+**Betty's custody, and the dog as a channel.** The same answer records how she
+came to be at Dan's at all. Betty went with Annie to her parents' house after
+the separation — *"Betty, being her dog (and Milo being mine), had gone with her
+to stay t her parents house"* — until **Annie asked Dan to start keeping her**.
+Dan's stated reason for agreeing is unguarded and worth quoting:
+
+> *"As i saw it as an 'in' to more time with annie, i enthusiastically
+> accepted."*
+
+That is the mechanism this page documents a year later, stated in advance and
+about the other dog. In June 2026 the closure held fifty-two days and then
+failed through Milo — a channel carrying no money, drugs or logistics, only a
+co-held animal ([[wiki/mind/synthesis/block-unblock-loop]]). Here Dan names the
+pattern himself, in 2025, as something he *chose*: custody of a dog accepted
+specifically because it buys contact. Milo being the reopening channel in 2026
+is therefore not an accident of circumstance — it is the second run of an
+arrangement Dan had already entered deliberately once, with his eyes open.
 
 **Gaps:** exact calendar date of the rescue (only bounded to before
 September 2018); breed-registry or vet details beyond the 2018 surgery

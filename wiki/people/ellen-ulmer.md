@@ -3,14 +3,14 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-02
-pending_ingest: 2026-08-17
+date_modified: 2026-08-17
 date_range_start: 2017-04-11
 date_range_end: 2025-11-01
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
+  - raw/people/captures/2026-08-17_053844_gap-ellen-ulmer.md
 related: ["wiki/people/annie-ulmer", "wiki/people/bill-ulmer", "wiki/places/117-belmont-circle", "wiki/timeline/events/fran-death-vigil", "wiki/self/message-corpora/master-message-dump"]
 tags: [relationships, family, grief]
 knowledge: mixed
@@ -73,6 +73,54 @@ Ellen's messages read as genuinely maternal: an unfailing annual "Happy birthday
 
 Ellen sends her own condolence after Fran's death in April 2018 ("Fran was truly an incredible lady... there's going to be a whole in your lives" — corrected in her own next message to "Hole..."). She surfaces twice as a worried mother unable to reach her daughter directly — January 8, 2019 ("Can't get Annie to answer") and February 16, 2020 ("Haven't heard from Annie. All ok there?") — both instances routed through Dan rather than Annie's father or siblings, suggesting Dan was treated as a reliable go-between during the relationship's active years.
 
+## July 26, 2026 — the one time Dan initiated, under duress
+
+Every other message in this thread is Ellen's. The exception is the last
+documented contact, and it is the opposite of the warm channel above: Dan
+messaged her at **06:22 on July 26, 2026**, during the crisis recorded at
+[[wiki/timeline/events/july-august-2026-reentanglement]].
+
+The operator's account of why (2026-08-17, T0):
+
+> *"Dan was forced to contact her during the conflict that Annie created in
+> late July where she claimed to be raped and held hostage by Jerel Coles. She
+> made these claims minutes before Coles began texting Dan threats from Annie's
+> phone, leading Dan to believe Annie was in danger."*
+
+**Corroborated, not merely asserted.** The contact itself is independently on
+file: `july-august-2026-reentanglement` records *"Alright I'm contacting
+Ellen"* at 06:22 and the screenshots being sent, and notes that the wiki has
+logged **six or more** "I'm telling your mom" threats across the relationship
+with **none previously carried out**. What the operator's answer adds is the
+motive — that this was not the threat finally executed as leverage, but a
+belief that Annie was in physical danger from
+[[wiki/people/jerel-coles|Jerel Coles]], formed minutes before Coles began
+texting Dan from Annie's phone.
+
+That distinction matters for this page specifically. The eight-and-a-half-year
+tie documented above is one Dan never used and never leveraged; the single time
+he initiated on it, he did so believing her daughter's life was at risk. Read
+against the six unexecuted threats, the channel's function holds even at the
+moment it looks most like it broke.
+
+> **GAP CLOSED [2026-08-17]:** This page previously said *"Nothing records
+> whether she and Dan have had any contact since the June 2026 severance or the
+> July 2026 re-contact; the last message on file is the November 2025 birthday
+> note, which predates both."* There was contact, on 2026-07-26 — **and the
+> wiki already knew.** The 06:22 disclosure has been on
+> `july-august-2026-reentanglement` since that page was written; it was never
+> written back here, so this page went on declaring a gap the corpus had
+> already filled. A cascade failure, not a missing fact.
+
+> **DISCREPANCY [2026-08-17]:** The operator places the message *"in the text
+> logs on 26 July 2026 at around 7am"*;
+> `july-august-2026-reentanglement` times the disclosure to **06:22** and its
+> own Gaps section calls it *"the email to Ellen"*, recorded as **not in
+> `raw/`**. Text versus email, and 06:22 versus ~07:00, are not settled here.
+> The operator's pointer is the more chaseable of the two — if the message is in
+> the iMessage logs it is recoverable, and that page's gap should be re-checked
+> against them rather than left as "not in `raw/`".
+
 ## Corpus Dimensions
 
 | Metric | Value |
@@ -84,33 +132,14 @@ Ellen sends her own condolence after Fran's death in April 2018 ("Fran was truly
 
 ## Gaps
 
-_All recorded gaps have been answered and are staged below._
-
-## Operator answers — pending ingest
-
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-17] — Ellen's side of the thread is the only side reliably preserved — the ex…
-
-**The gap, as this page stated it:**
-
-> Ellen's side of the thread is the only side reliably preserved — the export
-> marks every row "Received," so most of what Dan sent her is not recoverable
-> except where it survives, as the April 2017 condolence does, in the full
-> message dump. Nothing records whether she and Dan have had any contact since
-> the June 2026 severance or the July 2026 re-contact
-> ([[wiki/timeline/events/july-2026-recontact]]); the last message on file is
-> the November 2025 birthday note, which predates both. Her relation to
-> Betherin Mechling is inferred from the Mechling/Ulmer cousin framing rather
-> than stated.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-17_053844_gap-ellen-ulmer.md`.
-
-Dan was forced to contact her during the conflict that Annie created in late July where she claimed to be raped and held hostage by Jerel Coles. She made these claims minutes before Coles began texting Dan threats from Annie’s phone, leading Dan to believe Annie was in danger. Dan’s message to Ellen can be found in the text logs on 26 July 2026 at around 7am. Also available are the threatening messages from the hours before this on Annie’s number
+- **Ellen's side is the only side reliably preserved.** The export marks every
+  row "Received," so most of what Dan sent her is not recoverable except where
+  it survives, as the April 2017 condolence does, in the full message dump.
+  The 2026-07-26 message above is the test case: the operator says it is in the
+  text logs, and it has not yet been pulled.
+- **Her relation to [[wiki/people/betherin-mechling|Betherin]] is inferred**
+  from the Mechling/Ulmer cousin framing rather than stated.
+- **Whether there has been any contact after 2026-07-26** — the birthday note
+  of November 2025 and the crisis message are the last two entries, and 2026's
+  November has not happened yet. Whether the annual note survives the collapse
+  is the cleanest live prediction this page carries.

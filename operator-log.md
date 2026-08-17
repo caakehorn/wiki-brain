@@ -13,8 +13,9 @@ every page that inherited the gap, then clear.
 
 | Staged | Page | Kind | Gist | Capture | Integrated |
 |---|---|---|---|---|---|
-| 2026-08-16 | wiki/mind/synthesis/block-unblock-loop | gap | - Whether the Tom channel reopened after May 30, 2026 is undocumented | raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md | |
-| 2026-08-16 | wiki/people/kristin | gap | - Nothing after 2025-12-10. The block appears to have held; whether contact | raw/people/captures/2026-08-16_195122_gap-kristin.md | |
-| 2026-08-16 | wiki/people/kristin | gap | Not from the gap list — volunteered by the operator, so the ingest | raw/people/captures/2026-08-16_172243_gap-kristin.md | |
-| 2026-08-16 | wiki/timeline/events/july-august-2026-reentanglement | gap | - Betty's final weeks are described here for the first time — that Annie | raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md | |
-| 2026-08-16 | wiki/timeline/events/robotussin-s-last-dance | gap | - Whether any of the three were sober enough to make decisions by the time they left Ruby  | raw/timeline/captures/2026-08-16_185413_gap-robotussin-s-last-dance.md | |
+| 2026-08-16 | wiki/mind/synthesis/block-unblock-loop | gap | - Whether the Tom channel reopened after May 30, 2026 is undocumented | raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md | 2026-08-17 |
+| 2026-08-16 | wiki/people/kristin | gap | - Nothing after 2025-12-10. The block appears to have held; whether contact | raw/people/captures/2026-08-16_195122_gap-kristin.md | 2026-08-17 |
+| 2026-08-16 | wiki/people/kristin | gap | Not from the gap list — volunteered by the operator, so the ingest | raw/people/captures/2026-08-16_172243_gap-kristin.md | 2026-08-17 |
+| 2026-08-16 | wiki/timeline/events/july-august-2026-reentanglement | gap | - Betty's final weeks are described here for the first time — that Annie | raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md | 2026-08-17 |
+| 2026-08-16 | wiki/timeline/events/robotussin-s-last-dance | gap | - Whether any of the three were sober enough to make decisions by the time they left Ruby  | raw/timeline/captures/2026-08-16_185413_gap-robotussin-s-last-dance.md | 2026-08-17 |
+| 2026-08-17 | wiki/people/ellen-ulmer | staged-elsewhere | Nothing records whether she and Dan have had any contact since the June 2026 severance | raw/people/captures/2026-08-17_053844_gap-ellen-ulmer.md | 2026-08-17 |

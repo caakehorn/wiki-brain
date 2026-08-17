@@ -4,9 +4,9 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-16
-pending_ingest: 2026-08-16
+date_modified: 2026-08-17
 sources:
+  - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - "raw/self/message-csv/THE END FIGHT.csv"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
@@ -53,7 +53,7 @@ connections:
     claim: "The peer-bond case: the May 18 2026 conditional unblock ('I'm unblocking you for the moment… otherwise fuck you'), with the 2014 declared-done-then-return precedent proving the loop predates Annie by a decade."
   - page: wiki/people/kristin
     type: contains
-    claim: "The inbound control case: Kristin's Dec 9 2025 block of Dan held permanently — the counterparty had no dependency running through the channel, so her severance was structural, not declarative."
+    claim: "The inbound control case: Kristin's Dec 9 2025 block of Dan held permanently — the counterparty had no dependency running through the channel, so her severance was structural, not declarative. Corroborated off-corpus by the operator on 2026-08-17 (\"No contact after 10 Dec 2025\"), which upgrades it from unobserved silence to a confirmed hold at eight months."
   - page: wiki/people/rick-frank
     type: co-occurs
     claim: "RETRACTED 2026-08-11: this page previously listed Rick as its cleanest held-block control case ('12-day burst, then a decade of unanswered inbound'), built on an incomplete per-contact export. The complete primary record shows the opposite — over 1,600 two-way messages 2015–2025 and real repair within weeks of the December 2015 friction — so this is no longer a control case for 'Dan can hold a family block indefinitely.' The real held silence is different and much more recent: total non-response from Dan since Feb 26, 2025, starting the day after Dan proposed a get-together Rick accepted."
@@ -241,13 +241,35 @@ an exhaustible Fe function.
 
 ## What this changes
 
-- **Prediction.** Any current or future severance in the record can be
-  scored by the rule: is anything still flowing through the channel?
-  The May 30, 2026 Tom endpoint (threat to involve Phil, no
-  reconciliation documented) is unresolved precisely because the
-  dependency question is unresolved — if the supply need persists and
-  no replacement node exists, the loop's history says the channel
-  reopens.
+- **Prediction — the Tom endpoint, now RESOLVED, and the rule holds.** Any
+  current or future severance in the record can be scored by the rule: is
+  anything still flowing through the channel? The May 30, 2026 Tom endpoint
+  (threat to involve Phil, no reconciliation documented) was left unresolved
+  precisely because the dependency question was — if the supply need persisted
+  and no replacement node existed, the loop's history said the channel would
+  reopen.
+
+  > **PREDICTION RESOLVED [2026-08-17] — it did not reopen.** The operator,
+  > asked directly: **"No I have not been in contact with tom"**
+  > (`raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md`). Roughly
+  > **eleven weeks** of silence after May 30, against a back catalogue of 127
+  > declared exits in which all but one reopened inside 48 hours.
+  >
+  > This is a confirmation, and one the rule could cheaply have got wrong. It
+  > scored Tom as a case where the dependency had *ended* —
+  > [[wiki/mind/synthesis/supply-network]] has the current primary node as Bop,
+  > house-calling daily, so the supply need has a replacement and this channel
+  > carries nothing. The rule predicted a hold; it held. Read against the Annie
+  > row, which the rule got **wrong** by scoring dependency without noticing a
+  > co-held object, this is the same rule succeeding in the case where the
+  > object question does not arise: Dan and Tom co-held nothing.
+  >
+  > **What it does not settle.** Eleven weeks is only a fortnight longer than
+  > the Annie closure ran before failing on day fifty-three. The Tom row is
+  > therefore provisional on elapsed time in exactly the way the Menore control
+  > already is, and should be re-checked rather than treated as closed — a
+  > confirmation at eleven weeks is weaker evidence than the Annie failure was,
+  > and this page gains nothing by pretending otherwise.
 - **Reading blocks correctly.** A Dan block should never be read as a
   terminal event, and — per the repair-asymmetry — its reversal should
   never be read as an apology. Both are channel-state toggles governed
@@ -503,6 +525,12 @@ Menore control, or any prediction this page tracks.
   above). If that channel reopens, this page loses its cleanest non-Annie
   control, and the corrected rule needs a durability clause rather than a
   dependency clause alone.
+- **The Tom row is now provisional in the same way.** Resolved as a hold on
+  2026-08-17 at roughly eleven weeks — a fortnight longer than the Annie
+  closure survived before failing. Re-check it; a reopening would not falsify
+  the dependency rule (nothing flows through that channel) but would say the
+  rule is not the only thing holding a block shut, which is a bigger finding
+  than the confirmation was.
 - The 127/110 pair remains [DERIVED] from the dossier passes; a
   primary recount from the raw dumps is queued on
   [[wiki/mind/synthesis/dan-annie-fallout-verdict]].
@@ -523,26 +551,3 @@ Menore control, or any prediction this page tracks.
 > block's actual finding — that the twenty-four-hour switch was Dan's, not
 > Annie's — is untouched and is what this page cites. No block/unblock count,
 > date or declared-exit tally moves.
-
-## Operator answers — pending ingest
-
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-16] — Whether the Tom channel reopened after May 30, 2026 is undocumented — t…
-
-**The gap, as this page stated it:**
-
-> - Whether the Tom channel reopened after May 30, 2026 is undocumented
->   — the record simply ends; the rule's prediction for it is on the
->   record above and is falsifiable by the next data drop.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md`.
-
-No I have not been in contact with tom
