@@ -72,6 +72,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "No counter-rule mechanism for closing a bond absent an explicit severance signal is 'The Irreversibility Firewall' implemented as an actual data structure: without a delete operation, the only way out is force applied from outside the system, which is exactly how the Annie bond in fact closed."
+  - page: wiki/mind/concepts/the-handed-mirror
+    type: parallels
+    claim: "The confession trap is the inbound form of the same refusal to let an evidentiary case go unwitnessed: needing a verdict from the other person, versus serving one on them."
 ---
 
 

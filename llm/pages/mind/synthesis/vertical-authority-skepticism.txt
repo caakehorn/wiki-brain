@@ -23,7 +23,7 @@ connections:
   - page: wiki/mind/synthesis/the-embedded-objective
     type: parallels
     claim: "Refusal is only half the repertoire — where a vertical claim pays, Dan accepts the role and runs a private objective inside it instead of rejecting it, which is evasion by occupation rather than by exit."
-  - page: wiki/people/diane-shrum
+  - page: wiki/people/diane-moore
     type: evidenced-by
     claim: "The April 2018 letters are the template at family scale: authority exercised through paperwork, monitors and advance written requests by people who, on the caregivers' own account, did not visit Fran once."
   - page: wiki/mind/synthesis/the-deferred-audit
@@ -68,6 +68,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "The vertical axis is distrusted first and hardest because auditing it is free — the finding never lands on Dan — which is 'The Irreversibility Firewall's' fourth prediction; this page's two independently-dated origins (the 2005 concealed-reality hinge, and a childhood pattern of public confrontation) both teach that externally-imposed claims arrive already exposed."
+  - page: wiki/people/dave-moore
+    type: evidenced-by
+    claim: "A man with no blood tie to the dying woman and no role in her care, speaking for the heir to hospital social workers and drafting the correspondence, is the template's purest family-scale instance."
 ---
 
 

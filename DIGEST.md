@@ -13,21 +13,21 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 462 |
-| Pages touched in the last 14 days | 106 |
+| Pages | 465 |
+| Pages touched in the last 14 days | 111 |
 | Pages reasoning from other pages (`synthesizes:`) | 27 |
-| Live contradictions | 32 |
-| Open gaps | 315 |
+| Live contradictions | 33 |
+| Open gaps | 335 |
 | Standing predictions | 13 |
 
 ## By domain
 
 | Domain | Pages |
 |---|---|
-| people | 162 |
+| people | 163 |
 | interests | 143 |
-| mind | 59 |
-| timeline | 36 |
+| mind | 60 |
+| timeline | 37 |
 | self | 32 |
 | work | 15 |
 | places | 8 |
@@ -38,15 +38,17 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
-| stable | 184 |
-| active | 136 |
+| stable | 188 |
+| active | 135 |
 | closed | 98 |
 | archived | 31 |
 | stub | 13 |
 
 ## The last few days
 
-**2026-08-18** — 20 pages
+**2026-08-18** — 25 pages
+  - rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
+  - ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
 
 **2026-08-17** — 15 pages
   - restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge

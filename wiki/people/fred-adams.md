@@ -29,7 +29,7 @@ connections:
   - page: wiki/people/fran-coldren
     type: supplied-by
     claim: "Adams's authority derives entirely from Ira Coldren Jr. — law partner first, then trustee of the accounts Ira's estate left her — so Fran's third marriage is the reason a lawyer controlled her money for the last decades of her life."
-  - page: wiki/people/diane-shrum
+  - page: wiki/people/diane-moore
     type: co-occurs
     claim: "The two authorities over Fran's final weeks acted in the same direction from different seats: Adams set the rotation, the family's letters decided who was eligible for it, and neither instrument was held by anyone doing the caregiving."
 ---
@@ -55,7 +55,7 @@ alone when she died. That instruction is the reason a formal shift rotation
 existed at all ([[wiki/timeline/events/fran-death-vigil]]), and it is
 therefore also the reason that Dan and [[wiki/people/annie-ulmer|Annie]]
 being excluded from it — by the family letters described on
-[[wiki/people/diane-shrum]] — was an exclusion from something rather than
+[[wiki/people/diane-moore]] — was an exclusion from something rather than
 merely an absence of invitation. The mandate is a humane instruction issued
 by the person furthest from the bedside, and it is the clearest single
 illustration of how the family's authority and the family's presence sat in

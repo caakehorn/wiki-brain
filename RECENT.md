@@ -8,12 +8,16 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-18 — 20 pages
+## 2026-08-18 — 25 pages
+
+- **Session log:** rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
+- **Session log:** ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/legal/463-morgantown]] | legal | **CORRECTED** — The sentence above previously read *"Suz's finances are themselves cyclical — the operating manual documents $750/week borrowing patterns — so a lien-sized shock has no obvious absorber."* The $750/we |
 | [[wiki/mind/concepts/contact-gini]] | mind | **REVISED** — The Suzanne Frank row was wrong by a factor of fourteen — 2,391 against a true 33,698 — because it was taken from `MASTER_MESSAGES_DB_DUMP.csv`, which `EXTRACTION_SPEC.md` flags as unreliable and whic |
+| [[wiki/mind/concepts/the-handed-mirror]] | mind | **CORRECTED** — forensic-method carried the claim that the July 2026 Leviathan dashboards were "the method's first outward deployment." They are the first deployment *as leverage in a live dispute*; the first outward |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | _(carries a CORRECTED from 2026-08-15)_ |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **CORRECTED** — This section previously described the switchboard as carrying money *toward* Dan — "the deep-cycle borrowing (~$750/week) came from her." Both halves fail against the primary record. The $750 figure i |
@@ -24,6 +28,9 @@ simply listed.
 | [[wiki/people/alexander-jackson]] | people | — |
 | [[wiki/people/annie-ulmer]] | people | _(carries a CORRECTED from 2026-08-16)_ |
 | [[wiki/people/arnu]] | people | _(carries a DEADLINE ELAPSED from 2026-08-02)_ |
+| [[wiki/people/dave-moore]] | people | — |
+| [[wiki/people/diane-moore]] | people | **CORRECTED** — This page previously titled her *"Diane (Rebecca Diane Van Voorhis Shrum)"* and stated outright that the surname was *"given here as Shrum on the strength of the documented marriage rather than a reco |
+| [[wiki/people/james-dee]] | people | **CORRECTED** — The wiki carried a second entity page for this man, created 2026-06-23, titled *"Max (Danielle's boyfriend)"* and stating in its own body that he was *"unrelated to 'Max' the AI persona (MAX_PRIME) Da |
 | [[wiki/people/john-carney]] | people | _(carries a RE-CHECKED from 2026-08-02)_ |
 | [[wiki/people/john-felix]] | people | **REVISED** — The partner reading above is **not supported** by the source this page never checked. The `+17249636738` thread does run only February–June 2016, but "Felix" appears in the Suz thread **continuously f |
 | [[wiki/people/johnny-dealer]] | people | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale against master-message-dump, which moved to record that the master CSV undercounts Suzanne Frank's thread fourteen-fold. **Noth |
@@ -32,6 +39,7 @@ simply listed.
 | [[wiki/self/message-corpora/master-message-dump]] | self | **CORRECTED** — Row 8 of the rank table above is a good worked example of what this file gets wrong. `MASTER_MESSAGES_DB_DUMP.csv` records **2,391** messages for `+17243228715`. The authoritative `all_imessages_compl |
 | [[wiki/timeline/annie-read-notes]] | timeline | — |
 | [[wiki/timeline/annie-record]] | timeline | — |
+| [[wiki/timeline/events/james-analysis-pdf]] | timeline | — |
 
 ## 2026-08-17 — 15 pages
 
@@ -101,7 +109,7 @@ simply listed.
 |---|---|---|
 | [[wiki/self/ancestry]] | self | — |
 | [[wiki/self/lineage/23andme-genomics]] | self | **CORRECTED** — The previous version of this page claimed the source PDFs were "image-based without an extractable text layer" and that "specific percentage values are not digitally recorded." This was wrong. All thr |
-| [[wiki/self/lineage/family-tree]] | self | _(carries a CORRECTED from 2026-08-02)_ |
+| [[wiki/self/lineage/family-tree]] | self | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/self/lineage/hybrid-analysis]] | self | — |
 | [[wiki/self/message-corpora/source-coverage-index]] | self | — |
 
@@ -178,7 +186,7 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/extreme-sports]] | interests | — |
-| [[wiki/mind/concepts/forensic-method]] | mind | — |
+| [[wiki/mind/concepts/forensic-method]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | — |
 | [[wiki/people/index]] | people | — |
@@ -216,7 +224,7 @@ simply listed.
 | [[wiki/people/lucy]] | people | — |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a REVISED from 2026-08-08)_ |
 
-## 2026-08-02 — 27 pages
+## 2026-08-02 — 26 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -246,7 +254,6 @@ simply listed.
 | [[wiki/people/betherin-mechling]] | people | — |
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/people/david-j-frank]] | people | — |
-| [[wiki/people/diane-shrum]] | people | **CORRECTED** — family-tree drew Fran's descent through **George Dixon Shrum Jr.**, Dan's maternal *grandfather*. The GEDCOM family records show the opposite: Fran's daughter is Rebecca Diane Van Voorhis, Dan's mater |
 | [[wiki/people/franki-faris]] | people | **CONTRADICTION** — This page has carried *"a five-day rebound"* and *"the Franki interlude lasted five days before collapsing,"* sourced to the Gemini-58 and DANSYNTH self-narrations, and dormancy-not-exit uses that fig |
 | [[wiki/people/fred-adams]] | people | — |
 | [[wiki/people/jay-lauer]] | people | — |
@@ -255,7 +262,7 @@ simply listed.
 | [[wiki/people/sadie-harris]] | people | _(carries a CONTRADICTION)_ |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/timeline/events/bald-eagle-cummings]] | timeline | — |
-| [[wiki/timeline/events/fran-death-vigil]] | timeline | **GAP CLOSED** — This page had carried "the punchline of the SMOK-vs-10W vape story (set up in the session, delivered only in an uploaded video — fire alarm? staff incident?)" as an open question since 2026-07-19. Two |
+| [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/events/july-2026-recontact]] | timeline | — |
 | [[wiki/timeline/events/teen-concert-years]] | timeline | **CONTRADICTION** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate |
@@ -374,7 +381,7 @@ simply listed.
 | [[wiki/interests/favorites/music/artists/vertical-horizon]] | interests | — |
 | [[wiki/interests/favorites/music/artists/we-the-kings]] | interests | — |
 | [[wiki/interests/favorites/music/artists/wiki]] | interests | — |
-| [[wiki/people/danielle-onesi]] | people | — |
+| [[wiki/people/danielle-onesi]] | people | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/people/menore]] | people | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/places/424-bedford-ave]] | places | — |
 
@@ -408,7 +415,7 @@ simply listed.
 | [[wiki/self/lineage/index]] | self | — |
 | [[wiki/work/caviar-courier]] | work | — |
 
-## 2026-07-20 — 40 pages
+## 2026-07-20 — 39 pages
 
 - **Session log:** ingest | people | FB deep-scrape XII — matthew-palermo (new tier-one entry)
 - **Session log:** ingest | people | FB deep-scrape XIII — david-beard (new tier-one entry)
@@ -468,7 +475,6 @@ simply listed.
 | [[wiki/people/marc-charles]] | people | — |
 | [[wiki/people/marty-martin]] | people | — |
 | [[wiki/people/matthew-palermo]] | people | — |
-| [[wiki/people/max-danielle-bf]] | people | — |
 | [[wiki/people/michael-hinkle]] | people | — |
 | [[wiki/people/mike-cordaro]] | people | — |
 | [[wiki/people/ryan-lisac]] | people | — |

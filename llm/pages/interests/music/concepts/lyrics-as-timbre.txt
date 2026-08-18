@@ -19,6 +19,10 @@ related:
   - wiki/interests/music/aliases/gripnotic
   - wiki/interests/music/aliases/sloppp
 tags: [music-production, personality-profile]
+connections:
+  - page: wiki/people/james-dee
+    type: evidenced-by
+    claim: "Dan states the same lyric-blindness to a hostile third party mid-argument in late summer 2025 — 'I hear melodies, harmonies. I don't hear the narrative or the topic of the lyrical content at all' — roughly a year before the capture this page was built on, which makes it corroborated rather than single-sourced."
 ---
 
 # Lyrics as Timbre

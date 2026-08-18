@@ -42,7 +42,7 @@ infobox:
   role: "licensed Pennsylvania realtor (Park Place Realty Group, Uniontown)"
   status: Active
   relationship: Mother of [[wiki/self/overview|Dan Frank]]
-  parents: "George Dixon Shrum Jr. (b. 1937) · [[wiki/people/diane-shrum|Rebecca Diane Van Voorhis]] (b. 1939)"
+  parents: "George Dixon Shrum Jr. (b. 1937) · [[wiki/people/diane-moore|Rebecca Diane Van Voorhis]] (b. 1939)"
   first_contact: 1988-11-01
   handles: ["+172****8715", "suzfrank@***.net", "suzfrank915@***.com"]
   known_for: "The 33,698-message thread that is the second-largest relationship record in the corpus, and the unsettled mutual ledger running through all of it"
@@ -56,7 +56,7 @@ connections:
   - page: wiki/legal/463-morgantown
     type: component-of
     claim: "Every unwritten relationship at 463 converges on one person whose own filed liabilities were ~$157,000 and whose self-reported income was $11,000–$14,000 a year — which is why the page's search for an absorber for a lien-sized shock finds none."
-  - page: wiki/people/diane-shrum
+  - page: wiki/people/diane-moore
     type: caused-by
     claim: "Suz's explicit organizing principle as a parent is negative — 'I would never lose contact with either of my children the way it happened with your Dad and me and our parents' — which makes her mother's rejection the documented cause of the total-availability posture the rest of this page describes."
   - page: wiki/people/fran-coldren
@@ -131,6 +131,9 @@ connections:
   - page: wiki/people/james-dee
     type: co-occurs
     claim: "Suz is the only person on record who corrects Dan's rhetorical register mid-conflict — telling him 'intellectually dishonest' was both inaccurate and tactically ruinous — and she independently tracks James's movements to Dan in June 2025."
+  - page: wiki/people/dave-moore
+    type: co-occurs
+    claim: "Her stepfather by her mother's second marriage, with whom the corpus records not one exchanged word — only Annie's startled report that Suz ran into him and Dian in August 2018."
 ---
 
 
@@ -169,7 +172,7 @@ buyer from [[wiki/people/jim-vrabel|Jim Vrabel]], and Dan's routine cocaine
 source in 2015–16. Her own stated organizing principle as a parent is
 negative — never to lose her children the way she lost her parents — and she
 names [[wiki/people/fran-coldren|Fran]], not
-[[wiki/people/diane-shrum|Diane]], as the only person who loved her
+[[wiki/people/diane-moore|Diane]], as the only person who loved her
 unconditionally.
 
 ## The ledger that never closes

@@ -44,7 +44,8 @@ related: []
 - [[wiki/people/danielle-onesi]] — Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort).…
 - [[wiki/people/dan-polyak]] — Longtime friend; documented the April 2019 phone-number impersonation used to reach Ally Lubin, and received the same-morning account of the Bryan encounter.
 - [[wiki/people/danny-matthews]] — Realtor who sold Fran's house; also half of a swinger couple (with Nicole) Dan and Annie played with 2018–2024.
-- [[wiki/people/diane-shrum]] — Rebecca Diane Van Voorhis Shrum, Dan's maternal grandmother and Fran's only child; sent the April 2018 letters barring Dan and Annie from Fran's house.
+- [[wiki/people/diane-moore]] — Rebecca Diane Van Voorhis Moore, Dan's maternal grandmother and Fran's only child; the spring 2018 instrument demanding the keys under a trespassing clause. Absorbs the wiki's separate "Dian V. Moore" actor.
+- [[wiki/people/dave-moore]] — Diane's second husband; spoke for her to Fran's hospital social workers, and the man Dan believed wrote the trespassing letter.
 - [[wiki/people/davey-fitzpatrick]] — Nemacolin assistant caddie master (2018) and Dan's scheduler/friend for the last Uniontown working year; the thread ends the day Dan tells him about the NYC move.
 - [[wiki/people/david-beard]] — Golf-course-adjacent contact who sold Dan a used drone in Sept 2018, the middle purchase in a three-drone summer.
 - [[wiki/people/david-j-frank]] — Paternal great-grandfather of Dan Frank. Born 12 August 1892 in Russia (Jewish immigrant). Died 6 April…

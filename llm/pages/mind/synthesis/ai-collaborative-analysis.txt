@@ -70,6 +70,15 @@ connections:
   - page: wiki/mind/synthesis/instrument-is-subject
     type: instantiates
     claim: "The methodological consequence of this page: because LLM use is a documented daily organ of the subject, the same class of tool cannot serve as an independent observer of him, and interpretive output must carry provenance upward through every climb."
+  - page: wiki/timeline/events/james-analysis-pdf
+    type: instance-of
+    claim: "The exocortex used as a social instrument rather than a private one: model output leaves the session as a PDF and is transmitted to two people who never asked to be analyzed."
+  - page: wiki/mind/concepts/the-handed-mirror
+    type: contains
+    claim: "The disposal step of the collaboration — what happens to the output after the session closes — which this page documents as private and which is, in practice, routinely externalized."
+  - page: wiki/people/james-dee
+    type: instance-of
+    claim: "The same person is analyzed twice through two different models, Gemini on a 25-minute audio recording and ChatGPT on the text log, which is the clearest case of the instrument being re-aimed at one target across vendors."
 ---
 
 

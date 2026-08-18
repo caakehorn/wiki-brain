@@ -44,7 +44,8 @@ related: []
 - [[wiki/people/danielle-onesi]] — Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort).…
 - [[wiki/people/dan-polyak]] — Longtime friend; documented the April 2019 phone-number impersonation used to reach Ally Lubin, and received the same-morning account of the Bryan encounter.
 - [[wiki/people/danny-matthews]] — Realtor who sold Fran's house; also half of a swinger couple (with Nicole) Dan and Annie played with 2018–2024.
-- [[wiki/people/diane-shrum]] — Rebecca Diane Van Voorhis Shrum, Dan's maternal grandmother and Fran's only child; sent the April 2018 letters barring Dan and Annie from Fran's house.
+- [[wiki/people/diane-moore]] — Rebecca Diane Van Voorhis Moore, Dan's maternal grandmother and Fran's only child; the spring 2018 instrument demanding the keys under a trespassing clause. Absorbs the wiki's separate "Dian V. Moore" actor.
+- [[wiki/people/dave-moore]] — Diane's second husband; spoke for her to Fran's hospital social workers, and the man Dan believed wrote the trespassing letter.
 - [[wiki/people/davey-fitzpatrick]] — Nemacolin assistant caddie master (2018) and Dan's scheduler/friend for the last Uniontown working year; the thread ends the day Dan tells him about the NYC move.
 - [[wiki/people/david-beard]] — Golf-course-adjacent contact who sold Dan a used drone in Sept 2018, the middle purchase in a three-drone summer.
 - [[wiki/people/david-j-frank]] — Paternal great-grandfather of Dan Frank. Born 12 August 1892 in Russia (Jewish immigrant). Died 6 April…
@@ -116,7 +117,7 @@ related: []
 - [[wiki/people/matt-dunn]] — Full Sail friend, affectionately abused as "the world's most annoying man woman or child"; the annual $5 birthday Venmo bit.
 - [[wiki/people/matthew-palermo]] — Uniontown classmate whose brother fatally overdosed after a relapse; recipient of Dan's starkest opiate-epidemic self-assessment.
 - [[wiki/people/max]] — Implements ai-collaborative-analysis and vertical-authority via "adversarial" pressure for robustness.…
-- [[wiki/people/max-danielle-bf]] — Danielle's current boyfriend; subject of an unprompted AI personality analysis Dan ran on a recording of him.
+- [[wiki/people/james-dee]] — Danielle's boyfriend; the 2025 friendship that ended twelve minutes after Dan handed him an AI profile of himself. Absorbs the mis-titled "Max (Danielle's boyfriend)" page.
 - [[wiki/people/md]] — Au Za'atar-affiliated contact; 2024 Bangladesh political-unrest discussion.
 - [[wiki/people/menore]] — "Additional family/friend" per master dump analysis and cross-refs. Handle +13476070497 (dedicated CSV messages_3476070497_all_time.csv).…
 - [[wiki/people/michael-hinkle]] — One-sided, unanswered 2017 Facebook message.

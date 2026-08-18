@@ -24,7 +24,7 @@ related: [
   "wiki/people/alexis-armel",
   "wiki/people/annie-ulmer",
   "wiki/people/tom",
-  "wiki/people/max-danielle-bf",
+  "wiki/people/james-dee",
   "wiki/people/suzanne-frank",
   "wiki/people/gabe",
   "wiki/self/gemini-activity/gemini-activity",
@@ -42,17 +42,21 @@ infobox:
   location: nyc
   known_for: "Dan's first girlfriend (~2005–2009), Uniontown origin, and a figure who has quietly remained in his life ever since — no"
 connections:
-connections:
   - page: wiki/timeline/events/bald-eagle-cummings
     type: follows
     claim: "Danielle is not the first girlfriend after all: Britney Bolen predates her by roughly three years, which moves the start of Dan's documented relationship history from 2004 back to seventh grade."
-connections:
   - page: wiki/timeline/events/franki-fireworks-day-2013
     type: co-occurs
     claim: "Suz brought Danielle and Alexis together to bond over their shared grievance against Dan in July 2013 — the earliest documented instance of the maternal switchboard operating on the relational graph rather than the financial one, and per the capture it 'caused a huge thing'."
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: instantiates
     claim: "Seventeen years of continuous presence after the 2009 breakup — Suzanne's closest friend, the cat's co-guardian, a Christmas fixture — is the cleanest case of a romantic role ending without the tie ending."
+  - page: wiki/timeline/events/james-analysis-pdf
+    type: caused-by
+    claim: "Being sent a psychological profile of her own live-in boyfriend, four minutes after he was, is what converted Dan's critique into an exposure and ended the friendship in the following eight minutes."
+  - page: wiki/people/james-dee
+    type: contextualizes
+    claim: "James is the boyfriend referred to obliquely on this page as the man who tried to buy cocaine through Annie; the 2025 corpus gives him a name, a phone handle, a catalog and an eight-week arc."
 ---
 
 # Danielle Onesi ("Dee")
@@ -65,7 +69,11 @@ Uniontown, PA — same Rust Belt cohort as Dan's pre-NYC origin. First serious r
 
 ## The Breakup (2009)
 
-Dan ended the relationship by cheating — a girl from Baltimore, connected through Jack from All Time Low, while Dan was in Orlando wrapping up Full Sail. The CATO bootloader records his regret over it explicitly. This is the inflection point: post-Danielle, Dan moves directly into the Alexis (Lex) Armel era (~2010–2015), which overlaps with his NYC arrival and the ishlab years.
+Dan ended the relationship by cheating — a girl from Baltimore, connected through All Time Low, while Dan was in Orlando wrapping up Full Sail. The CATO bootloader records his regret over it explicitly. This is the inflection point: post-Danielle, Dan moves directly into the Alexis (Lex) Armel era (~2010–2015), which overlaps with his NYC arrival and the ishlab years.
+
+A 2025 account fills the breakup in with specifics the bootloader does not carry. The other girl is named — **Kelly Mulroy** — and the connection is stated as knowing **Alex Gaskarth** rather than Jack, which Dan describes as a credential that carried real weight in 2009. The date is given as **Valentine's Day**, five months into the Orlando move, and Dan characterizes his own execution without hedging: he broke up with Danielle *"in a real cruel shitty way"* and left with Kelly for a show in Jacksonville. The affair itself went nowhere; his stated reason is that Kelly is *"the only girl ever"* who required a condom, and the encounter ended there.
+
+> **The guilt is dated, and it is not from 2009.** In the same 2025 conversation Dan writes: *"the stuff with Annie has made me feel guilty for the first time in my life about how i treated danielle."* Sixteen years after the fact, and only after [[wiki/people/annie-ulmer|Annie]] had done something structurally similar to him. The mechanism is symmetry rather than remorse — the injury became legible from the receiving end — and the hedge he attaches to it (*"at least i didn't torture her for 6 months and consistently break promises"*) is scoring his own conduct against hers on a metric he only has because of her. Full context at [[wiki/timeline/events/james-analysis-pdf]].
 
 ## Gabe (Cat Debt)
 
@@ -77,7 +85,9 @@ The _58 Gemini source flags an anomaly: on May 1, 2010 — Dan's birthday, the d
 
 ## 2025–2026: James, Game Theory, and the Christmas Node
 
-The most substantive recent Danielle material comes from the Gemini HTML bio cluster and _21. Her current boyfriend — variously called "James" (in the Game Theory/coke narrative) and "the most wild dude I've ever met" (in _21's music personality analysis) — is a CNA-turned-aspiring-producer who plays Dan a concept album and receives what Dan calls rare extended music praise: "knows more about music than I do... I don't give that to any other people."
+The most substantive recent Danielle material comes from the Gemini HTML bio cluster and _21. Her boyfriend — variously called "James" (in the Game Theory/coke narrative) and "the most wild dude I've ever met" (in _21's music personality analysis) — is a CNA-turned-aspiring-producer who plays Dan a concept album and receives what Dan calls rare extended music praise: "knows more about music than I do... I don't give that to any other people." He now has his own page at [[wiki/people/james-dee]], built from the 2025 message corpus and a full ChatGPT log neither of those sources contained.
+
+> **CORRECTED [2026-08-18]:** this paragraph had the identification right and the wiki did not act on it. A separate entity page, `wiki/people/max-danielle-bf`, was created in June 2026 for the same man under the name "Max" — read off a line in `Gemini-_21.md` where Dan addresses the **AI persona** ([[wiki/people/max]]) before handing it the recording. The wiki therefore carried two pages for one person, one of them named after a chatbot, while this sentence sat here saying they were the same. The pages are merged into [[wiki/people/james-dee]].
 
 The same man asks Annie (through back-channels) for cocaine. Dan finds out. He says nothing to Danielle. The reasoning, laid out in the HTML Gemini analysis:
 

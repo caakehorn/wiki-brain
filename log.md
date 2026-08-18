@@ -1906,3 +1906,52 @@ two load-bearing claims elsewhere in the wiki.
   `danielle-onesi`.
 - **Gates:** wiki-lint 0 errors · wiki-connect 0 errors · wiki-climb 0 errors,
   9 staleness warnings (none introduced here).
+
+## [2026-08-18] close | people | wiki/people/diane-moore — a two-word operator answer merged two entities and re-dated the exclusion
+
+The operator answered the standing gap on the grandmother page with **"Dian and
+Dave."** Treated as T0 testimony and checked against the message dump, it held
+and then kept going.
+
+- **Her married surname is Moore, and the wiki already had it twice.** The page
+  titled her "Diane Shrum" and admitted the surname was inferred *"rather than
+  a record naming her that way."* The corpus names her on 2018-04-01: **"diane
+  moore hasn't been able to be reached by anyone. dave is 'speaking on her
+  behalf'"** and **"the social workers are talking to dave moore."** George
+  Shrum Jr. is the first husband and Suz's father. Page renamed
+  `diane-shrum` → `diane-moore`, 27 references repointed.
+- **"Dian V. Moore" was her.** `155-virginia-ave`, `fran-death-vigil` and
+  `master-timeline` all record the 2018-03-29 eviction notice as served by
+  "Dian V. Moore," and the vigil page listed *"Dian V. Moore's role/relation to
+  the estate"* as an open gap while three other pages discussed the same woman
+  under another name. Merged.
+- **Annie never received a letter.** Both this page and `fran-death-vigil`
+  stated Dan and Annie *"each received"* one. Dan, 2018-04-03: *"lol also if
+  they are writing such professional correspondence why wouldn't Annie get her
+  own letter."* Corrected on both.
+- **The date moves into the terminal week.** The 2026 capture has the letters
+  sent "well before" the final admission; the contemporaneous record has the
+  eviction notice served 03-29 and the letter read, forwarded and lawyered on
+  04-03 — the day before Fran died. Held as a CONTRADICTION rather than
+  resolved, since an earlier visiting-rules letter may also exist.
+- **The author, per its recipient, is Dave.** *"i think dave wrote it — read the
+  last paragraph. 'any violation of the rules will be considered
+  trespassing'."* New page `wiki/people/dave-moore`.
+- **The 2020 contest question is settled and it was settled before he asked.**
+  Two months before Dan asked the estate attorney whether his grandmother would
+  object, Suz answered it: 2020-06-22, Dan *"does a court case mean diane
+  challenged it"* → Suz *"No… She isn't going to do that."* The August 17 court
+  date was the distribution proceeding. No objection in five further years.
+- **One asset appears to have left the estate outside the distribution.** Fran's
+  Florida condo: *"she went to florida to take over her condo down there and
+  sell it and keep the profits herself"* (2018-04-22), and Suz a year later:
+  *"if she wants a cut, she will have to give me a cut of what she got for
+  selling Florida."* Written into `estate-money-spine` with the caveat that no
+  instrument, price or date exists in the corpus.
+- **The earlier fear was a forecast.** `fran-death-vigil` explained an eight-hour
+  delay in treating a fallen 97-year-old by Dan's fear of "grandparents who
+  already hated" him, named there as Diane and George. They are Diane and Dave —
+  the same couple that then served the notice, wrote the letter, took the
+  hospital's calls and sold the condo.
+- **Gates:** wiki-lint 0 errors · wiki-connect 0 errors · wiki-climb 0 errors,
+  9 staleness warnings (unchanged). `bin/wiki-gaps pending` now empty.
