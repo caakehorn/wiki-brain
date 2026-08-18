@@ -56,6 +56,9 @@ connections:
   - page: wiki/work/tech/danmodel
     type: evidenced-by
     claim: "DANMODEL's independent extraction (39,378 reaction pairs, not raw messages) reproduces the same extreme concentration in a different unit: 40% of all pairs belong to Annie (early) alone."
+  - page: wiki/people/ally-lubin
+    type: instance-of
+    claim: "A 1,279-message tie whose 2019 peak is 74% of its lifetime volume is the long tail's characteristic shape at maximum amplitude — a seventeen-year relationship the message record renders as one three-month spike."
   - page: wiki/mind/synthesis/single-channel
     type: evidences
     claim: "The two-sided coefficient is the only measured instance of a concentration architecture that reproduces independently in the creative, cognitive and evaluative domains — this is the page that generalises it, and the page whose narrow-inbound-funnel alternative this recovery falsified."
