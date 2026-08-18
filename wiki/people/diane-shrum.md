@@ -115,19 +115,7 @@ not paranoid.
 
 ## Gaps
 
-Almost everything. Diane sends no messages in the corpus and receives none;
-there is no phone handle, no photograph, no direct exchange between her and
-Dan on record anywhere. The letters themselves are described but not
-preserved — no scan, no quoted text, no date beyond "well before" the April
-2018 admission, and no confirmation of whether they were sent by her alone,
-by her jointly with George, or by an attorney on the family's behalf. Her
-married surname is given here as Shrum on the strength of the documented
-marriage rather than a record naming her that way. Whether she attended the
-May 6, 2018 memorial at the Uniontown Country Club is unknown, as is whether
-she ever did contest the 2020 distribution — the attorney's read was that
-she would not, and no objection appears in anything since. The "grandparents
-who already hated you" that Dan feared during the earlier keno-morning fall
-are presumably Diane and George, but he never names them in that passage.
+_All recorded gaps have been answered and are staged below._
 
 ## Operator answers — pending ingest
 
@@ -140,12 +128,24 @@ are presumably Diane and George, but he never names them in that passage.
 > section and the `pending_ingest:` flag. It is not allowed to accumulate into
 > a changelog — STYLE_GUIDE rule 6.
 
-### ANSWERED [2026-08-18] — manual note
+### ANSWERED [2026-08-18] — Almost everything. Diane sends no messages in the corpus and receives n…
 
-**Not from the gap list** — volunteered by the operator, so the ingest
-has to work out for itself where on the page it belongs, and whether it
-contradicts something already there.
+**The gap, as this page stated it:**
 
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-17_230529_gap-diane-shrum.md`.
+> Almost everything. Diane sends no messages in the corpus and receives none;
+> there is no phone handle, no photograph, no direct exchange between her and
+> Dan on record anywhere. The letters themselves are described but not
+> preserved — no scan, no quoted text, no date beyond "well before" the April
+> 2018 admission, and no confirmation of whether they were sent by her alone,
+> by her jointly with George, or by an attorney on the family's behalf. Her
+> married surname is given here as Shrum on the strength of the documented
+> marriage rather than a record naming her that way. Whether she attended the
+> May 6, 2018 memorial at the Uniontown Country Club is unknown, as is whether
+> she ever did contest the 2020 distribution — the attorney's read was that
+> she would not, and no objection appears in anything since. The "grandparents
+> who already hated you" that Dan feared during the earlier keno-morning fall
+> are presumably Diane and George, but he never names them in that passage.
 
-Change Diane to Dian
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-17_230820_gap-diane-shrum.md`.
+
+Dian and Dave
