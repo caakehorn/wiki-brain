@@ -4,6 +4,30 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-18] - Session: a cited source had been read to 11% of its length, and the other 89% contained a person the wiki had filed twice under two wrong names
+
+* **Model:** Claude Code (Opus 5) · **Branch:** `claude/new-raw-source-entries-2uuxjx`
+* **Trigger:** Operator: *"Let's cover some new ground in the raw sources and try to create some new, muscular entries."*
+* **Method:** coverage audit of `raw/` against wiki citations, then exhaustive reads of the least-mined material, then the pending CLOSE.
+
+**Findings in order of value.**
+
+1. **The wiki carried one man as two people, and named one of them after a chatbot.** `wiki/people/max-danielle-bf` (created 2026-06-23) took its title from the first line of `Gemini-_21.md` — *"**Max** I have a gift for you… a 20 or 25 minute audio recording of… my first girlfriend Danielle's current boyfriend"* — reading a **vocative addressed to the MAX AI persona** as the subject's name. The model signs its own reply "MAX'S ANALYSIS." The boyfriend is never named in that source. `wiki/people/max` carried the error inverted, asserting a real person distinct from the persona; `danielle-onesi` had the identification right the whole time and nothing acted on it. Merged into **`wiki/people/james-dee`**, both other pages corrected in place.
+2. **The wiki carried a second person as two people, in the Fran material.** `wiki/places/155-virginia-ave`, `fran-death-vigil` and `master-timeline` record the 2018-03-29 eviction notice as served by **"Dian V. Moore"**, and the vigil page listed *"Dian V. Moore's role/relation to the estate"* as an open gap — while three other pages discussed the same woman as **"Diane Shrum."** The operator's two-word answer (*"Dian and Dave"*) plus the message dump settled it. Page renamed `diane-shrum` → **`diane-moore`**, 27 references repointed, new page **`dave-moore`**.
+3. **`forensic-method` dated the method's first outward deployment a year late.** It had July 2026 (the Leviathan dashboards). The James Analysis PDF is **2025-07-11** — same corpus-in / dossier-out shape, delivered to its subject, but friendly, which makes it the better control. Edge narrowed to "first as leverage"; correction written into the body. Downstream `read-receipt-forensics` re-checked, conclusion held.
+4. **Annie never received one of the 2018 exclusion letters.** Both `diane-shrum` and `fran-death-vigil` said Dan and Annie *"each received"* one. Dan, 2018-04-03: *"lol also if they are writing such professional correspondence why wouldn't **Annie get her own letter**."* Also re-dated: the operative instrument is the terminal week (notice 03-29, letter 04-03, death 04-04), not "well before" the admission. Contradiction with the 2026 capture **held open, not resolved**.
+5. **The 2020 estate-contest fear was answered two months before Dan asked the attorney.** 2020-06-22, Dan: *"does a court case mean diane challenged it"* → Suz: *"No… She isn't going to do that."* Written into `estate-money-spine`, along with the Florida condo that appears to have left the estate outside the distribution.
+6. **New concept page `the-handed-mirror`** — the forensic method's terminal step is delivery to the subject, with a witness copied, framed as a favor. Carries a prediction and a falsifier; the July 2026 dashboards are its hostile instance.
+7. **`lyrics-as-timbre` is no longer single-sourced** — corroborated by a 2025 in-the-wild statement to a hostile third party, a year before the capture it rested on.
+8. **Gates:** wiki-lint **0 errors** · wiki-connect **0 errors** · wiki-climb **0 errors, 13 staleness warnings** (was 9; this pass added 6 and cleared 2 with real RE-CHECKED blocks).
+* **RESUME POINT:**
+  1. **Staleness is 13.** Four of the new ones are on `block-unblock-loop` and `dormancy-not-exit`, both of which were *already* stale on other premises before this pass — so they cannot be cleared without re-checking those older premises too. Do not bump their dates piecemeal.
+  2. **`raw/self/chats/Analyzing manipulation and ethical intent in data.md` (3,548 lines) is still ~70% unread.** Lines 403–3183 are a raw Alexis message paste; the spring-2026 report sections after it were mined only for the girlfriend score (Annie 1.9 / Alexis 7.1, now on `alexis-armel`). The April 2026 video/contact-sheet body-language attempts at lines 3411–3548 are entirely unmined and are the forensic method reaching a new medium.
+  3. **`raw/self/chats/Drawer shortage dispute with assistant manager (1).md` (2,102 lines)** — cited by `forensic-method` and `bfs-foods`; depth of that read not audited this session.
+  4. **Three `raw/` collections are still empty placeholders**: `raw/legal/463-morgantown`, `raw/tech/grok-build`, `raw/tech/max-framework` are `.gitkeep` only, while wiki pages exist for all three subjects.
+  5. Corrections pass over the Dec 1-31 Annie entries, still not started. Continue the read at `bin/annie-corpus read 2016-01-01`.
+* **Handoff Note:** the coverage audit that found all of this is one line — for each `raw/<domain>/<collection>`, count files and count wiki pages citing the path. Two of the three biggest finds came from directories with a **non-zero** citation count, so "cited" is not "read." Re-run it before assuming a source is done.
+
 ### [2026-08-18] - Session: the mother page was rebuilt from primary sources, and it moved the money spine
 
 * **Model:** Claude Code (Opus 5) · **Branch:** `claude/rewrite-suzanne-frank`

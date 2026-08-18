@@ -3,7 +3,7 @@ domain: mind
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-09
+date_modified: 2026-08-18
 sources: []
 related: []
 ---

@@ -4,7 +4,7 @@ page_type: report
 knowledge: mixed
 status: active
 date_created: 2026-07-25
-date_modified: 2026-08-14
+date_modified: 2026-08-18
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/ancestry/extracted/"]
 tags: [family]
 connections:

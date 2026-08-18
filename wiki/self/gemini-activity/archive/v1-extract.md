@@ -3,7 +3,7 @@ domain: self
 page_type: summary
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-08-17
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_00.md

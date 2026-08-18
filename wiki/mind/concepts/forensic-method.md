@@ -7,7 +7,7 @@ status: stable
 knowledge: mixed
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-08-09
+date_modified: 2026-08-18
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md

@@ -5,7 +5,7 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-11
+date_modified: 2026-08-18
 sources:
   - raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md

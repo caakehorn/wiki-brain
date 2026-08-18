@@ -6,7 +6,7 @@ status: stable
 importance: high
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-18
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md

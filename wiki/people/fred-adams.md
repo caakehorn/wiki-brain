@@ -6,7 +6,7 @@ aliases: ["Fred Adams", "Judge Adams"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-18
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/dox-md/_Photo Thread PT II_ Grand Finale Calibration .md"

@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-18
-465 pages, ~1,028,604 tokens.
+465 pages, ~1,029,819 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -7008,7 +7008,7 @@ domain: interests
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-11
+date_modified: 2026-08-18
 sources: []
 related: []
 ---
@@ -7629,7 +7629,7 @@ page_type: concept
 title: "Lyrics as Timbre"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-08-18
 knowledge: earned
 sources:
   - raw/self/captures/2026-07-14-lyrics-as-timbre.md
@@ -8092,7 +8092,7 @@ domain: interests
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-08-18
 sources: ["raw/self/chats/The 2nd most famous 'Jimmy Pop' in Pennsylvania .md"]
 related: ["wiki/interests/favorites/music", "wiki/interests/favorites/music/artists/", "wiki/interests/music/concepts/sub-bass-signature", "wiki/self/context-core", "wiki/self/favorites"]
 tags: [music-production, ai-collaboration]
@@ -9371,7 +9371,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-11
+date_modified: 2026-08-18
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -10978,7 +10978,7 @@ status: stable
 knowledge: mixed
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-08-09
+date_modified: 2026-08-18
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -12090,7 +12090,7 @@ domain: mind
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-09
+date_modified: 2026-08-18
 sources: []
 related: []
 ---
@@ -12193,7 +12193,7 @@ knowledge: earned
 title: "The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox'"
 status: active
 date_created: 2026-08-10
-date_modified: 2026-08-11
+date_modified: 2026-08-18
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -12375,6 +12375,17 @@ counter-instance is future work.
 > existing 2005 family rupture — an addition, not a replacement or
 > retraction of the 2005 claim this page draws on. This page's "psychological
 > disposition inherited from a 2005 family rupture" framing is unaffected.
+
+> **RE-CHECKED [2026-08-18] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/vertical-authority-skepticism]] moved on 2026-08-18 to
+> take a typed edge from the new [[wiki/people/dave-moore]] page — a man with no
+> blood tie and no caregiving role speaking for the estate's heir to hospital
+> social workers, and drafting its correspondence. That is an additional
+> instance of the template, at family scale, not a change to what the template
+> claims or where it originates. This page's inheritance argument is unaffected,
+> and if anything the new instance strengthens the "authority exercised through
+> paperwork by people who are not present" clause it leans on.
+
 
 
 ========================================================================
@@ -14813,7 +14824,7 @@ title: "AI Collaborative Analysis"
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-20
+date_modified: 2026-08-18
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini_00.md
@@ -16662,7 +16673,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv
@@ -16732,6 +16743,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "This verdict is not a counter-instance to 'The Irreversibility Firewall' but its cost, stated plainly: the response architecture that converted a survivable betrayal into a decade-long catastrophe is the same no-close, no-audit-on-the-chosen machinery that page derives, and this page is the check against ever offering the mechanism as a defense."
+  - page: wiki/people/alexis-armel
+    type: parallels
+    claim: "The verdict's central distinction — withholding emotional expression versus withholding reality — is what an independent 2026 scoring pass measured as a seven-point spread on non-exploitation between the control case and Annie."
 ---
 
 
@@ -18127,7 +18141,7 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-16
+date_modified: 2026-08-18
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
@@ -19306,7 +19320,7 @@ title: "Read-Receipt Forensics — chat.db Metadata and Its Traps"
 aliases: ["read receipts", "date_read", "chat.db metadata"]
 tags: [forensic-analysis, digital-footprint]
 date_created: 2026-08-09
-date_modified: 2026-08-09
+date_modified: 2026-08-18
 sources: []
 synthesizes:
   - wiki/mind/concepts/forensic-method
@@ -19474,6 +19488,19 @@ The underlying `annie_metadata_24h.csv` this page's counts are drawn from has
 not been filed to `raw/self/message-csv/` — see the sourcing note above. Prior
 corpus analyses that used `reply_to_guid` as a threading signal (M2) have not
 yet been audited; that audit is owed and is listed in `BACKLOG.md`.
+
+> **RE-CHECKED [2026-08-18] — premise moved, conclusion unaffected and slightly
+> strengthened.** [[wiki/mind/concepts/forensic-method]] moved on 2026-08-18: its
+> claim that the July 2026 Leviathan dashboards were the method's first outward
+> deployment was corrected to 2025-07-11
+> ([[wiki/timeline/events/james-analysis-pdf]]), and it gained a terminal step,
+> [[wiki/mind/concepts/the-handed-mirror]]. Neither touches this page, which is
+> about four defects in `chat.db` metadata extraction and the class of error they
+> produce. The correction is in fact the same species of finding at a different
+> level: a confident wrong answer that raised no error, held for two months
+> because a cited source had been read to eleven percent of its length. The
+> instrument that lied quietly there was a reading pass rather than a query.
+
 
 
 ========================================================================
@@ -22502,7 +22529,7 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-11
+date_modified: 2026-08-18
 sources:
   - raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
@@ -23072,10 +23099,11 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-06-23
-date_modified: 2026-08-17
+date_modified: 2026-08-18
 date_range_start: 2009-10-01
 date_range_end: 2025-02-19
 sources:
+  - raw/self/chats/Analyzing manipulation and ethical intent in data.md
   - raw/self/dox-scan/gmail_bodies.txt
   - raw/self/message-csv/imessage_export_7249707658_both_all_now.csv
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -23139,6 +23167,9 @@ connections:
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "Alexis is present for the whole of NYC-1 — Brooklyn through the Upper East Side, the Bridge Cafe job through Hurricane Sandy — and is the only continuous personal thread the decade's first half has."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: parallels
+    claim: "A spring-2026 model scoring blind on seven invented dimensions put Alexis at 7.1 and Annie at 1.9, and located seven of the 5.2-point gap in non-exploitation alone — the same axis this wiki separates them on, reached from different evidence."
 ---
 
 # Alexis Armel
@@ -23513,6 +23544,54 @@ page quoted at length describe "high-volatility interpersonal dynamics" and
 The chat archive does not support it. The archive is six years of a soft,
 broke, funny, mutually attentive household, and the volatility in the record
 belongs to the week it ended.
+
+## Scored against Annie, by an instrument that did not know the thesis
+
+In spring 2026, at the end of the terminal phase, Dan asked Claude to rebuild
+its master record of the Annie relationship and — as an addition to the
+brief — to *"assign a 'girlfriend score' to both annie and alexis using your
+own metrics."* The metrics were the model's, not Dan's, and no part of this
+wiki was in its context. The result:
+
+| | Annie | Alexis |
+|---|---|---|
+| Composite | **1.9 / 10** | **7.1 / 10** |
+| Honesty | 1.5 | — |
+| Relational integrity | 1.5 | 7.5 |
+| Non-exploitation | 1.5 | 8.5 |
+| Emotional availability | 2.5 | 6.0 |
+| Reciprocal investment | 2.5 | — |
+
+This is a model's arithmetic on seven invented dimensions, not a measurement,
+and it belongs on the page as attributed AI output under `STYLE_GUIDE.md` rule
+4. What makes it worth recording anyway is where the numbers land relative to
+conclusions this wiki reached independently and from different evidence.
+
+The composite gap is 5.2 points, and the model located almost all of it in
+**non-exploitation** (1.5 against 8.5) — a seven-point spread on the single
+axis that is not about warmth. Its own summary of what the spread measures is
+*"the quantified distance between withholding emotional expression and
+withholding reality."* That is the same distinction this page argues from the
+chat archive: six years of a household that was broke and funny and mutually
+attentive, whose one documented deficiency is emotional suppression, set
+against a relationship whose documented mechanism is
+[[wiki/mind/synthesis/dan-annie-fallout-verdict|gaslighting and supply]].
+
+Two things follow, and they point opposite ways. The convergence is real
+corroboration: an instrument scoring blind, on categories it made up, put the
+control case seven points clear on the exact axis
+[[wiki/mind/synthesis/the-unbroken-bond]] uses to separate the two women. But
+the instrument is not independent of its subject — it was reading a record Dan
+assembled, prompted by Dan, in a session whose whole purpose was adjudication
+([[wiki/mind/synthesis/instrument-is-subject]]). The honest statement is that
+the scoring shows the wiki's read is *reproducible from the same evidence by a
+different reader*, which is weaker than confirmation and stronger than nothing.
+
+The score's most useful property is the thing it refuses to flatter. It does
+not give Alexis a 9. It docks her to 6.0 on emotional availability and calls
+the suppression *"a real limitation, not a rounding error"* — which is this
+page's own closing finding, arrived at from the archive rather than from a
+rubric.
 
 ## Post-eviction hostility (Dec 2015)
 
@@ -27185,7 +27264,7 @@ title: "Danielle Onesi"
 aliases: ["Danielle", "Dee"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-08-01
+date_modified: 2026-08-18
 knowledge: mixed
 importance: normal
 sources: [
@@ -29599,7 +29678,7 @@ importance: critical
 relation_type: family
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, uniontown-era, grief, music-production, financial-stress]
 sources:
@@ -30201,7 +30280,7 @@ aliases: ["Fred Adams", "Judge Adams"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-18
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/dox-md/_Photo Thread PT II_ Grand Finale Calibration .md"
@@ -30381,7 +30460,7 @@ domain: people
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-09
+date_modified: 2026-08-18
 sources: []
 related: []
 ---
@@ -36423,7 +36502,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-08-18
 sources: ["raw/self/dox-md/_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-md/CATO_conflict_architecture.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
 related: ["wiki/people/mary-kate", "wiki/people/jacob-bacharach", "wiki/work/tech/max-framework/overview", "wiki/self/context-core", "wiki/self/chats/danfrank-isms-pinned", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/exocortex"]
 tags: [ai-collaboration, forensic-analysis, relationships, music-production, personality-profile]
@@ -41204,7 +41283,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-08-18
 sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md", "raw/self/dox-md/_Deconstructing a Chaotic 24 Hours .md"]
 tags: [addiction-recovery, dui, ai-collaboration, relationships, mental-health]
 infobox:
@@ -43397,7 +43476,7 @@ page_type: entity
 title: "155 Virginia Ave"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-03
+date_modified: 2026-08-18
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
@@ -46162,7 +46241,7 @@ domain: self
 page_type: summary
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-08-17
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_00.md
@@ -46717,7 +46796,7 @@ page_type: report
 knowledge: mixed
 status: active
 date_created: 2026-07-25
-date_modified: 2026-08-14
+date_modified: 2026-08-18
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/ancestry/extracted/"]
 tags: [family]
 connections:
@@ -51571,7 +51650,7 @@ status: stable
 importance: high
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-18
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
@@ -52442,7 +52521,7 @@ title: "The July 2026 Re-contact"
 status: active
 knowledge: mixed
 date_created: 2026-07-26
-date_modified: 2026-08-02
+date_modified: 2026-08-18
 date_range_start: 2026-07-23
 date_range_end: 2026-07-26
 importance: critical
@@ -54246,7 +54325,7 @@ status: closed
 importance: normal
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-18
 date_range: ["2018-04-01", "2018-04-04"]
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
@@ -54391,7 +54470,7 @@ domain: timeline
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 sources: []
 related: []
 ---
@@ -54455,7 +54534,7 @@ page_type: summary
 status: active
 knowledge: derived
 date_created: 2026-08-14
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 sources:
   - generated from every page under the wiki by bin/wiki-timeline
 connections:

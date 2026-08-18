@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-08-18
 sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md", "raw/self/dox-md/_Deconstructing a Chaotic 24 Hours .md"]
 tags: [addiction-recovery, dui, ai-collaboration, relationships, mental-health]
 infobox:

@@ -4,7 +4,7 @@ page_type: concept
 title: "Lyrics as Timbre"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-08-18
 knowledge: earned
 sources:
   - raw/self/captures/2026-07-14-lyrics-as-timbre.md

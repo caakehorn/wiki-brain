@@ -8,7 +8,7 @@ importance: critical
 relation_type: family
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, uniontown-era, grief, music-production, financial-stress]
 sources:

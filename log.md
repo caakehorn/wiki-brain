@@ -1955,3 +1955,19 @@ and then kept going.
   hospital's calls and sold the condo.
 - **Gates:** wiki-lint 0 errors · wiki-connect 0 errors · wiki-climb 0 errors,
   9 staleness warnings (unchanged). `bin/wiki-gaps pending` now empty.
+
+## [2026-08-18] lint | mind | the girlfriend score, and two honest re-checks
+
+- **`alexis-armel` gains an independent scoring it never had.** A spring-2026
+  Claude session, asked to score both women on its own invented metrics, put
+  **Annie at 1.9 / 10 and Alexis at 7.1**, and located seven of the 5.2-point
+  gap in **non-exploitation alone** (1.5 against 8.5) — the same axis this wiki
+  separates them on, reached from different evidence. Recorded as attributed AI
+  output per STYLE_GUIDE rule 4, with the caveat that the instrument was reading
+  a record Dan assembled and is therefore not independent of its subject.
+- **Two staleness warnings cleared the right way.** `axioms` and
+  `read-receipt-forensics` were each stale on exactly one premise, and that
+  premise was one this session moved; both re-read, both conclusions held, both
+  recorded as `RE-CHECKED` blocks. The remaining new warnings sit on pages that
+  were already stale on *other* premises, and were deliberately left standing
+  rather than cleared by a date bump.

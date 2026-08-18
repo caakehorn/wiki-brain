@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-08-18
 sources: ["raw/self/dox-md/_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/dox-md/CATO_conflict_architecture.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
 related: ["wiki/people/mary-kate", "wiki/people/jacob-bacharach", "wiki/work/tech/max-framework/overview", "wiki/self/context-core", "wiki/self/chats/danfrank-isms-pinned", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/exocortex"]
 tags: [ai-collaboration, forensic-analysis, relationships, music-production, personality-profile]

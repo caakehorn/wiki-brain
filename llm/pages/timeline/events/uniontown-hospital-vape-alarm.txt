@@ -7,7 +7,7 @@ status: closed
 importance: normal
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-18
 date_range: ["2018-04-01", "2018-04-04"]
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md

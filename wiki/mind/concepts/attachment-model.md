@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-11
+date_modified: 2026-08-18
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
