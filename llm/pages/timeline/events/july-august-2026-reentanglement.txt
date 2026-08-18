@@ -5,7 +5,7 @@ title: "The Re-entanglement, July 26 – August 2 2026"
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-17
+date_modified: 2026-08-18
 date_range_start: 2026-07-26
 date_range_end: 2026-08-02
 importance: critical
@@ -31,7 +31,7 @@ connections:
     claim: "Procurement resumed within thirty-one hours of Dan's only documented refusal to supply, and by the end of the window it is the sole mechanism by which the two of them meet — five handoffs in six days, every in-person contact attached to one."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: evidences
-    claim: "The window splits the unexecuted-threat pattern along a line the page could not previously see: the impulsive disclosure to Annie's mother was executed within sixteen minutes, and the deliberated one, announced twelve hours in advance and negotiated over two hundred messages, was not."
+    claim: "CORRECTED 2026-08-18: this window was read as splitting the unexecuted-threat pattern into an executed impulsive disclosure and an abandoned deliberated one. The July 26 contact is not a member of the threat class — this page's own 2026-08-17 write-back establishes it as a life-safety act, not the threat executed as leverage — so the window contributes one threat datum, the July 28 abandonment, and leaves the maternal-disclosure execution rate at zero."
   - page: wiki/mind/concepts/forensic-method
     type: instantiates
     claim: "In six days the Leviathan apparatus is published as an exhibit, retracted inside five minutes on a single request from its subject, rebuilt as an access-controlled honeypot, and then shown to that same subject as a gift — the full range of what the method is for, compressed."
@@ -217,25 +217,41 @@ coming from ME."
 references it, and by the afternoon of July 30 the thread is about a
 petting zoo at the library.
 
-That produces a genuine sharpening of the pattern
+That bears on the pattern
 [[wiki/mind/synthesis/block-unblock-loop|the block/unblock loop]] records —
-the eighteen block threats and six-plus maternal-disclosure threats that
-are essentially never executed. Both kinds of threat appear in this window,
-forty-eight hours apart, and they resolve **opposite ways**:
+the eighteen block threats and six-plus maternal-disclosure threats that are
+never executed. Two contacts with Annie's mother appear in this window,
+forty-eight hours apart:
 
 - The July 26 disclosure was **impulsive**, made under a genuine belief that
-  Annie was in danger, and executed in sixteen minutes.
+  Annie was in danger, and made in sixteen minutes.
 - The July 28 disclosure was **deliberated**, announced twelve hours in
   advance, negotiated over, drafted, offered for pre-approval, and never
   sent.
 
-The rule the corpus had was "Dan's threats are not carried out." The rule
-this window supports is narrower and testable: **announcement is the
-mechanism of non-execution.** A stated intention converts the act into a
-move in the conversation, and once it is a move it can be traded; an
-unstated one is simply performed. The four-month lag on
-[[wiki/mind/synthesis/the-deferred-audit|the deferred audit]] is the same
-shape seen from a different angle.
+> **CORRECTED [2026-08-18]:** this section read the two as *"resolving opposite
+> ways"* and derived from the contrast a rule that **announcement is the
+> mechanism of non-execution.** Both halves are withdrawn, by this page's own
+> later evidence. The WRITTEN BACK block above — added 2026-08-17 from the
+> operator's account — establishes that July 26 was **not the threat executed as
+> leverage** but a response to a belief that Coles had Annie in danger. It is
+> therefore not a member of the threat class, and the window does not contain
+> one executed threat and one abandoned one. It contains **one** threat, the
+> July 28 one, abandoned — which leaves the maternal-disclosure execution rate
+> at **zero across seven or more instances**, a stronger version of the
+> regularity than the "sharpening" this section claimed.
+>
+> The announcement rule does not survive either, and was already superseded
+> elsewhere before this correction reached here: June 1 2026 is an **announced**
+> severance that executed and held fifty-two days, which the rule as printed
+> gets backwards. [[wiki/mind/synthesis/block-unblock-loop]] replaced it on
+> 2026-08-13 with the variable that actually separates the cases — **an
+> intention dies in the trade, and only a counterparty willing to trade can kill
+> it.** July 28 fits: twelve hours and roughly two hundred messages of
+> bargaining, and the act was traded away. The four-month lag on
+> [[wiki/mind/synthesis/the-deferred-audit|the deferred audit]] is still the
+> same shape seen from a different angle; only the mechanism named for it has
+> changed.
 
 ## What Annie is doing, on her own account
 

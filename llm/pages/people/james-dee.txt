@@ -24,6 +24,9 @@ infobox:
   handles: ["+1878***7198"]
   known_for: "The eight-week 2025 friendship that ended twelve minutes after Dan handed him an AI-generated psychological profile of himself"
 connections:
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: instantiates
+    claim: "This fifty-six-day tie is the first case ever documented inside that page's tenure gap, and it forced a third state into its rule: the channel was neither deleted like Franki Faris nor reassigned like Danielle, but suspended without reassignment — residual contact, reactivation bandwidth retained at low amplitude, no new role attached. It narrows the retention floor from a six-year bracket to a seven-week one, and it is the corpus's best instance of the *suspend* primitive that page argues the graph implements."
   - page: wiki/people/danielle-onesi
     type: contextualizes
     claim: "James exists in the corpus only through Danielle — she is both the channel that introduced him and the audience whose inclusion converted a private critique into a public exposure, which is the specific act that ended the friendship."
@@ -360,6 +363,21 @@ concerned about is CSAM."* James's Roblox remark, if it happened, happened
 out of band. The credit may be accurate; it may also be Dan attributing to
 James a topic that entered the friendship from his own side. Unresolvable
 from the record, and cheap to note.
+
+**What the second act makes this page evidence of.** The resumption is a small
+fact locally and a load-bearing one for
+[[wiki/mind/synthesis/dormancy-not-exit]], which holds that nothing leaves this
+graph. That page's rule was bracketed by a five-day tie that vanished entirely
+(Franki Faris) and six-year ties that changed job and persisted — with, in its
+own words, *no documented case in between.* This is the case in between. A
+fifty-six-day friendship ended by the corpus's most abrupt rupture did **not**
+vanish: two unanswered writes, three weeks of real corpus silence, and then a
+basement confrontation anyway. But it did not acquire a new role either, the way
+Danielle's did. It went to residual contact — the channel stayed openable and
+nothing was built on it — which gave that page a third state it had no
+vocabulary for, and narrowed its retention floor from a six-year bracket to a
+seven-week one. The direction matters and is recorded there too: **the reopening
+was James's, not Dan's.**
 
 ## The cocaine request, and Dan's silence
 

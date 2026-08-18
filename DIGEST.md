@@ -14,7 +14,7 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 465 |
-| Pages touched in the last 14 days | 124 |
+| Pages touched in the last 14 days | 125 |
 | Pages reasoning from other pages (`synthesizes:`) | 27 |
 | Live contradictions | 33 |
 | Open gaps | 335 |
@@ -46,12 +46,15 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-18** — 51 pages
+**2026-08-18** — 57 pages
   - rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
   - ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
   - close | people | wiki/people/diane-moore — a two-word operator answer merged two entities and re-dated the exclusion
+  - lint | mind | the girlfriend score, and two honest re-checks
+  - lint | cross-domain | the $750/week retraction was announced on three pages and applied on none of them
+  - lint | cross-domain | the staleness queue emptied, and four of the five re-checks changed a conclusion
 
-**2026-08-17** — 15 pages
+**2026-08-17** — 13 pages
   - restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
   - climb | timeline, people, mind | the 2015 Annie read spread to ten pages, and five of its own corrections did not survive the evidence gate
   - close | people, timeline, mind | the operator named "turd boy", and three separate incidents became one retaliation arc
@@ -63,7 +66,7 @@ this is the state of the thing.
   - build | all | bin/wiki-gaps — 269 open gaps, no way for the one source that can settle them to answer, and OPEN.md could only see 164 of them
   - rewrite | people | kristin.md — surname wrong, dates wrong, count wrong, and the wiki's own instrument cannot see the thread
 
-**2026-08-15** — 5 pages
+**2026-08-15** — 4 pages
   - read | timeline | the read pass gets a second output — entity ledger, leads, motifs — plus Nov 30: Suz paid for the eviction
   - read | timeline | the Annie corpus is 97,768 messages across FOUR handles, and reading two days of it produced 25 events no script found
   - fix | timeline | the 2015 "Alexis cheating" was a 2009 event, and master-timeline.md was half non-events
@@ -85,7 +88,7 @@ have moved since.
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — 5 premises
 - [[wiki/mind/synthesis/block-unblock-loop]] — 11 premises
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 9 premises
-- [[wiki/mind/synthesis/dormancy-not-exit]] — 8 premises
+- [[wiki/mind/synthesis/dormancy-not-exit]] — 9 premises
 - [[wiki/mind/synthesis/estate-money-spine]] — 5 premises
 - [[wiki/mind/synthesis/fayette-return]] — 6 premises
 - [[wiki/mind/synthesis/instrument-is-subject]] — 4 premises
@@ -98,9 +101,9 @@ have moved since.
 - [[wiki/mind/synthesis/totality-themes]] — 26 premises
 - [[wiki/people/alexander-jackson]] — 1 premise
 - [[wiki/people/arnu]] — 1 premise
-- [[wiki/people/jerad-friedline]] — 1 premise
+- [[wiki/people/jerad-friedline]] — 3 premises
 - [[wiki/people/john-carney]] — 1 premise
 - [[wiki/people/johnny-dealer]] — 3 premises
 - [[wiki/people/suzanne-frank]] — 4 premises
 - [[wiki/timeline/periods/2020-2021-market-era]] — 1 premise
-- [[wiki/work/fastly-fsly]] — 1 premise
+- [[wiki/work/fastly-fsly]] — 2 premises

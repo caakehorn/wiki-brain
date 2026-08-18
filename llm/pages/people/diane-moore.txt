@@ -132,11 +132,28 @@ marriage.
 The April 1940 census places Emmet, Fran and the fourteen-month-old Diane
 together in Smithfield, Fayette County — Fran's arrival in the county that
 becomes the family's terminus. The same record set shows Diane living in
-**Farmington Hills, Michigan between 1985 and 2010**, which is the only
-geographic fact the corpus supplies about her adult life and which would put
-her out of state for most of Dan's childhood. Nothing in the message corpus
-contradicts or confirms it, and by 2016 she is close enough to be a live
-threat to *"come to town and start accusing everyone of 'abusing' gram."*
+**Farmington Hills, Michigan between 1985 and 2010** — and, per the GEDCOM
+extraction on [[wiki/self/ancestry]], in **Stanwood, Michigan from 2013 to
+2020**. That is thirty-five documented out-of-state years, putting her out of
+state for most of Dan's childhood. Nothing in the message corpus contradicts or
+confirms either span, and by 2016 she is close enough to be a live threat to
+*"come to town and start accusing everyone of 'abusing' gram."*
+
+> **CORRECTED [2026-08-18]:** this paragraph called Farmington Hills *"the only
+> geographic fact the corpus supplies about her adult life."* It had not been
+> the only one since 2026-08-14, when the ancestry rewrite added Stanwood
+> 2013–2020 from the same GEDCOM. The page went four days declaring a scarcity
+> the corpus had already relieved.
+>
+> The addition is load-bearing outside this page.
+> [[wiki/mind/synthesis/fayette-return]] argues that everyone in this family
+> ends up within twenty miles of Uniontown; **Diane is the tree's one documented
+> departure from the Pennsylvania/West Virginia region with no attested
+> return**, and she is still living, so no terminus exists for her at all. She
+> does not falsify that page's rule, which is stated over the paternal Frank
+> line — but she is the sharpest available test of whether the rule describes a
+> lineage or a county, and the two readings have so far made identical
+> predictions. Her eventual terminus is the datum that separates them.
 
 > **CORRECTED [2026-08-02]:** [[wiki/self/lineage/family-tree]] drew Fran's
 > descent through **George Dixon Shrum Jr.**, Dan's maternal *grandfather*.

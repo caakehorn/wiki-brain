@@ -29,7 +29,7 @@ infobox:
 | Entity | Role at 463 | Dates/Evidence | Financial/Legal Ties | Source |
 |--------|-------------|----------------|----------------------|--------|
 | Alexander Jackson (Jackson Alexander) | Owner / lessor | Move-in ~early 2026 (post 337 contingencies); no signed lease/POA at entry | Property title holder; potential lease/POA counterparty. Separate from BFS corp (building ownership distinct) | [[wiki/legal/463-morgantown]], operating_manual, context-core |
-| Suz | Seller (337) / agent/tenant/caretaker (463) | 337 sale ~June 2026 (buyers Delverm $465k + Jeffries); 7-day vacate | Borrowing patterns ($750/wk cycles); mixed roles increase liability | raw/self/context-core/CONTEXT_CORE_EXPANDED.md §5; operating_manual |
+| Suz | Seller (337) / agent/tenant/caretaker (463) | 337 sale ~June 2026 (buyers Delverm $465k + Jeffries); 7-day vacate | Chapter 13 filed Oct 2024 (24-22285-GLT, ~$157,000 scheduled, IRS priority claims 2018–2021); stated income $11,000–$14,000/yr; mixed roles increase liability | [[wiki/people/suzanne-frank]]; context-core §5 |
 | Dan | Co-occupant (mixed) | Move with Suz; parallel BFS work | No direct title; exposure via mixed agent/tenant status | BFS_BOOTLOADER (housing background), context-core |
 | Arnu | Contractor (paint/mech work) | 2026-02-10 mention (no-show for paint); lien deadline ~2026-07-27 | Mechanics lien risk | message-csv 2026-02-10; timeline |
 | John Carney | Contractor | ~10-20% complete, unreachable | Incomplete work exposure | timeline, risks; "John carney thing" ref in Suz msg 2026-03-27 |

@@ -5,14 +5,13 @@ title: "Fastly (FSLY)"
 aliases: ["FSLY", "Fastly Inc.", "$FSLY"]
 status: stable
 date_created: 2026-07-15
-date_modified: 2026-08-10
+date_modified: 2026-08-18
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/operating_manual.md
 synthesizes:
   - wiki/timeline/periods/2020-2021-market-era
-synthesizes:
   - wiki/self/context-core
 connections:
   - page: wiki/people/jerad-friedline
@@ -116,3 +115,35 @@ The FSLY tip is preserved verbatim in the corpus (MASTER_MESSAGES_DB_DUMP.csv):
 | 2020-09-20 20:03:28 | Received | +191****3615 | "Buy FSLY and do not touch for 2-3 years" |
 | 2020-10-06 15:37:33 | Sent | (Dan) | "dude i made $600 just from FSLY today" |
 | 2020-10-07 21:10:14 | Sent | (Dan) | "FSLC"
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/timeline/periods/2020-2021-market-era]], which moved on 2026-08-16.
+**The premise did not move in substance.** Its only change was a
+`RE-CHECKED [2026-08-16]` block recording that *it* had been checked against
+[[wiki/self/context-core]]'s seven-correction audit and reasoned from none of
+them. No date, price, position size or quote on this page is downstream of
+anything that changed, and the FSLY record here is sourced directly from the
+message corpus rather than through the period page. Nothing rederived.
+
+> **CORRECTED [2026-08-18] — this page's frontmatter was silently dropping its
+> own membership, and the wiki's gates could not see it.** The `synthesizes:`
+> key appeared **twice**: once listing
+> [[wiki/timeline/periods/2020-2021-market-era]] and again listing
+> [[wiki/self/context-core]]. YAML resolves a duplicate key by keeping the
+> last, so **every standard parser read this page as synthesizing only
+> `context-core`** — the market-era membership, which is the page's entire
+> reason for existing, was invisible outside this repository. The two lists are
+> now merged.
+>
+> This is worth more than the fix. `bin/wiki-climb`'s own frontmatter reader
+> collects *both* occurrences, which is why it correctly flagged the market-era
+> staleness above while a YAML consumer would not have known the edge existed.
+> **The repo's bespoke reader is more permissive than YAML, so the gates pass
+> while the derived artifact loses data** — and the portal at `caakehorn/home`,
+> which renders `wiki/**` into `public/wiki/`, parses this frontmatter for real.
+> A sweep found the same defect on two other pages
+> ([[wiki/people/jerad-friedline]], which was dropping `context-core`, and
+> `wiki/mind/psychosexual/developmental-origins`, which had an empty duplicate
+> `connections:`); all three are fixed, and a lint rule is queued in
+> `BACKLOG.md`.

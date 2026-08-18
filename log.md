@@ -1971,3 +1971,145 @@ and then kept going.
   recorded as `RE-CHECKED` blocks. The remaining new warnings sit on pages that
   were already stale on *other* premises, and were deliberately left standing
   rather than cleared by a date bump.
+
+## [2026-08-18] lint | cross-domain | the $750/week retraction was announced on three pages and applied on none of them
+
+**What was wrong.** The `suzanne-frank` rewrite (2026-08-18) retracted the
+"~$750/week borrowed from Suz" figure on two independent grounds: the rate is
+`operating_manual.md`'s AI-secondary generalisation of a *single* accusation
+(13 Dec 2018, *"You borrowed $750 last week alone!"*, made in an argument on a
+day she had that morning asked him for $450), and its **direction is
+inverted** — the largest documented 2018 movement between them is ~$14,000
+from Dan to Suz, drawn against an estate that did not distribute until
+September 2020, $4,000 recovered.
+
+**The evidence.** The retraction propagated as prose *about* the correction
+while the corrected claims stayed live underneath it. Two pages carried a
+`CORRECTED`/`RE-CHECKED` block quoting a sentence they had never actually
+changed:
+
+| Page | State found | 
+|---|---|
+| `wiki/legal/463-morgantown.md` | CORRECTED block said *"The sentence above previously read…"* — the sentence above still read exactly that, verbatim |
+| `wiki/people/alexander-jackson.md` | RE-CHECKED block described the correction; the Roles table above it still read "Borrowing patterns ($750/wk cycles)" |
+| `wiki/mind/synthesis/supply-network.md` | no correction at all — "the 2018 deep cycle ran on ~$750/week borrowed from her" fully live |
+| `wiki/mind/synthesis/estate-money-spine.md` | correction present, but its own "chain, event by event" table still carried the retracted row |
+| `wiki/timeline/periods/2018-deep-cycle.md` | "mom borrow $750/wk" live; missed by earlier sweeps because it abbreviates `/wk` |
+
+**What changed.** All five corrected in place, with the retracted text visible
+per STYLE_GUIDE rule 9. `estate-money-spine`'s chain gained the row it was
+missing — the Aug–Oct 2018 ~$14,000 Dan → Suz transfer, the family's largest
+internal capital movement, absent from the ledger that exists to track exactly
+that. `463-morgantown`'s absorber argument now rests on the Chapter 13
+(24-22285-GLT, ~$157k scheduled) rather than a rate that does not exist; the
+conclusion is unchanged and better supported. `supply-network`'s bullet keeps
+its claim and changes its mechanism: the family layer was the *rail*
+procurement ran on, not its funding — and the Cash App account those transfers
+ran through is one Dan asked her to install in **August 2018**, the same month
+as the $14,000 drawdown, recorded as a dating coincidence rather than a causal
+claim.
+
+**Two systemic findings.**
+
+1. **A correction block is not a correction.** Three pages read as corrected to
+   any reader who scanned for a flag, and the retracted figure was still the
+   one a reader would take away. This failure mode is invisible to all three
+   gates — the pages lint clean, their edges are typed, and their dates are
+   current. Grepping the *retracted string* is the only thing that finds it.
+2. **`wiki/timeline/master-timeline.md` was 484 events and 7 pages stale** —
+   2,076/315 on disk against 2,560/322 on regeneration. It is derived and
+   cheap to rebuild, and had not been rebuilt since several intervening
+   ingests, so the wiki's largest page was serving a stale scrape of pages
+   that had themselves moved.
+
+**Also noted, not fixed:** 30 pages carry `status: archived` outside an
+`archive/` directory, which STYLE_GUIDE reserves for pinned artifacts that are
+never updated. `2018-deep-cycle.md` was one of them and was carrying a false
+claim into the generated timeline. Queued in `BACKLOG.md`.
+
+## [2026-08-18] lint | cross-domain | the staleness queue emptied, and four of the five re-checks changed a conclusion
+
+**What was wrong.** `bin/wiki-climb check` carried **13 stale-premise warnings**
+across five pages, three of them in the wiki's larger synthesis tier. Worked to
+zero. The result is worth recording because the warnings were mostly *not*
+noise: only one of the five pages came back "survives, nothing moved."
+
+**Page by page.**
+
+- **`block-unblock-loop` (35KB → 40KB).** All four flagged premises had moved by
+  typed-edge addition only — no body text — so the flags themselves were
+  uninformative. **But an unflagged premise had moved substantively the day
+  before, and it falsified a classification the page rested on.**
+  `ellen-ulmer` and `july-august-2026-reentanglement` both established on
+  2026-08-17, from an operator answer, that the July 26 contact with Annie's
+  mother was **not the maternal-disclosure threat executed as leverage** but a
+  response to a belief that Coles had Annie in physical danger. This page still
+  called it *"the first executed maternal-disclosure threat in the corpus"* and
+  used it as the "no announcement → executes" leg of its threat rule.
+  Reclassified: July 26 is not a member of the threat class, which **takes the
+  maternal-disclosure execution rate from one to zero across seven or more
+  instances** and leaves the trade rule resting on June 1 and July 28 — a
+  cleaner contrast, because it varies only the counterparty's response and holds
+  announcement constant. Cascaded to `july-august-2026-reentanglement` (which
+  contradicted itself: its own earlier section still read the two acts as
+  "resolving opposite ways" underneath the write-back that undid that reading)
+  and to `annie-ulmer`'s 2026-07-26 chronology row.
+- **`dormancy-not-exit` (31KB).** The page had said since 2026-08-01 that its
+  retention floor was bracketed by a five-day tie that vanished and six-year ties
+  that persisted, with *"no documented case in between."* The James Dee ingest of
+  2026-08-18 produced exactly that case and nobody wired it in: a **fifty-six-day**
+  tie, ended by the corpus's most abrupt rupture, that went silent for three weeks
+  of documented coverage and then **resumed in person anyway**. Added as a member
+  with full write-back. It does not just fill the gap, it changes the rule's
+  shape: James neither vanished (Franki) nor took a new role (Danielle) but went
+  to **suspension without reassignment** — which is the *suspend* primitive the
+  page's own 2026-08-13 correction argued the graph implements, and its best
+  instance was sitting unused for five days. Floor narrowed from a six-year
+  bracket to seven weeks. Direction recorded honestly: **the reopening was
+  James's, not Dan's.**
+- **`the-unbroken-bond` (24KB).** Two findings. `bond-switch-2015` named the
+  displaced partner on Annie's side (Emilio), which reveals a **symmetry** — both
+  partners were displaced inside the same seventy-two hours and *both*
+  displacements detonated a relationship the following month. That is a **third
+  cost** for a page whose cost list held only internal ones, and the first paid by
+  third parties. Recorded with its boundary: Annie ran the same operation on the
+  same timetable, so the displacement cost belongs to **fast switches**, not to
+  Dan's architecture, and a later pass must not annex it as more evidence for
+  singularity. Separately, `alexis-armel`'s new blind model scoring (Alexis 7.1 /
+  Annie 1.9) exposed that this page uses "shallow" for two independent axes —
+  depth of Dan's attachment, and quality of the relationship. The bond it calls
+  shallow scores nearly four times higher as a relationship.
+- **`fayette-return`.** The ancestry rewrite of 2026-08-14 answers this page's
+  self-declared *"most important open question"* — whether the maternal line is
+  also Fayette-anchored — and the answer costs the page its best argument. It
+  **is** anchored (the majority of all 90 direct ancestors die within twenty miles
+  of Uniontown; Fran Coldren runs Miami Beach → back to Uniontown). So the page's
+  **parsimony** case against `ancestral-dialectic` fails: it was valid only while
+  the maternal line was unassessed, drawing force from absence of evidence rather
+  than evidence of absence. "The paternal line reproduces the pattern alone"
+  stays true and stops being distinctive. The rewrite also supplies the rule's
+  first counterexample candidate — **Diane Van Voorhis, thirty-five years in
+  Michigan, no attested return, still living so no terminus at all** — who does
+  not falsify the rule as stated but is the only case that can separate *lineage*
+  from *county*. Cascaded to `diane-moore`, which was still calling Farmington
+  Hills the only geographic fact on record four days after Stanwood 2013–2020
+  entered the corpus.
+- **`fastly-fsly`.** The only clean "survives": its premise had moved solely to
+  record its own staleness re-check. The real find was structural, below.
+
+**A structural defect, found while re-checking and worth more than any single
+page.** `wiki/work/fastly-fsly.md` declared `synthesizes:` **twice**. YAML
+resolves a duplicate key by keeping the last, so every standard parser read the
+page as synthesizing only `context-core` — its membership in
+`2020-2021-market-era`, the page's whole reason for existing, was invisible
+outside this repo. `bin/wiki-climb`'s own `fm_list` collects *both* occurrences,
+which is why the gate flagged a staleness against an edge a YAML consumer could
+not see. **The repo's bespoke frontmatter reader is more permissive than YAML,
+so the gates pass while the derived artifact loses data** — and the portal
+renders `wiki/**` through a real parser. A sweep found two more:
+`jerad-friedline` (dropping `context-core`) and `developmental-origins` (an
+empty duplicate `connections:`). All three fixed; lint rule queued.
+
+**Gates:** `wiki-lint` 0 errors · `wiki-connect check` 0 errors ·
+`wiki-climb check` **0 errors, 0 warnings** — the stale queue is empty for the
+first time in the log.
