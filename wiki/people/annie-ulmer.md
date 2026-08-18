@@ -116,6 +116,9 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/people/suzanne-frank
+    type: evidenced-by
+    claim: "Suz is the only third party who witnessed the relationship's physical conflict and named it in writing at the time — a 27 September 2020 Facebook message telling both of them to stop or separate, and describing it as recurring, four years before the terminal phase."
   - page: wiki/people/emilio
     type: follows
     claim: "Annie was still with Emilio on the night she met Dan and ended it within days — which makes her side of the November 2015 switch an exit she performed, not a vacancy she happened to have, and makes the December 2 family crisis his retaliation rather than bad luck."

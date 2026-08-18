@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_7249204125_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 synthesizes:
   - wiki/self/message-corpora/master-message-dump
@@ -120,3 +120,13 @@ Johnny functions as reliable but transactional dealer node during 2018 crisis (p
 > keyword, so any retrospective mention lands in the wrong year. The 2018 event
 > counts this page cites inherit that defect and should be treated as an upper
 > bound until re-derived directly.
+
+> **RE-CHECKED [2026-08-18]:** `bin/wiki-climb check` flagged this page stale
+> against [[wiki/self/message-corpora/master-message-dump]], which moved to
+> record that the master CSV undercounts
+> [[wiki/people/suzanne-frank|Suzanne Frank]]'s thread fourteen-fold. **Nothing
+> here is contradicted** — the correction is specific to that one handle. It does
+> carry a caution for this page: Johnny's volume figure is sourced to the same
+> CSV and has not been recounted against
+> `all_imessages_complete_dump.txt`, where the handle `+17243223678` shows 5,089
+> records. Treat the figure here as a floor until a proper recount is run.

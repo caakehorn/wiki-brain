@@ -14,6 +14,9 @@ sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
 tags: [relationships, forensic-analysis, uniontown-era]
 connections:
+  - page: wiki/people/suzanne-frank
+    type: evidences
+    claim: "The two-sided December 2015 record is the primary evidence for Suz's give-and-invoice pattern at its earliest: she promoted the match, supplied the drug and attached a car to an eviction inside seventy-two hours, ten years before the same structure appears in the $14,000 dispute."
   - page: wiki/people/emilio
     type: evidences
     claim: "Everything known about Emilio is relayed through Annie in this record — the November window calls him only \"dude\" and \"turd boy\", and he has no channel of his own in any export."

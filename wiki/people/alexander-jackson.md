@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-18
 sources: ["raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS_BOOTLOADER_v2.md"]
 synthesizes:
   - wiki/legal/463-morgantown
@@ -63,3 +63,22 @@ facts are unchanged, and Jackson remains undocumented in the corpus beyond his
 role. What the elapsed date sharpens is why that absence matters — a lien
 attaches to *his* title, so the one party with a formal legal interest in the
 outcome is the one the record cannot see at all.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/legal/463-morgantown]], which moved on 2026-08-18 for two reasons: a
+corrected characterization of [[wiki/people/suzanne-frank|Suz's]] finances (the
+"$750/week" figure was an AI-secondary generalization of a single 2018 message;
+the real position is an October 2024 Chapter 13 with ~$157,000 scheduled), and
+two new dated rows — regular trips to Morgantown St from February 2026, and an
+11 August 2026 message from Suz to Dan reading *"It's time for you to go."*
+
+**Nothing here is contradicted, and the exposure is unchanged in kind.** As
+owner of record he remains the party a mechanics lien against the parcel would
+attach to, and the tenancy remains unpapered. What has changed is the picture of
+his counterparty: the person occupying the property under a verbal arrangement
+is in an active federal bankruptcy, which makes any unwritten obligation running
+between them materially harder to enforce in either direction. **Open lead,
+recorded not resolved:** whether Jackson knew, or knows, that his tenant-agent
+is a Chapter 13 debtor.

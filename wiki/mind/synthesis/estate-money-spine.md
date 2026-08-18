@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -38,7 +38,7 @@ connections:
     claim: "Rick's Frank's Auto Supermarket is the paternal capital line — the anti-union 'kushy lives' engine Dan indicts in the Aug 22 2020 message, written one day after the court signed his own estate distribution order."
   - page: wiki/people/suzanne-frank
     type: contains
-    claim: "Suz is the spine's switchboard: the estate check was deposited through her, the $750/week borrowing cycles ran through her, she facilitated the supply-purchase Cash App transfers, and as realtor-seller of 337 Saratoga she is executing the next capital event."
+    claim: "Suz is the spine's switchboard and its second direction: the estate check was deposited through her, she facilitated the supply-purchase Cash App transfers, and in 2018 she received ~$14,000 from Dan — drawn against an estate that had not yet distributed — which is the largest single capital movement between them and ran mother-ward."
   - page: wiki/timeline/periods/2017-poverty-floor
     type: contains
     claim: "The poverty floor is the spine's zero point — water shut off, gold and clothes sold, a $120 drug debt as a materially significant liability — the reference state against which every later arrival and burn is measured."
@@ -157,7 +157,7 @@ supply network are the same architecture at different layers.
 
 Every major flow in the chain passes through
 [[wiki/people/suzanne-frank|Suz]]: the estate check was deposited
-through her; the deep-cycle borrowing (~$750/week) came from her; the
+through her; the deep-cycle borrowing ran through her; the
 supply-era Cash App transfers were facilitated by her; the 337 Saratoga
 sale — the next capital event — is her transaction, as both owner and
 realtor; and the 463 landing is structured by her blended
@@ -165,18 +165,49 @@ agent/tenant/caretaker role. The spine has no bank in it, in the
 functional sense; it has a mother. That concentration is the financial
 expression of the [[wiki/mind/concepts/contact-gini|Gini]] pattern — a
 single node carrying flows a diversified system would spread — and it
-means her own cyclical finances (the same $750/week record) are a
+means her own finances are a
 single point of failure for the whole chain, exactly when the
 [[wiki/legal/463-morgantown|463 lien clock]] (~July 27, 2026) needs an
 absorber the record says does not exist.
+
+### The direction the spine had backwards
+
+> **CORRECTED [2026-08-18]:** This section previously described the
+> switchboard as carrying money *toward* Dan — "the deep-cycle borrowing
+> (~$750/week) came from her." Both halves fail against the primary record.
+> The $750 figure is a single accusation from 13 December 2018 that
+> `operating_manual.md` generalised into a rate; and the **largest single
+> capital movement between them ran the other way.**
+
+In August 2018 — four months after Fran's death and **two years before the
+distribution actually landed** — Dan drew down roughly $20,000 against the
+expected estate and transferred about **$14,000 of it to his mother.** Her own
+itemised statement of it survives, sent 3 October 2018: *"Dan to Suzanne /
+$1000 / $14,000+ / Sum of transactions on app."* He recovered $4,000 of it
+before she stopped repaying, and by July 2019 the two of them were threatening
+each other with court over the same money, each claiming to be the creditor.
+
+This adds a rule the spine did not have. It is not only that lumps arrive and
+drain; it is that **a lump arriving anywhere in this family is immediately
+re-lent inside it, on no paper, at the moment of arrival** — Dan lent out 70%
+of a bridging advance before the underlying asset had even distributed. The
+$14,000 is also the reason the spine's zero point is shared rather than his
+alone: over the same decade she reports earning **$11,000–$14,000 a year
+against $10,000 a year in property taxes**, and in October 2024 she filed
+Chapter 13 with ~$157,000 scheduled, mostly IRS priority claims for 2018–2021 —
+the exact years the spine treats as the poverty floor and the deep cycle. Both
+parties were at the floor at the same time, lending to each other.
 
 ## What the spine predicts
 
 The pattern — lump arrivals, metered drains, six-month survival, no
 holder position — is stable across twenty years, which licenses one
 forward claim: the **337 Saratoga proceeds ($465k)** will behave like
-every prior lump unless the structure changes, with the added
-difference that this lump is not Dan's. The record's own framing of the
+every prior lump unless the structure changes, with two added
+differences — this lump is not Dan's, and **most of it is not hers either.**
+The sale was the remedy in her Chapter 13, so the proceeds discharge roughly
+$157,000 of scheduled liabilities and costs before anyone sees them. The
+family's largest asset liquidated into a tax debt. The record's own framing of the
 2025 return ("managing regional assets") positions him as caretaker of
 capital he does not hold — the same downstream position the spine
 documents from the beginning.
@@ -212,6 +243,24 @@ of unresolved debt belongs in the spine's ledger of drains that never
 closed clean, alongside the six unaccounted months of 2020–21: the
 landlord-debt rotation is not a completed cycle, it is an open one that
 simply changed which party it was Dan's problem to service.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/people/suzanne-frank]], rewritten from primary sources on 2026-08-18.
+**The premise moved substantially and two conclusions here changed**, both
+recorded above rather than silently patched: the switchboard section had the
+direction of the largest flow backwards (it ran Dan → Suz, not Suz → Dan) and
+carried a rate that does not exist in the primary record; and the prediction
+section treated the $465k as a lump arriving in the family rather than one
+leaving it to satisfy a bankruptcy.
+
+**The thesis survives, and is better supported than before.** "Money arrives in
+lumps and exits through standing drains" now has a cleaner instance than any
+previously on the page: a $20,000 advance drawn against an undistributed estate,
+70% of it re-lent inside the family within weeks, $4,000 recovered, the
+remainder converted into a decade-long dispute. What the rewrite removes is the
+implicit premise that one node in this system had reserves. None did.
 
 ## Gaps
 

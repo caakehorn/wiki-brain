@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17",
+ "generated": "2026-08-18",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
@@ -1046,7 +1046,7 @@
    "title": "463 Morgantown St",
    "summary": "463 Morgantown St, Uniontown PA is where Dan and his mother",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/legal/463-morgantown.txt",
-   "bytes": 7689
+   "bytes": 9294
   },
   {
    "page": "wiki/legal/index.md",
@@ -1102,7 +1102,7 @@
    "title": "Contact Gini",
    "summary": "The coefficient is generalised in [[wiki/mind/synthesis/single-channel]]: the same concentration appears in the creative, cognitive and evaluative domains, a...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/contact-gini.txt",
-   "bytes": 24276
+   "bytes": 28476
   },
   {
    "page": "wiki/mind/concepts/dans-law.md",
@@ -1298,7 +1298,7 @@
    "title": "The Alias Is a Clock, Not a Style",
    "summary": "Dan has released music under four names in thirteen years, and the renaming has never once corresponded to a change in the music. Across SLOPPP, MOGZART and ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/alias-as-periodization.txt",
-   "bytes": 9154
+   "bytes": 10017
   },
   {
    "page": "wiki/mind/synthesis/ancestral-dialectic.md",
@@ -1312,7 +1312,7 @@
    "title": "Attachment Trauma Bond and Aura Illness",
    "summary": "The ten-year relationship between Dan and [[wiki/people/annie-ulmer|Annie]], spanning from their initial meeting on Thanksgiving weekend in November 2015 to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/attachment-trauma-bond.txt",
-   "bytes": 19414
+   "bytes": 21011
   },
   {
    "page": "wiki/mind/synthesis/block-unblock-loop.md",
@@ -1347,7 +1347,7 @@
    "title": "The Estate / Money Spine",
    "summary": "Money in this biography does not accumulate; it **arrives in lumps and exits through standing drains.** This page traces the capital timeline as a single cau...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/estate-money-spine.txt",
-   "bytes": 16566
+   "bytes": 19646
   },
   {
    "page": "wiki/mind/synthesis/fayette-return.md",
@@ -1417,7 +1417,7 @@
    "title": "The Single Channel",
    "summary": "Wherever a distributed architecture is available to him, Dan runs **one channel at maximum voltage instead**. This is not a description of his personality; i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/single-channel.txt",
-   "bytes": 19719
+   "bytes": 22027
   },
   {
    "page": "wiki/mind/synthesis/spatial-behavior.md",
@@ -1431,14 +1431,14 @@
    "title": "The Supply Network",
    "summary": "Since January 2011, Dan has been on a daily Suboxone regimen \u2014 fifteen years, described in the primary sources as structural rather than recreational: a medi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/supply-network.txt",
-   "bytes": 28020
+   "bytes": 29577
   },
   {
    "page": "wiki/mind/synthesis/the-deferred-audit.md",
    "title": "The Deferred Audit",
    "summary": "Dan audits everything. What decides the outcome is not *whether* the audit runs \u2014 it always runs \u2014 but **when**, and the schedule is set by a single question...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-deferred-audit.txt",
-   "bytes": 31552
+   "bytes": 32403
   },
   {
    "page": "wiki/mind/synthesis/the-embedded-objective.md",
@@ -1459,7 +1459,7 @@
    "title": "Totality Themes",
    "summary": "**The single generative rule this page derives, stated in one sentence:** an action, object, or relationship is trusted, left alone, and allowed to run indef...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/totality-themes.txt",
-   "bytes": 61502
+   "bytes": 63160
   },
   {
    "page": "wiki/mind/synthesis/vertical-authority-skepticism.md",
@@ -1494,7 +1494,7 @@
    "title": "Jackson Alexander (Alexander Jackson)",
    "summary": "**Role:** Owner of 463 Morgantown St, Uniontown PA. Landlord / property owner for Dan + Suz move-in (caretaker/agent mixed role for Suz).",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/alexander-jackson.txt",
-   "bytes": 5226
+   "bytes": 6358
   },
   {
    "page": "wiki/people/alexis-armel.md",
@@ -1522,7 +1522,7 @@
    "title": "Annie (Anne Louise Ulmer)",
    "summary": "Annie Ulmer was Dan's partner for ten years and seven months \u2014 November 28, 2015 to June 1, 2026 \u2014 and is the only relationship in his documented history to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 116407
+   "bytes": 122636
   },
   {
    "page": "wiki/people/annoying.md",
@@ -1536,7 +1536,7 @@
    "title": "Arnu",
    "summary": "**Role:** Contractor (painter/mechanical work) at 463 Morgantown St. Mechanics lien deadline ~July 27 2026. Associated with Felix (co-worker/painter, possibl...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/arnu.txt",
-   "bytes": 4823
+   "bytes": 5713
   },
   {
    "page": "wiki/people/bekah-fullem.md",
@@ -1739,7 +1739,7 @@
    "title": "Diane (Rebecca Diane Van Voorhis Shrum)",
    "summary": "Diane is Dan's maternal grandmother, [[wiki/people/suzanne-frank|Suz's]] mother, and \u2014 the genealogical record now confirms \u2014 the only documented child of [[...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/diane-shrum.txt",
-   "bytes": 7698
+   "bytes": 7887
   },
   {
    "page": "wiki/people/dimitri.md",
@@ -1837,7 +1837,7 @@
    "title": "Frances \"Fran\" Whyel Coldren",
    "summary": "Fran Whyel Coldren \u2014 born **Jesse Frances Thomas**, Fort Martin, West Virginia, **15 August 1920**; died Uniontown, Pennsylvania, **4 April 2018** \u2014 was Dan ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/fran-coldren.txt",
-   "bytes": 26953
+   "bytes": 27385
   },
   {
    "page": "wiki/people/franki-faris.md",
@@ -1865,7 +1865,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 23907
+   "bytes": 23994
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -2026,14 +2026,14 @@
    "title": "John Carney",
    "summary": "**Role:** Contractor at 463 Morgantown St. Unreachable; work ~10-20% complete. Parallel mentions of Carney's Auto Repair Services in location history (possib...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/john-carney.txt",
-   "bytes": 5179
+   "bytes": 5946
   },
   {
    "page": "wiki/people/john-felix.md",
    "title": "John Felix",
    "summary": "John Felix's thread (`+17249636738`, 59 messages, February\u2013June 2016) is almost entirely logistics \u2014 arrival times, \"K,\" \"Come on,\" golf plans \u2014 but its dome...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/john-felix.txt",
-   "bytes": 1906
+   "bytes": 3233
   },
   {
    "page": "wiki/people/john-paci.md",
@@ -2047,7 +2047,7 @@
    "title": "Johnny (+17243223678)",
    "summary": "**Role:** Dealer (2018 era primary contact). Supplied \"b's\" (balls/cocaine reference), suboxone strips (8mg for $15, 12mg for $20); fronts, repeated in-perso...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/johnny-dealer.txt",
-   "bytes": 12542
+   "bytes": 13178
   },
   {
    "page": "wiki/people/josh-brannan.md",
@@ -2362,7 +2362,7 @@
    "title": "Richard Harrison \"Rick\" Frank",
    "summary": "Rick Frank (b. May 22, 1959, Uniontown PA) is Dan's father: owner of **Frank's Auto Supermarket**, a chain of auto-parts stores (anti-union, per the househol...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/rick-frank.txt",
-   "bytes": 32450
+   "bytes": 32818
   },
   {
    "page": "wiki/people/rj-ritchey.md",
@@ -2465,9 +2465,9 @@
   {
    "page": "wiki/people/suzanne-frank.md",
    "title": "Suz (Suzanne Frank)",
-   "summary": "Dan's mother and, across four decades, the single most constant structural presence in his life \u2014 the person who has most often been both the floor under him...",
+   "summary": "Dan's mother, and the second-largest presence in the entire corpus: **33,698 messages across ten years and nine months**, behind only",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/suzanne-frank.txt",
-   "bytes": 28051
+   "bytes": 60802
   },
   {
    "page": "wiki/people/tan-calabrese.md",
@@ -2537,7 +2537,7 @@
    "title": "Tuquick (+17248123683)",
    "summary": "Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal group chat that closed the relationshi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/tuquick-17248123683.txt",
-   "bytes": 13999
+   "bytes": 14299
   },
   {
    "page": "wiki/people/urpaaa-at-yahoo-com.md",
@@ -2628,7 +2628,7 @@
    "title": "337 Saratoga Drive",
    "summary": "337 Saratoga Drive, Uniontown PA is the family-built (1996) childhood home and Dan's residence for three separate eras of his life, including the GRIPNOTIC b...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/337-saratoga-drive.txt",
-   "bytes": 4914
+   "bytes": 6584
   },
   {
    "page": "wiki/places/424-bedford-ave.md",
@@ -2845,7 +2845,7 @@
    "title": "Master Message Corpora (iMessage Dumps)",
    "summary": "**Sources ingested from /Users/daniel/Documents/**DOX/DOC SCAN/CSV/**",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/message-corpora/master-message-dump.txt",
-   "bytes": 14369
+   "bytes": 15114
   },
   {
    "page": "wiki/self/message-corpora/source-coverage-index.md",
@@ -2894,14 +2894,14 @@
    "title": "The Annie Read \u2014 working notes",
    "summary": "Companion to [[wiki/timeline/annie-record]]. Same read, second output.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/annie-read-notes.txt",
-   "bytes": 32967
+   "bytes": 37986
   },
   {
    "page": "wiki/timeline/annie-record.md",
    "title": "The Annie Record \u2014 a read chronology",
    "summary": "Every event here was found by **reading the messages**, in order, in small windows. Nothing on this page was pattern-matched or extracted by a script. That i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/annie-record.txt",
-   "bytes": 77048
+   "bytes": 180815
   },
   {
    "page": "wiki/timeline/events/annie-alexis-reunion-november-2018.md",
@@ -3041,7 +3041,7 @@
    "title": "Master Timeline",
    "summary": "Every dated event recorded anywhere in this wiki, in order, each linked back to the page and section that documents it.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/master-timeline.txt",
-   "bytes": 511447
+   "bytes": 511508
   },
   {
    "page": "wiki/timeline/periods/2010s.md",

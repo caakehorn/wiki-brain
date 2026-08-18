@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-16
+date_modified: 2026-08-18
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -856,6 +856,33 @@ from output corpora and the new material is intake-side):
   pending a real interpersonal instance.
 - **Open — the Si-Ghost Kernel.** The trauma-projection subsystem makes no
   predictions the intake data can test; it stays at [INFER].
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/mind/synthesis/estate-money-spine]], which moved on 2026-08-18 after the
+[[wiki/people/suzanne-frank]] rewrite corrected the direction of the family's
+largest internal capital movement. The spine had it as money flowing from the
+mother to Dan at a standing ~$750/week rate; the primary record shows a single
+2018 transfer of roughly **$14,000 from Dan to her**, drawn against an estate
+that had not yet distributed, of which $4,000 came back.
+
+**The theme this page carries — "The Irreversibility Firewall," money never
+sitting still long enough to become an adjudicable fact — survives, and the
+correction is a cleaner instance of it than the one it replaces.** A lump was
+lent out inside the family within weeks of arriving, on no paper, and then spent
+a decade as a contested claim rather than a settled balance. That is the firewall
+operating exactly as this page describes: the transaction was structured so that
+no one could ever produce a final number.
+
+**One boundary tightens.** The precarity ledger here treats Dan's transition
+costs as borne against a family baseline with some slack in it. There was no
+slack. Over the same years the mother reports earning $11,000–$14,000 against
+$10,000 a year in property taxes, and in October 2024 she filed Chapter 13 with
+~$157,000 scheduled — mostly IRS priority claims for 2018–2021, the same years
+this page and the spine treat as the poverty floor. Both parties were at the
+floor simultaneously and lending to each other, which is a different system than
+one precarious person drawing on a stable one.
 
 ## Gaps and open questions carried from the third pass
 

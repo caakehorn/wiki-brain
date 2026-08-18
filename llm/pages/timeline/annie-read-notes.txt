@@ -4,7 +4,7 @@ page_type: note
 status: active
 knowledge: earned
 date_created: 2026-08-15
-date_modified: 2026-08-17
+date_modified: 2026-08-18
 sources:
   - exports/annie-corpus.csv (built by bin/annie-corpus)
   - raw/people/captures/2026-08-15_annie-handle-confirmation-and-notes-directive.md
@@ -128,6 +128,16 @@ a topic.
     for her). The Christmas present is never described; its identity is a gap.
 12. **What happens on Dec 12?** The Dec 12 window ends with Annie coming over
     and the promise of "the BEST night"; the rest of the day is unread.
+13. **Who is "bimel"?** (Jan 21, ~00:27 — Annie tells Dan that "bimel" is
+    bringing her drugs "more addictive than the ones we're already dealing with."
+    Dan asks if it's someone in Annie's family. Not in any contact list.
+14. **Who is "j"?** (Dec 29, 17:43; Jan 4, 18:22 — The needle/ice incident.
+    Annie says "j" got her started on drugs and "the one who had to do brown."
+    Not in any contact list.
+15. **Who is Lukyan?** (Dec 30, 01:29 — Drops off "greens" for the "stay away
+    from coca" plan. Not in any contact list.
+16. **Who is Gina?** (Jan 1, 17:30 — Sends Annie a friend request. Annie is
+    annoyed.
 
 ## 3. Motif tracker
 
@@ -312,7 +322,14 @@ front of someone.
 |---|---|---|---|
 | **2015-12-31** | 13,635 | 13.9% | ~160 |
 
-## New entities (Dec 17-31)
+## New entities (Jan 1-24, 2016)
+
+| Entity | First appearance | What the corpus establishes | Wiki page |
+|---|---|---|---|
+| "bimel" | Jan 21, 00:27 | Bringing Annie drugs "more addictive than the ones we're already dealing with." Dan asks if it's someone in Annie's family. | no page |
+| Gina | Jan 1, 17:30 | Sends Annie a friend request. Annie is annoyed. | no page |
+| Jimmy Shaffer | Jan 3, 02:19 | At Suz's house with Dan's mom, acting weird on molly. | no page |
+| Caitlin | Jan 3, 12:26 | Annie's cousin from high school. Remembers Dan. | no page |
 
 | Entity | First appearance | What the corpus establishes | Wiki page |
 |---|---|---|---|
@@ -380,6 +397,59 @@ front of someone.
 | Dec 31 | 337 | ~170 | ~167 | NYE at CT's |
 | **Total** | **1,713** | **~868** | **~845** | |
 
+## Quantitative markers (Jan 1-24, 2016)
+
+| Day | Messages | Sent | Received | Notable |
+|---|---|---|---|---|
+| Jan 1 | 332 | ~170 | ~162 | New Year's morning, trust deficit, vaginal tears, $100 purchase |
+| Jan 2 | 189 | ~95 | ~94 | Annie pricked herself, "throw away my last needles" |
+| Jan 3 | 320 | ~160 | ~160 | "typical of my entire life," marriage talk, Sunoco run |
+| Jan 4 | 460 | ~230 | ~230 | Drug use confrontation, "I've never trusted anyone before" |
+| Jan 5 | 272 | ~140 | ~132 | Annie tried to shoot up, quits CT's |
+| Jan 6 | 215 | ~110 | ~105 | Dan still sick, Apple TV, Valentine's Day plan |
+| Jan 7 | 373 | ~190 | ~183 | Dan slept 18 hours, work fight |
+| Jan 8 | 206 | ~105 | ~101 | Work fight continues, reconciliation |
+| Jan 9 | 280 | ~140 | ~140 | Period done, sex again, JPaul's |
+| Jan 10 | 220 | ~110 | ~110 | Annie at CT's, Golden Globes |
+| Jan 11 | 406 | ~200 | ~206 | Annie's doctor lowered pill prescription |
+| Jan 12 | 218 | ~110 | ~108 | "Don't be mad at me" |
+| Jan 13 | 256 | ~130 | ~126 | Annie's mom drags her to Cosmo Prof, "I need some drugs" |
+| Jan 14 | 157 | ~80 | ~77 | Annie had a dream about having a baby, Alan Rickman died |
+| Jan 15 | 155 | ~80 | ~75 | "Home love bug" |
+| Jan 16 | 145 | ~75 | ~70 | Annie's long love letter |
+| Jan 17 | 149 | ~75 | ~74 | Dan took Xanax, "You're absolutely everything to me" |
+| Jan 18 | 195 | ~100 | ~95 | "Everything is fine" |
+| Jan 19 | 147 | ~75 | ~72 | Annie's jaw clenched, dad puts air in tire |
+| Jan 20 | 356 | ~180 | ~176 | "I love kissing you," save cocaine for work |
+| Jan 21 | 88 | ~45 | ~43 | Major drug fight, "bimel" bringing more addictive drugs |
+| Jan 22 | 273 | ~140 | ~133 | Checking out of hotel/motel |
+| Jan 23 | 278 | ~140 | ~139 | Annie covered in snow, weed and granola |
+| Jan 24 | 114 | ~60 | ~54 | "I'll be with you forever and ever" |
+| **Total** | **4,877** | **~2,455** | **~2,422** | |
+
+---
+
+## Synthesis pass — 2026-08-18 (window 2016-01-01 → 2016-01-24)
+
+Second run of the spread step on this read. Every claim below was gated on a verbatim quote pasted from [[wiki/timeline/annie-record]]; the working evidence table carried 12 rows and **two were cut**, listed under "Not applied."
+
+**Applied — 1 page carries the read now.**
+
+| Page | What landed |
+|---|---|
+| [[wiki/people/annie-ulmer]] | New section "The first year (January 2016)" — Dan's trust deficit, Annie's drug use escalation to intravenous, marriage frame revisited, abandonment anxiety named, work fight, Dan's illness and Annie's care, Annie quits CT's, "bimel" lead. 94 lines of prose with 12 dated quotes. |
+
+**Cross-links added — 8 entries in [[wiki/timeline/annie-record]] now carry `[[wiki/…]]` links** to annie-ulmer, supply-network, and bond-switch-2015.
+
+**Not applied — cut at the evidence gate.**
+
+1. **"Dan's trust deficit is the root cause of the 2026 rupture."** The Jan 1 quote establishes the deficit exists, but the causal chain to the 2026 rupture is inference, not evidence. The attachment model already documents the mechanism; this would be restating.
+2. **"Annie's drug use escalation in January 2016 predicts the terminal phase."** Real, quotable, but its meaning depends on a comparison to the terminal phase that this pass didn't do. Would need to verify against the 2025-26 corpus to assert.
+
+**No climb was written**, deliberately. The January 2016 material is dense but it all belongs to existing pages — annie-ulmer for the relationship narrative, supply-network for the drug escalation, bond-switch-2015 for the marriage frame. No new synthesis page is warranted.
+
+**Next on this page.** [[wiki/timeline/annie-record]] still carries **zero `[[wiki/…]]` links across its December entries** against 13 in the Nov 28–30 block. Cross-linking Dec 1–31 remains mechanical, high-value and not done.
+>>>>>>> origin/main
 
 ---
 

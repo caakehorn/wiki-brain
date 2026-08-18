@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-17
+date_modified: 2026-08-18
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -24,6 +24,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/people/suzanne-frank
+    type: contains
+    claim: "Suz is a participant in the network, not only its payment rail: a decade of purchases from Jim Vrabel in her own name, routine cocaine provision to Dan and Annie through 2015-16, and the Cash App account Dan asked her to install in August 2018 that the later supply-era transfers ran through."
   - page: wiki/timeline/annie-record
     type: evidenced-by
     claim: "Dan names supply as the tie holding a partner in place on 2015-11-29 (\"she doesn't have another drug source\"), roughly three years earlier than any node previously on this page and applied to the departing partner rather than to himself."
@@ -428,3 +431,23 @@ figure in this network. No finding here is affected.
 > relationship changed hands — a boundary the correction leaves exactly where
 > it was (November 29 – December 1, 2015). No supply node, handle or transfer
 > on this page is dated to that week. Closed unaffected.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/people/johnny-dealer]] and [[wiki/people/annie-ulmer]]. The Johnny page
+moved only to flag that its volume figure comes from the unreliable master CSV
+and has not been recounted — no claim here depends on that number.
+
+**One thing does change, and it is an addition rather than a correction.** The
+[[wiki/people/suzanne-frank]] rewrite establishes that Dan's mother is a
+participant in this network and not merely its payment rail. She buys from
+[[wiki/people/jim-vrabel|Jim Vrabel]] in her own name across a decade, supplies
+Dan and Annie with cocaine routinely through 2015–16 (the December 2015
+two-sided record has him collecting from her several times a week), and the Cash
+App account the supply-era transfers ran through was installed at Dan's request
+in August 2018. **The architecture claim is unaffected and the redundancy claim
+gains a node**: the network had a family-internal source available before any of
+the named dealers, which is part of why a supply failure was survivable for so
+long and why the spring 2026 failures registered as a relationship event rather
+than a logistics one.

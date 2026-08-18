@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-18
 sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
 synthesizes:
   - wiki/legal/463-morgantown
@@ -57,3 +57,19 @@ Felix named in MAX_PRIME as "supply-adjacent figure" (2026 appearance); context 
 > [[wiki/legal/463-morgantown]] for the check that would answer it.
 
 **Premise re-check (2026-07-26):** [[wiki/legal/463-morgantown]] moved on 2026-07-18 in a typed-connections pass; no fact this page depends on changed. The mechanics-lien deadline it records, ~2026-07-27, is now imminent and remains unresolved in every source read so far.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/legal/463-morgantown]], moved 2026-08-18 for a correction to
+[[wiki/people/suzanne-frank|Suz's]] financial position and two new dated rows.
+
+**Nothing here is contradicted.** The estimated ~27 July 2026 mechanics-lien
+deadline remains unobserved, and the question of whether it was filed, settled
+or never real is still open and still answerable from a Fayette County
+prothonotary search. The one thing the correction changes is the assessment of
+consequence: the 463 page previously reasoned that a lien-sized shock had no
+obvious absorber because Suz's finances were "cyclical." They are not cyclical —
+she filed Chapter 13 in October 2024 with roughly $157,000 scheduled and
+liquidated her only unencumbered asset in June 2026 to service it. If the lien
+was filed, there is no absorber at all.

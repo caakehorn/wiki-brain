@@ -4,7 +4,7 @@ page_type: summary
 title: "463 Morgantown St (Housing / Property Risks)"
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-18
 sources:
   - raw/self/message-csv/imessage_7243228715_both_all_now.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -33,7 +33,7 @@ connections:
     claim: "The owner whose title the liens attach to, and the counterparty to every unwritten arrangement at the address; his absence from the paper is the mechanism by which Suz absorbs risks that are formally his."
   - page: wiki/people/suzanne-frank
     type: contains
-    claim: "The single point where all four unwritten relationships at this address converge — tenant, agent, caretaker, contracting counterparty — with no separation of liability and a documented $750/week borrowing cycle, which is why a lien-sized shock here has no absorber."
+    claim: "The single point where all four unwritten relationships at this address converge — tenant, agent, caretaker, contracting counterparty — held by a person whose October 2024 Chapter 13 scheduled ~$157,000 in liabilities against self-reported income of $11,000-$14,000 a year, which is why a lien-sized shock here has no absorber."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "463 is where the money spine currently points: no lease, blended agency, a ~July 2026 lien deadline, and no absorber for a lien-sized shock — the housing configuration produced by the capital timeline's present state."
@@ -71,7 +71,7 @@ estimated to mature around **July 27, 2026**.
 | Incomplete work, contractor unreachable | [[wiki/people/john-carney|John Carney]] | ~10–20% complete | Suz msg Mar 27, 2026 ("John carney thing... last few pages are Very interesting") |
 | No signed lease → ambiguous tenancy | Dan + Suz | Unresolved at move-in | Context-core §5; Suz thread |
 | No confirmed POA for property decisions | Suz | Unresolved | Context-core §5 |
-| 337 Saratoga sale contingencies | Suz (seller) | Close ~June 2026 + 7-day vacate | Buyers Jennifer J. + Scott P. Delverm, $465k, contingent on their 19 Jeffries sale (≤$229.9k) and a bankruptcy approval |
+| 337 Saratoga sale contingencies | Suz (seller) | Closed 2026-06-23 + 7-day vacate | Buyers Jennifer J. + Scott P. Delverm, $465k. The "bankruptcy approval" is a Motion to Sell in her own Chapter 13 — the sale is the plan's remedy, not a condition on it ([[wiki/people/suzanne-frank]]) |
 
 The structural problem underneath all five rows is the same: every
 relationship at 463 — tenancy, agency, caretaking, contracting — is running
@@ -86,12 +86,14 @@ obvious absorber.
 
 | Date | Event |
 |------|-------|
+| 2026-02-10 | Suz is already making regular trips to Morgantown St (*"I'll get cigarettes and drop some off on my way to Morgantown st"*) — the address is a project four months before it is a residence |
 | ~Early 2026 | Dan + Suz move into 463 Morgantown (no lease, no POA confirmed) |
 | 2026-02-10 | Contractor day: Arnu no-shows; his associate Felix paints ("Felix is going to paint more"), brings Elijah |
 | 2026-03-27 | Suz shares the "John carney thing" analysis with Dan |
 | ~2026-06 | 337 Saratoga sale closing window; 7-day vacate clause |
 | ~2026-07 | A house move completes, run single-handed and a week late (probably the 337 vacate — see below) |
 | ~2026-07-27 | Estimated Arnu mechanics-lien deadline |
+| 2026-08-11 | Suz to Dan: *"It's time for you to go."* — the newest datapoint on his housing, from the person who controls it ([[wiki/people/suzanne-frank]]) |
 
 ## Assessment
 
@@ -100,6 +102,20 @@ running off-books, with the paper trail's absence as the operative risk. The
 difference is exposure — at BFS the worst case was a lost job; here it is
 housing. As of the last ingest there is no documented post-close plan for
 where Dan lives if 463 becomes untenable.
+
+> **CORRECTED [2026-08-18]:** The sentence above previously read *"Suz's
+> finances are themselves cyclical — the operating manual documents $750/week
+> borrowing patterns — so a lien-sized shock has no obvious absorber."* The
+> $750/week figure does not survive contact with the primary record: it derives
+> from a single accusation on 13 December 2018 (*"You borrowed $750 last week
+> alone!"*), which `operating_manual.md` — AI-secondary — generalised into a
+> rate and also inverted the direction of. See
+> [[wiki/people/suzanne-frank]]. The conclusion the sentence supported is
+> unchanged and in fact strengthened by what replaced it: she filed **Chapter
+> 13 in October 2024 (case 24-22285-GLT, ~$157,000 scheduled, IRS priority
+> claims for 2018-2021)** and has stated her income as $11,000-$14,000 a year.
+> There is no absorber because there are no assets left — 337 Saratoga, the
+> only unencumbered one, was liquidated in June 2026 to satisfy that filing.
 
 ## The July 2026 move
 
@@ -120,7 +136,7 @@ availability during it that the corpus does not otherwise document. Treat the
 move as established and the address as probable-not-confirmed until a source
 names it.
 
-**Gaps:** exact move-in date; whether a lease or POA has since been signed;
+**Gaps:** whether the 11 August 2026 "It's time for you to go" was acted on, and whether Dan is still housed here at all; exact move-in date; whether a lease or POA has since been signed;
 any direct communications with owner Alexander Jackson; the content of the
 "John carney thing" document (referenced but not in raw/); resolution status
 of the Arnu lien, whose estimated 2026-07-27 deadline has now **elapsed

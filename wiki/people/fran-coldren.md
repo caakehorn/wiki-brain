@@ -39,6 +39,9 @@ infobox:
   role: "Maternal great-grandmother; matriarch of the Uniontown country-club era"
   known_for: "Dan's self-described biggest life influence; taught him to read, funded the production identity, and was his paid full-time care for the six months before she died"
 connections:
+  - page: wiki/people/suzanne-frank
+    type: evidenced-by
+    claim: "Suz names Fran 'the one and only guiding force in my life. The one person who loved me unconditionally' — the same generation-skipping attachment Dan makes, in the same maternal line one rung up, which is why the person who handled the estate, the clearance and the memorial alone was the one for whom Fran was the only unconditional relationship on record."
   - page: wiki/places/117-belmont-circle
     type: contains
     claim: "The GEDCOM fixes her tenure at Belmont Circle from about 1961 — a return from Miami Beach, with her daughter married inside the house that February — which makes the residency fifty-seven years rather than the round fifty every retelling uses."

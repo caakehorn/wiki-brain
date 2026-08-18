@@ -7,7 +7,6 @@ date_created: 2026-08-14
 date_modified: 2026-08-15
 sources:
   - generated from every page under the wiki by bin/wiki-timeline
-tags: [timeline, master, chronology, generated]
 connections:
   - page: wiki/timeline/index
     type: component-of
@@ -2762,7 +2761,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ### 2020
 
-- ★ **2020** — Move to Park Place Realty Group  
+- ★ **2019-10** — Move to Coldwell Banker → Park Place Realty Group (corrected 2026-08-18 from "2020"; *"Park place realty... here I come!"*, 2 Oct 2019)  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2020** — the left turn.** The already-synthesized instance: the  
   ↳ [[wiki/mind/synthesis/interests-as-era-markers]] · The marker series

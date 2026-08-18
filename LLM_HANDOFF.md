@@ -4,6 +4,31 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-18] - Session: the mother page was rebuilt from primary sources, and it moved the money spine
+
+* **Model:** Claude Code (Opus 5) · **Branch:** `claude/rewrite-suzanne-frank`
+* **Trigger:** Operator: *"rebuild the suzanne-frank article… expand it a bunch and be more subtle with the digs. do a real re-analysis and re-write with all available sources and data and the updated pages that now exist. it should probably be one of the wiki's larger articles."*
+* **Protocol:** `.claude/skills/wiki-rewrite` end to end. 28 KB → 58 KB, `related:` retired for 27 typed edges, all inverses paired.
+
+**Findings in order of value.**
+
+1. **`wiki/people/suzanne-frank` reported 2,391 messages; the real figure is 33,698** — rank 2 in the whole corpus, not "~8–10". The bad number came from `MASTER_MESSAGES_DB_DUMP.csv` and had already propagated to `contact-gini` and `single-channel`. Both corrected. `single-channel`'s "no failover" thesis now distinguishes **volume from dependability** and carries a falsifier.
+2. **The family's largest internal capital movement runs the wrong way on every page that carried it.** Not "$750/week from her to him" (one accusation, 13 Dec 2018, generalised into a rate by `operating_manual.md`) but **~$14,000 from Dan to her in Aug–Oct 2018**, drawn against an estate that distributed in Sept 2020, $4,000 recovered, litigated in text on 3 July 2019 and never settled. `estate-money-spine` rewritten around it.
+3. **337 Saratoga was sold because of a Chapter 13, not a decision** — case **24-22285-GLT**, filed Oct 2024, ~$157k scheduled, IRS priority claims 2018–2021, court drop-dead Aug 2025, ask $615k → $465k. Written back to `337-saratoga-drive` and `463-morgantown`.
+4. **Her income is on the record at $11–14k/yr against $10k/yr in property taxes** (her own words, June 2020). Every "primary financial artery" framing in the wiki was reasoning from a capacity that did not exist.
+5. **Two declared gaps were cascade failures, not missing facts** — her voice and her drinking were both extensively on disk. Same failure mode as the 2026-08-17 `ellen-ulmer` / `kristin` pair.
+6. **New material nobody had written down:** a 27 Sep 2020 Facebook message from Suz warning Dan and Annie to stop *"getting physical"* — the earliest third-party account of that, four years early; and the corpus's newest message, 11 Aug 2026, *"It's time for you to go. I'm so tired of you stealing from me."*
+
+**Resume points, highest value first.**
+
+* **`wiki/people/annie-ulmer` should absorb the Sept 2020 warning.** The edge is written; the prose is not. It changes the terminal-phase chronology — the physical-conflict pattern is documented as recurring in 2020, not emergent in 2024.
+* **Recount every volume figure sourced to `MASTER_MESSAGES_DB_DUMP.csv`.** One recount moved a page's rank by six places and falsified a synthesis thesis. `contact-gini`'s table still carries master-CSV numbers for Tom, Johnny and the "Frequent PA Contact" (`+17249204125`, which is probably an Annie handle and is counted as neither). `johnny-dealer` is flagged but not recounted.
+* **Why did the Suz thread collapse in July 2026** — ~296/month → 14, while the corpus ran 2,115 that month? Same export, same window, so not an artifact. It coincides with the move Dan executed alone.
+* **Three outside-the-corpus lookups would each settle a flagged item in one query:** the Chapter 13 docket (WDPA, 24-22285-GLT) for the real schedules and the plan outcome; PA Dept of State for licence RS305558, which appears nowhere in `raw/`; Orange County FL court records against 2924 Antique Oaks Circle for the tenant arrest.
+* **`bin/wiki-timeline` was fixed at source** — it had been emitting four tags outside the closed set, which is what produced the standing `master-timeline.md` lint error every session inherited. Lint is now at **0 errors** for the first time in this log.
+
+**Gates:** wiki-lint 0 errors / 17 warnings · wiki-connect check 0 errors / 244 warnings · wiki-climb check 0 errors / **9** staleness warnings, down from 18; the remaining nine all pre-date this pass and trace to `annie-ulmer`. Four cascade rounds cleared with recorded reasoning, none date-bumped.
+
 ### [2026-08-17] - Session: every staged operator answer integrated, and one of them contradicted the man who gave it
 
 * **Model:** Claude Code (remote) · **Branch:** `claude/close-staged-answers`
