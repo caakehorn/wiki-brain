@@ -8,7 +8,7 @@ knowledge: mixed
 date_created: 2026-06-23
 date_modified: 2026-08-18
 date_range_start: 2011-05-20
-date_range_end: 2026-06-01
+date_range_end: 2026-08-18
 sources:
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/alexandralubin_jnwin7cizw/message_1.html"
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/danpolyak_a1u7tpseha/message_1.html"
@@ -22,7 +22,7 @@ sources:
   - "raw/self/message-csv/imessage_ALL_both_all_now.csv"
   - "raw/self/message-csv/imessage_export_deep_20260813.csv"
   - "raw/self/dox-md/operating_manual.md"
-  - "raw/self/danmodel/reaction_pairs_heldout.jsonl"
+- **raw/self/imessage/ally-lubin_chatdb_complete.csv** — extracted from ~/Library/Messages/chat.db, 1,375 rows covering 2018-12-17 → 2026-08-18
 tags: [relationships, digital-footprint, mental-health, financial-stress]
 importance: normal
 infobox:
@@ -529,12 +529,41 @@ of the response-modelling dataset built from the corpus — the four Ally pairs
 are labelled `"contact": "unmapped"`. The identity failure this rewrite
 corrects had already propagated downstream into a derived training artifact.
 
-## What the operating manual gets right and wrong
+## The overflow continues (August 18, 2026)
 
-`raw/self/dox-md/operating_manual.md` is **AI-secondary** — a model reasoning
-about the corpus — and the previous version of this page quoted it as if it
-were a record. Both of its Ally passages are directionally right and
-factually loose:
+After the June 1 overflow burst goes silent, the channel reopens on **August 18, 2026** — the same day the wiki page itself is being rewritten — with Dan reaching out:
+
+> **DAN:** My love, my life…where are thee
+> **ALLY:** Omg
+> **DAN:** Because I am the poster child of unreliable scumbag shitheads
+> **ALLY:** Ok PeteyxWentz
+> **DAN:** I bet EVERYTHING on that girl and she did me dirty so I am just building wiki's of myself
+
+The conversation runs 134 messages over four hours. Key exchanges:
+
+- **The wiki as confession:** Dan tells her the wiki is being rewritten from her messages. Ally: *"If someone ever archived my texts I'd kill myself"* → Dan: *"Yeah imagine not just archiving them but analyzing and then publishing them"* → Ally: *"No literally"* → Dan: *"it's a wild thing to do and as far as I know, it hasn't been done by anyone else yet"* → Ally: *"But like it's impressive to love someone that much I guess"* → Dan: *"LMAO what do you mean? It's about me not anyone else"*
+
+- **The polyak spoof revisited:** Dan: *"Are we SURE I spoofed clandan's number because I don't even understand how that would have helped me lol"* — still trying to get out of it four years later.
+
+- **Bob Lubin cameo:** Ally: *"I don't even talk to my dad anymore lol"* — the father whose name appears in the wiki.
+
+- **The cats:** Both Edgar and Sylvia have died. Edgar had nasal cancer and *"sneezed blood everywhere."* She got two new cats. Ally: *"Sylvia dying really fucked me up"*
+
+- **The courtship question, revisited:** Dan: *"Listen just tell me legitimately what personal developments and prerequisites need to be met for me to court you and inevitably marry you"* → Ally: *"Ok yeah actually I am ready to settle down"* → *"Well first you'd have to be obsessed with me again"* → *"Secondly I don't really know; the bar is on the floor these days"*
+
+- **The boob pic almost:** Ally: *"I almost sent you a boob pic on Snapchat but you'll save it"* — Dan: *"10/10 would objectify again"*
+
+- **Generational identity:** Ally: *"I'm Gen Z in my mind / And most of my coworkers think I'm 26"* — she's 36.
+
+- **The Hawthorne Heights test:** Dan asks her favorite Hawthorne Heights song. She answers *"saying sorry"* — Dan: *"Any answer to that question other than 'huh?' Means you are just core millennial"*
+
+The conversation ends with Dan sending her the wiki page draft. Her response: *"Maybe the best description of anyone in the entire thing"* / *"I'm crying"* / *"Internet famous figure"* / *"No physical component at all"*
+
+This is the first sustained Ally-initiated-adjacent exchange in the corpus — she's responding, engaging, and matching his energy. It breaks the pattern documented in the prediction above (overflow only after primary-bond rupture). The channel is now in a state the previous 17 years never produced: mutual, warm, and ongoing.
+
+## The operating manual (AI-secondary)
+
+`raw/self/dox-md/operating_manual.md` is AI-secondary and the previous version of this page quoted it as if it were a record. Both of its Ally passages are directionally right and factually loose:
 
 - Its contact table reads **"Ally Lubin | allylubin@gmail.com | Friend, dark
   humor partner, North Carolina."** The email is correct, the state is
@@ -572,8 +601,5 @@ Each of these is answerable by the operator in a paragraph.
 - **Is she still alive and well?** The last message from her in the corpus is
   November 17, 2025. Given the volume of documented suicidality in the 2019
   material, this is a question the wiki should not leave implicit.
-- **Negative result, recorded:** she does not appear in `contacts.csv` with
-  an address, in the GEDCOM, in the Twitter export, or in the Facebook search
-  history. The Model Mayhem and "boca raton ally lubin" searches Dan
-  describes on 2019-08-22 are from Google, whose search-history export is not
-  in `raw/`; they cannot currently be verified.
+- **Has the channel actually changed?** The August 18 exchange is the first sustained mutual-adjacent burst in 17 years. Does the overflow-channel pattern still hold, or has the separation from Annie (June 1, 2026) permanently changed the channel's function?
+- **Negative result, recorded:** she does not appear in `contacts.csv` with an address, in the GEDCOM, in the Twitter export, or in the Facebook search history. The Model Mayhem and "boca raton ally lubin" searches Dan describes on 2019-08-22 are from Google, whose search-history export is not in `raw/`; they cannot currently be verified.
