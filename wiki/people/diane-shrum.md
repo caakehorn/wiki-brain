@@ -7,6 +7,7 @@ status: active
 knowledge: mixed
 date_created: 2026-08-02
 date_modified: 2026-08-02
+pending_ingest: 2026-08-18
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
@@ -127,3 +128,24 @@ she ever did contest the 2020 distribution — the attorney's read was that
 she would not, and no objection appears in anything since. The "grandparents
 who already hated you" that Dan feared during the earlier keno-morning fall
 are presumably Diane and George, but he never names them in that passage.
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-18] — manual note
+
+**Not from the gap list** — volunteered by the operator, so the ingest
+has to work out for itself where on the page it belongs, and whether it
+contradicts something already there.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-17_230529_gap-diane-shrum.md`.
+
+Change Diane to Dian
