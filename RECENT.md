@@ -8,13 +8,14 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-18 — 51 pages
+## 2026-08-18 — 57 pages
 
 - **Session log:** rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
 - **Session log:** ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
 - **Session log:** close | people | wiki/people/diane-moore — a two-word operator answer merged two entities and re-dated the exclusion
 - **Session log:** lint | mind | the girlfriend score, and two honest re-checks
 - **Session log:** lint | cross-domain | the $750/week retraction was announced on three pages and applied on none of them
+- **Session log:** lint | cross-domain | the staleness queue emptied, and four of the five re-checks changed a conclusion
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -31,13 +32,17 @@ simply listed.
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | _(carries a CORRECTED from 2026-08-15)_ |
+| [[wiki/mind/synthesis/block-unblock-loop]] | mind | **CORRECTED** — **The premise that moved.** Both ellen-ulmer and july-august-2026-reentanglement were updated on 2026-08-17 with an operator answer that supplies the July 26 motive: Annie claimed to have b |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
+| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — danielle-onesi moved on 2026-08-18 for the James Dee ingest. The change that matters here is not on her page but in what it uncovered: james-dee, a **fifty-six-day** tie running May–July 2025, ended o |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **CORRECTED** — This section previously described the switchboard as carrying money *toward* Dan — "the deep-cycle borrowing (~$750/week) came from her." Both halves fail against the primary record. The $750 figure i |
+| [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — **The premise that moved.** ancestry was rewritten on 2026-08-14 from a direct GEDCOM extraction — 515 individuals, **90 direct ancestors**, four grandparental lines, geographic concentration tables a |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | _(carries a RE-CHECKED from 2026-08-16)_ |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | **RE-CHECKED** — forensic-method moved on 2026-08-18: its claim that the July 2026 Leviathan dashboards were the method's first outward deployment was corrected to 2025-07-11 (james-analysis-pdf), and it |
 | [[wiki/mind/synthesis/single-channel]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
 | [[wiki/mind/synthesis/supply-network]] | mind | **CORRECTED** — this bullet previously read *"the 2018 deep cycle ran on ~$750/week borrowed from her."* Both the rate and its direction fail against the primary record. The corpus holds a single $750 statement — an  |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
+| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — **bond-switch-2015 (moved 2026-08-17) — a new cost, and it is external.** The switch's fourth party is now named: the operator identified **Emilio** as the partner displaced on Annie' |
 | [[wiki/mind/synthesis/totality-themes]] | mind | _(carries a RE-CHECKED from 2026-08-16)_ |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/people/alexander-jackson]] | people | — |
@@ -66,11 +71,13 @@ simply listed.
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | **CORRECTED** — This paragraph read: *"Dan and Annie each received a letter… It had been sent before the final admission rather than in response to it."* Dan's contemporaneous messages of 2018-04-03 say otherwise on  |
 | [[wiki/timeline/events/james-analysis-pdf]] | timeline | — |
 | [[wiki/timeline/events/july-2026-recontact]] | timeline | — |
+| [[wiki/timeline/events/july-august-2026-reentanglement]] | timeline | **CORRECTED** — this section read the two as *"resolving opposite ways"* and derived from the contrast a rule that **announcement is the mechanism of non-execution.** Both halves are withdrawn, by this page's own lat |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] | timeline | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/timeline/index]] | timeline | — |
 | [[wiki/timeline/periods/2018-deep-cycle]] | timeline | **CORRECTED** — the clause above read *"mom borrow $750/wk."* The rate does not exist and its direction is inverted. The corpus holds one $750 statement — an accusation about a single week, made in a 13 December 2018 |
+| [[wiki/work/fastly-fsly]] | work | **CORRECTED** — The `synthesizes:` key appeared **twice**: once listing 2020-2021-market-era and again listing context-core. YAML resolves a duplicate key by keeping the last, so **every standard parser read |
 
-## 2026-08-17 — 15 pages
+## 2026-08-17 — 13 pages
 
 - **Session log:** restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
 - **Session log:** climb | timeline, people, mind | the 2015 Annie read spread to ten pages, and five of its own corrections did not survive the evidence gate
@@ -80,7 +87,6 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a RE-CHECKED from 2026-08-16)_ |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | **CORRECTED** — This page, and its own 2026-08-02 correction about whose exit it was, both assume Annie was unattached. **She was not.** The hand-read of the two-sided corpus (annie-record) has her ending her own rel |
 | [[wiki/people/casey-bondarenka]] | people | **CORRECTED** — "Overstayed his welcome" implied an established friendship. The hand-read of the Annie corpus (annie-record) dates his arrival precisely: on 2015-11-30 Dan complains *"Casey will never stfu here"* and |
 | [[wiki/people/claire-ulmer]] | people | — |
@@ -92,7 +98,6 @@ simply listed.
 | [[wiki/people/zachariah-harshman]] | people | — |
 | [[wiki/self/gemini-activity/archive/v1-extract]] | self | — |
 | [[wiki/timeline/2015-annie-read-wiki-impact-analysis]] | timeline | — |
-| [[wiki/timeline/events/july-august-2026-reentanglement]] | timeline | **GAP CLOSED** — This page flagged Dan's 02:59 line — *"You couldn't even stay with her when they put her down so she had to go through it alone"* — as *"sourced only to Dan, in an attack, and uncorroborated."* The op |
 | [[wiki/timeline/events/robotussin-s-last-dance]] | timeline | **GAP CLOSED** — This page asked *"whether any of the three were sober enough to make decisions by the time they left Ruby Tuesday's."* The operator: **"on the contrary, we were all MUCH less sober and subsequently ev |
 | [[wiki/timeline/periods/2015-2016-annie-relationship-start]] | timeline | **CORRECTED** — The dossier baseline above reads as though two days of relationship had elapsed before *"YOU ARE MY EVERYTHING."* The hand-read (annie-record) times it to **2015-11-29 03:24**, with *"You are my full  |
 
@@ -111,7 +116,7 @@ simply listed.
 | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] | timeline | **GAP CLOSED** — This page carried "Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown" as an open question since 2026-07-14. The opera |
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — context-core was revised on 2026-08-16 by a staleness audit that corrected seven claims: the Annie status (closed → live), Tom's corpus weight (16,563 was Kristin's handle), the 337 Saratoga sale and  |
 
-## 2026-08-15 — 6 pages
+## 2026-08-15 — 4 pages
 
 - **Session log:** read | timeline | the read pass gets a second output — entity ledger, leads, motifs — plus Nov 30: Suz paid for the eviction
 - **Session log:** read | timeline | the Annie corpus is 97,768 messages across FOUR handles, and reading two days of it produced 25 events no script found
@@ -119,8 +124,6 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — alexis-armel and the-unbroken-bond both moved on 2026-08-15 for the same correction: the "cheating" that dated the end of the Alexis relationship to 2015-11-28 is a retrospective account of a |
-| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **CORRECTED** — The first bullet of this list previously read *"**2015-11-28** — the Alexis cheating revelation."* There was no such revelation that week; the message it rested on is Dan describing the **2009** start |
 | [[wiki/timeline/events/timeline]] | timeline | — |
 | [[wiki/timeline/master-timeline]] | timeline | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | — |
@@ -145,7 +148,7 @@ simply listed.
 |---|---|---|
 | [[wiki/people/john-paci]] | people | **REVISED** — the version of this page written on 2026-08-10 described a warm, long-suffering landlord and an eviction that simply happened to him and to his tenants. The eviction was staged at Dan's request. The r |
 
-## 2026-08-11 — 18 pages
+## 2026-08-11 — 17 pages
 
 - **Session log:** climb | mind | totality-themes.md re-derived from the wiki's own T2/T3 layer — "The Irreversibility Firewall"
 - **Session log:** correction | people | the "decade of silence" with Rick was wrong — full record recovered, childhood testimony captured, worldview mismatch documented
@@ -164,7 +167,6 @@ simply listed.
 | [[wiki/mind/concepts/node-locking]] | mind | — |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
-| [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — rick-frank gained a corrected, two-sided reading of the December 2015 rupture (Dan's decade-long silence toward Rick, verified against the per-number export) and a 2010 NYC-funding narrative from an e |
 | [[wiki/mind/synthesis/intake-constancy]] | mind | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/mind/synthesis/music-as-identity]] | mind | — |
@@ -174,7 +176,7 @@ simply listed.
 | [[wiki/people/rick-frank]] | people | **CORRECTED** — An earlier pass this same day built an entire narrative — "the loudest silence," a "held-block control case," "that is the last message Dan ever sent to this number" — on `imessage_7243667777_both_all |
 | [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 
-## 2026-08-10 — 12 pages
+## 2026-08-10 — 11 pages
 
 - **Session log:** rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
 - **Session log:** ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
@@ -195,7 +197,6 @@ simply listed.
 | [[wiki/places/307-e-76th-st]] | places | — |
 | [[wiki/places/90th-st-manhattan]] | places | **CORRECTED** — This section previously stated the exit as "February 2012" without qualification. A dedicated pass on creative-license and kevin-mckiernan found the date is contradicted between sources: Dan's own rés |
 | [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
-| [[wiki/work/fastly-fsly]] | work | — |
 
 ## 2026-08-09 — 10 pages
 

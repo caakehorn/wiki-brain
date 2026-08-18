@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-18
-465 pages, ~1,055,879 tokens.
+465 pages, ~1,062,342 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -13978,7 +13978,6 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [relationships, attachment, family, trauma-bond, personality-profile]
 connections:
-connections:
   - page: wiki/timeline/events/bald-eagle-cummings
     type: caused-by
     claim: "The first sexual event in the record is a public failure followed by a year of being renamed for it by older students — exposure and humiliation arriving in the same instant, three to four years before the November 2005 hinge this cluster is built around."
@@ -15797,7 +15796,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-17
+date_modified: 2026-08-18
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -15824,7 +15823,7 @@ tags: [personality-profile, forensic-analysis, relationships]
 connections:
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: evidenced-by
-    claim: "The eight days confirm this page's standing prediction at the resolution of minutes — the July 26 goodbye broke in eighteen — and split the unexecuted-threat pattern along a new line: the impulsive disclosure executed, the deliberated one did not."
+    claim: "The eight days confirm this page's standing prediction at the resolution of minutes — the July 26 goodbye broke in eighteen. CORRECTED 2026-08-18: this edge previously read the window as splitting the unexecuted-threat pattern, 'the impulsive disclosure executed, the deliberated one did not.' The July 26 Ellen contact is not a member of the threat class — it was a life-safety act formed on a belief that Coles had Annie in danger — so the maternal-disclosure threat's execution rate across the corpus is zero, not one, and the July 28 abandonment is the window's only threat datum."
 
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: contradicts
@@ -16212,17 +16211,62 @@ an exhaustible Fe function.
 > advance by the corrected dependency rule rather than by the base rate. The
 > gap is closed; the rule survives untouched.
 
-The same window splits a second pattern this page carries, and the split is
-new. The record holds eighteen block threats and six or more
-"I'm telling your mother" threats from Dan, essentially none of them
-executed — a regularity the corpus has treated as a single fact about him,
-that his threats are performative. **Both kinds appear in these eight days,
-forty-eight hours apart, and they resolve opposite ways.**
+The same window bears on a second pattern this page carries. The record holds
+eighteen block threats and six or more "I'm telling your mother" threats from
+Dan, **none of them executed** — a regularity the corpus has treated as a
+single fact about him, that his threats are performative. Two acts in these
+eight days, forty-eight hours apart, were read until 2026-08-18 as resolving
+opposite ways; on the corrected classification only one of them is a threat at
+all, and it went the way the regularity predicts.
 
 On the morning of July 26, believing Annie to be in physical danger, Dan
 messaged [[wiki/people/ellen-ulmer|Ellen]] with screenshots. Elapsed time
 from decision to act: **sixteen minutes**, no announcement, no negotiation.
-It is the first executed maternal-disclosure threat in the corpus.
+This page called it *"the first executed maternal-disclosure threat in the
+corpus"* until 2026-08-18; it is not one, and the correction is directly below.
+
+> **CORRECTED [2026-08-18] — July 26 is not a member of the threat class, and
+> removing it takes the executed count from one to zero.**
+>
+> **The premise that moved.** Both [[wiki/people/ellen-ulmer]] and
+> [[wiki/timeline/events/july-august-2026-reentanglement]] were updated on
+> 2026-08-17 with an operator answer that supplies the July 26 motive: Annie
+> claimed to have been raped and held hostage by
+> [[wiki/people/jerel-coles|Jerel Coles]] *"minutes before Coles began texting
+> Dan threats from Annie's phone, leading Dan to believe Annie was in danger."*
+> Both pages draw the same conclusion in the same words — this was **"not the
+> threat finally executed as leverage"** but a belief that her life was at risk.
+> This page kept the old reading for a day. The write-back never reached it,
+> which is the same cascade failure `ellen-ulmer` diagnoses about itself in its
+> own GAP CLOSED block.
+>
+> **Why the reclassification is right rather than charitable.** The eighteen
+> block threats and six-plus maternal-disclosure threats are a class defined by
+> *function*: a stated intention held over the counterparty to extract
+> something. July 26 has none of the class's properties. It was not stated to
+> Annie in advance, nothing was demanded in exchange, and the recipient was
+> contacted about a third party's conduct rather than about Annie's. An act that
+> shares a channel with a threat is not a threat; on this page's own analysis
+> the channel is the trivial part and the trade is the mechanism.
+>
+> **What it costs, and what it buys.** *Costs:* the announcement/trade rule
+> below loses its "no announcement → executed" leg, which is the leg July 26 was
+> carrying. *Buys:* two things, both larger. First, the rule is left resting on
+> June 1 and July 28 — both announced, one answered with *"Understood"* and
+> executed, one answered with twelve hours of bargaining and abandoned — which
+> is a **cleaner** contrast, because it varies only the counterparty's response
+> and holds announcement constant. That is the variable the 2026-08-13 revision
+> already identified; July 26 was the last thing propping up the superseded
+> version. Second, **the maternal-disclosure threat now has an execution rate of
+> zero across seven or more instances.** This page previously reported one, and
+> the one was the wrong case. The performativity finding is not weakened by the
+> correction, it is total.
+>
+> **A falsifier the sharper count generates.** Zero-for-seven is a strong enough
+> regularity to be worth attacking: a documented instance of Dan contacting a
+> partner's parent *about that partner*, after saying he would, would break it.
+> The corpus has never been searched for this on the pre-Annie relationships,
+> where the threat vocabulary may predate the bond that made it famous.
 
 On July 28 he announced at 11:48 that he would email both her parents, held
 the position for **twelve hours across roughly two hundred messages**,
@@ -16306,6 +16350,33 @@ than an open question. The rewrite's other changes (the corpus-wide
 relabeling of the 266/84 figures, the corrected apology count, the added
 12-crisis-statement data point) do not touch the announcement rule, the
 Menore control, or any prediction this page tracks.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against four premises —
+[[wiki/people/annie-ulmer]], [[wiki/people/tom]],
+[[wiki/timeline/events/july-2026-recontact]] and
+[[wiki/mind/concepts/attachment-model]], all of which moved on 2026-08-18.
+**All four moved by typed-edge addition only**, and the diffs are worth naming
+precisely so the next pass does not re-open them: `tom` and `july-2026-recontact`
+gained edges into the new James Dee arc; `attachment-model` gained a `parallels`
+edge to [[wiki/mind/concepts/the-handed-mirror]]; `annie-ulmer` gained one
+`evidenced-by` edge recording that Suz witnessed the relationship's physical
+conflict in writing in September 2020. No body text moved on any of them. **No
+count, rule, control row or prediction this page tracks is affected**, and the
+127/110 pair, the dependency rule, the trade rule and the Menore and Tom
+provisional rows all stand exactly as written.
+
+**The alarm was right anyway, for a reason it could not see.** While checking
+the four flagged premises, an unflagged one turned out to have moved
+substantively the day before: [[wiki/people/ellen-ulmer]] and
+[[wiki/timeline/events/july-august-2026-reentanglement]] both acquired the July
+26 motive on 2026-08-17, and this page went on classifying that contact as an
+executed threat. That correction is written up above, under "Why the unblock is
+never an apology." The staleness tool compares dates on `synthesizes:` members
+and cannot see a *reclassification* arriving through a page it already agrees
+with — which is worth recording as a limit of the gate rather than a lapse of
+this page.
 
 ## Gaps
 
@@ -17054,7 +17125,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -17064,6 +17135,7 @@ synthesizes:
   - wiki/timeline/events/july-august-2026-reentanglement
   - wiki/people/alexis-armel
   - wiki/people/danielle-onesi
+  - wiki/people/james-dee
   - wiki/places/424-bedford-ave
   - wiki/people/menore
   - wiki/people/franki-faris
@@ -17087,6 +17159,9 @@ connections:
   - page: wiki/people/alexis-armel
     type: instance-of
     claim: "The case that rules out mere passivity: Alexis is re-roled twice after the 2015 breakup — paid into the November 2018 arrangement with her own successor, then carried as a warm five-year correspondence to 2025 — so retention here is something Dan actively does, not something that happens to him."
+  - page: wiki/people/james-dee
+    type: instance-of
+    claim: "The first case ever documented inside this page's tenure gap — 56 days, ended by the corpus's most abrupt rupture — and it neither vanished like Franki nor re-roled like Danielle: it produced residual contact without a new job, which locates the floor below 56 days and shows it is a gradient rather than a line."
   - page: wiki/places/424-bedford-ave
     type: instance-of
     claim: "The rule is not confined to people: a residence closed in 2012 keeps producing, because the Menore supply line it originated reactivates six years later and runs to 2025 — the address stops being a home and becomes a permanent origin node."
@@ -17142,10 +17217,13 @@ people who have vacated it — and finds that they are all still here.
 | [[wiki/places/424-bedford-ave]] | 2012 (moved out) | Origin node of the Menore supply line, live to 2025 | **13 years** |
 | [[wiki/people/menore]] | Apr 2013 (Dan leaves NYC) | Dormant, then reactivated Nov 2018; ran to Feb 2025 | **12 years, one gap** |
 | [[wiki/places/155-virginia-ave]] | — | Container retained across the occupant swap | — |
+| [[wiki/people/james-dee]] | Jul 2025 (56 days) | Residual contact only — two unanswered writes, then one in-person confrontation | **~2 months, then thin** |
 | [[wiki/people/franki-faris]] | 2013 (5 days) | **Nothing.** No corpus, no trace, `status: closed` | **none** |
 
-Five of the six carry the rule. The sixth is the control, and it is what makes
-the rule a claim rather than a mood.
+Five of the seven carry the rule outright. One is the control, and it is what
+makes the rule a claim rather than a mood. The seventh —
+[[wiki/people/james-dee]], added 2026-08-18 — sits between them, and is the
+first case the page has ever had inside its own tenure gap.
 
 ## Why the endings are not endings
 
@@ -17327,8 +17405,61 @@ page describes, and its presence in the control is what makes the contrast legib
 
 So the rule has a floor: **retention is earned by sustained tenure, not granted
 to everyone who passes through.** Where exactly the floor sits is not
-established — five days is below it and six years is above it, and there is no
-documented case in between. That gap is real and is named again under Gaps.
+established — five days is below it and six years is above it. As of
+2026-08-18 there is now exactly one documented case in between, and it is
+handled in the re-check immediately below.
+
+> **RE-CHECKED [2026-08-18] — the tenure gap has its first occupant, and the
+> floor turns out to be a gradient rather than a line.**
+> [[wiki/people/danielle-onesi]] moved on 2026-08-18 for the James Dee ingest.
+> The change that matters here is not on her page but in what it uncovered:
+> [[wiki/people/james-dee]], a **fifty-six-day** tie running May–July 2025,
+> ended on 2025-07-11 by the most abrupt rupture in the corpus — twelve minutes
+> from Dan sending a psychological profile of James to James to *"OK, you can
+> quit MASS texting me"* ([[wiki/timeline/events/james-analysis-pdf]]).
+>
+> **Why this section owns it.** The paragraph above has said since 2026-08-01
+> that no case exists between the five-day control and the six-year members.
+> This is that case, and it arrived without anyone noticing it was one.
+>
+> **What it shows, stated against what this page expected.** The rule predicts
+> either non-persistence (below the floor) or re-roling (above it). James
+> delivers **neither cleanly.** He wrote twice after the rupture — 07-18,
+> *"I think we should talk in person"*; 07-21, a long redemptive address — and
+> both went unanswered across three weeks of documented corpus coverage. Then
+> the tie resumed anyway, in person, in a basement confrontation over a new song
+> that Dan dates by his own anchor to **August–September 2025** (inferred, not
+> dated). So the node was not deleted — the falsifier for this page — but it was
+> not given a new job either. It went to **residual contact: reactivation
+> bandwidth retained at low amplitude, with no role attached.**
+>
+> **The floor moves, and its shape changes.** The bracket was five days to six
+> years — a span of three orders of magnitude. It is now five days to
+> fifty-six, because retention of *some* kind is demonstrated at fifty-six.
+> More usefully, the floor is no longer a threshold with nothing on one side and
+> a structural tie on the other: there is a middle state, and this page had no
+> vocabulary for it. **Franki is deletion, Danielle is reassignment, James is
+> suspension without reassignment** — which is precisely the *suspend* primitive
+> the 2026-08-13 correction argued the graph implements. The best available
+> instance of that correction's central claim was sitting unwired in the corpus
+> for five days.
+>
+> **What it does not do.** It does not falsify anything. Falsifier 1 requires a
+> sustained role of more than a few months vanishing cleanly; fifty-six days is
+> not sustained by that definition and the tie did not vanish. It also does not
+> settle direction: **the reactivation was James's initiative, not Dan's**, and
+> Dan describes having *"been just ignoring his text's for the most part."* A
+> reader should not score this as Dan exercising a retention policy. It is the
+> weaker claim — that the channel stayed openable — and the page should not
+> quietly upgrade it.
+>
+> **A prediction it generates.** If suspension-without-reassignment is a real
+> third state rather than an artifact of one thin case, other short-tenure ties
+> in the corpus should show the same shape: silence that is not closure, broken
+> by the counterparty rather than by Dan. That is testable against the 193
+> non-responders named in Falsifier 3, and it is a sharper test than the one
+> already queued there — those handles should divide by tenure, not by whether
+> they were ever answered.
 
 > **CONTRADICTION [2026-08-02] — the "five days" may not be Franki's at all.**
 > An operator capture ingested on 2026-08-02
@@ -17453,9 +17584,14 @@ documents across different people.
 
 ## Gaps
 
-- **The tenure floor is undetermined.** Five days does not persist; six years
-  does. No case between those bounds has been examined, so "sustained" is doing
-  work the corpus has not yet defined.
+- **The tenure floor is undetermined, but the bracket has narrowed by three
+  orders of magnitude.** Five days does not persist; fifty-six days persists
+  *residually* ([[wiki/people/james-dee]], added 2026-08-18); six years
+  re-roles. So "sustained" is still undefined, but it is now known to be doing
+  its work somewhere inside a seven-week window rather than a six-year one —
+  and the James case says the transition is gradual, not a threshold. What is
+  now missing is a case between fifty-six days and six years, to establish
+  where *residual contact* becomes *reassignment*.
 - **Survivorship is a live threat to member selection.** The corpus preserves
   what Dan kept. A relationship that ended and vanished would leave no page, and
   its absence would look exactly like it never existed. Prediction 2 is the way
@@ -17899,7 +18035,7 @@ aliases: ["the elastic tether", "regional gravity", "leave-and-come-back"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-11
+date_modified: 2026-08-18
 date_range_start: 1892-01-01
 date_range_end:
 sources:
@@ -18101,11 +18237,17 @@ solid.
 
 ## Gaps
 
-- **The maternal line is not assessed.** The ancestry material notes the
-  Van Voorhis / Whyel / Coldren lines are *also* Fayette-anchored. If they are,
-  the pull may be regional rather than lineal and the "paternal line" framing is
-  too narrow — the rule would need restating as a property of the county, not
-  the surname. This is the most important open question on the page.
+- **The maternal line is assessed as of 2026-08-18, and the answer is mixed**
+  (see the re-check below). The Van Voorhis / Whyel / Coldren lines *are* also
+  Fayette-anchored — the majority of all 90 direct ancestors die within twenty
+  miles of Uniontown — and [[wiki/people/fran-coldren|Fran Coldren]] supplies a
+  maternal leave-and-return with a Fayette terminus. So the pull is at least
+  partly regional, and this page's parsimony argument against
+  [[wiki/mind/synthesis/ancestral-dialectic]] does not survive that. **What is
+  now open is narrower and sharper:** whether the rule describes a lineage or a
+  county. [[wiki/people/diane-moore|Diane Van Voorhis]] — thirty-five years in
+  Michigan, no attested return, no terminus yet — is the case that will
+  separate them, and nothing else in the tree does.
 - **Collaterals unchecked.** The rule is asserted over the direct line of
   descent only. The 515-individual GEDCOM contains siblings and cousins who
   have not been enumerated, and falsifier 1 most likely lives there.
@@ -18124,6 +18266,73 @@ solid.
   the county rather than distinctive. Nothing here compares the line against a
   regional base rate, and until it does, "elastic tether" is a description and
   not yet an explanation.
+
+> **RE-CHECKED [2026-08-18] — the page's most important gap is now half-closed,
+> the geographic rule survives and widens, and the parsimony argument it uses
+> against the dialectic does not survive intact.**
+>
+> **The premise that moved.** [[wiki/self/ancestry]] was rewritten on 2026-08-14
+> from a direct GEDCOM extraction — 515 individuals, **90 direct ancestors**,
+> four grandparental lines, geographic concentration tables and six migration
+> corridors. This page's top gap read: *"The maternal line is not assessed… If
+> they are [Fayette-anchored], the pull may be regional rather than lineal and
+> the 'paternal line' framing is too narrow."* The rewrite assesses it. The
+> answer is **yes, partly** — and it cuts both ways.
+>
+> **The rule widens and holds.** Of the 90 direct ancestors traced, *"the
+> majority were born, lived, and died within a twenty-mile radius of
+> Uniontown"* — across **both** sides of the tree, not the Frank line only. The
+> rule stated on this page as *the terminus is always Fayette* is not merely
+> unbroken; it is now the family-wide default rather than a paternal
+> peculiarity. The maternal line also supplies a clean confirming instance this
+> page never had: **[[wiki/people/fran-coldren|Fran Coldren]]** runs McDowell
+> Co. WV → Monongalia Co. WV → Smithfield, Fayette Co. → **Miami Beach, FL** →
+> **Uniontown**, dying there in 2018. That is a leave-and-return with a Fayette
+> terminus, executed on the maternal side, by the most geographically mobile
+> ancestor in the entire tree.
+>
+> **What it costs — and this is the real result of the re-check.** The section
+> "What this does to the psychological reading" argues against
+> [[wiki/mind/synthesis/ancestral-dialectic]] on **parsimony**: the return is
+> *"fully documented within the paternal line alone,"* so a two-line dialectic
+> is *"not required to explain it."* That inference no longer follows. It was
+> valid only while the maternal line was unassessed — the argument's force came
+> from *absence of evidence about the other side*, not from evidence of its
+> absence. Now that the maternal line is assessed and turns out to be
+> Fayette-anchored too, "the paternal line reproduces the pattern by itself"
+> remains **true** and stops being **distinctive**, which is the property the
+> parsimony argument needed. The dialectic is still unproven and still
+> testimony against residue; it is no longer *outcompeted on parsimony* by this
+> page. The CONTRADICTION block above should be read with that correction
+> attached: its second point (the fifteen-year New York layover) is untouched
+> and still stands.
+>
+> **And the rule gets its first real counterexample candidate — from the side
+> this page does not cover.** [[wiki/people/diane-moore|Rebecca Diane Van
+> Voorhis]], Dan's maternal grandmother, is described in the rewrite as *"the
+> line's one documented departure from the Pennsylvania/West Virginia
+> region"*: Farmington Hills, Michigan **1985–2010**, then Stanwood, Michigan
+> **2013–2020**. Thirty-five years out of region, no attested return, and she is
+> still living, so no terminus is on the record at all.
+>
+> She does **not** falsify the rule as written — it is stated over the paternal
+> Frank line from G2, and she is maternal and not a Frank. That is exactly why
+> she matters. She is the sharpest available test of whether this page has been
+> describing *a lineage* or *a county*, and the two readings have until now made
+> identical predictions. If the pull is regional, she is an anomaly the account
+> owes an explanation for; if it is lineal, she is simply outside the claim and
+> the concentration statistic above is doing less work than it appears to.
+> **The page cannot currently tell these apart, and should stop implying it
+> can.** Falsifier 1 is hereby widened: it asks for a line member who left and
+> died elsewhere, and the cheapest place to run it is no longer the unchecked
+> collaterals but Diane's own terminus, when there is one.
+>
+> **A cascade, found and run.** [[wiki/people/diane-moore]] still recorded
+> Farmington Hills 1985–2010 as *"the only geographic fact the corpus supplies
+> about her adult life."* The 2026-08-14 ancestry rewrite added the Stanwood
+> 2013–2020 residence four days before that page was last touched, and it never
+> reached it — so the page was declaring a scarcity the corpus had already
+> relieved. Corrected there on 2026-08-18.
 
 > **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
 > [[wiki/people/rick-frank]] gained a corrected, two-sided reading of the
@@ -21227,7 +21436,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -21390,6 +21599,15 @@ disorder he wants everywhere else, because it is his.
   mechanically difficult, independent of anyone's intentions. *(Narrowed
   2026-08-13 — see the correction below; the accurate statement is that a
   **durable** exit is unavailable, not that exit is.)*
+- **Displaced parties, and they act (added 2026-08-18).** A switch executed at
+  the resolution of days leaves the vacated partner no notice, and the December
+  2015 window shows both of them reaching into the new bond's surround inside a
+  month: [[wiki/people/emilio|Emilio]] to Annie's sister, which is what detonated
+  the December 2 family confrontation, and Zach Harshman into Dan's friendships
+  on December 23. This is the only cost on the list that is paid by third
+  parties. It is also, per the re-check below, a property of fast switches
+  rather than of Dan specifically — Annie ran the same operation in the same
+  seventy-two hours.
 - **The severance failed.** The single hardest piece of evidence on this page:
   the June 1 2026 closure held for **52 days** and then contact resumed on July
   23, running **624 messages across four days**. The wiki's own inference that
@@ -21493,6 +21711,57 @@ Everything else can be allowed to burn, because he did not pick it.
 > the week-long handoff. It now has the sharpest possible instance, and the
 > instance is **his own act** rather than his partner's. Nothing needed revising;
 > the argument gained its best evidence.
+
+> **RE-CHECKED [2026-08-18] — three premises moved; the thesis holds, gains a
+> third cost it did not have, and loses the right to call one of its bonds
+> "shallow" without saying what it means.**
+>
+> **[[wiki/mind/synthesis/bond-switch-2015]] (moved 2026-08-17) — a new cost,
+> and it is external.** The switch's fourth party is now named: the operator
+> identified **[[wiki/people/emilio|Emilio]]** as the partner displaced on
+> Annie's side. What that identification unlocks is not a name but a symmetry.
+> Both partners were displaced inside the *same seventy-two hours* — Alexis by
+> Dan, Emilio by Annie — and **both displacements detonated a relationship in
+> the following month**: Emilio contacted Annie's sister Claire, which is what
+> turned the December 2 family confrontation from bad luck into retaliation, and
+> Zach Harshman's fallout ended a friendship of Dan's on December 23.
+>
+> This page's "What it costs" list has two entries and both are *internal* —
+> no calibration on endings, and no durable exit. The Emilio material adds a
+> third of a different kind: **the slot's continuity is paid for by producing
+> displaced people, and they act.** A switch executed at the resolution of days
+> gives the vacated party no notice and no exit ramp of their own, and within a
+> month each of them had reached into the new bond's social surround. That is a
+> cost the thesis predicts in hindsight and had no instance of until now.
+>
+> **A boundary this page should not blur.** The symmetry cuts against reading
+> the cost as distinctively Dan's. Annie ran the same operation on the same
+> timetable, and hers produced the more damaging fallout. What the December 2015
+> window demonstrates is a property of **fast switches**, not of Dan's
+> architecture in particular. This page's thesis is about the *continuity* of
+> his slot over seventeen years, which is his and is unusual; the displacement
+> cost belongs to the switch mechanism, which is not. Recorded so a later pass
+> does not quietly annex it as more evidence for singularity.
+>
+> **[[wiki/people/alexis-armel]] (moved 2026-08-18) — the word "shallow" is
+> now doing unearned work.** That page gained a blind 2026 model scoring on
+> seven invented dimensions: **Alexis 7.1, Annie 1.9**, with seven of the
+> 5.2-point gap sitting in *non-exploitation* alone. It is attributed AI output,
+> not a measurement, and nothing here rests on it. But this page's own edge
+> describes the Alexis bond as *"shallow enough to show that occupancy did not
+> require the deep attachment system to be active"* — and the instrument that
+> scored the two relationships blind put the "shallow" one nearly four times
+> higher. Both can be true, and the fact that they can is the finding:
+> **depth of Dan's attachment and quality of the relationship are independent
+> axes, and this page has been using one word for both.** The thesis is
+> unaffected — occupancy is what it measures, not warmth — but "shallow" should
+> be read strictly as *the deep attachment system was not engaged*, never as
+> *the relationship was worse.* On the available evidence it was better.
+>
+> **[[wiki/people/annie-ulmer]] (moved 2026-08-18) — nothing.** One added edge
+> recording that Suz witnessed the relationship's physical conflict in writing in
+> September 2020, plus this session's own correction to a July 2026 chronology
+> row. Neither touches the chronology, the 52-day vacancy, or any falsifier here.
 
 ## Falsifiers
 
@@ -25524,7 +25793,7 @@ legal exposure for Dan — noted here for completeness.
 | 2026-07-23 | Dan answers the email; 52-day severance ends; eight hours of restored intimacy |
 | 2026-07-25 | Leviathan dashboards sent as leverage; Annie states she told her parents everything |
 | 2026-07-26 | Rape allegation, refused supply request, mutual suicidal statements, "whatever goodbye annie" (05:04) |
-| 2026-07-26 | Contact resumes 05:22; transcript published and retracted the same day; Dan messages Ellen at 06:22 — the first executed maternal-disclosure threat on record |
+| 2026-07-26 | Contact resumes 05:22; transcript published and retracted the same day; Dan messages Ellen at 06:22 — **not** the maternal-disclosure threat executed (corrected 2026-08-18) but a life-safety contact made on a belief that Coles had Annie in danger; the threat's execution rate on record stays at zero ([[wiki/people/ellen-ulmer]], [[wiki/mind/synthesis/block-unblock-loop]]) |
 | 2026-07-27 | Supply resumes: $40 in her parents' driveway, traded for a hug, 31 hours after the refusal |
 | 2026-07-28 | 770 messages; twelve-hour standoff over an email to her parents that is never sent |
 | 2026-08-02 | Annie walks to the house and apologises to Suz in person; buys $50 forty minutes later |
@@ -28165,11 +28434,28 @@ marriage.
 The April 1940 census places Emmet, Fran and the fourteen-month-old Diane
 together in Smithfield, Fayette County — Fran's arrival in the county that
 becomes the family's terminus. The same record set shows Diane living in
-**Farmington Hills, Michigan between 1985 and 2010**, which is the only
-geographic fact the corpus supplies about her adult life and which would put
-her out of state for most of Dan's childhood. Nothing in the message corpus
-contradicts or confirms it, and by 2016 she is close enough to be a live
-threat to *"come to town and start accusing everyone of 'abusing' gram."*
+**Farmington Hills, Michigan between 1985 and 2010** — and, per the GEDCOM
+extraction on [[wiki/self/ancestry]], in **Stanwood, Michigan from 2013 to
+2020**. That is thirty-five documented out-of-state years, putting her out of
+state for most of Dan's childhood. Nothing in the message corpus contradicts or
+confirms either span, and by 2016 she is close enough to be a live threat to
+*"come to town and start accusing everyone of 'abusing' gram."*
+
+> **CORRECTED [2026-08-18]:** this paragraph called Farmington Hills *"the only
+> geographic fact the corpus supplies about her adult life."* It had not been
+> the only one since 2026-08-14, when the ancestry rewrite added Stanwood
+> 2013–2020 from the same GEDCOM. The page went four days declaring a scarcity
+> the corpus had already relieved.
+>
+> The addition is load-bearing outside this page.
+> [[wiki/mind/synthesis/fayette-return]] argues that everyone in this family
+> ends up within twenty miles of Uniontown; **Diane is the tree's one documented
+> departure from the Pennsylvania/West Virginia region with no attested
+> return**, and she is still living, so no terminus exists for her at all. She
+> does not falsify that page's rule, which is stated over the paternal Frank
+> line — but she is the sharpest available test of whether the rule describes a
+> lineage or a county, and the two readings have so far made identical
+> predictions. Her eventual terminus is the datum that separates them.
 
 > **CORRECTED [2026-08-02]:** [[wiki/self/lineage/family-tree]] drew Fran's
 > descent through **George Dixon Shrum Jr.**, Dan's maternal *grandfather*.
@@ -31186,6 +31472,9 @@ infobox:
   handles: ["+1878***7198"]
   known_for: "The eight-week 2025 friendship that ended twelve minutes after Dan handed him an AI-generated psychological profile of himself"
 connections:
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: instantiates
+    claim: "This fifty-six-day tie is the first case ever documented inside that page's tenure gap, and it forced a third state into its rule: the channel was neither deleted like Franki Faris nor reassigned like Danielle, but suspended without reassignment — residual contact, reactivation bandwidth retained at low amplitude, no new role attached. It narrows the retention floor from a six-year bracket to a seven-week one, and it is the corpus's best instance of the *suspend* primitive that page argues the graph implements."
   - page: wiki/people/danielle-onesi
     type: contextualizes
     claim: "James exists in the corpus only through Danielle — she is both the channel that introduced him and the audience whose inclusion converted a private critique into a public exposure, which is the specific act that ended the friendship."
@@ -31522,6 +31811,21 @@ concerned about is CSAM."* James's Roblox remark, if it happened, happened
 out of band. The credit may be accurate; it may also be Dan attributing to
 James a topic that entered the friendship from his own side. Unresolvable
 from the record, and cheap to note.
+
+**What the second act makes this page evidence of.** The resumption is a small
+fact locally and a load-bearing one for
+[[wiki/mind/synthesis/dormancy-not-exit]], which holds that nothing leaves this
+graph. That page's rule was bracketed by a five-day tie that vanished entirely
+(Franki Faris) and six-year ties that changed job and persisted — with, in its
+own words, *no documented case in between.* This is the case in between. A
+fifty-six-day friendship ended by the corpus's most abrupt rupture did **not**
+vanish: two unanswered writes, three weeks of real corpus silence, and then a
+basement confrontation anyway. But it did not acquire a new role either, the way
+Danielle's did. It went to residual contact — the channel stayed openable and
+nothing was built on it — which gave that page a third state it had no
+vocabulary for, and narrowed its retention floor from a six-year bracket to a
+seven-week one. The direction matters and is recorded there too: **the reopening
+was James's, not Dan's.**
 
 ## The cocaine request, and Dan's silence
 
@@ -32587,7 +32891,6 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/friends_and_followers/friends.html
 synthesizes:
   - wiki/self/context-core
-synthesizes:
   - wiki/timeline/periods/2020-2021-market-era
   - wiki/people/josh-brannan
 connections:
@@ -52896,7 +53199,7 @@ title: "The Re-entanglement, July 26 – August 2 2026"
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-17
+date_modified: 2026-08-18
 date_range_start: 2026-07-26
 date_range_end: 2026-08-02
 importance: critical
@@ -52922,7 +53225,7 @@ connections:
     claim: "Procurement resumed within thirty-one hours of Dan's only documented refusal to supply, and by the end of the window it is the sole mechanism by which the two of them meet — five handoffs in six days, every in-person contact attached to one."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: evidences
-    claim: "The window splits the unexecuted-threat pattern along a line the page could not previously see: the impulsive disclosure to Annie's mother was executed within sixteen minutes, and the deliberated one, announced twelve hours in advance and negotiated over two hundred messages, was not."
+    claim: "CORRECTED 2026-08-18: this window was read as splitting the unexecuted-threat pattern into an executed impulsive disclosure and an abandoned deliberated one. The July 26 contact is not a member of the threat class — this page's own 2026-08-17 write-back establishes it as a life-safety act, not the threat executed as leverage — so the window contributes one threat datum, the July 28 abandonment, and leaves the maternal-disclosure execution rate at zero."
   - page: wiki/mind/concepts/forensic-method
     type: instantiates
     claim: "In six days the Leviathan apparatus is published as an exhibit, retracted inside five minutes on a single request from its subject, rebuilt as an access-controlled honeypot, and then shown to that same subject as a gift — the full range of what the method is for, compressed."
@@ -53108,25 +53411,41 @@ coming from ME."
 references it, and by the afternoon of July 30 the thread is about a
 petting zoo at the library.
 
-That produces a genuine sharpening of the pattern
+That bears on the pattern
 [[wiki/mind/synthesis/block-unblock-loop|the block/unblock loop]] records —
-the eighteen block threats and six-plus maternal-disclosure threats that
-are essentially never executed. Both kinds of threat appear in this window,
-forty-eight hours apart, and they resolve **opposite ways**:
+the eighteen block threats and six-plus maternal-disclosure threats that are
+never executed. Two contacts with Annie's mother appear in this window,
+forty-eight hours apart:
 
 - The July 26 disclosure was **impulsive**, made under a genuine belief that
-  Annie was in danger, and executed in sixteen minutes.
+  Annie was in danger, and made in sixteen minutes.
 - The July 28 disclosure was **deliberated**, announced twelve hours in
   advance, negotiated over, drafted, offered for pre-approval, and never
   sent.
 
-The rule the corpus had was "Dan's threats are not carried out." The rule
-this window supports is narrower and testable: **announcement is the
-mechanism of non-execution.** A stated intention converts the act into a
-move in the conversation, and once it is a move it can be traded; an
-unstated one is simply performed. The four-month lag on
-[[wiki/mind/synthesis/the-deferred-audit|the deferred audit]] is the same
-shape seen from a different angle.
+> **CORRECTED [2026-08-18]:** this section read the two as *"resolving opposite
+> ways"* and derived from the contrast a rule that **announcement is the
+> mechanism of non-execution.** Both halves are withdrawn, by this page's own
+> later evidence. The WRITTEN BACK block above — added 2026-08-17 from the
+> operator's account — establishes that July 26 was **not the threat executed as
+> leverage** but a response to a belief that Coles had Annie in danger. It is
+> therefore not a member of the threat class, and the window does not contain
+> one executed threat and one abandoned one. It contains **one** threat, the
+> July 28 one, abandoned — which leaves the maternal-disclosure execution rate
+> at **zero across seven or more instances**, a stronger version of the
+> regularity than the "sharpening" this section claimed.
+>
+> The announcement rule does not survive either, and was already superseded
+> elsewhere before this correction reached here: June 1 2026 is an **announced**
+> severance that executed and held fifty-two days, which the rule as printed
+> gets backwards. [[wiki/mind/synthesis/block-unblock-loop]] replaced it on
+> 2026-08-13 with the variable that actually separates the cases — **an
+> intention dies in the trade, and only a counterparty willing to trade can kill
+> it.** July 28 fits: twelve hours and roughly two hundred messages of
+> bargaining, and the act was traded away. The four-month lag on
+> [[wiki/mind/synthesis/the-deferred-audit|the deferred audit]] is still the
+> same shape seen from a different angle; only the mechanism named for it has
+> changed.
 
 ## What Annie is doing, on her own account
 
@@ -54575,7 +54894,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**2,559 events** across **78 years** (1796–2026), drawn from **322 pages**. Tier 1 555 · Tier 2 317 · Tier 3 1,687.
+**2,564 events** across **78 years** (1796–2026), drawn from **323 pages**. Tier 1 556 · Tier 2 317 · Tier 3 1,691.
 
 ## What counts as an event here
 
@@ -58230,6 +58549,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The self-narrated conversion, 2020-08-22
 - · **2020-08-22** — On **August 22, 2020** he wrote the family-thread message pairing his new politics with both source-lines at once: "it feels super gross knowing that dad fought to keep frank's auto employees from unionizing and that we have such kushy lives because of it," alongside discomfort that the Fran…  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The two source-lines and their trustee
+- ★ **September 2020** — All four moved by typed-edge addition only**, and the diffs are worth naming precisely so the next pass does not re-open them: `tom` and `july-2026-recontact` gained edges into the new James Dee arc; `attachment-model` gained a `parallels` edge to the handed mirror; `annie-ulmer` gained one…  
+  ↳ [[wiki/mind/synthesis/block-unblock-loop]] · RE-CHECKED [2026-08-18]
 - ★ **September 2020** — He helps with small favors (offering to fix a cousin's washing machine, cigarette runs), references his mother's health and household routines constantly, and the relationship persists in occasional pings through a long 2019–2020 gap, closing with a September 2020 "Hey I just got home from bowling…  
   ↳ [[wiki/people/jim-vrabel]] · Texture
 - ★ **September 2020** — Gaps:** Sam's full name and the "trippy Santa" Facebook identity; why the thread ends in September 2020 (no farewell, no conflict — possible switch to another source, reduced use, or a channel move); whether the February 2020 no-show had a cause on Dan's side (the corpus is silent on what he was…  
@@ -58977,6 +59298,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/307-e-76th-st]] · The debt
 - ◆ **July 2025** — Whether Dan or Annie ever paid any part of the final $10,000 balance is unknown; no further Paci correspondence past July 2025 was located.  
   ↳ [[wiki/places/307-e-76th-st]] · Gaps
+- · **July 2025** — james dee — Residual contact only — two unanswered writes, then one in-person confrontation — **~2 months, then thin  
+  ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The members against the rule
 - · **Summer 2025** — James is Danielle Onesi's live-in boyfriend, a Pittsburgh-area musician roughly Dan's own age, and — for eight weeks in the summer of 2025 — the closest thing to a new friend the corpus records Dan making in years.  
   ↳ [[wiki/people/james-dee]] · James ("Jimi Pop")
 - · **July 2025** — I need to maintain an even keel"*), defends it (*"I've been home all day, but you can't have my wine"*), and in July 2025 ranks it: **"#1 Cigarettes #2 wine #3 food."** She also self-reports the other side of it — *"I always do better sober and during the day when no one is here"* (Dec 2017); *"I…  
@@ -59986,12 +60309,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/fran-death-vigil]] · Sequence
 - · **2026-08-17** — The operator (2026-08-17) places it *"in the text logs on 26 July 2026 at around 7am"*, along with the threatening messages sent from Annie's number in the hours before.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · Gaps
+- · **2026-08-18** — The seventh — james dee, added 2026-08-18 — sits between them, and is the first case the page has ever had inside its own tenure gap.  
+  ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The members against the rule
+- · **2026-08-18** — The maternal line is assessed as of 2026-08-18, and the answer is mixed  
+  ↳ [[wiki/mind/synthesis/fayette-return]] · Gaps
+- · **2026-08-18** — Displaced parties, and they act (added 2026-08-18).** A switch executed at  
+  ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · What it costs and what it buys
 - · **2026-08-18** — The distinction that matters is persona-versus-subject, and it was recorded backwards until 2026-08-18.  
   ↳ [[wiki/people/max]] · Forensic vs Audio Persona (MAX_PRIME / Pinned Cross)
 
 ---
 
-*Generated by `bin/wiki-timeline` from 322 wiki pages. 737 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 323 wiki pages. 746 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================
@@ -62506,14 +62835,13 @@ title: "Fastly (FSLY)"
 aliases: ["FSLY", "Fastly Inc.", "$FSLY"]
 status: stable
 date_created: 2026-07-15
-date_modified: 2026-08-10
+date_modified: 2026-08-18
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/operating_manual.md
 synthesizes:
   - wiki/timeline/periods/2020-2021-market-era
-synthesizes:
   - wiki/self/context-core
 connections:
   - page: wiki/people/jerad-friedline
@@ -62617,6 +62945,39 @@ The FSLY tip is preserved verbatim in the corpus (MASTER_MESSAGES_DB_DUMP.csv):
 | 2020-09-20 20:03:28 | Received | +191****3615 | "Buy FSLY and do not touch for 2-3 years" |
 | 2020-10-06 15:37:33 | Sent | (Dan) | "dude i made $600 just from FSLY today" |
 | 2020-10-07 21:10:14 | Sent | (Dan) | "FSLC"
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/timeline/periods/2020-2021-market-era]], which moved on 2026-08-16.
+**The premise did not move in substance.** Its only change was a
+`RE-CHECKED [2026-08-16]` block recording that *it* had been checked against
+[[wiki/self/context-core]]'s seven-correction audit and reasoned from none of
+them. No date, price, position size or quote on this page is downstream of
+anything that changed, and the FSLY record here is sourced directly from the
+message corpus rather than through the period page. Nothing rederived.
+
+> **CORRECTED [2026-08-18] — this page's frontmatter was silently dropping its
+> own membership, and the wiki's gates could not see it.** The `synthesizes:`
+> key appeared **twice**: once listing
+> [[wiki/timeline/periods/2020-2021-market-era]] and again listing
+> [[wiki/self/context-core]]. YAML resolves a duplicate key by keeping the
+> last, so **every standard parser read this page as synthesizing only
+> `context-core`** — the market-era membership, which is the page's entire
+> reason for existing, was invisible outside this repository. The two lists are
+> now merged.
+>
+> This is worth more than the fix. `bin/wiki-climb`'s own frontmatter reader
+> collects *both* occurrences, which is why it correctly flagged the market-era
+> staleness above while a YAML consumer would not have known the edge existed.
+> **The repo's bespoke reader is more permissive than YAML, so the gates pass
+> while the derived artifact loses data** — and the portal at `caakehorn/home`,
+> which renders `wiki/**` into `public/wiki/`, parses this frontmatter for real.
+> A sweep found the same defect on two other pages
+> ([[wiki/people/jerad-friedline]], which was dropping `context-core`, and
+> `wiki/mind/psychosexual/developmental-origins`, which had an empty duplicate
+> `connections:`); all three are fixed, and a lint rule is queued in
+> `BACKLOG.md`.
+
 
 ========================================================================
 PAGE: wiki/work/index.md

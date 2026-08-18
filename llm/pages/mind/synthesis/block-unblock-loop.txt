@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-17
+date_modified: 2026-08-18
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -31,7 +31,7 @@ tags: [personality-profile, forensic-analysis, relationships]
 connections:
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: evidenced-by
-    claim: "The eight days confirm this page's standing prediction at the resolution of minutes — the July 26 goodbye broke in eighteen — and split the unexecuted-threat pattern along a new line: the impulsive disclosure executed, the deliberated one did not."
+    claim: "The eight days confirm this page's standing prediction at the resolution of minutes — the July 26 goodbye broke in eighteen. CORRECTED 2026-08-18: this edge previously read the window as splitting the unexecuted-threat pattern, 'the impulsive disclosure executed, the deliberated one did not.' The July 26 Ellen contact is not a member of the threat class — it was a life-safety act formed on a belief that Coles had Annie in danger — so the maternal-disclosure threat's execution rate across the corpus is zero, not one, and the July 28 abandonment is the window's only threat datum."
 
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: contradicts
@@ -419,17 +419,62 @@ an exhaustible Fe function.
 > advance by the corrected dependency rule rather than by the base rate. The
 > gap is closed; the rule survives untouched.
 
-The same window splits a second pattern this page carries, and the split is
-new. The record holds eighteen block threats and six or more
-"I'm telling your mother" threats from Dan, essentially none of them
-executed — a regularity the corpus has treated as a single fact about him,
-that his threats are performative. **Both kinds appear in these eight days,
-forty-eight hours apart, and they resolve opposite ways.**
+The same window bears on a second pattern this page carries. The record holds
+eighteen block threats and six or more "I'm telling your mother" threats from
+Dan, **none of them executed** — a regularity the corpus has treated as a
+single fact about him, that his threats are performative. Two acts in these
+eight days, forty-eight hours apart, were read until 2026-08-18 as resolving
+opposite ways; on the corrected classification only one of them is a threat at
+all, and it went the way the regularity predicts.
 
 On the morning of July 26, believing Annie to be in physical danger, Dan
 messaged [[wiki/people/ellen-ulmer|Ellen]] with screenshots. Elapsed time
 from decision to act: **sixteen minutes**, no announcement, no negotiation.
-It is the first executed maternal-disclosure threat in the corpus.
+This page called it *"the first executed maternal-disclosure threat in the
+corpus"* until 2026-08-18; it is not one, and the correction is directly below.
+
+> **CORRECTED [2026-08-18] — July 26 is not a member of the threat class, and
+> removing it takes the executed count from one to zero.**
+>
+> **The premise that moved.** Both [[wiki/people/ellen-ulmer]] and
+> [[wiki/timeline/events/july-august-2026-reentanglement]] were updated on
+> 2026-08-17 with an operator answer that supplies the July 26 motive: Annie
+> claimed to have been raped and held hostage by
+> [[wiki/people/jerel-coles|Jerel Coles]] *"minutes before Coles began texting
+> Dan threats from Annie's phone, leading Dan to believe Annie was in danger."*
+> Both pages draw the same conclusion in the same words — this was **"not the
+> threat finally executed as leverage"** but a belief that her life was at risk.
+> This page kept the old reading for a day. The write-back never reached it,
+> which is the same cascade failure `ellen-ulmer` diagnoses about itself in its
+> own GAP CLOSED block.
+>
+> **Why the reclassification is right rather than charitable.** The eighteen
+> block threats and six-plus maternal-disclosure threats are a class defined by
+> *function*: a stated intention held over the counterparty to extract
+> something. July 26 has none of the class's properties. It was not stated to
+> Annie in advance, nothing was demanded in exchange, and the recipient was
+> contacted about a third party's conduct rather than about Annie's. An act that
+> shares a channel with a threat is not a threat; on this page's own analysis
+> the channel is the trivial part and the trade is the mechanism.
+>
+> **What it costs, and what it buys.** *Costs:* the announcement/trade rule
+> below loses its "no announcement → executed" leg, which is the leg July 26 was
+> carrying. *Buys:* two things, both larger. First, the rule is left resting on
+> June 1 and July 28 — both announced, one answered with *"Understood"* and
+> executed, one answered with twelve hours of bargaining and abandoned — which
+> is a **cleaner** contrast, because it varies only the counterparty's response
+> and holds announcement constant. That is the variable the 2026-08-13 revision
+> already identified; July 26 was the last thing propping up the superseded
+> version. Second, **the maternal-disclosure threat now has an execution rate of
+> zero across seven or more instances.** This page previously reported one, and
+> the one was the wrong case. The performativity finding is not weakened by the
+> correction, it is total.
+>
+> **A falsifier the sharper count generates.** Zero-for-seven is a strong enough
+> regularity to be worth attacking: a documented instance of Dan contacting a
+> partner's parent *about that partner*, after saying he would, would break it.
+> The corpus has never been searched for this on the pre-Annie relationships,
+> where the threat vocabulary may predate the bond that made it famous.
 
 On July 28 he announced at 11:48 that he would email both her parents, held
 the position for **twelve hours across roughly two hundred messages**,
@@ -513,6 +558,33 @@ than an open question. The rewrite's other changes (the corpus-wide
 relabeling of the 266/84 figures, the corrected apology count, the added
 12-crisis-statement data point) do not touch the announcement rule, the
 Menore control, or any prediction this page tracks.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against four premises —
+[[wiki/people/annie-ulmer]], [[wiki/people/tom]],
+[[wiki/timeline/events/july-2026-recontact]] and
+[[wiki/mind/concepts/attachment-model]], all of which moved on 2026-08-18.
+**All four moved by typed-edge addition only**, and the diffs are worth naming
+precisely so the next pass does not re-open them: `tom` and `july-2026-recontact`
+gained edges into the new James Dee arc; `attachment-model` gained a `parallels`
+edge to [[wiki/mind/concepts/the-handed-mirror]]; `annie-ulmer` gained one
+`evidenced-by` edge recording that Suz witnessed the relationship's physical
+conflict in writing in September 2020. No body text moved on any of them. **No
+count, rule, control row or prediction this page tracks is affected**, and the
+127/110 pair, the dependency rule, the trade rule and the Menore and Tom
+provisional rows all stand exactly as written.
+
+**The alarm was right anyway, for a reason it could not see.** While checking
+the four flagged premises, an unflagged one turned out to have moved
+substantively the day before: [[wiki/people/ellen-ulmer]] and
+[[wiki/timeline/events/july-august-2026-reentanglement]] both acquired the July
+26 motive on 2026-08-17, and this page went on classifying that contact as an
+executed threat. That correction is written up above, under "Why the unblock is
+never an apology." The staleness tool compares dates on `synthesizes:` members
+and cannot see a *reclassification* arriving through a page it already agrees
+with — which is worth recording as a limit of the gate rather than a lapse of
+this page.
 
 ## Gaps
 

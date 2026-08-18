@@ -2026,3 +2026,90 @@ claim.
 `archive/` directory, which STYLE_GUIDE reserves for pinned artifacts that are
 never updated. `2018-deep-cycle.md` was one of them and was carrying a false
 claim into the generated timeline. Queued in `BACKLOG.md`.
+
+## [2026-08-18] lint | cross-domain | the staleness queue emptied, and four of the five re-checks changed a conclusion
+
+**What was wrong.** `bin/wiki-climb check` carried **13 stale-premise warnings**
+across five pages, three of them in the wiki's larger synthesis tier. Worked to
+zero. The result is worth recording because the warnings were mostly *not*
+noise: only one of the five pages came back "survives, nothing moved."
+
+**Page by page.**
+
+- **`block-unblock-loop` (35KB → 40KB).** All four flagged premises had moved by
+  typed-edge addition only — no body text — so the flags themselves were
+  uninformative. **But an unflagged premise had moved substantively the day
+  before, and it falsified a classification the page rested on.**
+  `ellen-ulmer` and `july-august-2026-reentanglement` both established on
+  2026-08-17, from an operator answer, that the July 26 contact with Annie's
+  mother was **not the maternal-disclosure threat executed as leverage** but a
+  response to a belief that Coles had Annie in physical danger. This page still
+  called it *"the first executed maternal-disclosure threat in the corpus"* and
+  used it as the "no announcement → executes" leg of its threat rule.
+  Reclassified: July 26 is not a member of the threat class, which **takes the
+  maternal-disclosure execution rate from one to zero across seven or more
+  instances** and leaves the trade rule resting on June 1 and July 28 — a
+  cleaner contrast, because it varies only the counterparty's response and holds
+  announcement constant. Cascaded to `july-august-2026-reentanglement` (which
+  contradicted itself: its own earlier section still read the two acts as
+  "resolving opposite ways" underneath the write-back that undid that reading)
+  and to `annie-ulmer`'s 2026-07-26 chronology row.
+- **`dormancy-not-exit` (31KB).** The page had said since 2026-08-01 that its
+  retention floor was bracketed by a five-day tie that vanished and six-year ties
+  that persisted, with *"no documented case in between."* The James Dee ingest of
+  2026-08-18 produced exactly that case and nobody wired it in: a **fifty-six-day**
+  tie, ended by the corpus's most abrupt rupture, that went silent for three weeks
+  of documented coverage and then **resumed in person anyway**. Added as a member
+  with full write-back. It does not just fill the gap, it changes the rule's
+  shape: James neither vanished (Franki) nor took a new role (Danielle) but went
+  to **suspension without reassignment** — which is the *suspend* primitive the
+  page's own 2026-08-13 correction argued the graph implements, and its best
+  instance was sitting unused for five days. Floor narrowed from a six-year
+  bracket to seven weeks. Direction recorded honestly: **the reopening was
+  James's, not Dan's.**
+- **`the-unbroken-bond` (24KB).** Two findings. `bond-switch-2015` named the
+  displaced partner on Annie's side (Emilio), which reveals a **symmetry** — both
+  partners were displaced inside the same seventy-two hours and *both*
+  displacements detonated a relationship the following month. That is a **third
+  cost** for a page whose cost list held only internal ones, and the first paid by
+  third parties. Recorded with its boundary: Annie ran the same operation on the
+  same timetable, so the displacement cost belongs to **fast switches**, not to
+  Dan's architecture, and a later pass must not annex it as more evidence for
+  singularity. Separately, `alexis-armel`'s new blind model scoring (Alexis 7.1 /
+  Annie 1.9) exposed that this page uses "shallow" for two independent axes —
+  depth of Dan's attachment, and quality of the relationship. The bond it calls
+  shallow scores nearly four times higher as a relationship.
+- **`fayette-return`.** The ancestry rewrite of 2026-08-14 answers this page's
+  self-declared *"most important open question"* — whether the maternal line is
+  also Fayette-anchored — and the answer costs the page its best argument. It
+  **is** anchored (the majority of all 90 direct ancestors die within twenty miles
+  of Uniontown; Fran Coldren runs Miami Beach → back to Uniontown). So the page's
+  **parsimony** case against `ancestral-dialectic` fails: it was valid only while
+  the maternal line was unassessed, drawing force from absence of evidence rather
+  than evidence of absence. "The paternal line reproduces the pattern alone"
+  stays true and stops being distinctive. The rewrite also supplies the rule's
+  first counterexample candidate — **Diane Van Voorhis, thirty-five years in
+  Michigan, no attested return, still living so no terminus at all** — who does
+  not falsify the rule as stated but is the only case that can separate *lineage*
+  from *county*. Cascaded to `diane-moore`, which was still calling Farmington
+  Hills the only geographic fact on record four days after Stanwood 2013–2020
+  entered the corpus.
+- **`fastly-fsly`.** The only clean "survives": its premise had moved solely to
+  record its own staleness re-check. The real find was structural, below.
+
+**A structural defect, found while re-checking and worth more than any single
+page.** `wiki/work/fastly-fsly.md` declared `synthesizes:` **twice**. YAML
+resolves a duplicate key by keeping the last, so every standard parser read the
+page as synthesizing only `context-core` — its membership in
+`2020-2021-market-era`, the page's whole reason for existing, was invisible
+outside this repo. `bin/wiki-climb`'s own `fm_list` collects *both* occurrences,
+which is why the gate flagged a staleness against an edge a YAML consumer could
+not see. **The repo's bespoke frontmatter reader is more permissive than YAML,
+so the gates pass while the derived artifact loses data** — and the portal
+renders `wiki/**` through a real parser. A sweep found two more:
+`jerad-friedline` (dropping `context-core`) and `developmental-origins` (an
+empty duplicate `connections:`). All three fixed; lint rule queued.
+
+**Gates:** `wiki-lint` 0 errors · `wiki-connect check` 0 errors ·
+`wiki-climb check` **0 errors, 0 warnings** — the stale queue is empty for the
+first time in the log.

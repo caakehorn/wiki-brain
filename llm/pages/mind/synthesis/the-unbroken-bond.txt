@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -169,6 +169,15 @@ disorder he wants everywhere else, because it is his.
   mechanically difficult, independent of anyone's intentions. *(Narrowed
   2026-08-13 — see the correction below; the accurate statement is that a
   **durable** exit is unavailable, not that exit is.)*
+- **Displaced parties, and they act (added 2026-08-18).** A switch executed at
+  the resolution of days leaves the vacated partner no notice, and the December
+  2015 window shows both of them reaching into the new bond's surround inside a
+  month: [[wiki/people/emilio|Emilio]] to Annie's sister, which is what detonated
+  the December 2 family confrontation, and Zach Harshman into Dan's friendships
+  on December 23. This is the only cost on the list that is paid by third
+  parties. It is also, per the re-check below, a property of fast switches
+  rather than of Dan specifically — Annie ran the same operation in the same
+  seventy-two hours.
 - **The severance failed.** The single hardest piece of evidence on this page:
   the June 1 2026 closure held for **52 days** and then contact resumed on July
   23, running **624 messages across four days**. The wiki's own inference that
@@ -272,6 +281,57 @@ Everything else can be allowed to burn, because he did not pick it.
 > the week-long handoff. It now has the sharpest possible instance, and the
 > instance is **his own act** rather than his partner's. Nothing needed revising;
 > the argument gained its best evidence.
+
+> **RE-CHECKED [2026-08-18] — three premises moved; the thesis holds, gains a
+> third cost it did not have, and loses the right to call one of its bonds
+> "shallow" without saying what it means.**
+>
+> **[[wiki/mind/synthesis/bond-switch-2015]] (moved 2026-08-17) — a new cost,
+> and it is external.** The switch's fourth party is now named: the operator
+> identified **[[wiki/people/emilio|Emilio]]** as the partner displaced on
+> Annie's side. What that identification unlocks is not a name but a symmetry.
+> Both partners were displaced inside the *same seventy-two hours* — Alexis by
+> Dan, Emilio by Annie — and **both displacements detonated a relationship in
+> the following month**: Emilio contacted Annie's sister Claire, which is what
+> turned the December 2 family confrontation from bad luck into retaliation, and
+> Zach Harshman's fallout ended a friendship of Dan's on December 23.
+>
+> This page's "What it costs" list has two entries and both are *internal* —
+> no calibration on endings, and no durable exit. The Emilio material adds a
+> third of a different kind: **the slot's continuity is paid for by producing
+> displaced people, and they act.** A switch executed at the resolution of days
+> gives the vacated party no notice and no exit ramp of their own, and within a
+> month each of them had reached into the new bond's social surround. That is a
+> cost the thesis predicts in hindsight and had no instance of until now.
+>
+> **A boundary this page should not blur.** The symmetry cuts against reading
+> the cost as distinctively Dan's. Annie ran the same operation on the same
+> timetable, and hers produced the more damaging fallout. What the December 2015
+> window demonstrates is a property of **fast switches**, not of Dan's
+> architecture in particular. This page's thesis is about the *continuity* of
+> his slot over seventeen years, which is his and is unusual; the displacement
+> cost belongs to the switch mechanism, which is not. Recorded so a later pass
+> does not quietly annex it as more evidence for singularity.
+>
+> **[[wiki/people/alexis-armel]] (moved 2026-08-18) — the word "shallow" is
+> now doing unearned work.** That page gained a blind 2026 model scoring on
+> seven invented dimensions: **Alexis 7.1, Annie 1.9**, with seven of the
+> 5.2-point gap sitting in *non-exploitation* alone. It is attributed AI output,
+> not a measurement, and nothing here rests on it. But this page's own edge
+> describes the Alexis bond as *"shallow enough to show that occupancy did not
+> require the deep attachment system to be active"* — and the instrument that
+> scored the two relationships blind put the "shallow" one nearly four times
+> higher. Both can be true, and the fact that they can is the finding:
+> **depth of Dan's attachment and quality of the relationship are independent
+> axes, and this page has been using one word for both.** The thesis is
+> unaffected — occupancy is what it measures, not warmth — but "shallow" should
+> be read strictly as *the deep attachment system was not engaged*, never as
+> *the relationship was worse.* On the available evidence it was better.
+>
+> **[[wiki/people/annie-ulmer]] (moved 2026-08-18) — nothing.** One added edge
+> recording that Suz witnessed the relationship's physical conflict in writing in
+> September 2020, plus this session's own correction to a July 2026 chronology
+> row. Neither touches the chronology, the 52-day vacancy, or any falsifier here.
 
 ## Falsifiers
 

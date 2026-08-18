@@ -150,6 +150,17 @@ Each of these is a specific thing the corpus or the outside world could settle.
   CLAUDE.md's "before every commit" list, unlike `wiki-digest` and
   `llm-publish`. It is derived and cheap; there is no reason it should ever
   drift.
+- **Lint duplicate frontmatter keys** (opened 2026-08-18). Three pages carried
+  the same key twice, and because YAML keeps the *last* occurrence while
+  `bin/wiki-climb`'s own reader collects *both*, the repo's gates and every
+  standard parser disagreed about those pages' contents.
+  `wiki/work/fastly-fsly.md` was silently dropping its membership in
+  `2020-2021-market-era` — the page's entire reason for existing — and
+  `wiki/people/jerad-friedline.md` was dropping `context-core`. The portal at
+  `caakehorn/home` parses this frontmatter for real, so the derived snapshot was
+  losing edges the gates said were present. All three are fixed; the check is
+  four lines of Python and belongs in `bin/wiki-lint` so the class cannot
+  recur. Worth auditing whether `fm_list`'s permissiveness hides anything else.
 - **30 pages carry `status: archived` outside an `archive/` directory**, which
   `STYLE_GUIDE.md` reserves for pinned artifacts that are never updated. The
   status is being used to mean "finished" — the documented default for which is
