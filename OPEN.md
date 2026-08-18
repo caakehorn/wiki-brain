@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 32 |
-| Open gaps | 308 |
+| Open gaps | 315 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 13 |
 
@@ -186,7 +186,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (112)
+### people (115)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -250,7 +250,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/joe-croftcheck]]** — **"The family plug" is unexplained.** Whether the relationship ran through Suz, through Rick, through the wider household, or was simply the local option, is unknown, and the answer would materially change what this node means for supply-network.
 - **[[wiki/people/joe-croftcheck]]** — **The date range of the relationship is unknown.** One transaction is documented; whether it was the first, the only, or one of many is not.
 - **[[wiki/people/joe-croftcheck]]** — **The news citations are unchecked.** Reading the three linked articles would establish whether he is named at all, which is the single cheapest thing that could be done to this page.
-- **[[wiki/people/john-felix]]** — Relationship to the household is inferred, not confirmed. "Elijah" is unidentified — a child in the household's orbit at the time. No contact appears in the corpus before or after this four-month window.
+- **[[wiki/people/john-felix]]** — Whether Felix is a distinct person from the 2016 handle's owner is now the open question — the identification rests on a first name in two different sources and has not been resolved through the contact exports. "Elijah" is unidentified — a child in the househ
 - **[[wiki/people/john-paci]]** — Whether any part of the final $10,000 balance was ever paid is unknown — no correspondence past 2025-07-25 was located, and neither July 25 message was answered. **Nothing in Paci's own voice confirms the arrangement**; his half of it lives entirely in telepho
 - **[[wiki/people/kelly-johansson]]** — Whether the scripted client session ever occurred beyond the corpus's window, and whether Annie ever took Kelly up on independent client referrals, are both undocumented — the thread simply stops in late October 2019 with ordinary scheduling still in progress.
 - **[[wiki/people/kevin-mckiernan]]** — Nothing is documented about McKiernan's life beyond this one-year employment window and its aftermath — no age, no other ventures, no account of the company's ultimate fate (it was still operating as of Katherine's December 2014 email). What specifically motiv
@@ -286,12 +286,15 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/sadie-harris]]** — **Arrival date unknown.** Nothing on disk dates either her emigration from Austria or the couple's move from New York City to Fayette County; the 1915 Bronx and 1920 Brownsville records only bracket it.
 - **[[wiki/people/sadie-harris]]** — **Nothing personal survives.** This page is entirely residue — census rows, directory listings, a burial record. No letters, photographs, anecdotes or family stories about her appear anywhere in the corpus, which is itself worth recording: the line's matriarch
 - **[[wiki/people/slim]]** — Identity entirely unresolved. The nickname and the NYC summer-2019 timing could place this in any number of social, recreational, or transactional contexts. No Facebook or other corpus cross-references found.
-- **[[wiki/people/suzanne-frank]]** — Her own perspective on the 2005 rupture is undocumented — the corpus view is entirely Dan-side.
-- **[[wiki/people/suzanne-frank]]** — Post-sale housing intentions (hers and Dan's) are unrecorded as of 2026-07.
-- **[[wiki/people/suzanne-frank]]** — **Premise re-check (2026-07-26):** 463-morgantown moved after this page was last written, gaining a probable date for the move itself — Dan's July 24, 2026 account of having moved "the entire house by myself," a week past the vacate window. Nothing on this pag
-- **[[wiki/people/suzanne-frank]]** — **Premise re-check (2026-08-02):** 463-morgantown moved again, recording that the Arnu mechanics-lien deadline elapsed on ~27 July 2026 with no documented outcome. Nothing on this page is contradicted, and her exposure is unchanged in kind — she is still the t
-- **[[wiki/people/suzanne-frank]]** — Whether a lease or POA has since been signed at 463 Morgantown is unresolved in the corpus.
-- **[[wiki/people/suzanne-frank]]** — The "wine mom" / evening-rhythm characterization is Dan's; no independent account of her relationship to alcohol is on file.
+- **[[wiki/people/suzanne-frank]]** — Each of these is answerable by one person in one paragraph.
+- **[[wiki/people/suzanne-frank]]** — **Her account of the 2005 rupture.** Still entirely Dan-side. The contemporaneous record begins in 2015, ten years after.
+- **[[wiki/people/suzanne-frank]]** — **Did the 11 August 2026 eviction hold?** Where is Dan living now, and is the 463 Morgantown arrangement still active for either of them?
+- **[[wiki/people/suzanne-frank]]** — **What happened to the $14,000?** Was any of the remaining ~$10,000 ever repaid, in cash or in kind, after July 2019?
+- **[[wiki/people/suzanne-frank]]** — **The Chapter 13 outcome.** Did the plan complete on the 337 proceeds, or convert? What did she walk away with after the IRS claims and costs?
+- **[[wiki/people/suzanne-frank]]** — **The teaching plan.** Did anything come of the August 2024 "at age 62 I'm going to start teaching" — a certification, a placement, a substitute list?
+- **[[wiki/people/suzanne-frank]]** — **Licence RS305558.** Unsourced anywhere in `raw/`; verifiable in one lookup.
+- **[[wiki/people/suzanne-frank]]** — **The Winter Park tenant.** The address is settled and the loss is now corroborated in her own words; the trafficking arrest is not. Orange County FL court records, searchable by address, are the next step.
+- **[[wiki/people/suzanne-frank]]** — **Why the thread collapsed in July 2026** from ~300 messages a month to 14, while Dan's overall message volume stayed normal.
 - **[[wiki/people/tan-calabrese]]** — Exact date of the Angelfire incident and its position relative to the Windell's trips. Relationship to Dan outside the 2016–2020 window, role in the social graph beyond childhood friend, and current status are all unresolved. No Facebook or other corpus cross-
 - **[[wiki/people/the-unnamed-man]]** — His name, age, occupation, relationship history with Annie, and how they met are all unknown. The duration of the relationship is unknown; the earliest event attributed to him is the finger injury around late May 2026, which would place its start at or before 
 - **[[wiki/people/tom-wallisch]]** — No direct contact between Dan and Tom Wallisch is documented. The nature and extent of Wallisch's attendance at Seven Springs and Roundtop during Dan's adolescence comes from a single retrospective capture and is not independently confirmed from video archives
@@ -349,7 +352,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 
-### timeline (57)
+### timeline (61)
 
 - **[[wiki/timeline/2015-annie-read-wiki-impact-analysis]]** — These are the standing wiki claims the read contradicts or sharpens. **None have been applied.**
 - **[[wiki/timeline/annie-read-notes]]** — Chaseable questions this read raised. Each is a specific thing to look for, not a topic.
@@ -364,6 +367,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/annie-read-notes]]** — 10. **What is Zach Clingan's threat?** (Dec 9, ~15:17 — *"I have to talk to you"* / *"have you lost your damn mind"* / *"keep my eyes open"* / *"he had his ex move out and you were there the next day. That makes you look like shit and he's going to treat you l
 - **[[wiki/timeline/annie-read-notes]]** — 11. **What is in the "large package"?** (Dec 11, ~11:30 — Dan signs for a "certain large package" and tells Annie there's an "even BIGGER package" for her). The Christmas present is never described; its identity is a gap.
 - **[[wiki/timeline/annie-read-notes]]** — 12. **What happens on Dec 12?** The Dec 12 window ends with Annie coming over and the promise of "the BEST night"; the rest of the day is unread.
+- **[[wiki/timeline/annie-read-notes]]** — 13. **Who is "bimel"?** (Jan 21, ~00:27 — Annie tells Dan that "bimel" is bringing her drugs "more addictive than the ones we're already dealing with." Dan asks if it's someone in Annie's family. Not in any contact list.
+- **[[wiki/timeline/annie-read-notes]]** — 14. **Who is "j"?** (Dec 29, 17:43; Jan 4, 18:22 — The needle/ice incident. Annie says "j" got her started on drugs and "the one who had to do brown." Not in any contact list.
+- **[[wiki/timeline/annie-read-notes]]** — 15. **Who is Lukyan?** (Dec 30, 01:29 — Drops off "greens" for the "stay away from coca" plan. Not in any contact list.
+- **[[wiki/timeline/annie-read-notes]]** — 16. **Who is Gina?** (Jan 1, 17:30 — Sends Annie a friend request. Annie is annoyed.
 - **[[wiki/timeline/annie-read-notes]]** — Wiki claims this read contradicts or sharpens. Not yet applied except where noted.
 - **[[wiki/timeline/annie-read-notes]]** — | Page | Standing claim | What the read shows | |---|---|---| | `mind/synthesis/bond-switch-2015` | the switch is Dan leaving Alexis for an unattached Annie | **Annie had her own partner and ended it in the same week.** The switch was mutual. **Not yet applied
 - **[[wiki/timeline/annie-read-notes]]** — 1. **What did Alexis ask Dan for on Dec 13?** Annie says "I can't believe she asked you that last night" — the content is never stated. Worth a targeted read of the Alexis export around Dec 12-13.

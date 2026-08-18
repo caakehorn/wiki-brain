@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-01
+date_modified: 2026-08-18
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -307,7 +307,7 @@ sending behaviour is the receiving behaviour.
 | Frequent PA Contact (`+17249204125`) | 4,812 | Logistical/work contact | MASTER_MESSAGES_DB_DUMP.csv |
 | [[wiki/people/tom|Tom Maison]] (`+17249987341`) | 4,160 | Primary male ally | MASTER_MESSAGES_DB_DUMP.csv |
 | Johnny (`+17243223678`) | 3,462 | Transactional dealer node | MASTER_MESSAGES_DB_DUMP.csv |
-| [[wiki/people/suzanne-frank|Suzanne Frank]] (`+17243228715`) | 2,391 | Mother | MASTER_MESSAGES_DB_DUMP.csv |
+| [[wiki/people/suzanne-frank|Suzanne Frank]] (`+17243228715` + `suzfrank@atlanticbb.net`) | **33,698** | Mother — the corpus's #2 node by person | `all_imessages_complete_dump.txt` + 2026-08-13 deep export (recount 2026-08-18; 2,391 was the MASTER_DUMP figure) |
 | [[wiki/people/jerad-friedline|Jerad Friedline]] (`+19165013615`) | 879 | Childhood friend | MASTER_MESSAGES_DB_DUMP.csv |
 
 ## Narrative
@@ -329,6 +329,36 @@ To mitigate the risks of extreme relational concentration, the subject has initi
 ## Documented Contradictions
 
 > **CONTRADICTION:** The Gini coefficient of 0.961 is derived entirely from pre-closure data. Following the closure event on June 1, 2026, the primary communication node was removed. No updated Gini coefficient has been calculated against post-closure behavioral data, such as recent Twitter activity, current work projects, or subsequent logs with Tom.
+
+> **REVISED [2026-08-18]:** The Suzanne Frank row was wrong by a factor of
+> fourteen — 2,391 against a true 33,698 — because it was taken from
+> `MASTER_MESSAGES_DB_DUMP.csv`, which `EXTRACTION_SPEC.md` flags as unreliable
+> and which is badly incomplete for this thread. The recount from
+> `all_imessages_complete_dump.txt` joined to the 2026-08-13 deep export puts her
+> **second in the entire corpus by person** — ahead of Kristin (20,009), and
+> 3.7× the next non-Annie handle inside the authoritative dump.
+>
+> **This moves the page's narrative, not just a cell.** The Narrative section
+> below states that "the secondary node by volume—Kristin, with over sixteen
+> thousand messages—represents a highly active but relatively recent thread,
+> rather than a long-term attachment anchor," and reasons from there to the
+> claim that "the subject's overall emotional stability and connection to reality
+> are routed through a **single** external input." That is now overstated on its
+> own evidence. There is a second high-volume channel, it is a decade and nine
+> months long rather than ten weeks, and it did not close on 1 June 2026. The
+> Gini figure of 0.961 — computed independently over 498 contact identifiers —
+> is unaffected, and extreme concentration remains the correct description. What
+> changes is the identity of the second-largest node and therefore the shape of
+> the redundancy question: the redundancy the page calls an engineering
+> requirement was partly already present, in a form the page did not count. See
+> [[wiki/people/suzanne-frank]].
+>
+> **Countervailing, and the reason the original reading was not simply wrong:**
+> the mother channel is not load-bearing in the same way. Its own record shows it
+> alternating between rescue and an itemised bill, and as of 11 August 2026 it
+> produced *"It's time for you to go."* Volume is not support. The correct
+> revision is that the concentration claim needs to be stated in terms of
+> *dependable* load rather than message count.
 
 > **REVISED [2026-06-23]:** The relational volume table has been updated to reflect the master CSV extraction. This correction establishes the concentration of Annie's dual handles at over forty-eight thousand messages and locks Kristin's volume to her specific handle, correcting a prior reference to Jerad. Emerging work nodes from the BFS foods transition, including [[wiki/people/anita|Anita]], Brandon, Kim, and Marty, have been introduced as potential sources of relational redundancy.
 
@@ -356,6 +386,36 @@ The topology is the constraint, not the mood. Recommendations that assume "lean 
 ## Documented contradictions
 
 > **CONTRADICTION:** The Gini coefficient of 0.961 is derived entirely from pre-closure data. Following the closure event on June 1, 2026, the primary communication node was removed. No updated Gini coefficient has been calculated against post-closure behavioral data, such as recent Twitter activity, current work projects, or subsequent logs with Tom.
+
+> **REVISED [2026-08-18]:** The Suzanne Frank row was wrong by a factor of
+> fourteen — 2,391 against a true 33,698 — because it was taken from
+> `MASTER_MESSAGES_DB_DUMP.csv`, which `EXTRACTION_SPEC.md` flags as unreliable
+> and which is badly incomplete for this thread. The recount from
+> `all_imessages_complete_dump.txt` joined to the 2026-08-13 deep export puts her
+> **second in the entire corpus by person** — ahead of Kristin (20,009), and
+> 3.7× the next non-Annie handle inside the authoritative dump.
+>
+> **This moves the page's narrative, not just a cell.** The Narrative section
+> below states that "the secondary node by volume—Kristin, with over sixteen
+> thousand messages—represents a highly active but relatively recent thread,
+> rather than a long-term attachment anchor," and reasons from there to the
+> claim that "the subject's overall emotional stability and connection to reality
+> are routed through a **single** external input." That is now overstated on its
+> own evidence. There is a second high-volume channel, it is a decade and nine
+> months long rather than ten weeks, and it did not close on 1 June 2026. The
+> Gini figure of 0.961 — computed independently over 498 contact identifiers —
+> is unaffected, and extreme concentration remains the correct description. What
+> changes is the identity of the second-largest node and therefore the shape of
+> the redundancy question: the redundancy the page calls an engineering
+> requirement was partly already present, in a form the page did not count. See
+> [[wiki/people/suzanne-frank]].
+>
+> **Countervailing, and the reason the original reading was not simply wrong:**
+> the mother channel is not load-bearing in the same way. Its own record shows it
+> alternating between rescue and an itemised bill, and as of 11 August 2026 it
+> produced *"It's time for you to go."* Volume is not support. The correct
+> revision is that the concentration claim needs to be stated in terms of
+> *dependable* load rather than message count.
 
 > **REVISED [2026-06-23]:** The relational volume table has been updated to reflect the master CSV extraction. This correction establishes the concentration of Annie's dual handles at over forty-eight thousand messages and locks Kristin's volume to her specific handle, correcting a prior reference to Jerad. Emerging work nodes from the BFS foods transition, including [[wiki/people/anita|Anita]], Brandon, Kim, and Marty, have been introduced as potential sources of relational redundancy.
 

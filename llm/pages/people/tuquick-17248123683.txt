@@ -25,6 +25,9 @@ infobox:
   first_contact: 2026-05-31
   known_for: "Tuquick is the interloper: the man [[wiki/people/annie-ulmer|Annie]] left Dan for, and the counterpart of the terminal g"
 connections:
+  - page: wiki/people/suzanne-frank
+    type: evidences
+    claim: "The reported three-hour harassment call to Dan's mother five days before the End Fight is the clearest instance of Tuquick's script being aimed outside the relationship, and the second distinct actor to reach her directly in 2026."
   - page: wiki/people/the-unnamed-man
     type: co-occurs
     claim: "Confirmed by operator statement (2026-08-09) to be the same person as this page's subject — the corpus carried them as two separate people from 2026-08-02 until this correction."

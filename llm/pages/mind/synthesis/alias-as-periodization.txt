@@ -5,7 +5,7 @@ title: "The Alias Is a Clock, Not a Style"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 date_range_start: 2013-01-01
 date_range_end:
 synthesizes:
@@ -141,3 +141,18 @@ a period ended, the alias record was not written to persuade anyone.
 > stays reversible, since every prior name remains reachable and nothing is
 > deleted. No date, figure or alias boundary on this page moves.
 
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/mind/synthesis/totality-themes]], which moved to record a correction in
+the money spine (the family's largest internal transfer ran Dan → mother, not
+mother → Dan) and to tighten the precarity ledger.
+
+**Nothing here is affected.** The alias sequence — SLOPPP → MOGZART →
+MOGGED UP → GRIPNOTIC, strictly serial, never parallel — is dated from
+release and message evidence that the correction does not touch. The one place
+the two pages meet is incidental and mildly supportive: the alias transitions
+cluster in the same years the corrected ledger now shows both mother and son at
+the floor simultaneously, which is consistent with this page's reading of alias
+turnover as period-marking rather than career strategy. Recorded as an
+observation, not a finding.

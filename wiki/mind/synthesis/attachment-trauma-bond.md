@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -188,6 +188,35 @@ through a signal severe enough that a functioning attachment would expect
 it to register. No conclusion on this page is reversed; the intermittent-
 reinforcement count is larger than previously stated, in the same
 direction the page already argues.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/people/suzanne-frank]], rewritten from primary sources on 2026-08-18,
+and against [[wiki/people/annie-ulmer]].
+
+**The conclusion survives and gains a boundary.** This page treats the
+leverage see-saw — one party solvent while the other is dependent, the
+rotation turning, the debt named out loud when it does — as a property of the
+Annie bond, with Suz's money appearing only as the substrate that financed
+Dan's side of the first rotation. The rewritten mother page shows the identical
+structure running **between Dan and his mother for a decade before Annie**, and
+still running after: mutual lending with no paper, an itemised statement
+produced in an argument, each party claiming to be the creditor, and reconciliation
+arriving as the next emergency rather than as settlement. The 3 July 2019
+exchange is the same shape as the terminal-phase money arguments, eleven months
+before the Eli affair and six years before the collapse.
+
+**What that changes:** the see-saw is not something the Annie relationship
+produced. It is the financial grammar Dan learned at home, and the bond
+analysis should read it as an inherited template that the relationship
+instantiated rather than a dynamic the relationship generated. That makes the
+prediction here stronger, not weaker — the pattern should be expected to
+recur with any future partner, and it is already visible with a friend
+([[wiki/people/tom]]) and a parent.
+
+**Unchanged:** every figure, every date, and the affective account of the bond
+itself.
 
 ## System Recalibration Requirements
 

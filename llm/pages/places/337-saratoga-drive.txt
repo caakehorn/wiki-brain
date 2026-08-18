@@ -4,7 +4,7 @@ page_type: entity
 title: "337 Saratoga Drive"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-18
+date_modified: 2026-08-18
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -53,9 +53,33 @@ where the post-[[wiki/people/annie-ulmer|Annie]] aftermath is being lived out.
 
 ## The sale
 
+**The house was not sold by choice. It was liquidated in a bankruptcy.**
+[[wiki/people/suzanne-frank|Suz]] filed Chapter 13 in October 2024 (case
+24-22285-GLT, ~$157,000 scheduled liabilities, most of it IRS priority claims
+for tax years 2018–2021). 337 Saratoga was owned free and clear and was the
+only asset capable of satisfying the plan; in August 2025 the court attached a
+"drop dead" provision under which failure to secure a binding sales agreement
+would convert the case to Chapter 7 or dismiss it. The asking price ran
+**$615,000 in May 2025** down through a $500–550k range to the eventual $465k,
+with a June 2025 contract terminated over inspection and pest reports. The
+source is an AI-generated case audit Dan pasted into the Suz thread on 30 March
+2026 — AI-secondary, evidently built from what she had told him, and
+uncontradicted by anything else in `raw/`; her own messages bracket it
+(*"I already AM bankrupt!"*, Nov 2024; *"I have to have a hearing,"* June 2026).
+
+> **REVISED [2026-08-18]:** This section previously described the sale as
+> *"contingent on the sale of their own property (19 Jeffries, ≤$229.9k) and a
+> bankruptcy approval"* — treating the bankruptcy as one condition among
+> several. It is the cause of the transaction. The "bankruptcy approval" is a
+> Motion to Sell with a 21-day creditor-objection window, and the reason the
+> price fell $150,000 in thirteen months is that the property needed work she
+> had no money to do while tax claims accrued interest daily. A bankruptcy sale
+> optimises for certainty of closing rather than price, because the alternative
+> is a trustee taking fees out of the equity first.
+
 Buyers Jennifer J. and Scott P. Delverm at **$465k**, contingent on the
-sale of their own property (19 Jeffries, ≤$229.9k) and a bankruptcy
-approval, with a **7-day post-close vacate clause**. Confirmed by Dan
+sale of their own property (19 Jeffries, ≤$229.9k) and the court approval
+above, with a **7-day post-close vacate clause**. Confirmed by Dan
 directly (2026-07-14): the sale **closed June 23, 2026** — the
 contingencies evidently cleared — with a planned out-date of July 1
 (consistent with the 7-day vacate clause) that slipped a week to an

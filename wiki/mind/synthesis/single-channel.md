@@ -6,7 +6,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -228,6 +228,45 @@ is an accounting identity at the level of the relational *slot*
 of which specific functions of an occupied slot are live at a given
 moment — the slot was never vacant in the source page's own account, so
 the identity this page states is unaffected. No finding here changes.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/mind/concepts/contact-gini]] and
+[[wiki/mind/synthesis/totality-themes]], both moved after the
+[[wiki/people/suzanne-frank]] rewrite. **This one moves the page.**
+
+The Gini page's volume table carried Dan's mother at 2,391 messages, taken from
+`MASTER_MESSAGES_DB_DUMP.csv`. The recount from the authoritative dump puts her
+at **33,698 across ten years and nine months** — second in the corpus by
+person, ahead of Kristin's 20,009.
+
+**The measured concentration survives; the "no failover" claim needs
+qualifying.** A Gini of 0.959–0.964 computed over ~496 handles is unaffected by
+one row, and one contact at 33,698 against a primary at ~66,000 does not undo
+extreme concentration. But this page's strong form — that there is *no* second
+channel and therefore nothing to fail over to — was resting on a number that was
+wrong by a factor of fourteen. (Annie's own total is 119,405 across four
+handles, so the real ratio between the two largest channels is about 3.5:1,
+not the ~28:1 the old figure implied.) There was a second channel the whole time, it
+predates the primary, it survived the 1 June 2026 closure, and the busiest single day
+that thread has ever had (27 June 2024, 224 messages) falls in 2024, not in
+the years the primary was strongest.
+
+**What the qualification is.** The right distinction is between *volume* and
+*dependability*, and the mother channel fails the second test on its own record:
+it alternates rescue with an itemised bill, it produced a $14,000 dispute that
+ran unresolved for seven years, and on 11 August 2026 it produced *"It's time
+for you to go."* So the architecture is better stated as **one channel carrying
+dependable load and a second carrying comparable volume at unusable
+reliability** — which is a sharper claim than "one channel," because it predicts
+something: failover to the second channel should be attempted after a primary
+loss and should fail on terms, not on capacity. The July–August 2026 window is
+the test case, and it went that way.
+
+**Falsifier added:** if a future primary-loss event is absorbed by the maternal
+channel without a ledger dispute following within six months, this page's
+architecture claim is wrong rather than merely qualified.
 
 ## Gaps
 

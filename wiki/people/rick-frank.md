@@ -28,6 +28,9 @@ sources:
   - raw/self/message-exports/rick-frank-imessage-pdf-export-2018-thru-2018-04.txt
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
+  - page: wiki/people/suzanne-frank
+    type: mirrors
+    claim: "Married 31 August 1985 and separated after the November 2005 rupture, the two parents run inverted versions of one posture: Rick withdraws to low-frequency contact, Suz remains permanently available and itemises the cost — which is why the corpus holds ~2,000 messages with him and 33,698 with her."
   - page: wiki/legal/2015-possession-arrest
     type: co-occurs
     claim: "The stop happened within sight of his store, and the hearing that closed the case produced the sharpest snapshot of the post-2005 family geometry — Rick assuming he would be unwelcome while Suz played the connected parent."

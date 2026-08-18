@@ -587,7 +587,9 @@ def cmd_generate(_args):
     # have. The provenance of every entry is the ↳ link on the entry itself.
     out.append("sources:")
     out.append("  - generated from every page under the wiki by bin/wiki-timeline")
-    out.append("tags: [timeline, master, chronology, generated]")
+    # no tags: the closed topical set in STYLE_GUIDE.md does not describe a
+    # generated navigation artifact, and tags: is optional (bin/wiki-lint errors
+    # on anything outside the set).
     out.append("connections:")
     out.append("  - page: wiki/timeline/index")
     out.append("    type: component-of")

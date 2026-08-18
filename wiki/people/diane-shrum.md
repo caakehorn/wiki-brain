@@ -35,8 +35,8 @@ connections:
     type: contextualizes
     claim: "She is almost certainly the unnamed 'grandmother' Dan asked the estate attorney about in August 2020 as a possible objector to his $144,069.31 distribution — a fear with a documented basis, since she had already moved formally against him two years earlier."
   - page: wiki/people/suzanne-frank
-    type: component-of
-    claim: "Diane is Suz's mother, which places the vigil's central conflict inside one maternal line: the daughter enforcing institutional distance while the granddaughter and great-great-grandson held the house."
+    type: causes
+    claim: "Diane's rejection of her daughter is the documented cause of Suz's stated organizing principle as a parent — 'I would never lose contact with either of my children the way it happened with your Dad and me and our parents' — and it places the vigil's central conflict inside one maternal line: the daughter enforcing institutional distance from Michigan while the granddaughter held the house."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The exclusion letters are the family-scale instance of the template: authority exercised through paperwork and monitors rather than presence, by people who — on Dan's account and Vicki's — did not visit Fran once."

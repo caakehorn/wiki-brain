@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -480,3 +480,19 @@ comparison, or the Arnu prediction above — and are noted here only because
 > per-contact CSVs and the attribution of one February 2025 row. This page
 > reasons from that page's *audit-timing* finding, not from its sender
 > attributions, and cites no row from February 2025. Closed unaffected.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/mind/synthesis/single-channel]], which was revised after a fourteen-fold
+recount of the maternal message channel (2,391 → 33,698) qualified its
+"no failover" claim into "one dependable channel plus one of comparable volume
+at unusable reliability."
+
+**The provenance rule here survives unchanged** — "maximum investment in the
+chosen, maximum indifference to the imposed" does not depend on how many
+channels exist. If anything the recount is a clean instance of it: the maternal
+channel is the largest *imposed* relationship in the corpus, it was never
+audited, and the wiki's own count of it was wrong by an order of magnitude for
+two months without anyone noticing. **A deferred audit of a relationship
+produced a deferred audit of the data about it.**
