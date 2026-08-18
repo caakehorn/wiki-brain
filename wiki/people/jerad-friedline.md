@@ -13,7 +13,6 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/friends_and_followers/friends.html
 synthesizes:
   - wiki/self/context-core
-synthesizes:
   - wiki/timeline/periods/2020-2021-market-era
   - wiki/people/josh-brannan
 connections:

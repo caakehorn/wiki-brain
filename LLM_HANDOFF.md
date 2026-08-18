@@ -4,6 +4,114 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-18] - Session: two ways a correction fails silently — announced but never applied, and applied but never parsed
+
+* **Model:** Claude Code (Opus 5) · **Branch:** `claude/wiki-entries-cleanup-0rjmxm`
+* **Trigger:** Operator: *"I want to take a look at the biggest entries on the wiki and do some corrective passes over them; there's a lot of outdated info in some of the bigger entries."*
+* **Method:** size census first, then `bin/wiki-climb check`'s stale queue worked to zero, plus a grep audit of the corpus's recently-retracted strings.
+
+**Read this first if you are picking up the thread.** The three literal biggest
+pages (`master-timeline` 499KB, `annie-record` 176KB, `annie-ulmer` 119KB) were
+all current. The outdated material was one tier down, in the 24–40KB synthesis
+pages, and it was invisible to every gate. Two distinct failure modes, both
+worth knowing:
+
+**1. A correction block is not a correction.** The `suzanne-frank` rewrite
+retracted the "~$750/week borrowed from Suz" figure — wrong rate (one accusation
+about one week, generalised by `operating_manual.md`) *and* wrong direction (the
+real flow is ~$14,000 **from Dan to her**, Aug–Oct 2018). Five pages still
+carried it. Two of them — `463-morgantown` and `alexander-jackson` — held a
+`CORRECTED`/`RE-CHECKED` block **quoting a sentence they had never actually
+changed**, so they read as corrected to anyone scanning for a flag while the
+retracted claim was still the takeaway. `supply-network` had no correction at
+all. `estate-money-spine` had one, but its own chain table still carried the
+retracted row — and that row is what `bin/wiki-timeline` scrapes into
+`master-timeline`. `2018-deep-cycle` escaped every earlier sweep by abbreviating
+`$750/wk`. **If you retract a figure, grep the figure, including its
+abbreviations.** A `RETRACTED.md` ledger + grep gate is queued in `BACKLOG.md`.
+
+**2. The gates and YAML disagree about what the frontmatter says.**
+`wiki/work/fastly-fsly.md` declared `synthesizes:` twice. YAML keeps the last
+occurrence; `bin/wiki-climb`'s `fm_list` collects both. So the gate correctly
+flagged a staleness against `2020-2021-market-era` while **every standard parser
+read the page as not synthesizing it at all** — and the portal renders `wiki/**`
+through a real parser, so the derived snapshot was losing edges the gates
+reported as present. Two more found (`jerad-friedline` dropping `context-core`,
+`developmental-origins` an empty duplicate `connections:`). All fixed; a
+four-line lint rule is queued.
+
+**The stale queue is empty for the first time in the log** — 13 warnings → 0.
+Four of the five re-checks changed a conclusion rather than confirming one, so
+do not treat these warnings as bookkeeping:
+
+* **`block-unblock-loop`** — all four *flagged* premises had moved by typed-edge
+  addition only, but an **unflagged** one had moved substantively the day before
+  and falsified a classification. July 26's contact with Annie's mother is not
+  the maternal-disclosure threat executed; it was a life-safety act
+  (`ellen-ulmer`, `july-august-2026-reentanglement`, both 2026-08-17). **The
+  threat's execution rate is zero, not one.** The trade rule now rests on June 1
+  vs July 28, which is a cleaner contrast. Cascaded to the reentanglement page
+  (which was contradicting itself) and `annie-ulmer`'s chronology.
+* **`dormancy-not-exit`** — gains `james-dee` as a member. The page had said for
+  seventeen days that no case existed between its five-day control and its
+  six-year members; the James ingest produced a **56-day** one and nobody wired
+  it in. It forced a third state into the rule — **suspension without
+  reassignment**, neither deletion nor re-roling — which is the page's own
+  *suspend* primitive finally instantiated. Floor narrowed from six years to
+  seven weeks.
+* **`the-unbroken-bond`** — a third cost, and the first paid by third parties:
+  both partners displaced in the same 72 hours in Nov 2015, both displacements
+  detonating a relationship within a month. Bounded deliberately — Annie ran the
+  same operation, so this belongs to **fast switches**, not to Dan. Do not annex
+  it as evidence for singularity.
+* **`fayette-return`** — its self-declared most important gap is answered and the
+  answer **costs it its best argument**. The maternal line *is* Fayette-anchored,
+  so the parsimony case against `ancestral-dialectic` fails (it drew force from
+  absence of evidence). New counterexample candidate: **Diane Van Voorhis**, 35
+  years in Michigan, no attested return, still living — the only case that can
+  separate *lineage* from *county*.
+* **`fastly-fsly`** — the only clean survive.
+
+**What I did not do.** No new sources ingested; this was entirely a `wiki/`-level
+corrective pass. `BACKLOG.md` gained four items, of which the two cheapest and
+highest-value are the duplicate-key lint rule and adding
+`bin/wiki-timeline generate` to CLAUDE.md's pre-commit block — `master-timeline`
+was found **484 events and 7 pages stale** because it is the one derived artifact
+not in that list. Also flagged, unfixed: **30 pages carry `status: archived`
+outside an `archive/` directory**, which `STYLE_GUIDE.md` reserves for pinned
+never-updated artifacts. That status is being used to mean "finished" (the
+documented default for which is `stable`), and it makes those pages look exempt
+from correction — `2018-deep-cycle` was one of them and was feeding a false claim
+into the generated timeline.
+
+**Next.** The 240 `wiki-connect` warnings (bare `## Related` footers awaiting
+conversion to typed Connections) are the largest untouched hygiene block and were
+not part of this pass.
+
+### [2026-08-18] - Session: a cited source had been read to 11% of its length, and the other 89% contained a person the wiki had filed twice under two wrong names
+
+* **Model:** Claude Code (Opus 5) · **Branch:** `claude/new-raw-source-entries-2uuxjx`
+* **Trigger:** Operator: *"Let's cover some new ground in the raw sources and try to create some new, muscular entries."*
+* **Method:** coverage audit of `raw/` against wiki citations, then exhaustive reads of the least-mined material, then the pending CLOSE.
+
+**Findings in order of value.**
+
+1. **The wiki carried one man as two people, and named one of them after a chatbot.** `wiki/people/max-danielle-bf` (created 2026-06-23) took its title from the first line of `Gemini-_21.md` — *"**Max** I have a gift for you… a 20 or 25 minute audio recording of… my first girlfriend Danielle's current boyfriend"* — reading a **vocative addressed to the MAX AI persona** as the subject's name. The model signs its own reply "MAX'S ANALYSIS." The boyfriend is never named in that source. `wiki/people/max` carried the error inverted, asserting a real person distinct from the persona; `danielle-onesi` had the identification right the whole time and nothing acted on it. Merged into **`wiki/people/james-dee`**, both other pages corrected in place.
+2. **The wiki carried a second person as two people, in the Fran material.** `wiki/places/155-virginia-ave`, `fran-death-vigil` and `master-timeline` record the 2018-03-29 eviction notice as served by **"Dian V. Moore"**, and the vigil page listed *"Dian V. Moore's role/relation to the estate"* as an open gap — while three other pages discussed the same woman as **"Diane Shrum."** The operator's two-word answer (*"Dian and Dave"*) plus the message dump settled it. Page renamed `diane-shrum` → **`diane-moore`**, 27 references repointed, new page **`dave-moore`**.
+3. **`forensic-method` dated the method's first outward deployment a year late.** It had July 2026 (the Leviathan dashboards). The James Analysis PDF is **2025-07-11** — same corpus-in / dossier-out shape, delivered to its subject, but friendly, which makes it the better control. Edge narrowed to "first as leverage"; correction written into the body. Downstream `read-receipt-forensics` re-checked, conclusion held.
+4. **Annie never received one of the 2018 exclusion letters.** Both `diane-shrum` and `fran-death-vigil` said Dan and Annie *"each received"* one. Dan, 2018-04-03: *"lol also if they are writing such professional correspondence why wouldn't **Annie get her own letter**."* Also re-dated: the operative instrument is the terminal week (notice 03-29, letter 04-03, death 04-04), not "well before" the admission. Contradiction with the 2026 capture **held open, not resolved**.
+5. **The 2020 estate-contest fear was answered two months before Dan asked the attorney.** 2020-06-22, Dan: *"does a court case mean diane challenged it"* → Suz: *"No… She isn't going to do that."* Written into `estate-money-spine`, along with the Florida condo that appears to have left the estate outside the distribution.
+6. **New concept page `the-handed-mirror`** — the forensic method's terminal step is delivery to the subject, with a witness copied, framed as a favor. Carries a prediction and a falsifier; the July 2026 dashboards are its hostile instance.
+7. **`lyrics-as-timbre` is no longer single-sourced** — corroborated by a 2025 in-the-wild statement to a hostile third party, a year before the capture it rested on.
+8. **Gates:** wiki-lint **0 errors** · wiki-connect **0 errors** · wiki-climb **0 errors, 13 staleness warnings** (was 9; this pass added 6 and cleared 2 with real RE-CHECKED blocks).
+* **RESUME POINT:**
+  1. **Staleness is 13.** Four of the new ones are on `block-unblock-loop` and `dormancy-not-exit`, both of which were *already* stale on other premises before this pass — so they cannot be cleared without re-checking those older premises too. Do not bump their dates piecemeal.
+  2. **`raw/self/chats/Analyzing manipulation and ethical intent in data.md` (3,548 lines) is still ~70% unread.** Lines 403–3183 are a raw Alexis message paste; the spring-2026 report sections after it were mined only for the girlfriend score (Annie 1.9 / Alexis 7.1, now on `alexis-armel`). The April 2026 video/contact-sheet body-language attempts at lines 3411–3548 are entirely unmined and are the forensic method reaching a new medium.
+  3. **`raw/self/chats/Drawer shortage dispute with assistant manager (1).md` (2,102 lines)** — cited by `forensic-method` and `bfs-foods`; depth of that read not audited this session.
+  4. **Three `raw/` collections are still empty placeholders**: `raw/legal/463-morgantown`, `raw/tech/grok-build`, `raw/tech/max-framework` are `.gitkeep` only, while wiki pages exist for all three subjects.
+  5. Corrections pass over the Dec 1-31 Annie entries, still not started. Continue the read at `bin/annie-corpus read 2016-01-01`.
+* **Handoff Note:** the coverage audit that found all of this is one line — for each `raw/<domain>/<collection>`, count files and count wiki pages citing the path. Two of the three biggest finds came from directories with a **non-zero** citation count, so "cited" is not "read." Re-run it before assuming a source is done.
+
 ### [2026-08-18] - Session: the mother page was rebuilt from primary sources, and it moved the money spine
 
 * **Model:** Claude Code (Opus 5) · **Branch:** `claude/rewrite-suzanne-frank`

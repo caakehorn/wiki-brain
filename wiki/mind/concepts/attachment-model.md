@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-11
+date_modified: 2026-08-18
 sources:
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -72,6 +72,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "No counter-rule mechanism for closing a bond absent an explicit severance signal is 'The Irreversibility Firewall' implemented as an actual data structure: without a delete operation, the only way out is force applied from outside the system, which is exactly how the Annie bond in fact closed."
+  - page: wiki/mind/concepts/the-handed-mirror
+    type: parallels
+    claim: "The confession trap is the inbound form of the same refusal to let an evidentiary case go unwitnessed: needing a verdict from the other person, versus serving one on them."
 ---
 
 
