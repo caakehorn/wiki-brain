@@ -173,6 +173,9 @@ connections:
   - page: wiki/people/nick-mattie
     type: evidenced-by
     claim: "The May 2, 2017 Nick Mattie handoff — product left with Annie after she messaged him on Facebook — dates her supply-logistics facilitation a full year before the documented 2018–19 Johnny-era role."
+  - page: wiki/people/ally-lubin
+    type: mirrors
+    claim: "Ally is the negative image of the Annie bond — the woman never met, the attachment that costs money and produces nothing, activating precisely when the woman in the room is in crisis; where Annie is the primary channel that consumes everything, Ally is the overflow that absorbs the overflow."
   - page: wiki/mind/concepts/attachment-model
     type: evidences
     claim: "The ten-year Annie corpus is the attachment model's quantitative base: 0 explicit severance signals across the 41,073 received messages of the dual-handle export — 81.6% of her in-window inbound, so the absence is established for that export and not yet for her messages generally — plus the 187-of-191 affection-to-request pairing, 24 alibis, 13 unchanged-behavior apologies."
