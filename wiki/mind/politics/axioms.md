@@ -5,7 +5,7 @@ knowledge: earned
 title: "The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox'"
 status: active
 date_created: 2026-08-10
-date_modified: 2026-08-11
+date_modified: 2026-08-18
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -187,3 +187,14 @@ counter-instance is future work.
 > existing 2005 family rupture — an addition, not a replacement or
 > retraction of the 2005 claim this page draws on. This page's "psychological
 > disposition inherited from a 2005 family rupture" framing is unaffected.
+
+> **RE-CHECKED [2026-08-18] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/vertical-authority-skepticism]] moved on 2026-08-18 to
+> take a typed edge from the new [[wiki/people/dave-moore]] page — a man with no
+> blood tie and no caregiving role speaking for the estate's heir to hospital
+> social workers, and drafting its correspondence. That is an additional
+> instance of the template, at family scale, not a change to what the template
+> claims or where it originates. This page's inheritance argument is unaffected,
+> and if anything the new instance strengthens the "authority exercised through
+> paperwork by people who are not present" clause it leans on.
+

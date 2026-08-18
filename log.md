@@ -1858,3 +1858,116 @@ The same answer supplies a mechanism, not just a correction. Betty came into Dan
 **The tool change this pass forced.** All six answers were staged from the portal, and `operator-log.md` — added yesterday — logs only what the CLI writes. It would have been silently wrong in the one direction that matters: understating what is waiting. The log is now **reconciled from the pages themselves** before `pending` and before `clear`, so an answer staged anywhere is caught, and a portal-staged answer that is cleared without ever having been logged still leaves a row. New `bin/wiki-gaps log` prints the ledger and reconciles as a side effect.
 
 Gates: wiki-lint **1 error** (`master-timeline.md` invalid tags, pre-existing and generated) · wiki-connect check **0 errors** · wiki-climb check **0 errors, 16 staleness warnings** — one more than before, `milo` having moved under a page that reasons from it, and not cleared here.
+
+## [2026-08-18] ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
+
+**A cited source had been read to 11% of its length, and the other 89% contained a whole person.**
+`rock-irrelevance-thesis` (created 2026-06-22) cites this 2,688-line ChatGPT log
+and mined its first ~140 lines. The remainder is the complete arc of a
+fifty-six-day 2025 friendship with Danielle Onesi's boyfriend, and it corrects
+two load-bearing claims elsewhere in the wiki.
+
+- **The wiki held two pages for one man, one of them named after a chatbot.**
+  `wiki/people/max-danielle-bf` (2026-06-23) took its title from the first line
+  of `Gemini-_21.md` — *"Max I have a gift for you… a 20 or 25 minute audio
+  recording of… my first girlfriend Danielle's current boyfriend"* — reading a
+  vocative addressed to the MAX persona as the subject's name. The model signs
+  its own reply "MAX'S ANALYSIS"; the boyfriend is never named in that source.
+  `wiki/people/max` carried the error inverted, asserting a real person distinct
+  from the persona, while `danielle-onesi` had the identification right the
+  whole time and nothing acted on it. Merged into `wiki/people/james-dee`; both
+  pages corrected in place with the old claims visible.
+- **`forensic-method`'s "first outward deployment" was off by a year.** The
+  Leviathan dashboards (2026-07-25) are the first deployment *as leverage*. The
+  first outward deployment at a named private person is the James Analysis PDF,
+  **2025-07-11**. Edge narrowed, correction written into the body.
+- **The valence of an analysis is not what people object to.** Dan removed the
+  critical material before sending, disclosed the copy to the subject's partner
+  voluntarily, and pre-paid with two unflattering analyses of himself. Twelve
+  minutes from PDF to "OK, you can quit MASS texting me"; the two objecting
+  tapbacks land three seconds apart, before any words. New concept page
+  `the-handed-mirror` generalises it with a prediction and a falsifier.
+- **`lyrics-as-timbre` is no longer single-sourced.** Dan states the same
+  lyric-blindness to a hostile third party in a live 2025 argument, a year
+  before the 2026-07-14 capture the page rests on. Gemini's read of James
+  independently records him hearing vocals the same way — which is what they
+  fought about.
+- **The Ramone claim is impossible, not merely inflated.** James told Dan that
+  Johnny Ramone and Glenn Danzig had recruited him and he declined. Johnny
+  Ramone died 2004-09-15; James, 36 in 2025, was about fifteen. The model graded
+  it "90% exaggerating" and stopped.
+- **The pitch and the catalog disagree.** Seven audio attachments recoverable
+  from the message dump: six are covers or mashups (Zeppelin, Manson, HIM, NIN,
+  the Drifters) under an artistic thesis of refusing to be derivative, and the
+  project is named after a living Pennsylvania musician.
+- **First-ever guilt, dated.** *"the stuff with Annie has made me feel guilty
+  for the first time in my life about how i treated danielle"* — 2009 breakup
+  specifics (Valentine's Day, Kelly Mulroy, Alex Gaskarth) written back to
+  `danielle-onesi`.
+- **Gates:** wiki-lint 0 errors · wiki-connect 0 errors · wiki-climb 0 errors,
+  9 staleness warnings (none introduced here).
+
+## [2026-08-18] close | people | wiki/people/diane-moore — a two-word operator answer merged two entities and re-dated the exclusion
+
+The operator answered the standing gap on the grandmother page with **"Dian and
+Dave."** Treated as T0 testimony and checked against the message dump, it held
+and then kept going.
+
+- **Her married surname is Moore, and the wiki already had it twice.** The page
+  titled her "Diane Shrum" and admitted the surname was inferred *"rather than
+  a record naming her that way."* The corpus names her on 2018-04-01: **"diane
+  moore hasn't been able to be reached by anyone. dave is 'speaking on her
+  behalf'"** and **"the social workers are talking to dave moore."** George
+  Shrum Jr. is the first husband and Suz's father. Page renamed
+  `diane-shrum` → `diane-moore`, 27 references repointed.
+- **"Dian V. Moore" was her.** `155-virginia-ave`, `fran-death-vigil` and
+  `master-timeline` all record the 2018-03-29 eviction notice as served by
+  "Dian V. Moore," and the vigil page listed *"Dian V. Moore's role/relation to
+  the estate"* as an open gap while three other pages discussed the same woman
+  under another name. Merged.
+- **Annie never received a letter.** Both this page and `fran-death-vigil`
+  stated Dan and Annie *"each received"* one. Dan, 2018-04-03: *"lol also if
+  they are writing such professional correspondence why wouldn't Annie get her
+  own letter."* Corrected on both.
+- **The date moves into the terminal week.** The 2026 capture has the letters
+  sent "well before" the final admission; the contemporaneous record has the
+  eviction notice served 03-29 and the letter read, forwarded and lawyered on
+  04-03 — the day before Fran died. Held as a CONTRADICTION rather than
+  resolved, since an earlier visiting-rules letter may also exist.
+- **The author, per its recipient, is Dave.** *"i think dave wrote it — read the
+  last paragraph. 'any violation of the rules will be considered
+  trespassing'."* New page `wiki/people/dave-moore`.
+- **The 2020 contest question is settled and it was settled before he asked.**
+  Two months before Dan asked the estate attorney whether his grandmother would
+  object, Suz answered it: 2020-06-22, Dan *"does a court case mean diane
+  challenged it"* → Suz *"No… She isn't going to do that."* The August 17 court
+  date was the distribution proceeding. No objection in five further years.
+- **One asset appears to have left the estate outside the distribution.** Fran's
+  Florida condo: *"she went to florida to take over her condo down there and
+  sell it and keep the profits herself"* (2018-04-22), and Suz a year later:
+  *"if she wants a cut, she will have to give me a cut of what she got for
+  selling Florida."* Written into `estate-money-spine` with the caveat that no
+  instrument, price or date exists in the corpus.
+- **The earlier fear was a forecast.** `fran-death-vigil` explained an eight-hour
+  delay in treating a fallen 97-year-old by Dan's fear of "grandparents who
+  already hated" him, named there as Diane and George. They are Diane and Dave —
+  the same couple that then served the notice, wrote the letter, took the
+  hospital's calls and sold the condo.
+- **Gates:** wiki-lint 0 errors · wiki-connect 0 errors · wiki-climb 0 errors,
+  9 staleness warnings (unchanged). `bin/wiki-gaps pending` now empty.
+
+## [2026-08-18] lint | mind | the girlfriend score, and two honest re-checks
+
+- **`alexis-armel` gains an independent scoring it never had.** A spring-2026
+  Claude session, asked to score both women on its own invented metrics, put
+  **Annie at 1.9 / 10 and Alexis at 7.1**, and located seven of the 5.2-point
+  gap in **non-exploitation alone** (1.5 against 8.5) — the same axis this wiki
+  separates them on, reached from different evidence. Recorded as attributed AI
+  output per STYLE_GUIDE rule 4, with the caveat that the instrument was reading
+  a record Dan assembled and is therefore not independent of its subject.
+- **Two staleness warnings cleared the right way.** `axioms` and
+  `read-receipt-forensics` were each stale on exactly one premise, and that
+  premise was one this session moved; both re-read, both conclusions held, both
+  recorded as `RE-CHECKED` blocks. The remaining new warnings sit on pages that
+  were already stale on *other* premises, and were deliberately left standing
+  rather than cleared by a date bump.

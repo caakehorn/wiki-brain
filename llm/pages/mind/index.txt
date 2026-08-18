@@ -3,7 +3,7 @@ domain: mind
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-09
+date_modified: 2026-08-18
 sources: []
 related: []
 ---
@@ -35,6 +35,7 @@ authoritative factual spine remains [[wiki/self/context-core]].
 ## concepts — mechanisms
 
 - [[wiki/mind/concepts/forensic-method]] — the default cognitive OS: procedural tells, anomaly clusters, raw-over-mediated, lossless retention.
+- [[wiki/mind/concepts/the-handed-mirror]] — the method's terminal step: the finished profile is delivered to its subject, with a witness copied, framed as a favor.
 - [[wiki/mind/concepts/dans-law]] — the deconfounding heuristic: real signal, parasitic noise, irreducible element.
 - [[wiki/mind/concepts/exocortex]] — the bootloaders and master prompts (CATO, MAX, operating manual, master forensic prompt) that externalize cognition into AI.
 - [[wiki/mind/concepts/node-locking]] — the memory-persistence protocol: named "Node X:" locks, DATA_LOGGED, and selective redaction (the Eli purge) for cross-model export.

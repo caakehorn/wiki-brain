@@ -24,9 +24,9 @@ connections:
   - page: wiki/people/fred-adams
     type: contains
     claim: "Adams is the spine's institutional valve: the Ira-estate capital that eventually reaches Dan as the 2020 distribution sat under one man's discretion for decades, which is why the family's largest asset never behaved like an inheritance in waiting."
-  - page: wiki/people/diane-shrum
+  - page: wiki/people/diane-moore
     type: contextualizes
-    claim: "The unnamed grandmother Dan feared would contest his 2020 distribution is almost certainly Fran's only child, who had already moved formally against his proximity to Fran two years earlier — the fear had a documented basis."
+    claim: "The grandmother Dan feared would contest his 2020 distribution is Fran's only child, who had already moved formally against him two years earlier; the fear had a documented basis and was answered in the negative by Suz two months before he asked the attorney."
   - page: wiki/people/lewis-strosnider
     type: co-occurs
     claim: "Dan's July 2018 message anticipating a 'sizeable check' from the estate 'in a few months' shows the distribution was expected far earlier than the Sept 1, 2020 date it actually landed on."
@@ -105,6 +105,41 @@ traces to a coal baron. The
 written the day after its author's own largest capital arrival was
 signed into effect — the spine's single most legible irony, and a dated
 one.
+
+### The contest that never came, and the asset that left before it
+
+Two corrections from the message corpus, both dated, both narrowing the
+spine's edges.
+
+**The objector had a name and did not object.** Dan's August 2020 question to
+the estate attorney — what were the odds his grandmother would contest the
+distribution — has been carried here as an open identity and an open outcome.
+The grandmother is [[wiki/people/diane-moore|Diane]], Fran's only child and
+the estate's direct heir. The outcome was settled two months earlier, on
+2020-06-22, when Suz told him the estate had an **August 17 court date** and
+Dan's first reaction was the same fear:
+
+> Dan: *"does a court case mean diane challenged it"*
+> Suz: *"No"* · *"This is when that would happen. She isn't going to do that.
+> Rod talks to her. See what he says"*
+
+The court date was the distribution proceeding itself. The order signed four
+days after it, on August 21, and no objection appears anywhere in the corpus
+through 2025. The same thread dates the **$10,000 advance** to the hour — Dan
+asks Suz to *"pick up my check from rod this afternoon"* on 2020-06-23 —
+confirming the row in the table below from a second, independent side.
+
+**One asset appears to have left the estate outside the distribution.** Fran
+owned a Florida condominium. Dan's account, three weeks after the death:
+*"she didn't come in to see gram at all before she died, but she went to
+florida to take over her condo down there and sell it and keep the profits
+herself."* Suz treats the sale as completed and unshared a year later, setting
+it against her own labor on the remaining estate: *"fucking Dian, if she wants
+a cut, she will have to give me a cut of what she got for selling Florida."*
+No price, date or instrument is in the corpus. If the account is accurate, the
+spine's headline figure of $144,069.31 measures what came through the court
+and not what the estate held — the condo moved through the heir who did not
+attend, and it moved first.
 
 ## The chain, event by event
 

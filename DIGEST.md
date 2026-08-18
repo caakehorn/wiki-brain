@@ -13,21 +13,21 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 462 |
-| Pages touched in the last 14 days | 106 |
+| Pages | 465 |
+| Pages touched in the last 14 days | 124 |
 | Pages reasoning from other pages (`synthesizes:`) | 27 |
-| Live contradictions | 32 |
-| Open gaps | 315 |
+| Live contradictions | 33 |
+| Open gaps | 335 |
 | Standing predictions | 13 |
 
 ## By domain
 
 | Domain | Pages |
 |---|---|
-| people | 162 |
+| people | 163 |
 | interests | 143 |
-| mind | 59 |
-| timeline | 36 |
+| mind | 60 |
+| timeline | 37 |
 | self | 32 |
 | work | 15 |
 | places | 8 |
@@ -38,15 +38,18 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
-| stable | 184 |
-| active | 136 |
+| stable | 188 |
+| active | 135 |
 | closed | 98 |
 | archived | 31 |
 | stub | 13 |
 
 ## The last few days
 
-**2026-08-18** — 20 pages
+**2026-08-18** — 51 pages
+  - rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
+  - ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
+  - close | people | wiki/people/diane-moore — a two-word operator answer merged two entities and re-dated the exclusion
 
 **2026-08-17** — 15 pages
   - restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
@@ -55,17 +58,17 @@ this is the state of the thing.
   - tool | meta | bin/wiki-gaps could not see two-thirds of the wiki's unsettled information, and left no trace of what the operator added
   - close | people, timeline, mind | six staged operator answers integrated — one of them contradicted the man who gave it
 
-**2026-08-16** — 7 pages
+**2026-08-16** — 6 pages
   - close | timeline | shelbie-annie-threesome — the operator dated it, and the corpus showed the page had the authorship backwards
   - build | all | bin/wiki-gaps — 269 open gaps, no way for the one source that can settle them to answer, and OPEN.md could only see 164 of them
   - rewrite | people | kristin.md — surname wrong, dates wrong, count wrong, and the wiki's own instrument cannot see the thread
 
-**2026-08-15** — 9 pages
+**2026-08-15** — 5 pages
   - read | timeline | the read pass gets a second output — entity ledger, leads, motifs — plus Nov 30: Suz paid for the eviction
   - read | timeline | the Annie corpus is 97,768 messages across FOUR handles, and reading two days of it produced 25 events no script found
   - fix | timeline | the 2015 "Alexis cheating" was a 2009 event, and master-timeline.md was half non-events
 
-**2026-08-14** — 5 pages
+**2026-08-14** — 4 pages
   - lint | self | the archive is 9.6x duplicated, four cited sources are empty, and 18 filenames overstate their coverage
 
 ## Pages that reason from other pages

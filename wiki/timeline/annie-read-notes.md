@@ -56,7 +56,7 @@ candidate.
 | 2015-11-30 | **Casey Bondarenka** | *"just started hanging out with us last week"* — joins the friend group **~3rd week Nov 2015**; buys beer for Alexis; drives Dan around; subject of an unresolved *"Casey saga"* | → `wiki/people/casey-bondarenka` |
 | 2015-11-30 | **"Morgantown homeboy"** | drug source in Morgantown WV; joint $100 buy Nov 30, with a birthday bonus for Annie | **no page — named supply node** |
 | 2015-11-30 | **Dan's laptop** | missing during Alexis's move-out; Harshman intercedes | thread, not entity |
-| 2015-11-30 | **Diane / Van** | named in Suz's family-name list (*"Anne Dan Suzanne Fran Diane Van"*) | → `wiki/people/diane-shrum` |
+| 2015-11-30 | **Diane / Van** | named in Suz's family-name list (*"Anne Dan Suzanne Fran Diane Van"*) | → `wiki/people/diane-moore` |
 | 2015-12-01 | **Donna** | Annie's manager at the bar; knows about the Alexis situation; tells Annie "don't go to Bruce about the schedule" | **no page — recurring** |
 | 2015-12-01 | **Bruce** | Annie's employer (bar); called to ask about the schedule; connected to Annie's dad ("besties from high school") | **no page — employer** |
 | 2015-12-01 | **Rick Frank** | Dan's father; Annie reports that he *"already wikes me"*; Dan is nervous to call him | → `wiki/people/rick-frank` |

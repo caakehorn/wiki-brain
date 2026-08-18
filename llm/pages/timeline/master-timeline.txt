@@ -4,7 +4,7 @@ page_type: summary
 status: active
 knowledge: derived
 date_created: 2026-08-14
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 sources:
   - generated from every page under the wiki by bin/wiki-timeline
 connections:
@@ -183,7 +183,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 ### 1917
 
 - · **1917-08-01** — Fran's first husband — Emmet Graden Van Voorhis  
-  ↳ [[wiki/people/diane-shrum]] · Who she is in the line
+  ↳ [[wiki/people/diane-moore]] · Who she is in the line
 - · **1917-08-01** — Maternal Great-Grandfather — Emmet Graden Van Voorhis (Fran's **first** husband) — Dilliner, PA — —  
   ↳ [[wiki/self/lineage/family-tree]] · Immediate Family Table
 
@@ -271,12 +271,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **1937-06-14** — Maternal Grandfather — George Dixon Shrum Jr (married *into* the line) — Pittsburgh, PA — —  
   ↳ [[wiki/self/lineage/family-tree]] · Immediate Family Table
 - · **1937-06-14** — Diane's husband — George Dixon Shrum Jr.  
-  ↳ [[wiki/people/diane-shrum]] · Who she is in the line
+  ↳ [[wiki/people/diane-moore]] · Who she is in the line
 
 ### 1939
 
 - · **1939-01-30** — Their daughter — **Rebecca Diane Van Voorhis  
-  ↳ [[wiki/people/diane-shrum]] · Who she is in the line
+  ↳ [[wiki/people/diane-moore]] · Who she is in the line
 - · **1939-01-30** — Maternal Grandmother — Rebecca Diane Van Voorhis ("Diane") — **Fran's daughter** — West Virginia — diane shrum  
   ↳ [[wiki/self/lineage/family-tree]] · Immediate Family Table
 - · **1939-01-30** — 2 — Rebecca Diane Van Voorhis Jr — —  
@@ -289,7 +289,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 ### 1940
 
 - ★ **April 1940** — The April 1940 census places Emmet, Fran and the fourteen-month-old Diane together in Smithfield, Fayette County — Fran's arrival in the county that becomes the family's terminus.  
-  ↳ [[wiki/people/diane-shrum]] · Who she is in the line
+  ↳ [[wiki/people/diane-moore]] · Who she is in the line
 - ★ **April 1940** — The April 1940 census places Emmet, Fran and their infant daughter together in **Smithfield, Fayette County** — the arrival of the maternal line in the county it never leaves.  
   ↳ [[wiki/people/fran-coldren]] · The line she comes from, and the three marriages
 - ★ **1940-04-01** — Brownsville, Fayette Co., PA — census  
@@ -396,7 +396,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **1962-09-15** — Born, Pittsburgh PA  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **1962-09-15** — Their daughter — Suzanne Whyel Shrum  
-  ↳ [[wiki/people/diane-shrum]] · Who she is in the line
+  ↳ [[wiki/people/diane-moore]] · Who she is in the line
 - · **1962-09-15** — Mother — Suzanne Whyel /Shrum/ Frank ("Suz") — Pittsburgh, PA — suzanne frank  
   ↳ [[wiki/self/lineage/family-tree]] · Immediate Family Table
 
@@ -2066,7 +2066,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **April 2018** — He handled the listing on Fran's house after her April 2018 death: an April 7, 2018 message shows him stopping by the property the same week and running into Suz there ("I told her I stopped by to extend my condolences"), and by July 11, 2019 he reports the house "finally went pending," with a…  
   ↳ [[wiki/people/danny-matthews]] · The realtor thread
 - ★ **April 2018** — She appears in the corpus almost entirely as an antagonist, and at one specific moment: in April 2018, while Fran was dying at Uniontown Hospital, Dan and Annie each received a letter informing them that they were not to be in Fran's house unsupervised and could not visit Fran without a…  
-  ↳ [[wiki/people/diane-shrum]] · Diane (Rebecca Diane Van Voorhis Shrum)
+  ↳ [[wiki/people/diane-moore]] · Diane (Rebecca Diane Van Voorhis Shrum)
 - ★ **April 2018** — He sends condolences after Fran's death in April 2018, drawing a parallel to his own grandfather; loses a beloved cat, Gabe, on October 30, 2023, remembering him as "the cat that made me love cats" (the same date and framing that resolves the ambiguous "Gabe" death reference on jason bermejo as a…  
   ↳ [[wiki/people/eric-jester]] · The relationship
 - ★ **April 2018** — The **April 2018 cheque** is unquantified and its relationship to the 2020 distribution unestablished — Dan calls it "from grandma," which is his usual word for Fran but not exclusively so.  
@@ -2090,7 +2090,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **April 2018** — One April 2018 message asks whether he could live with Dan in town for a month before heading to a summer camp job — outcome undocumented.  
   ↳ [[wiki/people/chad-johnson]] · Texture
 - · **April 2018** — The letters themselves are described but not preserved — no scan, no quoted text, no date beyond "well before" the April 2018 admission, and no confirmation of whether they were sent by her alone, by her jointly with George, or by an attorney on the family's behalf.  
-  ↳ [[wiki/people/diane-shrum]] · Gaps
+  ↳ [[wiki/people/diane-moore]] · Gaps
 - · **April 2018** — Her only child, Diane, is Dan's maternal grandmother, which means the Whyel coal money, the Coldren legal connection and the estate that eventually reaches Dan all descend through one person — and that person spent April 2018 sending letters barring Dan from Fran's house.  
   ↳ [[wiki/people/fran-coldren]] · The line she comes from, and the three marriages
 - · **April 2018** — Jim Shaffer — "not the only Jim Shaffer" in Dan's life, hence the "new" contacts-card label — is a wealthy childhood friend from the same Fayette County high-school cohort, self-described as Dan's "longest standing friend on the planet" (`+14125139408`, 894 messages, April 2018 – October 2019).  
@@ -2174,7 +2174,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2018-05-06** — A memorial celebration followed at the Uniontown Country Club, May 6, 2018, 12–4 PM — deliberately framed, per Dan's invitation to Lucie, as "a happy occasion and something that gram would have approved of," rather than a conventional funeral.  
   ↳ [[wiki/timeline/events/fran-death-vigil]] · Sequence
 - · **2018-05-06** — Whether she attended the May 6, 2018 memorial at the Uniontown Country Club is unknown, as is whether she ever did contest the 2020 distribution — the attorney's read was that she would not, and no objection appears in anything since.  
-  ↳ [[wiki/people/diane-shrum]] · Gaps
+  ↳ [[wiki/people/diane-moore]] · Gaps
 - ◆ **2018-05-09** — Idk how I played as well as I did...and I still probably barely broke 90" (May 9, 2018) is as good as his self-reported scores get; a June 2017 message logs a more ordinary "Got a par 4 and then par 3 to finish." He studies the game seriously rather than just playing casually: in June 2016 he…  
   ↳ [[wiki/interests/golf]] · Dan's own game
 - · **2018-05-11** — A May 11, 2018 exchange turns hostile fast — Jimmy calls Dan out over an unspecified remark he considers ignorant, tells him "the truth sucks and hurts," and closes with "fuck off" — but the two are back on ordinary terms the next day.  
@@ -2860,7 +2860,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **August 2020** — The 2022+ left-commentary clusters documented here are the downstream trace of a conversion the message record dates precisely to August 2020 (2020 left turn) — the watch history shows the turn's persistence, not its origin.  
   ↳ [[wiki/self/youtube-watch-history]] · Notes
 - · **August 2020** — In August 2020, negotiating his $144,069.31 estate distribution, Dan asked the estate attorney directly what the odds were that his grandmother would contest it.  
-  ↳ [[wiki/people/diane-shrum]] · What she did, and why it lands the way it does
+  ↳ [[wiki/people/diane-moore]] · What she did, and why it lands the way it does
 - · **August 2020** — Adams sends and receives nothing in the message corpus; every fact here comes from Dan's narration or from the estate attorney's calls, and the estate attorney reached in August 2020 (`+17245706170`) is not established to be Adams or his office.  
   ↳ [[wiki/people/fred-adams]] · Gaps
 - · **August 2020** — The period's most durable ideological product is the documented socialist conversion of August 2020: a self-narrated, media-driven radicalization (Chapo, Hasan Piker, ContraPoints) cemented by lockdown reading of the primary texts — argued in full at 2020 left turn.  
