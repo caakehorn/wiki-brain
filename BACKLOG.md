@@ -137,6 +137,27 @@ Each of these is a specific thing the corpus or the outside world could settle.
   read-only deploy key via `actions/checkout`'s `ssh-key:` is the non-expiring
   alternative.
 
+- **A `grep` gate for retracted strings** (opened 2026-08-18). Five pages were
+  found carrying the retracted "$750/week" figure, two of them *underneath a
+  correction block that quoted the sentence it had never changed*. No gate sees
+  this: the pages lint clean, edges type-check, dates are current. A retracted
+  claim is a string, and a pass that records one could register it in a
+  `RETRACTED.md` ledger the gate then greps for across `wiki/`. This would have
+  caught all five, including the `$750/wk` abbreviation that a `$750/week`
+  sweep misses.
+- **Regenerate `master-timeline` in the pre-commit block.** It was 484 events
+  and 7 pages stale on 2026-08-18 because `bin/wiki-timeline generate` is not in
+  CLAUDE.md's "before every commit" list, unlike `wiki-digest` and
+  `llm-publish`. It is derived and cheap; there is no reason it should ever
+  drift.
+- **30 pages carry `status: archived` outside an `archive/` directory**, which
+  `STYLE_GUIDE.md` reserves for pinned artifacts that are never updated. The
+  status is being used to mean "finished" — the documented default for which is
+  `stable`. This matters because it makes those pages look exempt from
+  correction: `wiki/timeline/periods/2018-deep-cycle.md` was one of them and was
+  feeding a false claim into the generated master timeline. Audit and re-status;
+  `bin/wiki-lint` could then enforce the directory rule.
+
 ## 5. Settled — do not re-litigate
 
 Kept because re-proposing these wastes a pass each time.

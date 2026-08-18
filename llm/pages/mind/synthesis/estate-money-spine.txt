@@ -146,8 +146,9 @@ attend, and it moved first.
 | Date | Event | Amount |
 |---|---|---|
 | 2017 | Poverty floor: water shutoff, overdrawn account, gold/clothes sold | −(floor) |
-| 2018 | Deep-cycle velocity: ~$750/week borrowed from Suz, 1 AM ATM runs | churn |
+| 2018 | Deep-cycle churn: irregular transfers of $20–$3,000 running both ways, entered as debts, never reconciled; 1 AM ATM runs (the "~$750/week borrowed from Suz" rate is **retracted** — see "The direction the spine had backwards" below) | churn |
 | 2018-04-04 | Fran dies; estate enters administration | — |
+| 2018-08 → 2018-10 | Dan draws ~$20,000 against the undistributed estate and transfers ~$14,000 of it to Suz; $4,000 later recovered | −$10,000 net, Dan → Suz |
 | 2020-06-23 | Estate advance issued | $10,000 |
 | 2020-08-21 | Court signs final distribution order | $144,069.31 total |
 | 2020-09-01 | Final check released, deposited via Suz | $134,069.31 |

@@ -78,9 +78,12 @@ relationship at 463 — tenancy, agency, caretaking, contracting — is running
 on verbal understandings. If the Arnu lien executes or the Carney work has to
 be re-let, there is no paper allocating who owes what, and Suz's blended
 roles mean claims against the property can reach her (and by extension Dan's
-housing) directly. Suz's finances are themselves cyclical — the operating
-manual documents $750/week borrowing patterns — so a lien-sized shock has no
-obvious absorber.
+housing) directly. Suz has no capacity to absorb a lien-sized shock: she filed
+**Chapter 13 in October 2024** (case 24-22285-GLT, ~$157,000 scheduled, IRS
+priority claims 2018–2021), states her income as $11,000–$14,000 a year, and
+337 Saratoga — the only unencumbered asset — was liquidated in June 2026 to
+satisfy that filing ([[wiki/people/suzanne-frank]]). There is no absorber
+because there are no assets left.
 
 ## Timeline
 

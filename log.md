@@ -1971,3 +1971,58 @@ and then kept going.
   recorded as `RE-CHECKED` blocks. The remaining new warnings sit on pages that
   were already stale on *other* premises, and were deliberately left standing
   rather than cleared by a date bump.
+
+## [2026-08-18] lint | cross-domain | the $750/week retraction was announced on three pages and applied on none of them
+
+**What was wrong.** The `suzanne-frank` rewrite (2026-08-18) retracted the
+"~$750/week borrowed from Suz" figure on two independent grounds: the rate is
+`operating_manual.md`'s AI-secondary generalisation of a *single* accusation
+(13 Dec 2018, *"You borrowed $750 last week alone!"*, made in an argument on a
+day she had that morning asked him for $450), and its **direction is
+inverted** — the largest documented 2018 movement between them is ~$14,000
+from Dan to Suz, drawn against an estate that did not distribute until
+September 2020, $4,000 recovered.
+
+**The evidence.** The retraction propagated as prose *about* the correction
+while the corrected claims stayed live underneath it. Two pages carried a
+`CORRECTED`/`RE-CHECKED` block quoting a sentence they had never actually
+changed:
+
+| Page | State found | 
+|---|---|
+| `wiki/legal/463-morgantown.md` | CORRECTED block said *"The sentence above previously read…"* — the sentence above still read exactly that, verbatim |
+| `wiki/people/alexander-jackson.md` | RE-CHECKED block described the correction; the Roles table above it still read "Borrowing patterns ($750/wk cycles)" |
+| `wiki/mind/synthesis/supply-network.md` | no correction at all — "the 2018 deep cycle ran on ~$750/week borrowed from her" fully live |
+| `wiki/mind/synthesis/estate-money-spine.md` | correction present, but its own "chain, event by event" table still carried the retracted row |
+| `wiki/timeline/periods/2018-deep-cycle.md` | "mom borrow $750/wk" live; missed by earlier sweeps because it abbreviates `/wk` |
+
+**What changed.** All five corrected in place, with the retracted text visible
+per STYLE_GUIDE rule 9. `estate-money-spine`'s chain gained the row it was
+missing — the Aug–Oct 2018 ~$14,000 Dan → Suz transfer, the family's largest
+internal capital movement, absent from the ledger that exists to track exactly
+that. `463-morgantown`'s absorber argument now rests on the Chapter 13
+(24-22285-GLT, ~$157k scheduled) rather than a rate that does not exist; the
+conclusion is unchanged and better supported. `supply-network`'s bullet keeps
+its claim and changes its mechanism: the family layer was the *rail*
+procurement ran on, not its funding — and the Cash App account those transfers
+ran through is one Dan asked her to install in **August 2018**, the same month
+as the $14,000 drawdown, recorded as a dating coincidence rather than a causal
+claim.
+
+**Two systemic findings.**
+
+1. **A correction block is not a correction.** Three pages read as corrected to
+   any reader who scanned for a flag, and the retracted figure was still the
+   one a reader would take away. This failure mode is invisible to all three
+   gates — the pages lint clean, their edges are typed, and their dates are
+   current. Grepping the *retracted string* is the only thing that finds it.
+2. **`wiki/timeline/master-timeline.md` was 484 events and 7 pages stale** —
+   2,076/315 on disk against 2,560/322 on regeneration. It is derived and
+   cheap to rebuild, and had not been rebuilt since several intervening
+   ingests, so the wiki's largest page was serving a stale scrape of pages
+   that had themselves moved.
+
+**Also noted, not fixed:** 30 pages carry `status: archived` outside an
+`archive/` directory, which STYLE_GUIDE reserves for pinned artifacts that are
+never updated. `2018-deep-cycle.md` was one of them and was carrying a false
+claim into the generated timeline. Queued in `BACKLOG.md`.

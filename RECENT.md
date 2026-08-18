@@ -13,6 +13,8 @@ simply listed.
 - **Session log:** rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
 - **Session log:** ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
 - **Session log:** close | people | wiki/people/diane-moore — a two-word operator answer merged two entities and re-dated the exclusion
+- **Session log:** lint | mind | the girlfriend score, and two honest re-checks
+- **Session log:** lint | cross-domain | the $750/week retraction was announced on three pages and applied on none of them
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -34,7 +36,7 @@ simply listed.
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | _(carries a RE-CHECKED from 2026-08-16)_ |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | **RE-CHECKED** — forensic-method moved on 2026-08-18: its claim that the July 2026 Leviathan dashboards were the method's first outward deployment was corrected to 2025-07-11 (james-analysis-pdf), and it |
 | [[wiki/mind/synthesis/single-channel]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
-| [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
+| [[wiki/mind/synthesis/supply-network]] | mind | **CORRECTED** — this bullet previously read *"the 2018 deep cycle ran on ~$750/week borrowed from her."* Both the rate and its direction fail against the primary record. The corpus holds a single $750 statement — an  |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
 | [[wiki/mind/synthesis/totality-themes]] | mind | _(carries a RE-CHECKED from 2026-08-16)_ |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
@@ -66,7 +68,7 @@ simply listed.
 | [[wiki/timeline/events/july-2026-recontact]] | timeline | — |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] | timeline | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/timeline/index]] | timeline | — |
-| [[wiki/timeline/master-timeline]] | timeline | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/timeline/periods/2018-deep-cycle]] | timeline | **CORRECTED** — the clause above read *"mom borrow $750/wk."* The rate does not exist and its direction is inverted. The corpus holds one $750 statement — an accusation about a single week, made in a 13 December 2018 |
 
 ## 2026-08-17 — 15 pages
 
@@ -109,7 +111,7 @@ simply listed.
 | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] | timeline | **GAP CLOSED** — This page carried "Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown" as an open question since 2026-07-14. The opera |
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — context-core was revised on 2026-08-16 by a staleness audit that corrected seven claims: the Annie status (closed → live), Tom's corpus weight (16,563 was Kristin's handle), the 337 Saratoga sale and  |
 
-## 2026-08-15 — 5 pages
+## 2026-08-15 — 6 pages
 
 - **Session log:** read | timeline | the read pass gets a second output — entity ledger, leads, motifs — plus Nov 30: Suz paid for the eviction
 - **Session log:** read | timeline | the Annie corpus is 97,768 messages across FOUR handles, and reading two days of it produced 25 events no script found
@@ -120,6 +122,7 @@ simply listed.
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — alexis-armel and the-unbroken-bond both moved on 2026-08-15 for the same correction: the "cheating" that dated the end of the Alexis relationship to 2015-11-28 is a retrospective account of a |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **CORRECTED** — The first bullet of this list previously read *"**2015-11-28** — the Alexis cheating revelation."* There was no such revelation that week; the message it rested on is Dan describing the **2009** start |
 | [[wiki/timeline/events/timeline]] | timeline | — |
+| [[wiki/timeline/master-timeline]] | timeline | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | — |
 | [[wiki/timeline/periods/uniontown-return-2013-2015]] | timeline | **CORRECTED** — The message behind it (*"Lex cheated on me 2 weeks in after I moved her to fla"*) is Dan telling Annie how the Alexis relationship **began, in 2009**, at Full Sail — the line before it is *"the exact  |
 
@@ -568,7 +571,7 @@ simply listed.
 | [[wiki/timeline/periods/covid-era-2020]] | timeline | — |
 | [[wiki/work/bfs-foods]] | work | — |
 
-## 2026-07-18 — 11 pages
+## 2026-07-18 — 10 pages
 
 - **Session log:** ingest | work+people | Gemini-_02 Au Za'atar storytime fully mined (50 approved data points); chats/gemini-02 page retired
 - **Session log:** build | meta | bin/llm-publish — public LLM access point (llm/) served by GitHub Pages
@@ -592,7 +595,6 @@ simply listed.
 | [[wiki/people/timmy]] | people | — |
 | [[wiki/people/vicki]] | people | — |
 | [[wiki/timeline/periods/2010s]] | timeline | **REVISED** — an earlier version of this page framed "NYC Round One" as 2010–2014 and described Alexis as "met through webcam work." Both are corrected against the canonical context-core §4 residence timeline. NYC- |
-| [[wiki/timeline/periods/2018-deep-cycle]] | timeline | — |
 | [[wiki/timeline/periods/2021-2023-employment-block]] | timeline | — |
 | [[wiki/timeline/periods/2025-collapse]] | timeline | — |
 
