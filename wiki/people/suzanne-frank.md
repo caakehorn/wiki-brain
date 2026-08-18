@@ -128,6 +128,9 @@ connections:
   - page: wiki/people/marty-martin
     type: co-occurs
     claim: "Nearly all documented post-incident contact with Marty runs through Suz as relay rather than directly with Dan, including a later job lead."
+  - page: wiki/people/james-dee
+    type: co-occurs
+    claim: "Suz is the only person on record who corrects Dan's rhetorical register mid-conflict — telling him 'intellectually dishonest' was both inaccurate and tactically ruinous — and she independently tracks James's movements to Dan in June 2025."
 ---
 
 

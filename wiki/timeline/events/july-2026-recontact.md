@@ -53,6 +53,12 @@ connections:
   - page: wiki/timeline/events/april-may-2026-final-weeks
     type: follows
     claim: "The blocked-caller and third-party-hostility pattern documented there recurs here on July 26, when a third party messages Dan directly from inside Annie's situation."
+  - page: wiki/timeline/events/james-analysis-pdf
+    type: follows
+    claim: "The Leviathan dashboards repeat a move Dan first made on 2025-07-11 with James: a corpus-derived analysis delivered to its own subject, then framed as something the subject should want."
+  - page: wiki/mind/concepts/the-handed-mirror
+    type: instantiates
+    claim: "This is the concept's hostile instance — same act, same corpus-derived form, generosity replaced by leverage — which shows intent is the only variable that has ever changed across cases."
 ---
 
 # The July 2026 Re-contact

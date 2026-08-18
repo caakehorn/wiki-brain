@@ -7,6 +7,13 @@ date_modified: 2026-07-13
 sources: ["raw/self/chats/The 2nd most famous 'Jimmy Pop' in Pennsylvania .md"]
 related: ["wiki/interests/favorites/music", "wiki/interests/favorites/music/artists/", "wiki/interests/music/concepts/sub-bass-signature", "wiki/self/context-core", "wiki/self/favorites"]
 tags: [music-production, ai-collaboration]
+connections:
+  - page: wiki/people/james-dee
+    type: caused-by
+    claim: "This thesis was assembled as ammunition against a specific person: the source conversation opens with Dan asking for evidence to use on 'this idiot', and the idiot is Danielle's boyfriend James."
+  - page: wiki/timeline/events/james-analysis-pdf
+    type: precedes
+    claim: "The rock-is-dead argument and the profile that ended the friendship come out of the same ChatGPT session on the same afternoon, roughly an hour apart."
 ---
 
 # The 2nd Most Famous 'Jimmy Pop' in Pennsylvania

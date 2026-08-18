@@ -116,7 +116,7 @@ related: []
 - [[wiki/people/matt-dunn]] — Full Sail friend, affectionately abused as "the world's most annoying man woman or child"; the annual $5 birthday Venmo bit.
 - [[wiki/people/matthew-palermo]] — Uniontown classmate whose brother fatally overdosed after a relapse; recipient of Dan's starkest opiate-epidemic self-assessment.
 - [[wiki/people/max]] — Implements ai-collaborative-analysis and vertical-authority via "adversarial" pressure for robustness.…
-- [[wiki/people/max-danielle-bf]] — Danielle's current boyfriend; subject of an unprompted AI personality analysis Dan ran on a recording of him.
+- [[wiki/people/james-dee]] — Danielle's boyfriend; the 2025 friendship that ended twelve minutes after Dan handed him an AI profile of himself. Absorbs the mis-titled "Max (Danielle's boyfriend)" page.
 - [[wiki/people/md]] — Au Za'atar-affiliated contact; 2024 Bangladesh political-unrest discussion.
 - [[wiki/people/menore]] — "Additional family/friend" per master dump analysis and cross-refs. Handle +13476070497 (dedicated CSV messages_3476070497_all_time.csv).…
 - [[wiki/people/michael-hinkle]] — One-sided, unanswered 2017 Facebook message.

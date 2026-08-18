@@ -43,6 +43,12 @@ connections:
   - page: wiki/people/johnny-dealer
     type: follows
     claim: "Tom succeeded Johnny (via the undocumented Tim) as primary strip source by 2025 — the succession from transactional dealer to friendship-embedded friend-supplier that exposed the network to the owe-and-silence failure mode."
+  - page: wiki/timeline/events/james-analysis-pdf
+    type: follows
+    claim: "Ninety-five minutes after James closed the channel, Dan pasted the model's post-mortem of the rupture into this thread, making Tom the first reader of the analysis of a failed analysis."
+  - page: wiki/people/james-dee
+    type: co-occurs
+    claim: "Tom's May 2025 line — that hanging out with Danielle and her boyfriend was 'enough to scare me off' — is the only outside assessment of James in the corpus, and it predates Dan's own by six weeks."
 ---
 
 

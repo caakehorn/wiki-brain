@@ -34,6 +34,7 @@ related: []
 - [[wiki/timeline/events/the-fall-of-fran]] — night of March 7–8 2018: the arrangement's first encounter and the fall that ended Fran's fifty-year residency, in the same house, minutes apart.
 - [[wiki/timeline/events/uniontown-hospital-vape-alarm]] — early April 2018: one drag of nicotine, a hospital-wide fire alarm, four fire trucks and an escort off the property during Fran's death watch.
 - [[wiki/timeline/events/group-chat-closure]] — Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party…
+- [[wiki/timeline/events/james-analysis-pdf]] — 2025-07-11: a curated AI profile handed to its subject and to his partner ends a friendship in twelve minutes.
 - [[wiki/timeline/events/july-2026-recontact]] — July 23–26 2026: the 52-day severance fails; 624 messages, a rape allegation, the corpus's only refused supply request, no resolution.
 - [[wiki/timeline/events/july-august-2026-reentanglement]] — July 26 – August 2 2026: the goodbye breaks in 18 minutes; 1,880 messages, six meetings, five drug handoffs, and an apology delivered in person to Suz.
 - [[wiki/timeline/events/august-2026-unmasking]] — August 8–9 2026: the thirteen-day refusal to identify the interloper ends with a FOREWARN lookup, and a ten-hour collapse follows — a misparsed garble read as a threat, a contested sleep claim, and read-receipt coverage that ends at 02:24:54.

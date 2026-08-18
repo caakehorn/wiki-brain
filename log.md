@@ -1858,3 +1858,51 @@ The same answer supplies a mechanism, not just a correction. Betty came into Dan
 **The tool change this pass forced.** All six answers were staged from the portal, and `operator-log.md` — added yesterday — logs only what the CLI writes. It would have been silently wrong in the one direction that matters: understating what is waiting. The log is now **reconciled from the pages themselves** before `pending` and before `clear`, so an answer staged anywhere is caught, and a portal-staged answer that is cleared without ever having been logged still leaves a row. New `bin/wiki-gaps log` prints the ledger and reconciles as a side effect.
 
 Gates: wiki-lint **1 error** (`master-timeline.md` invalid tags, pre-existing and generated) · wiki-connect check **0 errors** · wiki-climb check **0 errors, 16 staleness warnings** — one more than before, `milo` having moved under a page that reasons from it, and not cleared here.
+
+## [2026-08-18] ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
+
+**A cited source had been read to 11% of its length, and the other 89% contained a whole person.**
+`rock-irrelevance-thesis` (created 2026-06-22) cites this 2,688-line ChatGPT log
+and mined its first ~140 lines. The remainder is the complete arc of a
+fifty-six-day 2025 friendship with Danielle Onesi's boyfriend, and it corrects
+two load-bearing claims elsewhere in the wiki.
+
+- **The wiki held two pages for one man, one of them named after a chatbot.**
+  `wiki/people/max-danielle-bf` (2026-06-23) took its title from the first line
+  of `Gemini-_21.md` — *"Max I have a gift for you… a 20 or 25 minute audio
+  recording of… my first girlfriend Danielle's current boyfriend"* — reading a
+  vocative addressed to the MAX persona as the subject's name. The model signs
+  its own reply "MAX'S ANALYSIS"; the boyfriend is never named in that source.
+  `wiki/people/max` carried the error inverted, asserting a real person distinct
+  from the persona, while `danielle-onesi` had the identification right the
+  whole time and nothing acted on it. Merged into `wiki/people/james-dee`; both
+  pages corrected in place with the old claims visible.
+- **`forensic-method`'s "first outward deployment" was off by a year.** The
+  Leviathan dashboards (2026-07-25) are the first deployment *as leverage*. The
+  first outward deployment at a named private person is the James Analysis PDF,
+  **2025-07-11**. Edge narrowed, correction written into the body.
+- **The valence of an analysis is not what people object to.** Dan removed the
+  critical material before sending, disclosed the copy to the subject's partner
+  voluntarily, and pre-paid with two unflattering analyses of himself. Twelve
+  minutes from PDF to "OK, you can quit MASS texting me"; the two objecting
+  tapbacks land three seconds apart, before any words. New concept page
+  `the-handed-mirror` generalises it with a prediction and a falsifier.
+- **`lyrics-as-timbre` is no longer single-sourced.** Dan states the same
+  lyric-blindness to a hostile third party in a live 2025 argument, a year
+  before the 2026-07-14 capture the page rests on. Gemini's read of James
+  independently records him hearing vocals the same way — which is what they
+  fought about.
+- **The Ramone claim is impossible, not merely inflated.** James told Dan that
+  Johnny Ramone and Glenn Danzig had recruited him and he declined. Johnny
+  Ramone died 2004-09-15; James, 36 in 2025, was about fifteen. The model graded
+  it "90% exaggerating" and stopped.
+- **The pitch and the catalog disagree.** Seven audio attachments recoverable
+  from the message dump: six are covers or mashups (Zeppelin, Manson, HIM, NIN,
+  the Drifters) under an artistic thesis of refusing to be derivative, and the
+  project is named after a living Pennsylvania musician.
+- **First-ever guilt, dated.** *"the stuff with Annie has made me feel guilty
+  for the first time in my life about how i treated danielle"* — 2009 breakup
+  specifics (Valentine's Day, Kelly Mulroy, Alex Gaskarth) written back to
+  `danielle-onesi`.
+- **Gates:** wiki-lint 0 errors · wiki-connect 0 errors · wiki-climb 0 errors,
+  9 staleness warnings (none introduced here).
