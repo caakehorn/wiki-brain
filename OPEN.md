@@ -8,9 +8,9 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 33 |
-| Open gaps | 332 |
-| Answered, awaiting ingest | 0 |
+| Live contradictions | 36 |
+| Open gaps | 360 |
+| Answered, awaiting ingest | 1 |
 | Standing predictions | 13 |
 
 ## Answered, awaiting ingest
@@ -21,7 +21,8 @@ what is missing is the pass that corrects the page and every page that
 inherited the gap, then runs `bin/wiki-gaps clear <page>`. Cheapest work
 here — no new source required, and the answer is already written down.
 
-_Nothing staged._
+- **[[wiki/people/menore]]** — staged 2026-08-18, 1 answer
+  - manual note
 
 ## Live contradictions
 
@@ -58,6 +59,8 @@ somewhere and has not yet found out where.
 - **[[wiki/people/menore]]** — the thread contains a **1,458-day silence — May 26, 2020 → May 24, 2024** (with 2020 already tapering: 35/17/15-day gaps, 158 messages all year). This contradicts this page's earlier "Phase 4: sustained operations Apr 2019–Feb 2025" framing, and it complicates the Au Za'atar storytime claim (au-zaatar) that Menore serv
 - **[[wiki/people/sadie-harris]]** — earlier versions of this page and the member table on fayette-return both recorded Sadie as having *died* in Hopwood on 27 November 1997. The GEDCOM records no death place at all — only the date — and lists Hopwood as the **burial** place. Her last attested residence is Brownsville in 1993. The Hopwood association is r
 - **[[wiki/people/suzanne-frank]]** — A $200 cocaine spend on 2015-12-29 is **not** established as hers, and an earlier pass wrongly recorded it as such. The record has Annie saying *"And that $200 wasn't even your own"* (23:48) and Dan answering *"It was my money"* (23:50). The two lines conflict and the corpus does not settle them. Held open rather than 
+- **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — erotic-architecture holds that the charge in this attachment is sustained *by* inaccessibility — arousal that survives because it is never consummated, priced per item, named by Dan himself as something to get the poison out of rather than to act on. That reading predicts the attachment thins as access increases, and i
+- **[[wiki/self/concepts/chatgpt]]** — This page and claude-code make incompatible claims about where an LLM's value sits. This page treats it as residing in the model's *willingness* — a register it will speak in, a class of question it will engage — which is why a guardrail change reads here as a capability loss and why the honesty standard is encoded as 
 - **[[wiki/self/context-core]]** — fran-coldren resolved it on 2026-08-02 against a dated message in which Dan describes her, at the time, as *"a 97 year old woman with advanced dimentia"* (2017-12-29) — consistent with an August 1920 birth and an April 2018 death. The **98** in this page and in `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`, and the 
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — the operator's account says Annie *"contacted her independently without me knowing and invited her back over."* The 22:56 `Shelbie Breakiron.vcf` attachment, sent by Dan to Annie, is hard to reconcile with that. The likeliest reading is that the memory compresses a night in which he supplied the means and did not expec
 - **[[wiki/timeline/events/teen-concert-years]]** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate November 2004 return. The note dates Taking Back Sunday / Angels & Airwaves to **2006-07-04 in Columbus**; the research
@@ -200,8 +203,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (124)
-### people (129)
+### people (143)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -215,6 +217,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/ally-lubin]]** — **Has the channel actually changed?** The August 18-19 exchange is the first sustained mutual-adjacent burst in 17 years, and the first "morning after." Does the overflow-channel pattern still hold, or has the separation from Annie (June 1, 2026) permanently c
 - **[[wiki/people/ally-lubin]]** — **What is Dan's brother's name?** Dan's brother is mentioned but not named in the thread. The brother doesn't talk to the dad, and the dad is described as a "shitbag." The brother's name is not in the corpus.
 - **[[wiki/people/ally-lubin]]** — **What is Eddie/Kimmy's dad's full name?** The father whose death triggered the August 2019 crisis is referenced as "Eddie/Kimmy's dad" but never fully named. The obituary or news article would confirm.
+- **[[wiki/people/ally-lubin]]** — **The August 18–19, 2026 exchanges are not in `raw/`.** They are the most heavily quoted material on this page — 279 messages for August 18, 186 for August 19 — and they exist in this repository only as quotations inside `wiki/`. `raw/self/imessage/ally-lubin_
+- **[[wiki/people/ally-lubin]]** — **Four quoted phrases appear nowhere in the corpus.** "boy smashing factory" / "president of the boy smashing factory," "Okay deal. Sounds good 1-2-3 break," "coke just zaps your money" and "opiates literally kill you" are quoted on this page and cannot be fou
+- **[[wiki/people/ally-lubin]]** — **"I'm inherently evil and unlovable" is not sourced to her.** The phrase occurs once in the corpus, in `raw/self/gemini-activity/Gemini Activity.html` — a model's prose, not a message from Ally. It is used on this page and on the destiny page as her self-imag
 - **[[wiki/people/ally-lubin]]** — **Negative result, recorded:** she does not appear in `contacts.csv` with an address, in the GEDCOM, in the Twitter export, or in the Facebook search history. The Model Mayhem and "boca raton ally lubin" searches Dan describes on 2019-08-22 are from Google, wh
 - **[[wiki/people/annie-ulmer]]** — The compiled full-record files the dossiers drew from (`Dan_Annie_Full_Text.txt`, `1_year_triad_logs.csv`, `7_days_212_logs.csv`, `14_day_212_logs.csv`) aren't archived in `raw/`; the underlying iMessage data exists and the 88,549-line dual-handle export has b
 - **[[wiki/people/annie-ulmer]]** — Two gaps open with the 2026-08-13 pass. **The severance sweep is 81.6% complete**: 9,259 of Annie's 50,332 in-window received messages — the +17249204125 thread and both email handles, concentrated in 2016 and 2019–2020 — have never been searched for a severan
@@ -349,7 +354,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/places/117-belmont-circle]]** — Whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at "pending." The earlier failed listing is inferred from four words and has no independent trace. The nursing home is still unnamed. The exact year the caregivi
 - **[[wiki/places/307-e-76th-st]]** — Jim Blanchard's actual role at this address is unconfirmed beyond the operator's own account — a targeted search by his email (`jtblanchard66@gmail.com`) or phone across the fuller export set (not just the primary dump) might surface more. Whether Dan or Annie
 
-### self (40)
+### self (45)
 
 - **[[wiki/self/ancestry]]** — 1. **The Harris paternal line.** Sadie Harris's father ("Harris" from Czechoslovakia) is the single biggest data gap. He contributed ~12.5% of Dan's DNA but is completely undocumented beyond a single datum. Research into Czech immigration records, census data,
 - **[[wiki/self/ancestry]]** — 2. **The maternal R0 haplogroup.** The origin of the R0 mitochondrial haplogroup on the maternal line is unexplained. It may indicate a distant Jewish, Middle Eastern, or Central Asian ancestor entering through the Van Voorhis, Conwell, or Thomas lines. Resear
@@ -361,6 +366,11 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/ancestry]]** — 8. **Place name inconsistencies.** The GEDCOM contains numerous place name variants ("Pennslyvania," "Westmorland Co," "Fayette" vs "Fayette County" vs "Fayette, Pennsylvania") that complicate geographic analysis. Standardizing these names would improve data q
 - **[[wiki/self/ancestry]]** — 9. **The Lincoln line.** 31 individuals with the Lincoln surname appear in the GEDCOM. Their relationship to the direct ancestry is unclear — they may be a collateral line or may indicate a distant connection to the Lincoln family name (though not necessarily 
 - **[[wiki/self/ancestry]]** — 10. **Incomplete health report extraction.** Two 23andMe health predisposition results (Age-Related Macular Degeneration, Hereditary Thrombophilia) were not fully extracted from the PDF. The Prostate Cancer (BRCA1/BRCA2) report is locked behind an incomplete q
+- **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — **The August 18–19, 2026 exchanges are not in `raw/`.** They are the page's load-bearing evidence and they exist only as quotations inside `wiki/`. Exporting them from `chat.db` — 279 messages for August 18, 186 for August 19 — would let every quotation on thi
+- **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — **Four quoted phrases have no source anywhere in the corpus.** "boy smashing factory" / "president of the boy smashing factory," "Okay deal. Sounds good 1-2-3 break," "coke just zaps your money," and "opiates literally kill you" are quoted here and on the Ally
+- **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — **"I'm inherently evil and unlovable" is attributed to Ally on no evidence.** The phrase occurs once in the corpus, in `raw/self/gemini-activity/Gemini Activity.html` — a model's output, not her words. It should not be quoted as her self-image until a message 
+- **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — **Ally's side of the intent question is unrecorded.** Every claim here about what she wants rests on Dan's reading of her replies. She has not been asked, on any record in the corpus, whether she shares the projection this page makes on her behalf.
+- **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — **Her mother's status is unknown** — the page elsewhere assumes it either way without settling it.
 - **[[wiki/self/lineage/23andme-genomics]]** — The chromosome painting PDFs contain no extractable segment-level data — the per-chromosome ancestry assignments are visual only. The full CSV download from 23andMe's Scientific Details page was not part of the export in `raw/self/ancestry/dna-reports/`.
 - **[[wiki/self/lineage/23andme-genomics]]** — Two health predisposition results (Age-Related Macular Degeneration, Hereditary Thrombophilia) appear in the summary but their specific outcomes were not captured in the text extraction.
 - **[[wiki/self/lineage/23andme-genomics]]** — The Prostate Cancer (BRCA1/BRCA2) report is locked behind an incomplete questionnaire ("Complete tasks to view result").

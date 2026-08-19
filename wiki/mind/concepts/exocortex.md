@@ -46,6 +46,12 @@ connections:
   - page: wiki/self/concepts/gemini
     type: contains
     claim: "Gemini is the model used for bootloader design — the model that creates the persona prompts and COS-v1 system."
+  - page: wiki/self/concepts/claude-code
+    type: contains
+    claim: "Claude Code is the exocortex's executing hand — the component that turns a bootloaded intention into a file on disk and a passing gate."
+  - page: wiki/self/concepts/chatgpt
+    type: contains
+    claim: "ChatGPT's custom-instructions field is where the exocortex was first prototyped, and its length limit is why the bootloaders became pasteable documents."
 ---
 
 

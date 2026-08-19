@@ -23,6 +23,9 @@ related:
   - wiki/work/bfs-foods
 tags: [addiction-recovery, family, relationships, trauma-bond]
 connections:
+  - page: wiki/health/cocaine
+    type: contains
+    claim: "The stimulant layer of this stack has its own page: the twenty-year use history, the finance-driven dosage arc (1g → 3.5–7g → 0.5–1g), the age-13 family exposure, and the supply chain built to deliver it."
   - page: wiki/timeline/events/uniontown-hospital-vape-alarm
     type: evidenced-by
     claim: "Nicotine is catalogued here as the ritual regulator that smooths transitions between chemical states; the April 2018 hospital alarm is the record's demonstration that the regulator runs on its own schedule and does not defer to circumstance."
@@ -64,7 +67,7 @@ neurochemical engineering" ([[wiki/mind/profile/deviance-mapping]]).
 | Substance | Role (corpus framing) | Detail |
 |-----------|----------------------|--------|
 | Suboxone | "System stabilizer — chassis & OS" | Daily since 2010-02-17 (day-zero pinned; earlier docs said ~Jan 2010/Jan 2011); prevents withdrawal; the residual "1% opiate glow" described as intentional |
-| Cocaine | "Cognitive & drive accelerator — CPU & RAM" | Daily; framed as tool, "voltage," focus sharpener |
+| Cocaine ([[wiki/health/cocaine]]) | "Cognitive & drive accelerator — CPU & RAM" | Daily; framed as tool, "voltage," focus sharpener — full profile, dosage arc and supply history on its own page |
 | Nicotine | "Ritualistic regulator — thermal paste" | Smooths transitions between chemical states |
 | Cannabis | Creative lubricant | Daily |
 | Alcohol | **Zero** | 13–15 years abstinent; active aversion; family pattern implicated in prior conflicts |
@@ -130,7 +133,9 @@ from 2020 onward as the inheritance was exhausted. The retrospective's
 own reading is blunt — the escalation shows the "desired state" is
 maximum intensity limited only by supply and money, not by any internal
 ceiling — and the later reduction is framed explicitly as a resource
-adjustment, not a step toward moderation or recovery.
+adjustment, not a step toward moderation or recovery. The full arc, the
+genesis chronology and the substance's own supply history are carried on
+[[wiki/health/cocaine]].
 
 **Informed speculation:** the selectivity is the interesting part. Four
 family members across three generations (mother, grandmother,

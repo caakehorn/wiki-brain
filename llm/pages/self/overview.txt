@@ -38,6 +38,12 @@ connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
     type: mirrors
     claim: "Gravity-wins and deliberate-seal are inverted framings of the same relocation facts."
+  - page: wiki/self/concepts/wiki-brain
+    type: instance-of
+    claim: "The wiki this page opens is itself an artifact of the person it documents — a seventeen-year habit of forensic over-documentation, industrialized; the biography and the system that records it are the same behavior at two scales."
+  - page: wiki/self/concepts/ally-and-dan-love-as-destiny
+    type: instance-of
+    claim: "The seventeen-year Ally attachment is the longest continuous tie in this biography and the one that most tests whether its durability is devotion or dormancy; that page argues the first, and states what would show it wrong."
 ---
 
 

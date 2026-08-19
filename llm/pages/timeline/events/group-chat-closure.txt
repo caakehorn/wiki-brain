@@ -32,6 +32,9 @@ connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "These rows are the point where the verdict's defamation finding stops being dossier-sourced and becomes primary: the 00:24–00:27 exchange and 'sic semper lupanis' at 00:27:49 are [RAW-CSV] verified, and the June 15 Tuquick defection fourteen days later is the independent external validation the verdict rests its concealment case on."
+  - page: wiki/people/ally-lubin
+    type: precedes
+    claim: "Ally Lubin is the designated overflow channel Dan contacts nineteen hours and thirty-nine minutes after this closure — the first outbound message after severing the Annie relationship — making this event the predecessor to the most recent burst in a seventeen-year attachment."
   - page: wiki/timeline/periods/dec-2025-spike
     type: follows
     claim: "The December 2025 reinvestment peak of 4,657 messages is what makes this closure a rupture rather than a drift: six months earlier the relationship was at its highest volume on record."

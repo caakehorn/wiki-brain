@@ -67,6 +67,9 @@ connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: parallels
     claim: "The music-preference cutoff pattern (absorption, hard boundary, pre-cut version held as real) is the attachment architecture running on objects that cannot betray him."
+  - page: wiki/self/concepts/ally-and-dan-love-as-destiny
+    type: parallels
+    claim: "The same architecture — intensity sustained across distance, reactivation after silence, a wound shared with the partner — is argued there to produce a durable marriage rather than a trauma bond; the two pages read one structure to opposite ends, and only time separates them."
 ---
 
 

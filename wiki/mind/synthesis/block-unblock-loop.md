@@ -75,6 +75,9 @@ connections:
   - page: wiki/mind/synthesis/supply-network
     type: parallels
     claim: "Dependency predicts which blocks hold: the Tom block failed while he was the sole supply node, and the Menore channel closed cleanly the moment geography ended the dependency — no block ever needed."
+  - page: wiki/self/concepts/wiki-brain
+    type: instantiates
+    claim: "This page is the wiki-brain's own proof and its own correction: the rule was findable only by reading Annie and Tom across each other, and its falsification 52 days later is kept visible here rather than edited away, which is the system's core claim about itself made concrete."
 ---
 
 # The Block/Unblock Loop

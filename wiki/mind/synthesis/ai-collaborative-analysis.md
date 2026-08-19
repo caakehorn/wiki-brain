@@ -38,19 +38,19 @@ connections:
     type: evidenced-by
     claim: "The exocortex concept — bootloaders, master prompts, the CATO system — is the primary evidence that LLMs are used as cognitive extensions, not conversation partners."
   - page: wiki/self/concepts/llm
-    type: instantiates
+    type: evidenced-by
     claim: "The LLM entry documents the full cognitive engine: bootloader system, agent fleet, pipeline, and the epistemic problem of building a second brain with the thing it's trying to model."
   - page: wiki/self/concepts/claude
-    type: instantiates
+    type: evidenced-by
     claim: "Claude is the analytical workhorse — the model that loads the CATO bootloader and runs the forensic analysis pipeline."
   - page: wiki/self/concepts/claude-code
-    type: instantiates
+    type: evidenced-by
     claim: "Claude Code is the coding agent that built all 12+ tools in bin/ and maintains the wiki-brain's technical infrastructure."
   - page: wiki/self/concepts/gemini
-    type: instantiates
+    type: evidenced-by
     claim: "Gemini is the interaction model — used for bootloader design, psychotherapy, creative projects, and the massive activity log."
   - page: wiki/self/concepts/chatgpt
-    type: instantiates
+    type: evidenced-by
     claim: "ChatGPT is the early-adopter model — the first model Dan used for bootloader design, now believed to be 'cooked' post-GPT-5."
   - page: wiki/mind/concepts/exocortex
     type: contains

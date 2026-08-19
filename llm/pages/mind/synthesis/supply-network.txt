@@ -24,6 +24,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/health/cocaine
+    type: contains
+    claim: "The network's dominant product has its own page: cocaine is what every era of this architecture was built to deliver, and the finance-driven dosage arc there is the demand curve this supply chain was answering."
   - page: wiki/people/suzanne-frank
     type: contains
     claim: "Suz is a participant in the network, not only its payment rail: a decade of purchases from Jim Vrabel in her own name, routine cocaine provision to Dan and Annie through 2015-16, and the Cash App account Dan asked her to install in August 2018 that the later supply-era transfers ran through."
@@ -111,7 +114,10 @@ documented signature rupture pattern.** Read as a system, it explains
 things no individual supplier page can: why a $36 debt ended a
 sixteen-year friendship, why a missed handoff helped end a job, and why
 the last months of the Annie relationship ran on an inverted version of
-the same machine.
+the same machine. The dominant product moving through it across every era
+is [[wiki/health/cocaine|cocaine]], whose own page carries the demand side
+of this architecture — the dosage arc, the genesis chronology, and what
+the substance was for.
 
 ## The succession of nodes
 

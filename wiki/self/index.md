@@ -37,8 +37,8 @@ The self domain contains files and data detailing identity, core biographical fa
 - [[wiki/self/concepts/claude]] — Claude (Anthropic): the analytical workhorse, forensic method, Master Forensic Prompt
 - [[wiki/self/concepts/claude-code]] — Claude Code (Anthropic coding agent): the tool-builder, branch/PR workflow, 12+ bin/ tools
 - [[wiki/self/concepts/gemini]] — Gemini (Google): the interaction model, COS-v1 system, psychotherapy, psychometric testing
-- [[wiki/self/concepts/chatgpt]] — ChatGPT (OpenAI): the early adopter, bootloader prototype, cooked model narrative
-- [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — Ally and Dan: Love as Destiny — the evidence-based case for their marriage, timeline from here to wedding
+- [[wiki/self/concepts/chatgpt]] — ChatGPT (OpenAI): the early adopter, the bootloader prototype, and the one-line verdict that retired it
+- [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — a forward projection, not a read of the record: the case that the 17-year Ally attachment ends in marriage, and what would show it wrong
 
 ## chats
 
