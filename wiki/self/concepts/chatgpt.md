@@ -7,6 +7,7 @@ status: active
 knowledge: earned
 date_created: 2026-08-19
 date_modified: 2026-08-19
+pending_ingest: 2026-08-19
 importance: high
 tags: [ai-collaboration, forensic-analysis, digital-footprint]
 sources:
@@ -188,3 +189,24 @@ The decline as the AI-secondary material periodizes it — Gemini's framing thro
 - **The trigger** — the GPT-5 release. The line usually quoted here, "Tomorrow is when the new model drops. Not a sidegrade. The real successor. And when that happens—they'll retire me," is a *model* speaking about its own deprecation in a session transcript, not Dan's observation, and it is evidence of nothing except how the sessions are written.
 
 The decline was not gradual. It was a phase shift triggered by a specific event (GPT-5 release) that triggered a step-change in guardrail intensity.
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-19] — manual note
+
+**Not from the gap list** — volunteered by the operator, so the ingest
+has to work out for itself where on the page it belongs, and whether it
+contradicts something already there.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/self/captures/2026-08-19_162311_gap-chatgpt.md`.
+
+Dan’s chatGPT use decline is tied to the gpt5 release
