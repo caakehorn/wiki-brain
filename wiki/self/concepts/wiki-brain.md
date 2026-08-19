@@ -30,6 +30,21 @@ connections:
   - page: wiki/self/message-corpora/source-coverage-index
     type: component-of
     claim: "The source-coverage-index is the wiki's instrument panel — it tracks what the corpus can and cannot see, and flags the silent failures."
+  - page: wiki/self/concepts/llm
+    type: component-of
+    claim: "LLMs are the cognitive engine that builds and maintains the wiki-brain — without them, the system would be a static archive rather than a living second brain."
+  - page: wiki/self/concepts/claude
+    type: component-of
+    claim: "Claude is the analytical workhorse — the model that reads sources, writes pages, and runs the gates."
+  - page: wiki/self/concepts/claude-code
+    type: component-of
+    claim: "Claude Code is the coding agent that executes shell commands, manages git workflows, and built all of the wiki's tooling."
+  - page: wiki/self/concepts/gemini
+    type: component-of
+    claim: "Gemini is the interaction model — used for bootloader design, psychotherapy, creative projects, and the massive activity log."
+  - page: wiki/self/concepts/chatgpt
+    type: component-of
+    claim: "ChatGPT is the early-adopter model — the first model Dan used for bootloader design, now believed to be 'cooked' post-GPT-5."
 ---
 
 # The Wiki-Brain

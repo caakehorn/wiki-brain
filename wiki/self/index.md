@@ -38,6 +38,7 @@ The self domain contains files and data detailing identity, core biographical fa
 - [[wiki/self/concepts/claude-code]] — Claude Code (Anthropic coding agent): the tool-builder, branch/PR workflow, 12+ bin/ tools
 - [[wiki/self/concepts/gemini]] — Gemini (Google): the interaction model, COS-v1 system, psychotherapy, psychometric testing
 - [[wiki/self/concepts/chatgpt]] — ChatGPT (OpenAI): the early adopter, bootloader prototype, cooked model narrative
+- [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — Ally and Dan: Love as Destiny — the evidence-based case for their marriage, timeline from here to wedding
 
 ## chats
 

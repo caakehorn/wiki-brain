@@ -13,11 +13,11 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 469 |
-| Pages touched in the last 14 days | 115 |
+| Pages | 470 |
+| Pages touched in the last 14 days | 116 |
 | Pages reasoning from other pages (`synthesizes:`) | 28 |
 | Live contradictions | 33 |
-| Open gaps | 330 |
+| Open gaps | 332 |
 | Standing predictions | 13 |
 
 ## By domain
@@ -27,7 +27,7 @@ this is the state of the thing.
 | people | 162 |
 | interests | 143 |
 | mind | 59 |
-| self | 38 |
+| self | 39 |
 | timeline | 36 |
 | work | 15 |
 | places | 8 |
@@ -39,14 +39,14 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 184 |
-| active | 143 |
+| active | 144 |
 | closed | 98 |
 | archived | 31 |
 | stub | 13 |
 
 ## The last few days
 
-**2026-08-19** — 8 pages
+**2026-08-19** — 9 pages
   - synthesis | health | cocaine — new substance profile page
 
 **2026-08-18** — 21 pages
