@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv
@@ -74,6 +74,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "This verdict is not a counter-instance to 'The Irreversibility Firewall' but its cost, stated plainly: the response architecture that converted a survivable betrayal into a decade-long catastrophe is the same no-close, no-audit-on-the-chosen machinery that page derives, and this page is the check against ever offering the mechanism as a defense."
+  - page: wiki/people/alexis-armel
+    type: parallels
+    claim: "The verdict's central distinction — withholding emotional expression versus withholding reality — is what an independent 2026 scoring pass measured as a seven-point spread on non-exploitation between the control case and Annie."
 ---
 
 

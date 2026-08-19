@@ -3,7 +3,7 @@ domain: self
 page_type: summary
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-07-15
+date_modified: 2026-08-17
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_00.md
@@ -44,7 +44,7 @@ The extraction's substance was distributed to these pages (read them, not this i
 | Suzy-call / 10-day blackout forensic, Grim Trigger | [[wiki/self/chats/gemini-07]], [[wiki/timeline/events/eli-incident]] |
 | Bacharach neighborhood glitch, Exterior Shell | [[wiki/self/chats/gemini-13]], [[wiki/people/jacob-bacharach]] |
 | Profile lock / bio dump for Grok transfer | [[wiki/self/chats/gemini-18]], [[wiki/mind/concepts/node-locking]] |
-| Music-guy analysis, jailbreak lab, injection concepts | [[wiki/self/chats/gemini-21]], [[wiki/people/danielle-onesi]], [[wiki/people/max-danielle-bf]] |
+| Music-guy analysis, jailbreak lab, injection concepts | [[wiki/self/chats/gemini-21]], [[wiki/people/danielle-onesi]], [[wiki/people/james-dee]] |
 | Early NYC / ishlab / Creative License / Menore | [[wiki/self/chats/gemini-58]] |
 | J6 / Psyop forensic | [[wiki/mind/synthesis/political-psyops]], [[wiki/self/chats/j6-chat]] |
 | Forensic method (invariant across subjects) | [[wiki/mind/concepts/forensic-method]] |

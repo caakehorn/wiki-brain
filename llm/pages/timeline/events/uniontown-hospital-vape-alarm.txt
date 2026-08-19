@@ -7,7 +7,7 @@ status: closed
 importance: normal
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-18
 date_range: ["2018-04-01", "2018-04-04"]
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
@@ -137,7 +137,7 @@ The hospital's own record — an incident report, a trespass notice, a filed
 citation — has never been sought and would settle both the legal question and
 the exact date. Whether Dan was permitted back onto the property before Fran
 died four days later is unstated in every telling, which matters, because
-[[wiki/people/diane-shrum|Diane]]'s letter had already excluded him from the shift
+[[wiki/people/diane-moore|Diane]]'s letter had already excluded him from the shift
 rotation; the two exclusions may have overlapped without either being the
 operative one. Annie's reaction, once she learned what had happened, is not
 recorded anywhere.

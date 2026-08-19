@@ -4,7 +4,7 @@ page_type: report
 knowledge: mixed
 status: active
 date_created: 2026-07-25
-date_modified: 2026-08-14
+date_modified: 2026-08-18
 sources: ["raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/ancestry/extracted/"]
 tags: [family]
 connections:
@@ -56,8 +56,9 @@ The documentary genealogical record of Dan Frank's ancestry, derived from an Anc
 | Paternal Great-Grandmother | Sadie Harris | 1900-12-14 – 1997-11-27 | Austria – Hopwood, PA | [[wiki/people/sadie-harris]] |
 | Maternal Great-Grandmother | Frances "Fran" Whyel Coldren (b. Jesse Frances **Thomas**) | 1920-08-15 – 2018-04-04 | Fort Martin, WV – Uniontown, PA | [[wiki/people/fran-coldren]] |
 | Maternal Great-Grandfather | Emmet Graden Van Voorhis (Fran's **first** husband) | 1917-08-01 | Dilliner, PA | — |
-| Maternal Grandmother | Rebecca Diane Van Voorhis ("Diane") — **Fran's daughter** | 1939-01-30 | West Virginia | [[wiki/people/diane-shrum]] |
-| Maternal Grandfather | George Dixon Shrum Jr (married *into* the line) | 1937-06-14 | Pittsburgh, PA | — |
+| Maternal Grandmother | Rebecca Diane Van Voorhis ("Diane") — **Fran's daughter** | 1939-01-30 | West Virginia | [[wiki/people/diane-moore]] |
+| Maternal Grandfather | George Dixon Shrum Jr (Diane's **first** husband; married *into* the line) | 1937-06-14 | Pittsburgh, PA | — |
+| Grandmother's second husband | Dave Moore | — | — | [[wiki/people/dave-moore]] |
 
 ## Paternal Jewish Immigrant Heritage
 
@@ -339,6 +340,16 @@ The most geographically mobile of the four grandparents. 17 documented residence
 
 ### Rebecca Diane Van Voorhis Jr. (b. 1939)
 
+> **CORRECTED [2026-08-18] — her married surname is Moore, not Shrum.** The
+> tree previously carried her only under her birth name and the wiki's
+> entity page under an inferred "Shrum." The message corpus names her twice
+> on 2018-04-01 as **Diane Moore**, alongside **Dave Moore**, who is her
+> second husband ([[wiki/people/dave-moore]]). George Dixon Shrum Jr. is the
+> first husband and Suz's father; the Shrum patrilineal line below is
+> therefore Suz's paternal line and stops at her, not a line Diane still
+> carries. Full account at [[wiki/people/diane-moore]].
+
+
 8 documented residences:
 
 | Date | Place |
@@ -385,7 +396,7 @@ graph TD
 > grandfather. The same records give Fran's maiden name as **Thomas** and
 > identify her first husband, closing two gaps
 > [[wiki/people/fran-coldren]] had carried since 2026-08-01. See
-> [[wiki/people/diane-shrum]].
+> [[wiki/people/diane-moore]].
 
 > **REVISED [2026-07-14]:** An earlier pass here inferred that a 2025-09-03 message ("eat n' park delivered frownie cookies to my granfather's funeral i swear to god lmao") referenced George's death around that date, since he was the only grandfather without a recorded death date. Confirmed by Dan to be wrong: the message references Morley Frank's 1998 funeral, recounted in an essay by Dan's cousin Alex Frank — the auto-extracted calendar dated the entry to when Dan referenced the essay (2025), not when the funeral happened (1998). George Dixon Shrum Jr's death date remains genuinely unknown.
 

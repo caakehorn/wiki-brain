@@ -1673,7 +1673,7 @@ legal exposure for Dan — noted here for completeness.
 | 2026-07-23 | Dan answers the email; 52-day severance ends; eight hours of restored intimacy |
 | 2026-07-25 | Leviathan dashboards sent as leverage; Annie states she told her parents everything |
 | 2026-07-26 | Rape allegation, refused supply request, mutual suicidal statements, "whatever goodbye annie" (05:04) |
-| 2026-07-26 | Contact resumes 05:22; transcript published and retracted the same day; Dan messages Ellen at 06:22 — the first executed maternal-disclosure threat on record |
+| 2026-07-26 | Contact resumes 05:22; transcript published and retracted the same day; Dan messages Ellen at 06:22 — **not** the maternal-disclosure threat executed (corrected 2026-08-18) but a life-safety contact made on a belief that Coles had Annie in danger; the threat's execution rate on record stays at zero ([[wiki/people/ellen-ulmer]], [[wiki/mind/synthesis/block-unblock-loop]]) |
 | 2026-07-27 | Supply resumes: $40 in her parents' driveway, traded for a hug, 31 hours after the refusal |
 | 2026-07-28 | 770 messages; twelve-hour standoff over an email to her parents that is never sent |
 | 2026-08-02 | Annie walks to the house and apologises to Suz in person; buys $50 forty minutes later |
