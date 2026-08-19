@@ -13,11 +13,11 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 469 |
-| Pages touched in the last 14 days | 115 |
+| Pages | 470 |
+| Pages touched in the last 14 days | 116 |
 | Pages reasoning from other pages (`synthesizes:`) | 28 |
 | Live contradictions | 33 |
-| Open gaps | 330 |
+| Open gaps | 332 |
 | Standing predictions | 13 |
 
 ## By domain
@@ -26,6 +26,9 @@ this is the state of the thing.
 |---|---|
 | people | 163 |
 | interests | 143 |
+| mind | 59 |
+| self | 39 |
+| timeline | 36 |
 | mind | 60 |
 | timeline | 37 |
 | self | 32 |
@@ -38,6 +41,8 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
+| stable | 184 |
+| active | 144 |
 | stable | 188 |
 | active | 135 |
 | closed | 98 |
@@ -46,6 +51,10 @@ this is the state of the thing.
 
 ## The last few days
 
+**2026-08-19** — 9 pages
+  - synthesis | health | cocaine — new substance profile page
+
+**2026-08-18** — 21 pages
 **2026-08-18** — 57 pages
   - rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
   - ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus

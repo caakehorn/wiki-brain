@@ -9,8 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 33 |
-| Open gaps | 330 |
-| Open gaps | 335 |
+| Open gaps | 332 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 13 |
 
@@ -212,8 +211,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/ally-lubin]]** — **Was the $2,100 accurate?** Dan showed her a screenshot he found convincing. No financial export in `raw/` covers Cash App for 2019.
 - **[[wiki/people/ally-lubin]]** — **What was the "online shit" the spoofed number used for?** Polyak's message is the only account and it does not say. Dan never answers him.
 - **[[wiki/people/ally-lubin]]** — **Have they ever spoken by phone or video?** The thread records at least one completed call (January 9, 2019 — *"I can't believe I got a call tonight"*), several failed FaceTime attempts, and a three-minute silent voicemail. Whether video ever connected is unc
-- **[[wiki/people/ally-lubin]]** — **Is she still alive and well?** The last message from her in the corpus is August 19, 2026 (12:05 AM). Given the volume of documented suicidality in the 2019 material, this is a question the wiki should not leave implicit.
-- **[[wiki/people/ally-lubin]]** — **Has the channel actually changed?** The August 18 exchange is the first sustained mutual-adjacent burst in 17 years. Does the overflow-channel pattern still hold, or has the separation from Annie (June 1, 2026) permanently changed the channel's function?
+- **[[wiki/people/ally-lubin]]** — **Is she still alive and well?** The last message from her in the corpus is August 19, 2026 (10:03 AM). Given the volume of documented suicidality in the 2019 material, this is a question the wiki should not leave implicit.
+- **[[wiki/people/ally-lubin]]** — **Has the channel actually changed?** The August 18-19 exchange is the first sustained mutual-adjacent burst in 17 years, and the first "morning after." Does the overflow-channel pattern still hold, or has the separation from Annie (June 1, 2026) permanently c
+- **[[wiki/people/ally-lubin]]** — **What is Dan's brother's name?** Dan's brother is mentioned but not named in the thread. The brother doesn't talk to the dad, and the dad is described as a "shitbag." The brother's name is not in the corpus.
+- **[[wiki/people/ally-lubin]]** — **What is Eddie/Kimmy's dad's full name?** The father whose death triggered the August 2019 crisis is referenced as "Eddie/Kimmy's dad" but never fully named. The obituary or news article would confirm.
 - **[[wiki/people/ally-lubin]]** — **Negative result, recorded:** she does not appear in `contacts.csv` with an address, in the GEDCOM, in the Twitter export, or in the Facebook search history. The Model Mayhem and "boca raton ally lubin" searches Dan describes on 2019-08-22 are from Google, wh
 - **[[wiki/people/annie-ulmer]]** — The compiled full-record files the dossiers drew from (`Dan_Annie_Full_Text.txt`, `1_year_triad_logs.csv`, `7_days_212_logs.csv`, `14_day_212_logs.csv`) aren't archived in `raw/`; the underlying iMessage data exists and the 88,549-line dual-handle export has b
 - **[[wiki/people/annie-ulmer]]** — Two gaps open with the 2026-08-13 pass. **The severance sweep is 81.6% complete**: 9,259 of Annie's 50,332 in-window received messages — the +17249204125 thread and both email handles, concentrated in 2016 and 2019–2020 — have never been searched for a severan

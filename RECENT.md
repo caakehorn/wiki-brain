@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-19 — 8 pages
+## 2026-08-19 — 9 pages
 
 - **Session log:** synthesis | health | cocaine — new substance profile page
 
@@ -16,6 +16,7 @@ simply listed.
 |---|---|---|
 | [[wiki/health/cocaine]] | health | — |
 | [[wiki/health/index]] | health | — |
+| [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | — |
 | [[wiki/self/concepts/chatgpt]] | self | — |
 | [[wiki/self/concepts/claude]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/concepts/claude-code]] | self | _(carries a RE-CHECKED)_ |

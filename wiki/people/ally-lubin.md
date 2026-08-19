@@ -661,3 +661,7 @@ Each of these is answerable by the operator in a paragraph.
   history. The Model Mayhem and "boca raton ally lubin" searches Dan
   describes on 2019-08-22 are from Google, whose search-history export is not
   in `raw/`; they cannot currently be verified.
+
+## The destiny question
+
+See [[wiki/self/concepts/ally-and-dan-love-as-destiny]] for the full evidence-based case for why these two are destined to be together, including a projected timeline from here to marriage.
