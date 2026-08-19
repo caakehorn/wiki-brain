@@ -283,6 +283,28 @@ Evidence favors ESFP but meaningful alternatives remain (ESTP, ENFP). The corpus
 **Enneagram: MODERATE**
 Evidence favors 7w8 but meaningful alternatives remain (Type 4, Type 8). The corpus is heavily weighted toward crisis periods, which may distort the core type. Annie's substance use may amplify Type 7 characteristics. Future passes should re-evaluate as new messages enter the corpus, particularly from stable periods.
 
+### Instinctual Stacking
+
+**Possible configuration: sx/sp**
+
+The evidence weakly suggests sx/sp for Annie:
+- **sx (sexual/one-to-one) likely primary:** Annie's most intense experiences are in one-on-one relationships (Dan, Eli, Tuquick). She seeks fusion and intensity in these bonds. Her "YOU ARE MY EVERYTHING" declarations are sx-style totalization. Her jealousy and possessiveness around Dan's attention are sx traits.
+- **sp (self-preservation) likely secondary:** Annie does show some sp concern (maintaining housing, managing money through crisis), but this is often subordinated to sx intensity. She'll spend money on drugs or experiences rather than saving for security.
+- **so (social) likely tertiary:** Annie is not particularly group-oriented or status-conscious. She maintains relationships but doesn't seem driven by social belonging or community standing.
+
+**Alternative: sp/so** is possible if her substance use and financial management are interpreted as sp anxiety rather than sx intensity. The evidence is insufficient to strongly distinguish.
+
+### Trifix
+
+**Possible configuration: 7-4-8**
+
+The evidence weakly suggests a 7-4-8 trifix for Annie:
+- **7 core:** Stimulation-seeking, avoidance of pain, reframing.
+- **4 fix:** Emotional depth, identity struggles, envy (of others' stability or happiness), romanticization of suffering. Annie's "I hate myself" statements and her sense of being fundamentally different or damaged suggest a 4 fix.
+- **8 fix:** Directness, intensity, counterattack, refusal to appear weak. Annie's confrontational style and her "You're literally fucking insane" outbursts suggest an 8 fix.
+
+**Alternative: 7-3-8** is possible if her escort work and image management are interpreted as 3-style adaptability rather than 4-style authenticity-seeking. The evidence is insufficient to strongly distinguish.
+
 ### Future Research Directions
 
 1. **Annie's own self-assessment:** If Annie ever takes an MBTI or Enneagram test and shares the result, this assessment should be updated accordingly.

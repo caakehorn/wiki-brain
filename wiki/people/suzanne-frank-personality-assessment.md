@@ -272,6 +272,28 @@ Evidence favors ISTJ but meaningful alternatives remain (ESTJ, ISFJ). The corpus
 **Enneagram: MODERATE**
 Evidence favors 6w7 but meaningful alternatives remain (Type 8, Type 2). The corpus is heavily weighted toward financial conflict, which may distort the core type. Suz's gambling and drinking may amplify 7 wing characteristics. Future passes should re-evaluate as new messages enter the corpus, particularly from stable periods.
 
+### Instinctual Stacking
+
+**Possible configuration: so/sp**
+
+The evidence weakly suggests so/sp for Suz:
+- **so (social) likely primary:** Suz is deeply embedded in her community—the family, the neighborhood, the local economy. She knows everyone and everyone knows her. Her identity is tied to her role in the social fabric (mother, realtor, neighbor). Her conflicts with Dan are often about social perception ("the optics would be bad").
+- **sp (self-preservation) likely secondary:** Suz is intensely focused on financial security, housing, and material survival. Her detailed financial tracking and her anxiety about losing the house are sp traits.
+- **sx (sexual/one-to-one) likely tertiary:** While Suz has intense relationships (with her children, with Fran), she doesn't seem driven by one-to-one fusion or intensity for its own sake. Her relationships are more about duty and social role than about passionate connection.
+
+**Alternative: sp/so** is possible if her financial anxiety is interpreted as primary rather than social embeddedness. The evidence is insufficient to strongly distinguish.
+
+### Trifix
+
+**Possible configuration: 6-2-9**
+
+The evidence weakly suggests a 6-2-9 trifix for Suz:
+- **6 core:** Anxiety, security-seeking, loyalty, testing, worst-case simulation.
+- **2 fix:** Helping, providing, earning love through usefulness. Suz's identity is built around being needed by her children. Her financial support (even when she can't afford it) is 2-style giving.
+- **9 fix:** Conflict avoidance (until she explodes), merging with others' agendas, difficulty identifying personal priorities. Suz's tendency to accommodate until she can't anymore, and her difficulty saying no to her children, suggest a 9 fix.
+
+**Alternative: 6-4-8** is possible if her emotional intensity and confrontational style are interpreted as 4 and 8 traits rather than 2 and 9. The evidence is insufficient to strongly distinguish.
+
 ### Future Research Directions
 
 1. **Suz's own self-assessment:** If Suz ever takes an MBTI or Enneagram test and shares the result, this assessment should be updated accordingly.
