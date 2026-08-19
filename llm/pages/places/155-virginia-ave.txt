@@ -4,7 +4,7 @@ page_type: entity
 title: "155 Virginia Ave"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-03
+date_modified: 2026-08-18
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
@@ -45,6 +45,9 @@ connections:
   - page: wiki/people/zachariah-harshman
     type: evidenced-by
     claim: "From January 2015 the address is Zach's consistent handoff location ('front door is open, i'm in the kitchen'), placing the earliest documented Uniontown supply node inside this same house — and inside the same month the Alexis-to-Annie transfer he later reacts to takes place."
+  - page: wiki/people/diane-moore
+    type: caused-by
+    claim: "The 2018-03-29 eviction notice terminating Dan's residency and demanding the keys was served by 'Dian V. Moore' — identified 2026-08-18 as Dan's maternal grandmother, carried here until then as an unexplained actor."
 ---
 
 

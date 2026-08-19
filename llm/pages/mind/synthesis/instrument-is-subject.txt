@@ -5,7 +5,7 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-16
+date_modified: 2026-08-18
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
@@ -34,6 +34,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "This wiki being written by the instrument it is auditing, using an evidentiary standard its subject authored, is 'The Irreversibility Firewall's' most recursive instance — and the reason that page's own provenance had to be corrected in public rather than quietly."
+  - page: wiki/mind/concepts/the-handed-mirror
+    type: instance-of
+    claim: "A wiki about Dan, built from his own records and published where models will read it, is the handed-mirror behavior industrialized and turned on its own author — the one recipient in the pattern who consented."
 ---
 
 # The Instrument Is Also the Subject

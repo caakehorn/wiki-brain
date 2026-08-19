@@ -278,10 +278,32 @@ domain, and the corpus documents each path:
   redundancy-free node consumed the bond it was embedded in.
 - **The household economy.** The family financial layer was part of the
   network's plumbing: Suz's Cash App transfers facilitated Tom-era
-  purchases, and the 2018 deep cycle ran on ~$750/week borrowed from
-  her. Procurement was never fiscally isolated from the family — a
+  purchases, and the 2018 deep cycle ran on irregular transfers of $20 to
+  $3,000 moving in both directions, entered as debts and never reconciled.
+  Procurement was never fiscally isolated from the family — a
   thread the [[wiki/mind/synthesis/estate-money-spine|money spine]]
   carries forward.
+
+  > **CORRECTED [2026-08-18]:** this bullet previously read *"the 2018 deep
+  > cycle ran on ~$750/week borrowed from her."* Both the rate and its
+  > direction fail against the primary record. The corpus holds a single $750
+  > statement — an accusation about one week, made in a 13 December 2018
+  > argument, on a day she had that morning asked him for $450 — which
+  > `operating_manual.md` (AI-secondary) generalised into a standing rate and
+  > also inverted. The largest documented 2018 movement between them runs the
+  > other way: ~$14,000 from Dan to Suz in August–October, drawn against an
+  > estate that would not distribute for two more years, $4,000 recovered
+  > ([[wiki/people/suzanne-frank]],
+  > [[wiki/mind/synthesis/estate-money-spine]]).
+  >
+  > **The bullet's claim survives and its mechanism changes.** The family layer
+  > was not net-funding procurement; it was the *rail* procurement ran on, which
+  > this page already establishes independently — Suz bought from Jim Vrabel in
+  > her own name for a decade, and the Cash App account the supply-era transfers
+  > ran through is one Dan asked her to install in **August 2018**, the same
+  > month as the $14,000 transfer. Recorded as a dating coincidence rather than
+  > a causal claim: nothing in the record says the drawdown paid for the rail,
+  > only that the two arrived together.
 - **The workday, physically.** At [[wiki/work/au-zaatar|Au Za'atar]],
   Menore delivered mid-shift to the Shed block (primary-confirmed for
   May–Aug 2024; the longer storytime window is unresolved — see

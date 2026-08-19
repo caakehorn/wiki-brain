@@ -3,7 +3,7 @@ domain: timeline
 page_type: period
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-08-18
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/LIFE REPORT.md", "raw/self/dox-md/Gemini-_00.md"]
 related: ["wiki/timeline/events/timeline", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/totality-themes"]
 connections:
@@ -48,7 +48,20 @@ tags: [ai-collaboration, nyc-era, financial-stress, relationships, addiction-rec
 
 **Data profile:** 254 events (highest in sample years). High relationship, financial, addiction/recovery subcats. Master CSV + operating confirm.
 
-**Key events (expanded):** Multiple dealers (Johnny +17243223678 etc), financial velocity (Cash App, mom borrow $750/wk, ATM 1am); Annie shifts "I made it b"; per operating Dec 2018 deep cycle; Ally Lubin; mom "around when need money".
+**Key events (expanded):** Multiple dealers (Johnny +17243223678 etc), financial velocity (Cash App, ATM 1am runs); Annie shifts "I made it b"; per operating Dec 2018 deep cycle; Ally Lubin; mom "around when need money".
+
+> **CORRECTED [2026-08-18]:** the clause above read *"mom borrow $750/wk."* The
+> rate does not exist and its direction is inverted. The corpus holds one $750
+> statement — an accusation about a single week, made in a 13 December 2018
+> argument — which `operating_manual.md` (AI-secondary) generalised into a
+> standing rate. The largest documented 2018 movement between them runs the
+> other way: ~$14,000 from Dan to Suz in August–October, drawn against an
+> estate that would not distribute until September 2020, $4,000 recovered.
+> See [[wiki/people/suzanne-frank]] and
+> [[wiki/mind/synthesis/estate-money-spine]]. What survives is the churn
+> itself — irregular transfers of $20 to $3,000 running both ways, entered as
+> debts and never reconciled — which is what "financial velocity" should have
+> meant here all along.
 
 **Transition:** From 2017 poverty to 2019 NYC move (158 events).
 

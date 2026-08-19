@@ -6,7 +6,7 @@ status: stable
 importance: high
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-18
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
@@ -63,7 +63,7 @@ connections:
   - page: wiki/timeline/events/uniontown-hospital-vape-alarm
     type: contains
     claim: "The SMOK-versus-10W-vape story this page set up with its ending missing resolves as a building-wide fire alarm, four fire trucks and an escort off hospital property — the punchline named here as an open gap since 2026-07-19."
-  - page: wiki/people/diane-shrum
+  - page: wiki/people/diane-moore
     type: caused-by
     claim: "The reason the two people who had kept Fran at home for three years held no shift in Fred Adams's mandated rotation is a letter: Dan's maternal grandmother barred them from the house unsupervised and from visiting without an assigned monitor, sent before the final admission rather than in response to it."
   - page: wiki/people/fred-adams
@@ -72,6 +72,9 @@ connections:
   - page: wiki/timeline/events/annie-alexis-reunion-november-2018
     type: parallels
     claim: "Both events exemplify the 'visible preparation' pattern — mood lighting, dogs moved upstairs, specific choreography enacted for controlled privacy. The Fran vigil (March 2018) used it for grief; the Annie/Alexis reunion (November 2018) used it for arranged intimacy. The difference: one was mourning, one was pleasure, but the household staging is identical."
+  - page: wiki/people/dave-moore
+    type: caused-by
+    claim: "Dan's contemporaneous read of the exclusion letter is that Diane's husband drafted it, which matches the social workers taking day-to-day direction from him two days earlier while Diane was unreachable."
 ---
 
 # The Fran Vigil (March–April 2018)
@@ -116,8 +119,13 @@ account, with cocaine bumps.
 
 What kept him from overriding her is on the record and is not squeamishness:
 he was, in his own words, terrified that if the situation went sideways his
-grandparents — [[wiki/people/diane-shrum|Diane]] and George, who "already
-hated" him — would use it to strip his inheritance "or worse." An
+grandparents — [[wiki/people/diane-moore|Diane]] and
+[[wiki/people/dave-moore|Dave]], who "already hated" him — would use it to
+strip his inheritance "or worse." (The pair was recorded here as "Diane and
+George" until the operator identified them on 2026-08-17 as **"Dian and
+Dave"**: her second husband, not Suz's father. It makes the fear a forecast
+rather than a mood — that same couple served the eviction notice, took the
+hospital's calls and sold the Florida condo within four months.) An
 eight-hour delay in treating a fallen 97-year-old is thereby explained by
 an estate, which is the family's whole architecture in one morning. Fran
 recovered and "ma[de] it a few more months after this spill"; the formal
@@ -194,17 +202,40 @@ away. The full account — including a direct contradiction with the
 sentence above over which of the two of them was in the bathroom — is at
 [[wiki/timeline/events/uniontown-hospital-vape-alarm]].
 
-The family's exclusion order belongs in this sequence too. Dan and Annie
-each received a letter from Dan's maternal grandmother
-[[wiki/people/diane-shrum|Diane]] — Fran's only child — barring them from
-the house unsupervised and from visiting Fran without a family-assigned
-monitor and an advance written request. It had been sent *before* the
-final admission rather than in response to it, and its operative effect
-was that the two people who had held the house together for three years
-were given no shifts in the rotation [[wiki/people/fred-adams|Fred Adams]]
-had mandated. They attended anyway, off the roster, and were the two in
-the room at the end. Dan's own note on being left out is four words long:
-"I wasn't really complaining."
+The family's exclusion order belongs in this sequence too. A letter reached
+Dan from his maternal grandmother [[wiki/people/diane-moore|Diane]] —
+Fran's only child — setting rules for his presence in Fran's house,
+demanding the keys, and closing with the line *"any violation of the rules
+will be considered trespassing."* Its operative effect was that the two
+people who had held the house together for three years were given no
+shifts in the rotation [[wiki/people/fred-adams|Fred Adams]] had mandated.
+They attended anyway, off the roster, and were the two in the room at the
+end. Dan's own note on being left out is four words long: "I wasn't really
+complaining."
+
+> **CORRECTED [2026-08-18] — Annie received no letter, and the date is
+> the terminal week.** This paragraph read: *"Dan and Annie each received
+> a letter… It had been sent before the final admission rather than in
+> response to it."* Dan's contemporaneous messages of 2018-04-03 say
+> otherwise on both counts. On the recipient: *"lol also if they are
+> writing such professional correspondence why wouldn't **Annie get her
+> own letter**"* — one letter, addressed to him; Annie was upset about
+> *that* one. On the date: the eviction notice demanding the keys was
+> served **2018-03-29** and the letter was being read, forwarded and
+> lawyered on **2018-04-03**, the day before Fran died — not "well
+> before." The "well before" framing came from a 2026 capture; where a
+> 2026 recollection and a 2018 message disagree about 2018, the message
+> governs. Whether an earlier visiting-rules letter also existed is held
+> open at [[wiki/people/diane-moore]].
+>
+> The same pass identified the letter's probable author and closed a gap
+> this page was carrying separately. Dan's read on the night of April 3
+> was *"i think **dave** wrote it"* — [[wiki/people/dave-moore|Dave
+> Moore]], Diane's second husband, who two days earlier had been
+> "speaking on her behalf" to the hospital's social workers while she
+> could not be reached. And the "Dian V. Moore" who served the March 29
+> eviction notice, listed in this page's own Gaps as an unidentified
+> actor, is Diane herself.
 
 **The end (April 4).** The wider family — the relatives Dan's telling
 calls "these fucking shitheads" — "did not come to visit her ONE. TIME."
@@ -282,9 +313,11 @@ end.
 **Gaps:** exact date of the first spill (~late 2017?, inferred from
 "a few more months" plus the rotation's December 2017 start); the
 nursing home's name; whether the eviction was executed (Dan remained at
-155 Virginia until Feb 2019 per the residence timeline); Dian V. Moore's
-role/relation to the estate; the exact date the letters from Diane were
-sent, and whether they were hers alone or the wider family's.
+155 Virginia until Feb 2019 per the residence timeline); whether the March
+29 eviction notice, the April 3 letter and the visiting-rules letter Dan
+recalls in 2026 are one document, two or three. **Closed 2026-08-18:**
+"Dian V. Moore" is [[wiki/people/diane-moore|Diane]] herself, and the
+letter's probable author is [[wiki/people/dave-moore|Dave Moore]].
 **Media ledger (not on disk):** `IMG_0569.MOV`
 (the 4 PM hoisting), `IMG_4361.MOV` (last conversation), `IMG_4637.mov`
 (Suz's April 2 visit), `1080p.mov` (post-death snow), `IMG_4647.jpg`

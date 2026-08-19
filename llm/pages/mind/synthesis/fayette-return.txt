@@ -6,7 +6,7 @@ aliases: ["the elastic tether", "regional gravity", "leave-and-come-back"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-11
+date_modified: 2026-08-18
 date_range_start: 1892-01-01
 date_range_end:
 sources:
@@ -208,11 +208,17 @@ solid.
 
 ## Gaps
 
-- **The maternal line is not assessed.** The ancestry material notes the
-  Van Voorhis / Whyel / Coldren lines are *also* Fayette-anchored. If they are,
-  the pull may be regional rather than lineal and the "paternal line" framing is
-  too narrow — the rule would need restating as a property of the county, not
-  the surname. This is the most important open question on the page.
+- **The maternal line is assessed as of 2026-08-18, and the answer is mixed**
+  (see the re-check below). The Van Voorhis / Whyel / Coldren lines *are* also
+  Fayette-anchored — the majority of all 90 direct ancestors die within twenty
+  miles of Uniontown — and [[wiki/people/fran-coldren|Fran Coldren]] supplies a
+  maternal leave-and-return with a Fayette terminus. So the pull is at least
+  partly regional, and this page's parsimony argument against
+  [[wiki/mind/synthesis/ancestral-dialectic]] does not survive that. **What is
+  now open is narrower and sharper:** whether the rule describes a lineage or a
+  county. [[wiki/people/diane-moore|Diane Van Voorhis]] — thirty-five years in
+  Michigan, no attested return, no terminus yet — is the case that will
+  separate them, and nothing else in the tree does.
 - **Collaterals unchecked.** The rule is asserted over the direct line of
   descent only. The 515-individual GEDCOM contains siblings and cousins who
   have not been enumerated, and falsifier 1 most likely lives there.
@@ -231,6 +237,73 @@ solid.
   the county rather than distinctive. Nothing here compares the line against a
   regional base rate, and until it does, "elastic tether" is a description and
   not yet an explanation.
+
+> **RE-CHECKED [2026-08-18] — the page's most important gap is now half-closed,
+> the geographic rule survives and widens, and the parsimony argument it uses
+> against the dialectic does not survive intact.**
+>
+> **The premise that moved.** [[wiki/self/ancestry]] was rewritten on 2026-08-14
+> from a direct GEDCOM extraction — 515 individuals, **90 direct ancestors**,
+> four grandparental lines, geographic concentration tables and six migration
+> corridors. This page's top gap read: *"The maternal line is not assessed… If
+> they are [Fayette-anchored], the pull may be regional rather than lineal and
+> the 'paternal line' framing is too narrow."* The rewrite assesses it. The
+> answer is **yes, partly** — and it cuts both ways.
+>
+> **The rule widens and holds.** Of the 90 direct ancestors traced, *"the
+> majority were born, lived, and died within a twenty-mile radius of
+> Uniontown"* — across **both** sides of the tree, not the Frank line only. The
+> rule stated on this page as *the terminus is always Fayette* is not merely
+> unbroken; it is now the family-wide default rather than a paternal
+> peculiarity. The maternal line also supplies a clean confirming instance this
+> page never had: **[[wiki/people/fran-coldren|Fran Coldren]]** runs McDowell
+> Co. WV → Monongalia Co. WV → Smithfield, Fayette Co. → **Miami Beach, FL** →
+> **Uniontown**, dying there in 2018. That is a leave-and-return with a Fayette
+> terminus, executed on the maternal side, by the most geographically mobile
+> ancestor in the entire tree.
+>
+> **What it costs — and this is the real result of the re-check.** The section
+> "What this does to the psychological reading" argues against
+> [[wiki/mind/synthesis/ancestral-dialectic]] on **parsimony**: the return is
+> *"fully documented within the paternal line alone,"* so a two-line dialectic
+> is *"not required to explain it."* That inference no longer follows. It was
+> valid only while the maternal line was unassessed — the argument's force came
+> from *absence of evidence about the other side*, not from evidence of its
+> absence. Now that the maternal line is assessed and turns out to be
+> Fayette-anchored too, "the paternal line reproduces the pattern by itself"
+> remains **true** and stops being **distinctive**, which is the property the
+> parsimony argument needed. The dialectic is still unproven and still
+> testimony against residue; it is no longer *outcompeted on parsimony* by this
+> page. The CONTRADICTION block above should be read with that correction
+> attached: its second point (the fifteen-year New York layover) is untouched
+> and still stands.
+>
+> **And the rule gets its first real counterexample candidate — from the side
+> this page does not cover.** [[wiki/people/diane-moore|Rebecca Diane Van
+> Voorhis]], Dan's maternal grandmother, is described in the rewrite as *"the
+> line's one documented departure from the Pennsylvania/West Virginia
+> region"*: Farmington Hills, Michigan **1985–2010**, then Stanwood, Michigan
+> **2013–2020**. Thirty-five years out of region, no attested return, and she is
+> still living, so no terminus is on the record at all.
+>
+> She does **not** falsify the rule as written — it is stated over the paternal
+> Frank line from G2, and she is maternal and not a Frank. That is exactly why
+> she matters. She is the sharpest available test of whether this page has been
+> describing *a lineage* or *a county*, and the two readings have until now made
+> identical predictions. If the pull is regional, she is an anomaly the account
+> owes an explanation for; if it is lineal, she is simply outside the claim and
+> the concentration statistic above is doing less work than it appears to.
+> **The page cannot currently tell these apart, and should stop implying it
+> can.** Falsifier 1 is hereby widened: it asks for a line member who left and
+> died elsewhere, and the cheapest place to run it is no longer the unchecked
+> collaterals but Diane's own terminus, when there is one.
+>
+> **A cascade, found and run.** [[wiki/people/diane-moore]] still recorded
+> Farmington Hills 1985–2010 as *"the only geographic fact the corpus supplies
+> about her adult life."* The 2026-08-14 ancestry rewrite added the Stanwood
+> 2013–2020 residence four days before that page was last touched, and it never
+> reached it — so the page was declaring a scarcity the corpus had already
+> relieved. Corrected there on 2026-08-18.
 
 > **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
 > [[wiki/people/rick-frank]] gained a corrected, two-sided reading of the
