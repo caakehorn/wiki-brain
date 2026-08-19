@@ -4,6 +4,90 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-19] - Session: five climbs, and the taste record turned out to say the opposite of what the wiki had recorded
+
+* **Model:** Claude Code · **Branch:** `claude/wiki-synthesis-insights-5umt91`
+* **Trigger:** Operator: *"Can you do a deep dive on the wiki and create 5 new articles using synthesis of the data. Try to find things about the way that I think or see the world that are visible when looking at the totality of data available in the wiki."*
+* **Method:** CLIMB per `SYNTHESIS_SPEC.md`, five times, taken **outside** `synthesis-queue.md` — the miner scores clusters of ground pages and structurally cannot surface a doctrine-layer cluster, which is what this request wanted. Two of the five deliberately target domains `bin/wiki-climb audit` reported as having nothing above them (`places`, `legal`). Every climb was required to add primary measurement its premises lacked.
+
+**Read this first if you are picking up the thread.** The single most useful
+thing this pass did was run arithmetic over `raw/self/favorites/FAVS
+MASTERLIST.csv` that nobody had run. Three wiki pages
+(`favorites/eclecticism`, `favorites/taste-profile`, `favorites/books`) read
+2,016 curated entries across 1,477 artists and 98 authors as **eclecticism**.
+By subject rather than by creator the same file is the opposite: **half the
+book shelf is two subjects carried by 44 different authors with zero overlap.**
+That one count produced two of the five pages and falsified a limb of an
+existing T3.
+
+**The five new pages.**
+
+| Page | Domain | The rule |
+|---|---|---|
+| `wiki/mind/synthesis/closing-the-set` | mind | Intake is **set-closure, not taste**. The unit is a bounded object with a findable edge; one account per witness closes it, which is why 86.6% of creators appear exactly once. Obsessions terminate when the set does — the Rome year stops at Augustus because the Republic does. |
+| `wiki/health/the-configured-body` | health *(first junction)* | The body is **specified at the input, surveilled at the output, never maintained**. The composition regime and the substance stack are one faculty; hyperreflexivity is the other; there is no third. |
+| `wiki/mind/synthesis/the-commissioned-self` | mind | Self-knowledge is **commissioned, not conversational**. Eleven instruments, all at Dan's request, and the whole vocabulary appears **17 times in 106,629 messages**. |
+| `wiki/mind/synthesis/the-cato-seat` | mind | Every curated identification object occupies one seat: **accurate, early, unable to intervene**. No figure in the corpus was right and won and kept it. |
+| `wiki/places/the-unpapered-address` | places *(first junction)* | Housing is a **relationship benefit, not a contract**. Seven addresses, sixteen years, no lease/rent/signatory anywhere. |
+
+**Findings that change existing pages** (full accounting in `log.md`):
+
+1. **`single-channel`'s evaluative leg is falsified.** Taste-record Gini
+   **0.188 / 0.166 / 0.000** against the contact graph's **0.9601**. That page
+   had itself scored the leg as its weakest — *"a reading rather than a
+   measurement."* Now measured, inverted. `totality-themes` re-checked, edge
+   narrowed; the firewall survives on the relational leg, because **a collection
+   is not a channel.**
+2. **The one first-person self-typing in the corpus is `5w6sx RLOEI`** (2024-11-04,
+   Dan quoting his own prompt), against the profile cluster's **5w4 / RLUEI**.
+   The wing is load-bearing. Held open as a `CONTRADICTION`, deliberately not
+   resolved.
+3. **`chemical-architecture`'s "no dental anywhere in 17 years" is wrong** — a
+   full autumn-2017 episode including surgery and a kept follow-up, plus 2020 and
+   2024 appointments. Which also contradicts Dan's own 2025 account. Care is
+   **episodic and reactive**, not absent. The prescriber gap is closed too.
+4. **`supply-network` may have the Suboxone topology backwards** — June 2025 has
+   the prescription as the default path and Tom as the failover. Held open.
+5. **307 E 76th rent recovered**: $2,450 → $2,700 (May 2024).
+6. **New dated event**: 2024-10-27, Dan declares a lease exit at 307 E 76th and
+   never executes it — four months before the physical separation.
+7. **`2020-left-turn` was missing its material stake** — healthcare access, named
+   in the first person, six months before the page's conversion date.
+
+**Resume points, highest value first.**
+
+* **Do the `the-unbroken-bond` ← `enneagram-5w4` staleness pair first.** It is
+  the only one of the 14 new warnings where the premise gained a *contradiction*
+  rather than an addition, and a 5w6 reading would move the sx/sp fusion account
+  that page leans on. The other 13 are itemised in `BACKLOG.md` with the reason
+  each is believed cheap; that belief is a hypothesis, not a result.
+* **Collect what other people say Dan is like.** Named as the missing control on
+  `the-commissioned-self` and genuinely absent: 110,944 inbound messages from 503
+  handles and **no characterisation of Dan by anyone who is not him or an
+  instrument he commissioned.** Cheapest high-value operation in the repo right now.
+* **Test the music exception on `closing-the-set`.** Music is 92% of the curated
+  record by volume and the page explicitly declines to claim it — 47% of entries
+  released 2024+, which is a currency pattern rather than coverage. If the CSV's
+  `Origin` column distinguishes hand-added rows from Spotify imports, one query
+  settles whether that column measures a person or a platform.
+* **Two one-query external searches** would outrank the whole housing page: the
+  Fayette County recorder on the 463 Morgantown parcel (the Arnu lien deadline
+  elapsed 2026-07-27, still unresolved), and the 307 E 76th lease signatory.
+* **Do not treat the art-tag table as settled.** `the-cato-seat`'s strongest
+  exhibit — 24 of 25 works on six themes — rests on tags Dan applied himself,
+  possibly with a model's help. The `ART MATRIX` source behind those 25 entries
+  has not been read to establish who wrote them. If they are AI-generated the
+  table drops from residue to testimony.
+
+**Also fixed:** six pre-existing gate errors on the three pages created earlier
+on 2026-08-19 by the parallel model (`astrology-star-signs`, the two
+`-personality-assessment` pages) — wiki paths in `sources:` moved to
+`synthesizes:`, two dangling connection targets removed.
+
+**Gates:** wiki-lint **0 errors** · wiki-connect check **0 errors**, 255 warnings
+(unchanged) · wiki-climb check **0 errors**, 14 warnings (all created by this
+pass's write-backs, all itemised). `bin/wiki-digest` and `bin/llm-publish` re-run.
+
 ### [2026-08-19] - Session: audit of the last three days — the Aug 19 batch was quoting a model as the operator
 
 * **Model:** Claude Code · **Branch:** `claude/wiki-brain-entries-qa-zhtr07`

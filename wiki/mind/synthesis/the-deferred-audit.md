@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-18
+date_modified: 2026-08-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -61,6 +61,12 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "This page's clock rule — imposed objects audited on contact, chosen objects only after they fail — is the timing mechanism 'The Irreversibility Firewall' elevates to doctrine scope; the reconciling insight (auditing a chosen object risks a verdict on the chooser) is that page's actual engine."
+  - page: wiki/health/the-configured-body
+    type: instance-of
+    claim: "The body is the first object in the corpus to run both clocks at once rather than being filed on one side of the sort: the configuration is chosen and gets the imposed-object treatment (preemptive, absolute, on contact), while the substrate underneath it is deferred until it fails, and the two lost teeth are what accumulates on the seam."
+  - page: wiki/places/the-unpapered-address
+    type: instance-of
+    claim: "This page's 463 Morgantown prediction — that a chosen housing arrangement gets reconstructed only after it fails — was already true six times over before it was made: seven addresses across sixteen years, every one unpapered, none ever audited while standing."
 ---
 
 # The Deferred Audit

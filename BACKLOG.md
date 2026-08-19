@@ -223,3 +223,63 @@ months. Do not close this by assuming.
 Do **not** delete the empty files. `raw/` is immutable, and per the
 2026-08-13 doctrine on artifacts that produced a documented failure, they are
 retained as the worked example behind this backlog item.
+
+---
+
+## [2026-08-19] Fourteen cheap staleness re-checks left by the five-climb pass
+
+`bin/wiki-climb check` reports **14 STALE warnings**, all created on 2026-08-19
+by write-back edges from five new synthesis pages. They are recorded here rather
+than cleared, because CLAUDE.md's one prohibited move is bumping a date to
+silence a warning, and "the change was additive" is a hypothesis until somebody
+reads it.
+
+**The one that was not cheap has been worked already.**
+`totality-themes` ← `single-channel` was a real premise movement — the
+evaluative leg of the four-domain concentration claim was measured for the first
+time and came back inverted (taste-record Gini 0.188 against the contact graph's
+0.9601). The re-check is on `totality-themes`, the edge claim is narrowed, and
+the Irreversibility Firewall's reading survives on the relational leg alone.
+
+**The remaining fourteen are believed additive.** In each case the premise
+gained a typed edge and, on five pages, a `CONTRADICTION` block; no figure, date
+or conclusion the dependent reasons from was altered. Expected cost is one
+grep per pair.
+
+| Dependent | Premise that moved | Why it is believed cheap |
+|---|---|---|
+| `the-cool-metric` | `interests-as-era-markers` | Gained a set-closure section; the "admission criterion upstream of intake" claim is untouched |
+| `dormancy-not-exit` | `424-bedford-ave`, `155-virginia-ave` | Both gained one edge into `the-unpapered-address`; lair-continuity is unaffected, though the 155 Virginia *lease holder* question is now live and bears on it |
+| `read-receipt-forensics` | `forensic-method` | One edge added; no instrument-defect claim touched |
+| `the-unbroken-bond` | `enneagram-5w4` | Gained a `CONTRADICTION` on the wing code — **this one may not be cheap**, since a 5w6 reading would change the sx/sp fusion account the bond page leans on |
+| `alexander-jackson`, `arnu`, `john-carney`, `suzanne-frank` | `463-morgantown` | One edge plus a "seventh instance" section; no risk-table row changed |
+| `suzanne-frank` | `337-saratoga-drive` | One edge; the Chapter 13 account is untouched |
+| `jerad-friedline`, `2020-2021-market-era`, `fastly-fsly` | `context-core` | One edge added to the spine; no figure changed |
+
+**Do the `the-unbroken-bond` ← `enneagram-5w4` pair first.** It is the only one
+where the premise gained a contradiction rather than an addition.
+
+## [2026-08-19] Collect what other people say Dan is like
+
+Named as the missing control on `wiki/mind/synthesis/the-commissioned-self`. The
+corpus holds 110,944 inbound messages from 503 handles and the wiki has **no
+independent characterisation of Dan by anyone who is not either him or an
+instrument he commissioned** — no clinician, no employer instrument, no
+third-party account. A pass over inbound messages for second-person description
+would give the psychological layer its first outside input, and it is cheap:
+`bin/mine-messages grep --dir Received` over a small set of framings
+(*"you always", "you're the kind of person", "that's so you"*) would produce a
+first sample in an afternoon.
+
+## [2026-08-19] Two one-query questions the housing synthesis cannot answer
+
+`wiki/places/the-unpapered-address` establishes that no lease, rent figure or
+signatory exists in the corpus for any of seven residences. Two of its gaps are
+answerable from outside `raw/` and would outrank the whole page:
+
+- A **Fayette County recorder/prothonotary search** on the 463 Morgantown parcel
+  — settles the elapsed Arnu mechanics-lien deadline, which has been open since
+  ~2026-07-27 and is already flagged on `wiki/legal/463-morgantown`.
+- The **307 E 76th lease signatory**. The rent is now known ($2,450 → $2,700);
+  the name is not, and it decides whether Dan was ever a named party to a
+  residential lease at all or only ever an occupant.

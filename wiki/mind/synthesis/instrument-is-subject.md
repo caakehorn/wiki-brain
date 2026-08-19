@@ -5,7 +5,7 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-18
+date_modified: 2026-08-19
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
@@ -37,6 +37,9 @@ connections:
   - page: wiki/mind/concepts/the-handed-mirror
     type: instance-of
     claim: "A wiki about Dan, built from his own records and published where models will read it, is the handed-mirror behavior industrialized and turned on its own author — the one recipient in the pattern who consented."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: instance-of
+    claim: "The recursion this page names at the level of authorship has a second loop underneath it: the psychological layer the wiki reasons from was itself commissioned by the subject, over corpora he chose, under instructions he wrote — so there is no independent observer at any point in the stack, and the seven frameworks' agreement carries almost no information."
 ---
 
 # The Instrument Is Also the Subject

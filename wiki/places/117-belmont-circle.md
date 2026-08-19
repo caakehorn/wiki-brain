@@ -5,7 +5,7 @@ title: "117 Belmont Circle"
 status: closed
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-08
+date_modified: 2026-08-19
 date_range_start: 1961-02-08
 date_range_end: 2019-07-11
 sources:
@@ -47,6 +47,9 @@ connections:
   - page: wiki/people/rod-banks
     type: co-occurs
     claim: "'Fran's house' in the Rod Banks messages is this address, placing an outside supply-adjacent contact in the Belmont Circle orbit during the caregiving year."
+  - page: wiki/places/the-unpapered-address
+    type: evidences
+    claim: "Occupancy earned as a paid caregiving arrangement inside a relative's house is tenure-by-relationship in its purest form: access granted by a person, ending when that person died, with no instrument anywhere in it."
 ---
 
 # 117 Belmont Circle

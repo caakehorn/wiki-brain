@@ -3,10 +3,14 @@ domain: interests
 page_type: synthesis
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-08-19
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv", "raw/self/dox-md/FAVORITES DATA (2).md", "raw/self/google-drive-export/goodreads_library_export.md"]
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/overview", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/timeline/events/timeline", "wiki/interests/favorites/books/want-to-read"]
 tags: [politics, personality-profile, ai-collaboration]
+connections:
+  - page: wiki/mind/synthesis/closing-the-set
+    type: contradicts
+    claim: "The 98-authors-across-120-books figure is read here as range and is the opposite: 60 of the 120 are two subjects carried by 44 different authors with no overlap, so the author-level spread is the residue of exhaustive coverage of two events rather than evidence of breadth."
 ---
 
 # Book Favorites
@@ -155,3 +159,21 @@ Cross-referenced: [[wiki/self/facebook]], [[wiki/self/context-core]], [[wiki/int
 **Topics:** [[wiki/interests/favorites/books/topics/politics]] · [[wiki/interests/favorites/books/topics/trump]] · [[wiki/interests/favorites/books/topics/journalism]] · [[wiki/interests/favorites/books/topics/history]] · [[wiki/interests/favorites/books/topics/ancient-history]] · [[wiki/interests/favorites/books/topics/war]]
 
 **Want to read:** [[wiki/interests/favorites/books/want-to-read]] — 149 unread titles, same obsessions (Rome, Trump-era politics, intelligence/conspiracy history) plus a distinct NYC-history thread.
+
+> **CONTRADICTION [2026-08-19] — "98 unique authors" is not evidence of range.**
+> This page, and [[wiki/interests/favorites/eclecticism]] alongside it, read 120
+> books across 98 authors as breadth. Counted by subject rather than by author,
+> the shelf is the opposite. **Forty of the 120 books are tagged `trump` or
+> `jan-6`, carried by thirty different authors. Twenty are tagged
+> `roman-republic`, `ancient-history` or `caesar`, carried by fourteen. The two
+> sets do not overlap, so exactly half the collection is two subjects read
+> through forty-four hands.** Eighty-five of the 98 authors appear exactly once
+> — 86.7% — because one account per witness is all that exhaustive coverage of a
+> single event requires.
+>
+> The author-level spread is therefore *produced by* subject-level monomania
+> rather than standing against it, and the same shape holds in the other
+> categories: 86.6% of 1,477 musical artists appear once, and the 25 artworks
+> have 25 different creators. Full argument, distributions and Gini coefficients
+> at [[wiki/mind/synthesis/closing-the-set]]. Nothing in the tables above is
+> withdrawn; what changes is what they are evidence of.

@@ -4,7 +4,7 @@ page_type: entity
 title: "337 Saratoga Drive"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-18
+date_modified: 2026-08-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -30,6 +30,9 @@ connections:
   - page: wiki/people/annie-ulmer
     type: co-occurs
     claim: "The move-out notice ('we have to move out in like 3 weeks') lands the same week as the June 1, 2026 relationship severance — one of three compounding crises Dan named together, alongside a job termination and a friendship's collapse, as his own coined 'aura illness.'"
+  - page: wiki/places/the-unpapered-address
+    type: evidences
+    claim: "The one residence in the record decided by real recorded paper was decided by somebody else's — a deed, a Chapter 13 docket and a court drop-dead provision all belonging to Suz — which is the control that proves the rule rather than breaking it."
 ---
 
 # 337 Saratoga Drive

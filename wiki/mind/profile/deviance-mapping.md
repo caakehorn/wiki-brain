@@ -5,7 +5,7 @@ title: "Deviance Mapping — The Statistical Outlier Audit"
 aliases: ["deviance audit", "social deviances"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-19
+date_modified: 2026-08-19
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ SOCIAL DEVIANCES.rtf
@@ -25,6 +25,9 @@ connections:
   - page: wiki/mind/psychosexual/taboo-and-boundary-testing
     type: evidences
     claim: "This audit's 96/100 score (90% confidence) for the 'psychosexual operating system' — the fourth-most-unusual domain of ten — is independent statistical framing that converges with the taboo-seeking claim on that page without being derived from it."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: evidences
+    claim: "The audit's own second-ranked outlier states this page's thesis better than anything else in the corpus: 'recursive self-analysis as a life project' at 98/100, with writing his own psychological operating manual named as 'his primary occupation' — an instrument scoring the frequency of its own commissioning."
 ---
 
 # Deviance Mapping — The Statistical Outlier Audit
@@ -131,3 +134,17 @@ this entire profile cluster.
 are single-model judgments with no inter-rater check; the audit predates the
 June 2026 closure and the 2026 work/housing shocks, all of which bear
 directly on the "relationships" and "values" rows.
+
+## The audit as an instance of what it scores
+
+Outlier #2 — *"recursive self-analysis as a life project"* at 98/100, with
+writing his own psychological operating manual named as *"his primary
+occupation"* — is a measurement this audit is itself an instance of. It was
+commissioned in August 2025 by the person it scores, over material he supplied,
+and it is one of at least eleven such instruments in the corpus. That does not
+make the score wrong; it makes it self-demonstrating, and it is the clearest
+single statement anywhere in the corpus of the problem
+[[wiki/mind/synthesis/the-commissioned-self]] sets out: this wiki's entire
+psychological layer is a self-commissioned reading with no independent observer
+at any point in it, and the vocabulary it produces appears seventeen times in
+106,629 messages of actual life.
