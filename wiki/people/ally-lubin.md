@@ -34,6 +34,7 @@ infobox:
   role: "STEM professional (remote, Charlotte, NC)"
   first_contact: 2011-05-20
   handles: ["+156****1550", "allylubin@gmail.com"]
+  mbti: ENFP
   known_for: "Seventeen years of one-sided idolization of a woman Dan has never met, converted in 2019 into a paid channel — 'i've sent 2100 and have like 2 pictures and im STILL trying' — now, in 2026, the first mutual exchange in the channel's history"
 connections:
   - page: wiki/people/dan-polyak
