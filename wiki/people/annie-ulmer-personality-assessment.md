@@ -31,80 +31,108 @@ ESFP (Extraverted, Sensing, Feeling, Perceiving) is the most defensible MBTI typ
 
 ### Cognitive Function Stack
 
-1. **Dominant: Se (Extraverted Sensing)** — Annie lives in the present moment, reports concrete details in real-time, uses sensory language ("My body aches," "I'm leaving now going home to shower"), and reacts to immediate circumstances rather than abstract possibilities.
+1. **Dominant: Se (Extraverted Sensing)** — Annie lives in the present moment, reports concrete details in real-time, uses sensory language, and reacts to immediate circumstances rather than abstract possibilities.
 2. **Auxiliary: Fi (Introverted Feeling)** — Annie makes decisions based on internal values and emotional congruence. She expresses emotions openly, uses "I love you" as a relational tool, and her identity is tied to her feelings about herself and others.
-3. **Tertiary: Te (Extraverted Thinking)** — Under stress, Annie can become direct and confrontational ("THERE IS NO SITUATION," "You're literally fucking insane"). She uses external logic to defend herself when cornered.
+3. **Tertiary: Te (Extraverted Thinking)** — Under stress, Annie can become direct and confrontational. She uses external logic to defend herself when cornered.
 4. **Inferior: Ni (Introverted Intuition)** — Annie struggles with long-term planning, pattern recognition, and abstract thinking. She doesn't anticipate consequences or see underlying trajectories. Her life is reactive, not strategic.
 
 ### Evidence for Se (Dominant)
 
-**Concrete, present-tense communication:**
-Annie's messages report what is happening now, not what it means or where it's going. When asked about her day, she describes physical sensations ("My body aches"), immediate actions ("I'm leaving now going home to shower"), and real-time events ("I pricked myself with a needle").
+**Mechanism:** Se-dominant types process reality through immediate sensory input and direct engagement with the present environment. They report what is happening now, not what it means or where it's going.
 
-**Sensory language:**
-The corpus is rich in sensory descriptions. She doesn't abstract her experience — she reports it directly. "I'm cold," "It hurts," "I'm tired" — these are immediate physical states, not metaphors or symbols.
+**Evidence 1 — Concrete, present-tense reporting:**
+Across the corpus, Annie's messages report immediate physical states and real-time events. On 2016-01-10: "My body aches." On 2016-05-13: "I'm leaving now going home to shower." On 2015-12-09: "I pricked myself with a needle / I know I said I would stop / I'm trying Dan." These are not abstract reflections — they are real-time sensory reports.
 
-**Real-time reactivity:**
-Annie responds to immediate circumstances without abstraction or theorizing. When Dan is sick, she doesn't discuss the implications of illness — she brings medicine. When she's upset, she doesn't analyze why — she cries or lashes out.
+**Evidence 2 — Physical caregiving as love language:**
+When Dan is sick (2016-01-07: "Annie I slept for 18 hours / And I think I'm dying"), Annie doesn't discuss the implications of illness — she brings medicine. Her care is physical and immediate, not analytical or strategic.
 
-**Physical caregiving as love language:**
-Annie's primary way of showing affection is through physical presence and caregiving. She brings medicine when Dan is sick, she's physically present during crises, and she uses touch and proximity to communicate what she feels.
+**Evidence 3 — Stimulus-seeking through direct engagement:**
+Annie's drug use escalates through direct physical experimentation: snorting → pricking (2015-12-02) → attempting to shoot up (2016-01-05: "I did try to shoot this morning.. I couldn't get a vain"). Each step is a new sensory experience, not an abstract exploration.
 
-**Stimulus-seeking behavior:**
-Annie pursues immediate experiences — drugs, sex, new relationships, new places. She doesn't plan these experiences abstractly; she encounters them and engages. Her drug use escalates through direct physical experimentation (snorting → pricking → shooting up), each step a new sensory experience.
+**Evidence 4 — Real-time reactivity without abstraction:**
+When Dan confronts her about the Eli affair (2024-10-19), Annie doesn't analyze the situation or consider long-term consequences — she responds immediately: "THERE IS NO SITUATION." Her reaction is visceral, not calculated.
+
+**Contradiction testing:**
+Annie sometimes appears to plan ahead (the escort work, the affair with Eli). But closer examination shows these are not true Ni-style planning — they are Se-style engagement with immediate opportunities. The escort work is transactional and present-focused. The affair is maintained day-by-day, not as part of a larger strategy. When the affair is discovered, she has no exit plan — she simply denies and reframes.
+
+**Why this is diagnostically useful:**
+Se-dominant types are distinguished from Ne-dominant types by their relationship to possibility. Se types engage with what IS; Ne types explore what COULD BE. Annie's corpus contains almost no evidence of divergent thinking, counterfactual reasoning, or fascination with abstract possibilities. She doesn't ask "what if?" — she asks "what's happening?"
 
 ### Evidence for Fi (Auxiliary)
 
-**Emotionally driven decisions:**
-Annie's choices are guided by feelings, not logic or systems. She stays in relationships because she feels connected to the person. She leaves when she feels trapped or bored. She uses substances to change how she feels. Every major decision in the corpus can be traced to an emotional imperative.
+**Mechanism:** Fi-auxiliary types make decisions based on internal values and emotional congruence. They express emotions openly, use "I love you" as a relational tool, and their identity is tied to their feelings about themselves and others.
 
-**Identity tied to relationships:**
-Annie defines herself through her connections to others. "YOU ARE MY EVERYTHING," she writes on day three of the relationship. Her sense of self is not built on internal principles or achievements — it's built on who she loves and who loves her.
+**Evidence 1 — Emotionally driven decision-making:**
+On 2015-12-02, when her mother objects to the relationship, Annie writes: "I'd rather lose all of them then to not be with you." This is not a logical argument — it is an emotional declaration. She chooses based on feeling, not on practical consequences.
 
-**Emotional expressiveness:**
-Annie externalizes emotions constantly. "I love you," "I hate myself," "I'm so sorry," "I'm scared" — these are not calculated statements; they are immediate emotional expressions. The 5.3% love-language rate in 2016 (peaking at 5.7% for Dan's own rate) shows emotional expressiveness as a primary relational mode.
+**Evidence 2 — Emotional expressiveness as primary communication:**
+Annie's love-language rate peaks at 5.3% of all her messages in 2016 — the highest of any year in the decade. "I love you" is not a calculated statement for her; it is an immediate emotional expression. When she feels it, she says it.
 
-**Values-based resistance:**
-Annie resists actions that violate her internal sense of right and wrong — even if inconsistently applied. She objects to Dan's surveillance not because it's impractical but because it feels violating. She resists being controlled not because it limits her options but because it feels wrong.
+**Evidence 3 — Identity tied to relationships:**
+On 2015-11-29 (day three of the relationship), Annie writes: "YOU ARE MY EVERYTHING" and "You are my full life." Her sense of self is not built on internal principles or achievements — it is built on who she loves and who loves her.
+
+**Evidence 4 — Reframing accusations as emotional injuries:**
+Across multiple confrontations, when Dan challenges her behavior, Annie doesn't address the behavior — she immediately reframes the discussion around how the accusation makes her feel. On 2024-08-09: "It's just so fucking degrading to be made to feel like I AM the one who has created a trust-less situation." The external accusation is converted into an internal emotional injury she can process.
+
+**Contradiction testing:**
+Annie sometimes appears to use Fe (harmonizing with others' emotions). But closer examination shows this is not Fe — it is Fi-style emotional expression directed outward. She doesn't adapt her communication to others' comfort levels; she expresses her own feelings and expects others to accommodate them. When she says "I love you," she is sharing her emotional state, not maintaining relational harmony.
+
+**Why this is diagnostically useful:**
+Fi-auxiliary types are distinguished from Fe-auxiliary types by the direction of emotional energy. Fi types express from the inside out; Fe types adapt from the outside in. Annie's emotional communication is consistently from the inside out — she shares what she feels, not what others want to hear.
 
 ### Evidence for Tertiary Te
 
-**Directness under pressure:**
-When cornered, Annie becomes blunt and confrontational. "THERE IS NO SITUATION." "You're literally fucking insane." "Grow up. And fucking fucking trust me." These are not nuanced arguments — they are forceful assertions designed to end the conversation and reassert control.
+**Mechanism:** Te-tertiary types can become direct and confrontational under stress. They use external logic to defend themselves when cornered, but this is not their natural mode — it emerges under pressure.
 
-**External logic in defense:**
-When Annie needs to justify herself, she appeals to external facts rather than internal feelings. "I was at work." "I was with my grandmother." "I was sick." These are concrete, verifiable claims — Te functioning as a defense mechanism rather than a primary mode.
+**Evidence 1 — Directness under pressure:**
+On 2024-10-19, when Dan confronts her about Eli, Annie doesn't withdraw or process internally — she attacks directly: "THERE IS NO SITUATION." / "You're literally fucking insane." / "Grow up. And fucking fucking trust me." This is Te-style directness — blunt, external, focused on ending the conversation.
+
+**Evidence 2 — External logic in defense:**
+When Annie needs to justify herself, she appeals to concrete, verifiable claims rather than internal feelings. "I was at work." "I was with my grandmother." "I was sick." These are Te-style defenses — external facts that can be checked.
+
+**Contradiction testing:**
+Annie's Te is not well-developed. She doesn't build systematic arguments or analyze complex structures. Her Te emerges only under stress and is limited to direct confrontation and simple factual claims. This is consistent with tertiary Te, not auxiliary Te.
 
 ### Evidence for Inferior Ni
 
-**No long-term planning:**
-Annie does not anticipate consequences. She doesn't see the trajectory of her drug use, her relationships, or her financial situation. When she quits her job at CT's, she doesn't have another one lined up. When she moves in with Dan, she doesn't plan for what happens if it ends.
+**Mechanism:** Ni-inferior types struggle with long-term planning, pattern recognition, and abstract thinking. They don't anticipate consequences or see underlying trajectories. Their life is reactive, not strategic.
 
-**Reactive, not strategic:**
-Annie's life is a series of reactions to immediate circumstances. She doesn't build toward a future vision. She responds to what's happening now. The "Train Plan" crisis catches her completely off guard. The Eli affair is managed day-by-day, not as part of a larger strategy.
+**Evidence 1 — No long-term planning:**
+Annie does not anticipate consequences. When she quits her job at CT's (2016-01-05: "Wow. I quit / I literally fuckig quit"), she doesn't have another one lined up. When she moves in with Dan, she doesn't plan for what happens if it ends. The "Train Plan" crisis (2020-09-20) catches her completely off guard.
 
-**Difficulty with abstraction:**
+**Evidence 2 — Reactive, not strategic:**
+Annie's life is a series of reactions to immediate circumstances. She doesn't build toward a future vision. She responds to what's happening now. The Eli affair is managed day-by-day, not as part of a larger strategy. When the affair is discovered, she has no exit plan — she simply denies and reframes.
+
+**Evidence 3 — Difficulty with abstraction:**
 Annie doesn't theorize, analyze patterns, or think about thinking. When Dan tries to discuss the relationship's dynamics, she deflects to concrete specifics. "I was at work." "I was tired." "I didn't mean to." She doesn't engage with the abstract structure of their interactions.
+
+**Evidence 4 — The retraction pattern:**
+On 2026-03-12, Annie answers "YES" twice when asked if something changed. Four days later, on 2026-03-16, she formalizes the retraction: "I think that I had misunderstood the conversation when that happened Dan." This is not strategic deception — it is the inability to hold a consistent narrative over time, a hallmark of inferior Ni.
+
+**Contradiction testing:**
+Annie sometimes appears to have Ni insights — moments of pattern recognition or future-oriented thinking. But these are not true Ni — they are Se-style reactions to immediate patterns. When she says "I know what you're doing," she is reading the current situation, not predicting future trajectories.
 
 ### Contrastive Testing: Why ESFP Wins
 
 **ESFP vs ESTP:**
-Both are Se-dominant, direct, and confrontational. But Annie is clearly Feeling, not Thinking. She doesn't analyze systems or seek logical consistency. She doesn't debate ideas for their own sake. Her arguments are emotional appeals, not logical structures. When she says "THERE IS NO SITUATION," she's not making a factual claim — she's expressing how she feels about the situation.
+Both are Se-dominant, direct, and confrontational. But Annie is clearly Feeling, not Thinking. She doesn't analyze systems or seek logical consistency. Her arguments are emotional appeals, not logical structures. When she says "THERE IS NO SITUATION," she's not making a factual claim — she is expressing how she feels about the situation. The ESTP would be more likely to engage with the factual content of the accusation rather than the emotional framing.
 
 **ESFP vs ENFP:**
-Both are Extraverted, Feeling, and Perceiving. But Annie is clearly Sensing, not Intuitive. She doesn't abstract, theorize, or look for patterns. She doesn't ask "what does this mean?" or "where is this going?" She asks "what happened?" and "what are we doing now?" The corpus contains almost no evidence of Ne-style divergent thinking or Ni-style pattern synthesis.
+Both are Extraverted, Feeling, and Perceiving. But Annie is clearly Sensing, not Intuitive. She doesn't abstract, theorize, or look for patterns. She doesn't ask "what does this mean?" or "where is this going?" She asks "what happened?" and "what are we doing now?" The ENFP would be more likely to explore the possibilities and implications of the situation rather than reacting to its immediate concrete reality.
 
 **ESFP vs ESFJ:**
-Both are Extraverted, Sensing, and Feeling. But Annie is Perceiving, not Judging. She avoids structure, doesn't plan ahead, and struggles with follow-through. She doesn't create systems or maintain traditions. She doesn't organize her life around schedules or commitments. When she says "I'll try," she means it in the moment — and then does something else.
+Both are Extraverted, Sensing, and Feeling. But Annie is Perceiving, not Judging. She avoids structure, doesn't plan ahead, and struggles with follow-through. She doesn't create systems or maintain traditions. When she says "I'll try," she means it in the moment — and then does something else. The ESFJ would be more likely to follow through on commitments and maintain relational structures.
 
 **ESFP vs ISFP:**
-Both are Sensing, Feeling, and Perceiving. But Annie is Extraverted, not Introverted. She communicates frequently (out-messaging Dan in every year except 2015 and 2025-26), initiates contact, and processes through interaction. She doesn't withdraw into her inner world — she externalizes constantly.
+Both are Sensing, Feeling, and Perceiving. But Annie is Extraverted, not Introverted. She communicates frequently (out-messaging Dan in every year except 2015 and 2025-26), initiates contact, and processes through interaction. She doesn't withdraw into her inner world — she externalizes constantly. The ISFP would be more likely to process emotions internally and communicate selectively.
 
 ### Disconfirming Evidence
 
-Annie sometimes displays what looks like Ni — moments of insight or pattern recognition. "I know what you're doing," she says during arguments. But these are not true Ni insights — they are real-time emotional readouts of Dan's current behavior, not abstract pattern synthesis. She's reading the room, not predicting the future.
+Annie sometimes displays what looks like Ni — moments of insight or pattern recognition. But these are not true Ni insights — they are Se-style reactions to immediate patterns. When she says "I know what you're doing," she is reading the current situation, not predicting future trajectories.
 
 Annie sometimes displays what looks like Ne — generating multiple possibilities or alternatives. But these are not true Ne explorations — they are Se-style reactions to changing circumstances. She doesn't brainstorm abstract options; she responds to what's happening around her.
+
+Annie sometimes displays what looks like Fe — concern for others' feelings or relational harmony. But this is not Fe — it is Fi-style emotional expression directed outward. She doesn't adapt her communication to others' comfort levels; she expresses her own feelings and expects others to accommodate them.
 
 ### Nearest Alternatives Ranked
 
@@ -125,7 +153,7 @@ Type 7 with an 8 wing (The Enthusiast with a Challenger wing) is the most defens
 
 **Avoid pain and seek immediate gratification/stimulation.**
 
-Annie's behavior consistently prioritizes immediate relief over long-term consequences. She uses substances, relationships, and escapism to avoid dealing with difficult emotions and situations. When she's bored, she seeks stimulation. When she's in pain, she seeks relief. When she's trapped, she seeks escape.
+Annie's behavior consistently prioritizes immediate relief over long-term consequences. She uses substances, relationships, and escapism to avoid dealing with difficult emotions and situations.
 
 ### Core Fear
 
@@ -137,7 +165,7 @@ Annie's deepest fear is not abandonment (Type 2), not being ordinary (Type 4), n
 
 **Reframing and denial.**
 
-Annie's primary defense is to deny reality and reframe situations to avoid accountability. "THERE IS NO SITUATION." "I think that I had misunderstood the conversation." "I didn't mean to." These are not lies in the traditional sense — they are psychological maneuvers that allow Annie to avoid facing the consequences of her actions.
+Annie denies reality, reframes situations to avoid accountability, and escapes through substances and new experiences.
 
 ### Behavioral Experiments
 
