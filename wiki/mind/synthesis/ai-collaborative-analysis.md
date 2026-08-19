@@ -34,9 +34,24 @@ connections:
   - page: wiki/mind/concepts/bunker-core
     type: instance-of
     claim: "Local, self-hosted chat.db forensics is agent tooling that extends the same evidentiary-verification principle documented here — raw message history as proof against gaslighting, automated rather than manual."
-  - page: wiki/mind/concepts/node-locking
+  - page: wiki/mind/concepts/exocortex
     type: evidenced-by
-    claim: "The node-locking protocol — ~403 locked nodes, cross-platform transfer commands, export redaction — is the primary behavioral evidence that the LLM venue is used as writable memory, not conversation."
+    claim: "The exocortex concept — bootloaders, master prompts, the CATO system — is the primary evidence that LLMs are used as cognitive extensions, not conversation partners."
+  - page: wiki/self/concepts/llm
+    type: instantiates
+    claim: "The LLM entry documents the full cognitive engine: bootloader system, agent fleet, pipeline, and the epistemic problem of building a second brain with the thing it's trying to model."
+  - page: wiki/self/concepts/claude
+    type: instantiates
+    claim: "Claude is the analytical workhorse — the model that loads the CATO bootloader and runs the forensic analysis pipeline."
+  - page: wiki/self/concepts/claude-code
+    type: instantiates
+    claim: "Claude Code is the coding agent that built all 12+ tools in bin/ and maintains the wiki-brain's technical infrastructure."
+  - page: wiki/self/concepts/gemini
+    type: instantiates
+    claim: "Gemini is the interaction model — used for bootloader design, psychotherapy, creative projects, and the massive activity log."
+  - page: wiki/self/concepts/chatgpt
+    type: instantiates
+    claim: "ChatGPT is the early-adopter model — the first model Dan used for bootloader design, now believed to be 'cooked' post-GPT-5."
   - page: wiki/mind/concepts/exocortex
     type: contains
     claim: "The externalized-prefrontal-cortex frame is the core concept this synthesis develops across the documented interaction modes."

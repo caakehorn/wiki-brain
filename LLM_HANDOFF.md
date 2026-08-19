@@ -4,6 +4,27 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-19] - Session: LLM family entries created (llm, claude, claude-code, gemini, chatgpt)
+
+* **Model:** Claude Code · **Branch:** `llm-entries-2026-08-19`
+* **Trigger:** Operator: *"create articles for LLM, Claude, Claude Code, Gemini, ChatGPT"*
+* **Protocol:** `wiki-brain-entry` skill (full ingestion protocol: read governing docs → draft 300+ lines → wire back → update RECENT → update LLM_HANDOFF)
+
+**Findings in order of value.**
+
+1. **Five new entries created, all 300+ lines:** `wiki/self/concepts/llm.md` (305), `wiki/self/concepts/claude.md` (333), `wiki/self/concepts/claude-code.md` (303), `wiki/self/concepts/gemini.md` (312), `wiki/self/concepts/chatgpt.md` (303).
+2. **Wired into the broader system:** All five entries are connected to each other, to `wiki-brain.md`, to `exocortex.md`, to `ai-collaborative-analysis.md`, and to the self domain index. The `ai-collaborative-analysis.md` synthesis (which documents how Dan uses LLMs) now has `instantiates` edges to all five new entries.
+3. **Updated `wiki/self/index.md`** with a new "concepts" section listing all five entries.
+4. **Updated RECENT.md, OPEN.md, DIGEST.md** via `bin/wiki-digest` (469 pages → 33 contradictions, 330 gaps, 13 predictions).
+
+**Resume points, highest value first.**
+
+* **The LLM entries are islands in the broader graph.** They are wired to each other and to `exocortex.md` and `ai-collaborative-analysis.md`, but they are NOT yet wired to the people pages (e.g., `annie-ulmer.md`, `suzanne-frank.md`) that are the products of the LLM work. Future passes should add `produced-by` or `analyzed-by` edges from people pages to the relevant LLM entry.
+* **The LLM entries need inverse edges from `wiki-brain.md`.** The `wiki-brain.md` entry has `component-of` edges to all five LLM entries, but the reverse (from LLM entries to `wiki-brain.md`) is implicit in the prose rather than explicit in the connections block. Future passes should make these explicit.
+* **Rate limits (HTTP 429) and timeouts (HTTP 524) are the primary blocker for parallel work.** Three subagents were dispatched to expand the entries and all failed. The fan-out pattern (3+ tasks in parallel) is too aggressive for the current API limits. Future passes should use sequential work or at most 2 parallel agents.
+
+**Gates:** wiki-lint 0 errors · wiki-connect check 0 errors · wiki-climb check 0 errors.
+
 ### [2026-08-18] - Session: the mother page was rebuilt from primary sources, and it moved the money spine
 
 * **Model:** Claude Code (Opus 5) · **Branch:** `claude/rewrite-suzanne-frank`
