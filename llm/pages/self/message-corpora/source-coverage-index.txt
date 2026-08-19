@@ -13,6 +13,9 @@ connections:
   - page: wiki/people/kristin
     type: evidences
     claim: "Kristin is the worked demonstration of this index's central warning: all_imessages_complete_dump.txt ends 2025-08-10, so a 22,018-message relationship returns silence rather than an error from bin/mine-messages, and the page built on the fallback file went unchallenged for two months."
+  - page: wiki/self/concepts/wiki-brain
+    type: contains
+    claim: "This index is the wiki-brain's instrument panel: the page that records what the corpus cannot see, which is the only defence the system has against confusing an absence of evidence for evidence of absence."
 infobox:
   name: "Source Coverage Index"
   generated_by: "bin/source-index scan"

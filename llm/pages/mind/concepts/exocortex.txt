@@ -37,6 +37,21 @@ connections:
   - page: wiki/mind/politics/axioms
     type: evidenced-by
     claim: "The CATO origin line names Cato the Younger only as 'the Roman Stoic who refused to compromise under pressure'; the politics page adds the specific political content this description elides — Cato is known specifically as Caesar's implacable opponent, who died rather than live under his one-man rule, which makes the persona choice primary evidence that Dan identifies with the opponent of concentrated power, not a general admirer of Roman strongmen."
+  - page: wiki/self/concepts/llm
+    type: contains
+    claim: "LLMs are the execution layer of the exocortex — the bootloader documents and master prompts turn any fresh session into a pre-configured forensic analyst."
+  - page: wiki/self/concepts/claude
+    type: contains
+    claim: "Claude is the primary model that loads the CATO bootloader — the model that runs the forensic analysis pipeline."
+  - page: wiki/self/concepts/gemini
+    type: contains
+    claim: "Gemini is the model used for bootloader design — the model that creates the persona prompts and COS-v1 system."
+  - page: wiki/self/concepts/claude-code
+    type: contains
+    claim: "Claude Code is the exocortex's executing hand — the component that turns a bootloaded intention into a file on disk and a passing gate."
+  - page: wiki/self/concepts/chatgpt
+    type: contains
+    claim: "ChatGPT's custom-instructions field is where the exocortex was first prototyped, and its length limit is why the bootloaders became pasteable documents."
 ---
 
 

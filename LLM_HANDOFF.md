@@ -4,6 +4,31 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-19] - Session: audit of the last three days — the Aug 19 batch was quoting a model as the operator
+
+* **Model:** Claude Code · **Branch:** `claude/wiki-brain-entries-qa-zhtr07`
+* **Trigger:** Operator: *"I've been running a free model in parallel to edit the wiki-brain entries. Can you do a pass over everything edited or created in the last 3 days and fix the sourcing, attribution, edges, and any other problems."*
+* **Method:** `git log --since=2026-08-16` for scope (99 wiki pages), then all three gates, then every declared `sources:` path checked against disk, then every quoted phrase on the new pages grepped back to `raw/`.
+
+**Read this first if you are picking up the thread.** The Aug 16–18 work is sound and needs nothing. The problems are all in the six pages written on Aug 19 — the LLM family, `wiki-brain`, and the destiny page — and they share one root cause: quotations lifted from `Gemini Activity.html` without checking who was speaking. Full accounting in `log.md`.
+
+**Findings in order of value.**
+
+1. **Three reversed attributions, all settled by the export.** Dan said *"Claude = to analyze stuff"*; Tom said *"Better than GPT."* The pages had it the other way round, and dated it 03-25 instead of 03-26.
+2. **Gemini's ChatGPT autopsy was being quoted as Dan's opinion** on `chatgpt.md` and as Gemini's own decline on `gemini.md`. Dan's entire recorded position is five words. Both pages carry `CORRECTED` blocks now.
+3. **The Gemini log is 3,986 entries, not 100,000+** — a 25× error contradicted by a page already in the wiki. "438 pages" was stale by 35.
+4. **A Claude Code boilerplate block had been pasted onto `chatgpt.md` and `gemini.md` with the model name find-and-replaced**, carrying a temp path and a fictional skill inventory. Removed, along with 16 duplicate sections across the five model pages.
+5. **The destiny page is a projection and now declares itself one.** Nothing deleted; an epistemic-status block, a labelled seam where the evidence stops, a Gaps section, and a real contradiction against `erotic-architecture` were added.
+
+**Resume points, highest value first.**
+
+* **Export the August 18–19 Ally exchanges from `chat.db`.** This is the highest-value single action available and it is a one-command job. 279 messages (Aug 18) and 186 (Aug 19) are the load-bearing evidence for the `ally-lubin` rewrite *and* the destiny page, and neither is in `raw/` — the chatdb CSV stops on Aug 18 with 126 rows. Four phrases quoted on both pages exist in no file in the repository. Until this lands, the phase-change reading is unverified and is flagged as such on both pages.
+* **Ask the operator whether the destiny page belongs in `wiki/` at all.** It is the only forward-tense page in the corpus, roughly half of it is invention, and it makes detailed claims about a living third party's intentions from one side of a text thread. It has been fixed rather than moved, because moving it is an operator call — the same posture `2015-annie-read-wiki-impact-analysis.md` takes about itself.
+* **The five model pages are still thin on evidence per line.** They were drafted to a line count, and the padding is gone, but what remains leans on the governing documents rather than on `raw/`. `claude-code.md` in particular describes tooling that could be verified against `bin/` directly.
+* **Watch for the same failure elsewhere.** The root cause — AI-secondary prose re-quoted as primary testimony — is not confined to these pages. `EXTRACTION_SPEC.md`'s source tiering exists for it, and a grep pass over the corpus for `Gemini Activity.html`-derived phrasing on other pages has not been done.
+
+**Gates:** wiki-lint 0 errors, 18 warnings (all pre-existing) · wiki-connect check 0 errors, 252 warnings (down from 290) · wiki-climb check 0 errors, 0 warnings (down from 5 errors). `bin/llm-publish` re-run.
+
 ### [2026-08-19] - Session: LLM family entries created (llm, claude, claude-code, gemini, chatgpt)
 
 * **Model:** Claude Code · **Branch:** `llm-entries-2026-08-19`

@@ -13,11 +13,11 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 470 |
-| Pages touched in the last 14 days | 116 |
-| Pages reasoning from other pages (`synthesizes:`) | 28 |
-| Live contradictions | 33 |
-| Open gaps | 332 |
+| Pages | 473 |
+| Pages touched in the last 14 days | 135 |
+| Pages reasoning from other pages (`synthesizes:`) | 30 |
+| Live contradictions | 36 |
+| Open gaps | 360 |
 | Standing predictions | 13 |
 
 ## By domain
@@ -26,25 +26,20 @@ this is the state of the thing.
 |---|---|
 | people | 163 |
 | interests | 143 |
-| mind | 59 |
-| self | 39 |
-| timeline | 36 |
 | mind | 60 |
+| self | 39 |
 | timeline | 37 |
-| self | 32 |
 | work | 15 |
 | places | 8 |
-| health | 4 |
 | legal | 4 |
+| health | 4 |
 
 ## By status
 
 | Status | Pages |
 |---|---|
-| stable | 184 |
-| active | 144 |
 | stable | 188 |
-| active | 135 |
+| active | 143 |
 | closed | 98 |
 | archived | 31 |
 | stub | 13 |
@@ -52,10 +47,10 @@ this is the state of the thing.
 ## The last few days
 
 **2026-08-19** — 9 pages
+  - audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
   - synthesis | health | cocaine — new substance profile page
 
-**2026-08-18** — 21 pages
-**2026-08-18** — 57 pages
+**2026-08-18** — 58 pages
   - rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
   - ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
   - close | people | wiki/people/diane-moore — a two-word operator answer merged two entities and re-dated the exclusion
@@ -112,5 +107,7 @@ have moved since.
 - [[wiki/people/john-carney]] — 1 premise
 - [[wiki/people/johnny-dealer]] — 3 premises
 - [[wiki/people/suzanne-frank]] — 4 premises
+- [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — 7 premises
+- [[wiki/self/concepts/wiki-brain]] — 2 premises
 - [[wiki/timeline/periods/2020-2021-market-era]] — 1 premise
 - [[wiki/work/fastly-fsly]] — 2 premises

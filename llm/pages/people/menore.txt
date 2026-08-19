@@ -4,6 +4,7 @@ page_type: entity
 status: active
 date_created: 2026-06-23
 date_modified: 2026-08-01
+pending_ingest: 2026-08-18
 date_range_start: 2018-11-04
 date_range_end: 2025-02-20
 sources:
@@ -263,3 +264,23 @@ The 6-year silence (2013–2018) followed by immediate resurrection of the exact
 - **Financial scale**: Revenue/volume not visible
 - **Arrest/incarceration**: No indication in corpus whether Menore is still operating or incarcerated post-2025
 
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-18] — manual note
+
+**Not from the gap list** — volunteered by the operator, so the ingest
+has to work out for itself where on the page it belongs, and whether it
+contradicts something already there.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-18_132340_gap-menore.md`.
+
+Menore is still operational

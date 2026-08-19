@@ -127,7 +127,7 @@ marriage.
 | Their daughter | **Rebecca Diane Van Voorhis** | 1939-01-30, West Virginia |
 | Diane's first husband | George Dixon Shrum Jr. | 1937-06-14, Pittsburgh |
 | Their daughter | Suzanne Whyel Shrum | 1962-09-15, Pittsburgh |
-| Diane's second husband | [[wiki/people/dave-moore\|Dave Moore]] | not in the record |
+| Diane's second husband | [[wiki/people/dave-moore]] | not in the record |
 
 The April 1940 census places Emmet, Fran and the fourteen-month-old Diane
 together in Smithfield, Fayette County — Fran's arrival in the county that

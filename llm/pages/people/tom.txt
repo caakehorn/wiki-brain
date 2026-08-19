@@ -49,6 +49,9 @@ connections:
   - page: wiki/people/james-dee
     type: co-occurs
     claim: "Tom's May 2025 line — that hanging out with Danielle and her boyfriend was 'enough to scare me off' — is the only outside assessment of James in the corpus, and it predates Dan's own by six weeks."
+  - page: wiki/self/concepts/claude
+    type: co-occurs
+    claim: "The March 2026 phloxenheim thread is where Dan states his model division of labor out loud — 'Claude = to analyze stuff, gemini = interact with it' — and where Tom, using the tools on his own material, independently reports back that Claude beat GPT on the Kristin logs: the corpus's only outside assessment of the instruments the wiki is built with."
 ---
 
 

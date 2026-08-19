@@ -17,6 +17,9 @@ sources:
   - raw/self/message-csv/imessage_ALL_both_all_now.csv
 tags: [legal, addiction-recovery, family, uniontown-era]
 connections:
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "This arrest is cocaine's only legal consequence in the record, and the diagnostic detail is the quantity: a bag corner saved for a 10% bump produced a Class B count and a DA policy fight, out of the smallest amount documented anywhere in the corpus."
   - page: wiki/places/155-virginia-ave
     type: contradicts
     claim: "The blotter fixes the arrest to February 2015 while that page dates the move here to January 2015, which is incompatible with Dan's account of the night happening before the move and while Alexis was still being concealed at 337."
@@ -68,7 +71,8 @@ drugs he could possibly have had. The car was impounded, the impound
 produced an inventory search, and the inventory search produced three
 charges: possession of a controlled substance for **the residue in an empty
 cocaine bag**, possession of a small amount of marijuana, and possession of
-drug paraphernalia for the one-hitter.
+drug paraphernalia for the one-hitter. The substance that produced the
+load-bearing count has its own page at [[wiki/health/cocaine]].
 
 This page exists because the wiki had the event wrong for three weeks. The
 lawyer, the ARD program, the Judge Wagner hearing and the family drama

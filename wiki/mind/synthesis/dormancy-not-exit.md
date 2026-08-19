@@ -76,6 +76,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "'Nothing leaves this graph' is 'The Irreversibility Firewall's' no-delete prediction stated as its own rule: leaving is exactly the irreversible act the firewall exists to prevent, so every documented 'ending' turns out to be a role change with reactivation bandwidth retained."
+  - page: wiki/self/concepts/ally-and-dan-love-as-destiny
+    type: instance-of
+    claim: "The Ally channel is the rule's longest-running case — thirty-eight and fourteen-month silences that closed nothing, then an August 2026 reactivation at the highest amplitude yet, which that page reads as a phase change and this rule reads as the pattern running normally."
 ---
 
 # Dormancy, Not Exit
