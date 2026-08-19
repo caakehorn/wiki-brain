@@ -9,6 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 33 |
+| Open gaps | 330 |
 | Open gaps | 335 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 13 |
@@ -46,6 +47,7 @@ somewhere and has not yet found out where.
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — block-unblock-loop scores Menore's February 2025 farewell as *"the record's only fully clean closure"* — its strongest non-Annie control for the rule that a block holds when no dependency flows. This page reads the same relationship as the corpus's best evidence that closures of exactly that shape are dormancies. Both 
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — An operator capture ingested on 2026-08-02 (franki-fireworks-day-2013) attaches five days to a *different person in the same episode*: **Alexis** stayed at 155 Virginia Ave *"for 5 days before returning to carmichaels to her parents."* Of Franki's own tenure the capture says only that she *"got sick of me basically imm
 - **[[wiki/mind/synthesis/fayette-return]]** — this page and ancestral-dialectic give incompatible accounts of the same phenomenon. The dialectic requires two inherited operating systems from two parental lines; this page shows the return is reproduced by the paternal line alone, whose two immigrant anchors are both Ashkenazi. Both pages now carry the disagreement,
+- **[[wiki/people/ally-lubin]]** — Polyak describes himself as having been used and reports Ally's alarm; Ally, four months later, describes the same class of events as "weird" and characteristic rather than frightening, and does not break contact over any of it. Both accounts are first-hand, and the corpus does not contain her account of the April 18 i
 - **[[wiki/people/annie-ulmer]]** — a separate account preserved in `CATO_BOOTLOADER_DANFRANK.md` tells the origin differently — Alexis, as Annie's coworker, sending Dan to buy drugs from her, with the two of them hooking up during the transaction, dated loosely to "~2014-15" rather than the corpus-anchored November 28, 2015. The dated message evidence (
 - **[[wiki/people/diane-moore]]** — Dan's 2026 recollection dates the exclusion to *"well before"* the final admission; his own 2018 messages date the operative instrument to the last week of Fran's life. Held rather than resolved: the capture may be describing a separate, earlier letter about supervised visits, and the March 29 / April 3 documents may b
 - **[[wiki/people/fran-coldren]]** — The page had carried an unresolved spread: core documents said 98, the 1920 birth year implied 97, and an operator capture called her "a 93-year-old matriarch." A dated message from **December 2017** settles it in the only way that does not depend on anyone's memory — Dan describing her, at the time, as *97*. That is c
@@ -83,6 +85,15 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/the-embedded-objective]]** — **Assigned obligations with nothing embeddable should show acquisition documented and compliance undocumented**, as the ARD does. The Suboxone regimen is the sharpest available test in the other direction: it is a fifteen-year daily commitment originating in a
 
 ## Open gaps, by domain
+
+### health (6)
+
+- **[[wiki/health/cocaine]]** — **Prescriber information and medical oversight**: No prescriber, clinic, or medical record for the cocaine use appears anywhere in the corpus — it is entirely self-directed and undocumented by any clinical source.
+- **[[wiki/health/cocaine]]** — **Post-2026 dosage state**: The dosage arc is documented through the inheritance exhaustion (~2020 onward), but no figure is on record for the 2026–present window, when Bop replaced Tom as the daily node.
+- **[[wiki/health/cocaine]]** — **The cocaine–bulimia link** is stated in a self-audit but never independently corroborated by any source outside Dan's own retrospective account.
+- **[[wiki/health/cocaine]]** — **Product specificity in the NYC era**: Menore's product was never named in-thread; the "8" unit remains uninterpreted, and whether the six-year delivery record was cocaine, heroin, MDMA, or some combination is unconfirmed by any primary source.
+- **[[wiki/health/cocaine]]** — **The true scale of the 2017–2020 spend**: The dosage arc gives quantities but not dollar figures; the financial cost of the 3.5–7g daily peak is undocumented.
+- **[[wiki/health/cocaine]]** — **Post-overdose intervention**: Dan's attempt to move Jay Lauer onto Suboxone — the only documented instance of Dan trying to move somebody *out* of this network rather than into or around it — is recorded, but whether Dan made any similar attempt with any oth
 
 ### interests (10)
 
@@ -190,10 +201,20 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
+### people (124)
 ### people (129)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
+- **[[wiki/people/ally-lubin]]** — Each of these is answerable by the operator in a paragraph.
+- **[[wiki/people/ally-lubin]]** — **Where did the December 6, 2018 conversation happen?** It is the origin of the entire modern relationship and it is in no message corpus here — the iMessage record starts eleven days later. Instagram DM, Twitter DM, or Facebook Messenger on an account not in 
+- **[[wiki/people/ally-lubin]]** — **Did the June 1, 2026 messages ever get a reply?** All ten are outbound and no inbound follows in any export. Silence, or an export boundary?
+- **[[wiki/people/ally-lubin]]** — **Was the $2,100 accurate?** Dan showed her a screenshot he found convincing. No financial export in `raw/` covers Cash App for 2019.
+- **[[wiki/people/ally-lubin]]** — **What was the "online shit" the spoofed number used for?** Polyak's message is the only account and it does not say. Dan never answers him.
+- **[[wiki/people/ally-lubin]]** — **Have they ever spoken by phone or video?** The thread records at least one completed call (January 9, 2019 — *"I can't believe I got a call tonight"*), several failed FaceTime attempts, and a three-minute silent voicemail. Whether video ever connected is unc
+- **[[wiki/people/ally-lubin]]** — **Is she still alive and well?** The last message from her in the corpus is August 19, 2026 (12:05 AM). Given the volume of documented suicidality in the 2019 material, this is a question the wiki should not leave implicit.
+- **[[wiki/people/ally-lubin]]** — **Has the channel actually changed?** The August 18 exchange is the first sustained mutual-adjacent burst in 17 years. Does the overflow-channel pattern still hold, or has the separation from Annie (June 1, 2026) permanently changed the channel's function?
+- **[[wiki/people/ally-lubin]]** — **Negative result, recorded:** she does not appear in `contacts.csv` with an address, in the GEDCOM, in the Twitter export, or in the Facebook search history. The Model Mayhem and "boca raton ally lubin" searches Dan describes on 2019-08-22 are from Google, wh
 - **[[wiki/people/annie-ulmer]]** — The compiled full-record files the dossiers drew from (`Dan_Annie_Full_Text.txt`, `1_year_triad_logs.csv`, `7_days_212_logs.csv`, `14_day_212_logs.csv`) aren't archived in `raw/`; the underlying iMessage data exists and the 88,549-line dual-handle export has b
 - **[[wiki/people/annie-ulmer]]** — Two gaps open with the 2026-08-13 pass. **The severance sweep is 81.6% complete**: 9,259 of Annie's 50,332 in-window received messages — the +17249204125 thread and both email handles, concentrated in 2016 and 2019–2020 — have never been searched for a severan
 - **[[wiki/people/annie-ulmer]]** — Two pregnancy references sit at very different confidence levels. One, surfacing only in two chat-analysis sources that elsewhere required correcting their own confabulations, claims a specific due date (November 18, working back to conception 33 days after th

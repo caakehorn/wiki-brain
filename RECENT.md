@@ -8,6 +8,24 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
+## 2026-08-19 — 8 pages
+
+- **Session log:** synthesis | health | cocaine — new substance profile page
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/health/cocaine]] | health | — |
+| [[wiki/health/index]] | health | — |
+| [[wiki/self/concepts/chatgpt]] | self | — |
+| [[wiki/self/concepts/claude]] | self | _(carries a CONTRADICTION)_ |
+| [[wiki/self/concepts/claude-code]] | self | _(carries a RE-CHECKED)_ |
+| [[wiki/self/concepts/gemini]] | self | — |
+| [[wiki/self/concepts/llm]] | self | _(carries a CONTRADICTION)_ |
+| [[wiki/self/concepts/wiki-brain]] | self | — |
+
+## 2026-08-18 — 21 pages
+
+- **Session log:** rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
 ## 2026-08-18 — 57 pages
 
 - **Session log:** rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
@@ -46,6 +64,7 @@ simply listed.
 | [[wiki/mind/synthesis/totality-themes]] | mind | _(carries a RE-CHECKED from 2026-08-16)_ |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/people/alexander-jackson]] | people | — |
+| [[wiki/people/ally-lubin]] | people | **CORRECTED** — The page said the iMessage record was *"452 messages at handle +15619061550, spanning 2019-06-28 to 2023-11-14."* All three figures were artifacts of the file the previous pass read. `452` is exactly  |
 | [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-08-15)_ |
 | [[wiki/people/annie-ulmer]] | people | _(carries a CORRECTED from 2026-08-16)_ |
 | [[wiki/people/arnu]] | people | _(carries a DEADLINE ELAPSED from 2026-08-02)_ |
@@ -427,6 +446,7 @@ simply listed.
 | [[wiki/self/lineage/index]] | self | — |
 | [[wiki/work/caviar-courier]] | work | — |
 
+## 2026-07-20 — 39 pages
 ## 2026-07-20 — 38 pages
 
 - **Session log:** ingest | people | FB deep-scrape XII — matthew-palermo (new tier-one entry)
@@ -467,7 +487,6 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/index]] | health | — |
 | [[wiki/interests/music/bands/batteries-not-included]] | interests | — |
 | [[wiki/interests/music/index]] | interests | — |
 | [[wiki/mind/concepts/bunker-core]] | mind | — |
@@ -609,16 +628,4 @@ simply listed.
 |---|---|---|
 | [[wiki/mind/synthesis/interests-as-era-markers]] | mind | — |
 | [[wiki/mind/synthesis/message-circadian-latency]] | mind | — |
-
-## 2026-07-16 — 7 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/interests/favorites/music/artists/elliott-smith]] | interests | — |
-| [[wiki/interests/favorites/music/artists/say-anything]] | interests | — |
-| [[wiki/interests/film-canon]] | interests | — |
-| [[wiki/interests/gore-vidal]] | interests | — |
-| [[wiki/interests/roman-republic]] | interests | — |
-| [[wiki/interests/the-office]] | interests | — |
-| [[wiki/interests/video-games]] | interests | — |
 
