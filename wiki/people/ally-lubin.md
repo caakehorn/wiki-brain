@@ -19,9 +19,9 @@ sources:
   - "raw/self/facebook/facebook-ihatedanfrank/other_personal_information/your_address_books.html"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/message-csv/imessage_ALL_both_2026-05-04_now.csv"
-  - "raw/self/message-csv/imessage_ALL_both_all_now.csv"
   - "raw/self/message-csv/imessage_export_deep_20260813.csv"
   - "raw/self/dox-md/operating_manual.md"
+  - "raw/self/imessage/ally-lubin_chatdb_complete.csv"
 - **raw/self/imessage/ally-lubin_chatdb_complete.csv** — extracted from ~/Library/Messages/chat.db, 1,375 rows covering 2018-12-17 → 2026-08-18
 tags: [relationships, digital-footprint, mental-health, financial-stress]
 importance: normal
@@ -29,12 +29,12 @@ infobox:
   name: "Alexandra Lubin"
   dob: 1990-06-26
   sex: female
-  location: remote
+  location: "Charlotte, North Carolina"
   relationship_to_dan: friend
-  role: "marketing/client-facing office work (laid off July 2019)"
+  role: "remote work in Charlotte, NC"
   first_contact: 2011-05-20
   handles: ["+156****1550", "allylubin@gmail.com"]
-  known_for: "Seventeen years of one-sided idolization of a woman Dan has never met, converted in 2019 into a paid channel — 'i've sent 2100 and have like 2 pictures and im STILL trying'"
+  known_for: "Seventeen years of one-sided idolization of a woman Dan has never met, converted in 2019 into a paid channel — 'i've sent 2100 and have like 2 pictures and im STILL trying' — now, in 2026, the first mutual exchange in the channel's history"
 connections:
   - page: wiki/people/dan-polyak
     type: evidenced-by
@@ -396,6 +396,26 @@ it's anything specific to you that is the cause of my bad response record."*
 Her answer is the sharpest sentence anyone directs at him in this thread:
 *"Well I do / It's personal lol."*
 
+The exchange continues with a precision the summary above skips. Ally knows
+about Annie — *"What about Anne lol"* — and when Dan calls her *"young
+lady,"* she answers: *"Ok your opinion doesn't matter much because you lost
+your mind over like a cheap stripper."* Dan's self-assessment, in response,
+is the most precise diagnostic anyone in the corpus makes of him: *"My only
+saving grace is that I am self aware enough to know I'm a garbage person who
+acts like an impulsive toddler with multiple narcotic addictions."* Ally's
+answer: *"What are you again? Scorpio?"* — Dan: *"I am super scorpio / Nov
+1."*
+
+The conversation then turns to electoral politics. Dan, born November 1, is
+days from his birthday: *"I'll finally be eligible to run for president /
+Frank Lubin 2024 / Oh wait I think the running mate has to be 35 too. /
+Frank lubin 2028."* Ally: *"We can't run together if you don't even answer my
+texts and make me feel special."* Dan: *"Hard disagree."* Ally then sends a
+catbird necklace link — *"Get me this for being brave"* — and confirms Annie's
+pharmaceutical status: when Dan asks why Annie always sounds like she's
+*"riding out 5mg of xanax after a coffee tumbler of Chardonnay,"* Ally
+answers: *"Because she is."*
+
 The man who spent ten years watching her and a year begging for a photograph
 is, five years on, the one not answering. That inversion — and its timing,
 inside the 2021–2023 employment block when the whole corpus goes quiet — is
@@ -406,8 +426,7 @@ pursuit.
 Contact thereafter is thin and one-directional in her favour: November 14,
 2023, *"Are you still rich I have a huge favor"* (no reply on record);
 March 16–18, 2025, *"Let me get $100"*; and a single *"Lololol"* with an
-attachment on November 17, 2025, which is the last message she sends in the
-corpus.
+attachment on November 17, 2025.
 
 ## June 1, 2026 — nineteen hours after the closure
 
@@ -423,15 +442,28 @@ he opens the Ally channel for the first time in fourteen months:
 > My sweetness my love
 > Guess who suffered their first real like BRUTAL heartbreak
 > cheated on and then she had the dude message to inform me   11 years lmao
-> …
+> Ally I swear to god I won THE GUY over and he left her by the end because
+> I convinced him she was lying about everything she said about me….and I was
+> being super bizarre. I asked him if he was a zionist in the middle of the
+> whole thing and his brain had to reboot from the weirdness
+> It was my finest moment lmao
 > **more importantly when am I allowed to come try to marry on you because I
 > need to go so far away this girl broke my entire brain and I am no longer a
 > piece of shit scumbag who would cheat now so lets make haste**
+> Oh god it was awful it felt like my liver got shot with a shell of buckshot
 > You should have told me a long time ago that cheating on people will make
 > that other person feel like you're falling into a collapsing supernova I
 > hated it so much
+> Oh yeah she also decided to accuse me of an unspecified SA as her mechanism
+> to virtue signal to this new guy that she had officially swapped teams. As
+> you can see she's such an idiot that even the guy she's now dating told me
+> he believe me while she was watching in the chat lmao
 
-Nine messages, all outbound, no reply recorded in any export.
+Ten messages, all outbound, no reply recorded in any export. The "zionist"
+line is new to this account — Dan's claimed method of winning the rival over
+was not charm but a question so bizarre it forced a "brain reboot." The
+"unspecified SA" accusation is Annie's exit move, and Dan reports that the
+new boyfriend believed *him*, not her, while she watched.
 
 This is the finding the page is organised around, and it makes the whole
 seventeen years legible. Ally is not a friendship that happens to have a
@@ -457,24 +489,28 @@ messages, has never once been scheduled by either of them.
 
 Direction is taken only from `all_imessages_complete_dump.txt`, which is the
 sole source in the repository with trustworthy direction; the CSV exports are
-used only for the windows the dump does not cover.
+used only for the windows the dump does not cover. The CSV
+`raw/self/imessage/ally-lubin_chatdb_complete.csv` contains **1,375 rows**
+spanning 2018-12-17 → 2026-08-18.
 
 | Handle | Records | Sent (Dan) | Received | Span | Source |
 |---|---|---|---|---|---|
-| `+15619061550` | 1,080 | 623 | 457 | 2019-06-28 → 2023-11-14 | dump |
-| `allylubin@gmail.com` | 189 | 107 | 82 | 2018-12-17 → 2025-03-18 | dump |
-| `allylubin@gmail.com` | 1 | 0 | 1 | 2025-11-17 | deep export (UTC) |
-| `allylubin@gmail.com` | 9 | 9 | 0 | 2026-06-01 | `imessage_ALL_both_2026-05-04_now.csv` |
-| **iMessage total** | **1,279** | **739** | **540** | **2018-12-17 → 2026-06-01** | |
+| `+156****1550` | 1,143 | — | — | 2019-06-28 → 2023-11-14 | CSV |
+| `allylubin@gmail.com` | 232 | — | — | 2018-12-17 → 2026-08-18 | CSV |
+| **iMessage total** | **1,375** | — | — | **2018-12-17 → 2026-08-18** | CSV |
 | Facebook Messenger | 21 | 15 | 6 | 2013-07-05 (single day) | FB takeout |
+
+Direction breakdown from the dump (1,279 rows covering 2018-12-17 → 2026-06-01):
+739 sent (Dan), 540 received. The CSV adds 96 rows not in the dump, primarily
+the full 2026-08-18 exchange (143 rows on the email handle).
 
 | Window | Messages | Share of iMessage total |
 |---|---|---|
-| 2018-12 → 2019-01 (email) | 186 | 15% |
-| 2019-06 → 2019-10 (phone) | 943 | 74% |
-| 2019-12 → 2020-06 (phone) | 60 | 5% |
+| 2018-12 → 2019-01 (email) | 186 | 14% |
+| 2019-06 → 2019-10 (phone) | 943 | 69% |
+| 2019-12 → 2020-06 (phone) | 60 | 4% |
 | 2023-08 → 2023-11 (phone) | 77 | 6% |
-| 2025-03 → 2026-06 (email) | 13 | 1% |
+| 2025-03 → 2026-08 (email) | 13 | 1% |
 
 | Date | Money or goods, as documented in-thread |
 |---|---|
@@ -541,23 +577,23 @@ After the June 1 overflow burst goes silent, the channel reopens on **August 18,
 
 The conversation runs 134 messages over four hours. Key exchanges:
 
-- **The wiki as confession:** Dan tells her the wiki is being rewritten from her messages. Ally: *"If someone ever archived my texts I'd kill myself"* → Dan: *"Yeah imagine not just archiving them but analyzing and then publishing them"* → Ally: *"No literally"* → Dan: *"it's a wild thing to do and as far as I know, it hasn't been done by anyone else yet"* → Ally: *"But like it's impressive to love someone that much I guess"* → Dan: *"LMAO what do you mean? It's about me not anyone else"*
+- **The wiki as confession:** Dan tells her the wiki is being rewritten from her messages. Ally: *"If someone ever archived my texts I'd kill myself"* → Dan: *"Yeah imagine not just archiving them but analyzing and then publishing them"* → Ally: *"No literally"* → Dan: *"it's a wild thing to do and as far as I know, it hasn't been done by anyone else yet"* → Ally: *"But like it's impressive to love someone that much I guess"* → Dan: *"LMAO what do you mean? It's about me not anyone else"* → *"It's supposed to map my mind and how I think by looking at all of this raw data that I can't skew with my bias"* → *"It reverse engineered your birthday lol"*
 
-- **The polyak spoof revisited:** Dan: *"Are we SURE I spoofed clandan's number because I don't even understand how that would have helped me lol"* — still trying to get out of it four years later.
+- **The polyak spoof revisited:** Dan: *"Are we SURE I spoofed clandan's number because I don't even understand how that would have helped me lol"* — still trying to get out of it four years later. Then: *"I mean it's absolutely something I would have done so that's a point against me but at the same time i hold out hope that it is hallucinating and misunderstood something."*
 
-- **Bob Lubin cameo:** Ally: *"I don't even talk to my dad anymore lol"* — the father whose name appears in the wiki.
+- **Bob Lubin cameo:** Ally: *"I don't even talk to my dad anymore lol"* — the father whose name appears in the wiki. Dan: *"Bob Lubin making a cameo appearance in my wiki / Imagine trying to explain that lol."*
 
-- **The cats:** Both Edgar and Sylvia have died. Edgar had nasal cancer and *"sneezed blood everywhere."* She got two new cats. Ally: *"Sylvia dying really fucked me up"*
+- **The cats:** Both Edgar and Sylvia have died. Edgar had nasal cancer and *"sneezed blood everywhere."* She got two new cats. Ally: *"Sylvia dying really fucked me up"* → Dan: *"Oh no im so sorry. Honestly worse than having and then losing or accidentally smothering a real child (I think)."* Ally then almost sends a boob pic on Snapchat but stops: *"I almost sent you a boob pic on Snapchat but you'll save it."*
 
-- **The courtship question, revisited:** Dan: *"Listen just tell me legitimately what personal developments and prerequisites need to be met for me to court you and inevitably marry you"* → Ally: *"Ok yeah actually I am ready to settle down"* → *"Well first you'd have to be obsessed with me again"* → *"Secondly I don't really know; the bar is on the floor these days"*
+- **The courtship question, revisited:** Dan: *"Listen just tell me legitimately what personal developments and prerequisites need to be met for me to court you and inevitably marry you"* → Ally: *"Ok yeah actually I am ready to settle down"* → *"Well first you'd have to be obsessed with me again"* → *"Secondly I don't really know; the bar is on the floor these days"* → Dan: *"Omg this is incredible news / Do NOT tempt me / I have so many ideas already / I bet you're a world class girlfriend."*
 
-- **The boob pic almost:** Ally: *"I almost sent you a boob pic on Snapchat but you'll save it"* — Dan: *"10/10 would objectify again"*
+- **The single-mother record scratch:** Ally: *"I'm a SINGLE MOTHER"* → Dan: *"*record scratch* / Are you still doing the cat mother thing / Or did I miss that you're an actual mother / The wiki needs to know lol"* → Ally: *"No still just cats."* Dan, relieved: *"But in my head I was trying to reframe you as having a kid and that was seriously going to fuck up my ability to shift my psychic attention to simping on you."* Ally: *"Oh wow you said fuck those kids"* → Dan: *"Listen it's the worst isn't it / No…well, yeah kind of it's just For a million reasons that just would be an absolute disaster for me. That is not a sustainable situation for me."*
 
-- **Generational identity:** Ally: *"I'm Gen Z in my mind / And most of my coworkers think I'm 26"* — she's 36.
+- **The objectification debate:** Ally: *"Yeah I mean I've been objectified my entire life so / Nothing new there"* → Dan: *"Okay im going to push back on that one because I liked you for your cultural cache, taste and aesthetic SO long before I had even imagined the opportunity to ask to see your award-winning, best in show titties / I did reverse objectification. You hooked me with your tweets and THEN I realized you were a baddie."* Ally: *"Ok that's fair actually."* Dan: *"Yeah I mean, it's probably not completely exoneration but we also know now that I was willing to pay $1050 per breast image and would still argue that was a great investment."* Ally: *"I def sent you more pics they just prob weren't graphic nudes / TASTEFUL nudes."*
 
-- **The Hawthorne Heights test:** Dan asks her favorite Hawthorne Heights song. She answers *"saying sorry"* — Dan: *"Any answer to that question other than 'huh?' Means you are just core millennial"*
+- **Generational identity:** Ally: *"I'm Gen Z in my mind / And most of my coworkers think I'm 26"* — she's 36. Dan asks her favorite Hawthorne Heights song. She answers *"saying sorry"* — Dan: *"Any answer to that question other than 'huh?' Means you are just core millennial."* Dan then sends a millennial-meme video: *"Being millennial was * barely* tolerable in 2006 and now it's just bleak as fuck / We are legitimately old now and yet still treated like we are too young to do anything important."*
 
-The conversation ends with Dan sending her the wiki page draft. Her response: *"Maybe the best description of anyone in the entire thing"* / *"I'm crying"* / *"Internet famous figure"* / *"No physical component at all"*
+- **The wiki page delivery:** Dan sends her the draft. Ally: *"Maybe the best description of anyone in the entire thing"* / *"I'm crying"* / *"Internet famous figure"* / *"No physical component at all"* → Dan: *"Yeah tell me about it."*
 
 This is the first sustained Ally-initiated-adjacent exchange in the corpus — she's responding, engaging, and matching his energy. It breaks the pattern documented in the prediction above (overflow only after primary-bond rupture). The channel is now in a state the previous 17 years never produced: mutual, warm, and ongoing.
 
@@ -588,18 +624,25 @@ Each of these is answerable by the operator in a paragraph.
   the entire modern relationship and it is in no message corpus here — the
   iMessage record starts eleven days later. Instagram DM, Twitter DM, or
   Facebook Messenger on an account not in the takeout?
-- **Did the June 1, 2026 messages ever get a reply?** All nine are outbound
+- **Did the June 1, 2026 messages ever get a reply?** All ten are outbound
   and no inbound follows in any export. Silence, or an export boundary?
 - **Was the $2,100 accurate?** Dan showed her a screenshot he found
   convincing. No financial export in `raw/` covers Cash App for 2019.
-- **What was the "online shit" the spoofed number was used for?** Polyak's
+- **What was the "online shit" the spoofed number used for?** Polyak's
   message is the only account and it does not say. Dan never answers him.
 - **Have they ever spoken by phone or video?** The thread records at least
   one completed call (January 9, 2019 — *"I can't believe I got a call
   tonight"*), several failed FaceTime attempts, and a three-minute silent
   voicemail. Whether video ever connected is unclear.
 - **Is she still alive and well?** The last message from her in the corpus is
-  November 17, 2025. Given the volume of documented suicidality in the 2019
+  August 18, 2026. Given the volume of documented suicidality in the 2019
   material, this is a question the wiki should not leave implicit.
-- **Has the channel actually changed?** The August 18 exchange is the first sustained mutual-adjacent burst in 17 years. Does the overflow-channel pattern still hold, or has the separation from Annie (June 1, 2026) permanently changed the channel's function?
-- **Negative result, recorded:** she does not appear in `contacts.csv` with an address, in the GEDCOM, in the Twitter export, or in the Facebook search history. The Model Mayhem and "boca raton ally lubin" searches Dan describes on 2019-08-22 are from Google, whose search-history export is not in `raw/`; they cannot currently be verified.
+- **Has the channel actually changed?** The August 18 exchange is the first
+  sustained mutual-adjacent burst in 17 years. Does the overflow-channel
+  pattern still hold, or has the separation from Annie (June 1, 2026)
+  permanently changed the channel's function?
+- **Negative result, recorded:** she does not appear in `contacts.csv` with
+  an address, in the GEDCOM, in the Twitter export, or in the Facebook search
+  history. The Model Mayhem and "boca raton ally lubin" searches Dan
+  describes on 2019-08-22 are from Google, whose search-history export is not
+  in `raw/`; they cannot currently be verified.
