@@ -207,6 +207,6 @@ The decline was not gradual. It was a phase shift triggered by a specific event 
 has to work out for itself where on the page it belongs, and whether it
 contradicts something already there.
 
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/self/captures/2026-08-19_162720_gap-chatgpt.md`.
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/self/captures/2026-08-19_162808_gap-chatgpt.md`.
 
-Dan used the very first public release of chatGPT. He got a beta code for the first DALL-E release somehow which also got him one for the first gpt release
+Read the old pre gpt5 threads to understand the lead up to the release
