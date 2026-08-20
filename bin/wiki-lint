@@ -18,7 +18,7 @@ VALID_TAGS = {
     "legal", "dui", "financial-stress", "housing", "career",
     "music-production", "personality-profile", "ideology", "politics",
     "forensic-analysis", "ai-collaboration", "digital-footprint",
-    "uniontown-era", "nyc-era", "pets", "non-monogamy",
+    "uniontown-era", "nyc-era", "pets", "non-monogamy", "future",
 }
 PAGE_BUDGET = 40 * 1024   # advisory only — see STYLE_GUIDE.md substance rule 4;
                           # depth is the standing directive, never trim to clear this
@@ -92,6 +92,26 @@ for p in scan:
             if bad_tags:
                 errors.append(f"{r}: invalid tag(s) {bad_tags} — add to VALID_TAGS in bin/wiki-lint and STYLE_GUIDE.md if genuinely new")
 
+        # duplicate top-level frontmatter keys
+        fm_match = re.search(r"^---\n(.*?)\n---\n", text, re.S | re.M)
+        if fm_match:
+            fm_text = fm_match.group(1)
+            key_counts = {}
+            for line in fm_text.splitlines():
+                stripped = line.strip()
+                if not stripped or stripped.startswith('#') or stripped.startswith('- '):
+                    continue
+                if ':' not in stripped:
+                    continue
+                if line.startswith(' ') or line.startswith('\t'):
+                    continue
+                key = stripped.split(':')[0].strip()
+                if key:
+                    key_counts[key] = key_counts.get(key, 0) + 1
+            dupes = {k: v for k, v in key_counts.items() if v > 1}
+            if dupes:
+                errors.append(f"{r}: duplicate frontmatter key(s): {', '.join(f'{k} (x{v})' for k, v in dupes.items())}")
+
         # people infobox classifier schema (mandatory; contacts/ stubs + indexes exempt)
         if dom == "people" and not is_contact_stub and not is_index:
             # extract the full infobox: block (multi-line) from the raw frontmatter
@@ -141,6 +161,54 @@ for p, n in sorted(inbound.items()):
 mi = os.path.join(ROOT, "index.md")
 if os.path.exists(mi) and os.path.getsize(mi) > MASTER_INDEX_BUDGET:
     warnings.append(f"index.md: master index over 5KB budget")
+
+# retracted-string gate
+retracted_path = os.path.join(ROOT, "RETRACTED.md")
+if os.path.exists(retracted_path):
+    with open(retracted_path, 'r') as f:
+        retracted_content = f.read()
+    # Extract strings to grep for from the "Strings to grep for:" lines
+    retracted_strings = []
+    for line in retracted_content.splitlines():
+        if 'Strings to grep for:' in line:
+            # Extract backtick-quoted strings
+            strings = re.findall(r'`([^`]+)`', line)
+            retracted_strings.extend(strings)
+    
+    if retracted_strings:
+        for p in pages:
+            r = rel(p)
+            text = open(p, encoding="utf-8", errors="replace").read()
+            for s in retracted_strings:
+                if s in text:
+                    errors.append(f"{r}: contains retracted string '{s}'")
+
+# phantom-source gate
+# Find raw files that are empty or header-only
+raw_dir = os.path.join(ROOT, "raw")
+phantom_sources = []
+if os.path.exists(raw_dir):
+    for root, dirs, files in os.walk(raw_dir):
+        for fname in files:
+            fpath = os.path.join(root, fname)
+            size = os.path.getsize(fpath)
+            if size == 0:
+                phantom_sources.append(os.path.relpath(fpath, ROOT))
+            elif size < 100:
+                with open(fpath, 'r', encoding='utf-8', errors='replace') as f:
+                    content = f.read()
+                lines = [l for l in content.split('\n') if l.strip()]
+                if len(lines) <= 1:
+                    phantom_sources.append(os.path.relpath(fpath, ROOT))
+
+if phantom_sources:
+    for p in pages:
+        r = rel(p)
+        text = open(p, encoding="utf-8", errors="replace").read()
+        for src in phantom_sources:
+            src_basename = os.path.basename(src)
+            if src_basename in text:
+                errors.append(f"{r}: cites phantom source '{src_basename}' (empty/header-only)")
 
 print(f"wiki-lint: {len(pages)} pages, {len(errors)} errors, {len(warnings)} warnings\n")
 for e in errors:

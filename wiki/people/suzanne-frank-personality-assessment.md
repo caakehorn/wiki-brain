@@ -9,6 +9,11 @@ date_created: 2026-08-19
 date_modified: 2026-08-19
 importance: high
 tags: [personality-profile, forensic-analysis, ai-collaboration]
+infobox:
+  name: "Suzanne Frank"
+  sex: female
+  location: uniontown
+  relationship_to_dan: family
 sources:
   - "wiki/people/suzanne-frank.md"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
