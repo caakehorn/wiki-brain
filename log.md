@@ -2411,3 +2411,96 @@ cheap; four of them predate this pass.
 **Gates:** `wiki-lint` **0 errors**, 30 warnings · `wiki-connect check`
 **0 errors**, 258 warnings (the standing `## Related` backlog) ·
 `wiki-climb check` **0 errors**, 13 staleness warnings.
+
+## [2026-08-20] correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
+
+**Trigger.** Operator: *"you didn't finish analyzing the texts. read the very
+last batch extremely carefully."* Correct — August 19 was read but written up
+in eight sentences against pages of treatment for the 16th–18th, and the
+compression hid an error.
+
+**The operator also supplied `imessage_export_2122702449_20260820050136..csv`.
+It was not filed.** 194 rows, all `target = +12124702449` (the `2122702449` in
+the filename is a typo), and **byte-identical to the August 19 rows already in
+`raw/self/message-csv/imessage_export_2124702449_20260820.csv`** — verified by
+set comparison on (timestamp, direction, text): zero rows in either direction.
+Filing a duplicate subset under a mistyped handle would have created a phantom
+fifth Annie handle in `source-coverage-index`. Recorded here instead.
+
+**The correction, and it was this pass's own lead finding.** The 2026-08-20
+ingest published, and propagated to six pages plus `log.md` and
+`LLM_HANDOFF.md`, that the relationship ended with *"Goodbye. I am blocking"*
+at 15:07:03 and that this was **"the first goodbye in the record with no
+condition attached."** Both halves are false:
+
+- **The block was declared, not executed.** Seven further messages from Dan
+  follow it inside eight minutes, plus one from Annie at 15:14:33 (*"I honestly
+  care"*) that he answers. The export ends **mid-exchange** at 15:15:33.
+- **The closing stretch is explicitly conditional.** 15:09:01, ninety seconds
+  after the goodbye: *"You could still not do the wrong thing."*
+
+Corrected in place on `august-2026-morgantown-call`, `annie-ulmer`,
+`the-unbroken-bond`, `dormancy-not-exit`, `ally-and-dan-love-as-destiny` and
+`timeline/index`, each with the original claim left visible per STYLE_GUIDE
+rule 9. **The lesson is about the writing, not the reading:** the claim was
+made from a day that had been read at the same resolution as the rest of the
+window and then summarised at a coarser one. A structural claim about how
+something ended cannot be made from a summary of its last hour.
+
+**What replaces it, and it is better evidence.** At **14:53:25** Dan writes:
+*"Do NOT ever think that enough time has passed that now you can tell me about
+something that made you think of me **or when something happens to Milo**."*
+That is him naming and pre-emptively closing **the exact channel that reopened
+the relationship seven weeks earlier** — Annie's July 4 email about the dog and
+the fireworks, which ended a fifty-two-day silence. He has never done that in
+eleven years; every prior severance left the dog channel open and every prior
+severance was reversed through something like it. That is a structural
+difference the record can point at, which *"no condition"* was not.
+
+**Findings the close read added, in order of value.**
+
+1. **The final hour is an argument about an act neither party ever names.**
+   Eight times between 14:24 and 15:09 Dan describes not what Annie has done
+   but **what she is about to do**, in the future tense — *"this is the choice
+   you are right now making," "what you are ABOUT to do is wrong," "you ARE
+   ABOUT TO DO THE THING THAT SHOWS ME HOW YOU FELT," "You could still not do
+   the wrong thing"* — and the content is **never stated by either party** in
+   194 messages. The nearest thing to a referent arrives in the last
+   thirty-three seconds: *"Not even enough to correct the lies you told about
+   me"* (15:13:45). This is why the day cannot resolve: an accusation with no
+   stated content can be neither conceded nor refused, which is exactly what
+   her side of the hour looks like.
+
+2. **A parsing trap that would have produced a false concession.** 15:04:04
+   Dan: *"There's some big secret."* 15:04:05 Annie: *"okay."* **One second** —
+   faster than reading and replying. It answers *"These lies dont work anymore"*
+   four seconds earlier. Left unflagged it reads as Annie conceding a secret
+   exists. Same failure mode as the *"He'll?"* misparse of August 8.
+
+3. **Three incompatible periodizations of the relationship inside four hours,
+   none retracted.** *"the last 3 weeks"* (11:29:42, ≈July 29 — the
+   re-entanglement itself); *"I wasted 10 years"* (11:41); *"keeping me in your
+   web of lies for 17 months"* (15:00:40, ≈March 2025, landing on
+   `feb-apr-2025-return-and-rupture`). The 17-month figure is new to the wiki
+   and is the only one of the three that names a start.
+
+4. **The leverage is declared retained, not spent — thirteen hours after being
+   declared spent.** 15:12:16: *"I could have torn your life apart. I still
+   could and I don't."* Against 01:44:27 the same morning: *"And I sent it
+   already I told you."* This strengthens rather than resolves the standing
+   `CONTRADICTION`; the sent-mail check remains the only thing that settles it.
+
+5. **Annie's reason for begging is her mother, and it is the only stable reason
+   she gives.** *"This will literally kill my mom"* (01:49:16). Not her own
+   exposure, on any of the three days.
+
+6. **Claim and retraction arrive together.** 02:01:12 *"INWAS TRAPPED / AGAIN"*
+   → 02:01:34 *"yes it's my fucking fault"* — eleven seconds, unprompted. The
+   shape of nearly every account she gives in the window.
+
+7. **Volume, restated at the right resolution.** Dan 141 / Annie 53 on the day,
+   but **forty of hers land before 02:05**: after the small hours she sends
+   fourteen messages in thirteen hours against roughly ninety of his.
+
+**Gates:** `wiki-lint` **0 errors** · `wiki-connect check` **0 errors** ·
+`wiki-climb check` **0 errors**.

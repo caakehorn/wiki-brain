@@ -233,9 +233,11 @@ This page makes dated forward predictions and is the one page in the wiki that
 a moved premise can straightforwardly falsify or confirm, so the re-check is
 substantive.
 
-**What moved.** The Annie relationship ended on 2026-08-19 at 15:07 — a
-severance with, for the first time in the record, no condition attached. On the
-same day Dan wrote to Annie: *"I am going to start seeing other people and I am
+**What moved.** The Annie relationship ended on 2026-08-19; the record stops
+mid-exchange at 15:15:33. (**Corrected the same day:** an earlier draft of this
+block said the goodbye carried *"no condition attached."* It did not — the
+declared block at 15:07:37 was followed by eight further messages and an
+explicit conditional at 15:09:01.) On the same day Dan wrote to Annie: *"I am going to start seeing other people and I am
 going to start my life with someone who cares about me. I might not ever find
 someone who I feel as connected to or who means as much to me as you did."*
 
@@ -248,6 +250,10 @@ argue against banking it:
    is the least reliable class of statement in this corpus. Treating it as
    evidence about Ally is a category error, and the same sentence concedes
    *"I might not ever find someone who… means as much to me as you did."*
+   Note also what Dan forbids ninety minutes earlier, at 14:53:25: any future
+   contact *"when something happens to Milo"* — the exact vector that reopened
+   the Annie relationship in July. He is closing one door in the same afternoon
+   he announces another; the announcement is the half aimed at an audience.
 2. **[[wiki/mind/synthesis/the-unbroken-bond]] predicts exactly this shape.**
    A vacancy followed by a fast switch into an already-warm parallel bond is
    not this page's thesis being vindicated — it is the sx-dominant single-slot

@@ -20,13 +20,38 @@
 
 **Read this first if you are picking up the thread.**
 
-**The relationship ended.** 2026-08-19 15:07:03, *"Goodbye. I am blocking"* —
-the first goodbye in eleven years with **no condition attached**. Every prior
-one names its own reversal. That single structural difference is what makes it
-worth treating as different from the other 127 declared exits, and it is now the
-live test running under `the-unbroken-bond`, `dormancy-not-exit` and
-`single-channel`, all three of which were re-checked and deliberately **not**
-scored — four days is not an outcome. If contact resumes, it is the wiki's
+**The relationship ended on 2026-08-19**, and the record stops **mid-exchange**
+at 15:15:33.
+
+> **CORRECTED the same day, and it was this session's own headline claim.** The
+> first write-up said the day ended with *"Goodbye. I am blocking"* at 15:07:03
+> and called that *"the first goodbye in eleven years with no condition
+> attached."* **Both halves are false.** Seven more messages from Dan follow the
+> declared block inside eight minutes, plus one from Annie that he answers; and
+> 15:09:01 is an outright conditional — *"You could still not do the wrong
+> thing."* The claim had reached six pages before a line-by-line re-read of the
+> day caught it. If you take one methodological thing from this session: **the
+> error came from summarising at a coarser resolution than the reading**. A
+> structural claim about how something ended cannot be made from a summary of
+> its last hour.
+
+**What actually distinguishes this severance**, and it is stronger: at
+**14:53:25** Dan pre-emptively closes the reopening vector by name — *"Do NOT
+ever think that enough time has passed that now you can tell me about something
+that made you think of me or when something happens to Milo."* That is the
+July 4 Milo email, which ended a fifty-two-day silence seven weeks earlier. He
+has never done that before; every prior severance left that channel open and
+every prior severance was reversed through something like it. This is the live
+test running under `the-unbroken-bond`, `dormancy-not-exit` and
+`single-channel`, all three re-checked and deliberately **not** scored — four
+days is not an outcome.
+
+**The last hour is an argument about an act neither party ever names.** Eight
+future-tense accusations between 14:24 and 15:09 (*"what you are ABOUT to do is
+wrong"*), and the content is never stated in 194 messages. That is why the day
+loops. Also filed: a one-second reply (*"okay"* at 15:04:05) that must not be
+read as conceding a secret exists, and three incompatible periodizations of the
+relationship — 3 weeks, 10 years, 17 months — inside four hours. If contact resumes, it is the wiki's
 strongest dormancy datum; if it has not resumed by ~2027-02-19, it is the first
 attested exit.
 
