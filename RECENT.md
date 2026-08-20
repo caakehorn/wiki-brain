@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-20 — 43 pages
+## 2026-08-20 — 45 pages
 
 - **Session log:** ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
 - **Session log:** correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
@@ -16,6 +16,7 @@ simply listed.
 - **Session log:** climb | mind | the grievances of the last conversation, scored one by one — and Dan's own evidence turns out to cut both ways
 - **Session log:** rewrite | people | ally-lubin — the wiki hallucinated about itself, and the infobox carried it
 - **Session log:** rewrite | people | annie-ulmer — the zero holds at full width; the ending was not one thread
+- **Session log:** lint | timeline | two committed conflict markers on main
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -26,14 +27,15 @@ simply listed.
 | [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/concepts/forensic-method]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/mind/index]] | mind | — |
-| [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a REVISED from 2026-08-16)_ |
+| [[wiki/mind/psychosexual/arrangement-history]] | mind | **CORRECTED** — this read *"She never says yes."* Against the primary transcript she does, once — *"Yes, save it"* at 04:43, which Coles immediately reports to Dan as assent. It is ambiguous on its face, it is extrac |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — Flagged stale against annie-ulmer and suzanne-frank, both moved for the August 16–19 ingest (august-2026-morgantown-call). **No claim here is withdrawn.** The window is this p |
-| [[wiki/mind/synthesis/august-grievance-verdict]] | mind | — |
+| [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **CORRECTED** — This section was written from a two-removes secondary transcript. The operator has since supplied a direct transcription (`raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt`) and three detai |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — Flagged stale against the-unbroken-bond (2026-08-20), which itself moved for the August 16–19 severance (august-2026-morgantown-call). The Annie relationship closed on 2026-08-19; the |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank and annie-ulmer (both 2026-08-20). Both moved for the August 16–19 ingest: an added section on Suz being targeted again by Coles and shielded pre-emptively by Dan,  |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — flagged stale against exocortex (2026-08-20). Moved by one typed-edge addition only, pointing at document-fabrication. Re-read against the change; **no claim on this page is affected** and not |
+| [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | — |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | _(carries a RE-CHECKED from 2026-08-18)_ |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — Flagged stale against the-unbroken-bond and totality-themes, both moved 2026-08-20 for the August 16–19 severance (august-2026-morgantown-call). **No claim her |
 | [[wiki/mind/synthesis/supply-network]] | mind | _(carries a CONTRADICTION from 2026-08-19)_ |
@@ -42,7 +44,7 @@ simply listed.
 | [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — flagged stale against block-unblock-loop and supply-network (both 2026-08-20). Both moved by typed-edge addition only, pointing at the new August 16–19 event page; neither page's prose or figu |
 | [[wiki/people/alexander-jackson]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address becoming a threat vector — Coles sending it to Dan unprompted on 2026-08-17 — and one typed edge. Re-read a |
 | [[wiki/people/ally-lubin]] | people | **CORRECTED** — This page stated that on August 18, 2026 Dan offered Ally the *"girlfriend title or at the very least the 'object of fixation' role"* and that she replied ***"Okay deal. Sounds good 1-2-3 break."*** I |
-| [[wiki/people/annie-ulmer]] | people | **CORRECTED** — An earlier version of this section said Dan *"blocks at 15:07"* and that the goodbye was the first in the record with no condition attached. **Both are wrong.** He declared a block at 15:07:37 and the |
+| [[wiki/people/annie-ulmer]] | people | **CORRECTED** — This paragraph previously said she refused *"through a dozen repetitions of the question — to say that Dan ever prostituted her,"* and put Dan's stock line at fourteen repetitions. The line is **twent |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | **RE-CHECKED** — flagged stale against annie-ulmer (2026-08-20). That page gained a substantial August 2026 section and eight chronology rows for the severance window. Re-read against the change; **no claim on this pa |
 | [[wiki/people/arnu]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
 | [[wiki/people/ellen-ulmer]] | people | _(carries a GAP CLOSED from 2026-08-17)_ |
@@ -58,7 +60,8 @@ simply listed.
 | [[wiki/self/concepts/astrology-star-signs]] | self | **CORRECTED** — this paragraph previously cited Dan's *"object of fixation"* framing as its first example. That phrase occurs nowhere in the corpus; it was a hallucination written into ally-lubin on 2026-08-19 and is |
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — Flagged stale against source-coverage-index (2026-08-20). **No claim here is withdrawn**, but the system gains a defect worth naming at this level: **a handle is not a person.** Every message-derived  |
 | [[wiki/self/message-corpora/source-coverage-index]] | self | — |
-| [[wiki/timeline/events/august-2026-morgantown-call]] | timeline | **GAP CLOSED** — The gap, as this page stated it: the final hour is *"an argument about a thing that is never named,"* and the page declined to choose a referent because the text does not supply one. The operator has  |
+| [[wiki/timeline/events/august-2026-morgantown-call]] | timeline | **CORRECTED** — *"fourteen separate times between 06:30 and 12:31"* → **twenty times, 06:31 to 14:17.** Undercounted by six, and the window was cut short by nearly two minutes; he is still saying it ninety seconds be |
+| [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] | timeline | — |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 | [[wiki/timeline/index]] | timeline | — |
 | [[wiki/work/bfs-foods]] | work | — |

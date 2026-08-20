@@ -35,6 +35,9 @@ related:
   - wiki/timeline/events/august-2026-unmasking
   - wiki/mind/concepts/forensic-method
 connections:
+  - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
+    type: evidenced-by
+    claim: "The three-participant analysis rests on the only primary artifact in which Coles is audible, and grounds its finding in his conduct rather than his motive — holding the phone, conditioning its return, threatening family disclosure."
   - page: wiki/mind/synthesis/august-grievance-verdict
     type: contextualizes
     claim: "The severity of Dan's grievances turns on a fact about this man rather than about either principal: what makes Annie's choice legible as a betrayal rather than a preference is fifteen minutes of tape in which he is heard doing the things she had said he did."
@@ -363,6 +366,34 @@ cadence. Nothing in this capture confirms or excludes Coles.
 See [[wiki/people/annie-ulmer]] §Target G.
 
 ## August 2026: the first primary record of him
+
+> **PRIMARY TRANSCRIPT FILED [2026-08-20].** Everything below was written from
+> a secondary transcript two removes from the audio. A direct transcription is
+> now in `raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt`, and the
+> conduct findings held on checking. Four things it establishes that the
+> secondary did not carry, all of them about conduct rather than motive:
+>
+> - **Annie alleges he has hit her, to his face.** At 02:35, answering his own
+>   *"You're acting like someone's fucking hitting you and shit,"* she says
+>   ***"You are."*** He denies it four times immediately (*"No I didn't. No I
+>   fucking didn't. No I didn't. So I hit you? Where'd I hit you at then?"*).
+>   The allegation is hers and the denial is his; the recording settles neither,
+>   and both belong on this page.
+> - **He admits holding her phone in terms.** When Dan says *"You have her
+>   phone asshole. Obviously you are"* (09:16), he answers ***"Yeah, I am"*** —
+>   at 09:19 and again at 09:31.
+> - **He conditions its return on an answer** — *"Yeah I will, once you answer
+>   the question"* (05:08) — and threatens her mother to force one: *"if you
+>   don't answer the question, I'm calling your mom"* (05:38).
+> - **He is dared to face police and invites it**: *"if I'm gonna get charged
+>   call the police… it's three numbers, 9-1-1. Stop fucking bluffing"*
+>   (12:58–13:05). Annie's *"That's exactly why the police were called the last
+>   time"* (02:04) is the only indication in the corpus of prior police contact
+>   between them, and it is unverified.
+>
+> He takes **99 of the call's 204 turns** — nearly as many as Annie and Dan
+> combined — and sets every topic in it.
+
 
 Everything above this section is somebody's account of Coles — Annie's, Dan's,
 a group chat, a background-check database. Between **16 and 19 August 2026** the

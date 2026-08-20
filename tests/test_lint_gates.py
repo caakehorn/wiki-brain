@@ -411,3 +411,57 @@ class FrontmatterAnchoringTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
+
+
+class CorruptTextTests(unittest.TestCase):
+    """Merge markers and assistant citation artifacts both reached main and were
+    published into llm/corpus.txt before anyone caught them by eye."""
+
+    def find(self, text):
+        return H["find_corrupt_text"](text)
+
+    def test_conflict_head_marker_detected(self):
+        hits = self.find("intro\n<<<<<<< HEAD\nmine\n")
+        self.assertEqual([n for n, _ in hits], [2])
+
+    def test_bare_separator_detected(self):
+        self.assertTrue(self.find("a\n=======\nb\n"))
+
+    def test_theirs_marker_detected(self):
+        self.assertTrue(self.find("a\n>>>>>>> origin/main\nb\n"))
+
+    def test_all_three_markers_reported_separately(self):
+        text = "a\n<<<<<<< HEAD\nx\n=======\ny\n>>>>>>> other\n"
+        self.assertEqual(len(self.find(text)), 3)
+
+    def test_markdown_hr_is_not_a_marker(self):
+        """A setext underline or an --- rule must not trip the gate."""
+        self.assertEqual(self.find("Heading\n=====\ntext\n"), [])
+
+    def test_equals_with_trailing_content_is_not_a_marker(self):
+        self.assertEqual(self.find("a\n======= not a marker\nb\n"), [])
+
+    def test_private_use_codepoint_detected(self):
+        hits = self.find("text fileciteturn16file0 more")
+        self.assertEqual(len(hits), 1)
+        self.assertIn("0xe200", hits[0][1])
+
+    def test_private_use_reports_first_offending_line(self):
+        hits = self.find("clean\nclean\nbad x\n")
+        self.assertEqual(hits[0][0], 3)
+
+    def test_ordinary_unicode_is_not_flagged(self):
+        """Curly quotes, em-dashes and emoji are normal wiki content."""
+        self.assertEqual(self.find("It's a test — “quoted” \U0001F600\n"), [])
+
+    def test_clean_page_yields_nothing(self):
+        self.assertEqual(self.find("# Page\n\nOrdinary prose.\n"), [])
+
+    def test_real_wiki_is_clean(self):
+        """Regression: the wiki must stay free of both classes."""
+        import glob
+        dirty = []
+        for p in glob.glob(os.path.join(ROOT, "wiki", "**", "*.md"), recursive=True):
+            if self.find(open(p, encoding="utf-8", errors="replace").read()):
+                dirty.append(os.path.relpath(p, ROOT))
+        self.assertEqual(dirty, [])

@@ -1,6 +1,6 @@
 ---
 domain: timeline
-page_type: source-amendment
+page_type: note
 title: "Source Amendment — Morgantown St Recording, August 16 2026"
 aliases: ["Morgantown St transcript verification", "Morgantown audio source update"]
 status: active
@@ -15,12 +15,26 @@ sources:
   - raw/self/audio/README_2026-08-16_morgantown-call.md
 connections:
   - page: wiki/timeline/events/august-2026-morgantown-call
-    type: amends
-  - page: raw/self/analysis/2026-08-18_forensic-analysis-morgantown-call.md
-    type: supersedes-source-layer
+    type: contextualizes
+    claim: "This note records the provenance of the transcript that event page's quotations are now checked against; the substantive verification, including the five figures it corrected, lives there and not here."
 ---
 
 # Source Amendment — Morgantown St Recording, August 16 2026
+
+> **SUPERSEDED [2026-08-20], same day.** This note recorded that a transcript
+> had arrived. The work it called for has since been done: every quotation on
+> [[wiki/timeline/events/august-2026-morgantown-call]] has been checked against
+> the transcript, five figures were corrected, one flat assertion did not
+> survive, and four findings the secondary transcript had missed were added.
+> **Read the event page, not this note.** What remains here is provenance
+> bookkeeping, duplicated in
+> `raw/self/audio/README_2026-08-16_morgantown-call.md` and
+> `raw/self/audio/2026-08-20_Morgantown_St-source-verification.md`.
+>
+> This page should probably be folded into the event page and deleted — it is
+> a page about the wiki's own sourcing process, which STYLE_GUIDE rule 6
+> forbids in page bodies and which has no inbound links. It is left in place
+> pending the operator's call rather than deleted unilaterally.
 
 **Filed 2026-08-20.** This amendment exists because the original event page was written while the audio had not yet been directly transcribed in the corpus.
 

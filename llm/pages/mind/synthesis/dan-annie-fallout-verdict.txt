@@ -28,6 +28,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [relationships, trauma-bond, infidelity, attachment, mental-health]
 connections:
+  - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
+    type: parallels
+    claim: "This page adjudicates a decade and finds Annie the primary agent of harm; the Morgantown analysis adjudicates fifteen minutes and finds her the least powerful person in the room. Both hold: the decade's power distribution inverts inside the recorded window."
   - page: wiki/mind/synthesis/august-grievance-verdict
     type: contains
     claim: "The seventy-hour version of this page's ten-year question, at act-level resolution. Same structure, one new term: capacity. The person committing the August wrongs was under documented coercive control and had disclosed a suicide attempt, which relocates culpability without reducing the wrong — and this page's own diagnosis-to-behaviour gap gets its clearest instance there, in a faked threat run as a measurement six hours after that disclosure."

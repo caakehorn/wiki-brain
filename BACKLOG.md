@@ -343,9 +343,12 @@ reason rather than re-derive it:
 - **LOW — `wiki/people/index.md` is 23KB against an 8KB budget.** Standing lint
   warning, untouched by this pass.
 
-- **Add a conflict-marker gate to `bin/wiki-lint`.** Two committed markers were
-  found on `main` on 2026-08-20 (`annie-read-notes.md:452`,
-  `annie-record.md:1025`), one of them hiding a duplicated entry whose copies
-  differed in their wikilinks. Both had been published into `llm/corpus.txt`. A
-  page matching `^<<<<<<<`, `^=======$` or `^>>>>>>>` is never correct; this is a
-  three-line check.
+- ~~**Add a conflict-marker gate to `bin/wiki-lint`.**~~ **DONE 2026-08-20.**
+  Shipped as `find_corrupt_text()`, and widened once a second class of invisible
+  junk turned up the same day: eight **assistant citation artifacts** (private-use
+  codepoints U+E000–U+F8FF wrapping a `filecite`/`turn` reference) in
+  `morgantown-call-three-participant-ethical-analysis.md`. They render as
+  nothing, survive copy-paste, and assert a source that points nowhere. The gate
+  now catches both, with eleven tests — including a regression test that the
+  whole wiki stays clean, and negative tests proving a setext underline and an
+  `=======`-with-trailing-content are not markers.

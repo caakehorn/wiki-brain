@@ -1548,10 +1548,31 @@ somewhere right now."*
 **August 16–19 — the end.** Full account at
 [[wiki/timeline/events/august-2026-morgantown-call]]. She flakes on a $60
 handoff; at ~23:37 Coles calls Dan from her phone and Dan records fifteen
-minutes and twenty-seven seconds of it. On the recording she is asking for her
-phone back, saying she wants to leave, and refusing — through a dozen
-repetitions of the question — to say that Dan ever prostituted her. Dan's own
-contribution is *"give her her phone and let her leave,"* fourteen times.
+minutes and twenty-seven seconds of it. On the recording she asks for her phone
+five times, says she wants to leave from four minutes in, says twice that she
+is being held hostage, and says *"No, you threatened me."* Dan's own
+contribution is *"give her her phone and let her leave,"* **twenty times**.
+
+**She also alleges, on tape, that Coles has hit her.** At 02:35, answering his
+*"You're acting like someone's fucking hitting you and shit,"* she says
+***"You are"*** — and he denies it four times in the next breath (*"So I hit
+you? Where'd I hit you at then?"*). Nothing else in this corpus records an
+assault allegation made to the person's face and answered in real time. Two
+minutes earlier she has already said *"That's exactly why the police were
+called the last time"* (02:04), and when he dares her to call them again she
+says *"I absolutely fucking will."* She does not.
+
+> **CORRECTED [2026-08-20], against the primary transcript.** This paragraph
+> previously said she refused *"through a dozen repetitions of the question —
+> to say that Dan ever prostituted her,"* and put Dan's stock line at fourteen
+> repetitions. The line is **twenty**. And the refusal was not total: at 04:43,
+> answering *"Yes or no?"*, she says ***"Yes, save it"***, which Coles
+> immediately reads to Dan as assent. The words are ambiguous, they are
+> produced while he is withholding her phone and threatening to call her
+> mother, and they concern 2019 — so they are worthless as evidence about what
+> happened then. But the page cannot say she never said it. What the record
+> supports: **she never freely affirmed it.** Held open at
+> [[wiki/mind/synthesis/august-grievance-verdict]].
 
 What happens over the next three days is the inversion of that. Dan spends
 sixty-seven hours threatening to send the audio to her mother's work email,

@@ -13,12 +13,16 @@ date_range_end: 2026-08-19
 tags: [relationships, trauma-bond, forensic-analysis, mental-health]
 sources:
   - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
+  - raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt
   - raw/self/message-csv/imessage_export_2124702449_20260820.csv
   - raw/self/message-csv/imessage_export_7248123683_20260820.csv
   - raw/self/analysis/2026-08-18_forensic-analysis-morgantown-call.md
   - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
   - raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name.md
 connections:
+  - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
+    type: instantiates
+    claim: "The ethical analysis of this window reasons from this page: it takes the recording's established contents and asks what each of the three participants was doing, finding Coles the active coercive force, Annie the least powerful person present, and Dan protective during the call and compromised after it."
   - page: wiki/mind/synthesis/august-grievance-verdict
     type: instance-of
     claim: "This window is what that page adjudicates. Its finding: seven of Dan's ten stated grievances are fully supported, two partly, one false — and the recording he holds as proof of betrayal is simultaneously the best corroboration in the corpus of the defence she offered, because on it she is asking for her phone and saying she wants to leave."
@@ -83,7 +87,7 @@ flakes on a $60 procurement handoff; Dan spends five hours escalating, then at
 tape: Coles admits going through her phone while she slept, refuses to return
 it, screams at her to say Dan pimped her out, threatens her parents, and tells
 Dan to kill himself; Dan's near-sole contribution is *"give her her phone and
-let her leave,"* said fourteen times, and he offers to drive over. Messages
+let her leave,"* said twenty times, and he offers to drive over. Messages
 sent from Annie's handle during the call — *"She's a slut,"* *"You made me
 fuck guys for money"* — are **Coles typing on her phone, not Annie**. Aug
 17–19: Dan runs a three-day campaign to send the audio to
@@ -106,20 +110,35 @@ ran through.
 
 | Artifact | What it is | Tier |
 |---|---|---|
-| `raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a` | The recording itself, 927.19 s, AAC, `com.apple.VoiceMemos (Dan's MacBook Pro)`, container date `2026-08-17T03:54:49Z` (= 23:54:49 EDT Aug 16), memo UUID `5B51561B-…CFDD`, md5 `96bd3df4…621d` | **T0 primary — but unheard.** No transcription tooling was available to this pass. Every quotation below is second-hand. |
+| `raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a` | The recording itself, 927.19 s, AAC, `com.apple.VoiceMemos (Dan's MacBook Pro)`, container date `2026-08-17T03:54:49Z` (= 23:54:49 EDT Aug 16), memo UUID `5B51561B-…CFDD`, md5 `96bd3df4…621d`, sha256 `f656b6ab…a4ec` | **T0 primary.** |
+| `raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt` | Operator-supplied timestamped speaker-labelled transcript, 611 lines, **204 turns**, `00:00:00` → `00:14:59` | **T1 — a direct transcription of the T0 audio**, supplied 2026-08-20. Quotations below are checked against this. |
 | `raw/self/message-csv/imessage_export_2124702449_20260820.csv` | 6,495 messages, 2026-07-23 → 2026-08-19 15:15:33 | T0 primary, read in full |
 | `raw/self/message-csv/imessage_export_7248123683_20260820.csv` | 97 messages, Dan ↔ Coles, 2026-08-17 11:54 → 2026-08-19 01:09 | T0 primary, read in full |
 | `raw/self/analysis/2026-08-18_forensic-analysis-morgantown-call.md` | An agent-authored analysis carrying a full speaker-labelled transcript, itself derived from a PDF transcript not in the corpus | **T2 AI-secondary, two removes from the audio.** See the corrections section. |
 
-> **SOURCING NOTE — the transcript in this page is not primary.** Everything
-> quoted from the call comes from the AI-secondary analysis, which took it
-> from a PDF transcript that is not in `raw/`. This pass verified what it
-> could verify without ears — duration, device, timestamp, and the alignment
-> of two spoken lines against timestamped texts — and all of it held. That is
-> corroboration of the transcript's *placement*, not of its wording. **The
-> single highest-value open action on this page is a real transcription of
-> the audio**, filed beside it, at which point every quotation here becomes
-> checkable and the speaker attributions become primary.
+> **SOURCING NOTE — SUPERSEDED [2026-08-20].** This page previously read:
+> *"the transcript in this page is not primary… Everything quoted from the
+> call comes from the AI-secondary analysis… The single highest-value open
+> action on this page is a real transcription of the audio."* **That action is
+> done.** The operator supplied a timestamped speaker-labelled transcript of
+> the audio, filed at
+> `raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt`, and every
+> quotation in the section below has now been checked against it. The results
+> are in "What is on the recording" — most claims held, several timestamps
+> were wrong, one count was understated by six, and one flat assertion did not
+> survive.
+>
+> **Two limits remain, and they are not the same limit.** First, the
+> transcript covers `00:00:00`–`00:14:59` against an audio duration of
+> `15:27.24`, so **the last ~28 seconds are untranscribed** and nothing should
+> be claimed about them. Second, **the speaker labels are diarization output,
+> not identification.** At least five of the 204 turns carry another
+> speaker's words under the wrong label — 04:03 and 06:22 put Coles's lines
+> under Annie, 09:46 puts Annie's *"I'm willing to leave"* under Coles, 10:31
+> puts Dan's stock line under Coles, and 14:30 puts Coles's line under Dan.
+> Claims resting on a single short line's attribution are therefore still
+> soft; claims resting on repeated content are solid, and are marked as such
+> below.
 
 ## When the recording actually ran
 
@@ -190,48 +209,152 @@ Then the phone rings.
 
 ### What is on the recording
 
-Per the secondary transcript, and stated here as attributed rather than
-established:
+**Verified against the primary transcript, 2026-08-20.** What follows is no
+longer attributed; it is checked. Where a claim moved, the old version is kept
+visible.
 
-- **Coles confesses to searching her phone while she slept** (00:44): *"She
-  was sleeping, and I went through her phone. Yeah. Now what?"*
-- **He holds the phone for the whole call.** Annie: *"You're holding my
-  phone!"* (02:18); *"I don't have my phone!"* (12:44); *"I said I'm willing
-  to leave!"* (09:44); *"I want to leave!"* repeatedly from 11:04.
-- **He interrogates her, on tape, to make her say Dan prostituted her** —
-  *"Did Dan make you fuck guys for money?"*, asked upward of a dozen times
-  across four minutes — and she never says yes.
-- **He threatens her parents repeatedly**, which is the same lever Dan is
-  holding: *"I'm FaceTiming Dan, you, and the mom"* (01:01); *"I'm going to
-  call your dad. Fuck your mom"* (08:41).
-- **He tells Dan to kill himself** (07:51) and calls him a junkie (01:58).
-- **Both men announce they are recording.** Coles at 02:19: *"Make sure you
-  record this, Dan, because I know you're going to edit it."*
-- **Dan's contribution is almost entirely one sentence.** *"Give her her
-  phone and let her leave"* — fourteen separate times between 06:30 and
-  12:31. He offers to drive: *"if that's what it takes, I'll come get her.
-  But let her leave now"* (12:15). Coles goads him for not being there
-  (*"Dan, come get her, man. Do you have a car?"*).
-- **The molestation video is argued live.** Coles: *"I will send her dad the
-  video you fingering her while she—"*; Dan: *"go look at her eyes. Her eyes
-  are open in the video, you idiot."* This is the same video and the same
-  rebuttal recorded in [[wiki/timeline/events/july-august-2026-reentanglement|the July window]],
-  now stated to the man holding it rather than about him.
+**The shape of the call, before any quotation.** 204 speaker turns in fifteen
+minutes: **Coles 99, Annie 55, Dan 50.** Coles takes nearly as many turns as
+the other two combined, and the call is his throughout — he sets every topic,
+and both of the others are responding to him.
 
-Two things about this are worth naming plainly, because they cut in opposite
-directions and the page is worth nothing if it only carries one.
+**What holds, and is now primary.**
 
-**First: this is the least self-interested fifteen minutes of Dan's conduct
-in the entire terminal record.** He is being screamed at, doxxed by
-implication, and told to kill himself, and what he asks for is that a woman
-who had just humiliated him be given her phone back and allowed to leave. He
-says so while announcing he is recording, which is the opposite of a man
-building a case.
+- **Coles confesses to searching her phone while she slept**, at **00:43**:
+  *"She was sleeping, I went through her phone. Yeah, and now what?"*
+- **He holds the phone for the whole call and says so.** When Dan says *"You
+  have her phone asshole. Obviously you are"* (09:16), Coles answers
+  ***"Yeah, I am"*** — twice, at 09:19 and 09:31. Annie: *"You're holding my
+  phone!"* (02:24), *"Give me my phone!"* (05:07), *"I don't have my phone!"*
+  (12:45).
+- **He interrogates her on tape to make her say Dan prostituted her.** Seven
+  separate turns between **04:18 and 07:24** carry the question, most of them
+  repeating it several times inside the turn: *"Did Dan make you fuck guys for
+  money to get for drugs?"* He conditions her phone on the answer — *"Yeah I
+  will, once you answer the question"* (05:08) — and threatens her mother to
+  force it: *"if you don't answer the question, I'm calling your mom"* (05:38).
+- **He threatens her parents from the first minute**: *"you say one more
+  fucking lie, I'm facetiming Dan, you, and the mom. I'm putting you guys in a
+  group chat"* (01:01).
+- **He tells Dan to kill himself** — *"Gay ass, kill yourself"* (**08:12**) —
+  and calls him a junkie (02:09).
+- **Both men announce they are recording.** Coles at **02:36**: *"Make sure
+  you record this Dan, because I know you're gonna edit it. You're gonna
+  edit… edit this Dan to make it look like I'm a maniac."*
+- **The intimate video is argued live.** Coles: *"I will send her dad the
+  video you fingering her while she's…"* (14:00); Dan: *"I watched that video,
+  you should watch it at 37 seconds, and go look at her eyes, her eyes are
+  open in the video you idiot"* (14:07). The primary transcript adds the
+  timecode — *at 37 seconds* — which the secondary did not carry.
+- **Dan's contribution really is almost entirely one sentence.** *"Give her
+  her phone and let her leave"* and near-variants, in **20 of his 50 turns**.
+  He offers to drive: *"if that's what it takes, I'll come get her. But let
+  her leave now"* (12:15), against Coles goading him — *"Dan, come get her
+  man. Do you have a car?"* (12:12).
 
-**Second: within twelve hours he is using the same fifteen minutes as
-leverage against her.** The artifact does not change. Its function does. That
-is the whole of [[wiki/mind/concepts/forensic-method|the forensic method]]'s
-ambiguity in one object.
+> **CORRECTED [2026-08-20] — five figures in this section were wrong, all
+> from the secondary transcript.**
+>
+> - *"fourteen separate times between 06:30 and 12:31"* → **twenty times,
+>   06:31 to 14:17.** Undercounted by six, and the window was cut short by
+>   nearly two minutes; he is still saying it ninety seconds before the
+>   transcript ends.
+> - *"'I want to leave!' repeatedly from 11:04"* → **from 04:16**
+>   (*"I want my phone and I want to leave"*), then 04:59, 09:44, 11:06,
+>   11:54. **Six minutes and forty-eight seconds earlier than stated**, which
+>   materially lengthens the window in which she is on record asking to go.
+> - Dan's first intervention is **05:12**, not 06:30, and it is not the stock
+>   line: *"Hey psychopath, do you think it's really a hard choice when
+>   you're the one screaming in her face who the fuck she's gonna pick? Shut
+>   the fuck up, let her go."*
+> - Timestamps corrected: the phone confession 00:44 → **00:43**; *"You're
+>   holding my phone"* 02:18 → **02:24**; the recording taunt 02:19 →
+>   **02:36**; *"kill yourself"* 07:51 → **08:12**; the junkie line 01:58 →
+>   **02:09**; the parent threat 08:41 → **08:37**.
+> - *"I'm going to call your dad. Fuck your mom"* (08:41) → the line is
+>   **08:37** and **breaks off unfinished**: *"I'm gonna talk to your dad,
+>   fuck your… Matter of fact…"* It is also a *counter*-threat, answering
+>   Dan's threat to call Coles's mother, not an opening move.
+
+> **CORRECTED [2026-08-20] — "she never says yes" does not survive the
+> primary transcript.** This page stated that Coles asked whether Dan
+> prostituted her *"upward of a dozen times across four minutes — and she
+> never says yes."* The count and span are close enough; the assertion is not.
+> At **04:43**, answering *"Yes or no?"*, Annie says ***"Yes, save it."***
+> Three seconds later Coles tells Dan ***"she's looking at me saying yeah, she
+> don't want you to hear it."***
+>
+> This is not a retraction of her defence and it is not corroboration of the
+> allegation. The two words are ambiguous on their face — *"save it"* is a
+> dismissal, and the whole clause reads as plausibly as *stop, drop it* as it
+> does as assent — and they are produced under a man who is holding her phone,
+> refusing to return it until she answers, and threatening to call her mother.
+> **A "yes" extracted that way is worth nothing as evidence about 2019.** But
+> the page cannot claim she never said it, because she did, and Coles built on
+> it in the next breath. What the record supports is the narrower and still
+> decisive claim: **she never freely affirmed it, and she is never heard
+> affirming it when not under duress.**
+
+**What the secondary transcript missed entirely.** Four things, none of them
+minor, none of which appear anywhere on this page before today.
+
+- **Annie alleges physical violence, on tape, and Coles denies it in the same
+  breath.** At 02:31 he says *"You're acting like someone's fucking hitting
+  you and shit."* Annie answers, at 02:35: ***"You are."*** His reply (02:36)
+  denies it four times and then dares her to locate it — *"No I didn't. No I
+  fucking didn't. No I didn't. So I hit you? Where'd I hit you at then? Oh, so
+  I hit you. Okay."* Nothing else in the corpus records an assault allegation
+  made to the person's face and answered in real time.
+- **Annie says the police have been called before, over this**: *"That's
+  exactly why the police were called the last time"* (02:04), and when Coles
+  dares her to do it again — *"Call them again"* — she answers *"I absolutely
+  fucking will"* (02:08). She does not.
+- **Annie states she was threatened**: *"No, you threatened me"* (05:22).
+- **Dan answers the prostitution allegation on the record, and answers it
+  narrowly.** At 07:31: *"I really didn't need the money at that time when
+  that was all going on, so you're kind of barking up the wrong tree
+  anyways."* He contests the **motive** — that he was broke and living off it
+  — and does not contest that the escorting happened. That is consistent with
+  everything on [[wiki/people/annie-ulmer]] and it is the only time he is
+  heard responding to the charge rather than being told about it.
+
+**And one thing that changes this page's own conclusion.**
+
+> **REVISED [2026-08-20] — the function shift happens inside the recording,
+> not twelve hours later.** This section closed by saying that within twelve
+> hours Dan was *"using the same fifteen minutes as leverage against her,"*
+> and that *"the artifact does not change. Its function does."* The primary
+> transcript puts the turn **at 13:30, while the call is still running**:
+>
+> > **DAN:** Hey, you're gonna give her her phone back? Or we're gonna like…
+> > it's gonna be a real problem. Or… **I'm gonna send this whole thing to
+> > Ellen because it sounds really fucking bad and I haven't said a word this
+> > entire time.**
+>
+> He repeats the threat at 13:46 with the elapsed time attached — *"what has
+> gone on for the last 13 minutes and 51 seconds"* — and Coles calls the bluff
+> four times in the closing ninety seconds (*"Dan, call Ellen. Stop bluffing.
+> Do it"*). Dan had already raised the police twice (10:23, 12:55) and been
+> dared to dial (*"it's three numbers, 9-1-1. Stop fucking bluffing"*, 13:05).
+>
+> The correction cuts both ways and both halves belong on the page. **Against
+> Dan:** the recording is not a document he made for one reason and later
+> repurposed; it is being aimed at Annie's mother while Annie is still in the
+> room asking for her phone, which makes the "least self-interested fifteen
+> minutes" reading above **partly wrong** and it is corrected rather than
+> deleted. **For Dan:** the threat's stated purpose at 13:30 is to make Coles
+> hand the phone back, it is the last lever he has from another county, and
+> the clause he attaches to it — *"I haven't said a word this entire time"* —
+> is true and is the reason the tape works as leverage at all.
+
+**The load-bearing finding is unchanged and is now primary rather than
+attributed:** the recording Dan kept for three days as proof of betrayal is
+also the best corroboration in the corpus of the defence Annie offered. On it
+she asks for her phone five times, says she wants to leave from 04:16, says
+she is being held hostage twice, alleges she was hit and that she was
+threatened — and the man refusing her is the man Dan is arguing with. That
+finding was made from a two-removes transcript and it survives contact with
+the real one.
 
 ## The campaign — August 17 to 19
 

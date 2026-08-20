@@ -8,7 +8,7 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 44 |
+| Live contradictions | 45 |
 | Open gaps | 395 |
 | Answered, awaiting ingest | 2 |
 | Standing predictions | 36 |
@@ -49,6 +49,7 @@ somewhere and has not yet found out where.
 - **[[wiki/mind/profile/big-five-psychometrics]]** — acquisition-drive records the operator's own claim, offered with an explicit disclaimer against hyperbole, that his "resilience for the goal" sits at the 95th percentile or above — a persistence dimension that appears nowhere in the Big30 facet list and that the instrument does not test. If it is real, then a substanti
 - **[[wiki/mind/profile/enneagram-5w4]]** — Everything on this page descends from a commissioned instrument. The message corpus contains exactly one instance of Dan typing himself in his own words, quoting back a prompt he had written, on **2024-11-04**: *"vanessa is an xNFP 4w5 and **Dan is an INTP 5w6sx RLOEI** - compare them."* Not 5w4, and not RLUEI. The win
 - **[[wiki/mind/synthesis/ancestral-dialectic]]** — fayette-return shows the return dynamic is fully documented within the paternal line alone, across four generations, so a two-line dialectic is not required to explain it and may be over-specified. Both G1 immigrants — David from Russia, Sadie from Austria — are on the Ashkenazi side; if one line reproduces the pattern
+- **[[wiki/mind/synthesis/august-grievance-verdict]]** — The Morgantown event page previously asserted, and this page assumed, that across the interrogation *"she never says yes."* At **04:43**, answering *"Yes or no?"*, Annie says ***"Yes, save it."*** Three seconds later Coles tells Dan ***"she's looking at me saying yeah, she don't want you to hear it."*** This is held op
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — block-unblock-loop scores Menore's February 2025 farewell as *"the record's only fully clean closure"* — its strongest non-Annie control for the rule that a block holds when no dependency flows. This page reads the same relationship as the corpus's best evidence that closures of exactly that shape are dormancies. Both 
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — An operator capture ingested on 2026-08-02 (franki-fireworks-day-2013) attaches five days to a *different person in the same episode*: **Alexis** stayed at 155 Virginia Ave *"for 5 days before returning to carmichaels to her parents."* Of Franki's own tenure the capture says only that she *"got sick of me basically imm
 - **[[wiki/mind/synthesis/fayette-return]]** — this page and ancestral-dialectic give incompatible accounts of the same phenomenon. The dialectic requires two inherited operating systems from two parental lines; this page shows the return is reproduced by the paternal line alone, whose two immigrant anchors are both Ashkenazi. Both pages now carry the disagreement,
