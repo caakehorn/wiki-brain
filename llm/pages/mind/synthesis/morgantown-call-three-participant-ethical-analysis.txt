@@ -1,0 +1,110 @@
+MORGANTOWN CALL — THREE-PARTICIPANT ETHICAL ANALYSIS
+
+Primary source: raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
+Direct transcript: raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt
+Main event: wiki/timeline/events/august-2026-morgantown-call
+
+STATUS: critical synthesis. The audio is a primary artifact; the transcript is a direct transcript artifact associated with that recording. Speaker mapping (Speaker 1=Jerel Coles, Speaker 2=Annie Ulmer, Speaker 3=Dan Frank) is supported by the corpus and transcript context but should not be described as biometric acoustic authentication.
+
+CORE FINDING
+
+The recording establishes a moral asymmetry during the captured scene and a second asymmetry after it. Coles is the active coercive force in the room. Annie is the person under immediate coercive pressure. Dan acts as a remote witness/intervener advocating that Annie's phone be returned and that she be allowed to leave. After the call, however, Dan turns the recording into leverage against Annie through family-disclosure threats, deadlines, and a deliberate false-send experiment. These roles are not equivalent and should not be collapsed into 'everyone was toxic.'
+
+COLES
+
+Role: active coercive aggressor / dominance node.
+
+Key facts:
+- Annie repeatedly asks for her phone and says she wants to leave.
+- At approximately 05:08 Coles says he will return the phone only after she answers his question about Dan.
+- He repeatedly asks the same yes/no question while she cries and tries to leave.
+- He threatens to involve her mother and uses her stated fear of family involvement as leverage.
+- He characterizes her crying as fake and her resistance as evidence rather than allowing an answer that ends the interrogation.
+- He repeatedly insults and provokes Dan and invites confrontation.
+- He openly describes having gone through Annie's phone while she slept.
+
+Interpretation:
+The interaction is not ordinary information-seeking. It is confession-producing coercion. Coles's method is self-sealing: yes confirms the accusation, no can be challenged, refusal becomes evidence of guilt, crying becomes manipulation, and leaving becomes avoidance. His strongest possible defense is that he sincerely believed Annie had been exploited and wanted the truth. That may explain motive but does not justify the method. A genuinely protective response would increase Annie's safety and autonomy rather than making access to her phone conditional on compliance.
+
+Judgment:
+Strongly negative. The recording supports calling Coles the principal active aggressor in the captured scene. It does not adjudicate the underlying accusations he makes about Dan. It does establish coercive, humiliating, retaliatory, dominance-oriented conduct.
+
+ANNIE
+
+Role: immediate target of coercion / ambiguity-maintainer in the larger triangle.
+
+Key facts in the recording:
+- Repeatedly says no, asks to leave, asks for her phone, says she is tired of the situation, invokes prior police involvement, and asks why Coles's questions concern him.
+- Says 'I want my phone and I want to leave' and later 'Give me my phone!'
+- Does not provide a clean, freely established confession to Coles's accusation.
+- Her apparent 'yes' occurs inside an extended coercive exchange and cannot be treated as an unqualified voluntary admission.
+
+Interpretation:
+In the captured scene she is primarily the person whose autonomy is being violated. Her prior dishonesty, relationship choices, contradictory narratives, or continued contact with Coles do not morally authorize Coles to retain her phone or condition its return on an answer.
+
+Across the larger corpus, however, she is not merely a passive victim. The August record documents continued/restarted contact with Coles while Dan believed she had disengaged, inconsistent boundaries, contradictory accusations, and a later group-chat retraction ('He didn't rape me'). The proper inference is not simply 'Annie lied about rape'; the evidence shows that allegations became part of a shifting power system involving allegiance, family exposure, and crisis management. Her strategy appears oriented toward short-term survival and consequence avoidance rather than making a stable structural choice that ends the triangle.
+
+Judgment:
+Mixed. She is substantially victimized by the system and is not responsible for Coles's coercive conduct in the recording. She nevertheless bears meaningful responsibility for maintaining the larger unstable triangle through secrecy, inconsistent boundaries, contradictory narratives, and repeated re-engagement. Her principal moral failure is evasion/instability rather than domination.
+
+DAN
+
+Role: witness/protector in the recording; later archive/leverage operator.
+
+Key facts in the recording:
+- Records the call, with recording disclosed/known in the interaction.
+- Does not join Coles's interrogation of Annie.
+- Repeatedly says, in substance, 'give her her phone and let her leave.'
+- Does not use the moment to force Annie to confess or choose him.
+- When challenged and insulted, remains largely focused on Annie's immediate ability to leave.
+
+Interpretation of the call:
+This is strong evidence of protective conduct. Dan's immediate objective is autonomy, not winning the argument. Given his emotional stake, this is one of the strongest positive behavioral findings available about him.
+
+Post-call conduct:
+- Within hours, Dan turns the recording into leverage against Annie.
+- Threatens to send it to her parents, especially Ellen's work email.
+- Uses deadlines and disclosure consequences to seek a written commitment that Annie is finished with Coles.
+- Offers inspection before sending, which is evidence about his stated intent but does not remove the coercive structure.
+- On August 18 falsely says he sent the material, then admits it was not sent and explains that he wanted to see whether Annie would 'come back to life.' This is a deliberate behavioral experiment on an intimate partner.
+- Later retains the leverage while saying he could have destroyed her life and still could.
+
+Interpretation:
+The moral problem is instrumentalization. Dan converts people and their responses into data, stimuli, variables, and tests. His forensic abilities are genuinely useful for preserving evidence and detecting contradictions, but they become dangerous when his confidence in the analysis is treated as authorization to manipulate the people being analyzed.
+
+Judgment:
+Mixed, but sharply divided by phase. During the recorded event he behaves primarily as a witness and advocate for Annie's autonomy and deserves explicit moral credit for that. Afterward he becomes an intentional leverage operator. This is controlled coercion rather than random emotional outburst. His greatest moral risk is that he can subordinate his conscience to his theory of the case.
+
+SYSTEM-LEVEL MODEL
+
+The three participants develop incompatible coping/control strategies:
+- Coles uses force/dominance.
+- Annie uses ambiguity/short-term consequence management.
+- Dan uses information/forensicization.
+
+These strategies reinforce one another:
+Coles's aggression increases Annie's secrecy; Annie's secrecy increases Dan's investigation; Dan's investigation increases Annie's fear of disclosure; fear increases the value of Coles's control; Coles's conduct generates more evidence for Dan.
+
+The system can therefore regenerate without a single mastermind. Each participant's locally rational strategy is globally destructive.
+
+PHONE/RECORDING PARALLEL
+
+The phone is the physical object around which the recorded conflict organizes itself. Coles uses possession of the phone as power; Annie experiences possession as autonomy; Dan treats the recording as evidence. After the call, Dan's recording becomes a second leverage object. The mechanisms are not equivalent: Coles physically controls the phone while Annie asks to leave; Dan uses information and threatened disclosure. But the structural parallel is important: both men discover that possession of an important object/artifact creates leverage over Annie.
+
+FINAL HIERARCHY
+
+During the recorded call:
+1. Coles — most culpable; active coercive controller.
+2. Annie — primarily constrained participant.
+3. Dan — protective remote intervener.
+
+Across the larger August conflict:
+- Coles: escalation/dominance node.
+- Annie: continuity/ambiguity node.
+- Dan: archive/leverage node.
+
+The recording should not be used as simple vindication for Dan or simple condemnation of Annie. Its highest value is that it shows the transition between roles. Dan correctly recognizes coercion when he sees it, then later adopts a different form of leverage himself. That is not equivalence. It is evidence that recognizing coercion does not immunize someone against becoming coercive when the objective shifts from protecting another person's autonomy to controlling what that person does next.
+
+BOTTOM LINE
+
+Coles is the person controlling the room. Annie is the person trying to get out of it. Dan is the person trying to stop him — until he takes the logic of leverage home with him and uses the evidence to control what happens next.
