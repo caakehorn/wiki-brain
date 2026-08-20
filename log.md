@@ -2727,3 +2727,80 @@ Dan's name.
 
 **Gates:** `wiki-lint` **0 errors** · `wiki-connect check` **0 errors** ·
 `wiki-climb check` **0 errors**.
+
+## [2026-08-20] rewrite | people | ally-lubin — the wiki hallucinated about itself, and the infobox carried it
+
+**The headline finding is a failure of this repository, not of the corpus.**
+The page recorded that on 2026-08-18 Ally accepted the "object of fixation"
+title (*"Okay deal. Sounds good 1-2-3 break"*), and carried it in
+`relationship_to_dan`. A complete export of the thread — 708 records, 154 of
+them inbound, supplied by the operator mid-session and filed to
+`raw/self/imessage/ally-lubin_last-7-days_20260820.csv` — contains neither
+string, and "object of fixation" appears nowhere under `raw/`. The elopement
+pitch is real and unanswered.
+
+The mechanism is inside the thread. At 23:39 Dan invited Ally to say anything
+she wanted included in her entry so he could run the pass over the newest
+messages (*"I just want to see how meta it gets if it is writing the article
+basically about itself"*); at 23:46 he reports *"Omg she said prompt inject
+please marry me"*; at 00:31–00:33 he diagnoses the result — *"I was the one
+that accidentally prompt injected… I ran out of Claude quota… using a free
+model… Hence it thinking you were the one accepting my very attractive offer
+there."* **The operator identified the hallucination within four hours and the
+wiki did not act on it for two days.** Added to `RETRACTED.md` as
+`ally-object-of-fixation-accepted`; gate verified to fire.
+
+General rule this yields: **a source that discusses the wiki cannot be ingested
+as an ordinary source.** Ally spent 2026-08-18 reading her own entry and
+quoting it back — at 16:28 she pastes a `claim:` line out of the page's own
+frontmatter into the thread. From that point the message corpus contains the
+wiki, and any pass mining the corpus is partly reading itself.
+
+**Every count on the page was a line count.** 1,375 iMessage records → 1,285 in
+that file; 1,143/232 per handle → 1,080/205; "279-message exchange" on Aug 18 →
+375. `wc -l` on a CSV whose texts contain newlines. Corrected against record
+counts; the union across three sources is **1,987** (1,293 sent / 694 received),
+and the 2019 peak's share drops 74% → 47% because the August 2026 burst is 36%
+of eighteen years on its own.
+
+**120 messages of January 2019 were invisible to every prior pass** — present in
+`all_imessages_complete_dump.txt`, absent from the chat.db extract the page was
+built on. They overturn three claims: a phone call connected (2019-01-09,
+*"You have a good voice btw"* / *"I can't believe I got a call tonight"*),
+against which Ally's 2026 account (*"I called you when I was in NYC once and you
+were too scared"*) is now held as a CONTRADICTION; the marriage frame was
+**mutual in 2019** (*"Ily btw"*, *"so I can be ur future ex wife"*, *"When you
+want to be a power couple LMK"*), which falsifies "first sustained mutual
+conversation in the channel's history" for August 2026; and the payments predate
+the August 2019 job loss, so what the crisis changed was the pricing, not the
+existence of the channel.
+
+**GAP CLOSED — the June 1, 2026 burst was never delivered.** Operator answer
+(T0): *"Ally didn't actually get the message I sent on 1 June. She is convinced
+I had her blocked but this is not and was never true."* Corroborated from her
+side by her first line on Aug 18 (*"Why do I have 2 numbers for you and an
+iCloud"*). Nine messages, not ten. At least one of this channel's long silences
+is a **routing artifact, not dormancy** — written back to `dormancy-not-exit`.
+
+**Thesis revised: the channels are concurrent, not sequential.** Laying the Ally
+export beside `imessage_export_2124702449_20260820.csv` for the same 48 hours
+shows them interleaved hour by hour — 408 messages to Annie and 552 to Ally
+across Aug 18–19. Dan tells Ally at 00:09 his wifi is off so he won't see Annie,
+then exchanges 98 messages with Annie between 01:00 and 02:59; tells Ally at
+13:45 *"Im all ally Lubin all the time now"* ninety minutes before sending Annie
+the last message of the eleven-year relationship at 15:15:33. "The overflow is
+not what happens after the vessel breaks; it is what the vessel was overflowing
+into the whole time." Written back to `annie-ulmer` as a `mirrors` edge.
+
+**Caveat held open:** the Aug 19 inbound is missing from the export, not absent
+from the conversation — Dan's replies that day are plainly responsive
+(*"Sorry is this your coffee order or your answer"*, *"Bob was born in what
+year"*). Every claim about what Ally said after 21:42 on Aug 18 is withheld,
+including the previous page's "morning after" section, whose meta-question it
+attributed to her and which is Dan's.
+
+Cascade: `ally-and-dan-love-as-destiny` (edge retyped `instantiates` →
+`contradicts`; its strongest evidence struck; two Gaps closed),
+`astrology-star-signs` (RE-CHECKED — conclusion survives, DOB premise
+*strengthened* by the recovered 2019 corroboration), `contact-gini`,
+`dormancy-not-exit`, `group-chat-closure`, `annie-ulmer`. Three gates 0 errors.

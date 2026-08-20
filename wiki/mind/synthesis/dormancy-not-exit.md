@@ -66,7 +66,7 @@ connections:
     claim: "The capture attaches five days to Alexis's stay at 155 Virginia Ave, not to Franki's tenure, which puts this page's only quantity — the number defining its tenure floor — in question while leaving the qualitative control intact."
   - page: wiki/people/ally-lubin
     type: instantiates
-    claim: "The channel never closes and never has to: seven and a half years of iMessage across two handles with gaps of thirty-eight months and fourteen months, reopened each time by whichever party currently needs something, with no severance attempt by either — and the 2026 re-approach lands nineteen hours after the Annie closure."
+    claim: "The channel never closes and never has to — but the operator's 2026-08-20 answer puts a boundary on the rule: the June 1, 2026 burst went to an email handle Ally does not monitor and was never delivered, and she had concluded she was blocked. At least one silence in this tie is a routing artifact rather than dormancy, so a gap is not evidence of the rule until the handle it was sent to is checked."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: contradicts
     claim: "That page scores Menore's February 2025 farewell as the record's only fully clean closure, but the same channel had already gone silent for 2,044 days under identical structural conditions and reopened — so its cleanest control is provisional on elapsed time rather than settled."
