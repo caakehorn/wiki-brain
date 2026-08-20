@@ -4,6 +4,110 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-20] - Session: the relationship ended, and the corpus's identity assumption broke
+
+* **Model:** Claude Code · **Branch:** `claude/update-analysis-entries-ufxcho`
+* **Trigger:** Operator supplied two fresh iMessage exports (the 212 handle and
+  the 724 handle) plus, mid-session, the 15:27 audio recording referenced in the
+  logs and a T2 forensic analysis of it. *"do the update analysis and make any
+  relevant, meaningful or connected entry updates based on your assessment of
+  the most recent developments."*
+* **Method:** INGEST. Both exports read in full in date order — 3,993 messages
+  of genuinely new ground (the previous 212 export stopped at 2026-08-02, the
+  previous 724 export at 2026-06-16). The audio was **not transcribed** (no
+  tooling); its container was parsed directly for duration, device and
+  timestamps, and those were aligned against the message clock.
+
+**Read this first if you are picking up the thread.**
+
+**The relationship ended.** 2026-08-19 15:07:03, *"Goodbye. I am blocking"* —
+the first goodbye in eleven years with **no condition attached**. Every prior
+one names its own reversal. That single structural difference is what makes it
+worth treating as different from the other 127 declared exits, and it is now the
+live test running under `the-unbroken-bond`, `dormancy-not-exit` and
+`single-channel`, all three of which were re-checked and deliberately **not**
+scored — four days is not an outcome. If contact resumes, it is the wiki's
+strongest dormancy datum; if it has not resumed by ~2027-02-19, it is the first
+attested exit.
+
+**The finding with the longest reach is not about the relationship.** It is that
+**a handle is not a person.** At least six inbound rows on Annie's 212 handle
+were typed by Jerel Coles holding her phone, in three separate episodes
+(2026-07-26, 2026-08-16, 2026-08-18), all during crises — including a sexual-
+exploitation accusation *against Dan* that a naive read files as her testimony.
+Counts are unaffected (97,768 stands); attributions are not. There is no column
+for this and no detector — all three episodes were found by register alone.
+Written into `source-coverage-index` (as a fourth preflight question),
+`wiki-brain` and `read-receipt-forensics`. **Whether it happened before July
+2026 has never been asked.**
+
+**Two capabilities entered the record that the wiki did not know about**, and
+they are the same capability twice:
+1. **2026-08-14 — Dan forged a county drug-screen result** for Annie to show her
+   parents, iterating for forty minutes and asking *"Are you SENDING this to them
+   or just going to SHOW it on your phone"* — calibrating a forgery's fidelity to
+   how hard it would be inspected. New page `mind/concepts/document-fabrication`,
+   wired `contradicts` against `forensic-method`.
+2. **2026-08-18 — Dan faked the execution of a threat to measure the response**
+   (*"it wasn't actually sent / And I knew you would suddenly come back to life"*).
+   The methodological consequence is larger than the moral one: **Dan's
+   assertions about his own conduct are no longer evidence of that conduct**,
+   which is why the maternal-disclosure execution rate is now *unmeasured*
+   rather than zero.
+
+**An AI-secondary source had to be corrected in three places**, and one of the
+three would have been serious: it reported **463 Morgantown St as the other
+man's house.** It is Dan's own address — which is the entire reason Coles typing
+it back at him is a threat. Ingested uncritically it would have placed Dan inside
+the confrontation, the exact inversion the document's own headline correction
+exists to prevent. The pattern to carry forward: **a wrong value in a labelled
+metadata field propagates further than a wrong sentence in prose, because it
+gets copied rather than read.**
+
+**Resume points, highest value first.**
+
+* **Transcribe the audio.** `raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a`,
+  927 s. Every quotation from it in the wiki is currently two removes from the
+  source — a T2 agent analysis quoting a PDF that is not in `raw/`. This is the
+  highest-value single action available on the August material, and it converts
+  a whole page from attributed to established.
+* **Did the email to Annie's parents actually send?** Asserted three times on
+  08-19, denied twice the same day, with a proven false claim of exactly that
+  kind from the day before. One look at a sent-mail folder. Held as an open
+  `CONTRADICTION` on the event page; it decides whether the threat's execution
+  rate is zero or one.
+* **Export the Ally thread for 2026-08-13 → 20.** Flagged as missing by the
+  2026-08-19 audit and still missing. `ally-and-dan-love-as-destiny` is now
+  predicting across a severance it cannot see, and this pass added a
+  **slot-refill control** to it — if the Ally bond's amplitude rises in the 90
+  days after 08-19, that is evidence for `the-unbroken-bond`'s mechanism, not
+  for the destiny thesis. The control needs the pre-08-19 baseline to be
+  evaluable.
+* **Sweep for earlier third-party-handle episodes.** See above. Cheapest
+  high-value integrity check in the repo right now.
+* **Two CLOSE items are still pending and this pass did not touch them** —
+  `wiki/people/menore` (staged 2026-08-18) and `wiki/self/concepts/chatgpt`
+  (staged 2026-08-19). `bin/wiki-gaps pending` lists both. They were out of
+  scope for a message-export ingest but they outrank new queued work per
+  CLAUDE.md's CLOSE rule, so do them before starting anything else large.
+* **`the-embedded-objective` is the least cheap of the deferred staleness
+  warnings** — `bfs-foods` gained the posted `NO HIRE: Daniel Frank` sign in two
+  locations and the ban being lifted by the same person who imposed it. Do that
+  one before the other eight.
+
+**Also worth knowing:** the re-entanglement did not end on August 9 — it ran ten
+more days and briefly worked (Aug 10–16, 1,136 messages at the evenest ratio of
+the terminal record, a sleepover, and Dan's BFS job restored on the 11th). The
+seam is **August 13**, when Coles messaged a group chat containing Dan and Annie
+asked him not to engage; the wiki had no record of any Coles contact between the
+June 15 defection and that.
+
+**Gates:** wiki-lint **0 errors**, 30 warnings · wiki-connect check **0 errors**,
+258 warnings · wiki-climb check **0 errors**, 13 staleness warnings (25 raised,
+11 re-checked with real blocks, none cleared by date bump; the 13 itemised in
+`BACKLOG.md`, four of them pre-existing).
+
+
 ### [2026-08-19] - Session: five climbs, and the taste record turned out to say the opposite of what the wiki had recorded
 
 * **Model:** Claude Code · **Branch:** `claude/wiki-synthesis-insights-5umt91`

@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/message-csv/imessages_2124702449_last6months.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/Semantic Location History/2019/2019_FEBRUARY.json"]
 synthesizes:
   - wiki/legal/463-morgantown
@@ -21,6 +21,11 @@ infobox:
 ---
 
 # John Carney
+
+> **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/legal/463-morgantown]] (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against
+> the change; **no claim on this page is affected** and nothing here is
+> withdrawn. The contractor exposure and the unreachability since March 2026 are untouched.
+
 
 **Role:** Contractor at 463 Morgantown St. Unreachable; work ~10-20% complete. Parallel mentions of Carney's Auto Repair Services in location history (possible variant or same network).
 

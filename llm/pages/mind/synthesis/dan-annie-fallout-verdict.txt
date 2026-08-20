@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv
@@ -308,6 +308,60 @@ The synthesis the wiki already carries — "the gaslighting outweighed the affai
 
 > **RE-CHECKED [2026-08-08] — tuquick identity unmasked; verdict conclusion unaffected.**
 > [[wiki/people/tuquick-17248123683]] was modified: Tuquick's real identity is now Jerel Wayne Coles, identified via a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`. This is additive identity data — Coles's name, address, and criminal record were not in the corpus at synthesis time. The verdict's claim on the tuquick page rests on his June 15 defection behavior (the "compulsive liar with a drug addiction" read and the independent-validation argument), not on his anonymity. That behavior is unchanged by the unmasking. No conclusion on this page altered.
+
+## RE-CHECKED [2026-08-20] — the verdict holds and its third clause gains its strongest instance
+
+Flagged stale against [[wiki/people/annie-ulmer]] and
+[[wiki/people/tuquick-17248123683]], both moved 2026-08-20 for the August
+16–19 ingest ([[wiki/timeline/events/august-2026-morgantown-call]]). Re-read
+against the new material; the three-part answer above survives unchanged, and
+one clause of it gets better evidence than it previously had.
+
+**Clause 1 — "correct that he was wronged" — reinforced, and now on primary
+evidence.** Every prior account of the third party in this corpus was
+mediated. On 2026-08-16 there is a recording. Whatever else is contested about
+that night, the conduct this verdict attributed to that quarter — the
+harassment of Dan's mother, the intimidation, the defamation — is no longer
+inference. It also acquires a written admission: asked about the calls to
+[[wiki/people/suzanne-frank|Suz]], Coles answers *"Yeah it was kind of
+unnecessary but I don't like being played with"* (2026-08-17 12:58).
+
+**Clause 3 — "complicit in the length and depth" — gets its clearest single
+instance, and it is worse than anything previously on the ledger.** On
+2026-08-18 at 19:35 Dan told Annie he had sent the recording to her parents;
+three minutes later he told her he had not, and why: *"it wasn't actually
+sent / And I knew you would suddenly come back to life / And have all kinds of
+shit to say / Which of course is what happened."* That is not an argument lost
+in anger. It is a controlled test with a stated hypothesis, run on a person
+who had disclosed a suicide attempt by strangulation six hours earlier.
+
+The **diagnosis-to-behaviour gap** this page names, and which
+[[wiki/mind/synthesis/the-deferred-audit]] supplies the mechanism for, is
+visible in that one exchange at full resolution: the instrument is working
+perfectly and pointed at her, and it is not pointed at the question of whether
+running the test was a thing to do. The gap is not that the engine is slow.
+It is that it never takes the operator as its object.
+
+**One caution the verdict must now carry.** This page's provenance discipline
+(the `[RAW-CSV]` / `[DOSSIER]` legend) exists to keep claims tied to primary
+rows. Two findings from the August ingest constrain how those rows can be
+read:
+
+- **A handle is not a person.** At least six inbound rows on Annie's 212
+  handle across July–August 2026 were typed by Coles, including *"You made me
+  fuck guys for money"* — an accusation against Dan that a naive read files as
+  her testimony. `[RAW-CSV]` establishes that a row exists and was sent from a
+  handle. It does not establish who typed it.
+- **Dan's assertions of his own conduct are not self-verifying.** The false
+  send is proof by example. Where this page cites Dan stating what he did
+  rather than a record of him doing it, the tier is testimony, not raw.
+
+Neither point withdraws a finding here. Both narrow what the evidence base can
+be asked to bear, which is the direction this page has always moved in.
+
+**Nothing in the moral conclusion changes.** *"The wrong is established; the
+catastrophe is co-authored."* Four more days of record and one more severance
+do not move it; they supply the co-authorship a cleaner exhibit.
 
 ## RE-CHECKED [2026-08-10]
 

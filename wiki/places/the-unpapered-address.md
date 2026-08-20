@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-19
+date_modified: 2026-08-20
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -62,6 +62,11 @@ connections:
 ---
 
 # The Unpapered Address
+
+> **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/legal/463-morgantown]] (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against
+> the change; **no claim on this page is affected** and nothing here is
+> withdrawn. The seven-address no-lease finding is unaffected — but the new material supplies this page a consequence it had not drawn: an unpapered tenancy has no landlord to escalate a trespass threat to. On 2026-08-17 Dan's only available responses were self-help (cameras, 'I will protect myself') and a court he never filed in. Worth a paragraph in a later pass; recorded here rather than written, because one instance is not the pattern this page argues from.
+
 
 Across sixteen years and seven residences, **this corpus contains no lease, no
 rent figure recorded at the time, no signatory, and no security deposit for any

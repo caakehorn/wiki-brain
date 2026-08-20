@@ -6,7 +6,7 @@ aliases: ["Annie MBTI", "Annie Enneagram", "Annie personality type"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-19
+date_modified: 2026-08-20
 importance: high
 tags: [personality-profile, forensic-analysis, ai-collaboration]
 infobox:
@@ -26,6 +26,11 @@ connections:
 ---
 
 # Annie Ulmer — Forensic Personality Assessment
+
+> **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/people/annie-ulmer]] (2026-08-20). That page gained a substantial August 2026 section and eight chronology rows for the severance window. Re-read against
+> the change; **no claim on this page is affected** and nothing here is
+> withdrawn. The assessment's trait claims are not built on the terminal window, and this pass adds no new instrument or self-report. One item for a later pass: the new material contains her only sustained conduct under third-party coercion, which is behavioural evidence of a kind the assessment has none of.
+
 
 ## MBTI Determination
 

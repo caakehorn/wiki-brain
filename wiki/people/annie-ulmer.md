@@ -7,9 +7,9 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 date_range_start: 2015-11-01
-date_range_end: 2026-08-09
+date_range_end: 2026-08-19
 infobox:
   name: Annie Ulmer
   status: Open — in daily contact; supply relationship resumed 2026-07-27; sexual contact resumed early August 2026 after a ~6-month gap (operator testimony)
@@ -49,6 +49,9 @@ changelog:
     note: "Data audit: burst-event misattribution fixed, financial amendments folded in"
 sources:
   - raw/self/message-csv/imessage_export_2124702449_20260802.csv
+  - raw/self/message-csv/imessage_export_2124702449_20260820.csv
+  - raw/self/message-csv/imessage_export_7248123683_20260820.csv
+  - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/message-csv/imessage_export_2124702449_20260726.csv
   - raw/self/message-csv/imessage_export_17245629389_both_all_now.csv
@@ -119,6 +122,12 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: contains
+    claim: "The relationship ends here. 1,199 messages across 67 hours from the night of August 16, a disclosed suicide attempt by strangulation, a second seizure of her phone by Coles, an SOS sequence answered 72 minutes late, and a block at 15:07 on August 19 that carries — for the first time in the record — no condition attached to it. It also establishes that at least six inbound messages from her handle in those seventy hours were not typed by her."
+  - page: wiki/mind/concepts/document-fabrication
+    type: causes
+    claim: "Her request on 2026-08-14 — a counterfeit Fayette County drug screen to show her parents — produced the corpus's only documented instance of Dan manufacturing false evidence, agreed to without a question and iterated for forty minutes between a counselling appointment and a $60 order."
   - page: wiki/people/suzanne-frank
     type: evidenced-by
     claim: "Suz is the only third party who witnessed the relationship's physical conflict and named it in writing at the time — a 27 September 2020 Facebook message telling both of them to stop or separate, and describing it as recurring, four years before the terminal phase."
@@ -1477,6 +1486,85 @@ Forty minutes after the apology she asked whether he had it, and he drove to
 Sugie's with fifty dollars' worth. Both facts belong to the same afternoon
 and neither cancels the other.
 
+## August 2026: the ten days that worked, and the three that ended it
+
+The re-entanglement did not stop on August 9. It ran ten more days, and for
+part of that stretch it was the closest thing to a functioning relationship
+the record holds after 2024.
+
+**August 10–16 — the good week.** 1,136 messages, and unusually for this
+record the ratio is nearly even: 652 from Dan against 484 from Annie, against
+6.3:1 by volume of text three days later. She sleeps over on the night of
+August 10; on the 11th Dan writes *"being next to you this morning all i could
+think is how glad i was that i chose to go through all of this."* He gets his
+[[wiki/work/bfs-foods|BFS]] job back the same morning, after the no-hire sign
+that had carried his name. On the 13th he walks a mile to meet her in Craig
+Meadows and tells her, unprompted, that she has been *"3 different kinds of
+pretty"* since he met her and that he sees them as three separate faces —
+attributing the perception to autism. Procurement runs through all of it,
+daily, at $50–$100 a day.
+
+**August 13 — the seam.** *"He sent a message to a group chat / With you /
+I'm just asking you to please. Do not engage."* Dan agrees — *"I say
+nothing"* — on the stated understanding that
+[[wiki/people/jerel-coles|Coles]] is out of her life. This is the first
+recorded contact from Coles since the June 15 defection, and the wiki had no
+record of it. Dan's reading of that request three nights later becomes the
+proximate cause of everything after it.
+
+**August 14 — the forgery.** She asks him to make her a fake Fayette County
+drug screen showing a pass, to satisfy her parents. He does it, and spends
+forty minutes correcting the logo, the misspelled *panel* and the signature,
+finally asking whether she is emailing it or only showing it on her phone,
+because the two need different fidelity. See
+[[wiki/mind/concepts/document-fabrication]]. It is the single clearest measure
+in the record of what Dan will do for her when asked plainly, and it sits two
+days before he stakes everything on documents being believed.
+
+**August 15 — the theft accusation.** Blackout drunk at 1 a.m., she demands
+he drive to her: *"Send my money back or come give me what I paid for"*, then
+*"OK so you'll just be a thief then."* She apologises the next evening — *"I
+was drunk.. blacked out.. There was no excuse for me saying that"* — and Dan
+records the real fear underneath it: *"What would have happened if I had
+actually listened to you last night? You very well could be on your way
+somewhere right now."*
+
+**August 16–19 — the end.** Full account at
+[[wiki/timeline/events/august-2026-morgantown-call]]. She flakes on a $60
+handoff; at ~23:37 Coles calls Dan from her phone and Dan records fifteen
+minutes and twenty-seven seconds of it. On the recording she is asking for her
+phone back, saying she wants to leave, and refusing — through a dozen
+repetitions of the question — to say that Dan ever prostituted her. Dan's own
+contribution is *"give her her phone and let her leave,"* fourteen times.
+
+What happens over the next three days is the inversion of that. Dan spends
+sixty-seven hours threatening to send the audio to her mother's work email,
+demanding as the price a plain statement that she is finished with Coles. She
+never makes it — the same missing severance signal this page documents in the
+other direction, now withheld about somebody else. On the 17th she discloses a
+suicide attempt by strangulation; on the 18th Dan falsely claims to have sent
+the recording, then tells her it was a test (*"it wasn't actually sent, and I
+knew you would suddenly come back to life"*); the same evening Coles takes her
+phone a second time, and between 22:18 and 23:41 she sends **SOS** six times,
+once with both dogs' names as a duress code — *"Betty. Milo. Whatever sos
+words"* — and Dan answers seventy-two minutes later with *"what."*
+
+The last thing he says at length, on the 19th at 11:41, deletes the record
+rather than closing it: *"There never was an eggie bagels. I never had a dog
+named Betty. I don't know what happened from November 24, 2015 until today but
+I know that you never existed."* Her last message, at 15:14: *"I honestly
+care."* He blocks at 15:07 and the export ends at 15:15:33.
+
+> **A handle is not a person — applies retroactively to this page.** At least
+> six inbound messages from `+12124702449` in this window were typed by Coles,
+> including *"You made me fuck guys for money"* (2026-08-16 23:45:10), which
+> is an accusation against Dan and which a naive read files as Annie's
+> testimony. Two seizures in seventy hours, both during crises. Any claim on
+> this page of the form *"Annie said X"* that is sourced to the 212 handle
+> during a Coles-present episode needs that episode checked before the claim
+> is used. The **97,768-message count is unaffected**; the attribution model
+> behind it is not.
+
 ## Why it held together as long as it did
 
 The corpus records 299 or more love affirmations from Annie against
@@ -1685,6 +1773,14 @@ legal exposure for Dan — noted here for completeness.
 | 2026-08-02 | Annie walks to the house and apologises to Suz in person; buys $50 forty minutes later |
 | 2026-08-08 | Tuquick identified via FOREWARN (19:01:22); five-hour collapse follows — [[wiki/timeline/events/august-2026-unmasking]] |
 | ~2026-08-07/09 | Sexual contact resumes, per operator testimony; breaks a stated six-month gap. Undated beyond the 2026-08-10 capture timestamp; no message export covers this window. |
+| 2026-08-10/11 | Sleepover; the evenest message ratio of the terminal record; Dan's BFS job restored |
+| 2026-08-13 | Coles messages a group chat containing Dan; Annie: *"Do not engage."* Dan complies |
+| 2026-08-14 | Annie asks Dan to fabricate a passing Fayette County drug screen for her parents; he does — [[wiki/mind/concepts/document-fabrication]] |
+| 2026-08-15 | Blackout 1 a.m. demand; calls Dan a thief; apologises the next evening |
+| 2026-08-16 | ~23:37 — Coles calls from Annie's phone; Dan records 15:27; Coles texts Dan from her handle three times |
+| 2026-08-17 | Suicide attempt disclosed (12:52); Dan opens a direct thread with Coles; three-day campaign to send the audio to Ellen's work email begins |
+| 2026-08-18 | Dan falsely claims to have sent it, then says so (19:38); Coles seizes her phone again at 21:46; six SOS messages 22:18–23:41, answered at 23:40 |
+| 2026-08-19 | 11:41 the memory-deletion message; 15:07 *"Goodbye. I am blocking."* — the first goodbye with no condition attached — [[wiki/timeline/events/august-2026-morgantown-call]] |
 
 Two synthesis pages extend this record further: the capstone moral
 verdict, provenance-tiered down to individual message rows, at

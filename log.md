@@ -2278,3 +2278,136 @@ is not.
 warnings** (unchanged — the standing `## Related` backlog) · `wiki-climb check`
 **0 errors, 14 warnings**. `bin/wiki-digest` and `bin/llm-publish` re-run:
 481 pages, 42 contradictions, 385 gaps, 33 predictions.
+
+## [2026-08-20] ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
+
+**Sources filed.** `raw/self/message-csv/imessage_export_2124702449_20260820.csv`
+(6,495 messages, 2026-07-23 → 2026-08-19 15:15:33 — of which **3,993 are new
+ground**, the previous 212 export stopping at 2026-08-02);
+`raw/self/message-csv/imessage_export_7248123683_20260820.csv` (97, Dan ↔ Jerel
+Coles, entirely new);
+`raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a` (927.19 s, with a
+provenance README);
+`raw/self/analysis/2026-08-18_forensic-analysis-morgantown-call.md` (T2, agent-authored).
+
+**Findings in order of value.**
+
+1. **The Annie relationship ended on 2026-08-19 at 15:07:03**, and it is the
+   first goodbye in eleven years that carries **no condition**. Every prior one
+   names its own reversal. 1,199 messages in the 67 hours from the night of
+   August 16; Dan 811 / inbound 388; 59,758 characters against 9,532, a 6.3:1
+   asymmetry against 3.1:1 the week before. 18% of everything Annie sends in
+   those three days contains *please* or *begging*. New page:
+   `wiki/timeline/events/august-2026-morgantown-call`.
+
+2. **A handle is not a person, and the corpus has been assuming it is.** At
+   least six inbound rows on Annie's 212 handle were typed by Coles holding her
+   phone, across three episodes (2026-07-26, 2026-08-16, 2026-08-18) — including
+   *"You made me fuck guys for money"* (2026-08-16 23:45:10), an accusation
+   against Dan that a naive read files as her testimony. All three occur during
+   crises, i.e. exactly where the wiki's highest-stakes claims come from.
+   **Counts are unaffected** — the 97,768 figure stands — **attributions are
+   not.** Written into `source-coverage-index` as a fourth preflight question
+   (*who else had physical access to the device?*), into `wiki-brain` as a
+   system-level defect, and into `read-receipt-forensics` as the harder version
+   of M4: absence of a signal is weak evidence, and **presence of a signal does
+   not identify its author.**
+
+3. **Dan faked the execution of a threat in order to measure the response.**
+   2026-08-18 19:35 *"i did"* → 19:38 *"it wasn't actually sent / And I knew
+   you would suddenly come back to life / Which of course is what happened."*
+   A controlled test with a stated hypothesis and a debrief, run six hours after
+   the subject disclosed a suicide attempt. The consequence is methodological:
+   **Dan's own assertions of his own conduct are no longer evidence of that
+   conduct**, which reaches `block-unblock-loop`'s threat-execution scoring
+   directly. He then claims execution three times on 08-19 and denies it twice
+   the same day — held as an open `CONTRADICTION`, not resolved.
+
+4. **The wiki did not know Dan can forge documents.** 2026-08-14: Annie asks
+   for a counterfeit Fayette County drug screen to show her parents; he does it
+   in forty minutes, auditing his own forgery (*"the logo / 'Panal' instead of
+   panel / the signature"*) and asking the threat-model question — *"Are you
+   SENDING this to them or just going to SHOW it on your phone / If you're
+   sending it we need to do a lot more work here."* He calibrates fidelity to
+   how adversarially it will be inspected: the forensic faculty run backwards.
+   New page: `wiki/mind/concepts/document-fabrication`, wired as a
+   `contradicts` against `forensic-method`. Note the collision nobody in the
+   record notices — two days later he stakes everything on documents being
+   believed by the same audience.
+
+5. **Three corrections to the T2 analysis, and the pattern of them matters more
+   than the errors.** (a) It reports **463 Morgantown St as "the other guy's
+   house."** It is *Dan's* house — which is why Coles typing it back at him on
+   08-17 is a threat and why Dan answers *"why are you sending me my
+   address?"*. Coles's address of record is 106 Nassau St. The analysis appears
+   to have read the recording's filename as naming the scene when Voice Memos
+   names it for the **recorder's** location; ingested uncritically it would have
+   put Dan inside the confrontation — the exact inversion its own headline
+   correction exists to prevent. (b) Two more messages (23:53:31, 23:53:45) are
+   Coles, not Annie; its own transcript has him saying the same words aloud at
+   14:23. (c) Its export ends 08-17 15:39, so its concluding scenario is written
+   without the 08-18 phone seizure, the SOS sequence, the false send, or the
+   severance. **A wrong value in a labelled metadata field propagates further
+   than a wrong sentence in prose, because it gets copied rather than read.**
+
+6. **The recording's own container settles what the analysis argued for.**
+   `mvhd` 927.19 s = 15:27, matching Dan's *"That 15 minutes recording"*
+   (08-17 01:00) exactly. Encoder `com.apple.VoiceMemos (Dan's MacBook Pro)`;
+   date atom `2026-08-17T03:54:49Z` = 23:54:49 EDT. Aligning two spoken lines
+   against timestamped texts — *"I've never fought anybody in my life"* vs
+   23:44:21, and *"send this whole thing to Ellen"* vs 23:51:45 — puts audio
+   t₀ at **23:36:30–23:38:07**, so the call ran ~23:37→23:53 and the file was
+   written two minutes later. Two independent alignments, both inside 100
+   seconds of each other.
+
+7. **The August 8–9 unmasking page's framing was a scope artifact.** It ends
+   the night on an unanswered message at 03:41:32; the fuller export shows the
+   exchange resumed at 08:19 and ran all day. Also adds a message the spine
+   omits — Annie's *"Call me"* at 23:10, the only request for voice contact in
+   the sequence, unanswered.
+
+8. **The re-entanglement did not end on August 9 — it ran ten more days and
+   briefly worked.** Aug 10–16: 1,136 messages at 652/484, the evenest ratio of
+   the terminal record; a sleepover on the 10th; Dan's BFS job restored on the
+   11th, *"the same lady who put me on a no-hire list there told the manager
+   today to put in another application"* — with the posted sign named for the
+   first time (*"NO HIRE: Daniel Frank"*, in two locations). The seam is
+   **August 13**: Coles messages a group chat containing Dan, Annie says *"Do
+   not engage,"* Dan complies — the first Coles contact since the June 15
+   defection, and nothing in the wiki had it.
+
+9. **`tuquick-17248123683` was marked CLOSED and is not.** 97 further messages
+   from that handle, 08-17 → 08-19, including Dan's home address sent unprompted
+   and a written conditional threat naming Suz (*"I have stuff to ruin you and
+   your mom"*) — the only threat aimed at her in the corpus with no named
+   content. Also the nearest thing to an admission about the earlier harassment
+   campaign against her: *"Yeah it was kind of unnecessary but I don't like being
+   played with."* She received none of the August calls — Dan had blocked
+   Annie's number on his mother's phone in advance, on a prediction that proved
+   correct.
+
+10. **The dog's name is used as a duress code.** 2026-08-18 22:54, after Coles
+    had been typing on her handle two hours earlier: *"Betty. Milo. Whatever sos
+    words"* — reaching for the two dogs as the one referent that could prove it
+    was really her. Six SOS messages 22:18–23:41; Dan answered at 23:40, 72
+    minutes late, having blocked and unblocked in between. No source says what
+    happened next.
+
+**Pages written:** 2 new
+(`timeline/events/august-2026-morgantown-call`, `mind/concepts/document-fabrication`);
+**24 updated** — `annie-ulmer` (new August section + 8 chronology rows),
+`jerel-coles` (new §August 2026 with the recording and the 97-message thread),
+`tuquick-17248123683` (status REOPENED), `august-2026-unmasking`,
+`july-august-2026-reentanglement`, `ellen-ulmer`, `suzanne-frank`, `milo`,
+`bfs-foods`, `legal/463-morgantown`, `source-coverage-index`, plus eleven
+`RE-CHECKED` blocks on stale dependents and the two domain indexes.
+
+**Staleness:** 25 warnings raised, worked down to 13 across two waves — 11
+pages re-checked with real blocks, including all five where a conclusion could
+plausibly have moved. **No warning was cleared by bumping a date.** The
+remaining 13 are itemised in `BACKLOG.md` with the reason each is believed
+cheap; four of them predate this pass.
+
+**Gates:** `wiki-lint` **0 errors**, 30 warnings · `wiki-connect check`
+**0 errors**, 258 warnings (the standing `## Related` backlog) ·
+`wiki-climb check` **0 errors**, 13 staleness warnings.

@@ -8,9 +8,9 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 42 |
-| Open gaps | 385 |
-| Answered, awaiting ingest | 1 |
+| Live contradictions | 43 |
+| Open gaps | 397 |
+| Answered, awaiting ingest | 2 |
 | Standing predictions | 33 |
 
 ## Answered, awaiting ingest
@@ -22,6 +22,8 @@ inherited the gap, then runs `bin/wiki-gaps clear <page>`. Cheapest work
 here — no new source required, and the answer is already written down.
 
 - **[[wiki/people/menore]]** — staged 2026-08-18, 1 answer
+  - manual note
+- **[[wiki/self/concepts/chatgpt]]** — staged 2026-08-19, 1 answer
   - manual note
 
 ## Live contradictions
@@ -68,6 +70,7 @@ somewhere and has not yet found out where.
 - **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — erotic-architecture holds that the charge in this attachment is sustained *by* inaccessibility — arousal that survives because it is never consummated, priced per item, named by Dan himself as something to get the poison out of rather than to act on. That reading predicts the attachment thins as access increases, and i
 - **[[wiki/self/concepts/chatgpt]]** — This page and claude-code make incompatible claims about where an LLM's value sits. This page treats it as residing in the model's *willingness* — a register it will speak in, a class of question it will engage — which is why a guardrail change reads here as a capability loss and why the honesty standard is encoded as 
 - **[[wiki/self/context-core]]** — fran-coldren resolved it on 2026-08-02 against a dated message in which Dan describes her, at the time, as *"a 97 year old woman with advanced dimentia"* (2017-12-29) — consistent with an August 1920 birth and an April 2018 death. The **98** in this page and in `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`, and the 
+- **[[wiki/timeline/events/august-2026-morgantown-call]]** — Dan states he sent the audio to Annie's parents (three times, Aug 19 01:04–01:48) and states that he did not (twice, Aug 19 11:25 and 15:12), and the corpus contains a proven false claim of exactly this kind from the day before. No email, no bounce, no reply, and no third-party reaction appears anywhere in `raw/`. **Th
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — the operator's account says Annie *"contacted her independently without me knowing and invited her back over."* The 22:56 `Shelbie Breakiron.vcf` attachment, sent by Dan to Annie, is hard to reconcile with that. The likeliest reading is that the memory compresses a night in which he supplied the means and did not expec
 - **[[wiki/timeline/events/teen-concert-years]]** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate November 2004 return. The note dates Taking Back Sunday / Angels & Airwaves to **2006-07-04 in Columbus**; the research
 - **[[wiki/timeline/events/the-fall-of-fran]]** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend on each other: | Evidence | Date | What it fixes | |---|---|---| | Ancestry GEDCOM death record | 2018-04-04 | Death | 
@@ -146,7 +149,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — The exact arrest date within the days before February 17, 2015 is not known, nor is the arresting barracks, the docket number, or whether the expungement was ever completed. The blotter prints the charges without grading them; Dan's own telling calls the resid
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (100)
+### mind (104)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -160,6 +163,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/concepts/contact-gini]]** — **The method assumes the `direction` column is trustworthy**, which `STRATEGY.md` explicitly warns against. There is one piece of internal support: blank handles are 99.88% `Sent`, a correlation that could not arise if the column were noise. But no content-lev
 - **[[wiki/mind/concepts/contact-gini]]** — **Pre-2015 remains unmeasurable.** Recovery cannot invent context where the export has none; the archive still effectively begins in 2015.
 - **[[wiki/mind/concepts/contact-gini]]** — **Handles, not people.** Everything above counts handles. Annie holds at least two (`+17244346811`, `+12124702449`) plus an email, so a person-level coefficient would be *higher* than any figure on this page. That collapse has not been done.
+- **[[wiki/mind/concepts/document-fabrication]]** — **The artifact itself is not in `raw/`.** Three images were exchanged (13:17, 14:08, 14:11) and none is in the corpus. Recovering them would settle how good it actually was.
+- **[[wiki/mind/concepts/document-fabrication]]** — **Was it used?** Nothing in the record says whether Annie showed it to her parents, or whether it worked. Her parents were still requiring proof of compliance in the days after.
+- **[[wiki/mind/concepts/document-fabrication]]** — **`"I can do these real good"` implies practice.** No other instance is documented. A term search for other institutional artifacts — pay stubs, letters, results, verifications — has not been run.
+- **[[wiki/mind/concepts/document-fabrication]]** — **What tool.** "AI" is Annie's word. Dan's other documented image work runs through his ordinary model access (claude, gemini); the iteration pattern here — one change per round, waiting on each render — is consistent with an image model rather than a document
 - **[[wiki/mind/concepts/the-cool-metric]]** — **The specific referents in the operator's own framing are not in `raw/`.** Sonic Youth and Family Guy are not attested in the searched corpus as taste markers; `sonic youth` and `family guy` return zero hits in the 29 MB iMessage dump, and `marvel` returns 4 
 - **[[wiki/mind/concepts/the-cool-metric]]** — **No quantitative test has been run.** The claim that the metric governs first-contact evaluation is drawn from the profile's own description of the practice, not from coding a sample of first conversations in the message record. That test is possible with `ra
 - **[[wiki/mind/concepts/the-cool-metric]]** — **`FAVS MASTERLIST.csv` and `2025_MASTER_CRATE.csv` are cited but not analysed here.** A distribution of the favorites list against contemporaneous mainstream popularity would materially strengthen or damage the legibility-inverse claim, and is the obvious nex
@@ -249,7 +256,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (143)
+### people (145)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -334,6 +341,8 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/jerel-coles]]** — 3. **Does the "video proof / unconscious" accusation originate with him (2026-07-26, from her phone) or with her (2026-05-31, 23:54)?** Now answerable from logs already held — not yet run.
 - **[[wiki/people/jerel-coles]]** — 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs.
 - **[[wiki/people/jerel-coles]]** — 5. **Independent docket verification** via PA UJS. Not yet run.
+- **[[wiki/people/jerel-coles]]** — 6. **What is *"stuff to ruin you and your mom"* (2026-08-17 12:48)?** The only threat aimed at Suz in the corpus that has no named content. Bluster is the parsimonious reading and there is nothing in `raw/` either way.
+- **[[wiki/people/jerel-coles]]** — 7. **Was anyone ever contacted about the night of August 16?** Dan raised police on the call (*"it's about going to the fucking police, idiot"*) and a TRO in writing the next day. Nothing in the record says either happened.
 - **[[wiki/people/jerel-coles]]** — The message-level evidence for the 2026-08-08/09 identification night — `annie_metadata_24h.csv` and the 2026-08-09 export of the 212 thread — is cited by august-2026-unmasking and read-receipt-forensics but is **not yet filed to `raw/`**; only the derived ana
 - **[[wiki/people/jess]]** — Last name and any resolution (a meeting, or a decline) are undocumented — the thread simply cools off.
 - **[[wiki/people/jim-blanchard]]** — Everything: whether Blanchard was ever actually the super or leasing agent at 307 E 76th St, what specifically made the operator characterize him negatively, and how the November 2019 apartment visit relates (if at all) to the building. A targeted search of th
@@ -453,7 +462,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 
-### timeline (64)
+### timeline (70)
 
 - **[[wiki/timeline/2015-annie-read-wiki-impact-analysis]]** — These are the standing wiki claims the read contradicts or sharpens. **None have been applied.**
 - **[[wiki/timeline/annie-read-notes]]** — Chaseable questions this read raised. Each is a specific thing to look for, not a topic.
@@ -489,6 +498,12 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — How many total times Alexis and Annie were together beyond the specifically dated messages is unknown
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Alexis's exact release date is not independently confirmed beyond "just got out of jail" on Nov 4
 - **[[wiki/timeline/events/april-may-2026-final-weeks]]** — This page is sourced from a single chat-based analysis session, not a directly re-verified raw CSV extract the way the rest of the corpus is — the underlying message log for April 1–May 6, 2026 has not been independently located and cross-checked in raw/. The 
+- **[[wiki/timeline/events/august-2026-morgantown-call]]** — **The audio is unheard.** Transcribe it and file the transcript beside it. Until then every quotation on this page is T2 and every speaker label is somebody else's judgement.
+- **[[wiki/timeline/events/august-2026-morgantown-call]]** — **Was the email sent?** See the contradiction above. One query.
+- **[[wiki/timeline/events/august-2026-morgantown-call]]** — **What happened after 23:41 on August 18?** The SOS sequence has no resolution in any source. Whether police, parents or anyone else became involved is unknown.
+- **[[wiki/timeline/events/august-2026-morgantown-call]]** — **The "molesting" video and the MMF video** are both still in circulation as leverage between three people and have never been examined by anyone writing this wiki. The claim that turns on them — eyes open at 0:37 — is Dan's, repeated to two audiences, and unc
+- **[[wiki/timeline/events/august-2026-morgantown-call]]** — **Did the block hold?** The export ends 2026-08-19 15:15:33, eight minutes after it. Every previous block in this record has a documented reversal.
+- **[[wiki/timeline/events/august-2026-morgantown-call]]** — **Coles's *"I have stuff to ruin you and your mom"*** is unexplained. If it is more than bluster it is the only unquantified threat vector aimed at Suz in the corpus.
 - **[[wiki/timeline/events/august-2026-unmasking]]** — `annie_metadata_24h.csv` and `imessage_export_2124702449_20260809084846_.csv` are the primary sources for every figure above and are not yet on disk in `raw/` — see the sourcing note at the top of this page and `queue.md`. Whether receipts were toggled off or 
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **The date is unfixed.** Seventh grade for a student who started a year early puts it around the 2000–01 school year, but the capture says only "7th grade" and "one winter day." Nothing narrows it further.
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **Britney Bolen, Victor Fiano, Alan and Jon Allen have no other presence in the corpus.** None appears in any message export, Facebook archive or dossier located so far. Whether any of them remained in contact is unknown — which makes this cohort a direct test

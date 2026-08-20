@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -82,6 +82,25 @@ connections:
 ---
 
 # Dormancy, Not Exit
+
+> **RE-CHECKED [2026-08-20] — a live test of this page's central rule opened
+> four days ago, and the page must not pre-score it.** Flagged stale against
+> [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-20), which itself moved for
+> the August 16–19 severance
+> ([[wiki/timeline/events/august-2026-morgantown-call]]). The Annie relationship
+> closed on 2026-08-19 at 15:07 with *"Goodbye. I am blocking"* — and it is the
+> **first closure in the corpus that carries no condition.** Every prior one in
+> this record names its own reversal; this one does not. That is exactly the
+> distinction this page's dormancy/exit boundary turns on, and it is the
+> cleanest instance of it the corpus has ever produced. **No finding here is
+> withdrawn and none is confirmed.** Four days is not a dormancy and it is not
+> an exit — this page's own floor, narrowed to seven weeks by the James Dee
+> case, is more than ten times the elapsed time. Recorded so the next pass
+> reaches for it deliberately: if contact resumes, this is the strongest
+> dormancy datum in the wiki; if it does not, by roughly 2027-02-19 it is the
+> first attested exit, and both readings are cheap to check because the
+> reopening or its absence will be visible in one export.
+
 
 **Nothing leaves this graph.** Every sustained relationship in the corpus that
 the record describes as "over" is, on inspection, not over — it has changed

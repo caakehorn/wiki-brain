@@ -4,7 +4,7 @@ page_type: summary
 title: "463 Morgantown St (Housing / Property Risks)"
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-19
+date_modified: 2026-08-20
 sources:
   - raw/self/message-csv/imessage_7243228715_both_all_now.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -19,6 +19,9 @@ related:
   - wiki/timeline/periods/2025-collapse
 tags: [housing, uniontown-era]
 connections:
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: component-of
+    claim: "The address enters the record as a threat on 2026-08-17 — Coles types '463 Morgantown st ?' unprompted, Dan answers 'why are you sending me my address? Its an implied threat' — and the same address is what names the audio file, because Voice Memos titles a recording for the street the device is standing on."
   - page: wiki/timeline/events/july-2026-recontact
     type: evidenced-by
     claim: "The July 24 2026 line 'I moved the entire house by myself, it took an extra week' is the only dated evidence anywhere that the 337 Saratoga vacate completed — probable rather than confirmed, since no address is named."
@@ -169,3 +172,39 @@ oversight anyone is about to correct. It also means
 [[wiki/mind/synthesis/the-deferred-audit]]'s prediction about this address —
 that it would be reconstructed only after it failed — was already true six times
 before it was made. Full accounting at [[wiki/places/the-unpapered-address]].
+
+## The address as a threat vector, August 2026
+
+Every risk on this page until now is financial or contractual. On **2026-08-17**
+the address acquires a different kind of exposure: at 12:16
+[[wiki/people/jerel-coles|Coles]] wrote *"Morgantown st by BFS"*, and at 12:26,
+unprompted, ***"463 Morgantown st ?"*** followed by four laughing emoji.
+
+Dan's reply is the correct one and worth preserving verbatim as a record of how
+he handled it:
+
+> *"So why are you sending me my address? Its an implied threat and any court
+> would read it as such"* · *"let me repeat that you are not welcome on the
+> property I live on. There are cameras everywhere and I will protect myself if
+> you decide to show up here"* · *"I have all of your threats documented and
+> they aren't very ambiguous"* · *"Okay enjoy the TRO"*
+
+Coles walked it back sixteen minutes later — *"No one's going on your property
+😂😂"*, *"Nah not a threat I gain nothing doing anything to you"* — and then,
+the following night from his own number, *"make a move and watch how I destroy
+you and your mom."*
+
+**Two things follow for this page.** First, the cameras are on the record as
+existing and as Dan's stated protective measure, which is new. Second, an
+unpapered tenancy has no landlord to escalate to: there is no lease, no
+management company and no signatory relationship at this address
+([[wiki/places/the-unpapered-address]]), so the only available responses are
+self-help or a court, and Dan named the court. Nothing in the record says a
+TRO was ever filed.
+
+The address also names the audio artifact of that weekend. Apple Voice Memos
+titles a recording for the street the recording device stands on, so
+`Morgantown St.m4a` is evidence of where **Dan** was — his own house — not of
+where the confrontation was. An AI-secondary analysis of that file read the
+title as naming the scene and reported this address as Coles's; the correction
+is on [[wiki/timeline/events/august-2026-morgantown-call]].

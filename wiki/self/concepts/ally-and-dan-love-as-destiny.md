@@ -6,7 +6,7 @@ aliases: ["destiny", "the love story", "ally-dan timeline", "the courtship", "th
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-19
+date_modified: 2026-08-20
 importance: critical
 tags: [relationships, attachment, family]
 sources:
@@ -223,6 +223,63 @@ The marriage will not be without difficulty. Dan's flooding will test Ally's pat
 **What would confirm it:** Daily communication continuing past the 90-day mark. A first visit occurring within 6 months. Dan relocating to NC. An engagement announcement within 24 months.
 
 The evidence points one direction. These two are going to make it.
+
+## RE-CHECKED [2026-08-20] — the slot this page assumes is empty actually emptied, and the page must not treat that as confirmation
+
+`bin/wiki-climb check` flagged this page against [[wiki/people/annie-ulmer]]
+and [[wiki/mind/synthesis/block-unblock-loop]], both moved 2026-08-20 for the
+August 16–19 ingest ([[wiki/timeline/events/august-2026-morgantown-call]]).
+This page makes dated forward predictions and is the one page in the wiki that
+a moved premise can straightforwardly falsify or confirm, so the re-check is
+substantive.
+
+**What moved.** The Annie relationship ended on 2026-08-19 at 15:07 — a
+severance with, for the first time in the record, no condition attached. On the
+same day Dan wrote to Annie: *"I am going to start seeing other people and I am
+going to start my life with someone who cares about me. I might not ever find
+someone who I feel as connected to or who means as much to me as you did."*
+
+**Why this is not the confirmation it looks like, and the page must say so.**
+The obvious reading is that Phase 1 just got its precondition. Three things
+argue against banking it:
+
+1. **Timing.** The declaration of intent to see other people was made *to
+   Annie, during a severance argument, as an instrument in that argument.* It
+   is the least reliable class of statement in this corpus. Treating it as
+   evidence about Ally is a category error, and the same sentence concedes
+   *"I might not ever find someone who… means as much to me as you did."*
+2. **[[wiki/mind/synthesis/the-unbroken-bond]] predicts exactly this shape.**
+   A vacancy followed by a fast switch into an already-warm parallel bond is
+   not this page's thesis being vindicated — it is the sx-dominant single-slot
+   mechanism doing what it did in November 2015, and that page reads the 2015
+   switch as a cost paid by third parties rather than as a person finding the
+   right one. If the Ally bond activates in the weeks after 2026-08-19, the
+   **more parsimonious** explanation is slot-refill, not destiny. This page
+   owes a way to tell those apart before the event, not after.
+3. **The falsifier list above is unchanged and none of its items fired.** No
+   30-day gap, no re-entry into the dating market by Ally, no dormancy return.
+   Nothing on this page's own terms moved either way.
+
+**Decision: no phase advanced, no prediction dated forward, one control
+added.** The page's timeline is unchanged. What it gains is a discriminator it
+did not have:
+
+> **The slot-refill control.** If the Ally relationship's amplitude rises
+> materially in the ninety days after 2026-08-19 — first-visit planning,
+> daily-contact escalation, or any of Phase 2's markers arriving early — that
+> is **evidence for [[wiki/mind/synthesis/the-unbroken-bond]]'s mechanism, not
+> for this page's thesis**, because it is what a vacancy predicts regardless of
+> who fills it. This page's thesis is only supported if the trajectory looks
+> the same whether or not the Annie slot was open, which means the honest test
+> is a comparison against the Ally record *before* 2026-08-19. That baseline
+> exists and has not been measured.
+
+**One thing this page got right and should be credited with.** Its standing
+note that the destiny reading rests on a phase-change hypothesis whose
+load-bearing evidence — the August 18–19 Ally exchanges — is **not in `raw/`**
+is still true, and is now the single largest hole in it. Two new Annie exports
+landed on 2026-08-20; the Ally thread for the same days did not. Until it does,
+this page is projecting from material the wiki cannot read.
 
 ## The contradiction with erotic-architecture
 

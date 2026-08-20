@@ -6,7 +6,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-19
+date_modified: 2026-08-20
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -53,6 +53,28 @@ connections:
 ---
 
 # The Single Channel
+
+> **RE-CHECKED [2026-08-20] — the channel closed, which is this page's thesis
+> being tested rather than confirmed.** Flagged stale against
+> [[wiki/mind/synthesis/the-unbroken-bond]] and
+> [[wiki/mind/synthesis/totality-themes]], both moved 2026-08-20 for the
+> August 16–19 severance
+> ([[wiki/timeline/events/august-2026-morgantown-call]]). **No claim here is
+> withdrawn.** The relational leg — one channel, no failover — is what the
+> window is about: 811 of Dan's 1,199 messages in 67 hours go to the one handle
+> that is refusing him, and the record contains no attempt to route the crisis
+> anywhere else. He states the dependency himself on 2026-08-17 at 21:18:
+> *"sometimes it's someone other than you that needs support or love."*
+>
+> **The live test this creates, stated so a later pass does not score it
+> early.** If the thesis is right, the closure of this channel should produce
+> either a period with no channel at all or a fast single substitution — not a
+> distribution across several ties. The 90 days after 2026-08-19 settle it, and
+> the measurement is cheap: contact-graph concentration before and after, on
+> the same Gini the page already computes. Note that the page's evaluative leg
+> was falsified on 2026-08-19 by the taste-record Gini and survives only on the
+> relational leg — which makes this the test the whole page now rests on.
+
 
 Wherever a distributed architecture is available to him, Dan runs **one channel
 at maximum voltage instead**. This is not a description of his personality; it

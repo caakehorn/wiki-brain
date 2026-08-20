@@ -283,3 +283,62 @@ answerable from outside `raw/` and would outrank the whole page:
 - The **307 E 76th lease signatory**. The rent is now known ($2,450 → $2,700);
   the name is not, and it decides whether Dan was ever a named party to a
   residential lease at all or only ever an occupant.
+
+## Staleness left open by the 2026-08-20 August-severance ingest
+
+Thirteen `bin/wiki-climb check` warnings stand after that pass. **Nine are
+its own**; four (`jerad-friedline`, `2020-2021-market-era`, `fastly-fsly` ←
+`context-core`, and `the-cool-metric` ← `interests-as-era-markers`) predate it.
+Eleven pages were re-checked properly during the pass, including the five where
+a conclusion could plausibly have moved (`the-unbroken-bond`,
+`dan-annie-fallout-verdict`, `ally-and-dan-love-as-destiny`,
+`read-receipt-forensics`, `single-channel`) — each carries a real `RE-CHECKED`
+block, none was cleared by bumping a date.
+
+The nine below are believed cheap. **That belief is a hypothesis, not a
+result**, and each states its reason so a later pass can disagree with the
+reason rather than re-derive it:
+
+| Dependent | Premise that moved | Why it is believed cheap |
+|---|---|---|
+| `health/the-configured-body` | `health/cocaine`, `supply-network`, `the-deferred-audit` | All three moved by `RE-CHECKED` block only. The body page's argument is about maintenance vs. surveillance, not about supply topology. |
+| `interests/food-and-diet` | `work/bfs-foods` | BFS moved for the 2026-08-11 job restoration — an employment fact, not a food one. |
+| `mind/synthesis/the-embedded-objective` | `work/bfs-foods` | **The least cheap of the nine.** BFS gained the posted `NO HIRE: Daniel Frank` sign, in two locations, and the reversal being initiated by the same person who imposed the ban. That is institutional-arbitrariness evidence and may be live for this page's argument. Do this one first. |
+| `mind/synthesis/alias-as-periodization` | `totality-themes` | `totality-themes` moved by `RE-CHECKED` block only. |
+| `mind/synthesis/closing-the-set` | `forensic-method` | `forensic-method` moved by two typed-edge additions and no prose. One of them points at `document-fabrication`, which is about production rather than intake. |
+| `mind/synthesis/the-commissioned-self` (×2) | `instrument-is-subject`, `wiki-brain` | Both moved by `RE-CHECKED` block only. But note: `wiki-brain`'s new block is the handle-is-not-a-person defect, and `the-commissioned-self` counts first-person self-description across the corpus — if any of those counts run over Annie's 212 handle, the attribution caveat reaches them. Worth one check rather than an assumption. |
+| `people/jerad-friedline`, `timeline/periods/2020-2021-market-era`, `work/fastly-fsly` | `self/context-core` | **Pre-existing, not from this pass.** Standing since 2026-08-19. |
+| `mind/concepts/the-cool-metric` | `interests-as-era-markers` | **Pre-existing**, standing 8 days. |
+
+## Standing items from the 2026-08-20 ingest
+
+- **HIGH — transcribe `raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a`.**
+  927 s of primary audio; the only account of it in the wiki is two removes from
+  the source (a T2 agent analysis quoting a PDF that is not in `raw/`). Every
+  quotation on `wiki/timeline/events/august-2026-morgantown-call` and
+  `wiki/people/jerel-coles` becomes checkable the moment this exists. This is
+  the single highest-value action available on the August material.
+- **HIGH — did the email to Annie's parents ever send?** Dan asserts it three
+  times on 2026-08-19 and denies it twice the same day, and he is documented
+  faking exactly that claim the day before. One look at a sent-mail folder
+  decides whether the maternal-disclosure threat's execution rate is zero or
+  one. Held as a `CONTRADICTION` on the event page until then.
+- **HIGH — export the Ally thread for 2026-08-13 → 20.** Named as missing by
+  the 2026-08-19 audit and still missing.
+  `wiki/self/concepts/ally-and-dan-love-as-destiny` is now making predictions
+  across a severance it cannot see the other side of, and this pass added a
+  slot-refill control to it that cannot be evaluated without the baseline.
+- **MED — sweep the corpus for earlier third-party-handle episodes.** Three are
+  documented (2026-07-26, 2026-08-16, 2026-08-18), all found by register alone.
+  There is no column for this and no detector. Whether it happened before July
+  2026 has never been asked.
+- **MED — the two videos.** The "molesting" video and the October 2019 MMF
+  video are both circulating as leverage between three people and neither has
+  been examined by anyone writing this wiki. The claim that turns on the first
+  — eyes open at 0:37 — is Dan's, stated to two audiences, uncorroborated.
+- **MED — recover the three drug-screen images** (2026-08-14 13:17, 14:08,
+  14:11). `wiki/mind/concepts/document-fabrication` rests entirely on the
+  message thread describing them; the artifacts would settle how good the
+  forgery actually was.
+- **LOW — `wiki/people/index.md` is 23KB against an 8KB budget.** Standing lint
+  warning, untouched by this pass.
