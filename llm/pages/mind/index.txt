@@ -71,6 +71,7 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/synthesis/vertical-authority-skepticism]] — vertical suspect, lateral trusted: family template, workplace and state evidence, function and cost.
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — the Annie decade as trauma bond: architecture, tethers, somatic toll.
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — capstone: was Dan correct to feel wronged? The real wrong + the diagnosis→behavior gap, held in one frame.
+- [[wiki/mind/synthesis/august-grievance-verdict]] — the seventy-hour version of the fallout verdict: Dan's ten grievances of 16–19 August scored one by one (seven supported, two partly, one false), and the finding that the recording he held as proof of betrayal is also the best corroboration of her defence.
 - [[wiki/mind/synthesis/bond-switch-2015]] — the 2015 Alexis→Annie single-bond switch: same-week transfer, verified onset flood, 155 Virginia lair-continuity.
 - [[wiki/mind/synthesis/message-circadian-latency]] — primary cut of the raw corpus: circadian curve + era drift, 9× reply-latency asymmetry, burstiness, per-contact volume trajectories.
 - [[wiki/mind/synthesis/spatial-behavior]] — GPS-analysis reading of location history: extreme home-anchoring, the Friday release valve, and four sharply bounded life phases (Forge/Binary System/Collapse/Siege) rather than gradual drift.

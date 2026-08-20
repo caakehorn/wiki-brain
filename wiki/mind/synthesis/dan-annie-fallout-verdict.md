@@ -29,6 +29,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [relationships, trauma-bond, infidelity, attachment, mental-health]
 connections:
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: contains
+    claim: "The seventy-hour version of this page's ten-year question, at act-level resolution. Same structure, one new term: capacity. The person committing the August wrongs was under documented coercive control and had disclosed a suicide attempt, which relocates culpability without reducing the wrong — and this page's own diagnosis-to-behaviour gap gets its clearest instance there, in a faked threat run as a measurement six hours after that disclosure."
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: evidenced-by
     claim: "Dan volunteers the verdict's central claim unprompted and against his own interest: 'even the worst thing I've done, getting you drugs, didn't really benefit me nearly as much as it was about that being the only way you would see me.'"
@@ -297,6 +300,42 @@ The synthesis the wiki already carries — "the gaslighting outweighed the affai
 > contributions. The verdict's second clause — that the response architecture is
 > his own — now has a data point at the relationship's first day rather than only
 > in its terminal phase.
+
+## The seventy-hour version of this question [2026-08-20]
+
+This page answers *"was Dan correct to feel so wronged?"* across ten years, and
+its answer is a pattern. [[wiki/mind/synthesis/august-grievance-verdict]] asks
+the same question of the final seventy hours, where the unit is a dated act
+rather than a pattern, and reaches a compatible but sharper answer worth
+carrying here.
+
+**It confirms this page's first clause at higher resolution.** Ten grievances
+scored; seven fully supported, two partly, one false. The strongest — Annie
+publicly clearing Coles of rape in a group chat on 2026-08-19 at 06:33 having
+agreed by phone to clear Dan and not doing so — is the cleanest documented wrong
+in the corpus, because it required no interpretation: one act was performed and
+its promised counterpart was not.
+
+**It supplies this page's third clause its worst instance.** The
+diagnosis-to-behaviour gap gets a case with a stated hypothesis and a debrief:
+the faked send of 2026-08-18, run as a measurement six hours after Annie
+disclosed a suicide attempt by strangulation.
+
+**And it adds a term this page does not have: capacity.** The August wrongs were
+committed by a person under documented coercive control — that is a recording,
+not an inference — who had her phone taken twice in seventy hours and disclosed
+a suicide attempt inside them. That does not make the wrongs less true. It bears
+on what their truth implies about her, which is a different question from
+whether they happened, and this page's habit of running the two together is the
+thing the narrower page is able to separate.
+
+**One correction it forces on the standing characterisation.** The terminal-phase
+language this page and [[wiki/people/annie-ulmer]] carry — *evil*, *monster*,
+*sociopathic* — comes from Dan's own messages and is not supported. Annie's
+self-blame across the window is immediate, total and unprompted, which is the
+profile of collapse rather than calculation. Every factual grievance can be true
+while that characterological one is false, and on this evidence that is the
+situation.
 
 ## What still needs primary verification
 

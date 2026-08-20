@@ -31,6 +31,9 @@ synthesizes:
   - wiki/mind/concepts/conflict-architecture
 tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: evidenced-by
+    claim: "The model at maximum amplitude, quantified: 69 of her messages contain 'please' or 'beg' against 15 'fuck you' and 17 'piece of shit' from him, contempt language nearly quadrupling against the prior week's baseline, and a disclosed suicide attempt met with escalation rather than de-escalation."
   - page: wiki/people/annie-ulmer
     type: instance-of
     claim: "Supplies the structural model — intermittent reinforcement, DARVO, the confession trap, the tether oscillation — for the relationship record that page holds; the decade is this page's central and only full-magnitude case."

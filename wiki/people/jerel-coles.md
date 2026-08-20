@@ -35,6 +35,9 @@ related:
   - wiki/timeline/events/august-2026-unmasking
   - wiki/mind/concepts/forensic-method
 connections:
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: contextualizes
+    claim: "The severity of Dan's grievances turns on a fact about this man rather than about either principal: what makes Annie's choice legible as a betrayal rather than a preference is fifteen minutes of tape in which he is heard doing the things she had said he did."
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: causes
     claim: "The first primary artifact of his conduct in the corpus, and the first direct Dan-Coles thread — 97 messages, opened by Dan. On tape he confesses to going through Annie's phone while she slept and is heard refusing to return it; in writing he supplies Dan's home address unprompted and a conditional threat naming Dan's mother. Everything the wiki previously held about him was somebody's account of him."

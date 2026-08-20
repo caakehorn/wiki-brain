@@ -123,6 +123,9 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: evidenced-by
+    claim: "Three findings about her survive the August window on evidence rather than either party's rhetoric: her truth-value is audience-dependent under pressure (the rape claim asserted to Dan and denied to Coles inside five hours), she still issues no terminating statement — 'I want to be alone' is the nearest approach in eleven years and is not one — and her self-blame is immediate, total and unprompted, which is the strongest argument in the record against reading any of it as strategy."
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: contains
     claim: "The relationship ends here. 1,199 messages across 67 hours from the night of August 16, a disclosed suicide attempt by strangulation, a second seizure of her phone by Coles, and an SOS sequence answered 72 minutes late. The record stops mid-exchange at 15:15:33 on August 19, eight minutes after a declared block that was not executed. It also establishes that at least six inbound messages from her handle in those seventy hours were not typed by her."
@@ -1669,6 +1672,20 @@ want to be alone."*
 > **15:14:33** Annie: ***"I honestly care."*** Her last recorded words.
 > **15:15:33** Dan: *"God go the fuck away and just admit that it doesn't
 > matter."*
+
+> **The grievances of that last day have been adjudicated one by one** at
+> [[wiki/mind/synthesis/august-grievance-verdict]]. Summary as it bears on this
+> page: seven of Dan's ten stated complaints are fully supported by the record,
+> two partly, one false. Three findings about Annie survive it — her truth-value
+> is **audience-dependent under pressure** (the rape claim asserted to Dan and
+> denied to Coles inside five hours, timed against a third audience); she still
+> issues **no terminating statement**, and *"I want to be alone"* is the nearest
+> approach in eleven years without being one; and her **self-blame is immediate,
+> total and unprompted** — *"yes it's my fucking fault"* lands twenty-two
+> seconds after *"INWAS TRAPPED / AGAIN"*, which is the strongest argument in
+> the record against reading any of this as strategy. The angriest
+> characterisations on this page's terminal-phase sections — *evil*, *monster*,
+> *sociopathic* — are not supported by that evidence and are contradicted by it.
 
 **What genuinely distinguishes this severance.** Not the absence of a
 condition. It is one sentence at **14:53:25**:

@@ -20,6 +20,9 @@ sources:
   - raw/self/message-csv/imessage_export_2124702449_20260820.csv
 tags: [relationships, digital-footprint]
 connections:
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: instantiates
+    claim: "This table's adjudication is what lets the humiliation grievance be scored as fully justified rather than as one contested claim against another: the accusation Dan was publicly named under fails on all three limbs against the primary record, so being named under it is a wrong done to him rather than a dispute between two accounts."
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: evidences
     claim: "This table is what makes Coles's on-tape accusation testable rather than a word against a word, and the accusation fails on its economic limb: money runs Dan to third party in all seven documented instances, no encounter in eleven years has drugs as its consideration, and the estate money it invokes distributed eighteen months after the expensive encounters it is offered to explain."

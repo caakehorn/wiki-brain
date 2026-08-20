@@ -8,11 +8,12 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-20 — 38 pages
+## 2026-08-20 — 39 pages
 
 - **Session log:** ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
 - **Session log:** correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
 - **Session log:** close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
+- **Session log:** climb | mind | the grievances of the last conversation, scored one by one — and Dan's own evidence turns out to cut both ways
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -24,6 +25,7 @@ simply listed.
 | [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a REVISED from 2026-08-16)_ |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — Flagged stale against annie-ulmer and suzanne-frank, both moved for the August 16–19 ingest (august-2026-morgantown-call). **No claim here is withdrawn.** The window is this p |
+| [[wiki/mind/synthesis/august-grievance-verdict]] | mind | — |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — Flagged stale against the-unbroken-bond (2026-08-20), which itself moved for the August 16–19 severance (august-2026-morgantown-call). The Annie relationship closed on 2026-08-19; the |
