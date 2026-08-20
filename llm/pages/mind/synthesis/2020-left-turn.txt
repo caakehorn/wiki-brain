@@ -4,7 +4,7 @@ page_type: synthesis
 status: stable
 knowledge: earned
 date_created: 2026-07-16
-date_modified: 2026-07-19
+date_modified: 2026-08-19
 sources:
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -41,6 +41,9 @@ connections:
   - page: wiki/people/ryan-scherich
     type: co-occurs
     claim: "A Feb 8, 2020 political flame war — five days after the documented Iowa-caucus Bernie evangelism — is a real, contemporaneous conflict from inside the pre-COVID window, not just Dan's own outward messaging."
+  - page: wiki/health/the-configured-body
+    type: caused-by
+    claim: "The material grievance under the ideology is on the record six months before this page's 2020-08-22 conversion date and is never quoted here: 'imagine being able to just go to the doctor or dentist when you need' and 'the doctor thing is a really big thing for me...there's no reason that 50,000 people die a year because they don't have insurance' (2020-02-07)."
 ---
 
 
@@ -140,3 +143,25 @@ Conquest of Bread are only "since I've been stuck inside" (mid-2020) — no
 precise dates in the corpus. Pre-2016 political self-identification is
 thin in the sampled dump; whether he was liberal-by-default or apolitical
 before Bernie is not established here.
+
+## The material stake, six months early
+
+The pipeline this page documents — Bernie, then Chapo and Hasan under lockdown,
+then Marx and Kropotkin — is media-and-reading all the way through, and the
+conversion message of 2020-08-22 is where the page dates the turn. The corpus
+also contains a first-person statement of personal stakes that predates it by
+six months and is not quoted here.
+
+**2020-02-05:** *"there's no reason that amazon should pay no tax while you
+can't go to the doctor AND have to pay taxes."* **2020-02-07:** *"imagine being
+able to just go to the doctor or dentist when you need,"* and, seven minutes
+later, *"the doctor thing is a really big thing for me...like, there's no reason
+that 50,000 people die a year because they don't have insurance."*
+
+*A really big thing for me.* That is the one place in the political record where
+Dan names a grievance as his own rather than as an analysis, and it is
+healthcare access — which the health record independently establishes as a real
+constraint, since every self-directed medical sentence in the corpus is
+conditional and the recorded barrier is a copay
+([[wiki/health/the-configured-body]]). The turn's media pipeline is not
+displaced by this; what it gains is a body under it.

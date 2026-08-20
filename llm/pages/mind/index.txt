@@ -3,7 +3,7 @@ domain: mind
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-18
+date_modified: 2026-08-19
 sources: []
 related: []
 ---
@@ -92,4 +92,7 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/synthesis/the-deferred-audit]] — doctrine: the forensic engine runs on everything, but provenance sets its clock. Imposed objects are audited preemptively (a $50 drawer claim, same day, in withdrawal); chosen objects only after they fail (~9 years for the primary bond). Selection buys delay, not trust — and the audit lag is the mechanism under the diagnosis-to-behaviour gap.
 - [[wiki/mind/synthesis/single-channel]] — doctrine: one channel at maximum voltage wherever a distributed architecture was available — relational, creative, cognitive, evaluative — measured at a two-sided contact Gini of 0.96 and carrying no failover.
 - [[wiki/mind/synthesis/dormancy-not-exit]] — doctrine: nothing leaves the graph. Sustained relationships change role and go dormant with full reactivation bandwidth (Menore: 2,044 days of silence, one-minute reply); Franki Faris is the five-day control that bounds it, and no-exit plus a single-occupancy slot is the mechanism producing the contact Gini.
+- [[wiki/mind/synthesis/closing-the-set]] — doctrine: intake is set-closure, not taste. 86.6% of 1,477 musical artists and of 98 authors appear exactly once, because the unit is a bounded event and one account per witness closes it — 40 books on one presidency by 30 authors, 20 on the Republic's fall by 14, 24 of 25 artworks on six themes. Favorites Gini 0.188 against the contact graph's 0.9601.
+- [[wiki/mind/synthesis/the-commissioned-self]] — doctrine: self-knowledge is commissioned, not conversational. Seven frameworks plus stylometrics, a deviance audit and a voice model, all run at Dan's request over corpora he supplied — and the whole apparatus appears seventeen times in 106,629 messages. The one first-person self-typing in the record says 5w6sx RLOEI, not 5w4 RLUEI.
+- [[wiki/mind/synthesis/the-cato-seat]] — doctrine: every curated identification object occupies one position — accurate, early, unable to intervene. The AI persona is named for the senator who lost and killed himself; 24 of 25 artworks are collapse, wound or observer; half the shelf is two republics ending; nothing on the 150-title queue is about something being built. No figure in the corpus was right and won and kept it.
 - [[wiki/mind/synthesis/read-receipt-forensics]] — methodology: four chat.db metadata defects found in one extraction session, each silently returning a confident wrong answer rather than an error — a directional `date_read` column, an auto-populated `reply_to_guid`, a SQLite type-affinity trap, and clustered-not-random missing `delivered_at` rows.

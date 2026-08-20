@@ -6,7 +6,7 @@ aliases: ["the unevaluated domain", "food as everything but taste"]
 status: active
 knowledge: earned
 date_created: 2026-07-25
-date_modified: 2026-08-11
+date_modified: 2026-08-19
 sources:
   - raw/self/captures/2026-08-01_154556_picky-eater.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -53,6 +53,9 @@ connections:
   - page: wiki/self/youtube-watch-history
     type: evidenced-by
     claim: "The word 'diet' survives in the corpus mainly as metaphor — media diet, information diet — which is the register the literal sense was vacated from."
+  - page: wiki/health/the-configured-body
+    type: parallels
+    claim: "The composition regime and the substance stack are one faculty measured in two domains: an absolute rule about what may enter, enforced without negotiation on a plate and in a bloodstream alike, which is why food looks like pickiness and behaves like the Suboxone floor."
 ---
 
 # Food and Diet

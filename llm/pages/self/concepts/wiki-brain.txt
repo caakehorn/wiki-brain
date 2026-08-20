@@ -44,6 +44,9 @@ connections:
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: contains
     claim: "That page is the wiki's only forward-looking projection and its hardest test: a system built to hold conclusions to falsification now has to hold a wish to the same standard."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: caused-by
+    claim: "This repository is the current and largest instance of a self-measurement apparatus that already ran four generations deep — and the first whose readings are published where other instruments will read them back."
 ---
 
 # The Wiki-Brain

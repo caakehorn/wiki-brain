@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-18
+date_modified: 2026-08-19
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -78,6 +78,9 @@ connections:
   - page: wiki/self/concepts/wiki-brain
     type: instantiates
     claim: "This page is the wiki-brain's own proof and its own correction: the rule was findable only by reading Annie and Tom across each other, and its falsification 52 days later is kept visible here rather than edited away, which is the system's core claim about itself made concrete."
+  - page: wiki/places/the-unpapered-address
+    type: instance-of
+    claim: "The corpus's only instance of Dan reaching for a housing instrument himself is a declared exit that never executed: 'Tomorrow I'm calling John / And telling him that I will no longer be in the lease' (2024-10-27), answered inside the minute with 'Please don't do this Dan', never carried out, and followed four months later by a separation Annie initiated."
 ---
 
 # The Block/Unblock Loop

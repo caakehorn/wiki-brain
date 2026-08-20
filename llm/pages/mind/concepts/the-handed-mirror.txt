@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-18
-date_modified: 2026-08-18
+date_modified: 2026-08-19
 sources:
   - raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -38,6 +38,9 @@ connections:
   - page: wiki/mind/synthesis/instrument-is-subject
     type: instantiates
     claim: "A wiki about Dan, published for models to read, is this behavior industrialized — the terminal delivery step performed continuously and at scale on its own author."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: parallels
+    claim: "Two halves of one habit: the finished profile is handed to its subject, and so is the instrument that makes it — enneagram test links pushed at contacts across late 2024, a partner's MBTI retaken so the pair could be compared, and in June 2025 the analysis prompt itself forwarded with its output structure intact."
 ---
 
 # The Handed Mirror

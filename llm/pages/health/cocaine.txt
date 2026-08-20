@@ -77,6 +77,9 @@ connections:
   - page: wiki/mind/concepts/acquisition-drive
     type: evidenced-by
     claim: "The cocaine supply chain is the material expression of the acquisition drive — a daily dependency that cannot be left to one supplier, which is why the network persists across every era while its individual nodes rotate constantly."
+  - page: wiki/health/the-configured-body
+    type: evidences
+    claim: "The dosage arc is the sharpest evidence that specification runs without a maintenance faculty attached: 1g/day to 3.5-7g/day to 0.5-1g/day tracks the inheritance arriving and being exhausted, and no health variable appears anywhere in the curve."
 changelog:
   - date: 2026-08-19
     note: "Initial creation — synthesis of cocaine-specific findings drawn from chemical-architecture, supply-network, legal/2015-possession-arrest, and all documented cocaine dealer pages."

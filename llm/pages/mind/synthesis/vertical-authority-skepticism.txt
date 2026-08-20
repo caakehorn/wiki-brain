@@ -5,7 +5,7 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-19
 sources:
   - raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
@@ -71,6 +71,9 @@ connections:
   - page: wiki/people/dave-moore
     type: evidenced-by
     claim: "A man with no blood tie to the dying woman and no role in her care, speaking for the heir to hospital social workers and drafting the correspondence, is the template's purest family-scale instance."
+  - page: wiki/mind/synthesis/the-cato-seat
+    type: caused-by
+    claim: "This page derives the distrust of the vertical axis from psychometrics and dated incidents; the taste record supplies what the distrust is populated with — an entire curated culture of accurate observers who were right about power and destroyed by it, which is where a Trust score of 9 becomes a self-image."
 ---
 
 

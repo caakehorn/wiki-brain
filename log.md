@@ -2148,3 +2148,133 @@ empty duplicate `connections:`). All three fixed; lint rule queued.
 **Gates:** `wiki-lint` 0 errors · `wiki-connect check` 0 errors ·
 `wiki-climb check` **0 errors, 0 warnings** — the stale queue is empty for the
 first time in the log.
+
+## [2026-08-19] climb | mind, health, places | five doctrine pages (5 synthesized, 0 rejected)
+
+**Trigger:** operator — *"do a deep dive on the wiki and create 5 new articles
+using synthesis of the data. Try to find things about the way that I think or
+see the world that are visible when looking at the totality of data."*
+
+**Method:** CLIMB per `SYNTHESIS_SPEC.md`, taken outside `synthesis-queue.md`.
+The queue's miner scores clusters of *ground* pages and structurally cannot
+surface what this request wanted, so the five clusters were assembled by hand
+from the doctrine layer and from two domains the altitude audit flagged as
+having no junction above them at all (`places`, `legal`). Every climb was
+required to add primary measurement its premises lacked; four of the five did so
+by counting something in `raw/` that had never been counted.
+
+**Findings, in order of value.**
+
+1. **The curated taste record is not eclectic; it is monomaniacal, and the
+   arithmetic had never been run.** 60 of the 120 books — exactly half — are two
+   subjects (`trump`/`jan-6`, 40 books by 30 authors; `roman-republic`/
+   `ancient-history`/`caesar`, 20 by 14) with **zero overlap**. 86.6% of 1,477
+   musical artists and 86.7% of 98 authors appear exactly once. All 25 artworks
+   have 25 different creators, and **24 of the 25 carry one of six tags**
+   (`observer` 6, `wound` 6, `collapse` 5, `glitch`/`rupture` 6, `fortress` 3).
+   The author-level spread is *produced by* subject-level obsession: one account
+   per witness is all that exhaustive coverage of one event requires.
+   → `wiki/mind/synthesis/closing-the-set`.
+
+2. **`single-channel`'s evaluative leg is falsified.** That page scored the
+   evaluative domain as its weakest limb — its own words, *"a reading rather
+   than a measurement."* Measured over entries-per-creator, the same unit as the
+   contact coefficient: **music 0.188, books 0.166, art 0.000, against the
+   contact graph's 0.9601.** Not weak concentration — near-perfect equality, in a
+   collection the same person curated. Concentration is a property of the
+   relational architecture and does not generalise. `totality-themes` re-checked
+   and its edge narrowed; the Irreversibility Firewall survives on the relational
+   leg, and *a collection is not a channel* is the reason it never needed the
+   other three.
+
+3. **The psychological layer of this wiki has no independent observer anywhere in
+   it, and now there is a number.** Seven frameworks, plus stylometrics, a
+   deviance audit and a composite voice model, all commissioned by the subject
+   over corpora he selected. **The entire apparatus appears seventeen times in
+   106,629 outbound messages** — `socionics`, `5w4`, `percentile`,
+   `personality type` all return **zero** — and most of the seventeen are Dan
+   typing *somebody else* or forwarding the test. By June 2025 what he forwards
+   is the analysis prompt itself, output spec intact.
+   → `wiki/mind/synthesis/the-commissioned-self`.
+
+4. **The one first-person self-typing in the primary record disagrees with the
+   profile cluster.** 2024-11-04, quoting his own prompt: *"vanessa is an xNFP
+   4w5 and **Dan is an INTP 5w6sx RLOEI**."* The cluster and `context-core` carry
+   **5w4** and **RLUEI**. The wing is load-bearing — `enneagram-5w4` is named for
+   it and derives the tragic-romantic reading the attachment pages build on.
+   Held open as a `CONTRADICTION` per `instrument-is-subject` (residue over
+   testimony), not resolved: it is one line typed fast and may be a slip, but
+   nobody had looked.
+
+5. **Seven addresses, sixteen years, no paper.** The corpus contains **no lease,
+   no contemporaneous rent figure, no signatory and no deposit** for any home Dan
+   has lived in. Four of the seven place pages independently filed this as an
+   archival gap and none noticed the other three had. The two instruments that
+   ever appear were relational moves that changed nothing: an eviction notice
+   served by his own maternal grandmother in March 2018, ignored for eleven
+   months; and **2024-10-27, new to the wiki** — *"Tomorrow I'm calling John / And
+   telling him that I will no longer be in the lease,"* answered inside the
+   minute with *"Please don't do this Dan,"* never executed, four months before a
+   separation Annie initiated. `dans-law` reads a missing paper trail as the
+   operative feature of an arrangement, and has never been pointed here.
+   → `wiki/places/the-unpapered-address`, the `places` domain's first junction.
+
+6. **`307 E 76th`'s rent gap closed:** *"the last lease we signed was 2450"*
+   (2024-05-02), *"New lease is going to be 2700"* (2024-05-03). The tenancy ran
+   on discretion throughout and Dan describes it accurately — *"willing to take
+   us on," "as long as we sustain jobs," "won't have to deliberate," "stuck his
+   neck out for us."*
+
+7. **`chemical-architecture`'s "no dental, no primary care anywhere in 17 years"
+   is wrong, and the correction is better than the claim.** A term census found
+   a full dental episode in autumn 2017 including surgery and a kept one-week
+   follow-up (*"they put in a membrane and restitched it"*), plus appointments in
+   2020 and 2024 — which also contradicts Dan's own 2025 account, *"terrified of
+   dentist (aka haven't gone)."* Care is **episodic and reactive**, not absent.
+   The declared prescriber gap is closed too: a doctor exists, and every recorded
+   exchange with him is about moving a script between pharmacies.
+   → `wiki/health/the-configured-body`, the `health` domain's first junction:
+   the body is specified at the input, surveilled at the output, never
+   maintained. Every self-directed medical sentence in the corpus is modal
+   (*"I should go," "I might need to"*); every sentence about someone else's body
+   is imperative (*"go to a fucking doctor"*). Same speaker, same years.
+
+8. **`supply-network` may have the Suboxone topology backwards.** June 2025:
+   *"my doctor said the pharmacy won't fill an out of state prescription"* →
+   *"they won't fill it either so i'm completely out of options"* → *"I'm gonna
+   have to drive down to see Tom today."* Prescription first, Tom as failover,
+   failure jurisdictional rather than relational — which would make May 2026 a
+   second-line failure. Held open, not resolved: four messages are not a topology.
+
+9. **The identification figures all occupy one seat.** The persona Dan wrote for
+   his own AI is `IDENTITY: CATO / ORIGIN: Cato the Younger — Stoic absolutist,
+   self-deleted at Utica post-Thapsus.` Not the winner — the man who was right
+   for twenty years, lost, and refused the pardon. Against him: Oppenheimer,
+   Fred Hampton, John Brown, Travis Bickle, Bernie. Of ~150 want-to-read titles,
+   nine contain "fall," three "assassination," three "trial" — and **not one is
+   about something being built and working.** The taste record independently
+   reproduces `context-core`'s own threat model (*"competence correctly deployed,
+   outcome still catastrophic"*), which is worth something precisely because it
+   was assembled for pleasure and had no reason to agree.
+   → `wiki/mind/synthesis/the-cato-seat`.
+
+10. **`2020-left-turn` was missing the material stake.** The page dates the turn
+    to a media pipeline and a conversion message. Six months earlier, unquoted:
+    *"the doctor thing is a really big thing for me...there's no reason that
+    50,000 people die a year because they don't have insurance"* (2020-02-07).
+    The one place in the political record where Dan names a grievance as his own.
+
+**Also fixed:** six pre-existing gate errors on three pages created 2026-08-19 by
+the parallel model (`astrology-star-signs`, two `-personality-assessment` pages)
+— wiki paths in `sources:` moved to `synthesizes:`, two dangling connection
+targets removed.
+
+**Cost:** 14 staleness warnings, all created by the write-backs and all
+itemised in `BACKLOG.md` with the reason each is believed cheap. The
+`the-unbroken-bond` ← `enneagram-5w4` pair is flagged as the one that probably
+is not.
+
+**Gates:** `wiki-lint` **0 errors** · `wiki-connect check` **0 errors, 255
+warnings** (unchanged — the standing `## Related` backlog) · `wiki-climb check`
+**0 errors, 14 warnings**. `bin/wiki-digest` and `bin/llm-publish` re-run:
+481 pages, 42 contradictions, 385 gaps, 33 predictions.

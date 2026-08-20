@@ -6,7 +6,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-19
 sources:
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -47,6 +47,9 @@ connections:
   - page: wiki/timeline/periods/dark-era-2007-2008
     type: evidenced-by
     claim: "A November 2007 Las Vegas trip is newly dated as the point physical opiate dependence became undeniable, and a winter 2008 single heroin attempt was rejected on aesthetic grounds ('felt dirty') rather than fear of the drug itself."
+  - page: wiki/health/the-configured-body
+    type: component-of
+    claim: "The stack is the input half of a two-mode architecture with no maintenance mode in it: substances are specified to the component and defended absolutely while the body they run on is never serviced, and this page's own gap on prescriber information is closed by the 2025 messages, which show a prescribing doctor whose entire recorded role is moving a script between pharmacies."
 ---
 
 # Chemical Architecture
@@ -199,3 +202,37 @@ physical-health baseline (the somatic neglect the profile predicts)
 is undocumented — no labs, no dental, no primary care appears anywhere in
 17 years of messages; the "strategic" vs. dependency question for cocaine
 has no third-party data.
+
+## The missing mode, and the prescriber
+
+> **CORRECTED [2026-08-19] — the Gaps note above is too strong on two counts.**
+> It records "no medical records, prescriber information, or further dosage
+> data" and, in the body, that "no labs, no dental, no primary care appears
+> anywhere in 17 years of messages." A term census over the full dump finds
+> `dentist` 13 times outbound and `doctor` 36, and both matter.
+>
+> **Dental care exists.** 2017-10-09: *"went back to the dentist today and i've
+> got a lot of work to get done. all those years of being a delinquent junkie
+> catching up to me."* 2017-11-30, a post-surgical follow-up: *"When I went back
+> for a 1wk checkup on the second, they noticed a hole that hadn't yet begun to
+> develop tissue so they put in a membrane and restitched it."* Further
+> appointments in 2020 and 2024. The care is **episodic and reactive** rather
+> than absent, which also contradicts Dan's own 2025 account on
+> [[wiki/health/hyperreflexivity]] — *"terrified of dentist (aka haven't gone)."*
+>
+> **A prescriber exists.** 2025-03-06: *"I had my doctor move my prescription
+> here."* 2025-06-08: *"my doctor said the pharmacy won't fill an out of state
+> prescription."* 2019-05-31: *"try to go get subs from my old doctor."* The
+> regimen is prescribed, at least at these points. Every recorded exchange about
+> that doctor concerns moving a script between pharmacies and none concerns a
+> dose, a taper or a review — the one standing medical relationship in the
+> record is a **logistics** relationship, which is why it produced no clinical
+> content for earlier passes to find.
+
+What survives, and is the sharper claim, is on
+[[wiki/health/the-configured-body]]: the stack documented above is the *input*
+half of an architecture whose other half is continuous surveillance of how the
+body presents, with no maintenance faculty between them. Every self-directed
+medical sentence in the corpus is modal — *"I should go," "I might need to go,"
+"I'm probably going to need to"* — while every sentence about somebody else's
+body is imperative. Same speaker, same years.

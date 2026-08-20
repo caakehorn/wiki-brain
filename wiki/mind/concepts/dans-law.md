@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-19
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -23,6 +23,9 @@ connections:
   - page: wiki/mind/synthesis/political-psyops
     type: parallels
     claim: "The psyops corpus runs the same deconfounding procedure at political scale — the J6 'hybrid organic event + intelligence co-opt' verdict is Dan's Law's signature output shape."
+  - page: wiki/places/the-unpapered-address
+    type: contradicts
+    claim: "The law's signature move is to read a missing paper trail as the operative feature of an arrangement rather than an oversight, and Dan has run it on a 50 dollar cash demand and on the federal response at the Capitol — but never on the seven residences of his own life, every one of which carries exactly that signature."
 
 ---
 
@@ -49,3 +52,21 @@ The load-bearing element is the absence of documentation: under normal circumsta
 Dan's Law directly operationalizes two standing principles from the forensic methodology. First, it implements "find where it breaks" — the practice of locating the hinge moment or structural failure in a given account. Second, it operationalizes "not vigilant = annihilated" by treating false dismissal of a real signal as a survival error. The same deconfounding logic has been applied across political events, interpersonal gaslighting clusters, institutional behavior, and AI prompt engineering.
 
 The law is the deconfounding filter that converts raw anomaly lists into actionable signal.
+
+> **CONTRADICTION [2026-08-19] — the law has never been pointed at where Dan
+> lives.** Its signature move is to treat a missing paper trail as the operative
+> feature of an arrangement rather than an oversight: at BFS the absence of
+> documentation on a $50 cash demand *is* the demand's mechanism, and at the
+> Capitol the missing procedure is the load-bearing anomaly. Applied to Dan's own
+> housing, the same reading is available and has never been run.
+>
+> Across sixteen years and seven residences the corpus holds **no lease, no
+> contemporaneous rent figure, no signatory and no deposit** for any home he has
+> lived in — the identical signature, sustained across two states and four
+> counterparties, at stakes several orders of magnitude above a drawer shortage.
+> The two legal instruments that do appear were both relational moves that
+> changed nothing: an eviction notice served by his own grandmother in March 2018
+> and ignored for eleven months, and a lease exit he threatened against his
+> partner in October 2024 and never executed. Full accounting at
+> [[wiki/places/the-unpapered-address]]. This is a boundary on the law's
+> application, not a defect in the law.

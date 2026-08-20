@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-18
+date_modified: 2026-08-19
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -63,6 +63,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Capital arriving in lumps and exiting through standing drains rather than accumulating is 'The Irreversibility Firewall' applied to money: a large, static balance is exactly the kind of examined, adjudicable fact the rule exists to prevent, so it never sits still long enough to become one."
+  - page: wiki/places/the-unpapered-address
+    type: contains
+    claim: "The capital timeline explains why the money was never there; the housing record adds that there is no document either, which is why the 2026 exposure has neither an absorber nor an instrument to argue from when it fails."
 ---
 
 # The Estate / Money Spine

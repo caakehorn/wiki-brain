@@ -194,3 +194,35 @@ admission (2015-12-02) are a real shape, but `wiki/mind/synthesis/estate-money-s
 and `wiki/mind/synthesis/supply-network` already exist to hold it, and a new
 page above them would be an umbrella whose thesis is that its members share a
 topic. Written back into both instead.
+
+**[2026-08-19] Five climbs taken outside the queue — the doctrine layer again.**
+The 2026-08-02 note above already recorded that the miner scores clusters of
+*ground* pages and structurally cannot surface a T2+ cluster. That limitation
+bound this pass too: the operator asked for syntheses about how Dan thinks,
+which lives in the doctrine layer, and none of the 25 scored clusters below
+reaches it. Five were assembled by hand and all five were written:
+
+* **[[wiki/mind/synthesis/closing-the-set]]** — from `interests-as-era-markers`,
+  `intake-constancy`, `big-five-psychometrics`, `forensic-method`,
+  `roman-republic`, `opie-and-anthony`, `film-canon`, `favorites/books`,
+  `youtube-watch-history`.
+* **[[wiki/health/the-configured-body]]** — from `chemical-architecture`,
+  `cocaine`, `hyperreflexivity`, `food-and-diet`, `extreme-sports`,
+  `big-five-psychometrics`, `the-deferred-audit`, `supply-network`.
+* **[[wiki/mind/synthesis/the-commissioned-self]]** — the whole `mind/profile/`
+  cluster plus `the-handed-mirror`, `instrument-is-subject`, `wiki-brain`.
+* **[[wiki/mind/synthesis/the-cato-seat]]** — from `axioms`, `roman-republic`,
+  `film-canon`, `gore-vidal`, `intp`, `socionics-and-attitudinal`,
+  `political-psyops`, `vertical-authority-skepticism`, `context-core`.
+* **[[wiki/places/the-unpapered-address]]** — the six residence pages plus
+  `463-morgantown`, `estate-money-spine`, `dans-law`, `the-deferred-audit`.
+
+**Two structural notes for whoever teaches the miner to do this.** First, the
+two highest-yield clusters were the ones `bin/wiki-climb audit` had already
+identified for free, as *"domains with no junction above them"* — `places` and
+`legal`. That report is a better climb queue than the scored table below and
+nothing reads it. Second, three of the five climbs earned their altitude by
+running a count over `raw/` that no page had run, not by re-reading their
+members: the members supplied the question and `raw/` supplied the answer. A
+miner that scored clusters by **"members that cite a raw file none of them has
+quantified"** would have surfaced the favorites-CSV cluster immediately.

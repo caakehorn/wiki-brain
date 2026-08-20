@@ -6,7 +6,7 @@ aliases: ["5w4", "sx/sp", "social-blind", "remote intimacy"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-19
+date_modified: 2026-08-19
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -30,6 +30,9 @@ connections:
   - page: wiki/mind/psychosexual/taboo-and-boundary-testing
     type: parallels
     claim: "The taboo-as-edge-condition drive is the same sx/sp-fused Ti-Ne pattern documented here, run on sexual and social categories instead of arguments or belief systems."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: contradicts
+    claim: "The only dated first-person self-typing in the primary record gives '5w6sx RLOEI' (2024-11-04), not the 5w4 and RLUEI this page is named for and built on — a residue reading that disagrees with the commissioned one, unreconciled, and load-bearing because the 4 wing supplies the tragic-romantic identity reading."
 ---
 
 
@@ -142,3 +145,27 @@ machinery, formalized at [[wiki/mind/concepts/attachment-model]].
 (sx/sp vs. one sx/so notation in the operating manual — the sx/sp reading is
 better supported); no dated instrument result exists, only convergent
 AI-era analyses.
+
+> **CONTRADICTION [2026-08-19] — the only first-person self-typing in the primary
+> record is not 5w4.** Everything on this page descends from a commissioned
+> instrument. The message corpus contains exactly one instance of Dan typing
+> himself in his own words, quoting back a prompt he had written, on
+> **2024-11-04**: *"vanessa is an xNFP 4w5 and **Dan is an INTP 5w6sx RLOEI** -
+> compare them."*
+>
+> Not 5w4, and not RLUEI. The wing is the difference that matters here, because
+> this page is named for it and derives its central content from it — the
+> tragic-romantic identity-through-difference reading, the craving for *"mythic
+> comprehension,"* and much of the emotional architecture the attachment pages
+> then build on. A 6 wing points at loyalty, anxiety and security-seeking
+> instead. The SLOAN third letter differs too: O for Organized rather than U for
+> Unstructured, which cuts against the burst-and-collapse rhythm
+> [[wiki/mind/concepts/chaos-preference]] rests on.
+>
+> **Not resolved, and deliberately.** It is one line typed fast inside a message
+> about somebody else's test, and it may be a slip. But
+> [[wiki/mind/synthesis/instrument-is-subject]] ranks residue above testimony, and
+> the 5w4 codes are testimony by that page's definition — produced in order to
+> characterise. What the corpus holds is one dated first-person self-typing that
+> this page does not match, and no second instance has been looked for. See
+> [[wiki/mind/synthesis/the-commissioned-self]].

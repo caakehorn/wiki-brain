@@ -3,7 +3,7 @@ domain: places
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-20
+date_modified: 2026-08-19
 sources: []
 related: []
 ---
@@ -20,3 +20,4 @@ at [[wiki/self/location-history]].
 - [[wiki/places/155-virginia-ave]] — the 2015–2019 Uniontown apartment: the Alexis→Annie handoff, the poverty floor, the deep cycle.
 - [[wiki/places/307-e-76th-st]] — the 2019–2025 Manhattan home shared with Annie; the second NYC chapter and its rupture; landlord John Paci, a 2020 roach-bombing evacuation, and a $10,000 debt still owed at move-out.
 - [[wiki/places/seven-springs]] — the childhood ski resort anchor; the first drug-exposure cohort, dated a year before the family's 2005 rupture.
+- [[wiki/places/the-unpapered-address]] — junction: seven addresses in sixteen years and not one lease, rent figure or signatory in the corpus. Every tenancy is granted by a person and ends when that person's circumstances change; the two legal instruments that ever appear were relational moves that changed nothing. The domain's first synthesis.

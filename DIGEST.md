@@ -13,44 +13,45 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 473 |
-| Pages touched in the last 14 days | 135 |
-| Pages reasoning from other pages (`synthesizes:`) | 30 |
-| Live contradictions | 36 |
-| Open gaps | 360 |
-| Standing predictions | 13 |
+| Pages | 481 |
+| Pages touched in the last 14 days | 162 |
+| Pages reasoning from other pages (`synthesizes:`) | 38 |
+| Live contradictions | 42 |
+| Open gaps | 385 |
+| Standing predictions | 33 |
 
 ## By domain
 
 | Domain | Pages |
 |---|---|
-| people | 163 |
+| people | 165 |
 | interests | 143 |
-| mind | 60 |
-| self | 39 |
+| mind | 63 |
+| self | 40 |
 | timeline | 37 |
 | work | 15 |
-| places | 8 |
+| places | 9 |
+| health | 5 |
 | legal | 4 |
-| health | 4 |
 
 ## By status
 
 | Status | Pages |
 |---|---|
 | stable | 188 |
-| active | 143 |
+| active | 151 |
 | closed | 98 |
 | archived | 31 |
 | stub | 13 |
 
 ## The last few days
 
-**2026-08-19** — 9 pages
+**2026-08-19** — 60 pages
   - audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
   - synthesis | health | cocaine — new substance profile page
+  - climb | mind, health, places | five doctrine pages (5 synthesized, 0 rejected)
 
-**2026-08-18** — 58 pages
+**2026-08-18** — 43 pages
   - rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
   - ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
   - close | people | wiki/people/diane-moore — a two-word operator answer merged two entities and re-dated the exclusion
@@ -65,7 +66,7 @@ this is the state of the thing.
   - tool | meta | bin/wiki-gaps could not see two-thirds of the wiki's unsettled information, and left no trace of what the operator added
   - close | people, timeline, mind | six staged operator answers integrated — one of them contradicted the man who gave it
 
-**2026-08-16** — 6 pages
+**2026-08-16** — 4 pages
   - close | timeline | shelbie-annie-threesome — the operator dated it, and the corpus showed the page had the authorship backwards
   - build | all | bin/wiki-gaps — 269 open gaps, no way for the one source that can settle them to answer, and OPEN.md could only see 164 of them
   - rewrite | people | kristin.md — surname wrong, dates wrong, count wrong, and the wiki's own instrument cannot see the thread
@@ -82,6 +83,7 @@ else in it, and `bin/wiki-climb check` will flag any of them whose premises
 have moved since.
 
 - [[wiki/health/cocaine]] — 15 premises
+- [[wiki/health/the-configured-body]] — 8 premises
 - [[wiki/interests/food-and-diet]] — 9 premises
 - [[wiki/mind/concepts/chaos-preference]] — 2 premises
 - [[wiki/mind/concepts/the-cool-metric]] — 3 premises
@@ -89,6 +91,7 @@ have moved since.
 - [[wiki/mind/synthesis/alias-as-periodization]] — 5 premises
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — 5 premises
 - [[wiki/mind/synthesis/block-unblock-loop]] — 11 premises
+- [[wiki/mind/synthesis/closing-the-set]] — 9 premises
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 9 premises
 - [[wiki/mind/synthesis/dormancy-not-exit]] — 9 premises
 - [[wiki/mind/synthesis/estate-money-spine]] — 5 premises
@@ -97,17 +100,23 @@ have moved since.
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
 - [[wiki/mind/synthesis/single-channel]] — 6 premises
 - [[wiki/mind/synthesis/supply-network]] — 9 premises
+- [[wiki/mind/synthesis/the-cato-seat]] — 9 premises
+- [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises
 - [[wiki/mind/synthesis/the-deferred-audit]] — 9 premises
 - [[wiki/mind/synthesis/the-embedded-objective]] — 8 premises
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/mind/synthesis/totality-themes]] — 26 premises
 - [[wiki/people/alexander-jackson]] — 1 premise
+- [[wiki/people/annie-ulmer-personality-assessment]] — 1 premise
 - [[wiki/people/arnu]] — 1 premise
 - [[wiki/people/jerad-friedline]] — 3 premises
 - [[wiki/people/john-carney]] — 1 premise
 - [[wiki/people/johnny-dealer]] — 3 premises
 - [[wiki/people/suzanne-frank]] — 4 premises
+- [[wiki/people/suzanne-frank-personality-assessment]] — 1 premise
+- [[wiki/places/the-unpapered-address]] — 10 premises
 - [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — 7 premises
+- [[wiki/self/concepts/astrology-star-signs]] — 1 premise
 - [[wiki/self/concepts/wiki-brain]] — 2 premises
 - [[wiki/timeline/periods/2020-2021-market-era]] — 1 premise
 - [[wiki/work/fastly-fsly]] — 2 premises

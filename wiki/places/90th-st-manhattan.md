@@ -5,7 +5,7 @@ title: "90th St, Manhattan (NYC-1's third year)"
 status: closed
 knowledge: mixed
 date_created: 2026-07-20
-date_modified: 2026-08-10
+date_modified: 2026-08-19
 date_range_start: 2012-03-01
 date_range_end: 2013-04-01
 sources:
@@ -26,6 +26,9 @@ connections:
   - page: wiki/work/creative-license
     type: co-occurs
     claim: "The employer-side page for the Creative License exit; a Gmail search confirmed this page's February 2012 date directly (a dated Feb 15 2012 final-paycheck email) and replaced the unconfirmed airfare-billing allegation with the real, documented conflict."
+  - page: wiki/places/the-unpapered-address
+    type: evidences
+    claim: "A thirteen-month sublet with no rent, no lease and no description surviving is the second instance in three years, and it is the repetition rather than the thinness that matters: a void that recurs at every address is a description of how the tenancies worked."
 ---
 
 # 90th St, Manhattan (NYC-1's third year)

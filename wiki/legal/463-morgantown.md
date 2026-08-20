@@ -4,7 +4,7 @@ page_type: summary
 title: "463 Morgantown St (Housing / Property Risks)"
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-19
 sources:
   - raw/self/message-csv/imessage_7243228715_both_all_now.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -37,6 +37,9 @@ connections:
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "463 is where the money spine currently points: no lease, blended agency, a ~July 2026 lien deadline, and no absorber for a lien-sized shock — the housing configuration produced by the capital timeline's present state."
+  - page: wiki/places/the-unpapered-address
+    type: instantiates
+    claim: "This arrangement is the seventh consecutive instance of one architecture, not an emergency produced by 2026: across sixteen years and seven addresses the corpus holds no lease, rent figure or signatory for any home Dan has lived in, so the exposure here is structural and none of the local causes are needed to explain it."
 ---
 
 # 463 Morgantown St
@@ -146,3 +149,23 @@ of the Arnu lien, whose estimated 2026-07-27 deadline has now **elapsed
 unrecorded** (see the block above) and remains the single most actionable open
 item here. Whether the July 2026 move was into 463 or somewhere else is
 not confirmed by any source that names an address.
+
+## This is the seventh instance, not the first
+
+The page above reads the arrangement as a live mess produced by a bad year: a
+sale, a bankruptcy, two contractors, an absent owner, no lease. Set against the
+rest of the residence record, none of those local causes is required to explain
+the shape. **Not one of the seven addresses Dan has lived at since 2010 has a
+lease, a contemporaneous rent figure or a signatory anywhere in the corpus** —
+424 Bedford, the 90th Street sublet, 155 Virginia, 307 E 76th, 337 Saratoga,
+117 Belmont and this one. Every tenancy in the record is granted by a specific
+person and ends when that person's circumstances change, and the two legal
+instruments that have ever appeared were relational moves that altered nothing.
+
+That changes what "unresolved" means here. A one-off emergency is fixed by
+papering this arrangement; a sixteen-year regularity is not, and the absence of
+a lease at 463 is better read as the normal operating condition than as an
+oversight anyone is about to correct. It also means
+[[wiki/mind/synthesis/the-deferred-audit]]'s prediction about this address —
+that it would be reconstructed only after it failed — was already true six times
+before it was made. Full accounting at [[wiki/places/the-unpapered-address]].

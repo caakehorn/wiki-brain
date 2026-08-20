@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-07-19
+date_modified: 2026-08-19
 sources:
   - "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -28,6 +28,9 @@ connections:
   - page: wiki/people/bobby-cole
     type: evidenced-by
     claim: "Nine years (2013–2022) of a real Facebook friendship sustained almost entirely by trading O&A/Ron & Fez clips and lore is the clearest case of the archive obsession anchoring a lived relationship, not just solitary listening."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: instantiates
+    claim: "About 450 watches across three fan-archive channels is not fandom but archive exhaustion: a dead broadcast corpus worked through in order until it ran out, which is why it produces the two loudest years in a two-decade watch log and then stops rather than tapering."
 ---
 
 # Opie & Anthony / Shock Radio
