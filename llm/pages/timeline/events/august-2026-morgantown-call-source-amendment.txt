@@ -1,0 +1,13 @@
+SOURCE AMENDMENT: MORGANTOWN ST RECORDING — 2026-08-20
+
+The operator supplied the actual Morgantown St M4A and a timestamped speaker-labelled transcript. The transcript is filed verbatim at raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt. Source verification is at raw/self/audio/2026-08-20_Morgantown_St-source-verification.md.
+
+Audio integrity identifiers for the supplied copy: size 13,097,702 bytes; MD5 96bd3df46d4b0f4c5278cc9d6978621d; SHA-256 f656b6abd5c676a001eaf1f9a207cbc1fad262b3dbc3e9b145618d2bc307a4ec; duration 927.242449 s; AAC stereo; Voice Memos UUID 5B51561B-0110-4FDD-98B8-B41DB654CFDD.
+
+The transcript is 611 lines and runs from 00:00:00 to 00:14:59; the audio continues to 00:15:27.24. It is preserved exactly as supplied.
+
+This supersedes the old source-status language in the Morgantown event page saying the audio was "unheard" or "NOT TRANSCRIBED." The audio is T0 primary. The newly supplied transcript is a direct source-derived transcription aid and should outrank the older Hermes/PDF transcript for transcription-level claims, while not being treated as independently acoustically authenticated.
+
+Important: artifact-level verification is not the same as proving that a recording is unedited or that every speaker label is objectively correct. Keep those claims separate.
+
+Direct transcript observations now available for checking include: Speaker 1 says they went through her phone while she slept at 00:00:43; Speaker 2 repeatedly asks to leave and for the phone; Speaker 1 repeatedly conditions return of the phone on answers; Speaker 3 repeatedly demands that Speaker 1 return the phone and let Speaker 2 leave; Speaker 2 says "You threatened me" at 00:05:22 and "You're holding me hostage" at 00:09:10 and 00:09:25; Speaker 1 threatens parental involvement; Speaker 1 tells Speaker 3 "Gay ass, kill yourself" at 00:08:12. These are transcript-level observations, not legal findings, and speaker identities should remain transcript labels unless independently resolved.
