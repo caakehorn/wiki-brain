@@ -19,6 +19,9 @@ sources:
   - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
   - raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name.md
 connections:
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: instance-of
+    claim: "This window is what that page adjudicates. Its finding: seven of Dan's ten stated grievances are fully supported, two partly, one false — and the recording he holds as proof of betrayal is simultaneously the best corroboration in the corpus of the defence she offered, because on it she is asking for her phone and saying she wants to leave."
   - page: wiki/timeline/events/august-2026-unmasking
     type: follows
     claim: "That night ended with the sleep claim unresolved and the relationship supplied but unsevered; this one answers it by force — seven days later the third party is audible on a live call, and the question of whether Annie was still in contact with him stops being an inference from read receipts and becomes a recording."

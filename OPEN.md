@@ -9,9 +9,9 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 43 |
-| Open gaps | 400 |
+| Open gaps | 405 |
 | Answered, awaiting ingest | 2 |
-| Standing predictions | 33 |
+| Standing predictions | 36 |
 
 ## Answered, awaiting ingest
 
@@ -88,6 +88,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/interests/food-and-diet]]** — **If a food judgement ever surfaces, it will not be about flavour.** It will sort on region, class, or provenance-authenticity — a cool-metric operation wearing a food costume, like the tattoo. A recorded preference framed purely as *this tastes better* would 
 - **[[wiki/interests/food-and-diet]]** — **A food entry will never appear in the favorites record.** The masterlist has held four categories across 2,016 entries; a fifth appearing would show the exemption was a filing habit rather than a protection.
 - **[[wiki/interests/food-and-diet]]** — **Any future ingest of restaurant or cooking material will read as logistics or as labour**, matching the Caviar and Au Za'atar shape, rather than as taste.
+- **[[wiki/mind/synthesis/august-grievance-verdict]]** — **If the group chat is exported, it will contain more retractions and more audience-shaped statements, not fewer.** Finding 1 predicts a channel in which all three parties are present is the highest-pressure venue in the corpus and therefore the one where audi
+- **[[wiki/mind/synthesis/august-grievance-verdict]]** — **If contact resumes, the reopening message will not reference the grievances.** Every documented reconciliation in this record reopens through a neutral channel — the dog, a photograph, a practical question — and none through the substance of the prior ruptur
+- **[[wiki/mind/synthesis/august-grievance-verdict]]** — **No terminating statement from Annie will appear.** The count is 0 in 41,073 messages; the August record produced its nearest approach and still did not produce one.
 - **[[wiki/mind/synthesis/closing-the-set]]** — **The 2021–2023 marker will turn out to be a closed set.** interests-as-era-markers names its own largest gap: the employment-block years have no identified marker obsession. This rule predicts that when one is found it will have a countable edge and a discove
 - **[[wiki/mind/synthesis/closing-the-set]]** — **The `want-to-read` list will be more concentrated than the read list.** books records 149 unread titles. If acquisition runs ahead of reading in a set-closure architecture, the queue should show *higher* subject concentration than the finished shelf's 50%, b
 - **[[wiki/mind/synthesis/closing-the-set]]** — **Any new intense interest will show ≥5 independent sources on one object within its first three months**, and will not show a second work by the first source until the others are used up. This is scoreable against the next favourites or Goodreads export with 
@@ -149,7 +152,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — The exact arrest date within the days before February 17, 2015 is not known, nor is the arresting barracks, the docket number, or whether the expungement was ever completed. The blotter prints the charges without grading them; Dan's own telling calls the resid
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (104)
+### mind (109)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -179,6 +182,11 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The fourth name is not examined here.** `wiki/interests/music/aliases/mogged-up` is outside this page's `synthesizes:` list and its dates were not checked against the rule. If it breaks the pattern, this page is wrong and should be revised, not deleted.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The handoffs are fuzzy.** MOGZART's recorded start (~2014) overlaps SLOPPP's run to December 2015. The rule claims coincidence with period boundaries, not instantaneous succession, and the overlap is unresolved.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The 63–85% figure is a single provenance.** It traces to the context-core measurement and is repeated by the alias pages rather than independently re-measured per alias. The invariant is asserted three times from one source, which is weaker than three measur
+- **[[wiki/mind/synthesis/august-grievance-verdict]]** — **The record is almost entirely one-sided in construction.** 811 of the window's 1,199 messages are his, the audio is his recording, the analysis of the audio was commissioned by him, and this wiki is his. Annie's side of these seventy hours exists in 388 mess
+- **[[wiki/mind/synthesis/august-grievance-verdict]]** — **Her parents' actual beliefs are undocumented.** Grievance 4 rests on Dan's inference plus the asymmetric-clearing evidence, not on anything Ellen or Bill said.
+- **[[wiki/mind/synthesis/august-grievance-verdict]]** — **The phone call in which she agreed to clear his name** is voice and appears in no export.
+- **[[wiki/mind/synthesis/august-grievance-verdict]]** — **The audio is unheard by anyone writing this wiki**, so every quotation from the call above is two removes from the source.
+- **[[wiki/mind/synthesis/august-grievance-verdict]]** — **Whether the email was ever sent** remains open and bears directly on the proportionality finding.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — **The announcement rule is untested against the back catalogue.** All 127 exit declarations are, by definition, announced — the falsifier is the reverse case: silent exits that executed. Whether the record contains unannounced severances that held has never be
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — **The Menore control row is provisional on elapsed time** (see the re-check above). If that channel reopens, this page loses its cleanest non-Annie control, and the corrected rule needs a durability clause rather than a dependency clause alone.
 - **[[wiki/mind/synthesis/block-unblock-loop]]** — **The Tom row is now provisional in the same way.** Resolved as a hold on 2026-08-17 at roughly eleven weeks — a fortnight longer than the Annie closure survived before failing. Re-check it; a reopening would not falsify the dependency rule (nothing flows thro

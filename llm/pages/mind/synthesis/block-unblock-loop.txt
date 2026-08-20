@@ -29,6 +29,9 @@ synthesizes:
   - wiki/mind/concepts/conflict-architecture
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: evidenced-by
+    claim: "Why the loop never terminates, visible in one exchange: Annie did state a want — 'I want to be alone. I want to get help' — and because it was not one of the two options the demand specified, it registered as no answer at all. Every threat in this page's eleven-year record demands a statement, and a demand for a statement can only be satisfied by the exact statement specified."
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: evidenced-by
     claim: "The instrument this page scores threats with is Dan's own assertion, and that instrument is now known to be deliberately unreliable: 28 maternal-disclosure threats in 67 hours, one proven simulation admitted in writing ('it wasn't actually sent, and I knew you would suddenly come back to life'), and a claimed execution he contradicts ten hours later. The execution rate is not one and not zero — it is unmeasured until the sent-mail folder is checked."
@@ -87,6 +90,21 @@ connections:
 ---
 
 # The Block/Unblock Loop
+
+> **ADDED [2026-08-20] — why the loop does not terminate, in one exchange.**
+> [[wiki/mind/synthesis/august-grievance-verdict]] isolates the mechanism this
+> page has described structurally. On 2026-08-17 at 20:12 Annie states a want,
+> plainly: *"I want to be alone. I want to get help."* Six seconds later Dan
+> answers *"WOW / That is all I needed to see."* She had answered; she had not
+> answered **the binary he specified** (*him or me*), which admits no third
+> option. Every threat in this page's eleven-year record demands a *statement*,
+> and **a demand for a statement can only be satisfied by the exact statement
+> specified** — so a different true answer registers as no answer at all. The
+> architecture is not detecting deception at that moment; it is detecting
+> non-compliance with a template and cannot tell the two apart. That is the
+> likeliest reason 127 exits produced 110 re-engagements: the terminating
+> condition was never reachable by anything the other party was willing to say.
+
 
 > **ADDED [2026-08-20] — the August 2026 threat was not blackmail, and the
 > distinction is load-bearing for how this page counts.** The three-day

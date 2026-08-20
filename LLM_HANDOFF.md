@@ -57,6 +57,30 @@ YOU TOLD ABOUT ME"* (15:15:00) is about. The group chat has **never been
 exported** and the wiki's only copy of any of it is a transcribed screenshot —
 **exporting that thread is now a top-three action.**
 
+**A verdict page now exists for the final conversation** —
+`wiki/mind/synthesis/august-grievance-verdict`, the seventy-hour counterpart to
+`dan-annie-fallout-verdict`'s ten-year question. Ten grievances scored: **seven
+fully supported, two partly, one false.** Two things from it that later passes
+should not re-derive:
+
+* **Dan's own evidence cuts both ways.** The recording he held for three days as
+  proof of betrayal is also Annie's best defence — on it she asks for her phone
+  back and says she wants to leave, and Coles is heard refusing. *"You chose to
+  stay"* is the worse-supported reading **for the duration of the call**. He is
+  right about the pattern and wrong about the night; the grievances concerning
+  the days either side are untouched.
+* **The standing characterisation of Annie is not supported.** *Evil*,
+  *monster*, *sociopathic* come from Dan's own messages. Her self-blame across
+  the window is immediate, total and unprompted (*"yes it's my fucking fault"*
+  twenty-two seconds after *"INWAS TRAPPED"*) — collapse, not calculation. Every
+  factual grievance can be true while the characterological one is false, and
+  here that is the case. Corrected on `annie-ulmer` and the fallout verdict.
+
+The page states its own limit plainly and a later pass should respect it: 811 of
+the window's 1,199 messages are his, the audio is his, the analysis of it was
+commissioned by him, and this wiki is his. **Every finding about her is drawn
+from a sample she did not shape.**
+
 **The *"made her fuck guys for drugs"* accusation was adjudicated** against
 `arrangement-history` and fails: money runs Dan → third party in all seven
 documented instances, zero instances in eleven years have drugs as the

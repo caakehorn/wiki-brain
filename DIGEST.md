@@ -13,12 +13,12 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 483 |
-| Pages touched in the last 14 days | 165 |
-| Pages reasoning from other pages (`synthesizes:`) | 38 |
+| Pages | 484 |
+| Pages touched in the last 14 days | 166 |
+| Pages reasoning from other pages (`synthesizes:`) | 39 |
 | Live contradictions | 43 |
-| Open gaps | 400 |
-| Standing predictions | 33 |
+| Open gaps | 405 |
+| Standing predictions | 36 |
 
 ## By domain
 
@@ -26,7 +26,7 @@ this is the state of the thing.
 |---|---|
 | people | 165 |
 | interests | 143 |
-| mind | 64 |
+| mind | 65 |
 | self | 40 |
 | timeline | 38 |
 | work | 15 |
@@ -39,17 +39,18 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 188 |
-| active | 152 |
+| active | 153 |
 | closed | 99 |
 | archived | 31 |
 | stub | 13 |
 
 ## The last few days
 
-**2026-08-20** — 38 pages
+**2026-08-20** — 39 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
   - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
   - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
+  - climb | mind | the grievances of the last conversation, scored one by one — and Dan's own evidence turns out to cut both ways
 
 **2026-08-19** — 44 pages
   - audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
@@ -90,6 +91,7 @@ have moved since.
 - [[wiki/mind/politics/axioms]] — 5 premises
 - [[wiki/mind/synthesis/alias-as-periodization]] — 5 premises
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — 5 premises
+- [[wiki/mind/synthesis/august-grievance-verdict]] — 7 premises
 - [[wiki/mind/synthesis/block-unblock-loop]] — 11 premises
 - [[wiki/mind/synthesis/closing-the-set]] — 9 premises
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 9 premises

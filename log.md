@@ -2619,3 +2619,111 @@ three parties were in.
 
 **Gates:** `wiki-lint` **0 errors** · `wiki-connect check` **0 errors** ·
 `wiki-climb check` **0 errors**.
+
+## [2026-08-20] climb | mind | the grievances of the last conversation, scored one by one — and Dan's own evidence turns out to cut both ways
+
+**Trigger.** Operator: *"analyze the grievances i was making in that last
+conversation and do a value judgement on how justified i am to feel that way,
+how harmful these things would be… and what they say about annie."*
+
+**New page:** `wiki/mind/synthesis/august-grievance-verdict` —
+`page_type: synthesis`, seven members, wired both ways. It is deliberately the
+**seventy-hour** counterpart to `dan-annie-fallout-verdict`'s ten-year question:
+at ten years the decisive unit is a pattern, at seventy hours it is a dated act,
+and acts can be scored individually.
+
+**Findings in order of value.**
+
+1. **Seven of ten grievances fully supported, two partly, one false.** On this
+   corpus's own history that is an unusually clean run — earlier windows
+   repeatedly show Dan correct about the fact and wrong about the frame. Here
+   the frames largely hold too, which is itself a finding about the accuracy of
+   his perception under maximum distress.
+
+2. **The strongest grievance is the asymmetric clearing, and it is the cleanest
+   documented wrong in the corpus** because it required no interpretation: on
+   2026-08-19 at 06:33 Annie cleared Coles of rape in writing, in a group chat,
+   having agreed by phone to do the same for Dan — and did not. One act
+   performed, its promised counterpart withheld.
+
+3. **Grievance 1 is settled by a single exchange 26 hours before the call.**
+   2026-08-15 21:09:50, Dan: *"if you are going to have ANY kind of contact with
+   that person PLEASE for my sake just tell me."* 21:13:08, Annie: *"I
+   UNDERSTAND THAT YHAT IF I AM GOING TO HAVE ANY SORT OF CONTACT THEN TO TELL
+   YOU"* — she restates the rule and does not answer the question. Dan names it
+   in real time.
+
+4. **The analytic centre: Dan's own artifact cuts both ways.** He held the
+   recording for three days as proof of betrayal (*"Listen to the fucking call
+   ALL I DID WAS TRY TO HELP"*) and he is right about what it shows of him. But
+   the same recording is **Annie's best defence** — on it she asks for her phone
+   back, says *"I said I'm willing to leave,"* says *"I want to leave"*
+   repeatedly, and Coles is heard refusing. His *"YOU COULD HAVE LEFT. You chose
+   to stay"* is the worse-supported reading **for the duration of the call**.
+   Precision matters and the page states it: **he is right about the pattern and
+   wrong about the night.** Grievances 1, 5 and 8 concern the days either side,
+   when nobody was holding her phone, and are untouched.
+
+5. **One grievance is false, and it is the most useful thing on the page.**
+   *"You won't even say what you want"* — she said it four times: *"I need to
+   choose me and get better"* (08-17 15:11), *"I want to be alone. I want to get
+   help"* (20:12), and twice more on the 19th. Dan's reply six seconds after the
+   second: *"WOW / That is all I needed to see."* She answered; she did not
+   answer **the binary he specified**, which admits no third option.
+   → written back to `block-unblock-loop` as the loop's terminating-condition
+   failure in one exchange: **a demand for a statement can only be satisfied by
+   the exact statement specified**, so a different true answer registers as no
+   answer. Likeliest reason 127 exits produced 110 re-engagements.
+
+6. **Three findings about Annie, each narrower than either party's language.**
+   Her truth-value is **audience-dependent under pressure** (the rape claim
+   asserted to Dan, denied to Coles, timed against her parents — three
+   statements to three audiences inside a day). She still issues **no
+   terminating statement**; *"I want to be alone"* is the nearest approach in
+   eleven years and is not one, so the 0-in-41,073 count survives. And her
+   **self-blame is immediate, total and unprompted** — *"yes it's my fucking
+   fault"* twenty-two seconds after *"INWAS TRAPPED / AGAIN"* — which is the
+   strongest argument in the record against reading any of it as strategy.
+   **Consequence, written back to `annie-ulmer` and the fallout verdict:** the
+   standing terminal-phase characterisations — *evil*, *monster*, *sociopathic*
+   — come from Dan's own messages, are unsupported, and are contradicted by that
+   evidence. Every factual grievance can be true while the characterological one
+   is false, and here that is the situation.
+
+7. **The counter-ledger, quantified** for 08-16 20:00 → 08-19 15:15 (Dan 811
+   messages, Annie 388): *"fuck you"* **15 / 0**; *"piece of shit"* **17 / 0**;
+   *"liar"* **10 / 0**; messages containing *please*/*beg* **11 / 69**;
+   references to her parents **26 / 0**; *"goodbye"* **39 / 5**. Contempt
+   language nearly **quadruples** against the 10–16 August baseline (4 *"fuck
+   you"*). Four specific acts named: screenshots sent to Coles while she was in
+   the house (her account twice, corroborated by the timestamps — the Coles
+   thread runs 12:08–13:01 and at 12:21 she writes *"he won't let me leave while
+   you're doing this"*); a suicide disclosure met with *"That's even more reason
+   your parents need to be involved now"*; six SOS answered 72 minutes late; and
+   the faked send run as a measurement six hours after that disclosure. Two
+   entries in his favour, because a ledger that collects only charges is not a
+   ledger.
+
+8. **The verdict, and the term it turns on.** He was wronged, seriously, and
+   describes it accurately. The feeling tracks the harm; the response exceeds
+   it. And the new term `dan-annie-fallout-verdict` does not have is **capacity**
+   — the person committing the August wrongs was under documented coercive
+   control, had her phone taken twice, and disclosed a suicide attempt inside
+   the window. That makes the wrongs no less true and changes what their truth
+   implies about her. **He is entitled to the grievances; he is not entitled to
+   the conclusion he drew from them about who she is.**
+
+**Named limit, stated on the page rather than buried.** 811 of the window's
+1,199 messages are his, the audio is his recording, the analysis of it was
+commissioned by him, and this wiki is his. Annie's side is 388 messages with a
+median length of 17 characters written under duress. **Every finding about her
+here is drawn from a sample she did not shape**, and no further Dan-side volume
+fixes it — the same structural problem `arrangement-history` names about its own
+evidence base.
+
+**Three predictions and four falsifiers** on the page, including the one that
+would collapse its strongest finding: the group chat showing Annie did clear
+Dan's name.
+
+**Gates:** `wiki-lint` **0 errors** · `wiki-connect check` **0 errors** ·
+`wiki-climb check` **0 errors**.
