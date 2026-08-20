@@ -7,11 +7,10 @@ date_created: 2026-07-15
 date_modified: 2026-08-20
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
-  - raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv
+  - raw/self/message-csv/imessage_7244346811+212****2449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
   - raw/self/message-csv/annie_all_time_logs.csv
   - raw/self/message-csv/THE END FIGHT.csv
-  - raw/self/message-csv/END_FIGHT_full.csv
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
