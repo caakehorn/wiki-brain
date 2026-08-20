@@ -2727,3 +2727,161 @@ Dan's name.
 
 **Gates:** `wiki-lint` **0 errors** · `wiki-connect check` **0 errors** ·
 `wiki-climb check` **0 errors**.
+
+## [2026-08-20] rewrite | people | ally-lubin — the wiki hallucinated about itself, and the infobox carried it
+
+**The headline finding is a failure of this repository, not of the corpus.**
+The page recorded that on 2026-08-18 Ally accepted the "object of fixation"
+title (*"Okay deal. Sounds good 1-2-3 break"*), and carried it in
+`relationship_to_dan`. A complete export of the thread — 708 records, 154 of
+them inbound, supplied by the operator mid-session and filed to
+`raw/self/imessage/ally-lubin_last-7-days_20260820.csv` — contains neither
+string, and "object of fixation" appears nowhere under `raw/`. The elopement
+pitch is real and unanswered.
+
+The mechanism is inside the thread. At 23:39 Dan invited Ally to say anything
+she wanted included in her entry so he could run the pass over the newest
+messages (*"I just want to see how meta it gets if it is writing the article
+basically about itself"*); at 23:46 he reports *"Omg she said prompt inject
+please marry me"*; at 00:31–00:33 he diagnoses the result — *"I was the one
+that accidentally prompt injected… I ran out of Claude quota… using a free
+model… Hence it thinking you were the one accepting my very attractive offer
+there."* **The operator identified the hallucination within four hours and the
+wiki did not act on it for two days.** Added to `RETRACTED.md` as
+`ally-object-of-fixation-accepted`; gate verified to fire.
+
+General rule this yields: **a source that discusses the wiki cannot be ingested
+as an ordinary source.** Ally spent 2026-08-18 reading her own entry and
+quoting it back — at 16:28 she pastes a `claim:` line out of the page's own
+frontmatter into the thread. From that point the message corpus contains the
+wiki, and any pass mining the corpus is partly reading itself.
+
+**Every count on the page was a line count.** 1,375 iMessage records → 1,285 in
+that file; 1,143/232 per handle → 1,080/205; "279-message exchange" on Aug 18 →
+375. `wc -l` on a CSV whose texts contain newlines. Corrected against record
+counts; the union across three sources is **1,987** (1,293 sent / 694 received),
+and the 2019 peak's share drops 74% → 47% because the August 2026 burst is 36%
+of eighteen years on its own.
+
+**120 messages of January 2019 were invisible to every prior pass** — present in
+`all_imessages_complete_dump.txt`, absent from the chat.db extract the page was
+built on. They overturn three claims: a phone call connected (2019-01-09,
+*"You have a good voice btw"* / *"I can't believe I got a call tonight"*),
+against which Ally's 2026 account (*"I called you when I was in NYC once and you
+were too scared"*) is now held as a CONTRADICTION; the marriage frame was
+**mutual in 2019** (*"Ily btw"*, *"so I can be ur future ex wife"*, *"When you
+want to be a power couple LMK"*), which falsifies "first sustained mutual
+conversation in the channel's history" for August 2026; and the payments predate
+the August 2019 job loss, so what the crisis changed was the pricing, not the
+existence of the channel.
+
+**GAP CLOSED — the June 1, 2026 burst was never delivered.** Operator answer
+(T0): *"Ally didn't actually get the message I sent on 1 June. She is convinced
+I had her blocked but this is not and was never true."* Corroborated from her
+side by her first line on Aug 18 (*"Why do I have 2 numbers for you and an
+iCloud"*). Nine messages, not ten. At least one of this channel's long silences
+is a **routing artifact, not dormancy** — written back to `dormancy-not-exit`.
+
+**Thesis revised: the channels are concurrent, not sequential.** Laying the Ally
+export beside `imessage_export_2124702449_20260820.csv` for the same 48 hours
+shows them interleaved hour by hour — 408 messages to Annie and 552 to Ally
+across Aug 18–19. Dan tells Ally at 00:09 his wifi is off so he won't see Annie,
+then exchanges 98 messages with Annie between 01:00 and 02:59; tells Ally at
+13:45 *"Im all ally Lubin all the time now"* ninety minutes before sending Annie
+the last message of the eleven-year relationship at 15:15:33. "The overflow is
+not what happens after the vessel breaks; it is what the vessel was overflowing
+into the whole time." Written back to `annie-ulmer` as a `mirrors` edge.
+
+**Caveat held open:** the Aug 19 inbound is missing from the export, not absent
+from the conversation — Dan's replies that day are plainly responsive
+(*"Sorry is this your coffee order or your answer"*, *"Bob was born in what
+year"*). Every claim about what Ally said after 21:42 on Aug 18 is withheld,
+including the previous page's "morning after" section, whose meta-question it
+attributed to her and which is Dan's.
+
+Cascade: `ally-and-dan-love-as-destiny` (edge retyped `instantiates` →
+`contradicts`; its strongest evidence struck; two Gaps closed),
+`astrology-star-signs` (RE-CHECKED — conclusion survives, DOB premise
+*strengthened* by the recovered 2019 corroboration), `contact-gini`,
+`dormancy-not-exit`, `group-chat-closure`, `annie-ulmer`. Three gates 0 errors.
+
+## [2026-08-20] rewrite | people | annie-ulmer — the zero holds at full width; the ending was not one thread
+
+**The page's most load-bearing number was under-claimed, and a full sweep
+raised it.** Since 2026-08-13 the "0 explicit severance signals" finding had
+carried a scope caveat — swept only across the 41,073-message dual-handle
+export, 81.6% of Annie's in-window inbound, with 9,259 messages named in Gaps
+as unswept. The sweep has now been run adversarially across **all 48,791
+received messages in every export on disk**, with twelve patterns aimed at the
+claim rather than at any phrasing. 136 raw matches, **all false positives on
+inspection.** The two that survived first reading did not survive context:
+*"It's over"* (2018-03-25) stands alone and Dan's reply two minutes later is
+about where to shower; *"Please stop texting me"* (2018-08-03) is a
+mid-argument pause request during a camming-setup fight, with the same thread
+discussing an ATM run four minutes later. **The zero can now be quoted without
+a scope caveat** — not "none in the 81.6% we looked at" but none in eleven
+years, anywhere. Gap closed; `attachment-model` is load-bearing at full width.
+
+**Two rows in "By the numbers" were line counts.** The dual-handle archive was
+given as *"88,549 lines / 88,548 rows — re-verified by direct count"*, treating
+lines and rows as the same thing; it is **85,586 records**, and the direction
+split the page already carried proves it (44,513 + 41,073 = 85,586). Worse, and
+the failure this repository has documented and keeps repeating: the
+alternate-number thread was reported as *"4,812 msgs"*, which is its **received
+count**. It is **9,481 messages**; Dan's own 4,669 in it were invisible to every
+pass that quoted the smaller figure. Neither error touches a conclusion — both
+threads were characterised from content — but a page reporting Dan's share of a
+thread as zero cannot be used to reason about reciprocity in it.
+
+**Verified and left alone:** the word-volume ratio, which is the metric the page
+nominates as the stable one. Recomputed directly — 23,719 messages, 188,167
+words to 63,700, **2.954:1**, medians 8 and 4. Exactly as claimed. The earned
+analytical spine of this page survives re-derivation; what failed were the
+mechanical counts around it.
+
+**Structure: four endings merged into one.** June 1 / July 2026 / the
+re-entanglement / August 2026 had been appended in export-arrival order as four
+top-level sections — the changelog rot STYLE_GUIDE rule 6 forbids, at section
+scale. They are now four movements under one arc, headed by mechanism rather
+than by date, because each attempt inherits the failure of the one before it.
+`What's missing` → `Gaps`; `LLM Quick Brief` and its "For context injection:"
+opener de-chattered per rule 6; the eleven changelog entries compressed from
+paragraphs to the one-line form the style guide specifies, after verifying every
+fact in them is carried in the body.
+
+**New finding — the ending was not one thread.** Laying the Annie export beside
+the Ally export for the same 48 hours shows them **interleaved hour by hour**:
+408 messages to Annie, 552 to Ally, across August 18–19. Three of Dan's
+statements to Ally are contradicted by this thread as he makes them — the wifi
+claim at 00:09 against 98 Annie messages in the next two hours; the live
+narration of Annie's SOS at 23:42; *"Im all ally Lubin all the time now"* at
+13:45, ninety minutes before the relationship's last message at 15:15:33. This
+is not a symmetry argument and does not touch the verdict: nothing in the Ally
+channel is an affair or a concealment. What it establishes is that **the wiki
+has been reading Ally as what happens after this bond fails, and it is not** —
+it ran alongside, and on the terminal days carried more traffic. Written back
+to `ally-lubin` and to `contact-gini`, where it sharpens the redundancy claim:
+the problem is not that Dan has one channel but that his second is
+**non-substitutable** — it takes attention and cannot take weight, which is why
+a lifetime-volume concentration metric could not see it.
+
+Three gates 0 errors; 41 tests pass; generated corpus in sync at 484 pages.
+
+## [2026-08-20] lint | timeline | two committed conflict markers on main
+
+Surfaced by merging `origin/main` into the rewrite branch, not by a sweep, and
+worth recording because a gate did not catch either.
+
+- `wiki/timeline/annie-read-notes.md:452` carried a stray `>>>>>>> origin/main`
+  with no matching opener — a conflict resolved by deleting two of the three
+  markers.
+- `wiki/timeline/annie-record.md:1025` carried an orphan `=======` with the
+  **2016-01-04 18:32 entry duplicated on both sides of it**. The two copies were
+  not identical: the first carries `[[wiki/people/annie-ulmer]]` and
+  `[[wiki/mind/synthesis/supply-network]]`, the second carries no links at all.
+  Kept the linked copy, dropped the marker and the duplicate.
+
+Both had been published into `llm/corpus.txt`. Neither `bin/wiki-lint` nor
+`bin/wiki-freshness` looks for conflict markers, which is a cheap gate the repo
+does not have — a page containing `^<<<<<<<`, `^=======$` or `^>>>>>>>` is never
+correct. Queued in `BACKLOG.md`.

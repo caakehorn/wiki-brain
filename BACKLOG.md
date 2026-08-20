@@ -342,3 +342,10 @@ reason rather than re-derive it:
   forgery actually was.
 - **LOW — `wiki/people/index.md` is 23KB against an 8KB budget.** Standing lint
   warning, untouched by this pass.
+
+- **Add a conflict-marker gate to `bin/wiki-lint`.** Two committed markers were
+  found on `main` on 2026-08-20 (`annie-read-notes.md:452`,
+  `annie-record.md:1025`), one of them hiding a duplicated entry whose copies
+  differed in their wikilinks. Both had been published into `llm/corpus.txt`. A
+  page matching `^<<<<<<<`, `^=======$` or `^>>>>>>>` is never correct; this is a
+  three-line check.

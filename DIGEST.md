@@ -16,8 +16,8 @@ this is the state of the thing.
 | Pages | 484 |
 | Pages touched in the last 14 days | 166 |
 | Pages reasoning from other pages (`synthesizes:`) | 39 |
-| Live contradictions | 43 |
-| Open gaps | 400 |
+| Live contradictions | 44 |
+| Open gaps | 395 |
 | Standing predictions | 36 |
 
 ## By domain
@@ -46,18 +46,20 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-20** — 40 pages
+**2026-08-20** — 43 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
   - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
   - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
   - climb | mind | the grievances of the last conversation, scored one by one — and Dan's own evidence turns out to cut both ways
+  - rewrite | people | ally-lubin — the wiki hallucinated about itself, and the infobox carried it
+  - rewrite | people | annie-ulmer — the zero holds at full width; the ending was not one thread
 
-**2026-08-19** — 44 pages
+**2026-08-19** — 43 pages
   - audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
   - synthesis | health | cocaine — new substance profile page
   - climb | mind, health, places | five doctrine pages (5 synthesized, 0 rejected)
 
-**2026-08-18** — 31 pages
+**2026-08-18** — 29 pages
   - rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
   - ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
   - close | people | wiki/people/diane-moore — a two-word operator answer merged two entities and re-dated the exclusion

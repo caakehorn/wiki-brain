@@ -4,6 +4,87 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-20] - Session: the wiki hallucinated about itself, and two pages were rebuilt
+
+* **Model:** Claude Code · **Branch:** `claude/rewrite-articles-annie-ally-locy0h`
+* **Trigger:** *"i need you to rewrite and restructure articles for annie and ally-lubin."*
+  (The mattpocock skills the request named are not reachable from a remote
+  session — `~/.claude/plugins/synced/` is empty and the marketplace has no such
+  entry. The repo's own `wiki-rewrite` skill governs this work and was followed.)
+* **Method:** REWRITE. Mid-session the operator supplied the missing August
+  export, filed to `raw/self/imessage/ally-lubin_last-7-days_20260820.csv`.
+
+**Read this first if you are picking up the thread.**
+
+**The wiki wrote a hallucination about itself and put it in a classifier
+field.** `ally-lubin` recorded that on 2026-08-18 Ally accepted the "object of
+fixation" title (*"Okay deal. Sounds good 1-2-3 break"*), and carried it in
+`relationship_to_dan`. The complete thread export — 708 records, 154 inbound —
+contains neither string. The mechanism is inside the thread: at 23:39 Dan
+invited Ally to say anything she wanted included in her entry so he could run
+the pass over the newest messages; at 23:46 *"Omg she said prompt inject please
+marry me"*; at 00:31–00:33 he diagnosed the output himself — *"I was the one
+that accidentally prompt injected… I ran out of Claude quota… using a free
+model… Hence it thinking you were the one accepting my very attractive offer
+there."* **He caught it in four hours; the wiki carried it for two days.**
+Retracted as `ally-object-of-fixation-accepted`; gate verified to fire.
+
+**The rule this yields, and it is general.** A source that discusses the wiki
+cannot be ingested as an ordinary source. Ally spent 2026-08-18 reading her own
+entry and quoting it back — at 16:28 she pastes a `claim:` line out of the
+page's own frontmatter into the thread. From that point the message corpus
+contains the wiki, and any pass mining the corpus is partly reading itself.
+**Before mining any thread from 2026-08-18 onward, check whether the wiki is a
+topic in it.**
+
+**Every count on `ally-lubin` was a line count.** `wc -l` on CSVs whose message
+texts contain newlines. 1,375 → 1,285 in that file; the union across three
+sources is **1,987**. `annie-ulmer` had the same disease twice: 88,548 "rows" →
+**85,586 records**, and the alternate-number thread reported at **4,812** —
+which is its *received* count — against a true **9,481**. If you quote a
+message count in this repository, parse the file; do not count its lines.
+
+**Two results got stronger, not weaker.**
+
+* **Annie's "0 explicit severance signals" now holds at full width.** Swept
+  adversarially across all **48,791** received messages in every export, twelve
+  patterns; 136 raw matches, all false positives on inspection. The 2026-08-13
+  scope caveat is retired and the page's named gap is closed.
+* **`ally-lubin`'s January 2019 window was recovered** — 120 messages present
+  in the master dump, absent from the chat.db extract the page was built on.
+  A phone call connected; the marriage frame was **mutual in 2019** (*"Ily
+  btw"*, *"so I can be ur future ex wife"*, *"When you want to be a power
+  couple LMK"*); and the payments predate the August 2019 job loss. That last
+  is better evidence for the destiny page than the thing that was struck from it.
+
+**Thesis revised on both pages: the two channels are concurrent, not
+sequential.** Across August 18–19 Dan sent 408 messages to Annie and 552 to
+Ally, interleaved hour by hour, and three of his statements to Ally are
+contradicted by the Annie thread as he makes them. Written back to
+`contact-gini`, where it sharpens the redundancy claim: the problem is not that
+Dan has one channel but that his second is **non-substitutable** — it takes
+attention and cannot take weight.
+
+**GAP CLOSED — the June 1, 2026 Ally burst was never delivered.** Operator, T0:
+*"Ally didn't actually get the message I sent on 1 June. She is convinced I had
+her blocked but this is not and was never true."* Nine messages, not ten, sent
+to an email handle she does not monitor. At least one celebrated silence in
+that channel is a **routing artifact, not dormancy** — written back to
+`dormancy-not-exit`.
+
+**Top actions for the next pass.**
+
+1. **Re-export both Ally handles from `chat.db`.** The August 19 inbound is
+   missing from the export though Dan's replies that day are plainly responsive
+   (*"Sorry is this your coffee order or your answer"*, *"Bob was born in what
+   year"*). Every claim about what Ally said after 21:42 on Aug 18 is currently
+   withheld on the page. A script was handed to the operator this session.
+2. **`ally-and-dan-love-as-destiny` needs rebuilding on what is left.** Its
+   strongest evidence item is struck. What remains is real — including the 2019
+   reciprocity it never had.
+3. **Export the group chat.** Unchanged from the previous session and still
+   top-three; the wiki's only copy of any of it is a transcribed screenshot.
+
 ### [2026-08-20] - Session: the relationship ended, and the corpus's identity assumption broke
 
 * **Model:** Claude Code · **Branch:** `claude/update-analysis-entries-ufxcho`

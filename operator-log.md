@@ -23,3 +23,4 @@ every page that inherited the gap, then clear.
 | 2026-08-18 | wiki/people/menore | staged-elsewhere | Not from the gap list — volunteered by the operator | raw/people/captures/2026-08-18_132340_gap-menore.md | |
 | 2026-08-19 | wiki/self/concepts/chatgpt | staged-elsewhere | Not from the gap list — volunteered by the operator | raw/self/captures/2026-08-19_162808_gap-chatgpt.md | |
 | 2026-08-20 | wiki/people/james-dee | staged-elsewhere | Last name is Spiker | raw/people/captures/2026-08-20_015525_gap-james-dee.md | 2026-08-20 |
+| 2026-08-20 | wiki/people/ally-lubin | staged-elsewhere | The gap, as this page stated it: | raw/people/captures/2026-08-20_042255_gap-ally-lubin.md | 2026-08-20 |

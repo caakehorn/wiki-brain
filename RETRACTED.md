@@ -85,3 +85,41 @@ not the quote.
   ]
 }
 ```
+
+## Ally Lubin accepted the "object of fixation" title on August 18, 2026
+
+A hallucination the wiki produced about itself. On the night of 2026-08-18 Dan
+invited Ally to say anything she wanted included in her own wiki entry so he
+could run the pass over the newest messages (*"I just want to see how meta it
+gets if it is writing the article basically about itself"*); she answered with a
+joke instruction (*"she said prompt inject please marry me"*), he separately
+injected by accident, and the pass — run on a fallback model after his weekly
+quota ran out — emitted a mutual engagement that never happened. He diagnosed it
+himself four hours later: *"Hence it thinking you were the one accepting my very
+attractive offer there."* It had already reached `relationship_to_dan` in the
+infobox.
+
+The elopement pitch of 23:18–23:20 is **real and must stay**; only the
+acceptance is retracted. The patterns match the acceptance and not the offer.
+
+```json
+{
+  "id": "ally-object-of-fixation-accepted",
+  "claim": "Ally Lubin accepted the 'object of fixation' / girlfriend title on 2026-08-18",
+  "patterns": [
+    "object of fixation[^.\\n]{0,40}accept",
+    "accept(?:ed|s|ing)?[^.\\n]{0,40}object of fixation",
+    "okay deal\\.?\\s*sounds good\\s*1-2-3 break",
+    "1-2-3 break"
+  ],
+  "replacement": "No acceptance exists in any export. Dan's elopement pitch (2026-08-18 23:18-23:20) is unanswered; the phrase 'object of fixation' appears nowhere under raw/.",
+  "reason": "Model hallucination from a prompt injection jointly introduced by the subject and the operator, on a fallback model; identified by the operator 2026-08-19 00:33 and not acted on until 2026-08-20",
+  "retracted": "2026-08-20",
+  "source": "raw/self/imessage/ally-lubin_last-7-days_20260820.csv (708 records, 154 inbound); operator diagnosis in-thread 2026-08-19 00:31-00:33",
+  "affected_pages": [
+    "wiki/people/ally-lubin.md",
+    "wiki/self/concepts/ally-and-dan-love-as-destiny.md",
+    "wiki/self/concepts/astrology-star-signs.md"
+  ]
+}
+```
