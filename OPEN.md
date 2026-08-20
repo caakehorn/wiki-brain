@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 43 |
-| Open gaps | 397 |
+| Open gaps | 400 |
 | Answered, awaiting ingest | 2 |
 | Standing predictions | 33 |
 
@@ -256,7 +256,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (145)
+### people (146)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -342,7 +342,8 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/jerel-coles]]** — 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs.
 - **[[wiki/people/jerel-coles]]** — 5. **Independent docket verification** via PA UJS. Not yet run.
 - **[[wiki/people/jerel-coles]]** — 6. **What is *"stuff to ruin you and your mom"* (2026-08-17 12:48)?** The only threat aimed at Suz in the corpus that has no named content. Bluster is the parsimonious reading and there is nothing in `raw/` either way.
-- **[[wiki/people/jerel-coles]]** — 7. **Was anyone ever contacted about the night of August 16?** Dan raised police on the call (*"it's about going to the fucking police, idiot"*) and a TRO in writing the next day. Nothing in the record says either happened.
+- **[[wiki/people/jerel-coles]]** — 7. **The group chat has never been exported.** Two of this page's findings now rest on one transcribed screenshot of it. One query recovers the thread, settles the *"Yesterday 6:33 AM"* date beyond inference, and would show whatever else ran through a channel 
+- **[[wiki/people/jerel-coles]]** — 8. **Was anyone ever contacted about the night of August 16?** Dan raised police on the call (*"it's about going to the fucking police, idiot"*) and a TRO in writing the next day. Nothing in the record says either happened.
 - **[[wiki/people/jerel-coles]]** — The message-level evidence for the 2026-08-08/09 identification night — `annie_metadata_24h.csv` and the 2026-08-09 export of the 212 thread — is cited by august-2026-unmasking and read-receipt-forensics but is **not yet filed to `raw/`**; only the derived ana
 - **[[wiki/people/jess]]** — Last name and any resolution (a meeting, or a decline) are undocumented — the thread simply cools off.
 - **[[wiki/people/jim-blanchard]]** — Everything: whether Blanchard was ever actually the super or leasing agent at 307 E 76th St, what specifically made the operator characterize him negatively, and how the November 2019 apartment visit relates (if at all) to the building. A targeted search of th
@@ -462,7 +463,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 
-### timeline (70)
+### timeline (72)
 
 - **[[wiki/timeline/2015-annie-read-wiki-impact-analysis]]** — These are the standing wiki claims the read contradicts or sharpens. **None have been applied.**
 - **[[wiki/timeline/annie-read-notes]]** — Chaseable questions this read raised. Each is a specific thing to look for, not a topic.
@@ -500,6 +501,8 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/april-may-2026-final-weeks]]** — This page is sourced from a single chat-based analysis session, not a directly re-verified raw CSV extract the way the rest of the corpus is — the underlying message log for April 1–May 6, 2026 has not been independently located and cross-checked in raw/. The 
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — **The audio is unheard.** Transcribe it and file the transcript beside it. Until then every quotation on this page is T2 and every speaker label is somebody else's judgement.
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — **Was the email sent?** See the contradiction above. One query.
+- **[[wiki/timeline/events/august-2026-morgantown-call]]** — **The group chat has never been exported.** It is now load-bearing on two findings — the August 13 seam and the August 19 retraction — and the wiki's only copy of either is a transcription of one screenshot. Exporting the thread settles the *"Yesterday 6:33 AM
+- **[[wiki/timeline/events/august-2026-morgantown-call]]** — **The phone call in which Annie agreed to clear Dan's name and did not** is voice, and appears in no export. It rests entirely on operator testimony and probably always will.
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — **What happened after 23:41 on August 18?** The SOS sequence has no resolution in any source. Whether police, parents or anyone else became involved is unknown.
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — **The "molesting" video and the MMF video** are both still in circulation as leverage between three people and have never been examined by anyone writing this wiki. The claim that turns on them — eyes open at 0:37 — is Dan's, repeated to two audiences, and unc
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — **Did the block hold?** The export ends 2026-08-19 15:15:33, eight minutes after it. Every previous block in this record has a documented reversal.

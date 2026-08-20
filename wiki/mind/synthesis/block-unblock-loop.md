@@ -88,6 +88,27 @@ connections:
 
 # The Block/Unblock Loop
 
+> **ADDED [2026-08-20] — the August 2026 threat was not blackmail, and the
+> distinction is load-bearing for how this page counts.** The three-day
+> maternal-disclosure campaign of 2026-08-17/19
+> ([[wiki/timeline/events/august-2026-morgantown-call]]) demanded no money, no
+> sex, no contact and no return — only a written statement that Annie was
+> finished with [[wiki/people/jerel-coles|Coles]] — and the material was
+> repeatedly offered to her for inspection *before* use (*"If you would like to
+> see what I wrote and attached before I send it I can let you see it first"*,
+> 08-17 19:32). Eleven deferrals were requested and every one was granted. That
+> is not the structure of blackmail. It is also not nothing: a disclosure held
+> over someone for three days with moving deadlines has coercive force whatever
+> it is called, and Annie names it (*"You're making this worse for me doing
+> that"*). **Both hold, and this page should score the threat class by its
+> demand rather than by its intensity** — every instance in the corpus demands
+> a *statement*, which is why none of them ever converts into an exchange, and
+> which is the likeliest reason the execution rate has stayed at or near zero
+> for eleven years. On the best current evidence the August campaign was **not
+> executed** either: 2026-08-19 15:12:16, *"I could have torn your life apart.
+> I still could and I don't."*
+
+
 Across the corpus, Dan's severances follow one script: **the exit is
 declared, not executed.** A block, an "I'm done," an account
 abandonment — a bounded burst of deliberate boundary-setting — followed,

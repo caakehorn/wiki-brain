@@ -25,6 +25,7 @@ sources:
   - raw/self/message-csv/imessage_export_2124702449_20260820.csv
   - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
   - raw/self/analysis/2026-08-18_forensic-analysis-morgantown-call.md
+  - raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name.md
 related:
   - wiki/people/annie-ulmer
   - wiki/people/the-unnamed-man
@@ -445,6 +446,48 @@ originates with him or with her. It is not answered, but the base rate moved: he
 is now documented operating her handle **three times**, always during a crisis,
 and always producing content of exactly that register.
 
+### The group chat, and the retraction he obtained
+
+There is a three-party group chat — Dan, Annie, Coles — that has **never been
+exported**. Two messages from it survive in the corpus, as a transcription of a
+single screenshot
+([[raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name]]),
+and both are load-bearing.
+
+**2026-08-13 11:23 — Coles: *"Anne still messaging you."*** This is the message
+that produced Annie's *"He sent a message to a group chat / With you / I'm just
+asking you to please. Do not engage"* 21 minutes later, and Dan's compliance
+with it — which he read three nights on as having been used to keep him quiet
+while she was still in contact. Until this capture the wiki had the request but
+not the trigger.
+
+**2026-08-19 06:33 — Annie: *"He didn't rape me."*** A public retraction, in
+front of both men, of the accusation she had been making to Dan for weeks and
+had re-asserted to him privately hours earlier — Dan told Coles at 01:08 and
+again at 01:09 that same night, *"Also bro she is still saying you raped her
+so."* Roughly five hours later she cleared him in writing.
+
+Two things about that cut in opposite directions, and this page resolves
+neither.
+
+**It is what Coles had been demanding.** On the recording of August 16 he
+interrogates her toward exactly this, and in writing the next day he asserts it
+himself — *"No one raped her or held her hostage, no one hit her I may have
+yelled but that's it, she's a depressed compulsive liar"* (08-17 12:50). She
+does not give it to him on the call. Three days later, with her phone twice in
+his hands in the interim, she gives it to him in front of a witness.
+
+**And it was pre-emptive against a different audience.** Per the operator she
+sent it believing Dan had already emailed her mother the record of her making
+the claim, timed to land before her parents read it. Its function was to shape
+what Coles saw, hours ahead of what her family would see.
+
+> **The corpus now holds four positions on the same claim and scores none of
+> them:** asserted to Dan, repeatedly and over months; denied by Coles in
+> writing; denied by Annie here, in the group chat; and re-asserted to Dan
+> afterwards. Recording all four is the finding. Choosing between them from a
+> record produced under this much pressure would not be.
+
 ## Open questions
 
 1. **Is Coles = Target G?** No marital data returned. Open — unaffected by the
@@ -462,7 +505,11 @@ and always producing content of exactly that register.
    threat aimed at [[wiki/people/suzanne-frank|Suz]] in the corpus that has no
    named content. Bluster is the parsimonious reading and there is nothing in
    `raw/` either way.
-7. **Was anyone ever contacted about the night of August 16?** Dan raised
+7. **The group chat has never been exported.** Two of this page's findings now
+   rest on one transcribed screenshot of it. One query recovers the thread,
+   settles the *"Yesterday 6:33 AM"* date beyond inference, and would show
+   whatever else ran through a channel all three parties were in.
+8. **Was anyone ever contacted about the night of August 16?** Dan raised
    police on the call (*"it's about going to the fucking police, idiot"*) and a
    TRO in writing the next day. Nothing in the record says either happened.
 

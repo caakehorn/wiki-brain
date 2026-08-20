@@ -52,6 +52,7 @@ sources:
   - raw/self/message-csv/imessage_export_2124702449_20260820.csv
   - raw/self/message-csv/imessage_export_7248123683_20260820.csv
   - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
+  - raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/message-csv/imessage_export_2124702449_20260726.csv
   - raw/self/message-csv/imessage_export_17245629389_both_all_now.csv
@@ -1580,6 +1581,43 @@ unprompted, by *"yes it's my fucking fault."* The claim and its retraction
 arrive together, which is the shape of nearly every account she gives in this
 window.
 
+**06:33 — the retraction, and the cause of everything after it.** In the group
+chat containing Dan, Annie and [[wiki/people/jerel-coles|Coles]], Annie writes
+***"He didn't rape me"*** — publicly clearing Coles, in front of both men, of
+the accusation she had made to Dan repeatedly and re-asserted to him privately
+that same night. Per the operator, she sent it **believing Dan had already
+emailed her mother the record of her making that claim**, and its purpose was
+to get ahead of her parents reading it — hours before she expected them to.
+Filed at
+[[raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name]].
+
+The message record supports the timing independently: Dan's last claim of having
+sent the email is 01:44:27 that morning; an untexted attachment goes out at
+07:27:35, 54 minutes later; and the thread's whole register turns at 11:25. Full
+account and the corroboration table:
+[[wiki/timeline/events/august-2026-morgantown-call]] §The catalyst.
+
+**And per the operator he had called and asked her to do the same for him — to
+clear his name — and she said she would and did not.** The call is voice and is
+in no export. What is in the export is what he says at the very end of the day,
+which was the most opaque thing in the record before this and is now the most
+legible:
+
+> **15:13:45** *"Not even enough to correct the lies you told about me"*
+> **15:15:00** *"YOU COILDNT EVEN CLEAR ME FEOM THE LIES YOU TOLD ABOUT ME"*
+
+Those are not a general grievance. They are about a specific act with a
+specific counterpart nine hours earlier, and the complaint is the
+**asymmetry**: a written clearing issued for the man who had held her phone and
+screamed at her, and none for the man asking for one.
+
+> **This does not settle the rape claim and this page does not.** A retraction
+> issued in front of the accused, hours before the accuser expects the record of
+> the accusation to reach her family, is evidence about audience and pressure
+> before it is evidence about events. The corpus holds the claim asserted to Dan
+> many times, denied by Coles in writing, denied here by Annie, and re-asserted
+> to Dan afterwards. All four are recorded; none is scored.
+
 **The eulogy (11:25–11:58).** Six long messages, none answered. This is where
 the memory deletion happens — *"There never was an eggie bagels. I never had a
 dog named Betty. I don't know what happened from November 24, 2015 until today
@@ -1604,8 +1642,12 @@ about to do**, in the future tense — *"this is the choice you are right now
 making"* (14:24), *"what you are **ABOUT** to do is wrong"* (14:53:25),
 *"you ARE ABOUT TO DO THE THING THAT SHOWS ME HOW YOU FELT"* (14:58:56),
 *"You could still not do the wrong thing"* (15:09:01) — and **neither party
-ever says what it is.** The nearest the record comes is the last thirty-three
-seconds: *"Not even enough to correct the lies you told about me"* (15:13:45).
+ever says what it is** in the text. The referent came from outside it: per the
+operator, the unnamed act is the choice that the 06:33 retraction had already
+performed and that she would not put into words. Which is why the nearest the
+record comes to naming it is the last thirty-three seconds — *"Not even enough
+to correct the lies you told about me"* (15:13:45) — and why it lands as a
+complaint about an asymmetry rather than an accusation.
 An accusation with no stated content cannot be conceded or refused, which is
 why her side of the hour is *"No," "You can't tell me how i feel or felt," "I
 want to be alone."*
@@ -1868,7 +1910,7 @@ legal exposure for Dan — noted here for completeness.
 | 2026-08-16 | ~23:37 — Coles calls from Annie's phone; Dan records 15:27; Coles texts Dan from her handle three times |
 | 2026-08-17 | Suicide attempt disclosed (12:52); Dan opens a direct thread with Coles; three-day campaign to send the audio to Ellen's work email begins |
 | 2026-08-18 | Dan falsely claims to have sent it, then says so (19:38); Coles seizes her phone again at 21:46; six SOS messages 22:18–23:41, answered at 23:40 |
-| 2026-08-19 | 11:41 the memory-deletion message; 14:53 Dan pre-emptively closes the Milo channel, the vector every prior reconciliation ran through; 15:07 *"Goodbye. I am blocking"* — declared, not executed; the record ends mid-exchange at 15:15:33 — [[wiki/timeline/events/august-2026-morgantown-call]] |
+| 2026-08-19 | **06:33 — Annie publicly clears Coles of rape in the group chat**, believing the record of her accusation had already reached her mother; per the operator she had agreed by phone to clear Dan's name too and did not; 11:41 the memory-deletion message; 14:53 Dan pre-emptively closes the Milo channel, the vector every prior reconciliation ran through; 15:07 *"Goodbye. I am blocking"* — declared, not executed; the record ends mid-exchange at 15:15:33 — [[wiki/timeline/events/august-2026-morgantown-call]] |
 
 Two synthesis pages extend this record further: the capstone moral
 verdict, provenance-tiered down to individual message rows, at

@@ -17,7 +17,7 @@ this is the state of the thing.
 | Pages touched in the last 14 days | 165 |
 | Pages reasoning from other pages (`synthesizes:`) | 38 |
 | Live contradictions | 43 |
-| Open gaps | 397 |
+| Open gaps | 400 |
 | Standing predictions | 33 |
 
 ## By domain
@@ -46,9 +46,10 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-20** — 37 pages
+**2026-08-20** — 38 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
   - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
+  - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
 
 **2026-08-19** — 44 pages
   - audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
@@ -70,7 +71,7 @@ this is the state of the thing.
   - tool | meta | bin/wiki-gaps could not see two-thirds of the wiki's unsettled information, and left no trace of what the operator added
   - close | people, timeline, mind | six staged operator answers integrated — one of them contradicted the man who gave it
 
-**2026-08-16** — 4 pages
+**2026-08-16** — 3 pages
   - close | timeline | shelbie-annie-threesome — the operator dated it, and the corpus showed the page had the authorship backwards
   - build | all | bin/wiki-gaps — 269 open gaps, no way for the one source that can settle them to answer, and OPEN.md could only see 164 of them
   - rewrite | people | kristin.md — surname wrong, dates wrong, count wrong, and the wiki's own instrument cannot see the thread
