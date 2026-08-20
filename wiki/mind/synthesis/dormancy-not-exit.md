@@ -88,11 +88,19 @@ connections:
 > [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-20), which itself moved for
 > the August 16–19 severance
 > ([[wiki/timeline/events/august-2026-morgantown-call]]). The Annie relationship
-> closed on 2026-08-19 at 15:07 with *"Goodbye. I am blocking"* — and it is the
-> **first closure in the corpus that carries no condition.** Every prior one in
-> this record names its own reversal; this one does not. That is exactly the
-> distinction this page's dormancy/exit boundary turns on, and it is the
-> cleanest instance of it the corpus has ever produced. **No finding here is
+> closed on 2026-08-19; the record stops mid-exchange at 15:15:33.
+> **CORRECTED the same day, before this block was relied on:** it first read
+> *"the first closure in the corpus that carries no condition."* A close re-read
+> of the day shows the declared block at 15:07:37 was **not executed** — seven
+> further messages from Dan, one from Annie that he answers — and that 15:09:01
+> reopens a condition outright (*"You could still not do the wrong thing"*).
+> What is genuinely novel, and is the thing this page's dormancy/exit boundary
+> should actually turn on, is at 14:53:25: Dan closes **the re-entry channel**
+> in advance — *"Do NOT ever think that enough time has passed that now you can
+> tell me… when something happens to Milo"* — which is precisely the vector the
+> July 2026 reopening used after fifty-two days. A dormancy is a silence with
+> the door unlatched; this is the first time in the corpus anyone has named the
+> latch. **No finding here is
 > withdrawn and none is confirmed.** Four days is not a dormancy and it is not
 > an exit — this page's own floor, narrowed to seven weeks by the James Dee
 > case, is more than ten times the elapsed time. Recorded so the next pass

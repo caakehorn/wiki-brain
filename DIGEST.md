@@ -48,6 +48,7 @@ this is the state of the thing.
 
 **2026-08-20** — 37 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
+  - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
 
 **2026-08-19** — 44 pages
   - audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three

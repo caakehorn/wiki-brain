@@ -357,12 +357,27 @@ which moved on 2026-08-20 for the August 16–19 ingest
 ([[wiki/timeline/events/august-2026-morgantown-call]]). This is not a
 bookkeeping move; it touches falsifier 3 directly and the re-check is real.
 
-**What changed in the premise.** The relationship ended on 2026-08-19 at
-15:07:03 with *"Goodbye. I am blocking."* — and unlike the June 1 severance
-this one carries **no condition**. Every prior goodbye in this record is a
-conditional (*goodbye unless you say X*); the page's own occupancy argument
-leans on that structure, because a conditional exit is an exit that names its
-own reversal. This one names nothing.
+**What changed in the premise.** The relationship ended on 2026-08-19; the
+record stops mid-exchange at 15:15:33.
+
+> **CORRECTED [2026-08-20], same day, before this block was ever relied on.**
+> This paragraph first said the severance *"carries no condition"* and that
+> *"this one names nothing."* A line-by-line re-read of August 19 shows
+> otherwise: the declared block at 15:07:37 is followed by seven more messages
+> from Dan and one from Annie that he answers, and 15:09:01 is an explicit
+> conditional — *"You could still not do the wrong thing."* The no-condition
+> claim is withdrawn.
+
+**What survives, and it is better for this page's purposes.** The structural
+novelty is not an absent condition; it is at **14:53:25**, where Dan names and
+pre-emptively closes **the reopening vector itself**: *"Do NOT ever think that
+enough time has passed that now you can tell me about something that made you
+think of me or when something happens to Milo."* That is the July 4 Milo email
+— the message that ended a fifty-two-day silence seven weeks earlier — being
+forbidden in advance. This page's mechanism says the bond persists because the
+terminating statement is never made; it has never before had a case of Dan
+closing the *re-entry* path rather than demanding an exit statement. Whether
+that changes the outcome is the open question.
 
 **The decision: the thesis survives untouched, and the falsifier's clock is
 reset rather than met.** Falsifier 3 was already partially met on 2026-08-13
