@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-19
+date_modified: 2026-08-20
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -29,6 +29,9 @@ synthesizes:
   - wiki/mind/concepts/conflict-architecture
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: evidenced-by
+    claim: "The instrument this page scores threats with is Dan's own assertion, and that instrument is now known to be deliberately unreliable: 28 maternal-disclosure threats in 67 hours, one proven simulation admitted in writing ('it wasn't actually sent, and I knew you would suddenly come back to life'), and a claimed execution he contradicts ten hours later. The execution rate is not one and not zero — it is unmeasured until the sent-mail folder is checked."
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: evidenced-by
     claim: "The eight days confirm this page's standing prediction at the resolution of minutes — the July 26 goodbye broke in eighteen. CORRECTED 2026-08-18: this edge previously read the window as splitting the unexecuted-threat pattern, 'the impulsive disclosure executed, the deliberated one did not.' The July 26 Ellen contact is not a member of the threat class — it was a life-safety act formed on a belief that Coles had Annie in danger — so the maternal-disclosure threat's execution rate across the corpus is zero, not one, and the July 28 abandonment is the window's only threat datum."

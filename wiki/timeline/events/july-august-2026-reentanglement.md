@@ -428,6 +428,41 @@ opposite — "Always have. Always fucking will," at 00:02 on July 29. This is
 mechanism supplied by the subject: the tie survives because the terminating
 sentence is withheld, and the withholding is what the loop runs on.
 
+## What came next, and what it does to this page's reading
+
+This window closes on August 2 with the relationship described here as
+**"not severed, not resumed — supplied."** That held for seventeen more days
+and then failed, and the failure is instructive about which half of the
+formula was load-bearing.
+
+Between August 10 and 16 the arrangement briefly stopped being only supply:
+1,136 messages at a near-even ratio (652/484, against 3:1 in this window), a
+sleepover on the night of the 10th, and Dan writing *"being next to you this
+morning all i could think is how glad i was that i chose to go through all of
+this."* The supply never stopped, but for one week it was not the only
+structure.
+
+Then on **August 13** Coles messaged a group chat containing Dan, and Annie
+asked Dan not to reply — *"I'm just asking you to please. Do not engage."* He
+agreed. Three nights later Coles called Dan from Annie's phone, and Dan read
+that request retroactively as a concealment rather than a de-escalation. The
+severance that follows is documented at
+[[wiki/timeline/events/august-2026-morgantown-call]] and ends the relationship
+on August 19.
+
+**The reading this page should carry forward:** supply was not what held the
+relationship together, it was what let it keep meeting. When it failed in the
+most ordinary way available — a $60 handoff she did not show up for, on the
+evening of August 16 — five hours of escalation followed and the relationship
+did not survive the week. A structure that can be ended by a missed
+appointment was never the structure.
+
+One item on this page is also now upgraded rather than corrected: the July 26
+messages sent to Dan *from Annie's phone by Coles* were the corpus's first
+instance of that. There have since been two more, on August 16 and August 18.
+It is a **pattern**, not an incident, and it means any message attributed to
+Annie's handle during a Coles-present episode needs the episode checked first.
+
 ## Gaps
 
 - **The Ellen message of July 26 may be recoverable after all, and may not be

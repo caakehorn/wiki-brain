@@ -5,7 +5,7 @@ title: "The Exocortex (Bootloaders & Master Prompts)"
 aliases: ["CATO", "operating manual", "master forensic prompt", "MAX"]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-10
+date_modified: 2026-08-20
 sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-md/CATO_conflict_architecture.md
@@ -22,6 +22,9 @@ related:
   - wiki/self/context-core
 tags: [forensic-analysis, ai-collaboration, trauma-bond]
 connections:
+  - page: wiki/mind/concepts/document-fabrication
+    type: instance-of
+    claim: "An output class the toolchain was not known to have: a plausible institutional document, iterated against a critic in under an hour, with fidelity calibrated to how adversarially it would be examined."
   - page: wiki/mind/concepts/node-locking
     type: contains
     claim: "Node locking is this system's externalized-memory layer — the write-and-transfer protocol that makes an AI session a persistent, portable extension of the self-model."

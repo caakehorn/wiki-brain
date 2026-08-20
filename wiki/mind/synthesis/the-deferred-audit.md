@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-19
+date_modified: 2026-08-20
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -70,6 +70,11 @@ connections:
 ---
 
 # The Deferred Audit
+
+> **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/mind/concepts/forensic-method]] (2026-08-20). Moved by two typed-edge additions only, no prose change. Re-read against
+> the change; **no claim on this page is affected** and nothing here is
+> withdrawn. One of those edges is worth this page's attention later: [[wiki/mind/concepts/document-fabrication]] records the forensic faculty run in reverse, producing a document calibrated to survive inspection. That is the audit engine pointed at manufacture rather than detection, and it is the same not-taking-itself-as-object property this page names. Flagged, not annexed.
+
 
 Dan audits everything. What decides the outcome is not *whether* the audit
 runs — it always runs — but **when**, and the schedule is set by a single

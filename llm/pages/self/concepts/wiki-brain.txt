@@ -6,7 +6,7 @@ aliases: ["wiki-brain", "the wiki", "second brain", "the repository"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-19
+date_modified: 2026-08-20
 importance: critical
 tags: [ai-collaboration, digital-footprint, personality-profile]
 sources: []
@@ -50,6 +50,23 @@ connections:
 ---
 
 # The Wiki-Brain
+
+> **RE-CHECKED [2026-08-20] — a structural assumption of the corpus turned out
+> to be false, and this page is where that belongs.** Flagged stale against
+> [[wiki/self/message-corpora/source-coverage-index]] (2026-08-20). **No claim
+> here is withdrawn**, but the system gains a defect worth naming at this level:
+> **a handle is not a person.** Every message-derived attribution in this wiki
+> assumes the sender of a row is the owner of the handle it came from. At least
+> six inbound rows on Annie's 212 handle across July–August 2026 were typed by a
+> third party holding her phone, in three separate episodes, all during crises —
+> the periods the corpus draws its highest-stakes claims from. Counts are
+> unaffected; attributions are not. There is no column for this and no
+> automated detector; the three known episodes were each identifiable from
+> register alone. This is the same class of failure as the AI-secondary
+> attribution reversals of 2026-08-19 and the `MASTER_MESSAGES_DB_DUMP` count
+> error — the wiki's recurring defect is not bad data but **confident metadata
+> that answers a slightly different question than the one being asked.**
+
 
 The wiki-brain is a second brain about one person, Dan Frank. It is a custom-built knowledge repository that collects, stores, and synthesizes every available datum about his life, mind, history, ideology, environment, and relationship to reality — every story, every friend, every place, every perspective, every development, every thought. Its job is not to archive but to **mine one life for hidden connections**: linkages between people, events, money, substances, music, work, and psychology that no single source states, but that the corpus proves when read across itself.
 

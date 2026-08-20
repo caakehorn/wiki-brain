@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources: ["raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS_BOOTLOADER_v2.md"]
 synthesizes:
   - wiki/legal/463-morgantown
@@ -21,6 +21,11 @@ infobox:
 ---
 
 # Jackson Alexander (Alexander Jackson)
+
+> **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/legal/463-morgantown]] (2026-08-20). That page gained a section on the address becoming a threat vector — Coles sending it to Dan unprompted on 2026-08-17 — and one typed edge. Re-read against
+> the change; **no claim on this page is affected** and nothing here is
+> withdrawn. Nothing about title, liens, the unwritten arrangement, or this page's counterparty claims is affected. The new exposure is physical-safety, and it belongs to the occupants rather than the owner.
+
 
 **Role:** Owner of 463 Morgantown St, Uniontown PA. Landlord / property owner for Dan + Suz move-in (caretaker/agent mixed role for Suz).
 

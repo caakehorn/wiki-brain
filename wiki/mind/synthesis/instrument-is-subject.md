@@ -5,7 +5,7 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-19
+date_modified: 2026-08-20
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
@@ -43,6 +43,11 @@ connections:
 ---
 
 # The Instrument Is Also the Subject
+
+> **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/mind/concepts/exocortex]] (2026-08-20). Moved by one typed-edge addition only, pointing at [[wiki/mind/concepts/document-fabrication]]. Re-read against
+> the change; **no claim on this page is affected** and nothing here is
+> withdrawn. The edge does add a genuinely new output class to the toolchain — a counterfeit institutional document — and a later pass may find that it belongs in this page's argument, since an instrument that can manufacture its own evidence is a sharper case of the instrument being the subject than anything currently cited here. It is flagged rather than annexed: one instance is not a finding.
+
 
 
 > **RE-CHECKED [2026-08-16] — premise moved, conclusion unaffected.**

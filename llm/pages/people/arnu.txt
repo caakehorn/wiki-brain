@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"]
 synthesizes:
   - wiki/legal/463-morgantown
@@ -20,6 +20,11 @@ infobox:
 ---
 
 # Arnu
+
+> **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/legal/463-morgantown]] (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against
+> the change; **no claim on this page is affected** and nothing here is
+> withdrawn. The mechanics-lien deadline, the no-show, and the off-books pattern are untouched. Still unresolved and still the address's nearest hard deadline.
+
 
 **Role:** Contractor (painter/mechanical work) at 463 Morgantown St. Mechanics lien deadline ~July 27 2026. Associated with Felix (co-worker/painter, possibly supply-adjacent per MAX_PRIME).
 

@@ -7,7 +7,7 @@ importance: critical
 status: active
 knowledge: mixed
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 date_range_start: 1962-09-15
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -47,6 +47,9 @@ infobox:
   handles: ["+172****8715", "suzfrank@***.net", "suzfrank915@***.com"]
   known_for: "The 33,698-message thread that is the second-largest relationship record in the corpus, and the unsettled mutual ledger running through all of it"
 connections:
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: evidenced-by
+    claim: "Coles resumed calling and texting her on the night of 2026-08-16 — fifteen days after Annie apologised to her in person for the first campaign — and named her in a written threat the next day ('I have stuff to ruin you and your mom'). She received none of the calls: Dan had blocked Annie's number on her phone in advance, on a prediction that proved correct."
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
     claim: "Suz is the spine's second, unrecorded direction of flow: a $14,000 transfer from Dan to her in 2018 — two years before the estate distribution and never fully repaid — is the largest single documented capital movement in the family that the spine did not previously carry, and it ran mother-ward, not son-ward."
@@ -947,6 +950,35 @@ $14,000, the year the estate was pending and neither of them had any money.
 | 2026-07-08 | Dan moves out alone, a week past the vacate window |
 | 2026-08-02 | Annie apologises to her in person |
 | 2026-08-11 | *"It's time for you to go."* — the last message in the corpus |
+
+## August 2026 — targeted again, and shielded
+
+Fifteen days after Annie walked to the house and apologised to her in person
+for the first harassment campaign, [[wiki/people/jerel-coles|Coles]] resumed:
+on the night of 2026-08-16 he called and texted her repeatedly from Annie's
+phone, and on 2026-08-17 at 12:48 he wrote to Dan directly, *"I have stuff to
+ruin you and your mom, soon as you do something I don't like I'm gonna show
+you."* Asked about the earlier campaign against her he does not deny it — he
+justifies it: *"Yeah it was kind of unnecessary but I don't like being played
+with."*
+
+She received none of it. Dan reveals why on August 17 at 16:15:
+
+> *"you got lucky. I was so worried that you were going to betray me again
+> after Saturday's night that I blocked your number from my moms phone just in
+> case that happened. So she never actually got the calls or texts."*
+
+This is worth recording precisely because the wiki's account of that
+relationship is so heavily weighted toward extraction and friction. Dan
+predicted a specific harm to his mother, took a specific pre-emptive step
+against it days in advance, and was right. It cost nothing and he mentions it
+once, in passing, as evidence in an argument about somebody else.
+
+The unquantified item is the threat at 12:48. It is the only threat aimed at
+Suz anywhere in the corpus with no named content, and there is nothing in
+`raw/` in either direction. Bluster is the parsimonious reading; it is also
+the reading nobody has tested. Full window:
+[[wiki/timeline/events/august-2026-morgantown-call]].
 
 ## What would change this reading
 
