@@ -180,7 +180,7 @@ addiction-recovery, mental-health, physical-health, grief,
 legal, dui, financial-stress, housing, career,
 music-production, personality-profile, ideology, politics,
 forensic-analysis, ai-collaboration, digital-footprint,
-uniontown-era, nyc-era, pets
+uniontown-era, nyc-era, pets, non-monogamy, future
 ```
 
 There is **no** `author-stub` / `artist-stub` or other invented `page_type`: a stub is `page_type: entity` (or the appropriate type) with `status: stub`.

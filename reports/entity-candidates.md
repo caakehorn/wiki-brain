@@ -2,6 +2,19 @@
 
 Generated: 2026-08-20 00:33:24
 
+> **CONTESTED NUMBER — do not cite this figure on its own.** Two extractions run
+> twelve minutes apart on 2026-08-20 report different totals for the same stated
+> criterion ("3+ mentions, no page"): **788** here in `entity-candidates.md`
+> (against 3,490 extracted strings) and **621** in `entities/ENTITY_CENSUS.md`
+> (against 542 existing entity pages). The generating scripts were not
+> committed, so neither is reproducible and neither is authoritative.
+>
+> The list is also **unfiltered**: its top entries are `New York` and
+> `Dan Frank` — a place name and the subject of the entire wiki. Every row is a
+> *candidate string*, not a person, and nothing here establishes that an entity
+> exists or deserves a page. See `reports/MECHANICAL_AUDIT.md` §Corrections.
+
+
 ## Summary
 
 - **Total unique entities found:** 3490

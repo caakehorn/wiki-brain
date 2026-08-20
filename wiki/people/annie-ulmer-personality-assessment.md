@@ -12,6 +12,7 @@ tags: [personality-profile, forensic-analysis, ai-collaboration]
 infobox:
   name: "Annie Ulmer"
   sex: female
+  location: uniontown
   relationship_to_dan: ex-partner
   known_for: "the ten-year primary bond; this page is the typology read derived from her entity page"
 sources:

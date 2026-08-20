@@ -188,7 +188,20 @@ later today with $250 in her cash app."* A finder's fee of twenty-five
 dollars and a gift of two hundred and fifty, inside the same week, inside
 [[wiki/timeline/periods/2018-deep-cycle|the deep cycle]] — the period whose
 other documented facts are daily Cash App limits, declined payments, and
-$750/week borrowed from his mother.
+irregular transfers of $20–$3,000 running both ways with his mother, entered
+as debts and never reconciled.
+
+> **CORRECTED [2026-08-20]:** the clause above read *"and $750/week borrowed
+> from his mother."* That rate was retracted on 2026-08-18 — it was a single
+> 13 December 2018 accusation about a single week (*"You borrowed $750 last
+> week alone!"*) generalised into a standing rate by `operating_manual.md`,
+> and the direction is inverted: the large 2018 movement is roughly **$14,000
+> from Dan to Suz**, Aug–Oct. See [[wiki/people/suzanne-frank]] and
+> [[wiki/mind/synthesis/estate-money-spine]]. The point the sentence was
+> making — that the finder's fee and the $250 gift sit inside a period of
+> acute cash disorder — survives the correction and is carried by the
+> transfers and the declined payments. Found by the `RETRACTED.md` gate, which
+> is the first thing to catch this claim on this page since it was written.
 
 The iMessage record opens five days after that, on **December 17, 2018**, at
 `allylubin@gmail.com`. It is warm, literate and jointly funny — MBTI

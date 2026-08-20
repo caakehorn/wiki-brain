@@ -9,7 +9,21 @@ Generated: 2026-08-20 00:29:09
 
 ## Pages with `status: archived` OUTSIDE `archive/` directory
 
-These pages are candidates for status change per STYLE_GUIDE.md.
+> **MECHANICALLY UNUSUAL — NOT KNOWN TO BE INCORRECT.** `STYLE_GUIDE.md`
+> reserves `archived` for *"a pinned artifact in an `archive/` dir, never
+> updated, exempt from budgets"*, and its documented default for a finished page
+> is `stable`. So this combination is off-pattern by the letter of the spec.
+>
+> **That is the entire finding.** This scan cannot tell whether a given page is
+> mis-statused, deliberately pinned, or correctly frozen for a reason not
+> recorded in frontmatter — and the 2026-08-18 session logged a real
+> consequence in the other direction (a page left `archived` looked exempt from
+> correction while feeding a false claim into a generated artifact), which is a
+> reason to *look*, not a reason to *change*.
+>
+> **Do not bulk re-status these.** Each is a semantic call for a reasoning pass,
+> one page at a time, and the pass should record why. No page below was modified
+> by this audit.
 
 - interests/favorites/art-and-movies.md
 - interests/favorites/books.md
