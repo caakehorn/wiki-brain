@@ -6,7 +6,7 @@ title: "Political Psyops & Hybrid Events"
 tags: [politics, forensic-analysis, ideology]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-11
+date_modified: 2026-08-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
@@ -32,6 +32,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "The post-partisan, score-who-is-more-wrong posture instantiates 'The Irreversibility Firewall's' vertical-distrust prediction run on the state itself: every political actor is a vertical claim, audited on contact, with no lateral exemption because no politician is a vetted peer."
+  - page: wiki/mind/synthesis/the-cato-seat
+    type: parallels
+    claim: "The J6 verdict and the curated shelf are one posture in two registers — an institutional failure reconstructed in detail, a confident conclusion reached, and no route from the conclusion to any action — which is why the analysis is the terminal product rather than a step toward one."
 ---
 
 

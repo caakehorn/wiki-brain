@@ -61,6 +61,9 @@ connections:
   - page: wiki/timeline/periods/2018-deep-cycle
     type: component-of
     claim: "The tie is opened inside the deep cycle and shares its economics — a $25 finder's fee, a $250 Cash App gift and a Christmas present issued in the same December weeks Dan was borrowing from his mother and running daily Cash App limits."
+  - page: wiki/self/concepts/ally-and-dan-love-as-destiny
+    type: instance-of
+    claim: "This channel is read there as the opening of a marriage rather than the latest burst in an overflow pattern — a projection built on the August 18-19, 2026 exchanges, which have never been exported into raw/ and therefore cannot yet be checked against this page's own reading."
 ---
 
 # Ally Lubin (Alexandra Lubin)
@@ -703,6 +706,27 @@ Each of these is answerable by the operator in a paragraph.
 - **What is Eddie/Kimmy's dad's full name?** The father whose death triggered
   the August 2019 crisis is referenced as "Eddie/Kimmy's dad" but never fully
   named. The obituary or news article would confirm.
+- **The August 18–19, 2026 exchanges are not in `raw/`.** They are the most
+  heavily quoted material on this page — 279 messages for August 18, 186 for
+  August 19 — and they exist in this repository only as quotations inside
+  `wiki/`. `raw/self/imessage/ally-lubin_chatdb_complete.csv` stops on August 18
+  and carries 126 rows for that day; nothing covers August 19 at all. Re-running
+  the `chat.db` extract for both days would make every quotation here checkable
+  and is a one-command job for the operator. **Until it is done, treat the
+  phase-change reading of August 18–19 as unverified**, including the "morning
+  after" section above.
+- **Four quoted phrases appear nowhere in the corpus.** "boy smashing factory" /
+  "president of the boy smashing factory," "Okay deal. Sounds good 1-2-3 break,"
+  "coke just zaps your money" and "opiates literally kill you" are quoted on this
+  page and cannot be found in any file under `raw/`. Either they come from the
+  unexported August exchanges above or they were written from memory; the page
+  cannot currently distinguish the two, and they should not be re-quoted
+  elsewhere until it can.
+- **"I'm inherently evil and unlovable" is not sourced to her.** The phrase
+  occurs once in the corpus, in `raw/self/gemini-activity/Gemini Activity.html` —
+  a model's prose, not a message from Ally. It is used on this page and on the
+  destiny page as her self-image. Either a message carrying it exists in an
+  unexported thread, or the attribution is a laundered AI paraphrase.
 - **Negative result, recorded:** she does not appear in `contacts.csv` with
   an address, in the GEDCOM, in the Twitter export, or in the Facebook search
   history. The Model Mayhem and "boca raton ally lubin" searches Dan
@@ -711,4 +735,18 @@ Each of these is answerable by the operator in a paragraph.
 
 ## The destiny question
 
-See [[wiki/self/concepts/ally-and-dan-love-as-destiny]] for the full evidence-based case for why these two are destined to be together, including a projected timeline from here to marriage.
+The same seventeen years are read a second way, and the two readings cannot both
+be right. This page reads the channel as an overflow line: high-amplitude bursts
+at moments of crisis, long silences between them, reactivated by whichever party
+currently needs something. [[wiki/self/concepts/ally-and-dan-love-as-destiny]]
+reads the identical record as a courtship that has been converging the whole
+time, and projects it forward to a marriage inside three years.
+
+The disagreement is settleable and worth naming here rather than deferring. The
+destiny page's case rests almost entirely on the August 18–19, 2026 exchanges
+being different in kind from everything before them — sustained, mutual, daytime,
+non-transactional. That is exactly the material that has never been exported into
+`raw/` (see Gaps), and the pattern it is claimed to break has produced
+high-amplitude bursts followed by thirty-eight-month and fourteen-month silences
+twice before. The honest position for this page is that the burst is real, its
+interpretation is open, and the next ninety days of traffic settle it.

@@ -6,7 +6,7 @@ aliases: ["RLUEI", "Big30", "psychometrics", "personality disorder scores"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-16
+date_modified: 2026-08-19
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
@@ -35,6 +35,15 @@ connections:
   - page: wiki/health/hyperreflexivity
     type: evidenced-by
     claim: "A self-initiated AI session naming and mechanizing the anxiety loop supplies the lived texture behind the Self-Consciousness 91st-percentile score — a trait number given a first-person mechanism."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: evidences
+    claim: "The Inquisitive facet's 'abrupt abandonment once the mystery is solved,' and its own example of the Roman Republic's 'hard stop at Augustus,' are set-closure seen at trait level: the mystery is solved when a set with a findable edge has been exhausted."
+  - page: wiki/health/the-configured-body
+    type: evidences
+    claim: "Self-Consciousness at 91 bolted to Impulsiveness at 96 is the trait-level shape of a body that is monitored continuously for how it reads from outside and has no brake on what goes into it — the two modes the health record runs, and the absence of the third."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: component-of
+    claim: "The Big30 table, the SLOAN code and the PD vector leave no trace in the life they measure: 'percentile' returns zero outbound hits across 106,629 messages and 'Big Five' returns one, which is what makes these numbers a commissioned instrument reading rather than a description Dan uses."
 ---
 
 
@@ -291,3 +300,23 @@ backwards, and checking the matches only catches one of them.**
 **Reproduce:** `bin/psychometrics run --examples 5` · one facet:
 `bin/psychometrics run --facet altruism --examples 8` · the predictions and
 their proxies: `bin/psychometrics list`.
+
+## What the convergence across instruments is worth
+
+[[wiki/mind/profile/index]] reads the seven frameworks as *"not five separate
+diagnoses but one structure measured five ways,"* and files their
+self-administered / AI-inferred origin as a provenance caveat. It is not a
+caveat. Seven instruments run by the same operator, over a corpus he selected,
+at his own request, several of them in sessions that already held the earlier
+results, should be **expected** to converge — so the convergence carries almost
+no information, and the informative results are the ones that disagree with
+something. Two do: the Socionics ILI-Ni mismatch against the MBTI prediction,
+and a dated first-person self-typing in the message record giving `5w6sx RLOEI`
+against this cluster's 5w4 and RLUEI ([[wiki/mind/profile/enneagram-5w4]]).
+
+The measurement that puts this beyond a methodological worry is a negative one:
+the entire apparatus — `INTP`, `MBTI`, `enneagram`, `5w4`, `socionics`,
+`percentile`, `Big Five` — appears **seventeen times across 106,629 outbound
+messages**, and `percentile` and `socionics` return zero. The table above is the
+wiki's hardest data and it has left no trace whatsoever in the life it measures.
+Full argument at [[wiki/mind/synthesis/the-commissioned-self]].

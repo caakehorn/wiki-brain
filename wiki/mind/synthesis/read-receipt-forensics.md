@@ -7,7 +7,7 @@ title: "Read-Receipt Forensics — chat.db Metadata and Its Traps"
 aliases: ["read receipts", "date_read", "chat.db metadata"]
 tags: [forensic-analysis, digital-footprint]
 date_created: 2026-08-09
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources: []
 synthesizes:
   - wiki/mind/concepts/forensic-method
@@ -168,6 +168,42 @@ finding, a directional column read as undirectional, and an auto-populated field
 read as intentional. None raised an error. The forensic method's exposure is not
 to hard failures — it is to instruments that lie quietly and in the direction of
 whatever is already suspected.
+
+## RE-CHECKED [2026-08-20] — M4 gains its best real-world case, and the flagship example's scope was an artifact
+
+Flagged stale against [[wiki/mind/concepts/forensic-method]] (edge additions
+only, no claim on this page affected) and
+[[wiki/timeline/events/august-2026-unmasking]], which gained substantive
+prose. The second one matters.
+
+**A scope correction on the worked example.** The unmasking page framed August
+8–9 as ending with an unanswered message at 03:41:32. The fuller export filed
+2026-08-20 shows the exchange resumed at 08:19 the same morning and ran all
+day. That is a scope artifact of the 24-hour metadata extract, not an error in
+the method — but it is exactly the failure mode **M4** warns about, applied to
+a page's *framing* rather than to a single row: the absence of traffic at the
+edge of an extraction window looks like the absence of traffic.
+
+**M4 gains its strongest case, and it is not about metadata at all.** M4 holds
+that in this corpus the absence of a signal is weak evidence. The August 16–19
+window supplies a harder version of the same lesson, one level up:
+**the presence of a signal does not identify its author.** At least six inbound
+rows on Annie's 212 handle across July–August 2026 were typed by
+[[wiki/people/jerel-coles|Coles]] holding her phone, in three separate
+episodes, all during crises. There is no column for this. Read-receipt
+analysis is especially exposed to it, because a receipt proves a *device* was
+unlocked and looking, and this corpus now contains documented periods in which
+the person holding that device was not its owner.
+
+**Recommended addition to the extraction recipe, unimplemented.** Before
+drawing a behavioural inference from device-level metadata in any window, check
+whether the window overlaps a known third-party-access episode. The three known
+ones are 2026-07-26 05:39–05:57, 2026-08-16 23:42–23:53 and 2026-08-18
+21:46–21:50. Whether earlier ones exist has not been checked, and the only
+detector available is register.
+
+**No method-level finding on this page is withdrawn.** M1–M3 are properties of
+`chat.db` and are untouched.
 
 ## Gaps
 

@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -24,6 +24,12 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: evidenced-by
+    claim: "The network's last transaction is a failure of the ordinary kind — a $60 handoff Dan spent the evening of 2026-08-16 trying to complete and she never came for — and the relationship ended inside the five hours that failure opened. Supply was the last structure standing and it did not survive its own routine."
+  - page: wiki/mind/concepts/document-fabrication
+    type: contains
+    claim: "Supply and concealment are one service: on 2026-08-14 Dan sources the drug and forges the Fayette County screen that hides its use, for the same person, in the same hour."
   - page: wiki/health/cocaine
     type: contains
     claim: "The network's dominant product has its own page: cocaine is what every era of this architecture was built to deliver, and the finance-driven dosage arc there is the demand curve this supply chain was answering."
@@ -99,6 +105,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "A single, continuously-operating procurement architecture since January 2011, never treated as episodes to be closed and reopened, is 'The Irreversibility Firewall's' no-delete rule running on his own chemistry rather than his relationships."
+  - page: wiki/health/the-configured-body
+    type: contradicts
+    claim: "The June 2025 messages put a prescribing doctor at the head of the Suboxone route and Tom as the fallback invoked when an out-of-state script could not be filled — 'I am so fucked. I'm gonna have to drive down to see Tom today' — which reverses this page's default path and makes the May 2026 withdrawal a second-line failure rather than a single point of failure giving way."
 ---
 
 # The Supply Network
@@ -479,3 +488,24 @@ gains a node**: the network had a family-internal source available before any of
 the named dealers, which is part of why a supply failure was survivable for so
 long and why the spring 2026 failures registered as a relationship event rather
 than a logistics one.
+
+> **CONTRADICTION [2026-08-19] — the Suboxone route may run through a prescriber
+> first and [[wiki/people/tom]] second.** This page treats Tom as the standing
+> supply line for Suboxone strips, and reads the May 2026 no-show as a single
+> point of failure giving way. The June 2025 messages describe a different
+> topology. **2025-03-06:** *"I had my doctor move my prescription here."*
+> **2025-06-08:** *"my doctor said the pharmacy won't fill an out of state
+> prescription, so i'm going to need your referral service."* **2025-06-12:** *"my
+> doctor tried to send a prescription to walmart and they won't fill it either so
+> i'm completely out of options now."* **2025-06-13:** *"I am so fucked. I'm gonna
+> have to drive down to see Tom today."*
+>
+> On that sequence the prescription is the default path, the failure is
+> jurisdictional rather than relational, and Tom is the **failover**. If that
+> holds, May 2026 is a second-line failure with the first line already down,
+> which is a materially more fragile architecture than the one this page
+> describes and a different remedy. **Held open rather than resolved** — four
+> messages across one episode are not a topology, the 2019 line *"try to go get
+> subs from my old doctor"* is the only earlier corroboration, and no prescriber
+> is named anywhere in `raw/`. Full accounting at
+> [[wiki/health/the-configured-body]].

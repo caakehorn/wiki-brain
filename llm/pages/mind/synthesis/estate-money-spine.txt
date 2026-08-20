@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -63,9 +63,17 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Capital arriving in lumps and exiting through standing drains rather than accumulating is 'The Irreversibility Firewall' applied to money: a large, static balance is exactly the kind of examined, adjudicable fact the rule exists to prevent, so it never sits still long enough to become one."
+  - page: wiki/places/the-unpapered-address
+    type: contains
+    claim: "The capital timeline explains why the money was never there; the housing record adds that there is no document either, which is why the 2026 exposure has neither an absorber nor an instrument to argue from when it fails."
 ---
 
 # The Estate / Money Spine
+
+> **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/people/suzanne-frank]] and [[wiki/people/annie-ulmer]] (both 2026-08-20). Both moved for the August 16–19 ingest: an added section on Suz being targeted again by Coles and shielded pre-emptively by Dan, and a substantial new August section on Annie's page. Re-read against
+> the change; **no claim on this page is affected** and nothing here is
+> withdrawn. Neither touches capital, the estate chain, the Chapter 13, or any figure this page reasons from. The new Suz material is a safety matter, not a financial one.
+
 
 Money in this biography does not accumulate; it **arrives in lumps and
 exits through standing drains.** This page traces the capital timeline as

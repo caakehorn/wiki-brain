@@ -36,6 +36,12 @@ connections:
   - page: wiki/mind/psychosexual/taboo-and-boundary-testing
     type: parallels
     claim: "This page named the same mechanism and logged the Bryan MMF as its documented case on 2026-08-02; the sibling page did not catch up until 2026-08-10, over two weeks in which it kept asserting the instance didn't exist."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The purest case of the architecture running with no body in the room: arousal sustained entirely by inaccessibility, priced per item, and explicitly named by Dan as something he needs to 'get the poison out' of rather than consummate."
+  - page: wiki/self/concepts/ally-and-dan-love-as-destiny
+    type: contradicts
+    claim: "The destiny entry argues that the architecture has finally found its body — consummation is now possible and the bond holds despite (or because of) accessibility."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Sexuality as controlled-chaos engineering is chaos-preference and 'The Irreversibility Firewall's' audit-timing rule run on the same domain at once — disorder invited, but only inside a structure Dan built and can still see all of."

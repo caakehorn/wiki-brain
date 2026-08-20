@@ -4,7 +4,7 @@ page_type: concept
 title: "Arrangement History"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-08-16
+date_modified: 2026-08-20
 knowledge: mixed
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
@@ -15,8 +15,17 @@ sources:
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/jennlynn_dhrmxxpvhq/message_1.html
   - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
+  - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
+  - raw/self/analysis/2026-08-18_forensic-analysis-morgantown-call.md
+  - raw/self/message-csv/imessage_export_2124702449_20260820.csv
 tags: [relationships, digital-footprint]
 connections:
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: instantiates
+    claim: "This table's adjudication is what lets the humiliation grievance be scored as fully justified rather than as one contested claim against another: the accusation Dan was publicly named under fails on all three limbs against the primary record, so being named under it is a wrong done to him rather than a dispute between two accounts."
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: evidences
+    claim: "This table is what makes Coles's on-tape accusation testable rather than a word against a word, and the accusation fails on its economic limb: money runs Dan to third party in all seven documented instances, no encounter in eleven years has drugs as its consideration, and the estate money it invokes distributed eighteen months after the expensive encounters it is offered to explain."
   - page: wiki/people/lauryn-ashly
     type: co-occurs
     claim: "The September 2020 solicitation to Lauryn — apologetic, self-conscious, and simply declined — is a rare documented instance of the arrangement being pitched outside the established circle, showing the pattern was not universally successful."
@@ -128,6 +137,112 @@ and personal was porous from multiple directions, not just Dan's. Third,
 background practice — consistent with the "burst event" pattern already
 documented in the Annie relationship's conflict architecture, though no
 source in the corpus explicitly connects the two.
+
+## The 2026 accusation, tested against this table
+
+On the recording of **2026-08-16** ([[wiki/timeline/events/august-2026-morgantown-call]]),
+[[wiki/people/jerel-coles|Coles]] puts a specific charge to Annie, on tape,
+more than a dozen times across four minutes, and texts a compressed version of
+it to Dan from her phone at 23:45:10:
+
+> *"You made Annie fuck guys for money because you didn't have money for drugs.
+> Because you spent your dead grandma's money."*
+> *"You made me fuck guys for money"*
+
+This page is the corpus's primary-source backbone for exactly that question, so
+the charge is testable here rather than anywhere else. It has three separable
+limbs — **coercion**, **direction of payment**, and **drugs as the
+consideration** — and they do not fail together.
+
+### Limb 2 first: the money runs the other way, in every instance
+
+This is the limb the record settles, and it settles it flatly. Across every
+documented encounter, **Dan is the payer and a third party is the payee.** No
+instance in the corpus shows a third party paying Annie for sex with money that
+then reached Dan.
+
+| Date | Payment | Direction |
+|---|---|---|
+| 2018-06-27 | *"I said seriously that I would spend money to get you an escort"* | Dan → for Annie |
+| 2018-10-18 | *"Find two escorts that you would be into and I'll set it up"* | Dan → third party |
+| 2018-10-25 | Outreach to a NYC provider: *"we'll pay above rate"*, signed **Annie** | couple → third party |
+| 2018-11-28 | *"Initially I offered her $3000 to be a plaything for Annie"* ([[wiki/people/alexis-armel]]) | Dan → third party |
+| 2019-03 | [[wiki/people/trinity-st-clair]], **$1,500/hour** | Dan → third party |
+| 2019-04-14/17 | [[wiki/people/shelbie-breakiron]] — *$31 + $700* by Cash App, later *"$3700 and one amazon prime'd laptop"* | Dan → third party |
+| 2019-09/10 | [[wiki/people/kelly-johansson]], five weeks of paid sessions | Dan → third party |
+
+The only earnings in the table are **smashonista** — the couple's *joint*
+camming operation, which Dan describes in 2018 as generating *"most of our
+income"* — plus Annie's separate paid-companion aliases. That is a business
+both of them ran, not a third party paying for access to her.
+
+**On the specific sub-claim about the estate:** the expensive instances
+(Trinity March 2019, Kelly autumn 2019) predate the September 2020 estate
+distribution entirely ([[wiki/mind/synthesis/estate-money-spine]]). *"You spent
+your dead grandma's money"* is chronologically backwards for the encounters it
+is offered to explain.
+
+### Limb 3: no encounter in the corpus has drugs as its consideration
+
+Term searches across the full dump return **zero** matches for the accusation's
+own phrasings — *made you fuck*, *made her fuck*, *fuck guys for*, *fuck for
+drugs*, *sell yourself*, *trade sex* — in either direction, in eleven years.
+Every documented consideration is cash, or nothing.
+
+The nearest adjacent thing in the corpus is not about Annie at all. On
+**2019-01-27** a confidant who had earlier received the *"$3000 plaything"*
+disclosure writes to Dan:
+
+> *"no one cares about your money, or all the drugs in the world you can shove
+> down their throats in exchange for something of no real purpose. I hope you
+> have enough cash in your accounts to buy the people you need."*
+
+That is a third party, hostile, characterising Dan's dealings **with her**. It
+is the only independent statement in the corpus that money-and-drugs-for-access
+is a thing Dan does, and it is worth recording precisely because it is
+uncomfortable and does not come from him. It still does not describe Annie
+being sold; it describes Dan buying.
+
+### Limb 1: coercion — the one place the record captures initiation, it runs backwards
+
+Every other row in this table is reconstructed from a negotiation thread with
+the third party, where Dan is by definition the correspondent — a sampling
+artefact this page already flags. **April 2019 is the single instance
+reconstructed from inside the couple's own thread as it happened**, and there
+Dan paid for a one-on-one and Annie converted it into a threesome from outside a
+locked door, over his live objection (*"just say fucking no next time"*). The
+one time the corpus can see who was pushing, it was not him.
+
+Against that: **2018-04-10**, Dan complaining — *"give me a break after
+arranging a hookup for you and then having you flake because you wanted to
+sleep."* He arranges, he presses, and he keeps a ledger of it. That is real and
+is not coercion, and the distinction matters more than either party's rhetoric.
+
+And on the recording itself: Coles asks Annie to affirm the charge upwards of a
+dozen times, escalating, while holding her phone. **She never says yes.** Dan's
+own answer on the call is *"I really didn't need the money at that time when
+that was all going on"* — and the table above is what makes that checkable
+rather than self-serving.
+
+### The verdict, and what it concedes
+
+> **The accusation as stated is false, and it is a compression of something
+> real.** *Annie was sold for drug money* is contradicted by the direction of
+> payment in every documented instance, has no supporting instance for the
+> drugs limb anywhere in eleven years, is chronologically wrong about the
+> estate, and inverts the one case where initiation is directly observable.
+> What the record does show is **purchased access, with Dan as the buyer and
+> the architect** — repeatedly, expensively, and with a documented grievance
+> when Annie did not follow through on one he had arranged. The accusation
+> keeps the transaction and reverses who was bought.
+
+**What would change this.** Any of: a message showing a third party paying
+Annie for sex with funds that reached Dan; any encounter in which drugs are the
+stated consideration; an Annie-side account of being pressured into an encounter
+she did not want. The third is the live one — this table's evidence base is
+overwhelmingly Dan-side correspondence, and **the corpus contains almost no
+account of the arrangement in Annie's own voice**, which is a gap this page has
+carried since it was written and which no amount of Dan-side volume closes.
 
 ## Whole-corpus word-frequency signal
 

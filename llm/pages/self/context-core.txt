@@ -6,7 +6,7 @@ aliases: ["spine", "behavioral spine", "CONTEXT_CORE_EXPANDED"]
 status: stable
 importance: critical
 date_created: 2026-06-22
-date_modified: 2026-08-16
+date_modified: 2026-08-19
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -31,6 +31,9 @@ connections:
   - page: wiki/people/jerad-friedline
     type: evidenced-by
     claim: "The 【█▓Jerad Friedline▓█】 entry in CONTEXT_CORE_EXPANDED.md establishes Jerad as Dan's oldest friend and primary high-signal contact for political/financial events."
+  - page: wiki/mind/synthesis/the-cato-seat
+    type: evidenced-by
+    claim: "The spine's threat model — 'the failure mode is never ignorance, it is the diagnosis-to-behavior gap' and 'competence correctly deployed, outcome still catastrophic' — is independently reproduced by the favorites record, which was assembled for pleasure over twenty years and had no reason to agree with a commissioned self-assessment."
 related:
   - wiki/self/overview
   - wiki/mind/concepts/conflict-architecture

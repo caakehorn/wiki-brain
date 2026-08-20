@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-19
+date_modified: 2026-08-20
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -77,12 +77,32 @@ connections:
   - page: wiki/mind/concepts/acquisition-drive
     type: evidenced-by
     claim: "The cocaine supply chain is the material expression of the acquisition drive — a daily dependency that cannot be left to one supplier, which is why the network persists across every era while its individual nodes rotate constantly."
+  - page: wiki/health/the-configured-body
+    type: evidences
+    claim: "The dosage arc is the sharpest evidence that specification runs without a maintenance faculty attached: 1g/day to 3.5-7g/day to 0.5-1g/day tracks the inheritance arriving and being exhausted, and no health variable appears anywhere in the curve."
 changelog:
   - date: 2026-08-19
     note: "Initial creation — synthesis of cocaine-specific findings drawn from chemical-architecture, supply-network, legal/2015-possession-arrest, and all documented cocaine dealer pages."
 ---
 
 # Cocaine
+
+> **RE-CHECKED [2026-08-20] — the demand curve's other end closed; no dosage or
+> finance claim moves.** Flagged stale against
+> [[wiki/mind/synthesis/supply-network]], [[wiki/people/annie-ulmer]],
+> [[wiki/people/suzanne-frank]] and
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]], all moved 2026-08-20 for
+> the August 16–19 ingest. **Nothing on this page is withdrawn.** The August
+> 2–16 record confirms the pattern already documented rather than changing it:
+> daily $50–$100 procurement, the source ("bop") unchanged, and one line worth
+> having on record because it is the clearest statement of the supply
+> relationship's social cost anywhere in the corpus — *"you do realize that I
+> had to invent someone who I am selling to, because nobody is comfortable
+> selling to you"* (2026-08-09 11:05). The channel closed on 2026-08-19 with the
+> relationship. What this page cannot yet say is what happens to Dan's own
+> consumption when the person he was buying for is gone; that is the obvious
+> next measurement and the export ends the same day.
+
 
 Cocaine is the primary daily stimulant in Dan's engineered neurochemical
 system — the "cognitive accelerant" he has used, by his own account, for

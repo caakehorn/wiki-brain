@@ -6,7 +6,7 @@ status: active
 importance: high
 knowledge: mixed
 date_created: 2026-07-20
-date_modified: 2026-07-26
+date_modified: 2026-08-19
 sources:
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle (1).md"
@@ -39,6 +39,9 @@ connections:
   - page: wiki/timeline/periods/dark-era-2007-2008
     type: evidences
     claim: "The 2025 tooth-loss disclosure, with Dan's own causal chain back to teenage bulimia and decades of dentist avoidance, is the corpus's clearest first-person link between the adolescent eating disorder and a specific, dated adult physical-health outcome."
+  - page: wiki/health/the-configured-body
+    type: component-of
+    claim: "Hyperreflexivity is the output half of the same architecture and its most expensive instance — continuous monitoring of how the body reads from outside, with no repair arm attached, which is why every reading it takes adds to a queue nothing drains."
 ---
 
 # Hyperreflexivity and the Anxiety Loop

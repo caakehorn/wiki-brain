@@ -30,6 +30,16 @@ The self domain contains files and data detailing identity, core biographical fa
 - [[wiki/self/twitter]] — Personal account: @danfrank ("insufferable politics sicko"). Active since at least December 2019 (sampled…
 - [[wiki/self/youtube-watch-history]] — Extensive personal YouTube activity log spanning nearly two decades. 17,302 "Watched" events + 248…
 
+## concepts
+
+- [[wiki/self/concepts/wiki-brain]] — The wiki-brain itself: what it is, how it works, what it's building towards
+- [[wiki/self/concepts/llm]] — LLMs (Large Language Models): the cognitive engine of the wiki-brain, bootloader system, agent fleet, pipeline
+- [[wiki/self/concepts/claude]] — Claude (Anthropic): the analytical workhorse, forensic method, Master Forensic Prompt
+- [[wiki/self/concepts/claude-code]] — Claude Code (Anthropic coding agent): the tool-builder, branch/PR workflow, 12+ bin/ tools
+- [[wiki/self/concepts/gemini]] — Gemini (Google): the interaction model, COS-v1 system, psychotherapy, psychometric testing
+- [[wiki/self/concepts/chatgpt]] — ChatGPT (OpenAI): the early adopter, the bootloader prototype, and the one-line verdict that retired it
+- [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — a forward projection, not a read of the record: the case that the 17-year Ally attachment ends in marriage, and what would show it wrong
+
 ## chats
 
 - [[wiki/self/chats/9-11-chat]] — Extends music identity (sub-bass signature, electronic preference from Jimmy Pop discussion, favorites…

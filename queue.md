@@ -154,3 +154,40 @@ frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-
 - [x] Pages written: extreme-sports, matt-kraus, nathan-king, tancredi-calabrese, tom-wallisch
 - [x] Identity correction: tan-calabrese → tancredi-calabrese split handled
 - [x] Gates clean: wiki-lint 0 errors · wiki-connect check 0 errors · wiki-climb check 0 errors, 0 stale
+
+## [2026-08-20] August severance ingest — DONE, with named follow-ups
+
+- [x] Sources filed: `imessage_export_2124702449_20260820.csv` (6,495),
+      `imessage_export_7248123683_20260820.csv` (97),
+      `raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a` + README,
+      `raw/self/analysis/2026-08-18_forensic-analysis-morgantown-call.md`
+- [x] Both exports read in full; 2 pages written, 24 updated; gates clean
+- [ ] **HIGH: transcribe the 927 s audio** and file the transcript beside it —
+      every quotation from it in `wiki/` is currently T2
+- [ ] **HIGH: verify whether the email to Annie's parents was sent** (sent-mail
+      folder). Open `CONTRADICTION` on `august-2026-morgantown-call`
+- [ ] **HIGH: export the Ally thread 2026-08-13 → 20** — still missing, now
+      blocking the slot-refill control added to `ally-and-dan-love-as-destiny`
+- [ ] **MED: sweep pre-July-2026 corpus for third-party-handle episodes** — three
+      known, all found by register alone, no detector exists
+- [ ] **MED: recover the three drug-screen images** (2026-08-14 13:17/14:08/14:11)
+      behind `mind/concepts/document-fabrication`
+- [ ] **MED: the "molesting" video and the Oct 2019 MMF video** — both circulating
+      as leverage, neither examined by anyone writing this wiki
+- [ ] Note: `annie_metadata_24h.csv` and the 2026-08-09 212 export cited by
+      `august-2026-unmasking` are **still** not in `raw/` (standing since 08-09)
+
+## [2026-08-20] group-chat capture + accusation adjudication — DONE, one gap created
+
+- [x] Filed `raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name.md`
+- [x] Gap closed: the unnamed act in the Aug 19 final hour has a referent
+- [x] Adjudicated the "made her fuck guys for drugs" accusation on
+      `arrangement-history` — false as stated, three limbs tested, falsifier named
+- [ ] **HIGH: export the three-party group chat (Dan / Annie / +1 724 812 3683).**
+      Two findings now rest on a single transcribed screenshot of it, and the
+      "Yesterday 6:33 AM" date is fixed by inference rather than by the record.
+      One query.
+- [ ] **MED: the arrangement record is almost entirely Dan-side correspondence.**
+      Named as the live falsifier on `arrangement-history`. An Annie-voice
+      account of any documented encounter would move it more than any further
+      Dan-side volume can.

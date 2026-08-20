@@ -33,6 +33,9 @@ connections:
   - page: wiki/people/dan-polyak
     type: evidenced-by
     claim: "A same-morning (Oct 21, 2019) Facebook Messenger disclosure to Polyak supplies Dan's own real-time reaction to the encounter, and a Oct 25, 2019 follow-up reveals a previously undocumented repeat visit."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The Ally Lubin thread carries a fuller account of this encounter than the Polyak disclosure does — 'nobody came except Annie who came 7 times,' the Cialis detail, the soft-dick relief, and Dan naming it as evidence of a sex addiction — making Ally the encounter's primary first-person record."
   - page: wiki/mind/psychosexual/taboo-and-boundary-testing
     type: evidences
     claim: "This encounter is the theory's only documented real-world instance — a gay man's first contact with a woman and Dan's own sole bisexual act, authored into one scene, which is what let that page finally close its own long-standing 'no primary example' gap."

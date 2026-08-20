@@ -5,7 +5,7 @@ title: "Voice Modes — Dan's Texting Register by Emotional State"
 aliases: ["mode activation", "composite voice model"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-08-19
 sources:
   - raw/self/google-drive-export/Composite Voice Model for Dan Frank.md
 related:
@@ -17,6 +17,9 @@ connections:
   - page: wiki/mind/profile/linguistic-profile
     type: parallels
     claim: "The eight emotional-state modes documented here and linguistic-profile.md's audience-based code-switching (romantic/platonic, supportive/conflict) are two independent organizing axes over the same baseline mechanics — mood and who he's talking to modulate register separately."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: component-of
+    claim: "The Composite Voice Model is the apparatus at its most literal: a specification of how Dan writes, commissioned by Dan, detailed enough to generate him — the point at which self-description crosses into self-implementation."
 ---
 
 # Voice Modes — Dan's Texting Register by Emotional State

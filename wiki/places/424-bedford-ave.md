@@ -5,7 +5,7 @@ title: "424 Bedford Ave (NYC-1)"
 status: closed
 knowledge: mixed
 date_created: 2026-07-20
-date_modified: 2026-08-01
+date_modified: 2026-08-19
 date_range_start: 2010-04-01
 date_range_end: 2013-05-01
 sources:
@@ -35,6 +35,9 @@ connections:
   - page: wiki/people/rick-frank
     type: caused-by
     claim: "Rick funded the exit itself — a February 18, 2010 apartment-hunting trip and a standing $2,000/month offer 'while you intern,' floated as the alternative to an Entourage-style West Hollywood move — making the paternal relationship a direct enabling condition of NYC-1 rather than a backdrop to it."
+  - page: wiki/places/the-unpapered-address
+    type: evidences
+    claim: "Two years at the first New York address leaving no rent figure, no lease, no signatory and no photograph is the earliest instance of a documentary void that recurs at every address since — which means the pattern predates both the poverty floor and the Annie decade and is not a product of either."
 ---
 
 # 424 Bedford Ave (NYC-1)

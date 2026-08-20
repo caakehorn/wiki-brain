@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -29,6 +29,12 @@ synthesizes:
   - wiki/mind/concepts/conflict-architecture
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: evidenced-by
+    claim: "Why the loop never terminates, visible in one exchange: Annie did state a want — 'I want to be alone. I want to get help' — and because it was not one of the two options the demand specified, it registered as no answer at all. Every threat in this page's eleven-year record demands a statement, and a demand for a statement can only be satisfied by the exact statement specified."
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: evidenced-by
+    claim: "The instrument this page scores threats with is Dan's own assertion, and that instrument is now known to be deliberately unreliable: 28 maternal-disclosure threats in 67 hours, one proven simulation admitted in writing ('it wasn't actually sent, and I knew you would suddenly come back to life'), and a claimed execution he contradicts ten hours later. The execution rate is not one and not zero — it is unmeasured until the sent-mail folder is checked."
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: evidenced-by
     claim: "The eight days confirm this page's standing prediction at the resolution of minutes — the July 26 goodbye broke in eighteen. CORRECTED 2026-08-18: this edge previously read the window as splitting the unexecuted-threat pattern, 'the impulsive disclosure executed, the deliberated one did not.' The July 26 Ellen contact is not a member of the threat class — it was a life-safety act formed on a belief that Coles had Annie in danger — so the maternal-disclosure threat's execution rate across the corpus is zero, not one, and the July 28 abandonment is the window's only threat datum."
@@ -75,9 +81,51 @@ connections:
   - page: wiki/mind/synthesis/supply-network
     type: parallels
     claim: "Dependency predicts which blocks hold: the Tom block failed while he was the sole supply node, and the Menore channel closed cleanly the moment geography ended the dependency — no block ever needed."
+  - page: wiki/self/concepts/wiki-brain
+    type: instantiates
+    claim: "This page is the wiki-brain's own proof and its own correction: the rule was findable only by reading Annie and Tom across each other, and its falsification 52 days later is kept visible here rather than edited away, which is the system's core claim about itself made concrete."
+  - page: wiki/places/the-unpapered-address
+    type: instance-of
+    claim: "The corpus's only instance of Dan reaching for a housing instrument himself is a declared exit that never executed: 'Tomorrow I'm calling John / And telling him that I will no longer be in the lease' (2024-10-27), answered inside the minute with 'Please don't do this Dan', never carried out, and followed four months later by a separation Annie initiated."
 ---
 
 # The Block/Unblock Loop
+
+> **ADDED [2026-08-20] — why the loop does not terminate, in one exchange.**
+> [[wiki/mind/synthesis/august-grievance-verdict]] isolates the mechanism this
+> page has described structurally. On 2026-08-17 at 20:12 Annie states a want,
+> plainly: *"I want to be alone. I want to get help."* Six seconds later Dan
+> answers *"WOW / That is all I needed to see."* She had answered; she had not
+> answered **the binary he specified** (*him or me*), which admits no third
+> option. Every threat in this page's eleven-year record demands a *statement*,
+> and **a demand for a statement can only be satisfied by the exact statement
+> specified** — so a different true answer registers as no answer at all. The
+> architecture is not detecting deception at that moment; it is detecting
+> non-compliance with a template and cannot tell the two apart. That is the
+> likeliest reason 127 exits produced 110 re-engagements: the terminating
+> condition was never reachable by anything the other party was willing to say.
+
+
+> **ADDED [2026-08-20] — the August 2026 threat was not blackmail, and the
+> distinction is load-bearing for how this page counts.** The three-day
+> maternal-disclosure campaign of 2026-08-17/19
+> ([[wiki/timeline/events/august-2026-morgantown-call]]) demanded no money, no
+> sex, no contact and no return — only a written statement that Annie was
+> finished with [[wiki/people/jerel-coles|Coles]] — and the material was
+> repeatedly offered to her for inspection *before* use (*"If you would like to
+> see what I wrote and attached before I send it I can let you see it first"*,
+> 08-17 19:32). Eleven deferrals were requested and every one was granted. That
+> is not the structure of blackmail. It is also not nothing: a disclosure held
+> over someone for three days with moving deadlines has coercive force whatever
+> it is called, and Annie names it (*"You're making this worse for me doing
+> that"*). **Both hold, and this page should score the threat class by its
+> demand rather than by its intensity** — every instance in the corpus demands
+> a *statement*, which is why none of them ever converts into an exchange, and
+> which is the likeliest reason the execution rate has stayed at or near zero
+> for eleven years. On the best current evidence the August campaign was **not
+> executed** either: 2026-08-19 15:12:16, *"I could have torn your life apart.
+> I still could and I don't."*
+
 
 Across the corpus, Dan's severances follow one script: **the exit is
 declared, not executed.** A block, an "I'm done," an account

@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv
@@ -29,6 +29,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [relationships, trauma-bond, infidelity, attachment, mental-health]
 connections:
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: contains
+    claim: "The seventy-hour version of this page's ten-year question, at act-level resolution. Same structure, one new term: capacity. The person committing the August wrongs was under documented coercive control and had disclosed a suicide attempt, which relocates culpability without reducing the wrong — and this page's own diagnosis-to-behaviour gap gets its clearest instance there, in a faked threat run as a measurement six hours after that disclosure."
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: evidenced-by
     claim: "Dan volunteers the verdict's central claim unprompted and against his own interest: 'even the worst thing I've done, getting you drugs, didn't really benefit me nearly as much as it was about that being the only way you would see me.'"
@@ -298,6 +301,42 @@ The synthesis the wiki already carries — "the gaslighting outweighed the affai
 > his own — now has a data point at the relationship's first day rather than only
 > in its terminal phase.
 
+## The seventy-hour version of this question [2026-08-20]
+
+This page answers *"was Dan correct to feel so wronged?"* across ten years, and
+its answer is a pattern. [[wiki/mind/synthesis/august-grievance-verdict]] asks
+the same question of the final seventy hours, where the unit is a dated act
+rather than a pattern, and reaches a compatible but sharper answer worth
+carrying here.
+
+**It confirms this page's first clause at higher resolution.** Ten grievances
+scored; seven fully supported, two partly, one false. The strongest — Annie
+publicly clearing Coles of rape in a group chat on 2026-08-19 at 06:33 having
+agreed by phone to clear Dan and not doing so — is the cleanest documented wrong
+in the corpus, because it required no interpretation: one act was performed and
+its promised counterpart was not.
+
+**It supplies this page's third clause its worst instance.** The
+diagnosis-to-behaviour gap gets a case with a stated hypothesis and a debrief:
+the faked send of 2026-08-18, run as a measurement six hours after Annie
+disclosed a suicide attempt by strangulation.
+
+**And it adds a term this page does not have: capacity.** The August wrongs were
+committed by a person under documented coercive control — that is a recording,
+not an inference — who had her phone taken twice in seventy hours and disclosed
+a suicide attempt inside them. That does not make the wrongs less true. It bears
+on what their truth implies about her, which is a different question from
+whether they happened, and this page's habit of running the two together is the
+thing the narrower page is able to separate.
+
+**One correction it forces on the standing characterisation.** The terminal-phase
+language this page and [[wiki/people/annie-ulmer]] carry — *evil*, *monster*,
+*sociopathic* — comes from Dan's own messages and is not supported. Annie's
+self-blame across the window is immediate, total and unprompted, which is the
+profile of collapse rather than calculation. Every factual grievance can be true
+while that characterological one is false, and on this evidence that is the
+situation.
+
 ## What still needs primary verification
 
 - **Eli intro text — RESOLVED 2026-07-20, upgraded [DOSSIER]→[RAW-CSV].** The 2026-07-18 pass searched for the quote as one string ("Hey Dan. It's Eli…") and missed it because iMessage sent it as six separate rapid-fire messages. Located verbatim in `raw/self/message-csv/imessages_2124702449_last6months.csv` and independently in `raw/self/dox-scan/all_imessages_complete_dump.txt` (line 196012): `2025-01-09 23:18:49 Received "Hey Dan" · 23:18:53 Received "It's Eli" · 23:19:20 Received "Annie is down stairs" · 23:19:42 Sent "Who are you?" (Dan's real-time reply, not previously documented) · 23:19:54 Received "I work with her" · 23:20:24 Received "She and Andrea had drinks at work but u guess they didn't eat"`. Full sequence and analysis on [[wiki/timeline/events/eli-incident]].
@@ -308,6 +347,60 @@ The synthesis the wiki already carries — "the gaslighting outweighed the affai
 
 > **RE-CHECKED [2026-08-08] — tuquick identity unmasked; verdict conclusion unaffected.**
 > [[wiki/people/tuquick-17248123683]] was modified: Tuquick's real identity is now Jerel Wayne Coles, identified via a background-check capture filed to `raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md`. This is additive identity data — Coles's name, address, and criminal record were not in the corpus at synthesis time. The verdict's claim on the tuquick page rests on his June 15 defection behavior (the "compulsive liar with a drug addiction" read and the independent-validation argument), not on his anonymity. That behavior is unchanged by the unmasking. No conclusion on this page altered.
+
+## RE-CHECKED [2026-08-20] — the verdict holds and its third clause gains its strongest instance
+
+Flagged stale against [[wiki/people/annie-ulmer]] and
+[[wiki/people/tuquick-17248123683]], both moved 2026-08-20 for the August
+16–19 ingest ([[wiki/timeline/events/august-2026-morgantown-call]]). Re-read
+against the new material; the three-part answer above survives unchanged, and
+one clause of it gets better evidence than it previously had.
+
+**Clause 1 — "correct that he was wronged" — reinforced, and now on primary
+evidence.** Every prior account of the third party in this corpus was
+mediated. On 2026-08-16 there is a recording. Whatever else is contested about
+that night, the conduct this verdict attributed to that quarter — the
+harassment of Dan's mother, the intimidation, the defamation — is no longer
+inference. It also acquires a written admission: asked about the calls to
+[[wiki/people/suzanne-frank|Suz]], Coles answers *"Yeah it was kind of
+unnecessary but I don't like being played with"* (2026-08-17 12:58).
+
+**Clause 3 — "complicit in the length and depth" — gets its clearest single
+instance, and it is worse than anything previously on the ledger.** On
+2026-08-18 at 19:35 Dan told Annie he had sent the recording to her parents;
+three minutes later he told her he had not, and why: *"it wasn't actually
+sent / And I knew you would suddenly come back to life / And have all kinds of
+shit to say / Which of course is what happened."* That is not an argument lost
+in anger. It is a controlled test with a stated hypothesis, run on a person
+who had disclosed a suicide attempt by strangulation six hours earlier.
+
+The **diagnosis-to-behaviour gap** this page names, and which
+[[wiki/mind/synthesis/the-deferred-audit]] supplies the mechanism for, is
+visible in that one exchange at full resolution: the instrument is working
+perfectly and pointed at her, and it is not pointed at the question of whether
+running the test was a thing to do. The gap is not that the engine is slow.
+It is that it never takes the operator as its object.
+
+**One caution the verdict must now carry.** This page's provenance discipline
+(the `[RAW-CSV]` / `[DOSSIER]` legend) exists to keep claims tied to primary
+rows. Two findings from the August ingest constrain how those rows can be
+read:
+
+- **A handle is not a person.** At least six inbound rows on Annie's 212
+  handle across July–August 2026 were typed by Coles, including *"You made me
+  fuck guys for money"* — an accusation against Dan that a naive read files as
+  her testimony. `[RAW-CSV]` establishes that a row exists and was sent from a
+  handle. It does not establish who typed it.
+- **Dan's assertions of his own conduct are not self-verifying.** The false
+  send is proof by example. Where this page cites Dan stating what he did
+  rather than a record of him doing it, the tier is testimony, not raw.
+
+Neither point withdraws a finding here. Both narrow what the evidence base can
+be asked to bear, which is the direction this page has always moved in.
+
+**Nothing in the moral conclusion changes.** *"The wrong is established; the
+catastrophe is co-authored."* Four more days of record and one more severance
+do not move it; they supply the co-authorship a cleaner exhibit.
 
 ## RE-CHECKED [2026-08-10]
 

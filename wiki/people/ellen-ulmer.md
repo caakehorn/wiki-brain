@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-17
+date_modified: 2026-08-20
 date_range_start: 2017-04-11
 date_range_end: 2025-11-01
 sources:
@@ -23,6 +23,9 @@ infobox:
   handles: ["+1724***2589"]
   known_for: "The relationship that outlasted the one it came from — opened by a friend's overdose in 2017, still sending birthday wishes in 2025"
 connections:
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: caused-by
+    claim: "Her work email is the named delivery address of a three-day leverage campaign — 'should I send to your moms HHS.net email or the Verizon.net email' — and Dan's own reason for hesitating is that a work address is the wrong place for it. Whether anything was ever sent is unresolved; both men spent the night of August 16 threatening to call her."
   - page: wiki/people/jay-lauer
     type: caused-by
     claim: "This thread does not merely begin near Jay Lauer's overdose — it begins because of it: Ellen's call on the night of April 10, 2017 and Dan's condolence at 19:09 the next evening are message one of an eight-and-a-half-year relationship, which makes a friend's death the documented origin of Dan's longest surviving tie to Annie's family."
@@ -120,6 +123,47 @@ moment it looks most like it broke.
 > The operator's pointer is the more chaseable of the two — if the message is in
 > the iMessage logs it is recoverable, and that page's gap should be re-checked
 > against them rather than left as "not in `raw/`".
+
+## August 2026 — named as the delivery address, by both men
+
+Ellen does not appear in the August 16–19 record as a participant. She appears
+as **the instrument**, and she is the only thing in it that both Dan and
+[[wiki/people/jerel-coles|Coles]] reach for.
+
+On the night of the call, Coles: *"I'm FaceTiming Dan, you, and the mom"* /
+*"I'm going to call your dad. Fuck your mom."* Annie, on tape, twice: *"My mom
+doesn't need this in her life."* And Dan, thirteen minutes in: *"I'm going to
+send this whole thing to Ellen because it sounds really fucking bad and I
+haven't said a word this entire time."*
+
+Over the next three days Dan names her email six times and narrates his own
+reluctance about the address:
+
+> *"If I don't hear from you by noon, im sending to your moms work email…
+> that's the only one I could find"* (Aug 17 04:21)
+>
+> *"should I send to your moms HHS.net email or the Verizon.net email"* /
+> *"i'm really really really trying to avoid sending to mcmillen because as
+> much as I want to make you face up to the truth that would not be good to do
+> on a work email"* (Aug 18 19:43)
+
+Annie's stated reason for begging him not to, repeatedly, is Ellen's state
+rather than her own exposure: *"This will literally kill my mom"* (Aug 19
+01:49); *"She's at her absolute breaking point / She tried to find a therapist
+today for herself and broke down crying / Like I am hurting her"* (Aug 17
+20:25).
+
+**Whether anything was sent is unresolved**, and the corpus cannot settle it
+from Dan's word: he claims execution three times on August 19 and denies it
+twice the same day, and he is documented faking exactly this claim on August
+18 as an elicitation device. See
+[[wiki/timeline/events/august-2026-morgantown-call]] §The false send. No email,
+reply or reaction from Ellen appears anywhere in `raw/`.
+
+The July 26 gap this page closed — that Dan contacted Ellen once, as a
+life-safety act — now has a second, different case beside it: the same channel
+proposed as leverage, held for three days, and possibly never used. The two
+should not be scored together.
 
 ## Corpus Dimensions
 

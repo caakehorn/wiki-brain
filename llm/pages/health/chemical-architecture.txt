@@ -6,7 +6,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-19
 sources:
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -23,6 +23,9 @@ related:
   - wiki/work/bfs-foods
 tags: [addiction-recovery, family, relationships, trauma-bond]
 connections:
+  - page: wiki/health/cocaine
+    type: contains
+    claim: "The stimulant layer of this stack has its own page: the twenty-year use history, the finance-driven dosage arc (1g → 3.5–7g → 0.5–1g), the age-13 family exposure, and the supply chain built to deliver it."
   - page: wiki/timeline/events/uniontown-hospital-vape-alarm
     type: evidenced-by
     claim: "Nicotine is catalogued here as the ritual regulator that smooths transitions between chemical states; the April 2018 hospital alarm is the record's demonstration that the regulator runs on its own schedule and does not defer to circumstance."
@@ -44,6 +47,9 @@ connections:
   - page: wiki/timeline/periods/dark-era-2007-2008
     type: evidenced-by
     claim: "A November 2007 Las Vegas trip is newly dated as the point physical opiate dependence became undeniable, and a winter 2008 single heroin attempt was rejected on aesthetic grounds ('felt dirty') rather than fear of the drug itself."
+  - page: wiki/health/the-configured-body
+    type: component-of
+    claim: "The stack is the input half of a two-mode architecture with no maintenance mode in it: substances are specified to the component and defended absolutely while the body they run on is never serviced, and this page's own gap on prescriber information is closed by the 2025 messages, which show a prescribing doctor whose entire recorded role is moving a script between pharmacies."
 ---
 
 # Chemical Architecture
@@ -64,7 +70,7 @@ neurochemical engineering" ([[wiki/mind/profile/deviance-mapping]]).
 | Substance | Role (corpus framing) | Detail |
 |-----------|----------------------|--------|
 | Suboxone | "System stabilizer — chassis & OS" | Daily since 2010-02-17 (day-zero pinned; earlier docs said ~Jan 2010/Jan 2011); prevents withdrawal; the residual "1% opiate glow" described as intentional |
-| Cocaine | "Cognitive & drive accelerator — CPU & RAM" | Daily; framed as tool, "voltage," focus sharpener |
+| Cocaine ([[wiki/health/cocaine]]) | "Cognitive & drive accelerator — CPU & RAM" | Daily; framed as tool, "voltage," focus sharpener — full profile, dosage arc and supply history on its own page |
 | Nicotine | "Ritualistic regulator — thermal paste" | Smooths transitions between chemical states |
 | Cannabis | Creative lubricant | Daily |
 | Alcohol | **Zero** | 13–15 years abstinent; active aversion; family pattern implicated in prior conflicts |
@@ -130,7 +136,9 @@ from 2020 onward as the inheritance was exhausted. The retrospective's
 own reading is blunt — the escalation shows the "desired state" is
 maximum intensity limited only by supply and money, not by any internal
 ceiling — and the later reduction is framed explicitly as a resource
-adjustment, not a step toward moderation or recovery.
+adjustment, not a step toward moderation or recovery. The full arc, the
+genesis chronology and the substance's own supply history are carried on
+[[wiki/health/cocaine]].
 
 **Informed speculation:** the selectivity is the interesting part. Four
 family members across three generations (mother, grandmother,
@@ -194,3 +202,37 @@ physical-health baseline (the somatic neglect the profile predicts)
 is undocumented — no labs, no dental, no primary care appears anywhere in
 17 years of messages; the "strategic" vs. dependency question for cocaine
 has no third-party data.
+
+## The missing mode, and the prescriber
+
+> **CORRECTED [2026-08-19] — the Gaps note above is too strong on two counts.**
+> It records "no medical records, prescriber information, or further dosage
+> data" and, in the body, that "no labs, no dental, no primary care appears
+> anywhere in 17 years of messages." A term census over the full dump finds
+> `dentist` 13 times outbound and `doctor` 36, and both matter.
+>
+> **Dental care exists.** 2017-10-09: *"went back to the dentist today and i've
+> got a lot of work to get done. all those years of being a delinquent junkie
+> catching up to me."* 2017-11-30, a post-surgical follow-up: *"When I went back
+> for a 1wk checkup on the second, they noticed a hole that hadn't yet begun to
+> develop tissue so they put in a membrane and restitched it."* Further
+> appointments in 2020 and 2024. The care is **episodic and reactive** rather
+> than absent, which also contradicts Dan's own 2025 account on
+> [[wiki/health/hyperreflexivity]] — *"terrified of dentist (aka haven't gone)."*
+>
+> **A prescriber exists.** 2025-03-06: *"I had my doctor move my prescription
+> here."* 2025-06-08: *"my doctor said the pharmacy won't fill an out of state
+> prescription."* 2019-05-31: *"try to go get subs from my old doctor."* The
+> regimen is prescribed, at least at these points. Every recorded exchange about
+> that doctor concerns moving a script between pharmacies and none concerns a
+> dose, a taper or a review — the one standing medical relationship in the
+> record is a **logistics** relationship, which is why it produced no clinical
+> content for earlier passes to find.
+
+What survives, and is the sharper claim, is on
+[[wiki/health/the-configured-body]]: the stack documented above is the *input*
+half of an architecture whose other half is continuous surveillance of how the
+body presents, with no maintenance faculty between them. Every self-directed
+medical sentence in the corpus is modal — *"I should go," "I might need to go,"
+"I'm probably going to need to"* — while every sentence about somebody else's
+body is imperative. Same speaker, same years.

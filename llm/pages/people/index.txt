@@ -16,7 +16,7 @@ related: []
 - [[wiki/people/alex-frank]] — Dan's semi-famous cousin; Brooklyn-based music/culture journalist (FADER, Vogue, GQ, Pitchfork); wrote the essay about Morley Frank's funeral.
 - [[wiki/people/alexander-jackson]] — From context-core: 337 sale drives move; "no post-close plan". Mixed roles at 463 amplify vertical…
 - [[wiki/people/alexis-armel]] — The six-year partner (late 2009 – Nov 2015) who occupied the attachment slot without activating it; the corpus's control case, and the friendship that outlasted the breakup by a decade.
-- [[wiki/people/ally-lubin]] — Friend since a 2013 FB thread (dark humor, "North Carolina"); a much larger 452-message iMessage thread (2019-2023) merged in from a duplicate stub.
+- [[wiki/people/ally-lubin]] — Seventeen-year attachment to a woman Dan has never met (Boca Raton → NYC → NC); 1,269 iMessage across two handles (2018-2026), designated overflow channel activating when the primary bond fails; $2,100 sent in the Aug–Oct 2019 crisis window.
 - [[wiki/people/anita]] — BFS gas-station GM who originated the $50 drawer-shortage claim; her "gas, foodstamps, lottery" confabulation and the Timmy blame-pivot make her the vertical-suspect exhibit.
 - [[wiki/people/annie-ulmer]] — Anne ("Annie") Ulmer. Primary relationship from Thanksgiving 2015; the June 1 2026 closure held 52 days and failed — status open, not historical.
 - [[wiki/people/betherin-mechling]] — Annie's cousin; fiancée of Jay Lauer, controlled his finances, returned his ring weeks before his April 2017 overdose.

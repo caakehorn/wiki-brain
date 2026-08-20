@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-07-16
+date_modified: 2026-08-19
 sources:
   - "raw/self/favorites/FAVS MASTERLIST.csv"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
@@ -27,6 +27,12 @@ connections:
   - page: wiki/mind/politics/axioms
     type: evidenced-by
     claim: "This page's own reading table lists Michael Parenti's Marxist, class-conflict Assassination of Julius Caesar alongside Goldsworthy's more conventional biography, rated identically (5) — the detail the politics page uses to show the 2024 binge is comparative power-structure analysis, not strongman admiration."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: instantiates
+    claim: "Twenty ancient-history books by fourteen different authors, read back to back and stopping at Augustus, is the corpus's cleanest closed set — the binge ends where the Republic does, not where the interest flags, which is what makes set-closure rather than novelty the engine of the era markers."
+  - page: wiki/mind/synthesis/the-cato-seat
+    type: component-of
+    claim: "The 2024 binge is one instance of a single curated situation: twenty books on a constitutional order failing, read alongside forty on a second one, by a man whose own AI persona is named for the senator who lost that argument and killed himself over it."
 ---
 
 # Roman Republic & Ancient History

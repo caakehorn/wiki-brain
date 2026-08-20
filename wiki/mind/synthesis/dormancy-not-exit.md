@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -76,9 +76,39 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "'Nothing leaves this graph' is 'The Irreversibility Firewall's' no-delete prediction stated as its own rule: leaving is exactly the irreversible act the firewall exists to prevent, so every documented 'ending' turns out to be a role change with reactivation bandwidth retained."
+  - page: wiki/self/concepts/ally-and-dan-love-as-destiny
+    type: instance-of
+    claim: "The Ally channel is the rule's longest-running case — thirty-eight and fourteen-month silences that closed nothing, then an August 2026 reactivation at the highest amplitude yet, which that page reads as a phase change and this rule reads as the pattern running normally."
 ---
 
 # Dormancy, Not Exit
+
+> **RE-CHECKED [2026-08-20] — a live test of this page's central rule opened
+> four days ago, and the page must not pre-score it.** Flagged stale against
+> [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-20), which itself moved for
+> the August 16–19 severance
+> ([[wiki/timeline/events/august-2026-morgantown-call]]). The Annie relationship
+> closed on 2026-08-19; the record stops mid-exchange at 15:15:33.
+> **CORRECTED the same day, before this block was relied on:** it first read
+> *"the first closure in the corpus that carries no condition."* A close re-read
+> of the day shows the declared block at 15:07:37 was **not executed** — seven
+> further messages from Dan, one from Annie that he answers — and that 15:09:01
+> reopens a condition outright (*"You could still not do the wrong thing"*).
+> What is genuinely novel, and is the thing this page's dormancy/exit boundary
+> should actually turn on, is at 14:53:25: Dan closes **the re-entry channel**
+> in advance — *"Do NOT ever think that enough time has passed that now you can
+> tell me… when something happens to Milo"* — which is precisely the vector the
+> July 2026 reopening used after fifty-two days. A dormancy is a silence with
+> the door unlatched; this is the first time in the corpus anyone has named the
+> latch. **No finding here is
+> withdrawn and none is confirmed.** Four days is not a dormancy and it is not
+> an exit — this page's own floor, narrowed to seven weeks by the James Dee
+> case, is more than ten times the elapsed time. Recorded so the next pass
+> reaches for it deliberately: if contact resumes, this is the strongest
+> dormancy datum in the wiki; if it does not, by roughly 2027-02-19 it is the
+> first attested exit, and both readings are cheap to check because the
+> reopening or its absence will be visible in one export.
+
 
 **Nothing leaves this graph.** Every sustained relationship in the corpus that
 the record describes as "over" is, on inspection, not over — it has changed

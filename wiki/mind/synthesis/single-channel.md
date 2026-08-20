@@ -6,7 +6,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -47,9 +47,34 @@ connections:
   - page: wiki/mind/concepts/chaos-preference
     type: contradicts
     claim: "A concentration architecture is maximally fragile, which is the opposite of what someone who prizes entropy should build — unless the appetite for disorder was always strictly outward-facing, which is exactly what that page concludes."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: contradicts
+    claim: "The evaluative leg, which this page scores as its weakest and 'a reading rather than a measurement,' is now measured and runs the other way: the curated taste record's creator-level Gini is 0.188 against the contact graph's 0.9601, so the concentration architecture is relational and does not generalise to culture."
 ---
 
 # The Single Channel
+
+> **RE-CHECKED [2026-08-20] — the channel closed, which is this page's thesis
+> being tested rather than confirmed.** Flagged stale against
+> [[wiki/mind/synthesis/the-unbroken-bond]] and
+> [[wiki/mind/synthesis/totality-themes]], both moved 2026-08-20 for the
+> August 16–19 severance
+> ([[wiki/timeline/events/august-2026-morgantown-call]]). **No claim here is
+> withdrawn.** The relational leg — one channel, no failover — is what the
+> window is about: 811 of Dan's 1,199 messages in 67 hours go to the one handle
+> that is refusing him, and the record contains no attempt to route the crisis
+> anywhere else. He states the dependency himself on 2026-08-17 at 21:18:
+> *"sometimes it's someone other than you that needs support or love."*
+>
+> **The live test this creates, stated so a later pass does not score it
+> early.** If the thesis is right, the closure of this channel should produce
+> either a period with no channel at all or a fast single substitution — not a
+> distribution across several ties. The 90 days after 2026-08-19 settle it, and
+> the measurement is cheap: contact-graph concentration before and after, on
+> the same Gini the page already computes. Note that the page's evaluative leg
+> was falsified on 2026-08-19 by the taste-record Gini and survives only on the
+> relational leg — which makes this the test the whole page now rests on.
+
 
 Wherever a distributed architecture is available to him, Dan runs **one channel
 at maximum voltage instead**. This is not a description of his personality; it
@@ -347,3 +372,22 @@ architecture claim is wrong rather than merely qualified.
 > of its dates or touching the occupancy itself. The Gini concentration measure
 > and the no-failover argument are computed from message volumes, which the
 > correction does not touch at all.
+
+> **CONTRADICTION [2026-08-19] — the evaluative leg is measured now, and it runs
+> the other way.** This page names the evaluative domain as one of four where the
+> concentration architecture reproduces, and scores it as the weakest leg: written
+> the same day, *"a reading rather than a measurement."* It has now been measured.
+> Computed over entries-per-creator from `FAVS MASTERLIST.csv` — the same unit as
+> the two-sided contact coefficient — the curated taste record returns a Gini of
+> **0.188** for music (1,477 creators), **0.166** for books, and **0.000** for art,
+> against the contact graph's **0.9601** across 496 handles.
+>
+> That is not a weak instance of concentration; it is close to perfect equality,
+> in a collection the same person curated with no external constraint. The
+> concentration thesis is not damaged where it was actually measured — the
+> relational architecture, its Gini, its absent failover and its 2025 tightening
+> all stand — but it does not generalise to what he consumes, and the four-domain
+> framing should be read as three plus a falsified fourth until somebody
+> re-derives the creative and cognitive legs on comparable evidence. The
+> alternative account of the same distribution is at
+> [[wiki/mind/synthesis/closing-the-set]].

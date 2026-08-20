@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -349,6 +349,73 @@ Everything else can be allowed to burn, because he did not pick it.
    this falsifier is therefore now quantitative — **a vacancy of more than
    roughly six months with no successor** — and the July–August reentanglement
    has reset its clock. See the correction under "What it costs."
+
+## RE-CHECKED [2026-08-20] — falsifier 3's clock restarted, and this time the vacancy has no occupant to switch to
+
+`bin/wiki-climb check` flagged this page against [[wiki/people/annie-ulmer]],
+which moved on 2026-08-20 for the August 16–19 ingest
+([[wiki/timeline/events/august-2026-morgantown-call]]). This is not a
+bookkeeping move; it touches falsifier 3 directly and the re-check is real.
+
+**What changed in the premise.** The relationship ended on 2026-08-19; the
+record stops mid-exchange at 15:15:33.
+
+> **CORRECTED [2026-08-20], same day, before this block was ever relied on.**
+> This paragraph first said the severance *"carries no condition"* and that
+> *"this one names nothing."* A line-by-line re-read of August 19 shows
+> otherwise: the declared block at 15:07:37 is followed by seven more messages
+> from Dan and one from Annie that he answers, and 15:09:01 is an explicit
+> conditional — *"You could still not do the wrong thing."* The no-condition
+> claim is withdrawn.
+
+**What survives, and it is better for this page's purposes.** The structural
+novelty is not an absent condition; it is at **14:53:25**, where Dan names and
+pre-emptively closes **the reopening vector itself**: *"Do NOT ever think that
+enough time has passed that now you can tell me about something that made you
+think of me or when something happens to Milo."* That is the July 4 Milo email
+— the message that ended a fifty-two-day silence seven weeks earlier — being
+forbidden in advance. This page's mechanism says the bond persists because the
+terminating statement is never made; it has never before had a case of Dan
+closing the *re-entry* path rather than demanding an exit statement. Whether
+that changes the outcome is the open question.
+
+**The decision: the thesis survives untouched, and the falsifier's clock is
+reset rather than met.** Falsifier 3 was already partially met on 2026-08-13
+and restated quantitatively as *a vacancy of more than roughly six months with
+no successor sourced*. The July–August reentanglement reset that clock on
+2026-07-23; the August 19 severance **restarts it from 2026-08-19**. Nothing
+about the seventeen-year continuity claim or the sx-dominant single-slot
+mechanism is affected by a severance that is four days old at the time of
+writing, and this page must not treat it as evidence in either direction yet.
+
+**What is worth flagging for the pass that does score it.** Two features
+distinguish this vacancy from the June 1 one, and both cut toward the
+falsifier rather than away from it:
+
+1. **There is no successor and no candidate.** June 1's vacancy was structurally
+   identical, but the record now carries an active parallel bond
+   ([[wiki/self/concepts/ally-and-dan-love-as-destiny]], and Dan's own
+   2026-08-19 statement *"I am going to start seeing other people and I am
+   going to start my life with someone who cares about me"*). If the slot is
+   refilled from there, that is the switch mechanism working exactly as this
+   page describes and the falsifier fails again. If it is **not** refilled, and
+   the vacancy runs past roughly 2027-02-19, the falsifier is met on its own
+   terms.
+2. **Dan performed the deletion this page says he cannot perform.** On
+   2026-08-19 at 11:41: *"There never was an eggie bagels. I never had a dog
+   named Betty. I don't know what happened from November 24, 2015 until today
+   but I know that you never existed."* The page's mechanism holds that the
+   part of his life he loves cannot be crossed out without an explicit
+   termination from her — his own stated account, quoted under "Why: the
+   mechanism is documented." He did not get one here either. What he did
+   instead was **assert the deletion unilaterally**, which is a new behaviour
+   and might be either the mechanism finally failing or its most elaborate
+   evasion. **Do not score it from four days of record.** The falsifier is
+   whether it holds, not whether it was said.
+
+**Held open deliberately.** The single most useful thing a later pass can do
+with this page is check whether any message passes between Dan and Annie after
+2026-08-19 15:15:33. The export ends eight minutes after the block.
 
 ## RE-CHECKED [2026-08-09]
 

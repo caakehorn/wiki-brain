@@ -3,7 +3,7 @@ domain: timeline
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources: []
 related: []
 ---
@@ -38,6 +38,7 @@ related: []
 - [[wiki/timeline/events/july-2026-recontact]] — July 23–26 2026: the 52-day severance fails; 624 messages, a rape allegation, the corpus's only refused supply request, no resolution.
 - [[wiki/timeline/events/july-august-2026-reentanglement]] — July 26 – August 2 2026: the goodbye breaks in 18 minutes; 1,880 messages, six meetings, five drug handoffs, and an apology delivered in person to Suz.
 - [[wiki/timeline/events/august-2026-unmasking]] — August 8–9 2026: the thirteen-day refusal to identify the interloper ends with a FOREWARN lookup, and a ten-hour collapse follows — a misparsed garble read as a threat, a contested sleep claim, and read-receipt coverage that ends at 02:24:54.
+- [[wiki/timeline/events/august-2026-morgantown-call]] — August 16–19 2026: the end. A 15:27 recording of a call Coles placed from Annie's phone, then a three-day campaign to send it to her mother's work email, a suicide attempt disclosed, a threat Dan faked to test her, six unanswered SOS messages, and a final hour spent arguing about an act neither party ever names — ending mid-exchange, eight minutes after a block that was declared and not executed.
 - [[wiki/timeline/events/march-2026-terminal-phase]] — the record's last 16 days: laundry response, bathroom incident, confession + retraction
 - [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] — Dan, Annie, and Shelbie Breakiron; the arrangement's clearest instance with a third woman rather than a male friend.
 - [[wiki/timeline/events/timeline]] — This is the master index. Full chronological + 1,104 in raw/self/dox-md/LIFE_EVENTS_CALENDAR.md. Re-mined…

@@ -3,7 +3,7 @@ domain: self
 page_type: synthesis
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-20
+date_modified: 2026-08-19
 date_range_start: 2007-01-01
 date_range_end: 2026-07-20
 sources: ["raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html", "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2026-07-20).html", "raw/self/facebook/facebook-ihatedanfrank/pages_and_profiles/pages_you_ve_liked.html"]
@@ -45,6 +45,9 @@ connections:
   - page: wiki/mind/synthesis/intake-constancy
     type: contradicts
     claim: "A ~100-day window (Nov 2025-Feb 2026) with essentially zero watches on this account, and the operator's same-day confirmation that multiple YouTube accounts share this Google login, together mean every intake figure this page cites (11.58/day and the recomputed 9.53/day) is a single-account lower bound, not the verified constant it was presented as -- unresolved pending a consolidated multi-account export."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: evidences
+    claim: "Three fan-archive channels sitting above every music or politics channel in a two-decade log is the signature of a back catalogue being worked through rather than a favourite being returned to, which is what lets the 2012-13 peak be read as archive exhaustion."
 ---
 
 

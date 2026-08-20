@@ -7,7 +7,7 @@ status: stable
 knowledge: mixed
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -27,6 +27,12 @@ related:
   - wiki/timeline/events/eli-incident
 tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
 connections:
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: instance-of
+    claim: "The method's purest defensive use and its clearest weaponised one are the same fifteen minutes of audio: recorded openly, announced twice while recording, then held over its subject's daughter for three days. The artifact never changed; only what it was for did."
+  - page: wiki/mind/concepts/document-fabrication
+    type: contradicts
+    claim: "The method's whole authority rests on documents being what they claim to be, and on 2026-08-14 its owner spent forty minutes manufacturing one that was not — calibrating its fidelity to how hard it would be inspected. Same faculty, inverted."
   - page: wiki/people/jacob-bacharach
     type: evidenced-by
     claim: "The Uniontown Glitch is this method's flagship exhibit: the only case in the corpus where four confident model hypotheses were killed in sequence against ground truth the operator alone held, leaving a ranked improbability list instead of a cosmology."
@@ -78,6 +84,9 @@ connections:
   - page: wiki/mind/concepts/the-handed-mirror
     type: contains
     claim: "The method has a terminal step this page did not previously name: the finished analysis is delivered to the person it describes, which is where its social cost is incurred rather than in the analysis itself."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: evidenced-by
+    claim: "Thirty authors on one presidency and fourteen on one republic is the method's multiple-independent-accounts rule running on leisure reading with nothing at stake — evidence that raw-over-mediated triangulation is a disposition rather than a technique adopted for the 2025-26 deployments."
 ---
 
 

@@ -8,12 +8,15 @@ title: "The Unmasking and the August 8–9 Collapse"
 aliases: ["the unmasking", "the read-receipt night"]
 tags: [relationships, trauma-bond, forensic-analysis, mental-health]
 date_created: 2026-08-09
-date_modified: 2026-08-09
+date_modified: 2026-08-20
 date_range_start: 2026-08-08
 date_range_end: 2026-08-09
 sources:
   - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
 connections:
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: precedes
+    claim: "The sleep claim this page could not settle is settled seven days later by a recording: on 2026-08-16 Coles is audible on a live call from Annie's phone, which makes the contact this page could only infer from read-receipt latency a matter of primary evidence."
   - page: wiki/people/jerel-coles
     type: caused-by
     claim: "The identity lookup completed at 19:01:22 and primed every subsequent parse across the next ten hours, including the reading of 'He'll?' as an invocation of him."
@@ -229,6 +232,34 @@ external research. The circularity finding is dead and is not carried forward.
 >
 > **Legitimate:** "this inference is thin here, because the evidence is X."
 > **Prohibited:** "you can't see this because you need it to be true."
+
+## What August 16 settled about this night
+
+> **RESOLVED [2026-08-20] — the inference this page could not confirm is now
+> primary.** The whole of this night runs on an inference: that Annie's silence
+> and read-receipt pattern meant she was with [[wiki/people/jerel-coles|Coles]].
+> The page holds it as an inference and says so. Seven days later, on
+> 2026-08-16 at ~23:37, Coles is audible on a live call from Annie's phone and
+> types three messages from her handle — see
+> [[wiki/timeline/events/august-2026-morgantown-call]]. The August 8 reading
+> was correct on the fact of contact. It remains uncorroborated on that
+> *night's* specifics, and this page should not be read as retroactively
+> proven: what was established a week later is that the contact existed, not
+> that any particular hour of August 8 was spent with him.
+
+Two smaller corrections from the fuller export
+(`raw/self/message-csv/imessage_export_2124702449_20260820.csv`, filed
+2026-08-20, which covers this night in full):
+
+- **The spine omits a message.** Between *"He'll?"* (23:09) and Dan's *"HE'LL
+  rape you again"* (23:10) Annie also sent ***"Call me"*** at 23:10. It does
+  not change the misparse reading — Dan answered the wrong message — but it is
+  the only request for voice contact in the sequence and it went unanswered.
+- **The night did not end at 03:41:32.** Dan answers at 08:19 the same morning
+  and the exchange continues all day on August 9, ending with a mailbox drop of
+  the money and *"I don't want you to go away."* This page's scope is the
+  collapse, not the day, but the unanswered-final-message framing is a scope
+  artifact rather than a fact about the relationship.
 
 ## Gaps
 

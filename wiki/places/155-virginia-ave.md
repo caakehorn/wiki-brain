@@ -4,7 +4,7 @@ page_type: entity
 title: "155 Virginia Ave"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-18
+date_modified: 2026-08-19
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
@@ -48,6 +48,9 @@ connections:
   - page: wiki/people/diane-moore
     type: caused-by
     claim: "The 2018-03-29 eviction notice terminating Dan's residency and demanding the keys was served by 'Dian V. Moore' — identified 2026-08-18 as Dan's maternal grandmother, carried here until then as an unexplained actor."
+  - page: wiki/places/the-unpapered-address
+    type: component-of
+    claim: "The March 2018 eviction notice is one of only two housing instruments in sixteen years and it changed nothing: served mid-vigil by Dan's own maternal grandmother demanding the keys, it was followed by eleven more months of occupancy, because the tenancy was never held by the document."
 ---
 
 
