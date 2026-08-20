@@ -8,17 +8,19 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-20 — 39 pages
+## 2026-08-20 — 43 pages
 
 - **Session log:** ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
 - **Session log:** correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
 - **Session log:** close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
 - **Session log:** climb | mind | the grievances of the last conversation, scored one by one — and Dan's own evidence turns out to cut both ways
+- **Session log:** rewrite | people | ally-lubin — the wiki hallucinated about itself, and the infobox carried it
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/cocaine]] | health | **RE-CHECKED** — Flagged stale against supply-network, annie-ulmer, suzanne-frank and dan-annie-fallout-verdict, all moved 2026-08-20 for the August 16–19 ingest. **Noth |
 | [[wiki/legal/463-morgantown]] | legal | _(carries a CORRECTED from 2026-08-18)_ |
+| [[wiki/mind/concepts/contact-gini]] | mind | **REVISED** — This section says the June 2026 closure was comprehensive *"because no redundant support infrastructure was prepared."* The August 2026 exports show that is not quite true. Across August 18–19, 2026 — |
 | [[wiki/mind/concepts/document-fabrication]] | mind | — |
 | [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/concepts/forensic-method]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
@@ -38,10 +40,12 @@ simply listed.
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **CORRECTED** — This paragraph first said the severance *"carries no condition"* and that *"this one names nothing."* A line-by-line re-read of August 19 shows otherwise: the declared block at 15:07:37 is followed by |
 | [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — flagged stale against block-unblock-loop and supply-network (both 2026-08-20). Both moved by typed-edge addition only, pointing at the new August 16–19 event page; neither page's prose or figu |
 | [[wiki/people/alexander-jackson]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address becoming a threat vector — Coles sending it to Dan unprompted on 2026-08-17 — and one typed edge. Re-read a |
+| [[wiki/people/ally-lubin]] | people | **CORRECTED** — This page stated that on August 18, 2026 Dan offered Ally the *"girlfriend title or at the very least the 'object of fixation' role"* and that she replied ***"Okay deal. Sounds good 1-2-3 break."*** I |
 | [[wiki/people/annie-ulmer]] | people | **CORRECTED** — An earlier version of this section said Dan *"blocks at 15:07"* and that the goodbye was the first in the record with no condition attached. **Both are wrong.** He declared a block at 15:07:37 and the |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | **RE-CHECKED** — flagged stale against annie-ulmer (2026-08-20). That page gained a substantial August 2026 section and eight chronology rows for the severance window. Re-read against the change; **no claim on this pa |
 | [[wiki/people/arnu]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
 | [[wiki/people/ellen-ulmer]] | people | _(carries a GAP CLOSED from 2026-08-17)_ |
+| [[wiki/people/james-dee]] | people | **GAP CLOSED** — The operator supplied the answer directly: **"Last name is Spiker."** Filed verbatim as T0 evidence in `raw/people/captures/2026-08-20_015525_gap-james-dee.md`. The page now records **Spiker** as the  |
 | [[wiki/people/jerel-coles]] | people | — |
 | [[wiki/people/john-carney]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
 | [[wiki/people/milo]] | people | _(carries a GAP CLOSED from 2026-08-17)_ |
@@ -49,7 +53,8 @@ simply listed.
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-20). That page gained a section on Coles targeting her again and Dan pre-emptively blocking Annie's number on her phone. Re-read against the change; **no c |
 | [[wiki/people/tuquick-17248123683]] | people | _(carries a REVISED from 2026-08-09)_ |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
-| [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | _(carries a CONTRADICTION)_ |
+| [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | **CORRECTED** — The August 18–20, 2026 exchanges are in `raw/self/imessage/ally-lubin_last-7-days_20260820.csv` (708 records) as of 2026-08-20. Most of the quotations checked out — "boy smashing factory," "I'm inhere |
+| [[wiki/self/concepts/astrology-star-signs]] | self | **CORRECTED** — this paragraph previously cited Dan's *"object of fixation"* framing as its first example. That phrase occurs nowhere in the corpus; it was a hallucination written into ally-lubin on 2026-08-19 and is |
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — Flagged stale against source-coverage-index (2026-08-20). **No claim here is withdrawn**, but the system gains a defect worth naming at this level: **a handle is not a person.** Every message-derived  |
 | [[wiki/self/message-corpora/source-coverage-index]] | self | — |
 | [[wiki/timeline/events/august-2026-morgantown-call]] | timeline | **GAP CLOSED** — The gap, as this page stated it: the final hour is *"an argument about a thing that is never named,"* and the page declined to choose a referent because the text does not supply one. The operator has  |
@@ -57,7 +62,7 @@ simply listed.
 | [[wiki/timeline/index]] | timeline | — |
 | [[wiki/work/bfs-foods]] | work | — |
 
-## 2026-08-19 — 44 pages
+## 2026-08-19 — 43 pages
 
 - **Session log:** audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
 - **Session log:** synthesis | health | cocaine — new substance profile page
@@ -101,7 +106,6 @@ simply listed.
 | [[wiki/places/424-bedford-ave]] | places | — |
 | [[wiki/places/90th-st-manhattan]] | places | _(carries a CORRECTED from 2026-08-10)_ |
 | [[wiki/places/index]] | places | — |
-| [[wiki/self/concepts/astrology-star-signs]] | self | — |
 | [[wiki/self/concepts/chatgpt]] | self | **CORRECTED** — An earlier version of this page presented the chicken-nugget passage, "a legacy product, a glorified tech demo," "not a cognitive weapon; it's a productivity tool, like Microsoft Excel," and "a sludge |
 | [[wiki/self/concepts/claude]] | self | **CORRECTED** — An earlier version of this page reversed both attributions — it credited "Claude = to analyze stuff" to Tom and "It did really well with the Kristin chat logs. Better than GPT" to Dan, and dated the e |
 | [[wiki/self/concepts/claude-code]] | self | _(carries a RE-CHECKED)_ |
@@ -110,7 +114,7 @@ simply listed.
 | [[wiki/self/context-core]] | self | _(carries a CORRECTED)_ |
 | [[wiki/self/youtube-watch-history]] | self | _(carries a REVISED from 2026-07-20)_ |
 
-## 2026-08-18 — 32 pages
+## 2026-08-18 — 29 pages
 
 - **Session log:** rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
 - **Session log:** ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
@@ -125,19 +129,16 @@ simply listed.
 | [[wiki/interests/music/concepts/lyrics-as-timbre]] | interests | — |
 | [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
 | [[wiki/mind/concepts/attachment-model]] | mind | _(carries a CORRECTED from 2026-08-10)_ |
-| [[wiki/mind/concepts/contact-gini]] | mind | **REVISED** — The Suzanne Frank row was wrong by a factor of fourteen — 2,391 against a true 33,698 — because it was taken from `MASTER_MESSAGES_DB_DUMP.csv`, which `EXTRACTION_SPEC.md` flags as unreliable and whic |
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — **The premise that moved.** ancestry was rewritten on 2026-08-14 from a direct GEDCOM extraction — 515 individuals, **90 direct ancestors**, four grandparental lines, geographic concentration tables a |
 | [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-08-15)_ |
-| [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-20)_ |
 | [[wiki/people/danielle-onesi]] | people | **CORRECTED** — this paragraph had the identification right and the wiki did not act on it. A separate entity page, `wiki/people/max-danielle-bf`, was created in June 2026 for the same man under the name "Max" — read |
 | [[wiki/people/dave-moore]] | people | — |
 | [[wiki/people/diane-moore]] | people | **CORRECTED** — This page previously titled her *"Diane (Rebecca Diane Van Voorhis Shrum)"* and stated outright that the surname was *"given here as Shrum on the strength of the documented marriage rather than a reco |
 | [[wiki/people/fran-coldren]] | people | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/people/fred-adams]] | people | — |
 | [[wiki/people/index]] | people | — |
-| [[wiki/people/james-dee]] | people | **CORRECTED** — The wiki carried a second entity page for this man, created 2026-06-23, titled *"Max (Danielle's boyfriend)"* and stating in its own body that he was *"unrelated to 'Max' the AI persona (MAX_PRIME) Da |
 | [[wiki/people/john-felix]] | people | **REVISED** — The partner reading above is **not supported** by the source this page never checked. The `+17249636738` thread does run only February–June 2016, but "Felix" appears in the Suz thread **continuously f |
 | [[wiki/people/johnny-dealer]] | people | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale against master-message-dump, which moved to record that the master CSV undercounts Suzanne Frank's thread fourteen-fold. **Noth |
 | [[wiki/people/max]] | people | **CORRECTED** — This page previously read: *"Separate from real person 'Max' (Danielle's BF, 'the Dude', music guy / CNA-to-producer from Gemini-_21.md)."* The only two occurrences of the name in `Gemini-_21.md` are  |

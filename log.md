@@ -2804,3 +2804,65 @@ Cascade: `ally-and-dan-love-as-destiny` (edge retyped `instantiates` →
 `astrology-star-signs` (RE-CHECKED — conclusion survives, DOB premise
 *strengthened* by the recovered 2019 corroboration), `contact-gini`,
 `dormancy-not-exit`, `group-chat-closure`, `annie-ulmer`. Three gates 0 errors.
+
+## [2026-08-20] rewrite | people | annie-ulmer — the zero holds at full width; the ending was not one thread
+
+**The page's most load-bearing number was under-claimed, and a full sweep
+raised it.** Since 2026-08-13 the "0 explicit severance signals" finding had
+carried a scope caveat — swept only across the 41,073-message dual-handle
+export, 81.6% of Annie's in-window inbound, with 9,259 messages named in Gaps
+as unswept. The sweep has now been run adversarially across **all 48,791
+received messages in every export on disk**, with twelve patterns aimed at the
+claim rather than at any phrasing. 136 raw matches, **all false positives on
+inspection.** The two that survived first reading did not survive context:
+*"It's over"* (2018-03-25) stands alone and Dan's reply two minutes later is
+about where to shower; *"Please stop texting me"* (2018-08-03) is a
+mid-argument pause request during a camming-setup fight, with the same thread
+discussing an ATM run four minutes later. **The zero can now be quoted without
+a scope caveat** — not "none in the 81.6% we looked at" but none in eleven
+years, anywhere. Gap closed; `attachment-model` is load-bearing at full width.
+
+**Two rows in "By the numbers" were line counts.** The dual-handle archive was
+given as *"88,549 lines / 88,548 rows — re-verified by direct count"*, treating
+lines and rows as the same thing; it is **85,586 records**, and the direction
+split the page already carried proves it (44,513 + 41,073 = 85,586). Worse, and
+the failure this repository has documented and keeps repeating: the
+alternate-number thread was reported as *"4,812 msgs"*, which is its **received
+count**. It is **9,481 messages**; Dan's own 4,669 in it were invisible to every
+pass that quoted the smaller figure. Neither error touches a conclusion — both
+threads were characterised from content — but a page reporting Dan's share of a
+thread as zero cannot be used to reason about reciprocity in it.
+
+**Verified and left alone:** the word-volume ratio, which is the metric the page
+nominates as the stable one. Recomputed directly — 23,719 messages, 188,167
+words to 63,700, **2.954:1**, medians 8 and 4. Exactly as claimed. The earned
+analytical spine of this page survives re-derivation; what failed were the
+mechanical counts around it.
+
+**Structure: four endings merged into one.** June 1 / July 2026 / the
+re-entanglement / August 2026 had been appended in export-arrival order as four
+top-level sections — the changelog rot STYLE_GUIDE rule 6 forbids, at section
+scale. They are now four movements under one arc, headed by mechanism rather
+than by date, because each attempt inherits the failure of the one before it.
+`What's missing` → `Gaps`; `LLM Quick Brief` and its "For context injection:"
+opener de-chattered per rule 6; the eleven changelog entries compressed from
+paragraphs to the one-line form the style guide specifies, after verifying every
+fact in them is carried in the body.
+
+**New finding — the ending was not one thread.** Laying the Annie export beside
+the Ally export for the same 48 hours shows them **interleaved hour by hour**:
+408 messages to Annie, 552 to Ally, across August 18–19. Three of Dan's
+statements to Ally are contradicted by this thread as he makes them — the wifi
+claim at 00:09 against 98 Annie messages in the next two hours; the live
+narration of Annie's SOS at 23:42; *"Im all ally Lubin all the time now"* at
+13:45, ninety minutes before the relationship's last message at 15:15:33. This
+is not a symmetry argument and does not touch the verdict: nothing in the Ally
+channel is an affair or a concealment. What it establishes is that **the wiki
+has been reading Ally as what happens after this bond fails, and it is not** —
+it ran alongside, and on the terminal days carried more traffic. Written back
+to `ally-lubin` and to `contact-gini`, where it sharpens the redundancy claim:
+the problem is not that Dan has one channel but that his second is
+**non-substitutable** — it takes attention and cannot take weight, which is why
+a lifetime-volume concentration metric could not see it.
+
+Three gates 0 errors; 41 tests pass; generated corpus in sync at 484 pages.

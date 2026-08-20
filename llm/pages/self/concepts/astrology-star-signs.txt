@@ -6,7 +6,7 @@ aliases: ["star signs", "zodiac", "birth chart", "astrology chart"]
 status: active
 knowledge: mixed
 date_created: 2026-08-19
-date_modified: 2026-08-19
+date_modified: 2026-08-20
 importance: high
 tags: [relationships, personality-profile, digital-footprint]
 sources:
@@ -30,7 +30,7 @@ This entry documents the zodiac signs of the most frequent and highest-velocity 
 | Contact | Sign | Birth Date | Evidence | Message Count | How They Display the Sign |
 |---|---|---|---|---|---|
 | **Dan Frank** | Scorpio | November 1, 1988 | Self-identified in thread ("I am super scorpio / Nov 1") | — (subject) | See [[wiki/self/concepts/dan-as-scorpio|Dan as Scorpio]] |
-| **Ally Lubin** | Cancer | June 26, 1990 | Derived: "I turn 30 in 18 days" (2020-06-08); she gives her sign as Cancer | 1,375 (iMessage) + 21 (FB) | Emotional depth, loyalty, protectiveness, moodiness, nurturing through crisis |
+| **Ally Lubin** | Cancer | June 26, 1990 | Derived, and corroborated twice in her own words: "Literally a 17 year old in a 28 yeR olds body" (2019-01-09) and "I turn 30 in 18 days" (2020-06-08); she gives her sign as Cancer | 1,987 (iMessage) + 21 (FB) | Emotional depth, loyalty, protectiveness, moodiness, nurturing through crisis |
 
 ## The Unknown Signs
 
@@ -56,7 +56,7 @@ The following are the top 20 most frequent contacts in the corpus. None have sta
 | 16 | alulmer28@gmail.com | 802 | 2020-07-30 | 2020-10-07 | Unknown |
 | 17 | +172****8111 | 714 | 2015-12-01 | 2026-04-22 | Unknown |
 | 18 | 28581 | 676 | 2018-09-07 | 2025-05-25 | Unknown |
-| 19 | allylubin@gmail.com | 651 | 2018-12-17 | 2026-08-19 | Cancer (same as #19 above) |
+| 19 | allylubin@gmail.com | 907 | 2018-12-17 | 2026-08-20 | Cancer (same as #19 above) |
 | 20 | +172****5006 | 613 | 2018-09-02 | 2019-01-27 | Unknown |
 
 ## What the Signs Tell Us (When Known)
@@ -68,9 +68,13 @@ Dan (Scorpio) and Ally (Cancer) are both water signs, and the astrological liter
 - **Scorpio** (fixed water): intensity, depth, loyalty, jealousy, transformation, emotional extremes
 - **Cancer** (cardinal water): nurturing, emotional intelligence, protectiveness, loyalty, moodiness
 
-The water-sign combination is supposed to produce an almost telepathic emotional connection — two people who feel things at the same frequency without needing to explain. Whether or not one believes in astrology, the corpus supports the *description* of the dynamic: Dan's seventeen-year fixation on Ally, Ally's willingness to be the confessional with no stake, the "mirror lives" moment on August 19, 2026, when both recognized the same paternal rupture in each other.
+The water-sign combination is supposed to produce an almost telepathic emotional connection — two people who feel things at the same frequency without needing to explain. Whether or not one believes in astrology, the corpus supports the *description* of the dynamic: Dan's eighteen-year fixation on Ally, Ally's willingness to be the confessional with no stake, and the paternal rupture she describes in her own words on August 18, 2026 (*"He just hates me because I look like my mom"*) against the one Dan recognises in himself the next morning (*"we have mirror lives"*). The recognition is documented on his side and inferred on hers; the August 19 inbound is missing from the export.
 
-The Scorpio-Cancer pairing is also supposed to be one of the most possessive — and the corpus shows this too. Dan's "object of fixation" framing, Ally's "I want to be on your payroll" — these are the water-sign currents running underneath the text.
+The Scorpio-Cancer pairing is also supposed to be one of the most possessive — and the corpus shows this too. Ally's *"I want to be on your payroll tho / But you scare me"* (2019) and her *"When you want to be a power couple LMK"* (2019-01-09) are the water-sign currents running underneath the text.
+
+> **CORRECTED [2026-08-20]:** this paragraph previously cited Dan's *"object of fixation"* framing as its first example. That phrase occurs nowhere in the corpus; it was a hallucination written into [[wiki/people/ally-lubin]] on 2026-08-19 and is corrected there.
+
+> **RE-CHECKED [2026-08-20]:** [[wiki/people/ally-lubin]] was rebuilt on 2026-08-20 and this page reasons from it. Three of its figures moved and are updated above (lifetime iMessage total 1,375 → 1,987; email-handle count 651 → 907; last contact 2026-08-19 → 2026-08-20). **The astrological conclusion survives unchanged, and one premise strengthened:** the June 26, 1990 birth date was previously derived from a single 2020 message, and the recovered January 2019 window supplies an independent second corroboration from her own mouth. Nothing in the rebuild bears on the Scorpio–Cancer reading either way.
 
 ### What We're Missing
 

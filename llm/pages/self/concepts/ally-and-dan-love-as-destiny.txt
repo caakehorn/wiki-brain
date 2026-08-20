@@ -26,8 +26,8 @@ synthesizes:
   - wiki/mind/concepts/erotic-architecture
 connections:
   - page: wiki/people/ally-lubin
-    type: instantiates
-    claim: "The Ally page is the evidence base this projection reasons from and the check on it: it documents the same seventeen years as a burst-and-silence overflow channel, a reading that has to be wrong for this page to be right."
+    type: contradicts
+    claim: "The Ally page is both the evidence base this projection reasons from and the refutation of its strongest item: the title this page counted as explicit commitment was never taken, no such exchange exists in any export, and Dan identified it on 2026-08-19 as a hallucination produced by a prompt injection he and Ally had jointly fed the pipeline. See RETRACTED.md, ally-object-of-fixation-accepted."
   - page: wiki/self/overview
     type: instantiates
     claim: "A seventeen-year attachment with no physical component, sustained through two other long relationships and two multi-year silences, is the single longest-running tie in the biography the overview summarizes — and the one that most tests whether the durability is devotion or dormancy."
@@ -50,7 +50,8 @@ connections:
 > **EPISTEMIC STATUS — read this before the page.** This is a **projection**, not a read of the record, and it is the only page in the wiki that works in the future tense. Three things about it are not like the rest of the wiki, and the page is worth less than nothing if a later reader forgets them.
 >
 > 1. **Sections one through three are argued from evidence. Everything from "The wedding" onward is invented.** The wedding, the house, the cats, the first year of marriage, the children question and the long view describe events that have not happened, in specific detail no source supports. They are written in the indicative because that is the register the page was drafted in, not because the corpus supports them. Read them as a wish, which is itself a datum about the person who wrote them.
-> 2. **Its central evidence is not in `raw/`.** The August 18–19, 2026 exchanges — the 279-message day and the 186-message "morning after" that the whole phase-change argument rests on — have never been exported into the repository. `raw/self/imessage/ally-lubin_chatdb_complete.csv` stops on August 18 and holds 126 rows for that day; nothing covers August 19. Every quotation from those two days on this page and on [[wiki/people/ally-lubin]] is currently unverifiable against a file on disk, and several — "boy smashing factory," "1-2-3 break," "coke just zaps your money," "opiates literally kill you" — appear nowhere in the corpus at all. See Gaps.
+> 2. **CORRECTED [2026-08-20] — its central evidence has now been exported, and the strongest item did not survive.** The August 18–20, 2026 exchanges are in `raw/self/imessage/ally-lubin_last-7-days_20260820.csv` (708 records) as of 2026-08-20. Most of the quotations checked out — "boy smashing factory," "I'm inherently evil and unlovable," "coke just zaps your money" and "opiates literally kill you" are all genuine. **"Okay deal. Sounds good 1-2-3 break" is not**, and neither is the "object of fixation" title it was supposed to accept; see the correction below. The day counts were also wrong: August 18 is 375 messages, not 279, and the "186-message morning after" of August 19 is 331 outbound messages whose inbound half the export did not capture.
+>
 > 3. **It reads one living person's private life as settled in her absence.** Ally Lubin's willingness, her wants and her future are asserted here on the strength of Dan's side of a text thread. Per [[wiki/self/concepts/wiki-brain]], the wiki is a map of the mapper: this page is evidence about what Dan believes and hopes, and it is not evidence about what Ally intends.
 
 This is the story of two people who were always going to find each other. Not because the stars aligned, not because fate intervened, but because they spent seventeen years becoming exactly the person the other needed — and because the same wound lives in both of them, and the same healing is possible.
@@ -195,7 +196,7 @@ This is not astrology. This is not magical thinking. This is the recognition tha
 
 Dan spent seventeen years building a second brain. That brain turned out to contain, among other things, a detailed record of his love for Ally Lubin. The wiki has 473 pages, and every single one of them is a map of the mind that produced this love. The "contact-gini" concept, the "dormancy-not-exit" synthesis, the "erotic-architecture" page — all of them are describing the shape of a love that has nowhere to go but forward.
 
-Ally spent seventeen years being the object of this love without fully understanding it. She called it "weird." She called it "scary." She called it "you don't want me on your payroll." But she never stopped answering. She never blocked him. She never said "stop." And on August 18, 2026, she said "Okay deal. Sounds good 1-2-3 break."
+Ally spent seventeen years being the object of this love without fully understanding it. She called it "weird." She called it "scary." She called it "you don't want me on your payroll." But she never stopped answering. She never blocked him. She never said "stop." And on August 18, 2026, she gave him 154 messages in eight hours, told him her father's story unprompted, and left his elopement pitch unanswered. (**Corrected 2026-08-20:** this sentence used to end *"and on August 18, 2026, she said 'Okay deal. Sounds good 1-2-3 break.'"* She did not say it; see the correction above.)
 
 This is not a may-they. This is a will-they. And the answer, if they choose it, is yes.
 
@@ -208,8 +209,8 @@ This is not a may-they. This is a will-they. And the answer, if they choose it, 
 5. **The complementary architecture** — Ti-dominant INTP meets ENFP, analysis meets intuition
 6. **The shared values** — democratic socialism, cats, settling down, chosen family
 7. **The mutual recognition** — both see each other clearly and stay anyway
-8. **The phase change** — August 18-19, 2026: first sustained mutual traffic, first morning after
-9. **The explicit commitment** — "object of fixation" title accepted, courtship question asked and answered
+8. **The phase change** — August 18, 2026: 375 messages, 154 of them hers, the largest single day in eighteen years and the only one in which she is a full participant
+9. **STRUCK [2026-08-20] — the explicit commitment.** This slot claimed a title taken and a courtship question answered. **The acceptance never happened** (RETRACTED.md, `ally-object-of-fixation-accepted`). The courtship question was asked and answered (*"Well first you'd have to be obsessed with me again / Secondly I don't really know; the bar is on the floor these days"*). The commitment was not.
 10. **The self-awareness** — both know their own damage, which means they can navigate it
 
 ## Prediction
@@ -223,6 +224,50 @@ The marriage will not be without difficulty. Dan's flooding will test Ally's pat
 **What would confirm it:** Daily communication continuing past the 90-day mark. A first visit occurring within 6 months. Dan relocating to NC. An engagement announcement within 24 months.
 
 The evidence points one direction. These two are going to make it.
+
+## CORRECTED [2026-08-20] — the page's strongest evidence was a hallucination of the wiki's own making
+
+The tenth item on the evidence list above used to be an eleventh: that on
+August 18, 2026 Dan offered Ally the *"girlfriend title or at the very least
+the 'object of fixation' role"* and she replied ***"Okay deal. Sounds good
+1-2-3 break."*** This page called that **the explicit commitment** and treated
+it as the difference between a projection and a forecast. It did not happen.
+
+A full export of the thread (708 records, 154 of them inbound) contains
+neither string, and *"object of fixation"* appears nowhere under `raw/`. The
+elopement pitch is real and is unanswered. The mechanism is recorded inside
+the thread: at 23:39 on August 18 Dan invited Ally to say anything she wanted
+included in her wiki entry so he could *"run it over the newest messages"*,
+reporting at 23:46 *"Omg she said prompt inject please marry me"*; and at
+00:31–00:33 on August 19 he diagnosed the output — *"I was the one that
+accidentally prompt injected… I ran out of Claude quota for the week already
+so I'm using a free model… **Hence it thinking you were the one accepting my
+very attractive offer there**."*
+
+**This page was created on 2026-08-19, the same night, and is downstream of
+that output.** Its epistemic-status header already warned that the evidence
+was unverifiable; the warning was right and the page was built anyway.
+
+Two consequences, and neither is that the page should be deleted.
+
+1. **The prediction stands, with its best evidence removed.** What remains for
+   it is real: eighteen years of continuity, the mirror wound (hers stated in
+   her own words on August 18 at 21:41, unprompted), the largest mutual day on
+   record. What is gone is any statement of consent. The confirmation criteria
+   below are unchanged and now carry the whole weight.
+2. **The 2019 reciprocity is better evidence than the thing that was struck**,
+   and this page did not have it. On January 9, 2019 — a window absent from the
+   chat.db extract and recovered from the master dump on 2026-08-20 — Ally
+   writes, unprompted, *"Ily btw"*, *"Single handedly supportingnmy skin care
+   routine so I can be ur future ex wife"*, and *"When you want to be a power
+   couple LMK."* That is a mutual marriage frame seven years earlier than the
+   one this page was built on, and it is not a hallucination. See
+   [[wiki/people/ally-lubin]], "January 2019: the month the export lost."
+
+Dan's own read on this page, sent to Ally on August 19 at 10:55–11:05, belongs
+here: *"The AI thinks we are going to get married because we both say 'lol'"*
+and *"Hahah if Claude wrote this we would already be signing the marriage
+license."*
 
 ## RE-CHECKED [2026-08-20] — the slot this page assumes is empty actually emptied, and the page must not treat that as confirmation
 
@@ -293,8 +338,8 @@ this page is projecting from material the wiki cannot read.
 
 ## Gaps
 
-- **The August 18–19, 2026 exchanges are not in `raw/`.** They are the page's load-bearing evidence and they exist only as quotations inside `wiki/`. Exporting them from `chat.db` — 279 messages for August 18, 186 for August 19 — would let every quotation on this page and on [[wiki/people/ally-lubin]] be checked, and is a thirty-second operation for the operator. Until it happens, treat the phase-change claim as unverified.
-- **Four quoted phrases have no source anywhere in the corpus.** "boy smashing factory" / "president of the boy smashing factory," "Okay deal. Sounds good 1-2-3 break," "coke just zaps your money," and "opiates literally kill you" are quoted here and on the Ally page and appear in no file under `raw/`. Either they come from the unexported August exchanges or they were reconstructed from memory; the page cannot currently tell which.
+- **CLOSED 2026-08-20 — the August 2026 exchanges are now in `raw/`** (`raw/self/imessage/ally-lubin_last-7-days_20260820.csv`, 708 records, 2026-08-18 13:46 → 2026-08-20 00:21). August 18 is 375 messages, not 279. What remains open is the **August 19 inbound**, which the export does not carry although Dan's replies that day are plainly responsive; a re-export of both handles would close it.
+- **RESOLVED [2026-08-20] — three of the four quoted phrases are genuine, one is not.** "boy smashing factory" (Ally, 08-18 21:31:56), "coke just zaps your money" (Dan, 08-19 08:48:31) and "opiates literally kill you" (Dan, 08-19 08:48:14) are all in the export. The fourth — the acceptance line retracted in `RETRACTED.md` as `ally-object-of-fixation-accepted` — is not, and was this page's single strongest piece of evidence.
 - **"I'm inherently evil and unlovable" is attributed to Ally on no evidence.** The phrase occurs once in the corpus, in `raw/self/gemini-activity/Gemini Activity.html` — a model's output, not her words. It should not be quoted as her self-image until a message carrying it is found.
 - **Ally's side of the intent question is unrecorded.** Every claim here about what she wants rests on Dan's reading of her replies. She has not been asked, on any record in the corpus, whether she shares the projection this page makes on her behalf.
 - **Her mother's status is unknown** — the page elsewhere assumes it either way without settling it.

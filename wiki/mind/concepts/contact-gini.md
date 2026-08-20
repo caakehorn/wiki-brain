@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-20
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -322,6 +322,31 @@ The Annie corpus provides empirical evidence for this vulnerability. It contains
 The relationship closure on June 1, 2026, did not simply end a personal partnership; it terminated the central load-bearing structure of Dan's entire relational network. Because no redundant support infrastructure was prepared, the collapse was immediate and comprehensive. The redundancy imperative is therefore treated not as a therapeutic recommendation, but as a critical engineering requirement. During the stabilization period of 2026, rebuilding this infrastructure is a primary objective. This is executed by distributing relational load across independent channels that do not depend on a single external person, including music production, work in artificial intelligence, and the compilation of this wiki.
 
 ## Redundancy Imperative
+
+> **REVISED [2026-08-20] — a thin second channel was running the whole time,
+> and the page's own metric hid it.** This section says the June 2026 closure
+> was comprehensive *"because no redundant support infrastructure was
+> prepared."* The August 2026 exports show that is not quite true. Across
+> August 18–19, 2026 — the two days the Annie relationship terminated — Dan
+> sent **408 messages to Annie and 552 to [[wiki/people/ally-lubin|Ally
+> Lubin]]**, interleaved hour by hour, and the Ally channel carried more
+> traffic than the terminating one.
+>
+> This does not lower the Gini and does not rescue the argument. A channel
+> that has never met its counterpart, produces no material support, and had
+> carried thirteen messages in the preceding seventeen months is not
+> redundancy in any engineering sense — which is exactly why a concentration
+> metric computed over lifetime volume did not see it. **But the failure mode
+> is now more precise than "there was nothing else."** There was somewhere for
+> the load to go; it was one person, unmet, and it absorbed a burst larger than
+> anything the primary channel produced in its final week.
+>
+> The sharpened claim: the topology problem is not that Dan has one channel.
+> It is that his second channel is **non-substitutable** — it can take
+> attention and cannot take weight. A redundancy plan that counts channels
+> rather than what they can bear will keep scoring this architecture as safer
+> than it is.
+
 
 To mitigate the risks of extreme relational concentration, the subject has initiated efforts to distribute communication load across several independent channels:
 - Sincere creative expression is routed through music production under the GRIPNOTIC alias, which serves as a primary output channel.
