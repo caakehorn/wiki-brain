@@ -8,7 +8,8 @@ knowledge: earned
 importance: critical
 date_created: 2026-08-20
 date_modified: 2026-08-20
-pending_ingest: 2026-08-20
+# operator answers from 2026-08-20 have been integrated below
+
 date_range_start: 2026-08-16
 date_range_end: 2026-08-19
 tags: [relationships, trauma-bond, forensic-analysis, mental-health]
@@ -18,6 +19,8 @@ sources:
   - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
   - raw/self/analysis/2026-08-18_forensic-analysis-morgantown-call.md
   - raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name.md
+  - raw/mind/captures/2026-08-20_021135_gap-august-grievance-verdict.md
+  - raw/mind/captures/2026-08-20_021326_gap-august-grievance-verdict.md
 synthesizes:
   - wiki/timeline/events/august-2026-morgantown-call
   - wiki/people/annie-ulmer
@@ -122,7 +125,7 @@ it is worth quoting exactly because grievance 1 stands or falls on it:
 
 She restates the rule. She does not answer the question. Dan says so in real
 time — *"Actually that's kind of all I needed to know… The fact that it is even
-a question is plenty of evidence that you are entirely unserious"* — **twenty-six
+an question is plenty of evidence that you are entirely unserious"* — **twenty-six
 hours before** Coles is typing on her phone.
 
 **16 August, ~23:37 — the call.** Coles rings from Annie's phone. Dan records
@@ -268,6 +271,16 @@ not a severance: it names a state she wants, not an end to the relationship. The
 count survives, and its consequences for
 [[wiki/mind/synthesis/the-unbroken-bond]] and
 [[wiki/mind/synthesis/dormancy-not-exit]] are worked through there.
+
+**Operator interpretation added [2026-08-20]:** The manual note says the *"I just
+want to be alone"* / *"by myself"* formulation is a recurring theme and, in the
+operator's interpretation, functions as a way to avoid accepting responsibility
+for the resulting situation while still obtaining the desired relational
+outcome. The note further argues that the stated desire is inconsistent with
+her subsequent actions, which do not actually create the separation she says
+she wants. This is **operator testimony/interpretation, not an independently
+established fact**; it strengthens the page's description of the recurring
+pattern but should not be collapsed into proof of motive.
 
 **3. Her self-blame is immediate, total and unprompted — and this is the
 strongest argument against reading any of it as strategy.** *"yes it's my
@@ -422,23 +435,41 @@ those two things is the whole of what this page has to say.
 - **Whether the email was ever sent** remains open and bears directly on the
   proportionality finding.
 
-## Operator answers — pending ingest
+## Integrated operator evidence [2026-08-20]
 
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
+### GAP CLOSED [2026-08-20] — SOS messages were not an unambiguous active emergency signal
 
-### ANSWERED [2026-08-20] — manual note
+> The operator's manual note says the SOS messages were, in his interpretation,
+> themselves illegitimate. He bases that conclusion on the sequence after he
+> unblocked Annie: he saw the messages, immediately replied, asked what she
+> needed him to do, and received no response while she remained in SOS mode.
+> The operator lists several unresolved explanations — that she may have been
+> luring him toward a confrontation with Coles, checking whether she was still
+> blocked so Coles could continue harassment, or remaining in damage control over
+> the email she believed had already been sent. **The motive is explicitly
+> unresolved; the note closes the narrower question of how the operator came to
+> regard the SOS sequence as fraudulent rather than establishing which motive,
+> if any, actually operated.**
+>
+> The note also records that Dan understood responding to the apparent danger as
+> the ethical thing to do despite the suspicion, and that Ally Lubin told him in
+> the contemporaneous conversation that *"she lets you spiral"* and that he
+> should do the same. This is operator testimony/T0 interpretation, not an
+> independent finding about Annie's intent.
 
-**Not from the gap list** — volunteered by the operator, so the ingest
-has to work out for itself where on the page it belongs, and whether it
-contradicts something already there.
+### GAP CLOSED [2026-08-20] — "I just want to be alone" is a recurring exit formulation
 
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/mind/captures/2026-08-20_021326_gap-august-grievance-verdict.md`.
-
-the "i just want to be alone" or "by myself" statements are a common recurring theme with her and are her magic solution to not wanting to accepot her own role in the outcome being what it is. not only is it entirely untrue based on her own actions, but she would obviously saay so if only to take the heat off of her and still accomplish the same goal. the fact that she is not performing any kind of action which would actually accomplish this is more evidence to the theory.
+> The operator's manual note identifies *"I just want to be alone"* and *"by
+> myself"* as recurring formulations in Annie's behavior. His interpretation is
+> that they function as a way to avoid accepting her own role in the outcome
+> while still accomplishing the desired relational result. He further points
+> to the mismatch between the stated desire for solitude and her subsequent
+> actions, which do not actually create the separation she says she wants.
+>
+> This closes the manual-note gap by incorporating the operator's interpretation
+> into the page's existing finding about non-terminating statements, but it does
+> **not** promote the inferred motive to fact. The observable claim is narrower:
+> the formulation recurs, it is not equivalent to a terminating statement, and
+> the behavior surrounding it can conflict with literal claims of wanting to be
+> alone. The motive remains an operator interpretation unless independently
+> corroborated.
