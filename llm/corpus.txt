@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-20
-486 pages, ~1,228,294 tokens.
+486 pages, ~1,230,957 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -13311,6 +13311,7 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/synthesis/the-commissioned-self]] — doctrine: self-knowledge is commissioned, not conversational. Seven frameworks plus stylometrics, a deviance audit and a voice model, all run at Dan's request over corpora he supplied — and the whole apparatus appears seventeen times in 106,629 messages. The one first-person self-typing in the record says 5w6sx RLOEI, not 5w4 RLUEI.
 - [[wiki/mind/synthesis/the-cato-seat]] — doctrine: every curated identification object occupies one position — accurate, early, unable to intervene. The AI persona is named for the senator who lost and killed himself; 24 of 25 artworks are collapse, wound or observer; half the shelf is two republics ending; nothing on the 150-title queue is about something being built. No figure in the corpus was right and won and kept it.
 - [[wiki/mind/synthesis/read-receipt-forensics]] — methodology: four chat.db metadata defects found in one extraction session, each silently returning a confident wrong answer rather than an error — a directional `date_read` column, an auto-populated `reply_to_guid`, a SQLite type-affinity trap, and clustered-not-random missing `delivered_at` rows.
+- [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — the same fifteen minutes judged three ways: Coles the active coercive force, Annie the least powerful person in the room, Dan protective during the call and compromised after it — the one window where the decade's power distribution inverts.
 
 
 ========================================================================
@@ -21727,31 +21728,31 @@ date_created: 2026-08-20
 date_modified: 2026-08-20
 tags: [forensic-analysis, relationships, legal, mental-health]
 sources:
- - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
- - raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt
- - raw/self/audio/README_2026-08-16_morgantown-call.md
- - raw/self/message-csv/imessage_export_2124702449_20260820.csv
- - raw/self/message-csv/imessage_export_7248123683_20260820.csv
+  - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
+  - raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt
+  - raw/self/audio/README_2026-08-16_morgantown-call.md
+  - raw/self/message-csv/imessage_export_2124702449_20260820.csv
+  - raw/self/message-csv/imessage_export_7248123683_20260820.csv
 synthesizes:
- - wiki/timeline/events/august-2026-morgantown-call
- - wiki/timeline/events/july-august-2026-reentanglement
- - wiki/mind/synthesis/august-grievance-verdict
- - wiki/mind/synthesis/dan-annie-fallout-verdict
- - wiki/people/annie-ulmer
- - wiki/people/jerel-coles
+  - wiki/timeline/events/august-2026-morgantown-call
+  - wiki/timeline/events/july-august-2026-reentanglement
+  - wiki/mind/synthesis/august-grievance-verdict
+  - wiki/mind/synthesis/dan-annie-fallout-verdict
+  - wiki/people/annie-ulmer
+  - wiki/people/jerel-coles
 connections:
- - page: wiki/timeline/events/august-2026-morgantown-call
- type: instance-of
- claim: "That page establishes what is on the recording; this one asks what each of the three participants was doing in it, and separates mechanism from stated intent, inferred intent, effect and moral character rather than collapsing them into a single verdict."
- - page: wiki/mind/synthesis/august-grievance-verdict
- type: parallels
- claim: "That page scores Dan's ten grievances against Annie one by one; this one scores the conduct of all three participants inside a single fifteen-minute window, and reaches the harsher conclusion about each of them that a grievance-by-grievance frame cannot produce."
- - page: wiki/mind/synthesis/dan-annie-fallout-verdict
- type: parallels
- claim: "The fallout verdict adjudicates a decade; this one adjudicates fifteen minutes, and finds that the shortest window inverts the decade's power distribution — Annie is the least powerful person in the recorded room."
- - page: wiki/people/jerel-coles
- type: evidences
- claim: "The recording is the only primary artifact in the corpus in which Coles is directly audible, and it establishes his conduct rather than his motive: he holds Annie's phone, conditions its return on an answer, and threatens family disclosure to force one."
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: instance-of
+    claim: "That page establishes what is on the recording; this one asks what each of the three participants was doing in it, and separates mechanism from stated intent, inferred intent, effect and moral character rather than collapsing them into a single verdict."
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: parallels
+    claim: "That page scores Dan's ten grievances against Annie one by one; this one scores the conduct of all three participants inside a single fifteen-minute window, and reaches the harsher conclusion about each of them that a grievance-by-grievance frame cannot produce."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: parallels
+    claim: "The fallout verdict adjudicates a decade; this one adjudicates fifteen minutes, and finds that the shortest window inverts the decade's power distribution — Annie is the least powerful person in the recorded room."
+  - page: wiki/people/jerel-coles
+    type: evidences
+    claim: "The recording is the only primary artifact in the corpus in which Coles is directly audible, and it establishes his conduct rather than his motive: he holds Annie's phone, conditions its return on an answer, and threatens family disclosure to force one."
 ---
 
 # The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles
@@ -23420,6 +23421,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/people/zaco
+    type: contains
+    claim: "Zaco is the network's 2018 Suboxone-strip secondary and its only inbound-marketing node: 58 of his thread's 65 messages are unsolicited inventory advertisements, the inverse of every other supplier relationship, where Dan chases availability."
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: evidenced-by
     claim: "The network's last transaction is a failure of the ordinary kind — a $60 handoff Dan spent the evening of 2026-08-16 trying to complete and she never came for — and the relationship ended inside the five hours that failure opened. Supply was the last structure standing and it did not survive its own routine."
@@ -29643,6 +29647,8 @@ argues, for how total the 2026 collapse was.
 
 ## Before Dan
 
+The mechanistic personality read that sits under this section — ESFP 7w8, sx/sp, 7-4-8 trifix, quote-sourced and contradiction-tested — is at [[wiki/people/annie-ulmer-personality-assessment]]. It is kept separate because it argues from the same evidence at a different altitude, and because a typology claim should be falsifiable on its own terms rather than smuggled into a biography.
+
 **Before Dan, and unprompted by him:** an October 2018 message — reminiscing
 rather than disclosing in the moment — describes Annie having run a paid
 photo/video account before they started dating (pre-November 2015), and
@@ -32259,92 +32265,114 @@ PAGE: wiki/people/bruce-burish.md
 ---
 domain: people
 page_type: entity
-status: stub
+status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-25
+date_modified: 2026-08-20
 date_range_start: 2018-10-23
 date_range_end: 2018-10-27
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
-tags: [digital-footprint, uniontown-era]
-knowledge: derived
+knowledge: mixed
+tags: [relationships, digital-footprint, uniontown-era, non-monogamy]
+sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/bruceburish_t6vdszljtq/
+  - raw/self/dox-md/operating_manual.md
 infobox:
   name: "Bruce Burish"
-  relationship_to_dan: unknown
+  sex: male
+  location: uniontown
+  relationship_to_dan: friend
   handles: ["+17249848911"]
   first_contact: 2018-10-23
-  known_for: "Fayette County contact with an intense 4-day messaging burst (181 messages) in late October 2018"
+  known_for: "A caddying-era friend who resurfaces for one dense five-day thread in October 2018 — 348 messages — after Dan tells him he and Annie are starting a webcam show together"
 connections:
   - page: wiki/mind/concepts/contact-gini
     type: instance-of
-    claim: "A dense short-burst contact — 181 messages in 4 days then silence — contributing to the long-tail distribution pattern."
+    claim: "A dense short-burst tie — 348 messages across five days, then nothing — is the long tail's characteristic shape: near-total concentration in a single window with no maintenance traffic on either side of it."
+  - page: wiki/people/annie-ulmer
+    type: evidences
+    claim: "The thread is an outside record of the camming business at its launch: Dan describes it to a friend in October 2018 in the couple's-project register, and quotes Annie's prior solo cam work as the reason it 'works out really well to do it as a couple.'"
+  - page: wiki/mind/psychosexual/orchestration-and-voyeurism
+    type: evidences
+    claim: "Dan volunteers the webcam project unprompted to a friend and sustains two days of graphic questioning about setup, pricing and scheduling without deflecting — the disclosure is the point, not a cost of it."
+  - page: wiki/work/nemacolin-caddying
+    type: follows
+    claim: "The friendship originates in the caddying era and is dormant until 2018; Bruce's opening register is nostalgia for Nemacolin, which is what re-establishes the channel."
 ---
 
 # Bruce Burish
 
-Bruce Burish is a Fayette County area contact (724 area code, confirmed via Google Contacts) who appears in the iMessage corpus with an unusually dense 4-day burst: 181 messages exchanged between October 23–27, 2018, all marked as received in the export. The opening message — "Yo man! It's Bruce" — suggests a re-established or newly-established connection, followed by intensive communication that drops to zero after October 27. No further context on his relationship to Dan or the nature of the exchange is available from this source alone.
+Bruce Burish is a Fayette County contact (724 area code, confirmed via Google
+Contacts) and a caddying-era friend — he opens by referencing missing
+[[wiki/work/nemacolin-caddying|Nemacolin]] — who resurfaces for one dense,
+explicit five-day conversation in October 2018 and then disappears from the
+corpus entirely. The occasion is Dan telling him that he and
+[[wiki/people/annie-ulmer|Annie]] are starting a webcam show together. The
+thread is almost entirely Bruce's enthusiastic, increasingly graphic reaction
+to that news, plus a throwaway request for weed next time Dan is in town.
 
-## Corpus Dimensions
-
-| Metric | Value |
-|--------|-------|
-| Messages | 181 |
-| Date range | 2018-10-23 – 2018-10-27 |
-| Handle | +17249848911 |
-| Direction | All received (export artifact — Dan's outbound not captured) |
-
-## Gaps
-
-Role and relationship to Dan unknown. The 4-day intensity suggests either a transactional exchange or a reconnection that didn't sustain. No Facebook, dox, or other corpus cross-references found.
-
-
-========================================================================
-PAGE: wiki/people/bruceburish.md
-========================================================================
-
----
-domain: people
-page_type: entity
-status: closed
-date_created: 2026-06-23
-date_modified: 2026-07-14
-date_range_start: 2018-10-23
-date_range_end: 2018-10-27
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/bruceburish_t6vdszljtq/", "raw/self/dox-md/operating_manual.md"]
-related: ["wiki/work/nemacolin-caddying", "wiki/self/facebook/messages", "wiki/self/message-corpora/master-message-dump"]
-tags: [relationships, digital-footprint]
-knowledge: mixed
-infobox:
-  name: "Bruceburish"
-  relationship_to_dan: unknown
-  sex: male
-  first_contact: 2018-10-23
-  known_for: "Bruce Burish was a caddying-era friend (he references missing [[wiki/work/nemacolin-caddying|Nemacolin]]) who resurfaces"
----
-
-# Bruce Burish
-
-Bruce Burish was a caddying-era friend (he references missing [[wiki/work/nemacolin-caddying|Nemacolin]]) who resurfaces for one dense, explicit five-day conversation in October 2018 (`+17249848911`, 181 messages, Oct 23–27) after Dan tells him he and his girlfriend are starting a webcam show together. The entire thread is Bruce's enthusiastic, increasingly graphic reaction — questions about size, filming setup, pricing, and repeated requests to "tune in" or "join" — plus a separate, throwaway request to get him weed when Dan is next in town.
+Its value to the wiki is not the friendship, which is thin and undocumented
+either side of the window. It is that this is the **camming business described
+to an outsider at the moment of launch**, in Dan's own words, to someone with
+no stake in it.
 
 ## The webcam conversation
 
-Bruce responds to the news with immediate, sustained interest: he asks how the couple met the idea, whether Dan's girlfriend had done cam work before ("Annie did it before we started dating and it actually works out really well to do it as a couple" is quoted back approvingly from Dan's own message), and pushes for a schedule so he can watch. The conversation stays in this register for most of two days — solicited details about the setup, joking self-comparison ("I'm Ocho"), and repeated propositions to be included in a session in person when he's next "in town" in mid-November. Interspersed are ordinary friend-register check-ins (asking if Dan's working, commentary on a book he'd just finished, a passing mention of "K-holes" that Bruce treats as a new and slightly alarming discovery). The thread ends October 27 with no indication the in-person visit occurred within the export window.
+Bruce responds with immediate, sustained interest: how the couple arrived at
+the idea, whether Dan's girlfriend had done cam work before — *"Annie did it
+before we started dating and it actually works out really well to do it as a
+couple"* is Dan's own line, quoted back approvingly — and pushes for a schedule
+so he can watch. The register holds for most of two days: solicited detail
+about the setup, joking self-comparison (*"I'm Ocho"*), and repeated
+propositions to be included in a session in person when he is next in town in
+mid-November.
 
-## Corpus Dimensions
+Interspersed is ordinary friend traffic — asking whether Dan is working,
+commentary on a book he had just finished, a passing mention of "K-holes" that
+Bruce treats as a new and slightly alarming discovery. The thread ends
+October 27 with no indication the November visit happened.
+
+## Corpus dimensions
 
 | Metric | Value |
 |--------|-------|
-| Messages | 181 |
-| Date range | 2018-10-23 to 2018-10-27 (single dense cluster) |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Bruce to Dan) |
-| Handle | +17249848911 |
+| Messages | **348** — 167 sent (Dan), 181 received |
+| Date range | 2018-10-23 → 2018-10-27 (single dense cluster) |
+| Handle | `+17249848911` |
+| Source of direction | `all_imessages_complete_dump.txt` |
+
+> **CORRECTED [2026-08-20]:** both versions of this page reported the thread as
+> **181 messages**, and the stub added that they were *"all received (export
+> artifact — Dan's outbound not captured)."* **181 is exactly the received
+> count.** `MASTER_MESSAGES_DB_DUMP.csv` marks everything `Received`, so a page
+> built from it reports one-sided threads; the complete dump returns **348**
+> records on this handle — 167 of them Dan's. There was no export artifact
+> swallowing his side, only the wrong file. This is the same failure documented
+> on [[wiki/people/zach-clingan]] and corrected again on
+> [[wiki/people/annie-ulmer]]'s alternate-number thread the same day.
+>
+> The correction matters for what the page *says*, not just its arithmetic: a
+> thread previously readable as Bruce talking at Dan is in fact close to
+> balanced, and Dan's 167 messages are where the camming detail comes from.
+
+> **MERGED [2026-08-20]:** this entity had two pages — `wiki/people/bruceburish`
+> (the fuller account, linked from
+> [[wiki/self/message-corpora/master-message-dump]]) and `wiki/people/bruce-burish`
+> (a thinner stub carrying the typed edge, orphaned). Same person, same handle,
+> same five days. Merged here under the hyphenated slug that every other person
+> page uses, per STYLE_GUIDE rule 2 — one page per entity, merge never fork.
 
 ## Gaps
 
-Whether Bruce's November visit or any cam-show collaboration materialized is undocumented; no further contact appears in the corpus after this window, though a separate Facebook Messenger thread (`bruceburish_t6vdszljtq`) exists in the raw archive and has not been cross-read for this page.
-
-## Related
-
-[[wiki/work/nemacolin-caddying]] · [[wiki/self/facebook/messages]] · [[wiki/self/message-corpora/master-message-dump]]
+- **Did the November visit or any collaboration happen?** No contact appears
+  after October 27 in any channel. One paragraph from the operator settles it.
+- **The Facebook Messenger thread is unread.**
+  `raw/self/facebook/.../bruceburish_t6vdszljtq/` exists in the archive and has
+  never been cross-read against this page. It is the only other channel where
+  this friendship appears and would date its origin.
+- **How the friendship actually started.** "Caddying-era" is inferred from
+  Bruce's own nostalgia, not stated. [[wiki/work/nemacolin-caddying]] does not
+  name him.
 
 
 ========================================================================
@@ -36375,7 +36403,7 @@ related: []
 - [[wiki/people/alex-frank]] — Dan's semi-famous cousin; Brooklyn-based music/culture journalist (FADER, Vogue, GQ, Pitchfork); wrote the essay about Morley Frank's funeral.
 - [[wiki/people/alexander-jackson]] — From context-core: 337 sale drives move; "no post-close plan". Mixed roles at 463 amplify vertical…
 - [[wiki/people/alexis-armel]] — The six-year partner (late 2009 – Nov 2015) who occupied the attachment slot without activating it; the corpus's control case, and the friendship that outlasted the breakup by a decade.
-- [[wiki/people/ally-lubin]] — Seventeen-year attachment to a woman Dan has never met (Boca Raton → NYC → NC); 1,269 iMessage across two handles (2018-2026), designated overflow channel activating when the primary bond fails; $2,100 sent in the Aug–Oct 2019 crisis window.
+- [[wiki/people/ally-lubin]] — Eighteen-year attachment to a woman Dan has never met (Boca Raton → NYC → Charlotte); 1,987 iMessage across two handles (2018–2026); a channel that runs concurrently with the primary bond rather than after it fails; $2,100 sent in the Aug–Oct 2019 crisis window, and the page whose 2026 climax turned out to be a hallucination the wiki wrote about itself.
 - [[wiki/people/anita]] — BFS gas-station GM who originated the $50 drawer-shortage claim; her "gas, foodstamps, lottery" confabulation and the Timmy blame-pivot make her the vertical-suspect exhibit.
 - [[wiki/people/annie-ulmer]] — Anne ("Annie") Ulmer. Primary relationship from Thanksgiving 2015; the June 1 2026 closure held 52 days and failed — status open, not historical.
 - [[wiki/people/betherin-mechling]] — Annie's cousin; fiancée of Jay Lauer, controlled his finances, returned his ring weeks before his April 2017 overdose.
@@ -36390,7 +36418,7 @@ related: []
 - [[wiki/people/brennan-meadows]] — Brief early-2016 contact mixing suboxone sourcing and a small loan request.
 - [[wiki/people/brian]] — NYC client who booked Annie (as "Hazel") for paid visits, summer 2019.
 - [[wiki/people/bryan-5088682461]] — Third participant in the Oct 20, 2019 filmed MMF; a gay man whose first encounter with a woman was that night with Annie and Dan. Not the escort-client Brian.
-- [[wiki/people/bruceburish]] — Caddying-era friend; one dense Oct 2018 thread reacting to Dan and his girlfriend's webcam plans.
+- [[wiki/people/bruce-burish]] — Caddying-era friend; one dense 348-message thread over five days in Oct 2018, the camming business described to an outsider at launch.
 - [[wiki/people/bub]] — Long-running casual friend: DJ logistics, Mac troubleshooting, gaming, 2017-2020.
 - [[wiki/people/casey-bondarenka]] — Friend who overstepped during 2015 relationship turbulence with Alexis; sporadic contact through 2018.
 - [[wiki/people/chad-johnson]] — Fellow Nemacolin caddy and college student, 2017-2018.
@@ -36524,6 +36552,9 @@ related: []
 - [[wiki/people/vicki]] — Longest-serving non-family caregiver on Fran's rotation (2016–2018); "this lady is like my grandmother I never had"; her thread dates the second fall and documents the vigil's final days.
 - [[wiki/people/zach-clingan]] — Nine-year Uniontown acquaintance and 2017 Nemacolin caddie-yard peer; the page an earlier pass filed under the wrong surname.
 - [[wiki/people/zachariah-harshman]] — High-school friend, 2014–15 Uniontown supply node (earliest documented), and independent witness to the Alexis-to-Annie bond switch's social fallout; friendship survives and revives as a platonic gaming friendship by 2020.
+- [[wiki/people/zaco]] — 2018 Uniontown supplier of Suboxone strips; the supply network's only push-marketing node (58 of 65 messages his, unsolicited).
+- [[wiki/people/annie-ulmer-personality-assessment]] — ESFP 7w8 sx/sp, 7-4-8 trifix: the mechanistic personality read behind the main entry, quote-sourced and contradiction-tested.
+- [[wiki/people/suzanne-frank-personality-assessment]] — ISTJ 6w7 so/sp, 6-2-9 trifix: the personality read behind Dan's mother's entry.
 
 ## contacts
 
@@ -39758,6 +39789,9 @@ synthesizes:
   - wiki/timeline/periods/2018-deep-cycle
   - wiki/timeline/events/timeline
 connections:
+  - page: wiki/people/zaco
+    type: parallels
+    claim: "Concurrent 2018 Uniontown nodes in the same market with opposite postures: Johnny is the high-volume primary Dan pursues, Zaco the low-volume secondary who pursues Dan."
   - page: wiki/mind/synthesis/supply-network
     type: component-of
     claim: "Johnny is the network's 2018 deep-cycle primary node; his vacations and MIA stretches produced the first documented single-node supply panics, and the MAX_PRIME succession (Johnny → Tim → Tom) starts with him."
@@ -46203,6 +46237,8 @@ sharpest drop in eleven years of the thread and it is not an export artifact.
 
 ## Identity, lineage and the generation she was pushed out of
 
+The personality read that sits under this section — ISTJ 6w7, so/sp, 6-2-9 trifix — is at [[wiki/people/suzanne-frank-personality-assessment]], kept separate for the same reason Annie's is: a typology claim should be falsifiable on its own terms rather than folded into a biography.
+
 Identity is settled across two independent exports. `contacts.csv` and the
 Facebook address book agree on the same person: **Suzanne Frank, one mobile
 number (+172\*\*\*\*8715), two email handles, DOB 15 September 1962.** Google
@@ -49459,6 +49495,122 @@ happened is undocumented past the January 2014 pitch; the January 1,
 for that name); Zach's current occupation and location are unknown;
 whether any contact continued past October 2021 is outside this
 export's range.
+
+
+========================================================================
+PAGE: wiki/people/zaco.md
+========================================================================
+
+---
+domain: people
+page_type: entity
+title: "Zaco"
+aliases: ["zaco"]
+status: closed
+knowledge: mixed
+date_created: 2026-08-20
+date_modified: 2026-08-20
+date_range_start: 2018-03-12
+date_range_end: 2018-11-26
+tags: [addiction-recovery, uniontown-era, digital-footprint]
+sources:
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+infobox:
+  name: "Zaco"
+  sex: unknown
+  location: uniontown
+  relationship_to_dan: dealer
+  handles: ["+17249123381"]
+  first_contact: 2018-03-12
+  known_for: "The supply network's only push-marketing node — 58 of 65 messages are his, almost all unsolicited inventory advertisements"
+connections:
+  - page: wiki/mind/synthesis/supply-network
+    type: component-of
+    claim: "Zaco is the network's 2018 Suboxone-strip secondary and its only inbound-marketing node: he advertises inventory unprompted rather than being asked, which is the inverse of every other supplier relationship in the corpus."
+  - page: wiki/timeline/periods/2018-deep-cycle
+    type: component-of
+    claim: "The thread runs March–June 2018 inside the deep cycle and shares its economics — $50 for three strips, $75 for three, $70 for three subs — small cash amounts in the months of daily Cash App limits and declined payments."
+  - page: wiki/people/johnny-dealer
+    type: parallels
+    claim: "Concurrent 2018 Uniontown nodes in the same market with opposite postures: Johnny is the high-volume primary Dan pursues, Zaco the low-volume secondary who pursues Dan."
+---
+
+# Zaco
+
+Zaco is a 2018 Uniontown-area supplier known to the corpus only by the name he
+gives himself in his first message — *"Yo it's zaco"* — and by the handle
+`+17249123381`. He is a minor node by volume and a distinctive one by shape:
+**the only supplier in the corpus who does the selling.**
+
+Across 65 messages he sends 58 and Dan sends 7. Almost all of his are
+unsolicited advertisements of current stock — *"I got strips,"* *"Got 4
+strips,"* *"3 strip for 50,"* *"Strips on sale,"* *"Got tex n coming town,"*
+*"I'm in town I got 3 subs for 70 lmk if u want em"* — pushed out over eight
+months whether or not Dan answers. Every other supply relationship in the
+corpus runs the other way, with Dan chasing availability;
+[[wiki/mind/synthesis/supply-network|the supply network]] is built around
+sourcing panics that happen when a node goes quiet. Zaco never goes quiet, and
+Dan mostly does not reply.
+
+## What he sold, and the two eras of the thread
+
+The thread has a clean break in the middle and the two halves are different
+trades.
+
+**March–June 2018 — Suboxone.** "Strips" throughout, priced in small lots:
+*"3 strip for 50"* (May 2), *"Well for 3 I can do 75"* (June 28), *"3 subs for
+70"* (June 29). This is the buprenorphine Dan has been prescribed daily since
+2011 ([[wiki/mind/synthesis/supply-network]]), bought here off-script and by
+the strip. Logistics are suburban and specific — meets at a CVS, a Giant
+Eagle, *"grn truck nd trailer,"* Walnut Hill, "CV downtown."
+
+**One night in November 2018 — cocaine, and Dan initiates.** After five months
+of silence the thread reopens on November 26 with the only sustained outbound
+run in it: *"Hey dude / Hit me up if you're around. Needed some girl / 100? /
+If it's good I'll buy a lot more / I've got the paper on me and I'm at my
+house."* Zaco asks *"How much"* and then *"U would have to come out me"*; Dan
+answers *"Ah shit I'm stuck at home / No ride right now."* The thread ends
+there and never resumes.
+
+That last exchange is the whole relationship in miniature and it is worth
+keeping for a reason beyond this page: the transaction fails on **transport,
+not money or supply.** Dan has the cash in hand and a willing seller, and the
+blocker is that he cannot get across town. It is a small, dated, concrete
+instance of the immobility that the 2018 material documents in the aggregate.
+
+A third product, *"Tex,"* recurs across both halves (*"Got tex,"* *"Yea I got
+Tex to"*) and is not identified anywhere in the corpus.
+
+## Corpus dimensions
+
+| Metric | Value |
+|---|---|
+| Messages | **65** — 7 sent (Dan), 58 received |
+| Date range | 2018-03-12 → 2018-11-26 |
+| Active window | 2018-03-12 → 2018-06-29, then one night in November |
+| Handle | `+17249123381` |
+| Source of direction | `all_imessages_complete_dump.txt` |
+
+The direction split is the finding here, not a caveat: a 58:7 inbound ratio is
+unique among supply contacts and is what makes this a marketing channel rather
+than a sourcing one.
+
+## Gaps
+
+Each answerable by the operator in a paragraph.
+
+- **Who is Zaco?** The name is self-given in a single SMS and appears nowhere
+  else in the corpus — not in contacts, the Facebook archive, or any other
+  thread. A real name would let this page be checked against the rest of the
+  Uniontown network.
+- **What is "Tex"?** Advertised repeatedly alongside strips and never
+  explained.
+- **Did the November 26 purchase ever happen?** The thread ends with Dan
+  unable to travel. Nothing later in the corpus refers to him.
+- **Was he a Johnny substitute or an independent?** Both are active in
+  Uniontown in 2018; nothing links them, and the question is whether the
+  push-marketing posture reflects a lower position in the same chain.
 
 
 ========================================================================
@@ -55160,6 +55312,7 @@ The self domain contains files and data detailing identity, core biographical fa
 - [[wiki/self/lineage/family-tree]] — Ancestry.com GEDCOM family tree (515 individuals).
 - [[wiki/self/lineage/23andme-genomics]] — 23andMe DNA composition, chromosome painting, Neanderthal data.
 - [[wiki/self/lineage/hybrid-analysis]] — Cross-referenced analysis (speculative).
+- [[wiki/self/concepts/astrology-star-signs]] — zodiac signs of the highest-velocity contacts, derived only from primary testimony; two known of the top twenty, and the Scorpio–Cancer reading of the Ally attachment.
 
 
 ========================================================================
@@ -56355,9 +56508,19 @@ Ties FB ihatedanfrank archive (groups/your_posts_in_groups, events/event_invitat
 
 Named contacts extracted from the master dump that have their own page but do not meet the full-person-page threshold. They exist as lightweight entity pages rather than in the hash-stub quarantine:
 
-[[wiki/people/aaron]] · [[wiki/people/brian]] · [[wiki/people/bruceburish]] · [[wiki/people/james]] · [[wiki/people/jess]] · [[wiki/people/josh-brannan]] · [[wiki/people/marla]] · [[wiki/people/michael-hinkle]] · [[wiki/people/ryan-lisac]] · [[wiki/people/shannon]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/urpaaa-at-yahoo-com]] · [[wiki/people/zaco]]
+[[wiki/people/aaron]] · [[wiki/people/brian]] · [[wiki/people/bruce-burish]] · [[wiki/people/james]] · [[wiki/people/jess]] · [[wiki/people/josh-brannan]] · [[wiki/people/marla]] · [[wiki/people/michael-hinkle]] · [[wiki/people/ryan-lisac]] · [[wiki/people/shannon]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/urpaaa-at-yahoo-com]] · [[wiki/people/zaco]]
 
-The 97 auto-generated hash stubs (contacts ≥20 msgs, non-spam) are quarantined in [[wiki/people/contacts/]]. Two high-volume unidentified handles remain flagged for future ID: +17249204125 (~4.8k msgs, PA facilitation) and +17248808111.
+> **CORRECTED [2026-08-20]:** this paragraph read *"The 97 auto-generated hash
+> stubs (contacts ≥20 msgs, non-spam) are quarantined in
+> `[[wiki/people/contacts/]]`."* **That directory does not exist** and has not
+> since the quarantine was dissolved — `BACKLOG.md` already records
+> `contact-review.md` as "a worksheet for a quarantine that no longer exists."
+> The link had been rendering broken on the site ever since.
+
+Two high-volume unidentified handles remain flagged for future ID:
+`+17249204125` (**9,481 msgs** — 4,669 sent, 4,812 received; the 4.8k figure
+this page previously carried was the received-only count, corrected
+2026-08-20 on [[wiki/people/annie-ulmer]]) and `+17248808111`.
 
 ## Next Steps in Ingest
 Further dumps (imessage_*_both_*.csv variants) provide sent/received splits, last-6-months slices, group chat drama (annie_group_chat_drama.csv), THE END FIGHT. Full FB posts/groups cross for events.
@@ -56746,6 +56909,9 @@ graph, and residence timeline are maintained authoritatively at
 [[wiki/self/context-core]].
 
 ## Heritage
+
+Dan self-identifies as a Scorpio and dates it precisely — *"I am super scorpio / Nov 1"* — and the corpus carries enough primary testimony from other contacts to make the zodiac an actual (small) dataset rather than a throwaway: see [[wiki/self/concepts/astrology-star-signs]], which records what is known, what is unknown for eighteen of the top twenty contacts, and the one pairing the corpus can say anything about.
+
 
 Paternal line Eastern European Jewish — [[wiki/people/david-j-frank|David J. Frank]] (b. 1892, Russia) and
 [[wiki/people/sadie-harris|Sadie Harris]] (b. 1900, Austria) through Morley Jay Frank to Rick — heritage
@@ -60191,6 +60357,13 @@ finding was made from a two-removes transcript and it survives contact with
 the real one.
 
 ## The campaign — August 17 to 19
+
+> The ethical reading of the fifteen minutes above — what each of the three
+> participants was doing, and how mechanism, stated intent, effect and moral
+> character come apart — is at
+> [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]].
+> Its conclusion is harsher toward all three than this page is toward any of
+> them.
 
 From 00:13 on August 17 the window stops being about Coles and becomes about
 what Dan will do with the recording. The demand is never money and never
@@ -64342,6 +64515,7 @@ related: []
 - [[wiki/timeline/periods/feb-apr-2025-return-and-rupture]] — week-level granularity on the immediate aftermath of the Jan 2025 affair discovery: the NYC apartment exit, Annie's unilateral move to her parents, Suz's 2024 bankruptcy destabilizing the landing.
 - [[wiki/timeline/periods/2025-collapse]] — Freqs cross: annie:22, suzanne:16, bunker:20, work:22, timeline:16. Cross _07 Grim Trigger Suzy blackout…
 - [[wiki/timeline/periods/dec-2025-spike]] — 2025-12-01 to 2025-12-31
+- [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] — provenance note for the Morgantown recording's transcript; superseded the day it was written by the verification on the event page itself.
 
 
 ========================================================================
@@ -67357,7 +67531,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **October 2018** — Before Dan, and unprompted by him:** an October 2018 message — reminiscing rather than disclosing in the moment — describes Annie having run a paid photo/video account before they started dating (pre-November 2015), and being blackmailed by men threatening to expose it to people who knew her; the…  
   ↳ [[wiki/people/annie-ulmer]] · Before Dan
 - ◆ **October 2018** — Bruce Burish was a caddying-era friend (he references missing Nemacolin) who resurfaces for one dense, explicit five-day conversation in October 2018 (`+17249848911`, 181 messages, Oct 23–27) after Dan tells him he and his girlfriend are starting a webcam show together.  
-  ↳ [[wiki/people/bruceburish]] · Bruce Burish
+  ↳ [[wiki/people/bruce-burish]] · Bruce Burish
 - · **October 2018** — Sporadic, low-effort check-ins follow ("You working today dude?", "You duckin me bro or you just busy?"), with a final October 2018 message noting Casey now has a medical marijuana card and offering to "float" Dan.  
   ↳ [[wiki/people/casey-bondarenka]] · Later contact (2017–2018)
 - · **October 2018** — Nearly every report time Dan worked that season arrived through this channel ("8:30 report," "12 report," about twenty of them, March through October 2018), along with training assignments, float days, and the affectionate management of a caddie he plainly liked.  
@@ -70165,6 +70339,9 @@ date_modified: 2026-08-18
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/LIFE REPORT.md", "raw/self/dox-md/Gemini-_00.md"]
 related: ["wiki/timeline/events/timeline", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/totality-themes"]
 connections:
+  - page: wiki/people/zaco
+    type: contains
+    claim: "The Zaco thread runs March-June 2018 inside this period and shares its economics — $50 for three Suboxone strips, $70-75 for three — small cash amounts in the months of daily Cash App limits and declined payments."
   - page: wiki/people/johnny-dealer
     type: contains
     claim: "Johnny's 3,462-message logistics thread is this period's material infrastructure — the fronts, 1 AM ATM runs, and delivery cadence are the deep cycle at ground level."

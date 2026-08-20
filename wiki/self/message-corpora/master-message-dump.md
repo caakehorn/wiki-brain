@@ -133,9 +133,19 @@ Ties FB ihatedanfrank archive (groups/your_posts_in_groups, events/event_invitat
 
 Named contacts extracted from the master dump that have their own page but do not meet the full-person-page threshold. They exist as lightweight entity pages rather than in the hash-stub quarantine:
 
-[[wiki/people/aaron]] · [[wiki/people/brian]] · [[wiki/people/bruceburish]] · [[wiki/people/james]] · [[wiki/people/jess]] · [[wiki/people/josh-brannan]] · [[wiki/people/marla]] · [[wiki/people/michael-hinkle]] · [[wiki/people/ryan-lisac]] · [[wiki/people/shannon]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/urpaaa-at-yahoo-com]] · [[wiki/people/zaco]]
+[[wiki/people/aaron]] · [[wiki/people/brian]] · [[wiki/people/bruce-burish]] · [[wiki/people/james]] · [[wiki/people/jess]] · [[wiki/people/josh-brannan]] · [[wiki/people/marla]] · [[wiki/people/michael-hinkle]] · [[wiki/people/ryan-lisac]] · [[wiki/people/shannon]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/urpaaa-at-yahoo-com]] · [[wiki/people/zaco]]
 
-The 97 auto-generated hash stubs (contacts ≥20 msgs, non-spam) are quarantined in [[wiki/people/contacts/]]. Two high-volume unidentified handles remain flagged for future ID: +17249204125 (~4.8k msgs, PA facilitation) and +17248808111.
+> **CORRECTED [2026-08-20]:** this paragraph read *"The 97 auto-generated hash
+> stubs (contacts ≥20 msgs, non-spam) are quarantined in
+> `[[wiki/people/contacts/]]`."* **That directory does not exist** and has not
+> since the quarantine was dissolved — `BACKLOG.md` already records
+> `contact-review.md` as "a worksheet for a quarantine that no longer exists."
+> The link had been rendering broken on the site ever since.
+
+Two high-volume unidentified handles remain flagged for future ID:
+`+17249204125` (**9,481 msgs** — 4,669 sent, 4,812 received; the 4.8k figure
+this page previously carried was the received-only count, corrected
+2026-08-20 on [[wiki/people/annie-ulmer]]) and `+17248808111`.
 
 ## Next Steps in Ingest
 Further dumps (imessage_*_both_*.csv variants) provide sent/received splits, last-6-months slices, group chat drama (annie_group_chat_drama.csv), THE END FIGHT. Full FB posts/groups cross for events.

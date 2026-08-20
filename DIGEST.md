@@ -14,10 +14,10 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 486 |
-| Pages touched in the last 14 days | 168 |
+| Pages touched in the last 14 days | 170 |
 | Pages reasoning from other pages (`synthesizes:`) | 40 |
 | Live contradictions | 45 |
-| Open gaps | 395 |
+| Open gaps | 401 |
 | Standing predictions | 36 |
 
 ## By domain
@@ -38,15 +38,15 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
-| stable | 188 |
+| stable | 189 |
 | active | 155 |
 | closed | 99 |
 | archived | 31 |
-| stub | 13 |
+| stub | 12 |
 
 ## The last few days
 
-**2026-08-20** — 45 pages
+**2026-08-20** — 47 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
   - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
   - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
@@ -54,6 +54,7 @@ this is the state of the thing.
   - rewrite | people | ally-lubin — the wiki hallucinated about itself, and the infobox carried it
   - rewrite | people | annie-ulmer — the zero holds at full width; the ending was not one thread
   - lint | timeline | two committed conflict markers on main
+  - ingest | timeline | the Morgantown recording, verified against a real transcript
 
 **2026-08-19** — 43 pages
   - audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three

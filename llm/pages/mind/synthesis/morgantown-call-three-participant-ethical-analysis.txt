@@ -8,31 +8,31 @@ date_created: 2026-08-20
 date_modified: 2026-08-20
 tags: [forensic-analysis, relationships, legal, mental-health]
 sources:
- - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
- - raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt
- - raw/self/audio/README_2026-08-16_morgantown-call.md
- - raw/self/message-csv/imessage_export_2124702449_20260820.csv
- - raw/self/message-csv/imessage_export_7248123683_20260820.csv
+  - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
+  - raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt
+  - raw/self/audio/README_2026-08-16_morgantown-call.md
+  - raw/self/message-csv/imessage_export_2124702449_20260820.csv
+  - raw/self/message-csv/imessage_export_7248123683_20260820.csv
 synthesizes:
- - wiki/timeline/events/august-2026-morgantown-call
- - wiki/timeline/events/july-august-2026-reentanglement
- - wiki/mind/synthesis/august-grievance-verdict
- - wiki/mind/synthesis/dan-annie-fallout-verdict
- - wiki/people/annie-ulmer
- - wiki/people/jerel-coles
+  - wiki/timeline/events/august-2026-morgantown-call
+  - wiki/timeline/events/july-august-2026-reentanglement
+  - wiki/mind/synthesis/august-grievance-verdict
+  - wiki/mind/synthesis/dan-annie-fallout-verdict
+  - wiki/people/annie-ulmer
+  - wiki/people/jerel-coles
 connections:
- - page: wiki/timeline/events/august-2026-morgantown-call
- type: instance-of
- claim: "That page establishes what is on the recording; this one asks what each of the three participants was doing in it, and separates mechanism from stated intent, inferred intent, effect and moral character rather than collapsing them into a single verdict."
- - page: wiki/mind/synthesis/august-grievance-verdict
- type: parallels
- claim: "That page scores Dan's ten grievances against Annie one by one; this one scores the conduct of all three participants inside a single fifteen-minute window, and reaches the harsher conclusion about each of them that a grievance-by-grievance frame cannot produce."
- - page: wiki/mind/synthesis/dan-annie-fallout-verdict
- type: parallels
- claim: "The fallout verdict adjudicates a decade; this one adjudicates fifteen minutes, and finds that the shortest window inverts the decade's power distribution — Annie is the least powerful person in the recorded room."
- - page: wiki/people/jerel-coles
- type: evidences
- claim: "The recording is the only primary artifact in the corpus in which Coles is directly audible, and it establishes his conduct rather than his motive: he holds Annie's phone, conditions its return on an answer, and threatens family disclosure to force one."
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: instance-of
+    claim: "That page establishes what is on the recording; this one asks what each of the three participants was doing in it, and separates mechanism from stated intent, inferred intent, effect and moral character rather than collapsing them into a single verdict."
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: parallels
+    claim: "That page scores Dan's ten grievances against Annie one by one; this one scores the conduct of all three participants inside a single fifteen-minute window, and reaches the harsher conclusion about each of them that a grievance-by-grievance frame cannot produce."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: parallels
+    claim: "The fallout verdict adjudicates a decade; this one adjudicates fifteen minutes, and finds that the shortest window inverts the decade's power distribution — Annie is the least powerful person in the recorded room."
+  - page: wiki/people/jerel-coles
+    type: evidences
+    claim: "The recording is the only primary artifact in the corpus in which Coles is directly audible, and it establishes his conduct rather than his motive: he holds Annie's phone, conditions its return on an answer, and threatens family disclosure to force one."
 ---
 
 # The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles

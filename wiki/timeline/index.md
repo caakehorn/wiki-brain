@@ -56,3 +56,4 @@ related: []
 - [[wiki/timeline/periods/feb-apr-2025-return-and-rupture]] — week-level granularity on the immediate aftermath of the Jan 2025 affair discovery: the NYC apartment exit, Annie's unilateral move to her parents, Suz's 2024 bankruptcy destabilizing the landing.
 - [[wiki/timeline/periods/2025-collapse]] — Freqs cross: annie:22, suzanne:16, bunker:20, work:22, timeline:16. Cross _07 Grim Trigger Suzy blackout…
 - [[wiki/timeline/periods/dec-2025-spike]] — 2025-12-01 to 2025-12-31
+- [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] — provenance note for the Morgantown recording's transcript; superseded the day it was written by the verification on the event page itself.

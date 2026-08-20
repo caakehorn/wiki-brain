@@ -7,6 +7,9 @@ date_modified: 2026-08-18
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/*", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/LIFE REPORT.md", "raw/self/dox-md/Gemini-_00.md"]
 related: ["wiki/timeline/events/timeline", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump", "wiki/mind/synthesis/vertical-authority-skepticism", "wiki/self/facebook", "wiki/self/gemini-activity/gemini-activity", "wiki/mind/synthesis/totality-themes"]
 connections:
+  - page: wiki/people/zaco
+    type: contains
+    claim: "The Zaco thread runs March-June 2018 inside this period and shares its economics — $50 for three Suboxone strips, $70-75 for three — small cash amounts in the months of daily Cash App limits and declined payments."
   - page: wiki/people/johnny-dealer
     type: contains
     claim: "Johnny's 3,462-message logistics thread is this period's material infrastructure — the fronts, 1 AM ATM runs, and delivery cadence are the deep cycle at ground level."

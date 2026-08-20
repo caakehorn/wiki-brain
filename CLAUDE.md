@@ -127,7 +127,7 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 |---|---|
 | `bin/capture` | human-facing input: interactive typing/pasting, one-shot facts, file upload (`-f`), `status` |
 | `bin/mine-messages` | corpus mining over the full iMessage dump: `stats`, `grep`, `timeline`, `battery`, `entities`. **Use this instead of grep** — three properties of the dump make naive grep silently wrong |
-| `bin/wiki-lint` | frontmatter, links, orphans, sizes, duplicate frontmatter keys, retracted claims (`RETRACTED.md`), empty cited sources, **unresolved merge markers and assistant citation artifacts**. Must be 0 errors before commit |
+| `bin/wiki-lint` | frontmatter, links, orphans, sizes, duplicate frontmatter keys, retracted claims (`RETRACTED.md`), empty cited sources, **unresolved merge markers, assistant citation artifacts, malformed frontmatter blocks and master-index count drift**. Must be 0 errors before commit |
 | `bin/wiki-freshness` | is the generated corpus (`llm/`) in sync with `wiki/`? Exact set difference against `llm/manifest.json`; never writes. Exit 1 on drift |
 | `bin/wiki-connect` | `check` (typed-edge lint), `audit` (graph health), `candidates` (writes `connection-queue.md`) |
 | `bin/wiki-climb` | `check` (validates `synthesizes:`, reports stale premises), `audit` (tier distribution), `candidates` (writes `synthesis-queue.md`) |

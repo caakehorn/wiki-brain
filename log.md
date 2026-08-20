@@ -2971,3 +2971,72 @@ including a regression test that the whole wiki stays clean and negative tests
 proving a setext underline and an `=======`-with-content are not markers.
 BACKLOG item closed. 52 tests pass; three gates 0 errors; corpus in sync at 486
 pages.
+
+## [2026-08-20] lint | wiki | wiring the recent PRs into the structure — and a duplicate entity, a dead quarantine, and my own damage
+
+Operator asked for the recent PRs' entries to be checked for links, connected
+subheads, and whether they actually appear in the wiki's structure. Thirteen
+pages had landed since PR #143. **Every one was reachable in principle and
+several were not reachable in practice.**
+
+**Five pages were in no index at all** —
+`morgantown-call-three-participant-ethical-analysis`, both personality
+assessments, `astrology-star-signs`, and the Morgantown source amendment. Six
+pages were flagged orphan (no inbound wikilinks). Both are now zero: index
+entries written with real one-line summaries, and prose cross-links added from
+the pages the material actually belongs to — the assessments from their
+subjects' pages, the ethical analysis from the event page it adjudicates,
+astrology from `self/overview` where Dan's own *"I am super scorpio / Nov 1"*
+sits.
+
+**All nine domain counts on the master index were stale.** `people` advertised
+150 against an actual 164; `self` 29 against 37. The wiki's front door was
+misreporting its own size in every row but `legal`.
+
+**A duplicate entity, and the received-only trap for the third time this week.**
+`wiki/people/bruceburish` and `wiki/people/bruce-burish` were the same man, same
+handle, same five days — one fuller and linked, one a thinner stub carrying the
+only typed edge, orphaned. Merged under the hyphenated slug per STYLE_GUIDE
+rule 2, inbound links swept. Both pages reported the thread as **181 messages**,
+and the stub added that they were *"all received (export artifact — Dan's
+outbound not captured)."* 181 is the received count. The complete dump returns
+**348** — 167 of them Dan's. There was no artifact swallowing his side, only the
+wrong file. A thread readable as Bruce talking at Dan is in fact near-balanced,
+and Dan's 167 messages are where the camming detail comes from.
+
+**Two dead links in `master-message-dump` that had been rendering broken on the
+site.** `[[wiki/people/contacts/]]` — a quarantine directory that no longer
+exists, as `BACKLOG.md` already recorded. And `[[wiki/people/zaco]]`, listed
+among contacts that "have their own page," which did not. He earns one: 65
+messages, March–November 2018, and the finding is the direction split. **58 of
+65 are his**, almost all unsolicited inventory advertisements — *"3 strip for
+50,"* *"Strips on sale,"* *"I'm in town I got 3 subs for 70."* Every other
+supply relationship in the corpus runs the other way, with Dan chasing
+availability. Zaco is the network's only push-marketing node. The thread also
+ends on a detail worth keeping: the last exchange fails on **transport, not
+money or supply** — Dan has the cash in hand and a willing seller, and cannot
+get across town.
+
+**Two linter false positives, thirteen warnings between them.** Seven
+`[[page\|Label]]` links were reported broken because the regex kept the
+backslash that markdown tables *require*; three more because the linter read
+wikilink syntax being discussed inside code spans as links. Both fixed —
+targets now strip a trailing backslash, and fenced blocks and inline code are
+blanked (preserving offsets) before scanning. Verified genuine breaks are still
+caught, inside tables included.
+
+**And the damage I did myself.** The PUA-stripping cleanup in the previous pass
+ran `re.sub(r'[ \t]{2,}', ' ')` over the one file it touched, which collapsed
+**15 lines of YAML indentation** in
+`morgantown-call-three-participant-ethical-analysis` — silently deleting its
+four typed edges. **All three gates stayed green**, because a `connections:`
+block that loses its indent is invisible to `wiki-connect` rather than invalid.
+Frontmatter repaired; the edges are live again.
+
+That hole is now closed: `bin/wiki-lint` errors on any `sources:`,
+`synthesizes:` or `connections:` block whose list items are unindented or whose
+`type:`/`claim:` fields are under-indented, on the principle that **an entry
+nothing can read is worse than a missing one, because nothing reports it.** A
+second new check warns when the master index's per-domain counts drift from
+reality. 78 tests pass (up from 52), three gates 0 errors, corpus in sync at
+486 pages.

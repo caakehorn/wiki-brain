@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 45 |
-| Open gaps | 395 |
+| Open gaps | 401 |
 | Answered, awaiting ingest | 2 |
 | Standing predictions | 36 |
 
@@ -266,7 +266,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (138)
+### people (144)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -290,8 +290,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/bill]]** — Last name, and whether contact continued past September 2018, are undocumented.
 - **[[wiki/people/bill-ulmer]]** — No message after June 2020 appears in the corpus; whether contact continued past that point, and whether it survived the eventual end of the Dan/Annie relationship, is undocumented.
 - **[[wiki/people/brennan-meadows]]** — No contacts.csv match and no further mentions elsewhere in the corpus; identity beyond the name is unconfirmed.
-- **[[wiki/people/bruce-burish]]** — Role and relationship to Dan unknown. The 4-day intensity suggests either a transactional exchange or a reconnection that didn't sustain. No Facebook, dox, or other corpus cross-references found.
-- **[[wiki/people/bruceburish]]** — Whether Bruce's November visit or any cam-show collaboration materialized is undocumented; no further contact appears in the corpus after this window, though a separate Facebook Messenger thread (`bruceburish_t6vdszljtq`) exists in the raw archive and has not 
+- **[[wiki/people/bruce-burish]]** — **Did the November visit or any collaboration happen?** No contact appears after October 27 in any channel. One paragraph from the operator settles it.
+- **[[wiki/people/bruce-burish]]** — **The Facebook Messenger thread is unread.** `raw/self/facebook/.../bruceburish_t6vdszljtq/` exists in the archive and has never been cross-read against this page. It is the only other channel where this friendship appears and would date its origin.
+- **[[wiki/people/bruce-burish]]** — **How the friendship actually started.** "Caddying-era" is inferred from Bruce's own nostalgia, not stated. nemacolin-caddying does not name him.
 - **[[wiki/people/bub]]** — Real name and how the friendship originated (likely college, given the roommate references) are undocumented.
 - **[[wiki/people/casey-bondarenka]]** — **The "Casey saga."** Whatever Dan called *"bombastic"* on 2015-11-30 moved to a phone call and is never restated in text. Look: Dec 1–3 for a retelling.
 - **[[wiki/people/casey-bondarenka]]** — **Who told Ellen Ulmer about the car.** Casey is blamed by both parties and never confirmed.
@@ -406,6 +407,11 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/zach-clabaugh]]** — Relationship and context unresolved. The professional email domain and collaborative message tone suggest a work or project connection rather than a purely social one. No Facebook or other corpus cross-references found.
 - **[[wiki/people/zach-clingan]]** — The surname identification rests on the contact-export chain above rather than on any message in which he is named alongside the 843 number; a single message addressing him by name would close it, and none exists. What he did outside the caddie yard is unrecor
 - **[[wiki/people/zach-hendricks]]** — Relationship to Dan unresolved. The casual nickname and Fayette County location suggest a Uniontown social-circle friend. No Facebook or other corpus cross-references found.
+- **[[wiki/people/zaco]]** — Each answerable by the operator in a paragraph.
+- **[[wiki/people/zaco]]** — **Who is Zaco?** The name is self-given in a single SMS and appears nowhere else in the corpus — not in contacts, the Facebook archive, or any other thread. A real name would let this page be checked against the rest of the Uniontown network.
+- **[[wiki/people/zaco]]** — **What is "Tex"?** Advertised repeatedly alongside strips and never explained.
+- **[[wiki/people/zaco]]** — **Did the November 26 purchase ever happen?** The thread ends with Dan unable to travel. Nothing later in the corpus refers to him.
+- **[[wiki/people/zaco]]** — **Was he a Johnny substitute or an independent?** Both are active in Uniontown in 2018; nothing links them, and the question is whether the push-marketing posture reflects a lower position in the same chain.
 
 ### places (7)
 
