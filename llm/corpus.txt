@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-20
-476 pages, ~1,139,599 tokens.
+476 pages, ~1,139,605 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -17112,11 +17112,10 @@ date_created: 2026-07-15
 date_modified: 2026-08-18
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
-  - raw/self/message-csv/imessage_7244346811+2124702449_both_all_now.csv
+  - raw/self/message-csv/imessage_7244346811+212****2449_both_all_now.csv
   - raw/self/message-csv/imessages_2124702449_last6months.csv
   - raw/self/message-csv/annie_all_time_logs.csv
   - raw/self/message-csv/THE END FIGHT.csv
-  - raw/self/message-csv/END_FIGHT_full.csv
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
@@ -24477,7 +24476,12 @@ later today with $250 in her cash app."* A finder's fee of twenty-five
 dollars and a gift of two hundred and fifty, inside the same week, inside
 [[wiki/timeline/periods/2018-deep-cycle|the deep cycle]] — the period whose
 other documented facts are daily Cash App limits, declined payments, and
-$750/week borrowed from his mother.
+~$14,000 from Dan to her (Aug–Oct 2018).
+
+> **CORRECTED [2026-08-20]:** The previous figure was $750/week borrowed
+> from Suz; this was a single accusation from 13 December 2018 that was
+> incorrectly generalized into a rate. The primary record shows the flow
+> was reversed.
 
 The iMessage record opens five days after that, on **December 17, 2018**, at
 `allylubin@gmail.com`. It is warm, literate and jointly funny — MBTI
@@ -29796,7 +29800,7 @@ marriage.
 | Their daughter | **Rebecca Diane Van Voorhis** | 1939-01-30, West Virginia |
 | Diane's first husband | George Dixon Shrum Jr. | 1937-06-14, Pittsburgh |
 | Their daughter | Suzanne Whyel Shrum | 1962-09-15, Pittsburgh |
-| Diane's second husband | [[wiki/people/dave-moore\|Dave Moore]] | not in the record |
+| Diane's second husband | [[wiki/people/dave-moore|Dave Moore]] | not in the record |
 
 The April 1940 census places Emmet, Fran and the fourteen-month-old Diane
 together in Smithfield, Fayette County — Fran's arrival in the county that
@@ -47749,7 +47753,7 @@ connections:
   - page: wiki/people/ally-lubin
     type: instantiates
     claim: "Ally Lubin is a Cancer — born June 26, 1990 — and her sign's characteristic traits (emotional depth, loyalty, protectiveness, moodiness) map precisely onto the seventeen-year attachment pattern documented on her page."
-  - page: wiki/self/concepts/dan-as-scorpio
+  - page: wiki/self/dan-frank
     type: component-of
     claim: "Dan Frank is a Scorpio — born November 1 — and his page analyzes how he does and does not display the sign's characteristic traits."
   - page: wiki/self/dan-frank
@@ -47765,7 +47769,7 @@ This entry documents the zodiac signs of the most frequent and highest-velocity 
 
 | Contact | Sign | Birth Date | Evidence | Message Count | How They Display the Sign |
 |---|---|---|---|---|---|
-| **Dan Frank** | Scorpio | November 1, 1988 | Self-identified in thread ("I am super scorpio / Nov 1") | — (subject) | See [[wiki/self/concepts/dan-as-scorpio|Dan as Scorpio]] |
+| **Dan Frank** | Scorpio | November 1, 1988 | Self-identified in thread ("I am super scorpio / Nov 1") | — (subject) | See [[wiki/self/dan-frank|Dan Frank]] |
 | **Ally Lubin** | Cancer | June 26, 1990 | Derived: "I turn 30 in 18 days" (2020-06-08); she gives her sign as Cancer | 1,375 (iMessage) + 21 (FB) | Emotional depth, loyalty, protectiveness, moodiness, nurturing through crisis |
 
 ## The Unknown Signs
@@ -51903,9 +51907,9 @@ Ties FB ihatedanfrank archive (groups/your_posts_in_groups, events/event_invitat
 
 Named contacts extracted from the master dump that have their own page but do not meet the full-person-page threshold. They exist as lightweight entity pages rather than in the hash-stub quarantine:
 
-[[wiki/people/aaron]] · [[wiki/people/brian]] · [[wiki/people/bruceburish]] · [[wiki/people/james]] · [[wiki/people/jess]] · [[wiki/people/josh-brannan]] · [[wiki/people/marla]] · [[wiki/people/michael-hinkle]] · [[wiki/people/ryan-lisac]] · [[wiki/people/shannon]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/urpaaa-at-yahoo-com]] · [[wiki/people/zaco]]
+[[wiki/people/aaron]] · [[wiki/people/brian]] · [[wiki/people/bruceburish]] · [[wiki/people/james]] · [[wiki/people/jess]] · [[wiki/people/josh-brannan]] · [[wiki/people/marla]] · [[wiki/people/michael-hinkle]] · [[wiki/people/ryan-lisac]] · [[wiki/people/shannon]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/urpaaa-at-yahoo-com]]
 
-The 97 auto-generated hash stubs (contacts ≥20 msgs, non-spam) are quarantined in [[wiki/people/contacts/]]. Two high-volume unidentified handles remain flagged for future ID: +17249204125 (~4.8k msgs, PA facilitation) and +17248808111.
+The 97 auto-generated hash stubs (contacts ≥20 msgs, non-spam) are quarantined. Two high-volume unidentified handles remain flagged for future ID: +172****4125 (~4.8k msgs, PA facilitation) and +172****8111.
 
 ## Next Steps in Ingest
 Further dumps (imessage_*_both_*.csv variants) provide sent/received splits, last-6-months slices, group chat drama (annie_group_chat_drama.csv), THE END FIGHT. Full FB posts/groups cross for events.
@@ -55776,7 +55780,7 @@ date_created: 2026-06-23
 date_modified: 2026-06-23
 date_range_start: 2026-05-31
 date_range_end: 2026-06-01
-sources: ["raw/self/message-csv/THE END FIGHT.csv", "raw/self/message-csv/END_FIGHT_full.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
+sources: ["raw/self/message-csv/THE END FIGHT.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/events/group-chat-closure", "wiki/timeline/periods/2025-collapse", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/conflict-architecture"]
 tags: [addiction-recovery, trauma-bond]
 connections:
@@ -56360,7 +56364,6 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/message-csv/annie_all_time_logs.csv
   - raw/self/message-csv/THE END FIGHT.csv
-  - raw/self/message-csv/END_FIGHT_full.csv
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
 tags: [relationships]

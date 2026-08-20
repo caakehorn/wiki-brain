@@ -185,7 +185,12 @@ later today with $250 in her cash app."* A finder's fee of twenty-five
 dollars and a gift of two hundred and fifty, inside the same week, inside
 [[wiki/timeline/periods/2018-deep-cycle|the deep cycle]] — the period whose
 other documented facts are daily Cash App limits, declined payments, and
-$750/week borrowed from his mother.
+~$14,000 from Dan to her (Aug–Oct 2018).
+
+> **CORRECTED [2026-08-20]:** The previous figure was $750/week borrowed
+> from Suz; this was a single accusation from 13 December 2018 that was
+> incorrectly generalized into a rate. The primary record shows the flow
+> was reversed.
 
 The iMessage record opens five days after that, on **December 17, 2018**, at
 `allylubin@gmail.com`. It is warm, literate and jointly funny — MBTI

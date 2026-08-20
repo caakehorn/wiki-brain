@@ -19,7 +19,7 @@ connections:
   - page: wiki/people/ally-lubin
     type: instantiates
     claim: "Ally Lubin is a Cancer — born June 26, 1990 — and her sign's characteristic traits (emotional depth, loyalty, protectiveness, moodiness) map precisely onto the seventeen-year attachment pattern documented on her page."
-  - page: wiki/self/concepts/dan-as-scorpio
+  - page: wiki/self/dan-frank
     type: component-of
     claim: "Dan Frank is a Scorpio — born November 1 — and his page analyzes how he does and does not display the sign's characteristic traits."
   - page: wiki/self/dan-frank
@@ -35,7 +35,7 @@ This entry documents the zodiac signs of the most frequent and highest-velocity 
 
 | Contact | Sign | Birth Date | Evidence | Message Count | How They Display the Sign |
 |---|---|---|---|---|---|
-| **Dan Frank** | Scorpio | November 1, 1988 | Self-identified in thread ("I am super scorpio / Nov 1") | — (subject) | See [[wiki/self/concepts/dan-as-scorpio|Dan as Scorpio]] |
+| **Dan Frank** | Scorpio | November 1, 1988 | Self-identified in thread ("I am super scorpio / Nov 1") | — (subject) | See [[wiki/self/dan-frank|Dan Frank]] |
 | **Ally Lubin** | Cancer | June 26, 1990 | Derived: "I turn 30 in 18 days" (2020-06-08); she gives her sign as Cancer | 1,375 (iMessage) + 21 (FB) | Emotional depth, loyalty, protectiveness, moodiness, nurturing through crisis |
 
 ## The Unknown Signs
