@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-19 — 9 pages
+## 2026-08-19 — 12 pages
 
 - **Session log:** synthesis | health | cocaine — new substance profile page
 
@@ -16,7 +16,10 @@ simply listed.
 |---|---|---|
 | [[wiki/health/cocaine]] | health | — |
 | [[wiki/health/index]] | health | — |
+| [[wiki/people/annie-ulmer-personality-assessment]] | people | — |
+| [[wiki/people/suzanne-frank-personality-assessment]] | people | — |
 | [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | — |
+| [[wiki/self/concepts/astrology-star-signs]] | self | — |
 | [[wiki/self/concepts/chatgpt]] | self | — |
 | [[wiki/self/concepts/claude]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/concepts/claude-code]] | self | _(carries a RE-CHECKED)_ |
@@ -24,10 +27,7 @@ simply listed.
 | [[wiki/self/concepts/llm]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/concepts/wiki-brain]] | self | — |
 
-## 2026-08-18 — 21 pages
-
-- **Session log:** rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
-## 2026-08-18 — 57 pages
+## 2026-08-18 — 58 pages
 
 - **Session log:** rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
 - **Session log:** ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
@@ -65,8 +65,8 @@ simply listed.
 | [[wiki/mind/synthesis/totality-themes]] | mind | _(carries a RE-CHECKED from 2026-08-16)_ |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/people/alexander-jackson]] | people | — |
-| [[wiki/people/ally-lubin]] | people | **CORRECTED** — The page said the iMessage record was *"452 messages at handle +15619061550, spanning 2019-06-28 to 2023-11-14."* All three figures were artifacts of the file the previous pass read. `452` is exactly  |
 | [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-08-15)_ |
+| [[wiki/people/ally-lubin]] | people | **CORRECTED** — The page said the iMessage record was *"452 messages at handle +15619061550, spanning 2019-06-28 to 2023-11-14."* All three figures were artifacts of the file the previous pass read. `452` is exactly  |
 | [[wiki/people/annie-ulmer]] | people | _(carries a CORRECTED from 2026-08-16)_ |
 | [[wiki/people/arnu]] | people | _(carries a DEADLINE ELAPSED from 2026-08-02)_ |
 | [[wiki/people/danielle-onesi]] | people | **CORRECTED** — this paragraph had the identification right and the wiki did not act on it. A separate entity page, `wiki/people/max-danielle-bf`, was created in June 2026 for the same man under the name "Max" — read |
@@ -447,8 +447,7 @@ simply listed.
 | [[wiki/self/lineage/index]] | self | — |
 | [[wiki/work/caviar-courier]] | work | — |
 
-## 2026-07-20 — 39 pages
-## 2026-07-20 — 38 pages
+## 2026-07-20 — 37 pages
 
 - **Session log:** ingest | people | FB deep-scrape XII — matthew-palermo (new tier-one entry)
 - **Session log:** ingest | people | FB deep-scrape XIII — david-beard (new tier-one entry)
