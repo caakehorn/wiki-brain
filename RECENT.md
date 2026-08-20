@@ -15,6 +15,7 @@ simply listed.
 - **Session log:** close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
 - **Session log:** climb | mind | the grievances of the last conversation, scored one by one — and Dan's own evidence turns out to cut both ways
 - **Session log:** rewrite | people | ally-lubin — the wiki hallucinated about itself, and the infobox carried it
+- **Session log:** rewrite | people | annie-ulmer — the zero holds at full width; the ending was not one thread
 
 | Page | Domain | What moved |
 |---|---|---|

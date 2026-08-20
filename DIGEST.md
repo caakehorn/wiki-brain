@@ -52,6 +52,7 @@ this is the state of the thing.
   - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
   - climb | mind | the grievances of the last conversation, scored one by one — and Dan's own evidence turns out to cut both ways
   - rewrite | people | ally-lubin — the wiki hallucinated about itself, and the infobox carried it
+  - rewrite | people | annie-ulmer — the zero holds at full width; the ending was not one thread
 
 **2026-08-19** — 43 pages
   - audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three

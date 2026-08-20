@@ -12,7 +12,6 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/message-csv/annie_all_time_logs.csv
   - raw/self/message-csv/THE END FIGHT.csv
-  - raw/self/message-csv/END_FIGHT_full.csv
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
 tags: [relationships]

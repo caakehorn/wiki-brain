@@ -449,7 +449,6 @@ Second run of the spread step on this read. Every claim below was gated on a ver
 **No climb was written**, deliberately. The January 2016 material is dense but it all belongs to existing pages — annie-ulmer for the relationship narrative, supply-network for the drug escalation, bond-switch-2015 for the marriage frame. No new synthesis page is warranted.
 
 **Next on this page.** [[wiki/timeline/annie-record]] still carries **zero `[[wiki/…]]` links across its December entries** against 13 in the Nov 28–30 block. Cross-linking Dec 1–31 remains mechanical, high-value and not done.
->>>>>>> origin/main
 
 ---
 

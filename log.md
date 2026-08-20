@@ -2866,3 +2866,22 @@ the problem is not that Dan has one channel but that his second is
 a lifetime-volume concentration metric could not see it.
 
 Three gates 0 errors; 41 tests pass; generated corpus in sync at 484 pages.
+
+## [2026-08-20] lint | timeline | two committed conflict markers on main
+
+Surfaced by merging `origin/main` into the rewrite branch, not by a sweep, and
+worth recording because a gate did not catch either.
+
+- `wiki/timeline/annie-read-notes.md:452` carried a stray `>>>>>>> origin/main`
+  with no matching opener — a conflict resolved by deleting two of the three
+  markers.
+- `wiki/timeline/annie-record.md:1025` carried an orphan `=======` with the
+  **2016-01-04 18:32 entry duplicated on both sides of it**. The two copies were
+  not identical: the first carries `[[wiki/people/annie-ulmer]]` and
+  `[[wiki/mind/synthesis/supply-network]]`, the second carries no links at all.
+  Kept the linked copy, dropped the marker and the duplicate.
+
+Both had been published into `llm/corpus.txt`. Neither `bin/wiki-lint` nor
+`bin/wiki-freshness` looks for conflict markers, which is a cheap gate the repo
+does not have — a page containing `^<<<<<<<`, `^=======$` or `^>>>>>>>` is never
+correct. Queued in `BACKLOG.md`.

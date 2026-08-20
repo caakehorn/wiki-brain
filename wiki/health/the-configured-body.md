@@ -238,7 +238,7 @@ bodies, in the same corpus, often in the same years.
 
 | About himself | About someone else |
 | :--- | :--- |
-| *"I'm telling you I should go"* (2017-09-28) | *"I kept telling her to make an appointment with a doctor"* (2017-06-24, about [[wiki/people/fran-coldren\|Fran]]) |
+| *"I'm telling you I should go"* (2017-09-28) | *"I kept telling her to make an appointment with a doctor"* (2017-06-24, about [[wiki/people/fran-coldren|Fran]]) |
 | *"i should get into a doctor for that before caddie season ends"* (2017-10-08) | *"I wish she would have just gone to see her doctor months ago when I told her to"* (2017-06-25) |
 | *"I might need to go see a doctor"* (2018-07-13) | *"if you are legitimately unable to not SHIT YOUR PANTS then go to a fucking doctor"* (2018-10-11) |
 | *"I'm probably going to need to go to the doctor"* (2018-07-15) | *"I just ran out of the apartment to get him to a doctor asap"* (2023-10-29, the cat) |

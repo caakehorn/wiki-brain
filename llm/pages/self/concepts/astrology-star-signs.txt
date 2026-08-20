@@ -29,7 +29,7 @@ This entry documents the zodiac signs of the most frequent and highest-velocity 
 
 | Contact | Sign | Birth Date | Evidence | Message Count | How They Display the Sign |
 |---|---|---|---|---|---|
-| **Dan Frank** | Scorpio | November 1, 1988 | Self-identified in thread ("I am super scorpio / Nov 1") | — (subject) | See [[wiki/self/concepts/dan-as-scorpio|Dan as Scorpio]] |
+| **Dan Frank** | Scorpio | November 1, 1988 | Self-identified in thread ("I am super scorpio / Nov 1") | — (subject) | See [[wiki/self/overview|Dan Frank]] |
 | **Ally Lubin** | Cancer | June 26, 1990 | Derived, and corroborated twice in her own words: "Literally a 17 year old in a 28 yeR olds body" (2019-01-09) and "I turn 30 in 18 days" (2020-06-08); she gives her sign as Cancer | 1,987 (iMessage) + 21 (FB) | Emotional depth, loyalty, protectiveness, moodiness, nurturing through crisis |
 
 ## The Unknown Signs
