@@ -7,6 +7,7 @@ status: stable
 knowledge: mixed
 date_created: 2026-08-18
 date_modified: 2026-08-18
+pending_ingest: 2026-08-20
 date_range_start: 2025-05-27
 date_range_end: 2025-07-21
 sources:
@@ -421,3 +422,24 @@ kept quiet was the damaging one.
   profile was *"not that bad"* and that James *"skimmed it, got self
   conscious and stopped reading it"* — a claim about how much of the document
   he actually read that nothing else tests.
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-20] — manual note
+
+**Not from the gap list** — volunteered by the operator, so the ingest
+has to work out for itself where on the page it belongs, and whether it
+contradicts something already there.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-20_015525_gap-james-dee.md`.
+
+Last name is Spiker
