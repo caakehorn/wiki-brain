@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 43 |
-| Open gaps | 405 |
+| Open gaps | 400 |
 | Answered, awaiting ingest | 2 |
 | Standing predictions | 36 |
 
@@ -264,7 +264,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (146)
+### people (141)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -328,11 +328,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/fred-adams]]** — Adams sends and receives nothing in the message corpus; every fact here comes from Dan's narration or from the estate attorney's calls, and the estate attorney reached in August 2020 (`+17245706170`) is not established to be Adams or his office. His full name,
 - **[[wiki/people/jacob-bacharach]]** — Whether the two men remained in contact after February 11, 2021 is undocumented; Dan says "we keep in touch," and the corpus preserves exactly one exchange. Whether the HTML artifact was ever sent, and whether Bacharach ever learned that the house was in the f
 - **[[wiki/people/jajuan-davis]]** — No contacts.csv match; identity beyond the page's filename is unconfirmed.
-- **[[wiki/people/james-dee]]** — **His actual surname.** Two candidates ("Dee," "Spiker"), neither corroborated, and one probably a contact-card artifact. One sentence from the operator settles it.
-- **[[wiki/people/james-dee]]** — **Whether the friendship ended or is merely dormant.** The corpus stops on 2025-08-10 with two unanswered messages from James and one undated in-person fight after it. Whether James is still with Danielle, and whether Dan has seen him since, is unknown — and g
-- **[[wiki/people/james-dee]]** — **Who or what "slack" is.** James credits it twice — *"I made slack help me demo this,"* *"slack didn't wanna do it in the first place"* — in a way that reads as a person, not the software. No other appearance in the corpus.
-- **[[wiki/people/james-dee]]** — **The interview.** James sat for a YouTube interview (`dIj5npaZafA`) that Dan transcribed and fed to the model; the transcript is not in `raw/` and the wiki holds only the model's paraphrase of it.
-- **[[wiki/people/james-dee]]** — **Whether Danielle ever showed James her own reaction.** She told Dan the profile was *"not that bad"* and that James *"skimmed it, got self conscious and stopped reading it"* — a claim about how much of the document he actually read that nothing else tests.
 - **[[wiki/people/jaredtricia]]** — Whether further bookings occurred after the June 28, 2020 non-response is undocumented — the thread simply goes quiet. Which specific messages in the August 2019 thread beyond the photo request were Dan-as-"Hazel" versus genuinely Annie is not fully disambigua
 - **[[wiki/people/jason-bermejo]]** — Full timeline of how they met (likely Full Sail, ~2009) not explicit in corpus but strongly implied
 - **[[wiki/people/jason-bermejo]]** — Current Jason location: Texas (likely Austin or DFW area based on references)
