@@ -4,7 +4,7 @@
 Checks: frontmatter presence/fields, status vocabulary, broken wikilinks,
 orphan pages, oversized pages/indexes, sources that don't exist on disk.
 """
-import os, re, sys, glob
+import os, re, sys, glob, json
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WIKI = os.path.join(ROOT, "wiki")
@@ -18,7 +18,7 @@ VALID_TAGS = {
     "legal", "dui", "financial-stress", "housing", "career",
     "music-production", "personality-profile", "ideology", "politics",
     "forensic-analysis", "ai-collaboration", "digital-footprint",
-    "uniontown-era", "nyc-era", "pets", "non-monogamy",
+    "uniontown-era", "nyc-era", "pets", "non-monogamy", "future",
 }
 PAGE_BUDGET = 40 * 1024   # advisory only — see STYLE_GUIDE.md substance rule 4;
                           # depth is the standing directive, never trim to clear this
@@ -37,6 +37,232 @@ def fm_parse(text):
         if kv:
             fm[kv.group(1)] = kv.group(2).strip()
     return fm
+
+
+# --------------------------------------------------------------------- helpers
+# Kept as free functions with no globals so tests/test_lint_gates.py can import
+# them directly (see that file for the cases each one is expected to survive).
+
+CORRECTION_MARKERS = (
+    "CORRECTED", "RETRACTED", "REVISED", "RE-CHECKED",
+    "CONTRADICTION", "GAP CLOSED", "RESOLVED", "ADDED",
+)
+
+# A *bolded* correction word is a deliberate marker even in lowercase
+# ("the rate is **retracted**" in a table cell). Bare lowercase prose is NOT a
+# marker — "the figure was revised upward" must not blind the gate — so the
+# bold delimiters are load-bearing here, not decoration.
+BOLD_MARKER_RE = re.compile(r"\*\*[^*]{0,40}(?:retracted|corrected|superseded)[^*]{0,40}\*\*", re.I)
+
+
+def duplicate_top_level_keys(fm_text):
+    """Yield (key, first_line_no, count) for top-level keys defined more than once.
+
+    Only column-0 `key:` lines count. Indented lines, list items and the bodies of
+    block scalars (`key: |` / `key: >`) are skipped, so nested mappings and
+    embedded prose containing colons do not false-positive. Line numbers are
+    1-based within the frontmatter block.
+    """
+    seen, order, in_block = {}, [], False
+    key_re = re.compile(r"^(\w[\w_]*)\s*:(.*)$")
+    for i, line in enumerate(fm_text.splitlines(), start=1):
+        if not line.strip():
+            continue
+        indented = line[:1] in (" ", "\t")
+        if in_block:
+            if indented:
+                continue
+            in_block = False
+        if indented or line.lstrip().startswith(("- ", "#")):
+            continue
+        m = key_re.match(line)
+        if not m:
+            continue
+        key, rest = m.group(1), m.group(2).strip()
+        if rest in ("|", ">", "|-", ">-", "|+", ">+"):
+            in_block = True
+        if key not in seen:
+            seen[key] = [i, 0]
+            order.append(key)
+        seen[key][1] += 1
+    for key in order:
+        first, count = seen[key]
+        if count > 1:
+            yield key, first, count
+
+
+def quarantine_mask(text):
+    """Per-line booleans: True where a retracted claim would be a LIVE assertion.
+
+    Three kinds of region are quarantined, matching the three ways the corpus
+    actually documents a correction (STYLE_GUIDE rule 9 plus observed practice):
+
+      1. a blockquote run carrying a marker  -> `> **CORRECTED [date]:** ...`
+      2. a heading carrying a marker         -> `## RE-CHECKED [2026-08-18]`,
+         quarantined until the next heading of the same or higher level
+      3. a single line carrying a marker     -> a table cell noting the figure
+         `is **retracted**`
+
+    Anything else is live. Widening this set is how the gate goes blind, so a
+    new form belongs here only with a real page that needs it.
+    """
+    lines = text.splitlines()
+    live = [True] * len(lines)
+    heading_re = re.compile(r"^(#{1,6})\s")
+
+    def marked(chunk):
+        return any(mark in chunk for mark in CORRECTION_MARKERS) or bool(
+            BOLD_MARKER_RE.search(chunk)
+        )
+
+    # 2. heading-scoped regions
+    open_level = None
+    for i, line in enumerate(lines):
+        h = heading_re.match(line)
+        if h:
+            level = len(h.group(1))
+            if open_level is not None and level <= open_level:
+                open_level = None
+            if open_level is None and marked(line):
+                open_level = level
+                live[i] = False
+                continue
+        if open_level is not None:
+            live[i] = False
+
+    # 1. blockquote runs
+    i = 0
+    while i < len(lines):
+        if lines[i].lstrip().startswith(">"):
+            j = i
+            while j < len(lines) and lines[j].lstrip().startswith(">"):
+                j += 1
+            if marked("\n".join(lines[i:j])):
+                for k in range(i, j):
+                    live[k] = False
+            i = j
+        else:
+            i += 1
+
+    # 3. self-marking single lines
+    for i, line in enumerate(lines):
+        if marked(line):
+            live[i] = False
+
+    return live
+
+
+def load_retractions(path, errors):
+    """Parse the fenced ```json blocks in RETRACTED.md into validated entries.
+
+    A malformed ledger is a hard error rather than a silent no-op: a retraction
+    gate that quietly stops running is the failure mode this whole file exists
+    to prevent.
+    """
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8", errors="replace") as fh:
+        raw = fh.read()
+    entries = []
+    for block in re.findall(r"^```json\n(.*?)^```", raw, re.S | re.M):
+        try:
+            entry = json.loads(block)
+        except json.JSONDecodeError as e:
+            errors.append(f"RETRACTED.md: malformed json block ({e}) — retraction gate cannot run")
+            continue
+        missing = [f for f in ("id", "claim", "patterns", "replacement") if not entry.get(f)]
+        if missing:
+            errors.append(f"RETRACTED.md: entry missing required field(s) {missing}")
+            continue
+        compiled = []
+        for pat in entry["patterns"]:
+            try:
+                compiled.append(re.compile(pat, re.I))
+            except re.error as e:
+                errors.append(f"RETRACTED.md [{entry['id']}]: invalid regex {pat!r} ({e})")
+        if not compiled:
+            continue
+        entry["_compiled"] = compiled
+        entries.append(entry)
+    return entries
+
+
+# Files that are empty by design and are not evidence.
+STRUCTURAL_FILES = {".gitkeep", ".gitignore", ".DS_Store"}
+
+
+def find_empty_raw_files(root):
+    """Repo-relative paths under raw/ that exist but carry no data rows.
+
+    Zero bytes, or a single non-blank line (a CSV header with no records).
+    Structural placeholders are excluded — they are not cited as sources.
+    """
+    raw_dir = os.path.join(root, "raw")
+    found = set()
+    if not os.path.isdir(raw_dir):
+        return found
+    for dirpath, _dirs, files in os.walk(raw_dir):
+        for fname in files:
+            if fname in STRUCTURAL_FILES:
+                continue
+            fpath = os.path.join(dirpath, fname)
+            try:
+                size = os.path.getsize(fpath)
+            except OSError:
+                continue
+            if size == 0:
+                found.add(os.path.relpath(fpath, root))
+            elif size < 4096 and fname.lower().endswith((".csv", ".tsv", ".json", ".txt", ".md")):
+                try:
+                    with open(fpath, encoding="utf-8", errors="replace") as f:
+                        body = f.read()
+                except OSError:
+                    continue
+                if len([l for l in body.splitlines() if l.strip()]) <= 1:
+                    found.add(os.path.relpath(fpath, root))
+    return found
+
+
+def raw_basename_index(root):
+    """basename -> [repo-relative paths]. raw/ has thousands of colliding
+    basenames (0.html, 1.html, exported jpgs), so a bare filename citation can
+    never be resolved by name alone."""
+    raw_dir = os.path.join(root, "raw")
+    index = {}
+    if not os.path.isdir(raw_dir):
+        return index
+    for dirpath, _dirs, files in os.walk(raw_dir):
+        for fname in files:
+            index.setdefault(fname, []).append(
+                os.path.relpath(os.path.join(dirpath, fname), root)
+            )
+    return index
+
+
+def frontmatter_sources(text):
+    """Citations listed under `sources:` in frontmatter, in order.
+
+    Only the frontmatter block is read: prose may name a file without citing it.
+    """
+    m = re.match(r"^---\n(.*?)\n---\n", text, re.S)
+    if not m:
+        return []
+    out, collecting = [], False
+    for line in m.group(1).splitlines():
+        if re.match(r"^sources\s*:", line):
+            collecting = True
+            continue
+        if collecting:
+            if line[:1] not in (" ", "\t", "-") or not line.strip():
+                if re.match(r"^\w[\w_]*\s*:", line):
+                    break
+            item = re.match(r"^\s*-\s*(.+?)\s*$", line)
+            if item:
+                out.append(item.group(1).strip().strip("\"'"))
+            elif line.strip() and not line[:1].isspace():
+                break
+    return out
+
 
 pages = sorted(glob.glob(os.path.join(WIKI, "**", "*.md"), recursive=True))
 rel = lambda p: os.path.relpath(p, ROOT)
@@ -68,6 +294,7 @@ for p in scan:
     elif not is_index and size > PAGE_BUDGET and not is_contact_stub:
         warnings.append(f"{r}: page is {size//1024}KB — unusually long; split ONLY if navigation genuinely improves, never to shorten")
 
+    fm_match = re.match(r"^---\n(.*?)\n---\n", text, re.S)
     fm = fm_parse(text)
     if fm is None:
         if not is_index:
@@ -91,6 +318,18 @@ for p in scan:
             bad_tags = [t for t in tag_list if t not in VALID_TAGS]
             if bad_tags:
                 errors.append(f"{r}: invalid tag(s) {bad_tags} — add to VALID_TAGS in bin/wiki-lint and STYLE_GUIDE.md if genuinely new")
+
+        # duplicate top-level frontmatter keys
+        # YAML keeps the LAST occurrence of a duplicated key while some tools
+        # collect both, so a duplicate makes the gates and the site renderer
+        # disagree about what a page says. Reuse fm_match (same anchored regex
+        # fm_parse uses) so this cannot disagree with the parser it protects.
+        if fm_match:
+            for key, line_no, count in duplicate_top_level_keys(fm_match.group(1)):
+                errors.append(
+                    f"{r}:{line_no}: duplicate frontmatter key '{key}' "
+                    f"(appears {count}x) — YAML keeps the last one, the gates may read the first"
+                )
 
         # people infobox classifier schema (mandatory; contacts/ stubs + indexes exempt)
         if dom == "people" and not is_contact_stub and not is_index:
@@ -141,6 +380,62 @@ for p, n in sorted(inbound.items()):
 mi = os.path.join(ROOT, "index.md")
 if os.path.exists(mi) and os.path.getsize(mi) > MASTER_INDEX_BUDGET:
     warnings.append(f"index.md: master index over 5KB budget")
+
+# ---------------------------------------------------------------- retracted claims
+# Fails when a claim recorded in RETRACTED.md reappears as a LIVE assertion.
+# Correction blockquotes are exempt by design — STYLE_GUIDE.md rule 9 requires
+# the old claim to stay visible where it is corrected. See RETRACTED.md.
+for entry in load_retractions(os.path.join(ROOT, "RETRACTED.md"), errors):
+    allowed = set(entry.get("documented_on") or [])
+    for p in pages:
+        r = rel(p)
+        if r in allowed:
+            continue
+        text = open(p, encoding="utf-8", errors="replace").read()
+        live = quarantine_mask(text)
+        for pat in entry["_compiled"]:
+            for m in pat.finditer(text):
+                line_no = text.count("\n", 0, m.start()) + 1
+                if not live[line_no - 1]:
+                    continue
+                errors.append(
+                    f"{r}:{line_no}: retracted claim '{entry['id']}' asserted live "
+                    f"— found {m.group(0)!r}; correct reading: {entry['replacement']}. "
+                    f"If this is documenting the retraction, put it in a "
+                    f"'> **CORRECTED [date]:**' blockquote (STYLE_GUIDE rule 9)."
+                )
+                break   # one error per pattern per page is enough to act on
+
+# ---------------------------------------------------------------- phantom sources
+# A cited source that exists but carries no data. WARNING, not error: an empty
+# export is a data-quality problem for a human to resolve, not file corruption,
+# and pages that catalogue the corpus (source-coverage-index) cite them on
+# purpose. Only `sources:` citations are checked — prose may name a file freely.
+empty_raw = find_empty_raw_files(ROOT)
+if empty_raw:
+    by_basename = {}
+    for rp in empty_raw:
+        by_basename.setdefault(os.path.basename(rp), []).append(rp)
+    raw_basenames = raw_basename_index(ROOT)
+
+    for p in pages:
+        r = rel(p)
+        text = open(p, encoding="utf-8", errors="replace").read()
+        for cite in frontmatter_sources(text):
+            if "/" in cite:
+                # Repo-relative path: unambiguous. This is the documented convention.
+                if cite in empty_raw:
+                    warnings.append(f"{r}: cites empty/header-only source '{cite}'")
+                continue
+            # Bare basename: only meaningful if it resolves to exactly one file.
+            matches = raw_basenames.get(cite, [])
+            if len(matches) > 1:
+                warnings.append(
+                    f"{r}: source '{cite}' is a bare filename matching {len(matches)} "
+                    f"files under raw/ — ambiguous, cite the repo-relative path"
+                )
+            elif len(matches) == 1 and matches[0] in empty_raw:
+                warnings.append(f"{r}: cites empty/header-only source '{matches[0]}'")
 
 print(f"wiki-lint: {len(pages)} pages, {len(errors)} errors, {len(warnings)} warnings\n")
 for e in errors:

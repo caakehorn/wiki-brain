@@ -12,6 +12,7 @@ tags: [personality-profile, forensic-analysis, ai-collaboration]
 infobox:
   name: "Suzanne Frank"
   sex: female
+  location: uniontown
   relationship_to_dan: family
   role: "mother; realtor"
   known_for: "rank-2 correspondent in the corpus; this page is the typology read derived from her entity page"
