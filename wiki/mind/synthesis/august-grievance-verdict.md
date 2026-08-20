@@ -8,6 +8,7 @@ knowledge: earned
 importance: critical
 date_created: 2026-08-20
 date_modified: 2026-08-20
+pending_ingest: 2026-08-20
 date_range_start: 2026-08-16
 date_range_end: 2026-08-19
 tags: [relationships, trauma-bond, forensic-analysis, mental-health]
@@ -420,3 +421,24 @@ those two things is the whole of what this page has to say.
   the call above is two removes from the source.
 - **Whether the email was ever sent** remains open and bears directly on the
   proportionality finding.
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-20] — manual note
+
+**Not from the gap list** — volunteered by the operator, so the ingest
+has to work out for itself where on the page it belongs, and whether it
+contradicts something already there.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/mind/captures/2026-08-20_021135_gap-august-grievance-verdict.md`.
+
+as dan had predicted the SOS messages were, themselves, illegitimate. this was born out when he unblocked her, saw the messages, immediately replied and she was still in SOS mode and when he asked what she needed him to do, she would not respond. whether she was luring him to a confrontation with the piece of shit other guy, confirming if she was still blocked or not (possibly to allow him to continue his harassment campaign) or whether she was still in damage control mode about the email she believed was already sent is not known. but dan did do what he believed to be the ethical thing by making sure that his hunch of her fraudalent danger was responded to, even ALLY LUBIN chastises him for this in their conversation at the time saying that "she lets you spiral" and that i shoukld do the same.
