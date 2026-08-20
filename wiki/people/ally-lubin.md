@@ -7,6 +7,7 @@ status: active
 knowledge: mixed
 date_created: 2026-06-23
 date_modified: 2026-08-18
+pending_ingest: 2026-08-20
 date_range_start: 2011-05-20
 date_range_end: 2026-08-19
 sources:
@@ -696,8 +697,6 @@ Each of these is answerable by the operator in a paragraph.
   the entire modern relationship and it is in no message corpus here — the
   iMessage record starts eleven days later. Instagram DM, Twitter DM, or
   Facebook Messenger on an account not in the takeout?
-- **Did the June 1, 2026 messages ever get a reply?** All ten are outbound
-  and no inbound follows in any export. Silence, or an export boundary?
 - **Was the $2,100 accurate?** Dan showed her a screenshot he found
   convincing. No financial export in `raw/` covers Cash App for 2019.
 - **What was the "online shit" the spoofed number used for?** Polyak's
@@ -763,3 +762,25 @@ non-transactional. That is exactly the material that has never been exported int
 high-amplitude bursts followed by thirty-eight-month and fourteen-month silences
 twice before. The honest position for this page is that the burst is real, its
 interpretation is open, and the next ninety days of traffic settle it.
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-20] — Did the June 1, 2026 messages ever get a reply? All ten are outbound an…
+
+**The gap, as this page stated it:**
+
+> - **Did the June 1, 2026 messages ever get a reply?** All ten are outbound
+>   and no inbound follows in any export. Silence, or an export boundary?
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-20_042255_gap-ally-lubin.md`.
+
+Ally didn’t actually get the message I sent on 1 June. She is convinced I had her blocked but this is not and was never true
