@@ -439,6 +439,6 @@ those two things is the whole of what this page has to say.
 has to work out for itself where on the page it belongs, and whether it
 contradicts something already there.
 
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/mind/captures/2026-08-20_021135_gap-august-grievance-verdict.md`.
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/mind/captures/2026-08-20_021326_gap-august-grievance-verdict.md`.
 
-as dan had predicted the SOS messages were, themselves, illegitimate. this was born out when he unblocked her, saw the messages, immediately replied and she was still in SOS mode and when he asked what she needed him to do, she would not respond. whether she was luring him to a confrontation with the piece of shit other guy, confirming if she was still blocked or not (possibly to allow him to continue his harassment campaign) or whether she was still in damage control mode about the email she believed was already sent is not known. but dan did do what he believed to be the ethical thing by making sure that his hunch of her fraudalent danger was responded to, even ALLY LUBIN chastises him for this in their conversation at the time saying that "she lets you spiral" and that i shoukld do the same.
+the "i just want to be alone" or "by myself" statements are a common recurring theme with her and are her magic solution to not wanting to accepot her own role in the outcome being what it is. not only is it entirely untrue based on her own actions, but she would obviously saay so if only to take the heat off of her and still accomplish the same goal. the fact that she is not performing any kind of action which would actually accomplish this is more evidence to the theory.
