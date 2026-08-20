@@ -360,6 +360,8 @@ argues, for how total the 2026 collapse was.
 
 ## Before Dan
 
+The mechanistic personality read that sits under this section — ESFP 7w8, sx/sp, 7-4-8 trifix, quote-sourced and contradiction-tested — is at [[wiki/people/annie-ulmer-personality-assessment]]. It is kept separate because it argues from the same evidence at a different altitude, and because a typology claim should be falsifiable on its own terms rather than smuggled into a biography.
+
 **Before Dan, and unprompted by him:** an October 2018 message — reminiscing
 rather than disclosing in the moment — describes Annie having run a paid
 photo/video account before they started dating (pre-November 2015), and

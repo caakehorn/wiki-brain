@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-20 — 45 pages
+## 2026-08-20 — 47 pages
 
 - **Session log:** ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
 - **Session log:** correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
@@ -17,6 +17,7 @@ simply listed.
 - **Session log:** rewrite | people | ally-lubin — the wiki hallucinated about itself, and the infobox carried it
 - **Session log:** rewrite | people | annie-ulmer — the zero holds at full width; the ending was not one thread
 - **Session log:** lint | timeline | two committed conflict markers on main
+- **Session log:** ingest | timeline | the Morgantown recording, verified against a real transcript
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -47,6 +48,7 @@ simply listed.
 | [[wiki/people/annie-ulmer]] | people | **CORRECTED** — This paragraph previously said she refused *"through a dozen repetitions of the question — to say that Dan ever prostituted her,"* and put Dan's stock line at fourteen repetitions. The line is **twent |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | **RE-CHECKED** — flagged stale against annie-ulmer (2026-08-20). That page gained a substantial August 2026 section and eight chronology rows for the severance window. Re-read against the change; **no claim on this pa |
 | [[wiki/people/arnu]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
+| [[wiki/people/bruce-burish]] | people | **CORRECTED** — both versions of this page reported the thread as **181 messages**, and the stub added that they were *"all received (export artifact — Dan's outbound not captured)."* **181 is exactly the received co |
 | [[wiki/people/ellen-ulmer]] | people | _(carries a GAP CLOSED from 2026-08-17)_ |
 | [[wiki/people/james-dee]] | people | **GAP CLOSED** — The operator supplied the answer directly: **"Last name is Spiker."** Filed verbatim as T0 evidence in `raw/people/captures/2026-08-20_015525_gap-james-dee.md`. The page now records **Spiker** as the  |
 | [[wiki/people/jerel-coles]] | people | — |
@@ -55,6 +57,7 @@ simply listed.
 | [[wiki/people/suzanne-frank]] | people | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-20). That page gained a section on Coles targeting her again and Dan pre-emptively blocking Annie's number on her phone. Re-read against the change; **no c |
 | [[wiki/people/tuquick-17248123683]] | people | _(carries a REVISED from 2026-08-09)_ |
+| [[wiki/people/zaco]] | people | — |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
 | [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | **CORRECTED** — The August 18–20, 2026 exchanges are in `raw/self/imessage/ally-lubin_last-7-days_20260820.csv` (708 records) as of 2026-08-20. Most of the quotations checked out — "boy smashing factory," "I'm inhere |
 | [[wiki/self/concepts/astrology-star-signs]] | self | **CORRECTED** — this paragraph previously cited Dan's *"object of fixation"* framing as its first example. That phrase occurs nowhere in the corpus; it was a hallucination written into ally-lubin on 2026-08-19 and is |
@@ -148,7 +151,7 @@ simply listed.
 | [[wiki/people/max]] | people | **CORRECTED** — This page previously read: *"Separate from real person 'Max' (Danielle's BF, 'the Dude', music guy / CNA-to-producer from Gemini-_21.md)."* The only two occurrences of the name in `Gemini-_21.md` are  |
 | [[wiki/people/tom]] | people | — |
 | [[wiki/self/lineage/family-tree]] | self | **CORRECTED** — The tree previously carried her only under her birth name and the wiki's entity page under an inferred "Shrum." The message corpus names her twice on 2018-04-01 as **Diane Moore**, alongside **Dave Mo |
-| [[wiki/self/message-corpora/master-message-dump]] | self | **CORRECTED** — Row 8 of the rank table above is a good worked example of what this file gets wrong. `MASTER_MESSAGES_DB_DUMP.csv` records **2,391** messages for `+17243228715`. The authoritative `all_imessages_compl |
+| [[wiki/self/message-corpora/master-message-dump]] | self | _(carries a CORRECTED from 2026-08-20)_ |
 | [[wiki/timeline/annie-read-notes]] | timeline | — |
 | [[wiki/timeline/annie-record]] | timeline | — |
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | **CORRECTED** — This paragraph read: *"Dan and Annie each received a letter… It had been sent before the final admission rather than in response to it."* Dan's contemporaneous messages of 2018-04-03 say otherwise on  |
@@ -473,11 +476,10 @@ simply listed.
 | [[wiki/timeline/periods/dec-2025-spike]] | timeline | — |
 | [[wiki/work/tech/max-framework/overview]] | work | — |
 
-## 2026-07-25 — 9 pages
+## 2026-07-25 — 8 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/people/bruce-burish]] | people | — |
 | [[wiki/people/mike-hinkle]] | people | — |
 | [[wiki/people/rod-banks]] | people | — |
 | [[wiki/people/slim]] | people | — |

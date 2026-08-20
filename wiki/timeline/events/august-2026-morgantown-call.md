@@ -358,6 +358,13 @@ the real one.
 
 ## The campaign — August 17 to 19
 
+> The ethical reading of the fifteen minutes above — what each of the three
+> participants was doing, and how mechanism, stated intent, effect and moral
+> character come apart — is at
+> [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]].
+> Its conclusion is harsher toward all three than this page is toward any of
+> them.
+
 From 00:13 on August 17 the window stops being about Coles and becomes about
 what Dan will do with the recording. The demand is never money and never
 contact; it is a **statement**. Repeatedly and explicitly: say you are done

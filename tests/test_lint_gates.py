@@ -465,3 +465,181 @@ class CorruptTextTests(unittest.TestCase):
             if self.find(open(p, encoding="utf-8", errors="replace").read()):
                 dirty.append(os.path.relpath(p, ROOT))
         self.assertEqual(dirty, [])
+
+
+class WikilinkParsingTests(unittest.TestCase):
+    """Thirteen correctly-authored links were reported broken: seven for the
+    '\\|' pipe-escape that markdown tables require, and three for discussing
+    wikilink syntax inside code spans."""
+
+    LINK_RE = re.compile(r"\[\[([^\]|#]+)(?:[#|][^\]]*)?\]\]")
+
+    def targets(self, text):
+        body = H["strip_code"](text)
+        return [t.strip().rstrip("\\").strip().rstrip("/")
+                for t in self.LINK_RE.findall(body)]
+
+    def test_plain_link_parses(self):
+        self.assertEqual(self.targets("see [[wiki/people/tom]]"), ["wiki/people/tom"])
+
+    def test_piped_link_parses(self):
+        self.assertEqual(self.targets("[[wiki/people/tom|Tom]]"), ["wiki/people/tom"])
+
+    def test_table_pipe_escape_parses(self):
+        """The regression: '\\|' is mandatory inside a table cell."""
+        row = "| [[wiki/people/vanessa-frank\\|Vanessa]] | retyped |"
+        self.assertEqual(self.targets(row), ["wiki/people/vanessa-frank"])
+
+    def test_several_escaped_links_in_one_row(self):
+        row = "| [[wiki/people/a\\|A]] | [[wiki/people/b\\|B]] |"
+        self.assertEqual(self.targets(row), ["wiki/people/a", "wiki/people/b"])
+
+    def test_anchor_link_parses(self):
+        self.assertEqual(self.targets("[[wiki/people/tom#money]]"), ["wiki/people/tom"])
+
+    def test_trailing_slash_stripped(self):
+        self.assertEqual(self.targets("[[wiki/people/tom/]]"), ["wiki/people/tom"])
+
+    def test_inline_code_link_ignored(self):
+        self.assertEqual(self.targets("adds `[[wiki/...]]` links"), [])
+
+    def test_fenced_block_link_ignored(self):
+        self.assertEqual(self.targets("```\n[[wiki/people/example]]\n```\n"), [])
+
+    def test_real_link_beside_code_example_still_found(self):
+        text = "use `[[wiki/…]]` to reach [[wiki/people/tom]]"
+        self.assertEqual(self.targets(text), ["wiki/people/tom"])
+
+    def test_strip_code_preserves_line_count(self):
+        """Offsets must survive so other checks keep reporting real line numbers."""
+        text = "a\n```\nb\nc\n```\nd\n"
+        self.assertEqual(H["strip_code"](text).count("\n"), text.count("\n"))
+
+    def test_real_wiki_has_no_broken_links(self):
+        """Regression: every wikilink in the wiki must resolve."""
+        import glob
+        keys = {os.path.relpath(p, ROOT)[:-3]
+                for p in glob.glob(os.path.join(ROOT, "wiki", "**", "*.md"), recursive=True)}
+        broken = []
+        for p in glob.glob(os.path.join(ROOT, "wiki", "**", "*.md"), recursive=True):
+            text = open(p, encoding="utf-8", errors="replace").read()
+            body = re.sub(r"^---\n.*?\n---\n", "", text, flags=re.S)
+            for t in self.targets(body):
+                if not t.startswith("wiki/"):
+                    continue
+                t = t[:-3] if t.endswith(".md") else t   # links may carry .md
+                if t in keys or os.path.basename(t) in {os.path.basename(k) for k in keys}:
+                    continue
+                if os.path.isdir(os.path.join(ROOT, t)):
+                    continue
+                broken.append((os.path.relpath(p, ROOT), t))
+        self.assertEqual(broken, [])
+
+
+class IndexDriftTests(unittest.TestCase):
+    """All nine domain counts in index.md were stale on 2026-08-20 — people
+    advertised 150 against an actual 164."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = self.tmp.name
+        self.addCleanup(self.tmp.cleanup)
+
+    def build(self, claimed, n_pages, extra=()):
+        os.makedirs(os.path.join(self.root, "wiki", "people"), exist_ok=True)
+        with open(os.path.join(self.root, "index.md"), "w") as f:
+            f.write("| Domain | Covers | Pages | Index |\n|---|---|---|---|\n")
+            f.write(f"| people | People | {claimed} | [[wiki/people/index]] |\n")
+        for i in range(n_pages):
+            with open(os.path.join(self.root, "wiki", "people", f"p{i}.md"), "w") as f:
+                f.write("# p\n")
+        with open(os.path.join(self.root, "wiki", "people", "index.md"), "w") as f:
+            f.write("# index\n")
+        for rel in extra:
+            path = os.path.join(self.root, rel)
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            with open(path, "w") as f:
+                f.write("# x\n")
+
+    def test_matching_count_is_clean(self):
+        self.build(claimed=3, n_pages=3)
+        self.assertEqual(H["index_count_drift"](self.root), [])
+
+    def test_stale_count_detected(self):
+        self.build(claimed=2, n_pages=5)
+        self.assertEqual(H["index_count_drift"](self.root), [("people", 2, 5)])
+
+    def test_domain_index_not_counted(self):
+        """index.md itself is navigation, not a page."""
+        self.build(claimed=3, n_pages=3)
+        self.assertEqual(H["index_count_drift"](self.root), [])
+
+    def test_archived_pages_excluded(self):
+        """archive/ holds pinned artifacts, exempt from budgets and counts."""
+        self.build(claimed=3, n_pages=3,
+                   extra=["wiki/people/archive/old.md"])
+        self.assertEqual(H["index_count_drift"](self.root), [])
+
+    def test_missing_index_is_not_an_error(self):
+        self.assertEqual(H["index_count_drift"](self.root), [])
+
+    def test_real_index_is_current(self):
+        """Regression: the wiki's front door must not misreport its size."""
+        self.assertEqual(H["index_count_drift"](ROOT), [])
+
+
+class MalformedFrontmatterBlockTests(unittest.TestCase):
+    """A connections: block that loses its indent still looks fine but is
+    invisible to wiki-connect, so the page silently carries no edges and every
+    gate stays green. A whitespace-collapsing cleanup destroyed four edges that
+    way on 2026-08-20 without tripping anything."""
+
+    def find(self, text):
+        return H["malformed_frontmatter_blocks"](text)
+
+    WELL_FORMED = (
+        "connections:\n"
+        "  - page: wiki/people/tom\n"
+        "    type: evidences\n"
+        '    claim: "A claim long enough to be real."\n'
+    )
+
+    def test_well_formed_block_is_clean(self):
+        self.assertEqual(self.find(self.WELL_FORMED), [])
+
+    def test_unindented_list_item_detected(self):
+        bad = self.WELL_FORMED.replace("  - page:", "- page:")
+        self.assertEqual([r[1] for r in self.find(bad)], ["list item not indented"])
+
+    def test_under_indented_field_detected(self):
+        bad = self.WELL_FORMED.replace("    type:", " type:")
+        self.assertIn("field under-indented", [r[1] for r in self.find(bad)])
+
+    def test_sources_block_checked_too(self):
+        bad = "sources:\n- raw/a.txt\n"
+        self.assertEqual([r[0] for r in self.find(bad)], ["sources"])
+
+    def test_synthesizes_block_checked_too(self):
+        bad = "synthesizes:\n- wiki/people/tom\n"
+        self.assertEqual([r[0] for r in self.find(bad)], ["synthesizes"])
+
+    def test_block_ends_at_next_key(self):
+        """A following top-level key must not be scanned as part of the block."""
+        text = self.WELL_FORMED + "tags: [a, b]\n- not part of the block\n"
+        self.assertEqual(self.find(text), [])
+
+    def test_block_ends_at_frontmatter_close(self):
+        text = self.WELL_FORMED + "---\n\n- an ordinary bullet in the body\n"
+        self.assertEqual(self.find(text), [])
+
+    def test_absent_blocks_are_clean(self):
+        self.assertEqual(self.find("domain: people\ntags: [a]\n"), [])
+
+    def test_real_wiki_is_clean(self):
+        """Regression: every declared edge must actually be readable."""
+        import glob
+        dirty = []
+        for p in glob.glob(os.path.join(ROOT, "wiki", "**", "*.md"), recursive=True):
+            if self.find(open(p, encoding="utf-8", errors="replace").read()):
+                dirty.append(os.path.relpath(p, ROOT))
+        self.assertEqual(dirty, [])

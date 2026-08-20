@@ -16,7 +16,7 @@ related: []
 - [[wiki/people/alex-frank]] — Dan's semi-famous cousin; Brooklyn-based music/culture journalist (FADER, Vogue, GQ, Pitchfork); wrote the essay about Morley Frank's funeral.
 - [[wiki/people/alexander-jackson]] — From context-core: 337 sale drives move; "no post-close plan". Mixed roles at 463 amplify vertical…
 - [[wiki/people/alexis-armel]] — The six-year partner (late 2009 – Nov 2015) who occupied the attachment slot without activating it; the corpus's control case, and the friendship that outlasted the breakup by a decade.
-- [[wiki/people/ally-lubin]] — Seventeen-year attachment to a woman Dan has never met (Boca Raton → NYC → NC); 1,269 iMessage across two handles (2018-2026), designated overflow channel activating when the primary bond fails; $2,100 sent in the Aug–Oct 2019 crisis window.
+- [[wiki/people/ally-lubin]] — Eighteen-year attachment to a woman Dan has never met (Boca Raton → NYC → Charlotte); 1,987 iMessage across two handles (2018–2026); a channel that runs concurrently with the primary bond rather than after it fails; $2,100 sent in the Aug–Oct 2019 crisis window, and the page whose 2026 climax turned out to be a hallucination the wiki wrote about itself.
 - [[wiki/people/anita]] — BFS gas-station GM who originated the $50 drawer-shortage claim; her "gas, foodstamps, lottery" confabulation and the Timmy blame-pivot make her the vertical-suspect exhibit.
 - [[wiki/people/annie-ulmer]] — Anne ("Annie") Ulmer. Primary relationship from Thanksgiving 2015; the June 1 2026 closure held 52 days and failed — status open, not historical.
 - [[wiki/people/betherin-mechling]] — Annie's cousin; fiancée of Jay Lauer, controlled his finances, returned his ring weeks before his April 2017 overdose.
@@ -31,7 +31,7 @@ related: []
 - [[wiki/people/brennan-meadows]] — Brief early-2016 contact mixing suboxone sourcing and a small loan request.
 - [[wiki/people/brian]] — NYC client who booked Annie (as "Hazel") for paid visits, summer 2019.
 - [[wiki/people/bryan-5088682461]] — Third participant in the Oct 20, 2019 filmed MMF; a gay man whose first encounter with a woman was that night with Annie and Dan. Not the escort-client Brian.
-- [[wiki/people/bruceburish]] — Caddying-era friend; one dense Oct 2018 thread reacting to Dan and his girlfriend's webcam plans.
+- [[wiki/people/bruce-burish]] — Caddying-era friend; one dense 348-message thread over five days in Oct 2018, the camming business described to an outsider at launch.
 - [[wiki/people/bub]] — Long-running casual friend: DJ logistics, Mac troubleshooting, gaming, 2017-2020.
 - [[wiki/people/casey-bondarenka]] — Friend who overstepped during 2015 relationship turbulence with Alexis; sporadic contact through 2018.
 - [[wiki/people/chad-johnson]] — Fellow Nemacolin caddy and college student, 2017-2018.
@@ -165,6 +165,9 @@ related: []
 - [[wiki/people/vicki]] — Longest-serving non-family caregiver on Fran's rotation (2016–2018); "this lady is like my grandmother I never had"; her thread dates the second fall and documents the vigil's final days.
 - [[wiki/people/zach-clingan]] — Nine-year Uniontown acquaintance and 2017 Nemacolin caddie-yard peer; the page an earlier pass filed under the wrong surname.
 - [[wiki/people/zachariah-harshman]] — High-school friend, 2014–15 Uniontown supply node (earliest documented), and independent witness to the Alexis-to-Annie bond switch's social fallout; friendship survives and revives as a platonic gaming friendship by 2020.
+- [[wiki/people/zaco]] — 2018 Uniontown supplier of Suboxone strips; the supply network's only push-marketing node (58 of 65 messages his, unsolicited).
+- [[wiki/people/annie-ulmer-personality-assessment]] — ESFP 7w8 sx/sp, 7-4-8 trifix: the mechanistic personality read behind the main entry, quote-sourced and contradiction-tested.
+- [[wiki/people/suzanne-frank-personality-assessment]] — ISTJ 6w7 so/sp, 6-2-9 trifix: the personality read behind Dan's mother's entry.
 
 ## contacts
 

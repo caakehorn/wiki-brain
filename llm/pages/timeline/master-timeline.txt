@@ -3007,7 +3007,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **October 2018** — Before Dan, and unprompted by him:** an October 2018 message — reminiscing rather than disclosing in the moment — describes Annie having run a paid photo/video account before they started dating (pre-November 2015), and being blackmailed by men threatening to expose it to people who knew her; the…  
   ↳ [[wiki/people/annie-ulmer]] · Before Dan
 - ◆ **October 2018** — Bruce Burish was a caddying-era friend (he references missing Nemacolin) who resurfaces for one dense, explicit five-day conversation in October 2018 (`+17249848911`, 181 messages, Oct 23–27) after Dan tells him he and his girlfriend are starting a webcam show together.  
-  ↳ [[wiki/people/bruceburish]] · Bruce Burish
+  ↳ [[wiki/people/bruce-burish]] · Bruce Burish
 - · **October 2018** — Sporadic, low-effort check-ins follow ("You working today dude?", "You duckin me bro or you just busy?"), with a final October 2018 message noting Casey now has a medical marijuana card and offering to "float" Dan.  
   ↳ [[wiki/people/casey-bondarenka]] · Later contact (2017–2018)
 - · **October 2018** — Nearly every report time Dan worked that season arrived through this channel ("8:30 report," "12 report," about twenty of them, March through October 2018), along with training assignments, float days, and the affectionate management of a caddie he plainly liked.  

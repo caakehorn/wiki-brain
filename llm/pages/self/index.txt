@@ -79,3 +79,4 @@ The self domain contains files and data detailing identity, core biographical fa
 - [[wiki/self/lineage/family-tree]] — Ancestry.com GEDCOM family tree (515 individuals).
 - [[wiki/self/lineage/23andme-genomics]] — 23andMe DNA composition, chromosome painting, Neanderthal data.
 - [[wiki/self/lineage/hybrid-analysis]] — Cross-referenced analysis (speculative).
+- [[wiki/self/concepts/astrology-star-signs]] — zodiac signs of the highest-velocity contacts, derived only from primary testimony; two known of the top twenty, and the Scorpio–Cancer reading of the Ally attachment.

@@ -294,6 +294,76 @@ def find_corrupt_text(text):
     return out
 
 
+def strip_code(text):
+    """Blank out fenced blocks and inline code spans, preserving offsets.
+
+    A wikilink inside backticks is an *example* of the syntax, not a link:
+    `wiki/timeline/annie-read-notes` discusses adding "[[wiki/...]] links" and
+    was reported as three broken links for it. Replacing code with spaces
+    rather than deleting it keeps line numbers and offsets intact.
+    """
+    def blank(m):
+        return re.sub(r"[^\n]", " ", m.group(0))
+    text = re.sub(r"```.*?```", blank, text, flags=re.S)
+    text = re.sub(r"~~~.*?~~~", blank, text, flags=re.S)
+    text = re.sub(r"`+[^`\n]*`+", blank, text)
+    return text
+
+
+def index_count_drift(root):
+    """Return [(domain, indexed, actual)] where index.md's page counts are stale.
+
+    The master index advertises a per-domain page count. All nine were wrong on
+    2026-08-20 (people said 150 against 164), which makes the wiki's own front
+    door misreport its size. Warning rather than error: adding a page and
+    updating the count are legitimately separate steps.
+    """
+    idx = os.path.join(root, "index.md")
+    if not os.path.exists(idx):
+        return []
+    text = open(idx, encoding="utf-8", errors="replace").read()
+    drift = []
+    for m in re.finditer(r"^\| ([a-z]+) \|[^|]*\| *(\d+) *\|", text, re.M):
+        dom, claimed = m.group(1), int(m.group(2))
+        dom_dir = os.path.join(root, "wiki", dom)
+        if not os.path.isdir(dom_dir):
+            continue
+        actual = sum(
+            1 for p in glob.glob(os.path.join(dom_dir, "**", "*.md"), recursive=True)
+            if os.path.basename(p) != "index.md" and os.sep + "archive" + os.sep not in p
+        )
+        if actual != claimed:
+            drift.append((dom, claimed, actual))
+    return drift
+
+
+def malformed_frontmatter_blocks(text):
+    """Return [(key, reason, line)] for list blocks whose indentation is wrong.
+
+    A `connections:` block whose entries lost their two-space indent still
+    parses as valid YAML-ish text but is invisible to `bin/wiki-connect`, so
+    the page silently carries no edges and every gate stays green. That is
+    exactly how a whitespace-collapsing cleanup script destroyed four edges on
+    2026-08-20 without tripping anything. An entry that cannot be read is worse
+    than a missing one, because nothing reports it.
+    """
+    out = []
+    for key in ("sources", "synthesizes", "connections"):
+        km = re.search(rf"^{key}:\s*$", text, re.M)
+        if not km:
+            continue
+        for line in text[km.end():].split("\n")[1:]:
+            if not line.strip():
+                continue
+            if line.startswith("---") or re.match(r"^[A-Za-z_]+:", line):
+                break
+            if re.match(r"^- ", line):
+                out.append((key, "list item not indented", line.strip()[:60]))
+            elif key == "connections" and re.match(r"^ (type|claim):", line):
+                out.append((key, "field under-indented", line.strip()[:60]))
+    return out
+
+
 pages = sorted(glob.glob(os.path.join(WIKI, "**", "*.md"), recursive=True))
 rel = lambda p: os.path.relpath(p, ROOT)
 page_keys = set()          # normalized wikilink targets that exist
@@ -387,9 +457,13 @@ for p in scan:
 
     # wikilinks: broken targets + inbound counting (runs for every page,
     # including frontmatter-less index files, which are a key link source)
-    body = re.sub(r"^---\n.*?\n---\n", "", text, flags=re.S)
+    body = strip_code(re.sub(r"^---\n.*?\n---\n", "", text, flags=re.S))
     for target in link_re.findall(body):
-        t = target.strip().rstrip("/")
+        # A '\|' pipe-escape is required inside markdown tables, and the regex
+        # captures the backslash with the target: [[wiki/people/x\|X]] came
+        # through as 'wiki/people/x\'. Seven correctly-authored table links
+        # were reported broken for it.
+        t = target.strip().rstrip("\\").strip().rstrip("/")
         key = t[:-3] if t.endswith(".md") else t
         if key in page_keys or os.path.basename(key) in page_keys:
             cand = key + ".md"
@@ -435,6 +509,24 @@ for entry in load_retractions(os.path.join(ROOT, "RETRACTED.md"), errors):
                     f"'> **CORRECTED [date]:**' blockquote (STYLE_GUIDE rule 9)."
                 )
                 break   # one error per pattern per page is enough to act on
+
+# ------------------------------------------------- malformed frontmatter blocks
+for p_ in pages:
+    r = rel(p_)
+    text = open(p_, encoding="utf-8", errors="replace").read()
+    for key, why, line in malformed_frontmatter_blocks(text):
+        errors.append(
+            f"{r}: '{key}:' block has a {why} ({line!r}) — the entry is "
+            f"invisible to wiki-connect/wiki-climb and the page silently "
+            f"carries no edge; indent list items with two spaces"
+        )
+
+# ---------------------------------------------------------------- index drift
+for dom, claimed, actual in index_count_drift(ROOT):
+    warnings.append(
+        f"index.md: {dom} claims {claimed} pages, actual {actual} — "
+        f"master index misreports the wiki's size"
+    )
 
 # ---------------------------------------------------------------- corrupt text
 for p_ in pages:

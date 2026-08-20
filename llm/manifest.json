@@ -1193,7 +1193,7 @@
    "title": "mind \u2014 index",
    "summary": "Beliefs, ideology, psychology, and values. The domain is organized in five layers: **profile/** holds the measured personality results and their detailed bre...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/index.txt",
-   "bytes": 14190
+   "bytes": 14515
   },
   {
    "page": "wiki/mind/politics/axioms.md",
@@ -1438,7 +1438,7 @@
    "title": "The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles",
    "summary": "The August 16 Morgantown recording is the strongest primary artifact in the corpus for evaluating the three-person conflict because it places all three parti...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/morgantown-call-three-participant-ethical-analysis.txt",
-   "bytes": 36445
+   "bytes": 36484
   },
   {
    "page": "wiki/mind/synthesis/music-as-identity.md",
@@ -1480,7 +1480,7 @@
    "title": "The Supply Network",
    "summary": "Since January 2011, Dan has been on a daily Suboxone regimen \u2014 fifteen years, described in the primary sources as structural rather than recreational: a medi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/supply-network.txt",
-   "bytes": 34030
+   "bytes": 34332
   },
   {
    "page": "wiki/mind/synthesis/the-cato-seat.md",
@@ -1592,7 +1592,7 @@
    "title": "Annie (Anne Louise Ulmer)",
    "summary": "Annie Ulmer was Dan's partner for ten years and seven months \u2014 November 28, 2015 to June 1, 2026 \u2014 and is the only relationship in his documented history to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 141991
+   "bytes": 142383
   },
   {
    "page": "wiki/people/annoying.md",
@@ -1674,16 +1674,9 @@
   {
    "page": "wiki/people/bruce-burish.md",
    "title": "Bruce Burish",
-   "summary": "Bruce Burish is a Fayette County area contact (724 area code, confirmed via Google Contacts) who appears in the iMessage corpus with an unusually dense 4-day...",
+   "summary": "Bruce Burish is a Fayette County contact (724 area code, confirmed via Google Contacts) and a caddying-era friend \u2014 he opens by referencing missing",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/bruce-burish.txt",
-   "bytes": 1730
-  },
-  {
-   "page": "wiki/people/bruceburish.md",
-   "title": "Bruce Burish",
-   "summary": "Bruce Burish was a caddying-era friend (he references missing [[wiki/work/nemacolin-caddying|Nemacolin]]) who resurfaces for one dense, explicit five-day con...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/bruceburish.txt",
-   "bytes": 2980
+   "bytes": 5921
   },
   {
    "page": "wiki/people/bryan-5088682461.md",
@@ -1942,7 +1935,7 @@
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 24367
+   "bytes": 24998
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -2131,7 +2124,7 @@
    "title": "Johnny (+17243223678)",
    "summary": "**Role:** Dealer (2018 era primary contact). Supplied \"b's\" (balls/cocaine reference), suboxone strips (8mg for $15, 12mg for $20); fronts, repeated in-perso...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/johnny-dealer.txt",
-   "bytes": 13178
+   "bytes": 13407
   },
   {
    "page": "wiki/people/josh-brannan.md",
@@ -2551,7 +2544,7 @@
    "title": "Suz (Suzanne Frank)",
    "summary": "Dan's mother, and the second-largest presence in the entire corpus: **33,698 messages across ten years and nine months**, behind only",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/suzanne-frank.txt",
-   "bytes": 63391
+   "bytes": 63679
   },
   {
    "page": "wiki/people/tan-calabrese.md",
@@ -2685,6 +2678,13 @@
    "summary": "Zachariah Harshman is a Laurel Highlands High School-era friend from Uniontown whose decade-spanning Facebook Messenger thread (October 2011 \u2013 October 2021, ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/zachariah-harshman.txt",
    "bytes": 12107
+  },
+  {
+   "page": "wiki/people/zaco.md",
+   "title": "Zaco",
+   "summary": "Zaco is a 2018 Uniontown-area supplier known to the corpus only by the name he gives himself in his first message \u2014 *\"Yo it's zaco\"* \u2014 and by the handle `+17...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/zaco.txt",
+   "bytes": 5279
   },
   {
    "page": "wiki/places/117-belmont-circle.md",
@@ -2950,7 +2950,7 @@
    "title": "self \u2014 index",
    "summary": "The self domain contains files and data detailing identity, core biographical facts, and the digital footprint of Dan Frank.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/index.txt",
-   "bytes": 6368
+   "bytes": 6588
   },
   {
    "page": "wiki/self/lineage/23andme-genomics.md",
@@ -2992,7 +2992,7 @@
    "title": "Master Message Corpora (iMessage Dumps)",
    "summary": "**Sources ingested from /Users/daniel/Documents/**DOX/DOC SCAN/CSV/**",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/message-corpora/master-message-dump.txt",
-   "bytes": 15114
+   "bytes": 15581
   },
   {
    "page": "wiki/self/message-corpora/source-coverage-index.md",
@@ -3006,7 +3006,7 @@
    "title": "Self Overview",
    "summary": "Daniel Gillingham Frank \u2014 Dan \u2014 was born November 1, 1988 in Uniontown, Fayette County, Pennsylvania, and at 37 he is living back in his childhood home at 33...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/overview.txt",
-   "bytes": 8990
+   "bytes": 9415
   },
   {
    "page": "wiki/self/tattoos.md",
@@ -3076,7 +3076,7 @@
    "title": "The Morgantown St Call and the Leverage Campaign, August 16\u201319 2026",
    "summary": "Between 23:37 on Saturday 16 August 2026 and 15:15 on Wednesday 19 August, Dan and [[wiki/people/annie-ulmer|Annie]] exchanged **1,199 messages** \u2014 811 from ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/august-2026-morgantown-call.txt",
-   "bytes": 58347
+   "bytes": 58699
   },
   {
    "page": "wiki/timeline/events/august-2026-unmasking.md",
@@ -3202,14 +3202,14 @@
    "title": "timeline \u2014 index",
    "summary": "relationship**, built by reading the 97,768-message two-sided corpus in order rather than extracting from it. In progress: read through 2015-11-29. This is t...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/index.txt",
-   "bytes": 6159
+   "bytes": 6374
   },
   {
    "page": "wiki/timeline/master-timeline.md",
    "title": "Master Timeline",
    "summary": "Every dated event recorded anywhere in this wiki, in order, each linked back to the page and section that documents it.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/master-timeline.txt",
-   "bytes": 614020
+   "bytes": 614021
   },
   {
    "page": "wiki/timeline/periods/2010s.md",
@@ -3237,7 +3237,7 @@
    "title": "2018 Deep Cycle",
    "summary": "**Date range:** 2018",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2018-deep-cycle.txt",
-   "bytes": 5122
+   "bytes": 5399
   },
   {
    "page": "wiki/timeline/periods/2020-2021-market-era.md",

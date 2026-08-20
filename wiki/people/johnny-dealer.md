@@ -10,6 +10,9 @@ synthesizes:
   - wiki/timeline/periods/2018-deep-cycle
   - wiki/timeline/events/timeline
 connections:
+  - page: wiki/people/zaco
+    type: parallels
+    claim: "Concurrent 2018 Uniontown nodes in the same market with opposite postures: Johnny is the high-volume primary Dan pursues, Zaco the low-volume secondary who pursues Dan."
   - page: wiki/mind/synthesis/supply-network
     type: component-of
     claim: "Johnny is the network's 2018 deep-cycle primary node; his vacations and MIA stretches produced the first documented single-node supply panics, and the MAX_PRIME succession (Johnny → Tim → Tom) starts with him."

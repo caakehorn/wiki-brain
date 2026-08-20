@@ -24,6 +24,9 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/people/zaco
+    type: contains
+    claim: "Zaco is the network's 2018 Suboxone-strip secondary and its only inbound-marketing node: 58 of his thread's 65 messages are unsolicited inventory advertisements, the inverse of every other supplier relationship, where Dan chases availability."
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: evidenced-by
     claim: "The network's last transaction is a failure of the ordinary kind — a $60 handoff Dan spent the evening of 2026-08-16 trying to complete and she never came for — and the relationship ended inside the five hours that failure opened. Supply was the last structure standing and it did not survive its own routine."

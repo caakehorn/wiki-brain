@@ -155,6 +155,9 @@ graph, and residence timeline are maintained authoritatively at
 
 ## Heritage
 
+Dan self-identifies as a Scorpio and dates it precisely — *"I am super scorpio / Nov 1"* — and the corpus carries enough primary testimony from other contacts to make the zodiac an actual (small) dataset rather than a throwaway: see [[wiki/self/concepts/astrology-star-signs]], which records what is known, what is unknown for eighteen of the top twenty contacts, and the one pairing the corpus can say anything about.
+
+
 Paternal line Eastern European Jewish — [[wiki/people/david-j-frank|David J. Frank]] (b. 1892, Russia) and
 [[wiki/people/sadie-harris|Sadie Harris]] (b. 1900, Austria) through Morley Jay Frank to Rick — heritage
 documented as load-bearing to his politics. Maternal line WV/PA through

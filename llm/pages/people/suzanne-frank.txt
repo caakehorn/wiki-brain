@@ -381,6 +381,8 @@ sharpest drop in eleven years of the thread and it is not an export artifact.
 
 ## Identity, lineage and the generation she was pushed out of
 
+The personality read that sits under this section — ISTJ 6w7, so/sp, 6-2-9 trifix — is at [[wiki/people/suzanne-frank-personality-assessment]], kept separate for the same reason Annie's is: a typology claim should be falsifiable on its own terms rather than folded into a biography.
+
 Identity is settled across two independent exports. `contacts.csv` and the
 Facebook address book agree on the same person: **Suzanne Frank, one mobile
 number (+172\*\*\*\*8715), two email handles, DOB 15 September 1962.** Google
