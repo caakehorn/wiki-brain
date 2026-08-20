@@ -176,3 +176,18 @@ frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-
       as leverage, neither examined by anyone writing this wiki
 - [ ] Note: `annie_metadata_24h.csv` and the 2026-08-09 212 export cited by
       `august-2026-unmasking` are **still** not in `raw/` (standing since 08-09)
+
+## [2026-08-20] group-chat capture + accusation adjudication — DONE, one gap created
+
+- [x] Filed `raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name.md`
+- [x] Gap closed: the unnamed act in the Aug 19 final hour has a referent
+- [x] Adjudicated the "made her fuck guys for drugs" accusation on
+      `arrangement-history` — false as stated, three limbs tested, falsifier named
+- [ ] **HIGH: export the three-party group chat (Dan / Annie / +1 724 812 3683).**
+      Two findings now rest on a single transcribed screenshot of it, and the
+      "Yesterday 6:33 AM" date is fixed by inference rather than by the record.
+      One query.
+- [ ] **MED: the arrangement record is almost entirely Dan-side correspondence.**
+      Named as the live falsifier on `arrangement-history`. An Annie-voice
+      account of any documented encounter would move it more than any further
+      Dan-side volume can.

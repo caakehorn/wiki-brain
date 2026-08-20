@@ -8,10 +8,11 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-20 — 37 pages
+## 2026-08-20 — 38 pages
 
 - **Session log:** ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
 - **Session log:** correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
+- **Session log:** close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -21,6 +22,7 @@ simply listed.
 | [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/concepts/forensic-method]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/mind/index]] | mind | — |
+| [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a REVISED from 2026-08-16)_ |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — Flagged stale against annie-ulmer and suzanne-frank, both moved for the August 16–19 ingest (august-2026-morgantown-call). **No claim here is withdrawn.** The window is this p |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
@@ -48,7 +50,7 @@ simply listed.
 | [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — Flagged stale against source-coverage-index (2026-08-20). **No claim here is withdrawn**, but the system gains a defect worth naming at this level: **a handle is not a person.** Every message-derived  |
 | [[wiki/self/message-corpora/source-coverage-index]] | self | — |
-| [[wiki/timeline/events/august-2026-morgantown-call]] | timeline | **CORRECTED** — The first version of this section said the day ended with *"Goodbye. I am blocking"* at 15:07:03 and called it **"the first goodbye in this record with no *unless* attached… no condition, no deadline, |
+| [[wiki/timeline/events/august-2026-morgantown-call]] | timeline | **GAP CLOSED** — The gap, as this page stated it: the final hour is *"an argument about a thing that is never named,"* and the page declined to choose a referent because the text does not supply one. The operator has  |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 | [[wiki/timeline/index]] | timeline | — |
 | [[wiki/work/bfs-foods]] | work | — |
@@ -172,7 +174,7 @@ simply listed.
 | [[wiki/timeline/events/robotussin-s-last-dance]] | timeline | **GAP CLOSED** — This page asked *"whether any of the three were sober enough to make decisions by the time they left Ruby Tuesday's."* The operator: **"on the contrary, we were all MUCH less sober and subsequently ev |
 | [[wiki/timeline/periods/2015-2016-annie-relationship-start]] | timeline | **CORRECTED** — The dossier baseline above reads as though two days of relationship had elapsed before *"YOU ARE MY EVERYTHING."* The hand-read (annie-record) times it to **2015-11-29 03:24**, with *"You are my full  |
 
-## 2026-08-16 — 4 pages
+## 2026-08-16 — 3 pages
 
 - **Session log:** close | timeline | shelbie-annie-threesome — the operator dated it, and the corpus showed the page had the authorship backwards
 - **Session log:** build | all | bin/wiki-gaps — 269 open gaps, no way for the one source that can settle them to answer, and OPEN.md could only see 164 of them
@@ -180,7 +182,6 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/mind/psychosexual/arrangement-history]] | mind | **REVISED** — April 2019 was tabled here as an instance of the arrangement operating. Minute-level reconstruction from Annie's thread shows the opposite: Dan paid for a one-on-one and Annie converted it into a thre |
 | [[wiki/people/jerad-friedline]] | people | **RE-CHECKED** — context-core was revised on 2026-08-16 by a staleness audit that corrected seven claims: the Annie status (closed → live), Tom's corpus weight (16,563 was Kristin's handle), the 337 Saratoga sale and  |
 | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] | timeline | **GAP CLOSED** — This page carried "Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown" as an open question since 2026-07-14. The opera |
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — context-core was revised on 2026-08-16 by a staleness audit that corrected seven claims: the Annie status (closed → live), Tom's corpus weight (16,563 was Kristin's handle), the 337 Saratoga sale and  |

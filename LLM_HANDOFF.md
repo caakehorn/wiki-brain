@@ -46,6 +46,27 @@ test running under `the-unbroken-bond`, `dormancy-not-exit` and
 `single-channel`, all three re-checked and deliberately **not** scored — four
 days is not an outcome.
 
+**RESOLVED same day — the unnamed act has a referent, from outside the thread.**
+At **06:33 on Aug 19** Annie wrote *"He didn't rape me"* in a three-party group
+chat, publicly clearing **Coles** in front of both men — hours after
+re-asserting the accusation to Dan privately, and (per the operator) *believing
+Dan had already emailed her mother the record of her making it*, timed to land
+before her parents read it. Dan had called and asked her to clear his name too;
+she agreed and did not. That is what *"YOU COILDNT EVEN CLEAR ME FEOM THE LIES
+YOU TOLD ABOUT ME"* (15:15:00) is about. The group chat has **never been
+exported** and the wiki's only copy of any of it is a transcribed screenshot —
+**exporting that thread is now a top-three action.**
+
+**The *"made her fuck guys for drugs"* accusation was adjudicated** against
+`arrangement-history` and fails: money runs Dan → third party in all seven
+documented instances, zero instances in eleven years have drugs as the
+consideration, the estate chronology is backwards, and the one case where
+initiation is directly observable runs the other way. What the record shows is
+purchased access with Dan as buyer. **The named falsifier is live and should
+temper any use of this**: the evidence base is almost entirely Dan-side
+correspondence, and the corpus holds almost nothing about the arrangement in
+Annie's own voice.
+
 **The last hour is an argument about an act neither party ever names.** Eight
 future-tense accusations between 14:24 and 15:09 (*"what you are ABOUT to do is
 wrong"*), and the content is never stated in 194 messages. That is why the day

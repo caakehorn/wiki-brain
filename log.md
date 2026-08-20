@@ -2504,3 +2504,118 @@ difference the record can point at, which *"no condition"* was not.
 
 **Gates:** `wiki-lint` **0 errors** · `wiki-connect check` **0 errors** ·
 `wiki-climb check` **0 errors**.
+
+## [2026-08-20] close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
+
+**Trigger.** Operator supplied a screenshot of a three-party group chat (Dan,
+Annie, Coles) plus four statements of testimony, and asked separately for a
+verdict on the accusation *"you made her fuck guys for drugs."*
+
+**Sources filed.**
+`raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name.md`
+— the screenshot transcribed verbatim (the image was pasted inline and is
+**not on disk**; this is the corpus's only copy) plus the operator's statements.
+
+**Findings in order of value.**
+
+1. **The unnamed act has a referent, and the gap is closed.** The August 19
+   page recorded that Dan spent the final hour arguing about *"what you are
+   ABOUT to do"* eight times without either party ever saying what it was. The
+   answer is outside the thread: at **06:33 that morning** Annie wrote ***"He
+   didn't rape me"*** in the group chat — publicly clearing **Coles**, in front
+   of both men, of the accusation she was still making to Dan privately hours
+   earlier (01:08/01:09 to Coles: *"she is still saying you raped her so"*).
+
+2. **The retraction was pre-emptive, and that fixes the date.** Per the
+   operator she sent it *believing Dan had already emailed her mother the
+   record of her making the claim*, timed *"hours before she expects her
+   parents to read what she had told me."* That requires it to follow Dan's
+   last claim of having sent it — **2026-08-19 01:44:27** — so *"Yesterday 6:33
+   AM"* is **Aug 19**. Two independent supports in the message log: an untexted
+   Dan attachment at **07:27:35** (54 minutes later, with no Aug 18 counterpart)
+   and the thread's register turning at **11:25** and never turning back.
+   One inconsistency held open rather than smoothed: the operator calls this the
+   catalyst for *"telling her i hadnt actually sent the recording,"* and the
+   explicit false-send admission is 08-18 19:38 — reconcilable if the Aug 18
+   admission was the test debrief and Aug 19 is the abandonment of the claim
+   (11:25, then plainly 15:12), which is what his own *"no runway left"*
+   phrasing describes.
+
+3. **The two most opaque messages in the corpus became the most legible.**
+   *"Not even enough to correct the lies you told about me"* (15:13:45) and
+   *"YOU COILDNT EVEN CLEAR ME FEOM THE LIES YOU TOLD ABOUT ME"* (15:15:00) —
+   read as generalised grievance until now. They are about a specific act with a
+   specific counterpart nine hours earlier. Per the operator he had **called and
+   asked her to clear his name too, and she said she would and did not** (voice;
+   in no export). The complaint is the asymmetry, not the accusation.
+
+4. **The August 13 seam is corroborated from the other side.** Coles's
+   group-chat message is *"Anne still messaging you,"* **11:23 AM**. Annie's
+   *"He sent a message to a group chat / With you / …please. Do not engage"*
+   lands 21–36 minutes later. The wiki had the request; it now has the trigger.
+
+5. **It was not blackmail, and saying so requires saying what it was.** The
+   demand across three days was never money, sex, contact or return — only a
+   written statement — and the material was repeatedly offered for inspection
+   *before* use (*"I can let you see it first to make sure you don't accuse me
+   of putting fake things in"*, 08-17 19:32; *"I'M NOT BLACKMAILING YOU"*,
+   08-18 19:44; *"so you don't say I am like holding this above your head"*,
+   08-18 21:44). Eleven deferrals requested, eleven granted. That is not
+   blackmail's structure. It also had coercive force, and Annie names it
+   (*"You're making this worse for me doing that"*). **Both are recorded.**
+   → written back to `block-unblock-loop`: score the threat class **by its
+   demand** — every instance in eleven years demands a *statement*, which is
+   why none converts into an exchange and is the likeliest reason the execution
+   rate has stayed at or near zero.
+
+6. **The *"made her fuck guys for drugs"* accusation is false as stated, and is
+   a compression of something real.** Tested against `arrangement-history`,
+   which is the corpus's primary-source backbone for exactly this. Three limbs:
+   - **Direction of payment — fails flatly.** In all seven documented instances
+     money runs **Dan → third party**: *"I would spend money to get you an
+     escort"* (2018-06-27), *"Find two escorts… I'll set it up"* (2018-10-18),
+     *"we'll pay above rate"* signed **Annie** (2018-10-25), *"$3000 to be a
+     plaything for Annie"* (2018-11-28), Trinity at $1,500/hr, Shelbie
+     $31+$700, Kelly's five-week run. **No instance anywhere of a third party
+     paying Annie with money that reached Dan.** The only earnings are
+     smashonista — a *joint* operation Dan calls *"most of our income."*
+   - **Drugs as consideration — zero instances in eleven years.** Term searches
+     for *made you fuck / made her fuck / fuck guys for / fuck for drugs /
+     sell yourself / trade sex* return nothing in either direction. Every
+     documented consideration is cash or nothing.
+   - **Coercion — the one observable case runs backwards.** April 2019 is the
+     only instance reconstructed from inside the couple's own thread as it
+     happened, and there Dan paid for a one-on-one and Annie forced entry over
+     his live objection. Against it: 2018-04-10, *"give me a break after
+     arranging a hookup for you and then having you flake"* — he arranges and
+     presses, which is real and is not coercion.
+   - **Chronology.** *"You spent your dead grandma's money"* is backwards: the
+     expensive encounters (Trinity Mar 2019, Kelly autumn 2019) predate the
+     September 2020 estate distribution by eighteen months.
+   - **The uncomfortable adjacent datum, recorded because it is uncomfortable:**
+     2019-01-27, a confidant who had earlier received the *"$3000 plaything"*
+     disclosure writes to Dan, *"all the drugs in the world you can shove down
+     their throats in exchange for something of no real purpose… enough cash in
+     your accounts to buy the people you need."* Hostile third-party testimony
+     that money-and-drugs-for-access is a thing Dan does — about **her**, not
+     Annie. It describes Dan buying, not Annie being sold.
+   - **Verdict:** the record shows **purchased access with Dan as buyer and
+     architect**. The accusation keeps the transaction and reverses who was
+     bought. **Falsifier named on the page**, and it is the live one: the
+     evidence base is overwhelmingly Dan-side correspondence and the corpus
+     contains almost no account of the arrangement in Annie's own voice.
+
+7. **Also on the recording:** Coles asks Annie to affirm the charge upwards of
+   a dozen times, escalating, while holding her phone. She never says yes.
+
+**The corpus now holds four positions on the rape claim and scores none:**
+asserted to Dan over months, denied by Coles in writing, denied by Annie in the
+group chat, re-asserted to Dan afterwards. Recording all four is the finding.
+
+**Standing gap created.** The group chat has **never been exported** and two
+findings now rest on one transcribed screenshot of it. One query settles the
+date beyond inference and recovers whatever else ran through a channel all
+three parties were in.
+
+**Gates:** `wiki-lint` **0 errors** · `wiki-connect check` **0 errors** ·
+`wiki-climb check` **0 errors**.
