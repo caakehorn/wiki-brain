@@ -219,7 +219,10 @@ sleep."* He arranges, he presses, and he keeps a ledger of it. That is real and
 is not coercion, and the distinction matters more than either party's rhetoric.
 
 And on the recording itself: Coles asks Annie to affirm the charge upwards of a
-dozen times, escalating, while holding her phone. **She never says yes.** Dan's
+dozen times, escalating, while holding her phone. **She never freely says yes.**
+
+> **CORRECTED [2026-08-20]:** this read *"She never says yes."* Against the primary transcript she does, once — *"Yes, save it"* at 04:43, which Coles immediately reports to Dan as assent. It is ambiguous on its face, it is extracted while he is withholding her phone and threatening to call her mother, and it concerns 2019, so it carries no evidential weight about the arrangement itself. But the flat claim was wrong. See [[wiki/mind/synthesis/august-grievance-verdict]].
+ Dan's
 own answer on the call is *"I really didn't need the money at that time when
 that was all going on"* — and the table above is what makes that checkable
 rather than self-serving.

@@ -2885,3 +2885,89 @@ Both had been published into `llm/corpus.txt`. Neither `bin/wiki-lint` nor
 `bin/wiki-freshness` looks for conflict markers, which is a cheap gate the repo
 does not have — a page containing `^<<<<<<<`, `^=======$` or `^>>>>>>>` is never
 correct. Queued in `BACKLOG.md`.
+
+## [2026-08-20] ingest | timeline | the Morgantown recording, verified against a real transcript
+
+**The single highest-value open action on `august-2026-morgantown-call` is
+closed.** That page carried an explicit warning that everything quoted from the
+call came from an AI-secondary analysis two removes from the audio, and that
+the fix was a real transcription. The operator supplied one; it is filed at
+`raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt` (611 lines, 204
+turns, `00:00:00`–`00:14:59` against 15:27.24 of audio). Every quotation on the
+page has now been checked against it.
+
+**The load-bearing finding survived contact with the real transcript.** The
+recording Dan kept for three days as proof of betrayal is also the best
+corroboration in the corpus of the defence Annie offered. That was derived from
+a two-removes transcript and it holds — and the primary evidence makes it
+*stronger*, not weaker.
+
+**Five figures were wrong, all in the same direction.** Dan's *"give her her
+phone and let her leave"* is **twenty** times, not fourteen, and runs to 14:17
+rather than 12:31. Annie asks to leave from **04:16**, not 11:04 — six minutes
+and forty-eight seconds earlier, which materially lengthens the window in which
+she is on record asking to go. Dan's first intervention is 05:12, not 06:30, and
+is not the stock line. Six timestamps were off by 3–21 seconds. Every correction
+strengthens her account.
+
+**One flat assertion did not survive, and it is held open rather than
+resolved.** Both pages asserted that under interrogation *"she never says
+yes."* At **04:43**, answering *"Yes or no?"*, Annie says ***"Yes, save it"***,
+and Coles reports it to Dan three seconds later as assent. The words are
+ambiguous, they are extracted while he is withholding her phone and threatening
+to call her mother, and they concern 2019 — so they carry no evidential weight
+about the arrangement. But the wiki cannot say she never said it. Restated
+across three pages as the defensible narrower claim: **she never freely
+affirmed it, and is never heard affirming it except under duress.**
+
+**Four findings the secondary transcript had missed entirely.**
+
+* **Annie alleges physical violence, on tape, and Coles denies it in the same
+  breath.** 02:31 *"You're acting like someone's fucking hitting you and
+  shit"* → 02:35 **"You are."** → four immediate denials and *"Where'd I hit
+  you at then?"* Nothing else in the corpus records an assault allegation made
+  to the person's face and answered in real time. New to `annie-ulmer` and
+  `jerel-coles`.
+* **Prior police contact**: *"That's exactly why the police were called the
+  last time"* (02:04), and *"I absolutely fucking will"* when dared to call
+  again. She does not.
+* **Dan answers the prostitution allegation on the record, and answers it
+  narrowly**: *"I really didn't need the money at that time when that was all
+  going on"* (07:31). He contests the **motive**, not the fact — consistent
+  with everything on `annie-ulmer`.
+* **The parental-disclosure threat is made *during* the call, at 13:30**, not
+  after it: *"I'm gonna send this whole thing to Ellen because it sounds really
+  fucking bad and I haven't said a word this entire time."* This revises this
+  page's own conclusion (*"the artifact does not change; its function does"*)
+  and amends the ethical-analysis page, whose reconstruction turned on the
+  leverage being conceived *afterward*. The correction cuts both ways and both
+  halves are on the page: the threat's target at 13:30 is **Coles, not Annie**,
+  and its stated purpose is to get the phone back — so the instrument is
+  conceived in a protective frame and **later re-aimed**. The morally serious
+  act is the re-aiming.
+
+**Two limits are now stated rather than implied.** The transcript stops at
+14:59 against 15:27 of audio — **the last ~28 seconds are untranscribed**. And
+the speaker labels are diarization, not identification: **at least five of 204
+turns carry another speaker's words under the wrong label** (04:03, 06:22,
+09:46, 10:31, 14:30). Claims resting on one short line's attribution are soft;
+claims resting on repeated content are solid, and are marked as such.
+
+**Gate work — main was red, and two classes of invisible junk were on it.**
+`bin/wiki-lint` was failing on `main` before this pass (invented
+`page_type: source-amendment`; seven invented tags), and `wiki-connect` and
+`wiki-climb` were failing too once lint stopped masking them — a synthesis page
+carried six wiki paths in `sources:`, three invented edge types, and three empty
+claims. All fixed, with the four missing inverse edges added.
+
+Then the reason those got through: **eight assistant citation artifacts** —
+private-use codepoints (U+E000–U+F8FF) wrapping a `filecite`/`turn` reference —
+were sitting in `morgantown-call-three-participant-ethical-analysis.md`, already
+published into `llm/corpus.txt`. They render as nothing, survive copy-paste, and
+assert a source that points nowhere. Together with the two merge markers found
+on `main` earlier today, that is two classes of corruption no gate could see.
+`bin/wiki-lint` now carries `find_corrupt_text()` for both, with eleven tests
+including a regression test that the whole wiki stays clean and negative tests
+proving a setext underline and an `=======`-with-content are not markers.
+BACKLOG item closed. 52 tests pass; three gates 0 errors; corpus in sync at 486
+pages.

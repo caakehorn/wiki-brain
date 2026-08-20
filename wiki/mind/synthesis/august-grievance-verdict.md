@@ -30,6 +30,9 @@ synthesizes:
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/mind/psychosexual/arrangement-history
 connections:
+  - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
+    type: parallels
+    claim: "Both adjudicate the same window at different scales — ten grievances across seventy hours here, three people across fifteen minutes there — and the shorter frame reaches the harsher conclusion about each participant."
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: instantiates
     claim: "That window is this page's entire evidence base, and the finding it turned out to be evidence of is that the recording Dan holds as proof of betrayal is simultaneously the best corroboration in the corpus of the defence she offered — one artifact carrying both sides of a dispute is rare enough that it is what makes a verdict possible here at all."
@@ -132,7 +135,7 @@ hours before** Coles is typing on her phone.
 15:27. On tape Coles admits going through her phone while she slept, keeps it,
 interrogates her a dozen times to make her say Dan prostituted her, threatens
 her parents, and tells Dan to kill himself. Dan's near-sole contribution is
-*"give her her phone and let her leave,"* fourteen times, plus an offer to drive
+*"give her her phone and let her leave,"* twenty times, plus an offer to drive
 over.
 
 **17–18 August — the campaign.** Three days of threatened disclosure to
@@ -211,28 +214,47 @@ here rather than a choice between two accounts.
 
 Dan spent three days holding the recording as proof: *"Listen to the fucking
 call ALL I DID WAS TRY TO HELP AND DEFEND YOU"* (08-17 12:59). He is right about
-what it shows of him — his contribution is one sentence, fourteen times, and an
+what it shows of him — his contribution is one sentence, **twenty times**, and an
 offer to come get her.
 
 **But the same recording is Annie's defence, and it is stronger than anything
-she says in text.** On it: she is asking for her phone back; she says *"I said
-I'm willing to leave!"*; she says *"I want to leave"* repeatedly; she is crying
-and at one point screaming; and Coles is heard refusing to return the phone
-while Dan tells him, over and over, that this is what holding someone hostage
-looks like.
+she says in text.** On it she asks for her phone five times and says she wants
+to leave from **four minutes sixteen seconds in** — *"I want my phone and I want
+to leave"* — repeating it at 04:59, 09:44, 11:06 and 11:54. She says twice that
+she is being held hostage (09:10, 09:25) and Coles answers *"Yeah, I am"* when
+Dan says he has her phone. She says *"No, you threatened me"* (05:22). And at
+**02:35**, when Coles says *"You're acting like someone's fucking hitting you
+and shit,"* she answers ***"You are"*** — an allegation of physical violence
+made to his face, which he denies four times in the next breath.
 
-Dan's position across the next three days is that she *"chose to stay"* —
-*"YOU COULD HAVE LEFT. You chose to stay and you humiliated me"* (08-17 12:58).
-Her position is *"I COULDNT LEAVE"* (13:00:58), *"I was terrified"* (15:10:40),
-*"you don't know what position I was in"*.
+> **CORRECTED [2026-08-20] — verified against the primary transcript.** This
+> section was written from a two-removes secondary transcript. The operator has
+> since supplied a direct transcription
+> (`raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt`) and three
+> details here were wrong. *"His contribution is one sentence, fourteen times"*
+> → **twenty times**, and the last is at 14:17, not 12:31. The quoted line
+> *"I said I'm willing to leave!"* is actually ***"I'm willing to leave"***
+> (09:44) — no *"I said"*. And *"she says 'I want to leave' repeatedly"* was
+> dated from 11:04; it begins at **04:16**. Every correction moves in the same
+> direction: **her defence is better supported by the real transcript than by
+> the one this page was built on.**
 
-**On the evidence of his own artifact, her account is the better-supported
-one for the duration of the call.** That is not a small correction. It does not
-touch grievances 1, 5 or 8 — those concern the days before and after, when
-nobody was holding her phone — but it substantially weakens the *"she chose to
-stay"* framing that grievances 3 and 4 lean on for their emotional force, and it
-means the strongest evidence Dan gathered against her is partly evidence for
-her.
+> **CONTRADICTION [2026-08-20] — she does say the word, once, under duress.**
+> The Morgantown event page previously asserted, and this page assumed, that
+> across the interrogation *"she never says yes."* At **04:43**, answering
+> *"Yes or no?"*, Annie says ***"Yes, save it."*** Three seconds later Coles
+> tells Dan ***"she's looking at me saying yeah, she don't want you to hear
+> it."***
+>
+> This is held open rather than resolved, and it does not change a score. The
+> two words are ambiguous on their face — *"save it"* is a dismissal, and the
+> clause reads as plausibly as *stop, drop it* as it does as assent — and they
+> are produced by a woman whose phone is being withheld until she answers, by
+> a man threatening to call her mother if she does not. **Assent extracted that
+> way is worth nothing as evidence about 2019**, which is the year the
+> allegation concerns. But the record cannot say she never said it. The
+> defensible claim is narrower: **she never freely affirmed it, and she is
+> never heard affirming it except under duress.**
 
 **The narrow window where his reading survives.** She was not on that call for
 seventy hours. She was at her parents' house on the 17th, at Sugie's on the 18th

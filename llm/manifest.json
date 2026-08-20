@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 484,
+ "page_count": 486,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1270,7 +1270,7 @@
    "title": "Arrangement History",
    "summary": "Where the rest of this cluster synthesizes AI-authored theory, this page is the primary-source backbone: a chronological index of every independently-documen...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/psychosexual/arrangement-history.txt",
-   "bytes": 24631
+   "bytes": 25117
   },
   {
    "page": "wiki/mind/psychosexual/developmental-origins.md",
@@ -1347,7 +1347,7 @@
    "title": "operator answers from 2026-08-20 have been integrated below",
    "summary": "**Every substantive grievance Dan states between 16 and 19 August 2026 is supported by the record, most of them strongly, and one of them is the most clearly...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/august-grievance-verdict.txt",
-   "bytes": 30524
+   "bytes": 32244
   },
   {
    "page": "wiki/mind/synthesis/block-unblock-loop.md",
@@ -1375,7 +1375,7 @@
    "title": "The Dan/Annie Fallout \u2014 Was He Correct to Feel Wronged? (Raw-Evidenced)",
    "summary": "The verdict, stated plainly: **yes \u2014 on the documented facts, Dan was correct to feel wronged, and the feeling was not a misreading.** The record supports a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dan-annie-fallout-verdict.txt",
-   "bytes": 53702
+   "bytes": 54074
   },
   {
    "page": "wiki/mind/synthesis/dormancy-not-exit.md",
@@ -1432,6 +1432,13 @@
    "summary": "One of Dan's most developed self-theories holds that his generation occupies a unique epistemic position \u2014 and that he is an unusually complete specimen of i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/millennial-digital-witness.txt",
    "bytes": 6063
+  },
+  {
+   "page": "wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis.md",
+   "title": "The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles",
+   "summary": "The August 16 Morgantown recording is the strongest primary artifact in the corpus for evaluating the three-person conflict because it places all three parti...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/morgantown-call-three-participant-ethical-analysis.txt",
+   "bytes": 36445
   },
   {
    "page": "wiki/mind/synthesis/music-as-identity.md",
@@ -1585,7 +1592,7 @@
    "title": "Annie (Anne Louise Ulmer)",
    "summary": "Annie Ulmer was Dan's partner for ten years and seven months \u2014 November 28, 2015 to June 1, 2026 \u2014 and is the only relationship in his documented history to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 140609
+   "bytes": 141991
   },
   {
    "page": "wiki/people/annoying.md",
@@ -2040,7 +2047,7 @@
    "title": "Jerel Wayne Coles",
    "summary": "On **2026-08-08 at 19:01:22 EDT** Dan ran a FOREWARN background lookup on the man Annie left him for. The capture is filed at",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jerel-coles.txt",
-   "bytes": 30527
+   "bytes": 32582
   },
   {
    "page": "wiki/people/jess.md",
@@ -3058,11 +3065,18 @@
    "bytes": 9496
   },
   {
+   "page": "wiki/timeline/events/august-2026-morgantown-call-source-amendment.md",
+   "title": "Source Amendment \u2014 Morgantown St Recording, August 16 2026",
+   "summary": "**Filed 2026-08-20.** This amendment exists because the original event page was written while the audio had not yet been directly transcribed in the corpus.",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/august-2026-morgantown-call-source-amendment.txt",
+   "bytes": 5339
+  },
+  {
    "page": "wiki/timeline/events/august-2026-morgantown-call.md",
    "title": "The Morgantown St Call and the Leverage Campaign, August 16\u201319 2026",
    "summary": "Between 23:37 on Saturday 16 August 2026 and 15:15 on Wednesday 19 August, Dan and [[wiki/people/annie-ulmer|Annie]] exchanged **1,199 messages** \u2014 811 from ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/august-2026-morgantown-call.txt",
-   "bytes": 50200
+   "bytes": 58347
   },
   {
    "page": "wiki/timeline/events/august-2026-unmasking.md",

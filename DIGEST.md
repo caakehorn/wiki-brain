@@ -13,10 +13,10 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 484 |
-| Pages touched in the last 14 days | 166 |
-| Pages reasoning from other pages (`synthesizes:`) | 39 |
-| Live contradictions | 44 |
+| Pages | 486 |
+| Pages touched in the last 14 days | 168 |
+| Pages reasoning from other pages (`synthesizes:`) | 40 |
+| Live contradictions | 45 |
 | Open gaps | 395 |
 | Standing predictions | 36 |
 
@@ -26,9 +26,9 @@ this is the state of the thing.
 |---|---|
 | people | 165 |
 | interests | 143 |
-| mind | 65 |
+| mind | 66 |
 | self | 40 |
-| timeline | 38 |
+| timeline | 39 |
 | work | 15 |
 | places | 9 |
 | health | 5 |
@@ -39,20 +39,21 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 188 |
-| active | 153 |
+| active | 155 |
 | closed | 99 |
 | archived | 31 |
 | stub | 13 |
 
 ## The last few days
 
-**2026-08-20** — 43 pages
+**2026-08-20** — 45 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
   - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
   - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
   - climb | mind | the grievances of the last conversation, scored one by one — and Dan's own evidence turns out to cut both ways
   - rewrite | people | ally-lubin — the wiki hallucinated about itself, and the infobox carried it
   - rewrite | people | annie-ulmer — the zero holds at full width; the ending was not one thread
+  - lint | timeline | two committed conflict markers on main
 
 **2026-08-19** — 43 pages
   - audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
@@ -101,6 +102,7 @@ have moved since.
 - [[wiki/mind/synthesis/estate-money-spine]] — 5 premises
 - [[wiki/mind/synthesis/fayette-return]] — 6 premises
 - [[wiki/mind/synthesis/instrument-is-subject]] — 4 premises
+- [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 6 premises
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
 - [[wiki/mind/synthesis/single-channel]] — 6 premises
 - [[wiki/mind/synthesis/supply-network]] — 9 premises
