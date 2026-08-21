@@ -39,7 +39,7 @@ simply listed.
 | [[wiki/people/menore]] | people | **CORRECTED** — This page asserted *"Consistent quantity requests — Dan typically orders '8'"* and, under Operational Security, *"'Need 8' is the entire transaction language."* Measured against the 2,660 sent message |
 | [[wiki/people/trinity-st-clair]] | people | — |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — the-deferred-audit moved on 2026-08-21 solely by gaining a `RE-CHECKED` blockquote confirming that its own three premises had left it undisturbed. No deferral claim changed, and the housing argument h |
-| [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | **RE-CHECKED** — block-unblock-loop and dormancy-not-exit both moved on 2026-08-21. Both changes are about the **Menore** supply channel — its two long silences, its counterparty still operating — and |
+| [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | — |
 | [[wiki/self/concepts/chatgpt]] | self | **GAP CLOSED** — The operator, T0: *"Read the old pre gpt5 threads to understand the lead up to the release."* This page was written on 2026-08-19 without them. Its `sources:` listed Gemini's activity log, two dox fil |
 | [[wiki/self/concepts/llm]] | self | **CORRECTED** — this section previously presented all three bullets below as *"his analysis."* They are **Gemini's**, generated in the 2025-08-24 session from Dan's five-word prompt *"gemini i think chatGPT is cooked |
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |

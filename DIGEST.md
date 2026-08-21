@@ -16,8 +16,8 @@ this is the state of the thing.
 | Pages | 486 |
 | Pages touched in the last 14 days | 174 |
 | Pages reasoning from other pages (`synthesizes:`) | 40 |
-| Live contradictions | 44 |
-| Open gaps | 407 |
+| Live contradictions | 43 |
+| Open gaps | 404 |
 | Standing predictions | 36 |
 
 ## By domain
@@ -121,7 +121,7 @@ have moved since.
 - [[wiki/people/suzanne-frank]] — 4 premises
 - [[wiki/people/suzanne-frank-personality-assessment]] — 1 premise
 - [[wiki/places/the-unpapered-address]] — 10 premises
-- [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — 7 premises
+- [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — 1 premise
 - [[wiki/self/concepts/astrology-star-signs]] — 1 premise
 - [[wiki/self/concepts/wiki-brain]] — 2 premises
 - [[wiki/timeline/periods/2020-2021-market-era]] — 1 premise
