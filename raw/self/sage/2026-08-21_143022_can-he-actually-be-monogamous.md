@@ -1,22 +1,38 @@
 ---
-id: 2026-08-21_143022_can-he-actually-be-monogamous
-asked: 2026-08-21T14:30:22Z
+captured: 2026-08-21
+kind: sage-answer
+question_id: 2026-08-21_143022_can-he-actually-be-monogamous
 asker: Ally
-status: answered
-answered: 2026-08-21
-capture: raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md
-cites:
-  - wiki/mind/synthesis/the-unbroken-bond.md
-  - wiki/mind/synthesis/bond-switch-2015.md
-  - wiki/mind/synthesis/dormancy-not-exit.md
-  - wiki/mind/psychosexual/arrangement-history.md
-  - wiki/people/annie-ulmer.md
-  - wiki/people/ally-lubin.md
-  - wiki/people/kristin.md
-  - wiki/people/alexis-armel.md
-  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
-  - raw/self/message-csv/imessage_export_2124702449_20260820.csv
+targets:
+  - wiki/mind/synthesis/the-unbroken-bond
+  - wiki/mind/synthesis/bond-switch-2015
+  - wiki/mind/synthesis/dormancy-not-exit
+  - wiki/mind/psychosexual/arrangement-history
+  - wiki/people/ally-lubin
+  - wiki/people/annie-ulmer
 ---
+
+# Sage answer — can he actually be monogamous?
+
+The immutable record of a question put to the wiki from outside it, and the
+answer given. `sage/questions/` mutates as a question is worked; this does not.
+
+Asked through the portal by **Ally**, 2026-08-21T14:30:22Z. Answered the same
+day. This is the first question the box ever took.
+
+**Method.** Reasoned from `wiki/` first — `the-unbroken-bond`,
+`bond-switch-2015`, `dormancy-not-exit`, `arrangement-history`, `ally-lubin`,
+`annie-ulmer`, `kristin`, `alexis-armel` — then `bin/mine-messages` over the
+217,573-record dump for the quotes, which are reproduced with their dates in the
+answer below. Term counts run at answer time: `monogam` 7, `cheat` 141,
+`exclusive` 15, `faithful` 3.
+
+**Finding, in one line.** The corpus clears him of concealed infidelity across
+eleven years and convicts him of something else: the position has never been
+empty in seventeen years, and in 2015 the replacement was sourced before the
+vacancy opened. The August 18–19 2026 concurrency is the same mechanism running
+with the asker in it.
+
 
 ## Question
 

@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (1)
+## Obligations (5)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -24,7 +24,11 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 
 | P | Kind | What | Where | Since |
 |---|---|---|---|---|
-| 1 | sage | Can Dan actually be monogamous? He says he absolutely would and will, and I don't — asked b… | `sage/questions/2026-08-21_143022_can-he-actually-be-monogamous.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on mind/psychosexual/arrangement-history, not integrated | `wiki/mind/psychosexual/arrangement-history.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on mind/synthesis/bond-switch-2015, not integrated | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on mind/synthesis/dormancy-not-exit, not integrated | `wiki/mind/synthesis/dormancy-not-exit.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on mind/synthesis/the-unbroken-bond, not integrated | `wiki/mind/synthesis/the-unbroken-bond.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on people/ally-lubin, not integrated | `wiki/people/ally-lubin.md` | 2026-08-21 |
 
 ## Standing work (196)
 

@@ -3257,3 +3257,66 @@ the repository, and answering it puts new material into `raw/` and `wiki/`. The
 corpus is bigger after a question than before it.
 
 20 new tests, 104 passing. Three gates 0 errors.
+
+## [2026-08-21] answer | mind | can he actually be monogamous — the first question the box ever took, and it clears him of the wrong thing
+
+The portal's question box took its first question, from **Ally**: *"Can Dan
+actually be monogamous? He says he absolutely would and will, and I don't
+believe him. What does the record say — not what he says about himself, what he
+has actually done?"*
+
+**The corpus clears him of concealed infidelity and convicts him of something
+else.** Both halves are findings; neither was stated anywhere in the wiki in this
+form before today.
+
+**On the narrow charge, the record is against the asker.** Seventeen years
+continuously pair-bonded, unattached total measurable in weeks
+(`the-unbroken-bond`). Every documented instance in `arrangement-history` was
+disclosed and usually conducted with Annie present — **there is no instance in
+eleven years of an outside encounter concealed from her.** And mining `cheat`
+across all 217,573 records returns **141 uses whose direction is consistent in
+every era**: he is the party cheated on, in both documented bonds. *"Lex cheated
+on me 2 weeks in after I moved her to fla"* (2015-11-28); *"I've always been
+super worried about being cheated on"* (2024-08-12). **2025 spikes to 62 hits —
+4.29 per 1,000 sent, against 0.24–1.22 in every prior year**, a 5× rise, almost
+all of it to Annie. He was cheated on and stayed eighteen months.
+
+**One quote no page in the wiki carried.** *"i'm a serial monogamist so i've only
+been with a few girls, and they all fit a very specific type"* — **2019-08-17
+22:26**, six weeks before the Kelly Johansson run and two months before the
+filmed MMF, to a third party he had no reason to manage on the point. `monogam`
+returns 7 hits in eleven years; this is the load-bearing one. It is evidence for
+what `arrangement-history` already concludes about the Kristin inversion:
+**openness was never the requirement, authorship was**, and he did not experience
+the open era as non-monogamy in the identity sense at all.
+
+**On the broader charge, the record is with the asker, and it is about her.** The
+2015 switch is the mechanism: a six-year bond closing in seventy-two hours with
+nothing prompting it but the arrival of a replacement — **the replacement sourced
+before the vacancy opened.** And `ally-lubin`'s August 18–19 concurrency finding
+is that same mechanism running four days before she asked, with her in it: 408
+messages to Annie against 552 to Ally, *"my wifi is back off now"* two hours
+before 98 messages with Annie, *"Im all ally Lubin all the time now"* ninety
+minutes before the eleven-year relationship's last message.
+
+So the answer refuses to collapse: **he can be monogamous; he has never been
+alone.** The corpus supports sexual exclusivity strongly and supports a clean
+boundary between one bond and the next not at all.
+
+**What the answer conceded, in public.** That nearly all of it is Dan-side
+correspondence and the arrangement record has almost no account in Annie's voice
+— `arrangement-history`'s own standing falsifier. That `dormancy-not-exit`
+contains **no attested exit in eleven years** and that the most recent test failed
+(severance 2026-06-01, contact resumed 2026-07-23, fifty-two days). And that the
+August 19 closure is two days old and decides nothing until roughly 2027-02-19 —
+which is now a date with an outside audience rather than an internal note.
+
+**The subject of a page is now a user of the wiki.** Ally read her own entry on
+August 18 (*"If someone ever archived my texts I'd kill myself"*), audited it as a
+hostile reviewer, and three days later queried the archive about its subject. The
+channel has never carried this before, and `ally-lubin` is staged with it.
+
+Findings staged on five pages under `sage_pending: 2026-08-21` —
+`the-unbroken-bond`, `arrangement-history`, `bond-switch-2015`,
+`dormancy-not-exit`, `ally-lubin`. No `date_modified` bumped: nothing is
+corrected yet. Capture at `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`.

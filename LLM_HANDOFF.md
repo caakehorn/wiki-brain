@@ -4,6 +4,74 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-21] - Session: the wiki got a front door, a mandatory work list, and its first outside question
+
+* **Model:** Claude Code · **Branch:** `claude/image-text-reading-ya612t` · **PRs:** wiki-brain #165, home #60 (both draft)
+* **Trigger:** operator asked for a portal section where anyone can query the wiki about him and have the answers fed back into it. Ally had asked him whether he could be monogamous and did not believe the answer.
+
+**Read this first if you are picking up the thread.**
+
+**`bin/wiki-work` is now a required session step and this file is no longer the
+only place to look.** Run it after reading this. It aggregates every source of
+outstanding work and splits **obligations** (a red gate, a parked `sage/`
+question, a staged answer, a stale premise, an unnormalised portal edit) from
+**standing work** (the four campaign queues, counted not enumerated). There is no
+`done` command by design — every row is a live condition, and a list that can be
+ticked off independently of the thing it describes can lie. CLAUDE.md now carries
+the five-step order; **step 4, "come back and drain the list after the operator's
+task," is the one that will get skipped.**
+
+**A portal save had deleted 30KB of `people/annie-ulmer` and the gate that caught
+it went unread for a day.** `bin/wiki-connect check` was red on `main` with 70
+errors — 56 typed edges reduced to bare `- page:` entries, plus the infobox, the
+changelog and ~30KB of prose. Commit `ff905fc`, a save made from a **2026-08-13**
+snapshot written back over the 08-16, 08-17 and 08-20 passes. The fingerprint is
+two frontmatter dates moving *backwards* in one commit. Recovered from `c4aab20`
+with the three genuine additions re-applied. **The cause is fixed in the portal**
+(`draftIsStale`), and `queue.md` carries a HIGH item to sweep every other page for
+the same signature. A red gate is now priority 0 in `WORK.md`, above everything.
+
+**The first sage question is answered, and the loop it closes is real.** Ally
+asked; the answer is at `sage/questions/2026-08-21_143022_...`, captured at
+`raw/self/sage/`, and it **created five CLOSE obligations where there had been
+one ANSWER obligation.** The corpus is bigger after the question than before it —
+which is the whole thesis, now demonstrated rather than asserted.
+
+Two findings from it that no page carried:
+
+1. ***"i'm a serial monogamist so i've only been with a few girls"*** — Sent,
+   **2019-08-17 22:26**, six weeks before the Kelly Johansson run. `monogam`
+   returns 7 hits in eleven years and this is the load-bearing one. It is
+   evidence for `arrangement-history`'s Kristin-inversion reading: **openness was
+   never the requirement, authorship was.**
+2. **`cheat` returns 141 uses and the direction is consistent in every era — he
+   is the party cheated on, in both bonds.** 2025 spikes to **62 hits, 4.29 per
+   1,000 sent against 0.24–1.22 in every prior year.**
+
+**Top actions for the next pass.**
+
+1. **Drain the five staged sage findings** (`bin/wiki-work`, priority 2). They are
+   on `the-unbroken-bond`, `arrangement-history`, `bond-switch-2015`,
+   `dormancy-not-exit` and `ally-lubin`. `bond-switch-2015`'s is the one to do
+   first and carefully: the answer put *"the replacement was sourced before the
+   vacancy occurred"* in front of a third party, and that page implies it without
+   stating it. **If it is too strong for the evidence, narrow it there — it is
+   quoted now.**
+2. **`ally-lubin` needs a section, not a footnote.** The subject of a page read
+   her own entry, audited it as a hostile reviewer, and three days later queried
+   the archive about its subject. The channel has never carried that before.
+3. **Sweep for the lost-update signature** (`queue.md`, HIGH): any page whose
+   `date_modified` is older than the commit before it.
+4. **2027-02-19 is now a public commitment.** `dormancy-not-exit`'s test for
+   whether the 2026-08-19 closure is the first attested exit was told to an
+   outside asker. Work it deliberately in February, not whenever a pass lands.
+
+**Not done, and why.** The two PRs are drafts and unmerged, so `/sage` is not live
+and nobody outside can actually ask anything yet — merge wiki-brain #165 first,
+then home #60. The scheduled drain (`.github/workflows/sage-drain.yml`) ships
+inert until `ANTHROPIC_API_KEY` is set on the repo; until then the list is drained
+by whoever opens it, which is the opportunistic half working as designed.
+
 ### [2026-08-21] - Session: the ChatGPT page had never read ChatGPT, and a clock time was being read as a dosage
 
 * **Model:** Claude Code · **Branch:** `claude/repo-review-linking-t4r92g`
