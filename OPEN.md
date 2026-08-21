@@ -8,8 +8,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 44 |
-| Open gaps | 407 |
+| Live contradictions | 43 |
+| Open gaps | 404 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 36 |
 
@@ -65,7 +65,6 @@ somewhere and has not yet found out where.
 - **[[wiki/people/kristin]]** — an earlier version described her as "an ex-Brooklyn librarian living in Pittsburgh." The corpus supports neither. It supports pharmacy / DoorDash / courthouse work and an Akron, Ohio residence. She does say *"okay this is one of the things i miss most about living in new york"* on Facebook — so a New York period is pla
 - **[[wiki/people/sadie-harris]]** — earlier versions of this page and the member table on fayette-return both recorded Sadie as having *died* in Hopwood on 27 November 1997. The GEDCOM records no death place at all — only the date — and lists Hopwood as the **burial** place. Her last attested residence is Brownsville in 1993. The Hopwood association is r
 - **[[wiki/people/suzanne-frank]]** — A $200 cocaine spend on 2015-12-29 is **not** established as hers, and an earlier pass wrongly recorded it as such. The record has Annie saying *"And that $200 wasn't even your own"* (23:48) and Dan answering *"It was my money"* (23:50). The two lines conflict and the corpus does not settle them. Held open rather than 
-- **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — erotic-architecture holds that the charge in this attachment is sustained *by* inaccessibility — arousal that survives because it is never consummated, priced per item, named by Dan himself as something to get the poison out of rather than to act on. That reading predicts the attachment thins as access increases, and i
 - **[[wiki/self/concepts/chatgpt]]** — This page and claude-code make incompatible claims about where an LLM's value sits. This page treats it as residing in the model's *willingness* — a register it will speak in, a class of question it will engage — which is why a guardrail change reads here as a capability loss and why the honesty standard is encoded as 
 - **[[wiki/self/context-core]]** — fran-coldren resolved it on 2026-08-02 against a dated message in which Dan describes her, at the time, as *"a 97 year old woman with advanced dimentia"* (2017-12-29) — consistent with an August 1920 birth and an April 2018 death. The **98** in this page and in `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`, and the 
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — Dan states he sent the audio to Annie's parents (three times, Aug 19 01:04–01:48) and states that he did not (twice, Aug 19 11:25 and 15:12), and the corpus contains a proven false claim of exactly this kind from the day before. No email, no bounce, no reply, and no third-party reaction appears anywhere in `raw/`. **Th
@@ -420,7 +419,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/places/the-unpapered-address]]** — **The pre-2010 record is empty.** Full Sail housing (2008–2010) and everything before it are undocumented, so the rule is tested on sixteen years and not on a life. If the Florida period shows a conventional student lease, the pattern has a start date and the 
 - **[[wiki/places/the-unpapered-address]]** — **This page does not establish intent.** Whether the unpapered arrangements were preferred, accepted, or simply the only ones available at a $11,000–14,000 household income is not decidable from this material, and the three readings have very different implica
 
-### self (48)
+### self (45)
 
 - **[[wiki/self/ancestry]]** — 1. **The Harris paternal line.** Sadie Harris's father ("Harris" from Czechoslovakia) is the single biggest data gap. He contributed ~12.5% of Dan's DNA but is completely undocumented beyond a single datum. Research into Czech immigration records, census data,
 - **[[wiki/self/ancestry]]** — 2. **The maternal R0 haplogroup.** The origin of the R0 mitochondrial haplogroup on the maternal line is unexplained. It may indicate a distant Jewish, Middle Eastern, or Central Asian ancestor entering through the Van Voorhis, Conwell, or Thomas lines. Resear
@@ -432,9 +431,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/ancestry]]** — 8. **Place name inconsistencies.** The GEDCOM contains numerous place name variants ("Pennslyvania," "Westmorland Co," "Fayette" vs "Fayette County" vs "Fayette, Pennsylvania") that complicate geographic analysis. Standardizing these names would improve data q
 - **[[wiki/self/ancestry]]** — 9. **The Lincoln line.** 31 individuals with the Lincoln surname appear in the GEDCOM. Their relationship to the direct ancestry is unclear — they may be a collateral line or may indicate a distant connection to the Lincoln family name (though not necessarily 
 - **[[wiki/self/ancestry]]** — 10. **Incomplete health report extraction.** Two 23andMe health predisposition results (Age-Related Macular Degeneration, Hereditary Thrombophilia) were not fully extracted from the PDF. The Prostate Cancer (BRCA1/BRCA2) report is locked behind an incomplete q
-- **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — **"I'm inherently evil and unlovable" is attributed to Ally on no evidence.** The phrase occurs once in the corpus, in `raw/self/gemini-activity/Gemini Activity.html` — a model's output, not her words. It should not be quoted as her self-image until a message 
-- **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — **Ally's side of the intent question is unrecorded.** Every claim here about what she wants rests on Dan's reading of her replies. She has not been asked, on any record in the corpus, whether she shares the projection this page makes on her behalf.
-- **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — **Her mother's status is unknown** — the page elsewhere assumes it either way without settling it.
 - **[[wiki/self/concepts/chatgpt]]** — **The post-GPT-5 record does not exist in this corpus.** This is the binding gap and the top action on the page: the archived export was generated 2025-07-01 and GPT-5 shipped 2025-08-07, so every claim about what the release did is untested. **A ChatGPT expor
 - **[[wiki/self/concepts/chatgpt]]** — **The DALL-E beta provenance is testimony alone.** The operator's account that a first-release DALL-E beta code also yielded a GPT one is T0 and uncorroborated; the export can date the start but says nothing about how access was obtained.
 - **[[wiki/self/concepts/chatgpt]]** — **Why the 194-day dormancy (2024-09 → 2025-03)?** The record simply stops and restarts. Whether Dan moved to another model in that window, or was not doing this kind of work at all, is not established here — the Gemini and Claude pages are the place to test it

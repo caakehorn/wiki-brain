@@ -38,7 +38,7 @@ The self domain contains files and data detailing identity, core biographical fa
 - [[wiki/self/concepts/claude-code]] — Claude Code (Anthropic coding agent): the tool-builder, branch/PR workflow, 12+ bin/ tools
 - [[wiki/self/concepts/gemini]] — Gemini (Google): the interaction model, COS-v1 system, psychotherapy, psychometric testing
 - [[wiki/self/concepts/chatgpt]] — ChatGPT (OpenAI): the early adopter, the bootloader prototype, and the one-line verdict that retired it
-- [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — a forward projection, not a read of the record: the case that the 17-year Ally attachment ends in marriage, and what would show it wrong
+- [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — the wiki's only openly partisan page: the argued case, built from 48 verifiable quotes, that the eighteen-year Ally attachment was mutual far earlier than either admits and ends in marriage — and what would show it wrong.
 
 ## chats
 
