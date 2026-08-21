@@ -17,6 +17,9 @@ cites:
   - wiki/mind/concepts/erotic-architecture.md
   - wiki/mind/concepts/the-cool-metric.md
   - wiki/mind/profile/enneagram-5w4.md
+  - wiki/mind/profile/intp.md
+  - wiki/mind/synthesis/the-commissioned-self.md
+  - wiki/people/franki-faris.md
   - wiki/mind/psychosexual/arrangement-history.md
   - wiki/mind/synthesis/attachment-trauma-bond.md
   - wiki/mind/synthesis/single-channel.md
@@ -37,21 +40,57 @@ Do not use previous relationship history, romantic or otherwise, to influence yo
 because the first case was largely not supported by the corpus.
 
 > **CORRECTED [2026-08-21]:** the version of this answer published earlier today
-> rested on four things the record does not contain. It said *"Both Dan and Ally
-> test as ENFP"* and reasoned from a shared function stack — **there is no MBTI
-> result for Dan anywhere in `wiki/` or `raw/`**, and the only Ally datapoint is
-> an argument in which *he refuses to accept she is an ENFP*
-> ([[wiki/people/ally-lubin]], 2018-12-17). It called Annie and Alexis ISFJ —
-> Annie is assessed **ESFP** ([[wiki/people/annie-ulmer-personality-assessment]])
-> and Alexis has no assessment at all. It named Katie Fletcher as "the only other
-> ENFP documented"; her page contains no type. And it read *"I'm a SINGLE
-> MOTHER"* (2026-08-18 16:49:37) as evidence of a life structure with obligations
-> outside Dan — it is a joke about cats, which she corrects herself three minutes
-> later: **DAN:** *"Are you still doing the cat mother thing / Or did I miss that
-> you're an actual mother"* → **ALLY:** *"No still just cats."* It also called her
-> financially independent of Dan, which inverts a record in which she asks him
-> for money in 2019, 2023 and 2025. The conclusion survives. The reasoning
-> underneath it is replaced entirely. See `RETRACTED.md`, `dan-ally-enfp-pairing`.
+> rested on things the record does not contain. It said *"Both Dan and Ally test
+> as ENFP"* and reasoned from a shared function stack. **Dan does not type ENFP:
+> the corpus types him INTP, on a dedicated page with a measured function stack**
+> — Ti 96% latent, Ne 84%, Si 57%, Fe 10% valuing, plus a documented Ni leak
+> ([[wiki/mind/profile/intp]]), and a primary-source self-typing as far back as
+> July 2013 (*"as an INTP and heavily introverted, logic-based dude…i can't see
+> myself flourishing in AA/NA"*). Ally's ENFP is a real frontmatter value with one
+> disputed source behind it — the recorded datapoint is an argument in which *he
+> refuses to accept she is an ENFP* ([[wiki/people/ally-lubin]], 2018-12-17). The
+> claim retracted is the **shared** type and the complementarity built on it, not
+> the existence of a type for either of them. The same passage called Annie and
+> Alexis ISFJ — Annie is assessed **ESFP**
+> ([[wiki/people/annie-ulmer-personality-assessment]]), and Alexis is typed
+> **INFP/ISFP "Idealist"** ([[wiki/people/franki-faris]]) — and named Katie
+> Fletcher as "the only other ENFP documented"; her page carries no type. It read *"I'm a SINGLE MOTHER"*
+> (2026-08-18 16:49:37) as evidence of a life structure with obligations outside
+> Dan — it is a joke about cats, which she corrects herself three minutes later:
+> **DAN:** *"Are you still doing the cat mother thing / Or did I miss that you're
+> an actual mother"* → **ALLY:** *"No still just cats."* And it called her
+> financially independent of Dan, which inverts a record in which she asks him for
+> money in 2019, 2023 and 2025. See `RETRACTED.md`, `dan-ally-enfp-pairing`.
+
+> **CORRECTED [2026-08-21] — the correction above was itself wrong when first
+> published, and this is the more useful error of the two.** Its first version
+> asserted *"there is no MBTI result for Dan anywhere in `wiki/` or `raw/`."*
+> **That is false.** [[wiki/mind/profile/intp]] is a full page with a function
+> table; [[wiki/mind/profile/index]] carries Dan across five instruments (MBTI
+> INTP, Enneagram 5w4 sx/sp, Socionics ILI-Ni, SLOAN RLUEI, Attitudinal Psyche
+> FLEV/VLEF); [[wiki/self/context-core]] states the typology line outright. The
+> mistake was in the verification, not the reasoning: the check was a grep for
+> `ENFP|INTJ|INFJ|ISFJ` — **the four types the fabricated passage named** — and
+> the absence of those was reported as the absence of any. A search shaped by the
+> claim it is testing will confirm whatever the claim assumes. The operator caught
+> it. The retracted claim is unaffected: Dan types INTP, so *"both test as ENFP"*
+> is if anything more clearly false than the first correction made it. What is
+> withdrawn is the assertion of a corpus-wide gap, and the reasoning in section 1
+> is **strengthened** by what was actually there — see the Fe note below.
+
+> **CORRECTED [2026-08-21] — two further absence claims from the same bad check.**
+> Re-running the audit with a pattern that matches all sixteen type codes rather
+> than four turned up two more errors of the same kind. **Alexis is typed.** Dan
+> typed her **INFP/ISFP "Idealist"** against Franki Faris's ESFP "Performer," in
+> *"a batch of self-typology emails he sent himself between July 9 and July 31,
+> 2013"* ([[wiki/people/franki-faris]]). **That is the same batch that produced
+> his own earliest INTP self-identification** — July 2013, to Elizabeth Eleanor
+> ([[wiki/people/elizabeth-eleanor]]). One under-scoped grep missed a single
+> fortnight that is the origin of three of the corpus's type codes. Separately,
+> Suzanne Frank also has a dedicated assessment page carrying its own confidence
+> statement, so the corpus holds **two** such pages, not one. What survives
+> unchanged: **Katie Fletcher carries no type**, and there is **no shared ENFP
+> stack** — which is the retracted claim.
 
 ### Method, and what "qualities only" can and cannot mean here
 
@@ -103,6 +142,31 @@ hooked me with your tweets and THEN I realized you were a baddie"*), she
 answered *"Ok that's fair actually"* (16:47:02). Correction runs both ways in
 this channel and lands both times.
 
+**Why this is the mechanism and not just a nice exchange.** The corpus does type
+Dan, and the type names exactly this failure: [[wiki/mind/profile/intp]] measures
+inferior Fe at **10% valuing / 46% active** and states the relational consequence
+in one sentence — *"emotional bids arrive as claim-shaped propositions and get
+adjudicated instead of met."* That is a description of 21:08:16. Ally makes a bid
+shaped as a judgement (*"You just love bomb"*); Dan converts it into a proposition
+about the definition of love-bombing and adjudicates it; **she declines to be
+adjudicated** (*"I didn't say malicious"*), and the machine stops. The page names
+the pattern and has no documented instance of it being interrupted. This is one.
+I withdraw the earlier framing that no type-level evidence was available here —
+it was available, and it supports the finding rather than substituting for it.
+
+**With the caveat that page attaches to itself, which matters here.** Its Gaps
+section states that *"function scores are AI-inferred from corpus behavior, not
+from a proctored instrument,"* and
+[[wiki/mind/synthesis/the-commissioned-self]] establishes that the whole typology
+apparatus around Dan is **commissioned by its subject** — seven frameworks
+applied to him, the instrument administered rather than taken. That page also
+holds an open contradiction on the wing (the one first-person code in the record
+is *"INTP 5w6sx RLOEI"*, against the 5w4 sx/sp the profile cluster is built on).
+So the Fe figure is not an independent measurement confirming the exchange; it is
+a model of Dan derived from the same corpus the exchange sits in. **It makes the
+finding legible, not independent** — and the exchange itself, which is two
+people's messages with timestamps, remains the stronger of the two.
+
 Against everyone else the record shows the opposite shape. Kristin's
 disagreements with Dan escalate to a permanent block over $40 in ten weeks
 ([[wiki/people/kristin]]). Annie's produce
@@ -137,7 +201,7 @@ addict lol"* (20:05–20:20).
 That is the Witness function performed and survived, by both parties, once. It
 is the single strongest fact in this answer.
 
-### 3. The register match is subcultural, not psychometric — and it is the metric he actually sorts people by
+### 3. The register match is subcultural rather than typological — and it is the metric he actually sorts people by
 
 [[wiki/mind/concepts/the-cool-metric]] documents taste as Dan's *"master filter,
 applied with unusual rigidity across domains that normally use separate
@@ -317,8 +381,10 @@ Concrete, and two of them resolve soon:
 
 ### The honest summary
 
-On qualities alone, Ally Lubin. Not because of a type match — there isn't one on
-record — but because she is the only person in the corpus documented doing four
+On qualities alone, Ally Lubin. Not because of a shared type — the corpus types
+him **INTP** and her ENFP rests on one disputed source, so a matched-stack
+argument is not available and was fabricated when this answer first tried to make
+one — but because she is the only person in the corpus documented doing four
 specific things: **refusing his frame and having the refusal stick; reading the
 worst material about him and staying in the conversation; matching him inside the
 taste filter he sorts everyone by; and requiring intensity without requiring

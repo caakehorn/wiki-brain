@@ -171,18 +171,45 @@ standing order and the thread's language. The true idiom is `can you stop by`
 Retracted 2026-08-21, the day it was written. The first published answer to the
 sage question `2026-08-21_220918_...` ("who is the best match for Dan?") opened
 with *"Both Dan and Ally test as ENFP"* and built four paragraphs of function-stack
-reasoning on it. **There is no MBTI assessment for Dan anywhere in `wiki/` or
-`raw/`.** The only Ally datapoint is an argument recorded on
-`wiki/people/ally-lubin.md` in which *he refuses to accept she is an ENFP*
-(2018-12-17). The same passage assigned **ISFJ** to Annie and to Alexis: Annie is
+reasoning on it. **Dan does not type ENFP. He types INTP**, on a dedicated page
+with a measured function stack — `wiki/mind/profile/intp.md`, Ti 96% latent / Ne
+84% / Si 57% / Fe 10% valuing plus a documented Ni leak — carried in the typology
+table on `wiki/mind/profile/index.md` alongside four other instruments, stated in
+the context-injection line on `wiki/self/context-core.md`, and self-typed in
+primary voice as early as July 2013. Ally's `mbti: ENFP` is a real frontmatter
+value with one disputed source behind it: the recorded datapoint is an argument in
+which *he refuses to accept she is an ENFP* (`wiki/people/ally-lubin.md`,
+2018-12-17). The same passage assigned **ISFJ** to Annie and to Alexis: Annie is
 assessed **ESFP** on `wiki/people/annie-ulmer-personality-assessment.md`, argued
-explicitly against ENFP on the Sensing/Intuition axis, and Alexis has no
-assessment at all. It also named Katie Fletcher as *"the only other ENFP
-documented"*; her page carries no type.
+explicitly against ENFP on the Sensing/Intuition axis, and Alexis is typed
+**INFP/ISFP "Idealist"** on `wiki/people/franki-faris.md` — from the same July
+2013 batch of self-typology emails that produced Dan's own earliest INTP
+self-identification. It also named Katie Fletcher as *"the only other ENFP
+documented"*; her page carries no type, and that part holds.
 
-The infobox `mbti: ENFP` on Ally's card is **not** retracted — it is a real
-frontmatter value with a real (single, disputed) source. What is retracted is the
-pairing claim and every type assigned to Dan, Alexis or Katie Fletcher.
+**What is retracted is the shared type and the complementarity built on it** —
+plus the ENFP assigned to Dan and to Katie Fletcher, and the ISFJ assigned to
+Annie and to Alexis. Neither Ally's ENFP nor Dan's INTP is retracted; both are
+real values on real pages.
+
+> **CORRECTED [2026-08-21]:** this entry's first version, and the answer's
+> correction blockquote, both asserted *"there is no MBTI assessment for Dan
+> anywhere in `wiki/` or `raw/`."* **That was false and is withdrawn.** The check
+> behind it was a grep for `ENFP|INTJ|INFJ|ISFJ` — the four types the fabricated
+> passage happened to name — and the absence of those four was reported as the
+> absence of all. `INTP` was never searched for. A verification shaped by the
+> claim it is testing confirms whatever that claim assumes; that is the reusable
+> lesson, and it is worth more than the retraction it was attached to. The
+> retracted claim itself is unaffected — Dan typing INTP makes *"both test as
+> ENFP"* more clearly wrong, not less.
+>
+> **Re-audited the same day with a pattern matching all sixteen type codes**,
+> which turned up two further errors of the same shape: **Alexis is typed**
+> (INFP/ISFP, `wiki/people/franki-faris.md`), and Suzanne Frank has a second
+> dedicated assessment page with its own confidence statement, so the corpus
+> holds two, not one. The July 9–31, 2013 self-typology batch is the origin of
+> three type codes — Dan's INTP, Alexis's INFP/ISFP, Franki's ESFP — and one
+> under-scoped grep missed the whole fortnight.
 
 The answer's conclusion (Ally Lubin) survives on other evidence and was rewritten
 the same day.
@@ -197,10 +224,10 @@ the same day.
     "(annie|alexis)[^.\\n]{0,20}(was|is)[^.\\n]{0,10}isfj",
     "katie fletcher[^.\\n]{0,40}enfp"
   ],
-  "replacement": "No MBTI assessment exists for Dan in wiki/ or raw/. Ally's ENFP is a single disputed value (Dan argues against it, 2018-12-17). Annie is assessed ESFP. Alexis and Katie Fletcher have no type on record.",
-  "reason": "Fabricated psychometrics: a sage answer invented type results for three people and reasoned from the pairing. Caught 2026-08-21 by grepping wiki/ for MBTI strings — only three pages contain any, and none is about Dan.",
+  "replacement": "Dan types INTP (wiki/mind/profile/intp.md — Ti 96/Ne 84/Si 57/Fe 10, Ni leak; self-typed in primary voice July 2013). Ally's ENFP is a single disputed value (Dan argues against it, 2018-12-17). Annie is assessed ESFP. Alexis is typed INFP/ISFP (wiki/people/franki-faris.md, July 2013 self-typology batch). Katie Fletcher has no type on record. There is no shared type and no matched function stack.",
+  "reason": "Fabricated psychometrics: a sage answer invented type results for three people and reasoned from the pairing. Dan is typed INTP in the corpus, not ENFP. The first retraction of this claim also asserted that no MBTI result for Dan existed at all — that was a verification error (the grep covered only the four types the fabrication named) and is corrected in the prose above.",
   "retracted": "2026-08-21",
-  "source": "grep over wiki/ and raw/ for MBTI type strings; wiki/people/annie-ulmer-personality-assessment.md; wiki/people/ally-lubin.md (2018-12-17 argument)",
+  "source": "wiki/mind/profile/intp.md; wiki/mind/profile/index.md (five-instrument typology table); wiki/self/context-core.md; wiki/people/annie-ulmer-personality-assessment.md; wiki/people/ally-lubin.md (2018-12-17 argument)",
   "affected_pages": [
     "sage/questions/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md"
   ]

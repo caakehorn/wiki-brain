@@ -12,8 +12,17 @@
 
 **Read this if you are picking up the thread.** The answer to *"which of the
 people in this wiki would be the best match for Dan"* named **Ally Lubin** and
-built the case on a shared ENFP function stack. **There is no MBTI result for Dan
-anywhere in `wiki/` or `raw/`.** It also gave Annie and Alexis an ISFJ they do not
+built the case on a shared ENFP function stack. **Dan types INTP** —
+`wiki/mind/profile/intp.md`, a full page with a measured function stack, plus a
+five-instrument typology table on `wiki/mind/profile/index.md`.
+
+**Read this before trusting anything else in this entry: the first correction was
+also wrong.** It asserted *"there is no MBTI result for Dan anywhere in `wiki/` or
+`raw/`,"* on the strength of a grep for `ENFP|INTJ|INFJ|ISFJ` — the four types the
+fabrication named. `INTP` was never searched for. **A check scoped by the claim it
+is testing cannot disconfirm that claim.** Corrected in revision 3 of the answer,
+in `RETRACTED.md`, and on four pages. The retraction itself stands: Dan typing
+INTP makes "both test as ENFP" more clearly false.** It also gave Annie and Alexis an ISFJ they do not
 have (Annie is assessed **ESFP**), gave Katie Fletcher an ENFP her page does not
 carry, and read *"I'm a SINGLE MOTHER"* as a fact about dependants when the thread
 corrects it to cats three minutes later. Ledgered as `dan-ally-enfp-pairing` in

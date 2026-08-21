@@ -53,6 +53,8 @@ this is the state of the thing.
   - build | wiki | one mandatory work list, and a question box that lets someone outside the repo ask it something
   - answer | mind | can he actually be monogamous — the first question the box ever took, and it clears him of the wrong thing
   - answer | people | who is the best match for Dan — rewritten, same conclusion, new evidence
+  - answer | mind | the correction was wrong: Dan types INTP, and the corpus says so on a dedicated page
+  - answer | mind | re-audited with all sixteen type codes: two more absence claims were wrong
 
 **2026-08-20** — 33 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene

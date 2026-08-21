@@ -196,10 +196,17 @@ the literal first person to ever read that wiki."* She read it, and audited it.
 **That is the Witness function performed and survived, once, by both parties**, and
 it is the closest thing the corpus has to a test of this page's central paradox.
 
-**The second finding is a negative result worth stating on the page: there is no
-MBTI assessment for Dan anywhere in `wiki/` or `raw/`.** An answer published on
-2026-08-21 invented one and reasoned from it, and the reason a model reached for
-invention is that this page is the only type-level statement about him and it is
-Enneagram-only. Record the absence explicitly, the way
-[[wiki/people/annie-ulmer-personality-assessment]] records its own confidence
-bounds, so the next pass cannot mistake the silence for an unread file.
+**The second finding is about how this page is found, not about what it says.**
+An answer published on 2026-08-21 invented an ENFP result for Dan and reasoned
+from it; the correction issued the same day then asserted that **no MBTI result
+for Dan existed anywhere**, which is also false — [[wiki/mind/profile/intp]] is a
+full page with a measured function table, and [[wiki/mind/profile/index]] carries
+him across five instruments. Two passes in one day reached for this page's
+Enneagram material and did not reach [[wiki/mind/profile/intp]], one inventing a
+type and one denying there was one. **The finding: the profile cluster is not
+discoverable from its members.** This page names `enneagram-5w4` in `related:`
+and links `intp` nowhere in its prose lead; a reader who lands here has no
+signpost telling them the MBTI page exists. Cheap fix, real consequence — add the
+cross-link at the top of both pages, and consider whether
+[[wiki/mind/profile/index]] should be reachable from every page it indexes rather
+than only from the domain index.

@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-21'
 domain: mind
 page_type: synthesis
 title: "The Commissioned Self"
@@ -351,3 +352,41 @@ throughput, not kind.
   the MBTI result, their agreement is worth nothing; if independently, it is
   worth something. The session exports could settle this and have not been read
   for it.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**The apparatus this page describes was consumed as evidence by an outside
+answer, and the page's own thesis is the reason that needs a caveat.** A sage
+answer published 2026-08-21 used [[wiki/mind/profile/intp]]'s Fe figure (10%
+valuing) and its relational consequence — *"emotional bids arrive as claim-shaped
+propositions and get adjudicated instead of met"* — to explain a documented
+message exchange. **That is this page's pattern running one step further out than
+it currently tracks.** The page follows the instrument from commissioned, to
+administered, to handed to its subject; this is the instrument being cited *as
+proof about him to a third party who asked a question through the portal*. The
+answer attached the caveat by hand — AI-inferred scores, not a proctored
+instrument, derived from the same corpus the exchange sits in — but the caveat
+should live here, as a standing rule about what the profile cluster can and
+cannot be used to prove.
+
+**Second, a datum for the count.** This page measures how often the apparatus
+surfaces in Dan's own sent messages. The **July 9–31, 2013 self-typology batch**
+(emails he sent himself, per [[wiki/people/franki-faris]]) produced at least three
+type codes in one fortnight — his own INTP, Alexis's INFP/ISFP, Franki's ESFP.
+That is the earliest documented instance of the behaviour this page names, it
+predates the AI era of it by a decade, and the page's seventeen-appearance figure
+is measured over iMessage rather than over the email corpus that batch lives in.
+Worth stating the boundary explicitly.

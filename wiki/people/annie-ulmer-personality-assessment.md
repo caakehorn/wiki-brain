@@ -372,13 +372,20 @@ Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this
 it should exist.** An answer published through the portal on 2026-08-21 assigned
 her the **ISFJ** type in its first version and reasoned from it. This page's
 assessment is **ESFP**, argued explicitly against ENFP on the Sensing/Intuition
-axis, and the error was caught by reading it. **The finding worth staging is the
-absence it exposes: there is no MBTI assessment for Dan anywhere in the corpus.**
-Three of the four types the answer reasoned from were invented, and the reason a
-model reached for invention is that the corpus supplies types for two people
-around him and none for him. Either that gap should be named on
-[[wiki/mind/profile/enneagram-5w4]] as an explicit negative result, or a Dan
-assessment should be written to the same standard as this one — which, note,
-includes its own confidence statement and its own list of surviving
-alternatives. That last property is the reason this page held and the answer did
-not.
+axis, and the error was caught by reading it. Three of the four types that answer
+reasoned from were invented — Dan's ENFP (he types **INTP**,
+[[wiki/mind/profile/intp]]), Alexis's ISFJ (no assessment exists) and Katie
+Fletcher's ENFP (her page carries no type). **What this page has and the others
+do not is the property that made it usable: a stated confidence level and a list
+of surviving alternatives** — *"Evidence favors ESFP but meaningful alternatives
+remain (ESTP, ENFP)"* — which is why a model checking against it got corrected
+rather than confirmed. The finding worth staging is that **two** pages in
+`wiki/people/` are written to that standard — this one and
+`suzanne-frank-personality-assessment` (*"Confidence: MODERATE"*, with
+contrastive testing against the strongest alternatives) — and that both are about
+people around Dan. The type codes attached to everyone else in the corpus are
+scattered across pages that are about something else: Alexis's INFP/ISFP is on
+[[wiki/people/franki-faris]], Dan's earliest INTP is on
+[[wiki/people/elizabeth-eleanor]]. **An assessment that does not publish its own
+alternatives cannot refute anything, and a type code filed on somebody else's
+page cannot be found.** Both failure modes were demonstrated on 2026-08-21.

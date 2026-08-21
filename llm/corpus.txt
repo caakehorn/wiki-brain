@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-21
-486 pages, ~1,275,577 tokens.
+486 pages, ~1,277,926 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -14612,13 +14612,20 @@ the literal first person to ever read that wiki."* She read it, and audited it.
 **That is the Witness function performed and survived, once, by both parties**, and
 it is the closest thing the corpus has to a test of this page's central paradox.
 
-**The second finding is a negative result worth stating on the page: there is no
-MBTI assessment for Dan anywhere in `wiki/` or `raw/`.** An answer published on
-2026-08-21 invented one and reasoned from it, and the reason a model reached for
-invention is that this page is the only type-level statement about him and it is
-Enneagram-only. Record the absence explicitly, the way
-[[wiki/people/annie-ulmer-personality-assessment]] records its own confidence
-bounds, so the next pass cannot mistake the silence for an unread file.
+**The second finding is about how this page is found, not about what it says.**
+An answer published on 2026-08-21 invented an ENFP result for Dan and reasoned
+from it; the correction issued the same day then asserted that **no MBTI result
+for Dan existed anywhere**, which is also false — [[wiki/mind/profile/intp]] is a
+full page with a measured function table, and [[wiki/mind/profile/index]] carries
+him across five instruments. Two passes in one day reached for this page's
+Enneagram material and did not reach [[wiki/mind/profile/intp]], one inventing a
+type and one denying there was one. **The finding: the profile cluster is not
+discoverable from its members.** This page names `enneagram-5w4` in `related:`
+and links `intp` nowhere in its prose lead; a reader who lands here has no
+signpost telling them the MBTI page exists. Cheap fix, real consequence — add the
+cross-link at the top of both pages, and consider whether
+[[wiki/mind/profile/index]] should be reachable from every page it indexes rather
+than only from the domain index.
 
 
 ========================================================================
@@ -14747,6 +14754,7 @@ PAGE: wiki/mind/profile/intp.md
 ========================================================================
 
 ---
+sage_pending: '2026-08-21'
 domain: mind
 page_type: profile
 title: "INTP — The Cognitive Function Stack"
@@ -14909,6 +14917,45 @@ history and cinema.
 proctored instrument; the Ni measurement in particular has no independent
 confirmation; no data on how the stack presents post-closure (all sources
 pre-date June 2026).
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**The Fe-inferior claim has an attested interruption, and this page has no
+instance of one.** The page states the relational consequence of 10%-valued Fe in
+one sentence — *"emotional bids arrive as claim-shaped propositions and get
+adjudicated instead of met"* — and treats it as a standing disposition. The
+2026-08-18 Ally exchange is that mechanism running and then stopping, inside two
+minutes: **ALLY** *"You just love bomb"* (a bid shaped as a judgement) → **DAN**
+*"But love bomb is like a malicious tactic and there very little malice"* (the
+adjudication, exactly as described) → **ALLY** *"I didn't say malicious"*
+(declining to be adjudicated) → **DAN** *"Okay that's fair then."* **Nothing else
+in the corpus completes that sequence.** The finding is not that Fe improved; it
+is that the conversion is refusable from the outside, by narrowing rather than by
+escalating, and the page should say what that implies about whether the pattern is
+a fixed function score or a negotiable one.
+
+**Second, a discoverability finding this page is the victim of.** Two passes on
+2026-08-21 reasoned about Dan's type without reaching this page — one inventing an
+ENFP result, one then asserting that no MBTI result for Dan existed anywhere in
+`wiki/` or `raw/`. Both are false and both were written by a model that had
+already read [[wiki/mind/profile/enneagram-5w4]]. That page does not link here in
+its prose, and neither does [[wiki/self/context-core]] where it states the
+typology line. **A profile cluster whose members do not cross-link is a cluster
+that gets half-read**, and the failure mode is not a missing page — it is a page
+nobody found. Cross-link the profile set both ways.
 
 
 ========================================================================
@@ -24869,6 +24916,7 @@ PAGE: wiki/mind/synthesis/the-commissioned-self.md
 ========================================================================
 
 ---
+sage_pending: '2026-08-21'
 domain: mind
 page_type: synthesis
 title: "The Commissioned Self"
@@ -25221,6 +25269,44 @@ throughput, not kind.
   the MBTI result, their agreement is worth nothing; if independently, it is
   worth something. The session exports could settle this and have not been read
   for it.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**The apparatus this page describes was consumed as evidence by an outside
+answer, and the page's own thesis is the reason that needs a caveat.** A sage
+answer published 2026-08-21 used [[wiki/mind/profile/intp]]'s Fe figure (10%
+valuing) and its relational consequence — *"emotional bids arrive as claim-shaped
+propositions and get adjudicated instead of met"* — to explain a documented
+message exchange. **That is this page's pattern running one step further out than
+it currently tracks.** The page follows the instrument from commissioned, to
+administered, to handed to its subject; this is the instrument being cited *as
+proof about him to a third party who asked a question through the portal*. The
+answer attached the caveat by hand — AI-inferred scores, not a proctored
+instrument, derived from the same corpus the exchange sits in — but the caveat
+should live here, as a standing rule about what the profile cluster can and
+cannot be used to prove.
+
+**Second, a datum for the count.** This page measures how often the apparatus
+surfaces in Dan's own sent messages. The **July 9–31, 2013 self-typology batch**
+(emails he sent himself, per [[wiki/people/franki-faris]]) produced at least three
+type codes in one fortnight — his own INTP, Alexis's INFP/ISFP, Franki's ESFP.
+That is the earliest documented instance of the behaviour this page names, it
+predates the AI era of it by a decade, and the page's seventeen-appearance figure
+is measured over iMessage rather than over the email corpus that batch lives in.
+Worth stating the boundary explicitly.
 
 
 ========================================================================
@@ -28770,10 +28856,18 @@ to carry that weight, and at present the claim is asserted more often than it is
 demonstrated.** The specific thing a later pass should supply: the measurement
 that distinguishes "occupied but not activated" from "insufficiently recorded."
 Six years and a thin message record are also consistent with a coverage gap, and
-the page does not currently rule that out. Note also, for hygiene: an earlier
-version of the same answer assigned Alexis an **ISFJ** type. There is no
-personality assessment for her anywhere in `wiki/` or `raw/`, and the claim was
-retracted (`RETRACTED.md`, `dan-ally-enfp-pairing`).
+the page does not currently rule that out. **A second finding, and this page is where it belongs.** An earlier version of
+the same answer assigned Alexis an **ISFJ** type, and the correction that
+followed said she had no type at all. Both are wrong: Dan typed her **INFP/ISFP
+"Idealist"** — against Franki Faris's ESFP "Performer" — in the batch of
+self-typology emails he sent himself between **July 9 and July 31, 2013**, which
+is recorded on [[wiki/people/franki-faris]] and nowhere on this page. That is the
+same fortnight that produced his own earliest INTP self-identification
+([[wiki/people/elizabeth-eleanor]]). **A typing of the corpus's six-year partner
+is sitting on the page of a five-day rebound**, which is why two passes in one day
+concluded she was untyped. Bring it here, with its provenance intact — it is Dan
+typing her, not an assessment of her, and the distinction is the whole value of
+the datapoint.
 
 
 ========================================================================
@@ -29775,10 +29869,13 @@ of dependants and a life structure outside Dan. **It is a joke about cats and sh
 corrects it herself three minutes later** — *"Are you still doing the cat mother
 thing / Or did I miss that you're an actual mother"* → *"No still just cats."*
 The page should state this explicitly, because the line is a trap that has now
-caught one pass and will catch another. Related: the page has no `mbti` evidence
-for Dan at all, and its own record of the December 2018 argument is that **he
-refuses to accept she is an ENFP** — an infobox `mbti: ENFP` on her card is
-therefore a claim with exactly one disputed source behind it and should say so.
+caught one pass and will catch another. Related, and load-bearing for the
+infobox: this page's own record of the December 2018 exchange is that **he
+refuses to accept she is an ENFP**, so `mbti: ENFP` on her card is a claim with
+exactly one disputed source behind it and should say so in the field or lose it.
+Dan's own type is not in question and is not on this page — he types **INTP**
+([[wiki/mind/profile/intp]]) — which is what makes the pairing claim a sage
+answer built on a *shared* ENFP stack pure invention rather than an overreach.
 
 
 ========================================================================
@@ -30275,16 +30372,23 @@ Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this
 it should exist.** An answer published through the portal on 2026-08-21 assigned
 her the **ISFJ** type in its first version and reasoned from it. This page's
 assessment is **ESFP**, argued explicitly against ENFP on the Sensing/Intuition
-axis, and the error was caught by reading it. **The finding worth staging is the
-absence it exposes: there is no MBTI assessment for Dan anywhere in the corpus.**
-Three of the four types the answer reasoned from were invented, and the reason a
-model reached for invention is that the corpus supplies types for two people
-around him and none for him. Either that gap should be named on
-[[wiki/mind/profile/enneagram-5w4]] as an explicit negative result, or a Dan
-assessment should be written to the same standard as this one — which, note,
-includes its own confidence statement and its own list of surviving
-alternatives. That last property is the reason this page held and the answer did
-not.
+axis, and the error was caught by reading it. Three of the four types that answer
+reasoned from were invented — Dan's ENFP (he types **INTP**,
+[[wiki/mind/profile/intp]]), Alexis's ISFJ (no assessment exists) and Katie
+Fletcher's ENFP (her page carries no type). **What this page has and the others
+do not is the property that made it usable: a stated confidence level and a list
+of surviving alternatives** — *"Evidence favors ESFP but meaningful alternatives
+remain (ESTP, ENFP)"* — which is why a model checking against it got corrected
+rather than confirmed. The finding worth staging is that **two** pages in
+`wiki/people/` are written to that standard — this one and
+`suzanne-frank-personality-assessment` (*"Confidence: MODERATE"*, with
+contrastive testing against the strongest alternatives) — and that both are about
+people around Dan. The type codes attached to everyone else in the corpus are
+scattered across pages that are about something else: Alexis's INFP/ISFP is on
+[[wiki/people/franki-faris]], Dan's earliest INTP is on
+[[wiki/people/elizabeth-eleanor]]. **An assessment that does not publish its own
+alternatives cannot refute anything, and a type code filed on somebody else's
+page cannot be found.** Both failure modes were demonstrated on 2026-08-21.
 
 
 ========================================================================
@@ -37131,6 +37235,7 @@ PAGE: wiki/people/franki-faris.md
 ========================================================================
 
 ---
+sage_pending: '2026-08-21'
 domain: people
 page_type: entity
 title: "Franki Faris"
@@ -37300,6 +37405,42 @@ and the tenure figure is contested per the block above. Her presence in the
 Seven Springs orbit raises an unasked question the corpus can probably answer —
 whether she was already known to Dan through skiing rather than only through
 school.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**This page holds the corpus's typing of Alexis Armel, and that is why two
+passes in one day concluded she was untyped.** The line — Franki as an
+ESFP/"Performer" against *"Alexis's INFP/ISFP 'Idealist,' in a batch of
+self-typology emails he sent himself between July 9 and July 31, 2013"* — is the
+only place in `wiki/` where Alexis carries a type code. A sage answer published
+2026-08-21 first invented an **ISFJ** for her, then corrected itself to *"no
+assessment at all,"* and both were wrong because the datum is filed on the page
+of a five-day rebound rather than on the page of the six-year relationship.
+**Cross-reference it to [[wiki/people/alexis-armel]] with its provenance intact:
+it is Dan typing her, in his own self-typology batch, not an assessment of her**
+— and that distinction is most of its value, because it makes the typing evidence
+about the typer.
+
+**The batch itself deserves a line here.** July 9–31, 2013 produced at least three
+type codes — Franki's ESFP, Alexis's INFP/ISFP, and Dan's own earliest documented
+INTP self-identification ([[wiki/people/elizabeth-eleanor]], July 10–11, 2013,
+*"as an INTP and heavily introverted, logic-based dude"*). That fortnight is the
+origin point of [[wiki/mind/synthesis/the-commissioned-self]]'s pattern, a decade
+before the AI instrumentation that page is mostly built on, and it sits inside the
+five days this page is about.
 
 
 ========================================================================

@@ -993,7 +993,10 @@ of dependants and a life structure outside Dan. **It is a joke about cats and sh
 corrects it herself three minutes later** — *"Are you still doing the cat mother
 thing / Or did I miss that you're an actual mother"* → *"No still just cats."*
 The page should state this explicitly, because the line is a trap that has now
-caught one pass and will catch another. Related: the page has no `mbti` evidence
-for Dan at all, and its own record of the December 2018 argument is that **he
-refuses to accept she is an ENFP** — an infobox `mbti: ENFP` on her card is
-therefore a claim with exactly one disputed source behind it and should say so.
+caught one pass and will catch another. Related, and load-bearing for the
+infobox: this page's own record of the December 2018 exchange is that **he
+refuses to accept she is an ENFP**, so `mbti: ENFP` on her card is a claim with
+exactly one disputed source behind it and should say so in the field or lose it.
+Dan's own type is not in question and is not on this page — he types **INTP**
+([[wiki/mind/profile/intp]]) — which is what makes the pairing claim a sage
+answer built on a *shared* ENFP stack pure invention rather than an overreach.
